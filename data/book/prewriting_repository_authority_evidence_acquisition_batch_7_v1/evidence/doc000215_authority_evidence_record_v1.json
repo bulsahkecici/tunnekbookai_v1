@@ -1,0 +1,158 @@
+{
+  "author_evidence": [
+    {
+      "converted_source_lines": "23",
+      "field": "author_or_presenter",
+      "value": "Suhan Mutlu",
+      "zone": "title_slide"
+    },
+    {
+      "converted_source_lines": "23",
+      "field": "author_role",
+      "value": "Yol Yapım Şefi",
+      "zone": "title_slide"
+    }
+  ],
+  "authority_class": "UNKNOWN_AUTHORITY",
+  "authority_evaluation": {
+    "claim_relative_applicability": "NOT_YET_AUTHORITY_SUITABLE",
+    "date_or_version_applicability": "Course event dated 24–28.02.2020; edition/version unresolved.",
+    "exact_evidence_basis": "No frozen taxonomy source type or explicit issuer/publisher authority record is proven.",
+    "limitations": "Presenter and subordinate unit identity do not prove issuing-institution authority; filename, path, body mentions, legacy labels, and topic are non-promotional.",
+    "supporting_repository_artifact": "data/markdown_full_docling/TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/3-TÜNEL DESTEKLEMESİ-ÇELİK HASIR VE ÇELİK İKSA.md"
+  },
+  "authority_evidence_sufficiency": "INSUFFICIENT_SOURCE_TYPE_UNRESOLVED",
+  "authority_status": "UNKNOWN",
+  "batch_id": "BATCH-07",
+  "canonical_source_relationship": {
+    "canonical_source_path": "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/3-TÜNEL DESTEKLEMESİ-ÇELİK HASIR VE ÇELİK İKSA.pptx",
+    "canonical_source_sha256": "b0a8ec72de9c063ee06938663c5e6fe3ab91d6c244cae9ccd36884ef26dac934",
+    "evidence_lines": "4-8",
+    "relationship": "DERIVED_CONVERSION_OF_CANONICAL_PPTX"
+  },
+  "date_or_version_evidence": [
+    {
+      "converted_source_lines": "23",
+      "field": "event_date_and_place",
+      "value": "24–28.02.2020, Ankara",
+      "zone": "title_slide"
+    }
+  ],
+  "document_id": "DOC000215",
+  "exact_title": "3-TÜNEL DESTEKLEMESİ-ÇELİK HASIR VE ÇELİK İKSA",
+  "external_identity_verification_required": true,
+  "external_verification_plan": {
+    "identity_matching_keys": [
+      "DOC000215",
+      "3-TÜNEL DESTEKLEMESİ-ÇELİK HASIR VE ÇELİK İKSA",
+      "Suhan Mutlu",
+      "24–28.02.2020",
+      "b0a8ec72de9c063ee06938663c5e6fe3ab91d6c244cae9ccd36884ef26dac934"
+    ],
+    "mismatch_behavior": "RETAIN_UNKNOWN_AUTHORITY_AND_RECORD_VERSIONED_MISMATCH",
+    "missing_identity_fields": [
+      "frozen-taxonomy source type",
+      "issuing institution/publisher",
+      "edition/version",
+      "formal publication identifiers if any"
+    ],
+    "preferred_authoritative_lookup_class": "ISSUING_INSTITUTION_COURSE_OR_PUBLICATION_RECORD"
+  },
+  "identity_confidence": "HIGH_ARTIFACT_IDENTITY_SOURCE_TYPE_UNRESOLVED",
+  "institution_or_publisher_evidence": [
+    {
+      "converted_source_lines": "25-27",
+      "field": "institutional_unit",
+      "value": "Yol Yapım Şubesi Müdürlüğü; Yol Yapım Dairesi Başkanlığı",
+      "zone": "title_slide_front_matter"
+    }
+  ],
+  "local_artifact_identity": {
+    "path": "data/markdown_full_docling/TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/3-TÜNEL DESTEKLEMESİ-ÇELİK HASIR VE ÇELİK İKSA.md",
+    "sha256": "ef399f135e7a8b035b3734a078fe0e039a2ad8e2a80d0293fd9762eb8c5d67d1"
+  },
+  "local_evidence_location": {
+    "path": "data/markdown_full_docling/TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/3-TÜNEL DESTEKLEMESİ-ÇELİK HASIR VE ÇELİK İKSA.md",
+    "targeted_lines": "2-27"
+  },
+  "project_or_report_identity": {
+    "converted_source_lines": "21-27",
+    "field": "project_identity",
+    "value": "Tünel Kontrol Mühendisi Geliştirme Kursu — Tünel Destekleme Elemanları",
+    "zone": "title_slide"
+  },
+  "promotion": false,
+  "report_standard_publication_identifiers": [],
+  "result": "SOURCE_TYPE_UNRESOLVED",
+  "schema_version": "1.0.0",
+  "source_type": "UNKNOWN_SOURCE_TYPE",
+  "source_type_evidence": [
+    {
+      "converted_source_lines": "4-7",
+      "field": "source_format",
+      "value": "Microsoft PowerPoint presentation (.pptx)",
+      "zone": "canonical_conversion_metadata"
+    },
+    {
+      "converted_source_lines": "21-27",
+      "field": "project_identity",
+      "value": "Tünel Kontrol Mühendisi Geliştirme Kursu — Tünel Destekleme Elemanları",
+      "zone": "title_slide"
+    }
+  ],
+  "source_type_resolution_note": "The artifact format and course-deck identity are explicit, but the frozen source-type taxonomy has no course-presentation class.",
+  "title_or_front_matter_evidence": [
+    {
+      "converted_source_lines": "2-6",
+      "field": "exact_title",
+      "value": "3-TÜNEL DESTEKLEMESİ-ÇELİK HASIR VE ÇELİK İKSA",
+      "zone": "canonical_conversion_metadata"
+    },
+    {
+      "converted_source_lines": "4-7",
+      "field": "source_format",
+      "value": "Microsoft PowerPoint presentation (.pptx)",
+      "zone": "canonical_conversion_metadata"
+    },
+    {
+      "converted_source_lines": "21-27",
+      "field": "project_identity",
+      "value": "Tünel Kontrol Mühendisi Geliştirme Kursu — Tünel Destekleme Elemanları",
+      "zone": "title_slide"
+    },
+    {
+      "converted_source_lines": "23",
+      "field": "author_or_presenter",
+      "value": "Suhan Mutlu",
+      "zone": "title_slide"
+    },
+    {
+      "converted_source_lines": "23",
+      "field": "author_role",
+      "value": "Yol Yapım Şefi",
+      "zone": "title_slide"
+    },
+    {
+      "converted_source_lines": "25-27",
+      "field": "institutional_unit",
+      "value": "Yol Yapım Şubesi Müdürlüğü; Yol Yapım Dairesi Başkanlığı",
+      "zone": "title_slide_front_matter"
+    },
+    {
+      "converted_source_lines": "23",
+      "field": "event_date_and_place",
+      "value": "24–28.02.2020, Ankara",
+      "zone": "title_slide"
+    }
+  ],
+  "unresolved_fields": [
+    "frozen_taxonomy_source_type",
+    "issuing_institution_or_publisher",
+    "edition_or_version",
+    "report_number",
+    "DOI",
+    "ISBN",
+    "ISSN",
+    "standard_or_specification_identifier"
+  ]
+}

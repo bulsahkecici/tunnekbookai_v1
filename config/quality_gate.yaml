@@ -1,0 +1,39 @@
+# Ingest quality gate (§50-§51). Per-document GO / REVIEW / REJECT.
+version: 1
+
+go_requires:                 # all must hold for GO (§50)
+  - original_archived
+  - sha256_valid
+  - supported_format
+  - conversion_success
+  - provenance_present
+  - metadata_schema_valid
+  - final_section_in_taxonomy
+  - no_critical_extraction_error
+
+format_specific:             # §51
+  pdf:
+    page_snapshot_ratio_min: 0.95    # snapshot pages / expected pages
+  docx:
+    renderer_unavailable_is_review: true   # not REJECT
+  pptx:
+    renderer_unavailable_is_review: true
+  xlsx:
+    require_structured_workbook: true
+  image:
+    ocr_empty_is_review_not_reject: true
+
+review_reasons:
+  - VISUAL_RENDERER_UNAVAILABLE
+  - LOW_SECTION_CONFIDENCE
+  - OCR_EMPTY_TEXT_IMAGE
+  - CRAWLER_FINAL_SECTION_DISAGREEMENT
+  - VISION_UNAVAILABLE_VISUAL_ASSET
+
+staging:
+  enabled: true
+  target: corpus/staging
+  bundle_shape: unified_ingest_v1      # distinct from the legacy flat crawler bundle (§14.6)
+
+canonical_promotion:
+  automatic: false           # never (§53, §60, §91)

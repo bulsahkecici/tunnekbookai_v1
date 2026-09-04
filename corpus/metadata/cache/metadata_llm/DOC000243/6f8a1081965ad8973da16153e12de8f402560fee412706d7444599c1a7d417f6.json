@@ -1,0 +1,47 @@
+{
+  "document_id": "DOC000243",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:04:46+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "not_requested [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "training_material"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "T.C. KARAYOLLARI GENEL MÜDÜRLÜĞÜ 5. Bölge Müdürlüğü",
+      "value": "Karayolları Genel Müdürlüğü (KGM)"
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "T.C. KARAYOLLARI GENEL MÜDÜRLÜĞÜ 5. Bölge Müdürlüğü E.484792 Sayı : 14535709- 755 / . Konu : Tünel Ġmalatları [suggested_value_not_supported_by_evidence]",
+      "value": "Bölgenin Yazısı"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "tunnel_general"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "01/10/2018 tarih ve 55500382-755/449665 sayılı yazınız",
+      "value": 2018
+    }
+  },
+  "source_sha256": "987e528093726754eeea3686e12e7302340a5a5287ee7c43b0d5fd732114ce07"
+}

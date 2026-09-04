@@ -1,0 +1,54 @@
+{
+  "author_evidence": [],
+  "authority_class": "UNKNOWN_AUTHORITY",
+  "authority_evidence_sufficiency": "INCOMPLETE",
+  "batch_id": "BATCH-03",
+  "claim_relative_applicability": "NOT_YET_AUTHORITY_SUITABLE",
+  "date_or_version_evidence": [],
+  "document_id": "DOC000076",
+  "exact_title": null,
+  "external_identity_verification_required": true,
+  "external_verification_plan": {
+    "identity_matching_keys": [
+      "DOC000076",
+      "Tünel Ana Elemanları, Ana Özellikleri ve Yapım Teknikleri"
+    ],
+    "mismatch_behavior": "RETAIN_UNKNOWN_AUTHORITY",
+    "missing_identity_fields": [
+      "exact_source_title",
+      "author_or_issuing_body",
+      "source_type_evidence",
+      "date_or_version",
+      "publication_identifier"
+    ],
+    "preferred_authoritative_lookup_class": "ISSUER_PUBLISHER_OR_INSTITUTIONAL_REPOSITORY_RECORD"
+  },
+  "identity_confidence": "PARTIAL",
+  "identity_evidence": [
+    {
+      "converted_source_lines": "19",
+      "field": "section_title",
+      "value": "Tünel Ana Elemanları, Ana Özellikleri ve Yapım Teknikleri",
+      "zone": "opening_heading"
+    }
+  ],
+  "inspection_mechanism": "TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION",
+  "institution_or_publisher_evidence": [],
+  "limitations": "No claim proposition, support, provenance, anchor, scope, review, or admission state changed.",
+  "missing_fields": [
+    "exact_source_title",
+    "author_or_issuing_body",
+    "source_type_evidence",
+    "date_or_version",
+    "publication_identifier"
+  ],
+  "promotion": false,
+  "publication_identifiers": [],
+  "reason": "The bounded opening identity zone contains only a section heading; source identity and type remain incomplete.",
+  "result": "LOCAL_EXTRACTION_INCOMPLETE",
+  "schema_version": "1.0.0",
+  "source_path": "data/markdown_full_docling/Mehmet/Kitap 2.Bolum/Tuneller Bolum2_9_7_2025.md",
+  "source_sha256": "1bfc73ff6b34ca9d727419655407d881decc96bf8a8dce5049d6f553427a8a0d",
+  "source_type": "UNKNOWN_SOURCE_TYPE",
+  "source_type_evidence": []
+}

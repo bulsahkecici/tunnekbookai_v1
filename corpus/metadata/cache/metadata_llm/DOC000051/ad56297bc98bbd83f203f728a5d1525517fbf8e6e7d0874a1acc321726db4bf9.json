@@ -1,0 +1,47 @@
+{
+  "document_id": "DOC000051",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:11:34+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "medium",
+      "evidence": "Tünel Haritası 2024_KGMWEB",
+      "value": "inventory"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "Tünel Haritası 2024_KGMWEB",
+      "value": "KGM"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "# Tünel Haritası 2024_KGMWEB",
+      "value": "Tünel Haritası 2024_KGMWEB"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Tünel Haritası 2024_KGMWEB",
+      "value": [
+        "tunnel_general"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Tünel Haritası 2024_KGMWEB",
+      "value": 2024
+    }
+  },
+  "source_sha256": "164a2494261086dbb9d2446b8ab4a1141ead7783629ac7d21915fdd57d7bcf11"
+}

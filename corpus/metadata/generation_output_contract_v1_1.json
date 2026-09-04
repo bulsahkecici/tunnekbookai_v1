@@ -1,0 +1,98 @@
+{
+  "version": "tunnelbook-generation-output-contract-v1.1",
+  "implementation_path": "scripts/31_generation_output_contract_v1_1.py",
+  "implementation_sha": "5ebf8fe90e3e5491ce07a9143f8fd377841defa2e0e7a09188f3a835b07bdef5",
+  "parent_contract_version": "tunnelbook-generation-output-contract-v1",
+  "parent_contract_sha": "670031d116056485155fc9d5c3d12b472d91f6b1e7a34ed9b169166f3727ce7d",
+  "parent_preserved": "scripts/26_generation_output_contract.py, data/metadata/generation_output_contract_v1.json and reports/generation_output_contract_v1.md are unmodified frozen historical evidence. v1.1 imports v1 and delegates every non-language check to it rather than reimplementing those semantics.",
+  "validator_version": "citation-validator-v1.2",
+  "validator_modified": false,
+  "repair_policy": "none_fail_closed",
+  "repair_policy_detail": {
+    "marker_rewriting": "forbidden",
+    "body_translation": "forbidden",
+    "citation_normalisation": "forbidden",
+    "handle_insertion": "forbidden",
+    "claim_repair": "forbidden",
+    "rationale": "Unchanged from v1. v1.1 is still a validator/enforcer: it decides, it never edits. GEV062 remains the standing proof - rewriting its marker would have concealed an answer that is English from end to end."
+  },
+  "supported_languages": ["tr", "en"],
+  "marker_mapping": {
+    "tr": "YETERSİZ KANIT",
+    "en": "INSUFFICIENT EVIDENCE"
+  },
+  "marker_policy_changed": false,
+  "language_detection_version": "proper-noun-aware-lexical-v1.1",
+  "change_scope": "proper-noun-aware deterministic language detection only. No other enforcement semantics changed: citation syntax, unknown-handle detection, marker mapping, marker-at-start, source-coordinate leaks, template leaks, thinking leaks, empty-answer handling, citation coverage telemetry and the repair policy are all inherited from v1 unchanged and verified identical by semantic regression.",
+  "root_cause_fixed": {
+    "case": "GEV018",
+    "defect": "v1 classified a correct English answer as Turkish because nine Turkish glyphs inside proper nouns (Yapı Merkezi, Avrasya Tüneli İşletme İnşaat ve Yatırım A.Ş., ATAŞ) scored 2.0 each and outweighed thirteen English function words. The only Turkish word present was 've', inside a company's legal name.",
+    "consequence": "Both failed stack gates of the integrated evaluation traced to this single false-positive rejection."
+  },
+  "language_detection": {
+    "method": "deterministic_lexical_with_entity_masking_and_sentence_aggregation",
+    "no_ner_model": true,
+    "no_llm": true,
+    "no_hardcoded_entity_list": true,
+    "stages": [
+      "mask named entities: capitalised tokens that are not sentence-initial or list-item-initial are removed, with no name list and no model",
+      "score grammatical prose: function words plus weighted morphology over the masked text",
+      "classify each sentence independently, then aggregate by sentence counts",
+      "report ambiguous when both languages hold a substantial share of the sentences",
+      "apply glyph evidence only as a capped tie-break requiring Turkish function-word support"
+    ],
+    "primary_signals": [
+      "turkish_function_words",
+      "english_function_words",
+      "turkish_predicate_morphology",
+      "english_derivational_morphology"
+    ],
+    "secondary_signals": ["turkish_specific_glyphs_after_entity_masking"],
+    "ignored": [
+      "named entities (place, organisation, project, person, source-title names)",
+      "citation_handles", "numbers", "units", "acronyms_and_standard_codes", "urls", "symbols"
+    ],
+    "parameters": {
+      "min_body_tokens": 8,
+      "min_sentence_tokens": 3,
+      "decision_margin": 1.5,
+      "turkish_morphology_weight": 2.0,
+      "english_morphology_weight": 0.5,
+      "mixed_minority_ratio": 0.35,
+      "glyph_tie_break_cap": 2.0,
+      "min_turkish_words_for_glyph_support": 1
+    },
+    "parameter_calibration": "Calibrated on data/evaluation/output_contract_language_v1_1_dev.jsonl (development data) only. The 72-item Benchmark v2 answer set was NOT used for tuning.",
+    "asymmetry_rationale": "Turkish is agglutinative and carries in suffixes the grammatical load English spreads across separate function words. Equal weighting, and a four-token sentence floor, both systematically under-read Turkish; the morphology weights and the three-token floor correct that bias rather than favouring either language.",
+    "ambiguous_behaviour": "reported as ambiguous and failed closed; never guessed",
+    "short_text_behaviour": "reported as insufficient_text; confidence is never manufactured"
+  },
+  "development_validation": {
+    "dev_set": "data/evaluation/output_contract_language_v1_1_dev.jsonl",
+    "cases": 43,
+    "groups": {
+      "english_prose_with_turkish_proper_nouns": 10,
+      "turkish_prose_with_english_proper_nouns": 10,
+      "plain_english": 5,
+      "plain_turkish": 5,
+      "mixed_language_ambiguous": 5,
+      "short_or_numeric_heavy": 5,
+      "real_control_v1_false_positive": 1,
+      "real_control_marker_failure": 1,
+      "real_control_body_failure": 1
+    },
+    "v1_1_mismatches": 0,
+    "v1_mismatches_on_same_set": 9,
+    "language_dev_false_positives": 0,
+    "language_dev_false_negatives": 0
+  },
+  "semantic_regression_against_v1": {
+    "inputs_compared": 60,
+    "non_language_field_drift": 0,
+    "citation_matrix_identical": true,
+    "v1_clean_controls_passing": "14/14",
+    "known_failures_preserved": ["GEV042", "GEV061", "GEV062"]
+  },
+  "stack_status_effect": "This does NOT make the production stack acceptable. v1.1 must first pass the frozen 72-query integrated re-evaluation. generation_candidate_v1.json is unchanged.",
+  "status": "frozen"
+}

@@ -1,0 +1,15 @@
+{
+  "version": "tunnelbook-sec-02-2-technical-remediation-negative-fixtures-v1",
+  "fixtures": [
+    {"fixture_id": "NEG-T01", "mutation": "C-004 planned without TSB-C004-WET-001", "rule_id": "TV-SCOPE-001", "input": {"mandatory_binding_ids": ["TSB-C004-WET-001"], "paragraph_scope_binding_ids": []}, "expected_failure_code": "TECHNICAL_SCOPE_BINDING_MISSING", "result": "REJECT"},
+    {"fixture_id": "NEG-T02", "mutation": "C-005 planned without TSB-C005-WET-001", "rule_id": "TV-SCOPE-001", "input": {"mandatory_binding_ids": ["TSB-C005-WET-001"], "paragraph_scope_binding_ids": []}, "expected_failure_code": "TECHNICAL_SCOPE_BINDING_MISSING", "result": "REJECT"},
+    {"fixture_id": "NEG-T03", "mutation": "C-012 planned as system-independent without repair-work binding", "rule_id": "TV-SCOPE-001", "input": {"mandatory_binding_ids": ["TSB-C012-REPAIR-001"], "paragraph_scope_binding_ids": []}, "expected_failure_code": "TECHNICAL_SCOPE_BINDING_MISSING", "result": "REJECT"},
+    {"fixture_id": "NEG-T04", "mutation": "P0-008 planned with generic rock condition and without all three named case ids", "rule_id": "TV-CASE-001", "input": {"required_case_ids": ["ROCK-CRUSHED", "ROCK-SQUEEZING", "ROCK-SWELLING"], "planned_case_ids": ["ROCK-CRUSHED"], "required_dependency": "dependent on tunnel size", "planned_dependencies": ["dependent on tunnel size"]}, "expected_failure_code": "TECHNICAL_CASE_SET_INCOMPLETE", "result": "REJECT"},
+    {"fixture_id": "NEG-T05", "mutation": "cement-dose subsection omits C-018 maximum boundary", "rule_id": "TV-BOUND-001", "input": {"boundary_required": true, "boundary_allocated": false}, "expected_failure_code": "TECHNICAL_BOUNDARY_CLAIM_MISSING", "result": "REJECT"},
+    {"fixture_id": "NEG-T06", "mutation": "P0 cement claim allocates SRC-DOC000087-e7393bf8138a", "rule_id": "TV-CITE-001", "input": {"selected_source_keys": ["SRC-DOC000087-e7393bf8138a"], "permitted_source_keys": ["SRC-DOC000236-0229b854f373"]}, "expected_failure_code": "TECHNICAL_CITATION_ALLOCATION_INVALID", "result": "REJECT"},
+    {"fixture_id": "NEG-T07", "mutation": "C-002 acceptance criterion selects strength_class as semantic subject", "rule_id": "TV-CRITERION-001", "input": {"semantic_subject": "strength_class", "required_subject": "criterion_fact_ids", "forbidden_subjects": ["strength_class", "C25/30"]}, "expected_failure_code": "TECHNICAL_CRITERION_SUBJECT_MISMATCH", "result": "REJECT"},
+    {"fixture_id": "NEG-T08", "mutation": "C-018 maximum is allocated without its cement-type consequence", "rule_id": "TV-CONSEQUENCE-001", "input": {"linked_consequence_required": true, "linked_consequence_present": false}, "expected_failure_code": "TECHNICAL_LINKED_CONSEQUENCE_MISSING", "result": "REJECT"},
+    {"fixture_id": "NEG-T09", "mutation": "remediation produces a Markdown draft", "rule_id": "TV-SURFACE-001", "input": {"rendered_units": 1, "draft_artifacts": 1}, "expected_failure_code": "TECHNICAL_UNAUTHORISED_SURFACE", "result": "REJECT"}
+  ],
+  "summary": {"fixtures": 9, "rejected": 9, "false_accepts": 0, "false_rejects": 0}
+}

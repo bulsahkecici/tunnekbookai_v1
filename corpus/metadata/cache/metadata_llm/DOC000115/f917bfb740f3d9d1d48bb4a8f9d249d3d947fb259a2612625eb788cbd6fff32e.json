@@ -1,0 +1,63 @@
+{
+  "document_id": "DOC000115",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:56:30+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "Austrian Tunnelling Seminar Ankara, March 31st &amp; April 1st, 2015",
+      "value": "C"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Austrian Tunnelling Seminar Ankara, March 31st &amp; April 1st, 2015",
+      "value": "conference_paper"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "**Hanns Wagner** OBB – Austrian Federal Railways",
+      "value": "OBB – Austrian Federal Railways"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "**The successful application of different excavation methods on the example of the Koralm tunnel lots KAT1 &amp; KAT2**",
+      "value": "The successful application of different excavation methods on the example of the Koralm tunnel lots KAT1 & KAT2"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "collapse",
+        "contracts",
+        "cost",
+        "drainage",
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "ground_improvement",
+        "injection",
+        "maintenance",
+        "natm",
+        "operations",
+        "portal",
+        "rock_mechanics",
+        "tbm",
+        "ventilation",
+        "water"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Austrian Tunnelling Seminar Ankara, March 31st &amp; April 1st, 2015",
+      "value": 2015
+    }
+  },
+  "source_sha256": "97708590548f2234ac69cfb394e550635427de10767b45e06c79914fce3f7ca4"
+}

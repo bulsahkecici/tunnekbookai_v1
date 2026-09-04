@@ -1,0 +1,50 @@
+{
+  "document_id": "DOC000274",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:07:53+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "Bu Genel Şartname, 5/1/2002 tarihli ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre sözleşmeye bağlanan yapım işlerinin yürütülmesinde uygulanacak genel esasları belirlemek amacıyla hazırlanmıştır. [authority_A_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Bu Genel Şartname, 5/1/2002 tarihli ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre sözleşmeye bağlanan yapım işlerinin yürütülmesinde uygulanacak genel esasları belirlemek amacıyla hazırlanmıştır.",
+      "value": "regulation"
+    },
+    "language": {
+      "confidence": "low",
+      "evidence": "tr [evidence_not_grounded_in_context]",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "**EK-8** **YAPIM İŞLERİ GENEL ŞARTNAMESİ**",
+      "value": "8- Yapım Genel Partname"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Bu Genel Şartname, 5/1/2002 tarihli ve 4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre sözleşmeye bağlanan yapım işlerinin yürütülmesinde uygulanacak genel esasları belirlemek amacıyla hazırlanmıştır.",
+      "value": [
+        "contracts",
+        "cost",
+        "excavation",
+        "unit_price"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "(24-28.02.2020) [evidence_not_grounded_in_context]",
+      "value": 2020
+    }
+  },
+  "source_sha256": "d844b88241ad23e0112f7379aa7139f947ebebb2da499ff4cef01b61e57a9009"
+}

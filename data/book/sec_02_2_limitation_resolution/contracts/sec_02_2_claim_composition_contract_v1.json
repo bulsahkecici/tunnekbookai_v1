@@ -1,0 +1,1493 @@
+{
+  "authored_at": "2026-08-19T11:24:15.047400+00:00",
+  "authored_by": "tunnelbook-sec-02-2-limitation-resolution-v1",
+  "claim_pair_constraints": [
+    {
+      "allowed_same_paragraph": true,
+      "allowed_same_sentence": false,
+      "audit_method": "manual_evidence_read",
+      "constraint_id": "PC-001",
+      "left_claim_id": "SEC-02-2-P0-002",
+      "manual_review_required": false,
+      "origin_limitation": "CF-P0-001",
+      "reason": "Different material (general concrete vs shotcrete), different requirement direction (maximum vs minimum), different document scope (Tablo-308-23-b exposure-class design table vs the shotcrete specification) and different design route. No source relates them. A single sentence containing both invites the reader to read one as bounding the other, which is exactly the proposition SYN-001 asserted and no source supports.",
+      "relationship_policy": "INDEPENDENT",
+      "required_action": "put the two figures in separate sentences, each naming its own scope, with no connector tying them; or drop one of them from the unit",
+      "required_qualifiers": [
+        "general_concrete scope on 360 kg/m³",
+        "dry_system shotcrete scope on 350 kg/m³"
+      ],
+      "right_claim_id": "SEC-02-2-R001"
+    },
+    {
+      "allowed_same_paragraph": true,
+      "allowed_same_sentence": false,
+      "audit_method": "manual_evidence_read",
+      "constraint_id": "PC-002",
+      "left_claim_id": "SEC-02-2-P0-002",
+      "manual_review_required": false,
+      "origin_limitation": "CF-P0-001",
+      "reason": "Different material (general concrete vs shotcrete), different requirement direction (maximum vs minimum), different document scope (Tablo-308-23-b exposure-class design table vs the shotcrete specification) and different design route. No source relates them. A single sentence containing both invites the reader to read one as bounding the other, which is exactly the proposition SYN-001 asserted and no source supports.",
+      "relationship_policy": "INDEPENDENT",
+      "required_action": "put the two figures in separate sentences, each naming its own scope, with no connector tying them; or drop one of them from the unit",
+      "required_qualifiers": [
+        "general_concrete scope on 360 kg/m³",
+        "wet_system shotcrete scope on 400 kg/m³"
+      ],
+      "right_claim_id": "SEC-02-2-P0-001"
+    },
+    {
+      "allowed_same_paragraph": true,
+      "allowed_same_sentence": false,
+      "audit_method": "manual_evidence_read",
+      "constraint_id": "PC-003",
+      "left_claim_id": "SEC-02-2-P0-002",
+      "manual_review_required": false,
+      "origin_limitation": "CF-P0-001",
+      "reason": "Different material (general concrete vs shotcrete), different requirement direction (maximum vs minimum), different document scope (Tablo-308-23-b exposure-class design table vs the shotcrete specification) and different design route. No source relates them. A single sentence containing both invites the reader to read one as bounding the other, which is exactly the proposition SYN-001 asserted and no source supports. P0-003 carries both shotcrete minimums, so pairing it with the 360 figure in one sentence is the SYN-001 construction almost verbatim.",
+      "relationship_policy": "INDEPENDENT",
+      "required_action": "put the two figures in separate sentences, each naming its own scope, with no connector tying them; or drop one of them from the unit",
+      "required_qualifiers": [
+        "general_concrete scope on 360 kg/m³",
+        "shotcrete scope with both systems named"
+      ],
+      "right_claim_id": "SEC-02-2-P0-003"
+    },
+    {
+      "allowed_same_paragraph": true,
+      "allowed_same_sentence": false,
+      "audit_method": "manual_evidence_read",
+      "constraint_id": "PC-004",
+      "left_claim_id": "SEC-02-2-P0-002",
+      "manual_review_required": false,
+      "origin_limitation": "CF-P0-001",
+      "reason": "Different material (general concrete vs shotcrete), different requirement direction (maximum vs minimum), different document scope (Tablo-308-23-b exposure-class design table vs the shotcrete specification) and different design route. No source relates them. A single sentence containing both invites the reader to read one as bounding the other, which is exactly the proposition SYN-001 asserted and no source supports.",
+      "relationship_policy": "INDEPENDENT",
+      "required_action": "put the two figures in separate sentences, each naming its own scope, with no connector tying them; or drop one of them from the unit",
+      "required_qualifiers": [
+        "general_concrete scope on 360 kg/m³",
+        "shotcrete scope with both systems named"
+      ],
+      "right_claim_id": "SEC-02-2-P0-006"
+    },
+    {
+      "allowed_same_paragraph": true,
+      "allowed_same_sentence": true,
+      "audit_method": "manual_evidence_read",
+      "constraint_id": "PC-005",
+      "left_claim_id": "SEC-02-2-R001",
+      "manual_review_required": false,
+      "origin_limitation": null,
+      "reason": "Both are shotcrete cement minimums and one source span states them together, distinguished by system: 'kuru sistemde 350 kg/m³'ten, yaş sistemde ise 400 kg/m³'ten az olmayacaktır'. The comparison is the source's own, so it may be drafted - but only as dry-system vs wet-system. Merging them into a single figure or a 350-400 range is not what the source says.",
+      "relationship_policy": "SOURCE_SUPPORTED_RELATION",
+      "required_action": "name both systems in the sentence carrying both figures",
+      "required_qualifiers": [
+        "kuru sistem named for 350 kg/m³",
+        "yaş sistem named for 400 kg/m³"
+      ],
+      "right_claim_id": "SEC-02-2-P0-001"
+    },
+    {
+      "allowed_same_paragraph": true,
+      "allowed_same_sentence": false,
+      "audit_method": "manual_evidence_read",
+      "constraint_id": "PC-006",
+      "left_claim_id": "SEC-02-2-P0-002",
+      "manual_review_required": false,
+      "origin_limitation": "CF-P0-001",
+      "reason": "Different material (general concrete vs shotcrete), different requirement direction (maximum vs minimum), different document scope (Tablo-308-23-b exposure-class design table vs the shotcrete specification) and different design route. No source relates them. A single sentence containing both invites the reader to read one as bounding the other, which is exactly the proposition SYN-001 asserted and no source supports. P0-005's 350 kg/m³ floor is a shotcrete durability minimum set by exposure class and mix-design work; placing it beside the general-concrete maximum implies a single governing rule.",
+      "relationship_policy": "INDEPENDENT",
+      "required_action": "put the two figures in separate sentences, each naming its own scope, with no connector tying them; or drop one of them from the unit",
+      "required_qualifiers": [
+        "general_concrete scope on 360 kg/m³",
+        "shotcrete durability scope on 350 kg/m³"
+      ],
+      "right_claim_id": "SEC-02-2-P0-005"
+    }
+  ],
+  "claim_scopes": [
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-001",
+      "conditions": [
+        "püskürtme beton"
+      ],
+      "document_scope": "KTS 2013 §351.10.01",
+      "exceptions": [],
+      "material_scope": "shotcrete",
+      "numeric_values": [
+        {
+          "condition": "püskürtme beton karakteristik serbest basınç dayanımı",
+          "derived": false,
+          "role": "minimum",
+          "source_stated": true,
+          "unit": "MPa",
+          "value": "C25/30"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "minimum",
+        "mandatory"
+      ],
+      "scope_evidence": "Source: 'Püskürtme betonun basınç dayanım sınıfi minimum C25/30 MPa sınıfında olacaktır'. 'olacaktır' is binding, so mandatory as well as a minimum.",
+      "source_keys": [
+        "SRC-DOC000236-8dfa5f799b50"
+      ],
+      "system_scope": "system_independent",
+      "topic": "dayanım sınıfı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-002",
+      "conditions": [
+        "C25/30 dayanım sınıfı",
+        "28 günlük karot numunesi"
+      ],
+      "document_scope": "Tablo-351-5 (KGM 2013)",
+      "exceptions": [],
+      "material_scope": "shotcrete",
+      "numeric_values": [
+        {
+          "condition": "C25/30, 28 günlük karot, bireysel minimum",
+          "derived": false,
+          "role": "minimum",
+          "source_stated": true,
+          "unit": "MPa",
+          "value": "22.5"
+        },
+        {
+          "condition": "C25/30, 28 günlük karot, 3 numunelik grup ortalaması",
+          "derived": false,
+          "role": "minimum",
+          "source_stated": true,
+          "unit": "MPa",
+          "value": "25.5"
+        }
+      ],
+      "qualifiers": [
+        "Tablo-351-5 kalite kontrol kriterleridir; dayanım sınıfının kendisi değil, kabul kriteridir"
+      ],
+      "requirement_scope": [
+        "design_table"
+      ],
+      "scope_evidence": "Tablo-351-5 gives core-sample acceptance criteria for shotcrete strength classes. It is an acceptance table, not the strength class itself - hence design_table and the qualifier already carried on the claim.",
+      "source_keys": [
+        "SRC-DOC000087-ea64db4f1a7f"
+      ],
+      "system_scope": "system_independent",
+      "topic": "dayanım sınıfı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-003",
+      "conditions": [
+        "bir defada (tek geçişte) uygulama"
+      ],
+      "document_scope": "KTS/KGM 2013 §351.08.08",
+      "exceptions": [],
+      "material_scope": "shotcrete",
+      "numeric_values": [
+        {
+          "condition": "bir defada uygulanacak katman",
+          "derived": false,
+          "role": "maximum",
+          "source_stated": true,
+          "unit": "cm",
+          "value": "15"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "maximum",
+        "mandatory"
+      ],
+      "scope_evidence": "Source: 'Bir defada uygulanacak püskürtme betonunun maksimum kalınlığı 15 cm'yi geçmeyecektir'. Binding modality, stated in centimetres.",
+      "source_keys": [
+        "SRC-DOC000087-8d778c37de30",
+        "SRC-DOC000236-ca4f53f1dd68"
+      ],
+      "system_scope": "system_independent",
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-004",
+      "conditions": [
+        "ilk tabaka"
+      ],
+      "document_scope": "KTS/KGM 2013 §351.08.08",
+      "exceptions": [],
+      "material_scope": "shotcrete",
+      "numeric_values": [
+        {
+          "condition": "ilk tabaka, tercih edilen",
+          "derived": false,
+          "role": "preferred",
+          "source_stated": true,
+          "unit": "mm",
+          "value": "60"
+        },
+        {
+          "condition": "ilk tabaka",
+          "derived": false,
+          "role": "maximum",
+          "source_stated": true,
+          "unit": "mm",
+          "value": "100"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "recommended",
+        "maximum"
+      ],
+      "scope_evidence": "Source: 'tercihen yaklaşık 60 mm (maksimum 100 mm)'. 'tercihen' makes the 60 mm a preference; the 100 mm is a maximum.",
+      "source_keys": [
+        "SRC-DOC000087-8d778c37de30"
+      ],
+      "system_scope": "system_independent",
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-005",
+      "conditions": [
+        "takip eden tabakalar",
+        "nihai kalınlık",
+        "priz hızlandırıcı katkı tipi"
+      ],
+      "document_scope": "KTS/KGM 2013 §351.08.08",
+      "exceptions": [],
+      "material_scope": "shotcrete",
+      "numeric_values": [
+        {
+          "condition": "takip eden tabakalar",
+          "derived": false,
+          "role": "range_min",
+          "source_stated": true,
+          "unit": "mm",
+          "value": "50"
+        },
+        {
+          "condition": "takip eden tabakalar",
+          "derived": false,
+          "role": "range_max",
+          "source_stated": true,
+          "unit": "mm",
+          "value": "200"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "typical_range"
+      ],
+      "scope_evidence": "Source: 'Takip eden tabakalar, nihai kalınlığa (ve kullanılan priz hızlandırıcı katkı malzemesinin tipine) bağlı olarak 50-200 mm olmalıdır'. Both dependencies are stated, so the range is a typical_range rather than a fixed requirement.",
+      "source_keys": [
+        "SRC-DOC000087-8d778c37de30"
+      ],
+      "system_scope": "system_independent",
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-006",
+      "conditions": [
+        "kalınlığın artırılması gereken durum"
+      ],
+      "document_scope": "KTS/KGM 2013 §351.08.08",
+      "exceptions": [],
+      "material_scope": "shotcrete",
+      "numeric_values": [],
+      "qualifiers": [],
+      "requirement_scope": [
+        "mandatory"
+      ],
+      "scope_evidence": "Source: 'müteakip tabaka(lar) ... yeterli mertebeye ulaşmadan uygulanmayacaktır'. The modality is a prohibition, so the requirement scope is mandatory and carries no figure of its own - it is the strength gate between layers.",
+      "source_keys": [
+        "SRC-DOC000087-8d778c37de30"
+      ],
+      "system_scope": "system_independent",
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-007",
+      "conditions": [
+        "ilave tabakalar"
+      ],
+      "document_scope": "KTS/KGM 2013 §351.08.08",
+      "exceptions": [],
+      "material_scope": "shotcrete",
+      "numeric_values": [
+        {
+          "condition": "ilave tabakaların tamamlanması",
+          "derived": false,
+          "role": "maximum",
+          "source_stated": true,
+          "unit": "gün",
+          "value": "3"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "maximum",
+        "mandatory"
+      ],
+      "scope_evidence": "Source: 'Bu ilave tabakalar, üç günü geçmeyen bir süre içersinde tamamlanmış olacaktır'. A binding upper bound on elapsed time, stated in days, in the same clause as the layering rule.",
+      "source_keys": [
+        "SRC-DOC000087-8d778c37de30"
+      ],
+      "system_scope": "system_independent",
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-008",
+      "conditions": [
+        "çelik lifli püskürtme beton",
+        "istenilen nihai kalınlık"
+      ],
+      "document_scope": "KTS/KGM 2013 §351.08.09",
+      "exceptions": [],
+      "material_scope": "steel_fibre_shotcrete",
+      "numeric_values": [
+        {
+          "condition": "çelik lifli püskürtme beton ilk faz",
+          "derived": false,
+          "role": "value",
+          "source_stated": true,
+          "unit": "mm",
+          "value": "50"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "typical_range"
+      ],
+      "scope_evidence": "Section heading is 'Çelik Liflerle Püskürtme', so the material scope is steel-fibre shotcrete specifically and not shotcrete generally. The 50 mm first phase belongs to that narrower material and must not be read as a general first-layer thickness.",
+      "source_keys": [
+        "SRC-DOC000087-8d778c37de30"
+      ],
+      "system_scope": "system_independent",
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-009",
+      "conditions": [
+        "kil zonlu tabakalar üzerine uygulama"
+      ],
+      "document_scope": "KTS 2013 §351.08.10.02",
+      "exceptions": [],
+      "material_scope": "shotcrete",
+      "numeric_values": [
+        {
+          "condition": "kil zonlu tabakalar, ilk katman",
+          "derived": false,
+          "role": "range_min",
+          "source_stated": true,
+          "unit": "mm",
+          "value": "100"
+        },
+        {
+          "condition": "kil zonlu tabakalar, ilk katman",
+          "derived": false,
+          "role": "range_max",
+          "source_stated": true,
+          "unit": "mm",
+          "value": "150"
+        }
+      ],
+      "qualifiers": [
+        "§351.08.10.02 kil zonlu tabakalara özgüdür; genel ilk katman kalınlığı değildir"
+      ],
+      "requirement_scope": [
+        "typical_range",
+        "case_specific"
+      ],
+      "scope_evidence": "Section heading scopes the figure to clay zones. 'genellikle' makes it typical. The 150 mm here is a source-stated range bound and is unrelated to the derived 150 mm in C-003.",
+      "source_keys": [
+        "SRC-DOC000236-ad4b684b487a"
+      ],
+      "system_scope": "system_independent",
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-010",
+      "conditions": [
+        "tamir işleri",
+        "priz hızlandırıcı katkı kullanılmaksızın",
+        "takviye donatılarının arkasında ve etrafında"
+      ],
+      "document_scope": "KTS/KGM 2013 §351.08.11",
+      "exceptions": [],
+      "material_scope": "shotcrete",
+      "numeric_values": [
+        {
+          "condition": "tepe üstü ayna, donatı arkası/etrafı",
+          "derived": false,
+          "role": "cover_over",
+          "source_stated": true,
+          "unit": "mm",
+          "value": "10"
+        },
+        {
+          "condition": "dik ayna, donatı arkası/etrafı",
+          "derived": false,
+          "role": "cover_over",
+          "source_stated": true,
+          "unit": "mm",
+          "value": "20"
+        }
+      ],
+      "qualifiers": [
+        "tavsiye edilen kalınlıklardır, zorunlu değildir"
+      ],
+      "requirement_scope": [
+        "recommended",
+        "case_specific"
+      ],
+      "scope_evidence": "Source heads the list 'Herhangi bir priz hızlandırıcı katkı malzemesi kullanılmaksızın, püskürtülen katmanlar için tavsiye edilen kalınlıklar'. 'tavsiye edilen' makes these recommendations rather than requirements, and the accelerator-free condition scopes them.",
+      "source_keys": [
+        "SRC-DOC000087-d989fc9aefbd"
+      ],
+      "system_scope": "system_independent",
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-011",
+      "conditions": [
+        "tamir işleri",
+        "priz hızlandırıcı katkı kullanılmaksızın",
+        "ek katman veya takviye donatısı bulunmayan durum"
+      ],
+      "document_scope": "KTS/KGM 2013 §351.08.11",
+      "exceptions": [],
+      "material_scope": "shotcrete",
+      "numeric_values": [
+        {
+          "condition": "tepe üstü ayna, ek katman/donatı yok",
+          "derived": false,
+          "role": "maximum",
+          "source_stated": true,
+          "unit": "mm",
+          "value": "30"
+        },
+        {
+          "condition": "dik ayna, ek katman/donatı yok",
+          "derived": false,
+          "role": "maximum",
+          "source_stated": true,
+          "unit": "mm",
+          "value": "50"
+        }
+      ],
+      "qualifiers": [
+        "tavsiye edilen kalınlıklardır, zorunlu değildir"
+      ],
+      "requirement_scope": [
+        "recommended",
+        "case_specific"
+      ],
+      "scope_evidence": "Same list, the no-reinforcement branch. Kept separate from C-010 because merging the two figure pairs would read as a contradiction.",
+      "source_keys": [
+        "SRC-DOC000087-d989fc9aefbd"
+      ],
+      "system_scope": "system_independent",
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-012",
+      "conditions": [
+        "yaklaşık 20 °C",
+        "priz hızlandırıcı katkı kullanılmaması"
+      ],
+      "document_scope": "KTS/KGM 2013 §351.08.11",
+      "exceptions": [],
+      "material_scope": "shotcrete",
+      "numeric_values": [
+        {
+          "condition": "yaklaşık sıcaklık",
+          "derived": false,
+          "role": "approximate",
+          "source_stated": true,
+          "unit": "°C",
+          "value": "20"
+        },
+        {
+          "condition": "priz hızlandırıcı katkı kullanılmadığında",
+          "derived": false,
+          "role": "range",
+          "source_stated": true,
+          "unit": "saat",
+          "value": "3-5"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "typical_range",
+        "case_specific"
+      ],
+      "scope_evidence": "Source: 'Yaklaşık 20 °C sıcaklıkta ve herhangi bir priz hızlandırıcı katkı malzemesi kullanılmaz ise, bekleme süresi yaklaşık 3-5 saattir'. Both conditions and both hedges ('yaklaşık' twice) are stated, so this is a typical range under named conditions.",
+      "source_keys": [
+        "SRC-DOC000087-d989fc9aefbd"
+      ],
+      "system_scope": "system_independent",
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-013",
+      "conditions": [],
+      "document_scope": "DOC000215 'Çelik hasır montajı'",
+      "exceptions": [],
+      "material_scope": "steel_mesh",
+      "numeric_values": [
+        {
+          "condition": "boy çubuk",
+          "derived": false,
+          "role": "count",
+          "source_stated": true,
+          "unit": "adet",
+          "value": "15"
+        },
+        {
+          "condition": "en çubuk",
+          "derived": false,
+          "role": "count",
+          "source_stated": true,
+          "unit": "adet",
+          "value": "20"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "design_table"
+      ],
+      "scope_evidence": "Source lists 'Hasır Çelik Tipleri' and under it '(R) Tipleri 15 adet boy, 20 adet en çubuklu'. The material scope is welded wire mesh, not shotcrete: the figures are bar counts for a reinforcement product and carry no cement or thickness meaning.",
+      "source_keys": [
+        "SRC-DOC000215-9f39b265f06d"
+      ],
+      "system_scope": "not_applicable",
+      "topic": null
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-014",
+      "conditions": [],
+      "document_scope": "DOC000215 'Çelik hasır montajı'",
+      "exceptions": [],
+      "material_scope": "steel_mesh",
+      "numeric_values": [
+        {
+          "condition": "boy çubuk",
+          "derived": false,
+          "role": "count",
+          "source_stated": true,
+          "unit": "adet",
+          "value": "15"
+        },
+        {
+          "condition": "en çubuk",
+          "derived": false,
+          "role": "count",
+          "source_stated": true,
+          "unit": "adet",
+          "value": "33"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "design_table"
+      ],
+      "scope_evidence": "Same enumeration, the (Q) row: '15 adet boy, 33 adet en çubukludur'. Recorded as a design_table because it is a product type listing rather than a project requirement.",
+      "source_keys": [
+        "SRC-DOC000215-9f39b265f06d"
+      ],
+      "system_scope": "not_applicable",
+      "topic": null
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-015",
+      "conditions": [
+        "kaya ve zemin destekleme uygulamaları"
+      ],
+      "document_scope": "DOC000124 / DOC000098",
+      "exceptions": [],
+      "material_scope": "steel_mesh",
+      "numeric_values": [],
+      "qualifiers": [],
+      "requirement_scope": [
+        "design_table"
+      ],
+      "scope_evidence": "Two independent sources state the same pair of mesh construction types in one sentence each ('zincir şeklinde geçmeli' and 'kaynatılarak tutturulan'). The enumeration is the source's own, which is why both types may share a sentence.",
+      "source_keys": [
+        "SRC-DOC000124-1190e1676b28"
+      ],
+      "system_scope": "not_applicable",
+      "topic": null
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-016",
+      "conditions": [],
+      "document_scope": "DOC000215 'Çelik hasır montajı'",
+      "exceptions": [],
+      "material_scope": "steel_mesh",
+      "numeric_values": [
+        {
+          "condition": "standart çelik hasır boyu",
+          "derived": false,
+          "role": "dimension",
+          "source_stated": true,
+          "unit": "m",
+          "value": "5.00"
+        },
+        {
+          "condition": "standart çelik hasır eni",
+          "derived": false,
+          "role": "dimension",
+          "source_stated": true,
+          "unit": "m",
+          "value": "2.15"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "design_table"
+      ],
+      "scope_evidence": "Source states 'Standart Çelik Hasır 5.00 x 2.15 m. ebadındadır' and 'Çelik Hasır ile ilgili TSE standardı TS 4559'dur'. Product dimensions and a standard reference, not a shotcrete requirement.",
+      "source_keys": [
+        "SRC-DOC000215-9f39b265f06d"
+      ],
+      "system_scope": "not_applicable",
+      "topic": null
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-C-017",
+      "conditions": [
+        "tek bir maden işletmesindeki uygulama"
+      ],
+      "document_scope": "DOC000195",
+      "exceptions": [],
+      "material_scope": "steel_mesh",
+      "numeric_values": [
+        {
+          "condition": "hasır teli kalınlığı",
+          "derived": false,
+          "role": "value",
+          "source_stated": true,
+          "unit": "mm",
+          "value": "7"
+        },
+        {
+          "condition": "göz aralığı",
+          "derived": false,
+          "role": "grid",
+          "source_stated": true,
+          "unit": "cm",
+          "value": "15x15"
+        }
+      ],
+      "qualifiers": [
+        "belirli bir işletmedeki uygulamadır; şartname hükmü veya genel gereklilik değildir"
+      ],
+      "requirement_scope": [
+        "case_specific"
+      ],
+      "scope_evidence": "Describes one named mine operation's practice. The scope qualifier already on the claim is mandatory: without it these figures read as a specification requirement.",
+      "source_keys": [
+        "SRC-DOC000195-02d691673955"
+      ],
+      "system_scope": "not_applicable",
+      "topic": null
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-P0-001",
+      "conditions": [
+        "özel uygulamalar dışında"
+      ],
+      "document_scope": "püskürtme beton şartnamesi",
+      "exceptions": [],
+      "material_scope": "wet_system_shotcrete",
+      "numeric_values": [
+        {
+          "condition": "yaş sistem püskürtme beton minimum çimento",
+          "derived": false,
+          "derived_from_unit": null,
+          "derived_from_value": null,
+          "reviewed_by_p0": true,
+          "role": "carried",
+          "source_stated": true,
+          "unit": "kg/m³",
+          "value": "400"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "minimum"
+      ],
+      "scope_evidence": "Source states 'yaş sistemde ise 400 kg/m³'ten az olmayacaktır' in the same span. System scope is stated, not inferred.",
+      "source_keys": [
+        "SRC-DOC000087-e7393bf8138a",
+        "SRC-DOC000236-0229b854f373"
+      ],
+      "system_scope": "wet_system",
+      "topic": "çimento dozajı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-P0-002",
+      "conditions": [
+        "yüksek dayanımlı beton dışında"
+      ],
+      "document_scope": "Tablo-308-23-b (KGM/KTS 2013)",
+      "exceptions": [],
+      "material_scope": "general_concrete",
+      "numeric_values": [
+        {
+          "condition": null,
+          "derived": false,
+          "derived_from_unit": null,
+          "derived_from_value": null,
+          "reviewed_by_p0": false,
+          "role": "unitless_reference_fragment",
+          "source_stated": true,
+          "unit": null,
+          "value": "23"
+        },
+        {
+          "condition": null,
+          "derived": false,
+          "derived_from_unit": null,
+          "derived_from_value": null,
+          "reviewed_by_p0": false,
+          "role": "unitless_reference_fragment",
+          "source_stated": true,
+          "unit": null,
+          "value": "308"
+        },
+        {
+          "condition": "Tablo-308-23-b genel beton maksimum çimento",
+          "derived": false,
+          "derived_from_unit": null,
+          "derived_from_value": null,
+          "reviewed_by_p0": true,
+          "role": "carried",
+          "source_stated": true,
+          "unit": "kg/m³",
+          "value": "360"
+        }
+      ],
+      "qualifiers": [
+        "Tablo-308-23-b, etki sınıflarına göre projelendirmede esas alınacak GENEL beton özelliklerine ilişkindir; püskürtme beton şartnamesi değildir"
+      ],
+      "requirement_scope": [
+        "maximum",
+        "design_table"
+      ],
+      "scope_evidence": "The span is the heading and body of Tablo-308-23-b, 'Etki Sınıflarına Göre Projelendirmelerde Esas Alınacak Beton Özellikleri'. That table governs general concrete designed by exposure class. It is in a different chapter from the shotcrete specification and names no shotcrete system. The P0 phase recorded this scope as a mandatory qualifier.",
+      "source_keys": [
+        "SRC-DOC000087-7646b05ab1bd",
+        "SRC-DOC000236-4bfaac5ac12c"
+      ],
+      "system_scope": "not_applicable",
+      "topic": "çimento dozajı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-P0-003",
+      "conditions": [
+        "özel uygulamalar dışında"
+      ],
+      "document_scope": "püskürtme beton şartnamesi",
+      "exceptions": [],
+      "material_scope": "shotcrete",
+      "numeric_values": [
+        {
+          "condition": "kuru sistem püskürtme beton minimum çimento",
+          "derived": false,
+          "derived_from_unit": null,
+          "derived_from_value": null,
+          "reviewed_by_p0": true,
+          "role": "carried",
+          "source_stated": true,
+          "unit": "kg/m³",
+          "value": "350"
+        },
+        {
+          "condition": "yaş sistem püskürtme beton minimum çimento",
+          "derived": false,
+          "derived_from_unit": null,
+          "derived_from_value": null,
+          "reviewed_by_p0": true,
+          "role": "carried",
+          "source_stated": true,
+          "unit": "kg/m³",
+          "value": "400"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "minimum"
+      ],
+      "scope_evidence": "One span carries both system minimums together with durability as the stated reason. The claim is system-independent because it enumerates both systems explicitly; that enumeration is the source's own, which is why 350 and 400 may share a sentence here.",
+      "source_keys": [
+        "SRC-DOC000087-e7393bf8138a",
+        "SRC-DOC000236-0229b854f373"
+      ],
+      "system_scope": "system_independent",
+      "topic": "çimento dozajı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-P0-004",
+      "conditions": [
+        "İdare onayı"
+      ],
+      "document_scope": "püskürtme beton şartnamesi",
+      "exceptions": [],
+      "material_scope": "shotcrete",
+      "numeric_values": [],
+      "qualifiers": [],
+      "requirement_scope": [
+        "case_specific"
+      ],
+      "scope_evidence": "A reduction permitted with the Administration's approval for slope cladding and temporary support. It states no figure of its own; it modifies the others.",
+      "source_keys": [
+        "SRC-DOC000087-e7393bf8138a",
+        "SRC-DOC000236-0229b854f373"
+      ],
+      "system_scope": "system_independent",
+      "topic": "çimento dozajı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-P0-005",
+      "conditions": [],
+      "document_scope": "püskürtme beton şartnamesi",
+      "exceptions": [],
+      "material_scope": "shotcrete",
+      "numeric_values": [
+        {
+          "condition": "kuru sistem püskürtme beton minimum çimento",
+          "derived": false,
+          "derived_from_unit": null,
+          "derived_from_value": null,
+          "reviewed_by_p0": true,
+          "role": "carried",
+          "source_stated": true,
+          "unit": "kg/m³",
+          "value": "350"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "minimum",
+        "project_specific"
+      ],
+      "scope_evidence": "Source conditions the figure on external exposure classes and laboratory / preliminary mix design work, so the requirement scope is project_specific as well as a minimum. No system is named, so system scope stays system_independent rather than being guessed.",
+      "source_keys": [
+        "SRC-DOC000236-8d87293e1c7b"
+      ],
+      "system_scope": "system_independent",
+      "topic": "çimento dozajı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-P0-006",
+      "conditions": [
+        "özel uygulamalar dışında"
+      ],
+      "document_scope": "püskürtme beton şartnamesi",
+      "exceptions": [],
+      "material_scope": "shotcrete",
+      "numeric_values": [
+        {
+          "condition": "kuru sistem püskürtme beton minimum çimento",
+          "derived": false,
+          "derived_from_unit": null,
+          "derived_from_value": null,
+          "reviewed_by_p0": true,
+          "role": "carried",
+          "source_stated": true,
+          "unit": "kg/m³",
+          "value": "350"
+        },
+        {
+          "condition": "yaş sistem püskürtme beton minimum çimento",
+          "derived": false,
+          "derived_from_unit": null,
+          "derived_from_value": null,
+          "reviewed_by_p0": true,
+          "role": "carried",
+          "source_stated": true,
+          "unit": "kg/m³",
+          "value": "400"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "minimum"
+      ],
+      "scope_evidence": "Same span as P0-003, stated as a summary. Both systems named explicitly.",
+      "source_keys": [
+        "SRC-DOC000087-e7393bf8138a",
+        "SRC-DOC000236-0229b854f373"
+      ],
+      "system_scope": "system_independent",
+      "topic": "çimento dozajı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-P0-007",
+      "conditions": [
+        "depending on ground conditions and size of the tunnel opening"
+      ],
+      "document_scope": "FHWA Technical Manual (DOC000047) §9.3.3",
+      "exceptions": [],
+      "material_scope": "initial_shotcrete_lining",
+      "numeric_values": [
+        {
+          "condition": null,
+          "derived": false,
+          "derived_from_unit": null,
+          "derived_from_value": null,
+          "reviewed_by_p0": false,
+          "role": "unitless_reference_fragment",
+          "source_stated": true,
+          "unit": null,
+          "value": "100"
+        },
+        {
+          "condition": null,
+          "derived": false,
+          "derived_from_unit": null,
+          "derived_from_value": null,
+          "reviewed_by_p0": false,
+          "role": "unitless_reference_fragment",
+          "source_stated": true,
+          "unit": null,
+          "value": "16"
+        },
+        {
+          "condition": null,
+          "derived": false,
+          "derived_from_unit": null,
+          "derived_from_value": null,
+          "reviewed_by_p0": false,
+          "role": "unitless_reference_fragment",
+          "source_stated": true,
+          "unit": null,
+          "value": "400"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "typical_range"
+      ],
+      "scope_evidence": "Source: 'It has a thickness ranging generally from 4 to 16 inches (100 to 400 mm)...'. 'generally' and 'typically' make this a typical range, not a requirement. Both units are inside the source's own parentheses.",
+      "source_keys": [
+        "SRC-DOC000047-72f96c5daace",
+        "SRC-DOC000047-838e92811f43"
+      ],
+      "system_scope": "not_applicable",
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-P0-008",
+      "conditions": [
+        "In some",
+        "dependent on tunnel size"
+      ],
+      "document_scope": "FHWA Technical Manual (DOC000047) support-class table",
+      "exceptions": [],
+      "material_scope": "initial_shotcrete_lining",
+      "numeric_values": [
+        {
+          "condition": null,
+          "derived": false,
+          "derived_from_unit": null,
+          "derived_from_value": null,
+          "reviewed_by_p0": false,
+          "role": "unitless_reference_fragment",
+          "source_stated": true,
+          "unit": null,
+          "value": "12"
+        },
+        {
+          "condition": null,
+          "derived": false,
+          "derived_from_unit": null,
+          "derived_from_value": null,
+          "reviewed_by_p0": false,
+          "role": "unitless_reference_fragment",
+          "source_stated": true,
+          "unit": null,
+          "value": "300"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "typical_range",
+        "case_specific"
+      ],
+      "scope_evidence": "Source: crushed and squeezing rock rows both give '12 in (300 mm) and more'. Conditioned on named rock conditions, so case_specific.",
+      "source_keys": [
+        "SRC-DOC000047-d5c60204e247"
+      ],
+      "system_scope": "not_applicable",
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-R001",
+      "conditions": [],
+      "document_scope": "püskürtme beton şartnamesi",
+      "exceptions": [],
+      "material_scope": "dry_system_shotcrete",
+      "numeric_values": [
+        {
+          "condition": "kuru sistem püskürtme beton minimum çimento",
+          "derived": false,
+          "derived_from_unit": null,
+          "derived_from_value": null,
+          "reviewed_by_p0": true,
+          "role": "carried",
+          "source_stated": true,
+          "unit": "kg/m³",
+          "value": "350"
+        }
+      ],
+      "qualifiers": [],
+      "requirement_scope": [
+        "minimum"
+      ],
+      "scope_evidence": "Source states 'kuru sistemde 350 kg/m³'ten ... az olmayacaktır' inside the shotcrete specification. System scope is stated, not inferred.",
+      "source_keys": [
+        "SRC-DOC000236-8d87293e1c7b"
+      ],
+      "system_scope": "dry_system",
+      "topic": "çimento dozajı"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "authority_levels": [],
+      "claim_id": "SEC-02-2-R025",
+      "conditions": [],
+      "document_scope": "FHWA Technical Manual (DOC000047)",
+      "exceptions": [],
+      "material_scope": "flashcrete",
+      "numeric_values": [],
+      "qualifiers": [
+        "normally"
+      ],
+      "requirement_scope": [
+        "typical_range"
+      ],
+      "scope_evidence": "Source describes flashcrete as a sealing layer that is not considered active support and is normally followed by the initial shotcrete lining. Material scope is flashcrete specifically, which is why its figures never interact with the lining-thickness claims.",
+      "source_keys": [
+        "SRC-DOC000047-72f96c5daace"
+      ],
+      "system_scope": "not_applicable",
+      "topic": null
+    }
+  ],
+  "connector_policy": "Connector matching is used only for the cross-sentence paragraph case. Same-sentence juxtaposition of restricted figures is forbidden outright, with no connector analysis, because a prohibition that depends on enumerating conjunctions can be evaded by choosing one nobody enumerated.",
+  "core_principle": "supported claim A + supported claim B does NOT imply 'A therefore B', 'A although B', 'A contradicts B' or 'A is an exception to B' unless that relationship is itself supported by a source or an approved synthesis contract.",
+  "derived_numeric_default_policy": "SOURCE_STATED_ONLY",
+  "derived_numeric_policy_note": "A later drafting contract may choose to render '15 cm (150 mm)' with the conversion explicitly marked as calculated and the citation making clear that 150 mm is not source-stated. That is not the default here. For SEC-02-2 Drafting Contract v1 the policy is SOURCE_STATED_ONLY, so 150 mm stays out of the draft allowlist entirely.",
+  "derived_numeric_rules": [
+    {
+      "audit_method": "manual_evidence_read",
+      "claim_id": "SEC-02-2-C-003",
+      "context_markers": [
+        "bir defada",
+        "tek seferde",
+        "tek geçişte",
+        "bir kerede",
+        "maksimum kalınlık",
+        "maksimum kalınlığı",
+        "single pass",
+        "in one pass",
+        "single application"
+      ],
+      "derived": true,
+      "derived_unit": "mm",
+      "derived_value": "150",
+      "drafting_policy": "SOURCE_STATED_ONLY",
+      "exempt_context_markers": [
+        "kil zonu",
+        "kil zonlu",
+        "clay zone",
+        "351.08.10.02",
+        "100-150",
+        "100 - 150",
+        "100–150"
+      ],
+      "exemption_reason": "SEC-02-2-C-009 states 'İlk püskürtme beton katmanı genellikle 100-150 mm'dir' for clay-zone layers. That 150 mm is source-stated and cited; it is a different clause with different provenance and must keep passing.",
+      "required_action": "state the single-pass maximum as 15 cm, the unit the source uses; do not attribute 150 mm to the specification",
+      "rule_id": "DN-001",
+      "severity": "BLOCKING",
+      "source_stated": false,
+      "source_unit": "cm",
+      "source_value": "15"
+    }
+  ],
+  "determinism": "All decisions are regex, set membership or sentence-window comparisons. No LLM judge is used at any point.",
+  "failure_mode": "fail_closed - no auto-rewrite, no auto-repair, no automatic qualifier insertion. An invalid draft unit is rejected with required actions.",
+  "forbidden_synthesis_rules": [
+    {
+      "audit_method": "manual_evidence_read",
+      "component_claim_ids": [
+        "SEC-02-2-P0-002",
+        "SEC-02-2-P0-003",
+        "SEC-02-2-R001",
+        "SEC-02-2-P0-001"
+      ],
+      "forbidden_patterns": [
+        "360\\s*kg/m\\s?3.{0,200}?(?:ancak|buna rağmen|buna karşın|olmasına rağmen|olmakla birlikte|belirtilse de|olsa da|rağmen|karşın|oysa|oysaki|halbuki|fakat|lakin|aksine|tersine|although|though|despite|however|whereas|but|in contrast|nevertheless|nonetheless|conversely).{0,200}?(?:350\\s*kg/m\\s?3|400\\s*kg/m\\s?3)",
+        "(?:350\\s*kg/m\\s?3|400\\s*kg/m\\s?3).{0,200}?(?:ancak|buna rağmen|buna karşın|olmasına rağmen|olmakla birlikte|belirtilse de|olsa da|rağmen|karşın|oysa|oysaki|halbuki|fakat|lakin|aksine|tersine|although|though|despite|however|whereas|but|in contrast|nevertheless|nonetheless|conversely).{0,200}?360\\s*kg/m\\s?3",
+        "360\\s*kg/m\\s?3.{0,200}?350\\s?/\\s?400",
+        "350\\s?/\\s?400\\s*kg/m\\s?3.{0,200}?360",
+        "360\\s*kg/m\\s?3.{0,160}?(?:istisna|exception|exempt)",
+        "(?:istisna|exception|exempt).{0,160}?360\\s*kg/m\\s?3",
+        "360\\s*kg/m\\s?3.{0,200}?(?:çelişmekte|çelişki|contradict|conflict)",
+        "(?:çelişmekte|çelişki|contradict|conflict).{0,200}?360\\s*kg/m\\s?3",
+        "350\\s*(?:ila|-|–|to)\\s*400\\s*kg/m\\s?3",
+        "360\\s*kg/m\\s?3.{0,120}?(?:üst sınır|üst limit|tavan|ceiling|upper limit)"
+      ],
+      "forbidden_relationship": "concessive / exception relation between the general-concrete maximum and the shotcrete minimums",
+      "pattern_intent": [
+        "historical SYN-001 wording: 360 joined to 350 or 400 by a concessive",
+        "the same construction in reverse order (minimum first, maximum second)",
+        "the 350/400 slash abbreviation placed after 360",
+        "the 350/400 slash abbreviation placed before 360",
+        "360 named as having an exception",
+        "360 named as being an exception",
+        "360 asserted to contradict the shotcrete minimums - no TRUE_CONFLICT record exists, CF-P0-001 is a CONTEXT_DIFFERENCE",
+        "the same contradiction claim in reverse order",
+        "a fabricated 350-400 interval collapsing the dry/wet system distinction",
+        "360 recast as a ceiling or upper limit over the shotcrete minimums"
+      ],
+      "required_action": "state the general-concrete maximum and the shotcrete minimums as separate, separately scoped claims in separate sentences; assert no relation between them",
+      "rule_id": "FS-001",
+      "safe_representation": "SEPARATE_SUPPORTED_CLAIMS",
+      "severity": "BLOCKING",
+      "synthesis_id": "SYN-001"
+    }
+  ],
+  "mandatory_qualifier_rules": [
+    {
+      "audit_method": "manual_evidence_read",
+      "claim_id": "SEC-02-2-P0-002",
+      "enforce_unqualified": true,
+      "figure_id": "FIG-360-GENERAL-MAX",
+      "forbidden_scopes": [
+        "shotcrete",
+        "dry_system",
+        "wet_system"
+      ],
+      "forbidden_unqualified_form": "Maksimum çimento miktarı 360 kg/m³'tür.",
+      "misattribution_note": "Presenting the general-concrete maximum as a shotcrete figure states something false about shotcrete while citing a true statement about general concrete - the citation would resolve and the sentence would still be wrong.",
+      "origin_limitation": "CF-P0-001",
+      "required_action": "render 360 kg/m³ only in a sentence that names its general-concrete / Tablo-308-23-b scope; never bare, never as a shotcrete figure",
+      "required_qualifier": "Tablo-308-23-b, etki sınıflarına göre projelendirmede esas alınacak GENEL beton özelliklerine ilişkindir; püskürtme beton şartnamesi değildir",
+      "required_scope": "general_concrete",
+      "rule_id": "MQ-001",
+      "severity": "BLOCKING"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "claim_id": "SEC-02-2-R001",
+      "enforce_unqualified": false,
+      "figure_id": "FIG-350-DRY-MIN",
+      "forbidden_scopes": [
+        "general_concrete"
+      ],
+      "forbidden_unqualified_form": "(bare form permitted - the section's subject supplies the correct scope)",
+      "misattribution_note": "The mirror of MQ-001: a dry-system shotcrete minimum presented as a general-concrete requirement. Tablo-308-23-b sets no cement minimum at all, so this attributes to it a requirement it does not contain.",
+      "origin_limitation": "CF-P0-001",
+      "required_action": "do not attribute the 350 kg/m³ shotcrete minimum to general concrete or to Tablo-308-23-b",
+      "required_qualifier": "püskürtme beton (kuru sistem) şartname hükmüdür",
+      "required_scope": "shotcrete",
+      "rule_id": "MQ-002",
+      "severity": "BLOCKING"
+    },
+    {
+      "audit_method": "manual_evidence_read",
+      "claim_id": "SEC-02-2-P0-001",
+      "enforce_unqualified": false,
+      "figure_id": "FIG-400-WET-MIN",
+      "forbidden_scopes": [
+        "general_concrete"
+      ],
+      "forbidden_unqualified_form": "(bare form permitted - the section's subject supplies the correct scope)",
+      "misattribution_note": "The mirror of MQ-001 for the wet-system minimum. Attributing it to general concrete would also place a 400 kg/m³ minimum above Tablo-308-23-b's 360 kg/m³ maximum, manufacturing the very contradiction CF-P0-001 exists to prevent.",
+      "origin_limitation": "CF-P0-001",
+      "required_action": "do not attribute the 400 kg/m³ shotcrete minimum to general concrete or to Tablo-308-23-b",
+      "required_qualifier": "püskürtme beton (yaş sistem) şartname hükmüdür",
+      "required_scope": "shotcrete",
+      "rule_id": "MQ-003",
+      "severity": "BLOCKING"
+    }
+  ],
+  "negation_markers": [
+    "değildir",
+    "değil",
+    "kapsamaz",
+    "kapsamamaktadır",
+    "ilişkin değildir",
+    "geçerli değildir",
+    "söz konusu değildir",
+    "is not",
+    "does not",
+    "not the",
+    "rather than"
+  ],
+  "negation_rationale": "The qualifier CF-P0-001 mandates contains the phrase 'püskürtme beton şartnamesi değildir'. Without negation handling, a wrong-scope check would reject the exact form the contract requires. Negation is therefore load-bearing, not cosmetic.",
+  "prohibitions": [
+    "no section or chapter prose",
+    "no manuscript drafting",
+    "drafting stays disabled and drafting_authorized stays false",
+    "no invented relationships, exceptions, conversions, source scope or citation relationships",
+    "no claim wording rewritten merely to make composition easier",
+    "narrowing may remove an unsupported relation or an over-broad scope and may never add technical content",
+    "no auto-repair of an invalid draft unit"
+  ],
+  "purpose": "Decide whether a set of individually supported claims may appear in the same future draft unit, and under what qualifiers. Evidence correctness is checked upstream; what is checked here is composition - because two supported claims can be combined into a proposition no source states, which is what SYN-001 was.",
+  "relation_connectors": {
+    "relation_asserting": [
+      "ancak",
+      "buna rağmen",
+      "buna karşın",
+      "bununla birlikte",
+      "oysa",
+      "oysaki",
+      "halbuki",
+      "fakat",
+      "lakin",
+      "ne var ki",
+      "olmasına rağmen",
+      "olmakla birlikte",
+      "belirtilse de",
+      "olsa da",
+      "rağmen",
+      "karşın",
+      "dolayısıyla",
+      "bu nedenle",
+      "bu sebeple",
+      "böylece",
+      "sonuç olarak",
+      "demek ki",
+      "yani",
+      "aksine",
+      "tersine",
+      "buna göre",
+      "istisna olarak",
+      "bir istisna",
+      "çelişmektedir",
+      "çelişki",
+      "farklı olarak",
+      "aynı şekilde",
+      "although",
+      "though",
+      "even though",
+      "despite",
+      "in spite of",
+      "however",
+      "whereas",
+      "therefore",
+      "thus",
+      "hence",
+      "but",
+      "in contrast",
+      "by contrast",
+      "nevertheless",
+      "nonetheless",
+      "conversely",
+      "as an exception",
+      "an exception to",
+      "contradicts",
+      "on the other hand",
+      "consequently",
+      "accordingly"
+    ]
+  },
+  "restricted_figures": [
+    {
+      "claim_id": "SEC-02-2-P0-002",
+      "figure_id": "FIG-360-GENERAL-MAX",
+      "label": "360 kg/m³ general-concrete maximum",
+      "material_scope": "general_concrete",
+      "note": "Tablo-308-23-b. Meaningless and misleading without its scope.",
+      "requirement_scope": "maximum",
+      "system_scope": "not_applicable",
+      "unit": "kg/m³",
+      "value": "360"
+    },
+    {
+      "claim_id": "SEC-02-2-R001",
+      "figure_id": "FIG-350-DRY-MIN",
+      "label": "350 kg/m³ dry-system shotcrete minimum",
+      "material_scope": "dry_system_shotcrete",
+      "note": "Shotcrete specification, dry system.",
+      "requirement_scope": "minimum",
+      "system_scope": "dry_system",
+      "unit": "kg/m³",
+      "value": "350"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-001",
+      "figure_id": "FIG-400-WET-MIN",
+      "label": "400 kg/m³ wet-system shotcrete minimum",
+      "material_scope": "wet_system_shotcrete",
+      "note": "Shotcrete specification, wet system.",
+      "requirement_scope": "minimum",
+      "system_scope": "wet_system",
+      "unit": "kg/m³",
+      "value": "400"
+    }
+  ],
+  "scope": "SEC-02-2 only. This contract is not a general natural-language inference system and must not be applied to other sections without their own scope binding and their own regression suite.",
+  "scope_families": [
+    {
+      "family_id": "FAM-SHOTCRETE-CEMENT-MIN",
+      "figure_ids": [
+        "FIG-350-DRY-MIN",
+        "FIG-400-WET-MIN"
+      ],
+      "note": "The source states both minimums in one span, distinguished by system. They may be compared as dry-system vs wet-system and in no other way: without both system markers the sentence either merges two requirements or invents a 350-400 range.",
+      "relationship": "SOURCE_SUPPORTED_RELATION",
+      "required_action": "name both systems explicitly (kuru sistem / yaş sistem) in the sentence carrying both figures, or split them into separate sentences"
+    }
+  ],
+  "scope_markers": {
+    "dry_system": [
+      "kuru sistem",
+      "kuru sistemde",
+      "kuru karışım",
+      "dry system",
+      "dry-system",
+      "dry-mix",
+      "dry mix"
+    ],
+    "flashcrete": [
+      "flashcrete",
+      "sealing shotcrete",
+      "sızdırmazlık püskürtme beton"
+    ],
+    "general_concrete": [
+      "genel beton",
+      "Tablo-308-23-b",
+      "308-23-b",
+      "normal beton",
+      "general concrete"
+    ],
+    "initial_shotcrete_lining": [
+      "initial shotcrete lining",
+      "ilk püskürtme beton kaplama",
+      "birincil kaplama",
+      "initial lining"
+    ],
+    "shotcrete": [
+      "püskürtme beton",
+      "püskürtme betonu",
+      "shotcrete",
+      "sprayed concrete",
+      "püskürtme beton şartname",
+      "püskürtme beton spesifikasyon"
+    ],
+    "steel_mesh": [
+      "hasır çelik",
+      "çelik hasır",
+      "welded wire fabric",
+      "steel mesh"
+    ],
+    "wet_system": [
+      "yaş sistem",
+      "yaş sistemde",
+      "yaş karışım",
+      "wet system",
+      "wet-system",
+      "wet-mix",
+      "wet mix"
+    ]
+  },
+  "section_id": "SEC-02-2",
+  "version": "tunnelbook-sec-02-2-claim-composition-contract-v1",
+  "vocabularies": {
+    "material_scopes": [
+      "general_concrete",
+      "shotcrete",
+      "dry_system_shotcrete",
+      "wet_system_shotcrete",
+      "initial_shotcrete_lining",
+      "steel_fibre_shotcrete",
+      "steel_mesh",
+      "flashcrete"
+    ],
+    "relationship_types": [
+      "INDEPENDENT",
+      "SAME_SCOPE_SUPPORT",
+      "QUALIFIED_COMPARISON",
+      "SOURCE_SUPPORTED_RELATION",
+      "FORBIDDEN_SYNTHESIS",
+      "UNKNOWN_RELATION"
+    ],
+    "requirement_scopes": [
+      "maximum",
+      "minimum",
+      "typical_range",
+      "recommended",
+      "mandatory",
+      "design_table",
+      "project_specific",
+      "case_specific"
+    ],
+    "severities": [
+      "BLOCKING",
+      "WARNING"
+    ],
+    "system_scopes": [
+      "dry_system",
+      "wet_system",
+      "system_independent",
+      "not_applicable"
+    ]
+  }
+}

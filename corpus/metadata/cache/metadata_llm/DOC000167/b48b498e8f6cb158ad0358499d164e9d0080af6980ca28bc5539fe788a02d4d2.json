@@ -1,0 +1,52 @@
+{
+  "document_id": "DOC000167",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:59:36+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "Gazi Üniversitesi, İnşaat Mühendisliği Bölümü, Ankara - Karayolları Genel Müdürlüğü, Ankara",
+      "value": "B"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "İMO Teknik Dergi, 2008 4471-4486, Yazı 295",
+      "value": "academic_article"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "Gazi Üniversitesi, İnşaat Mühendisliği Bölümü, Ankara - Karayolları Genel Müdürlüğü, Ankara",
+      "value": "Gazi Üniversitesi, Karayolları Genel Müdürlüğü"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "Türkiye'deki Karayolu Tünelerinde Trafik Güvenliği *",
+      "value": "Türkiye'deki Karayolu Tünellerinde Trafik Güvenliği"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Tünel kazalarının istatistiksel olarak değerlendirilebilmesi için tünel özellikleri ve kaza özelliklerinin belirlenmesi gereklidir.",
+      "value": [
+        "accident",
+        "fire_safety",
+        "maintenance",
+        "safety",
+        "standards",
+        "traffic"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "İMO Teknik Dergi, 2008 4471-4486",
+      "value": 2008
+    }
+  },
+  "source_sha256": "d6cabd5890cae7ee2a05c65b23d0264a1f69a65b12ed45d323ef654c7b93ac1a"
+}

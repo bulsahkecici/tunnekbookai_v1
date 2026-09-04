@@ -1,0 +1,49 @@
+{
+  "section_id": "CH-A-S07",
+  "section_title": "Dünyada Karayolu Tünelleri",
+  "status": "FROZEN",
+  "frozen_version": "v1",
+  "frozen_at": "2026-08-26T09:20:08.445051+00:00",
+  "audit_identity": "195a9948a1b26b82e4e83f27fdd4c908b08783a2f74ac1229d005161984ecc70",
+  "evidence_contract_version": "SENTENCE_ID_V2",
+  "editorial_policy_version": "DETERMINISTIC_EDITORIAL_GATE_V1",
+  "model_id": "qwen3.6-35b-a3b-mlx",
+  "model_config": {
+    "api_base": "http://127.0.0.1:1234"
+  },
+  "human_review_refs": [],
+  "evidence_audit_contract": "SENTENCE_ID_V2",
+  "deterministic_audit_gate": "PASS",
+  "evidence_audit_decision": "PASS",
+  "editorial_audit_decision": "PASS",
+  "editorial_model_review": {
+    "model_decision": "HOLD",
+    "chronology_issues": [],
+    "naming_ambiguities": [],
+    "language_issues": [
+      "Tekil özne/yapı bildiren cümlelerde çoğul yüklem kullanımı tespit edilmiştir (örn. 'dünyanın en uzun karayolu tünelleridir', 'otomobiller için tasarlanmış ilk denizaltı karayolu tünelleridir', 'dünyanın en kuzeydeki karayolu tünelleridir', 'yağmur suyu tahliye tünelleridir', 'dünyanın en derin denizaltı karayolu tünelleridir'). Tekil tünel referansları için 'tünelidir' şeklinde düzeltilmelidir.",
+      "İsim tamlamalarında sayı-çoğul uyumsuzluğu: 'iki tünelleri ve köprü birleşiminden' ifadesindeki 'tünelleri', tekil bir yapıyı işaret ettiği için 'tüneli' olarak düzeltilmelidir.",
+      "Karmaşık isim tamlamasında yazım/çoğul hatası: 'önemli denizaltı/tünelleri yapılarının' ifadesindeki 'tünelleri', tekil proje referansı taşıdığı için 'tünel' olarak düzeltilmelidir."
+    ],
+    "overgeneralizations": [],
+    "structure_issues": [],
+    "required_actions": [
+      "Belirtilen tekil-çoğul uyumsuzlukları düzeltilerek metnin dilbilgisi tutarlılığı sağlanmalıdır."
+    ]
+  },
+  "sentence_count": 28,
+  "draft_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/ch_a_s07.md",
+  "draft_sha256": "e6e383f65e4673ede02ade60f7ef19037700d9adb055c88f80027c79b28b55bf",
+  "evidence_audit_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/audits/ch_a_s07_evidence_audit.json",
+  "evidence_audit_sha256": "43b49fb7c44824276e547e7d75e2194819f11ca5bc5d867ca8ec025c140d8bd1",
+  "evidence_audit_input_sha256": "06f983f077d86186cb6a871f7257e81d9fa3d10c77b8ffd95cde28cc35f96f97",
+  "editorial_audit_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/audits/ch_a_s07_editorial_audit.json",
+  "editorial_audit_sha256": "86e8cf75a5f884b288554d9e266ed09f9fb33f05aa7e4dae387454d49672a057",
+  "editorial_input_sha256": "e8f46a5a4fe121fe618b69da1a362ce42202b529d8092b782cfce54faca06029",
+  "sentence_map_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/audits/ch_a_s07_sentence_map.json",
+  "sentence_map_sha256": "1a149406d27a72c28b93fcab4f3dbbdc6d21982d54093d4cb3ced004bf9ba639",
+  "source_compact_packet_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/remediation/ch_a_s07/ch_a_s07_writer_evidence_packet_compact.json",
+  "source_compact_packet_sha256": "6f32ebc2278da213b73a67db1bd1bfe8798ec246e7fc0966d6b160ff8d883528",
+  "privacy_mode": "LOCAL_ONLY",
+  "next_section_auto_start": false
+}

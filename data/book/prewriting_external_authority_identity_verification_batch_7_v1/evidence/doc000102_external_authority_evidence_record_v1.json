@@ -1,0 +1,46 @@
+{
+  "admission_status_changed": false,
+  "authoritative_lookup_records": [
+    {
+      "authority": "Ankara University Open Course Materials",
+      "finding": "Institutional resource matches the title; author, date, edition, and issuing authority are not established.",
+      "record_id": "ANKARA-RESOURCE-36282",
+      "retrieved": "2026-08-22",
+      "url": "https://acikders.ankara.edu.tr/mod/resource/view.php?id=36282"
+    }
+  ],
+  "authority_class": "UNKNOWN_AUTHORITY",
+  "authority_status": "AUTHORITY_NOT_VERIFIABLE",
+  "batch_id": "EXT-BATCH-07",
+  "claim_proposition_changed": false,
+  "claim_relative_suitability": "NOT_AUTHORITY_SUITABLE_IDENTITY_OR_VERSION_UNRESOLVED",
+  "conflict_fields": [],
+  "evidence_snapshot": {
+    "kind": "DETERMINISTIC_METADATA_DIGEST",
+    "sha256": "9ff6b477d05dedab558e38be293c8b4d079987d38b306e6e248a5c2dc73992cc"
+  },
+  "identity_match_status": "PARTIAL_IDENTITY_MATCH",
+  "issuing_publishing_authority": "EXTERNALLY_UNVERIFIED",
+  "material_identity": "PARTIALLY_VERIFIED",
+  "metadata_only_use_boundary": true,
+  "promotion": false,
+  "queue_identity_matching_keys": [
+    "DOC000102",
+    "Kaya Tünelleri"
+  ],
+  "repository_identity": "Kaya Tünelleri",
+  "schema_version": "1.0.0",
+  "source_id": "DOC000102",
+  "source_type": "COURSE_MATERIAL",
+  "source_type_resolution": "RESOLVED",
+  "support_status_changed": false,
+  "technical_authority": "UNKNOWN",
+  "technical_content_captured": false,
+  "unresolved_fields": [
+    "author_or_issuing_body",
+    "source_type_evidence",
+    "date_or_version",
+    "publication_identifier"
+  ],
+  "version_match_status": "VERSION_UNRESOLVED"
+}

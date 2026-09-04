@@ -1,0 +1,30 @@
+{
+  "audits": "11/11 PASS",
+  "authority_promotions": 0,
+  "batch_id": "BATCH-08",
+  "book_prose_generated": false,
+  "claim_relative_suitability": {
+    "NOT_YET_AUTHORITY_SUITABLE": 4
+  },
+  "cumulative_ceiling_finding": "REPEATED_LOCAL_METADATA_CEILING",
+  "deterministic_output": "PASS",
+  "document_ids": [
+    "DOC000225",
+    "DOC000267",
+    "DOC000268",
+    "DOC000269"
+  ],
+  "drafting_authorized": false,
+  "external_identity_verification_required": 4,
+  "false_accepts": 0,
+  "false_rejects": 0,
+  "frozen_integrity": "PASS",
+  "local_sources_inspected": 4,
+  "phase": "PRE-WRITING REPOSITORY AUTHORITY EVIDENCE ACQUISITION BATCH 8 V1",
+  "source_identities_resolved": 4,
+  "source_type_distribution": {
+    "STANDARD_SPECIFICATION": 4
+  },
+  "status": "GO",
+  "unknown_authority_remaining": 4
+}

@@ -1,0 +1,50 @@
+{
+  "document_id": "DOC000309",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:10:04+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "Karayolları Genel Müdürlüğü, Yücetepe, ANKARA [authority_B_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "## ÖZ ... ## ABSTRACT",
+      "value": "academic_article"
+    },
+    "language": {
+      "confidence": "low",
+      "evidence": "ÖZ [evidence_not_grounded_in_context]",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "1 Karayolları Genel Müdürlüğü, Yücetepe, ANKARA",
+      "value": "Karayolları Genel Müdürlüğü (KGM)"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "## Tünel Açma Yöntemlerinin Mühendislik Jeolojisi ve Kaya Sınıflama Sistemleri ile Değerlendirilmesi",
+      "value": "Tünel Açma Yöntemlerinin Mühendislik Jeolojisi ve Kaya Sınıflama Sistemleri ile Değerlendirilmesi"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Tünel Açma Yöntemlerinin Mühendislik Jeolojisi ve Kaya Sınıflama Sistemleri ile Değerlendirilmesi",
+      "value": [
+        "excavation",
+        "geology",
+        "natm",
+        "rock_mechanics"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Geliş (received) : 26 Mayıs (May) 2015",
+      "value": 2015
+    }
+  },
+  "source_sha256": "6a4602e3a0259548e858106ec652f0d7b5933684664e75c037f918ca2a34d8e9"
+}

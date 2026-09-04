@@ -1,0 +1,294 @@
+{
+  "key": "0e263dafd45bdd57bf18f31d740056f8323356c9fdf08d63ce7870f8aa6d84a0",
+  "section_id": "CH-A-S09",
+  "kind": "evidence_audit",
+  "cached_at": "2026-08-26T04:37:10.965648+00:00",
+  "audit": {
+    "section_id": "CH-A-S09",
+    "decision": "PASS",
+    "summary": {
+      "supported": 31,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "scope_leakage": 0,
+      "unsupported_source_identity": 0,
+      "redundancy": 0
+    },
+    "sentence_audit": [
+      {
+        "sentence_id": "S001",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-001"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S002",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-002"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S003",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-003"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S004",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-031"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S005",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-033"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S006",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-034"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S007",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-012"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S008",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-013"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S009",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-014"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S010",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-004"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S011",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-005",
+          "CH-A-S09-REM-006"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S012",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-042"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S013",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-043"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S014",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-044"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S015",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-047"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S016",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-045"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S017",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-036"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S018",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-016"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S019",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-017"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S020",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-018"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S021",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-019"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S022",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-020"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S023",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-021",
+          "CH-A-S09-REM-022"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S024",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-023"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S025",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-038"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S026",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-030"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S027",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-025"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S028",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-026"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S029",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-027"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S030",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-029"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S031",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S09-REM-035"
+        ],
+        "reason": ""
+      }
+    ],
+    "source_identity_issues": [],
+    "scope_issues": [],
+    "qualifier_issues": [],
+    "redundancy_issues": [],
+    "required_actions": []
+  },
+  "gate_result": {
+    "decision": "PASS",
+    "sentence_count": 31,
+    "supported": 31,
+    "narrative_synthesis": 0,
+    "deterministic_gate": "PASS",
+    "model_reported_summary": {
+      "supported": 31,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "scope_leakage": 0,
+      "unsupported_source_identity": 0,
+      "redundancy": 0
+    },
+    "model_reported_decision": "PASS",
+    "model_summary_mismatch": [
+      "narrative_synthesis"
+    ]
+  }
+}

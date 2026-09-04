@@ -1,0 +1,50 @@
+{
+  "document_id": "DOC000151",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:58:16+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "unclassified [evidence_not_grounded_in_context]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "medium",
+      "evidence": "sunumlar",
+      "value": "presentation"
+    },
+    "language": {
+      "confidence": "low",
+      "evidence": "mixed [evidence_not_grounded_in_context]",
+      "value": "mixed"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "YTMK Kaynaklar [evidence_not_grounded_in_context]",
+      "value": "YTMK Kaynaklar"
+    },
+    "topics": {
+      "confidence": "medium",
+      "evidence": "3G Investigation strategy|Monitoring|codes guidelines and other regulations|SafetyManagement",
+      "value": [
+        "geotechnical_investigation",
+        "monitoring",
+        "regulation",
+        "safety"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": null
+    }
+  },
+  "source_sha256": "a3e34dc693e74ca818ed9245d160c284f062a6b4889b2cb037b8f0c89f1c1492"
+}

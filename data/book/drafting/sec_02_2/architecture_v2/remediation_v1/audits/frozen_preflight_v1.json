@@ -1,0 +1,53 @@
+{
+  "architecture_v2_acceptance_contract_sha256": "c9766e437bd00222574d1aeee5ede17ff74a51bf5ae0cea37e0f3f496f6ebccd",
+  "architecture_v2_acceptance_contract_unamended": true,
+  "checked_at": "2026-08-20T04:49:13.868655+00:00",
+  "drift": 0,
+  "frozen_code_sha256": {
+    "M1_plan_ir": "f183bdc2e1378df51528654a9d6f8d7bac570cb4208c75e1765714fdbea819a3",
+    "M2_realization_v2": "a5c94702f06291a7b5965afe06daf91864bddfb0f2202678c5d5c744083f6fe1",
+    "M3_morphology": "c5eb463070cf0aede2d580cc0df639daab94d1b0c0841c8263a7a46c2eae5706",
+    "M4_renderer": "38fcbfd8ca94917792c7b22ed2c7f37cf8ef2e2490c51326d4b1e5f8a6e6ebc4",
+    "M5_static_proof": "19277bdbb0c20217f6a6edaca47de7bc3d4c328bc151f322b1380d6bf0b55cd5",
+    "citation_renderer": "9cb5e81560a084617312552d06aee0d581f926c12680b277bfe45d86cf74b604",
+    "draft_language_validator_v1": "9d661c77bfef33071c85a9449f287e1b3b441353203d317567c10b8135aa808d",
+    "draft_validator_v1": "a72406aafdd40a266ad3ce9c3c886036a0d30cec5b4cf73c17e58de2f83a44e0",
+    "draft_validator_v1_1": "5adb41329da31c28722465d6d0613ee2dfacca6161a8f89038fe7d7b258d3713",
+    "draft_validator_v1_2": "0b0c870466668e4bb7b8e608d12358517eff6f4e019b9c8081426bff22cbfd7f",
+    "pilot_1": "fca0f1b5268541378593516371a3b87059a5cbb113573db0dc69f92d7b3f1e56"
+  },
+  "historical_sha256": {
+    "M1_semantic_plan_ir_contract_v2": "d462cb8e7e7a5c28c16e0475b6ddb5986b5c27f17aa4e38e2a50c033d4fe09b3",
+    "M2_claim_realization_contract_v2": "0ef4ff616f6d7581520c2c310f674e97509c0970e549672c3575b60998e2d547",
+    "M3_turkish_morphology_v2": "f22896fa1dd0efec091dfb589de98104ab54de4b708b76b6d57ba266b94bbf54",
+    "M5_negative_fixtures_v2": "1dd062950c72aafa47d725acee63bcddd0929a2df33b8f18f23010df2bb80a38",
+    "M5_realization_universe_v2": "29e49f2f5d3a8c6b461687023a4f2a36b25b025f6d6dc093abe51bf912dbfc95",
+    "M5_static_containment_proof_v2_as_found": "e13bc4df002741e07b570d56df8d09428e7d80d0c50490ba7d11b9a53f65c616",
+    "architecture_v2_acceptance_contract_v1": "c9766e437bd00222574d1aeee5ede17ff74a51bf5ae0cea37e0f3f496f6ebccd",
+    "composition_safe_allowlist_v1": "e637ca19eca8bb28a5e1e369cb9df7eba6566f6b57d503ca34cf895bff7cf42b",
+    "draft_language_contract_v1": "69922db07a9bf11d1da7cf56cfd3c2fbd4d0c2c02e41e75c4aa504f1ba986689",
+    "draft_plan_v1_2": "951ab44b89de8f498252d325d7440f23c2ca544f7b91ed1757cde997d07df629",
+    "pilot_1_feasibility": "6117ff159a2d6a7100f078c6e18a13c52524ee374d01375a5e520367527eb5e1",
+    "pilot_1_option_set": "9c9948cb5a8a0a1435cb4c440565d3aa37b8eb28d57ed00117b4bc54a9d20428",
+    "pilot_1_plan": "4b15bf7e85978d6f8df515e4d62aea692fa74559846db877522e8f7be55d7d60",
+    "pilot_1_pre_generation_gate": "4bcb34e2a228068eea8695d5c3ac3ccf3386a2639c944550a5077f3d5f5aefa5",
+    "pilot_1_raw_plan": "90b7739022055bb0690f07c9ef88a4c50d46fdb7e5c32eb8c900bf65b145507d",
+    "pilot_1_validation": "8b0cbe61986b84f602285c193a1909353b8c368c7cacaf5ff756f6ca2d372278",
+    "section_drafting_contract_v1": "f1fffd9c93d3bcba8e4f67f2fbd666e9b113fd9a783d207ada00cfd5fa68d7bc"
+  },
+  "implementation_artifacts_checked": 4,
+  "implementation_artifacts_excluded": [
+    "M5_static_containment_proof_v2 — timestamped and re-derived; checked on substance"
+  ],
+  "implementation_drift": [],
+  "lexicon_sha256": {
+    "condition_glosses": "9a9f9176e53ba209677e522be55334d3ab6cc60a2972bb49ad104cf2df01a6ca",
+    "function_lexicon": "dbbb737e4e92d07802340711df0c63a8f1c02bd114ba50a16a3877e77640aa70",
+    "paraphrase_lexicon": "747479264f0182c5a459b225327a5ece807d5c6088b10c122fef411fbea8ae8c",
+    "translation_glosses": "d2fb00181183debbfb28166e789bc5824f779ff0b5f72089b3e6029b6f0eee9c"
+  },
+  "missing_frozen_code": [],
+  "pilot_1_drift": [],
+  "rethink_drift": [],
+  "rethink_inputs_checked": 15
+}

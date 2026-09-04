@@ -1,0 +1,15 @@
+{
+  "document_id": "DOC000038",
+  "field": "document_type",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "processed_at": "2026-08-15T23:47:26+00:00",
+  "prompt_version": "metadata-verification-v1.2",
+  "response": {
+    "confidence": "high",
+    "evidence": "This paper analyzes the feasibility of Bolu Mountain Tunnel which is one of the most costly highway projects in Turkey.",
+    "relationship": "document_identity",
+    "value": "academic_article"
+  },
+  "retries": 0,
+  "source_sha256": "a95c677557c8064ee02e138b9b538bd52d1151c2cedca7bc1c2a18db66e01639"
+}

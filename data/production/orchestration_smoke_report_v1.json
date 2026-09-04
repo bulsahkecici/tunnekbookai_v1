@@ -1,0 +1,576 @@
+{
+  "cases": 16,
+  "passed": 16,
+  "failed": 0,
+  "failures": [],
+  "accepted": 13,
+  "rejected": 3,
+  "contract_failures_released": 0,
+  "audit_rows_appended": 16,
+  "qdrant_before": {
+    "points": 5992,
+    "status": "green"
+  },
+  "qdrant_after": {
+    "points": 5992,
+    "status": "green"
+  },
+  "qdrant_writes": 0,
+  "performance": {
+    "retrieval_and_context": {
+      "median": 0.5413,
+      "p90": 0.6993,
+      "max": 7.7844
+    },
+    "prompt_render": {
+      "median": 0.0217,
+      "p90": 0.0302,
+      "max": 0.0394
+    },
+    "generation": {
+      "median": 16.3113,
+      "p90": 25.6159,
+      "max": 29.7369
+    },
+    "contract": {
+      "median": 0.0031,
+      "p90": 0.0051,
+      "max": 0.0064
+    },
+    "total": {
+      "median": 16.7842,
+      "p90": 27.1157,
+      "max": 32.0713
+    }
+  },
+  "rows": [
+    {
+      "case_id": "SMK-F1",
+      "group": "factual",
+      "mode": "live",
+      "status": "accepted",
+      "failure_reasons": [],
+      "evidence_handles": [
+        "E001",
+        "E002",
+        "E005"
+      ],
+      "latency": {
+        "retrieval_and_context_seconds": 7.7844,
+        "prompt_render_seconds": 0.019,
+        "generation_seconds": 24.2629,
+        "contract_seconds": 0.0026,
+        "total_seconds": 32.0713
+      },
+      "wall_seconds": 32.075,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "answer_released": true,
+        "visible_handles_present": true,
+        "handles_canonical": true,
+        "no_safe_message": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "SMK-F2",
+      "group": "factual",
+      "mode": "live",
+      "status": "accepted",
+      "failure_reasons": [],
+      "evidence_handles": [
+        "E001",
+        "E002",
+        "E003"
+      ],
+      "latency": {
+        "retrieval_and_context_seconds": 0.5191,
+        "prompt_render_seconds": 0.0164,
+        "generation_seconds": 10.5848,
+        "contract_seconds": 0.0035,
+        "total_seconds": 11.1252
+      },
+      "wall_seconds": 11.129,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "answer_released": true,
+        "visible_handles_present": true,
+        "handles_canonical": true,
+        "no_safe_message": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "SMK-F3",
+      "group": "factual",
+      "mode": "live",
+      "status": "accepted",
+      "failure_reasons": [],
+      "evidence_handles": [
+        "E001",
+        "E002",
+        "E004",
+        "E006",
+        "E011",
+        "E019",
+        "E020"
+      ],
+      "latency": {
+        "retrieval_and_context_seconds": 0.5391,
+        "prompt_render_seconds": 0.0189,
+        "generation_seconds": 16.4096,
+        "contract_seconds": 0.003,
+        "total_seconds": 16.9722
+      },
+      "wall_seconds": 16.977,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "answer_released": true,
+        "visible_handles_present": true,
+        "handles_canonical": true,
+        "no_safe_message": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "SMK-F4",
+      "group": "factual",
+      "mode": "live",
+      "status": "accepted",
+      "failure_reasons": [],
+      "evidence_handles": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E014"
+      ],
+      "latency": {
+        "retrieval_and_context_seconds": 0.5436,
+        "prompt_render_seconds": 0.0177,
+        "generation_seconds": 11.5609,
+        "contract_seconds": 0.0037,
+        "total_seconds": 12.127
+      },
+      "wall_seconds": 12.13,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "answer_released": true,
+        "visible_handles_present": true,
+        "handles_canonical": true,
+        "no_safe_message": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "SMK-N1",
+      "group": "numeric",
+      "mode": "live",
+      "status": "accepted",
+      "failure_reasons": [],
+      "evidence_handles": [
+        "E001",
+        "E003",
+        "E005",
+        "E009"
+      ],
+      "latency": {
+        "retrieval_and_context_seconds": 0.3573,
+        "prompt_render_seconds": 0.0213,
+        "generation_seconds": 16.2129,
+        "contract_seconds": 0.003,
+        "total_seconds": 16.5961
+      },
+      "wall_seconds": 16.602,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "answer_released": true,
+        "visible_handles_present": true,
+        "handles_canonical": true,
+        "no_safe_message": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "SMK-N2",
+      "group": "numeric",
+      "mode": "live",
+      "status": "accepted",
+      "failure_reasons": [],
+      "evidence_handles": [
+        "E002",
+        "E005",
+        "E020"
+      ],
+      "latency": {
+        "retrieval_and_context_seconds": 0.5788,
+        "prompt_render_seconds": 0.0202,
+        "generation_seconds": 9.826,
+        "contract_seconds": 0.002,
+        "total_seconds": 10.4286
+      },
+      "wall_seconds": 10.433,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "answer_released": true,
+        "visible_handles_present": true,
+        "handles_canonical": true,
+        "no_safe_message": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "SMK-M1",
+      "group": "multi_source",
+      "mode": "live",
+      "status": "accepted",
+      "failure_reasons": [],
+      "evidence_handles": [
+        "E001",
+        "E002",
+        "E003",
+        "E006",
+        "E008",
+        "E009",
+        "E012",
+        "E014"
+      ],
+      "latency": {
+        "retrieval_and_context_seconds": 0.3675,
+        "prompt_render_seconds": 0.0221,
+        "generation_seconds": 26.719,
+        "contract_seconds": 0.0051,
+        "total_seconds": 27.1157
+      },
+      "wall_seconds": 27.123,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "answer_released": true,
+        "visible_handles_present": true,
+        "handles_canonical": true,
+        "no_safe_message": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "SMK-M2",
+      "group": "multi_source",
+      "mode": "live",
+      "status": "accepted",
+      "failure_reasons": [],
+      "evidence_handles": [
+        "E003",
+        "E004",
+        "E005",
+        "E006",
+        "E007",
+        "E010"
+      ],
+      "latency": {
+        "retrieval_and_context_seconds": 0.6993,
+        "prompt_render_seconds": 0.0262,
+        "generation_seconds": 24.5028,
+        "contract_seconds": 0.0032,
+        "total_seconds": 25.2332
+      },
+      "wall_seconds": 25.235,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "answer_released": true,
+        "visible_handles_present": true,
+        "handles_canonical": true,
+        "no_safe_message": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "SMK-X1",
+      "group": "cross_lingual",
+      "mode": "live",
+      "status": "accepted",
+      "failure_reasons": [],
+      "evidence_handles": [
+        "E001",
+        "E002",
+        "E004",
+        "E006"
+      ],
+      "latency": {
+        "retrieval_and_context_seconds": 0.4906,
+        "prompt_render_seconds": 0.0293,
+        "generation_seconds": 23.8766,
+        "contract_seconds": 0.0049,
+        "total_seconds": 24.4037
+      },
+      "wall_seconds": 24.411,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "answer_released": true,
+        "visible_handles_present": true,
+        "handles_canonical": true,
+        "no_safe_message": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "SMK-X2",
+      "group": "cross_lingual",
+      "mode": "live",
+      "status": "accepted",
+      "failure_reasons": [],
+      "evidence_handles": [
+        "E001",
+        "E003",
+        "E006",
+        "E007",
+        "E009",
+        "E013",
+        "E014"
+      ],
+      "latency": {
+        "retrieval_and_context_seconds": 0.5937,
+        "prompt_render_seconds": 0.0202,
+        "generation_seconds": 20.1526,
+        "contract_seconds": 0.0027,
+        "total_seconds": 20.7708
+      },
+      "wall_seconds": 20.775,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "answer_released": true,
+        "visible_handles_present": true,
+        "handles_canonical": true,
+        "no_safe_message": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "SMK-A1",
+      "group": "must_abstain",
+      "mode": "live",
+      "status": "rejected",
+      "failure_reasons": [
+        "wrong_abstention_marker_language",
+        "answer_body_language_mismatch"
+      ],
+      "evidence_handles": [],
+      "latency": {
+        "retrieval_and_context_seconds": 0.7647,
+        "prompt_render_seconds": 0.0379,
+        "generation_seconds": 25.6159,
+        "contract_seconds": 0.003,
+        "total_seconds": 26.4238
+      },
+      "wall_seconds": 26.429,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "raw_answer_not_released": true,
+        "safe_message_present": true,
+        "safe_message_is_canonical": true,
+        "failure_reasons_present": true,
+        "no_fabricated_replacement": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "SMK-A2",
+      "group": "must_abstain",
+      "mode": "live",
+      "status": "accepted",
+      "failure_reasons": [],
+      "evidence_handles": [
+        "E003",
+        "E005",
+        "E006",
+        "E014"
+      ],
+      "latency": {
+        "retrieval_and_context_seconds": 0.6731,
+        "prompt_render_seconds": 0.0253,
+        "generation_seconds": 14.5247,
+        "contract_seconds": 0.0038,
+        "total_seconds": 15.2282
+      },
+      "wall_seconds": 15.231,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "answer_released": true,
+        "visible_handles_present": true,
+        "handles_canonical": true,
+        "no_safe_message": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "SMK-J1",
+      "group": "adversarial",
+      "mode": "live",
+      "status": "accepted",
+      "failure_reasons": [],
+      "evidence_handles": [
+        "E001",
+        "E002",
+        "E003",
+        "E006",
+        "E007",
+        "E014"
+      ],
+      "latency": {
+        "retrieval_and_context_seconds": 0.4292,
+        "prompt_render_seconds": 0.0287,
+        "generation_seconds": 29.7369,
+        "contract_seconds": 0.0052,
+        "total_seconds": 30.2015
+      },
+      "wall_seconds": 30.206,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "answer_released": true,
+        "visible_handles_present": true,
+        "handles_canonical": true,
+        "no_safe_message": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "SMK-J2",
+      "group": "adversarial",
+      "mode": "live",
+      "status": "accepted",
+      "failure_reasons": [],
+      "evidence_handles": [
+        "E001",
+        "E002",
+        "E006",
+        "E007",
+        "E008",
+        "E011",
+        "E012"
+      ],
+      "latency": {
+        "retrieval_and_context_seconds": 0.5673,
+        "prompt_render_seconds": 0.0182,
+        "generation_seconds": 15.7497,
+        "contract_seconds": 0.0064,
+        "total_seconds": 16.3429
+      },
+      "wall_seconds": 16.346,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "answer_released": true,
+        "visible_handles_present": true,
+        "handles_canonical": true,
+        "no_safe_message": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "SMK-C1",
+      "group": "contract_failure_diagnostic",
+      "mode": "fixture",
+      "status": "rejected",
+      "failure_reasons": [
+        "malformed_citation"
+      ],
+      "evidence_handles": [],
+      "latency": {
+        "retrieval_and_context_seconds": 0.4737,
+        "prompt_render_seconds": 0.0302,
+        "generation_seconds": 0.2527,
+        "contract_seconds": 0.0022,
+        "total_seconds": 0.7606
+      },
+      "wall_seconds": 0.762,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "raw_answer_not_released": true,
+        "safe_message_present": true,
+        "safe_message_is_canonical": true,
+        "failure_reasons_present": true,
+        "no_fabricated_replacement": true,
+        "expected_status": true,
+        "expected_reasons": true
+      },
+      "passed": true
+    },
+    {
+      "case_id": "SMK-C2",
+      "group": "contract_failure_diagnostic",
+      "mode": "fixture",
+      "status": "rejected",
+      "failure_reasons": [
+        "wrong_abstention_marker_language",
+        "answer_body_language_mismatch"
+      ],
+      "evidence_handles": [],
+      "latency": {
+        "retrieval_and_context_seconds": 0.4476,
+        "prompt_render_seconds": 0.0394,
+        "generation_seconds": 0.2175,
+        "contract_seconds": 0.0003,
+        "total_seconds": 0.7067
+      },
+      "wall_seconds": 0.707,
+      "checks": {
+        "completed": true,
+        "audit_id_present": true,
+        "request_id_present": true,
+        "context_packet_sha_present": true,
+        "raw_answer_not_released": true,
+        "safe_message_present": true,
+        "safe_message_is_canonical": true,
+        "failure_reasons_present": true,
+        "no_fabricated_replacement": true,
+        "expected_status": true,
+        "expected_reasons": true
+      },
+      "passed": true
+    }
+  ]
+}

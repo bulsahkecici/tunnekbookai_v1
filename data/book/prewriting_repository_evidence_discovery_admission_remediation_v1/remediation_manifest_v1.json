@@ -1,0 +1,86 @@
+{
+  "artifacts": [
+    {
+      "path": "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/admission_granularity_mismatch_remediation_audit_v1.json",
+      "sha256": "32223b90c84cbbc121d3e072a871b073229805edcac3870ef42d9dda7550369e"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/admitted_evidence_registry_v2.json",
+      "sha256": "3e334d6c3cc1eb695baaf7756b92114a575f461081e86678cb7c45636aeef28b"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/discovery_gap_remediation_audit_v1.json",
+      "sha256": "d1cd22889a231a52fbd8d38b246042c50b859bb7fcc5c34d1d86857ac7f28091"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/intermediate_evidence_registry_v2.json",
+      "sha256": "d3bfbb02b6c379e057696e3b903b483c514aec169d32742f2c52cc0a347e59a8"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/provenance_gap_remediation_audit_v1.json",
+      "sha256": "12f0b0d11778fee0d20d622ab156d27119ef4954f1ca183fa87b4f2e7859f8ad"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/rejected_evidence_registry_v2.json",
+      "sha256": "ece58b28d34deed2659f24b2b39f552d38ae13ef80f999305de257eecb23bfd2"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/remediation_acceptance_audit_v1.json",
+      "sha256": "0083be56b052e485d285ed30564c25412c3661fb52ea296c8963b61034ae32dd"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/remediation_acceptance_contract_v1.json",
+      "sha256": "0d6120b27f3e5c465467ebe6d56b7a4d471a407bc827919f3c754f081ecbb30c"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/repository_discovery_registry_v1.json",
+      "sha256": "a0b36f7706538e6d5193bf5980094951b9edede656bcf6d47c8337a821ac928b"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/repository_evidence_admission_v2_audit.json",
+      "sha256": "0083be56b052e485d285ed30564c25412c3661fb52ea296c8963b61034ae32dd"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/repository_visual_candidate_registry_v2.json",
+      "sha256": "277acc8940df63c839c7927b32a76d02e7a447f6b1791164e10cfdcc6d0fdbea"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/section_evidence_coverage_ledger_v2.json",
+      "sha256": "dd7cee87ced01793bae497e5e6ba45b3b5fafffeeddee9ae08fe788639aa3daf"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/visual_discovery_audit_v1.json",
+      "sha256": "16315783b2e2e0b6c2affac37fc95890eff4d1a9bd75f6d5d82417df41d58c48"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/visual_zero_candidate_diagnostic_v2.json",
+      "sha256": "96698f17f4d72ccd544725062d45e0144f22da5511fb5c87b265103f2e5d664e"
+    }
+  ],
+  "book_prose_generated": false,
+  "canonical_inputs": [
+    {
+      "path": "data/inventory/inventory.jsonl",
+      "sha256": "c24ff34d9e668a09e9cfd836a9687d65e5789cd454be117e542f8d6a08a56ac8"
+    },
+    {
+      "path": "data/chunks/chunks.jsonl",
+      "sha256": "e751fcfc3cc6828b05f75f494fd9a31b44388abda9daf83fb9581581ef79df5b"
+    },
+    {
+      "path": "data/book/prewriting_external_evidence_admission_v1/repository_zero_admission_diagnostic_v1.json",
+      "sha256": "17ab0ad84ea508e36a2d8ac02a97574db1e2d855d9222c3fc0907c3bf9e91586"
+    },
+    {
+      "path": "data/book/research/research_question_gap_registry_v1.json",
+      "sha256": "13ab8e46bfe3f7db4111dcfb67dcc2e138a1aab5e0d820102c2bab0364fcddac"
+    },
+    {
+      "path": "data/book/coverage/corpus_to_book_coverage_mapping_v1.json",
+      "sha256": "5db9f56ac0f46d6ceba4a50ef83700c72500562737a13ffce015d9c7ea1dd901"
+    }
+  ],
+  "checkpoint": "PRE-WRITING REPOSITORY EVIDENCE DISCOVERY AND ADMISSION REMEDIATION V1",
+  "drafting_authorized": false,
+  "schema_version": "1.0.0"
+}

@@ -1,0 +1,10 @@
+{
+ "annotation_policy": "Deterministic lexical anchors over source text. Gold requires the anchor in the chunk heading/section path (heading_anchor); where no section is titled for the concept, repeated in-body occurrence is used (body_density_anchor) and recorded. Embedding similarity was never used to decide relevance.",
+ "benchmark_version": "retrieval-benchmark-v1",
+ "created_from_corpus_release": "68be1f5fa0b7b6078cd9f492a8732aa796b2ab6536c4b76454e5a37bd41bc32a",
+ "embedding_model": "BAAI/bge-m3",
+ "model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+ "qdrant_release": "tunnelbook-dense-v1",
+ "query_count": 114,
+ "sha256": "90aac5f98a75373fea0a0c6d04527a0e68231bd368a2d2b20fcc83ea78b71dd6"
+}

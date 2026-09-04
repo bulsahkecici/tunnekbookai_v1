@@ -1,0 +1,49 @@
+{
+  "document_id": "DOC000023",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:52:28+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "URL: tunnelsmanual.piarc.org",
+      "value": "A"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "URL: tunnelsmanual.piarc.org",
+      "value": "manual"
+    },
+    "language": {
+      "confidence": "low",
+      "evidence": "filename: Tunnels-PIARC.docx [evidence_not_grounded_in_context]",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "filename: Tunnels-PIARC.docx [evidence_not_grounded_in_context]",
+      "value": "PIARC"
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "filename: Tunnels-PIARC.docx [evidence_not_grounded_in_context]",
+      "value": "Tunnels-PIARC"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "URL: tunnelsmanual.piarc.org/en/strategy-and-general-design-strategic-issues/costs-financial-aspects, regulations-recommendations, ventilation-concepts",
+      "value": [
+        "cost",
+        "regulation",
+        "ventilation"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": null
+    }
+  },
+  "source_sha256": "69d7dba96886fbecd37b45962e192ea54cd8024f239786977caadf0e25fef04e"
+}

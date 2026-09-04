@@ -1,0 +1,70 @@
+{
+  "book_prose_generated": false,
+  "claim_admissions_zero_explanation": {
+    "admission": "no final redisposition was authorized; zero is not evidence of no safe drafting use",
+    "authority": "orthogonal and claim-relative",
+    "classification": "FINAL_ADMISSION_REDISPOSITION_NOT_YET_EXECUTED",
+    "provenance": "541 COMPLETE; 61 PARTIAL",
+    "scope": "preserved independently",
+    "support": "602 VERIFIED_SUPPORT"
+  },
+  "cost_dependencies": {
+    "CONSTRUCTION_COST_ANALYSIS_ARTIFACT_REQUIRED": "REGISTERED_NOT_SATISFIED",
+    "MAINTENANCE_COST_ANALYSIS_ARTIFACT_REQUIRED": "REGISTERED_NOT_SATISFIED",
+    "global_blocker": false
+  },
+  "decision": "PRE-WRITING_READY / DRAFTING_NOT_AUTHORIZED",
+  "drafting_authorized": false,
+  "evidence_use_tier_distribution": {
+    "LIMITED_OR_SUPPORTING": 324,
+    "PRIMARY_OR_STRONG_USABLE": 149,
+    "RESTRICTED_OR_EXCLUDED": 129
+  },
+  "freshness_readiness": "GO; 60/60 classified and 52 freshness-sensitive sections controlled",
+  "global_blockers": [],
+  "next_phase": "HUMAN DRAFTING AUTHORIZATION GATE",
+  "non_blocking_limitations": [
+    "19 UNKNOWN authority records require limited use",
+    "2 identity/version conflicts remain restricted",
+    "19 unresolved source types remain restricted or limited",
+    "2 human cost-analysis artifacts remain unsatisfied",
+    "publication rights do not permit direct visual reuse where unknown"
+  ],
+  "schema_version": "final-readiness-audit-v1",
+  "section_readiness_distribution": {
+    "BLOCKED": 2,
+    "EVIDENCE_GAP": 3,
+    "READY_FOR_CONTROLLED_DRAFTING": 6,
+    "READY_WITH_LIMITATIONS": 37,
+    "WAITING_FOR_HUMAN_ANALYSIS_ARTIFACT": 12
+  },
+  "state_reconciliation": {
+    "anchor_status_distribution": {
+      "REEXTRACTION_REQUIRED": 12,
+      "UNIQUE": 590
+    },
+    "authority_acquisition": "COMPLETE",
+    "authority_class_counts": {
+      "PROMOTED_CUMULATIVE": 9,
+      "UNKNOWN": 19
+    },
+    "authority_promotions": {
+      "external": 4,
+      "local": 5
+    },
+    "book_sections": 60,
+    "claim_admissions": 0,
+    "external_metadata_boundary": "PASS",
+    "external_queue": "27/27",
+    "frozen_integrity": "PASS",
+    "identity_version_conflicts": 2,
+    "provenance_status_distribution": {
+      "COMPLETE": 541,
+      "PARTIAL": 61
+    },
+    "unresolved_source_types": 19,
+    "verified_support_claims": 602
+  },
+  "status": "CLOSED_GO",
+  "visual_readiness": "GO; 48 VISUAL_NOT_REQUIRED and 12 DATA_ANALYSIS_OUTPUT_REQUIRED; rights remain distinct from evidence and reconstruction eligibility"
+}

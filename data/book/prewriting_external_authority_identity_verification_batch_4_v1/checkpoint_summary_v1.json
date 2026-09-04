@@ -1,0 +1,37 @@
+{
+  "authoritative_records_inspected": 0,
+  "authority_conflicts": 0,
+  "authority_promotions": 0,
+  "book_prose_generated": false,
+  "claim_level_admissions": 0,
+  "drafting_authorized": false,
+  "identity_distribution": {
+    "EXACT_IDENTITY_MATCH": 0,
+    "IDENTITY_CONFLICT": 0,
+    "NO_RELIABLE_MATCH": 4,
+    "PARTIAL_IDENTITY_MATCH": 0,
+    "STRONG_IDENTITY_MATCH": 0
+  },
+  "issuing_authorities_verified": {},
+  "next_phase": "PRE-WRITING EXTERNAL AUTHORITY IDENTITY VERIFICATION BATCH 5 V1",
+  "next_source_ids": [
+    "DOC000216",
+    "DOC000217",
+    "DOC000302"
+  ],
+  "source_count": 4,
+  "source_ids": [
+    "DOC000073",
+    "DOC000074",
+    "DOC000214",
+    "DOC000215"
+  ],
+  "status": "CLOSED_GO",
+  "unknown_remaining": 4,
+  "verified_support": 602,
+  "version_distribution": {
+    "DATE_MATCH_VERSION_UNRESOLVED": 0,
+    "EXACT_VERSION_VERIFIED": 0,
+    "VERSION_UNRESOLVED": 4
+  }
+}

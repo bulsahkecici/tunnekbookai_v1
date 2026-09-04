@@ -1,0 +1,26 @@
+{
+  "schema_version": "section-scope-boundary-contracts-v2-decision-overlay",
+  "base_artifact": "data/book/scope_contracts/section_scope_boundary_contracts_v1.json",
+  "authority": "HDG-001 through HDG-010 explicit owner selections",
+  "boundary_resolutions": [
+    {"rule_id":"BR-001","status":"CLOSED","allocation":"CH-A-S03 general tunnel history; CH-C KGM-specific institutional history."},
+    {"rule_id":"BR-002","status":"CLOSED","allocation":"CH-B-S08 technical drivers only; CH-F methodology, datasets, analysis, outputs, monetary synthesis conditional on validated analytical artifacts."},
+    {"rule_id":"BR-003","status":"CLOSED","allocation":"CH-E-S04 activity definitions/domain; CH-E-S08 through S10 monetary classification/analysis."},
+    {"rule_id":"BR-004","status":"CLOSED","allocation":"Separate maintenance/operation and construction-cost reviews; shared sources separately mapped with provenance."},
+    {"rule_id":"BR-005","status":"CLOSED","allocation":"CH-F-S06 analysis methods/outputs; CH-G only validated findings, conclusions, recommendations; no new statistics or reconstruction."},
+    {"rule_id":"BR-006","status":"CLOSED","allocation":"CH-F-S01 container; S02 purpose/importance; S03 scope; S04 method and data scope."},
+    {"rule_id":"BR-007","status":"CLOSED","allocation":"CH-B-S01 overview/classification/relationships; S02 terminology/definitions; S03 specific support types/functions/applications/evidenced details."}
+  ],
+  "responsibility_resolutions": [
+    {"decision_ids":["RESP-001","CHDEC-005"],"status":"CLOSED","resolution":"NOT_APPLICABLE_FOR_AI_DRAFTING_RESPONSIBILITY","human_drafting_dependency":false},
+    {"decision_ids":["RESP-002","CHDEC-006"],"status":"CLOSED","resolution":"NOT_APPLICABLE_FOR_AI_DRAFTING_RESPONSIBILITY","human_drafting_dependency":false}
+  ],
+  "cost_policy": {
+    "decision_id":"COST-POLICY-001",
+    "status":"CLOSED",
+    "comparative_monetary_analysis":"PROHIBITED",
+    "literature_monetary_values":"SOURCE_CONTEXT_ONLY",
+    "required_dependencies":["MAINTENANCE_COST_ANALYSIS_ARTIFACT_REQUIRED","CONSTRUCTION_COST_ANALYSIS_ARTIFACT_REQUIRED"],
+    "dependency_effect":"Block relevant CH-E/CH-F/CH-G analytical drafting; block CH-G cross-domain synthesis until both dependencies pass admission and validation."
+  }
+}

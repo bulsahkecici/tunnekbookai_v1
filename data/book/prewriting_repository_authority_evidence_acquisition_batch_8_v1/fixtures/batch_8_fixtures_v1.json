@@ -1,0 +1,20 @@
+{
+  "negative": [
+    "filename_does_not_imply_authority",
+    "folder_path_does_not_imply_authority",
+    "body_institution_mention_does_not_imply_authority",
+    "legacy_c_d_label_does_not_imply_authority",
+    "topical_similarity_does_not_resolve_source_type",
+    "unsupported_identity_resolution_rejected",
+    "claim_mutation_rejected",
+    "external_lookup_prohibited",
+    "book_prose_generation_prohibited",
+    "batch_9_not_processed"
+  ],
+  "positive": [
+    "explicit_metadata_resolves_identity",
+    "explicit_publication_or_report_identifier_resolves_source_type",
+    "authority_promotion_requires_explicit_evidence",
+    "unknown_remains_unknown_when_evidence_is_insufficient"
+  ]
+}

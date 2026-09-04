@@ -1,0 +1,24 @@
+# Paths are resolved relative to the project directory. TUNNEL_ROOT overrides
+# source_root at runtime (for example: ~/Projects/tunnel).
+source_root: '..'
+project_root: '.'
+
+exclude_directories:
+  - '_TunnelBookAI'
+
+extensions:
+  documents:
+    - '.pdf'
+    - '.doc'
+    - '.docx'
+    - '.ppt'
+    - '.pptx'
+    - '.pptm'
+    - '.xls'
+    - '.xlsx'
+    - '.txt'
+    - '.rtf'
+  images:
+    - '.jpg'
+    - '.jpeg'
+    - '.png'

@@ -1,0 +1,48 @@
+{
+  "document_id": "DOC000159",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:58:48+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "Setenay ULUDAĞ Müdür Yardımcısı İBB Raylı Sistem Projeler Şube Müdürlüğü [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Sunumlar_2022/3_HIZRAY Project and Planned Future of Istanbul Metro Works.pdf",
+      "value": "presentation"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "3_HIZRAY Project and Planned Future of Istanbul Metro Works",
+      "value": "mixed"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "Setenay ULUDAĞ Müdür Yardımcısı İBB Raylı Sistem Projeler Şube Müdürlüğü",
+      "value": "İBB Raylı Sistem Projeler Şube Müdürlüğü"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "# 3_HIZRAY Project and Planned Future of Istanbul Metro Works",
+      "value": "3_HIZRAY Project and Planned Future of Istanbul Metro Works"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "3 BOYUTLU TASARIM KOORDİNASyonu ANADOLU YAKASI TBM ŞAFTI AVRUPA YAKASI TBM ŞAFTI",
+      "value": [
+        "operations",
+        "tbm"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "12/4/2022",
+      "value": 2022
+    }
+  },
+  "source_sha256": "96783c6ed7f86ae20ca934964dbc5a84caa25b83f59f6a648481f87d6aa90eaf"
+}

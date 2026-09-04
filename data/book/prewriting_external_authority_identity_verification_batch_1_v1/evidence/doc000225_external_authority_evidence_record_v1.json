@@ -1,0 +1,91 @@
+{
+  "authority_class": "STANDARD_SPECIFICATION",
+  "authority_disposition": "AUTHORITY_PARTIALLY_VERIFIED",
+  "authority_evidence_status": "ISSUING_AUTHORITY_VERIFIED_VERSION_LIMITED",
+  "authority_status": "UNKNOWN",
+  "batch_id": "EXT-BATCH-01",
+  "claim_relative_applicability": "PROSPECTIVELY_ELIGIBLE_IF_EXACT_VERSION_IS_VERIFIED",
+  "conflict_fields": [],
+  "edition_or_version": "CONSOLIDATED_REPOSITORY_VERSION_NOT_EXACTLY_IDENTIFIED",
+  "evidence_provenance": [
+    {
+      "retrieved": "2026-08-22",
+      "source_owner": "Kamu İhale Kurumu",
+      "url": "https://ihale.gov.tr/Mevzuat.aspx?AnaSayfa=true",
+      "use": "identity/authority metadata only"
+    },
+    {
+      "retrieved": "2026-08-22",
+      "source_owner": "T.C. Resmî Gazete",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2011/03/20110316.htm",
+      "use": "identity/authority metadata only"
+    }
+  ],
+  "evidence_snapshot": {
+    "kind": "DETERMINISTIC_METADATA_DIGEST",
+    "sha256": "50d56586008db2a1d7413c23ff6aa8b985f8a435b29a324a3319af354e464be4"
+  },
+  "exact_external_record_locator": [
+    "https://ihale.gov.tr/Mevzuat.aspx?AnaSayfa=true",
+    "https://www.resmigazete.gov.tr/eskiler/2011/03/20110316.htm"
+  ],
+  "external_record_identity": {
+    "issuer": "Kamu İhale Kurumu",
+    "official_record_locators": [
+      "https://ihale.gov.tr/Mevzuat.aspx?AnaSayfa=true",
+      "https://www.resmigazete.gov.tr/eskiler/2011/03/20110316.htm"
+    ],
+    "retrieval_date": "2026-08-22",
+    "title": "YAPIM İŞLERİ GENEL ŞARTNAMESİ"
+  },
+  "external_source_class": "OFFICIAL_GOVERNMENT_ISSUER_AND_LEGISLATIVE_RECORD",
+  "final_authority_disposition": "UNKNOWN_AUTHORITY_RETAINED_VERSION_APPLICABILITY_INSUFFICIENT",
+  "identifier": [
+    "EK-8",
+    "5/1/2002",
+    "4735",
+    "4734"
+  ],
+  "identity_match_status": "STRONG_IDENTITY_MATCH",
+  "issuing_authority": "Kamu İhale Kurumu",
+  "limitations": "Official issuer and legislative records establish KİK authority and amendment context, but not the exact consolidated edition represented by the repository artifact. No external technical prose was captured.",
+  "local_identity": {
+    "artifact": {
+      "path": "data/markdown/TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/DOKÜMANLAR/8- Yapım Genel Partname.md",
+      "sha256": "042b0b21a6228cff9ce56e284804ce984f711bb893ef7743e55dea7edd1664eb"
+    },
+    "identifiers": [
+      "EK-8",
+      "5/1/2002",
+      "4735",
+      "4734"
+    ],
+    "queue_identity_matching_keys": [
+      "DOC000225",
+      "YAPIM İŞLERİ GENEL ŞARTNAMESİ",
+      "EK-8",
+      "5/1/2002",
+      "4735",
+      "4734",
+      "3dc5384d2c875ec15eea0a0e9fb20d0f2037b97c994d4fbd9b46bce6f7d88650"
+    ],
+    "source_type": "STANDARD_SPECIFICATION",
+    "title": "YAPIM İŞLERİ GENEL ŞARTNAMESİ"
+  },
+  "organization_role": "ISSUING_REGULATORY_BODY",
+  "promotion": false,
+  "publication_or_effective_date": [
+    "5/1/2002"
+  ],
+  "retrieval_date": "2026-08-22",
+  "schema_version": "1.0.0",
+  "source_id": "DOC000225",
+  "status": "HISTORICAL_AMENDMENT_MARKERS_PRESENT_CURRENT_OR_SUPERSEDED_STATUS_UNRESOLVED",
+  "title": "YAPIM İŞLERİ GENEL ŞARTNAMESİ",
+  "unresolved_fields": [
+    "exact repository consolidated edition",
+    "effective snapshot date",
+    "current/superseded status at repository capture"
+  ],
+  "version_match_status": "VERSION_UNRESOLVED"
+}

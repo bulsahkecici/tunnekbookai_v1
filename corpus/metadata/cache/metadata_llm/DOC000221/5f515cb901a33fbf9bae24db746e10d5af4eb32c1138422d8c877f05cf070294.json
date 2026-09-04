@@ -1,0 +1,47 @@
+{
+  "document_id": "DOC000221",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:03:24+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "Tünel Kontrol Mühendisi Geliştirme Kursu",
+      "value": "C"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Tünel Kontrol Mühendisi Geliştirme Kursu",
+      "value": "training_material"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "Tünel Kontrol Mühendisi Geliştirme Kursu",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "9-Tünel Destek Sistemleri (Örnekler)",
+      "value": "9-Tünel Destek Sistemleri (Örnekler)"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Tünel Destek Sistemleri (Örnekler)",
+      "value": [
+        "support_systems"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "24~28.02.2020, Ankara",
+      "value": 2020
+    }
+  },
+  "source_sha256": "55e5b81f8bc0ce8894b14d921e2f1aeca7116edac71c0785b615bb9b7d38e18d"
+}

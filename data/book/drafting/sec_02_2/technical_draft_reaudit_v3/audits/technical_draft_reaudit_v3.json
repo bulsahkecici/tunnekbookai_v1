@@ -1,0 +1,75 @@
+{
+  "version": "sec-02-2-technical-draft-reaudit-v3",
+  "phase": "SEC-02-2 TECHNICAL DRAFT RE-AUDIT V3",
+  "status": "GO",
+  "audit_target": "data/book/drafting/sec_02_2/architecture_v2_2_general_closure_rerun_v1/rendered/accepted_draft_v1.json",
+  "audit_target_sha256": "b63a422850a8791452cd923f40a27901ffa82ca4d5b36d15776f8fb40ba05e12",
+  "blocking_findings": [],
+  "advisory_findings": [
+    {
+      "code": "TDA3-ADV-001",
+      "unit_id": "U-A-P01-S01",
+      "finding": "The wording 'minimum C25/30 MPa sınıfında' redundantly attaches a unit to the strength-class designation.",
+      "policy": "ADVISORY: it does not change technical meaning, claim scope, or citation support."
+    },
+    {
+      "code": "TDA3-ADV-002",
+      "unit_ids": ["U-A-P02-S01", "U-A-P02-S02"],
+      "finding": "The adjacent sentences repeat the 22.5 MPa and 25.5 MPa acceptance values.",
+      "policy": "ADVISORY: the repetition makes the class-versus-acceptance distinction explicit and introduces no contradiction."
+    }
+  ],
+  "six_blocker_status": {
+    "closed": 6,
+    "total": 6,
+    "checks": {
+      "TDA-001": "CLOSED",
+      "TDA-002": "CLOSED",
+      "TDA-003": "CLOSED",
+      "TDA-004": "CLOSED",
+      "TDA-005": "CLOSED",
+      "TDA-006": "CLOSED"
+    },
+    "new_blocker": false
+  },
+  "citation_support_status": {
+    "status": "PASS",
+    "units_supported": 19,
+    "units_total": 19,
+    "claim_citation_allocations_match": true,
+    "unknown_source_keys": 0,
+    "misleading_allocations": 0
+  },
+  "scope_terminology_status": {
+    "status": "PASS",
+    "condition_closure": "25/25",
+    "dependency_closure": "2/2",
+    "unresolved_term_fallback": "PASS",
+    "preferred_term_in_body": "tabaka",
+    "free_variants_in_body": 0
+  },
+  "quality_status": {
+    "technical_correctness": "PASS",
+    "factual_completeness": "PASS",
+    "sentence_paragraph_quality": "PASS",
+    "material_ambiguity": "NONE",
+    "validator_histogram": {}
+  },
+  "release_recommendation": "RELEASE",
+  "tests_probes": {
+    "method": "STATIC_READ_ONLY",
+    "draft_regenerated": false,
+    "unit_count": 19,
+    "unique_unit_ids": true,
+    "all_units_have_claim_and_source": true,
+    "citation_intents_match": true,
+    "six_blocker_probe": "PASS",
+    "closure_probe": "PASS",
+    "support_gate_probe": "PASS",
+    "style_gate_probe": "PASS",
+    "empty_histogram_probe": "PASS",
+    "forbidden_body_surface_probe": "PASS",
+    "sha256_probe": "PASS"
+  },
+  "next_phase": "SEC-02-2 RELEASE AUTHORISATION V1"
+}

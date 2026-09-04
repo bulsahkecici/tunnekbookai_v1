@@ -1,0 +1,306 @@
+{
+  "defect_class": "ADMISSION_GRANULARITY_MISMATCH",
+  "expected_count": 37,
+  "items": [
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000102",
+      "mapping_id": "REM-014",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S01"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000214",
+      "mapping_id": "REM-016",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S01"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000215",
+      "mapping_id": "REM-017",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S01"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000216",
+      "mapping_id": "REM-018",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S01"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000217",
+      "mapping_id": "REM-019",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S01"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000102",
+      "mapping_id": "REM-022",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S03"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000214",
+      "mapping_id": "REM-024",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S03"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000215",
+      "mapping_id": "REM-025",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S03"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000216",
+      "mapping_id": "REM-026",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S03"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000217",
+      "mapping_id": "REM-027",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S03"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000011",
+      "mapping_id": "REM-030",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S04"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000011",
+      "mapping_id": "REM-040",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S08"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000016",
+      "mapping_id": "REM-044",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S08"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000011",
+      "mapping_id": "REM-075",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S01"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000016",
+      "mapping_id": "REM-079",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S01"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000011",
+      "mapping_id": "REM-085",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S02"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000016",
+      "mapping_id": "REM-089",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S02"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000011",
+      "mapping_id": "REM-107",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S08"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000016",
+      "mapping_id": "REM-111",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S08"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000011",
+      "mapping_id": "REM-117",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S09"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000016",
+      "mapping_id": "REM-121",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S09"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000011",
+      "mapping_id": "REM-127",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S10"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000016",
+      "mapping_id": "REM-131",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S10"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000011",
+      "mapping_id": "REM-137",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S11"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000016",
+      "mapping_id": "REM-141",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S11"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000011",
+      "mapping_id": "REM-147",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S12"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000016",
+      "mapping_id": "REM-151",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S12"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000011",
+      "mapping_id": "REM-157",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S13"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000016",
+      "mapping_id": "REM-161",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S13"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000011",
+      "mapping_id": "REM-170",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S15"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000016",
+      "mapping_id": "REM-174",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S15"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000011",
+      "mapping_id": "REM-180",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S16"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000016",
+      "mapping_id": "REM-184",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S16"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000011",
+      "mapping_id": "REM-193",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S01"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000016",
+      "mapping_id": "REM-197",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S01"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000011",
+      "mapping_id": "REM-203",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S02"
+    },
+    {
+      "basis": "RECLASSIFIED_TO_EXPLICIT_NON_ADMITTED_INTERMEDIATE_STATE",
+      "document_id": "DOC000016",
+      "mapping_id": "REM-207",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S02"
+    }
+  ],
+  "observed_count": 37,
+  "resolved_count": 37,
+  "schema_version": "1.0.0",
+  "unresolved_count": 0
+}

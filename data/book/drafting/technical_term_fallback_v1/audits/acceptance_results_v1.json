@@ -1,0 +1,24 @@
+{
+  "version": "tunnelbook-technical-term-original-language-fallback-acceptance-results-v1",
+  "acceptance_contract_sha256": "b438197c9b0fd14cd2a39822b0729895c81017a44f022432a3b8b75a2e10a672",
+  "conditions": [
+    {"id": "AC-TF-01", "status": "PASS"},
+    {"id": "AC-TF-02", "status": "PASS"},
+    {"id": "AC-TF-03", "status": "PASS"},
+    {"id": "AC-TF-04", "status": "PASS"},
+    {"id": "AC-TF-05", "status": "PASS"},
+    {"id": "AC-TF-06", "status": "PASS"},
+    {"id": "AC-TF-07", "status": "PASS"},
+    {"id": "AC-TF-08", "status": "PASS"},
+    {"id": "AC-TF-09", "status": "PASS"},
+    {"id": "AC-TF-10", "status": "PASS"},
+    {"id": "AC-TF-11", "status": "PASS"},
+    {"id": "AC-TF-12", "status": "PASS"},
+    {"id": "AC-TF-13", "status": "PASS"},
+    {"id": "AC-TF-14", "status": "PASS"},
+    {"id": "AC-TF-15", "status": "PASS"},
+    {"id": "AC-TF-16", "status": "PASS"}
+  ],
+  "summary": {"conditions": 16, "passed": 16, "failed": 0},
+  "verdict": "CLOSED_GO"
+}

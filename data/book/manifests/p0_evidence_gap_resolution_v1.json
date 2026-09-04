@@ -1,0 +1,877 @@
+{
+  "artifact_shas": {
+    "p0_resolution/audits/p0_conflict_review_v1.jsonl": "6e8d558a4002125f3d625691dbad2ed9812e4fd41095e8394e1f7e1c6e686313",
+    "p0_resolution/audits/p0_dropped_syntheses_v1.jsonl": "3f0663e3b5c0257968dee915931124b485c756b84e3fe0df25ab0f8f127a64f9",
+    "p0_resolution/audits/p0_generation_attempts_v1.jsonl": "58c76c5d512874210471613f1dec17ffecf3ad1983590e3f33f57df4a447303a",
+    "p0_resolution/audits/p0_numeric_review_v1.jsonl": "9ab93f19363c5767ae94192cb2042522b6b412d66c4da190555f06443f6fe25d",
+    "p0_resolution/audits/p0_query_revisions_v1.jsonl": "01e9154946784d6eef4737f5be1845d2893922d62018ebc8e819686fa3f0a331",
+    "p0_resolution/audits/p0_retrieval_expansion_v1.jsonl": "a86847a08dd35a30f8a6254f7890213ce45f8f4d11820e0b93d78c1d9d199a33",
+    "p0_resolution/audits/p0_retrieval_gap_probes_v1.jsonl": "cfa7b36cbb0257d3e08c08857a0b69f8c7e131c769bbb17e118f82b3045de63d",
+    "p0_resolution/audits/p0_span_verification_v1.jsonl": "fd65d2138bfdabb131884a873c23720aa65d0e6f0a97e9d60755fe8c7a53b93c",
+    "p0_resolution/bundles/SEC-02-1.json": "bc2bd71c032f3ccd8c75b56ad15463a43d9be484270bb603434c01dfde2bb761",
+    "p0_resolution/bundles/SEC-02-2.json": "194d20b123c5a04e3a757b8046aa6a0ea9664339a0a9f6641925ccd4756347e6",
+    "p0_resolution/bundles/SEC-02-3.json": "02c944615eafe067de0b3d4184f40d473c7a74c167f73a4e91a72b2b6302acb7",
+    "p0_resolution/claims/SEC-02-1.jsonl": "f9b7c2e96598616ab901b4a093c20294f5c73b599293c8958259492a9e24a6c3",
+    "p0_resolution/claims/SEC-02-2.jsonl": "c595f99456e43249015ff321de5997709c739e970f85c2a2b0f65fb74e90cbce",
+    "p0_resolution/claims/SEC-02-3.jsonl": "895520ab2c12de5bce992f6a9b17558c4988cca11b7d3fbffe05ecb55f75d65d",
+    "p0_resolution/evidence/GAP-P0-01_extraction.jsonl": "c2bcb8d8a67fb34649f9657cc9362e8c8d25a19a4ad58b73b8f38e0ea5dc8a24",
+    "p0_resolution/evidence/GAP-P0-02_extraction.jsonl": "b8f082ab59306eee075ec2e857a0d331726a7e85e06e5ad99356a95d7977d8f4",
+    "p0_resolution/evidence/GAP-P0-05_extraction.jsonl": "f734cb4d845c6c9f1c0cb938b4e0c74f15ef447cc65390c83b7e5ad747a0599d",
+    "p0_resolution/evidence/clause_universe_v1.jsonl": "eaf86af98353f447ce56fe38b5f318df113156d3ad917932404c7ef394f89463",
+    "p0_resolution/evidence/cross_lingual_p0_mappings_v1.jsonl": "840f50caca32ee266709ecd93048f8ba7d432023af358548088114cfdd1b0ec7",
+    "p0_resolution/evidence/manual_support_mappings_v1.jsonl": "99fb599166bc12e36dadf2fc3a879e8a52d22380b4da07eeb615cf50dfb3d112",
+    "p0_resolution/evidence/p0_source_registry_v1.jsonl": "c004a6bab6753898af202d55591c5f929b6ca1639b19f6f9151d2aedee6abf38",
+    "p0_resolution/questions/GAP-P0-01.json": "2f0cbd6cb725de146841a1356d2075918822fc9fbc3386cd5f7277930b88d85e",
+    "p0_resolution/questions/GAP-P0-02.json": "659904e3f68d85c99c9d66b25df7b6fe868af75a1a9c379a3567965730874b38",
+    "p0_resolution/questions/GAP-P0-03.json": "e5c147a44d30326eceec97d1c9f20c26428089389510be500b32224c95b8269b",
+    "p0_resolution/questions/GAP-P0-04.json": "27f4b9b16a9d0ffe03b87848c499e11c98babef4c60d40623ee2fdf4f5a59499",
+    "p0_resolution/questions/GAP-P0-05.json": "c43c9ad41acb082f402b46127426a370a7a420aa007e4d1d8a0f744a04994f8b",
+    "p0_resolution/questions/GAP-P0-06.json": "0e1719d5cd2d7293866dbf7b858e753af185d6b5545bcc3ca99004bc27dc4579"
+  },
+  "citation_ready_p0_claims": 25,
+  "clause_decompositions": 7,
+  "conflict_results": {
+    "CF-P0-001": "CONTEXT_DIFFERENCE",
+    "CF-P0-002": "NO_CONFLICT_FOUND",
+    "CF-P0-003": "INSUFFICIENT_TO_DECIDE"
+  },
+  "corpus_gap_candidates": [],
+  "created_at": "2026-08-19T04:39:34.061628+00:00",
+  "cross_lingual_mappings": 21,
+  "cross_lingual_statuses": {
+    "AMBIGUOUS": 0,
+    "FAITHFUL": 10,
+    "NOT_SUPPORTED": 3,
+    "PARTIAL": 8
+  },
+  "drafting_enabled": false,
+  "dropped_syntheses": 1,
+  "extraction_reconstructions": 8,
+  "extractor_version": "tunnelbook-book-pipeline-extractor-v1.1",
+  "frozen_integrity": {
+    "all_unchanged": true,
+    "changed": [],
+    "checks": [
+      {
+        "actual_sha256": "8ada31f64d8ef51c3b4d3b8b04f3fcc3e9fb7338b1554d1a5a9118a3a231b071",
+        "baseline": "remediation_v1",
+        "expected_sha256": "8ada31f64d8ef51c3b4d3b8b04f3fcc3e9fb7338b1554d1a5a9118a3a231b071",
+        "name": "Retriever v1",
+        "path": "scripts/19_retriever_v1.py",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "9bae1362a228b84dd7e3867babc352527755902b9078dd10648819bd396e4085",
+        "baseline": "remediation_v1",
+        "expected_sha256": "9bae1362a228b84dd7e3867babc352527755902b9078dd10648819bd396e4085",
+        "name": "Prompt v5",
+        "path": "data/metadata/generation_system_prompt_v5.txt",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "5ebf8fe90e3e5491ce07a9143f8fd377841defa2e0e7a09188f3a835b07bdef5",
+        "baseline": "remediation_v1",
+        "expected_sha256": "5ebf8fe90e3e5491ce07a9143f8fd377841defa2e0e7a09188f3a835b07bdef5",
+        "name": "Output Contract v1.1",
+        "path": "scripts/31_generation_output_contract_v1_1.py",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "1f89bdb86d99509820971155455802cf24d7b267a628bc7f85d093e3e10e76b2",
+        "baseline": "remediation_v1",
+        "expected_sha256": "1f89bdb86d99509820971155455802cf24d7b267a628bc7f85d093e3e10e76b2",
+        "name": "Production Grounded Generator v1",
+        "path": "scripts/36_production_grounded_generator.py",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "35f150fe59238ba8fd0a3f46c560b4655c313d3335d476bc9a85f0bf9aaf2278",
+        "baseline": "remediation_v1",
+        "expected_sha256": "35f150fe59238ba8fd0a3f46c560b4655c313d3335d476bc9a85f0bf9aaf2278",
+        "name": "Evidence Note Contract v1",
+        "path": "scripts/38_evidence_note_contract.py",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "caaacc5dd5a9f34021203a19c305a7f5f91327c343c01f7d1d8c012e36152ca5",
+        "baseline": "remediation_v1",
+        "expected_sha256": "caaacc5dd5a9f34021203a19c305a7f5f91327c343c01f7d1d8c012e36152ca5",
+        "name": "Book Pipeline v1",
+        "path": "scripts/39_book_writing_pipeline.py",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "ba7276daf4d2f2b847f8e060df8764ae6dbdca5be18989c7b09a60c33ed53b21",
+        "baseline": "remediation_v1",
+        "expected_sha256": "ba7276daf4d2f2b847f8e060df8764ae6dbdca5be18989c7b09a60c33ed53b21",
+        "name": "Pilot Manual Evidence Audit v1",
+        "path": "scripts/41_pilot_manual_evidence_audit_v1.py",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "4bcf5c9975ef0328eba159c34e7e2810491510dad6dc72b32ab10df1a777991d",
+        "baseline": "remediation_v1",
+        "expected_sha256": "4bcf5c9975ef0328eba159c34e7e2810491510dad6dc72b32ab10df1a777991d",
+        "name": "Context v1",
+        "path": "scripts/20_rag_context.py",
+        "pinned_in_v1_1": false,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "f72bf733ca9f230f5d7f231b2eb610c9100af15408a4dd7b3768aba13416d11f",
+        "baseline": "remediation_v1",
+        "expected_sha256": "f72bf733ca9f230f5d7f231b2eb610c9100af15408a4dd7b3768aba13416d11f",
+        "name": "audited notes SEC-02-1",
+        "path": "data/book/evidence_notes_audited/SEC-02-1.jsonl",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "df5c69dd0552eee24107006d728e85dcdd94b5fb85a107480f4ca9795a2ea87c",
+        "baseline": "remediation_v1",
+        "expected_sha256": "df5c69dd0552eee24107006d728e85dcdd94b5fb85a107480f4ca9795a2ea87c",
+        "name": "audited ledger SEC-02-1",
+        "path": "data/book/claim_ledgers_audited/SEC-02-1.jsonl",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "f6194823aa84f4e3a7c289373681f5300a9a5d9478ef9ec2d1d0e25c9f459eea",
+        "baseline": "remediation_v1",
+        "expected_sha256": "f6194823aa84f4e3a7c289373681f5300a9a5d9478ef9ec2d1d0e25c9f459eea",
+        "name": "audited bundle SEC-02-1",
+        "path": "data/book/section_bundles_audited/SEC-02-1.json",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "2734b400c174e11a7a4a69c41d4ed40f604e7ba9e8d3984f9b83cfde282ab58b",
+        "baseline": "remediation_v1",
+        "expected_sha256": "2734b400c174e11a7a4a69c41d4ed40f604e7ba9e8d3984f9b83cfde282ab58b",
+        "name": "original notes SEC-02-1",
+        "path": "data/book/evidence_notes/SEC-02-1.jsonl",
+        "pinned_in_v1_1": false,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "46d736cefe1f59a17cacf2124870c5544800008abc176e545396ef7d7bd4b18f",
+        "baseline": "remediation_v1",
+        "expected_sha256": "46d736cefe1f59a17cacf2124870c5544800008abc176e545396ef7d7bd4b18f",
+        "name": "audited notes SEC-02-2",
+        "path": "data/book/evidence_notes_audited/SEC-02-2.jsonl",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "574f5c192af80fb7851b5b2d5911570a14a94fbbb78aa33940233038388a9eba",
+        "baseline": "remediation_v1",
+        "expected_sha256": "574f5c192af80fb7851b5b2d5911570a14a94fbbb78aa33940233038388a9eba",
+        "name": "audited ledger SEC-02-2",
+        "path": "data/book/claim_ledgers_audited/SEC-02-2.jsonl",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "2fa6434d285b72fc8a825169119f307a74d0b6ffbfefa770c734237e72a339bc",
+        "baseline": "remediation_v1",
+        "expected_sha256": "2fa6434d285b72fc8a825169119f307a74d0b6ffbfefa770c734237e72a339bc",
+        "name": "audited bundle SEC-02-2",
+        "path": "data/book/section_bundles_audited/SEC-02-2.json",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "5a5f1e8981693449cfa24c5c0428f713e65fcf53c6740da7a8827509862735d9",
+        "baseline": "remediation_v1",
+        "expected_sha256": "5a5f1e8981693449cfa24c5c0428f713e65fcf53c6740da7a8827509862735d9",
+        "name": "original notes SEC-02-2",
+        "path": "data/book/evidence_notes/SEC-02-2.jsonl",
+        "pinned_in_v1_1": false,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "ee17989f690d9558919c20f654c9925a89f30cfc77095d5dad1a5fff663e1a12",
+        "baseline": "remediation_v1",
+        "expected_sha256": "ee17989f690d9558919c20f654c9925a89f30cfc77095d5dad1a5fff663e1a12",
+        "name": "audited notes SEC-02-3",
+        "path": "data/book/evidence_notes_audited/SEC-02-3.jsonl",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "5409766c5bea791afd5592fae4fd3762fffc036a4a1a3390e81888899a407972",
+        "baseline": "remediation_v1",
+        "expected_sha256": "5409766c5bea791afd5592fae4fd3762fffc036a4a1a3390e81888899a407972",
+        "name": "audited ledger SEC-02-3",
+        "path": "data/book/claim_ledgers_audited/SEC-02-3.jsonl",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e5a4f79841c00d916e8d3f7de5f6b586c03409a4c95c0804bc4fa976d541b3e5",
+        "baseline": "remediation_v1",
+        "expected_sha256": "e5a4f79841c00d916e8d3f7de5f6b586c03409a4c95c0804bc4fa976d541b3e5",
+        "name": "audited bundle SEC-02-3",
+        "path": "data/book/section_bundles_audited/SEC-02-3.json",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e521437ca5f6a9dfe5dc4544d43471b23a5644243c13261b9819ba4e60d8f0f9",
+        "baseline": "remediation_v1",
+        "expected_sha256": "e521437ca5f6a9dfe5dc4544d43471b23a5644243c13261b9819ba4e60d8f0f9",
+        "name": "original notes SEC-02-3",
+        "path": "data/book/evidence_notes/SEC-02-3.jsonl",
+        "pinned_in_v1_1": false,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e8ae6cdbbad372abfa8c3cd6538d23e0fa3f15ef193309439e496f00da41bb79",
+        "baseline": "remediation_v1",
+        "expected_sha256": "e8ae6cdbbad372abfa8c3cd6538d23e0fa3f15ef193309439e496f00da41bb79",
+        "name": "manual note audit",
+        "path": "data/book/audits/pilot_evidence_note_manual_audit_v1.jsonl",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "b33b3f21e86b572b4fcf950ef57e2496982cbed4129bcf0b84cd64a98cd1cdc4",
+        "baseline": "remediation_v1",
+        "expected_sha256": "b33b3f21e86b572b4fcf950ef57e2496982cbed4129bcf0b84cd64a98cd1cdc4",
+        "name": "manual clause audit",
+        "path": "data/book/audits/pilot_clause_support_audit_v1.jsonl",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "39470da22539268b34ec04da4c30c8f20003980d8a3b82461af81aa83355f535",
+        "baseline": "remediation_v1",
+        "expected_sha256": "39470da22539268b34ec04da4c30c8f20003980d8a3b82461af81aa83355f535",
+        "name": "conflict candidates v1",
+        "path": "data/book/audits/pilot_conflict_candidates_v1.jsonl",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "96c8803cdaeb869bea374d27ae9984837c08faa4d74f62a10b7089122aaa9fcb",
+        "baseline": "remediation_v1",
+        "expected_sha256": "96c8803cdaeb869bea374d27ae9984837c08faa4d74f62a10b7089122aaa9fcb",
+        "name": "duplicate audit",
+        "path": "data/book/audits/pilot_duplicate_claim_audit_v1.jsonl",
+        "pinned_in_v1_1": true,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e751fcfc3cc6828b05f75f494fd9a31b44388abda9daf83fb9581581ef79df5b",
+        "baseline": "remediation_v1",
+        "expected_sha256": "e751fcfc3cc6828b05f75f494fd9a31b44388abda9daf83fb9581581ef79df5b",
+        "name": "chunks",
+        "path": "data/chunks/chunks.jsonl",
+        "pinned_in_v1_1": false,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "835fc871ee53253d4d95eca14c7c13d908f7d06e559cf657f71c954196fd07f7",
+        "baseline": "remediation_v1",
+        "expected_sha256": "835fc871ee53253d4d95eca14c7c13d908f7d06e559cf657f71c954196fd07f7",
+        "name": "recovery chunks",
+        "path": "data/chunks_recovery/chunks.jsonl",
+        "pinned_in_v1_1": false,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "fa65463589f7e520dcc1e0c808501fac31a7548988dfba11deb00f751bb866cc",
+        "baseline": "remediation_v1",
+        "expected_sha256": "fa65463589f7e520dcc1e0c808501fac31a7548988dfba11deb00f751bb866cc",
+        "name": "production audit log",
+        "path": "data/production/generation_audit_v1.jsonl",
+        "pinned_in_v1_1": false,
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "56d4097b7364233faa41fc23540242c88ae73ccf7a09c428c3f4625db6ead8e0",
+        "baseline": "remediation_v1",
+        "expected_sha256": "56d4097b7364233faa41fc23540242c88ae73ccf7a09c428c3f4625db6ead8e0",
+        "name": "Book Pipeline Extractor v1.1",
+        "path": "scripts/42_book_pipeline_extractor_v1_1.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "9435b9ad52093dc439e85ee084a19de533decac83507319999bbce9e2599c0eb",
+        "baseline": "remediation_v1",
+        "expected_sha256": "9435b9ad52093dc439e85ee084a19de533decac83507319999bbce9e2599c0eb",
+        "name": "remediation v1 artifact claim_ledgers_remediated_v1/SEC-02-1.jsonl",
+        "path": "data/book/claim_ledgers_remediated_v1/SEC-02-1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "ba2fa7629798a6a0c6f0ee2bad90d96adb24841291a888534575ad27d630ff25",
+        "baseline": "remediation_v1",
+        "expected_sha256": "ba2fa7629798a6a0c6f0ee2bad90d96adb24841291a888534575ad27d630ff25",
+        "name": "remediation v1 artifact claim_ledgers_remediated_v1/SEC-02-2.jsonl",
+        "path": "data/book/claim_ledgers_remediated_v1/SEC-02-2.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "bf82e20ee72c2d2272bd110fda03b87bfd2093d01383965f001e1f9c19cd338a",
+        "baseline": "remediation_v1",
+        "expected_sha256": "bf82e20ee72c2d2272bd110fda03b87bfd2093d01383965f001e1f9c19cd338a",
+        "name": "remediation v1 artifact claim_ledgers_remediated_v1/SEC-02-3.jsonl",
+        "path": "data/book/claim_ledgers_remediated_v1/SEC-02-3.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "c2b6c365d33d35a554baa66c841789bcfcdc993cd37ceb0217809777dadaa73a",
+        "baseline": "remediation_v1",
+        "expected_sha256": "c2b6c365d33d35a554baa66c841789bcfcdc993cd37ceb0217809777dadaa73a",
+        "name": "remediation v1 artifact evaluation/book_pipeline_extractor_v1_1_regression.jsonl",
+        "path": "data/evaluation/book_pipeline_extractor_v1_1_regression.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "db97b1de628398fd5b9313c274632dd851db97c7b2e726a613e13dc843f06b69",
+        "baseline": "remediation_v1",
+        "expected_sha256": "db97b1de628398fd5b9313c274632dd851db97c7b2e726a613e13dc843f06b69",
+        "name": "remediation v1 artifact evidence_notes_remediated_v1/SEC-02-1.jsonl",
+        "path": "data/book/evidence_notes_remediated_v1/SEC-02-1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "397ea6b7410a90230932f0ba59d0b98bd138c88179547b17eb3bb9d6fc418a48",
+        "baseline": "remediation_v1",
+        "expected_sha256": "397ea6b7410a90230932f0ba59d0b98bd138c88179547b17eb3bb9d6fc418a48",
+        "name": "remediation v1 artifact evidence_notes_remediated_v1/SEC-02-2.jsonl",
+        "path": "data/book/evidence_notes_remediated_v1/SEC-02-2.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "1a08218a60295484e603044a882316f78110a1faafec7034d2092dd7f84c7eac",
+        "baseline": "remediation_v1",
+        "expected_sha256": "1a08218a60295484e603044a882316f78110a1faafec7034d2092dd7f84c7eac",
+        "name": "remediation v1 artifact evidence_notes_remediated_v1/SEC-02-3.jsonl",
+        "path": "data/book/evidence_notes_remediated_v1/SEC-02-3.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "a8c4215ec8f2f808bf8608d477091919708952533ba15457f059cdb37aff68f4",
+        "baseline": "remediation_v1",
+        "expected_sha256": "a8c4215ec8f2f808bf8608d477091919708952533ba15457f059cdb37aff68f4",
+        "name": "remediation v1 artifact remediation/clause_decomposition_v1_1.jsonl",
+        "path": "data/book/remediation/clause_decomposition_v1_1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "1886e5716757549e81dc4ab96fad8a9998b8f38bd017742e3b2d131b9e6520c1",
+        "baseline": "remediation_v1",
+        "expected_sha256": "1886e5716757549e81dc4ab96fad8a9998b8f38bd017742e3b2d131b9e6520c1",
+        "name": "remediation v1 artifact remediation/conflict_candidates_v1_1.jsonl",
+        "path": "data/book/remediation/conflict_candidates_v1_1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "37aa10a3dcc7108af4f4a6f41dd9e27097425b73985e5ec63ebdccd244aa4e19",
+        "baseline": "remediation_v1",
+        "expected_sha256": "37aa10a3dcc7108af4f4a6f41dd9e27097425b73985e5ec63ebdccd244aa4e19",
+        "name": "remediation v1 artifact remediation/cross_lingual_support_maps_v1.jsonl",
+        "path": "data/book/remediation/cross_lingual_support_maps_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "43c6f43a294ac8a515d307cf1514f1b57d81fce3a0123d25a5bfab797fc79ef8",
+        "baseline": "remediation_v1",
+        "expected_sha256": "43c6f43a294ac8a515d307cf1514f1b57d81fce3a0123d25a5bfab797fc79ef8",
+        "name": "remediation v1 artifact remediation/literal_span_remediation_v1.jsonl",
+        "path": "data/book/remediation/literal_span_remediation_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "3d7eae9f11d4be5b088dff23e2c834d33e247e2ed69263e66a445d6f425fd7e8",
+        "baseline": "remediation_v1",
+        "expected_sha256": "3d7eae9f11d4be5b088dff23e2c834d33e247e2ed69263e66a445d6f425fd7e8",
+        "name": "remediation v1 artifact remediation/non_proposition_remediation_v1.jsonl",
+        "path": "data/book/remediation/non_proposition_remediation_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "647c18f2fea37edfbd4bc6bbad8988d6e4a1f3284d129c39c81edb397ee37899",
+        "baseline": "remediation_v1",
+        "expected_sha256": "647c18f2fea37edfbd4bc6bbad8988d6e4a1f3284d129c39c81edb397ee37899",
+        "name": "remediation v1 artifact remediation/numeric_remediation_v1.jsonl",
+        "path": "data/book/remediation/numeric_remediation_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "f3a41478625599c6c9d917f263aba9f5df778acdfab876c7d5d990bc5b9f0a92",
+        "baseline": "remediation_v1",
+        "expected_sha256": "f3a41478625599c6c9d917f263aba9f5df778acdfab876c7d5d990bc5b9f0a92",
+        "name": "remediation v1 artifact remediation/split_note_remediation_v1.jsonl",
+        "path": "data/book/remediation/split_note_remediation_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "4536bcb0c68e35526ba54bf3dc3230269a57192223d0d388a3f19e4b76dcbd62",
+        "baseline": "remediation_v1",
+        "expected_sha256": "4536bcb0c68e35526ba54bf3dc3230269a57192223d0d388a3f19e4b76dcbd62",
+        "name": "remediation v1 artifact section_bundles_remediated_v1/SEC-02-1.json",
+        "path": "data/book/section_bundles_remediated_v1/SEC-02-1.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "a75205dd98f78fbebad48e753544a7ea3b1a17f3236c7abc76424818cfc09677",
+        "baseline": "remediation_v1",
+        "expected_sha256": "a75205dd98f78fbebad48e753544a7ea3b1a17f3236c7abc76424818cfc09677",
+        "name": "remediation v1 artifact section_bundles_remediated_v1/SEC-02-2.json",
+        "path": "data/book/section_bundles_remediated_v1/SEC-02-2.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "5199e11fa4195740bd240937565c2a43b36a65811b30ab6e6b82fa1b292ca869",
+        "baseline": "remediation_v1",
+        "expected_sha256": "5199e11fa4195740bd240937565c2a43b36a65811b30ab6e6b82fa1b292ca869",
+        "name": "remediation v1 artifact section_bundles_remediated_v1/SEC-02-3.json",
+        "path": "data/book/section_bundles_remediated_v1/SEC-02-3.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "5c9e8fe257375a6afdf589a18ac4baa611c8f80e4f10f85528eda73a2971c766",
+        "baseline": "p0_resolution_v1_precondition",
+        "expected_sha256": "5c9e8fe257375a6afdf589a18ac4baa611c8f80e4f10f85528eda73a2971c766",
+        "name": "source registry v1 (must be untouched)",
+        "path": "data/book/source_registry_v1.jsonl",
+        "unchanged": true
+      }
+    ]
+  },
+  "gaps": [
+    {
+      "actions_attempted": [
+        "cross-lingual mappings authored: 6",
+        "manual mappings authored: 6",
+        "packet inspected in full (20 evidence items)"
+      ],
+      "corpus_gap_candidate": false,
+      "gap_classes": [
+        "EXTRACTION_FAILURE",
+        "SPAN_MAPPING_FAILURE"
+      ],
+      "gap_id": "GAP-P0-01",
+      "generation_attempts": 0,
+      "packet_exhausted": true,
+      "packet_items_inspected": 20,
+      "question_id": "Q-02-1-01",
+      "remaining_missing_propositions": [
+        "Q-02-1-01-N16-D",
+        "Q-02-1-01-N16-E"
+      ],
+      "resolved_claim_ids": [
+        "SEC-02-1-P0-001",
+        "SEC-02-1-P0-002",
+        "SEC-02-1-P0-003",
+        "SEC-02-1-P0-006",
+        "SEC-02-1-P0-007",
+        "SEC-02-1-P0-008",
+        "SEC-02-1-P0-009"
+      ],
+      "retrieval_expansions": 0,
+      "retrieval_gap_candidate": false,
+      "section_id": "SEC-02-1",
+      "status": "PARTIALLY_RESOLVED"
+    },
+    {
+      "actions_attempted": [
+        "cross-lingual mappings authored: 0",
+        "manual mappings authored: 2",
+        "packet inspected in full (20 evidence items)"
+      ],
+      "corpus_gap_candidate": false,
+      "gap_classes": [
+        "EXTRACTION_FAILURE"
+      ],
+      "gap_id": "GAP-P0-02",
+      "generation_attempts": 0,
+      "packet_exhausted": true,
+      "packet_items_inspected": 20,
+      "question_id": "Q-02-1-02",
+      "remaining_missing_propositions": [
+        "R-Q-02-1-02-02"
+      ],
+      "resolved_claim_ids": [
+        "SEC-02-1-P0-010"
+      ],
+      "retrieval_expansions": 0,
+      "retrieval_gap_candidate": false,
+      "section_id": "SEC-02-1",
+      "status": "PARTIALLY_RESOLVED"
+    },
+    {
+      "actions_attempted": [
+        "D: regeneration assessed and declined - existing packet evidence carried every targeted proposition",
+        "cross-lingual mappings authored: 0",
+        "manual mappings authored: 12",
+        "packet inspected in full (20 evidence items)"
+      ],
+      "corpus_gap_candidate": false,
+      "gap_classes": [
+        "GENERATOR_SYNTHESIS_DEFECT",
+        "SPAN_MAPPING_FAILURE"
+      ],
+      "gap_id": "GAP-P0-03",
+      "generation_attempts": 0,
+      "packet_exhausted": true,
+      "packet_items_inspected": 20,
+      "question_id": "Q-02-2-01",
+      "remaining_missing_propositions": [],
+      "resolved_claim_ids": [
+        "SEC-02-2-P0-001",
+        "SEC-02-2-P0-002",
+        "SEC-02-2-P0-003",
+        "SEC-02-2-P0-004",
+        "SEC-02-2-P0-005",
+        "SEC-02-2-P0-006"
+      ],
+      "retrieval_expansions": 0,
+      "retrieval_gap_candidate": false,
+      "section_id": "SEC-02-2",
+      "status": "RESOLVED"
+    },
+    {
+      "actions_attempted": [
+        "cross-lingual mappings authored: 0",
+        "manual mappings authored: 5",
+        "packet inspected in full (20 evidence items)"
+      ],
+      "corpus_gap_candidate": false,
+      "gap_classes": [
+        "SPAN_MAPPING_FAILURE"
+      ],
+      "gap_id": "GAP-P0-04",
+      "generation_attempts": 0,
+      "packet_exhausted": true,
+      "packet_items_inspected": 20,
+      "question_id": "Q-02-2-02",
+      "remaining_missing_propositions": [],
+      "resolved_claim_ids": [
+        "SEC-02-2-P0-007",
+        "SEC-02-2-P0-008"
+      ],
+      "retrieval_expansions": 0,
+      "retrieval_gap_candidate": false,
+      "section_id": "SEC-02-2",
+      "status": "RESOLVED"
+    },
+    {
+      "actions_attempted": [
+        "cross-lingual mappings authored: 6",
+        "manual mappings authored: 9",
+        "packet inspected in full (20 evidence items)"
+      ],
+      "corpus_gap_candidate": false,
+      "gap_classes": [
+        "CROSS_LINGUAL_MAPPING_FAILURE",
+        "SPAN_MAPPING_FAILURE"
+      ],
+      "gap_id": "GAP-P0-05",
+      "generation_attempts": 0,
+      "packet_exhausted": true,
+      "packet_items_inspected": 20,
+      "question_id": "Q-02-3-01",
+      "remaining_missing_propositions": [
+        "Q-02-3-01-N02-C01",
+        "Q-02-3-01-N03-C02",
+        "Q-02-3-01-N03-C04",
+        "Q-02-3-01-N04-C01",
+        "Q-02-3-01-N05-C03",
+        "Q-02-3-01-N06-C01",
+        "Q-02-3-01-N07-C01"
+      ],
+      "resolved_claim_ids": [
+        "SEC-02-3-P0-003",
+        "SEC-02-3-P0-006",
+        "SEC-02-3-P0-007",
+        "SEC-02-3-P0-008",
+        "SEC-02-3-P0-009",
+        "SEC-02-3-P0-023",
+        "SEC-02-3-P0-024"
+      ],
+      "retrieval_expansions": 0,
+      "retrieval_gap_candidate": false,
+      "section_id": "SEC-02-3",
+      "status": "PARTIALLY_RESOLVED"
+    },
+    {
+      "actions_attempted": [
+        "cross-lingual mappings authored: 9",
+        "manual mappings authored: 9",
+        "packet inspected in full (20 evidence items)"
+      ],
+      "corpus_gap_candidate": false,
+      "gap_classes": [
+        "CROSS_LINGUAL_MAPPING_FAILURE",
+        "EXTRACTION_FAILURE",
+        "SPAN_MAPPING_FAILURE"
+      ],
+      "gap_id": "GAP-P0-06",
+      "generation_attempts": 0,
+      "packet_exhausted": true,
+      "packet_items_inspected": 20,
+      "question_id": "Q-02-3-02",
+      "remaining_missing_propositions": [
+        "Q-02-3-02-N04-C01",
+        "Q-02-3-02-N04-C02",
+        "Q-02-3-02-N04-C03",
+        "Q-02-3-02-N05-C02",
+        "Q-02-3-02-N06-C01",
+        "Q-02-3-02-N09-C01",
+        "Q-02-3-02-N10-C01",
+        "Q-02-3-02-N11-C01",
+        "Q-02-3-02-N13-C02",
+        "Q-02-3-02-N14-C03",
+        "Q-02-3-02-N15-C01",
+        "Q-02-3-02-N16-C01",
+        "Q-02-3-02-N18-C01",
+        "Q-02-3-02-N18-C02",
+        "Q-02-3-02-N19-C01"
+      ],
+      "resolved_claim_ids": [
+        "SEC-02-3-P0-013",
+        "SEC-02-3-P0-017"
+      ],
+      "retrieval_expansions": 0,
+      "retrieval_gap_candidate": true,
+      "section_id": "SEC-02-3",
+      "status": "PARTIALLY_RESOLVED"
+    }
+  ],
+  "generation_calls": 0,
+  "go_conditions": {
+    "all_claims_traceable": true,
+    "all_p0_gaps_processed": true,
+    "drafting_disabled": true,
+    "every_mapping_span_verified": true,
+    "existing_packet_evidence_checked_first": true,
+    "frozen_integrity_holds": true,
+    "generation_bounded": true,
+    "moved_threshold_still_unsupported": true,
+    "no_unsupported_numeric_promoted": true,
+    "qdrant_unchanged": true,
+    "qdrant_writes_zero": true,
+    "readiness_recomputed": true,
+    "retrieval_expansion_justified": true,
+    "tests_pass": true
+  },
+  "implementation": "scripts/43_p0_evidence_gap_resolution_v1.py",
+  "implementation_sha": "132a3a4e49c6774f6a9597877532a24efd5611b2d9a97b6fbc274d0791dfbf21",
+  "input_remediation_manifest_sha": "01ce81c8f7e9684befd72de23d941c3fa2e1aa77fed824f3baf20f0639524987",
+  "input_remediation_version": "tunnelbook-book-evidence-remediation-v1",
+  "manual_mapping_verdicts": {
+    "AMBIGUOUS": 0,
+    "FULL": 29,
+    "NONE": 0,
+    "PARTIAL": 14
+  },
+  "manual_mappings": 43,
+  "max_generation_attempts_per_gap": 2,
+  "next_phase": {
+    "carry_forward": [
+      "P1/P2 questions without a citation-ready claim: ['Q-02-2-03', 'Q-02-2-04', 'Q-02-2-06']",
+      "context difference retained and surfaced: CF-P0-001",
+      "generator synthesis dropped and recorded: SYN-001",
+      "numeric clauses unresolved outside P0: 1"
+    ],
+    "route": "SECTION DRAFTING CONTRACT V1 + BOOK CITATION RENDERING CONTRACT V1",
+    "sections": [
+      "SEC-02-2"
+    ],
+    "why": "at least one section reached a ready state with every P0 requirement resolved; it is READY_WITH_LIMITATIONS, so the drafting phase must carry those limitations rather than treat the section as unqualified"
+  },
+  "numeric_downgrades": [],
+  "p0_gap_count": 6,
+  "p0_questions": [
+    "Q-02-1-01",
+    "Q-02-1-02",
+    "Q-02-2-01",
+    "Q-02-2-02",
+    "Q-02-3-01",
+    "Q-02-3-02"
+  ],
+  "parent_version": "tunnelbook-book-evidence-remediation-v1",
+  "partially_resolved_gaps": [
+    "GAP-P0-01",
+    "GAP-P0-02",
+    "GAP-P0-05",
+    "GAP-P0-06"
+  ],
+  "qdrant_expected": 5992,
+  "qdrant_points_after": 5992,
+  "qdrant_points_before": 5992,
+  "qdrant_writes": 0,
+  "query_revisions_authored": 1,
+  "question_design_defects": [],
+  "resolved_gaps": [
+    "GAP-P0-03",
+    "GAP-P0-04"
+  ],
+  "resolved_p0_claims": 43,
+  "retrieval_calls": 0,
+  "retrieval_expansion_attempts": 0,
+  "retrieval_expansion_ceiling": 60,
+  "retrieval_gap_candidates": [
+    "Q-02-3-02-N15-C01"
+  ],
+  "revised_generation_attempts": 0,
+  "section_assessments": {
+    "SEC-02-1": {
+      "citation_ready_claims": 18,
+      "clauses_live": 45,
+      "clauses_superseded": 2,
+      "critical_cross_lingual_clauses": [
+        "Q-02-1-01-N16-D"
+      ],
+      "critical_numeric_clauses": [],
+      "critical_unsupported_clauses": [
+        "Q-02-1-01-N16-D"
+      ],
+      "limitations": [],
+      "p0_gap_status": {
+        "Q-02-1-01": "PARTIALLY_RESOLVED",
+        "Q-02-1-02": "PARTIALLY_RESOLVED"
+      },
+      "p0_resolution_citation_ready": 8,
+      "p0_resolution_claims": 11,
+      "p0_total": 3,
+      "p0_with_citation_ready_claim": 3,
+      "p0_without_citation_ready_claim": [],
+      "provenance_complete": true,
+      "readiness": "NOT_READY",
+      "readiness_reasons": [
+        "unsupported clauses under P0 objectives: 1",
+        "cross-lingual clauses under P0 objectives without a faithful mapping: 1"
+      ],
+      "section_id": "SEC-02-1",
+      "unresolved_cross_lingual_clauses": [
+        "Q-02-1-01-N16-D",
+        "Q-02-1-07-N03-C03"
+      ],
+      "unresolved_numeric_clauses": []
+    },
+    "SEC-02-2": {
+      "citation_ready_claims": 10,
+      "clauses_live": 42,
+      "clauses_superseded": 0,
+      "critical_cross_lingual_clauses": [],
+      "critical_numeric_clauses": [],
+      "critical_unsupported_clauses": [],
+      "limitations": [
+        "P1/P2 questions without a citation-ready claim: ['Q-02-2-03', 'Q-02-2-04', 'Q-02-2-06']",
+        "numeric clauses unresolved outside P0: 1",
+        "context difference retained and surfaced: CF-P0-001",
+        "generator synthesis dropped and recorded: SYN-001"
+      ],
+      "p0_gap_status": {
+        "Q-02-2-01": "RESOLVED",
+        "Q-02-2-02": "RESOLVED"
+      },
+      "p0_resolution_citation_ready": 8,
+      "p0_resolution_claims": 8,
+      "p0_total": 2,
+      "p0_with_citation_ready_claim": 2,
+      "p0_without_citation_ready_claim": [],
+      "provenance_complete": true,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "readiness_reasons": [
+        "P1/P2 questions without a citation-ready claim: ['Q-02-2-03', 'Q-02-2-04', 'Q-02-2-06']",
+        "numeric clauses unresolved outside P0: 1",
+        "context difference retained and surfaced: CF-P0-001",
+        "generator synthesis dropped and recorded: SYN-001"
+      ],
+      "section_id": "SEC-02-2",
+      "unresolved_cross_lingual_clauses": [],
+      "unresolved_numeric_clauses": [
+        "Q-02-2-04-N06-C01"
+      ]
+    },
+    "SEC-02-3": {
+      "citation_ready_claims": 15,
+      "clauses_live": 119,
+      "clauses_superseded": 0,
+      "critical_cross_lingual_clauses": [
+        "Q-02-3-01-N02-C01",
+        "Q-02-3-01-N03-C02",
+        "Q-02-3-01-N03-C04",
+        "Q-02-3-01-N04-C01",
+        "Q-02-3-01-N05-C03",
+        "Q-02-3-01-N06-C01",
+        "Q-02-3-02-N04-C02",
+        "Q-02-3-02-N05-C02",
+        "Q-02-3-02-N11-C01",
+        "Q-02-3-02-N13-C02",
+        "Q-02-3-02-N14-C03",
+        "Q-02-3-02-N16-C01",
+        "Q-02-3-02-N19-C01"
+      ],
+      "critical_numeric_clauses": [],
+      "critical_unsupported_clauses": [
+        "Q-02-3-01-N03-C02",
+        "Q-02-3-01-N03-C04",
+        "Q-02-3-01-N05-C03"
+      ],
+      "limitations": [],
+      "p0_gap_status": {
+        "Q-02-3-01": "PARTIALLY_RESOLVED",
+        "Q-02-3-02": "PARTIALLY_RESOLVED"
+      },
+      "p0_resolution_citation_ready": 9,
+      "p0_resolution_claims": 24,
+      "p0_total": 2,
+      "p0_with_citation_ready_claim": 2,
+      "p0_without_citation_ready_claim": [],
+      "provenance_complete": true,
+      "readiness": "NOT_READY",
+      "readiness_reasons": [
+        "unsupported clauses under P0 objectives: 3",
+        "cross-lingual clauses under P0 objectives without a faithful mapping: 13"
+      ],
+      "section_id": "SEC-02-3",
+      "unresolved_cross_lingual_clauses": [
+        "Q-02-3-01-N03-C02",
+        "Q-02-3-01-N03-C04",
+        "Q-02-3-01-N05-C03"
+      ],
+      "unresolved_numeric_clauses": []
+    }
+  },
+  "section_readiness": {
+    "SEC-02-1": "NOT_READY",
+    "SEC-02-2": "READY_WITH_LIMITATIONS",
+    "SEC-02-3": "NOT_READY"
+  },
+  "source_policy": "frozen_packet_only",
+  "source_registry_modified": false,
+  "spans_unverified": 0,
+  "spans_verified": 64,
+  "status": "closed_go",
+  "tests": {
+    "executed_by": "unittest",
+    "returncode": 0,
+    "status": "passed",
+    "suite": "tests/test_p0_evidence_gap_resolution_v1.py",
+    "tail": [
+      "test_support_relations_and_verdicts_are_from_the_allowed_vocabulary (tests.test_p0_evidence_gap_resolution_v1.TestSpanIntegrity.test_support_relations_and_verdicts_are_from_the_allowed_vocabulary) ... ok",
+      "",
+      "----------------------------------------------------------------------",
+      "Ran 51 tests in 0.111s",
+      "",
+      "OK"
+    ],
+    "tests_run": 51
+  },
+  "unresolved_gaps": [],
+  "version": "tunnelbook-p0-evidence-gap-resolution-v1"
+}

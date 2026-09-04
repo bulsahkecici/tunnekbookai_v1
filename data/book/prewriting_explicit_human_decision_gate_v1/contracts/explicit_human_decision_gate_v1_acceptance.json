@@ -1,0 +1,15 @@
+{
+  "schema_version": "prewriting-explicit-human-decision-gate-acceptance-v1",
+  "phase": "PRE-WRITING EXPLICIT HUMAN DECISION GATE V1",
+  "required_group_ids": ["HDG-001", "HDG-002", "HDG-003", "HDG-004", "HDG-005", "HDG-006", "HDG-007", "HDG-008", "HDG-009", "HDG-010"],
+  "acceptance_criteria": {
+    "explicit_owner_selection_count": 10,
+    "blocking_group_count_after_application": 0,
+    "decision_registry_status": "CLOSED",
+    "historical_artifacts_modified": false,
+    "external_evidence_admitted": false,
+    "drafting_authorized": false,
+    "book_prose_generated": false,
+    "next_phase_on_go": "PRE-WRITING REPOSITORY EVIDENCE ADMISSION V1"
+  }
+}

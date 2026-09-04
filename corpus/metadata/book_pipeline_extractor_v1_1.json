@@ -1,0 +1,72 @@
+{
+  "change_scope": [
+    "materiality detection",
+    "proposition extraction",
+    "clause decomposition",
+    "numeric support verification",
+    "cross-lingual mapping representation",
+    "audited note construction",
+    "support aggregation",
+    "readiness inputs",
+    "conflict candidate generation"
+  ],
+  "created_at": "2026-08-18T23:26:10.296579+00:00",
+  "drafting_enabled": false,
+  "evidence_note_contract": "tunnelbook-evidence-note-contract-v1",
+  "generation_calls": 0,
+  "implementation": "scripts/42_book_pipeline_extractor_v1_1.py",
+  "implementation_sha": "56d4097b7364233faa41fc23540242c88ae73ccf7a09c428c3f4625db6ead8e0",
+  "known_fixed_defects": [
+    "citation-handle digits made bare labels material ([E001] -> '001' -> numeric)",
+    "bare enumeration labels and headings became factual EvidenceNotes",
+    "compound claims were credited whole for a span covering one clause",
+    "unsupported unit conversions (15 cm -> 150 mm) rode along as source-stated values",
+    "cross-lingual claims could be upgraded by lexical overlap alone",
+    "condition-bearing figures (rock class, system type) lost their condition when split",
+    "modality was only recognised for a fixed list of Turkish verbs",
+    "conflict candidates were bucketed on unit alone across a whole chunk"
+  ],
+  "known_remaining_defects": [
+    "clause support below the manual-audit ceiling is decided lexically; paraphrase support in the same language is still recorded as INSUFFICIENT_EVIDENCE",
+    "literal-span upgrades are verified verbatim and condition-bound by machine, not re-read end to end by a human; only the 11 cross-lingual mappings and the 2 numeric defects were adjudicated by reading",
+    "the conflict detector remains a coarse deterministic candidate generator with no measurable recall, because no true conflict exists in the pilot to measure against",
+    "no paraphrase mappings were authored, so semantically supported claims with no contiguous span stay unsupported",
+    "source authority is still unweighted"
+  ],
+  "manual_audit_version": "tunnelbook-pilot-manual-evidence-audit-v1",
+  "parent_version": "tunnelbook-book-writing-pipeline-v1",
+  "regression_result": {
+    "by_type": {
+      "clause_decomposition": 8,
+      "materiality": 197,
+      "numeric": 4
+    },
+    "failed": 0,
+    "passed": 209,
+    "total": 209
+  },
+  "regression_suite": "data/evaluation/book_pipeline_extractor_v1_1_regression.jsonl",
+  "remediation_artifacts": [
+    "data/book/remediation/clause_decomposition_v1_1.jsonl",
+    "data/book/remediation/conflict_candidates_v1_1.jsonl",
+    "data/book/remediation/cross_lingual_support_maps_v1.jsonl",
+    "data/book/remediation/literal_span_remediation_v1.jsonl",
+    "data/book/remediation/non_proposition_remediation_v1.jsonl",
+    "data/book/remediation/numeric_remediation_v1.jsonl",
+    "data/book/remediation/split_note_remediation_v1.jsonl"
+  ],
+  "retrieval_calls": 0,
+  "source_policy": "corpus_only",
+  "status": "closed",
+  "unchanged_upstream": [
+    "Retriever v1",
+    "Context v1",
+    "Prompt v5",
+    "Output Contract v1.1",
+    "Production Grounded Generator v1",
+    "Evidence Note Contract v1",
+    "Book Pipeline v1",
+    "Pilot Manual Evidence Audit v1"
+  ],
+  "version": "tunnelbook-book-pipeline-extractor-v1.1"
+}

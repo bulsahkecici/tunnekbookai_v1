@@ -1,0 +1,71 @@
+{
+  "version": "tunnelbook-sec-02-2-architecture-v2.2-condition-closed-retry-manifest-v1",
+  "phase": "SEC-02-2 ARCHITECTURE V2.2 TECHNICAL + BOOK STYLE INTEGRATION V1 RETRY",
+  "status": "CLOSED_GO",
+  "gate": {
+    "verdict": "CLOSED_GO",
+    "conditions_passed": 16,
+    "conditions_failed": 0
+  },
+  "pre_renderer_closure": {
+    "claim_roles": "20/20",
+    "conditions": "25/25",
+    "dependencies": "2/2"
+  },
+  "validator": {
+    "version": "tunnelbook-section-draft-validator-v1.2",
+    "status": "ACCEPT",
+    "failure_histogram": {},
+    "rejected_units": 0
+  },
+  "determinism": {
+    "status": "PASS",
+    "in_process_runs": 3,
+    "fresh_process_runs": 1,
+    "sha256": "f85da058b02de087e30e4a9a6e777bd592aa2bb2e79063ab8a60aa4aa10c8e14"
+  },
+  "artifacts": {
+    "implementation": {
+      "path": "scripts/78_architecture_v2_2_condition_closed_retry_v1.py",
+      "sha256": "cdf2ad880154b90ec580304dd8c464321a40f0ee1e247869a6677a694acd71dd"
+    },
+    "test": {
+      "path": "tests/test_sec_02_2_architecture_v2_2_condition_closed_retry_v1.py",
+      "sha256": "b8cc9bdb7cbb3d1d76b755db5fa6e2d1082b43b327ef9b759e294e88b8d538b6"
+    },
+    "acceptance_freeze": {
+      "path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1_rerun/audits/acceptance_freeze_v1.json",
+      "sha256": "3ba6e86b4f6185cd5d9ee6bebe94463fd7f1963dd6487b63df8b527ee6996cf8"
+    },
+    "integration_audit": {
+      "path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1_rerun/audits/integration_audit_v1.json",
+      "sha256": "f0fabd43caa511a3346579cd0c575390eb48ed5fc1613be1a9ac1da1bb41e058"
+    },
+    "determinism_audit": {
+      "path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1_rerun/audits/determinism_v1.json",
+      "sha256": "a11f158b62999b082f9ae52660c24206cee9b94bc8f9611e10f9fe1e70b3099d"
+    },
+    "frozen_postflight": {
+      "path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1_rerun/audits/frozen_postflight_v1.json",
+      "sha256": "d9e7fdc97870cd06848e616ff3b406b6da7a8f082ec8a442c32148d49bc0c7d7"
+    },
+    "acceptance_results": {
+      "path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1_rerun/audits/acceptance_results_v1.json",
+      "sha256": "10b205ca4f52a24425fab6472b8ee0c8ba8107866453b278a2bda6e23e38128e"
+    },
+    "accepted_draft": {
+      "path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1_rerun/rendered/accepted_draft_v1.json",
+      "sha256": "f315bcbd5e3a84d07dfef45a4ef87d4445d1033a463b3831e840986c9f08649c"
+    }
+  },
+  "accounting": {
+    "generation_calls": 0,
+    "retrieval_calls": 0,
+    "qdrant_writes": 0,
+    "corpus_wide_reads": 0,
+    "post_render_model_passes": 0,
+    "stored_drafts": 1,
+    "released_drafts": 0
+  },
+  "next_phase": "SEC-02-2 TECHNICAL DRAFT RE-AUDIT V2"
+}

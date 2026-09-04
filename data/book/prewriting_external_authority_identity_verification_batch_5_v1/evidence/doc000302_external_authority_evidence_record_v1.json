@@ -1,0 +1,61 @@
+{
+  "admission_status_changed": false,
+  "authoritative_lookup_records": [
+    {
+      "authority": "Karayolları Genel Müdürlüğü",
+      "finding": "Aydın Durukan and organizational role corroborated only; no DOC000302 material identity, issuer, date, identifier, or version match",
+      "record_id": "KGM-ARGE-CONTACT",
+      "retrieved": "2026-08-22",
+      "url": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Baskanliklar/BaskanliklarTeknikArastirma/iletisim.aspx"
+    }
+  ],
+  "authority_class": "UNKNOWN_AUTHORITY",
+  "authority_status": "AUTHORITY_NOT_VERIFIABLE",
+  "batch_id": "EXT-BATCH-05",
+  "claim_proposition_changed": false,
+  "claim_relative_suitability": "NOT_AUTHORITY_SUITABLE_IDENTITY_OR_VERSION_UNRESOLVED",
+  "conflict_fields": [],
+  "course_material_guard_applied": false,
+  "evidence_snapshot": {
+    "kind": "DETERMINISTIC_METADATA_DIGEST",
+    "sha256": "1c6e5ada8d04d0aee3ba423112f20efb120a504bd9d66e0c64365a09e22bbd09"
+  },
+  "host_institution": "EXTERNALLY_UNVERIFIED",
+  "identity_match_status": "NO_RELIABLE_MATCH",
+  "issuing_publishing_authority": "EXTERNALLY_UNVERIFIED",
+  "limitations": [
+    "Official record does not identify the local artifact or applicable version",
+    "Presenter/course-family corroboration does not establish material identity, issuer, source type, or technical authority"
+  ],
+  "local_identity_metadata": {
+    "presenter": "Aydın Durukan",
+    "title": "TÜNELLERDE GÜZERGAH SEÇİMİ VE JEOLOJİK - JEOTEKNİK ARAŞTIRMALAR ve KAYA SINIFLAMALARI",
+    "unit": "Jeolojik Hizmetler Şubesi Müdürlüğü"
+  },
+  "material_identity": "EXTERNALLY_UNVERIFIED",
+  "metadata_only_use_boundary": true,
+  "presenter_author_identity": "PARTIALLY_CORROBORATED",
+  "promotion": false,
+  "queue_identity_matching_keys": [
+    "DOC000302",
+    "TÜNELLERDE GÜZERGAH SEÇİMİ VE JEOLOJİK - JEOTEKNİK ARAŞTIRMALAR ve KAYA SINIFLAMALARI",
+    "1f2620af18f727fc650fba888a0b3b748ffc8a2a378ae188a892567e35d66a5a"
+  ],
+  "repository_identity": "TÜNELLERDE GÜZERGAH SEÇİMİ VE JEOLOJİK - JEOTEKNİK ARAŞTIRMALAR ve KAYA SINIFLAMALARI",
+  "schema_version": "1.0.0",
+  "source_id": "DOC000302",
+  "source_type": "UNKNOWN_SOURCE_TYPE",
+  "source_type_resolution": "UNRESOLVED",
+  "support_status_changed": false,
+  "technical_authority": "UNKNOWN",
+  "technical_content_captured": false,
+  "unknown_source_type_guard_applied": true,
+  "unresolved_fields": [
+    "source type",
+    "issuing institution/publisher",
+    "publication/report date",
+    "edition/version",
+    "formal identifier"
+  ],
+  "version_match_status": "VERSION_UNRESOLVED"
+}

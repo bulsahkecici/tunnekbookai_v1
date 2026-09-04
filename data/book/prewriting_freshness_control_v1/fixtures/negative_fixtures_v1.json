@@ -1,0 +1,70 @@
+{
+  "fixtures": [
+    {
+      "expected_error": "CURRENT_CLAIM_AS_OF_DATE_REQUIRED",
+      "fixture_id": "NEG-001",
+      "item": {
+        "freshness_class": "CURRENTNESS_SENSITIVE",
+        "presented_as_current": true
+      }
+    },
+    {
+      "expected_error": "EXPIRED_EVIDENCE_PRESENTED_AS_CURRENT",
+      "fixture_id": "NEG-002",
+      "item": {
+        "as_of_date": "2020-01-01",
+        "evidence_expired": true,
+        "freshness_class": "CURRENTNESS_SENSITIVE",
+        "presented_as_current": true
+      }
+    },
+    {
+      "expected_error": "HISTORICAL_EVIDENCE_PRESENTED_AS_CURRENT",
+      "fixture_id": "NEG-003",
+      "item": {
+        "freshness_class": "HISTORICAL_STABLE",
+        "presented_as_current": true
+      }
+    },
+    {
+      "expected_error": "DATASET_SNAPSHOT_IDENTITY_REQUIRED",
+      "fixture_id": "NEG-004",
+      "item": {
+        "freshness_class": "DATASET_SNAPSHOT_DEPENDENT"
+      }
+    },
+    {
+      "expected_error": "MODEL_MEMORY_LATEST_FACT_PROHIBITED",
+      "fixture_id": "NEG-005",
+      "item": {
+        "evidence_origin": "MODEL_MEMORY",
+        "freshness_class": "SLOW_CHANGING"
+      }
+    },
+    {
+      "expected_error": "INSTITUTIONAL_AUTHORITY_DATE_REQUIRED",
+      "fixture_id": "NEG-006",
+      "item": {
+        "freshness_class": "CURRENTNESS_SENSITIVE",
+        "institutional_fact": true
+      }
+    },
+    {
+      "expected_error": "STALE_SOURCE_PROVENANCE_MUST_BE_PRESERVED",
+      "fixture_id": "NEG-007",
+      "item": {
+        "freshness_class": "SLOW_CHANGING",
+        "overwrites_stale_source": true,
+        "preserves_prior_provenance": false
+      }
+    },
+    {
+      "expected_error": "ARBITRARY_GLOBAL_REFRESH_INTERVAL_PROHIBITED",
+      "fixture_id": "NEG-008",
+      "item": {
+        "freshness_class": "SLOW_CHANGING",
+        "global_refresh_interval_applied": true
+      }
+    }
+  ]
+}

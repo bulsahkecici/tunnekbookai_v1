@@ -1,0 +1,32 @@
+{
+  "version": "tunnelbook-deterministic-book-style-integration-v2.2",
+  "section_id": "SEC-02-2",
+  "implements": "tunnelbook-book-style-contract-v1",
+  "model_style_pass": "FORBIDDEN",
+  "section_title": "Püskürtme Beton: Dayanım, Çimento Dozajı ve Kaplama Kalınlığı",
+  "subsection_order": ["A", "B", "C", "D"],
+  "subsection_headings": {
+    "A": "Püskürtme Betonun Malzeme ve Dayanım Gereklilikleri",
+    "B": "Çimento Dozajı",
+    "C": "Kaplama Kalınlığı ve Katman Düzeni",
+    "D": "Uygulama Koşulları ve Özel Durumlar"
+  },
+  "paragraph_order": {
+    "A": ["SEC-02-2-C-001", "SEC-02-2-C-002", "V22-C002-CRITERION-001"],
+    "B": ["SEC-02-2-R001", "SEC-02-2-P0-001", "SEC-02-2-C-018", "SEC-02-2-P0-005", "SEC-02-2-P0-004"],
+    "C": ["SEC-02-2-P0-007", "SEC-02-2-P0-008", "V22-P0008-CASE-001", "SEC-02-2-C-003", "SEC-02-2-C-006", "SEC-02-2-C-007", "V22-SCOPE-WET-001", "SEC-02-2-C-004", "SEC-02-2-C-005"],
+    "D": ["V22-SCOPE-REPAIR-001", "SEC-02-2-C-012", "SEC-02-2-C-009"]
+  },
+  "placement_rules": {
+    "scope_before_governed_claim": true,
+    "criterion_immediately_after_governing_claim": true,
+    "qualifier_same_paragraph": true,
+    "general_before_specific": true,
+    "construction_sequence_ordered": true
+  },
+  "terminology_map": {"layer_preferred": "tabaka", "system_terms": ["kuru sistem", "yaş sistem"], "free_variants_allowed": false},
+  "redundancy_suppression": [{"claim_id": "SEC-02-2-P0-006", "reason": "duplicates the allocated dry/wet minima", "required_fact_coverage_before_suppression": ["SEC-02-2-R001", "SEC-02-2-P0-001"]}],
+  "citation_policy": {"contract": "citation_allocation_contract_v2", "unknown_keys": "REJECT", "misleading_heading": "REJECT"},
+  "cross_claim_connectives": "FORBIDDEN_UNLESS_RELATION_LICENSED",
+  "deterministic": true
+}

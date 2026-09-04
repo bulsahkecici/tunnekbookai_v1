@@ -1,0 +1,60 @@
+{
+  "document_id": "DOC000110",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:56:06+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "**DEVELOPMENT AND BACKGROUND OF NATM** **Wulf Schubert** **Graz University of Technology**",
+      "value": "B"
+    },
+    "document_type": {
+      "confidence": "medium",
+      "evidence": "**DEVELOPMENT AND BACKGROUND OF NATM** **Wulf Schubert** **Graz University of Technology**",
+      "value": "academic_article"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "filename: 01_TUG_NATM.docx [evidence_not_grounded_in_context]",
+      "value": "01_TUG_NATM"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "headings: TUNNELLING PRACTICE|THEORY and LOAD CONCEPTS|TRADITIONAL TUNNEL DESIGN|MAIN PROBLEMS WITH TRADITIONAL METHODS|FIRST IDEAS OF NATM|DEVELOPMENT OF SHOTCRETE AND BOLTING|SYSTEMATIC BOLTING TO CREATE CARRYING ARCH|BASIC PRINCIPLES OF NATM|FIRST SYSTEMATIC APPLICATION OF BOLTS AND SHOTCRETE|FIRST APPLICATION OF NATM IN AUSTRIA|EARLY MILESTONES|COMPARISON TAUERNTUNNEL 1 + 2|Changes over the decades (example Tauerntunnel)|SAFETY MANAGEMENT|CONSTRUCTION CONTRACT",
+      "value": [
+        "accident",
+        "case_study",
+        "construction_management",
+        "contracts",
+        "cost",
+        "excavation",
+        "geotechnical_investigation",
+        "monitoring",
+        "natm",
+        "risk",
+        "rock_bolt",
+        "rock_mechanics",
+        "safety",
+        "shotcrete"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "relative_path: Mehmet/Literatur/Wordler/YTMK/2015/01_TUG_NATM.docx [evidence_not_grounded_in_context]",
+      "value": 2015
+    }
+  },
+  "source_sha256": "521709d743a3d0399b5025fc7cc9eb9bc383852908cc125951b52d56a9c53a6d"
+}

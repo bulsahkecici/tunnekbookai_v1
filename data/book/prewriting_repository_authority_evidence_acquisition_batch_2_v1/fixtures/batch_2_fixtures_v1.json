@@ -1,0 +1,18 @@
+{
+  "negative": [
+    "title_author_without_date_locator_stays_unknown",
+    "thesis_without_repository_identifier_stays_unknown",
+    "body_institution_mentions_do_not_promote",
+    "filename_tokens_do_not_promote",
+    "support_does_not_imply_authority",
+    "authority_does_not_imply_admission",
+    "external_identity_not_acquired",
+    "batch_3_not_processed"
+  ],
+  "positive": [
+    "journal_identity_with_doi_promotes",
+    "official_manual_with_issuer_unit_year_promotes",
+    "explicit_thesis_identity_resolves_type",
+    "exact_local_line_provenance_retained"
+  ]
+}

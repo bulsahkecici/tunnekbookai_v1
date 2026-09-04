@@ -1,0 +1,47 @@
+{
+ "artifact_sha256": "bce6bde1be4f6dfb0e7d5d7b9217665ddc9e1caa4c854ec31d0c032d11808f7c",
+ "context_contract": "tunnelbook-context-v1",
+ "created_at": "2026-08-18T00:20:44+03:00",
+ "generation_config_hash": "4585b74fb0a8c953eb9c7215ed5576863e0810aa11974ed9b24c612e6795258d",
+ "generation_endpoint": "/v1/completions",
+ "harness_version": "generation-harness-v1",
+ "pilot_version": "generation-reserve-pilot-v1",
+ "queries": {
+  "P01": {
+   "context_packet_sha": "7ee7dbf31534c2c02ef1001310ca9473cd7eaba89517c795893c8f1669b5cb36",
+   "language": "tr",
+   "query": "tünel havalandırma sistemi nasıl tasarlanır",
+   "type": "turkish_factual"
+  },
+  "P02": {
+   "context_packet_sha": "e78850f966b046e520e7cfd56dda5f70cd5aed79a18a2f900e351a46fb644bd0",
+   "language": "en",
+   "query": "What is shotcrete used for in tunnel support",
+   "type": "english_factual"
+  },
+  "P03": {
+   "context_packet_sha": "d79b1658603523acada2eaa07363b3913027c48591c8129d363e8dd423cfe033",
+   "language": "en",
+   "query": "NATM excavation and support classes",
+   "type": "multi_source"
+  },
+  "P04": {
+   "context_packet_sha": "1248007fa93ffe451255c84fb442d2c582a5f62a9fab6d074c9db89d1be03385",
+   "language": "tr",
+   "query": "püskürtme beton kalınlığı ve dozajı",
+   "type": "numeric_technical"
+  },
+  "P05": {
+   "context_packet_sha": "5fed9cbccb4b7fa123cdb3edac7249c84d8e4d098066798b1ae2fe222c5276c4",
+   "language": "tr",
+   "query": "Bu tünelin 2031 yılı toplam bakım bütçesi kaç TL olarak planlanmıştır",
+   "type": "must_abstain"
+  }
+ },
+ "retriever_release": "tunnelbook-retriever-v1",
+ "row_count": 25,
+ "system_prompt_sha": "303691ec02501fa4637a2618ceb90f21bba4c558e41124325ed8915ef7a64817",
+ "template_sha": "e84f32a23fdda27689f868aa4a1a5621f41133e51a48d7f3efcbea2839574259",
+ "tokenizer_sha": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4",
+ "validator_version": "citation-validator-v1.2"
+}

@@ -1,0 +1,181 @@
+{
+  "acceptance_contract_sha256": "14c0130b54ab3a86922febc0c2af52388e3df6f80e163e87b590e9dd22a5c452",
+  "accounting": {
+    "automatic_retries": 0,
+    "corpus_reads": 0,
+    "frozen_artifacts_modified": 0,
+    "generation_calls": 1,
+    "lexicons_widened": 0,
+    "post_render_model_calls": 0,
+    "qdrant_writes": 0,
+    "regenerations": 0,
+    "repairs": 0,
+    "retrieval_calls": 0,
+    "validators_weakened": 0
+  },
+  "consistency": {
+    "claim_role_counts": {
+      "SEC-02-2-C-001/REQUIREMENT": 1,
+      "SEC-02-2-C-002/CLAIM_STATEMENT": 1,
+      "SEC-02-2-C-002/QUALIFIER_SCOPE": 1,
+      "SEC-02-2-C-003/REQUIREMENT": 1,
+      "SEC-02-2-C-004/REQUIREMENT": 1,
+      "SEC-02-2-C-005/REQUIREMENT": 1,
+      "SEC-02-2-C-006/REQUIREMENT": 1,
+      "SEC-02-2-C-007/REQUIREMENT": 1,
+      "SEC-02-2-C-009/QUALIFIER_SCOPE": 1,
+      "SEC-02-2-C-009/REQUIREMENT": 1,
+      "SEC-02-2-C-012/CLAIM_STATEMENT": 1,
+      "SEC-02-2-P0-001/CONDITION": 1,
+      "SEC-02-2-P0-001/REQUIREMENT": 1,
+      "SEC-02-2-P0-004/CLAIM_STATEMENT": 1,
+      "SEC-02-2-P0-005/REQUIREMENT": 1,
+      "SEC-02-2-P0-006/REQUIREMENT": 1,
+      "SEC-02-2-P0-007/CLAIM_STATEMENT": 1,
+      "SEC-02-2-P0-008/CLAIM_STATEMENT": 1,
+      "SEC-02-2-R001/REQUIREMENT": 1
+    },
+    "claims": 16,
+    "claims_not_exposed_by_universe": [],
+    "consistent": true,
+    "mandatory_obligations_unmet": [],
+    "required_core_claims_missing": [],
+    "role_counts": {
+      "CLAIM_STATEMENT": 5,
+      "CONDITION": 1,
+      "QUALIFIER_SCOPE": 2,
+      "REQUIREMENT": 11
+    },
+    "roles_not_available": [],
+    "roles_not_realizable_in_universe": [],
+    "slots": 19,
+    "unrealizable_pairs_selected": []
+  },
+  "coverage": {
+    "citation_coverage": 1.0,
+    "condition_obligations": 19,
+    "condition_preservation": 1.0,
+    "conditions_dropped": 0,
+    "language_compliance": 1.0,
+    "language_failures": [],
+    "material_units": 19,
+    "measured_by": "draft_validator_v1_2_stage_E_and_L",
+    "pilot_1_anchor_metric": {
+      "condition_obligations": 23,
+      "condition_preservation": 0.8696,
+      "note": "reimplements stage E without its frozen condition glosses; reported as a diagnostic, not as the gate",
+      "qualifier_obligations": 4,
+      "qualifier_preservation": 1.0
+    },
+    "qualifier_obligations": 2,
+    "qualifier_preservation": 1.0,
+    "qualifiers_dropped": 0,
+    "unknown_citations": 0
+  },
+  "gate": {
+    "conditions": 21,
+    "contract_sha256": "14c0130b54ab3a86922febc0c2af52388e3df6f80e163e87b590e9dd22a5c452",
+    "contract_version": "tunnelbook-architecture-v2-pilot-2-acceptance-contract-v1",
+    "unmet": [],
+    "verdict": "ACCEPTED"
+  },
+  "generated_at": "2026-08-20T06:23:45.782487+00:00",
+  "generation": {
+    "completed_at": "2026-08-20T06:23:45.563567+00:00",
+    "context_headroom": 53875,
+    "finish_reason": "stop",
+    "generation_calls": 1,
+    "latency_seconds": 46.90322550000565,
+    "max_tokens": 8000,
+    "model_id": "qwen3.6-35b-a3b-mlx",
+    "pilot_id": "SEC-02-2-ARCHV2-PILOT-2",
+    "prompt_sha256": "8d77009ae0979c9e3f3114fc7b15c714972f044e2afdf97324dafd45746903eb",
+    "prompt_tokens": 6465,
+    "raw_text_sha256": "df99ad48d66d02150f2d1ff622a2ab362b323e9d9795f65a90c30296a08a9ec4",
+    "requested_at": "2026-08-20T06:22:58.660251+00:00",
+    "section_id": "SEC-02-2",
+    "seed": 11,
+    "system_prompt_sha256": "d22632b82facf58ea69304cd5ed07d7d9490bd62b9da870d59d0d9e204243215",
+    "system_prompt_version": "architecture-v2-semantic-planner-v2",
+    "temperature": 0.0,
+    "template_sha256": "e84f32a23fdda27689f868aa4a1a5621f41133e51a48d7f3efcbea2839574259",
+    "tokenizer_sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4",
+    "usage": {
+      "completion_tokens": 1537,
+      "prompt_tokens": 6465,
+      "total_tokens": 8002
+    }
+  },
+  "historical_regression": {
+    "artifact_drift": [],
+    "artifacts_checked": 17,
+    "byte_identical": true,
+    "frozen_module_drift": [],
+    "frozen_modules_checked": 11,
+    "lexicon_drift": [],
+    "lexicons_checked": 4
+  },
+  "phase": "SEC-02-2 ARCHITECTURE V2 PILOT #2 AUTHORISATION",
+  "pilot_id": "SEC-02-2-ARCHV2-PILOT-2",
+  "post_render": {
+    "citation_render": {
+      "citations": 12,
+      "label": "PILOT_DRAFT_ACCEPTED",
+      "path": "data/book/drafting/sec_02_2/architecture_v2/pilot_2/rendered/sec_02_2_pilot_2_draft.md",
+      "rendered": true,
+      "renderer_version": "tunnelbook-book-citation-renderer-v1",
+      "sha256": "4994c5db7d0fc6615ae54150165371bcda4efe7526d3a3904b6c4e07547ecd07"
+    },
+    "determinism": {
+      "fresh_process_sha256": "7451c9e58e20a04195100f87103e2045a17b3ff560fae888ad9767a2c7b09c17",
+      "identical": true,
+      "in_process_identical": true,
+      "in_process_runs": 3,
+      "in_process_sha256": "7451c9e58e20a04195100f87103e2045a17b3ff560fae888ad9767a2c7b09c17",
+      "stderr": ""
+    },
+    "draft_status": "PILOT_DRAFT_ACCEPTED",
+    "post_render_model_calls": 0,
+    "render_sha256": "7451c9e58e20a04195100f87103e2045a17b3ff560fae888ad9767a2c7b09c17",
+    "rendered": true,
+    "rendered_units": 19,
+    "required_topics": {
+      "covered": 3,
+      "missing": [],
+      "required": 3,
+      "topics": [
+        "çimento dozajı",
+        "kaplama kalınlığı",
+        "dayanım sınıfı"
+      ]
+    },
+    "validator": {
+      "histogram": {},
+      "rejected_unit_ids": [],
+      "status": "ACCEPT"
+    },
+    "validator_version": "tunnelbook-section-draft-validator-v1.2",
+    "zero_tolerance_violations": {}
+  },
+  "pre_generation": {
+    "authorised": true,
+    "canonical_universe_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+    "feasibility_universe_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+    "model_payload_universe_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+    "sha_equality": true
+  },
+  "section_id": "SEC-02-2",
+  "semantic_plan": {
+    "failures": [],
+    "m1_valid": true,
+    "prose_fields": 0,
+    "required_topics_planned": {
+      "covered": 3,
+      "required": 3
+    },
+    "schema_accepted": true,
+    "unknown_fields": 0,
+    "valid": true
+  },
+  "version": "tunnelbook-sec-02-2-architecture-v2-pilot-2"
+}

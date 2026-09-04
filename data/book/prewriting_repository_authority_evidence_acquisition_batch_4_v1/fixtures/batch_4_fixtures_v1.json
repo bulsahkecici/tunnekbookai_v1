@@ -1,0 +1,18 @@
+{
+  "negative": [
+    "frozen_batch_no_promotion_is_enforced",
+    "thesis_without_repository_identifier_stays_unknown",
+    "paper_without_venue_date_identifier_stays_unknown",
+    "generic_title_does_not_resolve_source_type",
+    "filename_tokens_do_not_promote",
+    "support_does_not_imply_authority",
+    "authority_does_not_imply_admission",
+    "batch_5_not_processed"
+  ],
+  "positive": [
+    "explicit_issuer_title_identifier_date_are_recorded",
+    "explicit_thesis_identity_is_recorded",
+    "conference_candidate_self_description_is_recorded",
+    "exact_local_line_provenance_retained"
+  ]
+}

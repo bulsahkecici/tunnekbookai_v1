@@ -1,0 +1,25 @@
+{
+  "audit_count": 12,
+  "external_use": "IDENTITY_AND_AUTHORITY_METADATA_ONLY",
+  "negative_fixture_count": 12,
+  "phase": "PRE-WRITING EXTERNAL AUTHORITY IDENTITY VERIFICATION BATCH 6 V1",
+  "positive_fixture_count": 6,
+  "prohibitions": [
+    "technical_content",
+    "technical_evidence",
+    "technical_claims",
+    "support_change",
+    "proposition_change",
+    "book_prose",
+    "cost_analysis",
+    "visual_generation",
+    "canonical_mutation"
+  ],
+  "schema_version": "1.0.0",
+  "scope": [
+    "DOC000193",
+    "DOC000200",
+    "DOC000209",
+    "DOC000211"
+  ]
+}

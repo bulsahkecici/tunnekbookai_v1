@@ -1,0 +1,62 @@
+{
+  "audits": [
+    {
+      "audit": "batch_3_scope",
+      "result": "PASS"
+    },
+    {
+      "audit": "external_source_quality",
+      "result": "PASS"
+    },
+    {
+      "audit": "identity_matching",
+      "result": "PASS"
+    },
+    {
+      "audit": "publication_version_matching",
+      "result": "PASS"
+    },
+    {
+      "audit": "academic_conference_authority_evidence",
+      "result": "PASS"
+    },
+    {
+      "audit": "conflict_handling",
+      "result": "PASS"
+    },
+    {
+      "audit": "authority_promotion",
+      "result": "PASS"
+    },
+    {
+      "audit": "claim_relative_suitability",
+      "result": "PASS"
+    },
+    {
+      "audit": "metadata_provenance",
+      "result": "PASS"
+    },
+    {
+      "audit": "no_technical_evidence_admission",
+      "result": "PASS"
+    },
+    {
+      "audit": "frozen_support_proposition_integrity",
+      "result": "PASS"
+    },
+    {
+      "audit": "no_prose_external_boundary",
+      "result": "PASS"
+    }
+  ],
+  "batch_1_regression": "PASS",
+  "batch_2_doc000072_regression": "PASS",
+  "claim_level_admissions": 0,
+  "deterministic_processing": "PASS",
+  "external_boundary": "PASS",
+  "false_accepts": 0,
+  "false_rejects": 0,
+  "frozen_input_integrity": "PASS",
+  "schema_version": "1.0.0",
+  "verified_support": 602
+}

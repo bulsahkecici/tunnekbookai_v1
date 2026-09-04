@@ -1,0 +1,117 @@
+{
+  "artifact_shas": {
+    "audited_bundles": {
+      "SEC-02-1": "f6194823aa84f4e3a7c289373681f5300a9a5d9478ef9ec2d1d0e25c9f459eea",
+      "SEC-02-2": "2fa6434d285b72fc8a825169119f307a74d0b6ffbfefa770c734237e72a339bc",
+      "SEC-02-3": "e5a4f79841c00d916e8d3f7de5f6b586c03409a4c95c0804bc4fa976d541b3e5"
+    },
+    "audited_ledgers": {
+      "SEC-02-1": "df5c69dd0552eee24107006d728e85dcdd94b5fb85a107480f4ca9795a2ea87c",
+      "SEC-02-2": "574f5c192af80fb7851b5b2d5911570a14a94fbbb78aa33940233038388a9eba",
+      "SEC-02-3": "5409766c5bea791afd5592fae4fd3762fffc036a4a1a3390e81888899a407972"
+    },
+    "audited_notes": {
+      "SEC-02-1": "f72bf733ca9f230f5d7f231b2eb610c9100af15408a4dd7b3768aba13416d11f",
+      "SEC-02-2": "46d736cefe1f59a17cacf2124870c5544800008abc176e545396ef7d7bd4b18f",
+      "SEC-02-3": "ee17989f690d9558919c20f654c9925a89f30cfc77095d5dad1a5fff663e1a12"
+    },
+    "clause_audit": "b33b3f21e86b572b4fcf950ef57e2496982cbed4129bcf0b84cd64a98cd1cdc4",
+    "conflict_candidates": "39470da22539268b34ec04da4c30c8f20003980d8a3b82461af81aa83355f535",
+    "duplicate_audit": "96c8803cdaeb869bea374d27ae9984837c08faa4d74f62a10b7089122aaa9fcb",
+    "note_audit": "e8ae6cdbbad372abfa8c3cd6538d23e0fa3f15ef193309439e496f00da41bb79"
+  },
+  "audit_method": "manual_evidence_read",
+  "audit_method_all_manual": true,
+  "audit_row_count": 159,
+  "audit_version": "tunnelbook-pilot-manual-evidence-audit-v1",
+  "audited_INSUFFICIENT_EVIDENCE": 129,
+  "audited_PARTIALLY_SUPPORTED": 15,
+  "audited_SUPPORTED": 15,
+  "audited_note_count": 30,
+  "clause_row_count": 249,
+  "clause_status": {
+    "PARTIALLY_SUPPORTED": 49,
+    "SUPPORTED": 43,
+    "UNSUPPORTED": 157
+  },
+  "conflict_candidate_count": 30,
+  "conflict_classifications": {
+    "CONTEXT_DIFFERENCE": 1,
+    "NOT_CONFLICT": 29
+  },
+  "conflict_evidence_universe_items": 377,
+  "conflict_search_performed": true,
+  "contract_v1_1_note": "No representation gap was found; Evidence Note Contract v1 expressed every audited revision, so no v1.1 was created.",
+  "created_at": "2026-08-19T01:29:56+03:00",
+  "cross_lingual_notes": 11,
+  "downgrades_from_supported": 54,
+  "drafting_enabled": false,
+  "duplicate_decisions": {
+    "confirmed_duplicate": 1,
+    "related_not_duplicate": 1
+  },
+  "duplicate_pairs_reviewed": 2,
+  "evidence_note_contract_v1_1_created": false,
+  "evidence_refs_verified_all": true,
+  "false_supported_full_claims_remaining": 0,
+  "generation_calls": 0,
+  "implementation": "scripts/41_pilot_manual_evidence_audit_v1.py",
+  "implementation_sha": "ba7276daf4d2f2b847f8e060df8764ae6dbdca5be18989c7b09a60c33ed53b21",
+  "input_note_count": 159,
+  "literal_span_verified_all": true,
+  "manual_audit_completed_all": true,
+  "manual_clause_splits": [
+    "Q-02-1-06-N06"
+  ],
+  "manual_overrides": [
+    "Q-02-1-01-N10",
+    "Q-02-1-01-N14",
+    "Q-02-1-01-N15",
+    "Q-02-1-02-N09",
+    "Q-02-1-02-N10",
+    "Q-02-1-06-N05",
+    "Q-02-1-06-N06",
+    "Q-02-2-01-N04",
+    "Q-02-2-04-N06"
+  ],
+  "modality_violations": [],
+  "numeric_defects": [
+    "Q-02-2-01-N04",
+    "Q-02-2-04-N06"
+  ],
+  "original_evidence_note_contract": "tunnelbook-evidence-note-contract-v1",
+  "original_pipeline_version": "tunnelbook-book-writing-pipeline-v1",
+  "original_status": {
+    "INSUFFICIENT_EVIDENCE": 91,
+    "SUPPORTED": 68
+  },
+  "provenance_verified_all": true,
+  "qdrant_points_after": 5992,
+  "qdrant_points_before": 5992,
+  "qdrant_writes": 0,
+  "recommended_actions": {
+    "attach_cross_lingual_mapping": 11,
+    "downgrade_to_partial": 1,
+    "narrow_claim": 28,
+    "needs_manual_span": 81,
+    "retain_insufficient": 9,
+    "retain_supported": 15,
+    "split_note": 14
+  },
+  "recommended_status": {
+    "INSUFFICIENT_EVIDENCE": 129,
+    "PARTIALLY_SUPPORTED": 15,
+    "SUPPORTED": 15
+  },
+  "retrieval_calls": 0,
+  "section_readiness": {
+    "SEC-02-1": "NOT_READY",
+    "SEC-02-2": "NOT_READY",
+    "SEC-02-3": "NOT_READY"
+  },
+  "slot_note": "Requested as scripts/40_*; slot 40 is the pilot runner, so the audit lives at 41_.",
+  "status": "closed",
+  "status_changes": 60,
+  "true_conflict_count": 0,
+  "upgrades_from_insufficient": 6
+}

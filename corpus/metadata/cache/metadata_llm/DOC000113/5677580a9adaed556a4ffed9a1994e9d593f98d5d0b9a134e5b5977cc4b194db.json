@@ -1,0 +1,48 @@
+{
+  "document_id": "DOC000113",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:56:19+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "Graz University of Technology [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Austrian Tunnelling Seminar Ankara, March 31 & April 1 , 2015",
+      "value": "conference_proceedings"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "Graz University of Technology",
+      "value": "Graz University of Technology"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "RISK ORIENTED TUNNEL DESIGN PROCESS",
+      "value": "Risk Oriented Tunnel Design Process"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "excavation",
+        "risk"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Austrian Tunnelling Seminar Ankara, March 31 & April 1 , 2015",
+      "value": 2015
+    }
+  },
+  "source_sha256": "3f316c2ed7f26aedcf68027feac77514ab52a7eb7af7b0ab1f2fb2fc1674174e"
+}

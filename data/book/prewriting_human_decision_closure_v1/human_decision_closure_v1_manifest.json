@@ -1,0 +1,16 @@
+{
+  "schema_version": "prewriting-human-decision-closure-manifest-v1",
+  "phase": "PRE-WRITING HUMAN DECISION CLOSURE V1",
+  "status": "HUMAN_DECISION_REQUIRED",
+  "artifacts": [
+    {"path":"data/book/prewriting_human_decision_closure_v1/contracts/human_decision_closure_v1_acceptance.json","sha256":"c5e9813def0796a57787d89ae18a3dac9932998ae7902c1278814caa4bbb0276"},
+    {"path":"data/book/prewriting_human_decision_closure_v1/human_decision_registry_v1.json","sha256":"4c70c618847b31d75dbaca95f28a17d9e40a1e291c1c7f6088f57f694a8bcce4"},
+    {"path":"data/book/prewriting_human_decision_closure_v1/machine_resolved_decision_audit_v1.json","sha256":"e4ea6b389a09bb47b01b3f1da5ad8afb1d369a8b24c0171051058fc7457f3f96"},
+    {"path":"data/book/prewriting_human_decision_closure_v1/unresolved_human_decision_packet_v1.json","sha256":"953d99bd6ddc1a007ebbdfc1644b97e089aef2a50e86f148d228efab7b8dce58"},
+    {"path":"data/book/prewriting_human_decision_closure_v1/human_decision_closure_v1_acceptance_audit.json","sha256":"41190814285256a908e6c5ddd512c5befa20f18f6fffccb5f3bf7bbc3c9dafd7"}
+  ],
+  "historical_artifacts_modified": false,
+  "external_evidence_admitted": false,
+  "drafting_authorized": false,
+  "book_prose_generated": false
+}

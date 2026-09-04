@@ -1,0 +1,942 @@
+{
+  "section_id": "SEC-02-1",
+  "revision": 1,
+  "audit_version": "tunnelbook-pilot-manual-evidence-audit-v1",
+  "audited_notes": [
+    {
+      "parent_note_id": "Q-02-1-01-N04",
+      "revision": 1,
+      "claim": "Süren (Boru veya Demir Çubuk)",
+      "support_status": "SUPPORTED",
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000074-C0009",
+          "citation_mode": "document_section",
+          "context_packet_sha": "213c02793ef07ef838e91afdef7ea55af85857c8ffd709cefc34bf6b5939a22c",
+          "document_id": "DOC000074",
+          "evidence_id": "E001",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "source_only",
+          "retrieval_rank": 1,
+          "retrieval_score": 0.646903,
+          "section_path": null,
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000074-c832083edf8c",
+          "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/TUNELLERDE_DESTEK_SISTEMLERI_VE_GUCLENDI.docx",
+          "title": "TUNELLERDE_DESTEK_SISTEMLERI_VE_GUCLENDI"
+        },
+        {
+          "chunk_id": "DOC000197-C0039",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "213c02793ef07ef838e91afdef7ea55af85857c8ffd709cefc34bf6b5939a22c",
+          "document_id": "DOC000197",
+          "evidence_id": "E007",
+          "page_end": 50,
+          "page_start": 26,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 7,
+          "retrieval_score": 0.620941,
+          "section_path": "T4 Tüneli'nde Birincil Destekleme Sisteminde Kullanılan Elemanlar",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000197-d31590b487e5",
+          "source_relative_path": "Tünel Dergisi/Tunel Dergisi 4.pdf",
+          "title": "Tunel Dergisi 4"
+        },
+        {
+          "chunk_id": "DOC000076-C0001",
+          "citation_mode": "document_section",
+          "context_packet_sha": "213c02793ef07ef838e91afdef7ea55af85857c8ffd709cefc34bf6b5939a22c",
+          "document_id": "DOC000076",
+          "evidence_id": "E014",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "source_only",
+          "retrieval_rank": 14,
+          "retrieval_score": 0.59925586,
+          "section_path": null,
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000076-381c2213d7b1",
+          "source_relative_path": "Mehmet/Kitap 2.Bolum/Tuneller Bolum2_9_7_2025.docx",
+          "title": "Tuneller Bolum2_9_7_2025"
+        }
+      ],
+      "literal_support": [],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000074-c832083edf8c",
+        "SRC-DOC000076-381c2213d7b1",
+        "SRC-DOC000197-d31590b487e5"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-1-01-N04",
+      "section_id": "SEC-02-1",
+      "question_id": "Q-02-1-01",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-1-01-N04-A1",
+      "created_at": "2026-08-18T22:31:43.470308+00:00",
+      "audited_note_sha": "af22830114d1d1181e11157ec4b74a279d89177d40e50dca2198d1fbd3337b7a"
+    },
+    {
+      "parent_note_id": "Q-02-1-03-N02",
+      "revision": 1,
+      "claim": "Kırık ve çatlaklar arasına girerek kayacın yerindeki kayma dayanımını arttırmak.",
+      "support_status": "SUPPORTED",
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000214-C0001",
+          "citation_mode": "slide",
+          "context_packet_sha": "7dfef6611279b8f192c9cbe056ebba33754173bc5df9906c016c1fc5f593f506",
+          "document_id": "DOC000214",
+          "evidence_id": "E001",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "section_resolved",
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7264106,
+          "section_path": "Tünel Kontrol Mühendisi Geliştirme Kursu Tünel Destekleme Elemanları 24~28.02.2020, Ankara Suhan Mutlu Yol Yapım Şefi",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000214-c9472c28d837",
+          "source_relative_path": "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/2-TÜNEL DESTEKLEMESİ-PÜSKÜRTME BETON.pptx",
+          "title": "2-TÜNEL DESTEKLEMESİ-PÜSKÜRTME BETON"
+        },
+        {
+          "chunk_id": "DOC000074-C0010",
+          "citation_mode": "document_section",
+          "context_packet_sha": "7dfef6611279b8f192c9cbe056ebba33754173bc5df9906c016c1fc5f593f506",
+          "document_id": "DOC000074",
+          "evidence_id": "E003",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "source_only",
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7198335,
+          "section_path": null,
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000074-61faa1079434",
+          "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/TUNELLERDE_DESTEK_SISTEMLERI_VE_GUCLENDI.docx",
+          "title": "TUNELLERDE_DESTEK_SISTEMLERI_VE_GUCLENDI"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E001",
+          "start_offset": null,
+          "support_text": "* Kırık ve çatlaklar arasına girerek kayacın yerindeki kayma dayanımını",
+          "support_type": "direct"
+        },
+        {
+          "end_offset": null,
+          "evidence_id": "E003",
+          "start_offset": null,
+          "support_text": "* Kırık ve çatlaklar arasına girerek kayacın yerindeki kayma dayanımını",
+          "support_type": "direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000074-61faa1079434",
+        "SRC-DOC000214-c9472c28d837"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-1-03-N02",
+      "section_id": "SEC-02-1",
+      "question_id": "Q-02-1-03",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-1-03-N02-A1",
+      "created_at": "2026-08-18T22:31:43.486878+00:00",
+      "audited_note_sha": "d2af3a46990e29784e41bcbf4c04f0f9982d19bf2e3b9cc358e5c9debf50db76"
+    },
+    {
+      "parent_note_id": "Q-02-1-03-N03",
+      "revision": 1,
+      "claim": "Kaya elemanları arasındaki bağlantı düşükse, yüzeye uygulanan püskürtme betonun statik bakımdan bir kabuk gibi çalışarak taşıyıcılık sağlamak.",
+      "support_status": "SUPPORTED",
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000214-C0001",
+          "citation_mode": "slide",
+          "context_packet_sha": "7dfef6611279b8f192c9cbe056ebba33754173bc5df9906c016c1fc5f593f506",
+          "document_id": "DOC000214",
+          "evidence_id": "E001",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "section_resolved",
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7264106,
+          "section_path": "Tünel Kontrol Mühendisi Geliştirme Kursu Tünel Destekleme Elemanları 24~28.02.2020, Ankara Suhan Mutlu Yol Yapım Şefi",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000214-c9472c28d837",
+          "source_relative_path": "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/2-TÜNEL DESTEKLEMESİ-PÜSKÜRTME BETON.pptx",
+          "title": "2-TÜNEL DESTEKLEMESİ-PÜSKÜRTME BETON"
+        },
+        {
+          "chunk_id": "DOC000074-C0010",
+          "citation_mode": "document_section",
+          "context_packet_sha": "7dfef6611279b8f192c9cbe056ebba33754173bc5df9906c016c1fc5f593f506",
+          "document_id": "DOC000074",
+          "evidence_id": "E003",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "source_only",
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7198335,
+          "section_path": null,
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000074-61faa1079434",
+          "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/TUNELLERDE_DESTEK_SISTEMLERI_VE_GUCLENDI.docx",
+          "title": "TUNELLERDE_DESTEK_SISTEMLERI_VE_GUCLENDI"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E001",
+          "start_offset": null,
+          "support_text": "* Kaya elemanları arasındaki bağlantı düşükse, yüzeye uygulanan püskürtme",
+          "support_type": "direct"
+        },
+        {
+          "end_offset": null,
+          "evidence_id": "E003",
+          "start_offset": null,
+          "support_text": "* Kaya elemanları arasındaki bağlantı düşükse, yüzeye uygulanan püskürtme",
+          "support_type": "direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000074-61faa1079434",
+        "SRC-DOC000214-c9472c28d837"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-1-03-N03",
+      "section_id": "SEC-02-1",
+      "question_id": "Q-02-1-03",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-1-03-N03-A1",
+      "created_at": "2026-08-18T22:31:43.488675+00:00",
+      "audited_note_sha": "92783597a322e81548af75294ac2e43d9b7bf921dbc5a2e8e96f1800ab115989"
+    },
+    {
+      "parent_note_id": "Q-02-1-03-N05",
+      "revision": 1,
+      "claim": "Kazılan yüzeylerin hava ve su ile temasını keserek yüzey bozunmasını ve gevşemeleri önlemek.",
+      "support_status": "SUPPORTED",
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000214-C0001",
+          "citation_mode": "slide",
+          "context_packet_sha": "7dfef6611279b8f192c9cbe056ebba33754173bc5df9906c016c1fc5f593f506",
+          "document_id": "DOC000214",
+          "evidence_id": "E001",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "section_resolved",
+          "retrieval_rank": 1,
+          "retrieval_score": 0.7264106,
+          "section_path": "Tünel Kontrol Mühendisi Geliştirme Kursu Tünel Destekleme Elemanları 24~28.02.2020, Ankara Suhan Mutlu Yol Yapım Şefi",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000214-c9472c28d837",
+          "source_relative_path": "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/2-TÜNEL DESTEKLEMESİ-PÜSKÜRTME BETON.pptx",
+          "title": "2-TÜNEL DESTEKLEMESİ-PÜSKÜRTME BETON"
+        },
+        {
+          "chunk_id": "DOC000074-C0010",
+          "citation_mode": "document_section",
+          "context_packet_sha": "7dfef6611279b8f192c9cbe056ebba33754173bc5df9906c016c1fc5f593f506",
+          "document_id": "DOC000074",
+          "evidence_id": "E003",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "source_only",
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7198335,
+          "section_path": null,
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000074-61faa1079434",
+          "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/TUNELLERDE_DESTEK_SISTEMLERI_VE_GUCLENDI.docx",
+          "title": "TUNELLERDE_DESTEK_SISTEMLERI_VE_GUCLENDI"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E001",
+          "start_offset": null,
+          "support_text": "* Kazılan yüzeylerin hava ve su ile temasını keserek yüzey bozunmasını ve gevşemeleri",
+          "support_type": "direct"
+        },
+        {
+          "end_offset": null,
+          "evidence_id": "E003",
+          "start_offset": null,
+          "support_text": "* Kazılan yüzeylerin hava ve su ile temasını keserek yüzey bozunmasını ve gevşemeleri",
+          "support_type": "direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000074-61faa1079434",
+        "SRC-DOC000214-c9472c28d837"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-1-03-N05",
+      "section_id": "SEC-02-1",
+      "question_id": "Q-02-1-03",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-1-03-N05-A1",
+      "created_at": "2026-08-18T22:31:43.492029+00:00",
+      "audited_note_sha": "23aaf7e50e259b5b8aca24dad9ba9c8a4a615d8625b0095e8a35f06226cad049"
+    },
+    {
+      "parent_note_id": "Q-02-1-03-N06",
+      "revision": 1,
+      "claim": "Zayıf zeminlerde oluşacak gevşeme nedeniyle meydana gelen yerdeğiştirmeleri, kaya kütlelerinin boşluklarını (çatlak, eklem vb.) doldurarak rijitliklerini ve dayanımlarını arttırmak, kaya kütlelerinin yüklerini bitişik stabil kayalara aktarmak ve durdurması veya olabildiğince azaltmak.",
+      "support_status": "SUPPORTED",
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000072-C0019",
+          "citation_mode": "document_section",
+          "context_packet_sha": "7dfef6611279b8f192c9cbe056ebba33754173bc5df9906c016c1fc5f593f506",
+          "document_id": "DOC000072",
+          "evidence_id": "E002",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "section_resolved",
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7252083,
+          "section_path": "47 Püskürtme Beton Kaplamalar",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000072-22ab21dee97a",
+          "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx",
+          "title": "KTU_Tez_Tam Metin"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E002",
+          "start_offset": null,
+          "support_text": "oluşacak gevşeme nedeniyle meydana gelen yerdeğiştirmeleri, kaya kütlelerinin boşluklarını (çatlak, eklem vb.) doldurarak rijitliklerini ve dayanımlarını arttırmak, kaya kütlelerinin yüklerini bitişik stabil kayalara aktarmak",
+          "support_type": "direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000072-22ab21dee97a"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-1-03-N06",
+      "section_id": "SEC-02-1",
+      "question_id": "Q-02-1-03",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-1-03-N06-A1",
+      "created_at": "2026-08-18T22:31:43.492558+00:00",
+      "audited_note_sha": "c246b0531ce1a11dff1929640c4c9064de9faa7e4384b0676eee21a3c8cc87aa"
+    },
+    {
+      "parent_note_id": "Q-02-1-03-N07",
+      "revision": 1,
+      "claim": "Kazı yüzeyini su ve havanın bağıl nemine karşı yalıtkan hale getirmek suretiyle bozulmaya karşı korumak.",
+      "support_status": "SUPPORTED",
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000072-C0019",
+          "citation_mode": "document_section",
+          "context_packet_sha": "7dfef6611279b8f192c9cbe056ebba33754173bc5df9906c016c1fc5f593f506",
+          "document_id": "DOC000072",
+          "evidence_id": "E002",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "section_resolved",
+          "retrieval_rank": 2,
+          "retrieval_score": 0.7252083,
+          "section_path": "47 Püskürtme Beton Kaplamalar",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000072-22ab21dee97a",
+          "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx",
+          "title": "KTU_Tez_Tam Metin"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E002",
+          "start_offset": null,
+          "support_text": "* Kazı yüzeyini su ve havanın bağıl nemine karşı yalıtkan hale getirmek suretiyle bozulmaya karşı",
+          "support_type": "direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000072-22ab21dee97a"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-1-03-N07",
+      "section_id": "SEC-02-1",
+      "question_id": "Q-02-1-03",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-1-03-N07-A1",
+      "created_at": "2026-08-18T22:31:43.492975+00:00",
+      "audited_note_sha": "0371ef01678d14ffe4b2229d293897ee9dd075849a26dd61800b339ddd5efa83"
+    },
+    {
+      "parent_note_id": "Q-02-1-03-N08",
+      "revision": 1,
+      "claim": "Kaya ile etkileşerek pik gerilmenin yüzey zonundaki çatlaklı kayayı daha sağlam kaya kütlesine dönüştürmek.",
+      "support_status": "SUPPORTED",
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000102-C0002",
+          "citation_mode": "document_section",
+          "context_packet_sha": "7dfef6611279b8f192c9cbe056ebba33754173bc5df9906c016c1fc5f593f506",
+          "document_id": "DOC000102",
+          "evidence_id": "E010",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "section_resolved",
+          "retrieval_rank": 11,
+          "retrieval_score": 0.6762312,
+          "section_path": "AKTİF DESTEK",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000102-7bdf448c9d46",
+          "source_relative_path": "Mehmet/Literatur/Wordler/KayaTunelleri_AnkUni_Konu13.docx",
+          "title": "KayaTunelleri_AnkUni_Konu13"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E010",
+          "start_offset": null,
+          "support_text": "pik gerilmenin yüzey zonundaki çatlaklı kayayı daha sağlam kaya kütlesine",
+          "support_type": "direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000102-7bdf448c9d46"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-1-03-N08",
+      "section_id": "SEC-02-1",
+      "question_id": "Q-02-1-03",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-1-03-N08-A1",
+      "created_at": "2026-08-18T22:31:43.493455+00:00",
+      "audited_note_sha": "5379abf3fecf1f97e272c636395769f6359d011c9b66f8ddc539b6122ee489d4"
+    },
+    {
+      "parent_note_id": "Q-02-1-03-N09",
+      "revision": 1,
+      "claim": "Zeminin içsel kuvvetlerinin yönlendirilmesi (kemerleşme hareketi) için gerekli deformasyonu dengeleyebilmek.",
+      "support_status": "SUPPORTED",
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000304-C0009",
+          "citation_mode": "slide",
+          "context_packet_sha": "7dfef6611279b8f192c9cbe056ebba33754173bc5df9906c016c1fc5f593f506",
+          "document_id": "DOC000304",
+          "evidence_id": "E008",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "slide_resolved",
+          "retrieval_rank": 8,
+          "retrieval_score": 0.67769295,
+          "section_path": "Çelik Tel Donatılı Püskürtme Betonlar > Slayt 11",
+          "slide_end": 11,
+          "slide_start": 11,
+          "source_key": "SRC-DOC000304-3189b5cf7758",
+          "source_relative_path": "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/Çelik Tel Donatılı Püskürtme Betonlar.ppt",
+          "title": "Çelik Tel Donatılı Püskürtme Betonlar"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E008",
+          "start_offset": null,
+          "support_text": "* Zeminin içsel kuvvetlerinin yönlendirilmesi (kemerleşme hareketi) için gerekli deformasyonu dengeleyebilmek",
+          "support_type": "direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000304-3189b5cf7758"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-1-03-N09",
+      "section_id": "SEC-02-1",
+      "question_id": "Q-02-1-03",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-1-03-N09-A1",
+      "created_at": "2026-08-18T22:31:43.493530+00:00",
+      "audited_note_sha": "c4c63a04362e7e2f8cc3ba4316f1dc9f29f18a54ea76c72bc4e0254c1008d0a0"
+    },
+    {
+      "parent_note_id": "Q-02-1-05-N02",
+      "revision": 1,
+      "claim": "Ayrıca, çelik iksa kazı yapılan tünel kesitinde püskürtme beton dayanımını kazanıncaya kadar geçen sürede yapım güvenliğini sağlamak ve püskürtme betonda yük dağılımına yardımcı olmak amacıyla kullanılır.",
+      "support_status": "SUPPORTED",
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000124-C0023",
+          "citation_mode": "document_section",
+          "context_packet_sha": "845c0c156a5ed4e16734d01f04298259dedbdaf616370e144a314314c3f495ef",
+          "document_id": "DOC000124",
+          "evidence_id": "E009",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "source_only",
+          "retrieval_rank": 9,
+          "retrieval_score": 0.55717933,
+          "section_path": null,
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000124-1190e1676b28",
+          "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx",
+          "title": "YTU Yuksek Lisans"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E009",
+          "start_offset": null,
+          "support_text": "çelik iksa kazı yapılan tünel kesitinde püskürtme beton dayanımını kazanıncaya kadar geçen sürede yapım güvenliğini sağlamak ve püskürtme betonda yük dağılımına yardımcı olmak amacıyla",
+          "support_type": "direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000124-1190e1676b28"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-1-05-N02",
+      "section_id": "SEC-02-1",
+      "question_id": "Q-02-1-05",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-1-05-N02-A1",
+      "created_at": "2026-08-18T22:31:43.512082+00:00",
+      "audited_note_sha": "44df23c32f3772ece8e411883264eda0d0e6c4318bd362de05dfc57fddd2fbd6"
+    },
+    {
+      "parent_note_id": "Q-02-1-05-N03",
+      "revision": 1,
+      "claim": "Çelik iksa, deformasyon sonucu zayıflayan çevre kayasına destek olur ancak kazıyı çevreleyen kaya kütlesini güçlendirmez ve aktif bir basınç uygulayamaz.",
+      "support_status": "SUPPORTED",
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000124-C0023",
+          "citation_mode": "document_section",
+          "context_packet_sha": "845c0c156a5ed4e16734d01f04298259dedbdaf616370e144a314314c3f495ef",
+          "document_id": "DOC000124",
+          "evidence_id": "E009",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "source_only",
+          "retrieval_rank": 9,
+          "retrieval_score": 0.55717933,
+          "section_path": null,
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000124-1190e1676b28",
+          "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx",
+          "title": "YTU Yuksek Lisans"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E009",
+          "start_offset": null,
+          "support_text": "deformasyon sonucu zayıflayan çevre kayasına destek olur",
+          "support_type": "direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000124-1190e1676b28"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-1-05-N03",
+      "section_id": "SEC-02-1",
+      "question_id": "Q-02-1-05",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-1-05-N03-A1",
+      "created_at": "2026-08-18T22:31:43.513267+00:00",
+      "audited_note_sha": "1177f1e80e82e6c1c27a970a8e4951343695457d6aab00364690073f98d51c45"
+    },
+    {
+      "parent_note_id": "Q-02-1-06-N06",
+      "revision": 1,
+      "claim": "Bu elemanlar, tünelin duraylılığını sağlamak, su geçirimsizliğini temin etmek ve işletme ekonomisi (sürtünmenin azalması) açısından gereklidir.",
+      "support_status": "PARTIALLY_SUPPORTED",
+      "confidence": "low",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000197-C0039",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "6ad53e7fd219135b8fa753b3709df39a8a03ff51c510a4320a35e048c2721e96",
+          "document_id": "DOC000197",
+          "evidence_id": "E003",
+          "page_end": 50,
+          "page_start": 26,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 3,
+          "retrieval_score": 0.6192222,
+          "section_path": "T4 Tüneli'nde Birincil Destekleme Sisteminde Kullanılan Elemanlar",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000197-d31590b487e5",
+          "source_relative_path": "Tünel Dergisi/Tunel Dergisi 4.pdf",
+          "title": "Tunel Dergisi 4"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E003",
+          "start_offset": null,
+          "support_text": "işletme ekonomisi (sürtünmenin azalması)",
+          "support_type": "direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": "gereklidir",
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000197-d31590b487e5"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-1-06-N06",
+      "section_id": "SEC-02-1",
+      "question_id": "Q-02-1-06",
+      "note_type": "requirement",
+      "audited_note_id": "Q-02-1-06-N06-A1",
+      "created_at": "2026-08-18T22:31:43.514280+00:00",
+      "audited_note_sha": "3e185ebaad2149af6aabebdf975ad6a35175a259eea4571baa236a7a47624649"
+    },
+    {
+      "parent_note_id": "Q-02-1-07-N05",
+      "revision": 1,
+      "claim": "Act as a Debonding Layer: In double-lining applications, the flexible membrane acts as a debonding layer between the initial support (e.g., shotcrete) and the final lining, which reduces shrinkage cracking in the final concrete.",
+      "support_status": "PARTIALLY_SUPPORTED",
+      "confidence": "low",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000047-C0202",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "d14b0ad3a7c192c91838c6ea7d363194f73454148ea2c0e6e342b7a8b5e690bf",
+          "document_id": "DOC000047",
+          "evidence_id": "E007",
+          "page_end": 275,
+          "page_start": 251,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 7,
+          "retrieval_score": 0.61503565,
+          "section_path": "9.3.5.1 Cast-in-Place Concrete Final Lining",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000047-adca125c322c",
+          "source_relative_path": "Literatür ve Araştırmalar/tunnel_manual_FHWA.pdf",
+          "title": "tunnel_manual_FHWA"
+        },
+        {
+          "chunk_id": "DOC000047-C0225",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "d14b0ad3a7c192c91838c6ea7d363194f73454148ea2c0e6e342b7a8b5e690bf",
+          "document_id": "DOC000047",
+          "evidence_id": "E013",
+          "page_end": 325,
+          "page_start": 301,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 13,
+          "retrieval_score": 0.5999971,
+          "section_path": "9.6.2.3 Ground Loads - Representation of the SEM Construction Sequence",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000047-83d23d06206f",
+          "source_relative_path": "Literatür ve Araştırmalar/tunnel_manual_FHWA.pdf",
+          "title": "tunnel_manual_FHWA"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E007",
+          "start_offset": null,
+          "support_text": "acts as a debonding layer between the initial",
+          "support_type": "direct"
+        },
+        {
+          "end_offset": null,
+          "evidence_id": "E013",
+          "start_offset": null,
+          "support_text": "* **Act as a Debonding Layer:** In",
+          "support_type": "direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000047-83d23d06206f",
+        "SRC-DOC000047-adca125c322c"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-1-07-N05",
+      "section_id": "SEC-02-1",
+      "question_id": "Q-02-1-07",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-1-07-N05-A1",
+      "created_at": "2026-08-18T22:31:43.526094+00:00",
+      "audited_note_sha": "89e06aeb8acc1f99477bd8ff618cb952c57ba244104a9773962d12d9c0e68754"
+    }
+  ],
+  "claim_ledger": [
+    {
+      "claim_id": "SEC-02-1-AC001",
+      "section_id": "SEC-02-1",
+      "canonical_claim": "Süren (Boru veya Demir Çubuk)",
+      "note_ids": [
+        "Q-02-1-01-N04-A1"
+      ],
+      "support_status": "SUPPORTED",
+      "numeric": false,
+      "citation_ready": true,
+      "conflict_group": null,
+      "duplicate_of": null,
+      "review_status": "manually_audited"
+    },
+    {
+      "claim_id": "SEC-02-1-AC002",
+      "section_id": "SEC-02-1",
+      "canonical_claim": "Kırık ve çatlaklar arasına girerek kayacın yerindeki kayma dayanımını arttırmak.",
+      "note_ids": [
+        "Q-02-1-03-N02-A1"
+      ],
+      "support_status": "SUPPORTED",
+      "numeric": false,
+      "citation_ready": true,
+      "conflict_group": null,
+      "duplicate_of": null,
+      "review_status": "manually_audited"
+    },
+    {
+      "claim_id": "SEC-02-1-AC003",
+      "section_id": "SEC-02-1",
+      "canonical_claim": "Kaya elemanları arasındaki bağlantı düşükse, yüzeye uygulanan püskürtme betonun statik bakımdan bir kabuk gibi çalışarak taşıyıcılık sağlamak.",
+      "note_ids": [
+        "Q-02-1-03-N03-A1"
+      ],
+      "support_status": "SUPPORTED",
+      "numeric": false,
+      "citation_ready": true,
+      "conflict_group": null,
+      "duplicate_of": null,
+      "review_status": "manually_audited"
+    },
+    {
+      "claim_id": "SEC-02-1-AC004",
+      "section_id": "SEC-02-1",
+      "canonical_claim": "Kazılan yüzeylerin hava ve su ile temasını keserek yüzey bozunmasını ve gevşemeleri önlemek.",
+      "note_ids": [
+        "Q-02-1-03-N05-A1"
+      ],
+      "support_status": "SUPPORTED",
+      "numeric": false,
+      "citation_ready": true,
+      "conflict_group": null,
+      "duplicate_of": null,
+      "review_status": "manually_audited"
+    },
+    {
+      "claim_id": "SEC-02-1-AC005",
+      "section_id": "SEC-02-1",
+      "canonical_claim": "Zayıf zeminlerde oluşacak gevşeme nedeniyle meydana gelen yerdeğiştirmeleri, kaya kütlelerinin boşluklarını (çatlak, eklem vb.) doldurarak rijitliklerini ve dayanımlarını arttırmak, kaya kütlelerinin yüklerini bitişik stabil kayalara aktarmak ve durdurması veya olabildiğince azaltmak.",
+      "note_ids": [
+        "Q-02-1-03-N06-A1"
+      ],
+      "support_status": "SUPPORTED",
+      "numeric": false,
+      "citation_ready": true,
+      "conflict_group": null,
+      "duplicate_of": null,
+      "review_status": "manually_audited"
+    },
+    {
+      "claim_id": "SEC-02-1-AC006",
+      "section_id": "SEC-02-1",
+      "canonical_claim": "Kazı yüzeyini su ve havanın bağıl nemine karşı yalıtkan hale getirmek suretiyle bozulmaya karşı korumak.",
+      "note_ids": [
+        "Q-02-1-03-N07-A1"
+      ],
+      "support_status": "SUPPORTED",
+      "numeric": false,
+      "citation_ready": true,
+      "conflict_group": null,
+      "duplicate_of": null,
+      "review_status": "manually_audited"
+    },
+    {
+      "claim_id": "SEC-02-1-AC007",
+      "section_id": "SEC-02-1",
+      "canonical_claim": "Kaya ile etkileşerek pik gerilmenin yüzey zonundaki çatlaklı kayayı daha sağlam kaya kütlesine dönüştürmek.",
+      "note_ids": [
+        "Q-02-1-03-N08-A1"
+      ],
+      "support_status": "SUPPORTED",
+      "numeric": false,
+      "citation_ready": true,
+      "conflict_group": null,
+      "duplicate_of": null,
+      "review_status": "manually_audited"
+    },
+    {
+      "claim_id": "SEC-02-1-AC008",
+      "section_id": "SEC-02-1",
+      "canonical_claim": "Zeminin içsel kuvvetlerinin yönlendirilmesi (kemerleşme hareketi) için gerekli deformasyonu dengeleyebilmek.",
+      "note_ids": [
+        "Q-02-1-03-N09-A1"
+      ],
+      "support_status": "SUPPORTED",
+      "numeric": false,
+      "citation_ready": true,
+      "conflict_group": null,
+      "duplicate_of": null,
+      "review_status": "manually_audited"
+    },
+    {
+      "claim_id": "SEC-02-1-AC009",
+      "section_id": "SEC-02-1",
+      "canonical_claim": "Ayrıca, çelik iksa kazı yapılan tünel kesitinde püskürtme beton dayanımını kazanıncaya kadar geçen sürede yapım güvenliğini sağlamak ve püskürtme betonda yük dağılımına yardımcı olmak amacıyla kullanılır.",
+      "note_ids": [
+        "Q-02-1-05-N02-A1"
+      ],
+      "support_status": "SUPPORTED",
+      "numeric": false,
+      "citation_ready": true,
+      "conflict_group": null,
+      "duplicate_of": null,
+      "review_status": "manually_audited"
+    },
+    {
+      "claim_id": "SEC-02-1-AC010",
+      "section_id": "SEC-02-1",
+      "canonical_claim": "Çelik iksa, deformasyon sonucu zayıflayan çevre kayasına destek olur ancak kazıyı çevreleyen kaya kütlesini güçlendirmez ve aktif bir basınç uygulayamaz.",
+      "note_ids": [
+        "Q-02-1-05-N03-A1"
+      ],
+      "support_status": "SUPPORTED",
+      "numeric": false,
+      "citation_ready": true,
+      "conflict_group": null,
+      "duplicate_of": null,
+      "review_status": "manually_audited"
+    }
+  ],
+  "readiness": "NOT_READY",
+  "readiness_reasons": [
+    "P0 questions with no SUPPORTED audited note: ['Q-02-1-02']"
+  ],
+  "counts": {
+    "audited_notes": 12,
+    "SUPPORTED": 10,
+    "PARTIALLY_SUPPORTED": 2,
+    "citation_ready": 10
+  },
+  "bundle_sha": "cac706bb9bd185417cd04b0dae3dfad1a779ac56aa3e32007b8c8728c4b847ed"
+}

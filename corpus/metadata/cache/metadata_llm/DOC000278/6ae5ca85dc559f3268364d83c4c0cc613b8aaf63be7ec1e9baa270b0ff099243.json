@@ -1,0 +1,48 @@
+{
+  "document_id": "DOC000278",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:07:56+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "T.C. ÇEVRE VE ŞEHÍRCILIK BAKANLIČI [authority_A_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "regulation"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "T.C. ÇEVRE VE ŞEHÍRCILIK BAKANLIČI",
+      "value": "T.C. ÇEVRE VE ŞEHİRCİLİK BAKANLIĞI"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "Birim Fiyat Detay (04.376/01A)",
+      "value": "04.376/01A"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "standards",
+        "unit_price"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "© Her hakkı saklıdır © 2019",
+      "value": 2019
+    }
+  },
+  "source_sha256": "38d96380fb66bb5e6b5e51f0b0576e5a39b5ec5e18093078f5e4903146402ab1"
+}

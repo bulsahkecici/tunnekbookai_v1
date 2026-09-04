@@ -1,0 +1,50 @@
+{
+  "document_id": "DOC000267",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:06:54+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "[controlled_vocabulary_rejected]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "training_material"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "filename [evidence_not_grounded_in_context]",
+      "value": "1- Yapım Standart Formlar"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "contracts",
+        "cost",
+        "standards",
+        "unit_price"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "(Değişik:RG-16/3/2011-27876)",
+      "value": 2011
+    }
+  },
+  "source_sha256": "eb374e284881c3f58cac6ef6ea9dcaff7bb9f9cae28cac90bee14e72aaa079f7"
+}

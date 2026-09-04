@@ -1,0 +1,77 @@
+{
+  "inputs": {
+    "data/book/prewriting_repository_authority_evidence_acquisition_batch_7_v1/registries/batch_7_claim_relative_impact_registry_v1.json": "416467e311d57432d40def59f683b75899d540020b262e852609a75ee776aaeb",
+    "data/book/prewriting_repository_authority_evidence_acquisition_batch_9_v1/plans/external_identity_verification_queue_v1.json": "3790ea1d7f6e28f82396267fecc6b348eda91801d8a6fa6fa800e3db3f537999",
+    "data/book/prewriting_repository_authority_evidence_acquisition_batch_9_v1/registries/batch_9_claim_relative_impact_registry_v1.json": "c8105a408615881ab6d1d326dfe8db83f6d90434ebe98f9bff3bb99a8361061c"
+  },
+  "output_hashes": {
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/audits/batch_5_audit_v1.json": "f2ce164114ee159ce9d300e49da2f1dcc65e791423c3b50dba178998a955050a",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/checkpoint_summary_v1.json": "ab7a54d26cdb2f96d0d05166130553f4c5cd34e0ad0c9965941f5b7ddd303073",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/contracts/acceptance_contract_v1.json": "09c64ae168355f4be8284fc9f19226f3bfbbb5e205a92f3b4cc15cc3abf1d2eb",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/evidence/doc000216_external_authority_evidence_record_v1.json": "cd5f66f6ef92f07722f31f861e94694a228a5452f00f9520e9213de015d27efb",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/evidence/doc000217_external_authority_evidence_record_v1.json": "f0d277a51ac15c1b7a7a3aa26143c6c6adad5ee640a1764eeba69026d995705d",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/evidence/doc000302_external_authority_evidence_record_v1.json": "567ec06e166d6b2d60ce5f0345c5ad5a3d0ff89ff00421a2efcbe23090e7533a",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/fixtures/batch_5_fixtures_v1.json": "b3c3a48dbc472b4b9f5637d7b9e088961f7e3ac0b543ba1ffaf63ac91a916373",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/registries/batch_5_claim_relative_suitability_registry_v1.json": "abcd916a4badeba9dc5e95aec3c76ff65e14e24974e424de2c1b83e34fe18b15",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/registries/batch_5_external_authority_registry_v1.json": "849fd874a5e4d87a1b163f6f1fa5b89627f9fd6e0a7aeb0c45f107eb6263ebb0",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/registries/batch_5_mismatch_conflict_ledger_v1.json": "470a4fafb5cb1ec42c75e0e2b84f8299547848b2e6eb69a70b73e9062fade7c3",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/registries/batch_5_provenance_ledger_v1.json": "61862ee7c9899efe1a96ae072c3026fe0c73d5580f7f4307a98c9b0333cd4858",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/registries/batch_5_version_date_ledger_v1.json": "0c5e760b98c88be2724fbb2a4b6c69b8d71d3af03f89002a7873f3171c0e192a"
+  },
+  "outputs": [
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/audits/batch_5_audit_v1.json",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/checkpoint_summary_v1.json",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/contracts/acceptance_contract_v1.json",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/evidence/doc000216_external_authority_evidence_record_v1.json",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/evidence/doc000217_external_authority_evidence_record_v1.json",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/evidence/doc000302_external_authority_evidence_record_v1.json",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/fixtures/batch_5_fixtures_v1.json",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/registries/batch_5_claim_relative_suitability_registry_v1.json",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/registries/batch_5_external_authority_registry_v1.json",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/registries/batch_5_mismatch_conflict_ledger_v1.json",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/registries/batch_5_provenance_ledger_v1.json",
+    "data/book/prewriting_external_authority_identity_verification_batch_5_v1/registries/batch_5_version_date_ledger_v1.json"
+  ],
+  "phase": "PRE-WRITING EXTERNAL AUTHORITY IDENTITY VERIFICATION BATCH 5 V1",
+  "schema_version": "1.0.0",
+  "summary": {
+    "authoritative_records_inspected": 2,
+    "authority_conflicts": 0,
+    "authority_promotions": 0,
+    "book_prose_generated": false,
+    "claim_level_admissions": 0,
+    "drafting_authorized": false,
+    "identity_distribution": {
+      "EXACT_IDENTITY_MATCH": 0,
+      "IDENTITY_CONFLICT": 0,
+      "NO_RELIABLE_MATCH": 3,
+      "PARTIAL_IDENTITY_MATCH": 0,
+      "STRONG_IDENTITY_MATCH": 0
+    },
+    "issuing_authorities_verified": {},
+    "next_phase": "PRE-WRITING EXTERNAL AUTHORITY IDENTITY VERIFICATION BATCH 6 V1",
+    "next_source_ids": [
+      "DOC000193",
+      "DOC000200",
+      "DOC000209",
+      "DOC000211"
+    ],
+    "source_count": 3,
+    "source_ids": [
+      "DOC000216",
+      "DOC000217",
+      "DOC000302"
+    ],
+    "source_type_distribution": {
+      "UNKNOWN_SOURCE_TYPE": 3
+    },
+    "status": "CLOSED_GO",
+    "unknown_remaining": 3,
+    "verified_support": 602,
+    "version_distribution": {
+      "DATE_MATCH_VERSION_UNRESOLVED": 0,
+      "EXACT_VERSION_VERIFIED": 0,
+      "VERSION_UNRESOLVED": 3
+    }
+  }
+}

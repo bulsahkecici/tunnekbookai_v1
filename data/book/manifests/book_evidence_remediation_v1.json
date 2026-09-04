@@ -1,0 +1,552 @@
+{
+  "artifact_shas": {
+    "claim_ledgers_remediated_v1/SEC-02-1.jsonl": "9435b9ad52093dc439e85ee084a19de533decac83507319999bbce9e2599c0eb",
+    "claim_ledgers_remediated_v1/SEC-02-2.jsonl": "ba2fa7629798a6a0c6f0ee2bad90d96adb24841291a888534575ad27d630ff25",
+    "claim_ledgers_remediated_v1/SEC-02-3.jsonl": "bf82e20ee72c2d2272bd110fda03b87bfd2093d01383965f001e1f9c19cd338a",
+    "evaluation/book_pipeline_extractor_v1_1_regression.jsonl": "c2b6c365d33d35a554baa66c841789bcfcdc993cd37ceb0217809777dadaa73a",
+    "evidence_notes_remediated_v1/SEC-02-1.jsonl": "db97b1de628398fd5b9313c274632dd851db97c7b2e726a613e13dc843f06b69",
+    "evidence_notes_remediated_v1/SEC-02-2.jsonl": "397ea6b7410a90230932f0ba59d0b98bd138c88179547b17eb3bb9d6fc418a48",
+    "evidence_notes_remediated_v1/SEC-02-3.jsonl": "1a08218a60295484e603044a882316f78110a1faafec7034d2092dd7f84c7eac",
+    "remediation/clause_decomposition_v1_1.jsonl": "a8c4215ec8f2f808bf8608d477091919708952533ba15457f059cdb37aff68f4",
+    "remediation/conflict_candidates_v1_1.jsonl": "1886e5716757549e81dc4ab96fad8a9998b8f38bd017742e3b2d131b9e6520c1",
+    "remediation/cross_lingual_support_maps_v1.jsonl": "37aa10a3dcc7108af4f4a6f41dd9e27097425b73985e5ec63ebdccd244aa4e19",
+    "remediation/literal_span_remediation_v1.jsonl": "43c6f43a294ac8a515d307cf1514f1b57d81fce3a0123d25a5bfab797fc79ef8",
+    "remediation/non_proposition_remediation_v1.jsonl": "3d7eae9f11d4be5b088dff23e2c834d33e247e2ed69263e66a445d6f425fd7e8",
+    "remediation/numeric_remediation_v1.jsonl": "647c18f2fea37edfbd4bc6bbad8988d6e4a1f3284d129c39c81edb397ee37899",
+    "remediation/split_note_remediation_v1.jsonl": "f3a41478625599c6c9d917f263aba9f5df778acdfab876c7d5d990bc5b9f0a92",
+    "section_bundles_remediated_v1/SEC-02-1.json": "4536bcb0c68e35526ba54bf3dc3230269a57192223d0d388a3f19e4b76dcbd62",
+    "section_bundles_remediated_v1/SEC-02-2.json": "a75205dd98f78fbebad48e753544a7ea3b1a17f3236c7abc76424818cfc09677",
+    "section_bundles_remediated_v1/SEC-02-3.json": "5199e11fa4195740bd240937565c2a43b36a65811b30ab6e6b82fa1b292ca869"
+  },
+  "citation_ready_claims": 18,
+  "clause_status": {
+    "PARTIALLY_SUPPORTED": 48,
+    "SUPPORTED": 40,
+    "UNSUPPORTED": 107
+  },
+  "conflict_detector": {
+    "note": "Zero true conflicts were found manually in v1, so recall against true conflicts cannot be measured; the only measurable improvement is the reduction in candidates that manual reading had already rejected.",
+    "true_conflicts_known": 0,
+    "true_conflicts_still_surfaced": 0,
+    "v1_1_candidate_reduction": 22,
+    "v1_1_candidates": 8,
+    "v1_candidates": 30,
+    "v1_false_positive_rate": 0.9667,
+    "v1_manual_classifications": {
+      "CONTEXT_DIFFERENCE": 1,
+      "NOT_CONFLICT": 29
+    }
+  },
+  "created_at": "2026-08-18T23:26:10.298974+00:00",
+  "cross_lingual_faithful": 16,
+  "cross_lingual_mappings": 29,
+  "drafting_enabled": false,
+  "dropped_non_propositions": 39,
+  "extractor_version": "tunnelbook-book-pipeline-extractor-v1.1",
+  "frozen_integrity": {
+    "all_unchanged": true,
+    "changed": [],
+    "checks": [
+      {
+        "actual_sha256": "8ada31f64d8ef51c3b4d3b8b04f3fcc3e9fb7338b1554d1a5a9118a3a231b071",
+        "baseline": "recorded",
+        "expected_sha256": "8ada31f64d8ef51c3b4d3b8b04f3fcc3e9fb7338b1554d1a5a9118a3a231b071",
+        "name": "Retriever v1",
+        "path": "scripts/19_retriever_v1.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "9bae1362a228b84dd7e3867babc352527755902b9078dd10648819bd396e4085",
+        "baseline": "recorded",
+        "expected_sha256": "9bae1362a228b84dd7e3867babc352527755902b9078dd10648819bd396e4085",
+        "name": "Prompt v5",
+        "path": "data/metadata/generation_system_prompt_v5.txt",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "5ebf8fe90e3e5491ce07a9143f8fd377841defa2e0e7a09188f3a835b07bdef5",
+        "baseline": "recorded",
+        "expected_sha256": "5ebf8fe90e3e5491ce07a9143f8fd377841defa2e0e7a09188f3a835b07bdef5",
+        "name": "Output Contract v1.1",
+        "path": "scripts/31_generation_output_contract_v1_1.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "1f89bdb86d99509820971155455802cf24d7b267a628bc7f85d093e3e10e76b2",
+        "baseline": "recorded",
+        "expected_sha256": "1f89bdb86d99509820971155455802cf24d7b267a628bc7f85d093e3e10e76b2",
+        "name": "Production Grounded Generator v1",
+        "path": "scripts/36_production_grounded_generator.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "35f150fe59238ba8fd0a3f46c560b4655c313d3335d476bc9a85f0bf9aaf2278",
+        "baseline": "recorded",
+        "expected_sha256": "35f150fe59238ba8fd0a3f46c560b4655c313d3335d476bc9a85f0bf9aaf2278",
+        "name": "Evidence Note Contract v1",
+        "path": "scripts/38_evidence_note_contract.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "caaacc5dd5a9f34021203a19c305a7f5f91327c343c01f7d1d8c012e36152ca5",
+        "baseline": "recorded",
+        "expected_sha256": "caaacc5dd5a9f34021203a19c305a7f5f91327c343c01f7d1d8c012e36152ca5",
+        "name": "Book Pipeline v1",
+        "path": "scripts/39_book_writing_pipeline.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "ba7276daf4d2f2b847f8e060df8764ae6dbdca5be18989c7b09a60c33ed53b21",
+        "baseline": "recorded",
+        "expected_sha256": "ba7276daf4d2f2b847f8e060df8764ae6dbdca5be18989c7b09a60c33ed53b21",
+        "name": "Pilot Manual Evidence Audit v1",
+        "path": "scripts/41_pilot_manual_evidence_audit_v1.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "4bcf5c9975ef0328eba159c34e7e2810491510dad6dc72b32ab10df1a777991d",
+        "baseline": "first_record",
+        "expected_sha256": null,
+        "name": "Context v1",
+        "path": "scripts/20_rag_context.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "f72bf733ca9f230f5d7f231b2eb610c9100af15408a4dd7b3768aba13416d11f",
+        "baseline": "recorded",
+        "expected_sha256": "f72bf733ca9f230f5d7f231b2eb610c9100af15408a4dd7b3768aba13416d11f",
+        "name": "audited notes SEC-02-1",
+        "path": "data/book/evidence_notes_audited/SEC-02-1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "df5c69dd0552eee24107006d728e85dcdd94b5fb85a107480f4ca9795a2ea87c",
+        "baseline": "recorded",
+        "expected_sha256": "df5c69dd0552eee24107006d728e85dcdd94b5fb85a107480f4ca9795a2ea87c",
+        "name": "audited ledger SEC-02-1",
+        "path": "data/book/claim_ledgers_audited/SEC-02-1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "f6194823aa84f4e3a7c289373681f5300a9a5d9478ef9ec2d1d0e25c9f459eea",
+        "baseline": "recorded",
+        "expected_sha256": "f6194823aa84f4e3a7c289373681f5300a9a5d9478ef9ec2d1d0e25c9f459eea",
+        "name": "audited bundle SEC-02-1",
+        "path": "data/book/section_bundles_audited/SEC-02-1.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "2734b400c174e11a7a4a69c41d4ed40f604e7ba9e8d3984f9b83cfde282ab58b",
+        "baseline": "first_record",
+        "expected_sha256": null,
+        "name": "original notes SEC-02-1",
+        "path": "data/book/evidence_notes/SEC-02-1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "46d736cefe1f59a17cacf2124870c5544800008abc176e545396ef7d7bd4b18f",
+        "baseline": "recorded",
+        "expected_sha256": "46d736cefe1f59a17cacf2124870c5544800008abc176e545396ef7d7bd4b18f",
+        "name": "audited notes SEC-02-2",
+        "path": "data/book/evidence_notes_audited/SEC-02-2.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "574f5c192af80fb7851b5b2d5911570a14a94fbbb78aa33940233038388a9eba",
+        "baseline": "recorded",
+        "expected_sha256": "574f5c192af80fb7851b5b2d5911570a14a94fbbb78aa33940233038388a9eba",
+        "name": "audited ledger SEC-02-2",
+        "path": "data/book/claim_ledgers_audited/SEC-02-2.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "2fa6434d285b72fc8a825169119f307a74d0b6ffbfefa770c734237e72a339bc",
+        "baseline": "recorded",
+        "expected_sha256": "2fa6434d285b72fc8a825169119f307a74d0b6ffbfefa770c734237e72a339bc",
+        "name": "audited bundle SEC-02-2",
+        "path": "data/book/section_bundles_audited/SEC-02-2.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "5a5f1e8981693449cfa24c5c0428f713e65fcf53c6740da7a8827509862735d9",
+        "baseline": "first_record",
+        "expected_sha256": null,
+        "name": "original notes SEC-02-2",
+        "path": "data/book/evidence_notes/SEC-02-2.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "ee17989f690d9558919c20f654c9925a89f30cfc77095d5dad1a5fff663e1a12",
+        "baseline": "recorded",
+        "expected_sha256": "ee17989f690d9558919c20f654c9925a89f30cfc77095d5dad1a5fff663e1a12",
+        "name": "audited notes SEC-02-3",
+        "path": "data/book/evidence_notes_audited/SEC-02-3.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "5409766c5bea791afd5592fae4fd3762fffc036a4a1a3390e81888899a407972",
+        "baseline": "recorded",
+        "expected_sha256": "5409766c5bea791afd5592fae4fd3762fffc036a4a1a3390e81888899a407972",
+        "name": "audited ledger SEC-02-3",
+        "path": "data/book/claim_ledgers_audited/SEC-02-3.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e5a4f79841c00d916e8d3f7de5f6b586c03409a4c95c0804bc4fa976d541b3e5",
+        "baseline": "recorded",
+        "expected_sha256": "e5a4f79841c00d916e8d3f7de5f6b586c03409a4c95c0804bc4fa976d541b3e5",
+        "name": "audited bundle SEC-02-3",
+        "path": "data/book/section_bundles_audited/SEC-02-3.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e521437ca5f6a9dfe5dc4544d43471b23a5644243c13261b9819ba4e60d8f0f9",
+        "baseline": "first_record",
+        "expected_sha256": null,
+        "name": "original notes SEC-02-3",
+        "path": "data/book/evidence_notes/SEC-02-3.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e8ae6cdbbad372abfa8c3cd6538d23e0fa3f15ef193309439e496f00da41bb79",
+        "baseline": "recorded",
+        "expected_sha256": "e8ae6cdbbad372abfa8c3cd6538d23e0fa3f15ef193309439e496f00da41bb79",
+        "name": "manual note audit",
+        "path": "data/book/audits/pilot_evidence_note_manual_audit_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "b33b3f21e86b572b4fcf950ef57e2496982cbed4129bcf0b84cd64a98cd1cdc4",
+        "baseline": "recorded",
+        "expected_sha256": "b33b3f21e86b572b4fcf950ef57e2496982cbed4129bcf0b84cd64a98cd1cdc4",
+        "name": "manual clause audit",
+        "path": "data/book/audits/pilot_clause_support_audit_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "39470da22539268b34ec04da4c30c8f20003980d8a3b82461af81aa83355f535",
+        "baseline": "recorded",
+        "expected_sha256": "39470da22539268b34ec04da4c30c8f20003980d8a3b82461af81aa83355f535",
+        "name": "conflict candidates v1",
+        "path": "data/book/audits/pilot_conflict_candidates_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "96c8803cdaeb869bea374d27ae9984837c08faa4d74f62a10b7089122aaa9fcb",
+        "baseline": "recorded",
+        "expected_sha256": "96c8803cdaeb869bea374d27ae9984837c08faa4d74f62a10b7089122aaa9fcb",
+        "name": "duplicate audit",
+        "path": "data/book/audits/pilot_duplicate_claim_audit_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e751fcfc3cc6828b05f75f494fd9a31b44388abda9daf83fb9581581ef79df5b",
+        "baseline": "first_record",
+        "expected_sha256": null,
+        "name": "chunks",
+        "path": "data/chunks/chunks.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "835fc871ee53253d4d95eca14c7c13d908f7d06e559cf657f71c954196fd07f7",
+        "baseline": "first_record",
+        "expected_sha256": null,
+        "name": "recovery chunks",
+        "path": "data/chunks_recovery/chunks.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "fa65463589f7e520dcc1e0c808501fac31a7548988dfba11deb00f751bb866cc",
+        "baseline": "first_record",
+        "expected_sha256": null,
+        "name": "production audit log",
+        "path": "data/production/generation_audit_v1.jsonl",
+        "unchanged": true
+      }
+    ]
+  },
+  "generation_calls": 0,
+  "implementation": "scripts/42_book_pipeline_extractor_v1_1.py",
+  "implementation_sha": "56d4097b7364233faa41fc23540242c88ae73ccf7a09c428c3f4625db6ead8e0",
+  "input_audit_manifest_sha": "66c807e131d7a10819d87c724afff8c4809f1fc442d4aa4eb4efea171ff7d1b7",
+  "input_clause_audit_sha": "b33b3f21e86b572b4fcf950ef57e2496982cbed4129bcf0b84cd64a98cd1cdc4",
+  "input_clause_count": 249,
+  "input_manual_audit_sha": "e8ae6cdbbad372abfa8c3cd6538d23e0fa3f15ef193309439e496f00da41bb79",
+  "input_note_count": 159,
+  "new_literal_spans": 3,
+  "parent_version": "tunnelbook-book-writing-pipeline-v1",
+  "qdrant_expected": 5992,
+  "qdrant_points_after": 5992,
+  "qdrant_points_before": 5992,
+  "qdrant_writes": 0,
+  "queues": {
+    "cross_lingual": {
+      "mappings": 29,
+      "processed": 11,
+      "queued": 11
+    },
+    "literal_span": {
+      "processed": 81,
+      "queued": 81
+    },
+    "non_proposition": {
+      "processed": 28,
+      "queued": 28,
+      "total_non_propositions": 39
+    },
+    "numeric_defects": {
+      "contained": 2,
+      "queued": 2
+    },
+    "split_note": {
+      "processed": 14,
+      "queued": 14
+    }
+  },
+  "regression": {
+    "by_type": {
+      "clause_decomposition": 8,
+      "materiality": 197,
+      "numeric": 4
+    },
+    "failed": 0,
+    "passed": 209,
+    "total": 209
+  },
+  "regression_failures": [],
+  "remediated_INSUFFICIENT_EVIDENCE": 99,
+  "remediated_PARTIALLY_SUPPORTED": 14,
+  "remediated_SUPPORTED": 18,
+  "remediated_note_count": 131,
+  "remediation_version": "tunnelbook-book-evidence-remediation-v1",
+  "retrieval_calls": 0,
+  "section_readiness": {
+    "SEC-02-1": "NOT_READY",
+    "SEC-02-2": "NOT_READY",
+    "SEC-02-3": "NOT_READY"
+  },
+  "section_summaries": {
+    "SEC-02-1": {
+      "bundle_sha": "22cba3347d956e9b8cc29a26d47646e8ada3794efaa009df85a88cf8c00faf55",
+      "coverage_summary": {
+        "citation_ready_claims": 10,
+        "clauses": 36,
+        "clauses_PARTIALLY_SUPPORTED": 12,
+        "clauses_SUPPORTED": 13,
+        "clauses_UNSUPPORTED": 11,
+        "dropped_non_propositions": 22,
+        "notes_INSUFFICIENT_EVIDENCE": 17,
+        "notes_PARTIALLY_SUPPORTED": 1,
+        "notes_SUPPORTED": 10,
+        "remediated_notes": 28
+      },
+      "critical_cross_lingual_clauses": [],
+      "critical_numeric_clauses": [],
+      "critical_unsupported_clauses": [
+        "Q-02-1-01-N16-C01",
+        "Q-02-1-01-N16-C02"
+      ],
+      "manual_audit_trace_preserved": true,
+      "notes_dropped_as_non_proposition": [
+        "Q-02-1-01-N03",
+        "Q-02-1-01-N04",
+        "Q-02-1-01-N05",
+        "Q-02-1-01-N06",
+        "Q-02-1-01-N07",
+        "Q-02-1-01-N08",
+        "Q-02-1-01-N09",
+        "Q-02-1-01-N10",
+        "Q-02-1-01-N12",
+        "Q-02-1-01-N13",
+        "Q-02-1-01-N14",
+        "Q-02-1-01-N15",
+        "Q-02-1-02-N02",
+        "Q-02-1-02-N03",
+        "Q-02-1-02-N04",
+        "Q-02-1-02-N05",
+        "Q-02-1-02-N06",
+        "Q-02-1-02-N07",
+        "Q-02-1-02-N08",
+        "Q-02-1-02-N09",
+        "Q-02-1-02-N10",
+        "Q-02-1-06-N05"
+      ],
+      "p0_gap_classification": {
+        "Q-02-1-01": [
+          "EXTRACTION_FAILURE",
+          "SPAN_MAPPING_FAILURE"
+        ],
+        "Q-02-1-02": [
+          "EXTRACTION_FAILURE"
+        ]
+      },
+      "p0_total": 3,
+      "p0_with_citation_ready_claim": 1,
+      "p0_without_citation_ready_claim": [
+        "Q-02-1-01",
+        "Q-02-1-02"
+      ],
+      "provenance_complete": true,
+      "readiness": "NOT_READY",
+      "readiness_reasons": [
+        "P0 questions without a citation-ready claim: ['Q-02-1-01', 'Q-02-1-02']",
+        "unsupported clauses under P0 objectives: 2"
+      ],
+      "unresolved_cross_lingual_clauses": [],
+      "unresolved_numeric_clauses": []
+    },
+    "SEC-02-2": {
+      "bundle_sha": "1f87e699e2f501cdb26a6feab2d118233cc57db378cde42b74c88bb6e9e3c885",
+      "coverage_summary": {
+        "citation_ready_claims": 2,
+        "clauses": 42,
+        "clauses_PARTIALLY_SUPPORTED": 13,
+        "clauses_SUPPORTED": 3,
+        "clauses_UNSUPPORTED": 26,
+        "dropped_non_propositions": 3,
+        "notes_INSUFFICIENT_EVIDENCE": 29,
+        "notes_PARTIALLY_SUPPORTED": 1,
+        "notes_SUPPORTED": 2,
+        "remediated_notes": 32
+      },
+      "critical_cross_lingual_clauses": [],
+      "critical_numeric_clauses": [
+        "Q-02-2-01-N04-C01",
+        "Q-02-2-01-N04-C02"
+      ],
+      "critical_unsupported_clauses": [
+        "Q-02-2-01-N04-C01",
+        "Q-02-2-01-N04-C02",
+        "Q-02-2-01-N06-C01",
+        "Q-02-2-01-N07-C01",
+        "Q-02-2-02-N02-C01"
+      ],
+      "manual_audit_trace_preserved": true,
+      "notes_dropped_as_non_proposition": [
+        "Q-02-2-04-N03",
+        "Q-02-2-04-N07",
+        "Q-02-2-04-N11"
+      ],
+      "p0_gap_classification": {
+        "Q-02-2-01": [
+          "GENERATOR_SYNTHESIS_DEFECT",
+          "SPAN_MAPPING_FAILURE"
+        ],
+        "Q-02-2-02": [
+          "SPAN_MAPPING_FAILURE"
+        ]
+      },
+      "p0_total": 2,
+      "p0_with_citation_ready_claim": 1,
+      "p0_without_citation_ready_claim": [
+        "Q-02-2-02"
+      ],
+      "provenance_complete": true,
+      "readiness": "NOT_READY",
+      "readiness_reasons": [
+        "P0 questions without a citation-ready claim: ['Q-02-2-02']",
+        "unsupported clauses under P0 objectives: 5",
+        "unresolved numeric clauses under P0 objectives: 2"
+      ],
+      "unresolved_cross_lingual_clauses": [],
+      "unresolved_numeric_clauses": [
+        "Q-02-2-01-N04-C01",
+        "Q-02-2-01-N04-C02",
+        "Q-02-2-04-N06-C01"
+      ]
+    },
+    "SEC-02-3": {
+      "bundle_sha": "b121c279a621015b4009874a52746b39b0e1777843e0aca340a92280b2f3a85e",
+      "coverage_summary": {
+        "citation_ready_claims": 6,
+        "clauses": 117,
+        "clauses_PARTIALLY_SUPPORTED": 23,
+        "clauses_SUPPORTED": 24,
+        "clauses_UNSUPPORTED": 70,
+        "dropped_non_propositions": 14,
+        "notes_INSUFFICIENT_EVIDENCE": 53,
+        "notes_PARTIALLY_SUPPORTED": 12,
+        "notes_SUPPORTED": 6,
+        "remediated_notes": 71
+      },
+      "critical_cross_lingual_clauses": [
+        "Q-02-3-01-N02-C01",
+        "Q-02-3-01-N03-C02",
+        "Q-02-3-01-N03-C04",
+        "Q-02-3-01-N04-C01",
+        "Q-02-3-01-N04-C04",
+        "Q-02-3-01-N05-C03",
+        "Q-02-3-01-N06-C01",
+        "Q-02-3-02-N05-C02",
+        "Q-02-3-02-N13-C02",
+        "Q-02-3-02-N14-C02",
+        "Q-02-3-02-N14-C03"
+      ],
+      "critical_numeric_clauses": [],
+      "critical_unsupported_clauses": [
+        "Q-02-3-01-N03-C02",
+        "Q-02-3-01-N03-C04",
+        "Q-02-3-01-N04-C04",
+        "Q-02-3-01-N05-C03",
+        "Q-02-3-01-N06-C01",
+        "Q-02-3-01-N07-C01",
+        "Q-02-3-01-N07-C02",
+        "Q-02-3-01-N07-C03",
+        "Q-02-3-01-N07-C04",
+        "Q-02-3-01-N07-C05",
+        "Q-02-3-02-N04-C02",
+        "Q-02-3-02-N05-C02",
+        "Q-02-3-02-N06-C01",
+        "Q-02-3-02-N09-C01",
+        "Q-02-3-02-N10-C01",
+        "Q-02-3-02-N11-C01",
+        "Q-02-3-02-N14-C03",
+        "Q-02-3-02-N15-C01",
+        "Q-02-3-02-N16-C01",
+        "Q-02-3-02-N18-C01",
+        "Q-02-3-02-N19-C01"
+      ],
+      "manual_audit_trace_preserved": true,
+      "notes_dropped_as_non_proposition": [
+        "Q-02-3-02-N02",
+        "Q-02-3-02-N07",
+        "Q-02-3-02-N12",
+        "Q-02-3-02-N17",
+        "Q-02-3-04-N01",
+        "Q-02-3-05-N02",
+        "Q-02-3-05-N05",
+        "Q-02-3-05-N08",
+        "Q-02-3-05-N12",
+        "Q-02-3-05-N16",
+        "Q-02-3-06-N02",
+        "Q-02-3-06-N08",
+        "Q-02-3-06-N14",
+        "Q-02-3-06-N21"
+      ],
+      "p0_gap_classification": {
+        "Q-02-3-01": [
+          "CROSS_LINGUAL_MAPPING_FAILURE",
+          "SPAN_MAPPING_FAILURE"
+        ],
+        "Q-02-3-02": [
+          "CROSS_LINGUAL_MAPPING_FAILURE",
+          "EXTRACTION_FAILURE",
+          "SPAN_MAPPING_FAILURE"
+        ]
+      },
+      "p0_total": 2,
+      "p0_with_citation_ready_claim": 2,
+      "p0_without_citation_ready_claim": [],
+      "provenance_complete": true,
+      "readiness": "NOT_READY",
+      "readiness_reasons": [
+        "unsupported clauses under P0 objectives: 21",
+        "cross-lingual clauses under P0 objectives without a faithful mapping: 11"
+      ],
+      "unresolved_cross_lingual_clauses": [],
+      "unresolved_numeric_clauses": []
+    }
+  },
+  "status": "closed",
+  "v1_1_clause_count": 195
+}

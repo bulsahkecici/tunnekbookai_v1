@@ -1,0 +1,31 @@
+{
+  "version": "tunnelbook-semantic-plan-ir-contract-v2.2",
+  "section_id": "SEC-02-2",
+  "additive_to": "tunnelbook-semantic-plan-ir-contract-v2",
+  "frozen_parent_modified": false,
+  "new_node_types": ["SECTION_HEADING", "SUBSECTION_HEADING", "SCOPE_NODE"],
+  "new_roles": ["CASE_SCOPE", "CONDITIONAL_MAXIMUM", "ACCEPTANCE_CRITERIA_SCOPE"],
+  "general_rules": [
+    {"rule_id": "V22-PLAN-SCOPE-001", "rule": "Every claim with mandatory binding ids must be preceded in the same paragraph group by a SCOPE_NODE carrying every binding id."},
+    {"rule_id": "V22-PLAN-CASE-001", "rule": "Every required CASE_SCOPE contains the complete required_case_ids set and required dependency."},
+    {"rule_id": "V22-PLAN-CRITERION-001", "rule": "ACCEPTANCE_CRITERIA_SCOPE immediately follows its governing claim and selects criterion_fact_ids as semantic subject."},
+    {"rule_id": "V22-PLAN-BOUNDARY-001", "rule": "CONDITIONAL_MAXIMUM remains adjacent to the applicable minima and retains its linked consequence."},
+    {"rule_id": "V22-PLAN-STYLE-001", "rule": "Section and subsection headings are frozen non-material nodes; ordering is contract data, not planner discretion."},
+    {"rule_id": "V22-PLAN-REDUNDANCY-001", "rule": "A claim marked redundant_summary is excluded only when all its atomic facts and qualifiers are present elsewhere in the same subsection."}
+  ],
+  "failure_codes": [
+    "V22_SCOPE_NODE_MISSING",
+    "V22_SCOPE_BINDING_INCOMPLETE",
+    "V22_CASE_SCOPE_INCOMPLETE",
+    "V22_CRITERION_SUBJECT_INVALID",
+    "V22_LINKED_CONSEQUENCE_MISSING",
+    "V22_HEADING_MISSING",
+    "V22_ORDER_INVALID",
+    "V22_REDUNDANCY_SUPPRESSION_UNSAFE",
+    "V22_CITATION_ALLOCATION_INVALID",
+    "V22_UNLICENSED_TRANSITION",
+    "V22_SURFACE_TERM_UNGROUNDED"
+  ],
+  "planner_output_prose_fields": 0,
+  "model_style_fields": 0
+}

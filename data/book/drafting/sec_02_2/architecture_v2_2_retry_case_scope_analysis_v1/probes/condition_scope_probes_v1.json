@@ -1,0 +1,11 @@
+{
+  "version": "tunnelbook-v2.2-retry-case-scope-condition-probes-v1",
+  "validator_version": "tunnelbook-section-draft-validator-v1.2",
+  "preserved_allocation": {"status": "REJECT", "failure_codes": ["CONDITION_DROPPED"], "conditions": ["In some"]},
+  "statement_control": {"status": "ACCEPT", "failure_codes": [], "conditions": []},
+  "different_paragraph_control": {"status": "REJECT", "failure_codes": ["CONDITION_DROPPED", "CONDITION_DROPPED"], "conditions": ["In some", "dependent on tunnel size"]},
+  "unit_condition_realized_control": {"status": "ACCEPT", "failure_codes": [], "conditions": []},
+  "paragraph_scope_counterfactual": {"status": "ACCEPT", "failure_codes": [], "conditions": []},
+  "finding": "In some is unit-scoped because it occurs in the canonical claim; dependent on tunnel size is paragraph-scoped because it does not. The adjacent statement satisfies only the latter for the CASE_SCOPE unit.",
+  "counts": {"generation": 0, "rendering": 0, "retrieval": 0, "qdrant_writes": 0, "corpus_wide_reads": 0}
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "run_id": "6719c08ea9514b6bab4f783bc6b04c3e",
+  "updated_at": "2026-09-01T04:13:14.718915+00:00",
+  "stages": {
+    "free_discovery": "COMPLETED",
+    "institutional_discovery": "COMPLETED",
+    "pdf_enrichment": "COMPLETED",
+    "initial_classification": "COMPLETED",
+    "gap_discovery": "COMPLETED",
+    "reclassification": "COMPLETED",
+    "source_audit": "COMPLETED",
+    "handoff": "COMPLETED"
+  },
+  "stage_details": {
+    "free_discovery": {
+      "adopted_from_legacy": true,
+      "rows": 362
+    },
+    "institutional_discovery": {
+      "adopted_from_legacy": true,
+      "evidence": "combined_discovery_catalog"
+    },
+    "pdf_enrichment": {
+      "adopted_from_legacy": true
+    },
+    "initial_classification": {
+      "adopted_from_legacy": true,
+      "rows": 1160
+    },
+    "gap_discovery": {},
+    "reclassification": {},
+    "source_audit": {},
+    "handoff": {}
+  },
+  "legacy_bootstrap": true
+}

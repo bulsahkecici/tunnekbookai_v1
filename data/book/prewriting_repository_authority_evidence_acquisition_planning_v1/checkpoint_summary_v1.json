@@ -1,0 +1,28 @@
+{
+  "authority_promotions": 0,
+  "batch_count": 9,
+  "book_prose_generated": false,
+  "claim_level_admissions": 0,
+  "coverage": "34/34",
+  "drafting_authorized": false,
+  "external_identity_required": 9,
+  "local_ready_count": 0,
+  "next_phase": "PRE-WRITING REPOSITORY AUTHORITY EVIDENCE ACQUISITION BATCH 1 V1",
+  "planning_state_distribution": {
+    "REPOSITORY_THEN_EXTERNAL_REQUIRED": 9,
+    "SOURCE_TYPE_UNRESOLVED": 25
+  },
+  "repository_extraction_required": 34,
+  "source_type_distribution": {
+    "CONFERENCE_PAPER": 1,
+    "HISTORICAL_SOURCE": 1,
+    "JOURNAL_ARTICLE": 2,
+    "PROJECT_REPORT": 2,
+    "STANDARD_OR_SPECIFICATION_CANDIDATE": 1,
+    "THESIS": 2,
+    "UNKNOWN": 25
+  },
+  "status": "GO",
+  "unresolved_type": 25,
+  "verified_support": 602
+}

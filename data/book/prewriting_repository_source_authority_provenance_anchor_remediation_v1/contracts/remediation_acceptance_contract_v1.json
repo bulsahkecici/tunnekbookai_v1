@@ -1,0 +1,23 @@
+{
+  "acceptance_rules": {
+    "all_claims_reconciled": 602,
+    "all_sections_reaudited": 60,
+    "authority_promotion_requires_verified_explicit_metadata": true,
+    "bounded_canonical_source_documents_maximum": 5,
+    "book_prose_allowed": false,
+    "canonical_or_source_mutation_allowed": false,
+    "cost_analysis_allowed": false,
+    "deterministic_rerun_required": true,
+    "external_evidence_allowed": false,
+    "false_authority_or_provenance_acceptance_maximum": 0,
+    "legacy_c_d_promotion_allowed": false,
+    "locator_closure_requires_exact_block_and_source_location": true,
+    "prior_artifact_overwrite_allowed": false,
+    "proposition_mutation_allowed": false,
+    "visual_generation_allowed": false
+  },
+  "checkpoint": "PRE-WRITING REPOSITORY SOURCE AUTHORITY PROVENANCE AND ANCHOR REMEDIATION V1",
+  "frozen_before_implementation": true,
+  "schema_version": "1.0.0",
+  "status": "FROZEN"
+}

@@ -1,0 +1,58 @@
+{
+  "document_id": "DOC000018",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:52:08+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "ASIAN DEVELOPMENT BANK ## LOW-COST TUNNELS FOR RURAL ROADS IN ASIA AND THE PACIFIC [authority_A_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "technical_report"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "ASIAN DEVELOPMENT BANK ## LOW-COST TUNNELS FOR RURAL ROADS IN ASIA AND THE PACIFIC",
+      "value": "Asian Development Bank"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "LOW-COST TUNNELS FOR RURAL ROADS IN ASIA AND THE PACIFIC",
+      "value": "Low-Cost Tunnels for Rural Roads in Asia and the Pacific"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "cost",
+        "excavation",
+        "geology",
+        "maintenance",
+        "operations",
+        "portal",
+        "risk",
+        "shotcrete",
+        "standards",
+        "tbm",
+        "traffic",
+        "ventilation"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "© 2021 Asian Development Bank",
+      "value": 2021
+    }
+  },
+  "source_sha256": "fe0cf79aab020b9dbf9747771619dc0aabe44dfd82d98aa47cae335893e49886"
+}

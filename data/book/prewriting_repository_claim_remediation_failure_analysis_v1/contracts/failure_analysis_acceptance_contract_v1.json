@@ -1,0 +1,24 @@
+{
+  "acceptance": {
+    "all_602_claims_have_exactly_one_primary_defect_family": true,
+    "all_four_major_defect_families_explained": true,
+    "authority_inference_forbidden": true,
+    "deterministic_rerun_required": true,
+    "external_evidence_forbidden": true,
+    "false_authority_or_provenance_acceptance_must_equal": 0,
+    "frozen_integrity_required": true,
+    "minimum_sample_per_family": 2,
+    "prose_generation_forbidden": true,
+    "state_file_count": 5
+  },
+  "contract_status": "FROZEN_BEFORE_ANALYSIS",
+  "contract_version": "tunnelbook-prewriting-repository-claim-remediation-failure-analysis-contract-v1",
+  "defect_families": [
+    "AUTHORITY_EVIDENCE_NOT_REPRESENTED",
+    "SOURCE_LOCATOR_NOT_REPRESENTED_OR_PROPAGATED",
+    "ANCHOR_LOCATOR_DATA_NOT_JOINED",
+    "RETRIEVAL_TO_SOURCE_VERIFICATION_STAGE_OMITTED"
+  ],
+  "input_manifest": "data/book/prewriting_repository_claim_defect_remediation_v1/manifest_v1.json",
+  "phase": "PRE-WRITING REPOSITORY CLAIM REMEDIATION FAILURE ANALYSIS V1"
+}

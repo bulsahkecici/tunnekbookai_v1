@@ -1,0 +1,55 @@
+{
+  "document_id": "DOC000196",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:01:07+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "Tünel Dergİsİ 3. Sayıya Katkıda Bulunan Tünelcİler ve Madencİler contrıbutıng partıes [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Tünel Dergİsİ 3. Sayıya Katkıda Bulunan Tünelcİler ve Madencİler contrıbutıng partıes",
+      "value": "magazine"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "Tünel Dergİsİ 3. Sayıya Katkıda Bulunan Tünelcİler ve Madencİler contrıbutıng partıes",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "Prof. Dr. Nuh bİLGİN TÜNELCİLİK DERNEĞİ BAŞKANI President of Turkish Tunnelling Society",
+      "value": "Tünelcilik Derneği"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "Tünel Dergİsİ 3. Sayıya Katkıda Bulunan Tünelcİler ve Madencİler contrıbutıng partıes",
+      "value": "Tünel Dergisi 3. Sayı"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Tünel Dergİsİ 3. Sayıya Katkıda Bulunan Tünelcİler ve Madencİler contrıbutıng partıes",
+      "value": [
+        "accident",
+        "contracts",
+        "excavation",
+        "fiber_reinforced_concrete",
+        "forepoling",
+        "geology",
+        "operations",
+        "shotcrete",
+        "tbm"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Mart-Nisan / March-April 2014 Yıl / Y ear :1 Sayı / Nr : 3",
+      "value": 2014
+    }
+  },
+  "source_sha256": "c4b2a15c8a756f897c1dff75fed956899f83c55221516e1cad2a975c832e7199"
+}

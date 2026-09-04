@@ -1,0 +1,18 @@
+{
+  "schema_version":"prewriting-explicit-human-decision-gate-manifest-v1",
+  "phase":"PRE-WRITING EXPLICIT HUMAN DECISION GATE V1",
+  "status":"GO",
+  "artifacts":[
+    {"path":"data/book/prewriting_explicit_human_decision_gate_v1/contracts/explicit_human_decision_gate_v1_acceptance.json","sha256":"16ee43d93e3721de5aeed877ebde130254ef828db78222fc234d1b985aa65c1a"},
+    {"path":"data/book/prewriting_explicit_human_decision_gate_v1/human_decision_selections_v1.json","sha256":"588514c5d9fe9eb248f1a7cfd16636b8c11cdfb456154d9fbdec7bf0d9fb12cc"},
+    {"path":"data/book/prewriting_explicit_human_decision_gate_v1/book_master_structure_v2_decision_overlay.json","sha256":"19dd5f36d6d2e0fb567b89d7b4decb7a45cca9cf270884552ff61a0cb5e260b4"},
+    {"path":"data/book/prewriting_explicit_human_decision_gate_v1/section_scope_boundary_contracts_v2_decision_overlay.json","sha256":"5b6464f7ef76d5f0db92360ffdc1004f52997bd78aa565fcd6c0995e6e84ecf6"},
+    {"path":"data/book/prewriting_explicit_human_decision_gate_v1/human_decision_registry_v2.json","sha256":"4009c0df3fe60945dfa63fc89839e2237524decfb7cad5731b081903f9b14ac9"},
+    {"path":"data/book/prewriting_explicit_human_decision_gate_v1/explicit_human_decision_gate_v1_acceptance_audit.json","sha256":"147f4297080c9a018f4d1b69b809ee40ee096b44febccd5336c6c4f2ac6be652"}
+  ],
+  "historical_artifacts_modified":false,
+  "external_evidence_admitted":false,
+  "drafting_authorized":false,
+  "book_prose_generated":false,
+  "next_phase":"PRE-WRITING REPOSITORY EVIDENCE ADMISSION V1"
+}

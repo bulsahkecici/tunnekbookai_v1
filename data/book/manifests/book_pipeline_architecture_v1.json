@@ -1,0 +1,89 @@
+{
+  "artifact_paths": {
+    "chapter_plans": "data/book/chapter_plans/",
+    "claim_ledgers": "data/book/claim_ledgers/",
+    "evidence_notes": "data/book/evidence_notes/",
+    "manifests": "data/book/manifests/",
+    "projects": "data/book/projects/",
+    "research_questions": "data/book/research_questions/",
+    "research_runs": "data/book/research_runs/",
+    "section_bundles": "data/book/section_bundles/",
+    "section_plans": "data/book/section_plans/",
+    "source_registry": "data/book/source_registry_v1.jsonl"
+  },
+  "context": {
+    "implementation": "scripts/20_rag_context.py",
+    "sha": "4bcf5c9975ef0328eba159c34e7e2810491510dad6dc72b32ab10df1a777991d",
+    "version": "tunnelbook-context-v1"
+  },
+  "created_at": "2026-08-18T23:27:08+03:00",
+  "drafting_enabled": false,
+  "evidence_note_contract_implementation": "scripts/38_evidence_note_contract.py",
+  "evidence_note_contract_sha": "35f150fe59238ba8fd0a3f46c560b4655c313d3335d476bc9a85f0bf9aaf2278",
+  "evidence_note_contract_version": "tunnelbook-evidence-note-contract-v1",
+  "evidence_note_repair_policy": "none_fail_closed",
+  "output_contract": {
+    "sha": "5ebf8fe90e3e5491ce07a9143f8fd377841defa2e0e7a09188f3a835b07bdef5",
+    "version": "tunnelbook-generation-output-contract-v1.1"
+  },
+  "pilot": {
+    "book_id": "BOOK-TUNNEL-001",
+    "bundle_shas": {
+      "SEC-02-1": "eb6dd57221f859b32e8833b0df103fa57465b689cba45a3d0821045d9e3f96c0",
+      "SEC-02-2": "93bc29a87741fd2f047bcd7cca5ae669def347afe2a3398944e50676ee2cde64",
+      "SEC-02-3": "048e169360265608f8060f8276664955020da47b6a7736076ad9c5e683bb7b3e"
+    },
+    "citation_ready_claims": 68,
+    "claim_ledger_entries": 68,
+    "conflict_groups": 0,
+    "duplicate_candidate_pairs": 4,
+    "evidence_notes": 159,
+    "generator_rejected": 0,
+    "insufficient_evidence": 0,
+    "notes_INSUFFICIENT_EVIDENCE": 91,
+    "notes_SUPPORTED": 68,
+    "notes_contract_invalid": 0,
+    "notes_contract_valid": 159,
+    "questions_answered": 19,
+    "readiness": {
+      "SEC-02-1": "READY_WITH_LIMITATIONS",
+      "SEC-02-2": "READY_WITH_LIMITATIONS",
+      "SEC-02-3": "NOT_READY"
+    },
+    "research_questions": 19,
+    "section_ids": [
+      "SEC-02-1",
+      "SEC-02-2",
+      "SEC-02-3"
+    ],
+    "source_registry_entries": 68
+  },
+  "pipeline_implementation": "scripts/39_book_writing_pipeline.py",
+  "pipeline_implementation_sha": "caaacc5dd5a9f34021203a19c305a7f5f91327c343c01f7d1d8c012e36152ca5",
+  "pipeline_slot_note": "Requested as scripts/37_*; slot 37 was already the production orchestration smoke runner, so the pipeline lives at 39_ and the path is pinned here.",
+  "pipeline_version": "tunnelbook-book-writing-pipeline-v1",
+  "production_generator": {
+    "entrypoint": "scripts/36_production_grounded_generator.py",
+    "policy": "accept_if_contract_valid_else_reject",
+    "sha": "1f89bdb86d99509820971155455802cf24d7b267a628bc7f85d093e3e10e76b2",
+    "version": "tunnelbook-production-grounded-generator-v1"
+  },
+  "prompt": {
+    "sha": "9bae1362a228b84dd7e3867babc352527755902b9078dd10648819bd396e4085",
+    "version": "generation-system-prompt-v5"
+  },
+  "qdrant_points_after": 5992,
+  "qdrant_points_before": 5992,
+  "qdrant_writes": 0,
+  "retriever": {
+    "implementation": "scripts/19_retriever_v1.py",
+    "release": "tunnelbook-retriever-v1",
+    "sha": "8ada31f64d8ef51c3b4d3b8b04f3fcc3e9fb7338b1554d1a5a9118a3a231b071"
+  },
+  "source_policy": "corpus_only",
+  "status": "candidate",
+  "tests": {
+    "test_book_writing_pipeline": 33,
+    "test_evidence_note_contract": 34
+  }
+}

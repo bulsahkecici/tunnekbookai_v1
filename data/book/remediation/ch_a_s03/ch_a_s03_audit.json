@@ -1,0 +1,151 @@
+{
+  "section_id": "CH-A-S03",
+  "decision": "PASS",
+  "summary": {
+    "supported": 22,
+    "partially_supported": 0,
+    "unsupported": 0,
+    "scope_leakage": 0,
+    "unsupported_source_identity": 0,
+    "redundancy": 0
+  },
+  "sentence_audit": [
+    {
+      "sentence": "M.Ö. 2000'li yıllarda Babil'de Fırat Nehri yatağında, tapak ve sarayı birleştirmek amacıyla yaklaşık 4.5x3.5 metre boyutlarında, üstü tuğla/briketle örtülü bir geçit tüneli açılmıştır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-067", "CH-A-S03-REM-068"],
+      "reason": "Tarih, konum (Fırat Nehri), amaç (tapak/saray bağlantısı) ve boyut/k Yapı malzemesi bilgileri REM-067 ve REM-068 ile birebir örtüşmektedir."
+    },
+    {
+      "sentence": "Bu dönemde Mısır'daki Ebu Simbel (M.Ö. 1200) ve Hindistan'daki Bhaja tapınakları, yeraltı yapılarının dini amaçlı kullanımının erken örnekleri olarak kabul edilmektedir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-012"],
+      "reason": "Mısır (Ebu Simbel, M.Ö. 1200) ve Hindistan (Bhaja tapınakları) örnekleri REM-012 ile doğrudan eşleşmektedir."
+    },
+    {
+      "sentence": "Su yönetimi ve savunma ihtiyaçları ise 1560 yılında İspanya'da inşa edilen, uzunluğu 600 metre olan Mina Tüneli'nde ve M.Ö. 300 yılında Anadolu'da su yolu amacıyla yapılan Aksırat Tüneli'nde görülmektedir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-072", "CH-A-S03-REM-121"],
+      "reason": "Mina Tüneli (İspanya, 1560, 600m, savunma/su) ve Aksırat Tüneli (Anadolu, M.Ö. 300, su yolu) bilgileri REM-072 ve REM-121 ile uyumludur."
+    },
+    {
+      "sentence": "İsviçre Alplerinde 1707 yılında inşa edilen Urner Loch (64 m), erken dönem yeraltı yapıları arasında öne çıkmaktadır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-164"],
+      "reason": "Yıl (1707), konum (İsviçre Alpleri), isim (Urner Loch) ve uzunluk (64 m) REM-164 ile tam eşleşmektedir."
+    },
+    {
+      "sentence": "Avrupa'da trafik amaçlı açılan ilk tünel olarak kabul edilen Neutor Tüneli, 1765-1774 yılları arasında Avusturya'nın Salzburg şehrinde 131 metre uzunluğunda inşa edilmiştir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-098"],
+      "reason": "İsim, tarih aralığı, konum (Salzburg), amaç (trafik) ve uzunluk (131 m) REM-098 ile birebir örtüşmektedir."
+    },
+    {
+      "sentence": "İngiltere'de 1777 yılında Hare-Castle Tüneli ve Fransa'da 1803 yılında tamamlanan, 1.098 metre uzunluğundaki Galerie de Tranquoi gibi yapılar, dönemin kazı hacmi ve mühendislik çabalarını yansıtmaktadır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-044", "CH-A-S03-REM-046"],
+      "reason": "Hare-Castle (1777) ve Galerie de Tranquoi (1803, 1.098 m) bilgiler REM-044 ve REM-046 ile desteklenmektedir."
+    },
+    {
+      "sentence": "1825 yılında Fransa'da ve İngiltere'de ilk demiryolu tünellerine başlanmıştır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-100"],
+      "reason": "İlk demiryolu tüneli başlangıç yılı ve ülkeleri (Fransa 1825, İngiltere) REM-100 ile eşleşmektedir."
+    },
+    {
+      "sentence": "Londra'da 1825 yılında yumuşak zeminde inşa edilmeye başlanan Thames Tüneli, önce yayalar ve at arabaları için kullanılmış, 1865'ten sonra demiryolu olarak hizmet vermiştir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-073", "CH-A-S03-REM-074"],
+      "reason": "Yıl (1825), zemin koşulu (yumuşak), kullanım evreleri (yayalar/ata arabası -> demiryolu 1865 sonrası) REM-073 ve REM-074 ile doğrulanmaktadır."
+    },
+    {
+      "sentence": "Liverpool'da 1829 ve 1846 yıllarında raylı sistemler için el ile kazılan derin kesit tünelleri (Edge Hill), dönemin operasyonel ihtiyaçlarını karşılamıştır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-001"],
+      "reason": "Yer, yıllar (1829/1846), yöntem (el ile kazılan derin kesit) ve amaç (raylı sistemler) REM-001 ile tam uyumludur."
+    },
+    {
+      "sentence": "1863 yılında Londra'da Metropolitan Railway ile yeraltı demiryolu kullanımı resmen başlamış, 6 kilometrelik bu hat işletmeye açılmıştır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-005", "CH-A-S03-REM-085"],
+      "reason": "Yıl (1863), isim (Metropolitan Railway) ve uzunluk (6 km) REM-005 ve REM-085 ile desteklenmektedir."
+    },
+    {
+      "sentence": "Avrupadaki ilk metro hattı ise 1896 yılında Budapeşte'te hizmete girmiştir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-061", "CH-A-S03-REM-086"],
+      "reason": "Konum (Budapeşte), yıl (1896) ve statü (Avrupa'daki ilk metro) REM-061 ve REM-086 ile eşleşmektedir."
+    },
+    {
+      "sentence": "Mühendislik dönüşümleri açısından 1867 yılında Alfred Nobel'in dinamiti keşfi, barutun yerini alarak tünel açma yöntemlerinde çığır açmıştır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-096", "CH-A-S03-REM-153"],
+      "reason": "Yıl (1867), kişi (Alfred Nobel), buluş (dinamit) ve etki (barutun yerini alması) REM-096 ve REM-153 ile doğrulanmaktadır."
+    },
+    {
+      "sentence": "1857 yılında inşasına başlanan Fréjus (Mont Cenis) Tüneli, 13 yıllık çalışma sonucunda 1871 yılında Fransa ve İtalya arasında işletmeye açılmış, 1881'de uzatılarak yaklaşık 13.7 kilometreye ulaşmıştır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-008", "CH-A-S03-REM-103", "CH-A-S03-REM-104"],
+      "reason": "Başlangıç (1857), süre (13 yıl), açılış (1871), uzatma (1881) ve uzunluk (13.7 km) bilgileri REM-008, REM-103 ve REM-104 ile tam örtüşmektedir."
+    },
+    {
+      "sentence": "Alpler'de Gotthard (1882) ve Simplon (1906) tünelleri gibi büyük ölçekli demiryolu geçişleri, modern tünelcilik anlayışının temelini atmıştır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-106"],
+      "reason": "İsimler, yıllar (Gotthard 1882, Simplon 1906) ve amaç (demiryolu) REM-106 ile desteklenmektedir."
+    },
+    {
+      "sentence": "1900'lü yıllarda otomobil devrinin başlamasıyla birlikte karayolu tünel inşaatları gelişim göstermiştir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-030"],
+      "reason": "Dönem (1900'ler), tetikleyici faktör (otomobil devri) ve sektör etkisi (karayolu tünel inşaatları gelişimi) REM-030 ile eşleşmektedir."
+    },
+    {
+      "sentence": "Dünya çapında birçok büyük şehirde metro hatları genişlemiştir; İstanbul (1875), Paris (1900), Berlin (1902), New York (1904), Madrid (1919) ve Moskova (1935) ilk metro hatlarını devreye almıştır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-060", "CH-A-S03-REM-062", "CH-A-S03-REM-063", "CH-A-S03-REM-064", "CH-A-S03-REM-065", "CH-A-S03-REM-066"],
+      "reason": "Şehirler ve ilk metro açılış yılları (İstanbul 1875, Paris 1900, Berlin 1902, NY 1904, Madrid 1919, Moskova 1935) ilgili claim'ler ile birebir uyumludur."
+    },
+    {
+      "sentence": "1930'lu yıllarda New York'ta şehir içi su temini için çapları 3-5 metre, uzunlukları 100-170 kilometre arasında değişen su tüneleri inşa edilmiştir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-021"],
+      "reason": "Dönem (1930'lar), konum (New York), amaç (su temini) ve teknik parametreler (çap 3-5 m, uzunluk 100-170 km) REM-021 ile doğrulanmaktadır."
+    },
+    {
+      "sentence": "1950'li yıllara kadar yaşanan ekonomik sorunlar ve savaşlar nedeniyle tünelcilik faaliyetlerinde durgunluk yaşanmıştır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-009"],
+      "reason": "Dönem (1950'lere kadar), nedenler (ekonomik sorunlar ve savaşlar) ve etki (tünelcilikte durgunluk) REM-009 ile eşleşmektedir."
+    },
+    {
+      "sentence": "Modern dönemde, 1986 yılında Fransız ve İngiliz firmaların finansmanıyla inşasına başlanan Manş Tüneli, 7 yılda tamamlanarak 6 Mayıs 1994'te resmen açılmıştır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-113", "CH-A-S03-REM-050"],
+      "reason": "Başlangıç (1986), finansman (Fransız/İngiliz firmalar), süre (7 yıl) ve açılış tarihi (6 Mayıs 1994) REM-113 ve REM-050 ile tam uyumludur."
+    },
+    {
+      "sentence": "Gotthard Base Tüneli 2016 yılında, Laerdal Tüneli ise 2000 yılında hizmete girmiştir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-109", "CH-A-S03-REM-118"],
+      "reason": "İsimler ve hizmete açılış yılları (Gotthard Base 2016, Laerdal 2000) REM-109 ve REM-118 ile desteklenmektedir."
+    },
+    {
+      "sentence": "Türkiye'deki tarihsel gelişim ise 1960'lı yıllardan itibaren çeşitlenmiştir; Kadınçık I Tüneli (1967-1969, hidroelektrik), Urfa Tüneli (1977-1992, sulama), Eyüp Tüneli (1986-1987, kanalizasyon) ve Selatinler Tüneli (1988-1994, karayolu) gibi projeler, ülkenin altyapı ihtiyaçlarına yönelik yerli ve uluslararası iş birliklerinin somut örnekleridir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-135", "CH-A-S03-REM-136", "CH-A-S03-REM-137", "CH-A-S03-REM-138"],
+      "reason": "Türkiye'deki proje isimleri, inşaat yılları ve kullanım amaçları (hidroelektrik, sulama, kanalizasyon, karayolu) ilgili claim'ler ile birebir eşleşmektedir."
+    },
+    {
+      "sentence": "İstanbul Tüneli (1992'den itibaren), İzmir Tünelleri (1995-2001 ve 2000-2007 karayolu, 2001'den itibaren ulaşım) ise modern Türkiye'nin ulaşım ağının temelini oluşturmaktadır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S03-REM-140", "CH-A-S03-REM-141", "CH-A-S03-REM-142", "CH-A-S03-REM-143"],
+      "reason": "İstanbul ve İzmir tünel projelerinin başlangıç/bitiş yılları ve kullanım amaçları (ulaşım, karayolu) REM-140/141/142/143 ile doğrulanmaktadır."
+    }
+  ],
+  "source_identity_issues": [],
+  "scope_issues": [],
+  "qualifier_issues": [],
+  "redundancy_issues": [],
+  "required_actions": []
+}

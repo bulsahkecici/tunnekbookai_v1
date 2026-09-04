@@ -1,0 +1,50 @@
+{
+  "document_id": "DOC000195",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:00:59+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "Tünel Dergisi is a professional association magazine, not an official regulation or technical specification. [evidence_not_grounded_in_context] [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "TUNELCÍLÍK VE YERALTI TEKNOLOJÍLERÍ DERGÍSÍ ISSN 2148-1768 İki ayda bir yayınlanır.",
+      "value": "magazine"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "TÜNEL YAPIM TEKNOJILERI VE EKIPMANLARI FUARI",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "Prof. Dr. Nuh bİLGİN TÜNELCİLİK DERNEĞİ BAŞKANI",
+      "value": "Tünelcilik Derneği"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "TUNELCÍLÍK VE YERALTI TEKNOLOJÍLERÍ DERGÍSÍ ISSN 2148-1768 İki ayda bir yayınlanır. Ocak-Şubat 2014 Yıl:1 Sayı: 2",
+      "value": "Tunel Dergisi 2"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Tünel Dergisi 2 covers multiple tunnel projects, mentioning 'delme patlatma yöntemi' (blasting/excavation), 'EPB TBM', and 'püskürtme beton' (shotcrete).",
+      "value": [
+        "excavation",
+        "operations",
+        "shotcrete",
+        "tbm"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Ocak-Şubat 2014 Yıl:1 Sayı: 2",
+      "value": 2014
+    }
+  },
+  "source_sha256": "372509651cd66ef259aea51a09cef059d51042791e283bf28bed81e55b6af5a3"
+}

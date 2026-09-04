@@ -1,0 +1,16 @@
+{
+  "version": "tunnelbook-technical-term-fallback-fixture-results-v1",
+  "positive": {
+    "total": 7,
+    "passed": 7,
+    "failed": 0,
+    "classes": ["authoritative_translation_unchanged", "original_term_unresolved_exact", "semantic_value_has_no_markdown", "bounded_language_exemption", "citation_source_ownership", "authoritative_translation_second_case_unchanged", "deterministic_presentation"]
+  },
+  "negative": {
+    "total": 14,
+    "rejected": 14,
+    "false_accepts": 0,
+    "deterministic": true,
+    "codes": ["TERM_UNRESOLVED_HAS_TRANSLATION", "TERM_AUTHORITATIVE_TRANSLATION_MISMATCH", "TERM_SOURCE_TERM_MISMATCH", "TERM_UNRESOLVED_MARKER_MISSING", "TERM_MARKDOWN_IN_SEMANTIC_VALUE", "TERM_PRESENTATION_CONTAMINATES_OWNERSHIP", "LANGUAGE_MISMATCH", "TERM_UNREGISTERED_VISIBLE_TERM", "TERM_CROSS_CLAIM_BORROWING", "TERM_CLAIM_SPECIFIC_BRANCH_FORBIDDEN", "TERM_SILENT_REPLACEMENT", "TERM_AUTHORITATIVE_TRANSLATION_REQUIRED", "TERM_SOURCE_OWNERSHIP_MISMATCH", "TERM_CLAIM_MEANING_CHANGED"]
+  }
+}

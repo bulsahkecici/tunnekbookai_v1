@@ -1,0 +1,55 @@
+{
+  "document_id": "DOC000264",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:06:41+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020) [evidence_not_grounded_in_context] [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "low",
+      "evidence": "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020) [evidence_not_grounded_in_context]",
+      "value": "training_material"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "T3 TÜNELİ ENJEKSİYON İPTALİ.pptm [evidence_not_grounded_in_context]",
+      "value": "T3 TÜNELİ ENJEKSİYON İPTALİ"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Enjeksiyon uygulaması... alternatif çözümler üzerinde çalışılmaya başlanmıştır... Bulon L: 9,0 m... Püskürtme Betonu Kalınlığı = 15 cm... Hasır Çelik... Çelik İksa I 200... Drenaj Deliği",
+      "value": [
+        "drainage",
+        "geology",
+        "injection",
+        "portal",
+        "rock_bolt",
+        "shotcrete",
+        "steel_mesh",
+        "steel_rib",
+        "support_systems"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "(24-28.02.2020) [evidence_not_grounded_in_context]",
+      "value": 2020
+    }
+  },
+  "source_sha256": "8cd77050797aeb27474ab899ffc0581177f726b127e539c71452b46c78d9dd6e"
+}

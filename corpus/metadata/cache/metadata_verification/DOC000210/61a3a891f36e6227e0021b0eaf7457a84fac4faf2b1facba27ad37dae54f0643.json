@@ -1,0 +1,15 @@
+{
+  "document_id": "DOC000210",
+  "field": "document_type",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "processed_at": "2026-08-15T23:49:42+00:00",
+  "prompt_version": "metadata-verification-v1.2",
+  "response": {
+    "confidence": "high",
+    "evidence": "Vantage Point articles in Professional Safety provide a forum for authors with distinct viewpoints to share their ideas and opinions with ASSP members",
+    "relationship": "document_identity",
+    "value": "web_article"
+  },
+  "retries": 0,
+  "source_sha256": "2dcb6b5789d6b4ec49f44392305bcaa0cb4fc8d2fb23006c3b3af95e978d83d3"
+}

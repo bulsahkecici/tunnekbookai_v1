@@ -1,0 +1,48 @@
+{
+  "document_id": "DOC000220",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:03:20+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "[controlled_vocabulary_rejected]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "training_material"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "8-TÜNELLERDE SU VE GAZ SORUNLARI.pptx [evidence_not_grounded_in_context]",
+      "value": "TÜNELLERDE SU VE GAZ SORUNLARI"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "# TÜNELLERDE SU # TÜNELLERDE GAZ",
+      "value": [
+        "gas",
+        "water"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "(24-28.02.2020) [evidence_not_grounded_in_context]",
+      "value": 2020
+    }
+  },
+  "source_sha256": "9edbc28eb7644c0de5ff8de34566400e3f024aeefe2988953e2095e052f8891e"
+}

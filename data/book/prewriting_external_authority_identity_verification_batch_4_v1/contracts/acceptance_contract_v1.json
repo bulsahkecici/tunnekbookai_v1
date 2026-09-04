@@ -1,0 +1,32 @@
+{
+  "audit_count": 12,
+  "course_deck_separation": [
+    "material_identity",
+    "presenter_author_identity",
+    "host_institution",
+    "issuing_publishing_authority",
+    "technical_authority",
+    "claim_relative_suitability"
+  ],
+  "external_use": "IDENTITY_AND_AUTHORITY_METADATA_ONLY",
+  "negative_fixture_count": 11,
+  "phase": "PRE-WRITING EXTERNAL AUTHORITY IDENTITY VERIFICATION BATCH 4 V1",
+  "positive_fixture_count": 6,
+  "prohibitions": [
+    "technical_evidence_admission",
+    "technical_claim_import",
+    "support_status_change",
+    "claim_proposition_change",
+    "book_prose",
+    "cost_analysis",
+    "visual_generation",
+    "anchor_history_rewrite"
+  ],
+  "schema_version": "1.0.0",
+  "scope": [
+    "DOC000073",
+    "DOC000074",
+    "DOC000214",
+    "DOC000215"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "artifacts": [
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/audits/01_input_boundary_audit_v1.json",
+      "sha256": "d70d7769b593e5791e524ca7509d9647ddfe416ec0e228bf76207d69ce3d3b73"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/audits/02_authority_registry_audit_v1.json",
+      "sha256": "dffe81f3520ee22152e24cb7a10a922b58f7740a577d2ec3787fb8d15b35ced2"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/audits/03_legacy_label_audit_v1.json",
+      "sha256": "9553063d0dc9510c954edde72b6ed345139e07d100fc69f250f26e23599404f1"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/audits/04_provenance_remediation_audit_v1.json",
+      "sha256": "e7bb038cf74bb7d79ab9189e515d7cad73fe53bc9aec9e1f2f803c1cc585a1a5"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/audits/05_anchor_remediation_audit_v1.json",
+      "sha256": "1db38c915d08b858c878a7214adbef58c0df2f428dfece050946147dc7aa6134"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/audits/06_targeted_discovery_audit_v1.json",
+      "sha256": "9b33dbbe5cc659788a3466fe9931f5d72a9b7b78fde9b77013ea5955799e237e"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/audits/07_claim_fidelity_audit_v1.json",
+      "sha256": "05cba2525a75e75098450a757b579b2b44236621c2e75bebc63d2af140897ada"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/audits/08_section_readiness_audit_v1.json",
+      "sha256": "102cf75e5c5f5c48e782c2d9162fc01eee7c68f27f6dd2f18a9318b13f782f75"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/audits/09_visual_linkage_audit_v1.json",
+      "sha256": "8dc3422df79567b3fe4b979cbc94be41d4c14727cc6d0771c1cf6774135de1a4"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/audits/10_leakage_and_dependency_audit_v1.json",
+      "sha256": "d11e683d9f176d74d9f12b1cc56cf73cc16ad546c5e6cef00b7b41bf482cdee9"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/audits/11_acceptance_audit_v1.json",
+      "sha256": "6491dda583c370a7e16c6fd5ef230d211e72b53588e168df00d38964d2ce982c"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/contracts/claim_defect_remediation_acceptance_contract_v1.json",
+      "sha256": "8f5912f0e42b744793f92d33fc158fa07e655b73b61cb92bbbd2ace6ff966a8a"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/contracts/legacy_label_interpretation_contract_v1.json",
+      "sha256": "0cb1a4ab266d0532dfa0a2ea46720345e4c500edd34fdd033abccdb75f07db08"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/registries/claim_visual_link_registry_v2.json",
+      "sha256": "74965acb6b1696a6d8d64a3adb4701fb6ed39aa580fea9fb79a9fecb77bc5ef6"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/registries/remediated_claim_registry_v1.json",
+      "sha256": "c18f0552a7b9e51d44d3e11a2e910a5f6bf271c9463e58869bd173acd1c54ac2"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/registries/section_claim_readiness_ledger_v2.json",
+      "sha256": "0adccabd3c72899253e66cc9206f42282ca9f4785c35c3dee44806531789345d"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/registries/source_authority_registry_v1.json",
+      "sha256": "3c60380862ea4ec4827175e4c1be8f416b81fc5bfc6ad9b404f449fbfe4397fa"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_defect_remediation_v1/registries/targeted_repository_discovery_registry_v1.json",
+      "sha256": "a10d8a614f4ff5a07c9d5adec00c632a15ec684d28528a8be70dfcd43b3e4a6d"
+    }
+  ],
+  "book_prose_generated": false,
+  "checkpoint": "PRE-WRITING REPOSITORY CLAIM DEFECT REMEDIATION V1",
+  "claim_state_counts": {
+    "ANCHOR_AMBIGUOUS": 12,
+    "AUTHORITY_INSUFFICIENT": 452,
+    "PROVENANCE_BLOCKED": 113,
+    "SCOPE_INSUFFICIENT": 25
+  },
+  "drafting_authorized": false,
+  "inputs_after": {
+    "data/book/coverage/corpus_to_book_coverage_mapping_v1.json": "5db9f56ac0f46d6ceba4a50ef83700c72500562737a13ffce015d9c7ea1dd901",
+    "data/book/prewriting_repository_claim_defect_remediation_v1/contracts/claim_defect_remediation_acceptance_contract_v1.json": "8f5912f0e42b744793f92d33fc158fa07e655b73b61cb92bbbd2ace6ff966a8a",
+    "data/book/prewriting_repository_claim_defect_remediation_v1/contracts/legacy_label_interpretation_contract_v1.json": "0cb1a4ab266d0532dfa0a2ea46720345e4c500edd34fdd033abccdb75f07db08",
+    "data/book/prewriting_repository_claim_extraction_authority_validation_v1/registries/claim_candidate_registry_v1.json": "f12e6a4e968f71698bac715f2f6aceff58beffdc04d3f65bab3f26ff71bffd2b",
+    "data/book/prewriting_repository_claim_extraction_authority_validation_v1/registries/section_claim_readiness_ledger_v1.json": "a1c3d33ef1938c2f31578138efba268b42081153a28b10c04d6d5ff413d6914b",
+    "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/repository_visual_candidate_registry_v2.json": "277acc8940df63c839c7927b32a76d02e7a447f6b1791164e10cfdcc6d0fdbea",
+    "data/book/research/research_question_gap_registry_v1.json": "13ab8e46bfe3f7db4111dcfb67dcc2e138a1aab5e0d820102c2bab0364fcddac",
+    "data/book/source_registry_v1.jsonl": "5c9e8fe257375a6afdf589a18ac4baa611c8f80e4f10f85528eda73a2971c766",
+    "data/chunks/chunks.jsonl": "e751fcfc3cc6828b05f75f494fd9a31b44388abda9daf83fb9581581ef79df5b",
+    "data/metadata/final_corpus_manifest.csv": "cf59e74f9435635a15f8446c20aa8d6fb5976c0434ee87022e067722cccf44c3"
+  },
+  "inputs_before": {
+    "data/book/coverage/corpus_to_book_coverage_mapping_v1.json": "5db9f56ac0f46d6ceba4a50ef83700c72500562737a13ffce015d9c7ea1dd901",
+    "data/book/prewriting_repository_claim_defect_remediation_v1/contracts/claim_defect_remediation_acceptance_contract_v1.json": "8f5912f0e42b744793f92d33fc158fa07e655b73b61cb92bbbd2ace6ff966a8a",
+    "data/book/prewriting_repository_claim_defect_remediation_v1/contracts/legacy_label_interpretation_contract_v1.json": "0cb1a4ab266d0532dfa0a2ea46720345e4c500edd34fdd033abccdb75f07db08",
+    "data/book/prewriting_repository_claim_extraction_authority_validation_v1/registries/claim_candidate_registry_v1.json": "f12e6a4e968f71698bac715f2f6aceff58beffdc04d3f65bab3f26ff71bffd2b",
+    "data/book/prewriting_repository_claim_extraction_authority_validation_v1/registries/section_claim_readiness_ledger_v1.json": "a1c3d33ef1938c2f31578138efba268b42081153a28b10c04d6d5ff413d6914b",
+    "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/repository_visual_candidate_registry_v2.json": "277acc8940df63c839c7927b32a76d02e7a447f6b1791164e10cfdcc6d0fdbea",
+    "data/book/research/research_question_gap_registry_v1.json": "13ab8e46bfe3f7db4111dcfb67dcc2e138a1aab5e0d820102c2bab0364fcddac",
+    "data/book/source_registry_v1.jsonl": "5c9e8fe257375a6afdf589a18ac4baa611c8f80e4f10f85528eda73a2971c766",
+    "data/chunks/chunks.jsonl": "e751fcfc3cc6828b05f75f494fd9a31b44388abda9daf83fb9581581ef79df5b",
+    "data/metadata/final_corpus_manifest.csv": "cf59e74f9435635a15f8446c20aa8d6fb5976c0434ee87022e067722cccf44c3"
+  },
+  "result": "GO_FAILURE_ANALYSIS_REQUIRED",
+  "schema_version": "1.0.0",
+  "section_state_counts": {
+    "ADDITIONAL_REPOSITORY_DISCOVERY_REQUIRED": 31,
+    "AUTHORITY_GAP": 13,
+    "HUMAN_ANALYSIS_ARTIFACT_REQUIRED": 12,
+    "PROVENANCE_GAP": 3,
+    "UNRESOLVED": 1
+  }
+}

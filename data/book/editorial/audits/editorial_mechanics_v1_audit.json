@@ -1,0 +1,19 @@
+{
+  "checkpoint": "CP6 — EDITORIAL MECHANICS CONTRACTS V1",
+  "status": "GO",
+  "gates": {
+    "canonical_term_conflicts": "0 PASS",
+    "duplicate_stable_ids": "0 PASS",
+    "existing_cross_reference_ids": "67/67 PASS",
+    "notation_consistency": "PASS",
+    "bibliography_identity_deterministic": "PASS",
+    "cross_reference_collision_policy": "PASS",
+    "unresolved_terms_preserved": "1/1 PASS",
+    "swelling_rock_state": "ORIGINAL_TERM_UNRESOLVED PASS",
+    "drafting_authorized": "false PASS"
+  },
+  "advisories": [
+    "Redundant strength-class/unit wording remains advisory unless technically ambiguous."
+  ],
+  "decision": "GO"
+}

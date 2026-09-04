@@ -1,0 +1,50 @@
+{
+  "document_id": "DOC000157",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:58:40+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "Sunumlar_2022/1_Professor Arnold Dix_People and Planet – how to get finance for new projects that mitigate the perils of Climate Change now.pdf",
+      "value": "C"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Sunumlar_2022/1_Professor Arnold Dix_People and Planet – how to get finance for new projects that mitigate the perils of Climate Change now.pdf",
+      "value": "presentation"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "Professor Arnold Dix · President - International Tunnelling and Underground Space Association (ITA)",
+      "value": "International Tunnelling and Underground Space Association (ITA)"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "1_Professor Arnold Dix_People and Planet – how to get finance for new projects that mitigate the perils of Climate Change now.pdf",
+      "value": "People and Planet – how to get finance for new projects that mitigate the perils of Climate Change now"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "contracts",
+        "cost",
+        "operations",
+        "risk"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "24 November 2022",
+      "value": 2022
+    }
+  },
+  "source_sha256": "246054e0940d9efbe0562a68fc621120e8cf7a22fd1028f0a588f3fb998a6395"
+}

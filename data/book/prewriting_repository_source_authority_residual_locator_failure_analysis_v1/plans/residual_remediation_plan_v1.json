@@ -1,0 +1,23 @@
+{
+  "acceptance_tests": [
+    "602 claims reconcile exactly once",
+    "34 authority records explicitly inspected with no inferred promotions",
+    "five documents independently verify support versus authority",
+    "61 residual provenance claims clustered and bridge-tested",
+    "12 ambiguous anchors remain blocked unless occurrence identity is proven",
+    "false acceptance zero",
+    "frozen integrity PASS",
+    "deterministic rerun PASS"
+  ],
+  "dependency_order": [
+    "introduce orthogonal statuses without changing admissions",
+    "replace bounded verifier with source-range support/scope/qualifier adjudication",
+    "extract and join explicit authority evidence under claim-relative policy",
+    "build residual block/span provenance bridge v2",
+    "source-locally re-extract ambiguous occurrences",
+    "re-disposition claims and re-audit sections"
+  ],
+  "next_phase": "PRE-WRITING REPOSITORY AUTHORITY STATUS AND RESIDUAL LOCATOR REMEDIATION V1",
+  "schema_version": "1.0.0",
+  "status": "FROZEN_NOT_IMPLEMENTED"
+}

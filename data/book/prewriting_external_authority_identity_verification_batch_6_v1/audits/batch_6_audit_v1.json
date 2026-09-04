@@ -1,0 +1,60 @@
+{
+  "audits": [
+    {
+      "audit": "scope",
+      "result": "PASS"
+    },
+    {
+      "audit": "official_source_quality",
+      "result": "PASS"
+    },
+    {
+      "audit": "identity",
+      "result": "PASS"
+    },
+    {
+      "audit": "version",
+      "result": "PASS"
+    },
+    {
+      "audit": "source_type",
+      "result": "PASS"
+    },
+    {
+      "audit": "issuer",
+      "result": "PASS"
+    },
+    {
+      "audit": "authority",
+      "result": "PASS"
+    },
+    {
+      "audit": "suitability",
+      "result": "PASS"
+    },
+    {
+      "audit": "conflict",
+      "result": "PASS"
+    },
+    {
+      "audit": "provenance",
+      "result": "PASS"
+    },
+    {
+      "audit": "frozen_integrity",
+      "result": "PASS"
+    },
+    {
+      "audit": "external_boundary",
+      "result": "PASS"
+    }
+  ],
+  "claim_level_admissions": 0,
+  "deterministic_processing": "PASS",
+  "external_boundary": "PASS",
+  "false_accepts": 0,
+  "false_rejects": 0,
+  "frozen_input_integrity": "PASS",
+  "schema_version": "1.0.0",
+  "verified_support": 602
+}

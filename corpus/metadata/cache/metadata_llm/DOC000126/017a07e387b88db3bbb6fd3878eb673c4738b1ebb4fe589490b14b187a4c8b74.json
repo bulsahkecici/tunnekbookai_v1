@@ -1,0 +1,50 @@
+{
+  "document_id": "DOC000126",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:57:34+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "TURK E TUNELCILIK SEMINERI2O13",
+      "value": "C"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "TURK E TUNELCILIK SEMINERI2O13",
+      "value": "conference_proceedings"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "TURK E TUNELCILIK SEMINERI2O13",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "Dr. Orhan Şİ M Ş EK FUGRO S İ AL Ltd. Ş ti. [suggested_value_not_supported_by_evidence]",
+      "value": "FUGRO SİAL Ltd. Şti."
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "TÜNELC İ L İ KTE DÖNÜM NOKTASI BOLU DA Ğ I TÜNEL İ [suggested_value_not_supported_by_evidence]",
+      "value": "TÜNELCİLİKTE DÖNÜM NOKTASI BOLU DAĞI TÜNELİ"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Proje Yerinin Aktif Tektonik Haritas ı|Ø 1 ,5\" enjeksiyonlu Borular|Destekleme S ı n ı f ı",
+      "value": [
+        "geology",
+        "injection",
+        "rock_mechanics",
+        "support_systems"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "TURK E TUNELCILIK SEMINERI2O13 [suggested_value_not_supported_by_evidence]",
+      "value": 2013
+    }
+  },
+  "source_sha256": "abc6dcf8e707da2f77f6aa3777630d823ed934fca48f67821114ed835ea64e63"
+}

@@ -1,0 +1,82 @@
+{
+  "author_evidence": [
+    {
+      "converted_source_lines": "22",
+      "field": "author",
+      "value": "Emine Ertekin Yardımcı",
+      "zone": "title_page"
+    }
+  ],
+  "authority_class": "UNKNOWN_AUTHORITY",
+  "authority_evidence_sufficiency": "INCOMPLETE",
+  "batch_id": "BATCH-03",
+  "claim_relative_applicability": "NOT_YET_AUTHORITY_SUITABLE",
+  "date_or_version_evidence": [
+    {
+      "converted_source_lines": "25-27",
+      "field": "place_year",
+      "value": "Ankara, 2012",
+      "zone": "title_page"
+    }
+  ],
+  "document_id": "DOC000074",
+  "exact_title": "Tünellerde Destek Sistemleri ve Güçlendirme Yöntemleri",
+  "external_identity_verification_required": true,
+  "external_verification_plan": {
+    "identity_matching_keys": [
+      "DOC000074",
+      "Tünellerde Destek Sistemleri ve Güçlendirme Yöntemleri"
+    ],
+    "mismatch_behavior": "RETAIN_UNKNOWN_AUTHORITY",
+    "missing_identity_fields": [
+      "source_type_evidence",
+      "institution_or_publisher",
+      "publication_container_or_stable_identifier"
+    ],
+    "preferred_authoritative_lookup_class": "ISSUER_PUBLISHER_OR_INSTITUTIONAL_REPOSITORY_RECORD"
+  },
+  "identity_confidence": "PARTIAL",
+  "identity_evidence": [
+    {
+      "converted_source_lines": "19-20",
+      "field": "title",
+      "value": "Tünellerde Destek Sistemleri ve Güçlendirme Yöntemleri",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "22",
+      "field": "author",
+      "value": "Emine Ertekin Yardımcı",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "23",
+      "field": "professional_role",
+      "value": "Jeoloji Y. Mühendisi",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "25-27",
+      "field": "place_year",
+      "value": "Ankara, 2012",
+      "zone": "title_page"
+    }
+  ],
+  "inspection_mechanism": "TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION",
+  "institution_or_publisher_evidence": [],
+  "limitations": "No claim proposition, support, provenance, anchor, scope, review, or admission state changed.",
+  "missing_fields": [
+    "source_type_evidence",
+    "institution_or_publisher",
+    "publication_container_or_stable_identifier"
+  ],
+  "promotion": false,
+  "publication_identifiers": [],
+  "reason": "Title, author, role, place, and year are explicit; source type and publication identity are not.",
+  "result": "SOURCE_TYPE_UNRESOLVED",
+  "schema_version": "1.0.0",
+  "source_path": "data/markdown_full_docling/Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/TUNELLERDE_DESTEK_SISTEMLERI_VE_GUCLENDI.md",
+  "source_sha256": "838e67aadee86a12bd5b91e25c255c11da3af34a6546eee5d58d9b980d02975d",
+  "source_type": "UNKNOWN_SOURCE_TYPE",
+  "source_type_evidence": []
+}

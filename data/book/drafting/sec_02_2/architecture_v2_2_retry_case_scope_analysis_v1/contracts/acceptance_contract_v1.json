@@ -1,0 +1,23 @@
+{
+  "version": "tunnelbook-sec-02-2-architecture-v2.2-retry-case-scope-condition-allocation-failure-analysis-acceptance-v1",
+  "phase": "SEC-02-2 ARCHITECTURE V2.2 RETRY CASE-SCOPE CONDITION ALLOCATION FAILURE ANALYSIS V1",
+  "analysis_only": true,
+  "acceptance_conditions": [
+    {"id": "AC-CS-01", "requirement": "The exact preserved retry failure code, claim, unit, role, and conditions are reproduced and explained from preserved inputs."},
+    {"id": "AC-CS-02", "requirement": "Unit-scope and paragraph-scope condition behavior is compared with targeted synthetic validator fixtures only."},
+    {"id": "AC-CS-03", "requirement": "Every affected P0-008 statement/case-scope allocation component is audited from required content through validator expectation."},
+    {"id": "AC-CS-04", "requirement": "Root cause, instruction-set satisfiability, terminology fallback interaction, renderer fault, and validator fault are each explicitly classified from evidence."},
+    {"id": "AC-CS-05", "requirement": "The affected universe contains no hidden related contradiction left unaudited."},
+    {"id": "AC-CS-06", "requirement": "Any remediation is the smallest general contract/allocation change and contains no P0-008-specific branch."},
+    {"id": "AC-CS-07", "requirement": "Frozen Pilot #2, retry, validator, renderer, claim, fallback, gloss, lexicon, and historical artifacts have zero byte drift."},
+    {"id": "AC-CS-08", "requirement": "Generation, rendering, retrieval, Qdrant writes, corpus-wide reads, regeneration, and retry execution remain zero."}
+  ],
+  "go_rule": "CLOSED_GO requires every acceptance condition to pass; otherwise CLOSED_NO_GO.",
+  "prohibitions": [
+    "no regeneration or retry",
+    "no draft creation or rendering",
+    "no retrieval, Qdrant writes, or corpus-wide reads",
+    "no validator, renderer, claim, fallback, gloss, or lexicon change",
+    "no frozen historical artifact mutation"
+  ]
+}

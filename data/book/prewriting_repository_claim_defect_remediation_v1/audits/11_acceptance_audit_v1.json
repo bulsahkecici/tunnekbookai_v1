@@ -1,0 +1,14 @@
+{
+  "admitted_claims": 0,
+  "claim_state_counts": {
+    "ANCHOR_AMBIGUOUS": 12,
+    "AUTHORITY_INSUFFICIENT": 452,
+    "PROVENANCE_BLOCKED": 113,
+    "SCOPE_INSUFFICIENT": 25
+  },
+  "false_accepts": 0,
+  "false_rejects": 0,
+  "passed": true,
+  "schema_version": "1.0.0",
+  "true_external_evidence_requirements": 0
+}

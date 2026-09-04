@@ -1,0 +1,35 @@
+{
+  "count": 5,
+  "blockers": [
+    {
+      "blocker_id": "PWB-001",
+      "area": "evidence",
+      "finding": "No claim-level validated primary evidence is admitted; coverage is 28 WEAK and 32 UNOBSERVED.",
+      "remediation_route": "versioned evidence admission and coverage remediation"
+    },
+    {
+      "blocker_id": "PWB-002",
+      "area": "human decisions",
+      "finding": "Seven scope boundaries and chapter/section responsibility or hierarchy decisions remain unresolved.",
+      "remediation_route": "human decision closure"
+    },
+    {
+      "blocker_id": "PWB-003",
+      "area": "cost analysis",
+      "finding": "Cost dataset provenance, base year, conversions and derived-metric methodology are not evidence-ready.",
+      "remediation_route": "versioned cost-methodology readiness closure"
+    },
+    {
+      "blocker_id": "PWB-004",
+      "area": "freshness",
+      "finding": "Historical/current/statistical claims have no completed freshness review.",
+      "remediation_route": "versioned freshness and evidence-admission review"
+    },
+    {
+      "blocker_id": "PWB-005",
+      "area": "non-text assets",
+      "finding": "Asset plans exist, but evidence availability and rights status have not been validated.",
+      "remediation_route": "versioned asset evidence and rights review"
+    }
+  ]
+}

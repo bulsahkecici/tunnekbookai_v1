@@ -1,0 +1,25 @@
+{
+  "expected_false_accepts": 0,
+  "expected_false_rejects": 0,
+  "negative": [
+    "same_title_different_author_accept",
+    "secondary_index_promotes_authority",
+    "advisor_conflict_ignored",
+    "source_type_implies_authority",
+    "missing_repository_forced_resolve",
+    "technical_content_import",
+    "support_status_change",
+    "admission_change",
+    "claim_rewrite",
+    "book_prose_generation"
+  ],
+  "positive": [
+    "exact_publisher_title_author_date_match",
+    "exact_institutional_catalog_title_author_year_match",
+    "publisher_and_institutional_corroboration",
+    "missing_doi_recorded_not_invented",
+    "conflict_retains_unknown",
+    "claim_relative_promotion_without_support_change"
+  ],
+  "schema_version": "1.0.0"
+}

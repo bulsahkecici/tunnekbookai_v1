@@ -1,0 +1,373 @@
+{
+  "all_pass": true,
+  "code_mismatches": [],
+  "false_accepts": [],
+  "false_rejects": [],
+  "language_false_accepts": [],
+  "language_false_rejects": [],
+  "language_passed": 0,
+  "language_total": 0,
+  "negative": 6,
+  "passed": 26,
+  "positive": 20,
+  "rows": [
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-B1",
+      "category": "meaning_realised_canonical_unit",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-B2",
+      "category": "meaning_realised_scope_unit",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [
+        "QUALIFIER_DROPPED"
+      ],
+      "actual_valid": false,
+      "case_id": "QV-E1",
+      "category": "c002_historical_bad_form",
+      "detail": [
+        "SEC-02-2-C-002 carries the qualifier \"Tablo-351-5 kalite kontrol kriterleridir; dayanım sınıfının kendisi değil, kabul kriteridir\"; only 3 of 9 of its anchors survive into the paragraph",
+        "SEC-02-2-C-002 may be stated only with its qualifier_preservation qualifier: Tablo-351-5 provides 28-day core-sample acceptance criteria for C25/30 shotcrete. No marker of that meaning (['kabul kriter', 'kabul ölçüt', 'kabul şart', 'kabul koşul', 'kalite kontrol', 'kabul deney', 'acceptance criteri', 'acceptance test']) survives into the paragraph"
+      ],
+      "expected_failure_codes": [
+        "QUALIFIER_DROPPED"
+      ],
+      "expected_valid": false,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "negative"
+    },
+    {
+      "actual_failure_codes": [
+        "UNSUPPORTED_PROPOSITION",
+        "SEMANTIC_SCOPE_MISMATCH"
+      ],
+      "actual_valid": false,
+      "case_id": "QV-E2",
+      "category": "c002_forbidden_attribution",
+      "detail": [
+        "content words ['basınç', 'dur', 'sağlanır'] are licensed by none of the declared claims ['SEC-02-2-C-002']",
+        "SEC-02-2-C-002 is drafted so as to assert the forbidden meaning: Tablo-351-5 establishes or defines the minimum C25/30 strength class. The clause \"tablo-351-5'e göre püskürtme betonun basınç dayanım sınıfı c25/30'dur\" attributes the requirement itself to the reference"
+      ],
+      "expected_failure_codes": [
+        "SEMANTIC_SCOPE_MISMATCH"
+      ],
+      "expected_valid": false,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "negative"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-F1",
+      "category": "c002_two_bound_units_identity",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-F2",
+      "category": "c002_two_bound_units_numeric",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-F3",
+      "category": "c002_single_unit_combined",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-H-U-A-P01-S01",
+      "category": "unrelated_unit_not_newly_rejected",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-H-U-B-P01-S01",
+      "category": "unrelated_unit_not_newly_rejected",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-H-U-B-P01-S02",
+      "category": "unrelated_unit_not_newly_rejected",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-H-U-B-P01-S03",
+      "category": "unrelated_unit_not_newly_rejected",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-H-U-B-P01-S04",
+      "category": "unrelated_unit_not_newly_rejected",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-H-U-B-P01-S05",
+      "category": "unrelated_unit_not_newly_rejected",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-H-U-C-P01-S01",
+      "category": "unrelated_unit_not_newly_rejected",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-H-U-C-P01-S03",
+      "category": "unrelated_unit_not_newly_rejected",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-H-U-C-P01-S04",
+      "category": "unrelated_unit_not_newly_rejected",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-H-U-C-P01-S05",
+      "category": "unrelated_unit_not_newly_rejected",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-H-U-C-P01-S06",
+      "category": "unrelated_unit_not_newly_rejected",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-H-U-D-P01-S01",
+      "category": "unrelated_unit_not_newly_rejected",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-H-U-D-P01-S02",
+      "category": "unrelated_unit_not_newly_rejected",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "draft",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [
+        "QUALIFIER_DROPPED"
+      ],
+      "actual_valid": false,
+      "case_id": "QV-A",
+      "category": "df_01_historical_false_pass",
+      "detail": [
+        "SEC-02-2-C-009 carries the registered qualifier \"§351.08.10.02 kil zonlu tabakalara özgüdür; genel ilk katman kalınlığı değildir\"; its required meaning (The 100-150 mm first-layer figure is specific to application on clay-zone layers and is not a general first-layer thickness rule.) is realised by no clause in the paragraph. None of ['SCOPE_EXCLUSIVITY', 'EXPLICIT_NON_GENERALITY'] is present. Lexical overlap with the claim's own vocabulary does not discharge it"
+      ],
+      "expected_failure_codes": [
+        "QUALIFIER_DROPPED"
+      ],
+      "expected_valid": false,
+      "fixture_scope": "qualifier",
+      "outcome": "PASS",
+      "polarity": "negative"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-B3",
+      "category": "meaning_realised_exclusivity_only",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "qualifier",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [],
+      "actual_valid": true,
+      "case_id": "QV-B4",
+      "category": "meaning_realised_non_generality_only",
+      "detail": [],
+      "expected_failure_codes": [],
+      "expected_valid": true,
+      "fixture_scope": "qualifier",
+      "outcome": "PASS",
+      "polarity": "positive"
+    },
+    {
+      "actual_failure_codes": [
+        "QUALIFIER_DROPPED"
+      ],
+      "actual_valid": false,
+      "case_id": "QV-C",
+      "category": "canonical_alone",
+      "detail": [
+        "SEC-02-2-C-009 carries the registered qualifier \"§351.08.10.02 kil zonlu tabakalara özgüdür; genel ilk katman kalınlığı değildir\"; its required meaning (The 100-150 mm first-layer figure is specific to application on clay-zone layers and is not a general first-layer thickness rule.) is realised by no clause in the paragraph. None of ['SCOPE_EXCLUSIVITY', 'EXPLICIT_NON_GENERALITY'] is present. Lexical overlap with the claim's own vocabulary does not discharge it"
+      ],
+      "expected_failure_codes": [
+        "QUALIFIER_DROPPED"
+      ],
+      "expected_valid": false,
+      "fixture_scope": "qualifier",
+      "outcome": "PASS",
+      "polarity": "negative"
+    },
+    {
+      "actual_failure_codes": [
+        "QUALIFIER_DROPPED"
+      ],
+      "actual_valid": false,
+      "case_id": "QV-D1",
+      "category": "lexical_padding",
+      "detail": [
+        "SEC-02-2-C-009 carries the registered qualifier \"§351.08.10.02 kil zonlu tabakalara özgüdür; genel ilk katman kalınlığı değildir\"; its required meaning (The 100-150 mm first-layer figure is specific to application on clay-zone layers and is not a general first-layer thickness rule.) is realised by no clause in the paragraph. None of ['SCOPE_EXCLUSIVITY', 'EXPLICIT_NON_GENERALITY'] is present. Lexical overlap with the claim's own vocabulary does not discharge it"
+      ],
+      "expected_failure_codes": [
+        "QUALIFIER_DROPPED"
+      ],
+      "expected_valid": false,
+      "fixture_scope": "qualifier",
+      "outcome": "PASS",
+      "polarity": "negative"
+    },
+    {
+      "actual_failure_codes": [
+        "QUALIFIER_DROPPED",
+        "SEMANTIC_SCOPE_MISMATCH"
+      ],
+      "actual_valid": false,
+      "case_id": "QV-D2",
+      "category": "generalised_scope_asserted",
+      "detail": [
+        "SEC-02-2-C-009 carries the registered qualifier \"§351.08.10.02 kil zonlu tabakalara özgüdür; genel ilk katman kalınlığı değildir\"; its required meaning (The 100-150 mm first-layer figure is specific to application on clay-zone layers and is not a general first-layer thickness rule.) is realised by no clause in the paragraph. None of ['SCOPE_EXCLUSIVITY', 'EXPLICIT_NON_GENERALITY'] is present. Lexical overlap with the claim's own vocabulary does not discharge it",
+        "SEC-02-2-C-009 is drafted so as to state the generalised scope its qualifier denies. The clause \"genel olarak ilk püskürtme beton katmanı 100-150 mm kalınlığındadır\" matches GENERALISED_FIRST_LAYER"
+      ],
+      "expected_failure_codes": [
+        "QUALIFIER_DROPPED",
+        "SEMANTIC_SCOPE_MISMATCH"
+      ],
+      "expected_valid": false,
+      "fixture_scope": "qualifier",
+      "outcome": "PASS",
+      "polarity": "negative"
+    }
+  ],
+  "section_id": "SEC-02-2",
+  "total": 26,
+  "validator_version": "tunnelbook-section-draft-validator-v1.2",
+  "version": "tunnelbook-sec-02-2-qualifier-validation-tightening-v1"
+}

@@ -1,0 +1,65 @@
+{
+  "audits": [
+    {
+      "audit": "batch_4_scope",
+      "result": "PASS"
+    },
+    {
+      "audit": "external_source_quality",
+      "result": "PASS"
+    },
+    {
+      "audit": "identity_matching",
+      "result": "PASS"
+    },
+    {
+      "audit": "publication_version_matching",
+      "result": "PASS"
+    },
+    {
+      "audit": "course_deck_authority_separation",
+      "result": "PASS"
+    },
+    {
+      "audit": "conflict_handling",
+      "result": "PASS"
+    },
+    {
+      "audit": "authority_promotion",
+      "result": "PASS"
+    },
+    {
+      "audit": "claim_relative_suitability",
+      "result": "PASS"
+    },
+    {
+      "audit": "metadata_provenance",
+      "result": "PASS"
+    },
+    {
+      "audit": "no_technical_evidence_admission",
+      "result": "PASS"
+    },
+    {
+      "audit": "frozen_support_anchor_integrity",
+      "result": "PASS"
+    },
+    {
+      "audit": "no_prose_external_boundary",
+      "result": "PASS"
+    }
+  ],
+  "batch_1_regression": "PASS",
+  "batch_2_doc000072_regression": "PASS",
+  "batch_3_doc000165_conflict_regression": "PASS",
+  "claim_level_admissions": 0,
+  "deterministic_processing": "PASS",
+  "doc000214_anchor_history": "PASS",
+  "doc000215_anchor_history": "PASS",
+  "external_boundary": "PASS",
+  "false_accepts": 0,
+  "false_rejects": 0,
+  "frozen_input_integrity": "PASS",
+  "schema_version": "1.0.0",
+  "verified_support": 602
+}

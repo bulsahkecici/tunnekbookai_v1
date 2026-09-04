@@ -1,0 +1,45 @@
+{
+  "items": [
+    {
+      "authority_plan_dependency": "NONE_NO_EXISTING_CLAIMS",
+      "current_readiness": "ADDITIONAL_REPOSITORY_DISCOVERY_REQUIRED",
+      "metadata_only_answer_possible": false,
+      "required_next_action": "BOUNDED_DISCOVERY_OR_MAPPING_REVIEW_OUTSIDE_AUTHORITY_PROMOTION",
+      "research_question_id": "RQ-013-01",
+      "section_id": "CH-B-S02"
+    },
+    {
+      "authority_plan_dependency": "NONE_NO_EXISTING_CLAIMS",
+      "current_readiness": "ADDITIONAL_REPOSITORY_DISCOVERY_REQUIRED",
+      "metadata_only_answer_possible": false,
+      "required_next_action": "BOUNDED_DISCOVERY_OR_MAPPING_REVIEW_OUTSIDE_AUTHORITY_PROMOTION",
+      "research_question_id": "RQ-023-01",
+      "section_id": "CH-B-S12"
+    },
+    {
+      "authority_plan_dependency": "NONE_NO_EXISTING_CLAIMS",
+      "current_readiness": "ADDITIONAL_REPOSITORY_DISCOVERY_REQUIRED",
+      "metadata_only_answer_possible": false,
+      "required_next_action": "BOUNDED_DISCOVERY_OR_MAPPING_REVIEW_OUTSIDE_AUTHORITY_PROMOTION",
+      "research_question_id": "RQ-032-01",
+      "section_id": "CH-E-S02"
+    },
+    {
+      "authority_plan_dependency": "NONE_NO_EXISTING_CLAIMS",
+      "current_readiness": "UNRESOLVED",
+      "metadata_only_answer_possible": true,
+      "required_next_action": "BOUNDED_DISCOVERY_OR_MAPPING_REVIEW_OUTSIDE_AUTHORITY_PROMOTION",
+      "research_question_id": "RQ-035-01",
+      "section_id": "CH-E-S05"
+    },
+    {
+      "authority_plan_dependency": "NONE_NO_EXISTING_CLAIMS",
+      "current_readiness": "UNRESOLVED",
+      "metadata_only_answer_possible": false,
+      "required_next_action": "BOUNDED_DISCOVERY_OR_MAPPING_REVIEW_OUTSIDE_AUTHORITY_PROMOTION",
+      "research_question_id": "RQ-053-01",
+      "section_id": "CH-F-S03"
+    }
+  ],
+  "schema_version": "1.0.0"
+}

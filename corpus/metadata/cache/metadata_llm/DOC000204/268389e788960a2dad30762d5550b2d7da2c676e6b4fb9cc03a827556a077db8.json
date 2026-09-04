@@ -1,0 +1,51 @@
+{
+  "document_id": "DOC000204",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:02:03+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Tünelcilik ve Yeraltı Teknolojileri Dergisi Turkish Tunneling and Underground Technologies Magazine",
+      "value": "magazine"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "Tünelcilik ve Yeraltı Teknolojileri Dergisi Turkish Tunneling and Underground Technologies Magazine",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "www.tuneldergisi.com | Tünelcilik Derneği Adına İmtiyaz Sahibi",
+      "value": "Tünelcilik Derneği"
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "## ■ e ISSN 2148-1768 Üç ayda bir yayınlanır / Every other months Ekim - Kasım - Aralık / October - November - December 2019 Yıl / Year:5 Sayı / Nr: 33 Tünelcilik ve Yeraltı Teknolojileri Dergisi Turkish Tunneling and Underground Technologies Magazine [suggested_value_not_supported_by_evidence]",
+      "value": "TÜNEL SAYI-33"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "İZMİR'İN EN UZUN TÜNELİ İÇİN YENİ İHALE | THE ULTIMAT TUNNEL DRIVE... highly variable NBULBOGAZIK and abrasivegeology | ADROIT 450 H/W PÜSKÜRTME BETON POMPASI | MUMBAI METRO TERRATEC has supplied more TBMs",
+      "value": [
+        "contracts",
+        "geology",
+        "monitoring",
+        "shotcrete",
+        "tbm"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Ekim - Kasım - Aralık / October - November - December 2019",
+      "value": 2019
+    }
+  },
+  "source_sha256": "8ad9882f0d7ecc06121ef4bfd65613bc16a3e7dc7a5f456bf18708a5d2e134ed"
+}

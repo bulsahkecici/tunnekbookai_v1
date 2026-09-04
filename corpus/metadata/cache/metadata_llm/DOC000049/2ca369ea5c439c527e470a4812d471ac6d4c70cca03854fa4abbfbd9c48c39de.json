@@ -1,0 +1,56 @@
+{
+  "document_id": "DOC000049",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:53:40+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "ULAŞTIRMA DENİZCİLİK VE HABERLEŞME BAKANLIĞI Karayolları Genel Müdürlüğü [authority_A_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "inventory"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "Karayolları Genel Müdürlüğü",
+      "value": "Karayolları Genel Müdürlüğü"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "TÜNEL ENVANTER KİTABI",
+      "value": "TÜNEL ENVANTER KİTABI"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "drainage",
+        "fire_safety",
+        "inventory",
+        "maintenance",
+        "operations",
+        "portal",
+        "safety",
+        "standards",
+        "traffic",
+        "ventilation"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Ocak - 2015",
+      "value": 2015
+    }
+  },
+  "source_sha256": "5c229054fb8f53a306c097f128ec7004fbaf7d1a52bad4f5bc778f5e91888b54"
+}

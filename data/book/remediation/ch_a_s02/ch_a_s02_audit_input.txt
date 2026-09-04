@@ -1,0 +1,1373 @@
+===== DRAFT =====
+# Tünellerin Sınıflandırılması
+
+Tüneler, mühendislik projelendirmesinde geçtikleri ortamların özelliklerine ve kullanım amaçlarına göre farklı yaklaşımlarla tasarlanmaktadır. Kaynaklarda tüneler, temel olarak kullanım amacı, geçilen zemin cinsi, güzergah doğrultusu, enkesit şekli ve yapım yöntemi olmak üzere çeşitli ölçütlere göre sınıflandırılmaktadır.
+
+Kullanım amacına dayalı sınıflandırmada tüneler başlıca ulaşım, su iletim (hidroelektrik/derivasyon) ve kamu hizmeti/yardımcı tüneler olarak üç ana gruba ayrılır. Ulaşım tüneleri; demiryolu, karayolu ve yaya/takım geçişlerini sağlayan yapılardır. Su iletim tüneleri, büyük şehirlere su taşımak veya hidroelektrik santrallerinde cebri boru ve derivasyon işlevi görmek üzere inşa edilir; bu sınıfta su, basınçlı veya basınçsız olarak iletilebilmekte ve tünel kaplamaları iç basıncı karşılayacak şekilde tasarlanmaktadır. Kamu hizmeti ve yardımcı tüneler ise şehir atık suları, kanalizasyon, elektrik/gaz/telefon iletim boruları, yağ-su nakil hatları veya yoğun kentsel alanlarda yeraltı otopark ve stokaj amaçlı açılan yapılardır. Ayrıca maden galerileri, barınak/tapınaklar, radyoaktif veya çeşitli malzeme stokaj alanları, sivil ve askeri korunma amaçlı sığınaklar ile yeraltı fabrika/istasyon/santrali gibi özel amaçlı tüneler de kullanım amacına göre sınıflandırılmaktadır.
+
+Tünelin geçeceği zemin ve ortam koşulları, tünelin mühendislik yaklaşımını doğrudan belirler. Zemin cinsine göre tüneler; kaya zemin, yumuşak zemin, açık kazı (open cut), su altı/nehir yatağı altında ve hızlı kum (quicksand) ortamlarda açılan tüneler olarak sınıflandırılır. Kaya zeminlerde tünel açımı genellikle delme-patlatma yöntemi veya çeşitli delgi aygıtlarıyla gerçekleştirilirken, yumuşak zeminlerde kalkan, boru sürme, şemsiyeleme ve açık kazı yöntemleri tercih edilmektedir. Su altı tüneleri ise şantiyede üretilen elemanların suya batırılarak tabana oturtulması veya yüzer durumda inşa edilmesiyle yapılır. Yapılanma sırasında ortamın kazı süreçlerini ve açım çalışmalarını hiçbir önlem alınmaksızın karşılayabildiği, ancak sağlaştırma ve destekleme önlemleriyle karşılayabildiği veya ön iyileştirme olmaksızın karşılayamadığı durumlar, tünel tasarımında zemin sınıflandırmasının temelini oluşturur.
+
+Güzergah doğrultusuna göre tüneler; sedye ve taban, spiral, yan şube (off spur) ve eğimli tüneler olarak gruplandırılır. Enkesit şekli ise tünelin bulunduğu ulaşım yolunun cinsine ve zemin etkilerine göre değişmektedir. Kaya ortamlarda açılan tüneler genellikle dairesel kemer ve iki düşey yan duvardan oluşan enkesitle inşa edilir. Yumuşak zeminlerde açılan tüneler ise yatay basınçları karşılayacak şekilde tam daire veya nal şeklinde tercih edilmektedir. Dairesel enkesitli tüneler teorik olarak iç ve dış kuvvetleri en iyi karşılayan yapılar olup en küçük çevreyle en büyük enkesit alanına sahiptir; ancak yuvarlak döşemeleri ulaşım yolu için fazlaca dolgu gerektirir ve beton kaplama yapımı zordur. Tasarım mühendisleri ve yükleniciler tarafından daha çok nal şeklindeki enkesitler tercih edilmektedir; bu formun eğrisel kenarları ve tabanı kemer gibi çalışarak dış kuvvetleri daha iyi karşılar ve döşemesi ulaşım yolu için yeterince düz kalır. Yumurta şeklindeki enkesitler, şehir atık sularıyla taşkın debilerini geçiren birleşik kanalizasyon tünelerinde kullanılırken dar tabanları nedeniyle karayolu ve demiryolu tüneleri için uygun değildir. Dikdörtgen enkesitli tüneler ise kaplama zorluğu nedeniyle açık kazı ve su altı uygulamaları haricinde pek tercih edilmemektedir. Karayolu tünelerinde kullanılan profiller için genellikle dairesel formlar tercih edilmektedir.
+
+Risk analizi ve tehlikeli madde taşıma sınıflandırması, Avrupa Birliği üyesi devletler tarafından geliştirilen belirli metodolojiler (Avusturya TuRisMo, Hollanda QRA-tunnels, Fransız spesifik tehlike tanımlama, İtalyan yol tüneli risk analizi ve OECD/PIARC QRA modeli) çerçevesinde yürütülmektedir. Tehlikeli madde taşıyan araçların tünel geçişine ilişkin düzenlemeler belirlenmeden veya değiştirilmeden önce risk analizi yapılması gerekmektedir. ADR anlaşması uyarınca, tünelin karakteristikleri, alternatif güzergah ve taşıma modlarının uygunluğu ile trafik yönetimi dikkate alınarak tünel beş kategoriye (A, B, C, D ve E) ayrılır. Kategori A'da tehlikeli madde taşımacılığı için kısıtlama yoktur; B, C ve D kategorilerinde çok büyük patlama, büyük patlama, büyük toksik salınım veya büyük yangın riski taşıyan maddeler için kısıtlamalar getirilirken, E kategorisi tüm tehlikeli maddelerin taşınmasına (belirli UN numaraları hariç) kısıtlama getirir. Bu sınıflandırma, tünel içinde patlama, toksik gaz/yanıcı sıvı salınımı ve yangın olmak üzere üç büyük tehlikenin varlığı varsayımına dayanır. Risk değerlendirmesi için ağır vasıta taşıtı yangını, LPG BLEVE'si, motor yakıt havuzu yangını/VCE, klor/amonyak/akrolin salınımı ve karbondioksit BLEVE'si gibi senaryolar QRAM yazılımı kullanılarak tünel kategorilendirmesinde değerlendirilmektedir.
+
+---
+Section ID: CH-A-S02
+Status: LOCAL_WRITER_COMPLETE
+Evidence limitations: Belirli bir iddia, detayların 1.4 numaralı harici bir bölüme atıfta bulunduğunu belirtmektedir; mevcut metin yalnızca bu yönlendirmeyi içermektedir. Tünel tasarımının çevresel karakteristiklere ve koşullara bağlı olduğu belirtilmiş olup bu durum sınıflandırma temelli mühendislik yaklaşımları için temel niteliktedir ancak spesifik sınıflandırma kriterlerinin ötesinde geniş bir kapsam taşımaktadır.
+---
+
+===== END DRAFT =====
+
+===== EVIDENCE PACKET =====
+{
+  "section_id": "CH-A-S02",
+  "section_title": "Tünellerin Sınıflandırılması",
+  "section_scope": "Tünellerin Sınıflandırılması",
+  "scope_exclusions": [
+    "tünellerin tarihçesi",
+    "ilk tüneller",
+    "NATM uygulama ayrıntıları",
+    "TBM çalışma ayrıntıları",
+    "kazı prosedürleri",
+    "destek tasarımı ayrıntıları",
+    "maliyet hesapları",
+    "bakım",
+    "yangın",
+    "havalandırma",
+    "kazalar"
+  ],
+  "research_question": "Tüneller hangi temel ölçütlere göre sınıflandırılmaktadır ve kaynaklarda hangi tünel sınıfları tanımlanmaktadır?",
+  "readiness": "READY",
+  "admitted_claims": [
+    {
+      "claim_id": "CH-A-S02-REM-001",
+      "claim_text": "Tunnels on the basis of their purpose can be classified into following three chief classes: Traffic tunnels, Hydropower tunnels, Public utility Tunnel.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-002",
+      "claim_text": "The railway tunnels, the highway tunnels, and the pedestrian tunnels all are types of traffic tunnels.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-003",
+      "claim_text": "Hydropower Tunnel... these tunnels are excavated for hydropower generation. They are driven through rocks carrying the water under gravity.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-004",
+      "claim_text": "Public Utility Tunnel... These specific purpose tunnels excavated for disposal of urban waste, for carrying pipes, cables, and supplies of oil, also water, etc. Nowadays, they also excavated for underground parking and storage in densely populated cosmopolitan cities.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-005",
+      "claim_text": "Based on the purpose of the tunnel : 1. Traffic tunnels 2. Conveyance tunnels",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-006",
+      "claim_text": "Based on the type of material for the construction of the tunnel : 1. Tunnel in hard rock. 2. Tunnel in soft rock. 3. Open cut tunnel. 4. The tunnel underneath the river bed or submarine tunnel. 5. Tunnel in quicksand.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-007",
+      "claim_text": "Based on the alignment of the tunnel : 1. Saddle and base tunnel. 2. Spiral tunnel. 3. Off spur tunnel. 4. Slope tunnel.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-008",
+      "claim_text": "Based on the shape of the tunnel : 1. Circular tunnel. 2. Egg-shaped tunnel. 3. Horseshoe tunnel. 4. Elliptical tunnel. 5. Vertical walls with arch roof type. 6. Polycentric.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-009",
+      "claim_text": "Tünelerin enkesit tipleri, bulundukları ulaşım yolunun cinsine ve zemininden gelecek etkilere göre değişmektedir.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-010",
+      "claim_text": "Kaya zeminlerde açılan tüneler genellikle bir dairesel kemer ve iki düşey yan duvardan oluşan enkesitle inşa edilmektedir.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-011",
+      "claim_text": "Yumuşak zeminlerde açılan tüneler yatay basınçları karşılayacak enkesitlere sahip olmalıdır.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-012",
+      "claim_text": "Yumuşak zeminlerde açılan tünel enkesitleri tam daire veya nal şeklinde tercih edilmektedir.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-013",
+      "claim_text": "Dairesel enkesitli tüneler teorik olarak iç ve dış kuvvetleri en iyi karşılayan tünelerdir.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-014",
+      "claim_text": "Dairesel enkesitli tüneler en küçük çevreyle en büyük enkesite sahiptir.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-015",
+      "claim_text": "Dairesel enkesitli tünelerin yuvarlak döşemeleri ulaşım yolu için fazlaca dolgu gerektirir.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-016",
+      "claim_text": "Dairesel enkesitli tünelerin beton kaplama yapımı zordur.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-017",
+      "claim_text": "Nal şeklindeki enkesit, tasarım mühendisi ve yüklenici tarafından diğerlerine göre daha fazla tercih edilmektedir.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-018",
+      "claim_text": "Nal şeklindeki enkesitli tünelin döşemesi ulaşım yolu için yeteri kadar düzdür.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-019",
+      "claim_text": "Nal şeklindeki enkesitli tünelin eğrisel kenarları ve tabanı kemer gibi çalışarak dış kuvvetleri daha iyi karşılar.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-020",
+      "claim_text": "Yumurta şeklindeki enkesitler şehir atık sularıyla taşkın debilerini geçiren birleşik kanalizasyon tünelerinde kullanılır.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-021",
+      "claim_text": "Yumurta şeklindeki enkesitlerin dar tabanları nedeniyle karayolu ve demiryolu tüneleri için uygun değildir.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-022",
+      "claim_text": "Dikdörtgen enkesitli tüneler (aç-kapa ve su altı hariç) kaplama zorluğu nedeniyle pek tercih edilmemektedir.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-023",
+      "claim_text": "Tüneler işlevlerine göre barınak/tapınak, ulaşım, maden galerisi, su iletim, kanalizasyon/kamu hizmeti, stokaj, korunma amaçlı ve özel tüneler olarak sınıflandırılır.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-024",
+      "claim_text": "Maden galerileri yeraltındaki maden cevherini yeryüzüne çıkarmak amacıyla açılır.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-025",
+      "claim_text": "Su iletim tüneleri büyük şehirlere su ulaştırmak için inşa edilir.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-026",
+      "claim_text": "Hidroelektrik santrallerdeki cebri borular ve derivasyon tüneleri su iletim tüneleri sınıfına girer.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-027",
+      "claim_text": "Su iletim tünelerinde sular basınçlı veya basınçsız olarak iletilebilir.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-028",
+      "claim_text": "Su iletim tünelerinin kaplamaları iç basınçları da karşılamalıdır.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-029",
+      "claim_text": "Kanalizasyon tüneleri genellikle cazibeli akışa sahiptir.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-030",
+      "claim_text": "Hizmet tüneleri elektrik, gaz ve telefon gibi iletim borularını barındırarak arızaya ulaşmayı kolaylaştırmak için inşa edilir.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-031",
+      "claim_text": "Stokaj tüneleri çeşitli malzemelerin, atıkların ve radyoaktif maddelerin stok edilmesi için kullanılır.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-032",
+      "claim_text": "Korunma amaçlı tüneler savaş tehlikesine karşı sivil halkı ve askeri üsleri korumak için kullanılır.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-033",
+      "claim_text": "Özel tüneler yeraltı fabrikaları, istasyonları ve santralleri gibi yapılar olarak inşa edilir.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-034",
+      "claim_text": "Tunnels can, on the bases of with there function, be categorized into the following three major classes: Traffic Tunnels, Hydropower Tunnels, and Public Utility Tunnels.",
+      "qualifier": "on the bases of with there function",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000025",
+      "locator": "pages:1-25",
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-035",
+      "claim_text": "Yapım şekline göre tüneler kaya zemin tüneleri, yumuşak zemin tüneleri ve su altı tüneleri şeklinde sınıflandırılmaktadır.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "9 Yapım Şekline Göre Sınıflandırma",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-036",
+      "claim_text": "Kaya zeminlerde inşa edilen tünelerde genellikle delme-patlatma yöntemi veya değişik tipteki delgi aygıtları kullanılmaktadır.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "9 Yapım Şekline Göre Sınıflandırma",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-037",
+      "claim_text": "Yumuşak zeminlerde inşa edilecek tünelerin inşasında kalkan, boru sürme, şemsiyeleme ve aç-kapa yöntemleri kullanılmaktadır.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "9 Yapım Şekline Göre Sınıflandırma",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-038",
+      "claim_text": "Su altı tüneleri şantiyede üretilen tünel elemanlarının suya batırılıp tabana oturtulması veya yüzer durumda inşa edilmesi suretiyle yapılmaktadır.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000072",
+      "locator": "9 Yapım Şekline Göre Sınıflandırma",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-039",
+      "claim_text": "Yapım şekline göre tünelerin sınıflandırmasına ilişkin bilgiler madde 1.4’te “Güzergah Zeminine Göre Tünel İnşası” başlığı altında verilmiştir.",
+      "qualifier": "",
+      "disposition": "ADMITTED_LIMITED",
+      "document_id": "DOC000072",
+      "locator": "9 Yapım Şekline Göre Sınıflandırma",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-040",
+      "claim_text": "Ortamın kazı süreçlerini ve açım çalışmalarını hiçbir önlem alınmaksızın karşılayabilir durumu vardır.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000132",
+      "locator": "pages:26-50",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-041",
+      "claim_text": "Ortamın kazı süreçlerini ve açım çalışmalarını ancak sağlaştırma ve destekleme önlemlerinin alınması halinde karşılayabilir durumu vardır.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000132",
+      "locator": "pages:26-50",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-042",
+      "claim_text": "Ortamın kazı süreçlerini ve açım çalışmalarını ön iyileştirme ve/veya sağlaştırma olmaksızın karşılayamaz durumu vardır.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000132",
+      "locator": "pages:26-50",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-043",
+      "claim_text": "Tüneller geçilen ortamların özellik, nitelik ve koşullarına göre farklı mühendislik yaklaşımlarına göre projelendirilirler.",
+      "qualifier": "",
+      "disposition": "ADMITTED_LIMITED",
+      "document_id": "DOC000132",
+      "locator": "pages:26-50",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-044",
+      "claim_text": "Tunnels are classified based on the purpose of the tunnel, which includes traffic tunnels and conveyance tunnels.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000025",
+      "locator": "pages:1-25",
+      "section_applicability": "CH-A-S02 — Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-045",
+      "claim_text": "Tunnels are classified based on the type of material for the construction of the tunnel, which includes tunnels in hard rock, tunnels in soft rock, open cut tunnels, tunnels underneath the river bed or submarine tunnels, and tunnels in quicksand.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000025",
+      "locator": "pages:1-25",
+      "section_applicability": "CH-A-S02 — Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-046",
+      "claim_text": "Tunnels are classified based on the alignment of the tunnel, which includes saddle and base tunnels, spiral tunnels, off spur tunnels, and slope tunnels.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000025",
+      "locator": "pages:1-25",
+      "section_applicability": "CH-A-S02 — Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-047",
+      "claim_text": "Tunnels are classified based on the shape of the tunnel, which includes circular tunnels, egg-shaped tunnels, horseshoe tunnels, elliptical tunnels, vertical walls with arch roof type tunnels, and polycentric tunnels.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000025",
+      "locator": "pages:1-25",
+      "section_applicability": "CH-A-S02 — Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-048",
+      "claim_text": "Tünellere ilişkin enkesit tipleri, bulundukları ulaşım yolunun cinsine ve bu yol zemininden gelecek etkilere göre değişmektedir.",
+      "qualifier": "ulaşım yolunun cinsine ve zemin etkilerine göre",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000124",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-049",
+      "claim_text": "Kaya ortamlarda açılan tünelerler genellikle enkesitleri dairesel kemer ve iki düşey yan duvardan oluşacak şekilde inşa edilmektedir.",
+      "qualifier": "kaya ortamlarda",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000124",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-050",
+      "claim_text": "Yumuşak zeminlerde açılan tünelerler, yatay basınçları karşılayacak enkesitlere sahip olması gerekmektedir.",
+      "qualifier": "yumuşak zeminlerde, yatay basınçları karşılayacak şekilde",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000124",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-051",
+      "claim_text": "Yumuşak zeminlerde açılan tünel enkesitlerinin tam daire veya nal şeklinde olması tercih edilmektedir.",
+      "qualifier": "tam daire veya nal şeklinde tercih edilen",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000124",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-052",
+      "claim_text": "Dairesel enkesitli tünelerler teorik olarak iç ve dış kuvvetleri en iyi karşılayan tünelerlerdir.",
+      "qualifier": "teorik olarak iç ve dış kuvvetleri en iyi karşılayan",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000124",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-053",
+      "claim_text": "Tasarım mühendisleri ve yüklenici tarafından nal şeklindeki enkesitler daha çok tercih edilmektedir.",
+      "qualifier": "tasarım mühendisleri ve yüklenici tarafından tercih edilen",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000124",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-054",
+      "claim_text": "Yumurta şeklindeki enkesitler, şehir atık sularıyla taşkın debilerini geçiren birleşik kanalizasyon tünelerlerinde kullanılan enkesitlerdir.",
+      "qualifier": "birleşik kanalizasyon tünelerlerinde kullanılan",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000124",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-055",
+      "claim_text": "Dikdörtgen enkesitli tünelerler, aç-kapa ve su altı tünelerleri haricinde uygulanmamaktadırlar.",
+      "qualifier": "aç-kapa ve su altı tünelerleri haricinde uygulanmayan",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000124",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-056",
+      "claim_text": "Karayolu tünelerlerinde kullanılan tünel profilleri için genellikle dairesel formlar tercih edilmektedir.",
+      "qualifier": "karayolu tünelerlerinde kullanılan profiller için tercih edilen",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000124",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-057",
+      "claim_text": "Yapım şekline göre tünelerler; kaya ortamlarda açılan, zeminlerde açılan ve su altıda yapılanlar şeklinde sınıflandırılabilmektedir.",
+      "qualifier": "yapım şekli baz alınarak sınıflandırılan",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000124",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-058",
+      "claim_text": "Tünelerlerin ana kullanım amaçlarına göre sınıflandırılması; motorlu taşıt ulaşımı, metro ve demiryolu ulaşımı, su taşımak, barınak/tapınak, maden galerileri, kanalizasyon, kamu hizmetleri, stokaj, savunma, yaya-bisiklet geçişi, vahşi hayvan geçiği ve derivasyon amaçlı tünelerler olarak yapılabilmektedir.",
+      "qualifier": "ana kullanım amaçları baz alınarak sınıflandırılan",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000124",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-059",
+      "claim_text": "Immersed tunnels are classified into two main types based on fabrication method: steel and concrete.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000047",
+      "locator": "pages:351-375",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-060",
+      "claim_text": "Steel immersed tunnels are categorized into three sub-types: single shell, double shell, and sandwich.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000047",
+      "locator": "pages:351-375",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-061",
+      "claim_text": "Single shell steel tunnels are classified by an external structural shell plate that works compositely with interior reinforced concrete, without providing external concrete.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000047",
+      "locator": "pages:351-375",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-062",
+      "claim_text": "The Kennedy Tunnel in Antwerp is classified with Category D.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000075",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-063",
+      "claim_text": "The Zelzate Tunnel in East Flanders is classified with Category C.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000075",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-064",
+      "claim_text": "The Klimkovice Tunnel in the Czech Republic is classified with Category A.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000075",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-065",
+      "claim_text": "The Øresund link tunnels in Denmark are assigned Category B from 23:00 to 6:00 and Category E from 6:00 to 23:00.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000075",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-066",
+      "claim_text": "The Benelux Tunnel in the Netherlands is classified with Category C.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000075",
+      "locator": null,
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-067",
+      "claim_text": "Günümüzde kullanım amaçları dikkate alınarak tünellerin sınıflandırılması aşağıdaki gibi yapılabilir.",
+      "qualifier": "kullanım amaçları dikkate alınarak",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000098",
+      "locator": null,
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-068",
+      "claim_text": "Tüneler, ulaşım amacıyla açılan tüneler olarak sınıflandırılır.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000098",
+      "locator": null,
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-069",
+      "claim_text": "Tüneler, su tüneleri olarak sınıflandırılır.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000098",
+      "locator": null,
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-070",
+      "claim_text": "Tüneler, yeraltındaki boşluklara nüfuz etmek amacıyla açılan tüneler olarak sınıflandırılır.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000098",
+      "locator": null,
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-071",
+      "claim_text": "Tüneler, askeri amaçlı açılan tüneler olarak sınıflandırılır.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000098",
+      "locator": null,
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-072",
+      "claim_text": "Tüneler, sığınak olarak kullanmak üzere açılan tüneler olarak sınıflandırılır.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000098",
+      "locator": null,
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-073",
+      "claim_text": "Tüneler, nakil hatları (gaz nakilleri vb.) için açılan tüneler olarak sınıflandırılır.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000098",
+      "locator": null,
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-074",
+      "claim_text": "Tüneler, maden yataklarına erişmek için açılan tüneler olarak sınıflandırılır.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000098",
+      "locator": null,
+      "section_applicability": "CH-A-S02"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-075",
+      "claim_text": "Several risk analysis methodologies have been developed by the scientific community (Bubbico et al. 2009, Holicky et al. 2010, Nathanail et al. 2010, Shubert et al. 2012).",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-076",
+      "claim_text": "EU member states have developed specific methodologies for tunnel risk analysis based on the aforementioned scientific results.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-077",
+      "claim_text": "These methodologies include Austrian TuRisMo, Dutch QRA-tunnels, French specific hazard identification, Italian risk analysis for road tunnel, and OECD/PIARC QRA model.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-078",
+      "claim_text": "Almost all methodologies considering transportation of dangerous goods include the use of QRAM software.",
+      "qualifier": "Almost all",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-079",
+      "claim_text": "According to the Directive 54/2004/EC a risk analysis should be performed before the regulations and requirements regarding the transportation of dangerous goods through tunnel are defined or modified (Art. 13).",
+      "qualifier": "According to the Directive 54/2004/EC",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-080",
+      "claim_text": "According to the ADR agreement in order to assign the tunnel to one of the five categories (A, B, C, D and E) account should be taken of the tunnel characteristics, risk assessment including availability and suiability of alternative routes and modes and traffic management consideration.",
+      "qualifier": "According to the ADR agreement",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-081",
+      "claim_text": "Tunnel category A : no restrictions for the transport of dangerous goods.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-082",
+      "claim_text": "Tunnel category B : restrictions for dangerous goods which may lead to a very large explosion.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-083",
+      "claim_text": "Tunnel category C : restrictions for dangerous goods which may lead to a very large explosion, a large explosion or a large toxic release.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-084",
+      "claim_text": "Tunnel category D : restrictions for dangerous goods which may lead to a very large explosion, a large explosion or a large toxic release or a large fire.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-085",
+      "claim_text": "Tunnel category E : restrictions for all dangerous goods other than UN numbers 2919, 3291, 3331, 3359 and 3373.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-086",
+      "claim_text": "The categorization should be based on the assumtion that in tunnels there are three major dangers which may cause numerous victims or serious damage to the tunnel structure. These dangers include explosion, release of toxic gas or volatile toxic liquid and fires.",
+      "qualifier": "The categorization should be based on the assumtion that",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-087",
+      "claim_text": "The use of QRAM software for conducting tunnel categorization according ADR agreement can be made by assigned the proper scenarios to each tunnel category.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-088",
+      "claim_text": "The document lists 13 selected scenarios for risk assessment including HGV fire (20MW, 100MW), BLEVE of LPG in cylinder/bulk, motor spirit pool fire/VCE (28 tonnes, 100mm breach), chlorine release (20 tonnes, 50mm breach), ammonia release (20 tonnes, 50mm breach), acrolein in bulk/cylinder release, and BLEVE of carbon dioxide in bulk (20 tonnes).",
+      "qualifier": "Main characteristics of the 13 selected scenarios",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünellerin Sınıflandırılması"
+    }
+  ],
+  "citation_mapping": [
+    {
+      "claim_id": "CH-A-S02-REM-001",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/Tunnel_ 3 Types and Classification of Tunnel and Purposes.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-002",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/Tunnel_ 3 Types and Classification of Tunnel and Purposes.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-003",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/Tunnel_ 3 Types and Classification of Tunnel and Purposes.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-004",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/Tunnel_ 3 Types and Classification of Tunnel and Purposes.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-005",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/Tunnel_ 3 Types and Classification of Tunnel and Purposes.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-006",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/Tunnel_ 3 Types and Classification of Tunnel and Purposes.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-007",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/Tunnel_ 3 Types and Classification of Tunnel and Purposes.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-008",
+      "document_id": "DOC000022",
+      "locator": "pages:1-8",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/Tunnel_ 3 Types and Classification of Tunnel and Purposes.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-009",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-010",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-011",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-012",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-013",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-014",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-015",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-016",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-017",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-018",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-019",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-020",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-021",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-022",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-023",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-024",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-025",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-026",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-027",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-028",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-029",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-030",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-031",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-032",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-033",
+      "document_id": "DOC000072",
+      "locator": "7 Enkesitlerine Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-034",
+      "document_id": "DOC000025",
+      "locator": "pages:1-25",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/What Is Tunel _ Types of Tunnels _ What Are Tunnels Used for _ Classification of Tunnel _ How Are Tunnels Built _Advantages of Tunnels _ Disadvantages of Tunnels.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-035",
+      "document_id": "DOC000072",
+      "locator": "9 Yapım Şekline Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-036",
+      "document_id": "DOC000072",
+      "locator": "9 Yapım Şekline Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-037",
+      "document_id": "DOC000072",
+      "locator": "9 Yapım Şekline Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-038",
+      "document_id": "DOC000072",
+      "locator": "9 Yapım Şekline Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-039",
+      "document_id": "DOC000072",
+      "locator": "9 Yapım Şekline Göre Sınıflandırma",
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-040",
+      "document_id": "DOC000132",
+      "locator": "pages:26-50",
+      "source_relative_path": "Mehmet/Literatur/YTMK Tunelcilik Semineri/2013/Prof Mahir Vardar.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-041",
+      "document_id": "DOC000132",
+      "locator": "pages:26-50",
+      "source_relative_path": "Mehmet/Literatur/YTMK Tunelcilik Semineri/2013/Prof Mahir Vardar.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-042",
+      "document_id": "DOC000132",
+      "locator": "pages:26-50",
+      "source_relative_path": "Mehmet/Literatur/YTMK Tunelcilik Semineri/2013/Prof Mahir Vardar.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-043",
+      "document_id": "DOC000132",
+      "locator": "pages:26-50",
+      "source_relative_path": "Mehmet/Literatur/YTMK Tunelcilik Semineri/2013/Prof Mahir Vardar.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-044",
+      "document_id": "DOC000025",
+      "locator": "pages:1-25",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/What Is Tunel _ Types of Tunnels _ What Are Tunnels Used for _ Classification of Tunnel _ How Are Tunnels Built _Advantages of Tunnels _ Disadvantages of Tunnels.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-045",
+      "document_id": "DOC000025",
+      "locator": "pages:1-25",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/What Is Tunel _ Types of Tunnels _ What Are Tunnels Used for _ Classification of Tunnel _ How Are Tunnels Built _Advantages of Tunnels _ Disadvantages of Tunnels.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-046",
+      "document_id": "DOC000025",
+      "locator": "pages:1-25",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/What Is Tunel _ Types of Tunnels _ What Are Tunnels Used for _ Classification of Tunnel _ How Are Tunnels Built _Advantages of Tunnels _ Disadvantages of Tunnels.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-047",
+      "document_id": "DOC000025",
+      "locator": "pages:1-25",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/What Is Tunel _ Types of Tunnels _ What Are Tunnels Used for _ Classification of Tunnel _ How Are Tunnels Built _Advantages of Tunnels _ Disadvantages of Tunnels.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-048",
+      "document_id": "DOC000124",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-049",
+      "document_id": "DOC000124",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-050",
+      "document_id": "DOC000124",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-051",
+      "document_id": "DOC000124",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-052",
+      "document_id": "DOC000124",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-053",
+      "document_id": "DOC000124",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-054",
+      "document_id": "DOC000124",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-055",
+      "document_id": "DOC000124",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-056",
+      "document_id": "DOC000124",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-057",
+      "document_id": "DOC000124",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-058",
+      "document_id": "DOC000124",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-059",
+      "document_id": "DOC000047",
+      "locator": "pages:351-375",
+      "source_relative_path": "Literatür ve Araştırmalar/tunnel_manual_FHWA.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-060",
+      "document_id": "DOC000047",
+      "locator": "pages:351-375",
+      "source_relative_path": "Literatür ve Araştırmalar/tunnel_manual_FHWA.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-061",
+      "document_id": "DOC000047",
+      "locator": "pages:351-375",
+      "source_relative_path": "Literatür ve Araştırmalar/tunnel_manual_FHWA.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-062",
+      "document_id": "DOC000075",
+      "locator": null,
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/Tünel Eğitim Kitabı 8 EYLÜL 2016.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-063",
+      "document_id": "DOC000075",
+      "locator": null,
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/Tünel Eğitim Kitabı 8 EYLÜL 2016.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-064",
+      "document_id": "DOC000075",
+      "locator": null,
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/Tünel Eğitim Kitabı 8 EYLÜL 2016.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-065",
+      "document_id": "DOC000075",
+      "locator": null,
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/Tünel Eğitim Kitabı 8 EYLÜL 2016.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-066",
+      "document_id": "DOC000075",
+      "locator": null,
+      "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/Tünel Eğitim Kitabı 8 EYLÜL 2016.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-067",
+      "document_id": "DOC000098",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/Harran Uni_Yüksek Lisans Tezi.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-068",
+      "document_id": "DOC000098",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/Harran Uni_Yüksek Lisans Tezi.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-069",
+      "document_id": "DOC000098",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/Harran Uni_Yüksek Lisans Tezi.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-070",
+      "document_id": "DOC000098",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/Harran Uni_Yüksek Lisans Tezi.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-071",
+      "document_id": "DOC000098",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/Harran Uni_Yüksek Lisans Tezi.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-072",
+      "document_id": "DOC000098",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/Harran Uni_Yüksek Lisans Tezi.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-073",
+      "document_id": "DOC000098",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/Harran Uni_Yüksek Lisans Tezi.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-074",
+      "document_id": "DOC000098",
+      "locator": null,
+      "source_relative_path": "Mehmet/Literatur/Wordler/Harran Uni_Yüksek Lisans Tezi.docx"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-075",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "source_relative_path": "TAIEX Karayolu Tünellerinin Sınıflandırılması Eğitimi 16-19 Mart 2015/ADR TAIEX Eğitim Dokümanı.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-076",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "source_relative_path": "TAIEX Karayolu Tünellerinin Sınıflandırılması Eğitimi 16-19 Mart 2015/ADR TAIEX Eğitim Dokümanı.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-077",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "source_relative_path": "TAIEX Karayolu Tünellerinin Sınıflandırılması Eğitimi 16-19 Mart 2015/ADR TAIEX Eğitim Dokümanı.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-078",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "source_relative_path": "TAIEX Karayolu Tünellerinin Sınıflandırılması Eğitimi 16-19 Mart 2015/ADR TAIEX Eğitim Dokümanı.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-079",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "source_relative_path": "TAIEX Karayolu Tünellerinin Sınıflandırılması Eğitimi 16-19 Mart 2015/ADR TAIEX Eğitim Dokümanı.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-080",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "source_relative_path": "TAIEX Karayolu Tünellerinin Sınıflandırılması Eğitimi 16-19 Mart 2015/ADR TAIEX Eğitim Dokümanı.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-081",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "source_relative_path": "TAIEX Karayolu Tünellerinin Sınıflandırılması Eğitimi 16-19 Mart 2015/ADR TAIEX Eğitim Dokümanı.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-082",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "source_relative_path": "TAIEX Karayolu Tünellerinin Sınıflandırılması Eğitimi 16-19 Mart 2015/ADR TAIEX Eğitim Dokümanı.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-083",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "source_relative_path": "TAIEX Karayolu Tünellerinin Sınıflandırılması Eğitimi 16-19 Mart 2015/ADR TAIEX Eğitim Dokümanı.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-084",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "source_relative_path": "TAIEX Karayolu Tünellerinin Sınıflandırılması Eğitimi 16-19 Mart 2015/ADR TAIEX Eğitim Dokümanı.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-085",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "source_relative_path": "TAIEX Karayolu Tünellerinin Sınıflandırılması Eğitimi 16-19 Mart 2015/ADR TAIEX Eğitim Dokümanı.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-086",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "source_relative_path": "TAIEX Karayolu Tünellerinin Sınıflandırılması Eğitimi 16-19 Mart 2015/ADR TAIEX Eğitim Dokümanı.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-087",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "source_relative_path": "TAIEX Karayolu Tünellerinin Sınıflandırılması Eğitimi 16-19 Mart 2015/ADR TAIEX Eğitim Dokümanı.pdf"
+    },
+    {
+      "claim_id": "CH-A-S02-REM-088",
+      "document_id": "DOC000168",
+      "locator": "pages:51-75",
+      "source_relative_path": "TAIEX Karayolu Tünellerinin Sınıflandırılması Eğitimi 16-19 Mart 2015/ADR TAIEX Eğitim Dokümanı.pdf"
+    }
+  ],
+  "evidence_limitations": [
+    "Claim references an external section (1.4) for details; the current text only states the cross-reference without providing the classification data itself.",
+    "States that tunnel design depends on environmental characteristics and conditions, which is foundational to classification-based engineering approaches but broader than specific classification criteria."
+  ],
+  "privacy_mode": "LOCAL_ONLY"
+}
+
+===== END EVIDENCE PACKET =====

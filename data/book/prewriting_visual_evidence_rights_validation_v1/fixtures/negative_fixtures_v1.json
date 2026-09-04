@@ -1,0 +1,87 @@
+{
+  "fixtures": [
+    {
+      "candidate": {
+        "asset_class": "SOURCE_FIGURE",
+        "corpus_presence": true,
+        "rights_state": "CLEARED"
+      },
+      "expected_error": "CORPUS_PRESENCE_NOT_CLEARANCE",
+      "fixture_id": "NEG-001"
+    },
+    {
+      "candidate": {
+        "asset_class": "SOURCE_PHOTO",
+        "public_url": true,
+        "rights_state": "CLEARED"
+      },
+      "expected_error": "PUBLIC_URL_NOT_PERMISSION",
+      "fixture_id": "NEG-002"
+    },
+    {
+      "candidate": {
+        "asset_class": "SOURCE_TABLE",
+        "prior_rights_state": "UNKNOWN",
+        "rights_state": "CLEARED"
+      },
+      "expected_error": "UNKNOWN_RIGHTS_PROMOTION",
+      "fixture_id": "NEG-003"
+    },
+    {
+      "candidate": {
+        "asset_class": "SOURCE_FIGURE",
+        "evidence_eligible": true,
+        "publication_eligible": true,
+        "rights_state": "CLEARED"
+      },
+      "expected_error": "PUBLICATION_READY_PROVENANCE_RIGHTS_REQUIRED",
+      "fixture_id": "NEG-004"
+    },
+    {
+      "candidate": {
+        "asset_class": "DERIVED_CHART",
+        "rights_state": "AUTHOR_GENERATED"
+      },
+      "expected_error": "REPRODUCIBLE_DATA_REQUIRED",
+      "fixture_id": "NEG-005"
+    },
+    {
+      "candidate": {
+        "asset_class": "AUTHOR_RECONSTRUCTED_TABLE",
+        "factual_content": true,
+        "rights_state": "AUTHOR_GENERATED"
+      },
+      "expected_error": "RECONSTRUCTION_FACTUAL_SUPPORT_REQUIRED",
+      "fixture_id": "NEG-006"
+    },
+    {
+      "candidate": {
+        "asset_class": "AUTHOR_GENERATED_SCHEMATIC",
+        "generation_origin": "AI",
+        "rights_state": "AUTHOR_GENERATED",
+        "technical_review_status": "REVIEWED"
+      },
+      "expected_error": "AI_GENERATION_NOT_TECHNICAL_REVIEW",
+      "fixture_id": "NEG-007"
+    },
+    {
+      "candidate": {
+        "asset_class": "SOURCE_FIGURE",
+        "pixel_values_used_as_structured_data": true,
+        "rights_state": "UNKNOWN"
+      },
+      "expected_error": "UNAUTHORIZED_IMAGE_VALUE_EXTRACTION",
+      "fixture_id": "NEG-008"
+    },
+    {
+      "candidate": {
+        "asset_class": "MAP",
+        "freshness_sensitive": true,
+        "presented_as_current": true,
+        "rights_state": "UNKNOWN"
+      },
+      "expected_error": "FRESHNESS_VALIDATION_REQUIRED",
+      "fixture_id": "NEG-009"
+    }
+  ]
+}

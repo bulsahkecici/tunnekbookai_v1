@@ -1,0 +1,25 @@
+{
+  "schema_version": "prewriting-human-decision-registry-v2",
+  "supersedes": "data/book/prewriting_human_decision_closure_v1/human_decision_registry_v1.json",
+  "status": "CLOSED",
+  "records": [
+    {"decision_id":"BR-001","group_id":"HDG-001","status":"CLOSED","selection":"A"},
+    {"decision_id":"BR-002","group_id":"HDG-002","status":"CLOSED","selection":"A"},
+    {"decision_id":"BR-003","group_id":"HDG-003","status":"CLOSED","selection":"A"},
+    {"decision_id":"BR-004","group_id":"HDG-004","status":"CLOSED","selection":"A"},
+    {"decision_id":"BR-005","group_id":"HDG-005","status":"CLOSED","selection":"A"},
+    {"decision_id":"BR-006","group_id":"HDG-006","status":"CLOSED","selection":"B"},
+    {"decision_id":"BR-007","group_id":"HDG-007","status":"CLOSED","selection":"B"},
+    {"decision_id":"CHDEC-001","group_id":"HDG-007","status":"CLOSED","selection":"B"},
+    {"decision_id":"RESP-001","group_id":"HDG-008","status":"CLOSED","selection":"NOT_APPLICABLE_FOR_AI_DRAFTING_RESPONSIBILITY"},
+    {"decision_id":"CHDEC-005","group_id":"HDG-008","status":"CLOSED","selection":"NOT_APPLICABLE_FOR_AI_DRAFTING_RESPONSIBILITY"},
+    {"decision_id":"RESP-002","group_id":"HDG-009","status":"CLOSED","selection":"NOT_APPLICABLE_FOR_AI_DRAFTING_RESPONSIBILITY"},
+    {"decision_id":"CHDEC-006","group_id":"HDG-009","status":"CLOSED","selection":"NOT_APPLICABLE_FOR_AI_DRAFTING_RESPONSIBILITY"},
+    {"decision_id":"CHDEC-002","status":"CLOSED","selection":"PRESERVE_SOURCE_ELLIPSIS_UNRESOLVED_NO_HEADING_INVENTED"},
+    {"decision_id":"CHDEC-003","status":"CLOSED","selection":"PRESERVE_SOURCE_ELLIPSIS_UNRESOLVED_NO_HEADING_INVENTED"},
+    {"decision_id":"CHDEC-004","status":"CLOSED","selection":"PRESERVE_SOURCE_ELLIPSIS_UNRESOLVED_NO_HEADING_INVENTED"},
+    {"decision_id":"COST-POLICY-001","group_id":"HDG-010","status":"CLOSED","selection":"B"},
+    {"decision_id":"RIGHTS-APPLICABILITY-001","status":"CLOSED","selection":"NOT_APPLICABLE_UNTIL_CANDIDATE_ASSET_EXISTS"}
+  ],
+  "summary": {"total":17,"closed":17,"blocking_open":0,"explicit_groups_closed":10}
+}

@@ -1,0 +1,104 @@
+===== SENTENCE MAP =====
+{
+  "section_id": "CH-A-S05",
+  "draft_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/drafts/ch_a_s05.md",
+  "draft_sha256": "251afcb136489420ee76f9edf065fe05c0a22d099b6c7a673111feb447a56405",
+  "sentence_count": 5,
+  "sentences": [
+    {
+      "sentence_id": "S001",
+      "text": "Kaynaklarda Türkiye'deki en eski tünel örneği olarak tanımlanan Terelek Kaya Tüneli, Kızılırmak Nehri yatağının altında, Boyabat ve Durağan ilçelerinin güneyinde konumlanmaktadır."
+    },
+    {
+      "sentence_id": "S002",
+      "text": "Yapım tarihi konusunda literatür, tünelin muhtemelen 2000, hatta 5000 yıldan daha eski bir döneme ait olduğunu belirtmektedir."
+    },
+    {
+      "sentence_id": "S003",
+      "text": "Bu kronolojik çerçeve, yapıyı dünyanın en eski su altı tünelleri arasında konumlandırmaktadır."
+    },
+    {
+      "sentence_id": "S004",
+      "text": "Tünelin inşaat amacı, savunma amaçlı kullanılmak üzere tasarlandığı yönündeki verilere dayanmaktadır."
+    },
+    {
+      "sentence_id": "S005",
+      "text": "Su altından geçen en eski tünel olduğu iddiasıyla tarihsel kayıtlarda yer alan yapı, antik çağlara uzanan bir geçmişe sahip olduğu tahmin edilmektedir."
+    }
+  ]
+}
+
+===== END SENTENCE MAP =====
+
+===== EVIDENCE PACKET =====
+{
+  "section_id": "CH-A-S05",
+  "section_title": "Türkiye’de İlk Tünel",
+  "section_scope": "Türkiye’de İlk Tünel",
+  "scope_exclusions": [
+    "dünyadaki ilk tüneller",
+    "tünel tarihinin genel kronolojik anlatımı",
+    "Türkiye'de tünel yapımının 1950'lerden itibaren genel kronolojisi ve başlangıç nedenleri",
+    "Türkiye'de tünel yapımının 1950'li yıllarda başlamış olması iddiası",
+    "Türkiye'deki ilk tünellerin çığ, heyelan gibi doğal afetlerden korunma amacıyla (mesafe kısaltma veya ulaşım kolaylaştırma amacı dışında) yapılmış olduğu genel iddiası",
+    "Karaköy Tüneli gibi sonraki dönem metro/füniküler tünelleri",
+    "Kadıncık I tüneli gibi sonraki dönem tüneller",
+    "devlet yollarındaki en eski tünel istatistikleri (Hoynat Tüneli)",
+    "modern Türkiye karayolu tünelleri",
+    "tünel mühendislik uygulamaları",
+    "tünel felaketleri",
+    "maliyet",
+    "bakım",
+    "yangın",
+    "havalandırma",
+    "kazalar"
+  ],
+  "research_question": "Kaynaklarda Türkiye'deki en eski/ilk tünel örneği olarak tanımlanan tek yapı (Terelek Tüneli) hangi tarih, konum, yapım amacı ve temel özelliklerle aktarılmaktadır?",
+  "readiness": "READY_WITH_LIMITATIONS",
+  "writer_evidence_selection": {
+    "strategy": "DETERMINISTIC_DIVERSITY_BUDGET_V1",
+    "total_admitted_claims": 2,
+    "selected_claims": 2,
+    "max_claims": 72
+  },
+  "admitted_claims": [
+    {
+      "claim_id": "CH-A-S05-REM-001",
+      "claim_text": "Terelek Tunnel was constructed beneath the Kızılırmak River in northern Turkey, probably more than 2000 years ago (possibly 5000), for defensive reasons.",
+      "qualifier": "One of the oldest underwater tunnels of the world; probably more than 2000 years ago (possibly 5000)",
+      "disposition": "ADMITTED_LIMITED",
+      "document_id": "DOC000307",
+      "locator": "pages:1-18",
+      "section_applicability": "CH-A-S05"
+    },
+    {
+      "claim_id": "CH-A-S05-REM-002",
+      "claim_text": "The Terelek kaya tüneli, located under the Kızıl River south of Boyabat and Durağan in Turkey, is claimed to be the world's oldest tunnel traversing under a water body and is estimated to have been built more than 2000 years ago.",
+      "qualifier": "claimed, estimated to have been built more than 2000 years ago",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000021",
+      "locator": "pages:1-25",
+      "section_applicability": "APPLICABLE"
+    }
+  ],
+  "citation_mapping": [
+    {
+      "claim_id": "CH-A-S05-REM-001",
+      "document_id": "DOC000307",
+      "locator": "pages:1-18",
+      "source_relative_path": "Özgür Satıcı/10.24232-jmd.344499-351159.pdf"
+    },
+    {
+      "claim_id": "CH-A-S05-REM-002",
+      "document_id": "DOC000021",
+      "locator": "pages:1-25",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/Tunnel - Wikipedia.pdf"
+    }
+  ],
+  "evidence_limitations": [
+    "Text explicitly locates the tunnel in Turkey and dates it to antiquity, supporting early/first tunnel existence but with explicit temporal qualifiers ('one of the oldest', '2000-5000 years ago') and defensive purpose rather than an explicit 'first' designation."
+  ],
+  "privacy_mode": "LOCAL_ONLY"
+}
+
+===== END EVIDENCE PACKET =====

@@ -1,0 +1,15 @@
+{
+  "document_id": "DOC000202",
+  "field": "year",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "processed_at": "2026-08-15T23:49:28+00:00",
+  "prompt_version": "metadata-verification-v1.2",
+  "response": {
+    "confidence": "high",
+    "evidence": "Dünya Tünel Kongresi 2022 Kopenhag, 2-8 Eylül tarihleri arasında Danimarka'da gerçekleştirilecek.",
+    "relationship": "document_identity",
+    "value": "2022"
+  },
+  "retries": 0,
+  "source_sha256": "1c6f0b26834d8cafc1cb226828293b6152b78b80b058b0e05427f922468f2238"
+}

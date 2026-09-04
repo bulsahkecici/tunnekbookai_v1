@@ -1,0 +1,60 @@
+{
+  "document_id": "DOC000071",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:54:38+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "**YÜKSEK LİSANS TEZİ** [authority_B_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "**YÜKSEK LİSANS TEZİ**",
+      "value": "thesis"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "**TÜRKÇE ÖZET**",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "**İSTANBUL ÜNİVERSİTESİ FEN BİLİMLERİ ENSTİTÜSÜ**",
+      "value": "İSTANBUL ÜNİVERSİTESİ FEN BİLİMLERİ ENSTİTÜSÜ"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "**İSTANBUL METROSU TAKSİM-YENİKAPI HATTI TÜNEL KAZISINDA HİDROLİK KIRICI PERFORMANS ETÜDÜ**",
+      "value": "İSTANBUL METROSU TAKSİM-YENİKAPI HATTI TÜNEL KAZISINDA HİDROLİK KIRICI PERFORMANS ETÜDÜ"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "**Delme-Patlatma Yöntemiyle Tünel Açımı**",
+      "value": [
+        "blasting",
+        "cost",
+        "excavation",
+        "forepoling",
+        "geology",
+        "geotechnical_investigation",
+        "history",
+        "injection",
+        "operations",
+        "rock_mechanics",
+        "shotcrete",
+        "standards",
+        "steel_mesh",
+        "support_systems"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "**Ocak 2002**",
+      "value": 2002
+    }
+  },
+  "source_sha256": "cf2fad9c374cff80978324d92e88dd00d6cd4bcb5fd229df8973cfe565b1a477"
+}

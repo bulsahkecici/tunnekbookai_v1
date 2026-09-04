@@ -1,0 +1,47 @@
+{
+  "version": "tunnelbook-v2.2-retry-case-scope-allocation-audit-v1",
+  "claim_id": "SEC-02-2-P0-008",
+  "components": [
+    {
+      "unit_id": "U-C-P02-S01",
+      "required_semantic_content": ["case-specific applicability", "300 mm and more", "dependent on tunnel size"],
+      "allocated_role": "CLAIM_STATEMENT",
+      "available_role": true,
+      "realizable_role": true,
+      "condition_obligation": {"In some": "unit", "dependent on tunnel size": "paragraph"},
+      "case_scope_obligation": "delegated to adjacent CASE_SCOPE",
+      "renderer_input": "frozen Pilot #2 source unit",
+      "surface": "Belirli kaya koşullarında, tünel boyutuna bağlı olarak, kalınlık 300 mm ve daha fazla olabilir.",
+      "validator_expectation": "both conditions satisfied",
+      "result": "ACCEPT"
+    },
+    {
+      "unit_id": "U-C-P02-S02",
+      "required_semantic_content": ["ROCK-CRUSHED", "ROCK-SQUEEZING", "ROCK-SWELLING", "dependent on tunnel size"],
+      "allocated_role": "CASE_SCOPE",
+      "available_role": true,
+      "realizable_role": true,
+      "condition_obligation": {"In some": "unit and unallocated", "dependent on tunnel size": "paragraph and supplied by U-C-P02-S01"},
+      "case_scope_obligation": "three named cases complete through two authoritative translations plus one ORIGINAL_TERM_UNRESOLVED fallback",
+      "renderer_input": "V22R-P0008-CASE-001 term_ids and enumeration; required_dependency is present in the realization entry but has no emitted slot",
+      "surface_projection": "ezilmiş kaya, sıkışan kaya.",
+      "validator_expectation": "In some anchor inside this unit; tunnel-size anchor in this paragraph",
+      "result": "REJECT",
+      "failure_code": "CONDITION_DROPPED",
+      "failed_condition": "In some"
+    }
+  ],
+  "set_relationships": {
+    "required_roles_subset_available_roles": true,
+    "available_roles_subset_realizable_roles": true,
+    "required_conditions_subset_allocated_conditions": false,
+    "contradiction": "role feasibility was proved without closing condition feasibility for every claim-bearing emitted unit"
+  },
+  "root_cause_class": "MULTI_ROLE_CLAIM_CONDITION_ALLOCATION_DEFECT",
+  "secondary_class": "CASE_SCOPE_REALIZATION_CONTRACT_GAP",
+  "book_style_fault": false,
+  "terminology_fallback_fault": false,
+  "validator_fault": false,
+  "renderer_fault_for_observed_failure": false,
+  "instruction_set_satisfiable_as_constructed": false
+}

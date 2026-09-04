@@ -1,0 +1,49 @@
+{
+  "document_id": "DOC000019",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:52:13+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "Although this report was commissioned by the Department for Transport (DfT), the findings and recommendations are those of the authors and do not necessarily represent the views of the DfT. [authority_B_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "This document has been prepared by AECOM Limited for the sole use of our client (the 'Client') and in accordance with generally accepted consultancy principles, the budget for fees and the terms of reference agreed between AECOM Limited and the Client.",
+      "value": "technical_report"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "This document has been prepared by AECOM Limited for the sole use of our client",
+      "value": "AECOM Limited"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "Review of Lower Thames Crossing Capacity Options Output 3: Operating Costs, Maintenance Costs and Revenues Report",
+      "value": "Review of Lower Thames Crossing Capacity Options Output 3: Operating Costs, Maintenance Costs and Revenues Report"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "operating and maintenance costs, the costs of revenue collection",
+      "value": [
+        "cost",
+        "maintenance",
+        "operations"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Date Created October 2012",
+      "value": 2012
+    }
+  },
+  "source_sha256": "fcafb5c9434d660130bf7645d163a6f1f1b387dc744013ce1c27638da1cfc856"
+}

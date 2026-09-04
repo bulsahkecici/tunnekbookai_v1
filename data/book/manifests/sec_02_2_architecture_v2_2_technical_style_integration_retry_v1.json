@@ -1,0 +1,30 @@
+{
+  "version": "tunnelbook-sec-02-2-architecture-v2.2-technical-style-integration-retry-v1",
+  "phase": "SEC-02-2 ARCHITECTURE V2.2 TECHNICAL + BOOK STYLE INTEGRATION V1 RETRY",
+  "status": "CLOSED_NO_GO",
+  "acceptance": {"contract_sha256": "33b06ceb644c5b7465df13d9dcdb619e822c45ba0404c72d5f2fde6a4ac1cca7", "conditions": 16, "passed": 10, "failed": 6},
+  "failure": {"code": "CONDITION_DROPPED", "unit_id": "U-C-P02-S02", "claim_id": "SEC-02-2-P0-008", "role": "CASE_SCOPE", "histogram": {"CONDITION_DROPPED": 1}},
+  "technical_blockers": {"surface_validated": "5/6", "failed": "TDA-003"},
+  "fallback": {"status": "PASS", "semantic_value": "Swelling Rock", "visible_markdown": "**Swelling Rock**"},
+  "factual_completeness": "FAIL_REQUIRED_UNIT_REJECTED",
+  "citation_correctness": "PASS",
+  "book_style_structural_projection": "PASS",
+  "terminology_consistency": "PASS",
+  "artifacts": {
+    "frozen_preflight": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1/audits/frozen_preflight_v1.json", "sha256": "40b3d70de3cda5d8841be2e23fe62dee5e9a27bc370f1f9792223fcc77fc0862"},
+    "acceptance_contract": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1/contracts/architecture_v2_2_retry_acceptance_contract_v1.json", "sha256": "33b06ceb644c5b7465df13d9dcdb619e822c45ba0404c72d5f2fde6a4ac1cca7"},
+    "acceptance_freeze": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1/audits/acceptance_freeze_v1.json", "sha256": "d36e151eafba8cf986e72a944e6a00fc526ba3a55462627c8b1071871807b9ec"},
+    "realization_contract": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1/contracts/claim_realization_contract_v2_2_retry_v1.json", "sha256": "3241ba1d8293a35b9ea22c3cc2431b73a9fc0639b3f44a4a887170686ece92aa"},
+    "universe": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1/contracts/planner_option_universe_v2_2_retry_v1.json", "sha256": "9ceb8bedb51580fe19d448aafc48022922acd3c29d7ab01ba621329be0deceb1"},
+    "integration_plan": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1/plan/integration_plan_v2_2_retry_v1.json", "sha256": "172db478f95c821e8e21bb27a89e0e2f6c3985b278ff5fc7deec0bb8a93f1494"},
+    "integration_module": {"path": "scripts/75_architecture_v2_2_retry_integration_v1.py", "sha256": "c11022e11c74037426adc83b7ca0cffcde7c34ea0ae273263a0386a4f1d3fece"},
+    "failure_evidence": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1/audits/failure_evidence_v1.json", "sha256": "0ed596d34446abecc238caef66f64cda302b50ceb6bf4f388e1a8b1791522ec3"},
+    "integration_audit": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1/audits/integration_audit_v1.json", "sha256": "bbcbdd532cb3c49b5466dadcde49167285b281e7a395f3f795f44fcbbc9ace37"},
+    "acceptance_results": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1/audits/acceptance_results_v1.json", "sha256": "8665facf03cc3247d92fafa4b2dcfd47237fb5168c6efedae728a669d6827538"},
+    "frozen_postflight": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1/audits/frozen_postflight_v1.json", "sha256": "37f27cf47bf3b7f4bfd61b0a6d6561caec45c6e8bd5bd9aa8b18d93436f4dfdd"}
+  },
+  "tests": {"phase": {"tests": 12, "failures": 0}, "directly_affected_regressions": {"tests": 145, "failures": 0, "skipped": 2}},
+  "frozen_integrity": {"artifacts_checked": 49, "drift_count": 0, "status": "PASS"},
+  "accounting": {"generation_calls": 0, "render_evaluations": 2, "stored_drafts": 0, "retrieval_calls": 0, "qdrant_writes": 0, "corpus_wide_reads": 0, "post_render_model_passes": 0, "frozen_artifacts_modified": 0},
+  "next_phase": "SEC-02-2 ARCHITECTURE V2.2 RETRY CASE-SCOPE CONDITION ALLOCATION FAILURE ANALYSIS V1"
+}

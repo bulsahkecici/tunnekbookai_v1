@@ -1,0 +1,439 @@
+{
+  "decision": "CONDITIONAL_GO",
+  "total_records": 1652,
+  "canonical_records": 214,
+  "new_staging_records": 122,
+  "handoff_eligible": 122,
+  "review_required": 890,
+  "rejected": 640,
+  "duplicates_removed": 88,
+  "fulltext_records": 0,
+  "abstract_only_records": 607,
+  "title_only_records": 1045,
+  "coverage": {
+    "policy_version": "1.0",
+    "parent_aggregation": true,
+    "totals": {
+      "discovered_count": 1625,
+      "classified_count": 1652,
+      "accepted_count": 948,
+      "review_count": 1279,
+      "corpus_eligible_count": 122
+    },
+    "sections": {
+      "1": {
+        "discovered_count": 844,
+        "classified_count": 844,
+        "review_count": 769,
+        "accepted_count": 207,
+        "corpus_eligible_count": 39
+      },
+      "1.1": {
+        "discovered_count": 2,
+        "classified_count": 2,
+        "accepted_count": 1,
+        "review_count": 1
+      },
+      "1.2": {
+        "discovered_count": 20,
+        "classified_count": 20,
+        "review_count": 20
+      },
+      "1.3": {
+        "discovered_count": 52,
+        "classified_count": 52,
+        "review_count": 45,
+        "accepted_count": 15,
+        "corpus_eligible_count": 1
+      },
+      "1.3.1": {
+        "discovered_count": 8,
+        "classified_count": 8,
+        "review_count": 8
+      },
+      "1.3.2": {
+        "discovered_count": 1,
+        "classified_count": 1,
+        "review_count": 1
+      },
+      "1.4": {
+        "discovered_count": 728,
+        "classified_count": 728,
+        "review_count": 687,
+        "accepted_count": 115,
+        "corpus_eligible_count": 26
+      },
+      "1.4.1": {
+        "discovered_count": 290,
+        "classified_count": 290,
+        "review_count": 283,
+        "accepted_count": 26,
+        "corpus_eligible_count": 5
+      },
+      "1.4.2": {
+        "discovered_count": 45,
+        "classified_count": 45,
+        "review_count": 41,
+        "accepted_count": 5,
+        "corpus_eligible_count": 4
+      },
+      "1.5": {
+        "discovered_count": 249,
+        "classified_count": 249,
+        "review_count": 222,
+        "accepted_count": 77,
+        "corpus_eligible_count": 13
+      },
+      "1.5.1": {
+        "discovered_count": 69,
+        "classified_count": 69,
+        "review_count": 66,
+        "accepted_count": 5,
+        "corpus_eligible_count": 2
+      },
+      "1.5.2": {
+        "discovered_count": 40,
+        "classified_count": 40,
+        "review_count": 39,
+        "accepted_count": 1
+      },
+      "2": {
+        "discovered_count": 1005,
+        "classified_count": 1005,
+        "accepted_count": 468,
+        "review_count": 852,
+        "corpus_eligible_count": 54
+      },
+      "2.1": {
+        "discovered_count": 35,
+        "classified_count": 35,
+        "accepted_count": 26,
+        "review_count": 15,
+        "corpus_eligible_count": 10
+      },
+      "2.1.1": {
+        "discovered_count": 3,
+        "classified_count": 3,
+        "review_count": 3
+      },
+      "2.1.2": {
+        "discovered_count": 25,
+        "classified_count": 25,
+        "accepted_count": 19,
+        "review_count": 11,
+        "corpus_eligible_count": 6
+      },
+      "2.2": {
+        "discovered_count": 365,
+        "classified_count": 365,
+        "accepted_count": 234,
+        "review_count": 297,
+        "corpus_eligible_count": 20
+      },
+      "2.2.1": {
+        "discovered_count": 46,
+        "classified_count": 46,
+        "accepted_count": 29,
+        "review_count": 32,
+        "corpus_eligible_count": 5
+      },
+      "2.2.2": {
+        "discovered_count": 19,
+        "classified_count": 19,
+        "accepted_count": 17,
+        "review_count": 14
+      },
+      "2.2.3": {
+        "discovered_count": 24,
+        "classified_count": 24,
+        "accepted_count": 16,
+        "review_count": 16,
+        "corpus_eligible_count": 2
+      },
+      "2.3": {
+        "discovered_count": 6,
+        "classified_count": 6,
+        "accepted_count": 4,
+        "review_count": 3
+      },
+      "2.4": {
+        "discovered_count": 715,
+        "classified_count": 715,
+        "accepted_count": 210,
+        "review_count": 648,
+        "corpus_eligible_count": 26
+      },
+      "2.4.1": {
+        "discovered_count": 250,
+        "classified_count": 250,
+        "accepted_count": 102,
+        "review_count": 213,
+        "corpus_eligible_count": 15
+      },
+      "2.4.1.1": {
+        "discovered_count": 91,
+        "classified_count": 91,
+        "review_count": 90,
+        "accepted_count": 2
+      },
+      "2.4.1.2": {
+        "discovered_count": 20,
+        "classified_count": 20,
+        "review_count": 12,
+        "accepted_count": 8,
+        "corpus_eligible_count": 3
+      },
+      "2.4.1.3": {
+        "discovered_count": 16,
+        "classified_count": 16,
+        "review_count": 12,
+        "accepted_count": 5,
+        "corpus_eligible_count": 3
+      },
+      "2.4.2": {
+        "discovered_count": 35,
+        "classified_count": 35,
+        "review_count": 33,
+        "accepted_count": 3
+      },
+      "2.4.2.1": {
+        "discovered_count": 18,
+        "classified_count": 18,
+        "review_count": 18,
+        "accepted_count": 1
+      },
+      "2.4.2.2": {
+        "discovered_count": 11,
+        "classified_count": 11,
+        "review_count": 10,
+        "accepted_count": 1
+      },
+      "2.4.3": {
+        "discovered_count": 61,
+        "classified_count": 61,
+        "review_count": 61
+      },
+      "3": {
+        "discovered_count": 41,
+        "classified_count": 41,
+        "review_count": 41
+      },
+      "4": {
+        "discovered_count": 43,
+        "classified_count": 43,
+        "review_count": 30,
+        "accepted_count": 28
+      },
+      "4.3": {
+        "discovered_count": 36,
+        "classified_count": 36,
+        "review_count": 25,
+        "accepted_count": 26
+      },
+      "4.3.5": {
+        "discovered_count": 36,
+        "classified_count": 36,
+        "review_count": 25,
+        "accepted_count": 26
+      },
+      "5": {
+        "discovered_count": 860,
+        "classified_count": 860,
+        "review_count": 753,
+        "accepted_count": 242,
+        "corpus_eligible_count": 31
+      },
+      "5.4": {
+        "discovered_count": 415,
+        "classified_count": 415,
+        "review_count": 361,
+        "accepted_count": 126,
+        "corpus_eligible_count": 21
+      },
+      "5.4.1": {
+        "discovered_count": 322,
+        "classified_count": 322,
+        "review_count": 293,
+        "accepted_count": 88,
+        "corpus_eligible_count": 8
+      },
+      "5.4.2": {
+        "discovered_count": 61,
+        "classified_count": 61,
+        "accepted_count": 10,
+        "corpus_eligible_count": 3,
+        "review_count": 54
+      },
+      "5.4.3": {
+        "discovered_count": 5,
+        "classified_count": 5,
+        "review_count": 5
+      },
+      "5.5": {
+        "discovered_count": 66,
+        "classified_count": 66,
+        "review_count": 58,
+        "accepted_count": 17
+      },
+      "5.5.1": {
+        "discovered_count": 5,
+        "classified_count": 5,
+        "accepted_count": 5,
+        "review_count": 4
+      },
+      "5.5.2": {
+        "discovered_count": 59,
+        "classified_count": 59,
+        "review_count": 52,
+        "accepted_count": 10
+      },
+      "5.5.2.1": {
+        "discovered_count": 45,
+        "classified_count": 45,
+        "review_count": 42,
+        "accepted_count": 4
+      },
+      "5.5.2.2": {
+        "discovered_count": 9,
+        "classified_count": 9,
+        "accepted_count": 2,
+        "review_count": 8
+      },
+      "5.6": {
+        "discovered_count": 7,
+        "classified_count": 7,
+        "accepted_count": 5,
+        "review_count": 2
+      },
+      "5.7": {
+        "discovered_count": 245,
+        "classified_count": 245,
+        "accepted_count": 67,
+        "review_count": 214,
+        "corpus_eligible_count": 5
+      },
+      "5.7.1": {
+        "discovered_count": 96,
+        "classified_count": 96,
+        "review_count": 86,
+        "accepted_count": 22
+      },
+      "5.7.2": {
+        "discovered_count": 91,
+        "classified_count": 91,
+        "review_count": 88,
+        "accepted_count": 8,
+        "corpus_eligible_count": 1
+      },
+      "5.8": {
+        "discovered_count": 35,
+        "classified_count": 35,
+        "review_count": 34,
+        "accepted_count": 1,
+        "corpus_eligible_count": 1
+      },
+      "5.9": {
+        "discovered_count": 435,
+        "classified_count": 435,
+        "review_count": 423,
+        "accepted_count": 33,
+        "corpus_eligible_count": 5
+      },
+      "5.9.1": {
+        "discovered_count": 61,
+        "classified_count": 61,
+        "review_count": 61
+      },
+      "5.9.2": {
+        "discovered_count": 331,
+        "classified_count": 331,
+        "review_count": 328,
+        "accepted_count": 8,
+        "corpus_eligible_count": 1
+      },
+      "6": {
+        "discovered_count": 58,
+        "classified_count": 58,
+        "review_count": 46,
+        "accepted_count": 21,
+        "corpus_eligible_count": 2
+      },
+      "6.1": {
+        "discovered_count": 18,
+        "classified_count": 18,
+        "accepted_count": 10,
+        "review_count": 11,
+        "corpus_eligible_count": 1
+      },
+      "6.2": {
+        "discovered_count": 42,
+        "classified_count": 42,
+        "review_count": 39,
+        "accepted_count": 6
+      },
+      "6.2.1": {
+        "discovered_count": 14,
+        "classified_count": 14,
+        "review_count": 14
+      },
+      "6.2.2": {
+        "discovered_count": 16,
+        "classified_count": 16,
+        "review_count": 15,
+        "accepted_count": 2
+      }
+    }
+  },
+  "source_health": {
+    "openalex": {
+      "consecutive_failures": 0,
+      "total_failures": 0,
+      "total_successes": 48,
+      "last_success": "2026-08-31T21:17:06.936663+00:00"
+    },
+    "crossref": {
+      "consecutive_failures": 0,
+      "total_failures": 0,
+      "total_successes": 48,
+      "last_success": "2026-08-31T21:17:07.370215+00:00"
+    },
+    "europe_pmc": {
+      "consecutive_failures": 0,
+      "total_failures": 0,
+      "total_successes": 48,
+      "last_success": "2026-08-31T21:17:07.693603+00:00"
+    },
+    "doaj": {
+      "consecutive_failures": 0,
+      "total_failures": 0,
+      "total_successes": 48,
+      "last_success": "2026-08-31T21:17:07.933923+00:00"
+    },
+    "arxiv": {
+      "consecutive_failures": 0,
+      "total_failures": 0,
+      "total_successes": 48,
+      "last_success": "2026-08-31T21:17:08.449787+00:00"
+    },
+    "openaire": {
+      "consecutive_failures": 0,
+      "total_failures": 0,
+      "total_successes": 48,
+      "last_success": "2026-08-31T21:17:08.852915+00:00"
+    },
+    "core": {
+      "consecutive_failures": 2,
+      "total_failures": 3,
+      "total_successes": 1,
+      "last_failure": "2026-08-31T21:12:35.284143+00:00",
+      "last_failure_reason": "timeout_failures",
+      "last_success": "2026-08-31T21:11:34.161455+00:00",
+      "disabled_until": "2026-08-31T21:17:35.284172+00:00"
+    }
+  },
+  "blocking_issues": [],
+  "warnings": [
+    "legacy_canonical_provenance_has_recorded_limitations",
+    "manual_review_queue_not_empty"
+  ]
+}

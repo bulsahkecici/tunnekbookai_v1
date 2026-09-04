@@ -1,0 +1,98 @@
+{
+  "fixtures": [
+    {
+      "artifact": {
+        "analysis_artifact_id": "FIXTURE-M-001",
+        "analysis_code_identity": "RECORDED",
+        "analysis_date": "RECORDED",
+        "analysis_type": "MAINTENANCE_OPERATION_COST",
+        "assumptions": "RECORDED",
+        "chart_table_identities": "RECORDED",
+        "code_sha_version": "RECORDED",
+        "currency_fields": "RECORDED",
+        "data_provenance": "RECORDED",
+        "dataset_identity": "RECORDED",
+        "dataset_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "dataset_version": "RECORDED",
+        "human_approval_admission_status": "RECORDED",
+        "inclusion_exclusion_rules": "RECORDED",
+        "limitations": "RECORDED",
+        "missing_data_treatment": "RECORDED",
+        "model_specifications": "RECORDED",
+        "outlier_treatment": "RECORDED",
+        "preprocessing_identity": "RECORDED",
+        "producer": "HUMAN_AUTHOR",
+        "reproducibility_status": "RECORDED",
+        "result_hashes": "RECORDED",
+        "result_table_identities": "RECORDED",
+        "results": [
+          {
+            "actual_class": "DERIVED_STATISTIC",
+            "presented_as": "DERIVED_STATISTIC"
+          }
+        ],
+        "schema_identity": "RECORDED",
+        "statistical_methods": "RECORDED",
+        "target_outcome_definitions": "RECORDED",
+        "transformations": "RECORDED",
+        "units": "RECORDED",
+        "validation_method": "RECORDED",
+        "variables_used": "RECORDED"
+      },
+      "context": {
+        "admitted_dependencies": [
+          "MAINTENANCE_COST_ANALYSIS_ARTIFACT_REQUIRED"
+        ],
+        "chapter": "CH-E"
+      },
+      "fixture_id": "POS-001"
+    },
+    {
+      "artifact": {
+        "analysis_artifact_id": "FIXTURE-C-001",
+        "analysis_code_identity": "RECORDED",
+        "analysis_date": "RECORDED",
+        "analysis_type": "CONSTRUCTION_COST",
+        "assumptions": "RECORDED",
+        "chart_table_identities": "RECORDED",
+        "code_sha_version": "RECORDED",
+        "currency_fields": "RECORDED",
+        "data_provenance": "RECORDED",
+        "dataset_identity": "RECORDED",
+        "dataset_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "dataset_version": "RECORDED",
+        "human_approval_admission_status": "RECORDED",
+        "inclusion_exclusion_rules": "RECORDED",
+        "limitations": "RECORDED",
+        "missing_data_treatment": "RECORDED",
+        "model_specifications": "RECORDED",
+        "outlier_treatment": "RECORDED",
+        "preprocessing_identity": "RECORDED",
+        "producer": "HUMAN_AUTHOR",
+        "reproducibility_status": "RECORDED",
+        "result_hashes": "RECORDED",
+        "result_table_identities": "RECORDED",
+        "results": [
+          {
+            "actual_class": "DERIVED_STATISTIC",
+            "presented_as": "DERIVED_STATISTIC"
+          }
+        ],
+        "schema_identity": "RECORDED",
+        "statistical_methods": "RECORDED",
+        "target_outcome_definitions": "RECORDED",
+        "transformations": "RECORDED",
+        "units": "RECORDED",
+        "validation_method": "RECORDED",
+        "variables_used": "RECORDED"
+      },
+      "context": {
+        "admitted_dependencies": [
+          "CONSTRUCTION_COST_ANALYSIS_ARTIFACT_REQUIRED"
+        ],
+        "chapter": "CH-F"
+      },
+      "fixture_id": "POS-002"
+    }
+  ]
+}

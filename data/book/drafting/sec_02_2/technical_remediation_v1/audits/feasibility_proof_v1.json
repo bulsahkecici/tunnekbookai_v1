@@ -1,0 +1,30 @@
+{
+  "version": "tunnelbook-sec-02-2-technical-remediation-feasibility-proof-v1",
+  "status": "PASS",
+  "proof_type": "STRUCTURAL_PRE_SURFACE",
+  "surface_rendered": false,
+  "topics": {
+    "required": ["dayanım sınıfı", "çimento dozajı", "kaplama kalınlığı"],
+    "covered": ["dayanım sınıfı", "çimento dozajı", "kaplama kalınlığı"],
+    "missing": []
+  },
+  "blocking_content": {
+    "wet_system_scope": {"claims": ["SEC-02-2-C-004", "SEC-02-2-C-005"], "binding_present": true},
+    "repair_work_scope": {"claims": ["SEC-02-2-C-012"], "binding_present": true},
+    "named_rock_cases": {"claim": "SEC-02-2-P0-008", "required": 3, "planned": 3, "tunnel_size_dependency": true},
+    "cement_maximum": {"claim": "SEC-02-2-C-018", "value": "500", "unit": "kg/m³", "linked_consequence": true},
+    "cement_citations": {"misleading_key_allocated": false, "selected_key": "SRC-DOC000236-0229b854f373"},
+    "acceptance_criterion": {"claim": "SEC-02-2-C-002", "subject": "criterion_fact_ids", "class_as_subject": false}
+  },
+  "style_contract_projection": {
+    "heading_map_available": true,
+    "scope_before_governed_claim": true,
+    "criterion_adjacent": true,
+    "boundary_adjacent_to_minima": true,
+    "general_before_specific": true,
+    "model_style_pass_required": false
+  },
+  "citation_allocation": {"affected_claims": 4, "valid": 4, "invalid": 0, "unknown_keys": 0},
+  "surface_gate": {"new_surface_forms": 0, "validator_failure_projection": {}, "unrealizable_pairs_selected": 0},
+  "result": {"required_topics": "3/3", "mandatory_scopes": "3/3", "blockers_structurally_closed": "6/6", "style_structurally_satisfiable": true}
+}

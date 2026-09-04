@@ -1,0 +1,48 @@
+{
+  "document_id": "DOC000214",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:02:54+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "Tünel Kontrol Mühendisi Geliştirme Kursu",
+      "value": "C"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Tünel Kontrol Mühendisi Geliştirme Kursu",
+      "value": "training_material"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "Tünel Kontrol Mühendisi Geliştirme Kursu",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "Yol Yapım Şubesi Müdürlüğü Yol Yapım Dairesi Başkanlığı Başlıca tünel destek elemanları",
+      "value": "Yol Yapım Dairesi Başkanlığı"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "# Tünel Kontrol Mühendisi Geliştirme Kursu Tünel Destekleme Elemanları 24~28.02.2020, Ankara Suhan Mutlu Yol Yapım Şefi",
+      "value": "Tünel Destekleme Elemanları"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Püskürtme beton; çimento-su-agrega veya çimento-su-agrega-kimyasal ve mineral katkı karışımının, boru hattı içerisinde basınçlı hava ile taşınıp, bir püskürtme ucu (nozul) aracılığıyla yüzey üzerine yüksek hızda püskürtülerek yerleştirilen beton olarak tanımlanmaktadır.",
+      "value": [
+        "quality_control",
+        "shotcrete"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "24~28.02.2020, Ankara",
+      "value": 2020
+    }
+  },
+  "source_sha256": "65d8bf62a92c8cf78307cc7dd3ff4ca78b5df5a459b29c247eaae665fc7f6b2c"
+}

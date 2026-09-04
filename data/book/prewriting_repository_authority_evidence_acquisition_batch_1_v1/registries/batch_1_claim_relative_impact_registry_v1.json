@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "admission_status_changed": false,
+      "authority_result": "UNKNOWN",
+      "claim_ids": [],
+      "claim_role": "UNUSED_AUTHORITY_RECORD",
+      "document_id": "DOC000002",
+      "section_ids": [],
+      "suitability": "NOT_YET_AUTHORITY_SUITABLE",
+      "support_status_changed": false
+    },
+    {
+      "admission_status_changed": false,
+      "authority_result": "INSTITUTIONAL_TECHNICAL",
+      "claim_ids": [],
+      "claim_role": "UNUSED_AUTHORITY_RECORD",
+      "document_id": "DOC000003",
+      "section_ids": [],
+      "suitability": "SUITABLE_FOR_IDENTIFIED_SOURCE_ROLE",
+      "support_status_changed": false
+    },
+    {
+      "admission_status_changed": false,
+      "authority_result": "UNKNOWN",
+      "claim_ids": [
+        "CLM-00415",
+        "CLM-00416",
+        "CLM-00417",
+        "CLM-00418",
+        "CLM-00419",
+        "CLM-00420",
+        "CLM-00421",
+        "CLM-00422",
+        "CLM-00423",
+        "CLM-00424",
+        "CLM-00425",
+        "CLM-00426",
+        "CLM-00427",
+        "CLM-00428",
+        "CLM-00429",
+        "CLM-00430"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "document_id": "DOC000038",
+      "section_ids": [
+        "CH-B-S17"
+      ],
+      "suitability": "NOT_YET_AUTHORITY_SUITABLE",
+      "support_status_changed": false
+    },
+    {
+      "admission_status_changed": false,
+      "authority_result": "OFFICIAL_GOVERNMENT_TECHNICAL",
+      "claim_ids": [
+        "RCLM-00001"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "document_id": "DOC000039",
+      "section_ids": [
+        "CH-A-S01"
+      ],
+      "suitability": "SUITABLE_FOR_IDENTIFIED_SOURCE_ROLE",
+      "support_status_changed": false
+    }
+  ],
+  "schema_version": "1.0.0"
+}

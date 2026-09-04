@@ -1,0 +1,24 @@
+{
+  "version": "tunnelbook-sec-02-2-architecture-v2.2-retry-acceptance-results-v1",
+  "acceptance_contract_sha256": "33b06ceb644c5b7465df13d9dcdb619e822c45ba0404c72d5f2fde6a4ac1cca7",
+  "conditions": [
+    {"id": "AC-V22R-01", "status": "PASS"},
+    {"id": "AC-V22R-02", "status": "PASS"},
+    {"id": "AC-V22R-03", "status": "PASS"},
+    {"id": "AC-V22R-04", "status": "PASS"},
+    {"id": "AC-V22R-05", "status": "FAIL", "evidence": "5/6 surface-validated; P0-008 CASE_SCOPE rejected"},
+    {"id": "AC-V22R-06", "status": "FAIL", "evidence": "three cases and dependency are visible in the attempted surface, but CASE_SCOPE condition allocation failed unchanged validation"},
+    {"id": "AC-V22R-07", "status": "PASS"},
+    {"id": "AC-V22R-08", "status": "PASS"},
+    {"id": "AC-V22R-09", "status": "FAIL", "evidence": "required facts were constructed, but factual completeness cannot pass with a rejected required CASE_SCOPE unit"},
+    {"id": "AC-V22R-10", "status": "PASS"},
+    {"id": "AC-V22R-11", "status": "PASS"},
+    {"id": "AC-V22R-12", "status": "FAIL", "evidence": "validator histogram CONDITION_DROPPED=1"},
+    {"id": "AC-V22R-13", "status": "PASS"},
+    {"id": "AC-V22R-14", "status": "FAIL", "evidence": "no rejected output was stored as a draft"},
+    {"id": "AC-V22R-15", "status": "FAIL", "evidence": "determinism gate not run after validation failure"},
+    {"id": "AC-V22R-16", "status": "PASS"}
+  ],
+  "summary": {"conditions": 16, "passed": 10, "failed": 6, "unmet": ["AC-V22R-05", "AC-V22R-06", "AC-V22R-09", "AC-V22R-12", "AC-V22R-14", "AC-V22R-15"]},
+  "verdict": "CLOSED_NO_GO"
+}

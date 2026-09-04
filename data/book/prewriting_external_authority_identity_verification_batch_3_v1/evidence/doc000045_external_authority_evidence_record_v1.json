@@ -1,0 +1,42 @@
+{
+  "admission_status_changed": false,
+  "authority_class": "UNKNOWN_AUTHORITY",
+  "authority_status": "AUTHORITY_NOT_VERIFIABLE",
+  "batch_id": "EXT-BATCH-03",
+  "claim_proposition_changed": false,
+  "claim_relative_applicability": "NOT_AUTHORITY_SUITABLE_IDENTITY_OR_VERSION_UNRESOLVED",
+  "conflict_fields": [],
+  "edition_or_version": null,
+  "evidence_provenance": [],
+  "evidence_snapshot": {
+    "kind": "DETERMINISTIC_METADATA_DIGEST",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "external_authors": [],
+  "external_title": null,
+  "identifier": null,
+  "identity_match_status": "NO_RELIABLE_MATCH",
+  "issuing_authority": "No authoritative owner verified",
+  "limitations": [
+    "No authoritative publication, archive, or institutional record was located; secondary references were excluded"
+  ],
+  "metadata_only_use_boundary": true,
+  "peer_review_verified": false,
+  "promotion": false,
+  "publication_or_event_date": null,
+  "queue_identity_matching_keys": [
+    "DOC000045",
+    "TÜRKİYE KARAYOLLARI TÜNELLERİNİN TARİHÇESİ VE TÜNEL GÜVENLİK KRİTERLERİ"
+  ],
+  "repository_identity": "TÜRKİYE KARAYOLLARI TÜNELLERİNİN TARİHÇESİ VE TÜNEL GÜVENLİK KRİTERLERİ",
+  "schema_version": "1.0.0",
+  "source_id": "DOC000045",
+  "support_status_changed": false,
+  "technical_content_captured": false,
+  "unresolved_fields": [
+    "date_or_period",
+    "archive_or_collection_locator",
+    "publication_container_or_stable_identifier"
+  ],
+  "version_match_status": "VERSION_UNRESOLVED"
+}

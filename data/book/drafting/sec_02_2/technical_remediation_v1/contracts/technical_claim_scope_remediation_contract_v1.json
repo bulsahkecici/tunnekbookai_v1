@@ -1,0 +1,103 @@
+{
+  "version": "tunnelbook-sec-02-2-technical-claim-scope-remediation-contract-v1",
+  "section_id": "SEC-02-2",
+  "additive_to": "composition_safe_allowlist_v1",
+  "frozen_parent_modified": false,
+  "general_rules": {
+    "source_section_ancestry_binding": "A proposition inherits the narrowest application scope established by its cited source heading ancestry unless the same cited span explicitly broadens it.",
+    "scope_fail_closed": "A claim whose inherited source scope is absent from its structured conditions is not surface-eligible.",
+    "case_enumeration_completeness": "Where the cited table enumerates rows sharing the claimed criterion, every matching named row is retained as a structured source case.",
+    "conditional_consequence_atomicity": "A source-stated limit and its immediate if-limit-insufficient consequence remain one linked claim group and may not be separated by allocation.",
+    "source_owned_terms": "New terms are claim-owned exact source data, not additions to a generic gloss or lexicon."
+  },
+  "scope_bindings": [
+    {
+      "claim_id": "SEC-02-2-C-004",
+      "binding_id": "TSB-C004-WET-001",
+      "scope_type": "application_system",
+      "scope_value": "wet_system_shotcrete_for_rock_support",
+      "mandatory": true,
+      "source_key": "SRC-DOC000087-8d778c37de30",
+      "chunk_id": "DOC000087-C0279",
+      "source_heading_ancestry": ["351.08.10 Kaya Destekleme İçin Kullanılan Yaş Sistem Püskürtme Betonun Uygulanması", "351.08.10.01 Genel"],
+      "source_span": "İlk tabaka taze betonun akmaması için ince, tercihen yaklaşık 60 mm (maksimum 100 mm) olmalıdır.",
+      "old_system_scope": "system_independent",
+      "new_system_scope": "wet_system"
+    },
+    {
+      "claim_id": "SEC-02-2-C-005",
+      "binding_id": "TSB-C005-WET-001",
+      "scope_type": "application_system",
+      "scope_value": "wet_system_shotcrete_for_rock_support",
+      "mandatory": true,
+      "source_key": "SRC-DOC000087-8d778c37de30",
+      "chunk_id": "DOC000087-C0279",
+      "source_heading_ancestry": ["351.08.10 Kaya Destekleme İçin Kullanılan Yaş Sistem Püskürtme Betonun Uygulanması", "351.08.10.01 Genel"],
+      "source_span": "Takip eden tabakalar, nihai kalınlığa (ve kullanılan priz hızlandırıcı katkı malzemesinin tipine) bağlı olarak 50-200 mm olmalıdır.",
+      "old_system_scope": "system_independent",
+      "new_system_scope": "wet_system"
+    },
+    {
+      "claim_id": "SEC-02-2-C-012",
+      "binding_id": "TSB-C012-REPAIR-001",
+      "scope_type": "application_context",
+      "scope_value": "concrete_repair_work",
+      "mandatory": true,
+      "source_key": "SRC-DOC000087-d989fc9aefbd",
+      "chunk_id": "DOC000087-C0281",
+      "source_heading_ancestry": ["351.08.11 Tamir İşleri için Püskürtmenin Uygulanması"],
+      "source_span": "Yaklaşık 20 °C sıcaklıkta ve herhangi bir priz hızlandırıcı katkı malzemesi kullanılmaz ise, bekleme süresi yaklaşık 3-5 saattir.",
+      "old_system_scope": "system_independent",
+      "new_system_scope": "repair_work"
+    }
+  ],
+  "condition_extensions": [
+    {
+      "claim_id": "SEC-02-2-P0-008",
+      "condition_set_id": "TCS-P0008-ROCK-001",
+      "mandatory": true,
+      "source_key": "SRC-DOC000047-d5c60204e247",
+      "chunk_id": "DOC000047-C0206",
+      "source_location": "Table 9-2, Initial Shotcrete Lining column",
+      "shared_criterion": {"value": "300", "unit": "mm", "relation": "and_more", "dependency": "dependent on tunnel size"},
+      "named_source_cases": [
+        {"case_id": "ROCK-CRUSHED", "source_label": "Crushed, but Chemically Intact Rock"},
+        {"case_id": "ROCK-SQUEEZING", "source_label": "Squeezing Rock"},
+        {"case_id": "ROCK-SWELLING", "source_label": "Swelling Rock"}
+      ],
+      "old_conditions": ["In some", "dependent on tunnel size"],
+      "new_condition_rule": "all named_source_cases plus shared_criterion.dependency are mandatory structured conditions",
+      "visible_surface_terms_added": 0,
+      "generic_gloss_entries_added": 0
+    }
+  ],
+  "new_claims": [
+    {
+      "claim_id": "SEC-02-2-C-018",
+      "claim_group_id": "CEMENT-MAXIMUM-BOUND-001",
+      "topic": "çimento dozajı",
+      "readiness_use": "REQUIRED_BOUNDARY",
+      "canonical_claim": "Çimento miktarı, kuru ve yaş sistemde 500 kg/m³'ü aşmamalıdır. Betonda aranan özelliklerin 500 kg/m³ ile sağlanamaması halinde, çimento tipinin değiştirilmesi düşünülmelidir.",
+      "source_key": "SRC-DOC000236-0229b854f373",
+      "document_id": "DOC000236",
+      "chunk_id": "DOC000236-C0267",
+      "source_heading": "351.04.01 Çimento",
+      "source_span": "Çimento miktarı, kuru ve yaş sistemde 500 kg/m³'ü aşmamalıdır. Betonda aranan özelliklerin 500 kg/m³ ile sağlanamaması halinde, çimento tipinin değiştirilmesi düşünülmelidir.",
+      "conditions": ["kuru sistem", "yaş sistem", "aranan özelliklerin 500 kg/m³ ile sağlanamaması"],
+      "numeric": [{"value": "500", "unit": "kg/m³", "role": "maximum", "source_stated": true}],
+      "linked_consequence": {"trigger": "required properties not achieved at 500 kg/m³", "action": "consider changing cement type", "modality": "recommended"},
+      "allowed_relationships": ["INDEPENDENT_WITH_INTERNAL_CONDITION"],
+      "composition_safe": true,
+      "citation_ready": true
+    }
+  ],
+  "totals": {
+    "scope_bindings_added": 3,
+    "condition_sets_extended": 1,
+    "named_source_cases_added": 3,
+    "claims_added": 1,
+    "frozen_claims_modified": 0,
+    "gloss_entries_added": 0,
+    "lexicon_entries_added": 0
+  }
+}

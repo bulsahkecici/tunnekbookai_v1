@@ -1,0 +1,432 @@
+{
+  "items": [
+    {
+      "author_evidence": [
+        {
+          "converted_source_lines": "29-31",
+          "field": "authors",
+          "value": "Turgay Onargan; Çağatay Pamukçu; C. Okay Aksoy",
+          "zone": "article_header"
+        }
+      ],
+      "authority_class": "UNKNOWN_AUTHORITY",
+      "authority_evidence_sufficiency": "NOT_PROMOTED_FROZEN_BATCH_CONTRACT",
+      "batch_id": "BATCH-05",
+      "claim_relative_applicability": "NOT_YET_AUTHORITY_SUITABLE",
+      "date_or_version_evidence": [
+        {
+          "converted_source_lines": "19-21",
+          "field": "publication_date",
+          "value": "Haziran 2009",
+          "zone": "bibliographic_header"
+        },
+        {
+          "converted_source_lines": "27",
+          "field": "received_date",
+          "value": "09 Nisan 2009",
+          "zone": "article_header"
+        },
+        {
+          "converted_source_lines": "27",
+          "field": "accepted_date",
+          "value": "12 Mayıs 2009",
+          "zone": "article_header"
+        }
+      ],
+      "document_id": "DOC000105",
+      "exact_title": "Yeni İtalyan Tünel Açma Yöntemi'nin Gelişim Süreci ve İzmir Metrosu Bornova Tünel İnşaatı Ön Destek Tasarımında",
+      "external_identity_verification_required": false,
+      "external_verification_plan": null,
+      "identity_confidence": "HIGH",
+      "identity_evidence": [
+        {
+          "converted_source_lines": "19",
+          "field": "venue",
+          "value": "Madencilik",
+          "zone": "bibliographic_header"
+        },
+        {
+          "converted_source_lines": "19-21",
+          "field": "volume",
+          "value": "48",
+          "zone": "bibliographic_header"
+        },
+        {
+          "converted_source_lines": "19-21",
+          "field": "issue",
+          "value": "2",
+          "zone": "bibliographic_header"
+        },
+        {
+          "converted_source_lines": "19-21",
+          "field": "pages",
+          "value": "21-34",
+          "zone": "bibliographic_header"
+        },
+        {
+          "converted_source_lines": "19-21",
+          "field": "publication_date",
+          "value": "Haziran 2009",
+          "zone": "bibliographic_header"
+        },
+        {
+          "converted_source_lines": "23-25",
+          "field": "title",
+          "value": "Yeni İtalyan Tünel Açma Yöntemi'nin Gelişim Süreci ve İzmir Metrosu Bornova Tünel İnşaatı Ön Destek Tasarımında",
+          "zone": "article_header"
+        },
+        {
+          "converted_source_lines": "27",
+          "field": "received_date",
+          "value": "09 Nisan 2009",
+          "zone": "article_header"
+        },
+        {
+          "converted_source_lines": "27",
+          "field": "accepted_date",
+          "value": "12 Mayıs 2009",
+          "zone": "article_header"
+        },
+        {
+          "converted_source_lines": "29-31",
+          "field": "authors",
+          "value": "Turgay Onargan; Çağatay Pamukçu; C. Okay Aksoy",
+          "zone": "article_header"
+        }
+      ],
+      "inspection_mechanism": "TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION",
+      "institution_or_publisher_evidence": [],
+      "limitations": "No authority, support, proposition, provenance, anchor, scope, review, or admission state changed.",
+      "missing_fields": [
+        "DOI",
+        "ISSN"
+      ],
+      "promotion": false,
+      "publication_identifiers": [
+        {
+          "converted_source_lines": "19-21",
+          "field": "volume",
+          "value": "48",
+          "zone": "bibliographic_header"
+        },
+        {
+          "converted_source_lines": "19-21",
+          "field": "issue",
+          "value": "2",
+          "zone": "bibliographic_header"
+        },
+        {
+          "converted_source_lines": "19-21",
+          "field": "pages",
+          "value": "21-34",
+          "zone": "bibliographic_header"
+        }
+      ],
+      "reason": "Explicit journal venue, volume, issue, pages, date, article title, authors, and editorial dates resolve the identity and source type.",
+      "result": "LOCAL_EVIDENCE_SUFFICIENT",
+      "source_path": "data/markdown/Mehmet/Literatur/Wordler/Maden Muh Oda_Italyan Tunel Acma Yontemi2475424055cc5ce_ek.md",
+      "source_sha256": "018d1bda6d9f6ec712df5a65e93bdf8a0e17f024f89d38e8b703c8d8a4ea68d2",
+      "source_type": "JOURNAL_ARTICLE",
+      "source_type_evidence": [
+        {
+          "converted_source_lines": "19",
+          "field": "venue",
+          "value": "Madencilik",
+          "zone": "bibliographic_header"
+        }
+      ]
+    },
+    {
+      "author_evidence": [
+        {
+          "converted_source_lines": "62",
+          "field": "author",
+          "value": "Ulaş Aygün",
+          "zone": "title_page"
+        }
+      ],
+      "authority_class": "UNKNOWN_AUTHORITY",
+      "authority_evidence_sufficiency": "NOT_PROMOTED_FROZEN_BATCH_CONTRACT",
+      "batch_id": "BATCH-05",
+      "claim_relative_applicability": "NOT_YET_AUTHORITY_SUITABLE",
+      "date_or_version_evidence": [
+        {
+          "converted_source_lines": "58",
+          "field": "event_date",
+          "value": "29-30 Kasım 2022",
+          "zone": "title_page"
+        }
+      ],
+      "document_id": "DOC000163",
+      "exact_title": "Endonezya ve Uzakdoğu'da Tünel Projeleri Türk Müteahhitleri İçin İmkanlar",
+      "external_identity_verification_required": true,
+      "external_verification_plan": {
+        "identity_matching_keys": [
+          "DOC000163",
+          "Endonezya ve Uzakdoğu'da Tünel Projeleri Türk Müteahhitleri İçin İmkanlar",
+          "29-30 Kasım 2022"
+        ],
+        "mismatch_behavior": "RETAIN_UNKNOWN_AUTHORITY",
+        "missing_identity_fields": [
+          "event_name",
+          "proceedings_identifier"
+        ],
+        "preferred_authoritative_lookup_class": "ISSUER_PUBLISHER_EVENT_OR_PROJECT_OWNER_RECORD"
+      },
+      "identity_confidence": "PARTIAL",
+      "identity_evidence": [
+        {
+          "converted_source_lines": "24,54",
+          "field": "event_site",
+          "value": "www.tunnelturkey.org",
+          "zone": "title_page"
+        },
+        {
+          "converted_source_lines": "58",
+          "field": "event_date",
+          "value": "29-30 Kasım 2022",
+          "zone": "title_page"
+        },
+        {
+          "converted_source_lines": "60",
+          "field": "title",
+          "value": "Endonezya ve Uzakdoğu'da Tünel Projeleri Türk Müteahhitleri İçin İmkanlar",
+          "zone": "title_page"
+        },
+        {
+          "converted_source_lines": "62",
+          "field": "author",
+          "value": "Ulaş Aygün",
+          "zone": "title_page"
+        },
+        {
+          "converted_source_lines": "62",
+          "field": "affiliation",
+          "value": "Mapei Indonesia",
+          "zone": "title_page"
+        }
+      ],
+      "inspection_mechanism": "TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION",
+      "institution_or_publisher_evidence": [
+        {
+          "converted_source_lines": "62",
+          "field": "affiliation",
+          "value": "Mapei Indonesia",
+          "zone": "title_page"
+        }
+      ],
+      "limitations": "No authority, support, proposition, provenance, anchor, scope, review, or admission state changed.",
+      "missing_fields": [
+        "event_name",
+        "proceedings_identifier"
+      ],
+      "promotion": false,
+      "publication_identifiers": [],
+      "reason": "Dated event presentation title, author, affiliation, and event site are explicit; event name and proceedings identity are absent locally.",
+      "result": "EXTERNAL_IDENTITY_VERIFICATION_REQUIRED",
+      "source_path": "data/markdown_full_docling/Sunumlar_2022/7_Tunnel Projects in Indonesia and the Far East Opportunities for Turkish Contractors.md",
+      "source_sha256": "3c901d22f3e8478ab3fd5707edf7786442075386665c09bbe3b04213fdd80a0a",
+      "source_type": "CONFERENCE_PAPER",
+      "source_type_evidence": [
+        {
+          "converted_source_lines": "24,54",
+          "field": "event_site",
+          "value": "www.tunnelturkey.org",
+          "zone": "title_page"
+        }
+      ]
+    },
+    {
+      "author_evidence": [],
+      "authority_class": "UNKNOWN_AUTHORITY",
+      "authority_evidence_sufficiency": "NOT_PROMOTED_FROZEN_BATCH_CONTRACT",
+      "batch_id": "BATCH-05",
+      "claim_relative_applicability": "NOT_YET_AUTHORITY_SUITABLE",
+      "date_or_version_evidence": [
+        {
+          "converted_source_lines": "38-40",
+          "field": "contract_date",
+          "value": "07 Mart 2018",
+          "zone": "project_identity_zone"
+        }
+      ],
+      "document_id": "DOC000164",
+      "exact_title": "Halkalı - İstanbul Havalimanı Metro Hattı",
+      "external_identity_verification_required": true,
+      "external_verification_plan": {
+        "identity_matching_keys": [
+          "DOC000164",
+          "Halkalı - İstanbul Havalimanı Metro Hattı",
+          "07 Mart 2018"
+        ],
+        "mismatch_behavior": "RETAIN_UNKNOWN_AUTHORITY",
+        "missing_identity_fields": [
+          "report_or_contract_identifier",
+          "presentation_date",
+          "author_or_presenter"
+        ],
+        "preferred_authoritative_lookup_class": "ISSUER_PUBLISHER_EVENT_OR_PROJECT_OWNER_RECORD"
+      },
+      "identity_confidence": "PARTIAL",
+      "identity_evidence": [
+        {
+          "converted_source_lines": "56",
+          "field": "title",
+          "value": "Halkalı - İstanbul Havalimanı Metro Hattı",
+          "zone": "title_page"
+        },
+        {
+          "converted_source_lines": "26-29",
+          "field": "project_owner",
+          "value": "Altyapı Yatırımları Genel Müdürlüğü, Ulaştırma, Denizcilik ve Haberleşme Bakanlığı Müsteşarlık (AYGM)",
+          "zone": "project_identity_zone"
+        },
+        {
+          "converted_source_lines": "30-32",
+          "field": "consultant",
+          "value": "APCO Teknik Altınok Mühendislik Müşavirlik A.Ş.",
+          "zone": "project_identity_zone"
+        },
+        {
+          "converted_source_lines": "34-36",
+          "field": "contractor",
+          "value": "Cengiz-Kolin-Kalyon-Özgün İstanbul Yeni Havalimanı-Halkalı Metro Yapım Ortaklığı",
+          "zone": "project_identity_zone"
+        },
+        {
+          "converted_source_lines": "38-40",
+          "field": "contract_date",
+          "value": "07 Mart 2018",
+          "zone": "project_identity_zone"
+        },
+        {
+          "converted_source_lines": "64",
+          "field": "site",
+          "value": "hyhmetro.com.tr",
+          "zone": "project_identity_zone"
+        }
+      ],
+      "inspection_mechanism": "TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION",
+      "institution_or_publisher_evidence": [
+        {
+          "converted_source_lines": "26-29",
+          "field": "project_owner",
+          "value": "Altyapı Yatırımları Genel Müdürlüğü, Ulaştırma, Denizcilik ve Haberleşme Bakanlığı Müsteşarlık (AYGM)",
+          "zone": "project_identity_zone"
+        },
+        {
+          "converted_source_lines": "30-32",
+          "field": "consultant",
+          "value": "APCO Teknik Altınok Mühendislik Müşavirlik A.Ş.",
+          "zone": "project_identity_zone"
+        },
+        {
+          "converted_source_lines": "34-36",
+          "field": "contractor",
+          "value": "Cengiz-Kolin-Kalyon-Özgün İstanbul Yeni Havalimanı-Halkalı Metro Yapım Ortaklığı",
+          "zone": "project_identity_zone"
+        }
+      ],
+      "limitations": "No authority, support, proposition, provenance, anchor, scope, review, or admission state changed.",
+      "missing_fields": [
+        "report_or_contract_identifier",
+        "presentation_date",
+        "author_or_presenter"
+      ],
+      "promotion": false,
+      "publication_identifiers": [],
+      "reason": "Explicit project title, owner, consultant, contractor, and contract date resolve a project technical source; report identity and presenter remain absent.",
+      "result": "EXTERNAL_IDENTITY_VERIFICATION_REQUIRED",
+      "source_path": "data/markdown_full_docling/Sunumlar_2022/8_Halkali - Istanbul Airport Metro Construction Works.md",
+      "source_sha256": "094e554ca80aede2e693581c8ac8438018f7bdade6460ca429acf0e5058d54cf",
+      "source_type": "PROJECT_TECHNICAL_REPORT",
+      "source_type_evidence": [
+        {
+          "converted_source_lines": "26-29",
+          "field": "project_owner",
+          "value": "Altyapı Yatırımları Genel Müdürlüğü, Ulaştırma, Denizcilik ve Haberleşme Bakanlığı Müsteşarlık (AYGM)",
+          "zone": "project_identity_zone"
+        }
+      ]
+    },
+    {
+      "author_evidence": [],
+      "authority_class": "UNKNOWN_AUTHORITY",
+      "authority_evidence_sufficiency": "NOT_PROMOTED_FROZEN_BATCH_CONTRACT",
+      "batch_id": "BATCH-05",
+      "claim_relative_applicability": "NOT_YET_AUTHORITY_SUITABLE",
+      "date_or_version_evidence": [
+        {
+          "converted_source_lines": "30",
+          "field": "event_date",
+          "value": "29-30 Kasım 2022",
+          "zone": "title_page"
+        }
+      ],
+      "document_id": "DOC000165",
+      "exact_title": "Tünel Kalıcı Kaplama Tasarım Yaklaşımı, Analiz ve Tahkik Detaylarının İrdelenmesi",
+      "external_identity_verification_required": true,
+      "external_verification_plan": {
+        "identity_matching_keys": [
+          "DOC000165",
+          "Tünel Kalıcı Kaplama Tasarım Yaklaşımı, Analiz ve Tahkik Detaylarının İrdelenmesi",
+          "29-30 Kasım 2022"
+        ],
+        "mismatch_behavior": "RETAIN_UNKNOWN_AUTHORITY",
+        "missing_identity_fields": [
+          "author_or_presenter",
+          "institution_or_publisher",
+          "event_name",
+          "proceedings_identifier"
+        ],
+        "preferred_authoritative_lookup_class": "ISSUER_PUBLISHER_EVENT_OR_PROJECT_OWNER_RECORD"
+      },
+      "identity_confidence": "PARTIAL",
+      "identity_evidence": [
+        {
+          "converted_source_lines": "24-26",
+          "field": "event_site",
+          "value": "www.tunnelturkey.org",
+          "zone": "title_page"
+        },
+        {
+          "converted_source_lines": "30",
+          "field": "event_date",
+          "value": "29-30 Kasım 2022",
+          "zone": "title_page"
+        },
+        {
+          "converted_source_lines": "32",
+          "field": "title",
+          "value": "Tünel Kalıcı Kaplama Tasarım Yaklaşımı, Analiz ve Tahkik Detaylarının İrdelenmesi",
+          "zone": "title_page"
+        }
+      ],
+      "inspection_mechanism": "TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION",
+      "institution_or_publisher_evidence": [],
+      "limitations": "No authority, support, proposition, provenance, anchor, scope, review, or admission state changed.",
+      "missing_fields": [
+        "author_or_presenter",
+        "institution_or_publisher",
+        "event_name",
+        "proceedings_identifier"
+      ],
+      "promotion": false,
+      "publication_identifiers": [],
+      "reason": "A dated event presentation title and event site are explicit, but author, institution, event name, and proceedings identity are absent locally.",
+      "result": "EXTERNAL_IDENTITY_VERIFICATION_REQUIRED",
+      "source_path": "data/markdown_full_docling/Sunumlar_2022/9_Final Lining Design Approach for Reduction Tunnels.md",
+      "source_sha256": "b6c61a9f19e28d12c99b69874a4e8a2482e7c8a343868bf958229355aa7bb6e5",
+      "source_type": "CONFERENCE_PAPER",
+      "source_type_evidence": [
+        {
+          "converted_source_lines": "24-26",
+          "field": "event_site",
+          "value": "www.tunnelturkey.org",
+          "zone": "title_page"
+        }
+      ]
+    }
+  ],
+  "schema_version": "1.0.0"
+}

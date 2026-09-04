@@ -1,0 +1,890 @@
+{
+  "external_technical_evidence_permitted": false,
+  "items": [
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000002",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000003",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000038",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "project_owner_or_issuer",
+        "canonical_title",
+        "date",
+        "report_or_contract_identifier"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000039",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000042",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000045",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "creator_or_issuing_body",
+        "title_or_record_description",
+        "date_or_period",
+        "archive_or_collection_locator"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000048",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000072",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "author",
+        "title",
+        "degree",
+        "institution",
+        "year",
+        "repository_record_or_identifier"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000073",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000074",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000075",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000076",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000087",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "issuer",
+        "identifier",
+        "edition_or_date",
+        "canonical_title"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000098",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "author",
+        "title",
+        "degree",
+        "institution",
+        "year",
+        "repository_record_or_identifier"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000100",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000102",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000105",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000163",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "project_owner_or_issuer",
+        "canonical_title",
+        "date",
+        "report_or_contract_identifier"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000164",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000165",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000193",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "authors",
+        "article_title",
+        "journal",
+        "year",
+        "doi_or_volume_issue_pages"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000200",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "authors",
+        "article_title",
+        "journal",
+        "year",
+        "doi_or_volume_issue_pages"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000209",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000211",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000214",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000215",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000216",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000217",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000225",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "authors",
+        "paper_title",
+        "conference_or_proceedings",
+        "year",
+        "doi_or_pages"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000267",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000268",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000269",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000302",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    },
+    {
+      "admission_boundary": "IDENTITY_AND_AUTHORITY_VERIFICATION_ONLY_NO_TECHNICAL_EVIDENCE",
+      "browsing_performed": false,
+      "capture_provenance": [
+        "lookup_class",
+        "canonical_url_or_record_id",
+        "access_date",
+        "matched_keys",
+        "mismatches"
+      ],
+      "document_id": "DOC000306",
+      "fallback_lookup_class": "DOI_ISBN_LIBRARY_STANDARDS_OR_ARCHIVE_CATALOG_AS_TYPE_APPLICABLE",
+      "identity_fields": [
+        "source_type_evidence"
+      ],
+      "matching_keys": [
+        "canonical_title",
+        "author_or_issuer",
+        "date",
+        "stable_identifier"
+      ],
+      "mismatch_behavior": "RETAIN_UNKNOWN_AND_ESCALATE_HUMAN_DECISION",
+      "permitted_only_after_repository_extraction": true,
+      "preferred_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_REPOSITORY_RECORD"
+    }
+  ],
+  "schema_version": "1.0.0"
+}

@@ -1,0 +1,54 @@
+{
+  "authority_class": "INSTITUTIONAL_TECHNICAL",
+  "batch_id": "BATCH-01",
+  "document_id": "DOC000003",
+  "external_identity_verification_required": false,
+  "identity_evidence": [
+    {
+      "converted_source_lines": "24-26",
+      "field": "publisher",
+      "value": "THE NATIONAL ACADEMIES PRESS",
+      "zone": "front_matter"
+    },
+    {
+      "converted_source_lines": "38",
+      "field": "canonical_title",
+      "value": "Making Transportation Tunnels Safe and Secure",
+      "zone": "front_matter"
+    },
+    {
+      "converted_source_lines": "38",
+      "field": "year",
+      "value": "2006",
+      "zone": "front_matter"
+    },
+    {
+      "converted_source_lines": "42",
+      "field": "isbn",
+      "value": "978-0-309-09871-7",
+      "zone": "bibliographic_block"
+    },
+    {
+      "converted_source_lines": "42",
+      "field": "doi",
+      "value": "10.17226/13965",
+      "zone": "bibliographic_block"
+    },
+    {
+      "converted_source_lines": "44-46",
+      "field": "responsible_programs",
+      "value": "NCHRP; TCRP; Transportation Research Board; National Academies",
+      "zone": "contributors"
+    }
+  ],
+  "inspection_mechanism": "TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION",
+  "missing_fields": [],
+  "promotion": true,
+  "reason": "Publisher, title, year, stable identifiers, and responsible institutional programs are explicit.",
+  "result": "LOCAL_EVIDENCE_SUFFICIENT",
+  "schema_version": "1.0.0",
+  "source_path": "data/markdown_full_docling/Leyla Literatür/TunelMaliyet/13965.md",
+  "source_sha256": "96956203b5c40a2187a4125b88186b3eb250b04fa04222311769639782d692c1",
+  "source_type": "OFFICIAL_REPORT",
+  "sufficiency": "SUFFICIENT"
+}

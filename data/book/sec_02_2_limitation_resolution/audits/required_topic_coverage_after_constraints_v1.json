@@ -1,0 +1,105 @@
+[
+  {
+    "audit_method": "manual_evidence_read",
+    "blocking_reason": null,
+    "citation_ready_claim_ids": [
+      "SEC-02-2-P0-001",
+      "SEC-02-2-P0-002",
+      "SEC-02-2-P0-003",
+      "SEC-02-2-P0-004",
+      "SEC-02-2-P0-005",
+      "SEC-02-2-P0-006",
+      "SEC-02-2-R001"
+    ],
+    "composition_safe_claim_ids": [
+      "SEC-02-2-P0-001",
+      "SEC-02-2-P0-002",
+      "SEC-02-2-P0-003",
+      "SEC-02-2-P0-004",
+      "SEC-02-2-P0-005",
+      "SEC-02-2-P0-006",
+      "SEC-02-2-R001"
+    ],
+    "constrained_claim_ids": [
+      "SEC-02-2-P0-001",
+      "SEC-02-2-P0-002",
+      "SEC-02-2-R001"
+    ],
+    "coverage_status": "COMPLETE_WITH_QUALIFIER",
+    "coverage_status_before": "COMPLETE_WITH_QUALIFIER",
+    "dropped_by_composition": [],
+    "required": true,
+    "required_core_claim_ids": [
+      "SEC-02-2-P0-001",
+      "SEC-02-2-P0-003",
+      "SEC-02-2-P0-006",
+      "SEC-02-2-R001"
+    ],
+    "topic": "çimento dozajı"
+  },
+  {
+    "audit_method": "manual_evidence_read",
+    "blocking_reason": null,
+    "citation_ready_claim_ids": [
+      "SEC-02-2-C-003",
+      "SEC-02-2-C-004",
+      "SEC-02-2-C-005",
+      "SEC-02-2-C-006",
+      "SEC-02-2-C-007",
+      "SEC-02-2-C-008",
+      "SEC-02-2-C-009",
+      "SEC-02-2-C-010",
+      "SEC-02-2-C-011",
+      "SEC-02-2-C-012",
+      "SEC-02-2-P0-007",
+      "SEC-02-2-P0-008"
+    ],
+    "composition_safe_claim_ids": [
+      "SEC-02-2-C-003",
+      "SEC-02-2-C-004",
+      "SEC-02-2-C-005",
+      "SEC-02-2-C-006",
+      "SEC-02-2-C-007",
+      "SEC-02-2-C-008",
+      "SEC-02-2-C-009",
+      "SEC-02-2-C-010",
+      "SEC-02-2-C-011",
+      "SEC-02-2-C-012",
+      "SEC-02-2-P0-007",
+      "SEC-02-2-P0-008"
+    ],
+    "constrained_claim_ids": [
+      "SEC-02-2-C-003"
+    ],
+    "coverage_status": "COMPLETE_WITH_QUALIFIER",
+    "coverage_status_before": "COMPLETE_WITH_QUALIFIER",
+    "dropped_by_composition": [],
+    "required": true,
+    "required_core_claim_ids": [
+      "SEC-02-2-P0-007",
+      "SEC-02-2-P0-008"
+    ],
+    "topic": "kaplama kalınlığı"
+  },
+  {
+    "audit_method": "manual_evidence_read",
+    "blocking_reason": null,
+    "citation_ready_claim_ids": [
+      "SEC-02-2-C-001",
+      "SEC-02-2-C-002"
+    ],
+    "composition_safe_claim_ids": [
+      "SEC-02-2-C-001",
+      "SEC-02-2-C-002"
+    ],
+    "constrained_claim_ids": [],
+    "coverage_status": "COMPLETE_WITH_QUALIFIER",
+    "coverage_status_before": "COMPLETE_WITH_QUALIFIER",
+    "dropped_by_composition": [],
+    "required": true,
+    "required_core_claim_ids": [
+      "SEC-02-2-C-001"
+    ],
+    "topic": "dayanım sınıfı"
+  }
+]

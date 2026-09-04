@@ -1,0 +1,39 @@
+{
+  "authority_promotions": 0,
+  "claim_level_admissions": 0,
+  "coverage": "34/34",
+  "deterministic": true,
+  "external_browsing": 0,
+  "external_technical_evidence": 0,
+  "fixtures": {
+    "negative": [
+      "filename_as_authority_proof",
+      "institution_body_mention_as_authority_proof",
+      "external_technical_substitution",
+      "unknown_promotion",
+      "legacy_c_d_authority",
+      "support_changed",
+      "partial_provenance_as_complete",
+      "bulk_corpus_scan",
+      "book_prose"
+    ],
+    "positive": [
+      "local_frontmatter_sufficient_ready",
+      "doi_publisher_external_identity_plan",
+      "project_report_type_relative_requirements",
+      "standard_missing_identifier_standards_lookup_plan",
+      "support_count_unchanged"
+    ]
+  },
+  "frozen_input_hashes": {
+    "data/book/prewriting_repository_authority_evidence_acquisition_planning_v1/contracts/authority_evidence_acquisition_planning_acceptance_contract_v1.json": "7cde173ee41692a36547ca03674e813573ccc7beb6c19693cb72049e998fdbec",
+    "data/book/prewriting_repository_authority_status_residual_locator_remediation_v1/registries/orthogonal_claim_status_registry_v1.json": "66c66c5e05df898b714c69a93fc84e4cb51dc2c54bc7e04042ea684c5fa089ff",
+    "data/book/prewriting_repository_authority_status_residual_locator_remediation_v1/registries/section_claim_readiness_ledger_v4.json": "a09fa37690c2f08048093cf88598116798be8dda65fa9a9e4fbdc2dfbba2e758",
+    "data/book/prewriting_repository_authority_status_residual_locator_remediation_v1/registries/source_authority_registry_v3.json": "75dec6ed28a3825452f8cd0d688f4469f8bfd9cade5acb4a5eb0b79696e343ac"
+  },
+  "partial_provenance_claims": 61,
+  "partial_provenance_is_orthogonal": true,
+  "passed": true,
+  "schema_version": "1.0.0",
+  "verified_support": 602
+}

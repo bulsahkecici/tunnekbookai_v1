@@ -1,0 +1,48 @@
+{
+  "document_id": "DOC000045",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:53:26+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "Karayolları Genel Müdürlüğünün bu konuyla ilgili iki çalışması mevcuttur. Referans alınabilecek bu iki çalışmadan biri, 'Tünel İşletme Ve Bakımı Hakkında Yönetmelik Tasarısı', diğeri ise 'Tünellerin Asgari Güvenlik Gereksinimlerine İlişkin Proje Kriterlerinin Belirlenmesi İle İlgili Komisyon Raporu'dur. [authority_B_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "medium",
+      "evidence": "Tünellerin Asgari Güvenlik Gereksinimlerine İlişkin Proje Kriterlerinin Belirlenmesi İle İlgili Komisyon Raporu",
+      "value": "technical_report"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "Karayolları Genel Müdürlüğünün bu konuyla ilgili iki çalışması mevcuttur.",
+      "value": "Karayolları Genel Müdürlüğü (KGM)"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "## TÜRKİYE KARAYOLLARI TÜNELLERİNİN TARİHÇESİ VE TÜNEL GÜVENLİK KRİTERLERİ 1 ##",
+      "value": "TR Karayolları Tünellerinin Tarihçesi ve Tünel Güvenlik Kriterleri"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "TÜRKİYE KARAYOLLARI TÜNELLERİNİN TARİHÇESİ VE TÜNEL GÜVENLİK KRİTERLERİ",
+      "value": [
+        "history",
+        "safety"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Avrupa Parlamentosu ve Konseyi'nin 29.04.2004 tarih ve 2004/54/EC sayılı Trans-Avrupa Karayolu Ağı Tünelleri İçin Minimum Güvenlik Gereksinimleri",
+      "value": 2004
+    }
+  },
+  "source_sha256": "5d524bf61343305c4f9c1a8fda2248659201b7fa0304f2a8c00b0c9559d8dbc4"
+}

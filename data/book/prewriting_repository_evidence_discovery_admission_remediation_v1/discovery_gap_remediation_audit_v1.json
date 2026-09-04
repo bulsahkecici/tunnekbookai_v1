@@ -1,0 +1,1386 @@
+{
+  "defect_class": "DISCOVERY_GAP",
+  "expected_count": 172,
+  "items": [
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000209",
+      "mapping_id": "REM-001",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-A-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000210",
+      "mapping_id": "REM-002",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-A-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000211",
+      "mapping_id": "REM-003",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-A-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000212",
+      "mapping_id": "REM-004",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-A-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000209",
+      "mapping_id": "REM-005",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-A-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000210",
+      "mapping_id": "REM-006",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-A-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000211",
+      "mapping_id": "REM-007",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-A-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000212",
+      "mapping_id": "REM-008",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-A-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000209",
+      "mapping_id": "REM-009",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-A-S11"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000210",
+      "mapping_id": "REM-010",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-A-S11"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000211",
+      "mapping_id": "REM-011",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-A-S11"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000212",
+      "mapping_id": "REM-012",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-A-S11"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000116",
+      "mapping_id": "REM-015",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000221",
+      "mapping_id": "REM-020",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000116",
+      "mapping_id": "REM-023",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S03"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000221",
+      "mapping_id": "REM-028",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S03"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000010",
+      "mapping_id": "REM-029",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S04"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000012",
+      "mapping_id": "REM-031",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S04"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000044",
+      "mapping_id": "REM-032",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S04"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000158",
+      "mapping_id": "REM-033",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S04"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000164",
+      "mapping_id": "REM-034",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S04"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000225",
+      "mapping_id": "REM-035",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S04"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000267",
+      "mapping_id": "REM-036",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S04"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000268",
+      "mapping_id": "REM-037",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S04"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000269",
+      "mapping_id": "REM-038",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S04"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000010",
+      "mapping_id": "REM-039",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000012",
+      "mapping_id": "REM-041",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-042",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000014",
+      "mapping_id": "REM-043",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000017",
+      "mapping_id": "REM-045",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000018",
+      "mapping_id": "REM-046",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000019",
+      "mapping_id": "REM-047",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000100",
+      "mapping_id": "REM-048",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000038",
+      "mapping_id": "REM-049",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000112",
+      "mapping_id": "REM-050",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000113",
+      "mapping_id": "REM-051",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000114",
+      "mapping_id": "REM-052",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000122",
+      "mapping_id": "REM-053",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000157",
+      "mapping_id": "REM-054",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000159",
+      "mapping_id": "REM-055",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000160",
+      "mapping_id": "REM-056",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000163",
+      "mapping_id": "REM-057",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000165",
+      "mapping_id": "REM-058",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000111",
+      "mapping_id": "REM-059",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000114",
+      "mapping_id": "REM-060",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000119",
+      "mapping_id": "REM-061",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000122",
+      "mapping_id": "REM-062",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000302",
+      "mapping_id": "REM-063",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000038",
+      "mapping_id": "REM-064",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S17"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000112",
+      "mapping_id": "REM-065",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S17"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000113",
+      "mapping_id": "REM-066",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S17"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000114",
+      "mapping_id": "REM-067",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S17"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000122",
+      "mapping_id": "REM-068",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S17"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000157",
+      "mapping_id": "REM-069",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S17"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000159",
+      "mapping_id": "REM-070",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S17"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000160",
+      "mapping_id": "REM-071",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-B-S17"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000163",
+      "mapping_id": "REM-072",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S17"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000165",
+      "mapping_id": "REM-073",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-B-S17"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000001",
+      "mapping_id": "REM-074",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000012",
+      "mapping_id": "REM-076",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-077",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000014",
+      "mapping_id": "REM-078",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000017",
+      "mapping_id": "REM-080",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000018",
+      "mapping_id": "REM-081",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000019",
+      "mapping_id": "REM-082",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000100",
+      "mapping_id": "REM-083",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-D-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000001",
+      "mapping_id": "REM-084",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S02"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000012",
+      "mapping_id": "REM-086",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S02"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-087",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S02"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000014",
+      "mapping_id": "REM-088",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S02"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000017",
+      "mapping_id": "REM-090",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S02"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000018",
+      "mapping_id": "REM-091",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S02"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000019",
+      "mapping_id": "REM-092",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-D-S02"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000100",
+      "mapping_id": "REM-093",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-D-S02"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-094",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S04"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000044",
+      "mapping_id": "REM-095",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S04"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000048",
+      "mapping_id": "REM-096",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-E-S04"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-097",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S05"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000044",
+      "mapping_id": "REM-098",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S05"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000048",
+      "mapping_id": "REM-099",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S05"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-100",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S06"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000044",
+      "mapping_id": "REM-101",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S06"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000048",
+      "mapping_id": "REM-102",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-E-S06"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-103",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S07"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000044",
+      "mapping_id": "REM-104",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S07"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000048",
+      "mapping_id": "REM-105",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-E-S07"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000001",
+      "mapping_id": "REM-106",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000012",
+      "mapping_id": "REM-108",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-109",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000014",
+      "mapping_id": "REM-110",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000017",
+      "mapping_id": "REM-112",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000018",
+      "mapping_id": "REM-113",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000019",
+      "mapping_id": "REM-114",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000100",
+      "mapping_id": "REM-115",
+      "resolved": true,
+      "resulting_state": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S08"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000001",
+      "mapping_id": "REM-116",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000012",
+      "mapping_id": "REM-118",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-119",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000014",
+      "mapping_id": "REM-120",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000017",
+      "mapping_id": "REM-122",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000018",
+      "mapping_id": "REM-123",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000019",
+      "mapping_id": "REM-124",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000100",
+      "mapping_id": "REM-125",
+      "resolved": true,
+      "resulting_state": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S09"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000001",
+      "mapping_id": "REM-126",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000012",
+      "mapping_id": "REM-128",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-129",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000014",
+      "mapping_id": "REM-130",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000017",
+      "mapping_id": "REM-132",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000018",
+      "mapping_id": "REM-133",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000019",
+      "mapping_id": "REM-134",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000100",
+      "mapping_id": "REM-135",
+      "resolved": true,
+      "resulting_state": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S10"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000001",
+      "mapping_id": "REM-136",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S11"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000012",
+      "mapping_id": "REM-138",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S11"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-139",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S11"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000014",
+      "mapping_id": "REM-140",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S11"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000017",
+      "mapping_id": "REM-142",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S11"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000018",
+      "mapping_id": "REM-143",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S11"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000019",
+      "mapping_id": "REM-144",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S11"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000100",
+      "mapping_id": "REM-145",
+      "resolved": true,
+      "resulting_state": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S11"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000001",
+      "mapping_id": "REM-146",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S12"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000012",
+      "mapping_id": "REM-148",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S12"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-149",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S12"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000014",
+      "mapping_id": "REM-150",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S12"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000017",
+      "mapping_id": "REM-152",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S12"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000018",
+      "mapping_id": "REM-153",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S12"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000019",
+      "mapping_id": "REM-154",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S12"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000100",
+      "mapping_id": "REM-155",
+      "resolved": true,
+      "resulting_state": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S12"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000001",
+      "mapping_id": "REM-156",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S13"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000012",
+      "mapping_id": "REM-158",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S13"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-159",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S13"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000014",
+      "mapping_id": "REM-160",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S13"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000017",
+      "mapping_id": "REM-162",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S13"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000018",
+      "mapping_id": "REM-163",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S13"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000019",
+      "mapping_id": "REM-164",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S13"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000100",
+      "mapping_id": "REM-165",
+      "resolved": true,
+      "resulting_state": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S13"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-166",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S14"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000044",
+      "mapping_id": "REM-167",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S14"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000048",
+      "mapping_id": "REM-168",
+      "resolved": true,
+      "resulting_state": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S14"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000001",
+      "mapping_id": "REM-169",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S15"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000012",
+      "mapping_id": "REM-171",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S15"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-172",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S15"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000014",
+      "mapping_id": "REM-173",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S15"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000017",
+      "mapping_id": "REM-175",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S15"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000018",
+      "mapping_id": "REM-176",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S15"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000019",
+      "mapping_id": "REM-177",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S15"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000100",
+      "mapping_id": "REM-178",
+      "resolved": true,
+      "resulting_state": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S15"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000001",
+      "mapping_id": "REM-179",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S16"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000012",
+      "mapping_id": "REM-181",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S16"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-182",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S16"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000014",
+      "mapping_id": "REM-183",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S16"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000017",
+      "mapping_id": "REM-185",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S16"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000018",
+      "mapping_id": "REM-186",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S16"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000019",
+      "mapping_id": "REM-187",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S16"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000100",
+      "mapping_id": "REM-188",
+      "resolved": true,
+      "resulting_state": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S16"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-189",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S17"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000044",
+      "mapping_id": "REM-190",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-E-S17"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000048",
+      "mapping_id": "REM-191",
+      "resolved": true,
+      "resulting_state": "CLAIM_EXTRACTION_REQUIRED",
+      "section_id": "CH-E-S17"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000001",
+      "mapping_id": "REM-192",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000012",
+      "mapping_id": "REM-194",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-195",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000014",
+      "mapping_id": "REM-196",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000017",
+      "mapping_id": "REM-198",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000018",
+      "mapping_id": "REM-199",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000019",
+      "mapping_id": "REM-200",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000100",
+      "mapping_id": "REM-201",
+      "resolved": true,
+      "resulting_state": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-G-S01"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000010",
+      "mapping_id": "REM-202",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S02"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000012",
+      "mapping_id": "REM-204",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S02"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000013",
+      "mapping_id": "REM-205",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S02"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000014",
+      "mapping_id": "REM-206",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S02"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000017",
+      "mapping_id": "REM-208",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S02"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000018",
+      "mapping_id": "REM-209",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S02"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000019",
+      "mapping_id": "REM-210",
+      "resolved": true,
+      "resulting_state": "DISCOVERED_CANDIDATE",
+      "section_id": "CH-G-S02"
+    },
+    {
+      "basis": "AUTHORITATIVE_INVENTORY_AND_CHUNK_REGISTRY_RESOLVED",
+      "document_id": "DOC000100",
+      "mapping_id": "REM-211",
+      "resolved": true,
+      "resulting_state": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-G-S02"
+    }
+  ],
+  "observed_count": 172,
+  "resolved_count": 172,
+  "schema_version": "1.0.0",
+  "unresolved_count": 0
+}

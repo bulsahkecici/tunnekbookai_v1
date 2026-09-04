@@ -1,0 +1,49 @@
+{
+  "document_id": "DOC000281",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:08:07+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "TÜNEL MÜH.GELİŞTİRME KURSU [evidence_not_grounded_in_context] [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "low",
+      "evidence": "TÜNEL MÜH.GELİŞTİRME KURSU [evidence_not_grounded_in_context]",
+      "value": "training_material"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "Yapısal Makro Sentetik Fiber Donatı Kullanımı",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "Yapısal Makro Sentetik Fiber Donatı Kullanımı",
+      "value": "Makro sentetik Fiber"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Püskürtme Betonlar (Shotcrete) ve Nihai Kaplamalar",
+      "value": [
+        "fiber_reinforced_concrete",
+        "shotcrete",
+        "support_systems"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020) [evidence_not_grounded_in_context]",
+      "value": 2020
+    }
+  },
+  "source_sha256": "0a256c5562db6c6bcb23763c5969f3b1c993a084ee8a4c87b426e3474939cf86"
+}

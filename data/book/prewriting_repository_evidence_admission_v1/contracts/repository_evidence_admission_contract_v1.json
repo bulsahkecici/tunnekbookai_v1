@@ -1,0 +1,37 @@
+{
+  "schema_version": "repository-evidence-admission-contract-v1",
+  "phase": "PRE-WRITING REPOSITORY EVIDENCE ADMISSION V1",
+  "scope": "existing authoritative repository evidence only",
+  "admission_requirements": [
+    "stable source identity is present in an authoritative source/provenance registry",
+    "source authority is established",
+    "claim-level content support is validated against section scope and research questions",
+    "citation locator and provenance are complete",
+    "conflicts, qualifiers, conditions, limitations, and freshness metadata are preserved",
+    "evidence is not derived monetary analysis or a publication visual pending its dedicated gate"
+  ],
+  "evidence_roles": [
+    "PRIMARY",
+    "SECONDARY",
+    "SUPPORTING",
+    "DATASET",
+    "STANDARD/SPECIFICATION",
+    "HISTORICAL",
+    "CURRENTNESS_SENSITIVE"
+  ],
+  "fail_closed_rules": {
+    "metadata_title_or_path_match_alone_is_admissible": false,
+    "missing_source_registry_identity_is_admissible": false,
+    "unvalidated_claim_level_content_is_admissible": false,
+    "weak_or_unobserved_may_be_promoted_without_evidence": false,
+    "external_evidence_allowed": false,
+    "visual_publication_admission_allowed": false,
+    "derived_cost_analysis_allowed": false
+  },
+  "required_cost_dependencies": [
+    "MAINTENANCE_COST_ANALYSIS_ARTIFACT_REQUIRED",
+    "CONSTRUCTION_COST_ANALYSIS_ARTIFACT_REQUIRED"
+  ],
+  "drafting_authorized": false,
+  "book_prose_generated": false
+}

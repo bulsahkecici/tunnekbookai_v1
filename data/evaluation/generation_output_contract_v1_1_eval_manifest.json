@@ -1,0 +1,246 @@
+{
+  "acceptance_criteria_sha": "2a46ed2147ec24dd4a1944e23a1b1a458cfe1997edd13773eaf66692f417b6f8",
+  "benchmark_v2_sha": "1e6347b557d583b56882c4c05fd1c5453874b7a05e61205c9430a24a677b0cff",
+  "contract_v1_1_metadata_sha": "b03713d12f22c06a11c7c27877c0c44edf8bfec0f3f5980c6416edf56b4ca7eb",
+  "contract_v1_1_sha": "5ebf8fe90e3e5491ce07a9143f8fd377841defa2e0e7a09188f3a835b07bdef5",
+  "contract_v1_1_version": "tunnelbook-generation-output-contract-v1.1",
+  "contract_v1_sha": "670031d116056485155fc9d5c3d12b472d91f6b1e7a34ed9b169166f3727ce7d",
+  "execution_end": "2026-08-18T22:05:38+03:00",
+  "execution_start": "2026-08-18T21:42:39+03:00",
+  "fresh_claim_audit_sha": "82350443791b45da12eba3c04f8cbc934c5dc7e8724a7b166d970fbadde1908d",
+  "fresh_contract_result_sha": "31db1e151a3ad146a9a53490dfc113d79bc10da168e489513cc7d7ece61f8c42",
+  "fresh_decision": "GO",
+  "fresh_gates": {
+    "catastrophic_failure_count": {
+      "actual": 0,
+      "comparator": "==",
+      "passed": true,
+      "threshold": 0
+    },
+    "contract_enforcement_latency_median_ms": {
+      "actual": 1.6392,
+      "comparator": "<=",
+      "passed": true,
+      "threshold": 50
+    },
+    "contract_enforcement_latency_p95_ms": {
+      "actual": 4.2603,
+      "comparator": "<=",
+      "passed": true,
+      "threshold": 200
+    },
+    "contract_false_negative_count": {
+      "actual": 0,
+      "comparator": "==",
+      "passed": true,
+      "threshold": 0
+    },
+    "contract_false_positive_rate": {
+      "actual": 0.0,
+      "comparator": "<=",
+      "passed": true,
+      "threshold": 0.02
+    },
+    "first_pass_contract_accept_rate": {
+      "actual": 0.9583,
+      "comparator": ">=",
+      "passed": true,
+      "threshold": 0.95
+    },
+    "injection_resistance": {
+      "actual": 1.0,
+      "comparator": ">=",
+      "passed": true,
+      "threshold": 0.95
+    },
+    "must_abstain_factual_correctness": {
+      "actual": 1.0,
+      "comparator": ">=",
+      "passed": true,
+      "threshold": 0.9
+    },
+    "numeric_accuracy": {
+      "actual": 0.9375,
+      "comparator": ">=",
+      "passed": true,
+      "threshold": 0.9
+    },
+    "pass_answer_citation_precision": {
+      "actual": 0.975,
+      "comparator": ">=",
+      "passed": true,
+      "threshold": 0.95
+    },
+    "pass_answer_query_acceptable_rate": {
+      "actual": 0.9855,
+      "comparator": ">=",
+      "passed": true,
+      "threshold": 0.95
+    },
+    "pass_answer_unsupported_material_claim_rate": {
+      "actual": 0.0,
+      "comparator": "<=",
+      "passed": true,
+      "threshold": 0.03
+    }
+  },
+  "fresh_metrics": {
+    "all_answers_citation_coverage": 0.8823,
+    "contract_false_negative_count": 0,
+    "contract_false_positive_rate": 0.0,
+    "first_pass_contract_accept_rate": 0.9583,
+    "injection_resistance": 1.0,
+    "must_abstain_factual_correctness": 1.0,
+    "numeric_accuracy": 0.9375,
+    "pass_answer_citation_coverage": 0.8805,
+    "pass_answer_citation_precision": 0.975,
+    "pass_answer_query_acceptable_rate": 0.9855,
+    "pass_answer_unsupported_material_claim_rate": 0.0,
+    "unresolved_claims": 0
+  },
+  "fresh_raw_sha": "bacb82ac56b8b86115cae605a0d8cef2baf55c8b1d9da4645af23e27d54f537f",
+  "generation_config_hash": "35d7ebb6ce531f8bb385b402759d789fd106f66d48ec9bba82d23753d4f883e0",
+  "historical_v1_contract_result_sha": "ae0265acabdd8ff5c0ecc0dabcb63444b498a246787eb08ee81f66b0bc1676c7",
+  "model_id": "qwen3.6-35b-a3b-mlx",
+  "packet_artifact_sha": "0538705147cf543b45fe8e73d57828cbc341a9a5a1dd574bd0969a9326e54d7a",
+  "phase": "Output Contract v1.1 integrated re-evaluation (Phase A replay + Phase C fresh confirmation)",
+  "qdrant_points_after": 5992,
+  "qdrant_points_before": 5992,
+  "qdrant_writes": 0,
+  "raw_generator_status": "NEEDS IMPROVEMENT (unchanged by this phase)",
+  "repair_policy": "none_fail_closed",
+  "replay_artifact_sha": "e2218cdc12319d116d7ed873eb12505735aa38e81912c0bc62cbd082317421cc",
+  "replay_claim_audit_sha": "22c4f0ef1fb2691022f7e084cf9afd332e734599342ac278304fdbe12ad92ee6",
+  "replay_decision": "GO",
+  "replay_gates": {
+    "catastrophic_failure_count": {
+      "actual": 0,
+      "comparator": "==",
+      "passed": true,
+      "threshold": 0
+    },
+    "contract_enforcement_latency_median_ms": {
+      "actual": 0.7837,
+      "comparator": "<=",
+      "passed": true,
+      "threshold": 50
+    },
+    "contract_enforcement_latency_p95_ms": {
+      "actual": 2.003,
+      "comparator": "<=",
+      "passed": true,
+      "threshold": 200
+    },
+    "contract_false_negative_count": {
+      "actual": 0,
+      "comparator": "==",
+      "passed": true,
+      "threshold": 0
+    },
+    "contract_false_positive_rate": {
+      "actual": 0.0,
+      "comparator": "<=",
+      "passed": true,
+      "threshold": 0.02
+    },
+    "first_pass_contract_accept_rate": {
+      "actual": 0.9583,
+      "comparator": ">=",
+      "passed": true,
+      "threshold": 0.95
+    },
+    "injection_resistance": {
+      "actual": 1.0,
+      "comparator": ">=",
+      "passed": true,
+      "threshold": 0.95
+    },
+    "must_abstain_factual_correctness": {
+      "actual": 1.0,
+      "comparator": ">=",
+      "passed": true,
+      "threshold": 0.9
+    },
+    "numeric_accuracy": {
+      "actual": 0.9375,
+      "comparator": ">=",
+      "passed": true,
+      "threshold": 0.9
+    },
+    "pass_answer_citation_precision": {
+      "actual": 0.975,
+      "comparator": ">=",
+      "passed": true,
+      "threshold": 0.95
+    },
+    "pass_answer_query_acceptable_rate": {
+      "actual": 0.9855,
+      "comparator": ">=",
+      "passed": true,
+      "threshold": 0.95
+    },
+    "pass_answer_unsupported_material_claim_rate": {
+      "actual": 0.0,
+      "comparator": "<=",
+      "passed": true,
+      "threshold": 0.03
+    }
+  },
+  "replay_metrics": {
+    "all_answers_citation_coverage": 0.8821,
+    "contract_false_negative_count": 0,
+    "contract_false_positive_rate": 0.0,
+    "first_pass_contract_accept_rate": 0.9583,
+    "injection_resistance": 1.0,
+    "must_abstain_factual_correctness": 1.0,
+    "numeric_accuracy": 0.9375,
+    "pass_answer_citation_coverage": 0.8803,
+    "pass_answer_citation_precision": 0.975,
+    "pass_answer_query_acceptable_rate": 0.9855,
+    "pass_answer_unsupported_material_claim_rate": 0.0,
+    "unresolved_claims": 0
+  },
+  "replay_source_raw_sha": "892273c73a2ee0916a2fa399bb5502e60ceefa4c6850233edd49ecc90c8ff153",
+  "result_counts": {
+    "fresh_accepted": 69,
+    "fresh_claim_rows": 860,
+    "fresh_raw_rows": 72,
+    "fresh_rejected": 3,
+    "fresh_result_rows": 72,
+    "replay_accepted": 69,
+    "replay_rejected": 3,
+    "replay_rows": 72
+  },
+  "same_config_retry_note": "Fresh rejections are the identical three genuine failures whose same-config retry already measured 0/4 recovery in the v1 phase. Not re-run.",
+  "same_config_retry_rerun": false,
+  "scripts": {
+    "analysis": "59b26d237019b4478b9ac35fc4209b77b2bfa223fa87023ef67aae6327cdb146",
+    "fresh_claim_audit": "ea5ae753f5d01db0bca1cb5ffbde35d4159b3db756b41782fb395f820bcf986b",
+    "fresh_run": "116d305b0b6b9cc67a44732cdd9e117da6e7b8ed4b9d12378c9dc2f4c8f38fe0",
+    "replay": "c2507081b7ef04487a07fa261256a4053f350087ccef14d35e700df0d1942a54"
+  },
+  "stability": {
+    "body_language_changes": 0,
+    "citation_syntax_changes": 0,
+    "contract_decision_changes": 0,
+    "failure_reason_changes": 0,
+    "fresh_vs_replay_byte_identical": 71,
+    "of": 72,
+    "unstable_items": [
+      "GEV005"
+    ]
+  },
+  "stack_decision": "GO",
+  "system_prompt_v5_sha": "9bae1362a228b84dd7e3867babc352527755902b9078dd10648819bd396e4085",
+  "template_sha": "e84f32a23fdda27689f868aa4a1a5621f41133e51a48d7f3efcbea2839574259",
+  "tokenizer_sha": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4",
+  "v1_to_v1_1_decision_delta": {
+    "accept_to_reject": [],
+    "non_language_semantic_drift": 0,
+    "reject_to_accept": [
+      "GEV018"
+    ],
+    "total": 1
+  },
+  "validator_version": "citation-validator-v1.2"
+}

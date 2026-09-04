@@ -1,0 +1,50 @@
+{
+  "document_id": "DOC000203",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:01:56+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "magazine"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "TÜNELCİLİK DERNEĞİ",
+      "value": "Tünelcilik Derneği"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "www.tuneldergisi.com",
+      "value": "Tünel 51"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "geology",
+        "inspection",
+        "shotcrete",
+        "tbm"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": null
+    }
+  },
+  "source_sha256": "3fa9eb8ff87a4f69938d3d0c5149a474e666b0b33caf48e4fd3882f20bf074be"
+}

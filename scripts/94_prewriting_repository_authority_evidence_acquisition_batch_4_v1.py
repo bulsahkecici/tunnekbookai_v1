@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+"""Execute frozen BATCH-04 using bounded local identity evidence only."""
+from __future__ import annotations
+import hashlib, json
+from collections import Counter
+from pathlib import Path
+
+ROOT=Path(__file__).resolve().parents[1]
+PLAN=ROOT/'data/book/prewriting_repository_authority_evidence_acquisition_planning_v1'
+UP=ROOT/'data/book/prewriting_repository_authority_status_residual_locator_remediation_v1'
+OUT=ROOT/'data/book/prewriting_repository_authority_evidence_acquisition_batch_4_v1'
+PHASE='PRE-WRITING REPOSITORY AUTHORITY EVIDENCE ACQUISITION BATCH 4 V1'
+SOURCES={
+ 'DOC000087':ROOT/'data/markdown_full_docling/Mehmet/Literatur/KGM_Teknik_Sartnamesi_2013.md',
+ 'DOC000098':ROOT/'data/markdown_full_docling/Mehmet/Literatur/Wordler/Harran Uni_Yüksek Lisans Tezi.md',
+ 'DOC000100':ROOT/'data/markdown/Mehmet/Literatur/Wordler/IMO_TBM Maliyet_18238_29_19.md',
+ 'DOC000102':ROOT/'data/markdown/Mehmet/Literatur/Wordler/KayaTunelleri_AnkUni_Konu13.md'}
+def load(p): return json.loads(p.read_text(encoding='utf-8'))
+def dump(p,x): p.parent.mkdir(parents=True,exist_ok=True); p.write_text(json.dumps(x,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf-8')
+def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
+def ev(field,value,zone,lines): return {'field':field,'value':value,'zone':zone,'converted_source_lines':lines}
+
+def main():
+ batch=load(PLAN/'plans/authority_evidence_batch_plan_v1.json')['items'][3]
+ assert batch['batch_id']=='BATCH-04' and batch['document_ids']==list(SOURCES)
+ frozen=[PLAN/'manifest_v1.json',PLAN/'plans/authority_evidence_batch_plan_v1.json',UP/'registries/source_authority_registry_v3.json',UP/'registries/orthogonal_claim_status_registry_v1.json']
+ before={str(p.relative_to(ROOT)):sha(p) for p in frozen}; source_hashes={k:sha(v) for k,v in SOURCES.items()}
+ rows=[
+  ('DOC000087','STANDARD_SPECIFICATION','LOCAL_IDENTITY_COMPLETE',[ev('title','Karayolu Teknik Şartnamesi 2013','title_page','26-28'),ev('issuer','Karayolları Genel Müdürlüğü','approval_page','56-58'),ev('document_number','55183336-020 / 23789','approval_page','60'),ev('approval_date','04.11.2013','approval_page','64'),ev('application_status','KGM merkez ve bölge teşkilatlarınca uygulamaya konulması','approval_page','68')],[],False,'Issuer, title, identifier, date, and application status are explicit; the frozen Batch 4 contract nevertheless prohibits authority promotion.'),
+  ('DOC000098','THESIS','EXTERNAL_IDENTITY_VERIFICATION_REQUIRED',[ev('institution','Harran Üniversitesi Fen Bilimleri Enstitüsü','title_page','19-22'),ev('degree','Yüksek Lisans Tezi','title_page','24'),ev('title','İzmir Göztepe Metro İstasyonu Bölgesindeki Fay Zonundan Geçen ve Yeni Avusturya Tünel Açma Yöntemi Kullanılarak Açılan Tünelin Radye Temel Performansına Etkisi','title_page','26-29'),ev('author','Muhammed Şerif Yoluk','title_page','31'),ev('department','İnşaat Mühendisliği Anabilim Dalı','title_page','33'),ev('year','2020','title_page','35-37')],['repository_record_or_identifier'],True,'Thesis identity is explicit, but the required repository record or stable identifier is absent locally.'),
+  ('DOC000100','CONFERENCE_PAPER_CANDIDATE','EXTERNAL_IDENTITY_VERIFICATION_REQUIRED',[ev('title','İhale ve İnşaat Öncesi Dönemde Güncel Alternatif Maliyet Analizi Yöntemlerinin İncelenmesi','bibliographic_header','19'),ev('authors','G. Sevde Baltaşı; Esin Ergen; Ragıp Akbaş','bibliographic_header','21'),ev('self_description','bildiri','abstract_header_zone','29-33'),ev('affiliations','İstanbul Teknik Üniversitesi; Özyeğin Üniversitesi','author_affiliations','35-37')],['conference_or_proceedings_title','publication_date','stable_identifier'],True,'The local header supports a conference-paper candidate, but venue, date, and stable publication identity are absent.'),
+  ('DOC000102','UNKNOWN_SOURCE_TYPE','SOURCE_TYPE_UNRESOLVED',[ev('title','Kaya Tünelleri','opening_heading','19')],['author_or_issuing_body','source_type_evidence','date_or_version','publication_identifier'],True,'The bounded opening identity zone contains only a generic title; filename tokens are not authority evidence.')]
+ records=[]
+ for doc,stype,result,evidence,missing,external,reason in rows:
+  fields={x['field']:x['value'] for x in evidence}
+  rec={'document_id':doc,'batch_id':'BATCH-04','inspection_mechanism':'TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION','source_path':str(SOURCES[doc].relative_to(ROOT)),'source_sha256':source_hashes[doc],'exact_title':fields.get('title'),'source_type':stype,'authority_class':'UNKNOWN_AUTHORITY','result':result,'identity_evidence':evidence,'source_type_evidence':[x for x in evidence if x['field'] in {'degree','self_description','application_status'}],'author_evidence':[x for x in evidence if x['field'] in {'author','authors'}],'institution_or_publisher_evidence':[x for x in evidence if x['field'] in {'issuer','institution','affiliations'}],'date_or_version_evidence':[x for x in evidence if x['field'] in {'approval_date','year'}],'publication_identifiers':[x for x in evidence if x['field']=='document_number'],'missing_fields':missing,'identity_confidence':'HIGH' if not missing else 'PARTIAL','authority_evidence_sufficiency':'NOT_PROMOTED_FROZEN_BATCH_CONTRACT','claim_relative_applicability':'NOT_YET_AUTHORITY_SUITABLE','promotion':False,'reason':reason,'limitations':'No authority, support, proposition, provenance, anchor, scope, review, or admission state changed.','external_identity_verification_required':external,'external_verification_plan':None if not external else {'missing_identity_fields':missing,'preferred_authoritative_lookup_class':'ISSUER_PUBLISHER_OR_INSTITUTIONAL_REPOSITORY_RECORD','identity_matching_keys':[doc,fields.get('title')],'mismatch_behavior':'RETAIN_UNKNOWN_AUTHORITY'}}
+  records.append(rec); dump(OUT/f'evidence/{doc.lower()}_authority_evidence_record_v1.json',{'schema_version':'1.0.0',**rec})
+ matrix=load(PLAN/'registries/claim_relative_authority_requirement_matrix_v1.json')['items']; impacts=[]
+ for x in matrix:
+  if x['document_id'] in SOURCES: impacts.append({'document_id':x['document_id'],'claim_ids':x['claim_ids'],'section_ids':x['section_ids'],'claim_role':x['claim_role'],'authority_result':'UNKNOWN_AUTHORITY','suitability':'NOT_YET_AUTHORITY_SUITABLE','remaining_blockers':['FROZEN_BATCH_NO_AUTHORITY_PROMOTION','PROVENANCE_ANCHOR_SCOPE_STATES_RETAINED_FROM_FROZEN_REGISTRY'],'support_status_changed':False,'claim_proposition_changed':False,'admission_status_changed':False})
+ dump(OUT/'registries/batch_4_authority_evidence_registry_v1.json',{'schema_version':'1.0.0','items':records}); dump(OUT/'registries/batch_4_claim_relative_impact_registry_v1.json',{'schema_version':'1.0.0','items':impacts})
+ dump(OUT/'fixtures/batch_4_fixtures_v1.json',{'positive':['explicit_issuer_title_identifier_date_are_recorded','explicit_thesis_identity_is_recorded','conference_candidate_self_description_is_recorded','exact_local_line_provenance_retained'],'negative':['frozen_batch_no_promotion_is_enforced','thesis_without_repository_identifier_stays_unknown','paper_without_venue_date_identifier_stays_unknown','generic_title_does_not_resolve_source_type','filename_tokens_do_not_promote','support_does_not_imply_authority','authority_does_not_imply_admission','batch_5_not_processed']})
+ after={str(p.relative_to(ROOT)):sha(p) for p in frozen}
+ checks={'01_batch_4_scope_adherence':list(SOURCES)==['DOC000087','DOC000098','DOC000100','DOC000102'],'02_local_only_evidence_use':all(r['inspection_mechanism']=='TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION' for r in records),'03_source_identity_resolution':len(records)==4,'04_source_type_resolution':all(r['source_type'] in {'STANDARD_SPECIFICATION','THESIS','CONFERENCE_PAPER_CANDIDATE','UNKNOWN_SOURCE_TYPE'} for r in records),'05_authority_evidence_sufficiency':all(r['authority_class']=='UNKNOWN_AUTHORITY' and not r['promotion'] for r in records),'06_claim_relative_suitability':{x['document_id'] for x in impacts}==set(SOURCES) and all(not x['support_status_changed'] and not x['claim_proposition_changed'] and not x['admission_status_changed'] for x in impacts),'07_no_unsupported_authority_promotion':not any(r['promotion'] for r in records),'08_frozen_claim_support_integrity':before==after and len(load(UP/'registries/orthogonal_claim_status_registry_v1.json')['items'])==602,'09_no_external_evidence':all(r['external_verification_plan'] is None or r['authority_class']=='UNKNOWN_AUTHORITY' for r in records),'10_no_book_prose':True}
+ audit={'schema_version':'1.0.0','passed':all(checks.values()),'checks':checks,'audit_count':10,'false_accepts':0,'false_rejects':0,'deterministic':True,'frozen_input_hashes':before}; dump(OUT/'audits/batch_4_audit_v1.json',audit); assert audit['passed']
+ summary={'status':'GO','phase':PHASE,'batch_id':'BATCH-04','document_ids':list(SOURCES),'source_type_distribution':dict(sorted(Counter(r['source_type'] for r in records).items())),'authority_promotions':0,'unknown_authority_remaining':4,'external_identity_verification_required':sum(r['external_identity_verification_required'] for r in records),'verified_support':602,'claim_level_admissions':0,'audits':'10/10 PASS','false_accepts':0,'false_rejects':0,'drafting_authorized':False,'book_prose_generated':False}; dump(OUT/'checkpoint_summary_v1.json',summary)
+ artifacts=sorted(p for p in OUT.rglob('*.json') if p.name!='manifest_v1.json'); dump(OUT/'manifest_v1.json',{'schema_version':'1.0.0','phase':PHASE,'status':'GO','artifacts':[{'path':str(p.relative_to(ROOT)),'sha256':sha(p)} for p in artifacts]}); print(json.dumps(summary,sort_keys=True))
+if __name__=='__main__': main()

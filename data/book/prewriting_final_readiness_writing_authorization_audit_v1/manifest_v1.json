@@ -1,0 +1,26 @@
+{
+  "artifacts": [
+    {
+      "path": "data/book/prewriting_final_readiness_writing_authorization_audit_v1/final_readiness_audit_v1.json",
+      "sha256": "09243ea01c9a80b726fc20acaf67df84cad5ce24c492ed58125fff8c9a38cb45"
+    },
+    {
+      "path": "data/book/prewriting_final_readiness_writing_authorization_audit_v1/evidence_use_tier_registry_v1.json",
+      "sha256": "75955f8bdc31f193b9b96360d7e8538edb9a562822ee76af8ed4c9b5aa3b86a2"
+    },
+    {
+      "path": "data/book/prewriting_final_readiness_writing_authorization_audit_v1/section_readiness_registry_v1.json",
+      "sha256": "6d36f8565a9b3ba7b95a9d57ba27d87d571229422324d92f9cfc10c95ba98b1e"
+    },
+    {
+      "path": "data/book/prewriting_final_readiness_writing_authorization_audit_v1/drafting_constraints_registry_v1.json",
+      "sha256": "88cc996c64c7b24bb12fb20a8e1d68229f2f6fe5a39f6e0167aefc524c819a40"
+    }
+  ],
+  "frozen_input_sha256": {
+    "orthogonal_claim_status_registry_v1.json": "66c66c5e05df898b714c69a93fc84e4cb51dc2c54bc7e04042ea684c5fa089ff",
+    "section_claim_readiness_ledger_v4.json": "a09fa37690c2f08048093cf88598116798be8dda65fa9a9e4fbdc2dfbba2e758"
+  },
+  "schema_version": "final-readiness-manifest-v1",
+  "status": "FROZEN"
+}

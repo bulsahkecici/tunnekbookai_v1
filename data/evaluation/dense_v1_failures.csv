@@ -1,0 +1,28 @@
+﻿query_id,query,language,query_type,difficulty,cross_lingual,gold_chunk_count,doc_recall@10,acceptable@10,top1_chunk,top1_score,low_content_in_top10,likely_cause,annotation_method
+Q001,What is the New Austrian Tunnelling Method?,en,definition,medium,False,1,0.0,1.0,DOC000124-C0005,0.6218,0,gold_annotation_scope,heading_anchor
+Q011,What is overbreak in tunnel excavation?,en,definition,hard,False,2,0.0,0.0,DOC000021-C0001,0.596,0,gold_annotation_scope,body_density_anchor
+Q018,Tünel aydınlatma tasarımı nasıl yapılır?,tr,design,medium,False,7,1.0,1.0,DOC000075-C0059,0.7011,0,chunk_boundary,heading_anchor
+Q036,Tünel kazısında sökme ve nakliye işleri,tr,construction,medium,False,18,1.0,1.0,DOC000087-C0236,0.6347,0,chunk_boundary,heading_anchor
+Q041,Squeezing ground behaviour in deep tunnels,en,geotechnical,medium,False,1,1.0,1.0,DOC000037-C0031,0.6752,0,chunk_boundary,heading_anchor
+Q042,Şişen zeminlerde tünel davranışı,tr,geotechnical,medium,False,11,0.0,1.0,DOC000047-C0155,0.6695,0,embedding_semantics,body_density_anchor
+Q048,Jeolojik etüt raporunda hangi bilgiler bulunur?,tr,geotechnical,hard,False,2,1.0,1.0,DOC000302-C0006,0.5821,0,chunk_boundary,heading_anchor
+Q052,Tünel işletme maliyetleri nelerdir?,tr,operations,medium,False,4,0.0,1.0,DOC000075-C0121,0.7045,0,table_numeric,heading_anchor
+Q054,Tünel havalandırma sistemlerinin işletilmesi,tr,operations,medium,False,5,0.0,1.0,DOC000096-C0004,0.6712,0,table_numeric,heading_anchor
+Q056,Tünel trafik yönetimi ve izleme,tr,operations,easy,False,16,1.0,1.0,DOC000167-C0010,0.6832,1,chunk_boundary,heading_anchor
+Q060,Tünel elektromekanik tesisat bakımı,tr,operations,medium,False,5,1.0,1.0,DOC000075-C0109,0.6562,0,chunk_boundary,heading_anchor
+Q064,Acil kaçış yolları ve kaçış tünelleri,tr,safety,medium,False,4,0.0,1.0,DOC000172-C0027,0.6608,0,embedding_semantics,heading_anchor
+Q071,Tünel güvenliği yönetmeliğinde belirtilen asgari gereklilikler,tr,regulation,medium,False,5,1.0,1.0,DOC000045-C0004,0.6886,1,chunk_boundary,heading_anchor
+Q075,KGM tünel projelerinde uyulacak esaslar,tr,regulation,medium,False,16,1.0,1.0,DOC000075-C0170,0.6334,0,chunk_boundary,heading_anchor
+Q076,AASHTO design specification references,en,regulation,medium,False,1,1.0,1.0,DOC000047-C0365,0.618,0,chunk_boundary,heading_anchor
+Q078,Minimum gabari ve serbest yükseklik şartları,tr,regulation,medium,False,1,0.0,0.0,DOC000236-C0483,0.5633,0,table_numeric,heading_anchor
+Q079,Acceptance criteria and quality control tests,en,regulation,hard,False,22,1.0,0.0,DOC000087-C0364,0.6055,0,chunk_boundary,body_presence_anchor
+Q081,Tunnel lighting energy cost per kWh,en,numeric,medium,False,2,0.0,0.0,DOC000001-C0012,0.6781,0,table_numeric,heading_anchor
+Q087,Ventilation air flow rate requirements,en,numeric,hard,False,2,0.0,1.0,DOC000075-C0186,0.6281,0,table_numeric,heading_anchor
+Q089,Concrete compressive strength class requirements,en,numeric,hard,False,1,1.0,1.0,DOC000236-C0285,0.6358,0,chunk_boundary,body_density_anchor
+Q091,Türkiye'deki karayolu tünellerinin isimleri ve uzunlukları,tr,named_entity,hard,False,1,0.0,1.0,DOC000049-C0149,0.6711,0,table_numeric,body_density_anchor
+Q098,Bolu Dağı Tüneli,tr,named_entity,medium,False,4,0.0,1.0,DOC000126-C0001,0.5457,0,table_numeric,heading_anchor
+Q109,tünel havalandırma sistemi tasarımı,tr,design,hard,True,27,0.0,0.0,DOC000096-C0004,0.6572,0,cross_lingual,heading_anchor_language_restricted
+Q110,kaya kütlesi sınıflandırma sistemleri,tr,geotechnical,hard,True,5,0.0,0.0,DOC000072-C0059,0.7039,0,cross_lingual,heading_anchor_language_restricted
+Q111,tunnel maintenance and operation costs,en,operations,hard,True,5,0.0,0.0,DOC000041-R1-C0001,0.7072,0,cross_lingual,heading_anchor_language_restricted
+Q112,shotcrete application requirements,en,construction,hard,True,23,0.0,1.0,DOC000047-C0250,0.6293,0,cross_lingual,heading_anchor_language_restricted
+Q113,rock bolt pull-out test,en,regulation,hard,True,7,0.0,0.0,DOC000047-C0218,0.6213,0,cross_lingual,heading_anchor_language_restricted

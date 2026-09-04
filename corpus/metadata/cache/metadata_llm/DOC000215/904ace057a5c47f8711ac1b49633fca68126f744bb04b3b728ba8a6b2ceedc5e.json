@@ -1,0 +1,48 @@
+{
+  "document_id": "DOC000215",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:02:58+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "Tünel Kontrol Mühendisi Geliştirme Kursu",
+      "value": "C"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Tünel Kontrol Mühendisi Geliştirme Kursu",
+      "value": "training_material"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "3-TÜNEL DESTEKLEMESİ-ÇELİK HASIR VE ÇELİK İKSA",
+      "value": "3-TÜNEL DESTEKLEMESİ-ÇELİK HASIR VE ÇELİK İKSA"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "ÇELİK HASIR | ÇELİK İKSA",
+      "value": [
+        "steel_mesh",
+        "steel_rib"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "24~28.02.2020, Ankara",
+      "value": 2020
+    }
+  },
+  "source_sha256": "b0a8ec72de9c063ee06938663c5e6fe3ab91d6c244cae9ccd36884ef26dac934"
+}

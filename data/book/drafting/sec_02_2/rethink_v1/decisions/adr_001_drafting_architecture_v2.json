@@ -1,0 +1,51 @@
+{
+  "authorises": "contracts, renderer and tests only. No prose generation is authorised by this decision.",
+  "consequences": {
+    "accepted": [
+      "Prose becomes formulaic. For a technical standards book this is acceptable, and 78% of current output is already verbatim source sentences.",
+      "A renderer and Turkish suffixation must be built and tested before any prose.",
+      "Realization data must be authored per claim, reusable across sections."
+    ],
+    "gained": [
+      "Containment becomes a static property provable without generating anything.",
+      "A failed unit becomes a renderer bug with a deterministic repro, not a sample.",
+      "Numerics, units, qualifiers, conditions, modality and citations stop being things a writer might drop."
+    ],
+    "risks": [
+      "Expressiveness. If the plan IR cannot express a needed rhetorical move, the renderer cannot produce it, and the failure is visible at contract time rather than in prose. This is the intended direction of failure.",
+      "Morphology. Turkish suffixation with vowel harmony and consonant mutation must be correct or the prose is ungrammatical. Bounded and unit-testable.",
+      "Renderer error becomes systematic rather than sporadic. Mitigated by the static containment proof and by stage C still running unchanged."
+    ]
+  },
+  "context": "Three controlled pilot attempts under free-form Turkish generation with claim-bound lexical containment were rejected. Attempt #3 closed every cause attempt #2 failed on — qualifiers 0/2 to 2/2 realised, conditions 100%, language 100%, required topics 3/3, citation coverage 100% — and was rejected on containment alone.",
+  "date": "2026-08-19T22:03:38.441369+00:00",
+  "decided_on": {
+    "invariance_evidence": "The composed-mode rate did not respond to the one lever architecture A offers. Plan v1.2 was implemented exactly as analysis v2 specified and the rate went 0.0769 to 0.0755.",
+    "primary_evidence": "Reproduced units: 516 content tokens, 0 unlicensed, across all three attempts. Composed units: 79 content tokens, 6 unlicensed. The containment outcome is determined by production mode, and reproduction's guarantee comes from the tokens being drawn from the pool by construction rather than sampled and filtered.",
+    "tension_evidence": "Composed units rose [0, 2, 4] across the attempts, because fidelity fixes are only reachable by composition. Under A, fidelity is bought with containment exposure.",
+    "volume_evidence": "44 of 50 material units are already produced by verbatim reproduction. Free generation supplies a minority of the volume and all of the risk."
+  },
+  "decision": "Adopt architecture D. The LLM emits a structured semantic plan and no prose. A deterministic renderer produces every surface form.",
+  "does_not_authorise": [
+    "attempt #4 — the identifier is retired; nothing may bear it",
+    "any generation under architecture A",
+    "rendering, retrieval, Qdrant writes or corpus reads",
+    "modification of any validator, lexicon, gloss, allowlist, plan or preserved attempt"
+  ],
+  "id": "ADR-001",
+  "not_decided_on": [
+    "Not selected because a phase brief proposed it. The brief lists four readings and requires the evidence to choose; the census chooses, and it would have selected A had the composed and reproduced rates been comparable.",
+    "Not selected on a claim that the writer is inadequate. CF-01 records that all three attempts used one writer and that reading 4 is untested.",
+    "Not selected to make validation easier. Stage C is unchanged and every rejection code is retained; the renderer must pass the validator that rejected all three attempts."
+  ],
+  "phase": "SEC-02-2 DRAFTING APPROACH RETHINK V1",
+  "refined_cause_class": "ARCHITECTURAL — UNCONSTRAINED_SURFACE_REALIZATION",
+  "rejected_alternatives": {
+    "A": "REJECTED — not scalable; the failure rate is invariant under the only lever the architecture offers",
+    "B": "REJECTED — explicitly weakens the validator, and cannot be bounded",
+    "C": "VIABLE BUT SUBSUMED — this is D's renderer with a hand-written, non-compositional grammar and no separation of concerns"
+  },
+  "status": "ACCEPTED",
+  "supersedes_inference": "`licensed_alternative_was_in_hand = true` was taken to show the writer made an avoidable choice, and therefore that the unlicensed word was semantically harmless and the defect was the writer's diligence.",
+  "title": "SEC-02-2 drafting architecture v2 — structured plan plus deterministic renderer"
+}

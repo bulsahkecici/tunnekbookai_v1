@@ -1,0 +1,44 @@
+{
+  "version": "tunnelbook-sec-02-2-technical-section-allocation-v2",
+  "section_id": "SEC-02-2",
+  "additive_to": "draft_plan_v1_2",
+  "frozen_plan_modified": false,
+  "allocation_rules": {
+    "scope_group_required": "Claims with the same mandatory scope binding are grouped beneath one frozen non-material scope node before material roles.",
+    "criterion_pair_required": "A criterion claim is followed immediately by its acceptance-criterion semantic role.",
+    "case_scope_required": "A case-specific claim is followed immediately by its complete CASE_SCOPE role.",
+    "boundary_required": "A maximum boundary follows the corresponding minimum requirements in the same subsection.",
+    "citation_override_required": "Every affected claim uses citation_allocation_contract_v2."
+  },
+  "subsection_overrides": [
+    {
+      "subsection_id": "A",
+      "insert_after_claim_id": "SEC-02-2-C-002",
+      "required_role": {"claim_id": "SEC-02-2-C-002", "role": "ACCEPTANCE_CRITERIA_SCOPE", "entry_id": "TR-C002-ACCEPTANCE-001"}
+    },
+    {
+      "subsection_id": "B",
+      "insert_after_claim_id": "SEC-02-2-P0-006",
+      "required_role": {"claim_id": "SEC-02-2-C-018", "role": "CONDITIONAL_MAXIMUM", "entry_id": "TR-C018-BOUND-001"},
+      "citation_contract": "citation_allocation_contract_v2"
+    },
+    {
+      "subsection_id": "C",
+      "scope_group": {"scope_value": "wet_system_shotcrete_for_rock_support", "claim_ids": ["SEC-02-2-C-004", "SEC-02-2-C-005"]},
+      "case_scope": {"claim_id": "SEC-02-2-P0-008", "entry_id": "TR-P0008-CASE-001"}
+    },
+    {
+      "subsection_id": "D",
+      "scope_group": {"scope_value": "concrete_repair_work", "claim_ids": ["SEC-02-2-C-012"]}
+    }
+  ],
+  "style_contract_projection": {
+    "frozen_heading_map_used": true,
+    "general_before_specific": true,
+    "scope_before_governed_claim": true,
+    "criterion_adjacent_to_governing_claim": true,
+    "boundary_adjacent_to_minima": true,
+    "model_style_pass_required": false,
+    "prose_emitted": false
+  }
+}

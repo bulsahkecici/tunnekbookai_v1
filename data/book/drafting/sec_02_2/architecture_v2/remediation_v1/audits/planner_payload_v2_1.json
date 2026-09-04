@@ -1,0 +1,549 @@
+{
+  "load_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+  "model_called": false,
+  "options": 16,
+  "payload": {
+    "payload_version": "tunnelbook-architecture-v2-planner-payload-v2-1",
+    "rules": [
+      "every claim stated needs its declared statement_role slot in its paragraph",
+      "a claim with requires_condition_slot needs a CONDITION slot in the same paragraph",
+      "a claim with requires_qualifier_slot needs a QUALIFIER_SCOPE slot in the same paragraph",
+      "a claim holds at most one of CLAIM_STATEMENT / REQUIREMENT per paragraph",
+      "only (claim_id, role) pairs listed in available_roles may be selected",
+      "citation_source_keys, when given, must be the claim's own registered keys"
+    ],
+    "section_id": "SEC-02-2",
+    "task": "Select claim×role slots for each subsection. Emit field names only; emit no prose. Every selected pair must appear in that claim's available_roles.",
+    "universe": {
+      "derived_from": {
+        "M1_semantic_plan_ir_contract_v2": "plan rules, closed role set, plan validation",
+        "M2_claim_realization_contract_v2_1": "realizable claim×role pairs",
+        "draft_plan_v1_2": "subsection allocation and required topics",
+        "draft_validator_v1_2": "the obligation derivation, run not reimplemented",
+        "frozen_claim_obligations": "conditions and qualifiers on the frozen allowlist"
+      },
+      "exclusions": [],
+      "invariant": "required_roles ⊆ available_roles ⊆ realizable_roles",
+      "options": [
+        {
+          "allowed_relationships": [
+            "INDEPENDENT"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "REQUIREMENT"
+          ],
+          "claim_id": "SEC-02-2-C-001",
+          "condition_obligation_basis": "Draft Validator v1.2 raised no CONDITION_DROPPED on the statement rendered alone, so the statement carries its own condition and no separate slot is required",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "REQUIREMENT"
+          ],
+          "required_roles": [
+            "REQUIREMENT"
+          ],
+          "requires_condition_slot": false,
+          "requires_qualifier_slot": false,
+          "source_keys": [
+            "SRC-DOC000236-8dfa5f799b50"
+          ],
+          "statement_role": "REQUIREMENT",
+          "topic": "dayanım sınıfı"
+        },
+        {
+          "allowed_relationships": [
+            "INDEPENDENT"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "IDENTITY_SCOPE",
+            "QUALIFIER_SCOPE"
+          ],
+          "claim_id": "SEC-02-2-C-002",
+          "condition_obligation_basis": "Draft Validator v1.2 raised no CONDITION_DROPPED on the statement rendered alone, so the statement carries its own condition and no separate slot is required",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "IDENTITY_SCOPE",
+            "QUALIFIER_SCOPE"
+          ],
+          "required_roles": [
+            "CLAIM_STATEMENT",
+            "QUALIFIER_SCOPE"
+          ],
+          "requires_condition_slot": false,
+          "requires_qualifier_slot": true,
+          "source_keys": [
+            "SRC-DOC000087-ea64db4f1a7f"
+          ],
+          "statement_role": "CLAIM_STATEMENT",
+          "topic": "dayanım sınıfı"
+        },
+        {
+          "allowed_relationships": [
+            "INDEPENDENT",
+            "SOURCE_SUPPORTED_RELATION"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "REQUIREMENT"
+          ],
+          "claim_id": "SEC-02-2-R001",
+          "condition_obligation_basis": "the claim registers no condition",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "REQUIREMENT"
+          ],
+          "required_roles": [
+            "REQUIREMENT"
+          ],
+          "requires_condition_slot": false,
+          "requires_qualifier_slot": false,
+          "source_keys": [
+            "SRC-DOC000236-8d87293e1c7b"
+          ],
+          "statement_role": "REQUIREMENT",
+          "topic": "çimento dozajı"
+        },
+        {
+          "allowed_relationships": [
+            "INDEPENDENT",
+            "SOURCE_SUPPORTED_RELATION"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "REQUIREMENT"
+          ],
+          "claim_id": "SEC-02-2-P0-001",
+          "condition_obligation_basis": "Draft Validator v1.2 raised CONDITION_DROPPED on the statement rendered alone",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "REQUIREMENT"
+          ],
+          "required_roles": [
+            "CONDITION",
+            "REQUIREMENT"
+          ],
+          "requires_condition_slot": true,
+          "requires_qualifier_slot": false,
+          "source_keys": [
+            "SRC-DOC000087-e7393bf8138a",
+            "SRC-DOC000236-0229b854f373"
+          ],
+          "statement_role": "REQUIREMENT",
+          "topic": "çimento dozajı"
+        },
+        {
+          "allowed_relationships": [
+            "INDEPENDENT"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "NUMERIC_CRITERIA",
+            "REQUIREMENT"
+          ],
+          "claim_id": "SEC-02-2-P0-006",
+          "condition_obligation_basis": "Draft Validator v1.2 raised no CONDITION_DROPPED on the statement rendered alone, so the statement carries its own condition and no separate slot is required",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "NUMERIC_CRITERIA",
+            "REQUIREMENT"
+          ],
+          "required_roles": [
+            "REQUIREMENT"
+          ],
+          "requires_condition_slot": false,
+          "requires_qualifier_slot": false,
+          "source_keys": [
+            "SRC-DOC000087-e7393bf8138a",
+            "SRC-DOC000236-0229b854f373"
+          ],
+          "statement_role": "REQUIREMENT",
+          "topic": "çimento dozajı"
+        },
+        {
+          "allowed_relationships": [
+            "INDEPENDENT"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "REQUIREMENT"
+          ],
+          "claim_id": "SEC-02-2-P0-005",
+          "condition_obligation_basis": "the claim registers no condition",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "REQUIREMENT"
+          ],
+          "required_roles": [
+            "REQUIREMENT"
+          ],
+          "requires_condition_slot": false,
+          "requires_qualifier_slot": false,
+          "source_keys": [
+            "SRC-DOC000236-8d87293e1c7b"
+          ],
+          "statement_role": "REQUIREMENT",
+          "topic": "çimento dozajı"
+        },
+        {
+          "allowed_relationships": [
+            "INDEPENDENT"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION"
+          ],
+          "claim_id": "SEC-02-2-P0-004",
+          "condition_obligation_basis": "Draft Validator v1.2 raised no CONDITION_DROPPED on the statement rendered alone, so the statement carries its own condition and no separate slot is required",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION"
+          ],
+          "required_roles": [
+            "CLAIM_STATEMENT"
+          ],
+          "requires_condition_slot": false,
+          "requires_qualifier_slot": false,
+          "source_keys": [
+            "SRC-DOC000087-e7393bf8138a",
+            "SRC-DOC000236-0229b854f373"
+          ],
+          "statement_role": "CLAIM_STATEMENT",
+          "topic": "çimento dozajı"
+        },
+        {
+          "allowed_relationships": [
+            "INDEPENDENT"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION"
+          ],
+          "claim_id": "SEC-02-2-P0-007",
+          "condition_obligation_basis": "Draft Validator v1.2 raised no CONDITION_DROPPED on the statement rendered alone, so the statement carries its own condition and no separate slot is required",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION"
+          ],
+          "required_roles": [
+            "CLAIM_STATEMENT"
+          ],
+          "requires_condition_slot": false,
+          "requires_qualifier_slot": false,
+          "source_keys": [
+            "SRC-DOC000047-72f96c5daace",
+            "SRC-DOC000047-838e92811f43"
+          ],
+          "statement_role": "CLAIM_STATEMENT",
+          "topic": "kaplama kalınlığı"
+        },
+        {
+          "allowed_relationships": [
+            "INDEPENDENT"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "EXEMPLIFICATION"
+          ],
+          "claim_id": "SEC-02-2-P0-008",
+          "condition_obligation_basis": "Draft Validator v1.2 raised no CONDITION_DROPPED on the statement rendered alone, so the statement carries its own condition and no separate slot is required",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "EXEMPLIFICATION"
+          ],
+          "required_roles": [
+            "CLAIM_STATEMENT"
+          ],
+          "requires_condition_slot": false,
+          "requires_qualifier_slot": false,
+          "source_keys": [
+            "SRC-DOC000047-d5c60204e247"
+          ],
+          "statement_role": "CLAIM_STATEMENT",
+          "topic": "kaplama kalınlığı"
+        },
+        {
+          "allowed_relationships": [
+            "INDEPENDENT"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "REQUIREMENT"
+          ],
+          "claim_id": "SEC-02-2-C-003",
+          "condition_obligation_basis": "Draft Validator v1.2 raised no CONDITION_DROPPED on the statement rendered alone, so the statement carries its own condition and no separate slot is required",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "REQUIREMENT"
+          ],
+          "required_roles": [
+            "REQUIREMENT"
+          ],
+          "requires_condition_slot": false,
+          "requires_qualifier_slot": false,
+          "source_keys": [
+            "SRC-DOC000087-8d778c37de30",
+            "SRC-DOC000236-ca4f53f1dd68"
+          ],
+          "statement_role": "REQUIREMENT",
+          "topic": "kaplama kalınlığı"
+        },
+        {
+          "allowed_relationships": [
+            "INDEPENDENT"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "NUMERIC_CRITERIA",
+            "REQUIREMENT"
+          ],
+          "claim_id": "SEC-02-2-C-004",
+          "condition_obligation_basis": "Draft Validator v1.2 raised no CONDITION_DROPPED on the statement rendered alone, so the statement carries its own condition and no separate slot is required",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "NUMERIC_CRITERIA",
+            "REQUIREMENT"
+          ],
+          "required_roles": [
+            "REQUIREMENT"
+          ],
+          "requires_condition_slot": false,
+          "requires_qualifier_slot": false,
+          "source_keys": [
+            "SRC-DOC000087-8d778c37de30"
+          ],
+          "statement_role": "REQUIREMENT",
+          "topic": "kaplama kalınlığı"
+        },
+        {
+          "allowed_relationships": [
+            "INDEPENDENT"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "NUMERIC_CRITERIA",
+            "REQUIREMENT"
+          ],
+          "claim_id": "SEC-02-2-C-005",
+          "condition_obligation_basis": "Draft Validator v1.2 raised no CONDITION_DROPPED on the statement rendered alone, so the statement carries its own condition and no separate slot is required",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "NUMERIC_CRITERIA",
+            "REQUIREMENT"
+          ],
+          "required_roles": [
+            "REQUIREMENT"
+          ],
+          "requires_condition_slot": false,
+          "requires_qualifier_slot": false,
+          "source_keys": [
+            "SRC-DOC000087-8d778c37de30"
+          ],
+          "statement_role": "REQUIREMENT",
+          "topic": "kaplama kalınlığı"
+        },
+        {
+          "allowed_relationships": [
+            "INDEPENDENT"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "REQUIREMENT"
+          ],
+          "claim_id": "SEC-02-2-C-007",
+          "condition_obligation_basis": "Draft Validator v1.2 raised no CONDITION_DROPPED on the statement rendered alone, so the statement carries its own condition and no separate slot is required",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "REQUIREMENT"
+          ],
+          "required_roles": [
+            "REQUIREMENT"
+          ],
+          "requires_condition_slot": false,
+          "requires_qualifier_slot": false,
+          "source_keys": [
+            "SRC-DOC000087-8d778c37de30"
+          ],
+          "statement_role": "REQUIREMENT",
+          "topic": "kaplama kalınlığı"
+        },
+        {
+          "allowed_relationships": [
+            "INDEPENDENT"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "REQUIREMENT"
+          ],
+          "claim_id": "SEC-02-2-C-006",
+          "condition_obligation_basis": "Draft Validator v1.2 raised no CONDITION_DROPPED on the statement rendered alone, so the statement carries its own condition and no separate slot is required",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "REQUIREMENT"
+          ],
+          "required_roles": [
+            "REQUIREMENT"
+          ],
+          "requires_condition_slot": false,
+          "requires_qualifier_slot": false,
+          "source_keys": [
+            "SRC-DOC000087-8d778c37de30"
+          ],
+          "statement_role": "REQUIREMENT",
+          "topic": "kaplama kalınlığı"
+        },
+        {
+          "allowed_relationships": [
+            "INDEPENDENT"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION"
+          ],
+          "claim_id": "SEC-02-2-C-012",
+          "condition_obligation_basis": "Draft Validator v1.2 raised no CONDITION_DROPPED on the statement rendered alone, so the statement carries its own condition and no separate slot is required",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION"
+          ],
+          "required_roles": [
+            "CLAIM_STATEMENT"
+          ],
+          "requires_condition_slot": false,
+          "requires_qualifier_slot": false,
+          "source_keys": [
+            "SRC-DOC000087-d989fc9aefbd"
+          ],
+          "statement_role": "CLAIM_STATEMENT",
+          "topic": "kaplama kalınlığı"
+        },
+        {
+          "allowed_relationships": [
+            "INDEPENDENT"
+          ],
+          "available_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "NUMERIC_CRITERIA",
+            "QUALIFIER_SCOPE",
+            "REQUIREMENT"
+          ],
+          "claim_id": "SEC-02-2-C-009",
+          "condition_obligation_basis": "Draft Validator v1.2 raised no CONDITION_DROPPED on the statement rendered alone, so the statement carries its own condition and no separate slot is required",
+          "realizable_roles": [
+            "CLAIM_STATEMENT",
+            "CONDITION",
+            "NUMERIC_CRITERIA",
+            "QUALIFIER_SCOPE",
+            "REQUIREMENT"
+          ],
+          "required_roles": [
+            "QUALIFIER_SCOPE",
+            "REQUIREMENT"
+          ],
+          "requires_condition_slot": false,
+          "requires_qualifier_slot": true,
+          "source_keys": [
+            "SRC-DOC000236-ad4b684b487a"
+          ],
+          "statement_role": "REQUIREMENT",
+          "topic": "kaplama kalınlığı"
+        }
+      ],
+      "plan_rules": [
+        "every claim stated needs its declared statement_role slot in its paragraph",
+        "a claim with requires_condition_slot needs a CONDITION slot in the same paragraph",
+        "a claim with requires_qualifier_slot needs a QUALIFIER_SCOPE slot in the same paragraph",
+        "a claim holds at most one of CLAIM_STATEMENT / REQUIREMENT per paragraph",
+        "only (claim_id, role) pairs listed in available_roles may be selected",
+        "citation_source_keys, when given, must be the claim's own registered keys"
+      ],
+      "principle": "One option universe, derived mechanically from M2 v2.1's realizable pairs and M1's plan rules, consumed by SHA by every downstream reader. required_roles ⊆ available_roles ⊆ realizable_roles holds for every exposed claim, enforced at construction.",
+      "required_core_claim_ids": [
+        "SEC-02-2-C-001",
+        "SEC-02-2-P0-001",
+        "SEC-02-2-P0-006",
+        "SEC-02-2-P0-007",
+        "SEC-02-2-P0-008",
+        "SEC-02-2-R001"
+      ],
+      "required_topics": [
+        "çimento dozajı",
+        "kaplama kalınlığı",
+        "dayanım sınıfı"
+      ],
+      "section_id": "SEC-02-2",
+      "subsections": [
+        {
+          "claim_ids": [
+            "SEC-02-2-C-001",
+            "SEC-02-2-C-002"
+          ],
+          "required_topic": "dayanım sınıfı",
+          "subsection_id": "A",
+          "title": "Püskürtme Betonun Malzeme ve Dayanım Gereklilikleri"
+        },
+        {
+          "claim_ids": [
+            "SEC-02-2-R001",
+            "SEC-02-2-P0-001",
+            "SEC-02-2-P0-006",
+            "SEC-02-2-P0-005",
+            "SEC-02-2-P0-004"
+          ],
+          "required_topic": "çimento dozajı",
+          "subsection_id": "B",
+          "title": "Çimento Dozajı"
+        },
+        {
+          "claim_ids": [
+            "SEC-02-2-P0-007",
+            "SEC-02-2-P0-008",
+            "SEC-02-2-C-003",
+            "SEC-02-2-C-004",
+            "SEC-02-2-C-005",
+            "SEC-02-2-C-007"
+          ],
+          "required_topic": "kaplama kalınlığı",
+          "subsection_id": "C",
+          "title": "Kaplama Kalınlığı ve Katman Düzeni"
+        },
+        {
+          "claim_ids": [
+            "SEC-02-2-C-006",
+            "SEC-02-2-C-012",
+            "SEC-02-2-C-009"
+          ],
+          "required_topic": null,
+          "subsection_id": "D",
+          "title": "Uygulama Koşulları ve Özel Durumlar"
+        }
+      ],
+      "unrealizable_pairs_exposed": 0,
+      "version": "tunnelbook-architecture-v2-planner-option-universe-v2-1"
+    }
+  },
+  "payload_version": "tunnelbook-architecture-v2-planner-payload-v2-1",
+  "universe_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+  "unrealizable_pairs_exposed": 0
+}

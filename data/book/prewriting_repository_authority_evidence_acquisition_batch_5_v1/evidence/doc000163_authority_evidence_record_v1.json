@@ -1,0 +1,101 @@
+{
+  "author_evidence": [
+    {
+      "converted_source_lines": "62",
+      "field": "author",
+      "value": "Ulaş Aygün",
+      "zone": "title_page"
+    }
+  ],
+  "authority_class": "UNKNOWN_AUTHORITY",
+  "authority_evidence_sufficiency": "NOT_PROMOTED_FROZEN_BATCH_CONTRACT",
+  "batch_id": "BATCH-05",
+  "claim_relative_applicability": "NOT_YET_AUTHORITY_SUITABLE",
+  "date_or_version_evidence": [
+    {
+      "converted_source_lines": "58",
+      "field": "event_date",
+      "value": "29-30 Kasım 2022",
+      "zone": "title_page"
+    }
+  ],
+  "document_id": "DOC000163",
+  "exact_title": "Endonezya ve Uzakdoğu'da Tünel Projeleri Türk Müteahhitleri İçin İmkanlar",
+  "external_identity_verification_required": true,
+  "external_verification_plan": {
+    "identity_matching_keys": [
+      "DOC000163",
+      "Endonezya ve Uzakdoğu'da Tünel Projeleri Türk Müteahhitleri İçin İmkanlar",
+      "29-30 Kasım 2022"
+    ],
+    "mismatch_behavior": "RETAIN_UNKNOWN_AUTHORITY",
+    "missing_identity_fields": [
+      "event_name",
+      "proceedings_identifier"
+    ],
+    "preferred_authoritative_lookup_class": "ISSUER_PUBLISHER_EVENT_OR_PROJECT_OWNER_RECORD"
+  },
+  "identity_confidence": "PARTIAL",
+  "identity_evidence": [
+    {
+      "converted_source_lines": "24,54",
+      "field": "event_site",
+      "value": "www.tunnelturkey.org",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "58",
+      "field": "event_date",
+      "value": "29-30 Kasım 2022",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "60",
+      "field": "title",
+      "value": "Endonezya ve Uzakdoğu'da Tünel Projeleri Türk Müteahhitleri İçin İmkanlar",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "62",
+      "field": "author",
+      "value": "Ulaş Aygün",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "62",
+      "field": "affiliation",
+      "value": "Mapei Indonesia",
+      "zone": "title_page"
+    }
+  ],
+  "inspection_mechanism": "TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION",
+  "institution_or_publisher_evidence": [
+    {
+      "converted_source_lines": "62",
+      "field": "affiliation",
+      "value": "Mapei Indonesia",
+      "zone": "title_page"
+    }
+  ],
+  "limitations": "No authority, support, proposition, provenance, anchor, scope, review, or admission state changed.",
+  "missing_fields": [
+    "event_name",
+    "proceedings_identifier"
+  ],
+  "promotion": false,
+  "publication_identifiers": [],
+  "reason": "Dated event presentation title, author, affiliation, and event site are explicit; event name and proceedings identity are absent locally.",
+  "result": "EXTERNAL_IDENTITY_VERIFICATION_REQUIRED",
+  "schema_version": "1.0.0",
+  "source_path": "data/markdown_full_docling/Sunumlar_2022/7_Tunnel Projects in Indonesia and the Far East Opportunities for Turkish Contractors.md",
+  "source_sha256": "3c901d22f3e8478ab3fd5707edf7786442075386665c09bbe3b04213fdd80a0a",
+  "source_type": "CONFERENCE_PAPER",
+  "source_type_evidence": [
+    {
+      "converted_source_lines": "24,54",
+      "field": "event_site",
+      "value": "www.tunnelturkey.org",
+      "zone": "title_page"
+    }
+  ]
+}

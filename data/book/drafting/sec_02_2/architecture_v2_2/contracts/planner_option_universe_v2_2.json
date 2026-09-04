@@ -1,0 +1,22 @@
+{
+  "version": "tunnelbook-planner-option-universe-v2.2",
+  "section_id": "SEC-02-2",
+  "additive_to": "tunnelbook-planner-option-universe-v2.1",
+  "canonical": true,
+  "second_universe_exists": false,
+  "build_status": "REFUSED",
+  "refusal_code": "V22_REQUIRED_ROLE_UNREALIZABLE",
+  "violations": [
+    {
+      "claim_id": "SEC-02-2-P0-008",
+      "required_roles": ["CLAIM_STATEMENT", "CASE_SCOPE"],
+      "available_roles": ["CLAIM_STATEMENT"],
+      "realizable_roles": ["CLAIM_STATEMENT"],
+      "required_not_available": ["CASE_SCOPE"],
+      "reason": "CASE_SCOPE is required for factual completeness but is UNREALIZABLE because ROCK-SWELLING has no approved claim-owned Turkish surface term."
+    }
+  ],
+  "subset_audit": {"claims_checked": 17, "claims_passing": 16, "claims_failing": 1, "required_subset_available": false, "available_subset_realizable": true},
+  "result": "NO_CANONICAL_LOADABLE_UNIVERSE",
+  "planner_payload_authorised": false
+}

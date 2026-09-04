@@ -1,0 +1,18 @@
+{
+  "version": "tunnelbook-claim-role-condition-allocation-remediation-acceptance-v1",
+  "phase": "SEC-02-2 ARCHITECTURE V2.2 CLAIM-ROLE CONDITION ALLOCATION REMEDIATION V1",
+  "acceptance_conditions": [
+    {"id": "AC-CRCC-01", "requirement": "Frozen preflight and postflight each have drift 0."},
+    {"id": "AC-CRCC-02", "requirement": "A general additive claim-role condition closure contract exists with no claim-specific branch."},
+    {"id": "AC-CRCC-03", "requirement": "Every semantic claim-role instance proves role and condition feasibility before integration."},
+    {"id": "AC-CRCC-04", "requirement": "Every required condition has exactly one explicit approved ownership mechanism consistent with frozen validator scope."},
+    {"id": "AC-CRCC-05", "requirement": "Every required dependency has an explicit realizable owner and cannot rely on accidental paragraph context."},
+    {"id": "AC-CRCC-06", "requirement": "Historical invalid P0-008 allocation rejects and a complete safe allocation accepts without a claim-specific rule."},
+    {"id": "AC-CRCC-07", "requirement": "At least 6 positive fixtures accept and at least 10 required negative fixtures reject before prose, with false accepts 0 and false rejects 0."},
+    {"id": "AC-CRCC-08", "requirement": "Validators, renderers, pilots, prior V2.2 artifacts, technical remediation, Book Style, fallback, glosses, and lexicons remain byte-identical."},
+    {"id": "AC-CRCC-09", "requirement": "Generation, rendering, retry, retrieval, Qdrant writes, and corpus-wide reads remain 0."}
+  ],
+  "verdict_rule": "CLOSED_GO only when every acceptance condition passes; otherwise CLOSED_NO_GO.",
+  "thresholds_frozen": {"minimum_positive_fixtures": 6, "minimum_negative_fixtures": 10, "maximum_false_accepts": 0, "maximum_false_rejects": 0},
+  "amendment_after_fixture_execution": false
+}

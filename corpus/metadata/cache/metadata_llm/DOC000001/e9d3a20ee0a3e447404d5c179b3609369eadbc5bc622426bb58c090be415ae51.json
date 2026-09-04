@@ -1,0 +1,52 @@
+{
+  "document_id": "DOC000001",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:49:20+00:00",
+  "prompt_version": "metadata-suggestion-v2.1",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "Academic journal article from Sapienza University of Rome",
+      "value": "B"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Tunnelling and Underground Space Technology journal article",
+      "value": "academic_article"
+    },
+    "language": {
+      "confidence": "low",
+      "evidence": "English text throughout [evidence_not_grounded_in_context]",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "Department of Civil, Constructional and Environmental Engineering, Sapienza University of Rome",
+      "value": "Sapienza University of Rome"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "Technical and economic evaluation of lighting and pavement in Italian road tunnels",
+      "value": "Technical and economic evaluation of lighting and pavement in Italian road tunnels"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "life cycle costs, maintenance plans, safety, standards, traffic conditions, road tunnels",
+      "value": [
+        "cost",
+        "maintenance",
+        "safety",
+        "standards",
+        "traffic",
+        "tunnel_general"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Accepted 22 February 2017",
+      "value": 2017
+    }
+  },
+  "source_sha256": "1980884f21bd5c134c8e603a62bc715204b58c5d43382eb7b89a5779e380e1c7"
+}

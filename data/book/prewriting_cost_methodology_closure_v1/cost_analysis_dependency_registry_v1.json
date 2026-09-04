@@ -1,0 +1,18 @@
+{
+  "cross_analysis_synthesis_requires_both_admitted": true,
+  "dependencies": [
+    {
+      "analysis_type": "MAINTENANCE_OPERATION_COST",
+      "dependency_id": "MAINTENANCE_COST_ANALYSIS_ARTIFACT_REQUIRED",
+      "producer": "HUMAN_AUTHOR_SEPARATE_DATASET",
+      "state": "REGISTERED_NOT_SATISFIED"
+    },
+    {
+      "analysis_type": "CONSTRUCTION_COST",
+      "dependency_id": "CONSTRUCTION_COST_ANALYSIS_ARTIFACT_REQUIRED",
+      "producer": "HUMAN_AUTHOR_SEPARATE_DATASET",
+      "state": "REGISTERED_NOT_SATISFIED"
+    }
+  ],
+  "schema_version": "cost-analysis-dependency-registry-v1"
+}

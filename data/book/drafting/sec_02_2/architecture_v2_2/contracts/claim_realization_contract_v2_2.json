@@ -1,0 +1,68 @@
+{
+  "version": "tunnelbook-claim-realization-contract-v2.2",
+  "section_id": "SEC-02-2",
+  "additive_to": "tunnelbook-claim-realization-contract-v2.1",
+  "frozen_parent_modified": false,
+  "surface_policy": {
+    "source_owned_only": true,
+    "generic_gloss_widening": false,
+    "generic_lexicon_widening": false,
+    "unresolved_term_policy": "UNREALIZABLE",
+    "post_render_rewrite": "FORBIDDEN"
+  },
+  "entries": [
+    {
+      "entry_id": "V22-SCOPE-WET-001",
+      "role": "SCOPE_NODE",
+      "binding_ids": ["TSB-C004-WET-001", "TSB-C005-WET-001"],
+      "governed_claim_ids": ["SEC-02-2-C-004", "SEC-02-2-C-005"],
+      "surface_terms": [{"value": "Yaş Sistem", "origin": "DOC000087-C0279 source heading", "claim_owned": true}],
+      "status": "REALIZABLE"
+    },
+    {
+      "entry_id": "V22-SCOPE-REPAIR-001",
+      "role": "SCOPE_NODE",
+      "binding_ids": ["TSB-C012-REPAIR-001"],
+      "governed_claim_ids": ["SEC-02-2-C-012"],
+      "surface_terms": [{"value": "Tamir İşleri", "origin": "DOC000087-C0281 source heading", "claim_owned": true}],
+      "status": "REALIZABLE"
+    },
+    {
+      "entry_id": "V22-P0008-CASE-001",
+      "claim_id": "SEC-02-2-P0-008",
+      "role": "CASE_SCOPE",
+      "required_case_ids": ["ROCK-CRUSHED", "ROCK-SQUEEZING", "ROCK-SWELLING"],
+      "required_dependency": "dependent on tunnel size",
+      "case_terms": [
+        {"case_id": "ROCK-CRUSHED", "source_label": "Crushed, but Chemically Intact Rock", "turkish_term": "ezilmiş kaya", "term_origin": "frozen P0-008 translation_glosses", "claim_owned": true, "status": "GROUNDED"},
+        {"case_id": "ROCK-SQUEEZING", "source_label": "Squeezing Rock", "turkish_term": "sıkışan kaya", "term_origin": "frozen P0-008 translation_glosses", "claim_owned": true, "status": "GROUNDED"},
+        {"case_id": "ROCK-SWELLING", "source_label": "Swelling Rock", "turkish_term": null, "term_origin": null, "claim_owned": false, "status": "UNRESOLVED"}
+      ],
+      "reason": "The required source case is preserved structurally, but no approved claim-owned Turkish surface term exists. Guessing or widening a gloss is forbidden.",
+      "status": "UNREALIZABLE"
+    },
+    {
+      "entry_id": "V22-C018-MAX-001",
+      "claim_id": "SEC-02-2-C-018",
+      "role": "CONDITIONAL_MAXIMUM",
+      "source_key": "SRC-DOC000236-0229b854f373",
+      "numeric_fact": {"value": "500", "unit": "kg/m³", "role": "maximum"},
+      "applies_to": ["dry_system", "wet_system"],
+      "linked_consequence": "Betonda aranan özelliklerin 500 kg/m³ ile sağlanamaması halinde, çimento tipinin değiştirilmesi düşünülmelidir.",
+      "surface_origin": "SEC-02-2-C-018 canonical_claim and linked_consequence",
+      "status": "REALIZABLE"
+    },
+    {
+      "entry_id": "V22-C002-CRITERION-001",
+      "claim_id": "SEC-02-2-C-002",
+      "role": "ACCEPTANCE_CRITERIA_SCOPE",
+      "criterion_fact_ids": ["SEC-02-2-C-002#NUM0", "SEC-02-2-C-002#NUM1"],
+      "semantic_subject": "criterion_fact_ids",
+      "context_only": ["C25/30", "28 günlük karot numunesi", "Tablo-351-5"],
+      "forbidden_subject": "C25/30",
+      "meaning_guard": "22.5 MPa individual minimum and 25.5 MPa three-sample average minimum are acceptance criteria; C25/30 is the governed class context.",
+      "status": "REALIZABLE"
+    }
+  ],
+  "totals": {"new_entries": 5, "realizable": 4, "unrealizable": 1, "unresolved_terms": 1, "gloss_entries_added": 0, "lexicon_entries_added": 0}
+}

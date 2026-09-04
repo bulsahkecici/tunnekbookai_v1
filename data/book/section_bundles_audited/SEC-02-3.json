@@ -1,0 +1,1109 @@
+{
+  "section_id": "SEC-02-3",
+  "revision": 1,
+  "audit_version": "tunnelbook-pilot-manual-evidence-audit-v1",
+  "audited_notes": [
+    {
+      "parent_note_id": "Q-02-3-02-N09",
+      "revision": 1,
+      "claim": "Yüksek İlerleme Hızı Gereken Uzun Tüneller: Kayanın uygun olması durumunda, delme ve patlatma yöntemine göre 4-6 kat daha hızlı çalışabilen TBM'ler, uzun tünellerde ekonomik ve verimli çözüm olarak görülür.",
+      "support_status": "PARTIALLY_SUPPORTED",
+      "confidence": "low",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000076-C0004",
+          "citation_mode": "document_section",
+          "context_packet_sha": "5238b710c5dc2c45b3ab3b1fe5bc2bcf24b3a6bb9d9a3f66d4fb4fe4cbbb3408",
+          "document_id": "DOC000076",
+          "evidence_id": "E012",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "source_only",
+          "retrieval_rank": 12,
+          "retrieval_score": 0.5939129,
+          "section_path": null,
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000076-b351f5114762",
+          "source_relative_path": "Mehmet/Kitap 2.Bolum/Tuneller Bolum2_9_7_2025.docx",
+          "title": "Tuneller Bolum2_9_7_2025"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E012",
+          "start_offset": null,
+          "support_text": "delme ve patlatma yöntemine göre 4-6",
+          "support_type": "numeric_direct"
+        }
+      ],
+      "conditions": [
+        "durumunda"
+      ],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000076-b351f5114762"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-3-02-N09",
+      "section_id": "SEC-02-3",
+      "question_id": "Q-02-3-02",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-3-02-N09-A1",
+      "created_at": "2026-08-18T22:31:43.608181+00:00",
+      "audited_note_sha": "bc702e901dada9aebe9b36babe26fdd342dabcda096631f230f8371ce3f43552"
+    },
+    {
+      "parent_note_id": "Q-02-3-03-N01",
+      "revision": 1,
+      "claim": "The TBM Competitiveness formula captures the ratio between the length and diameter of the tunnel and the unconfined compressive strength, serving to identify the conditions under which the use of a Tunnel Boring Machine (TBM) may be appropriate.",
+      "support_status": "SUPPORTED",
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000011-C0008",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "b22daa53b74787b458caa0f23da35b6d02ea12772b2961cbde3a720f902518ab",
+          "document_id": "DOC000011",
+          "evidence_id": "E001",
+          "page_end": 25,
+          "page_start": 1,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 1,
+          "retrieval_score": 0.67517245,
+          "section_path": "The TBM Competitiveness formula 32",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000011-3506fbbf5180",
+          "source_relative_path": "Leyla Literatür/TunelMaliyet/ConstructionCost-annex_13_case_study_tunneling.pdf",
+          "title": "ConstructionCost-annex_13_case_study_tunneling"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E001",
+          "start_offset": null,
+          "support_text": "The TBM Competitiveness formula captures the ratio between the length and diameter of the tunnel and the unconfined compressive strength,",
+          "support_type": "direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": "may",
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000011-3506fbbf5180"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-3-03-N01",
+      "section_id": "SEC-02-3",
+      "question_id": "Q-02-3-03",
+      "note_type": "requirement",
+      "audited_note_id": "Q-02-3-03-N01-A1",
+      "created_at": "2026-08-18T22:31:43.621270+00:00",
+      "audited_note_sha": "dfce93bbc813292d049350d17e9f434026be6e436107b43529a75a35148d5e21"
+    },
+    {
+      "parent_note_id": "Q-02-3-03-N05",
+      "revision": 1,
+      "claim": "The value of 1.5 represents the trade-off limit between the two methods.",
+      "support_status": "SUPPORTED",
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000011-C0008",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "b22daa53b74787b458caa0f23da35b6d02ea12772b2961cbde3a720f902518ab",
+          "document_id": "DOC000011",
+          "evidence_id": "E001",
+          "page_end": 25,
+          "page_start": 1,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 1,
+          "retrieval_score": 0.67517245,
+          "section_path": "The TBM Competitiveness formula 32",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000011-3506fbbf5180",
+          "source_relative_path": "Leyla Literatür/TunelMaliyet/ConstructionCost-annex_13_case_study_tunneling.pdf",
+          "title": "ConstructionCost-annex_13_case_study_tunneling"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E001",
+          "start_offset": null,
+          "support_text": "1.5 represents the trade-off limit between the",
+          "support_type": "direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000011-3506fbbf5180"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-3-03-N05",
+      "section_id": "SEC-02-3",
+      "question_id": "Q-02-3-03",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-3-03-N05-A1",
+      "created_at": "2026-08-18T22:31:43.623009+00:00",
+      "audited_note_sha": "0ac817e1312a77d34b576f22971b6f9fb0aaa71889e84b538cfe2b5c1fb1c448"
+    },
+    {
+      "parent_note_id": "Q-02-3-04-N03",
+      "revision": 1,
+      "claim": "Açılan deliklere önceden hesaplanmış miktarda patlayıcılar yerleştirilir.",
+      "support_status": "SUPPORTED",
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000072-C0011",
+          "citation_mode": "document_section",
+          "context_packet_sha": "8fd018aca67719721cdbb2923ddd3276684c8c4dbec9d19e5027f0f79cc178f1",
+          "document_id": "DOC000072",
+          "evidence_id": "E001",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "section_resolved",
+          "retrieval_rank": 1,
+          "retrieval_score": 0.6565267,
+          "section_path": "19 Kayaç Zeminlerde Tünel İnşası",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000072-78ae470fa652",
+          "source_relative_path": "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/KTU_Tez_Tam Metin.docx",
+          "title": "KTU_Tez_Tam Metin"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E001",
+          "start_offset": null,
+          "support_text": "önceden hesaplanmış miktarda patlayıcılar",
+          "support_type": "direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000072-78ae470fa652"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-3-04-N03",
+      "section_id": "SEC-02-3",
+      "question_id": "Q-02-3-04",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-3-04-N03-A1",
+      "created_at": "2026-08-18T22:31:43.625552+00:00",
+      "audited_note_sha": "825bd4dd85d561e5acf153dc567c77a3c151dc7b2dd535dd3447ea6ad50a4a13"
+    },
+    {
+      "parent_note_id": "Q-02-3-05-N06",
+      "revision": 1,
+      "claim": "Short Tunnels: Conventional methods are more economically convenient, particularly for tunnels under 3–5 km in length or those with non-uniform cross-sections, as the high capital cost of a TBM cannot be justified over short distances.",
+      "support_status": "PARTIALLY_SUPPORTED",
+      "confidence": "low",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000011-C0016",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "b217fe946765487803dc5add36b1bbaf6b56c9c3d02795c7fe7cf3768f4ad176",
+          "document_id": "DOC000011",
+          "evidence_id": "E001",
+          "page_end": 25,
+          "page_start": 1,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 1,
+          "retrieval_score": 0.73454916,
+          "section_path": "Tunnelling Method",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000011-4a2c0e84ffd7",
+          "source_relative_path": "Leyla Literatür/TunelMaliyet/ConstructionCost-annex_13_case_study_tunneling.pdf",
+          "title": "ConstructionCost-annex_13_case_study_tunneling"
+        }
+      ],
+      "literal_support": [],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [
+        {
+          "condition": null,
+          "direction": null,
+          "maximum": "5",
+          "mean": null,
+          "median": null,
+          "minimum": "3",
+          "percentage": null,
+          "range": "3-5",
+          "source_evidence_ids": [
+            "E001"
+          ],
+          "unit": "km",
+          "value": null
+        }
+      ],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000011-4a2c0e84ffd7"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-3-05-N06",
+      "section_id": "SEC-02-3",
+      "question_id": "Q-02-3-05",
+      "note_type": "numeric",
+      "audited_note_id": "Q-02-3-05-N06-A1",
+      "created_at": "2026-08-18T22:31:43.634922+00:00",
+      "audited_note_sha": "b5320086ee83a9d993a7c97fce38e71b8874cea4514c9ccda74cdec81ff5b52d"
+    },
+    {
+      "parent_note_id": "Q-02-3-05-N11",
+      "revision": 1,
+      "claim": "Alpine Base Tunnels: Complex tunnels constructed with TBMs showed a much higher unit cost of 80 M€/km due to geological complexity, depth, and safety requirements.",
+      "support_status": "PARTIALLY_SUPPORTED",
+      "confidence": "low",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000011-C0019",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "b217fe946765487803dc5add36b1bbaf6b56c9c3d02795c7fe7cf3768f4ad176",
+          "document_id": "DOC000011",
+          "evidence_id": "E003",
+          "page_end": 25,
+          "page_start": 1,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7123854,
+          "section_path": "Results",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000011-ed64832b8d45",
+          "source_relative_path": "Leyla Literatür/TunelMaliyet/ConstructionCost-annex_13_case_study_tunneling.pdf",
+          "title": "ConstructionCost-annex_13_case_study_tunneling"
+        }
+      ],
+      "literal_support": [],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [
+        {
+          "condition": null,
+          "direction": null,
+          "maximum": null,
+          "mean": null,
+          "median": null,
+          "minimum": null,
+          "percentage": null,
+          "range": null,
+          "source_evidence_ids": [
+            "E003"
+          ],
+          "unit": "M",
+          "value": "80"
+        }
+      ],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000011-ed64832b8d45"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-3-05-N11",
+      "section_id": "SEC-02-3",
+      "question_id": "Q-02-3-05",
+      "note_type": "numeric",
+      "audited_note_id": "Q-02-3-05-N11-A1",
+      "created_at": "2026-08-18T22:31:43.640304+00:00",
+      "audited_note_sha": "b8ee731584cf25d53f20e7c5aabd9afbf488bf3c15dad44c66add0ba36e4a80b"
+    },
+    {
+      "parent_note_id": "Q-02-3-05-N13",
+      "revision": 1,
+      "claim": "Rock Quality: In poor rock mass conditions, average unit costs are approximately 5% higher than in fair conditions. In good rock conditions, costs are about 10% lower than in fair conditions.",
+      "support_status": "PARTIALLY_SUPPORTED",
+      "confidence": "low",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000011-C0019",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "b217fe946765487803dc5add36b1bbaf6b56c9c3d02795c7fe7cf3768f4ad176",
+          "document_id": "DOC000011",
+          "evidence_id": "E003",
+          "page_end": 25,
+          "page_start": 1,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 3,
+          "retrieval_score": 0.7123854,
+          "section_path": "Results",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000011-ed64832b8d45",
+          "source_relative_path": "Leyla Literatür/TunelMaliyet/ConstructionCost-annex_13_case_study_tunneling.pdf",
+          "title": "ConstructionCost-annex_13_case_study_tunneling"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E003",
+          "start_offset": null,
+          "support_text": "poor rock mass conditions,",
+          "support_type": "numeric_direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000011-ed64832b8d45"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-3-05-N13",
+      "section_id": "SEC-02-3",
+      "question_id": "Q-02-3-05",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-3-05-N13-A1",
+      "created_at": "2026-08-18T22:31:43.641653+00:00",
+      "audited_note_sha": "8dcc48b30708e2af3eb0b82504d48c46ea6abb60b94d688e480684311f48a422"
+    },
+    {
+      "parent_note_id": "Q-02-3-06-N05",
+      "revision": 1,
+      "claim": "III. Sınıf (Orta kaya): Üst/alt yarı ayrı ayrı kazılır, 1,5-3 m'lik ilerleme.",
+      "support_status": "PARTIALLY_SUPPORTED",
+      "confidence": "low",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000124-C0027",
+          "citation_mode": "document_section",
+          "context_packet_sha": "6270bed507f82c2fefbb429351cdfcf6d6076cfffe4fe7f8f8513d8bafa4013e",
+          "document_id": "DOC000124",
+          "evidence_id": "E010",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "source_only",
+          "retrieval_rank": 10,
+          "retrieval_score": 0.5966878,
+          "section_path": null,
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000124-a1bb2655c8fb",
+          "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx",
+          "title": "YTU Yuksek Lisans"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E010",
+          "start_offset": null,
+          "support_text": "yarı ayrı ayrı kazılır, 1,5-3",
+          "support_type": "numeric_direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [
+        {
+          "condition": null,
+          "direction": null,
+          "maximum": "3",
+          "mean": null,
+          "median": null,
+          "minimum": "1,5",
+          "percentage": null,
+          "range": "1,5-3",
+          "source_evidence_ids": [
+            "E010"
+          ],
+          "unit": "m",
+          "value": null
+        }
+      ],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000124-a1bb2655c8fb"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-3-06-N05",
+      "section_id": "SEC-02-3",
+      "question_id": "Q-02-3-06",
+      "note_type": "numeric",
+      "audited_note_id": "Q-02-3-06-N05-A1",
+      "created_at": "2026-08-18T22:31:43.653178+00:00",
+      "audited_note_sha": "ae14e135863bbf01ceb76ccffd19558d4bff09638806afda2e73ced8269c5bb3"
+    },
+    {
+      "parent_note_id": "Q-02-3-06-N06",
+      "revision": 1,
+      "claim": "IV. Sınıf (Zayıf kaya): Üst/alt yarı ayrı ayrı kazılır, 1-1,5 m'lik ilerleme.",
+      "support_status": "PARTIALLY_SUPPORTED",
+      "confidence": "low",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000124-C0027",
+          "citation_mode": "document_section",
+          "context_packet_sha": "6270bed507f82c2fefbb429351cdfcf6d6076cfffe4fe7f8f8513d8bafa4013e",
+          "document_id": "DOC000124",
+          "evidence_id": "E010",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "source_only",
+          "retrieval_rank": 10,
+          "retrieval_score": 0.5966878,
+          "section_path": null,
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000124-a1bb2655c8fb",
+          "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx",
+          "title": "YTU Yuksek Lisans"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E010",
+          "start_offset": null,
+          "support_text": "yarı ayrı ayrı kazılır, 1-1,5",
+          "support_type": "numeric_direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [
+        {
+          "condition": null,
+          "direction": null,
+          "maximum": "1,5",
+          "mean": null,
+          "median": null,
+          "minimum": "1",
+          "percentage": null,
+          "range": "1-1,5",
+          "source_evidence_ids": [
+            "E010"
+          ],
+          "unit": "m",
+          "value": null
+        }
+      ],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000124-a1bb2655c8fb"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-3-06-N06",
+      "section_id": "SEC-02-3",
+      "question_id": "Q-02-3-06",
+      "note_type": "numeric",
+      "audited_note_id": "Q-02-3-06-N06-A1",
+      "created_at": "2026-08-18T22:31:43.654361+00:00",
+      "audited_note_sha": "e95bbc16097487288590892271dbfff8850f9abf3775709e6d2fa120bbec1230"
+    },
+    {
+      "parent_note_id": "Q-02-3-06-N07",
+      "revision": 1,
+      "claim": "V. Sınıf (Çok zayıf kaya): Küçük kesitli kazılarla 0,5-1,5 m'lik ilerleme.",
+      "support_status": "PARTIALLY_SUPPORTED",
+      "confidence": "low",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000124-C0027",
+          "citation_mode": "document_section",
+          "context_packet_sha": "6270bed507f82c2fefbb429351cdfcf6d6076cfffe4fe7f8f8513d8bafa4013e",
+          "document_id": "DOC000124",
+          "evidence_id": "E010",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "source_only",
+          "retrieval_rank": 10,
+          "retrieval_score": 0.5966878,
+          "section_path": null,
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000124-a1bb2655c8fb",
+          "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx",
+          "title": "YTU Yuksek Lisans"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E010",
+          "start_offset": null,
+          "support_text": "Küçük kesitli kazılarla 0,5-1,5",
+          "support_type": "numeric_direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [
+        {
+          "condition": null,
+          "direction": null,
+          "maximum": "1,5",
+          "mean": null,
+          "median": null,
+          "minimum": "0,5",
+          "percentage": null,
+          "range": "0,5-1,5",
+          "source_evidence_ids": [
+            "E010"
+          ],
+          "unit": "m",
+          "value": null
+        }
+      ],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000124-a1bb2655c8fb"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-3-06-N07",
+      "section_id": "SEC-02-3",
+      "question_id": "Q-02-3-06",
+      "note_type": "numeric",
+      "audited_note_id": "Q-02-3-06-N07-A1",
+      "created_at": "2026-08-18T22:31:43.655545+00:00",
+      "audited_note_sha": "b3067925c176a7bd7c386a922dfbc2f323fb57a8f71f4b166dc848e9dbd7887a"
+    },
+    {
+      "parent_note_id": "Q-02-3-06-N10",
+      "revision": 1,
+      "claim": "B1 Sınıfı: Üst yarı kazısında 2,0-3,0 m, alt yarıda 4,0 m.",
+      "support_status": "PARTIALLY_SUPPORTED",
+      "confidence": "low",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000087-C0228",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "6270bed507f82c2fefbb429351cdfcf6d6076cfffe4fe7f8f8513d8bafa4013e",
+          "document_id": "DOC000087",
+          "evidence_id": "E004",
+          "page_end": 225,
+          "page_start": 201,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 4,
+          "retrieval_score": 0.6141937,
+          "section_path": "Tablo-350-3 Destek Sınıfları",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000087-8206370a21c7",
+          "source_relative_path": "Mehmet/Literatur/KGM_Teknik_Sartnamesi_2013.pdf",
+          "title": "KGM_Teknik_Sartnamesi_2013"
+        },
+        {
+          "chunk_id": "DOC000236-C0230",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "6270bed507f82c2fefbb429351cdfcf6d6076cfffe4fe7f8f8513d8bafa4013e",
+          "document_id": "DOC000236",
+          "evidence_id": "E008",
+          "page_end": 400,
+          "page_start": 376,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 8,
+          "retrieval_score": 0.60292256,
+          "section_path": "Tablo-350-3 Destek Sınıflari",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000236-28131f64e64a",
+          "source_relative_path": "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/DOKÜMANLAR/KTS_2013.pdf",
+          "title": "KTS_2013"
+        }
+      ],
+      "literal_support": [],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [
+        {
+          "condition": null,
+          "direction": null,
+          "maximum": "3,0",
+          "mean": null,
+          "median": null,
+          "minimum": "2,0",
+          "percentage": null,
+          "range": "2,0-3,0",
+          "source_evidence_ids": [
+            "E004",
+            "E008"
+          ],
+          "unit": "m",
+          "value": null
+        },
+        {
+          "condition": null,
+          "direction": null,
+          "maximum": null,
+          "mean": null,
+          "median": null,
+          "minimum": null,
+          "percentage": null,
+          "range": null,
+          "source_evidence_ids": [
+            "E004",
+            "E008"
+          ],
+          "unit": "m",
+          "value": "4,0"
+        }
+      ],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000087-8206370a21c7",
+        "SRC-DOC000236-28131f64e64a"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-3-06-N10",
+      "section_id": "SEC-02-3",
+      "question_id": "Q-02-3-06",
+      "note_type": "numeric",
+      "audited_note_id": "Q-02-3-06-N10-A1",
+      "created_at": "2026-08-18T22:31:43.661608+00:00",
+      "audited_note_sha": "fb5bc2a30fc434f4f7a0f7ef04a7a9cf6d5e3b5b2531328ce9747d4a4498660b"
+    },
+    {
+      "parent_note_id": "Q-02-3-06-N11",
+      "revision": 1,
+      "claim": "B2 Sınıfı: İlerleme adımı uzunluğu, desteksiz durma süresi ve açıklığına bağlı olarak belirlenir. Üst yarı 1,5-2,0 m, alt yarı 3,0-3,5 m'den fazla olmaz.",
+      "support_status": "PARTIALLY_SUPPORTED",
+      "confidence": "low",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000087-C0229",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "6270bed507f82c2fefbb429351cdfcf6d6076cfffe4fe7f8f8513d8bafa4013e",
+          "document_id": "DOC000087",
+          "evidence_id": "E006",
+          "page_end": 225,
+          "page_start": 201,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 6,
+          "retrieval_score": 0.6115519,
+          "section_path": "Tablo-350-3 Destek Sınıfları",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000087-099ad803ba80",
+          "source_relative_path": "Mehmet/Literatur/KGM_Teknik_Sartnamesi_2013.pdf",
+          "title": "KGM_Teknik_Sartnamesi_2013"
+        },
+        {
+          "chunk_id": "DOC000236-C0231",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "6270bed507f82c2fefbb429351cdfcf6d6076cfffe4fe7f8f8513d8bafa4013e",
+          "document_id": "DOC000236",
+          "evidence_id": "E007",
+          "page_end": 400,
+          "page_start": 376,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 7,
+          "retrieval_score": 0.6103363,
+          "section_path": "Tablo-350-3 Destek Sınıflari",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000236-71c452da21ec",
+          "source_relative_path": "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/DOKÜMANLAR/KTS_2013.pdf",
+          "title": "KTS_2013"
+        }
+      ],
+      "literal_support": [],
+      "conditions": [
+        "bağlı olarak"
+      ],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [
+        {
+          "condition": null,
+          "direction": null,
+          "maximum": "2,0",
+          "mean": null,
+          "median": null,
+          "minimum": "1,5",
+          "percentage": null,
+          "range": "1,5-2,0",
+          "source_evidence_ids": [
+            "E006",
+            "E007"
+          ],
+          "unit": "m",
+          "value": null
+        },
+        {
+          "condition": null,
+          "direction": null,
+          "maximum": "3,5",
+          "mean": null,
+          "median": null,
+          "minimum": "3,0",
+          "percentage": null,
+          "range": "3,0-3,5",
+          "source_evidence_ids": [
+            "E006",
+            "E007"
+          ],
+          "unit": "m",
+          "value": null
+        }
+      ],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000087-099ad803ba80",
+        "SRC-DOC000236-71c452da21ec"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-3-06-N11",
+      "section_id": "SEC-02-3",
+      "question_id": "Q-02-3-06",
+      "note_type": "numeric",
+      "audited_note_id": "Q-02-3-06-N11-A1",
+      "created_at": "2026-08-18T22:31:43.665181+00:00",
+      "audited_note_sha": "eaa79801abb10e78a77f862327ab8d2dfdd6a40a6b4e58b6f90d6068c38cfdbc"
+    },
+    {
+      "parent_note_id": "Q-02-3-06-N17",
+      "revision": 1,
+      "claim": "B3 Grubu (Döküntülü): Üst yarıda 1,5-2 m, alt yarıda 3 m ile sınırlanır.",
+      "support_status": "PARTIALLY_SUPPORTED",
+      "confidence": "low",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000124-C0021",
+          "citation_mode": "document_section",
+          "context_packet_sha": "6270bed507f82c2fefbb429351cdfcf6d6076cfffe4fe7f8f8513d8bafa4013e",
+          "document_id": "DOC000124",
+          "evidence_id": "E002",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "source_only",
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6208012,
+          "section_path": null,
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000124-ecc4db8d0008",
+          "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx",
+          "title": "YTU Yuksek Lisans"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E002",
+          "start_offset": null,
+          "support_text": "Üst yarıda 1,5-2 m, alt yarıda 3 m ile",
+          "support_type": "numeric_direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [
+        {
+          "condition": null,
+          "direction": null,
+          "maximum": "2",
+          "mean": null,
+          "median": null,
+          "minimum": "1,5",
+          "percentage": null,
+          "range": "1,5-2",
+          "source_evidence_ids": [
+            "E002"
+          ],
+          "unit": "m",
+          "value": null
+        },
+        {
+          "condition": null,
+          "direction": null,
+          "maximum": null,
+          "mean": null,
+          "median": null,
+          "minimum": null,
+          "percentage": null,
+          "range": null,
+          "source_evidence_ids": [
+            "E002"
+          ],
+          "unit": "m",
+          "value": "3"
+        }
+      ],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000124-ecc4db8d0008"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-3-06-N17",
+      "section_id": "SEC-02-3",
+      "question_id": "Q-02-3-06",
+      "note_type": "numeric",
+      "audited_note_id": "Q-02-3-06-N17-A1",
+      "created_at": "2026-08-18T22:31:43.673984+00:00",
+      "audited_note_sha": "f5aa43cf2a393118e8146caee2a7a989f33ee8715d8212ac6ad7674688e1f508"
+    },
+    {
+      "parent_note_id": "Q-02-3-06-N18",
+      "revision": 1,
+      "claim": "C1 Grubu (Kaya patlamalı): Üst yarıda 1,5-2 m, alt yarıda 3 m ile sınırlanır.",
+      "support_status": "PARTIALLY_SUPPORTED",
+      "confidence": "low",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000124-C0021",
+          "citation_mode": "document_section",
+          "context_packet_sha": "6270bed507f82c2fefbb429351cdfcf6d6076cfffe4fe7f8f8513d8bafa4013e",
+          "document_id": "DOC000124",
+          "evidence_id": "E002",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "source_only",
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6208012,
+          "section_path": null,
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000124-ecc4db8d0008",
+          "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx",
+          "title": "YTU Yuksek Lisans"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E002",
+          "start_offset": null,
+          "support_text": "Üst yarıda 1,5-2 m, alt yarıda 3 m ile",
+          "support_type": "numeric_direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [
+        {
+          "condition": null,
+          "direction": null,
+          "maximum": "2",
+          "mean": null,
+          "median": null,
+          "minimum": "1,5",
+          "percentage": null,
+          "range": "1,5-2",
+          "source_evidence_ids": [
+            "E002"
+          ],
+          "unit": "m",
+          "value": null
+        },
+        {
+          "condition": null,
+          "direction": null,
+          "maximum": null,
+          "mean": null,
+          "median": null,
+          "minimum": null,
+          "percentage": null,
+          "range": null,
+          "source_evidence_ids": [
+            "E002"
+          ],
+          "unit": "m",
+          "value": "3"
+        }
+      ],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000124-ecc4db8d0008"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-3-06-N18",
+      "section_id": "SEC-02-3",
+      "question_id": "Q-02-3-06",
+      "note_type": "numeric",
+      "audited_note_id": "Q-02-3-06-N18-A1",
+      "created_at": "2026-08-18T22:31:43.675475+00:00",
+      "audited_note_sha": "91ffa7f8db3a51126a556bf7811a6f9cd977025bffb89cb04dc33bde05f5b4be"
+    },
+    {
+      "parent_note_id": "Q-02-3-06-N20",
+      "revision": 1,
+      "claim": "C3, C4 Grubu: İlerleme adımı aynanın stabilitesine ve deformasyon hızlarına göre belirlenir; ayna sürekli desteklenir. Desteksiz kalma süresi 2 saatten azdır.",
+      "support_status": "PARTIALLY_SUPPORTED",
+      "confidence": "low",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000124-C0021",
+          "citation_mode": "document_section",
+          "context_packet_sha": "6270bed507f82c2fefbb429351cdfcf6d6076cfffe4fe7f8f8513d8bafa4013e",
+          "document_id": "DOC000124",
+          "evidence_id": "E002",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "source_only",
+          "retrieval_rank": 2,
+          "retrieval_score": 0.6208012,
+          "section_path": null,
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000124-ecc4db8d0008",
+          "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx",
+          "title": "YTU Yuksek Lisans"
+        },
+        {
+          "chunk_id": "DOC000124-C0022",
+          "citation_mode": "document_section",
+          "context_packet_sha": "6270bed507f82c2fefbb429351cdfcf6d6076cfffe4fe7f8f8513d8bafa4013e",
+          "document_id": "DOC000124",
+          "evidence_id": "E020",
+          "page_end": null,
+          "page_start": null,
+          "provenance_status": "source_only",
+          "retrieval_rank": 20,
+          "retrieval_score": 0.5784452,
+          "section_path": null,
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000124-0a59a65672a4",
+          "source_relative_path": "Mehmet/Literatur/Wordler/YTU Yuksek Lisans.docx",
+          "title": "YTU Yuksek Lisans"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E020",
+          "start_offset": null,
+          "support_text": "aynanın stabilitesine ve deformasyon hızlarına göre belirlenir;",
+          "support_type": "numeric_direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000124-0a59a65672a4",
+        "SRC-DOC000124-ecc4db8d0008"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-3-06-N20",
+      "section_id": "SEC-02-3",
+      "question_id": "Q-02-3-06",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-3-06-N20-A1",
+      "created_at": "2026-08-18T22:31:43.680860+00:00",
+      "audited_note_sha": "7bc8d5ea1b7bbe3f89bde744224e93dbbdbf563773adcfbf696749a48165a5c0"
+    }
+  ],
+  "claim_ledger": [
+    {
+      "claim_id": "SEC-02-3-AC001",
+      "section_id": "SEC-02-3",
+      "canonical_claim": "The TBM Competitiveness formula captures the ratio between the length and diameter of the tunnel and the unconfined compressive strength, serving to identify the conditions under which the use of a Tunnel Boring Machine (TBM) may be appropriate.",
+      "note_ids": [
+        "Q-02-3-03-N01-A1"
+      ],
+      "support_status": "SUPPORTED",
+      "numeric": false,
+      "citation_ready": true,
+      "conflict_group": null,
+      "duplicate_of": null,
+      "review_status": "manually_audited"
+    },
+    {
+      "claim_id": "SEC-02-3-AC002",
+      "section_id": "SEC-02-3",
+      "canonical_claim": "The value of 1.5 represents the trade-off limit between the two methods.",
+      "note_ids": [
+        "Q-02-3-03-N05-A1"
+      ],
+      "support_status": "SUPPORTED",
+      "numeric": false,
+      "citation_ready": true,
+      "conflict_group": null,
+      "duplicate_of": null,
+      "review_status": "manually_audited"
+    },
+    {
+      "claim_id": "SEC-02-3-AC003",
+      "section_id": "SEC-02-3",
+      "canonical_claim": "Açılan deliklere önceden hesaplanmış miktarda patlayıcılar yerleştirilir.",
+      "note_ids": [
+        "Q-02-3-04-N03-A1"
+      ],
+      "support_status": "SUPPORTED",
+      "numeric": false,
+      "citation_ready": true,
+      "conflict_group": null,
+      "duplicate_of": null,
+      "review_status": "manually_audited"
+    }
+  ],
+  "readiness": "NOT_READY",
+  "readiness_reasons": [
+    "P0 questions with no SUPPORTED audited note: ['Q-02-3-01', 'Q-02-3-02']"
+  ],
+  "counts": {
+    "audited_notes": 15,
+    "SUPPORTED": 3,
+    "PARTIALLY_SUPPORTED": 12,
+    "citation_ready": 3
+  },
+  "bundle_sha": "0a1e569cc30bbec8c5ebe280826df1a94b184012f7b6eb500a2df9921393078b"
+}

@@ -1,0 +1,86 @@
+{
+  "actions_attempted": [
+    "D: regeneration assessed and declined - existing packet evidence carried every targeted proposition",
+    "cross-lingual mappings authored: 0",
+    "manual mappings authored: 12",
+    "packet inspected in full (20 evidence items)"
+  ],
+  "corpus_gap_candidate": false,
+  "critical_missing_propositions": [
+    "Q-02-2-01-N04-C01",
+    "Q-02-2-01-N04-C02",
+    "Q-02-2-01-N06-C01",
+    "Q-02-2-01-N07-C01"
+  ],
+  "current_insufficient_notes": [
+    "Q-02-2-01-N03-R2",
+    "Q-02-2-01-N04-R2",
+    "Q-02-2-01-N05-R2",
+    "Q-02-2-01-N06-R2",
+    "Q-02-2-01-N07-R2"
+  ],
+  "current_partial_claims": [],
+  "current_supported_claims": [
+    "Q-02-2-01-N02-R2"
+  ],
+  "existing_evidence_refs": [
+    "E001",
+    "E002",
+    "E003",
+    "E004",
+    "E005",
+    "E006",
+    "E007",
+    "E008",
+    "E009",
+    "E010",
+    "E011",
+    "E012",
+    "E013",
+    "E014",
+    "E015",
+    "E016",
+    "E017",
+    "E018",
+    "E019",
+    "E020"
+  ],
+  "existing_packet_shas": [
+    "41eff42098b8f210e1f13d024bcc447fc2243742fdc93489fb0b8641cddc1345"
+  ],
+  "gap_classes": [
+    "GENERATOR_SYNTHESIS_DEFECT",
+    "SPAN_MAPPING_FAILURE"
+  ],
+  "gap_id": "GAP-P0-03",
+  "generation_attempts": 0,
+  "notes": [
+    "not fully supported under this question: 0",
+    "unsupported under this question: 0"
+  ],
+  "packet_exhausted": true,
+  "packet_items_inspected": 20,
+  "question_design_defect": false,
+  "question_id": "Q-02-2-01",
+  "question_text": "Püskürtme beton için minimum çimento dozajı ne kadardır?",
+  "remaining_missing_propositions": [],
+  "resolution_strategy": [
+    "B: inspect the whole frozen packet, not only cited handles",
+    "D: separate the synthesis from its components; regenerate only if the components are absent",
+    "E: assess RETRIEVAL_GAP only after the packet is exhausted",
+    "F: assess CORPUS_GAP only after retrieval is exhausted"
+  ],
+  "resolved_claim_ids": [
+    "SEC-02-2-P0-001",
+    "SEC-02-2-P0-002",
+    "SEC-02-2-P0-003",
+    "SEC-02-2-P0-004",
+    "SEC-02-2-P0-005",
+    "SEC-02-2-P0-006"
+  ],
+  "retrieval_expansions": 0,
+  "retrieval_gap_candidate": false,
+  "section_id": "SEC-02-2",
+  "section_objective": "Püskürtme betona ilişkin sayısal gereklilikleri ve şartname hükümlerini kanıta dayalı olarak derlemek",
+  "status": "RESOLVED"
+}

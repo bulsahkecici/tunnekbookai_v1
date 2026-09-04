@@ -1,0 +1,409 @@
+---
+document_id: "DOC000250"
+title: "T2 Tuneli Cikis Sol Tup 26.11.2018"
+source_file: "T2 Tuneli Cikis Sol Tup 26.11.2018.pdf"
+source_relative_path: "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/DOKÜMANLAR/TAKİP FORMU/24.12.2018/T2 Tuneli Cikis Sol Tup 26.11.2018.pdf"
+source_extension: ".pdf"
+sha256: "7de44ee96dfee3d118f4cbff58926e3839530d1280e7539f8be6d0cec8b702f9"
+language: null
+document_type: "unknown"
+organization: null
+year: 2018
+authority_level: null
+topics: []
+duplicate_group: null
+preferred_variant: true
+conversion_engine: "pypdfium2+rapidocr_torch"
+---
+
+# T2 Tuneli Cikis Sol Tup 26.11.2018
+
+## Sayfa 1
+
+Cw R
+
+Süreksizlik Düzlemleri
+
+DOLGU CiNSI
+
+CAGL
+
+FOTOGRAF NO
+
+AVRA DSUNL
+
+MH□NS
+
+am
+
+Kil
+
+TÜNEL PROJECISININ TEMSILCISI (KTS.350.01.01)
+
+TEMAT-GÖZLEM iş ORTAKLIČI
+
+2
+
+LEJANT
+
+dem
+
+Fay
+
+DOIU DUUMU
+
+Sert Dolgu > 5 mm
+
+Sert Dolgu > 5 mm
+
+umuşak Dolgu < 5 m
+
+MW
+
+MÜŞAVIR
+
+nro Seyi
+
+□
+
+SAĆ DUVAR
+
+Cizen
+
+PÜRÜZLÜLÜK
+
+Az Pürüzlū
+
+Azruuu zle
+
+A0A
+
+ILERE ECISI
+
+CIR SOSIIOP
+
+501
+
+UZZLU
+
+K (m)
+
+3-10 m
+
+6
+
+AÇIKLIK (mm)
+
+1 - 5 mm
+
+PPunan
+
+m
+
+AKIRCI
+
+dor
+
+hendisi
+
+Tarnat
+
+))
+
+EKSEN
+
+ARALIK
+
+(cm)
+
+9>
+
+60200
+
+9>
+
+Süleyman
+
+Prole
+
+lnasay
+
+YÖNELIM
+
+1525
+
+140/35
+
+160/20
+
+YÜKLENiCi
+
+KONTROL $EFÍ
+
+Serhat GÜNDOGAN
+
+B2
+
+ÜST YARI
+
+TI
+
+Elern
+
+ERlcem
+
+ERlcem
+
+FBy
+
+AUS
+
+udis
+
+T.C. ULAŞTIRMA VE ALTYAPI BAKANLIGI
+
+Karayollari Genel Müdürlogo . Bölge Müdürlogü
+
+S
+
+(RQD)
+
+Süreksizlik Aralıkları
+
+Süreksizliklerin boyu
+
+TAVAN
+
+SOL DUVAR
+
+ALT YARI
+
+Catlak Araltgi
+
+ÖLÇÜLEN YAPILAR
+
+Adet:11-12,PG BULON
+
+T-2 TÜNELÍ
+
+ed 5 - 1
+
+2
+
+09 >
+
+< n
+
+11
+
+50<
+
+Arns
+
+0 5
+
+12>
+
+P 01 wopde w
+
+001 >
+
+51 >
+
+20
+
+141+719.97-141+640.47
+
+Q221/221 Çift Kat
+
+25m) 530)
+
+5-25
+
+Dsn
+
+75
+
+52
+
+N140
+
+1.75
+
+Tünelin adı :
+
+25-50
+
+00z · 09
+
+蛋
+
+> np
+
+Açáklik 1 - 5 mm,
+
+01-9
+
+5-125
+
+02-0'
+
+7
+
+0-1
+
+N
+
+1-25
+
+1 02 - 01
+
+zusuy o2
+
+qy
+
+TTTN
+
+ERD-+ I --560
+
+56
+
+KAYA SINIFLAMA PARAMETRELERI
+
+sdw 001-0s
+
+50-5
+
+10-20
+
+10-25
+
+ε0 - 1'0
+
+5 m açakik icin 1 hafta
+
+20 - 0
+
+25 - 35
+
+Boy:4-6m, Aralk: 1.00-1.50 , Adet:11-12,PG BULON
+
+Yapim : 15 cm, Deformasyon : 3-5 cm
+
+görülen Imalatlar
+
+IVZO
+
+4 01 -
+
+olye 0s5 - 001
+
+06 - SL
+
+41
+
+02·'0
+
+15
+
+Az pürtali, şklá
+
+20-25
+
+0I >
+
+1
+
+unBin
+
+19-08
+
+siry 19
+
+30-40
+
+3S·-5
+
+1-3m
+
+10>
+
+sqpotusy zy
+
+Dalm 20 -45
+
+141+719.97-141+650.72
+
+NI140
+
+15'0-0'0
+
+Q221x221 (Çift Kat)
+
+25 cm(C 25/30)
+
+RMR Puam
+
+ed 01 <
+
+§1
+
+001 - 06
+
+00
+
+=2<
+
+m
+
+Çok Pürüulü,
+
+25-30
+
+VvA
+
+e
+
+runy tou
+
+18 - 001
+
+C
+
+1.5 ms aşıkchk çin 20 yil
+
+S <
+
+EZS A AUEZ
+
+α 1 >
+
+32d 3
+
+141+640.47
+
+(% ) (
+
+D. KAYA SINIFLARININ NICELÍK ANLAMI
+
+tme Beton Kalinligi (ds(cm
+
+Aralk(L=)
+
+Tuletet
+
+(edy)
+
+ON
+
+Özellikleri
+
+Sistemi ve Özellikleri
+
+Projenin Adt :
+
+aáng
+
+PrN
+
+e

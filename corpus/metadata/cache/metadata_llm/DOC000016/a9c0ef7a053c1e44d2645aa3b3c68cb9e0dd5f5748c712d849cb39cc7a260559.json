@@ -1,0 +1,49 @@
+{
+  "document_id": "DOC000016",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:52:00+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "This Guide provides a general description of the principal cost elements for bored (or mechanised) tunnels constructed using either an 'Earth Pressure Balance Machine' (EPBM) or a 'Slurry' machine. [authority_B_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "This Guide provides a general description of the principal cost elements for bored (or mechanised) tunnels constructed using either an 'Earth Pressure Balance Machine' (EPBM) or a 'Slurry' machine.",
+      "value": "technical_report"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "On the 26 March 2015 the House of Commons Select Committee for the High Speed 2 (London to West Midlands) hybrid Bill published their 'First Special Report'. Paragraph 75 states: 'The merits of tunnels should be assessed on the basis of their own cost and potential benefit, not their percentage contribution to overall project costs. We have requested that the Promoter make available a guide to tunnel costs to assist petitioners arguing the case for more tunnelling.'",
+      "value": "High Speed 2 (HS2)"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "## High Speed Two A Guide to Tunnelling Costs",
+      "value": "High Speed Two A Guide to Tunnelling Costs"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "This Guide provides a general description of the principal cost elements for bored (or mechanised) tunnels constructed using either an 'Earth Pressure Balance Machine' (EPBM) or a 'Slurry' machine.",
+      "value": [
+        "cost",
+        "tbm",
+        "tunnel_general"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "On the 26 March 2015 the House of Commons Select Committee for the High Speed 2 (London to West Midlands) hybrid Bill published their 'First Special Report'.",
+      "value": 2015
+    }
+  },
+  "source_sha256": "376b6902031fe537a68c4606bbc954db0a2583e517f679e65b8aeded512e39cd"
+}

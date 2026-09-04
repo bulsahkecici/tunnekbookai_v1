@@ -1,0 +1,86 @@
+{
+  "version": "tunnelbook-sec-02-2-technical-draft-reaudit-v2",
+  "status": "CLOSED_NO_GO",
+  "blocking_findings": [
+    {
+      "id": "RA2-B01",
+      "class": "TDA_006_REOPENED",
+      "finding": "C25/30 remains the grammatical subject called quality-control criteria, contrary to the frozen criterion-subject binding.",
+      "unit_ids": ["U-A-P02-S02"]
+    },
+    {
+      "id": "RA2-B02",
+      "class": "BOOK_STYLE_FRAGMENT_AND_NOTE_LABEL_FAILURE",
+      "finding": "Material fragments and unfrozen note-label openings violate Book Style v1.",
+      "unit_ids": ["U-B-P01-S01", "U-B-P02-S01", "U-B-P04-S01", "U-B-P05-S01", "U-C-P02-S02"]
+    },
+    {
+      "id": "RA2-B03",
+      "class": "TERMINOLOGY_INCONSISTENCY",
+      "finding": "The draft alternates tabaka and katman although the frozen map prefers tabaka and forbids free variants.",
+      "unit_ids": ["U-C-P04-S01", "U-D-P01-S01", "U-D-P02-S01"]
+    }
+  ],
+  "advisory_findings": [
+    {
+      "id": "RA2-A01",
+      "class": "TECHNICAL_NOTATION_INELEGANCE",
+      "finding": "The inherited phrase 'minimum C25/30 MPa sınıfında' redundantly attaches MPa and repeats sınıf.",
+      "unit_ids": ["U-A-P01-S01"]
+    }
+  ],
+  "six_blocker_status": {
+    "closed": 5,
+    "total": 6,
+    "checks": {
+      "TDA-001": "CLOSED",
+      "TDA-002": "CLOSED",
+      "TDA-003": "CLOSED",
+      "TDA-004": "CLOSED",
+      "TDA-005": "CLOSED",
+      "TDA-006": "REOPENED"
+    }
+  },
+  "citation_support": {
+    "allocation_status": "PASS",
+    "claim_source_intents": "19/19",
+    "unknown_keys": 0,
+    "misleading_cement_allocations": 0,
+    "unambiguous_surface_units": "18/19",
+    "surface_exception": "U-A-P02-S02"
+  },
+  "terminology_scope": {
+    "scope_bindings": "3/3 PASS",
+    "p0_008_cases_dependency": "PASS",
+    "unresolved_term_fallback": "PASS",
+    "layer_terminology": "FAIL",
+    "layer_term_counts": {"tabaka": 10, "katman": 6}
+  },
+  "factual_completeness": {"required_facts_present": "PASS", "unambiguous": "FAIL"},
+  "book_style": {
+    "status": "FAIL",
+    "fragment_units": ["U-B-P02-S01", "U-C-P02-S02"],
+    "note_label_units": ["U-B-P01-S01", "U-B-P02-S01", "U-B-P04-S01", "U-B-P05-S01"],
+    "redundant_summary_present": false
+  },
+  "validation": {
+    "status": "ACCEPT",
+    "validator_version": "tunnelbook-section-draft-validator-v1.2",
+    "failure_histogram": {},
+    "admitted_units": 19,
+    "rejected_units": 0,
+    "rejected_unit_ids": [],
+    "fallback_failures": []
+  },
+  "accounting": {
+    "generation_calls": 0,
+    "retrieval_calls": 0,
+    "qdrant_writes": 0,
+    "corpus_wide_reads": 0,
+    "post_render_model_passes": 0,
+    "draft_rewrites": 0,
+    "releases": 0
+  },
+  "release_recommendation": "DO_NOT_RELEASE",
+  "next_phase": "SEC-02-2 TECHNICAL DRAFT RE-AUDIT V2 FAILURE ANALYSIS"
+}

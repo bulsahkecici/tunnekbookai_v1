@@ -1,0 +1,32 @@
+{
+  "version": "tunnelbook-sec-02-2-architecture-v2.2-acceptance-results-v1",
+  "acceptance_contract_sha256": "c5513028eb8c83ba1c934b8433f7e7c17b0f69a2f88c306637e4ae8f061bc286",
+  "conditions": [
+    {"id": "AC-V22-01", "status": "PASS", "evidence": "frozen preflight/postflight: 25 artifacts, drift 0"},
+    {"id": "AC-V22-02", "status": "PASS", "evidence": "new additive V2.2 contracts; frozen parents unchanged"},
+    {"id": "AC-V22-03", "status": "FAIL", "evidence": "P0-008 required CASE_SCOPE is not available or realizable; canonical universe refused"},
+    {"id": "AC-V22-04", "status": "PASS", "evidence": "V22-PLAN-SCOPE-001; deterministic style order"},
+    {"id": "AC-V22-05", "status": "PASS", "evidence": "V22-SCOPE-WET-001"},
+    {"id": "AC-V22-06", "status": "PASS", "evidence": "V22-SCOPE-REPAIR-001"},
+    {"id": "AC-V22-07", "status": "FAIL", "evidence": "ROCK-SWELLING has no approved claim-owned Turkish term; no guess or widening used"},
+    {"id": "AC-V22-08", "status": "PASS", "evidence": "V22-C018-MAX-001"},
+    {"id": "AC-V22-09", "status": "PASS", "evidence": "V22-C002-CRITERION-001"},
+    {"id": "AC-V22-10", "status": "PASS", "evidence": "Citation Allocation Contract v2; misleading allocations 0"},
+    {"id": "AC-V22-11", "status": "PASS", "evidence": "deterministic frozen title and heading map"},
+    {"id": "AC-V22-12", "status": "PASS", "evidence": "deterministic paragraph_order and placement rules"},
+    {"id": "AC-V22-13", "status": "PASS", "evidence": "scope and criterion adjacency placement rules"},
+    {"id": "AC-V22-14", "status": "PASS", "evidence": "only grounded terms eligible; gloss/lexicon additions 0"},
+    {"id": "AC-V22-15", "status": "PASS", "evidence": "P0-006 summary suppressed only with R001/P0-001 fact coverage"},
+    {"id": "AC-V22-16", "status": "PASS", "evidence": "renderer free-form/model/post-render branches false"},
+    {"id": "AC-V22-17", "status": "FAIL", "evidence": "full static surface proof not run because universe refused before enumeration"},
+    {"id": "AC-V22-18", "status": "FAIL", "evidence": "complete V2.2 proof universe does not exist; zero counts are fail-closed, not a completed proof"},
+    {"id": "AC-V22-19", "status": "FAIL", "evidence": "refusal is byte-deterministic, but required proof renders were not authorised after universe refusal"},
+    {"id": "AC-V22-20", "status": "PASS", "evidence": "9/9 negative fixtures reject"},
+    {"id": "AC-V22-21", "status": "FAIL", "evidence": "complete surface-feasible SEC-02-2 plan does not exist"},
+    {"id": "AC-V22-22", "status": "PASS", "evidence": "Pilot #1 rejected; Pilot #2/OC-01 frozen regression passes"},
+    {"id": "AC-V22-23", "status": "PASS", "evidence": "all prohibited operation counts 0; targeted evidence-artifact reads only"},
+    {"id": "AC-V22-24", "status": "PASS", "evidence": "phase 17 tests; affected regressions 164; failures 0"}
+  ],
+  "summary": {"conditions": 24, "passed": 18, "failed": 6, "unmet": ["AC-V22-03", "AC-V22-07", "AC-V22-17", "AC-V22-18", "AC-V22-19", "AC-V22-21"]},
+  "verdict": "CLOSED_NO_GO"
+}

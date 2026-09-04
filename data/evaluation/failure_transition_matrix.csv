@@ -1,0 +1,28 @@
+﻿query_id,query,baseline_cause,fixed_by_BM25_V1,fixed_by_DENSE_NEIGHBOR_1,fixed_by_HYBRID_RRF_30,fixed_by_HYBRID_RRF_60,fixed_by_HYBRID_RRF_100,fixed_by_BILINGUAL_DENSE_RRF,fixed_by_BILINGUAL_HYBRID_RRF,fixed_by_RERANK_20,fixed_by_RERANK_50
+Q001,What is the New Austrian Tunnelling Method?,gold_annotation_scope,no,no,no,no,no,no,no,no,no
+Q011,What is overbreak in tunnel excavation?,gold_annotation_scope,yes,no,yes,no,no,no,no,yes,yes
+Q018,Tünel aydınlatma tasarımı nasıl yapılır?,chunk_boundary,no,no,no,no,no,no,no,no,no
+Q036,Tünel kazısında sökme ve nakliye işleri,chunk_boundary,yes,no,no,no,no,no,no,no,no
+Q041,Squeezing ground behaviour in deep tunnels,chunk_boundary,no,no,yes,yes,yes,no,yes,no,no
+Q042,Şişen zeminlerde tünel davranışı,embedding_semantics,yes,no,yes,yes,yes,no,yes,yes,yes
+Q048,Jeolojik etüt raporunda hangi bilgiler bulunur?,chunk_boundary,no,no,no,no,no,no,no,no,no
+Q052,Tünel işletme maliyetleri nelerdir?,table_numeric,no,no,no,no,no,no,no,no,no
+Q054,Tünel havalandırma sistemlerinin işletilmesi,table_numeric,yes,no,no,no,no,no,no,no,no
+Q056,Tünel trafik yönetimi ve izleme,chunk_boundary,no,yes,no,no,no,no,no,yes,no
+Q060,Tünel elektromekanik tesisat bakımı,chunk_boundary,no,no,no,no,no,no,no,no,no
+Q064,Acil kaçış yolları ve kaçış tünelleri,embedding_semantics,yes,no,yes,yes,yes,no,yes,yes,yes
+Q071,Tünel güvenliği yönetmeliğinde belirtilen asgari gereklilikler,chunk_boundary,no,yes,no,no,no,no,no,no,no
+Q075,KGM tünel projelerinde uyulacak esaslar,chunk_boundary,yes,no,yes,yes,yes,no,yes,no,yes
+Q076,AASHTO design specification references,chunk_boundary,no,no,no,no,no,no,no,no,no
+Q078,Minimum gabari ve serbest yükseklik şartları,table_numeric,no,no,no,no,no,no,no,no,no
+Q079,Acceptance criteria and quality control tests,chunk_boundary,yes,no,yes,yes,yes,no,yes,yes,yes
+Q081,Tunnel lighting energy cost per kWh,table_numeric,yes,no,no,no,no,no,no,yes,yes
+Q087,Ventilation air flow rate requirements,table_numeric,no,no,no,no,no,no,no,no,no
+Q089,Concrete compressive strength class requirements,chunk_boundary,yes,no,yes,yes,yes,no,yes,yes,yes
+Q091,Türkiye'deki karayolu tünellerinin isimleri ve uzunlukları,table_numeric,no,no,no,no,no,no,no,no,no
+Q098,Bolu Dağı Tüneli,table_numeric,no,no,no,no,no,no,no,no,no
+Q109,tünel havalandırma sistemi tasarımı,cross_lingual,no,no,no,no,no,yes,yes,yes,no
+Q110,kaya kütlesi sınıflandırma sistemleri,cross_lingual,no,no,no,no,no,no,no,no,no
+Q111,tunnel maintenance and operation costs,cross_lingual,no,no,no,no,no,no,no,no,no
+Q112,shotcrete application requirements,cross_lingual,no,no,no,no,no,yes,yes,yes,no
+Q113,rock bolt pull-out test,cross_lingual,no,no,no,no,no,yes,yes,no,no

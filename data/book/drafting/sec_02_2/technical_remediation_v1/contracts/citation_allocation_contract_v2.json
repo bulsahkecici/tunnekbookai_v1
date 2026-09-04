@@ -1,0 +1,51 @@
+{
+  "version": "tunnelbook-sec-02-2-citation-allocation-contract-v2",
+  "section_id": "SEC-02-2",
+  "additive_to": "book-citation-rendering-contract-v1",
+  "source_registry_modified": false,
+  "general_selection_rule": {
+    "requirements": [
+      "source key is owned by the claim",
+      "registered section_path semantically matches the proposition topic",
+      "the selected source independently contains the full proposition",
+      "a misleading heading is excluded even when the larger chunk later contains support"
+    ],
+    "tie_break": "Prefer the smallest independently sufficient semantically matching allocation; do not cite duplicate sources solely because both are registered."
+  },
+  "allocations": [
+    {
+      "claim_id": "SEC-02-2-P0-001",
+      "old_source_keys": ["SRC-DOC000087-e7393bf8138a", "SRC-DOC000236-0229b854f373"],
+      "selected_source_keys": ["SRC-DOC000236-0229b854f373"],
+      "excluded_source_keys": [{"source_key": "SRC-DOC000087-e7393bf8138a", "reason": "registered section_path is Tokluk İndeksi - Enerji Depolama Kapasitesi, not cement"}],
+      "selected_section_path": "351.04.01 Çimento"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-004",
+      "old_source_keys": ["SRC-DOC000087-e7393bf8138a", "SRC-DOC000236-0229b854f373"],
+      "selected_source_keys": ["SRC-DOC000236-0229b854f373"],
+      "excluded_source_keys": [{"source_key": "SRC-DOC000087-e7393bf8138a", "reason": "registered section_path is Tokluk İndeksi - Enerji Depolama Kapasitesi, not cement"}],
+      "selected_section_path": "351.04.01 Çimento"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-006",
+      "old_source_keys": ["SRC-DOC000087-e7393bf8138a", "SRC-DOC000236-0229b854f373"],
+      "selected_source_keys": ["SRC-DOC000236-0229b854f373"],
+      "excluded_source_keys": [{"source_key": "SRC-DOC000087-e7393bf8138a", "reason": "registered section_path is Tokluk İndeksi - Enerji Depolama Kapasitesi, not cement"}],
+      "selected_section_path": "351.04.01 Çimento"
+    },
+    {
+      "claim_id": "SEC-02-2-C-018",
+      "old_source_keys": [],
+      "selected_source_keys": ["SRC-DOC000236-0229b854f373"],
+      "excluded_source_keys": [],
+      "selected_section_path": "351.04.01 Çimento"
+    }
+  ],
+  "result": {
+    "affected_claims": 4,
+    "misleading_allocations_remaining": 0,
+    "unknown_source_keys": 0,
+    "registry_mutations": 0
+  }
+}

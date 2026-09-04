@@ -1,0 +1,61 @@
+{
+  "document_id": "DOC000103",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:55:52+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "NATM TÜNEL YAPIMI [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "medium",
+      "evidence": "NATM TÜNEL YAPIMI",
+      "value": "technical_specification"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "KPT(KaynarcaPendikTuzla) Metrosu_24220221180893.docx [evidence_not_grounded_in_context]",
+      "value": "KPT(KaynarcaPendikTuzla) Metrosu_24220221180893"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "NATM TÜNEL YAPIMI",
+      "value": [
+        "excavation",
+        "forepoling",
+        "geology",
+        "geotechnical_investigation",
+        "injection",
+        "jet_grouting",
+        "maintenance",
+        "monitoring",
+        "natm",
+        "portal",
+        "shotcrete",
+        "steel_mesh",
+        "steel_rib",
+        "support_systems",
+        "ventilation"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": null
+    }
+  },
+  "source_sha256": "2c1b6a55522b0773cf9f110ca0d29ce8248640c1c42ad5df0701309c576f28d4"
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "DOC000073",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:54:54+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "**SUNUM ADI**",
+      "value": "C"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "**SUNUM ADI**",
+      "value": "presentation"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "**SUNUM ADI** **SUNUM ADI 63.BÖLGE MÜDÜRLERİ** **TOPLANTISI** ... **KARAYOLLARI GENEL MÜDÜRLÜĞÜNDE TÜNELCİLİK ÇALIŞMALARI**",
+      "value": "Karayolları Genel Müdürlüğü"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "**SUNUM ADI** **SUNUM ADI 63.BÖLGE MÜDÜRLERİ** **TOPLANTISI** ... **KARAYOLLARI GENEL MÜDÜRLÜĞÜNDE TÜNELCİLİK ÇALIŞMALARI**",
+      "value": "Karayolları Genel Müdürlüğünde Tünelcilik Çalışmaları"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "excavation",
+        "portal"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "**TÜRKİYE TÜNELCİLİK SEMİNERİ 13 HAZİRAN 2013**",
+      "value": 2013
+    }
+  },
+  "source_sha256": "9fea1e259f10c9d371f0762816d9b80216f58e29841b79b2ca26aa9312ec177c"
+}

@@ -1,0 +1,41 @@
+{
+  "automatic_retries": 0,
+  "corpus_reads": 0,
+  "generation_calls": 1,
+  "pilot_id": "SEC-02-2-ARCHV2-PILOT-1",
+  "post_render_model_calls": 0,
+  "qdrant_writes": 0,
+  "raw_text_sha256": "6cad69f48ec2ec4e5b630e11a693fbd101b01c543a2db8f1d93c09059d3bc194",
+  "regenerated": false,
+  "repaired": false,
+  "retrieval_calls": 0,
+  "section_id": "SEC-02-2",
+  "semantic_plan": {
+    "claims": 16,
+    "failures": [
+      {
+        "code": "PLAN_ROLE_UNREALIZABLE",
+        "detail": "SEC-02-2-C-005 / CONDITION is UNREALIZABLE: a registered condition is not Turkish and has no frozen gloss frame",
+        "slot_id": "C-P5-S2"
+      }
+    ],
+    "role_counts": {
+      "CLAIM_STATEMENT": 12,
+      "CONDITION": 7,
+      "QUALIFIER_SCOPE": 2,
+      "REQUIREMENT": 4
+    },
+    "slots": 25,
+    "unrealizable_pairs_selected": [
+      [
+        "SEC-02-2-C-005",
+        "CONDITION"
+      ]
+    ],
+    "valid": false
+  },
+  "stage": "plan_validation",
+  "status": "REJECT",
+  "validated_at": "2026-08-19T23:32:07.475453+00:00",
+  "version": "tunnelbook-sec-02-2-architecture-v2-pilot-1"
+}

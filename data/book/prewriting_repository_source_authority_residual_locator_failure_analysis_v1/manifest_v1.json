@@ -1,0 +1,60 @@
+{
+  "artifacts": [
+    {
+      "path": "data/book/prewriting_repository_source_authority_residual_locator_failure_analysis_v1/analysis/root_cause_registry_v1.json",
+      "sha256": "0f65ab36b56f7897e8dab8a7642a01242c522b6d89117d034d0cd0613d7f545a"
+    },
+    {
+      "path": "data/book/prewriting_repository_source_authority_residual_locator_failure_analysis_v1/audits/failure_analysis_audit_v1.json",
+      "sha256": "7d8b30050e47fa9d062ab1b3eb57240254cdfd2f913c8008e8325c07a196e6c4"
+    },
+    {
+      "path": "data/book/prewriting_repository_source_authority_residual_locator_failure_analysis_v1/contracts/failure_analysis_acceptance_contract_v1.json",
+      "sha256": "242ce7f0bb12744006908a9329be8b5d4493cdb56d50ea774df9ff92ec17e7e7"
+    },
+    {
+      "path": "data/book/prewriting_repository_source_authority_residual_locator_failure_analysis_v1/plans/residual_remediation_plan_v1.json",
+      "sha256": "9767cfdf776cb1cd36be3ec023f8117cf13eb668cf86b3fe4461a8838df28ce3"
+    },
+    {
+      "path": "data/book/prewriting_repository_source_authority_residual_locator_failure_analysis_v1/traces/representative_sample_traces_v1.json",
+      "sha256": "18f8c5862a6e3f2b40e53220d93cb2c14ee4f0f8a6f05aa2d7644f6ee3ff6d31"
+    }
+  ],
+  "book_prose_generated": false,
+  "checkpoint": "PRE-WRITING REPOSITORY SOURCE AUTHORITY AND RESIDUAL LOCATOR FAILURE ANALYSIS V1",
+  "claim_state_counts": {
+    "ANCHOR_AMBIGUOUS": 12,
+    "AUTHORITY_INSUFFICIENT": 496,
+    "PROVENANCE_BLOCKED": 61,
+    "SCOPE_INSUFFICIENT": 33
+  },
+  "drafting_authorized": false,
+  "inputs_after": {
+    "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/anchor_locator_registry_v1.json": "743f6205bc3bee413d9366c56731614c0d34f75a660f0df95bcdb4655fe1f5c0",
+    "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/bounded_source_verification_registry_v1.json": "6f291c253bde8214695913b534b89fcddc013c2b83a934efffbe00dc3b5c55c6",
+    "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/conversion_chunk_provenance_bridge_v1.json": "c0fc427971d6e98e7fadd03e6fee5cd21463d961436e6e818e2c9419a838a2f7",
+    "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/remediated_claim_registry_v2.json": "9e126a7f1c7d31eea1d74ef35e8a76171a00d205cba26c25d8a30437f6afb5b1",
+    "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/section_claim_readiness_ledger_v3.json": "8707812afa95d0aa02b9df7c71230c9b67b2d6e6272b4315861c5fc93d70dd0f",
+    "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/source_authority_registry_v2.json": "82f216c3d4b5a0c9b86745adcbccc72190b071ba8ac7ae02b756ce6a97f460f7",
+    "data/book/prewriting_repository_source_authority_residual_locator_failure_analysis_v1/contracts/failure_analysis_acceptance_contract_v1.json": "242ce7f0bb12744006908a9329be8b5d4493cdb56d50ea774df9ff92ec17e7e7"
+  },
+  "inputs_before": {
+    "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/anchor_locator_registry_v1.json": "743f6205bc3bee413d9366c56731614c0d34f75a660f0df95bcdb4655fe1f5c0",
+    "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/bounded_source_verification_registry_v1.json": "6f291c253bde8214695913b534b89fcddc013c2b83a934efffbe00dc3b5c55c6",
+    "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/conversion_chunk_provenance_bridge_v1.json": "c0fc427971d6e98e7fadd03e6fee5cd21463d961436e6e818e2c9419a838a2f7",
+    "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/remediated_claim_registry_v2.json": "9e126a7f1c7d31eea1d74ef35e8a76171a00d205cba26c25d8a30437f6afb5b1",
+    "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/section_claim_readiness_ledger_v3.json": "8707812afa95d0aa02b9df7c71230c9b67b2d6e6272b4315861c5fc93d70dd0f",
+    "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/source_authority_registry_v2.json": "82f216c3d4b5a0c9b86745adcbccc72190b071ba8ac7ae02b756ce6a97f460f7",
+    "data/book/prewriting_repository_source_authority_residual_locator_failure_analysis_v1/contracts/failure_analysis_acceptance_contract_v1.json": "242ce7f0bb12744006908a9329be8b5d4493cdb56d50ea774df9ff92ec17e7e7"
+  },
+  "result": "GO_REMEDIATION_PLAN_FROZEN",
+  "schema_version": "1.0.0",
+  "section_state_counts": {
+    "ADDITIONAL_REPOSITORY_DISCOVERY_REQUIRED": 22,
+    "AUTHORITY_GAP": 12,
+    "HUMAN_ANALYSIS_ARTIFACT_REQUIRED": 12,
+    "PROVENANCE_GAP": 10,
+    "UNRESOLVED": 4
+  }
+}

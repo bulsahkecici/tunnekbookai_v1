@@ -1,0 +1,849 @@
+{
+  "authored_at": "2026-08-19T12:35:34.162944+00:00",
+  "authored_by": "tunnelbook-section-drafting-contract-v1",
+  "claim_use": {
+    "allowlist_only": true,
+    "denylist_is_hard_reject": true,
+    "expansion_examples_not_licensed_by_minimum_350": [
+      "350 kg/m³ optimum değerdir",
+      "350 kg/m³ güvenli değerdir",
+      "350 kg/m³ çoğu projede yeterlidir"
+    ],
+    "expansion_permitted": false,
+    "paraphrase_permitted": true
+  },
+  "condition_glosses": {
+    "SEC-02-2-P0-007": {
+      "depending on ground conditions and size of the tunnel opening": [
+        "zemin",
+        "koşul",
+        "koşullarına",
+        "tünel",
+        "açıklık",
+        "açıklığının",
+        "boyut",
+        "boyutuna"
+      ]
+    },
+    "SEC-02-2-P0-008": {
+      "In some": [
+        "bazı",
+        "belirli",
+        "kimi"
+      ],
+      "dependent on tunnel size": [
+        "tünel",
+        "boyut",
+        "boyutuna",
+        "büyüklük",
+        "büyüklüğüne"
+      ]
+    }
+  },
+  "condition_policy": {
+    "must_not_detach_from": [
+      "system",
+      "material",
+      "rock condition",
+      "temperature",
+      "construction stage",
+      "application method",
+      "source/table scope",
+      "approval condition"
+    ],
+    "paragraph_scope": "A condition carried by surrounding source context rather than by the claim's own sentence must appear in the paragraph.",
+    "rationale": "SEC-02-2-P0-001 holds only 'özel uygulamalar dışında', but its canonical text never says so - the carve-out is a neighbouring clause. Demanding it inside the sentence would reject a faithful paraphrase of the source, so the rule follows the claim's own wording rather than a uniform strictness that happens to be wrong.",
+    "rule": "A material source condition must survive into prose.",
+    "unit_scope": "A condition whose anchors appear in the claim's own canonical wording must appear in the drafting unit."
+  },
+  "core_principle": "The drafter may reorganise and stylistically connect supported facts. It may not create a factual proposition or logical relationship that is not represented in the approved claim universe.",
+  "cross_lingual_policy": {
+    "citation": "the Turkish paraphrase cites the original source key",
+    "forbidden": [
+      "strengthening the claim",
+      "dropping conditions",
+      "changing numeric values",
+      "adding interpretation"
+    ],
+    "permitted": "faithful Turkish paraphrase of an English claim"
+  },
+  "derived_numeric_policy": {
+    "cm_15_single_pass": "allowed when bound to SEC-02-2-C-003",
+    "default": "SOURCE_STATED_ONLY",
+    "mm_150_derived": "forbidden as a rendering of the 15 cm single-pass claim",
+    "mm_150_source_stated": "allowed through SEC-02-2-C-009 (clay-zone first layer), which states 100-150 mm in the source's own units",
+    "resolution": "claim identity plus context, never a global ban on the string",
+    "strength_class": "C25/30 is a designation, not a quantity. It is never normalised into an MPa number."
+  },
+  "determinism": {
+    "model_id": "qwen3.6-35b-a3b-mlx",
+    "seed": 11,
+    "temperature": 0.0
+  },
+  "drafting_input": {
+    "note": "Denylisted claim text is withheld rather than supplied as a negative example. A model shown a prohibited sentence and told not to write it has been shown a prohibited sentence.",
+    "supplied": [
+      "section plan",
+      "composition-safe claim allowlist",
+      "claim scope metadata",
+      "claim pair constraints",
+      "mandatory qualifier rules",
+      "forbidden synthesis rules",
+      "derived numeric rules",
+      "citation binding instructions"
+    ],
+    "withheld": [
+      "raw corpus",
+      "retrieval",
+      "general model knowledge",
+      "the web",
+      "denylisted claim text",
+      "bibliography metadata"
+    ]
+  },
+  "failure_mode": "fail_closed_no_auto_repair",
+  "forbidden_prose_markers": [
+    "kaynaklara göre",
+    "elimizdeki kanıtlar",
+    "kanıt notu",
+    "evidence note",
+    "claim id",
+    "claim_id",
+    "rag",
+    "retrieval",
+    "packet",
+    "allowlist",
+    "denylist",
+    "draftir",
+    "draft ir",
+    "modelin bilgisine göre",
+    "sistem tarafından",
+    "yukarıdaki kanıt",
+    "verilen kanıt"
+  ],
+  "function_lexicon": [
+    "ile",
+    "için",
+    "olan",
+    "olarak",
+    "olup",
+    "olması",
+    "olmak",
+    "olmakla",
+    "bulunan",
+    "bulunur",
+    "ayrıca",
+    "ise",
+    "göre",
+    "kadar",
+    "sonra",
+    "önce",
+    "arasında",
+    "üzerine",
+    "üzerinde",
+    "altında",
+    "gibi",
+    "daha",
+    "çok",
+    "bazı",
+    "hem",
+    "veya",
+    "ya",
+    "bunun",
+    "bunlar",
+    "bunların",
+    "şekilde",
+    "biçimde",
+    "durumda",
+    "durumlarda",
+    "durumunda",
+    "halinde",
+    "koşulda",
+    "edilen",
+    "edilir",
+    "eder",
+    "ederek",
+    "ancak",
+    "bu",
+    "şu",
+    "bir",
+    "birer",
+    "iki",
+    "üç",
+    "adet",
+    "aynı",
+    "farklı",
+    "genel",
+    "özel",
+    "diğer",
+    "yer",
+    "yeri",
+    "yerine",
+    "ila",
+    "arası",
+    "arasındaki",
+    "bunu",
+    "buna",
+    "bunda",
+    "onu",
+    "ona",
+    "şunu",
+    "kendi",
+    "söz",
+    "konusu",
+    "yani",
+    "böyle",
+    "böylece",
+    "burada",
+    "aşağıda",
+    "yukarıda",
+    "bölüm",
+    "bölümde",
+    "bölümü",
+    "başlık",
+    "başlıkta",
+    "başlık",
+    "kısım",
+    "ele",
+    "alınmaktadır",
+    "alınmıştır",
+    "verilmiştir",
+    "gösterilmiştir",
+    "açıklanmaktadır",
+    "değerlendirilmektedir",
+    "ilgili",
+    "ilişkin",
+    "dair",
+    "karşı",
+    "doğru",
+    "boyunca",
+    "birlikte",
+    "ayrı",
+    "ayrıca",
+    "vardır",
+    "yoktur",
+    "değildir",
+    "değil",
+    "olmayan",
+    "olmadan",
+    "olmadığı",
+    "olduğu",
+    "ilk",
+    "son",
+    "sonraki",
+    "önceki",
+    "takip",
+    "eden",
+    "müteakip",
+    "izleyen",
+    "not",
+    "the",
+    "and",
+    "for",
+    "with",
+    "from",
+    "that",
+    "this",
+    "are",
+    "may",
+    "can",
+    "shall"
+  ],
+  "material_sentence_definition": [
+    "technical fact",
+    "numeric value",
+    "requirement",
+    "recommendation",
+    "definition",
+    "classification",
+    "scope",
+    "condition",
+    "method",
+    "comparison",
+    "cause/effect",
+    "exception",
+    "performance property"
+  ],
+  "modality_lattice": {
+    "bound_words_excluded": [
+      "minimum",
+      "maksimum",
+      "asgari",
+      "azami",
+      "en az",
+      "en fazla"
+    ],
+    "bound_words_rationale": "'minimum' and 'maksimum' state which side of a value a requirement lies on, not how binding it is. Scoring them as obligation makes SEC-02-2-C-011 - a recommendation that happens to name a maximum - look binding, and the lattice then cannot see a drafter turn 'tavsiye edilen' into 'zorundadır'. Bound direction is checked by support containment instead: 'maksimum' written against a claim stating a minimum is a word the claim does not license.",
+    "levels": {
+      "0": "PERMISSIVE - something is allowed or possible",
+      "1": "TYPICAL - descriptive, habitual or approximate",
+      "2": "RECOMMENDED - preferred but not binding",
+      "3": "REQUIRED - binding obligation or hard limit"
+    },
+    "markers": {
+      "0": [
+        "olabilir",
+        "olabilmektedir",
+        "azaltılabilmektedir",
+        "azaltılabilir",
+        "düşürülebilir",
+        "kullanılabilir",
+        "yapılabilir",
+        "may be",
+        "can be"
+      ],
+      "1": [
+        "genellikle",
+        "tipik",
+        "tipik olarak",
+        "yaklaşık",
+        "civarında",
+        "ortalama olarak",
+        "normalde",
+        "çoğunlukla",
+        "typical",
+        "typically",
+        "normally",
+        "approximately",
+        "ranges from",
+        "kullanılır",
+        "kullanılmaktadır",
+        "yapılır",
+        "değişmektedir"
+      ],
+      "2": [
+        "tavsiye",
+        "tavsiye edilen",
+        "tavsiye edilir",
+        "önerilen",
+        "önerilir",
+        "tercihen",
+        "tercih edilmelidir",
+        "tercih edilir",
+        "olmalıdır",
+        "olmalı",
+        "should",
+        "recommended",
+        "preferably"
+      ],
+      "3": [
+        "zorunludur",
+        "zorundadır",
+        "zorunda",
+        "mecburiyetindedir",
+        "şarttır",
+        "gereklidir",
+        "mecburidir",
+        "olacaktır",
+        "olmayacaktır",
+        "olmamalıdır",
+        "geçmeyecektir",
+        "aşmayacaktır",
+        "uygulanmayacaktır",
+        "tamamlanmış olacaktır",
+        "aranmaktadır",
+        "aranır",
+        "öngörülmüştür",
+        "öngörülmektedir",
+        "must",
+        "shall",
+        "mandatory",
+        "required",
+        "not exceed",
+        "az olmamalıdır",
+        "altında kalmamalıdır",
+        "geçmemelidir"
+      ]
+    },
+    "suffix_markers": {
+      "0": [
+        "abilir",
+        "ebilir",
+        "abilmektedir",
+        "ebilmektedir"
+      ],
+      "2": [
+        "malıdır",
+        "melidir",
+        "malı",
+        "meli"
+      ],
+      "3": [
+        "mamalıdır",
+        "memelidir",
+        "mayacaktır",
+        "meyecektir",
+        "malıdır ki"
+      ]
+    }
+  },
+  "modality_policy": {
+    "preserve": [
+      "must",
+      "shall",
+      "should",
+      "may",
+      "recommended",
+      "minimum",
+      "maximum",
+      "typical",
+      "approximately",
+      "zorunlu",
+      "olacaktır",
+      "olmalıdır",
+      "tavsiye edilen",
+      "genellikle",
+      "yaklaşık",
+      "asgari",
+      "azami"
+    ],
+    "strengthening_forbidden": [
+      "recommended -> required",
+      "should -> must",
+      "typical -> mandatory",
+      "tavsiye edilen -> zorunludur",
+      "genellikle -> her zaman"
+    ]
+  },
+  "non_material_allowance": {
+    "constraint": "A transition must not imply a technical relation. A non-material unit that carries a figure, a normative marker or a claim binding is misclassified, not exempt.",
+    "permitted_without_claims": [
+      "pure transition",
+      "organisational navigation",
+      "non-factual signposting",
+      "headings"
+    ]
+  },
+  "paraphrase_lexicon": {
+    "aranmaktadır": [
+      "aranır",
+      "öngörülür",
+      "öngörülmektedir"
+    ],
+    "azaltılabilmektedir": [
+      "azaltılabilir",
+      "düşürülebilir",
+      "düşürülebilmektedir"
+    ],
+    "beton": [
+      "betonu",
+      "betonun",
+      "betonlar"
+    ],
+    "bireysel": [
+      "tekil",
+      "tek"
+    ],
+    "dayanım": [
+      "dayanımı",
+      "dayanımın",
+      "mukavemet",
+      "mukavemeti"
+    ],
+    "durabilite": [
+      "dayanıklılık",
+      "kalıcılık"
+    ],
+    "geçecek": [
+      "örtecek",
+      "örten",
+      "kapatacak"
+    ],
+    "geçmeyecektir": [
+      "aşmayacaktır",
+      "geçmemelidir",
+      "aşmamalıdır"
+    ],
+    "grup": [
+      "grubun",
+      "grubu",
+      "gruplar"
+    ],
+    "gün": [
+      "günlük",
+      "günde",
+      "günü"
+    ],
+    "hızlandırıcı": [
+      "hızlandırıcının",
+      "hızlandırıcılı",
+      "hızlandırıcısız"
+    ],
+    "idare": [
+      "idarenin",
+      "idarece"
+    ],
+    "iksa": [
+      "iksada"
+    ],
+    "kalmamalıdır": [
+      "düşmemelidir",
+      "inmemelidir",
+      "altına"
+    ],
+    "kalınlık": [
+      "kalınlığı",
+      "kalınlıkta",
+      "kalınlıklar",
+      "kalınlığın"
+    ],
+    "kaplama": [
+      "kaplamada",
+      "kaplamanın",
+      "kaplamalar"
+    ],
+    "katman": [
+      "katmanı",
+      "katmanlar",
+      "tabaka",
+      "tabakalar"
+    ],
+    "kil": [
+      "killi"
+    ],
+    "koşul": [
+      "koşullar",
+      "koşullarda",
+      "şart",
+      "şartlar",
+      "şartlarda"
+    ],
+    "lif": [
+      "lifli",
+      "life",
+      "takviyeli",
+      "takviye"
+    ],
+    "maksimum": [
+      "azami",
+      "üst"
+    ],
+    "miktar": [
+      "miktarı",
+      "miktarın",
+      "dozaj",
+      "dozajı",
+      "dozajın"
+    ],
+    "minimum": [
+      "asgari",
+      "alt",
+      "sınır"
+    ],
+    "numune": [
+      "numuneler",
+      "numunede",
+      "numunesi"
+    ],
+    "olmamalıdır": [
+      "olmayacaktır",
+      "altında",
+      "altına",
+      "düşmemelidir",
+      "düşürülmemelidir",
+      "inmemelidir"
+    ],
+    "onay": [
+      "onayı",
+      "onayıyla",
+      "onayla"
+    ],
+    "ortalama": [
+      "ortalaması",
+      "ortalamanın"
+    ],
+    "püskürtme": [
+      "püskürtülen",
+      "püskürtülmüş",
+      "püskürtülecek"
+    ],
+    "saat": [
+      "saatte",
+      "saatlik",
+      "saati"
+    ],
+    "sistem": [
+      "sistemde",
+      "sistemi",
+      "sistemin"
+    ],
+    "süre": [
+      "süresi",
+      "süresinin",
+      "sürede"
+    ],
+    "sıcaklık": [
+      "sıcaklıkta",
+      "sıcaklığı",
+      "derece"
+    ],
+    "sınıf": [
+      "sınıfı",
+      "sınıfında",
+      "sınıflar"
+    ],
+    "tabaka": [
+      "tabakalar",
+      "tabakanın",
+      "katman",
+      "katmanı",
+      "katmanlar",
+      "katmanın"
+    ],
+    "uygulama": [
+      "uygulanan",
+      "uygulanır",
+      "uygulanacak",
+      "uygulanması",
+      "uygulamalarda"
+    ],
+    "zon": [
+      "zonu",
+      "zonlu",
+      "zonlarda",
+      "bölge",
+      "bölgesi"
+    ],
+    "öngörülmüştür": [
+      "öngörülmektedir",
+      "belirlenmiştir",
+      "tanımlanmıştır"
+    ],
+    "şev": [
+      "şevde",
+      "şevlerde"
+    ]
+  },
+  "parent_version": "tunnelbook-sec-02-2-limitation-resolution-v1",
+  "prohibited_markers": {
+    "causal": [
+      "çünkü",
+      "zira",
+      "dolayısıyla",
+      "bu nedenle",
+      "bu sebeple",
+      "bu yüzden",
+      "sonuç olarak",
+      "sağladığı için",
+      "olduğundan",
+      "sayesinde",
+      "amacıyla belirlenmiştir",
+      "gerektiği için",
+      "bunun sonucunda",
+      "buna bağlı olarak",
+      "therefore",
+      "because",
+      "hence",
+      "thus",
+      "as a result",
+      "consequently"
+    ],
+    "expansion": [
+      "optimum",
+      "ideal",
+      "en iyi",
+      "en uygun",
+      "en ekonomik",
+      "ekonomik",
+      "elverişli",
+      "yeterlidir",
+      "yeterlidir ki",
+      "güvenli",
+      "güvenlidir",
+      "emniyetli",
+      "avantaj",
+      "avantajlı",
+      "üstün",
+      "üstünlük",
+      "gereksiz",
+      "kolay",
+      "kolaylıkla",
+      "zor",
+      "pratik",
+      "verimli",
+      "etkili",
+      "etkin",
+      "başarılı",
+      "uygun maliyet",
+      "tercih edilir düzey",
+      "en yaygın",
+      "yaygın olarak kabul",
+      "standart uygulama haline",
+      "optimal",
+      "best",
+      "most economical",
+      "sufficient for",
+      "safe value"
+    ],
+    "universal": [
+      "her zaman",
+      "daima",
+      "her koşulda",
+      "bütün koşullarda",
+      "tüm koşullarda",
+      "tüm",
+      "bütün",
+      "her türlü koşul",
+      "her durumda",
+      "bütün durumlarda",
+      "tüm durumlarda",
+      "her tür",
+      "her türlü",
+      "istisnasız",
+      "kesinlikle",
+      "asla",
+      "hiçbir koşulda",
+      "mutlaka",
+      "şüphesiz",
+      "bilinmektedir",
+      "kanıtlanmıştır",
+      "ispatlanmıştır",
+      "genel kabul görmüştür",
+      "always",
+      "in all conditions",
+      "never",
+      "proven",
+      "it is well known"
+    ]
+  },
+  "prohibitions": [
+    "no new factual proposition",
+    "no inferred relationship",
+    "no external knowledge",
+    "no scope loss",
+    "no numeric drift",
+    "no unit conversion presented as source-stated",
+    "no modality strengthening",
+    "no dropped condition",
+    "no dropped mandatory qualifier",
+    "no invented citation",
+    "no invented bibliography metadata",
+    "no packet-local evidence handle in prose",
+    "no internal identifier in prose",
+    "no silent repair of a failed unit"
+  ],
+  "quotation_policy": {
+    "default": "PARAPHRASE",
+    "direct_quotation": "not used in v1",
+    "rationale": "A book assembled from copied source sentences is a patchwork, and traceability does not require quotation - it requires citation."
+  },
+  "relationship_types": {
+    "allowed": [
+      "INDEPENDENT",
+      "SAME_SCOPE_SUPPORT",
+      "QUALIFIED_COMPARISON",
+      "SOURCE_SUPPORTED_RELATION",
+      "NONE"
+    ],
+    "forbidden": [
+      "FORBIDDEN_SYNTHESIS",
+      "UNKNOWN_RELATION"
+    ]
+  },
+  "scope": "SEC-02-2 only. Widening this contract to other sections is a later phase's decision and must be made explicitly, not inherited.",
+  "section_id": "SEC-02-2",
+  "section_title": "Püskürtme Beton: Malzeme ve Uygulama Gereklilikleri",
+  "style": {
+    "audience": "civil and tunnel engineering readers",
+    "claim_density": "one atomic technical proposition per sentence, or a source-supported pair",
+    "language": "tr",
+    "register": "technical textbook / engineering reference",
+    "tone": [
+      "clear",
+      "professional",
+      "non-promotional",
+      "non-chatty",
+      "non-conversational"
+    ]
+  },
+  "support_test": {
+    "method": "lexical containment against the declared claims",
+    "morphology": "five-character common prefix agreement",
+    "morphology_rationale": "'kalınlık' and 'kalınlığı' agree on six characters across the k->ğ mutation that a suffix stripper would have to special-case. The rule over-licenses occasionally, which is the safe direction; it never under-licenses a true inflection.",
+    "pooling": "per-unit, over declared claims only - never section-wide",
+    "pooling_rationale": "A section-wide pool would let a sentence about layer thickness borrow the vocabulary of a cement-dosage claim it never cited, which is claim-bound drafting undone by a convenience."
+  },
+  "translation_glosses": {
+    "SEC-02-2-P0-007": [
+      "tipik",
+      "kalınlık",
+      "kalınlığı",
+      "ilk",
+      "birincil",
+      "püskürtme",
+      "beton",
+      "kaplama",
+      "kaplamanın",
+      "arasında",
+      "değişmektedir",
+      "değişir",
+      "zemin",
+      "koşullarına",
+      "koşulları",
+      "tünel",
+      "açıklığının",
+      "açıklık",
+      "boyutuna",
+      "boyut",
+      "bağlı",
+      "inç",
+      "milimetre",
+      "aralığında"
+    ],
+    "SEC-02-2-P0-008": [
+      "bazı",
+      "belirli",
+      "kaya",
+      "koşullarında",
+      "koşulları",
+      "ezilmiş",
+      "parçalanmış",
+      "sıkışan",
+      "sıkışma",
+      "kalınlık",
+      "kalınlığı",
+      "daha",
+      "fazla",
+      "olabilmektedir",
+      "olabilir",
+      "tünel",
+      "boyutuna",
+      "bağlı",
+      "inç",
+      "milimetre"
+    ],
+    "SEC-02-2-R025": [
+      "flashcrete",
+      "aktif",
+      "destek",
+      "sayılmaz",
+      "kabul",
+      "edilmez",
+      "normalde",
+      "genellikle",
+      "sistematik",
+      "uygulanan",
+      "ilk",
+      "birincil",
+      "püskürtme",
+      "beton",
+      "kaplama",
+      "kaplamanın",
+      "ardından",
+      "takip"
+    ]
+  },
+  "unit_id_grammar": {
+    "paragraph": "^(U-[A-Za-z0-9]+-P\\d{2})-S\\d{2}$",
+    "rationale": "Paragraph identity has to be recoverable from the unit id, because §25 requires validation across adjacent sentences: a prohibited relationship must not become legal by being split across a full stop and rejoined with a connective.",
+    "unit": "^U-[A-Za-z0-9]+-P\\d{2}-S\\d{2}$"
+  },
+  "unit_types": [
+    "HEADING",
+    "PARAGRAPH_SENTENCE",
+    "LIST_ITEM",
+    "TABLE_CELL",
+    "TRANSITION"
+  ],
+  "version": "tunnelbook-section-drafting-contract-v1"
+}

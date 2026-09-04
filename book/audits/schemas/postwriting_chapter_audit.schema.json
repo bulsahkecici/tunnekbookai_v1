@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TunnelBookAI post-writing chapter audit",
+  "type": "object",
+  "required": ["question_id", "section_id", "chapter_status", "evidence_documents", "confidence"],
+  "properties": {
+    "question_id": {"type": "string"},
+    "section_id": {"type": "string"},
+    "chapter_status": {"enum": ["ANSWERED", "PARTIALLY_ANSWERED", "NOT_ANSWERED", "UNSUPPORTED_CLAIM", "NOT_APPLICABLE"]},
+    "answer_location": {"type": ["object", "null"]},
+    "evidence_documents": {"type": "array", "items": {"type": "string"}},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

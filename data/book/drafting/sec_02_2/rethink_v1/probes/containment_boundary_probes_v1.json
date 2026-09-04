@@ -1,0 +1,194 @@
+{
+  "boundary": {
+    "conclusion": "Stage C's verdicts on the composed mode are correct as specified and are not, at the margin, decisions about meaning. Some of the boundary is principled — `kayaç` for `kaya` is a real technical synonym substitution. Some of it is an artifact of which inflections were enumerated and which fields were pooled. Neither the principled nor the accidental part is something a free-form writer can see.",
+    "cross_lingual_asymmetry": {
+      "cases": [
+        {
+          "claim_id": "SEC-02-2-P0-008",
+          "english_form": "specific",
+          "english_form_is_licensed": true,
+          "licensed_turkish_alternatives_in_pool": [
+            "bazı",
+            "belirli"
+          ],
+          "turkish_form": "spesifik",
+          "turkish_form_is_licensed": false
+        },
+        {
+          "claim_id": "SEC-02-2-P0-008",
+          "english_form": "conditions",
+          "english_form_is_licensed": true,
+          "licensed_turkish_alternatives_in_pool": [
+            "koşulları",
+            "koşullarında"
+          ],
+          "turkish_form": "durumlarında",
+          "turkish_form_is_licensed": false
+        },
+        {
+          "claim_id": "SEC-02-2-C-002",
+          "english_form": "gives",
+          "english_form_is_licensed": true,
+          "licensed_turkish_alternatives_in_pool": [],
+          "turkish_form": "sağlar",
+          "turkish_form_is_licensed": false
+        }
+      ],
+      "finding": "For an English-source claim the pool licenses the English surface form and not its Turkish realisation, so the writer is licensed to use words the section's language policy forbids and unlicensed to use the words that policy requires. `sağlar` is the case with no licensed Turkish alternative at all: SEC-02-2-C-002's canonical states the relation with `gives`, and the pool offers no Turkish lexical verb for it — only the copula. The writer's licensed options there were to restructure the sentence around `-dir` or to leave the pool, which is precisely what `licensed_alternative_was_in_hand = true` does not record."
+    },
+    "durum_lexeme_coverage": {
+      "exempt": 3,
+      "finding": "The exemption list covers the forms of this lexeme that were written down, not the lexeme. `durumlarda` is exempt and `durumlarında` is not, which is the entire reason U-C-P01-S03 carries that word in its rejection.",
+      "forms_tested": {
+        "durum": false,
+        "durumda": true,
+        "durumlarda": true,
+        "durumları": false,
+        "durumların": false,
+        "durumlarında": false,
+        "durumu": false,
+        "durumunda": true,
+        "durumundaki": false
+      },
+      "tested": 9
+    },
+    "function_lexicon_size": 124,
+    "matching_regimes": {
+      "consequence": "Turkish inflection defeats the exemption test and is absorbed by the licensing test. A grammatical word is exempt only in the forms someone happened to enumerate.",
+      "content_word_licensing": "five-character prefix agreement against the claim pool",
+      "function_word_exemption": "exact string membership in a 126-entry list"
+    },
+    "pool_contains_record_metadata": {
+      "finding": "The licensed pool is built from every field of the claim record, including English scope evidence and topic prose. It licenses the vocabulary of the record as well as the vocabulary of the claim.",
+      "tokens": [
+        "already",
+        "carried",
+        "claim",
+        "class",
+        "classes",
+        "design",
+        "hence",
+        "manual",
+        "named",
+        "qualifier",
+        "rows",
+        "source",
+        "support",
+        "table",
+        "technical"
+      ]
+    },
+    "probe_id": "P2_P3_containment_boundary",
+    "question": "where does the containment boundary actually fall, and was it placed there?"
+  },
+  "classification": {
+    "categories": {
+      "1": "grammatical/discourse surface vocabulary",
+      "2": "semantic paraphrase",
+      "3": "relationship-bearing vocabulary",
+      "4": "proposition-changing vocabulary"
+    },
+    "consequence": "No single remedy addresses the set. A lexicon entry that admits `durumlarında` correctly admits `sağlar` incorrectly, because the exemption mechanism cannot see which slot a word fills.",
+    "finding": "The four words are not one class. Two are discourse surface vocabulary the containment boundary arguably never meant to catch; one bears a relation that happens to be licensed here and would not be elsewhere; one shifts the modality of the exact copula its claim is fragile on. Attempt #3's cause record described them collectively as connectives and light verbs carrying no technical content. That is true of two of them.",
+    "probe_id": "P4_attempt_3_word_classification",
+    "words": [
+      {
+        "categories": [
+          "2",
+          "3"
+        ],
+        "category_4_excluded": false,
+        "category_4_note": "Cannot be excluded. SEC-02-2-C-002's qualifier states the identity flatly — 'kabul kriteridir', it *is* the acceptance criterion. `ifade eder` substitutes a metalinguistic predicate for that copula: the table *expresses* the criterion. DSC-C002-001 exists precisely because what this table is, versus what it is taken to establish, is the distinction the claim is fragile on. A modality shift on that exact copula is the one place in the sentence where it could matter.",
+        "claim_id": "SEC-02-2-C-002",
+        "evidence": {
+          "copula_it_replaces_is_licensed": [
+            "kriteridir",
+            "kriterleridir"
+          ],
+          "exempt_as_function_word": false,
+          "light_verb_partner_eder_is_exempt": true,
+          "pool_tokens_agreeing": []
+        },
+        "gloss": "'expression'; the construction written was `ifade eder`, 'expresses'",
+        "primary": "2",
+        "rationale": "A paraphrase of a licensed copula, and it bears the relation it paraphrases. It is not grammar: `eder` is exempt as a function word and `ifade` is the lexical half that carries the meaning, which is why only one of the pair was flagged.",
+        "unit_id": "U-A-P01-S03",
+        "word": "ifade"
+      },
+      {
+        "categories": [
+          "3",
+          "2"
+        ],
+        "category_4_excluded": true,
+        "category_4_note": "Excluded in this slot only. The claim's own English canonical uses `gives` for the same relation, so the proposition asserted is the source's. The exclusion does not travel: `sağlamak` also means 'to ensure/to satisfy', and '... gerekli dayanımı sağlar' is a performance assertion no source states. Same surface form, different proposition, decided by the slot it fills.",
+        "claim_id": "SEC-02-2-C-002",
+        "evidence": {
+          "exempt_as_function_word": false,
+          "pool_tokens_agreeing": [],
+          "source_relation_verb_in_pool": [
+            "gives"
+          ]
+        },
+        "gloss": "'provides/gives'; third-person present of sağlamak",
+        "primary": "3",
+        "rationale": "A light verb by form, a relation by function: it asserts that the table stands in a providing relation to the criteria. That the relation happens to be the licensed one here is a fact about this sentence, not about the word.",
+        "unit_id": "U-A-P01-S03",
+        "word": "sağlar"
+      },
+      {
+        "categories": [
+          "1",
+          "2"
+        ],
+        "category_4_excluded": true,
+        "category_4_note": "Excluded, and demonstrably so. The function lexicon already exempts three inflections of the same lexeme. The fourth was rejected because the exemption test is exact string membership while the licensing test is five-character prefix agreement — two different matching regimes over an agglutinative language. Had the writer produced `durumlarda`, one morpheme away and equally grammatical, stage C would have said nothing.",
+        "claim_id": "SEC-02-2-P0-008",
+        "evidence": {
+          "exempt_as_function_word": false,
+          "exempt_siblings_of_the_same_lexeme": {
+            "durumda": true,
+            "durumlarda": true,
+            "durumlarında": false,
+            "durumunda": true
+          },
+          "licensed_same_meaning_token_in_pool": [
+            "case",
+            "conditions",
+            "koşulları",
+            "koşullarında"
+          ],
+          "pool_tokens_agreeing": []
+        },
+        "gloss": "'in the cases/situations of'; durum + plural + possessive + locative",
+        "primary": "1",
+        "rationale": "Discourse surface vocabulary that the containment boundary already treats as such in three of its four forms. It also restates the licensed `koşullarında` three words later, which makes it a paraphrase as well as grammar.",
+        "unit_id": "U-C-P01-S03",
+        "word": "durumlarında"
+      },
+      {
+        "categories": [
+          "1",
+          "3"
+        ],
+        "category_4_excluded": true,
+        "category_4_note": "Excluded. It marks an exemplification relation, and that relation is stated by the source: the claim's English canonical reads 'such as crushed or squeezing rock', and both `such` and `as` are in the pool. The Turkish marker asserts nothing the English one did not.",
+        "claim_id": "SEC-02-2-P0-008",
+        "evidence": {
+          "comparable_marker_gibi_is_exempt": true,
+          "exempt_as_function_word": false,
+          "pool_tokens_agreeing": [],
+          "source_exemplification_markers_in_pool": [
+            "as",
+            "such"
+          ]
+        },
+        "gloss": "'for example'",
+        "primary": "1",
+        "rationale": "A discourse marker, and the closest analogue already exempt: `gibi` — the word attempt #2 used for this same relation in this same claim — is in the function lexicon. It does bear a relation, which is why category 3 is listed, but the relation is the claim's own.",
+        "unit_id": "U-C-P01-S03",
+        "word": "örneğin"
+      }
+    ]
+  }
+}

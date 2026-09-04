@@ -1,0 +1,29 @@
+{
+  "audits": "10/10 PASS",
+  "authority_promotions": 0,
+  "batch_id": "BATCH-07",
+  "book_prose_generated": false,
+  "claim_relative_suitability": {
+    "NOT_YET_AUTHORITY_SUITABLE": 4
+  },
+  "deterministic_output": "PASS",
+  "document_ids": [
+    "DOC000214",
+    "DOC000215",
+    "DOC000216",
+    "DOC000217"
+  ],
+  "drafting_authorized": false,
+  "external_identity_verification_required": 4,
+  "false_accepts": 0,
+  "false_rejects": 0,
+  "frozen_integrity": "PASS",
+  "local_sources_inspected": 4,
+  "phase": "PRE-WRITING REPOSITORY AUTHORITY EVIDENCE ACQUISITION BATCH 7 V1",
+  "source_identities_resolved": 4,
+  "source_type_distribution": {
+    "UNKNOWN_SOURCE_TYPE": 4
+  },
+  "status": "GO",
+  "unknown_authority_remaining": 4
+}

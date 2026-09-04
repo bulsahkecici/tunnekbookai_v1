@@ -1,0 +1,80 @@
+{
+  "version": "tunnelbook-sec-02-2-v2.2-condition-closed-retry-acceptance-results-v1",
+  "phase": "SEC-02-2 ARCHITECTURE V2.2 TECHNICAL + BOOK STYLE INTEGRATION V1 RETRY",
+  "verdict": "CLOSED_GO",
+  "contract_path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1/contracts/architecture_v2_2_retry_acceptance_contract_v1.json",
+  "conditions": [
+    {
+      "id": "AC-V22R-01",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-V22R-02",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-V22R-03",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-V22R-04",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-V22R-05",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-V22R-06",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-V22R-07",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-V22R-08",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-V22R-09",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-V22R-10",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-V22R-11",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-V22R-12",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-V22R-13",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-V22R-14",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-V22R-15",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-V22R-16",
+      "status": "PASS"
+    }
+  ],
+  "summary": {
+    "total": 16,
+    "passed": 16,
+    "failed": 0
+  },
+  "accepted_draft_count": 1,
+  "release_status": "NOT_RELEASED",
+  "next_phase": "SEC-02-2 TECHNICAL DRAFT RE-AUDIT V2"
+}

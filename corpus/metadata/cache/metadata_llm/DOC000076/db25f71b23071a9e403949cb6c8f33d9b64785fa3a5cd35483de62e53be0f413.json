@@ -1,0 +1,57 @@
+{
+  "document_id": "DOC000076",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:55:09+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "medium",
+      "evidence": "KGM Tünel Kontrol Mühendisi Geliştirme Kursu,2020",
+      "value": "C"
+    },
+    "document_type": {
+      "confidence": "medium",
+      "evidence": "KGM Tünel Kontrol Mühendisi Geliştirme Kursu,2020",
+      "value": "manual"
+    },
+    "language": {
+      "confidence": "low",
+      "evidence": "Tuneller Bolum2_9_7_2025 [evidence_not_grounded_in_context]",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "Tuneller Bolum2_9_7_2025 [evidence_not_grounded_in_context]",
+      "value": "Tuneller Bolum2_9_7_2025"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Tünel Destekleme Elemanları, NATM, Süren, Püskürtme Beton, Hasır Çelik, Kaya Bulonu, Çelik İksa, Zemin Çivisi, Enjeksiyon, Şemsiye Kemer Uygulaması, Su Yalıtımı ve Drenaj İşleri",
+      "value": [
+        "accident",
+        "drainage",
+        "excavation",
+        "forepoling",
+        "injection",
+        "maintenance",
+        "natm",
+        "rock_bolt",
+        "shotcrete",
+        "steel_rib",
+        "waterproofing"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "Tuneller Bolum2_9_7_2025 [evidence_not_grounded_in_context]",
+      "value": 2025
+    }
+  },
+  "source_sha256": "b011796d9570a6e89619e5176adf7f8d004df3eb94e103b48b7894b0b6622d59"
+}

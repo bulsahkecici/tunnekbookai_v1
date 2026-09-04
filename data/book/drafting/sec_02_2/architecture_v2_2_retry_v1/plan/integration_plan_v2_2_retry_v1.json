@@ -1,0 +1,42 @@
+{
+  "version": "tunnelbook-sec-02-2-v2.2-retry-integration-plan-v1",
+  "section_id": "SEC-02-2",
+  "language": "tr",
+  "title": "Püskürtme Beton: Dayanım, Çimento Dozajı ve Kaplama Kalınlığı",
+  "model_generated": false,
+  "source_plan": "architecture_v2/pilot_2/plan/semantic_plan_ir_v2.json",
+  "style_contract": "deterministic_book_style_integration_v2_2",
+  "subsections": [
+    {"id": "A", "heading": "Püskürtme Betonun Malzeme ve Dayanım Gereklilikleri", "items": [
+      {"kind": "SOURCE_UNIT", "unit_id": "U-A-P01-S01", "source_unit_ids": ["U-A-P01-S01"]},
+      {"kind": "SOURCE_UNIT", "unit_id": "U-A-P02-S01", "source_unit_ids": ["U-A-P02-S01"]},
+      {"kind": "SOURCE_UNIT", "unit_id": "U-A-P02-S02", "source_unit_ids": ["U-A-P02-S02"]}
+    ]},
+    {"id": "B", "heading": "Çimento Dozajı", "items": [
+      {"kind": "SOURCE_UNIT", "unit_id": "U-B-P01-S01", "source_unit_ids": ["U-B-P01-S01"]},
+      {"kind": "SOURCE_UNIT", "unit_id": "U-B-P02-S01", "source_unit_ids": ["U-B-P02-S01", "U-B-P02-S02"], "citation_override": ["SRC-DOC000236-0229b854f373"]},
+      {"kind": "TECHNICAL_CLAIM", "unit_id": "U-B-P03-S01", "claim_id": "SEC-02-2-C-018", "entry_id": "V22-C018-MAX-001"},
+      {"kind": "SOURCE_UNIT", "unit_id": "U-B-P04-S01", "source_unit_ids": ["U-B-P04-S01"]},
+      {"kind": "SOURCE_UNIT", "unit_id": "U-B-P05-S01", "source_unit_ids": ["U-B-P05-S01"], "citation_override": ["SRC-DOC000236-0229b854f373"]}
+    ]},
+    {"id": "C", "heading": "Kaplama Kalınlığı ve Katman Düzeni", "items": [
+      {"kind": "SOURCE_UNIT", "unit_id": "U-C-P01-S01", "source_unit_ids": ["U-C-P01-S01"]},
+      {"kind": "SOURCE_UNIT", "unit_id": "U-C-P02-S01", "source_unit_ids": ["U-C-P02-S01"]},
+      {"kind": "CASE_ENUMERATION", "unit_id": "U-C-P02-S02", "claim_id": "SEC-02-2-P0-008", "entry_id": "V22R-P0008-CASE-001", "source_keys": ["SRC-DOC000047-d5c60204e247"]},
+      {"kind": "SOURCE_UNIT", "unit_id": "U-C-P03-S01", "source_unit_ids": ["U-C-P03-S01"]},
+      {"kind": "SOURCE_UNIT", "unit_id": "U-C-P04-S01", "source_unit_ids": ["U-D-P01-S01"]},
+      {"kind": "SOURCE_UNIT", "unit_id": "U-C-P05-S01", "source_unit_ids": ["U-C-P06-S01"]},
+      {"kind": "SCOPE_HEADING", "heading": "Yaş Sistem", "binding_ids": ["TSB-C004-WET-001", "TSB-C005-WET-001"]},
+      {"kind": "SOURCE_UNIT", "unit_id": "U-C-P06-S01", "source_unit_ids": ["U-C-P04-S01"]},
+      {"kind": "SOURCE_UNIT", "unit_id": "U-C-P07-S01", "source_unit_ids": ["U-C-P05-S01"]}
+    ]},
+    {"id": "D", "heading": "Uygulama Koşulları ve Özel Durumlar", "items": [
+      {"kind": "SCOPE_HEADING", "heading": "Tamir İşleri", "binding_ids": ["TSB-C012-REPAIR-001"]},
+      {"kind": "SOURCE_UNIT", "unit_id": "U-D-P01-S01", "source_unit_ids": ["U-D-P02-S01"]},
+      {"kind": "SOURCE_UNIT", "unit_id": "U-D-P02-S01", "source_unit_ids": ["U-D-P03-S01"]},
+      {"kind": "SOURCE_UNIT", "unit_id": "U-D-P02-S02", "source_unit_ids": ["U-D-P03-S02"]}
+    ]}
+  ],
+  "required_topics": ["dayanım sınıfı", "çimento dozajı", "kaplama kalınlığı"],
+  "suppressed_claims": [{"claim_id": "SEC-02-2-P0-006", "reason": "complete dry/wet minimum facts are already present"}]
+}

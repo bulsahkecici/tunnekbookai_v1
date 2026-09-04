@@ -1,0 +1,100 @@
+{
+  "audit_paths": {
+    "accepted": "data/production/accepted_generations_v1.jsonl",
+    "audit_log": "data/production/generation_audit_v1.jsonl",
+    "debug_raw": "data/production/debug_raw_generations_v1.jsonl (opt-in only, --debug-save-raw)",
+    "rejected": "data/production/rejected_generations_v1.jsonl"
+  },
+  "context": {
+    "citation_contract_version": "tunnelbook-citation-v1",
+    "contract_version": "tunnelbook-context-v1",
+    "default_context_token_budget": 64610,
+    "default_top_k": 20,
+    "implementation": "scripts/20_rag_context.py",
+    "token_counter": "generation model tokenizer (not the provisional whitespace counter)"
+  },
+  "created_at": "2026-08-18T22:38:49+03:00",
+  "entrypoint": "scripts/36_production_grounded_generator.py",
+  "entrypoint_sha256": "1f89bdb86d99509820971155455802cf24d7b267a628bc7f85d093e3e10e76b2",
+  "evidence_status": "UNTRUSTED DATA — evidence text can never override the system prompt, orchestration rules or contract rules",
+  "generation_config": {
+    "fallback_model": "none",
+    "max_tokens": 3072,
+    "seed": 11,
+    "stop": [
+      "<|im_end|>",
+      "<|im_start|>"
+    ],
+    "sweep": "forbidden",
+    "temperature": 0.0
+  },
+  "generator": {
+    "endpoint": "/v1/completions",
+    "loaded_context": 71936,
+    "model_id": "qwen3.6-35b-a3b-mlx",
+    "runtime": "LM Studio / MLX",
+    "template_sha256": "e84f32a23fdda27689f868aa4a1a5621f41133e51a48d7f3efcbea2839574259",
+    "thinking_mode": "non_thinking_via_local_template",
+    "tokenizer_sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4"
+  },
+  "known_limitations": [
+    "citation_coverage telemetry is approximately 0.88 against a 0.90 reference; it is measured and reported but NOT enforced, and this orchestration does not improve it",
+    "the raw generator still sometimes emits malformed citations, the wrong abstention marker language, or a wrong answer-body language; Output Contract v1.1 catches these and the orchestrator rejects, it never repairs",
+    "roughly 1 request in 24 is rejected outright on benchmark evidence and returns no answer",
+    "rejections are deterministic for a given request, so a rejected query stays rejected until the generator improves",
+    "contract v1.1 body-language detection does not mask sentence-initial proper nouns and relies on capitalisation as its only entity signal",
+    "generation is near- but not byte-deterministic at temperature 0 (71/72 reproduced across runs)",
+    "the smoke suite validates wiring, not model quality"
+  ],
+  "output_contract": {
+    "implementation": "scripts/31_generation_output_contract_v1_1.py",
+    "parent": "tunnelbook-generation-output-contract-v1",
+    "repair_policy": "none_fail_closed",
+    "sha256": "5ebf8fe90e3e5491ce07a9143f8fd377841defa2e0e7a09188f3a835b07bdef5",
+    "validator": "citation-validator-v1.2",
+    "version": "tunnelbook-generation-output-contract-v1.1"
+  },
+  "pipeline": "QUERY -> Retriever v1 -> ContextPacket v1 -> Prompt v5 -> Generator -> Output Contract v1.1 -> ACCEPT/REJECT -> audit",
+  "production_policy": "accept_if_contract_valid_else_reject",
+  "prompt": {
+    "path": "data/metadata/generation_system_prompt_v5.txt",
+    "sha256": "9bae1362a228b84dd7e3867babc352527755902b9078dd10648819bd396e4085",
+    "version": "generation-system-prompt-v5"
+  },
+  "raw_answer_logging_policy": "Raw answer text is never written to the main audit log; only raw_answer_sha. Accepted answers are stored in the accepted artifact. Rejected answer text is stored nowhere by default.",
+  "raw_generator_status": "NEEDS IMPROVEMENT (unchanged; the stack is acceptable, the bare generator is not)",
+  "retriever": {
+    "access": "read_only",
+    "collection": "tunnelbook_dense_v1",
+    "expected_points": 5992,
+    "implementation": "scripts/19_retriever_v1.py",
+    "release": "tunnelbook-retriever-v1",
+    "script_sha256": "8ada31f64d8ef51c3b4d3b8b04f3fcc3e9fb7338b1554d1a5a9118a3a231b071",
+    "version": "1.0.0"
+  },
+  "retry_policy": {
+    "enabled": false,
+    "kind": "disabled",
+    "rationale": "Same-config retry measured 0/4 recovery on the frozen benchmark. A changed-seed policy is a separate, unrun experiment."
+  },
+  "smoke": {
+    "accepted": 13,
+    "cases": 16,
+    "contract_failures_released": 0,
+    "note": "Validates orchestration only. No generalisation metric may be claimed from 16 cases.",
+    "passed": 16,
+    "qdrant_writes": 0,
+    "rejected": 3,
+    "suite": "data/evaluation/production_orchestration_smoke_v1.jsonl"
+  },
+  "stack_evaluation": {
+    "benchmark": "generation-eval-benchmark-v2",
+    "contract_false_negatives": 0,
+    "contract_false_positives": 0,
+    "fresh_accept_rate": 0.9583,
+    "replay_accept_rate": 0.9583,
+    "report": "reports/generation_output_contract_v1_1_integrated_eval.md"
+  },
+  "status": "frozen",
+  "version": "tunnelbook-production-grounded-generator-v1"
+}

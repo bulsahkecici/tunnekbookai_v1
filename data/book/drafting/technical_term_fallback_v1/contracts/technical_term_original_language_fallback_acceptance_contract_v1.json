@@ -1,0 +1,25 @@
+{
+  "version": "tunnelbook-technical-term-original-language-fallback-acceptance-v1",
+  "phase": "TECHNICAL TERM ORIGINAL-LANGUAGE FALLBACK CONTRACT V1",
+  "authored_after_zero_drift_preflight": true,
+  "conditions": [
+    {"id": "AC-TF-01", "requirement": "frozen preflight and postflight drift are zero"},
+    {"id": "AC-TF-02", "requirement": "a general additive fallback contract supports AUTHORITATIVE_TRANSLATION and ORIGINAL_TERM_UNRESOLVED"},
+    {"id": "AC-TF-03", "requirement": "unresolved records preserve the exact source term, null translation, source ownership, and BOLD display mode"},
+    {"id": "AC-TF-04", "requirement": "Markdown syntax exists only in presentation output and never in semantic terminology values"},
+    {"id": "AC-TF-05", "requirement": "future resolution is central and versioned without historical mutation or manual prose edits"},
+    {"id": "AC-TF-06", "requirement": "language validation exempts only exact registered unresolved spans and rejects arbitrary English"},
+    {"id": "AC-TF-07", "requirement": "ownership and citation validation remain term-bound and source-bound"},
+    {"id": "AC-TF-08", "requirement": "no global gloss, function, paraphrase, or English allowance is widened"},
+    {"id": "AC-TF-09", "requirement": "the mechanism contains no claim-specific or term-specific implementation branch"},
+    {"id": "AC-TF-10", "requirement": "Swelling Rock is registered through the general mechanism as ORIGINAL_TERM_UNRESOLVED with exact provenance"},
+    {"id": "AC-TF-11", "requirement": "Crushed Rock and Squeezing Rock authoritative translations remain unchanged"},
+    {"id": "AC-TF-12", "requirement": "all required positive fixtures pass"},
+    {"id": "AC-TF-13", "requirement": "all fourteen required negative classes reject deterministically"},
+    {"id": "AC-TF-14", "requirement": "repeated deterministic presentation rendering is byte-identical"},
+    {"id": "AC-TF-15", "requirement": "historical terminology-resolution CLOSED / NO-GO artifacts remain unchanged"},
+    {"id": "AC-TF-16", "requirement": "generation, draft rendering, retrieval, Qdrant writes, corpus-wide reads, and Pilot #2 changes are zero"}
+  ],
+  "verdict_rule": "CLOSED_GO only when all conditions pass",
+  "go_authorises_only": "SEC-02-2 ARCHITECTURE V2.2 TECHNICAL + BOOK STYLE INTEGRATION V1 RETRY"
+}

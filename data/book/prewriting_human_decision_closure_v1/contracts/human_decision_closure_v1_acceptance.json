@@ -1,0 +1,18 @@
+{
+  "schema_version": "prewriting-human-decision-closure-acceptance-v1",
+  "phase": "PRE-WRITING HUMAN DECISION CLOSURE V1",
+  "required_decision_ids": ["BR-001", "BR-002", "BR-003", "BR-004", "BR-005", "BR-006", "BR-007", "RESP-001", "RESP-002", "CHDEC-001", "CHDEC-002", "CHDEC-003", "CHDEC-004", "CHDEC-005", "CHDEC-006"],
+  "gates": {
+    "all_registered_items_classified": true,
+    "repository_resolutions_require_authoritative_provenance": true,
+    "human_choices_not_inferred": true,
+    "human_packet_has_no_silent_default": true,
+    "overlapping_questions_grouped": true,
+    "cost_policy_decisions_classified": true,
+    "rights_decisions_included_only_when_applicable": true,
+    "external_evidence_admitted": false,
+    "historical_artifacts_modified": false,
+    "drafting_authorized": false,
+    "book_prose_generated": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": "ch-a-s01-controlled-drafting-manifest-v1",
+  "created_on": "2026-08-22",
+  "section_id": "CH-A-S01",
+  "section_title": "Tünelin Tanımı",
+  "authorization_state": "AUTHORIZED_CONTROLLED_DRAFTING",
+  "run_result": "HOLD_EVIDENCE_BLOCKER",
+  "drafting_authorized": true,
+  "book_prose_generated": false,
+  "artifacts": [
+    {"path":"data/book/drafting/ch_a_s01/controlled_drafting_v1/draft_authorization_v1.json","sha256":"3eb4efabced45000770c19076a323dd73c1247f02ae9cc0664577744e271701d"},
+    {"path":"data/book/drafting/ch_a_s01/controlled_drafting_v1/section_draft_v1.md","sha256":"76c13b7a04dd5ac43e04c5b8898083445676282d60db52db8444a0bda6e71211"},
+    {"path":"data/book/drafting/ch_a_s01/controlled_drafting_v1/section_evidence_manifest_v1.json","sha256":"84500c062aaa6ade84dc437ce3a6a0c147825e0a3d65f4b9bf5dd202aea9fadc"},
+    {"path":"data/book/drafting/ch_a_s01/controlled_drafting_v1/citation_mapping_v1.json","sha256":"202161ec7891bc48a72c3a2128f3a22cfeec9f55318da31667686582c5a8e77b"},
+    {"path":"data/book/drafting/ch_a_s01/controlled_drafting_v1/focused_drafting_audit_v1.json","sha256":"5b2964b8ba2086eea0980000a7b20938abe71c81ef0f488cd5764fc077bb8e90"},
+    {"path":"data/book/drafting/ch_a_s01/controlled_drafting_v1/drafting_state_v1.json","sha256":"2c23f7641de6af43449515666b43eccf918ae2f3ad01f2481679d883db8f1c58"}
+  ],
+  "frozen_upstream_artifacts_modified": false,
+  "next_phase": "CH-A-S01 EVIDENCE READINESS REMEDIATION"
+}

@@ -1,0 +1,55 @@
+{
+  "document_id": "DOC000205",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:02:10+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "magazine"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "TÜNELcİLİK DERNEğİ YÖNETİM KURULU BAŞKANI",
+      "value": "Tünelcilik Derneği"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "Tünelcilik ve Yeraltı Teknolojileri Dergisi Turkish Tunneling and Underground Technologies Magazine",
+      "value": "TÜNEL-41"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "case_study",
+        "contracts",
+        "excavation",
+        "fire_safety",
+        "geology",
+        "monitoring",
+        "shotcrete",
+        "standards",
+        "tbm"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Ekim - Kasım - Aralık / October - November - December 2021",
+      "value": 2021
+    }
+  },
+  "source_sha256": "dddbe58466c36ba63b780a5d8a9540679825e90c8013bdad725c23f57f85d7dc"
+}

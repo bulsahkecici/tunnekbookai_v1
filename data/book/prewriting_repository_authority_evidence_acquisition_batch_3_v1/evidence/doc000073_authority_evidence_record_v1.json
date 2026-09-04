@@ -1,0 +1,104 @@
+{
+  "author_evidence": [
+    {
+      "converted_source_lines": "39-41",
+      "field": "presenter",
+      "value": "Sina Kiziroğlu",
+      "zone": "title_page"
+    }
+  ],
+  "authority_class": "UNKNOWN_AUTHORITY",
+  "authority_evidence_sufficiency": "INCOMPLETE",
+  "batch_id": "BATCH-03",
+  "claim_relative_applicability": "NOT_YET_AUTHORITY_SUITABLE",
+  "date_or_version_evidence": [
+    {
+      "converted_source_lines": "45",
+      "field": "event_date",
+      "value": "Türkiye Tünelcilik Semineri, 13 Haziran 2013",
+      "zone": "title_page"
+    }
+  ],
+  "document_id": "DOC000073",
+  "exact_title": "Karayolları Genel Müdürlüğünde Tünelcilik Çalışmaları",
+  "external_identity_verification_required": true,
+  "external_verification_plan": {
+    "identity_matching_keys": [
+      "DOC000073",
+      "Karayolları Genel Müdürlüğünde Tünelcilik Çalışmaları"
+    ],
+    "mismatch_behavior": "RETAIN_UNKNOWN_AUTHORITY",
+    "missing_identity_fields": [
+      "frozen_source_type_for_presentation"
+    ],
+    "preferred_authoritative_lookup_class": "ISSUER_PUBLISHER_OR_INSTITUTIONAL_REPOSITORY_RECORD"
+  },
+  "identity_confidence": "PARTIAL",
+  "identity_evidence": [
+    {
+      "converted_source_lines": "27-31",
+      "field": "presentation_name",
+      "value": "63. Bölge Müdürleri Toplantısı",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "39-41",
+      "field": "presenter",
+      "value": "Sina Kiziroğlu",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "33-37,47-49",
+      "field": "issuing_body",
+      "value": "Karayolları Genel Müdürlüğü, AR-GE Dairesi Başkanlığı",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "43",
+      "field": "title",
+      "value": "Karayolları Genel Müdürlüğünde Tünelcilik Çalışmaları",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "45",
+      "field": "event_date",
+      "value": "Türkiye Tünelcilik Semineri, 13 Haziran 2013",
+      "zone": "title_page"
+    }
+  ],
+  "inspection_mechanism": "TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION",
+  "institution_or_publisher_evidence": [
+    {
+      "converted_source_lines": "33-37,47-49",
+      "field": "issuing_body",
+      "value": "Karayolları Genel Müdürlüğü, AR-GE Dairesi Başkanlığı",
+      "zone": "title_page"
+    }
+  ],
+  "limitations": "No claim proposition, support, provenance, anchor, scope, review, or admission state changed.",
+  "missing_fields": [
+    "frozen_source_type_for_presentation"
+  ],
+  "promotion": false,
+  "publication_identifiers": [],
+  "reason": "The local title page proves a KGM presentation identity, but the frozen taxonomy has no presentation source type.",
+  "result": "SOURCE_TYPE_UNRESOLVED",
+  "schema_version": "1.0.0",
+  "source_path": "data/markdown_full_docling/Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/SinaKiziroglu.md",
+  "source_sha256": "7494957b904f28aae94868474e16c53e93aa6b21703ffbcd758bcfd38cdc80e9",
+  "source_type": "UNKNOWN_SOURCE_TYPE",
+  "source_type_evidence": [
+    {
+      "converted_source_lines": "27-31",
+      "field": "presentation_name",
+      "value": "63. Bölge Müdürleri Toplantısı",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "33-37,47-49",
+      "field": "issuing_body",
+      "value": "Karayolları Genel Müdürlüğü, AR-GE Dairesi Başkanlığı",
+      "zone": "title_page"
+    }
+  ]
+}

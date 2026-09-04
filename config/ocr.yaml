@@ -1,0 +1,17 @@
+# OCR configuration (§25). Fully local. No cloud OCR (§27).
+version: 1
+
+enabled: true
+engine: rapidocr          # rapidocr | ocrmac | tesseract | easyocr | docling_default
+engine_type: torch        # rapidocr backend: torch | onnxruntime
+languages: ['tr', 'en']   # Turkish + English (§25)
+confidence: null          # RapidOCR does not expose a calibrated score — never fabricate (§25)
+
+# Cheap text-presence gate before running OCR on purely photographic assets (§29)
+text_presence_detection:
+  enabled: true
+  min_edge_density: 0.02
+
+figure_ocr:
+  enabled: true           # OCR on extracted figures (§29)
+  skip_photographic: true

@@ -1,0 +1,52 @@
+{
+  "document_id": "DOC000072",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:54:47+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "**YÜKSEK LİSANS TEZİ** [authority_B_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "**YÜKSEK LİSANS TEZİ**",
+      "value": "thesis"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "**ÖNSÖZ**",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "KARADENİZ TEKNİK ÜNİVERSİTESİ FEN BİLİMLERİ ENSTİTÜSÜ",
+      "value": "Karadeniz Teknik Üniversitesi"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "**TÜNELLER VE TASARIM İLKELERİ**",
+      "value": "TÜNELLER VE TASARIM İLKELERİ"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "**Jeolojik ve Geoteknik İncelemeler**",
+      "value": [
+        "geology",
+        "geotechnical_investigation",
+        "history",
+        "route_selection",
+        "shotcrete",
+        "water"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "AĞUSTOS 2007 TRABZON",
+      "value": 2007
+    }
+  },
+  "source_sha256": "d8c47fd59b8c006c036f09be83fed7ee7fd3654016e8a6543caf32addd182c26"
+}

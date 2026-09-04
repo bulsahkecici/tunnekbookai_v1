@@ -1,0 +1,176 @@
+{
+  "all_unchanged": true,
+  "changed": [],
+  "check_count": 19,
+  "checks": [
+    {
+      "actual_sha256": "e0f4759acde56d27fd40565cdf9efcdc003c33b48e85a31ad6b87c943d4d8b4a",
+      "baseline": "remediation_v1_first_freeze",
+      "expected_sha256": null,
+      "name": "historical rejected pilot raw output",
+      "path": "data/book/drafting/sec_02_2/raw/sec_02_2_draft_raw_v1.json",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "f92b1f5256e5404479a53c2a5dc2e5dfc833769e9208c37a6da1de724de962fa",
+      "baseline": "remediation_v1_first_freeze",
+      "expected_sha256": null,
+      "name": "historical truncated attempt 1 raw output",
+      "path": "data/book/drafting/sec_02_2/raw/sec_02_2_draft_raw_attempt1_truncated_v1.json",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "6abe42f8e8e2b8874671e98b343a5c557185f494bee899d6f364c22a161b88c5",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "6abe42f8e8e2b8874671e98b343a5c557185f494bee899d6f364c22a161b88c5",
+      "name": "historical pilot draft audit",
+      "path": "data/book/drafting/sec_02_2/audits/sec_02_2_draft_audit_v1.json",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "9cf3cac000aa78c2523e5de085685516e46fb08ae56a181bbc1a720ef2ce11a4",
+      "baseline": "remediation_v1_first_freeze",
+      "expected_sha256": null,
+      "name": "historical pilot draft authorization",
+      "path": "data/book/drafting/sec_02_2/draft_authorization_v1.json",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "f1fffd9c93d3bcba8e4f67f2fbd666e9b113fd9a783d207ada00cfd5fa68d7bc",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "f1fffd9c93d3bcba8e4f67f2fbd666e9b113fd9a783d207ada00cfd5fa68d7bc",
+      "name": "section drafting contract v1",
+      "path": "data/book/drafting/contracts/section_drafting_contract_v1.json",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "b8a3860f04fd999d3bd39de41f884fb558c21d847883a0aeb5005962f59c6c9b",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "b8a3860f04fd999d3bd39de41f884fb558c21d847883a0aeb5005962f59c6c9b",
+      "name": "book citation rendering contract v1",
+      "path": "data/book/drafting/contracts/book_citation_rendering_contract_v1.json",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "a7a8627cd70a9c844aa7f8524f83c96b8cd2e7ce6a796fb3bc3a6fa4d276b52a",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "a7a8627cd70a9c844aa7f8524f83c96b8cd2e7ce6a796fb3bc3a6fa4d276b52a",
+      "name": "draft validation contract v1",
+      "path": "data/book/drafting/contracts/draft_validation_contract_v1.json",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "3c9584ad275471da7c4902b30fce1f08144fa2877df251289c4b17d6da964670",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "3c9584ad275471da7c4902b30fce1f08144fa2877df251289c4b17d6da964670",
+      "name": "draft plan v1",
+      "path": "data/book/drafting/sec_02_2/draft_plan_v1.json",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "6fba28d4566a69844bcba526cb9cf793cdc6923a130b87537f0191a8d2e7f921",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "6fba28d4566a69844bcba526cb9cf793cdc6923a130b87537f0191a8d2e7f921",
+      "name": "section drafting system prompt v1",
+      "path": "data/metadata/section_drafting_system_prompt_v1.txt",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "2261ff3f51efe782b5aaddb004d546c847224a52c94faebe20d3758242bce480",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "2261ff3f51efe782b5aaddb004d546c847224a52c94faebe20d3758242bce480",
+      "name": "section drafting controller (scripts/47)",
+      "path": "scripts/47_section_drafting_contract_v1.py",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "9cb5e81560a084617312552d06aee0d581f926c12680b277bfe45d86cf74b604",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "9cb5e81560a084617312552d06aee0d581f926c12680b277bfe45d86cf74b604",
+      "name": "book citation renderer v1 (scripts/48)",
+      "path": "scripts/48_book_citation_renderer_v1.py",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "a72406aafdd40a266ad3ce9c3c886036a0d30cec5b4cf73c17e58de2f83a44e0",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "a72406aafdd40a266ad3ce9c3c886036a0d30cec5b4cf73c17e58de2f83a44e0",
+      "name": "section draft validator v1 (scripts/49)",
+      "path": "scripts/49_section_draft_validator_v1.py",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "db1e458c1280015dd2955433c046013aae77cd7767a11e0fd98c95e20f945f25",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "db1e458c1280015dd2955433c046013aae77cd7767a11e0fd98c95e20f945f25",
+      "name": "composition validator (scripts/46)",
+      "path": "scripts/46_sec_02_2_claim_composition_validator_v1.py",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "e637ca19eca8bb28a5e1e369cb9df7eba6566f6b57d503ca34cf895bff7cf42b",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "e637ca19eca8bb28a5e1e369cb9df7eba6566f6b57d503ca34cf895bff7cf42b",
+      "name": "composition-safe allowlist",
+      "path": "data/book/sec_02_2_limitation_resolution/claims/composition_safe_allowlist_v1.jsonl",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "348086fb4ed58e4455ac94c4408f25c09b4759898fb343e5b2beddb9a343a60a",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "348086fb4ed58e4455ac94c4408f25c09b4759898fb343e5b2beddb9a343a60a",
+      "name": "composition denylist",
+      "path": "data/book/sec_02_2_limitation_resolution/claims/composition_denylist_v1.jsonl",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "7b3a46258de4c53a804581573f7e39e7f30c9d76db9cb8daed67597a1f139cfb",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "7b3a46258de4c53a804581573f7e39e7f30c9d76db9cb8daed67597a1f139cfb",
+      "name": "claim pair constraints",
+      "path": "data/book/sec_02_2_limitation_resolution/claims/claim_pair_constraints_v1.jsonl",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "1d773c6fa41ebe446ad62b8116d3aaa8cd223d6256e6bea065198bf82408acd2",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "1d773c6fa41ebe446ad62b8116d3aaa8cd223d6256e6bea065198bf82408acd2",
+      "name": "drafting fixtures v1",
+      "path": "data/evaluation/section_drafting_contract_v1.jsonl",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "577a1b659a534b15cc1a499c5412ef47011717ae601a97e609e0671c19bfcfeb",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "577a1b659a534b15cc1a499c5412ef47011717ae601a97e609e0671c19bfcfeb",
+      "name": "citation fixtures v1",
+      "path": "data/evaluation/book_citation_rendering_v1.jsonl",
+      "unchanged": true
+    },
+    {
+      "actual_sha256": "eb1580b371b4eedb7030bb1e93888810cd2b4db8b594db1709a706d738cb58b0",
+      "baseline": "section_drafting_contract_v1_manifest",
+      "expected_sha256": "eb1580b371b4eedb7030bb1e93888810cd2b4db8b594db1709a706d738cb58b0",
+      "name": "historical generation raw_text SHA",
+      "path": "data/book/drafting/sec_02_2/raw/sec_02_2_draft_raw_v1.json::raw_text",
+      "unchanged": true
+    }
+  ],
+  "historical_draft_id": "SEC-02-2-PILOT-V1",
+  "historical_generation": {
+    "finish_reason": "stop",
+    "generation_config_hash": "0eead3189483f98083677eda04f523020ea3cd72421c34ebb97d9cf7ee98b687",
+    "max_tokens": 12288,
+    "model_id": "qwen3.6-35b-a3b-mlx",
+    "raw_text_sha256": "eb1580b371b4eedb7030bb1e93888810cd2b4db8b594db1709a706d738cb58b0",
+    "rendered_prompt_sha256": "5aec5c176203d57d37ae3216cc90927487ef8c5ec0faf41c282bd204ada582e4",
+    "seed": 11,
+    "system_prompt_sha256": "6fba28d4566a69844bcba526cb9cf793cdc6923a130b87537f0191a8d2e7f921",
+    "temperature": 0.0
+  },
+  "historical_pilot_status": "ATTEMPTED / REJECTED",
+  "historical_rejected_draft_ir_note": "The rejected pilot produced no DraftIR file - nothing was written because nothing was accepted. This is the SHA of the DraftIR parsed from the preserved raw text, canonicalised the same way every artifact here is. It is derived evidence, not a reconstruction of a file that never existed.",
+  "historical_rejected_draft_ir_sha256": "1bc8386d70acf410b08d9faca49f3de1973ee1207e1caa97529b6ba66c352553",
+  "section_id": "SEC-02-2",
+  "version": "tunnelbook-sec-02-2-historical-pilot-freeze-v1"
+}

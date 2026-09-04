@@ -1,0 +1,56 @@
+{
+  "artifacts": [
+    {
+      "path": "data/book/prewriting_repository_authority_evidence_acquisition_planning_v1/audits/authority_evidence_planning_audit_v1.json",
+      "sha256": "48a967017191167d8c7c0c754c852422fb585504d822fd02b9144e9d6c302798"
+    },
+    {
+      "path": "data/book/prewriting_repository_authority_evidence_acquisition_planning_v1/checkpoint_summary_v1.json",
+      "sha256": "f92449a1871a360cf9cbc0274bbb5cf46ed2035f8ef7bccaae145ec37123e9c3"
+    },
+    {
+      "path": "data/book/prewriting_repository_authority_evidence_acquisition_planning_v1/contracts/authority_evidence_acquisition_planning_acceptance_contract_v1.json",
+      "sha256": "7cde173ee41692a36547ca03674e813573ccc7beb6c19693cb72049e998fdbec"
+    },
+    {
+      "path": "data/book/prewriting_repository_authority_evidence_acquisition_planning_v1/fixtures/planning_fixtures_v1.json",
+      "sha256": "2658f55033c86aad98ab5bd4c2a5e5cd9a48a88a0866484102ce41867eb26e53"
+    },
+    {
+      "path": "data/book/prewriting_repository_authority_evidence_acquisition_planning_v1/ledgers/section_dependency_ledger_v1.json",
+      "sha256": "c80e715a8824c9b6fefdae99e4e39be2876347e6e3593c175566fb9e0cef166c"
+    },
+    {
+      "path": "data/book/prewriting_repository_authority_evidence_acquisition_planning_v1/plans/authority_evidence_batch_plan_v1.json",
+      "sha256": "fea4c5ba1ad3251b22759bb19ac2802bbed06266ab406691f396e0f9ab91247c"
+    },
+    {
+      "path": "data/book/prewriting_repository_authority_evidence_acquisition_planning_v1/plans/external_identity_verification_plan_v1.json",
+      "sha256": "e6f50482a4bcd1f0d575e9f2084b9c9c799369855214817126e5a695c3a0deec"
+    },
+    {
+      "path": "data/book/prewriting_repository_authority_evidence_acquisition_planning_v1/plans/local_repository_evidence_plan_v1.json",
+      "sha256": "f3b05d3e04fbbe2c5a80b94bb46e75a14b4c8c556c860cffee6c2e2f11db150e"
+    },
+    {
+      "path": "data/book/prewriting_repository_authority_evidence_acquisition_planning_v1/registries/authority_evidence_gap_registry_v1.json",
+      "sha256": "07fd39b5f26d53e0c2ac43cab902d713a09ff5c8e3f92c7d3197bc5137af6061"
+    },
+    {
+      "path": "data/book/prewriting_repository_authority_evidence_acquisition_planning_v1/registries/claim_relative_authority_requirement_matrix_v1.json",
+      "sha256": "ad1390c02225f03966f23e9307d98ee80c33230ea5530f3511a6f376807fe0e8"
+    },
+    {
+      "path": "data/book/prewriting_repository_authority_evidence_acquisition_planning_v1/registries/source_type_candidate_registry_v1.json",
+      "sha256": "392faaf718be8c3275683c3b96129f4a1e0a0d195bdb90ce3fca6d2a4ad95e6c"
+    }
+  ],
+  "input_hashes": {
+    "data/book/prewriting_repository_authority_evidence_acquisition_planning_v1/contracts/authority_evidence_acquisition_planning_acceptance_contract_v1.json": "7cde173ee41692a36547ca03674e813573ccc7beb6c19693cb72049e998fdbec",
+    "data/book/prewriting_repository_authority_status_residual_locator_remediation_v1/registries/orthogonal_claim_status_registry_v1.json": "66c66c5e05df898b714c69a93fc84e4cb51dc2c54bc7e04042ea684c5fa089ff",
+    "data/book/prewriting_repository_authority_status_residual_locator_remediation_v1/registries/section_claim_readiness_ledger_v4.json": "a09fa37690c2f08048093cf88598116798be8dda65fa9a9e4fbdc2dfbba2e758",
+    "data/book/prewriting_repository_authority_status_residual_locator_remediation_v1/registries/source_authority_registry_v3.json": "75dec6ed28a3825452f8cd0d688f4469f8bfd9cade5acb4a5eb0b79696e343ac"
+  },
+  "phase": "PRE-WRITING REPOSITORY AUTHORITY EVIDENCE ACQUISITION PLANNING V1",
+  "schema_version": "1.0.0"
+}

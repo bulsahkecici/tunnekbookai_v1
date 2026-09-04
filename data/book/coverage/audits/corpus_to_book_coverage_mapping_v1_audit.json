@@ -1,0 +1,20 @@
+{
+  "checkpoint": "CP3 — CORPUS-TO-BOOK COVERAGE MAPPING V1",
+  "status": "GO",
+  "acceptance_contract_frozen_before_mapping": true,
+  "remediation_cycles": 1,
+  "gates": {
+    "section_coverage": "60/60 PASS",
+    "categorical_status_histogram": {"WEAK": 28, "UNOBSERVED": 32},
+    "precision_sample": "12/12 DIRECT_DOMAIN_TERM_PROVENANCE PASS",
+    "false_positive_source_mapping": "0/12 PASS",
+    "missed_obvious_source_probes": "5/5 PASS",
+    "provenance_validity": "60/60 PASS",
+    "source_content_reads": "0 PASS",
+    "corpus_mutation": "0 PASS",
+    "broad_corpus_scan": "0 PASS",
+    "fake_numeric_precision": "0 PASS"
+  },
+  "interpretation": "Metadata-only candidates remain secondary and WEAK; sections without direct domain-term metadata remain UNOBSERVED. No source is promoted to primary without content validation.",
+  "decision": "GO"
+}

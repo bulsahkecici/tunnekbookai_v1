@@ -1,0 +1,157 @@
+{
+  "mappings": [
+    {
+      "approved_target_renderings": [
+        "tünel boyutuna bağlı olarak",
+        "tünel boyutuna göre",
+        "tünel açıklığının boyutuna bağlı olarak"
+      ],
+      "claim_id": "SEC-02-2-P0-008",
+      "historical_evidence": {
+        "note": "The condition this unit dropped while also failing to translate.",
+        "pilot": "SEC-02-2-PILOT-V1",
+        "unit_id": "U-C-P01-S03"
+      },
+      "mapping_id": "XL-P0-008-001",
+      "modality_invariants": [
+        "may be",
+        "olabilir",
+        "olabilmektedir"
+      ],
+      "numeric_invariants": [
+        {
+          "unit": "inches",
+          "value": "12"
+        },
+        {
+          "unit": "mm",
+          "value": "300"
+        }
+      ],
+      "registered_anchors": [
+        "tünel",
+        "boyutuna",
+        "boyut"
+      ],
+      "renderings_note": "'tünel büyüklüğüne bağlı olarak' is a correct translation and is a licensed condition anchor in the frozen contract, but its vocabulary is not in that contract's translation glosses, so a unit drafted with it is rejected by support containment. Registering it here would declare a rendering the pipeline cannot accept.",
+      "scope_invariants": {
+        "material_scope": "initial_shotcrete_lining",
+        "requirement_scope": [
+          "typical_range",
+          "case_specific"
+        ],
+        "system_scope": "not_applicable"
+      },
+      "source_condition": "dependent on tunnel size",
+      "source_keys": [
+        "SRC-DOC000047-d5c60204e247"
+      ],
+      "source_language": "en",
+      "target_language": "tr"
+    },
+    {
+      "approved_target_renderings": [
+        "bazı",
+        "belirli",
+        "kimi"
+      ],
+      "claim_id": "SEC-02-2-P0-008",
+      "historical_evidence": null,
+      "mapping_id": "XL-P0-008-002",
+      "modality_invariants": [
+        "may be",
+        "olabilir",
+        "olabilmektedir"
+      ],
+      "numeric_invariants": [],
+      "registered_anchors": [
+        "bazı",
+        "belirli",
+        "kimi"
+      ],
+      "scope_invariants": {
+        "material_scope": "initial_shotcrete_lining",
+        "requirement_scope": [
+          "typical_range",
+          "case_specific"
+        ],
+        "system_scope": "not_applicable"
+      },
+      "source_condition": "In some",
+      "source_keys": [
+        "SRC-DOC000047-d5c60204e247"
+      ],
+      "source_language": "en",
+      "target_language": "tr"
+    },
+    {
+      "approved_target_renderings": [
+        "zemin koşullarına ve tünel açıklığının boyutuna bağlı olarak",
+        "zemin koşullarına ve tünel boyutuna bağlı olarak"
+      ],
+      "claim_id": "SEC-02-2-P0-007",
+      "historical_evidence": {
+        "note": "Untranslated English that passed all nine v1 stages. It dropped no condition, so nothing in v1 had anything to say about it.",
+        "pilot": "SEC-02-2-PILOT-V1",
+        "unit_id": "U-C-P01-S02"
+      },
+      "mapping_id": "XL-P0-007-001",
+      "modality_invariants": [
+        "typical",
+        "generally",
+        "genellikle",
+        "tipik"
+      ],
+      "numeric_invariants": [
+        {
+          "unit": "mm",
+          "value": "100"
+        },
+        {
+          "unit": "mm",
+          "value": "400"
+        },
+        {
+          "unit": "inches",
+          "value": "4"
+        },
+        {
+          "unit": "inches",
+          "value": "16"
+        }
+      ],
+      "registered_anchors": [
+        "zemin",
+        "koşullarına",
+        "tünel",
+        "açıklığının",
+        "açıklık",
+        "boyutuna",
+        "boyut"
+      ],
+      "scope_invariants": {
+        "material_scope": "initial_shotcrete_lining",
+        "requirement_scope": [
+          "typical_range"
+        ],
+        "system_scope": "not_applicable"
+      },
+      "source_condition": "depending on ground conditions and size of the tunnel opening",
+      "source_keys": [
+        "SRC-DOC000047-72f96c5daace",
+        "SRC-DOC000047-838e92811f43"
+      ],
+      "source_language": "en",
+      "target_language": "tr"
+    }
+  ],
+  "parent_contract_version": "tunnelbook-section-drafting-contract-v1",
+  "policy": {
+    "anchors_must_be_licensed_by_frozen_contract": true,
+    "runtime_invention": false,
+    "runtime_invention_rationale": "A translation produced at validation time is unauditable: the rule that accepted a rendering would differ from run to run. Every accepted rendering is declared here, in advance.",
+    "verified_by": "scripts/52_section_draft_validator_v1_1.py::mapping_consistency"
+  },
+  "section_id": "SEC-02-2",
+  "version": "tunnelbook-cross-lingual-condition-mappings-v1"
+}

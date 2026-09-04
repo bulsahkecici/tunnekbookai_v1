@@ -1,0 +1,47 @@
+{
+  "document_id": "DOC000057",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:53:49+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "medium",
+      "evidence": "Konservatif görsel açıklaması",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "medium",
+      "evidence": "Konservatif görsel açıklaması",
+      "value": "other"
+    },
+    "language": {
+      "confidence": "medium",
+      "evidence": "InvertBetonUygulaması",
+      "value": "mixed"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "# InvertBetonUygulaması",
+      "value": "InvertBetonUygulaması"
+    },
+    "topics": {
+      "confidence": "low",
+      "evidence": "InvertBetonUygulaması",
+      "value": [
+        "construction_management"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": null
+    }
+  },
+  "source_sha256": "c77a14960e997ca95740010fef35aba2ec824861a306004633b190bc4d42d408"
+}

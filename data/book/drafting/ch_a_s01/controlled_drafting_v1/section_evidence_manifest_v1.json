@@ -1,0 +1,20 @@
+{
+  "version": "ch-a-s01-section-evidence-manifest-v1",
+  "section_id": "CH-A-S01",
+  "section_title": "Tünelin Tanımı",
+  "readiness_before_drafting": "READY_WITH_LIMITATIONS",
+  "research_question_id": "RQ-001-01",
+  "packet_id": "EP-001",
+  "packet_coverage": "UNOBSERVED",
+  "packet_readiness": "BLOCKED",
+  "permitted_claims_used": [],
+  "candidate_claims_reviewed": [{
+    "claim_id": "RCLM-00001", "source_id": "DOC000039", "chunk_id": "C0002",
+    "authority_status": "UNKNOWN", "provenance_status": "COMPLETE", "anchor_status": "UNIQUE",
+    "support_status": "VERIFIED_SUPPORT", "scope_status": "INSUFFICIENT",
+    "evidence_use_tier": "RESTRICTED_OR_EXCLUDED", "section_and_rq_match": false,
+    "use_decision": "EXCLUDED_NOT_USED", "exclusion_reason": "SCOPE_DEFECT_AND_NO_SECTION_OR_RESEARCH_QUESTION_MATCH"
+  }],
+  "counts": {"evidence_claims_used": 0, "strong_claims_used": 0, "limited_claims_used": 0, "restricted_claims_used": 0},
+  "evidence_gate": "BLOCKER"
+}

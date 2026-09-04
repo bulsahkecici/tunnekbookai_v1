@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TunnelBookAI question-aware coverage",
+  "type": "object",
+  "required": ["section_id", "document_coverage", "question_coverage"],
+  "properties": {
+    "section_id": {"type": "string"},
+    "document_coverage": {"type": "object", "required": ["corpus_eligible_documents"]},
+    "question_coverage": {
+      "type": "object",
+      "required": ["total_questions", "supported", "partial", "insufficient", "no_evidence", "support_rate"]
+    }
+  }
+}

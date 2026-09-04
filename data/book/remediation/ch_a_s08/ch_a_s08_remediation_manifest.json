@@ -1,0 +1,306 @@
+{
+  "generated_artifacts": [
+    {
+      "path": "ch_a_s08_candidates.jsonl",
+      "sha256": "6b6afbd74c46ac89d4eeef6bf4a1526e8561c147f954eb58814f2f836d804d14"
+    },
+    {
+      "path": "ch_a_s08_writer_evidence_packet.json",
+      "sha256": "16618d9a096506880bb52920943f058565f1f035d195a253a9802bee59fea15a"
+    },
+    {
+      "path": "ch_a_s08_remediation_report.md",
+      "sha256": "7fe8b67adef335a33130154d74aa419b55d4bc9139a73a13a00baf71b70574a4"
+    }
+  ],
+  "generated_at": "2026-08-25T23:08:57.343037+00:00",
+  "generator": "scripts/section_evidence_remediation.py",
+  "integrity": {
+    "retriever": {
+      "path": "scripts/19_retriever_v1.py",
+      "sha256": "8ada31f64d8ef51c3b4d3b8b04f3fcc3e9fb7338b1554d1a5a9118a3a231b071"
+    },
+    "source_artifacts": [
+      {
+        "path": "config/book_sections.json",
+        "sha256": "3cd55f6ad097cd6333b343180dd920e2e1a7215eecd388e1f32164368b256424"
+      },
+      {
+        "path": "data/book/assets/nontext_asset_policy_registry_v1.json",
+        "sha256": "79c9902abf77550e9ad0cd76f3542ee79eb3cb6b8a0e2e1017ee80f1af0ba3cd"
+      },
+      {
+        "path": "data/book/coverage/corpus_to_book_coverage_mapping_v1.json",
+        "sha256": "5db9f56ac0f46d6ceba4a50ef83700c72500562737a13ffce015d9c7ea1dd901"
+      },
+      {
+        "path": "data/book/editorial/editorial_mechanics_v1.json",
+        "sha256": "f51df82f7f16fe42075651673dc25e5f00e5f5cb08935ce4689d75b2e1da7566"
+      },
+      {
+        "path": "data/book/evidence_packets/section_evidence_packets_v1.json",
+        "sha256": "1659da3ae01a2c9cd34d7d09c4bc6b2e98dc1f3efd24f8959d1ed4f10d6d5929"
+      },
+      {
+        "path": "data/book/master_structure/book_master_structure_v1.json",
+        "sha256": "4001ec372ddbaa3b3fe98a35645458de455771344faa7c039b3eb81df68dbb30"
+      },
+      {
+        "path": "data/book/master_structure/book_master_structure_v1.md",
+        "sha256": "be15d959c63b437a36fa163a4627926bdd7d7ea197851fdfc81e743ea6dcb6f8"
+      },
+      {
+        "path": "data/book/prewriting_audit/prewriting_readiness_matrix_v1.json",
+        "sha256": "048942fcba7d7c21596a34bc06686686dd08c6b879461671cce14ad39548c92a"
+      },
+      {
+        "path": "data/book/prewriting_external_authority_identity_verification_batch_3_v1/registries/batch_3_claim_relative_suitability_registry_v1.json",
+        "sha256": "00b38d8c121a7c326345cab68e13d03ef15a5efaa58b64f5dad607a0a30ca616"
+      },
+      {
+        "path": "data/book/prewriting_external_evidence_admission_v1/section_research_question_gap_mapping_v1.json",
+        "sha256": "5e5e651f668d5e0384d4cae9e8060e1f1645d7e5d9d3e6e54cdf1e13dce58bfb"
+      },
+      {
+        "path": "data/book/prewriting_final_readiness_writing_authorization_audit_v1/evidence_use_tier_registry_v1.json",
+        "sha256": "75955f8bdc31f193b9b96360d7e8538edb9a562822ee76af8ed4c9b5aa3b86a2"
+      },
+      {
+        "path": "data/book/prewriting_final_readiness_writing_authorization_audit_v1/section_readiness_registry_v1.json",
+        "sha256": "6d36f8565a9b3ba7b95a9d57ba27d87d571229422324d92f9cfc10c95ba98b1e"
+      },
+      {
+        "path": "data/book/prewriting_freshness_control_v1/freshness_registry_v1.json",
+        "sha256": "d2e6edf8e46c2f27c1a286d3b1c78e4d6aa97cdccecd749bee24a5266b245fe1"
+      },
+      {
+        "path": "data/book/prewriting_freshness_control_v1/section_freshness_matrix_v1.json",
+        "sha256": "e28b4313229bcd27bec798ce0789f20d7cc7a2c35ad8ff19e82be6270c50ff1e"
+      },
+      {
+        "path": "data/book/prewriting_repository_authority_evidence_acquisition_batch_2_v1/registries/batch_2_claim_relative_impact_registry_v1.json",
+        "sha256": "f6b6bfd18aca407c00983b16d93376e73a5363a2ff69b693f5499537902627c8"
+      },
+      {
+        "path": "data/book/prewriting_repository_authority_evidence_acquisition_planning_v1/registries/claim_relative_authority_requirement_matrix_v1.json",
+        "sha256": "ad1390c02225f03966f23e9307d98ee80c33230ea5530f3511a6f376807fe0e8"
+      },
+      {
+        "path": "data/book/prewriting_repository_authority_status_residual_locator_remediation_v1/registries/orthogonal_claim_status_registry_v1.json",
+        "sha256": "66c66c5e05df898b714c69a93fc84e4cb51dc2c54bc7e04042ea684c5fa089ff"
+      },
+      {
+        "path": "data/book/prewriting_repository_authority_status_residual_locator_remediation_v1/registries/section_claim_readiness_ledger_v4.json",
+        "sha256": "a09fa37690c2f08048093cf88598116798be8dda65fa9a9e4fbdc2dfbba2e758"
+      },
+      {
+        "path": "data/book/prewriting_repository_authority_status_residual_locator_remediation_v1/registries/targeted_repository_discovery_registry_v3.json",
+        "sha256": "f34bb68f09e7c0f121372702ab38dbd9af73fbca55f85b400560756cf1fa3af0"
+      },
+      {
+        "path": "data/book/prewriting_repository_claim_defect_remediation_v1/registries/remediated_claim_registry_v1.json",
+        "sha256": "c18f0552a7b9e51d44d3e11a2e910a5f6bf271c9463e58869bd173acd1c54ac2"
+      },
+      {
+        "path": "data/book/prewriting_repository_claim_defect_remediation_v1/registries/section_claim_readiness_ledger_v2.json",
+        "sha256": "0adccabd3c72899253e66cc9206f42282ca9f4785c35c3dee44806531789345d"
+      },
+      {
+        "path": "data/book/prewriting_repository_claim_defect_remediation_v1/registries/targeted_repository_discovery_registry_v1.json",
+        "sha256": "a10d8a614f4ff5a07c9d5adec00c632a15ec684d28528a8be70dfcd43b3e4a6d"
+      },
+      {
+        "path": "data/book/prewriting_repository_claim_extraction_authority_validation_v1/registries/section_claim_readiness_ledger_v1.json",
+        "sha256": "a1c3d33ef1938c2f31578138efba268b42081153a28b10c04d6d5ff413d6914b"
+      },
+      {
+        "path": "data/book/prewriting_repository_claim_extraction_authority_validation_v1/registries/unresolved_section_category_registry_v1.json",
+        "sha256": "c36bcb0a03feff5a7f9bbcce5217a98692179a233f36d08edeab64fcc65d494f"
+      },
+      {
+        "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/registries/affected_record_registry_v1.json",
+        "sha256": "5d044698b040bc494fe9a20a983d4d6c411244b18f37ba6fa6051a8a398d590f"
+      },
+      {
+        "path": "data/book/prewriting_repository_evidence_admission_v1/section_evidence_coverage_ledger_v1.json",
+        "sha256": "c8ea3139349c3c5153508fa7e0fa8196cbb52af8faf2f8f520d8f100e6dcb2f8"
+      },
+      {
+        "path": "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/section_evidence_coverage_ledger_v2.json",
+        "sha256": "dd7cee87ced01793bae497e5e6ba45b3b5fafffeeddee9ae08fe788639aa3daf"
+      },
+      {
+        "path": "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/remediated_claim_registry_v2.json",
+        "sha256": "9e126a7f1c7d31eea1d74ef35e8a76171a00d205cba26c25d8a30437f6afb5b1"
+      },
+      {
+        "path": "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/section_claim_readiness_ledger_v3.json",
+        "sha256": "8707812afa95d0aa02b9df7c71230c9b67b2d6e6272b4315861c5fc93d70dd0f"
+      },
+      {
+        "path": "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/targeted_repository_discovery_registry_v2.json",
+        "sha256": "67372c7c622a9a1f4ed160275c7620e3e6a5b4fa2eb338fd77e1edb43836e4b4"
+      },
+      {
+        "path": "data/book/prewriting_visual_evidence_rights_validation_v1/section_visual_readiness_matrix_v1.json",
+        "sha256": "164357a5396025c5356a7ba6c00957ffcfd2e0cb748660824a88dabbc77c3fea"
+      },
+      {
+        "path": "data/book/remediation/ch_a_s01/ch_a_s01_candidates.jsonl",
+        "sha256": "588dd0e3f2b92c8b2ef3430094a98b9b7e0bcf2739f92cf2e4c244c5df8bb547"
+      },
+      {
+        "path": "data/book/remediation/ch_a_s01/ch_a_s01_candidates_20260824T072916Z.jsonl",
+        "sha256": "588dd0e3f2b92c8b2ef3430094a98b9b7e0bcf2739f92cf2e4c244c5df8bb547"
+      },
+      {
+        "path": "data/book/remediation/ch_a_s01/ch_a_s01_candidates_20260824T074706Z.jsonl",
+        "sha256": "588dd0e3f2b92c8b2ef3430094a98b9b7e0bcf2739f92cf2e4c244c5df8bb547"
+      },
+      {
+        "path": "data/book/remediation/ch_a_s05/ch_a_s05_candidates.jsonl",
+        "sha256": "286739f01c0e817f8b141543ffd908e0c3351843ea2e97c90251af61f7bad2d6"
+      },
+      {
+        "path": "data/book/remediation/ch_a_s05/ch_a_s05_candidates_20260825T210457Z.jsonl",
+        "sha256": "286739f01c0e817f8b141543ffd908e0c3351843ea2e97c90251af61f7bad2d6"
+      },
+      {
+        "path": "data/book/remediation/ch_a_s05/ch_a_s05_candidates_20260825T211604Z.jsonl",
+        "sha256": "286739f01c0e817f8b141543ffd908e0c3351843ea2e97c90251af61f7bad2d6"
+      },
+      {
+        "path": "data/book/remediation/ch_a_s05/ch_a_s05_candidates_20260825T212728Z.jsonl",
+        "sha256": "286739f01c0e817f8b141543ffd908e0c3351843ea2e97c90251af61f7bad2d6"
+      },
+      {
+        "path": "data/book/research/research_question_gap_registry_v1.json",
+        "sha256": "13ab8e46bfe3f7db4111dcfb67dcc2e138a1aab5e0d820102c2bab0364fcddac"
+      },
+      {
+        "path": "docs/ai/TunnelBookAI_PREWRITING_ORCHESTRATOR_V1.md",
+        "sha256": "18b7db81f1e2a665f0f72c2c038694ec04d8110c775c18396d4b217c0c5e925a"
+      }
+    ]
+  },
+  "privacy_mode": "LOCAL_ONLY",
+  "retriever_config": {
+    "automatic_language_filter": false,
+    "automatic_translation": false,
+    "bm25": false,
+    "default_top_k": 10,
+    "dense_model": "BAAI/bge-m3",
+    "dense_model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "distance": "COSINE",
+    "document_cap": null,
+    "document_prefix": null,
+    "embedding_dimension": 1024,
+    "low_content_penalty": null,
+    "max_sequence_length": 8192,
+    "maximum_top_k": 100,
+    "neighbor_expansion": false,
+    "normalization": "l2",
+    "pooling": "cls",
+    "qdrant_collection": "tunnelbook_dense_v1",
+    "qdrant_expected_points": 5992,
+    "query_prefix": null,
+    "release_name": "tunnelbook-retriever-v1",
+    "release_version": "1.0.0",
+    "reranker": false,
+    "retriever": "DENSE_V1",
+    "rrf": false,
+    "score_threshold": null,
+    "supported_filters": [
+      "document_id",
+      "language",
+      "document_type",
+      "authority_level",
+      "year",
+      "source_kind",
+      "topics"
+    ]
+  },
+  "search_queries": [
+    "Türkiye'de karayolu tünelleri",
+    "Türkiye'nin en uzun karayolu tünelleri",
+    "Türkiye önemli karayolu tünelleri",
+    "road tunnels in Turkey",
+    "longest road tunnels in Turkey",
+    "Turkish highway tunnels"
+  ],
+  "section_id": "CH-A-S08",
+  "section_state": {
+    "admission_state": null,
+    "citation_mapping": null,
+    "current_readiness": {
+      "basis": "No source content has been validated for this section.",
+      "state": "BLOCKED"
+    },
+    "existing_claims": [],
+    "packet_id": "EP-008",
+    "packet_state": null,
+    "provenance_rules": null,
+    "research_question": "Kaynaklarda Türkiye'deki öne çıkan karayolu tünelleri hangileridir ve bu tünellerin konumu, uzunluğu ve yapım amacı gibi temel özellikleri nasıl aktarılmaktadır?",
+    "research_question_id": "RQ-008-01",
+    "section_id": "CH-A-S08",
+    "section_scope": "Türkiye’de Karayolu Tünelleri",
+    "section_title": "Türkiye’de Karayolu Tünelleri",
+    "source_artifacts": [
+      "config/book_sections.json",
+      "data/book/assets/nontext_asset_policy_registry_v1.json",
+      "data/book/coverage/corpus_to_book_coverage_mapping_v1.json",
+      "data/book/editorial/editorial_mechanics_v1.json",
+      "data/book/evidence_packets/section_evidence_packets_v1.json",
+      "data/book/master_structure/book_master_structure_v1.json",
+      "data/book/prewriting_audit/prewriting_readiness_matrix_v1.json",
+      "data/book/prewriting_external_authority_identity_verification_batch_3_v1/registries/batch_3_claim_relative_suitability_registry_v1.json",
+      "data/book/prewriting_external_evidence_admission_v1/section_research_question_gap_mapping_v1.json",
+      "data/book/prewriting_final_readiness_writing_authorization_audit_v1/evidence_use_tier_registry_v1.json",
+      "data/book/prewriting_final_readiness_writing_authorization_audit_v1/section_readiness_registry_v1.json",
+      "data/book/prewriting_freshness_control_v1/freshness_registry_v1.json",
+      "data/book/prewriting_freshness_control_v1/section_freshness_matrix_v1.json",
+      "data/book/prewriting_repository_authority_evidence_acquisition_batch_2_v1/registries/batch_2_claim_relative_impact_registry_v1.json",
+      "data/book/prewriting_repository_authority_evidence_acquisition_planning_v1/registries/claim_relative_authority_requirement_matrix_v1.json",
+      "data/book/prewriting_repository_authority_status_residual_locator_remediation_v1/registries/orthogonal_claim_status_registry_v1.json",
+      "data/book/prewriting_repository_authority_status_residual_locator_remediation_v1/registries/section_claim_readiness_ledger_v4.json",
+      "data/book/prewriting_repository_authority_status_residual_locator_remediation_v1/registries/targeted_repository_discovery_registry_v3.json",
+      "data/book/prewriting_repository_claim_defect_remediation_v1/registries/remediated_claim_registry_v1.json",
+      "data/book/prewriting_repository_claim_defect_remediation_v1/registries/section_claim_readiness_ledger_v2.json",
+      "data/book/prewriting_repository_claim_defect_remediation_v1/registries/targeted_repository_discovery_registry_v1.json",
+      "data/book/prewriting_repository_claim_extraction_authority_validation_v1/registries/section_claim_readiness_ledger_v1.json",
+      "data/book/prewriting_repository_claim_extraction_authority_validation_v1/registries/unresolved_section_category_registry_v1.json",
+      "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/registries/affected_record_registry_v1.json",
+      "data/book/prewriting_repository_evidence_admission_v1/section_evidence_coverage_ledger_v1.json",
+      "data/book/prewriting_repository_evidence_discovery_admission_remediation_v1/section_evidence_coverage_ledger_v2.json",
+      "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/remediated_claim_registry_v2.json",
+      "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/section_claim_readiness_ledger_v3.json",
+      "data/book/prewriting_repository_source_authority_provenance_anchor_remediation_v1/registries/targeted_repository_discovery_registry_v2.json",
+      "data/book/prewriting_visual_evidence_rights_validation_v1/section_visual_readiness_matrix_v1.json",
+      "data/book/remediation/ch_a_s01/ch_a_s01_candidates.jsonl",
+      "data/book/remediation/ch_a_s01/ch_a_s01_candidates_20260824T072916Z.jsonl",
+      "data/book/remediation/ch_a_s01/ch_a_s01_candidates_20260824T074706Z.jsonl",
+      "data/book/remediation/ch_a_s05/ch_a_s05_candidates.jsonl",
+      "data/book/remediation/ch_a_s05/ch_a_s05_candidates_20260825T210457Z.jsonl",
+      "data/book/remediation/ch_a_s05/ch_a_s05_candidates_20260825T211604Z.jsonl",
+      "data/book/remediation/ch_a_s05/ch_a_s05_candidates_20260825T212728Z.jsonl",
+      "data/book/research/research_question_gap_registry_v1.json"
+    ],
+    "terminology_constraints": null
+  },
+  "section_title": "Türkiye’de Karayolu Tünelleri",
+  "summary": {
+    "candidate_count": 15,
+    "classification_error": null,
+    "generated_at": "2026-08-25T23:08:57.343037+00:00",
+    "limited_claims": 0,
+    "mode": "LOCAL_LLM",
+    "readiness": "READY",
+    "rejected_claims": 4,
+    "strong_claims": 66
+  },
+  "validation": {
+    "frozen_assets_written": false,
+    "outputs_validated": true,
+    "target_only": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "negative": [
+    "filename_as_authority_proof",
+    "institution_body_mention_as_authority_proof",
+    "external_technical_substitution",
+    "unknown_promotion",
+    "legacy_c_d_authority",
+    "support_changed",
+    "partial_provenance_as_complete",
+    "bulk_corpus_scan",
+    "book_prose"
+  ],
+  "positive": [
+    "local_frontmatter_sufficient_ready",
+    "doi_publisher_external_identity_plan",
+    "project_report_type_relative_requirements",
+    "standard_missing_identifier_standards_lookup_plan",
+    "support_count_unchanged"
+  ]
+}

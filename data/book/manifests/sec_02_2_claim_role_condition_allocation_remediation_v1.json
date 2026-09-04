@@ -1,0 +1,28 @@
+{
+  "version": "tunnelbook-sec-02-2-claim-role-condition-allocation-remediation-manifest-v1",
+  "phase": "SEC-02-2 ARCHITECTURE V2.2 CLAIM-ROLE CONDITION ALLOCATION REMEDIATION V1",
+  "status": "CLOSED_GO",
+  "acceptance_contract_sha256": "22f484dbcc09ef834e2fdd64d7acfa554a279de91765c07732e3b81c71d40032",
+  "artifacts": {
+    "acceptance_contract":{"path":"data/book/drafting/sec_02_2/claim_role_condition_closure_v1/contracts/acceptance_contract_v1.json","sha256":"22f484dbcc09ef834e2fdd64d7acfa554a279de91765c07732e3b81c71d40032"},
+    "closure_contract":{"path":"data/book/drafting/sec_02_2/claim_role_condition_closure_v1/contracts/claim_role_condition_closure_contract_v1.json","sha256":"4db24b7e7ad5b7805e34bd9702ec15dd769fef35265800daba0f46845534fb11"},
+    "condition_closed_universe":{"path":"data/book/drafting/sec_02_2/claim_role_condition_closure_v1/contracts/planner_option_universe_v2_2_condition_closed_v1.json","sha256":"2379c0e5df4cba922ae7238669a3dba89e5dc385b384ca4add07ab38d0c0494e"},
+    "acceptance_freeze":{"path":"data/book/drafting/sec_02_2/claim_role_condition_closure_v1/audits/acceptance_freeze_v1.json","sha256":"c1a63c6db859bfa7aa95a19a76d20fab279028bbe3c65dc66d897728400577b1"},
+    "frozen_preflight":{"path":"data/book/drafting/sec_02_2/claim_role_condition_closure_v1/audits/frozen_preflight_v1.json","sha256":"575f629933f104ad004ad1feca2d6f6175e24a906f229622c01de9d3a7d5bc57"},
+    "frozen_postflight":{"path":"data/book/drafting/sec_02_2/claim_role_condition_closure_v1/audits/frozen_postflight_v1.json","sha256":"f2966da684085714b79d463a76a1599b7a78c031192fe2d729da044ee8865c8d"},
+    "fixture_results":{"path":"data/book/drafting/sec_02_2/claim_role_condition_closure_v1/audits/fixture_results_v1.json","sha256":"4efd6681400589ca2b4ffe182567273d9a910f4fab200002781fc3aa4e49f702"},
+    "closure_proof":{"path":"data/book/drafting/sec_02_2/claim_role_condition_closure_v1/audits/closure_proof_v1.json","sha256":"11ee01647e2e16cec0b345eb3d53ea13203242d3d33d8b0de687b48a57373dab"},
+    "p0_008_safe_allocation":{"path":"data/book/drafting/sec_02_2/claim_role_condition_closure_v1/audits/p0_008_safe_allocation_v1.json","sha256":"313870a7c9b026c978680b27b7ca29fc657c8e923d3d8cf9d9649ca8f0208f8a"},
+    "acceptance_results":{"path":"data/book/drafting/sec_02_2/claim_role_condition_closure_v1/audits/acceptance_results_v1.json","sha256":"6435dc587d9db554f71314afb9fa0ad2f42a4fd8b50a6f10c17234b22f3dd6c6"},
+    "fixtures":{"path":"data/book/drafting/sec_02_2/claim_role_condition_closure_v1/fixtures/closure_fixtures_v1.json","sha256":"52e32930d7bec0f73b8e9cd0927515b6340a184883d3f0c4ce69a8ef7f9dd95e"},
+    "allocated_plan":{"path":"data/book/drafting/sec_02_2/claim_role_condition_closure_v1/proof/allocated_role_condition_plan_v1.json","sha256":"5d970495d3e0da96259090ee73e7d6ab07e22c2ba161da30136472a11badc30f"},
+    "implementation":{"path":"scripts/77_claim_role_condition_closure_v1.py","sha256":"1ce0fb117939830ea845e43a2cbb4fe690525b382f6069127211d83f028d4fd8"},
+    "tests":{"path":"tests/test_claim_role_condition_closure_v1.py","sha256":"de06831acda768e6a6c4d54bb2bba1168da067d7ac75fd421e0ab0641c2e5932"},
+    "report":{"path":"reports/sec_02_2_claim_role_condition_allocation_remediation_v1.md","sha256":"9de4e2fdac2538d718eedbe2cdbe98513a3ed3d796d5e0ac9333bbe5de682a01"}
+  },
+  "fixtures": {"positive": 6, "negative": 10, "false_accepts": 0, "false_rejects": 0, "expected_code_mismatches": 0},
+  "tests": {"targeted": 146, "failures": 0},
+  "frozen_integrity": {"artifacts": 21, "drift": 0},
+  "accounting": {"generation": 0, "rendering": 0, "retry": 0, "retrieval": 0, "qdrant_writes": 0, "corpus_wide_reads": 0},
+  "next_phase": "SEC-02-2 ARCHITECTURE V2.2 TECHNICAL + BOOK STYLE INTEGRATION V1 RETRY"
+}

@@ -1,0 +1,58 @@
+# Unified Ingest Engine — master config. All paths resolve through config/paths.json.
+version: 1
+
+local_only: true          # manual ingest: no network egress (§27, §76)
+
+incoming:
+  crawler_releases: incoming/crawler/releases
+  manual_inbox: incoming/manual/inbox
+  quarantine: incoming/quarantine
+
+archive:
+  originals_root: originals
+  processing_root: processing
+
+formats:
+  # Primary requirement (§9)
+  primary: ['.pdf', '.docx', '.pptx', '.xlsx', '.png', '.jpg', '.jpeg']
+  # Additional supported (§9)
+  additional: ['.txt', '.md', '.csv', '.html', '.htm']
+  # Legacy — only if LibreOffice is available (§9)
+  legacy: ['.doc', '.ppt', '.xls', '.rtf']
+
+docling:
+  images_scale: 2.0        # §12 — configurable 1.5–2.0; drop under storage pressure
+  generate_page_images: true
+  generate_picture_images: true
+  generate_table_images: true
+  do_table_structure: true
+  do_ocr: true
+  do_picture_classification: true
+  do_formula_enrichment: false
+  enable_remote_services: false   # never true (§27)
+  document_timeout_seconds: 1800
+
+snapshots:
+  enabled: true
+  scale: 2.0
+  format: png
+
+tables:
+  enabled: true
+  emit_csv: true            # rectangular only
+  emit_json: true           # authoritative (merged cells, OTSL)
+  emit_png: true
+
+charts:
+  # DISABLED after a runtime probe: Docling 2.124.0's do_chart_extraction fabricated a
+  # complete "Bar chart" series table from a plain colour-gradient image. Fabricated data is
+  # a hard stop condition, so structured chart parsing stays off; PPTX/XLSX chart metadata
+  # (deterministic, read from the original package) is still extracted. Set to `true` only
+  # after re-validating the model. (§22)
+  enabled: false
+
+idempotency:
+  force_reprocess: false
+
+quality_gate:
+  secondary_section_min_score: 0.55

@@ -1,0 +1,34 @@
+{
+  "authority_class": "UNKNOWN",
+  "batch_id": "BATCH-01",
+  "document_id": "DOC000038",
+  "external_identity_verification_required": true,
+  "identity_evidence": [
+    {
+      "converted_source_lines": "24",
+      "field": "paper_title",
+      "value": "An Ex-Post Cost - Benefit Analysis of Bolu Mountain Tunnel Project",
+      "zone": "front_matter"
+    },
+    {
+      "converted_source_lines": "26",
+      "field": "authors",
+      "value": "Gaye KOCABAŞ; Barış Serkan KOPURLU",
+      "zone": "front_matter"
+    }
+  ],
+  "inspection_mechanism": "TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION",
+  "missing_fields": [
+    "journal_or_conference",
+    "publication_year",
+    "doi_or_volume_issue_pages"
+  ],
+  "promotion": false,
+  "reason": "Local front matter identifies a paper and authors but not its publication container, date, or stable identifier.",
+  "result": "EXTERNAL_IDENTITY_REQUIRED",
+  "schema_version": "1.0.0",
+  "source_path": "data/markdown_full_docling/Literatür ve Araştırmalar/An Ex-Post Cost - Benefit Analysis of Bolu Mountain__Tunnel Project.md",
+  "source_sha256": "1ec7f89d408eefd1426d55425a491bdb0c6d37d65bc48bdaf504a55dddfa8962",
+  "source_type": "UNKNOWN_SOURCE_TYPE",
+  "sufficiency": "INCOMPLETE"
+}

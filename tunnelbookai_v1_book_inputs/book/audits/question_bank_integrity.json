@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "decision": "PASS",
+  "checks": {
+    "question_bank_sections_expected_59": {
+      "passed": true,
+      "actual": 59
+    },
+    "questions_expected_2950": {
+      "passed": true,
+      "actual": 2950
+    },
+    "exactly_50_questions_per_section": {
+      "passed": true,
+      "issues": []
+    },
+    "question_ids_unique": {
+      "passed": true,
+      "duplicates": []
+    },
+    "question_number_sequences_valid": {
+      "passed": true,
+      "issues": []
+    },
+    "all_questions_map_to_scope": {
+      "passed": true,
+      "orphans": []
+    },
+    "canonical_scope_titles_found_in_source_scope": {
+      "passed": true,
+      "missing": []
+    }
+  },
+  "source_files": {
+    "scope": {
+      "name": "Calisma_Kapsami_Tasarisi_17.10.2025.rtf",
+      "sha256": "59e5e61a044e8985fcef1a0d8206de73e8c34ba49b680f5a9d7c2cc355141ac2"
+    },
+    "question_bank": {
+      "name": "Tunel_Kitabi_Kapsam_Kontrol_Soru_Bankasi.docx",
+      "sha256": "977b899bb2a25665b527eff46913219bd0de044930bff01d5ed394f57a648ab7"
+    }
+  },
+  "notes": [
+    "No missing headings were guessed from ellipsis placeholders in the source scope.",
+    "The normalized question bank is derived from the supplied DOCX without rewriting question text."
+  ]
+}

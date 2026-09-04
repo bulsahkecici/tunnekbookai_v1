@@ -1,0 +1,56 @@
+{
+  "document_id": "DOC000021",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:52:22+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "[Retrieved from \"https://en.wikipedia.org/w/index.php?title=Tunnel&amp;oldid=1042485362\"]",
+      "value": "D"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "[Retrieved from \"https://en.wikipedia.org/w/index.php?title=Tunnel&amp;oldid=1042485362\"]",
+      "value": "web_article"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "[Retrieved from \"https://en.wikipedia.org/w/index.php?title=Tunnel&amp;oldid=1042485362\"]",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "## WIKIPEDIA ## Tunnel",
+      "value": "Tunnel - Wikipedia"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Geotechnical investigation and design|Safety and security|Project planning and cost estimates|Major accidents",
+      "value": [
+        "accident",
+        "collapse",
+        "cost",
+        "excavation",
+        "geotechnical_investigation",
+        "portal",
+        "risk",
+        "safety",
+        "traffic",
+        "water"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": null
+    }
+  },
+  "source_sha256": "3b8ddd107873155e0aeb2cadc12651707e75ab95a0d2855fb4100996fae4955e"
+}

@@ -1,0 +1,17 @@
+{
+  "checkpoint": "CP0 — Repository + State Reconciliation and Pilot Closure",
+  "status": "GO",
+  "acceptance_contract": "data/book/prewriting/cp0_repository_state_reconciliation_v1/contracts/cp0_acceptance_contract_v1.json",
+  "pilot_lifecycle": "VALIDLY_RELEASED_CLOSED",
+  "release_authorisation": "CLOSED / GO",
+  "accepted_draft_sha256": "b63a422850a8791452cd923f40a27901ffa82ca4d5b36d15776f8fb40ba05e12",
+  "technical_draft_reaudit_v3_sha256": "1e73c7adebbe373444b1998e3fedfa3e63936488e6381c923f704a4b6b30e8ed",
+  "state_reconciliation": "PASS",
+  "frozen_integrity": "PASS",
+  "remediation_cycles_used": 0,
+  "blocking_findings": [],
+  "advisories_preserved": 2,
+  "drafting_authorized": false,
+  "book_prose_generated": false,
+  "next_checkpoint": "CP1 — Book Master Structure v1"
+}

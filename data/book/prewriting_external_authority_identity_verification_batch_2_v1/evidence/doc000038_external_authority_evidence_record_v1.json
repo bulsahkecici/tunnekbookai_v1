@@ -1,0 +1,52 @@
+{
+  "admission_status_changed": false,
+  "authority_class": "PEER_REVIEWED",
+  "authority_status": "PEER_REVIEWED",
+  "batch_id": "EXT-BATCH-02",
+  "claim_proposition_changed": false,
+  "claim_relative_applicability": "SUITABLE_FOR_IDENTIFIED_SOURCE_ROLE",
+  "conflict_fields": [],
+  "edition_or_version": "Volume 10, Issue 4, pages 1279-1287",
+  "evidence_provenance": [
+    {
+      "capture_scope": "IDENTITY_AND_AUTHORITY_METADATA_ONLY",
+      "record_role": "OFFICIAL_PUBLISHER_RECORD",
+      "retrieval_date": "2026-08-22",
+      "source_owner": "DergiPark / Ege Academic Review",
+      "url": "https://dergipark.org.tr/en/pub/eab/article/473343"
+    },
+    {
+      "capture_scope": "IDENTITY_AND_AUTHORITY_METADATA_ONLY",
+      "record_role": "INSTITUTIONAL_CORROBORATION",
+      "retrieval_date": "2026-08-22",
+      "source_owner": "Yaşar University AVESIS",
+      "url": "https://avesis.yasar.edu.tr/yayin/a4c00534-cc57-43f8-87db-d5b4c7c5b6f1/an-ex-post-cost-benefit-analaysis-of-bolu-mountain-tunnel-project"
+    }
+  ],
+  "evidence_snapshot": {
+    "kind": "DETERMINISTIC_METADATA_DIGEST",
+    "sha256": "446ddb46db317c1e0ccc250434ed2aa53a278da632597fcaa9ac8444cb0fbdb7"
+  },
+  "external_authors": [
+    "Gaye Kocabaş",
+    "Barış Serkan Kopurlu"
+  ],
+  "external_title": "An Ex-Post Cost - Benefit Analysis of Bolu Mountain Tunnel Project",
+  "identifier": "DOI_NOT_LISTED_ON_PUBLISHER_RECORD",
+  "identity_match_status": "EXACT_IDENTITY_MATCH",
+  "issuing_authority": "Ege Academic Review / DergiPark",
+  "limitations": [
+    "DOI absent from publisher metadata"
+  ],
+  "promotion": true,
+  "publication_or_acceptance_date": "2010-11-01",
+  "queue_identity_matching_keys": [
+    "DOC000038",
+    "1ec7f89d408eefd1426d55425a491bdb0c6d37d65bc48bdaf504a55dddfa8962"
+  ],
+  "schema_version": "1.0.0",
+  "source_id": "DOC000038",
+  "support_status_changed": false,
+  "technical_content_captured": false,
+  "version_match_status": "EXACT_VERSION_DATE_MATCH"
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "DOC000266",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:06:48+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "**RESMİ GAZETE SAYISI: 27159/m.",
+      "value": "A"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Yönetmelik",
+      "value": "regulation"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "Yönetmelik",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "**RESMİ GAZETE SAYISI: 27159/m.",
+      "value": "Resmî Gazete"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "**YAPIM İŞLERİ İHALELERİ UYGULAMA YÖNETMELİĞİ**",
+      "value": "YAPIM İŞLERİ İHALELERİ UYGULAMA YÖNETMELİĞİ"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "**YAPIM İŞLERİ İHALELERİ UYGULAMA YÖNETMELİĞİ**",
+      "value": [
+        "contracts",
+        "regulation"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "**RESMİ GAZETE TARİHİ: 04.03.2009**",
+      "value": 2009
+    }
+  },
+  "source_sha256": "80d2d2c44b4c7dffc21f3228442bf14fd38b9686ad84309a669de4b5c8756f26"
+}

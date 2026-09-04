@@ -1,0 +1,86 @@
+{
+  "artifacts": [
+    {
+      "path": "data/book/prewriting_visual_evidence_rights_validation_v1/contracts/visual_evidence_rights_acceptance_contract_v1.json",
+      "sha256": "a985a5e8acafb52c2dd7c289dc14528d94d513e033372598ae0998a4cc778ebe"
+    },
+    {
+      "path": "data/book/prewriting_visual_evidence_rights_validation_v1/repository_visual_candidate_registry_v1.json",
+      "sha256": "b6222c4e5dc381e519eb998b6a1594f4e1f01223f1e6a427cef7ae2d514e0650"
+    },
+    {
+      "path": "data/book/prewriting_visual_evidence_rights_validation_v1/visual_rights_registry_v1.json",
+      "sha256": "9be37cf11aadb1e6832b5a125c7c5d5f0f6f2d41ad52dbb5d73d1e010ac3f214"
+    },
+    {
+      "path": "data/book/prewriting_visual_evidence_rights_validation_v1/section_visual_readiness_matrix_v1.json",
+      "sha256": "164357a5396025c5356a7ba6c00957ffcfd2e0cb748660824a88dabbc77c3fea"
+    },
+    {
+      "path": "data/book/prewriting_visual_evidence_rights_validation_v1/reconstruction_candidate_registry_v1.json",
+      "sha256": "b2c45a4df7a28392845d3dcbdbe71fb814b0191f09b0334f0c97ea5015072124"
+    },
+    {
+      "path": "data/book/prewriting_visual_evidence_rights_validation_v1/rejected_unknown_visual_candidate_registry_v1.json",
+      "sha256": "a9920fa19f3f8d84c1f1ee368b0af6a8f7b2fc30c96e6dbf0039ebe774b84403"
+    },
+    {
+      "path": "data/book/prewriting_visual_evidence_rights_validation_v1/fixtures/positive_fixtures_v1.json",
+      "sha256": "84be29234ae259e950723e84468094254a6af08009b3e4ff7bc6290d8a32eee3"
+    },
+    {
+      "path": "data/book/prewriting_visual_evidence_rights_validation_v1/fixtures/negative_fixtures_v1.json",
+      "sha256": "195f63fd4a6327bdb2ba13f21616e34fac8177184c66aca3f4efa2d81e7626ba"
+    },
+    {
+      "path": "data/book/prewriting_visual_evidence_rights_validation_v1/visual_evidence_rights_validation_v1_audit.json",
+      "sha256": "f2fb7626c3ef81a1ca45398fbc93ab9927af0b1e51099d78855219e78ac0d047"
+    }
+  ],
+  "book_prose_generated": false,
+  "deterministic_validation": "PASS",
+  "drafting_authorized": false,
+  "frozen_integrity": "PASS",
+  "input_hashes": [
+    {
+      "path": "data/book/master_structure/book_master_structure_v1.json",
+      "sha256": "4001ec372ddbaa3b3fe98a35645458de455771344faa7c039b3eb81df68dbb30"
+    },
+    {
+      "path": "data/book/coverage/corpus_to_book_coverage_mapping_v1.json",
+      "sha256": "5db9f56ac0f46d6ceba4a50ef83700c72500562737a13ffce015d9c7ea1dd901"
+    },
+    {
+      "path": "data/book/research/research_question_gap_registry_v1.json",
+      "sha256": "13ab8e46bfe3f7db4111dcfb67dcc2e138a1aab5e0d820102c2bab0364fcddac"
+    },
+    {
+      "path": "data/book/assets/nontext_asset_policy_registry_v1.json",
+      "sha256": "79c9902abf77550e9ad0cd76f3542ee79eb3cb6b8a0e2e1017ee80f1af0ba3cd"
+    },
+    {
+      "path": "data/book/evidence_packets/section_evidence_packets_v1.json",
+      "sha256": "1659da3ae01a2c9cd34d7d09c4bc6b2e98dc1f3efd24f8959d1ed4f10d6d5929"
+    },
+    {
+      "path": "data/book/source_registry_v1.jsonl",
+      "sha256": "5c9e8fe257375a6afdf589a18ac4baa611c8f80e4f10f85528eda73a2971c766"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_admission_v1/section_evidence_coverage_ledger_v1.json",
+      "sha256": "c8ea3139349c3c5153508fa7e0fa8196cbb52af8faf2f8f520d8f100e6dcb2f8"
+    },
+    {
+      "path": "data/book/prewriting_freshness_control_v1/section_freshness_matrix_v1.json",
+      "sha256": "e28b4313229bcd27bec798ce0789f20d7cc7a2c35ad8ff19e82be6270c50ff1e"
+    },
+    {
+      "path": "data/book/prewriting_audit/prewriting_hash_list_v1.json",
+      "sha256": "d7feb0b87e38ef756296dcf0e5a433f468faccf642d13bae1c2c022908f5f7cf"
+    }
+  ],
+  "next_phase": "PRE-WRITING EXTERNAL EVIDENCE ADMISSION V1",
+  "phase": "PRE-WRITING VISUAL EVIDENCE AND RIGHTS VALIDATION V1",
+  "schema_version": "visual-evidence-rights-validation-manifest-v1",
+  "status": "GO"
+}

@@ -1,0 +1,14 @@
+{
+  "version": "tunnelbook-v2.2-retry-case-scope-hidden-contradictions-v1",
+  "affected_universe": ["SEC-02-2-P0-008/CLAIM_STATEMENT", "SEC-02-2-P0-008/CASE_SCOPE", "shared paragraph U-C-P02"],
+  "contradictions": [
+    {"id": "HC-CS-01", "finding": "The canonical universe proves role-set inclusion but does not prove condition allocation/realizability for each emitted claim-bearing role unit.", "causal": true},
+    {"id": "HC-CS-02", "finding": "Technical remediation and V2.2 require the CASE_SCOPE dependency, but the retry case renderer emits only the term enumeration; the adjacent statement masks this because the dependency is paragraph-scoped.", "causal": false},
+    {"id": "HC-CS-03", "finding": "The new CASE_SCOPE role inherits P0-008 at validation time but was not allocated the canonical unit-scoped In some condition at planning or realization time.", "causal": true}
+  ],
+  "unexamined_related_contradictions": 0,
+  "duplication": "No CONDITION/CASE_SCOPE semantic duplication; the defect is missing unit-condition ownership on the secondary role.",
+  "wrong_case_attachment": false,
+  "style_attachment_change": false,
+  "fallback_span_semantic_change": false
+}

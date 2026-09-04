@@ -1,0 +1,377 @@
+{
+  "available_subset_realizable_holds_for_all": true,
+  "claims_audited": 16,
+  "contradictions": {
+    "form_1_required_role_not_offered": [
+      {
+        "claim_id": "SEC-02-2-C-005",
+        "missing": [
+          "CONDITION"
+        ]
+      }
+    ],
+    "form_2_offered_role_not_realizable": [],
+    "form_3_mandatory_claim_with_no_satisfiable_role_set": [
+      {
+        "claim_id": "SEC-02-2-C-005",
+        "is_required_core": false,
+        "note": "omission would satisfy the rules, but the prompt asked for a complete plan over the listed claims and stated no omission affordance"
+      }
+    ],
+    "form_4_feasibility_excludes_a_pair_the_payload_requires": [
+      {
+        "claim_id": "SEC-02-2-C-005",
+        "note": "gate 5 skipped it; gate 4 listed it; only gate 4 reached the model"
+      }
+    ],
+    "form_5_planner_universe_differs_from_feasibility_universe": []
+  },
+  "invariant": "required_roles ⊆ available_roles ⊆ realizable_roles",
+  "probe_id": "R2_set_consistency",
+  "required_subset_available_violations": [
+    "SEC-02-2-C-005"
+  ],
+  "rows": [
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "REQUIREMENT"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-C-001",
+      "in_feasibility_plan": true,
+      "is_required_core": true,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "REQUIREMENT"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT"
+      ],
+      "required_subset_available": true,
+      "satisfiable": true
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "IDENTITY_SCOPE",
+        "QUALIFIER_SCOPE"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-C-002",
+      "in_feasibility_plan": true,
+      "is_required_core": false,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "IDENTITY_SCOPE",
+        "QUALIFIER_SCOPE"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT",
+        "QUALIFIER_SCOPE"
+      ],
+      "required_subset_available": true,
+      "satisfiable": true
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "REQUIREMENT"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-R001",
+      "in_feasibility_plan": true,
+      "is_required_core": true,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "REQUIREMENT"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT"
+      ],
+      "required_subset_available": true,
+      "satisfiable": true
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "REQUIREMENT"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-P0-001",
+      "in_feasibility_plan": true,
+      "is_required_core": true,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "REQUIREMENT"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT",
+        "CONDITION"
+      ],
+      "required_subset_available": true,
+      "satisfiable": true
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "NUMERIC_CRITERIA",
+        "REQUIREMENT"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-P0-006",
+      "in_feasibility_plan": true,
+      "is_required_core": true,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "NUMERIC_CRITERIA",
+        "REQUIREMENT"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT",
+        "CONDITION"
+      ],
+      "required_subset_available": true,
+      "satisfiable": true
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "REQUIREMENT"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-P0-005",
+      "in_feasibility_plan": true,
+      "is_required_core": false,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "REQUIREMENT"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT"
+      ],
+      "required_subset_available": true,
+      "satisfiable": true
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-P0-004",
+      "in_feasibility_plan": true,
+      "is_required_core": false,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT"
+      ],
+      "required_subset_available": true,
+      "satisfiable": true
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-P0-007",
+      "in_feasibility_plan": true,
+      "is_required_core": true,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT",
+        "CONDITION"
+      ],
+      "required_subset_available": true,
+      "satisfiable": true
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "EXEMPLIFICATION"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-P0-008",
+      "in_feasibility_plan": true,
+      "is_required_core": true,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "EXEMPLIFICATION"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT",
+        "CONDITION"
+      ],
+      "required_subset_available": true,
+      "satisfiable": true
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "REQUIREMENT"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-C-003",
+      "in_feasibility_plan": true,
+      "is_required_core": false,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "REQUIREMENT"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT",
+        "CONDITION"
+      ],
+      "required_subset_available": true,
+      "satisfiable": true
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "NUMERIC_CRITERIA",
+        "REQUIREMENT"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-C-004",
+      "in_feasibility_plan": true,
+      "is_required_core": false,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "NUMERIC_CRITERIA",
+        "REQUIREMENT"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT"
+      ],
+      "required_subset_available": true,
+      "satisfiable": true
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "NUMERIC_CRITERIA",
+        "REQUIREMENT"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-C-005",
+      "in_feasibility_plan": false,
+      "is_required_core": false,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "NUMERIC_CRITERIA",
+        "REQUIREMENT"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT",
+        "CONDITION"
+      ],
+      "required_subset_available": false,
+      "satisfiable": false
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "REQUIREMENT"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-C-007",
+      "in_feasibility_plan": true,
+      "is_required_core": false,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "REQUIREMENT"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT"
+      ],
+      "required_subset_available": true,
+      "satisfiable": true
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "REQUIREMENT"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-C-006",
+      "in_feasibility_plan": true,
+      "is_required_core": false,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "REQUIREMENT"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT",
+        "CONDITION"
+      ],
+      "required_subset_available": true,
+      "satisfiable": true
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-C-012",
+      "in_feasibility_plan": true,
+      "is_required_core": false,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT"
+      ],
+      "required_subset_available": true,
+      "satisfiable": true
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "NUMERIC_CRITERIA",
+        "QUALIFIER_SCOPE",
+        "REQUIREMENT"
+      ],
+      "available_subset_realizable": true,
+      "claim_id": "SEC-02-2-C-009",
+      "in_feasibility_plan": true,
+      "is_required_core": false,
+      "realizable_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "NUMERIC_CRITERIA",
+        "QUALIFIER_SCOPE",
+        "REQUIREMENT"
+      ],
+      "required_roles": [
+        "CLAIM_STATEMENT|REQUIREMENT",
+        "QUALIFIER_SCOPE"
+      ],
+      "required_subset_available": true,
+      "satisfiable": true
+    }
+  ]
+}

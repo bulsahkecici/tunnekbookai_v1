@@ -1,0 +1,1117 @@
+{
+  "accounting": {
+    "attempt_4_authorised": false,
+    "corpus_reads": 0,
+    "frozen_artifacts_modified": [],
+    "generation_attempts": 0,
+    "lexicons_widened": [],
+    "prose_rendered": 0,
+    "qdrant_writes": 0,
+    "retrieval_calls": 0,
+    "validators_weakened": []
+  },
+  "analysed_at": "2026-08-19T22:03:38.441493+00:00",
+  "architecture_verdict": {
+    "architecture_a_verdict": "NOT AN APPROPRIATE SCALABLE DRAFTING ARCHITECTURE",
+    "grounds": [
+      "its containment guarantee is a filter, so the outcome is sampled rather than established",
+      "the sampled rate does not respond to the only lever it offers",
+      "its two requirements trade against each other, and the trade worsens as fidelity improves",
+      "the section-level outcome compounds over composed tokens, so it degrades as sections grow"
+    ],
+    "what_would_have_refuted_this": "a composed-mode containment rate comparable to the reproduced mode's, or a rate that fell materially between attempt #2 and attempt #3. Neither is observed."
+  },
+  "boundary_probes": {
+    "conclusion": "Stage C's verdicts on the composed mode are correct as specified and are not, at the margin, decisions about meaning. Some of the boundary is principled — `kayaç` for `kaya` is a real technical synonym substitution. Some of it is an artifact of which inflections were enumerated and which fields were pooled. Neither the principled nor the accidental part is something a free-form writer can see.",
+    "cross_lingual_asymmetry": {
+      "cases": [
+        {
+          "claim_id": "SEC-02-2-P0-008",
+          "english_form": "specific",
+          "english_form_is_licensed": true,
+          "licensed_turkish_alternatives_in_pool": [
+            "bazı",
+            "belirli"
+          ],
+          "turkish_form": "spesifik",
+          "turkish_form_is_licensed": false
+        },
+        {
+          "claim_id": "SEC-02-2-P0-008",
+          "english_form": "conditions",
+          "english_form_is_licensed": true,
+          "licensed_turkish_alternatives_in_pool": [
+            "koşulları",
+            "koşullarında"
+          ],
+          "turkish_form": "durumlarında",
+          "turkish_form_is_licensed": false
+        },
+        {
+          "claim_id": "SEC-02-2-C-002",
+          "english_form": "gives",
+          "english_form_is_licensed": true,
+          "licensed_turkish_alternatives_in_pool": [],
+          "turkish_form": "sağlar",
+          "turkish_form_is_licensed": false
+        }
+      ],
+      "finding": "For an English-source claim the pool licenses the English surface form and not its Turkish realisation, so the writer is licensed to use words the section's language policy forbids and unlicensed to use the words that policy requires. `sağlar` is the case with no licensed Turkish alternative at all: SEC-02-2-C-002's canonical states the relation with `gives`, and the pool offers no Turkish lexical verb for it — only the copula. The writer's licensed options there were to restructure the sentence around `-dir` or to leave the pool, which is precisely what `licensed_alternative_was_in_hand = true` does not record."
+    },
+    "durum_lexeme_coverage": {
+      "exempt": 3,
+      "finding": "The exemption list covers the forms of this lexeme that were written down, not the lexeme. `durumlarda` is exempt and `durumlarında` is not, which is the entire reason U-C-P01-S03 carries that word in its rejection.",
+      "forms_tested": {
+        "durum": false,
+        "durumda": true,
+        "durumlarda": true,
+        "durumları": false,
+        "durumların": false,
+        "durumlarında": false,
+        "durumu": false,
+        "durumunda": true,
+        "durumundaki": false
+      },
+      "tested": 9
+    },
+    "function_lexicon_size": 124,
+    "matching_regimes": {
+      "consequence": "Turkish inflection defeats the exemption test and is absorbed by the licensing test. A grammatical word is exempt only in the forms someone happened to enumerate.",
+      "content_word_licensing": "five-character prefix agreement against the claim pool",
+      "function_word_exemption": "exact string membership in a 126-entry list"
+    },
+    "pool_contains_record_metadata": {
+      "finding": "The licensed pool is built from every field of the claim record, including English scope evidence and topic prose. It licenses the vocabulary of the record as well as the vocabulary of the claim.",
+      "tokens": [
+        "already",
+        "carried",
+        "claim",
+        "class",
+        "classes",
+        "design",
+        "hence",
+        "manual",
+        "named",
+        "qualifier",
+        "rows",
+        "source",
+        "support",
+        "table",
+        "technical"
+      ]
+    },
+    "probe_id": "P2_P3_containment_boundary",
+    "question": "where does the containment boundary actually fall, and was it placed there?"
+  },
+  "census": {
+    "attempts": [
+      {
+        "attempt": "attempt_1",
+        "material_units": 16,
+        "modes": {
+          "composed": {
+            "containment_failure_rate_per_content_token": null,
+            "content_tokens": 0,
+            "failing_unit_count": 0,
+            "unit_count": 0,
+            "unit_pass_rate": null,
+            "units": [],
+            "unlicensed_token_count": 0,
+            "unlicensed_tokens": []
+          },
+          "reproduced": {
+            "containment_failure_rate_per_content_token": 0.0,
+            "content_tokens": 184,
+            "failing_unit_count": 0,
+            "unit_count": 16,
+            "unit_pass_rate": 1.0,
+            "units": [
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-001"
+                ],
+                "content_token_count": 10,
+                "unit_id": "U-A-P01-S02",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-002"
+                ],
+                "content_token_count": 20,
+                "unit_id": "U-A-P01-S03",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-R001"
+                ],
+                "content_token_count": 7,
+                "unit_id": "U-B-P01-S02",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-001"
+                ],
+                "content_token_count": 7,
+                "unit_id": "U-B-P01-S03",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-006"
+                ],
+                "content_token_count": 14,
+                "unit_id": "U-B-P01-S04",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-005"
+                ],
+                "content_token_count": 18,
+                "unit_id": "U-B-P01-S05",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-004"
+                ],
+                "content_token_count": 9,
+                "unit_id": "U-B-P01-S06",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-007"
+                ],
+                "content_token_count": 7,
+                "unit_id": "U-C-P01-S02",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-008"
+                ],
+                "content_token_count": 11,
+                "unit_id": "U-C-P01-S03",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-003"
+                ],
+                "content_token_count": 7,
+                "unit_id": "U-C-P01-S04",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-004"
+                ],
+                "content_token_count": 10,
+                "unit_id": "U-C-P01-S05",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-005"
+                ],
+                "content_token_count": 11,
+                "unit_id": "U-C-P01-S06",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-007"
+                ],
+                "content_token_count": 8,
+                "unit_id": "U-C-P01-S07",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-006"
+                ],
+                "content_token_count": 16,
+                "unit_id": "U-D-P01-S02",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-012"
+                ],
+                "content_token_count": 14,
+                "unit_id": "U-D-P01-S03",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-009"
+                ],
+                "content_token_count": 15,
+                "unit_id": "U-D-P01-S04",
+                "unlicensed": []
+              }
+            ],
+            "unlicensed_token_count": 0,
+            "unlicensed_tokens": []
+          }
+        },
+        "raw_path": "data/book/drafting/sec_02_2/raw/sec_02_2_draft_raw_v1.json",
+        "raw_sha256": "e0f4759acde56d27fd40565cdf9efcdc003c33b48e85a31ad6b87c943d4d8b4a",
+        "writer_config": {
+          "finish_reason": "stop",
+          "model_id": "qwen3.6-35b-a3b-mlx",
+          "seed": 11,
+          "system_prompt_version": null,
+          "temperature": 0.0
+        }
+      },
+      {
+        "attempt": "attempt_2",
+        "material_units": 16,
+        "modes": {
+          "composed": {
+            "containment_failure_rate_per_content_token": 0.0769,
+            "content_tokens": 26,
+            "failing_unit_count": 1,
+            "unit_count": 2,
+            "unit_pass_rate": 0.5,
+            "units": [
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-007"
+                ],
+                "content_token_count": 13,
+                "unit_id": "U-C-P01-S01",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-008"
+                ],
+                "content_token_count": 13,
+                "unit_id": "U-C-P01-S02",
+                "unlicensed": [
+                  "kayaç",
+                  "spesifik"
+                ]
+              }
+            ],
+            "unlicensed_token_count": 2,
+            "unlicensed_tokens": [
+              "kayaç",
+              "spesifik"
+            ]
+          },
+          "reproduced": {
+            "containment_failure_rate_per_content_token": 0.0,
+            "content_tokens": 166,
+            "failing_unit_count": 0,
+            "unit_count": 14,
+            "unit_pass_rate": 1.0,
+            "units": [
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-001"
+                ],
+                "content_token_count": 10,
+                "unit_id": "U-A-P01-S01",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-002"
+                ],
+                "content_token_count": 20,
+                "unit_id": "U-A-P01-S02",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-R001"
+                ],
+                "content_token_count": 7,
+                "unit_id": "U-B-P01-S01",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-001"
+                ],
+                "content_token_count": 7,
+                "unit_id": "U-B-P01-S02",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-006"
+                ],
+                "content_token_count": 14,
+                "unit_id": "U-B-P01-S03",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-005"
+                ],
+                "content_token_count": 18,
+                "unit_id": "U-B-P01-S04",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-004"
+                ],
+                "content_token_count": 9,
+                "unit_id": "U-B-P01-S05",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-003"
+                ],
+                "content_token_count": 7,
+                "unit_id": "U-C-P01-S03",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-004"
+                ],
+                "content_token_count": 10,
+                "unit_id": "U-C-P01-S04",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-005"
+                ],
+                "content_token_count": 11,
+                "unit_id": "U-C-P01-S05",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-007"
+                ],
+                "content_token_count": 8,
+                "unit_id": "U-C-P01-S06",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-006"
+                ],
+                "content_token_count": 16,
+                "unit_id": "U-D-P01-S01",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-012"
+                ],
+                "content_token_count": 14,
+                "unit_id": "U-D-P01-S02",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-009"
+                ],
+                "content_token_count": 15,
+                "unit_id": "U-D-P01-S03",
+                "unlicensed": []
+              }
+            ],
+            "unlicensed_token_count": 0,
+            "unlicensed_tokens": []
+          }
+        },
+        "raw_path": "data/book/drafting/sec_02_2/remediation_v1/raw/sec_02_2_draft_raw_attempt_2.json",
+        "raw_sha256": "e1bb7a9ce0387a0e46271e12852210bed63bc3fad0f00d3594e020f59729534f",
+        "writer_config": {
+          "finish_reason": "stop",
+          "model_id": "qwen3.6-35b-a3b-mlx",
+          "seed": 11,
+          "system_prompt_version": "tunnelbook-section-drafting-system-prompt-v1.1",
+          "temperature": 0.0
+        }
+      },
+      {
+        "attempt": "attempt_3",
+        "material_units": 18,
+        "modes": {
+          "composed": {
+            "containment_failure_rate_per_content_token": 0.0755,
+            "content_tokens": 53,
+            "failing_unit_count": 2,
+            "unit_count": 4,
+            "unit_pass_rate": 0.5,
+            "units": [
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-002"
+                ],
+                "content_token_count": 19,
+                "unit_id": "U-A-P01-S03",
+                "unlicensed": [
+                  "ifade",
+                  "sağlar"
+                ]
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-007"
+                ],
+                "content_token_count": 13,
+                "unit_id": "U-C-P01-S02",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-008"
+                ],
+                "content_token_count": 15,
+                "unit_id": "U-C-P01-S03",
+                "unlicensed": [
+                  "durumlarında",
+                  "örneğin"
+                ]
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-009"
+                ],
+                "content_token_count": 6,
+                "unit_id": "U-D-P01-S05",
+                "unlicensed": []
+              }
+            ],
+            "unlicensed_token_count": 4,
+            "unlicensed_tokens": [
+              "ifade",
+              "sağlar",
+              "durumlarında",
+              "örneğin"
+            ]
+          },
+          "reproduced": {
+            "containment_failure_rate_per_content_token": 0.0,
+            "content_tokens": 166,
+            "failing_unit_count": 0,
+            "unit_count": 14,
+            "unit_pass_rate": 1.0,
+            "units": [
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-001"
+                ],
+                "content_token_count": 10,
+                "unit_id": "U-A-P01-S02",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-002"
+                ],
+                "content_token_count": 20,
+                "unit_id": "U-A-P01-S04",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-R001"
+                ],
+                "content_token_count": 7,
+                "unit_id": "U-B-P01-S02",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-001"
+                ],
+                "content_token_count": 7,
+                "unit_id": "U-B-P01-S03",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-006"
+                ],
+                "content_token_count": 14,
+                "unit_id": "U-B-P01-S04",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-005"
+                ],
+                "content_token_count": 18,
+                "unit_id": "U-B-P01-S05",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-P0-004"
+                ],
+                "content_token_count": 9,
+                "unit_id": "U-B-P01-S06",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-003"
+                ],
+                "content_token_count": 7,
+                "unit_id": "U-C-P01-S04",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-004"
+                ],
+                "content_token_count": 10,
+                "unit_id": "U-C-P01-S05",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-005"
+                ],
+                "content_token_count": 11,
+                "unit_id": "U-C-P01-S06",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-007"
+                ],
+                "content_token_count": 8,
+                "unit_id": "U-C-P01-S07",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-006"
+                ],
+                "content_token_count": 16,
+                "unit_id": "U-D-P01-S02",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-012"
+                ],
+                "content_token_count": 14,
+                "unit_id": "U-D-P01-S03",
+                "unlicensed": []
+              },
+              {
+                "claim_ids": [
+                  "SEC-02-2-C-009"
+                ],
+                "content_token_count": 15,
+                "unit_id": "U-D-P01-S04",
+                "unlicensed": []
+              }
+            ],
+            "unlicensed_token_count": 0,
+            "unlicensed_tokens": []
+          }
+        },
+        "raw_path": "data/book/drafting/sec_02_2/attempt_3/raw/sec_02_2_draft_raw_attempt_3.json",
+        "raw_sha256": "7b33b8a182d1ec3c4a278758dfae5bcd993768efa16640f25f9947d719965fdd",
+        "writer_config": {
+          "finish_reason": "stop",
+          "model_id": "qwen3.6-35b-a3b-mlx",
+          "seed": 11,
+          "system_prompt_version": "tunnelbook-section-drafting-system-prompt-v1.1",
+          "temperature": 0.0
+        }
+      }
+    ],
+    "findings": {
+      "composed_mode_fails_at_a_stable_rate": [
+        null,
+        0.0769,
+        0.0755
+      ],
+      "composed_unit_count_rose_under_remediation": true,
+      "composed_unit_count_trend": [
+        0,
+        2,
+        4
+      ],
+      "mean_content_tokens_per_composed_unit": 13.17,
+      "reproduced_mode_never_fails_containment": true,
+      "scaling_projection": [
+        {
+          "composed_units": 2,
+          "expected_clean_section_probability": 0.125037
+        },
+        {
+          "composed_units": 4,
+          "expected_clean_section_probability": 0.015634
+        },
+        {
+          "composed_units": 8,
+          "expected_clean_section_probability": 0.000244
+        },
+        {
+          "composed_units": 16,
+          "expected_clean_section_probability": 0.0
+        },
+        {
+          "composed_units": 32,
+          "expected_clean_section_probability": 0.0
+        }
+      ]
+    },
+    "interpretation": "Containment failure is a property of the composed mode, not of the writer's diligence in a given attempt. Three attempts produced 516 content tokens by reproduction with 0 unlicensed, and 79 by composition with 6 unlicensed. Plan v1.2 closed every fidelity cause and moved the composed-mode rate from 0.0769 to 0.0755. Because a qualifier whose vocabulary its canonical sentence lacks is unreachable by reproduction, each fidelity fix converts reproduced units into composed ones: the composed-unit count went [0, 2, 4]. Fidelity and containment are not two independent defects being fixed in turn; under this architecture one is paid for with the other.",
+    "method": "classify every material unit of every preserved attempt as reproduced or composed, then count containment outcomes separately for each mode using the frozen validator's own pure functions",
+    "probe_id": "P1_realization_mode_census",
+    "question": "does containment failure depend on how a unit was produced?",
+    "totals": {
+      "composed": {
+        "content_tokens": 79,
+        "failing": 3,
+        "failure_rate_per_content_token": 0.0759,
+        "unit_pass_rate": 0.5,
+        "units": 6,
+        "unlicensed": 6
+      },
+      "reproduced": {
+        "content_tokens": 516,
+        "failing": 0,
+        "failure_rate_per_content_token": 0.0,
+        "unit_pass_rate": 1.0,
+        "units": 44,
+        "unlicensed": 0
+      }
+    },
+    "version": "tunnelbook-sec-02-2-drafting-approach-rethink-v1"
+  },
+  "comparison_matrix": {
+    "evaluated_against": [
+      "containment guarantee — construction or filter",
+      "measured failure rate on the three-attempt evidence",
+      "response to the levers the architecture offers",
+      "scaling to a section, a chapter, a book",
+      "whether it weakens stage C, stated plainly",
+      "prose quality, measured against what the current architecture actually produces"
+    ],
+    "options": [
+      {
+        "containment_guarantee": "none; filter after the fact",
+        "cost_to_continue": "one generation per attempt, unbounded",
+        "id": "A",
+        "measured_composed_failure_rate": 0.0759,
+        "name": "current — free-form Turkish prose + strict claim-bound lexical containment",
+        "prose_quality": "high where composed",
+        "responds_to_instruction": "no — rate moved 0.0769 to 0.0755 under a correctly implemented remediation",
+        "scaling": "P(clean section) ≈ 0.015634 at 4 composed units, 0.0 at 16",
+        "verdict": "REJECTED — not scalable; the failure rate is invariant under the only lever the architecture offers",
+        "weakens_stage_c": false
+      },
+      {
+        "containment_guarantee": "none; the same filter with a larger accept set",
+        "cost_to_continue": "per-word adjudication forever",
+        "id": "B",
+        "measured_composed_failure_rate": "unchanged mechanism; lowers observed rate by moving the boundary",
+        "name": "expanded function / paraphrase lexicon",
+        "prose_quality": "high",
+        "responds_to_instruction": "not applicable",
+        "scaling": "unbounded. Six new words after two attempts with no saturation evidence, and Turkish morphology multiplies every lemma: the exemption list covers 3 of 9 tested forms of the single lexeme `durum`, in a list of 124 entries",
+        "verdict": "REJECTED — explicitly weakens the validator, and cannot be bounded",
+        "weakening_stated_plainly": "This option works by making stage C more permissive. `sağlar` and `ifade` are relationship-bearing; a global exemption for them makes stage C accept 'püskürtme beton gerekli dayanımı sağlar' — an unsupported performance assertion — in any unit of any section, because the exemption mechanism cannot see which slot a word fills. That is a loosening in the direction the stage exists to block.",
+        "weakens_stage_c": true
+      },
+      {
+        "containment_guarantee": "yes, within a template; none for text outside one",
+        "cost_to_continue": "hand-authored frames per claim, re-authored per section",
+        "id": "C",
+        "measured_composed_failure_rate": "0 for framed spans",
+        "name": "controlled claim-specific realization templates",
+        "prose_quality": "formulaic and repetitive; no cohesion mechanism",
+        "responds_to_instruction": "not applicable",
+        "scaling": "authoring cost is claims × rhetorical roles, per section. SEC-02-2 alone allowlists 27 claims. Templates are section-local and do not compose.",
+        "verdict": "VIABLE BUT SUBSUMED — this is D's renderer with a hand-written, non-compositional grammar and no separation of concerns",
+        "weakens_stage_c": false
+      },
+      {
+        "containment_guarantee": "by construction. The renderer's output alphabet is the licensed pool plus a frozen closed grammatical scaffold, which is a static property provable over all plans",
+        "cost_to_continue": "build cost: plan IR contract, per-claim realization contract, renderer, Turkish suffixation, static containment proof",
+        "id": "D",
+        "measured_composed_failure_rate": "0 by construction; the reproduced mode's 0 / 516 generalised to the composed slots",
+        "name": "structured semantic plan (LLM) + deterministic surface renderer",
+        "prose_quality": "formulaic. Measured against the status quo the loss is small: 44 of 50 material units across the three attempts are already verbatim reproduction",
+        "responds_to_instruction": "not applicable — containment stops being a behaviour",
+        "scaling": "realization data is per claim and reusable across sections; the renderer and the morphology are written once",
+        "stage_c_relationship": "unchanged and still running, demoted to a regression check that should now be unfailable — which is the correct relationship between a construction guarantee and a filter",
+        "verdict": "SELECTED",
+        "weakens_stage_c": false
+      }
+    ],
+    "probe_id": "architecture_comparison_matrix_v1",
+    "selected": "D"
+  },
+  "decision": {
+    "authorises": "contracts, renderer and tests only. No prose generation is authorised by this decision.",
+    "consequences": {
+      "accepted": [
+        "Prose becomes formulaic. For a technical standards book this is acceptable, and 78% of current output is already verbatim source sentences.",
+        "A renderer and Turkish suffixation must be built and tested before any prose.",
+        "Realization data must be authored per claim, reusable across sections."
+      ],
+      "gained": [
+        "Containment becomes a static property provable without generating anything.",
+        "A failed unit becomes a renderer bug with a deterministic repro, not a sample.",
+        "Numerics, units, qualifiers, conditions, modality and citations stop being things a writer might drop."
+      ],
+      "risks": [
+        "Expressiveness. If the plan IR cannot express a needed rhetorical move, the renderer cannot produce it, and the failure is visible at contract time rather than in prose. This is the intended direction of failure.",
+        "Morphology. Turkish suffixation with vowel harmony and consonant mutation must be correct or the prose is ungrammatical. Bounded and unit-testable.",
+        "Renderer error becomes systematic rather than sporadic. Mitigated by the static containment proof and by stage C still running unchanged."
+      ]
+    },
+    "context": "Three controlled pilot attempts under free-form Turkish generation with claim-bound lexical containment were rejected. Attempt #3 closed every cause attempt #2 failed on — qualifiers 0/2 to 2/2 realised, conditions 100%, language 100%, required topics 3/3, citation coverage 100% — and was rejected on containment alone.",
+    "date": "2026-08-19T22:03:38.441369+00:00",
+    "decided_on": {
+      "invariance_evidence": "The composed-mode rate did not respond to the one lever architecture A offers. Plan v1.2 was implemented exactly as analysis v2 specified and the rate went 0.0769 to 0.0755.",
+      "primary_evidence": "Reproduced units: 516 content tokens, 0 unlicensed, across all three attempts. Composed units: 79 content tokens, 6 unlicensed. The containment outcome is determined by production mode, and reproduction's guarantee comes from the tokens being drawn from the pool by construction rather than sampled and filtered.",
+      "tension_evidence": "Composed units rose [0, 2, 4] across the attempts, because fidelity fixes are only reachable by composition. Under A, fidelity is bought with containment exposure.",
+      "volume_evidence": "44 of 50 material units are already produced by verbatim reproduction. Free generation supplies a minority of the volume and all of the risk."
+    },
+    "decision": "Adopt architecture D. The LLM emits a structured semantic plan and no prose. A deterministic renderer produces every surface form.",
+    "does_not_authorise": [
+      "attempt #4 — the identifier is retired; nothing may bear it",
+      "any generation under architecture A",
+      "rendering, retrieval, Qdrant writes or corpus reads",
+      "modification of any validator, lexicon, gloss, allowlist, plan or preserved attempt"
+    ],
+    "id": "ADR-001",
+    "not_decided_on": [
+      "Not selected because a phase brief proposed it. The brief lists four readings and requires the evidence to choose; the census chooses, and it would have selected A had the composed and reproduced rates been comparable.",
+      "Not selected on a claim that the writer is inadequate. CF-01 records that all three attempts used one writer and that reading 4 is untested.",
+      "Not selected to make validation easier. Stage C is unchanged and every rejection code is retained; the renderer must pass the validator that rejected all three attempts."
+    ],
+    "phase": "SEC-02-2 DRAFTING APPROACH RETHINK V1",
+    "refined_cause_class": "ARCHITECTURAL — UNCONSTRAINED_SURFACE_REALIZATION",
+    "rejected_alternatives": {
+      "A": "REJECTED — not scalable; the failure rate is invariant under the only lever the architecture offers",
+      "B": "REJECTED — explicitly weakens the validator, and cannot be bounded",
+      "C": "VIABLE BUT SUBSUMED — this is D's renderer with a hand-written, non-compositional grammar and no separation of concerns"
+    },
+    "status": "ACCEPTED",
+    "supersedes_inference": "`licensed_alternative_was_in_hand = true` was taken to show the writer made an avoidable choice, and therefore that the unlicensed word was semantically harmless and the defect was the writer's diligence.",
+    "title": "SEC-02-2 drafting architecture v2 — structured plan plus deterministic renderer"
+  },
+  "frozen_inputs": {
+    "sha256": {
+      "attempt_1_audit": "6abe42f8e8e2b8874671e98b343a5c557185f494bee899d6f364c22a161b88c5",
+      "attempt_1_raw": "e0f4759acde56d27fd40565cdf9efcdc003c33b48e85a31ad6b87c943d4d8b4a",
+      "attempt_2_failure_analysis_v2": "b5737b3150eaf83d6c4208805f063db87e376a800b3660eae16dc06c65f79f87",
+      "attempt_2_raw": "e1bb7a9ce0387a0e46271e12852210bed63bc3fad0f00d3594e020f59729534f",
+      "attempt_2_rejection": "6e6666dc396dc9fc65f64b51a4873f29b74ad96c0779fd11bc63018e7a495f2c",
+      "attempt_3_raw": "7b33b8a182d1ec3c4a278758dfae5bcd993768efa16640f25f9947d719965fdd",
+      "attempt_3_rejection": "55ed11b431dbf5132a8b9343d594087cb533fc2fa84fdc5a750d391c133c171e",
+      "draft_plan_v1": "3c9584ad275471da7c4902b30fce1f08144fa2877df251289c4b17d6da964670",
+      "draft_plan_v1_1": "0bd56f45a779f0fd12fda404b0f641a57219898a2277f3a2a29ff2f02d027bd5",
+      "draft_plan_v1_2": "951ab44b89de8f498252d325d7440f23c2ca544f7b91ed1757cde997d07df629",
+      "draft_qualifier_semantics_v1": "392cb05d0afd9959ace1942150bdb2db2ea4bbbe3f4a469674c882956b10ba7b",
+      "draft_validator_v1": "a72406aafdd40a266ad3ce9c3c886036a0d30cec5b4cf73c17e58de2f83a44e0",
+      "draft_validator_v1_1": "5adb41329da31c28722465d6d0613ee2dfacca6161a8f89038fe7d7b258d3713",
+      "draft_validator_v1_2": "0b0c870466668e4bb7b8e608d12358517eff6f4e019b9c8081426bff22cbfd7f",
+      "section_drafting_contract_v1": "f1fffd9c93d3bcba8e4f67f2fbd666e9b113fd9a783d207ada00cfd5fa68d7bc"
+    }
+  },
+  "migration_plan": {
+    "deferred_findings": [
+      {
+        "direction": "a morphology-aware exemption test would place the boundary where it was meant to be, without admitting relationship-bearing words",
+        "finding": "Function-word exemption is exact string membership over an agglutinative language; `durumlarda` is exempt and `durumlarında` is not.",
+        "id": "DF-02",
+        "reason_not_actioned": "this phase widens nothing, and under architecture D the renderer inflects licensed stems rather than selecting surface forms, so the defect stops being reachable. It remains a real defect in the validator and is recorded, not fixed"
+      },
+      {
+        "direction": "pool construction could be restricted to claim-bearing fields",
+        "finding": "The licensed pool is built from every field of the claim record and so contains English record metadata; it licenses `specific` and not `spesifik` for a Turkish section.",
+        "id": "DF-03",
+        "reason_not_actioned": "narrowing the pool is a tightening, not a loosening, but it is still a validator change and this phase makes none"
+      },
+      {
+        "direction": "if architecture D's build ever stalls, a writer comparison under architecture A is the cheapest remaining experiment",
+        "finding": "All three attempts used one writer at temperature 0.0, seed 11. Reading 4 of the phase brief is untested, not refuted.",
+        "id": "CF-01",
+        "reason_not_actioned": "it costs a generation, and the decision does not depend on it"
+      }
+    ],
+    "llm_explicitly_not_responsible_for": [
+      "any surface word",
+      "numeric rendering",
+      "unit symbols",
+      "qualifier wording",
+      "condition wording",
+      "modality",
+      "citation strings",
+      "morphology"
+    ],
+    "llm_responsibility": [
+      "which claims to draft and which to omit",
+      "order of claims within a paragraph and of paragraphs within a subsection",
+      "rhetorical role assignment per slot — identity, requirement, qualifier, condition, exemplification, scope limitation",
+      "whether a qualifier gets its own unit or rides with its claim",
+      "paragraph and subsection grouping, and topic coverage"
+    ],
+    "new_artifacts": [
+      {
+        "fail_closed_property": "no free-text field anywhere in the IR. A plan carrying prose is rejected at parse, before rendering",
+        "id": "M1",
+        "kind": "contract",
+        "name": "draft_plan_ir_contract_v2",
+        "purpose": "the symbolic structure the LLM emits: an ordered list of typed slots — claim id, rhetorical role, which conditions and qualifiers to realise, citation intent, paragraph and subsection grouping"
+      },
+      {
+        "id": "M2",
+        "kind": "contract",
+        "name": "claim_realization_contract_v2",
+        "purpose": "per-claim frozen realization data: canonical form, role-to-frame bindings, approved condition renderings, registered qualifier constructions, numeric and unit rendering, citation binding",
+        "reuses": [
+          "translation_glosses",
+          "draft_qualifier_semantics_v1",
+          "cross_lingual_condition_mappings_v1"
+        ]
+      },
+      {
+        "id": "M3",
+        "kind": "module",
+        "name": "turkish_morphology_v2",
+        "purpose": "deterministic suffixation — vowel harmony, buffer consonants, k/ğ and p/b mutation — so the renderer can inflect licensed stems instead of selecting inflected surface forms"
+      },
+      {
+        "id": "M4",
+        "invariant": "output alphabet is a subset of the declared claims' licensed pool plus a frozen closed grammatical scaffold",
+        "kind": "module",
+        "name": "deterministic_surface_renderer_v2",
+        "purpose": "plan IR to Turkish prose. A pure function. No model call."
+      },
+      {
+        "id": "M5",
+        "kind": "test harness",
+        "name": "static_containment_proof_v2",
+        "purpose": "enumerate every claim by every rhetorical role the contract admits, render each, and assert zero failures from validator v1.2 stages A through L — without generating anything"
+      }
+    ],
+    "out_of_scope": [
+      "attempt #4 — retired identifier",
+      "any prose generation in the implementation phase",
+      "SEC-02-1, SEC-02-3, other sections, whole-book bibliography",
+      "rendering or release of anything",
+      "human technical review"
+    ],
+    "principle": "Contracts and renderer and tests first. The implementation phase produces no prose, and the first prose under the new architecture is named ARCHITECTURE V2 PILOT #1, never attempt #4.",
+    "renderer_responsibility": [
+      "factual surface realization from licensed stems",
+      "numeric rendering with the unit its source uses",
+      "qualifier realization against registered constructions",
+      "condition realization against approved renderings",
+      "modality — every requirement verb comes from a frozen scaffold",
+      "citation binding through Book Citation Rendering Contract v1",
+      "Turkish morphology"
+    ],
+    "sequence": [
+      "M1 and M2 authored and frozen, with fixtures, before any renderer code",
+      "M3 with morphology unit tests",
+      "M4 against M1/M2, no model in the loop",
+      "M5 as the gate: static containment proof over the full enumeration",
+      "regression: the preserved attempts' accepted units must remain acceptable, and every rejected unit must remain rejected under the unchanged validator",
+      "only then may a later phase authorise ARCHITECTURE V2 PILOT #1 on its own evidence"
+    ],
+    "target_phase": "SEC-02-2 DRAFTING ARCHITECTURE V2 IMPLEMENTATION",
+    "unchanged_and_frozen": [
+      "corpus, normalized documents, chunks, embeddings",
+      "Retriever v1, Context v1, Prompt v5, Output Contract v1.1",
+      "Production Grounded Generator v1, Evidence Note Contract v1, Book Pipeline v1",
+      "Extractor v1.1, P0 artifacts, SEC-02-2 readiness and composition-safety artifacts",
+      "composition-safe allowlist, composition denylist, pair constraints",
+      "function lexicon, paraphrase lexicon, translation glosses",
+      "Section Drafting Contract v1, Book Citation Rendering Contract v1",
+      "Draft Validator v1, v1.1, v1.2 — every stage, every rejection code",
+      "draft plans v1, v1.1, v1.2",
+      "preserved attempts #1, #2, #3 and every audit and rejection record",
+      "DQS-C009-001 and the qualifier semantics registry"
+    ],
+    "version": "tunnelbook-sec-02-2-drafting-approach-rethink-v1"
+  },
+  "phase": "SEC-02-2 DRAFTING APPROACH RETHINK V1",
+  "refined_cause": {
+    "boundary_consequence": "Stage C's verdicts on the composed mode are correct as specified and are not, at the margin, decisions about meaning. Some of the boundary is principled — `kayaç` for `kaya` is a real technical synonym substitution. Some of it is an artifact of which inflections were enumerated and which fields were pooled. Neither the principled nor the accidental part is something a free-form writer can see.",
+    "classification_consequence": "No single remedy addresses the set. A lexicon entry that admits `durumlarında` correctly admits `sağlar` incorrectly, because the exemption mechanism cannot see which slot a word fills.",
+    "confound_recorded": {
+      "consequence": "Reading 4 of the phase brief — the approach is sound and the writer is not — is UNTESTED by this evidence, not refuted. Nothing here shows a stronger writer would fail.",
+      "finding": "All three attempts used the same writer: qwen3.6-35b-a3b-mlx, temperature 0.0, seed 11. The three attempts varied the instructions, never the writer.",
+      "id": "CF-01",
+      "why_it_does_not_change_the_decision": "The architectural argument does not require reading 4 to be false. A better writer lowers the per-token rate; it does not make the rate zero, and the section-level outcome compounds over every composed token. Nor does a better writer see the boundary: the `durumlarda` / `durumlarında` line is invisible to any writer, however strong, because it is an artifact of which forms were enumerated. Selecting on 'a better model might be enough' is an unbounded bet whose cost is one generation per test."
+    },
+    "contributing_causes": [
+      {
+        "accounts_for": "all 6 unlicensed tokens across attempts #2 and #3",
+        "class": "GENERATOR_UNCONSTRAINED",
+        "detail": "Free-form generation has no mechanism by which an exposed vocabulary becomes a restriction. Prompting raises the probability of licensed forms; it does not bound the output alphabet.",
+        "id": "RC-01",
+        "weight": "primary"
+      },
+      {
+        "accounts_for": "`durumlarında` specifically; 1 of 6 observed tokens",
+        "class": "CONTAINMENT_BOUNDARY_MORPHOLOGY",
+        "detail": "Function-word exemption is exact string membership over an agglutinative language, so a grammatical word is exempt only in enumerated forms. Provable: `durumlarda` is exempt, `durumlarında` is not, and they are the same lexeme.",
+        "id": "RC-02",
+        "note": "A real defect, and not the cause of the rejections. Fixing it alone leaves 5 of 6 tokens unaddressed.",
+        "weight": "contributory"
+      },
+      {
+        "accounts_for": "the trend across attempts",
+        "class": "STRUCTURAL_TENSION_FIDELITY_VS_CONTAINMENT",
+        "detail": "A qualifier whose vocabulary its canonical sentence lacks is unreachable by reproduction, so every fidelity fix converts a reproduced unit into a composed one. Composed units went [0, 2, 4]. The architecture charges for fidelity in containment exposure.",
+        "id": "RC-03",
+        "weight": "aggravating"
+      }
+    ],
+    "refined_cause_class": "ARCHITECTURAL — UNCONSTRAINED_SURFACE_REALIZATION",
+    "statement": "Claim-bound lexical containment is a closed-set membership test applied to the output of an open-set generator. The licensed pool is a filter downstream of generation, never a constraint on it, so the containment outcome of any composed sentence is a sample from the writer's surface-form distribution rather than a property the architecture establishes. The three attempts measure that sample: 6 unlicensed tokens in 79 composed content tokens, against 0 in 516 reproduced ones. Reproduction succeeds because it is not sampling — the tokens come from the pool by construction. That is the whole difference between the two modes, and it is a difference in architecture.",
+    "superseded_inference": {
+      "inference": "`licensed_alternative_was_in_hand = true` was taken to show the writer made an avoidable choice, and therefore that the unlicensed word was semantically harmless and the defect was the writer's diligence.",
+      "status": "INSUFFICIENT",
+      "why_insufficient": [
+        "It conflates the existence of a licensed string with semantic equivalence between it and the unlicensed one. `durumlarında` and the exempt `durumlarda` are one morpheme apart and mean the same thing. `ifade eder` and the qualifier's `-dir` are a modality apart and do not. The same flag was attached to both, so the flag distinguishes nothing.",
+        "It reasons from availability to reachability. The pool was exposed to the writer verbatim, as analysis v2 specified, and nothing in free-form generation makes an exposed vocabulary a constraint on the next token. Showing a writer the licensed words does not remove the unlicensed ones from its output space.",
+        "It made a testable prediction — better instructions would close the class — and plan v1.2 tested it. The remediation was implemented exactly, every fidelity cause closed, and the composed-mode containment rate moved from 0.0769 to 0.0755. The prediction failed.",
+        "For one of the four words it is not even true. `sağlar` renders the relation SEC-02-2-C-002's own canonical states as `gives`, and that claim's pool contains no Turkish lexical verb for it — only the copula. The licensed options were to restructure the sentence around `-dir` or to leave the pool. The flag records neither, because it asks whether some licensed token existed and not whether a licensed way to say this thing existed.",
+        "It is a description of the symptom. Every containment failure is by definition a word the writer chose; naming that as the cause cannot be wrong and cannot be acted on."
+      ]
+    },
+    "supersedes": "WRITER_VOCABULARY_CHOICE (attempt #2 analysis v2, attempt #3 cause record)"
+  },
+  "section_id": "SEC-02-2",
+  "status": "CLOSED / GO",
+  "version": "tunnelbook-sec-02-2-drafting-approach-rethink-v1",
+  "what_the_attempts_prove": {
+    "attempt_1": "Reproduction alone satisfies containment and cannot satisfy fidelity. 16 material units, all reproduced, 0 unlicensed content tokens, and rejected for a dropped qualifier and a dropped condition — the two things reproduction cannot supply.",
+    "attempt_2": "Composition satisfies fidelity and breaks containment. The two units that could not be copied — the English-source claims — were the only composed ones, and one of them carried the section's first UNSUPPORTED_PROPOSITION.",
+    "attempt_3": "Instructions govern fidelity and do not govern containment. Every attempt-#2 cause closed, qualifier realisation 0/2 to 2/2, and the composed-mode rate stayed where it was. The remediation worked exactly as designed and the pilot was rejected anyway.",
+    "the_series": "The three attempts are not three failures of one kind. They are a demonstration that the architecture has two requirements it can satisfy one at a time. Attempt #1 bought containment with fidelity, attempt #2 bought fidelity with containment, attempt #3 bought more fidelity with more containment exposure at an unchanged rate."
+  },
+  "word_classification": {
+    "categories": {
+      "1": "grammatical/discourse surface vocabulary",
+      "2": "semantic paraphrase",
+      "3": "relationship-bearing vocabulary",
+      "4": "proposition-changing vocabulary"
+    },
+    "consequence": "No single remedy addresses the set. A lexicon entry that admits `durumlarında` correctly admits `sağlar` incorrectly, because the exemption mechanism cannot see which slot a word fills.",
+    "finding": "The four words are not one class. Two are discourse surface vocabulary the containment boundary arguably never meant to catch; one bears a relation that happens to be licensed here and would not be elsewhere; one shifts the modality of the exact copula its claim is fragile on. Attempt #3's cause record described them collectively as connectives and light verbs carrying no technical content. That is true of two of them.",
+    "probe_id": "P4_attempt_3_word_classification",
+    "words": [
+      {
+        "categories": [
+          "2",
+          "3"
+        ],
+        "category_4_excluded": false,
+        "category_4_note": "Cannot be excluded. SEC-02-2-C-002's qualifier states the identity flatly — 'kabul kriteridir', it *is* the acceptance criterion. `ifade eder` substitutes a metalinguistic predicate for that copula: the table *expresses* the criterion. DSC-C002-001 exists precisely because what this table is, versus what it is taken to establish, is the distinction the claim is fragile on. A modality shift on that exact copula is the one place in the sentence where it could matter.",
+        "claim_id": "SEC-02-2-C-002",
+        "evidence": {
+          "copula_it_replaces_is_licensed": [
+            "kriteridir",
+            "kriterleridir"
+          ],
+          "exempt_as_function_word": false,
+          "light_verb_partner_eder_is_exempt": true,
+          "pool_tokens_agreeing": []
+        },
+        "gloss": "'expression'; the construction written was `ifade eder`, 'expresses'",
+        "primary": "2",
+        "rationale": "A paraphrase of a licensed copula, and it bears the relation it paraphrases. It is not grammar: `eder` is exempt as a function word and `ifade` is the lexical half that carries the meaning, which is why only one of the pair was flagged.",
+        "unit_id": "U-A-P01-S03",
+        "word": "ifade"
+      },
+      {
+        "categories": [
+          "3",
+          "2"
+        ],
+        "category_4_excluded": true,
+        "category_4_note": "Excluded in this slot only. The claim's own English canonical uses `gives` for the same relation, so the proposition asserted is the source's. The exclusion does not travel: `sağlamak` also means 'to ensure/to satisfy', and '... gerekli dayanımı sağlar' is a performance assertion no source states. Same surface form, different proposition, decided by the slot it fills.",
+        "claim_id": "SEC-02-2-C-002",
+        "evidence": {
+          "exempt_as_function_word": false,
+          "pool_tokens_agreeing": [],
+          "source_relation_verb_in_pool": [
+            "gives"
+          ]
+        },
+        "gloss": "'provides/gives'; third-person present of sağlamak",
+        "primary": "3",
+        "rationale": "A light verb by form, a relation by function: it asserts that the table stands in a providing relation to the criteria. That the relation happens to be the licensed one here is a fact about this sentence, not about the word.",
+        "unit_id": "U-A-P01-S03",
+        "word": "sağlar"
+      },
+      {
+        "categories": [
+          "1",
+          "2"
+        ],
+        "category_4_excluded": true,
+        "category_4_note": "Excluded, and demonstrably so. The function lexicon already exempts three inflections of the same lexeme. The fourth was rejected because the exemption test is exact string membership while the licensing test is five-character prefix agreement — two different matching regimes over an agglutinative language. Had the writer produced `durumlarda`, one morpheme away and equally grammatical, stage C would have said nothing.",
+        "claim_id": "SEC-02-2-P0-008",
+        "evidence": {
+          "exempt_as_function_word": false,
+          "exempt_siblings_of_the_same_lexeme": {
+            "durumda": true,
+            "durumlarda": true,
+            "durumlarında": false,
+            "durumunda": true
+          },
+          "licensed_same_meaning_token_in_pool": [
+            "case",
+            "conditions",
+            "koşulları",
+            "koşullarında"
+          ],
+          "pool_tokens_agreeing": []
+        },
+        "gloss": "'in the cases/situations of'; durum + plural + possessive + locative",
+        "primary": "1",
+        "rationale": "Discourse surface vocabulary that the containment boundary already treats as such in three of its four forms. It also restates the licensed `koşullarında` three words later, which makes it a paraphrase as well as grammar.",
+        "unit_id": "U-C-P01-S03",
+        "word": "durumlarında"
+      },
+      {
+        "categories": [
+          "1",
+          "3"
+        ],
+        "category_4_excluded": true,
+        "category_4_note": "Excluded. It marks an exemplification relation, and that relation is stated by the source: the claim's English canonical reads 'such as crushed or squeezing rock', and both `such` and `as` are in the pool. The Turkish marker asserts nothing the English one did not.",
+        "claim_id": "SEC-02-2-P0-008",
+        "evidence": {
+          "comparable_marker_gibi_is_exempt": true,
+          "exempt_as_function_word": false,
+          "pool_tokens_agreeing": [],
+          "source_exemplification_markers_in_pool": [
+            "as",
+            "such"
+          ]
+        },
+        "gloss": "'for example'",
+        "primary": "1",
+        "rationale": "A discourse marker, and the closest analogue already exempt: `gibi` — the word attempt #2 used for this same relation in this same claim — is in the function lexicon. It does bear a relation, which is why category 3 is listed, but the relation is the claim's own.",
+        "unit_id": "U-C-P01-S03",
+        "word": "örneğin"
+      }
+    ]
+  }
+}

@@ -1,0 +1,584 @@
+{
+  "schema_version": "nontext-asset-policy-registry-v1",
+  "asset_classes": [
+    "SOURCE_TABLE",
+    "SOURCE_FIGURE",
+    "SOURCE_PHOTO",
+    "AUTHOR_RECONSTRUCTED_TABLE",
+    "AUTHOR_GENERATED_SCHEMATIC",
+    "DERIVED_CHART",
+    "MAP",
+    "EQUATION",
+    "DATA_TABLE",
+    "OTHER"
+  ],
+  "candidate_asset_schema": [
+    "asset_id",
+    "target_section_id",
+    "asset_class",
+    "purpose",
+    "source_document_id",
+    "page_location",
+    "source_hash_provenance",
+    "rights_status",
+    "factual_inputs",
+    "transformation_status",
+    "caption_status",
+    "alt_text_status",
+    "technical_review_status",
+    "publication_eligibility"
+  ],
+  "policies": {
+    "invented_chart_data": false,
+    "derived_chart_requires_reproducible_table_and_transform": true,
+    "generated_schematic_requires_label_and_review": true,
+    "source_visual_requires_provenance_and_rights": true,
+    "equation_requires_source_symbols_units_assumptions_scope": true,
+    "missing_rights_is_asset_release_blocker": true
+  },
+  "candidate_assets": [],
+  "section_plans": [
+    {
+      "section_id": "CH-A-S01",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-A-S02",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-A-S03",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-A-S04",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-A-S05",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-A-S06",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-A-S07",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-A-S08",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-A-S09",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-A-S10",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-A-S11",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S01",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S02",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S03",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S04",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S05",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S06",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S07",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S08",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S09",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S10",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S11",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S12",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S13",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S14",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S15",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S16",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-B-S17",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-D-S01",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-D-S02",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S01",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S02",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S03",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S04",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S05",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S06",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S07",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S08",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S09",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S10",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S11",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S12",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S13",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S14",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S15",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S16",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S17",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S18",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S18-SS01",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-E-S18-SS02",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-F-S01",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-F-S02",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-F-S03",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-F-S04",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-F-S05",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-F-S05-SS01",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-F-S05-SS02",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-F-S06",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-G-S01",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    },
+    {
+      "section_id": "CH-G-S02",
+      "asset_usefulness": "ASSESS_AFTER_EVIDENCE_VALIDATION",
+      "evidence_availability": "UNVALIDATED",
+      "candidate_asset_ids": [],
+      "unresolved_asset_needs": [
+        "Determine whether validated evidence benefits from a non-text asset."
+      ]
+    }
+  ],
+  "decorative_assets_generated": 0,
+  "drafting_authorized": false
+}

@@ -1,0 +1,149 @@
+{
+  "items": [
+    {
+      "admission_status_changed": false,
+      "authority_result": "PEER_REVIEWED",
+      "claim_ids": [
+        "RCLM-00003",
+        "RCLM-00005",
+        "RCLM-00008",
+        "RCLM-00010",
+        "RCLM-00014"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "document_id": "DOC000042",
+      "section_ids": [
+        "CH-A-S02",
+        "CH-A-S03",
+        "CH-A-S05",
+        "CH-A-S06",
+        "CH-A-S08"
+      ],
+      "suitability": "SUITABLE_FOR_IDENTIFIED_SOURCE_ROLE",
+      "support_status_changed": false
+    },
+    {
+      "admission_status_changed": false,
+      "authority_result": "UNKNOWN_AUTHORITY",
+      "claim_ids": [
+        "RCLM-00013",
+        "RCLM-00015"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "document_id": "DOC000045",
+      "section_ids": [
+        "CH-A-S07",
+        "CH-A-S08"
+      ],
+      "suitability": "NOT_YET_AUTHORITY_SUITABLE",
+      "support_status_changed": false
+    },
+    {
+      "admission_status_changed": false,
+      "authority_result": "OFFICIAL_GOVERNMENT_TECHNICAL",
+      "claim_ids": [
+        "CLM-00508",
+        "CLM-00509",
+        "CLM-00510",
+        "CLM-00511",
+        "CLM-00512",
+        "CLM-00513",
+        "CLM-00514",
+        "CLM-00515",
+        "CLM-00516",
+        "CLM-00517",
+        "CLM-00518",
+        "CLM-00519",
+        "CLM-00520",
+        "CLM-00521",
+        "CLM-00522",
+        "CLM-00523",
+        "CLM-00524",
+        "CLM-00525",
+        "CLM-00526",
+        "CLM-00527",
+        "CLM-00528",
+        "CLM-00529",
+        "CLM-00530",
+        "CLM-00531",
+        "CLM-00532",
+        "CLM-00533",
+        "CLM-00534",
+        "CLM-00535",
+        "CLM-00536",
+        "CLM-00537",
+        "CLM-00538",
+        "CLM-00539",
+        "CLM-00540",
+        "CLM-00541",
+        "CLM-00542",
+        "CLM-00543",
+        "CLM-00544",
+        "CLM-00545",
+        "CLM-00546",
+        "CLM-00547",
+        "CLM-00548",
+        "CLM-00549",
+        "CLM-00550",
+        "CLM-00551",
+        "CLM-00552",
+        "CLM-00553",
+        "CLM-00554",
+        "CLM-00555",
+        "CLM-00556",
+        "CLM-00557",
+        "CLM-00558",
+        "CLM-00559",
+        "CLM-00560"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "document_id": "DOC000048",
+      "section_ids": [
+        "CH-E-S04",
+        "CH-E-S06",
+        "CH-E-S07",
+        "CH-E-S17"
+      ],
+      "suitability": "SUITABLE_FOR_IDENTIFIED_SOURCE_ROLE",
+      "support_status_changed": false
+    },
+    {
+      "admission_status_changed": false,
+      "authority_result": "UNKNOWN_AUTHORITY",
+      "claim_ids": [
+        "RCLM-00002",
+        "RCLM-00004",
+        "RCLM-00006",
+        "RCLM-00009",
+        "RCLM-00018",
+        "RCLM-00024",
+        "RCLM-00025",
+        "RCLM-00027",
+        "RCLM-00028",
+        "RCLM-00034",
+        "RCLM-00036",
+        "RCLM-00037",
+        "RCLM-00038"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "document_id": "DOC000072",
+      "section_ids": [
+        "CH-A-S02",
+        "CH-A-S03",
+        "CH-A-S04",
+        "CH-A-S05",
+        "CH-B-S07",
+        "CH-B-S15",
+        "CH-B-S16",
+        "CH-E-S01",
+        "CH-E-S03",
+        "CH-F-S01",
+        "CH-F-S02",
+        "CH-F-S04"
+      ],
+      "suitability": "NOT_YET_AUTHORITY_SUITABLE",
+      "support_status_changed": false
+    }
+  ],
+  "schema_version": "1.0.0"
+}

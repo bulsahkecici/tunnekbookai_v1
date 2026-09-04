@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "affected_claims": 452,
+      "affected_sources": 34,
+      "family_id": "DF-AUTH-001",
+      "gap_types": [
+        "MISSING_DATA",
+        "IMPLEMENTATION_GAP"
+      ],
+      "layers": [
+        "CANONICAL_SOURCE_METADATA",
+        "AUTHORITY_REGISTRY"
+      ],
+      "name": "AUTHORITY_EVIDENCE_NOT_REPRESENTED",
+      "policy_defect": false,
+      "primary_state": "AUTHORITY_INSUFFICIENT",
+      "root_cause": "The authority registry was synthesized without a verified authority-evidence input. Its schema records only legacy labels and a path, while canonical relation, publisher/institution provenance, applicable claim scope, and verified supporting metadata required by policy are absent. Canonical metadata contains unresolved or candidate-only fields, not admissible authority evidence.",
+      "smallest_remediation": "Create a canonical, evidence-backed source-type/authority-evidence registry linked by document_id and source hash; retain UNKNOWN when evidence remains unavailable."
+    },
+    {
+      "affected_claims": 113,
+      "family_id": "DF-PROV-001",
+      "gap_types": [
+        "MISSING_DATA",
+        "DATA_EXISTS_BUT_NOT_JOINED"
+      ],
+      "layers": [
+        "CONVERSION_PROVENANCE",
+        "CHUNK_METADATA",
+        "CLAIM_PROVENANCE_PROPAGATION"
+      ],
+      "name": "SOURCE_LOCATOR_NOT_REPRESENTED_OR_PROPAGATED",
+      "policy_defect": false,
+      "primary_state": "PROVENANCE_BLOCKED",
+      "reported_gap_records": 96,
+      "root_cause": "Claim→chunk→document→canonical source identity, path, source hash, and normalized hash are intact. The failing edge is canonical artifact→usable source location: affected chunks carry no page, slide, or heading locator. Some conversion sidecars retain block/page provenance, but the chunk and claim contracts do not join or propagate it.",
+      "smallest_remediation": "Build a document_id/chunk_id provenance bridge from conversion block locators, then propagate page/slide/heading/block locators into chunks and claims; leave genuinely locator-free records blocked."
+    },
+    {
+      "affected_claims": 12,
+      "family_id": "DF-ANCH-001",
+      "gap_types": [
+        "DATA_EXISTS_BUT_NOT_JOINED",
+        "IMPLEMENTATION_GAP"
+      ],
+      "layers": [
+        "CONVERSION_PROVENANCE",
+        "ANCHOR_MODEL",
+        "CLAIM_PROVENANCE_PROPAGATION"
+      ],
+      "name": "ANCHOR_LOCATOR_DATA_NOT_JOINED",
+      "policy_defect": false,
+      "primary_state": "ANCHOR_AMBIGUOUS",
+      "root_cause": "Repeated exact text was searched only in flattened chunk text. Claims carry neither selected occurrence offset nor block ID. Conversion sidecars retain per-block self_ref, page/slide-like page_no, bbox, and charspan (for DOC000214, five repeats map to distinct page_no 20–24), but remediation never joined them. Opening original sources was not required to establish this cause.",
+      "smallest_remediation": "Enrich anchors with conversion block ID plus page/slide and chunk-local span; require a unique tuple rather than text alone."
+    },
+    {
+      "affected_claims": 25,
+      "candidate_claims": 42,
+      "family_id": "DF-DISC-001",
+      "gap_types": [
+        "IMPLEMENTATION_GAP",
+        "POLICY_GAP"
+      ],
+      "layers": [
+        "RETRIEVAL_DISCOVERY",
+        "SECTION_EVIDENCE_MAPPING",
+        "ORCHESTRATION"
+      ],
+      "name": "RETRIEVAL_TO_SOURCE_VERIFICATION_STAGE_OMITTED",
+      "policy_defect": true,
+      "primary_state": "SCOPE_INSUFFICIENT",
+      "root_cause": "Discovery performed one top-3 lexical-overlap pass over derived chunks and extracted source-faithful spans, while explicitly opening zero source documents and setting claim_support_validated=false. It had no source-inspection/scope-verification stage and candidates inherited UNKNOWN_AUTHORITY. The 31-section result is primarily source-inspection and authority/provenance deficiency, with generic evidence-need/query design secondary—not proof of repository evidence absence.",
+      "smallest_remediation": "Add a bounded retrieval→canonical-source inspection→scope/support verification stage using enriched authority/provenance; revise evidence-need queries only where diagnostics show mismatch."
+    }
+  ],
+  "schema_version": "1.0.0"
+}

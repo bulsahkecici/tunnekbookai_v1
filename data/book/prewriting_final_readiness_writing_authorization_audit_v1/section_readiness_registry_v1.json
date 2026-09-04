@@ -1,0 +1,572 @@
+{
+  "distribution": {
+    "BLOCKED": 2,
+    "EVIDENCE_GAP": 3,
+    "READY_FOR_CONTROLLED_DRAFTING": 6,
+    "READY_WITH_LIMITATIONS": 37,
+    "WAITING_FOR_HUMAN_ANALYSIS_ARTIFACT": 12
+  },
+  "items": [
+    {
+      "claim_count": 1,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-A-S01",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 1
+      }
+    },
+    {
+      "claim_count": 2,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-A-S02",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 2
+      }
+    },
+    {
+      "claim_count": 2,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-A-S03",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 2
+      }
+    },
+    {
+      "claim_count": 1,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-A-S04",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 1
+      }
+    },
+    {
+      "claim_count": 3,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-A-S05",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 3
+      }
+    },
+    {
+      "claim_count": 3,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-A-S06",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 3
+      }
+    },
+    {
+      "claim_count": 1,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-A-S07",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 1
+      }
+    },
+    {
+      "claim_count": 2,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-A-S08",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 2
+      }
+    },
+    {
+      "claim_count": 25,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-A-S09",
+      "tier_counts": {
+        "LIMITED_OR_SUPPORTING": 25
+      }
+    },
+    {
+      "claim_count": 27,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-A-S10",
+      "tier_counts": {
+        "LIMITED_OR_SUPPORTING": 27
+      }
+    },
+    {
+      "claim_count": 33,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-A-S11",
+      "tier_counts": {
+        "LIMITED_OR_SUPPORTING": 33
+      }
+    },
+    {
+      "claim_count": 107,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-B-S01",
+      "tier_counts": {
+        "LIMITED_OR_SUPPORTING": 99,
+        "RESTRICTED_OR_EXCLUDED": 8
+      }
+    },
+    {
+      "claim_count": 0,
+      "readiness": "EVIDENCE_GAP",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "NO_USABLE_SECTION_EVIDENCE",
+      "section_id": "CH-B-S02",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 107,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-B-S03",
+      "tier_counts": {
+        "LIMITED_OR_SUPPORTING": 101,
+        "RESTRICTED_OR_EXCLUDED": 6
+      }
+    },
+    {
+      "claim_count": 85,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-B-S04",
+      "tier_counts": {
+        "LIMITED_OR_SUPPORTING": 37,
+        "RESTRICTED_OR_EXCLUDED": 48
+      }
+    },
+    {
+      "claim_count": 1,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-B-S05",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 1
+      }
+    },
+    {
+      "claim_count": 1,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-B-S06",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 1
+      }
+    },
+    {
+      "claim_count": 2,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-B-S07",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 2
+      }
+    },
+    {
+      "claim_count": 24,
+      "readiness": "READY_FOR_CONTROLLED_DRAFTING",
+      "section_id": "CH-B-S08",
+      "tier_counts": {
+        "PRIMARY_OR_STRONG_USABLE": 24
+      }
+    },
+    {
+      "claim_count": 4,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-B-S09",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 4
+      }
+    },
+    {
+      "claim_count": 2,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-B-S10",
+      "tier_counts": {
+        "LIMITED_OR_SUPPORTING": 2
+      }
+    },
+    {
+      "claim_count": 1,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-B-S11",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 1
+      }
+    },
+    {
+      "claim_count": 0,
+      "readiness": "EVIDENCE_GAP",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "NO_USABLE_SECTION_EVIDENCE",
+      "section_id": "CH-B-S12",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 1,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-B-S13",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 1
+      }
+    },
+    {
+      "claim_count": 2,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-B-S14",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 2
+      }
+    },
+    {
+      "claim_count": 1,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-B-S15",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 1
+      }
+    },
+    {
+      "claim_count": 1,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-B-S16",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 1
+      }
+    },
+    {
+      "claim_count": 45,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-B-S17",
+      "tier_counts": {
+        "PRIMARY_OR_STRONG_USABLE": 26,
+        "RESTRICTED_OR_EXCLUDED": 19
+      }
+    },
+    {
+      "claim_count": 24,
+      "readiness": "READY_FOR_CONTROLLED_DRAFTING",
+      "section_id": "CH-D-S01",
+      "tier_counts": {
+        "PRIMARY_OR_STRONG_USABLE": 24
+      }
+    },
+    {
+      "claim_count": 24,
+      "readiness": "READY_FOR_CONTROLLED_DRAFTING",
+      "section_id": "CH-D-S02",
+      "tier_counts": {
+        "PRIMARY_OR_STRONG_USABLE": 24
+      }
+    },
+    {
+      "claim_count": 2,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-E-S01",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 2
+      }
+    },
+    {
+      "claim_count": 0,
+      "readiness": "EVIDENCE_GAP",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "NO_USABLE_SECTION_EVIDENCE",
+      "section_id": "CH-E-S02",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 2,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-E-S03",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 2
+      }
+    },
+    {
+      "claim_count": 8,
+      "readiness": "READY_FOR_CONTROLLED_DRAFTING",
+      "section_id": "CH-E-S04",
+      "tier_counts": {
+        "PRIMARY_OR_STRONG_USABLE": 8
+      }
+    },
+    {
+      "claim_count": 0,
+      "readiness": "BLOCKED",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "UNRESOLVED_SECTION_SCOPE_OR_EVIDENCE",
+      "section_id": "CH-E-S05",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 16,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-E-S06",
+      "tier_counts": {
+        "PRIMARY_OR_STRONG_USABLE": 14,
+        "RESTRICTED_OR_EXCLUDED": 2
+      }
+    },
+    {
+      "claim_count": 8,
+      "readiness": "READY_FOR_CONTROLLED_DRAFTING",
+      "section_id": "CH-E-S07",
+      "tier_counts": {
+        "PRIMARY_OR_STRONG_USABLE": 8
+      }
+    },
+    {
+      "claim_count": 0,
+      "readiness": "WAITING_FOR_HUMAN_ANALYSIS_ARTIFACT",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S08",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 0,
+      "readiness": "WAITING_FOR_HUMAN_ANALYSIS_ARTIFACT",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S09",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 0,
+      "readiness": "WAITING_FOR_HUMAN_ANALYSIS_ARTIFACT",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S10",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 0,
+      "readiness": "WAITING_FOR_HUMAN_ANALYSIS_ARTIFACT",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S11",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 0,
+      "readiness": "WAITING_FOR_HUMAN_ANALYSIS_ARTIFACT",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S12",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 0,
+      "readiness": "WAITING_FOR_HUMAN_ANALYSIS_ARTIFACT",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S13",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 0,
+      "readiness": "WAITING_FOR_HUMAN_ANALYSIS_ARTIFACT",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S14",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 0,
+      "readiness": "WAITING_FOR_HUMAN_ANALYSIS_ARTIFACT",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S15",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 0,
+      "readiness": "WAITING_FOR_HUMAN_ANALYSIS_ARTIFACT",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-E-S16",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 21,
+      "readiness": "READY_FOR_CONTROLLED_DRAFTING",
+      "section_id": "CH-E-S17",
+      "tier_counts": {
+        "PRIMARY_OR_STRONG_USABLE": 21
+      }
+    },
+    {
+      "claim_count": 2,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-E-S18",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 2
+      }
+    },
+    {
+      "claim_count": 1,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-E-S18-SS01",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 1
+      }
+    },
+    {
+      "claim_count": 1,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-E-S18-SS02",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 1
+      }
+    },
+    {
+      "claim_count": 1,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-F-S01",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 1
+      }
+    },
+    {
+      "claim_count": 2,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-F-S02",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 2
+      }
+    },
+    {
+      "claim_count": 0,
+      "readiness": "BLOCKED",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "UNRESOLVED_SECTION_SCOPE_OR_EVIDENCE",
+      "section_id": "CH-F-S03",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 2,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-F-S04",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 2
+      }
+    },
+    {
+      "claim_count": 2,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-F-S05",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 2
+      }
+    },
+    {
+      "claim_count": 1,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-F-S05-SS01",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 1
+      }
+    },
+    {
+      "claim_count": 1,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "EVIDENCE_USE_RESTRICTIONS_APPLY",
+      "section_id": "CH-F-S05-SS02",
+      "tier_counts": {
+        "RESTRICTED_OR_EXCLUDED": 1
+      }
+    },
+    {
+      "claim_count": 0,
+      "readiness": "WAITING_FOR_HUMAN_ANALYSIS_ARTIFACT",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-F-S06",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 0,
+      "readiness": "WAITING_FOR_HUMAN_ANALYSIS_ARTIFACT",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-G-S01",
+      "tier_counts": {}
+    },
+    {
+      "claim_count": 0,
+      "readiness": "WAITING_FOR_HUMAN_ANALYSIS_ARTIFACT",
+      "reason": "Apply the frozen dependency or evidence-use restriction; this is not a global drafting blocker.",
+      "reason_code": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "section_id": "CH-G-S02",
+      "tier_counts": {}
+    }
+  ],
+  "schema_version": "final-section-readiness-registry-v1",
+  "section_count": 60
+}

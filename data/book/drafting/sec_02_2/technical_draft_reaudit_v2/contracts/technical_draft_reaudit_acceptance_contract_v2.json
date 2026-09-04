@@ -1,0 +1,51 @@
+{
+  "version": "tunnelbook-sec-02-2-technical-draft-reaudit-acceptance-v2",
+  "phase": "SEC-02-2 TECHNICAL DRAFT RE-AUDIT V2",
+  "frozen_before_audit": true,
+  "draft_mutation_permitted": false,
+  "release_decision_bundled": false,
+  "inputs": [
+    {
+      "path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1_rerun/rendered/accepted_draft_v1.json",
+      "sha256": "f315bcbd5e3a84d07dfef45a4ef87d4445d1033a463b3831e840986c9f08649c"
+    },
+    {
+      "path": "data/book/drafting/contracts/book_style_contract_v1.json",
+      "sha256": "3b29763412f00a98fef7019d17eb6c88a052f285238ed7cf15d04ed0c7ffc281"
+    },
+    {
+      "path": "data/book/drafting/sec_02_2/technical_remediation_v1/contracts/technical_claim_scope_remediation_contract_v1.json",
+      "sha256": "a78e28230ffef11bc64a75119eea3342d53f4fcee28f92f623c62258c51f4cd5"
+    },
+    {
+      "path": "data/book/drafting/sec_02_2/technical_remediation_v1/contracts/technical_realization_contract_v1.json",
+      "sha256": "e766040baebe379543e3b113afee419acbed3c1b61165663ff95ccf0579c6ebf"
+    },
+    {
+      "path": "data/book/drafting/sec_02_2/technical_remediation_v1/contracts/citation_allocation_contract_v2.json",
+      "sha256": "95e0b3aa2944e756f5bc604621045ec17214c30e1ec5b4327ca6190df5c41778"
+    },
+    {
+      "path": "data/book/drafting/sec_02_2/architecture_v2_2/contracts/deterministic_book_style_integration_v2_2.json",
+      "sha256": "20b26bf443c14ec82d3761114cf379c47265d15ab017bb38fe659b2c35789b8c"
+    },
+    {
+      "path": "data/book/drafting/technical_term_fallback_v1/contracts/technical_term_original_language_fallback_contract_v1.json",
+      "sha256": "7fcb1e884be3561e08dfe64559eadadd7dca829128751c97c03cd9676bc04dbc"
+    }
+  ],
+  "acceptance_conditions": [
+    {"id": "RA2-01", "requirement": "Every frozen input hash matches before and after audit."},
+    {"id": "RA2-02", "requirement": "TDA-001 through TDA-006 each remain closed under the frozen technical scope and realization contracts."},
+    {"id": "RA2-03", "requirement": "Every material claim has exact claim-owned citation support; unknown and misleading cement allocations are zero."},
+    {"id": "RA2-04", "requirement": "All mandatory scope, condition, dependency, named-case, numeric, modality, and linked-consequence facts remain visible and unambiguous."},
+    {"id": "RA2-05", "requirement": "The frozen preferred terminology map is followed and unresolved terms obey the original-language fallback contract."},
+    {"id": "RA2-06", "requirement": "Book Style v1 hierarchy, ordering, paragraph, fragment, note-label, redundancy, and connective rules all pass."},
+    {"id": "RA2-07", "requirement": "Draft Validator v1.2 remains ACCEPT with an empty failure histogram."},
+    {"id": "RA2-08", "requirement": "No accepted-draft rewrite, retrieval, generation, repair, post-render model pass, release, commit, or push occurs."}
+  ],
+  "verdict_rule": {
+    "GO": "All acceptance conditions pass and no blocking finding remains.",
+    "NO_GO": "Any acceptance condition fails or any blocking finding remains."
+  }
+}

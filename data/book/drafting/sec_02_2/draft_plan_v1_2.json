@@ -1,0 +1,1078 @@
+{
+  "authored_by": "tunnelbook-sec-02-2-draft-plan-v1-2-attempt-3",
+  "change_scope": {
+    "added": [
+      "unit_allocation",
+      "claim_translation_requirements.licensed_vocabulary",
+      "qualifier_semantics"
+    ],
+    "claim_allocation": "unchanged from v1.1",
+    "excluded_claims": "unchanged from v1.1",
+    "language_policy": "unchanged from v1.1",
+    "note": "Additive over plan v1.1, which stays on disk unchanged. No validator, threshold, failure code, marker set, gloss, paraphrase entry, claim, allowlist, denylist, pair constraint, prompt or frozen contract is edited.",
+    "required_topics": "unchanged from v1.1",
+    "semantic_constraints": "unchanged from v1.1",
+    "subsections": "unchanged from v1.1",
+    "weakened": [],
+    "widened": []
+  },
+  "citation_policy": {
+    "bibliography_metadata": "registry-backed only",
+    "citation_resolves_through": "source_key",
+    "every_material_unit_cited": true
+  },
+  "claim_allocation": {
+    "A": [
+      "SEC-02-2-C-001",
+      "SEC-02-2-C-002"
+    ],
+    "B": [
+      "SEC-02-2-R001",
+      "SEC-02-2-P0-001",
+      "SEC-02-2-P0-006",
+      "SEC-02-2-P0-005",
+      "SEC-02-2-P0-004"
+    ],
+    "C": [
+      "SEC-02-2-P0-007",
+      "SEC-02-2-P0-008",
+      "SEC-02-2-C-003",
+      "SEC-02-2-C-004",
+      "SEC-02-2-C-005",
+      "SEC-02-2-C-007"
+    ],
+    "D": [
+      "SEC-02-2-C-006",
+      "SEC-02-2-C-012",
+      "SEC-02-2-C-009"
+    ]
+  },
+  "claim_count": {
+    "allocated": 16,
+    "available": 27,
+    "excluded": 10
+  },
+  "claim_translation_requirements": [
+    {
+      "approved_condition_renderings": [
+        {
+          "approved_target_renderings": [
+            "zemin koşullarına ve tünel açıklığının boyutuna bağlı olarak",
+            "zemin koşullarına ve tünel boyutuna bağlı olarak"
+          ],
+          "source_condition": "depending on ground conditions and size of the tunnel opening"
+        }
+      ],
+      "canonical_claim": "The typical thickness of an initial shotcrete lining ranges from 4 to 16 inches (100 to 400 mm).",
+      "claim_id": "SEC-02-2-P0-007",
+      "conditions": [
+        "depending on ground conditions and size of the tunnel opening"
+      ],
+      "licensed_vocabulary": [
+        "tipik",
+        "kalınlık",
+        "kalınlığı",
+        "ilk",
+        "birincil",
+        "püskürtme",
+        "beton",
+        "kaplama",
+        "kaplamanın",
+        "arasında",
+        "değişmektedir",
+        "değişir",
+        "zemin",
+        "koşullarına",
+        "koşulları",
+        "tünel",
+        "açıklığının",
+        "açıklık",
+        "boyutuna",
+        "boyut",
+        "bağlı",
+        "inç",
+        "milimetre",
+        "aralığında"
+      ],
+      "licensed_vocabulary_is_exhaustive_for_containment": true,
+      "licensed_vocabulary_source": "section_drafting_contract_v1.translation_glosses, verbatim",
+      "qualifiers": [],
+      "source_keys": [
+        "SRC-DOC000047-72f96c5daace",
+        "SRC-DOC000047-838e92811f43"
+      ],
+      "source_language": "en",
+      "target_language": "tr"
+    },
+    {
+      "approved_condition_renderings": [
+        {
+          "approved_target_renderings": [
+            "tünel boyutuna bağlı olarak",
+            "tünel boyutuna göre",
+            "tünel açıklığının boyutuna bağlı olarak"
+          ],
+          "source_condition": "dependent on tunnel size"
+        },
+        {
+          "approved_target_renderings": [
+            "bazı",
+            "belirli",
+            "kimi"
+          ],
+          "source_condition": "In some"
+        }
+      ],
+      "canonical_claim": "In some specific rock conditions, such as crushed or squeezing rock, the thickness may be 12 inches (300 mm) and more.",
+      "claim_id": "SEC-02-2-P0-008",
+      "conditions": [
+        "In some",
+        "dependent on tunnel size"
+      ],
+      "licensed_vocabulary": [
+        "bazı",
+        "belirli",
+        "kaya",
+        "koşullarında",
+        "koşulları",
+        "ezilmiş",
+        "parçalanmış",
+        "sıkışan",
+        "sıkışma",
+        "kalınlık",
+        "kalınlığı",
+        "daha",
+        "fazla",
+        "olabilmektedir",
+        "olabilir",
+        "tünel",
+        "boyutuna",
+        "bağlı",
+        "inç",
+        "milimetre"
+      ],
+      "licensed_vocabulary_is_exhaustive_for_containment": true,
+      "licensed_vocabulary_source": "section_drafting_contract_v1.translation_glosses, verbatim",
+      "qualifiers": [],
+      "source_keys": [
+        "SRC-DOC000047-d5c60204e247"
+      ],
+      "source_language": "en",
+      "target_language": "tr"
+    }
+  ],
+  "composition_constraints": {
+    "active_for_allocated_claims": [
+      "PC-005"
+    ],
+    "derived_numeric_rules_active": [
+      "DN-001"
+    ],
+    "mandatory_qualifier_rules_active": [
+      "MQ-002",
+      "MQ-003"
+    ],
+    "pair_constraints": [
+      "PC-001",
+      "PC-002",
+      "PC-003",
+      "PC-004",
+      "PC-005",
+      "PC-006"
+    ]
+  },
+  "cross_lingual_mappings_path": "data/book/drafting/sec_02_2/remediation_v1/contracts/cross_lingual_condition_mappings_v1.json",
+  "draft_id": "SEC-02-2-PILOT-V1-2",
+  "draft_version": "v1.2",
+  "drafting_prompt": "data/metadata/section_drafting_system_prompt_v1_1.txt",
+  "drafting_prompt_version": "tunnelbook-section-drafting-system-prompt-v1.1",
+  "excluded_claims": {
+    "SEC-02-2-C-008": "Two-phase steel-fibre application to minimise rebound. Optional enrichment; overlaps subsection C without adding required coverage.",
+    "SEC-02-2-C-010": "Repair-work cover thicknesses over reinforcement. A different construction activity from this section's subject.",
+    "SEC-02-2-C-011": "Repair-work thicknesses without reinforcement. Same reason as SEC-02-2-C-010.",
+    "SEC-02-2-C-013": "Steel mesh bar counts - reinforcement, not shotcrete material or application.",
+    "SEC-02-2-C-014": "Steel mesh bar counts - reinforcement, not shotcrete material or application.",
+    "SEC-02-2-C-015": "Steel mesh types - reinforcement, not shotcrete material or application.",
+    "SEC-02-2-C-016": "Steel mesh dimensions and TS 4559 - reinforcement, not shotcrete.",
+    "SEC-02-2-C-017": "A single mine's mesh specification. Site-specific practice, not a requirement; qualified as such on the allowlist.",
+    "SEC-02-2-P0-002": "The 360 kg/m³ general-concrete maximum from Tablo-308-23-b. Allowlisted, composition-safe and SUPPORTED_CONTEXT - required for no topic. Its only safe rendering is a sentence stating at length that the figure does not govern shotcrete, and handing it to a writer drafting a shotcrete section invites exactly the misattribution CF-P0-001 exists to prevent, for no coverage gain. The enforcement machinery is exercised by the fixtures and required unit tests instead, where being wrong costs nothing.",
+    "SEC-02-2-R025": "Flashcrete's status as non-active support. Correct and cited, but it introduces a support category this section does not otherwise define."
+  },
+  "language": "tr",
+  "language_policy": {
+    "allowed_visible_languages": [
+      "tr"
+    ],
+    "contract": "tunnelbook-draft-language-contract-v1",
+    "failure_codes": [
+      "LANGUAGE_MISMATCH",
+      "LANGUAGE_AMBIGUOUS"
+    ],
+    "must_preserve_when_translating": [
+      "numeric values",
+      "units",
+      "conditions",
+      "modalities",
+      "qualifiers",
+      "material scope",
+      "system scope",
+      "technical meaning"
+    ],
+    "rule": "Every visible material unit is Turkish. An English approved claim is faithfully paraphrased into Turkish; it is never copied verbatim.",
+    "section_language": "tr",
+    "source_claim_languages": [
+      "tr",
+      "en"
+    ],
+    "technical_term_exception": "A recognised English technical term may stay inside otherwise Turkish prose. A complete English clause may not."
+  },
+  "licensed_vocabulary_policy": {
+    "forbidden_additions_absent": {
+      "kayaç": true,
+      "spesifik": true
+    },
+    "is_a_widening": false,
+    "rule": "These are the Turkish words the validator's containment rule already accepts for this claim. They are shown, not added. A rendering that stays inside them passes stage C; one that reaches outside does not.",
+    "widening_guard": "Every listed word is copied verbatim from the frozen contract's translation_glosses. No synonym, gloss or paraphrase entry is added by this phase."
+  },
+  "optional_claims": [],
+  "parent_plan_path": "data/book/drafting/sec_02_2/draft_plan_v1_1.json",
+  "parent_version": "tunnelbook-sec-02-2-draft-plan-v1.1",
+  "qualifier_semantics": {
+    "constraint_ids": [
+      "DQS-C009-001"
+    ],
+    "path": "data/book/drafting/sec_02_2/qualifier_validation_v1/contracts/draft_qualifier_semantics_v1.json",
+    "registered": [
+      {
+        "claim_id": "SEC-02-2-C-009",
+        "constraint_id": "DQS-C009-001",
+        "failure_code": "QUALIFIER_DROPPED",
+        "required_action": "State, in the paragraph, that the 100-150 mm first-layer figure applies to application on clay-zone layers and is not a general first-layer thickness - or drop the claim. Repeating the canonical sentence does not discharge this.",
+        "required_meaning": "The 100-150 mm first-layer figure is specific to application on clay-zone layers and is not a general first-layer thickness rule."
+      }
+    ],
+    "version": "tunnelbook-draft-qualifier-semantics-v1"
+  },
+  "required_condition_fields": {
+    "by_claim": {
+      "SEC-02-2-C-001": [
+        "püskürtme beton"
+      ],
+      "SEC-02-2-C-002": [
+        "C25/30 dayanım sınıfı",
+        "28 günlük karot numunesi"
+      ],
+      "SEC-02-2-C-003": [
+        "bir defada (tek geçişte) uygulama"
+      ],
+      "SEC-02-2-C-004": [
+        "ilk tabaka"
+      ],
+      "SEC-02-2-C-005": [
+        "takip eden tabakalar",
+        "nihai kalınlık",
+        "priz hızlandırıcı katkı tipi"
+      ],
+      "SEC-02-2-C-006": [
+        "kalınlığın artırılması gereken durum"
+      ],
+      "SEC-02-2-C-007": [
+        "ilave tabakalar"
+      ],
+      "SEC-02-2-C-009": [
+        "kil zonlu tabakalar üzerine uygulama"
+      ],
+      "SEC-02-2-C-012": [
+        "yaklaşık 20 °C",
+        "priz hızlandırıcı katkı kullanılmaması"
+      ],
+      "SEC-02-2-P0-001": [
+        "özel uygulamalar dışında"
+      ],
+      "SEC-02-2-P0-004": [
+        "İdare onayı"
+      ],
+      "SEC-02-2-P0-006": [
+        "özel uygulamalar dışında"
+      ],
+      "SEC-02-2-P0-007": [
+        "depending on ground conditions and size of the tunnel opening"
+      ],
+      "SEC-02-2-P0-008": [
+        "In some",
+        "dependent on tunnel size"
+      ]
+    },
+    "failure_code": "CONDITION_DROPPED",
+    "not_metadata": true,
+    "rule": "Every condition listed on an allocated claim is mandatory semantic content and must survive into the prose."
+  },
+  "required_qualifier_fields": {
+    "by_claim": {
+      "SEC-02-2-C-002": [
+        "Tablo-351-5 kalite kontrol kriterleridir; dayanım sınıfının kendisi değil, kabul kriteridir"
+      ],
+      "SEC-02-2-C-009": [
+        "§351.08.10.02 kil zonlu tabakalara özgüdür; genel ilk katman kalınlığı değildir"
+      ]
+    },
+    "failure_code": "QUALIFIER_DROPPED",
+    "not_metadata": true,
+    "rule": "Every non-empty qualifier on an allocated claim is mandatory semantic content and must survive into the prose."
+  },
+  "required_topics": {
+    "all_covered": true,
+    "coverage": {
+      "dayanım sınıfı": {
+        "claim_ids": [
+          "SEC-02-2-C-001",
+          "SEC-02-2-C-002"
+        ],
+        "covered": true,
+        "required_core_claim_ids": [
+          "SEC-02-2-C-001"
+        ]
+      },
+      "kaplama kalınlığı": {
+        "claim_ids": [
+          "SEC-02-2-P0-007",
+          "SEC-02-2-P0-008",
+          "SEC-02-2-C-003",
+          "SEC-02-2-C-004",
+          "SEC-02-2-C-005",
+          "SEC-02-2-C-007",
+          "SEC-02-2-C-006",
+          "SEC-02-2-C-012",
+          "SEC-02-2-C-009"
+        ],
+        "covered": true,
+        "required_core_claim_ids": [
+          "SEC-02-2-P0-007",
+          "SEC-02-2-P0-008"
+        ]
+      },
+      "çimento dozajı": {
+        "claim_ids": [
+          "SEC-02-2-R001",
+          "SEC-02-2-P0-001",
+          "SEC-02-2-P0-006",
+          "SEC-02-2-P0-005",
+          "SEC-02-2-P0-004"
+        ],
+        "covered": true,
+        "required_core_claim_ids": [
+          "SEC-02-2-R001",
+          "SEC-02-2-P0-001",
+          "SEC-02-2-P0-006"
+        ]
+      }
+    },
+    "required": [
+      "çimento dozajı",
+      "kaplama kalınlığı",
+      "dayanım sınıfı"
+    ]
+  },
+  "section_goal": "Set out, for a tunnel-engineering reader, what the specifications require of shotcrete as a material and of its application: the binding strength class and its acceptance criteria, the cement dosage minimums by system, the layer thicknesses and their sequence, and the conditions that govern when a layer may follow another.",
+  "section_id": "SEC-02-2",
+  "section_title": "Püskürtme Beton: Malzeme ve Uygulama Gereklilikleri",
+  "semantic_constraints": [
+    {
+      "claim_id": "SEC-02-2-C-002",
+      "constraint_id": "DSC-C002-001",
+      "forbidden_meaning": "Tablo-351-5 establishes or defines the minimum C25/30 strength class.",
+      "required_action": "State Tablo-351-5 as what it is - the acceptance criteria for the class - and state the class requirement itself from SEC-02-2-C-001, in its own sentence.",
+      "required_meaning": "Tablo-351-5 provides 28-day core-sample acceptance criteria for C25/30 shotcrete.",
+      "safe_relationship": {
+        "acceptance_claim_id": "SEC-02-2-C-002",
+        "allowed_relationship_types": [
+          "INDEPENDENT"
+        ],
+        "requirement_claim_id": "SEC-02-2-C-001",
+        "rule": "Both claims may be stated, separately. The draft must not imply that SEC-02-2-C-002 proves SEC-02-2-C-001; no approved relationship supports that inference."
+      },
+      "type": "QUALIFIER_PRESERVATION"
+    }
+  ],
+  "semantic_constraints_path": "data/book/drafting/sec_02_2/remediation_v1/contracts/draft_semantic_constraints_v1.json",
+  "status": "PLANNED",
+  "subsections": [
+    {
+      "claim_ids": [
+        "SEC-02-2-C-001",
+        "SEC-02-2-C-002"
+      ],
+      "goal": "Establish the strength class the specification binds, and the acceptance criteria by which it is verified.",
+      "required_topic": "dayanım sınıfı",
+      "subsection_id": "A",
+      "title": "Püskürtme Betonun Malzeme ve Dayanım Gereklilikleri"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-R001",
+        "SEC-02-2-P0-001",
+        "SEC-02-2-P0-006",
+        "SEC-02-2-P0-005",
+        "SEC-02-2-P0-004"
+      ],
+      "goal": "State the dry- and wet-system cement minimums with their systems named, the durability floor, and the approval-bound reduction for special applications.",
+      "required_topic": "çimento dozajı",
+      "subsection_id": "B",
+      "title": "Çimento Dozajı"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-P0-007",
+        "SEC-02-2-P0-008",
+        "SEC-02-2-C-003",
+        "SEC-02-2-C-004",
+        "SEC-02-2-C-005",
+        "SEC-02-2-C-007"
+      ],
+      "goal": "Give the typical initial-lining thickness range, the single-pass maximum, and the layer sequence from first to subsequent layers.",
+      "required_topic": "kaplama kalınlığı",
+      "subsection_id": "C",
+      "title": "Kaplama Kalınlığı ve Katman Düzeni"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-C-006",
+        "SEC-02-2-C-012",
+        "SEC-02-2-C-009"
+      ],
+      "goal": "Cover the strength precondition for the next layer, the accelerator-free waiting time, and the clay-zone first-layer case.",
+      "required_topic": null,
+      "subsection_id": "D",
+      "title": "Uygulama Koşulları ve Özel Durumlar"
+    }
+  ],
+  "unit_allocation": {
+    "binding": "Both slots of a two-slot claim declare the same claim_id, cite the same frozen source keys, and are INDEPENDENT. The claim is not split; only its realisation in prose is.",
+    "by_claim": [
+      {
+        "claim_id": "SEC-02-2-C-001",
+        "selection": {
+          "has_qualifier": false,
+          "lexically_unreachable_by_reproduction": false,
+          "needs_composed_slot": false,
+          "qualifiers": [],
+          "registered_constraint_id": null,
+          "semantically_unreachable_by_reproduction": null
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-C-001",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [
+              "püskürtme beton"
+            ],
+            "must_express": [
+              "Püskürtme betonun basınç dayanım sınıfı minimum C25/30 MPa sınıfında olacaktır."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-C-001-SLOT-1",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000236-8dfa5f799b50"
+            ]
+          }
+        ],
+        "subsection_id": "A",
+        "unit_slots": 1
+      },
+      {
+        "claim_id": "SEC-02-2-C-002",
+        "selection": {
+          "has_qualifier": true,
+          "lexically_unreachable_by_reproduction": true,
+          "needs_composed_slot": true,
+          "qualifiers": [
+            {
+              "anchors": [
+                "tablo",
+                "kalite",
+                "kontrol",
+                "kriterleridir",
+                "dayanım",
+                "sınıfının",
+                "kendisi",
+                "kabul",
+                "kriteridir"
+              ],
+              "anchors_absent_from_canonical": [
+                "kalite",
+                "kontrol",
+                "kriterleridir",
+                "kendisi",
+                "kabul",
+                "kriteridir"
+              ],
+              "qualifier": "Tablo-351-5 kalite kontrol kriterleridir; dayanım sınıfının kendisi değil, kabul kriteridir"
+            }
+          ],
+          "registered_constraint_id": null,
+          "semantically_unreachable_by_reproduction": null
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-C-002",
+            "compose_or_reproduce": "compose",
+            "constraint_id": "DSC-C002-001",
+            "has_canonical_sentence_to_copy": false,
+            "must_also_carry_conditions": [
+              "C25/30 dayanım sınıfı",
+              "28 günlük karot numunesi"
+            ],
+            "must_express": [
+              "Tablo-351-5 kalite kontrol kriterleridir; dayanım sınıfının kendisi değil, kabul kriteridir"
+            ],
+            "must_not_imply": "Tablo-351-5 establishes or defines the minimum C25/30 strength class.",
+            "note": "This slot has no canonical sentence to copy. Copying is not an available strategy here; the meaning must be composed.",
+            "relationship_type": "INDEPENDENT",
+            "required_action": "State Tablo-351-5 as what it is - the acceptance criteria for the class - and state the class requirement itself from SEC-02-2-C-001, in its own sentence.",
+            "required_meaning": "Tablo-351-5 provides 28-day core-sample acceptance criteria for C25/30 shotcrete.",
+            "slot_id": "SEC-02-2-C-002-SLOT-1",
+            "slot_role": "QUALIFIER_SCOPE",
+            "source_keys": [
+              "SRC-DOC000087-ea64db4f1a7f"
+            ]
+          },
+          {
+            "claim_id": "SEC-02-2-C-002",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [
+              "C25/30 dayanım sınıfı",
+              "28 günlük karot numunesi"
+            ],
+            "must_express": [
+              "Tablo-351-5'e göre C25/30 sınıfı püskürtme betonda, 28 günlük karot numunelerde bireysel minimum dayanım 22,5 MPa ve üç adet numuneden oluşan grubun ortalama minimum dayanımı 25,5 MPa'dır."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-C-002-SLOT-2",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000087-ea64db4f1a7f"
+            ]
+          }
+        ],
+        "subsection_id": "A",
+        "unit_slots": 2
+      },
+      {
+        "claim_id": "SEC-02-2-R001",
+        "selection": {
+          "has_qualifier": false,
+          "lexically_unreachable_by_reproduction": false,
+          "needs_composed_slot": false,
+          "qualifiers": [],
+          "registered_constraint_id": null,
+          "semantically_unreachable_by_reproduction": null
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-R001",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [],
+            "must_express": [
+              "Kuru Sistem: Çimento miktarı 350 kg/m³'ten az olmamalıdır."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-R001-SLOT-1",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000236-8d87293e1c7b"
+            ]
+          }
+        ],
+        "subsection_id": "B",
+        "unit_slots": 1
+      },
+      {
+        "claim_id": "SEC-02-2-P0-001",
+        "selection": {
+          "has_qualifier": false,
+          "lexically_unreachable_by_reproduction": false,
+          "needs_composed_slot": false,
+          "qualifiers": [],
+          "registered_constraint_id": null,
+          "semantically_unreachable_by_reproduction": null
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-P0-001",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [
+              "özel uygulamalar dışında"
+            ],
+            "must_express": [
+              "Yaş Sistem: Çimento miktarı 400 kg/m³'ten az olmamalıdır."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-P0-001-SLOT-1",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000087-e7393bf8138a",
+              "SRC-DOC000236-0229b854f373"
+            ]
+          }
+        ],
+        "subsection_id": "B",
+        "unit_slots": 1
+      },
+      {
+        "claim_id": "SEC-02-2-P0-006",
+        "selection": {
+          "has_qualifier": false,
+          "lexically_unreachable_by_reproduction": false,
+          "needs_composed_slot": false,
+          "qualifiers": [],
+          "registered_constraint_id": null,
+          "semantically_unreachable_by_reproduction": null
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-P0-006",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [
+              "özel uygulamalar dışında"
+            ],
+            "must_express": [
+              "Özetle, standart uygulamalarda kuru sistem için minimum 350 kg/m³, yaş sistem için ise minimum 400 kg/m³ çimento dozajı aranmaktadır."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-P0-006-SLOT-1",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000087-e7393bf8138a",
+              "SRC-DOC000236-0229b854f373"
+            ]
+          }
+        ],
+        "subsection_id": "B",
+        "unit_slots": 1
+      },
+      {
+        "claim_id": "SEC-02-2-P0-005",
+        "selection": {
+          "has_qualifier": false,
+          "lexically_unreachable_by_reproduction": false,
+          "needs_composed_slot": false,
+          "qualifiers": [],
+          "registered_constraint_id": null,
+          "semantically_unreachable_by_reproduction": null
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-P0-005",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [],
+            "must_express": [
+              "Çevresel Şartlar: Dış çevresel etki sınıfları gereksinimlerine göre, laboratuvar ve ön dizayn deneme çalışmaları ile belirlenen çimento miktarı, durabilite nedeniyle 350 kg/m³'ün altında kalmamalıdır."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-P0-005-SLOT-1",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000236-8d87293e1c7b"
+            ]
+          }
+        ],
+        "subsection_id": "B",
+        "unit_slots": 1
+      },
+      {
+        "claim_id": "SEC-02-2-P0-004",
+        "selection": {
+          "has_qualifier": false,
+          "lexically_unreachable_by_reproduction": false,
+          "needs_composed_slot": false,
+          "qualifiers": [],
+          "registered_constraint_id": null,
+          "semantically_unreachable_by_reproduction": null
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-P0-004",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [
+              "İdare onayı"
+            ],
+            "must_express": [
+              "Özel Uygulamalar: Şev kaplama, geçici iksa gibi özel durumlarda İdare onayı ile bu miktarlar azaltılabilmektedir."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-P0-004-SLOT-1",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000087-e7393bf8138a",
+              "SRC-DOC000236-0229b854f373"
+            ]
+          }
+        ],
+        "subsection_id": "B",
+        "unit_slots": 1
+      },
+      {
+        "claim_id": "SEC-02-2-P0-007",
+        "selection": {
+          "has_qualifier": false,
+          "lexically_unreachable_by_reproduction": false,
+          "needs_composed_slot": false,
+          "qualifiers": [],
+          "registered_constraint_id": null,
+          "semantically_unreachable_by_reproduction": null
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-P0-007",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [
+              "depending on ground conditions and size of the tunnel opening"
+            ],
+            "must_express": [
+              "The typical thickness of an initial shotcrete lining ranges from 4 to 16 inches (100 to 400 mm)."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-P0-007-SLOT-1",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000047-72f96c5daace",
+              "SRC-DOC000047-838e92811f43"
+            ]
+          }
+        ],
+        "subsection_id": "C",
+        "unit_slots": 1
+      },
+      {
+        "claim_id": "SEC-02-2-P0-008",
+        "selection": {
+          "has_qualifier": false,
+          "lexically_unreachable_by_reproduction": false,
+          "needs_composed_slot": false,
+          "qualifiers": [],
+          "registered_constraint_id": null,
+          "semantically_unreachable_by_reproduction": null
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-P0-008",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [
+              "In some",
+              "dependent on tunnel size"
+            ],
+            "must_express": [
+              "In some specific rock conditions, such as crushed or squeezing rock, the thickness may be 12 inches (300 mm) and more."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-P0-008-SLOT-1",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000047-d5c60204e247"
+            ]
+          }
+        ],
+        "subsection_id": "C",
+        "unit_slots": 1
+      },
+      {
+        "claim_id": "SEC-02-2-C-003",
+        "selection": {
+          "has_qualifier": false,
+          "lexically_unreachable_by_reproduction": false,
+          "needs_composed_slot": false,
+          "qualifiers": [],
+          "registered_constraint_id": null,
+          "semantically_unreachable_by_reproduction": null
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-C-003",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [
+              "bir defada (tek geçişte) uygulama"
+            ],
+            "must_express": [
+              "Bir defada uygulanacak püskürtme betonunun maksimum kalınlığı 15 cm'yi geçmeyecektir."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-C-003-SLOT-1",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000087-8d778c37de30",
+              "SRC-DOC000236-ca4f53f1dd68"
+            ]
+          }
+        ],
+        "subsection_id": "C",
+        "unit_slots": 1
+      },
+      {
+        "claim_id": "SEC-02-2-C-004",
+        "selection": {
+          "has_qualifier": false,
+          "lexically_unreachable_by_reproduction": false,
+          "needs_composed_slot": false,
+          "qualifiers": [],
+          "registered_constraint_id": null,
+          "semantically_unreachable_by_reproduction": null
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-C-004",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [
+              "ilk tabaka"
+            ],
+            "must_express": [
+              "İlk tabaka, taze betonun akmaması için ince olmalı; tercihen yaklaşık 60 mm, maksimum 100 mm olmalıdır."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-C-004-SLOT-1",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000087-8d778c37de30"
+            ]
+          }
+        ],
+        "subsection_id": "C",
+        "unit_slots": 1
+      },
+      {
+        "claim_id": "SEC-02-2-C-005",
+        "selection": {
+          "has_qualifier": false,
+          "lexically_unreachable_by_reproduction": false,
+          "needs_composed_slot": false,
+          "qualifiers": [],
+          "registered_constraint_id": null,
+          "semantically_unreachable_by_reproduction": null
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-C-005",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [
+              "takip eden tabakalar",
+              "nihai kalınlık",
+              "priz hızlandırıcı katkı tipi"
+            ],
+            "must_express": [
+              "Takip eden tabakalar, nihai kalınlığa ve kullanılan priz hızlandırıcı katkı malzemesinin tipine bağlı olarak 50-200 mm olmalıdır."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-C-005-SLOT-1",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000087-8d778c37de30"
+            ]
+          }
+        ],
+        "subsection_id": "C",
+        "unit_slots": 1
+      },
+      {
+        "claim_id": "SEC-02-2-C-007",
+        "selection": {
+          "has_qualifier": false,
+          "lexically_unreachable_by_reproduction": false,
+          "needs_composed_slot": false,
+          "qualifiers": [],
+          "registered_constraint_id": null,
+          "semantically_unreachable_by_reproduction": null
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-C-007",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [
+              "ilave tabakalar"
+            ],
+            "must_express": [
+              "İlave tabakalar, üç günü geçmeyen bir süre içerisinde tamamlanmış olacaktır."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-C-007-SLOT-1",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000087-8d778c37de30"
+            ]
+          }
+        ],
+        "subsection_id": "C",
+        "unit_slots": 1
+      },
+      {
+        "claim_id": "SEC-02-2-C-006",
+        "selection": {
+          "has_qualifier": false,
+          "lexically_unreachable_by_reproduction": false,
+          "needs_composed_slot": false,
+          "qualifiers": [],
+          "registered_constraint_id": null,
+          "semantically_unreachable_by_reproduction": null
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-C-006",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [
+              "kalınlığın artırılması gereken durum"
+            ],
+            "must_express": [
+              "Kalınlığın artırılması gerektiğinde müteakip tabaka(lar), önceki tabakanın mukavemeti sonradan tatbik edilecek tabakayı taşıyacak yeterli mertebeye ulaşmadan uygulanmayacaktır."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-C-006-SLOT-1",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000087-8d778c37de30"
+            ]
+          }
+        ],
+        "subsection_id": "D",
+        "unit_slots": 1
+      },
+      {
+        "claim_id": "SEC-02-2-C-012",
+        "selection": {
+          "has_qualifier": false,
+          "lexically_unreachable_by_reproduction": false,
+          "needs_composed_slot": false,
+          "qualifiers": [],
+          "registered_constraint_id": null,
+          "semantically_unreachable_by_reproduction": null
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-C-012",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [
+              "yaklaşık 20 °C",
+              "priz hızlandırıcı katkı kullanılmaması"
+            ],
+            "must_express": [
+              "Yaklaşık 20 °C sıcaklıkta ve herhangi bir priz hızlandırıcı katkı malzemesi kullanılmaz ise, sonraki katmanın uygulanması için bekleme süresi yaklaşık 3-5 saattir."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-C-012-SLOT-1",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000087-d989fc9aefbd"
+            ]
+          }
+        ],
+        "subsection_id": "D",
+        "unit_slots": 1
+      },
+      {
+        "claim_id": "SEC-02-2-C-009",
+        "selection": {
+          "has_qualifier": true,
+          "lexically_unreachable_by_reproduction": true,
+          "needs_composed_slot": true,
+          "qualifiers": [
+            {
+              "anchors": [
+                "kil",
+                "zonlu",
+                "tabakalara",
+                "özgüdür",
+                "katman",
+                "kalınlığı"
+              ],
+              "anchors_absent_from_canonical": [
+                "özgüdür",
+                "kalınlığı"
+              ],
+              "qualifier": "§351.08.10.02 kil zonlu tabakalara özgüdür; genel ilk katman kalınlığı değildir"
+            }
+          ],
+          "registered_constraint_id": "DQS-C009-001",
+          "semantically_unreachable_by_reproduction": true
+        },
+        "slots": [
+          {
+            "claim_id": "SEC-02-2-C-009",
+            "compose_or_reproduce": "reproduce_or_paraphrase",
+            "has_canonical_sentence_to_copy": true,
+            "must_also_carry_conditions": [
+              "kil zonlu tabakalar üzerine uygulama"
+            ],
+            "must_express": [
+              "Kil zonlu tabakalar üzerine püskürtme beton uygulamasında ilk püskürtme beton katmanı genellikle 100-150 mm'dir ve lif takviyeli olması tercih edilmelidir."
+            ],
+            "relationship_type": "INDEPENDENT",
+            "slot_id": "SEC-02-2-C-009-SLOT-1",
+            "slot_role": "CLAIM_STATEMENT",
+            "source_keys": [
+              "SRC-DOC000236-ad4b684b487a"
+            ]
+          },
+          {
+            "claim_id": "SEC-02-2-C-009",
+            "compose_or_reproduce": "compose",
+            "constraint_id": "DQS-C009-001",
+            "has_canonical_sentence_to_copy": false,
+            "must_also_carry_conditions": [
+              "kil zonlu tabakalar üzerine uygulama"
+            ],
+            "must_express": [
+              "§351.08.10.02 kil zonlu tabakalara özgüdür; genel ilk katman kalınlığı değildir"
+            ],
+            "must_not_imply": "the figure is a general rule outside the qualifier's declared scope",
+            "note": "This slot has no canonical sentence to copy. Copying is not an available strategy here; the meaning must be composed.",
+            "relationship_type": "INDEPENDENT",
+            "required_action": "State, in the paragraph, that the 100-150 mm first-layer figure applies to application on clay-zone layers and is not a general first-layer thickness - or drop the claim. Repeating the canonical sentence does not discharge this.",
+            "required_meaning": "The 100-150 mm first-layer figure is specific to application on clay-zone layers and is not a general first-layer thickness rule.",
+            "slot_id": "SEC-02-2-C-009-SLOT-2",
+            "slot_role": "QUALIFIER_SCOPE",
+            "source_keys": [
+              "SRC-DOC000236-ad4b684b487a"
+            ]
+          }
+        ],
+        "subsection_id": "D",
+        "unit_slots": 2
+      }
+    ],
+    "one_slot_claims": 14,
+    "rule": "A claim whose non-empty qualifier has at least one content anchor absent from its own canonical sentence, or which carries a registered qualifier-semantics entry that its canonical sentence does not satisfy, is allocated two bound unit slots. Every other allocated claim keeps one.",
+    "rule_is_general": "The rule reads the frozen allowlist and the frozen qualifier-semantics registry. It names no claim, and it selects nothing by hand.",
+    "selected_claim_ids": [
+      "SEC-02-2-C-002",
+      "SEC-02-2-C-009"
+    ],
+    "slot_order_rule": "A QUALIFIER_PRESERVATION constraint establishes what a reference is and its composed slot precedes the numbers; a QUALIFIER_SEMANTICS constraint restricts a figure already stated and follows it.",
+    "total_slots": 18,
+    "two_slot_claims": 2,
+    "why": "Attempt #2 reproduced canonical_claim verbatim for 14 of 16 single-claim units. Reproduction cannot reach a meaning the canonical sentence does not contain, and no unit was allocated for the part that has to be composed."
+  },
+  "validation_contract_version": "tunnelbook-draft-validation-contract-v1.2",
+  "validator_implementation": "scripts/54_section_draft_validator_v1_2.py",
+  "validator_version": "tunnelbook-section-draft-validator-v1.2",
+  "version": "tunnelbook-sec-02-2-draft-plan-v1.2",
+  "word_budget": {
+    "maximum": 1800,
+    "minimum": 1200,
+    "note": "A pilot section, not the finished chapter.",
+    "unit": "Turkish words"
+  }
+}

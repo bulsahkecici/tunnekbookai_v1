@@ -1,0 +1,507 @@
+{
+  "acceptance_contract_sha256": "117e9ea4b67e536d54bb0cd262e8860649f7415f600f66f4acc742ebca480560",
+  "accounting": {
+    "claim_specific_branches": 0,
+    "corpus_reads": 0,
+    "failure_codes_changed": 0,
+    "frozen_artifacts_modified": 0,
+    "generation_calls": 0,
+    "lexicon_entries_added": 0,
+    "pilot_2_authorised": false,
+    "qdrant_writes": 0,
+    "renders_released": 0,
+    "retrieval_calls": 0,
+    "validators_weakened": 0
+  },
+  "consistency": {
+    "exposed_claims": 16,
+    "holds_for_all": true,
+    "invariant": "required_roles ⊆ available_roles ⊆ realizable_roles",
+    "obligation_derivation": {
+      "claim_specific_branches": 0,
+      "claims_probed": 14,
+      "obligation_asserted": [
+        "SEC-02-2-P0-001"
+      ],
+      "obligation_withdrawn_vs_all_anchors_rule": [
+        "SEC-02-2-C-003",
+        "SEC-02-2-C-005",
+        "SEC-02-2-C-006",
+        "SEC-02-2-P0-006",
+        "SEC-02-2-P0-007",
+        "SEC-02-2-P0-008"
+      ],
+      "reimplemented": false,
+      "rule": "a CONDITION slot is required only where the unchanged Draft Validator v1.2, run on the claim's statement realization alone, raises CONDITION_DROPPED"
+    },
+    "pilot_1_contradiction": {
+      "both_upstream_defects_closed": true,
+      "claim_id": "SEC-02-2-C-005",
+      "condition_available": true,
+      "condition_realizable": true,
+      "contradiction_present": false,
+      "exposed_now": true,
+      "pilot_1_state": "requires_condition_slot=true with CONDITION absent from available_roles",
+      "requires_condition_slot": false
+    },
+    "violations": []
+  },
+  "feasibility": {
+    "claims_stated": [
+      "SEC-02-2-C-001",
+      "SEC-02-2-C-002",
+      "SEC-02-2-C-003",
+      "SEC-02-2-C-004",
+      "SEC-02-2-C-005",
+      "SEC-02-2-C-006",
+      "SEC-02-2-C-007",
+      "SEC-02-2-C-009",
+      "SEC-02-2-C-012",
+      "SEC-02-2-P0-001",
+      "SEC-02-2-P0-004",
+      "SEC-02-2-P0-005",
+      "SEC-02-2-P0-006",
+      "SEC-02-2-P0-007",
+      "SEC-02-2-P0-008",
+      "SEC-02-2-R001"
+    ],
+    "feasible": true,
+    "language_failures": [],
+    "mandatory_conditions_dropped": 0,
+    "mandatory_conditions_required": 19,
+    "mandatory_qualifiers_dropped": 0,
+    "mandatory_qualifiers_required": 2,
+    "material_units": 19,
+    "numeric_drift": 0,
+    "numeric_units": 0,
+    "plan_id": "SEC-02-2-FEASIBILITY-V2-1",
+    "relations_supported": true,
+    "required_core_claims_missing": [],
+    "required_core_claims_stated": [
+      "SEC-02-2-C-001",
+      "SEC-02-2-P0-001",
+      "SEC-02-2-P0-006",
+      "SEC-02-2-P0-007",
+      "SEC-02-2-P0-008",
+      "SEC-02-2-R001"
+    ],
+    "slots": 19,
+    "source_keys_valid": true,
+    "topics": {
+      "covered": 3,
+      "missing": [],
+      "required": 3,
+      "topics": [
+        "çimento dozajı",
+        "kaplama kalınlığı",
+        "dayanım sınıfı"
+      ]
+    },
+    "units": 19,
+    "universe_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+    "unrealizable_pairs_selected": [],
+    "validation": {
+      "histogram": {},
+      "rejected_unit_ids": [],
+      "status": "ACCEPT"
+    }
+  },
+  "frozen_code_sha256": {
+    "M1_plan_ir": "f183bdc2e1378df51528654a9d6f8d7bac570cb4208c75e1765714fdbea819a3",
+    "M2_realization_v2": "a5c94702f06291a7b5965afe06daf91864bddfb0f2202678c5d5c744083f6fe1",
+    "M3_morphology": "c5eb463070cf0aede2d580cc0df639daab94d1b0c0841c8263a7a46c2eae5706",
+    "M4_renderer": "38fcbfd8ca94917792c7b22ed2c7f37cf8ef2e2490c51326d4b1e5f8a6e6ebc4",
+    "M5_static_proof": "19277bdbb0c20217f6a6edaca47de7bc3d4c328bc151f322b1380d6bf0b55cd5",
+    "citation_renderer": "9cb5e81560a084617312552d06aee0d581f926c12680b277bfe45d86cf74b604",
+    "draft_language_validator_v1": "9d661c77bfef33071c85a9449f287e1b3b441353203d317567c10b8135aa808d",
+    "draft_validator_v1": "a72406aafdd40a266ad3ce9c3c886036a0d30cec5b4cf73c17e58de2f83a44e0",
+    "draft_validator_v1_1": "5adb41329da31c28722465d6d0613ee2dfacca6161a8f89038fe7d7b258d3713",
+    "draft_validator_v1_2": "0b0c870466668e4bb7b8e608d12358517eff6f4e019b9c8081426bff22cbfd7f",
+    "pilot_1": "fca0f1b5268541378593516371a3b87059a5cbb113573db0dc69f92d7b3f1e56"
+  },
+  "frozen_preflight": {
+    "architecture_v2_acceptance_contract_sha256": "c9766e437bd00222574d1aeee5ede17ff74a51bf5ae0cea37e0f3f496f6ebccd",
+    "architecture_v2_acceptance_contract_unamended": true,
+    "checked_at": "2026-08-20T04:49:13.868655+00:00",
+    "drift": 0,
+    "implementation_artifacts_checked": 4,
+    "implementation_artifacts_excluded": [
+      "M5_static_containment_proof_v2 — timestamped and re-derived; checked on substance"
+    ],
+    "implementation_drift": [],
+    "lexicon_sha256": {
+      "condition_glosses": "9a9f9176e53ba209677e522be55334d3ab6cc60a2972bb49ad104cf2df01a6ca",
+      "function_lexicon": "dbbb737e4e92d07802340711df0c63a8f1c02bd114ba50a16a3877e77640aa70",
+      "paraphrase_lexicon": "747479264f0182c5a459b225327a5ece807d5c6088b10c122fef411fbea8ae8c",
+      "translation_glosses": "d2fb00181183debbfb28166e789bc5824f779ff0b5f72089b3e6029b6f0eee9c"
+    },
+    "missing_frozen_code": [],
+    "pilot_1_drift": [],
+    "rethink_drift": [],
+    "rethink_inputs_checked": 15
+  },
+  "gate": {
+    "conditions": 20,
+    "contract_sha256": "117e9ea4b67e536d54bb0cd262e8860649f7415f600f66f4acc742ebca480560",
+    "contract_version": "tunnelbook-planner-universe-remediation-acceptance-contract-v1",
+    "unmet": [],
+    "verdict": "CLOSED / GO"
+  },
+  "generated_at": "2026-08-20T04:49:14.903978+00:00",
+  "historical_regression": {
+    "artifact_drift": [],
+    "artifacts_checked": 17,
+    "byte_identical": true,
+    "frozen_module_drift": [],
+    "frozen_modules_checked": 11,
+    "lexicon_drift": [],
+    "lexicons_checked": 4
+  },
+  "historical_sha256": {
+    "M1_semantic_plan_ir_contract_v2": "d462cb8e7e7a5c28c16e0475b6ddb5986b5c27f17aa4e38e2a50c033d4fe09b3",
+    "M2_claim_realization_contract_v2": "0ef4ff616f6d7581520c2c310f674e97509c0970e549672c3575b60998e2d547",
+    "M3_turkish_morphology_v2": "f22896fa1dd0efec091dfb589de98104ab54de4b708b76b6d57ba266b94bbf54",
+    "M5_negative_fixtures_v2": "1dd062950c72aafa47d725acee63bcddd0929a2df33b8f18f23010df2bb80a38",
+    "M5_realization_universe_v2": "29e49f2f5d3a8c6b461687023a4f2a36b25b025f6d6dc093abe51bf912dbfc95",
+    "M5_static_containment_proof_v2_as_found": "e13bc4df002741e07b570d56df8d09428e7d80d0c50490ba7d11b9a53f65c616",
+    "architecture_v2_acceptance_contract_v1": "c9766e437bd00222574d1aeee5ede17ff74a51bf5ae0cea37e0f3f496f6ebccd",
+    "composition_safe_allowlist_v1": "e637ca19eca8bb28a5e1e369cb9df7eba6566f6b57d503ca34cf895bff7cf42b",
+    "draft_language_contract_v1": "69922db07a9bf11d1da7cf56cfd3c2fbd4d0c2c02e41e75c4aa504f1ba986689",
+    "draft_plan_v1_2": "951ab44b89de8f498252d325d7440f23c2ca544f7b91ed1757cde997d07df629",
+    "pilot_1_feasibility": "6117ff159a2d6a7100f078c6e18a13c52524ee374d01375a5e520367527eb5e1",
+    "pilot_1_option_set": "9c9948cb5a8a0a1435cb4c440565d3aa37b8eb28d57ed00117b4bc54a9d20428",
+    "pilot_1_plan": "4b15bf7e85978d6f8df515e4d62aea692fa74559846db877522e8f7be55d7d60",
+    "pilot_1_pre_generation_gate": "4bcb34e2a228068eea8695d5c3ac3ccf3386a2639c944550a5077f3d5f5aefa5",
+    "pilot_1_raw_plan": "90b7739022055bb0690f07c9ef88a4c50d46fdb7e5c32eb8c900bf65b145507d",
+    "pilot_1_validation": "8b0cbe61986b84f602285c193a1909353b8c368c7cacaf5ff756f6ca2d372278",
+    "section_drafting_contract_v1": "f1fffd9c93d3bcba8e4f67f2fbd666e9b113fd9a783d207ada00cfd5fa68d7bc"
+  },
+  "lexicon_sha256": {
+    "condition_glosses": "9a9f9176e53ba209677e522be55334d3ab6cc60a2972bb49ad104cf2df01a6ca",
+    "function_lexicon": "dbbb737e4e92d07802340711df0c63a8f1c02bd114ba50a16a3877e77640aa70",
+    "paraphrase_lexicon": "747479264f0182c5a459b225327a5ece807d5c6088b10c122fef411fbea8ae8c",
+    "translation_glosses": "d2fb00181183debbfb28166e789bc5824f779ff0b5f72089b3e6029b6f0eee9c"
+  },
+  "m2_v2_1": {
+    "delta": {
+      "net_widening": 3,
+      "newly_realizable": [
+        {
+          "claim_id": "SEC-02-2-C-004",
+          "from": "UNREALIZABLE",
+          "realization_role": "CONDITION",
+          "to": "REALIZABLE"
+        },
+        {
+          "claim_id": "SEC-02-2-C-005",
+          "from": "UNREALIZABLE",
+          "realization_role": "CONDITION",
+          "to": "REALIZABLE"
+        },
+        {
+          "claim_id": "SEC-02-2-C-007",
+          "from": "UNREALIZABLE",
+          "realization_role": "CONDITION",
+          "to": "REALIZABLE"
+        }
+      ],
+      "newly_unrealizable": [],
+      "only_widens": true,
+      "pairs": 189,
+      "v2_1_realizable": 80,
+      "v2_1_unrealizable": 109,
+      "v2_realizable": 77,
+      "v2_unrealizable": 112
+    },
+    "language_rule": {
+      "claims_by_language": {
+        "ENGLISH": [
+          "SEC-02-2-P0-007",
+          "SEC-02-2-P0-008",
+          "SEC-02-2-R025"
+        ],
+        "TURKISH": [
+          "SEC-02-2-C-001",
+          "SEC-02-2-C-002",
+          "SEC-02-2-C-003",
+          "SEC-02-2-C-004",
+          "SEC-02-2-C-005",
+          "SEC-02-2-C-006",
+          "SEC-02-2-C-007",
+          "SEC-02-2-C-008",
+          "SEC-02-2-C-009",
+          "SEC-02-2-C-010",
+          "SEC-02-2-C-011",
+          "SEC-02-2-C-012",
+          "SEC-02-2-C-013",
+          "SEC-02-2-C-014",
+          "SEC-02-2-C-015",
+          "SEC-02-2-C-016",
+          "SEC-02-2-C-017",
+          "SEC-02-2-P0-001",
+          "SEC-02-2-P0-002",
+          "SEC-02-2-P0-003",
+          "SEC-02-2-P0-004",
+          "SEC-02-2-P0-005",
+          "SEC-02-2-P0-006",
+          "SEC-02-2-R001"
+        ]
+      },
+      "corroboration": {
+        "claims_checked": 27,
+        "detector": "tunnelbook-lexical-orthographic-detector-v1",
+        "mismatches": [],
+        "rows": [
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-001",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-002",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-003",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-004",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-005",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-006",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-007",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-008",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-009",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-010",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-011",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-012",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-013",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-014",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-015",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-016",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-C-017",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-P0-001",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-P0-002",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-P0-003",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-P0-004",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-P0-005",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-P0-006",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-P0-007",
+            "declared_language": "ENGLISH",
+            "frozen_detector_verdict": "en"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-P0-008",
+            "declared_language": "ENGLISH",
+            "frozen_detector_verdict": "en"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-R001",
+            "declared_language": "TURKISH",
+            "frozen_detector_verdict": "tr"
+          },
+          {
+            "agrees": true,
+            "claim_id": "SEC-02-2-R025",
+            "declared_language": "ENGLISH",
+            "frozen_detector_verdict": "en"
+          }
+        ]
+      },
+      "cross_language_collisions": [],
+      "distinct_fields_indexed": 60,
+      "inputs": [
+        "section_drafting_contract_v1.translation_glosses",
+        "section_drafting_contract_v1.condition_glosses",
+        "composition_safe_allowlist_v1.canonical_claim/conditions/qualifiers",
+        "draft_language_contract_v1 (corroboration only)"
+      ],
+      "not_used": [
+        "diacritic or character heuristics",
+        "LLM language judgement",
+        "external language detection libraries",
+        "new lexicon or gloss entries"
+      ],
+      "principle": "A frozen claim field carries the language of its claim. A claim is English-source exactly when the frozen drafting contract holds a translation or condition gloss mapping for it. Corroborated against the frozen Draft Language Validator; a disagreement fails the build.",
+      "rule_version": "tunnelbook-claim-source-language-rule-v2-1",
+      "unattested_policy": "refused — a string outside the frozen fields is not material"
+    },
+    "path": "data/book/drafting/sec_02_2/architecture_v2/contracts/claim_realization_contract_v2_1.json",
+    "sha256": "6d0b3e3ff5619d23fe6896cbf97d0fa010c2ac732c5222d004e06c475fb19eb7"
+  },
+  "negative_fixtures": {
+    "all_rejected": true,
+    "count": 14,
+    "not_rejected": [],
+    "rejected": 14
+  },
+  "phase": "ARCHITECTURE V2 PLANNER OPTION UNIVERSE REMEDIATION V1",
+  "planner_option_universe": {
+    "artifact_sha256": "d04fd4f475880dc6c2c4ca632a34995b8bb9421e09caf1cbb9ddc000d0efa322",
+    "claims_allocated": 16,
+    "claims_excluded": 0,
+    "claims_exposed": 16,
+    "construction_violations": [],
+    "exclusions": [],
+    "path": "data/book/drafting/sec_02_2/architecture_v2/contracts/planner_option_universe_v2_1.json",
+    "sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000"
+  },
+  "planner_payload": {
+    "load_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+    "model_called": false,
+    "options": 16,
+    "payload_version": "tunnelbook-architecture-v2-planner-payload-v2-1",
+    "universe_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+    "unrealizable_pairs_exposed": 0
+  },
+  "section_id": "SEC-02-2",
+  "static_proof_v2_1": {
+    "determinism": {
+      "cross_process_identical": true,
+      "cross_process_sha256": "9e372da085f31c98ec78c7fb4a55123c92671eed993b922b1c41811128f89b4e",
+      "cross_process_stderr": "",
+      "in_process_identical": true,
+      "in_process_runs": 3,
+      "in_process_sha256": "9e372da085f31c98ec78c7fb4a55123c92671eed993b922b1c41811128f89b4e"
+    },
+    "failure_histogram": {},
+    "false_accepts": [],
+    "false_rejects": [],
+    "negative_fixtures": {
+      "count": 21,
+      "false_accepts": [],
+      "rejected": 21
+    },
+    "realization_contract": "tunnelbook-claim-realization-contract-v2-1",
+    "status": "PASS",
+    "universe": {
+      "accepted_cases": 184,
+      "claim_role_pairs": 189,
+      "claims": 27,
+      "enumerated_cases": 184,
+      "pairs_no_permitted_plan_contains": 1,
+      "realizable_pairs": 80,
+      "rendered_units": 358,
+      "roles": 7,
+      "unrealizable_pairs": 109
+    },
+    "unrealizable_refusals": {
+      "checked": 109,
+      "leaked": [],
+      "refused": 109
+    },
+    "validator_changed": false,
+    "validator_version": "tunnelbook-section-draft-validator-v1.2",
+    "version": "tunnelbook-static-containment-proof-v2-1",
+    "zero_tolerance_violations": {}
+  },
+  "version": "tunnelbook-architecture-v2-planner-universe-remediation-v1"
+}

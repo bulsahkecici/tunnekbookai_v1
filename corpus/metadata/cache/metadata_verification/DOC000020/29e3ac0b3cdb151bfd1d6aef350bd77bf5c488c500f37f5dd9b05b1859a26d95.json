@@ -1,0 +1,15 @@
+{
+  "document_id": "DOC000020",
+  "field": "organization",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "processed_at": "2026-08-15T23:47:19+00:00",
+  "prompt_version": "metadata-verification-v1.2",
+  "response": {
+    "confidence": "low",
+    "evidence": "Fermilab is referenced as a site location, not the document's organization.",
+    "relationship": "insufficient",
+    "value": ""
+  },
+  "retries": 0,
+  "source_sha256": "6935929ec3c5b865ccdbc939924945c3b5a05459da955ce7417a6f72c076f16e"
+}

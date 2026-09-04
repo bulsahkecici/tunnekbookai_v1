@@ -1,0 +1,235 @@
+{
+  "section_id": "CH-A-S01",
+  "decision": "HOLD",
+  "summary": {
+    "supported": 24,
+    "partially_supported": 1,
+    "unsupported": 0,
+    "scope_leakage": 7,
+    "unsupported_source_identity": 0,
+    "redundancy": 1
+  },
+  "sentence_audit": [
+    {
+      "sentence": "Tünel, genel kabul gören tanımıyla etrafındaki toprak veya kaya kütlesi içine kazılarak açılan, yalnızca giriş ve çıkış noktalarında açık kalan, kapalı bir yeraltı geçidi olarak tanımlanır; bu açıklıklar genellikle her iki uçta konumlanır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-001"],
+      "reason": "Evidence'daki REM-001 ile birebir örtüşür, qualifier 'commonly at each end' korunmuştur."
+    },
+    {
+      "sentence": "Geometrik olarak nispeten uzun ve dardır; uzunluğu çapının genellikle iki katından çok daha fazladır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-002"],
+      "reason": "Evidence'daki REM-002 ile uyumlu, 'often much greater than twice the diameter' sınırlayıcısı korunmuştur."
+    },
+    {
+      "sentence": "Yapısal ve işlevsel özellikler açısından tünel, çizgisel-tüp şeklinde bir yapıdır ve yeraltı kaya yapısı olarak kabul edilir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-026", "CH-A-S01-REM-027"],
+      "reason": "Evidence'daki REM-026 ve REM-027 ile desteklenir."
+    },
+    {
+      "sentence": "Tünel tanımı, kaynaklardan kaynağa geniş bir değişkenlik gösterebilmektedir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-003"],
+      "reason": "Evidence'daki REM-003 ile doğrudan eşleşir."
+    },
+    {
+      "sentence": "Bu çeşitlilik, tünelin neyin bir tünel sayılacağını belirleyen kriterlerin bağlama göre farklılaşmasından kaynaklanır ve literatürde tek bir mutlak tanımın bulunmadığını gösterir.",
+      "status": "PARTIALLY_SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-003"],
+      "reason": "Ana fikir REM-003 ile desteklenir ancak 'tek bir mutlak tanımın bulunmadığını gösterir' kısmı evidence'daki qualifier'a eklenmiş çıkarımdır."
+    },
+    {
+      "sentence": "Belirli yargı bölgelerinde ve standartlarda tünel tanımı, açık uzunluk veya çap eşikleri ile sınırlandırılmıştır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-004", "CH-A-S01-REM-005"],
+      "reason": "Genel ifade, REM-004 ve REM-005'in bağlamsal sınırlamasıyla uyumludur."
+    },
+    {
+      "sentence": "Birleşik Krallık’ta karayolu tüneli, uzunluğu 150 metre veya daha fazla olan, yeraltı otoyol yapısı olarak kapatılmış bir yapı olarak tanımlanır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-004"],
+      "reason": "Evidence'daki REM-004 ile tam uyumlu."
+    },
+    {
+      "sentence": "Bu tanım, yalnızca ilgili yargı bölgelerindeki altyapı veya düzenleyici bağlamlar için geçerlidir ve genel bir tünel tanımı olarak genişletilemez.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-004"],
+      "reason": "Evidence limitations'da belirtilen 'limiting its general applicability to UK road infrastructure' kısıtı korunmuştur."
+    },
+    {
+      "sentence": "Amerika Birleşik Devletleri’nde Ulusal Yangından Korunma Derneği (NFPA) ise bir tüneli, tasarımı gereği 23 metreden uzun ve çapı 1.800 milimetreden büyük olan yeraltı yapısı olarak tanımlamaktadır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-005"],
+      "reason": "Evidence'daki REM-005 ile tam uyumlu."
+    },
+    {
+      "sentence": "Bu tür spesifik tanımlar, yalnızca ilgili yargı bölgelerindeki altyapı veya düzenleyici bağlamlar için geçerlidir ve genel bir tünel tanımı olarak genişletilemez.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-005"],
+      "reason": "Evidence limitations'da belirtilen 'limiting its general applicability to US regulatory contexts' kısıtı korunmuştur."
+    },
+    {
+      "sentence": "Türk mühendislik literatüründe ve resmi düzenlemelerde tünel, ulaşım veya iletim amacıyla projelendirilmiş güzergahı, profili ve kesiti önceden belirlenmiş, yer altı geçişini sağlayan yapı olarak ifade edilir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-006"],
+      "reason": "Evidence'daki REM-006 ile doğrudan eşleşir."
+    },
+    {
+      "sentence": "Bu tanım, ulaşım veya taşın yolunun yer üstünden geçirilmesinin teknik olarak mümkün olmadığı veya ekonomik açıdan uygun bulunmadığı durumlarda geçerlidir ve Bozkurt (1970) tarafından verilmiştir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-008", "CH-A-S01-REM-009"],
+      "reason": "Evidence'daki REM-008 ve REM-009 ile desteklenir, kaynak kimliği (Bozkurt 1970) evidence'da açıkça geçmektedir."
+    },
+    {
+      "sentence": "Karayolu taşımacılığı bağlamında tünel, trafik geçişine imkan sağlayan yer altı karayolu sanat yapısıdır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-036"],
+      "reason": "Evidence'daki REM-036 ile tam uyumlu."
+    },
+    {
+      "sentence": "Ayrıca, demiryolu, karayolu, yaya yolu veya kanal gibi ulaşım veya taşın yolunun bir kısmının yeraltından geçirilmesine imkan tanıyan tüm yer altı yapılarını kapsar.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-007"],
+      "reason": "Evidence'daki REM-007 ile doğrudan eşleşir."
+    },
+    {
+      "sentence": "Tünelin tanımı, bakış açısına göre farklı disiplinler tarafından şekillendirilir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [],
+      "reason": "Genel geçiş cümlesi, sonraki perspektif tanımlarının evidence'da yer almasıyla desteklenir."
+    },
+    {
+      "sentence": "Mimar perspektifinden tünel; boyut ve biçimi ile kullanımı ve görsel nitelikleri amaca göre tanımlanmış, içinden geçilebilen oyulmuş bir mekan olarak nitelendirilir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-029"],
+      "reason": "Evidence'daki REM-029 ile uyumlu, 'Mimar perspektifi' sınırlayıcısı korunmuştur."
+    },
+    {
+      "sentence": "Madencilik perspektifi ise tüneli, içi boşaltılması (kazılması) gereken bir yeraltı açıklığı olarak tanımlar.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-030"],
+      "reason": "Evidence'daki REM-030 ile uyumlu, 'Madencilik perspektifi' sınırlayıcısı korunmuştur."
+    },
+    {
+      "sentence": "İnşaat mühendisliği perspektifinden bakıldığında tünel; tanımlanan yüklenme koşullarını karşılayan ve projesine uygun olarak dayanıklı ve nitelikli şekilde oluşturulması gereken bir taşıyıcı sistemdir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-031"],
+      "reason": "Evidence'daki REM-031 ile uyumlu, 'Mühendislik/İnşaat perspektifi' sınırlayıcısı korunmuştur."
+    },
+    {
+      "sentence": "Günümüzün gelişmiş mühendislik perspektifi ise tüneli, çevre kayaçlarıyla birlikte çalışan kalıcı nitelikteki bütünleşik bir geoteknolojik sistem, yani yer içi geçiş yapısı olarak tanımlar.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-032"],
+      "reason": "Evidence'daki REM-032 ile uyumlu, 'Modern mühendislik perspektifi' sınırlayıcısı korunmuştur."
+    },
+    {
+      "sentence": "Mühendislik modellemelerinde tünel, yeraltı kes-kapa kutu kesiti olarak tanımlanır.",
+      "status": "SCOPE_LEAKAGE",
+      "supporting_claim_ids": ["CH-A-S01-REM-021"],
+      "reason": "Scope kuralları 'yapısal detaylar' ve 'yapım/yönetim prosedürleri' bölüm dışı ilan eder. Kes-kapa kutu tanımı yapısal detay kapsamına girer."
+    },
+    {
+      "sentence": "İç mekan boyutları belirli bir genişlik ve yükseklikle, toplam kesit ölçüleri ise daha büyük dış sınırlarla belirtilir.",
+      "status": "SCOPE_LEAKAGE",
+      "supporting_claim_ids": ["CH-A-S01-REM-022"],
+      "reason": "Belirli ölçü değerleri vermek yapısal detay kapsamına girer ve scope dışıdır."
+    },
+    {
+      "sentence": "Yapısal bileşenler, belirli kalınlıklarda beton duvar ve plakalardan oluşur.",
+      "status": "SCOPE_LEAKAGE",
+      "supporting_claim_ids": ["CH-A-S01-REM-023"],
+      "reason": "Yapısal bileşen kalınlıkları yapısal detay kapsamına girer ve scope dışıdır."
+    },
+    {
+      "sentence": "Malzeme özellikleri ise beton, toprak ve su birim ağırlıkları ile tanımlanır.",
+      "status": "SCOPE_LEAKAGE",
+      "supporting_claim_ids": ["CH-A-S01-REM-024"],
+      "reason": "Malzeme birim ağırlıkları yapısal/modelleme detayı kapsamına girer ve scope dışıdır."
+    },
+    {
+      "sentence": "Tünel yapısal olarak, bileşenlerin merkezleri boyunca konumlanmış bağlantılarla birbirine bağlanan rijit bir çerçeve olarak modellenir.",
+      "status": "SCOPE_LEAKAGE",
+      "supporting_claim_ids": ["CH-A-S01-REM-025"],
+      "reason": "Rijit çerçeve modellemesi yapısal detay kapsamına girer ve scope dışıdır."
+    },
+    {
+      "sentence": "Tanım kapsamında, tünel; yer altındaki kalıcı açıklık ile bu açıklığın çevresindeki etkilenen ve etkileyen doğal ortamın, uygun kazı, iyileştirme, sağlamlaştırma ve destekleme önlemleri ile oluşturulan güvenli, kalıcı ve denetlenebilir üç boyutlu bir teknik sistemdir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-014", "CH-A-S01-REM-028"],
+      "reason": "Evidence'daki REM-014 ve REM-028 ile tam uyumlu."
+    },
+    {
+      "sentence": "Yeraltında yapılacak kazı ile istenilen kesitte boşluk oluşturulması ve desteklenmesiyle inşa edilen yeraltı yapısı olarak da ifade edilmektedir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-015"],
+      "reason": "Evidence'daki REM-015 ile doğrudan eşleşir."
+    },
+    {
+      "sentence": "Su altı geçişlerini sağlayan daldırma tüneli türü, bir su kütlesini aşmak üzere kullanılır;",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-010"],
+      "reason": "Evidence'daki REM-010 ile uyumlu."
+    },
+    {
+      "sentence": "bu yöntemde tünel bölümleri genellikle 91 ila 137 metre uzunluğunda olup önceden kazılmış bir hendek içine yerleştirilir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-011"],
+      "reason": "Evidence'daki REM-011 ile uyumlu, 'usually' sınırlayıcısı korunmuştur."
+    },
+    {
+      "sentence": "İnşaat yöntemi, tünel bölümlerinin saha dışında inşa edilmesini, sahaya taşınmasını, önceden kazılmış hendek içine yerleştirilmesini, eklenip bağlanmasını, ballast veya çapa ile sabitlemeyi ve kazının geri doldurulmasını içerir.",
+      "status": "SCOPE_LEAKAGE",
+      "supporting_claim_ids": ["CH-A-S01-REM-012"],
+      "reason": "Scope kuralları 'daldırma tüneli yapım prosedürleri'ni açıkça dışlar. İnşaat adımlarının detaylandırılması scope sızıntısıdır."
+    },
+    {
+      "sentence": "Tünelin üst kısmı, yeterli koruyucu bir geri dolgu için en az 1.5 metre orijinal tabandan aşağıda olmalıdır.",
+      "status": "SCOPE_LEAKAGE",
+      "supporting_claim_ids": ["CH-A-S01-REM-013"],
+      "reason": "Geri dolgu kalınlığı gereksinimi inşaat/yapım prosedürü detayıdır ve scope dışıdır."
+    },
+    {
+      "sentence": "Karayolu tüneli tanımı, Amerikan Devlet Yolları ve Ulaştırma Görevlileri Birliği (AASHTO) Tüneller Teknik Komitesi (T-20) tarafından, yapı tipi veya inşaat yöntemi ne olursa olsun, araç erişiminin yalnızca portal noktalarıyla sınırlı olduğu kapatılmış yollar olarak tanımlanır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-033"],
+      "reason": "Evidence'daki REM-033 ile uyumlu, kaynak kimliği (AASHTO T-20) evidence'da açıkça desteklenir."
+    },
+    {
+      "sentence": "Bu tanım, otoyol köprüleri, demiryolu köprüleri veya diğer köprüler tarafından oluşturulan kapatılmış yolları kapsamaz ve tüm tünel yapı tipleri ile inşaat yöntemlerini kapsar.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-034", "CH-A-S01-REM-035"],
+      "reason": "Evidence'daki REM-034 ve REM-035 ile tam uyumlu."
+    },
+    {
+      "sentence": "Su altı tüneller, yer yüzeyini bozmadan inşa edilen yapay su altı geçişleridir ve çoğunlukla ulaşım amaçlı kullanılır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-037", "CH-A-S01-REM-038"],
+      "reason": "Evidence'daki REM-037 ve REM-038 ile uyumlu, 'mostly' sınırlayıcısı korunmuştur."
+    }
+  ],
+  "source_identity_issues": [],
+  "scope_issues": [
+    {
+      "text": "Mühendislik modellemelerinde tünel, yeraltı kes-kapa kutu kesiti olarak tanımlanır. İç mekan boyutları belirli bir genişlik ve yükseklikle, toplam kesit ölçüleri ise daha büyük dış sınırlarla belirtilir. Yapısal bileşenler, belirli kalınlıklarda beton duvar ve plakalardan oluşur. Malzeme özellikleri ise beton, toprak ve su birim ağırlıkları ile tanımlanır. Tünel yapısal olarak, bileşenlerin merkezleri boyunca konumlanmış bağlantılarla birbirine bağlanan rijit bir çerçeve olarak modellenir.",
+      "reason": "Scope kuralları 'yapısal detaylar'ı bölüm dışı ilan eder. Kesit ölçüleri, malzeme birim ağırlıkları ve rijit çerçeve modellemesi yapısal detay kapsamına girdiği için scope sızıntısı oluşturur."
+    },
+    {
+      "text": "İnşaat yöntemi, tünel bölümlerinin saha dışında inşa edilmesini, sahaya taşınmasını, önceden kazılmış hendek içine yerleştirilmesini, eklenip bağlanmasını, ballast veya çapa ile sabitlemeyi ve kazının geri doldurulmasını içerir. Tünelin üst kısmı, yeterli koruyucu bir geri dolgu için en az 1.5 metre orijinal tabandan aşağıda olmalıdır.",
+      "reason": "Scope kuralları 'daldırma tüneli yapım prosedürleri'ni açıkça dışlar. İnşaat adımları ve geri dolgu kalınlığı gereksinimi yapım prosedürü detayı olduğu için scope sızıntısı oluşturur."
+    }
+  ],
+  "qualifier_issues": [],
+  "redundancy_issues": [
+    {
+      "text": "Bu tanım, yalnızca ilgili yargı bölgelerindeki altyapı veya düzenleyici bağlamlar için geçerlidir ve genel bir tünel tanımı olarak genişletilemez.",
+      "reason": "Birleşik Krallık ve ABD tanımlarını takip eden cümleler birebir aynı sınırlayıcı ifadeyi tekrar eder. Tekrar gereksiz biçimde yapılmıştır."
+    }
+  ],
+  "required_actions": [
+    "Scope dışı ilan edilen 'yapısal detaylar' ve 'daldırma tüneli yapım prosedürleri' kapsamındaki cümleler (kesit/boyut/malzeme/rijit çerçeve modellemesi ve daldırma tüneli inşaat adımları/geri dolgu kalınlığı) ilgili sonraki bölümlere (Yapısal Detaylar, Yapım Yöntemleri) taşınmalıdır.",
+    "Birleşik Krallık ve ABD tanımlarını takip eden aynı sınırlayıcı cümle birleştirilmeli veya tek bir genel geçerlilik uyarısı olarak düzenlenmelidir.",
+    "Scope sızıntıları giderildikten sonra bölüm yeniden denetlenerek 'PASS' kararı verilebilir."
+  ]
+}

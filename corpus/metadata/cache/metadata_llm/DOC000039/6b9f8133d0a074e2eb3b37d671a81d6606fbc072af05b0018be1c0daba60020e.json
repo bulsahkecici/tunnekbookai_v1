@@ -1,0 +1,48 @@
+{
+  "document_id": "DOC000039",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:53:00+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "IPA is the government's centre of expertise for infrastructure and major projects, joint reporting to HM Treasury and the Cabinet Office. [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "This paper describes a recent re-benchmarking exercise carried out in 2018. It sets out the methodology adopted, the results, and recommendations for their future use.",
+      "value": "technical_report"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "the Infrastructure and Projects Authority (IPA) is developing a new top-down benchmarking methodology",
+      "value": "Infrastructure and Projects Authority (IPA)"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "Case Study: Benchmarking tunnelling costs and production rates in the UK",
+      "value": "Benchmarking tunnelling costs and production rates in the UK"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Case Study: Benchmarking tunnelling costs and production rates in the UK",
+      "value": [
+        "case_study",
+        "cost"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "In September 2018, in collaboration with the British Tunnelling Society (BTS), a tunnelling forum was held",
+      "value": 2018
+    }
+  },
+  "source_sha256": "dfe9d01daa14dd6f5dd17db9037e84f2b920a31e89740b66d8ab438162ab11d0"
+}

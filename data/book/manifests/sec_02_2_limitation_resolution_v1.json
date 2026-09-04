@@ -1,0 +1,954 @@
+{
+  "artifact_shas": {
+    "audits/composition_regression_v1.json": "b18236cc4bf9943501987c0f7479942500e1a31c0568690d65131e9d646fd769",
+    "audits/p0_manifest_consistency_carried_v1.json": "444e697aaaf4fe1e27169f19dc44aeef6c8d336f0fb77b5b7e8efaa03c915fd4",
+    "audits/required_topic_coverage_after_constraints_v1.json": "7ed07336820d3f0315eb6d55f4769c7ab2e79c0c83119e6494f2a6f86a16521f",
+    "bundle/sec_02_2_drafting_safety_bundle_v1.json": "1c8073a61cba9d1f6a2b945431b127538ff6daa43505a956a6c3ac63600db0ba",
+    "claims/claim_pair_constraints_v1.jsonl": "7b3a46258de4c53a804581573f7e39e7f30c9d76db9cb8daed67597a1f139cfb",
+    "claims/composition_denylist_v1.jsonl": "348086fb4ed58e4455ac94c4408f25c09b4759898fb343e5b2beddb9a343a60a",
+    "claims/composition_safe_allowlist_v1.jsonl": "e637ca19eca8bb28a5e1e369cb9df7eba6566f6b57d503ca34cf895bff7cf42b",
+    "contracts/sec_02_2_claim_composition_contract_v1.json": "8abfed5ba50b4f3fb1e6e496437587d781313a7b68905ab476db3751edcb8c6e"
+  },
+  "audit_method": "manual_evidence_read",
+  "canonical_retrieval_gap_count": 1,
+  "claim_pair_constraints": 6,
+  "claim_scopes": 27,
+  "code_mismatches": 0,
+  "composition_contract_version": "tunnelbook-sec-02-2-claim-composition-contract-v1",
+  "composition_denylist_claims": 45,
+  "composition_safe_allowlist_claims": 27,
+  "composition_validator_version": "tunnelbook-sec-02-2-claim-composition-validator-v1",
+  "created_at": "2026-08-19T11:24:15.573077+00:00",
+  "derived_numeric_rules": 1,
+  "drafting_authorized": false,
+  "drafting_enabled": false,
+  "failure_codes": [
+    "UNQUALIFIED_SCOPE",
+    "FORBIDDEN_SYNTHESIS",
+    "UNSUPPORTED_RELATION",
+    "DERIVED_VALUE_AS_SOURCE_STATED",
+    "CLAIM_NOT_ALLOWLISTED",
+    "CLAIM_SUPERSEDED",
+    "CLAIM_PARTIAL",
+    "CLAIM_UNSUPPORTED",
+    "MISSING_SOURCE_KEY",
+    "AMBIGUOUS_SCOPE"
+  ],
+  "false_accepts": 0,
+  "false_rejects": 0,
+  "final_readiness": "READY_FOR_DRAFT",
+  "fixture_count": 71,
+  "fixtures_passed": 71,
+  "fixtures_path": "data/evaluation/sec_02_2_claim_composition_v1.jsonl",
+  "fixtures_sha": "8c3a2064a8ad873515076e91ec5d72d68b8d44c05164b44fb5aac5360b33d4da",
+  "forbidden_synthesis_patterns": 10,
+  "forbidden_synthesis_rules": 1,
+  "frozen_integrity": {
+    "all_unchanged": true,
+    "changed": [],
+    "check_count": 98,
+    "checks": [
+      {
+        "actual_sha256": "8ada31f64d8ef51c3b4d3b8b04f3fcc3e9fb7338b1554d1a5a9118a3a231b071",
+        "baseline": "closure_v1",
+        "expected_sha256": "8ada31f64d8ef51c3b4d3b8b04f3fcc3e9fb7338b1554d1a5a9118a3a231b071",
+        "name": "Retriever v1",
+        "path": "scripts/19_retriever_v1.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "9bae1362a228b84dd7e3867babc352527755902b9078dd10648819bd396e4085",
+        "baseline": "closure_v1",
+        "expected_sha256": "9bae1362a228b84dd7e3867babc352527755902b9078dd10648819bd396e4085",
+        "name": "Prompt v5",
+        "path": "data/metadata/generation_system_prompt_v5.txt",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "5ebf8fe90e3e5491ce07a9143f8fd377841defa2e0e7a09188f3a835b07bdef5",
+        "baseline": "closure_v1",
+        "expected_sha256": "5ebf8fe90e3e5491ce07a9143f8fd377841defa2e0e7a09188f3a835b07bdef5",
+        "name": "Output Contract v1.1",
+        "path": "scripts/31_generation_output_contract_v1_1.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "1f89bdb86d99509820971155455802cf24d7b267a628bc7f85d093e3e10e76b2",
+        "baseline": "closure_v1",
+        "expected_sha256": "1f89bdb86d99509820971155455802cf24d7b267a628bc7f85d093e3e10e76b2",
+        "name": "Production Grounded Generator v1",
+        "path": "scripts/36_production_grounded_generator.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "35f150fe59238ba8fd0a3f46c560b4655c313d3335d476bc9a85f0bf9aaf2278",
+        "baseline": "closure_v1",
+        "expected_sha256": "35f150fe59238ba8fd0a3f46c560b4655c313d3335d476bc9a85f0bf9aaf2278",
+        "name": "Evidence Note Contract v1",
+        "path": "scripts/38_evidence_note_contract.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "caaacc5dd5a9f34021203a19c305a7f5f91327c343c01f7d1d8c012e36152ca5",
+        "baseline": "closure_v1",
+        "expected_sha256": "caaacc5dd5a9f34021203a19c305a7f5f91327c343c01f7d1d8c012e36152ca5",
+        "name": "Book Pipeline v1",
+        "path": "scripts/39_book_writing_pipeline.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "ba7276daf4d2f2b847f8e060df8764ae6dbdca5be18989c7b09a60c33ed53b21",
+        "baseline": "closure_v1",
+        "expected_sha256": "ba7276daf4d2f2b847f8e060df8764ae6dbdca5be18989c7b09a60c33ed53b21",
+        "name": "Pilot Manual Evidence Audit v1",
+        "path": "scripts/41_pilot_manual_evidence_audit_v1.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "4bcf5c9975ef0328eba159c34e7e2810491510dad6dc72b32ab10df1a777991d",
+        "baseline": "closure_v1",
+        "expected_sha256": "4bcf5c9975ef0328eba159c34e7e2810491510dad6dc72b32ab10df1a777991d",
+        "name": "Context v1",
+        "path": "scripts/20_rag_context.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "f72bf733ca9f230f5d7f231b2eb610c9100af15408a4dd7b3768aba13416d11f",
+        "baseline": "closure_v1",
+        "expected_sha256": "f72bf733ca9f230f5d7f231b2eb610c9100af15408a4dd7b3768aba13416d11f",
+        "name": "audited notes SEC-02-1",
+        "path": "data/book/evidence_notes_audited/SEC-02-1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "df5c69dd0552eee24107006d728e85dcdd94b5fb85a107480f4ca9795a2ea87c",
+        "baseline": "closure_v1",
+        "expected_sha256": "df5c69dd0552eee24107006d728e85dcdd94b5fb85a107480f4ca9795a2ea87c",
+        "name": "audited ledger SEC-02-1",
+        "path": "data/book/claim_ledgers_audited/SEC-02-1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "f6194823aa84f4e3a7c289373681f5300a9a5d9478ef9ec2d1d0e25c9f459eea",
+        "baseline": "closure_v1",
+        "expected_sha256": "f6194823aa84f4e3a7c289373681f5300a9a5d9478ef9ec2d1d0e25c9f459eea",
+        "name": "audited bundle SEC-02-1",
+        "path": "data/book/section_bundles_audited/SEC-02-1.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "2734b400c174e11a7a4a69c41d4ed40f604e7ba9e8d3984f9b83cfde282ab58b",
+        "baseline": "closure_v1",
+        "expected_sha256": "2734b400c174e11a7a4a69c41d4ed40f604e7ba9e8d3984f9b83cfde282ab58b",
+        "name": "original notes SEC-02-1",
+        "path": "data/book/evidence_notes/SEC-02-1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "46d736cefe1f59a17cacf2124870c5544800008abc176e545396ef7d7bd4b18f",
+        "baseline": "closure_v1",
+        "expected_sha256": "46d736cefe1f59a17cacf2124870c5544800008abc176e545396ef7d7bd4b18f",
+        "name": "audited notes SEC-02-2",
+        "path": "data/book/evidence_notes_audited/SEC-02-2.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "574f5c192af80fb7851b5b2d5911570a14a94fbbb78aa33940233038388a9eba",
+        "baseline": "closure_v1",
+        "expected_sha256": "574f5c192af80fb7851b5b2d5911570a14a94fbbb78aa33940233038388a9eba",
+        "name": "audited ledger SEC-02-2",
+        "path": "data/book/claim_ledgers_audited/SEC-02-2.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "2fa6434d285b72fc8a825169119f307a74d0b6ffbfefa770c734237e72a339bc",
+        "baseline": "closure_v1",
+        "expected_sha256": "2fa6434d285b72fc8a825169119f307a74d0b6ffbfefa770c734237e72a339bc",
+        "name": "audited bundle SEC-02-2",
+        "path": "data/book/section_bundles_audited/SEC-02-2.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "5a5f1e8981693449cfa24c5c0428f713e65fcf53c6740da7a8827509862735d9",
+        "baseline": "closure_v1",
+        "expected_sha256": "5a5f1e8981693449cfa24c5c0428f713e65fcf53c6740da7a8827509862735d9",
+        "name": "original notes SEC-02-2",
+        "path": "data/book/evidence_notes/SEC-02-2.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "ee17989f690d9558919c20f654c9925a89f30cfc77095d5dad1a5fff663e1a12",
+        "baseline": "closure_v1",
+        "expected_sha256": "ee17989f690d9558919c20f654c9925a89f30cfc77095d5dad1a5fff663e1a12",
+        "name": "audited notes SEC-02-3",
+        "path": "data/book/evidence_notes_audited/SEC-02-3.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "5409766c5bea791afd5592fae4fd3762fffc036a4a1a3390e81888899a407972",
+        "baseline": "closure_v1",
+        "expected_sha256": "5409766c5bea791afd5592fae4fd3762fffc036a4a1a3390e81888899a407972",
+        "name": "audited ledger SEC-02-3",
+        "path": "data/book/claim_ledgers_audited/SEC-02-3.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e5a4f79841c00d916e8d3f7de5f6b586c03409a4c95c0804bc4fa976d541b3e5",
+        "baseline": "closure_v1",
+        "expected_sha256": "e5a4f79841c00d916e8d3f7de5f6b586c03409a4c95c0804bc4fa976d541b3e5",
+        "name": "audited bundle SEC-02-3",
+        "path": "data/book/section_bundles_audited/SEC-02-3.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e521437ca5f6a9dfe5dc4544d43471b23a5644243c13261b9819ba4e60d8f0f9",
+        "baseline": "closure_v1",
+        "expected_sha256": "e521437ca5f6a9dfe5dc4544d43471b23a5644243c13261b9819ba4e60d8f0f9",
+        "name": "original notes SEC-02-3",
+        "path": "data/book/evidence_notes/SEC-02-3.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e8ae6cdbbad372abfa8c3cd6538d23e0fa3f15ef193309439e496f00da41bb79",
+        "baseline": "closure_v1",
+        "expected_sha256": "e8ae6cdbbad372abfa8c3cd6538d23e0fa3f15ef193309439e496f00da41bb79",
+        "name": "manual note audit",
+        "path": "data/book/audits/pilot_evidence_note_manual_audit_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "b33b3f21e86b572b4fcf950ef57e2496982cbed4129bcf0b84cd64a98cd1cdc4",
+        "baseline": "closure_v1",
+        "expected_sha256": "b33b3f21e86b572b4fcf950ef57e2496982cbed4129bcf0b84cd64a98cd1cdc4",
+        "name": "manual clause audit",
+        "path": "data/book/audits/pilot_clause_support_audit_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "39470da22539268b34ec04da4c30c8f20003980d8a3b82461af81aa83355f535",
+        "baseline": "closure_v1",
+        "expected_sha256": "39470da22539268b34ec04da4c30c8f20003980d8a3b82461af81aa83355f535",
+        "name": "conflict candidates v1",
+        "path": "data/book/audits/pilot_conflict_candidates_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "96c8803cdaeb869bea374d27ae9984837c08faa4d74f62a10b7089122aaa9fcb",
+        "baseline": "closure_v1",
+        "expected_sha256": "96c8803cdaeb869bea374d27ae9984837c08faa4d74f62a10b7089122aaa9fcb",
+        "name": "duplicate audit",
+        "path": "data/book/audits/pilot_duplicate_claim_audit_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e751fcfc3cc6828b05f75f494fd9a31b44388abda9daf83fb9581581ef79df5b",
+        "baseline": "closure_v1",
+        "expected_sha256": "e751fcfc3cc6828b05f75f494fd9a31b44388abda9daf83fb9581581ef79df5b",
+        "name": "chunks",
+        "path": "data/chunks/chunks.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "835fc871ee53253d4d95eca14c7c13d908f7d06e559cf657f71c954196fd07f7",
+        "baseline": "closure_v1",
+        "expected_sha256": "835fc871ee53253d4d95eca14c7c13d908f7d06e559cf657f71c954196fd07f7",
+        "name": "recovery chunks",
+        "path": "data/chunks_recovery/chunks.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "fa65463589f7e520dcc1e0c808501fac31a7548988dfba11deb00f751bb866cc",
+        "baseline": "closure_v1",
+        "expected_sha256": "fa65463589f7e520dcc1e0c808501fac31a7548988dfba11deb00f751bb866cc",
+        "name": "production audit log",
+        "path": "data/production/generation_audit_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "56d4097b7364233faa41fc23540242c88ae73ccf7a09c428c3f4625db6ead8e0",
+        "baseline": "closure_v1",
+        "expected_sha256": "56d4097b7364233faa41fc23540242c88ae73ccf7a09c428c3f4625db6ead8e0",
+        "name": "Book Pipeline Extractor v1.1",
+        "path": "scripts/42_book_pipeline_extractor_v1_1.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "9435b9ad52093dc439e85ee084a19de533decac83507319999bbce9e2599c0eb",
+        "baseline": "closure_v1",
+        "expected_sha256": "9435b9ad52093dc439e85ee084a19de533decac83507319999bbce9e2599c0eb",
+        "name": "remediation v1 artifact claim_ledgers_remediated_v1/SEC-02-1.jsonl",
+        "path": "data/book/claim_ledgers_remediated_v1/SEC-02-1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "ba2fa7629798a6a0c6f0ee2bad90d96adb24841291a888534575ad27d630ff25",
+        "baseline": "closure_v1",
+        "expected_sha256": "ba2fa7629798a6a0c6f0ee2bad90d96adb24841291a888534575ad27d630ff25",
+        "name": "remediation v1 artifact claim_ledgers_remediated_v1/SEC-02-2.jsonl",
+        "path": "data/book/claim_ledgers_remediated_v1/SEC-02-2.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "bf82e20ee72c2d2272bd110fda03b87bfd2093d01383965f001e1f9c19cd338a",
+        "baseline": "closure_v1",
+        "expected_sha256": "bf82e20ee72c2d2272bd110fda03b87bfd2093d01383965f001e1f9c19cd338a",
+        "name": "remediation v1 artifact claim_ledgers_remediated_v1/SEC-02-3.jsonl",
+        "path": "data/book/claim_ledgers_remediated_v1/SEC-02-3.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "c2b6c365d33d35a554baa66c841789bcfcdc993cd37ceb0217809777dadaa73a",
+        "baseline": "closure_v1",
+        "expected_sha256": "c2b6c365d33d35a554baa66c841789bcfcdc993cd37ceb0217809777dadaa73a",
+        "name": "remediation v1 artifact evaluation/book_pipeline_extractor_v1_1_regression.jsonl",
+        "path": "data/evaluation/book_pipeline_extractor_v1_1_regression.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "db97b1de628398fd5b9313c274632dd851db97c7b2e726a613e13dc843f06b69",
+        "baseline": "closure_v1",
+        "expected_sha256": "db97b1de628398fd5b9313c274632dd851db97c7b2e726a613e13dc843f06b69",
+        "name": "remediation v1 artifact evidence_notes_remediated_v1/SEC-02-1.jsonl",
+        "path": "data/book/evidence_notes_remediated_v1/SEC-02-1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "397ea6b7410a90230932f0ba59d0b98bd138c88179547b17eb3bb9d6fc418a48",
+        "baseline": "closure_v1",
+        "expected_sha256": "397ea6b7410a90230932f0ba59d0b98bd138c88179547b17eb3bb9d6fc418a48",
+        "name": "remediation v1 artifact evidence_notes_remediated_v1/SEC-02-2.jsonl",
+        "path": "data/book/evidence_notes_remediated_v1/SEC-02-2.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "1a08218a60295484e603044a882316f78110a1faafec7034d2092dd7f84c7eac",
+        "baseline": "closure_v1",
+        "expected_sha256": "1a08218a60295484e603044a882316f78110a1faafec7034d2092dd7f84c7eac",
+        "name": "remediation v1 artifact evidence_notes_remediated_v1/SEC-02-3.jsonl",
+        "path": "data/book/evidence_notes_remediated_v1/SEC-02-3.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "a8c4215ec8f2f808bf8608d477091919708952533ba15457f059cdb37aff68f4",
+        "baseline": "closure_v1",
+        "expected_sha256": "a8c4215ec8f2f808bf8608d477091919708952533ba15457f059cdb37aff68f4",
+        "name": "remediation v1 artifact remediation/clause_decomposition_v1_1.jsonl",
+        "path": "data/book/remediation/clause_decomposition_v1_1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "1886e5716757549e81dc4ab96fad8a9998b8f38bd017742e3b2d131b9e6520c1",
+        "baseline": "closure_v1",
+        "expected_sha256": "1886e5716757549e81dc4ab96fad8a9998b8f38bd017742e3b2d131b9e6520c1",
+        "name": "remediation v1 artifact remediation/conflict_candidates_v1_1.jsonl",
+        "path": "data/book/remediation/conflict_candidates_v1_1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "37aa10a3dcc7108af4f4a6f41dd9e27097425b73985e5ec63ebdccd244aa4e19",
+        "baseline": "closure_v1",
+        "expected_sha256": "37aa10a3dcc7108af4f4a6f41dd9e27097425b73985e5ec63ebdccd244aa4e19",
+        "name": "remediation v1 artifact remediation/cross_lingual_support_maps_v1.jsonl",
+        "path": "data/book/remediation/cross_lingual_support_maps_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "43c6f43a294ac8a515d307cf1514f1b57d81fce3a0123d25a5bfab797fc79ef8",
+        "baseline": "closure_v1",
+        "expected_sha256": "43c6f43a294ac8a515d307cf1514f1b57d81fce3a0123d25a5bfab797fc79ef8",
+        "name": "remediation v1 artifact remediation/literal_span_remediation_v1.jsonl",
+        "path": "data/book/remediation/literal_span_remediation_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "3d7eae9f11d4be5b088dff23e2c834d33e247e2ed69263e66a445d6f425fd7e8",
+        "baseline": "closure_v1",
+        "expected_sha256": "3d7eae9f11d4be5b088dff23e2c834d33e247e2ed69263e66a445d6f425fd7e8",
+        "name": "remediation v1 artifact remediation/non_proposition_remediation_v1.jsonl",
+        "path": "data/book/remediation/non_proposition_remediation_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "647c18f2fea37edfbd4bc6bbad8988d6e4a1f3284d129c39c81edb397ee37899",
+        "baseline": "closure_v1",
+        "expected_sha256": "647c18f2fea37edfbd4bc6bbad8988d6e4a1f3284d129c39c81edb397ee37899",
+        "name": "remediation v1 artifact remediation/numeric_remediation_v1.jsonl",
+        "path": "data/book/remediation/numeric_remediation_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "f3a41478625599c6c9d917f263aba9f5df778acdfab876c7d5d990bc5b9f0a92",
+        "baseline": "closure_v1",
+        "expected_sha256": "f3a41478625599c6c9d917f263aba9f5df778acdfab876c7d5d990bc5b9f0a92",
+        "name": "remediation v1 artifact remediation/split_note_remediation_v1.jsonl",
+        "path": "data/book/remediation/split_note_remediation_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "4536bcb0c68e35526ba54bf3dc3230269a57192223d0d388a3f19e4b76dcbd62",
+        "baseline": "closure_v1",
+        "expected_sha256": "4536bcb0c68e35526ba54bf3dc3230269a57192223d0d388a3f19e4b76dcbd62",
+        "name": "remediation v1 artifact section_bundles_remediated_v1/SEC-02-1.json",
+        "path": "data/book/section_bundles_remediated_v1/SEC-02-1.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "a75205dd98f78fbebad48e753544a7ea3b1a17f3236c7abc76424818cfc09677",
+        "baseline": "closure_v1",
+        "expected_sha256": "a75205dd98f78fbebad48e753544a7ea3b1a17f3236c7abc76424818cfc09677",
+        "name": "remediation v1 artifact section_bundles_remediated_v1/SEC-02-2.json",
+        "path": "data/book/section_bundles_remediated_v1/SEC-02-2.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "5199e11fa4195740bd240937565c2a43b36a65811b30ab6e6b82fa1b292ca869",
+        "baseline": "closure_v1",
+        "expected_sha256": "5199e11fa4195740bd240937565c2a43b36a65811b30ab6e6b82fa1b292ca869",
+        "name": "remediation v1 artifact section_bundles_remediated_v1/SEC-02-3.json",
+        "path": "data/book/section_bundles_remediated_v1/SEC-02-3.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "5c9e8fe257375a6afdf589a18ac4baa611c8f80e4f10f85528eda73a2971c766",
+        "baseline": "closure_v1",
+        "expected_sha256": "5c9e8fe257375a6afdf589a18ac4baa611c8f80e4f10f85528eda73a2971c766",
+        "name": "source registry v1 (must be untouched)",
+        "path": "data/book/source_registry_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "132a3a4e49c6774f6a9597877532a24efd5611b2d9a97b6fbc274d0791dfbf21",
+        "baseline": "closure_v1",
+        "expected_sha256": "132a3a4e49c6774f6a9597877532a24efd5611b2d9a97b6fbc274d0791dfbf21",
+        "name": "P0 Evidence Gap Resolution v1 (implementation)",
+        "path": "scripts/43_p0_evidence_gap_resolution_v1.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "6e8d558a4002125f3d625691dbad2ed9812e4fd41095e8394e1f7e1c6e686313",
+        "baseline": "closure_v1",
+        "expected_sha256": "6e8d558a4002125f3d625691dbad2ed9812e4fd41095e8394e1f7e1c6e686313",
+        "name": "p0 resolution v1 artifact p0_resolution/audits/p0_conflict_review_v1.jsonl",
+        "path": "data/book/p0_resolution/audits/p0_conflict_review_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "3f0663e3b5c0257968dee915931124b485c756b84e3fe0df25ab0f8f127a64f9",
+        "baseline": "closure_v1",
+        "expected_sha256": "3f0663e3b5c0257968dee915931124b485c756b84e3fe0df25ab0f8f127a64f9",
+        "name": "p0 resolution v1 artifact p0_resolution/audits/p0_dropped_syntheses_v1.jsonl",
+        "path": "data/book/p0_resolution/audits/p0_dropped_syntheses_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "58c76c5d512874210471613f1dec17ffecf3ad1983590e3f33f57df4a447303a",
+        "baseline": "closure_v1",
+        "expected_sha256": "58c76c5d512874210471613f1dec17ffecf3ad1983590e3f33f57df4a447303a",
+        "name": "p0 resolution v1 artifact p0_resolution/audits/p0_generation_attempts_v1.jsonl",
+        "path": "data/book/p0_resolution/audits/p0_generation_attempts_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "9ab93f19363c5767ae94192cb2042522b6b412d66c4da190555f06443f6fe25d",
+        "baseline": "closure_v1",
+        "expected_sha256": "9ab93f19363c5767ae94192cb2042522b6b412d66c4da190555f06443f6fe25d",
+        "name": "p0 resolution v1 artifact p0_resolution/audits/p0_numeric_review_v1.jsonl",
+        "path": "data/book/p0_resolution/audits/p0_numeric_review_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "01e9154946784d6eef4737f5be1845d2893922d62018ebc8e819686fa3f0a331",
+        "baseline": "closure_v1",
+        "expected_sha256": "01e9154946784d6eef4737f5be1845d2893922d62018ebc8e819686fa3f0a331",
+        "name": "p0 resolution v1 artifact p0_resolution/audits/p0_query_revisions_v1.jsonl",
+        "path": "data/book/p0_resolution/audits/p0_query_revisions_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "a86847a08dd35a30f8a6254f7890213ce45f8f4d11820e0b93d78c1d9d199a33",
+        "baseline": "closure_v1",
+        "expected_sha256": "a86847a08dd35a30f8a6254f7890213ce45f8f4d11820e0b93d78c1d9d199a33",
+        "name": "p0 resolution v1 artifact p0_resolution/audits/p0_retrieval_expansion_v1.jsonl",
+        "path": "data/book/p0_resolution/audits/p0_retrieval_expansion_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "cfa7b36cbb0257d3e08c08857a0b69f8c7e131c769bbb17e118f82b3045de63d",
+        "baseline": "closure_v1",
+        "expected_sha256": "cfa7b36cbb0257d3e08c08857a0b69f8c7e131c769bbb17e118f82b3045de63d",
+        "name": "p0 resolution v1 artifact p0_resolution/audits/p0_retrieval_gap_probes_v1.jsonl",
+        "path": "data/book/p0_resolution/audits/p0_retrieval_gap_probes_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "fd65d2138bfdabb131884a873c23720aa65d0e6f0a97e9d60755fe8c7a53b93c",
+        "baseline": "closure_v1",
+        "expected_sha256": "fd65d2138bfdabb131884a873c23720aa65d0e6f0a97e9d60755fe8c7a53b93c",
+        "name": "p0 resolution v1 artifact p0_resolution/audits/p0_span_verification_v1.jsonl",
+        "path": "data/book/p0_resolution/audits/p0_span_verification_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "bc2bd71c032f3ccd8c75b56ad15463a43d9be484270bb603434c01dfde2bb761",
+        "baseline": "closure_v1",
+        "expected_sha256": "bc2bd71c032f3ccd8c75b56ad15463a43d9be484270bb603434c01dfde2bb761",
+        "name": "p0 resolution v1 artifact p0_resolution/bundles/SEC-02-1.json",
+        "path": "data/book/p0_resolution/bundles/SEC-02-1.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "194d20b123c5a04e3a757b8046aa6a0ea9664339a0a9f6641925ccd4756347e6",
+        "baseline": "closure_v1",
+        "expected_sha256": "194d20b123c5a04e3a757b8046aa6a0ea9664339a0a9f6641925ccd4756347e6",
+        "name": "p0 resolution v1 artifact p0_resolution/bundles/SEC-02-2.json",
+        "path": "data/book/p0_resolution/bundles/SEC-02-2.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "02c944615eafe067de0b3d4184f40d473c7a74c167f73a4e91a72b2b6302acb7",
+        "baseline": "closure_v1",
+        "expected_sha256": "02c944615eafe067de0b3d4184f40d473c7a74c167f73a4e91a72b2b6302acb7",
+        "name": "p0 resolution v1 artifact p0_resolution/bundles/SEC-02-3.json",
+        "path": "data/book/p0_resolution/bundles/SEC-02-3.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "f9b7c2e96598616ab901b4a093c20294f5c73b599293c8958259492a9e24a6c3",
+        "baseline": "closure_v1",
+        "expected_sha256": "f9b7c2e96598616ab901b4a093c20294f5c73b599293c8958259492a9e24a6c3",
+        "name": "p0 resolution v1 artifact p0_resolution/claims/SEC-02-1.jsonl",
+        "path": "data/book/p0_resolution/claims/SEC-02-1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "c595f99456e43249015ff321de5997709c739e970f85c2a2b0f65fb74e90cbce",
+        "baseline": "closure_v1",
+        "expected_sha256": "c595f99456e43249015ff321de5997709c739e970f85c2a2b0f65fb74e90cbce",
+        "name": "p0 resolution v1 artifact p0_resolution/claims/SEC-02-2.jsonl",
+        "path": "data/book/p0_resolution/claims/SEC-02-2.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "895520ab2c12de5bce992f6a9b17558c4988cca11b7d3fbffe05ecb55f75d65d",
+        "baseline": "closure_v1",
+        "expected_sha256": "895520ab2c12de5bce992f6a9b17558c4988cca11b7d3fbffe05ecb55f75d65d",
+        "name": "p0 resolution v1 artifact p0_resolution/claims/SEC-02-3.jsonl",
+        "path": "data/book/p0_resolution/claims/SEC-02-3.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "c2bcb8d8a67fb34649f9657cc9362e8c8d25a19a4ad58b73b8f38e0ea5dc8a24",
+        "baseline": "closure_v1",
+        "expected_sha256": "c2bcb8d8a67fb34649f9657cc9362e8c8d25a19a4ad58b73b8f38e0ea5dc8a24",
+        "name": "p0 resolution v1 artifact p0_resolution/evidence/GAP-P0-01_extraction.jsonl",
+        "path": "data/book/p0_resolution/evidence/GAP-P0-01_extraction.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "b8f082ab59306eee075ec2e857a0d331726a7e85e06e5ad99356a95d7977d8f4",
+        "baseline": "closure_v1",
+        "expected_sha256": "b8f082ab59306eee075ec2e857a0d331726a7e85e06e5ad99356a95d7977d8f4",
+        "name": "p0 resolution v1 artifact p0_resolution/evidence/GAP-P0-02_extraction.jsonl",
+        "path": "data/book/p0_resolution/evidence/GAP-P0-02_extraction.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "f734cb4d845c6c9f1c0cb938b4e0c74f15ef447cc65390c83b7e5ad747a0599d",
+        "baseline": "closure_v1",
+        "expected_sha256": "f734cb4d845c6c9f1c0cb938b4e0c74f15ef447cc65390c83b7e5ad747a0599d",
+        "name": "p0 resolution v1 artifact p0_resolution/evidence/GAP-P0-05_extraction.jsonl",
+        "path": "data/book/p0_resolution/evidence/GAP-P0-05_extraction.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "eaf86af98353f447ce56fe38b5f318df113156d3ad917932404c7ef394f89463",
+        "baseline": "closure_v1",
+        "expected_sha256": "eaf86af98353f447ce56fe38b5f318df113156d3ad917932404c7ef394f89463",
+        "name": "p0 resolution v1 artifact p0_resolution/evidence/clause_universe_v1.jsonl",
+        "path": "data/book/p0_resolution/evidence/clause_universe_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "840f50caca32ee266709ecd93048f8ba7d432023af358548088114cfdd1b0ec7",
+        "baseline": "closure_v1",
+        "expected_sha256": "840f50caca32ee266709ecd93048f8ba7d432023af358548088114cfdd1b0ec7",
+        "name": "p0 resolution v1 artifact p0_resolution/evidence/cross_lingual_p0_mappings_v1.jsonl",
+        "path": "data/book/p0_resolution/evidence/cross_lingual_p0_mappings_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "99fb599166bc12e36dadf2fc3a879e8a52d22380b4da07eeb615cf50dfb3d112",
+        "baseline": "closure_v1",
+        "expected_sha256": "99fb599166bc12e36dadf2fc3a879e8a52d22380b4da07eeb615cf50dfb3d112",
+        "name": "p0 resolution v1 artifact p0_resolution/evidence/manual_support_mappings_v1.jsonl",
+        "path": "data/book/p0_resolution/evidence/manual_support_mappings_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "c004a6bab6753898af202d55591c5f929b6ca1639b19f6f9151d2aedee6abf38",
+        "baseline": "closure_v1",
+        "expected_sha256": "c004a6bab6753898af202d55591c5f929b6ca1639b19f6f9151d2aedee6abf38",
+        "name": "p0 resolution v1 artifact p0_resolution/evidence/p0_source_registry_v1.jsonl",
+        "path": "data/book/p0_resolution/evidence/p0_source_registry_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "2f0cbd6cb725de146841a1356d2075918822fc9fbc3386cd5f7277930b88d85e",
+        "baseline": "closure_v1",
+        "expected_sha256": "2f0cbd6cb725de146841a1356d2075918822fc9fbc3386cd5f7277930b88d85e",
+        "name": "p0 resolution v1 artifact p0_resolution/questions/GAP-P0-01.json",
+        "path": "data/book/p0_resolution/questions/GAP-P0-01.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "659904e3f68d85c99c9d66b25df7b6fe868af75a1a9c379a3567965730874b38",
+        "baseline": "closure_v1",
+        "expected_sha256": "659904e3f68d85c99c9d66b25df7b6fe868af75a1a9c379a3567965730874b38",
+        "name": "p0 resolution v1 artifact p0_resolution/questions/GAP-P0-02.json",
+        "path": "data/book/p0_resolution/questions/GAP-P0-02.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e5c147a44d30326eceec97d1c9f20c26428089389510be500b32224c95b8269b",
+        "baseline": "closure_v1",
+        "expected_sha256": "e5c147a44d30326eceec97d1c9f20c26428089389510be500b32224c95b8269b",
+        "name": "p0 resolution v1 artifact p0_resolution/questions/GAP-P0-03.json",
+        "path": "data/book/p0_resolution/questions/GAP-P0-03.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "27f4b9b16a9d0ffe03b87848c499e11c98babef4c60d40623ee2fdf4f5a59499",
+        "baseline": "closure_v1",
+        "expected_sha256": "27f4b9b16a9d0ffe03b87848c499e11c98babef4c60d40623ee2fdf4f5a59499",
+        "name": "p0 resolution v1 artifact p0_resolution/questions/GAP-P0-04.json",
+        "path": "data/book/p0_resolution/questions/GAP-P0-04.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "c43c9ad41acb082f402b46127426a370a7a420aa007e4d1d8a0f744a04994f8b",
+        "baseline": "closure_v1",
+        "expected_sha256": "c43c9ad41acb082f402b46127426a370a7a420aa007e4d1d8a0f744a04994f8b",
+        "name": "p0 resolution v1 artifact p0_resolution/questions/GAP-P0-05.json",
+        "path": "data/book/p0_resolution/questions/GAP-P0-05.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "0e1719d5cd2d7293866dbf7b858e753af185d6b5545bcc3ca99004bc27dc4579",
+        "baseline": "closure_v1",
+        "expected_sha256": "0e1719d5cd2d7293866dbf7b858e753af185d6b5545bcc3ca99004bc27dc4579",
+        "name": "p0 resolution v1 artifact p0_resolution/questions/GAP-P0-06.json",
+        "path": "data/book/p0_resolution/questions/GAP-P0-06.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "5c9e8fe257375a6afdf589a18ac4baa611c8f80e4f10f85528eda73a2971c766",
+        "baseline": "closure_v1",
+        "expected_sha256": "5c9e8fe257375a6afdf589a18ac4baa611c8f80e4f10f85528eda73a2971c766",
+        "name": "source registry v1 (must be untouched)",
+        "path": "data/book/source_registry_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e751fcfc3cc6828b05f75f494fd9a31b44388abda9daf83fb9581581ef79df5b",
+        "baseline": "closure_v1",
+        "expected_sha256": "e751fcfc3cc6828b05f75f494fd9a31b44388abda9daf83fb9581581ef79df5b",
+        "name": "corpus chunks",
+        "path": "data/chunks/chunks.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "fa65463589f7e520dcc1e0c808501fac31a7548988dfba11deb00f751bb866cc",
+        "baseline": "closure_v1",
+        "expected_sha256": "fa65463589f7e520dcc1e0c808501fac31a7548988dfba11deb00f751bb866cc",
+        "name": "production generation audit log",
+        "path": "data/production/generation_audit_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "9c99c3a627c4d789aa9dd5f42fd24050ea00a187a97c3f134b9e74f78a7e3268",
+        "baseline": "closure_v1",
+        "expected_sha256": "9c99c3a627c4d789aa9dd5f42fd24050ea00a187a97c3f134b9e74f78a7e3268",
+        "name": "SEC-02-2 Draft Readiness Closure v1 (implementation)",
+        "path": "scripts/44_sec_02_2_draft_readiness_closure_v1.py",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "af97c1937480fc8c6fdf94b835ac0cd3791df4244276b65712b833a30f5d2ddd",
+        "baseline": "closure_v1",
+        "expected_sha256": "af97c1937480fc8c6fdf94b835ac0cd3791df4244276b65712b833a30f5d2ddd",
+        "name": "SEC-02-2 draft readiness acceptance contract",
+        "path": "data/metadata/sec_02_2_draft_readiness_acceptance_v1.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "1147561c748087484d3df574a8470f84c6195dd17e75d65cd85f7e1890baf480",
+        "baseline": "closure_v1",
+        "expected_sha256": "1147561c748087484d3df574a8470f84c6195dd17e75d65cd85f7e1890baf480",
+        "name": "closure v1 artifact audits/context_difference_closure_v1.jsonl",
+        "path": "data/book/sec_02_2_readiness_closure/audits/context_difference_closure_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "6aa94c8721de3c96aa64d4d6e87a99f606af7d703d06b9423e669f1cf26f9a37",
+        "baseline": "closure_v1",
+        "expected_sha256": "6aa94c8721de3c96aa64d4d6e87a99f606af7d703d06b9423e669f1cf26f9a37",
+        "name": "closure v1 artifact audits/dropped_synthesis_closure_v1.jsonl",
+        "path": "data/book/sec_02_2_readiness_closure/audits/dropped_synthesis_closure_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "4cb44978e1e58323baccb73ba4bffbd577c50d2dd71b6563a330e1f7e154bae6",
+        "baseline": "closure_v1",
+        "expected_sha256": "4cb44978e1e58323baccb73ba4bffbd577c50d2dd71b6563a330e1f7e154bae6",
+        "name": "closure v1 artifact audits/numeric_closure_v1.jsonl",
+        "path": "data/book/sec_02_2_readiness_closure/audits/numeric_closure_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "cbbbc8a1d90f3aab0233cd16e4a0dd42e3956ef9cccd10e3d6169c712f5b94c9",
+        "baseline": "closure_v1",
+        "expected_sha256": "cbbbc8a1d90f3aab0233cd16e4a0dd42e3956ef9cccd10e3d6169c712f5b94c9",
+        "name": "closure v1 artifact audits/p0_manifest_consistency_v1.json",
+        "path": "data/book/sec_02_2_readiness_closure/audits/p0_manifest_consistency_v1.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "dd06f72db6d5903dca5cb879e1fc07b8e5b3b9c2b8b8d93b7ecd6c1fd337e1ff",
+        "baseline": "closure_v1",
+        "expected_sha256": "dd06f72db6d5903dca5cb879e1fc07b8e5b3b9c2b8b8d93b7ecd6c1fd337e1ff",
+        "name": "closure v1 artifact audits/p1_p2_gap_closure_v1.jsonl",
+        "path": "data/book/sec_02_2_readiness_closure/audits/p1_p2_gap_closure_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e13d234d84569c12183870396b9ab591e610c445c1b6c3f0b0e63f919213b74b",
+        "baseline": "closure_v1",
+        "expected_sha256": "e13d234d84569c12183870396b9ab591e610c445c1b6c3f0b0e63f919213b74b",
+        "name": "closure v1 artifact audits/required_topic_coverage_v1.json",
+        "path": "data/book/sec_02_2_readiness_closure/audits/required_topic_coverage_v1.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "2551462a8e773651b42d22161d5ab5fd67eb77478358795b53cc64f474ffce7c",
+        "baseline": "closure_v1",
+        "expected_sha256": "2551462a8e773651b42d22161d5ab5fd67eb77478358795b53cc64f474ffce7c",
+        "name": "closure v1 artifact audits/section_limitations_v1.jsonl",
+        "path": "data/book/sec_02_2_readiness_closure/audits/section_limitations_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "c597b5d896ffcd5464cd8ecdfa9e560d573f8c903b5c43a89bb47590ca62dbe7",
+        "baseline": "closure_v1",
+        "expected_sha256": "c597b5d896ffcd5464cd8ecdfa9e560d573f8c903b5c43a89bb47590ca62dbe7",
+        "name": "closure v1 artifact bundle/SEC-02-2.json",
+        "path": "data/book/sec_02_2_readiness_closure/bundle/SEC-02-2.json",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "d4908be22808ca72682a05719d1ac47a790e3a244ce97390e731bd7fe7f08b3f",
+        "baseline": "closure_v1",
+        "expected_sha256": "d4908be22808ca72682a05719d1ac47a790e3a244ce97390e731bd7fe7f08b3f",
+        "name": "closure v1 artifact claims/claim_universe_v1.jsonl",
+        "path": "data/book/sec_02_2_readiness_closure/claims/claim_universe_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "4f1ac9659df790236b0166d96628fe7251d0505d8b4b7047ba3b5cd875711a61",
+        "baseline": "closure_v1",
+        "expected_sha256": "4f1ac9659df790236b0166d96628fe7251d0505d8b4b7047ba3b5cd875711a61",
+        "name": "closure v1 artifact claims/draft_claim_allowlist_v1.jsonl",
+        "path": "data/book/sec_02_2_readiness_closure/claims/draft_claim_allowlist_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "b6fb0091bed62c56050cee373d31d7e321aca2cec8bc48ce3e3a0df2dcecb0ca",
+        "baseline": "closure_v1",
+        "expected_sha256": "b6fb0091bed62c56050cee373d31d7e321aca2cec8bc48ce3e3a0df2dcecb0ca",
+        "name": "closure v1 artifact claims/draft_claim_denylist_v1.jsonl",
+        "path": "data/book/sec_02_2_readiness_closure/claims/draft_claim_denylist_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "baseline": "closure_v1",
+        "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "name": "closure v1 artifact evidence/closure_source_registry_v1.jsonl",
+        "path": "data/book/sec_02_2_readiness_closure/evidence/closure_source_registry_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "52d94b73c0216ef4e2f59eb18e3a3e82349ba232c597e1293821a4d06b0da54b",
+        "baseline": "closure_v1",
+        "expected_sha256": "52d94b73c0216ef4e2f59eb18e3a3e82349ba232c597e1293821a4d06b0da54b",
+        "name": "closure v1 artifact evidence/closure_span_mappings_v1.jsonl",
+        "path": "data/book/sec_02_2_readiness_closure/evidence/closure_span_mappings_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "cea92326a63de19f98f11591a73b37872600545980029d8fcdb1c884a73c2155",
+        "baseline": "closure_v1",
+        "expected_sha256": "cea92326a63de19f98f11591a73b37872600545980029d8fcdb1c884a73c2155",
+        "name": "closure v1 artifact evidence/unresolved_after_packet_read_v1.jsonl",
+        "path": "data/book/sec_02_2_readiness_closure/evidence/unresolved_after_packet_read_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "5c9e8fe257375a6afdf589a18ac4baa611c8f80e4f10f85528eda73a2971c766",
+        "baseline": "limitation_resolution_v1_precondition",
+        "expected_sha256": "5c9e8fe257375a6afdf589a18ac4baa611c8f80e4f10f85528eda73a2971c766",
+        "name": "source registry v1 (must be untouched)",
+        "path": "data/book/source_registry_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "c004a6bab6753898af202d55591c5f929b6ca1639b19f6f9151d2aedee6abf38",
+        "baseline": "limitation_resolution_v1_precondition",
+        "expected_sha256": "c004a6bab6753898af202d55591c5f929b6ca1639b19f6f9151d2aedee6abf38",
+        "name": "p0 source registry (must be untouched)",
+        "path": "data/book/p0_resolution/evidence/p0_source_registry_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "baseline": "limitation_resolution_v1_precondition",
+        "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "name": "closure source registry (must be untouched)",
+        "path": "data/book/sec_02_2_readiness_closure/evidence/closure_source_registry_v1.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "e751fcfc3cc6828b05f75f494fd9a31b44388abda9daf83fb9581581ef79df5b",
+        "baseline": "limitation_resolution_v1_precondition",
+        "expected_sha256": "e751fcfc3cc6828b05f75f494fd9a31b44388abda9daf83fb9581581ef79df5b",
+        "name": "corpus chunks",
+        "path": "data/chunks/chunks.jsonl",
+        "unchanged": true
+      },
+      {
+        "actual_sha256": "fa65463589f7e520dcc1e0c808501fac31a7548988dfba11deb00f751bb866cc",
+        "baseline": "limitation_resolution_v1_precondition",
+        "expected_sha256": "fa65463589f7e520dcc1e0c808501fac31a7548988dfba11deb00f751bb866cc",
+        "name": "production generation audit log",
+        "path": "data/production/generation_audit_v1.jsonl",
+        "unchanged": true
+      }
+    ]
+  },
+  "generation_calls": 0,
+  "go_conditions": {
+    "allowlist_denylist_disjoint": true,
+    "cf_p0_001_has_blocking_qualifier_rule": true,
+    "composition_contract_authored": true,
+    "derived_numeric_rule_present": true,
+    "drafting_disabled": true,
+    "drafting_not_authorized": true,
+    "every_allowlisted_claim_composition_safe": true,
+    "every_allowlisted_claim_has_source_keys": true,
+    "every_allowlisted_claim_scoped": true,
+    "fixture_minimum_met": true,
+    "frozen_integrity_holds": true,
+    "generation_calls_zero": true,
+    "historical_artifacts_unmodified": true,
+    "manifest_consistency_carried": true,
+    "no_prose_written": true,
+    "pair_constraints_deterministic": true,
+    "qdrant_unchanged": true,
+    "qdrant_writes_zero": true,
+    "required_topics_still_covered": true,
+    "retrieval_calls_zero": true,
+    "syn_001_has_blocking_rule": true,
+    "tests_pass": true,
+    "zero_code_mismatches": true,
+    "zero_false_accepts": true,
+    "zero_false_rejects": true
+  },
+  "implementation": "scripts/45_sec_02_2_limitation_resolution_v1.py",
+  "implementation_sha": "db495634270f148b173bdb96094871c817c33cd36be56705f1dac5a10ec3c5c1",
+  "input_allowlist_claims": 27,
+  "input_closure_manifest_sha": "07b3272adb0b7d3d08f7322822f540fea2d014fe02b1194ddc5cac94d27fda24",
+  "mandatory_qualifier_rules": 3,
+  "negative_fixtures": 36,
+  "next_phase": {
+    "carry_forward": [
+      "CF-P0-001 - enforced by MQ-001 and pair constraints PC-001..PC-004, PC-006; unqualified and misattributed forms are rejected",
+      "SYN-001 - enforced by FS-001 pattern rules plus the same-sentence prohibition, which catches constructions no pattern lists",
+      "15 cm / 150 mm guard - enforced by DN-001, with the source-stated clay-zone 150 mm correctly exempted"
+    ],
+    "note": "drafting_authorized is still false; authorisation is that phase's call",
+    "route": "SECTION DRAFTING CONTRACT V1 + BOOK CITATION RENDERING CONTRACT V1",
+    "sections": [
+      "SEC-02-2"
+    ],
+    "why": "the evidence layer was closed by the previous phase and the composition layer is now enforced by a deterministic validator that rejects every historical defect and accepts every safe arrangement. The drafting contract inherits a bounded claim set plus the rules governing how those claims may be combined."
+  },
+  "p0_manifest_consistency_carried": {
+    "canonical_clause_ids": [
+      "Q-02-3-02-N15-C01"
+    ],
+    "canonical_statement": "Confirmed retrieval gaps in P0 Evidence Gap Resolution v1: 1 (Q-02-3-02-N15-C01).",
+    "canonical_value": 1,
+    "carried_at": "2026-08-19T11:24:15.085686+00:00",
+    "carried_from": "tunnelbook-sec-02-2-draft-readiness-closure-v1",
+    "historical_artifacts_modified": false,
+    "impact_on_sec_02_2": "None. The confirmed gap belongs to Q-02-3-02, a SEC-02-3 question. No SEC-02-2 clause is a retrieval-gap candidate, and this phase performed no retrieval.",
+    "inconsistency_found": true,
+    "note": "Carried verbatim from the closure phase's audit. This phase performed no retrieval, opened no new gap question and altered no historical artifact; the canonical count is restated here so a consumer of this bundle does not have to reach back two phases for it.",
+    "source_of_truth": "data/book/p0_resolution/audits/p0_retrieval_expansion_v1.jsonl (retrieval_gap_confirmed), corroborated by p0_retrieval_gap_probes_v1.jsonl (retrieval_gap_candidate)"
+  },
+  "parent_readiness_bundle_sha": "2408c295a0d833a735a2a3a027034b83c3c04b3f1d30fc7e23301ac47a20afef",
+  "parent_version": "tunnelbook-sec-02-2-draft-readiness-closure-v1",
+  "positive_fixtures": 35,
+  "qdrant_expected": 5992,
+  "qdrant_note": "Qdrant was not reachable at http://localhost:6333 during this run, so the point count could not be observed and is reported as unknown rather than as the expected 5992. The phase performs no retrieval, opens no Qdrant client and holds no write path.",
+  "qdrant_points_after": null,
+  "qdrant_points_before": null,
+  "qdrant_reachable": false,
+  "qdrant_writes": 0,
+  "readiness_blocking_reasons": [],
+  "remaining_non_enforceable_limitations": [],
+  "required_topic_status": {
+    "dayanım sınıfı": "COMPLETE_WITH_QUALIFIER",
+    "kaplama kalınlığı": "COMPLETE_WITH_QUALIFIER",
+    "çimento dozajı": "COMPLETE_WITH_QUALIFIER"
+  },
+  "required_topics": [
+    "çimento dozajı",
+    "kaplama kalınlığı",
+    "dayanım sınıfı"
+  ],
+  "required_topics_covered": 3,
+  "resolved_composition_limitations": [
+    "CF-P0-001 - enforced by MQ-001 and pair constraints PC-001..PC-004, PC-006; unqualified and misattributed forms are rejected",
+    "SYN-001 - enforced by FS-001 pattern rules plus the same-sentence prohibition, which catches constructions no pattern lists",
+    "15 cm / 150 mm guard - enforced by DN-001, with the source-stated clay-zone 150 mm correctly exempted"
+  ],
+  "restricted_figures": 3,
+  "retrieval_calls": 0,
+  "safety_bundle_sha": "5bb92cdccd489bde32a233b6d86e1751bb578eefa7f4490fca2176b32b9d96b8",
+  "section_id": "SEC-02-2",
+  "source_policy": "frozen_packet_only",
+  "status": "closed_go",
+  "tests": {
+    "executed_by": "unittest",
+    "returncode": 0,
+    "status": "passed",
+    "suites": [
+      "tests/test_sec_02_2_limitation_resolution_v1.py",
+      "tests/test_sec_02_2_claim_composition_validator_v1.py"
+    ],
+    "tail": [
+      "The regression that motivated unit-scoped matching: '4 to 16 inches (100 to 400 mm)' ... ok",
+      "test_lining_thickness_claims_may_share_a_sentence (tests.test_sec_02_2_claim_composition_validator_v1.TestUnitScopedDetection.test_lining_thickness_claims_may_share_a_sentence) ... ok",
+      "test_mesh_bar_counts_are_not_cement_figures (tests.test_sec_02_2_claim_composition_validator_v1.TestUnitScopedDetection.test_mesh_bar_counts_are_not_cement_figures) ... ok",
+      "",
+      "----------------------------------------------------------------------",
+      "Ran 118 tests in 0.035s",
+      "",
+      "OK (skipped=1)"
+    ],
+    "tests_run": 118
+  },
+  "validator_implementation": "scripts/46_sec_02_2_claim_composition_validator_v1.py",
+  "validator_implementation_sha": "db1e458c1280015dd2955433c046013aae77cd7767a11e0fd98c95e20f945f25",
+  "version": "tunnelbook-sec-02-2-limitation-resolution-v1"
+}

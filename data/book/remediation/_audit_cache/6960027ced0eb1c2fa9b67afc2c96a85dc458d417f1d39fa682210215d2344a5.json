@@ -1,0 +1,268 @@
+{
+  "key": "6960027ced0eb1c2fa9b67afc2c96a85dc458d417f1d39fa682210215d2344a5",
+  "section_id": "CH-A-S07",
+  "kind": "evidence_audit",
+  "cached_at": "2026-08-25T22:24:42.040746+00:00",
+  "audit": {
+    "section_id": "CH-A-S07",
+    "decision": "PASS",
+    "summary": {
+      "supported": 24,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "scope_leakage": 0,
+      "unsupported_source_identity": 0,
+      "redundancy": 0
+    },
+    "sentence_audit": [
+      {
+        "sentence_id": "S001",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-031",
+          "CH-A-S07-REM-032",
+          "CH-A-S07-REM-033"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S002",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-034"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S003",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-046",
+          "CH-A-S07-REM-047",
+          "CH-A-S07-REM-048"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S004",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-001",
+          "CH-A-S07-REM-042",
+          "CH-A-S07-REM-043"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S005",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-044",
+          "CH-A-S07-REM-045"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S006",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-002",
+          "CH-A-S07-REM-004"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S007",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-005",
+          "CH-A-S07-REM-010",
+          "CH-A-S07-REM-012",
+          "CH-A-S07-REM-014",
+          "CH-A-S07-REM-019",
+          "CH-A-S07-REM-023",
+          "CH-A-S07-REM-025"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S008",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-039"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S009",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-007",
+          "CH-A-S07-REM-008"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S010",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-017",
+          "CH-A-S07-REM-021"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S011",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-041"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S012",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-009",
+          "CH-A-S07-REM-040"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S013",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-063",
+          "CH-A-S07-REM-064"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S014",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-056",
+          "CH-A-S07-REM-057"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S015",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-067",
+          "CH-A-S07-REM-068",
+          "CH-A-S07-REM-069"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S016",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-070"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S017",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-049",
+          "CH-A-S07-REM-050"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S018",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-052",
+          "CH-A-S07-REM-053",
+          "CH-A-S07-REM-054",
+          "CH-A-S07-REM-055"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S019",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-058"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S020",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-059",
+          "CH-A-S07-REM-060",
+          "CH-A-S07-REM-061",
+          "CH-A-S07-REM-062"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S021",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-028",
+          "CH-A-S07-REM-029",
+          "CH-A-S07-REM-030",
+          "CH-A-S07-REM-038"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S022",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-016"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S023",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-065"
+        ],
+        "reason": ""
+      },
+      {
+        "sentence_id": "S024",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S07-REM-046",
+          "CH-A-S07-REM-047"
+        ],
+        "reason": ""
+      }
+    ],
+    "source_identity_issues": [],
+    "scope_issues": [],
+    "qualifier_issues": [],
+    "redundancy_issues": [],
+    "required_actions": []
+  },
+  "gate_result": {
+    "decision": "PASS",
+    "sentence_count": 24,
+    "supported": 24,
+    "narrative_synthesis": 0,
+    "deterministic_gate": "PASS",
+    "model_reported_summary": {
+      "supported": 24,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "scope_leakage": 0,
+      "unsupported_source_identity": 0,
+      "redundancy": 0
+    },
+    "model_reported_decision": "PASS",
+    "model_summary_mismatch": [
+      "narrative_synthesis"
+    ]
+  }
+}

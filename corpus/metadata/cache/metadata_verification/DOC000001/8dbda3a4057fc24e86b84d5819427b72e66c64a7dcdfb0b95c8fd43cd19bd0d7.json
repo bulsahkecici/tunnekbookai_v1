@@ -1,0 +1,15 @@
+{
+  "document_id": "DOC000001",
+  "field": "year",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "processed_at": "2026-08-15T23:42:19+00:00",
+  "prompt_version": "metadata-verification-v1.1",
+  "response": {
+    "confidence": "high",
+    "evidence": "Accepted 22 February 2017",
+    "relationship": "document_identity",
+    "value": "2017"
+  },
+  "retries": 0,
+  "source_sha256": "1980884f21bd5c134c8e603a62bc715204b58c5d43382eb7b89a5779e380e1c7"
+}

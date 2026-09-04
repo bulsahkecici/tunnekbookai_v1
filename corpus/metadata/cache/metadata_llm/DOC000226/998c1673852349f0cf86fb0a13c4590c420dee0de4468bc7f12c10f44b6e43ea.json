@@ -1,0 +1,47 @@
+{
+  "document_id": "DOC000226",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:03:38+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "TÜNEL MÜH.GELİŞTİRME KURSU [evidence_not_grounded_in_context] [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "low",
+      "evidence": "TÜNEL MÜH.GELİŞTİRME KURSU [evidence_not_grounded_in_context]",
+      "value": "training_material"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "ÇELİK İKSA DETAYI",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "# B3 60 ÇELİK İKSA DETAYI-Model",
+      "value": "B3 60 ÇELİK İKSA DETAYI-Model"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "ÇELİK İKSA NPI 160",
+      "value": [
+        "steel_rib"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "(24-28.02.2020) [evidence_not_grounded_in_context]",
+      "value": 2020
+    }
+  },
+  "source_sha256": "c27ed860ffef1bcf970a2017a3d981893e1a79976f7d1b84166f120853ea93f2"
+}

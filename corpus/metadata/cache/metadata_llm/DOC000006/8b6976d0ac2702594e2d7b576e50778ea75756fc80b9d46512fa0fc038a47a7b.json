@@ -1,0 +1,62 @@
+{
+  "document_id": "DOC000006",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:51:20+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "low",
+      "evidence": "Index, extensive technical glossary of tunnelling terms (TBM, shotcrete, waterproofing, monitoring), cross-referenced page numbers indicating a comprehensive reference work or manual. [evidence_not_grounded_in_context]",
+      "value": "handbook"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Index entries: Blasting 115, Contract 335, Cost development 287, Drainage 183, Excavation area 108, Forepoling boards 64, Maintenance 273, Monitoring (Extensometers 131, Convergence measurement 138), Operations (Operational diagram 280), Regulation (German construction site regulations, German health and safety law), Rock mass 95, Safety plan 306, Tunnel boring machines (TBM) 86, Traffic gauge 4, Water conditions 100, Waterproofing 183",
+      "value": [
+        "blasting",
+        "contracts",
+        "cost",
+        "drainage",
+        "excavation",
+        "forepoling",
+        "maintenance",
+        "monitoring",
+        "operations",
+        "regulation",
+        "rock_mechanics",
+        "safety",
+        "tbm",
+        "traffic",
+        "water",
+        "waterproofing"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": null
+    }
+  },
+  "source_sha256": "197ca69742a7143371e57de84424bf6efb817fc1e24298cd742ead68da45b06b"
+}

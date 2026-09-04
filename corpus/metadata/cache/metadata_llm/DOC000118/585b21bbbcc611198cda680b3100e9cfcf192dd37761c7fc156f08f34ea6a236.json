@@ -1,0 +1,54 @@
+{
+  "document_id": "DOC000118",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:56:43+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "Austrian Tunnelling Seminar Ankara, March 31st &amp; April 1st, 2015",
+      "value": "C"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Austrian Tunnelling Seminar Ankara, March 31st &amp; April 1st, 2015",
+      "value": "conference_proceedings"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "**Hanns Wagner** OBB – Austrian Federal Railways",
+      "value": "OBB – Austrian Federal Railways"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "**Project and site organization of a NATM tunnel project on the example of the Koralm tunnel**",
+      "value": "Project and site organization of a NATM tunnel project on the example of the Koralm tunnel"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "**Project and site organization of a NATM tunnel project on the example of the Koralm tunnel**",
+      "value": [
+        "contracts",
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "monitoring",
+        "natm",
+        "operations",
+        "safety"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Austrian Tunnelling Seminar Ankara, March 31st &amp; April 1st, 2015",
+      "value": 2015
+    }
+  },
+  "source_sha256": "8ac72718b2b107378e7be611654d3caf2c8b63f2d6a1b690b5243c3109c316a1"
+}

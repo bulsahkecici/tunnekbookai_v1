@@ -1,0 +1,65 @@
+# Structure-aware multimodal chunking (§48-§64).
+version: 1
+
+schema_version: "1.0"
+policy_version: "structure-aware-v1"
+
+# Token policy.
+#
+# The task's suggested starting point was target 700 / max 1000 / min 150. This project
+# already HAS a chunk policy that was validated against the 214-document canonical corpus
+# (scripts/11_semantic_chunking.py: CHUNKER_VERSION semantic-markdown-v1.1, target 850,
+# soft min 250, soft max 1200, hard max 1500, tokenizer unicode-lexical-v1), so §51's
+# "reuse appropriate tested values" applies and those numbers are carried over rather than
+# re-tuned blind. `overlap_tokens` is new in this engine.
+tokens:
+  tokenizer: unicode-lexical-v1
+  target: 850
+  min: 250
+  max: 1200
+  hard_max: 1500
+  overlap: 80
+
+# Chunk types produced (§50). Modalities are never flattened into plain text chunks.
+types:
+  text: true
+  table: true
+  figure: true
+  ocr: true
+  slide: true
+  sheet: true
+
+text:
+  # Boundary priority (§51). Blind fixed-size splitting is only the last resort inside an
+  # oversized paragraph.
+  boundary_priority: [heading, subheading, paragraph, list, section, page]
+  keep_heading_path: true
+
+figures:
+  # Skip a figure chunk when it carries neither caption, OCR text nor description.
+  require_content: true
+
+ocr:
+  # Never emit an OCR_CHUNK for text already represented in a figure chunk (§57).
+  skip_if_in_figure_chunk: true
+
+sheets:
+  # One SHEET_CHUNK per sheet, split further by row bands when a sheet is large (§59).
+  max_rows_per_chunk: 60
+  include_formula_summary: true
+
+slides:
+  # One SLIDE_CHUNK per slide, split when a single slide exceeds hard_max (§58).
+  include_speaker_notes: true
+
+dedup:
+  # Intra-document near-duplicate suppression (§60).
+  enabled: true
+  shingle_size: 5
+  similarity_threshold: 0.92
+  prefer_native_text_over_ocr: true
+
+embedding_ready:
+  min_tokens: 12          # below this a chunk carries no retrievable signal
+  include_types: [TEXT_CHUNK, TABLE_CHUNK, FIGURE_CHUNK, OCR_CHUNK, SLIDE_CHUNK, SHEET_CHUNK]
+  # Embeddings are NOT computed by this engine (§64).

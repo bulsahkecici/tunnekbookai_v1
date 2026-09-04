@@ -1,0 +1,25 @@
+{
+  "controller": "scripts/43_p0_evidence_gap_resolution_v1.py",
+  "drafting_enabled": false,
+  "known_limitations": [
+    "Evidence is bounded by the frozen ContextPackets; a proposition absent from all twenty items of a question's packet cannot be resolved in this phase.",
+    "Manual paraphrase and cross-lingual verdicts are human judgements recorded as data; their spans are machine-verified but their FULL/PARTIAL grading is not.",
+    "Retrieval expansion was not performed, so RETRIEVAL_GAP candidates are candidates only and no CORPUS_GAP is claimed.",
+    "No prose was written and no section was drafted."
+  ],
+  "max_generation_attempts_per_gap": 2,
+  "retrieval_expansion_policy": {
+    "baseline_top_k": 20,
+    "ceiling": 60,
+    "ladder": [
+      40,
+      60
+    ],
+    "performed": 0,
+    "permitted_only_for": "confirmed RETRIEVAL_GAP on a P0 question with the frozen packet manually exhausted and a recorded justification",
+    "production_default_unchanged": true
+  },
+  "source_policy": "frozen_packet_only",
+  "status": "closed_go",
+  "version": "tunnelbook-p0-evidence-gap-resolution-v1"
+}

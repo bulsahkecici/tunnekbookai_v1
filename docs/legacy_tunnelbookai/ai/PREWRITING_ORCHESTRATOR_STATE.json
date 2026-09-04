@@ -1,0 +1,18 @@
+{
+  "orchestrator": "TunnelBookAI Pre-Writing Orchestrator V1",
+  "orchestrator_sha256": "6ea682362c61c1b2e2dc898df163673725ca0bd69c22c7ac3489bc48a3445ffb",
+  "current_checkpoint": "CONTROLLED DRAFTING — CH-A-S01",
+  "checkpoint_status": "AUTHORIZED_SECTION_HOLD_EVIDENCE_BLOCKER",
+  "last_completed_checkpoint": "HUMAN DRAFTING AUTHORIZATION GATE",
+  "pilot_status": "VALIDLY_RELEASED_CLOSED",
+  "accepted_pilot_artifact": "data/book/drafting/sec_02_2/architecture_v2_2_general_closure_rerun_v1/rendered/accepted_draft_v1.json",
+  "accepted_pilot_sha256": "b63a422850a8791452cd923f40a27901ffa82ca4d5b36d15776f8fb40ba05e12",
+  "release_authorisation": "CLOSED / GO",
+  "drafting_authorized": true,
+  "book_prose_generated": false,
+  "next_checkpoint": "CH-A-S01 EVIDENCE READINESS REMEDIATION",
+  "continue_after_checkpoint": true,
+  "checkpoint_tracker": "docs/ai/PREWRITING_CHECKPOINT_TRACKER.json",
+  "manifest": "data/book/drafting/ch_a_s01/controlled_drafting_v1/manifest_v1.json",
+  "updated": "2026-08-22"
+}

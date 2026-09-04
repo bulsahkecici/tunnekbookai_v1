@@ -1,0 +1,322 @@
+{
+  "count": 21,
+  "false_accepts": [],
+  "fixtures": [
+    {
+      "description": "a claim that is not on the allowlist",
+      "detail": [
+        {
+          "code": "PLAN_CLAIM_NOT_ALLOWLISTED",
+          "detail": "SEC-02-2-C-999 is not on the SEC-02-2 composition-safe allowlist",
+          "slot_id": "N01"
+        }
+      ],
+      "expected_stage": "plan_validation",
+      "fixture_id": "NEG-01",
+      "outcome": "PLAN_VALIDATION_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "a claim on the composition denylist",
+      "detail": [
+        {
+          "code": "PLAN_CLAIM_DENYLISTED",
+          "detail": "SEC-02-2-DENY-COMP-150MM-SOURCE-STATED is on the composition denylist (DERIVED_ONLY)",
+          "slot_id": "N02"
+        }
+      ],
+      "expected_stage": "plan_validation",
+      "fixture_id": "NEG-02",
+      "outcome": "PLAN_VALIDATION_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "a relation the claim does not allow",
+      "detail": [
+        {
+          "code": "PLAN_RELATION_NOT_ALLOWED",
+          "detail": "SEC-02-2-C-001 allows ['INDEPENDENT'], not SOURCE_SUPPORTED_RELATION",
+          "slot_id": "N03"
+        }
+      ],
+      "expected_stage": "plan_validation",
+      "fixture_id": "NEG-03",
+      "outcome": "PLAN_VALIDATION_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "a source key registered to a different claim (source laundering)",
+      "detail": [
+        {
+          "code": "PLAN_SOURCE_KEY_NOT_OWNED",
+          "detail": "SRC-DOC000236-ad4b684b487a is not a source key of SEC-02-2-C-001; registered keys are ['SRC-DOC000236-8dfa5f799b50']",
+          "slot_id": "N04"
+        }
+      ],
+      "expected_stage": "plan_validation",
+      "fixture_id": "NEG-04",
+      "outcome": "PLAN_VALIDATION_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "a numeric the declaring claim does not register",
+      "detail": [
+        {
+          "code": "PLAN_NUMERIC_NOT_REGISTERED",
+          "detail": "SEC-02-2-C-001#NUM7 does not address a registered numeric of SEC-02-2-C-001 (1 registered)",
+          "slot_id": "N05"
+        }
+      ],
+      "expected_stage": "plan_validation",
+      "fixture_id": "NEG-05",
+      "outcome": "PLAN_VALIDATION_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "a numeric addressed through another claim's id",
+      "detail": [
+        {
+          "code": "PLAN_NUMERIC_NOT_REGISTERED",
+          "detail": "SEC-02-2-C-009#NUM0 does not address a registered numeric of SEC-02-2-C-001 (1 registered)",
+          "slot_id": "N06"
+        }
+      ],
+      "expected_stage": "plan_validation",
+      "fixture_id": "NEG-06",
+      "outcome": "PLAN_VALIDATION_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "a condition the claim does not carry",
+      "detail": [
+        {
+          "code": "PLAN_CONDITION_NOT_OWNED",
+          "detail": "SEC-02-2-C-001#COND9 does not address a condition of SEC-02-2-C-001 (1 registered)",
+          "slot_id": "N07"
+        }
+      ],
+      "expected_stage": "plan_validation",
+      "fixture_id": "NEG-07",
+      "outcome": "PLAN_VALIDATION_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "a qualifier id belonging to no registered qualifier",
+      "detail": [
+        {
+          "code": "PLAN_QUALIFIER_NOT_OWNED",
+          "detail": "DQS-C009-001 does not address a registered qualifier of SEC-02-2-C-002 (1 registered)",
+          "slot_id": "N08"
+        },
+        {
+          "code": "PLAN_PARAGRAPH_QUALIFIER_MISSING",
+          "detail": "SEC-02-2-C-002 registers a qualifier (DSC-C002-001 is scored at paragraph scope); the paragraph must also allocate a QUALIFIER_SCOPE slot for it",
+          "slot_id": "N08"
+        }
+      ],
+      "expected_stage": "plan_validation",
+      "fixture_id": "NEG-08",
+      "outcome": "PLAN_VALIDATION_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "an invented realization role",
+      "detail": {
+        "code": "PLAN_FORBIDDEN_ROLE",
+        "detail": "'FREEFORM' is an open-ended role; the role set is closed",
+        "path": "<plan>.subsections[0].paragraph_groups[0].slots[0].realization_role"
+      },
+      "expected_stage": "plan_parse",
+      "fixture_id": "NEG-09",
+      "outcome": "PLAN_PARSE_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "a free-text field injected into a slot",
+      "detail": {
+        "code": "PLAN_PROSE_FIELD",
+        "detail": "'text' is a prose-bearing field name; the plan IR carries symbolic choices only",
+        "path": "<plan>.subsections[0].paragraph_groups[0].slots[0]"
+      },
+      "expected_stage": "plan_parse",
+      "fixture_id": "NEG-10",
+      "outcome": "PLAN_PARSE_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "prose smuggled under an undeclared but innocent field name",
+      "detail": {
+        "code": "PLAN_UNKNOWN_FIELD",
+        "detail": "'note' is not declared by the plan IR contract; permitted keys are ['citation_source_keys', 'claim_id', 'condition_ids', 'numeric_fact_ids', 'qualifier_constraint_ids', 'realization_role', 'relation_constraint_ids', 'slot_id']",
+        "path": "<plan>.subsections[0].paragraph_groups[0].slots[0]"
+      },
+      "expected_stage": "plan_parse",
+      "fixture_id": "NEG-11",
+      "outcome": "PLAN_PARSE_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "a paragraph stating C-002 without its paragraph-scoped qualifier",
+      "detail": [
+        {
+          "code": "PLAN_PARAGRAPH_QUALIFIER_MISSING",
+          "detail": "SEC-02-2-C-002 registers a qualifier (DSC-C002-001 is scored at paragraph scope); the paragraph must also allocate a QUALIFIER_SCOPE slot for it",
+          "slot_id": "N12"
+        }
+      ],
+      "expected_stage": "plan_validation",
+      "fixture_id": "NEG-12",
+      "outcome": "PLAN_VALIDATION_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "a paragraph stating C-009 without its scope limitation",
+      "detail": [
+        {
+          "code": "PLAN_PARAGRAPH_QUALIFIER_MISSING",
+          "detail": "SEC-02-2-C-009 registers a qualifier (DQS-C009-001 is scored at paragraph scope); the paragraph must also allocate a QUALIFIER_SCOPE slot for it",
+          "slot_id": "N13"
+        }
+      ],
+      "expected_stage": "plan_validation",
+      "fixture_id": "NEG-13",
+      "outcome": "PLAN_VALIDATION_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "a role the contract marks UNREALIZABLE for this claim",
+      "detail": [
+        {
+          "code": "PLAN_ROLE_UNREALIZABLE",
+          "detail": "SEC-02-2-C-001 / EXEMPLIFICATION is UNREALIZABLE: the claim carries no frozen exemplification material; an example not stated by the source may not be supplied",
+          "slot_id": "N14"
+        },
+        {
+          "code": "PLAN_SUPPORTING_ROLE_WITHOUT_STATEMENT",
+          "detail": "SEC-02-2-C-001 appears only in supporting roles ['EXEMPLIFICATION']; a paragraph stating a claim must allocate a CLAIM_STATEMENT or REQUIREMENT slot for it",
+          "slot_id": "N14"
+        }
+      ],
+      "expected_stage": "plan_validation",
+      "fixture_id": "NEG-14",
+      "outcome": "PLAN_VALIDATION_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "a supporting role standing without the statement it supports",
+      "detail": [
+        {
+          "code": "PLAN_SUPPORTING_ROLE_WITHOUT_STATEMENT",
+          "detail": "SEC-02-2-C-009 appears only in supporting roles ['QUALIFIER_SCOPE']; a paragraph stating a claim must allocate a CLAIM_STATEMENT or REQUIREMENT slot for it",
+          "slot_id": "N15a"
+        }
+      ],
+      "expected_stage": "plan_validation",
+      "fixture_id": "NEG-15a",
+      "outcome": "PLAN_VALIDATION_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "a paragraph-scoped condition with no slot to carry it",
+      "detail": [
+        {
+          "code": "PLAN_PARAGRAPH_CONDITION_MISSING",
+          "detail": "SEC-02-2-P0-001 carries a condition its own sentence does not state (['özel uygulamalar dışında']); the paragraph must also allocate a CONDITION slot for it",
+          "slot_id": "N15b1"
+        }
+      ],
+      "expected_stage": "plan_validation",
+      "fixture_id": "NEG-15b",
+      "outcome": "PLAN_VALIDATION_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "both statement roles for one claim in one paragraph",
+      "detail": [
+        {
+          "code": "PLAN_DUPLICATE_STATEMENT_ROLE",
+          "detail": "SEC-02-2-C-009 holds both CLAIM_STATEMENT and REQUIREMENT in one paragraph; they realise the same proposition",
+          "slot_id": "N15c1"
+        }
+      ],
+      "expected_stage": "plan_validation",
+      "fixture_id": "NEG-15c",
+      "outcome": "PLAN_VALIDATION_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "a language the section policy does not permit",
+      "detail": {
+        "code": "PLAN_LANGUAGE_NOT_PERMITTED",
+        "detail": "'en' is not a permitted section language",
+        "path": "<plan>.language"
+      },
+      "expected_stage": "plan_parse",
+      "fixture_id": "NEG-15",
+      "outcome": "PLAN_PARSE_REJECTED",
+      "rejected": true
+    },
+    {
+      "description": "15 cm presented as a derived 150 mm source-stated figure",
+      "expected_code_seen": true,
+      "expected_codes": [
+        "NUMERIC_DRIFT",
+        "UNIT_DRIFT",
+        "UNSUPPORTED_PROPOSITION"
+      ],
+      "expected_stage": "unconstructible_and_validator_rejects",
+      "fixture_id": "NEG-16",
+      "outcome": "REJECTED",
+      "rejected": true,
+      "renderer_can_construct": false,
+      "validator_codes": [
+        "CONDITION_DROPPED",
+        "DERIVED_VALUE_AS_SOURCE_STATED",
+        "NUMERIC_DRIFT",
+        "UNSUPPORTED_PROPOSITION"
+      ],
+      "validator_status": "REJECT"
+    },
+    {
+      "description": "SEC-02-2-C-009's clay-zone thickness generalised to all first layers",
+      "expected_code_seen": true,
+      "expected_codes": [
+        "SEMANTIC_SCOPE_MISMATCH",
+        "QUALIFIER_DROPPED",
+        "CONDITION_DROPPED"
+      ],
+      "expected_stage": "unconstructible_and_validator_rejects",
+      "fixture_id": "NEG-17",
+      "outcome": "REJECTED",
+      "rejected": true,
+      "renderer_can_construct": false,
+      "validator_codes": [
+        "CONDITION_DROPPED",
+        "QUALIFIER_DROPPED",
+        "SEMANTIC_SCOPE_MISMATCH"
+      ],
+      "validator_status": "REJECT"
+    },
+    {
+      "description": "Tablo-351-5 presented as establishing the C25/30 strength class",
+      "expected_code_seen": true,
+      "expected_codes": [
+        "SEMANTIC_SCOPE_MISMATCH",
+        "QUALIFIER_DROPPED"
+      ],
+      "expected_stage": "unconstructible_and_validator_rejects",
+      "fixture_id": "NEG-18",
+      "outcome": "REJECTED",
+      "rejected": true,
+      "renderer_can_construct": false,
+      "validator_codes": [
+        "CONDITION_DROPPED",
+        "QUALIFIER_DROPPED",
+        "SEMANTIC_SCOPE_MISMATCH",
+        "UNSUPPORTED_PROPOSITION"
+      ],
+      "validator_status": "REJECT"
+    }
+  ],
+  "rejected": 21
+}

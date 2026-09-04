@@ -1,0 +1,108 @@
+{
+  "author_evidence": [],
+  "authority_class": "UNKNOWN_AUTHORITY",
+  "authority_evidence_sufficiency": "NOT_PROMOTED_FROZEN_BATCH_CONTRACT",
+  "batch_id": "BATCH-06",
+  "claim_relative_applicability": "NOT_YET_AUTHORITY_SUITABLE",
+  "date_or_version_evidence": [
+    {
+      "converted_source_lines": "53-55",
+      "field": "issue",
+      "value": "40",
+      "zone": "editorial"
+    }
+  ],
+  "document_id": "DOC000193",
+  "exact_title": "Tünel Dergisi, Sayı 40",
+  "external_identity_verification_required": true,
+  "external_verification_plan": {
+    "identity_matching_keys": [
+      "DOC000193",
+      "Tünel Dergisi, Sayı 40",
+      "40"
+    ],
+    "mismatch_behavior": "RETAIN_UNKNOWN_AUTHORITY",
+    "missing_identity_fields": [
+      "publication_date",
+      "ISSN",
+      "taxonomy_source_type"
+    ],
+    "preferred_authoritative_lookup_class": "ISSUER_PUBLISHER_OR_CANONICAL_PAGE_RECORD"
+  },
+  "identity_confidence": "PARTIAL",
+  "identity_evidence": [
+    {
+      "converted_source_lines": "53-55",
+      "field": "title",
+      "value": "Tünel Dergisi, Sayı 40",
+      "zone": "editorial"
+    },
+    {
+      "converted_source_lines": "53-55",
+      "field": "issue",
+      "value": "40",
+      "zone": "editorial"
+    },
+    {
+      "converted_source_lines": "55,63-71",
+      "field": "publisher",
+      "value": "Tünelcilik Derneği / Turkish Tunnelling Society",
+      "zone": "editorial"
+    },
+    {
+      "converted_source_lines": "109",
+      "field": "publication_site",
+      "value": "www.tuneldergisi.com",
+      "zone": "masthead"
+    },
+    {
+      "converted_source_lines": "111-113",
+      "field": "proprietor",
+      "value": "Prof. Dr. Nuh Bilgin",
+      "zone": "masthead"
+    }
+  ],
+  "inspection_mechanism": "TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION",
+  "institution_or_publisher_evidence": [
+    {
+      "converted_source_lines": "55,63-71",
+      "field": "publisher",
+      "value": "Tünelcilik Derneği / Turkish Tunnelling Society",
+      "zone": "editorial"
+    },
+    {
+      "converted_source_lines": "111-113",
+      "field": "proprietor",
+      "value": "Prof. Dr. Nuh Bilgin",
+      "zone": "masthead"
+    }
+  ],
+  "limitations": "No authority, support, proposition, provenance, anchor, scope, review, or admission state changed.",
+  "missing_fields": [
+    "publication_date",
+    "ISSN",
+    "taxonomy_source_type"
+  ],
+  "promotion": false,
+  "publication_identifiers": [
+    {
+      "converted_source_lines": "53-55",
+      "field": "issue",
+      "value": "40",
+      "zone": "editorial"
+    },
+    {
+      "converted_source_lines": "109",
+      "field": "publication_site",
+      "value": "www.tuneldergisi.com",
+      "zone": "masthead"
+    }
+  ],
+  "reason": "The local editorial and masthead resolve issue identity and publisher, but the frozen source taxonomy has no periodical-issue class.",
+  "result": "SOURCE_TYPE_UNRESOLVED",
+  "schema_version": "1.0.0",
+  "source_path": "data/markdown_full_docling/Tünel Dergisi/Tunel Dergi Sayi 40.md",
+  "source_sha256": "9e12b1825d5604af0aadd9513a3ebe50d28145d35ccc6f4db4eed5aedf29f10e",
+  "source_type": "UNKNOWN_SOURCE_TYPE",
+  "source_type_evidence": []
+}

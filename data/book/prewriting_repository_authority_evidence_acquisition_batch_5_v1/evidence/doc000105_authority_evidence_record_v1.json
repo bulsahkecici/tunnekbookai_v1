@@ -1,0 +1,137 @@
+{
+  "author_evidence": [
+    {
+      "converted_source_lines": "29-31",
+      "field": "authors",
+      "value": "Turgay Onargan; Çağatay Pamukçu; C. Okay Aksoy",
+      "zone": "article_header"
+    }
+  ],
+  "authority_class": "UNKNOWN_AUTHORITY",
+  "authority_evidence_sufficiency": "NOT_PROMOTED_FROZEN_BATCH_CONTRACT",
+  "batch_id": "BATCH-05",
+  "claim_relative_applicability": "NOT_YET_AUTHORITY_SUITABLE",
+  "date_or_version_evidence": [
+    {
+      "converted_source_lines": "19-21",
+      "field": "publication_date",
+      "value": "Haziran 2009",
+      "zone": "bibliographic_header"
+    },
+    {
+      "converted_source_lines": "27",
+      "field": "received_date",
+      "value": "09 Nisan 2009",
+      "zone": "article_header"
+    },
+    {
+      "converted_source_lines": "27",
+      "field": "accepted_date",
+      "value": "12 Mayıs 2009",
+      "zone": "article_header"
+    }
+  ],
+  "document_id": "DOC000105",
+  "exact_title": "Yeni İtalyan Tünel Açma Yöntemi'nin Gelişim Süreci ve İzmir Metrosu Bornova Tünel İnşaatı Ön Destek Tasarımında",
+  "external_identity_verification_required": false,
+  "external_verification_plan": null,
+  "identity_confidence": "HIGH",
+  "identity_evidence": [
+    {
+      "converted_source_lines": "19",
+      "field": "venue",
+      "value": "Madencilik",
+      "zone": "bibliographic_header"
+    },
+    {
+      "converted_source_lines": "19-21",
+      "field": "volume",
+      "value": "48",
+      "zone": "bibliographic_header"
+    },
+    {
+      "converted_source_lines": "19-21",
+      "field": "issue",
+      "value": "2",
+      "zone": "bibliographic_header"
+    },
+    {
+      "converted_source_lines": "19-21",
+      "field": "pages",
+      "value": "21-34",
+      "zone": "bibliographic_header"
+    },
+    {
+      "converted_source_lines": "19-21",
+      "field": "publication_date",
+      "value": "Haziran 2009",
+      "zone": "bibliographic_header"
+    },
+    {
+      "converted_source_lines": "23-25",
+      "field": "title",
+      "value": "Yeni İtalyan Tünel Açma Yöntemi'nin Gelişim Süreci ve İzmir Metrosu Bornova Tünel İnşaatı Ön Destek Tasarımında",
+      "zone": "article_header"
+    },
+    {
+      "converted_source_lines": "27",
+      "field": "received_date",
+      "value": "09 Nisan 2009",
+      "zone": "article_header"
+    },
+    {
+      "converted_source_lines": "27",
+      "field": "accepted_date",
+      "value": "12 Mayıs 2009",
+      "zone": "article_header"
+    },
+    {
+      "converted_source_lines": "29-31",
+      "field": "authors",
+      "value": "Turgay Onargan; Çağatay Pamukçu; C. Okay Aksoy",
+      "zone": "article_header"
+    }
+  ],
+  "inspection_mechanism": "TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION",
+  "institution_or_publisher_evidence": [],
+  "limitations": "No authority, support, proposition, provenance, anchor, scope, review, or admission state changed.",
+  "missing_fields": [
+    "DOI",
+    "ISSN"
+  ],
+  "promotion": false,
+  "publication_identifiers": [
+    {
+      "converted_source_lines": "19-21",
+      "field": "volume",
+      "value": "48",
+      "zone": "bibliographic_header"
+    },
+    {
+      "converted_source_lines": "19-21",
+      "field": "issue",
+      "value": "2",
+      "zone": "bibliographic_header"
+    },
+    {
+      "converted_source_lines": "19-21",
+      "field": "pages",
+      "value": "21-34",
+      "zone": "bibliographic_header"
+    }
+  ],
+  "reason": "Explicit journal venue, volume, issue, pages, date, article title, authors, and editorial dates resolve the identity and source type.",
+  "result": "LOCAL_EVIDENCE_SUFFICIENT",
+  "schema_version": "1.0.0",
+  "source_path": "data/markdown/Mehmet/Literatur/Wordler/Maden Muh Oda_Italyan Tunel Acma Yontemi2475424055cc5ce_ek.md",
+  "source_sha256": "018d1bda6d9f6ec712df5a65e93bdf8a0e17f024f89d38e8b703c8d8a4ea68d2",
+  "source_type": "JOURNAL_ARTICLE",
+  "source_type_evidence": [
+    {
+      "converted_source_lines": "19",
+      "field": "venue",
+      "value": "Madencilik",
+      "zone": "bibliographic_header"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "document_id": "DOC000123",
+  "field": "organization",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "processed_at": "2026-08-15T23:44:06+00:00",
+  "prompt_version": "metadata-verification-v1.1",
+  "response": {
+    "confidence": "high",
+    "evidence": "ÖSTERREICHISCHE GESELLSCHAFT FÜR GEOMECHANIK AUSTRIAN SOCIETY FOR GEOMECHANICS",
+    "relationship": "document_identity",
+    "value": "Österreichische Gesellschaft für Geomechanik"
+  },
+  "retries": 0,
+  "source_sha256": "95f6781e96026a8a700972730aba59088c12ffbbe9becf83196c73c8404ad8b6"
+}

@@ -1,0 +1,85 @@
+Sen TunnelBookAI için LOCAL teknik editör olarak çalışıyorsun.
+
+SADECE verilen üç girdiyi kullan:
+1. mevcut CH-A-S01 draft
+2. CH-A-S01 compact evidence packet
+3. CH-A-S01 audit JSON
+
+Harici bilgi kullanma.
+Web kullanma.
+Pretrained bilgini evidence sayma.
+Yeni kaynak, standart, yazar, yıl veya sayfa uydurma.
+
+HEDEF:
+CH-A-S01 — Tünelin Tanımı
+
+AMAÇ:
+Mevcut draftı audit bulgularına göre düzelt ve yeni bir temiz draft üret.
+
+KURALLAR:
+
+1. Audit decision HOLD ise yalnızca required_actions doğrultusunda düzeltme yap.
+
+2. Aşağıdaki scope leakage içeriklerini tamamen çıkar:
+- kes-kapa kutu kesit modellemesi
+- kesit/boyut modelleme detayları
+- beton duvar/plaka kalınlıkları
+- beton/toprak/su birim ağırlıkları
+- rijit çerçeve modellemesi
+- daldırma tüneli yapım adımları
+- saha dışında imalat
+- taşıma/yerleştirme/bağlama
+- ballast/çapa
+- geri dolgu prosedürü
+- 1.5 m geri dolgu gereksinimi
+
+3. Bunları başka bölüme yazma.
+Sadece mevcut CH-A-S01 draftından çıkar.
+
+4. Aşağıdaki türde, tanım düzeyinde kalan ifadeler korunabilir:
+- genel tünel tanımı
+- geometrik karakter
+- farklı tanım bağlamları
+- ülke/standart bazlı tanımlar
+- Türk mühendislik tanımları
+- disiplin perspektifleri
+- karayolu tüneli tanımı
+- su altı tünelinin yalnızca tanımsal düzeyde ifadesi
+
+5. "literatürde tek bir mutlak tanımın bulunmadığını gösterir" ifadesini, evidence'a daha sıkı bağlı ve daha temkinli hale getir.
+Örneğin:
+"tünel tanımının bağlama ve kullanım amacına göre farklılaşabildiğini gösterir."
+
+6. Birleşik Krallık ve ABD tanımlarından sonra tekrar eden aynı geçerlilik uyarısını tek bir ortak sınırlayıcı cümlede birleştir.
+
+7. Evidence packet dışına çıkma.
+
+8. Qualifier'ları koru.
+
+9. Claim'leri güçlendirme.
+
+10. Citation/source identity yalnızca evidence packet'te varsa kullanılabilir.
+
+11. Bölüm başlığı dışında ek başlık üretme.
+
+12. Teknik ama doğal Türkçe kullan.
+
+13. Gereksiz tekrar yapma.
+
+14. Audit mekanizmasını metinde anlatma.
+
+15. "claim", "evidence packet", "audit", "LLM", "retrieval" gibi pipeline terimlerini kitap metnine sokma.
+
+ÇIKTI:
+
+# Tünelin Tanımı
+
+[temizlenmiş kitap metni]
+
+---
+Section ID: CH-A-S01
+Status: LOCAL_REWRITE_COMPLETE
+Evidence limitations: [varsa kısa belirt, yoksa NONE]
+---
+
+Bunun dışında hiçbir açıklama yazma.

@@ -1,0 +1,301 @@
+{
+  "options": [
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "REQUIREMENT"
+      ],
+      "claim_id": "SEC-02-2-C-001",
+      "requires_condition_slot": false,
+      "requires_qualifier_slot": false,
+      "source_keys": [
+        "SRC-DOC000236-8dfa5f799b50"
+      ],
+      "topic": "dayanım sınıfı"
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "IDENTITY_SCOPE",
+        "QUALIFIER_SCOPE"
+      ],
+      "claim_id": "SEC-02-2-C-002",
+      "requires_condition_slot": false,
+      "requires_qualifier_slot": true,
+      "source_keys": [
+        "SRC-DOC000087-ea64db4f1a7f"
+      ],
+      "topic": "dayanım sınıfı"
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "REQUIREMENT"
+      ],
+      "claim_id": "SEC-02-2-R001",
+      "requires_condition_slot": false,
+      "requires_qualifier_slot": false,
+      "source_keys": [
+        "SRC-DOC000236-8d87293e1c7b"
+      ],
+      "topic": "çimento dozajı"
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "REQUIREMENT"
+      ],
+      "claim_id": "SEC-02-2-P0-001",
+      "requires_condition_slot": true,
+      "requires_qualifier_slot": false,
+      "source_keys": [
+        "SRC-DOC000087-e7393bf8138a",
+        "SRC-DOC000236-0229b854f373"
+      ],
+      "topic": "çimento dozajı"
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "NUMERIC_CRITERIA",
+        "REQUIREMENT"
+      ],
+      "claim_id": "SEC-02-2-P0-006",
+      "requires_condition_slot": true,
+      "requires_qualifier_slot": false,
+      "source_keys": [
+        "SRC-DOC000087-e7393bf8138a",
+        "SRC-DOC000236-0229b854f373"
+      ],
+      "topic": "çimento dozajı"
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "REQUIREMENT"
+      ],
+      "claim_id": "SEC-02-2-P0-005",
+      "requires_condition_slot": false,
+      "requires_qualifier_slot": false,
+      "source_keys": [
+        "SRC-DOC000236-8d87293e1c7b"
+      ],
+      "topic": "çimento dozajı"
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION"
+      ],
+      "claim_id": "SEC-02-2-P0-004",
+      "requires_condition_slot": false,
+      "requires_qualifier_slot": false,
+      "source_keys": [
+        "SRC-DOC000087-e7393bf8138a",
+        "SRC-DOC000236-0229b854f373"
+      ],
+      "topic": "çimento dozajı"
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION"
+      ],
+      "claim_id": "SEC-02-2-P0-007",
+      "requires_condition_slot": true,
+      "requires_qualifier_slot": false,
+      "source_keys": [
+        "SRC-DOC000047-72f96c5daace",
+        "SRC-DOC000047-838e92811f43"
+      ],
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "EXEMPLIFICATION"
+      ],
+      "claim_id": "SEC-02-2-P0-008",
+      "requires_condition_slot": true,
+      "requires_qualifier_slot": false,
+      "source_keys": [
+        "SRC-DOC000047-d5c60204e247"
+      ],
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "REQUIREMENT"
+      ],
+      "claim_id": "SEC-02-2-C-003",
+      "requires_condition_slot": true,
+      "requires_qualifier_slot": false,
+      "source_keys": [
+        "SRC-DOC000087-8d778c37de30",
+        "SRC-DOC000236-ca4f53f1dd68"
+      ],
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "NUMERIC_CRITERIA",
+        "REQUIREMENT"
+      ],
+      "claim_id": "SEC-02-2-C-004",
+      "requires_condition_slot": false,
+      "requires_qualifier_slot": false,
+      "source_keys": [
+        "SRC-DOC000087-8d778c37de30"
+      ],
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "NUMERIC_CRITERIA",
+        "REQUIREMENT"
+      ],
+      "claim_id": "SEC-02-2-C-005",
+      "requires_condition_slot": true,
+      "requires_qualifier_slot": false,
+      "source_keys": [
+        "SRC-DOC000087-8d778c37de30"
+      ],
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "REQUIREMENT"
+      ],
+      "claim_id": "SEC-02-2-C-007",
+      "requires_condition_slot": false,
+      "requires_qualifier_slot": false,
+      "source_keys": [
+        "SRC-DOC000087-8d778c37de30"
+      ],
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "REQUIREMENT"
+      ],
+      "claim_id": "SEC-02-2-C-006",
+      "requires_condition_slot": true,
+      "requires_qualifier_slot": false,
+      "source_keys": [
+        "SRC-DOC000087-8d778c37de30"
+      ],
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION"
+      ],
+      "claim_id": "SEC-02-2-C-012",
+      "requires_condition_slot": false,
+      "requires_qualifier_slot": false,
+      "source_keys": [
+        "SRC-DOC000087-d989fc9aefbd"
+      ],
+      "topic": "kaplama kalınlığı"
+    },
+    {
+      "available_roles": [
+        "CLAIM_STATEMENT",
+        "CONDITION",
+        "NUMERIC_CRITERIA",
+        "QUALIFIER_SCOPE",
+        "REQUIREMENT"
+      ],
+      "claim_id": "SEC-02-2-C-009",
+      "requires_condition_slot": false,
+      "requires_qualifier_slot": true,
+      "source_keys": [
+        "SRC-DOC000236-ad4b684b487a"
+      ],
+      "topic": "kaplama kalınlığı"
+    }
+  ],
+  "plan_rules": [
+    "every claim stated needs a CLAIM_STATEMENT or REQUIREMENT slot in its paragraph",
+    "a claim with requires_qualifier_slot needs a QUALIFIER_SCOPE slot in the same paragraph",
+    "a claim with requires_condition_slot needs a CONDITION slot in the same paragraph",
+    "a claim holds at most one of CLAIM_STATEMENT / REQUIREMENT per paragraph",
+    "citation_source_keys, when given, must be the claim's own registered keys"
+  ],
+  "principle": "The planner selects from REALIZABLE claim/role pairs only. UNREALIZABLE pairs are not listed here and are never shown to the model.",
+  "required_core_claim_ids": [
+    "SEC-02-2-C-001",
+    "SEC-02-2-P0-001",
+    "SEC-02-2-P0-006",
+    "SEC-02-2-P0-007",
+    "SEC-02-2-P0-008",
+    "SEC-02-2-R001"
+  ],
+  "required_topics": [
+    "çimento dozajı",
+    "kaplama kalınlığı",
+    "dayanım sınıfı"
+  ],
+  "section_id": "SEC-02-2",
+  "subsections": [
+    {
+      "claim_ids": [
+        "SEC-02-2-C-001",
+        "SEC-02-2-C-002"
+      ],
+      "required_topic": "dayanım sınıfı",
+      "subsection_id": "A",
+      "title": "Püskürtme Betonun Malzeme ve Dayanım Gereklilikleri"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-R001",
+        "SEC-02-2-P0-001",
+        "SEC-02-2-P0-006",
+        "SEC-02-2-P0-005",
+        "SEC-02-2-P0-004"
+      ],
+      "required_topic": "çimento dozajı",
+      "subsection_id": "B",
+      "title": "Çimento Dozajı"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-P0-007",
+        "SEC-02-2-P0-008",
+        "SEC-02-2-C-003",
+        "SEC-02-2-C-004",
+        "SEC-02-2-C-005",
+        "SEC-02-2-C-007"
+      ],
+      "required_topic": "kaplama kalınlığı",
+      "subsection_id": "C",
+      "title": "Kaplama Kalınlığı ve Katman Düzeni"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-C-006",
+        "SEC-02-2-C-012",
+        "SEC-02-2-C-009"
+      ],
+      "required_topic": null,
+      "subsection_id": "D",
+      "title": "Uygulama Koşulları ve Özel Durumlar"
+    }
+  ],
+  "unrealizable_pairs_exposed": 0,
+  "version": "tunnelbook-architecture-v2-planner-option-set-v1"
+}

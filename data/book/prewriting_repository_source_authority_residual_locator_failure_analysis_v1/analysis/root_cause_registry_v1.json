@@ -1,0 +1,61 @@
+{
+  "anchors": {
+    "causes": [
+      "IRRECOVERABLE_HISTORICAL_LOSS"
+    ],
+    "family_count": 1,
+    "finding": "All 12 map to DOC000214-C0002 and five identical occurrences on pages 20–24; historical claims retain no occurrence discriminator. Existing artifacts cannot choose safely.",
+    "remaining": 12
+  },
+  "authority": {
+    "causes": [
+      "SOURCE_INSPECTION_GAP",
+      "SCHEMA_GAP",
+      "JOIN_GAP",
+      "POLICY_GAP"
+    ],
+    "count": 34,
+    "finding": "The prior implementation copied every row to UNKNOWN without inspecting or joining authority-bearing fields; available descriptive metadata is not itself authority proof."
+  },
+  "flags": {
+    "authority_policy_fault": true,
+    "locator_propagation_fault": true,
+    "metadata_schema_fault": true,
+    "state_model_fault": true,
+    "validator_coverage_gap": true,
+    "validator_execution_fault": false,
+    "verification_implementation_fault": true
+  },
+  "provenance": {
+    "causes": [
+      "PROPAGATION_GAP",
+      "JOIN_GAP",
+      "SCHEMA_GAP"
+    ],
+    "missing_edge": "chunk→block/page",
+    "no_locator_join_chunk_pairs": 56,
+    "remaining_claims": 61
+  },
+  "schema_version": "1.0.0",
+  "source_verification": {
+    "anchor_found": 24,
+    "causes": [
+      "VERIFICATION_IMPLEMENTATION_GAP",
+      "STATE_MODEL_GAP"
+    ],
+    "finding": "The verifier required exact-text presence AND a pre-existing scope boolean; it did not independently verify range, proposition, qualifiers, modality, or scope. Authority was not the direct zeroing condition.",
+    "opened": 5,
+    "records": 65,
+    "verified": 0
+  },
+  "state_model": {
+    "finding": "Flattened precedence masks orthogonal support, provenance, authority, scope and admission facts.",
+    "required_dimensions": [
+      "SUPPORT_STATUS",
+      "PROVENANCE_STATUS",
+      "AUTHORITY_STATUS",
+      "SCOPE_STATUS",
+      "ADMISSION_STATUS"
+    ]
+  }
+}

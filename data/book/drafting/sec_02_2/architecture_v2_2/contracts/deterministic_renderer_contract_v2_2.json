@@ -1,0 +1,20 @@
+{
+  "version": "tunnelbook-deterministic-renderer-contract-v2.2",
+  "section_id": "SEC-02-2",
+  "additive_to": "tunnelbook-deterministic-surface-renderer-v2",
+  "frozen_renderer_modified": false,
+  "inputs": ["semantic_plan_ir_contract_v2_2", "claim_realization_contract_v2_2", "deterministic_book_style_integration_v2_2", "citation_allocation_contract_v2"],
+  "algorithm": [
+    "load and hash exact versioned inputs",
+    "load the single canonical universe or return its deterministic refusal",
+    "emit frozen non-material heading nodes in contracted order",
+    "for each paragraph item require REALIZABLE role and complete scope/case obligations",
+    "select only contracted citation keys",
+    "apply frozen parent ownership, morphology and Draft Validator v1.2 checks",
+    "refuse before output on any missing term, role, scope, citation or style invariant"
+  ],
+  "free_form_text_branch": false,
+  "model_call_branch": false,
+  "post_render_style_branch": false,
+  "current_build_status": "BLOCKED_UNREALIZABLE_REQUIRED_ROLE"
+}

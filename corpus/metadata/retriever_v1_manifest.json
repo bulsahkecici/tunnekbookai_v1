@@ -1,0 +1,30 @@
+{
+ "artifacts": {
+  "data/chunks/chunks.jsonl": "e751fcfc3cc6828b05f75f494fd9a31b44388abda9daf83fb9581581ef79df5b",
+  "data/chunks_recovery/chunks.jsonl": "835fc871ee53253d4d95eca14c7c13d908f7d06e559cf657f71c954196fd07f7",
+  "data/embeddings/bge_m3_chunk_ids.json": "7497af0d7d7032eb4c2400f74f6f1f694ab80ce3a594be416bd66bd808cf86bd",
+  "data/embeddings/bge_m3_dense.npy": "99e3b79033a996ffb08b4b742faf68ec217a5a49d0cfdb05175996d65de1d4d3",
+  "data/evaluation/crosslingual_probe_v2.jsonl": "90078d0af5097f9b6e5d06e93d4440d4392cf07095d5b52b6833f1a7dda28aa0",
+  "data/evaluation/retrieval_benchmark_v1_manifest.json": "093bdcc1b7521121e5bd369e4e9e0d876cb3e57313b3647c4db22c15251d1628",
+  "data/evaluation/retrieval_queries_v1.jsonl": "90aac5f98a75373fea0a0c6d04527a0e68231bd368a2d2b20fcc83ea78b71dd6",
+  "data/metadata/full_embedding_input_manifest.csv": "4af9d60a8cbfbb712c27c8129a622b6118166954c732947e015876e25fd99654",
+  "data/metadata/full_embedding_manifest.csv": "68be1f5fa0b7b6078cd9f492a8732aa796b2ab6536c4b76454e5a37bd41bc32a",
+  "data/metadata/qdrant_dense_release.json": "c7d3f536eae7112df2617ebe82ef1655ee3835e74ca764c9768f8aa0c5b4d341",
+  "data/metadata/retriever_selection_history.json": "fa5a836439e7e60a61c819e17dd92be8ac082f21bf744415bfa50050ea404968",
+  "data/metadata/retriever_v1_citation_inventory.json": "f5b77667ae888dd370ed19480de527f1546535398c870f425648df559a6ccbfc",
+  "data/metadata/retriever_v1_release.json": "9fd205dc04091f147af266bc2ea2324cadcb9c2ed6ec34460d023d20304fb952",
+  "reports/language_aware_retrieval_gate.md": "7e70104f219160748c844753f9dd469d21fbbd42e349b6da0a100370b1a8a089",
+  "scripts/19_retriever_v1.py": "8ada31f64d8ef51c3b4d3b8b04f3fcc3e9fb7338b1554d1a5a9118a3a231b071"
+ },
+ "change_policy": "Any change requires retriever v1.1 or v2. Frozen v1 files must not be modified in place.",
+ "closure_note": "Hashes refreshed after the pre-approval metadata correction. scripts/19_retriever_v1.py unchanged: 8ada31f64d8ef51c3b4d3b8b04f3fcc3e9fb7338b1554d1a5a9118a3a231b071",
+ "frozen_files": [
+  "scripts/19_retriever_v1.py",
+  "data/metadata/retriever_v1_release.json",
+  "data/metadata/retriever_v1_manifest.json"
+ ],
+ "qdrant_collection": "tunnelbook_dense_v1",
+ "qdrant_exact_points": 5992,
+ "release_name": "tunnelbook-retriever-v1",
+ "release_version": "1.0.0"
+}

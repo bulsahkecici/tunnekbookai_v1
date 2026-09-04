@@ -1,0 +1,74 @@
+{
+  "version": "tunnelbook-sec-02-2-technical-realization-contract-v1",
+  "section_id": "SEC-02-2",
+  "additive_to": "claim_realization_contract_v2_1",
+  "frozen_realization_modified": false,
+  "general_rules": {
+    "scope_precondition": "A material claim role is surface-eligible only when every mandatory scope binding is present in its semantic paragraph context.",
+    "criterion_subject_binding": "For an acceptance-criterion role, the grammatical semantic subject is criterion_fact_ids; class, age and specimen are context fields and cannot become the criterion subject.",
+    "case_scope_completeness": "A case-specific role is plan-valid only when all mandatory case_ids declared by its condition set are present.",
+    "no_surface_in_this_phase": "This contract records semantic fields and eligibility only. It performs no rendering and emits no prose.",
+    "source_term_ownership": "Named source cases remain exact source labels until a later versioned surface contract supplies claim-owned Turkish terms; generic glosses are not widened."
+  },
+  "entries": [
+    {
+      "entry_id": "TR-C004-SCOPE-001",
+      "claim_id": "SEC-02-2-C-004",
+      "role": "SCOPE_BINDING",
+      "required_binding_ids": ["TSB-C004-WET-001"],
+      "surface_eligible_without_binding": false
+    },
+    {
+      "entry_id": "TR-C005-SCOPE-001",
+      "claim_id": "SEC-02-2-C-005",
+      "role": "SCOPE_BINDING",
+      "required_binding_ids": ["TSB-C005-WET-001"],
+      "surface_eligible_without_binding": false
+    },
+    {
+      "entry_id": "TR-C012-SCOPE-001",
+      "claim_id": "SEC-02-2-C-012",
+      "role": "SCOPE_BINDING",
+      "required_binding_ids": ["TSB-C012-REPAIR-001"],
+      "surface_eligible_without_binding": false
+    },
+    {
+      "entry_id": "TR-P0008-CASE-001",
+      "claim_id": "SEC-02-2-P0-008",
+      "role": "CASE_SCOPE",
+      "required_condition_set_id": "TCS-P0008-ROCK-001",
+      "required_case_ids": ["ROCK-CRUSHED", "ROCK-SQUEEZING", "ROCK-SWELLING"],
+      "required_dependency": "dependent on tunnel size",
+      "surface_eligible_without_complete_case_set": false,
+      "surface_terms_status": "DEFERRED_NO_GLOSS_WIDENING"
+    },
+    {
+      "entry_id": "TR-C002-ACCEPTANCE-001",
+      "claim_id": "SEC-02-2-C-002",
+      "role": "ACCEPTANCE_CRITERIA_SCOPE",
+      "criterion_fact_ids": ["SEC-02-2-C-002#NUM0", "SEC-02-2-C-002#NUM1"],
+      "context_fields": {"strength_class": "C25/30", "age": "28 days", "specimen": "core sample", "table": "Table 351-5"},
+      "semantic_subject": "criterion_fact_ids",
+      "forbidden_semantic_subjects": ["strength_class", "C25/30"],
+      "meaning": "The 22.5 MPa individual minimum and 25.5 MPa three-sample average minimum are acceptance criteria used to decide acceptable strength for C25/30; the class designation is not itself a criterion.",
+      "surface_eligible_when_subject_is_class": false
+    },
+    {
+      "entry_id": "TR-C018-BOUND-001",
+      "claim_id": "SEC-02-2-C-018",
+      "role": "CONDITIONAL_MAXIMUM",
+      "maximum_fact": {"value": "500", "unit": "kg/m³", "applies_to": ["dry_system", "wet_system"]},
+      "linked_consequence_required": true,
+      "citation_allocation_required": "SRC-DOC000236-0229b854f373"
+    }
+  ],
+  "totals": {
+    "entries": 6,
+    "scope_preconditions": 3,
+    "case_scope_entries": 1,
+    "criterion_subject_entries": 1,
+    "new_claim_entries": 1,
+    "rendered_units": 0,
+    "gloss_entries_added": 0
+  }
+}

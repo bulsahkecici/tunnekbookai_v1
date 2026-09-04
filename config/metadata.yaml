@@ -1,0 +1,27 @@
+# Metadata enrichment (§30-§34). Reuses controlled vocabularies from
+# scripts/09_metadata_enrichment.py (imported, not duplicated).
+version: 1
+
+llm_enrichment:
+  enabled: false          # opt-in; loopback qwen only
+  base_url: http://127.0.0.1:1234/v1
+  model: qwen3.6-35b-a3b-mlx
+  temperature: 0.1
+  timeout_seconds: 120
+  # LLM may extract / normalize / suggest. It may NOT invent organization, date,
+  # author, department, approval status. Missing -> null. Inference -> {inferred:true,
+  # confidence, reason}. (§32)
+
+provenance_fields:        # fields for which metadata_provenance.json is mandatory (§31)
+  - title
+  - authors
+  - organization
+  - document_date
+  - document_type
+
+confidentiality_default: UNKNOWN     # PUBLIC | INTERNAL | RESTRICTED | UNKNOWN  (§33)
+document_status_default: UNKNOWN     # FINAL | APPROVED | DRAFT | WORKING_DOCUMENT | UNKNOWN  (§34)
+
+# source_kind is independent of confidentiality (§33)
+manual_source_kind: MANUAL_INTERNAL
+crawler_source_kind: EXTERNAL_DISCOVERY

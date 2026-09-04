@@ -1,0 +1,52 @@
+{
+  "section_id": "CH-A-S06",
+  "section_title": "En İyi Tünel Mühendislik Uygulamaları",
+  "status": "FROZEN",
+  "frozen_version": "v1",
+  "frozen_at": "2026-08-25T21:58:26.052786+00:00",
+  "audit_identity": "fafe0c5bbbb53b8364e52ad73789c8bf50f4ac897351a356940dc85eb0db0c52",
+  "evidence_contract_version": "SENTENCE_ID_V2",
+  "editorial_policy_version": "DETERMINISTIC_EDITORIAL_GATE_V1",
+  "model_id": "qwen3.6-35b-a3b-mlx",
+  "model_config": {
+    "api_base": "http://127.0.0.1:1234"
+  },
+  "human_review_refs": [],
+  "evidence_audit_contract": "SENTENCE_ID_V2",
+  "deterministic_audit_gate": "PASS",
+  "evidence_audit_decision": "PASS",
+  "editorial_audit_decision": "PASS",
+  "editorial_model_review": {
+    "model_decision": "HOLD",
+    "chronology_issues": [],
+    "naming_ambiguities": [],
+    "language_issues": [
+      "'hedeflerken;' ve 'seçilirken;' bağlaçlarından sonra noktalı virgül kullanımı dilbilgisi kurallarına aykırıdır; bu noktalarda virgül veya nokta işaretlenmelidir.",
+      "'yüksek dereceli deneyim' ifadesi teknik metin diline uygun değildir; 'yüksek düzeydeki/kalitedeki deneyim' şeklinde düzeltilmelidir.",
+      "'oldukça güzel bir örnek' ifadesi teknik metin tonuna uygun düşmemektedir; 'önemli/temsilî bir örnek' şeklinde düzenlenmelidir."
+    ],
+    "overgeneralizations": [],
+    "structure_issues": [
+      "Paragraf 3 ve Paragraf 5, coğrafi veya teknik sıralama gözetmeksizin tekil proje örneklerini art arda listelemektedir; bu durum metni katalog yapısına yaklaştırmaktadır. Örneklerin tematik veya teknik alt başlıklar altında gruplandırılması önerilir."
+    ],
+    "required_actions": [
+      "Paragraf 3 ve 5'deki proje listesi teknik kriterlere göre gruplanmalı.",
+      "Belirtilen noktalı virgül ve üslup hataları düzeltilmeli."
+    ]
+  },
+  "sentence_count": 29,
+  "draft_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/ch_a_s06.md",
+  "draft_sha256": "49c6c58097f984d26d155b05b3580dab388cf6c0c65835a9a80b1b9e470b9b82",
+  "evidence_audit_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/audits/ch_a_s06_evidence_audit.json",
+  "evidence_audit_sha256": "0952e396e76b679d5af2585c32020e2e43bbc395655d8f89fbb102116a049294",
+  "evidence_audit_input_sha256": "9ecd27bc5260c1923fcc539b6c56f611ad8c4a02a3c4db8c9d06dacb4c5eb103",
+  "editorial_audit_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/audits/ch_a_s06_editorial_audit.json",
+  "editorial_audit_sha256": "e51237a0c76820f586d07572b1b4f7119fc333a7453381f59a429b5997ce3284",
+  "editorial_input_sha256": "c775b72fbc0a47d76686bfbdeb02c17200814fe2668cc83468a20449f6e5dce6",
+  "sentence_map_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/audits/ch_a_s06_sentence_map.json",
+  "sentence_map_sha256": "788a96b09ac1cc26814f114128ffe8dba84a11a22912ef5d1a3f03ff5b34adce",
+  "source_compact_packet_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/remediation/ch_a_s06/ch_a_s06_writer_evidence_packet_compact.json",
+  "source_compact_packet_sha256": "69292a9a06f02be98911d407d1bf3d4a57a4b27b8725edee80de5a16ecf4843a",
+  "privacy_mode": "LOCAL_ONLY",
+  "next_section_auto_start": false
+}

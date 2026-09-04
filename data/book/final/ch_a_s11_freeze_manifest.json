@@ -1,0 +1,52 @@
+{
+  "section_id": "CH-A-S11",
+  "section_title": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları",
+  "status": "FROZEN",
+  "frozen_version": "v1",
+  "frozen_at": "2026-08-26T07:56:52.507196+00:00",
+  "audit_identity": "3f8827f4f75bdaf7774c1492cc007b9becfc7fc867a85b15b5b08a667c0690f8",
+  "evidence_contract_version": "SENTENCE_ID_V2",
+  "editorial_policy_version": "DETERMINISTIC_EDITORIAL_GATE_V1",
+  "model_id": "qwen3.6-35b-a3b-mlx",
+  "model_config": {
+    "api_base": "http://127.0.0.1:1234"
+  },
+  "human_review_refs": [],
+  "evidence_audit_contract": "SENTENCE_ID_V2",
+  "deterministic_audit_gate": "PASS",
+  "evidence_audit_decision": "PASS",
+  "editorial_audit_decision": "PASS",
+  "editorial_model_review": {
+    "model_decision": "HOLD",
+    "chronology_issues": [
+      "Tarihler paragraflar arasında kronolojik sırayı bozacak şekilde dağılmıştır: 2003 -> Ocak 2007 -> Ağustos 2007 -> 2003-2006 periyodu -> Eylül 2004 -> Şubat 2008 -> Nisan 2007."
+    ],
+    "naming_ambiguities": [],
+    "language_issues": [
+      "\"bir tırın kaza yapması\" ifadesinde yazım/dilbilgisi hatası bulunmaktadır (tırın kelimesi için kesme işareti veya 'kazaya karışması' yapısı önerilir)."
+    ],
+    "overgeneralizations": [],
+    "structure_issues": [
+      "Paragraf yerleşimi, okuyucuda yanlış kronoloji izlenimi oluşturmaktadır. Olaylar tarihsel akışa göre yeniden düzenlenmelidir."
+    ],
+    "required_actions": [
+      "Tüm olaylar kronolojik sıraya göre (2003, 2004, 2006, Ocak 2007, Nisan 2007, Ağustos 2007, Şubat 2008) yeniden sıralanmalıdır.",
+      "\"bir tırın kaza yapması\" dilbilgisi hatası düzeltilmelidir."
+    ]
+  },
+  "sentence_count": 13,
+  "draft_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/ch_a_s11.md",
+  "draft_sha256": "bcff256f8e5c9d14fe490ab7bf613ddcd4a9ebb70b7f78c78229f380d3ac5e52",
+  "evidence_audit_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/audits/ch_a_s11_evidence_audit.json",
+  "evidence_audit_sha256": "2abdda3d3843b4cb1a6c9df05d9b70ab69eeb2698ff141b1b0176759d44abc1f",
+  "evidence_audit_input_sha256": "298208cd59710e788cc6fa070cdf8f6ca5a9f58ec2d8adbc73bdcc43b59c4b70",
+  "editorial_audit_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/audits/ch_a_s11_editorial_audit.json",
+  "editorial_audit_sha256": "edafc837c187a421368449f88050c2b4b51ad163227330e0d65590541d932686",
+  "editorial_input_sha256": "feb95b437fe867a406a2e1b290a9a003c852d5a44093a58b8a9ddcbc1c9cf01e",
+  "sentence_map_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/audits/ch_a_s11_sentence_map.json",
+  "sentence_map_sha256": "bad5600f4563df52e084b72469702d126f04b5ab1007853d47e94b24e4a02c76",
+  "source_compact_packet_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/remediation/ch_a_s11/ch_a_s11_writer_evidence_packet_compact.json",
+  "source_compact_packet_sha256": "095cf4afaeaa0821ac13fa670311127e8342ce450d636f2cb31f573199885229",
+  "privacy_mode": "LOCAL_ONLY",
+  "next_section_auto_start": false
+}

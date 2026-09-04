@@ -1,0 +1,15 @@
+{
+  "document_id": "DOC000004",
+  "field": "document_type",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "processed_at": "2026-08-15T23:37:25+00:00",
+  "prompt_version": "metadata-verification-v1.0",
+  "response": {
+    "confidence": "high",
+    "evidence": "For this report, the working group has defined maintenance to include the following:",
+    "relationship": "document_identity",
+    "value": "technical_report"
+  },
+  "retries": 0,
+  "source_sha256": "77cf2eb068cd0f71b6f6069617f35886b8f6fb4f66e7f4d78aae7b8de6935a72"
+}

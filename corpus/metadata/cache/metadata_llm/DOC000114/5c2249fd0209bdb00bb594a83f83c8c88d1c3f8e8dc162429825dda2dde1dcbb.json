@@ -1,0 +1,55 @@
+{
+  "document_id": "DOC000114",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:56:24+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "**IGT Geotechnik und Tunnelbau ZT GmbH** [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Austrian Tunnelling Symposium Austria, March 31st & April 1st, 2015",
+      "value": "conference_proceedings"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "**IGT Geotechnik und Tunnelbau ZT GmbH**",
+      "value": "IGT Geotechnik und Tunnelbau ZT GmbH"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "**DESIGN OF TUNNELS IN VARIOUS ROCK CONDITIONS**",
+      "value": "Design of tunnels in various rock conditions"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "CASE STUDIES|Design of 2nd Tube - Geotechnics|Spraying of the shotcrete shell|Systematic installation of rock bolts|Ventilation system",
+      "value": [
+        "case_study",
+        "excavation",
+        "geotechnical_investigation",
+        "rock_bolt",
+        "rock_mechanics",
+        "shotcrete",
+        "standards",
+        "support_systems",
+        "ventilation"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Austrian Tunnelling Symposium Austria, March 31st & April 1st, 2015",
+      "value": 2015
+    }
+  },
+  "source_sha256": "7fd4b4c8c846d5e6aae2acc8cecd0dc03273e7182ae53a6f4ebf8de4b5d346be"
+}

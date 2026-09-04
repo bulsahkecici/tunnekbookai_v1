@@ -1,0 +1,174 @@
+{
+  "generality_note": "A claim acquires a rule here by carrying a registered qualifier-semantics entry whose declared claim scope matches its allowlist row, not by being named in validator code. No entry may quote a pilot sentence: the matcher sees construction groups only, and the registry integrity check rejects any entry whose own canonical claim already satisfies it.",
+  "parent_contract_version": "tunnelbook-draft-semantic-constraints-v1",
+  "problem": "DF-01. Stage E scores a qualifier preserved when at least half of its lexical anchors reach the paragraph. A qualifier that restates its own claim's vocabulary therefore scores preserved on a verbatim copy of the canonical sentence that never states the qualifier's meaning. Lexical overlap is not semantic realisation.",
+  "qualifier_semantics": [
+    {
+      "claim_id": "SEC-02-2-C-009",
+      "claim_scope_markers": {
+        "any_of": [
+          "typical_range",
+          "case_specific"
+        ],
+        "field": "requirement_scope",
+        "rationale": "A scope-limited qualifier belongs to a claim whose allowlist row already declares limited scope. An entry attached to a claim that does not is stale and is silently protecting nothing, so the registry check fails closed rather than passing quietly."
+      },
+      "constraint_id": "DQS-C009-001",
+      "forbidden_generalisation": {
+        "code": "SEMANTIC_SCOPE_MISMATCH",
+        "items": [
+          {
+            "clause_forbids": [
+              "\\bdeğil\\w*",
+              "\\bolamaz\\b",
+              "\\balınamaz\\b",
+              "\\bsayılamaz\\b",
+              "\\buygulanamaz\\b",
+              "\\bkil\\w*",
+              "\\bzon\\w*"
+            ],
+            "clause_requires": [
+              {
+                "any_of": [
+                  "\\bgenel olarak\\b",
+                  "\\bgenelde\\b",
+                  "\\bher durumda\\b",
+                  "\\bher koşulda\\b",
+                  "\\btüm\\b",
+                  "\\bbütün\\b",
+                  "\\bher tür"
+                ],
+                "group_id": "generalisation_operator"
+              },
+              {
+                "any_of": [
+                  "ilk\\s+(?:\\w+\\s+){0,3}?katman",
+                  "ilk\\s+(?:\\w+\\s+){0,3}?tabaka"
+                ],
+                "group_id": "restricted_subject"
+              }
+            ],
+            "construction_id": "GENERALISED_FIRST_LAYER",
+            "meaning": "One clause presents the first-layer thickness as a general rule, with no clay-zone binding and no denial of generality."
+          }
+        ],
+        "scope": "unit",
+        "scope_rationale": "A forbidden meaning is asserted by one sentence. A correct neighbouring sentence does not withdraw it, so this is scored on the unit, matching DSC-C002-001."
+      },
+      "lexical_overlap_evidence": {
+        "anchors_present_in_attempt_2_paragraph": [
+          "kil",
+          "zonlu",
+          "tabakalara",
+          "katman",
+          "kalınlığı"
+        ],
+        "attempt": "SEC-02-2-PILOT-V1-1",
+        "note": "The evidence that motivated the entry. It is a regression case, not the matching rule.",
+        "qualifier_anchors": [
+          "kil",
+          "zonlu",
+          "tabakalara",
+          "özgüdür",
+          "katman",
+          "kalınlığı"
+        ],
+        "semantic_realisation": "none - the unit is byte-identical to canonical_claim",
+        "stage_e_score": "5/6 anchors, preserved by the half-anchor rule",
+        "unit_id": "U-D-P01-S03"
+      },
+      "missing_meaning_code": "QUALIFIER_DROPPED",
+      "qualifier_id": "SEC-02-2-C-009-Q1",
+      "qualifier_index": 0,
+      "qualifier_text": "§351.08.10.02 kil zonlu tabakalara özgüdür; genel ilk katman kalınlığı değildir",
+      "required_action": "State, in the paragraph, that the 100-150 mm first-layer figure applies to application on clay-zone layers and is not a general first-layer thickness - or drop the claim. Repeating the canonical sentence does not discharge this.",
+      "required_constructions": {
+        "items": [
+          {
+            "clause_requires": [
+              {
+                "any_of": [
+                  "özgü",
+                  "\\byalnızca\\b",
+                  "\\bsadece\\b",
+                  "\\bmünhasıran\\b",
+                  "ile sınırlı",
+                  "\\bsınırlıdır\\b",
+                  "\\bözeldir\\b",
+                  "kendine has"
+                ],
+                "group_id": "exclusivity_operator"
+              },
+              {
+                "any_of": [
+                  "\\bkil\\w*",
+                  "\\bzon\\w*",
+                  "351\\.08\\.10\\.02"
+                ],
+                "group_id": "scope_binding"
+              }
+            ],
+            "construction_id": "SCOPE_EXCLUSIVITY",
+            "meaning": "One clause binds the figure exclusively to the clay-zone case."
+          },
+          {
+            "clause_requires": [
+              {
+                "any_of": [
+                  "\\bgenel(?!likle)\\w*"
+                ],
+                "group_id": "generality_term"
+              },
+              {
+                "any_of": [
+                  "\\bdeğil\\w*",
+                  "\\bolamaz\\b",
+                  "\\balınamaz\\b",
+                  "\\bsayılamaz\\b",
+                  "\\buygulanamaz\\b",
+                  "geçerli değil"
+                ],
+                "group_id": "negation"
+              },
+              {
+                "any_of": [
+                  "katman",
+                  "kalınlı",
+                  "kaplama",
+                  "tabaka",
+                  "\\bkil\\w*",
+                  "\\bzon\\w*"
+                ],
+                "group_id": "subject_binding"
+              }
+            ],
+            "construction_id": "EXPLICIT_NON_GENERALITY",
+            "meaning": "One clause denies that the figure is a general first-layer thickness. The negative lookahead on 'genel' exists because the claim's own 'genellikle' would otherwise satisfy the group and reintroduce DF-01. The generality term, negation and subject must share a clause; three groups is what stops a negation borrowed from a neighbouring proposition from counting."
+          }
+        ],
+        "match": "any_of",
+        "match_rationale": "Either construction realises the qualifier's scope-limiting meaning. Demanding both would reject a faithful rendering such as an exclusivity statement standing alone, which is a false reject, and false rejects are as much a defect as the false pass being closed."
+      },
+      "required_meaning": "The 100-150 mm first-layer figure is specific to application on clay-zone layers and is not a general first-layer thickness rule.",
+      "required_meaning_scope": "paragraph",
+      "required_meaning_scope_rationale": "A qualifier lives outside the claim's own sentence by definition. Demanding it inside the unit would reject a faithful rendering of the canonical wording, which is the failure mode the parent condition policy and DSC-C002-001 both avoid.",
+      "self_test": {
+        "canonical_claim_must_not_satisfy": true,
+        "canonical_claim_rationale": "This is the DF-01 guard, stated as a property of every registered entry rather than as a fact about one claim. If a claim's own canonical sentence satisfies the constructions, the entry cannot distinguish realisation from reproduction and the registry is rejected.",
+        "qualifier_text_must_match_frozen": true
+      },
+      "source_keys": [
+        "SRC-DOC000236-ad4b684b487a"
+      ],
+      "type": "QUALIFIER_SEMANTICS"
+    }
+  ],
+  "rationale": "The fix is not a higher anchor percentage. A percentage is another lexical heuristic: raising it to 75% or 100% would reject faithful prose that renders the meaning in other words, and would still pass a copy whose overlap happens to be complete. Registered qualifiers are validated on explicit, deterministic meaning constructions instead, following DSC-C002-001.",
+  "scoring_policy": {
+    "additive_only": true,
+    "never_accepts": "This registry can only add failures. No entry can cause a unit rejected by any earlier stage or validator version to be accepted.",
+    "unregistered_claims": "unaffected - stage L returns no failures for a unit declaring no registered claim"
+  },
+  "section_id": "SEC-02-2",
+  "version": "tunnelbook-draft-qualifier-semantics-v1"
+}

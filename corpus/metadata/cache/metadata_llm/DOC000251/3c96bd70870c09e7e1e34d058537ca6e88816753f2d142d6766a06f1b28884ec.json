@@ -1,0 +1,48 @@
+{
+  "document_id": "DOC000251",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:05:56+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "T.C. ULAŞTIRMA VE ALTYAPI BAKANLIĞI Karayolları Genel Müdürlüğü [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "NO □ Süreksizlik Düzlemleri DO SI AR CAGL FOTOGRAF NO AYRIŞMA DURUMU MH□ Sreve Eklem Takmi Kumlu Kil TÜNEL PROJECISININTEMSILCISI (KTS.350.01.01) TEMAT-GÖZLEM iş ORTAKLIČI MS LEANT Fay DOLGU UUMU Sert Dolgu > 5 mm",
+      "value": "inspection_form"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "T.C. ULAŞTIRMA VE ALTYAPI BAKANLIĞI Karayolları Genel Müdürlüğü",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "T.C. ULAŞTIRMA VE ALTYAPI BAKANLIĞI Karayolları Genel Müdürlüğü",
+      "value": "T.C. ULAŞTIRMA VE ALTYAPI BAKANLIĞI Karayolları Genel Müdürlüğü"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "# T2 Tuneli Giris Sol Tup 26.11.2018",
+      "value": "T2 Tuneli Giris Sol Tup 26.11.2018"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "NO □ Süreksizlik Düzlemleri DO SI AR CAGL FOTOGRAF NO AYRIŞMA DURUMU MH□ Sreve Eklem Takmi Kumlu Kil",
+      "value": [
+        "geotechnical_investigation",
+        "rock_mechanics"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "26.11.2018",
+      "value": 2018
+    }
+  },
+  "source_sha256": "aac6e448d314f890336574b3ce19a7e39dad0525a5cc8af22dd57050c5c67af1"
+}

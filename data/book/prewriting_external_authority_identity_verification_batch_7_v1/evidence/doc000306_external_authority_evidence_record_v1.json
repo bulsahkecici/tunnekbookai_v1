@@ -1,0 +1,40 @@
+{
+  "admission_status_changed": false,
+  "authoritative_lookup_records": [],
+  "authority_class": "UNKNOWN_AUTHORITY",
+  "authority_status": "AUTHORITY_NOT_VERIFIABLE",
+  "batch_id": "EXT-BATCH-07",
+  "claim_proposition_changed": false,
+  "claim_relative_suitability": "NOT_AUTHORITY_SUITABLE_IDENTITY_OR_VERSION_UNRESOLVED",
+  "conflict_fields": [],
+  "evidence_snapshot": {
+    "kind": "DETERMINISTIC_METADATA_DIGEST",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "identity_match_status": "NO_RELIABLE_MATCH",
+  "issuing_publishing_authority": "EXTERNALLY_UNVERIFIED",
+  "material_identity": "EXTERNALLY_UNVERIFIED",
+  "metadata_only_use_boundary": true,
+  "promotion": false,
+  "queue_identity_matching_keys": [
+    "DOC000306",
+    "Çalışma Kapsamı Tasarısı",
+    "4b58fadf9915cfda3a8c37ff6b864c52f05d1f62e265607f2edcad54ffe5e71c"
+  ],
+  "repository_identity": "Çalışma Kapsamı Tasarısı",
+  "schema_version": "1.0.0",
+  "source_id": "DOC000306",
+  "source_type": "UNKNOWN_SOURCE_TYPE",
+  "source_type_resolution": "UNRESOLVED",
+  "support_status_changed": false,
+  "technical_authority": "UNKNOWN",
+  "technical_content_captured": false,
+  "unresolved_fields": [
+    "source type",
+    "issuing institution/publisher",
+    "publication/report date",
+    "edition/version",
+    "formal identifier"
+  ],
+  "version_match_status": "VERSION_UNRESOLVED"
+}

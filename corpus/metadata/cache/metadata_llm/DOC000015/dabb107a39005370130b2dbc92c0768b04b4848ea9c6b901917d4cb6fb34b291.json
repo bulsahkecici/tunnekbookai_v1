@@ -1,0 +1,51 @@
+{
+  "document_id": "DOC000015",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:51:54+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "disseminated under the sponsorship of the U.S. Department of Transportation [authority_A_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "TOMIE MANUAL",
+      "value": "manual"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "Tunnel Operations, Maintenance, Inspection, and Evaluation (TOMIE) Manual July 2015 Publication No. FHWA-HIF-15-005",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "Performing Organization Name and Address Federal Highway Administration 1200 New Jersey Ave, SE Washington, D.C. 20590",
+      "value": "Federal Highway Administration"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "Title and Subtitle Tunnel Operations, Maintenance, Inspection, and Evaluation (TOMIE) Manual",
+      "value": "Tunnel Operations, Maintenance, Inspection, and Evaluation (TOMIE) Manual"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Key Words Tunnel, inspection, inventory, maintenance, evaluation, operation, load rating, highway, roadway, national, standards, procedures, programs.",
+      "value": [
+        "inspection",
+        "inventory",
+        "maintenance",
+        "operations",
+        "safety"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Report Date July 2015",
+      "value": 2015
+    }
+  },
+  "source_sha256": "b6a2b2e47753afe8699c10da551fe4afc311dcac8f4504a34c8e83d71fd157c8"
+}

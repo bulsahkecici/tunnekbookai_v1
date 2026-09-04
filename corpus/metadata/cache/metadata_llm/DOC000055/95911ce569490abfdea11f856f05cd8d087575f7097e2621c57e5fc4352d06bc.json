@@ -1,0 +1,47 @@
+{
+  "document_id": "DOC000055",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:53:44+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": "unknown"
+    },
+    "language": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": "unknown"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "topics": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": [
+        "injection"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": null
+    }
+  },
+  "source_sha256": "3b434b03f09745ed6d9cbad38c6e4003304f4e1377b5b93cb9fde5d0885bab35"
+}

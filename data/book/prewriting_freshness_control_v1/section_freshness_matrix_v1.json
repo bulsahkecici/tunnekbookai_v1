@@ -1,0 +1,855 @@
+{
+  "classification_counts": {
+    "AS_OF_DATE_REQUIRED": 3,
+    "CURRENTNESS_SENSITIVE": 2,
+    "DATASET_SNAPSHOT_DEPENDENT": 14,
+    "EVENT_DEPENDENT": 3,
+    "HISTORICAL_STABLE": 3,
+    "NOT_APPLICABLE": 5,
+    "SLOW_CHANGING": 30
+  },
+  "schema_version": "section-freshness-matrix-v1",
+  "section_count": 60,
+  "sections": [
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-001-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-A-S01",
+      "source_title": "Tünelin Tanımı"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-002-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-A-S02",
+      "source_title": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "CLASSIFIED",
+      "evidence_classification": "HISTORICAL_STABLE",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "HISTORICAL_STABLE",
+      "research_question_ids": [
+        "RQ-003-01"
+      ],
+      "section_classification": "HISTORICAL_STABLE",
+      "section_id": "CH-A-S03",
+      "source_title": "Tünellerin Tarihçesi"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "CLASSIFIED",
+      "evidence_classification": "HISTORICAL_STABLE",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "HISTORICAL_STABLE",
+      "research_question_ids": [
+        "RQ-004-01"
+      ],
+      "section_classification": "HISTORICAL_STABLE",
+      "section_id": "CH-A-S04",
+      "source_title": "Dünyadaki İlk Tüneller"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "CLASSIFIED",
+      "evidence_classification": "HISTORICAL_STABLE",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "HISTORICAL_STABLE",
+      "research_question_ids": [
+        "RQ-005-01"
+      ],
+      "section_classification": "HISTORICAL_STABLE",
+      "section_id": "CH-A-S05",
+      "source_title": "Türkiye’de İlk Tünel"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "CURRENTNESS_SENSITIVE",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "CURRENTNESS_SENSITIVE",
+      "research_question_ids": [
+        "RQ-006-01"
+      ],
+      "section_classification": "CURRENTNESS_SENSITIVE",
+      "section_id": "CH-A-S06",
+      "source_title": "En İyi Tünel Mühendislik Uygulamaları"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "AS_OF_DATE_REQUIRED",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "AS_OF_DATE_REQUIRED",
+      "research_question_ids": [
+        "RQ-007-01"
+      ],
+      "section_classification": "AS_OF_DATE_REQUIRED",
+      "section_id": "CH-A-S07",
+      "source_title": "Dünyada Karayolu Tünelleri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "AS_OF_DATE_REQUIRED",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "AS_OF_DATE_REQUIRED",
+      "research_question_ids": [
+        "RQ-008-01"
+      ],
+      "section_classification": "AS_OF_DATE_REQUIRED",
+      "section_id": "CH-A-S08",
+      "source_title": "Türkiye’de Karayolu Tünelleri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "EVENT_DEPENDENT",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "EVENT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-009-01"
+      ],
+      "section_classification": "EVENT_DEPENDENT",
+      "section_id": "CH-A-S09",
+      "source_title": "Tünel Felaketleri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "EVENT_DEPENDENT",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "EVENT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-010-01"
+      ],
+      "section_classification": "EVENT_DEPENDENT",
+      "section_id": "CH-A-S10",
+      "source_title": "Dünyada Gerçekleşen Önemli Tünel Felaketleri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "EVENT_DEPENDENT",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "EVENT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-011-01"
+      ],
+      "section_classification": "EVENT_DEPENDENT",
+      "section_id": "CH-A-S11",
+      "source_title": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-012-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S01",
+      "source_title": "Tünel Yapı/Destek Elemanları"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-013-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S02",
+      "source_title": "Tünellerle İlgili Tanımlamalar"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-014-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S03",
+      "source_title": "Tünel Destekleme Elemanları"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-015-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S04",
+      "source_title": "Tünel Yapım Yöntemleri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-016-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S05",
+      "source_title": "Kayaç Zeminde Açılan Tüneller"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-017-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S06",
+      "source_title": "Yumuşak Zeminde Açılan Tüneller"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-018-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S07",
+      "source_title": "Su Altında Açılan Tüneller"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-019-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S08",
+      "source_title": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-020-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S09",
+      "source_title": "Tünellerin Projelendirilmesi"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-021-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S10",
+      "source_title": "Jeolojik ve Geoteknik İncelemeler"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-022-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S11",
+      "source_title": "İnşaat Başlamadan Önce Yapılan Çalışmalar"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-023-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S12",
+      "source_title": "İnşaat Esnasındaki Çalışmalar"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-024-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S13",
+      "source_title": "Kullanım Aşaması Çalışmaları"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-025-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S14",
+      "source_title": "Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Hususlar"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-026-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S15",
+      "source_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-027-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-B-S16",
+      "source_title": "Boykesit Belirlemede Dikkat Edilecek Hususlar"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "CURRENTNESS_SENSITIVE",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "CURRENTNESS_SENSITIVE",
+      "research_question_ids": [
+        "RQ-028-01"
+      ],
+      "section_classification": "CURRENTNESS_SENSITIVE",
+      "section_id": "CH-B-S17",
+      "source_title": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-029-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-D-S01",
+      "source_title": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-030-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-D-S02",
+      "source_title": "Tünel Yaşam Döngü Maliyetleri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "CLASSIFIED",
+      "evidence_classification": "NOT_APPLICABLE",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "NOT_APPLICABLE",
+      "research_question_ids": [
+        "RQ-031-01"
+      ],
+      "section_classification": "NOT_APPLICABLE",
+      "section_id": "CH-E-S01",
+      "source_title": "Çalışmanın Amacı ve Önemi"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "CLASSIFIED",
+      "evidence_classification": "NOT_APPLICABLE",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "NOT_APPLICABLE",
+      "research_question_ids": [
+        "RQ-032-01"
+      ],
+      "section_classification": "NOT_APPLICABLE",
+      "section_id": "CH-E-S02",
+      "source_title": "Çalışmanın Kapsamı"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-033-01"
+      ],
+      "section_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "section_id": "CH-E-S03",
+      "source_title": "Çalışmanın Yöntemi ve Kullanılan Veriler"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-034-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-E-S04",
+      "source_title": "Tünel Bakım-Onarım ve İşletme"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-035-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-E-S05",
+      "source_title": "Yapısal Bakım"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-036-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-E-S06",
+      "source_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-037-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-E-S07",
+      "source_title": "Periyodik Bakım"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "repository_coverage_disposition": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "research_question_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-038-01"
+      ],
+      "section_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "section_id": "CH-E-S08",
+      "source_title": "Tünel Bakım-Onarım ve İşletme Maliyetleri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "repository_coverage_disposition": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "research_question_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-039-01"
+      ],
+      "section_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "section_id": "CH-E-S09",
+      "source_title": "Yönetim ve İşletme Maliyetleri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "repository_coverage_disposition": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "research_question_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-040-01"
+      ],
+      "section_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "section_id": "CH-E-S10",
+      "source_title": "Bakım-Onarım Maliyetleri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "repository_coverage_disposition": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "research_question_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-041-01"
+      ],
+      "section_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "section_id": "CH-E-S11",
+      "source_title": "Yapısal Bakım-Onarım Maliyetleri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "repository_coverage_disposition": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "research_question_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-042-01"
+      ],
+      "section_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "section_id": "CH-E-S12",
+      "source_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "repository_coverage_disposition": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "research_question_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-043-01"
+      ],
+      "section_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "section_id": "CH-E-S13",
+      "source_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "repository_coverage_disposition": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "research_question_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-044-01"
+      ],
+      "section_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "section_id": "CH-E-S14",
+      "source_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "repository_coverage_disposition": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "research_question_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-045-01"
+      ],
+      "section_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "section_id": "CH-E-S15",
+      "source_title": "Bakım-İşletme Maliyetini Azaltma Yöntemleri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "repository_coverage_disposition": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "research_question_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-046-01"
+      ],
+      "section_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "section_id": "CH-E-S16",
+      "source_title": "Enerji Maliyetini Azaltma Yöntemleri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "AS_OF_DATE_REQUIRED",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "AS_OF_DATE_REQUIRED",
+      "research_question_ids": [
+        "RQ-047-01"
+      ],
+      "section_classification": "AS_OF_DATE_REQUIRED",
+      "section_id": "CH-E-S17",
+      "source_title": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-048-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-E-S18",
+      "source_title": "Ulusal ve Uluslararası Literatür Taraması"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-049-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-E-S18-SS01",
+      "source_title": "Ulusal Literatür Taraması"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-050-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-E-S18-SS02",
+      "source_title": "Uluslararası Literatür Taraması"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "CLASSIFIED",
+      "evidence_classification": "NOT_APPLICABLE",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "NOT_APPLICABLE",
+      "research_question_ids": [
+        "RQ-051-01"
+      ],
+      "section_classification": "NOT_APPLICABLE",
+      "section_id": "CH-F-S01",
+      "source_title": "Çalışmanın Amacı, Kapsamı, Yöntem ve Kullanılan Verileri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "CLASSIFIED",
+      "evidence_classification": "NOT_APPLICABLE",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "NOT_APPLICABLE",
+      "research_question_ids": [
+        "RQ-052-01"
+      ],
+      "section_classification": "NOT_APPLICABLE",
+      "section_id": "CH-F-S02",
+      "source_title": "Çalışmanın Amacı ve Önemi"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "CLASSIFIED",
+      "evidence_classification": "NOT_APPLICABLE",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "NOT_APPLICABLE",
+      "research_question_ids": [
+        "RQ-053-01"
+      ],
+      "section_classification": "NOT_APPLICABLE",
+      "section_id": "CH-F-S03",
+      "source_title": "Çalışmanın Kapsamı"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-054-01"
+      ],
+      "section_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "section_id": "CH-F-S04",
+      "source_title": "Çalışmanın Yöntemi"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-055-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-F-S05",
+      "source_title": "Ulusal ve Uluslararası Literatür Taraması"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-056-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-F-S05-SS01",
+      "source_title": "Ulusal Literatür Taraması"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "SLOW_CHANGING",
+      "repository_coverage_disposition": "EXTERNAL_EVIDENCE_REQUIRED",
+      "research_question_classification": "SLOW_CHANGING",
+      "research_question_ids": [
+        "RQ-057-01"
+      ],
+      "section_classification": "SLOW_CHANGING",
+      "section_id": "CH-F-S05-SS02",
+      "source_title": "Uluslararası Literatür Taraması"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "repository_coverage_disposition": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "research_question_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-058-01"
+      ],
+      "section_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "section_id": "CH-F-S06",
+      "source_title": "Analizler"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "repository_coverage_disposition": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "research_question_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-059-01"
+      ],
+      "section_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "section_id": "CH-G-S01",
+      "source_title": "Tünel Bakım-İşletme Maliyetleri"
+    },
+    {
+      "asset_candidate_count": 0,
+      "asset_classification": "NOT_APPLICABLE",
+      "current_status": "FRESHNESS_REQUIRED",
+      "evidence_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "repository_coverage_disposition": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "research_question_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "research_question_ids": [
+        "RQ-060-01"
+      ],
+      "section_classification": "DATASET_SNAPSHOT_DEPENDENT",
+      "section_id": "CH-G-S02",
+      "source_title": "Tünel Yapım Maliyetleri"
+    }
+  ]
+}

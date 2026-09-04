@@ -1,0 +1,50 @@
+{
+  "document_id": "DOC000208",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:02:30+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "magazine"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "TÜNELCİLİK DERNEĞİ",
+      "value": "Tünelcilik Derneği"
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "TÜNEL_SAYI-38 [evidence_not_grounded_in_context]",
+      "value": "TÜNEL_SAYI-38"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "contracts",
+        "geology",
+        "shotcrete",
+        "tbm"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Ocak - Şubat - Mart / January - February - March 2021",
+      "value": 2021
+    }
+  },
+  "source_sha256": "bb2609f7183736147ea9f39930dc3e8af22afcf722a05f9866db5d404d7c163c"
+}

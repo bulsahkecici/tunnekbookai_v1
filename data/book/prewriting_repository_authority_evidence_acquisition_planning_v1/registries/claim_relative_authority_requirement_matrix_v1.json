@@ -1,0 +1,1199 @@
+{
+  "items": [
+    {
+      "claim_ids": [],
+      "claim_role": "UNUSED_AUTHORITY_RECORD",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000002",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": []
+    },
+    {
+      "claim_ids": [],
+      "claim_role": "UNUSED_AUTHORITY_RECORD",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000003",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": []
+    },
+    {
+      "claim_ids": [
+        "CLM-00415",
+        "CLM-00416",
+        "CLM-00417",
+        "CLM-00418",
+        "CLM-00419",
+        "CLM-00420",
+        "CLM-00421",
+        "CLM-00422",
+        "CLM-00423",
+        "CLM-00424",
+        "CLM-00425",
+        "CLM-00426",
+        "CLM-00427",
+        "CLM-00428",
+        "CLM-00429",
+        "CLM-00430"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000038",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "project_owner_or_issuer",
+        "canonical_title",
+        "date",
+        "report_or_contract_identifier"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S17"
+      ]
+    },
+    {
+      "claim_ids": [
+        "RCLM-00001"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000039",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-A-S01"
+      ]
+    },
+    {
+      "claim_ids": [
+        "RCLM-00003",
+        "RCLM-00005",
+        "RCLM-00008",
+        "RCLM-00010",
+        "RCLM-00014"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000042",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-A-S02",
+        "CH-A-S03",
+        "CH-A-S05",
+        "CH-A-S06",
+        "CH-A-S08"
+      ]
+    },
+    {
+      "claim_ids": [
+        "RCLM-00013",
+        "RCLM-00015"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000045",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "creator_or_issuing_body",
+        "title_or_record_description",
+        "date_or_period",
+        "archive_or_collection_locator"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-A-S07",
+        "CH-A-S08"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00508",
+        "CLM-00509",
+        "CLM-00510",
+        "CLM-00511",
+        "CLM-00512",
+        "CLM-00513",
+        "CLM-00514",
+        "CLM-00515",
+        "CLM-00516",
+        "CLM-00517",
+        "CLM-00518",
+        "CLM-00519",
+        "CLM-00520",
+        "CLM-00521",
+        "CLM-00522",
+        "CLM-00523",
+        "CLM-00524",
+        "CLM-00525",
+        "CLM-00526",
+        "CLM-00527",
+        "CLM-00528",
+        "CLM-00529",
+        "CLM-00530",
+        "CLM-00531",
+        "CLM-00532",
+        "CLM-00533",
+        "CLM-00534",
+        "CLM-00535",
+        "CLM-00536",
+        "CLM-00537",
+        "CLM-00538",
+        "CLM-00539",
+        "CLM-00540",
+        "CLM-00541",
+        "CLM-00542",
+        "CLM-00543",
+        "CLM-00544",
+        "CLM-00545",
+        "CLM-00546",
+        "CLM-00547",
+        "CLM-00548",
+        "CLM-00549",
+        "CLM-00550",
+        "CLM-00551",
+        "CLM-00552",
+        "CLM-00553",
+        "CLM-00554",
+        "CLM-00555",
+        "CLM-00556",
+        "CLM-00557",
+        "CLM-00558",
+        "CLM-00559",
+        "CLM-00560"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000048",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-E-S04",
+        "CH-E-S06",
+        "CH-E-S07",
+        "CH-E-S17"
+      ]
+    },
+    {
+      "claim_ids": [
+        "RCLM-00002",
+        "RCLM-00004",
+        "RCLM-00006",
+        "RCLM-00009",
+        "RCLM-00018",
+        "RCLM-00024",
+        "RCLM-00025",
+        "RCLM-00027",
+        "RCLM-00028",
+        "RCLM-00034",
+        "RCLM-00036",
+        "RCLM-00037",
+        "RCLM-00038"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000072",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "author",
+        "title",
+        "degree",
+        "institution",
+        "year",
+        "repository_record_or_identifier"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-A-S02",
+        "CH-A-S03",
+        "CH-A-S04",
+        "CH-A-S05",
+        "CH-B-S07",
+        "CH-B-S15",
+        "CH-B-S16",
+        "CH-E-S01",
+        "CH-E-S03",
+        "CH-F-S01",
+        "CH-F-S02",
+        "CH-F-S04"
+      ]
+    },
+    {
+      "claim_ids": [],
+      "claim_role": "UNUSED_AUTHORITY_RECORD",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000073",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": []
+    },
+    {
+      "claim_ids": [
+        "CLM-00086",
+        "CLM-00087",
+        "CLM-00088",
+        "CLM-00089",
+        "CLM-00090",
+        "CLM-00091",
+        "CLM-00092",
+        "CLM-00093",
+        "CLM-00094",
+        "CLM-00095",
+        "CLM-00096",
+        "CLM-00097",
+        "CLM-00098",
+        "CLM-00099",
+        "CLM-00100",
+        "CLM-00101",
+        "CLM-00102",
+        "CLM-00103",
+        "CLM-00104",
+        "CLM-00105",
+        "CLM-00106",
+        "CLM-00107",
+        "CLM-00108",
+        "CLM-00109",
+        "CLM-00193",
+        "CLM-00194",
+        "CLM-00195",
+        "CLM-00196",
+        "CLM-00197",
+        "CLM-00198",
+        "CLM-00199",
+        "CLM-00200",
+        "CLM-00201",
+        "CLM-00202",
+        "CLM-00203",
+        "CLM-00204",
+        "CLM-00205",
+        "CLM-00206",
+        "CLM-00207",
+        "CLM-00208",
+        "CLM-00209",
+        "CLM-00210",
+        "CLM-00211",
+        "CLM-00212",
+        "CLM-00213",
+        "CLM-00214",
+        "CLM-00215",
+        "CLM-00216"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000074",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S01",
+        "CH-B-S03"
+      ]
+    },
+    {
+      "claim_ids": [
+        "RCLM-00011"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000074",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-A-S06"
+      ]
+    },
+    {
+      "claim_ids": [
+        "RCLM-00016",
+        "RCLM-00017",
+        "RCLM-00019"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000075",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S05",
+        "CH-B-S06",
+        "CH-B-S07"
+      ]
+    },
+    {
+      "claim_ids": [
+        "RCLM-00020",
+        "RCLM-00022"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000076",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S11",
+        "CH-B-S14"
+      ]
+    },
+    {
+      "claim_ids": [
+        "RCLM-00031",
+        "RCLM-00040"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000087",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "issuer",
+        "identifier",
+        "edition_or_date",
+        "canonical_title"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-E-S18",
+        "CH-F-S05"
+      ]
+    },
+    {
+      "claim_ids": [
+        "RCLM-00012",
+        "RCLM-00029"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000098",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "author",
+        "title",
+        "degree",
+        "institution",
+        "year",
+        "repository_record_or_identifier"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-A-S06",
+        "CH-E-S03"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00385",
+        "CLM-00386",
+        "CLM-00387",
+        "CLM-00388",
+        "CLM-00389",
+        "CLM-00390",
+        "CLM-00391",
+        "CLM-00392",
+        "CLM-00393",
+        "CLM-00394",
+        "CLM-00395",
+        "CLM-00396",
+        "CLM-00397",
+        "CLM-00398",
+        "CLM-00399",
+        "CLM-00400",
+        "CLM-00401",
+        "CLM-00402",
+        "CLM-00403",
+        "CLM-00404",
+        "CLM-00405",
+        "CLM-00406",
+        "CLM-00407",
+        "CLM-00408",
+        "CLM-00460",
+        "CLM-00461",
+        "CLM-00462",
+        "CLM-00463",
+        "CLM-00464",
+        "CLM-00465",
+        "CLM-00466",
+        "CLM-00467",
+        "CLM-00468",
+        "CLM-00469",
+        "CLM-00470",
+        "CLM-00471",
+        "CLM-00472",
+        "CLM-00473",
+        "CLM-00474",
+        "CLM-00475",
+        "CLM-00476",
+        "CLM-00477",
+        "CLM-00478",
+        "CLM-00479",
+        "CLM-00480",
+        "CLM-00481",
+        "CLM-00482",
+        "CLM-00483",
+        "CLM-00484",
+        "CLM-00485",
+        "CLM-00486",
+        "CLM-00487",
+        "CLM-00488",
+        "CLM-00489",
+        "CLM-00490",
+        "CLM-00491",
+        "CLM-00492",
+        "CLM-00493",
+        "CLM-00494",
+        "CLM-00495",
+        "CLM-00496",
+        "CLM-00497",
+        "CLM-00498",
+        "CLM-00499",
+        "CLM-00500",
+        "CLM-00501",
+        "CLM-00502",
+        "CLM-00503",
+        "CLM-00504",
+        "CLM-00505",
+        "CLM-00506",
+        "CLM-00507"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000100",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S08",
+        "CH-D-S01",
+        "CH-D-S02"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00110",
+        "CLM-00111",
+        "CLM-00112",
+        "CLM-00113",
+        "CLM-00114",
+        "CLM-00115",
+        "CLM-00116",
+        "CLM-00117",
+        "CLM-00118",
+        "CLM-00119",
+        "CLM-00120",
+        "CLM-00121",
+        "CLM-00122",
+        "CLM-00123",
+        "CLM-00124",
+        "CLM-00125",
+        "CLM-00217",
+        "CLM-00218",
+        "CLM-00219",
+        "CLM-00220",
+        "CLM-00221",
+        "CLM-00222",
+        "CLM-00223",
+        "CLM-00224",
+        "CLM-00225",
+        "CLM-00226",
+        "CLM-00227",
+        "CLM-00228",
+        "CLM-00229",
+        "CLM-00230",
+        "CLM-00231",
+        "CLM-00232"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000102",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S01",
+        "CH-B-S03"
+      ]
+    },
+    {
+      "claim_ids": [],
+      "claim_role": "UNUSED_AUTHORITY_RECORD",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000105",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": []
+    },
+    {
+      "claim_ids": [
+        "CLM-00431",
+        "CLM-00432",
+        "CLM-00433",
+        "CLM-00434",
+        "CLM-00435",
+        "CLM-00436",
+        "CLM-00437",
+        "CLM-00438",
+        "CLM-00439",
+        "CLM-00440"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000163",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "project_owner_or_issuer",
+        "canonical_title",
+        "date",
+        "report_or_contract_identifier"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S17"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00300",
+        "CLM-00301",
+        "CLM-00302",
+        "CLM-00303",
+        "CLM-00304",
+        "CLM-00305",
+        "CLM-00306",
+        "CLM-00307",
+        "CLM-00308",
+        "CLM-00309",
+        "CLM-00310",
+        "CLM-00311",
+        "CLM-00312",
+        "CLM-00313",
+        "CLM-00314",
+        "CLM-00315"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000164",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S04"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00409",
+        "CLM-00410",
+        "CLM-00411",
+        "CLM-00412",
+        "CLM-00441",
+        "CLM-00442",
+        "CLM-00443",
+        "CLM-00444",
+        "CLM-00445",
+        "CLM-00446",
+        "CLM-00447",
+        "CLM-00448",
+        "CLM-00449",
+        "CLM-00450",
+        "CLM-00451",
+        "CLM-00452",
+        "CLM-00453",
+        "CLM-00454",
+        "CLM-00455",
+        "CLM-00456",
+        "CLM-00457",
+        "CLM-00458",
+        "CLM-00459"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000165",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S09",
+        "CH-B-S17"
+      ]
+    },
+    {
+      "claim_ids": [
+        "RCLM-00021"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000193",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "authors",
+        "article_title",
+        "journal",
+        "year",
+        "doi_or_volume_issue_pages"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S13"
+      ]
+    },
+    {
+      "claim_ids": [
+        "RCLM-00007"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000200",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "authors",
+        "article_title",
+        "journal",
+        "year",
+        "doi_or_volume_issue_pages"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-A-S05"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00001",
+        "CLM-00002",
+        "CLM-00003",
+        "CLM-00004",
+        "CLM-00005",
+        "CLM-00006",
+        "CLM-00007",
+        "CLM-00008",
+        "CLM-00009",
+        "CLM-00010",
+        "CLM-00011",
+        "CLM-00012",
+        "CLM-00013",
+        "CLM-00014",
+        "CLM-00015",
+        "CLM-00016",
+        "CLM-00017",
+        "CLM-00018",
+        "CLM-00019",
+        "CLM-00026",
+        "CLM-00027",
+        "CLM-00028",
+        "CLM-00029",
+        "CLM-00030",
+        "CLM-00031",
+        "CLM-00032",
+        "CLM-00033",
+        "CLM-00034",
+        "CLM-00035",
+        "CLM-00036",
+        "CLM-00037",
+        "CLM-00038",
+        "CLM-00039",
+        "CLM-00040",
+        "CLM-00041",
+        "CLM-00042",
+        "CLM-00043",
+        "CLM-00044",
+        "CLM-00053",
+        "CLM-00054",
+        "CLM-00055",
+        "CLM-00056",
+        "CLM-00057",
+        "CLM-00058",
+        "CLM-00059",
+        "CLM-00060",
+        "CLM-00061",
+        "CLM-00062",
+        "CLM-00063",
+        "CLM-00064",
+        "CLM-00065",
+        "CLM-00066",
+        "CLM-00067",
+        "CLM-00068",
+        "CLM-00069",
+        "CLM-00070",
+        "CLM-00071"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000209",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-A-S09",
+        "CH-A-S10",
+        "CH-A-S11"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00020",
+        "CLM-00021",
+        "CLM-00022",
+        "CLM-00023",
+        "CLM-00024",
+        "CLM-00025",
+        "CLM-00045",
+        "CLM-00046",
+        "CLM-00047",
+        "CLM-00048",
+        "CLM-00049",
+        "CLM-00050",
+        "CLM-00051",
+        "CLM-00052",
+        "CLM-00072",
+        "CLM-00073",
+        "CLM-00074",
+        "CLM-00075",
+        "CLM-00076",
+        "CLM-00077",
+        "CLM-00078",
+        "CLM-00079",
+        "CLM-00080",
+        "CLM-00081",
+        "CLM-00082",
+        "CLM-00083",
+        "CLM-00084",
+        "CLM-00085"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000211",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-A-S09",
+        "CH-A-S10",
+        "CH-A-S11"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00126",
+        "CLM-00127",
+        "CLM-00128",
+        "CLM-00129",
+        "CLM-00130",
+        "CLM-00131",
+        "CLM-00132",
+        "CLM-00133",
+        "CLM-00134",
+        "CLM-00135",
+        "CLM-00136",
+        "CLM-00137",
+        "CLM-00138",
+        "CLM-00139",
+        "CLM-00140",
+        "CLM-00141",
+        "CLM-00233",
+        "CLM-00234",
+        "CLM-00235",
+        "CLM-00236",
+        "CLM-00237",
+        "CLM-00238",
+        "CLM-00239",
+        "CLM-00240",
+        "CLM-00241",
+        "CLM-00242",
+        "CLM-00243",
+        "CLM-00244",
+        "CLM-00245",
+        "CLM-00246",
+        "CLM-00247",
+        "CLM-00248"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000214",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S01",
+        "CH-B-S03"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00142",
+        "CLM-00143",
+        "CLM-00144",
+        "CLM-00145",
+        "CLM-00146",
+        "CLM-00147",
+        "CLM-00148",
+        "CLM-00149",
+        "CLM-00150",
+        "CLM-00151",
+        "CLM-00152",
+        "CLM-00153",
+        "CLM-00154",
+        "CLM-00155",
+        "CLM-00156",
+        "CLM-00249",
+        "CLM-00250",
+        "CLM-00251",
+        "CLM-00252",
+        "CLM-00253",
+        "CLM-00254",
+        "CLM-00255",
+        "CLM-00256",
+        "CLM-00257",
+        "CLM-00258",
+        "CLM-00259",
+        "CLM-00260",
+        "CLM-00261",
+        "CLM-00262",
+        "CLM-00263"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000215",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S01",
+        "CH-B-S03"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00157",
+        "CLM-00158",
+        "CLM-00159",
+        "CLM-00160",
+        "CLM-00161",
+        "CLM-00162",
+        "CLM-00163",
+        "CLM-00164",
+        "CLM-00165",
+        "CLM-00166",
+        "CLM-00167",
+        "CLM-00168",
+        "CLM-00169",
+        "CLM-00170",
+        "CLM-00171",
+        "CLM-00172",
+        "CLM-00264",
+        "CLM-00265",
+        "CLM-00266",
+        "CLM-00267",
+        "CLM-00268",
+        "CLM-00269",
+        "CLM-00270",
+        "CLM-00271",
+        "CLM-00272",
+        "CLM-00273",
+        "CLM-00274",
+        "CLM-00275",
+        "CLM-00276",
+        "CLM-00277",
+        "CLM-00278",
+        "CLM-00279"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000216",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S01",
+        "CH-B-S03"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00173",
+        "CLM-00174",
+        "CLM-00175",
+        "CLM-00176",
+        "CLM-00177",
+        "CLM-00178",
+        "CLM-00179",
+        "CLM-00180",
+        "CLM-00181",
+        "CLM-00182",
+        "CLM-00183",
+        "CLM-00184",
+        "CLM-00185",
+        "CLM-00186",
+        "CLM-00187",
+        "CLM-00188",
+        "CLM-00189",
+        "CLM-00190",
+        "CLM-00191",
+        "CLM-00192",
+        "CLM-00280",
+        "CLM-00281",
+        "CLM-00282",
+        "CLM-00283",
+        "CLM-00284",
+        "CLM-00285",
+        "CLM-00286",
+        "CLM-00287",
+        "CLM-00288",
+        "CLM-00289",
+        "CLM-00290",
+        "CLM-00291",
+        "CLM-00292",
+        "CLM-00293",
+        "CLM-00294",
+        "CLM-00295",
+        "CLM-00296",
+        "CLM-00297",
+        "CLM-00298",
+        "CLM-00299"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000217",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S01",
+        "CH-B-S03"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00316",
+        "CLM-00317",
+        "CLM-00318",
+        "CLM-00319",
+        "CLM-00320",
+        "CLM-00321",
+        "CLM-00322",
+        "CLM-00323",
+        "CLM-00324",
+        "CLM-00325",
+        "CLM-00326",
+        "CLM-00327",
+        "CLM-00328",
+        "CLM-00329",
+        "CLM-00330",
+        "CLM-00331",
+        "CLM-00332",
+        "CLM-00333",
+        "CLM-00334",
+        "CLM-00335",
+        "CLM-00336"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000225",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "authors",
+        "paper_title",
+        "conference_or_proceedings",
+        "year",
+        "doi_or_pages"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S04"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00337",
+        "CLM-00338"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000267",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S04"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00339",
+        "CLM-00340",
+        "CLM-00341",
+        "CLM-00342",
+        "CLM-00343",
+        "CLM-00344",
+        "CLM-00345",
+        "CLM-00346",
+        "CLM-00347",
+        "CLM-00348",
+        "CLM-00349",
+        "CLM-00350",
+        "CLM-00351",
+        "CLM-00352",
+        "CLM-00353",
+        "CLM-00354",
+        "CLM-00355",
+        "CLM-00356",
+        "CLM-00357",
+        "CLM-00358",
+        "CLM-00359",
+        "CLM-00360"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000268",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S04"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00361",
+        "CLM-00362",
+        "CLM-00363",
+        "CLM-00364",
+        "CLM-00365",
+        "CLM-00366",
+        "CLM-00367",
+        "CLM-00368",
+        "CLM-00369",
+        "CLM-00370",
+        "CLM-00371",
+        "CLM-00372",
+        "CLM-00373",
+        "CLM-00374",
+        "CLM-00375",
+        "CLM-00376",
+        "CLM-00377",
+        "CLM-00378",
+        "CLM-00379",
+        "CLM-00380",
+        "CLM-00381",
+        "CLM-00382",
+        "CLM-00383",
+        "CLM-00384"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000269",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S04"
+      ]
+    },
+    {
+      "claim_ids": [
+        "CLM-00413",
+        "CLM-00414"
+      ],
+      "claim_role": "SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000302",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S10"
+      ]
+    },
+    {
+      "claim_ids": [
+        "RCLM-00023",
+        "RCLM-00026",
+        "RCLM-00030",
+        "RCLM-00032",
+        "RCLM-00033",
+        "RCLM-00035",
+        "RCLM-00039",
+        "RCLM-00041",
+        "RCLM-00042"
+      ],
+      "claim_role": "TARGETED_DISCOVERY_SOURCE_ASSERTION",
+      "current_authority_state": "UNKNOWN",
+      "document_id": "DOC000306",
+      "minimum_acceptable_authority_class": "CLAIM_ROLE_COMPETENT_IDENTIFIED_SOURCE",
+      "needed_evidence": [
+        "source_type_evidence"
+      ],
+      "promotion_performed": false,
+      "section_ids": [
+        "CH-B-S14",
+        "CH-E-S01",
+        "CH-E-S18",
+        "CH-E-S18-SS01",
+        "CH-E-S18-SS02",
+        "CH-F-S02",
+        "CH-F-S05",
+        "CH-F-S05-SS01",
+        "CH-F-S05-SS02"
+      ]
+    }
+  ],
+  "schema_version": "1.0.0"
+}

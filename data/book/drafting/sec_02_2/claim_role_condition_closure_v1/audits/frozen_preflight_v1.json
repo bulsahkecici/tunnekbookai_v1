@@ -1,0 +1,29 @@
+{
+  "version": "tunnelbook-claim-role-condition-closure-frozen-preflight-v1",
+  "status": "PASS",
+  "artifacts": {
+    "scripts/49_section_draft_validator_v1.py": "a72406aafdd40a266ad3ce9c3c886036a0d30cec5b4cf73c17e58de2f83a44e0",
+    "scripts/52_section_draft_validator_v1_1.py": "5adb41329da31c28722465d6d0613ee2dfacca6161a8f89038fe7d7b258d3713",
+    "scripts/54_section_draft_validator_v1_2.py": "0b0c870466668e4bb7b8e608d12358517eff6f4e019b9c8081426bff22cbfd7f",
+    "scripts/62_deterministic_surface_renderer_v2.py": "38fcbfd8ca94917792c7b22ed2c7f37cf8ef2e2490c51326d4b1e5f8a6e6ebc4",
+    "scripts/75_architecture_v2_2_retry_integration_v1.py": "c11022e11c74037426adc83b7ca0cffcde7c34ea0ae273263a0386a4f1d3fece",
+    "data/book/drafting/contracts/book_style_contract_v1.json": "3b29763412f00a98fef7019d17eb6c88a052f285238ed7cf15d04ed0c7ffc281",
+    "data/book/drafting/contracts/section_drafting_contract_v1.json": "f1fffd9c93d3bcba8e4f67f2fbd666e9b113fd9a783d207ada00cfd5fa68d7bc",
+    "data/book/drafting/technical_term_fallback_v1/contracts/technical_term_original_language_fallback_contract_v1.json": "7fcb1e884be3561e08dfe64559eadadd7dca829128751c97c03cd9676bc04dbc",
+    "data/book/drafting/technical_term_fallback_v1/contracts/technical_term_registry_v1.json": "38f73c6baf48bfa96a83891c721a44f1f9f4417d60738e5fe7c245040d446498",
+    "data/book/sec_02_2_limitation_resolution/claims/composition_safe_allowlist_v1.jsonl": "e637ca19eca8bb28a5e1e369cb9df7eba6566f6b57d503ca34cf895bff7cf42b",
+    "data/book/drafting/sec_02_2/architecture_v2/pilot_2/rendered/rendered_draft_ir_v2.json": "7451c9e58e20a04195100f87103e2045a17b3ff560fae888ad9767a2c7b09c17",
+    "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1/plan/integration_plan_v2_2_retry_v1.json": "172db478f95c821e8e21bb27a89e0e2f6c3985b278ff5fc7deec0bb8a93f1494",
+    "data/book/drafting/sec_02_2/architecture_v2_2_retry_v1/contracts/claim_realization_contract_v2_2_retry_v1.json": "3241ba1d8293a35b9ea22c3cc2431b73a9fc0639b3f44a4a887170686ece92aa",
+    "data/book/drafting/sec_02_2/technical_remediation_v1/contracts/technical_claim_scope_remediation_contract_v1.json": "a78e28230ffef11bc64a75119eea3342d53f4fcee28f92f623c62258c51f4cd5",
+    "data/book/drafting/sec_02_2/technical_remediation_v1/contracts/technical_section_allocation_v2.json": "f519690133d85caab4f00e91e7e2e4b88ba69b760e87f9bf0b7918105b6fb856",
+    "data/book/manifests/sec_02_2_architecture_v2_pilot_1.json": "50750b7af52bf61f96873763d1f8e7207a35e75d2fd0123fee22a39da04ec52a",
+    "data/book/manifests/sec_02_2_architecture_v2_pilot_2.json": "162dac75f31750d2bd9b80a71e84b5abf903854a71f618c8ff2bf7e80262a8c3",
+    "data/book/manifests/sec_02_2_architecture_v2_2_technical_style_integration_v1.json": "92a823235b674c1a97900eecf68e4b60bbd043a3123514e00ed44d2104bbc1e7",
+    "data/book/manifests/sec_02_2_architecture_v2_2_technical_style_integration_retry_v1.json": "5e1fa1d91184fee782102c2ca5b3a3476d6ca8b829fc1f5f98f9e46daed22559",
+    "data/book/manifests/sec_02_2_technical_claim_scope_citation_remediation_v1.json": "82107a10a630e1ee932b7e0e13c5f6362283cf5cc6073fc0baddee2524ab803a",
+    "data/book/manifests/technical_term_original_language_fallback_contract_v1.json": "57bb80203c033b4195d039c9a886b6cf4a67a00b629017dc14f07eac537e323d"
+  },
+  "artifact_count": 21,
+  "drift_count": 0
+}

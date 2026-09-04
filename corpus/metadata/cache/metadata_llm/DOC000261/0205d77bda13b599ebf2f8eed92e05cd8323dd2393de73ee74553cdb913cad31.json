@@ -1,0 +1,48 @@
+{
+  "document_id": "DOC000261",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:06:25+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "TÜNEL MÜH.GELİŞTİRME KURSU [evidence_not_grounded_in_context] [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "low",
+      "evidence": "TÜNEL MÜH.GELİŞTİRME KURSU [evidence_not_grounded_in_context]",
+      "value": "training_material"
+    },
+    "language": {
+      "confidence": "low",
+      "evidence": "TÜNEL MÜH.GELİŞTİRME KURSU [evidence_not_grounded_in_context]",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "T-1OA.pptx [evidence_not_grounded_in_context]",
+      "value": "T-1OA"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "TÜNEL ÇIKIŞ BÖLGESİ JEOLOJİSİ; Tünel çıkış bölgesinde; SK-7, SK-8, SK-9, SK-10 no’lu sondaj kuyuları açılmıştır.",
+      "value": [
+        "geotechnical_investigation",
+        "portal"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "(24-28.02.2020) [evidence_not_grounded_in_context]",
+      "value": 2020
+    }
+  },
+  "source_sha256": "392642f7733f2a4d8b5099cdad7f3e5387a8183c22988ae4733f327bb768055f"
+}

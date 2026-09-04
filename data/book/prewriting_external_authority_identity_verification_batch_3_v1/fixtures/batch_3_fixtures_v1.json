@@ -1,0 +1,26 @@
+{
+  "expected_false_accepts": 0,
+  "expected_false_rejects": 0,
+  "negative": [
+    "doi_alone_implies_peer_review",
+    "conference_appearance_implies_peer_review",
+    "title_similarity_implies_exact_identity",
+    "repository_copy_implies_authority",
+    "conflicting_metadata_ignored",
+    "newer_version_substituted",
+    "unknown_forced_resolve",
+    "external_technical_claim_imported",
+    "support_status_changed",
+    "proposition_changed",
+    "book_prose_generated"
+  ],
+  "positive": [
+    "exact_institutional_conference_identity",
+    "exact_official_event_identity",
+    "exact_event_version_file_match",
+    "explicit_non_peer_review_class",
+    "promotion_with_authority_and_version",
+    "conflict_preserves_repository_and_external_metadata"
+  ],
+  "schema_version": "1.0.0"
+}

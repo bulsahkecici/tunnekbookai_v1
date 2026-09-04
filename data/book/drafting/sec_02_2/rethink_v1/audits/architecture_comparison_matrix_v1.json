@@ -1,0 +1,64 @@
+{
+  "evaluated_against": [
+    "containment guarantee — construction or filter",
+    "measured failure rate on the three-attempt evidence",
+    "response to the levers the architecture offers",
+    "scaling to a section, a chapter, a book",
+    "whether it weakens stage C, stated plainly",
+    "prose quality, measured against what the current architecture actually produces"
+  ],
+  "options": [
+    {
+      "containment_guarantee": "none; filter after the fact",
+      "cost_to_continue": "one generation per attempt, unbounded",
+      "id": "A",
+      "measured_composed_failure_rate": 0.0759,
+      "name": "current — free-form Turkish prose + strict claim-bound lexical containment",
+      "prose_quality": "high where composed",
+      "responds_to_instruction": "no — rate moved 0.0769 to 0.0755 under a correctly implemented remediation",
+      "scaling": "P(clean section) ≈ 0.015634 at 4 composed units, 0.0 at 16",
+      "verdict": "REJECTED — not scalable; the failure rate is invariant under the only lever the architecture offers",
+      "weakens_stage_c": false
+    },
+    {
+      "containment_guarantee": "none; the same filter with a larger accept set",
+      "cost_to_continue": "per-word adjudication forever",
+      "id": "B",
+      "measured_composed_failure_rate": "unchanged mechanism; lowers observed rate by moving the boundary",
+      "name": "expanded function / paraphrase lexicon",
+      "prose_quality": "high",
+      "responds_to_instruction": "not applicable",
+      "scaling": "unbounded. Six new words after two attempts with no saturation evidence, and Turkish morphology multiplies every lemma: the exemption list covers 3 of 9 tested forms of the single lexeme `durum`, in a list of 124 entries",
+      "verdict": "REJECTED — explicitly weakens the validator, and cannot be bounded",
+      "weakening_stated_plainly": "This option works by making stage C more permissive. `sağlar` and `ifade` are relationship-bearing; a global exemption for them makes stage C accept 'püskürtme beton gerekli dayanımı sağlar' — an unsupported performance assertion — in any unit of any section, because the exemption mechanism cannot see which slot a word fills. That is a loosening in the direction the stage exists to block.",
+      "weakens_stage_c": true
+    },
+    {
+      "containment_guarantee": "yes, within a template; none for text outside one",
+      "cost_to_continue": "hand-authored frames per claim, re-authored per section",
+      "id": "C",
+      "measured_composed_failure_rate": "0 for framed spans",
+      "name": "controlled claim-specific realization templates",
+      "prose_quality": "formulaic and repetitive; no cohesion mechanism",
+      "responds_to_instruction": "not applicable",
+      "scaling": "authoring cost is claims × rhetorical roles, per section. SEC-02-2 alone allowlists 27 claims. Templates are section-local and do not compose.",
+      "verdict": "VIABLE BUT SUBSUMED — this is D's renderer with a hand-written, non-compositional grammar and no separation of concerns",
+      "weakens_stage_c": false
+    },
+    {
+      "containment_guarantee": "by construction. The renderer's output alphabet is the licensed pool plus a frozen closed grammatical scaffold, which is a static property provable over all plans",
+      "cost_to_continue": "build cost: plan IR contract, per-claim realization contract, renderer, Turkish suffixation, static containment proof",
+      "id": "D",
+      "measured_composed_failure_rate": "0 by construction; the reproduced mode's 0 / 516 generalised to the composed slots",
+      "name": "structured semantic plan (LLM) + deterministic surface renderer",
+      "prose_quality": "formulaic. Measured against the status quo the loss is small: 44 of 50 material units across the three attempts are already verbatim reproduction",
+      "responds_to_instruction": "not applicable — containment stops being a behaviour",
+      "scaling": "realization data is per claim and reusable across sections; the renderer and the morphology are written once",
+      "stage_c_relationship": "unchanged and still running, demoted to a regression check that should now be unfailable — which is the correct relationship between a construction guarantee and a filter",
+      "verdict": "SELECTED",
+      "weakens_stage_c": false
+    }
+  ],
+  "probe_id": "architecture_comparison_matrix_v1",
+  "selected": "D"
+}

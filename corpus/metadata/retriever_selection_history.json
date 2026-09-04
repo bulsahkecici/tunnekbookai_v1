@@ -1,0 +1,46 @@
+{
+ "candidate": "HYBRID_RRF_30",
+ "candidate_descriptor": "data/metadata/retriever_v1_candidate.json (retained unmodified as historical evidence)",
+ "candidate_status": "not_released",
+ "evidence": {
+  "crosslingual_probe_v2": {
+   "dense_doc_recall@10": 0.4074,
+   "dense_recall@10": 0.2593,
+   "en_to_tr": 11,
+   "hybrid_doc_recall@10": 0.1481,
+   "hybrid_recall@10": 0.1111,
+   "queries": 27,
+   "tr_to_en": 16
+  },
+  "language_aware_gate": {
+   "range_recall@10": "0.074-0.111",
+   "variants_qualifying": 0,
+   "variants_tested": 5,
+   "why": "A cross-lingual query is indistinguishable from a monolingual one from the query side. Same-language BM25 returns same-language chunks, which are by construction not the gold when the answer lives in the other language. Only gold reveals cross-linguality, and reading it at routing time would be evaluation leakage."
+  },
+  "main_benchmark_v1": {
+   "dense_ndcg@10": 0.5231,
+   "dense_recall@10": 0.7632,
+   "hybrid_ndcg@10": 0.6141,
+   "hybrid_recall@10": 0.7895,
+   "note": "HYBRID_RRF_30 had a significant nDCG@10 gain (+0.0910, CI [+0.0641,+0.1206]) but non-significant Recall@10/MRR@10 deltas"
+  }
+ },
+ "experimental_systems_retained": [
+  "HYBRID_RRF_30",
+  "BILINGUAL_HYBRID_RRF",
+  "LANG_HYBRID_SAME_RRF30",
+  "LANG_HYBRID_SAME_RRF60",
+  "LANG_HYBRID_GATED_RRF30",
+  "LANG_HYBRID_DENSE_PROTECTED_3",
+  "LANG_HYBRID_DENSE_PROTECTED_5",
+  "RERANK_20",
+  "RERANK_50",
+  "DENSE_NEIGHBOR_1",
+  "BM25_V1"
+ ],
+ "final_release": "DENSE_V1",
+ "final_release_name": "tunnelbook-retriever-v1",
+ "reason_not_released": "cross_lingual_regression",
+ "tradeoff_accepted": "Giving up a statistically significant monolingual nDCG gain to protect cross-lingual retrieval, because the corpus is bilingual and cross-lingual retrieval is a required capability."
+}

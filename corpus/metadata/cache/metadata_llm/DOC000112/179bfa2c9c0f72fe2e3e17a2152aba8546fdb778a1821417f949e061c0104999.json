@@ -1,0 +1,48 @@
+{
+  "document_id": "DOC000112",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:56:15+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "not_requested [authority_A_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "regulation"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "en"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "**IGT Geotechnik und Tunnelbau ZT GmbH**",
+      "value": "IGT Geotechnik und Tunnelbau ZT GmbH"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "**INFLUENCE OF CODES, GUIDELINES AND OTHER REGULATIONS ON THE TUNNEL DESIGN IN AUSTRIA**",
+      "value": "03_IGT-Influence_of_codes_guidelines_and_other_regulations_on_the_tunnel_design_in_Austria"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "regulation",
+        "safety"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "relative_path: '.../2015/...' [evidence_not_grounded_in_context]",
+      "value": 2015
+    }
+  },
+  "source_sha256": "c80abb102d8727116ae25084f339792007817a95002d49e2b4b854d56f04a4d3"
+}

@@ -1,0 +1,207 @@
+{
+  "claims_stated": [
+    "SEC-02-2-C-001",
+    "SEC-02-2-C-002",
+    "SEC-02-2-C-003",
+    "SEC-02-2-C-004",
+    "SEC-02-2-C-006",
+    "SEC-02-2-C-007",
+    "SEC-02-2-C-009",
+    "SEC-02-2-C-012",
+    "SEC-02-2-P0-001",
+    "SEC-02-2-P0-004",
+    "SEC-02-2-P0-005",
+    "SEC-02-2-P0-006",
+    "SEC-02-2-P0-007",
+    "SEC-02-2-P0-008",
+    "SEC-02-2-R001"
+  ],
+  "feasible": true,
+  "plan": {
+    "language": "tr",
+    "plan_id": "SEC-02-2-FEASIBILITY-V1",
+    "plan_version": "feasibility-v1",
+    "section_id": "SEC-02-2",
+    "subsections": [
+      {
+        "paragraph_groups": [
+          {
+            "paragraph_id": "F-A-P01",
+            "slots": [
+              {
+                "claim_id": "SEC-02-2-C-001",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-A-01"
+              },
+              {
+                "claim_id": "SEC-02-2-C-002",
+                "realization_role": "CLAIM_STATEMENT",
+                "slot_id": "F-A-02"
+              },
+              {
+                "claim_id": "SEC-02-2-C-002",
+                "realization_role": "QUALIFIER_SCOPE",
+                "slot_id": "F-A-03"
+              }
+            ]
+          }
+        ],
+        "subsection_id": "SEC-02-2-A"
+      },
+      {
+        "paragraph_groups": [
+          {
+            "paragraph_id": "F-B-P01",
+            "slots": [
+              {
+                "claim_id": "SEC-02-2-R001",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-B-01"
+              },
+              {
+                "claim_id": "SEC-02-2-P0-001",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-B-02"
+              },
+              {
+                "claim_id": "SEC-02-2-P0-001",
+                "realization_role": "CONDITION",
+                "slot_id": "F-B-03"
+              },
+              {
+                "claim_id": "SEC-02-2-P0-006",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-B-04"
+              },
+              {
+                "claim_id": "SEC-02-2-P0-006",
+                "realization_role": "CONDITION",
+                "slot_id": "F-B-05"
+              },
+              {
+                "claim_id": "SEC-02-2-P0-005",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-B-06"
+              },
+              {
+                "claim_id": "SEC-02-2-P0-004",
+                "realization_role": "CLAIM_STATEMENT",
+                "slot_id": "F-B-07"
+              }
+            ]
+          }
+        ],
+        "subsection_id": "SEC-02-2-B"
+      },
+      {
+        "paragraph_groups": [
+          {
+            "paragraph_id": "F-C-P01",
+            "slots": [
+              {
+                "claim_id": "SEC-02-2-P0-007",
+                "realization_role": "CLAIM_STATEMENT",
+                "slot_id": "F-C-01"
+              },
+              {
+                "claim_id": "SEC-02-2-P0-007",
+                "realization_role": "CONDITION",
+                "slot_id": "F-C-02"
+              },
+              {
+                "claim_id": "SEC-02-2-P0-008",
+                "realization_role": "CLAIM_STATEMENT",
+                "slot_id": "F-C-03"
+              },
+              {
+                "claim_id": "SEC-02-2-P0-008",
+                "realization_role": "CONDITION",
+                "slot_id": "F-C-04"
+              },
+              {
+                "claim_id": "SEC-02-2-C-003",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-C-05"
+              },
+              {
+                "claim_id": "SEC-02-2-C-003",
+                "realization_role": "CONDITION",
+                "slot_id": "F-C-06"
+              },
+              {
+                "claim_id": "SEC-02-2-C-004",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-C-07"
+              },
+              {
+                "claim_id": "SEC-02-2-C-007",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-C-08"
+              }
+            ]
+          }
+        ],
+        "subsection_id": "SEC-02-2-C"
+      },
+      {
+        "paragraph_groups": [
+          {
+            "paragraph_id": "F-D-P01",
+            "slots": [
+              {
+                "claim_id": "SEC-02-2-C-006",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-D-01"
+              },
+              {
+                "claim_id": "SEC-02-2-C-006",
+                "realization_role": "CONDITION",
+                "slot_id": "F-D-02"
+              },
+              {
+                "claim_id": "SEC-02-2-C-012",
+                "realization_role": "CLAIM_STATEMENT",
+                "slot_id": "F-D-03"
+              },
+              {
+                "claim_id": "SEC-02-2-C-009",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-D-04"
+              },
+              {
+                "claim_id": "SEC-02-2-C-009",
+                "realization_role": "QUALIFIER_SCOPE",
+                "slot_id": "F-D-05"
+              }
+            ]
+          }
+        ],
+        "subsection_id": "SEC-02-2-D"
+      }
+    ]
+  },
+  "required_core_claims_missing": [],
+  "required_core_claims_stated": [
+    "SEC-02-2-C-001",
+    "SEC-02-2-P0-001",
+    "SEC-02-2-P0-006",
+    "SEC-02-2-P0-007",
+    "SEC-02-2-P0-008",
+    "SEC-02-2-R001"
+  ],
+  "topics": {
+    "covered": 3,
+    "missing": [],
+    "required": 3,
+    "topics": [
+      "çimento dozajı",
+      "kaplama kalınlığı",
+      "dayanım sınıfı"
+    ]
+  },
+  "units": 23,
+  "validation": {
+    "histogram": {},
+    "status": "ACCEPT"
+  }
+}

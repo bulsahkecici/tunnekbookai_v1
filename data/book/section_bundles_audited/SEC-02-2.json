@@ -1,0 +1,314 @@
+{
+  "section_id": "SEC-02-2",
+  "revision": 1,
+  "audit_version": "tunnelbook-pilot-manual-evidence-audit-v1",
+  "audited_notes": [
+    {
+      "parent_note_id": "Q-02-2-01-N02",
+      "revision": 1,
+      "claim": "Kuru Sistem: Çimento miktarı 350 kg/m³'ten az olmamalıdır.",
+      "support_status": "SUPPORTED",
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000236-C0277",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "41eff42098b8f210e1f13d024bcc447fc2243742fdc93489fb0b8641cddc1345",
+          "document_id": "DOC000236",
+          "evidence_id": "E001",
+          "page_end": 475,
+          "page_start": 451,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 1,
+          "retrieval_score": 0.74107724,
+          "section_path": "351.07.04 Çevresel Şartlarla İlgili Gereksinimler",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000236-8d87293e1c7b",
+          "source_relative_path": "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/DOKÜMANLAR/KTS_2013.pdf",
+          "title": "KTS_2013"
+        },
+        {
+          "chunk_id": "DOC000087-C0275",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "41eff42098b8f210e1f13d024bcc447fc2243742fdc93489fb0b8641cddc1345",
+          "document_id": "DOC000087",
+          "evidence_id": "E003",
+          "page_end": 250,
+          "page_start": 226,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 3,
+          "retrieval_score": 0.68035454,
+          "section_path": "351.07.03 Alkali Miktarı",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000087-70f1f36df2b6",
+          "source_relative_path": "Mehmet/Literatur/KGM_Teknik_Sartnamesi_2013.pdf",
+          "title": "KGM_Teknik_Sartnamesi_2013"
+        },
+        {
+          "chunk_id": "DOC000236-C0267",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "41eff42098b8f210e1f13d024bcc447fc2243742fdc93489fb0b8641cddc1345",
+          "document_id": "DOC000236",
+          "evidence_id": "E005",
+          "page_end": 475,
+          "page_start": 451,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 5,
+          "retrieval_score": 0.67494917,
+          "section_path": "351.04.01 Çimento",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000236-0229b854f373",
+          "source_relative_path": "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/DOKÜMANLAR/KTS_2013.pdf",
+          "title": "KTS_2013"
+        },
+        {
+          "chunk_id": "DOC000087-C0265",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "41eff42098b8f210e1f13d024bcc447fc2243742fdc93489fb0b8641cddc1345",
+          "document_id": "DOC000087",
+          "evidence_id": "E009",
+          "page_end": 250,
+          "page_start": 226,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 9,
+          "retrieval_score": 0.6646893,
+          "section_path": "Tokluk İndeksi - Enerji Depolama Kapasitesi:",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000087-e7393bf8138a",
+          "source_relative_path": "Mehmet/Literatur/KGM_Teknik_Sartnamesi_2013.pdf",
+          "title": "KGM_Teknik_Sartnamesi_2013"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E001",
+          "start_offset": null,
+          "support_text": "Çimento miktarı 350 kg/m³'ten az",
+          "support_type": "numeric_direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [
+        {
+          "condition": null,
+          "direction": null,
+          "maximum": null,
+          "mean": null,
+          "median": null,
+          "minimum": null,
+          "percentage": null,
+          "range": null,
+          "source_evidence_ids": [
+            "E001",
+            "E003",
+            "E005",
+            "E009"
+          ],
+          "unit": "kg/m³",
+          "value": "350"
+        }
+      ],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000087-70f1f36df2b6",
+        "SRC-DOC000087-e7393bf8138a",
+        "SRC-DOC000236-0229b854f373",
+        "SRC-DOC000236-8d87293e1c7b"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-2-01-N02",
+      "section_id": "SEC-02-2",
+      "question_id": "Q-02-2-01",
+      "note_type": "numeric",
+      "audited_note_id": "Q-02-2-01-N02-A1",
+      "created_at": "2026-08-18T22:31:43.529188+00:00",
+      "audited_note_sha": "a534ffde4c1b0b63ab5571fcbf7839388dc10750214e98a8bacfd5627725e300"
+    },
+    {
+      "parent_note_id": "Q-02-2-01-N06",
+      "revision": 1,
+      "claim": "Çevresel Şartlar: Dış çevresel etki sınıfları gereksinimlerine göre, laboratuvar ve ön dizayn deneme çalışmaları ile belirlenen çimento miktarı, durabilite nedeniyle 350 kg/m³'ün altında kalmamalıdır.",
+      "support_status": "PARTIALLY_SUPPORTED",
+      "confidence": "low",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000236-C0277",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "41eff42098b8f210e1f13d024bcc447fc2243742fdc93489fb0b8641cddc1345",
+          "document_id": "DOC000236",
+          "evidence_id": "E001",
+          "page_end": 475,
+          "page_start": 451,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 1,
+          "retrieval_score": 0.74107724,
+          "section_path": "351.07.04 Çevresel Şartlarla İlgili Gereksinimler",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000236-8d87293e1c7b",
+          "source_relative_path": "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/DOKÜMANLAR/KTS_2013.pdf",
+          "title": "KTS_2013"
+        },
+        {
+          "chunk_id": "DOC000087-C0275",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "41eff42098b8f210e1f13d024bcc447fc2243742fdc93489fb0b8641cddc1345",
+          "document_id": "DOC000087",
+          "evidence_id": "E003",
+          "page_end": 250,
+          "page_start": 226,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 3,
+          "retrieval_score": 0.68035454,
+          "section_path": "351.07.03 Alkali Miktarı",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000087-70f1f36df2b6",
+          "source_relative_path": "Mehmet/Literatur/KGM_Teknik_Sartnamesi_2013.pdf",
+          "title": "KGM_Teknik_Sartnamesi_2013"
+        }
+      ],
+      "literal_support": [],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [
+        {
+          "condition": null,
+          "direction": null,
+          "maximum": null,
+          "mean": null,
+          "median": null,
+          "minimum": null,
+          "percentage": null,
+          "range": null,
+          "source_evidence_ids": [
+            "E001",
+            "E003"
+          ],
+          "unit": "kg/m³",
+          "value": "350"
+        }
+      ],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000087-70f1f36df2b6",
+        "SRC-DOC000236-8d87293e1c7b"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-2-01-N06",
+      "section_id": "SEC-02-2",
+      "question_id": "Q-02-2-01",
+      "note_type": "numeric",
+      "audited_note_id": "Q-02-2-01-N06-A1",
+      "created_at": "2026-08-18T22:31:43.541061+00:00",
+      "audited_note_sha": "47e4fff24903009d998c12a942da63cd385c7cd0e44a0d4d8915ffb7023e33b3"
+    },
+    {
+      "parent_note_id": "Q-02-2-05-N03",
+      "revision": 1,
+      "claim": "Flashcrete is not considered an active support and is normally followed by a systematically applied initial shotcrete lining.",
+      "support_status": "SUPPORTED",
+      "confidence": "high",
+      "evidence_refs": [
+        {
+          "chunk_id": "DOC000047-C0212",
+          "citation_mode": "pdf_page",
+          "context_packet_sha": "f6d4a602679746c62f1b38b09b9ac3bb138f001094296b6fe800f3b1152b0b42",
+          "document_id": "DOC000047",
+          "evidence_id": "E002",
+          "page_end": 300,
+          "page_start": 276,
+          "provenance_status": "page_resolved",
+          "retrieval_rank": 2,
+          "retrieval_score": 0.5640759,
+          "section_path": "9.5.1.1 Effect of Shotcrete",
+          "slide_end": null,
+          "slide_start": null,
+          "source_key": "SRC-DOC000047-72f96c5daace",
+          "source_relative_path": "Literatür ve Araştırmalar/tunnel_manual_FHWA.pdf",
+          "title": "tunnel_manual_FHWA"
+        }
+      ],
+      "literal_support": [
+        {
+          "end_offset": null,
+          "evidence_id": "E002",
+          "start_offset": null,
+          "support_text": "is normally followed by a systematically applied initial shotcrete lining .",
+          "support_type": "direct"
+        }
+      ],
+      "conditions": [],
+      "qualifiers": [],
+      "exceptions": [],
+      "numeric_data": [],
+      "modality": null,
+      "conflict_status": "none",
+      "conflict_refs": [],
+      "source_keys": [
+        "SRC-DOC000047-72f96c5daace"
+      ],
+      "cross_lingual_support": false,
+      "manual_audit_ref": "Q-02-2-05-N03",
+      "section_id": "SEC-02-2",
+      "question_id": "Q-02-2-05",
+      "note_type": "fact",
+      "audited_note_id": "Q-02-2-05-N03-A1",
+      "created_at": "2026-08-18T22:31:43.577979+00:00",
+      "audited_note_sha": "2863ac2e5d915cc3dd970a4d10c86841728b3413dfa136175850ab717a3dd211"
+    }
+  ],
+  "claim_ledger": [
+    {
+      "claim_id": "SEC-02-2-AC001",
+      "section_id": "SEC-02-2",
+      "canonical_claim": "Kuru Sistem: Çimento miktarı 350 kg/m³'ten az olmamalıdır.",
+      "note_ids": [
+        "Q-02-2-01-N02-A1"
+      ],
+      "support_status": "SUPPORTED",
+      "numeric": true,
+      "citation_ready": true,
+      "conflict_group": null,
+      "duplicate_of": null,
+      "review_status": "manually_audited"
+    },
+    {
+      "claim_id": "SEC-02-2-AC002",
+      "section_id": "SEC-02-2",
+      "canonical_claim": "Flashcrete is not considered an active support and is normally followed by a systematically applied initial shotcrete lining.",
+      "note_ids": [
+        "Q-02-2-05-N03-A1"
+      ],
+      "support_status": "SUPPORTED",
+      "numeric": false,
+      "citation_ready": true,
+      "conflict_group": null,
+      "duplicate_of": null,
+      "review_status": "manually_audited"
+    }
+  ],
+  "readiness": "NOT_READY",
+  "readiness_reasons": [
+    "P0 questions with no SUPPORTED audited note: ['Q-02-2-02']"
+  ],
+  "counts": {
+    "audited_notes": 3,
+    "SUPPORTED": 2,
+    "PARTIALLY_SUPPORTED": 1,
+    "citation_ready": 2
+  },
+  "bundle_sha": "63d8255a6c72dd800a8157330c46f627dfb33b6c95ff4bb60f1af20cddb8599e"
+}

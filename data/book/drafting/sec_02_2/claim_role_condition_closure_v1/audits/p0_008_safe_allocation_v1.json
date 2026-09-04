@@ -1,0 +1,21 @@
+{
+  "version": "tunnelbook-p0-008-safe-allocation-derived-by-crcc-v1",
+  "derived_by": "tunnelbook-claim-role-condition-closure-contract-v1",
+  "claim_specific_code_branch": false,
+  "claim_id": "SEC-02-2-P0-008",
+  "historical_invalid_allocation": {"status": "REJECT_BEFORE_PROSE", "code": "CRCC_CONDITION_OWNER_MISSING", "unit_id": "U-C-P02-S02", "condition": "In some"},
+  "safe_instances": [
+    {"role": "CLAIM_STATEMENT", "unit_id": "U-C-P02-S01", "owns": [{"id": "COND-IN-SOME", "surface": "Belirli", "scope": "UNIT"}, {"id": "DEP-TUNNEL-SIZE", "surface": "tünel boyutuna bağlı olarak", "scope": "PARAGRAPH"}]},
+    {"role": "CASE_SCOPE", "unit_id": "U-C-P02-S02", "owns": [{"id": "COND-IN-SOME", "surface": "Belirli", "scope": "UNIT"}], "allocated_dependencies": [{"id": "DEP-TUNNEL-SIZE", "owner_role": "CLAIM_STATEMENT", "owner_unit_id": "U-C-P02-S01", "scope": "PARAGRAPH"}]}
+  ],
+  "cases": [
+    {"case_id": "ROCK-CRUSHED", "term_id": "TERM-P0008-ROCK-CRUSHED", "surface": "ezilmiş kaya", "status": "AUTHORITATIVE_TRANSLATION"},
+    {"case_id": "ROCK-SQUEEZING", "term_id": "TERM-P0008-ROCK-SQUEEZING", "surface": "sıkışan kaya", "status": "AUTHORITATIVE_TRANSLATION"},
+    {"case_id": "ROCK-SWELLING", "term_id": "TERM-P0008-ROCK-SWELLING", "surface": "**Swelling Rock**", "status": "ORIGINAL_TERM_UNRESOLVED"}
+  ],
+  "dependency_closed": true,
+  "all_required_conditions_closed": true,
+  "visible_prose_created": false,
+  "retry_executed": false,
+  "status": "SAFE_ALLOCATION_EXISTS"
+}

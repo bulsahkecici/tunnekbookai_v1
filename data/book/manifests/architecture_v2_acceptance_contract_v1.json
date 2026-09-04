@@ -1,0 +1,39 @@
+{
+  "acceptance_conditions": [
+    "AC-01_preflight_frozen_drift",
+    "AC-02_plan_ir_has_no_prose_field",
+    "AC-03_plan_validation_fails_closed",
+    "AC-04_realization_data_is_frozen",
+    "AC-05_morphology_is_deterministic",
+    "AC-06_renderer_is_pure",
+    "AC-07_static_containment_proof",
+    "AC-08_no_false_accepts_or_rejects",
+    "AC-09_construction_invariant",
+    "AC-10_unrealizable_is_explicit",
+    "AC-11_frozen_integrity",
+    "AC-12_no_generation_in_this_phase",
+    "AC-13_no_style_layer",
+    "AC-14_historical_regression"
+  ],
+  "amendment_policy": "Frozen on authoring. Thresholds may not be changed after observing implementation results. A later phase may supersede this contract with a new version and a stated reason; it may not edit this one.",
+  "authored_before_implementation": true,
+  "contract_path": "data/book/drafting/sec_02_2/architecture_v2/contracts/architecture_v2_acceptance_contract_v1.json",
+  "contract_sha256": "c9766e437bd00222574d1aeee5ede17ff74a51bf5ae0cea37e0f3f496f6ebccd",
+  "frozen_at": "2026-08-19T22:53:33.065879+00:00",
+  "phase": "SEC-02-2 DRAFTING ARCHITECTURE V2 IMPLEMENTATION",
+  "section_id": "SEC-02-2",
+  "version": "tunnelbook-architecture-v2-acceptance-contract-v1",
+  "zero_tolerance_codes": [
+    "UNSUPPORTED_PROPOSITION",
+    "CLAIM_EXPANSION",
+    "NUMERIC_DRIFT",
+    "UNIT_DRIFT",
+    "MODALITY_DRIFT",
+    "CONDITION_DROPPED",
+    "QUALIFIER_DROPPED",
+    "SEMANTIC_SCOPE_MISMATCH",
+    "LANGUAGE_MISMATCH",
+    "CLAIM_DENYLISTED",
+    "UNKNOWN_CITATION"
+  ]
+}

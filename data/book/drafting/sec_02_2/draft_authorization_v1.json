@@ -1,0 +1,125 @@
+{
+  "authored_at": "2026-08-19T12:35:35.033559+00:00",
+  "citation_fixtures": {
+    "all_pass": true,
+    "failed": [],
+    "passed": 58,
+    "total": 58
+  },
+  "contract_authorized": true,
+  "contract_gate": {
+    "conditions": {
+      "citation_fixtures_all_pass": true,
+      "citation_fixtures_at_least_50": true,
+      "citation_rendering_contract_exists": true,
+      "citation_rendering_deterministic": true,
+      "code_mismatches_zero": true,
+      "composition_safe_claims_27": true,
+      "composition_validator_unchanged": true,
+      "denylist_unchanged_45": true,
+      "draft_plan_exists": true,
+      "draft_validation_contract_exists": true,
+      "drafting_contract_exists": true,
+      "drafting_fixtures_all_pass": true,
+      "drafting_fixtures_at_least_80": true,
+      "drafting_prompt_exists": true,
+      "false_accepts_zero": true,
+      "false_rejects_zero": true,
+      "frozen_integrity_holds": true,
+      "input_readiness": true,
+      "no_invented_bibliography_metadata": true,
+      "pair_constraints_unchanged_6": true,
+      "qdrant_writes_zero": true,
+      "tests_pass": true
+    },
+    "failed": [],
+    "go": true
+  },
+  "drafting_fixtures": {
+    "all_pass": true,
+    "code_mismatches": [],
+    "false_accepts": [],
+    "false_rejects": [],
+    "negative": 67,
+    "passed": 107,
+    "positive": 40,
+    "total": 107
+  },
+  "frozen_integrity_holds": true,
+  "input_readiness": {
+    "abort_reasons": [],
+    "checks": {
+      "code_mismatches_zero": true,
+      "composition_regression_71_of_71": true,
+      "composition_safe_allowlist_is_27": true,
+      "false_accepts_zero": true,
+      "false_rejects_zero": true,
+      "final_readiness_is_ready_for_draft": true,
+      "required_topics_3_of_3": true
+    },
+    "ready": true,
+    "required_topics_covered": "3/3"
+  },
+  "pilot_accepted": false,
+  "pilot_failure_codes": [
+    "CONDITION_DROPPED",
+    "QUALIFIER_DROPPED"
+  ],
+  "pilot_gate": {
+    "accept": false,
+    "conditions": {
+      "bibliography_registry_backed": "NOT_EVALUATED",
+      "cf_p0_001_passes": true,
+      "citation_resolution_100": true,
+      "composition_safe_coverage": true,
+      "derived_numeric_guard_passes": true,
+      "draft_ir_schema_valid": true,
+      "every_material_unit_claim_bound": true,
+      "every_material_unit_validates": false,
+      "every_used_claim_allowlisted": true,
+      "internal_claim_id_leaks_zero": "NOT_EVALUATED",
+      "material_citation_coverage_100": true,
+      "no_claim_expansion": true,
+      "no_denylisted_claim_used": true,
+      "no_dropped_condition": false,
+      "no_dropped_qualifier": false,
+      "no_modality_drift": true,
+      "no_numeric_drift": true,
+      "no_unit_drift": true,
+      "no_unsupported_proposition": true,
+      "packet_eid_leaks_zero": "NOT_EVALUATED",
+      "rendering_deterministic": "NOT_EVALUATED",
+      "required_topics_3_of_3": true,
+      "syn_001_passes": true,
+      "unknown_citations_zero": "NOT_EVALUATED"
+    },
+    "failed": [
+      "every_material_unit_validates",
+      "no_dropped_condition",
+      "no_dropped_qualifier"
+    ],
+    "not_evaluated": [
+      "unknown_citations_zero",
+      "packet_eid_leaks_zero",
+      "internal_claim_id_leaks_zero",
+      "bibliography_registry_backed",
+      "rendering_deterministic"
+    ]
+  },
+  "pilot_status": "CONTRACT_READY_PILOT_REJECTED",
+  "section_id": "SEC-02-2",
+  "tests": {
+    "executed_by": "unittest",
+    "returncode": 0,
+    "status": "passed",
+    "suites": [
+      "tests.test_section_drafting_contract_v1",
+      "tests.test_book_citation_renderer_v1",
+      "tests.test_section_draft_validator_v1",
+      "tests.test_sec_02_2_claim_composition_validator_v1",
+      "tests.test_sec_02_2_limitation_resolution_v1"
+    ],
+    "tests_run": 205
+  },
+  "version": "tunnelbook-section-drafting-contract-v1"
+}

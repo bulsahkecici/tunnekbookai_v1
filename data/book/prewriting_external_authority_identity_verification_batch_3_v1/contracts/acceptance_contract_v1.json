@@ -1,0 +1,36 @@
+{
+  "audit_count": 12,
+  "external_use": "IDENTITY_AND_AUTHORITY_METADATA_ONLY",
+  "negative_fixture_count": 11,
+  "phase": "PRE-WRITING EXTERNAL AUTHORITY IDENTITY VERIFICATION BATCH 3 V1",
+  "positive_fixture_count": 6,
+  "prohibitions": [
+    "technical_evidence_admission",
+    "technical_claim_import",
+    "claim_rewrite",
+    "support_status_change",
+    "admission_change",
+    "book_prose",
+    "cost_analysis",
+    "visual_generation",
+    "frozen_history_rewrite"
+  ],
+  "requirements": [
+    "exact_repository_to_external_identity_match",
+    "author_institution_event_version_date_matching",
+    "mismatch_or_conflict_no_promotion",
+    "conference_appearance_not_peer_review",
+    "unresolved_preserves_unknown",
+    "claim_relative_authority",
+    "external_metadata_provenance",
+    "batch_1_and_2_regression"
+  ],
+  "schema_version": "1.0.0",
+  "scope": [
+    "DOC000045",
+    "DOC000100",
+    "DOC000163",
+    "DOC000164",
+    "DOC000165"
+  ]
+}

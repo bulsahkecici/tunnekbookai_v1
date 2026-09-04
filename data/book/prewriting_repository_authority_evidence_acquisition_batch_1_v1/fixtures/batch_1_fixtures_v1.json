@@ -1,0 +1,18 @@
+{
+  "negative": [
+    "chapter_heading_does_not_identify_parent",
+    "paper_label_does_not_select_journal_or_conference",
+    "body_institution_mention_does_not_promote",
+    "filename_does_not_promote",
+    "missing_date_or_identifier_fails_closed",
+    "support_mutation_rejected",
+    "admission_mutation_rejected",
+    "out_of_batch_source_rejected"
+  ],
+  "positive": [
+    "explicit_publisher_title_year_identifier_promotes",
+    "explicit_government_issuer_title_date_authors_promotes",
+    "field_level_locator_captured",
+    "claim_relative_impact_orthogonal"
+  ]
+}

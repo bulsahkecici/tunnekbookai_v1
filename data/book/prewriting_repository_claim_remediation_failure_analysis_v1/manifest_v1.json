@@ -1,0 +1,101 @@
+{
+  "artifacts": [
+    {
+      "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/audits/01_count_reconciliation_audit_v1.json",
+      "sha256": "d00d605c613861b7e7fa182092aefed97323fc6063b1eddd5f6887236e981911"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/audits/02_primary_family_coverage_audit_v1.json",
+      "sha256": "82259fe745baa5efecd9b3dd8b222450d73994b3d02697c09add59ed1378945c"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/audits/03_representative_trace_audit_v1.json",
+      "sha256": "cda61ab8c665f58762ab25169cf8523c70a86e105f8bc2e865ccd58fef9bf87d"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/audits/04_authority_noninference_audit_v1.json",
+      "sha256": "2f09b1a755403d3c7ca34acdf38cc3f33853e31bf4742f11462ffe7d09010bc1"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/audits/05_validator_diagnosis_audit_v1.json",
+      "sha256": "2aa7b64d30f96f8d436f91d98de52f41049b3991d54165f1e8a6fe773d046ec6"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/audits/06_external_and_prose_boundary_audit_v1.json",
+      "sha256": "1f197e56387651b48820c89ff97d3ae5d81a07bc2f5040f7dd108cde011ee45d"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/audits/07_frozen_integrity_audit_v1.json",
+      "sha256": "392eb6b476052907f033c4402707926357ce43c14c49406fa2fd83df2bb7efb7"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/audits/08_acceptance_audit_v1.json",
+      "sha256": "c061fae39b36eb9d4565cd9460eb6b0603d5bbfc50b7c2e1beed0ae6346ce418"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/audits/09_state_sync_scope_audit_v1.json",
+      "sha256": "dc76913e47eb2d78c4ead70acfb55c22f0f6e189f756252e01e797c71f5e6a5a"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/contracts/failure_analysis_acceptance_contract_v1.json",
+      "sha256": "8ec97e04ff7d60cf1572bb58faf363b8a388ba671063cbb188128ac7747c1bf4"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/registries/affected_record_registry_v1.json",
+      "sha256": "5d044698b040bc494fe9a20a983d4d6c411244b18f37ba6fa6051a8a398d590f"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/registries/defect_taxonomy_v1.json",
+      "sha256": "ff6aaebd1396ba613dd05c3026ffad540ffeeb7211db44608ce71cc1747a6036"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/registries/remediation_decision_ledger_v1.json",
+      "sha256": "8489e1e1083e37f2c3dc95e19b90ab72f3fa6c9f7da45b7089ca3e963df9b4fb"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/registries/remediation_plan_v1.json",
+      "sha256": "6ef2dbb43ad8bb4fedd6761605c8822dff71ac95682a80c99b986019d3ebdb71"
+    },
+    {
+      "path": "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/registries/representative_sample_trace_registry_v1.json",
+      "sha256": "24d62c14f9cdc6d8672e30792332d18226e90ab023b878d4d1c02f63a87fe2d1"
+    }
+  ],
+  "book_prose_generated": false,
+  "checkpoint": "PRE-WRITING REPOSITORY CLAIM REMEDIATION FAILURE ANALYSIS V1",
+  "claim_state_counts": {
+    "ANCHOR_AMBIGUOUS": 12,
+    "AUTHORITY_INSUFFICIENT": 452,
+    "PROVENANCE_BLOCKED": 113,
+    "SCOPE_INSUFFICIENT": 25
+  },
+  "drafting_authorized": false,
+  "input_hashes_after": {
+    "data/book/prewriting_repository_claim_defect_remediation_v1/registries/remediated_claim_registry_v1.json": "c18f0552a7b9e51d44d3e11a2e910a5f6bf271c9463e58869bd173acd1c54ac2",
+    "data/book/prewriting_repository_claim_defect_remediation_v1/registries/section_claim_readiness_ledger_v2.json": "0adccabd3c72899253e66cc9206f42282ca9f4785c35c3dee44806531789345d",
+    "data/book/prewriting_repository_claim_defect_remediation_v1/registries/source_authority_registry_v1.json": "3c60380862ea4ec4827175e4c1be8f416b81fc5bfc6ad9b404f449fbfe4397fa",
+    "data/book/prewriting_repository_claim_defect_remediation_v1/registries/targeted_repository_discovery_registry_v1.json": "a10d8a614f4ff5a07c9d5adec00c632a15ec684d28528a8be70dfcd43b3e4a6d",
+    "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/contracts/failure_analysis_acceptance_contract_v1.json": "8ec97e04ff7d60cf1572bb58faf363b8a388ba671063cbb188128ac7747c1bf4"
+  },
+  "input_hashes_before": {
+    "data/book/prewriting_repository_claim_defect_remediation_v1/registries/remediated_claim_registry_v1.json": "c18f0552a7b9e51d44d3e11a2e910a5f6bf271c9463e58869bd173acd1c54ac2",
+    "data/book/prewriting_repository_claim_defect_remediation_v1/registries/section_claim_readiness_ledger_v2.json": "0adccabd3c72899253e66cc9206f42282ca9f4785c35c3dee44806531789345d",
+    "data/book/prewriting_repository_claim_defect_remediation_v1/registries/source_authority_registry_v1.json": "3c60380862ea4ec4827175e4c1be8f416b81fc5bfc6ad9b404f449fbfe4397fa",
+    "data/book/prewriting_repository_claim_defect_remediation_v1/registries/targeted_repository_discovery_registry_v1.json": "a10d8a614f4ff5a07c9d5adec00c632a15ec684d28528a8be70dfcd43b3e4a6d",
+    "data/book/prewriting_repository_claim_remediation_failure_analysis_v1/contracts/failure_analysis_acceptance_contract_v1.json": "8ec97e04ff7d60cf1572bb58faf363b8a388ba671063cbb188128ac7747c1bf4"
+  },
+  "next_phase": "PRE-WRITING REPOSITORY SOURCE AUTHORITY PROVENANCE AND ANCHOR REMEDIATION V1",
+  "orchestration_discovery_fault": true,
+  "result": "GO_REMEDIATION_PLAN_FROZEN",
+  "schema_version": "1.0.0",
+  "section_state_counts": {
+    "ADDITIONAL_REPOSITORY_DISCOVERY_REQUIRED": 31,
+    "AUTHORITY_GAP": 13,
+    "HUMAN_ANALYSIS_ARTIFACT_REQUIRED": 12,
+    "PROVENANCE_GAP": 3,
+    "UNRESOLVED": 1
+  },
+  "upstream_metadata_schema_fault": true,
+  "validator_coverage_gap": true,
+  "validator_execution_fault": false
+}

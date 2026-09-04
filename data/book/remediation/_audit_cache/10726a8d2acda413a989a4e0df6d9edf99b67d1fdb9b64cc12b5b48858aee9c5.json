@@ -1,0 +1,296 @@
+{
+  "key": "10726a8d2acda413a989a4e0df6d9edf99b67d1fdb9b64cc12b5b48858aee9c5",
+  "section_id": "CH-A-S04",
+  "kind": "evidence_audit",
+  "cached_at": "2026-08-25T19:41:04.910141+00:00",
+  "audit": {
+    "section_id": "CH-A-S04",
+    "decision": "PASS",
+    "summary": {
+      "supported": 28,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "scope_leakage": 0,
+      "unsupported_source_identity": 0,
+      "redundancy": 0
+    },
+    "sentence_audit": [
+      {
+        "sentence_id": "S001",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-008",
+          "CH-A-S04-REM-055"
+        ],
+        "reason": "Evidence directly confirms early humans used natural caves for shelter and expanded them using primitive methods."
+      },
+      {
+        "sentence_id": "S002",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-008"
+        ],
+        "reason": "Direct match with admitted claim regarding cave expansion using primitive methods (water/vinegar mixture)."
+      },
+      {
+        "sentence_id": "S003",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-048"
+        ],
+        "reason": "Direct match with admitted claim stating first underground structures after caves were for temples."
+      },
+      {
+        "sentence_id": "S004",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-049"
+        ],
+        "reason": "Direct match with admitted claim citing these specific temples as examples."
+      },
+      {
+        "sentence_id": "S005",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-011"
+        ],
+        "reason": "Exact match with admitted claim regarding canal construction as the start of tunneling."
+      },
+      {
+        "sentence_id": "S006",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-051",
+          "CH-A-S04-REM-064"
+        ],
+        "reason": "Evidence confirms tunneling in antiquity focused on mining and water conveyance."
+      },
+      {
+        "sentence_id": "S007",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-056"
+        ],
+        "reason": "Exact match with admitted claim regarding ancient tunnels for metal exploration."
+      },
+      {
+        "sentence_id": "S008",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-057",
+          "CH-A-S04-REM-002"
+        ],
+        "reason": "Direct match with admitted claims regarding Babylonian tunnel dimensions and purpose."
+      },
+      {
+        "sentence_id": "S009",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-059",
+          "CH-A-S04-REM-060"
+        ],
+        "reason": "Direct match with admitted claims detailing Egyptian and Roman rock-breaking techniques."
+      },
+      {
+        "sentence_id": "S010",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-013",
+          "CH-A-S04-REM-014",
+          "CH-A-S04-REM-015",
+          "CH-A-S04-REM-017"
+        ],
+        "reason": "All listed structures and their details are explicitly supported by admitted claims."
+      },
+      {
+        "sentence_id": "S011",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-018"
+        ],
+        "reason": "Direct match with admitted claim regarding Gonabad qanat system."
+      },
+      {
+        "sentence_id": "S012",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-012"
+        ],
+        "reason": "Exact match with admitted claim regarding Malpas Tunnel."
+      },
+      {
+        "sentence_id": "S013",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-036"
+        ],
+        "reason": "Direct match with admitted claim regarding Malpas Tunnel and black powder."
+      },
+      {
+        "sentence_id": "S014",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-037",
+          "CH-A-S04-REM-041"
+        ],
+        "reason": "Evidence confirms 18th/19th-century canal tunnel projects accelerated development."
+      },
+      {
+        "sentence_id": "S015",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-037",
+          "CH-A-S04-REM-038",
+          "CH-A-S04-REM-040"
+        ],
+        "reason": "Direct match with admitted claims specifying year, length, and status as England's first waterway tunnel."
+      },
+      {
+        "sentence_id": "S016",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-041",
+          "CH-A-S04-REM-042",
+          "CH-A-S04-REM-044",
+          "CH-A-S04-REM-045",
+          "CH-A-S04-REM-046",
+          "CH-A-S04-REM-047"
+        ],
+        "reason": "All details for both tunnels are explicitly supported by admitted claims."
+      },
+      {
+        "sentence_id": "S017",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-019",
+          "CH-A-S04-REM-065"
+        ],
+        "reason": "Direct match with admitted claims for both Schuylkill and Thames tunnels."
+      },
+      {
+        "sentence_id": "S018",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-026",
+          "CH-A-S04-REM-066"
+        ],
+        "reason": "Direct match with admitted claims regarding Brunel and shield tunneling technique."
+      },
+      {
+        "sentence_id": "S019",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-067",
+          "CH-A-S04-REM-030",
+          "CH-A-S04-REM-031"
+        ],
+        "reason": "Evidence confirms the late 19th century marked the start of underground transport and long-distance mountain tunnels."
+      },
+      {
+        "sentence_id": "S020",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-067",
+          "CH-A-S04-REM-030",
+          "CH-A-S04-REM-031"
+        ],
+        "reason": "Direct match with admitted claims detailing these specific Alpine tunnels."
+      },
+      {
+        "sentence_id": "S021",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-032"
+        ],
+        "reason": "Direct match with admitted claim regarding Karaköy Tunnel."
+      },
+      {
+        "sentence_id": "S022",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-021",
+          "CH-A-S04-REM-027",
+          "CH-A-S04-REM-068"
+        ],
+        "reason": "Direct match with admitted claims regarding London Underground construction and status."
+      },
+      {
+        "sentence_id": "S023",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-010",
+          "CH-A-S04-REM-022"
+        ],
+        "reason": "Direct match with admitted claims regarding New York and Budapest metros."
+      },
+      {
+        "sentence_id": "S024",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-071",
+          "CH-A-S04-REM-070"
+        ],
+        "reason": "Direct match with admitted claims regarding Mersey and Col de Tende tunnels."
+      },
+      {
+        "sentence_id": "S025",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-072"
+        ],
+        "reason": "Exact match with admitted claim regarding Holland Tunnel."
+      },
+      {
+        "sentence_id": "S026",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-006",
+          "CH-A-S04-REM-007"
+        ],
+        "reason": "Evidence confirms tunneling technology evolution is directly linked to blasting agents (gunpowder/dynamite)."
+      },
+      {
+        "sentence_id": "S027",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-006",
+          "CH-A-S04-REM-007"
+        ],
+        "reason": "Exact match with admitted claims regarding gunpowder and dynamite adoption."
+      },
+      {
+        "sentence_id": "S028",
+        "status": "SUPPORTED",
+        "supporting_claim_ids": [
+          "CH-A-S04-REM-056",
+          "CH-A-S04-REM-063"
+        ],
+        "reason": "Summarizes the historical and technological progression supported by cumulative admitted claims on early tunnels and blasting technology."
+      }
+    ],
+    "source_identity_issues": [],
+    "scope_issues": [],
+    "qualifier_issues": [],
+    "redundancy_issues": [],
+    "required_actions": []
+  },
+  "gate_result": {
+    "decision": "PASS",
+    "sentence_count": 28,
+    "supported": 28,
+    "narrative_synthesis": 0,
+    "deterministic_gate": "PASS",
+    "model_reported_summary": {
+      "supported": 28,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "scope_leakage": 0,
+      "unsupported_source_identity": 0,
+      "redundancy": 0
+    },
+    "model_reported_decision": "PASS",
+    "model_summary_mismatch": [
+      "narrative_synthesis"
+    ]
+  }
+}

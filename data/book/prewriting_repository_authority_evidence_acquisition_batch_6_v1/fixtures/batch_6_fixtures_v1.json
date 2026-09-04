@@ -1,0 +1,20 @@
+{
+  "negative": [
+    "filename_does_not_imply_authority",
+    "folder_path_does_not_imply_authority",
+    "body_institution_mention_does_not_imply_authority",
+    "legacy_c_d_label_does_not_imply_authority",
+    "topical_similarity_does_not_resolve_type",
+    "unsupported_identity_resolution_rejected",
+    "claim_proposition_mutation_rejected",
+    "external_lookup_prohibited",
+    "book_prose_generation_prohibited",
+    "batch_7_not_processed"
+  ],
+  "positive": [
+    "explicit_local_metadata_records_partial_identity",
+    "periodical_masthead_records_publisher",
+    "composite_capture_identity_remains_partial",
+    "unknown_remains_unknown_under_frozen_batch_contract"
+  ]
+}

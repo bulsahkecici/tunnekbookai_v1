@@ -1,0 +1,91 @@
+{
+  "author_evidence": [],
+  "authority_class": "OFFICIAL_GOVERNMENT_TECHNICAL",
+  "authority_evidence_sufficiency": "SUFFICIENT",
+  "batch_id": "BATCH-03",
+  "claim_relative_applicability": "IDENTIFIED_SOURCE_ROLE_ONLY",
+  "date_or_version_evidence": [
+    {
+      "converted_source_lines": "41",
+      "field": "edition_date",
+      "value": "Ekim 2016",
+      "zone": "title_page"
+    }
+  ],
+  "document_id": "DOC000075",
+  "exact_title": "Tünel Bakım Onarım İşletme Kurs Notları",
+  "external_identity_verification_required": false,
+  "external_verification_plan": null,
+  "identity_confidence": "HIGH",
+  "identity_evidence": [
+    {
+      "converted_source_lines": "23-26",
+      "field": "issuing_body",
+      "value": "T.C. Ulaştırma Denizcilik ve Haberleşme Bakanlığı, Karayolları Genel Müdürlüğü",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "28-34",
+      "field": "title",
+      "value": "Tünel Bakım Onarım İşletme Kurs Notları",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "39-40",
+      "field": "responsible_unit",
+      "value": "Tesisler ve Bakım Dairesi Başkanlığı, Sanat Yapıları Bakım, Onarım, İşletme Şubesi Müdürlüğü",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "41",
+      "field": "edition_date",
+      "value": "Ekim 2016",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "47-49",
+      "field": "instructional_purpose",
+      "value": "Teknik personel için eğitim kılavuzu",
+      "zone": "preface"
+    }
+  ],
+  "inspection_mechanism": "TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION",
+  "institution_or_publisher_evidence": [
+    {
+      "converted_source_lines": "23-26",
+      "field": "issuing_body",
+      "value": "T.C. Ulaştırma Denizcilik ve Haberleşme Bakanlığı, Karayolları Genel Müdürlüğü",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "39-40",
+      "field": "responsible_unit",
+      "value": "Tesisler ve Bakım Dairesi Başkanlığı, Sanat Yapıları Bakım, Onarım, İşletme Şubesi Müdürlüğü",
+      "zone": "title_page"
+    }
+  ],
+  "limitations": "No claim proposition, support, provenance, anchor, scope, review, or admission state changed.",
+  "missing_fields": [],
+  "promotion": true,
+  "publication_identifiers": [],
+  "reason": "Government issuer, responsible technical unit, instructional title and purpose, and edition date are explicit.",
+  "result": "LOCAL_EVIDENCE_SUFFICIENT",
+  "schema_version": "1.0.0",
+  "source_path": "data/markdown_full_docling/Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/Tünel Eğitim Kitabı 8 EYLÜL 2016.md",
+  "source_sha256": "fda7600bc45c6d1ea0fc71462320ec8340cdfb379ba501d06bcd0088ef716290",
+  "source_type": "OFFICIAL_MANUAL",
+  "source_type_evidence": [
+    {
+      "converted_source_lines": "23-26",
+      "field": "issuing_body",
+      "value": "T.C. Ulaştırma Denizcilik ve Haberleşme Bakanlığı, Karayolları Genel Müdürlüğü",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "47-49",
+      "field": "instructional_purpose",
+      "value": "Teknik personel için eğitim kılavuzu",
+      "zone": "preface"
+    }
+  ]
+}

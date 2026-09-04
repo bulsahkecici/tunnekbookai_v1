@@ -1,0 +1,137 @@
+{
+  "audited_at": "2026-08-19T12:35:35.056461+00:00",
+  "citation_coverage": {
+    "cited_material_units": 16,
+    "coverage": "100%",
+    "material_units": 16
+  },
+  "claim_coverage_telemetry": {
+    "note": "Coverage is telemetry, not a gate (§93). A pilot is not better for using more claims; it is better for using the right ones.",
+    "used_of_allowlist": "16/27"
+  },
+  "composition_safe_coverage": {
+    "all_used_claims_composition_safe": true,
+    "non_composition_safe_used": []
+  },
+  "draft_id": "SEC-02-2-PILOT-V1",
+  "failure_codes": [
+    "CONDITION_DROPPED",
+    "QUALIFIER_DROPPED"
+  ],
+  "failure_histogram": {
+    "CONDITION_DROPPED": 1,
+    "QUALIFIER_DROPPED": 1
+  },
+  "rejected_unit_ids": [
+    "U-A-P01-S03",
+    "U-C-P01-S03"
+  ],
+  "required_topic_coverage": {
+    "dayanım sınıfı": {
+      "claim_ids": [
+        "SEC-02-2-C-001",
+        "SEC-02-2-C-002"
+      ],
+      "covered": true,
+      "required_core_claim_ids": [
+        "SEC-02-2-C-001"
+      ]
+    },
+    "kaplama kalınlığı": {
+      "claim_ids": [
+        "SEC-02-2-C-003",
+        "SEC-02-2-C-004",
+        "SEC-02-2-C-005",
+        "SEC-02-2-C-006",
+        "SEC-02-2-C-007",
+        "SEC-02-2-C-009",
+        "SEC-02-2-C-012",
+        "SEC-02-2-P0-007",
+        "SEC-02-2-P0-008"
+      ],
+      "covered": true,
+      "required_core_claim_ids": [
+        "SEC-02-2-P0-007",
+        "SEC-02-2-P0-008"
+      ]
+    },
+    "çimento dozajı": {
+      "claim_ids": [
+        "SEC-02-2-P0-001",
+        "SEC-02-2-P0-004",
+        "SEC-02-2-P0-005",
+        "SEC-02-2-P0-006",
+        "SEC-02-2-R001"
+      ],
+      "covered": true,
+      "required_core_claim_ids": [
+        "SEC-02-2-P0-001",
+        "SEC-02-2-P0-006",
+        "SEC-02-2-R001"
+      ]
+    }
+  },
+  "required_topics_covered": 3,
+  "section_id": "SEC-02-2",
+  "source_keys_used": [
+    "SRC-DOC000047-72f96c5daace",
+    "SRC-DOC000047-838e92811f43",
+    "SRC-DOC000047-d5c60204e247",
+    "SRC-DOC000087-8d778c37de30",
+    "SRC-DOC000087-d989fc9aefbd",
+    "SRC-DOC000087-e7393bf8138a",
+    "SRC-DOC000087-ea64db4f1a7f",
+    "SRC-DOC000236-0229b854f373",
+    "SRC-DOC000236-8d87293e1c7b",
+    "SRC-DOC000236-8dfa5f799b50",
+    "SRC-DOC000236-ad4b684b487a",
+    "SRC-DOC000236-ca4f53f1dd68"
+  ],
+  "status": "REJECT",
+  "totals": {
+    "allowlist_claims_allocated": 16,
+    "allowlist_claims_available": 27,
+    "citations_rendered": 0,
+    "claim_usages": 16,
+    "composition_validations": 16,
+    "material_units": 16,
+    "non_material_units": 4,
+    "numeric_material_units": 12,
+    "qualified_claim_units": 2,
+    "rejected_units": 2,
+    "rendered_prose_words": 0,
+    "requirement_claim_units": 8,
+    "source_keys_used": 12,
+    "uncited_material_units": 0,
+    "unique_claims_used": 16,
+    "units": 20
+  },
+  "uncited_material_unit_ids": [],
+  "unique_claims_used": [
+    "SEC-02-2-C-001",
+    "SEC-02-2-C-002",
+    "SEC-02-2-C-003",
+    "SEC-02-2-C-004",
+    "SEC-02-2-C-005",
+    "SEC-02-2-C-006",
+    "SEC-02-2-C-007",
+    "SEC-02-2-C-009",
+    "SEC-02-2-C-012",
+    "SEC-02-2-P0-001",
+    "SEC-02-2-P0-004",
+    "SEC-02-2-P0-005",
+    "SEC-02-2-P0-006",
+    "SEC-02-2-P0-007",
+    "SEC-02-2-P0-008",
+    "SEC-02-2-R001"
+  ],
+  "unused_allocated_claims": [],
+  "version": "tunnelbook-section-drafting-contract-v1",
+  "word_budget": {
+    "maximum": 1800,
+    "minimum": 1200,
+    "note": "A pilot section, not the finished chapter.",
+    "unit": "Turkish words"
+  },
+  "word_budget_note": "Word count is telemetry. It is not in the §149 acceptance gate, and it must not be, because the only way to reach a word target under strict support containment is to add sentences - and every added sentence is another proposition to support. A budget enforced as a gate would push the drafter toward exactly the padding the support check exists to reject."
+}

@@ -1,0 +1,19 @@
+{
+  "version": "tunnelbook-planner-option-universe-v2.2-retry-v1",
+  "additive_to": "tunnelbook-planner-option-universe-v2.2",
+  "canonical": true,
+  "second_universe_exists": false,
+  "build_status": "LOADABLE",
+  "prior_refusal_resolved_by": "tunnelbook-technical-term-original-language-fallback-contract-v1",
+  "claims_checked": 17,
+  "claims_selected": 16,
+  "claims_safely_suppressed": ["SEC-02-2-P0-006"],
+  "required_roles": 20,
+  "available_roles": 20,
+  "realizable_roles": 20,
+  "unrealizable_roles": 0,
+  "required_subset_available": true,
+  "available_subset_realizable": true,
+  "planner_payload_authorised": true,
+  "semantic_plan_model_generation": false
+}

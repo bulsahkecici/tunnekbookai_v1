@@ -1,0 +1,32 @@
+{
+  "version": "ch-a-s01-focused-drafting-audit-v1",
+  "audited_on": "2026-08-22",
+  "section_id": "CH-A-S01",
+  "audit_result": "BLOCKER_HOLD",
+  "draft_word_count": 0,
+  "citation_count": 0,
+  "correction_passes": 0,
+  "correction_policy": "No evidence-preserving deterministic correction can create missing scope-valid evidence.",
+  "checks": [
+    {"id":"A01","name":"authorization_recorded","result":"PASS"},
+    {"id":"A02","name":"section_identity_matches_master_structure","result":"PASS"},
+    {"id":"A03","name":"frozen_readiness_preserved","result":"PASS"},
+    {"id":"A04","name":"section_permitted_evidence_only","result":"PASS"},
+    {"id":"A05","name":"scope_valid_evidence_available","result":"BLOCKER"},
+    {"id":"A06","name":"unsupported_proposition_absence","result":"PASS"},
+    {"id":"A07","name":"restricted_claim_not_used_as_sole_support","result":"PASS"},
+    {"id":"A08","name":"citation_coverage","result":"NOT_APPLICABLE"},
+    {"id":"A09","name":"terminology_compliance","result":"NOT_APPLICABLE"},
+    {"id":"A10","name":"cross_section_leakage","result":"PASS"},
+    {"id":"A11","name":"frozen_upstream_integrity","result":"PASS"},
+    {"id":"A12","name":"target_word_range","result":"NOT_APPLICABLE_EVIDENCE_INSUFFICIENT"}
+  ],
+  "blocking_findings": [{
+    "id": "BLK-CH-A-S01-001",
+    "finding": "No admitted, scope-valid claim supports the subject and boundaries required by RQ-001-01.",
+    "evidence": "EP-001 is UNOBSERVED/BLOCKED and the sole registered candidate RCLM-00001 is RESTRICTED_OR_EXCLUDED with INSUFFICIENT scope and no section/RQ match.",
+    "disposition": "HOLD_FOR_BOUNDED_EVIDENCE_REMEDIATION"
+  }],
+  "advisories": [],
+  "release_decision": "DO_NOT_MARK_DRAFTED_OR_TECHNICALLY_AUDITED"
+}

@@ -1,0 +1,752 @@
+{
+  "section_id": "CH-A-S09",
+  "section_title": "Tünel Felaketleri",
+  "section_scope": null,
+  "scope_exclusions": [
+    "dünyada gerçekleşen tekil önemli felaketler",
+    "Türkiye'de gerçekleşen tekil önemli kazalar",
+    "tünel tanımı",
+    "tünel sınıflandırması",
+    "maliyet",
+    "bakım",
+    "yangın önleme teknik ayrıntıları",
+    "havalandırma teknik ayrıntıları"
+  ],
+  "research_question": "Kaynaklarda tünel felaketleri genel olarak hangi kategoriler/nedenler üzerinden ele alınmakta ve bu felaketlerin genel mühendislik/güvenlik sonuçları nasıl aktarılmaktadır?",
+  "readiness": "READY",
+  "writer_evidence_selection": {
+    "strategy": "DETERMINISTIC_DIVERSITY_BUDGET_V1",
+    "total_admitted_claims": 48,
+    "selected_claims": 48,
+    "max_claims": 72
+  },
+  "admitted_claims": [
+    {
+      "claim_id": "CH-A-S09-REM-001",
+      "claim_text": "Owing to the enclosed space of a tunnel, fires can have very serious effects on users.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000021",
+      "locator": "pages:1-25",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-002",
+      "claim_text": "The main dangers are gas and smoke production, with even low concentrations of carbon monoxide being highly toxic.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000021",
+      "locator": "pages:1-25",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-003",
+      "claim_text": "Tunnel emergencies can originate from fires, fuel spills, hazardous material releases, earthquakes, floods, rock slides, landslides, severe weather, and criminal acts.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000015",
+      "locator": "pages:51-75",
+      "section_applicability": "CH-A-S09 — Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-004",
+      "claim_text": "Impact damage frequently occurs in tunnels from over-height vehicles near the portals.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000015",
+      "locator": "pages:51-75",
+      "section_applicability": "CH-A-S09 — Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-005",
+      "claim_text": "Tunnel fires can produce large amounts of toxic smoke and dangerous heat that can fill the tunnel.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000015",
+      "locator": "pages:51-75",
+      "section_applicability": "CH-A-S09 — Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-006",
+      "claim_text": "Tunnel fires can be very difficult to extinguish.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000015",
+      "locator": "pages:51-75",
+      "section_applicability": "CH-A-S09 — Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-007",
+      "claim_text": "The Channel Tunnel Fire occurred on November 18, 1996.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "section_applicability": "CH-A-S09 — Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-008",
+      "claim_text": "The Channel Tunnel Fire resulted in 0 fatalities and about 30 injuries.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "section_applicability": "CH-A-S09 — Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-009",
+      "claim_text": "A freight truck caught fire in the Channel Tunnel, causing a heavy fire that damaged the power catenary and spread to adjoining cars.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "section_applicability": "CH-A-S09 — Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-010",
+      "claim_text": "Smoke moved quickly because of other trains moving in the tunnel, hampering evacuation.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "section_applicability": "CH-A-S09 — Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-011",
+      "claim_text": "All crew and passengers were rescued via an adjoining service tunnel, while structural damage was considerable.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "section_applicability": "CH-A-S09 — Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-012",
+      "claim_text": "Explosions can be accidental or they can be deliberate acts.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000015",
+      "locator": "pages:51-75",
+      "section_applicability": "CH-A-S09 — Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-013",
+      "claim_text": "Accidental explosions can be caused by increased use of alternative fuels in private and commercial vehicles, spilled fuel accumulated in drainage sumps, and explosive gasses leached from certain rock formations with inadequate ventilation.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000015",
+      "locator": "pages:51-75",
+      "section_applicability": "CH-A-S09 — Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-014",
+      "claim_text": "The shockwave caused by an explosion can potentially do much more extensive damage to the tunnel structure.",
+      "qualifier": "potentially",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000015",
+      "locator": "pages:51-75",
+      "section_applicability": "CH-A-S09 — Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-015",
+      "claim_text": "Despite these and other safety features, however, damage or disruption to a tunnel, its operations, and/or occupants can result from the impact of hazards or threats.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:1-25",
+      "section_applicability": "CH-A-S09"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-016",
+      "claim_text": "All hazards and threats considered in depth are capable of closing a tunnel for an extended period of time (i.e., lasting more than 25 hours).",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:1-25",
+      "section_applicability": "CH-A-S09"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-017",
+      "claim_text": "The focus of this guidance is, therefore, a combination of major hazards that are not likely and threats-principally acts of terrorism-that might be realized in a tunnel environment.",
+      "qualifier": "",
+      "disposition": "ADMITTED_LIMITED",
+      "document_id": "DOC000003",
+      "locator": "pages:1-25",
+      "section_applicability": "CH-A-S09"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-018",
+      "claim_text": "Avrupa kara yolu tünel kazalarında yetersiz planlama, beklenenden çok fazla trafik hacmine yol açmıştır.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-019",
+      "claim_text": "Aşırı trafik hacimleri, bu tünel felaketlerinde can güvenliği ve havalandırma sistemlerinin etkisini zayıflatabilmiş ve olay sonrası sorunlara katkıda bulunmuştur.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-020",
+      "claim_text": "Bu tünel felaketlerinin büyük çoğunluğu, çoklu yetki ve ajanslardan gelen müdahaleler nedeniyle iletişim kopuklukları göstermiştir.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-021",
+      "claim_text": "Önceden planlama ve acil durum tatbikatlarının olmaması, bu tünel felaketlerinde olay sonrası sorunlara katkıda bulunmuştur.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-022",
+      "claim_text": "Bu tünel felaketlerine verilen yanıtlar, prosedür eksikliği veya yerleşik prosedürlere uyulmaması nedeniyle engellenmiştir.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-023",
+      "claim_text": "İletişim ve acil durum öncesi planlama eksikliği ile bildirim kılavuzlarının olmaması, bazı felaketlerde can kaybını ve neredeyse tümünde hasarı artırmıştır.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-024",
+      "claim_text": "Bu tünel felaketleri bağlamında önleme, potansiyel tehlikelerin öngörülmediği durumlarda ölçülememiştir.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-025",
+      "claim_text": "Bu tünel felaketlerinin vaka çalışmaları, etkileşimli iletişim ağları, yetkili bir güvenlik yönetim ekibi ve risk/olumsuzluk anlayışı gibi önlemlerin gerekliliğini göstermektedir.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-026",
+      "claim_text": "Bu tünel felaketlerinin vaka çalışmaları, tünellerde mutlak güvenliğinin bulunmadığını ve kaçış yollarının en yüksek önceliğe sahip olduğunu göstermektedir.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-027",
+      "claim_text": "Bu tünel felaketlerinin vaka çalışmaları, kaza olasılığının tasarım ve malzemelerle azaltılabileceğini ve hasar potansiyelinin acil tesisler ile yangına dayanıklı yapılarla azaltılabileceğini göstermektedir.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-028",
+      "claim_text": "Belirli tünel felaketleri vakaları için havalandırma, can güvenliği sistemleri ve iletişim sistemlerinin olumsuz veya belirsiz rolleri bir tabloda listelenmiştir.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-029",
+      "claim_text": "Bu tünel felaketleri sonrasında tünel kullanıcı davranışının değiştirilmesi veya yönlendirilmesi gerekmektedir.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-030",
+      "claim_text": "Bu tünel felaketleri bağlamında operatörlerin operasyonlar, altyapı, araç parametreleri ve kullanıcı faktörleri konusunda farkında olması gerekmektedir.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-031",
+      "claim_text": "Passenger transit tunnels and stations present a high potential for large numbers of fatalities and injuries, worldwide media coverage, and public fear.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-032",
+      "claim_text": "Many transit tunnel incidents are intentional acts in which the initiators of the incident are suicidal or seeking to kill or injure large numbers of people.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-033",
+      "claim_text": "Road tunnel fires are closely related to truck accidents and frequently result in fires.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-034",
+      "claim_text": "Fires in road tunnels are often exacerbated by the goods being carried, and may produce toxic fumes or residue even if cargo is not flammable.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-035",
+      "claim_text": "Freight and motor tunnel incidents hamper economic arrangements by altering patterns for the transport of goods and may lead to long-term damage from flammable cargo or the release of hazardous materials.",
+      "qualifier": null,
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-036",
+      "claim_text": "Tunnels can face disruption from either the occurrence of hazards (i.e., unintentional, accidental events) or the successful conduct of threats (i.e., intentional acts).",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:1-25",
+      "section_applicability": "CH-A-S09 — Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-037",
+      "claim_text": "Hazards can be human- or equipment-related (e.g., motor vehicle collisions and resulting fire) or natural (e.g., flooding and earthquakes).",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:1-25",
+      "section_applicability": "CH-A-S09 — Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-038",
+      "claim_text": "Even less catastrophic events, such as traffic accidents or train derailments, may have rippling effects in other parts of the transportation system.",
+      "qualifier": "",
+      "disposition": "ADMITTED_LIMITED",
+      "document_id": "DOC000003",
+      "locator": "pages:1-25",
+      "section_applicability": "CH-A-S09 — Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-039",
+      "claim_text": "Howard Street CSX Tunnel Fire occurred in Baltimore, Maryland on July 18, 2001.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-040",
+      "claim_text": "The Howard Street tunnel fire resulted in 0 fatalities and 4 injuries.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-041",
+      "claim_text": "A 60-car freight train caught fire in the Howard Street tunnel, likely due to a derailment.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "section_applicability": "APPLICABLE"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-042",
+      "claim_text": "Heavy vehicles are over-represented in Norwegian tunnel fire statistics, particularly in high-gradient tunnels.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000209",
+      "locator": "page:9",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-043",
+      "claim_text": "Technical faults in heavy vehicles cause tunnel fires more than twice as often as light vehicles.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000209",
+      "locator": "page:9",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-044",
+      "claim_text": "Forty percent of all tunnel fires in Norway occur in tunnels with a gradient steeper than 5 percent.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000209",
+      "locator": "page:9",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-045",
+      "claim_text": "Fires in long one-tube tunnels may have safe zones several kilometers away, undermining the principle of self-rescue.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000209",
+      "locator": "page:9",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-046",
+      "claim_text": "Serious incidents that challenge the self-rescue principle primarily involve high fire impact, rapid smoke development, and heavier vehicles.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000209",
+      "locator": "page:9",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-047",
+      "claim_text": "High gradient affects the ability to control smoke, making evacuation difficult and affecting self-rescue possibility.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000209",
+      "locator": "page:9",
+      "section_applicability": "Tünel Felaketleri"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-048",
+      "claim_text": "Technical problems in heavier vehicles or driver lack of knowledge/experience are major causes for such tunnel fire incidents.",
+      "qualifier": "",
+      "disposition": "ADMITTED_STRONG",
+      "document_id": "DOC000209",
+      "locator": "page:9",
+      "section_applicability": "Tünel Felaketleri"
+    }
+  ],
+  "citation_mapping": [
+    {
+      "claim_id": "CH-A-S09-REM-001",
+      "document_id": "DOC000021",
+      "locator": "pages:1-25",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/Tunnel - Wikipedia.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-002",
+      "document_id": "DOC000021",
+      "locator": "pages:1-25",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/Tunnel - Wikipedia.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-003",
+      "document_id": "DOC000015",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/hif15005.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-004",
+      "document_id": "DOC000015",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/hif15005.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-005",
+      "document_id": "DOC000015",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/hif15005.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-006",
+      "document_id": "DOC000015",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/hif15005.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-007",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-008",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-009",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-010",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-011",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-012",
+      "document_id": "DOC000015",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/hif15005.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-013",
+      "document_id": "DOC000015",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/hif15005.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-014",
+      "document_id": "DOC000015",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/hif15005.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-015",
+      "document_id": "DOC000003",
+      "locator": "pages:1-25",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-016",
+      "document_id": "DOC000003",
+      "locator": "pages:1-25",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-017",
+      "document_id": "DOC000003",
+      "locator": "pages:1-25",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-018",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-019",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-020",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-021",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-022",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-023",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-024",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-025",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-026",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-027",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-028",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-029",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-030",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-031",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-032",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-033",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-034",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-035",
+      "document_id": "DOC000003",
+      "locator": "pages:51-75",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-036",
+      "document_id": "DOC000003",
+      "locator": "pages:1-25",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-037",
+      "document_id": "DOC000003",
+      "locator": "pages:1-25",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-038",
+      "document_id": "DOC000003",
+      "locator": "pages:1-25",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-039",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-040",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-041",
+      "document_id": "DOC000003",
+      "locator": "pages:26-50",
+      "source_relative_path": "Leyla Literatür/TunelMaliyet/13965.pdf"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-042",
+      "document_id": "DOC000209",
+      "locator": "page:9",
+      "source_relative_path": "Tünel Kazaları, Çökmeler ve Felaketler/Dünyada Tünel Felaketleri.docx"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-043",
+      "document_id": "DOC000209",
+      "locator": "page:9",
+      "source_relative_path": "Tünel Kazaları, Çökmeler ve Felaketler/Dünyada Tünel Felaketleri.docx"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-044",
+      "document_id": "DOC000209",
+      "locator": "page:9",
+      "source_relative_path": "Tünel Kazaları, Çökmeler ve Felaketler/Dünyada Tünel Felaketleri.docx"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-045",
+      "document_id": "DOC000209",
+      "locator": "page:9",
+      "source_relative_path": "Tünel Kazaları, Çökmeler ve Felaketler/Dünyada Tünel Felaketleri.docx"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-046",
+      "document_id": "DOC000209",
+      "locator": "page:9",
+      "source_relative_path": "Tünel Kazaları, Çökmeler ve Felaketler/Dünyada Tünel Felaketleri.docx"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-047",
+      "document_id": "DOC000209",
+      "locator": "page:9",
+      "source_relative_path": "Tünel Kazaları, Çökmeler ve Felaketler/Dünyada Tünel Felaketleri.docx"
+    },
+    {
+      "claim_id": "CH-A-S09-REM-048",
+      "document_id": "DOC000209",
+      "locator": "page:9",
+      "source_relative_path": "Tünel Kazaları, Çökmeler ve Felaketler/Dünyada Tünel Felaketleri.docx"
+    }
+  ],
+  "evidence_limitations": [
+    "Identifies specific disaster categories (major hazards, terrorism) relevant to tunnel environments, but provides only general categorization without specific incident details or outcomes.",
+    "Addresses minor disaster events affecting tunnels, relevant to the topic but limited in scope regarding major catastrophes and does not violate exclusion criteria."
+  ],
+  "privacy_mode": "LOCAL_ONLY"
+}

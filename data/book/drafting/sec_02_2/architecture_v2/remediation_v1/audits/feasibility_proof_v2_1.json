@@ -1,0 +1,401 @@
+{
+  "claims_stated": [
+    "SEC-02-2-C-001",
+    "SEC-02-2-C-002",
+    "SEC-02-2-C-003",
+    "SEC-02-2-C-004",
+    "SEC-02-2-C-005",
+    "SEC-02-2-C-006",
+    "SEC-02-2-C-007",
+    "SEC-02-2-C-009",
+    "SEC-02-2-C-012",
+    "SEC-02-2-P0-001",
+    "SEC-02-2-P0-004",
+    "SEC-02-2-P0-005",
+    "SEC-02-2-P0-006",
+    "SEC-02-2-P0-007",
+    "SEC-02-2-P0-008",
+    "SEC-02-2-R001"
+  ],
+  "feasible": true,
+  "language_failures": [],
+  "mandatory_conditions_dropped": 0,
+  "mandatory_conditions_required": 19,
+  "mandatory_qualifiers_dropped": 0,
+  "mandatory_qualifiers_required": 2,
+  "material_units": 19,
+  "numeric_drift": 0,
+  "numeric_units": 0,
+  "plan": {
+    "language": "tr",
+    "plan_id": "SEC-02-2-FEASIBILITY-V2-1",
+    "plan_version": "feasibility-v2-1",
+    "section_id": "SEC-02-2",
+    "subsections": [
+      {
+        "paragraph_groups": [
+          {
+            "paragraph_id": "F-A-P01",
+            "slots": [
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000236-8dfa5f799b50"
+                ],
+                "claim_id": "SEC-02-2-C-001",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-A-01"
+              },
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000087-ea64db4f1a7f"
+                ],
+                "claim_id": "SEC-02-2-C-002",
+                "realization_role": "CLAIM_STATEMENT",
+                "slot_id": "F-A-02"
+              },
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000087-ea64db4f1a7f"
+                ],
+                "claim_id": "SEC-02-2-C-002",
+                "realization_role": "QUALIFIER_SCOPE",
+                "slot_id": "F-A-03"
+              }
+            ]
+          }
+        ],
+        "subsection_id": "SEC-02-2-A"
+      },
+      {
+        "paragraph_groups": [
+          {
+            "paragraph_id": "F-B-P01",
+            "slots": [
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000236-8d87293e1c7b"
+                ],
+                "claim_id": "SEC-02-2-R001",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-B-01"
+              },
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000087-e7393bf8138a",
+                  "SRC-DOC000236-0229b854f373"
+                ],
+                "claim_id": "SEC-02-2-P0-001",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-B-02"
+              },
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000087-e7393bf8138a",
+                  "SRC-DOC000236-0229b854f373"
+                ],
+                "claim_id": "SEC-02-2-P0-001",
+                "realization_role": "CONDITION",
+                "slot_id": "F-B-03"
+              },
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000087-e7393bf8138a",
+                  "SRC-DOC000236-0229b854f373"
+                ],
+                "claim_id": "SEC-02-2-P0-006",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-B-04"
+              },
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000236-8d87293e1c7b"
+                ],
+                "claim_id": "SEC-02-2-P0-005",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-B-05"
+              },
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000087-e7393bf8138a",
+                  "SRC-DOC000236-0229b854f373"
+                ],
+                "claim_id": "SEC-02-2-P0-004",
+                "realization_role": "CLAIM_STATEMENT",
+                "slot_id": "F-B-06"
+              }
+            ]
+          }
+        ],
+        "subsection_id": "SEC-02-2-B"
+      },
+      {
+        "paragraph_groups": [
+          {
+            "paragraph_id": "F-C-P01",
+            "slots": [
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000047-72f96c5daace",
+                  "SRC-DOC000047-838e92811f43"
+                ],
+                "claim_id": "SEC-02-2-P0-007",
+                "realization_role": "CLAIM_STATEMENT",
+                "slot_id": "F-C-01"
+              },
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000047-d5c60204e247"
+                ],
+                "claim_id": "SEC-02-2-P0-008",
+                "realization_role": "CLAIM_STATEMENT",
+                "slot_id": "F-C-02"
+              },
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000087-8d778c37de30",
+                  "SRC-DOC000236-ca4f53f1dd68"
+                ],
+                "claim_id": "SEC-02-2-C-003",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-C-03"
+              },
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000087-8d778c37de30"
+                ],
+                "claim_id": "SEC-02-2-C-004",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-C-04"
+              },
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000087-8d778c37de30"
+                ],
+                "claim_id": "SEC-02-2-C-005",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-C-05"
+              },
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000087-8d778c37de30"
+                ],
+                "claim_id": "SEC-02-2-C-007",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-C-06"
+              }
+            ]
+          }
+        ],
+        "subsection_id": "SEC-02-2-C"
+      },
+      {
+        "paragraph_groups": [
+          {
+            "paragraph_id": "F-D-P01",
+            "slots": [
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000087-8d778c37de30"
+                ],
+                "claim_id": "SEC-02-2-C-006",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-D-01"
+              },
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000087-d989fc9aefbd"
+                ],
+                "claim_id": "SEC-02-2-C-012",
+                "realization_role": "CLAIM_STATEMENT",
+                "slot_id": "F-D-02"
+              },
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000236-ad4b684b487a"
+                ],
+                "claim_id": "SEC-02-2-C-009",
+                "realization_role": "REQUIREMENT",
+                "slot_id": "F-D-03"
+              },
+              {
+                "citation_source_keys": [
+                  "SRC-DOC000236-ad4b684b487a"
+                ],
+                "claim_id": "SEC-02-2-C-009",
+                "realization_role": "QUALIFIER_SCOPE",
+                "slot_id": "F-D-04"
+              }
+            ]
+          }
+        ],
+        "subsection_id": "SEC-02-2-D"
+      }
+    ]
+  },
+  "plan_id": "SEC-02-2-FEASIBILITY-V2-1",
+  "relations_supported": true,
+  "rendered_units": [
+    {
+      "claim_ids": [
+        "SEC-02-2-C-001"
+      ],
+      "text": "Püskürtme betonun basınç dayanım sınıfı minimum C25/30 MPa sınıfında olacaktır.",
+      "unit_id": "U-A-P01-S01"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-C-002"
+      ],
+      "text": "Tablo-351-5'e göre C25/30 sınıfı püskürtme betonda, 28 günlük karot numunelerde bireysel minimum dayanım 22,5 MPa ve üç adet numuneden oluşan grubun ortalama minimum dayanımı 25,5 MPa'dır.",
+      "unit_id": "U-A-P01-S02"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-C-002"
+      ],
+      "text": "C25/30 dayanım sınıfı, 28 günlük karot numunesi için Tablo-351-5 kalite kontrol kriterleridir; dayanım sınıfının kendisi değil, kabul kriteridir.",
+      "unit_id": "U-A-P01-S03"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-R001"
+      ],
+      "text": "Kuru Sistem: Çimento miktarı 350 kg/m³'ten az olmamalıdır.",
+      "unit_id": "U-B-P01-S01"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-P0-001"
+      ],
+      "text": "Yaş Sistem: Çimento miktarı 400 kg/m³'ten az olmamalıdır.",
+      "unit_id": "U-B-P01-S02"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-P0-001"
+      ],
+      "text": "Özel uygulamalar dışında.",
+      "unit_id": "U-B-P01-S03"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-P0-006"
+      ],
+      "text": "Özetle, standart uygulamalarda kuru sistem için minimum 350 kg/m³, yaş sistem için ise minimum 400 kg/m³ çimento dozajı aranmaktadır.",
+      "unit_id": "U-B-P01-S04"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-P0-005"
+      ],
+      "text": "Çevresel Şartlar: Dış çevresel etki sınıfları gereksinimlerine göre, laboratuvar ve ön dizayn deneme çalışmaları ile belirlenen çimento miktarı, durabilite nedeniyle 350 kg/m³'ün altında kalmamalıdır.",
+      "unit_id": "U-B-P01-S05"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-P0-004"
+      ],
+      "text": "Özel Uygulamalar: Şev kaplama, geçici iksa gibi özel durumlarda İdare onayı ile bu miktarlar azaltılabilmektedir.",
+      "unit_id": "U-B-P01-S06"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-P0-007"
+      ],
+      "text": "Tipik ilk püskürtme beton kaplama kalınlığı zemin koşullarına ve tünel açıklığının boyutuna bağlı olarak 100-400 mm aralığında değişmektedir.",
+      "unit_id": "U-C-P01-S01"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-P0-008"
+      ],
+      "text": "Belirli kaya koşullarında, tünel boyutuna bağlı olarak, kalınlık 300 mm ve daha fazla olabilir.",
+      "unit_id": "U-C-P01-S02"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-C-003"
+      ],
+      "text": "Bir defada uygulanacak püskürtme betonunun maksimum kalınlığı 15 cm'yi geçmeyecektir.",
+      "unit_id": "U-C-P01-S03"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-C-004"
+      ],
+      "text": "İlk tabaka, taze betonun akmaması için ince olmalı; tercihen yaklaşık 60 mm, maksimum 100 mm olmalıdır.",
+      "unit_id": "U-C-P01-S04"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-C-005"
+      ],
+      "text": "Takip eden tabakalar, nihai kalınlığa ve kullanılan priz hızlandırıcı katkı malzemesinin tipine bağlı olarak 50-200 mm olmalıdır.",
+      "unit_id": "U-C-P01-S05"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-C-007"
+      ],
+      "text": "İlave tabakalar, üç günü geçmeyen bir süre içerisinde tamamlanmış olacaktır.",
+      "unit_id": "U-C-P01-S06"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-C-006"
+      ],
+      "text": "Kalınlığın artırılması gerektiğinde müteakip tabaka(lar), önceki tabakanın mukavemeti sonradan tatbik edilecek tabakayı taşıyacak yeterli mertebeye ulaşmadan uygulanmayacaktır.",
+      "unit_id": "U-D-P01-S01"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-C-012"
+      ],
+      "text": "Yaklaşık 20 °C sıcaklıkta ve herhangi bir priz hızlandırıcı katkı malzemesi kullanılmaz ise, sonraki katmanın uygulanması için bekleme süresi yaklaşık 3-5 saattir.",
+      "unit_id": "U-D-P01-S02"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-C-009"
+      ],
+      "text": "Kil zonlu tabakalar üzerine püskürtme beton uygulamasında ilk püskürtme beton katmanı genellikle 100-150 mm'dir ve lif takviyeli olması tercih edilmelidir.",
+      "unit_id": "U-D-P01-S03"
+    },
+    {
+      "claim_ids": [
+        "SEC-02-2-C-009"
+      ],
+      "text": "Kil zonlu tabakalar üzerine uygulama için §351.08.10.02 kil zonlu tabakalara özgüdür; genel ilk katman kalınlığı değildir.",
+      "unit_id": "U-D-P01-S04"
+    }
+  ],
+  "required_core_claims_missing": [],
+  "required_core_claims_stated": [
+    "SEC-02-2-C-001",
+    "SEC-02-2-P0-001",
+    "SEC-02-2-P0-006",
+    "SEC-02-2-P0-007",
+    "SEC-02-2-P0-008",
+    "SEC-02-2-R001"
+  ],
+  "slots": 19,
+  "source_keys_valid": true,
+  "topics": {
+    "covered": 3,
+    "missing": [],
+    "required": 3,
+    "topics": [
+      "çimento dozajı",
+      "kaplama kalınlığı",
+      "dayanım sınıfı"
+    ]
+  },
+  "units": 19,
+  "universe_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+  "unrealizable_pairs_selected": [],
+  "validation": {
+    "histogram": {},
+    "rejected_unit_ids": [],
+    "status": "ACCEPT"
+  }
+}

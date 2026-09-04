@@ -1,0 +1,135 @@
+{
+  "abbreviation_policy": "an abbreviation carries no vowel, so harmony has nothing to read. The spoken form is frozen data; an abbreviation absent from the table raises MorphologyError and is never guessed, because 'mm'dır' would be wrong and support containment cannot see it — 'dır' is licensed by the claim that writes 'MPa'dır'.",
+  "abbreviation_pronunciation": {
+    "adet": "adet",
+    "cm": "santimetre",
+    "gün": "gün",
+    "kg/m3": "kilogram bölü metreküp",
+    "kg/m³": "kilogram bölü metreküp",
+    "m": "metre",
+    "mm": "milimetre",
+    "mpa": "megapaskal",
+    "saat": "saat",
+    "°c": "santigrat derece"
+  },
+  "determinism": {
+    "identical": true,
+    "runs": 5
+  },
+  "fixtures": [
+    {
+      "actual": "mm'dir",
+      "expected": "mm'dir",
+      "operation": "copula",
+      "passed": true,
+      "phenomenon": "front harmony over an abbreviation read as milimetre",
+      "stem": "mm",
+      "witness": "SEC-02-2-C-009 canonical: \"100-150 mm'dir\""
+    },
+    {
+      "actual": "MPa'dır",
+      "expected": "MPa'dır",
+      "operation": "copula",
+      "passed": true,
+      "phenomenon": "back harmony over an abbreviation read as megapaskal",
+      "stem": "MPa",
+      "witness": "SEC-02-2-C-002 canonical: \"25,5 MPa'dır\""
+    },
+    {
+      "actual": "cm'dir",
+      "expected": "cm'dir",
+      "operation": "copula",
+      "passed": true,
+      "phenomenon": "front harmony, distinct from the MPa case",
+      "stem": "cm",
+      "witness": "SEC-02-2-C-003 registers cm; santimetre takes a front vowel"
+    },
+    {
+      "actual": "kalınlığı",
+      "expected": "kalınlığı",
+      "operation": "possessive_third",
+      "passed": true,
+      "phenomenon": "k → ğ before a vowel-initial suffix",
+      "stem": "kalınlık",
+      "witness": "SEC-02-2-P0-008 translation_glosses carry both 'kalınlık' and 'kalınlığı'"
+    },
+    {
+      "actual": "kaplamanın",
+      "expected": "kaplamanın",
+      "operation": "genitive",
+      "passed": true,
+      "phenomenon": "genitive with the -n buffer after a vowel",
+      "stem": "kaplama",
+      "witness": "SEC-02-2-P0-007 translation_glosses carry both 'kaplama' and 'kaplamanın'"
+    },
+    {
+      "actual": "uygulamasında",
+      "expected": "uygulamasında",
+      "operation": "locative",
+      "passed": true,
+      "phenomenon": "locative after a possessive, with the -n buffer",
+      "stem": "uygulaması",
+      "witness": "SEC-02-2-C-009 canonical: \"uygulamasında\""
+    },
+    {
+      "actual": "tabakalar",
+      "expected": "tabakalar",
+      "operation": "plural",
+      "passed": true,
+      "phenomenon": "back harmony on the -lAr plural",
+      "stem": "tabaka",
+      "witness": "SEC-02-2-C-009 canonical: \"tabakalar\""
+    },
+    {
+      "actual": "numuneler",
+      "expected": "numuneler",
+      "operation": "plural",
+      "passed": true,
+      "phenomenon": "front harmony on the -lAr plural",
+      "stem": "numune",
+      "witness": "SEC-02-2-C-002 canonical carries 'numune' forms"
+    },
+    {
+      "actual": "kriteri",
+      "expected": "kriteri",
+      "operation": "accusative",
+      "passed": true,
+      "phenomenon": "four-way harmony on a front unrounded stem",
+      "stem": "kriter",
+      "witness": "SEC-02-2-C-002 qualifier: \"kabul kriteridir\""
+    },
+    {
+      "actual": "tabakalara",
+      "expected": "tabakalara",
+      "operation": "dative",
+      "passed": true,
+      "phenomenon": "dative with the -y/-∅ choice on a consonant-final stem",
+      "stem": "tabakalar",
+      "witness": "SEC-02-2-C-009 qualifier: \"kil zonlu tabakalara özgüdür\""
+    }
+  ],
+  "fixtures_passed": 10,
+  "fixtures_total": 10,
+  "implemented_phenomena": [
+    "two-way vowel harmony (-A)",
+    "four-way vowel harmony (-I), including rounding",
+    "voicing assimilation on suffix-initial stops (d / t)",
+    "word-final softening k → ğ, p → b, ç → c, t → d before a vowel-initial suffix",
+    "buffer consonants -y, -n, -s",
+    "plural -lAr",
+    "third-person possessive -(s)I",
+    "locative, dative, genitive and accusative cases",
+    "copula -dIr, with apostrophe attachment after an abbreviation"
+  ],
+  "not_implemented": [
+    "verbal inflection, tense, aspect, person agreement",
+    "compounding and derivational morphology",
+    "the ablative, instrumental and equative cases",
+    "possessives other than third-person singular",
+    "vowel epenthesis and consonant deletion in loanwords",
+    "irregular stems such as su, ne and the -yor exceptions"
+  ],
+  "purity": "every function is pure: no state, no clock, no randomness, no I/O, no model call",
+  "scope": "bounded to the phenomena SEC-02-2 realization requires. This is not a general Turkish morphology library and may not become one.",
+  "version": "tunnelbook-turkish-morphology-v2"
+}

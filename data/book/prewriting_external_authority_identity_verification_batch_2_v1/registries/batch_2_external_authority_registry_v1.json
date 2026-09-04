@@ -1,0 +1,162 @@
+{
+  "items": [
+    {
+      "admission_status_changed": false,
+      "authority_class": "PEER_REVIEWED",
+      "authority_status": "PEER_REVIEWED",
+      "batch_id": "EXT-BATCH-02",
+      "claim_proposition_changed": false,
+      "claim_relative_applicability": "SUITABLE_FOR_IDENTIFIED_SOURCE_ROLE",
+      "conflict_fields": [],
+      "edition_or_version": "Volume 10, Issue 4, pages 1279-1287",
+      "evidence_provenance": [
+        {
+          "capture_scope": "IDENTITY_AND_AUTHORITY_METADATA_ONLY",
+          "record_role": "OFFICIAL_PUBLISHER_RECORD",
+          "retrieval_date": "2026-08-22",
+          "source_owner": "DergiPark / Ege Academic Review",
+          "url": "https://dergipark.org.tr/en/pub/eab/article/473343"
+        },
+        {
+          "capture_scope": "IDENTITY_AND_AUTHORITY_METADATA_ONLY",
+          "record_role": "INSTITUTIONAL_CORROBORATION",
+          "retrieval_date": "2026-08-22",
+          "source_owner": "Yaşar University AVESIS",
+          "url": "https://avesis.yasar.edu.tr/yayin/a4c00534-cc57-43f8-87db-d5b4c7c5b6f1/an-ex-post-cost-benefit-analaysis-of-bolu-mountain-tunnel-project"
+        }
+      ],
+      "evidence_snapshot": {
+        "kind": "DETERMINISTIC_METADATA_DIGEST",
+        "sha256": "446ddb46db317c1e0ccc250434ed2aa53a278da632597fcaa9ac8444cb0fbdb7"
+      },
+      "external_authors": [
+        "Gaye Kocabaş",
+        "Barış Serkan Kopurlu"
+      ],
+      "external_title": "An Ex-Post Cost - Benefit Analysis of Bolu Mountain Tunnel Project",
+      "identifier": "DOI_NOT_LISTED_ON_PUBLISHER_RECORD",
+      "identity_match_status": "EXACT_IDENTITY_MATCH",
+      "issuing_authority": "Ege Academic Review / DergiPark",
+      "limitations": [
+        "DOI absent from publisher metadata"
+      ],
+      "promotion": true,
+      "publication_or_acceptance_date": "2010-11-01",
+      "queue_identity_matching_keys": [
+        "DOC000038",
+        "1ec7f89d408eefd1426d55425a491bdb0c6d37d65bc48bdaf504a55dddfa8962"
+      ],
+      "schema_version": "1.0.0",
+      "source_id": "DOC000038",
+      "support_status_changed": false,
+      "technical_content_captured": false,
+      "version_match_status": "EXACT_VERSION_DATE_MATCH"
+    },
+    {
+      "admission_status_changed": false,
+      "authority_class": "UNKNOWN",
+      "authority_status": "UNKNOWN",
+      "batch_id": "EXT-BATCH-02",
+      "claim_proposition_changed": false,
+      "claim_relative_applicability": "NOT_AUTHORITY_SUITABLE_CONFLICT_UNRESOLVED",
+      "conflict_fields": [
+        "Local metadata names advisor Ahmet Can Altunışık; external index/CV evidence names Ahmet Durmuş"
+      ],
+      "edition_or_version": "Master's thesis; 162 pages reported externally",
+      "evidence_provenance": [
+        {
+          "capture_scope": "IDENTITY_AND_AUTHORITY_METADATA_ONLY",
+          "record_role": "SECONDARY_INDEX_CONFLICT_EVIDENCE",
+          "retrieval_date": "2026-08-22",
+          "source_owner": "Tezara",
+          "url": "https://tezara.org/theses/212093"
+        },
+        {
+          "capture_scope": "IDENTITY_AND_AUTHORITY_METADATA_ONLY",
+          "record_role": "AUTHOR_INSTITUTION_CORROBORATION_ONLY",
+          "retrieval_date": "2026-08-22",
+          "source_owner": "Karadeniz Technical University AVESIS",
+          "url": "https://avesis.ktu.edu.tr/htozturk/deneyim"
+        },
+        {
+          "capture_scope": "IDENTITY_AND_AUTHORITY_METADATA_ONLY",
+          "record_role": "INSTITUTIONAL_CV_BIBLIOGRAPHIC_CORROBORATION",
+          "retrieval_date": "2026-08-22",
+          "source_owner": "Nuh Naci Yazgan University",
+          "url": "https://www.nny.edu.tr/images/file/im/Prof_Dr_ahmet_durmus.pdf"
+        }
+      ],
+      "evidence_snapshot": {
+        "kind": "DETERMINISTIC_METADATA_DIGEST",
+        "sha256": "13e840ba5330f8801ffdac08e6d45b8ee006fd08c1f23a2a499e3de53d54648c"
+      },
+      "external_authors": [
+        "Hasan Tahsin Öztürk"
+      ],
+      "external_title": "TÜNELLER VE TASARIM İLKELERİ",
+      "identifier": "Secondary index thesis number 212093; not authority-admissible",
+      "identity_match_status": "CONFLICTING_IDENTITY_MATCH",
+      "issuing_authority": "Karadeniz Technical University asserted; authoritative repository record not located",
+      "limitations": [
+        "No authoritative thesis repository/catalog record located"
+      ],
+      "promotion": false,
+      "publication_or_acceptance_date": "2007",
+      "queue_identity_matching_keys": [
+        "DOC000072",
+        "TÜNELLER VE TASARIM İLKELERİ"
+      ],
+      "schema_version": "1.0.0",
+      "source_id": "DOC000072",
+      "support_status_changed": false,
+      "technical_content_captured": false,
+      "version_match_status": "DATE_MATCH_VERSION_UNRESOLVED"
+    },
+    {
+      "admission_status_changed": false,
+      "authority_class": "UNKNOWN",
+      "authority_status": "UNKNOWN",
+      "batch_id": "EXT-BATCH-02",
+      "claim_proposition_changed": false,
+      "claim_relative_applicability": "NOT_AUTHORITY_SUITABLE_CONFLICT_UNRESOLVED",
+      "conflict_fields": [],
+      "edition_or_version": "Master's thesis; print catalog record",
+      "evidence_provenance": [
+        {
+          "capture_scope": "IDENTITY_AND_AUTHORITY_METADATA_ONLY",
+          "record_role": "OFFICIAL_INSTITUTIONAL_CATALOG_RECORD",
+          "retrieval_date": "2026-08-22",
+          "source_owner": "Harran University Central Library",
+          "url": "https://yordam.harran.edu.tr/yordam/?dil=0&fq%5B%5D=kunyeSekilKN_str%3A%2201%22&p=1&q=para&sno=164&tip=basit"
+        }
+      ],
+      "evidence_snapshot": {
+        "kind": "DETERMINISTIC_METADATA_DIGEST",
+        "sha256": "2368919f14b83c5f1e2a724f7cde4de54d6554fc9061b8dd13285c92e81f9e34"
+      },
+      "external_authors": [
+        "Muhammed Şerif Yoluk"
+      ],
+      "external_title": "İzmir Göztepe Metro İstasyonu Bölgesindeki Fay Zonundan Geçen ve Yeni Avusturya Tünel Açma Yöntemi Kullanılarak Açılan Tünelin Radye Temel Performansına Etkisi",
+      "identifier": "Call number TEZ 551.4856211 YOLi",
+      "identity_match_status": "EXACT_IDENTITY_MATCH",
+      "issuing_authority": "Harran University Central Library",
+      "limitations": [
+        "Catalog record verifies identity and institutional acceptance; the frozen authority taxonomy has no thesis class and source type does not imply authority",
+        "No technical content captured"
+      ],
+      "promotion": false,
+      "publication_or_acceptance_date": "2020",
+      "queue_identity_matching_keys": [
+        "DOC000098",
+        "İzmir Göztepe Metro İstasyonu Bölgesindeki Fay Zonundan Geçen ve Yeni Avusturya Tünel Açma Yöntemi Kullanılarak Açılan Tünelin Radye Temel Performansına Etkisi"
+      ],
+      "schema_version": "1.0.0",
+      "source_id": "DOC000098",
+      "support_status_changed": false,
+      "technical_content_captured": false,
+      "version_match_status": "EXACT_VERSION_DATE_MATCH"
+    }
+  ],
+  "schema_version": "1.0.0"
+}

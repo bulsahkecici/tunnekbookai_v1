@@ -1,0 +1,38 @@
+{
+  "version": "tunnelbook-sec-02-2-p0-008-terminology-evidence-audit-v1",
+  "claim_id": "SEC-02-2-P0-008",
+  "case_id": "ROCK-SWELLING",
+  "source_label": "Swelling Rock",
+  "decision_class": "CASE_3",
+  "status": "UNRESOLVED",
+  "direct_evidence": {
+    "source_key": "SRC-DOC000047-d5c60204e247",
+    "chunk_id": "DOC000047-C0206",
+    "document_id": "DOC000047",
+    "source_sha256": "153e9e2a4af4519f1e27a0440e0b3b06b3433db721cb527217f3a14f050abbdd",
+    "normalized_source_sha256": "2d7d31480abcc27e879d5eba91fba99635938ea4f6a51420dc8bf4a3a0895670",
+    "location": "Table 9-2, Ground Mass Quality - Rock and Initial Shotcrete Lining columns",
+    "language": "en",
+    "exact_case_label_present": true,
+    "tunnel_size_dependency_present": true,
+    "turkish_equivalent_present": false
+  },
+  "approved_mapping_check": {
+    "frozen_p0_008_translation_glosses_checked": true,
+    "crushed_rock_mapping_present": true,
+    "squeezing_rock_mapping_present": true,
+    "swelling_rock_mapping_present": false,
+    "approved_swelling_rock_terms": [],
+    "competing_supported_terms": []
+  },
+  "claim_owned_term_selected": null,
+  "claim_owned_terminology_contract_created": false,
+  "reason": "The cited source is English-only and the frozen claim-owned mappings contain no Turkish equivalent for ROCK-SWELLING.",
+  "prohibitions_observed": {
+    "model_translation_used": false,
+    "generic_gloss_widened": false,
+    "function_or_paraphrase_lexicon_widened": false,
+    "cross_claim_term_borrowed": false
+  },
+  "verdict": "NO_GO"
+}

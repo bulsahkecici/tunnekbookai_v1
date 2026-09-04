@@ -1,0 +1,85 @@
+{
+  "pilot_id": "TUNNELBOOKAI_REALDATA_PILOT_001",
+  "generated_at": "2026-09-03T13:19:19+00:00",
+  "canonical_baseline_digest": "6c49a13c0f3715ac54f44cb206a18096d596c80ad5ea47891dbeebd9bdef0470",
+  "libreoffice_available": true,
+  "selection_note": "Exactly six real documents. Synthetic test fixtures were removed from incoming/manual/inbox and parked in data/temp/pilot_parked_synthetic_fixtures/ so they cannot enter the pilot.",
+  "documents": [
+    {
+      "role": "crawler_pdf",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "format": "PDF",
+      "input_path": "incoming/crawler/releases/PILOT_RELEASE_001/01_originals/C_ACADEMIC/ARTICLES/PC_B8667B0178E8102A/source.pdf",
+      "sha256": "b8667b0178e8102a697e371611f812b6bafef514d37a4dd1280570b77ce6fe39",
+      "document_id_candidate": "ING_b8667b0178e8102a697e",
+      "size_bytes": 1932051,
+      "provenance": {
+        "origin": "PaperCrawler v1.0.0 handoff_export.py re-export (no crawl)",
+        "release": "incoming/crawler/releases/PILOT_RELEASE_001",
+        "crawler_document_id": "PC_B8667B0178E8102A",
+        "canonical_id": "CAN_32BD60929F57FD86CB07",
+        "contract_schema_version": "2.0"
+      }
+    },
+    {
+      "role": "manual_pdf",
+      "source_kind": "MANUAL_INTERNAL",
+      "format": "PDF",
+      "input_path": "incoming/manual/inbox/12_1_Fire Safety in Tunnels.pdf",
+      "sha256": "b952814dcd0347a888e7957e78f138ff40cb0b3eed7f10c34a215c3b1a775925",
+      "document_id_candidate": "ING_b952814dcd0347a888e7",
+      "size_bytes": 1098657,
+      "provenance": {
+        "origin": "user archive /Users/bulsahkecici/Projects/tunnel (copied read-only; original unmodified)"
+      }
+    },
+    {
+      "role": "manual_docx",
+      "source_kind": "MANUAL_INTERNAL",
+      "format": "DOCX",
+      "input_path": "incoming/manual/inbox/Dünyada Tünel Felaketleri.docx",
+      "sha256": "991e7004905db22e011a30b0cdc12396b3baf31c89d416acbe097a289793529c",
+      "document_id_candidate": "ING_991e7004905db22e011a",
+      "size_bytes": 2581142,
+      "provenance": {
+        "origin": "user archive /Users/bulsahkecici/Projects/tunnel (copied read-only; original unmodified)"
+      }
+    },
+    {
+      "role": "manual_pptx",
+      "source_kind": "MANUAL_INTERNAL",
+      "format": "PPTX",
+      "input_path": "incoming/manual/inbox/7-TÜNEL TARİF-ANALİZ-YBF.pptx",
+      "sha256": "804ea857fe56576c1ad579e45eb7c83e8ccc3da69f2e8db6580ed11beab05bcb",
+      "document_id_candidate": "ING_804ea857fe56576c1ad5",
+      "size_bytes": 896489,
+      "provenance": {
+        "origin": "user archive /Users/bulsahkecici/Projects/tunnel (copied read-only; original unmodified)"
+      }
+    },
+    {
+      "role": "manual_xlsx",
+      "source_kind": "MANUAL_INTERNAL",
+      "format": "XLSX",
+      "input_path": "incoming/manual/inbox/2019 KGM TÜNEL İCMALİ.xlsx",
+      "sha256": "296bae6c6d0e76f8481888c77f14109fbf685f1773f8fb3665f5e7b4627f25f8",
+      "document_id_candidate": "ING_296bae6c6d0e76f84818",
+      "size_bytes": 20419,
+      "provenance": {
+        "origin": "user archive /Users/bulsahkecici/Projects/tunnel (copied read-only; original unmodified)"
+      }
+    },
+    {
+      "role": "manual_image",
+      "source_kind": "MANUAL_INTERNAL",
+      "format": "PNG",
+      "input_path": "incoming/manual/inbox/InvertBetonUygulaması.png",
+      "sha256": "c77a14960e997ca95740010fef35aba2ec824861a306004633b190bc4d42d408",
+      "document_id_candidate": "ING_c77a14960e997ca95740",
+      "size_bytes": 502783,
+      "provenance": {
+        "origin": "user archive /Users/bulsahkecici/Projects/tunnel (copied read-only; original unmodified)"
+      }
+    }
+  ]
+}

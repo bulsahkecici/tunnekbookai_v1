@@ -1,0 +1,136 @@
+{
+  "core_principle": "The planner never emits a surface word. Every leaf of this structure is an identifier or an enumerated role.",
+  "fact_addressing": {
+    "condition": "<claim_id>#COND<index> into the claim's own frozen conditions",
+    "numeric": "<claim_id>#NUM<index> into the claim's own frozen numeric records",
+    "qualifier": "<claim_id>#QUAL<index>, or a registered qualifier-semantics constraint id whose declared claim matches",
+    "rationale": "an id that embeds its own claim cannot address another claim's fact, which is what closes cross-claim source laundering at parse time"
+  },
+  "forbidden_role_names": [
+    "FREEFORM",
+    "OTHER",
+    "GENERIC",
+    "CUSTOM",
+    "FALLBACK",
+    "DEFAULT"
+  ],
+  "permitted_languages": [
+    "tr"
+  ],
+  "prose_exclusion": {
+    "forbidden_field_names": [
+      "free_text",
+      "text",
+      "prose",
+      "sentence",
+      "phrase",
+      "wording",
+      "draft",
+      "content",
+      "body",
+      "narrative",
+      "string",
+      "语",
+      "cumle",
+      "cümle",
+      "metin",
+      "paragraph_text"
+    ],
+    "id_pattern": "^[A-Za-z0-9][A-Za-z0-9._/#-]{0,63}$",
+    "mechanisms": [
+      "closed schema — every object declares its permitted keys and an undeclared key is a rejection, so prose cannot enter under an innocent name",
+      "prose-name blocklist — a tripwire for the obvious case, listed as PROSE_FIELD_NAMES",
+      "typed leaves — every surviving leaf is an id matching ID_RE, which admits no whitespace and at most 64 characters, so a sentence cannot be spelled as one"
+    ]
+  },
+  "purpose": "the symbolic structure a planner emits. It carries which claims are stated, in what order and in what role, and no words.",
+  "realization_roles": {
+    "CLAIM_STATEMENT": "the claim's own proposition, from its approved canonical semantics",
+    "CONDITION": "a condition the claim carries, in its approved realization",
+    "EXEMPLIFICATION": "an exemplification the claim's own text carries",
+    "IDENTITY_SCOPE": "what a referenced table or clause *is*, where a frozen field states it",
+    "NUMERIC_CRITERIA": "the claim's registered numeric records with their source-stated units",
+    "QUALIFIER_SCOPE": "a registered qualifier's scope-limiting meaning",
+    "REQUIREMENT": "the claim's proposition where the claim itself carries binding modality"
+  },
+  "rejection_codes": [
+    "PLAN_MALFORMED",
+    "PLAN_MISSING_FIELD",
+    "PLAN_UNKNOWN_FIELD",
+    "PLAN_PROSE_FIELD",
+    "PLAN_UNKNOWN_ROLE",
+    "PLAN_FORBIDDEN_ROLE",
+    "PLAN_DUPLICATE_SLOT_ID",
+    "PLAN_LANGUAGE_NOT_PERMITTED",
+    "PLAN_SECTION_MISMATCH",
+    "PLAN_CLAIM_DENYLISTED",
+    "PLAN_CLAIM_NOT_ALLOWLISTED",
+    "PLAN_CLAIM_NOT_COMPOSITION_SAFE",
+    "PLAN_CLAIM_SECTION_MISMATCH",
+    "PLAN_SOURCE_KEY_NOT_OWNED",
+    "PLAN_NUMERIC_NOT_REGISTERED",
+    "PLAN_NUMERIC_NOT_SOURCE_STATED",
+    "PLAN_CONDITION_NOT_OWNED",
+    "PLAN_QUALIFIER_NOT_OWNED",
+    "PLAN_RELATION_FORBIDDEN",
+    "PLAN_RELATION_NOT_ALLOWED",
+    "PLAN_RELATION_NOT_SOURCE_SUPPORTED",
+    "PLAN_ROLE_NOT_REALIZABLE",
+    "PLAN_ROLE_UNREALIZABLE",
+    "PLAN_PARAGRAPH_QUALIFIER_MISSING",
+    "PLAN_SUPPORTING_ROLE_WITHOUT_STATEMENT",
+    "PLAN_PARAGRAPH_CONDITION_MISSING",
+    "PLAN_DUPLICATE_STATEMENT_ROLE"
+  ],
+  "schema": {
+    "paragraph_group": {
+      "paragraph_id": "id",
+      "slots": "slot_list"
+    },
+    "plan": {
+      "language": "id",
+      "plan_id": "id",
+      "plan_version": "id",
+      "section_id": "id",
+      "subsections": "subsection_list"
+    },
+    "slot": {
+      "citation_source_keys": "id_list",
+      "claim_id": "id",
+      "condition_ids": "id_list",
+      "numeric_fact_ids": "id_list",
+      "qualifier_constraint_ids": "id_list",
+      "realization_role": "role",
+      "relation_constraint_ids": "id_list",
+      "slot_id": "id"
+    },
+    "slot_required": [
+      "slot_id",
+      "claim_id",
+      "realization_role"
+    ],
+    "subsection": {
+      "paragraph_groups": "paragraph_list",
+      "subsection_id": "id"
+    }
+  },
+  "section_id": "SEC-02-2",
+  "unknown_role_policy": "reject; there is no default and no degradation",
+  "validation_proves_before_rendering": [
+    "the claim is allowlisted and composition-safe",
+    "the claim is not denylisted",
+    "every cited source key is registered to the declaring claim",
+    "every requested numeric is registered to the claim and source-stated",
+    "every requested condition belongs to the claim",
+    "every requested qualifier constraint belongs to the claim",
+    "the relation is allowed by the claim and forbidden by none",
+    "only INDEPENDENT is renderable without a source that states the relation",
+    "the claim/role pair has a frozen realization and is not UNREALIZABLE",
+    "a paragraph-scoped required meaning has a slot in its own paragraph",
+    "a registered qualifier has a slot wherever its claim is stated",
+    "a supporting role never stands without the statement it supports",
+    "a claim holds at most one statement role per paragraph",
+    "a paragraph-scoped condition has a slot in its own paragraph"
+  ],
+  "version": "tunnelbook-semantic-plan-ir-contract-v2"
+}

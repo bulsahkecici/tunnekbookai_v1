@@ -1,0 +1,20 @@
+# Local vision / VLM adapter (§27, §28). Default OFF. Loopback only.
+version: 1
+
+enabled: auto             # auto | true | false  — 'auto' autodetects a local VLM
+remote_allowed: false     # never true (§27)
+allowed_hosts: ['127.0.0.1', 'localhost', '::1']
+
+provider: disabled        # disabled | docling_local | local_openai_compatible
+
+local_openai_compatible:
+  base_url: http://127.0.0.1:1234/v1
+  model: null             # autodetected from /models if null
+  timeout_seconds: 120
+
+docling_local:
+  model: smolvlm          # smolvlm | granite_vision
+  picture_area_threshold: 0.05
+
+# OCR text and visual description are stored in SEPARATE fields (§26).
+# When no VLM is reachable: visual_description_status = NOT_RUN (§28). Never fabricate.

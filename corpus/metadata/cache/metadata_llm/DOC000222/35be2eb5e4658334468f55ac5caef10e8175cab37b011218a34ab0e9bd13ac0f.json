@@ -1,0 +1,49 @@
+{
+  "document_id": "DOC000222",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:03:29+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "GELİŞTİRME KURSU",
+      "value": "C"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "GELİŞTİRME KURSU",
+      "value": "training_material"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "www.kgm.gov.tr ARGE DAİRESİ BAŞKANLIĞI - JEOLOJİK HİZMETLER ŞUBESİ MÜDÜRLÜĞÜ [suggested_value_not_supported_by_evidence]",
+      "value": "Karayolları Genel Müdürlüğü (KGM)"
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "SUNUM ADI AYNA HARİTALAMALARI VE DEĞERLENDİRMELERİ [suggested_value_not_supported_by_evidence]",
+      "value": "Ayna haritamaları ve değerlendirmeler son"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Tünel açılımı sırasında jeolojik çalışmalardan elde edilen verileri 3 grupta toplayabiliriz: ... Jeoteknik değerlendirme: Kaya Kütle Değerinin (RMR) hesaplanması ve kazı destek sınıfının belirlenmesi ... NATM destek tipi seçim abağı",
+      "value": [
+        "geotechnical_investigation",
+        "natm",
+        "rock_mechanics"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "(24-28.02.2020) [evidence_not_grounded_in_context]",
+      "value": 2020
+    }
+  },
+  "source_sha256": "a1b66bcf747a3e184c1a15db3a6a9ed72a9f46f1dad49e0bacbdb6b5bf921bcc"
+}

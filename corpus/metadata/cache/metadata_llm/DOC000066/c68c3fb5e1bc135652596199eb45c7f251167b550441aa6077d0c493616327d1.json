@@ -1,0 +1,50 @@
+{
+  "document_id": "DOC000066",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:54:08+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "Tünel Kontrol Mühendisi Geliştirme Kursu",
+      "value": "C"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Tünel Kontrol Mühendisi Geliştirme Kursu",
+      "value": "training_material"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "Tünel Kontrol Mühendisi Geliştirme Kursu YENİ AVUSTURYA TÜNEL AÇMA YÖNTEMİ (NATM)",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "Yol Yapım Şubesi Müdürlüğü Yol Yapım Dairesi Başkanlığı Tünel Kontrol Mühendisi Geliştirme Kursu",
+      "value": "Yol Yapım Dairesi Başkanlığı"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "Tünel Kontrol Mühendisi Geliştirme Kursu YENİ AVUSTURYA TÜNEL AÇMA YÖNTEMİ (NATM) 24~28 Şubat 2020, Ankara Suhan Mutlu Yol Yapım Şefi",
+      "value": "Tünel Kontrol Mühendisi Geliştirme Kursu YENİ AVUSTURYA TÜNEL AÇMA YÖNTEMİ (NATM)"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "YENİ AVUSTURYA TÜNEL AÇMA YÖNTEMİ (NATM)",
+      "value": [
+        "construction_management",
+        "geotechnical_investigation",
+        "natm",
+        "support_systems"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "24~28 Şubat 2020",
+      "value": 2020
+    }
+  },
+  "source_sha256": "33e54b02175c174a99a7739012e0a70101e516836394186566041b705643cce9"
+}

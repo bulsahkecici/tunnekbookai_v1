@@ -1,0 +1,10 @@
+{
+  "version": "tunnelbook-sec-02-2-p0-008-terminology-negative-fixtures-v1",
+  "fixtures": [
+    {"fixture_id": "NEG-TERM-01", "class": "unsupported_synonym", "candidate": {"claim_id": "SEC-02-2-P0-008", "owner_claim_id": "SEC-02-2-P0-008", "case_id": "ROCK-SWELLING", "source_case_id": "ROCK-SWELLING", "surface_term": "UNSUPPORTED_SYNONYM_FIXTURE", "language": "tr"}, "expected_code": "TERM_UNSUPPORTED_SYNONYM"},
+    {"fixture_id": "NEG-TERM-02", "class": "english_term_leak", "candidate": {"claim_id": "SEC-02-2-P0-008", "owner_claim_id": "SEC-02-2-P0-008", "case_id": "ROCK-SWELLING", "source_case_id": "ROCK-SWELLING", "surface_term": "Swelling Rock", "language": "en"}, "expected_code": "TERM_ENGLISH_LEAK"},
+    {"fixture_id": "NEG-TERM-03", "class": "cross_claim_terminology_borrowing", "candidate": {"claim_id": "SEC-02-2-P0-008", "owner_claim_id": "SEC-02-2-P0-007", "case_id": "ROCK-SWELLING", "source_case_id": "ROCK-SWELLING", "surface_term": "kalınlık", "language": "tr"}, "expected_code": "TERM_CROSS_CLAIM_BORROWING"},
+    {"fixture_id": "NEG-TERM-04", "class": "wrong_case_mapping", "candidate": {"claim_id": "SEC-02-2-P0-008", "owner_claim_id": "SEC-02-2-P0-008", "case_id": "ROCK-SWELLING", "source_case_id": "ROCK-SQUEEZING", "surface_term": "sıkışan kaya", "language": "tr"}, "expected_code": "TERM_WRONG_CASE_MAPPING"},
+    {"fixture_id": "NEG-TERM-05", "class": "generic_rock_substitution", "candidate": {"claim_id": "SEC-02-2-P0-008", "owner_claim_id": "SEC-02-2-P0-008", "case_id": "ROCK-SWELLING", "source_case_id": "ROCK-SWELLING", "surface_term": "kaya", "language": "tr"}, "expected_code": "TERM_GENERIC_ROCK_SUBSTITUTION"}
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "items": [
+    {
+      "anchor_state": "ANCHOR_RESOLVED",
+      "authority_class": "UNKNOWN_AUTHORITY",
+      "chain": {
+        "chunk_to_document": true,
+        "claim_to_chunk": true,
+        "document_to_canonical_source": true,
+        "normalized_hash_present": true,
+        "source_hash_present": true,
+        "source_locator_present": true
+      },
+      "claim_id": "CLM-00001",
+      "family": "DF-AUTH-001",
+      "scope_supported": true,
+      "section_id": "CH-A-S09",
+      "state": "AUTHORITY_INSUFFICIENT"
+    },
+    {
+      "anchor_state": "ANCHOR_RESOLVED",
+      "authority_class": "UNKNOWN_AUTHORITY",
+      "chain": {
+        "chunk_to_document": true,
+        "claim_to_chunk": true,
+        "document_to_canonical_source": true,
+        "normalized_hash_present": true,
+        "source_hash_present": true,
+        "source_locator_present": true
+      },
+      "claim_id": "CLM-00002",
+      "family": "DF-AUTH-001",
+      "scope_supported": true,
+      "section_id": "CH-A-S09",
+      "state": "AUTHORITY_INSUFFICIENT"
+    },
+    {
+      "anchor_state": "ANCHOR_RESOLVED",
+      "authority_class": "UNKNOWN_AUTHORITY",
+      "chain": {
+        "chunk_to_document": true,
+        "claim_to_chunk": true,
+        "document_to_canonical_source": true,
+        "normalized_hash_present": true,
+        "source_hash_present": true,
+        "source_locator_present": false
+      },
+      "claim_id": "CLM-00086",
+      "family": "DF-PROV-001",
+      "scope_supported": true,
+      "section_id": "CH-B-S01",
+      "state": "PROVENANCE_BLOCKED"
+    },
+    {
+      "anchor_state": "ANCHOR_RESOLVED",
+      "authority_class": "UNKNOWN_AUTHORITY",
+      "chain": {
+        "chunk_to_document": true,
+        "claim_to_chunk": true,
+        "document_to_canonical_source": true,
+        "normalized_hash_present": true,
+        "source_hash_present": true,
+        "source_locator_present": false
+      },
+      "claim_id": "CLM-00087",
+      "family": "DF-PROV-001",
+      "scope_supported": true,
+      "section_id": "CH-B-S01",
+      "state": "PROVENANCE_BLOCKED"
+    },
+    {
+      "anchor_state": "ANCHOR_AMBIGUOUS",
+      "authority_class": "UNKNOWN_AUTHORITY",
+      "chain": {
+        "chunk_to_document": true,
+        "claim_to_chunk": true,
+        "document_to_canonical_source": true,
+        "normalized_hash_present": true,
+        "source_hash_present": true,
+        "source_locator_present": true
+      },
+      "claim_id": "CLM-00137",
+      "conversion_block_matches": [
+        {
+          "provenance": [
+            {
+              "bbox": {
+                "b": 5929330.0,
+                "coord_origin": "BOTTOMLEFT",
+                "l": 642910.0,
+                "r": 8858280.0,
+                "t": 6329440.0
+              },
+              "charspan": [
+                0,
+                59
+              ],
+              "page_no": 20
+            }
+          ],
+          "self_ref": "#/texts/89"
+        },
+        {
+          "provenance": [
+            {
+              "bbox": {
+                "b": 5929330.0,
+                "coord_origin": "BOTTOMLEFT",
+                "l": 642910.0,
+                "r": 8858280.0,
+                "t": 6329440.0
+              },
+              "charspan": [
+                0,
+                59
+              ],
+              "page_no": 21
+            }
+          ],
+          "self_ref": "#/texts/90"
+        },
+        {
+          "provenance": [
+            {
+              "bbox": {
+                "b": 5929330.0,
+                "coord_origin": "BOTTOMLEFT",
+                "l": 642910.0,
+                "r": 8858280.0,
+                "t": 6329440.0
+              },
+              "charspan": [
+                0,
+                59
+              ],
+              "page_no": 22
+            }
+          ],
+          "self_ref": "#/texts/91"
+        },
+        {
+          "provenance": [
+            {
+              "bbox": {
+                "b": 5929330.0,
+                "coord_origin": "BOTTOMLEFT",
+                "l": 642910.0,
+                "r": 8858280.0,
+                "t": 6329440.0
+              },
+              "charspan": [
+                0,
+                59
+              ],
+              "page_no": 23
+            }
+          ],
+          "self_ref": "#/texts/92"
+        },
+        {
+          "provenance": [
+            {
+              "bbox": {
+                "b": 5929330.0,
+                "coord_origin": "BOTTOMLEFT",
+                "l": 642910.0,
+                "r": 8858280.0,
+                "t": 6329440.0
+              },
+              "charspan": [
+                0,
+                59
+              ],
+              "page_no": 24
+            }
+          ],
+          "self_ref": "#/texts/93"
+        }
+      ],
+      "family": "DF-ANCH-001",
+      "scope_supported": true,
+      "section_id": "CH-B-S01",
+      "state": "ANCHOR_AMBIGUOUS"
+    },
+    {
+      "anchor_state": "ANCHOR_AMBIGUOUS",
+      "authority_class": "UNKNOWN_AUTHORITY",
+      "chain": {
+        "chunk_to_document": true,
+        "claim_to_chunk": true,
+        "document_to_canonical_source": true,
+        "normalized_hash_present": true,
+        "source_hash_present": true,
+        "source_locator_present": true
+      },
+      "claim_id": "CLM-00138",
+      "conversion_block_matches": [
+        {
+          "provenance": [
+            {
+              "bbox": {
+                "b": 5929330.0,
+                "coord_origin": "BOTTOMLEFT",
+                "l": 642910.0,
+                "r": 8858280.0,
+                "t": 6329440.0
+              },
+              "charspan": [
+                0,
+                59
+              ],
+              "page_no": 20
+            }
+          ],
+          "self_ref": "#/texts/89"
+        },
+        {
+          "provenance": [
+            {
+              "bbox": {
+                "b": 5929330.0,
+                "coord_origin": "BOTTOMLEFT",
+                "l": 642910.0,
+                "r": 8858280.0,
+                "t": 6329440.0
+              },
+              "charspan": [
+                0,
+                59
+              ],
+              "page_no": 21
+            }
+          ],
+          "self_ref": "#/texts/90"
+        },
+        {
+          "provenance": [
+            {
+              "bbox": {
+                "b": 5929330.0,
+                "coord_origin": "BOTTOMLEFT",
+                "l": 642910.0,
+                "r": 8858280.0,
+                "t": 6329440.0
+              },
+              "charspan": [
+                0,
+                59
+              ],
+              "page_no": 22
+            }
+          ],
+          "self_ref": "#/texts/91"
+        },
+        {
+          "provenance": [
+            {
+              "bbox": {
+                "b": 5929330.0,
+                "coord_origin": "BOTTOMLEFT",
+                "l": 642910.0,
+                "r": 8858280.0,
+                "t": 6329440.0
+              },
+              "charspan": [
+                0,
+                59
+              ],
+              "page_no": 23
+            }
+          ],
+          "self_ref": "#/texts/92"
+        },
+        {
+          "provenance": [
+            {
+              "bbox": {
+                "b": 5929330.0,
+                "coord_origin": "BOTTOMLEFT",
+                "l": 642910.0,
+                "r": 8858280.0,
+                "t": 6329440.0
+              },
+              "charspan": [
+                0,
+                59
+              ],
+              "page_no": 24
+            }
+          ],
+          "self_ref": "#/texts/93"
+        }
+      ],
+      "family": "DF-ANCH-001",
+      "scope_supported": true,
+      "section_id": "CH-B-S01",
+      "state": "ANCHOR_AMBIGUOUS"
+    },
+    {
+      "anchor_state": "ANCHOR_RESOLVED",
+      "authority_class": "UNKNOWN_AUTHORITY",
+      "chain": {
+        "chunk_to_document": true,
+        "claim_to_chunk": true,
+        "document_to_canonical_source": true,
+        "normalized_hash_present": true,
+        "source_hash_present": true,
+        "source_locator_present": true
+      },
+      "claim_id": "RCLM-00001",
+      "family": "DF-DISC-001",
+      "scope_supported": false,
+      "section_id": "CH-A-S01",
+      "state": "SCOPE_INSUFFICIENT"
+    },
+    {
+      "anchor_state": "ANCHOR_RESOLVED",
+      "authority_class": "UNKNOWN_AUTHORITY",
+      "chain": {
+        "chunk_to_document": true,
+        "claim_to_chunk": true,
+        "document_to_canonical_source": true,
+        "normalized_hash_present": true,
+        "source_hash_present": true,
+        "source_locator_present": true
+      },
+      "claim_id": "RCLM-00002",
+      "family": "DF-DISC-001",
+      "scope_supported": false,
+      "section_id": "CH-A-S02",
+      "state": "SCOPE_INSUFFICIENT"
+    }
+  ],
+  "sample_count": 8,
+  "schema_version": "1.0.0"
+}

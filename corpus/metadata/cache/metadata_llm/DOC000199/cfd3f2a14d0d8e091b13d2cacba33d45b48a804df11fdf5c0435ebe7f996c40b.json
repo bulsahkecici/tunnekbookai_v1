@@ -1,0 +1,54 @@
+{
+  "document_id": "DOC000199",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:01:29+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Tünel Dergisi 6.pdf",
+      "value": "magazine"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "Tünel Dergisi 6.pdf",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "TÜNELCILÍK DERNEČi TURKISH TUNNELLING SOCIETY [suggested_value_not_supported_by_evidence]",
+      "value": "TÜNELCİLİK DERNEĞİ"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "Tünel Dergİsİ 6. Sayıya Katkıda Bulunan Tünelcİler ve Madencİler",
+      "value": "Tunel Dergisi 6"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "contracts",
+        "excavation",
+        "gas",
+        "geology",
+        "natm",
+        "risk",
+        "standards",
+        "tbm"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "Eylül-Ekim / September-October 2014",
+      "value": 2014
+    }
+  },
+  "source_sha256": "686f2fed7a37fea40455e5a48dc24f8cfc7c735708afde494ac1e7eb9e464e89"
+}

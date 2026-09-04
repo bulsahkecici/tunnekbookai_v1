@@ -1,0 +1,52 @@
+{
+  "author_evidence": [],
+  "authority_class": "UNKNOWN_AUTHORITY",
+  "authority_evidence_sufficiency": "NOT_PROMOTED_FROZEN_BATCH_CONTRACT",
+  "batch_id": "BATCH-04",
+  "claim_relative_applicability": "NOT_YET_AUTHORITY_SUITABLE",
+  "date_or_version_evidence": [],
+  "document_id": "DOC000102",
+  "exact_title": "Kaya Tünelleri",
+  "external_identity_verification_required": true,
+  "external_verification_plan": {
+    "identity_matching_keys": [
+      "DOC000102",
+      "Kaya Tünelleri"
+    ],
+    "mismatch_behavior": "RETAIN_UNKNOWN_AUTHORITY",
+    "missing_identity_fields": [
+      "author_or_issuing_body",
+      "source_type_evidence",
+      "date_or_version",
+      "publication_identifier"
+    ],
+    "preferred_authoritative_lookup_class": "ISSUER_PUBLISHER_OR_INSTITUTIONAL_REPOSITORY_RECORD"
+  },
+  "identity_confidence": "PARTIAL",
+  "identity_evidence": [
+    {
+      "converted_source_lines": "19",
+      "field": "title",
+      "value": "Kaya Tünelleri",
+      "zone": "opening_heading"
+    }
+  ],
+  "inspection_mechanism": "TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION",
+  "institution_or_publisher_evidence": [],
+  "limitations": "No authority, support, proposition, provenance, anchor, scope, review, or admission state changed.",
+  "missing_fields": [
+    "author_or_issuing_body",
+    "source_type_evidence",
+    "date_or_version",
+    "publication_identifier"
+  ],
+  "promotion": false,
+  "publication_identifiers": [],
+  "reason": "The bounded opening identity zone contains only a generic title; filename tokens are not authority evidence.",
+  "result": "SOURCE_TYPE_UNRESOLVED",
+  "schema_version": "1.0.0",
+  "source_path": "data/markdown/Mehmet/Literatur/Wordler/KayaTunelleri_AnkUni_Konu13.md",
+  "source_sha256": "af063b20e1d71b047b7abe09ffd89393426b810479fcee6b102a66bf8a953561",
+  "source_type": "UNKNOWN_SOURCE_TYPE",
+  "source_type_evidence": []
+}

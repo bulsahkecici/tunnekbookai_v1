@@ -1,0 +1,106 @@
+{
+  "artifacts": [
+    {
+      "path": "data/book/prewriting_external_evidence_admission_v1/contracts/external_evidence_admission_acceptance_contract_v1.json",
+      "sha256": "72bcb9cc5c26791ad335d8f0a857de831c9541b86b056ad844f0c88366e79edc"
+    },
+    {
+      "path": "data/book/prewriting_external_evidence_admission_v1/external_candidate_registry_v1.json",
+      "sha256": "27db6a0af7283665c234e797e776ac3f62442c27f060600a09a0d074445a688e"
+    },
+    {
+      "path": "data/book/prewriting_external_evidence_admission_v1/admitted_external_evidence_registry_v1.json",
+      "sha256": "e05e6898d2ecc5ed940cecf129ed609949acf1db66fae32ae374f5c700956b18"
+    },
+    {
+      "path": "data/book/prewriting_external_evidence_admission_v1/rejected_external_evidence_registry_v1.json",
+      "sha256": "13fac51d5f0c982c610bde8e6c4dfe43f7a7fe10b5de880afcaad39338ab419d"
+    },
+    {
+      "path": "data/book/prewriting_external_evidence_admission_v1/section_research_question_gap_mapping_v1.json",
+      "sha256": "5e5e651f668d5e0384d4cae9e8060e1f1645d7e5d9d3e6e54cdf1e13dce58bfb"
+    },
+    {
+      "path": "data/book/prewriting_external_evidence_admission_v1/authority_freshness_audit_v1.json",
+      "sha256": "7025b1b1fc92765cf2e03478b18dd1e4e03dd458aefd1175744cdbeeef3e911a"
+    },
+    {
+      "path": "data/book/prewriting_external_evidence_admission_v1/repository_zero_admission_diagnostic_v1.json",
+      "sha256": "17ab0ad84ea508e36a2d8ac02a97574db1e2d855d9222c3fc0907c3bf9e91586"
+    },
+    {
+      "path": "data/book/prewriting_external_evidence_admission_v1/visual_zero_candidate_diagnostic_v1.json",
+      "sha256": "a334b4d1a8f22a07bc663e785ff825055a75f30f4ca7eae0c2611d305b1cf6cb"
+    },
+    {
+      "path": "data/book/prewriting_external_evidence_admission_v1/fixtures/positive_fixtures_v1.json",
+      "sha256": "271e04012007b9388b26852d4c45952cc3c757de735da6e907e68aebfdddf59c"
+    },
+    {
+      "path": "data/book/prewriting_external_evidence_admission_v1/fixtures/negative_fixtures_v1.json",
+      "sha256": "07a6217414dbbddb338f6d57de4ec29271fc2f1d5f297815511ba618f4fdd38d"
+    },
+    {
+      "path": "data/book/prewriting_external_evidence_admission_v1/external_evidence_admission_v1_audit.json",
+      "sha256": "608c56c278898ebd3cc775ef473897b792db207338db3d82fe52a1c58aa55ced"
+    }
+  ],
+  "book_prose_generated": false,
+  "drafting_authorized": false,
+  "frozen_integrity": "PASS",
+  "input_hashes": [
+    {
+      "path": "data/book/prewriting_failure_analysis_v1/prewriting_failure_analysis_v1.json",
+      "sha256": "829fbb4266abff9a9db55bf37b899d30f1629f34d0ab84d48c45fdb81f0ed5ef"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_admission_v1/repository_evidence_admission_v1_manifest.json",
+      "sha256": "478388be25fe1c0d2fd4faf4a45e270e5dc9849089a39440753b6be66107ee5f"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_admission_v1/rejected_evidence_registry_v1.json",
+      "sha256": "cc40b35446ff37e4fb24bd498f3a31b96c672e9c818e64454abb278255f119d2"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_admission_v1/section_evidence_coverage_ledger_v1.json",
+      "sha256": "c8ea3139349c3c5153508fa7e0fa8196cbb52af8faf2f8f520d8f100e6dcb2f8"
+    },
+    {
+      "path": "data/book/prewriting_cost_methodology_closure_v1/cost_methodology_closure_v1_manifest.json",
+      "sha256": "5f750d91430b8d71bdfee9ce05a2548288f5969d52fde88730bbb118afee11f0"
+    },
+    {
+      "path": "data/book/prewriting_freshness_control_v1/freshness_control_v1_manifest.json",
+      "sha256": "ed82ff7fbc1c9bdb3e7a87e104d05d281fbb8a7911f163ec090ced7a35fdd028"
+    },
+    {
+      "path": "data/book/prewriting_freshness_control_v1/section_freshness_matrix_v1.json",
+      "sha256": "e28b4313229bcd27bec798ce0789f20d7cc7a2c35ad8ff19e82be6270c50ff1e"
+    },
+    {
+      "path": "data/book/prewriting_visual_evidence_rights_validation_v1/visual_evidence_rights_validation_v1_manifest.json",
+      "sha256": "fe7043b6d223997dcfeb60cda469e9035bcb274ea11035a4492806d38ad1d33d"
+    },
+    {
+      "path": "data/book/prewriting_visual_evidence_rights_validation_v1/repository_visual_candidate_registry_v1.json",
+      "sha256": "b6222c4e5dc381e519eb998b6a1594f4e1f01223f1e6a427cef7ae2d514e0650"
+    },
+    {
+      "path": "data/book/assets/nontext_asset_policy_registry_v1.json",
+      "sha256": "79c9902abf77550e9ad0cd76f3542ee79eb3cb6b8a0e2e1017ee80f1af0ba3cd"
+    },
+    {
+      "path": "data/book/evidence_packets/section_evidence_packets_v1.json",
+      "sha256": "1659da3ae01a2c9cd34d7d09c4bc6b2e98dc1f3efd24f8959d1ed4f10d6d5929"
+    },
+    {
+      "path": "data/book/prewriting_audit/prewriting_hash_list_v1.json",
+      "sha256": "d7feb0b87e38ef756296dcf0e5a433f468faccf642d13bae1c2c022908f5f7cf"
+    }
+  ],
+  "next_phase": "PRE-WRITING REPOSITORY EVIDENCE DISCOVERY AND ADMISSION REMEDIATION V1",
+  "phase": "PRE-WRITING EXTERNAL EVIDENCE ADMISSION V1",
+  "schema_version": "external-evidence-admission-manifest-v1",
+  "state_sync_result": "PASS",
+  "status": "GO_REMEDIATION_REQUIRED"
+}

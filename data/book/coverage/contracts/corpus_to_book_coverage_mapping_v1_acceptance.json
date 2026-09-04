@@ -1,0 +1,35 @@
+{
+  "checkpoint": "CP3 — CORPUS-TO-BOOK COVERAGE MAPPING V1",
+  "version": "v1",
+  "frozen_before_candidate_mapping": true,
+  "inputs": {
+    "structure": "data/book/master_structure/book_master_structure_v1.json",
+    "scope_contracts": "data/book/scope_contracts/section_scope_boundary_contracts_v1.json",
+    "canonical_metadata": "data/metadata/final_corpus_manifest.csv"
+  },
+  "observation_policy": {
+    "metadata_and_titles_first": true,
+    "bulk_corpus_read": false,
+    "categorical_scoring_only": true,
+    "unsupported_mapping_status": "UNOBSERVED"
+  },
+  "validation": {
+    "section_coverage": "60/60",
+    "precision_sample": {
+      "method": "every fifth section in stable structure order",
+      "expected_size": 12
+    },
+    "missed_obvious_source_probes": [
+      "maliyet",
+      "bakım",
+      "jeoteknik",
+      "destek",
+      "kaza"
+    ],
+    "provenance_required": true,
+    "false_positive_tolerance": 0,
+    "corpus_mutation": 0,
+    "broad_corpus_scan": 0
+  },
+  "drafting_authorized": false
+}

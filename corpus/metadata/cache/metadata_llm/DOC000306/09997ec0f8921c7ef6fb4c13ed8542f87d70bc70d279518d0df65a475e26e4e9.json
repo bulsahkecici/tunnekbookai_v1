@@ -1,0 +1,54 @@
+{
+  "document_id": "DOC000306",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:09:40+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "low",
+      "evidence": "Çalışma Kapsamı Tasarısı (17.10.2025).rtf [evidence_not_grounded_in_context]",
+      "value": "project_document"
+    },
+    "language": {
+      "confidence": "low",
+      "evidence": "Çalışma Kapsamı Tasarısı (17.10.2025).rtf [evidence_not_grounded_in_context]",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "2.4.3. Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları",
+      "value": "Karayolları Genel Müdürlüğü (KGM)"
+    },
+    "title": {
+      "confidence": "low",
+      "evidence": "Çalışma Kapsamı Tasarısı (17.10.2025).rtf [evidence_not_grounded_in_context]",
+      "value": "Çalışma Kapsamı Tasarısı (17.10.2025)"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "accident",
+        "cost",
+        "geology",
+        "geotechnical_investigation",
+        "history",
+        "maintenance",
+        "operations",
+        "route_selection"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "Çalışma Kapsamı Tasarısı (17.10.2025).rtf [evidence_not_grounded_in_context]",
+      "value": 2025
+    }
+  },
+  "source_sha256": "4b58fadf9915cfda3a8c37ff6b864c52f05d1f62e265607f2edcad54ffe5e71c"
+}

@@ -1,0 +1,49 @@
+{
+  "document_id": "DOC000130",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:57:56+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "TÜRK İ YE TÜNELC İ L İ K SEM İ NER İ 2013 [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "TÜRK İ YE TÜNELC İ L İ K SEM İ NER İ 2013",
+      "value": "presentation"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "TÜRK İ YE TÜNELC İ L İ K SEM İ NER İ 2013",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "Murat Dursun BARUT Karayolları Genel Müdürlüğü",
+      "value": "Karayolları Genel Müdürlüğü"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "## TÜNEL GÜVENLIGINDE AKILLI ULAŞIM SISTEMLERÍ",
+      "value": "TÜNEL GÜVENLIGINDE AKILLI ULAŞIM SISTEMLERÍ"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "TÜNEL GÜVENLIGINDE AKILLI ULAŞIM SISTEMLERÍ",
+      "value": [
+        "inspection",
+        "safety",
+        "traffic"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "TÜRK İ YE TÜNELC İ L İ K SEM İ NER İ 2013",
+      "value": 2013
+    }
+  },
+  "source_sha256": "17e5e4aa41637a66b3dee7c8c71e79a278cdccb4c134fd115eb7a4a66aa24f32"
+}

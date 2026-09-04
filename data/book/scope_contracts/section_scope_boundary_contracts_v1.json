@@ -1,0 +1,35 @@
+{
+  "schema_version":"section-scope-boundary-contracts-v1",
+  "status":"FROZEN",
+  "structural_input":"data/book/master_structure/book_master_structure_v1.json",
+  "coverage":{"selector":"$.sections[*]","expected_records":60,"actual_records":60,"application":"EACH_SELECTED_RECORD"},
+  "default_contract":{
+    "purpose":"Define and organize only the subject named by source_title.",
+    "intended_reader_outcome":"Reader outcome must remain limited to source_title and later approved scope detail.",
+    "inclusion_scope":"Content directly necessary to address source_title.",
+    "exclusion_scope":"Sibling-owned subjects, unsupported claims, and unresolved outline material.",
+    "relation_to_parent_chapter":"Contributes its named subject within parent_id; does not replace chapter-wide synthesis.",
+    "overlap_risk":"NONE_IDENTIFIED_UNLESS_LISTED_IN_BOUNDARY_RULES",
+    "prerequisite_concepts":"UNRESOLVED_PENDING_EVIDENCE_MAPPING",
+    "expected_evidence_classes":["corpus_source","validated_project_analysis","reviewed_conclusion"],
+    "responsibility_state":"INHERIT_CP1_CHAPTER_UNLESS_SECTION_OVERRIDE",
+    "human_decision_needed":false,
+    "drafting_status":"NOT_AUTHORIZED"
+  },
+  "boundary_rules":[
+    {"rule_id":"BR-001","section_ids":["CH-A-S03","CH-C"],"risk":"general tunnel history versus KGM tunnel history","boundary":"CH-A-S03 is general history; CH-C is KGM-specific institutional history.","status":"PROPOSED_HUMAN_APPROVAL_REQUIRED"},
+    {"rule_id":"BR-002","section_ids":["CH-B-S08","CH-F"],"risk":"construction cost factors versus construction-cost chapter","boundary":"CH-B-S08 covers factors only; CH-F owns cost-study method, analysis, and chapter synthesis.","status":"PROPOSED_HUMAN_APPROVAL_REQUIRED"},
+    {"rule_id":"BR-003","section_ids":["CH-E-S04","CH-E-S08","CH-E-S09","CH-E-S10"],"risk":"maintenance-operation concepts versus cost analysis","boundary":"CH-E-S04 defines the activity domain; cost sections own monetary classification and analysis.","status":"PROPOSED_HUMAN_APPROVAL_REQUIRED"},
+    {"rule_id":"BR-004","section_ids":["CH-E-S18","CH-F-S05"],"risk":"repeated literature-review structures","boundary":"Each review is restricted to its parent chapter's cost domain; shared evidence must retain separate relevance mappings.","status":"PROPOSED_HUMAN_APPROVAL_REQUIRED"},
+    {"rule_id":"BR-005","section_ids":["CH-F-S06","CH-G-S01","CH-G-S02"],"risk":"analysis versus findings/results","boundary":"CH-F-S06 owns construction-cost analysis method/output; CH-G owns cross-chapter reported findings, conclusions, and recommendations without duplicating analysis.","status":"PROPOSED_HUMAN_APPROVAL_REQUIRED"},
+    {"rule_id":"BR-006","section_ids":["CH-F-S01","CH-F-S02","CH-F-S03","CH-F-S04"],"risk":"combined heading overlaps following purpose/scope/method headings","boundary":"Source hierarchy is unresolved; do not duplicate content or infer parenthood until human approval.","status":"UNRESOLVED_HUMAN_DECISION_REQUIRED"},
+    {"rule_id":"BR-007","section_ids":["CH-B-S01","CH-B-S03"],"risk":"support-element heading overlap","boundary":"Terminological distinction and content allocation require human confirmation.","status":"UNRESOLVED_HUMAN_DECISION_REQUIRED"}
+  ],
+  "responsibility_exceptions":[
+    {"section_ids":["CH-F-S05","CH-F-S05-SS01","CH-F-S05-SS02"],"state":"AMBIGUOUS_MENTIONS_MEHMET_CELIKKAYA","human_decision_needed":true},
+    {"section_ids":["CH-G-S01","CH-G-S02"],"state":"NOT_SUPPLIED","human_decision_needed":true}
+  ],
+  "chapter_level_unresolved_decisions":["CH-B hierarchy","CH-D source ellipsis","CH-E source ellipsis","CH-F source ellipsis","CH-F literature-review responsibility","CH-G responsibility"],
+  "substantive_technical_claims_inserted":0,
+  "drafting_authorized":false
+}

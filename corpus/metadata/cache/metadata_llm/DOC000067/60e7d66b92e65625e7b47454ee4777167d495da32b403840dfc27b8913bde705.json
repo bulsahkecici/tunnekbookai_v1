@@ -1,0 +1,48 @@
+{
+  "document_id": "DOC000067",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:54:13+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "high",
+      "evidence": "Tünel Kontrol Mühendisi Geliştirme Kursu",
+      "value": "C"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Tünel Kontrol Mühendisi Geliştirme Kursu",
+      "value": "training_material"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "6-YALITIM, DRENAJ ve NİHAİ KAPLAMA BETONU",
+      "value": "6-YALITIM, DRENAJ ve NİHAİ KAPLAMA BETONU"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "YALITIM VE DRENAJ NİHAİ KAPLAMA BETONU",
+      "value": [
+        "drainage",
+        "final_lining"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "24~28.02.2020, Ankara",
+      "value": 2020
+    }
+  },
+  "source_sha256": "21c81a85613e82c6b1ebeafd9f847e087b0cdc032c8db3933fa8d9438a7f564c"
+}

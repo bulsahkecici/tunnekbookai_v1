@@ -1,0 +1,20 @@
+{
+  "version": "tunnelbook-sec-02-2-architecture-v2.2-retry-case-scope-condition-analysis-manifest-v1",
+  "phase": "SEC-02-2 ARCHITECTURE V2.2 RETRY CASE-SCOPE CONDITION ALLOCATION FAILURE ANALYSIS V1",
+  "status": "CLOSED_GO",
+  "artifacts": {
+    "acceptance_contract": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_case_scope_analysis_v1/contracts/acceptance_contract_v1.json", "sha256": "084f1ae7ee3c94caba412f3fdebedaf1416d25c855ac12f12f9663fe541c7b5e"},
+    "acceptance_freeze": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_case_scope_analysis_v1/audits/acceptance_freeze_v1.json", "sha256": "19f4926c5b810d26c558dc3c711572b24f6c4e4628a6f78c2a456292f66f314e"},
+    "condition_probes": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_case_scope_analysis_v1/probes/condition_scope_probes_v1.json", "sha256": "1b177830f3a150f316f1a035efd6ada985e40578ddec90d75429880861a1aca6"},
+    "allocation_audit": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_case_scope_analysis_v1/audits/allocation_audit_v1.json", "sha256": "820639069fe5e78c2b4584c7bc4a3a27b53503f15cb883a96dfc9a6094c94427"},
+    "hidden_contradictions": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_case_scope_analysis_v1/audits/hidden_contradictions_v1.json", "sha256": "b21d96d310c6cd11e834aa9a94f0834fb5f07c8bfee3ed78adf73a54de00cb10"},
+    "frozen_integrity": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_case_scope_analysis_v1/audits/frozen_integrity_v1.json", "sha256": "090ef26a7432bc5ad5181e6d288752e00b51ea5e3323b38ecb45ac8a5c9014e0"},
+    "acceptance_results": {"path": "data/book/drafting/sec_02_2/architecture_v2_2_retry_case_scope_analysis_v1/audits/acceptance_results_v1.json", "sha256": "e4590cff2cd55a1e02260ebd50d95d144d49eaf4ae85fb0613c3e598e426a9e9"},
+    "analysis_script": {"path": "scripts/76_v2_2_retry_case_scope_condition_analysis_v1.py", "sha256": "b36450ddaeff59094943794030ec9eb08ad99e95e56335cefec46fade96d0071"},
+    "tests": {"path": "tests/test_v2_2_retry_case_scope_condition_analysis_v1.py", "sha256": "32e6de7a3827bff78044c02343e6175b0d5235bdbf9870ecf156b3f69f5a3550"},
+    "report": {"path": "reports/sec_02_2_architecture_v2_2_retry_case_scope_condition_analysis_v1.md", "sha256": "372f3e5777140ad340cb0bf23f847e8a6458bc69b3ee48b49464e1de52d74e0c"}
+  },
+  "tests": {"phase_and_retry": {"run": 19, "failures": 0}, "validator_and_fallback": {"run": 107, "failures": 0}},
+  "accounting": {"generation_calls": 0, "render_calls": 0, "retrieval_calls": 0, "qdrant_writes": 0, "corpus_wide_reads": 0, "retry_runs": 0, "frozen_drift": 0},
+  "next_phase": "SEC-02-2 ARCHITECTURE V2.2 CLAIM-ROLE CONDITION ALLOCATION REMEDIATION V1"
+}

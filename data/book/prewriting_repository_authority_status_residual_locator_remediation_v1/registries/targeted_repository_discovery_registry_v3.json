@@ -1,0 +1,1454 @@
+{
+  "items": [
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000002-C0031",
+          "claim_support_validated": false,
+          "document_id": "DOC000002",
+          "extracted_claim_id": null,
+          "lexical_score": 3,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000003-C0027",
+          "claim_support_validated": false,
+          "document_id": "DOC000003",
+          "extracted_claim_id": null,
+          "lexical_score": 3,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000039-C0002",
+          "claim_support_validated": false,
+          "document_id": "DOC000039",
+          "extracted_claim_id": "RCLM-00001",
+          "lexical_score": 3,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "tünelin",
+        "tanımı",
+        "subject",
+        "tünelin",
+        "tanımı",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Tünelin Tanımı’ without importing sibling-section scope?",
+      "research_question_id": "RQ-001-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-A-S01",
+      "section_scope": "Tünelin Tanımı",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0003",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": "RCLM-00002",
+          "lexical_score": 5,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000042-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000042",
+          "extracted_claim_id": "RCLM-00003",
+          "lexical_score": 4,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000002-C0031",
+          "claim_support_validated": false,
+          "document_id": "DOC000002",
+          "extracted_claim_id": null,
+          "lexical_score": 3,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "tünellerin",
+        "sınıflandırılması",
+        "subject",
+        "tünellerin",
+        "sınıflandırılması",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Tünellerin Sınıflandırılması’ without importing sibling-section scope?",
+      "research_question_id": "RQ-002-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-A-S02",
+      "section_scope": "Tünellerin Sınıflandırılması",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0003",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": "RCLM-00004",
+          "lexical_score": 5,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000042-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000042",
+          "extracted_claim_id": "RCLM-00005",
+          "lexical_score": 4,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000002-C0031",
+          "claim_support_validated": false,
+          "document_id": "DOC000002",
+          "extracted_claim_id": null,
+          "lexical_score": 3,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "tünellerin",
+        "tarihçesi",
+        "subject",
+        "tünellerin",
+        "tarihçesi",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Tünellerin Tarihçesi’ without importing sibling-section scope?",
+      "research_question_id": "RQ-003-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-A-S03",
+      "section_scope": "Tünellerin Tarihçesi",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0003",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": "RCLM-00006",
+          "lexical_score": 4,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000002-C0031",
+          "claim_support_validated": false,
+          "document_id": "DOC000002",
+          "extracted_claim_id": null,
+          "lexical_score": 3,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000003-C0027",
+          "claim_support_validated": false,
+          "document_id": "DOC000003",
+          "extracted_claim_id": null,
+          "lexical_score": 3,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "dünyadaki",
+        "tüneller",
+        "subject",
+        "dünyadaki",
+        "tüneller",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Dünyadaki İlk Tüneller’ without importing sibling-section scope?",
+      "research_question_id": "RQ-004-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-A-S04",
+      "section_scope": "Dünyadaki İlk Tüneller",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000200-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000200",
+          "extracted_claim_id": "RCLM-00007",
+          "lexical_score": 6,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000042-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000042",
+          "extracted_claim_id": "RCLM-00008",
+          "lexical_score": 5,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0003",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": "RCLM-00009",
+          "lexical_score": 5,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "türkiye",
+        "tünel",
+        "subject",
+        "türkiye",
+        "tünel",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Türkiye’de İlk Tünel’ without importing sibling-section scope?",
+      "research_question_id": "RQ-005-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-A-S05",
+      "section_scope": "Türkiye’de İlk Tünel",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000042-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000042",
+          "extracted_claim_id": "RCLM-00010",
+          "lexical_score": 6,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000074-C0012",
+          "claim_support_validated": false,
+          "document_id": "DOC000074",
+          "extracted_claim_id": "RCLM-00011",
+          "lexical_score": 5,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000098-C0020",
+          "claim_support_validated": false,
+          "document_id": "DOC000098",
+          "extracted_claim_id": "RCLM-00012",
+          "lexical_score": 5,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "tünel",
+        "mühendislik",
+        "uygulamaları",
+        "subject",
+        "tünel",
+        "mühendislik",
+        "uygulamaları",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘En İyi Tünel Mühendislik Uygulamaları’ without importing sibling-section scope?",
+      "research_question_id": "RQ-006-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-A-S06",
+      "section_scope": "En İyi Tünel Mühendislik Uygulamaları",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000073-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000073",
+          "extracted_claim_id": null,
+          "lexical_score": 6,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000306-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000306",
+          "extracted_claim_id": null,
+          "lexical_score": 6,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000045-C0002",
+          "claim_support_validated": false,
+          "document_id": "DOC000045",
+          "extracted_claim_id": "RCLM-00013",
+          "lexical_score": 5,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "dünyada",
+        "karayolu",
+        "tünelleri",
+        "subject",
+        "dünyada",
+        "karayolu",
+        "tünelleri",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Dünyada Karayolu Tünelleri’ without importing sibling-section scope?",
+      "research_question_id": "RQ-007-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-A-S07",
+      "section_scope": "Dünyada Karayolu Tünelleri",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000042-C0002",
+          "claim_support_validated": false,
+          "document_id": "DOC000042",
+          "extracted_claim_id": "RCLM-00014",
+          "lexical_score": 6,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000045-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000045",
+          "extracted_claim_id": null,
+          "lexical_score": 6,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000045-C0002",
+          "claim_support_validated": false,
+          "document_id": "DOC000045",
+          "extracted_claim_id": "RCLM-00015",
+          "lexical_score": 6,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "türkiye",
+        "karayolu",
+        "tünelleri",
+        "subject",
+        "türkiye",
+        "karayolu",
+        "tünelleri",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Türkiye’de Karayolu Tünelleri’ without importing sibling-section scope?",
+      "research_question_id": "RQ-008-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-A-S08",
+      "section_scope": "Türkiye’de Karayolu Tünelleri",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000074-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000074",
+          "extracted_claim_id": null,
+          "lexical_score": 5,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000076-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000076",
+          "extracted_claim_id": null,
+          "lexical_score": 4,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000306-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000306",
+          "extracted_claim_id": null,
+          "lexical_score": 4,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "tünellerle",
+        "lgili",
+        "tanımlamalar",
+        "subject",
+        "tünellerle",
+        "lgili",
+        "tanımlamalar",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Tünellerle İlgili Tanımlamalar’ without importing sibling-section scope?",
+      "research_question_id": "RQ-013-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-B-S02",
+      "section_scope": "Tünellerle İlgili Tanımlamalar",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000075-C0005",
+          "claim_support_validated": false,
+          "document_id": "DOC000075",
+          "extracted_claim_id": "RCLM-00016",
+          "lexical_score": 8,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000076-C0003",
+          "claim_support_validated": false,
+          "document_id": "DOC000076",
+          "extracted_claim_id": null,
+          "lexical_score": 8,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000105-C0003",
+          "claim_support_validated": false,
+          "document_id": "DOC000105",
+          "extracted_claim_id": null,
+          "lexical_score": 7,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "kayaç",
+        "zeminde",
+        "açılan",
+        "tüneller",
+        "subject",
+        "kayaç",
+        "zeminde",
+        "açılan",
+        "tüneller",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Kayaç Zeminde Açılan Tüneller’ without importing sibling-section scope?",
+      "research_question_id": "RQ-016-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-B-S05",
+      "section_scope": "Kayaç Zeminde Açılan Tüneller",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000075-C0006",
+          "claim_support_validated": false,
+          "document_id": "DOC000075",
+          "extracted_claim_id": null,
+          "lexical_score": 8,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000076-C0003",
+          "claim_support_validated": false,
+          "document_id": "DOC000076",
+          "extracted_claim_id": null,
+          "lexical_score": 8,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000075-C0005",
+          "claim_support_validated": false,
+          "document_id": "DOC000075",
+          "extracted_claim_id": "RCLM-00017",
+          "lexical_score": 7,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "yumuşak",
+        "zeminde",
+        "açılan",
+        "tüneller",
+        "subject",
+        "yumuşak",
+        "zeminde",
+        "açılan",
+        "tüneller",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Yumuşak Zeminde Açılan Tüneller’ without importing sibling-section scope?",
+      "research_question_id": "RQ-017-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-B-S06",
+      "section_scope": "Yumuşak Zeminde Açılan Tüneller",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0003",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": "RCLM-00018",
+          "lexical_score": 6,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000075-C0005",
+          "claim_support_validated": false,
+          "document_id": "DOC000075",
+          "extracted_claim_id": "RCLM-00019",
+          "lexical_score": 6,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000075-C0006",
+          "claim_support_validated": false,
+          "document_id": "DOC000075",
+          "extracted_claim_id": null,
+          "lexical_score": 6,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "altında",
+        "açılan",
+        "tüneller",
+        "subject",
+        "altında",
+        "açılan",
+        "tüneller",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Su Altında Açılan Tüneller’ without importing sibling-section scope?",
+      "research_question_id": "RQ-018-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-B-S07",
+      "section_scope": "Su Altında Açılan Tüneller",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0009",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": null,
+          "lexical_score": 9,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000076-C0006",
+          "claim_support_validated": false,
+          "document_id": "DOC000076",
+          "extracted_claim_id": "RCLM-00020",
+          "lexical_score": 9,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0002",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": null,
+          "lexical_score": 7,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "nşaat",
+        "başlamadan",
+        "önce",
+        "yapılan",
+        "çalışmalar",
+        "subject",
+        "nşaat",
+        "başlamadan",
+        "önce",
+        "yapılan",
+        "çalışmalar",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘İnşaat Başlamadan Önce Yapılan Çalışmalar’ without importing sibling-section scope?",
+      "research_question_id": "RQ-022-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-B-S11",
+      "section_scope": "İnşaat Başlamadan Önce Yapılan Çalışmalar",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0009",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": null,
+          "lexical_score": 6,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000076-C0006",
+          "claim_support_validated": false,
+          "document_id": "DOC000076",
+          "extracted_claim_id": null,
+          "lexical_score": 6,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0002",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": null,
+          "lexical_score": 5,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "nşaat",
+        "esnasındaki",
+        "çalışmalar",
+        "subject",
+        "nşaat",
+        "esnasındaki",
+        "çalışmalar",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘İnşaat Esnasındaki Çalışmalar’ without importing sibling-section scope?",
+      "research_question_id": "RQ-023-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-B-S12",
+      "section_scope": "İnşaat Esnasındaki Çalışmalar",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000193-C0026",
+          "claim_support_validated": false,
+          "document_id": "DOC000193",
+          "extracted_claim_id": "RCLM-00021",
+          "lexical_score": 6,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0009",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": null,
+          "lexical_score": 5,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000076-C0006",
+          "claim_support_validated": false,
+          "document_id": "DOC000076",
+          "extracted_claim_id": null,
+          "lexical_score": 5,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "kullanım",
+        "aşaması",
+        "çalışmaları",
+        "subject",
+        "kullanım",
+        "aşaması",
+        "çalışmaları",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Kullanım Aşaması Çalışmaları’ without importing sibling-section scope?",
+      "research_question_id": "RQ-024-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-B-S13",
+      "section_scope": "Kullanım Aşaması Çalışmaları",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000076-C0006",
+          "claim_support_validated": false,
+          "document_id": "DOC000076",
+          "extracted_claim_id": "RCLM-00022",
+          "lexical_score": 14,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000306-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000306",
+          "extracted_claim_id": "RCLM-00023",
+          "lexical_score": 13,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0002",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": null,
+          "lexical_score": 12,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "tünel",
+        "güzergahının",
+        "seçimi",
+        "boykesit",
+        "belirlenmesinde",
+        "dikkat",
+        "edilecek",
+        "hususlar",
+        "subject",
+        "tünel",
+        "güzergahının",
+        "seçimi",
+        "boykesit",
+        "belirlenmesinde",
+        "dikkat",
+        "edilecek",
+        "hususlar",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Hususlar’ without importing sibling-section scope?",
+      "research_question_id": "RQ-025-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-B-S14",
+      "section_scope": "Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Hususlar",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000076-C0006",
+          "claim_support_validated": false,
+          "document_id": "DOC000076",
+          "extracted_claim_id": null,
+          "lexical_score": 9,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0002",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": null,
+          "lexical_score": 8,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0010",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": "RCLM-00024",
+          "lexical_score": 8,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "güzergah",
+        "seçiminde",
+        "dikkat",
+        "edilecek",
+        "hususlar",
+        "subject",
+        "güzergah",
+        "seçiminde",
+        "dikkat",
+        "edilecek",
+        "hususlar",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Güzergah Seçiminde Dikkat Edilecek Hususlar’ without importing sibling-section scope?",
+      "research_question_id": "RQ-026-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-B-S15",
+      "section_scope": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0002",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": null,
+          "lexical_score": 9,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0010",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": "RCLM-00025",
+          "lexical_score": 9,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000076-C0006",
+          "claim_support_validated": false,
+          "document_id": "DOC000076",
+          "extracted_claim_id": null,
+          "lexical_score": 9,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "boykesit",
+        "belirlemede",
+        "dikkat",
+        "edilecek",
+        "hususlar",
+        "subject",
+        "boykesit",
+        "belirlemede",
+        "dikkat",
+        "edilecek",
+        "hususlar",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Boykesit Belirlemede Dikkat Edilecek Hususlar’ without importing sibling-section scope?",
+      "research_question_id": "RQ-027-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-B-S16",
+      "section_scope": "Boykesit Belirlemede Dikkat Edilecek Hususlar",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000306-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000306",
+          "extracted_claim_id": "RCLM-00026",
+          "lexical_score": 6,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0003",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": "RCLM-00027",
+          "lexical_score": 4,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000002-C0031",
+          "claim_support_validated": false,
+          "document_id": "DOC000002",
+          "extracted_claim_id": null,
+          "lexical_score": 3,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "çalışmanın",
+        "amacı",
+        "önemi",
+        "subject",
+        "çalışmanın",
+        "amacı",
+        "önemi",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Çalışmanın Amacı ve Önemi’ without importing sibling-section scope?",
+      "research_question_id": "RQ-031-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-E-S01",
+      "section_scope": "Çalışmanın Amacı ve Önemi",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000306-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000306",
+          "extracted_claim_id": null,
+          "lexical_score": 4,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000002-C0031",
+          "claim_support_validated": false,
+          "document_id": "DOC000002",
+          "extracted_claim_id": null,
+          "lexical_score": 3,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000003-C0027",
+          "claim_support_validated": false,
+          "document_id": "DOC000003",
+          "extracted_claim_id": null,
+          "lexical_score": 3,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "çalışmanın",
+        "kapsamı",
+        "subject",
+        "çalışmanın",
+        "kapsamı",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Çalışmanın Kapsamı’ without importing sibling-section scope?",
+      "research_question_id": "RQ-032-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-E-S02",
+      "section_scope": "Çalışmanın Kapsamı",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000072-C0003",
+          "claim_support_validated": false,
+          "document_id": "DOC000072",
+          "extracted_claim_id": "RCLM-00028",
+          "lexical_score": 7,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000098-C0003",
+          "claim_support_validated": false,
+          "document_id": "DOC000098",
+          "extracted_claim_id": "RCLM-00029",
+          "lexical_score": 7,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000098-C0005",
+          "claim_support_validated": false,
+          "document_id": "DOC000098",
+          "extracted_claim_id": null,
+          "lexical_score": 7,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "çalışmanın",
+        "yöntemi",
+        "kullanılan",
+        "veriler",
+        "subject",
+        "çalışmanın",
+        "yöntemi",
+        "kullanılan",
+        "veriler",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Çalışmanın Yöntemi ve Kullanılan Veriler’ without importing sibling-section scope?",
+      "research_question_id": "RQ-033-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-E-S03",
+      "section_scope": "Çalışmanın Yöntemi ve Kullanılan Veriler",
+      "true_external_evidence_required": false
+    },
+    {
+      "candidate_chunks": [
+        {
+          "canonical_source_opened": true,
+          "chunk_id": "DOC000306-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000306",
+          "extracted_claim_id": "RCLM-00030",
+          "lexical_score": 8,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000087-C0001",
+          "claim_support_validated": false,
+          "document_id": "DOC000087",
+          "extracted_claim_id": "RCLM-00031",
+          "lexical_score": 4,
+          "topically_relevant": true
+        },
+        {
+          "canonical_source_opened": false,
+          "chunk_id": "DOC000087-C0017",
+          "claim_support_validated": false,
+          "document_id": "DOC000087",
+          "extracted_claim_id": null,
+          "lexical_score": 4,
+          "topically_relevant": true
+        }
+      ],
+      "evidence_need": [
+        "authoritative_source",
+        "claim_level_citation_support"
+      ],
+      "opened_document_ids_shared_batch": [
+        "DOC000072",
+        "DOC000306",
+        "DOC000002",
+        "DOC000076",
+        "DOC000003"
+      ],
+      "query_diagnostic": "NO_QUERY_EXPANSION_REQUIRED_CANDIDATES_PRESENT",
+      "query_tokens": [
+        "ulusal",
+        "uluslararası",
+        "literatür",
+        "taraması",
+        "subject",
+        "ulusal",
+        "uluslararası",
+        "literatür",
+        "taraması",
+        "importing",
+        "sibling",
+        "scope",
+        "scope",
+        "facts"
+      ],
+      "remediation_result": "BOUNDED_REPOSITORY_DISCOVERY_REAUDITED",
+      "repository_search_state": "EXHAUSTED_UNDER_FROZEN_TARGETED_CONTRACT",
+      "research_question": "Which authoritative evidence establishes the subject and approved boundaries of ‘Ulusal ve Uluslararası Literatür Taraması’ without importing sibling-section scope?",
+      "research_question_id": "RQ-048-01",
+      "retrieval_contract": "V1_CANDIDATES_REPROCESSED_WITH_BOUNDED_CANONICAL_VERIFICATION",
+      "section_id": "CH-E-S18",
+      "section_scope": "Ulusal ve Uluslararası Literatür Taraması",
+      "true_external_evidence_required": false
+    }
+  ],
+  "schema_version": "3.0.0",
+  "section_count": 22
+}

@@ -1,0 +1,15 @@
+{
+  "decision": "HOLD",
+  "chronology_issues": [],
+  "naming_ambiguities": [],
+  "language_issues": [
+    "Tekil özne/yapı bildiren cümlelerde çoğul yüklem kullanımı tespit edilmiştir (örn. 'dünyanın en uzun karayolu tünelleridir', 'otomobiller için tasarlanmış ilk denizaltı karayolu tünelleridir', 'dünyanın en kuzeydeki karayolu tünelleridir', 'yağmur suyu tahliye tünelleridir', 'dünyanın en derin denizaltı karayolu tünelleridir'). Tekil tünel referansları için 'tünelidir' şeklinde düzeltilmelidir.",
+    "İsim tamlamalarında sayı-çoğul uyumsuzluğu: 'iki tünelleri ve köprü birleşiminden' ifadesindeki 'tünelleri', tekil bir yapıyı işaret ettiği için 'tüneli' olarak düzeltilmelidir.",
+    "Karmaşık isim tamlamasında yazım/çoğul hatası: 'önemli denizaltı/tünelleri yapılarının' ifadesindeki 'tünelleri', tekil proje referansı taşıdığı için 'tünel' olarak düzeltilmelidir."
+  ],
+  "overgeneralizations": [],
+  "structure_issues": [],
+  "required_actions": [
+    "Belirtilen tekil-çoğul uyumsuzlukları düzeltilerek metnin dilbilgisi tutarlılığı sağlanmalıdır."
+  ]
+}

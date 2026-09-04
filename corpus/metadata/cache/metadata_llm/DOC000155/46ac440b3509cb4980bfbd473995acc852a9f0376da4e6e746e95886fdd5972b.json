@@ -1,0 +1,48 @@
+{
+  "document_id": "DOC000155",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:58:30+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "[controlled_vocabulary_rejected]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "low",
+      "evidence": "Sunumlar_2022/12_1_Fire Safety in Tunnels.pdf [evidence_not_grounded_in_context]",
+      "value": "presentation"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "TÜNEL DAMPERİ TASARIM DETAYLARI - ŞARTNAME",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "TÜNEL DAMPERİ TASARIM DETAYLARI - ŞARTNAME",
+      "value": "TÜNEL DAMPERİ TASARIM DETAYLARI - ŞARTNAME"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "TÜNEL DAMPERİ TASARIM DETAYLARI - ŞARTNAME",
+      "value": [
+        "fire_safety",
+        "safety"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "Sunumlar_2022 [evidence_not_grounded_in_context]",
+      "value": 2022
+    }
+  },
+  "source_sha256": "b952814dcd0347a888e7957e78f138ff40cb0b3eed7f10c34a215c3b1a775925"
+}

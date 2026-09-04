@@ -1,0 +1,18 @@
+{
+  "schema_version": "book-master-structure-v2-decision-overlay",
+  "base_artifact": "data/book/master_structure/book_master_structure_v1.json",
+  "authority": "HDG-006 and HDG-007 explicit owner selections",
+  "stable_ids_preserved": true,
+  "source_titles_preserved": true,
+  "changes": [
+    {"section_id":"CH-F-S01","role":"PARENT_CONTAINER_ONLY","subsection_ids":["CH-F-S02","CH-F-S03","CH-F-S04"],"substantive_repetition_permitted":false},
+    {"section_id":"CH-F-S02","parent_id":"CH-F-S01","depth":3,"role":"PURPOSE_AND_IMPORTANCE"},
+    {"section_id":"CH-F-S03","parent_id":"CH-F-S01","depth":3,"role":"SCOPE"},
+    {"section_id":"CH-F-S04","parent_id":"CH-F-S01","depth":3,"role":"METHOD_INCLUDING_DATA_SCOPE"},
+    {"chapter_id":"CH-B","hierarchy":"PRESERVE_SUPPLIED_FLAT_HIERARCHY"},
+    {"section_id":"CH-B-S01","role":"HIGH_LEVEL_CLASSIFICATION_SYSTEM_RELATIONSHIPS_OVERVIEW"},
+    {"section_id":"CH-B-S02","role":"TERMINOLOGY_DEFINITIONS_CONCEPTUAL_CLARIFICATION"},
+    {"section_id":"CH-B-S03","role":"SPECIFIC_SUPPORT_TYPES_FUNCTIONS_APPLICATIONS_EVIDENCED_TECHNICAL_DETAILS"}
+  ],
+  "prohibitions": ["NEW_USED_DATA_HEADING", "SOURCE_TITLE_CHANGE", "STABLE_ID_CHANGE"]
+}

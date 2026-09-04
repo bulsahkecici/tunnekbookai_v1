@@ -1,0 +1,400 @@
+{
+  "pilot_id": "TUNNELBOOKAI_REALDATA_PILOT_001",
+  "generated_at": "2026-09-03T19:14:18+00:00",
+  "canonical_baseline_digest": "6c49a13c0f3715ac54f44cb206a18096d596c80ad5ea47891dbeebd9bdef0470",
+  "canonical_corpus": "UNCHANGED",
+  "canonical_promotions": 0,
+  "embeddings_computed": 0,
+  "qdrant_indexed": false,
+  "documents": [
+    {
+      "document_id": "ING_b8667b0178e8102a697e",
+      "role": "crawler_pdf",
+      "format": "PDF",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "input_path": "incoming/crawler/releases/PILOT_RELEASE_001/01_originals/C_ACADEMIC/ARTICLES/PC_B8667B0178E8102A/source.pdf",
+      "sha256": "b8667b0178e8102a697e371611f812b6bafef514d37a4dd1280570b77ce6fe39",
+      "sha_integrity": true,
+      "extraction_status": "SUCCESS",
+      "snapshot_status": "PASS",
+      "snapshot_count": 10,
+      "ocr_status": "RUN",
+      "vision_status": "RUN",
+      "metadata_status": "SUPPORTED_OR_NULL",
+      "metadata_title": "Engineering Geological Investigation of the Kırık Tunnel Route",
+      "metadata_title_source": "crawler_manifest",
+      "final_primary_section": "2",
+      "final_section_confidence": 0.7915,
+      "final_secondary_sections": [
+        "2.4.2.1"
+      ],
+      "section_in_taxonomy": true,
+      "classification_methods": [
+        "heading_rules",
+        "chunk_vote",
+        "embedding"
+      ],
+      "arbiter_status": "NOT_RUN",
+      "crawler_provisional_section": null,
+      "crawler_final_agreement": null,
+      "quality_decision": "GO",
+      "quality_review_reasons": [],
+      "quality_reject_reasons": [],
+      "evidence_level": "FULL_TEXT",
+      "chunk_counts": {
+        "TEXT_CHUNK": 9,
+        "TABLE_CHUNK": 5,
+        "FIGURE_CHUNK": 8
+      },
+      "chunk_quality_status": "PASS",
+      "embedding_ready_count": 22,
+      "staged": true,
+      "duplicate_of": null,
+      "warnings": [
+        "CHART_EXTRACTION_DISABLED_BY_CONFIG"
+      ],
+      "errors": []
+    },
+    {
+      "document_id": "ING_b952814dcd0347a888e7",
+      "role": "manual_pdf",
+      "format": "PDF",
+      "source_kind": "MANUAL_INTERNAL",
+      "input_path": "incoming/manual/inbox/12_1_Fire Safety in Tunnels.pdf",
+      "sha256": "b952814dcd0347a888e7957e78f138ff40cb0b3eed7f10c34a215c3b1a775925",
+      "sha_integrity": true,
+      "extraction_status": "SUCCESS",
+      "snapshot_status": "PASS",
+      "snapshot_count": 9,
+      "ocr_status": "RUN",
+      "vision_status": "RUN",
+      "metadata_status": "SUPPORTED_OR_NULL",
+      "metadata_title": "TÜNEL DAMPERİ TASARIM DETAYLARI - ŞARTNAME",
+      "metadata_title_source": "document_heading",
+      "final_primary_section": "5.9.1",
+      "final_section_confidence": 0.5799,
+      "final_secondary_sections": [],
+      "section_in_taxonomy": true,
+      "classification_methods": [
+        "heading_rules",
+        "chunk_vote",
+        "embedding"
+      ],
+      "arbiter_status": "NOT_RUN",
+      "crawler_provisional_section": null,
+      "crawler_final_agreement": null,
+      "quality_decision": "GO",
+      "quality_review_reasons": [],
+      "quality_reject_reasons": [],
+      "evidence_level": "FULL_TEXT",
+      "chunk_counts": {
+        "TEXT_CHUNK": 2,
+        "TABLE_CHUNK": 1,
+        "FIGURE_CHUNK": 27
+      },
+      "chunk_quality_status": "PASS",
+      "embedding_ready_count": 30,
+      "staged": true,
+      "duplicate_of": null,
+      "warnings": [
+        "CHART_EXTRACTION_DISABLED_BY_CONFIG"
+      ],
+      "errors": []
+    },
+    {
+      "document_id": "ING_991e7004905db22e011a",
+      "role": "manual_docx",
+      "format": "DOCX",
+      "source_kind": "MANUAL_INTERNAL",
+      "input_path": "incoming/manual/inbox/Dünyada Tünel Felaketleri.docx",
+      "sha256": "991e7004905db22e011a30b0cdc12396b3baf31c89d416acbe097a289793529c",
+      "sha_integrity": true,
+      "extraction_status": "SUCCESS",
+      "snapshot_status": "PASS",
+      "snapshot_count": 11,
+      "ocr_status": "RUN",
+      "vision_status": "RUN",
+      "metadata_status": "SUPPORTED_OR_NULL",
+      "metadata_title": "Dünyada Tünel Felaketleri",
+      "metadata_title_source": "original_file",
+      "final_primary_section": "1.5",
+      "final_section_confidence": 0.92,
+      "final_secondary_sections": [
+        "1.5.1",
+        "1.4.1",
+        "2.1.1"
+      ],
+      "section_in_taxonomy": true,
+      "classification_methods": [
+        "heading_rules",
+        "embedding",
+        "local_llm_arbiter"
+      ],
+      "arbiter_status": "SUCCESS",
+      "crawler_provisional_section": null,
+      "crawler_final_agreement": null,
+      "quality_decision": "GO",
+      "quality_review_reasons": [],
+      "quality_reject_reasons": [],
+      "evidence_level": "VISUAL_ONLY",
+      "chunk_counts": {
+        "FIGURE_CHUNK": 17
+      },
+      "chunk_quality_status": "PASS",
+      "embedding_ready_count": 16,
+      "staged": true,
+      "duplicate_of": null,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "document_id": "ING_804ea857fe56576c1ad5",
+      "role": "manual_pptx",
+      "format": "PPTX",
+      "source_kind": "MANUAL_INTERNAL",
+      "input_path": "incoming/manual/inbox/7-TÜNEL TARİF-ANALİZ-YBF.pptx",
+      "sha256": "804ea857fe56576c1ad579e45eb7c83e8ccc3da69f2e8db6580ed11beab05bcb",
+      "sha_integrity": true,
+      "extraction_status": "SUCCESS",
+      "snapshot_status": "PASS",
+      "snapshot_count": 15,
+      "ocr_status": "RUN",
+      "vision_status": "RUN",
+      "metadata_status": "SUPPORTED_OR_NULL",
+      "metadata_title": "KAYA  SINIFLANDIRMASI",
+      "metadata_title_source": "ooxml_properties",
+      "final_primary_section": "2.4.3",
+      "final_section_confidence": 0.45,
+      "final_secondary_sections": [
+        "2.1.1"
+      ],
+      "section_in_taxonomy": true,
+      "classification_methods": [
+        "heading_rules",
+        "chunk_vote",
+        "embedding",
+        "local_llm_arbiter"
+      ],
+      "arbiter_status": "SUCCESS",
+      "crawler_provisional_section": null,
+      "crawler_final_agreement": null,
+      "quality_decision": "REVIEW",
+      "quality_review_reasons": [
+        "LOW_SECTION_CONFIDENCE"
+      ],
+      "quality_reject_reasons": [],
+      "evidence_level": "FULL_TEXT",
+      "chunk_counts": {
+        "SLIDE_CHUNK": 12,
+        "FIGURE_CHUNK": 5
+      },
+      "chunk_quality_status": "PASS",
+      "embedding_ready_count": 0,
+      "staged": false,
+      "duplicate_of": null,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "document_id": "ING_296bae6c6d0e76f84818",
+      "role": "manual_xlsx",
+      "format": "XLSX",
+      "source_kind": "MANUAL_INTERNAL",
+      "input_path": "incoming/manual/inbox/2019 KGM TÜNEL İCMALİ.xlsx",
+      "sha256": "296bae6c6d0e76f8481888c77f14109fbf685f1773f8fb3665f5e7b4627f25f8",
+      "sha_integrity": true,
+      "extraction_status": "SUCCESS",
+      "snapshot_status": "PASS",
+      "snapshot_count": 2,
+      "ocr_status": "NOT_RUN",
+      "vision_status": "NOT_RUN",
+      "metadata_status": "SUPPORTED_OR_NULL",
+      "metadata_title": "15.11.2019",
+      "metadata_title_source": "document_heading",
+      "final_primary_section": "1.4.2",
+      "final_section_confidence": 0.85,
+      "final_secondary_sections": [
+        "3"
+      ],
+      "section_in_taxonomy": true,
+      "classification_methods": [
+        "heading_rules",
+        "embedding",
+        "local_llm_arbiter"
+      ],
+      "arbiter_status": "SUCCESS",
+      "crawler_provisional_section": null,
+      "crawler_final_agreement": null,
+      "quality_decision": "GO",
+      "quality_review_reasons": [],
+      "quality_reject_reasons": [],
+      "evidence_level": "STRUCTURED_TABULAR",
+      "chunk_counts": {
+        "SHEET_CHUNK": 2
+      },
+      "chunk_quality_status": "FAIL",
+      "embedding_ready_count": 0,
+      "staged": true,
+      "duplicate_of": null,
+      "warnings": [
+        "XLSX_CSV_SKIPPED_MERGED_CELLS:15.11.2019",
+        "XLSX_CSV_SKIPPED_MERGED_CELLS:2018 sonu"
+      ],
+      "errors": []
+    },
+    {
+      "document_id": "ING_c77a14960e997ca95740",
+      "role": "manual_image",
+      "format": "PNG",
+      "source_kind": "MANUAL_INTERNAL",
+      "input_path": "incoming/manual/inbox/InvertBetonUygulaması.png",
+      "sha256": "c77a14960e997ca95740010fef35aba2ec824861a306004633b190bc4d42d408",
+      "sha_integrity": true,
+      "extraction_status": "SUCCESS",
+      "snapshot_status": "N/A",
+      "snapshot_count": 0,
+      "ocr_status": "NOT_RUN",
+      "vision_status": "SUCCESS",
+      "metadata_status": "SUPPORTED_OR_NULL",
+      "metadata_title": "InvertBetonUygulaması",
+      "metadata_title_source": "original_file",
+      "final_primary_section": "2.1.1",
+      "final_section_confidence": 0.8076,
+      "final_secondary_sections": [],
+      "section_in_taxonomy": true,
+      "classification_methods": [
+        "heading_rules",
+        "chunk_vote",
+        "embedding"
+      ],
+      "arbiter_status": "NOT_RUN",
+      "crawler_provisional_section": null,
+      "crawler_final_agreement": null,
+      "quality_decision": "REVIEW",
+      "quality_review_reasons": [
+        "OCR_EMPTY_TEXT_IMAGE"
+      ],
+      "quality_reject_reasons": [],
+      "evidence_level": "VISUAL_ONLY",
+      "chunk_counts": {
+        "TEXT_CHUNK": 1,
+        "FIGURE_CHUNK": 1
+      },
+      "chunk_quality_status": "WARN",
+      "embedding_ready_count": 0,
+      "staged": false,
+      "duplicate_of": null,
+      "warnings": [
+        "OCR_EMPTY_TEXT_IMAGE"
+      ],
+      "errors": []
+    }
+  ],
+  "aggregate": {
+    "documents": 6,
+    "sha_integrity_pass": 6,
+    "quality": {
+      "GO": 4,
+      "REVIEW": 2
+    },
+    "total_chunks": 90,
+    "chunks_by_type": {
+      "TEXT_CHUNK": 12,
+      "TABLE_CHUNK": 6,
+      "FIGURE_CHUNK": 58,
+      "SLIDE_CHUNK": 12,
+      "SHEET_CHUNK": 2
+    },
+    "embedding_ready_total": 68,
+    "text_chunk_tokens": {
+      "count": 12,
+      "min": 1,
+      "p25": 411,
+      "median": 568,
+      "p75": 748,
+      "mean": 578.0,
+      "p95": 986,
+      "max": 997,
+      "pct_below_min_250": 8.3,
+      "pct_above_max_1200": 0.0,
+      "pct_above_hard_max_1500": 0.0
+    },
+    "exact_duplicate_chunk_rate": 0.0,
+    "near_duplicate_chunk_rate": 0.0,
+    "false_merges": 0,
+    "missed_exact_duplicates": 0,
+    "embedding_separation": {
+      "per_document": [
+        {
+          "role": "crawler_pdf",
+          "top1": 0.8891,
+          "margin_1_2": 0.0010000000000000009,
+          "spread_1_5": 0.006700000000000039,
+          "mean": 0.884175,
+          "stdev": 0.0034101869450222123
+        },
+        {
+          "role": "manual_pdf",
+          "top1": 0.8524,
+          "margin_1_2": 0.0022000000000000908,
+          "spread_1_5": 0.007900000000000018,
+          "mean": 0.846125,
+          "stdev": 0.0038599708548122586
+        },
+        {
+          "role": "manual_docx",
+          "top1": 0.8411,
+          "margin_1_2": 0.015100000000000002,
+          "spread_1_5": 0.018999999999999906,
+          "mean": 0.8240625,
+          "stdev": 0.0069157316135026285
+        },
+        {
+          "role": "manual_pptx",
+          "top1": 0.8584,
+          "margin_1_2": 0.005700000000000038,
+          "spread_1_5": 0.01090000000000002,
+          "mean": 0.8474875,
+          "stdev": 0.005972109656561932
+        },
+        {
+          "role": "manual_xlsx",
+          "top1": 0.8112,
+          "margin_1_2": 0.0011999999999999789,
+          "spread_1_5": 0.0046000000000000485,
+          "mean": 0.8071625,
+          "stdev": 0.0030028892337214358
+        },
+        {
+          "role": "manual_image",
+          "top1": 0.8317,
+          "margin_1_2": 0.01429999999999998,
+          "spread_1_5": 0.017100000000000004,
+          "mean": 0.8164875,
+          "stdev": 0.005973783872052953
+        }
+      ],
+      "mean_margin_top1_top2": 0.0066,
+      "mean_spread_top1_top5": 0.011,
+      "mean_top1": 0.8473,
+      "verdict": "FLAT"
+    },
+    "qwen_arbitration_calls": 3
+  },
+  "defects_found_and_fixed": [
+    {
+      "id": "D1",
+      "summary": "cli._merge_provenance dropped DiscoveredInput.crawler_record, so metadata/enrich.py could never use the crawler manifest title/authors/doi and fell back to the page-1 masthead heading ('Kocaeli University').",
+      "impact": "every EXTERNAL_DISCOVERY document; wrong semantic title asserted as non-inferred at 0.9 confidence; generic institutional title is a dedup false-merge hazard",
+      "fix": "persist crawler_record into the provenance source entry and refresh (not skip) an existing matching entry on re-merge",
+      "tests": "tests/ingest/test_crawler_metadata_provenance.py"
+    },
+    {
+      "id": "D2",
+      "summary": "metadata/enrich.py read only published_date/date from the crawler record; the handoff manifest carries `year`, so document_date stayed null despite recorded evidence.",
+      "impact": "publication year silently lost for crawler documents",
+      "fix": "consult crawler_record['year'] after published_date/date",
+      "tests": "same file"
+    }
+  ]
+}

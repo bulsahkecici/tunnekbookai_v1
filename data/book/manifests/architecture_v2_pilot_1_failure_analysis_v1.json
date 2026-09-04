@@ -1,0 +1,63 @@
+{
+  "accounting": {
+    "corpus_reads": 0,
+    "frozen_artifacts_modified": 0,
+    "generation_calls": 0,
+    "glosses_or_lexicons_changed": 0,
+    "pilot_2_authorised": false,
+    "qdrant_writes": 0,
+    "realization_contract_changed": 0,
+    "renders": 0,
+    "retrieval_calls": 0,
+    "validators_changed": 0
+  },
+  "artifacts": {
+    "analysis": "data/book/drafting/sec_02_2/architecture_v2/pilot_1_analysis_v1/audits/pilot_1_failure_analysis_v1.json",
+    "manifest": "data/book/manifests/architecture_v2_pilot_1_failure_analysis_v1.json",
+    "report": "reports/architecture_v2_pilot_1_failure_analysis_v1.md",
+    "script": "scripts/67_architecture_v2_pilot_1_failure_analysis_v1.py",
+    "set_consistency_audit": "data/book/drafting/sec_02_2/architecture_v2/pilot_1_analysis_v1/audits/set_consistency_audit_v1.json",
+    "tests": "tests/test_architecture_v2_pilot_1_failure_analysis_v1.py",
+    "universe_comparison": "data/book/drafting/sec_02_2/architecture_v2/pilot_1_analysis_v1/audits/universe_comparison_v1.json"
+  },
+  "claims_audited": 16,
+  "fault_attribution": {
+    "authorisation_layer_defect": true,
+    "model_defect": "NOT ESTABLISHED",
+    "realization_contract_defect": true,
+    "renderer_defect": false,
+    "renderer_reasoning": "the renderer never ran; nothing was rendered",
+    "validator_defect": false,
+    "validator_reasoning": "plan validation caught the invalid selection with the correct code, before rendering; v1.2 was not reached and is unchanged"
+  },
+  "final_decision": "ARCHITECTURE V2 PILOT FAILURE ANALYSIS V1 — CLOSED / GO",
+  "frozen_evidence_sha256": {
+    "acceptance_contract": "c9766e437bd00222574d1aeee5ede17ff74a51bf5ae0cea37e0f3f496f6ebccd",
+    "feasibility_proof": "6117ff159a2d6a7100f078c6e18a13c52524ee374d01375a5e520367527eb5e1",
+    "pilot_validation": "8b0cbe61986b84f602285c193a1909353b8c368c7cacaf5ff756f6ca2d372278",
+    "plan_ir_contract": "d462cb8e7e7a5c28c16e0475b6ddb5986b5c27f17aa4e38e2a50c033d4fe09b3",
+    "planner_option_set": "9c9948cb5a8a0a1435cb4c440565d3aa37b8eb28d57ed00117b4bc54a9d20428",
+    "pre_generation_gate": "4bcb34e2a228068eea8695d5c3ac3ccf3386a2639c944550a5077f3d5f5aefa5",
+    "raw_semantic_plan": "90b7739022055bb0690f07c9ef88a4c50d46fdb7e5c32eb8c900bf65b145507d",
+    "realization_contract": "0ef4ff616f6d7581520c2c310f674e97509c0970e549672c3575b60998e2d547",
+    "semantic_plan": "4b15bf7e85978d6f8df515e4d62aea692fa74559846db877522e8f7be55d7d60",
+    "static_containment_proof": "e13bc4df002741e07b570d56df8d09428e7d80d0c50490ba7d11b9a53f65c616"
+  },
+  "generated_at": "2026-08-19T23:51:21.071481+00:00",
+  "hidden_contradictions": {
+    "additional_form_1_beyond_c005": [],
+    "form_2_offered_role_not_realizable": 0,
+    "turkishness_false_negatives_not_previously_recorded": 3
+  },
+  "next_phase": "ARCHITECTURE V2 PLANNER OPTION UNIVERSE REMEDIATION V1",
+  "phase": "ARCHITECTURE V2 PILOT FAILURE ANALYSIS V1",
+  "pilot_1_verdict": "REJECTED",
+  "pilot_2_authorised": false,
+  "required_subset_available_violations": [
+    "SEC-02-2-C-005"
+  ],
+  "root_cause_class": "AUTHORISATION_OPTION_UNIVERSE_DEFECT",
+  "section_id": "SEC-02-2",
+  "status": "closed_go",
+  "version": "tunnelbook-architecture-v2-pilot-1-failure-analysis-v1"
+}

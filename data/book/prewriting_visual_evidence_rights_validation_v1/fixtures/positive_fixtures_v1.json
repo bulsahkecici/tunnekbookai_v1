@@ -1,0 +1,36 @@
+{
+  "fixtures": [
+    {
+      "candidate": {
+        "asset_class": "SOURCE_FIGURE",
+        "evidence_eligible": true,
+        "publication_eligible": false,
+        "rights_state": "UNKNOWN"
+      },
+      "fixture_id": "POS-001"
+    },
+    {
+      "candidate": {
+        "asset_class": "AUTHOR_RECONSTRUCTED_TABLE",
+        "evidence_eligible": true,
+        "factual_content": true,
+        "publication_eligible": false,
+        "rights_state": "AUTHOR_GENERATED",
+        "underlying_evidence_admitted": true
+      },
+      "fixture_id": "POS-002"
+    },
+    {
+      "candidate": {
+        "asset_class": "DERIVED_CHART",
+        "evidence_eligible": true,
+        "publication_eligible": false,
+        "reproducible_method": "SCRIPT-1",
+        "rights_state": "AUTHOR_GENERATED",
+        "underlying_data_identity": "DS-1",
+        "underlying_data_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "fixture_id": "POS-003"
+    }
+  ]
+}

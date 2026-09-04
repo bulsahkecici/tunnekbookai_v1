@@ -1,0 +1,47 @@
+{
+  "document_id": "DOC000252",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:05:59+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "not_requested [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "inspection_form"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "Karayolları Genel Müdürlüğe 5. Bölge Müdirligä",
+      "value": "Karayolları Genel Müdürlüğü 5. Bölge Müdürlüğü"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "# T8 TUNELICIKIS Sag Tup 23.11.2018",
+      "value": "T8 TUNELICIKIS Sag Tup 23.11.2018"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": [
+        "tunnel_general"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "23.11.2018",
+      "value": 2018
+    }
+  },
+  "source_sha256": "a539413169500f79b8cdfbd3223d869e35fa3ef1b27efd2237baef1b1957aa47"
+}

@@ -1,0 +1,16 @@
+{
+  "version": "tunnelbook-sec-02-2-technical-draft-reaudit-v2-failure-analysis-manifest-v1",
+  "phase": "SEC-02-2 TECHNICAL DRAFT RE-AUDIT V2 FAILURE ANALYSIS",
+  "status": "CLOSED_GO",
+  "acceptance_contract": {
+    "path": "data/book/drafting/sec_02_2/technical_draft_reaudit_v2_failure_analysis/contracts/failure_analysis_acceptance_contract_v1.json",
+    "sha256": "850dcd8f2da12d6c81be2c6065be7c7b36ec4c7d9455446425ecb8c1d9f72125"
+  },
+  "audit": "data/book/drafting/sec_02_2/technical_draft_reaudit_v2_failure_analysis/audits/failure_analysis_v1.json",
+  "blocking_findings_explained": 3,
+  "advisory_findings_explained": 1,
+  "claim_specific_rules": 0,
+  "draft_mutated": false,
+  "validator_changed": false,
+  "next_phase": "SEC-02-2 GENERAL REALIZATION STYLE TERMINOLOGY CLOSURE REMEDIATION V1"
+}

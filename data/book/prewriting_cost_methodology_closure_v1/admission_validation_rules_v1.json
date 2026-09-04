@@ -1,0 +1,17 @@
+{
+  "admission": "FAIL_CLOSED",
+  "chapter_rules": {
+    "CH-D": "SOURCE_PRESERVING_CONCEPTS_DEFINITIONS_LIFECYCLE_AND_LITERATURE_ONLY",
+    "CH-E": "BLOCKED_UNTIL_MAINTENANCE_ARTIFACT_ADMITTED",
+    "CH-F": "BLOCKED_UNTIL_CONSTRUCTION_ARTIFACT_ADMITTED",
+    "CH-G": "BLOCKED_UNTIL_REQUIRED_ARTIFACTS_ADMITTED; CROSS_ANALYSIS_REQUIRES_BOTH"
+  },
+  "schema_version": "cost-analysis-admission-validation-rules-v1",
+  "semantic_classes": {
+    "AUTHOR_EDITORIAL_RECOMMENDATION": "An author/editor recommendation that is not a statistical result.",
+    "DERIVED_STATISTIC": "A result reproducibly computed from an admitted dataset and identified method/code.",
+    "MODEL_STATISTICAL_INTERPRETATION": "An interpretation supported by admitted analytical output.",
+    "RAW_DATA_VALUE": "A value directly present in the supplied analysis dataset.",
+    "SOURCE_FACT": "A monetary or factual statement preserved with its source context."
+  }
+}

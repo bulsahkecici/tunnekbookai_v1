@@ -1,0 +1,104 @@
+{
+  "author_evidence": [
+    {
+      "converted_source_lines": "31",
+      "field": "author",
+      "value": "Muhammed Şerif Yoluk",
+      "zone": "title_page"
+    }
+  ],
+  "authority_class": "UNKNOWN_AUTHORITY",
+  "authority_evidence_sufficiency": "NOT_PROMOTED_FROZEN_BATCH_CONTRACT",
+  "batch_id": "BATCH-04",
+  "claim_relative_applicability": "NOT_YET_AUTHORITY_SUITABLE",
+  "date_or_version_evidence": [
+    {
+      "converted_source_lines": "35-37",
+      "field": "year",
+      "value": "2020",
+      "zone": "title_page"
+    }
+  ],
+  "document_id": "DOC000098",
+  "exact_title": "İzmir Göztepe Metro İstasyonu Bölgesindeki Fay Zonundan Geçen ve Yeni Avusturya Tünel Açma Yöntemi Kullanılarak Açılan Tünelin Radye Temel Performansına Etkisi",
+  "external_identity_verification_required": true,
+  "external_verification_plan": {
+    "identity_matching_keys": [
+      "DOC000098",
+      "İzmir Göztepe Metro İstasyonu Bölgesindeki Fay Zonundan Geçen ve Yeni Avusturya Tünel Açma Yöntemi Kullanılarak Açılan Tünelin Radye Temel Performansına Etkisi"
+    ],
+    "mismatch_behavior": "RETAIN_UNKNOWN_AUTHORITY",
+    "missing_identity_fields": [
+      "repository_record_or_identifier"
+    ],
+    "preferred_authoritative_lookup_class": "ISSUER_PUBLISHER_OR_INSTITUTIONAL_REPOSITORY_RECORD"
+  },
+  "identity_confidence": "PARTIAL",
+  "identity_evidence": [
+    {
+      "converted_source_lines": "19-22",
+      "field": "institution",
+      "value": "Harran Üniversitesi Fen Bilimleri Enstitüsü",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "24",
+      "field": "degree",
+      "value": "Yüksek Lisans Tezi",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "26-29",
+      "field": "title",
+      "value": "İzmir Göztepe Metro İstasyonu Bölgesindeki Fay Zonundan Geçen ve Yeni Avusturya Tünel Açma Yöntemi Kullanılarak Açılan Tünelin Radye Temel Performansına Etkisi",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "31",
+      "field": "author",
+      "value": "Muhammed Şerif Yoluk",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "33",
+      "field": "department",
+      "value": "İnşaat Mühendisliği Anabilim Dalı",
+      "zone": "title_page"
+    },
+    {
+      "converted_source_lines": "35-37",
+      "field": "year",
+      "value": "2020",
+      "zone": "title_page"
+    }
+  ],
+  "inspection_mechanism": "TARGETED_LOCAL_IDENTITY_ZONE_EXTRACTION",
+  "institution_or_publisher_evidence": [
+    {
+      "converted_source_lines": "19-22",
+      "field": "institution",
+      "value": "Harran Üniversitesi Fen Bilimleri Enstitüsü",
+      "zone": "title_page"
+    }
+  ],
+  "limitations": "No authority, support, proposition, provenance, anchor, scope, review, or admission state changed.",
+  "missing_fields": [
+    "repository_record_or_identifier"
+  ],
+  "promotion": false,
+  "publication_identifiers": [],
+  "reason": "Thesis identity is explicit, but the required repository record or stable identifier is absent locally.",
+  "result": "EXTERNAL_IDENTITY_VERIFICATION_REQUIRED",
+  "schema_version": "1.0.0",
+  "source_path": "data/markdown_full_docling/Mehmet/Literatur/Wordler/Harran Uni_Yüksek Lisans Tezi.md",
+  "source_sha256": "92df0380400b9414c72730243da025668eedd43dd28a12f4925f334b2b3f93bb",
+  "source_type": "THESIS",
+  "source_type_evidence": [
+    {
+      "converted_source_lines": "24",
+      "field": "degree",
+      "value": "Yüksek Lisans Tezi",
+      "zone": "title_page"
+    }
+  ]
+}

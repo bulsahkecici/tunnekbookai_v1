@@ -1,0 +1,50 @@
+{
+  "document_id": "DOC000042",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T22:53:14+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "not_requested [authority_B_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "Makale / Research Paper",
+      "value": "academic_article"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "not_requested",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "Karayolları Genel Müdürlüğü tünel envanterine göre 216 adet tek tüplü, 101 adet çift tüplü olmak üzere 356,8 km uzunluğunda toplam 317 adet tünel bulunduğu tespit edilmiştir.",
+      "value": "Karayolları Genel Müdürlüğü (KGM)"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "Farklı Karayolu Tünelerinin Tünel Özellikleri ve Sürücü Davranışları Açısından İrdelenmesi",
+      "value": "Farklı Karayolu Tünellerinin Tünel Özellikleri ve Sürücü Davranışları Açısından İrdelenmesi"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Tünel güvenliği, kontrol sistemleri, tünel işletmeciliği, sürücü davranışları, ortalama hız.",
+      "value": [
+        "accident",
+        "operations",
+        "safety",
+        "traffic"
+      ]
+    },
+    "year": {
+      "confidence": "high",
+      "evidence": "El-Cezerî Journal of Science and Engineering Vol:7, No:3, 2020 (1258-1274)",
+      "value": 2020
+    }
+  },
+  "source_sha256": "1b4596736bbcf61f370be7bc684f3367977e401954abf3a8556b5e8565a3782a"
+}

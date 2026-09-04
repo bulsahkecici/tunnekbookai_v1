@@ -1,0 +1,49 @@
+{
+  "section_id": "CH-A-S04",
+  "section_title": "Dünyadaki İlk Tüneller",
+  "status": "FROZEN",
+  "frozen_version": "v1",
+  "frozen_at": "2026-08-25T19:51:07.184480+00:00",
+  "audit_identity": "6159206c53473a8ed65b5c499339f63015dc134ea7dc056fd958a0f64294fb4f",
+  "evidence_contract_version": "SENTENCE_ID_V2",
+  "editorial_policy_version": "DETERMINISTIC_EDITORIAL_GATE_V1",
+  "model_id": "qwen3.6-35b-a3b-mlx",
+  "model_config": {
+    "api_base": "http://127.0.0.1:1234"
+  },
+  "human_review_refs": [],
+  "evidence_audit_contract": "SENTENCE_ID_V2",
+  "deterministic_audit_gate": "PASS",
+  "evidence_audit_decision": "PASS",
+  "editorial_audit_decision": "PASS",
+  "editorial_model_review": {
+    "model_decision": "HOLD",
+    "chronology_issues": [],
+    "naming_ambiguities": [],
+    "language_issues": [
+      "Paragraf 1'de 'doğal mağaraları genişletme' fikri ilk cümle ile tekrar edilmiştir."
+    ],
+    "overgeneralizations": [],
+    "structure_issues": [
+      "Paragraf 7, patlayıcı maddelerin tarihsel gelişimini (1600'ler, 1867) ele alırken önceki paragraflardaki tünel inşaat kronolojisini (1811 sonrası) geriye doğru keserek okuyucuda yanlış kronoloji izlenimi oluşturmaktadır."
+    ],
+    "required_actions": [
+      "Paragraf 7, tünel inşaat tekniklerinin gelişimi bağlamında kronolojik akışı koruyacak şekilde yeniden konumlandırılmalı veya ilgili teknik anlatımlarıyla entegre edilmelidir."
+    ]
+  },
+  "sentence_count": 28,
+  "draft_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/ch_a_s04.md",
+  "draft_sha256": "caa80458d4f37378645b815fb2a08c9ed1e9cbffd5b6516d0f81e373aed58f4d",
+  "evidence_audit_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/audits/ch_a_s04_evidence_audit.json",
+  "evidence_audit_sha256": "32a395f9723da18262ed91100763c1cd5bf5c9ba72cef3b1227b7f84d3591a82",
+  "evidence_audit_input_sha256": "524841ae73255fb15fdd42b1a2a7ce91ee29a629920a32f6e76786002fc50f1f",
+  "editorial_audit_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/audits/ch_a_s04_editorial_audit.json",
+  "editorial_audit_sha256": "71f5971157172e9c5254d6d723e1f34536de612c533029d5c853c7a7babab8d4",
+  "editorial_input_sha256": "22d9ef692f5e2b2522749681f022df1e13aa841da24ad7c8446a656cff61a744",
+  "sentence_map_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/final/audits/ch_a_s04_sentence_map.json",
+  "sentence_map_sha256": "6ccf2781b8cba7306bf21ea3827c2ef68448e83f57ab2b45bb1af5723d961e4b",
+  "source_compact_packet_path": "/Users/bulsahkecici/Projects/tunnel/_TunnelBookAI/data/book/remediation/ch_a_s04/ch_a_s04_writer_evidence_packet_compact.json",
+  "source_compact_packet_sha256": "7982399dbec0b1310efe4227273822540463d0cf298087a952c6e612d5d67c60",
+  "privacy_mode": "LOCAL_ONLY",
+  "next_section_auto_start": false
+}

@@ -1,0 +1,18 @@
+{
+  "checkpoint": "CP4 — RESEARCH QUESTION + EVIDENCE GAP REGISTRY",
+  "status": "GO",
+  "gates": {
+    "section_coverage": "60/60 PASS",
+    "questions": "60/60 PASS",
+    "answerable_evidence_oriented": "60/60 PASS",
+    "leading_hallucinated_premises": "0 PASS",
+    "gaps_explicit": "67 entries PASS",
+    "author_decisions_preserved": "5 PASS",
+    "terminology_decisions_preserved": "2 PASS",
+    "model_knowledge_gap_fills": "0 PASS",
+    "book_prose": "0 PASS"
+  },
+  "gap_histogram": {"NO_SOURCE": 32, "INSUFFICIENT_SCOPE": 28, "AUTHOR_DECISION_REQUIRED": 5, "TERMINOLOGY_UNRESOLVED": 2},
+  "remediation_cycles": 1,
+  "decision": "GO"
+}

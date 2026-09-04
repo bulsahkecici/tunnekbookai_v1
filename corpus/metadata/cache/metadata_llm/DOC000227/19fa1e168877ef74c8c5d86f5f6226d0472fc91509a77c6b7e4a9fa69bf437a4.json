@@ -1,0 +1,54 @@
+{
+  "document_id": "DOC000227",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:03:45+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "[controlled_vocabulary_rejected]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "low",
+      "evidence": "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020) [evidence_not_grounded_in_context]",
+      "value": "training_material"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "Birim Fiyat Tarifleri (Genel Müdürlük)-TÜNEL",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "low",
+      "evidence": "[evidence_not_grounded_in_context]",
+      "value": ""
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "Birim Fiyat Tarifleri (Genel Müdürlük)-TÜNEL",
+      "value": "Birim Fiyat Tarifleri (Genel Müdürlük)-TÜNEL"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "Birim Fiyat Tarifleri (Genel Müdürlük)-TÜNEL",
+      "value": [
+        "contracts",
+        "drainage",
+        "excavation",
+        "monitoring",
+        "portal",
+        "shotcrete",
+        "standards",
+        "unit_price"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "(24-28.02.2020) [evidence_not_grounded_in_context]",
+      "value": 2020
+    }
+  },
+  "source_sha256": "69feb7468b8213487fe27f766093fc651a89c34f5985bcdd46750906f0174c4a"
+}

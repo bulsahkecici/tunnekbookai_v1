@@ -1,0 +1,49 @@
+{
+  "version": "tunnelbook-technical-term-registry-v1",
+  "policy_version": "tunnelbook-technical-term-original-language-fallback-contract-v1",
+  "entries": [
+    {
+      "term_id": "TERM-P0008-ROCK-CRUSHED",
+      "canonical_source_term": "Crushed, but Chemically Intact Rock",
+      "canonical_source_term_sha256": "9adb680e5efb5122520c63c17fc59bf11097f49c291e7cfaead8c1d905a3412c",
+      "source_language": "en",
+      "status": "AUTHORITATIVE_TRANSLATION",
+      "claim_ids": ["SEC-02-2-P0-008"],
+      "source_keys": ["SRC-DOC000047-d5c60204e247"],
+      "display_mode": "PLAIN",
+      "authoritative_translation": "ezilmiş kaya",
+      "authoritative_translation_sha256": "036df3a477639de747577644da100931164447cf746b326dba1b272afe018b85",
+      "resolution_version": 1,
+      "semantic_effect": "lexical_identity_only"
+    },
+    {
+      "term_id": "TERM-P0008-ROCK-SQUEEZING",
+      "canonical_source_term": "Squeezing Rock",
+      "canonical_source_term_sha256": "f5a344cb2d0f61ef13f0673ecf0d0e04fd2e960dc8f08a2a78d98ed2f8353a80",
+      "source_language": "en",
+      "status": "AUTHORITATIVE_TRANSLATION",
+      "claim_ids": ["SEC-02-2-P0-008"],
+      "source_keys": ["SRC-DOC000047-d5c60204e247"],
+      "display_mode": "PLAIN",
+      "authoritative_translation": "sıkışan kaya",
+      "authoritative_translation_sha256": "a0235d3cc33c36d496a8789d8d88038628d8d0daed391178396bd91e1361008e",
+      "resolution_version": 1,
+      "semantic_effect": "lexical_identity_only"
+    },
+    {
+      "term_id": "TERM-P0008-ROCK-SWELLING",
+      "canonical_source_term": "Swelling Rock",
+      "canonical_source_term_sha256": "4c0416e541efdba104c089420eb0900293173ebadef73eba04c2dfbb8a0e73a4",
+      "source_language": "en",
+      "status": "ORIGINAL_TERM_UNRESOLVED",
+      "claim_ids": ["SEC-02-2-P0-008"],
+      "source_keys": ["SRC-DOC000047-d5c60204e247"],
+      "display_mode": "BOLD",
+      "authoritative_translation": null,
+      "resolution_version": 1,
+      "semantic_effect": "lexical_identity_only",
+      "evidence_chunk_ids": ["DOC000047-C0206"],
+      "historical_resolution_audit": "data/book/drafting/sec_02_2/terminology_resolution_v1/audits/terminology_evidence_audit_v1.json"
+    }
+  ]
+}

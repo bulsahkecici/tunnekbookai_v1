@@ -1,0 +1,18250 @@
+---
+document_id: "DOC000075"
+title: "Tünel Eğitim Kitabı 8 EYLÜL 2016"
+source_file: "Tünel Eğitim Kitabı 8 EYLÜL 2016.docx"
+source_relative_path: "Mehmet/Kitap 2.Bolum/Kullanılan Dokumanlar/Word Dosyaları/Tünel Eğitim Kitabı 8 EYLÜL 2016.docx"
+source_extension: ".docx"
+sha256: "1fb6b71a35f819248daf881974423edfaa28cfc580283528ee1be885a439fd2e"
+language: "tr"
+document_type: "training_material"
+organization: null
+year: 2016
+authority_level: "C"
+topics: []
+duplicate_group: "EXACT00030"
+preferred_variant: true
+conversion_engine: "python_docx_fallback"
+---
+
+# Tünel Eğitim Kitabı 8 EYLÜL 2016
+
+T.C.
+
+ULAŞTIRMA DENİZCİLİK VE HABERLEŞME BAKANLIĞI
+Karayolları Genel Müdürlüğü
+
+TÜNEL BAKIM
+
+ONARIM
+
+İŞLETME KURS
+
+NOTLARI
+
+(DEVLET VE İL YOLLARI ÜZERİNDEKİ
+TRAFİĞE AÇIK TÜNELLER)
+
+TESİSLER VE BAKIM DAİRESİ BAŞKANLIĞI
+Sanat Yapıları Bakım, Onarım, İşletme Şubesi Müdürlüğü
+EKİM-2016
+
+ÖNSÖZ
+
+Bu kitap; Karayolu tünellerinin bakım, onarım ve işletilmesi aşamalarında çalışan teknik personellerin bilgilendirilmesi ve bu amaçla yapılacak eğitim çalışmalarında yol gösterici olması amacıyla hazırlanmıştır.
+
+1 .Bölümde; tünelcilik hakkında genel bilgiler ve kısa tarihi gelişim süreci, tünel çeşitleri ve tünel yapılmadan önceki çalışmalar hakkında bilgi verilmiştir.
+
+Bölümde; özellikle 1999 yılında meydana gelen tünel faciaları sonucu konuyla ilgili yapılan çalışmalar, oluşturulan uluslararası mevzuatlar ve ülkemizde de oluşturulan standartlar hakkında bilgi verilmesi amaçlanmıştır.
+
+Bölümde; Genel Müdürlüğümüze bağlı devlet ve il yollarında bulunan tünellerin kitabın yazıldığı tarih itibariyle güncel envanter bilgileri verilmiştir.
+
+Bölümde; tünellerin bakım, onarım ve işletilmesi aşamasında çalışanlarımızı direkt ilgilendiren, tünel ikincil işleri olarak adlandırılan, elektromekanik sistemlerin işlevleri anlatılmış, sistemlerin teknik detayları ve mühendisliği hakkında bilgi verilerek teknik personellerin konu bütünlüğü açısından temel düzeyde sistemler hakkında bilgi sahibi olması hedeflenmiştir.
+
+Bölümde; asıl konumuz olan tünel bakım, onarım ve işletme faaliyetleri, bakım programları, periyodik bakımlar, uluslararası düzeyde konu ile ilgili yapılan çalışmalar, bakım maliyetleri ve maliyet azaltma önerileri hakkında detaylı bilgiler verilmiştir.
+
+Bölümde; Karayolu tünellerinde tehlikeli madde taşımacılığı konusunda mevzuat yükümlülüklerimiz gereği tüm işletme şeflikleri ile organize çalışılması gerektiği için konu ile ilgili teknik personellere uluslararası düzeyde yapılan çalışmalar, tünel tehlike sınıfları hakkında bilgi, şu an gelinen durum ve yapılacak çalışmalar hakkında bilgi verilmiştir.
+
+Bu çalışmanın hazırlanmasında emeği geçen çalışma arkadaşlarımıza teşekkür eder, tünelcilik konusunda uluslararası kabul görmüş güncel çalışmaların anlatıldığı ve bundan sonraki yapılacak çalışmalara vizyon oluşturacak bu kitabın tüm karayolculara faydalı olmasını temenni ederim.	f \. .A A /	\
+
+İsmail KARTAL
+
+Genel Müdür
+
+TEŞEKKÜR
+
+Bu kitapta bulunan bilgilerin toplanması ve yazımında emeği geçen KGM Sanat Yapıları Bakım, Onarım, İşletme Şubesi Müdürlüğü personellerinden Tarık AY, Derya TATYÜZ, Macit ASLAN, Özkan KAÇAN ve diğer Şube Müdürlüğümüz personellerine; kitabın hazırlık sürecinde özellikle bakım, onarım ve işletme konusundaki tecrübelerini ve dokümanlarını bizlerle paylaşan Bolu Dağı Tünel Bakım İşletme Şefi Murtaza BEŞİROĞLU ve çalışanlarına; aynı şekilde bizlere tecrübelerini aktaran ve geçmiş çalışmalarından faydalandığımız, 2007 yılında kurulan Şube Müdürlüğümüzün ve bağlı Karayolları Devlet ve İl Yolları üzerinde bulunan Tünel Bakım İşletme Şefliklerimizde bulunan tüm karayolcu arkadaşlarımıza; bu çalışma için toplanan komisyonumuzun başında olan ancak geçirdiği rahatsızlık nedeniyle bu süreçte aramızda bulunamayan ancak manevi desteğini her zaman hissettiğimiz şefimiz Sema KELEŞ'e, eğitim konusundaki tecrübelerini bizimle paylaşan müdür yardımcımız Selçuk KASIMOĞULLARI'na; kitabın basımı, düzenlenmesi ve dağıtımında bizlere yardımcı olan karayolcu arkadaşlarımıza ve en önemlisi tüm çalışmalar boyunca bizlerden desteğini esirgemeyip birikimini bizlerle paylaşan Şube Müdürümüz Erdinç KASIRGA'ya ve Daire Başkanımız Yasin ALTUNYUVA'ya katkılarından dolayı teşekkür ederiz.
+
+SANAT YAPILARI BAKIM İŞLETME ŞUBESİ MÜDÜRLÜĞÜ
+
+KİTAP DÜZENLEME KOMİSYONU
+
+İÇİNDEKİLER
+
+BÖLÜM 1. TÜNELCİLİK HAKKINDA GENEL BİLGİLER
+
+GİRİŞ 	 1
+
+TÜNEL TANIMI, TARİHÇESİ VE GEREKLİLİĞİ 	 1
+
+TÜNEL ÇEŞİTLERİ 	5
+
+YAPIM ŞEKLİNE GÖRE TÜNELLER	 5
+
+İŞLEVLERİNE GÖRE TÜNELLER 	 10
+
+TÜNEL YAPIM ÖNCESİ ÇALIŞMALAR	15
+
+ÖN İNCELEME SAFHASI	16
+
+FİZİBİLİTE SAFHASI 	16
+
+PROJE SAFHASI 	 18
+
+BÖLÜM 2. AVRUPA BİRLİĞİ TÜNEL MEVZUATI	21
+
+GİRİŞ	23
+
+AB ORTAK ULAŞTIRMA POLİTİKASININ GELİŞİMİ 	23
+
+2004/54/EC SAYILI KARAYOLU TÜNELLERİ DİREKTİFİ 	26
+
+DİREKTİFİN GELİŞİM SÜRECİ 	26
+
+DİREKTİFİN HEDEFLERİ 	27
+
+DİREKTİFİN GEREKLİLİKLERİ 	37
+
+TÜRKİYE'DE YAPILAN TÜNEL GÜVENLİĞİ ÇALIŞMALARI	52
+
+BÖLÜM 3. ENVANTER ÇALIŞMALARI 	57
+
+BÖLÜM 4. TÜNELLERDE KULLANILAN ELEKTROMEKANİK SİSTEMLER 	85
+
+SCADA SİSTEMLERİ	87
+
+GİRİŞ	87
+
+AMAÇ	87
+
+SCADA SİSTEMLERİNİ TANIMAK	87
+
+SCADA SİSTEMLERİ	106
+
+SCADA sistemi	106
+
+Dağıtılmış kontrol sistemleri (DCS)	110
+
+Programlanabilir mantık kontrolörü (PLC)	111
+
+Akıllı enstrüman	111
+
+SCADA sistemi hususları	111
+
+CPU veya Kontrol prosesörü	116
+
+Analog girdi modülleri	117
+
+Analog çıktılar	126
+
+Dijital girdiler	127
+
+Dijital çıktı modülleri	130
+
+İletişim arayüzleri	133
+
+RTU için güç kaynağı modülü	133
+
+RTU ortam muhafazası	133
+
+Bir RTU sistemi için tipik gereklilikler	134
+
+Master istasyon yazılımı	144
+
+Sistem SCADA yazılımı	144
+
+Yerel alan şebekeleri	145
+
+İstisna raporlama (veya olay raporlama)	148
+
+Protokollere giriş	158
+
+OPC (Ole for Process Control)	160
+
+Bilgi transferi	161
+
+Yüksek seviyeli veri bağ kontrol (HDLC) protokolü	164
+
+CSMA/CD protokol formatı	168
+
+Standart aktiviteler	170
+
+PROFIBUS Protokolü	170
+
+Hata sebepleri	172
+
+Geri besleme hata kontrolü	174
+
+Fiziksel katman	180
+
+Fiziksel topolojiler	181
+
+Modlar	181
+
+Ana istasyonlar için LAN teknolojisindeki hızlı gelişim	185
+
+İnsan makine arayüzü (HMI )	185
+
+Uzak terminal birimleri	185
+
+İletişim	186
+
+12 Altın kural	186
+
+Protokol Karşılaştırmaları	188
+
+AYDINLATMA SİSTEMİ	191
+
+AYDINLATMA TEKNOLOJİLERİ	193
+
+EŞİK BÖLGESİ AYDINLATMA SEVİYESİ	194
+
+UYGULAMADA TÜNEL AYDINLATMA	195
+
+ZIT YÖNLÜ AYDINLATMA	195
+
+SİMETRİK AYDINLATMA	196
+
+TÜNEL AYDINLATMASINDA İZLENEN YOLLAR	197
+
+İÇ BÖLGE AYDINLATMASI	198
+
+YBSL ve LED LAMBA ARASINDA ENERJİ VERİMLİLİĞİ ANALİZİ	201
+
+TÜNEL AYDINLATMASINDA KONTRAST	204
+
+TÜNEL AYDINLATMASI TASARIM HIZI ve FREN MESAFESİ	206
+
+TÜNELLERDE AYDINLATMA SİSTEMLERİNİN BAKIMINDA ÖNEMLİ HUSUSLAR	214
+
+HAVALANDIRMA SİSTEMİ	215
+
+GİRİŞ	215
+
+TÜNEL HAVALANDIRMA SİSTEMLERİ	216
+
+TÜNELLERDE HAVALANDIRMA İHTİYACININ BELİRLENMESİ	221
+
+HAVALANDIRMA SİSTEMİ KONTROL ELEMANLARI	263
+
+TRAFİK SİNYALİZASYON SİSTEMLERİ VE İŞARETLEME	271
+
+TRAFİK KONTROL VE GÖZETLEME SİSTEMLERİ	272
+
+ENERJİ SAĞLAMA	273
+
+YANGIN GÜVENLİĞİ ve YANGIN ALGILAMA SİSTEMLERİ	274
+
+GİRİŞ	274
+
+TÜNELLERDE YANGIN	274
+
+TÜNELLERDE YANGIN SÖNDÜRME SİSTEMLERİ ve EKİPMANLARI	283
+
+YANGIN ALGILAMA	293
+
+ACİL DURUM HAVALANDIRMASI (BOLU TÜNELİ ÖRNEĞİ)	300
+
+DİĞER SİSTEMLER	303
+
+ACİL ÇAĞRI (SOS) VE SERVİS TELEFON SİSTEMLERİ	303
+
+TELEKONTROL SİSTEMİ	304
+
+BUZLANMAYI ALGILAMA ve ÖNLEME SİSTEMİ	307
+
+BÖLÜM 5. TÜNEL BAKIM, ONARIM, İŞLETME FAALİYETLERİ	311
+
+GİRİŞ	313
+
+BAKIM FAALİYETLERİNİN TANIMLANMASI	314
+
+BAKIM YÖNETİM SİSTEMİ	319
+
+TEKNİK BAKIMLAR VE ÖNERİLER	320
+
+ÜLKEMİZDE TÜNEL TEKNİK BAKIMLARI	328
+
+YAPISAL BAKIMLAR	332
+
+ELEKTRİK-ELEKTRONİK VE ELEKTROMEKANİK SİSTEMLERİ BAKIMI	336
+
+TÜNEL BAKIM, ONARIM VE İŞLETME MALİYETLERİ	384
+
+ENERJİ MALİYETLERİ AZALTMA ÖNERİLERİ	385
+
+PERSONEL ve BAKIM MALİYETLERİNİ AZALTMA ÖNERİLERİ	387
+
+SİSTEMLERİN KULLANIM ÖMÜRLERİ	388
+
+ÜLKEMİZDE TÜNEL BAKIM ONARIM İŞLETME MALİYETLERİ ENVANTER BİLGİLERİ	397
+
+BÖLÜM 6. KARAYOLU TÜNELLERİNDE TEHLİKELİ MADDE TAŞIMACILIĞI	399
+
+GİRİŞ 	401
+
+MEVZUATLAR 	 401
+
+2004/54/EC DİREKTİFİ	İLE İLGİLİ	HUSUSLAR	401
+
+ADR ANLAŞMASI İLE	İLGİLİ HUSUSLAR 	401
+
+ISO Guide 73:2009 ve PİARC 2012R23EN İle İlgili Hususlar	406
+
+ADR'YE GÖRE TÜNEL SINIFLANDIRILMASI METODOLOJİK YAKLAŞIMI	407
+
+EK 1. BAKIM FORMLARI	419
+
+EK 2. ACİL DURUM SENARYOLARI	459
+
+EK 3. YÖNETMELİKLER	475
+
+EK 4. BOLU DAĞI TÜNELİ NORMAL VE ACİL DURUM HAVALANDIRMA SENARYOSU RAPORU	511
+
+TERİMLER KISALTMALAR SÖZLÜĞÜ	549
+
+KAYNAKLAR	550
+
+ŞEKİLLER TABLOSU
+
+Şekil 1. Kargir Kaplama Tünel ve İlk Su Tünelleri Örnekleri 	2
+
+Şekil 2. KGM Tünel Bilgileri 	 4
+
+Şekil 3. Tünel Çeşitleri	 5
+
+Şekil 4. Tam Kesit Açan TBM ve Kollu Tünel Açma Makinası 	 7
+
+Şekil 5. Boru Sürme Yöntemiyle Açılan Tünel Örneği 	 8
+
+Şekil 6. Şemsiyeleme Yönteminde Uygulanan Zemin Çivilemeye Örnek 	 9
+
+Şekil 7. Marmaray Projesi Batırma Tüneli Uygulaması	10
+
+Şekil 8. Gotthard Base Demiryolu Tünelinden Bir Görüntü	11
+
+Şekil 9. Karayolu Tüneli Örneği ve En kesiti	12
+
+Şekil 10. Metro Tüneli Örneği	13
+
+Şekil 11. Kanal (Akarsu) Tüneli Örneği	14
+
+Şekil 12. Basınçlı ve Basınçsız Hidrolik Güç Tünelleri En kesitleri	15
+
+Şekil 13. Trans Avrupa Yol Ağındaki 500m'den Uzun Tünel Gösterimi	27
+
+Şekil 14. Tünel Güvenliğine Etki Eden Faktörler	28
+
+Şekil 15. Teknik Kontrol Sistemi	39
+
+Şekil 16. AB Direktifine Göre Altyapı	İçin	Getirilen	Asgari	Gereksinimlerin Özeti	41
+
+Şekil 17. AB Direktifine Göre Altyapı	İçin	Getirilen	Asgari	Gereksinimlerin Özeti	42
+
+Şekil 18. AB Direktifine Göre Altyapı	İçin	Getirilen	Asgari	Gereksinimlerin Özeti	43
+
+Şekil 19. Ülkemizden Geçen TEN Yol	Ağı	53
+
+Şekil 20. Aydınlatma Sistemi Tasarım Örneği	193
+
+Şekil 21.Eşik Bölgesi Aydınlatma Seviyesi Belirleme Tablosu	194
+
+Şekil 22.Tünel Aydınlatma Türleri	195
+
+Şekil 23.Zıt Yönlü Aydınlatma	196
+
+Şekil 24.Simetrik Aydınlatma	196
+
+Şekil 25. Tünel Aydınlatma Parıltı Sabitleri Tablosu	197
+
+Şekil 26.İnterior Zone (İç Bölge) Ortalama Yüzey Parıltısı Değerleri (cd/m2)	198
+
+Şekil 27.Şematik Tünel Aydınlatma seviyelerinin Farklı bölgelerdeki gösterimi	199
+
+Şekil 28. İç Bölge Aydınlatması Tablo Değerleri	200
+
+Şekil 29. YBSL Lamba Örnek Ölçüm Değerleri	201
+
+Şekil 30. LED Lamba Örnek Ölçüm Değerleri	202
+
+Şekil 31. Kontrast Faktörü	204
+
+Şekil 32.Tünel Aydınlatma sistemine ait L /Ev oranının tanımında dikkate alınan Armatürler ve ölçüm
+
+noktaları	205
+
+Şekil 33. Kontrast Hesabı	206
+
+Şekil 34.Fren	Mesafesi	207
+
+Şekil 35.Araç	Hızı ile Sürtünme Katsayısı İlişkisi Diyagramları	210
+
+Şekil 36.Fren	Mesafesi Diyagramı	211
+
+Şekil 37. Tünel Aydınlatma sistemi Scada arayüzü	213
+
+Şekil 38. Üçlü Jet Fan Dizilimi Örneği	215
+
+Şekil 39. Boyuna Havalandırma	217
+
+Şekil 40. Yarı Enine Havalandırma	218
+
+Şekil 41. Enine Havalandırma	219
+
+Şekil 42. Gotthard Base Tüneli Karma Havalandırma	221
+
+Şekil 43. Doğal Havalandırmada Duman Dağılımı	243
+
+Şekil 44. Mekanik Havalandırmada Kontrol Hacmi ve Dumanın Dağılımı	244
+
+Şekil 45. Çalışmanın Yapıldığı Tünelin Kesit Görüntüsü	245
+
+Şekil 46. Değişik Jet Fan	Debilerinde Tünel	İçi Duman Dağılımının Gösterimi	246
+
+Şekil 47. Değişik Jet Fan	Debilerinde Tünel	İçi Görüş Yoğunluğunun Analizi	247
+
+Şekil 48. Değişik Jet Fan	Debilerinde Tünel	İçi Hava Hızının Dağılımı	248
+
+Şekil 49. Değişik Jet Fan	Debilerinde Tünel	İç Sıcaklık Dağılımı	249
+
+Şekil 50. Üç Şeritli Bir Yolda Jet Fanların Diziliş Örneği	255
+
+Şekil 51. Tünel Bilgileri	255
+
+Şekil 52. 2030 Yılı Tünel Tahmini Trafik Verileri	255
+
+Şekil 53. Trafik Yoğunlukları	256
+
+Şekil 54. Tünelin Geometrik Özellikleri	261
+
+Şekil 55. Kritik Hız ve Sıcaklık Değerleri	261
+
+Şekil 56. Basınç Hesaplarında Kullanılan Parametreler	262
+
+Şekil 57. 200 MW Yangın Durumu Basınç Kayıpları	263
+
+Şekil 58. Tünellerde Kullanılan Jet Fan Örneği	265
+
+Şekil 59. CO ve Toz Partikül Ölçüm Dedektörü	265
+
+Şekil 60. Tünel Kapanış Havalandırma Kademeleri	267
+
+Şekil 61. Tünel Açılış Havalandırma Kademeleri	268
+
+Şekil 62. Tünel Havalandırma Sistemi SCADA Ekran Çıktısı	270
+
+Şekil 63. Trafik Kontrol Sistemi SCADA Ekran Çıktısı	271
+
+Şekil 64.Kapalı Devre Görüntüleme Sistemi	272
+
+Şekil 65.Tünel Enerji Sağlama Sistemi SCADA Arayüzü	273
+
+Şekil 66. Yangının evreleri	275
+
+Şekil 67. Yangın Durumunda Tünelde Oluşabilecek Sıcaklıklar	276
+
+Şekil 68. Tünel Yangını	277
+
+Şekil 69. Tünel Yangını Sonucu Oluşan Duman Tahliyesi Görseli	282
+
+Şekil 70. Sprinkler Sistemi Gösterimi	287
+
+Şekil 71. Yangın Türleri İşaretleri	289
+
+Şekil 72. Doğrusal Kablo Tipi Sıcaklık Dedektörleri Uygulama Örneği	296
+
+Şekil 73. Tünel Yangın İhbar Sistemi SCADA Ekran Görüntüsü	298
+
+Şekil 74.Duman Testi Öncesi Yangın Havuzunun Ateşlenmesi	302
+
+Şekil 75. Yangın Havuzunun Oluşumu	302
+
+Şekil 76. Sıcak Duman Testlerinin Test Alanı Şematik Gösterimi	303
+
+Şekil 77. Tünel SOS Sistemi SCADA Arayüzü	304
+
+Şekil 78. Tünel Telekontrol Sistemi	306
+
+Şekil 79.Tünel SCADA Sistemi Arayüzü	306
+
+Şekil 80. Buz Önleme Sisteminin Genel Görünümü	307
+
+Şekil 81. Yer Sensörleri ve Meteoroloji İstasyonu	308
+
+Şekil 82.Eriyik Pompalama	308
+
+Şekil 83. Buz Algılama ve Önleme Sistemi Yazılımı Ekran Çıktısı	309
+
+Şekil 84. Sabit Kamera Panel Bakımı	316
+
+Şekil 85. Planlanmış Bakım Örnekleri	317
+
+Şekil 86. Tünel Yıkama Örneği	334
+
+Şekil 87. Jeneratör Bakım Çalışması	345
+
+Şekil 88.Trafo Bakım Çalışması	346
+
+Şekil 89.CO/DP Bakımı Çalışmaları	347
+
+Şekil 90.Yangın Hidrantı ve Dolabı ile Uyarı Sisteminin Scada Görüntüsü	348
+
+Şekil 91.Yangın Sistemi Ekran Görüntüsü ve	Kısımları	350
+
+Şekil 92.Tünel İçi ve Tünel Dışı Luminasmetre	352
+
+Şekil 93.UPS ve Akü Grupları	354
+
+Şekil 94.Radyo ve Anons Sistemi	355
+
+Şekil 95.Plaka Okuma Sistemi	356
+
+Şekil 96.Kameraların Bakımı	357
+
+Şekil 97.Tünel İçi Kamera	358
+
+Şekil 98.Tünel İçi Aydınlatma Bakımı	359
+
+Şekil 99. S.O.S. Bakımı	360
+
+Şekil 100. VMS/VTS Örneği	361
+
+Şekil 101.Tünel Dışı ve Tünel İçi Ayarlı Termostat	362
+
+Şekil 102.VMS Bakımı	364
+
+Şekil 103.Elektrik Odası Bakımı	365
+
+Şekil 104.Elektrik Odası	366
+
+Şekil 105. Tünel Kontrol Merkezi	367
+
+Şekil 106.Kamera Kayıt ve Olay Algılama Merkezi	368
+
+Şekil 107.Enerji Dağıtım Binaları	370
+
+Şekil 108.VMS Bakımı	371
+
+Şekil 109.VTS Bakımı	372
+
+Şekil 110.SOS Odası ve SCADA Görüntüsü	374
+
+Şekil 111.Yol Aydınlatma Bakımı	375
+
+Şekil 112.Jet Fan Bakımı	377
+
+Şekil 113.Yangın Senaryosu Testi	379
+
+Şekil 114.Şehir Şebeke Hattı	380
+
+Şekil 115.Enerji Nakil Hattı Bakımı	381
+
+Şekil 116.PLC Pano Bakımı	383
+
+Şekil 117. Ekipman Kullanım Ömrüne Etki Eden Bazı Faktörler	384
+
+Şekil 118. Ekipmanların Ortalama Kullanım Süreleri	389
+
+Şekil 119. Tünel Sistemleri ve Bileşenlerinin Ortalama Ömürleri	390
+
+Şekil 120. İsviçre Tünellerinde Yıllık Yenileme Maliyetleri (Tek tüp;2 km)	390
+
+Şekil 121. Avusturya Tünellerinde Yıllık Yenileme Maliyetleri (Çift tüp; 2,7 km)	391
+
+Şekil 122.USA Tünellerinde Yıllık Yenileme Maliyetleri (Çift Tüp; 3,2 km)	391
+
+Şekil 123.Üç Farklı Ülkenin Yenileme Maliyetlerinin Karşılaştırılması	391
+
+Şekil 124 Tünel Kodlaması	402
+
+Şekil 125. QRAM 13 Farklı Senaryo	407
+
+Şekil 126. Risk Değerlendirme Akış Şeması	408
+
+Şekil 127. Senaryoların Tünel Kategorisi Karşılığı	409
+
+Şekil 128. Sistem Tanımlaması	409
+
+Şekil 129. Örnek F/N Eğrisi	410
+
+Şekil 130.Karar Verme Algoritması	411
+
+Şekil 131. Belçika Tünel Kısıtlama Kodları	412
+
+Şekil 132.Çek Cumhuriyeti Tünel Kısıtlama Kodları	412
+
+Şekil 133. Danimarka Tünel Kısıtlama Kodları	413
+
+Şekil 134. Hollanda Tünel Kısıtlama Kodları	413
+
+Şekil 135.Norveç Tünel Kısıtlama Kodları	413
+
+Şekil 136.Slovakya Tünel Kısıtlama Kodları	414
+
+Şekil 137.İsveç Tünel Kısıtlama Kodları	414
+
+Şekil 1. 1) 4-20ma veya voltaj kullanarak sensörlerden panele bağlantı 	92
+
+Şekil 1. 2) Bir Fieldbus ve sensör yardımıyla PC ( bilgisayar) den PLC'ye veya DCS'ye bağlantı 	93
+
+Şekil 1. 3) Bir Fieldbus kullanarak PC'den IED'ye bağlantı	94
+
+Şekil 1. 4) Tipik Scada Sistemi Donanımı 	96
+
+Şekil 1. 5) Tipik Scada Sistemi Yazılımı	97
+
+Şekil 1. 6) Fiber optik kablo örnekleri 	99
+
+Şekil 1. 7) Fiber optik kablolarda ışığın iletilmesi 	100
+
+Şekil 1. 8) Bir SCADA sisteminde veri transferi için Ethernet'in kullanımı	101
+
+Şekil 1. 9) Bir Modem kullanarak PC'den RTU' ya bağlantı 	102
+
+Şekil 1. 10 ) Bir SCADA sisteminde bakım isteyebilecek bileşenler 	104
+
+Şekil 1. 11) RS 232, RS 422/485 pin yapıları 	104
+
+Şekil 1. 12) Örnek blog diagram 	105
+
+Şekil 1. 13) Modbus TCP/IP PLC Simulatör yazılımı 	105
+
+Şekil 2. 1) Tipik bir SCADA sistem diyagramı 	108
+
+Şekil 2. 2) Kompleks SCADA Sistemi 	 109
+
+Şekil 2. 3) Dağıtımlı Kontrol Sistemleri ( DCS )	110
+
+Şekil 2. 4) PLC Blog Diyagramı 	 111
+
+Şekil 2. 5) PLC İç yapısı 	 112
+
+Şekil 2. 6) Programlanabilir mantık kontrolör (PLC) sistemi 	 112
+
+Şekil 2. 7) Tipik bir akıllı enstrüman	 114
+
+Şekil 2. 8) Tipik RTU Donanım Yapısı 	 115
+
+Şekil 2. 9) Tipik Analog girdi modülü diyagramı 	 117
+
+Şekil 2. 10) Nicelleme hatasıyla bir A/D dönüştürücünün ideal transfer fonksiyonu	122
+
+Şekil 2. 11) Sekiz tek uçlu girdi	124
+
+Şekil 2. 12) Dört diferansiyel girdi 	125
+
+Şekil 2. 13) Tipik analog çıktı modülü 	126
+
+Şekil 2. 14) İşlem akış şemasıyla dijital girdi devresi 	127
+
+Şekil 2. 15) Girdi modülünü kaynak veya çeker olarak konfigüre etmek 	128
+
+Şekil 2. 16) Darbe girdi Modülü 	129
+
+Şekil 2. 17) Dijital çıktı modülü 	131
+
+Şekil 2. 18) Dijital çıktılar için Flywheel diyotu veya RC devreleri 	132
+
+Şekil 2. 19) PLC Merdiven mantığı kavramı 	136
+
+Şekil 2. 20) Mantıksal işlemler 	 141
+
+Şekil 2. 21) Bazı PLC Komut ve Sembolleri	143
+
+Şekil 2. 22) Ethernet istasyonları 	146
+
+Şekil 2. 23) Halka Topoloji 	148
+
+Şekil 3. 1) Zayıf bağ 	156
+
+Şekil 3. 2) Katmanlar arası haberleşme 	 161
+
+Şekil 3. 3) HDCL Protokolü yapısı 	165
+
+Şekil 3. 4) CSMA/CD çerçevesinin formatı 	 168
+
+Şekil 3. 5) Remote I/O (Profibuslı Valf Adası) 	 171
+
+Şekil 3. 6) Modbus örnek ağ mimarisi 	 178
+
+Şekil 3. 7) Modbus TCP veri paketi yapısı 	178
+
+Şekil 3. 8) Modbus TCP'de sıklıkla kullanılan fonksiyon kodları 	 179
+
+Şekil 3. 9) Dört telli direkt mod	 182
+
+Şekil 3.10) Tünel SCADA sitemi genel bakış	190
+
+TABLOLAR LİSTESİ
+
+Tablo l.Tünel Yapım Maliyeti Oranları	19
+
+Tablo 2. Direktifin Mevcut Tünellere Uygulanma Takvimi	28
+
+Tablo 3.Envanter Bilgileri Özeti	66
+
+Tablo 4. Tünel Bakım İşletme Şeflikleri	67
+
+Tablo 5. Enine ve Yarı Enine havalandırma kullanılan karayolu tünelleri	220
+
+Tablo 6. KGM Teknik Şartnamesi Havalandırma Seçimleri	222
+
+Tablo 7. Eğime Bağlı HGV Araç Hızları	226
+
+Tablo 8. Ortalama Hıza Bağlı Trafik Yoğunluğu Verileri	226
+
+Tablo 9. CO ve Opaklık İçin Eşik Değerleri	227
+
+Tablo 10. Benzinli Otomobillerde CO Emisyon Değerleri	231
+
+Tablo 11. Benzinli Otomobillerde NOx Emisyon Değerleri	232
+
+Tablo 12. Dizel Otomobillerde CO Emisyonu Değerleri	232
+
+Tablo 13. Dizel Otomobillerde NOX Emisyonu Değerleri	233
+
+Tablo 14. Dizel Otomobillerde Egzoz Partikülleri İçin Temel Değerler	233
+
+Tablo 15. Otomobiller İçin Zaman Faktörü (A)	234
+
+Tablo 16. Otomobiller İçin Yükseklik Faktörü (A)	234
+
+Tablo 17. Hafif Yük	Araçları Yakıt Kullanımına Göre Oranları	234
+
+Tablo 18. Hafif Yük	Araçlarında CO Emisyonu İçin Temel Değerler	235
+
+Tablo 19. Hafif Yük	Araçlarında NOx Emisyonları İçin Temel Değerler	235
+
+Tablo 20. Hafif Yük	Araçlarında Egzoz Partikülleri İçin Temel Değerler	236
+
+Tablo 21. Hafif Yük	Araçları İçin Zaman Faktörü (A)	236
+
+Tablo 22. Ağır Yük Araçları İçin CO Emisyon Değerleri	237
+
+Tablo 23. Ağır Yük Taşıtları İçin NOX Emisyonu Değerleri	238
+
+Tablo 24. Ağır Yük Taşıtları İçin Partikül Madde Emisyon Değerleri	238
+
+Tablo 25. Ağır Yük Taşıtları İçin Kütle Faktörü	239
+
+Tablo 26. Ağır Yük Araçları İçin Zaman Faktörü (A)	239
+
+Tablo 27. Teknoloji Grubu B İçin Dönüşüm Faktörü	Hata! Yer işareti tanımlanmamış.
+
+Tablo 28. Teknoloji Grubu C İçin Dönüşüm Faktörü	240
+
+Tablo 29. A,B,C Standardı Seçim Kriteri	240
+
+Tablo 30. Teknoloji Grubu B İçin Yükseklik Faktörü	240
+
+Tablo 31. Egzoz Dışı PM2,5 (Partikül Madde) Faktörleri	241
+
+Tablo 32. Egzoz Dışı Emisyonlar İçin PM2,5 ve Görüş (Opaklık) Faktörleri	241
+
+Tablo 33. PIARC tarafından kabul edilen araç tipleri ve yangın kapasiteleri	279
+
+Tablo 34. Büyük Tünel Yangınları	281
+
+Tablo 35. Yangın Söndürücü Kullanım Şekilleri	291
+
+Tablo 36.Tünellerde Yangın Tespiti İçin Kullanılan Sistemlerin Karşılaştırılması	295
+
+Tablo 37. Doğrusal Sıcaklık Algılayıcılarının Farklı Yakıt Yangınlarına Tepki Süreleri	295
+
+Tablo 38. 31 PİARC Üyesi Ülkenin İşletme ve Bakım Kapsamları	313
+
+Tablo 39. Tünellerde Kullanılan Sistemlerle İlgili Bakım Aralıkları ve Riskler	323
+
+Tablo 40. Tünel Sistemleri Performans Testleri Gereklilikleri	324
+
+Tablo 41. Tünel Sistemleri Performans Testleri Gereklilikleri (Devamı)	325
+
+Tablo 42. Tünel Sistemleri Fonksiyonel Testleri Gereklilikleri	326
+
+Tablo 43. Tünel Sistemleri Fonksiyonel Testleri Gereklilikleri (Devamı)	327
+
+Tablo 44. Sistemlerin Enerji Kullanımı	386
+
+Tablo 45. Enerji Tüketimine Etkiyen Faktörler	386
+
+Tablo 46. Aktivasyon Enerjisinin Yaşlanma Hızının Ortam Sıcaklığına Göre Değişimi	393
+
+Tablo 47. Teknik Malzemelerin Aktivasyon Enerjisi Değerleri	393
+
+Tablo 48. Farklı Bilgisayar Türlerinin Kullanım Ömürleri	395
+
+Tablo 49. Farklı Lamba Türlerinin Kullanım Ömürleri	396
+
+Tablo 50. 2015 Yılı Tünel Bakım, Onarım, İşletme Maliyetleri	398
+
+Tablo 51. ADR Tablo A Örneği	403
+
+Tablo 52. ADR'ye Göre Tünel Kısıtlamaları	404
+
+Tablo 29. A,B,C Standardı Seçim Kriteri	 236
+
+Tablo 30. Teknoloji Grubu B İçin Yükseklik Faktörü 	 236
+
+Tablo 31. Egzoz Dışı PM2,5 (Partikül Madde) Faktörleri 	 237
+
+Tablo 32. Egzoz Dışı Emisyonlar İçin PM2,5 ve Görüş (Opaklık) Faktörleri	 237
+
+Tablo 33. PIARC tarafından kabul edilen araç tipleri ve yangın kapasiteleri 	 275
+
+Tablo 34. Büyük Tünel Yangınları 	 277
+
+Tablo 35. Yangın Söndürücü Kullanım Şekilleri 	 287
+
+Tablo 36.Tünellerde Yangın Tespiti İçin Kullanılan Sistemlerin Karşılaştırılması	 291
+
+Tablo 37. Doğrusal Sıcaklık Algılayıcılarının Farklı Yakıt Yangınlarına Tepki Süreleri 	 291
+
+Tablo 39. 31 PİARC Üyesi Ülkenin İşletme ve Bakım Kapsamları 	 307
+
+Tablo 40. Tünellerde Kullanılan Sistemlerle İlgili Bakım Aralıkları ve Riskler 	 317
+
+Tablo 41. Tünel Sistemleri Performans Testleri Gereklilikleri 	 318
+
+Tablo 42. Tünel Sistemleri Performans Testleri Gereklilikleri (Devamı)	 319
+
+Tablo 43. Tünel Sistemleri Fonksiyonel Testleri Gereklilikleri 	 320
+
+Tablo 44. Tünel Sistemleri Fonksiyonel Testleri Gereklilikleri (Devamı) 	 321
+
+Tablo 45. Sistemlerin Enerji Kullanımı	 380
+
+Tablo 46. Enerji Tüketimine Etkiyen Faktörler 	 380
+
+Tablo 47. Aktivasyon Enerjisinin Yaşlanma Hızının Ortam Sıcaklığına Göre Değişimi 	 387
+
+Tablo 48. Teknik Malzemelerin Aktivasyon Enerjisi Değerleri 	 387
+
+Tablo 49. Farklı Bilgisayar Türlerinin Kullanım Ömürleri 	 389
+
+Tablo 50. Farklı Lamba Türlerinin Kullanım Ömürleri 	 390
+
+Tablo 51. 2015 Yılı Tünel Bakım, Onarım, İşletme Maliyetleri 	 392
+
+Tablo 52. ADR Tablo A Örneği 	397
+
+Tablo 53. ADR'ye Göre Tünel Kısıtlamaları 	398
+
+GENEL BİLGİLER
+
+GİRİŞ
+
+Tüneller önemli mühendislik yeraltı yapılarındandır. Öyle ki tüneller, uygun ulaştırma yapıları vasıtası ile arasında doğal zorluklar ve tehlikeler olan iki yerleşim biriminin kesintisiz bir şekilde bağlantısını sağlamaktadır. Böylece, dağlık araziler, nehirler ve denizler gibi doğal engellerin, elverişli ulaştırma sistemiyle, iklim şartlarından da etkilenmeyecek şekilde aşılması sağlanmaktadır. Yolcu ve yüklerin her ikisinin de devamlı ve kesintisiz taşınıyor olması bir toplumun gelişmesi ve sosyal olarak refaha ermesi için gerekli bir durumdur.
+
+TÜNEL TANIMI, TARİHÇESİ VE GEREKLİLİĞİ
+
+Tünel, uluslararası literatürde mutabakat sağlanmış bir tanımı olmamakla birlikte; genel anlamıyla yer altından kazı yapılmak suretiyle oluşturulan geçitlerdir. Veya demiryolu, karayolu, yaya yolu, kanal vb. gibi bir nakliye yolunun bir kısmının yeryüzünden geçirilmesinin teknik bakımdan imkânsız olduğu ya da ekonomik bakımdan uygun bulunmadığı yerlerde bu kısmın yeraltından geçirilmesi için başvurulan yapılara tünel denir.
+
+Tüneller, geometrilerinin ve üstlerine gelen yüklerin karmaşıklığı, kaya ve kaplama malzemelerinin özellikleri ve karşılıklı etkileşimleri nedeniyle projelendirmesi oldukça güç yapılardır.
+
+Karada ve denizde gittikçe artan trafik hacmi yeni tüneller yapılmasını gerekli kılmaktadır. Trafik yoğunluğu artışına paralel olarak tünellere duyulan ihtiyaç özellikle dağlık alanlarda can alıcı hale gelmiştir. Türkiye gibi gelişmekte olan ülkelerde ise tünel yapımları yoğun yol geliştirme programları dâhilinde ele alınmaktadır.
+
+Tüneller tarih boyunca her zaman kültürel açıdan gelişmiş toplumlarda inşa edilmişler ve bu toplumlar teknik ve ekonomik güce de sahip olmuşlardır. 18. yy ve 19. yy süresince İngiltere'de endüstriyel gelişim, tünelleri de etkilemiştir. Buna bağlı olarak daha hızlı bir şekilde kanallar da gelişmiştir. Demiryolları ve kayda değer birçok mühendislik uygulamalarında ki gelişmeler, tünellerdeki önemli gelişmelere de etkide bulunmuştur. Avrupa'daki tünel inşasına ait bu gelişmeler Amerika'ya da geçerek 1818 yılında Pansylvania da Schuylkill kanalı üzerinde ilk tünele başlanmıştır. 1820 de biten bu tünel 5,49 m genişliğinde	6,10 m yüksekliğinde ve 250 m uzunluğundadır.
+
+Şekil 1. Kargir Kaplama Tünel ve İlk Su Tünelleri Örnekleri
+
+Gelişmeler ışığında, mühendisler daha zor koşullar altında açılması gereken tüneller
+
+hakkında çalışmalara başlamış ve bu noktada su altı tünellerinin ilk örnekleri yapılmaya
+
+başlamıştır. Bu çalışmalardan ilki 1823-1843 yılları arasında Taymis Nehri altında açılan 4,20 m ve 4,80 m çaplarındaki halen hizmette olan bir ikiz tüneldir (İngiltere/Londra/Greenwich).
+
+Özellikle Avrupa'da metro ağlarının gelişimi ile birlikte tünelcilik konusu önem kazanmıştır. Dünyada ilk büyük metro sistemleri 19. yüzyılın sonunda ve 20. yüzyılın başlarında Londra, Paris, New York ve Moskova'da kuruldu. İlk "yeraltı demiryolu" projesi 1835'de İngiltere'de yapıldı. Ama Londra'nın kenar semtlerindeki iki demiryolu istasyonunu kentin merkezine bağlamayı amaçlayan bu proje "düşsel" bulunduğu için uygulanmadı. 1860'da Londra'da dünyanın ilk yeraltı demiryolunun yapımına başlandı. 6 kilometre uzunluğundaki bu metro hattı 1863'de isletmeye açıldı. Sonraki yıllarda yapılan ekler ve yeni hatlarla giderek genişleyen Londra Metrosunda bugün 408 kilometrelik bir ağ üzerindeki 273 istasyon arasında çalışan 457 metro treni her gün yaklaşık 2,5 milyon yolcu taşımaktadır.
+
+İngiltere'den sonra Avrupa'daki ilk metro 1896'da Macaristan'ın başkenti Budapeşte'de açıldı. Dünyanın en ünlü metrolarından biri olan Moskova metrosunun 197 kilometrelik toplam uzunluğunun 20 kilometrelik bir bölümü dışında, tümü yeraltındadır ve 123 istasyonu vardır.
+
+1904'de açılan New York Metrosu, her yıl 1 milyardan fazla yolcu taşıyan ve hemen hepsi 24 saat hizmet veren 23 hattıyla dünyanın en yoğun metrosudur. Bu metronun 220,5 kilometresi yeraltında, 150,6 kilometresi yerüstünde olan toplam 371 kilometrelik hatlarında 456 istasyon vardır. Bugün yeryüzünde nüfusu bir milyonu aşan kentler arasında metrosu bulunmayan hemen hemen kalmamış gibidir.
+
+1999 yılında Danimarka ve İsviçre'de Drogden isimli batırılmış tünel örneğine rastlanmıştır. Ayrıca 2000 yılında, Japonya'da Kawasaki Fairway ve Osaka South Port isimli tünellerin yapımı tamamlanmıştır. Yine aynı yıl Japonya'da Kobe Port isimli bir tünelin inşaatı bitirilmiştir. Trafik yoğunluğunun artmasıyla beraber karayolu tünel inşaatı, özellikle A.B.D. , Fransa, İtalya, Almanya gibi gelişmiş ülkelerde büyük önem kazanmış ve bu ülkelerdeki modern otobanlarda uzun tüneller açılmıştır.
+
+Tünel inşasını gerektiren nedenler kısaca şu şekilde sıralanabilir;
+
+S Eğimi sınırlı olan güzergâhlarda, dağlık arazide yeryüzünden aşılamayan sırt ve tepeleri geçilmesi amacıyla,
+
+S Güzergâhın bir kısmında tünel inşası ile önemli bir kısalma meydana gelecek ve tünel için gereken masraf bu kısalmadan elde edilecek tasarruf ile karşılanabilecekse ya da tünelden geçilmesi halinde maliyet artsa bile bu artış işletme masraflarından elde
+
+edilecek tasarruf ile karşılanabilecekse,
+
+S Güzergâhın bir kısmının önemli toprak kaymaları, kaya yuvarlanmaları veya çığlardan korunması amacıyla,
+
+S Gerek askeri bakımdan, gerekse üzerindeki seyri aksatmamak, doğal yapıyı bozmamak için akarsuların veya boğaz teşkil eden deniz sularının altından geçilmek istendiği
+
+zaman,
+
+S İnşası ve bakımı fazla masraflı olan kendini tutamayan zeminlerdeki büyük yarmalardan kurtulmak amacıyla,
+
+S Yer üstü istimlâklerinin çok pahalı olduğu yerlerdeki yolların genişletilmesi veya yeni yolların açılması imkânının bulunmadığı durumlarda ya da kitle halinde toplu ulaşım gerektiği zaman metro inşası için,
+
+S Trafiği çok yoğun olan yolların veya bir yolla bir demiryolunun aynı düzeyde birbirini kesmesi istenmediği zaman,
+
+S Birbirlerinden tepe, sırt, akarsu, boğaz vb. gibi doğal engellerle ayrılmış şehir semtlerinin birleştirilmesi amacıyla.
+
+Ülkemiz; uluslararası ulaşım yol ağlarının geçiş koridoru üzerinde olması, coğrafi olarak da yüksek dağlık alanları içermesi (ortalama yükseltisi 1100 metreden fazla) ve olumsuz kış koşullarında trafik güvenliğinin sağlanabilmesi için tünel projelerine yoğunluk vermektedir.
+
+Özelikle Bolu Dağı Tünelinin trafiğe açılmasıyla ivmelenen tünel yapımı konusu son yıllarda yapımı tamamlanan ve devam eden önemli tünel yapılarıyla devam etmektedir.
+
+Bunlara; Kuzey Marmara Otoyolu güzergâhında yer alan dünyanın ilk dört şeritli karayolu tünelleri Sütlüce ve Riva Tünelleri, İstanbul İzmir Otoyolu güzergahında bulunan üç şeritli Orhangazi, Belkahve ve Selçukgazi Tünelleri, İzmir Körfez Geçişi Yapay Ada ve Batırma Tünel Yapısı, Yeni Zigana Tüneli, Ovit Tüneli, Kop Tüneli, Kırık Tüneli, İzmir Konak ve Sabuncubeli Tünelleri, Erkenek ve Karahan Tünelleri, Geminbeli Tüneli, Kahramanmaraş-Göksu aksında yer alan karayolu tünelleri, Karadeniz Sahil Yolu Tünelleri, İlgaz Tüneli, Zonguldak Şehir Geçişi Tünelleri (Mithatpaşa, Sapça, Üzülmez Tünelleri); bunların yanında İstanbul’da Marmaray, Avrasya Tüneli, Haliç Tüneli örnek olarak gösterilebilir.
+
+Karayolları Genel Müdürlüğüne bağlı envanterimize bakıldığında 244 adet, 219 km uzunluğunda tünel trafiğe açık, 133 adet 329 km tünelimizin ise yapımı devam etmektedir. Aşağıdaki tabloda bunlarla ilgili bilgiler verilmiştir.
+
+GRAFİK t KCM TÜNEL ADET BİLGİLER3	5)
+
+Şekil 2. KGM Tünel Bilgileri
+
+TÜNEL ÇEŞİTLERİ
+
+Tüneller, yapım şekillerine göre ve iş levlerine göre olmak üzere iki ana başlıkta incelenebilir. Yapım şekline göre tüneller, tünellerin nasıl bir toprak parçasında nasıl inşa edilmesi gerektiğiyle ilgili, işlevlerine göre tüneller ise tünellerin ne amaçla ve ne şekilde kullanılacağına dair bir sınıflandırmadır.
+
+Şekil 3. Tünel Çeşitleri
+
+YAPIM ŞEKLİNE GÖRE TÜNELLER
+
+Yapım şekline göre tünelleri üçe ayırabiliriz;
+
+S Kayaç zeminde açılan tüneller S Yumuşak zeminde açılan tüneller S Su altında açılan tüneller
+
+Kayaç zeminlerde inşa edilen tünellerde genellikle delme-patlatma yöntemi ya da değişik tipteki delgi aygıtları kullanılmaktadır. Kaya zeminlerin kendini taşıyabilir özellikte olması nedeniyle bu tip zeminlerde inşa edilen tünellerde, genellikle stabilite sorunlarıyla karşılaşılmamaktadır.
+
+Klasik yöntem adıyla da anılmakta olan delme-patlatma yöntemi ile tünel inşası yüz yılı aşkın suredir önemli bir değişiklik yapılmadan hemen her türlü kayaç koşullarında kullanılmaktadır.
+
+Bu yöntemle tünel inşasında aşağıdaki sıra izlenmektedir:
+
+S Kararlaştırılmış bir plana göre önceden aynada patlayıcıların yerleştirileceği lağım delikleri açılmaktadır. Eğer jumbo adlı delgi aygıtı lağım deliklerinin açımında kullanılacaksa aynaya yaklaştırılmakta ve kazı için hazırlanmaktadır.
+
+S Açılan deliklere daha önceden hesaplanmış miktarda patlayıcılar yerleştirilmektedir.
+
+S Deliklerde bulunan patlayıcılar ateşlenmekte ve patlatmadan meydana gelen gazların giderilmesi için havalandırma yapılmaktadır.
+
+S Düşme ihtimali olan kayaç parçaları düşürülmekte, gerekli durumlarda yeni açılan kısma destek yapıldıktan sonra çıkan kazı malzemesi taşınmaktadır.
+
+Özel delgi açma aygıtlarının yaklaşık 50 yıl önce geliştirilmesi ile tünel açımında yeni bir devir başlamış ve bu aygıtlar sayesinde kazı hızı geleneksel yöntemlere göre artmıştır. Özel delgi aygıtlarıyla tünel açma, tam kesitte ve yarım kesitte tünel açma olmak üzere iki kısımda incelenebilir.
+
+Tam kesitte tünel açan aygıtlara genel olarak tünel açma makinesi (TBM) denmektedir. Bu aygıt ön yüzüne çeşitli cins ve sayıda kesiciler yerleştirilmiş dönen bir kafa ile içinde gerekli parçaların ve kumanda bölümünün bulunduğu silindirik bir gövdeden
+
+ibarettir.
+
+Diğer bir tünel açma aygıtı da kollu tünel açma aygıtıdır. Bu aygıt kayacı, bir kol üzerinde dönen küçük bir kafaya yerleştirilmiş kesiciler yardımıyla yontmaktadır. Tam kesitte tünel açma aygıtına göre daha az enerjiye ihtiyaç duymakta ve maliyetleri de daha düşük
+
+olmaktadır. Tam kesitte tünel açma aygıtından farklı olarak bu aygıt dairesel olmayan kesitlerde de kullanılmaktadır. Aşağıdaki şekillerde tünel açma makinelerinin resimleri gösterilmektedir.
+
+Şekil 4. Tam Kesit Açan TBM ve Kollu Tünel Açma Makinası
+
+YUMUŞAK ZEMİNDE AÇILAN TÜNELLER
+
+Alt geçitler, gömme depolar, yer altı otoparkları, içme suyu ve kanalizasyon tünelleri gibi yer altı yapılar genellikle sığ derinliklerde ve yumuşak zeminlerde açılmaktadırlar. Bu zeminler düşük taşıma gücüne sahip olan ve genellikle suya doygun zeminlerdir. Bu nedenle bu tür zeminlerde tünel açma, özel tekniklerin geliştirilmesini ve genellikle zeminlerin iyileştirilmesini gerektirmektedir.
+
+Bu sebeple zemin iyileş tirme yöntemleriyle tünel çevresi stabilizesinin sağlanması ve yeraltı su seviyesinin düşürülmesi gerekmektedir. Stabilizeyi sağlamak ve su sızıntılarını önlemek için enjeksiyon, zemini dondurma, denetimli drenajla zemin suyu seviyesinin düşürülmesi ve basınçlı hava yardımıyla suyun denetim altına alınması gibi işlemler yapılmaktadır.
+
+Yumuşak zeminlerde tünel açma yöntemlerinden ilki kalkanla tünel açma yöntemidir. Kalkan (bukliye) esas olarak çelik bir silindir şeklindedir. Bu aygıt tünel boşluğunu çevreleyerek, zemine destek sağlamak suretiyle kaplamanın yapımına destek gerektirmeden kazı yapılmasına izin vermektedir. Tünel kazısında tam kesit halinde ilerlemeyi sağlayan bu aygıt, yapılmış olan son kaplama kenarından destek alarak ileri doğru solucan hareketine benzer bir hareketle itilmekte ve keskin ucu sayesinde zemine gömülerek kazının yapılmasını sağlamaktadır.
+
+Bir diğer yumuşak zeminde tünel açma yöntemi ise boru sürmeyle açmadır. Bu yöntemde dışarıda imal edilmiş borular, krikolar yardımıyla arka arkaya zemine sürülmektedir. Boru sürme yöntemi, kanalizasyon ve su şebekelerinde yaygın olarak kullanılmaktadır. Yöntemde öncelikle boru döşenecek yerde giriş ve çıkışta iki adet kuyu açılmakta, giriş kuyusuna yan duvarlardan destek alacak şekilde yerleştirilen kriko yardımıyla, kuyuya indirilen borular zemine itilmektedir. Kazı işi itme işleminden önce ya da sonra çeşitli araçlarla yapılabilmektedir. Aşağıdaki şekilde boru sürme yöntemini sembolize eden bir resim bulunmaktadır.
+
+Şekil 5. Boru Sürme Yöntemiyle Açılan Tünel Örneği
+
+Başka bir yumuşak zeminde tünel açma yöntemi olan aç-kapa yöntemi genellikle örtü kalınlığı 10 m'den az olan kanalizasyon, içme suyu ve alt geçit tünellerinin inşasında kullanılmaktadır. Bu yöntemde zemin, büyük bir hendek seklinde kazılmakta, tünelin kaplaması yapıldıktan sonra üzeri tekrar örtülmektedir.
+
+Yumuşak zeminde tünel açma yöntemlerinden son olarak Şemsiyelime (boru kemer) yönteminden bahsedilebilir. Bu yöntemde tünel aynasının stabilizesini sağlamak amacıyla zemin çivisi adıyla bilinen destekleme elemanları, tünel aynasında önceden belirlenen çapta ve uzunlukta delikler delinerek zemine uygulanmaktadır. Delinen deliklere uygun kalınlıkta ve uzunlukta çelik donatı ya da yeterli çekme dayanımına sahip fiberglaslar yerleştirilmekte ve etrafı uygun kıvamda çimento enjeksiyonuyla doldurulmaktadır. Bu sayede oluşturulan ön
+
+Şekil 6. Şemsiyeleme Yönteminde Uygulanan Zemin Çivilemeye Örnek
+
+SU ALTINDA AÇILAN TÜNELLER
+
+Su altında yapılan tüneller batırılmış tüneller ve daldırılmış yüzen tüneller olarak sınıflandırılabilir.
+
+Tüp tünel ya da batırılmış tünel adıyla anılan tüneller bir suyolu engelini aşmak için köprülere ve derinden geçen geleneksel tünellere bir seçenek olmakla birlikte karakteristik olarak kanalları ve kanal tarzındaki doğal engelleri alttan geçmede en kısa yol olarak gözükmektedir.
+
+Batırılmış tüneller, karada inşa edilen tüplerin batırılarak indirildikten sonra deniz tabanında açılan ve tabanı düzlenmiş bir hendeğe dizilerek yerleştirilmesi ve daha sonra üstlerinin örtülmesi seklinde inşa edilmektedir. Bu nedenle, deniz kenarında genellikle uzunluğu 100 m'yi geçen tüplerin inşa edileceği deniz seviyesinin altında geniş bir yapım alanına gereksinim vardır. Tüplerin deniz tabanına yerleştirilmesinden önce, tüp tünel yüksekliğinin 1,3-1,7 katı derinlikte ve oldukça geniş bir hendeğin kazılması ve tabanının düzlenmesi gerekmektedir. Tüpler inşa edildikten sonra yüzdürülerek tünel inşa alanına getirilmekte, vinçlerden ve harita mühendisliği ilkelerinden yararlanılarak ve dalgıç kullanılarak deniz tabanına batırılıp indirilmekte ve dizilerek birbirlerine eklenmektedir. Marmaray projesi boğaz geçişi için yapılan tünel de bu sistemle inşa edilmiştir.
+
+Deniz altı geçişinde kullanılan diğer bir tip de daldırılmış yüzen tünellerdir. Suyun kaldırma kuvvetinden faydalanılarak yapı, uygun bir derinlikte desteklenmektedir. Tüpe benzer yapı çelik ya da betonarme olarak üretilmekte ve üretilen parçalar kolonlar, halatlar ya da dubalar sayesinde belirli seviyede yüzer halde tutulmaktadır. Aşağıdaki şekilde ülkemizde batırma tüp tüneli yöntemiyle yapılan Marmaray Tünelini sembolize eden bir resim bulunmaktadır.
+
+Şekil 7. Marmaray Projesi Batırma Tüneli Uygulaması
+
+İŞLEVLERİNE GÖRE TÜNELLER
+
+Tünelin inşa edileceği altyapının çeşidi bu sınıflandırmanın oluş umundaki en önemli ölçüttür. İşlevlerine göre tünelleri altıya ayırabiliriz;
+
+S Demiryolu tünelleri S Karayolu tünelleri S Metro tünelleri
+
+S Yaya yolu tünelleri
+
+S Akarsu tünelleri S Hidrolik tüneller
+
+DEMİRYOLU TÜNELLERİ
+
+Demiryollarında karayolundakinden farklı olarak sürtünme katsayısı düşük olduğu için % 1,2'den fazla eğimlere izin verilmemektedir. Tüneller tek hatlı demiryollarında 4,5 ila 6 m
+
+2
+
+genişlikte (yaklaşık en kesit alanı 50 m ), çift hatlı demiryollarında ise 8 ila 9 m'lik bir 22
+
+genişlikte (yaklaşık en kesit alanı 80 m - 100 m ) olacak şekilde açılırlar.
+
+Yükseklikler havalandırma tesisleri bakımından elverişli, araçların üzerinde en az 1,20 m bir boşluk kalacak biçimde, tek hatlı demiryollarında daha çok sepetkulpu şeklinde, çift hatlarda ise tam kemer şeklinde inşa edilirler. Buna karşılık, satha çok yakın olarak geçilmesi durumunda dikdörtgen şekline de gidilmiştir.
+
+Şekil 8. Gotthard Base Demiryolu Tünelinden Bir Görüntü
+
+Karayolu tünelleri, demiryolu tünellerine nazaran güzergâh geometrisi açısından çok daha esnektir. Bunlar genellikle % 2'lik bir eğime göre projelendirilmektedir. Trafik hacmi düşük ise proje standartlarına uyularak söz konusu eğim % 4-5'e kadar çıkmaktadır. Daha yüksek eğimler havalandırma ve görüş güvenliği açısından uygun değildir. Uzun tünellerde havalandırma ve yangın güvenliği projenin en önemli öğelerinin başında yer alır.
+
+Karayolu en kesiti günlük trafik hacmine bağlıdır. Şehirlerarası yol tünellerinde genel olarak 6 m'lik bir otoyolu ile yan taraflarda 1 m'lik iki yaya yolu bulunur. Şehir içlerinde olduğu gibi, trafiği fazla olan tüneller daha geniş olur. Bu tüneller yalnız bir yöndeki trafiği, bazen de gidiş ve geliş olmak üzere her iki yöndeki trafiği de barındırabilir.
+
+Karayolu tünelleri genel olarak tam kemer, sepetkulpu veya elips seklinde olup nehir
+
+altından geçtikleri takdirde çok defa bukliye ile açıldıklarından daire şeklinde olurlar. Eğer tünel satha çok yakın ise o zaman dikdörtgen kesit tercih edilerek üzeri betonarme döşeme ile kapatılır. Tünelin havalandırması büyük kesit gerektiriyorsa tam kesit tercih edilir. Aşağıdaki şekilde karayolu tünellerinin dış görünüşü ve en kesitleri gösterilmektedir.
+
+Şekil 9. Karayolu Tüneli Örneği ve En kesiti
+
+Metro tünellerinin en kesitleri hatta çalıştırılacak araçların maksimum kapasitesine
+
+(araç ticari hızı, koltuk sayısı, konfor derecesi, araç sayısı, araç kapı sayıları ve genişlikleri,
+
+istasyon uzunluğu vs.), tren dizilerinin takip aralıklarına, sinyalizasyon ve ücret toplama 2
+
+sistemlerine bağlıdır. Tek ve çift hatlı metro tünelleri için tipik en kesit alanı 35 m 'dir. Yangın güvenliği en üst düzeyde olmalıdır.
+
+Metro tünellerinin şekil ve boyutları şehirlere göre birbirinden farklılık gösterir. Örneğin Paris deki metro tünelleri genel olarak kemerli ve çift hatlıdır. Bunun yanında bir, üç ve dört hatlı kısımlar da mevcuttur. Tek hatlı olanlarda genişlik 4.30 m'dir. Yükseklik ise 4.70 m olup 2.15 m yarıçaplı tam kemer şeklinde yapılmışlardır. Aşağıdaki şekilde metro tünelinin görünüşü gösterilmektedir.
+
+Çift hatlılarda genişlik 7.10 m iken yükseklik 5 m'dir. Kemer, elips şeklinde olup, bunun yüksekliği de 2.07 m'dir. Üç ve dört hatlılar ise sırası ile 10 m ve 12.90 m genişliktedirler. Kemerler genellikle üç merkezli sepetkulpu şeklindedir. İstasyonlar genel olarak kemerli ve iki hatlıdır. Fakat bir, üç, dört ve beş hatlı olanları da vardır. Bunların bir
+
+kısmı kemerli bir kısmı da çelik veya betonarme döşeme ile kapatılmışlardır. Tek hatlı kemerli istasyonlar 14.14 m genişlikte, 5.90 m yükseklikte olup uzunlukları 75 ila 105 m'dir. Tek hatlı istasyonlarda genişlik en az 7,30 m olup, üç-dört hatlılarda ise 22.50 m'yi bulmaktadır. Nehir altındaki bukliye tünelleri ise daire kesitli, genel olarak çift hatlı ve dış çapları da 7.78 m'dir.
+
+YAYA YOLU TÜNELLERİ
+
+Yaya tünelleri genişliği 3 m'den, yüksekliği ise insana ezilme hissi vermemesi bakımından 2.50 m'den daha küçük tutulmamalıdır. Şekilleri ise dikdörtgen veya tercihen kemerli ve daire şeklinde olabilir. Bu tünellerde bazen bisikletliler için ayrı bir şerit de yapılabilir.
+
+KANAL (AKARSU) TÜNELLERİ
+
+Nehir ulaşım sistemlerinde kullanılan kanal tünelleri için en kesit şekli tüneli kullanacak olan teknelerin cinsine göre değişir. Örneğin Fransa'daki Oise-Aisne kanalı üzerindeki Braye-en-Laonnois tüneli tam kemer şeklinde olup, genişliği 8 m, yüksekliği ise
+
+8.50 m'dir. Yine Marsilya civarındaki Rove tüneli ise sepetkulpu şeklinde yapılmış olup
+
+genişliği 22 m, yüksekliği de su üstünde kalan kısmı 9.90 m olmak üzere, 15.40 m"dir. Aşağıdaki şekilde su kanalı örneği gösterilmektedir.
+
+Şekil 11. Kanal (Akarsu) Tüneli Örneği
+
+Baraj çıkışlarına açılan bu tünellerin güzergâh geometrileri diğer tünellere nazaran daha esnektir ve genelde sağlam zeminde açılırlar. Hidrolik güç tünel kesit alanları düşüm yüksekliği, su debisi ve enerji kayıpları gibi faktörlere bağlı olup 10 m2 ila 30 m2 arasında değişir. Aşağıdaki şekilde basınçlı ve basınçsız hidrolik güç tünellerinin en kesit örnekleri gösterilmektedir.
+
+TÜNEL YAPIM ÖNCESİ ÇALIŞMALAR
+
+Bir tünelin başarılı olarak açılabilmesi için itinalı ve eksiksiz bir geoteknik araştırma programının uygulanması gerekmektedir. Bu program 3 safhadan oluşmaktadır.
+
+S Ön inceleme safhası
+
+S Fizibilite Safhası S Proje Safhası
+
+ÖN İNCELEME SAFHASI
+
+Bu safhada elde mevcut bilgilerden (bölgesel jeolojik haritalar ve yayınlar, hava fotoğrafları, yeraltı suyu araştırmaları, sondaj kuyusu logları, arazideki mostroların incelenmesi, bölgede daha önce açılmış olan tünellere ilişkin inşaat kayıtları, çevrede varsa taş ocağı veya maden işletmesi gibi yerlerin incelenmesi vb. gibi) azami ölçüde faydalanılmalıdır. Bu safhada araştırma sondajları yapılmasa da bazı özel hallerde örneğin örtü kalınlığının bilinmesi, yeraltı su derinliğinin öğrenilmesi veya özel jeolojik sorunun çözümlenmesi amacı ile birkaç sondaj kuyusu açılabilir.
+
+Düşünülen alternatif güzergâhlar ayrı ayrı incelenir. Bilindiği gibi büyük fay zonları, ayrışmış kayalar, karstik kireçtaşları ve alçı taşları, ayrışmış serpantin, yeraltı su seviyesinin altında bulunan suya doygun kumlar, şişme özelliği gösteren kayalar tünel açımı sırasında büyük zorluklara neden olmaktadır. Bu nedenle bu gibi zorluklar göz önüne alınarak bir veya birkaç alternatif güzergâh daha sonra ki fizibilite safhasında incelenmek üzere seçilir. Alternatif güzergâhlar diğerlerine oranla daha uzun olsalar da incelenmeli ve mukayese edilmelidirler. Bazı hallerde direk güzergâhın en kısa olmasına karşın inşaat yönünden zorluklar oluşturduğu, büyük ölçüde iksayı gerektirdiği ve bunların sonucunda da gerek inşaat süresinin uzadığı gerekse toplam maliyetin arttığı görülmüştür.
+
+Tünel üzerindeki örtü kısmı da önemlidir. Metrolar ve metro istasyonları yüzeye yakın
+
+olarak inşa edilirler ve bunlar genellikle yüzeyin 15-30 m altındadırlar. Böyle hallerde yer altı su derinliği ile zemin-kaya sınırı dikkate alınmalı ve öğrenilmelidir. Tünelin zemin-kaya sınırında ilerlemesinden kaçınılmalı, ilerleme tümü ile ya kayada ya da zeminde yapılmalıdır.
+
+FİZİBİLİTE SAFHASI
+
+Bu safha jeolojik harita alımı, ön sondajlar, muayene çukurları ve diğer gerekli jeolojik çalışmaları kapsar. Bu safhada jeologunun görevleri şu ana başlıklar altında toplanabilir:
+
+S Tünel güzergâhı dolayının ayrıntılı jeolojik haritası hazırlanmak S Tünel merkezi çizgisi boyunca ayrıntılı bir jeolojik profil hazırlamak
+
+S Karşılaşmalı muhtemel tünel zemini koşullarını teknik personellerin aşina olduğu terimlerle açıklamak
+
+S Projeciye şartnameler vermek ve maliyetin tespitinde yardımcı olmak
+
+Bu safhada ön maliyet ve seçilen alternatifler tekrar gözden geçirilerek en ekonomik güzergâh seçilir. Bundan sonraki proje safhası için önerilerde bulunulur. Ayrıca tünel tasarlanması sırasında birtakım araştırmalar yapılmalı ve bazı önlemler alınmalıdır. Bu önlemler şu şekilde sıralanabilir;
+
+S Güneşin doğuşu ve batışı esnasında yol yüzeyinde çok yüksek parıltı değerleri oluşacağından ve aydınlatma tekniğinde özel zorluklar, dolayısıyla da ek maliyetler getireceğinden, mümkünse tüneller doğu-batı doğrultusunda inşa edilmemelidir.
+
+S Çıkışlarda oluşabilecek kamaşmanın önlenebilmesi için, doğrusalların yerine hafif virajlı giriş-çıkışlar tercih edilmelidir. Ayrıca tünel içinde de hafif virajlı bir gidiş, cismin açık renk duvarlar üzerinde kontrastını yükselteceğinden, görme koşulları açısından da yararlıdır.
+
+S Tünel yaklaşma bölgesindeki yol kaplaması ve tünel kapı yüzeyi koyu renk ve pürüzlü olmalıdır. Ayrıca tünel girişinden önce yola dik olarak inşa edilen duvarlar da mat, koyu renk malzemeden yapılmalıdır. Tünel içinde mümkün olduğu kadar aynasal yansıtıcı yüzeylerden kaçınılmalı duvarlar ise kolay temizlenir malzemeden yapılmış olmalıdır
+
+S Nispeten karanlık olan tünel girişinin görüş alanındaki yerini arttırmak için tünel kapısı geniş ve yüksek yapılmalıdır. (su altı tünelleri için çok faydalı olan bu çözüm, dağ tünelleri için çok pahalıya mal olmaktadır)
+
+S Tünel girişinin bitişiğindeki ve üstündeki açık arazi; yıl boyu yeşil kalan kışa dayanıklı, iğne yapraklı bitkiler ve bodur ağaçlarla ağaçlandırılmalıdır.
+
+S Yüksek hız ile yaklaşılan tüneller kurulum aşamalarında yüksek maliyetler getireceğinden hızı sınırlandıracak bazı önlemler alınmalıdır. Örneğin; tünele yaklaşılırken bir rampanın mevcut olması ya da hız uyarı işaretleri hızı azaltacağından eşik bölgesi parıltı düzeyi ve uzunluğu da düşecektir. Ödeme veya kontrol noktaları oluşturulacak ise bunların çıkış yerine girişte yapılması tercih edilmelidir. Bu sayede giriş bölgesinde gereken parıltı değeri büyük ölçüde azaltılabilir.
+
+S Aydınlatmanın verimini yükseltmek için tünel içindeki yol kaplaması ve tünel duvarları yüksek yansıtma faktörüne sahip olmalıdır. Bu amaç için açık renk yol kaplamalarının, kolay temizlenebilen aydınlık duvarların kullanılması uygundur. Ancak aydınlatmanın kalitesi ve endirekt kamaşmanın önlenmesi bakımından yol kaplaması ve tünel duvarları dağıtıcı/yansıtıcı nitelikte olmalıdır (Bommel 1980; Philips, 1981).
+
+PROJE SAFHASI
+
+Bu safha nihai jeolojik harita alımı çalışmalarını, sondaj araştırmalarını ve yerinde deneyler ile laboratuvar deneylerini kapsamaktadır. Bu safhada jeolojik profil daha ayrıntılı hale getirilir ve teknik rapor yazılır. Projenin ayrıntılı olarak maliyetinin hesaplanmasının yapılmasında projeyi yapana yardımcı olunur.
+
+Bu hesaplamanın yapılmasında ve planlamanın yapılması şu şekilde gerçekleştirilir:
+
+S Tünel seviyesi ve istikametinin belirlenmesi,
+
+S Giriş ve şaftlar için uygun yerlerin saptanması,
+
+S Tünel kaplamasının tasarımı,
+
+S Özel tekniklere gereksinim olup olmadığının tespiti,
+
+S Kazı
+
+Tünel açılacak güzergâhın topografyası, zemin koşulları ve açılacak tünelin geometrisi gibi parametreler değerlendirilerek tünel açma yöntemi ve buna bağlı olarak ta kullanılacak ölçme yöntemleri belirlenmektedir. Tünel açma yöntemleri, günümüzde genelde kullanılan inşaat prensipleri açısından dört ana grup halinde incelenebilir.
+
+Bu gruplar;
+
+S Aç-Kapa yöntemiyle tünel açma yöntemi,
+
+S Tünel Delme Makinesi (TBM) ile tünel açma yöntemi,
+
+S Batırma Tünel (lmmersed Tube) yöntemi,
+
+S Yeni Avusturya Tünel Açma yöntemi (NATM) olarak sıralanabilir.
+
+Ülkemizde karayolu tünellerinde; Karayolları Teknik Şartnamesine göre tünel proje ve yapım şartları tariflerinde NATM (Yeni Avusturya Tünel Metodu) ile tünel açma yöntemi esas alınmaktadır. Bu yöntemle;
+
+S Kayalarda delme-patlatma ve üstyarı- altyarı şeklinde (A1-A2-B1-B2-B3),
+
+S Zayıf-Çok zayıf kayalarda ise delme-patlatma + makinalı kazı ve üstyarı-altyarı ile taban invertli kazı,
+
+S Baskılı kaya-zemin ortamlarında; bölünmüş veya tam kesit üstyarı-bölünmüş ve tam kesit altyarı ve bölünmüş veya tam kesit invert kazı metotları ile C2-C3 ve C4 sınıfları destek uygulanmaktadır.
+
+Tünel yapımında ana kalemler ve % olarak işin tamamı içindeki maliyet oranı ile ilgili PİARC araştırmaları sonucu aşağıdaki tablo oluşturulmuştur.
+
+Tablo 1.Tünel Yapım Maliyeti Oranları
+
+20
+
+BÖLÜM 2
+
+AVRUPA BİRLİĞİ TÜNEL
+
+MEVZUATI
+
+22
+
+GİRİŞ
+
+Avrupa Parlamentosu ve Konseyi 29 Nisan 2004 tarihinde 2004/54/EC sayılı Direktifi ile Trans-Avrupa Karayolu Ağı Tünelleri için minimum güvenlik gereksinimlerini belirlemiştir. Bu bölümde direktifin oluşturulmasından önceki süreç, direktifin getirdikleri ve
+
+ülkemizdeki durumla ilgili bilgiler verilecektir.
+
+AB ORTAK ULAŞTIRMA POLİTİKASININ GELİŞİMİ
+
+Avrupa Ekonomik Topluluğu'nu kuran Roma Antlaşması'nın 2. maddesinde AET'nin amaçları şu şekilde özetlenmiştir:
+
+Topluluğun görevi, bir ortak pazarın kurulması ve üye devletlerin ekonomi politikalarının zamanla yaklaştırılması yoluyla, topluluğun tümü içinde ekonomik etkinliklerin uyumlu olarak gelişmesini, sürekli ve dengeli yayılmasını, istikrarın artmasını, hayat seviyesinin hızla yükselmesini sağlamak ve birleştirdiği devletlerin arasında daha sıkı bir işbirliğini gerçekleştirmektir.
+
+Bu amaçlara ulaşmak ve Topluluğun etkinliğini artırmak için yerine getirilmesi gereken hususlar arasında ulaşım alanında ortak bir politikanın oluşturulması da yer alıyordu.
+
+Eylül 1993 tarihinde yürürlüğe giren Maastricht Antlaşması ile Roma Antlaşması'nın 2. maddesi değiştirilmiştir. Topluluk ortak bir pazarın, ekonomik ve parasal birliğin kurulması ve 3. madde de yer verilen ortak politikaların ve faaliyetlerin yürürlüğe konulması yolu ile topluluğun bütünü içinde ekonomik faaliyetlerin uyumlu ve dengeli kalkınmanın, çevreye saygılı, sürekli ve enflasyonist olmayan bir büyümenin, ekonomik performansların yüksek derecede bütünlüğünün, yüksek seviyeli bir istihdam ve sosyal korumanın, yaşam seviyesinin ve kalitesinin yükselmesinin, üye devletlerarasında ekonomik ve sosyal bütünlükle dayanışmanın iyileştirilmesi görevine sahiptir.
+
+Maastricht Antlaşması, yukarıda belirtilen hedeflere ulaşmak için yerine getirilecek hususlar arasında, ulaştırma alanında ortak bir politika ve Trans-Avrupa ulaşım ağlarının kurulmasının ve geliştirilmesinin teşvikine de yer veriyordu.
+
+Avrupa Birliği'nin ekonomik bütünleşmesinin önemli bir aşamasını teşkil eden Tek Pazar'ın tamamlanması ve etkin işleyişi her şeyden önce birliğin iç sınırları arasındaki teknik olduğu kadar fiziki engellerin de kalkmasına bağlıdır. Gerek topluluk içinde, gerekse topluluk dışında Avrupa pazarının ulaştırma konusuna açılmaması halinde, Avrupa Bütünleşmesi, mal pazarının kaynaştırılması alanında eksik kalacaktır. Sadece ulaştırmaya ve ulaştırma için açılan pazarlar bütünleşebilir Avrupa Birliği'nin tarihsel süreç içerisinde gümrük birliğinden, nihai amacı olan siyasi birliğe olan ilerleyişinde ekonomik bütünleşme açısından, dört temel serbestliğin, yani malların, kişilerin, hizmet ve sermayenin üye ülkeler arasında serbest dolaşımının sağlanmasında ortaya çıkan güçlükler, ortak bir ulaştırma politikası oluşturma ihtiyacını ortaya koymuştur.
+
+Ortak Ulaştırma Politikası, üye devletlerde taşımacılık ile ilgili geçerli kuralların, topluluk seviyesinde ortak ilkelere bağlanmasını gerçekleştirmeye yöneliktir. Temel kuralı; hizmeti yapan işletme, kullanılan araç ya da taşınan mala, ait olduğu ülke dolayısıyla farklı işlem yapılmasını önlemektir. Ortak Ulaştırma politikasının iki temel amacı vardır. Birinci amaç, üye ülkelerde ulaştırma politikalarında mevcut bulunan bütün ayrımcı ve ayrıcalıklı uygulamaları ortadan kaldırarak ortak pazarın yaratılmasını sağlamaktır. İkinci amaç ise, ulaştırma hizmetlerinde bir ortak pazar yaratmaktır.
+
+Avrupa Birliği Komisyonu, 12 Eylül 2001 tarihinde ulaştırma hizmetlerinden yararlananların ihtiyaçlarına cevap veren bir ulaştırma politikası oluşturmak amacıyla hazırlanan 2010 için Avrupa Ulaştırma Politikası: Karar Verme Zamanı isimli Beyaz Kitabı yayınlamıştır. Beyaz Kitap'ta AB'nin ekonomik rekabet gücü korunurken, çevrenin kirlenmesi ve trafik yoğunluğunun azaltılması amacıyla taşımacılıktaki sabit büyüme ve ekonomik büyüme arasındaki bağlantıyı kademeli olarak kaldıran bir strateji ortaya konmuştur. Bu kapsamda değişik taşımacılık şekilleri arasında kurallara uygun bir rekabetin sağlanması ve bunlar arasındaki bağlantıların kurulmasının teşvik edilmesi, taşımacılıktaki darboğazların hafifletilmesi, taşımacılık araç ve hizmetlerini kullanan AB vatandaşlarının ihtiyaç ve taleplerini dikkate alan bir ulaştırma stratejisinin uygulanmasına yönelik 60 kadar önlem önerilmiştir.
+
+Bu önerilen önlemler dört ana başlık altına toplanmıştır:
+
+S Değişik taşımacılık şekilleri arasındaki dengenin sağlanması S Taşımacılıktaki darboğazların giderilmesi
+
+STaşımacılıkta araç ve hizmetlerinden yararlananların ihtiyaçlarının göz önünde bulundurulması
+
+SUlaştırmadaki küreselleşme etkilerinin yönetimi
+
+Ulaştırma Beyaz Kitabı'nda yer alan dört ana başlıktan biri olan ‘'Taşımacılıkta Darboğazların Giderilmesi'' başlığı altında, ana ulaşım hatlarında tıkanıklık ve kapanmanın meydana gelmemesi için ele alınan konulardan biri de önemli altyapı projeleridir. Trans- Avrupa Ulaşım Ağı içinde bulunan tünellerdeki güvenliğin geliştirilmesi bu projeler arasındadır. Ulaştırma Beyaz Kitabı'nda ‘'Tünel Güvenliğinin Geliştirilmesi'' başlığı altında uzun tünellerde güvenliğin daha da önem kazandığı belirtilmektedir. Uzun tünellerdeki güvenlik, Trans-Avrupa Ulaşım Ağı'nın geliştirilmesinde hayati önem taşıyan bir konudur. Sınırlar arası önemli sayıdaki karayolu ya da demiryolu bağlantılarında, ister proje aşamasında, ister yapım aşamasında olsun, uzunluğu bazen 50 kilometreyi geçen çok önemli tüneller yer almaktadır. Topluluğun finansal desteğini almış ya da alacak olan bu projelerden bazıları şöyledir:
+
+S Fransa ve İspanya arasında yer alan 8 km uzunluğundaki Somport Tüneli,
+
+S Danimarka-İsveç arasındaki demiryolu-karayolu bağlantı hattı,
+
+S Gelecekteki Lyon-Turin transalpine demiryolu bağlantısı,
+
+S Brenner Projesi ve
+
+S Hâlihazırda inşa edilen Bologna-Florance arası hızlı hat (Bu 90 km'lik projenin 60 km'si tünellerle geçilmektedir).
+
+Var olan yapıların bir kısmında ya yaşlanma ile ilgili problemler yaşanmaktadır (demiryolu tünellerinin %80'i 19. yy 'da inşa edilmiştir) ya da sürekli artan trafikle başa çıkılmasında zorlanılmaktadır. Mevcut ulusal yasalar büyük farklılıklar göstermektedir. Bazı üye devletler tünel güvenliği ile ilgili yasalara sahipken, diğerlerinde bu konuda yasalar hiç gelişmemiştir ya da hiç bulunmamaktadır. Avrupa Birliği tünellerdeki güvenliğin gelişmesi için hem teknik düzeyde hem de tünellerin işletimi konusunda yardımcı olabilecektir.
+
+Bu yüzden önemle üzerinde durulması gereken, minimum güvenlik standartlarının uyumu şeklinde bir direktif formunda oluşabilecek Avrupa tüzüğüdür. Bu sayede, özellikle Avrupa Ulaşım Ağı'nda yer alan karayolu ve demiryolu tünellerini kullananlar için, yüksek bir güvenlik seviyesini garanti edecek şartlar ortaya konabilecektir. Ayrıca Komisyon, Topluluk fonlarından özellikle Trans-Avrupa Ulaşım Ağı bütçesinden karşılanan tünel içeren projelerde güvenlik konusunda çok tedbirli olacaktır.
+
+2004/54/EC SAYILI KARAYOLU TÜNELLERİ DİREKTİFİ
+
+Bu bölümde direktifin gelişim süreci, hedefleri ve gereklilikleri irdelenecektir.
+
+DİREKTİFİN GELİŞİM SÜRECİ
+
+Avrupa Birliği bünyesinde yer alan tünellerde meydana gelen dramatik kazalar konusunda Enerji ve Ulaşım konularından sorumlu dönemin Avrupa Komisyonu Başkan Yardımcısı Loyola de Palacio şöyle demiştir: "Son yıllarda meydana gelen tünel kazalarında, kurtarılabilecek pek çok insan hayatı kaybedilmiştir. Avrupa Birliği, tüm Avrupa ekonomisinin işlerliği ve gelişmesi konusundaki belirleyici rolünü üstlenebilmek için, yüksek güvenlik seviyesini sağlamak sorumluluğundadır."
+
+Bu sorumluluktan yola çıkarak, Avrupa Birliği Komisyonu, 30 Aralık 2002 tarihinde Avrupa Parlamentosu ve AB Konseyi'nin onayına Trans-Avrupa Ulaşım Ağı kapsamında yer
+
+alan karayolu tünellerindeki minimum güvenlik gerekçesiyle ilgili direktif teklifini sunmuştur.
+
+Söz konusu direktif teklifinde, son yıllarda meydana gelen tünel kazalarının bilançosu şu şekilde özetlenmiştir:
+
+S Son yıllardaki tünel kazalarında, Gotthard'da 11, Mont-Blanc'de 39, Tauern'de ise 12 insan hayatını yitirmiştir.
+
+S Tünel yangınlarının, onarımı dâhil direkt maliyeti 210 milyon euro/yıl'dır.
+
+S Tünellerin kapanmış olmasından kaynaklanan dolaylı maliyetlerin ekonomiye etkisi büyüktür. Mont-Blanc tüneli kazası sonucu, sadece İtalya için bu miktar yıllık 300450 milyon euro arasındadır.
+
+S Tünellerin kapanışı Avrupa ekonomisi için de zararlıdır. Ulaşım bedelleri yükselmekte, rekabet gücü azalmakta, daha uzun yolculuklara neden olmasıyla güvenliği olumsuz yönde etkilemekte ve dolayısıyla çevre kirliliğini de arttırmaktadır.
+
+Avrupa Komisyonu'nun sunduğu direktif teklifinde, bu konuya yaklaşımı iki aşamalıdır:
+
+S Kısa ve orta vadede; Komisyon, tünel kullanıcıları için yüksek bir güvenlik seviyesi oluşturacak minimum standartları belirleyecektir. Dolayısıyla; direktif teklifi teknik
+
+ve işletim güvenliği ile ilgili konuları kapsayacaktır: ekipman, trafik kuralları, bilgilendirme.
+
+S Son zamanlardaki tünel yangınları, mevcut ulaşım sisteminin özellikle dağlık alanlarda sürdürebilirliği konusunda soruları gündeme getirmiştir. Bu yüzden komisyon, orta ve uzun vadeli çözüm olarak, trafiğin karayollarından, kapasitesi uygun olan alternatif ulaşım şekillerine yönlendirilmesini önermektedir.
+
+Avrupa Parlamentosu ve Konseyi 29 Nisan 2004 tarihinde 2004/54/EC sayılı Direktifi ile Trans-Avrupa Karayolu Ağı Tünelleri için minimum güvenlik gereksinimlerini belirlemiştir.
+
+DİREKTİFİN HEDEFLERİ
+
+Direktifin uygulama alanı içine giren karayolu tünelleri olarak; Trans-Avrupa Ulaşım Ağı (TEN) içinde yer alan, 500 metreden uzun, işletmeye açık olan, yapımı devam eden ya da henüz tasarım aşamasında olan tüm tüneller belirlenmiştir. Mevcut durumda, İtalya ve Avusturya'da ki tünel yoğunluğu tüm Avrupa Birliği'ndeki yoğunluğun çok üzerindedir. Ayrıca Avrupa Ekonomik Alanı içerisinde bulunan Norveç, toplam uzunluğu 200 kilometre olan 130 tüneli ile ana ulaşım ağında yer almaktadır.
+
+Şekil 13. Trans Avrupa Yol Ağındaki 500m'den Uzun Tünel Gösterimi
+
+Direktifin mevcut tünellere planlanan uygulama takvimi aşağıdaki şekildedir;
+
+Tablo 2. Direktifin Mevcut Tünellere Uygulanma Takvimi
+
+Tünel güvenliğine etki eden faktörler çeşitlilik göstermekle birlikte şekilde görüldüğü üzere dört ana grupta toplanmıştır.
+
+SÜRÜCÜLER
+
+Karayollarında meydana gelen olaylar incelendiğinde kazaların; sürücülerin, araçların, yolun ve yol çevresindekilerin de dahil olduğu bir veya bir kaç hatadan kaynaklandıkları görülmektedir. Karayolu kazalarında en büyük faktör insan hatasıdır. Yol güvenliğinin artırılması amaçlandığında birinci adım insan hatalarının en aza indirilmesi olmalıdır.
+
+Teknik sorunların giderilmesi insan davranışlarını değiştirmekten çok daha kolay uygulanabilir. Sürücü davranışlarının değiştirilmesi konusunda bilgilendirme, eğitim, kanuni yaptırımlar, trafik cezaları gibi yöntemler kullanılabilir.
+
+Sürücü davranış biçimlerini incelemek amacı ile 2002 yılında Almanya Ulaştırma Bakanlığı tarafından 4 bölüm halinde çalışmalar yapılmıştır (“Behaviour by motorists on evacuation of tunnel” TNA Report TM-02-C134, Soesterberg, 19-54, 2002, Boer, L.C.).
+
+Çalışma
+
+Tünel girişinden hemen önce bulunan petrol istasyonunda 115 sürücünün katıldığı anketle gerçekleştirilmiştir. Sürücülerin tünellerdeki güvenlik önlemleri hakkındaki bilgilerinin ve yangın anında davranış biçimlerinin tespiti amaçlanmıştır. Çalışma sonucu sonuçlar aşağıda listelenmiştir:
+
+Sürücülerin tünellerdeki güvenlik önlemleri hakkındaki bilgileri:
+
+S Acil çıkış kapıları %71 S Yangın söndürücüler %60 S Telefon, acil durum istasyonları %50
+
+S Hiçbir bilgisi olmayan %17
+
+S Resimli kılavuzlar %5
+
+Yangın esnasında davranış düşüncesi:
+
+S Kaçmaya çalışmak %81
+
+S Arabada kalmak %6
+
+S Acil çağrı yapmak %5 S Yardım etmek/Yangını söndürmek %4
+
+S Seçilecek kaçış yönü konusunda
+
+S Yol boyunca kaçmak %60
+
+S Acil çıkış yolundan kaçmak %40
+
+Çalışma
+
+Tünelin içinde bir yangın gerekçesi ile 69 araç durdurulmuş, bir bölümüne güvenli
+
+çıkış için ek bilgiler verilerek acil çıkış kapılarından çıkış yapmaları istenmiştir. Yangın çıkan bölgedeki kişilerin bireysel davranışlarının incelenmesi ve kaçış için verilen bilgilerin uygulanışının gözlemlenmesi amaçlanmıştır. Çalışma sonucu sonuçlar aşağıda listelenmiştir:
+
+S Kaçış için ek bilgi verilmeyen kişilerin %75'i acil çıkıştan çıktı.
+
+S Kaçış için açık ek bilgi verilen kişilerin %95'i acil çıkıştan çıktı.
+
+S Kaçış rotası boyunca kişilerin %70'i okları takip etti.
+
+S Kaçış rotası boyunca kişilerin %18'i okların tersi yönü takip etti.
+
+S Kişilerin %12'si ne yapacağını bilmeyerek bekledi.
+
+S Kişilerin sadece %35'i acil durum istasyonlarını fark etti.
+
+S Kişilerin %15' telefon kullandı.
+
+Çalışma
+
+Bir kamyonda meydana gelen fiktif bir yangın sonucu oluşan 9 trafik sıkışma olayında (her biri 40-50 araçtan oluşan) insan davranışlarının incelenmesi amaçlanmıştır. Çalışma sonucu sonuçlar aşağıda listelenmiştir:
+
+S Tüm testlerde bir kişi hariç herkes aracında kalmayı tercih etti. Testlerin birinde 10 araç tamamen duman içinde kalmasına rağmen araçlardan çıkan olmadı.
+
+S Tahliye işlemi tünel içinde yapılan patlama tehlikesi nedeniyle tünelin tahliye edilmesini belirten anonstan 5 dakika sonra başladı.
+
+Çalışma
+
+Yoğun duman altında insan davranışının incelenmesine yönelik 97 kişinin katıldığı bir çalışmadır. Çalışmanın amacı yoğun duman altında kişilerin acil çıkış kapılarını bulup bulamayacağı konusunda bilgi edinmektir. Çalışma sırasında küçük hoparlör sisteminden oluşan akustik sistemler de test edilmiştir. Teste katılan kişiler 3 gruba ayrılmış; birinci gruba kendi kendilerine güvenli bölgeye geçmeleri, ikinci grupta akustik sinyaller çalışırken güvenli bölgeye geçmeleri, üçüncü gruba ise akustik sinyaller kaçış kapılarının üzerlerinde çalışırken güvenli bölgeye geçmeleri belirtilmiştir.
+
+Çalışma sonucu; Sadece 3. grubun %69'u acil çıkış kapılarına ulaşmış, diğer gruptakilerin büyük çoğunluğu yol boyunca kaçmayı tercih etmiştir ( 1.Grup %84, 2. Grup % 79).
+
+PIARC'ın yaptığı çalışmaya göre üye ülkelerin hiçbirinin ehliyet sınavlarında tünel güvenliğine yer verilmediği (2002 yılından itibaren İsviçre bu konuya yer vermiştir), hiçbir ülkede tünellerde doğru davranış biçimlerini gösteren genel yazılı tavsiyelerin bulunmadığı, ağır yük taşıyan taşıtlar açısından trafik kontrolü ve yaptırımlar konusunda hukuki düzenlemelerin birçok ülkede bulunduğu ancak sürücü eğitimi ve sınavlarında tünellerde davranışlara ilişkin hukuki düzenlemeler olmadığı tespit edilmiştir. Avrupa Komisyonu, Enerji ve Ulaşım Birimi tarafından bir bildiri yayımlanmış ve bu bildiride en önemli temel güvenlik önlemlerine ve tavsiyelere yer verilmiştir. Söz konusu bildiride yer alan tavsiye kuralları temel olarak açık yollarda uyulması gereken trafik kuralları ile benzer niteliktedir. Tünellerde uyulması gereken ek kurallar ise:
+
+S Her bir yönde tek şerit mevcut ise araç sollanmamalıdır.
+
+S Tünel aydınlatılmış olsa dahi farların açık tutulması gereklidir.
+
+S Acil durumlar dışında tünelde durulmamalıdır.
+
+S Tünelde U dönüşü yapılmamalıdır.
+
+Yine aynı bildiride tünel içerisinde durumlara göre doğru davranış şekilleri belirlenmiştir. Bunlar;
+
+Sürüş esnasında:
+
+S Farlar açık tutulmalıdır.
+
+S Güneş gözlüğü çıkarılmalıdır.
+
+S Yol işaretlerine ve trafik ışıklarına uyulmalıdır.
+
+S Öndeki araç ile takip mesafesi korunmalıdır.
+
+S Eğer tünelde mevcut ise radyo belirtilen kanala ayarlanıp tünel radyo yayını
+
+dinlenmelidir.
+
+Tünel içerisinde trafik sıkıştığında:
+
+S Uyarı flaşörleri yakılmalıdır.
+
+S Trafik çok yavaşladığında veya durduğunda dahi öndeki araç ile mesafe korunmalıdır. S Trafik tamamen durduğunda aracın motoru durdurulmalıdır.
+
+S Eğer tünelde mevcut ise radyo belirtilen kanala ayarlanıp tünel radyo yayını
+
+dinlenmelidir.
+
+S Yol işaretlerine ve trafik ışıklarına uyulmalıdır.
+
+Kaza veya arıza durumunda:
+
+S Uyarı flaşörleri yakılmalıdır.
+
+S Motor kapatılmalıdır.
+
+S Araç terk edilmelidir.
+
+S Eğer gerekli ve mümkün ise yaralılara ilk yardım yapılmalıdır.
+
+S Acil durum noktasına gidilerek yardım istenmelidir.
+
+Yangın durumunda:
+
+S Eğer mümkün ise araç tünel dışına çıkarılmalıdır.
+
+S Aracın tünel dışına kadar kullanılması mümkün değilse araç kenara çekilmelidir.
+
+S Araç hemen terk edilmelidir.
+
+S Aracın içinde bulunan veya tünelden temin edilen yangın söndürücü ile yangına ilk müdahale yapılmalıdır.
+
+S Eğer yangının söndürülmesi mümkün görülmüyor ise trafiğin akış yönünde acil çıkışa gidilmelidir.
+
+S Acil durum noktasından yardım istenmelidir.
+
+Yangın meydana gelen bir aracın arkasında durulduğunda:
+
+S Uyarı flaşörleri yakılmalıdır
+
+S Araç kenara çekilmelidir.
+
+S Araç hemen terk edilmelidir.
+
+S Aracın içinde bulunan veya tünelden temin edilen yangın söndürücü ile yangına ilk müdahale yapılmalıdır.
+
+S Eğer yangının söndürülmesi mümkün görülmüyor ise trafiğin akış yönünün tersi istikametinde acil çıkışa gidilmelidir.
+
+S Acil durum noktasından yardım istenmelidir.
+
+TÜNEL İŞLETİMİ
+
+Tünel operatörlerinin ana görevi yol kullanıcılarının normal durumlarda ve kaza esnasında güvenliğini sağlamaktır. Tünelin trafiğe açık olduğu normal koşularda trafik akışını izler ve tüm ekipmanın etkili bir şekilde çalışmasını kontrol eder. Meydana gelmesi muhtemel olay senaryolarını ve yapılması gerekenleri belirler. Meydana gelen olayı tespit eder, ekipmanın gerektiği gibi çalışmasını sağlar ve gerekli diğer kuruluşlarla (trafik polisi, itfaiye, ambulans vb.) koordinasyon halinde olur. Yeterli uzunluğa veya trafik hacmine sahip tünellerde trafiğin ve tünel ekipmanının kontrolü tünel işletim merkezlerince yapılır. Birbirine yakın bazı tünellerde kontrol merkezi olarak tek bir merkez seçilebilir.
+
+Tünel yönetimi ile ilgili direktifte geçen bazı durumlar ve öneriler aşağıdaki şekildedir;
+
+Tünellerde şerit kapatılması; önceden planlanmış inşa ya da bakım çalışmaların nedeniyle şeritlerin tamamen ya da kısmen kapatılması her zaman tünel dışında başlayacaktır. Şeritlerin kapalı olduğu, yol tünele girmeden önce belirtilecektir. Bu amaç için Trafik İşaretleme El Kitabında belirtildiği gibi değişik mesaj işaretleri, trafik ışıkları ve mekanik bariyerler kullanılabilir.
+
+Kaza yönetimi; Ciddi bir kaza veya olay halinde, ilgili bütün tünel tüpleri derhal trafiğe kapatılacaktır. Tünel dışındaki ve tünel içindeki trafiğin mümkün olan en kısa zamanda durdurulabilmesi için tünel girişlerindeki yukarıda bahsi geçen ekipmanın ve gerekirse tünel içindeki değişken ışıklı trafik işaretlerinin ve mekanik bariyerlerin eş zamanlı harekete geçirilmesi ile bu durum gerçekleştirilecektir. 1000 m'den kısa tüneller trafiğe başka şekillerde kapatılabilir. Trafik, durumdan etkilenmemiş araçların tüneli hızlı bir biçimde terk edebilmesini temin edecek şekilde yönetilecektir. Tünelde bir olayın vuku bulması halinde acil hizmetlere erişme süresi mümkün olduğunca hızlı olacaktır ve periyodik tatbikatlar esnasında ölçülecektir. Ayrıca, olaylar esnasında da ölçülebilir.
+
+Kontrol merkezi faaliyeti; Farklı üye ülkelerde başlayan ve biten ve bir kontrol merkezi gerektiren bütün tüneller için tek bir kontrol merkezi, belli bir zamanda, bütün kontrolü sağlayacaktır. Tünel içinde düzenli bir trafik akışı ve daha büyük emniyet sağlamak için özellikler tünel içinde araçlar arasındaki mesafeler ve araçların hızları daha fazla kontrole konu olacaktır.
+
+Tünelin kapatılması; Tünelin kapatılması durumunda (uzun ya da kısa süreli) üye devletler, kolaylıkla erişilebilir bilgi sistemleri aracılığıyla, kullanıcılara en iyi alternatif yol güzergâhlarını bildireceklerdir. Bu tür alternatif yol güzergâhları sistematik beklenmedik
+
+durum planlarının bir parçasını oluşturacaktır. Bu planlar, trafik akışını mümkün olduğu
+
+ölçüde muhafaza etmeyi ve çevre sahalardaki ikincil emniyet etkilerini asgariye indirmeyi
+
+amaçlamalıdırlar.
+
+Tehlikeli maddelerin nakliyesi; Üye ülkeler ve İdari Yetkili Makamları tehlikeli maddeler taşıyan araçların tünellere erişimi ile ilgili aşağıdaki önlemleri uygulayacaktır: Tünel girişlerine hangi grup tehlikeli maddelere izin verildiği/yasak getirildiğini belirten yeni işaretler yerleştireceklerdir; Tehlikeli maddelere ilişkin tünel şartları konusunda karar vermeden önce bir risk analizi yapacaklardır. Tünele girmeden önce beyanda bulunmak ya da koruma aracı (eskort) gibi tehlikeli maddelerin tünel içinde nakledilmesi riskini azaltmak için tasarlanmış işletim tedbirlerini ayrı durumlar için değerlendireceklerdir.
+
+Tünellerde sollama; Ağır araçların, her iki yönde birden fazla şeridi olan tünellerde, sollama yapmasına izin vermek için, üye devletler bir risk analizi yapacaklardır.
+
+Araçlar arasındaki mesafe ve hız; Araçların uymaları gereken hız limitleri ve takip mesafeleri özellikle tüneller için önemlidir ve dikkatle takip edilecektir. Tünel kullanıcılarına, uygun hız ve takip mesafesinin tavsiye edilmesi ve gerekli yaptırım önlemlerinin alınması sağlanacaktır. Normal koşullarda araç sürücülerini araçlarının 2 saniyede kat ettiği mesafe kadar takip mesafesi uygulamaları gerekmektedir. Karayolları Trafik Yönetmeliğine göre bu mesafe yaklaşık olarak araç hızının yarısı kadardır. Ağır yük taşıtları için bu mesafe 2 katı olarak alınır. Tünelde trafik durduğunda öndeki araç ile mesafe en az 5 m olarak muhafaza edilecektir.
+
+Kamu Bilgilendirilmesi; Tünellerdeki güvenliğe ilişkin bilgilendirme kampanyaları düzenli olarak organize edilecektir ve ilgili tarafların katılımı ile birlikte uluslararası kuruluşların eşgüdümlü çalışmaları esas alınarak uygulanacaktır. Bu bilgilendirme kampanyaları, özellikle taşıtın arızalanması, trafik sıkışıklığı, kazalar ve yangınlar ile bağlantılı olarak tünele yaklaşırken ve tünel içinde araç kullanırken karayolu kullanıcılarının doğru davranışlarını kapsayacaktır. Mevcut güvenlik ekipmanına ilişkin bilgi ve karayolu kullanıcısının tünellerdeki doğru davranışına ilişkin bilgi tünel kullanıcıları için uygun yerlerde (örneğin: tünellerden önceki dinlenme alanlarında, trafiğin durduğu zaman tünel girişlerinde veya internette ) bulundurulacaktır.
+
+TÜNEL ALTYAPISI
+
+Tünel altyapısı tünelin yapısal bileşenlerini ve tüm elektronik ve eletkromekanik ekipmanı kapsar. Yapısal bileşenler olarak tünel tüpleri ve geometrisi, tünelin boyuna profili, cepler, acil çıkış yolları, yolun drenajını sağlayan ve havalandırmasını sağlayan kanallar, ekipmanın yerleştirilmesi için gerekli tüm yapılar sayılabilir.
+
+ARAÇLAR
+
+Son yıllarda yaşanan hızlı teknolojik gelişmeler sayesinde motorlu araçlar eskisinden çok daha güvenli hale gelmiştir. Bunun sonucu olarak kaza dolayısıyla yangın riski azalmış, mekanik ve elektrik kontaklarından kaynaklanan yangınlar daha az görülmeye başlamıştır. Araçlardaki gelişmenin sürücülere verdiği güven hissi fizik kanunlarını ve limitlerini (araç kütlesi, merkezkaç kuvveti, fren mesafesi vb.) göz ardı etmelerine neden olmaktadır. Araçların periyodik bakımlarının yapılması özellikle fren, yakıt pompalarının, elektrik sistemleri gibi fonksiyonların düzgün çalıştığından emin olunması gerekmektedir.
+
+Tünel içerisinde araçların arızalanması arkadan gelen araçların hatalı sollama yapmasına ve ciddi kazalara yol açabilmektedir. Tünel içinde meydana gelen araç arızaları ve nedenleri ile ilgili olarak Fransa (6 tünelde) ve Norveç'te (23 tünelde) yapılan sayım sonuçları aşağıdaki şekillerde verilmiştir. Arıza sebepleri tünelden tünele farklılıklar göstermesine rağmen ortalama sonuçlara göre motor ve yakıt ile ilgili sorunların en fazla arızaya sebep olduğu görülmektedir.
+
+Fransa tünellerinde meydana gelen araç arızaları incelendiğinde tünelin boyuna eğimi ile meydana gelen araç arızalanması sayısında doğru orantı olduğu ortaya çıkmıştır.
+
+S Şehir içi tünellerinde oran = ( 69 x (% eğim) + 660 ) 10-8araç km.
+
+S Tek yönlü tünellerinde oran = ( 93 x (% eğim) + 290 ) 10-8araç km.
+
+S Çift yönlü tünellerinde oran = ( 136 x (% eğim) + 400 ) 10-8araç km'dir.
+
+DİREKTİFİN GEREKLİLİKLERİ
+
+Direktifin gerekliliklerini organizasyon gereklilikleri ve teknik gereklilikler olarak 2 kısma ayrılmıştır.
+
+ORGANİZASYON GEREKLİLİKLERİ
+
+Avrupa Birliği kriterlerine göre yapısal önlemlerin yanı sıra işletme yönünden de bazı önlemlerin alınması ve alınan önlemlerin belirli makamlarca düzenli kontrolünün yapılması hedeflenmektedir. İşletme yapılanması dört ana unsurdan oluşmaktadır;
+
+S İdari yetkili makam S Tünel yöneticisi SGüvenlik yöneticisi (Teknik)
+
+SBağımsız denetleme yetkilisi/kuruluşu
+
+İDARİ YETKİLİ MAKAM
+
+Üye ülkeler tarafından atanacak ve tünel güvenliği ile ilgili tüm konularda bütün sorumluluğa sahip olacaktır. İdari Yetkili Makam, ulusal, bölgesel veya yerel olabilir. Sınır kat eden tüneller için her üye ülke bir idari yetkili makam atayacaktır. İdari Yetkili Makamlar, yeni bir tünel yapılması ya da bir tünelin yeniden yapılması için izin vermek durumundadırlar. Ayrıca bir tünelin işletimini, güvenlik koşulları sağlanmıyor ise, askıya alabilir ya da yasaklayabilir.
+
+İdari yetkili makam; tünelle ilgili test ve kontrol çalışmalarını yaptırmalı, güvenlik gereksinimlerini ve planlarını yaptırmalı, tüm acil durum senaryolarıyla ilgili tatbikatları yaptırmalı, tünelin kapatılması gibi acil durum kararlarını almalı ve gerekli risk çalışmalarını (önerilen 6 yılda 1) yaptırmalıdır.
+
+Örgütlenme seviyesinde İdari Yetkili Makam yol tünellerinde kaza/olay koordinasyonu ve denetlemesi için aşağıdakileri yerine getirecektir:
+
+S Emniyet bakımından tünellerin incelenmesi için şartları belirleyecektir.
+
+S Emniyet Görevlileri ile birlikte acil durum hizmetlerinin eğitimi ve teçhiz edilmesi için örgütlenme ve operasyon programlarını denetleyecektir (acil durum hareket planları dâhil).
+
+S Emniyet Görevlilerinin görevlerini tanımlayacaktır.
+
+S Gerekli risk azaltma önlemlerini denetleyecek ve uygulayacaktır.
+
+Acil durum hizmetlerinin eğitimi ve yangın testlerinin uygulanması için tünelleri kapatacaktır.
+
+TÜNEL YÖNETİCİSİ
+
+Her tünel ya da grup tüneller için İdari Yetkili Makam bir tünel yöneticisi
+
+belirleyecektir. Tünel yönetimi kamusal ya da özel bir organ olabilir ve tüm tünel işletiminden sorumlu olacaktır. Sınır kat eden tüneller için her iki İdari Yetkili Makam da aynı tünel yönetimini tanıyacaktır. Kendisine bağlı bulunan her bir tünelin günlük bakım, işletme, acil durum ve güvenlik tedbirlerinden sorumludur.
+
+GÜVENLİK YÖNETİCİSİ (TEKNİK)
+
+Her tünel için, tünel yöneticisi tarafından görevlendirilecektir. Kullanıcıların güvenliği ve işletim personelinin güvenliğini sağlamak için gerekli tüm önleyici ve koruyucu önlemleri denetleyecektir. Emniyet görevlisi tünel güvenliği ile ilgili tüm konularda bağımsız olacak, bu konularda bir işverenden talimat almayacaktır.
+
+Tünel işletimi trafik akışının sürekliliğini ve güvenliğini temin edecek şekilde organize olmalı ve yürütülmelidir. Tünel işletimine katılan personel ve acil durum servisleri gerekli temel ve uygulamalı eğitim almalıdırlar.
+
+Her tünel için acil durum planları hazırlanacaktır. Farklı ülkelerde başlayıp biten tüneller için her iki ülkenin de dâhil olduğu tek bir acil durum planı oluşturulacaktır.
+
+Güvenlik Yöneticisi, tüm yangın, kaza ve ya bağlantılı olayların kayıtlarını tutar ve uygun seviyedeki detayda İdari Yetkili Makamın dikkatine sunar.
+
+BAĞIMSIZ DENETLEME YETKİLİSİ VEYA KURULUŞU
+
+Güvenlik değerlendirmeleri, testleri ve denetlemesi için (6 yılda 1 önerilen) üye
+
+ülkeler tarafından atanacaktır. Bu fonksiyonu İdari Yetkili Makamın kendisi de yürütebilir, ancak tünel yönetimine bağlı bir organizasyon Denetleme Heyeti olarak yetkilendirilemez.
+
+TEKNİK GEREKLİLİKLER
+
+AB Direktifine göre tünel alt yapı ve teknik gereksinimleriyle ilgili getirilen minimum kriterlerin özeti aşağıdaki tabloda verilmiştir.
+
+TÜP SAYISI
+
+Bir tünelin tüp sayısının belirlenmesi için ana kıstaslar; S Ağır vasıta yüzdesi S Eğim
+
+S Uzunluk
+
+S Tahmini trafik hacmi ve güvenliği olacaktır.
+
+Tünellerin proje aşamasında, herhangi bir durumda 15 yıllık trafik tahmini yapılır, yapılan tahmin sonucunda şerit başına günlük 10.000 araç sayısının aşılacağını görülürse tek yön trafikli çift tüplü tünel yapılır.
+
+Arıza şeridi hariç tünel içinde ve dışında aynı sayıda şerit olacaktır. Herhangi bir şerit sayısı değişikliğinde tünel girişinde yeterli mesafede bilgilendirme yapılacak ve güvenlik tedbirleri alınacaktır. Bu mesafe en az, tünel içinde ki hız sınırında seyreden aracın 10 sn' de kat edeceği uzunlukta olacaktır. Coğrafi koşullar bunu önlerse güvenliği artırmak için ilave ve/veya destekleyici önlemler alınacaktı
+
+Şekil 16. AB Direktifine Göre Altyapı İçin Getirilen Asgari Gereksinimlerin Özeti
+
+Şekil 17. AB Direktifine Göre Altyapı İçin Getirilen Asgari Gereksinimlerin Özeti
+
+: Zorunlu	o : Zorunlu değil
+
+: İstisnalar ile birlikte zorunlu	0 : Tavsiye edilir
+
+Şekil 18. AB Direktifine Göre Altyapı İçin Getirilen Asgari Gereksinimlerin Özeti
+
+TÜNEL EĞİMİ
+
+Bir tünelin kesit geometrisi projelendirilirken;
+
+S Düşey ve yatay güzergâhlara
+
+S Erişme yollarına S Güvenliğe özel önem verilecektir.
+
+Coğrafi olarak mümkün olduğu müddetçe yeni tünellerde % 5' in üzerindeki boyuna eğimlere izin verilmeyecektir.
+
+Eğimi % 3' ün üzerinde olan tünellerde, bir risk analizine dayalı olarak, güvenliği artırmak için ilave destekleyici önlemler alınacaktır. Yavaşlama şeridi genişliğinin 3,5 m' den az olduğu ve ağır yüklü vasıtalara izin verilen yerlerde, bir risk analizine dayalı olarak, ilave destekleyici önlemler alınacaktır.
+
+KAÇIŞ YOLLARI VE ACİL ÇIKIŞLAR
+
+Arıza şeridi olan yeni tünellerde, bir arıza veya kaza halinde tünel kullanıcılarının kullanması için, yükseltilmiş olsun veya olmasın acil durum yaya yolları temin edilecektir. Tünelin yapım özellikleri imkân vermediği takdirde veya sadece orantısız maliyet ile imkân verdiği takdirde ve tünelin tek yönlü olması halinde ve sabit izleme ve şerit kapama sistemine sahip olması halinde bu koşul uygulanmamaktadır.
+
+Arıza şeridi veya acil durum yaya yolu bulunmayan mevcut tünellerde güvenliğin temini için ilave çözümleyici önlemler alınacaktır. Acil çıkışlar, tünel kullanıcılarına, herhangi bir kaza veya yangın durumunda tüneli araçsız terk etmeleri ve güvenli bir yere erişmeleri imkânını verir ve acil servisler için de tünele yaya olarak erişim sağlar.
+
+Acil çıkış örnekleri şunlardır;
+
+S Tünelden dışarıya doğrudan çıkışlar,
+
+S Tünel tüpleri arası enine geçişler,
+
+S Acil galeriye çıkış,
+
+S Tünel tüpünden ayrı olarak kaçış yollu sığınaklar.
+
+Açık alana çıkışı sağlayan kaçış yollarına geçişi olmayan sığınaklar inşa edilmeyecektir. Eğer lokal şartlar altında dumanın ne kadar uzağa gideceği ve ne kadar hızlı yayılacağını kapsayan ilgili risklerin analizi, kullanıcıların güvenliğini sağlamada havalandırma ve diğer güvenlik şartlarının yetersiz olduğunu gösteriyorsa acil çıkışlar teşkil edilecektir.
+
+Herhangi bir durumda, yeni tünellerde trafik hacmi şerit başına 2000 araçtan yüksek olduğunda acil çıkışlar teşkil edilecektir. Şerit başına araç sayısı 2000' den büyük trafik hacmine sahip 1000 m' den uzun mevcut tünellerde acil çıkışlar yapılmasının fizibilitesi ve etkisi değerlendirilecektir. Acil çıkışların olduğu yerde iki acil çıkış arasındaki mesafe 500 m' yi aşmayacaktır.
+
+Tünel kullanıcılarının güvenli bir şekilde dışarıya ulaşabilmeleri ve acil hizmetlerin tünele erişim sağlayabilmeleri için, güvenlik çıkışlarının gerisindeki boşaltma güzergâhlarına duman ve ısının ulaşmasını engellemek üzere kapı gibi uygun araçlar kullanılacaktır.
+
+ACİL SERVİSLER İÇİN ERİŞİM
+
+Tüplerin hemen hemen ve ya tamamen aynı seviyede olduğu çift tüplü tünellerde acil hizmetlerin kullanımı için uygun çapraz bağlantılar her 1500 m' de bir temin edilecektir. Coğrafi açıdan mümkün olduğunda, çift tüp veya çok-tüplü tünellerin her bir girişinin dış kısmında refüj (refüj şeridi) geçişi mümkün kılınacaktır.
+
+CEPLER
+
+Yeni yapılacak tünellerde trafik hacminin şerit başına 2 000 motorlu taşıttan yüksek olduğu, 1500 m'den uzun, yeni, iki yönlü tünellerde eğer arıza şeridi temin edilmemiş ise, 1000 m'yi geçmeyecek mesafelerde cepler temin edilecektir. Mevcut tünellerde 1 500 m'den uzun, şerit başına 2 000 motorlu taşıttan fazla trafik hacmine sahip ancak arıza şeridi olmayan mevcut iki yönlü tünellerde cep uygulamasının fizibilitesi ve yararı değerlendirilecektir.
+
+Tünelin yapım özelliği imkân vermez ise veya sadece orantısız maliyette imkân verir ise, yükseltilmiş kısımlar ve normal trafik şeritleri hariç motorlu taşıt erişilebilirliği olan toplam tünel genişliği en azından tek bir normal trafik şeridinin genişliğine eşit ise, ceplerin temin edilmesi zorunlu değildir. Cepler, bir acil hizmet istasyonu kapsayacaktır.
+
+DRENAJ
+
+Tehlikeli madde taşımacılığına izin verilmesi durumunda, yanıcı ve zehirli sıvıların drenajı tünel en kesitlerinde iyi tasarlanmış mazgal delikleri veya diğer önlemler vasıtası ile temin edilecektir. Buna ilaveten, drenaj sistemi, tüplerin içinde ve tüplerin arasında yangının ve yanıcı ve zehirli sıvıların yayılmasını önlemek üzere projelendirilecek ve sağlanacaktır. Mevcut tünellerde, bu koşul karşılanamaz ise veya sadece orantısız maliyet ile karşılanabilir ise, ilgili risklerin analizi temelinde tehlikeli madde taşımacılığına izin verme konusunda karar alınırken bu durum göz önünde bulundurulacaktır.
+
+YAPILARIN YANGINA KARŞI DAYANIKLILIĞI
+
+Yapının yerel çökmesinin felaketle sonuçlanması durumunda (örnek: batık tüneller veya önemli bitişik yapıların çökmesine neden olabilecek tüneller) tüm tünellerin ana yapısında yeterli seviyede ateşe dayanıklılık temin edilecektir.
+
+AYDINLATMA
+
+Normal aydınlatma, tünel içerisinde olduğu gibi giriş bölgesinde de, sürücülere yeterli gündüz ve gece görünürlüğü sağlayacak özellikte olacaktır. Güvenlik aydınlatması, bir güç kaynağı arızası durumunda araçlarıyla tüneli tahliye etmeleri için, tünel kullanıcılarına asgari görünürlük sağlayacaktır. Tahliye aydınlatması, örneğin 1.5 m'den yüksek olmayacak şekilde tahliye işaret ışıkları, acil durumda tüneli yürüyerek terk etmeleri için tünel kullanıcılarına kılavuzluk yapacaktır.
+
+HAVALANDIRMA
+
+Havalandırma sisteminin tasarımı, yapımı ve işletmesinde aşağıdaki hususlar dikkate alınacaktır.
+
+S Normal ve zirve trafik akışlarında araçlardan yayılan kirleticilerin, kontrolü,
+
+S Bir olay veya kaza nedeniyle duran trafikteki araçlardan yayılan kirleticilerin
+
+kontrolü,
+
+S Bir yangın durumunda sıcaklık ve duman kontrolü,
+
+Şerit başına 2000 araçtan yüksek trafik hacmine sahip 1000 m' den uzun tüm tünellerde mekanik havalandırma sistemi tesis edilecektir. Çift yönlü veya yoğun tek yön trafikli tüm tünellerde, boyuna havalandırma yapılacaktır. Mekanik havalandırma sisteminin gerekli olduğu ve boyuna havalandırmaya izin verilmediği tünellerde enine veya yarı-enine havalandırma sistemleri kullanılacaktır. Bu sistemler bir yangın durumunda dumanı tahliye etme yeteneğine sahip olacaktır.
+
+Trafik hacmi şerit başına 2000'den yüksek, 3000 m' den uzun ve bir kontrol merkezi olan enine ve/veya yan-enine havalandırmalı tüm çift trafik yönlü tünellerde havalandırma ile ilgili olarak aşağıdaki asgari önlemler alınacaktır.
+
+S Hava ve duman deşarj kapakları ayrı ayrı veya gruplar halinde çalıştırılabilecek şekilde tesis edilecektir,
+
+S Boyuna hava hızı sürekli izlenecek ve havalandırma sisteminin (kapaklar, fanlar, vb.) yönlendirme süreci uyumlu olarak ayarlanacaktır.
+
+ACİL İSTASYONLAR
+
+Acil hizmet istasyonları, muhtelif güvenlik ekipmanının temini için, özellikle acil hizmet telefonları ve yangın söndürme cihazları için öngörülmektedir, ancak karayolu kullanıcılarını yangının etkisinden korumak üzere planlanmamıştır.
+
+Acil hizmet istasyonları yan duvarda veya tercihen duvara gömmeli bir kutudan ibaret olabilmektedir. En azından bir acil hizmet telefonu ve iki yangın söndürme cihazı ile teçhiz
+
+edilecektir.
+
+Acil hizmet istasyonları, yeni tüneller için 150 m'yi geçmeyecek, mevcut tünellerde 250 m'yi geçmeyecek aralıklarla temin edilecektir.
+
+SU EKİPMANI
+
+Tüm tüneller için su temini sağlanacaktır. Su muslukları tünel girişlerine yakın ve içerde 250 m'yi geçmeyecek aralıklarla temin edilecektir. Su temini mevcut olmadığında, yeterli suyun başka bir şekilde temin edildiğini beyan etmek zorunludur.
+
+YOL İŞARETLERİ
+
+Üye Ülkeler, gerekirse, tünelden önceki uyarı sahasında, tünelin içinde ve tünelin bitiminden sonra uygun işaretleri kullanacaktır. Bir tünel için işaretler tasarlanırken, yerel trafik ve yapım koşulları ve yanı sıra diğer yerel koşullar göz önünde bulundurulacaktır. Viyana Anlaşmasını uygulamayan Üye Ülkelerin haricinde, “Yol İşaretleri ve Sinyallere İlişkin Viyana Anlaşmasına uygun işaretler kullanılacaktır.
+
+Tünellerde kullanılacak yol işaretleri ve semboller aşağıda belirtilmiştir. Aksi belirtilmedikçe bu bölümde bahsedilen yol işaretleri 1968 yılında imzalanmış olan “Yol İşaretleri ve Sinyallere İlişkin Viyana Anlaşması'nda tanımlanan işaretlerdir.
+
+İşaretlerin, işaret sisteminin uluslararası anlaşılabilirliğini kolaylaştırmak için her bir işaret sınıfının şekil ve renk özelliğinin kullanımı, mümkün olduğunda, yazı değil grafik simge kullanımı esas alınacaktır. Üye ülkeler öngörülen işaret ve sembollerin değiştirilmesini gerekli görürse, değişiklikler, işaret ve sembollerin temel özelliklerini değiştirmeyecektir. Üye Ülkelerin Viyana Anlaşmasını uygulamadığı durumlarda, yapılan değişiklikler temel amacı değiştirmeyecek ise, öngörülen işaret ve semboller değiştirilebilir.
+
+Ülkemizde de 2918 sayılı Karayolları Trafik Kanunu gereği Yol İşaretleri standarda koyulmuştur. Ayrıca Karayolları Bakım, Onarım ve İşaretleme El Kitabında belirtilen işaretlere uyulması zorunludur.
+
+Cepler; Cepleri belirten işaretler Viyana Anlaşmasına göre E işaretleri olacaktır. Telefon ve yangın söndürücüler ek levha veya işaretin üzerinde belirtilecektir. Güvenlik çıkışları: bütün güvenlik çıkışları için aynı işaret kullanılacaktır. Tahliye güzergâhları: en yakın iki güvenlik çıkışı 25 m'den fazla olmayan aralıklarla, tahliye seviyesinin 1,0 ila 1,5 m
+
+yukarısındaki yükseklikte, çıkışlara olan mesafeyi gösteren yan duvarlardaki levhalar ile
+
+belirtilecektir.
+
+Tünel İşareti; Levhanın at kısmında veya ek levha üzerinde uzunluk belirtilecektir. 3000 metreden uzun tüneller için her 1000 metrede tünelin kalan uzunluğu da belirtilecektir. Tünelin ismi de belirtilebilir.
+
+Yatay işaretlemede;
+
+S Yol kenarında yatay kurb taşı kullanılmalıdır.
+
+S İki yönlü tünellerde, iki yönü ayıran refüj çizgisi ( tek veya çift ) boyunca açıkça görülebilecek araçlar kullanılmalıdır.
+
+Acil Hizmet İstasyonları; Acil hizmet istasyonları: acil hizmet telefonlarının ve yangın söndürücülerin mevcudiyetini belirtmek için yerleştirilmiş işaretlerdir. Acil hizmet istasyonlarında Viyana Anlaşmasına göre F işaretleri olan bilgilendirici işaretler bulunacak ve karayolu kullanıcıları için mevcut olan ekipmanı belirtecektir.
+
+Tünelden bir kapı ile ayrılan acil hizmet istasyonlarında uygun dillerle yazılmış açıkça okunan yazı ile yangında acil hizmet istasyonunun koruma garantisi olmadığı açıkça belirtilecektir. Aşağıda örneği verilmiştir.
+
+“BU ALAN YANGINDAN KORUMA SAĞLAMAMAKTADIR
+
+ACİL HİZMET ÇIKIŞLARINA YÖNLENDİREN İŞARETLERİ İZLEYİNİZ”
+
+Acil Hizmet Çıkışları; Acil hizmet çıkışlarını belirten işaretler Viyana Anlaşmasına göre G işaretleri olacaktır. Örnekleri aşağıdadır:
+
+Ayrıca en yakın iki çıkışı belirten işaretin yan duvarlara asılması gerekmektedir.
+
+Şerit sinyalleri; Bu işaretler yuvarlak veya dikdörtgen olabilmektedir. Değişik mesaj işaretleri trafik sıkışıklığı, arıza, kaza, yangın veya diğer tehlikeler hakkında tünel kullanıcılarına bilgi verecek olan herhangi değişik mesaj işareti açıkça belirtilmiş olacaktır. VMS, VTS sistemlerle tehlike uyarıları ve trafiği tanzim görevleri yerine getirilmektedir.
+
+KONTROL MERKEZİ
+
+3000 m' den uzun ve şerit basına 2000 araçtan yüksek trafik hacmine sahip tüm tüneller için bir kontrol merkezi oluşturulacaktır. Farklı tünellerin izlenmesi tek kontrol ünitesinde merkezileştirilebilir.
+
+İZLEME SİSTEMLERİ (Olay Algılama)
+
+Görüntü izleme sistemleri ve trafik olaylarını (örneğin duran araçlar) ve/veya yangınları otomatik algılayabilecek (Olay Algılama Sistemleri) bir sistem kontrol merkezi olan tüm tünellere tesis edilecektir.
+
+TÜNEL KAPATMA EKİPMANI
+
+1000 m' den uzun tüm tünellerde trafik sinyalleri girişlerden önce tesis edilecektir, böylece tünel acil durumlarda kapatılabilecektir. İlave araçlar, örneğin değişken mesaj işaretleri ve bariyerler, mesajlara uyulmasının temini için sağlanabilir.
+
+3000 m' den uzun, kontrol merkezi olan ve trafik hacmi şerit başına 2000 araçtan yüksek olan tüm tünellerin içerisinde, bir acil durumda araçları durduracak ekipmanın, 1000 m' yi aşmayacak aralıklarla olması önerilir. Bu ekipman, trafik sinyallerini ve olası ilave araçları örneğin hoparlörler, değişken mesaj işaretleri ve bariyerleri kapsayacaktır.
+
+HABERLEŞME SERVİSLERİ (Dahili ve Harici Anons Sistemi)
+
+Telsiz ekipmanı (Belirli frekanstaki telsiz yayınlarının tünel boyunca iletimini sağlayan elektronik ekipman) , acil servislerin (bakım, itfaiye, ambulans, vb.), kullanımı için, 1000 m' den uzun ve trafik hacmi şerit basına 2000 araçtan yüksek tüm tünellere tesis edilecektir.
+
+Kontrol merkezinin olduğu yerde, gerektiğinde acil durum mesajlarını iletmek için, tünel kullanıcılarına hitap eden kanalların radyo yayınına giriş yapma imkânı olacaktır. Tahliye esnasında tünel kullanıcılarının dışarıya erişmeden önce bekleyeceği sığınaklarda ve diğer tesislerde, kullanıcılara bilgi aktarılması amacıyla, hoparlörler teçhiz edilecektir.
+
+ACİL GÜÇ TEMİNİ
+
+Tüm tüneller tahliye için kaçınılmaz olan güvenlik ekipmanlarının, tüm kullanıcılar tüneli tahliye edinceye kadar, işletimini sağlayacak bir acil güç kaynağına sahip olacaktır. Elektrik, ölçü ve kontrol devreleri, örneğin lokal bir arızanın, veya bir yangın nedeniyle oluşan bozulmanın diğer sistemleri etkileyemeyeceği şekilde tasarlanacaktır.
+
+EKİPMANLARIN YANGINA DAYANIKLILIĞI
+
+Tüm tünel ekipmanının yangına dayanıklılık düzeyi, teknolojik imkânları ve bir yangın durumunda gerekli güvenlik fonksiyonlarının sürdürülmesi amacı, dikkate alınacaktır.
+
+TÜRKİYE'DE YAPILAN TÜNEL GÜVENLİĞİ ÇALIŞMALARI
+
+Bilindiği üzere, Türkiye Avrupa Birliği'ne üye olduktan sonra Trans Avrupa Ağlarının (TEN-T) bir parçası haline gelmiştir. Bu sebepten dolayı Türkiye'nin kullanımına sunulan AB fonlarının büyük çoğunluğunu ulaştırma sektörü oluşturmaktadır. Türkiye, AB'nin ulaştırma projelerine kaynak sağlamasını temin etmek için Trans Avrupa Ağlarına bağlanması sırasında izleyeceği stratejinin, yapması gereken yatırımların ve Türkiye'yi Trans Avrupa Ağlarına bağlayacak çok modlu taşımacılığı sağlayacak ana güzergâhların belirleneceği, bu güzergâhlara bağlantı sağlayacak önemli ulaştırma ağlarının ve bağlantı noktalarının da ortaya konulacağı Ulaşım Altyapı İhtiyaç Değerlendirme Çalışmasını (TINA Türkiye) hazırlamıştır.
+
+TEN yolu; Türkiye sınırları içerisinde Kapıkule Sınır Kapısından başlayıp, doğuda Sarp, Gürbulak Sınır Kapılarına, güneyde Cilvegözü ve Habur Sınır Kapılarına ulaşmaktadır. Bu güzergâhlarda bulunan tüneller, karayollarının bütünleyici bir parçasını oluşturmaktadır. Aşağıdaki harita ve tablolarda TEN ağında bulunan karayollarımız ve tünellerimiz yer almaktadır.
+
+07.09.2004 tarihinde Karayolları Genel Müdürlüğü'nde toplanan komisyon, dünyada bu uygulamalarda rehber olarak kullanılan;
+
+S Avrupa Parlamentosu ve Konseyi'nin 29.04.2004 tarih ve 2004/54/EC sayılı "Trans-
+
+Avrupa Karayolu Ağı Tünelleri İçin Minimum Güvenlik Gereksinimleri",
+
+S Tüneller İçin Acil Durum Tesisleri Şartnamesi (Japonya, 1997)
+
+S UNECE-Karayolu Tünelleri Uzmanlar Grubu'nun Tavsiyeleri Nihai Rapor S (TRANS/AC.7/9, 2001)
+
+S PIARC Tünellerde Yol Güvenliği (1995)
+
+S Avusturya Planlama Kılavuzu (RVS.9.281, RVS.9.282, RVS.9.261, RVS.9.262)
+
+S CIE (Uluslararası Aydınlatma Komisyonu)
+
+Şekil 19. Ülkemizden Geçen TEN Yol Ağı
+
+kaynaklarını incelemiş, ‘Trans-Avrupa Karayolu Ağı Tünelleri için Minimum Güvenlik Gereksinimlerinin altyapı önlemleri bakımından esas alınmasına karar verilmiştir. Bu direktifte yer almayan hususlar için yukarıdaki belgelerin ilgili hükümlerinin uygulanacağı belirtilmiştir.
+
+KGM'nin 08.03.2005 tarihli ‘Tünellerin Asgari Güvenlik Gereksinimlerine İlişkin Proje Kriterlerinin Belirlenmesiyle İlgili Komisyon Raporu'nda altyapı standartları bakımından AB direktifinin esas alınmasıyla, yeni yapılacak olan tünellerde bu şartların sağlanması kararlaştırılmıştır. Güncel olarak bu kurallar uygulanmaya devam etmektedir.
+
+Sonuçlanan bir diğer çalışma ise 2004/54/EC Direktifinin “Teknik Gereklilikler” kısmının referans alındığı, Şube Müdürlüğümüz tarafından hazırlanan ve 04.08.2015 tarihinden itibaren yürürlüğe giren ‘Tünel İşletme Yönetmeliği'dir (Bkz.EK-3).
+
+2008 yılında İMO Teknik Dergisinin, 2008 4471-4486,Yazı 295 sayılı makalesinde yapılan çalışmada AB Tünel Güvenliği Direktifine göre Türkiye'deki tünellerin bir kısmı incelenmiş ve faydalı sonuçlara ulaşılmıştır. Çalışmada 18 adet karayolu tüneli incelenmiş olup, meydana gelen trafik kazaları istatistiki bilgileri de dâhil olmak üzere ortak sorunların giderilmesine yönelik çözüm önerileri sunulmuştur. Bu hususlardan bazıları aşağıda belirtilmiştir.
+
+Sorun: Tünellerde meydana gelecek bir yangına müdahale için yerel itfaiye teşkilatı ile protokol yapılmakta ve olası bir yangında bu itfaiye teşkilatından yararlanılmaya çalışılmaktadır. Ancak tüneller genellikle kırsal ve dağlık arazide olduğu için yerel itfaiyenin bölgeye ulaşması güç olmakta ve itfaiyenin ulaşım süresi ortalama olarak yarını saati aşmaktadır. Tünel yangınları incelendiğinde bu sürenin çok uzun olduğu ortaya çıkmaktadır. Ayrıca itfaiyenin bir tünel yangınına müdahale edebilecek yeterli teçhizat, ekipman ve donanıma sahip olmadığı görülmektedir.
+
+Öneri: İtfaiyenin olay yerine ulaşma süresi göz önünde bulundurularak, yoğun trafikli tünellerde daimi itfaiye biriminin oluşturulması ve olası tünel yangınına müdahale edecek olan itfaiyenin yeterli teçhizat, ekipman, donanım ve bilgi birikimine sahip olması sağlanmalıdır.
+
+Sorun: Türkiye’de biı kaza durumunda tünel güvenliğinin sağlanması ve kazaya müdahalede rolü olan itfaiye, ambulans, polis, jandarma gibi kurumlanıl arasında bir koordinasyon ve bilgi akışı bulunmamaktadır. Bu durum, tünelde meydana gelebilecek olası bir kazaya müdahalede görev dağılımı ve müdahale yöntemleri konusunda karışıklara yol açabilecektir.
+
+Öneri: Yukarıda belirtilen kurumlar arasında koordinasyonu ve denetimi sağlayacak idari yetkisi bulunan bir otoıite/kuramsal yapı oluşturulabilir. Oluşturulan bu kuranı vasıtasıyla tünel işletimine katılan ve tünel güvenliğinden sorumlu tüm personel periyodik eğitimlere tabi tutulabilir, her tünel için acil duranı planları hazırlanabilir ve acil durııııı tatbikatlarının yapılması sağlanabilir.
+
+Sortin: Türkiye’de bugüne kadar toplumun ilgisini çekecek büyük bir tünel kazası meydana gelmediğinden sürücülerin tünel güvenliği konusunda bilgisiz oldukları görülmektedir. Yapılan tatbikatlarda, tünel girişlerinde trafik işaretleri ile tünelde yangın olduğu belirtilmesine ve kırınızı ışıklarla tünele girişlerin yasaklanmasına rağmen sürücülerin tünele gitmeye devanı ettikleri görülmüştür.
+
+Öneri: Sürücülerin tünelde araç kullanırken, aracın arızalanması, trafiğin sıkışması, bir kaza olması ve tünelde yangın çıkması vb. acil bir durumda yapınası gereken davranışlar konusunda bilgilendirilmeleri gereklidir. Bunun için yazılı ve görsel basından faydalanabilir, yerel ve merkezi yönetimler tarafından eğitim programları ve bilgilendirme ve bilinçlendirme kampanyaları hazırlanabilir. Ayrıca sürücü adaylarının eğitimleri sırasında özellikle tünel güvenliği konusunda bilgi aktarılabilir. Mevcut güvenlik ekipmanları ve tünel içerisinde doğru davranış kuralları ile ilgili broşürler hazırlanarak tünellerden önceki dinlenme alanları ve/veya ücret gişelerinde sürücülere dağıtılabilir. Bununla birlikte, sürücülerin tünel içinde hız limitlerine uymalarının ve takip mesafesini korumalarının etkin kontrollerle sağlanması gerekmektedir.
+
+Sorun: Tünellerden tehlikeli madde geçişleri ile ilgili olarak bir kanun ya da yönetmelik bulunmamakta, bu geçişler için Bayındırlık ve İskan Bakanlığı tarafından onaylanan Tünel İşletme ve Bakımı Hakkında Yönetmelik tasarısı Karayolları Genel Müdürlüğü (KGM) tarafından yönerge olarak kullanılmaktadır. Ayrıca Türkiye’de yük taşıyan araçlarda aşırı yükleme problemi ile çok sık karşılaşılmaktadır.
+
+Öneri: Ağır yük taşıyan araçların kurallara uygun olarak yük taşıyıp taşımadıkları etkin ve periyodik denetlemelerle kontrol edilmelidir. Tehlikeli madde taşıyan araçların güvenlik donanımlarının kurallara uygun olup olmadığı da yine yapılacak bu denetlemelerle tespit edilmelidir. Ayrıca tehlikeli maddeler sınıflandırılarak hangi maddeleri taşıyan araçların hangi tünellerden geçmesine izin verileceğine ilişkin risk analizlerinin yapılması ve uygun güzergahların belirlenmesi gerekmektedir. Denetlemelerde yüklemelerle ilgili karşılaşılan kural ihlallerinde, sadece sürücüye ceza verilmemeli, kural ihlalinde sorumluluğu olan taşımacıya da ceza verilmeli ve cezalar caydırıcı olmalıdır.
+
+Not: Yukarıda bahsedildiği gibi söz konusu tasarı günümüzde yönetmelik haline getirilmiştir.
+
+Sorun: Özellikle sınır geçen araçlar, ülkeler arasındaki yakıt fiyat farkı avantajını kullanabilmek için yakıt tanklarını aşırı biçimde büyütmektedirler
+
+Öneri: Ağrı yük taşıyan araçlar ve otobüslerin yakıt tankı kapasitelerinin sınırlandırılması ve denetlemelerle bu yakıt tanklarının kurallara uygunluğunun kontrol edilmesi gereklidir.
+
+Sorun: Avrupa’da meydana gelen bir çok tiiııel yangımmıı aşırı ısınmış motor ve fren sistemi nedeniyle çıktığı görülmektedir. Yüksek eğimli alanlardaki tünellerde fren ve ıııotoı sistemi aşırı derecede ısınmaktadır.
+
+Öneri: Yüksek eğimli alanlardaki tünellerde, araçların motorlaıınm soğuması ve gerekli kontrollerin yapılması için tünel girişlerden önce park alanları oluştunılabiliı.
+
+56
+
+BÖLÜM 3
+
+ENVANTER
+
+ÇALIŞMALARI
+
+58
+
+TESİSLER ve BAKIM DAİRESİ BAŞKANLIĞI SANAT YAPILARI BAKIM ONARIM İŞLETME ŞUBESİ MÜDÜRLÜĞÜ
+
+Sanat Yapıları Bakım Onarım İşletme Şubesi Müdürlüğü taşradaki hizmetlerini; uzunluğuna bakılmaksızın Devlet ve İl Yolları üzerinde kontrol merkezi olan grup Tüneller ile 500 m den uzun ve kontrol merkezi olan her Tünel için kurulan Tünel Bakım İşletme Şeflikleri eliyle yürütmektedir. Tünel Bakım işletme Şefliği olmayan bölgelerde tünel bakım ve işletme işleri Tesisler ve Bakım Başmühendisliği bünyesindeki Sanat Yapıları Bakım Onarım İşletme Şefliği kontrolünde ve ilgili Şube Şeflikleri sorumluluğunda yürütülmektedir.
+
+BÖLGE MÜDÜRLÜĞÜ (İZMİR)
+
+S Sabuncubel Tünel Bakım İşletme Şefliği
+
+2. (İZMİR) Bölge Müdürlüğü sınırları içinde bulunan, 565-10, 565-11 K.K.Nolu yolların kesişim noktasında, İzmir-Manisa devlet yolu üzerinde bulunan Sabuncubel Tüneli (Çift tüp, 2x4070m )(Yapımı devam ediyor) ve 35-63 K:K:Nolu İzmir çevre yolu ayrımı- Konak il yolu üzerinde bulunan Konak Tünelleri ( Çift tüp, 2x1674m) için kurulmuştur.
+
+BÖLGE MÜDÜRLÜĞÜ (KONYA)
+
+3.Bölge Müdürlüğü (Konya) hudutlarında 1 adet tünel bulunmakta olup uzunluğu
+
+457,00 m dir.
+
+BÖLGE MÜDÜRLÜĞÜ (MERSİN)
+
+S Silifke Tünel Bakım İşletme Şefliği
+
+Gazipaşa - Silifke yolu üzerinde bulunan trafiğe açık toplam 5.815,30m uzunluğunda Boğsak, Anamur T5, Anamur T1 tünelleri ve Yapımı devam eden yaklaşık 13,5km uzunluğunda 1 7 adet tünelin bakım ve işletme işleri için kurulmuştur.
+
+S Göksun Tünel Bakım İşletme Şefliği
+
+Göksun - Kahramanmaraş yolu üzerinde bulunan trafiğe açık toplam 9.022,81m uzunluğunda Göksun T0,T1,T2 Tünelleri, Püren Tüneli ve yapımı devam eden yaklaşık 10km uzunluğunda 5 adet tünelin bakım ve işletme işleri için kurulmuştur.
+
+BÖLGE MÜDÜRLÜĞÜ (SAMSUN)
+
+Bölge Müdürlüğü (Samsun) hudutlarında 44 adet tünel bulunmakta olup uzunlukları toplamı 41.552,11 m dir. Mevcut Tünellerin işletilmesi Ordu ve Samsun Tünel Bakım İşletme Şefliği üzerinden yapılmaktadır.
+
+S Ordu Tünel Bakım İşletme Şefliği
+
+7.Bölge Müdürlüğü (Samsun) hudutlarında, 010-18 K.K.Nolu Perşembe-Bolaman Devlet Yolu üzerinde bulunan sağ ve sol tüp toplam uzunlukları 9.343,00 metre olan Kadıoğlu, Kozbükü, Tekkebak, Nefise Akçelik, Asarkayası Grup Tünelleri ve Ordu Mesudiye yolu üzerinde bulunan tünellerin bakım ve işletme işlerini yürütmektedir.
+
+S Samsun Tünel Bakım İşletme Şefliği
+
+7. Bölge Müdürlüğü hudutların bulunan toplam uzunluğu 17.553,43 metre olan 16 adet tünelin bakım ve işletme işleri için kurulmuştur.
+
+BÖLGE MÜDÜRLÜĞÜ (ELAZIĞ)
+
+S Malatya Tünel Bakım İşletme Şefliği:
+
+(ELAZIĞ) Bölge Müdürlüğü sınırları içerisinde bulunan toplam uzunlukları 8.332,00 metre olan 4 adet tünel için kurulmuştur.
+
+BÖLGE MÜDÜRLÜĞÜ (DİYARBAKIR)
+
+Bölge Müdürlüğü (Diyarbakır) hudutlarında 1 adet tünel bulunmakta olup uzunluğu
+
+66,00 metredir.
+
+BÖLGE MÜDÜRLÜĞÜ (TRABZON)
+
+Bölge Müdürlüğü (Trabzon) hudutlarında 107 adet tünel bulunmakta olup uzunlukları toplamı 75.685,80 metredir. Mevcut Tünellerin işletilmesi Trabzon ve Artvin Tünel Bakım İşletme Şefliği üzerinden yapılmaktadır.
+
+S Trabzon Tünel Bakım İşletme Şefliği:
+
+Bölge Müdürlüğü (Trabzon) hudutlarında, 010-19, 010-20, 010-21, 010-22, 01023, 010-24, 010-25 K.K.Nolu Devlet Yolları üzerinde bulunan, sağ ve sol tüp toplam uzunlukları 35.028,00 metre olan Karadeniz Sahil Yolu grup Tünelleri için kurulmuştur. Tünellerin bakım ve işletme işleri, Trabzon Bakım İşletme Şefliğine bağlı Uluburun, Tirebolu
+
+1, Araklı, Çamburnu, Sarayköy 1, Pazar 1 ve Arhavi Kontrol Merkezlerince yürütülmektedir.
+
+S Artvin Tünel Bakım İşletme Şefliği:
+
+10. (Trabzon) Bölge Müdürlüğü sınırları içerisinde, 010-26 K.K. Nolu Devlet yolu üzerinde bulunan toplam uzunlukları 4.894,00 metre olan 12 adet Tünel için kurulmuştur.
+
+BÖLGE MÜDÜRLÜĞÜ (VAN)
+
+Bölge Müdürlüğü (Van) hudutlarında 7 adet tünel bulunmakta olup, uzunlukları toplamı 5.211,90 metredir. Mevcut Tünellerin işletilmesi Bitlis Tünel Bakım İşletme Şefliği üzerinden yapılmaktadır.
+
+S Bitlis Tünel Bakım İşletme Şefliği:
+
+(Van) Bölge Müdürlüğü sınırlarında Bitlis çevre yolu üzerinde ve Trafiğe açık olan 8 Ağustos (1.947 m),(tek tüp) ve Buzlupınar (233 m)(çift tüp) Tünelleri ile Kuskunkıran Tüneli (2.175 m),(tek tüp) Tünelleri için kurulmuştur.
+
+BÖLGE MÜDÜRLÜĞÜ (ERZURUM)
+
+Bölge Müdürlüğü (Erzurum) hudutlarında 4 adet tünel bulunmakta olup, uzunlukları toplamı 2.267,50 metredir.
+
+S Kırık Tünel Bakım İşletme Şefliği:
+
+Bölge Müdürlüğü sınırları içinde bulunan trafiğe açık toplam uzunluğu 2.220m olan 3 adet tünel ve yapım aşamasında olan Kırık(7109x7099), Özbağ1(694x475),
+
+BÖLGE MÜDÜRLÜĞÜ (ANTALYA)
+
+Bölge Müdürlüğü (Antalya) hudutlarında 11 adet tünel bulunmakta olup, uzunlukları toplamı 7.890,04 m dir. Mevcut Tünellerin işletilmesi Alanya ve Kemer Tünel Bakım İşletme Şefliği üzerinden yapılmaktadır.
+
+S Antalya Tünel Bakım İşletme Şefliği:
+
+Bölge Müdürlüğü (Antalya) hudutlarında 11 adet tünel bulunmakta olup, uzunlukları toplamı 7.890,04 m dir. Mevcut Tünellerin bakım ve işletilmesi Antalya Tünel Bakım İşletme Şefliği üzerinden yapılmaktadır.
+
+BÖLGE MÜDÜRLÜĞÜ (BURSA)
+
+Bölge Müdürlüğü (Bursa) hudutlarında 3 adet tünel bulunmakta olup, uzunlukları toplamı 7.131,00 m dir. Mevcut Tünellerin işletilmesi Bilecik Tünel Bakım İşletme Şefliği üzerinden yapılmaktadır.
+
+S Bilecik Tünel Bakım İşletme Şefliği:
+
+(Bursa) Bölge Müdürlüğü sınırlarında 650-03 K.K.Nolu Bilecik -Mekece Devlet yolu üzerinde bulunan toplam uzunlukları 6.524 metre olan Ertuğrul Gazi ve Osman Gazi Tünelleri için kurulmuştur.
+
+BÖLGE MÜDÜRLÜĞÜ (KASTAMONU)
+
+Bölge Müdürlüğü (Kastamonu) hudutlarında 35 adet tünel bulunmakta olup, uzunlukları toplamı 12.395,00 m dir. Mevcut Tünellerin işletilmesi Zonguldak Tünel Bakım İşletme Şefliği üzerinden yapılmaktadır.
+
+S Zonguldak Tünel Bakım İşletme Şefliği:
+
+(Kastamonu) Bölge Müdürlüğü sınırlarında bulunan toplam uzunlukları 12.395,00 metre olan 35 adet tünel için kurulmuştur. Tünel bakım ve işletme işleri Zonguldak Tünel Bakım İşletme Şefliğine bağlı Dorukhan Tüneli Alt Kontrol Merkezi, Yenice Alt Kontrol Merkezi, Zonguldak- Alaplı Tünelleri Alt Kontrol Merkezi ve Cildikısık Alt Kontrol Merkezlerince yürütülmektedir.
+
+BÖLGE MÜDÜRLÜĞÜ (SİVAS)
+
+Bölge Müdürlüğü (Sivas) hudutlarında 5 adet tünel bulunmakta olup uzunlukları toplamı 1.362,00 metredir.
+
+Devlet ve İl yolları üzerinde trafiğe açık 241 adet Tünel bulunmaktadır. Tünellerin uzunlukları toplamı 185.715,46 metre dir.
+
+Devlet ve İl yolu üzerinde bulunan en uzun Tünel Bolaman - Perşembe Devlet Yolu üzerindeki çift tüplü Nefise Akçelik Tünelidir.
+
+Devlet Ve İl Yollarımızda;
+
+500 m. den küçük Tünel adedi 149 500-1000 m. arasındaki Tünel adedi	54
+
+1000-2000 m. arasındaki Tünel adedi	32
+
+2000-3000 m. arasındaki Tünel adedi	5
+
+3000 m. den büyük Tünel adedi	1
+
+Olmak üzere Toplam 241 Adet Tünel bulunmaktadır.
+
+Tablo 3.Envanter Bilgileri Özeti
+
+TÜNEL BAKIM İŞLETME ŞEFİLİKLERİ
+
+Tablo 4. Tünel Bakım İşletme Şeflikleri
+
+500-1000 METRE ARASI UZUNLUKTAKİ TÜNELLER
+
+1000-2000 METRE ARASI UZUNLUKTAKİ TÜNELLER
+
+2000-3000 METRE ARASI UZUNLUKTAKİ TÜNELLER
+
+3000 METREDEN UZUN TÜNELLER
+
+EDREMİT Q, HAVRAN
+
+, CÛKÇEYAZI
+
+BALIKESİR
+
+‘FCDÇüKKUYU
+
+İVRİNDİ,
+
+ERTUĞRllîj
+
+BURHANİYE
+
+KORUCU'
+
+KAYAPA
+
+1 KONAKPINAR ^SAVAŞTEPEı
+
+MİDİLLİ AD. (Lflsvas)
+
+' YAĞCILAR
+
+DAfifftRDL
+
+(Yııkarıbsyl
+
+»GÖLCÜK
+
+’Alayjnl
+
+EMET,
+
+KÜTAHYA
+
+BERGAM/
+
+M SINDIRGI
+
+^*.50MA
+
+KIRKAĞAÇ*
+
+ÇAVDARHİSAF
+
+S i MAVİ
+
+’zeylıraaj
+
+. Palamut
+
+DEMİF
+
+ŞAPHANE
+
+ALTINTAŞ^
+
+GEDlzS
+
+Y.Oadfcj
+
+Yanışa krt
+
+'Demirci BE.
+
+“Akhisar BE.
+
+'AKHİSAR
+
+Sa rayaık
+
+■Alia^ŞFE
+
+PAZARLAR
+
+Sidrs Hrb.
+
+SARUHANLI
+
+KÖPRÜBAŞIİ
+
+DLmİj Gbç
+
+GÛLMARMARA
+
+V ZûSmılWP(ü.-'‘’^ELENDİ'
+
+OUMANİSA
+
+Jiuıı Ad,
+
+BANAZ
+
+ıd’jJ iı<‘
+
+Gçkç-e'orer B.E.
+
+SİNCANLI
+
+SAKIZ AD. fKhios) I
+
+AhmeliBF.
+
+TURGUTLU AHMETLf
+
+afyonkJ
+
+»HİSAR
+
+ke (Hfisgotj
+
+KULA
+
+İUZELBAHt
+
+CEMAL PAŞA^
+
+Yâ5-42	j
+
+San H-b.-.
+
+SALİHLİ
+
+İZMİR
+
+«RADIN EK*
+
+SİVAS LİT
+
+ULUBE'ı7
+
+Daçı-azılr
+
+Gblçük
+
+Ahnâller
+
+ALAŞEHİR ÖJS
+
+- Alaşehir 0.E.
+
+5.ANDIKL
+
+KARAHALLI
+
+BAYINDIR
+
+.Işıdı D.L.
+
+KİRAZ
+
+HSshö-,\
+
+üg&zej, "
+
+Tekilli'
+
+l'û TORBA! Yıkını srae re
+
+KIZ3LÖREN
+
+GÜlTÜŞaP
+
+HFYDAĞ
+
+'Gıımnlnrır Kİ
+
+iSdtiTİRE.
+
+GÜNE'ı
+
+BULDAN Q? <	3
+
+BUHARKENT
+
+ULUBORLU
+
+DİNAR,
+
+Marçumaıa KUŞADASi
+
+" I32M1I
+
+AYDIN
+
+CUYUCAK;
+
+’PAMUKKALE
+
+SİSAM Ab, (Samca)
+
+! NAZİLLİ’ V	~Sj
+
+fil Kııyunsk^YİBasaraıı
+
+"KEÇİBORLU
+
+İNCIRLIOV/
+
+SARAYKOSC
+
+DAZKIRI.
+
+FBeğerbây
+
+jûzelçanlr
+
+dYENİPAZAF
+
+\aı-26
+
+Babadağ
+
+.Jbaşmakçi
+
+KOÇARLI
+
+Sathi
+
+Banara a ı
+
+Ça/ırbayl
+
+Karacasu!
+
+i. Y
+
+BOZKIJRT
+
+TcuıttiAd.
+
+DENİZLİ
+
+« 27 J
+
+YsnjııarWş.'
+
+IWM»I
+
+K-rıkl-rY
+
+rfe^Göiü KARPUZLU (
+
+LSPARTA
+
+Burdtırf
+
+Kıs cacölılk
+
+Yarışlı
+
+Salda üülû	Gölü
+
+?)< lYEgİLOVA_ Qx
+
+LŞERİNHİŞAF A J<arahO)'ûk i
+
+"TAVAS
+
+.Lipatıi Ad.
+
+ACIPAYAM
+
+i KARAMANLI
+
+YATAĞAKT
+
+26
+
+MUĞLJ
+
+l ama An.
+
+sınırı
+
+'TEFENNİ
+
+KELEMEZAD.
+
+(Kalinıp&i
+
+.BODRUM
+
+ÇAMELİj Ça~eli B.FJ|
+
+>ALTINYAYLA
+
+KOYCEĞl
+
+1ARMARİŞI
+
+Köyceğiz'e
+
+•Gölü
+
+Aslipalaia Ad.
+
+IS “İl-ir; ş
+
+I ısıros Ad
+
+SOM BEKİ AD- (Sirnij t
+
+Sabuncubel Tünel Bakım İşletme Şefliği
+
+2.Bölge
+
+ZM R
+
+3 ADET
+
+4.427 M
+
+DENİZLİ
+
+TAVAS
+
+GÜNYÜZÜ
+
+KAMAN
+
+? Bavıa rınlûı:
+
+ÖLÇ^K
+
+'irr-anh'ü
+
+SAYGILI
+
+ALTINTAŞ-
+
+Burunsuz
+
+İNSANİYİ
+
+KIRŞEHİR
+
+S a ray c ■
+
+Mjilte'RirrTo
+
+'EMİRDAĞ
+
+KULU
+
+BAYAT Kûca.tüi >
+
+j'. ırrlı ıpr." -
+
+Hirfanlı Brj.
+
+DÜMLUPINAİ^
+
+İSARIYÂHŞİ
+
+İSCEHİSAR
+
+''^^^ŞEREl^LlKıJçHlS^
+
+Budçnli“
+
+^i/-%?-Seyitler Brj.
+
+’AFYONKARAHİSj
+
+? ÇOBANLAR
+
+Yunak' B.E~
+
+t D
+
+SİNANPAŞıV
+
+*
+
+HhOCAİ!Jî"S&,
+
+YUNAK
+
+.BOLVADİN
+
+O-laküy BEİ ORTAKÛY
+
+A TUZ İG ÖLÜ
+
+Cilıanfcoyiil
+
+CİHANBEYLİ''
+
+ŞUH UT
+
+SUl^JDAĞn
+
+!Pâ2 sıkma «■k TUZLU KÇU
+
+'NEVŞEHİR
+
+In dikli
+
+■ACIGÖL \	Kaynattın
+
+f^ERlNKUYU (
+
+KI^LÛREN
+
+Karaadilli R F J Kaıasdilhl
+
+YALVAÇ-
+
+lliiyvliiılı
+
+=*0 ALTINEKİN
+
+A42-83
+
+ZELYURT Hvril*issr Gsr_,
+
+GankTıtltuar
+
+, \	Ks-330;'\^
+
+DÖĞANHİSARı
+
+I GÖLCÜK
+
+.UBORLU
+
+SENİRKENT
+
+ICÎIKCA
+
+ŞARKÎKARAAĞAÇ'
+
+ÇİFTLİK
+
+Alçaktan H II
+
+.Aşağıçflü
+
+'Eğirdir \ Gölü /
+
+HÖYÜK
+
+TALTUNHİSAR’
+
+EMİRGAZL
+
+NİĞDE
+
+konya
+
+EĞİRDİI
+
+YENİŞAR BADEMLİ
+
+KEMERHİ5AR>
+
+Ismil Fı F.
+
+KARAPINAR
+
+- Tlota niş.
+
+ÇIFTEHAI-
+
+EREĞLİ
+
+'ULUKIŞLA
+
+Ereğli B.E.
+
+«SEYDİŞEHİR
+
+ISaydiş5hiL,_..'A-l
+
+POZANTI
+
+HALKAPINAR
+
+AYRANCI
+
+AHIRLI
+
+gülek)
+
+'Seyhan Brj.
+
+İBRADI1
+
+'AKSEKİ
+
+ı Kazlurtucak B.E.
+
+ERDEMLİ
+
+TOPLAM TÜNEL UZUNLUĞU
+
+457 M
+
+GÜLNAR
+
+3. BÖLGE MÜDÜRLÜĞÜ - KONYA
+
+3.Bölge	KONYA
+
+Otoyollar
+
+KARAMAN O
+
+KAZIMKARABEKİR O
+
+Huğlu
+
+KONYA AKŞEHİR Çumra B.E, Tutup B.E.
+
+TESİSLER VE BAKIM DAİRESİ BAŞKANLIĞI - 01.01.2016
+
+İŞARETLER
+
+inşaa halinde otoyollar Devlet yolları il yolları
+
+Bölünmüş yollar Beton asfalt yollar Sathi kaplamalı yollar Stabilize yollar Toprak yollar Ham yollar Devlet yolu K.K.No İl yolu K.K.No Dağ geçitleri Devlet sınırı İl sınırı
+
+KGM Bölge sınırı Şube sınırı İl merkezi İlçe merkezi
+
+Köy-mevki Bölge merkezi Şube merkezi Bakımevi Refüj alanı
+
+İŞARETLER
+
+Otoyollar
+
+Inşaa halinde otoyollar Devlet yolları il yollan
+
+Bölünmüş yollar Beton asfalt yollar Sathi kaplamalı yollar Stabilize yollar Toprak yollar Ham yollar Devlet yolu K K No İl yolu fCK.No Dağ geçitleri Devlet sınırı il sınırı
+
+KGM Bölge sının Şube sının İl merkezi İlçe merkezi
+
+Köy-mevki Bölge merkezi Şube merkezi Bakımevi Refüj atam
+
+İŞARETLER
+
+Otoyollar
+
+Inşaa halinde otoyollar Devlet yolları	—
+
+İl yolları
+
+Bölünmüş yollar	=
+
+Beton asfalt yollar	—
+
+Sathi kaplamalı yollar	—
+
+Stabilize yollar
+
+Toprak yollar Ham yollar
+
+Devlet yolu K.KJto	—
+
+llyoluK.K.No
+
+Dağ geçitleri
+
+Devlet sınırı
+
+İl sının
+
+KGM Bölge sınırı Şube sınırı
+
+II merkezi	Sİ i E
+
+İlçe merkezi	has
+
+9.Bölge
+
+DİYARBAKIR
+
+Keban Barap
+
+.^AUPLİT
+
+ELAZIĞ
+
+BİNGÖL
+
+gOOU-LU
+
+HASXÖV
+
+’ MU TKİ
+
+SİİRT	O
+
+HASANKEYF	O
+
+HAÎRO
+
+KOZLUK,
+
+, HİZAN
+
+Köy-mevki Bölge merkez Şube merkezi Bakımevi Refüı alanı
+
+DİYARBAKIR ©
+
+SİVEREK 96 Ö
+
+Eruh B.E	•
+
+ADIYAMAN
+
+HALFETİ
+
+SURUÇJ
+
+ÇÜNGÜŞ
+
+IBAYKAN
+
+S*ĞINI I
+
+ŞIRNAK
+
+ŞANLIURFA
+
+HARRAN
+
+tAKÇAKALE
+
+DfcHİKı
+
+sko#’l
+
+VK.ıi’inNr B f
+
+VİRANŞEHÜ
+
+İMUKGUL
+
+ARTVIN
+
+ARDANUÇ'
+
+ttASKOv
+
+jÇA'nnflAŞi
+
+(PERŞEMBE
+
+ORDU
+
+YUSUFELİ,
+
+UZdNÖA,
+
+ULUBEYİJ
+
+)KABAQCİz(
+
+:avkara
+
+ÇAMLlKATA
+
+ihane. O
+
+ŞENYüRT
+
+.epw9e
+
+ALUCRA"
+
+ŞEBİNKARAHİSAR
+
+I'OEMİRÖZÛ
+
+ÇAMOLUK
+
+ERZURUM
+
+OİLUKBELİ ı,
+
+AŞKALE
+
+ÇATAL ÇATZ
+
+REFAHİYE
+
+Ç*TftUWMU|,
+
+ERZİNCAN
+
+UZUML1
+
+Afrira
+
+Han artı ln -1 86
+
+Mucitinin-? 141
+
+ÖcKûrtüıı
+
+TRABZON
+
+10.Bölge
+
+Artvin Tünel Bakım işletme Şefliği
+
+Trabzon Tünel Bakım İşletme Şefliği
+
+-"•İL | R
+
+Kûy-mevki Bölge merkezi Şube merkezi Bakımevi Refuj atanı
+
+GİRESUN O
+
+Aıûartvt 9 E
+
+TESİSLER VE BAKIM DAİRESİ BAŞKANLIĞI ■ 01.Dt.2016
+
+■psa halinde otoyollar □övtel yolları II yolları
+
+Bölünmüş yollar Beton asfart yollar Şafti kaplamalı yollar StaEkLze yollar Toprak yollar Ham yollar Devlet yolu K K Nd İl yolu K-K-Nû Dağ geçitten □evle, sının I, sının
+
+KGM Bölge sınırı Şube sınırı İl merkezi İlçe merkezi
+
+10	0	10	20	30	40	50
+
+ÖLÇEK —						.	__ Km
+
+TERCAN
+
+Mc«yoTû'vı
+
+TRABZON
+
+AKÇAABAT C 5
+
+TAŞUÇAY
+
+DİYADİN
+
+□Qksu
+
+YEDfâU
+
+KAfİAÇÜÜAN
+
+PATNOS
+
+ÇALDIRAN
+
+KAHAKÛPKV
+
+VARTO]
+
+vnntı l> (.1
+
+MURADİYE
+
+GOvNUK
+
+SOLHAN
+
+iLhCAtAfl
+
+SARAY
+
+BİNGÖL
+
+YLHIÜAŞAK
+
+İŞARETLER
+
+Otoyollar
+
+lııyaa HaNnd» otoyollar Dtrvlet yollan İl yolları
+
+Bölünmüş yolhır Beton asfalt yu#ar Sel İti kfiplfimnlı yollnr Stobiltee yolhr Toprak yollar Ham yollar DeVlol yolu K.K.No İl yolu K.K.No Dağ geçitleri Devle! sınırı
+
+GÜRPINAR
+
+"bahçe&aray
+
+-	■ -I mı
+
+BAŞKAtF
+
+■njrekOtruB t.
+
+KURTALAN
+
+'OOftAHCA
+
+ERUH
+
+ı YÜKSEKOVA
+
+HAKKARİ
+
+BİTLİS
+
+BAŞKALE
+
+ŞEMDİNLİ
+
+Köy-mevki Bölge merkezi Şube merkezi Bakımevi Refüı alanı
+
+,ÇUKURCA
+
+VAN
+
+MALA2SİBT
+
+TESİSLER VE BAKIM DAİRESİ BAŞKflULIGl - 01.01.2016
+
+Bitlis Tünel Bakım İşletme Şefliği Tünelleri
+
+MASKÛY ,H
+
+12.Bölge	ERZURUM
+
+UEvtu
+
+OfllAKOY
+
+ARTVİN
+
+ARDAHAN
+
+ARDANUÇ
+
+İŞARETLER
+
+Otoyollar	aa ■
+
+Inşaa halinde otoyollar Devlet ydlan
+
+İl yollan	—
+
+Bölünmüş yollar Balon anlan yoBar
+
+Sathı kaplamalı yolla*	—
+
+Slaü*li2E yollar	—
+
+Toprak yollar
+
+Ham yollar	=
+
+Devlet yolu K.K, No	—
+
+İl yolu K.K,No
+
+Muıma.<>ıaiA«. PAZARYOt ıJj?
+
+Kırık Tünel Bakım İsletme Şefliği
+
+, BAYBURT
+
+121 |
+
+AŞKALE
+
+TERCAN
+
+UÇOAU S.
+
+.YEDİSU
+
+KARLIOVA,
+
+ÖLÇEK
+
+SARiooı	V	(*“-*)Tl
+
+î	I	Z	i	\
+
+\ ir-Oûotrrj/	/	4|,1	v
+
+IJ\ />□ JFt	I I
+
+Tl	/	l!" ir olur
+
+-T	K .Aj»
+
+I _*<	' 1
+
+ZT	i
+
+NARMANİ
+
+M * ;»**■*>
+
+PASİNLER
+
+KARAÇ08AN,
+
+jf
+
+KARS.
+
+Dag geçinen Devlet sının İl sının
+
+KGM Bölge sının Şube sınırı İl merkez* hço merkezi
+
+AĞRI
+
+AŞKALE
+
+ÇAMAfl
+
+ŞENKAY/
+
+ELEŞKİRT
+
+TUTAK
+
+J MALAZGİRT
+
+«OTBK
+
+KAĞIZMAN
+
+TAŞLIÇAY
+
+PATNOS
+
+TUZLUCA
+
+Köy-mevki Bölge merkezi Çubu merkezi Bakımevi Rel£r| elanı
+
+OUrtıııtafc ».m* mih
+
+ERZURUM	O
+
+AŞKALE :	•
+
+VMylnnrerSC	*
+
+KUM ek	•
+
+TESİSLER VE BAKIM DAİRESİ BAŞKANLIĞI - U1 01.2016
+
+"arakoyunl I
+
+İĞDIR
+
+İŞARETLER
+
+Otoyollar
+
+İnşaa halinde otoyollar Devlet yollan II yolları
+
+Bölünmüş yollar Beton aslalt yollar Sathi kaplamalı yallar Stabilize yollar Toprak yollar Ham yollar Devlet yolu K.K No il yolu KKNo Dağ geçitleri Devlet sının
+
+ANTALYA
+
+■YONKARAHİSAI
+
+SİVAS Ln
+
+ŞUHUÎ
+
+SUttyjDAûJ
+
+Jî-k\
+
+YALVAÇ’?J
+
+Mi»; o: - n
+
+KGM Bûkjo sının Şube sının il merkezi İlçe merkezi
+
+ıHUYLIK
+
+BAŞMAKÇI
+
+BURDUR
+
+FETHİYE
+
+BÛ2KURT
+
+YENİŞAMADEMLİ
+
+r. Beyşehv < Gosu
+
+Köy-mevkı Bölge merkezi Şube merkezi Bakımevi Refûj alanı
+
+ANTALYA FİNİKE 136
+
+YEŞİLOVA
+
+TESİSLER VE BAKIM DAİRESİ BAŞKANLIĞI - 01 01 2016
+
+IfcFENNİ
+
+CORKUTELİ
+
+• ıı. ALTINVAYLA
+
+KOYceûi;
+
+’ AKSEKİ’
+
+HADİM 1 TAŞKENT^
+
+J3UNDOGMUŞ \
+
+•Muynt'l
+
+Antalya Tünel Bakım işletme şefliği
+
+AĞLASUN
+
+BURSA
+
+marmarAc
+
+ÇINARCIK
+
+ALTlNOyî
+
+TERMAL1
+
+J-. /İ
+
+GÛYMUK
+
+TARAKLİ\
+
+-*1^
+
+GÛLPAZARI^
+
+ÇANAKKALE
+
+GöHOC Bt«
+
+GONEM
+
+SUSURLUK
+
+BOZCAADA
+
+Lrliî' jr»
+
+ı SOĞUT
+
+SARICAKAYA
+
+BAYRAMİÇ
+
+MİHALGAZİ
+
+ORHANELİ
+
+> BALYA
+
+BÜYOKORHAN,
+
+.AYVACIK
+
+ESKİŞEHİR
+
+HAVRAN
+
+ı«5C-0£
+
+BALIKESİR
+
+İVRİNDİ
+
+BURHANİYE
+
+İŞARETLER
+
+Otoyollar
+
+Inşaa halinde otoyollar Devlet yollan İl yollan
+
+Bölünmüş yollar Belon aslan yollar Sattır Kaplamalı yollar Stabilize yollar Toprak yollar Ham yallar Devlet yolu K.K.No II yolu KKNo Dağ geçitten Devlet sının İl sının
+
+KGM Bölge sınırı Şube sının İl merkezi İlçe merkezi
+
+TAVŞANLI
+
+WAŞTEPE
+
+I
+
+KÜTAHYA^
+
+HİSARCIK
+
+ıS0MA ı
+
+KINIK KIRKAĞAÇ
+
+SİMAVİ
+
+O '
+
+ASLANARA
+
+ÇAVDARHİSAFlj
+
+DEMİRCİ
+
+ALTINTAŞ.
+
+AKHİSAR
+
+PAZARLAR
+
+SELENDİ
+
+>ırwwifiiü
+
+9ANAZ
+
+KÜTAHYA
+
+Köy-mavkı Bölge nterkezı Şube merkezi Bakımevi Refüj alanı
+
+BURSA
+
+TESİSLER VE BAKIM DAİRESİ BAŞKANLIĞI - 01,01,2016
+
+Bilecik Tünel Bakım İşletme Şefliği Tünelleri
+
+ACVOM
+
+15.Bölge KASTAMONU
+
+Zonguldak Tünel Bakım İşletme Şefliği Tünelleri
+
+ı> ı
+
+flOZKUF
+
+•1ÜRREU
+
+AMASRA
+
+BARTIN
+
+Kapdt aya 56
+
+DEVREKANİ
+
+DADAY
+
+lTAŞKOPRU
+
+BOYABAT
+
+PrinçHk 65
+
+KASTAMONU
+
+SARAYDUZtl'
+
+AKÇAKOCA
+
+Btrihu*
+
+İHSANGAZİ
+
+DÜZCE
+
+KAYNAŞLI
+
+uwrçaM«>ı aq
+
+YIĞILCA
+
+BOLU
+
+Saııyir W
+
+ÖLÇEK
+
+TOSYA.
+
+HACHAJ.GÎ'
+
+OSMA
+
+KORGUN
+
+ÇUBUK
+
+Jfcfil
+
+-s ORTA
+
+İSKİLİP
+
+ÇANKIRI
+
+BAYAT
+
+.SUNGURU
+
+İŞARETLER
+
+Otoyollar
+
+Inşaa halinde otoyollar Devlet yolları İl yolları
+
+Bölünmüş yollar Beton asfalt yollar Sathi Kaplamalı yollar Stabriıza yollar Toprak yollar Ham yollar Devlet yolu K.K.No İl yolu K-K.No Dağ qeç itleri Devlet sınırı İl sının
+
+KGM Bohge sınırı Şube sının İl merkezi İlçe merkezi
+
+BARTIN	O
+
+AMASRA	O
+
+TOPLAM TÜNEL SAYISI
+
+TOPLAM TÜNEL UZUNLUĞU
+
+35 ADET
+
+12.395 M
+
+15. BÖLGE MUDURLUGU - KASTAMONU
+
+Köy-mevki Bölge merkezi Şube merkezi Bakımevi Refüj alanı
+
+Do-r»r Ço ık Fjb
+
+KASTAMONU
+
+İNEBOLU 1
+
+rasy» B c Efe»!-dağ B£
+
+TESİSLER VE BAKIM DAİRESİ BAŞKANLIĞI - 01.01.2016
+
+fGÖLKÖY
+
+GÜMÜŞHANE
+
+MESUDİYE
+
+REŞADİYE
+
+.BAYBURT
+
+'ULHISAR
+
+M -Î.5 l. i
+
+JL, '? Hnta’ılur —i3
+
+ALUCRA ŞEBİNKARAHİSAR -
+
+ÇAMOLUK ey
+
+ALMUS
+
+TOKAT
+
+DEMİROZÜ
+
+OTLUKBELJ ‘
+
+AŞKA! E
+
+ULUSARAY
+
+KADtŞEMI
+
+fi.YURT
+
+ERZİNCAN
+
+YILDIZELİ
+
+ÜZÜMLÜ
+
+K4MMVI
+
+OK
+
+DİVRİĞİ
+
+HrtM-Ktr" vf ALTINYAYLA
+
+ARAPÛIR
+
+Keban Br)
+
+AKKlŞLA
+
+KULUNCAK
+
+PINARBAŞI'
+
+KaraKaya Br|
+
+DARENDE
+
+SİVAS
+
+16.Bölge
+
+►AZAR
+
+v! Üi'.ı,
+
+TUNCELİ
+
+' - ■ ı-
+
+, |, h M ' ı
+
+ÖLÇEK
+
+KEM4.H	O
+
+SARAYKEN!
+
+İŞARETLER
+
+Otoyollar
+
+leşin tıaltrujo otoyol lor Dovtot yolları lı yolları
+
+Bolunmuş ycilnr B«(c»ı oslaM yollar Sollu Itdfdfimolı yollar Smbiiızc yollar Toprak yoHor Ham yollar □evlat yolu K K No İl yolu K K.No Dağ geçMerl □evlat sınırı İl inin
+
+KGM Bûhjtı sınırı Şube emin lı merkezi
+
+ERZİNCAN O
+
+ISIS LER VE BAKIM DAİRESİ BAŞKANLIĞI - 0101 2018
+
+BÖLÜM 4
+
+TÜNELLERDE
+
+KULLANILAN
+
+ELEKTROMEKANİK
+
+SİSTEMLER
+
+86
+
+SCADA SİSTEMLERİ
+
+GİRİŞ
+
+Teknolojinin her geçen gün hızla ilerlediği son zamanlarda sistemlerin daha verimli çalışması ve hataların çok aza indirilmeleri için bilgisayarların endüstriyel kontrol alanlarında daha çok yer bulduğunu gözlemleyebilirsiniz. Bilgisayarlar özel bazı yazılımlarla çimento fabrikalarında bulunan elektrik makinaları ve motorlarının izlenmesinde, kimyasal fabrikalarda karmaşık işlemlerin kontrolünde, boya üretim fabrikalarında tankların ve siloların izlenmesinde, demir çelik fabrikalarında üretim kontrolünde, enerji yönetim sistemlerinin kontrolünde, metro istasyonlarının denetiminde, su dağıtım istasyonlarında ve aklınıza gelebilecek bir çok uygulama alanlarında sahadan bilgi toplama ve değerlendirme sistemlerinin tümü olarak karşımıza çıkar.
+
+Otomatik kumanda alanında kullanılan birçok otomasyon sistemlerini, kontrol cihazlarını, PLC Sistemlerini, belki de DCS Sistemlerini tanıyorsunuzdur. Bu cihazları ve kontrol ünitelerini bir yazılımla kontrol ederek, bu cihazlardan gelen verileri işleyip bir çok aygıtı veya cihazı kontrol ve kumanda etmek istediğinizde de veri toplama ve değerlendirme işlemini yapacak bir sistem ve bu sistemde kullanılacak YAZILIM hakkında bilgiler edineceksiniz.
+
+AMAÇ
+
+Uygun ortam sağlandığında SCADA Sistemlerini kullanım amacı ve yapısına göre doğru olarak sınıflandırıp, SCADA sistem elemanlarını seçebileceksiniz.
+
+SCADA SİSTEMLERİNİ TANIMAK
+
+SCADA Sistemlerinin Tanımı
+
+Proses (İşlem), Endüstriyel ve Bina Otomasyonunda kullanılan Programlanabilir Kontrolörler (PLC), Döngü Kontrolörleri, Dağıtılmış Kontrol Sistemleri (DCS), I/O Sistemleri ve akıllı sensörler (kontrol ünitesi üzerinde bulunan) gibi çeşitli cihazlardan saha verilerini sürekli ve gerçek zamanlı olarak toplayan, tanımlanan kıstaslara göre bu bilgileri değerlendirmeye tabi tutup gerektiğinde kullanıcıya erken uyarı mesajları üreten, üretimi etkileyen çeşitli etkenlerin merkezi bir noktadan grafiksel veya trend olarak gözetlenmesini sağlayan ve sahadaki kontrol noktalarının uzaktan denetlenebilmelerine imkan sağlamak amacıyla kullanılan sistemler Denetleyici Gözetim ve Veri Toplama (SCADA "Supervisory Control and Data Acquisition") sistemi olarak tanımlanabilir.
+
+"Supervisory Control and Data Acquisition" ifadesi 1960'larda Bonneville Power Administration tarafından ortaya atılmış bir terimdir. “Supervisory Control and Data
+
+Acquisition" terimi ilk olarak PICA (Power Industry Computer Applications) konferansında 1973'te yayınlanmıştır. SCADA sistemi, veri toplama ve telemetri (kablosuz veri aktarma)'nın bir kombinasyonudur. Veri toplama ve merkezden veri gönderme, analiz yapma ve daha sonra bu verilerin bir operatör ekranında gösterilmesi işlevlerini gerçekleştirir. SCADA sistemi saha ekipmanlarını görüntüler ve aynı zamanda denetler.
+
+SCADA sistemleri; sistem operatörlerine (kullanıcılarına), merkezi bir kontrol noktasından geniş bir coğrafi alana petrol ve gaz alanları, boru sistemleri, su şebekeleri, termik ve hidrolik enerji üretim sistemleri ile iletim ve dağıtım tesisleri gibi alanlarda vanaları, kesicileri, ayırıcıları, elektrik makineleri, motor, elektronik, elektrohidrolik ve elektropnömatik valfler anahtarları uzaktan açıp kapama, ayar noktalarını değiştirme, alarmları görüntüleme, ısı, nem, frekans, ağırlık, sayı, elamanların durumları gibi ölçü bilgilerini toplama işlevlerini güvenilir, emniyetli ve ekonomik olarak yerine getirme avantajı sunmaktadır.
+
+Burada, mekanik ve elektronik aygıtlar arabirimlerle bağlanarak işletme fonksiyonlarını yürütürler. Denetim komutları bu düzeyde tesisin çalışmasını sağlayan elektriksel sinyallere ve makine hareketlerine dönüşür, bu dönüşümler elektronik algılayıcılar aracılığıyla toplanır. Toplanan veriler elektrik işaretlerine çevrilerek SCADA sistemine aktarılır. Aktüatörler, tahrik motorları, vanalar, lambalar, hız ölçü cihazları, yaklaşım detektörleri, sıcaklık, kuvvet ve moment elektronik algılayıcıları burada bulunur. SCADA sisteminden verilen komutlar, bu katmanda, elektrik işaretlerine çevrilerek, gerçek dünyada istenen hareketlerin oluşması sağlanır (vanaların açılıp-kapanması, ısıtıcıların çalıştırılıp- durdurulması gibi).
+
+SCADA sistemi, hidroelektrik, nükleer güç üretimi, doğalgaz üretim ve işleme tesislerinde, gaz, yağ, kimyasal madde ve su boru hatlarında pompaların, valflerin ve akış ölçüm ekipmanlarının işletilmesinde, kilometrelerce uzunluktaki elektrik aktarım hatlarındaki açma kapama düğmelerinin kontrolü ve hatlardaki ani yük değişimlerinin dengelenmesi gibi çok farklı alanlarda kullanılabilmektedir.
+
+Sistemin işletilmesinde salt insan çabası yetersiz kalmaktadır. Sistemde meydana gelecek olayların anında tespit edilmesi klasik yöntemler ile mümkün olmamaktadır. Sistemin daha etkin işletilmesi için, daha güvenilir, daha ekonomik işletme için işletmede bilgisayar otomasyonuna gereksinim vardır. Bunun için sistem kontrol ve izleme yazılımları gerçekleştirilmiştir.
+
+Yazılım sayesinde operatörler bilgisayar ekranındaki sistem diyagramından sistemi uzaktan kumanda edebilecektir. Arızaların algılanması yerlerinin tespiti ve arızanın giderilmesi yine uzaktan kumandalı olarak belli bir merkezden yapılabilecektir. Sistemle ilgili alarm sinyalleri operatörleri uyaracak şekilde oluşturulması ve görüntülenmesi gerçekleştirilebilecektir. Çeşitli veriler tarih ve zaman olarak ( arıza şekli, arıza yeri ) veri tabanı şeklinde saklanabilir böylelikle kişilere bağlı kalmaksızın sistem hakkında toplanan verilere dayalı ayrıntılı bilgi edinilmesi sağlanabilecektir.
+
+Dinamik grafik çizim araçları kullanılarak izlenmesi istenen süreç gerçeğe çok yakın bir şekilde canlandırılabilmekte ve alarmlar çarpıcı hale getirilebilmektedirler. SCADA yazılımları kendi bünyelerinde bulunan çekirdek yazılımları kullanılarak grafiklerle birlikte hareket, boyutlandırma, yanıp sönme ve doldurma, boşaltma gibi operatörlerin dikkatini çekip kullanım kolaylığı sunabilecek özellikleri içermektedirler. Operatörlerin görmesini kolaylaştıracak değişik renk, boyut ve şekillerde alarm hazırlamak ve alarm durumunda alınacak acil tedbirleri ekranda göstermek mümkün olmaktadır. Klasik denetleyicilerle olduğu gibi modern SCADA sistemlerini kullanım sırasında da elle kontrol yapabilmek için grafik tetikleyicileri olarak adlandırılan yazılım parçaları kullanılmaktadır.
+
+Herhangi bir tesiste olabilecek olan otomatik kontrol sistemlerinin kullanıcılar tarafından tek bir ekran üzerinden yönlendirilebilmesi çok arzu edilen bir durumdur. Bu sayede kullanıcıların sistemlerini yönetmeleri için, sistemin bulunduğu yere gitme zorunluluğu ortadan kalkmış ve kontrol müdahalelerini bulundukları yerde bilgisayarlar üzerinden vererek büyük kolaylıklar sağlanmış olur.
+
+SCADA Sisteminin Uygulama Alanları
+
+SCADA sisteminin birçok kullanım alanı vardır. Geniş bir coğrafi alana yayılmış, bölgesel ve yerel tesislerin bir çoğunda kullanılmaktadır. SCADA sisteminin başlıca kullanım alanları şunlardır:
+
+• Kimya Endüstrisi
+
+• Doğalgaz ve Petrol Boru Hatları
+
+• Petrokimya Endüstrisi
+
+• Elektrik Üretim ve İletim Sistemleri
+
+• Elektrik Dağıtım Tesisleri
+
+• Su Toplama, Arıtma ve Dağıtım Tesisleri • Hava Kirliliği Kontrolü • Çimento Endüstrisi
+
+• Otomotiv Endüstrisi
+
+• Bina Otomasyonu
+
+• Proses Tesisleri
+
+• Tünel Sistemleri Yönetimi
+
+Türkiye'de birçok SCADA uygulamasına rastlamak mümkündür. Örneğin İstanbul metrosunda bulunan yürüyen merdivenler, havalandırma fanları, aydınlatma sistemi, yangın ihbar ve koruma sistemleri ve enerji dağıtım sistemleri tamamen bilgisayarlarla izlenebilmekte ve gerekli müdahaleler merkezi kontrol ünitesinden yapılmaktadır
+
+Botaş' ın doğal gaz hatlarında, TEK elektrik üretim ve dağıtımında , Ankara, İstanbul, Kayseri gibi bazı kentlerde Su ve Kanalizasyon İdarelerinin su depolarında, pompa istasyonlarında ve ölçüm noktalarının kontrolünde SCADA sistemleri kullanılmaktadır.
+
+İzmit'te 1999 Ağustos'unda yaşanan depremde SCADA sayesinde doğalgaz şebekesinde herhangi bir problem görülmemiştir. SCADA kontrol odasından şebekedeki ana çelik vanalar hemen otomatik kapatılmış, 27 adet bölge regülatörü de eşzamanlı olarak durdurulmuş ve vana odaları görevlilerince kapatma işlemlerinin kontrolü de yapılarak tüm sistemin gaz akışı kesilmiştir.
+
+SCADA Sisteminin İşlevleri
+
+SCADA sisteminin işlevleri şunlar olabilir:
+
+•	İzleme (monitoring) işlevleri
+
+•	Kontrol işlevleri
+
+•	Veri toplama
+
+•	Verilerin kaydı ve saklanması
+
+SCADA sistemleri kullanarak uygulama yazılımı geliştirmek için iletişim protokollerinin tanımlanması ve veri tabanı yapısının tanımlanması gerekmektedir. İletişim protokolleri SCADA'nın işletmedeki bilgi omurgası olması görevini yapması için birbirleri ile iletişim kurması gereken birimlerin haberleşmesini sağlamaktadır.
+
+SCADA sisteminin gözlem ve denetim fonksiyonlarını üstlenmesi için sürece ait giriş ve çıkış bilgileri bir veri tabanında tanımlanır. Veri tabanında süreç değişkenlerine tekabül eden her bir bilgi etiket, kapı veya nokta olarak tanımlanır. Bu süreç değişkenlerinin bulunması gereken seviyelerle ilgili alarmlar ve bu değişkenlerin işlenmesi gerektiğinde kullanılacak işlem blokları veri tabanı tanımlanması fazında gerçekleştirilir.
+
+SCADA sistemleri süreç değişkenlerini sürekli olarak gözleyip bu değişkenlerin istenmeyen değerlere ulaşması durumunda operatörü uyarmak üzere geliştirilmiş alarm yapısına sahiptirler. Alarmlar basit listeler halinde tanımlandığı gibi önem sırasına göre sınıflandırılmış olarak veya grafik içinde gösterilebilirler.
+
+SCADA uygulamalarında yazılımın değişik kullanıcılar tarafından değişik şekillerde kullanılmasını sağlayan yetki ve güvenlik mekanizması kodlar kullanılarak sağlanır. Genellikle SCADA paketlerinde kullanıcı kolaylığı sağlayan ve SCADA operasyonlarını içeren bir denetleme lisanı bulunmaktadır.
+
+SCADA'da oluşan kontrol cihazlarından toplanan her türlü bilgi, Tagname adını verdiğimiz veri tabanında bir değişkende tutulmaktadır.
+
+SCADA'da Tagname olarak tutulan bu bilgilerin işlenip, işletmenin ihtiyaç ve isteklerine uygun bir hale getirilmesi gerekmektedir. Genelde toplanan bilgiler aşağıdaki şekilde kullanılırlar.
+
+•	Sistemin grafik animasyonunun elde edilmesi.
+
+•	Toplanan bilgilerin devamlı bir şekilde alarm kriterlerine göre değerlendirilmesiyle alarmların oluşturulması.
+
+•	Toplanan bilgilerin kaydedilerek istatistiksel ve geriye dönük kontrol amaçlı kullanım.
+
+•	Bilgiler kaydedilirken ya belli aralıkları ile ya da bilgide değişme olduğu zaman
+
+değişme zamanı ile kayıt gerçekleşmektedir.
+
+•	Hatla ilgili çeşitli trendlerin gerek gerçek zamanlı gerekse tarihsel olarak izlenilmesi.
+
+• Raporlama.
+
+•	İstatistiksel Process Kontrol (SPC).
+
+•	Hat ile ilgili parametre ve reçetelerin SCADA sisteminde girilmesi.
+
+SCADA Yazılımından Beklenenler
+
+•	Hızlı ve kolay uygulama tasarımı
+
+•	Dinamik grafik çizim araçları
+
+•	Çizim kütüphaneleri
+
+•	Alarm yönetimi
+
+•	Tarih bilgilerinin	toplanması
+
+•	Rapor üretimi
+
+SCADA Sistemleri Şu İmkanları Sağlamalıdır
+
+• Kullanıcı tarafından tanımlanmış işletmeye ait mimikler (işletme simülasyonu) ve
+
+mimik ekranda kullanılacak nesneler vasıtası ile işletmenin takibi (seviye, sıcaklık, basınç,
+
+sayısal sinyaller, vana ve motor durumları, sistem durumu vb...)
+
+Reçete ekranları vasıtasıyla reçetenin girilmesi ve işleyen reçeteler hakkında operatörlerin bilgilendirilmesi,
+
+Parametre ekranları vasıtasıyla, sistem için gerekli olan parametrelerin girilmesi (Setpoint, alt ve üst alarm değerleri vb.)
+
+PID (Oransal-integral-türevsel denetleyici ) parametrelerinin girilebilmesi ve gözetlenmesi
+
+İşletme değerlerinin tarihsel ve gerçek zamanlı trendlerinin tutulması
+
+Anlık ve periyodik raporların (üretim, reçete, stok vb. ) alınması,
+
+Otomatik çalışan sisteme, SCADA ekranlarından manuel müdahale yapılabilmesi
+
+Alarm ve durumların (event) gösterilmesi ve yazıcıya ve - veya veri tabanına kayıt edilmesi,
+
+İleri düzeyde kalite kontrol ( örneğin istatistiksel proses kontrol-spc) desteği
+
+Sistemin Yapısı
+
+Kontrol sistemleri olduğu müddetçe, SCADA (Supervizor kontrol ve veri kazanımı) kullanılacaktır. İlk kullanılan SCADA sistemleri; gösterge panelleri, ışık ve şeritsel grafik kaydediciler aracılığıyla veri kazanımı sağlamıştır. Çeşitli kontrol düğmelerini manuel çalıştıran operatör, denetimsel kontrolü sağlıyordu. Bu aygıtlar; makineler, fabrikalar ve güç üreten merkezler üzerinde denetimsel kontrol ve veri kazanımı için kullanıldı ve de
+
+Şekil 1. 1) 4-20ma veya voltaj kullanarak sensörlerden panele bağlantı kullanılmaktadır. Aşağıdaki Şekil 1.1, panel sistemine yöneltilen bir sensoru göstermektedir.
+
+Sensörden panele tipi SCADA sistemi aşağıda belirtilen avantajlara sahiptir
+
+• Basittir ve CPU, RAM, ROM ve yazılım programlama gerektirmez.
+
+• Sensor, doğrudan panel üzerinde bulunan gösterge, ışık ve şaltere bağlıdır.
+
+• Şalter ve indikatör gibi aletlerin eklenmesi genellikle kolay ve ucuzdur.
+
+Sensörden doğrudan panele sisteminin dezavantajları:
+
+• Yüzlerce sensor kurulumu ardından kablolamanın kontrolü imkansız hale gelir. • Veri kalitesi ve çeşidi; minimum ve gelişmeye acık değildir.
+
+• Sistem büyüdükçe ek sensörlerin kurulumu, işlemsel olarak zorlaşmaktadır.
+
+• Sistemin yeniden biçimlendirilmesi oldukça zordur.
+
+• Gerçek veriyi kullanan bir simülasyon yapmak olası değildir.
+
+• Veri depolaması, minimum düzeydedir ve yönetilmesi zordur.
+
+• Veri ve alarmların uzaktan izlenmesi olası değildir.
+
+• 24 saat boyunca arama ve ölçer aletlerinin izlenmesi gerekmektedir
+
+Modern SCADA sistemlerinin temel prensipleri
+
+Telemetri ( Uzölçüm ); bir sistem ya da tesisin uzaktan kablo veya kablosuz olarak izlenmesi veya kontrol edilmesidir. Modern üretimde, endüstriyel işlemlerde, maden endüstrisinde, özel ve genel kullanımlarda, güvenlik endüstrisinde, bir birinden uzak olan sistemlerin ve aletlerin bağlanmasında kullanılır. Bu uzaklık, bir kaç metre ile binlerce kilometre arasında değişebilir. Telemetri, komut ve program göndermede ve bu uzak yerlerdeki monitör bilgilerini almada kullanılır.
+
+SCADA, telemetri ve veri kazanımı anlamına gelir. SCADA, analiz ve kontrol için
+
+İlk veri kazanımlarında, üretim ve tesis sistemlerinde role mantık kullanılmıştır. CPU ve diğer elektronik aygıtların geliştirilmesiyle birlikte, üreticiler, dijital elektroniği role mantık aletleriyle birleştirmiştir. PLC (Programlanabilir Mantık Kontrolörleri), hala endüstride yaygın olarak kullanılan kontrol sistemleridir. Sistem büyüdükçe daha çok aletin kontrolü ve monitörü gerektiğinden, PLC yaygınlaşmıştır ve sistemler daha akıllı hale gelmiş ve ebatları küçülmüştür. PLC'ler ve DCS (dağıtımlı/dağıtılmış kontrol sistemleri) aşağıda gösterildiği gibi kullanılmaktadır.
+
+PLC veya
+DCS
+
+Şekil 1. 2) Bir Fieldbus ve sensör yardımıyla PC ( bilgisayar) den PLC'ye veya DCS'ye bağlantı
+
+PLC /DCS SCADA sisteminin avantajları:
+
+• Bilgisayar, çok fazla detayı kaydedebilir ve saklayabilir.
+
+• Veri, kullanıcının ihtiyacına yönelik istenilen şekilde görüntülenebilir.
+
+• Çok geniş bir alanda bulunan binlerce sensor sisteme bağlanabilir.
+
+• Operatör, gerçek veri sim ülasyonlarını sistemle birleştirebilir.
+
+• RTU (Uzak Terminal Birimleri)'lardan birçok veri toplanabilir.
+
+• Veri, sadece site üzerinden değil istenilen yerden izlenebilir.
+
+Dezavantajları:
+
+• Sistem, panelden sensöre tipinden daha komplekstir.
+
+• Farklı çalıştırma becerileri gerektirir. Örneğin; sistem analizcisi ve programcı.
+
+• Binlerce sensörle birlikte hala ilgilenilmesi gereken bir çok kablolama mevcuttur.
+
+• Operatör, ancak PLC'nin görebildiğini görebilir
+
+Daha akıllı ve küçük ebatlı sistemlere ihtiyaç arttıkça, sensörler, PLC ve DCS'lerin akıllılık düzeyine göre tasarlanmaktadır. Bu aletler, IED (akıllı elektronik aletler) olarak bilinmektedir. IED'ler, profibus, devicenet ya da foundation fieldbustan PC'ye, fieldbuslar üzerine bağlanmaktadır. Bunlar; veri kazanabilecek, diğer aletlerle bağlantı kuracak ve tüm program içinde kendi görevlerini yerine getirebilecek akıllılıkta kapasiteye sahiptir. Bu süper akıllı sensörlerden her biri, panelde birden fazla sensöre sahip olabilir. Genel olarak bir
+
+PC'nin IED fieldbus sistemine göre avantajları:
+
+• Minimum elektrik tesisatı gerektirir.
+
+• Operatör sensör seviyesinin altını görebilir.
+
+• Alet kurulduğunda alınan veri, seri numaraları, model numaraları gibi bilgileri içerir.
+
+• Tüm aletler tak ve kullan özelliğe sahip olduğundan, kurulum ve değişimi kolaydır.
+
+• Küçük veri kazanım sistemi, daha az yer kaplar.
+
+PC'nin IED sistemine göre dezavantajları:
+
+• Daha gelişmiş bir sistem, daha iyi eğitilmiş personel gerektirir.
+
+• Sensör fiyatı daha yüksektir (ama bu PLC yokluğuyla kısmen dengelenir).
+
+• IED, daha çok iletişim sistemine bağımlıdır.
+
+SCADA donanımı
+
+SCADA sistemi, alan verilerini toplayıp bunları ana istasyona iletişim sistemi yoluyla gönderen çok sayıda uzak terminal ünitesi (RTU) içerir. Ana istasyon elde edilen verileri gösterir ve operatörün uzak kontrol görevlerini yapmasını sağlar. Tam ve doğru zamanlı veri sistem operasyon ve işlemlerinin optimizasyonunu sağlar. Diğer yararları ise; daha yeterli, güvenilir ve en önemlisi daha güvenli operasyonlardır. Sonuç olarak; operasyon önceki otomatik olmayan sistemlere göre daha ucuzdur.
+
+Daha kompleks bir SCADA sistemi üzerinde, 5 seviye ya da hiyerarşi vardır.
+
+• Alan seviyesinde enstrümantasyon ve kontrol aygıtları • Düzenlenmiş terminaller ve RTU'lar • İletişim sistemi
+
+• Ana istasyonlar
+
+• Ticari veri işlem departmanlı bilgisayar sistemi
+
+RTU, alan analogları ve birbirinden uzakta bulunan her bir dijital sensörün bağlanmasını sağlar. Komünikasyon sistemi, ana istasyonla uzak bileşenler arasında, iletişim için bir yol sağlar. Komünikasyon; kablo, fiber optik, radyo, telefon hattı, mikrodalga, hatta uydu da olabilir. Yeterli ve optimum veri transferi için, özel protokoller ve hata belirleme felsefeleri kullanılır. Ana istasyonlar (veya submaster), çeşitli RTU'lardan veri toplayabilir ve genellikle uzak alanlardaki bilgilerin gösterimi ve kontrolü için operatör arayüzü sağlar. Geniş telemetri sistemlerinde, sub-master alanları, uzak bölümlerden bilgi toplar ve kontrol ana istasyonuna röle olarak görev yapar.
+
+Sıcaklık Sensörü
+
+Şekil 1. 4) Tipik Scada Sistemi Donanımı
+
+SCADA yazılımı
+
+SCADA yazılım, patentli ve açık olmak üzere iki ana gruba ayrılabilir. Şirketler kendi donanımlarıyla iletişim kurmak için patentli yazılım geliştirmektedir. Bu sistemler anahtar teslim çözümleri olarak satılmaktadır. Sistem sağlayıcısına olan bağımlılık, bu sistemin temel sorunudur. Sisteme getirilen sistemler arası çalışabilirlik özelliği, açık yazılım sistemine popülarite kazandırmıştır. Sistemler arası çalışabilirlik, farklı üreticilerin aletlerinin, aynı sistem üzerinde bir araya getirilebilmesidir.
+
+Aşağıdaki diyagram SCADA sisteminin tipik örnek parçalarını göstermektedir.
+
+Şekil 1. 5) Tipik Scada Sistemi Yazılımı
+
+SCADA sisteminin temel özellikleri:
+
+• Kullanıcı ara yüzü • Grafik gösterimi • Alarm
+
+• Trend
+
+• RTU (Uzak Terminal Birimi) ve PLC arayüzü • Ölçeklenebilirlik • Veriye erişim
+
+• Veritabanı • Şebekelendirme • Hata toleransı ve tekrarlama • İstemci/server dağıtımlı süreç
+
+SCADA için yerel kablolama
+
+PC'den IED sistemini kullanırken, elektrik kablosu miktarı düşmesine rağmen, genelde SCADA sisteminde çok fazla sayıda elektrik kablosu vardır. Bu kablolar elektrik gürültüsü ve etkileşimi gibi bazı önemli sorunlara neden olurlar. Etkileşim ve gürültü, bir komünikasyon sistemi dizayn edilirken ve kurulurken göze önüne alınması gereken önemli faktörlerdir. Elektriksel etkileşimden kaçınmak için ayrı bir dikkat gerektirir. Gürültü rastgele ortaya çıkan, orijinal (ya da beklenen) sinyali bozan (ya da orijinal sinyalle karışan) istenmeyen sinyallerdir. Bu gürültü, kabloya veya tele bir çok şekilde girebilir. En başından itibaren, minimum gürültüye sahip olacak bir sistem geliştirmek tasarımcıya bağlıdır. SCADA sistemi genellikle düşük voltlar kullandığı için doğal olarak gürültüye karşı hassastır.
+
+Bükmeli çift kılıflandırılmış cat5 telinin kullanımı, birçok sistemde gereklilik halini almıştır. İyi eşlem yoluyla birleştirilen, doğru kurulum tekniklerinin kullanımı, sistemin mümkün olduğunca sessiz çalışmasını sağlar.
+
+Fiber optik kabloda ise gelen elektriksel sinyaller ışık sinyallerine çevrilerek iletilmektedir.. Bu nedenle gürültüye karşı dayanıklı olmasından dolayı popülarite kazanmaktadır. Günümüzde, birçok kurulum cam tel kullanıyor fakat bazı endüstriyel yerlerde, çoğunlukla, plastik tel tercih edilmektedir.
+
+Işık fiber optik kabloda dengeli bir şekilde yol alır ve buna mod denir.
+
+Şekil 1. 6) Fiber optik kablo örnekleri
+
+Tek, Çok modlu ve çok modlu kademeli olmak üzere 3 çeşidi vardır.
+
+Tek Mod Fiberler (Single Mode Fiber- SMF) :
+
+• Işığın tek bir modda ya da tek bir yolda ilerlemesine olanak tanırlar
+
+• Düşük sinyal kayıplarının olduğu ve yüksek veri iletişim hızının gerektirdiği durumlarda kullanılırlar.
+
+Çoklu Mod Fiberler (Multi Mode Fiber- MMF) :
+
+• Işığın birden fazla modunu ileten fiberlerdir.
+
+• Işın çarpışmaları meydana gelebileceğinden kısa mesafeler için kullanılır.
+
+Şekil 1. 7) Fiber optik kablolarda ışığın iletilmesi
+
+Gelecekteki veri iletişimleri; radyo, fiber optik ve bazı kızıl ötesi sistemler olarak sınıflandırılabilir. Tel, güç sağlamak için kullanılacaktır ve elektroniğin güç gereksinimleri minimum düzeye indiği için güce olan ihtiyaç da azalacaktır.
+
+SCADA ve yerel alan şebekeleri
+
+Yerel alan şebekesinin amacı, bilgi ve kaynakların paylaşımıdır. SCADA şebekesi üzerinde bulunan tüm nodların bilgi paylaşmasını sağlamak için, bunların, bir takım iletim araçlarıyla bağlanması gerekir. Bu bağlantı, şebeke topolojisi olarak bilinir. Nodlar, bu iletim medyasını, kurulmuş bir göndericiyi engellemeden, bütün nodların ortama erişimleri sağlanacak biçimde paylaşmalıdır. LAN; bilgisayarlar, ağ sunucuları, terminaller, çalışma istasyonları ve genellikle makine ve sunucu olarak adlandırılan diğer çeşitli akıllı çevresel donanımlar arasında bir iletişim yoludur. LAN, çeşitli kullanıcılar tarafından paylaşılacak aygıtlar için, şebeke üzerindeki tüm istasyonlar arasında, tam bir bağlantı ile erişime olanak sağlar. LAN, genellikle özel bir kişi tarafından yönetilir ve belli bir alanda, belirli bir bölgede
+
+Şekil 1. 8) Bir SCADA sisteminde veri transferi için Ethernet'in kullanımı
+
+konumlandırılmış bina grubu etrafında figürlenir. Ethernet, günümüzde, en yaygın kullanılan LAN'dır. Çünkü kullanımı kolay ve ucuzdur. SCADA şebekesinin LAN'a olan bağlantısı kurum içinde doğru yazılım ve izne sahip kişilere, sisteme erişim hakkı tanır. Veri, bir veri tabanında tutulduğu için, kullanıcının bilgileri okuması kısıtlanabilir. Güvenlik konuları önemli bir sorun teşkil eder ama çözülebilir.
+
+SCADA sistemlerinde modem kullanımı
+
+SCADA sistemlerinde, genelde, RTU (uzak terminal üniteleri (PLC, DCS veya IED)) uzak noktalara yerleştirilmiştir. Bu mesafe 10 m ile binlerce km arasında değişebilir. RTU ile bağlantı kurmanın en ucuz yollarından biri çevirmeli telefon bağlantısı kurmaktır. Bu sistemde gereken aletler şunlardır; PC, iki çevirmeli modem, ve RTU (RTU'nun COM bölümüne yerleştirildiği varsayılırsa). Modemler, otomatik cevap moduna getirilir ve RTU, PC'ye bağlanabilir veya PC, RTU'ya bağlanabilir. Bunu sağlayacak yazılım, RTU üreticilerinde mevcuttur. Modemler, yerel bilgisayar mağazalarından satın alınabilir. Hat modemleri; RTU'yu şebekeye bir çift tel üzerinden bağlamada kullanılır. Bu sistemler, genelde, oldukça kısadır ve bağlantı kurmak için FSK (frekans değiştirme anahtarı) kullanılır. Hat modemleri; RTU'larla bağlantı kurmak için, RS-232 ve RS-485 bağlantı sistemlerinin pratik olmadığı zamanlarda kullanılır. Bu tür sistemlerde kullanılan bit hızları, genelde, düşüktür, bu hızlar, 1200 ile 9600 bps arasında değişir.
+
+Bilgisayar konumları ve sorun giderme
+
+Müdahale edilmediği takdirde, bilgisayar ve RTU'lar uzun süre sorunsuz çalışabilirler. Bakımı günlük, haftalık, aylık ve yıllık kontrol gerektirir. Bakım gerekli olduğunda, teknisyen ya da mühendisin aşağıdaki aletleri düzenli bir biçimde kontrol etmesi gerekmektedir.
+
+• RTU ve parça modülü • Analog girdi modülü • Dijital girdi modülü
+
+• RTUdan PLCye bağlantı yeri (RS-232, RS-485)
+
+• Kişiye ait kablo • Değiştirilmiş telefon hattı • Analog veya dijital veri bağlantıları • Ana bölümler
+
+• Merkez bölüm
+
+• Operatör istasyonu ve yazılım
+
+Elektrik sistemlerinin tamirinde ve dayanıklılığında her zaman iki temel kural uygulanır.
+
+• Eğer bozuk değilse tamir etmeyin.
+
+• Zarar vermeyin.
+
+Teknisyenler ve mühendisler zaten orijinalinde biraz toz bulunan aletleri temizlemek gibi yanlış uygulamalarla, aletin daha çok bozulmasına neden olabilirler ya da radyodan .01 dB ekstra güç çıkarılmaya çalışıldığında, kullanılan yükseltici patlayabilir.
+
+Şekil 1. 10 ) Bir SCADA sisteminde bakım isteyebilecek bileşenler
+
+Sistem kurulumu
+
+Genellikle endüstriyel ağların kurulumunda seri haberleşme standartları kullanılmaktadır. Bu standartlardan en yaygın olarak kullanılanlar RS232 standardı ve RS485 standardıdır.
+
+RS422/485
+
+RS422/485 Pinout (9 Pin)
+
+Pin I Pin 5
+
+Şekil 1. 11) RS 232, RS 422/485 pin yapıları
+
+SCADA sistemini planlarken ve tasarlarken, öncelikle, yeni SCADA sisteminin var olan komünikasyon şebekesi ile uyumu göz önüne alınmalıdır. Yeni bir altyapı kurmak ve yeni iletişim araçları satın almak, masrafa yol açacağından, bu konuya ayrı bir önem verilmelidir. Bu, var olan LAN'lar, özel telefon sistemleri veya mobil araç komünikasyonları için kullanılan radyo sistemleri üzerinden yapılabilir. Var olan komünikasyon şebekesi üzerine SCADA sistemine yerleştirmek, var olan aletleri bozmayacak ve karıştırmayacak figürde ciddi bir mühendislik işini gerektirmektedir.
+
+Şekil 1. 12) Örnek blog diagram
+
+Şekil 1. 13) Modbus TCP/IP PLC Simulatör yazılımı
+
+Eğer yeni bir sistem uygulamaya konulacaksa, kurulacak sistemin kalitesi göz önünde bulundurulmalıdır. Hiçbir şirket sonsuz bir bütçeye sahip değildir. Ekonomisiyle, performansını ve güvenilirlik gereklerini karşılaştırmak, proje sonunda iyi çalışan bir sistemden emin olmak açısından çok önemlidir. Sistemin performans beklentilerini planlarken; ulaşım bağlantılarının ulaşılabilirliği ve aletlerin güvenilirliğinin dikkate alınması önemlidir. Bunlar sistematik bir yaklaşımla birbiriyle birleşince, okuyucunun, sistemi tasarlamasına, nitelendirmesine, etkili bir telemetri ve veri kazanım sistemi kurmasına ve korumasına olanak sağlar. Ayrıca sistemin kurulacağı endüstriyel çevreye uyumlu olmasına da katkı sağlar.
+
+SCADA SİSTEMLERİ
+
+Giriş
+
+Bu bölüm telemetri sistemini anlatır ve telemetri sisteminin temellerini inceler.
+
+SCADA, dağıtımlı/dağılmış kontrol sistemi (DCS), programlanabilir mantık kontrolörü (PLC), akıllı araç terimlerine, bu notlar içinde kullanılan içerik bağlamında yer verilmiş ve açıklama getirilmiştir.
+
+Bu bölüm aşağıdaki kısımlara ayrılmıştır.
+
+• SCADA , DCS, PLC ve akıllı araç terimlerinin tanımları • Uzak terminal ünitesi (RTU) yapısı
+
+• Ana (master) istasyon biçimlenmesinde düşünülmesi gereken hususlar • Sistem güvenilirliği ve bulunabilirliği
+
+Bir önceki bölümde açıklandığı üzere, telemetri kelimesi; uzak ölçüm verilerinin merkez kontrol istasyonlarına komünikasyon bağlantıları üzerinden ulaşımını ifade eder. Bu ölçüm verisi, normalde, doğru zamanda toplanır (ama transferinin doğru zamanda olması gerekmez). SCADA, DCS, PLC ve akıllı araç terimlerinin hepsi telemetri kavramının uygulamalarıdır.
+
+SCADA, DCS, PLC ve Akıllı enstrüman
+
+SCADA sistemi
+
+SCADA (süpervizör kontrol ve veri kazanımı) birçok uzak terminal birimlerinden (veya RTU'lar) oluşan bir sistemdir. Bu birimler, iletişim sistemi yolu ile, ana istasyona bağlı olan bilgiyi toplar. Ana istasyon elde edilen veriyi gösterir ve ayrıca operatörün uzak kontrol işlemlerini yapmasını sağlar.
+
+Doğru ve zamanlı veri (normalde doğru-zaman) tesis ve işlem operasyonlarının optimizasyonuna olanak sağlar. Bunun dışındaki yararları, daha etkili, güvenilir ve en önemlisi daha güvenli operasyonlardır. Bu da, daha önce kullanılan, otomatik olmayan sistemlere göre çok daha ucuz operasyonlar sağlar.
+
+SCADA sistemlerinin ve işlem kontrol sisteminin tanımı arasında ileri derecede bir
+
+karışıklık söz konusudur. SCADA uzaktan ve uzak operasyonun yan anlamına sahiptir.
+
+Kaçınılmaz soru “uzak'' ne kadar uzaktır - genel olarak bu kontrol eden yer ile kontrol edilen yer arasındaki uzaklığın üstündeki bir uzaklıktır. Öyle ki doğrudan tel kontrolü pratik bir
+
+Başarılı bir SCADA kurulumu kanıtlanmış ve güvenilir teknolojiyi kullanmaya bağlıdır. Ayrıca sistemin çalışmasında, tüm personelin yeterli ve kapsamlı şekilde eğitilmesine de bağlıdır.
+
+Başarısız bir SCADA sistemlerine ait bir tarihçe vardır. Bu sistemlerde şu özellikler vardır; sistemin çeşitli bölümlerinin yetersiz entegrasyonu, sistemdeki gereksiz karışıklık, güvenilir olmayan donanım ve ispatlanmamış yazılım. Günümüzde donanım güvenilirliği büyük bir problem değildir. Fakat artan yazılım karışıklığı yeni zorluklar çıkartmaktadır. Bir çok operatör, SCADA sistemini sadece RTU'ların uyumlu performans komünikasyon ağları ve ana istasyon ile değil, alan aletleri ile de değerlendirir. Fakat alan aletleri, bu kitapçıkta SCADA konusu dışındadır ve bunlardan bahsedilmeyecektir. Aşağıda Şekil 2.1'de , tipik bir SCADA sisteminin diyagramı verilmiştir.
+
+Şekil 2. 1) Tipik bir SCADA sistem diyagramı
+
+Daha kompleks bir SCADA sistemi üzerinde 5 önemli seviye veya hiyerarşi vardır.
+
+• Alan seviyesinde donanım ve kontrol aletleri • Düzenleyici terminaller ve RTUlar • Komünikasyon sistemi
+
+• Ana istasyonlar
+
+• Ticari veri işlem bölümü bilgisayar sistemi
+
+Şekil 2. 2) Kompleks SCADA Sistemi
+
+RTU, her uzak bölgeye yerleştirilmiş, alan analog ve dijital sinyalleri için bir arayüz sağlar.
+
+Komünikasyon sistemi; ana istasyon ve uzak bölgeler için ulaşım yolu sağlar. Komünikasyon sistemi; radyo, telefon hattı, mikrodalga, hatta uydu olabilir. Özel protokoller ve hata belirleme bilgileri; yeterli ve optimum veri transferi için kullanılmaktadır.
+
+Ana istasyon (alt ana) farklı RTU'lardan veri toplar ve genellikle bilgi gösterimi ve uzak bölge kontrolü için operatör bağlantısı sağlar. Geniş telemetri sistemlerinde; alt ana bölgeler, uzak bölgelerden bilgi toplar ve kontrol ana istasyona bir aktarıcıymış gibi davranır.
+
+SCADA teknolojisi, 60'ların başlarından beri mevcuttur ve günümüzde iki yaklaşım arasında rekabet söz konusudur : Dağıtımlı/dağılmış kontrol sistemi (DCS) ve programlanabilir mantık kontrolörü (PLC). Bunun yanında, akıllı araçların bütün sistemlerde, anahtar bir bileşen olarak kullanılmasına yönelik bir eğilim vardır. Tabi ki gerçek dünyadaki tasarımcılar, şahsi uygulamalarına yönelik etkili bir sistem üretmek için, 2 yaklaşımı birleştirecek ve uyarlayacaktır.
+
+Dağıtılmış kontrol sistemleri (DCS)
+
+DCS'de veri kazanımı (veri edinimi) ve kontrol fonksiyonları; kontrol edilen aletlerin yanına yerleştirilmiş çok sayıda dağıtılmış mikroişlemci temelli üniteler veya verilerin toplandığı araçlar yardımıyla yapılır. DCS sistemi, çok gelişmiş analog (MESELA, döngü)
+
+kontrol yeteneği sağlayan sistemlere dönüşmüşlerdir. Yakın olarak birleştirilmiş operatör
+
+arayüz setleri (veya insan makina arayüzü) kolay sistem konfigürasyonuna ve operatör
+
+Programlanabilir mantık kontrolörü (PLC)
+
+PLC ( Programmable Logic Controller ), İngilizce kelimelerinin baş harflerinin
+
+kısaltılması ile oluşur. PLC üniteleri, ikili ve üst denetimsel (süpervisory) kontrolü sağlayan
+
+mikroişlemci tabanlı elektronik ünitelerdir. PLC"ler otomasyonun vazgeçilmez yapı taşlarını oluşturarak otomasyon sisteminin daha güvenilir, daha basit, daha kontrollü çalışma ortamı sağlarlar.
+
+Endüstriyel otomasyon sistemlerinin, kumanda ve kontrol devrelerini gerçekleştirmeye uygun yapıda olan PLC, giriş-çıkış birimleri ve iletişim arabirimleri ile donatılmıştır. Ayrıca PLC, SCADA sistemi ile uyumlu çalışan endüstriyel bir cihaz olup, başlangıçta röleli kumanda sistemlerinin yerine kullanılması düşünülmüş ve ilk ticari PLC, 1969 yılında Modicon firması tarafından geliştirilmiştir. 1969 yıllarında, röleli kumanda devrelerin yerine kullanılmak üzere geliştirilen PLC yalnız temel lojik işlem komutları içermektedir. Mitsubishi, Omron ve Toshiba gibi firmaların ucuz maliyette yüksek performanslı PLC'ler geliştirmesinden sonra bu aygıtlar endüstriyel otomasyon devrelerinde yaygın olarak kullanılmaya başlanmıştır.
+
+Giriş, çıkış gereçleri ve PLC arasındaki sinyal değişiminde giriş arabirimi ve çıkış arabirimi olarak adlandırılan tekrarlayıcı gereklidir. Şekil 2.4' te PLC' nin blok diyagramı
+
+gösterilmektedir.
+
+Şekil 2. 4) PLC Blog Diyagramı
+
+1970'lerin sonlarından itibaren, PLC'ler sert telli röleleri, merdiven-mantık yazılımı ve katı hal elektronik girdi ve çıktı modüllerinin kombinasyonlarıyla değiştirmişlerdir. Standart donanım çözümü sundukları ve ekonomik oldukları için, SCADA RTU uygulamalarında sık sık kullanılırlar. Bu bölümü tamamlamak adına, burada belirtilmesi gereken bir diğer cihaz da, hem PLC, hem de DCS sistemlerinin arayüz kurabildiği akıllı enstrümandır.
+
+Intra-PLC Coms Hattı
+
+PLC İstasyonu 1
+
+Uzak 1/0 Şasesi
+
+Şekil 2. 6) Programlanabilir mantık kontrolör (PLC) sistemi
+
+PLC İstasyonu 2
+
+PLC'nin Uygulama Alanları
+
+Yakın zamana kadar PLC'lerin bugünkü kadar yaygın olarak kullanılmamasının iki nedeni vardır. Bunlar:
+
+• Mikroişlemcilerin ve ilgili parçaların fiyatlarının oldukça düşmesiyle maliyet verimliliğinin artması,
+
+• PLC'lerin karmaşık hesap ve iletişim görevlerini üstlenme özelliğinin olmasıyla daha önce özelleştirilmiş bir bilgisayarın kullanılıyor olduğu yerlerde kullanılabilir hala getirmesidir.
+
+PLC'nin Avantajları
+
+PLC'nin en büyük avantajı; düşük voltajlarda çalışabilmesi ve bakım maliyetlerinin elektromekanik röle kontrol sistemlerine göre oldukça ucuzdur. Buna ilave olarak bir çok avantajlar sağlamaktadır. Bunlar:
+
+• PLC'de basitlik önemli kavramlardan biridir. PLC' nin modüler yapısı her türlü özel uygulamaları ve sistemleri değiştirebilme ve hataları düzeltme özelliği vardır.
+
+• PLC'ler birçok makinenin kontrolünü aynı anda sağlar. Belleğe kaydedilen alt programlar sayesinde makinelerin istenilen biçimde çalıştırarak kontrolünü sağlar.
+
+• Elektromekanik sistem kontrolleri ve bunların devre bağlantıları göz önünde bulundurulursa, PLC' nin yaptığı işe göre kapladığı alan oldukça azdır.
+
+• PLC'ler kendi aralarında, kişisel bilgisayarlarla ve diğer akıllı cihazlarla iletişim sağlayabilmektedir.
+
+Akıllı enstrüman
+
+Bu terim bazen yanlış kullanılmasına rağmen; akıllı enstrüman dijital veri ulaşımı ile bazı diagnostik panel ve bilgisayar bazlı sistemlere sağlanan bir akıllı (mikroişlemci bazlı) dijital ölçüm sensörü (akış-metre gibi ) anlamına gelmektedir.
+
+Şekil 2. 7) Tipik bir akıllı enstrüman
+
+SCADA sistemi hususları
+
+• Tüm kontrol gerekenleri
+
+• Seri mantık
+
+• Analog döngü kontrolü
+
+• Analogun dijital noktaya oranı ve sayısı
+
+• Kontrol hızı ve veri kazanımı
+
+• Ana/operatör kontrol istasyonları
+
+• Gösterge çeşidi gereklidir
+
+• Tarihsel arşivleme gereklilikleri
+
+• Sistem incelemesi
+
+• Güvenebilirlik/Bulunabilirlik
+
+• Ulaşım hızı/güncelleme zamanı/sistem inceleme hızları
+
+• Sistem fazlalığı
+
+• Genişletme kapasitesi
+
+• Yazılım ve modelleme uygulamaları
+
+Açıkça görüldüğü gibi, SCADA sisteminin ilk maliyeti karşılanmalıdır. SCADA sisteminin uygulaması için birkaç genel sebep:
+
+• Gelişmiş tesis ve işlem operasyonları, sistem optimizasyonundan dolayı tasarruf sağlar.
+
+• Personelin üretimini artırır.
+
+• Daha iyi bilgi ve gelişmiş kontrolden dolayı, sistem güvenilirliğini artırır.
+
+• Tesis donanımı güvenliği
+
+• Sistem yanlışlarından çevreyi koruma
+
+• Tesisin optimizasyonundan dolayı enerji tasarrufunda artma
+
+• Gelişmiş ve çabuk veri çıktısı alındığı için müşteriler daha çabuk ve doğru Figürde faturalandırılır.
+
+Uzak Terminal Birimleri (Remote Terminal Units, RTU)
+
+RTU (bazen uzak telemetri ünitesi olarak adlandırılır) başlıktan da anlaşıldığı gibi; monitör ve kontrol aletleri merkez istasyondan uzakta bulunan, genellikle, mikroişlemci bazlı, kendi başına veri kazanımı ve kontrol ünitesidir. En önemli görevi; uzak noktalardaki işlem aletleriyle veri kazanımı ve kontrol sağlamak ve de bu verileri merkez istasyona transfer etmektir. Konfigürasyonunu ve kontrol programlarını, bazı merkez istasyonlardan etkin bir şekilde yükleyebilme olanağına sahiptir. Bunun dışında bazı RTU programlama ünitelerini,
+
+Şekil 2. 8) Tipik RTU Donanım Yapısı
+
+yerinde düzenleyebilme imkânı vardır.
+
+Genel olarak RTU bazı merkez istasyonlarla, geri iletişim kurmasına rağmen, diğer RTU'larla karşılıklı iletişim kurması da mümkündür. RTU, merkez istasyonlardan ulaşılamayan diğer RTU'lara, röle istasyon (bazen depolayıcı ve ileri istasyon olarak belirtilir) olarak da görev yapar.
+
+Küçük boyutlu RTU'lar genelde 10-20'den küçük analog ve dijital sinyale sahiptir, orta boyutlu olanlar ise 100 dijital ve 30-40 analog girdiye sahiptir. Kapasiteleri büyük olanlardan daha fazladır. Özel donanım parçalarına yönelik kısa açıklamalar, aşağıda yer almaktadır.
+
+Tipik RTU donanım modülü şunları içerir.
+
+• Kontrol işlemcisi ve birleştirilmiş hafıza • Analog girdileri • Analog çıktıları • Sayaç girdileri • Dijital girdiler
+
+• Dijital çıktılar • Komünikasyon bağlantıları • Güç kaynağı
+
+• RTU askısı ve kabı
+
+CPU veya Kontrol prosesörü
+
+Genellikle, mikro işlemci bazlıdır (16 veya 32 bit) ör: 256 kByte (4 mByte kadar uzanabilir) toplam hafıza kapasitesi üç türe ayrılır.
+
+EPROM (veya batarya destekli RAM )	256 kbyte
+
+RAM 640 kbyte
+
+Elektroniksel açıdan silinebilir hafıza (flaş veya EEPROM)	128 kbyte
+
+Kompleks matematiksel işlemler icin; matematiksel işlemci kullanışlı bir ilavedir. Bu, bazen co-prosesor olarak adlandırılır.
+
+Komünikasyon portları, genelde, 2 ya da 3 porttur; RS-232 /RS-422 /RS-485.
+
+• Diagnostik terminale arayüzü • Operatör istasyona arayüzü • Merkez bölüme ulaşım bağlantıları
+
+Farklı seviyelerde doğruluk sağlayan bir diğer parça; tam takvimli doğru-zamanlı saattir (artık yıl destekleyicisi içerir.). Saat, gücün kesildiği zamanlarda bile, güncellenmelidir. Doğru-zamanlı saat, olayların tam zamanını belirleme de faydalıdır.
+
+Denetçi zamanlayıcı, RTU programlarının düzenli çalıştığını kontrol etmede de gereklidir. RTU programı, düzenli olarak denetçi zamanını ayarlar. Eğer bu belirli zaman aralıkları içinde yapılmazsa, denetçi hata durumuna geçer (ve CPU'yu ayarlar).
+
+Analog girdi modülü oluşturmak için beş ana parça vardır. Bunlar;
+
+Girdi çoklayıcı
+
+Girdi sinyal yükseltici
+
+Örnekle ve sakla elektrik devresi
+
+A/D dönüştürücüsü
+
+Bus arayüzü ve pano zamanlama sistemi Tipik analog girdi modülünün blok diyagramı, Şekil 2.9' da gösterilmiştir.
+
+Çoklayıcı - Multiplekser
+
+Çoklayıcı; birkaç (genellikle 16) analog girdisini, sırayla örnekleyen ve her birini sıralı çıktıya dönüştüren bir alettir. Çıktı, genellikle, A/D dönüştürücüsüne gider ve her bir girdi kanalındaki, dönüştürücü ihtiyacını kaldırır. Bu önemli bir tasarruf sağlar. Çoklayıcı ile ilgili birkaç parametre ise;
+
+Konuşma kesintisi;
+
+Girdi sinyallerinin yüzdesi olarak, çıktıyla birleştirilen sinyal miktarı, tüm kapalı kanallarına birlikte uygulanır.
+
+Girdi sızma akımı;
+
+Kapalı kanal girdi terminalinin içine ve dışına giren maksimum akım, şalter sızıntısına neden olur.
+
+Kurulum zamanı;
+
+Çoklayıcı çıktısını belli bir yüzdeye ayarlamak için geçen zaman (bazen 90% veya girdi değerinin
+
+± 1 LSB'si) tek girdinin -FS (tam ölçek)den +FS'ye ya da +FS ‘den -FS'ye geçmesidir.
+
+Önemli olan A/D dönüştürücüsü, analog girdi voltajından, doğru değişimi elde edene kadar,
+
+çıktı, yaklaşık girdi aralığının yaklaşık ± LSB'sinin içinde olacak biçimde ayarlanmalıdır. Dönüştürme zamanı
+
+Denge zamanına benzer bir parametredir. Çoklayıcı bir kanaldan diğerine geçtiği zaman, çoklayıcının girdi voltajını denge noktasına getirene kadar geçen süredir.
+
+Malzeme miktar çıkışı
+
+Bu çoklayıcının bir kanaldan diğerine geçtiği en yüksek hızla orantılıdır; bu, denge zamanı veya dönüştürme zamanının hangisi daha uzunsa, onunla orantılıdır.
+
+Transfer doğruluğu
+
+Girdi- çıktı hatasının, girdiye oranı olarak belirtir.
+
+Yükseltici
+
+Düşük seviyedeki voltajın sayısallaştırılmasının gerektiği yerlerde, baskılı devre boardların A/D dönüştürücüsünün, girdi aralığına uygun şekilde yükseltilmelidir. Eğer düşük seviyeli sinyal yükseltilmeden baskılı devre boarda verilirse, doğrulukta kayba neden olur. PGA'lı baskılı devre boardlar yazılım seçimiyle, farklı kanallardan farklı kazançlar ve seviye değişimini mümkün kılarken, bazı baskılı devre boardlar baskılı devre board ustu yükseltme (veya kazanç) sağlar.
+
+İdeal girdi yükselticileri; ortak referans voltajları ne olursa olsun, iki girdi terminalinin potansiyel farkına tepki verir. Maalesef; yaygın mod voltajları gerçek dünyada, yükselticilerde hataya sebep olur. Genel mod ret oranının önemli özelliklerinden biri, CMMR dir ve aşağıdaki gibi hesaplanır.
+
+CMMR= 20 log(Vcm/Vdiff) (dB)
+
+Vcm : iki girdinin ortak voltajı
+
+Vdiff : Vcm iki girdiye de uygulandığında elde edilen cıktı (hata) voltajı
+
+CMMR için ideal değer 80 dB ve fazlasıdır.
+
+Sıçrama, bir diğer yükseltici tanımlamasıdır, zamana ve sıcaklığa bağlıdır. Eğer yükseltici belli bir sıcaklıkta 0 girdi için 0 çıktı verecek Figürde kalibre edilirse; çıktı (hala 0 girdideyse), zaman geçtikçe ve sıcaklık değiştikçe değişir.
+
+Zaman ve sıcaklık sıçraması genellikle sırasıyla PPM/birim zaman ve PPM/ °C ile
+
+ölçülür. 12-bit baskılı devre board için bir LSB, 4096'da veya 244PPM'de bir sayımdır. İşlem
+
+oranının, 0 °C - 50 °C den fazla olduğu durumlarda; 1 LSB sıçrama;
+
+244PMM/50 °C = 4.88PPM/ °C
+
+Bir parça seçerken dikkat edilmesi gereken husus; tüm işlem sıcaklığı aralığında, baskılı devre boardun zaman ve sıcaklık sıçrama belirtileri, istenilen kesinlikte olmalıdır ve unutulmamalıdır ki, bu parça, RTU'lar içinde ısınabilir
+
+Örnekle ve sakla devresi
+
+Girdi sinyallerinin sabit kaldığı zamanlarda (aralık zamanı), çoğu A/D dönüştürücü, A/D dönüşümünü yapabilmek için, belirli bir zamana gerek duyar. Bu, A/D dönüştürücü tarafından ihtiyaç duyulan bir dönüşüm algoritmasıdır. Eğer, bu anda, girdi değişirse, A/D yanlış okuma yapmaya başlayabilir. Bu yüzden; örnekle ve sakla aygıtı, A/D dönüştürücüsünün girişinde kullanılır. Bu çoklayıcının, çıktı sinyallerini veya yükselticinin kazanımının hızlandırılmasını kolaylaştırır ve A/D'ler için aralık zamanını sabit tutar.
+
+A/D dönüştürücü
+
+A/D dönüştürücü, modülün kalbidir. Görevi girdi voltajına uygun olarak girdi analog voltajını ölçmek ve dijital kod üretimi yapmaktır. Kullanılan iki çeşit ana A/D dönüştürücü vardır.
+
+Birleştirici (veya çift eğim) A/D'ler
+
+Bunlar düşük frekanslı uygulamalar için kullanılır (maksimum birkaç yüz hertz) ve çok yüksek doğruluk ve kesinliğe sahip olabilirler (or: 22bit). Isıl çift ve RTD (Resistance Temperature Device) modülleri içinde bulunurlar.
+
+Diğer avantajları; düşük fiyat, gürültü ve ana alımı, birleştirme ve A/D dönüştürücüsünü karakteristik çift eğimi yardımıyla azalmaya eğilimlidir. A/D prosedürü asıl olarak; girdi sinyalleriyle belirli bir zamanda şarj edilmiş bir kapasitör gerektirir ve kapasitörün boşalmasının ne kadar sürdüğünü hesaplamak için bir sayaç kullanır. Bu zamanın uzunluğu girdi voltajıyla orantılıdır.
+
+Ardışık yaklaşım A/D'leri
+
+Ardışık yaklaşım A/Dleri çok daha hızlı bir örnekleme hızına sahiptir (12 bitle bir kaç yüz khz ye kadar mümkündür) ve fiyatları uygundur. Tam ölçek aralığına uygun olarak A/D'nin girdi voltajıyla (integral D/A dönüştürücüsü tarafından üretilen) karşılaştırdığı yerlerde , dönüştürme algoritması, ikili bir araştırmaya benzer. Eğer girdi alt yarısındaysa, ilk rakam 0'dır ve A/D bu karşılaştırmayı girdi aralığının alt yarısında tekrarlar. Eğer voltaj üst yarımdaysa, ilk rakam 1 olabilir. girdi aralığının ikiye bölünmesinden kalanı alma ve girdi aralığıyla karşılaştırma, doğru bitlerde belirlenmiş numaranın elde edilişine kadar sürer. Dönüştürme işleminin sürdüğü müddetçe, girdi sinyalinin değişmemesi çok önemlidir.
+
+A/D dönüştürücülerinin özellikleri aşağıda belirtilmiştir.
+
+Tam doğruluk
+
+Bu sayı maksimum analog hatayı belirtir, bu ulusal büro standartları standart voltajını referans alır.
+
+Diferansiyel lineerlik
+
+Dönüştürücünün ful aralığının üzerindeki her bit için teorik değerinden, gerçek bit büyüklüğünün maksimum sapmasıdır.
+
+Kazanç hata (ölçek faktör hatası)
+
+Tek kutuplu Ofset
+
+İlk geçiş, genel analogun LSB üzerinde olmalıdır. Tek kutuplu ofset hatası; gerçek geçiş noktasının ideal ilk geçiş noktasından sapmasıdır. Bu genellikle kalibrasyon yazılımı ile 0'a ayarlanabilir ve baskılı devre board üzerindeki bir trimpottur. Bu parametre, genellikle, birleşmiş sıcaklık sıçraması gösterimine sahiptir.
+
+Çift kutuplu ofset
+
+Benzer olarak, FS/2-1/2 LSB'ye (12 bit A/D üzerindeki 7 FFh'dan 800 h'ye) geçiş genel analogun LSB altında olmalıdır. Çift kutuplu ofset (tekrar, genellikle trimpotla uyumlu) ve sıcaklık katsayısı; ilk sapmayı ve yüksek sıcaklık hataları içindeki maksimum değişikliği
+
+belirler.
+
+> Lineerite hatası
+
+Çoğu A/D dönüştürücü kazançlarında, kalibre edilebildiklerinden, ofset ve 0 hata oluşumu kritik öneme sahip değildir. Lineerite hataları, diferansiyel lineer olmayan (DNL) ve integral
+
+lineer olmayan hatalar daha önemlidir çünkü bunlar iptal edilemezler.
+
+Diferansiyel lineer olmama durumu
+
+Gerçek kod genişliğiyle, LSB ideal genişliği arasındaki farktır. Eğer DNL hataları fazla ise, çıktı kodu genişliği oldukça fazladır ve girdi voltaj aralığı küçüktür. Eğer DNL büyüklüğü, LSB'den fazla ise, en az bir kod genişliği kaybolur ve bir kod kaybına neden olur.
+
+İntegral lineer olmama durumu
+
+Gerçek transfer fonksiyonunun, ideal düz çizgiden sapmasıdır. Bu çizgi, ideal kod genişliğinin (kod merkezi veya CC) merkezinden veya kodların değişmeye başladığı noktalar (düşük yan geçişi ya da LST) üzerinden çizilebilir. Çoğu A/D, LST INL yardımıyla belirlenir. Sonuç olarak, çizgi, 0 girdisindeki dik eksen üzerinde bulunan LSB noktası üzerinde, tam- ölçek girdideki son geçişin arkasındaki LSB noktasına doğru çizilir.
+
+Çözünürlük
+
+A/D dönüştürücüsü tarafından ayırt edilen en küçük değişikliktir. Örneğin 12-bit A/D
+
+çeviricisi için bu 1/4096=0.0244 %'dir.
+
+Kayıp kod
+
+Bu durum, yeni çıktının, önceki koddan bir ya da daha fazla rakamının eksik olduğunda oluşur.
+
+Monotonluk
+
+Bu dönüştürücünün tam aralığının üzerindeki, sürekli artan girdi için sürekli artan çıktı gerektirir.
+
+Sayısal belirsizlik
+
+A/D, sadece girdi voltajını 1 LSBlik sınırlı bir çözünürlüğe çözebilir. Bu nedenle asıl gerçek dünya voltajı, çıktı koda uygun olan voltajın 1 J.SB altında olabilir ya da LSB üstünde olabilir. Bu nedenle bir A/D'nin sayısal belirsizliği her zaman ±1/2 LSB'dir.
+
+> Göreceli doğruluk
+
+Bu, kazanç ve ofsetin sıfıra ayarlandığı, tam ölçeğin bir kesri olarak, girdinin çıktı hatasına oranıdır. Bus arayüzü, baskılı devre boarddan, sunucu PC'lerin hafızasına veri transferi mekanizmasını sağlar. Ayrıca baskılı devre boarda her tur konfigürasyon bilgisi (örneğin; kazanç/kanal bilgisi) veya diğer komutları gönderme mekanizmasını da sağlar. Arayüz 8-,16- veya 32-bit olabilir.
+
+Analog girdi konfigürasyonu
+
+Dış transduserlere veya benzer aletlere (sinyal kaynağı) bağlarken, dikkatli olmak gerekir. Aksi takdirde; hata oluşur ve veri kazanım sisteminde doğru olmayan sonuçlar elde edilir.
+
+Bağlantı metotları
+
+Sinyal kaynaklarını, veri kazanım baskılı devre boardına bağlamanın iki metodu vardır: tek uçlu ve diferansiyel metodu aşağıda gösterilmiştir. Genelde, diferansiyel girdiler maksimum dokunulmazlık olacak biçimde; Tek uçlu girdiler sadece ise diğer iki metodun da kullanılamayacağı yerlerde kullanılmalıdır.
+
+Aşağıdaki tanımlamada, bu noktalar:
+
+Tüm sinyaller, baskılı devre boardların analog toprak noktasına (AGND 0 volttur) göre ölçülür.
+
+HI ve LO, sinyal kaynağının çıktıları olarak belirtilir, LO (bazen sinyal dönüşümü olarak adlandırılır) kaynağın referans noktası ve HI sinyal değeridir. Esn, diyagram içindeki sinyal değerlerini (bu, VHIn-VLOn) belirtir. ”n”, sinyallerin kanal numarasıdır.
+
+AMP LO; baskılı devre boardların diferansiyel yükselticisinin referans girdisidir. AGND ile aynı değildir. Ama ana referans olarak gösterilebilir.
+
+Kurşunun resistansından dolayı, uzak sinyal referans noktası (veya toprak) AGND'den farklı bir potansiyeldedir. Bu genel mod voltajı, Vcm olarak adlandırılır. İdeal durumlarda, Vcm'nin 0 V olması beklenirken; gerçek dünya sistemlerinde Vcm, 0 değildir. Baskılı devre board girdilerindeki girdi değeri, sonuç olarak Esn + Vcm'dir.
+
+Tek uçlu girdiler
+
+Tek uçlu girdileri kabul eden baskılı devre boardlar, her bir sinyal için, kaynağın HI tarafında bir tek girdi teline sahiptir. Kaynakların tüm LO tarafları, analog yer AGND pinine topraklanır ve bağlanır. Bu girdi tipleri, genel mod reddi kaybına uğrar ve gürültüye karşı çok hassastır. Bu uzun kurşunlar (1/2 m'den uzun) ya da yüksek kazançlar (5x'den büyük) için geçerli değildir. Bu metodun avantajları: maksimum sayıda girdiye izin vermesi, bağlantının (sadece bir toprak ve bir kurşun gereklidir) basit olması ve daha basit ön devre kurulumuna izin vermesidir. Şekil 2.11' de görüldüğü gibi, yükselticin LO (negatif) ucu AGND'ye
+
+Şekil 2. 11) Sekiz tek uçlu girdi
+
+> Diferansiyel girdiler
+
+Doğru diferansiyel girdiler, maksimum dokunulmazlık sağlar. Bu metot; sinyal kaynaklarının farklı toprak noktalarına sahip olduğu yerlerde kullanılmalıdır ve birlikte bağlanmalıdır. Şekil 2.12'de görüldüğü gibi, her bir kanalın, kendi genel mod voltajı yükselticinin negatif ucunu besler, özel Vcmn voltajları sonuç olarak her okumada toplanır. Unutulmamalıdır ki, iki girdi çoklayıcısı vardır. Aynı sayıdaki yapay diferansiyel girdileri ve tek uçlu girdi terminalleri için diferansiyel modda girdi kanallarının sadece yarısı mevcuttur. Ayrıca, her bir girdi kanalını geri göndermek için bios resistorlere ihtiyaç duyulabilir. Bu baskılı devre boardun özelliklerine fakat, genellikle, her bir sinyalin LO tarafı ile AGND (kablonun sinyal ucunda) arasında bağlı büyük bir resistör bulunur ve bazen HI tarafı ve AGND arasında ayrı değerde olan diğer bir resistöre gerek duyabilir.
+
+Vcm ve Vcmn voltajları, DC ve aynı zamanda zamanla değişen bir AC içeriğe sahip olabilir. Bu AC bölümü, gürültü olarak tanımlanır fakat diferansiyel girdileri kullanarak, gürültü kısmı da yok edilebilir (reddedilecektir). Çünkü girdi yükselticinin, her iki tarafında da bulunur.
+
+Tipik analog girdi modülleri
+
+Bunlar birçok girdiye sahiptir. Tipik olarak:
+
+• 8 veya 16 analog girdileri • 8 veya 12 bit çözünürlük
+
+• 4-20 mA arası (diğer olasılıklar: 0-20 mA/I 10 volt/0-10 volt)
+
+Girdi resistansı genellikle 240kQ ile 1MQ arasındadır.
+
+Değişim hızı genellikle 10 mikrosaniye ile 30 milisaniye arasında değişir.
+
+Girdiler genellikle tek uçludur (Ayrıca diferansiyel mod sağlanabilir).
+
+Bir radyo bağlantısı üzerinde transfer edilen verinin maliyeti ve minimizasyonu için; genel bir konfigürasyon, 8 tek uçlu 8-bitlik noktadır. Bu noktalar, her analog noktası için 30 milisaniyelik değişim hızına sahip 0-10 voltu okur.
+
+Analog girdi baskılı devre boardlarıyla ilgili, önemli fakat ihmal edilen bir konu da doğru frekanstaki bir sinyalin örneklendirilmesi ihtiyacıdır. Nyquist ilkesi; bir sinyalin en yüksek bölüm frekansında en ez iki kez örneklendirilmesi gerektiğini savunur. Böylece dijital sisteme yöneltilen analog, oldukça yüksek bir oranda örneklendirilebilir; bu sayede, girdi sinyalinin maksimum frekansının dışında kalır. Aksi takdirde girdi frekans bölümlerinde, kabul edilebilir bir seviyeye düşürebilmek için filtrasyon yapılması gerekebilir. Ölçülen değerlerdeki hatalı sonuçlara dayalı filtreleme kurmanın yüksek maliyetinden dolayı, bu göz ardı edilebilir. Yazılım filtrelemesi, yetersiz bir donanım filtrelemesini veya örnekleme hızını telafi edemez. Bu sinyali düzenleyebilir fakat dijital formattaki analog sinyali, olması gerektiği gibi, tekrar üretemez.
+
+Analog çıktılar
+
+4.1.2.2.3 1 Tipik analog çıktı modülü
+
+Şekil 2. 13) Tipik analog çıktı modülü Genellikle, analog çıktı modülü aşağıdaki özelliklere sahiptir:
+
+• 8 analog çıktıları
+
+• 8 veya 12 bit çözünürlüğü
+
+10p saniyeden 30 milisaniyeye donuşum hızı
+
+4-20 mA/± 10 volt/0 dan 10 volta çıktı dizilimi
+
+Yük rezistansının belirtilenden (genellikle 50kQ) daha az olmamasına özen gösterilmelidir. Aksi takdirde aşırı miktarda voltaj farkı oluşacaktır.
+
+Analog çıktı modülü tasarımları, genellikle, akım çıktısı (güç dışardan sağlanmadıkça) yerine voltaj çıktısı sağlamayı tercih ederler. Çünkü bu daha az güç ihtiyacı gerektirir.
+
+Dijital girdiler
+
+Bunlar durum ve alarm sinyalleri gibi şeyleri göstermek için kullanılır. Vanadan gelen durum sinyalleri; vana-acık ve vana-kapalı durumunu gösteren iki limit anahtarını içerir. Acık ve kapalı durum kontakları kapalı olduğu için, bu vananın transit içinde olduğunu gösterebilir (Eğer her iki durum acık durumu gösterecek şekilde değişirse problem oluşabilir). Yüksek seviyedeki değişiklik, alarm durumunu gösterir.
+
+Alarm mantığında, RTU, ilk alarmı, oluşabilecek bir sonraki artçı alarmlardan ayırt edebilmelidir. Bir çok dijital girdi baskılı devre boardu, her baskılı devre board için 8, 16 veya 32 grup girdisi sağlar. Çoğu baskılı devre board, çok fazla sayıda dijital nokta ile uyum sağlayabilecek şekilde kurulmalıdır (Verilen baskılı devre boardun sayacının maksimum sayıyı geçtiği yerlerde).
+
+Normalde acık veya normalde kapalı standart dönüştürücüler, alarm için kullanılabilir. Genellikle, normalde kapalı alarm dijital girdileri, devrenin bir alarm durumunu göstereceği yerlerde kullanılmalıdır.
+
+Girdi güç kaynağı, kullanılan dönüşüm için uygun olarak hızlandırılır: normalde açık ve normalde kapalı. Normalde açık konum için, dijital girdi güç kaynağı kısılabilir.
+
+Girdi modülü; Şekil 2.15'te gösterildiği gibi, çeker veya kaynak modülü olarak iki temel şekilde kurulabilir.
+
+Şekil 2. 15) Girdi modülünü kaynak veya çeker olarak konfigüre etmek
+
+.1. Tipik dijital girdi modülü
+
+Genellikle bir dijital girdi modülünden aşağıdakiler beklenir.
+
+• Her modül için 16 dijital girdi
+
+• Her bir girdinin akım konumunu göstermek için birleştirilmiş LED indikatörü • Dijital girdi voltajı 110/240 VAC ve 12/24/48 LDC'dan değişir.
+
+• Optik izolasyon, her dijital girdiden sağlanır.
+
+Sayaç veya akümülatör dijital girdileri
+
+Darbe-girdi modülünü gerektiren, bir çok uygulama vardır, mesela, ölçme paneli. Bu, bir kontak kapama sinyali veya eğer darbe frekansı yeterince yüksekse, katı hal röle sinyali
+
+olabilir.
+
+Darbe-girdi sinyalleri, normalde kuru kontaktalardır (Ör:güç; gerçek darbe, kaynağından çok, RTU güç kaynağından sağlanır).
+
+Aşağıdaki Şekil 2.16, dijital girdi sayaç sisteminin bir diyagramını vermektedir. Üretilen gürültünün etkisini en aza indirmek için optik izolasyon uygundur. Akümülatörün ebatı, veriyi bir diğer hafıza birimine aktarmadan önce, sayılması gereken darbe sayısı düşünüldüğü zaman önem kazanır, örneğin; 12 bitlik yazmaç, 4096 sayma kapasitesine sahiptir. 16 bit 65536 darbe sağlar, bu da, 48 dakika @ 2000 barel /hour'a karşılık gelir. Eğer bu limitler ihmal edilirse, akümülatörün sayacı tamamlandığında klasik sıfıra geçme problemi yaşanabilir.
+
+Şekil 2. 16) Darbe girdi Modülü
+
+İki yaklaşım mevcuttur.
+
+• Akümülatör içeriği, belli aralıklarla RAM hafızasına aktarılarak, eski ve yeni akım değer farkı bir yazmaçta depolanabilir.
+
+• İkinci yaklaşımda ise, bir sıvıların, özel bir alana girip çıktığı yerler için düşünülen kesin ve detaylı hesaplamaların yapılması gerektiği yerlerde kullanılır. Bir dondurucu akümülatör komutu, uygun tüm RTU'lara iletilir. O anda darbe akümülatörü, o andaki değerleri dondurur ve bir hafıza konumuna gönderir ve akümülatörü sıfırlar, bu sayede, sayma işlemi tekrar başlatılabilir.
+
+Tipik sayaç özellikleri
+
+Tipik özellikleri ise şunlardır:
+
+• Dört sayaç girdisi
+
+• Dört-16 bit sayacı (her sayaç girdisi için 65536 sayım)
+
+• 20 khz aralığına kadar sayma frekansı
+
+• Sayım frekans üst limiti için, görev döngüsü, tercihen %50'dir (bu orana dikkat edin)
+
+Sayaç girdileri (şalteri açmak ve kapamak için), belirli bir zamana ihtiyaç duyduklarından görev hızı önemlidir. Eğer açık darbe çok kısa ise, sayım frekansı belirlenmiş limit içinde olsa bile, bir darbe kaybolabilir.
+
+Sayaç girdisi üzerindeki bir resistör ve kapasitör kombinasyonu darbelerin iletilmesi için daha ucuz bir yol olmasına rağmen, Schmitt tetikleyicisi, gerekli girdi koşulunu sağlar.
+
+Dijital çıktı modülleri
+
+Dijital çıktı modülü, her uygun çıktı kanalındaki çıktı voltajını sürer. Mümkün olan üç yaklaşım.
+
+• Triyak aktarma • Reed röle aktarma • TTL voltaj çıktıları
+
+TRİYAK genellikle AC aktarmak için kullanılır; Varistor çoğunlukla triyak girdisi üzerinden bağlanır. Kısa ömürlü elektriğin, zararlı etkilerini azaltır.
+
+Dikkat edilmesi gereken üç pratik konu vardır:
+
+• TRİYAK çıktı aktarma aleti tamamen kapatılıp açılmaz ama düşük ve yüksek resistans değerlerine sahiptir. Bu yüzden triyak kapatıldığında bile çıktıda bir miktar artık akım bulunur.
+
+• Dalgalanma akımlarının kısa aralığı (bir döngünün yarısı) olmalıdır. Herhangi birinin uzun olması modüle zarar verir.
+
+• Üreticinin vermiş olduğu, sürekli akım değerine bağlı kalınmalıdır. Bu, çoğunlukla, özel kanallara ve bu kanalların sayısına karşılık gelir. Modülün tüm çıktı kanallarının tam hızlandırılmış akım kapasitesinde kullanabildiği yerlerde, bazı özel durumlar vardır. Bu, tüm modül için, izin verilmiş maksimum güç dağılımını aşabilir
+
+Tipik dijital çıktı modülleri
+
+• 8 dijital çıktı
+
+• 240V AC/ 24V DC (0,5 amperden 2 ampere kadar) çıktılar • Akım durumunu göstermesi için, her bir çıktıya birleştirilmiş LED • Optik izolasyon ve her çıktı için kuru röle kontakt
+
+Kuru röle kontaktlar (mesela, kontaktlara çıktı modülü ile voltaj uygulanmamış), çoğunlukla sağlanır.Örneğin, bunlar reed röle çıktısı olabilir. Bu aletler için, akım değerinin çalışma değerlerini geçmediğinden emin olun (özellikle; indaktif akım). Her dijital çıktı 2 ampere ayarlanmasına rağmen, modül bütün olarak 16 amperi (her 2 amper ile 8 amper) sağlayamaz. Genelde, bir modülün, maksimum çalışma akım değeri, bir çıktının maksimum akımı ile, çıktı sayısı çarpıldığında elde edilen değerin, genel olarak %60'ı kadardır. Eğer bu toplam akım
+
+Şekil 2. 17) Dijital çıktı modülü
+
+aşılırsa, modülde aşırı ısınma oluşur ve modül, zarar görebilir.
+
+DC sistemleri, indaktif yüklere bağlanırken röle üstüne bir volan [:flywheel] diyotu; ve AC sistemler bağlanırken bir kapasitör/resistör kombinasyonu koyulması önerilir. Bu, aygıtlar kapatılırken, DC voltajlarından kaynaklanan voltaj kıvılcımlarının geri EMF etkisini azaltır.
+
+Karışık analog ve dijital girdiler
+
+RTU'ların gereksinimleri düşük olduğundan, analog ve dijital sinyaller, göz önüne alındığında birleştirilmiş analog ve dijital modül kullanmak tipik bir çözümdür. Bunların özellikleri:
+
+• Dört analog girdi (8- bit çözünürlük) • İki dijital girdi • 1 dijital çıktı
+
+• 2 analog çıktı
+
+Şekil 2. 18) Dijital çıktılar için Flywheel diyotu veya RC devreleri
+
+İletişim arayüzleri
+
+Modern RTU aşağıdaki gibi çoklu komünikasyon medyasını işleyebilecek düzeyde esnek olmalıdır:
+
+• RS-232/ RS-442/RS-485
+
+Çevirmeli telefon hattı/ adanmış kablolama
+
+Mikrodalga/MUX
+
+Uydu
+
+X.25 paket protokollere
+
+VHF/UHF/300Mhz yoluyla şehirlerarası radyo
+
+İşin ilginç yanı, RTU'lar için daha zor olan radyo komünikasyon arayüzüdür. Kablolama arayüzü daha kolay dizayn problemi olarak düşünülür.
+
+RTU için güç kaynağı modülü
+
+RTU tipik olarak 110/240V AC ± %10 veya 12/24/48V DC ± %10'dan çalışabilmelidir. Sağlanması gereken bataryalar; kurşun asidi ve nikel-cadmium'dur. Burdaki tipik gereklilikler; 20 saat yedek operasyon, tamamen boşaltılmış batarya için 25 °C 12 saatlik şarj zamanıdır.
+
+Güç kaynağı, batarya ve birleştirilmiş şarj, normalde RTU kapağının içinde bulunur.
+
+Merkez bölüm/ana istasyona geçirilmesi gereken diğer önemli izleme parametreleri ise:
+
+Analog batarya değeri
+
+Normal oranın üzerindeki batarya voltajı için alarm
+
+Batarya bobinleri normalde; dahili monte için IP 52'ye ve harici monte için IP 56'ya ayarlanmalıdır.
+
+RTU ortam muhafazası
+
+Genellikle baskılı devre baskılı devre boardları, RTU kabini içindeki arka yüzeyine girer. RTU kabini, sıcak hava gibi durumlara karşı koruma sağlayan, çevresel kaplamaların içine yerleştirilmiştir.
+
+Kurulumunda dikkat edilmesi gereken:
+
+• Dönüştürücü hava vantilatörü ve filtreler: Bu, RTU kaplamalarının tabanına yerleştirilmelidir; sıcaklık oluşumu engellenir. Elektronik devredeki sıcak nokta oluşumları, homojen hava değişimi ile engellenmelidir. Sıcak ıslama testi yapmak da önemlidir.
+
+• Tehlikeli bölgeler: RTU'lar, patlamaya dayanıklı kaplamalarının içine yerleştirilmelidir (ör: yağ ve gaz ortamı)
+
+RTU su ve rüzgar geçirmez bir kapak içinde; binanın dışına yerleştirildiği zaman, RTU'ların tipik çalışma sıcaklıkları değişkendir. RTU binanın içine yerleştirildiğinde, bu sıcaklık tanımlamaları esnekleştirilebilir. Çünkü burda çok fazla sıcaklık değişimi yoktur (vantilatör ve baca ayarlama sistemlerinde problem olan yerlerde duruma göre farklı çözüm sağlanır).
+
+Eğer RTU çevresinde aşırı elektromagnetik etkileşim (EMI) radyo frekans çakışması bekleniyorsa; özel perdeleme ve topraklama kullanılmalıdır. Bazı üreticiler; RTU'ların etrafında tutmalı alıcı-verici kullanımına yönelik uyarılarda bulunmaktadırlar. Titreyen tesislerden ve aletlerden gelen sürekli titreşim, bazı durumlarda, RTU üzerinde istenmeyen etkilere neden olabilir. Bu tür RTU'lar için, titreşim şok emici montaj belirlenmelidir. RTU'larla birlikte düşünülmesi gereken diğer hususlar; şimşektir (veya elektrik dalgalarından korunma) ve deprem (0.1den 10hz ye kadar olan titreşime eşit olanlar).
+
+Bir RTU sistemi için tipik gereklilikler
+
+Bir spesifikasyonu yazarken, aşağıdaki konular dikkate alınmalıdır.
+
+Donanım:
+
+Kişisel RTU genişletilebilirliği (genellikle 2000 analog ve dijital noktaya kadar)
+
+• Kılıf dışı modüller
+
+• Bir sistemde yer alan maksimum RTU sayısı 255'e çıkarılabilmelidir.
+
+Modüler sistem - kurulumunda özel bir sıra yoktur (bir kafesteki modüller)
+
+Sağlam operasyon - bir modüldeki aksaklık diğer modüllerin performansını etkilemez.
+
+Güç tüketiminin minimuma indirgenmesi (CMOS, avantajlı olabilir)
+
+Isı üretimi en aza düşürülür.
+
+Sert ve sağlam fiziksel kurulum
+
+Gürültüye karşı en iyi duruma getirme (kulağı rahatsız edici durumlar yüzünden)
+
+Sıcaklık -10 dan 65 °C’ye (çalışma ortamı)
+
+Bağıl nem, % 90'a kadar olabilir
+
+Diagnostiklerin açık gösterimi
+
+Görünür durum LED leri
+
+• Yerel hata çözümü mümkündür • Uzak hata çözümü operasyonu
+
+• Her bir I/O modülünün ve kanalın durumu	(program
+
+çalıştırma/aksaklık/iletişim OK/aksaklık)
+
+• Modüllerin hepsi ortak bir busa bağlanır • Busa olan fiziksel iç bağlantılar sağlam olmalıdır ve sert koşullarda
+
+kullanılmaya uygun olmalıdır • Alan tesisatı kurulumunda kolaylık • Modül değiştirmede kolaylık
+
+• Elektrik tesisatı bağlantısı ve ayrılması için hareketleri vida uçları Her modül; devamlı olarak I/O ve donanım sistemlerini test eden dahili yazılıma
+
+sahiptir. Hataları belirlemek için ve parçalardaki bozuklukları gidermek için, sistemde, diagnostik LED'ler bulunmalıdır. Operatörün görüntülenebilmesi için tüm bu durumların ana istasyona iletilmesi gerekir.
+
+RTU olarak kullanılan PLC'ler
+
+Bir PLC veya Programlanabilir mantık denetleyicisi, endüstriyel malzemeleri ve işlemleri kontrol eden bilgisayar temelli bir katı hal aletidir. Önceleri; röleler, davul anahtarlar ve zamanlayıcı/sayaç tarafından yapılan mantık fonksiyonlarını yapabilmek için tasarlanmıştı. Günümüzde ise analog kontrolü, PLC operasyonunun standart bir işlevidir.
+
+Birçok üreticiye göre, PLC'nin RTU'ya göre avantajı; PLC'nin daha genel amaçlı kullanılabilir ve bir çok farklı fonksiyon için kolaylıkla kurulabilir olmasıdır.
+
+PLC'nin asıl kurulumu, büyük ölçüde değişebilir, fakat RTU'ya göre, normalde, fazla değişmez. PLC'ler aşağıdaki sebeplerden dolayı popülerdir:
+
+Ekonomik çözüm ; PLC'ler kablolamalı röleli RTU çözümünden daha
+
+ekonomik bir çözümdür.
+
+Çok yönlülük ve esneklik ; PLC'ler, değişen kontrol gereksinimlerine karşı, mantık veya donanımlarını kolaylıkla değiştirebilirler.
+
+Tasarım ve kurulum kolaylığı ; PLC'ler, yazılıma verdiği önemden dolayı, SCADA sistemlerinin kurulum ve dizaynını daha kolay hale getirirler.
+
+Daha güvenilir ; Doğru kurulduğunda, PLC'ler, klasik kablolama röleli çözüm veya kısa süreli üretilmiş RTU'lardan ; çok daha güvenilir bir çözümdür.
+
+Gelişmiş kontrol ; PLC'ler RTU'lara oranla, yazılım kapasitesinden dolayı, çok daha gelişmiş bir kontrol sağlarlar.
+
+Fiziksel uygunluk ; PLC, alternatif çözümlere göre daha az yer kaplar.
+
+Daha kolay tamir ve teşhis; Sorunların net bildirimi ve yazılım sayesinde sistemdeki donanım/firmware/yazılım problemleri, kolay ve çabuk teşhis edilir. Ayrıca işlem ve otomasyon sistemi ile ilgili sorunlar da belirlenebilir.
+
+4.1.2.3.1 PLC yazılımı
+
+Şekil 2. 19) PLC Merdiven mantığı kavramı
+
+Programlamada, merdiven -mantık yaklaşımı popülerdir çünkü standart elektrik devreleriyle benzeşir. Gücü sağlayan iki dikey çizgi diyagramın her iki kenarına çizilir, mantık çizgileri de yatay olarak çizilir.
+
+Yukardaki örnek, gerçek devreyi kontrol eden PLC'yi ve PLC içindeki dahili merdiven- mantığı göstermektedir.
+
+Merdiven-mantığının temel kuralları
+
+Merdiven mantığının temel kuralları:
+
+Dikey çizgiler kontrol sistemi için kaynağı gösterir (12V DC'den 240V AC'ye kadar). “Güç dağılımı” soldan sağa gösterilmiştir.
+
+Merdiven diyagramını soldan sağa ve yukarıdan aşağıya doğru okuyun (normal batı kitap okuma geleneğinde olduğu gibi). Elektrik aletleri, normalde normal enerjilendirilmemiş durumlarında gösterilmiştir. Bu bazen karışık olabilir. Tutarlılığı sağlamak için dikkat edilmelidir.
+
+Sargılar, zamanlayıcılar, sayaçlar ve diğer aletlerle ilgili kontaktlar, kontrol aletiyle aynı numaralandırma sistemine sahiptir.
+
+Belli bir aygıt için başlama işlemini gösteren aletler, normalde, paralel olarak kablolandırılmıştır (böylece bunlardan herhangi biri, aygıtı başlatabilir veya açabilir).
+
+Belli bir aygıt için durdurma işlemini gösteren aletler, normalde, seri olarak kablolandırılmıştır (böylece bunlardan herhangi biri, aygıtı, durdurabilir veya
+
+kapatabilir).
+
+Anlık başlama girdi sinyalinin, başlama sinyalini açık duruma getirdiği yerlerde mandallama yapılır, böylece başlama girdisi, kapalı duruma geldiğinde başlama sinyali enerjilendirilmiş, ON, olarak kalır. Mandallama operasyonu ayrıca kapama kontağını sabit tutma ve bir koruma kontağı sağlamaya yarar. Mandallama örnekleri için bir önceki diyagrama bakın.
+
+İnteraktif mantık: Programda daha sonra ortaya çıkan merdiven mantık basamakları, önceki merdiven mantık basamaklarıyla etkileşim halindedir. Bu yararlı geri besleme mekanizması, bir dizi işlemin başarıyla tamamlanmasının ardından, geri besleme sağlayabilir (veya bazı hatalara karşı, tüm sistemi koruyabilir).
+
+Farklı merdiven mantığı komutları
+
+Merdiven mantık talimatları genellikle farklı kategorilere ayrılabilir.
+
+Standart röle mantık tipi
+
+Zamanlayıcı ve sayaç
+
+Aritmetik
+
+Mantıksal
+
+Hareket
+
+Karşılaştırma
+
+Dosya manipülasyonu
+
+Sıralayıcı komut
+
+Komünikasyon komutu • Diagnostik
+
+• Çeşitlilik (alt komutlar v.b.)
+
+Bu talimatların bazıları aşağıdaki bölümde açıklanmıştır.
+
+Standart aktarıcı tipi
+
+Bu kategoride üç ana talimat vardır.
+
+Normalde açık kontak
+
+Bazen “eğer kapalıysa inceleyin” veya “ açıksa inceleyin” diye de belirtilebilir. Bu talimat AÇIK durumu için hafızayla ilgili bölgeyi inceler. Eğer bu hafıza bölgesi AÇIK duruma veya 1'e getirilirse komut “AÇIK” veya “DOĞRU” veya “1”e getirilir. Eğer bölge “ KAPALI” veya “0” a getirilirse, komut “ KAPALI” veya “YANLIŞ” veya “0”a getirilir.
+
+Normalde kapalı kontak
+
+Bazen “eğer açıksa inceleyin” veya “kapalıysa inceleyin” diye de belirtilir. Bu komut “KAPALI” durumu için hafızayla ilgili bölgeyi inceler. Eğer bu hafıza bölgesi KAPALI veya “1”e getirilirse, komut “KAPALI” veya “0”a getirilir. Eğer hafıza bölgesi AÇIK veya “0”a getirilirse, komut “AÇIK” veya “DOĞRU” veya “1”e getirilir
+
+Çıkış güçlü sarım
+
+Merdiven-mantık basamakları tamamen “TRUE” ve “ON” konumuna getirildiği zaman, çıkış güç yöneticisi, hafıza yerini “ON” konumuna getirir; eğer merdiven-mantık basamakları, “FALSE” veya “OFF” konumuna getirilirse, çıkış güç sarımı hafıza yerini “OFF” konumuna getirir.
+
+Sarım ve kontaklarla, bu gösterimler, gerçek dünya (veya harici) veya basitçe dahili girdi ve çıktıları dönüştürülebilir.
+
+.2 Zamanlayıcılar
+
+İki çeşit zamanlayıcı vardır.
+
+Zamanlayıcı “AÇIK” erteleme
+
+Zamanlayıcı “KAPALI” erteleme Her zamanlayıcıyla ilgili üç parametre vardır.
+
+Önceden ayarlanmış değer (zamanlayıcıya enerji verilmeden veya enerjisini boşaltırken, zamanlayıcının saydığı saniye sayısıdır)
+
+Toplanmış değer (zamanlayıcının ne kadar süredir aktif olduğunu kaydettiği saniye sayısıdır)
+
+“Zamanlayıcı Açık” operasyonundaki zamanlayıcı, temelde, zamanlayıcı çıktı sarımı, bu zaman periyodu için, basamak enerjili duruma geçtiğinde toplanmış zaman, önceden ayarlı zamanı gösterdiğinde aktive edilir. Basamak durumu, akümülatör değeri önceden ayarlı zamana eşit olmadan önce olumsuz bir duruma geçerse, akümülatör değeri sıfır değerini alır.
+
+“Zamanlayıcı KAPALI” zamanlayıcısının operasyonu, basamak aktif olduğunda, sarımın enerjilendirilmesidir. Basamak olumsuz durumu (veya inaktif) geçtiğinde, zamanlayıcı durur (akümüle edilmiş değer, önceden ayarlı değere eşitlenir). Bu noktada, zamanlayıcı sarımı enerjisiz kalır. Eğer basamak durumu; toplam değer, önceden ayarlı değere ulaşmadan önce tekrar düşük konuma geçerse, akümülatör sıfırlanır.
+
+.2 .1 Sayaç
+
+İki çeşit sayaç vardır, ileri sayaç ve geri sayaç. Bu sayaçların operasyonları “zamanlayıcı AÇIK” ve zamanlayıcı KAPALI' ya benzer.
+
+Sayaçlarınkiyle ilgili iki değer vardır.
+
+Toplanmış değer
+
+Önceden ayarlı değer
+
+.2 .1.1 İleri sayan sayaçlar
+
+Giriş kontağının yanlıştan doğruya her geçişinde; bu sayaç akümülatör değerini 1 yükseltir. Toplanmış değer önceden ayarlı değere eşit olduğunda, sayaç çıktısı enerjili hale geçer. Sıfırlama komutu verildiğinde (sayaçla aynı yerde), sayaç sıfırlanır ve toplanmış değer sıfıra ayarlanır.
+
+.2 .1.2 Geri sayan sayaçlar
+
+Giriş kontağının yanlıştan doğruya her geçişinde, bu sayaç akümülatör değerini (önceden ayarlı değerden başlayan) 1 azaltır. Akümülatör değeri sıfıra eşit olduğunda, sayaç çıkışı enerjilenir. İlginç olan, sayaçların, güç eksiklikleri esnasında veya programlandıysa MCR ( Master Control Reset ) komutundan sonra, toplanmış sayılarını kaybetmemeleridir.
+
+.3 Aritmetik komutlar
+
+Çeşitli aritmetik talimatlar açıktır ve genellikle tamsayı nokta aritmetiği etrafında kurulmuştur. Bazen, ASCII veya BCD değerlerinin toplanmasına izin verilebilir. Çift sayıların toplanması ve tek sayılara dönüştürülmesinin açıklaması, İlave C'de verilmiştir. Bulunan tipik komutlar;
+
+• Toplama • Çıkarma • Çarpma • Bölme
+
+• Kare kök alma • BCD'ye dönüştürme • BCD'den dönüştürme
+
+Basamak, aritmetik operasyona (bir basamak sarımının olağan yerine yerleştirilmiş) izin vermek için doğru değerinde olmalıdır.
+
+Sorunlar esnasında, bu işlemleri kullanırken, taşıma, aşırı büyük, sıfır ve işaret bitleri gibi kontrol bitlerinin takip edilmesi gerekir. Kaynak değerlerinin, floating nokta olduğu durumlarda, floating nokta yazmaçlarının, hedef yazmaç olarak kullanılmasına dikkat etmek gerekir. Aksi taktirde, aritmetik operasyon yapılırken, doğruluk kaybolabilir.
+
+.4 Mantıksal operasyon
+
+Röle kontakları ve sarımlarla birlikte uygulanan mantıksal işlemlerin yanı sıra, bir 16 bitlik kelime üzerinde, mantık ve boolean işlemlerine ihtiyaç duyulabilir.
+
+Aşağıdaki örneklerde; son nokta değerini alabilmek için kaynak kelimelerin eşit yerlerindeki bitler üzerinde parça parça işlem yapılır. Mevcut olan çeşitli mantık işlemleri şunlardır:
+
+• AND • OR
+
+• XOR (sadece veya)
+
+• NOT (veya tamamlayıcı)
+
+Mantıksal işlem yapabilmek için uygun basamak doğru değerinde olmalıdır (bir basamak sarımının olağan yerine yerleştirilmiş). Mantıksal işlemlerin anlamların tam açıklaması Şekil 2.20' de verilmiştir.
+
+Şekil 2. 20) Mantıksal işlemler
+
+.5 Hareket
+
+Bu komut her uygulandığında, tanımlı adresteki kaynak değerini, hedef adrese
+
+gönderir.
+
+.6 Karşılaştırma talimatı
+
+Bunlar içerik kelimelerin içeriğini karşılaştırmaya yarar. İki kelimeyi karşılaştırmak için,
+
+tipik komutlar:
+
+Eşittir
+
+Eşit değil
+
+Küçüktür
+
+Küçük eşit
+
+Büyüktür
+
+• Büyük eşit
+
+Bu durumlar sağlandığı zaman, ilgili basamak, enerjili duruma geçirilecek olan sarımlarla seri olarak bağlanabilir.
+
+.7 Alt komutlar ve atlama komutları
+
+Normal işleyişleri içerisinde, standart sıralı iletim yoluyla, merdiven mantık programlarının kontrolünü iletmenin iki yöntemi vardır. Bunlar:
+
+• Basamak durumu d oğru olduğunda (bir etikete atlamak olarak da adlandırılır) programın bir bölümüne geçer.
+
+• All rutin olarak adlandırılan, ayrı bir merdiven mantık bloğuna geçmek
+
+• İlgili yazılım paketlerinden dolayı, hatalı sintaks raporlanmasındaki kısıtlanmalar yüzünden, bazı kullanıcılar; merdiven mantık basamağını PLC'ye aktarırken, bazı sorunlarla karşılaşırlar.
+
+• Her basamaktaki (veya şebekedeki) sarımın numaralandırılması
+
+• Bir çok merdiven mantık uygulaması, genel olarak, her basamak için bir sarıma, belirli sayıda paralel kola için belirlenmiş maksimum sayıda paralel bölüm (mesela, 7) ve belirli sayıda seri kontağa (mesela, 10) izin verir. Eğer daha fazla kontağa ihtiyaç duyuluyorsa, ek basamaklar ( dummy sarımlı) eklenmelidir. Bu sayede, bir basamak veya bir şebeke ile iş görülebilir.
+
+• Dik kontaklar
+
+• Normalde dik kontaklara izin verilmez.
+
+• Kontak yerleştirme
+
+• Kontakların sadece PLC içindeki belli seviyelere yerleştirilmesine izin verilmiştir. Diğerlerinde, bu tür bir yerleştirme olanak sağlanmaz.
+
+• Güç akış yönü
+
+• Şebeke veya basamak içindeki “güç akışı” her zaman soldan sağa doğru olmalıdır. Bu kuralda herhangi bir değişiklik yapmak uygun değildir.
+
+Aşağıdaki Şekil (tablo) farklı firmalara ait PLC komutlarının öğretici dil ile ilgili bilgi vermektedir.
+
+Şekil 2. 21) Bazı PLC Komut ve Sembolleri
+
+Master istasyon (Ana İstasyon)
+
+Bir veya daha fazla operatör (yerel şebeke alanla birleşmiş) istasyonuna sahip olarak tanımlanmış merkez bölge/ana istasyon, modem ve radyo alıcı/verici içeren komünikasyon sistemine bağlanır. Kablolama sisteminin radyo sistemi yerine kullanılması mümkündür. Bu durumda, modem kablolama ile doğrudan birleşir. Ana kontrol odasına yakın bir yere yerleştirilmiş bir RTU olmasına rağmen, normalde ana istasyona doğrudan bağlanmış girdi/çıktı modülü yoktur. Burada bulunması gereken özellikler :
+
+RTU'ların durumunu göstermek ve operatör kontrolü için operatör ara yüzü
+
+Verinin RTU'larda kaydı
+
+Verinin RTU'dan alarmı
+
+Ana istasyonun ana görevleri vardır:
+
+• RTU'lardan ve alt ana istasyonlardan periyodik olarak alan verisi kazanımı
+
+• Operatör istasyon üzerinden uzak aygıtların kontrolü
+
+• Bir alt ana istasyon kurmak da gereklidir. Bunun amacı özel alanlardaki kontrol
+bölgelerini kontrol etmektir. Alt ana istasyonlar aşağıdaki fonksiyonlara sahiptir:
+
+• Bölge içinde bulunan RTU'lardan veri almak.
+
+• Yerel operatör istasyonu üzerinde bulunan bu verileri kaydetmek ve göstermek.
+
+• Veriyi ana istasyona iletmek.
+
+• Ana istasyondan kontrol isteklerini alıp, kendi bölgesi içindeki RTU'lara gönderir. Ana istasyon aşağıda belirtilen tipik fonksiyonlara sahiptir.
+
+İletişim kurulumu
+
+• Her RTU'yu konfigüre et.
+
+• Her bir RTU'yu girdi/çıktı parametreleriyle başlat.
+
+• Kontrol ve veri kazanımı programlarını RTU'ya yükle.
+
+İletişim ağının operasyonu
+
+• Bir ana- yardımcı düzenlemesi varsa, her RTU'yu veri için seç ve RTU'ya yaz.
+
+• Alanları ve olayları diske kaydet (ve eğer gerekliyse operatöre göster).
+
+• Farklı RTU'lardaki girdi ve çıktıları otomatik olarak birbirine bağla
+
+Teşhis
+
+• RTU aksaklıklarında ve olası problemler için, doğru diagnostik bilgisi sağla.
+
+• Fazla veri yüklemesi gibi olası problemleri tahmin et.
+
+Master istasyon yazılımı
+
+Ana istasyon yazılımına bağlanmış üç parça vardır:
+
+• İşletim sistemi yazılım
+
+• SCADA sistemi yazılımı (uygun olarak konfigüre edilmiş)
+
+• SCADA uygulaması yazılım
+
+İşletim sistemi ve bilgisayar sistem donanımı arasında ara yüz olarak görev yapan, gerekli bir firmware (BIOS benzeri) vardır. İşletim sistem yazılımından daha fazla bahsedilmeyecektir. Bunun en iyi örnekleri DOS, Windows, Windows NT ve çeşitli UNIX sistemleridir.
+
+Sistem SCADA yazılımı
+
+Bu, özel SCADA sistem satıcısı tarafından bir araya getirilerek hazırlanmış ve sonra özel bir kullanıcı tarafından konfigüre edilmiş yazılıma karşılık gelir.
+
+Genellikle dört ana modülden oluşur.
+
+• Veri kazanımı • Kontrol
+
+• Arşivleme veya veri tabanı depolaması • İnsan makina arayüzü (HMI)
+
+Daha önce belirtildiği gibi başarılı bir SCADA sistem dizaynı, merkez bölge yapısına verilen öneme bağlıdır. Bu yüzden, bu gelecek bölümde değerlendirilecektir. Fakat merkez bölgenin özelliklerinden biri de LAN'ların kullanımıdır.
+
+Yerel alan şebekeleri
+
+Merkez bölge yapısı, 802,3 (ethernet) , 802,4 (jeton bus) veya 802,5 (jeton ring) gibi LAN standartlarından birini kullanan yayılmış yapı ve yüksek-hız veri yolu üzerine kurulmuştur. Bir ana operatör istasyonunun bulunmadığı yerlerde; Ethernet ve jeton bus kullanmak en yaygın yaklaşımdır. Pazarda kabul görmeye başlamış olan yaklaşım, jeton bus yaklaşımıdır; kontrol bir istasyondan diğerine bir jetonla iletilir. Bu sistemin kolay bir şekilde genişlemesine izin verir.
+
+Şebeke opsiyonlarının her biri aşağıdaki paragraflarda ele alınacaktır. Üç çeşitle LAN'a özel referans yapılacaktır.
+
+• Ethernet (veya CSMA/CD)
+
+• Jeton ring (ör: IBM jeton ring)
+
+• Jeton bus (ör: MAP/PLC tipi endüstriyel sistemler)
+
+Ethernet
+
+Bunlar, genellikle, 10 MBps baseband koaksiyal kablo şebekeleri olarak kurulur. Taşıyıcının çoklu kabul ve çakışma algılayıcısı (veya CSMA/CD) ethernet tarafından kullanılan ortam giriş kontrolü (MAC) metodudur. Bunlar LAN'larla en popüler yaklaşımlardır ve bu yüzden alternatif yaklaşımlardan daha detaylı ele alınacaktır.
+
+Ethernet düşüncesi, radyo iletim deneylerinden doğmuştur; çok sayıda istasyon rasgele zamanlarda birbiriyle iletişim halindedir. Özellikle bir istasyon (veya nod) bir mesajı (genel bağlantı kabloları üzerindeki) diğer noda iletmeden önce, öncelikle bus (kablo veya radyo) aktivitesi için dinler. Eğer istasyon, diğer nodların iletim yapmadığını belirlerse, kendi mesajını gönderir. Başka bir istasyonunda, aynı anda iletim yapma olasılığı vardır. Eğer iki nod arasında bir çakışma meydana geliyorsa, her nod, tekrar iletim yapmaya teşebbüs etmeden önce (rastgele duraksamalar yüzünden farklı zamanlarda) bir süreliğine iletimden vazgeçer. Her bir ethernet istasyonu için, ortam erişim kontrol ünitesinin tipik bir kurulum görüntüsü, Şekil 2.22'de verilmiştir.
+
+Şekil 2. 22) Ethernet istasyonları
+
+Entegre kılavuz ve alıcı verici ünitesi (MAC ünitesi olarak tanımlanır) aşağıdaki parçalara sahiptir:
+
+• Alıcı verici ünitesi, veri iletmede ve almada kullanılır, çakışmayı belirler, elektriksel izolasyon sağlar ve bus çalışmasını garantiler.
+
+• Koaksiyal kablonun fiziksel bağlantısını yapan bir kılavuz
+
+Alıcı/vericiye kılıflı bir kablo yardımıyla bağlanmış kontrol kartı, mesaj bölümlendirilmesi ve hata tespiti yapan ortam giriş kontrol ünitesi ve protokollere bağlı şebeke kurulumu için mikroişlemci içerir.
+
+Üç çeşit Ethernet kablolaması vardır: standart Ethernet, koaksiyal Ethernet veya 10BASE2 ve 10BASET standart.
+
+Standart Ethernet, ISO8802.3 standardı içinde 10BASE5 olarak tanımlanır. Bu, maksimum parça uzunluğu 500 m (Her parçasının 100 MAU'lara kadar) olan 10 MB/sec baz bandı iletimi olarak tanımlanabilir. Tüm Ethernet sistemi içinde en fazla 5 segman yer alır.
+
+10BASE5 standardı, 10.28 mm'lik 50 ohmluk koaksiyal kablo gerektirir; kılavuz üstünde bir kıskaç kullanılarak bağlanabilir. Bu ayrıca kalın tel Ethernet olarak bilinir. Erkek N-bağlayıcı; kablo üzerinde ekleme için kullanılır ve iki iletken arasında dişi-dişi N tipi konnektör haznesi vardır. Birleştirici ünite arayüzü (AUJ), 15 iletken kılıflı kablo içerir (5'er kılıflı çift içerir). Her bir segmanın, sonu 50 ohmluk N-konnektör sonlandırıcı ile sonlandırılmalıdır.
+
+Ortam birleştirme ünitesi ( veya MAU )'nun iki çeşidi mevcuttur:
+
+Vampir klavuz Tap
+
+• Vampire klavuz, bir pin merkez iletkenine (kablo içine bir delik açarak) bağlandığı için kolay bağlantı sağlar ve diğer pin kılıf içine bağlanır.
+
+N-tipi konnektör
+
+• N-tipi konnektör, iki dişi N-konnektörlerden oluşur. Böylece, MAU'nun ana hatta bağlanacağı yerde, kablonun kesilmesini ve erkek N-tipi konnektörlerin takılmasını gerektirir. Kirli fabrika ortamlarında, vampir bağlantsı tercih edilebilir. MAU'lar arasındaki uzaklık 2.5
+
+m'dir.
+
+İnce koaksiyal Ethernet, diğer bir deyişle 10BASE2, 10BASE5 standartlarından sonra kurulum giderlerini azaltmak için geliştirildi. 10BASE2 için diğer isimler Cheapernet ve ince tel Ethernettir. Kullanılan koaksiyal kablo 50 ohm karakteristik empedansa sahip RG-58 A/U
+
+veya C/U'dur.
+
+İnce Ethernetin koaksiyal kablo gövdesi kaynaklanmamalıdır. İnce Ethernet eklenti, yerleri sadece belirli 0.5 m'lik mesafe aralıklarında bağlanabilir. 10BASE2'nin, her 185 m'lik segmanında tekrarlayıcılar için eklenti yerleri de dahil olmak üzere, 30 adete kadar MAU bağlanabilir. Benzer kurallar,10BASE5'in kurulumu için de geçerlidir fakat ince koaksiyal kablo parçası, iki 10BASE5 parçası arasında bağlantı hattı olarak kullanılamaz.
+
+Üçüncü ethernet standardı 10BASET'dir. Bu standart, her terminale, ikiz sarmal kablo çifti ile bağlı merkezi huba sahip yıldız tipi şebeke içerir. Terminalin, huba maksimum uzaklığı 100 m'dir. Bu standart, küçük terminal topluluklarına hizmet sağlamak içindir ve genellikle 10BASE5 şebeke omurgasına bağlıdır.
+
+Jeton halka LAN'ları
+
+İkinci tip bir ağ, IBM tarafından 80'lerin başında sembolik olarak geliştirilen sembolik halka sistemidir. Ofis tipi ortamlarda yaygın kullanılmasına karşın, endüstriyel sistemlerde popüler değildir. Sistem, kontrolü bir noddan diğer noda geçirmek için sembolik bir mesaj kullanır. Nod bir sembol aldığında, kısa bir süreliğine halka şebekenin kontrolünü ele geçirir. Bu süre bittiğinde sembol bir sonraki noda geçirilmelidir.
+
+Şekil 2. 23) Halka Topoloji
+
+Alternatif olarak nodun ileteceği mesaj yoksa, sembol bir sonraki noda geçirilmelidir.
+
+Jeton bus şebekeleri
+
+Jeton bus şebekesi, tüm nodlara, bir bus üstünde belirli maksimum bir zaman bulunma izni verdiğinden dolayı, endüstriyel sistemlerde popülarite kazanmaktadır. Bu felsefe, kontrolün, bir jeton yoluyla noddan noda geçtiği jeton halka şebekesinin felsefesine benzer.
+
+Sistem güvenirliği ve ulaşılabilirliği
+
+SCADA sisteminin her bir bileşeni, sistemin genel güvenirliliği ile bağlantılıdır. Ana istasyon, SCADA sisteminin stratejik bir parçasıdır. Sistemin güvenirliliği ve ulaşılabilirliği, dikkatli gözden geçirilmelidir. Tek bir RTU'nun kaybı, istenilen bir durum olmamasına rağmen sistem işleyişini bozmaz.
+
+Ana istasyonun kritik parçaları
+
+• Kontrol işleme ünitesi (CPU)
+
+• Ana hafıza ve tampon yeniden yazıcıl ar • Yatak sürücüsü ve ilgili kart kontrolörü • İletişim arayüzü ve kanal
+
+İstisna raporlama (veya olay raporlama)
+
+Uzak istasyon, kendi girdilerini, durum ve veri değişikliği için kontrol edebilmektedir. Durumunda herhangi bir değişiklik olduğunda, uzak istasyon, ana istasyon bu uzak istasyonu seçtiğinde göndermek üzere, bir veri bloğu yazar. İstisna olarak seçilen raporun tipik nedenleri arasında:
+
+İletim kanalı düşük veri hızında çalışması (mesela 4800bps).
+
+Uzak istasyon tarafından izlenen, büyük miktarda veri bulunması (mesela 80 bits veya daha fazla).
+
+Ana istasyona bağlı 10'dan fazla RTU bulunması
+
+Merkez ana istasyona bilgi gönderen, her analog veya dijital nokta, kendisiyle ilgili bir istisna raporlama parametre setine sahiptir. İstisna raporlama tipi ilgili bölgeye bağlıdır fakat aşağıdaki gibi de olabilir:
+
+Analog değerin yüksek ve düşük alarm limitleri.
+
+Analog sinyalin, tüm tarama aralığındaki değişim yüzdesi.
+
+Minimum ve maksimum raporlama zaman aralığı.
+
+Analog değeri, verilen parametreyi geçtiğinde veya bir alarm oluştuğunda, istisna raporu üretilir. Bir dijital nokta, noktanın durumu değiştirdiğinde (0'dan 1'e veya tam tersi), bir istisna raporu üretir.Bu yaklaşımın avantajı, komünikasyon sisteminde gereksiz (tekrar eden) trafiği minimuma indirmektir.
+
+Bunun dezavantajları:
+
+Ana istasyon, sadece, sistemin doğru frekansta olmadığı durumlarda, bu frekansa bağlı süre sonrasında, bağlantı hatalarını tespit edebilir.
+
+Sistem içindeki veri, her zaman güncel değildir. Örneğin; 30 dakika eski olabilir.
+
+Analog değerler üzerinde ana istasyon tarafından etkin bir filtrasyon işlemi vardır; analog değerleri limit dışına çıktığında, küçük değişimler rapor edilmez.
+
+Operatör, manuel olarak, RTU'lardan güncel veriyi almak için, bir sistem güncellemesi yapar.
+
+Bir master istasyonunun tipik konfigürasyon hususları
+
+Sistem dizaynı yaparken akılda tutulması gereken birkaç faktör vardır.
+
+• Basitlik (KISS ilkesi)
+
+Minimum cevap zamanı
+
+Deterministik tarz operasyon (özellikle RTU'lardan gelen kritik sinyaller için)
+
+• Minimum maliyet
+
+• Operasyonun optimum verimi
+
+• Veri formatı ve komünikasyon hızı (baud rate/durdurma bitleri/parity)
+
+SCADA sistemini oluşturan tüm ana istasyon, RTU ve komünikasyon sistemlerinin genellemenin zorluğuna rağmen, aşağıda bazı hususlar açıklanmıştır.
+
+Donanım uyuşması
+
+Eğer modem kullanılmıyorsa, “no handshaking”'i seçiniz. Eğer bir modem kullanılıyorsa tam veya yarım dubleks olan bir modem tercih edilmelidir.
+
+İstasyon adresi
+
+Her istasyon (ve RTU)'nun tek adresi olmalıdır.
+
+Hata tespiti
+
+Blok Kontrolü (BCC) veya Döngüsel Fazlalık Kontrolü (CRC). En iyi hata kontrol kapasitesine sahip olduğu için tercihen CRC'yi seçiniz. Bu daha sonra ele alınacaktır.
+
+Protokol mesaj yeniden denemesi
+
+Ana istasyonun, RTU'nun kapsama alanı dışında olduğuna karar vermeden önce, kaç kez yeniden denediğini veya kaç kez mesaj iletimi yaptığını belirtir (Genel olarak üç tekrar deneme standarttır. Fakat belli hassas üniteler için, ana istasyonun, kapsama alanı dışında kararını vermeden önce, sadece bir tekrar denemeye ihtiyaç duyması gerektiği akılda tutulmalıdır).
+
+RTS gönderim gecikmesi
+
+Bu tipik olarak, modemden “temizle” sinyali ile beraber gönderilir. Mesaj iletiminden önce
+
+geçen zamanı belirtir. Clear sinyali gönderim hattı, iletim zamanından önce, modem tarafından teyit edilmelidir.
+
+RTS kapalı gecikmesi
+
+Bu mesaj sonundan, RTS sinyalinin engellenmesine kadar geçen zamandır. RTS kapalı gecikme'yi çok kısa tutarak, mesaja ara vermemek önemlidir.
+
+Zaman Gecikme
+
+Bir RTU aletinden alınan mesaj için zaman gecikmesi.
+
+RTU'dan gelen mesaj büyüklüğü
+
+Bu, ana istasyon tarafından yapılan bir seçim esnasında, RTU'dan alınacak maksimum mesaj büyüklüğünü belirtir.
+
+Öncelikli mesaj iletimi
+
+Bir RTU istasyonunun bir seçimi sonunda veya seçim sırasında bir ana istasyon görüldüğünde, ana istasyon aracılığıyla gönderilecek anlık mesaja karşılık gelir.
+
+Seçim sırası
+
+Hem öncelikli hem de normal mesaj transferi için, seçim sırasındaki istasyon adresini tanımlar.
+
+Adresleme hususları
+
+Şebeke üzerindeki her bir istasyon farklı bir adrese sahip olmalıdır. Bir adres (normalde FF16 veya 111 111) yayın adresi için saklanır. Bazı protokoller, diagnostik amaçlı, üst adreslerden bazılarını rezerv eder ve bu adresler de şebeke üzerinde kullanılmamalıdır.
+
+4.1.3.SCADA Sistemleri, Yazılım ve Protokoller
+
+Bu bölüm, özellikle, insan makina yazılımına vurgu yapılarak, SCADA sistem ve protokolü üstünde odaklanmıştır.
+
+Aşağıdaki noktalar, detaylı bir şekilde ele alınacaktır:
+
+• SCADA sisteminin bileşenleri • SCADA yazılım paketi • Belirli SCADA protokolleri • Hata tespiti
+
+• SCADA sistemindeki yeni teknolojiler • On iki altın kural
+
+Bir SCADA sisteminin bileşenleri
+
+SCADA yazılımına vurgu yapılarak, bir SCADA sisteminin tipik bileşenleri, aşağıdaki diyagramda gösterilmiştir.
+
+Tipik bir SCADA yazılımından beklenen temel özellikler, aşağıda listelenmiştir. Doğal olarak, bu özellikler kurulacak donanıma bağlıdır.
+
+SCADA anahtar özellikleri
+
+Kullanıcı arayüzü
+
+Klavye
+
+Fare
+
+Dokunmatik ekran Grafik gösterimi
+
+Müşteri tarafından konfigüre edilebilir, obje tabanlı ve bit eşlemeli
+
+Limitsiz sayıda sayfa
+
+Çözünürlük: milyonlarca renge sahip, 1280x1024'e kadar Alarmlar
+
+İstemci sunucu mimarisi
+
+Bir milisaniye kesinliğinde (veya daha iyi) zaman ayarlı alarmlar
+
+Tek şebeke onayı ve alarmların kontrolü
+
+Alarmlar bütün istemcilere paylaştırılır
+
+Alarmlar kronolojik sıra ile gösterilir
+
+Alarm sayfalarının dinamik dağılımı
+
+Kullanıcı tarafından belirlenmiş format ve renkler
+
+Her bir analog alarm için, dörde kadar ayarlanır püf noktası
+
+Analog alarm için sapma ve hız değişimi izleme
+
+Alarmların seçici kategorisel (1256 kategori) gösterimi
+
+Tarihsel alarm ve olay kaydı
+
+İçerik duyarlı yardım
+
+On-line alarm iptali ve eşik değeri değiştirme
+
+Olay tetiklemeli alarmlar
+
+Alarm tetiklemeli raporlar
+
+Operatör yorumları, alarmlara eklenebilir Eğilimler
+
+İstemci sunucu yapısı
+
+Ekran belirsizliği olmayan doğru trend çıktılar
+
+Lastik bant trend zumlaması
+
+DBF, C5V dosyalarına bilgi aktarımı
+
+X/Y çizim kabiliyeti
+
+Olay tabanlı trend
+
+Pop-up trend gösterimi
+
+Trend çizgileri ve profilleri
+
+Arka plan trend grafikleri
+
+Gerçek zamanlı çok uçlu trendleme
+
+Kısa veya uzun zamanlı trend gösterimi
+
+Veri depolama uzunluğu ve izleme frekansı, her nokta için belirlenebilir
+
+Tarihsel trend veri arşivlemesi
+
+Bilgi kaybı olmaksızın, on-line zaman taban değişimi
+
+Arşivlenmiş trend verisinin on-line olarak geri çağrılması
+
+Tam değer ve zaman, gösterilebilir
+
+Trend verisi, grafiksel olarak gerçek zamanlı gösterilebilir.
+
+RTU (ve PLC) arayüzü
+
+Standart olarak tüm uyumlu protokoller
+
+Desteklenen DDE sürücüleri
+
+RTU, döngü kontrolörleri, bar kod okuyucuları diğer ekipmanlar için arayüz
+
+Sürücü kiti mevcuttur.
+
+Konvansiyonel önceden belirli tarama metodu yerine isteğe bağlı çalışır
+
+PLC'lere olan blok verisı isteklerinin optimizasyonu
+
+Şebeke kullanıcı veri taleplerinin rasyonalizasyonu
+
+PLC veri yolu bant genişliği maksimizasyonu
+
+Ölçülebilirlik
+
+Mevcut ekipmanı yenilemeden ve değiştirmeden ek bir donanım eklenebilir
+
+Sadece PLC yapısı mimarisine göre sınırlanmıştır (tipik olarak 300-40000 arasında nokta)
+
+Veriye erişim
+
+Herhangi bir şebeke kullanıcısı tarafından veriye direkt gerçek zamanlı erişim
+
+Gerçek zamanlı veriye 3. parti erişimi, mesela, Lotus123 ve Excel
+
+Şebeke DDE
+
+DDE uyumu; okuma , yazma ve çalıştırma
+
+Tüm IO aygıt noktalarında DDE
+
+Clipboard Veri tabanı
+
+ODBC sürücü desteği
+
+Direkt SQL komutları veya yüksek seviyeli raporlama Şebeke
+
+NetWare, LAN yöneticisi, çalışma grupları için Windows, Windows NT gibi bütün NetBIOS uyumlu şebekelerini destekler.
+
+NetBEUI, IPX/SPX, TCP/IP ve diğer protokolleri destekler
+
+Merkezi alarm, trend ve rapor işlemi - veriye, şebekenin her hangi bir yerinden erişilebilir
+
+Full LAN fazlalık denetimi için çift şebeke
+
+Şebeke konfigürasyonu gerektirmez (şeffaf)
+
+Tek bir denetim kutusu ile çalıştırılabilir, konfügirasyon yoktur
+
+LAN lisansı, şebeke üzerindeki nod sayısına değil, şebekeye giren kullanıcı sayısına bağlıdır
+
+Dosya sunucusu gerektirmez
+
+• Çok kullanıcılı sistem, operatörler arasında tam bağlantı • RAS ve WAN yüksek performansla desteklenmiştir • PSTN çevirme desteği
+
+Hata toleransı ve fazlalık denetimi
+
+• Full LAN fazlalık denetimi çift şebeke • Fazlalık denetimi, özel donanıma uygulanabilir • Primer ve sekonder ekipman konfügirasyonunu destekler • Akıllı fazlalık denetimi, sekonder ekipmanın, işlemci yüküne katkıda bulunur • Otomatik değişim ve iyileştirme
+
+• Fazlalık denetimi, PLC'lere, konfigürasyona ihtiyaç duymaksızın yazabilir • Aynalı disk I/0 aletleri • Aynalı alarm sunucuları • Aynalı trend sunucuları • Dosya sunucu fazlalık denetimi • Konfügirasyon gerekmez, tek bir denetim kutusu ile çalıştırılabilir
+
+İstemci/sunucu dağıtımlı işleme
+
+• Dağıtımlı proje güncelleme(değişiklikler, şebeke üzerine yansıtılır)
+
+• Çoklu gösterge nodları için eş zamanlı destek • Herhangi bir noddan, herhangi bir taga erişim • Herhangi bir noddan, herhangi bir veriye erişim (trend, alarm, rapor)
+
+SCADA yazılım paketi
+
+Var olan tesisle ilgili, SCADA paketinin performansı ve verimliliğinin önemi kadar, paket, gelecekteki gereksinimleri karşılayabilmeli ve kolaylıkla geliştirilebilir olmalıdır. Sistem gereksinimleri değiştikçe, kolaylıkla değişebilmeli ve iş büyüdükçe genişletilebilmelidir, diğer bir değişle, sistem ölçülebilir bir yapı kullanmalıdır.
+
+Geçmişte SCADA sistemlerini dizayn ederken iki ana yaklaşım vardı. Bunlar, merkezi ve dağıtımlı sistemlerdir.
+
+Merkezi yaklaşımda, tek bir bilgisayar veya ana bölüm, bütün tesisi izler ve bütün tesis bilgisi, bu bilgisayarda bulunan, bir veri tabanında tutulur. Bu yaklaşımın dezavantajları:
+
+• Başlangıç maliyetleri, küçük bir sistem için oldukça yüksektir • Sistemin sabit ebatından dolayı, tesisi aşama aşama (artarak) geliştirmek
+
+mümkün değildir
+
+• Tüm sistemin yenilenmesi gerektiği, için fazlalık denetimi pahalıdır
+
+• Ana bölüm bilgisayarında çalışan personelden beklenen beceriler oldukça fazla olabilir.
+
+Farklı bilgisayarlar arasında, iletişim kolay değildir, konfigürasyon sorunlarına
+
+neden olur
+
+Veri işleme ve veri tabanları, sistemdeki bütün bilgisayarlara kopyalanmalıdır, bu da düşük bir verim sağlar
+
+Tesis aygıtlarından, veri elde etmenin sistematik bir yaklaşımı yoktur - eğer iki operatör aynı veriye ihtiyaç duyarsa, RTU iki kez sorgulanır.
+
+Kullanılabilecek etkili bir çözüm, her iş için gerekli olan veri çeşidini sorgulamak, sistemi bu doğrultuda yapılandırmaktır. Ayrıca istemci sunucu yaklaşımı da etkili bir sistem sağlar.
+
+Bir sunucu nodu, şebekedeki diğer nodlara servis sağlayan bir aygıttır. Buna yaygın bir örnek, veri tabanı programıdır. Diğer bir taraftan, bir istemci, sunucu tarafından servis isteyen bir noddur. İstemci ve sunucu kelimeleri, özel bir nodda çalışan program anlamına gelir.
+
+İyi bir örnek, gösterge verisi gerektiren, gösterge sistemidir. Gösterge nodu (veya istemci), kontrol sunucusundan veri ister. Kontrol sunucusu, veri tabanını araştırır ve istenilen veriyi gönderir, böylece gösterge nodu alternatif yaklaşımda veri tabanını, kendisi araştırmak zorunda olduğundan, alternatif yaklaşıma kıyasla, şebeke yükünü azaltır.
+
+Herhangi bir SCADA sistemi, tipik olarak 5 görev üstlenir. Bu görevlerden, her biri kendi
+
+işlemini gerçekleştirir.
+
+Girdi/çıktı işlemi
+
+Bu program, kontrol ve izleme sistemi ile tesis katı arasındaki arayüzdür.
+
+Alarm işlemi
+
+Bu, dijital alarm noktalarını saptayarak ve analog alarm noktalarının değerlerini alarm- eşik değerleriyle karşılaştırarak, bütün alarmları yönetir.
+
+Trend işlemi
+
+Trend işlemi, zaman içinde, izlenecek veriyi toplar.
+
+Rapor işlemi
+
+Raporlar, tesis verisinden elde edilir. Bu raporlar, periyodik olay odaklı veya operatör tarafından aktive edilmiş olabilir.
+
+Gösterge işlemi
+
+Operatör tarafından izlenecek olan tüm veriyi ve operatör tarafından istenilen tüm kontrol işlemlerini yönetir.
+
+Fazlalık denetimi
+
+Bir parçanın, tüm sistemin operasyonunu bozduğu, tipik bir SCADA sistem örneği, aşağıda yer alan diyagramda verilmiştir.
+
+Şekil 3. 1) Zayıf bağ
+
+Eğer sistemdeki herhangi bir işlem veya aktivite kritikse veya eğer üretim kaybının maliyeti yüksekse, sistemin içine fazlalık denetimi konulmalıdır.
+
+Bu diyagramlarda da gösterildiği gibi, bir çok yolla sağlanabilir. Bu yaklaşımın en önemli noktası, farklı PC nodları üzerinde farklı işlemler (SCADA sistemini içeren) için izin verilen istemci-sunucu yaklaşımını kullanmaktır. Örnek olarak, eğer trend işlemi önemliyse, bu, hem primer ve hem de sekonder sunucunun içine yerleştirilebilir.
+
+Primer sunucu, düzenli olarak, sekonder sunucuyla iletişim halindedir ve sekonder sunucunun durumunu ve veri tabanını uygun biçimde günceller. Eğer primer sunucu bozulursa, bekleme sunucusu, primer sunucunun görevini devralır. Ve şebekedeki istemcilere veri transfer eder.
+
+Sistem tepki süresi
+
+Ana istasyon operatör göstergesinde (maksimum 1-2 saniyeye kadar) analog veya dijital değeri (RTU'dan elde edilen) gösterir.
+
+• Operatörden RTU'ya kontrol talebi (1 saniye kritik; 3 saniye kritik değil).
+
+• Operatör ekranında alarm bildirimi (1 saniye).
+
+• Operatör ekranında tüm yeni göstergenin gösterimi (1 saniye).
+
+• Tarihsel trendin düzeltilmesi ve operatör ekranında gösterilmesi (2 saniye).
+
+• Kritik olayların (1 mili saniye), olay kaydı dizilimi (RTU'da)
+
+SCADA sisteminin bütün işlemleri için, tepkinin, tutarlı olması önemlidir. Bu sebeple, yukarıdaki tepki hızlarının sağlandığı, sistemin tipik yüklenmesi de belirtilmedikçe, yukarıdaki değeler anlamsızdır. Ayrıca tepe zamanlarında, veri kaybı olmamalıdır.
+
+Sistemde tipik bir yük belirleme örneği:
+
+• Tüm dijital noktaların % 90'ı, her 2 saniyede bir durum değiştirir (veya normal durumdan alarm durumuna geçer).
+
+• Her 2 saniyede bir, tüm analog değerlerin % 80'i, 0'dan %100'e, geçiş yapar.
+
+SCADA sistem tasarımında kullanılan dağıtımlı yaklaşım (merkezi bölgenin/ana istasyonun, sistemin tüm yükünü karşılayamadığı durumlarda), bu değerlere kolaylıkla ulaşılmasını sağlar.
+
+Sistemin genişletilebilirliği
+
+Endüstride belirlenmiş tipik yaklaşım şudur; eğer SCADA sisteminin geçerliliği, sistem ömrü boyunca kullanılacaksa, var olan SCADA sisteminin gereksinimleri, ana istasyonun işlem gücünün %60'ından fazla olmamalıdır ve ayrıca, mevcut depolama (disk üzerindeki) ve hafıza (RAM), gereken büyüklüğün yaklaşık %50'si olmalıdır.
+
+Sistemin genişletilme gereksinimlerini belirlemek önemlidir. Bu yüzden ;
+
+• Eklenecek olan ek donanım, mevcut donanımla aynı modüler formda olmalıdır, bu sayede kurulmuş olan mevcut donanımı etkilemeyecektir.
+
+• SCADA donanım/kontrol/kabinler/operatör göstergelerinin mevcut kurulumu, eklenen ek donanım tarafından, negatif etkilememelidir. Bu, güç kaynağı/klima /SCADA gösterge organizasyon gibi malzemeleri içerir.
+
+• İşletim sistemi, büyük değişimler olmaksızın, ek gereksinimleri karşılayabilmelidir.
+
+• Uygulama yazılımı, merkez bölgeye/ana istasyona yeni RTU veya operatör istasyonu
+
+eklenirken, değişikliğe gerekesinim duyulmamalıdır.
+
+Kullanılan bazı SCADA yazılımları aşağıda verilmiştir;
+
+• WinCC (www.siemens.com)
+
+• Vijeo-Citect (www.schneiderelectric.com.tr)
+
+• TEOS (www.mikrosay.com.tr)
+
+• PCIM (www.afcon-inc.com)
+
+• Simcity (www.ge.com)
+
+• Intouch (www.wonderware.com)
+
+• Winlog (www.winlog.net)
+
+• Lookout (www.ni.com veya www.e3tam.com.tr)
+
+Özel SCADA protokolleri
+
+Bir protokol, tüm şebekede bütün aygıtlarda ortak mesaj formatını kontrol eder. Radyo komünikasyonu ve telemetri sistemlerinde kullanılan ortak protokoller, HDLC, MPT1317, Modbus ve PROFIBUS protokolleridir. CSMA/CD protokol formatı da kullanılır .Bu bölümde, protokollere giriş yapılacak ve ayrıca telemetride ortak olarak kullanılan bir protokol olan HDLC protokolünün tanımını yapılacaktır.
+
+Protokollere giriş
+
+Ana istasyonla RTU'lar arasında, zaman bölmeli çoklama teknikleri kullanılarak yapılan bilgi aktarımı (her iki yönde), seri dijital mesajların kullanımı gerektirir. Bu mesajlar; verimli, güvenli, esnek olmalı ve donanım ile yazılıma kolayca uyarlanabilir olmalıdır. Verimlilik, şu şekilde tanımlanır:
+
+aktarılan bilgi bitleri + iletilen toplam bit
+
+Güvenlik, aktarılan orijinal iletilen bilgideki hataları saptayabilme özelliğidir. Bu hatalar, iletişim kanalındaki gürültüden kaynaklanır. Esneklik, ana istasyonun komutuyla, farklı bilgi miktarı ve çeşitlerinin aktarılmasına olanak sağlar. Donanım ve yazılım uygulaması, karışık mantık, hafıza depolama ve işlem hızında minimum değerleri gerektirir.
+
+Tüm mesajlar, üç temel kısma ayrılır:
+
+Mesaj oluşturma: Alıcı ve vericiyi senkronize etmek için gerekli sinyalleri sağlar.
+
+Bilgi: Bu, alıcıya kod formunda veri sağlar ve alıcı veriyi kodlayarak bilgiye dönüştürür ve uygun bir şekilde kullanır.
+
+Mesaj sonlandırması: Bu, mesaj güvenlik denetimi ve mesaj sonunu belirtir.
+
+Mesaj güvenlik kontrolleri, veri üzerinde mantıksal işlemler içerir. Bu işlemler mesajla aktarılan, önceden belirli kontrol bitlerini sağlar. Alıcıda, veri üzerinde aynı işlemler
+
+Yaygın olarak kullanılan, asenkronize mesaj formatının tipik bir örneği, aşağıda gösterilmiştir:
+
+Mesaj oluşum alanı, üç bileşene sahiptir:
+
+Modem alıcısını senkronizasyon bitleri için ayarlamakta kullanılan 8 mili saniyelik (minimum),aktarım öncesi işaret.
+
+Senkronizasyon: Bu, 2 bitten oluşur: Bir boşluğu takiben, bir işaret. Asenkron arayüzü, bir işaret-boşluk geçişinden sonra, bitleri geri kodlamaya başlayacak şekilde tasarlanmıştır. Bu nedenle, aktarım öncesi işaretinden boşluğa değişim, bu geçişi sağlar.
+
+RTU adresi: Bu, alıcıya, üzerinde bir parti hattından, bütün RTU'lardan kendisine yöneltilen mesajları seçmesini sağlar. Yanlış bir RTU'ya yönelme gibi bir karışıklığı önlemek amacıyla, sistemdeki her bir RTU'nun kendine özgü bir adresinin olmalıdır.
+
+Bilgi alanı, 20 bit içerir. Bunlardan 8'i bir fonksiyon kodu ve 12'si, veri için kullanılır. Uzaktan ana istasyona yollanan mesajlar için, bu dizideki ilk mesajı ifade eder. İlk mesajı takip eden mesajlarda, RTU adres ve fonksiyon kod alanlarında da bilgi aktarılır. Böylece 24 bitlik veri aktarılmış olur. Bu 24 bit, iki adet 12 bit analog değer veya 24 aygıt statüsü içerebilir.
+
+Mesaj sonlandırma alanı aşağıdaki bölümlerden oluşur:
+
+BCH [:Bose-Chaudhuri-Hocquenghem] güvenlik kodu; bu 5 bite sahiptir. Alıcı mantığının, bir çok mesaj hatasını saptamasını sağlar. Eğer bir hata saptanırsa, doğru mesajı elde edebilmek için, mesaj tekrar aktarılabilir.
+
+Mesaj işaretinin sonu: Bu, son bitin işaret olarak algılanmasını sağlar, böylece bu mesajdan hemen sonra, diğer bir mesaj gelebilir (senkronizasyon için, işaret- boşluk geçiş gerekliliğinden dolayı).
+
+İlk mesaj için, örnek formatın verimliliği 12/32 veya % 37.5'tur ve takip eden, mesajlar için 24/32 veya %75'dir. Bu asenkronize format için, tipik değerlerdir. Bu formatın güvenliği, 5 bit BCH koduyla sağlanır. Bu, tüm tesadüfi tek bit ve çift bit hataları ile tüm beş ve altındaki patlamaları saptar (minimum ilk ve son bitlerin hatalı olduğu, ard arda gelen bit akımı). Bu nedenle, bu BCH kodu, düşük bir verimlilik kaybı ile, hatayı saptar. Bir çok üretici tarafından kullanılan, eşdeğer güçteki kodlar, geometrik kodlardır. Bu mesajlarda, her bir kelime için denklik bitleri kullanılır ve bu bitler, bütün kelimelerin ilgili konumunda bulunur. Bu kodlar, bütün 1'li, 2'li ve 3'lü bit hatalarını ve kelime uzunluğundaki (genel olarak 16) veya daha kısa olan bütün patlamaları saptar. Güvenlik kodları, ayrıca yanlış mesaj senkronizasyonundan kaynaklanan saptanmamış hatalara karşı korumada sağlamalıdır. Tipik asenkronize format, mesaj başlangıcında işaret-boşluk geçişi gerektirdiğinden, bir gürültü girdisi yüzünden, bir mesajdan çok daha önceki bitlerle, yanlış bir başlangıç oluşabilir. Bu sorunu azaltmanın bir yolu, senkronize kayma olarak adlandırılır ve mesajdaki tüm güvenlik kodları ters çevirerek, 2n hatalı senkronizasyonda bir tespit edilmemiş hata koruması sağlar. n = güvenlik kodu bit
+
+OPC (Ole for Process Control)
+
+OPC (Ole for Process Control) gerçek zamanlı verinin iletişimi için oluşturulmuş bir standarttır. Özellikle endüstriyel otomasyon sistemlerinde kullanılan PLC, sensör, aktüatör gibi aygıtların SCADA sistemleriyle olan iletişimi için kullanılmaktadır.
+
+OPC sunucusu
+
+OPC sunucusu OPC standardına uymayan iletişim sistemini OPC standardına çeviren bir protokol çeviricisidir. Başta PLC'ler olmak üzere pek çok aygıt için OPC sunucuları (OPC
+
+Server) geliştirilmiştir.
+
+OPC
+
+OAVUA
+
+Modtıus
+
+Pürüzsüz
+
+Habertejıne
+
+SCADA
+
+(OPC Glttfil)
+
+Elhetnel
+
+OPCUA
+
+pusrı
+
+iilhns
+
+OPC
+
+Katmanı
+
+MX.AOPC ua Sctmm
+
+10PC SBFYBD
+
+Eıhennı.
+
+sorgulama
+
+Cihaz
+
+loLCHJik i 5-00 Semi
+
+Katmanı
+
+j?ntpr veyjı
+
+iLtmculer
+
+Dene! enen
+
+r cınMijr
+
+5CADA
+
+Katmanı
+
+I
+
+Patentli
+
+Hoa
+
+AftiwOPC
+
+push
+
+I
+
+istisna
+
+sor-gulaimi
+
+Şekil 3. 2) Katmanlar arası haberleşme
+
+4.1.3.3.3 Bilgi transferi
+
+4.1.3.3.3.1 Ana istasyondan, uzak istasyona veri transferi
+
+Ana istasyondan uzak istasyona aktarılan bilgi, aygıt kontrolü, ayar noktası kontrolü veya çalıştırma verisi kontrolü sağlar. Yanlış bir aygıtı çalıştırmanın veya kötü bir kontrol
+
+Aşağıdaki açıklayıcı bilgiler Şekil 3.2 içindir:
+
+Mesaj oluşum ve mesaj sonlandırma alanları gösterilmemiştir.
+
+Fonksiyon kodu, RTU tarafından gerçekleştirecek işlemi belirler.
+
+Kontrol adresi, kontrol edilecek aygıt veya ayar noktasını belirler.
+
+Uzak istasyondan ana istasyona, RTU'nun kontrol seçimini yorumlamada, doğru hareket etmesini sağlamak için, RTU nokta seçim donanımından, geri denetim mesajı alınır.
+
+Ana istasyondan uzak istasyona bir çalıştırma mesajı, sadece, uygun bir geri denetim mesajı alımını takiben gönderilir.
+
+Uzak istasyondan ana istasyona, bildirim mesajı, istenen kontrol işleminin başlatıldığını bildirir.
+
+Yanlış aygıtı çalışmasının gerçekleşmesi için, kontrol, seçim, geri denetim ve çalıştırma mesajlarında tespit edilmemiş hata bulunması gerektiğinden, yukarıdaki mesaj sırası, geri denetim ve çalıştırma mesajlarıyla ekstra güvenlik sağlar. yukarıdaki dizinin iletiminden önce, bir kontrol operatörü veya gönderici, kendi kontrol konsolu aracılığıyla, seç-belirle-çalıştır- bildir dizisi gerçekleştirir.
+
+Belirli kontrol işlemleri için, yani, elektrik üretici birimlerin yükseltilmesi/alçaltılması için, yanlış aygıtı çalıştırmanın sonucu, yanlış birime gönderilen tek bir darbedir. Otomatik üretim kontrol sistemi, bu hatayı hemen düzelteceğinden, ciddi bir sorun oluşmaz. Bu nedenle, yukarıdaki dizinin, sadece ilk mesajı iletilir.
+
+Ana istasyondan uzak istasyona çalıştırıcı veri transferi; istisna raporlama veya yerel kontrol edilen aygıtların parametreleri gibi parametreleri de veri olarak içerebilir. Bu tür bir transfer, Figür Şekil 3.2'de gösterilen diziyle gerçekleştirilir.
+
+Aşağıdaki açıklayıcı notlar, Şekil 3.2 içindir:
+
+Mesaj oluşum ve mesaj sonlandırma alanları gösterilmemiştir.
+
+Eğer bir parti hattı komünikasyon kanalı kullanılıyorsa, özel önlemler gereklidir bu sayede, diğer RTU'lar, bir çalıştırma verisi transfer mesajını kodlamazlar.
+
+Şekil 3.2'de, ilk iki mesajın amacı, RTU'yu normal mesajdan daha uzun mesaj almaya hazırlar. Üçüncü mesaj, veriyi iletir ve dördüncüsü, RTU'nun mesajı başarılı biçimde aldığını belirtir.
+
+Uzak istasyondan ana istasyona veri transferi
+
+Aşağıdaki açıklayıcı notlar, Şekil 3.2 içindir:
+
+Mesaj oluşum ve mesaj sonlandırma alanları gösterilmemiştir.
+
+Fonksiyon kodu, RTU tarafından transfer edilecek verinin türünü belirler.
+
+Veri belirleme, ana istasyon tarafından istenen veri miktarı ve türünü belirler.
+
+RTU tarafından iletilen her bir mesajda (sadece mevcut verinin bulunduğu mesajlar haricinde), iletilen mesajı bir RTU tamponunda tutmak gerekir, bu sayede, eğer ana istasyon mesajı doğru olarak alamazsa, yeniden iletim gerçekleştirilebilir. Aksi takdirde, bu bilgi kaybolacaktır.
+
+Şekil 3.2'deki dizi kullanılarak, üç temel veri türü, transfer edilir.
+
+Veri birimleri, analog değerler (genellikle, değer başına 12 bitle gösterilir), anahtarların ikilik değeri (her bir anahtar için iki bit) veya anahtarların, önceki değişimleri ile birlikte ikilik durumları (her bir anahtar için iki bit) olmalıdır. Her bir mesaj, yukarda bahsedilen veri türünü içeren bir çok veri birimi içerebilir. Bu birimler, önceden belirli bir sırayla iletilmelidir. Mesajlar, genelde sabit bir uzunluktadır, bu sayede, ana istasyon, beklenen veri birimi sayısını bilecektir.
+
+Örnek mesajlar:
+
+16 analog değer (veri birimi başına bir)
+
+128 durum biti (veri birimi başına 16)
+
+64 durum/hafıza çiftiyle durum (veri birimi başına 8)
+
+Analog değerlerin ve durum bitlerinin kombinasyonları
+
+Önceki durum değişimleri hafızasını içeren iletilmiş mesajlar, her hangi bir veri kaybını önlemek için, bir iletim tamponuyla korunmalıdır.
+
+Her hangi bir önceki zamana ait RTU'da depolanan bir bilgiyi içeren veri (çoğu zaman, ana istasyon tarafından veya RTU'daki yerel bir zaman kaynağıyla kumanda edilir). Veri birimleri, analog değerler olabilir (çoğunlukla değer başına 12 bit), veya hafıza konumları (konum başına 8 veya 16 bit).
+
+Çoğu zaman, bir çok RTU'dan eş zamanlı bir bilgi alımı istendiğinden, ilgili RTU'lara, ana istasyon, eşzamanlı olarak ‘yayını durdurma' komutu iletir. Bu komut, RTU adres alanı yerinde, mesaj oluşum alanında, özel bir koda sahiptir; ilgili bütün RTU'lar, bu kodu kabul eder. Fonksiyon kodu, istenen veri türünü belirtir.
+
+Bir önceki raporlamadan sonra değişmiş harici ekipmanın durumunu ve işlemlerini kapsayan bilgiyi içeren istisna raporlana yoluyla veri. Buna örnekler, durum değiştiren anahtarlar veya bir önceki rapora göre, önceden belirli bir değerden daha fazla artış ve azalma gösteren analog değerler olabilir. Ana istasyon, hangi değerlerin rapor edileceğini bilemeyeceğinden dolayı,
+
+her bir veri birimi, yeni aygıtın durumu ve analog değeri yanında, RTU'nun nokta adresini de içermelidir. Aynı zamanda, ana istasyon, mesaj uzunluğunu bilemeyeceğinden dolayı, bu mesajlar, sabit uzunlukta olmalıdır (kullanılmayan bitler, geçerli olmayan bir veriyle doldurulabilir). Bütün değişimleri rapor edebilmek için, çoklu mesajlar gerekebilir.
+
+Bazı özel sistemlerde, RTU'da, her bir anahtar durum değişiminin kaydedilmesi tercih edilir. ‘Olaylar dizisi' olarak adlandırılan bu teknik, alan aygıtlarının operasyonuyla ilgili durum değişimlerini zamana bağlı gösteren bilgi sağlar. bu uygulamayı desteklemek adına, her bir veri birimi, yeni aygıtın durum ve nokta adresi ile birlikte, zamanı, milisaniye olarak
+
+belirtmelidir.
+
+Yüksek seviyeli veri bağ kontrol (HDLC) protokolü
+
+HDLC, çoklu nokta ve noktadan noktaya bağlarda kullanım için, uluslararası standartlar organizasyonu tarafından tanımlanmıştır. Bu protokolün, diğer varyasyonları, SDLC (IBM tarafından kullanılan senkronize veri bağ kontrolü) ve ADCCP'dir (ANSI tarafından kullanılan gelişmiş veri komünikasyon kontrol prosedürü). HDLC, bir tabanlı protokoldür. Diğer protokoller, karaktere dayalıdır (mesela, ANSI) ve genellikle, daha yavaştır. Bu protokolün, LAN protokollerinin önceli olması ilginçtir.
+
+HDLC'nin en yaygın kullanılan iki çalışma modu:
+
+Dengesiz normal tepki modu (NRM): Bu, bütün işlemleri başlatan tek bir birincil (veya ana) istasyonla birlikte kullanılır.
+
+Asenkronize dengeli mod (ABM): Bu modda, her bir nodun durumu eşittir ve hem
+
+birincil hem de ikincil nod olarak görev yapabilir.
+
+Şekil 3. 3) HDCL Protokolü yapısı
+
+Çerçeve formatı
+
+Standart Format, Şekil 3.3'te gösterilmiştir. Kullanılan üç farklı çerçeve sınıfı:
+
+Numaralandırılmamış çerçeveler, bağ veya bağlantı kurmak ve dengesiz normal tepkinin mi, asenkronize dengeli modun mu kullanılacağını tanımlamak için kullanılır. Bu çerçevelerde, dizi sayıları yoktur; dolayısıyla, numaralandırılmamış çerçeve olarak adlandırılırlar.
+
+Bilgi çerçeveleri, gerçek veriyi, bir noktadan diğer bir noktaya taşımak için kullanılır.
+
+Denetleyici çerçeveler, akış kontrolü ve hata kontrol amaçlı kullanılırlar. Bu çerçeveler, ikincil istasyonun bilgi çerçevelerini almak için ulaşılabilir olup olmadıklarını ve çerçevelerin bildirimini belirtirler. Burada kullanılan iki türlü hata kontrolü mevcuttur - bir hatadan dolayı seçici bir yeniden iletim veya bir dizi önceki
+
+çerçevelerin iletim talebi
+
+Çerçevelerin içeriği
+
+Çerçevenin içeriği kısaca aşağıdaki gibidir:
+
+Flag karakteri, 01111110 formunda bir byte'dır. Alıcının aldığı karakterin, özel bir flag olduğunu algılamasını sağlamak için (dizideki diğer karakterler yerine), sıfır ekleme prosedürü yapılır. Bu, vericinin tekst içine, beş adet ‘1'den sonra bir adet ‘0'
+
+(yani, flag olmayan karakter) eklemesini gerektirir. Çerçeve denetim dizisi (FCS),
+
+CRC-CCITT metodolojisi kullanır. Tek farkı, CRC hesaplaması yapılmadan önce, mesajın sonuna 16 adet ‘1' eklenir ve geri kalanı ters çevrilir.
+
+Adres alanı, talep veya tepki için, ikincil noda doğru veya ikincil noddan, üç tür
+
+çerçeveden birini içerir:
+
+Standart ikincil adres
+
+Şebeke üzerindeki nod grupları için grup adresleri
+
+Şebeke üstündeki bütün nodlar için, yayın adresleri (burada, adresin tamamı ‘1'den oluşur)
+
+Şebekede, çok sayıda ikincil nod bulunuyorsa, adres alanı, en düşük değerlikli bit, ‘1' şeklinde kodlanarak, 8'in üstüne genişletilebilir. Bunun anlamı, ilk adres alanının devamında, adres bilgisi için ekstra bir byte'lık bölümün daha kullanılmış olmasıdır.
+
+Kontrol alanı, Şekil 3.3'te gösterilmiştir. Gönderme ve alım dizisi sayılarının, mesajdaki hataları tespit etmede ve düzeltmede yararlı olduğunu unutmayın. P/F biti, seçim/final bitidir ve bu bit ‘1' olduğunda, alıcı, bu çerçeveye yanıt vermeli veya bu çerçeveyi aldığını onaylamalıdır (P/F biti, yine ‘1' olmalıdır).
+
+Protokol işlemi
+
+Tipik bir işlem sırası aşağıda verilmiştir:
+
+• Çok prizli bir bağda, birincil nod, ikincil nodun adresiyle birlikte, P/F biti ‘1' olan, normal bir yanıt modu çerçevesi göndermelidir.
+
+• İkincil nod, P/F biti ‘1' olan, numaralandırılmamış bir alındı onayı göndermelidir. Alternatif olarak, eğer alıcı uç, ayarlama komutunu kabul edemeyecek durumdaysa, bağlantısız bir mod bir çerçeve geri döner.
+
+• Daha sonra veri, bilgi çerçeveleriyle birlikte iletilir.
+
+• Bunun sonrasında birincil nod, kontrol alanında bağlantı koparma içeren bir
+
+numaralandırılmamış çerçeve gönderir.
+
+• İkincil nod, numaralandırılmamış bir çerçeve ile alındı onayı göndermelidir.
+
+• Asenkron dengeli mod kullanılarak, noktadan noktaya bağlar için de benzer bir
+
+yaklaşım kabul edilebilir. Tek farkı, her iki nodunda, bağı başlatabilme, bilgi çerçevelerini transfer edebilme ve noktadan noktaya bağı silebilme özelliğinin bulunmasıdır.
+
+• İkincil nod, veri transfer ettiğinde, veriyi, dizinin son çerçevesinde, F biti ‘1'e ayarlı bir çerçeve dizisi şeklinde iletir.
+
+• NRM modunda, eğer ikincil nodun gönderecek başka verisi bulunmuyorsa, P/F biti ‘1'e ayarlı,‘alıcı hazır değil' çerçevesi gönderir.
+
+Hata kontrolü/akış kontrolü
+
+Hata kontrolü için en basit yol, bilgi çerçevelerinin, yarı dubleks akış şekli içindir. Bağın her iki tarafı da, bir gönderim ve alım dizisi değişkeni sağlar. Alıcı nod, bir çerçeve aldığında, bir denetici çerçeve ile alıcı onayı gönderir. Bu onay, ‘alıcı hazır' belirteci ve bir alıcı dizi numarasıyla birlikte gönderilir. Bu numara, alıcı dizi numarasının bir altına kadar, bütün çerçevelerin doğru sırasını bildirir. Alıcı, bir alıcı dizi numarasıyla birlikte, negatif bir onay çerçevesi (REJ) ile yanıt verirse, verici, bu alıcı dizi numarasından sonraki bütün çerçeveleri iletmelidir. Bunun sebebi, alıcının, seri dışı bir çerçeve almasıdır.
+
+Alıcı, vericiye, sadece eksik olan çerçevenin sıra numarasını içeren, seçici ret çerçeveyi geri göndererek, seçici yeniden iletim mümkündür.
+
+Noktadan noktaya bağlar için, biraz daha kompleks bir yaklaşım da, tam dubleks işlemle asenkronize dengeli mod kullanmaktır. Bu yaklaşımda, bilgi çerçeveleri, aynı anda çift yönlü olarak gönderilirler. Yarı dubleks işlemde de olduğu gibi, aynı felsefe uygulanır fakat farkı, çerçeve numaralarının doğru sıralandırmasının denetimi, bağın her iki tarafında da sağlanmalıdır.
+
+Akış kontrolü, herhangi bir zamanda, onay bekleyen bilgi çerçeve sayısının, maksimum 7 olması prensibine göre çalışır. Eğer bekleyen yedi onay varsa, iletici nod, bir onay alınana
+
+Eğer buna rağmen, bağın her iki ucundaki sıra numarası, onay bekleyen çerçeve sayısı yediyi aşmış olarak, dizi dışıysa, ikinci nod, birincil noda, bir çerçeve reddi veya bir çerçeve ret komutu iletir. Bunun üzerine, birincil nod, bağı tekrar oluşturur, ve ikincil noddan onay gelmesi durumunda, her iki tarafta bütün dizi numaralarını sıfırlar ve bilgi çerçevelerinin transferini başlatır.
+
+Alıcıda, mesaj depolamasında, tampon alanında yer kalmamış olabilir. Bu durumda, ikincil nod, birincil noda, daha fazla bilgi çerçevesi göndermesini durdurmak için, ‘alıcı hazır değil' denetleyici çerçevesi gönderecektir.
+
+CSMA/CD protokol formatı
+
+HDLC protokolü, bütün komünikasyon işlemini tanımlar ve bir şebeke etrafında veri akış kontrolü için gerekli kuralları sağlar. CSMA/CD protokolü, HDLC kadar kapsamlı değildir. Ve CSMA/CD, fiziksel ortamdan verinin alınıp verilmesi için kullanılan metotla ilgilidir. HDLC ve CSMA/CD, eksiksiz bir protokol sağlamak için birlikte kullanılabilir.
+
+İletilen bir CSMA/CD çerçevesinin formatı, Şekil 3.4'te gösterilmiştir.
+
+Şekil 3. 4) CSMA/CD çerçevesinin formatı
+
+MAC çerçevesi, yedi byte'lık bir ön giriş, bir byte'lık başlangıç çerçevesi sınırlayıcı ve bir veri çerçevesinden oluşur.
+
+Veri çerçevesi, 48 bitlik kaynak ve hedef adresi, 16 bitlik uzunluk veya tür alanı, veri ve 32 bitlik bir CRC alanı içerir.
+
+Veri çerçevelerinin, minimum ve maksimum ebatları, 64 byte ve 1518 byte'dır.
+
+Çerçevenin formatı, özetle aşağıdaki gibi açıklanabilir (her alana, referans edilerek):
+
+Ön giriş alanı
+
+Bu, MAC biriminin alıcı elektroniğinin, çerçeve ile sekronizasyonu sağlamasına izin verir. Bu alan, her biri 10101010 modelini içeren, yedi byte'tan oluşur.
+
+Çerçeve sınırlayıcısının başlangıcı (SFD)
+
+Bu, 10101010 modelini içerir ve geçerli bir çerçevenin başlangıcını belirtir.
+
+Hedef ve kaynak adres
+
+Her adres, 16 veya 48 bit olabilir. Bu ebat, özel bir kurulum içindeki tüm nodlar için tutarlı olmalıdır.
+
+Tarih
+
+Gönderilecek bilgi
+
+Uzunluk belirteci
+
+Bu bir iki-byte'lık bir alandır ve veri alanındaki, byte sayısını belirtir.
+
+Çerçeve denetim alanı
+
+Bu bir 32-bitlik, bir döngüsel fazlalık denetimi içerir ve hata tespiti için kullanılır.
+
+Aşağıdaki dizi, bir çerçevenin iletimi ve alımı için kullanılır.
+
+• Bir çerçevenin iletimi
+
+Bölüm içeriği önce MAC birimi tarafından kısaltılır.
+
+Ortam üzerindeki diğer iletimler için, MAC birimi tarafından taşıyıcı bazlı sinyal izlenir.
+
+Eğer ortam serbestse, bit serisi, alıcı/verici yoluyla, komünikasyon ortamında iletilir. Alıcı/verici, çakışmaları izler.
+
+Eğer çakışma varsa, alıcı/verici, çakışma tespit sinyalini çalıştırır.
+
+MAC birimi, sonra çakışmayı, jam sırası (LAN'lar için gerekli fakat radyo sistemleri için her zaman gerekli olmayabilir) göndererek kuvvetlendirir.
+
+MAC birimi, iletimi sonlandırır ve belirli bir zaman aralığından sonra, iletimi yeniden başlatır.
+
+Bir çerçevenin alımı
+
+MAC birimi, alıcı/vericiden gelen bir sinyali tespit eder.
+
+MAC biriminden her hangi yeni iletimi engellemek için, taşıyıcı sensör anahtarı açılır.
+
+Gelen ön giriş alanı, senkronizasyonu sağlamak için kullanılır.
+
+Varış adresi, çerçevenin alımı için, nodun doğru nod olup olmadığını anlamak için kontrol edilir.
+
+Standart aktiviteler
+
+SCADA sistemleri için, standartların gelişimi yavaş ve zor bir işlemdir. Ana var olan standart, “Denetçi kontrol, veri kazanımı ve otomatik kontrol için kullanılan; tasarım, belirleme ve sistem analizi” üzerine olan, ANS/IEEE C37.1-1987 standardıdır. C37.1 standardı, ana istasyon ve RTU'lar arasındaki mesaj standardı belirlemesini, kritik bir ihtiyaç olmasına rağmen, çok kısa tutmuştur. Bu konu, daha sonra, aşağıdakileri de kapsayan, “ana/uzak komünikasyon için önerilen IEEE uygulaması” olarak ele alındı.
+
+Bir çok satıcı, önerilen IEEE uygulaması ile uyumlu, ana/RTU protokollerini geliştirme planlarını duyurmuştur. Bu, standardizasyon için geç kalmış bir adımdır. Protokol kullanılmasının dışında, önerilen uygulama, SCADA komünikasyon sistemi tasarımında yararlı ipuçları vermektedir.
+
+Uluslararası alanda, açık sistem bağlantılar için, ISO(uluslararası standart organizasyonu) referans modeli tercih edilir. Bu, komünikasyon işlemini, her biri iyi tanımlanmış arayüze sahip, yedi katmana ayırır. Daha önce de bahsedildiği gibi, ilgili standart, yüksek seviyeli veri bağ kontrol (HDLC) protokolüdür. Güvenlik hususları ve protokol verimsizliği (sadece SCADA sistemi için düzenlenmiş olan protokol ile karşılaştırıldığında) yüzünden, yaygın olarak kullanılmaz. Ana istasyondan RTU'ya komünikasyon için en uygun protokol seçimi söz konusu olduğu sürece, bu konuların çözümü yoktur.
+
+İlginçtir ki nodları ana istasyona bağlamak için daha önceden belirtilen LAN standartları
+
+(Ethernet, jeton halka, jeton bus) büyük ölçüde kabul görmüştür ve burada pek fazla bir anlaşmazlık yoktur. Örneğin, Ethernet (artı TCP,IP), ana istasyon şebekeleri için, geniş çapta kullanılan bir LAN standardıdır.
+
+PROFIBUS Protokolü
+
+Profibus (Process Field Bus) geniş kapsamlı üretim ve proses otomasyonu için
+
+tasarlanmış üreticiden bağımsız açık saha bus standardıdır. Profibus haberleşme sistemi Siemens'inde içinde bulunduğu bir çok PLC üretici firma tarafından geliştirilen ve standart olarak kabul edilen bir ağ sistemidir. .Farklı amaçlar için geliştirilen PROFIBUS sistemleri olmasına rağmen biz sadece PROFIBUS DP (merkezi olmayan çevresel birimlerin) üzerinde duracağız.
+
+PROFIBUS DP (dezentrale peripherie) otomasyon cihazı ile merkezi olmayan cihazlar arsında hızlı bir şekilde ver alış verişimi sağlayan bir haberleşme sistemidir. Özellikle PLC'nin merkezde, çevre birimlerinin (slave) çalışma sahasında (işin yapıldığı yerde) olduğu durumlarda iletim hatlarının oluşturulması çok kolay bir şekilde gerçekleştirilmektedir.
+
+Profibus Teknik Özellikleri
+
+Her bir bus bölümüne 32, toplam 126 katılımcı bağlanabilir.
+
+Çevre birimleri (slave'ler ve saha elemanları (sensör, motor) çalışma esnasında takılıp çıkarılabilir.
+
+Bu dağılımı “token-passing” sisteminin “master-slave” sisteminin yönetimine göre yapılır.
+
+Veri transferi iki damarlı blendajlı kablo veya optik iletkenler ile yapılır.
+
+Veri iletim mesafesi elektrik kabloları ile 12 km , optik kablolar ile 23.8 km kadar olabilir.
+
+Modüler değiştirme ve cihazların değiştirilebilmesi mümkündür.
+
+Her türlü PROFIBUS-DP network sisteminde temel adımlar
+
+Bütün slave modüller bir master ile birleştirilir.
+
+2 master kullanılarak network genişletilebilir.
+
+Adres aralığı her slave modül için 244 byte müsaade eder.
+
+Master konfigürasyonu tamamlandığında network yapısı da belirlenir.
+
+Profibus ayarlarını yapan kullanıcı, tüm slave modüller için tek bir ID numarası kullanmalıdır. Aynı ID numarası verildiğinde sinyal çakışması yaşanacağından PLC hata moduna geçer.
+
+Profibus sistemler PLC' ye direk olarak bir kablo vasıtası ile bağlantı sağlarlar. PROFIBUS, kullanım alanına ve tipine göre , haberleşme protokolleri (DP-PA-FMS)
+
+Şekil 3. 5) Remote I/O (Profibuslı Valf Adası)
+
+sunar .
+
+Profibus DP (DP-Decentralized Periphery/Dağıtılmış Çevre anlamına gelmektedir) , en çok kullanılan haberleşme tipidir. Hız, etkinlik ve düşük bağlantı maliyeti özellikleri sebebiyle tercih edilir. Merkezi dağıtılmış cihazlarla haberleşme sağlandığı gibi (Siemens ET200) akıllı saha cihazları ile de haberleşme sağlanabilir (Motor sürücüleri, debimetreler vs...). Profibus-DP haberleşme fiziksel yapı olarak RS485 ve/veya fiber optik alt yapısını kullanır.
+
+FMS (FMS-Fieldbus MessageSpecification Saha veriyolu mesaj tanımlaması anlamına gelmektedir.) genel bir haberleşme tipidir. Akıllı kontrol aygıtlar arasındaki haberleşme için gelişmiş uygulama fonksiyonlarını sunar. TCP/IP' nin gelişiminin ve kullanımının hızla artması sonucu olarak, FMS gelecekte daha az rol alacaktır . FMS' de DP gibi fiziksel haberleşme yapısı olarak RS485 ve/veya fiber optik alt yapısını kullanır.
+
+Profibus-PA (PA-Process Automation), daha çok proses otomasyonunda kullanılan ve mevcutta kullanılan haberleşme kablosu ile ekipmanın enerji beslemesinde sağlanan haberleşme tipidir. Profibus DP ile ayni master üzerinde çalışabilir.
+
+Hata tespiti
+
+Bir çok hata tespit seçeneği, alıcıya, mesaj bitlerindeki hataların saptamasını kolaylaştırmak için, mesajla iletilen fazladan bitler içerir (ve bazen yeni bir iletim alma isteğine gerek duymadan, mesajı tekrar oluşturmak).
+
+Hata sebepleri
+
+Genellikle, herhangi bir iletim ortamında iletilen bir sinyal, dört fenomenden etkilenir
+
+Zayıflama
+
+Sınırlı bant genişliği
+
+Gecikme sapması
+
+Gürültü
+
+Bunların her biri, kısaca anlatılacaktır.
+
+Zayıflama
+
+Sinyal, bir iletim ortamından geçerken, genlik azalır. Bu, sinyal zayıflaması olarak adlandırılır. Kablo uzunluğunda bir sınır belirlenmeli ve bu belirlenmiş noktalara bir veya daha fazla yükseltici (veya tekrarlayıcı) eklenmelidir. Bu sayede, sinyalin orijinal düzeyine getirebilir. Sinyal zayıflaması, sinyalin yüksek frekanslı bileşenleri için artar. Belirlenmiş bir frekans bandından geçen zayıflama miktarını dengelemek için, ekolizer/ekolayzer gibi aletler kullanılabilir.
+
+Sınırlı bant genişliği
+
+Temel olarak, ortamın bant genişliği ne kadar fazla olursa, alınan sinyal de, aktarılan sinyale, o kadar yakın olacaktır. Bir iletim hattının maksimum veri transfer hızını belirlemek için, Nyquist formülü kullanılır.
+
+Max iletim hızı (bps) = 2 B log2 M
+
+Burada:
+
+B: hertz olarak, bant genişliği
+
+M: Her bir sinyal elemanı için seviye sayısı
+
+Örnek olarak, PSK ve her bir sinyal elemanı için, dört seviye kullanan (yani, 2 frekans) ve umumi telefon şebekesinde, 3000 Hz'lik bir bant genişliği kullanan bir modem için, maksimum veri transfer hızı şu şekilde hesaplanır:
+
+Max veri transfer hızı = 2 x 3000 log2 4
+
+= 12000 bit/saniye
+
+Gecikme sapması
+
+Bir dijital sinyali aktarırken, sinyalin farklı frekansa sahip bileşenleri, alıcıya, değişen aralığa sahip gecikmelerle ulaşır, böylece, alınan sinyal, gecikme sapmasının etkisiyle, bozulur. Farklı ayrı bitlerden gelen frekans bileşenler, birbiriyle etkileştiğinde, bu, semboller arası etkileşim olarak adlandırılır. Bit hızı yükseldiği için, bu etkileşim, sinyalin yanlış yorumlanmasın neden olabilir.
+
+Gürültü
+
+İletim ortamıyla ilgili diğer bir önemli parametre de, sinyal/gürültü oranı kavramıdır:
+
+S	V
+
+Sinyal/gürültü oram = STVfl = 10 ■ log — = 20 ■ log dB
+
+Burada:
+
+S = sinyal gürültü gücü (watt)
+
+N = gürültü gücü (watt)
+
+İletim ortamının teorik maksimum veri hızı, shannon-hartley kullanılarak hesaplanır:
+
+Burada:
+
+B = bant genişliği (Hz) S = sinyal gücü (watt)
+
+N = gürültü gücü (watt)
+
+Max bilgi hızı = 3000 log2 (1 + 100)
+
+= 19963 bit her saniye
+
+Mesajdaki hataları önleyebilmek için, iki yaklaşım vardır; alıcının mesajdaki hataları belirlediği ve mesajın tekrar iletilmesini talep ettiği, geri besleme hata kontrolü ve alıcının mesajdaki hataları saptadığı ve mesajdaki fazla bilgi sayesinde, mesajı oluşturduğu ileri hata kontrolü.
+
+4.1.3.4.2 Geri besleme hata kontrolü
+
+Mesaj güvenliği
+
+Bu yapay kontrol işlemi ve komünikasyon gürültüsünden kaynaklanan veri bozulmalarında koruma sağlamak için önemlidir. Güvenlik, iletilen her bir mesaja eklenen denetim kodu ile sağlanır. Bu konu, iletim istasyonunun mesaj modelinden denetim kodunu hesaplaması ile ilgilidir. Alıcı istasyon, daha sonra, aynı denetim kod hesaplamasını, mesaj üzerinde tekrarlar ve alınan mesaj için hesaplanan kontrol koduyla karşılaştırır. Eğer bunlar eşitse, mesajın bozulmadığı var sayılır. Eğer eşit değilse, mesaj çıkarılır.
+
+Kullanılan tipik güvenlik kod formatları:
+
+Basit denklik kontrolü
+
+Mesajın her bir byte'ına, tek bir bit eklenir, böylece (örneğin), her bir bit grubu, çift bir sayıya karşılık gelir.
+
+Blok kontrol hesaplaması
+
+Bu, tek denklik denetiminin, yeni byte hesaplamasında (mesaj sonunda) kullanıldığı, tek denklik bitinin uzantısıdır. Denklik denetimine dayanır veya bitlerin basit aritmetik toplamına göre denetim yapılır.
+
+5'te-iki kodlama
+
+Her 5'lik bit gurubu içindeki 5 bitten ikisi, her zaman, ‘1'dir.
+
+BCH
+
+Döngüsel fazlalık denetimi (CRC -16 veya CRC-CCITT)
+
+Bu, BCH'ye benzer, fakat alan 16 bitlik bir koddur ve mesajın sonuna eklenir. CRC-16, belki de, en güvenilir güvenlik kodudur ve kolayca uygulanabilir.
+
+Hata saptaması için kullanılan en yaygın üç metot, aşağıda, detaylı olarak anlatılmıştır.
+
+Karakter fazlalık denetimi
+
+Karakter iletiminden önce, karaktere, iletici eklenecek denklik bitini hesaplamak için, önceden kararlaştırılmış ÇİFT veya TEK denklik mekanizmasını kullanır.
+
+Örneğin:
+
+Eğer ASCII 0100001 iletim mekanizması olarak TEK denklik kullanılacaksa, bu değer, 01000011 halini alır ve bu sayede her bir byte içinde, tek sayıda ‘1' olacaktır. ÇİFT denklik için, yukarıdaki karakter 01000010 ile gösterilir. Alıcı uçta, 7 bitlik veri byte'ı için denklik hesaplanır ve alınan denklik biti ile karşılaştırılır. Eğer bu bitler birbirine uymuyorsa, hata oluşmuştur.
+
+Denklik hata tespiti, günümüzde, farklı bilgisayar ve kontrol sistemleri arasında kullanılan komünikasyonda kullanılmamaktadır. Bu tür komünikasyonlarda, blok fazlalık denklik denetimi ve döngüsel fazlalık denetimi (CRC) gibi mevcut gelişmiş algoritmalar kullanılır.
+
+Blok fazlalık denetimi
+
+Daha önce ele alınan, karakter denklik hata denetleme, hataları denetlemede oldukça zayıftır.
+
+Aşağıda, bu metodu geliştiren iki metot anlatılmıştır. Tek karakter üzerindeki denklik denetimi, bir karakter bloğunun denklik denetimi ile desteklenir.
+
+Eşitlik kontrolü (dikey/yatay fazlalık kontrolü)
+
+Blok kontrol stratejisinde, mesaj karakteri iki boyutlu bir matris gibi düşünülür. Denklik biti, her bir karaktere eklenir. Tanımlı sayıda karakterden sonra, sütunların denklik denetimini temsilen, bir blok denetim karakteri iletilir (BCC). Sütun denklik (ayrıca dikey fazlalık denetimi olarak adlandırılır) karakter denklik hata denetiminden daha iyi olmasına rağmen, bu denetim, bir satırdaki, çift sayıdaki hataları tespit edemez.
+
+Aritmetik denetim toplamı
+
+Blok içindeki karakterlerin basit toplamı olan aritmetik denetim toplamı, dikey fazlalık denetiminin bir uzantısıdır. Bu metot, daha iyi bir hata denetimi sağlar ve aynı zamanda iletilmesi gereken veri miktarını, 2 byte'a çıkarır.
+
+Döngüsel fazlalık denetimi (CRC)
+
+Bu, hataları tespit etme olasılığı daha kötü olan bir hata tespit metodudur (% 99.99963). Yapılan iki çeşit CRC hesaplaması vardır
+
+• CRC-CCITT (ticari sistemlerde popülerdir)
+
+• CRC-16 (endüstriyel sistemlerde popülerdir)
+
+CRC denetim toplamı, mesajın tanımlı bir sayıya (alıcı ve verici tarafından bilinen) bölünmesi ve kalanın hesaplanmasıyla bulunur. Kalan, CRC kontrol denetimi olarak da bilinir ve mesajın sonuna eklenir.
+
+CRC örneği
+
+Aşağıdaki denklem ispatlanabilir:
+
+Burada:
+
+Mesaj bit dizisidir, örneğin; çift denklik ile HELP'in ASC11 dizisi:
+
+[01001000] [11000101] [11001100] [01010000]
+
+H	E	L	P
+
+216 etkin biçimde (çarpmada), mesajın sağ tarafına 16 sıfır ekler.
+
+‘Bölen' bir sayıdır ve mesajı x 216 sayıya böler
+
+‘Bölüm', bölme işleminin sonucudur ve kullanılamaz
+
+‘Kalan', bölme işleminde elde edilen kalandır ve CRC denetim toplamıdır (2 byte'lık bir sayı)
+
+Modbus Protokolü
+
+Modbus, farklı tür veri yolu ve ağlarda sunucu/istemci haberleşmesini sağlayan bir uygulama katmanı haberleşme protokolüdür. 1979'dan itibaren kullanılmaya başlanan Modbus, bugün milyonlarca otomasyon cihazının haberleşmesini sağlamaktadır. Veri iletim ortamından bağımsızdır. RS-232, RS-485 ve Ethernet ortamında çalışabilmektedir. Modbus TCP, TCP arayüzüyle Ethernet'te çalışan bir RTU (Remote Terminal Unit) protokolüdür . Şekil 3.6'da RS-232, RS-485 ve TCP/IP'nin birlikte kullanıldığı örnek Modbus ağ mimarisi verilmiştir.
+
+Şekil 3. 6) Modbus örnek ağ mimarisi
+
+Şekil 3. 7) Modbus TCP veri paketi yapısı
+
+Şekil 3. 8) Modbus TCP'de sıklıkla kullanılan fonksiyon kodları
+
+Dağıtılmış şebeke protokolleri (DNP)( Distributed Network Protocol )
+
+Dağıtılmış (ya da dağıtımlı) şebeke protokolü, çoğunlukla elektrik ve kamu endüstrisinde kullanılan, veri kazanım protokolüdür. Bu protokol, özellikle, SCADA kontrol sistemleri için tasarlanmış, açık, sistemler arası kullanılabilir ve basit bir protokoldür. Bilgi gönderimi ve alımı için, ana/yardımcı seçim metodunu kullanır fakat ayrıca aynı sistem içinde alt ana istasyonlar kullanır. Fiziksel katman, genellikle RS-232 (V.24) etrafında tasarlanır fakat ayrıca RS-422, RS-485 ve hatta fiber-optik gibi diğer fiziksel standartları da destekler. SCADA endüstrisi içinde, DNP'nin, veri kazanımı ve kontrolünde evrensel gerçek standart olarak kullanımına yönelik bir eğilim vardır.
+
+Sistemler arası çalışma
+
+Dağıtılmış şebeke protokolü, özellikle elektrik aletleri, yağ, gaz ve su/atık su ve güvenlik endüstrileri için tasarlanmış sistemler arsı çalışabilir bir protokoldür. Veri kazanım protokolü olarak, bir çok satıcı ekipmanı ile arayüz ihtiyacı vardır. Sertifikasyon sürecine tabi olan protokol, farklı üreticilerin DNP standartlarında ekipman üretmesini sağlar. Bu, sertifikalı bir DNP aleti satın alırken, son kullanıcıyı korur. Daha çok üretici, DNP sertifikalı ekipman ürettiği sürece, kullanıcıların seçenek ve güveni artacaktır.
+
+Açık standart
+
+DNP tamamen açık bir standart olma felsefesiyle yaratılmıştır. Hiç bir şirket, DNP standartlarına sahip olmadığı için, bunun anlamı, ekipman üreticilerinin değiştirebileceği bir seviye oynanmasına izin vermesidir. Bu, farklı üreticilerin, protokol değişimleri yapmasına olanak tanır. Ayrıca, bunun anlamı, bir sistemin geliştirme maliyetinin azaltılmasıdır. Üretici, SCADA sisteminin bütün kısımlarını tasarlamak zorunda değildir. Özel bir sistemde, her ne kadar bazı parçalar çok kar getirmese de, üretici, çoğu zaman, SCADA sisteminin bütün
+
+IEC ve IEEE
+
+DNP, telekontrol uygulamaları için protokol standardı olan “Gelişmiş Protokol Mimarisi” (EPA) adında bir 0SI 3 katmanı üzerinde çalışan, Uluslararası Elektronik Komisyonu (IEC), Teknik Komite 57, Çalışma Grubu 03 standartlarına dayanır. DNP, eğer işlevselliği Avrupa'da belirlenmediyse, mevcut ve gelecekteki Batı Amerika uygulamaları ihtiyacı için gelişim sürecinde olduğundan, mümkün olduğunca, standartlara uyumlu olarak dizayn edilmelidir. Günümüzde, DNP 3.0, IEEE C.2 iş gücü tarafından, uzak terminal biriminden akıllı son erişim aygıtlarına komünikasyon protokolü için önerilen uygulama olarak seçilmiştir.
+
+SCADA
+
+DNP, bütün SCADA sistemi içerisinde, iyi geliştirilmiş bir aygıt protokolüdür. Bu protokol, akıllı araçlarla veri kazanım protokolü olarak dizayn edilmiştir. Bu aygıtlar, sonradan Çok prizli, field-bus sistemi olarak eşlenebilir. Field-bus DNP aygıtları, bir yazılım paketine entegre edilerek, SCADA sistemi oluşturulur. DNP, seri bus (çok modlu) topoloji için, tek bir fiziksel katman belirlemez. Aygıtlar, 422 (dört tel), 485 (iki tel), modem (Bell 202) veya fiber optik kablolarla bağlanabilir. SCADA yazılımı izin verdiği müddetçe, uygulama programı DNP'yi diğer protokollerle bütünleştirebilir. Tünelleme veya kapsama kullanılarak DNP intranete veya internete bağlanabilir.
+
+Geliştirme
+
+Belirleme, ilk başta, GE Harris şirketi tarafından geliştirilmiş fakat 1982'den beri DNP kullanıcı grubu altında üretilmektedir. Günümüzde, 100'ün üzerinde satıcı, DNP V.30 ürünlerini önermektedir. Bu ürünler, ana istasyondan, akıllı son erişim aygıtlarına değişmektedir. Protokol, üreticinin, DNP'nin desteklediği bazı fonksiyon ve servisleri destekleyebilecek bir ürün geliştirebilmesine yönelik, dizayn edilmiştir. DNP 3.0, IEC 870,5 specs'in ilk versiyonlarından türetilmiştir. Günümüzde, DNP kullanıcı grubu, protokolün dokümantasyon ve güncellenmesini kontrol eder.
+
+Fiziksel katman
+
+DNP'nin fiziksel katmanı, 8 veri biti, 1 başlama biti, bir bitirme biti ve denklik kullanmayan, seri bit tabanlı asenkronize bir sistemdir. Senkronize veya asenkronize işleme de izin verilir. İki fiziksel operasyon moduna sahiptir; direk mod (noktadan noktaya) veya bus modu (çok prizli). Bu iki mod aynı anda kullanılmaz. Her iki mod da yarım veya tam dublekstir. Her iki modla birlikte, bir taşıyıcı tespit sistemi kullanılmalıdır. Çoklu ana istasyona izin verilmiştir fakat aynı anda sadece bir ana istasyon işlevsel olabilir. Sistem
+
+Fiziksel topolojiler
+
+DNP protokolü beş komünikasyon modunu destekler; iki telli noktadan noktaya, iki
+
+telli çok prizli, dört telli noktadan noktaya, dört telli çok prizli, ve çevirmeli modemler.
+
+Sadece iki noda sahip bir sistem (ana ve yardımcı istasyondan oluşan), direkt bus olarak isimlendirilir. Eger sistem cok nodlu çok prizli ise seri bus olarak adlandırılır. Bu sistemlerin hepsi, iki veya dört bağlantı metodu kullanır. Dört telli metodu, yarım veya tam dubleks sistemleri çalıştırırken, iki telli metot, sadece yarım dubleksi çalıştırır. DNP çoklu ana, çoklu yardımcı ve karşılıklı iletişimini destekler.
+
+Modlar
+
+İki telli, noktadan noktaya
+
+DNP protokolleri fiziksel katmanı, noktadan noktaya komünikasyonu destekler. İki telli yarım-dubleks mod, genellikle, fiziksel sistem olarak, R8-485 veya iki-telli bir modem kullanır. Eğer modem kullanılırsa, modemle olan arayüz, genellikle, V.24 ITU standardı (R5- 232) kullanır. İki-telli mod, DNP icinde, tam-dubleks bir işlemi desteklemez sadece yarım- dubleksi destekler. Noktadan noktaya olan modda, çakışma olasılığı yoktur. Ana istasyon, çerçeveyi iletir; yardımcı yanıt verir. Tek sorun, ilerleme gecikmelerinden kaynaklı geçen zamandır. DNP içinde, bu zaman ayarı için bir konfigürasyon bulunur.
+
+İki Telli çok prizli
+
+DNP fiziksel katmanı, çok prizli komünikasyonu destekler. İki telli çok prizli modu, fiziksel sistem olarak genellikle RS-485, fiberoptik veya Bell 202 modemleri kullanır. İki telli mod, DNP içinde, tam dubleks işlemi desteklemez, sadece yarım dubleks modu destekler. çok prizlide, iki telli modda, çakışma olasılığı vardır. Bunun nedeni, iki ana veya yardımcı istasyon, aynı hat üstüne, aynı anda giriş yapabilir. Bunun üstesinden gelebilmek için, DNP, taşıyıcı kaybından sonra, bir zaman boşluğu koyar. Taşıyıcı, iki telli bus üzerinde iletim yapıldığını gösteren bir belirteçtir. İki telli çoklu modda, hat üzerinde bulunan tüm cihazların, hat üzerinde iletim yapıldığının farkında olabilmesi için, bir yol sağlanmalıdır.
+
+Dört Telli Noktadan Noktaya
+
+Dört telli, noktadan noktaya, DNP içinde, yardımcı istasyona, tam dubleks ana istasyon olarak kullanılır. Kullanılan fiziksel standartlar, RS-422 ve dört telli modemlerdir. Bu mod, sadece noktadan noktaya olduğu için, çakışma sorunu yoktur. Fakat V.24, komünikasyonu kontrol etmek için, bir uyuşma sistemi kullanır. Bu, DCD (veri taşıyıcı
+
+nadiren kullanılır.
+
+Dört telli çoklu nokta
+
+DNP, dört telli çoklu nokta modunu destekler. Bu mod, yarı veya tam dubleks komünikasyon kullanabilir. Ama tam dubleks nadiren kullanılır. Tam dubleksin kullanılmama nedeni, çakışmanın karmaşıklığından kaçınmaktır. Her yönde aynı anda komünikasyon sağlayan çoklu cihazların kurulumu zordur. Ana istasyonların çakışma sorunu yoktur. Fakat yardımcı istasyon cevap vermeden hatta giren, diğer ilk ana istasyon, sorun yaratabilir. Yardımcı istasyonlarda, çok sayıda çakışma sorunu vardır, çünkü bir çoğu, kendi ana istasyonlarını, aynı anda cevaplamak isteyebilirler. DNP'nin bu çakışmaların üstesinden gelmesinin bir yolu, yardımcı istasyonların çakışmasına izin vermesidir. Bu, ikinci ana istasyonun zaman kaybetmesine ve ilk ana istasyonun bus'a giriş için zaman kazanmasına neden olur. Ana istasyon, bunun sonrasında, öncelikli mesajları gönderebilir.
+
+Çevirmeli modem
+
+DNP, dial up modem modu kullanımını destekler. Bu mod, noktadan noktaya bir devredir. Bu bağlantı sistemi (RS-232) olarak, genellikle, V.24 kullanır. DCD, bu gibi durumlarda farklı kullanılır çünkü modem içindeki, taşıyıcı tespitinin anlamı, verinin gönderilmesine değil, hattın kurulduğuna işaret eder. RTS hattı, DTE' nin veri gönderim isteğini modeme bildirmek için yüksek konuma (‘1') getirilir. CTS, DTE'nin veri göndermesini onaylamak için, modem tarafından yükseğe (‘1'e) getirilir. Yerel uca, verinin uzak uca iletildiğinin belirtebilecek bir yol yoktur. Gelen veriyi tespit etmek ise uzak uca kalmıştır.
+
+Veri hat katmanı
+
+DNP'nin veri hat katmanı, çerçeve büyüklüğünü, şeklini, uzunluğunu ve içeriğini tanımlar. DNP, byte yerine oktet konvansiyonunu kullanır. DNP, çerçeve içinde, dil olarak heksadesimal/hexadecimal kullanır. Çerçeve, aşağıdaki gibi gösterilir.
+
+Çerçeve taslağı
+
+Başlangıç (2 oktet) 0X0564 (0000010100100000)
+
+Uzunluk (1 oktet) 5'ten 255'e (ONDALIK)
+
+Kontrol (1 oktet), fonksiyon kodunu içerir
+
+Hedef (2 oktet)
+
+Kaynak (2 oktet)
+
+Uzunluk, kontrol, hedef ve kaynak için CRC (2 oktet)
+
+Kullanıcı verisi (16 oktet)
+
+Yukarıdaki kullanıcı verisi için CRC (2 oktet)
+
+Daha fazla kullanıcı bilgisi (16 oktet)
+
+Sadece yukarıdaki kullanıcı verisi için CRC (2 oktet)
+
+Daha fazla kullanıcı verisi (1'den 16'ya kadar) değişken
+
+CRC(2 oktet)
+
+BİTİŞ
+
+Maksimum sayıda oktete ulaşılana kadar, kullanıcı verinin devam edebileceğine dikkat edin. Bu, uzunluk okteti aracılığıyla belirlenir. Maksimum veri okteti 255'tir ve minimumu ise 5'tir. Son kullanıcı verileri, 16 oktet'den daha az olabilir. Her CRC, tüm çerçeve için değil, sadece bir önceki kullanıcı verisi için hesaplanır.
+
+Fonksiyon kodu
+
+Kontrol okteti içinde veri bağının, çerçeveyi nasıl işleyeceği kontrol etmek için dört bit kullanılır.
+
+Altı temel fonksiyon kodu vardır:
+
+• Sıfırlama
+
+Bu fonksiyon, kodu, daha fazla gönderim-onay işlemi sağlamak için, primer/birincil ve sekonder/tali istasyonları senkronize etmek için kullanılır.
+
+• Kullanıcı işleminin sıfırlanması
+
+Bu fonksiyon kodu, veri bağı kullanıcı işlemini sıfırlamak için kullanılır.
+
+• Test
+
+Test komutu, sekonder veri bağının durumunu sıfırlamak için kullanılır.
+
+• Kullanıcı verisi
+
+‘Kullanıcı verisi' fonksiyonu, onaylanmış veriyi, sekonder istasyona göndermek için kullanılır.
+
+• Onaylanmamış kullanıcı verileri
+
+Bu fonksiyon, kullanıcı verisini, onaya ihtiyaç duymaksızın, sekonder istasyona göndermek için kullanılır.
+
+• İstek bağ durumu
+
+Bu komut, sekonder veri bağının durumunu almak için kullanılan istek komutudur.
+
+Taşıma katmanı (sahte-taşıma)
+
+Dağıtımlı şebeke protokolü, ISO açık sistem ara bağlantı modelinde belirtildiği gibi, gerçek bir taşıyıcı katmanı desteklemez. Süper-veri bağ taşıma protokolü olarak bilinen, bir sahte-taşıma katmanını destekler. Bunun nedeni, veri bağ katman fonksiyonlarının bazılarının, ISO'nun OSI modeliyle tam olarak örtüşmemesidir. Bu fonksiyonlar, veri bağ katmanından ayrılmış ve sahte-taşıyıcı katmanının içine yerleştirilmiştir. Bu veri bağ fonksiyonları, taşıyıcı servis veri birimini (TSDU), bağ veri servis birimi (LSDU) olarak bilinen küçük sıralı çerçevelere ayırmayı kapsar. Bu çerçevelerin her biri, taşıyıcı protokol kontrol bilgisine sahiptir. LSDU'nun maksimum büyüklüğü, 249 oktet'tir. Bu, hata durumunda paket uzunluğunu azaltmak için yapılmıştır. Eğer bir paket hatalıysa, tekrar bir deneme başlatılır. Kısa bir paket, tekrar deneme işleminin hızlı yapılmasını sağlar.
+
+Uygulama katmanı
+
+DNP, bir uygulama katmanını, yaygın veri obje kütüphanesi, fonksiyon kodları ve hep talep eden hem de yanıtlayan cihazlar için mesaj formatlarını tanımlayarak destekler. Bunlar, final bir uygulama kurulumu için, kullanıcı katmanında kullanılır. Bu uygulama kurulduktan ve veri objeleri, fonksiyon kodları ve mesaj formatı eklendikten sonra, uygulama, uygulama katmanı haline gelir. Veri objeleri ve fonksiyon kodlarının tam bir listesi, DNP kullanıcı grubu http://www.dnp.org/ 'dan, DNP versiyon 3.0 standart dokümanından elde edilebilir.
+
+Sonuç
+
+Dağıtımlı şebeke protokolü, sadece, açık sistem ara bağlantı modeli içindeki, fiziksel katman, veri bağ katmanı ve uygulama katmanını destekler. Fiziksel katman, en az desteklenen katmandır. DNP, telekontrol uygulamaları için bir protokol standardı olan Gelişmiş Protokol Mimarisi'ne (EPA) dayanır. Bu standart, gelişmiş, RTU fonksiyonlarını ve normal çerçeve uzunluğundan uzun mesajları destekler. Kullanıcı verisini alır ve her biri taşıyıcı protokol kontrol bilgisine (TPCI) sahip, sıralı taşıyıcı protokol veri birimine (TPDU) ayırır. Taşıyıcı protokol veri birimi, veri bağ katmanına, bağ servis veri birimi olarak gönderilir. Alıcı, çoklu sıralı veri bağ katmanından çoklu sıralı taşıyıcı protokol veri birimini (TPDU'lar) alır ve bunları, bir taşıyıcı servis veri biriminde (TSDU) toplar. Resmi bir uyumluluk testi yoktur. Ama on-line yardım mevcuttur. Eğer satıcı, DNP V.3.00 alt set tanımlamalarından biriyle uyumlu olduğunu iddia ediyorsa, cihaz kesinlikle sistemler arası çalışabilir olmalıdır. Elbette, sistemler arası çalışabilir demek, verimli olduğu anlamına gelmez. Mümkün olduğunda, tek bir tedarikçiye yönelmek en iyisidir. Dağıtımlı şebeke protokolü gerçekte, tamamen, açık, özel olmayan, sistemler arası çalışabilir bir protokoldür.
+
+SCADA sistemlerinde gelişen teknolojiler
+
+SCADA teknolojisindeki gelişmelerin sadece bazıları, aşağıda listelenmiştir. Komünikasyon teknolojisinin hızlı gelişiminin, SCADA sistemi üzerinde, büyük etkisi vardır.
+
+Ana istasyonlar için LAN teknolojisindeki hızlı gelişim
+
+LAN'lar, ana/master/birincil istasyonların temel bileşeni olarak, çifte fazlalık denetimli LAN sayesinde, daha güvenilir bir sistem sağlamaktadır. Yüksek hızlardaki (10 Mbit/sec'den 100 Mbit/ sec'ye) LAN'lara doğru geçiş, daha hızlı yanıt mekanizması sağlar.
+
+İnsan makine arayüzü (HMI )
+
+Gelişimin olduğu tipik alanlar:
+
+• VDU'larda, operatörlerin, şebekenin herhangi bir noktasında, sistem üstünde on-line planlama ve zoom yapmasına olanak veren gelişmiş grafikler
+
+• Operatör arayüzlerinde, gelişmiş tepki zamanlaması
+
+Uzak terminal birimleri
+
+• Ana istasyon yerine, RTU üzerinde, merkezi veri işleme
+
+• Komünikasyon şebekesi üzerinden verileri, RTU'ya gönderen akıllı cihazlardan merkezi veri toplama
+
+• RTU'ların fazlalık denetimi, I/O, CPU ve güç kaynağı üzerinde kolay kurulumu
+
+• Her bir ana istasyon için ayrılmış (ayrı) veri tabanıyla çoklu komünikasyon
+
+Ana istasyonlara gönderilen alarm trafiğini (alarm kombinasyonu, ilgisiz alarmlar ve filtreleme ile) azaltmak için, kullanıcı tarafından hazırlanmış programlar, RTU'larda çalıştırılabilir
+
+Alınan gerçek zamanlı verinin geçerliliğini denetleme
+
+RTU'lar arası komünikasyon
+
+Doğrudan RTU'ya bağlı sofistike insan-makina arayüzü
+
+İletişim
+
+RTU-ana istasyon arayüzünü sağlayan açık standartlar (yani, satıcıya has olmayan)
+
+Yaygın spektrum uydusu - uzak bölge RTU'ları için, gelişmiş, düşük maliyetli ve düşük güç metotlarıyla bir uydu sistemi üzerinden veri transferi
+
+Fiber optik - düşük maliyeti ve kurulum kolaylığı, bunu, çekici bir opsiyon haline getirir
+
+Meteor yolu iyonizasyonu - günümüzde, özellikle, uydu sisteminin maliyetinin karşılanamadığı durumlarda etkileyici bir teknoloji
+
+12 Altın kural
+
+Bir SCADA sistemini belirlemede ve kurulumunda dikkat edilmesi gereken bir kaç kural aşağıda verilmiştir:
+
+‘KISS' prensibini uygula ve SCADA sistem kurulumunun basit olmasına dikkat et.
+
+Tüm sistemin etki zamanının (gelecekteki genişletme zamanı da dahil), doğru değerler içinde olduğundan emin ol (genelde, operatör tepki zamanından 1saniye daha az).
+
+Fazlalık denetimi gereklerini dikkatli bir şekilde değerlendir ve toplam sistemde, her hangi bir parçanın aksaklığının, tüm sistemi nasıl etkileyeceğini hesapla.
+
+Açık sistem yaklaşımını seçilen donanıma ve kullanılacak protokol komünikasyon standartları sistemine uygula.
+
+Özel bileşenlerde dahil olmak üzere, tüm sistemin ölçeklendirilebilir bir mimariye sahip olduğundan emin ol (artan sistem ihtiyaçlarıyla genişleyebilmelidir).
+
+Tüm sistemi, RTU üstünde oluşabilecek maksimum trafik yüklemesi, komünikasyon bağları ve ana istasyonları ve donanım, firmware ve yazılım gibi alt sistemler üzerindeki alt etkileri yönünden değerlerdir.
+
+Nokta sayısı, yanıt hızları ve sistemin ihtiyaç duyduğu fonksiyonellik göz önüne alındığında, sistemin fonksiyonel belirlenmesinin açıkça tanımlandığından emin ol.
+
+Bir sistem testi yap ve geri transfer edilen tüm verinin, kontrol işlemlerinin ve özel bileşenlerin aksaklıkları ve bu aksaklıkların giderilmesini belirlemedeki kesinlik paylarını belirle.
+
+Kullanılması düşünülen (endüstriyel) ortamda (sistemin topraklama ve izolasyonu da dahil), sistemin özel bileşenlerinin işlemlerini teyit et.
+
+Tüm konfigürasyon ve test aktivitelerinin iyi dökümante edildiğinden emin ol.
+
+Konfigürasyon, sistem kurulumunda sistem konusunda eğitimli personelin görev aldığından emin ol, bu doğrultuda, sistem hakkında, personelin eğitimi de sağlanır.
+
+Sonuç olarak, isteklerin gelişmiş bir sistemle karşılanabilmesine rağmen, operatörün, alarm, işlemsel veri ve kalabalık operatör ekranıyla meşgul edilmemesi gereklidir. Operatöre gelen, yükleme bilgisinin, açık, özlü ve basit olmasına dikkat edin.
+
+Protokol Karşılaştırmaları
+
+TARİHSEL BİLGİ
+
+AKTARIM MEKANİZMASI
+
+! I Event Time	1 Type
+
+| Tagname
+
+I Message
+
+l Comment
+
+I Station I
+
+05/16/2016 17:53:40 Hi 05/16/2016 14:07:43 Hi 05/14/2016 15:23:09 Hi 05/14/2016 09:18:49 Lo 05/14/2016 09:18:49 Lo
+
+ET2_G aba r i_Yu kse k_A ra c TKMJJP S_By_Pass_Calisma T1_UPS_1_By_Pass_Calisma T1_Jet_Fan_10_Ariza_JF10_K5A T1 Jet Fan 9 Ariza JF9 K5A
+
+T3Y_Gabari_Yuksek_Arac (Beldibi Jandarma Kavşağı} TKMJJP S_By_Pass_Ca lisma T1 UPS_1_By_Pass_Calisma T1_Jet_Fan_10_Ariza_JF10_K5A T1 Jet Fan 9 Ariza JF9 K5A
+
+Şekil 3.10) Tünel SCADA sistemi genel bakış
+
+AYDINLATMA SİSTEMİ
+
+GİRİŞ
+
+Aydınlatma Sistemi; tünel fonksiyonlarının güvenli bir şekilde yerine getirilebilmesinin en önemli unsurudur. Gün ışığına uyum göstermiş insan gözünün, hızla karanlık bir ortama (tünele) girilmesi sırasında meydana gelen kısmi körlük etkisini gidermek, tünel içerisindeki nesnelerin uzak mesafelerden algılanabilmelerini sağlamak amacıyla aydınlatma sistemleri tesis edilmektedir.
+
+Yürürlükteki uygulamalara göre tünelleri;
+
+S Geometrik olarak uzun tüneller,
+
+S Optik olarak uzun tüneller,
+
+S Kısa tüneller ve alt geçitler olarak sıralanabilir.
+
+Tünel Aydınlatması, tünel fonksiyonlarının güvenli bir şekilde yerine getirebilmesinin en önemli unsurudur. Tünel aydınlatmasında Fren mesafesi esas alınır.
+
+Fren mesafesi;
+
+S Yolun eğimine,
+
+S Aracın saf fren mesafesine,
+
+S Hız limitine,
+
+SSürücünün reaksiyon süresine,
+
+S Yol kaplamasına,
+
+S Aracın fren tutukluk derecesine bağlıdır. (CIE 88 -International Comission on Illumination- Uluslararası Aydınlatma Komisyonu)
+
+Bir aydınlatma tesisinde dikkate alınan fotometrik karakteristiklerden önemli olanlar; S Yolda ve tünel içi duvarların alt bölümlerindeki (luminance) parıltı seviyesi S Yol üzerinde parıltı dağılım düzgünlüğü (uniformity of the luminance distribution) S Kamaşma (glare) nin kontrolü
+
+S Işık titremesinden( flicker) kaçınmak
+
+Tünel Projelerinde bütünsel bir yaklaşımla tünelin kullanıcılarından, taahütçüsüne, işletmecisine ve bakımcısına kadar tüm paydaşlarına fayda sağlayacak çözümler için aşağıdaki hususlar önem arz etmektedir;
+
+S Tünel aydınlatma tekniklerinin başlıcalarını desteklemek için armatürler,
+
+S Trafiği yönlendirme ve güvenli çıkışı sağlamak için yönlendirme aydınlatması,
+
+S Basit kontrollerden karmaşık izleme sistemlerine kadar çeşitli çözümlerle tüm aydınlatma sistemi üzerinde tam kontrolün sağlanması için aydınlatma kontrol sistemi,
+
+S Daha sonra yapılacak hizmetler.
+
+AYDINLATMA TEKNOLOJİLERİ
+
+İyi bir tünel aydınlatmasında, yaklaşılan yoldaki ile aynı rahatlık, hız ve emniyette trafik akışı sağlanması gerektiğinden tünel aydınlatma hesapları ve uygulamaları ayrı bir önem kazanmaktadır.
+
+Tünel aydınlatmasında dikkat edilecek en önemli husus, gözün karanlık ve aydınlığa adaptasyonunu sağlayarak sürücülerin tünel içerisinde güvenli seyrine imkân vermektir. Tüneller, göz adaptasyonunun sağlanabilmesi için 5 bölgeye ayrılmıştır.
+
+S Yaklaşım bölgesi (Dış Bölge)
+
+S Eşik bölgesi, ( Lth ),( Lseg veya L2o yöntemi belirler)
+
+S Geçiş bölgesi,( Ltr )
+
+S İç bölge, ( Lin )
+
+S Çıkış bölgesi. ( Lex )
+
+Şekil 20. Aydınlatma Sistemi Tasarım Örneği
+
+EŞİK BÖLGESİ AYDINLATMA SEVİYESİ
+
+Eşik bölgesinin başlangıcında gerek duyulan korunan ortalama yol yüzey parıltısı için (Dış bölge parıltısı L20 ve Eşik bölgesi parıltısı Lth) aşağıdaki tabloda verilen farklı fren mesafeleri ve farklı kontrast faktörü “L/Ev” oranlarına bağlı eşik bölgesi aydınlatma seviyesi “Lth/ L20” oranından karar verilir.
+
+Şekil 21.Eşik Bölgesi Aydınlatma Seviyesi Belirleme Tablosu
+
+Aydınlatmada 0,2< L/Ev< 0,6 koşulunu sağlayan sistemlere çok az rastlanır. Eğer böyle bir aydınlatma yapılacaksa simetrik sistem için tablodaki (k) değerleri alınır .Simetrik sistem için eşik bölgesinde, yol yüzeyindeki gölgelerden oluşan ve ışık dağılım düzeninden oluşan (flicker) ışık titremesi problemleri özenle dikkate alınmalıdır. Örneğin tünel doğrultu yönü, coğrafi enlemi, iklim koşulları, tünelin yapısı dikkate alınarak yeterince çözülürse (k) değeri 0,3 olmalıdır.
+
+UYGULAMADA TÜNEL AYDINLATMA
+
+Eşik Bölgesi Aydınlatma Seviyesi (Threshold zone) oranından Lth/L20 faydalanılarak zıt yönlü aydınlatma (counterbeam lighting) ya da simetrik aydınlatma (symmetric lighting) sistemlerini belirleriz.
+
+Şekil 22.Tünel Aydınlatma Türleri
+
+ZIT YÖNLÜ AYDINLATMA
+
+Nesneler üzerine trafiğe ters doğrultuda ışık düşürülen tesislerdeki aydınlatmadır. Zıt yönlü aydınlatmayı karakterize eden ön şart; trafik yönüne dik düzlemlerde asimetrik ışık şiddeti dağılımı veren ve maksimum ışık şiddetinin sürücüye doğru yönlendirildiği armatürler kullanmaktır.
+
+Şekil 23.Zıt Yönlü Aydınlatma
+
+Zıt yönlü aydınlatmada, prensip olarak tablodaki tüm (Lth/L20) değerleri normal ve yüksek trafik koşulları içindir. Tablodaki oranlar aşağıda sıralanan talepler tam karşılandığında koşulların net ve çok uygun olması durumunda % 75'e kadar indirilebilir.
+
+S Düşük trafik yoğunluğu (Örneğin 100 araçtan az trafik)
+
+S Hızlı ve yavaş trafiğin birbirine katılmaması
+
+S Tünellerin dış, eşik ve geçiş bölgelerinin başlangıç ve bitiminde şerit değişikliği olmaması
+
+S Araç durdurulmasına tünel içinde izin verilmemesi S Virajsız düz tünel durumunda
+
+S Tünel içinde tek yönlü trafik durumunda
+
+SİMETRİK AYDINLATMA
+
+Bir nesne üzerine, her iki trafik doğrultusundada aynı miktarda ışık düşen tesislerdeki aydınlatmadır. Simetrik aydınlatmayı karakterize eden ön şart; trafik yönüne dik düzlemlerde, her iki yönde de simetrik ışık şiddeti dağılımı veren armatürler kullanmaktır.
+
+Şekil 24.Simetrik Aydınlatma
+
+TÜNEL AYDINLATMASINDA İZLENEN YOLLAR
+
+Tablo-2.2: Dış Bölge ve Eşik Bölgesi Par ıllı'ları Arasında Önerilen Oranlar lk=Llh/L2Ol
+
+Simetrik Aydınlatma Sistemi Zıt-Yönlü Aydınlatma Sistemi lUEv^O^)	İUEv>0.6)
+
+Fren Mesafesi k=Lt(v'L20	k=Lth/L20
+
+60m.	0.05	0,0i
+
+lOOm.	0,06	0,05
+
+160m.	0,10	0.07
+
+Şekil 25. Tünel Aydınlatma Parıltı Sabitleri Tablosu
+
+Tünel giriş bölgesindeki parıltı düzeyi yukarıdaki tablodaki verilere göre belirlenir. Tünelde gündüz aydınlatması için ilk önce dış bölge parıltısı “L20” hesaplanır. Dış bölgenin parıltısı 24 saat içerisinde her an değişmektedir.
+
+Günün herhangi bir anında dış bölge parıltısı şu şekilde hesaplanır;
+
+L20 = aLc+ ŞLr+ yLe+ SLth
+
+Burada;
+
+Lc: gökyüzü parıltısı	a: gökyüzü yüzdesi,
+
+L-: yol parıltısı	Ş: yolun yüzdesi,
+
+Le: çevre parıltısı	y: çevrenin yüzdesi,
+
+Lth: eşik bölgesi parıltısı 5: eşik yüzdesi
+
+Tünelin bulunduğu konuma göre yukarıdaki şekildeki Tablo 2.1. de bulunandeğerler seçilir. Eşik bölgesinin parıltısı da tablo 2.2. ye göre hesaplanmaktadır. Aşağıda tabloların kullanımıyla dış bölge parıltısının incelendiği bir örnek bulunmaktadır.
+
+Örnek: Sürüş yönü tabloya göre doğu-batı istikametinde olan aracın gökyüzü parıltısı
+
+2 2 2
+
+Lc = 12 kcd/m , yol parıltısı Lr =4 kcd/m , çevre parıltısı kayalardan oluşan Le = 2 kcd/m olan, simetrik aydınlatma yapılan, konstrast seviyesinin 0,2'den küçük olduğu ve durma mesafesi 100 m için k = 0,06 olan bir araca ait tüneldeki günün herhangi bir anındaki dış bölge parıltısını L20 hesaplamak için;
+
+a + P + y + 5 = 1
+
+Lth = k * L20 = 0,06 * L20
+
+L20 = Lc+ Lr+ Le+ Lth = 12 + 4 + 2 + (0,06 * L20)
+
+L20 - (0,06* L20) =18 0,94 * L20 = 18
+
+2
+
+Tünelin dış bölge parıltısı; L20 = 19,15 kcd/m	bulunur.
+
+İÇ BÖLGE AYDINLATMASI
+
+Bir tünelin İç Bölge (İnterior Zone) aydınlık seviyeleri trafik yoğunluğu ile artar. Bir tünelin iç bölgesindeki ortalama yol yüzey parıltısı değeri trafiğin akışına göre 160m,100m ve 60m üç ayrı fren mesafesi için verilir. Bu değerler yol yüzeyi için olduğu gibi, aynı zamanda tünel duvarlarının 2 m'lik yüksekliğe kadar olan bölümleri için de geçerlidir.
+
+İÇ BÖLGE (INTERIOR ZONE) ORTALAMA YOL YÜZEY “PARILTI” DEĞERLERİ (cd/m2)
+
+SAATTE TRAFİK AKIŞI (araç/saat)
+
+Şekil 26.İnterior Zone (İç Bölge) Ortalama Yüzey Parıltısı Değerleri (cd/m2)
+
+Eşik bölgesinin toplam uzunluğu en azından fren mesafesi kadar olmalıdır. Bu mesafenin ilk yarısında, aydınlatma seviyesi, eşik bölgesinin başlangıcındaki değer olan Lth'ye eşit olmalıdır. Fren mesafesinin yarısından ileriye doğru aydınlatma seviyesi, eşik bölgesinin sonunda 0,4 Lth değerine eşit bir değere derece ve doğrusal olarak azalabilir (Şekil 27). Eşik bölgesinin ikinci yarısındaki kademeli azaltma, adımlar halinde yapılabilir. Bu takdirde bir kademe ile sonraki kademe arasındaki parıltı oranı, yine de 3/1‘i aşmamalı ve aydınlatma seviyesi eğride gösterilen limit değerin aştına düşmemelidir. Geçiş bölgesi parıltısı “Ltr” Şekil 27'de verilen denkleme göre hesaplanır.
+
+Şekil 27.Şematik Tünel Aydınlatma seviyelerinin Farklı bölgelerdeki gösterimi
+
+İç bölgenin parıltısı “Lin” Şekil 28'de tablo 2.4'den seçilir. Çıkış bölgesinin parıltısı “Lex”, iç bölgenin parıltısıyla “Lin” aynı seviye de bırakılabilir ya da tünelin son 60 metresine, iç bölgenin 5 katı bir seviyede yapay bir aydınlatma tesis edilmesi istenebilir. Gece aydınlatmasında ise tünel içi aydınlatma en aızndan dıştaki yol aydınlatmasına eşit seviye ve düzgünlükte olur. İsteğe bağlı olarak araç trafiği az olan bölgelerde dış parıltının 1/3' ünden az olmamak kaydıyla aydınlatma seviyesi ayarlanır.
+
+Tablo-2.4: İç Bölgede önerilen Ortalama Parıltı Deflerleri lcd/m2)
+İç Bölge Ortalama Yüzey "Parıltı" Defleri
+Saatte Trafik Akjy i araç/ saati
+
+Tablo-3.1 = YBSL Lambaya Enerji Verildikten Sonra Belirti Zaman Aralıklarda Alınan Ölçüm Deflerleri
+
+(• balast öncesinde yapılan ölçümler) balast sonrasında yapılan ölçümler)
+
+Şekil 28. İç Bölge Aydınlatması Tablo Değerleri
+
+YBSL ve LED LAMBA ARASINDA ENERJİ VERİMLİLİĞİ ANALİZİ
+
+Yüksek basınçlı sodyum buharlı lambaların (YBSL) boyutları küçültülüp, basınçları artırılmıştır. Buna bağlı olarak da lambanın çalışma sıcaklığı artmıştır. Aşağıdaki tablo 3.1.'de görüldüğü gibi geçen zaman ile lamba uçlarındaki gerilim2 değeri artmakta, akım2 değeri ise düşmektedir. Güç değerlerinde gözlenen fark kullanılan transformatörün kayıplarından kaynaklanmaktadır. Transformatör, ateşlemeden sonra balast görevi yapmaktadır. Dolayısıyla üstünden geçen akım ile kayıp bir güç oluşur. Lambanın çalışmaya başladığı andan sekizinci dakikaya kadar, balast çıkışındaki gerilim2 değeri şebeke geriliminin altında bir değerdedir. Bunun sebebi ilk çalışma anında gerilimin büyük bölümünü balastın kendi üzerine düzenli almasıdır. Aynı şekilde balastın diğer bir etkisi de akım değerini sınırlamak ve belli bir süre sonunda hale getirmektir.
+
+YBSL lambalar şebekeye endüktif etki yaparlar. Aşağıda verilen Tablo-3.1 de ilk çalıştığı andan kararlı hale geçene kadar YBSL lambaya ait güç katsayısı ve akım- gerilim harmonik ölçüm sonuçları verilmiştir. Akım harmonik değerleri %15, gerilim harmoniklerinin ise %5 altında olması beklenir.
+
+Tablo-3.1: YBSL Lambaya Enerji Verildikten Sonra Belirli Zaman Aralıklarda Alınan
+
+Ölçüm Değerleri
+
+(• balast öncesinde yapılan ölçümler)
+
+{** balast sonrasında yapılan ölçümler)
+
+Şekil 29. YBSL Lamba Örnek Ölçüm Değerleri
+
+Aşağıdaki Tablo-3.2 de görüldüğü gibi LED (Light Emitting Diode) lambalı armatür, sürücü öncesi ve sonrası sabit akım ve gerilim değerlerine sahiptir. Sürücü verimi %93'tür. Tablo-3,2 de görüldüğü gibi akım harmonikleri %15'in gerilim harmonikleri de %5'in altındadır. Şebekede balastlı lambalar kadar güç bozulma sına (power fluctuations) neden olmazlar.
+
+Tablo-3.2: LED Lambaya Enerji Verildikten Sonra Belirli Zaman Aralıklarında Alınan Ölçüm Değerleri
+
+t* LED sürücü öncesinde yapılan ölçümler)
+
+(** LED sürücü sonrasında yapılan ölçümler)
+
+Şekil 30. LED Lamba Örnek Ölçüm Değerleri
+
+Tünel aydınlatma da son yıllarda LED aydınlatma teknolojileri denenmektedir. Tercih nedeni olarak aşağıdaki hususlar sunulmaktadır;
+
+Uzun ömürlü olması; 50.000 saatten fazla faydalı lümen ömrü, lamba değişiminden kaynaklı bakım ve işçilik maliyetlerinin önüne geçmektedir.
+
+Daha kaliteli bir aydınlatma sağlaması; konvansiyonel sodyum buharlı armatürlere oranla, yüksek renksel geriverim endeksi, daha yüksek bir görüş netliği sağlamaktadır.
+
+Kontrol imkânı; LED aydınlatma sistemleri sayesinde ana kontrol merkezinden armatürleri parlaklık seviyelerine göre hassas bir şekilde kontrol edip işleyişlerini kontrol edebiliyoruz.
+
+Enerji verimliliği; % 50-70 arasında enerji tasarrufu ve azalan CO2 emisyonu.
+
+LED lambalı aydınlatma armatürlerinin tünellerde tercih nedenleri olarak aşağıdaki hususlar iddia edilmektedir;
+
+S Yüksek enerji verimliliği sağlamaları,
+
+S Yüksek ışık verimliliği 25°C'de min 130 lm/W,
+
+S LED çipinin minimal boyutlara sahip olması sayesinde kolay ve farklı tasarımların kolayca yapılabilmesi,
+
+S Hızlı bir ışık çıkışına sahip olması,
+
+S Cam, flaman gibi kırılgan elementlerden yapılmadıkları için montaj ve bakımın kolay olması,
+
+S DC akımla çalıştıkları için insan kulağı ile duyulacak ses titreşimlerine neden olmamaları,
+
+S Çevreci; yapısında cıva gibi ağır metaller içermemeleri,
+
+S Titreşimsiz yanma özelliğine sahip olmaları,
+
+S Gaz deşarjlı lambalar gibi çok yüksek ısı vermeyen ışık kaynakları olmaları nedeniyle güvenli kullanıma imkân sağlamaları,
+
+S Armatürde herhangi bir LED lamba arızalanması durumunda o lamba kısa devre olur. Bu durumda armatür yanmaya devam eder. Bozuk LED lamba sayısı belirli bir miktara ulaşana kadar aydınlatmadaki homojenlikte çok büyük bir değişiklik olmaması,
+
+S LED optik tasarımındaki gelişmelerle (LED-lens uyumu) kolayca simetrik, asimetrik, zıt asimetrik olarak yapılabilmesi,
+
+S LED lambaların Color Rendering Index (CRI) değerlerinin >70 ‘te olmasından dolayı nesneleri gerçek renklerinde algılayabilmeleri.
+
+TÜNEL AYDINLATMASINDA KONTRAST
+
+Aydınlatma Sistemlerinin tünellerdeki uygulaması iki grupta toplanır. Kontrast faktörü Qk= L/Ev formülü ile Aydınlatma sistemleri karakterize edilir. Bu formülde;
+
+L= Yol yüzeyinin parıltısı
+
+Ev = Yol yüzeyinden 0,2 m yükseklikteki düşey aydınlık düzeyi
+
+Şekil 31. Kontrast Faktörü
+
+Tünellerde yol üzerindeki nesne için L/ Ev (Kontrast faktörü) oranının tanımında alınan armatür ve ölçüm noktaları ile ilgili kullanılan düzgün ızgara methodu aşağıdaki şekilde gösterilmiştir.
+
+Düzgün ızgara birbirine bitişik iki aydınlatma armatürü arasında üç adedi yol dikine dört adedi de boyuna doğrultuda olmak üzere trafik yolunda 12 nokta ile tanımlanır. L/ Ev oranının hesaplanmasında göz önüne alınacak aydınlatma armatürü sayısı her ölçüm
+
+Şekil 32.Tünel Aydınlatma sistemine ait L /Ev oranının tanımında dikkate alınan Armatürler
+ve ölçüm noktaları
+
+Bir nesnenin daha yüksek parıltı noktası onun dahi iyi görülebilirliğini sağlar. Nesnenin parıltı noktası;
+
+S Kullanılan aydınlatma sistemi,
+
+S Tünel duvarlarının yansıtma faktörü,
+
+S Yol düzeyinin yansıtma faktörü özelliklerine bağlıdır.
+
+Parlaklık kontrastı pozitif ve negatif kontrast olarak ayrılabilir. Pozitif kontrast (C > 0) olduğunda amaç nesnenin daha parlak olmasıdır. Negatif kontrast (C < 0) olduğunda ise nesnenin daha koyu olması amaçlanmaktadır.
+
+Şekil 33. Kontrast Hesabı
+
+Kontrast (C) belirgin hatlara sahip küçük bir nesnenin hemen arkasındaki arka plan arasındaki değişikliktir. Nesne ve arka plan birbirine bağımlı olarak aşağıdaki formülle tanımlanır.
+
+(Ev) Düşey aydınlık düzeyi (Vertical Illuminance); Araç sürme doğrultusuna dik (900)
+
+olacak şekilde sürücüye döndürülmüş düşey bir düzlem içinde yol yüzeyinin üstündeki 0,1 m 2
+
+yükseklikteki (0,2 x 0,2 m ) lik nesnenin merkezidir.
+
+Lo nesnenin parıltısı ve Lb arka plan parıltısı olmak üzere kontrast;
+
+TÜNEL AYDINLATMASI TASARIM HIZI ve FREN MESAFESİ
+
+Tanımda müsaade edilen hız tünel aydınlatma tekniğinde belirlenen tünel aydınlatma tasarım hızıdır (TATH) (Designated speed for tunnel lighting).
+
+Her farklı TATH değeri (km/saat) farklı fren mesafesi (FM) değerine karşılık gelir. Aydınlatması yapılacak tünelin tasarımında “FM”nin belirlenmesi için;
+
+S Belilenen nihai TATH değeri (km/saat)
+
+S Aydınlatması yapılacak tünel için tasarlanan uzunluk içinde kalan yola ait tüm (yokuş aşağı eksi düşey yol eğimi ) ve yol eğim değerleri içinde % olarak en yüksek olanı alınır.
+
+Trafik levhaları ile sürücülere duyurulan belirlenmiş yasal hız (BYH) en yüksek hızdır. Eğer bir tünel aydınlatma tasarımı TATH = BYH olarak seçilir ve buradan hesaplanarak bulunan FM değeri söz konusu ise o tünel girişine sürücüleri uyarmak için hız
+
+bildirim levhası koymağa gerek yoktur. Eğer o tünelin TATH değeri TATH< BYH üzerinden
+
+hesaplanan özel bir FM değeri ile aydınlatılmış ise bu özel bir durumdur Tünel girişine koyulan hız bildirim levhası ile sürücülere bildirilmelidir.
+
+Fren Mesafesi; Sürücü tepki süresi ve frenleme süresi boyunca katedilen yolu kapsar. Yaklaşılan yolda ve tünelde müsaade edilen hız limitinde ilerleyen bir sürücünün tehlikeli olabilecek bir cismi görüp aracını emniyetle durdurabileceği mesafedir. Fren Mesafesi (k) ile gösterilir. CIE 88 (International Comission on Illumination) Uluslararası Aydınlatma Komisyonu tarafından belirlenen değerlere göre oluşturulan tablo değerleri aşağıda belirtilmiştir.
+
+Şekil 34.Fren Mesafesi
+
+Tünel aydınlatması tasarımında Lth değerinin belirlenmesi ilk adımı oluşturur. Aydınlatmanın seviye ve maliyetinin belirlenmesi anlamına gelen Lth kilit önemdedir. Lth üzerindeki en etkin değişken ilişki ise (FM) fren mesafesidir. Lth aydınlatma seviye parametresi olarak algılanan fren mesafesi, ağırlıklı olarak aydınlatmanın seviye ve maliyetini etkiler. Ülkemizde bu kadar öneme sahip olan fren mesafesine bazı uygulamalarda gereken önem verilmediği görülüyor.
+
+Fren mesafesi aşağıdaki formülle hesaplanır;
+
+Fren mesafesi (S IOPPINCi DİSTANCE)
+
+Burada;
+
+t0 = sürücü tepki süresi (sn) 0,5- 1 sn arasındadır 2
+
+g = yerçekimi ivmesi (9,81 m/sn )
+
+f = yol ile lastikler arasındaki sürtünme katsayısı
+
+S = (Road Slope) Yol Eğimi yokuş aşağı veya yokuş yukarı + veya - yönde yol eğimleridir.
+
+U= aracın fren öncesi hızı (m/ sn), ( km/saat)
+
+Fren mesafesi hesaplanırken aşağıdaki tablolardan yararlanılmaktadır;
+
+"5		“-"%EĞİM
+
+K""k
+
+y	(yokıışaşağı)
+
+Şekil 36.Fren Mesafesi Diyagramı
+
+Fren mesafesinin gerekenden yüksek bir değerde seçilmesi abartılı bir Lth değeri ile birlikte şu iki sonuca yol açmaktadır.
+
+S Eşik ve geçiş bölgelerinin uzunlukları artar.
+
+S Bu iki bölge ile birlikte iç bölge gerekenin üzerinde bir seviyede aydınlatılır.
+
+Buradan da anlaşılacağı gibi fren mesafesinin gerekenin üzerinde seçilmesi yatırım giderlerinin yanında işletim giderlerinde de gereksiz artışlara neden olmaktadır. Ülkemizdeki uygulamalarda sık sık bu sorunla karşılaşılmaktadır.
+
+CIE(88-1990) tavsiyeleri dikkate alınarak Bolu Tüneli aydınlatması yapılmıştır. Burada kullanılan veriler aşağıda gösterilmiştir;
+
+Tünel içi müsaade edilen hız: u=70 km/saat = 19,44 m/s Yol kaplaması asfalt sınıf R3 Yol yüzey parıltısı q(0): 0,07 Duvar kaplaması: Beton
+
+Duvar yansıma faktörü: 0,6
+
+Aydınlatma armatürleri arası mesafe: 10,5 m
+
+f: 0,35 (Diyagraman ıslak zemin için)
+
+s: -0,05 en kötü yol eğimi durma mesafesi diyagramından 70 km/saat için bakılır. - 0,06 alınmıştır.
+
+Eğim değeri olarak tünel toplam yolundaki fren mesafesini en çok uzatacak olan en
+
+kötü (s) eğim değeri aranır. Bu ise eksi düşey yani yokuş aşağı eğimdir.
+
+t (tepki süresi): kötü frenleme sistemi veya kötü refleksli sürücü dikkate alınarak t=1
+
+alınır.
+
+g: Yer çekimi ivmesi 9,81 m/s2 alınır.
+
+Bu verilere göre ıslak asfaltta fren mesafesi aşağıdaki şekilde bulunur;
+
+FM=86 m. bulunur,
+
+Kuru asfaltta fren mesafesi ise;
+
+Kuru asfaltta FM = 52,08 m bulunur
+
+Örnek: Bolu Tüneli Temel Bilgilerine Işık Titreme (Flicker) Frekansının Hesabı
+
+Genel olarak 2,5 hertz değerinin altında ve 15 hertz değerinin üstündeki frekanslarda ışık titreme etkisi ihmal edilmektedir. Tünel uzantısı içinde ışık titreme frekansını hesaplamak için araç hızı aydınlatma armatürleri arasındaki mesafeye bölünür. Bolu Tünelinde müsaade edilen araç hızı 70 km/saat (19,44 m/s), armatürler arası mesafe ise 10,5 metredir. O halde;
+
+Işık Titreme Mesafesi = 19,44 / 10,5 = 1,85 hertz olur.
+
+hertzin altında bir değer olduğu için ışık titreme etkisi ihmal edilebilecek bir değerdedir.
+
+Şekil 37. Tünel Aydınlatma sistemi Scada arayüzü
+
+Aydınlatma tesisinde bakım denince aydınlatma armatürü ve tünel duvarlarının temizliği, lamba yenilenmesi, elektrik devrelerinin çeşitli tümleşik bakımını kapsar.
+
+Lamba değiştirmede (relamping) lamba yenileme süresine karar verebilmek için ışığın çıkış değişimi izlenir. Yenileme grup halinde kullanılan lambanın ömrüne ve lümen düşümlerine bağlı uygulanır.
+
+Işık akısı düşüşünü önlemek için aydınlatma armatürlerine toz girişi engellenirse camların ve armatürün temizliği işık çıkışını sürdürür verim artar.
+
+Armatürler IP 65 Koruma sınıfına uygun olmalıdır.
+
+Armatürlerin paslanmaya karşı direnci iyi olmalıdır.
+
+Parçaların çabuk değişimi için lamba ve ek parçalara ulaşma olanağı yaratılmalıdır.
+
+Armatürler izin verilen maksimum trafik yüksekliğinin en az 25 cm üstünde tesis edilmelidir.
+
+Tünel duvarlarının temiz olması, yüksek yansıtma oranıyla tünel içindeki nesnenin yüksek parıltı kontrastına neden olur. Temizliğin sıklığı; trafik koşulları, duvar kaplama malzemesi gibi nedenlere bağlı olarak değişir.
+
+Dış ve eşik bölgelerinin parıltı seviyesi kontrolu için ışıkölçerlerin (photometer) kalibrasyonu yılda en az bir kez laboratuar standartlarında yapılmalıdır.
+
+HAVALANDIRMA SİSTEMİ
+
+GİRİŞ
+
+Şekil 38. Üçlü Jet Fan Dizilimi Örneği
+
+Tünellerde havalandırmanın temel amaçları;
+
+S Değişik hız ve trafik yoğunluklarında egzoz gazlarının zarar verici etkisinin azaltılması
+
+S Tünel görüş mesafesinin gereken limitlerin altında tutulması
+
+S Olası bir yangında, ortaya çıkan duman ve ısının trafik yönünden uzaklaştırılması
+
+Bu amaçlar için doğal havalandırma ve mekanik havalandırma yöntemleri uygulanmaktadır.
+
+S Normal ve en yüksek trafik akışında, karayolu taşıtları tarafından çıkarılan
+
+kirleticilerin kontrolü,
+
+S Bir olay veya kaza nedeniyle duran trafikteki karayolu taşıtları tarafından çıkarılan
+
+kirleticilerin kontrolü,
+
+S Bir yangın durumunda ateş ve dumanın kontrolü
+
+Tünelde risk oluşturan başlıca kirleticiler; CO, SO2, NO2'dir. PİARC tablolarında müsaade edilebilecek kirletici konsantrasyonları belirtilmiştir. Genel olarak uygulamada CO emisyonunun 50-100 ppm değerini görüş faktörünün ise 0.005-0.007 m-1 değerini aşmaması istenir. (PİARC ROAD TUNNELS: VEHİCLE EMİSSİONS AND AİR DEMAND FOR VENTİLATİON)
+
+TÜNEL HAVALANDIRMA SİSTEMLERİ
+
+DOĞAL HAVALANDIRMA
+
+Her tünel belirli oranda doğal havalandırmaya sahiptir. Bu durum tünelin iki portalı arasındaki basınç farkından, araçların piston etkisinden ve baca etkisinden kaynaklanmaktadır. Doğal havalandırmanın yetip yetmeyeceği trafik yoğunluğu, tünel uzunluğu ve meteorolojik şartlara bağlıdır. Kısa tünellerde, özellikle dağlık bölgeler rüzgarlıdır ve trafik yoğunluğu da sık değildir, dolayısıyla havalandırma kendiliğinden olur.
+
+Tatayema (Japonya) tüneli, 2100 m uzunlukta ve 2400 m yükseklikte trafik kapasitesinin sadece 24 araç/saat olduğu bir tüneldir ve doğal havalandırma vardır.
+
+MEKANİK HAVALANDIRMA
+
+Uygulamada 3 tip mekanik havalandırma kullanılır. Bunlar; boyuna havalandırma, yarı enine havalandırma ve enine havalandırmadır. Ayrıca bu sistemlerin bir arada kullanıldığı Mont Blanc tüneli (11.6 km; enine + yarı enine) gibi karışık sistemler de mevcuttur.
+
+Tünellerde asgari güvenlik kriterlerini belirleyen Avrupa Birliğinin 2004/54/EC Direktifine uyum kapsamında ülkemizde trafik hacminin şerit başına 2 000 motorlu taşıttan
+
+yüksek olduğu 1000 m'den uzun olduğu tüm tünellerde mekanik havalandırma sistemi tercih edilmektedir.
+
+BOYUNA HAVALANDIRMA
+
+Boyuna havalandırma en basit ve uzuz mekanik havalandırma yöntemi olup, hem temiz hava hem egzoz gazları tünel aksı yönünde hareket ederek tünelin bir ucundan girer, diğer ucundan çıkar. Burada rüzgar hızı, piston etkisi ve baca etkisine ek olarak jet fanların itki gücünden faydalanılır. Genelde jet fanlar iki yönde çalıştırılacak şekilde üretilirler.
+
+Boyuna havalandırmanın başlıca avantajları; basit olması, az enerji ihtiyacı göstermesi, bunların sonucunda az yatırımı ve işletme masrafını gerektirmesidir. Dezavantajı ise tünel uzunluğu ve trafik hacminin artmasıyla gerekecek fazla havanın sadece akış hızını arttırmak suretiyle temin edilebilmesidir.
+
+Şekil 39. Boyuna Havalandırma
+
+Tek yönlü tünelin işletmesinde trafiğin akış istikametinde 10 m/s' ye kadar hava hızına müsaade edilmektedir. Çift yönlü trafikte bu değer 5 m/s, özel hallerde 7 m/s'dir (1000 m tünel uzunluğu ile sınırlı).
+
+Tamamen boyuna havalandırma uygulanan bir tünelde yangın çıkması durumunda, yangının hızla yayılma riski vardır. Tünel boyunca meydana gelen kirlenme uniform bir şekilde artarak deşarj noktasında en yüksek sınır değerine ulaşır. Deşarj noktası doğal olarak tünelin ağzıdır. PİARC 2012R05EN standardında kabul edilebilir emisyon değerleri belirtilmiştir.
+
+YARI-ENİNE HAVALANDIRMA
+
+Yarı enine sistemler pratik ve ekonomik faktörleri uyumlu tarzda içerir. Temel özelliği tüm trafik alanının çıkış kanalı gibi kullanılmasıdır. Hava veriş kanalı boyunca havanın basıncı ve hızı azaldığından menfezlerden üniform hava verilebilmesi için menfez hesabı dikkatle yapılır. Tünel boyunca kirlenmenin üniform olduğu ve hava ile tam karıştığı kabul edilerek kirlenmenin dağılımının da sabit kalması beklenir.
+
+Şekil 40. Yarı Enine Havalandırma
+
+ENİNE HAVALANDIRMA
+
+Uzun tünellerin orta kısımları için tam enine havalandırma, tesis ve işletme masrafı yönünden engel teşkil etmezse ideal bir sistemdir. Gerekli hava, bir kanal içerisinden yol kotu seviyesinde çekilir. Havanın veriliş ve çekilişi tersine de yapılabilir. Bu şekilde trafik alanındaki hava hareketleri tünel uzunluğuna bir sınırlama getirmez, kirlenmenin toplanması da söz konusu değildir.
+
+Şekil 41. Enine Havalandırma
+
+Enine havalandırmada en büyük problem hem tesis hem de işletme maliyetidir. Enerji sarfiyatı, kanal uzunluğunun küpü oranında artar. Geniş alanları gerektiren hava kanallarının yapımı pahalı olması sebebiyle tercih edilmeyebilir. Ayrıca kanalların bakım ve temizlik problemleri de vardır. Enine havalandırma sistemleri, hava veriş ve çekiş menfezlerinin konumlarına göre yukarı, yanal v.b. şekilde adlandırılabilir.
+
+Tablo 5. Enine ve Yarı Enine havalandırma kullanılan karayolu tünelleri
+
+KARMA HAVALANDIRMA
+
+Özellikle uzun tünellerde, yukarıdaki sistemlerin birkaçının birleşimiyle oluşturulan sistemlerdir. Örneğin Alp Dağlarında yapılan ve 2016'da açılan, 56 km'lik uzunluğuyla dünyanın en büyük demiryolu tüneli Gotthard Base Tüneli yukarıdaki sistemlerin hep beraber kullanıldığı bir sistemdir. Aşağıdaki şematik gösterimde görüldüğü üzere tünelde 2 adet şaft ve iki ayrı havalandırma tüneli mevcuttur. Ülkemizde de yapımına devam edilen Ovit Tünelinde de boyuna havalandırmanın yanında havalandırma tüneli kullanılması
+
+TÜNELLERDE HAVALANDIRMA İHTİYACININ BELİRLENMESİ
+
+Tünellerde havalandırma tasarımında başlıca aşağıdaki faktörler; tünel uzunluğu, tüp sayısı, tüneldeki araç yoğunluğu ve emisyonları, tünelin konumu (şehir içi ya da dışı; koordinatları, arazinin deniz seviyesinden yüksekliği v.b.), tünelin bulunduğu alandaki meteorolojik koşullar (rüzgar hızı, hava sıcaklığı, tünelin yapısı, eğimi v.b. sayılabilir.
+
+Havalandırmanın ana elemanı jet fanlardır. Jet fan kapasitesi belirlenirken öncelikle taze hava ihtiyacı belirlenir. Burada CO, SO2, NO2 emisyonlarını ortadan kaldırabilecek şekilde ayrı ayrı gerekli taze hava belirlenir. Bunun yanında 30MW ve 100 MW (Tehlikeli Madde Taşımacılığı Olmayan) yangın yüklerinde oluşacak dumanın tahliyesi için de hesap yapılır. Maksimum gerekli debi böylece bulunur (Son yıllarda araç emisyonları azaldığı için yangın yüklerine göre yapılan hesap maksimum olmaktadır.) Gerekli taze hava debisi
+
+Taze hava ihtiyacını belirlemek için genelde PIARC 2012R05EN (ROAD TUNNELS: VEHİCLE EMİSSİONS AND AİR DEMAND FOR VENTİLATİON) kullanılırken, basınç kayıplarını yenebilecek jet fan adeti için CETU (JET FAN CALCULATİON PROCEDURE) kullanılmaktadır.
+
+3 boyutlu hesaplamalı akışkanlar mekaniği programları kullanılarak görsel ve sayısal olarak uygulama raporlanır ayrıca belirli aralıklarla deneysel olarak da kontrol yapılır.
+
+Havalandırma sistemi; KGM Teknik Şartnamesinde yazan aşağıdaki değerlere göre seçilmektedir. Avusturya Planlama Kılavuzu RSV' ye göre 3000 m'den uzun tünellerde enine havalandırma önerilmekte, PİARC 4000 m üzeri tünellerde boyuna havalandırmadan kaçınılmasını önermektedir. Yeni yapılan uzun tünellerde genelde olarak karma sistemler kullanılmaktadır.
+
+Tablo 6. KGM Teknik Şartnamesi Havalandırma Seçimleri
+
+EMİSYON DEĞERLERİNE GÖRE ANALİZ
+
+EMİSYON KAVRAMI VE TEMEL KİRLETİCİLER
+
+Kimyasal reaksiyonlar ve yakma prosesleri esnasında ortam havasına karışan tüm gaz ve partiküllere emisyon denir (Bacadan veya bir aracın egzozundan çıkan gazlar gibi).
+
+5 temel kirletici için hava kalitesi indeksi hesaplanmaktadır. Bunlar; partikül maddeler
+
+(PM10), karbon monoksit (CO), kükürt dioksit (SO2), azot dioksit (NO2) ve ozon (O3)dur.
+
+Not: Ülke genelinde hava kalitesi, 81 il ve birkaç ilçe merkezinde kurulan tam
+
+otomatik ölçüm istasyonları ile toplam 116 noktada izlenmektedir. Ölçüm istasyonlarından elde edilen verilere, Çevre ve Orman Bakanlığı web sitesinden (www.cevreorman.gov.tr, www.havaizleme.gov.tr ) ulaşılabilmektedir. Çevre ve Orman Bakanlığı'nın 81 ilde, Çevre ve
+
+Orman Müdürlükleri bulunmakta olup, bu Müdürlüklerden “Hava Kalitesi” konusunda bilgi
+
+alınabilir.
+
+Ülkemizde, motorlu taşıtlarda yakıt olarak benzin, motorin ve LPG, doğal gaz kullanılmaktadır. Bazı ülkelerde oksijenli yakıt türleri (metanol, etanol ve bu yakıtların türevleri) de kullanılmaktadır. Motorlu taşıtlar kullandıkları yakıt türüne göre atmosfere değişik kirleticiler bırakmaktadırlar. Gaz kirleticiler, karbon emisyonları (CO ve CO2), NOx ve HC'lar olurken, katı sayılabilecek yapıdaki kirleticiler ise partikül maddelerdir. Bu kirleticiler toksik (zehirli) özelliklere sahip olup fotokimyasal smog oluşumlarına ve istenmeyen meteorolojik şartlara sebebiyet verebilmektedirler. Bu önemli hava kirleticileri ile ilgili bazı özellikler aşağıda verilmiştir;
+
+Karbon ve Karbon Emisyonları: Karbon emisyonlarının en önemli iki bileşeni CO ve CO2 gazlarıdır. Normal koşullar altında CO gazı renksiz, tatsız, kokusuz ve kimyasal olarak inert olup ortalama atmosferik ömrü tahminen 2.5 aydır. Tüm insan kaynaklı hava kirleticilerinin yanında önemli bir yer tutan CO in toplam karbon emisyonu kütlesel olarak 1977'de ölçülmüştür. CO'nun yapılar, bitkiler ya da eşyalar üzerindeki etkisi çok azdır. 100 ppm konsantrasyonda bile CO'in bitkilere ve eşyalara herhangi bir zararlı etkisi tespit edilememiştir. Ancak kandaki oksijen transferinden sorumlu bileşik olan hemoglobinle kolay reaksiyon vermesi nedeni ile yüksek konsantrasyonlarda insanın aerobik metabolizmasına ciddi olarak etki yapar. CO, kandaki hemoglobin (Hb) ile reaksiyona girerek onu kanın oksijen taşıma kapasitesi çok daha düşük olan karboksi hemoglobin (COHb) şekline dönüştürür. Hemoglobinin karbonmonoksit ile olan afinitesi oksijenle olandan 200 defa daha fazla olduğundan, CO'in varlığı çok düşük konsantrasyonlarda bile olsa oksijenin kan içindeki iletimi önemli bir şekilde azalır.
+
+Azot Emisyonları: Atmosferin bileşiminde doğal olarak ve yüzde 79 oranında bulunan azot (N), canlı yaşamı için herhangi bir zararı olmadığı gibi, ekosistemde bitkiler için önemli bir yasam kaynağıdır. Hava kirliliği bakımından azot oksit (NOx) türleri, NO2 ve NO gazlarıdır. Azot oksitleri (NOx), Azot ve Oksijenin oluşturabileceği bir çok bileşikten meydana gelmektedir. NO2 Ozon (O3) gibi ikinci derece hava kirlilikleri üzerinde önemli bir rol oynar. Azot monoksit (NO) atmosfere NO2 den çok daha fazla miktarlarda yayılır. NOx'ler asit yağmurlarının oluşmasında ve fotokimyasal smog olayında önemli rol oynamaktadır. Ayrıca benzin ve öteki yakıtların yanması sonucu meydana gelen NO2gazları, güneş ışığının etkisiyle ozon (O3) oluşumuna neden olurlar ve bu olay foto kimyasal smog olarak adlandırılmaktadır.
+
+Sağlıklı insanların çok yüksek NO2 konsantrasyonlarına kısa süre dahi maruz kalmaları şiddetli akciğer tahribatlarına yol açabilir. Kronik akciğer rahatsızlığı olan kişilerin ise bu konsantrasyonlara maruz kalmaları akciğerde kısa vadede fonksiyon bozukluklarına yol açabilir. NO2 konsantrasyonlarına uzun süre maruz kalınması durumunda ise buna bağlı olarak solunum yolu rahatsızlıklarının ciddi oranda arttığı gözlenmektedir.
+
+Hidrokarbonlar: Atmosferik koşullarda hidrokarbonların canlılar ve eşyalar üzerinde her hangi bir toksik etkisi doğrudan saptanmamıştır. Ancak, hidrokarbon üretilen ve kullanan endüstrilerde yapılan araştırmalarda 25 ppm Hidrokarbon bulunan bir hava ortamında her hangi etki saptanmazken, 500 ppm benzen bulunan bir çalışma ortamında insanlar ancak 1 saat dayanabilmektedir. 600 ppm toluen bulunan bir atmosferde ise insan 8 saatte zehirlenmektedir. 7500 ppm benzen bulunan bir atmosferde insanların 1 saat içinde, 20000 ppm Benzen konsantrasyonunda ise 10-15 dakikada öldüğü tespit edilmiştir. Diğer taraftan, hidrokarbonların atmosferde oluşturdukları oksidanlar hem eşyalara, hem de canlılara doğrudan etki etmektedir.
+
+EMİSYON DURUMUNA GÖRE GEREKLİ TAZE HAVA DEBİSİNİN HESAPLANMASI
+
+Havalandırma hesaplarına başlarken ilk olarak tünele ait bilgiler dikkate alınmalıdır. Trafik planlamacıları ile birlikte çalışılarak aşağıdaki ana hususlar belirlenmelidir;
+
+Tek ya da çift yönlü trafik: Emisyon tahminlerini yapabilmek açısından trafiğin tek ya da çift yönlü olduğu bilinmelidir. Ayrıca bakım periyodları ve tünellerin kapatılma ihtiyaçları da buna göre planlanmalıdır.
+
+Dizayn yılı: Tünel havalandırma sistemleri için dizayn yılı genellikle tünelin trafiğe açıldığı seneye göre belirlenir. Ancak havalandırma planlanırken 10 yıl sonrasına oluşacak trafik yoğunluğu ve araç emisyon değerleri düşünülmelidir.
+
+Trafik yoğunluğu: Trafik yoğunluğu tünel operasyonları için ana parametredir. Şerit başı pik trafik saatleri ve yoğunluğu, araç kompozisyonu gibi faktörler direkt olarak havalandırmayı etkiler. Denklem 1 yardımıyla şerit başı trafik yoğunluğu hesaplanabilir.
+
+Dpcu (pcu/km) = Dveh (veh/km) x [ [1 - (a/100)] + [ (a/100) x (2 ya da 3) ] ]
+
+DPCU (pcu/km) = km'deki şerit başı trafik yoğunluğu
+
+DvEH (veh/km) = km'deki şerit başı araç sayısı
+
+a = Araç yüzdeleri (2 ya da 3 ile çarpılması otobüs ve ağır yük taşıtlarının otomobil sınıfına dönüştürülmesi ile ilgili)
+
+Yoğun trafik ve duran trafik: Araç hızının yaklaşık 10 km/saat seviyelerine düştüğü ve trafiğin durduğu bölümdür. Trafiğin özellikle uzun tünellerde tamamen durduğu durumlara göre hesaplar yapılarak havalandırma sistemi seçilmelidir.
+
+Trafik hızı: Tünel içi trafik hızları genelde yönetmeliklerle kısıtlanır. Tünelin eğim değerleri özellikle ağır taşıtlarda hızların düşmesine neden olur. Bununla ilgili PİARC yayınlarında aşağıdaki tablo önerilmektedir. Burada 1994 ve daha eski üretimli araçlar için alt değerler kullanılmalıdır. Pik trafik hızları ile ilgili değerler tabloda verilmiştir.
+
+Tablo 7. Eğime Bağlı HGV Araç Hızları
+
+ORTALAMA PİK TRAFİK VERİLERİ
+
+Tablo 8. Ortalama Hıza Bağlı Trafik Yoğunluğu Verileri
+
+Araç çeşitleri: Emisyon hesapları için trafikte bulunan araçların yoğunluklarını büyüklüklerine göre gruplamak gerekmektedir. Normal binek araçlar, hafif yük araçları (3,5 tona kadar) ve ağır yük araçları olarak gruplandırma yapılabilir. Ayrıca emisyon değerlerinin saptanması açısından bu araçların kullandığı yakıt türüne göre de gruplandırılması gerekir. Bunlarla ilgili standartlar ve öneriler PİARC yayınlarında bulunmaktadır.
+
+Emisyon kuralları: Emisyonlarla ilgili ülkeden ülkeye uygulamalar değişmektedir. Tünel içerisinde müsaade edilebilir zararlı gaz emisyonları belirtilmiştir. Genel olarak CO emisyonları referans olarak alınır. Dizel yakıt kullanan araçlarda da görüş faktörü önemli parametredir. Bazı ülkelerde NO2 değerleri içinde tünel içi hava kalitesini belirleme noktasında eşik değerler belirlenmiştir. Bu kirletici değerleri belirlenirken aracın tünelden geçişi sırasında insan sağlığına etkileri zamana bağlı olarak belirlenmiştir. Partikül maddelerin varlığı da tünel içinde görüş mesafesini etkilediği için havalandırma hesaplarında önemli parametrelerdendir. Partikül madde yanma sonucu ortaya çıkan egzoz gazlarından ve araçların tekerleri, frenlemeleri, asfalttaki yüzey aşınımı ve tozlar nedeniyle oluşan egzoz gazları dışındaki maddelerden oluşur.
+
+WHO (Dünya Sağlık Örgütü) önerilerine göre CO emisyonlarının 100 ppm değerini geçmemesi istenmektedir. Aşağıdaki tabloda değişik trafik durumları için izin verilebilir CO değerleri verilmiştir.
+
+CO DEĞERLERİ VE GÖRÜŞ FAKTÖRÜ İÇİN DİZAYN VE EŞİK DEĞERLERİ
+
+* Uluslararası çalışmalar sonucu belirlenmiştir.
+
+** Bu değer sadece tünel işletme koşullarıyla ilgilidir.
+
+Tablo 9. CO ve Opaklık İçin Eşik Değerleri
+
+Tünellerin mekanik havalandırmasını hesaplarken minimum hava değişim oranı dizayn aşamasında belirlenmelidir. Eğer trafik hacmi düşükse taze hava gereksinimi düşük olabilir. Genel olarak uluslararası yayınlarda minimum saatte 4 hava değişimi önerilmektedir. Boyuna havalandırma kullanılan tünellerde dizayn kriteri olarak hava hızının 1- 1,5 m/s olması önerilmektedir.
+
+Hava gereksinimi hesaplanırken araçların özelliklerine göre değişen emisyon oranı tablolarından yararlanılır. Çoğu ülkenin bu konuda oluşturduğu standartlardan yola çıkılarak hazırlanan ve ortalama referans değerleri veren PİARC 2012R05EN tabloları aşağıda verilmiştir.
+
+Gerekli taze hava miktarı; tüneldeki araç sayısı, araçların dağılımları, her bir araç türünün emisyon değerleri, sağlık yönünden izin verilebilir emisyon değerleri ve ortamın hava koşullarına bağlı olarak değişmektedir.
+
+Tünel içindeki araç sayısını belirlemek için aşağıdaki formül kullanılmaktadır;
+
+v= 0 km /saat için;	nveh = D0 x L
+
+nveh = Tünel içindeki araç sayısı v= Araç hızı (km/saat)
+
+D0 = Trafik yoğunluğu (pcu/km)
+
+L= Tünel uzunluğu v > 10 km/saat için Tablo 4 kullanılır.
+
+Taze hava ihtiyacını hesaplayabilmek için her bir kirletici faktörünün oluşturduğu hacimsel debiler bulunarak bunları bertaraf edebilecek toplam havalandırma debisi bulunmalıdır. Aşağıdaki denklemler yardımıyla bu işlemler yapılır;
+
+_ X. (nveh x Q) x [1 / (Cadm - Camb)]
+
+Partikül maddeler ve dizel dumanı için (Cadm - Camb) yerine Kadm kullanılır.
+
+*3
+
+= Hava debisi (m /saat) nveh = Tünel içindeki araç sayısı
+
+2
+
+Q = Emisyon değeri; CO ve NOx için (g/(h.veh)) , partikül madde için (m /h.veh))
+
+3
+
+Cadm = İzin verilen konsantrasyonu (g / m )
+
+3
+
+Camb = Ortamdaki konsantrasyonu (g / m )
+
+Kadm = Kabul edilebilir duman yok olma oranı (1 / m-1 )
+
+Örneğin CO emisyonlarını bertaraf etmek için gereken hava miktarı;
+
+V CO=Z[(nPC x QPCCo)+(nLDV x QLDVCo)+(nHGV x QHGVCo) ] x [1 / (Cco,adm - Cco,amb)]]
+
+eşitliğiyle hesaplanır. Burada;
+
+*3 V Co= Co emisyonunu yok etmek çin gereken hava debisi (m /saat)
+
+n PC, LDV, HGV = Tünel içerisindeki araç sayısı
+
+QPCCo = Otomobiller için CO emisyon değeri (g/(h.veh))
+
+3
+
+CCo,adm =İzin verilen CO konsantrasyonu (g / m )
+
+3
+
+CCo,amb = ortamdaki Co konsantrasyonu (g / m )
+
+Emisyon değerleri genelde saatlik verilmektedir. Bu değer araç hızına bölündüğünde
+
+km'deki emisyon miktarına ulaşılır. Daha sonra yoğunlukla çarpılarak debi değerine ulaşılır.
+
+3 3
+
+Ortalama atmosfer koşullarında ; pCO = 1,2 kg/ m , pNO2 = 1,9 kg/ m alınır. Partikül madde
+
+2
+
+dönüşümlerinde 1g = 4,7 m alınır.
+
+Aşağıda; hesaplarda geçen bazı katsayıların tanımları yapılmıştır.
+
+Yükseklik faktörü fh; motor tipine ve egzoz bileşenlerine göre değişmektedir. Deniz seviyesinden 1000 m yükseklikte bu katsayı 1 alınır. Tablolarda 2000 m yükseklik için emisyon değerleri referans olarak alınır. Özellikle katalitik konvertörlü araçlar için bu katsayı farklılık gösterebilir.
+
+Zaman faktörü ft; 2010 yılı araç emisyon değerleri temel alınarak buna göre ileriki yıllarda alınacak sıkı önlemler neticesinde araç emisyonlarında meydana gelebilecek değişiklikler göz önüne alınarak hesaba katılan bir katsayıdır.
+
+Ağır yük taşıyan araçların kütle faktörü fm; HGV araçlarla ilgili olan bu katsayı yüklü ya da boş ağırlığı yaklaşık 23 ton referans değeri alınarak hesaba katılan bir katsayıdır.
+
+Otomobiller (PC) ve Hafif Yük Taşıyan Araçlar (LDV) İçin Emisyon Değerlerinin Hesaplanması:
+
+Hesaplamalar benzinli ve dizel otomobiller ve hafif yük taşıyan araçlar için ayrı ayrı yapılır. Aşağıdaki denklem uygulanır.
+
+Q = qex (v,i) * fh * ft * fe + qne (v) denklemi kullanılır. Burada;
+
+2
+
+Q = Emisyon değeri; CO ve NOx için (g/(h.veh)) , partikül madde için (m /h.veh))
+
+qex (v,i) = 2010 yılı baz alınarak hesaplanan PC/LDV için benzinli ve dizel olma durumuna göre, yolun eğimi ve ortalama hızlara göre tespit edilen emisyon faktörleri (g/(h.veh)) ya da (m/ h.veh))
+
+2
+
+qne (v) = Egzoz kaynaklı olmayan partikül madde emisyon faktörü (m / h.veh))
+
+fh = Yükseklik faktörü
+
+ft = Zaman faktörü (Dizayn senesinden sonrası) fe = Değişen teknolojilerden kaynaklanan faktör
+
+Ağır Yük Taşıyan Araçlar ve Otobüsler İçin (Dizel) (HGV) Emisyon Değerlerinin Hesaplanması:
+
+Q = qex (v,i) * fh * ft * fe * fm + qne (v) denklemi kullanılır. Burada;
+
+2
+
+Q = Emisyon değeri; CO ve NOx için (g/(h.veh)) , partikül madde için (m /h.veh))
+
+qex (v,i) = 2010 yılı baz alınarak hesaplanan HGV için (dizel araçlar) yolun eğimi ve 2
+
+ortalama hızlara göre tespit edilen emisyon faktörleri (m / h.veh))
+
+fm = Araç ağırlığından kaynaklanan faktör
+
+TABLE 6 -BENZİNLİ OTOMOBİLLERDE (P.C.) CO EMİSYONU İÇİN TEMEL DEĞERLER (EC EURO DÜZENLEMESİ)
+
+Tablo 10. Benzinli Otomobillerde CO Emisyon Değerleri
+
+Tablo 11. Benzinli Otomobillerde NOX Emisyon Değerleri
+
+TABLE 8 - DİZEL OTOMOBİLLERDE (P.C.) CO EMİSYONU İÇİN TEMEL DEĞERLER (EC EURO DÜZENLEMESİ)
+
+Tablo 12. Dizel Otomobillerde CO Emisyonu Değerleri
+
+Tablo 13. Dizel Otomobillerde NOX Emisyonu Değerleri
+
+TABLE 10 - DİZEL OTOMOBİLLERDE (P.C.) EGZOZ PARTİKÜLLERİ (OPAKLIK) İÇİN TEMEL DEĞERLER (EC EURO DÜZENLEMESİ)
+
+Tablo 14. Dizel Otomobillerde Egzoz Partikülleri İçin Temel Değerler
+
+Tablo 15. Otomobiller İçin Zaman Faktörü (A)
+
+TABLE 12 - OTOMOBİLLER İÇİN (P.C.) YÜKSEKLİK FAKTÖRÜ (FH) TECHNOLOGY STANDARD A
+
+Tablo 16. Otomobiller İçin Yükseklik Faktörü (A)
+
+TABLE 13 - DİZEL VE BENZİNLİ HAFİF YÜK ARACI (LDV) ORANI, TECHNOLOGY STANDARD A
+
+Pe ı ce ntage LDV (ave rage 2010 - 2030)
+
+Tablo 17. Hafif Yük Araçları Yakıt Kullanımına Göre Oranları
+
+Tablo 18. Hafif Yük Araçlarında CO Emisyonu İçin Temel Değerler
+
+TABLE 15 - BENZİNLİ/DİZEL HAFİF YÜK ARAÇLARINDA (LDV) NOX EMİSYONU İÇİN TEMEL DEĞERLER (EC EURO DÜZENLEMESİ)
+
+Tablo 19. Hafif Yük Araçlarında NOX Emisyonları İçin Temel Değerler
+
+Tablo 20. Hafif Yük Araçlarında Egzoz Partikülleri İçin Temel Değerler
+
+Tablo 21. Hafif Yük Araçları İçin Zaman Faktörü (A)
+
+Tablo 22. Ağır Yük Araçları İçin CO Emisyon Değerleri
+
+Tablo 23. Ağır Yük Taşıtları İçin NOX Emisyonu Değerleri
+
+TABLE 20 - DİZEL AĞIR YÜK TAŞITLARI PARTİKÜL MADDE (OPAKLIK) İÇİN TEMEL DEĞERLER (EC EURO DÜZENLEMESİ)
+
+Tablo 24. Ağır Yük Taşıtları İçin Partikül Madde Emisyon Değerleri
+
+TABLE 21 -KÜTLE FAKTÖRÜ (FM)
+
+Tablo 25. Ağır Yük Taşıtları İçin Kütle Faktörü
+
+Tablo 26. Ağır Yük Araçları İçin Zaman Faktörü (A)
+
+Tablo 27. Teknoloji Grubu B İçin Dönüşüm Faktörü
+
+TABLE 24 - TECHNOLOGY STANDARD GROUP C İÇİN DÖNÜŞÜM FAKTÖRÜ
+
+Tablo 28. Teknoloji Grubu C İçin Dönüşüm Faktörü
+
+Tablo 29. A,B,C Standardı Seçim Kriteri
+
+Tablo 30. Teknoloji Grubu B İçin Yükseklik Faktörü
+
+TABLE 27 - FACTORS FOR PM2 5 NON-EXHAUST EMISSIONS [13]
+
+Tablo 31. Egzoz Dışı PM2,5 (Partikül Madde) Faktörleri
+
+Tablo 32. Egzoz Dışı Emisyonlar İçin PM2,5 ve Görüş (Opaklık) Faktörleri
+
+YANGIN DURUMUNA GÖRE ANALİZ ve ACİL DURUM HAVALANDIRMASI
+
+Avrupa karayolu tünellerinde yaşanan tünel kazalarında oluşan ağır kayıplar neticesinde tünellerde yangın güvenliği ve havalandırma konusu önem kazanmıştır. Aşağıdaki tabloda oluşan bazı tünel yangınları sonucu meydana gelen kayıplar listelenmiştir.
+
+Avrupa'da oluşan tünel kazaları sonucundaki hasarların maliyeti 210 milyon Euro/yıl olarak açıklanmıştır.
+
+Tünellerin kapanmış olmasından kaynaklanan dolaylı maliyetlerin ekonomiye etkisi büyüktür. 1999 Mont-Blanc tüneli kazası sonucu, sadece İtalya için bu miktar yıllık 300- 450 milyon Euro arasındadır.
+
+Konu ile ilgili hassasiyet üzerine karayolu tünellerinde çeşitli uluslararası kuruluşlar aracılığıyla bazı düzenlemeler getirilmiştir. Bunlardan havalandırma ve yangın güvenliği konusunda referans olarak alınan kaynaklar aşağıda listelenmiştir.
+
+S Avrupa Parlamentosu ve Konseyi'nin 29.04.2004 tarih ve 2004/54/EC sayılı "Trans-
+
+Avrupa Karayolu Ağı Tünelleri İçin Minimum Güvenlik Gereksinimleri",
+
+S PIARC Tünellerde Yol Güvenliği (1995)
+
+S Avusturya Planlama Kılavuzu (RVS.9.281, RVS.9.282, RVS.9.261, RVS.9.262)
+
+S UNECE-Karayolu Tünelleri Uzmanlar Grubu'nun Tavsiyeleri Nihai Rapor S Tüneller İçin Acil Durum Tesisleri Şartnamesi (Japonya, 1997)
+
+S CETU-Fransa Tünel Çalışmaları Merkezi S NFPA
+
+S 2012 R05EN PİARC Karayolu Tünellerinde Araç Emisyonları ve Havalandırma
+
+İhtiyacının Tespiti Komisyon Raporu v.b.
+
+Yangın başlamasından sonra yangın algılama ve trafiğe müdahale önemlidir. Hesaplar yapılırken yangın başladıktan sonra kaç dakika daha araçların tünel içine gireceği tünel güvenlik sistemlerine göre saptanmalıdır. Hava hızına göre (önerilen 3 m/s'den düşük
+
+Yapılan hesaplamalar sonucunda kirleticiler ve yangın durumu için gerekli taze hava ihtiyacı en yüksek değer seçilerek belirlenir. Burada önemli olan yangın sonucu oluşacak kritik hızın belirlenmesi ve fan seçimine geçildiğinde bu kritik hızı aşabilecek özelliklerde havalandırma sistemi seçebilmektir.
+
+Avusturya Graz'da yapılan tünel içi yangın testleri sonucunda oluşturulan raporda binek otomobillerin tamamen yanması sonucu 30 MW' lık enerji açığa çıktığı, ağır yük taşıyan araçların kabin yangınlarında ise bu değerin 100 MW'ı bulabileceği belirtilmiştir. Tehlikeli Madde Taşımacılığı olmayan tünellerde genel olarak yangın hesapları yapılırken 100 MW seçimi yapılır. Tehlikeli Madde Taşımacılığı söz konusu ise bu rakamın 200 MW seçilmesi önerilmektedir.
+
+1968 yılında yapılan bir çalışma sonucu tünel içerisinde çıkan yangınlarda Fourier Sayısının sabit kaldığı saptanmıştır. Buradan yola çıkılarak aşağıdaki formüller kullanılarak ve birlikte çözülerek kritik hız ve sıcaklık değerleri hesaplanır.
+
+u ( atalet kuvveti Fr = -j= = f
+
+yjgD yerçekim kuvveti
+
+eşitlikleri kullanılarak kritik hız ve kritik sıcaklık değerleri saptanır.
+
+Çok büyük enerjiler açığa çıktığı için bunların ortaya çıkarılması ve birebir testlerinin yaptırılması çoğu zaman mümkün değildir. Bu sebeple üç boyutlu analiz programları kullanılarak yapılan matematik hesaplara uygun senaryoların işletilmesi sonucu durum tespitleri yapılabilmektedir. Yapılan çalışmalarda seçilen büyüklükteki yangına göre sınır değerleri belirleniyor ve tünel içi sıcaklık dağılımı, hız dağılımı, duman (görüş) tahliye durumu tespit edilebilmektedir. Aşağıda bu konu da yapılan bir çalışmanın özeti sunulmuştur.
+
+Örnek Tez Çalışması: CFD APPLICATION OF A METRO TUNNEL FİRE SAFETY AND EMERGENCY VENTİLATİON SYSTEMS (Marmara Üniversitesi-Ahmet Serdar TOPRAK-2014)
+
+Bu tezde, Kadıköy-Kartal Metro Hattı'nın belirli istasyonları arasında konumlanmış olan makas tünelinde oluşabilecek bir yangın Pyrosim 2014 (FDS 6.0.1, SMV 6.1.5) programı kullanılarak analiz edilmiştir.
+
+Yapılan analizlerde jet fan kapasitesi 40-50 ve 60 m3/h seçilerek sonuçlar karşılaştırılmıştır.
+
+Sonuçlara göre görüş açıklığı yönünden 40 m3/h'lik kapasitenin tercih edilmemesi, 50 ve 60 m3/h' lik kapasitenin ise yeterli olabileceği sonucuna varılmıştır.
+
+Tüm kapasitelerde hava hızı ile ilgili problem olmadığı saptanmıştır.
+
+Sıcaklık dağılımı ve duman tahliyesi yönünden sadece 60 m3/h ‘lik kapasitenin yeterli olabildiği, diğerlerinin ihtiyaçları karşılamadığı belirlenmiştir.
+
+Şekil 45. Çalışmanın Yapıldığı Tünelin Kesit Görüntüsü
+
+Şekil 46. Değişik Jet Fan Debilerinde Tünel İçi Duman Dağılımının Gösterimi
+
+Jetfaııs:âO ın’/s dikey kesit, görüş yoğunluğu
+
+Jet&ns:50 mVs yatay kesit, hız dağılımı
+
+JetfanszöO nr/s dikey kesit, hız dağılımı
+
+a	o	d	a	o	a	o	o	a	o	a
+
+.İl	en	cq	r-;	a?	m	*r	■ ■	ph	.	o
+
+v E	cn	sn	r--	■xı	ın	m-	rn	p-i	•■—	o
+
+JetfansöO mVs yatay kesit, hız dağılımı
+
+Jelfans:50ın3/s dikey kesit, sıcaklık dağılımı
+
+Şekil 49. Değişik Jet Fan Debilerinde Tünel İç Sıcaklık Dağılımı
+
+JET FAN HESAPLAMA PROSEDÜRÜ
+
+Yapılan hesaplamalar sonucunda kirleticiler ve yangın durumu için gerekli taze hava ihtiyacı en yüksek değer seçilerek belirlenir. Bu talebe göre fan ve sistem seçimi yapılır.
+
+Jet fanın görevi önündeki basıncı yenerek gerekli havayı sağlamaktır. Bu sebeple jet
+
+fan özelliklerini ve adetini belirleyebilmek için öncelikle sistemde meydana gelen maksimum
+
+basınç kayıplarını belirlemek ve bunları yenebilecek itki gücünü hesaplamak gerekmektedir.
+
+Genel olarak denge denklemi aşağıdaki gibidir;
+
+nj * Apj = Apveh + Aptu + ApMT+ Apflre + Apth olarak verilir. Burada;
+
+nj = Jet fan adedi
+
+Apj = Bir jet fanın basıncı
+
+Apveh = Tüneldeki durgun trafikten kaynaklanan basınç kaybı
+
+Aptu = Tünel girişindeki, çıkışındaki ve duvarlardaki sürtünmeden oluşan basınç kayıpları
+
+ApMT = Meteorolojik etkilerden kaynaklanan basınç yükselişi ve düşüşü Apth = Termostatik etkilerden kaynaklı basınç düşüşü ya da yükselişi
+
+Jet fan itme kuvveti de aşağıdaki denklem yardımıyla bulunur;
+
+Fj = Apj * At = n *	* P * Qj * (Uj - u*) denklemiyle bulunur. Burada;
+
+FJ = Tek bir fanın itme kuvveti Apj = Bir jet fanın basıncı
+
+nı = Jet fan verimi
+
+= Duvar sürtünmesi etkinlik verimi
+
+n3 = Jet fanların beraber çalışma verimliliği
+
+p = Jet fanın uzaklaştırdığı hava ya da dumanın yoğunluğu
+
+Qj = Jet fanın akışı
+
+uj = Jet fan akışkan çıkış hızı
+
+u* = Tünel içi duman ya da hava hızı
+
+AT = Tünel kesit alanı
+
+Jet fan adedi belirlenirken asıl faktör yangın durumudur. Yangının tünel içinde çıktığı yere göre yukarıdaki etkiler değişmektedir. Örneğin; yangın tünel girişlerine yakın bir yerde çıktıysa araçların önemli bir etkisi olmaz. Yangın tünel çıkışına doğru ise yangının akışının bir etkisi olmamaktadır. Baca etkisi yolun eğimi yukarıya doğru ise pozitif, aşağıya doğru ise negatif olmaktadır. Kısa tünellerde rüzgâr etkisi ve meteorolojik etkiler önemli iken uzun tünellerde duvar sürtünmesi daha önemlidir.
+
+Yangın yüksek sıcaklıklarda duman oluşumuna neden olur. Jet fanların verimi ve basınç kayıpları yangının durumuna göre değişmektedir. Hava sıcaklığı arttıkça jet fanın itki kuvveti azalmaktadır. Sıcak havanın tahliye hızı tünel içine giren temiz hava hızından daha fazladır ve ilgili basınç kayıpları daha yüksek olur. Jet fan sistemini seçebilmek için yangın sonucu oluşacak sıcaklığı belirlemek gerekmektedir.
+
+Yangın sonucu oluşacak sıcaklığı saptamak için; yangının yerini, ısı kayıp oranını, karşı akış sıcaklık ve hızını bilmek gerekmektedir. Tünel duvarlarındaki ve havada oluşabilecek termal değişimler saptanmalıdır. Bunun için genellikle 3D yazılımlar kullanılmaktadır. Termal kayıplar, tünel duvarlarındaki radyasyon ve tünel içindeki hava akışından kaynaklı taşınım ve iletim kayıplarıdır. Belirli bir tünel kesit alanındaki ortalama hava/duman sıcaklığı aşağıdaki denklemle hesaplanmaktadır;
+
+T = T0 + [(2/3 * Q) / (p0 * cp * AT * u*0)] Burada;
+
+p0, T0 ve u0 ortamdaki yoğunluk, sıcaklık ve hava hızı değerleridir (ilk değerler).
+
+Konveksiyondan kaynaklı ısı akısı ise aşağıdaki denklemle elde edilir;
+
+^conv = qconv / (P*L) = hc * (T-TwaU) Burada;
+
+qconv = Özgül ısı konveksiyon hızı
+
+P= Tünel kesitinin çevre uzunluğu
+
+L = Hesaplanan tünel kesit uzunluğu
+
+hc = Isı taşınım katsayısı
+
+hc = [ (Â/8) * cp * p * u* ] / [ 1.07 + 12.7*(Pr2/3 - 1)* (A/8)1 2 ]
+
+Burada varyasyon faktörü cp ve Prandtl sayısı Pr , duvar pürüzlülük katsayısı ise k’dır.
+
+Radyasyondan kaynaklı ısı akısı ise;
+
+Orad = qrad / (P*L) = £ *	* F * (T4-T4Wall)
+
+£ = duvar ısı emisyonu; genelde 0.7 seçilir.
+
+c0 = Stefan Boltzman sabiti (5,68 x 10-8 W/m2K4)
+
+P= Tünel kesitinin çevre uzunluğu
+
+L = Hesaplanan tünel kesit uzunluğu
+
+F = Duvar ve duman arasındaki şekil ve görüş faktörü, yaklaşık F=1
+
+qrad tekrar denklemlerden çekilerek yazılırsa;
+
+qrad = hr * P * L * (T - To ) ; hr = £ * O0 * (T + To)* (T2 +T4o)
+
+Isı akısına bağlı tünel boyunca (AL uzunlukta) sıcaklık düşüşü ise;
+
+5T / 5x = - [ P * (hc - hr) * (T-Twall) ] / [p0 * cp * AT * u*0 ] olarak bulunur. Duvar sıcaklığı ilk olarak x=0'da ortam sıcaklığı kabul edilir.
+
+Dinamik basınç eşitliğinden (hava hızına bağlı) kütlesel debi bulunabilir;
+
+(A) * p * u2 = (A) * (M* / At) * u; M*= p * u * At
+
+Apveh; yangın durumunda genel olarak yangına ters yönde trafik akışı durdurulduğu
+
+için ihmal edilebilir. Sadece duman yönünde akan trafik için hesaba dahil edilir.
+
+Tünelin fiziksel özelliklerinden kaynaklanan Aplu basınç kayıpları aşağıdaki gibidir;
+
+Aptu = Apentrance + Apwalls + Apexit
+
+Girişte taze hava yangına karşı hareket ederken daha sonra yayılan duman yönünde hareket eder. Bu sebeple duman yönünde duvarlarda ve çıkışta basınç kayıpları artar. Yoğunluk ve hız üzerine sıcaklık yükselişinden kaynaklanan etkiler nedeniyle duvarlarda oluşan basınç kaybını herhangi bir AL uzunluğu boyunca;
+
+Apwall, akış yönünde = k * (L/Dh) * (A) * po * U02 * (T/ To) formülüyle hesaplanır. L uzunluğu boyunca sıcaklığın aynı kaldığı kabul edilir.
+
+Tünel çkışındaki basınç kaybı ise;
+
+Apexit = (A) * p0 * u02 * (T/ T0) eşitliğiyle hesaplanır.
+
+Yangından dolayı oluşan basınç kaybı Apfire 30 MW'a kadar yangınlarda 10-20 Pa, 200 MW'a kadar yangınlarda 40-100 Pa arası değişmektedir.
+
+AL uzunluğu boyunca baca etkisinden dolayı oluşan basınç düşüşü ya da yükselişi aşağıdaki şekilde hesaplanır;
+
+Apth,baca = - (p0 / p) * g * d * L
+
+Burada d; yolun + ya da - eğim gradyantını göstermektedir.
+
+Yangın nedeniyle sıcaklık yükselmesinden kaynaklı hava-duman karışımının yoğunluğu düşer, hız ise artar. Buda jet fan itiş gücünü etkiler. Örneğin 20 0C ortam sıcaklığında, çıkış hızı 35 m/s olan 500 N itki kuvveti olan bir jet fan tünel içinde 5 m/s hava hızı oluştursun. Sıcaklık 400 0C olduğunda havanın yoğunluğu;
+
+p = (273+20) / (273+400) * 1.2 kg/m3 = 0.74 kg/m3 olur.
+
+*
+
+Düşük yoğunluktan dolayı hava hızı da; u = 1/0.74 * 5 m/s = 6.75 m/s olur. Jet fan çıkış hızı 35 m/s'de kaldığı için jet fan itiş kuvveti %50'lere yakın oranda azalır. Bu sebeple jet fanların dizilişi önem arz etmektedir.
+
+Jet fanların sıcaklık dayanımları da önemli bir özelliktir. Genel olarak aşağıdaki tabloda görüleceği üzere 250-400 0C arasında 1 -1,5 saate kadar dayanacak şekilde imal
+
+edilirler.
+
+Fanların yerleşimi de önemlidir. Özellikle bakım sırasında trafiğe olacak etkiyi azaltmak için 3 şeritli otoyollarda 3 fan, 2 şeritli yollarda şerit başlarına 2 fan konarak fan yerleşimi yapılır. Ancak bu çalışmaların bilgisayar destekli programlarla analizlerinin yapılması gerekmektedir.
+
+Şekil 50. Üç Şeritli Bir Yolda Jet Fanların Diziliş Örneği
+
+ÖRNEK HAVALANDIRMA HESABI ÇALIŞMASI
+
+Bu bölümde kırsalda yapılan ve trafik yoğunluğunun fazla olmadığı bir tünelde boyuna havalandırma seçildiği takdirde gerekli jet fan sayısının ve özelliklerinin nasıl belirleneceği anlatılacaktır.
+
+Örnek olarak alacağımız tünelin özellikleri aşağıda verilmiştir. Tünel eğimi aşağı ve yukarı yönlü % 3,2'dir
+
+Şekil 51. Tünel Bilgileri
+
+Trafik tahminleri ve veriler ilgili yol için 2030 yılı baz alınarak aşağıda listelenmiştir.
+
+PİARC raporlarında önerilen trafiğin durduğu 0 km/h, sıkışık olduğu 10 km/h ve akıcı olduğu 60 km/h verileri kullanılarak Tablo 4 referans alınarak tahmini trafik yoğunlukları çıkarılarak aşağıda listelenmiştir. Listede “P.C.” otomobilleri, “LDV” hafif yük araçlarını, “HGV” ağır yük araçlarını temsil etmektedir.
+
+Şekil 53. Trafik Yoğunlukları
+
+Minimum Taze Hava Talebi Hesabı: Önceki konuda anlatılan aşağıdaki formüller
+
+kullanılarak emisyon değerleri hesaplanır.
+
+Örneğin 10 km/h trafik hızı, pozitif eğimli tünel (%3,2) de benzinli binek otomobiller için CO emisyonlarını bertaraf edecek hava miktarı aşağıdaki şekilde hesaplanır:
+
+Tablo 6 yardımıyla görülen değerlerden yaklaşımla benzinli binek araçlarda Teknoloji A grubu emisyon değeri qpcCO = 34,2 g/h,araç bulunur. (+ % 3,2 eğim için)
+
+Biz de Euro 5 araç yoğunluğu yeterince fazla olmadığı için hesaplarda Teknoloji B grubu kullanılmaktadır. Bu sebeple bulunan emisyon değerini bu sınıfa uygun hale getirmek gerekmektedir. Önceki konuda anlatılan aşağıdaki formül yardımıyla ilgili tablo değerleri kullanılarak benzinli binek araç başına CO miktarı bulunur.
+
+Böylece tablo değerleri kullanılarak benzinli binek araç için 10 km/h trafik hızında üretilen emisyon değeri QpcCO = 62,524 g/h,araç bulunur.
+
+Başta verilen formülden sadece CO için olan kısmı hesaplanırsa;
+
+Emisyon Hesabı Formülleri
+
+Qco= (npc x Qep c ) x (1/AC) x (1/pco)
+
+Qco... = Hava debisi (m3/saat)
+
+n pc= Tünet içerisindeki araç sayısı
+
+Qpcco = Otomobiller için CO emisyon değeri (g/(h.veh))
+
+Cco,adm =lzin verilen CO konsantrasyonu (g / m3 )
+
+Cco.amb = Ortamdaki CO konsantrasyonu (g / m3 ) (0,3 ppm)
+
+Emisyon değerleri genelde saatlik verilmektedir. Bu değer araç hızına bölündüğünde km'deki emisyon miktarına ulaşılır. Daha sonra yoğunlukla çarpılarak debi değerine ulaşılır. Ortalama atmosfer koşullarında ; pco = 1,2 kg/ m3 , pNO2 =1,9 kg/ m3 alınır. Partikü! madde dönüşümlerinde 1g = 4,7 m2 alınır.
+
+* Uluslararası çalışmalar sonucu belirlenmiştir.
+
+** Bu değer sadece tünel işletme koşullarıyla ilgilidir.
+
+Tablo değerleri yerine konduğunda QCO = 145.765,01 m3/h bulunur.
+
+2
+
+Tünel kesit alanı 65 m olduğundan tünel içi CO emisyonunu bertaraf etmek için gerekli hava hızı Vtünel =0,62 m/s bulunur.
+
+Aynı şekilde diğer araçlar ve emisyonlar için hesaplar yapılarak aşağıdaki tabloda özetlenmiştir;
+
+Görüldüğü üzere bu çalışmada tablo değerlerine bakıldığında emisyonlar yönünden en tehlikeli durum10 km/h trafik hızında NO2 emisyon miktarıdır.
+
+Belirtilen trafik şartlarında oluşan emisyonu yenebilmek için tünel içi gerekli hava hızı 1,50 m/s olmalıdır.
+
+Acil Durum (Yangın) Hesabı: Burada 30,100 ve 200 MW yangın durumu için hesaplar
+
+yapılacaktır. İlk olarak yangın durumunda oluşacak kritik hız ve sıcaklık belirlenmelidir.
+
+çözülerek ve aşağıdaki veriler kullanılarak;
+
+Şekil 54. Tünelin Geometrik Özellikleri
+
+Şekil 55. Kritik Hız ve Sıcaklık Değerleri
+
+Hesaplar sonucunda en yüksek hızın negatif eğimde 200 MW'lık yangın sonucu ortaya çıktığı görülmektedir.
+
+O halde güvenli kısımda kalmak için kritik hız 4 m/s seçilir.
+
+Jet Fan Hesabı: Kritik hızı sağlayabilecek jet fan özelliklerini belirleyebilmek için yangın sırasında oluşabilecek basınçlar hesaplanır ve fan adeti belirlenir. Aşağıda bulduğumuz kritik hıza göre 200 MW bir yangında oluşacak basınç kayıpları listelenmiştir.
+
+Şekil 56. Basınç Hesaplarında Kullanılan Parametreler
+
+Aşağıda yapılan hesaplar sonucunda + ve - eğimli tüplerde meydana gelen basınç kayıpları listelenmiştir;
+
+POZİTİF EĞİM 200 MW YANGIN DURUMU BASINÇ KAYIPLARI
+
+NEGATİF EĞİM 200 MW YANGIN DURUMU BASINÇ KAYIPLARI
+
+Şekil 57. 200 MW Yangın Durumu Basınç Kayıpları
+
+Bu hesaplar sonucunda; acil durum havalandırması için pozitif eğimli tünelde şekil 18'de belirtilen özellikteki jet fanlardan 30 adet, negatif eğimli tünelde 38 adet jet fan kullanılması gerekmektedir.
+
+Bu yapılan çalışma herhangi bir tünelimize ait olmayıp sadece hesapların nasıl yapıldığını açıklamakla ilgilidir. Hesaplar yapıldıktan sonra uygun CFD yazılımı kullanılarak sonuçların doğruluğu ve acil durum havalandırmasının yeterliliği görülebilir.
+
+HAVALANDIRMA SİSTEMİ KONTROL ELEMANLARI
+
+Havalandırma sistemi aşağıdaki kısımlardan oluşmaktadır;
+
+S Tünel İçi Görüş Açıklığı Algılayıcı Cihazlar S Tünel İçi Karbon Monoksit Kirliliği Algılayıcı Cihazlar S Tünel İçinde Rüzgar Hızını Ölçen Cihazlar S Jet fanlar
+
+S Artı Basınç Cihazları S Elektrik Odası Klimaları
+
+Havalandırma sistemi kumandası aşağıdaki şekilde olmaktadır;
+
+Otomatik (SCADA üzerinden yapılan kumanda)
+
+Normal İşletme: CO ve görüş sensörlerinden gelen bilgilere ve havalandırma simülasyonu sonucu ortaya çıkan kontrol mantığına göre kademeler bazında (tünel kapama kademesi dahil) yapılmaktadır. Sis yoğunluğu fazla bölgelerde görüş sensörlerinin yanılmasını önlemek için sis algılayıcılarda kullanılmaktadır.
+
+Yangın Durumunda İşletme: Havalandırma simülasyonu sonucu ortaya çıkan yangın kontrol mantığına göre yapılır.
+
+Manuel İşletme: Aşağıda belirtilen iki farklı yöntemle yapılmaktadır.
+
+İlgili jet fanın MCC panosu üzerinden start stop butonları ile kumanda.
+
+İlgili jet fanın SCADA ekranı üzerinden operatör tarafından çalıştırması ile yapılan kumanda.
+
+Jet fanlar; iki yönde çalışacak şekilde, fan muhafazasında bir eksenel pervane, göbek ve gerekli kısımları tünelin korozif ve kirli ortamına dayanıklı paslanmaz çelik, alüminyum gibi malzemeden yapılmış, sıkıştırma ve süspansiyon parçalarından oluşur. Yoğuşmayı önlemek için fanlarda ısıtma tertibatı bulunması ve fanların aşırı titreşim durumunda devreden çıkarılmaları gerekir. Bu nedenle fanların titreşimi sensörlerle sürekli ölçülür.
+
+Jet fanların grup halinde çalışması sebebiyle rezonansa girmesinin önlenmesi gerekmektedir. Her fanın kendi süspansiyon sistemi vardır ve tünel içindeki fanlarda genelde 4 adet titreşim emici, tünel tavanına tutturulacak alaşım karbon çelikten imal montaj ayakları, herhangi bir salınım hareketini önleyici askı sistemi ve emniyet zinciri bulunmak zorundadır. Aşağıdaki şekilde tünellerde kullanılan havalandırma fanı gösterilmiştir.
+
+Şekil 58. Tünellerde Kullanılan Jet Fan Örneği
+
+Karbon Monoksit (CO ölçüm cihazı ve Toz Partikül Ölçümü Detektörü); tünel içinde oluşan CO emisyonunu ve toz partikül miktarını sürekli ölçerek, tünel içindeki hava kalitesini, dolayısıyla görüş açıklığını ölçmeye ve havalandırma sistemine gerekli bilgi akışını sağlamaya yarar. Bu nedenle söz konusu ekipman, hava akışını en uygun bir şekilde kontrol edebileceği bir noktaya ve yüksekliğe yerleştirilir. Tünel uzunluğuna ve yapısına göre kullanılacak miktarı ve tam olarak tünelin hangi noktasına konulacağı şartlara göre değişmektedir. Aşağıdaki şekilde bir CO ve toz partikül detektörü gösterilmiştir.
+
+Şekil 59. CO ve Toz Partikül Ölçüm Dedektörü
+
+Hava Yön ve Hız Ölçüm Detektörü; jet fanlar ile havalandırma yapılan tünellerin her tüpüne, tüp uzunluğuna bağlı olarak konur. Bu ekipmanlar tünel içindeki hâkim hava
+
+Jet fanların havalandırma kontrolü, otomasyon sistemi kapsamındaki PLC üniteleri tarafından yapılır. PLC'ler, jet fanları devreye alma ve devreden çıkarma işlemini ölçülen karbon monoksit, görüş açıklığı/toz partikül, hava yön ve hız verilerini önceden belirlenmiş eşik değerleriyle karşılaştırarak yapar. PLC, bu değerler ışığında otomatik olarak uygun sayıda jet fanı önceden belirlenmiş olan sırayla devreye alır. Örneğin yangın senaryolarına göre enterne edilmiş tünellerde yangın durumunda yangın yeri otomatik olarak tespit edilerek ve bu durumda çalışması planlanmış olan fanlar devreye girer. İdeal ve efektif bir çalışma için yangın durumu ve havalandırma ile ilgili senaryolar otomasyon programı kapsamında önceden belirlenip programlanmaktadır. Fanlar birer birer ve aralarında 15 saniyelik aralarla devreye alınmaktadır. Fanların devreden çıktıktan sonra yeniden çalıştırılabilmeleri belli bir süre gecikmeyle olur. Örnek olarak bir fanın çalışıp devreden çıktıktan sonra aynı yönde ancak 30 saniye, ters yönde ise ancak 2 dakika sonra çalıştırılabilmesi gibi. Jet-fanların gerçekten çalışıp çalışmadığını ve konumlarını anlamak için her fana bir adet air flow switch ve vibration switch monte edilir, bu switchlerden gelen sinyaller otomasyon ve SCADA sistemine ulaştırılır. Öte yandan fan motorlarından PTC'ler aracılığıyla sinyal alınmaktadır.
+
+Çalışma modları aşağıdaki şekildedir;
+
+S Otomatik çalıştırma S Yangın durumundaki çalıştırma S El kumanda ile çalıştırma
+
+Otomatik Çalıştırma
+
+Bu çalıştırma modunda ölçülen hava kalite değerleri kontrol sisteminin girişleri vardır. Toz partikül konsantrasyon değerleriyle beraber hava yön ve hız değerleri de alınır. Kontrol işlemleri için ışık sönümlenme değerleri analog/analoga çevrilerek CO değerlerine uyumu sağlanması gerekir Bu karbon monoksit konsantrasyonunu toz partikül konsantrasyonu ile karşılaştırması gerekir. Tablo 2'de gösterildiği gibi eğer CO ve ışık sönme değerlerinin ikisi birden belirli bir havalandırma kademesinin eşik bölgesi içinde kalırlarsa o zaman bunu takiben herhangi bir havalandırma kademesi seçilmez. Eğer bu değerler iki farklı anahtarlama eşiklerine birden düşüyorsa o zaman büyük olan havalandırma kademesi seçilir.
+
+Şekil 60. Tünel Kapanış Havalandırma Kademeleri
+
+Eğer karbon monoksit konsantrasyonları çok az ise (30ppm'den az) ve görüş mesafesi -3 -1
+
+iyi ise (ışık zayıflama katsayısı 2,5x10 m 'den azsa) havalandırma devreye girmeyecektir.
+
+Eğer karbon monoksit konsantrasyonu 30 ppm veya üzerine çıkarsa veya ışık -3 -1
+
+zayıflama katsayısı 2,5x10 m üzerine çıkarsa ve bu durum 5 dakika sürmüşse, o zaman en
+
+azından bir fan devreye girecektir. Eğer karbon monoksit konsantrasyonu 60, 100 veya -3 -1
+
+150ppm değerleri üzerinde veya ışık azalma katsayısı k=5;7,5 veya 10x10 m değerleri üzerinde sürekli 5 dakika kalmışsa o zaman fanlar yukarıdaki tabloda görülen 1-4. adıma kadar birer birer devreye girecektir.
+
+3	—1
+
+Eğer 200 ppm CO veya k= 14x10' m tünel kapanış değerlerinde sürekli 10 dakika
+
+kalmışsa o zaman tünel trafiğe kapatılacaktır. Trafik işaretleri kırmızıya çevrilecek ve bu
+
+önemli durum, VMS'lerde gerekirse sembollerle de desteklenmiş uygun mesajlarla sürücülere
+
+duyurulacaktır. Yalnızca karbon monoksit konsantrasyonu 150 ppm altına ve ışık zayıflama -3
+
+faktörü 10x10 altına düşerse tünel yeniden açılacaktır.
+
+Hava kontrol sisteminden gelen kontrol dışında kalan anahtarlama aktivitelerini ve arızaları önlemek için ölçüm değerlerinde bir histerize sahip olacak ve jet fanlar devreye aynı değerde girip çıkmayacaklardır. Bu nedenle fanlar aşağıdaki değerlerde devre dışı kalacaktır.
+
+Şekil 61. Tünel Açılış Havalandırma Kademeleri
+
+Sistem bir alt kademeye alınmadan önce, ölçülen değerlerin 5 dakika süreyle eşik değerlerinden daha az olması gerekir. Tüm zaman süreleri 1 ile 10 dakika arasında ayarlanabilir olmalıdır.
+
+Yangın Durumunda Çalıştırma
+
+Yangın durumunda çalışmanın nasıl olacağı genellikle bağımsız bir kuruluşa yaptırılacak hesap ve simülasyon sonucunda tespit edilmektedir. Ancak bu konuda bir konsensus sağlanamamıştır. Bir kısım uzmanlar bağımsız bir uzman kuruluşa, tünelin kendi şartlarına bağlı olarak yapılacak hesaplarla, çıkabilecek bir yangının gücünün mertebesini belirleyerek ve bu yangının söndürülebilmesi için fanlara nasıl kumanda edileceğini kurgulayarak yapılmasının doğru olduğunu düşünmektedir. Yangının mertebesinin belirlenmesinde M.Bettelini, R.Brandt, I.Riess [14] ‘'yangındumanyoğunluğunun 110 ile 150 metreküp arasında olması halinde 30 MW gücünde bir yangının meydana geldiğini'' belirterek yangın güçlerinin mertebelerini sınıflandırmıştır. H.Knoflacher, P.C.Pfaffenbichler [15] ve M.Bettelini [16] ise ‘'yangın senaryolarını belirlemenin insan güvenliği açısından daha doğru olduğunu'' savunmaktadır. Bu senaryoların gerektiği aksiyonlar otomasyon programına yazılarak ve böylelikle bir tehlike halinde insan müdahalesine gerek kalmaksızın uygulanabilecek bir sistem olması istenmektedir.
+
+Bazı bilim adamları ve uzmanlar ise bu uygulamaya karşı çıkmaktadırlar. Çünkü yaşanan olaylara göre binlerce çeşit yangın türü vardır ve her yangına farklı müdahaleler gerekmektedir. Otomasyon sisteminin bu yangınlara nasıl müdahale edileceğine karar vermesi güçtür. Yangınlar yangın süresince değişik reaksiyonlar göstermektedir. Bu nedenle yangın esnasında fanların ve yangın söndürme sistemini kumandası manuel olmalıdır
+
+Elle Kumanda (Manuel) Çalıştırma
+
+Jet-fan MCC panolarındaki Otomatik-Manuel-Off anahtarı seçme şalter tipinde, kontrol panolarında her jet fan için, her iki yönde de çalıştırılabilecek iki adet “basmalı” tip butonlarla çalıştırılır. Eğer “Manuel” kumanda moduna geçilmişse, bu durumu gösteren bir ikaz lambası bulunmalıdır. Bu uygulama, farklı ve hata yapılmasını önleyecek etiketlenmiş pilot lambalarla yapılacak ve manuel çalıştırmanın nerede devreye girdiğini görsel olarak belirtecektir. Her seçme kademesi bir pilot lamba ile belirtilecektir.
+
+Her jet fanın çalışma süresi, bir yazılım sayesinde tutularak Tünel Kontrol Merkezindeki SCADA sistemine aktarılır. Havalandırma sistemi tesis edilmiş olan tünellerden gönderilecek sinyaller:
+
+S Hangi tünele ait olduğu belirtilerek ölçülen analog CO konsantrasyonu S Karbon monoksit detektörü sistem hatası
+
+S Hangi tünele ait olduğu belirtilerek ölçülen analog toz partikül konsantrasyonu S Toz partikül detektörü sistem hatası S Her tüpteki analog hava hızı değeri S Her tüp içindeki hava yönü S Hava hızı ve yönü sistem hatası S Jet fanların dönüş yönü S Havalandırma devreye girme kademesi S Her fan için çalışma saati S Her fan için hata alarmı S Kontrol üniteleri hata sinyalleri
+
+S Karbon monoksit detektörü, toz partikül detektörü, hava yön ve hava hız detektörü hata sinyalleri
+
+S Her Tünel İçin Komutlar:
+
+S Her jet fanı dönüş yönü S Her jet fanı için “on” ve “off”
+
+Bu komutlar her EDB'deki Mcc'ler üzerinden ve Tünel Kontrol Merkezi tarafından
+
+yapılması tekniğe daha uygundur.
+
+Şekil 62. Tünel Havalandırma Sistemi SCADA Ekran Çıktısı
+
+TRAFİK SİNYALİZASYON SİSTEMLERİ VE İŞARETLEME
+
+Tünel girişi, içi ve çıkışında trafik akışını ve olaylarını kontrol altına alma amacıyla muhtelif algılayıcılar, işaretler ve kontrolörlerden oluşan sistemlerdir.
+
+Şekil 63. Trafik Kontrol Sistemi SCADA Ekran Çıktısı
+
+TRAFİK KONTROL VE GÖZETLEME SİSTEMLERİ
+
+• Tünel i çinde duran taşıt
+
+• Tünel içinde çok yavaş ya da hızlı giden taşıt
+
+• Tünel içinde ters yöne giden taşıt
+
+• Tünel içinde yürüyen yaya
+
+• Tünel içinde yola düşen cisim
+
+• Tünel içi trafik bilgilerinin toplanması (trafik hacmi, trafik akış hızı,trafik hızındaki değişiklikler vb.)
+
+• Tünel içerisinde duman algılama
+
+• Araç plakasını belirleme ve kayıt yapılabilir.
+
+Şekil 64.Kapalı Devre Görüntüleme Sistemi
+
+ENERJİ SAĞLAMA
+
+Tünel içinde ve çevresinde kurulacak tüm sistemlerin enerji temini ve dağıtımını içeren sistemlerdir Tüneller için gerekli enerji trafolar tarafından sağlanmaktadır. Şebekeye bağlı bu trafolar, enerji kesilmeleri gibi durumlar için uygun güçte jeneratörler tarafından yedeklenmektedir. Kesinti hallerinde yaşanan geçiş süresi ve jeneratörün de devre dışı kalabileceği durumlar için ise KGK (Kesintisiz Güç Kaynağı) kullanılmaktadır.
+
+Şekil 65.Tünel Enerji Sağlama Sistemi SCADA Arayüzü
+
+GİRİŞ
+
+İstatistiklere bakıldığında karayolu tünellerindeki kazaların, karayollarının herhangi bir bölümündeki kaza oranlarından daha düşük olduğu görülmüştür. Fakat tünelleri etkileyen ciddi bir kaza durumunda kazanın gerçekleştiği bölgede kurtarma ve yardım faaliyetlerinde güçlükler yaşanabilmekte, tünelde ciddi bir hasar meydana gelmesi durumunda yolun kapatılmasına ve tali yolların kullanılmasına ya da alternatif yol kullanılamaması gibi zorluklara sebep olduğundan tünel kazalarının sosyal etkileri çok daha fazla olabilmektedir. Bu yüzden, tünel kazaları sonuçları itibariyle çok daha vahim olaylar olarak nitelendirilmekte ve tünel güvenliği bir tünelin yapımından servis ömrü sonuna kadar gözetilmesi gereken önemli bir husus olarak öne çıkmaktadır.
+
+Tünellerin güvenliği için en büyük riski oluşturan unsur ise hiç şüphesiz yangınlardır. Bu bölümde yangın olayı açıklanacak, tünellerde yangının davranışı ve gerekli önlemler konusunda bilgiler paylaşılacaktır.
+
+TÜNELLERDE YANGIN
+
+Yangın fiziksel ve kimyasal bir olaydır. Isı, yakıt (yanıcı madde) ve oksijenin uygun oranda bir araya gelmesi ile başlayan reaksiyona yanma, yanma olayının kontrol dışı gelişen haline ise yangın denir. Yangın sırasında alevin, yakıtın ve çevresinin etkileşimi çoğunlukla doğrusal değildir.
+
+Yangın dört evreden oluşmaktadır. Bunlar tutuşma, büyüme, tam gelişim ve sönme evreleridir. Tutuşma, yangının başlaması için gerekli olan enerjinin verilmesi sonucunda yanma reaksiyonunun başlaması olayıdır. Tutuşma bir alev kaynağından olabileceği gibi ortamdaki sıcaklığın yükselmesiyle de olabilir. Yangının büyüme evresinde yangının gelişimi; yanan malzemelerin özelliğine, ortamdaki oksijen miktarına, ortam konfigürasyonuna ve yanma tipine bağlı olarak hızlı veya yavaş olabilir. Çevredeki malzemeler ortamdaki ısı transferi sonucunda sıcaklıkları artarak yanmaya başlarlar. Sıcaklığın artması sonucunda öyle bir an gelir ki ortamdaki cisimlerin birçoğu tutuşma sıcaklığına ulaşarak aniden yanmaya
+
+başlar. Bu ani reaksiyon parlama olarak tanımlanır. Bu evreyi takip eden tam gelişmiş yangın evresinde, ortamdaki tüm yanıcı maddelerin yanmaya başladığı düşünülür. Bu evrede yangının ısıl gücü en yüksek değere ulaşır ve ortamdaki oksijen miktarı azdır. Tam gelişmiş yangın evresinde, yangının büyümesi oksijen miktarı ile sınırlıdır. Sönme evresinde ise ortamdaki yanan malzeme tükenmesi sonucunda yangın ısıl gücü azalmaktadır. Bu evrede yangın kontrollü bir yangındır.
+
+Şekil 66. Yangının evreleri
+
+Tünellerde çıkan yangınlar kapalı alan yangın sınıfına girdiği için tünel içerisindeki bir yangının ısıl gücünün aynı malzemelerin kullanıldığı açık hava yangını ısıl gücünden dört kat daha fazla olduğu araştırmalarda görülmüştür. Bir tünelde meydana gelen yangında ortam sıcaklığı birkaç dakika içerisinde 1000 0C mertebesine ulaşabilmektedir. Aşağıdaki şekilde gösterildiği üzere bu sıcaklık tünel tavanında daha çok olmakla birlikte, yanıcı madde olan araç sayısına ve tipine göre değişmekte ve tünel tabanında da yüksek sıcaklıklara ulaşabilmektedir.
+
+Şekil 67. Yangın Durumunda Tünelde Oluşabilecek Sıcaklıklar
+
+Bina yangınlarında iki farklı senaryo ele alınmaktadır. İlk senaryo yangının oluşma ve gelişme evresini içermektedir. Bu kısımda binada bulunan yanıcı bileşenlerinin, yanma kaynağından etkilenerek tutuşması ve yangını ilerletmesi konuları ele alınır. Buradaki kritik kısım, yangının meydana gelmesinden itibaren geçen ortalama 10 dakikalık bölümdür. Bu 10 dakikalık bölüm içerisinde yangının oluştuğu bölümdeki insanların tahliye edilmesi gerekmektedir. 10 dakikalık süre sonunda yangın gelişme evresine girmektedir. Bu evrede sıcaklık en üst noktaya ulaşır ve bu nedenle ısı çıkışı ve ışıma oranı da aşırı derecede yükselir. Yangının tam gelişmiş hale ulaşması durumunda artık, yangının mevcut olduğu bölümden diğer bölümlere transferinin engellenmesi gerekmektedir. Aksi takdirde tüm yapı, yangına maruz kalma tehlikesiyle karşı karşıya kalacaktır. Kapalı bir ortamda yapı malzemeleri, yangın yükü ve yanma hızı gibi parametreler önemlidir. Sıcak gazların tavan kısımlarında birikmesi sonucunda tavan ve duvarlar ısınır; dolayısıyla yüzeyler ve sıcak gaz katmanı yakıt yüzeyine doğru ışınım yoluyla ısı transferi yapar ve bu da yanma hızını artırır. Mekandaki havanın giriş yapabileceği kısımların kısıtlı olması sonucunda yanma için gerekli oksijen miktarının elde edilebilirliğinin sınırlanması gerekmektedir.
+
+Tünel yangınları ise gerek yangın yükü, gerekse çevresel şartlar bakımından kapalı alan yangınlarından büyük farklılıklar göstermektedir. Araçların tünel içerisinden geçişi esnasında meydana gelen yangından kaynaklanan “hidrokarbon yangınları”, kapalı alanlarda meydana gelen “selülozik yangınlar” dan çok daha tahrip edicidir.
+
+Şekil 68. Tünel Yangını
+
+Tüneller trafiğe açık ortamlar olması sebebiyle yangın anında havalandırma sisteminin performansı yangını doğrudan etkilemektedir. Tünellerde doğal havalandırma esnasında yangın büyüklüğü; tünelin eğimine, kesit alanına, geometrik özelliklerine, tünel duvarlarının özelliklerine ve tünelin girişindeki meteorolojik koşullara bağlıdır. Tüneller mekanik havalandırma sistemleri ile donatıldığı için normal kapalı ortam yangınına göre daha fazla oksijen bulunmaktadır. Havalandırma hem yangın verimine hem de yangın yüküne etki etmektedir. Tünel yangınlarında genellikle parlama olması muhtemel değildir. Yangın çevresindeki duvarlarda büyük ısı kaybı olmaktadır. Araç kabinleri içerisinde parlama olabilir. Tünel yangınlarında havalandırma yönündeki araç mekanik havalandırma nedeniyle tutuşabilir ama bu parlama olarak nitelendirilmez.
+
+Tünel yangınlarının başlangıcında, havalandırma çalıştırılmadan önce tünel ekseni boyunca, normal kapalı alan yangınları gibi, duman katmanı üst kısımda, soğuk ve dumansız bölge de alt kısımda şeklinde oluşur. Ancak, duman katmanı kademeli olarak tünel yüzeyine doğru yangından uzak bölgelerde alçalmaya başlar. Tünel çok uzunsa duman katmanı tünel tabanına kadar alçalır. Bu olgunun gerçekleşmesi yangından uzaklığa, yangının boyutuna, tünel tipine, çevresine ve yüksekliğine bağlıdır. Boylamasına havalandırma ile tünel içi hava hızı kademeli olarak arttırıldığında bu katmanlaşmış kısım dağılır. Tünel havalandırma hızı belirli bir seviyeye ulaşmadığında duman, havalandırma yönünün tersine hareket ederek ters katmanlaşma meydana getirir. Yangın tünel içinde gelişirken havalandırma ile etkileşim halindedir ve baca etkisi nedeniyle akışa karşı bir direnç yaratarak akışta değişimlere sebep olmaktadır. Tüneldeki bir yangında havalandırma, yangın bölgesinde soğutma özelliği göstererek sıcaklığın yüksek değerlere ulaşmasını engeller.
+
+Tünel yangınlarında ölümlerin birçoğu duman solunması sonucunda meydana gelir. Duman ve zehirli gazlar, yangından kaçarken insanların önlerini görmemelerine, bunun sonucunda paniğe kapılmalarına ve zehirlenip boğulmalarına neden olur. Ayrıca bu durum yangın söndürme çalışmalarına da engel olmaktadır. Kurulacak acil durum havalandırma sistemi, yangın sırasında oluşan dumanın ve ısının tünellerden uzaklaşmasını sağlayabilir. Böylelikle mahsur kalan insanların güvenli bir şekilde sistemi boşaltmaları sağlanır, yangın çıkan tünele giren personel veya itfaiye elemanı daha rahat çalışır.
+
+Avrupa'daki istatistikler incelendiğinde, tünellerde, açık yollara göre daha az yangın çıkmaktadır. Çünkü tüneller, açık yollara göre daha iyi kontrol altında tutulan alanlardır. Burada aydınlatma ve işaretler normal yollara göre daha iyidir. Hava koşullarından araçların daha az etkilenmesi söz konusudur. Bütün bunlara rağmen Avrupa'da 15.000'den fazla karayolu ve demiryolu tüneli olduğu düşünülürse buralarda çıkacak yangınların tahmin edilenden daha ciddi facialara yol açması söz konusu olabilir.
+
+Sadece Avrupa'da karayolu tünellerinde yaşanan tünel kazalarında Gotthardda 11,Mont-Blancte 39, Tauern'de ise 12 insan hayatını yitirmiştir. Avrupa'nın tünel yangınları ile ilgili açıkladığı ekonomik zarar, tünellerin yangın sonrası onarımı dahil 210 milyon Euro/yıl olarak açıklanmıştır. Aşağıdaki tabloda büyük tünel yangınları ve sonuçları verilmiştir.
+
+Sadece Avrupa'da karayolu tünellerinde yaşanan tünel kazalarında Gotthardda 11,Mont-Blancte 39, Tauern'de ise 12 insan hayatını yitirmiştir.Avrupa'nın tünel yangınları ile ilgili açıkladığı ekonomik zarar, tünellerin yangın sonrası onarımı dahil 210 milyon Euro/yıl olarak açıklanmıştır. Tablo 3'te büyük tünel yangınları ve sonuçları verilmiştir.
+
+PIARC (World Road Association) tarafından incelenen karayolu tünel kazalarında meydana gelen yangınların nedenleri şu şekilde sıralanmıştır.
+
+S Elektrik arızaları (hafif araçlarda en sık olarak yangın sebebi),
+
+S Fren balatalarında meydana gelen ısınmalar (ağır taşıtlardaki yangınların %60-
+
+%70'ininsebebi),
+
+S Aracın kendi kendine alev almasına yol açan diğer arızalar.
+
+S Daha az karşılaşılan kaza nedenleri:
+
+• Çarpışmalar,
+
+• Tünel ekipmanında ki teknik hatalar,
+
+• Tünellerde yürütülen bakım çalışmaları,
+
+S Tünelde meydana gelecek olası bir yangının boyutları yangın çıkan aracın yükü ve tipine bağlıdır.
+
+Tünelde meydana gelebilecek olası bir yangının boyutları; yangın çıkan aracın yükü ve tipine bağlıdır. Aşağıdaki tabloda PİARC tarafından kabul edilen araç tipleri ve yangın kapasiteleri belirtilmiştir (PIARC World Association, Fire & Smoke Control in Road Tunnels, PIARC Commitee on Road Tunnels, Paris, 39-51,1999.)
+
+Tablo 33. PIARC tarafından kabul edilen araç tipleri ve yangın kapasiteleri
+
+Tünel yangınlarını standardize etmek mümkün olmadığı için yangınla mücadele konusunda alınabilecek önlemler için çeşitli deneyler ve önlem önerileri geliştirilmektedir.
+
+Amerikan Ulusal Yangından Korunma Birliği (NFPA - National Fre Protection Association) karayolu tünellerinde alınacak önlemler hakkında standartlar getirmiştir (3).
+
+İngiliz Ulaştırma Bakanlığı (Department of Transport), karayolu tünellerinde dizayn kriterleri konusunda standart oluşturacak çalışmalar yapmıştır. Burada yangından korunma konusunda öneriler vardır.
+
+4 yılda bir toplanan Yol Kongrelerinin Daimi Uluslararası Birliği (Permanent International Association of Road Congresses) karayolu tünelleri konusunda özel teknik komite raporları yayınlanmaktadır.
+
+Her ne kadar, TS 4156 / Ocak 1991, Umumi Yerlerde Yangından Korunma - Genel Kurallar yayınında otoparklar, terminaller, araçlar gibi bölümler varsa da bu önlemlerin karayolu tünelleri yangın önlemleri konusu ile fazla bir ilgisi bulunmamaktadır.
+
+Avrupa Parlamentosu ve Konseyi 29 Nisan 2004 tarihinde 2004/54/EC sayılı Direktifi ile Trans-Avrupa Karayolu Ağı Tünelleri için asgari güvenlik gereksinimlerini belirlemiştir. Üye ülkeler, Avrupa Birliği Komisyonu'na 30 Nisan 2007 tarihine kadar, direktifin hedeflerine ulaşmak üzere yaptıkları planlama çalışmalarını içeren bir rapor sunacaklardır. Tünellerin iyileştirme çalışmaları 30 Nisan 2014 tarihine kadar devam edecektir. Trans Avrupa yol ağında bulunan mevcut tünellerinin toplam tüp uzunluğu AB ortalamasının üzerinde olan üye ülkeler, 6 yıla kadar ek süre talep edebileceklerdir. Türkiye'deki mevcut ve yeni yapılan tünellerde asgari güvenlik ölçütlerini sağlayacak çalışmaların yapılması ve kamuoyunun bu konuda bilinçlendirilmesi gerekmektedir. Türkiye'de konu ile ilgili referans alınabilecek başlıca iki çalışmadan biri, “Tünel İşletme ve Bakımı Hakkında Yönetmelik”, diğeri ise “Tünellerin Asgari Güvenlik Gereksinimlerine İlişkin Proje Kriterlerinin Belirlenmesi İle İlgili Komisyon Raporu” dur. Avrupa Birliği'nde karayolu tünel güvenliğinin öneminin anlaşılması ve birçok projenin hayata geçirilmesi, Türkiye'de de bu konuya dikkati çekmiştir.
+
+KGM'nin 08.03.2005 tarihli “Tünellerin Asgari Güvenlik Gereksinimlerine İlişkin Proje Kriterlerinin Belirlenmesiyle İlgili Komisyon Raporunda Türkiye'deki tünellerde altyapı standartları ve güvenlik bakımından AB direktifinin esas alınması ve yeni yapılacak tünellerin bu ölçütlere uygun olarak yapılmasının gerekliliği ifade edilmiştir. Yangınların oluşmaması için alınacak tüm önlemler gereklidir ve eksiksiz olarak yerine getirilmelidir. Ancak, bütün bunlara rağmen yangının oluşması durumunda yangının etkilerinin en erken safhada tespit edilip, tünel içerisindeki gerekli duman atım sistemlerinin yönetilmesi, ilgili ekiplerin uyarılması, tünel içerisindeki insanların güvenli alanlara yönlendirilmesi gerekmektedir. Bu amaçla tünelde yangının etkilerini en erken algılayacak, yangın algılama, uyarma ve kontrol sistemlerinin teknolojilerine ilişkin bilgiler bu bildiride derlenmeye çalışılmıştır.
+
+Şekil 69. Tünel Yangını Sonucu Oluşan Duman Tahliyesi Görseli
+
+Tünel yangınları ile mücadele uygun ve gerekli ekipmanın tünelde bulunması ve kullanılmasından öteye tam bir risk yönetim çalışması içermektedir.
+
+Yangınla mücadele sırasında trafik kontrolü, havalandırma, haberleşme, drenaj, acil durum ekipmanı, acil durum aydınlatması vb. arasındaki eşgüdüm çok önemli bir ver tutmaktadır.
+
+Taşıt tünellerinde bir yangın çıktığında bu yangın ihbarının ilgililere iletilmesi gerekmektedir. Yangın ihbarı konusu tünel projelendirmesini etkilemektedir. Bu konuda yapılan yayınlar, taşıt tünellerini,
+
+Kontrol merkezli tünel,
+
+Aynı kontrol merkezini kullanan birkaç tünel,
+
+Alarm sistemi olmayan tünel,
+
+Kontrol merkezi olmayan alarm sistemli tünel, olarak sınıflandırmaktadırlar.
+
+TÜNELLERDE YANGIN SÖNDÜRME SİSTEMLERİ ve EKİPMANLARI
+
+Tünellerde yangın hidrantlarını da içeren yangın dolaplarının bağlı olduğu yangın şebekesinin şehir su şebekesinden beslenmesi tercih edilen bir seçenektir. Yangın şebekesinin tünelin iki ucunda, iki ayrı şebekeye bağlı olması önerilen bir diğer husustur.
+
+Eğer yerel bir şebekeye bağlı değilse, o takdirde yangın suyu hattının iki ucuna birer su deposu konulmalıdır. Depo kapasitesi hidrantları 1 saat süreyle besleyebilmelidir.
+
+PİARC raporlarına göre su depolarının, mümkünse, tünelin iki tarafına birer adet
+
+3
+
+konulması ve istenilen minimum debiyi sağlayabilmek için her birinin 72 m 'den küçük olmaması önerilmektedir.
+
+İngilizler hidrantın minimum kapasitesini 2000 lt/dak olarak istemektedirler. Fransızlar 1000 lt/dak olarak istemektedirler. Alman, Avusturya ve İsveçliler 1200 lt/dak, Amerikalılar ise 1900 lt/dak olarak önermektedirler.
+
+Yangın suyu şebekesindeki basınç için İngilizler 17 mSS, Fransız, İsviçreli, Avusturyalı ve Almanlar 60 mSS, Amerikalılar ise 42 mSS önermektedirler.
+
+Karayolu tünellerinde genellikle tercih edilen, "Islak" borulu sistem kullanılmaktadır. NFPA 502'ye göre kuru sistemler kullanıldığında tünelin herhangi bir noktasına suyun ulaşmasının 10 dakikadan daha az bir olması istenmektedir.
+
+Kullanılacak boru cinsi konusunda İngiltere Ulaştırma Bakanlığı bir öneride
+
+bulunmaktadır. 0100 - 0200 mm çaplarında karbon çeliği veya düktü font boru kullanımı önerilmektedir. Bizim tünellerimizde de genllikle 0200 mm çapında düktil font boru kullanılmaktadır. Boru kaldırım altına döşenmiştir. Yangın dolaplarına giden branşman hatları ise genellikle 3" galvaniz borudur. Donma tehlikesi olan yörelerde Yangın Suyu Şebekesi'nde donmaya karşı önlem alınması önerilmektedir. Islak sistemlerde soğuk havalarda suyun pompa ile sirküle edilmesi veya sirküle edilen suyun ısıtılması kullanılabilecek yöntemlerdir . Yangın şebekesinin özel rezistanslı ısıtma kablosu sarılarak ısıtılması don olayına karşı alınabilecek bir diğer önlemdir.
+
+Seçilen ısıtma kablosu yangın şebekesinin otomatik olarak her noktada + 5 C'de tutacak özellikte olmaktadır. Isıtma kablosu, boru içinde oluşacak farklı sıcaklıklara farklı ısıtma yapmaktadır. Kablo verdiği ısıyı kendiliğinden ayarlayarak, borunun daha sıcak olan kısımlarını daha az, daha soğuk olan kısımlarım daha çok ısıtarak boruda homojen bir sıcaklık sağlamaktadır.
+
+0 200'lük ana hatlarda tek sıra (şerit), 3"lik branşman hatlarında çift sıra kablo döşenmektedir. Her bir ısıtma kablosu devresinin 150 m gibi maksimum bir uzunluğu olduğundan belirli aralarla terminaller konulmakta ve devreler termostat ile kontrol edilmektedir. Isıtma kablosu montajından sonra tüm yangın boruları 50 mm. prefabrik camyünü ile izole edilmekte ve üzeri galvaniz saçla kaplanmaktadır. Yangın şebekesine gerektiğinde pompa eklenmesi önerilen bir husustur.
+
+Yangın şebekesine genellikle 120 m3/h ve 55 mSS özelliğinde yedekli yangın pompası tesis edilmektedir. Pompalardan biri kesintisiz güç kaynağına bağlı elektrik motorlu, diğeri de dizel motorlu olarak düzenlenmektedir. Joker pompalar ise genellikle 4 m3/h ve 55 mSS kapasitesindedir.
+
+Yangın suyu pompaları preostadlarla kumanda edilmektedir. Yangın suyu kullanılırken, şehir su şebekesinden su temin edilemiyorsa pompalar, ayarlanacak basınç kademesinde, otomatik olarak devreye girerek sistemi beslemektedirler.
+
+ELLE YANGINA MÜDAHALE SİSTEMİ
+
+Ülkemizde yeni yapılan karayolu ve demiryolu tünellerinde, tünel boyunca uzanan hidrant hatlarının yapıldığı gözlenmektedir. Yangın yönetmeliğinde bununla ilgili kesin hükümler bulunmamakla birlikte, Avrupa ve diğer uluslararası standartlara atıfta bulunulmuştur.
+
+Elle müdahale sistemleri hidrant sistemi ve portatif yangın söndürücülerden oluşmaktadır. Hidrant sistemi, tünellerin uzunluğu ve konumuna göre tasarlanır. Hatlar kuru veya ıslak yapılabilir. Kuru hatlı hidrant sistemleri otomatik veya yarı otomatik tipte olmalıdır. Otomatik tip kuru sistemlerde, hidrant vanası tam açıldığında, su kontrol vanası (kuru alarm vanası) otomatik olarak suyu bırakır. Suyun en uzak hidrant vanasına ulaşma süresi 3 dakikayı geçmemelidir. Otomatik operasyonun sağlanabilmesi için hatlarda basınçlı hava ve bunu sürekli besleyen bir kompresör olması gerekir. Yarı otomatik kuru sistemlerde hidrantlara en fazla 1 metre mesafede bulunan bir butonla su hatlara verilir. Suyun en uzak hidranta ulaşma süresi yine 3 dakikayı geçmemelidir. Su kontrol vanası hidrolik yöntemlerle ve elle devreye sokulabilir tipte baskın (deluge) vana olmalıdır. Islak sistemler genelde donma riskinin olmadığı yerlerde tercih edilmelidir. Yönetmelikte hidrant sisteminde, hidrant aralıklarının çok riskli yerlerde 50 metreyi geçmemesi tarif edilmektedir. Tünellerde de genellikle bu mesafe sınırına göre hidrant yerleşimi yapılmaktadır. Hidrant vanaları, tüneldeki
+
+trafik yönü (tek yönlü-iki yönlü), tünelin genişliği, tünelin yapısal özelliklerine göre tünelin
+
+bir yönüne veya karşılıklı olarak her iki yönüne yerleştirilebilir. Hidrant vanaları 2 ^” çapta olmalı, her vananın yanında bir teçhizat kabini bulunmalı, teçhizat kabininde, hortumlar, lanslar, hidrant anahtarları, portatif söndürücülerin yanında, haberleşme ve alarm verme ekipmanı da bulunmalıdır. Kabinde hırsızlığa karşı kilit sistemi bulunsa bile, yangın anında kabinin içindekilere kolayca ulaşmayı sağlayan önlemler alınmalıdır. NFPA 130 ve NFPA 502 standartları, hidrant seçimi ve yerleşimi konusunda NFPA 14 (Standard for theInstallation of Standpipe and Hose Systems, 2010) standardını referans göstermiştir. NFPA 14 standardı da 2 '/f’ çıkışlı hidrantları tarif etmektedir. Hidrantlar arası mesafe sınırı, sprinkler sistemi bulunmayan yapılar için 45 metre belirlenmiştir. Yönetmeliğe göre sadece hidrant hattının bulunduğu yerlerde 1900 l/dk'lık bir minimum debi değeri kabul edilmelidir. Bu debiyi en az 1 saat süreyle sağlayacak bir güvenli su kaynağı olmalıdır. Güvenilir su kaynağı olarak kabul edilecek kaynakların başında yangın pompa istasyonu ve yangın suyu deposu gelmektedir. Su deposunun, hidrant çıkışındaki 7 bar basıncı sağlayacak kadar yükseğe yerleştirilmesi mümkün ise ki şehirlerarası yollarda ve demiryollarında bu bazen mümkün olur, bu da güvenli bir su kaynağı olarak değerlendirilebilir. Uluslararası standartlar, şehir şebekesinin veya yerel hidrant sisteminin de, tünelde kurulacak sistemin debi ve basınç ihtiyaçlarını karşılamak kaydıyla kullanılabileceğini söylemektedir. Ancak ülkemizde bu tür yerel yönetimlere ait şebekeler henüz çok az sayıda olduğu için, şimdilik bu değerlendirilebilir bir seçenek değildir. Hidrant hattına bağlı, birbirine ters yönde ve itfaiye araçlarının 18 metre yakınına kadar yaklaşabileceği noktalara itfaiye bağlantı ağızları yerleştirilmelidir. İtfaiye bağlantı ağzı besleme çapının 4” (DN100)den küçük olmaması gerekir.
+
+OTOMATİK YANGIN SÖNDÜRME SİSTEMLERİ
+
+Tüneller için tasarlanan otomatik yağmurlama sistemleri, temelde, binalar için tasarlanan yağmurlama sistemleriyle aynı prensiplere sahiptir. Sprinkler başlıklarının yerleşimi, boru çapı seçimi, hidrolik analizlerin yapılması yöntemleri, bina sistemlerinden farklı değildir. Ancak tünellerin kendine has problemleri vardır. Tünel havalandırma sistemi ve trafik etkisi bunların başında gelmektedir.
+
+Tünellerde kurulacak yangın söndürme sistemlerinde hedeflenen, yangının yayılmasını yavaşlatmak veya tasarımı tamamen önlemek, emniyetli şekilde tüneldeki insanların tahliyesini sağlamak, yangınla mücadele edecek ekipler için uygun koşulları oluşturmak, yapısal olarak tüneli korumak ve çevreye verilen zararı azaltmaktır. Söndürme sisteminin bu hedefleri yerine getirebilmesi için, 10 m/s'ye kadar hava hızlarında çalışabilmesi, iyi bir soğutma etkisi yaratarak yapıyı koruyabilmesi, görüş mesafesi konusunda kayda değer bir etkisi olması ve radyant ısıyı düşürebilmesi gerekmektedir. Otomatik söndürme sistemleri için tünellerde konvansiyonel sprinkler sistemleri kullanılabildiği gibi, su sisi (water mist) sistemleri de kullanılmaktadır. Su sisi sistemleri, konvansiyonel sprinkler sistemlerine göre çok daha küçük boyutlarda su damlacıkları üreterek, ısıyla temas eden yüzeyin artmasını, ortamdan daha fazla ısı çekilmesini, böylece daha az suyla daha etkin bir koruma yapılmasını sağlamaktadır. Ancak tünellerdeki havalandırma sistemlerinin, trafikten kaynaklanan veya doğal rüzgarın etkisi, su sisi sistemleri üzerinde daha büyük olmaktadır. Su sisi sitemi tasarımıyla ilgili genel kriterleri NFPA 750 standardı vermektedir. Su sisi sisteminin etkinliğinin belirlenebilmesi için genellikle 1'e 1 ölçekli yangın testleri yapılması gerekmektedir. Gerek konvansiyonel sprinkler sistemlerinde, gerekse su sisi sistemlerinde, tasarım yapılırken göz önünde bulundurulacak bir takım parametreler bulunmaktadır. Bunlar, tünel geometrisi ve kesit alanı, trafik akışı (tek yönlü veya çift yönlü oluşu), tahmini yangın büyüklüğü (tehlikeli madde geçişine izin verilen tüneller), kaçış yollarının tasarımı, havalandırma sistemi tipi, tünel izleme ve yangın algılama sistemlerinin durumudur.
+
+Şekil 70. Sprinkler Sistemi Gösterimi
+
+Sistemler tasarlanırken, tünelde olabilecek kaza senaryoları esas oluşturmalıdır. Örneğin tek yönlü trafik olan tünellerde, kaza bölgesinden ileride olan araçların rahat bir şekilde tüneli terk edebileceği düşünülür. Aksi yönde ise araç trafiği oluşacak ve yangın bu yönde yayılma eğilimi gösterecektir. İki yönlü trafiğin olduğu tünellerde ise trafik her iki yönde de oluşacaktır. Sprinkler sistemi zonlaması yapılırken, bu hususlar göz önünde bulundurulmalıdır. Sprinkler sistemlerinin zonlara bölünmesi, tünellerde sıkça rastlanan bir yöntemdir. Burada zon büyüklüklerini ve kaç zonun aynı anda çalışabileceğini iyi belirlemek gerekir. Uygulamada genellikle iki ya da üç zonun aynı anda çalışacağı kabul edilir. Zon büyüklüğü ise, tünele girmesine izin verilen araç uzunluğu, tahmini yangın büyüklüğü, algılama sisteminin hassasiyet gibi parametrelere göre belirlenir. Avrupa ve Japonya'daki uygulamalarda, zon büyüklükleri 24 ila 50 metre arasında alınmaktadır. Toplam etki alanı uzunluğu da 50 ila 100 metre arasında değişmektedir
+
+Kaç sprinkler zonunun çalışacağını belirleyen, tüneldeki yangın algılama sistemidir. Algılama elemanları, uygun aralıklarla ve yeterli sayıda yerleştirilerek, sistem hassasiyeti kabul edilebilir düzeye ulaştırılmalıdır.
+
+Pratikte sıkça başvurulan yöntem, söndürme sistemlerinin, tünel operatörünün kontrolüne bırakılmasıdır. Algılama sisteminden gelen alarm, tünel operatörü tarafından değerlendirilerek, uygun görülen sprinkler zonlarının elle devreye sokulması söz konusudur. Bu sayede hatalı alarmların sonucunda söndürme sisteminin gereksiz yere devreye girmesi önlenmiş olur. Söndürme sisteminin başlatılmasının, tüneldeki insanların boşaltılmasından sonra yapılması konusunda çeşitli görüşler bulunmaktadır. Bir görüşe göre, tünel tamamen boşaltılmadan söndürme sisteminin başlatılmaması gerekmektedir. Bir başka görüş ise, tünel boşaltma süresinin, kazanın oluş şekline ve insanların davranışına bağlı olduğu, dolayısıyla tüm insanların tüneli terk etme süresinin değişkenlik gösterebileceği, bu nedenle söndürme sisteminin çok geç çalışması nedeniyle etkili olamayacağıdır.
+
+Türkiye Yangından Korunma Yönetmeliği'ne göre karayolu veya demiryolu tünellerinde otomatik sulu söndürme sistemi bulunması zorunlu değildir. Amerikan standartları NFPA 130 (Standard for Fixed Guideway Transit and Passenger Rail System,2010) ve NFPA 502 (Standard for Road Tunnels, Bridges and Other Limited Access Highways, 2011) de tünellerde otomatik sulu söndürme sistemlerini tarif etmemektedir.
+
+Japonya'da uygulanan talimatlar ise, tünel sprinkler sistemleriyle ilgili tasarım verileri içermektedir. Buna göre operasyon alanı uzunluğu 50 metreden az olmamalıdır, su yoğunluğu 6 mm/dk olmalı, çalışma süresi en az 40 dk olmalıdır. Japon kodu, 1000 metreden uzun tüm tünellerde ve 300 metreden uzun tünellerdeki trafik yoğunluğu ve iki yönlü trafik akışı durumlarına göre sprinkler sistemi yapılmasını önermektedir.
+
+Şimdiye kadar yapılan çalışmalar, otomatik sulu yangın söndürme sistemlerinin, tünellerdeki yangınları belli bir seviyeye kadar kontrol altında tutabildiğini göstermektedir. Bu sistemlerin kurulması, bazı yönetmelik ve kodlarda şimdilik tavsiye seviyesinde yer almaktadır. Mevcut olan elle söndürme sistemlerinin, diğer sistemlerle bütünleşmiş çalışmasının sağlanması, periyodik bakım ve testlerinin sürekli yapılarak sistemlerin sağlıklı çalışır durumda tutulması hayati önem taşımaktadır. Doğru işletilen ve takip edilen sistemler, çıkabilecek yangınların sonuçlarının felakete dönüşmesini önleyecek en önemli etkenlerden biridir.
+
+YANGIN TÜRLERİ ve YANGIN SÖNDÜRÜCÜ TÜPLER ve YANGIN DOLAPLARI
+
+YANGIN TÜRLERİ
+
+sınıfı yangınlar (katı) deri, odun, kömür, tekstil, kağıt, saman gibi katı maddeler ile doğal örtülerden çıkan yangınlardır. Bu tip yangınları söndürmek için tazyikli su ve ya köpük maddesi kullanılmalıdır. Soğutma ve yanıcı maddenin uzaklaştırılması ile söndürülebilir.
+
+sınıfı yangınlar (sıvı) benzin, gaz, mazot, kalorifer yakıtı, alkol, eter, yağ, boya, tiner, vernik gibi süratli yanan ve kolay alevlenebilen sıvı madde yangınlarıdır. Bu tip yangınları söndürebilmek için soğutma (sis halinde su ) ve boğma (CO2, köpük ve kuru toz) ile söndürülebilir.
+
+sınıfı yangınlar (gaz) likit petrol gazı, havagazı, hidrojen, metan, propan, asetilen gibi çok süratli ve patlayabilen ve alevlenebilen gaz madde yangınlarıdır. Bu sınıfa giren yangınların söndürülebilen için KKT (Kuru kimyevi toz) ve Halon gazlarının yerine kullanılabilecek FM-200TM gazı kullanılabilir. Gazı kaynağından keserek yangına müdahale edilmelidir. Elektrikli makina ve hassas cihazların yangınlarını da bu sınıfa dahil edebiliriz.
+
+Şekil 71. Yangın Türleri İşaretleri
+
+sınıfı yangınlar (elektrik ve hafif metaller) elektrik, alüminyum, magnezyum, sodyum, potasyum, lityum. bu tip yangınları söndürebilmek için yanan metale uygun söndürme maddesi (örnek; met l-x kimyevi toz) kimyasal reaksiyon sonucu söndürebilir. Kuru kimyevi söndürücüler de kullanılabilir.
+
+YANGIN SÖNDÜRME TÜPLERİ
+
+S Su ve sulu yangın söndürücüler, - '
+
+S (KKT) Kuru kimyevi toz,
+
+S (AFF) Köpüklü söndürücü
+
+S Halon gazları, FM-200 gazı,
+
+S MET LX
+
+Yangın söndürücü kullananların eğitim almaları gerekmektedir. Aşağıdaki tabloda yangın söndürücülerin doğru kullanımına ilişkin örnekler mevcuttur.
+
+Söndürme işlemlerinde aşağıdaki hususlara dikkat etmek gerekmektedir;
+
+S Yangın söndürücüyü düşey pozisyonda tutunuz.
+
+S Aşağıdan yukarıya ve önden arkaya doğru söndürünüz.
+
+S Araçlarda kaput üzerine değil havalandırma kanallarından içeriye ve motor altından müdahale ediniz.
+
+S Sıvı yangınlarda kuvvetlice söndürme maddesini yangına değil bir bulut halindeki kimyasalı püskürtünüz.
+
+S Sadece uygun yangın söndürücü ile müdahale ediniz.
+
+S Sulu söndürme cihazları yaklaşma mesafesi yaklaşık 3 metredir.
+
+Yangın küçük iken mücadele kolaydır. Bu nedenle yangına ilk müdahale çok önemlidir. Yeni başlayan yangını kontrol edebilmede Yangın Söndürücü Tüpler en uygun araçlardır.
+
+Amerikan Ulusal Yangından Korunma Birliği tünelin her iki duvarında maksimum 90 m'de bir tesis edilecek özel dolaplarda 9 kg kapasiteli yangın söndürücü tüpler önermektedir.
+
+Yol Kongreleri Daimi Uluslararası Birliği ise 6 kg'lık tüpler önermekledir.
+
+Yangın Mücadele Kabinleri içinde bulunan yangın tüpleri genelde elektrik tesisatı yangınları için kuru kimyevi tozlu, diğeri de araç yangınları için CO2 tüplü söndürücüdür.
+
+Yangın söndürücülerin yerinden algılandıklarını gösteren birer sensör bulunmaktadır.
+
+Ayrıca, kullanılmış ve boş söndürücülerin yanlışlıkla yerlerine takılmalarını önlemek için yetkili personelin kullanabileceği özel anahtarlı söndürücü askıları tesis edilmektedir.
+
+YANGIN DOLAPLARI
+
+Amerikan Ulusal Yangından Korunma Birliği tünel içindeki her noktanın bir yangın hidratına 45 m (150 ft) mesafede olmasını önermektedir.
+
+İngiliz Ulaştırma Bakanlığı ise 50 m'de bir yerleşecek Yangınla Mücadele Kabinlerine, eğer yerel itfaiye teşkilatı isterse, yangın hortumu da konulmasını istemektedir.
+
+Yangın hidrantlarına devamlı olarak bağlı duran yangın hortumları kullanıldığında hortum boylarının iki yangın hidrantı arasındaki mesafeden daha kısa olmaması
+
+önerilmektedir.
+
+1957 yılında, Hollanda'daki Velsen tünelinde bir yangın tam hidrantın önünde çıktığı ve komşu hidrantlardaki hortumlar yangına ulaşamadığı için önemli zararlara neden olmuştur.
+
+İngiliz Ulaştırma Bakanlığı da 45 m'lik hortumlar kullanılmasını önermektedir. Hidrant yerleşiminde, herhangi bir hidrant çalışmadığında iki yandan püskürtülen suların kesişmesi esas olmaktadır. Hortum bağlantı vanalarının devamlı açık pozisyonda durması, hortumun yerinden alınması ile su akışının otomatik olarak başlaması ve su kontrolünün lans üzerinden yapılmasını önermektedir.
+
+Genellikle yangın dolaplarının iki tünel tüpüne de açılan kapakları bulunmaktadır. Dolaplarda tünelin her iki tüpüne yönelik birer yangın hortumu bağlantı ağzı bulunmaktadır. Dolaplarda ayrıca sağa, sola dönebilir hareketli bir makaraya sarılı, içi kauçuk kaplı hortum bulunmaktadır.
+
+YANGIN ALGILAMA
+
+Bu kısımda tünelde yangının etkilerini en erken algılayacak, yangın algılama, uyarma ve kontrol sistemlerinin teknolojilerine ilişkin bilgiler verilmesi amaçlanmıştır.
+
+Tünellerde yangın algılama ve alarm sistemleri 1960'lı yıllardan bu yana kullanılmasına rağmen özellikle Avrupa'da 1999 ile 2001 yılları arasında yaşanan kazalar bu sistemlerin ne kadar önemli olduğunun daha çok anlaşılmasına sebep olmuştur. Diğer taraftan klasik yangın algılama cihazlarının tünellerde erken algılamanın yanı sıra asılsız uyarılar vereceği düşünülerek bu sistemlerin tesis edilmesi tereddüt konusu olmuştur. Özellikle son yıllarda gelişen algılama teknolojileri ile tünellerde asılsız alarm oranı düşük ve erken algılama yapabilen, aynı zamanda acil durum yönetimi sağlayabilen sistemler üretilmekte ve
+
+tesis edilmektedir.
+
+Tünellerde yangın algılaması için bakır boru ile yapılan doğrusal sıcaklık algılama sistemi uzun bir süre için en önemli teknoloji olarak kullanılmıştır. Son yıllarda bu sistemin dışında kablo tipi sıcaklık sensörü (içerisinde belirli aralıklarla sensör bulunan algılama kablosu, nokta belirten tipte), fiber optik sensör kablo, doğrusal kablo sensörler (nokta belirtmeyen tipte), kamera ile duman algılaması (video analiz), hava örneklemeli duman dedektörleri ve alev dedektörleri ile oluşan yangın algılama ve alarm sistemleri tasarlanmakta ve uygulanmaktadır. Tünel içinde yangının etkilerinin tespitinde kullanılan bu sistemlerin ya da yöntemlerin karşılaştırması aşağıdaki tabloda yapılmıştır. Ayrıca Doğrusal Sıcaklık Algılayıcı olarak kullanılan kabloların da farklı yakıt türlerinde oluşan yangınları algılama süreleri ile ilgili karşılaştırması da aşağıdaki tabloda verilmiştir. Tablolardan anlaşılacağı üzere yangının etkilerini hızlı tespit etmesi, yanlış alarm azlığı, tespit aralığı açısından “Kablo tipi sıcaklık sensörü” (içerisinde belirli aralıklarla sensör bulunan algılama kablosu) avantajlı durumdadır, Ayrıca montaj kolaylığı ve bakım gerektirmeyen özellikte olması da son zamanlarda en çok tercih edilen teknoloji olmasını sağlamıştır. Diğer yandan tipik araba yangının 10 m/s hava akımında 60 saniye içerisinde algılanması istenir. Bu açıdan da bakıldığında “Kablo tipi sıcaklık sensörü erken tespit sağladığı için tercih edilmektedir. Kablo tipi sıcaklık sensörü yanlış alarm riski çok düşük olduğu için havalandırma, duman yönetim, acil durum anons sistemlerinin otomatik olarak yönetiminde doğrudan kullanılabilir. Diğer duman algılayıcı sistemleri sadece operatörlere bilgi verir ve onların teyidinden sonra elle gerekli sistemlere yol verilir.
+
+Tablo 36.Tünellerde Yangın Tespiti İçin Kullanılan Sistemlerin Karşılaştırılması
+
+DSA: Doğrusal Sıcaklık Algılayıcı
+
+Tablo 37. Doğrusal Sıcaklık Algılayıcılarının Farklı Yakıt Yangınlarına Tepki Süreleri
+
+Doğrusal Kablo Tipi Sıcaklık Dedektörü özel olarak üretilen alev geciktirici ve halojen free bir kablo içerisine belirli aralıklarla yerleştirilmiş sensörlerden oluşmaktadır. Sistem; kontrol ve değerlendirme ünitesinden ve içerisinde sıcaklık sensörleri olan sensör kablosundan oluşmaktadır. Sensör kablosu doğrudan veya bağlantı kutusu üzerinden özel bağlantı kablosuyla bağlanabilir. Sensör kablolarının sonlandırmaları için sonlandırma elemanı kullanılır.
+
+Doğrusal Kablo Tipi Sıcaklık Dedektörü nem, duman, toz, titreşim, buzlanma, aşındırma ve EMI'den (Elektro Manyetik Alan) etkilenmeyerek zor şartlar altında çalışabilmektedir. Bu nedenle dedektör, tünellerde, ağır sanayilerde (demir-çelik, kereste fabrikası gibi), kablo galerilerinde, otoparklarda, iletim hatlarında, hava limanlarında, gemilerde, soğuk hava depolarında vb. mekânlarda yangın algılama sistemi kurulabilmesine olanak sağlar.
+
+Doğrusal Kablo Tipi Sıcaklık Dedektörünün kontrol ünitesi akıllı adresli yangın alarm santralleri ile RS-232 protokolü üzerinden Modbus haberleşmesi yapmaktadır. Sensör aralığı uygulamaya bağlıdır ve özgürce seçilebilir. Dallanmış kablo kurulumu mümkündür. Sıcaklık sensörlerinin her bir sabit adresleri sensörün tam fiziksel konumunu öğrenmeye olanak tanımaktadır. Kablo içerisinde yer alan tüm doğrusal kablo tipi sıcaklık dedektörleri santrallerde giriş cihazı olarak algılanmaktadır. Bu nedenle olay türü, bölge, mahal ismi, sebep/sonuç senaryolarında kullanılabilme gibi tüm giriş cihazı özellikleri doğrusal kablo tipi sıcaklık dedektörlerinde de tanımlanabilir.
+
+Uzun yıllardır kullanımda olmasına rağmen Doğrusal Kablo Tipi Sıcaklık Dedektörünün ürün standardı olan EN 5422 yakın geçmişte yayınlanmış ve ürünler belgelendirilmeye başlanmıştır.
+
+Şekil 72. Doğrusal Kablo Tipi Sıcaklık Dedektörleri Uygulama Örneği
+
+Kablo içerisinde art arda gelen sensörler gruplandırılarak doğrusal kablo tipi dedektörler oluşturulur. Her bir dedektör için ayrı ayrı alarm eşik seviyesi, farksal alarm eşik seviyesi ayarlanabilir. Dedektörler için alarm eşik seviyesinin ve farksal alarm eşik seviyesinin ön alarm oranı ayarlanabilir. Kontrol ünitesinin hangi aralıklarla ölçüm alacağı ve kaç ölçümde bir referans değerini otomatik olarak değiştireceği ayarlanabilir.
+
+Günümüzde kablo tipi sıcaklık dedektörleri özellikle uzun mesafeli metro tünellerinde, yangını erken tespit etmenin yanı sıra tünel içerisindeki sıcaklık bilgisinin alınması ve buna göre gerekli havalandırma sistemlerinin otomasyonu için veri sağlaması için de kullanılmaktadır. Yine metro tünellerinde bir çok enerji kablosu ve haberleşme kablosu, tünel boyunca taşınmaktadır. Kablo tipi sıcaklık dedektörleri, bu kablolarda oluşacak ısısal değişimleri de tespit etmede kullanılmaktadır. Karayolu tünelleri ile demiryolu tünelleri benzerlikler içerse de, demiryolu tünellerinde özellikle trenin yavaşladığı anlarda oluşan ısının kablo tipi sıcaklık dedektörleri tarafından algılanması söz konusu olabilir. Bu durumda yangın alarm santralinde ya da kontrol ünitesinde sebep/sonuç ilişkileri birden fazla sensörün ardışık algılaması üzerine kurulmalıdır ki asılsız alarmlar oluşmasın.
+
+Taşıt tüneli içindeki bir yangın ilgililere (Kontrol Merkezine) Yangın Algılayıcıların uyarısı ile bildirilmektedir. Algılayıcının, çevre sıcaklığı belli bir değere ulaştığında veya sıcaklık artış hızı belli bir değeri aştığında sinyal vermesi istenebilir. Bu durumda, isteğe uygun algılayıcı seçilmelidir.
+
+Şekil 73. Tünel Yangın İhbar Sistemi SCADA Ekran Görüntüsü
+
+PİARC raporlarına göre algılayıcıların arasının 25 m'den az olması ve 20 litre petrol yangınını algılaması önerilmektedir
+
+Tünellerde dumana hassas yangın algılayıcılar da kullanılabilmektedir. (Japonlar tünelleri her 15 m'de bir ışın tipi algılayıcı ile takviye etmektedirler.)
+
+Dumana hassas algılayıcılar ta/la miktarda toz bulunan veya nemli yerlerde yanlış ihbar verebilmektedirler. Bu sebeple fazla tercih edilmemektedir.
+
+Tek tek algılayıcılardan oluşmayan ancak tüm boyunca sıcaklık algılayıcı görevi yapan kablo türü algılayıcılar da mevcuttur. Bunlar, sıcaklık belli bir değeri aştığında ihbar vermektedirler. Ayrıca, ihbar mahallini tam olarak da belirleyebilmektedirler. Ancak, bu tip algılayıcılar sıcaklık artış hızına karşı duyarlı değildirler. Tünellerde genellikle çift prensipli
+
+Bir tanesi dakikada 5 °C, yüksek duyarlık,
+
+Bir tanesi dakikada 10 °C, zayıf duyarlık.
+
+Ölçüm sistemlerinin biri devreden çıktığında ikaz verilmekte, belirli bir süre içinde iki sistem de devreden çıkarsa Yangın Alarmı verilmektedir. Bundan başka, son bir emniyet olarak, her bir algılayıcı 58 °C'lik bir termostatik devreden çıkma tertibatı ile de donatılmaktadır. Algılayıcılar nemden, tünel gazlarından, tünelin yıkanmasından vb. koşullarından etkilenmeyecek korumada (IP 65) seçilmektedirler. Algılayıcılar elektronik tip olup, sıvı eleman veya deforme olabilecek diyafram ihtiva etmemekledirler.
+
+İhbar, Kontrol Merkezindeki panele iletilmekte, yangın yerini de belirten algılayıcı Panelden durdurulana kadar çalışmaya devam etmekte, çalıştırıldığında tekrar algılama
+
+yapabilmektedir.
+
+Tünel içinde yangını görenlerin tünel yönetimi ikaz edebilmesi için gerekebilecek araçlardan biri de Yangın İhbar Butonları' dır. İhbar butonları Kontrol Merkezi'ne alarm
+
+sinyali göndermektedir.
+
+Tünellerin geliş ve gidiş yönlerinde duvarda Yangın Geçiş Kapıları vardır. Bu kapıların her bir kanadına birer adet mikro anahtar konulmaktadır. Kapılar açıldığında Kontrol Merkezine "Kapı Açıldı/Yangın" ikazı gitmekledir. Araç tünellerindeki Özel Yangın Dolapları ve Yangın Tüpü Muhafazaları kapaklarında birer adet mikro anahtar vardır. Kapaklar açıldığında Kontrol Merkezine "Kapak Açıldı/Yangın" ikazı gitmektedir.
+
+Tozlu Yangın Söndürücü tüpleri yerinden alındığında buradaki mikro anahtar Kontrol Merkezine "Yerinden Alındı / Yangın" ikazı iletmektedir.
+
+Bu "İkaz" sinyallerinin "Alarm" durumuna dönüşmesi için Kontrol Merkezi'ndeki operatörün ihbarın gerçekçiliğini teshil ederek "Alarm" komutu vermesi gerekecektir.
+
+ACİL DURUM HAVALANDIRMASI (BOLU TÜNELİ ÖRNEĞİ)
+
+Bu kısımda yangın testi uygulaması nasıl olur, acil durum senaryoları nasıl hazırlanır konusu hakkında bilgilendirme yapılacaktır.
+
+Ele aldığımız örnek olan Bolu Tünelinde havalandırma tasarımlarına ilişkin Avusturya RVS 09.02.31 kılavuzu referans alınarak acil durum halinde tünel içindeki duman oluşumu hakkında fikir edinebilmek amacıyla, tünelin işletmeye alınmasının bir aşaması olarak yerinde sıcak duman testi gerçekleştirilmiştir.
+
+Yangın senaryosunda;
+
+SYangın Tespiti,
+
+SHavalandırma Sisteminin Tepkisi,
+
+S Trafik Kontrolü
+
+zincirinin elle müdahale olmaksızın otomatik olarak çalıştığının kontrolü yapılmaktadır. Test öncesi; yangın bölgesindeki tünel kaplaması, aydınlatma, trafik işaretleri, levhaları v.b. için dumana karşı koruma önlemleri alınmıştır. Bu korumaya yangın kabloları da dâhildir. Yangın kabloları korumalı olmakla beraber bir dakika içinde yangını tetiklemektedir. Elle müdahale sadece otomatik algılamanın korumadan dolayı gerçekleşemediği durumlarda söz konusudur.
+
+Genellikle elle aktivasyonda 90 saniyeye kadar bir gecikme kabul edilmektedir. Bolu Tünelinin en kesitinin büyüklüğü nedeniyle, tespit kotundaki sıcaklık fazla olmayacağı için algılama süresi daha uzun olabilir.
+
+2
+
+Yangın kaynağı 1'er m 'lik 2 adet yangın havuzu olup tünel içindeki en kritik mahale yerleştirilir. Havuzların yerden yüksekliği 50-80 cm aralığında olmakta ve her birine 20 litre benzin, 5 litre mazot konulmaktadır. Bu da yaklaşık olarak 2-3 MW yangın yüküne tekabül
+
+etmektedir.
+
+Sistemin kendini kurtarma safhası denilen ilk 10-15 dakika süresince persormansı izlenir. Burada;
+
+S Yangın (Olay) havalandırma programının otomatik olarak devreye girmesi (Fanların ve kontrol yazılımının performansı)
+
+S Çift tüplü tünellerde etkilenmeyen tüpteki havalandırmanın performansı,
+
+S Yangından etkilenen tünelde; yangının yayılma yönünde ve bunun tersi istikamette hava akış hızının ölçülmesi,
+
+S Yangın mahaline göre duman oluşumunun video kaydı incelenmesi,
+
+S Hava akımının hedef hıza ulaşma süresi izlenmektedir.
+
+Test Prosedürleri;
+
+Ön Hazırlıklar;
+
+S Duman testinin konumu yani bir ve iki numaralı yangın havuzların konumu belirlenir. Sağ taşıma yolunda 53,323 km, sol taşıma yolunda ise 61,671 km olarak belirlenmiştir.
+
+S Ekipmanların (aydınlatma, trafik işaretleri, yol işaretleri v.b.) ve yolun kaya yünü v.b. ile muhafazası yapılır.
+
+S Teste katılan personeller hava akımının yayılma yönü istikametinde tutulur.
+
+S Güvenlik amacıyla test mahalinde itfaiye ekibi hazır bulundurulur.
+
+S Test başlamadan en az 15 dakika öncesinde her iki tünel de trafiğe kapatılır.
+
+S Test başlamadan 5 dakika öncesinde itfaiye ekibince her bir havuza 20 litre benzin ve
+
+5 litre mazot konulur.
+
+Yangın Testi;
+
+S Sistemden tünel içindeki hava akış hızı yaklaşık olarak 1-2 m/s arasında olacak şekilde jet fanların çalışma aralığı ayarlanır.
+
+S İstenilen hava hızına ulaşıldığında itfaiye ekibi iki havuzu da ateşler.
+
+Şekil 74.Duman Testi Öncesi Yangın Havuzunun Ateşlenmesi
+
+S Yangın algılama kablosunun tepkisi beklenilir.
+
+S 90 saniye cevap alınmadığı takdirde, operatör yangın bölgesinde otomatik modu başlatır.
+
+Şekil 75. Yangın Havuzunun Oluşumu
+
+S İki adet ultrasonik anemometre ile hava akış hızları ölçülür.
+
+S Yangın sonrası duman oluşumu hava akışı yönünde iki adet kamera ile kaydedilir.
+
+S Yangına yakın yerdeki geçiş kapıları, paralel tünelde aşırı basınç senaryosunun çalışıp çalışmadığının görülebilmesi için açılıp kapatılır.
+
+Mütekip İşlemler;
+
+S Test hakkında kısa müzakere yapılır.
+
+S Test başarılı ise güvenlik önlemleri kaldırılır.
+
+DİĞER SİSTEMLER
+
+ACİL ÇAĞRI (SOS) VE SERVİS TELEFON SİSTEMLERİ
+
+Şekil 77. Tünel SOS Sistemi SCADA Arayüzü
+
+TELEKONTROL SİSTEMİ
+
+SCADA sistemi, tünel içerisindeki tüm sistemlerin verilerinin birbirileri arasındaki değiş tokuşu ve gerekli işlemlerin otomatik ya da kullanıcı komutları ile yerine getirilmesini sağlar. Tünel Kontrol Merkezi çevredeki tünellere ait sistemlerin idare ve kumandasının sağlanabileceği SCADA entegrasyonuna sahiptir.
+
+SCADA sisteminin özellikle kullanıcı grafik ara yüzü (GUI) kolay kullanılır bir yapıdadır. Bu arayüz içinde katmanlar halinde tüm alt sistemlere ve kullanım menülerine erişilir. Arşiv ve geleceğe yönelik bir takım trafik verilerinin analizleri de yazılıma modüllerle eklenebilir. Tünel merkezinde (redundant) yedekli bir yapı içeren donanım ve yazılımlar işlevine sahiptir. Bu sayede merkezdeki bir sunucunun arızalanması halinde yedek sunucu otomatik olarak ve derhal devreye girerek tünel işletimi ve yönetimini devam ettirir. Bir önemli durum da tünelin merkezi ile içindeki birimler arasındaki iletişim hatlarının
+
+Tünel aydınlatması tasarım hesaplarında Uluslararası Aydınlatma Komisyonu
+
+(CIE)'nin 1990 tarihli 88 nolu (Guide for The Lighting of Road Tunnels and Underpasses) yol tüneller ve alt geçitlerinin aydınlatması için kılavuz ve Avrupa Komisyonu'nun CEN CR14380:2003 E kodlu 2003 tarihli Tünel Aydınlatması adlı Teknik Raporları'ndaki öneriler baz alınmıştır. Tünel girişlerinde, tünel içinde ve tünel çıkışlarında sürücülerin gözlerinde rahatsızlık oluşmayacak ve en iyi görmeyi sağlayacak şekilde aydınlatma sağlanır. SCADA sistemi aydınlık seviyelerini Lüminansmetre ile izlenmekte ve buna en uygun aydınlatma düzeyi sistem tarafından otomatik olarak tespit edilerek devreye alınmaktadır.
+
+PIARC -1995 ve PIARC 2004 yol tünel standartları ve dokümana dayanan uluslararası kriterleri baz alınmıştır. Havalandırmadaki amaç; tüneldeki trafik durumlarına göre tünel içerisinde biriken insan sağlığına zararlı egzoz gazlarının yoğunluğunu insan sağlığına zarar vermeyecek minimum değere düşürerek temiz hava teminini sağlamaktır. Aynı zamanda yangın esnasında; oluşan zararlı gazları tünel dışına sürüklemektedir.
+
+NFPA 13-2003 Ulusal Yangından Koruma Birliği, BS İngiliz standartları, PN 16 basınç sınıfı, 26.07.2002 tarihli yangından korunması hakkındaki yönetmelik üç farklı tespit sisteminden faydalanılarak yangın sistemleri planlanmaktadır; doğrusal yangın algılama sistemi, optik duman detektörleri ile çift prensipli sıcaklık algılama detektörleri ve alarm düğmeleri ile yangın dolapları kapı kontaklarıdır.
+
+Farklı senaryolara göre farklı operasyon geliştirilebilmesi için kontrol birimleri ve PLC ler sistemde kullanılmaktadır. PLC birimlerinin sistem haberleşme ortamına bilgi aktarmalarının yanı sıra bu bilgilerin kademeli olarak diğer PLC ve kontrolör birimleri ile de paylaşılması temin edilir. Bu sayede tüm sistemin daha güvenilir ve acil durumlar altında daha güvenli çalışması sağlanmış olur.
+
+Telemetri sistemi aşağıdakileri kapsar.
+
+•	Tünel Alt Kontrol Merkezi
+
+•	Operatör İstasyonu
+
+•	SCADA Yazılımı
+
+•	Tünel Ana Kontrol Merkezi
+
+•	PLC Sistemi
+
+•	Haberleşme Ekipmanları
+
+Şekil 78. Tünel Telekontrol Sistemi
+
+Telekontrol sistemi, yukarıda kurulu olan tüm sistemlerin alt ve ana kontrol merkezi ile haberleşmesini, veri aktarımını ve SCADA ile irtibatını temin eden, tüm haberleşme ve kontrol sistemi ile; bilgisayar ağı (network) ve bunlara ait tüm ekipman ve yazılımları içeren bir sistemdir.
+
+Aşağıda Tünel SCADA sisteminden alınan PLC şeması verilmiştir.
+
+Şekil 79.Tünel SCADA Sistemi Arayüzü
+
+BUZLANMAYI ALGILAMA ve ÖNLEME SİSTEMİ
+
+Sert kış koşullarının, düşük sıcaklıkların olduğu yerlerde sis ve yoğun kar yağışı trafik güvenliğini olumsuz yönde etkileyebilmektedir. Ayrıca, yüksek boyuna eğimleri olan uzun ve yüksek viyadükleri barındıran yollarda, kendi yapısal özellikleri yolun geçtiği bölgeyi buz oluşumuna (özellikle viyadüklerin üzerinde ve tünel giriş ve çıkışlarında) oldukça yatkın hale
+
+getirmektedir.
+
+Bu nedenle bahsedilen hava koşullarında yol üzerinde buzlanmanın önlenerek sıvı olarak kalmasını garanti altına almak için yolun belirli kesimleri buz önleme meteorolojik gözetim ve tahmin sistemleri ile donatılmıştır.
+
+Şekil 80. Buz Önleme Sisteminin Genel Görünümü
+
+Buzlanmayı algılama ve önleme sistemi üç kısımdan oluşmaktadır;
+
+S Yol ve Hava Bilgi Sistemi (RWIS) meteorolojik gözetim ve buzlanma öncesi uyarı sağlar.
+
+S Sabitlenmiş otomatik sprey teknolojisi (FAST) kritik noktalara ve/veya yokuşlara lokal olarak eş zamanlı eriyik püskürtür.
+
+S Donanım ve yazılıma sahip bir bilgisayarlı sistem RWIS ve FAST'tan veri toplanması, depolanması, bu verilerin eş zamanlı olarak gösterilmesi ve istatistiksel hesaplamaların yapılması gerektiğinde operatörlerin sisteme doğrudan müdahalesine imkan sağlamaktadır.
+
+Şekil 83. Buz Algılama ve Önleme Sistemi Yazılımı Ekran Çıktısı
+
+Sistem, asfalt yüzeyine yerleştirilmiş algılayıcılar, kimyasal püskürtme başlıkları (valf), meteorolojik ölçüm noktaları, pompalar, eriyik depoları gibi ünitelerden oluşmaktadır.
+
+Örneğin Bolu Tünelinde kullanılan bu sistem de; tünelin her iki tarafı giriş ve çıkışlarında Viyadük 2, 3 ve 4 üzerinde her iki istikamette yavaş ve hızlı şerif taraflarından yola püskürtme yapan toplam 525 adet valf mevcuttur. Bunlarla yolun geliş ve gidiş istikametlerinin her birinde yaklaşık 2,6 km boyunca eriyik madde ile buzlanmaya karşı koruma sağlanmaktadır.
+
+310
+
+BÖLÜM 5
+
+TÜNEL BAKIM, ONARIM, İŞLETME FAALİYETLERİ
+
+312
+
+GİRİŞ
+
+Karayolu tünelleri birkaç yüz metreyi aştığında hem kullanıcıların güvenliği hem de yapı ve sistemlerin güvenliği açısından bazı ekipmanlarla donatılır. Tünelin kullanım ve yapısına bağlı (uzunluk, trafik yükü, tek ve ya çift yönlü trafik olması v.b.) elektromekanik sistemler (aydınlatma, havalandırma, güç kaynakları v.b.), iletişim sistemleri ve operasyonel aygıtlar (SCADA v.b.) kurulur. Özellikle güç kaynakları ve SCADA sistemi tüm tünel ekipmanı için anahtar rol oynar.
+
+Bu ekipmanlar kurulurken bakımı, muayenesi, yenileme gibi ihtiyaçları en baştan planlanmalıdır. Değişik üreticilerin değişik özellikte ürünleri kullanıldığından bakımlar karmaşık ve değişken olabilir. Ayrıca bakım sırasında tüm müdahale ile ilgili kısıtlamaları iyi planlamak gerekir. Yapının tamamen kapatılması gerekir mi? Müdahale süresi ne kadar, müdahale anında bakım personelinin güvenliğinin sağlanması gibi sorular cevaplanmalıdır.
+
+Tünellerin bakım çalışmalarının kapsamı ülkeden ülkeye değişebilmektedir. Bazı ülkelerde testler ve yenilemeler de bakımın kapsamında sayılır. İşletme ve bakım kapsamları ile ilgili PİARC 2012R12EN yayınında 31 üye ülkenin anket sonuçları aşağıda verilmiştir.
+
+Tablo 38. 31 PİARC Üyesi Ülkenin İşletme ve Bakım Kapsamları
+
+Tünel bakımları esnasında trafik kullanıcıları düşünülmeli ve bakım sürdürülürken kullanıcılara tam özgürlük sağlanmalıdır. Ayrıca bakım personelinin güvenliği sağlanmalı ve gereksiz harcamadan kaçınılmalıdır.
+
+Bakım faaliyetlerini koruyucu bakım ve düzeltici bakım olarak ayırabiliriz. Koruyucu bakımda malzemeler korunur ve tahmin edilemeyen bozuklukları giderilir. Düzeltici bakım ise yangın, su basması, büyük kazalar durumunda yapılır. Koruyucu bakım; sistemli bakım (periyodik bakımlar) ve koşullu bakım (performans ölçümü, aşınma ölçümü v.b.) olarak ayrılabilir.
+
+Tünelin işletilmesi yönünden en uygun olan tünelin, proje ve inşa kısmına katılan kişiler tarafından işletilmesidir. Tünel trafiğe açılmadan yapısal ve sistemsel bütün bilgileri temin edilmelidir. Tüm bakım talimatları yetkililerden (üretici, yüklenici v.b.) eksiksiz olarak temin edilmelidir. Tünel trafiğe açılmadan yapılacak testler bakım için belirleyici olacaktır.
+
+Tünele ait alt yapı ve sistemlerin muayeneleri belirli aralıklarla program dâhiline alınmalı, güvenlik dokümanları ve prosedürleri gözden geçirilmeli, personel eğitimleri aksatılmamalıdır.
+
+BAKIM FAALİYETLERİNİN TANIMLANMASI
+
+Tünelin içinde ve dışında, hem trafik alanında hem de teknik odalarda bir çok ekipman bulunmaktadır. Bunlardan bazıları için günlük bakımlar gerekirken bazıları için yıllarca bakım gerekmeyebilir. PİARC üyesi ülkelerde yapılan çalışmalar göz önüne alınarak bakım faaliyetleri 6 değişik seviye olarak açıklanmıştır.
+
+Tünel yapılarının temizliği (Tünelin duvarı, yol üst yapı, kaldırımlar, tavan, geçişler
+
+v.b.),
+
+Tünelde kullanılan ekipman ve cihazların temizliği,
+
+Testler, tetkikler, ölçümler, kalibrasyonlar,
+
+Planlanmış müdahaleler,
+
+Planlanmamış müdahaleler,
+
+Yenileme çalışmaları
+
+seviye belirli aralıklarla yapılan yapısal temizliklerdir. Teknik bilgi gerektirmeyen çalışmalardır. Tünelin yapısal elemanlarında biriken kirlerin nedenleri egzoz gazları, fren ya da teker aşınmaları, yakıt sızıntısı ve kaldırımlarda oluşan aşınmalar, kışın kar lastiği ve zincir kullanımı v.b. durumlardır. Tünelin uzunluk, eğim, trafik yoğunluğu, havalandırma performansı, kar lastikli araç yoğunluğu, ağır yük taşıyan araç yoğunluğu ve tünelde tehlikeli madde taşımacılığına izin verilip verilmemesi gibi nedenlere göre bu kirlilik miktarları değişir.
+
+seviye tünelde kullanılan donanım ve cihazların temizlik çalışmalarında biraz teknik bilgi gerekebilir. Cihazların temizliği esnasında yüksek ya da düşük voltaja kapılma gibi elektriksel ya da mekanik riskler olabileceği için çalışanların bu konularda eğitimli olması gerekir. Tünelin içinde kirliliğe maruz kalan ve süresi kirlenmeye göre değişen ekipmanlar için aşağıdaki çalışmalar yapılır;
+
+S Nişler ve acil çıkışlar süpürülür.
+
+S Operasyon odaları ve servis odaları süpürülür.
+
+S Kutular, kabinler ve elektrik panolarının tozu alınır.
+
+S Trafik alanındaki aydınlatma, trafik işaret ve levhaları ve kameralar gibi sistemler
+
+temizlenir.
+
+seviye bakım faaliyetleri tamamıyla teknik bilgi ve yeterlilik isteyen ölçüm ve kalibrasyon çalışmalarıdır. Bunlara örnek olarak aşağıdaki çalışmalar verilebilir;
+
+S Tek tek her bir cihaz sistem odasından kontrol edilir.
+
+S Normal güç sistemleri ve destek güç sistemleri kontrol edilir.
+
+S Bariyerler kapatılır, açılır.
+
+S Acil stop durumu dâhil güvenlik sistemi kontrolü yapılır.
+
+S Fan, VMS v.b. sistemlerin kontrolü yapılır.
+
+S Ortamın görsel doğrulaması yapılır, bağlantıları kontrol edilir (Aydınlatma, kesintisiz güç kaynağı v.b.)
+
+S Sensörlerin kalibrasyonları yapılır, sensör eşik değerleri kontrol edilir, elektrik ölçümleri yapılır (voltaj, yoğunluk, frekans, amplifikasyon kazançları v.b.)
+
+S Taze hava, rüzgâr ve duman ölçümleri kontrolleri yapılır.
+
+Şekil 84. Sabit Kamera Panel Bakımı
+
+seviye planlanmış müdahaleler; sistemlerin ve cihazların günlük, haftalık, aylık, üç aylık, altı aylık, yıllık şeklinde periyodik bakım faaliyetlerini oluşturur. Elektrik, elektronik, teknolojik bilgi ve tecrübe gerektiren bakım faaliyetleridir. Bunlara aşağıdaki faaliyetleri örnek gösterebiliriz;
+
+S Kirletici sensörlerinin filtre değişimi,
+
+S Motorların yağlanması,
+
+S Elektrik hatlarını gerginleştirmek,
+
+S Amplifikatörleri ayarlamak,
+
+S Aydınlatma kaynaklarını değiştirmek,
+
+S Kesintisiz güç kaynaklarının bataryalarını değiştirmek v.b.
+
+Şekil 85. Planlanmış Bakım Örnekleri
+
+seviye uygun personelle plan dâhilinde olmayan yangın, su baskını, trafik kazası gibi acil durumlara müdahaleleri oluşturur. Acil durum senaryolarına göre eğitimli personeller tarafından müdahale gerektiren faaliyetlerdir. Bu durumlar için önceden yapılabilecek çalışmalardan bazıları;
+
+S Personellerin eğitin faaliyetleri yapılmalı, eğitimsiz personeller müdahalede bulunmamalıdır.
+
+S Alt yüklenicilere gerekli eğitimler verilmiş olmalıdır,
+
+S Farklı zamanlarda acil durum senaryoları işletilerek tatbikatlar yapılmalı,
+
+S Sık kullanılan parçalardan (aydınlatma, filtre, sigorta v.b.) tükenen stokların kontrolü yapılmalı,
+
+S pLc ana kartı, olay algılama stokları gibi belirli malzemelerin kontrolleri yapılmalı gerekirse stokta tutulmalıdır.
+
+seviye ise kullanım ömrü dolmuş cihaz ve sistemlerin yenilenme faaliyetlerini oluşturmaktadır. Birkaç kıstasa göre yenileme faaliyetleri belirlenir;
+
+S Ekipmanda kullanıcı ve operatör personel için risklerinin artması,
+
+S Ekipmanda onarılamaz hata (elektrik trafo yangını, fanın çarkının kırılması v.b.)
+
+S Aynı ekipmanda sık sık arıza çıkması,
+
+S Ekipmanın yedek parça yetersizliği,
+
+S Aydınlatma, havalandırma gibi sistemlerin performans düşümü,
+
+S Trafik koşullarının değişmesi (Trafik yoğunluğunun artması, ağır yük ve tehlikeli madde taşımacılığına izin verilmesi v.b.)
+
+S Yasal zorunluluklar
+
+Sistemin tümünü ya da bir kısmını yenilemek aşırı maliyetli olabilir. Bu sebeple ihtiyatlı bir yenileme planı yapmak gerekmektedir. Bu planlarda tahminler mümkün olduğunca net olmalıdır.
+
+Farklı ekipmanların kullanım ömrünü bilmeden yenileme planı yapmak mümkün değildir. Tünel içinde ve dışında farklı üreticilerin ürettiği çok sayıda cihaz mevcuttur. Birkaç yılda teknolojik değişimler nedeniyle havalandırma, güç sağlayıcı sistemleri, kamera sistemleri v.b. teknolojileri değişebilmektedir. Bu sebeple gelişen teknolojilerin yakından takip edilmesi gerekmektedir.
+
+BAKIM YÖNETİM SİSTEMİ
+
+Tünel İşletme Yöneticisi koruyucu ve düzeltici bakım faaliyetleri için uygun bakım programlarını hazırlamalıdır. Bu programlar hazırlanırken akıldan çıkarılmaması gereken maliyet ve güvenlikte dengeyi kurmaktır. Her bir ekipmanın ortalama kullanım ömrü, yıllık maliyeti, ilk yatırım maliyeti, beklenen bakım giderleri, servis giderleri, trafik maliyetleri ve ilgili müdahale maliyetleri istatistiki olarak tutulmalıdır. Maliyetler düşünülerek gerekirse alternatif bakım programları hazırlanmalıdır.
+
+Personeller özellikle planlanmamış müdahaleler gerektiren durumların yüksek potansiyeli olduğunu bilerek zaman, personel ve malzeme eksikliği gibi sorunlar yaşamamak için önceden önlemini almalıdır. Çünkü ekipman eksikliği ve oluşacak herhangi bir aksaklık tüm sistemi etkileyebilir ve müdahale süresine bağlı olarak onarımı uzun sürebilir.
+
+Bakım yönetiminin kapsamı;
+
+S Çalışma ve müdahalelerin planlanması,
+
+S Göstergelerin takibi,
+
+S Masrafların yönetimi,
+
+S Geçici bütçe düzenlenmesi,
+
+S Alt yüklenicinin yönetilmesi,
+
+S Bakım personellerinin eğitimi ve yönetilmesi olarak sayılabilir.
+
+Koruyucu ve düzeltici bakım faaliyetleri için hazırlanan programlarda aşağıdaki hususlara dikkat etmek gerekir;
+
+S Müdahale süresi belirlenmeli,
+
+S Gerekli personel sayısı belirlenmeli,
+
+S Dışarıdan gerekecek personel sayısı belirlenmeli (alt yüklenici, polis, itfaiye personelleri v.b.)
+
+S Erişim planı yapılmalı,
+
+S Muayene için talimatlar hazır olmalı,
+
+S Önlem amaçlı trafik levhaları hazır olmalı, tüm trafik düzeni düşünülmeli (Bakımlarda tüm güzergâhın bakımını tek seferde yapmak önemlidir.),
+
+S Anemometre, luminansmetre, lüksmetre, voltmetre v.b. ölçüm cihazları hazır olmalı,
+
+S Pick-up, sepetli vinç, vakumlu süpürge v.b. araçla müdahale gerektirecek sistemler
+
+için bu araçlar hazır tutulmalı,
+
+S Çizimler, diyagramlar, performanslar v.b. hazırlanmalı, formlara işlenmeli, önceki sonuçlarla karşılaştırılmalı ve bir sonraki müdahale planları yapılmalıdır.
+
+TEKNİK BAKIMLAR VE ÖNERİLER
+
+Bakımı yapılan ekipmanları genel ekipmanlar ve yönetim ekipmanları olarak ikiye ayırabiliriz.
+
+Genel ekipmanlar (Kısa Liste);
+
+S Güç sağlama ve dağıtım sistemleri,
+
+S Aydınlatma,
+
+S Havalandırma ve duman yoğunluğu cihazları,
+
+S Sabit trafik yönlendirme cihazları,
+
+S Yangınla mücadele ve borulama bağlantıları,
+
+S Sıvıların boşaltılması (toplama, pompalama, boşaltma),
+
+Yönetim ekipmanları (Kısa Liste);
+
+S Süpervizör kontrolü ve veri edinme, PLC aletleri, veri hatları, ağlar,
+
+S Uzaktan izleme ve otomatik kaza algılama (olay algılama),
+
+S Değişken mesaj panelleri,
+
+S Acil durum çağrı hattı,
+
+S Radyo iletimi,
+
+S Tünel içi yangın algılama,
+
+S Araç sayım ve gabari ölçümü,
+
+S Diğer ekipmanlar (Giriş kontrolü, telefon, itfaiye, kaçış odaları, buz algılama v.b.)
+
+Teknik bakımlar rutin (günlük, haftalık, aylık gibi) olduğu gibi bazı özel dönemlerde de olabilir. Tünel trafiğe açılmadan önce ilk detaylı teknik muayene ve kontroller yapılır. Bunun sonucu detaylı teknik muayene raporları tünel yöneticisine sunulur. Bu raporlarda;
+
+S Tünel yapısının (Tünelin genel yapısı, galeriler, servis odaları, havalandırma bacaları, kontrol odaları, servis odaları v.b.) ve ekipmanlarının tasarım kontrolü,
+
+S Yol üst yapı, yolun geometrik özellikleri, yüzey işaretleme, yüzey kalitesi, kaldırımlar v.b. inşa raporları,
+
+S Referanslarıyla; yangın dayanımı, yapının su geçirmezliği, korozyon koruması
+
+(boyama, galvanizleme, kaplama, anodizasyon v.b.) raporları,
+
+S Havalandırma, aydınlatma, kontrol odası, radyo, kamera v.b. sistemlerin performans raporları ile ilgili özel testler ve bakım kılavuzları,
+
+S Tüm sistemlerle ilgili kapsamlı tünel dokümanları (As-built çizimler, bakım raporları, bakım planları v.b.) yer almalıdır.
+
+Hazırlanan raporlarda cihaz ve donanım durumlarının tespiti amaçlı derecelendirme sistemi kullanılabilir. Burada tüm tünel ekipmanları için ayrı ayrı ya da sistemin bütünü için
+
+notlar verilir. En iyi yol sistemsel olarak ekipman ailesine not vermektir. Yani elektrik güç kaynakları, havalandırma, aydınlatma, SCADA gibi gruplar için derecelendirme sistemleri verilebilir. Bazı ülkeler 10 puan üzerinden derecelendirme yaparken daha çok 4 derece sistemi kullanılıp muayene sonuçlarına göre çok iyi, iyi, kötü, çok kötü şeklinde derecelendirme yapılmaktadır.
+
+Yapılan muayeneler sonucunda oluşturulacak muayene raporlarında aşağıdaki bilgilerin bulunması gerekir;
+
+S Tünelin ismi,
+
+S Tünelin bulunduğu lokasyonu,
+
+S Muayene tarihi,
+
+S Muayene yapanın ismi, görevi,
+
+S Ekipman düzeneğinin adı, tanımı, açıklaması,
+
+S Ekipmanın bulunduğu (müdahalenin yapıldığı) mevki,
+
+S Alınan ölçüm ve sonuçlar,
+
+S Alınması gereken acil önlemler,
+
+S Değerlendirmeye bağlı sonuçlar, resim ve fotoğraflar, notlar,
+
+S Bir diğer muayene tarihi,
+
+S Bir sonraki muayenede yapılması gerekenler,
+
+S Onaylayan yöneticinin adı ve unvanı.
+
+Periyodik bakımlar ile ilgili PİARC üyesi ülkelerin oluşturmuş olduğu komisyonlar sonucunda önermiş oldukları bakım dönemleri ile bakım sırasında bakım personeli ve trafik açısından risk durumları aşağıdaki tabloda verilmiştir.
+
+*1 ) Güç kaynağı birden fazla sayıda ise düşük
+
+*2) Güç kaynağı tek ise yüksek
+
+*3) Havalandırma fanları teknik odalarda ise düşük
+
+*4) Jet fanlar tünelin içindeyse yüksek
+
+*5) Havalandırma düzenlemeleri trafik analizleri ile bağlantılı ise orta olabilir.
+
+Tablo 39. Tünellerde Kullanılan Sistemlerle İlgili Bakım Aralıkları ve Riskler
+
+Ekipmanlarla ilgili testleri performans testleri ve fonksiyonel testler olarak ikiye ayırabiliriz. Performans testlerinde yapılması gerekenler ile ilgili PİARC'ın vermiş olduğu öneriler aşağıdaki tabloda verilmiştir.
+
+PERFORMANS ÖLÇÜMLERİ
+
+Tablo 40. Tünel Sistemleri Performans Testleri Gereklilikleri
+
+Gabari Ölçümü ve Araç Sayım Sistemleri Yapılan ölçümlerin ulaşım süresi ve doğruluğunun kontrolü
+
+Tablo 41. Tünel Sistemleri Performans Testleri Gereklilikleri (Devamı)
+
+Tablo 42. Tünel Sistemleri Fonksiyonel Testleri Gereklilikleri
+
+Tablo 43. Tünel Sistemleri Fonksiyonel Testleri Gereklilikleri (Devamı)
+
+ÜLKEMİZDE TÜNEL TEKNİK BAKIMLARI
+
+Kuruluşumuzun sorumluluğundaki yollarda, yapımı biten ve bakıma teslim edilen tünellerin, güvenli bir şekilde işlemesini sağlamak ve tünel güvenliğini artırmak amacıyla tünel tesislerinin periyodik kontrol ve bakımları yapılmaktadır.
+
+Tünelde bulunan tüm sistemlerin periyodik bakımlarının amacı; trafik seyrinin güvenli ve hızlı bir şekilde sağlanması, acil durumlarda can ve mal güvenliğinin sağlanması, elektrik, elektronik ve elektromekanik sistemlerin sağlam ve çalışır durumda bulundurulmasıdır.
+
+Bunun için sistemin günlük kontrollerinin yanında cihazların özelliğine göre haftalık, aylık, 3 aylık, 6 aylık ve 1 yıllık bakımları yapılmaktadır.
+
+Bakımlarda, ekonomik ömrünü doldurmuş ve tamir edilemez parçaların değiştirilmesi, görev ve fonksiyonunu tam yapamayan cihazların onarılmasının yanında cihazların çalışma koşullarını uygun hale getirerek sonradan meydana gelebilecek arızaların önüne geçilmesi
+
+hedeflenmektedir.
+
+Cihazların elektriksel bakım ve kontrolünün yanında çevre koşullarının yarattığı olumsuz etkilerden arındırılması gerekmektedir. Tüneldeki egzoz kirliliği sistem cihazları üzerinde zamanla yarı iletken bir tabaka oluşturmakta bu da cihazlarda arızaya yol açmakta ve sistem çalışmaz duruma gelmektedir. Bakımlarda cihazların çevre koşullarından etkilenmemesi için tedbir alınmalı ve oluşmuş olan egzoz ve toz kirliliği uygun araç ve gereç ile giderilmelidir.
+
+Periyodik kontrol ve bakımın süresi içinde yapıldığı hususu yine ekte bulunan formlara işlenerek tanzim edilecektir. Bu formlar tünellerin kendine özgü yapısı ve sistemler dikkate alınarak her tünel veya grup tüneller için Tünel Bakım İşletme Şeflikleri tarafından, Tünel Bakım İşletme Şefliği olmayan yerlerde Bakım Başmühendislerine bağlı Tünel Bakım
+
+İşletme Mühendislerince revize edilecektir/
+
+Tünel Bakım İşletme Şefliği eliyle yönetilen tünellerin periyodik kontrol ve bakımları ile bakıma ilişkin formların doldurulması, ilgili Tünel Bakım İşletme Şefliği tarafından yapılacaktır.
+
+Tünel Bakım İşletme Şefliği bulunmayan tünellerin periyodik kontrol ve bakımı ile bakım formlarının doldurulması, tüneller hangi "Şube Şefliği" hudutları içerisinde ise Bölge Müdürlüğünün desteği ile bu Şube Şefliği eliyle yapılacak ve her bir tünel için bir dosya tanzim edilecektir. Hazırlanacak talimatlarda işlem basamakları, gereksinimler, trafiğe etkisi, süresi v.b. bilgiler yer almalıdır. Hazırlanacak talimatların içeriği ile ilgili aşağıda Bolu Dağı Tünelinden alınan bir örnek gösterilmiştir.
+
+YANGIN İHBAR SİSTEMİ (EST 3 ALARM PANELİ) BAKIM İŞLEM BASAMAKLARI
+
+Gerekli Güvenlik Önlemler Alınarak VC-1, E1-10 Da Bulunan Yangın İhbar Panellerinin Bulunduğu Ankara Sağ Şerit trafiğe kapatılır.
+
+Tünel içerisinde çalışacak teknik personel iş sağlığı ve güvenliği kapsamında gerekli önlemleri ve gerekli teçhizatlarını alarak çalışma alanına gider.
+
+Kontrol Merkezinde bulunan Yangın İhbar Ana Sistem panosuna yetkili firma bilgisayarı bağlanır.
+
+Tüm tesis içinde bulunan duman dedektörleri duman üfleme aparatı ile test ederek dedektörün algılayıp panele veri gönderdiği gözlemlenir.
+
+Yangın butonları buton anahtarı ile test edilip Yangın alarm paneline alarmın düşüp düşmediği gözlemlenir.
+
+Sistemde bulunan Vc1,E1-10,Kontrol Merkezi Ve Asarsuyu Dağıtım Binasında bulunan Yangın İhbar Panelindeki Arızaları alarak tüm arızaları giderilir.
+
+Yangın İhbar Sisteminin enerji beslemesi ve akü beslemesi kontrol edilir. Panellerin iç ve dış yüzeylerin temizliği ve bakımı yapılır.
+
+Yangın alarm paneline tüm test raporlarının düştüğünü kontrol ederek bilgisayar üzerinden program ile rapor çıktısı alınır.
+
+Yetkili firma tarafından alınan rapor çıktısı ile firma raporu hazırlanarak şantiye şefine onaylatılarak idareye teslim edilir. Oluşturulan rapor (Form 20) Şantiye şefine onaylatılarak idareye teslim edilir. Onarım yapılamayan arızalar mevcut ise şantiye şefi ilgili firmaya bildirir.
+
+EST3 YANGIN ALARM PANELİ 3 Aylık Kontrol ve Bakım Talimatı
+
+Kullanıcı veya tesis sahibi en az üç ayda bir aşağıdakilerin kontrol edilmesini sağlanacaktır:
+
+Sistem kütüğündeki bütün kayıtların kontrol edilecek ve sistemi doğru çalışma durumuna getirmek için gereken işlemler yapılacaktır.
+
+Gerekli güvenlik önlemleri alınarak Tünel içi Sağ şeritlerin trafiğe kapatılacaktır.
+
+Her bölgede en az bir dedektörün ve bir alarm butonunun çalıştırılacak, kontrol ve gösterge teçhizatı doğru sinyali alıp gösterecek, alarmı çalıştırma ve diğer ikazları ve yardımcı cihazları harekete geçirme durumu kontrol edilecektir.
+
+Kontrol ve gösterge teçhizatı arıza izleme fonksiyonları kontrol edilecektir.
+
+Kontrol ve gösterge teçhizatı kapı tutma ve kapı açma fonksiyonu kontrol edilecektir.
+
+İzin verilen hallerde itfaiye ve insanlı uzak merkez bağlantı hatları çalıştırılacaktır.
+
+Montajcı, tedarikçi ve imalatçı tarafından belirtilen bütün diğer kontroller ve testler yapılacaktır.,
+
+Alarm butonları, dedektörleri ve ses cihazları yerleşim şartlarını etkileyebilecek yapısal değişikliklerin ve bina kullanımındaki değişikliklerin olup olmadığı sorulacak, varsa gözle muayenesi yapılacaktır.
+
+Gözlemlenen arızalar sistem kütüğüne kaydedilecek ve ilgili forma Form 20 işlenecektir.
+
+İşlenen form şantiye şefine onaylatılıp idareye teslim edilecektir.
+
+EST3 YANGIN ALARM PANELİ YILLIK KONTROL VE BAKIM TALİMATI
+
+Kullanıcı veya tesis sahibi en az yılda bir kez aşağıdakilerin kontrol edilmesini sağlayacaktır:
+
+Tavsiye edilen aylık ve üç aylık bakım ve kontroller yapılacak.
+
+İmalatçının tavsiyelerine uygun olarak bütün dedektörlerin doğru çalışması kontrol
+
+edilecektir.
+
+Kontrol ve gösterge teçhizatının yardımcı fonksiyonları çalıştırma kabiliyeti kontrol edilecek.
+
+Bütün kablo bağlantılarının ve teçhizatın sağlam, hasarsız ve yeteri kadar korunmuş olduğu gözle muayenesi sağlanacak
+
+Yapısal değişikliklerin ve bina kullanımındaki değişikliklerin alarm butonlarının, dedektörlerin ve ses cihazlarının yerleşim şartlarını etkileme durumu gözle muayene edilecek.
+
+Her dedektörün altında en az 0,5 m mesafenin ayrıldığı ve bütün alarm butonlarının serbestçe erişilebilir ve görünür olduğu gözle muayene edilecek.
+
+Bütün bataryalar teste tabi tutulacak. Belli bir değerin altında olanlar yenileri ile değiştirilecektir.
+
+Gözlemlenen arızalar sistem kütüğüne kaydedilecek(alarm paneline bağlanan Pc de kayıt altına alınacak ve rapor halinde idareye teslim edilecek) ve mümkün olan en kısa sürede düzeltici faaliyet yapılacaktır.
+
+İHTİYAÇLAR
+
+NOT: Bakıma çıkılmadan önce yukarıdaki malzemeler temin edilir.
+
+Tünellerde yapılan bakım hizmetleri iki kısma ayrılır;
+
+S Yapısal bakım
+
+S Elektrik, elektronik ve elektromekanik sistemlerin bakımıdır.
+
+YAPISAL BAKIMLAR
+
+Yapısal bakımı; taşıt yolu bakımı, tünel yıkama, drenaj bakımı, tünel kaplaması bakımı, tünel giriş-çıkış portalları kontrolü ve kar-buz mücadelesi başlıkları olarak
+
+incelenecektir.
+
+TAŞIT YOLU BAKIMI
+
+Bilindiği üzere tüneller kapalı yapılar olduğundan özellikle aydınlatması olmayan tünellerde taşıt yolunun arızalarını göz görüş mesafesinde sürücülerin görmesi mümkün değildir. Bu nedenle trafik güvenliğinin tehlikeye düşmemesi ve kazalara sebebiyet vermemek için satıhta çökmeler, oturmalar, ondülasyonlar ve çukurların olmaması gerekmektedir. Meydana gelen bu hususlar ivedilikle onarılmalıdır.
+
+Tünel içinde bulunan taşıt yolu beton, sathi kaplama, BSK ve parke olmaktadır. Tünel taşıt yolu hangi kaplama cinsine sahip ise bakım ve onarımı Tesisler ve Bakım Dairesi Başkanlığınca yayınlanan “Karayolu Bakım El Kitabına” göre onarılacaktır.
+
+TÜNEL YIKAMA
+
+Tünel yıkanması ve temizliği periyodik olarak yapılır. Bu çalışmada aşağıdaki
+
+hususlara dikkat edilir;
+
+S Basınçlı hava ve kuru fırçalar kullanılarak tünel tavanı aydınlatma tavaları, aydınlatma armatürleri, trafik işaret cihazları, jet fanlar, harici anons hoparlörleri ve tavanda
+
+bulunan diğer cihazlar temizlenir, armatürler ve hoparlörler alkol, deterjan ve bez ile temizlenir.
+
+S Tünel duvarları fırçalı tünel yıkama aracı ile temizlenecektir.
+
+S Gerekli emniyet tedbirleri alındıktan sonra tünel iç duvarları su ile yıkanacaktır.
+
+S Elektrikli cihazların izolasyonu kontrol edilmeden cihaz üzerine ve cihazın bulunduğu bölgelere su tutulmayacaktır.
+
+S Tünel yıkamasında CO ve VIS cihazı ile rüzgâr hızı ve yönü tespit cihazları üzerine ve çevresine su yaklaştırılmayacaktır. Bunun için bu cihazlar torbalar ile korunacaktır.
+
+S Tünelin yıkanmasında sağ duvarlara tutulan su yangın hidrantlarından alınacaktır. Sol duvarlar yıkanırken arazöz kullanılacaktır.
+
+S Yıkama sırasında yangın tüp dolapları, Yangın hortum dolapları ile SOS dolapları
+
+temizlenecek, pano ve dolap içlerine giren sular temizlenecektir.
+
+S Yıkama sırasında acil aydınlatma floresanları devre dışı (kapalı) olacaktır. Floresan ampul ve armatürleri ıslak iken bez ile temizlenecektir.
+
+S Tünelin yan duvarlarındaki suyu toplayıp dışarı atan ana temizleme borularına su basılarak suyun tünel dışına çıkması ve boruların temizlenmesi sağlanacaktır.
+
+S Tünel elektrik odalarının demir kapıları ve acil geçiş kapıları üzerindeki egzoz kirliliği giderilecek, kapı conta ve şeritlerindeki yalıtım sorunları giderilecektir.
+
+S Tüneldeki elektrik odalarına egzoz dumanı girmemesi için silikon ve köpük ile izolasyon çalışması yapılacaktır.
+
+S Demir kapı ve pencerelerdeki eskimiş sineklik telleri değiştirilecektir
+
+S Araç ve yaya geçiş kapılarında boya ve paslanma olan kısımların tamiri yapılıp menteşelerin yağlanması sağlanacaktır.
+
+S Araç acil geçiş kapıları ve zincirleri açılıp kapatılarak çalıştıkları kontrol edilecektir.
+
+S Geçit önlerindeki korkulukların temizliği yapılacaktır.
+
+S Görülen sorunlar giderilecek ve doldurulacaktır.
+
+Şekil 86. Tünel Yıkama Örneği
+
+DRENAJ BAKIMI
+
+Drenaj kanalları ile boru ve büzlerinin doğru bir şekilde çalıştığını teyit etmek için her altı ayda bir aşağıdaki işlemler yapılmalıdır;
+
+S Drenaj boru kanallarına su verilerek kanalın açık olduğu teyit edilir,
+
+S Drenaj büzlerine basınçlı su verilerek kanalın açık olduğu teyit edilir,
+
+S Drenaj borularına basınçlı su verilerek kanalın açık olduğu teyit edilir.
+
+Yapılan bu işlemlerden sonra kanallarda, borular ve büzlerde daralma ve tıkanıklık mevcut ise uygun araç ve gereçlerle giderilecektir.
+
+TÜNEL KAPLAMASI BAKIMI
+
+Tünel kaplaması betondan teşkil etmiş ise, tünel yan duvarlarında ve kemer kısmında kaplama betonunun kontrolü yapılarak, betonda kopma, ayrılma, ayrışma, açılma olup olmadığı tespit edilir. Yapılan kontrolde tehlike arz edecek bir durum tespit edildiğinde teknik yönden detaylı inceleme ve araştırma yapılması hususunda üst makama bilgi verilir.
+
+Yapılan tetkikler sonucunda taşıma gücü yönünden yapısal bir problem olmadığı hususuna karar verildiğinde, problemin meydana geldiği kesimler acilen önerilen tamir metoduna göre onarılacaktır.
+
+Tünel kaplama betonu üzeri taş v.b. benzeri malzeme ile kaplı tünellerde bu malzemenin trafiğe herhangi bir tehlike oluşturmaması için gevşek malzemelerin adetleri
+
+tespit edilerek sabit hale getirilecektir.
+
+GİRİŞ VE ÇIKIŞ PORTALI KONTROLÜ
+
+Tünele giriş ve çıkışların güvenliğinin sağlanabilmesi için; tünel portallarında her iki tarafta tünel alınlarında, şevlerde tüneli ve tüneli kullananları tehdit eden akma, dökülme, şev kayması, düşmeye müsait kaya v.b. taşların olup olmadığı kontrol edilerek, tehdit unsurları ortadan kaldırılır.
+
+KAR VE BUZ MÜCADELESİ
+
+Tünel içerisindeki sıcaklığın donma derecesinin altında olduğu bölgelerde, aktif sızıntının olduğu yerlerde buz oluşur. Taşıt yolu üzerinde buz oluştuğu takdirde trafik güvenliği tehlikeye düşeceğinden buzlanmanın oluşmasını önlemek amacıyla buz çözücü maddeler kullanılması gerekmektedir. Yüksek sızıntının olduğu yerlerde, kemer yan duvarlarından akan sular yaya kaldırımından akarak taşıt yoluna doğru büyük çaplı buz kütleleri oluşturabilmektedir.
+
+Ayrıca kemer üstündeki sızıntılar nedeniyle büyük ebatlı buz sarkıtları da oluşmaktadır.
+
+Tüm bu buz oluşumlarının Tünel içinde seyreden trafiği tehlikeye düşürmemesi için özellikle kış aylarında donma etkisinin ve sızıntının olduğu yerlerde Tünelin sürekli kontrol edilerek, oluşan buzların ve sarkıtların kaldırılması gerekmektedir.
+
+Ayrıca, Tünel girişinden Tünele belli bir mesafe içerisinde kar ve buzun toplanabileceği benzer bölgelerde yolda karın kalmaması ve buzlanmanın oluşmaması sağlanacaktır.
+
+ELEKTRİK-ELEKTRONİK VE ELEKTROMEKANİK SİSTEMLERİ BAKIMI
+
+Bu bölümde bakım sırasında uygulanacak çalışma düzeni, alınacak emniyet tedbirleri ve sistemlere ait periyodik bakımlarla ilgili öneriler yer almaktadır.
+
+BAKIMDA UYGULANACAK ÇALIŞMA DÜZENİ
+
+Bakım sırasında uygulanacak çalışma düzeni ile ilgili öneriler aşağıda listelenmiştir;
+
+S Bakım teknisyeni olarak görevli personelden bir kişi devamlı olarak gündüz vardiyasına gelecek, diğer teknisyenler vardiya çizelgesine göre çalışacaktır. (vardiya zamanlarını ve sürelerini idare belirleyecektir.)
+
+S Her sabah teknisyen arıza ve bakım dosyasını mühendise sunacak ve periyodik bakım işlemine bundan sonra başlayacaktır. Vardiyası biten teknisyen vardiyası başlayan teknisyene ve elektrik-elektronik mühendisine vardiyası süresince yapılan çalışma ve olaylar ile ilgili bilgi verecektir.
+
+S Periyodik bakımın uygulanmasını gündüz vardiyasında çalışan teknisyen sağlayacaktır.
+
+S Periyodik bakım; periyodik bakım kılavuzunda belirtilen şekilde ve zamanında yapılacaktır.
+
+S Bakım zamanında sapma olursa en kısa sürede aksayan bakım işlemi yerine getirilecektir. Yapılan bakım çalışmasına uygun form doldurulacaktır.
+
+S Günlük kontroller her vardiya tarafından mutlaka yerine getirilecek ve form 01; form 02 doldurulacaktır. Günlük kontrolleri yerine getiremeyen teknisyen tutanak tutarak gerekçesini açıklayacaktır.
+
+S Bakım için gerekli araç gereç ve ekipman önceden temin edilip bakımın güvenli bir şekilde doğru olarak yapılması sağlanacaktır.
+
+S İş yerine ait hiçbir malzeme dışarıya götürülmeyecektir (özel işler veya diğer işletmeler için) atölye malzemeleri bütün teknisyenlere zimmetli olacak ve malzemenin kaybedilmesi durumunda o ay içinde aynı marka ve model malzeme kaybeden tarafından temin edilecektir.
+
+S İş yerine dışarıdan bakım ve onarım amaçlı iş (özel veya başka işler)
+
+getirilmeyecektir.
+
+S Elektrik elektronik sisteminin onarılan; yeni takılan veya tekrar kullanılmamak üzere
+
+sökülmüş durumdaki parçaların üzerine mutlaka etiket yapıştırılacaktır. Etikette tarih, yapılan işlem, kullanım yeri yazılacaktır.
+
+S Ortak kullanım alanlarında (atölye, eğitim salonu, kontrol odası, büro vb.) Özel eşyalar bulundurulmayacaktır, özel eşyalar odalarda tutulacaktır.
+
+S Günlük kontrollerin amacı sadece sorunları tespit etmek değildir. Kontrol sırasında tespit edilen sorunlar giderilmeye çalışılacaktır.
+
+S Elektrik bakım teknisyenleri diğer şef ve amirleri tarafından bir işe görevlendirildiğinde işe başlamadan önce elektrik mühendisine bilgi vereceklerdir.
+
+S Elektrik bakım teknisyenleri mazeret ve yıllık izinlerini kullanacakları zaman elektrik
+
+mühendisi ile görüştükten sonra işletme şefinden izin alacaklardır.
+
+S Yeterli emniyet tedbiri alınmadan bakıma başlanmayacaktır.
+
+S Bakım işlemi için bakım manuel'i ve eğitim CD'lerinden gerektiğinde
+
+faydalanılacaktır. Kullanılan eğitim dokümanları aynı şekilde alındıkları yerlere konulacaktır.
+
+S Bakım teknisyeni kontrol merkezinde görevli olan operatör ile sürekli diyalog içinde olacak yapacağı işlemler için önceden operatörü bilgilendirecektir.
+
+S Tünel sistemine ait bilgisayarların kullanımı dışında, bilgisayarların devre dışı
+
+yapılması; tekrar devreye alınması veya bir program yüklenmesi veya kaldırılması ancak mühendis gözetiminde yapılacaktır.
+
+S Tüneldeki sistem veya büro bilgisayarlarına dışarıdan getirilmiş herhangi bir disket veya CD kesinlikle kullanılmayacaktır.
+
+S Her gün akşam vardiyasında atölye malzemelerinin kontrolü yapılıp malzemeler yerlerine yerleştirilecektir.
+
+S Her gün akşam vardiyasında enerji tüketim değerleri alınıp dosyaya işlenecek ve
+
+tüketim değerlerinin normal (reaktif %20, kapasitif %15) değerlerini aşmadığı hesaplanacaktır.
+
+S Her ayın ilk mesai günü jeneratör saatleri ve mazot miktarı ile kalorifer yakıt miktarı
+
+ambara bildirilecektir.
+
+S Teknisyen elektriksel emniyeti alıp cihazın temizlenmesini işçi personeline yaptıracaktır.
+
+S İdarenin belirlediği zaman aralıklarında sabah vardiyasına bütün teknisyenler gelecek genel eğitim ve durum değerlendirme çalışması yapılacaktır.
+
+S Yılık bakımlara bütün teknisyenler katılacaktır.
+
+S Periyodik bakım planlaması form 24 den takip edilecek yapılan çalışmaya göre ilgili formlar doldurulacaktır.
+
+EMNİYET TEDBİRLERİ
+
+Bakım sırasında alınması gereken emniyet tedbirleri ile ilgili öneriler aşağıda listelenmiştir;
+
+S Trafik altında çalışma yaparken yeterli işaretleme ve uyarı ikazı yapılacaktır.
+
+S Elektrik beslemesi olan bir cihaza müdahale edilmeyecektir.
+
+S Hareket halindeki cihaza kesinlikle müdahale edilmeyecektir.
+
+S Duran fakat otomatik olarak zaman zaman devreye giren cihazlara (jeneratörler, jet fanlar vb. ) gerekli tedbir alınmadan müdahale edilmeyecektir.
+
+S Elektrik kesicileri, ayırıcı, sigorta ve cihazlar için aç, kapa sözcükleri yerine devre dışı yap, devreye al sözcükleri kullanılacaktır.
+
+S Cihaz üzerinde çalışmaya gitmeden önce mühendise ve bilgisayar operatörüne mutlaka
+
+bilgi verilecektir.
+
+S Cihazlar devre dışı yapıldıktan sonra mümkünse uzaktan kontrol modundan çıkarılıp lokal moda alınmalıdır.
+
+S Elektriği izole edilmiş bir cihazın akım yolları uygun ölçü aletleri ile kontrol edilerek enerji olmadığı görülmeli ve akım yolları kendi arasında ve toprak hattı ile kısa devre
+
+edilmelidir.
+
+S Elektriği izole eden devre kesicilerin başkası tarafından devreye alınmaması için uyarı levhaları asılmalı ve devreye alma mekanizması kilitlenmelidir.
+
+S Orta gerilim trafosu bulunan odalara girilmemelidir. Enerjili bölgelere 3 m den daha
+
+fazla yaklaşılmayacaktır.
+
+S Orta gerilimi devre dışı yaparken ve devreye alırken izole eldiven kullanılmalıdır.
+
+S İzole edilmiş orta gerilim malzemeleri (trafo, kesici, ayırıcı, akım trafosu, gerilim trafosu, kablo başlığı vb.) Orta gerilim kontrol kalemi ile enerjinin olmadığı görüldükten sonra topraklama yapılıp ondan sonra çalışma yapılacaktır.
+
+S Bakım ve onarım çalışmalarında izoleli kauçuk ayakkabılar giyilecek, kafaya baret takılacak, iş giysileri giyilecek, vücutta ve giyside sarkan ziynet eşyası bulundurulmayacaktır.
+
+S Enerjiyi devreye almadan önce akım yolları kontrol edilmeli ve hat üzerinde başkasının çalışmadığı ve hatta kısa devre ve topraklamanın olmadığı kontrol
+
+edilmelidir.
+
+S Devreye alınacak cihazların kapı veya kapakları kapatıldıktan sonra mümkünse uzaktan kumanda ile devreye alınmalıdır.
+
+S Orta gerilim kesicilerini devreye alma ve devre dışı yapma işlemi mutlaka scada bilgisayarından yapılmalıdır.
+
+S Yerden yüksek alanlarda çalışırken mutlaka emniyet kemeri ve baret kullanılacaktır.
+
+S Tünel içindeki uzun süreli çalışmalarda CO,CO2 ve NO2 zehirlenmesini önlemek için gaz maskesi ve toz maskesi kullanılmalıdır.
+
+S Orta gerilim sistemlerinde çalışırken yanınızda mutlaka elektrik mühendisi olacaktır.
+
+PERİYODİK BAKIMLAR
+
+Tünelde bulunan tüm sistemlerin periyodik bakımlarının amacı; trafik seyrinin güvenli ve hızlı bir şekilde sağlanması, acil durumlarda can ve mal güvenliğinin sağlanması, elektrik, elektronik ve elektromekanik sistemlerin sağlam ve çalışır durumda bulundurulmasıdır. Bunun için belirtilen sistemlerin günlük kontrolleri ve cihazların özelliğine göre bir program dâhilinde haftalık, aylık ve yıllık periyodik bakımlarını yapılmalıdır.
+
+Bakımlarda ekonomik ömrünü doldurmuş, görev ve fonksiyonunu tamamlamış parçalar değiştirilerek, meydana gelebilecek arızaların önüne geçilmelidir.
+
+Cihazlar elektriksel bakım ve kontrolünün yanında, çevre koşullarının yarattığı olumsuz etkilerden de arındırılmalıdır. Bakımlarda cihazların çevre koşullarından etkilenmemesi için ek tedbir çalışmalarının gerekliliğiyle ilgili raporlar hazırlanmalıdır.
+
+Sistemlere yapılan her türlü müdahale oluşturulacak Arıza Müdahale Tutanağına işlenmelidir.
+
+Aşağıda maddeler halinde yazılan periyodik bakımlar yapılarak ilgili formlara ve bilgisayar ortamına işlenmelidir. Tünel içindeki ve binalardaki tüm cihazlarda tanımlayıcı etiketler bulunmalı ve cihazlara yapılan işlemler bu etiketlere göre bilgisayar ortamına
+
+kaydedilmelidir.
+
+Sistemlerin arızalı hali ve arıza giderildikten sonraki durumu resimlenip gerekli açıklamalar yapıldıktan sonra arşivlenmelidir.
+
+GÜNLÜK BAKIMLAR
+
+Günlük bakımlarda yapılması gerekenlerle ilgili öneriler aşağıda listelenmiştir;
+
+S Akşam ve gece vardiyası yol ve saha aydınlatmalarının kontrolü yapılmalı, giderilmesi mümkün olan arızalar giderilmeli, giderilemeyen arızalar not edilerek devam eden gün
+
+içinde çözülmelidir.
+
+S Acil müdahale gerektiren bir arıza bildirilmediği sürece akşam ve gece vardiyalarında görevli çalışanlar aydınlatma, VMS ( Değişken Mesaj İşareti), VTS (Değişken Trafik İşareti) vb. sistemlerin kontrolünü yapmalıdır.
+
+S SCADA bilgisayarında, PLC sayfası açılarak tüm sistemlerin haberleştiği
+
+görülmelidir.
+
+S Tünel içinde ve dışındaki hız, yön, trafik ışıkları ve flâşörlerin yolun durumu hakkında doğru bilgilendirme yapıp yapmadığına bakılmalı, SCADA üzerinde arıza mesajları kontrol edilmelidir. Ayrıca LED'lerin tamamının aktif olup olmadığı, parlaklığı ve farklı renklerin yanıp yanmadığı gözlenmelidir.
+
+S VMS'ler ve grafik tabanlı değişken işaretlerin haberleşmesi varlığı SCADA üzerinden sorgulanmalı ve mesajların yol durumuna uygunluğu denetlenmelidir. SCADA üzerinden gönderilen mesajların sahadaki durumu gözlenmeli, SCADA üzerinde arıza mesajları kontrol edilmeli, VMS ve grafik tabanlı değişken işaretlerin fiziksel durumu
+
+ve yanan LED'lerin durumu gözlenmelidir.
+
+S SCADA üzerinden bazı jet fanlar çalıştırılarak jet fanların kumanda edilip edilemediği test edilmelidir. Bu deneme, tüm jet fanlar deneninceye kadar her gün bir farklı bir jet fan için gerçekleştirilmelidir. SCADA üzerindeki arıza mesajları kontrol edilmelidir. Jet fanlarda fiziki olarak problem olup olmadığına araçla tünel gezilirken bakılmalıdır.
+
+S Gaz algılayıcıları ve anemometre değerlerinin değişip değişmediği jet fanlar çalışırken gözlenmeli ve SCADA üzerinde arıza mesajlarından kontrol edilmelidir.
+
+S Tünel içi yangın tüplerinin yerinde olup olmadığına SCADA üzerinden bakılmalıdır. Yerinde olmayana ilişkin uyarı varsa oluşturulacak ekipler bunun nedenini belirlemek için gerekli incelemeyi yapmalıdır (gerçekten yerinde mi yok, Anahtar mı arızalı v.b.). Yangın tüpü kullanılmışsa, kullanım nedeni ve kullanan kişi yazılmalıdır.
+
+S Araç geçişi kapılarının arızalı olup olmadığına SCADA üzerinden bakılmalı. Normal zamanda bu kapıların sürekli kapalı olup olmadığı gözlenmeli, açık olana rastlanırsa
+
+nedeni rapor edilmelidir.
+
+S Elektrik kesintilerinde jeneratörün durumu ve mesajların gelip gelmediği SCADA üzerinden izlenmelidir. Planlı elektrik kesintilerinde anlık değişimler (şebekenin kesilip kesilmediği, jeneratörün çalışıp çalışmadığı ve yükü alıp almadığı vb.) SCADA üzerinden izlenmelidir.
+
+S Tünel aydınlatma bakım zamanları dışında sürekli otomatikte kalmalıdır. Luminansmetre kademelerinin dış aydınlatma ortamına, luminansmetre değerinin ise
+
+bulunduğu kademeye uygunluğu gözlenmelidir.
+
+S Sis ve otoyol aydınlatmalarının kendiliğinden devreye girme/devreden çıkma işlevlerini zamanında yerine getirip getirmediği kontrol edilmelidir. Sahada sis lambalarının fiziksel durumu kontrol edilmelidir.
+
+S S.O.S telefonlarından arızalı görünen olup olmadığına bakılmalıdır. S.O.S. telefonlarından görüşme yapılmışsa, bu görüşmenin kaydının tutulup tutulmadığı kontrol edilmeli, yapılan ses kayıtları dosyalanmalıdır.
+
+S Kontrol merkezindeki ve santraldeki telefonlardan önceden tanımlı dış hatların aranıp aranamadığı, kontrol merkezinin dışarıdan aranıp aranamadığı kontrol edilmelidir. Buz algılama sisteminin ve işletmenin mevcut ADSL hatlarının tümünün aktif olup olmadığı kontrol edilmelidir. Telsiz frekansının polis kanalına ayarlı olup olmadığı kontrol edilmelidir.
+
+S SCADA sayfasında sistemin sürekli otomatikte olup olmadığı kontrol edilmelidir. Su depoları seviyeleri SCADA üzerinden kontrol edilmeli; su seviyesi düşükse ve sistem otomatik devreye girmiyorsa elle devreye alınarak ve sahada kontrolü yapılmalıdır.
+
+S Lineer yangın sistemi SCADA sayfasından takip edilerek ısı derecelerinin değişip değişmediği kontrol edilmelidir.
+
+S Monitörlerden tüm kameraların çalışıp çalışmadığı ve çalışan monitörlerdeki görüntü kalitesi kontrol edilmelidir. Hareketli kameralara kumanda edildiğinde çalışıp çalışmadığı kontrol edilmeli, monitörlerin arka tarafındaki kamera panolarında bulunan kartlarda arıza LED'lerinin durumu kontrol edilmelidir.
+
+S Tünel girişlerinde her şeritteki araç geçişleri plaka tanıma sistemi kameralarından kontrol edilmeli ve plakalar okunmasa bile kayıt yapılıp yapılmadığı kontrol edilmelidir. Kızılötesi ışıldakların görev yapıp yapmadığını kontrol etmek amacıyla gece kayıtlarına bakılmalıdır. Plaka tanıma sistemi panosunda alarm olup olmadığı
+
+kontrol edilmelidir.
+
+S Kamera kayıt bilgisayarlarında alarm olup olmadığı kontrol edilmelidir. Üreticinin garanti ettiği kayıt süreleri kontrol edilmelidir (7 gün v.b.)
+
+S Harici anons bilgisayarından, tünel içine müzik yayını verilerek sistemin çalıştığı
+
+kontrol edilmeli, harici anons panosundaki alarmlar takip edilmelidir.
+
+S Yayındaki kanallar yol kontrol araçlarına kayıt edilmeli ve radyo anons bilgisayarından dinlenen mesajın mevcut yol durumuna uygun olup olmadığı kontrol edilmelidir. Radyo anons panosunda ki alarmlar kontrol edilmelidir.
+
+S Olay algılama bilgisayarlarının ve bilgisayarlardaki olay algılama programının aktif
+
+olup olmadığı kontrol edilmelidir.
+
+S Kontrol merkezindeki SCADA kayıt, olay algılama, plaka tespit, radyo anons, kamu anons, grafik tabanlı VMS, radar, buz önleme bilgisayarları, işletme girişi izleme sistemi tüm saatlerinin SCADA programına göre senkronize olduğu görülecek; aralarındaki zaman farkı 1 dakikayı aşmış ise senkronize edilecektir.
+
+S Tünel içinde bordürler üzerindeki LED'li butonların yanıp yanmadığı kontrol edilmelidir.
+
+S Dağıtım binalarındaki klimaların çalıştığı kontrol edilmelidir.
+
+S SCADA kayıt, olay algılama, plaka tespit, radyo anons, kamu anons, grafik tabanlı VMS, radar, buz önleme, ekran bilgisayarı, işletme girişi izleme sistemi ve kontrol merkezindeki pano ve fanlarının çalıştığı görülmelidir.
+
+S Plaka kayıt programı aktif edilerek yandaki ekrandan şerit kameralarının çalışıp çalışmadığı kontrol edilmeli, radar programının aktif olduğu ve hız bilgisinin gelip gelmediği kontrol edilmelidir.
+
+S Buz önleme kullanıcı programının ve sistemdeki antenlerin aktif olup olmadığı
+
+görülmelidir.
+
+S Aktif yazıcılar alarmları yazıp yazmadığı, diğer yazıcılardan çıktı alınıp alınamadığı, yazıcılarda herhangi bir arıza olup olmadığı yazıcı tonerlerinin ve aktif yazıcı şeritlerinin durumları kontrol edilmelidir.
+
+HAFTALIK BAKIMLAR
+
+Haftalık bakımlarda yapılması gerekenlerle ilgili öneriler aşağıda listelenmiştir;
+
+S Tüm sayaç endeksleri haftada en az 3 (üç) kez alınarak gerekli değerlendirmeler
+
+yapılmalı ve reaktif bedel tahakkuk etmesi için gerekli tedbirler alınmalıdır.
+
+S Sayaç değerleri alınırken jeneratörlerin çalışma saatleri, yakıt, su ve yağ sevileri ile
+
+jeneratör ve kuplaj akülerinin su seviye kontrolleri yapılmalıdır.
+
+S Enerji kesilerek jeneratör, kuplaj (bağlantı entegre sistemi) ve UPS sistemlerinin çalışıp çalışmadığı test edilmelidir.
+
+S Sisteme bağlı jeneratörlerin bakımları ayrı ayrı yapılırken aşağıdaki hususlara dikkat
+
+edilmelidir;
+
+Şarj redresörünün giriş ve çıkış voltajının varlığı kontrol edilmelidir.
+
+Akülerin su seviyeleri kontrol edilmelidir.
+
+Akülerin gücü test cihazı ile kontrol edilmeli, kutup başları temizlenmelidir.
+
+Radyatör su seviyesi kontrol edilecektir.
+
+Isıtıcının devrede olduğu kontrol edilmelidir.
+
+Motor yağ seviyesi kontrol edilmelidir.
+
+Ana ve ara tanktaki mazot seviyesi kontrol edilmelidir.
+
+Jeneratör test konumunda çalıştırılmalı ve test yükleri kademeleri devreye alınarak yüklenmelidir. Bu durumda belli bir süre (15-20 dakika) çalıştıktan sonra yükler devreden çıkarılıp jeneratör durdurulmalıdır.
+
+Jeneratör çalışırken havalandırma panjurlarının açıldığı ve şebeke beslemesi var iken panjurun kapandığı kontrol edilecektir.
+
+- Sinyal ampulleri kontrol edilip atıklar yenilenmelidir.
+
+- Jeneratör konum bilgisinin, voltaj, akım, tarih/saat ve mazot seviyesinin SCADA üzerinden doğru olarak görüldüğü test edilmelidir.
+
+- Jeneratör yüzeyleri izopropil alkol, mazotlu bez ve üstüpü ile silinmelidir.
+
+- Görülen sorunlar giderilmeli ve ilgili bakım formuna (Form-04) doldurulmalıdır.
+
+Şekil 87. Jeneratör Bakım Çalışması
+
+AYLIK BAKIMLAR
+
+Aylık bakımlarda yapılması gerekenlerle ilgili öneriler aşağıda listelenmiştir;
+
+S Tüm binaların, dağıtım kabloları, bina, saha, çevre ve tünel aydınlatmaları, kompanzasyon panoları iç aydınlatma ve priz ile tesisatları kontrolü edilmeli varsa eksiklikler giderilmeli, değişmesi gereken ampul, priz v.b. değiştirilmelidir.
+
+S Trafo merkezleri ve enerji nakil hatları ayda en az bir kez dolaşılarak kontrol edilmelidir. OG (ölçü hücreleri hariç) hücreleri açılarak, teçhizat gözle kontrol edilmeli, oksitlenmiş parçalar temizlenmelidir.
+
+S Yol kavşak ve saha aydınlatmaları kontrol edilerek eksikler giderilmelidir.
+
+S Tüm sahalarda UPS sistemi Manuel bypass konuma alınarak UPS odasındaki tüm tesisat temizlenmeli, aküler kontrol edilmeli, sistemin giriş enerjisi kesilerek UPS yükte denenmeli, akülerin deşarjı sağlanmalıdır.
+
+S Trafo merkezlerindeki ve köşklerdeki alarm tesisatı ile haberleşme araçları ve akülerinin kontrolü yapılmalıdır.
+
+Şekil 88.Trafo Bakım Çalışması
+
+S CO ve VIS Detektörlerinin aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Tünel tüplerinin giriş ve çıkışlarında bulunan VCR ve VCM cihazlarının dış
+
+yüzeyleri alkollü bez ve kuru bez ile temizlenmelidir.
+
+Cihazın önündeki koruma borusu açılıp boru içi ve optik camları kuru bez ile
+
+temizlenmelidir.
+
+CO/DP ünitelerin çalıştığı kontrol edilmeli, bu ünitenin gösterdiği CO ve VIS değerlerinin SCADA üzerinde görülen değerler ile aynı olup olmadığı kontrol edilmelidir.
+
+CO/DP ünitesi üzerindeki LED'lerde uyarı ve hata sinyalinin varlığı ve akım değerleri kontrol edilmelidir.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+Şekil 89.CO/DP Bakımı Çalışmaları
+
+S Yangın İhbar ve Söndürme Sisteminin aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+- Elektrik odalarındaki ve binalardaki yangın tüplerinin ve hortumlarının, bulunması gereken yerde tam sayıda, sağlam ve çalışır durumda oldukları kontrol edilmeli ve ilgili formlar doldurulmalıdır.
+
+- Tünel içindeki hortum dolaplarındaki hortumların; anahtar ve hortum ağızlarının sayılarının tam olup olmadığı kontrol edilmelidir.
+
+Şekil 90.Yangın Hidrantı ve Dolabı ile Uyarı Sisteminin Scada Görüntüsü
+
+Tüm yangın alarm panellerinin fonksiyonlarının çalışır durumda olduğu test
+
+edilmelidir.
+
+Bölgelerden en az bir tanesinden yangın ihbarı verilerek yangının yer ve konumunun doğru saptanıp saptanmadığı kontrol edilmelidir. Aynı zamanda VMS'lere tünel kapalı mesajının gidip gitmediği, jet fanların devreden çıkıp çıkmadığı ve fan çalışma yönlerinin yangının ilerleme yönüne göre değişip değişmediği kontrol edilmelidir. Aydınlatma seviyesinin ileri kademeye çıkıp çıkmadığının ve acil aydınlatmanın çalışıp çalışmadığının testi yapılarak ve ilgili form doldurulmalıdır.
+
+İşletme binasındaki ve enerji dağıtım binalarındaki duman detektörlerinden bir tanesi test için çalıştırılmalıdır.
+
+Tünel'deki elektrik odalarında bulunan yangın butonlarından bir tanesinden ihbar verilerek sistemin çalıştığı test edilmelidir.
+
+Pompa odasındaki pompaların sağlam ve çalışır durumda oldukları ve borulardaki su basıncının 6 ile 8 bar seviyesinde olup olmadığı kontrol edilmelidir.
+
+Pompaların çalışma saatleri kayıt altına alınmalıdır.
+
+Tünel yangın suyu deposu, işletme sahası yangın suyu deposu ve kullanma suyu deposunun dolu olması sağlanmalıdır.
+
+Yedek depodaki şamandıra yukarı çekilerek toplama su kuyusundan yedek depoya su gelip gelmediği; ana depodaki şamandıra yukarı çekilerek yedek depodan ana depoya su gelip gelmediği kontrol edilmelidir.
+
+Pompa odasındaki test vanası kullanılarak pompa motorlarının ve jokey pompanın otomatik olarak devreye girdiği test edilmelidir.
+
+Tüp içindeki su borularından hava alma vanalarından 10 dakika su bırakılarak hava alma işlemi yapılmalıdır.
+
+Yangın tüpü dolapları ve hortum dolapları kapaklarının açılmasının alarm üretip üretmediği, trafik sisteminin uyarı moduna geçip geçmediği test edilmelidir. Yangın tüp dolapları ve hortum dolapları kapaklarının kapalı olması sağlanmalıdır.
+
+Yangın vanalarında, hortumlarda, hidratlarda, pompa ve depolarda fiziki kontroller yapılıp su sızıntısı varsa edilmelidir.
+
+Şekil 91.Yangın Sistemi Ekran Görüntüsü ve Kısımları
+
+- Yangın tüpü dolapları, hortum dolapları, bölge ve ek kutuları ile hidratların temizliği uygun malzemeler ile yapılmalıdır. Panolar ve hidrantlar su ile yıkanmalı ve
+
+kuru bez ile kurulanmalıdır. Pano içine giren suyun mutlaka dışarı atılması sağlanmalıdır. Dolaplar yıkanmadan önce içindeki malzemeler dışarıya alınmalıdır.
+
+Pompa odasının ve pompa ve vanaların temizliği uygun şekilde yapılmalıdır.
+
+Pompa motorlarına müdahale etmeden önce panolardan motorun enerjisi
+
+kesilmelidir.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+S Anemometrelerin aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Tüp içindeki cihazların yön ve doğrultularının doğru olduğu kontrol
+
+edilmelidir.
+
+Cihazların temizliği yumuşak fırça ile yapılmalıdır.
+
+Bağlı cihazın gösterdiği değerlerin SCADA ile aynı olup olmadığı kontrol edilmelidir.
+
+Jet fan çalıştırılarak hava hızı arttırılmalı ve cihazın bunu algıladığı kontrol edilmelidir.
+
+Cihaz üzerindeki LED'lerde uyarı ve hata sinyali var mı kontrol edilmelidir.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+S Lüminansmetrelerin aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Lüminansmetrenin gündüz ve gece durumlarında ışık seviyesini doğru algılayıp algılamadığı ve aydınlatma kademelerini doğru çalıştırıp çalıştırmadığı
+
+gözlenmelidir.
+
+Lüminansmetrenin tünel içindeki ve dışındaki algılayıcılarının yön ve doğrultusunun doğru olup olmadığı kontrol edilmelidir.
+
+Portallardaki aydınlatma kademesinin otomatikte ve SCADA kontrolünde olması sağlanmalıdır.
+
+USP beslemeleri kontrol edilmelidir.
+
+Lüminansmetrenin tünel içinden ve dışından değer aldığı üzerindeki
+
+göstergeden kontrol edilmelidir.
+
+SCADA ekranındaki kademe ile lüminansmetre üzerindeki kademenin aynı olduğu kontrol edilmelidir.
+
+Lüminansmetrenin kartların çalıştığı, üzerindeki LED'ler ile kontrol edilmelidir.
+
+Lüminansmetrenin tünel içindeki ve dışındaki algılayıcılarının mercek ve yüzeyleri kuru bez izopropil alkol ve cam sil ile temizlenmelidir.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+Şekil 92.Tünel İçi ve Tünel Dışı Luminasmetre
+
+S Kesintisiz Güç Kaynakları (KGK) ve Akü grupları aylık bakımlarında aşağıdaki
+
+hususlara dikkat edilmelidir;
+
+Elektrik odalarındaki KGK'ler (Kesintisiz Güç Kaynağı) 110 v DC ISGS koruma rölesi aküleri, Jeneratör aküleri, telefon santrali akülerinin ve yangın alarm panellerindeki akülerin bakımı yapılmalıdır.
+
+KGK sistem cihazlarının ve akü dolaplarının temizliği kuru bez, kompresör, fırça ve izopropil alkol ile uygun şekilde yapılmalıdır. Gerektiğinde dolapların dış
+
+yüzeyleri deterjanlı bez ile temizlenmelidir.
+
+Kuru tip aküler kuru bez ile temizlenmelidir. Sulu akülerin su seviyeleri kontrol edilmeli ve kutup başları sıcak su ile temizlenmelidir.
+
+-	KGK by-pass konumunda iken meydana gelen kesinti nedeniyle tüm sistemin
+
+çökmemesi için, KGK cihazının iç bakım ve temizliği öncesinde yükün jeneratörden beslenmesi sağlanmalı, bu işlemden sonra cihaz by-pass alınmalıdır.
+
+Eğer KGK üzerinde herhangi bir hata veya uyarı mesajı var ise KGK kesinlikle by-pass durumuna alınmamalıdır.
+
+Bütün aküler tek tek test cihazı ile test edilip güç ve gerilim kontrolü yapılmalıdır. Yük altında 11 V' tan düşük aküler arızalı olarak işaretlenmeli varsa yeni akü ile değiştirilmelidir. Oksitli kutup başları değiştirilmelidir.
+
+Akü değiştirmek için KGK önce statik by-pass ve sonra manuel by-pass
+
+alındıktan sonra akü üzerindeki bıçaklı sigortalar sökülmeli ve arızalı akü değiştirilmelidir. Akü üzerine yapıştırılan etikete kullanım başlangıç tarihi yazılmalıdır.
+
+KGK cihazı bakım ve temizleme işlemi bittikten sonra şebeke devreye alınıp jeneratör devre dışı yapılarak KGK'nin şebekeden beslenmesi sağlanmalıdır.
+
+KGK cihazının 400 v enerji beslemesi kesilmeli ve sistem akü üzerinden beslenmelidir. Test cihazı ile bütün aküler birer birer kontrol edilmelidir. Enerji beslemesinin kesilmesi akü kapasitesi %50 seviyesine düşene kadar devam
+
+ettirilmelidir. Enerji beslemesi kesilmeden önce KGK üzerindeki yük ve akü kapasite
+
+değerleri, enerji kesildiği anda akü besleme süresi, akü kapasitesini %50 değerine düşme süresi ve o andaki kalan besleme süresi bakım dosyasına işlenmelidir.
+
+-	KGK sistemine ait enerji kesilmesi ve by-pass konumuna alma sinyallerinin
+
+SCADA bilgisayarından algılandığı kontrol edilmelidir.
+
+- Değiştirilen zayıf ve arızalı akülerin üzerine etiket yapıştırıp tarih ve ölçülen voltaj değerleri yazılmalıdır.
+
+- Sulu akülerin elektrot gözlerindeki kapaklardaki havalandırma deliklerinin açık olduğu kontrol edilmelidir.
+
+- Suyu tamamlana akünün numarası ve elektrot gözü sulu akü takip formuna işlenmelidir.
+
+Cihaz beslemesi devreye alınıp sistemin normale döndüğü görülmelidir. Cihaz fanlarının çalışıp çalışmadığı kontrol edilmelidir.
+
+Şekil 93.UPS ve Akü Grupları
+
+S Radyo yayınları aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Pano Odasındaki radyo santralindeki kart ve cihazların kompresör ile tozu alınmalıdır.
+
+Santral kartlarının normal çalıştığı LED'lerden kontrol edilmelidir.
+
+- Değişik FM frekanslarda radyodan anons alındığı tünelin değişik bölgelerinden kontrol edilmeli ve radyo anons kontrol tutanağı doldurulmalıdır.
+
+Elektrik odalarındaki uzak amfilerin kompresör ile tozu alınmalı ve bez ile temizliği yapılmalıdır.
+
+Manuel yapılan anonsların radyodan dinlenebildiği kontrol edilmelidir.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+Şekil 94.Radyo ve Anons Sistemi
+
+S Kameralar aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Tüneldeki sabit kamera ve hareketli kameranın tümünden görüntülerin net olarak alınabildiği test edilmelidir.
+
+Plaka okuma kamerasından alınan görüntüden plakaları okunduğu kontrol
+
+edilmelidir.
+
+Şekil 95.Plaka Okuma Sistemi
+
+- İşletme binasındaki Çevre kontrol kameralarının fonksiyonlarının çalıştığı
+
+kontrol edilmelidir.
+
+Hareketli kameraların hareket ve zoom fonksiyonlarının normal şekilde çalışmakta olduğu test edilmelidir.
+
+Kameraların yön ve doğrultusunun doğru olduğu kontrol edilmelidir.
+
+Şekil 96.Kameraların Bakımı
+
+Kamera santrali ve kartların LED'leri uyarı ve hata mesajı kontrol edilmelidir.
+
+Kamera santralinin fanlarının normal çalışır durumda olduğu kontrol edilmelidir.
+
+Kameraların test çıkışları ve prizleri temizlenecek ve test çıkışına monitör bağlanarak sağlam olduğu kontrol edilmelidir.
+
+Kamera kayıt görüntüleri izlenerek kayıtların normal olduğu kontrol
+
+edilmelidir.
+
+Bütün kameraların dış yüzeyleri ve mercekleri deterjanlı nemli bez; kuru bez,
+
+izopropil alkol ve cam sil ile temizlenmelidir.
+
+Kameranın kablo girişleri ve contalı kısımlarının izolasyonunun sağlam olduğu kontrol edilmeli, içinin kirlendiği tespit edilen kameralar sökülüp içi temizlenmeli, izolasyonu silikon ve conta ile iyileştirilmelidir.
+
+Kontrol odasındaki kayıt cihazların zaman ayarları SCADA bilgisayarına göre yapılmalıdır.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+Şekil 97.Tünel İçi Kamera
+
+S Aydınlatma sistemleri aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Tünel içindeki aydınlatmanın tamamı devreye alınıp yanmayan armatürler tespit edilip çalıştırılmalıdır.
+
+Acil geçişlerdeki lambalar çalışır hale getirilmelidir.
+
+Aydınlatma panosundaki kontaktör, röle, sigorta vb. teçhizatta aşırı ısınma ve gürültünün olup olmadığı, sigortaların atık olmadıkları kontrol edilmelidir.
+
+Pano üzerindeki kademe sinyal ampullerinin sağlam oldukları kontrol edilmelidir.
+
+Dış çevre aydınlatmasının bütün lambaların yandığı kontrol edilmelidir.
+
+Dış çevre aydınlatmasının devreye giriş ve devreden çıkış zamanlarının normal olduğu kontrol edilmelidir.
+
+Acil aydınlatma floresan armatür ve ampullerinin temizliği yapılmalıdır.
+
+Bina aydınlatmalarında yanmayan lambalar çalışır hale getirilmelidir.
+
+Binalardaki priz, anahtar, pano vb. ekipmanların sağlam ve güvenli oldukları kontrol edilmelidir.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+Şekil 98.Tünel İçi Aydınlatma Bakımı
+
+S S.O.S. telefonları aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+S.O.S. odasına girilmesiyle alarmın çalıştığı ve SCADA'ya kapı açıldı sinyalinin gittiği test edilmelidir.
+
+Tünel içindeki S.O.S. cihazından arama yapıldığında çağrının geldiği S.O.S. u gören kameranın görüntüsünün ilgili monitöre sabitlendiği ve SCADA'da sesli ve görsel alarm oluşturduğu ve alarm yazıcısından yazdırıldığı görülmelidir.
+
+S.O.S. Işıklı panosu içindeki floresan lambaların çalıştığı kontrol edilmelidir.
+
+Kapı kapandığında alarm çakar söndürülebildiği görülmelidir.
+
+Kayıt bilgisayarından görüşmenin kaydedildiği görülmelidir.
+
+S.O.S. haberleşme cihazı, S.O.S. ışıklı panosu ve alarm çakarların fiziki durumları kontrol edilmeli, dış ortamdan toz almaması ve yıkama yapılırken suyun enerjili bölümlere ulaşmaması için tedbirler alınmalıdır.
+
+- S.O.S. ışıklı panosunun ve alarm çakarların dış yüzeyleri su ile yıkanmalı ve kurulanmalıdır.
+
+- Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+Şekil 99. S.O.S. Bakımı
+
+S Trafik Kontrol Sistemleri aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+- Hız ve yön matrislerinin sola, sağa yönlendirme fonksiyonu; şerit kapatma ve açma işlemi kontrol edilmelidir. Cihazdaki durum ile SCADA bilgisayarındaki gösterimin yer ve durumun aynı olması sağlanmalıdır.
+
+Şekil 100. VMS/VTS Örneği
+
+Hız göstergelerinin, 30-50-70-90 hız bildiriminin ve boş uyarılarının çalışır durumda oldukları kontrol edilmelidir. Cihazdaki durum ile SCADA bilgisayarındaki gösterimin yer ve durumun aynı olması sağlanmalıdır.
+
+Trafik işaretleri ve hız limit işaretlerinin gece ve gündüz ışık şiddetlerinin farklı seviyelerde çalıştığı kontrol edilmelidir.
+
+Tünel girişlerindeki sarı, kırmızı ve yeşil trafik işaretlerinin çalışır durumda oldukları kontrol edilmelidir.
+
+Flâşör trafik ışıklarının çalışır durumda oldukları kontrol edilmelidir.
+
+Cihazlarda fiziki bir hasar var mı kontrol edilmelidir. Cihazların yere ve şerite olan doğrultularının düzgün olması sağlanmalıdır.
+
+LED kartlarının bütün LED'leri çalıştırılarak arızalar giderilmelidir. Kartlar atölyeye getirilerek test modüllerine takılıp sorunlar giderilmelidir. Tünel içindeki cihazların kartları ihtiyaç durumunda alkol ile temizlenmelidir ve panosu montajdan sonra conta ve bant ile izolasyonu kuvvetlendirilmelidir.
+
+Matrislerin arıza anında SCADA bilgisayarına alarm gönderdiği test edilmelidir.
+
+Işık algılayıcısının temizliği yapılıp ve dış sağlamlaştırılmalıdır.
+
+Fan motorları yağlanarak gerekirse değiştirilmelidir.
+
+Güç kartlarının çıkış gerilimleri kontrol edilmelidir. Havalandırma süngerleri değiştirilmelidir.
+
+Panoların LED gösterge yüzeyi su ile yıkanmalıdır.
+
+Kilit ve menteşe gibi hareketli parçaların yağlanması yapılmalıdır.
+
+Taşıyıcı konsolun ve cihazın boya gerektiren yerleri boyanmalıdır.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+S VMS ve trafik panoları aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Sabit VMS ve grafik panonun çalışır durumda olduğu kontrol edilmelidir.
+
+VMS'lere ve grafik panolara değişik mesajlar gönderilerek bütün karakterlerin tam çalıştığı kontrol edilmelidir.
+
+VMS'deki ve grafik panolara gönderilen mesaj ile SCADA'da ki mesajın aynı olduğu kontrol edilmelidir.
+
+VMS LED'lerinin gece ve gündüz durumlarında ışık şiddetlerinin değiştiği
+
+kontrol edilmelidir.
+
+LED kartlarının bütün LED'leri çalıştırılarak arızalar giderilmelidir. VMS modül kartları atölyeye getirilip test modülüne takılıp arıza tespiti ve onarımı yapılmalıdır.
+
+Havalandırma kanalları kontrol edilmelidir.
+
+Isı algılayıcısının devreye girmesi ve devreden çıkması sağlanmalıdır.
+
+Işık algılayıcısının temizliği yapılıp, dış ortamdan korunması sağlanmalıdır.
+
+Fan motorları yağlanarak gerekirse değiştirilmelidir.
+
+Güç kartlarının çıkış gerilimleri kontrol edilmelidir.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+Şekil 102.VMS Bakımı
+
+S Bariyerlerin aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Bariyerleri kapatmak için gerekli emniyet tedbirleri alındıktan sonra otomatik bariyer SCADA üzerinden kapatılmalıdır.
+
+Bariyer kapalı iken kollardaki ve yandaki flâşörlerin çalıştığı kontrol
+
+edilmelidir.
+
+Bariyer açık konuma alındıktan sonra mekanik aksamlar kontrol edilmeli, gerekli aksamlar yağlanmalıdır.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+S Elektrik pano ve odaları aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Alçak gerilim ve PLC panolarına kompresör ile emme ve üfleme modunda temizlik yapılmalıdır. Gerektiğinde elektrik kesilerek fırça ve bez ile ekipmanların temizliği yapılmalıdır.
+
+Panoların içindeki malzemelerde arıza ve yıpranma belirtisi olup olmadığı
+
+kontrol edilmelidir.
+
+- Panoların içinde atık sigorta olmadığı ve cihazlarda aşırı ısınma, gürültülü çalışma olmadığı kontrol edilmelidir.
+
+- Panolar üzerindeki sinyallerin doğru çalıştığı ve sinyal ampullerinin sağlam olduğu kontrol edilmelidir.
+
+- Panoların dış yüzeyleri bez ile temizlenmeli, pano elektrikten izole edildikten sonra panonun saç yüzeyleri deterjanlı nemli bez ile silinmelidir.
+
+- Orta gerilim panolarının sadece üst tarafındaki kontrol ve kumanda kapağı açılarak kontrol ve bakımı yapılmalıdır.
+
+Şekil 103.Elektrik Odası Bakımı
+
+- ISGS rölesinin dış kapağı çıkarılıp bez ile temizliği yapılmalıdır.
+
+- ISGS besleme enerjisinin varlığı (110 VDC) kontrol edilerek rölenin doğru çalıştığı üzerindeki uyarı ve LED'lerden kontrol edilmelidir.
+
+- Voltmetre komütatörleri ile AG ve OG faz bilgisinin varlığı ve değerleri kontrol edilmelidir.
+
+- Elektrik odasında bulunması gereken araç ve gereçlerin varlığı kontrol edilmelidir. (İzolasyon sehpası, masa, sandalye, proje dosyaları, ıstaka, eldiven, kesici kurma ve çıkarma kolları, pano anahtarları v.b.)
+
+- Trafolarda fiziki bir sorun olamadığı kontrol edilmeli, yağlı trafoların yağ seviyesi, yağ sızıntısı ve nem alıcıları kontrol edilmelidir.
+
+- Demir kapı ve acil geçiş kapı kilitleri uygun yağ ile yağlanmalıdır.
+
+- Pano içindeki ve odadaki fare zehirlerinin uygun durumda olduğu kontrol edilmelidir.
+
+- Elektrik odalarının temizliği yapılmalıdır.
+
+- Hat başı parafudrlarının sağlamlığı göz ile kontrol edilmelidir.
+
+- Elektrik odalarındaki, atölyedeki ve kontrol odasındaki klimaların ve VAM cihazının filtreleri yıkanarak temizlenmelidir.
+
+- Klimaların dış yüzeyleri deterjanlı nemli bez; izopropil alkol ve kuru bez ile temizlenmelidir.
+
+- Tüp içindeki klimaların kompresör, fırça vb. malzeme ile genel temizlik ve kontrolü yapılmalıdır.
+
+- Bütün klimaların çalışma modu ve derece ayarı aynı değerde olmalıdır.
+
+- Klimalar moduna göre ısıtma veya soğutma görevini yerine getirdiği kontrol edilmelidir.
+
+- Su akıtma problemi olan klimalar için önlem alınmalıdır.
+
+- Jeneratör manuel konuma alındıktan sonra dış yüzeyleri üstüpü, fırça ve kompresör ile temizlenmelidir.
+
+- Jeneratör elektrik panosunun içi kompresör ile temizlenmelidir.
+
+- Jeneratör odasındaki panjurların temizliği yapılmalıdır.
+
+- Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+Şekil 104.Elektrik Odası
+
+ÜÇ AYLIK VEYA AYLIK BAKIMLAR
+
+Bu bakımlarda yapılması gerekenlerle ilgili öneriler aşağıda listelenmiştir;
+
+S Kontrol Merkezinin üç aylık/aylık bakımlarında aşağıdaki hususlara dikkat
+
+edilmelidir;
+
+Bütün bilgisayarların kasa ve çevre donanımlarının bakımı yapılmalıdır. Kaslar açılarak hava ile temizlenmeli, işlemci fanı, güç kartı fanı, kasa soğutma fanları yağlanmalıdır. Disket ve CD sürücüler hava ile özel temizleme disketleriyle temizlenerek çalışması kontrol edilmelidir. Klavye ve Mouse temizlenerek tuşların çalıştığı kontrol edilmelidir. Monitör kasası açılarak iç kısım hava ile temizlenmelidir. (LCD monitörlerin kasası açılmayacak). PC kasası ve çevre donanımlarının (monitör, klavye, Mouse vb.) dış yüzeyleri temizleme köpüğü ve bez ile temizlenmelidir. Kablo bağlantıları soketlere çekme yükü vermeyecek şekilde sabitlenmelidir.
+
+Tünelde kullanılan bütün yazıcıların genel bakımı yapılmalıdır. Yazıcılar parçalanarak içlerindeki toner veya mürekkep artıları bez ve hava ile temizlenmelidir. Bitik kartuşlar değiştirilmelidir. Dış yüzeyleri köpük ve bez ile silinmelidir.
+
+Şekil 105. Tünel Kontrol Merkezi
+
+- Video monitörlerinin genel bakımı yapılmalıdır. Monitörlerin dış yüzeyleri köpük ve bez ile silinmelidir. Monitör kasası açılarak iç kısım hava ile temizlenmelidir.(LCD monitörlerin kasası açılmayacak).
+
+- Video kayıt cihazlarının genel bakımı yapılmalıdır. Kayıt cihazlarının kasları açılarak hava ile temizlenmelidir. İşlemci fanı, güç kartı fanı, kasa soğutma fanları yağlanmalıdır. Kayıt cihazı kapasiteleri kontrol edilmeli, kayıt cihazlarının dış yüzeyleri köpük ve bez ile temizlenmelidir.
+
+Şekil 106.Kamera Kayıt ve Olay Algılama Merkezi
+
+- PLC santrali hava ile temizlenmeli ve piller değiştirilmelidir. Güç kartı fanları teker teker sökülerek temizlenip yağlanmalıdır. Yedek CPU devreye alınarak çalıştığı kontrol edilmelidir. Dolap metal yüzeyleri köpük ve bez ile silinmelidir.
+
+- Kamera santrali hava ile temizlenmelidir. Dolap soğutma fanları sökülerek temizlenip yağlanmalıdır. Dolap metal yüzeyleri köpük ve bez ile silinmelidir.
+
+Kablolar soketlere çekme yükü vermeyecek şekilde sabitlenmelidir. Kabloların etiketli olması sağlanmalıdır.
+
+Oda yükseltilmiş zeminleri kaldırılarak elektrik süpürgesi ile temizliği yapılmalıdır. Zemin altındaki kabloları düzgün bir hattan geçmesi sağlanmalıdır. Zemine ve oda köşelerine fare, haşere zehri konmalıdır.
+
+Telefon santrali ve telefon cihazları bakımı yapılmalıdır. Santral dolabının kapağı açılarak içi hava ile temizlenmelidir. Dolap metal yüzeyleri köpük ve bez ile silinmelidir. Telefon cihazları köpük ve alkol ile temizlenmelidir.
+
+Diğer odalardaki bilgisayarlara ve çevre donanımlarına benzer şekilde bakım yapılmalıdır.
+
+Çatıdaki antenlerin fiziki durumları kontrol edilmelidir. Çatı antenlerinin fırtınalı havalara dayanacak şekilde sağlam montajlı olması sağlanmalıdır.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+S Elektrik pano ve odalarının üç aylık/aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Bu çalışmalar mühendis denetiminde yapılmalıdır. Elektrik odasında orta gerilim tamamen kesilmelidir. Bunun için bir önceki ve bir sonraki elektrik odasından O.G kesicileri devre dışı yapılıp kesici baradan ayrılmalıdır.
+
+Elektrik odası ve KGK aylık bakımları yapılmalı, KGK by-pass konumuna alınıp fanları ve kartlarının bakımı yapılmalıdır.
+
+Akü güç seviyelerinin %25'e kadar düşmesi sağlanmalıdır. Akü gücünün %25'e düşmesi ile aydınlatma 1.kademesinin devreden çıktığı ve SCADA bilgisayarına akü düşük gerilim sinyalinin gittiği kontrol edilmelidir.
+
+Trafoların enerjisi kesilip gerekli emniyet tedbirleri alındıktan sonra kuru trafolar bez ile temizlenmeli ve trafoda fiziki bir sorun olamadığı kontrol edilmelidir.
+
+Yağlı trafoların yağ seviyesi, yağ sızıntısı ve nem alıcıları kontrol edilip koruma sistemlerinden ihbar üreterek sistemin çalıştığı kontrol edilmelidir.
+
+Orta gerilim panolarında gerekli emniyet tedbirleri alındıktan sonra kesiciler yerlerinden çıkarılıp meger ile yalıtım kontrolü yapılmalıdır. Akım trafosu, gerilim trafosu ve izolatörlerin tozları alınarak hareketli kontakların uygun yağ ile yağlanması sağlanmalıdır. Kablo başlıklarında ve diğer ekipmanlarda fiziki bir bozulma olmadığı kontrol edilmelidir.
+
+Yükseltilmiş zemin kontrol edilmelidir.
+
+Hat sonu ayırıcı kontakları temizlenip hareketli aksamlar yağlanmalıdır.
+
+Trafoların işletme ve koruma topraklama direnç değerleri ölçülmelidir.
+
+Paratoner tesisatı topraklama direnç değerleri ölçülmelidir.
+
+Not: Trafo odalarına enerji kesilmeden kesinlikle girilmemelidir. Enerji kesme ve devreye alma işlemi mühendis kontrolünde yapılmalıdır.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+Şekil 107.Enerji Dağıtım Binaları
+
+S VMS ve grafik panoların üç aylık/aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Aylık bakımlar yapılmalıdır.
+
+VMS'lerde fiziki bir hasar olup olmadığı kontrol edilmelidir. İzolâsyon bozulmaları tamir edilmelidir. Ana kontrol kart dolabı kilidinin sağlıklı çalışması sağlanmalıdır.
+
+Kartlarının bulunduğu bölümler açılarak LED'ler, fanlar, ısıtıcılar kontrol edilecek ve cihazların dış yüzeyi kompresör ile temizlenmelidir.
+
+Dış yüzeydeki kablolar sarkmayacak şekilde sabitlenmelidir. Modül içindeki veri ve güç kabloları soketlere yük vermeyecek şekilde sabitlenmelidir.
+
+Modül kartları etiketlenmelidir.
+
+Bütün soketler kontrol edilecek sağlamlaştırılmalı ve izopropil alkol ile yıkanmalıdır.
+
+Dış camlı yüzey LED gösterge yüzeyi su ile yıkanmalıdır.
+
+Kilit ve menteşe gibi hareketli parçaların yağlanması yapılmalıdır.
+
+Taşıyıcı konsolun ve cihazın boya gerektiren yerler boyanmalıdır.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+Şekil 108.VMS Bakımı
+
+S Trafik Kontrol Sistemlerinin üç aylık/aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Hız ve yön matrislerinin aylık bakımları yapılmalıdır.
+
+Kartlarının bulunduğu bölümler açılarak LED'ler, fanlar, ısıtıcılar kontrol edilecek cihazların iç ve dış yüzeyi kompresör ile temizlenmelidir.
+
+Bütün soketler kontrol edilecek sağlamlaştırılmalı ve izopropil alkol ile yıkanmalıdır.
+
+Panoların LED gösterge yüzeyi su ile yıkanmalıdır.
+
+Kilit ve menteşe gibi hareketli parçaların yağlanmalıdır.
+
+Taşıyıcı konsolun ve cihazın boya gerektiren yerlerin boyanmalıdır.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+Şekil 109.VTS Bakımı
+
+S S.O.S. Telefonları üç aylık/aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Aylık bakım yapılmalıdır.
+
+Telefon Santrali bilgisayarından gelen çağrılara ilişkin bilgiler kontrol edilmelidir.
+
+Kontrol odasından S.O.S. cihazı dâhili telefon gibi aranıp görüşme sağlanmalıdır.
+
+SCADA'dan gelen çağrının görüldüğü kontrol edilmelidir.
+
+Alarm çakar motor kayışları kontrol edilmeli gerekiyorsa değiştirilmelidir.
+
+Alarm çakar dış kabı yıkanmalıdır.
+
+Kapı contalarında ezilme veya yırtılma var ise değiştirilmelidir.
+
+Pano aydınlatma floresan lambaların soketleri gerekiyor ise değiştirilmelidir.
+
+S.O.S. ışıklı panosunun içi açılarak lambaların ve iç yüzeyin temizliği yapılmalıdır.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+Şekil 110.SOS Odası ve SCADA Görüntüsü
+
+S Aydınlatma Sistemleri üç aylık/aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Aylık bakım yapılmalıdır.
+
+Tünel içindeki armatürlerin önce dış yüzeyleri kompresör ve kuru bez ile temizlenmeli daha sonra camın iç ve dış yüzeyi alkolü suya daldırılmış bez ile
+
+silinmelidir. Sonra cam kuru temiz bez ile silinmelidir. Reflektörler sadece hava ile temizlenmeli bez kullanılmamalıdır (Armatür temizliği sırasında tavalarda bulunan anons hoparlörlerinin temizliği de yapılmalıdır). Ayrıca Tünel temizliği ve yıkanması sırasında tünel armatürlerin basınçlı hava ile temizlenip deterjanlı ve alkollü bez ile silinip kurulanmalıdır.
+
+Armatür içindeki kablo klemens bağlantılarının düzgün olması sağlanıp armatürün içindeki kondansatörün sağlamlığı test edilmelidir.
+
+Armatür kablo girişinde ve contalarda yalıtım bozulması varsa conta ve silikon kullanılarak giderilmelidir.
+
+Binalarda kullanılan armatürlerin içi açılarak temizlenmelidir. Ampullerin bakım kontrol ve temizliği yapılmalıdır.
+
+- Çevre aydınlatma direklerinin sigorta yuvası kapaklarının kapalı olması sağlanmalıdır.
+
+- Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+Şekil 111.Yol Aydınlatma Bakımı
+
+S Jet fanların üç aylık/aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Aylık bakım yapılmalıdır.
+
+Jet fanlar birer birer devreye alınıp hava basınç yönlerinin doğruluğu fiziksel
+
+olarak kontrol edilmelidir.
+
+Yukarıdaki işlem fan trafik yönünün tersinde (sola dönüş) çalıştırılarak aynı işlemler tekrar edilmelidir.
+
+Fanların elektrik bağlantıları kesilip gerekli tedbirler alındıktan sonra uygun araç ve gereç ile pervanenin hava akımı ile kendiliğinden dönüşünü engellemek için hava giriş yönü kapatılmalıdır.
+
+Tünel tavanındaki bağlantı panoları açılıp temizlendikten sonra izolasyonu bant ve conta ile sağlamlaştırılmalıdır.
+
+Fan motorunda fiziksel bir hasar olup olmadığı, pervanelerin sağlam olup olmadığı ve düzgün dönüp dönmediği el ile döndürülerek kontrol edilmelidir.
+
+Jet fanların tünel tavanına olan fiziki bağlantısının sağlam olduğu kontrol edilmelidir.
+
+Elektik odalarındaki jet fan kondansatör akımları ölçülerek kondansatörlerin sağlam olduğu ölçülmelidir.
+
+Tahliye uskurunun gözle muayene edilmesi tahliye uskurunun dengesini bozup vibrasyon seviyelerini yükseltebileceği için, toz birikmesi temizlenmelidir. Zarar görmüşse, tahliye uskuru değiştirilmelidir.
+
+Kanatlarla fanın kasası arasındaki aralık açıklığının doğrulanması yapılmalıdır. Aralık açıklığı 2 mm'nin altında olamaz ve eğer altındaysa, o zaman, fan sökülmeli ve tahliye uskuru merkezlenmelidir. Herhangi bir kanat eğer kasaya değiyorsa, o fan durdurulmalı ve muayene için derhal sökülmelidir. Kanat açısı da kontrol edilmelidir ve bunun tüm kanatlarda aynı olması gereklidir. Herhangi bir kanadın açısı eğer farklıysa, o zaman, tahliye uskuru sökülmeli ve kontrol edilmelidir.
+
+Elektrik motorunun durumunun kontrol edilmeli, satıhtaki toz birikintisini temizlenmelidir.
+
+Elektrik değerlerinin doğrulanmalıdır (güç, gerilim, akım).
+
+Motorla fan kasası arasındaki bağlantının sıkma torku doğrulanmalıdır.
+
+Şekil 112.Jet Fan Bakımı
+
+Motorun kasasıyla motorun ayakları arasındaki sıkma torku doğrulanmalıdır.
+
+Motor yatakları, motor imalatçısının talimatları doğrultusunda yeniden yağlanmalı veya değiştirilmelidir.
+
+Fanın satıhlarının temizlenmelidir. Bu iş, temiz kullanma suyuyla yapılabilir. Susturucuların içinin temizlenmesinde tazyikli su kullanılamaz, çünkü bu, madeni yünü bozabilir ve bu da, ses zayıflatmasını azaltabilir. Paslanmaz çelikten satıhların korozyondan dolayı kirlenmiş olması halinde (karbon çelik kısımlardan), malzemenin özelliklerini yeniden geri kazanmak için, bunun tekrar dekupaj yapılması ve
+
+oksitlenmesi gerekir (Gerekiyorsa, bu konuyla ilgili olarak yerel uzmanlarla temasa geçilecektir.).
+
+Boyanın ve/veya galvanizin durumunun incelenmelidir. Tüm hasarlı satıhlar, temizlenmeli ve korozyona karşı korunmalıdır.
+
+Vibrasyon izolatörlerinin muayenesi: Bunlar, karbon çelikten yapılmıştır ve korozif şartlarda, korozyon atmosferinden dolayı bunlar, zarar görebilir. Aşırı bir korozyon olması halinde, o elemanlar değiştirilmelidir.
+
+Kablaj durumunun muayenesi yapılmalıdır. Güç ve sinyal bağlantıları kontrol edilmelidir (toprak bağlantıları da). Herhangi bir yanlış bağlantı, kısa devreye ve bir elektrik arızasına neden olabilir.
+
+- Süspansiyon sisteminin doğrulanması yapılmalıdır. Her bir birleşimin sıkma torku kontrol edilmelidir ve hasarlı olan tüm parçalar değiştirilmelidir. Bu, emniyet elemanları için de geçerlidir (emniyet gözü, emniyet kablosu, vb.).
+
+- Ankraj cıvataları da kontrol edilmelidir ve bunların sıkma torku doğrulanmalıdır.
+
+- Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+S KGK ve akü gruplarının üç aylık/aylık bakımlarında aşağıdaki hususlara dikkat
+
+edilmelidir;
+
+Aylık bakım yapılmalıdır.
+
+KGK cihaz fanları sökülüp yağlanmalıdır.
+
+Bilgisayar ile bağlantı kurup fan çalışma süreleri sıfırlanmalıdır.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+S Yangın İhbar ve Önleme Sistemi üç aylık/aylık bakımlarında aşağıdaki hususlara
+
+dikkat edilmelidir;
+
+Aylık bakım yapılmalıdır.
+
+Bütün yangın hidrantları ve yangın hortumları kullanılacak hortumların sağlamlığı test edilerek kurutulduktan sonra yerlerine konmalıdır.
+
+Su depolarının sızdırmazlık kontrolü ve bakımı yapılmalı, depolardaki su boşaltılarak depo içleri temizlenmelidir. Depolardaki şamandıralar dışarı alınıp kireç, pas ve tortuları temizlenmelidir.
+
+Pompa üzerindeki salmastraların yenilenmesi gerekenler değiştirilmelidir.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+YANGIN DURUMU YÖNETİM SİSTEMİ
+
+Acil Butonuna Basarak ilgili Yangın Senaryosunu Çalıştır
+
+Otomatik Yangin Senaryo - Durdur
+
+Acil Butonuna Basarak İlgili Yangın Senaryosunu Çalıştır
+
+Şekil 113.Yangın Senaryosu Testi
+
+YILLIK BAKIMLAR
+
+Yıllık bakımlarda yapılması gerekenlerle ilgili öneriler aşağıda listelenmiştir;
+
+S Havai Hatlar yıllık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Havai hat boyunca karanlık havada atlama olup olmadığı kontrol edilmeli, atlama olan direklerin tespiti yapılmalıdır.
+
+Çatlak, kırık izolatör ve parafudrlar değiştirilmelidir.
+
+Hat başı ve hat sonu direklerinde seksiyonerlerin rahat açılıp kapatılması için ayarları ve bakımları yapılmalı, ihtiyaç duyulan seksiyonerler değiştirilmelidir.
+
+Topraklamaların ölçümü yapılmalı, topraklamaların sağlıklı çalışıp- çalışmadığı kontrol edilmelidir. Gereken iyileştirmeler yapılmalıdır.
+
+Hat boyunca hatta değme ihtimali olan ağaçlar budanmalıdır.
+
+Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.
+
+Şekil 114.Şehir Şebeke Hattı
+
+Şekil 115.Enerji Nakil Hattı Bakımı
+
+S Trafo Merkezleri; yıllık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Trafo merkezindeki tüm ekipmanların tozları alınır ve kompresör ile cihazların üzerine hava tutulur. Yağlı ve kirli alanlar temizlenir. Gerekirse fırça ile tozlar alınır. Oksitlenmiş, paslanmış parçalar temizlenemiyorsa değiştirilir. Yağlanması gereken parça ve yataklar yağlanır.
+
+Trafoların yağ seviyeleri, nem tutucuları kablo başlıkları kontrol edilerek gerekenler değiştirilir. AG ve kompanzasyon pano içleri hava tutularak temizlenir. Tablolar içindeki teçhizat kontrol edilerek arızalı parçalar değiştirilir. Trafo merkezinin tüm koruma ve işletme topraklamaları ölçülerek gerekirse iyileştirme yapılır. Ölçü hücresinde atlama olup olmadığı kontrol edilir izolatörlerini temizlikleri yapılarak değişmesi gerekenler değiştirilir.
+
+- Tüm topraklamaların ölçümü yapılarak, bağlantı noktaları kontrol edilerek temizlenir veya yenilenir, gerekirse iyileştirme yapılır. AG ve kompanzasyon pano içleri hava tutularak temizlenir. Tablolar içindeki teçhizat kontrol edilerek arızalı parçalar değiştirilir.
+
+S Aydınlatma Elemanları ve Sistemleri; yıllık bakımlarında aşağıdaki hususlara dikkat
+
+edilmelidir;
+
+Tüm aydınlatma direklerinin ve tünel içi armatürlerin kontrol ve temizliği yapılarak arızalı sigortalar değiştirilecek ve eksik olan direk kapakları tamamlanacaktır.
+
+Tüm koruma ve işletme topraklamaları ile paratonerlerin topraklamaları ölçülerek gerekirse iyileştirme yapılır.
+
+Armatürlerin eksik cam kapakları tamamlanır. Dönen armatürlerin ayarları yapılır.
+
+Tünellerin yılda bir defa aydınlatma düzeyi (luminans) ölçümü Lüminansmetre ile yerinde yapılarak SCADA programından alınan ölçümlerle karşılaştırılarak İDARE ye sunulmalıdır.
+
+S Köşkler ve panoların; yıllık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Panolar hava tutularak temizlenir.
+
+Yağlı trafolarının yağ sızıntıları, Kuru tip trafoların hava akışı ve nemlenme durumları kontrol edilir.
+
+Kapakların menteşe ve kilitleri kontrol edilerek, çalışır hale getirilir.
+
+S SCADA Sisteminin; yıllık bakımlarında aşağıdaki hususlara dikkat edilmelidir;
+
+Sistemde kayıtlı bilgilerin ve sistemle ilgili dokümantasyonun kontrolü ve değerlendirmesi
+
+Ethernet ve Profibus haberleşmelerinin kontrolü ve analizi
+
+Bağlantıların kontrolü
+
+Önemli sinyallerinin I/O analizi ile kontrolü
+
+Program yedeklemeleri
+
+Temizlik (detaylı)
+
+Şekil 116.PLC Pano Bakımı
+
+TÜNEL BAKIM, ONARIM VE İŞLETME MALİYETLERİ
+
+Karayolu tünellerinde işletme maliyetlerini azaltma çalışmalarında odaklanılan başlıca konular; enerji tüketim maliyetleri, personel maliyetleri, bakım maliyetleri ve yenileme maliyetleridir. Bu bölümde PİARC raporlarında geçen çalışmalar ve sonuçları üzerine bilgiler verilecektir.
+
+İşletme maliyetleri; yıllık denetim maliyetleri, tünelin günlük maliyetleri, ücret toplama varsa bunların personel maliyetleri v.b. kalemlerden oluşmaktadır.
+
+Bakım maliyetleri; program dâhilinde yapılan rutin bakımlar, temizlik, çabuk tükenen malzemelerin maliyetleri (aydınlatma elemanları, filtreler, bataryalar v.b.), operatör ve personel maliyetlerinden oluşmaktadır.
+
+Yenileme maliyetleri belli bir sistemin komple yenilenmesini ifade etmektedir. Bazı ekipmanların servis ömürleri sonlandığında mecburi olarak sistemi yenileme ihtiyaçları doğmaktadır. Karayolu tünellerinde yapısal dizayn ömrü olarak ortalama 120 yıl öngörülmektedir. Ancak bu süre içerisinde kullanılan ekipmanlar ve servislerin ömürleri yapısal kaliteye, çevresel faktörlere ve değişen teknolojilere göre değişmektedir. Aşağıdaki şekilde ekipmanların kullanım ömürlerine etki eden bazı faktörler gösterilmiştir.
+
+ENERJİ MALİYETLERİ AZALTMA ÖNERİLERİ
+
+Enerji maliyetlerini azaltmak için öncelikle enerjinin nasıl sağlandığı, enerjiyi sağlama maliyetleri ve nasıl tüketildiğini saptamak gerekmektedir.
+
+Ülkemizde de olduğu gibi birçok ülkede elektrik özel firmalar aracılığıyla ihale ile sağlanmaktadır. Bağımsız enerji aracıları kullanılması tünel operatörleri için de avantaj sağlamaktadır. Aşağıdaki yöntemler kullanılarak enerji maliyetleri azaltılabilir.
+
+S Elektrik enerjisinin birim maliyeti genellikle günlük ve yıllık talepler bulunarak pik değerler üzerinden hesaplanır. Pik kullanım değerleri azaltılarak, daha düşük enerji talebi üzerinden teklifler alınabilir.
+
+S Modern yöntemlerle enerji tüketimleri kaydedilir, analiz edilir ve böylelikle aktif
+
+bir güç yönetim sistemi kurulabilir. Gün ışığından mümkün olduğunca fazla faydalanılmalıdır.
+
+S Ekipman seçiminde ekipmanların tüm yaşam ömürleri maliyetleri ve buna göre güç tüketim değerleri hesaplanarak alternatifler değerlendirilebilir.
+
+S Tünellerde önemli enerji tüketim sistemleri; aydınlatma, havalandırma ve hava temizleme sistemleridir. Aydınlatma sistemleri tünel aydınlatma miktarları ölçülerek trafik hızına göre kontrol altına alınmalıdır. Jet fanların gereğinden fazla çalışması engellenmelidir.
+
+S Düşük basınçlı sodyum aydınlatmalar yüksek basınçlılardan daha az enerji tüketir ve sarı ışık yayarlar. Mavi ışık yayan yüksek basınçlı sodyum aydınlatmalar ise göz için daha düşük aydınlatma miktarıyla daha faydalıdır. Tünel özelliklerine göre en uygun aydınlatma seçilmelidir.
+
+S Duvarların temiz tutulması, boyanması, kirli lambaların temiz tutulması, asfaltın temiz olması gibi yöntemler uygulanarak aydınlatmadan daha verimli şekilde
+
+faydalanabilir.
+
+S Trafiğin sıkışık olduğu durumlarda aydınlatma seviyesi kısılmalıdır. Bu durumda daha fazla havalandırma ihtiyacı olacaktır.
+
+S Tüm sistemin enerji ihtiyacına tünel kontrol merkezlerinde bulunan SCADA sistemleri üzerinden erişilmeli ve izlenmeli ve müdahale edilmelidir.
+
+Tünellerde kullanılan sistemlerin enerji maliyetleri üzerine etkileri aşağıdaki tabloda listelenmiştir:
+
+Tablo 44. Sistemlerin Enerji Kullanımı
+
+Tablodan görüleceği üzere enerji sarfiyatının en fazla olduğu sistemler aydınlatma ve havalandırma sistemleridir. Bunların ardından işletme binaları gelmektedir. Bu üç sistemin güç tüketimine etkiyen faktörler ve etki oranları aşağıdaki tablolarda gösterilmiştir.
+
+Tablo 45. Enerji Tüketimine Etkiyen Faktörler
+
+Son yıllarda enerji maliyetlerini azaltma yönünde ciddi başarılar sağlanmıştır ve bu eğilim gelecek yıllarda da devam edecektir. Fransa'da LED aydınlatma teknolojilerinin tünellerde kullanımı denenmektedir. İtalya'da reflektör malzeme kullanımı deneme aşamasındadır. Çift tüp olan tünellerde tünel portalları arası mesafenin 30 m'den az olmaması tavsiye edilerek bir tünelden atılan kirleticilerin diğer tünele girişi ve fazladan jet fan çalışması önlenmeye çalışılmaktadır. Ayrıca CFD ve model çalışmaları sayesinde havalandırma sistemlerinin daha verimli çalıştırılma seçenekleri üzerinde durulmaktadır.
+
+PERSONEL ve BAKIM MALİYETLERİNİ AZALTMA ÖNERİLERİ
+
+Personel maliyetlerinden kasıt günlük bakım ve işletmeyi yapan personellerdir. Bunlar bakım masrafları kapsamındadır. Aşağıdaki uygulamalarla maliyetler azaltılabilir:
+
+S Tünel Kontrol Merkezleri belirli alanlarda toplanarak tünellerin gözetlemesi buradan sağlanabilir. Kurulacak SCADA sistemleri basit, işletmesi kolay olmalıdır.
+
+S Polis ve diğer acil durum servislerine tünel bilgilerine erişim izni verilmesi hususunda protokoller yapılarak kazalar ve olaylarla ilgili işbirliği kurulabilir.
+
+S İmkân bulunursa araç tanıma sistemi ve gereken yerlerde ücret toplama sistemleri kurularak bunun için istihdam gereği ortadan kalkabilir.
+
+S Koruyucu ve düzeltici bakım çalışmalarında bakım standartlarını iyi belirlemek gerekir. Düşük bakım standartları ile çalışmak kısa vadede fayda sağlasa da uzun vadede sorunlar ortay çıkabilir. Bu sebeple ekipmanların kullanım ömrüne göre en uygun bakım programları geliştirilmedir.
+
+S Bakım çalışmalarının programı yapılırken trafiğe etkisi iyi düşünülmelidir. Bazı durumlarda gece bakım yapmak avantajlı olsa da çalışan personelin vardiya ücretleri yüksek olacağından iki ihtimalde de en uygun yöntem düşünülmelidir.
+
+S Bakım çalışmalarını devletin kendi personeliyle yapması mı yoksa ihale ile yapılması mı konusunda maliyetler düşünülerek devletin kısa, orta, uzun vade planları iyi yapılmalıdır.
+
+S Genel olarak kullanılacak ekipman ve sistemin ilk yatırım maliyetleri öncelik verilerek sistem kurulumu yapılmaktadır. Sistem ve ekipman seçimlerinde bakımları, kullanım ömürleri v.b. etkiler de hesaba katılarak optimum fayda sağlayacak ürünler seçilmelidir.
+
+S Çevresel faktörler ve iklim göz önüne alınarak bakım masraflarını azaltacak bazı kurallar alınabilir. Örneğin bazı bölgelerde çetin kış koşulları olduğunda çivili, zincirli lastikler kullanılır ve bunların tünel içinde asfalta ciddi zararı olmaktadır. Bunların tünel içerisinde kullanımı yasaklanarak asfalt bakım maliyetleri azaltılabilir.
+
+S Dizayn aşamasında tünelin her noktasına erişimin kolay olması sağlanmalıdır. Tünel köşelerinde toz birikmesini engelleyecek tasarımlar yapılmalıdır.
+
+SİSTEMLERİN KULLANIM ÖMÜRLERİ
+
+Aşağıdaki tablolarda tünellerde kullanılan 26 değişik sistem üzerine 10 farklı ülkenin uzmanlarından (Avusturya, Belçika, Finlandiya, Fransa, Japonya, İspanya, İsveç, İsviçre, UK, USA) alınan görüşler neticesinde oluşturulan tablo görülmektedir.
+
+Sonuçlar karşılaştırıldığında ekipman kullanım ömürleri ile ilgili ülkeden ülkeye değişen bazı farklılıklar görülmektedir. Elektronik sistemler (SCADA izleme ekipmanı gibi) sınırlı bir ömre sahiptir. Mekanik ve enerji kablo sistemleri 20 yılı aşan sürelerde ömre sahiptir. Aydınlatma ekipmanları beklenmedik şekilde düşük kullanım ömrüne sahiptir. Bunda en büyük etken tünel meteorolojik koşullarının malzemeleri beklenen değerden daha hızlı yıpratmasıdır. Güvenlik ve işaretleme ekipmanları ortalama ömre sahip olup bu süre yaklaşık 15 yıldır.
+
+Yıllık maliyetler hesaplanırken ilk yatırım maliyeti ve ortalama yaşam ömrü temel alınarak istatistiki veriler kullanılır. Aşağıda 3 farklı ülkeden 3 farklı tip tünel üzerine yıllık yenileme maliyetleriyle ilgili araştırma sonuçları yer almaktadır.
+
+Ortalama maliyetler ve beklenen bakım maliyetleri (servis durumu ve akan trafikte) için farklı yenileme stratejileri mevcuttur. 3 örnek üzerinde yapılan çalışmalarda 2 farklı strateji üzerinde durulmuştur.
+
+S Bozukluklardan kaynaklanan yenileme çalışmaları S Servis bilgilerine dayalı yenileme çalışmaları
+
+İleriki yıllara dönük olarak faiz oranları da hesaplanarak karşılaştırma yapıldığında ikinci durumun daha ekonomik olduğu sonucuna varılmıştır. Avusturya'nın RVS 13.03.41 ulusal bakım kılavuzu örneğinde olduğu gibi, ülkeler koruyucu bakım düzenlemeleri yaparak servis ömürlerini kullanmaya dayalı çalışmalara odaklanmalıdır.
+
+Ortalama Kullanım Süresi (Yıl)
+
+Şekil 118. Ekipmanların Ortalama Kullanım Süreleri
+
+Şekil 119. Tünel Sistemleri ve Bileşenlerinin Ortalama Ömürleri
+
+Şekil 120. İsviçre Tünellerinde Yıllık Yenileme Maliyetleri (Tek tüp;2 km)
+
+Şekil 121. Avusturya Tünellerinde Yıllık Yenileme Maliyetleri (Çift tüp; 2,7 km)
+
+Şekil 122.USA Tünellerinde Yıllık Yenileme Maliyetleri (Çift Tüp; 3,2 km)
+
+□CH
+
+■A
+
+□USA
+
+Şekil 123.Üç Farklı Ülkenin Yenileme Maliyetlerinin Karşılaştırılması
+
+Operasyon Sıcaklığı
+
+Artan sıcaklıkla beraber oluşan kimyasal reaksiyon sonucu özellikle elektrikli ekipmanların servis ömürlerinden daha önce işlevini yitirdiği saptanmıştır. Örneğin ortamda 10 0C bir artış olduğunda kimyasal reaksiyon ve yaşlanma yaklaşık 2 kat hızlı olmaktadır. Bu konuda araştırmalar yapan Svante ARRHENİUS (1859-1927) kendi adını verdiği aşağıdaki denklemi oluşturmuştur.
+
+r = dq/dt = A * exp (E/kT)
+
+Burada;
+
+r = Reaksiyon oranı (1/s) q = Kimyasal (yaşlanma) reaksiyonu (Birimsiz)
+
+t = Zaman
+
+A = Uluslararası tablolardan alınan malzemeye özgü bir sabit (Birimsiz)
+
+E = Uluslararası tablolardan alınan malzemeye özgü aktivasyon enerjisi (eV)
+
+k= Boltzman sabiti (eV /K)
+
+T = Mutlak sıcaklık (K)
+
+Yaşlanmanın hızlanması ile ilgili 10 0C kuralı uygulanmaktadır. Reaksiyon oranı > 1 olduğunda yaşlanma etkisi görülmektedir. Aşağıdaki tablolarda bazı teknik ekipmanların aktivasyon enerjisi ve yaşlanmaya etkileri ile ilgili tablo verilmiştir.
+
+Tablo 46. Aktivasyon Enerjisinin Yaşlanma Hızının Ortam Sıcaklığına Göre Değişimi
+
+Örneğin 22 0C ortam koşullarında aktivasyon enerjisi 0,5 eV olan bir malzemenin, ortam sıcaklığı 32 0C olduğunda yaşlanma oranı 2 kat artmaktadır. Aktivasyon enerjisi 0,8 eV olan başka bir malzemenin ise 10 0C'lik sıcaklık artışında yaşlanma oranı yaklaşık 3 kat artmaktadır.
+
+Tablo 47. Teknik Malzemelerin Aktivasyon Enerjisi Değerleri
+
+Bu verilerden görüleceği üzere ortam sıcaklığının dengede tutulmasının kullanılan malzemelerin öngörülen yaşam sürelerini doldurabilmelerinde çok önemli rolü vardır. Çoğu teknik ekipmanın tasarım sıcaklığı 0-40 0C arası değişmekle beraber yaşlanma oranına sıcaklığın etkisi tasarım aşamasında değerlendirilmemiştir. Kontrol odalarında ve özel teknik odalarda bulunan bu ekipmanların bulundukları ortamlarda sıcaklığın 30 0C'yi geçmemesi tavsiye edilmektedir.
+
+Bu ekipmanların kullanım ömrünü sıcaklığın yanında diğer çevresel faktörlerde (toz,
+
+duman, lastik ve egzozdan gelen partikül maddeler, kirleticiler, nem v.b.) etkilemektedir.
+
+Koruyucu bakımlar sayesinde bu etkiler asgariye indirilebilir.
+
+Mekanik Gerilmeler:
+
+Özellikle ağır tonajlı araçlar tarafından oluşturulan rüzgâr, fanların yataklarının eskimesinden, gevşemesinden ve büzülmesinden kaynaklı titreşimler, elektrik kablolarının çekme gerilmeleri v.b. mekanik gerilme kaynakları olarak sıralanabilir. Bu gerilmeler nedeniyle aşağıdaki tabloda görüleceği üzere malzeme yaşlanması artmakta ve kullanım ömürleri kısalmaktadır.
+
+Bunlarla ilgili genel kural yoktur. Her bir sistem kendi koşullarına özgü biçimde analiz edilerek gerekli önlemler ve bakım programları yapılmalıdır.
+
+Galvanik Korozyon:
+
+Özellikle mekanik sistemleri tehlikeye atan bir diğer tehdit korozyondur. Atmosfere açık olan tünellerde paslanmaz çelik malzeme kullanımı gerekmektedir. Paslanmaz çelik kullanımının pek mümkün olmadığı vidalar, cıvatalar, pullar v.b. malzemeler ise periyodik bakımlarda kontrol edilmeli ve yenilenmelidir.
+
+SCADA BİLEŞENLERİ ve BİLGİSAYARLARIN KULLANIM ÖMÜRLERİ İLE İLGİLİ ÖNERİLER
+
+Dizayn aşamasında alınması gereken önemli bir karar PC' nin kalitesini belirlemektir. Pahalı, uzun ömürlü bir PC mi yoksa daha ucuz, daha kısa servis ömürlü bir PC mi kullanılmalı?
+
+Burada iyi bir karar verebilmek için bir dizi teknik detayın göz önüne alınması gerekmektedir. Özellikle aktif kontrol bileşenlerinin soğutulması genelde dizayn aşamasında pek düşünülmez. PC seçerken daha sonra oluşabilecek aşağıdaki sorunlar düşünülmelidir;
+
+S Yeni sistemlerin eklenmesi ile artan yoğunluk ve uygun olmayan yazılım seçimi
+
+S Mikroişlemcilerin artan yoğunluğu ve oldukça dar mikroişlemci yerleşimi
+
+S Uyumlu olmayan soğutma sistemi kullanılması
+
+Yüksek ortam sıcaklığı, nem, titreşim, ortamdaki duman v.b. faktörler PC'lerin kullanım ömrünü azaltmaktadır. Soğutma için ek fan uygulamaları kirlilik, toz ve dumanı artırdığı için tercih edilmemektedir. Aşağıdaki tabloda farklı PC türlerinin ortalama kullanım ömürleri verilmiştir.
+
+Tablo 48. Farklı Bilgisayar Türlerinin Kullanım Ömürleri
+
+Örneğin hard disk sürücüsü 25 0C ortamda 3 kHz ile çalıştığında aktivasyon enerjisi 1,27 eV'dir. Kullanım ömrü 6,4 yıldır. Eğer ortamda 10 0C'lik sıcaklık artışı olursa yaşlanma oranı yaklaşık 4 kat artmaktadır.
+
+AYDINLATMA ELEMANLARININ KULLANIM ÖMÜRLERİ İLE İLGİLİ ÖNERİLER
+
+Lambalar ve armatürler; bağlı olduğu kontrol sistemleriyle beraber tünelin parçasıdır. Armatürler ve lambalar tünel içerisinde termal, mekanik, elektriksel etkiler ve nem, kirlilik gibi çevresel etkilerle mücadele ederler.
+
+Işık kaynağının ömrüne bağlı olarak imalatçılar farklı lamba tipleri geliştirmiştir. Aşağıdaki tablo incelendiğinde kullanım ömürleri bakımından uzun ömürlü florasan lambaların avantajlı olduğu görülmektedir. Yeni teknolojilerden olan LED (Light Emitting Diodes) aydınlatmaların daha uzun ömürlü, enerji tüketim değerlerinin daha uygun olduğu görülmektedir. Ancak elimizde yeterli veri olmadığı ve henüz yeni yeni tünel uygulamalarında kullanıldığı için kesin bir kıyaslama yapılamamaktadır.
+
+Tahmini Faydalı Kullanım Ömrü
+
+Aydınlatma Süresi (saat)
+
+> YiikiEk Basınçlı Sodyum Lambası
+
+â Floresan Lamba
+
+LfeıınOmürljFloresan Lamba Deneyimle Elde Edilen Değerler
+
+Tablo 49. Farklı Lamba Türlerinin Kullanım Ömürleri
+
+ÜLKEMİZDE TÜNEL BAKIM ONARIM İŞLETME MALİYETLERİ ENVANTER BİLGİLERİ
+
+Ülkemizde Devlet ve İl Yolları üzerindeki tünellerin bakım, onarım ve işletme işleri Tünel Bakım İşletme Şeflikleri üzerinden yürütülmektedir. Bu şefliklere bağlı Tünel Ana Kontrol Merkezleri, Tünel Alt Kontrol Merkezlerinde envanter kısmında anlatılan personel yapılandırmasının yanında teknik bakımlar ihale yoluyla sürdürülmektedir. İhale ile yapılan işlerin emanet usulü ile yapılması konusunda hazırlık çalışmaları yapılmakta olup önümüzdeki yıllarda çalışma sisteminin bu yönde değiştirilmesi hedeflenmektedir.
+
+Tünellerin uzunlukları, grup tünel olması durumu, merkezden uzaklığı ve yoğunluğu gibi sebeplerden dolayı km başına tünel bakım maliyeti çalışması yapılması sağlıklı olmamaktadır. Tünel Bakım İşletme Şefliklerimizle birlikte yaptığımız çalışmaya göre maliyetlerimiz şu kalemlerden oluşmaktadır.
+
+Sİdari personel giderleri,
+
+SHizmet alımı personel giderleri, SHizmet alımı araç giderleri,
+
+S Faturalar (Telefon, elektrik, internet, su), SAkaryakıt malzemeleri,
+
+S Elektrik sarf malzemeleri,
+
+SYenileme çalışmalarından oluşmaktadır.
+
+2015 yılı Tünel Bakım İşletme Şefliklerimizde oluşan maliyetlerle ilgili olarak özet tablo aşağıda verilmiştir;
+
+Tablo 50. 2015 Yılı Tünel Bakım, Onarım, İşletme Maliyetleri
+
+Maliyetler incelendiğinde en düşük maliyetin Trabzon Şefliğinde olduğu görülmektedir. Bunun ana nedeni tünel sayısının fazlalığıdır. Tünel 1 km'de olsa 5 km'de olsa personel yönünden aynı ihtiyaçları barındırdığı ve en yüksek maliyet kaleminin de personellerden kaynaklandığı düşünülecek olursa maliyetler arasındaki farklar anlaşılabilir olmaktadır. Önümüzdeki dönemde uygulanacak çalışmalarla bu maliyetlerin düşürülmesi hedeflenmektedir.
+
+BÖLÜM 6
+KARAYOLU
+TÜNELLERİNDE
+
+TEHLİKELİ MADDE
+TAŞIMACILIĞI
+
+400
+
+GİRİŞ
+
+Tünellerde kaza oranı yolun diğer kesimlerine göre daha azdır. Ancak kaza sonucu yangın çıktıysa tünel içinde bu yangın hızla yayılır ve ciddi tehlikeler oluşturabilir. 1990'ların sonunda Avrupa'da meydana gelen Mont Blanc, Tauern ve Gothard Tünel felaketlerinden sonra çeşitli çalışmalar yapılmış ve bu çalışmaların bir uzantısı olarak karayolu tünellerinde tehlikeli madde taşımacılığı ile ilgili yönetmelikler oluşturulmuştur.
+
+Bu bölümde kısaca bu sürecin gelişimini, ilgili mevzuatları ve ülkemizde gelinen noktayı inceleyeceğiz.
+
+MEVZUATLAR
+
+Tehlikeli Maddelerin karayolu tünellerinden geçirilmesi konusunda tünel güvenliği ile yakından ilgili olan aşağıdaki üç mevzuatın gerekliliklerini uygulamak gerekmektedir.
+
+S Avrupa Parlamentosu ve Konseyi’nin 29.04.2004 tarih ve 2004/54/EC sayılı "Trans- Avrupa Karayolu Ağı Tünelleri İçin Minimum Güvenlik Gereksinimleri",
+
+SADR 2007/2009 (Tehlikeli Maddelerin Karayolu İle Taşınması Hakkında Avrupa Anlaşması)
+
+SISO 31000 Guide 73:2009 ( Risk Yönetimi)
+
+2004/54/EC DİREKTİFİ İLE İLGİLİ HUSUSLAR
+
+Direktife göre TEN yol ağında bulunan 500 metreden uzun trafiğe açık, yapım aşamasında ve yapımı planlanan tünellerle ilgili bazı yükümlülükler ve uygulama takvimi getirildiğinden bir önceki konuda bahsedilmişti.
+
+Uygulama takvimine göre 30.04.2009 tarihine kadar komisyon tarafından üye ülkeler tarafından geliştirilen risk analiz yöntemleri ile ilgili rapor hazırlanması istenmişti. 2004 yılından itibaren üye ülkeler konu üzerine çalışmış ve 2007 yılında ortak bir çalışma raporu ile PİARC bünyesinde “Karayolu Tünelleri İçin Risk Analizi Raporu” oluşturulmuştur. 2012 yılında komisyon devam eden çalışmaları tekrar güncelleyerek 2012R23EN sayılı “Karayolu Tünellerinde Risk Çalışmaları Konusunda Güncel Çalışmalar” raporunu hazırlamıştır. Çalışmaların içeriği ile ilgili ileriki konularda bazı bilgiler verilecektir.
+
+ADR ANLAŞMASI İLE İLGİLİ HUSUSLAR
+
+ADR (Tehlikeli Maddelerin Karayolu ile Uluslararası Taşımacılığına İlişkin Avrupa Anlaşması) 01.06.2007 tarihinden itibaren yürürlüğe girmiştir.
+
+ADR' ye göre 3500'den fazla tehlikeli madde, tehlike sınıflarına göre 5 tünel sınıfına ayrılmıştır. Bu sınıflandırmada tehlikeli maddelerin kimyasal özellikleri, taşıma miktarları, tehlike durumunda reaksiyonları dikkate alınmıştır. Bunun sonucunda oluşabilecek ölümlü kazalar ve tünelde yapısal hasarlar hesaplanarak belirlenmiştir. ADR yükümlülüklerine göre her bir tünelin girişinde o tünelin tehlikeli madde sınıfını belirleyen bir kod olması gerekmektedir.
+
+Tehlike sınıfları oluşturulurken üç özellik esas alınmıştır. Bunlar;
+
+S Patlamalar,
+
+SZehirli gazların açığa çıkması ve ya zehirli gazların uçuculaşması
+
+SYangındır.
+
+ADR Bölüm 3.2 Tablo A'da 15. Sütunda her bir malzemenin tünel kodu yer almaktadır. Bu kod tehlikeli madde taşıma evraklarında da belirtilmekte ve malzemeyi taşıyan malzemenin geçebileceği tünel sınıflarını bilmektedir.
+
+Bu harfler aşağıdaki şekilde açıklanabilir;
+
+Tünel Kategorisi A; Herhangi bir kısıtlama yoktur,
+
+Tünel Kategorisi B; Çok büyük bir patlamaya neden olabilecek tehlikeli mallar için kısıtlama,
+
+Tünel Kategorisi C; Çok büyük bir patlamaya, büyük bir patlamaya ve büyük bir tehlikeli madde salınımına neden olabilecek tehlikeli mallar için kısıtlama,
+
+Tünel Kategorisi D; Çok büyük bir patlamaya, büyük bir patlamaya, büyük bir tehlikeli madde salınımına ve büyük bir yangına neden olabilecek tehlikeli mallar için kısıtlama,
+
+Tünel Kategorisi E; UN 2919, 3291, 3331, 3359 ve 3373 hariç tüm tehlikeli mallar için kısıtlama anlamlarına gelmektedir.
+
+Tablo 52. ADR'ye Göre Tünel Kısıtlamaları
+
+Tünel kısıtlamaları ve alternatif rota gösteren trafik işaretleri ile ilgili örnek aşağıdaki gibi olacaktır.
+
+Şekil 2 Tünel Kodlaması Trafik İşareti Örnekleri
+
+Tünel Kodlaması Alıştırmalar (Devamı)
+
+ISO Guide 73:2009 ve PİARC 2012R23EN İle İlgili Hususlar
+
+Tünellere ait tehlikeli madde sınıfını belirleyebilmek için risk analizi çalışması yapılması zorunluluğu doğmuştur. Önceki konuda bahsedildiği gibi 2004/54/EC direktifi uygulama takviminde belirtildiği üzere üye ülkeler tünellerde risk analizi çalışmalarını başlatmış ve bunun sonucunda PİARC bünyesinde daha kapsamlı raporlar oluşturulmuştu.
+
+ISO Guide 73:2009 Standardı “Risk Yönetimi” başlığı altında tanımları ortaya koymuş olup ortak bir dil kullanılmasını sağlamıştır. Risk nedir, hasar nedir, risk analizi nedir, risk değerlendirmesi, risk yönetimi nedir v.b. hususlarda teknik tanımlar bu standartta yer almaktadır.
+
+PİARC 2012R23EN “Karayolu Tünellerinde Risk Çalışmaları Konusunda Güncel Çalışmalar” Raporu bu konuda PİARC üyesi ülkelerin geliştirmiş oldukları yöntemlerle ilgili detaylı bilgiler vermektedir. Bu bölümde bu yöntemleri ve “Tünellerde Tehlikeli Madde
+
+Taşımacılığı” konusunda geliştirilen ortak yazılım olan QRAM (Tünellerde Sayısal Risk Yönetim Metodolojisi) programı ile ilgili bilgiler verilecektir.
+
+ADR'YE GÖRE TÜNEL SINIFLANDIRILMASI METODOLOJİK YAKLAŞIMI
+
+AB üyesi ülkeler daha önce açıklanan takvimler neticesinde birkaç değişik risk analiz yöntemi geliştirmiştir. Bunlardan önemlileri;
+
+Avusturya- Austrian TuRisMo
+
+Hollanda- Dutch QRA Tunnels
+
+Fransa- French Specific Hazard Identification
+
+İtalya- ITALİAN Risk Analyses For Road Tunnel (ANAS)
+
+OECD- PIARC QRA Model
+
+Hemen hemen bu metodolojilerin tamamı tehlikeli madde sınıflandırması hususunda QRAM yazılımını kullanmaktadır.
+
+QRAM yazılımında 13 farklı senaryo üzerinden analizler yapılmaktadır. Bu senaryolar aşağıda listelenmiştir.
+
+Programın risk değerlendirme akış şeması aşağıdaki gibi olmaktadır.
+
+Şekil 126. Risk Değerlendirme Akış Şeması
+
+Önceki konuda anlatıldığı gibi A,B,C,D,E olmak üzere ADR'ye göre beş temel tünel kategorisi mevcuttur. Yukarıdaki 13 senaryo ADR'de tanımlanmış 3506 maddeye göre değerlendirilerek oluşturulmuştur. Sınıflandırma yapılırken maddelerin maddelerin patlama riskleri, gazların salınımı, sıvıların uçucu özellikleri ve yangın durumları değerlendirilmiştir. Her bir tünel kategorisinin oluşturulan senaryolarda karşılığı bulunmaktadır. Aşağıda bununla ilgili oluşturulan tablo verilmiştir.
+
+Şekil 127. Senaryoların Tünel Kategorisi Karşılığı
+
+Sistem olarak tünel tanımlandıktan sonra program kendi içerisinde bazı analizler yapmaktadır. Programın işleyiş şeması aşağıdaki gibidir.
+
+Şekil 128. Sistem Tanımlaması
+
+Şimdi programın sınır değer olarak istediği bazı bilgiler nelerdir ondan bahsedelim;
+
+Zaman Periyodu (Time Period-TP): 3 sınıf olarak zaman periyodu sınırlandırılmıştır (Örneğin; TP1: 21:00-06:00, TP2: 06:00-08:00 & 15:00-17:00, TP3: 08:00-15:00 & 17:00- 21:00). Burada yıllık ortalama günlük trafik değerlerine göre normal trafik durumu, sıkışık durumu ve seyrek trafik durumları tanımlanacaktır (oransal olarak).
+
+Tünel Kategorisi ve Zaman Döngüsü: 13 farklı senaryo yazılımda tanımlı olan 5 tünel kategorisine göre 65 farklı kombinasyon gerçekleştirir.
+
+Beklenen Değer: Oluşturulacak kombinasyonlar ayrıca tünel rotası, alternatif rota ve tünel dışındaki hat için değerlendirilir. Her bir durum için beklenilen değerler daha önce yazılımda tanımlanmıştır ve girilecek verilerle beraber yukarıdaki senaryolar beklenilen değerlerle karşılaştırılır.
+
+Fayda-Maliyet Analizleri: Burada yapılan analizle de programdaki yüklü veriler kullanılarak karşılaştırmalar yapılır.
+
+F/N Eğrileri: Program istenilen senaryolar için F/N eğrileri çıkarmakta ve sonuca ulaşılmaktadır. Aşağıda örnek bir F/N eğrisi verilmiştir.
+
+Tüm Senaryoları Karşılaştırılması
+
+ÖLÜM SAYISI
+
+Şekil 129. Örnek F/N Eğrisi
+
+Programı değerlendirmek için aşağıdaki algoritma üzerinden gidilerek sonuca varılır. Burada sadece yazılımın temel özellikleri anlatılmış olup sürecin biraz karışık ve uzun bir çalışma gerektirdiğini belirtmek gerekir. Öncelikle ülkemizde geçmişten günümüze tünel kazalarına ilişkin istatistiki veriler kısıtlı ve bundan dolayı referans belirlerken güçlük çekmekteyiz. Ayrıca tünellerimizin havalandırma ve yangın senaryoları genellikle 30 MW ve 100 MW referans alınarak hazırlandığı için tam olarak A,B,C tipi tünel yangınlarını karşılamak mümkün görülmemektedir. Adı üzerinde bir risk çalışması yapılacağı için burada amacımız alternatifleri de değerlendirerek en az riskli durumu ortaya çıkarmak olacaktır.
+
+Şekil 130.Karar Verme Algoritması
+
+Aşağıda UNECE (The United Nations Economic Commission for Europe) üzerinden bildirimi yapılan bazı ülkelere ait tünel kısıtlama bilgileri verilmiştir.
+
+Şekil 131. Belçika Tünel Kısıtlama Kodları
+
+Şekil 132.Çek Cumhuriyeti Tünel Kısıtlama Kodları
+
+The Danish Mınistry ot' Justice hereby notifies tlıe secretariat that the fol- lowing tunnel categories have been assigned to the lurınel part of the 0re svınd link connecting Kastrup (Copenhagen) in Denmark with Lcrnackcn (Malmft) in Svveden:
+
+From 23:00 to 6:00: Class B
+
+From 6:00 to 23:00: Class E
+
+Danimarka Adalet Bakanlığı Sekreterliği Kopenhag (Danimarka)- Malmö (İsveç) arasındaki Qresund Bağlantı Yolu üzerindeki tünellerde aşağıda belirtilen tünel kategorilerinin geçerli olduğunu bildirir.
+
+Saat 23:00’darı 06:00'ya kadar Kategori B,.
+
+SaatfcOO'dan 23:00'e kadar Kategori E
+
+Şekil 133. Danimarka Tünel Kısıtlama Kodları
+
+Şekil 135.Norveç Tünel Kısıtlama Kodları
+
+Şekil 136.Slovakya Tünel Kısıtlama Kodları
+
+Avusturya Tehlikeli Madde Tünel Geçişi Kısıtlama Uygulamaları;
+
+Karawenken Tüneli hariç, 1 km'den uzun tüm karayolu tünelleri için tehlikeli madde taşımacılığı tünel kodlaması yapılmıştır. (Not: Karawenken Tüneli Alp dağlarında bulunan, Avusturya - Slovenya sınırı, yaklaşık 8000 metre uzunluğunda çift yönlü tek tüptür. 2023 yılına kadar 2. tüpünün açılması planlanmaktadır.)
+
+Kurallar 3 grupta yapılmıştır;
+
+1 km'den büyük - 5 km'den küçük karayolu tünelleri için; Araçlarda turuncu plaka
+
+kullanılması, yanıp sönen sarı ikaz lambası bulunması zorunludur. Tünele girmeden 200 metre öncesinde ikaz lambası çalıştırılır. Tünel boyunca bu ikaz lambası açık bırakılır. Tünelden geçiş sırasında trafik sıkışıklığı olsa bile öndeki araçla en az 100 metre takip mesafesi bırakılır.
+
+5 km'den büyük karayolu tünelleri için; 1 numaralı bölümde yazılanlara ek olarak tehlike sınıfı olan araçlar (22,333 v.b.) eskort eşliğinde hareket etmelidir. Eskort araçlarda da ikaz lambası bulunması zorunludur. Eskort araç personelleri gerekli ADR belgelerine sahip olmalıdır. En az bir eskort personeli tehlikeli madde güvenlik danışmanı olmalıdır.
+
+Diğer tüneller; Bazı tünellerde şartlar gereği özel koşullar bulunmaktadır. Bu tünellere özgü özel direktifler yapılmıştır (Tünel yöneticisi ile irtibat, saat kuralları v.b.)
+
+Aşağıda Avusturya'da bulunan 1000 metreden fazla uzunluktaki karayolu tünellerinde yukarıdaki uygulamalrla ilgili örnekler verilmiştir.
+
+Almanya Tehlikeli Madde Tünel Geçişi Kısıtlama Uygulamaları;
+
+418
+
+EK 1.
+
+BAKIM FORMLARI
+
+420
+
+BAKIM VE KONTROL FORMLARI
+
+FORM 01 GÜNLÜK KONTROLLER FORMU
+
+FORM 02 GÜNLÜK BAKIM VE KONTROL TUTANAĞI FORMU
+
+FORM 03 ELEKTRİK PANO VE ODASI BAKIM FORMU
+
+FORM 04 JENERATÖRLER BAKIM FORMU
+
+FORM 05 UPS SİSTEMİ VE AKÜ BAKIM FORMU
+
+FORM 06 CO, VIS, RÜZGAR ÖLÇER VE LÜMİNANSMETRE BAKIM FORMU
+
+FORM 07 AYDINLATMA SİSTEMİ BAKIM FORMU
+
+FORM 08 IŞILDAKLAR BAKIM FORMU
+
+FORM 09 JET FAN SİSTEMİ BAKIM FORMU
+
+FORM 10 ARTI BASINÇ SİSTEMİ BAKIM FORMU
+
+FORM 11 KAMERA SİSTEMİ BAKIM FORMU
+
+FORM 12 SOS SİSTEMİ BAKIM FORMU
+
+FORM 13 HARİCİ ANONS BAKIM FORMU
+
+FORM 14 TRAFİK KONTROL SİSTEMİ BAKIM FORMU
+
+FORM 15 VMS BAKIM FORMU
+
+FORM 16 YANGIN SÖNDÜRME TÜPÜ BAKIM FORMU
+
+FORM 17 YANGIN İHBAR VE SÖNDÜRME SİSTEMİ FORMU
+
+FORM 18 YANGIN İHBAR BUTONLARI KONTROL FORM
+
+FORM 19 RADYO FREKANS KONTROL FORMU
+
+FORM 20 KONTROL MERKEZİ CİHAZLARI BAKIM FORMU
+
+FORM 21 ATÖLYE VE BAKIM ARAÇLARI BAKIM FORMU
+
+FORM 22 BAKIM PLANI GERÇEKLEŞME FORMU
+
+FORM 23 ARIZA VE OLAY TAKİP FORMU
+
+FORM 24 ARAÇ TAKİP FORMU
+
+FORM 25 TÜNEL ENERJİ TÜKETİMİ FORMU
+
+422
+
+G Ü N L Ü K K O N T R O L L E R
+
+Tarih:
+
+423 Formu Düzenleyenin Adı, Soyadı:
+
+İmzası:
+
+Günlük Bakım ve Kontrol tutanağı
+
+Bu form günlük olarak her vardiya tarafından doldurulur.
+
+Elektrik Pano ve Odaları Bakımı(Aylık)
+
+ELEKTRİK PANO VE ODALARI YILLIK BAKIMI
+
+Tarih
+
+Adı soyadı İmzası
+
+Form 03 : Bu form yıllık bakımda kullanılacaktır.
+
+ELEKTRİK PANO VE ODALARI YILLIK BAKIMI
+
+Form 03 :Bu form yıllık bakımda kullanılacaktır.
+
+J E N E R A T Ö R L E R
+
+Bu form haftalık bakımda kullanılacaktır.
+
+UPS SİSTEMİ VE AKÜLERİ BAKIMI
+
+form : 05 Bu form aylık bakımda kullanılacaktır.
+
+CO ;VIS ; RÜZGAR ÖLÇER VE LÜMİNANSMETRELER
+
+Bu form aylık bakımda kulanılacaktır.
+
+AYDINLATMA SİSTEMİ BAKIMI
+
+Tünel Adı:
+
+AYDINLATMA SİSTEMİ YILLIK BAKIMI
+
+Tarih :
+
+Adı soyadı :
+
+İmzası :
+
+I Ş I L D A K L A R
+
+form : 09 Bu form avhk bakımda kullanılacaktır.
+
+Form-09 Aylık	Tünel Adı:
+
+J E T F A N S İ S T E M İ YILLIK B A K I M I
+
+Tarih:
+
+Adı soyadı:
+
+İmzası:
+
+form : 09 Bu form yıllık bakımda kullanılacaktır.
+
+Kuzey portal artı basınç
+
+| | CC1 artı basıç
+
+□ CC3 artı basıç
+
+□ CC4 artı basıç
+
+□ CC6 artı basıç
+
+| | Güney portal artı basıç
+
+I | Kuzey portal artı basıç
+
+| | CC1 artı basıç
+
+| | CC3 artı basıç
+
+□ CC4 artı basıç
+
+□ CC6 artı basıç
+
+| | Güney portal artı basıç
+
+I I Kuzey portal artı basıç
+
+| | CC1 artı basıç
+
+□ CC3 artı basıç
+
+| | CC4 artı basıç
+
+| | CC6 artı basıç
+
+| | Güney portal artı basıç
+
+| | Kuzey portal artı basıç
+
+| | CC1 artı basıç
+
+□ CC3 artı basıç
+
+□ CC4 artı basıç
+
+| | CC6 artı basıç
+
+| | Güney portal artı basıç
+
+| | Kuzey portal artı basıç
+
+| | CC1 artı basıç
+
+□ CC3 artı basıç
+
+□ CC4 artı basıç
+
+□ CC6 artı basıç
+
+I | Güney portal artı basıç
+
+ARTI BASINÇ SİSTEMİ
+
+£■
+
+N
+
+O
+
+>»
+
+(A*
+
+■a ;öî
+
+i s
+
+.e E
+
+e £
+
+w tp <d > o E
+
+C — :O N -C-
+
+.N W c o> *= N .« :3
+
+Bu form haftalık bakımda kullanılacaktır.
+
+W t-
+
+0) E
+
+O CL
+
+£ .5 te
+
+N ■§>
+E ■a
+£8.
+
+-c-
+
+.N (5 c o> E N .« o
+
+(A
+
+2 E
+
+C CL O CL <0 ._ te N
+
+E 'a
+£8.
+
+Açıklama
+
+Çalışmayı
+
+yapan
+
+Tarih
+
+Teknisyen
+
+Tarih
+
+Teknisyen
+
+Tarih
+
+Teknisyen
+
+Tarih
+
+Teknisyen
+
+Tarih
+
+Teknisyen
+
+K A M E R A S İ S T E M İ B A K I M I
+
+Bu form avhk bakımda kullanılacaktır.	Tarih:
+
+Adı soyadı:
+
+İmzası:
+
+Not	: 	 Tarih	:
+
+Adı Soyadı:
+
+form : 12 Bu form aylık bakımda kullanılacaktır.
+
+S O S S İ S T E M İ YILLIK B A K I M I
+
+Not		 Tarih
+
+Adı Soyadı
+
+İmzası
+
+form : 12 Bu form yıllık bakımda kullanılacaktır.
+
+Adı Soyadı:
+
+İmzası:
+
+form : 13 Bu form aylık bakımda kullanılacaktır.
+
+Tarih
+
+Adı soyadı :
+
+İmzası :
+
+VMS BAKIMI
+
+Tarih
+
+Form 15 : Bu form yıllık bakımda kullanılacaktır.
+
+Adı soyadı :
+
+İmzası :
+
+VMS 6 MODÜL GÜÇ KARTLARI DEĞİŞİM TARİHLERİ
+
+Form : 15 Bu form VMS aOc kartı değişiminde kullanılacaktır.
+
+Problemli ledler ile işaretlenecektir. Vms in bütün ledleri 1,2,3,4,\« 5 olacak şekilde teker teker yazdırılacak « arızalı ledler tesbit edilecektir.
+
+Scada alarmalarının kontrolü
+
+Not:		 Tarih:
+
+Adı soyadı:
+
+imzası:
+
+Form : 15 Bu form yılık bakımda kullanılacaktır.
+
+TÜNELİ YANGIN SÖNDÜRME TÜPLERİ DAĞILIM LİSTESİ
+
+Tüplerin sayımlları ve basınç göstergesinin yeşilde olduğu kontrol edildi □ yapıldı
+
+Not:
+
+Tarih: Adı Soyadı: imzası:
+
+Bu form aylık bakımda kullanılacaktır.
+
+Not:
+
+Tarih:
+
+Adı Soyadı:
+
+İmzası:
+
+Bu form aylık bakımda kullanılacaktır.
+
+Tünel Adı:
+
+YANGIN İHBAR BUTONLARININ (ZONELER) KONTROLU
+
+Not : Aylık bakımda sadece bir zone dan alarm verilecektir.
+
+Tarih Adı soyadı
+
+form : 18 Bu form aylık ve yıllık bakımda kullanılacaktır.
+
+RADYO FREKANS KONTROLU
+
+form : 19 Bu form aylık bakımda kullanılacaktır.
+
+Form 20: Bu form yıllık bakımda kullanılacaktır.	Tarih:
+
+Adı soyadı:
+
+İmzası:
+
+Atölye 4 nolu oda temizlenmesi
+
+Atölye 5 nolu oda temizlenmesi
+
+Atölye 6 nolu oda temizlenmesi
+
+ATÖLYE VE BAKIM ARAÇLARI BAKIMI
+
+Açıklama
+
+Çalışmayı yapan
+
+Atölye çevresi ve diğer odalar temizliği
+
+«
+
+Malzemelerin sayımının yapılması (listeler)
+
+Malzemelerin sabit yerlerine konması
+
+Malzemelerin bakımının yapılıp kullanıma hazır hale
+
+getirilmesi
+
+Bakım arabasının bakımının yapılması
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+Tarih
+
+Teknisyen
+
+ra
+
+as
+
+X
+
+c\i
+
+Atölye 4 nolu oda temizlenmesi
+
+Atölye 5 nolu oda temizlenmesi
+
+Atölye 6 nolu oda temizlenmesi
+
+Atölye çevresi ve diğer odalar temizliği
+
+Malzemelerin sayımının yapılması (listeler)
+
+Malzemelerin sabit yerlerine konması
+
+Malzemelerin bakımının yapılıp kullanıma hazır hale
+
+getirilmesi
+
+Bakım arabasının bakımının yapılması
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+Tarih
+
+Teknisyen
+
+(0
+
+e
+
+(0
+
+X
+
+co
+
+Atölye 4 nolu oda temizlenmesi
+
+Atölye 5 nolu oda temizlenmesi
+
+Atölye 6 nolu oda temizlenmesi
+
+Atölye çevresi ve diğer odalar temizliği
+
+Malzemelerin sayımının yapılması (listeler)
+
+Malzemelerin sabit yerlerine konması
+
+Malzemelerin bakımının yapılıp kullanıma hazır hale
+
+getirilmesi
+
+Bakım arabasının bakımının yapılması
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+Tarih
+
+Teknisyen
+
+as
+
+m
+
+X
+
+Atölye 4 nolu oda temizlenmesi
+
+Atölye 5 nolu oda temizlenmesi
+
+Atölye 6 nolu oda temizlenmesi
+
+Atölye çevresi ve diğer odalar temizliği
+
+Malzemelerin sayımının yapılması (listeler)
+
+Malzemelerin sabit yerlerine konması
+
+Malzemelerin bakımının yapılıp kullanıma hazır hale
+
+getirilmesi
+
+Bakım arabasının bakımının yapılması
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+Tarih
+
+Teknisyen
+
+£
+
+ta
+
+X
+
+uri
+
+Atölye 4 nolu oda temizlenmesi
+
+Atölye 5 nolu oda temizlenmesi
+
+Atölye 6 nolu oda temizlenmesi
+
+Atölye çevresi ve diğer odalar temizliği
+
+Malzemelerin sayımının yapılması (listeler)
+
+Malzemelerin sabit yerlerine konması
+
+Malzemelerin bakımının yapılıp kullanıma hazır hale
+
+getirilmesi
+
+Bakım arabasının bakımının yapılması
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+yapıldı
+
+Tarih
+
+Teknisyen
+
+yapıldı
+
+Tarih:
+
+Adı Soyadı:
+
+Form : 21 Bu form haftalık bakımda kullanılacaktır.	İmzası:
+
+Tarih:
+
+Adı Soyadı:
+
+Form : 21 Bu form haftalık bakımda kullanılacaktır.	İmzası:
+
+ATELYE PANOLARINDA VE MASADAKİ MALZEMELER
+
+Tarih:
+
+Form: 21 Bu form haftalık bakımda kullanılacaktır.	Adı Soyadı:
+
+İmzası:
+
+YILI 	TÜNELİ PERİYODİK BAKIM GERÇEKLEŞME ZAMANLARI
+
+Tarih:
+
+Form: 22 A ylk ve Yıllık bakım planlaması Ve gerçekleşme durumu	Adı Soyadı:
+
+İmzası:
+
+ARIZA VE OLAY TAKİBİ
+
+Tarih:
+
+Adı Soyadı:
+
+İmzası:
+
+ARAÇ TAKİP FORMU
+
+Tarih: Adı Soyadı: İmzası:
+
+Bu form her aün aksam vardiyası tarafından doldurulur.
+
+EK 2.
+
+ACİL DURUM
+SENARYOLARI
+
+460
+
+EK 2.1. KAZA ANINDA NELER YAPILIR ?
+
+Kaza olan yeri gösteren kamera monitöre sabitlenir.
+
+Kazaya ilk müdahaleyi yapacak vardiya ekibine (Şoför, İşçi, Trafik Teknisyeni, Bakım Teknisyeni) bilgi verilerek kaza yerine en hızlı şekilde gerekli ekipmanlarla (İşaretleme Aracı, Trafik Aracı v.b.) gitmesi sağlanır.
+
+Trafik bilgisayarından kaza yerinin (Şeridinin ve ya Şeritlerin) gerektiği şekilde işaretlemesini yapılır. Gerekiyorsa kazanın olduğu tüp trafiğe kapatılır.
+
+VMS'lere kaza yeri ve şeridi belirtilerek kaza olduğu bilgisi yazıp gönderilir.
+
+Tünel içine kaza ile ilgili uyarıcı radyo anonsu ve harici anons gönderilir.
+
+Tünel içine giden personelden kaza ile ilgili ayrıntılı bilgi alınarak ambulans (112), itfaiye (110) ve ilgili kolluk kuvvetlerine bilgi verilir.
+
+Seyyar el kamerası ve fotoğraf makinesi ile kaza yerinden görüntü alınması sağlanır.
+
+Kaza olayı işletme şefine bildirilir.
+
+Teknik ekip, kazada tünel sistemlerinin zarar görüp görmediğini tespit eder.
+
+Kaza yapan aracın tünel dışına alınması sağlanır.
+
+Yolun temiz ve kullanılabilir olduğu görüldükten sonra yol trafiğe açılır.
+
+Kaza ile ilgili tutanak hazırlanır.
+
+Kamera görüntülerinden ve arşiv kayıtlarından kazaya ait fotoğraf ve film görüntüleri alınır. Bu belgeler ile el kamerası ve fotoğraf makinesi ile çekilen belgeler ilgi bilgisayardaki Kazalar klasörü içinde yeni bir klasör oluşturularak toplanır.
+
+Kaza, bilgisayardaki Form Arıza Ve Olay dosyasına işlenir.
+
+Olaya Müdahale için gönderilen araç bilgileri bilgisayardaki Form Araç Takip dosyasına işlenir.
+
+Tünel içinde duran aracın durduğu şerit en hızlı şekilde trafik cihazlarıyla işaretlenir.
+
+VMS'e, içeride hangi şeritte araç duruyorsa o şeritte araç olduğu mesajı yazılarak gönderilir.
+
+İçeriye radyo ve harici anons gönderilerek, sürücüler uyarılır. SOS yardımıyla sürücü ile görüşme sağlanır.
+
+Duran aracın neden durduğu öğrenilir, çekilecek durumdaysa kurtarıcı aracı gönderilerek araç güvenli bir şekilde tünel dışına çıkarılır.
+
+Olaya müdahale için gönderilen araç bilgileri bilgisayardaki Form Araç Takip dosyasına işlenir.
+
+SOS görüşmesine ait yazıcı çıktısına açıklama yazılarak dosyalanır.
+
+Kamera görüntülerinden araç fotoğraf ve film görüntüleri alınarak ilgili bilgisayardaki Duran Araçlar klasörü içinde yeni bir klasör oluşturularak burada toplanır.
+
+Olaya müdahale için gönderilen araç bilgileri bilgisayardaki Form Araç Takip dosyasına işlenir.
+
+EK 2.3. YÜKSEK ARAÇ GELDİĞİNDE NELER YAPILIR?
+
+Yüksek araç geldiğinde hemen görevli personel aranarak, yüksek aracın geldiği tarafa gönderilir.
+
+İlgili VMS'de bulunan anons hazır konuma getirilir. Araç takip edilerek ilgili VMS'e yanaştığında mesaj gönderilir.
+
+Yüksek araç geldiğinde ilgili VMS'in altında bulunan alarm çakarlarının çalışıp çalışmadığı kontrol edilir.
+
+Gönderilen personel tarafından yüksek aracın tünele girmeden geri çevrilmesi sağlanır. İtiraz eden sürücülere 4,80 m'den yüksek araçların karayoluna çıkmasının yasak olduğu belgesi gösterilir. Gerekirse kontrolör vasıtasıyla kolluk kuvvetlerine bildirilir.
+
+SCADA bilgisayarına yüksek araç alarmı geldiğinde ilgili VMS'e Aracınız Yüksektir! mesajının gidip gitmediği kontrol edilir.
+
+İtiraz edip görevlinin içeri giremezsin uyarısına rağmen aracıyla içeri giren araç kameralarla çıkışa kadar takip edilerek tünele hasar verip vermediği tespit edilir.
+
+Tünele giren yüksek araç olması halinde tünel içine ekip gönderilerek hasar kontrol edilir.
+
+Tünel içine giren yüksek aracın plakası tespit edilerek cezai işlem için kurum trafik teknisyenine verilir.
+
+İtiraz edip tünele giren araç gittiği yöndeki gişe istasyonlarına ve o bölgedeki Trafik Polis Noktasına yapmış olduğu fiili ile bildirilir.
+
+Uzak mesafedeki gabari algılayıcısı alarm verdiği halde araç tünele gelmez ise park alanları kontrol edilir.
+
+Çok sayıda yüksek aracın art arda gelebileceği düşünülerek bir yüksek aracın durdurulmasından sonra peşindeki araçlarda kontrol edilir.
+
+SCADA yüksek araç alarmı kaldırılır ve ilgili VMS'ler de mesajların normale döndüğü teyit edilir.
+
+Kamera görüntülerinden araç fotoğraf ve film görüntüleri alınarak ilgili bilgisayardaki Yüksek Araçlar klasörü içinde yeni bir klasör oluşturularak burada toplanır.
+
+Olaya müdahale için gönderilen araç bilgileri bilgisayardaki Form Araç Takip dosyasına işlenir.
+
+EK 2.4. GENİŞ ARAÇ GELDİĞİNDE NELER YAPILIR?
+
+Geniş araçlar tünele girmeden durdurulur.
+
+Yol Kullanma İzni olmayan geniş araçlar tünelden geçemez.
+
+Yol Kullanma İzni olan geniş araçların tünelin sağ şeridinden geçmesi sağlanır. Bunun için sağ şerit, gerekiyorsa sağ ve orta şerit trafiğe kapatılır. Geniş aracın arkasına eskort ve römorklu ok verilir.
+
+Geçiş İzni olan geniş aracın izin belgesinin fotokopisi çekilerek dosyalanır.
+
+Geçiş İzni olmayan geniş araç tüneli kullanmakta ısrar ederse kolluk kuvvetleri göreve çağrılır.
+
+Kamera görüntülerinden, arşiv kayıtlarından geniş araca ait fotoğraf ve film görüntüleri alınır. Bu belgeler bilgisayardaki Yüksek Araç klasörü içinde yeni bir klasör oluşturularak burada topla
+
+EK 2.5. KONVOY GELDİĞİNDE NELER YAPILIR?
+
+Konvoyun geleceği önceden biliniyorsa tünel içinde bakım çalışmasından dolayı şerit kapatma işlemlerine ara verilerek yolun tamamı trafiğe açık tutulur.
+
+Yoğun hava kirliliği oluşacağından jet fanlar manuel olarak devreye alınır.
+
+EK 2.6. BRANDASIZ YÜK TAŞIYAN ARAÇ GELDİĞİNDE NELER YAPILIR?
+
+Brandası olmayan araçları trafik teknisyeni tünel girişinde durdurur, cezai işlem yapar, brandasını çektirir ve araç yoluna devam eder.
+
+Tünel içine girmiş brandasın yük taşıyan araç görüldüğünde; kamera görüntülerinden ve arşiv kayıtlarından, brandasız araca ait fotoğraf ve film görüntüleri alınır. Fotoğrafta aracın plakası okunabilir olmalıdır. Bu belgeler bilgisayardaki Brandasız Araç klasörü içinde yeni bir klasör oluşturularak burada toplanır.
+
+Fotoğraflar cezai işlem yapılmak üzere trafik teknisyenine verilir.Fotoğraflarda aracın plakası okunamıyorsa güzergâhtaki en yakın Trafik Polis Noktasına durum bildirilir.
+
+EK 2.7. ŞÜPHELİ OLAY YA DA ARAÇ, CİSİM GÖRÜLDÜĞÜNDE NELER
+
+YAPILIR?
+
+Aracın şüpheli olup olmadığına emin olmak için araç kameradan takip edilir.
+
+Şüpheli aracın içeriye cisim ve ya paket bırakıp bırakmadığını takip edilir.
+
+Şüpheli aracın, cisim ve ya paket bırakması durumunda yetkili kolluk kuvvetlerine haber verilir.
+
+Olay yerine ilgili kamera odaklanıp, izlenir.
+
+Şüpheli bir cisim varsa acilen tünel içinde bulunan, GSM operatörleri haberleşmelerini sağlayan baz istasyonlarının enerjisi kesilir. Bunun için kontrol merkezindeki pano İle SCADA üzerinde bulunan maskelerden baz istasyonu enerjileri kesilir.
+
+Şüpheli aracın bıraktığı bir paket ve ya cisimse, gerekirse o tüp trafiğe kapatılır. Kolluk Kuvvetleri gelene kadar personel, kesinlikle müdahale edilmemesi konusunda uyarılır.
+
+Olay ivedilikle ilgili İşletme Şefine ve işletme ile ilgili makamlara bildirilir.
+
+Hayvan taşıyan araçlar fark edildiğinde hırsızlık olabileceği düşünülerek şüpheli araç işlemi yapılır.
+
+Paket ve ya cisim bırakılması durumunda olayla ilgili Tutanak tutulur.
+
+Kamera görüntülerinden, arşiv Kayıtlarından şüpheli araca ait fotoğraf ve film görüntüleri alınır. Bu belgeler bilgisayardaki Şüpheli Araçlar klasörü içinde yeni bir klasör oluşturularak kayıt altına alınır.
+
+Paket ve ya cisim bırakma olayı bilgisayardaki Form Arıza Ve Olay dosyasına işlenir.
+
+Olaya müdahale için gönderilen araç bilgileri bilgisayardaki Form Araç Takip dosyasına işlenir.
+
+Tünel içinde bakım yapacak personel, yapacağı işle ilgili amirine bilgi verir.
+
+Bakım ekibi, bakım yapılacak bölgeyi net bir şekilde amire bildirir.
+
+Bu bilgiler ışığında ilgili SCADA üzerinden trafik işaretlemeleri yapılır.
+
+VMS'e çalışma ile ilgili mesaj gönderilir.
+
+Sürücülerin dikkatini çekmek için anons sistemini çalıştırılır.
+
+Çalışmalar, ekrandan takip edilir.
+
+Gerekirse ve ya amir sorduğunda bilgi verilir.
+
+Kamera görüntülerinden bakım ve trafik işaretleme ile ilgili fotoğraf görüntüleri alınarak ilgili bilgisayardaki Bakım Fotoğrafı klasörü içinde yeni bir klasör oluşturularak burada toplanır.
+
+Bakım için giden araç bilgileri bilgisayardaki Form Araç Takip dosyasına işlenir.
+
+EK 2.9. YANGIN ALARMI GELDİĞİNDE NELER YAPILIR?
+
+Yangın alarmı geldiğinde SCADA üzerinde yangının meydana geldiği yer tespit edilir.
+
+Kameralardan tünel taranarak alarmın gerçek olup olmadığı kontrol edilir.
+
+Alarmın gerçek olmadığı, bir arızadan kaynaklandığı anlaşıldığında hemen teknik personele haber verilir. Teknik personel ilgili elektrik odasındaki santralden alarmı siler.
+
+Yangın alarmı geldiğinde tünel otomatik olarak kapalı konuma geçecektir. İhbarın gerçek olmadığı anlaşıldığında Tünel Trafik Sistemi ve VMS'ler normal konuma getirilir.
+
+Yangın alarmı geldiğinde aydınlatma ve jet fanlar tanımlanan konuma geçecektir. İhbarın hatalı olduğu anlaşılırsa bunlar normal konumuna geçirilir.
+
+Olayı bilgisayardaki Form Arıza Ve Olay dosyasına işlenir.
+
+İhbarı takip için giden araç bilgileri Form Araç Takip dosyasına işlenir.
+
+EK 2.10. ARIZA ALARMI GELDİĞİNDE NELER YAPILIR?
+
+Arızanın geldiği birim SCADA üzerinde görülmektedir. Arızayı tanımladıktan sonra ilgili teknik personele bilgi verilir.
+
+Arıza SCADA ekranında renk değişimi ve ya resim ile sembolize edilmiş halde görülür ise bu ekrandan bir kopya yazdırılır ve dosyalanır.
+
+Arıza olayı bilgisayardaki Form Arıza Ve Olay dosyasına işlenir.
+
+EK 2.11. YANGIN GÖRÜLDÜĞÜNDE NELER YAPILIR?
+
+Tünel içinde yangın görüldüğünde derhal her iki tüpün trafik işaretleri ve bariyerleri kapatılarak içeriye görevli olmayan araçların girişi engellenir.
+
+Bütün anons ve alarm sistemleri çalıştırılır.
+
+Tünel içindeki mevcut araçlar dışarıya çıkarılır. Bunun için gerekirse ek işaretleme yapılarak bir tüpten diğer tüpe araç geçişini sağlayan kapılar açılır.
+
+Yangının büyüklüğüne göre, tünelde bulunan yangın söndürme ekipmanları yeterli olmayacaksa diğer itfaiye gruplarından yardım istenir.
+
+Yaralanma ve duman zehirlenmelerine karşı ambulans çağrılır.
+
+Acil aydınlatma devre dışında ise devreye alınır.
+
+Yol kontrol altında Tutularak yangına müdahale için gelecek yardım ekibinin olay yerine ulaşması sağlanır.
+
+Yangın alarmı gelmişse SCADA üzerinde bulunan havalandırma ara yüzü jet fanların çalışmadığı ve alarm noktasından sonra fanların çalışma yönlerinin ters olarak işaretlenmiş olduğu görülür. (Yangın Bölgesindeki Oksijeni Azaltarak Yangını Söndürme Düşüncesi)
+
+İçeride insan bulunuyorsa; jet fanın çalıştırılmasıyla alevin ve dumanın bu kişilerin üzerine doğru gelme olasılığı düşünülerek fanları devreye alma ve ya almama işlemi, bir ve ya iki yönde çalıştırma durumu olay anındaki şartlara göre karar verilir.
+
+Tünel içindeki yangın tüpleri kilitsiz dolaplarda olup kolayca açılabilir. Hidrant hortum dolapları basit kilitler ile kilitli olup Anahtarı Anahtarı Yangın Tüpü Dolaplarının İçinde Bulunur.
+
+İgili VMS lere tünel kapalıdır yazısını mesajını gönderilir diğer VMS' lere de yangınla ilgili mesaj yazılarak sürücüler bilgilendirilir.
+
+Olayla ilgili yetkili kurum amirlerine bilgi vermek, gerekli kayıt işlemlerini yaparak tutanak hazırlanır.
+
+Elektrik odasını görevli personel açmış ise alarm onaylanır.
+
+Kapının kim tarafından açıldığı bilinmiyorsa kamerayla o birime bakılır. Odanın telefonu aranır.
+
+Kapı açıldı alarmının neden geldiği anlaşılamaz ise olay yerine ekip gönderilerek kapı kontrol ettirilir.
+
+Kapıların yabancı kişilerce açıldığı görüldüğü durumda hırsızlık ve sabotaj düşüncesiyle hemen en yakın kolluk kuvvetlerine haber verilir. Olayla ilgili tutanak tutularak, yetkili kurum amirlerinde bilgi verilir. Kamera görüntülerinden, arşiv kayıtlarından şüpheli olaya ait fotoğraf ve film görüntüleri alınır. Bu belgeler bilgisayardaki Olaylar klasörü içinde yeni bir klasör oluşturularak burada toplanır.
+
+EK 2.13. ELEKTRİK KESİLDİĞİNDE NELER YAPILIR?
+
+Elektrik kesintisinde ve elektrik geldiğinde mutlaka yetkili teknik personele bilgi verilecek ve yapılacak işlemler kesinlikle teknik personelle haberli ve koordineli yapılacaktır.
+
+Tünelin beslendiği elektrik şebekelerinde ilgili İdare tarafından enerjinin kesileceği haber verilmeden enerji kesintisi olursa, enerjisi kesilen birimin arıza yetkilileri aranarak nedeni ve ne kadar süre kesinti devam edeceği öğrenilir.
+
+Bu sırada enerjisi kesilen tarafın jeneratörü devreye girmiş olması gerekir. Jeneratörün ısısı, mazotu ve çalışması teknisyen tarafından kontrol edilmelidir. Kesinti uzun sürecekse o anki teknik personele de bilgi vererek gelen alarmlar alınır, enerjisi kesilen tarafın ana besleme hattı üzerindeki kesicileri manuel konumuna alınır.
+
+Şebeke elektriğinin verilmesiyle jeneratörlerin devreden çıktığı kontrol edilir.
+
+Her tünelin kendi senaryolarına göre hangi kesicilerin devreye alınacağı, SCADA üzerinden takibi, alarm durumlarına göre yapılacaklar talimat olarak yazılmalıdır.
+
+Enerjinin kesiliş sebebi ne zaman geldiği devreye ne zaman alındığı, bilgisayarındaki Arıza Olay dosyasına mutlaka yazılacaktır.
+
+Bütün işlemlere rağmen elektriğin devreye alınamaması gibi durumlarda olay mutlaka yetkili ve ilgili mühendise bildirilecektir.
+
+EK 2.14. SABOTAJ ALARMI GELDİĞİNDE NELER YAPILIR?
+
+Sabotaj alarmı tünelin her iki tüpünde de bulunan yangın ve hortum dolaplarının kapılarının açıldığında oluşan alarmdır.
+
+Bu alarm geldiğinde o bölge kamerası ana monitöre sabitlenir.
+
+Kameradan alarm yeri incelenir. Bir olay gözükmez ise hızla diğer kameralardan tünel içi kontrol edilir.
+
+Bir yangın durumu tespit edilirse yangın senaryosu uygulanır.
+
+Aracında yangın tehlikesi olduğu için yangın tüpleri kullanan sürücü varsa yardımcı olunur. Boşalan tüpler merkeze getirilir.
+
+Hiçbir olay gözükmüyorsa tüp ve hortum dolapları kontrol edilir. Çalınmış tüp veya hortum var mı kontrol edilir. Arızadan dolayı gelen bir alarm varsa teknik ekip arızayı giderir.
+
+Hırsızlık ve ya şüpheli bir durum var ise olayla ilgili emniyet kuvvetlerine bilgi verilerek işlem yapılması sağlanır. Tutanak düzenlenir. Kamera görüntülerinden, arşiv kayıtlarından şüpheli olaya ait fotoğraf ve film görüntüleri alınır. Bu belgeler bilgisayardaki Olaylar klasörü içinde yeni bir klasör oluşturularak burada toplanır.
+
+Tünel içinde yoğun kirlilik olduğu görüldüğünde SCADA üzerinden havalandırma ara yüzü açılır, CO (karbon monoksit) ve VIS (görüş açıklığı) değerleri kontrol edilir.
+
+CO ve VIS değerleri yüksekse otomatik olarak deveye girmiş olan fanların yanı sıra, içerisinin kısa sürede temizlenmesi için manüel olarak diğer fanlardan da devreye sokulur.
+
+Ölçüm değerleri düşük olmasına rağmen tünel içi kirli görünüyorsa fanlar manuel olarak devreye sokulur.
+
+Aşırı egzoz dumanı çıkaran araçlar tünele girmeden önce durdurulur ve tünele girmesi engellenerek geri döndürülür.
+
+Aşırı egzoz dumanından dolayı tüneli uyarı ve kapatma durumuna geçiren araç tespit edilip, cezai işlem için evrakları alınarak fotokopileri çekilir.
+
+Aşırı kirlilikten dolayı tünel uyarı veya kapama durumuna geçtiğinde, VMS mesajları kontrol edilir ve normal konumuna gelecek şekilde işlem yapılır. Trafik işaretleri ve yön işaretleri ile trafik açık hale getirilir.
+
+Kamera görüntülerinden, arşiv kayıtlarından tüneli kirleten araca ait fotoğraf ve film görüntüleri alınır. Bu belgeler bilgisayardaki Egzoz klasörü içinde yeni bir klasör oluşturularak burada toplanır.
+
+1. SOS görüşmeleri Tünel İşletme Merkezinden kontrolör tarafından yapılacağı zaman görüşeceği SOS'u SCADA üzerinden manuel konumuna alır.
+
+Manüel konuma aldığı SOS'u arayüzden açar, SOS'un alarm çakarının yandığını görür. Karşı tarafla görüşür, görüşme bittikten sonra manuele aldığı SOS'un alarmını alır ve tekrar otomatik konumuna getirir.
+
+Tünel içinden SOS'la görüşme yapmak için SOS kapağı açılır, ahize kaldırılarak normal telefon görüşmesi şeklinde görüşülür. Görüşme bittikten sonra ahize yerine konulur SOS kapağı kapatılır.
+
+Tüm görüşmelerden sonra mutlaka SOS arayüzü üzerinden alarm alınarak SOS diğer görüşmeler için hazır konuma getirilir.
+
+SOS görüşmeleri yapıldığında hangi tüp ten görüşüldü ise o tüpün trafik sinyal planı işlemeye başlar. Görüşme sonrası yazıcıdan çıkan rapor üzerine açıklama notları düşülerek dosyaya konur.
+
+Kamera görüntülerinden, arşiv kayıtlarından SOS'den yardım isteyen araca ait fotoğraf ve film görüntüleri alınır. Bu belgeler bilgisayardaki Sos Görüşmesi klasörü içinde yeni bir klasör oluşturularak burada toplanır.
+
+Olay, bilgisayardaki Form, Arıza ve Olay dosyasına işlenir.
+
+Olayı takip için giden araç bilgileri bilgisayardaki Form Araç Takip dosyasına işlenir.
+
+1. Tüneldeki dijital video kayıt cihazları kapasitelerine göre kayıtlar tutulmaktadır.
+
+2. Bir konu ile ilgili gelen emniyet birimleri kanun gereği mutlaka resmi yazı ile kurumumuza başvurmaları ve ilgili yazı ile gelmeleri gerekir.
+
+Yetkili birim amiri ve sistemle ilgili mühendisin oluru alınır.
+
+Olur alındıktan sonra bu konu ile ilgili gelen emniyet birimleri kayıt izleme odasına alınarak, gerekli şifreler girilir izleme maskesi açılır.
+
+Nasıl izleneceği tarif edildikten sonra izleme işlemi gelen kişiler tarafından yapılır. Sistemle ilgili takılacağı konularda yardım edileceği belirtilerek, görevli asıl görevinin başına döner.
+
+İzleme işlemi bittikten sonra getirilen resmi evrakın ilgili kısmına konu ile ilgili izlemenin yapıldığını, sonucunu, belirterek unvanları ve görevlerini belirterek imzalatıp fotokopisi alınır ve ilgili dosyaya konulur. Sonuç kurum amirine veya yetkili sistem mühendisine bildirilir.
+
+EK 3.
+
+YÖNETMELİKLER
+
+476
+
+YÖNETMELİK
+
+Karayolları Genel Müdürlüğünden:
+
+TÜNEL İŞLETME YÖNETMELİĞİ
+BİRİNCİ BÖLÜM
+
+Amaç, Kapsam, Dayanak ve Tanımlar
+
+Amaç
+
+MADDE 1 - (1) Bu Yönetmeliğin amacı, Karayolları Genel Müdürlüğünün sorumluluk alanında bulunan veya ilgili mevzuat hükümleri uyarınca işletme hakkı verilen veya işletmesi devredilen, trafiğe açık tünellerde can ve mal güvenliği yönünden trafik düzeninin sağlanması, trafik ve can güvenliğini ilgilendiren hususlarda alınacak tedbirler ile işletme koşullarını belirlemektir.
+
+Kapsam
+
+MADDE 2 - (1) Bu Yönetmelik, Devlet ve il yolları ile otoyollar üzerindeki, tünel kontrol merkezi
+
+olan/olmayan tünel veya grup tünelleri kapsar.
+
+Dayanak
+
+MADDE 3 - (1) Bu Yönetmelik, 25/6/2010 tarihli ve 6001 sayılı Karayolları Genel Müdürlüğünün Teşkilat ve Görevleri Hakkında Kanunun 32 nci maddesine dayanılarak hazırlanmıştır.
+
+Tanımlar
+
+MADDE 4 - (1) Bu Yönetmelikte geçen;
+
+Bölge Müdürlüğü: Karayolları Bölge Müdürlüğünü,
+
+Devlet yolları: Belediyeler veya diğer kurumların sorumluluğunda bulunan yollar dışında kalan ve transit trafiği, illere, limanlara, tersanelere, hava alanlarına, demiryolu istasyonlarına, sınır kapılarına kesintisiz olarak ulaştıran ana karayollarını,
+
+Erişme kontrolü: Transit trafiğe tahsis edilen karayollarında, yaya, hayvan ve motorsuz taşıt ve araçların girmesinin engellenerek, ancak izin verilen motorlu taşıtların yararlandırıldığı, belirli yerler ve şartlar dışında giriş ve çıkışın yasak olduğu, trafiğin özel bir kontrole tabi tutulmasına ilişkin uygulamayı,
+
+ç) Genel Müdür: Karayolları Genel Müdürünü,
+
+Genel Müdürlük: Karayolları Genel Müdürlüğünü,
+
+Grup tünel: Karayolunun bir bölümünde ardışık olarak yer alan birden fazla sayıdaki tünelleri,
+
+İl yolları: Belediyeler veya diğer kurumların sorumluluğunda bulunan yollar dışında kalan, illeri birbirine, Devlet yollarına, limanlara, tersanelere, demiryolu istasyonlarına, hava alanlarına ve kamu ihtiyacının gerektirdiği diğer yerlere bağlayan ve bir il sınırı içinde başlayıp biten karayollarını,
+
+Karayolu: Trafik akışına imkân sağlamak üzere kamunun yararlanmasına açık olan arazi şeritleri, köprüler, tüneller, her türlü sanat yapıları, koruma yapıları ve diğer alanları,
+
+ğ) Otoyol: Yüksek standartlara sahip, trafik seyrinde asgari hız sınırlaması uygulanan, seyahat hızı yüksek ve üzerinde erişme kontrolünün uygulandığı karayolunu,
+
+Protokol: Kamu kurum ve kuruluşları ile tüzel kişilerle yapılan/yaptırılan işlerde tarafların sorumluluklarını belirleyen sözleşmeyi,
+
+ı) Risk analizi: Belirli bir tünelin bir gün için tahmin edilen ağır vasıta sayısının yanı sıra, trafik özellikleri, tünel uzunluğu ve tünel geometrisi gibi güvenliği etkileyen tüm proje faktörleri ve trafik koşullarını göz önünde bulundurarak hazırlanmış, öngörülebilen olumlu veya olumsuzlukların detaylı ve çok yönlü incelenmesini,
+
+Trafik: Yayaların, hayvanların ve araçların karayolu üzerindeki hal ve hareketlerini,
+
+Trafik hacmi: Bir tünelde her bir motorlu taşıt bir birim olarak sayılmak üzere şerit başına düşen yıllık ortalama günlük trafiği,
+
+Tünel: Trafik geçişine imkan sağlayan yeraltı karayolu sanat yapısını,
+
+Tünel Kontrol Merkezi: Tünel veya grup tünellerin işletmesinin tam gün gerçekleştirildiği istasyonu ya da tünel veya grup tünellerin işletmesinin tam gün personel bulundurma zorunluluğu olmadan da gerçekleştirildiği, kullanıcının veya sistemin vereceği acil durumların sürekli personel bulunan taşra teşkilatına iletildiği istasyonu,
+
+ifade eder.
+
+İKİNCİ BÖLÜM
+Merkez ve Taşra Teşkilat Yapısı
+
+Merkez teşkilat yapısı
+
+MADDE 5 - (1) Devlet ve il yollarındaki tünel veya grup tünellerin işletmesi, Tesisler ve Bakım Dairesi Başkanlığına bağlı Sanat Yapıları Bakım Onarım İşletme Şubesi Müdürlüğünce yürütülür.
+
+(2) Otoyoldaki ve Devlet yolları üzerinde ücretli olan tünel veya grup tünellerin işletmesi, İşletmeler Dairesi Başkanlığına bağlı Bakım ve İşletme Şubesi Müdürlüğünce yürütülür.
+
+Taşra teşkilat yapısı
+
+MADDE 6 - (1) Devlet veya il yollarındaki tünel veya grup tünellerin işletmesi;
+
+Kontrol Merkezi olan tünel veya grup tünellerde, Tesisler ve Bakım Başmühendisliğine bağlı Tünel Bakım İşletme Şefliğince,
+
+Kontrol Merkezi olmayan tünel veya grup tünellerde, Tesisler ve Bakım Başmühendisliğindeki Tünel Bakım Onarım İşletme Mühendisinin gözetiminde ilgili Şube Şefliğince,
+
+yürütülür.
+
+Otoyollardaki tünel veya grup tüneller ile Devlet yolları üzerinde ücretli olan tünellerin işletmesi, İşletmeler Başmühendisliğine bağlı Bakım ve İşletme Şefliğince yürütülür.
+
+Otoyol veya Devlet yolları üzerinde Yap-İşlet-Devret modeli ile yapılarak işletilen veya özel sektör tarafından işletilen ücretli tünellerin denetimleri otoyol olan Bölge Müdürlüklerinde İşletmeler Başmühendisliğince, otoyol olmayan Bölge Müdürlüklerinde İşletmeler Dairesi Başkanlığına bağlı Bakım ve İşletme Şubesi Müdürlüğünce yürütülür.
+
+ÜÇÜNCÜ BÖLÜM
+
+Tünel İşletmesi ile İlgili Görevler
+
+Tünel işletmesinden sorumlu birimlerin görevleri
+
+MADDE 7 - (1) Tünel işletmesinden sorumlu birimlerin görevleri şunlardır;
+
+Tünellere ait nihai projelerin kopyalarını ilgili birimlerden temin ederek Tünel Bakım İşletme Şefliklerinde veya ilgili Başmühendisliklerde bulundurmak,
+
+Acil durum planlarını hazırlamak/hazırlatmak ve güncel tutmak,
+
+Tünellerin düzenli bir şekilde bakımını yapmak/yaptırmak, kontrol etmek ve denetlemek, ayrıca uygun güvenlik şartlarını düzenlemek,
+
+ç) Acil hizmet eğitimi ve donanımı için kurumsal ve acil durum planlarının devreye sokulmasını sağlamak,
+
+Acil bir durumda, tünel veya grup tünellerin derhal kapatılması dahil diğer hususların yöntemlerini tanımlamak,
+
+Gerekli risk azaltma önlemlerini uygulamak/uygulattırmak,
+
+Tünel bakım işletme usul ve esaslarını belirlemek.
+
+Risk analizi
+
+MADDE 8 - (1) Risk analizi, gereken durumlarda, işlevsel olarak tünel işletmesinden sorumlu yönetim biriminden bağımsız bir kuruluş tarafından yürütülür. Risk analizinin içeriği ve sonuçları, ilgili Tünel Bakım İşletme Şefliğine, Tünel Bakım İşletme Şefliği olmayan yerlerde ise ilgili Başmühendisliğe gönderilir.
+
+(2) Hazırlanan risk analizi, ilgili Başmühendislik tarafından değerlendirilerek, ilave görüş ve öneriler ile birlikte önce Bölge Müdürlüğüne, sonra da Genel Müdürlüğe gönderilir.
+
+Raporlama
+
+MADDE 9 - (1) Karayolu kullanıcılarının güvenliğini açıkça etkileyen tünellerdeki yangınlar ve kazalar ile bunların sıklığı ve bu tür olayların nedenleri hakkında her ay ilgili Tünel Bakım İşletme Şeflikleri, Tünel Bakım İşletme Şefliği olmayan yerlerde ilgili Başmühendislik tarafından rapor hazırlatılır, hazırlanan bu raporlar, ilgili Tünel Bakım İşletme Şefliğince, Tünel Bakım İşletme Şefliği olmayan yerlerde ilgili Başmühendislikçe değerlendirilir, güvenlik hizmetlerinin ve önlemlerinin gerçek rolü ve etkinliği hakkında bilgi temin edilir. Raporlama aylık olarak düzenlenir ve her yılın Aralık ayında taşra teşkilatı tarafından Genel Müdürlüğe gönderilir.
+
+Protokol
+
+MADDE 10 - (1) Tünellerden diğer kurum ve kuruluşlar tarafından geçirilmek istenen tesisler ile ilgili yapılacak protokoller, ilgili genelgeler ve protokol düzenleme esasları doğrultusunda yapılır.
+
+DÖRDÜNCÜ BÖLÜM
+
+Güvenlik Önlemleri
+
+Tünellerde alınacak güvenlik önlemleri
+
+MADDE 11 - (1) Tünel güvenliği ile ilgili olarak aşağıdaki önlemler alınır:
+
+Tünelden geçen trafiğin sürekli ve güvenli bir şekilde akışı sağlanır.
+
+İşletme ve acil durum hizmetleriyle ilgilenen personel gerekli eğitimlere tabi tutulur.
+
+Acil durum senaryoları farklı olaylar için hazırlanır ve bütün tünellerde bulunur. Ayrıca tatbikatlar ile senaryoların işleyişi ve etkinliği izlenir.
+
+ç) Önceden planlanmış yapım veya bakım çalışmaları nedeniyle şeritlerin tamamen veya kısmen kapatılması, daima tünelin dışından başlatılır. Değişken mesaj işaretleri, ışıklı trafik cihazları ve mekanik bariyerler bu amaç için ilave olarak kullanılabilir.
+
+Ciddi bir kaza veya olay durumunda, ilgili tünelin bütün tüpleri trafiğe kapatılır, içeride kalan araçların en kısa yoldan tahliyesi sağlanır. Tünel dışındaki ve tünel içindeki trafiğin mümkün olan en kısa zamanda durdurulabilmesi için sadece tünel girişlerindeki ve aynı zamanda varsa tünelin içindeki değişken trafik işaretleri, ışıklı trafik işaret cihazlarının ve mekanik bariyerlerin eşzamanlı harekete geçirilmesi ile bu durum gerçekleştirilir. Bu sistemlerin olmadığı tünellerde trafiğe kapatma işlemi uygun bir şekilde yapılır. Trafik, durumdan etkilenmemiş araçların tüneli hızlı bir biçimde terk edebilmesinin sağlanacağı şekilde yönlendirilir.
+
+(2) Acil durum hizmetlerine erişme süresi yapılacak tatbikatlar ile ölçülerek belirlenir, tünelde olayın meydana gelmesi halinde acil durum hizmetlerine erişme süresi belirlenen sürelerden uzun olmaz. Yıllık Ortalama Günlük Trafik sayısı 2000'in üzerinde olan iki yönlü tünellerde, tünelin iki ucuna acil hizmetlerin yerleştirilme gereksinimi 8 inci madde uyarınca, bir risk analizi ile belirlenir ve bu hizmetlerden mümkün olanları Genel Müdürlüğün onayı ile gerçekleştirilebilir.
+
+Alternatif güzergahlar ve gabariler
+
+MADDE 12 - (1) Tünel girişlerinde gabariler ve alternatif güzergahlarla ilgili aşağıdaki önlemler alınır:
+
+Tünellerin yatay ve düşey gabarileri belirlenir ve tünele girmeden önce mekanik veya elektronik gabari sistemleri ile gabarisi yüksek araçların tünele girmesini engellemek için tünel kullanıcıları, kolay erişilebilir bilgi sistemleri aracılığıyla en uygun alternatif güzergah ve tünel gabarisi hakkında bilgilendirilir.
+
+Tünelin uzun veya kısa süreli kapatılması durumunda araçların tünele girmesini engellemek için tünel kullanıcıları, kolay erişilebilir bilgi sistemleri aracılığıyla en uygun alternatif güzergah hakkında bilgilendirilir.
+
+Söz konusu alternatif güzergah, acil durum planlarının bir bölümünü oluşturur.
+
+Tehlikeli maddeler
+
+MADDE 13 - (1) Tehlikeli madde taşıyan araçların tünellerden geçişleri 24/10/2013 tarihli ve 28801 sayılı Resmî Gazete'de yayımlanan Tehlikeli Maddelerin Karayoluyla Taşınması Hakkında Yönetmelikte belirlenen esaslar doğrultusunda sağlanır.
+
+(2) Tünelin, tehlikeli madde taşıyan araçların geçişine yasaklanması durumunda, tünelden önceki mümkün olan son çıkıştan önce ve tünel girişlerinde mevzuat uygulanarak sürücülerin alternatif güzergaha yönlendirilmeleri için uygun trafik levhaları yerleştirilir.
+
+Hız ve takip mesafesi
+
+MADDE 14 - (1) Tünel kullanıcıları, uygun hız ve güvenli takip mesafesi hakkında bilgi levhaları, ışıklı işaret cihazları ile tünele girmeden önce bilgilendirilir.
+
+Ayrıca bir kısıtlama yoksa, taşıtların tünel içindeki maksimum hızı, Devlet ve il yollarında 80 km/saat, otoyollarda 90 km/saat'dir. Bu durumda taşıtlar arasındaki minimum takip mesafesi Devlet ve il yollarında 40 metre, otoyollarda 50 metre, ağır taşıtlar içinse bu mesafe iki katıdır.
+
+Tünelde trafiğin durması halinde, karayolu kullanıcıları önlerindeki araç ile aralarında olması gereken minimum 5 metrelik mesafeyi, tehlike anındaki ani duruş nedeniyle mümkün olmayan durumların haricinde korur. Otomasyon sistemlerinde kamu anons sistemi, ışıklı işaret ve bilgi levhası sistemleri olan tünellerde tünel kullanıcılarına bu hususta uyarı ve bilgilendirme yapılır.
+
+Uyulması gereken kurallar
+
+MADDE 15 - (1) Tünellerdeki güvenliğe ilişkin bilgilendirme faaliyetleri düzenli olarak yapılır. Bu bilgilendirme faaliyetleri, özellikle taşıtın arızalanması, trafik sıkışıklığı, kazalar ve yangınlar başta olmak üzere, karayolu kullanıcılarının tünele yaklaşırken ve tünel içinde araç kullanırken uyması gereken kuralları kapsar.
+
+(2) Mevcut güvenlik ekipmanına ilişkin bilgileri içeren, tünellerde uyulması gereken kurallara ait bilgilendirme amaçlı broşürler tünellerden önceki dinlenme alanlarında, trafiğin durduğu zaman tünel girişlerinde veya
+
+internette bulundurulur.
+
+Yürürlük
+
+MADDE 16 - (1) Bu Yönetmelik yayımı tarihinde yürürlüğe girer.
+
+Yürütme
+
+MADDE 17 - (1) Bu Yönetmelik hükümlerini Karayolları Genel Müdürü yürütür.
+
+EK-1
+
+Tüneller için İşaretlemeler
+
+Tünelin içinde ve dışında yapılacak işaretler yerel, coğrafi, trafik ve yapının koşulları göz önünde bulundurularak, açıkça görülebilecek ve anlaşılabilecek şekilde tasarlanacak, tünelden önce, tünel içinde ve tünelden sonra uygun işaretlemeler kullanılacaktır.
+
+İşaretlerin ve işaret sisteminin uluslararası anlaşılabilirliğini kolaylaştırmak için her bir işaret sınıfının şekil ve renk yönünden kullanımı mümkün olduğunca yazı şeklinde değil, grafik simge şeklinde olacaktır.
+
+İşaretler, tünellerde trafik güvenliğinin sağlanması için ve acil durumlarda tünel kullanıcılarını bilgilendirmek amacıyla kullanılacaktır.
+
+Aşağıda belirtilen işaretlemelere ilave olarak, tünel yaklaşımlarında, tünel içinde ve tünel çıkışında tünel kullanıcılarının uyması gereken kurallar ve kısıtlamalara uygun işaretlemeler yapılabilecektir.
+
+Trafik işaret ve levhaları otoyollar ile Devlet ve il yollarında ilgili işaret ve levha standartlarına uygun olacaktır.
+
+Tünellerde kullanılacak yol işaretleri ve semboller aşağıda belirtilmiştir;
+
+Tünel bilgi levhaları:
+
+Tünelin her bir girişinden önce uygun yerlere konulacaktır.
+
+(7) Acil çıkışı gösteren levhalar: Bütün güvenlik çıkışlarını gösteren levhalar için aynı işaretler kullanılacaktır. İşaretler ışıklı veya reflektifli malzemelerden yapılabilecektir.
+
+(8) Acil durum istasyonları: Acil yardım telefonlarının ve yangın söndürücülerin yerlerini belirten işaretlerdir.
+
+(9) Radyo: Tünel kullanıcılarının bilgilendirilmeleri amacıyla tünel içinde radyo yayını olduğunu gösteren işaretler tünel girişlerinden önce konulacaktır.
+
+Değişken trafik işaretleri: Bu işaretler dairesel veya dikdörtgen olabilecektir.
+
+Standart trafik işaretleri:
+
+Değişken mesaj işaretleri: Trafik yoğunluğu, arıza, kaza veya diğer tehlikeli durumlar ile bakım onarım çalışmaları esnasında tünel kullanıcılarına bilgi vermek amacıyla tünele girmeden önce konulacaktır.
+
+NOT: Trafik işaretlerinin renkleri ve ölçüleri kullanıldıkları otoyol, Devlet yolu veya il yolu standartlarına göre düzenlenecektir.
+
+DEVLET, İL VE OTOYOLLAR ÜZERİNDEKİ TÜNELLERDE KESİNTİSİZ CEP
+TELEFONU İLETİŞİMİ İÇİN TÜNEL İÇİNDE VE DIŞINDA RADYO BAZ İSTASYONU
+
+ANTEN VE EKİPMANLARININ MONTAJI İLE BELİRLENEN SÜRELERDE
+HİZMETİN YÜRÜTÜLMESİ İÇİN PROTOKOL
+
+DÜZENLEME ESASLARI
+
+Protokol konusu çalışmanın yapımı ve işletimi esnasında, "Karayolu ve Trafik Güvenliği" birinci derecede esastır. Talep edilen çalışma, hiçbir şekilde bu hususları tehlikeye düşürecek biçimde olamaz, KGM böyle bir talep için protokol düzenlemeye zorlanamaz. Protokol düzenlenmiş olsa dahi, karayolu ve trafik güvenliğini tehlikeye düşüren tesisler konusunda, ŞİRKET uyarılır, yapılması gereken eksiklikler yerine getirilmediği takdirde, herhangi bir bedel ödenmeksizin tesis ortadan kaldırılır ve kaldırma bedeli ŞİRKET'ten tahsil edilir.
+
+KGM'nin sorumluluk alanında bulunan tünellerden geçirilmek istenen haberleşme amaçlı tesise ait protokollerde, ŞİRKET protokole taraf olarak kabul edilecek, yüklenici, taşeron, projeci, müşavir, danışman gibi üçüncü şahıslar yetkili kılınmış olsalar dahi taraf kabul edilmeyecek, müracaatları değerlendirmeye alınmayacaktır. Ancak, ilgili devlet kurumlarından, mevzuata uygun olarak, Yap-İşlet veya Yap-İşlet-Devret uygulamaları çerçevesinde özel izinler ve yetkiler alarak çalışmalar yapan tüzel kişiler, bu durumlarını belgelendirmeleri şartıyla, protokole taraf olarak kabul edilebileceklerdir. Protokoller, KGM adına bizzat Bölge Müdürü tarafından, ŞİRKET adına da vekaletname ile imza yetkisi verilmiş kişi veya kişiler tarafından imzalanacaktır. İmzalamaya yetkili olduğuna dair belge protokole eklenecek, onaylanmak üzere Genel Müdürlüğe gönderilecektir.
+
+Protokoller, tüzel kişilerle yapılacak, gerçek kişilerle protokol yapılmayacaktır. Protokollerde kamu yararı esas olacaktır.
+
+Protokol bir nüsha olarak düzenlenecek ve damga vergisi ŞİRKET tarafından ödenecektir.
+
+KGM'nin sorumluluk alanında bulunan tünellerde “RADYO BAZ İSTASYONU ANTEN VE EKİPMANLARININ KURULMASI İLE İLGİLİ” talepler için düzenlenecek protokoller, bedel karşılığında yapılacaktır. Protokol bedeli, oluşturulacak “Bedel Tespit Komisyonu” tarafından her yıl tespit edilecektir. Teşkilat içinde yeknesaklığın sağlanması açısından, Bedel Tespit Komisyonu tarafından belirlenen protokol bedeli her yıl taşra birimlerine bildirilecektir.
+
+Protokol onaylanmadan herhangi bir çalışmaya izin verilmeyecektir. Talep edilen çalışma, protokol yürürlük süresi içinde mutlaka tamamlanacaktır.
+
+Protokol bedelleri; protokolün düzenlenmesi esnasında, KGM'nin T.C. Ziraat Bankası Ankara Kamu Kurumsal Şubesindeki TR310001001745342752855091 İban No'lu hesabına yatırılacak, alınan banka dekontu protokole eklenecektir. Dekontun açıklama kısmına mümkünse ŞİRKET'in adı, hangi Bölge Müdürlüğü için yatırıldığı, yatıran kişinin ya da şirketin T.C. Kimlik veya Vergi No bilgileri ve protokol bedeli, varsa taşınmaza ait mülkiyet bilgileri (İl, İlçe, Mahalle/Köy, Ada, Parsel, Yüzölçümü) yazılacaktır.
+
+Protokol bedellerine yürürlükteki orana göre hesaplanacak Katma Değer Vergisi (KDV) ilave edilecektir.
+
+Protokollerin damga vergisi, keşif özetindeki KDV hariç toplam bedel üzerinden, Kanunla belirlenmiş oranda hesaplanarak Maliye Bakanlığı hesaplarına yatırılacak, alınan belge protokole eklenecektir. Damga vergisi, protokol bedelinden ayrı olarak yatırılacak, açıklama kısmında belirtilmiş olsa dahi, protokol bedeli ile aynı dekontta yer almayacaktır.
+
+11. Protokole konu tünel içi ve dışında yapılacak çalışmalara, ilgili Bölge Müdürlüğüne haber vermeden başlanılamayacağı gibi, ilgili Bölge Müdürlüğünün yetkilileri ile birlikte belirlenecek gün ve saatlerde alınacak tedbirlerden sonra çalışma yapılabilecektir. ŞİRKET, tünelde yapılacak çalışma esnasında trafik emniyet ve güvenliğinin sağlanması için gerekli olan eleman, araç, gereç, işaretleme vb. ihtiyaçları ücreti karşılığında ilgili Bölge Müdürlüğünden isteyebilecek ve yaptırabilecektir. Tüm güvenlik tedbirleri alınmadan kesinlikle çalışmalara başlanılmayacaktır. İlgili Bölge Müdürlüğünün teknik elemanları, yapılacak çalışmalarda kontrol, denetim ve yönlendirme görevlerini yapacak, bu hizmet için ayrıca kontrollük bedeli alınmayacaktır. Tünelin her iki ucunda trafiğin durdurulması ve salıverilmesi işleri ilgili Bölge Müdürlüğü yetkilileri ile koordineli bir şekilde gerçekleştirilecektir. Gerektiğinde bu işler için Mahalli Trafik Zabıtasından yardım alınabilecektir.
+
+12. Protokole konu işin yapımı esnasında tünele ait elemanlara zarar verilmeyecektir. Zarar verildiği takdirde en kısa zamanda bu zarar telafi edilecek, aksi halde zarar verilen malzemelerin bedeli güncel piyasa fiyatlarının % 50 fazla bedeli ile ŞİRKET'ten tahsil edilecektir. Zarar bedeli ödenmeden protokol konusu çalışmalara devam edilmeyecektir.
+
+Protokol konusu çalışmalar esnasında veya sonrasında tünelin yapısına, protokole konu tesise veya üçüncü şahıslara verilecek her türlü maddi ve manevi zarar ve ziyan ŞİRKET tarafından karşılanacaktır.
+
+Tünel dışına konulacak antenler, tünel portalına en az 10 m. mesafede olacaktır. Bunun mümkün olmadığı durumlarda KGM'nin de uygun göreceği yerlere konulacaktır.
+
+Tünel içerisine konulacak antenlerin tretuvar iç kısmından 5 m. yüksekte olacak şekilde montajı yapılacaktır. Bunun mümkün olmadığı durumlarda KGM'nin de uygun göreceği yerlere montajı yapılacaktır.
+
+Kablo hattı, kabin veya konteynerden tünel girişine kadar yeraltından gelecek, tünele hizmet kanalından girecek, GSM baz hattına ait olduğu belli olacak şekilde bir kılıf içinde antenin olduğu noktaya kadar gelecek, (Hizmet kanalının müsait olmadığı tünellerde KGM'nin göstereceği yerden geçirilecek) bu noktada düşey olarak yine koruyucu bir kılıf içinde tünel yan duvarına monte edilerek antene ulaşacaktır. (Özel durumlarda ve hizmet kanalı olmayan tünellerde KGM'nin uygun görüşü alınarak çalışma yapılacaktır.)
+
+Tünel içine konulacak antenler, taşıt yolundaki yatay ve düşey gabariyi etkilemeyecek şekilde monte edilecektir.
+
+Konteyner veya kabinler gerektiğinde taşınabilir olacak ve tünel cidarından en az 5 m. uzağa konulacak, portal estetiğini etkilemeyecek şekilde gizlenecektir. 5 m. lik mesafenin bulunmadığı noktalarda, KGM yetkilileri ile alternatif çözümler aranacaktır.
+
+Çift tüplü tünellerde iki tünel arasına (Refüje) konteyner veya kabin konulmayacaktır.
+
+Taşınabilir konteyner veya kabin haricinde sabit hizmet tesisi yapılmayacaktır.
+
+Çalışmalarda her türlü güvenlik tedbirlerinin alınmasından ve uygulanmasından ŞİRKET yetkili ve sorumlu olacaktır.
+
+Elektrik enerjisinin temini ŞİRKET'e ait olacaktır.
+
+Kullanılacak kablo ve diğer malzemeler yangın ve ilgili diğer mevzuatlara uygun olacaktır.
+
+Tünel içinde ve dışında hiçbir şekilde reklam içerikli logo, yazı vb. ibare bulundurulmayacaktır.
+
+Tünel içinden hiçbir şekilde açık kazı ile enine ve paralel geçiş yapılmayacaktır.
+
+KGM, tünel içerisinde bir çalışma yapacağı zaman ŞİRKET'i haberdar edecek, ŞİRKET çalışma esnasında eleman bulunduracak, bulundurmazsa hattın, diğer ekipman ve malzemelerin göreceği zarardan KGM sorumlu tutulmayacaktır.
+
+Aynı tünel içerisinde birden fazla cep operatörü tesisi kurulacak ise, yukarıdaki kriterlere uygun olarak projelendirilecek, montajı bitmiş tesis var ise projede gösterilecektir. Hiçbir şekilde görüntü kirliliği oluşturulmayacak, gerekirse ortak tesis kurma (kabin, alıcı, aktarıcı) şartları zorlanacaktır.
+
+Montaj çalışmalarına başlanılmadan önce KGM'ye haber verilecek, KGM'nin denetimi ve gözetimi altında çalışılacaktır.
+
+Montajı yapılan anten ve ekipmanların periyodik bakım çalışmalarında da KGM'den izin alınarak, KGM'nin denetimi ve gözetiminde çalışılacaktır.
+
+Protokol, enerji temini ile ilgili çalışmaların tamamlanmasından sonra düzenlenecektir. (Özel durumlarda KGM'nin uygun görmesi ve bu durumun tutanak ile tespit edilmesiyle, enerji temini ile ilgili çalışmalar protokolün imzalanmasından sonra yapılabilir. Ancak bu durum protokolün süresini hiçbir şekilde değiştirmez.)
+
+ŞİRKET bu tesisi kısmen veya tamamen başka bir şirket, kurum veya kuruluşa devredemez.
+
+ŞİRKET, KGM'nin uygun görmesi durumunda; protokole konu yerin alanını artırabilir, baz istasyonunun ya da ekipman ve parçalarının yerlerini (paratoner, klima, anten, radyo link, kablo ile sisteme ait elemanlar) değiştirebilir, alana ilave ekipman ekleyebilir, ya da teknolojik gereklilikler ışığında eklenmesi gereken sistemlerin montajını yapabilir, yetkili kurumlarca baz istasyonuna ilişkin olarak sistem üzerinde istenilecek her türlü teknik değişiklik ve ilaveleri yapabilir. Ancak, kullanılacak alanın artması durumunda, ilave bedel KGM tarafından belirlenecek olup, bu konuda ek protokol yapılacaktır. Alan artırımı dışındaki değişiklikler için herhangi bir bedel talep edilmeyecektir.
+
+ŞİRKET, protokole konu yerde baz istasyonunun montajını yaptıktan sonra, sistemin etkili ve verimli işletilmesi için gerekli bakım ve onarım işlemini de gerçekleştirecektir. Bu sebeple kullanılan yere ve işe ait ortak alanlara, güvenlik kurallarını ihlal etmemek kaydı ve önceden
+
+KGM'yi bilgilendirmek şartıyla, gerektiğinde görevlendirilen personel nezaretinde girebilecek ve kendisine ait tesislerde bakım hizmetlerini yerine getirebilecektir.
+
+Tünel içinde protokole esas tespit edilen bedel, antenlerin konulacağı yerlere göre değil, kapsama
+
+yapılacak tünelin uzunluğunun tamamı tüp bazında dikkate alınarak hesaplanacak, taşınabilir
+
+konteyner veya kabinler için kullanılacak olan 6 m2 ye kadar alanın protokol bedeli de buna ilave edilecektir. Konteyner veya kabinlerin işgal ettikleri alan 6 m2 yi geçtiği takdirde, bedel tespit komisyonunun belirleyeceği ilave bedel talep edilecek ve ŞİRKET buna itiraz etmeyecektir.
+
+Protokol süresi bir yıldan fazla, ilgili mevzuatların öngördüğü süre kadar olabilecektir. Süresi bir yıldan fazla olan protokollerde protokol bedelinin tamamının KGM'nin ilgili hesabına yatırıldığına dair dekont ibraz edildiğinde protokol imzalanacaktır. Protokol bedelinin tamamının peşin yatırılması durumunda ileriki yıllarda her hangi bir fark bedel alınmayacaktır.
+
+Protokol bir yıldan fazla süreli yapılacak ve bedeli yıllık ödenecek ise, ilk yıl bedeli protokol onaylanmadan yatırılacak, müteakip yıllar için her yıl Bedel Tespit Komisyonunca belirlenecek protokol bedeli, protokolün düzenlendiği ay ve gün dikkate alınarak en geç 5 (beş) iş günü içinde yatırılarak dekont KGM'ye ibraz edilecektir. Aksi halde geciktirilen her gün için yıllık toplam protokol bedelinin 1/200'ü oranında gecikme cezası uygulanacaktır. Gecikme süresi 30 günü geçmeyecektir, aksi durumda İDARE tek taraflı fesih hakkını kullanabilecektir. Bu durum protokol metninde açıkça ifade edilecektir.
+
+ŞİRKET, konteyner veya kabinlerini KGM'nin uygun görmesi durumunda diğer GSM şirketleri ile ortak kullanabilecektir. Bu durumda, diğer GSM şirketleri ile aralarında sözleşme yapılacak, bu sözleşmenin süresi ŞİRKET ile KGM arasında yapılan protokol süresinden az olmayacaktır. Diğer GSM şirketleri, bu sözleşme ile KGM'ye müracaatta bulunacaklar, KGM'nin belirleyeceği bedel karşılığı diğer GSM şirketleri ile ayrıca protokol yapılacaktır.
+
+Protokolün imzalanmasıyla yukarıda bahsedilen hususların tamamı kabul edilmiş sayılacaktır.
+
+Bir yıllık protokol bedeli aşağıda belirtildiği şekilde hesap edilecektir;
+
+a-) Tünel dışında kurulacak GSM sistemleri için 6 m2 ye kadar kullanılacak alanlara ait protokol tahsis bedelleri; (Bu alanlar zeminde olabileceği gibi, KGM'nin onayı ile portaller hariç tünelin dış yüzeyinde veya herhangi bir imalatın üzerinde de olabilir.)
+
+b-) Tünel içinde kurulacak sistemler için kullanılacak tünelin her bir metresi için protokol tahsis bedeli, (hesaplamada kapsama yapılan tünel tüp veya tüplerinin toplam uzunluğu dikkate alınacaktır.)
+
+c-) (a) ve (b) maddelerinde tespit edilen bedellerin toplamına KDV bedeli eklenecektir. d-) Ayrıca bu bedeller üzerinden damga vergisi hesap edilecektir.
+
+PROTOKOL NO: TP-2014.01.0000 açılımı;
+
+40. Protokol Düzenleme Esaslarında bahsedilmeyen hususlarda ortaya çıkan sorunların çözümünde KGM “TAKDİR” hakkını kullanabilecektir.
+
+P R O T O K O L
+
+TARAFLAR: Ulaştırma, Denizcilik ve Haberleşme Bakanlığı Karayolları Genel Müdürlüğü
+
+ile 	 dır. Protokolde
+
+Karayolları Genel Müdürlüğü KGM, 	 ise ŞİRKET olarak
+
+anılacaktır.
+
+İMZA YETKİSİ: Bu protokolü imzalamaya KGM adına .... Bölge Müdürü
+
+, ŞİRKET adına ise	yetkilidir.
+
+PROTOKOLÜN KONUSU: Bu protokolün konusu; ekli projede, planda, krokide görüldüğü gibi; Kontrol Kesim (KK) başlangıcı 0+000 alınmak üzere . . . Kontrol Kesim No.lu
+
+yolunun, 	km.sindeki 	Tünelinin içinde kesintisiz
+
+cep telefonu iletişimi için ŞİRKET tarafından gerekli sistemlerin kurulması ve protokol süresince hizmetin yürütülmesi işidir.
+
+ŞİRKETİN YAPACAĞI İŞLER:
+
+Hattın geçirilmesi esnasında veya ileriki yıllarda yapılan iş nedeniyle tünelde meydana gelecek her türlü bozulmayı, usulüne uygun olarak bedelsiz onaracaktır. ŞİRKET bu onarımı, 15 gün içinde gereği gibi yapmadığı takdirde, onarımı KGM yapacak veya yaptıracak, kendi usullerine göre hesaplayacağı bedeli ŞİRKET'ten tahsil edecektir. ŞİRKET bu bedele ve bunun tespit usullerine itirazda bulunmayacaktır.
+
+Çalışmalar sırasında yıkılan ve bozulan yerler ŞİRKET tarafından eski haline getirilecektir. Çalışmalar sırasında ve sonradan doğabilecek her türlü sorumluluk ŞİRKET'e aittir.
+
+Trafik yönünden her türlü tedbir, ŞİRKET tarafından alınacak, meydana gelecek her türlü mal ve can kaybı ile zarar ve ziyandan ŞİRKET sorumlu olacaktır. Tünel içerisinden geçirilecek kablo hattı mevcut hizmet kanalından PVC boru içerisinden geçirilecektir.
+
+Çalışmalar sırasında Tünel Bakım İşletme Şefliği veya Tünel Bakım İşletme Şefliği olmayan yerlerde Tesisler ve Bakım Başmühendisliği ile koordinasyon sağlanacaktır. İşin bitiminde Bölge Müdürlüğüne haber verilecektir.
+
+ŞİRKET, hattın geçirilmesi ve işletimi esnasında, tüneldeki trafiği engellemeyecek, güçleştirmeyecek, trafiği, can ve mal güvenliğini tehlikeye düşürmeyecek ve KGM tarafından tespit edilmiş olan standartlara uygun şekilde her türlü tedbiri alacak, gerekli tüm trafik işaretlemelerini yapacak, gerektiğinde personel bulunduracaktır.
+
+Protokol konusu çalışmanın yapımı ve işletimi esnasında, "Trafik Güvenliği" birinci derecede esastır. ŞİRKET bu konuda öngörülerde bulunarak, gerekli önlemleri alacaktır. ŞİRKET tarafından talep edilen çalışma, hiçbir şekilde bu hususları tehlikeye düşürecek biçimde olamaz, böyle bir talep için protokol düzenlenemez. Karayolu ve trafik güvenliğini tehlikeye düşürdüğü tespit edilen hususlarda ŞİRKET uyarılacak, uyarı dikkate alınmadığı takdirde, tehlikeli olan işler KGM tarafından ortadan kaldırılarak bedeli % 50 fazlası ile ŞİRKET'ten tahsil edilecektir.
+
+Hattın çekimi esnasında döşenecek PVC boru, mevcut ve ileride Tünel Bakım İşletme Merkezinin oluşturulması sırasında tünel içi elektrik, elektronik, elektromekanik ve yangın söndürme sistemlerinin kurulumu aşamasında döşenecek her türlü elektrik ve data kablolarının çekilmesini engellemeyecek şekilde yerleştirilecektir. İleride bu konuda oluşabilecek her türlü sorundan ŞİRKET sorumlu olacak ve sorun KGM'nin istediği şekilde herhangi bir ücret ödenmeden ŞİRKET tarafından giderilecektir.
+
+Protokol konusu çalışmanın her aşamasında trafik güvenliği yönünden 2918 sayılı Karayolları Trafik Kanunu ve bu Kanunla ilgili yönetmelik hükümleri uygulanacaktır.
+
+Protokol konusu çalışmalar esnasında veya sonrasında tünelin yapısına, protokole konu tesise veya üçüncü şahısların can, mal kayıplarından doğacak her türlü maddi, manevi zarar ve ziyandan protokole taraf olan ŞİRKET sorumlu olacaktır.
+
+4.10.- ŞİRKET, protokole konu yeri, protokolde belirtilen esas ve usullere uygun olarak kullanmak zorundadır. ŞİRKET, protokole konu yerde sistemlerin montajını yaparken, onaylı projelere ve/veya krokiye uygun olarak kurmak ve kullanı4la8n7 yeri yapılmış hali ile korumak, çevresine maddi
+
+Protokole konu işin yapımı esnasında tünele ait elemanlara zarar verilmeyecektir. Zarar verildiği takdirde en kısa zamanda bu zarar telafi edilecek, aksi halde zarar verilen malzemelerin bedeli güncel piyasa fiyatlarının % 50 fazla bedeli ile ŞİRKET'ten tahsil edilecektir.
+
+- Protokole konu tünel içi ve dışında yapılacak çalışmalara, Bölge Müdürlüğüne haber vermeden başlanılamayacağı gibi, ilgili Bölge Müdürlüğünün yetkilileri ile birlikte belirlenecek gün ve saatlerde alınacak tedbirlerden sonra çalışma yapılabilecektir. ŞİRKET, tünelde yapılacak çalışma esnasında trafik emniyet ve güvenliğinin sağlanması için gerekli olan eleman, araç, gereç, işaretleme vb. ihtiyaçlarını ücreti karşılığında ilgili Bölge Müdürlüğünden isteyebilecek ve yaptırabilecektir. Tüm güvenlik tedbirleri alınmadan kesinlikle çalışmalara başlanılmayacaktır. İlgili Bölge Müdürlüğünün teknik elemanları, yapılacak çalışmalarda kontrol, denetim ve yönlendirme görevlerini yapacaktır. Tünelin her iki ucunda trafiğin durdurulması ve salıverilmesi işleri ilgili Bölge Müdürlüğü yetkilileri ile koordineli bir şekilde gerçekleştirilecektir. Gerektiğinde bu işler için Mahalli Trafik Zabıtasından yardım alınabilecektir.
+
+ŞİRKET, protokole konu yerde baz istasyonunun montajını yaptıktan sonra, sistemin etkili ve verimli işletilmesi için gerekli bakım ve onarım işlemini de gerçekleştirecektir. Bu sebeple kullanılan yere ve işe ait ortak alanlara, güvenlik kurallarını ihlal etmemek kaydı ve önceden KGM'yi bilgilendirmek şartıyla, gerektiğinde görevlendirilen personel nezaretinde girebilecek ve kendisine ait tesislerde bakım hizmetlerini yerine getirebilecektir.
+
+ŞİRKET, KGM'nin uygun görmesi durumunda; protokole konu yerin alanını artırabilir, baz istasyonunun ya da ekipman ve parçalarının yerlerini (paratoner, klima, anten, radyo link, kablo ile sisteme ait elemanlar) değiştirebilir, alana ilave ekipman ekleyebilir, ya da teknolojik gereklilikler ışığında eklenmesi gereken sistemlerin montajını yapabilir, yetkili kurumlarca baz istasyonuna ilişkin olarak sistem üzerinde istenilecek her türlü teknik değişiklik ve ilaveleri yapabilir. Ancak, kullanılacak alanın artması durumunda, ilave bedel KGM tarafından belirlenecek olup, bu konuda ek protokol yapılacaktır. Alan artırımı dışındaki değişiklikler için herhangi bir bedel talep edilmeyecektir.
+
+ŞİRKET, protokole konu yeri hiçbir şekilde amacı dışında kullanamaz.
+
+KGM'NİN YAPACAĞI İŞLER:
+
+KGM, 4.madde de belirtilen hususlara riayet edilmesi şartıyla, çalışmalarını yapmak üzere iş yerini ŞİRKET'e teslim edecektir.
+
+Protokole konu yerin satılması, kiralanması veya herhangi bir şekilde üçüncü kişilere devredilmesi durumunda, protokole konu işin devamını sağlamak hususunda KGM'ye hiçbir sorumluluk yüklenemez.
+
+KGM, işin montajı, bakım ve işletilmesi sırasında gerektiğinde iş başında kontrol elemanı bulunduracak, bu hizmet için ayrıca kontrollük bedeli alınmayacaktır. Ancak, KGM'nin eleman bulundurmaması, ŞİRKET'in işi tekniğine uygun yapmamasından veya trafik güvenliğine uymamasından doğacak sorumluluğunu ortadan kaldırmaz.
+
+KGM, tünel içerisinde bir çalışma yapacağı zaman ŞİRKET'i haberdar edecek, ŞİRKET çalışma esnasında eleman bulunduracak, bulundurmazsa hattın, diğer ekipman ve malzemelerin göreceği zarardan KGM sorumlu tutulamayacaktır.
+
+MALİ HÜKÜMLER:
+
+Protokol bedeli	(	) TL dir.
+
+Protokol süresi	yıldır.
+
+Protokol 1 (bir) nüsha olarak onaylanacaktır. ŞİRKET, protokol bedelini KGM'nin, T.C. ZİRAAT BANKASI Ankara Kamu Kurumsal Şubesindeki TR310001001745342752855091 İBAN no'lu
+
+hesabına yatıracak, buna ait banka dekontu protokolün ekine konulacaktır. Ekinde Banka dekontu olmayan protokol onaylanmayacaktır.
+
+(Protokol düzenleme esaslarının 35. maddesine göre ödemelerin peşin veya yıllık olarak ve
+
+ne şekilde yapılacağı, bu maddede açıkça belirtilecektir.)
+
+Protokol süresi içinde, ŞİRKET'ten4k8a8ynaklanan nedenlerle tesisin kurulmaması veya
+
+Protokol bedellerine yürürlükteki orana göre hesaplanacak Katma Değer Vergisi (KDV) ilave edilecektir.
+
+Protokollerin damga vergisi, keşif özetindeki KDV hariç toplam bedel üzerinden, Kanunla belirlenmiş oranda hesaplanarak, protokol düzenlenmesi esnasında, Maliye Bakanlığı hesaplarına yatırılacak olup, alınan belge protokole eklenecektir. Damga vergisi, protokol bedelinden ayrı olarak yatırılacaktır. Açıklama kısmında belirtilmiş olsa dahi, protokol bedeli ile aynı dekontta yer almayacaktır
+
+Bunlar dışında yer alan sair vergi mükellefiyetlerinden de ŞİRKET sorumludur.
+
+İşin yapımı esnasında veya sonunda, çalışmanın keşfe esas boyutlarında değişiklik olması halinde KGM 2. keşif düzenleyecektir. 2. keşif, 1. keşfin üstünde ise, ŞİRKET aradaki farkı KGM 'ye ödeyecektir. Altında ise KGM aradaki farkı, ŞİRKET'e iade etmeyecektir. 2. keşiften doğan farklar, talep yazısını takiben en geç bir ay içinde ödenecektir.
+
+İtirazlar için başvuru süresi, KGM'nin talep yazısını takiben onbeş gün olup, bundan sonraki itirazlar geçerli olmayacaktır.
+
+FESİH:
+
+Taraflardan herhangi birinin akdi feshettiği durumlarda, diğer tarafa münhasır noter kanalıyla açık bir şekilde ihbar edilmedikçe protokol hükümlerine bağlı kalınacaktır.
+
+Protokol hükümlerine aykırı ve karayolu ve trafik güvenliğini tehlikeye düşüren çalışmalar KGM'ce durdurularak tutanak tutulacaktır. KGM, bu konuda 20(yirmi) gün süreli ihtar çekerek, aykırılıkların giderilmesini isteyecek, bu süre içerisinde aykırılıklar giderilmediği takdirde protokol feshedilecek, bedeli irat kaydedilecektir.
+
+Bir yıldan uzun süreli protokollerde, müteakip yıllara ait bedellerin belirtilen süre içinde yatırılmaması durumunda KGM protokolü tek taraflı feshedebilecektir.
+
+Taşınabilir konteyner veya kabin haricinde sabit hizmet tesisi yapılmayacaktır.
+
+Elektrik enerjisinin temini ŞİRKET'e ait olacaktır.
+
+Kullanılacak kablo ve diğer malzemeler yangın ve ilgili diğer mevzuatlara uygun
+
+olacaktır.
+
+Tünel içinde ve dışında hiçbir şekilde reklam içerikli logo, yazı vb. ibare bulundurulmayacaktır.
+
+Tünel içinden hiçbir şekilde açık kazı ile enine ve paralel geçiş yapılmayacaktır.
+
+PROTOKOLÜN YÜRÜRLÜĞE GİRİŞİ VE YÜRÜRLÜK SÜRESİ:
+
+Bu protokol 2. maddede adları yazılı yetkililerce imzalanmasını müteakip Karayolları
+
+Genel Müdürlüğü tarafından onaylanmasından sonra yürürlüğe girer.
+
+Protokolün Başlangıç Tarihi	: ... /... / 20.. (Protokolün onay tarihi ile aynı olacak)
+
+Protokolün Bitiş Tarihi	: ... /. / 20..
+
+Protokol Süresi	: .. ( ) Yıl (Rakam ile)(Yazı ile)
+
+TESİSİN ÜÇÜNCÜ ŞAHISLARA DEVREDİLMESİ:
+
+Hattın yapımı tamamlandıktan sonra ŞİRKET bu tesisi kısmen veya tamamen başka bir şirket, kurum veya kuruluşa devredemez.
+
+TEBLİGATLAR:
+
+ŞİRKET, iş bu protokolde belirtilen adresini tebligat adresi olarak kabul eder. Tebligat adresi olarak başka bir adresi göstermek istemesi halinde bunu yazılı olarak KGM'ye bildirmek zorundadır. Aksi takdirde protokolde yazılı adrese yapılan tebligat ŞİRKET'e yapılmış sayılacaktır.
+
+İHTİLAFLARIN HALLİ:
+
+.KGM, protokolün aykırılık sebebi dışında feshi, mahkeme kararı veya diğer herhangi bir sebeple sona ermesi halinde, baz istasyonunun kaldırılması için ŞİRKET'e 30 (otuz) gün süre tanıyacaktır. Baz istasyonu, bizzat ŞİRKET ya da yetkilendirdiği şirketler tarafından ŞİRKET adına kaldırılacaktır. ŞİRKET baz istasyonunu kaldırırken, taşınmazda meydana gelen baz istasyonundan kaynaklanan eksiklikleri tazmin ederek, protokole konu alanı iyi halde teslim edecektir.
+
+ŞİRKET fesih, mahkeme kararı veya diğer herhangi bir sebeple protokolün sona ermesi (sürenin bitmesi ve yenilenmemesi) halinde, tanınan 30 (otuz) günlük sürede tesisi kaldırmaya ve protokole konu yeri teslim etmeye yanaşmadığı takdirde, geçen her gün için yıllık toplam protokol bedelinin 1/100'ü kadar ayrıca ceza ödemeyi kabul ve taahhüt eder. Bu durumda KGM, mevzuattan ve protokolden kaynaklanan her türlü hak ve yetkilerini kullanarak masrafı ŞİRKET'e ait olmak üzere tesisi kaldırma hakkına haiz olacak ve kalan sürenin protokol tutarını ve varsa uğradığı diğer zararları tazminat olarak ŞİRKET'ten isteyebilecektir.
+
+Bu protokolün uygulanmasından doğacak ihtilafların çözümünde, Karayolları Bölge
+
+Müdürlüğünün bulunduğu 	 İli Mahkemeleri ve/veya İcra Daireleri yetkilidir.
+
+ŞİRKET iş bu protokolü mevzuatta öngörülecek hususlara uygun olarak düzenlemeyi ve mevzuatlarda değişiklik olması veya özel bir durumda protokol bedellerinde bir fark oluştuğu takdirde bunu karşılayacağını taahhüt eder.
+
+İş bu protokol, 14 (ondört) maddeden ibaret olup, bir nüsha olarak imza altına alınmıştır.
+
+ŞİRKET'in Tebligat Adresi:
+
+EKLER:
+
+a- Proje/Plan/En Kesit/Boy Kesit/Kroki,
+
+b- Gerekçeli Rapor
+
+c- Keşif özeti,
+
+d- Banka dekontu,
+
+e- Damga vergisi makbuzu
+
+KGM	ŞİRKET
+
+Karayolları Bölge Müdürü
+
+ONAYLAYAN
+
+... / ... / ....
+
+T.C.
+
+ULAŞTIRMA, DENİZCİLİK VE HABERLEŞME BAKANLIĞI
+Karayolları Genel Müdürlüğü
+
+Sayı : 67487816 - 010.06.01 =
+
+Konu : Protokol Düzenleme Esasları	4806.2014
+
+İÇ GENELGE 2014/01
+
+Genel Müdürlüğümüz sorumluluğunda bulunan “Devlet, İl ve Otoyollar Üzerindeki Tünellerde Kesintisiz Cep Telefonu İletişimi İçin Tünel İçinde ve Dışında Radyo Baz İstasyonu Anten ve Ekipmanlarının Montajı île Belirlenen Sürelerde Hizmetin Yürütülmesi İçin Protokol Düzenleme Esasları” belirlenmiş olup, detaylar ekte açıklanmıştır.
+
+Teşkilat içinde yeknesaklığın sağlanması için trafiğe açık bulunan Devlet, İl ve Otoyollar üzerindeki tünellerde bu tür talepler incelenecek olup, uygun görülenler hakkında bu esaslar doğrultusunda hazırlanacak protokoller onaylanmak üzere Genel Müdürlüğe gönderilecek, protokol onaylandıktan sonra yürürlüğe girecektir.
+
+Bu genelgenin yayımı tarihi itibariyle 23.07.2009 tarihli ve 2009/16 sayılı İç Genelge yürürlükten kaldırılmıştır.
+
+Bilgilerini ve gereğini rica ederim.
+
+EKLER:
+
+Protokol Taslağı
+
+Protokol Düzenleme Esasları
+
+Protokol Tahsis Bedeli Tespit Komisyonu Tutanağı
+
+DAĞITIM:
+
+Gereği:	Bilgi:
+
+Taşra Teşkilatı	Merkez Teşkilatı
+
+DEVLET, İL VE OTOYOLLAR ÜZERİNDEKİ TÜNELLERDE KESİNTİSİZ CEP
+TELEFONU İLETİŞİMİ İÇİN TÜNEL İÇİNDE VE DIŞINDA RADYO BAZ İSTASYONU
+
+ANTEN VE EKİPMANLARININ MONTAJI İLE BELİRLENEN SÜRELERDE
+HİZMETİN YÜRÜTÜLMESİ İÇİN PROTOKOL
+
+DÜZENLEME ESASLARI
+
+Protokol konusu çalışmanın yapımı ve işletimi esnasında, "Karayolu ve Trafik Güvenliği" birinci derecede esastır. Talep edilen çalışma, hiçbir şekilde bu hususları tehlikeye düşürecek biçimde olamaz, KGM böyle bir talep için protokol düzenlemeye zorlanamaz. Protokol düzenlenmiş olsa dahi, karayolu ve trafik güvenliğini tehlikeye düşüren tesisler konusunda, ŞİRKET uyarılır, yapılması gereken eksiklikler yerine getirilmediği takdirde, herhangi bir bedel ödenmeksizin tesis ortadan kaldırılır ve kaldırma bedeli ŞİRKET’ten tahsil edilir.
+
+KGM’nin sorumluluk alanında bulunan tünellerden geçirilmek istenen haberleşme amaçlı tesise ait protokollerde, ŞİRKET protokole taraf olarak kabul edilecek, yüklenici, taşeron, projeci, müşavir, danışman gibi üçüncü şahıslar yetkili kılınmış olsalar dahi taraf kabul edilmeyecek, müracaatları değerlendirmeye alınmayacaktır. Ancak, ilgili devlet kurulularından, mevzuata uygun olarak, Yap-İşlet veya Yap-İşlet-Devret uygulamaları çerçevesinde özel izinler ve yetkiler alarak çalışmalar yapan tüzel kişiler, bu durumlarını belgelendirmeleri şartıyla, protokole taraf olarak kabul edilebileceklerdir. Protokoller, KGM adına bizzat Bölge Müdürü tarafından, ŞİRKET adına da vekaletname ile imza yetkisi verilmiş kişi veya kişiler tarafından imzalanacaktır. İmzalamaya yetkili olduğuna dair belge protokole eklenecek, onaylanmak üzere Genel Müdürlüğe gönderilecektir.
+
+Protokoller, tüzel kişilerle yapılacak, gerçek kişilerle protokol yapılmayacaktır. Protokollerde kamu yararı esas olacaktır.
+
+Protokol bir nüsha olarak düzenlenecek ve damga vergisi ŞİRKET tarafından ödenecektir.
+
+KGM’nin sorumluluk alanında bulunan tünellerde ‘"RADYO BAZ İSTASYONU ANTEN VE EKİPMANLARININ KURULMASI İLE İLGİLİ” talepler için düzenlenecek protokoller, bedel karşılığında yapılacaktır. Protokol bedeli, oluşturulacak “Bedel Tespit Komisyonu” tarafından her yıl tespit edilecektir. Teşkilat içinde yeknesaklığın sağlanması açısından, Bedel Tespit Komisyonu tarafından belirlenen protokol bedeli her yıl taşra birimlerine bildirilecektir.
+
+Protokol onaylanmadan herhangi bir çalışmaya izin verilmeyecektir. Talep edilen çalışma, protokol yürürlük süresi içinde mutlaka tamamlanacaktır.
+
+Protokol bedelleri; protokolün düzenlenmesi esnasında, KGM’nin T.C. Ziraat Bankası Ankara Kamu Kurumsal Şubesindeki TR310001001745342752855091 İban No’lu hesabına yatırılacak, alınan banka dekontu protokole eklenecektir. Dekontun açıklama kısmına mümkünse ŞİRKET’in adı, hangi Bölge Müdürlüğü için yatırıldığı, yatıran kişinin ya da şirketin T.C. Kimlik veya Vergi No bilgileri ve protokol bedeli, varsa taşınmaza ait mülkiyet bilgileri (İl, İlçe, Mahalle/Köy, Ada, Parsel, Yüzölçümü) yazılacaktır.
+
+Protokol bedellerine yürürlükteki orana göre hesaplanacak Katma Değer Vergisi (KDV) ilave edilecektir.
+
+Protokollerin damga vergisi, keşif özetindeki KDV hariç toplam bedel üzerinden, Kanunla belirlenmiş oranda hesaplanarak Maliye Bakanlığı hesaplarına yatırılacak, alınan belge protokole eklenecektir. Damga vergisi, protokol bedelinden ayrı olarak yatırılacak, açıklama kısmında belirtilmiş olsa dahi, protokol bedeli ile aynı dekontta yer almayacaktır.
+
+Protokolün ekleri; Keşif Özeti, Proje, Kroki, Şirket adına protokolü imzalayacak yetkilinin noter onaylı vekaletnamesi, gerekçeli rapor (gerektiğinde) vb. belgelerden oluşacak, bunlar arasında herhangi bir çelişki bulunmayacak şekilde hazırlanarak onaylanmak üzere KGM’ye gönderilecektir. KGM tarafından onaylanmamış protokoller, yürürlüğe girmeyecektir.
+
+Protokole konu tünel içi ve dışında yapılacak çalışmalara, ilgili Bölge Müdürlüğüne haber vermeden başlanılamayacağı gibi, ilgili Bölge Müdürlüğünün yetkilileri ile birlikte belirlenecek gün ve saatlerde alınacak tedbirlerden sonra çalışma yapılabilecektir. ŞİRKET, tünelde yapılacak çalışma esnasında trafik emniyet ve güvenliğinin sağlanması için gerekli olan eleman, araç, gereç, işaretleme vb. ihtiyaçları ücreti karşılığında ilgili Bölge Müdürlüğünden isteyebilecek ve yaptırabilecektir. Tüm güvenlik tedbirleri alınmadan kesinlikle çalışmalara başlanılmayacaktır. İlgili Bölge Müdürlüğünün teknik elemanları, yapılacak çalışmalarda kontrol, denetim ve yönlendirme görevlerini yapacak, bu hizmet için ayrıca kontrollük bedeli alınmayacaktır. Tünelin her iki ucunda trafiğin durdurulması ve salıverilmesi işleri ilgili Bölge Müdürlüğü yetkilileri ile koordineli bir şekilde gerçekleştirilecektir. Gerektiğinde bu işler için Mahalli Trafik Zabıtasından yardım alınabilecektir.
+
+Protokole konu işin yapımı esnasında tünele ait elemanlara zarar verilmeyecektir. Zarar verildiği takdirde en kısa zamanda bu zarar telafi edilecek, aksi halde zarar verilen malzemelerin bedeli güncel piyasa fiyatlarının % 50 fazla bedeli ile ŞİRKET’ten tahsil edilecektir. Zarar bedeli ödenmeden protokol konusu çalışmalara devam edilmeyecektir.
+
+Protokol konusu çalışmalar esnasında veya sonrasında tünelin yapısına, protokole konu tesise veya üçüncü şahıslara verilecek her türlü maddi ve manevi zarar ve ziyan ŞİRKET tarafından karşılanacaktır.
+
+Tünel dışına konulacak antenler, tünel portalına en az 10 m. mesafede olacaktır. Bunun mümkün olmadığı durumlarda KGM’nin de uygun göreceği yerlere konulacaktır.
+
+Tünel içerisine konulacak antenlerin tretuvar iç kısmından 5 m. yüksekte olacak şekilde montajı yapılacaktır. Bunun mümkün olmadığı durumlarda KGM’nin de uygun göreceği yerlere montajı yapılacaktır.
+
+Kablo hattı, kabin veya konteynerden tünel girişine kadar yeraltından gelecek, tünele hizmet kanalından girecek, GSM baz hattına ait olduğu belli olacak şekilde bir kılıf içinde antenin olduğu noktaya kadar gelecek, (Hizmet kanalının müsait olmadığı tünellerde KGM’nin göstereceği yerden geçirilecek) bu noktada düşey olarak yine koruyucu bir kılıf içinde tünel yan duvarına monte edilerek antene ulaşacaktır. (Özel durumlarda ve hizmet kanalı olmayan tünellerde KGM’nin uygun görüşü alınarak çalışma yapılacaktır.)
+
+Tünel içine konulacak antenler, taşıt yolundaki yatay ve düşey gabariyi etkilemeyecek şekilde monte edilecektir.
+
+Konteyner veya kabinler gerektiğinde taşınabilir olacak ve tünel cidarından en az 5 m. uzağa konulacak, portal estetiğini etkilemeyecek şekilde gizlenecektir. 5 m. lik mesafenin bulunmadığı noktalarda, KGM yetkilileri ile alternatif çözümler aranacaktır.
+
+Çift tüplü tünellerde iki tünel arasına (Refıije) konteyner veya kabin konulmayacaktır.
+
+Taşınabilir konteyner veya kabin haricinde sabit hizmet tesisi yapılmayacaktır.
+
+Çalışmalarda her türlü güvenlik tedbirlerinin alınmasından ve uygulanmasından ŞİRKET yetkili ve sorumlu olacaktır.
+
+Elektrik enerjisinin temini ŞİRKET’e ait olacaktır.
+
+Kullanılacak kablo ve diğer malzemeler yangın ve ilgili diğer mevzuatlara uygun olacaktır.
+
+Tünel içinde ve dışında hiçbir şekilde reklam içerikli logo, yazı vb. ibare bulundurulmayacaktır.
+
+Tünel içinden hiçbir şekilde açık kazı ile enine ve paralel geçiş yapılmayacaktır.
+
+KGM, tünel içerisinde bir çalışma yapacağı zaman ŞİRKET’i haberdar edecek, ŞİRKET çalışma esnasında eleman bulunduracak, bulundurmazsa hattın, diğer ekipman ve malzemelerin göreceği zarardan KGM sorumlu tutulmayacaktır.
+
+Aynı tünel içerisinde birden fazla cep operatörü tesisi kurulacak ise, yukarıdaki kriterlere uygun olarak projelendirilecek, montajı bitmiş tesis var ise projede gösterilecektir. Hiçbir şekilde görüntü kirliliği oluşturulmayacak, gerekirse ortak tesis kurma (kabin, alıcı, aktarıcı) şartları zorlanacaktır.
+
+Montaj çalışmalarına başlanılmadan önce KGM’ye haber verilecek, KGM’nin denetimi ve gözetimi altında çalışılacaktır.
+
+Montajı yapılan anten ve ekipmanların periyodik bakım çalışmalarında da KGM’den izin alınarak, KGM’nin denetimi ve gözetiminde çalışılacaktır.
+
+Protokol, enerji temini ile ilgili çalışmaların tamamlanmasından sonra düzenlenecektir. (Özel durumlarda KGM’nin uygun görmesi ve bu durumun tutanak ile tespit edilmesiyle, enerji temini ile ilgili çalışmalar protokolün imzalanmasından sonra yapılabilir. Ancak bu durum protokolün süresini hiçbir şekilde değiştirmez.)
+
+ŞİRKET bu tesisi kısmen veya tamamen başka bir şirket, kurum veya kuruluşa devredemez.
+
+ŞİRKET, KGM’nin uygun görmesi durumunda; protokole konu yerin alanını artırabilir, baz istasyonunun ya da ekipman ve parçalarının yerlerini (paratoner, klima, anten, radyo link, kablo ile sisteme ait elemanlar) değiştirebilir, alana ilave ekipman ekleyebilir, ya da teknolojik gereklilikler ışığında eklenmesi gereken sistemlerin montajını yapabilir, yetkili kurumlarca baz istasyonuna ilişkin olarak sistem üzerinde istenilecek her türlü teknik değişiklik ve ilaveleri yapabilir. Ancak, kullanılacak alanın artması durumunda, ilave bedel KGM tarafından belirlenecek olup, bu konuda ek protokol yapılacaktır. Alan artırımı dışındaki değişiklikler için herhangi bir bedel talep edilmeyecektir.
+
+ŞİRKET, protokole konu yerde baz istasyonunun montajını yaptıktan sonra, sistemin etkili ve verimli işletilmesi için gerekli bakım ve onarım işlemini de gerçekleştirecektir. Bu sebeple kullanılan yere ve işe ait ortak alanlara, güvenlik kurallarını ihlal etmemek kaydı ve önceden
+
+Tünel içinde protokole esas tespit edilen bedel, antenlerin konulacağı yerlere göre değil, kapsama yapılacak tünelin uzunluğunun tamamı tüp bazında dikkate alınarak hesaplanacak, taşınabilir konteyner veya kabinler için kullanılacak olan 6 m2 ye kadar alanın protokol bedeli de buna ilave edilecektir. Konteyner veya kabinlerin işgal ettikleri alan 6 m2 yi geçtiği takdirde, bedel tespit komisyonunun belirleyeceği ilave bedel talep edilecek ve ŞİRKET buna itiraz etmeyecektir.
+
+Protokol süresi bir yıldan fazla, ilgili mevzuatların öngördüğü süre kadar olabilecektir. Süresi bir yıldan fazla olan protokollerde protokol bedelinin tamamının KGM’nin ilgili hesabına yatırıldığına dair dekont ibraz edildiğinde protokol imzalanacaktır. Protokol bedelinin tamamının peşin yatırılması durumunda ileriki yıllarda her hangi bir fark bedel alınmayacaktır.
+
+Protokol bir yıldan fazla süreli yapılacak ve bedeli yıllık ödenecek ise, ilk yıl bedeli protokol onaylanmadan yatırılacak, müteakip yıllar için her yıl Bedel Tespit Komisyonunca belirlenecek protokol bedeli, protokolün düzenlendiği ay ve gün dikkate alınarak en geç 5 (beş) iş günü içinde yatırılarak dekont KGM’ye ibraz edilecektir. Aksi halde geciktirilen her gün için yıllık toplam protokol bedelinin 1/200’ü oranında gecikme cezası uygulanacaktır. Gecikme süresi 30 günü geçmeyecektir, aksi durumda İDARE tek taraflı fesih hakkını kullanabilecektir. Bu durum protokol metninde açıkça ifade edilecektir.
+
+ŞİRKET, konteyner veya kabinlerini KGM’nin uygun görmesi durumunda diğer GSM şirketleri ile ortak kullanabilecektir. Bu durumda, diğer GSM şirketleri ile aralarında sözleşme yapılacak, bu sözleşmenin süresi ŞİRKET ile KGM arasında yapılan protokol süresinden az olmayacaktır. Diğer GSM şirketleri, bu sözleşme ile KGM’ye müracaatta bulunacaklar, KGM’nin belirleyeceği bedel karşılığı diğer GSM şirketleri ile ayrıca protokol yapılacaktır.
+
+Protokolün imzalanmasıyla yukarıda bahsedilen hususların tamamı kabul edilmiş sayılacaktır.
+
+Bir yıllık protokol bedeli aşağıda belirtildiği şekilde hesap edilecektir;
+
+a-) Tünel dışında kurulacak GSM sistemleri için 6 m2 ye kadar kullanılacak alanlara ait protokol tahsis bedelleri; (Bu alanlar zeminde olabileceği gibi, KGM’nin onayı ile portaller hariç tünelin dış yüzeyinde veya herhangi bir imalatın üzerinde de olabilir.)
+
+b-) Tünel içinde kurulacak sistemler için kullanılacak tünelin her bir metresi için protokol tahsis bedeli, (hesaplamada kapsama yapılan tünel tüp veya tüplerinin toplam uzunluğu dikkate alınacaktır.)
+
+c-) (a) ve (b) maddelerinde tespit edilen bedellerin toplamına KDV bedeli eklenecektir, d-) Ayrıca bu bedeller üzerinden damga vergisi hesap edilecektir.
+
+PROTOKOL NO: TP-2014.01.0000 açılımı;
+
+40. Protokol Düzenleme Esaslarında bahsedilmeyen hususlarda ortaya çıkan sorunların çözümünde KGM “TAKDİR” hakkını kullanabilecektir.
+
+PROTOKOL
+
+TARAFLAR: Ulaştırma, Denizcilik ve Haberleşme Bakanlığı Karayolları Genel Müdürlüğü
+
+İMZA YETKİSİ: Bu protokolü imzalamaya KGM adına .... Bölge Müdürü
+
+, ŞİRKET adına ise	yetkilidir.
+
+PROTOKOLÜN KONUSU: Bu protokolün konusu; ekli projede, planda, krokide görüldüğü
+
+gibi; Kontrol Kesim (KK) başlangıcı 04-000 alınmak üzere 	 Kontrol Kesim No.lu
+
+yolunun, 	kimsindeki 	 Tünelinin İçinde kesintisiz
+
+cep telefonu İletişimi için ŞİRKET tarafından gerekli sistemlerin kurulması ve protokol süresince hizmetin yürütülmesi işidir.
+
+ŞİRKETİN YAPACAĞI İŞLER:
+
+Hattın geçirilmesi esnasında veya ileriki yıllarda yapılan iş nedeniyle tünelde meydana gelecek her türlü bozulmayı, usulüne uygun olarak bedelsiz onaracaktır. ŞİRKET bu onarımı, 15 gün içinde gereği gibi yapmadığı takdirde, onarımı KGM yapacak veya yaptıracak, kendi usullerine göre hesaplayacağı bedeli ŞİRKET’ten tahsil edecektir. ŞİRKET bu bedele ve bunun tespit usullerine itirazda bulunmayacaktır.
+
+Çalışmalar sırasında yıkılan ve bozulan yerler ŞİRKET tarafından eski haline getirilecektir. Çalışmalar sırasında ve sonradan doğabilecek her türlü sorumluluk ŞİRKET’e aittir.
+
+Trafik yönünden her türlü tedbir, ŞİRKET tarafından alınacak, meydana gelecek her türlü mal ve can kaybı ile zarar ve ziyandan ŞİRKET sorumlu olacaktır. Tünel içerisinden geçirilecek kablo hattı mevcut hizmet kanalından PVC boru İçerisinden geçirilecektir.
+
+Çalışmalar sırasında Tünel Bakım İşletme Şefliği veya Tünel Bakım İşletme Şefliği olmayan yerlerde Tesisler ve Bakım Başmühendisliği İle koordinasyon sağlanacaktır. İşin bitiminde Bölge Müdürlüğüne haber verilecektir.
+
+ŞİRKET, hattın geçirilmesi ve işletimi esnasında, tüneldeki trafiği engellemeyecek, güçleştirmeyecek, trafiği, can ve mal güvenliğini tehlikeye düşürmeyecek ve KGM tarafından tespit edilmiş olan standartlara uygun şekilde her türlü tedbiri alacak, gerekli tüm trafik işaretlemelerini yapacak, gerektiğinde personel bulunduracaktır.
+
+Protokol konusu çalışmanın yapımı ve işletimi esnasında, "Trafik Güvenliği" birinci derecede esastır. ŞİRKET bu konuda öngörülerde bulunarak, gerekli önlemleri alacaktır. ŞİRKET tarafından talep edilen çalışma, hiçbir şekilde bu hususları tehlikeye düşürecek biçimde olamaz, böyle bir talep için protokol düzenlenemez. Karayolu ve trafik güvenliğini tehlikeye düşürdüğü tespit edilen hususlarda ŞİRKET uyarılacak, uyarı dikkate alınmadığı takdirde, tehlikeli olan işler KGM tarafından ortadan kaldırılarak bedeli % 50 fazlası ile ŞİRKET’ten tahsil edilecektir.
+
+Hattın çekimi esnasında döşenecek PVC boru, mevcut ve ileride Tünel Bakım İşletme Merkezinin oluşturulması sırasında tünel içi elektrik, elektronik, elektromekanik ve yangın söndürme sistemlerinin kurulumu aşamasında döşenecek her türlü elektrik ve data kablolarının çekilmesini engellemeyecek şekilde yerleştirilecektir. İleride bu konuda oluşabilecek her türlü sorundan ŞİRKET sorumlu olacak ve sorun KGM’nin istediği şekilde herhangi bir ücret ödenmeden ŞİRKET tarafından giderilecektir.
+
+Protokol konusu çalışmanın her aşamasında trafik güvenliği yönünden 2918 sayılı Karayolları Trafik Kanunu ve bu Kanunla ilgili yönetmelik hükümleri uygulanacaktır.
+
+Protokol konusu çalışmalar esnasında veya sonrasında tünelin yapısına, protokole konu tesise veya üçüncü şahısların can, mal kayıplarından doğacak her türlü maddi, manevi zarar ve ziyandan protokole taraf olan ŞİRKET sorumlu olacaktır.
+
+4.10.- ŞİRKET, protokole konu yeri, protokolde belirtilen esas ve usullere uygun olarak kullanmak zorundadır. ŞİRKET, protokole konu yerde sistemlerin montajını yaparken, onaylı projelere ve/veya krokiye uygun olarak kurmak ve kullanıl^^eri yapılmış hali ile korumak, çevresine maddizarar vermeyecek şekilde kullanmak zorundadır. Aksi takdirde, kullanılan yeri eski haline getirmek ve meydana gelecek zarar ve ziyam ödemek zorundadır. Zararın giderilmediği hallerde KGM, ihtar çekmeksizin protokolü feshedebilecek, meydana gelen zararlar şirket tarafından tazmin edilecektir.
+
+Protokole konu işin yapımı esnasında tünele ait elemanlara zarar verilmeyecektir. Zarar verildiği takdirde en kısa zamanda bu zarar telafi edilecek, aksi halde zarar verilen malzemelerin bedeli güncel piyasa fiyatlarının % 50 fazla bedeli ile ŞİRKET’ten tahsil edilecektir.
+
+- Protokole konu tünel içi ve dışında yapılacak çalışmalara, Bölge Müdürlüğüne haber vermeden başlanılamayacağı gibi, ilgili Bölge Müdürlüğünün yetkilileri ile birlikte belirlenecek gün ve saatlerde alınacak tedbirlerden sonra çalışma yapılabilecektir. ŞİRKET, tünelde yapılacak çalışma esnasında trafik emniyet ve güvenliğinin sağlanması için gerekli olan eleman, araç, gereç, işaretleme vb. ihtiyaçlarını ücreti karşılığında ilgili Bölge Müdürlüğünden isteyebilecek ve yaptırabilecektir. Tüm güvenlik tedbirleri alınmadan kesinlikle çalışmalara başlanıfırlayacaktır. İlgili Bölge Müdürlüğünün teknik elemanları, yapılacak çalışmalarda kontrol, denetim ve yönlendirme görevlerini yapacaktır. Tünelin her iki ucunda trafiğin durdurulması ve salıverilmesi işleri ilgili Bölge Müdürlüğü yetkilileri ile koordineli bir şekilde gerçekleştirilecektir. Gerektiğinde bu işler için Mahalli Trafik Zabıtasından yardım alınabilecektir.
+
+ŞİRKET, protokole konu yerde baz istasyonunun montajım yaptıktan sonra, sistemin etkili ve verimli işletilmesi için gerekli bakım ve onarım işlemini de gerçekleştirecektir. Bu sebeple kullanılan yere ve işe ait ortak alanlara, güvenlik kurallarını ihlal etmemek kaydı ve önceden KGM’yi bilgilendirmek şartıyla, gerektiğinde görevlendirilen personel nezaretinde girebilecek ve kendisine ait tesislerde bakım hizmetlerini yerine getirebilecektir.
+
+ŞİRKET, KGM’nin uygun görmesi durumunda; protokole konu yerin alanını artırabilir, baz istasyonunun ya da ekipman ve parçalarının yerlerini (paratoner, klima, anten, radyo link, kablo ile sisteme ait elemanlar) değiştirebilir, alana ilave ekipman ekleyebilir, ya da teknolojik gereklilikler ışığında eklenmesi gereken sistemlerin montajını yapabilir, yetkili kurumlarca baz istasyonuna ilişkin olarak sistem üzerinde istenilecek her türlü teknik değişiklik ve ilaveleri yapabilir. Ancak, kullanılacak alanın artması durumunda, ilave bedel KGM tarafından belirlenecek olup, bu konuda ek protokol yapılacaktır. Alan artırımı dışındaki değişiklikler için herhangi bir bedel talep edilmeyecektir.
+
+ŞİRKET, protokole konu yeri hiçbir şekilde amacı dışında kullanamaz.
+
+KGM’NİN YAPACAĞI İŞLER:
+
+KGM, 4.madde de belirtilen hususlara riayet edilmesi şartıyla, çalışmalarını yapmak üzere iş yerini ŞİRKET’e teslim edecektir.
+
+Protokole konu yerin satılması, kiralanması veya herhangi bir şekilde üçüncü kişilere devredilmesi durumunda, protokole konu işin devamını sağlamak hususunda KGM’ye hiçbir sorumluluk yüklenemez.
+
+KGM, işin montajı, bakım ve işletilmesi sırasında gerektiğinde iş başında kontrol elemanı bulunduracak, bu hizmet için ayrıca kontrollük bedeli alınmayacaktır. Ancak, KGM’nin eleman bulundurmaması, ŞÎRKET’in işi tekniğine uygun yapmamasından veya trafik güvenliğine uymamasından doğacak sorumluluğunu ortadan kaldırmaz.
+
+KGM, tünel içerisinde bir çalışma yapacağı zaman ŞİRKET’i haberdar edecek, ŞİRKET çalışma esnasında eleman bulunduracak, bulundurmazsa hattın, diğer ekipman ve malzemelerin göreceği zarardan KGM sorumlu tutulamayacaktır.
+
+MALİ HÜKÜMLER:
+
+Protokol 1 (bir) nüsha olarak onaylanacaktır. ŞİRKET, protokol bedelini KGM’nin, T.C. ZİRAAT BANKASI Ankara Kamu Kurumsal Şubesindeki TR310001001745342752855091 İBAN no’lu hesabına yatıracak, buna ait banka dekontu protokolün ekine konulacaktır. Ekinde Banka dekontu olmayan protokol onaylanmayacaktır.
+
+(Protokol düzenleme esaslarının 35. maddesine göre ödemelerin peşin veya yıllık olarak ve ne şekilde yapılacağı, bu maddede açıkça belirtilecektir.)
+
+Protokol süresi içinde, ŞİRKET’ten kaynaklanan nedenlerle tesisin kurulmaması veya
+
+KGM’nin kusuru haricinde protokole konu yerin kullanılmaması durumunda da KGM, protokole konu yeri kullanıma hazır bulundurmuş olacağından, ŞÎRKET protokol bedelini ödemekle mükelleftir. Yıllık protokol bedelleri net ödemeyi kapsamaktadır. Bahse konu protokollerle ilgili doğabilecek stopaj vergisi, resim, harçlar vb. vergiler ŞİRKET’e aittir.
+
+Protokol bedellerine yürürlükteki orana göre hesaplanacak Katma Değer Vergisi (KDV) ilave edilecektir.
+
+Protokollerin damga vergisi, keşif özetindeki KDV hariç toplam bedel üzerinden, Kanunla belirlenmiş oranda hesaplanarak, protokol düzenlenmesi esnasında, Maliye Bakanlığı hesaplarına yatırılacak olup, alınan belge protokole eklenecektir. Damga vergisi, protokol bedelinden ayrı olarak yatırılacaktır. Açıklama kısmında belirtilmiş olsa dahi, protokol bedeli ile aynı dekontta yer almayacaktır
+
+Bunlar dışında yer alan sair vergi mükellefiyetlerinden de ŞİRKET sorumludur.
+
+İşin yapımı esnasında veya sonunda, çalışmanın keşfe esas boyutlarında değişiklik olması halinde KGM 2. keşif düzenleyecektir. 2. keşif, 1. keşfin üstünde ise, ŞİRKET aradaki farkı KGM 'ye ödeyecektir. Altında ise KGM aradaki farkı, ŞİRKET'e iade etmeyecektir. 2. keşiften doğan farklar, talep yazısını takiben en geç bir ay içinde ödenecektir.
+
+İtirazlar için başvuru süresi, KGM’nin talep yazısını takiben onbeş gün olup, bundan sonraki itirazlar geçerli olmayacaktır.
+
+FESİH:
+
+Taraflardan herhangi birinin akdi feshettiği durumlarda, diğer tarafa münhasır noter kanalıyla açık bir şekilde ihbar edilmedikçe protokol hükümlerine bağlı kalınacaktır.
+
+Protokol hükümlerine aykırı ve karayolu ve trafik güvenliğini tehlikeye düşüren çalışmalar KGM'ce durdurularak tutanak tutulacaktır. KGM, bu konuda 20(yirmi) gün süreli ihtar çekerek, aykırılıkların giderilmesini isteyecek, bu süre içerisinde aykırılıklar giderilmediği takdirde protokol feshedilecek, bedeli irat kaydedilecektir.
+
+Bir yıldan uzun süreli protokollerde, müteakip yıllara ait bedellerin belirtilen süre içinde yatırılmaması durumunda KGM protokolü tek taraflı feshedebilecektir.
+
+ÖZEL HÜKÜMLER:
+
+İleride, bu protokolde yer almayan hususların oluşması halinde taraflarca EK PROTOKOL yapılacaktır.
+
+Tünel içinde protokole esas tespit edilen bedel, antenlerin konulacağı yerlere göre değil, kapsama yapılacak tünelin uzunluğunun tamamı tüp bazında dikkate alınarak hesaplanacak, taşınabilir konteyner veya kabinler için kullanılacak olan 6 m2 ye kadar alanın protokol bedeli de buna ilave edilecektir. Konteyner veya kabinlerin işgal ettikleri alan 6 m2 yi geçtiği takdirde, bedel tespit komisyonunun belirleyeceği ilave bedel talep edilecek ve ŞİRKET buna itiraz etmeyecektir.
+
+Tünel dışına konulacak antenler, tünel portalına en az 10 m. mesafede olacaktır. Bunun mümkün olmadığı durumlarda antenler KGM’nin de uygun göreceği yerlere konulacaktır.
+
+Tünel içerisine konulacak antenlerin tretuvar iç kısmından 5 m. yüksekte olacak şekilde montajı yapılacaktır. Bunun mümkün olmadığı durumlarda KGM’nin de uygun göreceği yerlere montajı yapılacaktır.
+
+Kablo hattı, kabin veya konteynerden tünel girişine kadar yeraltından gelecek, tünele hizmet kanalından girecek, GSM baz hattına ait olduğu belli olacak şekilde bir kılıf içinde antenin olduğu noktaya kadar gelecek, (Hizmet kanalının müsait olmadığı tünellerde KGM’nin göstereceği yerden geçirilecek) bu noktada düşey olarak yine koruyucu bir kılıf içinde tünel yan duvarına monte edilerek antene ulaşacaktır. (Özel durumlarda ve hizmet kanalı olmayan tünellerde KGM’nin uygun görüşü alınarak çalışma yapılacaktır.)
+
+Tünel içine konulacak antenler, taşıt yolundaki yatay ve düşey gabariyi etkilemeyecek şekilde monte edilecektir.
+
+Konteyner veya kabinler gerektiğinde taşınabilir olacak ve tünel cidarından en az 5 m. uzağa konulacak, portal estetiğini etkilemeyecek şekilde gizlenecektir. 5 m.lik mesafenin bulunmadığı noktalarda, KGM yetkilileri ile alternatif çözümler aranacaktır.
+
+ÇT ıdl iüsdfi'd- di n":r„-l ,i:-:.-.ıı .1	'4991 !., .ricy ; ı.?r Yy;. k;Td l;.,rı In.yv kTi; •.
+
+Taşınabilir konteyner veya kabin haricinde sabit hizmet tesisi yapılmayacaktır.
+
+Elektrik enerjisinin temini ŞİRKET’e ait olacaktır.
+
+Kullanılacak kablo ve diğer malzemeler yangın ve ilgili diğer mevzuatlara uygun olacaktır.
+
+Tünel içinde ve dışında hiçbir şekilde reklam içerikli logo, yazı vb. ibare bulundurulmayacaktır.
+
+Tünel içinden hiçbir şekilde açık kazı ile enine ve paralel geçiş yapılmayacaktır.
+
+PROTOKOLÜN YÜRÜRLÜĞE GİRİŞİ VE YÜRÜRLÜK SÜRESİ:
+
+Bu protokol 2. maddede adları yazılı yetkililerce imzalanmasını müteakip Karayolları Genel Müdürlüğü tarafından onaylanmasından sonra yürürlüğe girer.
+
+Protokolün Başlangıç Tarihi	20.. (Protokolün onay tarihi ile aynı olacak)
+
+Protokolün Bitiş Tarihi	20..
+
+Protokol Süresi	:.. (	) Yıl (Rakam ile)(Yazı ile)
+
+TESİSİN ÜÇÜNCÜ ŞAHISLARA DEVREDİLMESİ:
+
+Hattın yapımı tamamlandıktan sonra ŞİRKET bu tesisi kısmen veya tamamen başka bir şirket, kurum veya kuruluşa devredemez.
+
+TEBLİGATLAR:
+
+ŞİRKET, iş bu protokolde belirtilen adresini tebligat adresi olarak kabul eder. Tebligat adresi olarak başka bir adresi göstermek istemesi halinde bunu yazılı olarak KGM’ye bildirmek zorundadır. Aksi takdirde protokolde yazılı adrese yapılan tebligat ŞİRKET’e yapılmış sayılacaktır.
+
+İHTİLAFLARIN HALLİ:
+
+.KGM, protokolün aykırılık sebebi dışında feshi, mahkeme kararı veya diğer herhangi bir sebeple sona ermesi halinde, baz istasyonunun kaldırılması için ŞİRKET’e 30 (otuz) gün süre tanıyacaktır. Baz istasyonu, bizzat ŞİRKET ya da yetkilendirdiği şirketler tarafından ŞİRKET adına kaldırılacaktır. ŞİRKET baz istasyonunu kaldırırken, taşınmazda meydana gelen baz istasyonundan kaynaklanan eksiklikleri tazmin ederek, protokole konu alanı iyi halde teslim edecektir.
+
+ŞİRKET fesih, mahkeme kararı veya diğer herhangi bir sebeple protokolün sona ermesi (sürenin bitmesi ve yenilenmemesi) halinde, tanınan 30 (otuz) günlük sürede tesisi kaldırmaya ve protokole konu yeri teslim etmeye yanaşmadığı takdirde, geçen her gün için yıllık toplam protokol bedelinin 1/100’ü kadar ayrıca ceza ödemeyi kabul ve taahhüt eder. Bu durumda KGM, mevzuattan ve protokolden kaynaklanan her türlü hak ve yetkilerini kullanarak masrafı ŞİRKET’e ait olmak üzere tesisi kaldırma hakkına haiz olacak ve kalan sürenin protokol tutarını ve varsa uğradığı diğer zararları tazminat olarak ŞİRKET’ten isteyebilecektir.
+
+Bu protokolün uygulanmasından doğacak ihtilafların çözümünde, Karayolları Bölge
+
+Müdürlüğünün bulunduğu 	İli Mahkemeleri ve/veya İcra Daireleri yetkilidir.
+
+500
+
+ŞÎRKET iş bu protokolü mevzuatta öngörülecek hususlara uygun olarak düzenlemeyi ve mevzuatlarda değişiklik olması veya özel bir durumda protokol bedellerinde bir fark oluştuğu takdirde bunu karşılayacağını taahhüt eder.
+
+İş bu protokol, 14 (ondört) maddeden ibaret olup, bir nüsha olarak imza altına alınmıştır.
+
+ŞİRKET’in Tebligat Adresi:
+
+EKLER:
+
+a- Proje/Plan/En Kesit/Boy Kesit/Kroki, b- Gerekçeli Rapor c- Keşif özeti, d- Banka dekontu, e- Damga vergisi makbuzu
+
+KGM	ŞİRKET
+
+Karayolları	Bölge Müdürü
+
+ONAYLAYAN
+.../.../....
+
+501
+
+PROTOKOL TAHSİS BEDELİ TESPİT KOMİSYONU TUTANAĞI
+
+Komisyonumuz 04.04.2014 tarihinde Sanat Yapıları Bakım Onarım İşletme Şubesi Müdürlüğünde toplanarak Devlet ve İl Yolları üzerinde trafiğe açık tünellerde "GSM (Cep Telefonu Sistemi) Radyo Baz İstasyonu Sistemleri" kurulmasına ait tespit ettiği Yıllık Protokol bedelleri, gerekçeleri ile birlikte aşağıda belirtilmektedir;
+
+GEREKÇE-1) Tünel içinde kurulacak sistemler ile ilgili olarak Ulaştırma, Denizcilik ve Haberleşme Bakanlığının çıkardığı “SABİT VE MOBİL HABERLEŞME ALTYAPISI VEYA ŞEBEKELERİNDE KULLANILAN HER TÜRLÜ KABLO VE BENZERİ GERECİN TAŞINMAZLARDAN GEÇİRİLMESİNE İLİŞKİN YÖNETMELİK” ekindeki “Ek-1 GEÇİŞ HAKKI ÜCRET TARİFESİ ÜST SINIRLARI TABLOSU” 11. sıradaki;
+
+-Metro, tramvay, tünel ve benzeri tesislerin sınırlarındaki yerlerin her bir metresi için yıllık üst sınır ücretinin 10,00 TL. olduğu,
+
+GEREKÇE-2) Tünel dışında kurulacak sistemler ile ilgili olarak Ulaştırma, Denizcilik ve Haberleşme Bakanlığının “SABİT VE MOBİL HABERLEŞME ALTYAPISI VEYA ŞEBEKELERİNDE KULLANILAN HER TÜRLÜ BAZ İSTASYONU VE KONTEYNIR İLE BUNLARIN BÜTÜNLEYİCİ ARAÇ GEREÇ VE TESİSATIN KURULMASI VE YERLEŞTİRİLMESİ İLE ÜCRET TARİFELERİNİN BELİRLENMESİNE İLİŞKİN USUL VE ESASLAR HAKKINDA YÖNETMELİK” taslağı ekindeki “EK-1 YER KULLANIM HAKKI ÜCRET TARİFESİ” tablosunun 3. Sırasındaki;
+
+- Devlet karayolları ve üzerindeki tüneller, Devlet demiryolları ve üzerindeki tüneller için Yer Kullanım Hakkı ücretinin üst sınırının Yıllık 40.000,00 TL. olduğu anlaşılmaktadır.
+
+Bu sebeple. Yukarıda bahsedilen gerekçeler baz alınarak;
+
+) Tünel içinde kurulacak sistemler için Yıllık Protokol bedelinin: 5,00 TL./Metre,
+
+2~) Tünel dışında kurulacak sistemler için Yıllık Protokol bedelinin: 15.000,00 TL. olarak belirlenmesine karar verilerek bu komisyon tutanağı imza altına almmıştır.04.04,2014
+
+T.C.
+
+ULAŞTIRMA BAKANLIĞI
+Karayolları Genel Müdürlüğü
+
+SAYI : B.11.1.TCK.0.15.03-5Û-OİO.O
+KONU: Yapımı ve İkincil İşleri Biten
+
+(3/04/2010
+
+Tünellerin Bakıma Devri
+
+İÇ GENELGE 2010/^
+
+Ağımızda bulunan mevcut Tünellerin iyileştirilmesi veya projeli olarak yeni yapılıp trafiğe açılmasından sonra sürdürülecek Bakım ve İşletme çalışmalarının, verimli olabilmesi ve asgari düzeye indirilmesi amacıyla, yapım esnasında projede ve teknik şartnamelerde belirtilen hususlara titizlikle uyulması gerekmektedir.
+
+Böylece, Genel Müdürlüğümüz bütçesinden Bakım ve İşletme Hizmetleri için ayrılan çok kısıtlı kaynakların daha verimli şekilde kullanılması mümkün olabilecektir.
+
+Bu nedenle, yapımı ve ikincil işleri tamamlanan tünellerin, geçici kabul ve bakım dönemi aşamalarında; testleri, personel eğitimi, dokümantasyonu ve nihai projelerinin teslimi konularında ekte yer alan tabloya ve açıklamalara uygunluğu tespit edildikten sonra ilgili Bakım Başmühendisliğine devir ve teslimi yapılacaktır.
+
+Bilgilerini ve gereğini rica ederim.
+
+EKLER:
+
+EK-1 Yapımı ve ikincil işleri Biten
+
+Tünellerin Bakıma Devri Tablo (1 Sayfa)
+
+EK-2 Açıklamalar (5 Sayfa)
+
+DAĞITIM:
+
+Merkez ve Taşra Teşkilatına
+
+İnönü Bulvarı No: 14	06100 Yücetepe / ANKARA
+
+Telefon: (0312)415 70 00 Faks:(0312)415 78 47	152
+
+e-posta : info@kgm.gov.tr Elektronik Ağ: www.kgm.gov.tr.
+
+Yüklenici
+
+Geçici Kabul Tarihi Kesin Kabul Tarihi
+
+153
+
+Konusu:	Yapımı ve ikincil işleri biten tünellerin bakıma devri
+
+Tünel Kontrol Mühendisi	Tünel Bakım İşletme Şefi	Bakım Başmühendisi	Yapım Başmühendisi
+
+Tasdik Olunur
+
+Bölge Müdürü
+
+A-TESTLER
+
+Geçici Kabul Testleri:
+
+İşletmeye alma (Deneme) testleri yapıldıktan sonra İdarenin tayin edeceği Geçici Kabul Komisyonunun yapacağı testlerdir. Geçici kabul testinde sistemin bütün fonksiyonlarını içine alan genel bir test programı hazırlanarak hem sistem tanıtımı hem de testler yapılacaktır. Geçici Kabul Testleri, Geçici Kabul Heyetinin kararına göre, ya bütün sistemlerin tam işletme testlerini veya bazı donanım üzerinde seçilmiş teknik testleri içerecektir.
+
+B- PERSONEL EĞİTİMİ:
+
+İdarenin Tünel İşletmesi için görevlendireceği personelin enerji temini, aydınlatma sistemi, trafik denetimi ve kontrol ekipmanları, donanım ve yazılım işlemcileri, havalandırma sisteminin tasarımı, günlük işleyişi arıza ve rutin bakım, hata bulma işlemi konusunda tam ve kapsamlı bilgi sahibi olmasını ve bunlarla ilgili her türlü hususu değerlendirebilmesini teminen yapım süresi boyunca eğitim imkânları, saha eğitimi ve eğitim kursları sağlayacaktır.
+
+Personel eğitiminde montaj aşamaları ile tünellerin bitmiş halindeki bütün ekipmanları ve sistemi kapsayan görüntüleri videoya kaydedilip CD haline getirilecek ve eğitimde kullanılacaktır. Ayrıca verilen eğitim de CD ye kaydedilecektir. Daha sonra bu CD’ler Bakıma teslim edilecektir.
+
+Personelin makul ölçüler dahilinde tasarım bilgisi ve pafta dokümantasyonlarına erişebilmeleri sağlanacak ve buna ilaveten, sistemi bütün yönleriyle tanıyabilmeleri için söz konusu bilgi ve dokümantasyon detaylarıyla açıklanacaktır.
+
+Eğitime katılacak personel için :
+
+işyerinde montaj sonrası eğitim gerçekleştirilecektir.
+
+İşletme eğitimi gerçekleştirilecektir.
+
+Bakım eğitimi gerçekleştirilecektir.
+
+Acil durum eğitimi gerçekleştirilecektir.
+
+Eğitimin etkin olması için basılı eğitim belgelerinin yanında görme ve duymaya hitabeden eğitim unsurlan da kullanılmalı ve eğitim uygulamalı gösterimleri de kapsamalıdır.
+
+EĞİTİM PROGRAMI
+
+Yapım Dairesi Başkanlığı eğitim kurslarına ait takvimi ve ayrıntılı bir programı onay için Bakım Dairesine sunacaktır. ' ~
+
+C-DOKÜMANTASYON :
+
+Nihai Sistem Kullanım ve İşletim Kitapları Bakıma teslim edilmelidir. Bütün dokümantasyon Türkçe olacaktır.
+
+NİHAİ DOKÜMANTASYON - SİSTEM EL KİTAPLARI:
+
+Nihai dokümantasyon şu kısımlardan oluşacaktır:
+
+Yazılım programı el kitabı,
+
+Programlama el kitabı,
+
+Bütün harici donanım dahil donanım, bakım ve servis elkitapları,
+
+Tünel operatörü el kitabı,
+
+Nihai proje dokümantasyonu nihai sistem el kitaplarına dahil edilecektir.
+
+YAZILIM PROGRAMI EL KİTABI:
+
+Yazılım programı el kitabı projeye yönelik olacaktır.
+
+Standart programlama yardım bilgisi programlama el kitabında verilecektir. Dolayısıyla, yazılım programı el kitabı sistem programlarını ve sistem veri kayıtlarını içerecektir.
+
+Elkitabı, ayrıntılı yazılım programı yapısını, akış şemalarını, tanımlamalar ve başka kullanıcı programlarına geçişler olabileceğini de dikkate alarak açıklayacaktır.
+
+Bütün işletim yapısının, idari detaylar haricinde, özellikle sisteme yeni bir arabirim yerleştirmek veya yeni bir program tanımlamak isteyen uzman bir programcı tarafından açık bir şekilde anlaşılacak biçimde olmasına özen gösterilecektir.
+
+Detaylı açıklamada bellek oluşturulması ve komponentlerin iş zamanları verilerek yedek kapasite limitleri belirtilecektir.
+
+Bunu işletim sistemindeki her bir bileşen iş için, idari, kullanım ve kullanıcı programları dahil, detaylı açıklama izleyecektir. Her bir programda akış şemail bir genel açıklama ve gerektiği takdirde, açıklamalı fiili listeleme bulunacaktır.
+
+Bütün veri yapılarının formatı veri güncelleme sistemi ile uyumlu bir form içinde ve manuel, diyagram formatları ve veri kayıtlarının ikinci kısmı olarak verilecektir.
+
+Bu yazılım el kitabında temin edilen tüm yazılım için standart ve program uygulama kütüphanesinin de dahil olduğu kaynak listeleme ve çevre geliştirme bölümleri bulunacaktır.
+
+155
+
+Ancak kullanma hakkı satın alınacak olan özel yazılım paketleri kullanım kitabının haricinde tutulmalıdır.
+
+Yazılım geçiş dokümanı da sunulmalıdır. Bu dokümanda donanım ve yazılım arasındaki tüm konfigürasyonların özelliklerini kapsamalıdır.
+
+DONANIM, BAKIM VE SERVİS ELKİTABI:
+
+El kitabı bütün donanım sisteminin açıklamasını ve bunun ardından bakım prosedürlerini içerecektir.
+
+Donanım tanıtımı bütün sistemin ayrıntılı kurulumu ile başlayacak ve her bir ünitenin yerini gösteren planlar ile blok diyagramlar ve işletim açıklaması da bulunacaktır.
+
+Bileşen ünitelerinin detaylı tanıtımı bunların işletimini açıklayacaktır. Veri akış ve etkileşimim gösterir blok şemalan, mantık şemaları, bileşen (komponent) deöerlerini gösteren devre şemaları, ve donanım arasındaki bağlantıyı gösterir kablo şemaları tedarik edilecektir.
+
+Parça listeleri ve kablo bağlantıları şeması sağlanacak ve bunlarda anlaşılmayı güçleştirecek açık olmayan işletme tanımlarının yer almamasına dikkat edilecektir.
+
+Bakım prosedürleri, hata bulmayı, arıza tespit akış şemalarını, test etme ve ayar yapma işlemleri ile ünite değiştirmeyi, rutin mekanik servis ve test donanımı işletimini kapsayacaktır.
+
+Test programının kullanımı aşama aşama talimatlarla açıklanacak ama programların detaylı listesi ayrı olarak verilecektir.
+
+Bilgisayar sisteminin takılabilir ünitelerinin, değiştirme aşamalarının bilgileri verilecek ve gerekli olduğu takdirde bunların kurulma işlemi ve besleme gerilim kontrolü de belirtilecektir. Rutin mekanik servisler de kapsama dahil edilecektir.
+
+Bakım personelinin kullanımında kolaylık sağlanmak üzere aşağıdaki donanımlar üzerindeki kısımlar, aşağıda belirtildiği üzere ayrı ciltlerde verilecektir.
+
+31,5 kV enerji besleme donanımı,
+
+400/230V enerji besleme sistemi,
+
+Acil durum enerji besleme sistemi,
+
+Aydınlatma sistemi,
+
+Havalandırma sistemi (jet fan havalandırma),
+
+Trafik işaretleri ve ışıklı trafik sinyalleri,
+
+Endüktif taşıt döngü detektörleri,
+
+CO, toz parçacıkları, hava akış ve hız detektörü,
+
+CCTV donanımı,
+
+Yangın algılama sistemi,
+
+Yetkisiz giriş önleme sistemi (istenmeyen müdahale sistemi),
+
+Tünel Haberleşme Sistemi
+
+Alt Kontrol Merkezi ve iletim sistemi
+
+Tünel Kontrol Merkezi kumanda odasındaki veri ve iletişim ekipmanları.
+
+Tüm sistemlere ait klemens tablosu (birimlerle PLC leri bağlayan kabloların tablosu).
+
+Temin edilen diğer standart ekipmanlar.
+
+TÜNEL OPERATÖRÜ ELKİTABI :
+
+Bu el kitabı özellikle tüm Kontrol Merkezlerinde, tünel operatörlerinin kullanımına yönelik olarak hazırlanacaktır. Sistemin etkili işletimi için gerekli özel prosedür setleri ile anlaşılır şekilde sıralanmış gerekli talimatları içerecektir.
+
+Sistem yardımı ile değişik trafik kurulumlarının nasıl ele alınarak çalıştırılacağına dair bir kılavuz da el kitabına dahil edilecektir.
+
+Genel olarak TKM ve Alt Kontrol Merkezi el kitabı şunları içerecektir:
+
+Arıza durumu, yangın alarm ve diğer alarm şartları için adım adım talimatlar,
+
+CCTV dahil bütün konsol ekipmanlarının kullanımı ile ilgili adım adım talimatlar.
+
+El kitabı sürekli kullanım için uygun, dayanıklı yapıda olacaktır.
+
+DOKÜMANLARIN SUNUŞU :
+
+Bütün dokümanlar Türkçe olarak hazırlanacaktır.
+
+Bütün dokümanlarda yayın tarihi ve numarası bulunacaktır.
+
+Bütün dokümanlar Nihâi El Kitaplannın bütün konuları içeren ana fihristine uygun olarak hazırlanacak ve fihristlenecektir.
+
+Nihai dokümanlar ile ilgili bütün şemalar sayfa ebadına sığacak şekilde küçültülecek, ciltlenecek ve konularına göre sıralanmış uygun bir başvuru fihristine sahip olacaktır.
+
+Kullanım kolaylığı açısından metinlerin okunmasını engellemeyecek şekilde katlama yapılacaktır.
+
+Nihai dokümanlar kalın kapaklı dayanıklı klasörlere konacaktır. Bu dosyalar ileride yapılacak değişiklikleri işlemek amacıyla sayfa eklenebilir ve çıkarılabilir tipte olacaktır. Dosya Adı hem ön yüzde hem de yan yüzde yazılı olacaktır. Sayfaların üst bölümünde konu adı ve alt bölümünde sıra numarası olacaktır.
+
+D- NİHAİ (AS-BUİLT) PROJELER :
+
+Nihai (As-built) projeler, gerçekleştirilen ve fiilen tamamlanmış işlerin son durumunu gösteren uygulama projelerinin revize edilmiş ve idarece onaylanmış son hali olacaktır.
+
+Nihai çizimler ile bunlara ilişkin birer adet CD-ROM’unu Bakım Dairesi Başkanlığına verilecektir.
+
+Ayrıca "Nihai" paftalarla birlikte bu "Nihai" paftaların küçültülmüş mümkünse (A3) değilse (A2) ebadında kitapçığı da Bakım Dairesi Başkanlığına verilecektir.
+
+Nihai paftalar genel olarak şunları içerecektir:
+
+MEKANİK DONANIM İÇİN :
+
+İmalat projeleri,
+
+Talimat projeleri,
+
+Fonksiyon blok diyagramları vs.
+
+ELEKTRİK TESİSATI İÇİN :
+
+Montajı yapılmış tüm ekipmanın tipleri ve devre numaralarının bulunduğu yerleşim (montaj) çizimleri,
+
+Koruma sisteminin hata analiz ve koruma koordinasyon ayarlan, Güç tüketimi,
+
+Kesin numaralandırma,
+
+(Başkaları tarafından montajı yapılan ve yukarıdaki devrelerden birine bağlananlar dahil),
+
+Topraklama sistemleri.
+
+ŞALT TEÇHİZATI İÇİN :
+
+İmalat projeleri,
+
+İşletim diyagramları olarak devre çizimleri,
+
+Gerekli yerlerde ilave akım akış planları,
+
+Donanımın kesin açıklaması ile birlikte tesis edilen donanım listesi,
+
+Şalterlerin ayar toleransları vs.
+
+Donanım için :
+
+İmalat projeleri,
+
+Devre diyagramları,
+
+Fonksiyonel blok diyagramları,
+
+Keşif listesi vs.
+
+Ana ve ikincil kablaj için,
+
+Boyutları ile birlikte kablo güzergâh planları, bu planlar için kullanılacak kablo boyları ve kablo kesitlerine uygun olarak çekilecek güçler ve kablo tipleri.
+
+CD-ROM OLARAK DOKÜMAN TEMİNİ:
+
+Temin edilecek CD-ROM üzerindeki dokümanlar bilgisayar ortamında üretilen aşağıdaki dokümanlardır,
+
+-Nihai Dokümantasyon-Sistem el kitapları,
+
+-Yazılım el kitapları,
+
+-Donanım, bakım ve servis el kitapları,
+
+-Tünel operatör el kitapları,
+
+-As-Built paftalar,
+
+-Yazılım kaynak kodları, bellek,genişletme ortamları,
+
+Temin edilecek bu CD-ROM bilgi arama, dosya tarama ve görüntüleme için de başvurulabilecek bir programın yanısıra doküman ve proje dosyalarını da kapsayacaktır.
+
+CD-ROM 3 kopya olarak sunulacaktır.
+
+510
+
+EK 4. BOLU DAĞI TÜNELİ
+NORMAL VE ACİL
+DURUM
+
+HAVALANDIRMA
+SENARYOSU RAPORU
+
+512
+
+Şartname
+
+Olay Vukuunda ve Normal Havalandırma
+Bolu Tüneli
+
+Siparişi veren
+
+ASTALDİ S.p.A TÜRKİYE ŞUBESİ
+Armada İş Merkezi
+
+Eskişehir Yolu 6/A Blok, Kat. 9, No. 11
+06520 Söğütözü - Ankara
+FVT-11/10/FB V&U 10/12/6400 vom 25.02.2010
+
+ISO 9001
+
+Inffeldgasse 21A A-8010 Graz
+Tel.: +43/(0)316/873-7200 Fax: +43/(0)316/873-7202
+vu@fvt.at
+
+Doküman tarihçesi:
+
+İçindekiler
+
+BAŞLANGIÇ NOTU 	481
+
+RAPORUN AMACI 	481
+
+BOLU TÜNELİNİN KROKİSİ	481
+
+TEKNİK BİLGİ	 482
+
+GENEL TEKNİK ŞARTNAME 	483
+
+YANGIN KONTROL KESİMLERİ 	483
+
+3 NORMAL HAVALANDIRMA - TEK YÖNLÜ TRAFİK	485
+
+HAVA AKIMI SENSÖRÜ 	485
+
+NORMAL HAVALANDIRMADA İSTİKAMET SAPMALARI 	485
+
+JET FANLARIN ÖNCELİĞİ/AÇILMASI/KAPATILMASI 	 485
+
+İHTİYAÇ DUYULAN JET FAN ADEDİ	487
+
+JET FAN SEÇME FONKSİYONU (İŞLETİM SAATİ DENGESİ) 	487
+
+3.6. İŞLETİM MODU - PARAMETRELER	488
+
+OLAY VUKUUNDA HAVALANDIRMA - TEK YÖNLÜ TRAFİK 	490
+
+TEMEL GEREKSİNİMLER 	 490
+
+HAVA AKIMI SENSÖRÜ 	 491
+
+OLAY VUKUUNDA ÖNCELİK SIRASI VE İSTİKAMET SAPMALARI	 491
+
+İHTİYAÇ DUYULAN JET FAN ADEDİ	 492
+
+JET FAN SEÇİM FONKSİYONU	 492
+
+İŞLETİM MODU	 492
+
+ALARMIN TETİKLENMESİ	 493
+
+ETKİLENMEYEN TÜBÜN İŞLETİM MODU (POZİTİF BASINÇ MODU) 	 493
+
+4.9	TRAFİK KONTROL EKİPMANI 	 495
+
+TRAFİK KONTROL EKİPMANI -ETKİLENMEYEN TÜP	495
+
+TRAFİK KONTROL EKİPMANI -OLA Y TÜB Ü	495
+
+MEKANİK BARİYERLER	496
+
+ANAHTARLAMA MA TRİSİ - TEK YÖNL Ü TRAFİK	496
+
+REFERANSLAR (KAYNAKÇA) 	497
+
+EK - OLAY VUKUUNDAKİ HAVALANDIRMAYA DAİR ÖNCELİKLER 	 497
+
+SAĞ TAŞIMA YOLU	 498
+
+YANGIN KESİMİ S1.1DE OLAY	498
+
+YANGIN KESİMİ S1.2'DE OLAY 	 499
+
+YANGIN KESİMİ Sl.3'DE OLAY 	 500
+
+YANGIN KESİMİ Sl.4'DE OLAY 	 501
+
+YANGIN KESİMİ Sl.5'DE OLAY 	 502
+
+YANGIN KESİMİ Sl.6'DA OLAY 	 503
+
+YANGIN KESİMİ Sl.7'DE OLAY 	 504
+
+SAĞ TAŞIMA YOLU	 505
+
+YANGIN KESİMİ S2.l'DE OLAY 505
+
+YANGIN KESİMİ S2.1 'DE OLA Y.	506
+
+YANGIN KESİMİ S2.1 'DE OLA Y.	507
+
+YANGIN KESİMİ S2.1 'DE OLA Y.	508
+
+YANGIN KESİMİ S2.1 'DE OLA Y.	509
+
+YANGIN KESİMİ S2.1 'DE OLA Y.	510
+
+EK - YAPI ŞEMALARI 	511
+
+7.1	NORMAL İŞLETİME DAİR YAPI ŞEMASI 	 511
+
+VUKUAT İŞLETİMİNE DAİR YAPI ŞEMASI	 512
+
+BAKIM İŞLETİMİNE DAİR YAPI ŞEMASI	 513
+
+RAPORUN AMACI
+
+Bu raporun yazılmasındaki amaç, Bolu Tünelinin her iki tüpüne dair havalandırma sistemi ve diğer güvenlik hususiyetlerini gösteren şartnamenin PIARC'ye [1] göre tanımlanmasıdır. Bu doküman, ASTALDI S.p.a. tarafından verilen yazılı bilgilere, Bolu tünelinde yapılan tetkike ve 8 ile 9 Şubat 2010 tarihlerinde yapılan takip görüşmelerine dayalıdır.
+
+Yazılı bilgilerin muhteviyatı aşağıdaki gibidir:
+
+• ASTALDI S.p.a.'nın çizimleri [4].
+
+• Teknik şartname [3]
+
+• ASTALDI S.p.a. tarafından verilen ve projenin dayalı olduğu standart ve yönetmelikler • Anket (KGM, YÜKSEL PROJE ve ASTALDI Maddeleri).
+
+• 9 Şubat 2010 tarihinde Bolu Tünelinde yapılan FVT mbH sunumu
+
+BOLU TÜNELİNİN KROKİSİ
+
+Şu anda mevcut bulunan kurulu havalandırma ekipmanlarının pozisyonlarıyla birlikte Bolu tünelinin bir krokisi Şekil 1'de verilmiştir. Jet fanlar, hava akımı sensörleri, hava kalitesi ölçüm ekipmanlarının tam yerleri için, ASTALDI S.p.a.'nın “as-built” (“uygulanmış olan”) çizimlerine bakınız. Yangın kontrol kısımları için, bölüm 2.1'e bakınız.
+
+TEKNİK ÖZELLİKLER
+
+Bolu tüneli, İstanbul ve Ankara'yı birbirine bağlayan Anadolu Otoyolu'nun bir kesimidir. Tünel, her birisinde üçer şerit bulunan çift tüplü bir tüneldir. Toplam uzunluğu 3 km. civarındadır. Her iki tüpte de, boyuna bir havalandırma sistemi tesis edilmiştir.
+
+Sağ taşıma yolu (İstanbul'dan Ankara istikametine doğru - Rampa çıkışlı tüp)
+
+Toplam uzunluk 3014,765 m
+
+Boyuna meyil	%1,93
+
+Şerit adedi	3
+
+Trafik güzergahı	tek yön
+
+Toplam karşı geçiş sayısı	6
+
+Oradaki yaya geçit adedi	1
+
+“Asarsuyu” yükselti portalı	788,938 m
+
+Toplam eksenel jet fan adedi	42
+
+Oradaki tersinir eksenel jet fanlar	12
+
+Hız sensörleri	2
+
+Yangın kontrol kesimleri	7
+
+Sol taşıma yolu (Ankara'dan İstanbul istikametine doğru - Rampa inişli tüp)
+
+Toplam uzunluk 3125,09 m
+
+Boyuna meyil	%1,93
+
+Şerit adedi	3
+
+Trafik güzergahı	tek yön
+
+Toplam karşı geçiş sayısı	6
+
+Oradaki yaya geçit adedi	1
+
+“Elmalık” yükselti portalı	~846,052 m
+
+Toplam eksenel jet fan adedi	8
+
+Oradaki tersinir eksenel jet fanlar	8
+
+Hız sensörleri	2
+
+Yangın kontrol kesimleri	6
+
+2.	GENEL TEKNİK ŞARTNAME
+
+YANGIN KONTROL KESİMLERİ
+
+Bolu tünelindeki lineer (doğrusal) kablo kesimleri ASTALDI Spa tarafından şimdiden tanımlanmıştır (Şekil 1'e bakınız). Yangının yeri, yangın zonu tarafından tanımlanır. Bu kesimlerin amacı, yangının yerine bağlı havalandırma aktivasyon listelerinin (öncelik tablolarının) tanımlanmasıdır. Yangına yakın yerlerdeki (yani, bu durumda, ilgili yangın zonu içerisindeki) fanlar, KESİNLİKLE çalıştırılmamalıdır.
+
+Yangın kontrol kesimlerinin tam yeri, tablo 1'den ve şekil 2 ile 3'ten alınabilir.
+
+Tablo 1 : Yangın kontrol kesimlerinin bölümlendirilmesi - Bolu tüneli - sağ ve sol taşıma yolu
+
+S1. 1. Yangın kontrol kesimleri
+
+Jet fan
+
+™	A1 CO ve görüş mesafesi monitörü
+
+„ Jet fan - tersinir vH 1
+
+Hava akımı sensörlerinin numarası
+
+Şekil 2: Yangın kontrol kesimlerinin krokisi - Bolu tüneli - sağ taşıma yolu
+
+S2. 1. Yangın kontrol kesimleri
+
+Hava akımı sensörü
+
+Jet fan
+
+CO ve görüş mesafesi monitörü
+
+Jet fan - tersinir
+
+VI 1
+
+Şekil 3: Yangın kontrol kesimlerinin krokisi - Bolu tüneli - sol taşıma yolu
+
+NORMAL HAVALANDIRMA - TEK YÖNLÜ TRAFİK
+
+Ölçülen hava kalitesine bağlı olarak:
+
+Standart işletim moduna tünel içindeki tek yönlü trafik için normal havalandırma modu denir. Esas kontrol parametresi, tünel içindeki hava kalitesidir (CO ve/veya görüş mesafesi). Hava kalitesini eşik değerlerin altında tutmak için havalandırmanın yeterli miktarda hava akımı sağlaması gereklidir. Havalandırmanın kontrolü, önceden tespit edilen değerleri (adımları) gösteren bir tabloya göre ve otomatik olarak yapılır. Havalandırmanın elle kontrol edilmesi imkanı da, kontrol merkezinde kontrol yazılımı vasıtasıyla sağlanmalıdır.
+
+Havalandırmanın amacı, hava kalitesi değerlerini CO ve görüş mesafesi için garanti etmektir. Hedef
+
+değerleri tutturabilmek için jet fanlar açılır ve kapatılır.
+
+HAVA AKIMI SENSÖRÜ
+
+Hava akımı sensörleri, yangın anında havalandırmanın kontrolü için en önemli sensörlerdir. Normal işletimde bunlar, hava hızının önceden tanımlanmış eşik değeri aşmamasını garanti etmek zorundadır (azami hava hızı, örn. 10 m/s). Normal havalandırma işletiminde doğru hava akımı sensörünün seçimini kolaylaştırmak için bunlar, önceliklerle etiketlenecektir (Öncelik 1, ilk seçim demektir). Faal bir sensörün arıza yapması halinde, sonraki en öncelikli sensörün seçilmesi gereklidir. Örn, hava akımı sensörü A1, normal işletim için gerekli olan hızı vermelidir. Bu sensör eğer arıza yapacak olursa, bundan sonraki hava akımı sensörü A2 seçilmelidir.
+
+Tablo 2: Normal işletimde ilgili hava akımı sensörünün seçilmesi (önceliklerle belirtilmiş)
+
+NORMAL HAVALANDIRMADA İSTİKAMET SAPMALARI
+
+Hava akımının istikameti, sürüş istikametiyle aynı olacaktır.
+
+JET FANLARIN ÖNCELİĞİ/AÇILMASI/KAPATILMASI
+
+Normal havalandırmada (otomatik mod), her bir jet fanın bir öncelik numarası vardır (bölüm 3.5'e bakınız). Bir jet fanı çalıştırdıktan sonra, bu jet fan, kapatılmadan önce asgari çalışma süresi boyunca faal (çalışır) halde tutulmalıdır (örn., 5 dak.). İkinci bir sınırlama da, bir saatte çalıştırılacak olan azami fan adediyle konulmuştur (örn., 10 kez). Asgari çalışma süresi ve saatteki çalıştırma adedi, jet fan imalatçısı tarafından tanımlanmalıdır. Bu azami faal anahtarlar sayısına ulaşılır ulaşılmaz, bir aktivasyon kilidi (örn., 10 dakika) harekete geçirilmelidir (sadece otomatik mod ve elle işletimde). Yangın olması halinde, kilit dikkate alınmamalıdır.
+
+Tepe yükünü azaltmak için (“birbiri ardı sıra”), bir çok jet fanın anahtarlanması arasında ayarlanabilir bir asgari gecikme zamanı olmak zorundadır. Gecikme süresi, 5 sn. kadar olmalıdır. Bu parametre, kontrol merkezinden (şifreyle korunmuştur) ayarlanabilir olmalıdır. Gecikme süresinin nihai tespiti, test safhasında yapılmalıdır. Açıp / kapatma işlemi sırasındaki genel işletim moduna bir örnek, Şekil 4'te verilmiştir.
+
+Tersinir jet fanlar için ise, dönüş istikametinin değişmesi için bir gecikme süresinin (örn., 120 sn.) tanımlanması gereklidir.
+
+Fan çalıştırma/durdurma prosedürü aşağıdaki gibidir:
+
+İçerdeki hava kalitesi gerektiriyorsa, jet fanı çalıştır. Hangi fanların ilk önce seçileceği konusu, bölüm 3.5'te açıklanmıştır (jet fan seçme fonksiyonu). Fanları en az asgari çalıştırma süresi kadar çalıştırın.
+
+Tünelin içindeki hava kalitesini sürekli olarak kontrol edin.
+
+Tünelin içindeki 5 dakikalık ortalama hava kalitesini bölüm 3.6'da verilen işletim değerleriyle (parametreler) kıyaslayın.
+
+Eğer gerekiyorsa, sonra gelen fanları çalıştırın (birbiri ardı sıra).
+
+(3)'e geri dönün ve işletim değerlerini tutturmak için gerekli oldukça fanları açıp/kapatın.
+
+Uyarı: Birbirleriyle çelişebilecek olan iki husus vardır. Bir taraftan, her bir fan için asgari bir çalışma süresi gereklidir. Diğer taraftan ise, saat başına ve fan başına örneğin 10 kezden fazla “açma” işlemi yapılmasına izin yoktur (imalatçının özelliklerine bakınız). 10 kez açma işlemi yapılmasına dair olan sınırlama, bağlayıcı olan sınırlamadır.. Yapı tablosu için, bölüm 7'ye bakınız.
+
+Şekil 4: Bir çok jet fan arasındaki açma/kapama işlemi sırasındaki genel işletim modu. “k” parametresi, değişkeni gösterir (CO, görüş mesafesi veya havanın hızı)..
+
+İHTİYAÇ DUYULAN JET FAN ADEDİ
+
+Gerekli olan jet fan adedinin belirlenmesi, daha önceden saptanmış değerleri (adım adım) gösteren bir tablo vasıtasıyla yapılacaktır. Kontrolör, fiili değerlerle önceden belirlenmiş değerleri kıyaslamalıdır. Eğer fiili değer, belirlenmiş olan geçerli değerin altındaysa veya bunun üzerindeyse, o zaman kontrolör, jet fanları açıp kapatmalıdır. Anahtarlamaya dair gecikme süreleri ve jet fanın durumu (“çalıştırılabilir” veya “durdurulabilir”; bölüm 3.3'e bakınız) dikkate alınmalıdır.
+
+Bir kontrolör, tünelin içindeki hava kalitesini gözlemler (CO ve görüş mesafesi). Normal işletim modundayken jet fanlar, kademeli olarak [3]'e göre açılıp kapatılacaktır, Tablo 3'e bakınız.
+
+Başka bir kontrolör ise, tüneldeki havanın hızını izler. Jet fan aktivasyonu için, bölüm 3.5 ve Tablo 4'e bakınız.
+
+JET FAN SEÇME FONKSİYONU (İŞLETİM SAATİ DENGESİ)
+
+Normal havalandırma için seçim işlemi, her bir jet fanın işletim saatlerine bağlıdır. Her bir jet fanın bir tek işletim durumu etiketi vardır. Bu etiket sadece, işletim saatlerinden ve işletim kısıtlamalarından etkilenir (açma limiti, kapatma öncesindeki çalışma süresi, vb.). En düşük işletim saatleri ve “çalıştırılabilir” etiketi olan jet fanlar ilk önce seçilecektir. HER BİR JET FAN İÇİN OLAN İŞLETİM SAATLERİNE DAİR BİLGİLER, SCADA SİSTEMİNDE SAKLANMALIDIR.
+
+Bir havalandırma dizisine başlanmadan önce, tetikleme parametreleri olan havanın hızı ve tünel içi hava kalitesi kontrol edilmelidir. Eğer bir reaksiyon gerekiyorsa, yani, hedef değeri aşılmış olduğundan dolayı daha fazla fana ihtiyaç varsa veya eğer hava kalitesi hedef değerinden zaten daha düşük olduğundan dolayı daha az sayıda fana ihtiyaç varsa ve eğer fanlar çalışıyorsa, otomatik kontrol sistemi, gerekli hareketi yapmalıdır (açma veya kapatma). Eğer daha fazla jet fana ihtiyaç varsa, en düşük işletim saati sayısı olan ve “çalıştırılabilir” etiketi olan jet fanlar seçilecektir. Eğer jet fan kapatmaya ihtiyaç varsa, o zaman, en yüksek işletim saati sayısı olan ve “kapatılabilir” etiketi olan jet fanlar seçilecektir.
+
+Eğer tüneldeki hava akımının hızının azaltılması gerekiyorsa, o zaman, jet fanlar, verilen sırayla tersine kapatılmalıdır. Tüm fanlar kapatıldıktan sonra eğer hız hala çok yüksekse, tersinir jet fanlar bu kez de, Tablo 4'te gösterildiği gibi tersine istikamette çalıştırılmaya başlanabilir. Açma/kapatma işlemi yine işletim saatlerine ve fanların işletim durumuna bağlıdır. Seçme kriterleri, aynen yukarıda anlatıldığı gibidir. Ancak, her halükarda, hava kalitesi eşik değerleri dikkate alınmalıdır (bölüm 3.6 ve Tablo 5'e bakınız).
+
+Örn., havanın azami hızının aşılması nedeniyle fan sayılarında azaltmaya gidilmesi halinde, tünelin içindeki hava kalitesi, CO ve/veya görüş mesafesine dair izin verilen azami değerlerin üzerine çıkmamalıdır. İzin verilen azami hava hızının aşılması ve bir hava kalitesi eşik değerinin ihlal edilmesi halinde, bir tünel kapanışına gerek vardır. Yapı tablosu için bölüm 7'ye bakınız.
+
+Ölçüm değerlerindeki histerezis nedeniyle arızaları veya kontrolsüz anahtarlama aktivitelerini önlemek için jet fanlar, açıldıkları aynı değerlerde kapatılmayacaktır. Eşik değerleri için Tablo 5'e bakınız.
+
+Tablo 3: Jet fanların anahtarlama matrisi - trafik yönü - normal işletim
+
+Tablo 4: Jet fanların anahtarlama matrisi - trafik yönünün tersine frenleme için - normal işletim
+
+Uyarı: Tablo 3 ve 4'te, fanların adımlı bir prosedüre göre çalıştırılmaları gösterilmiştir. Bu prosedür,
+
+teklifte verilen teknik özelliklerin bir parçasıdır ve önceki tasarıma dayalıdır. Bu münferit adımların her birisinde, bir çok fan açılacaktır (ve kapanacaktır). Örn., tümünün gerekli olup olmadığına bakılmaksızın adım 1'de 12 adet fan çalıştırılacaktır. Bu kadar çok sayıda faal fanlarla, aç/kapa anahtarlarının sayısı da, enerji tüketimi de (ve bedelleri) ve bakım maliyetleri de oldukça yüksek olacaktır. FVT mbH, tetikleme parametresi olarak tünel-içi hava kalitesi/görüş mesafesini ve ulaşılacak hedef olarak da hava kalitesi/görüş mesafesi için hedef bir değer alan bir kontrolör kullanılmasını kuvvetle tavsiye etmektedir.
+
+İŞLETİM MODU - PARAMETRELER
+
+İşletim modunun parametreleri, teklife, PIARC yönetmeliklerine ve de Avusturya tasarım kılavuz kuralları RVS'ye dayalıdır [2]:
+
+İstenen hava kalitesine (CO ve K) uygunluk, belirlenmiş değerler tanımlamak suretiyle sağlanacaktır.
+
+Fan aktivasyonu, aşağıdaki değerlerde başlayacaktır:
+
+• CO 30 ppm (10 dakikalık ortalama olarak)
+
+• Görüş mesafesi 3*10-3 m-1 (10 dakikalık ortalama olarak)
+
+Belirlenmiş değere bir örnek için, Tablo 5 ve Tablo 6'ya bakınız.
+
+Tünel içerisindeki hava için 10 ms-1 ‘lik azami hız aşılmamalıdır.
+
+Tablo 5: Kontrolör adımlarının eşik değerleri (CO ve K) sol ve sağ taşıma yolu - normal işletim
+
+Tablo 6: Kontrolör adımlarının eşik değerleri (tersine işletim-FRENLEME) sol ve sağ taşıma yolu - normal işletim2
+
+Bakım işletimine dair belirlenen değerler ;
+
+Tünel içinde bakım işi yapılırken, aşağıdaki değerler olmalıdır.
+
+* 10 dakikalık ortalama olarak CO 20 ppm
+
+* 10 dakikalık ortalama olarak görüş mesafesi 3*10-3 m-1
+
+OLAY VUKUUNDA HAVALANDIRMA - TEK YÖNLÜ TRAFİK
+
+TEMEL GEREKSİNİMLER
+
+Bir olay (yangın) vukuunda havalandırma, iki amacı yerine getirmelidir. Birinci amaç, kurbanların dumandan kaçabilmesi için (kendi kendini kurtarma safhası) tünelin içindeki havanın hızını düşük seviyede tutmaktır. Bu birinci safha sırasında havalandırmanın kontrolü otomatik olacaktır. Daha sonraki bir safhada, geri yığılmayı azaltmak veya kurtarma personeli tarafından yapılması söylenen bazı belirli işlemlerin yapılabilmesi için (harici kurtarma safhası) havanın hızının arttırılması gerekebilir.
+
+Kendi kendini kurtarma safhası sırasında sistemin otomatik olarak çalışması gereklidir (dikkat: istendiği zaman elle müdahale imkanı da her zaman var olmalıdır).
+
+Jet fanlar, arka yığılmayı önleyecek veya en azından bunu asgariye indirecek bir hava hızıyla doğru istikamette çalışmalıdır (PIARC [5]). Havanın hızı asgari 1.5 m/s [2] olmalıdır. Tünelin içindeki tıkanıklık giderilemiyorsa PIARC, 1.2 m/s ile 2 m/s arasında bir hava hızı tavsiye etmektedir [5].
+
+Eğer mümkün oluyorsa, fanların aktivasyonuna, diğer tübe olan basınç farkı ilişkisini izleyerek çıkış portalının olduğu taraftan başlanacak ve yangın yerine doğru gidilecektir, bölüm 6'ya bakınız.
+
+Hava akımının istikameti, trafik akış yönüyle aynı olacaktır.
+
+Fan önceliği
+
+Fan önceliği	Fan önceliği fan yok
+
+Şekil 5: Tek yönlü trafikte havalandırma şeklinin krokisi
+
+Hızla ilgili hedef değerlere, yangın algılandıktan sonra 5 dakika içinde ulaşılacaktır.
+
+Tünelin havalandırma sisteminin randımanlı çalışabilmesi için, karşı geçişlerin tüm kapıları
+
+kapatılacaktır.
+
+HAVA AKIMI SENSÖRÜ
+
+Yangın sırasında doğru hava akımı sensörünün seçimini kolaylaştırmak için bunlar, öncelik sıralarıyla etiketlenecektir. Öncelik 1, birinci seçim demektir. Birinci seçim sensörü çalışmayacak olursa, bundan sonra gelen sıradaki sensör (sıradaki en yüksek numara) seçilecektir. Yangının olduğu yere bağlı olarak, hava akımı sensörlerinin öncelik sıraları Bölüm 6'da verilmiştir.
+
+OLAY VUKUUNDA ÖNCELİK SIRASI VE İSTİKAMET SAPMALARI
+
+Fanların kontrolü için, her bir jet fan için olan öncelik sıraları ve istikamet sapmaları bölüm 6'da verilmiştir. Bolu tünelindeki her iki tüp de, yangının yerini tespit etmek üzere yangın kontrol kesimlerine ayrılmıştır. Bir yangın tespit edildiğinde, zaten çalışmakta olan o fanların durumu, en düşük öncelik sırasına sahip fanlar dışında (=en yüksek numaralı) devam ettirilmelidir. En düşük öncelik sırasına sahip olan fanlar kapatılmalıdır.
+
+0 öncelik sırası olan jet fanlar, bir olay vukuunda çalıştırılmayacaktır.
+
+Sıfır öncelik sırasına sahip jet fanlar sadece mutlaka gerekli olduğu zaman (örn., istenen hava akımı hızını tutturmak için) öncelik sıralarına göre ve aktivasyon gecikme süresiyle çalıştırılacaktır. Açıp/kapatma işlemi sırasında, bir çok jet fan arasında ayarlanabilir bir gecikme süresi var olmak zorundadır (Şekil 6). Ayarlanabilir gecikme süresi, 30 saniye içinde olmalıdır. Gecikme süresinin nihai tespiti, kontrolörün test safhası sırasında yapılmalıdır.
+
+Örnek (aşağıdaki durum bir örnektir):
+
+• Yangın tespit edildiği zaman başlangıçta bir adet jet fan zaten çalışmaktadır.
+
+• Kontrolör, önceden belirlenmiş olan değere ulaşmak için ek bir jet fan daha tespit eder.
+
+Birinci jet fan (en yüksek öncelik sırasına sahip = en düşük öncelik sıra numarasına sahip), gecikme süresinden sonra (tünel operatörü tarafından ayarlanabilir-şifreyle korunmuştur) örneğin 0 saniye için açılmalıdır. İkinci ek jet fan (sonraki daha yüksek öncelik numarasına sahip), önceden belirlenmiş başka bir gecikme süresinden sonra (tünel operatörü tarafından ayarlanabilir-şifreyle korunmuştur) çalıştırılmalıdır.
+
+(yapı tablosu için bölüm 7'ye bakınız)
+
+Bir olay (yangın) vukuundaki işletim sırasında, asgari çalışma süresi veya aktivasyona dair kilitler
+
+dikkate alınmamalıdır (ihmal edilmelidir).
+
+A
+
+Şekil 6: Bir çok jet fan arasında açma/kapatma işlemi sırasındaki genel işletim modunun krokisi
+
+İHTİYAÇ DUYULAN JET FAN ADEDİ
+
+İhtiyaç duyulan jet fan sayısının tespit edilmesi, bir kontrolörün yardımıyla yapılacaktır (örn., PID- kontrolörü). Kontrolör, tünelin içindeki hava akımının hızını, önceden belirlenmiş olan hedef değere (ayarlanan değer) ve hız ölçümünün 5-saniyelik fiili hareketinin ortalama değerine göre düzeltir. Jet fanlar, her iki tüpte de, ayrı ayrı açılıp kapatılacaktır (gruplar halinde DEĞİL).
+
+JET FAN SEÇİM FONKSİYONU
+
+Yangın olması halinde jet fanların seçimi, öncelik sırası listesine göre yapılacaktır. Havalandırmanın başlamasından sonra, çalışmakta olan jet fanların sayısı, ihtiyaç duyulan jet fan sayısıyla mukayese edilecektir.
+
+Eğer daha az sayıda jet fana ihtiyaç varsa (örn., hava akımının hızını düşürmek veya yavaşlatmak
+
+için), çalışmakta olan jet fanlar, öncelik sıralarına göre kapatılmalıdır (daha düşük öncelik sırası, daha yüksek öncelik sırasından önce). Açma/kapatma işlemi sırasında bir çok öncelik sıraları arasında bölüm 4.3'te anlatıldığı gibi bir gecikme süresi var olmalıdır. Kapatma işleminden sonra jet fanlar, bölüm 6'ya göre (yavaşlatma öncelik sıraları) çalıştırılmaya başlatılabilir (en yüksek öncelik sırasıyla başlayarak).
+
+İŞLETİM MODU
+
+Kontrolör, önceden ayarlanan değere mümkün olduğu kadar çabuk ulaşmalıdır (örn., 5 dakika). CO ve K değerleri, jet fan kontrolü üzerinde hiçbir etkiye sahip değildir.
+
+• Ayarlanan değer (hava akımının hızı) : bölüm 4.1'e bakınız • Karbon monoksit (CO) ve görüş mesafesi (K) için ayarlanan değer : uygulaması yoktur
+
+ALARMIN TETİKLENMESİ
+
+Yangın alarmı, bir çok değişik şekilde tetiklenebilir. Bu değişik şekillerin tümünde de alarm, kontrol merkezine getirilmelidir (SCADA ekranı ve ses sinyali) ve bir yangın vukuatına dair prosedürün otomatik aktivasyonu öngörülmüştür.
+
+Aşağıdaki seçenekler yapılabilir:
+
+Başka herhangi bir bilgi nedeniyle operatör tarafından çalıştırılan alarm (video ekranı, tünelden ses bilgisi, vb.). Operatör, olayı doğrulamak ve ilgili yangın bölgesi için alarmı çalıştırmak zorundadır. Alarm teyit edilir edilmez, ilgili yangın bölgesine dair olay programı otomatik olarak çalışmak zorundadır.
+
+Yangın algılama kablosu tarafından tetiklenen alarm: yangın alarmı ve yangının tam yeri operatörün konsoluna gelmiş olmalıdır ve ilgili yangın bölgesine dair olay programı otomatik olarak çalışmak zorundadır.
+
+Olay yazılımı tarafından otomatik olarak ayarlanmış olan tüm hareketler, el yardımıyla ihmal edilebilir.
+
+Tablo 7: Alarmın tetiklenmesindeki öncelik sıraları
+
+ETKİLENMEYEN TÜBÜN İŞLETİM MODU (POZİTİF BASINÇ MODU)
+
+Karşı geçişlerden ve de ayrıca, etkilenmeyen tüpten dışarıya kullanıcıların güvenli bir şekilde
+
+kaçmalarını sağlamak için, kaçış güzergahları, dumansız bir vaziyette tutulmalıdır. Bu, ancak, açık
+
+kapılardan (karşı geçişlerden) duman girişini önlemek maksadıyla etkilenmeyen tüpü pozitif basınç
+
+altında tutmakla sağlanabilir. Pozitif basınç modundaki hava akımı istikameti, portalın içinden
+
+dumanın gitmesini önlemek için, trafik akış yönünün tersine olmalıdır (etkilenen tübün havalandırma
+
+istikametiyle aynı istikamet).
+
+Kontrolör (örn., PID), önceden ayarlanan değere mümkün olduğu kadar çabuk ulaşmalıdır (örn., 5
+
+dakika). CO ve K değerleri, jet fan kontrolü üzerinde hiçbir etkiye sahip değildir.
+
+Bu bölümde verilen işletim değerleri, sadece öneridir. Nihai değerler, işletim şirketiyle birlikte
+
+tanımlanmalıdır. Parametreler, kontrol yazılımında uygulanmalıdır ve ayarlanabilir olmalıdır (şifreyle
+
+korunmuştur).
+
+Çelişki olması halinde (örn., elektrik enerjisi tüketimi), olay tübündeki havalandırma, etkilenmeyen
+
+tüpteki “pozitif basınç modu”na tercih edilmelidir.
+
+•	Ayarlanan hava akımı hızı (kumanda değişkenli) ~. 0.5 -1,0 m/s
+
+• Ayarlanan hava akımı yönü	diğer tübünküyle aynı
+
+•	Ayarlanan hava kalitesi (CO ve görüş mesafesi)	uygulaması yoktur
+
+Dikkat: Sadece elle işletim diğer tüm hareketleri ihmal edebilir.
+
+Semboller:
+
+İstikamet E : hava akımının yönü Elmalık Portalına doğru İstikamet A : hava akımının yönü Asarsuyu Portalına doğru
+
+Tablo 8 : “pozitif basınç modu” için öncelik sıraları - her iki tüp
+
+TRAFİK KONTROL EKİPMANI
+
+TRAFİK KONTROL EKİPMANI -ETKİLENMEYEN TÜP
+
+Yangın alarmının çalıştırılması halinde (bölüm 4.7), etkilenmeyen tüpteki trafik işaretleri kontrol ekipmanı derhal aşağıdaki gibi anahtarlanır (Tablo 9'a bakınız)
+
+Kaynaşlı veya Abant'tan önce:
+
+Portalın yakınında:	“DUR İKAZI”5
+
+TRAFİK KONTROL EKİPMANI -OLAY TÜBÜ
+
+MEKANİK BARİYERLER
+
+Yangın çıkması halinde, portallardaki bariyerler kapanacaktır. Ancak, her tübün mekanik bariyerleri, kurtarma ekibine ait olmayan kişilerin tüneli kullanmasını önlemek üzere, elle çalıştırılmalıdır.
+
+ANAHTARLAMA MATRİSİ - TEK YÖNLÜ TRAFİK
+
+Tablo 9 : Trafik kontrol ekipmanına dair anahtarlama matrisi - her iki tüp
+
+Trafik kontrol ekipmanına dair bu anahtarlama matrisi sadece bir tavsiyedir. Nihai matris, işletim şirketine göre tanımlanmalıdır.
+
+REFERANSLAR (KAYNAKÇA)
+
+PIARC Technical Committee Report no. 5 - Road Tunnels - September 1987 (PIARC Teknik Komite Raporu no. 5 - Karayolu Tünelleri - Eylül 1987)
+
+RVS 09.02.31 - Tunnel Ventilation - August 2008
+
+(RVS 09.02.31 - Tünel Havalandırması - Ağustos 2008)
+
+Technical Specification - Anatolian Motorway Bolu Tunnel By-pass Alignment - 18/03/2005 (Teknik Şartname - Anadolu Otoyolu Bolu Tüneli Bay-Pas Güzergahı - 18/03/ 2005)
+
+Drawings, particularly “Ventilation location and cabling” (Çizimler, özellikle,
+
+“Havalandırma lokasyonu ve kablaj”) - AS BUILT (UYGULAMA) 30/06/2008 - Çzm.
+
+no.: 45.110/TN/TUG/D/EC/937 / “Ventilation control scheme” (“Havalandırma kontrol şeması”) - 01/03/2009 - Çzm. no.: 45.110iTN/TUG/D/EC/939	/ “Traffic control
+
+equipment” (“Trafik kontrol ekipmanı”) -	01/04/2009	- Çzm. no.:
+
+45.110/TN/TUG/D/EC/943
+
+PIARC Technical Committee C3.3 Tunnel Operations. Road Tunnels: Operational Strategies for Emergency Ventilation, 2008
+
+(PIARC Teknik Komite C3.3 Tünel İşletimleri. Karayolu Tünelleri: Acil Durum Havalandırmasına Dair İşletim Stratejileri, 2008)
+
+EK - OLAY VUKUUNDAKİ HAVALANDIRMAYA DAİR ÖNCELİKLER
+
+Her bir jet fan ve hava akımı sensörünün öncelik sıraları, aşağıdaki bölümde her bir tüp için ayrı ayrı
+
+görülebilir.
+
+SAĞ TAŞIMA YOLU
+
+YANGIN KESİMİ S1.1'DE OLAY
+
+Hava akımı sensörü
+
+CO ve görüş mesafesi monitörü Olay
+
+CO ve görüş mesafesi monitörü
+
+S1. 5. Yangın kontrol kesimi
+
+Jet fan
+
+Al
+
+CO ve görüş mesafesi monitörü
+
+Ukl Jet fan - tersinir
+
+S1. 6. Yangın kontrol kesimi
+
+Jet fan
+
+UklJet fan - tersinir	1 ■
+
+A1
+
+CO ve görüş mesafesi monitörü
+
+-2,9 km
+
+BOLU TÜNELİ
+
+Boyuna Meyil ~ %2
+
+EL~78$m	—
+
+S1. 7. Yangın kontrol kesimi
+
+Hava akımı sensörü Havalandırma istikameti
+
+Jet fan
+
+UklJet fan - tersinir	1 ■
+
+A1
+
+CO ve görüş mesafesi monitörü
+
+SOL TAŞIMA YOLU
+
+YANGIN KESİMİ S2.1'DE OLAY
+
+*
+
+<!
+
+E
+
+_ı
+
+UJ
+
+o
+
+D.
+
+S2. 2. Yangın kontrol kesimi
+
+Hava akımı sensörü Havalandırma istikameti
+
+Jet fan
+
+Al
+
+CO ve görüş mesafesi monitörü
+
+UL1 Jet fan - tersinir
+
+POZİTİF BASINÇ MODU (Bölüm 4.8)
+
+S2. 3. Yangın kontrol kesimi
+
+Hava akımı sensörü Havalandırma istikameti
+
+Jet fan
+
+Al
+
+CO ve görüş mesafesi monitörü
+
+UL1 Jet fan - tersinir
+
+POZİTİF BASINÇ MODU (Bölüm 4.8)
+
+ı 		Boyuna Meyil ~ %2
+
+S2. 4. Yangın kontrol kesimi
+
+Hava akımı sensörü	Havalandırma istikameti
+
+Jet fan
+
+Al
+
+CO ve görüş mesafesi monitörü
+
+UL1 Jet fan - tersinir
+
+POZİTİF BASINÇ MODU (Bölüm 4.8)
+
+At
+
+CO ve görüş mesafesi monitörü
+
+POZİTİF BASINÇ MODU (Bölüm 4.8)
+
+-3 km
+
+BOLU TÜNELİ
+
+S2. 6. Yangın kontrol kesimi
+
+Hava akımı sensörü Havalandırma istikameti
+
+Jet fan
+
+A1
+
+CO ve görüş mesafesi monitörü
+
+Vı q Jet fan - tersinir
+
+POZİTİF BASINÇ MODU (Bölüm 4.8)
+
+tünelin tekr^aç Uması
+
+7.3. BAKIM İŞLETİMİNE DAİR YAPI ŞEMASI
+
+TERİMLER KISALTMALAR SÖZLÜĞÜ
+
+KAYNAKLAR
+
+NORTON Peter, Peter Norton's Guide to Visual Basic 6, Macmillan Computer Publishing, 1998.
+
+JONATHAN S., VB Game Programming with DirectX , Harbour by Premier Press Inc., 2002.
+
+Steven Holzner The Coriolis Group, Visual Basic 6 Black Book, 1998.
+
+PERRY Greg, Macmillan Computer, Sams Teach Yourself Visual Basic 6 in 21 Days, 1998.
+
+D.Bailey & E. Wright, Endüstriye Dönük Uygulamalı: SCADA, , Çeviren: Oktay Sunay, Bileşim Yayıncılık, 2003.
+
+Jeff Weigant, Creating Human Machine Interfaces Using Visual Basic, 2000.
+
+http://goforit.unk.edu
+
+Vijeo Citect Eğitim Dökümanları ve Videoları www.vijeocitect.com
+
+www.kontrolkalemi.com
+
+www.elektrotekno.com
+
+MEGEP - SCADA PROGRAMLAMA - Ankara/2007
+
+www.yildirimelektronik.com
+
+Durmuş, M. S., Yıldırım U., Söylemez M. T. (2011). Application of functional safety on railways Part I: modelling & design. Proceedings of 2011 8th Asian Control Conference (ASCC), Kaohsiung, Taiwan.
+
+Yıldırım, U., Durmuş, M. S., Söylemez M. T. (2011). Application of functional safety on railways part II: software development. Proceedings of 2011 8th Asian Control Conference (ASCC), Kaohsiung, Taiwan.
+
+Eriş, O., Kurtulan, S. (2011). Application of functional safety on railways part III: development of a main controller. Proceedings of 2011 8th Asian Control Conference (ASCC), Kaohsiung, Taiwan.
+
+Durmuş, M. S., Yıldırım, U., Söylemez M. T. (2011). Demiryolu Sinyalizasyon
+
+Tasarımında Fonksiyonel Güvenlik ve Ayrık Olay Sistem Yaklaşımı. Elektrikli
+
+Ulaşım Sistemleri Sempozyumu ve Sergisi (EUSIS) Bursa-Eskişehir, Turkey.
+
+Eriş O., Mutlu İ. (2010). Design of signal control structures using formal methods for railway interlocking systems. 11th International Conference on Control Automation Robotics & Vision (ICARCV), Singapore.
+
+Saygın, S., Yakın, İ., Durmuş, M. S., Söylemez, M. T. (2009). Petri ağları ile
+
+demiryolu makas bölgelerinin anklaşman ve sinyalizasyonu tasarımı. Otomatik
+
+Kontrol Ulusal Toplantısı, TOK'09. İstanbul.
+
+Durmuş, M. S., Söylemez M. T. (2009). Railway Signalization and Interlocking Design via Automation Petri Nets. Proceedings of 7th Asian Control Conference, Hong Kong, China, 27-29 Ağustos.
+
+Yıldırım, U., Durmuş, M. S., Söylemez M. T. (2010). Fail-Safe Signalization and Interlocking Design for a Railway Yard: an Automation Petri Net Approach, Proceedings of 7th International Symposium on Intelligent and Manufacturing Systems (IMS2010), Sarajevo, Bosnia.
+
+Durmuş, M. S., Söylemez M. T. (2009). Automation Petri Net Based Railway Interlocking and Signalization Design. International Symposium on Innovations in Intelligent Systems and Applications, INISTA'09, Karadeniz Technical University, Trabzon, Turkey.
+
+Akın, K., Durmuş, M. S., Söylemez, M. T. (2010). Demiryolu sinyalizasyon sistemi bileşenlerinin otomasyon petri ağları ile modellenmesi ve PLC ile gerçekleşmesi. Otomatik Kontrol Ulusal Toplantısı, TOK'10, Gebze.
+
+Kurtulan, S. (2010). Endüstriyel Otomasyon Sistemleri dersi proje notları. İTÜ, Kontrol ve Otomasyon Müh.
+
+Kurtulan, S. (2010). PLC ile Endüstriyel Otomasyon, Birsen Yay., İstanbul.48
+
+[Ryland H. (2005). Operations - the value of training simulators [railway signaller training. IEE Seminar on Safety Assurance.
+
+[Mutlu, I., Ovatman, T., Soylemez, M. T., Sumer, L. G. (2011). A new test environment for PLC based interlocking systems. International Conference on Transportation, Mechanical, and Electrical Engineering (TMEE), 686-690. Changchun, China
+
+KunMing L., DaMing J. (2012). PLC used in the train control simülation system.
+
+IEEE International Conference on Computer Science and Automation Engineering (CSAE), Zhangjiajie, China.
+
+Hulea, M., Avram, C., Letia T., Muresan D., Radu S. (2008). Distributed Real-Time Railway Simülator. Proceedings of the High Performance Computing & Simülation Conference, ECMS. Nicosia, Cyprus.
+
+Pataricza A., Majzik I., Huszerl G., Vârnai G. (2003). UML-based design and formal analysis of a safety-critical railway control software module. Formal Methods for Railway Operation and Control Systems, Budapest.
+
+Abbaneo C., Flammini F., Lazzaro A., Marmo P., Mazzocca N., Sanseviero A. (2006). UML Based Reverse Engineering for the Railway Control Logics. Proceedings of the International Conference on Dependability of Computer Systems (DEPCOS- RELCOMEX'06), 3-10. Szklarska Poreba.
+
+Hon Y. M., Maik K. (2006). Simülation and Verification of UML-based Railway Interlocking Designs. Automatic Verification of Critical Systems, AVOCS'06.
+
+BordBar B., Giacomini L., Holding D. J. (2000). UML and Petri Nets for design and analysis of distributed systems. Proceedings of the IEEE International Conference on Control Applications. Anchorage, Alaska, USA.
+
+Baresi L., Pezze M. (2001). Improving UML with Petri Nets. Electronic Notes in Theoretical Computer Science, 1-13.
+
+Modbus Application Protocol Specification v1.1b. (2006). Modbus.org. Alındığı tarih:
+
+05.11.2012, adres: http://www.modbus.org/docs/ Modbus_Application_Protocol_V1_1b.pdf
+
+Durmuş, M. S., Yıldırım, U., Söylemez M. T. (2012). Automatic generation of Petri
+
+Net supervisors for interlocking design. Australian Control Conference, University of New South Wales, Sydney, Australia.
+
+Durmuş, M. S., Yıldırım, U., Söylemez M. T. (2012). Safety-Critical Interlocking Software Development Process for Fixed-Block Signalization Systems. 13th IFAC Symposium on Control in Transportation Systems (CTS), Sofia, Bulgaria
+
+Demiryolu Sinyalizasyon Sistemi Simülatörü ve SCADA Sistemi Fatih MECİTOĞLU Yüksek Lisans Tezi 2013
+
+http://www.softek.com.tr/
+
+http://www.yildiz.edu.tr/~inan/SCADA_Yazilimlari.htm
+
+http://www.firatdeveci.com/tarihi-haberlesme-metodu-modbus-rtu/
+
+http://www.simplymodbus.ca/RTUslave.htm
+
+Kontrol Sistemleri - SCADA Kasım 2012 TMMOB Elektrik Mühendisleri Odası Yayınları
+
+http://www.interfacebus.com/HDLC_Protocol_Description.html
+
+http://teslaakademi.com/plc-programlama
+
+Karabük Üniversitesi Teknoloji Fakültesi Mekatronik Mühendisliği Bölümü Endüstriyel İletişim Sistemleri Ders Notları 2014
+
+www.isbak.com.tr
+
+Tünellerin Havalandırma Sistemleri ve Bolu Tüneli Uygulaması, Turgay KARAKAŞ, Marmara Üniversitesi, 2011
+
+CFD Application of a Metro Tunnel, Ahmet Serhat TOPRAK, Marmara Üniversitesi, 2014
+
+Karayolu Tünellerinde Araç Emisyonları, Havalandırma ve Yangın Önleme Esasları, Fatih BİLGİN, Bahçeşehir Üniversitesi, 2014
+
+Tünel Sistemlerinde Araç Kaynaklı Hava Hızlarının Yapay Sinir Ağları Kullanılarak Modellenmesi, Gencer KOÇ, ODTÜ, 2012
+
+Bolu Dağı Tüneli Fayda-Maliyet Analizi, Gaye KOCABAŞ, İzmir Ekonomi Üniversitesi, 2008
+
+Bolu Dağı Tüneli Bakım, İşletme Kitabı, Karayolları Bolu Tünel Bakım İşletme Şefliği 2016
+
+Otoyol Tüneli Kullanarak Emisyon Faktörlerinin Belirlenmesi ve Modellenmesi, Nihan KARA, İzmir Dokuz Eylül Üniversitesi, 2013
+
+On the Maximum Smoke Tempereture Under The Ceiling in Tunnel Fires, Hu ve Arkadaşları, 2005
+
+İstanbul Metrosu Çalışması Bilgi Notları, İBB
+
+KGM Tünel Bakım, Onarım, İşletme Şartnameleri
+
+KGM Tünel İkincil İşleri Yapım Şartnameleri
+
+Tünel Yangınlarının ve Yangın Güvenliği İçin Kullanılan Havalandırma Sistemlerinin Özellikleri, Serkan KAYILI ve arkadaşları, ODTÜ, 2010
+
+Metro Tünellerinde ve İstasyonlarında Havalandırma Sistemleri ve Marmaray Örneği, Serdar TEZEL, Osmangazi Üniversitesi, 2010
+
+Metro İstasyonları ve Tünellerinde Yangın ve Tedbirlerinin Analizi, Ömer YAZICI, Gebze Yüksek Teknoloji Enstitüsü, 2013
+
+AB Karayolu Tünelleri ile Türkiye Karayolu Tünellerinin Tünel Güvenliği Açısından Karşılaştırılması, Murat Zafer SİNOPLU, Gazi Üniversitesi, 2007
+
+Tünel Yangını Sırasında Taşıt Blokajının Yangın Yüküne Etkisi, Serkan KAYILI, ODTÜ, 2009
+
+Tünel Yangınları Üzerine Deneysel ve Nümerik Çalışmalar, Alper ÇELİK, ODTÜ, 2011
+
+Tünellerde AB Standartları ve Kağıthane-Piyalepaşa Tüneli, Nihat TEKE, Bahçeşehir Üniversitesi, 2012
+
+Tünellerde Endüstriyel Otomasyonun İncelenmesi, Zeki ŞAHBAZ, KTÜ, 2009
+
+Tünellerde Yangın Algılaması İçin Kullanılan Teknolojiler, Erdal ÖZCAN
+
+Bolu Tüneli Bakım Takimatları
+
+KGM Ovit ve Kırık Tüneli Bilgi Notu
+
+75.Yıl Selatin Tüneli İşletme Notları
+
+NFPA 13: Standard for the Installation of Sprinkler Systems, 2010
+
+NFPA 16: Standard for the Installation of Sprinkler & Foam-Water Spray Systems, 2011
+
+NFPA 30: Flammable & Combustible Liquids Code, 2008
+
+NFPA 11: Standard for Low-Medium & High Expansion Foam, 2010
+
+PIARC 2012R23EN “Current Practice for Risk Evaluation for Road Tunnels”
+
+PIARC 2016R01EN “Best Practice for Life Cycle Analysis for Tunnel Equipment”
+
+PIARC 2012R12EN “Recommandations on Management of Maintenance & Technical Inspection of Road Tunnels”
+
+PIARC 2008R02EN “Risk Analyses for Road Tunnels”
+
+PIARC 2012R25EN “Best Practice for Road Tunnel Emergency Exercises”
+
+PIARC 2007R07EN “Integrated Approach to Road Tunnel Safety”
+
+PIARC 2012R14EN “Life Cycle Aspects of Electrical Road Tunnel Equipment”
+
+PIARC “Reduction of Operational Cost of Road Tunnels (Report&Recommandations)
+
+PIARC “Road Safety in Tunnels”, 1995
+
+PIARC 2012R05EN “Road Tunnels: Vehicle Emissions & Air Demand for
+
+Ventilation”
+
+PIARC 2008R04EN “Road Tunnels: A Guide to Optimising the Air Quality Impact upon the Environment”
+
+PIARC “Design Fires in Road Tunnels”
+
+ADR “Tehlikeli Maddelerin Karayolu ile Taşınmasına İlişkin Avrupa Anlaşması”
+
+QRAM Software & ANSYS-FLUENT Flowmotion & FDS 6.4.0, SMW 6.3.10
+
+www.piarc.org
+
+www.unece.org
+
+8-	ÖZEL HÜKÜMLER:
+
+İleride, bu protokolde yer almayan hususların oluşması halinde taraflarca EK PROTOKOL yapılacaktır.
+
+Tünel içinde protokole esas tespit edilen bedel, antenlerin konulacağı yerlere göre değil,
+
+kapsama yapılacak tünelin uzunluğunun tamamı tüp bazında dikkate alınarak hesaplanacak, taşınabilir
+
+konteyner veya kabinler için kullanılacak olan 6 m2 ye kadar alanın protokol bedeli de buna ilave edilecektir. Konteyner veya kabinlerin işgal ettikleri alan 6 m2 yi geçtiği takdirde, bedel tespit komisyonunun belirleyeceği ilave bedel talep edilecek ve ŞİRKET buna itiraz etmeyecektir.
+
+Tünel dışına konulacak antenler, tünel portalına en az 10 m. mesafede olacaktır. Bunun mümkün olmadığı durumlarda antenler KGM'nin de uygun göreceği yerlere konulacaktır.
+
+Tünel içerisine konulacak antenlerin tretuvar iç kısmından 5 m. yüksekte olacak şekilde montajı yapılacaktır. Bunun mümkün olmadığı durumlarda KGM'nin de uygun göreceği yerlere montajı yapılacaktır.
+
+Kablo hattı, kabin veya konteynerden tünel girişine kadar yeraltından gelecek, tünele hizmet kanalından girecek, GSM baz hattına ait olduğu belli olacak şekilde bir kılıf içinde antenin olduğu noktaya kadar gelecek, (Hizmet kanalının müsait olmadığı tünellerde KGM'nin göstereceği yerden geçirilecek) bu noktada düşey olarak yine koruyucu bir kılıf içinde tünel yan duvarına monte edilerek antene ulaşacaktır. (Özel durumlarda ve hizmet kanalı olmayan tünellerde KGM'nin uygun görüşü alınarak çalışma yapılacaktır.)
+
+Tünel içine konulacak antenler, taşıt yolundaki yatay ve düşey gabariyi etkilemeyecek şekilde monte edilecektir.
+
+Konteyner veya kabinler gerektiğinde taşınabilir olacak ve tünel cidarından en az 5 m. uzağa konulacak, portal estetiğini etkilemeyecek şekilde gizlenecektir. 5 m.lik mesafenin bulunmadığı noktalarda, KGM yetkilileri ile alternatif çözümler aranacaktır.
+
+Çift tüplü tünellerde iki tünel arasına (4R8e9füje) konteyner veya kabin konulmayacaktır.
+
+
+
+| Maliyet Kalemleri (%100) | Maliyet Kalemleri (%100) | Maliyet Kalemleri (%100) |
+
+| --- | --- | --- |
+
+| Kategori | Sürme Yöntemi | Aç Kapa |
+
+| Kazı | 50,00% | 15,00% |
+
+| Tünel Kaplama ve Beton İşleri | 25,00% | 60,00% |
+
+| Tünel İçi İnce İşler ve Yol İnşası | 12,50% | 12,50% |
+
+| Havalandırma | 6,50% | 6,50% |
+
+| Güvenlik Ekipmanı | 2,00% | 2,00% |
+
+| Aydınlatma | 3,00% | 3,00% |
+
+| Trafik Ekipmanı | 1,00% | 1,00% |
+
+
+
+| 1 | E | Yönetmeliğin Yürürlüğe Girmesi | 30.04.2014 |
+
+| --- | --- | --- | --- |
+
+| 2 | E+ 2 yıl | Üye ülkeler tarafından güvenlik gereksinimlerinin bildirimi ve aktarımı | 30.04.2016 |
+
+| 3 | E+ 3 yıl | Mevcut Tünellerin Değerlendirilmesi | 30.04.2007 |
+
+| 4 | E+ 5 yıl | Üye ülkelerin kullandığı risk analizi methodlarıyla ilgili AB'nin rapor düzenlemesi | 30.04.2009 |
+
+| 5 | E+ 6 yıl | Teknik gerekliliklerle ilgili ilk kısmın tamamlanması | 30.04.2010 |
+
+| 6 | E+ 10 yıl | Mevcut Tünellere Direktifin Uygulanmasının Bitiş Tarihi | 30.04.2014 |
+
+| 7 | E+ 15 yıl | Mevcut Tünellere Direktifin Uygulanması ile ilgili uzatılmış süre sonu | 30.04.2019 |
+
+
+
+|  |  | Bölüm 3.3.4 te belirtikli maddeler | Trafik <2000 araç/şerit | Trafik <2000 araç/şerit | Trafik > 2000 araç/şerit | Trafik > 2000 araç/şerit | Trafik > 2000 araç/şerit | AÇIKLAMALAR |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+|  |  | Bölüm 3.3.4 te belirtikli maddeler | 500ın- lOOOm | >1000m | 500 m- lOOOm | İO(n)ın- 3O0Om | >3000m | AÇIKLAMALAR |
+
+| Yapısal Önlemler | Tüp Sayısı > 2 | 1 |  |  |  |  |  | 15 yıllık trafik tahmini 10000 araç/şerit’ ı aşıldığını öngörürse zorunludur. |
+
+| Yapısal Önlemler | Eğim < % 5 | 2 | * | ❖ | * | * | * | Coğrafi koşullar uygunsa zorunludur. |
+
+| Yapısal Önlemler | Yaya Yollan | 3.1 3.2 | * | ❖ | * | * | * | Acil şeritler yoksa, 2.3T maddesinde açıklanan koşul sağlanmadıkça zorunludur. |
+
+| Yapısal Önlemler | Eıı fazla her 500 m’ de Acil Çıkışlar | 3.3- 3.9 | o | o | * | * | * | Mevcut tünellerde yapılması her bir duruma göre değ erlendınlecektir. |
+
+| Yapısal Önlemler | Eıı fazla her 1500 ııı’ de acil servisler için Enine Geçişler | 4.1 | o | o / • | o | o / • | • | Tünel 1500 m’ den uzun ve ikiz tüplü ise zorunludur. |
+
+| Yapısal Önlemler | Her bir portal çıkışında Orta Refuj Geçişi | 4.2 | • | e | • | e | • | Coğrafi imkanın olduğu ikiz veya çok tüplü tünel çıkışlarında zorunludur. |
+
+| Yapısal Önlemler | En fazla her 1000 in" de Cepler | 5 | o | o | o | o / • | o / • | 1500 m’ den uzun .acil şeritleri olmayan, yeni iki yönlü tüneller için zorunludur. 1500 m' den uzun mevcut tünellerde analize bağlıdır. Yeni ve mevcut tünellerde kullanılabilir extra tünel genişliğine bağlıdır. |
+
+| Yapısal Önlemler | Yanıcı ve Toksık Madde Drenajı | 6 | * | * | * | * | * | Tehlikeli madde taşınmasına izin verilen tünellerde zorunludur. |
+
+| Yapısal Önlemler | Yapının Yangına Dayanıklılığı | 7 | • | e | • | • | • | Lokal bir çökmenin afetle sonuçlanabileceği yerlerde zorunludur. |
+
+
+
+| Aydınlatma | Normal Aydınlatma | 8.1 | • | • | • | • | • |  |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| Aydınlatma | Güvenlik Aydınlatması | 8.2 | • | • | • | • | • |  |
+
+| Aydınlatma | Tahliye Aydınlatması | 8.3 | • | • | • | • | • |  |
+
+| Havalandırma | Mekanik Havalandırma | 9 | O | 0 | o | • | • |  |
+
+| Havalandırma | (Yan-) Eıııııe Havalandırma | 9.5 | 0 | 0 | 0 | 0 | • | İki yöıılü ve kontrol meıkezı olan tünellerde zorunludur. |
+
+| Ar il Durum İstasyonları | En fazla her 150 m’ de | 10 | * | * | * | * | * | İçerisinde telefon ve ıkı söndürücü bulunur. Yeni tünellerde en fazla 150 m de bir. mevcut tünellerde en fazla 250 nı araklılarla bulunur. |
+
+| Su Temini | En fazla her 250 m' de | 11 | • | • | • | • | • | Yoksa, başka bir şekilde yeterli su kaynağı sağlanması zorunludur. |
+
+| İşaretlemeler |  | 12 | • | • | • | • | • | Acil haberleşme telefonu, yangın tüpü, cep, acil çıkışlar gibi kullanıcılara sunulan tüm tesisler de dalul olmak üzere gerekli yatay ve düşey işaretlemeler Yapılacaktır |
+
+| Kontrol Merkezi |  | 13 | 0 | 0 | 0 | 0 | • | Birkaç tünelin izlenmesi tek bir kontrol ünitesinde meıkezıleştinlebıhr. |
+
+| İzleme Sistemi | Görüntü | 14 | o | 0 | 0 | 0 | • | Kontrol merkezi varsa zorunludur. |
+
+| İzleme Sistemi | Otomatik Olay Algılama ve/veya Yananı Algılama | 14 | • | • | • | • | • | Bu iki sistemden eıı az biri kontrol merkezi olan tünellerde zorunludur. |
+
+
+
+| Tünel Kapatma Ekipmanı | Girişlerden önce trafik smy ailen | 15.1 | O | • | 0 | • | • |  |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| Tünel Kapatma Ekipmanı | Tünel içerisinde eıı fazla her 1000 m de trafik sinyalleri | 15.2 | O | o | o | o | 0 | Kontrol merkezi varsa ve nznııluk 3000 tır yi aşıyorsa önerilir. |
+
+| Haberleşme Sistemleri | Acil servisler için Tekrarlı Radyo Yayını | 16.1 | O | o | o | • | • |  |
+
+| Haberleşme Sistemleri | Tünel kullanıcıları için Acil Radyo Mesajları | 16.2 | * | • | * | • | • | Tünel kullanıcıları için tekrarlı radyo yayım ve kontrol merkezinin olduğu yerlerde zorunludur. |
+
+| Haberleşme Sistemleri | Sığınaklar ve çıkışlarda Anons Sistemi (Hoparlörler) | 16.3 | • | • | • | • | • | Tahliye durumundaki tünel kullanıcılarının dışarıya çıkmadan önce beklemeleri gereken yerlerde örneğin sığınaklarda zorunludur. Ayrıca tünel boyunca girişim oluşturmayacak ve işitilebilir bir ses seviyesi sağlayacak şekilde gerekli aralıklarla tesis edilmelidir. |
+
+| Acil Güç Kaynağı |  | 17 | • | • | • | • | • | Eu azından tünel kullanıcılarının tahliyesi süresince, kaçınılmaz olan güvenlik ekipmanlarını işlevsel tutacaktır. |
+
+| Yangına Dayanıklı Malzeme |  | 18 | • | • | • | • | • | Gerekli güvenlik fonksiyonlarım sürdürmeyi amaçlayacaktır |
+
+
+
+| DEVLET VE İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI (Ağustos 2016) | DEVLET VE İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI (Ağustos 2016) | DEVLET VE İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI (Ağustos 2016) | DEVLET VE İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI (Ağustos 2016) | DEVLET VE İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI (Ağustos 2016) | DEVLET VE İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI (Ağustos 2016) | DEVLET VE İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI (Ağustos 2016) | DEVLET VE İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI (Ağustos 2016) | DEVLET VE İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI (Ağustos 2016) | DEVLET VE İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI (Ağustos 2016) | DEVLET VE İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI (Ağustos 2016) | DEVLET VE İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI (Ağustos 2016) | DEVLET VE İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI (Ağustos 2016) |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| BÖLGE NO | TÜNEL ADEDİ | TÜNEL ADEDİ | TOPLAM TÜNEL ADEDİ | 0-500 m ARŞINDAKİ TÜNELLER (ADET) | 500-1000 m ARŞINDAKİ TÜNELLER (ADET) | 1000-2000 m ARŞINDAKİ TÜNELLER (ADET) | 2000-3000 m ARŞINDAKİ TÜNELLER (ADET) | 3000 m DEN UZUN TÜNELLER (ADET) | TEK TÜP UZUNLUK (METRE) | ÇİFT TÜP UZUNLUK (METRE) | ÇİFT TÜP UZUNLUK (METRE) | TOPLAM UZUNLUK (METRE) |
+
+| BÖLGE NO | TEK TÜP | ÇİFT TÜP | TOPLAM TÜNEL ADEDİ | 0-500 m ARŞINDAKİ TÜNELLER (ADET) | 500-1000 m ARŞINDAKİ TÜNELLER (ADET) | 1000-2000 m ARŞINDAKİ TÜNELLER (ADET) | 2000-3000 m ARŞINDAKİ TÜNELLER (ADET) | 3000 m DEN UZUN TÜNELLER (ADET) | TEK TÜP UZUNLUK (METRE) | SOL TÜP UZUNLUK | SAĞ TÜP UZUNLUK | TOPLAM UZUNLUK (METRE) |
+
+| 2 |  | 3 | 3 | 2 |  | 1 |  |  |  | 2.202,00 | 2.225,00 | 4.427,00 |
+
+| 3 | 1 |  | 1 | 1 |  |  |  |  | 457,00 |  |  | 457,00 |
+
+| 5 | 1 | 6 | 7 | 1 | 4 | 1 | 1 |  | 225,00 | 7.147,09 | 7.466,02 | 14.838,11 |
+
+| 7 | 28 | 16 | 44 | 27 | 9 | 6 | 1 | 1 | 13.364,85 | 14.072,90 | 14.115,06 | 41.552,81 |
+
+| 8 | 3 | 2 | 5 | 3 | 1 | 1 |  |  | 1.028,00 | 2.222,00 | 2.230,00 | 5.480,00 |
+
+| 9 | 1 |  | 1 | 1 |  |  |  |  | 66,00 |  |  | 66,00 |
+
+| 10 | 97 | 17 | 114 | 66 | 29 | 18 | 1 |  | 51.784,10 | 14.573,00 | 13.810,00 | 80.167,10 |
+
+| 11 | 4 | 4 | 8 | 6 |  | 1 | 1 |  | 2.614,90 | 2.518,00 | 2.549,00 | 7.681,90 |
+
+| 12 | 4 |  | 4 | 2 | 1 | 1 |  |  | 2.267,50 |  |  | 2.267,50 |
+
+| 13 | 8 | 3 | 11 | 6 | 3 | 2 |  |  | 3.196,04 | 2.400,00 | 2.294,00 | 7.890,04 |
+
+| 14 | 1 | 2 | 3 |  | 2 |  | 1 |  | 607,00 | 3.305,00 | 3.219,00 | 7.131,00 |
+
+| 15 | 33 | 2 | 35 | 29 | 5 | 1 |  |  | 9.789,00 | 1.203,00 | 1.403,00 | 12.395,00 |
+
+| 16 | 5 |  | 5 | 5 |  |  |  |  | 1.362,00 |  |  | 1.362,00 |
+
+| TOPLAM | 186 | 55 | 241 | 149 | 54 | 32 | 5 | 1 | 86.761,39 | 49.642,99 | 49.311,08 | 185.715,46 |
+
+
+
+| DEVLET YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | DEVLET YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | DEVLET YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | DEVLET YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | DEVLET YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | DEVLET YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | DEVLET YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | DEVLET YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | DEVLET YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | DEVLET YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | DEVLET YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | DEVLET YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | DEVLET YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| BÖLGE NO | TÜNEL ADEDİ | TÜNEL ADEDİ | TOPLAM TÜNEL ADEDİ | 0-500 m ARŞINDAKİ TÜNELLER (ADET) | 500-1000 m ARŞINDAKİ TÜNELLER (ADET) | 1000-2000 m ARŞINDAKİ TÜNELLER (ADET) | 2000-3000 m ARŞINDAKİ TÜNELLER (ADET) | 3000 m DEN UZUN TÜNELLER (ADET) | TEK TÜP UZUNLUK (METRE) | ÇİFT TÜP UZUNLUK (METRE) | ÇİFT TÜP UZUNLUK (METRE) | TOPLAM UZUNLUK (METRE) |
+
+| BÖLGE NO | TEK TÜP | ÇİFT TÜP | TOPLAM TÜNEL ADEDİ | 0-500 m ARŞINDAKİ TÜNELLER (ADET) | 500-1000 m ARŞINDAKİ TÜNELLER (ADET) | 1000-2000 m ARŞINDAKİ TÜNELLER (ADET) | 2000-3000 m ARŞINDAKİ TÜNELLER (ADET) | 3000 m DEN UZUN TÜNELLER (ADET) | TEK TÜP UZUNLUK (METRE) | SOL TÜP UZUNLUK | SAĞ TÜP UZUNLUK | TOPLAM UZUNLUK (METRE) |
+
+| 2 |  | 2 | 2 | 2 |  |  |  |  |  | 528,00 | 551,00 | 1.079,00 |
+
+| 3 |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 5 |  | 6 | 6 |  | 4 | 1 | 1 |  |  | 7.147,09 | 7.466,02 | 14.613,11 |
+
+| 7 | 6 | 16 | 22 | 12 | 4 | 4 | 1 | 1 | 3.955,60 | 14.072,90 | 14.115,06 | 32.143,56 |
+
+| 8 | 3 | 2 | 5 | 3 | 1 | 1 |  |  | 1.028,00 | 2.222,00 | 2.230,00 | 5.480,00 |
+
+| 9 | 1 |  | 1 | 1 |  |  |  |  | 66,00 |  |  | 66,00 |
+
+| 10 | 89 | 17 | 106 | 60 | 27 | 18 | 1 |  | 49.072,10 | 14.573,00 | 13.810,00 | 77.455,10 |
+
+| 11 | 4 | 4 | 8 | 6 |  | 1 | 1 |  | 2.614,90 | 2.518,00 | 2.549,00 | 7.681,90 |
+
+| 12 | 4 |  | 4 | 2 | 1 | 1 |  |  | 2.267,50 |  |  | 2.267,50 |
+
+| 13 | 8 | 3 | 11 | 6 | 3 | 2 |  |  | 3.196,04 | 2.400,00 | 2.294,00 | 7.890,04 |
+
+| 14 | 1 | 2 | 3 |  | 2 |  | 1 |  | 607,00 | 3.305,00 | 3.219,00 | 7.131,00 |
+
+| 15 | 33 | 2 | 35 | 29 | 5 | 1 |  |  | 9.789,00 | 1.203,00 | 1.403,00 | 12.395,00 |
+
+| 16 | 5 |  | 5 | 5 |  |  |  |  | 1.362,00 |  |  | 1.362,00 |
+
+| TOPLAM | 154 | 54 | 208 | 126 | 47 | 29 | 5 | 1 | 73.958,14 | 47.968,99 | 47.637,08 | 169.564,21 |
+
+
+
+| İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI | İL YOLLARI ÜZERİNDE TRAFİĞE AÇIK TÜNELLERİN BÖLGELERE GÖRE DAĞILIMI |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| BÖLGE NO | TÜNEL ADEDİ | TÜNEL ADEDİ | TOPLAM TÜNEL ADEDİ | 0-500 m ARŞINDAKİ TÜNELLER (ADET) | 500-1000 m ARŞINDAKİ TÜNELLER (ADET) | 1000-2000 m ARŞINDAKİ TÜNELLER (ADET) | 2000-3000 m ARŞINDAKİ TÜNELLER (ADET) | 3000 m DEN UZUN TÜNELLER (ADET) | TEK TÜP UZUNLUK (METRE) | ÇİFT TÜP UZUNLUK (METRE) | ÇİFT TÜP UZUNLUK (METRE) | TOPLAM UZUNLUK (METRE) |
+
+| BÖLGE NO | TEK TÜP | ÇİFT TÜP | TOPLAM TÜNEL ADEDİ | 0-500 m ARŞINDAKİ TÜNELLER (ADET) | 500-1000 m ARŞINDAKİ TÜNELLER (ADET) | 1000-2000 m ARŞINDAKİ TÜNELLER (ADET) | 2000-3000 m ARŞINDAKİ TÜNELLER (ADET) | 3000 m DEN UZUN TÜNELLER (ADET) | TEK TÜP UZUNLUK (METRE) | SOL TÜP UZUNLUK | SAĞ TÜP UZUNLUK | TOPLAM UZUNLUK (METRE) |
+
+| 2 |  | 1 | 1 |  |  | 1 |  |  |  | 1.674,00 | 1.674,00 | 3.348,00 |
+
+| 3 | 1 |  | 1 | 1 |  |  |  |  | 457,00 |  |  | 457,00 |
+
+| 5 | 1 |  | 1 | 1 |  |  |  |  | 225,00 |  |  | 225,00 |
+
+| 7 | 22 |  | 22 | 15 | 5 | 2 |  |  | 9.409,25 |  |  | 9.409,25 |
+
+| 8 |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 9 |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 10 | 8 |  | 8 | 6 | 2 |  |  |  | 2.712,00 |  |  | 2.712,00 |
+
+| 11 |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 12 |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 13 |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 14 |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 15 |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 16 |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| TOPLAM | 32 | 1 | 33 | 23 | 7 | 3 |  |  | 12.803,25 | 1.674,00 | 1.674,00 | 16.151,25 |
+
+
+
+|  | TÜNEL ADEDİ | TÜNEL ADEDİ | TOPLAM TÜNEL ADEDİ | 0-500 m ARŞINDAKİ TÜNELLER (ADET) | 500-1000 m ARŞINDAKİ TÜNELLER (ADET) | 1000-2000 m ARŞINDAKİ TÜNELLER (ADET) | 2000-3000 m ARŞINDAKİ TÜNELLER (ADET) | 3000 m DEN UZUN TÜNELLER (ADET) | TEK TÜP UZUNLUK (METRE) | ÇİFT TÜP TÜP UZUNLUK (METRE) | ÇİFT TÜP TÜP UZUNLUK (METRE) | TOPLAM UZUNLUK (METRE) |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+|  | TEK TÜP | ÇİFT TÜP | TOPLAM TÜNEL ADEDİ | 0-500 m ARŞINDAKİ TÜNELLER (ADET) | 500-1000 m ARŞINDAKİ TÜNELLER (ADET) | 1000-2000 m ARŞINDAKİ TÜNELLER (ADET) | 2000-3000 m ARŞINDAKİ TÜNELLER (ADET) | 3000 m DEN UZUN TÜNELLER (ADET) | TEK TÜP UZUNLUK (METRE) | SOL TÜP UZUNLUK | SAĞ TÜP UZUNLUK | TOPLAM UZUNLUK (METRE) |
+
+| DEVLET YOLU | 154 | 54 | 208 | 126 | 47 | 29 | 5 | 1 | 73.958,14 | 47.968,99 | 47.637,08 | 169.564,21 |
+
+| İL YOLU | 32 | 1 | 33 | 23 | 7 | 3 |  |  | 12.803,25 | 1.674,00 | 1.674,00 | 16.151,25 |
+
+| TOPLAM | 186 | 55 | 241 | 149 | 54 | 32 | 5 | 1 | 86.761,39 | 49.642,99 | 49.311,08 | 185.715,46 |
+
+
+
+| SIRA NO | BÖLGE NO | TÜNEL BAKIM İŞLETME ŞEFLİĞİ | BAKIM-İŞLETME AĞINDAKİ TÜNEL ADEDİ (Tek Yönde) | BAKIM-İŞLETME AĞINDAKİ TÜNEL UZUNLUĞU (Metre) |
+
+| --- | --- | --- | --- | --- |
+
+| 1 | 2 | SABUNCUBEL TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 1 | 3.348,00 |
+
+| 2 | 5 | SİLİFKE TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 3 | 5.815,30 |
+
+| 3 | 5 | GÖKSUN TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 4 | 9.022,81 |
+
+| 4 | 7 | ORDU TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 28 | 23.999,38 |
+
+| 5 | 7 | SAMSUN TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 16 | 17.553,43 |
+
+| 6 | 8 | MALATYA TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 4 | 4.994,00 |
+
+| 7 | 10 | TRABZON TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 33 | 35.028,80 |
+
+| 8 | 10 | ARTVİN TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 12 | 4.894,00 |
+
+| 9 | 11 | BİTLİS TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 4 | 7.005,00 |
+
+| 10 | 12 | KIRIK TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 3 | 2.220,00 |
+
+| 11 | 13 | ANTALYA TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 11 | 7.890,04 |
+
+| 12 | 14 | BİLECİK TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 2 | 6.524,00 |
+
+| 13 | 15 | ZONGULDAK TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 35 | 12.395,00 |
+
+| TOPLAM: | TOPLAM: | TOPLAM: | 156 | 140.689,76 |
+
+
+
+| SIRA NO | BÖLGE NO | TÜNELİN ADI | YOLUN ADI | K.K.NO | BAŞL. KM. | TÜP AD. | UZUNLUK (m) | UZUNLUK (m) |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| SIRA NO | BÖLGE NO | TÜNELİN ADI | YOLUN ADI | K.K.NO | BAŞL. KM. | TÜP AD. | SOL | SAĞ |
+
+| 1 | 5 | Anamur - T5 Tüneli | (Antalya-Mersin) İl Sn. - (33-62) İya (Anamur) | 400-14 | 26+200 | 2 | 827,00 | 827,00 |
+
+| 2 | 5 | Anamur - T1 Tüneli | (Antalya-Mersin) İl Sn. - (33-62) İya (Anamur) | 400-14 | 23+100 | 2 | 537,00 | 537,00 |
+
+| 3 | 5 | Göksun- T1 Tüneli | Elbistan (330-19)Dya (Göksun)- Yenicekale(46-51)İya | 825-03 | 8+871 | 2 | 868,00 | 1.143,00 |
+
+| 4 | 5 | Göksun- T0 Tüneli | Elbistan (330-19)Dya (Göksun)- Yenicekale(46-51)İya | 825-03 | 10+641 | 2 | 506,00 | 518,00 |
+
+| 5 | 7 | Havza Tüneli | Ladik (030-09)Dya.(Toptepe)-(Samsun- Amasya) İl Sn. | 795-02 | 22+013 | 2 | 844,70 | 922,52 |
+
+| 6 | 7 | Kocakaya Tüneli | (Sinop-Samsun) İl Sn.-Beşpınar(55-54) İl Ya. | 030-07 | 4+800 | 1 | 553,00 | 553,00 |
+
+| 7 | 7 | Akdağ Tüneli | Amasya - Taşova - Erzincan Yolu | 100-19 | 8+100 | 1 | 875,00 | 875,00 |
+
+| 8 | 7 | T-5 Tüneli | Ordu(855-01)Dya-Topçam-(Gölköy- Koyulhisar)(855-02)Dya | 52-59 | 36+790 | 1 | 558,00 | 558,00 |
+
+| 9 | 7 | T-7a Tüneli | Ordu(855-01)Dya-Topçam-(Gölköy- Koyulhisar)(855-02)Dya | 52-59 | 33+700 | 1 | 653,00 | 653,00 |
+
+| 10 | 7 | T-7b Tüneli | Ordu(855-01)Dya-Topçam-(Gölköy- Koyulhisar)(855-02)Dya | 52-59 | 31+200 | 1 | 565,00 | 565,00 |
+
+| 11 | 7 | T-3 Tüneli | Ordu(855-01)Dya-Topçam-(Gölköy- Koyulhisar)(855-02)Dya | 52-59 | 13+830 | 1 | 525,00 | 525,00 |
+
+| 12 | 7 | T-2 Tüneli | Ordu(855-01)Dya-Topçam-(Gölköy- Koyulhisar)(855-02)Dya | 52-59 | 13+130 | 1 | 620,00 | 620,00 |
+
+| 13 | 7 | Bayramca Tüneli | Ünye Çevre Yolu | 010-17 | 96+210 | 2 | 690,72 | 740,72 |
+
+| 14 | 8 | Çepiç Tüneli | (44-79) İl.Ya.(Hekimhan) - (Keban - Malatya) (875-01)Dya | 850-09 | 16+600 | 2 | 622,00 | 630,00 |
+
+| 15 | 10 | Uluburun Tüneli | (Ordu-Giresun) İl Sn. - (877-01) Dya. (Harşit Köprüsü) | 010-19 | 49+500 | 2 | 980,00 | 978,00 |
+
+| 16 | 10 | Tirebolu T-2 Tüneli | (Ordu-Giresun) İl Sn. - (877-01) Dya. (Harşit Köprüsü) | 010-19 | 72+000 | 2 | 650,00 | 661,00 |
+
+| 17 | 10 | Eynesil Tüneli | Gümüşhane (877-01) Dya.-(Giresun- Trabzon) İl.Sn | 010-20 | 29+200 | 2 | 574,00 | 214,00 |
+
+| 18 | 10 | Çamburnu Tüneli | (010-21)Dya.(Değirmendere Köp.)- (Trabzon-Rize)İl Sn. | 010-22 | 94+416 | 1 | 593,00 | 593,00 |
+
+| 19 | 10 | Sarayköy-2 Tüneli | (Trabzon-Rize) İl Sn.-Çamlıhemşin (53-05) İl Ya. | 010-23 | 6+100 | 2 | 856,00 | 826,00 |
+
+| 20 | 10 | Pazar-2 Tüneli | (Trabzon-Rize) İl Sn.-Çamlıhemşin (53-05) İl Ya. | 010-23 | 49+400 | 2 | 660,00 | 650,00 |
+
+| 21 | 10 | Esenkıyı Tüneli | (Rize-Artvin) İl Sn.- (Türkiye-Gürcistan) Devlet Sınırı | 010-25 | 21+750 | 1 | 620,00 | 620,00 |
+
+| 22 | 10 | Liman Tüneli | (Rize-Artvin) İl Sn.- (Türkiye-Gürcistan) Devlet Sınırı | 010-25 | 26+000 | 1 | 546,00 | 546,00 |
+
+| 23 | 10 | Sümbüllü-4 Tüneli | (010-25) Dya.(Hopa)-Artvin | 010-26 | 62+728 | 1 | 935,00 | 935,00 |
+
+| 24 | 10 | Seyitler-1 Tüneli | (010-25) Dya.(Hopa)-Artvin | 010-26 | 64+063 | 1 | 936,00 | 936,00 |
+
+| 25 | 10 | T-2 Tüneli | (Art.-Tort.) 950-01 Dya - (Art. Erz.) İl. Sn.(İspir Yolu) | 050-06 | 1+500 | 1 | 667,00 | 667,00 |
+
+| 26 | 10 | T-3 Tüneli | (Art.-Tort.) 950-01 Dya - (Art. Erz.) İl. Sn.(İspir Yolu) | 050-06 |  | 1 | 796,60 | 796,60 |
+
+| 27 | 10 | Günyüzü-1 Tüneli | (Giresun-Gümüşhane)İl Sn.-(Trabzon- Gümüşhane)(885-02)Dya. | 877-02 | 5+111 | 1 | 605,00 | 605,00 |
+
+| 28 | 10 | Özkürtün Tüneli | (Giresun-Gümüşhane)İl Sn.-(Trabzon- Gümüşhane)(885-02)Dya. | 877-02 | 18+800 | 1 | 704,00 | 704,00 |
+
+| 29 | 10 | Demirkent-1 Tüneli | (Artvin-Tortum) (950-01)Dya.- Demirkent | 08-25 | 0+500 | 1 | 520,00 | 520,00 |
+
+
+
+| 30 | 10 | Borçka Tüneli | (Artvin-Hopa) (010-26 Dya.-Damar | 08-75 | 0+595 | 1 | 955,00 |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| 31 | 10 | T6 Tüneli | (Artvin-Şavşat) (010-27)Dya.-(Artvin- Erzurum) İl Sn. | 950-01 | 6+834 | 1 | 840,00 |
+
+| 32 | 10 | Öcübet Tüneli | (Artvin-Şavşat) (010-27)Dya.-(Artvin- Erzurum) İl Sn. | 950-01 | 42+478 | 1 | 572,00 |
+
+| 33 | 10 | Oruçlu Tüneli | (Artvin-Şavşat) (010-27)Dya.-(Artvin- Erzurum) İl Sn. | 950-01 | 47+643 | 1 | 677,00 |
+
+| 34 | 10 | T3 Kapan Tüneli | (Artvin-Şavşat) (010-27)Dya.-(Artvin- Erzurum) İl Sn. | 950-01 | 49+052 | 1 | 721,00 |
+
+| 35 | 10 | T14 Narlık Tüneli | (Artvin-Şavşat) (010-27)Dya.-(Artvin- Erzurum) İl Sn. | 950-01 | 61+975 | 1 | 615,00 |
+
+| 36 | 10 | Yarbaşı Tüneli | (Artvin-Şavşat) (010-27)Dya.-(Artvin- Erzurum) İl Sn. | 950-01 | 65+246 | 1 | 945,00 |
+
+| 37 | 10 | Tarakçılar Tüneli | (Artvin-Şavşat) (010-27)Dya.-(Artvin- Erzurum) İl Sn. | 950-01 | 72+822 | 1 | 946,00 |
+
+| 38 | 10 | Esenkaya Tüneli | (Artvin-Şavşat) (010-27)Dya.-(Artvin- Erzurum) İl Sn. | 950-01 | 74+156 | 1 | 779,00 |
+
+| 39 | 10 | Hırkat Tüneli | (Artvin-Şavşat) (010-27)Dya.-(Artvin- Erzurum) İl Sn. | 950-01 | 75+943 | 1 | 992,00 |
+
+| 40 | 10 | İnanlı Tüneli | (Artvin-Şavşat) (010-27)Dya.-(Artvin- Erzurum) İl Sn. | 950-01 | 77+229 | 1 | 685,00 |
+
+| 41 | 10 | Sapasura Tüneli | (Artvin-Şavşat) (010-27)Dya.-(Artvin- Erzurum) İl Sn. | 950-01 | 81+407 | 1 | 963,00 |
+
+| 42 | 10 | Kışlaburnu Tüneli | (Artvin-Şavşat) (010-27)Dya.-(Artvin- Erzurum) İl Sn. | 950-01 | 82+452 | 1 | 871,00 |
+
+| 43 | 10 | Kayabaşı Tüneli | (Artvin-Şavşat) (010-27)Dya.-(Artvin- Erzurum) İl Sn. | 950-01 | 84+596 | 1 | 877,00 |
+
+| 44 | 12 | Güllübağ Tüneli | (Erzurum-Rize)(925-03)Dya.- (Erzurum- Artvin)İl Sn. | 050-05 | 10+195 | 1 | 550,00 |
+
+| 45 | 13 | Ilıksu-I Tüneli | Akseki (695-10) Dya.- Demirtaş (07-32) İl Ya. | 400-12 | 39+985 | 1 | 583,30 |
+
+| 46 | 13 | Ulaş Tüneli | Akseki (695-10) Dya.- Demirtaş (07-32) İl Ya. | 400-12 | 40+777 | 1 | 750,00 |
+
+| 47 | 13 | Kargı Tüneli | (Isparta - Burdur) İl Sn.- (Burdur - Antalya) İl Sn. | 685-04 | 32+127 | 1 | 580,00 |
+
+| 48 | 14 | Mezit Tüneli | (Bursa-Mudan.)(575-05)Dya-(Bursa- Bilecik)İl Sn. | 200-06 | 60+913 | 1 | 607,00 |
+
+| 49 | 14 | Ertuğrulgazi Tüneli | Mekece-Bilecik-Bozüyük | 650-03 | 45+430 | 2 | 840,00 745,00 |
+
+| 50 | 15 | Kocaman 1 | (Düzce-Zonguldak)İl Sınırı-(750- 01)Dya(Zonguldak) | 010-06 | 1+690 | 1 | 638,00 |
+
+| 51 | 15 | Alaplı 1 | (Düzce-Zonguldak)İl Sınırı-(750- 01)Dya(Zonguldak) | 010-06 | 6+675 | 1 | 664,00 |
+
+| 52 | 15 | Alaplı 2 | (Düzce-Zonguldak)İl Sınırı-(750- 01)Dya(Zonguldak) | 010-06 | 7+805 | 1 | 878,00 |
+
+| 53 | 15 | Suçatı Tüneli | (Zonguldak-Karabük)İl Sn.-Yenice-(030- 01/755-03) Dya | 030-12 | 32+137 | 1 | 705,00 |
+
+| 54 | 15 | Sapça Tüneli | (010-06)Dya(Zonguldak)-Devrek- (Zonguldak-Bolu)İl Sn. | 750-01 | 15+637 | 1 | 568,00 |
+
+
+
+| SIRA NO | BÖLGE NO | TÜNELİN ADI | YOLUN ADI | K.K.NO | BAŞL. KM. | TÜP AD. | UZUNLUK (m) | UZUNLUK (m) |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| SIRA NO | BÖLGE NO | TÜNELİN ADI | YOLUN ADI | K.K.NO | BAŞL. KM. | TÜP AD. | SOL | SAĞ |
+
+| 1 | 2 | Konak Tüneli | İzmir Çevre Otoyolu Ayr. - Yeşildere- Konak | 35-63 | 7+000 | 2 | 1.674,00 | 1.674,00 |
+
+| 2 | 5 | Boğsak Tüneli | Erdemli-Silifke-Taşucu 13.Bl.Hd.Yolu | 400-16 | 102+512 | 2 | 1.514,40 | 1.572,90 |
+
+| 3 | 7 | Çiflikköy Tüneli | Gerze - Sinop Devlet Yolu | 010-14 | 8+560 | 2 | 1.285,00 | 1.285,00 |
+
+| 4 | 7 | Demirciköy Tüneli | Gerze - Sinop Devlet Yolu | 010-14 | 10+280 | 2 | 1.680,00 | 1.680,00 |
+
+| 5 | 7 | Yenikent Tüneli | Sinop-(Sinop-Samsun)İl Sn. | 010-14 | 112+130 | 2 | 1.597,62 | 1.529,55 |
+
+| 6 | 7 | Ünye Yunus Emre Tüneli | Ünye Çevre Yolu | 010-17 | 91+952,60 | 2 | 1.995,80 | 1.979,89 |
+
+| 7 | 7 | T-6 Tüneli | Ordu(855-01)Dya-Topçam-(Gölköy- Koyulhisar)(855-02)Dya | 52-59 | 35+365 | 1 | 1.016,00 | 1.016,00 |
+
+| 8 | 7 | T-10 Tüneli | Ordu(855-01)Dya-Topçam-(Gölköy- Koyulhisar)(855-02)Dya | 52-59 | 25+577 | 1 | 1.767,00 | 1.767,00 |
+
+| 9 | 8 | Karahan Tüneli | (850-10)Devlet Ya.(Gölbaşı)- (Malatya-Darende)(300-22)Dya | 300-22 | 14+500 | 2 | 1.600,00 | 1.600,00 |
+
+| 10 | 10 | Araklı Tüneli | (010-21)Dya.(Değirmendere Köp.)- (Trabzon-Rize)İl Sn. | 010-22 | 27+150 | 2 | 1.904,00 | 1.906,00 |
+
+| 11 | 10 | Sarayköy-1 Tüneli | (Trabzon-Rize) İl Sn.-Çamlıhemşin (53-05) İl Ya. | 010-23 | 5+050 | 2 | 1.004,00 | 949,00 |
+
+| 12 | 10 | Çayeli-1 Tüneli | (Trabzon-Rize) İl Sn.-Çamlıhemşin (53-05) İl Ya. | 010-23 | 43+420 | 2 | 1.392,00 | 1.111,00 |
+
+| 13 | 10 | Pazar-1 Tüneli | (Trabzon-Rize) İl Sn.-Çamlıhemşin (53-05) İl Ya. | 010-23 | 48+220 | 2 | 1.238,00 | 1.152,00 |
+
+| 14 | 10 | Kıyıcık Tüneli | Çamlıhemşin (53-05) İl Ya.- (Rize- Artvin) İl Sn. | 010-24 | 30+000 | 2 | 1.120,00 | 1.080,00 |
+
+| 15 | 10 | Arhavi Tüneli | (Rize-Artvin) İl Sn.- (Türkiye- Gürcistan) Devlet Sınırı | 010-25 | 8+100 | 2 | 1.051,00 | 1.014,00 |
+
+| 16 | 10 | Kopmuş Tüneli | (Rize-Artvin) İl Sn.- (Türkiye- Gürcistan) Devlet Sınırı | 010-25 | 23+000 | 1 | 1.162,00 | 1.162,00 |
+
+| 17 | 10 | Selimiye Tüneli | (Rize-Artvin) İl Sn.- (Türkiye- Gürcistan) Devlet Sınırı | 010-25 | 28+440 | 1 | 1.365,00 | 1.365,00 |
+
+| 18 | 10 | T-5 Tüneli | (Art.-Tort.) 950-01 Dya - (Art. Erz.) İl. Sn.(İspir Yolu) | 050-06 | 64+0 | 1 | 1.796,50 | 1.796,50 |
+
+| 19 | 10 | Güvenlik(Doymuş)T. | (Giresun-Trabzon)(010-19)Dya.- (Giresun-Gümüşhane)İl Sn. | 877-01 | 33+650 | 1 | 1.835,00 | 1.835,00 |
+
+| 20 | 10 | Elceğiz Tüneli | (Giresun-Gümüşhane)İl Sn.- (Trabzon-Gümüşhane)(885-02)Dya. | 877-02 | 8+650 | 1 | 1.265,00 | 1.265,00 |
+
+| 21 | 10 | Kirazlık Tüneli | (Giresun-Gümüşhane)İl Sn.- (Trabzon-Gümüşhane)(885-02)Dya. | 877-02 | 34+600 | 1 | 1.851,00 | 1.851,00 |
+
+| 22 | 10 | Zigana Tüneli | (010-21/22)Dya.(Değ.Dere Köp.)- (Trabzon-Gümüşhane)İl Sn. | 885-01 | 2+000 | 1 | 1.702,00 | 1.702,00 |
+
+| 23 | 10 | T1 Tüneli | (Artvin-Şavşat) (010-27)Dya.- (Artvin-Erzurum) İl Sn. | 950-01 | 2+900 | 1 | 1.190,00 | 1.190,00 |
+
+| 24 | 10 | Karataş Tüneli | (Artvin-Şavşat) (010-27)Dya.- (Artvin-Erzurum) İl Sn. | 950-01 | 50+978 | 1 | 1.491,00 | 1.491,00 |
+
+| 25 | 10 | Sameli Tüneli | (Artvin-Şavşat) (010-27)Dya.- (Artvin-Erzurum) İl Sn. | 950-01 | 63+366 | 1 | 1.500,00 | 1.500,00 |
+
+| 26 | 10 | Gübüket Tüneli | (Artvin-Şavşat) (010-27)Dya.- (Artvin-Erzurum) İl Sn. | 950-01 | 70+022 | 1 | 1.448,00 | 1.448,00 |
+
+| 27 | 10 | Bent Tüneli | (Artvin-Şavşat) (010-27)Dya.- (Artvin- Erzurum) İl Sn. | 950-01 | 77+959 | 1 | 1.949,00 | 1.949,00 |
+
+| 28 | 11 | 8 Ağustos Tüneli | (Muş-Tatvan)(300-31)Dya-(Bitlis- Siirt)İl Sn.(Bitlis Çev.Y.) | 965-13 | 5+300 | 2 | 1.947,00 | 1.947,00 |
+
+
+
+| 29 | 12 | Arkın (T2) Tüneli | İspir Yusufeli Devlet Yolu | 050-05 | 40+550 | 1 | 1.275,00 | 1.275,00 |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| 30 | 13 | Altan Ayağ Tüneli | (07-57) İl Ya.-(Burdur - Serik) (650- 14/400-10) Dya. | 400-09 | 70+975 | 2 | 970,00 | 1.013,00 |
+
+| 31 | 13 | Orhan Büyükalp Tün. | (07-57) İl Ya.-(Burdur - Serik) (650- 14/400-10) Dya. | 400-09 | 74+159 | 2 | 1.100,00 | 965,00 |
+
+| 32 | 15 | Dorukhan Tüneli | (010-06)Dya(Zonguldak)-Devrek- (Zonguldak-Bolu)İl Sn. | 750-03 | 4+145 | 2 | 903,00 | 1.050,00 |
+
+
+
+| SIRA NO | BÖLGE NO | TÜNELİN ADI | YOLUN ADI | K.K.NO | BAŞL. KM. | TÜP AD. | UZUNLUK (m) | UZUNLUK (m) |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| SIRA NO | BÖLGE NO | TÜNELİN ADI | YOLUN ADI | K.K.NO | BAŞL. KM. | TÜP AD. | SOL | SAĞ |
+
+| 1 | 7 | Ahmet Muhip Dranas Tüneli | (Sinop-Samsun)(010-14)Dya.- (Taşköprü-Boyabat)Dya. | 785-01 | 35+100 | 1 | 2.016,00 | 2.016,00 |
+
+| 2 | 5 | Göksun- T2 Tüneli | Elbistan (330-19)Dya (Göksun)- Yenicekale(46-51)İya | 825-03 | 5+706 | 2 | 2.894,69 | 2.868,12 |
+
+| 3 | 10 | Tirebolu T-1 Tüneli | (Ordu-Giresun) İl Sn. - (877-01) Dya. (Harşit Köprüsü) | 010-19 | 69+500 | 2 | 2.151,00 | 2.175,00 |
+
+| 4 | 11 | Kuskunkıran Tüneli | (Bitlis-Van)İl Sn.(Kuzgunkıran)-Van Havaalanı(65-53)İl Ya. | 300-33 | 0+000 | 1 | 2.306,00 | 2.306,00 |
+
+| 5 | 14 | Osmangazi Tüneli | Mekece-Bilecik-Bozüyük | 650-03 | 41+866 | 2 | 2.465,00 | 2.474,00 |
+
+
+
+| SIRA NO | BÖLGE NO | TÜNELİN ADI | YOLUN ADI | K.K.NO | BAŞL. KM. | TÜP AD. | UZUNLUK (m) | UZUNLUK (m) |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| SIRA NO | BÖLGE NO | TÜNELİN ADI | YOLUN ADI | K.K.NO | BAŞL. KM. | TÜP AD. | SOL | SAĞ |
+
+| 1 | 7 | Ordu-N.Akçelik Tün. | Aybastı (52-75) İl Ya.-(Ordu- Giresun) İl Sn. | 010-18 | 9+210 | 2 | 3.805,00 | 3.825,00 |
+
+
+
+| TOPLAM TÜNEL SAYISI | 5 ADET |
+
+| --- | --- |
+
+| TOPLAM TÜNEL UZUNLUĞU | 5.480 M |
+
+| 8. BÖLGE MÜDÜRLÜĞÜ - E | ELAZIĞ |
+
+
+
+| TOPLAM TÜNEL SAYISI | 1 ADET |
+
+| --- | --- |
+
+| TOPLAM TÜNEL UZUNLUĞU | 66 M |
+
+| 9. BÖLGE MÜDÜRLÜĞÜ - DİYARBAKIR | 9. BÖLGE MÜDÜRLÜĞÜ - DİYARBAKIR |
+
+
+
+| TOPLAM TÜNEL SAYISI | 1 | 114 ADET |
+
+| --- | --- | --- |
+
+| TOPLAM TÜNEL UZUNLUĞU | 1 | 80.167 M |
+
+| 10. BÖLGE MÜDÜRLÜĞÜ - | TRABZON | TRABZON |
+
+|  |  |  |
+
+
+
+| -Zİ |  |
+
+| --- | --- |
+
+| Biulü[nnMf | 233 233 |
+
+
+
+| TOPLAM TÜNEL SAYISI | SADET |
+
+| --- | --- |
+
+| TOPLAM TÜNEL UZUNLUĞU | 7.682 M |
+
+| 11. BÖLGE MÜDÜRLÜĞÜ - | VAN |
+
+
+
+| TOPLAM TÜNEL SAYISI | 4 ADET |
+
+| --- | --- |
+
+| TOPLAM TÜNEL UZUNLUĞU | 2267 M |
+
+| 12. BÖLGE MÜDÜRLÜĞÜ - ERZURUM | 12. BÖLGE MÜDÜRLÜĞÜ - ERZURUM |
+
+
+
+|  |  |
+
+| --- | --- |
+
+| V™-'	ÇELTİKÇİ™ A lan |  |
+
+
+
+| TOPLAM TÜNEL SAYISI | 11 ADET |
+
+| --- | --- |
+
+| TOPLAM TÜNEL UZUNLUĞU | 7890 M |
+
+| 13. BÖLGE MÜDÜRLÜĞÜ - ANTALYA | 13. BÖLGE MÜDÜRLÜĞÜ - ANTALYA |
+
+
+
+| E | O | ra |
+
+| --- | --- | --- |
+
+|  |  | 606 | |
+
+
+
+| TOPLAM TÜNEL SAYISI | 3 ADET |
+
+| --- | --- |
+
+| TOPLAM TÜNEL UZUNLUĞU | 7.131 M |
+
+| 14. BÖLGE MÜDÜRLÜĞÜ - | BURSA |
+
+
+
+| TOPLAM TÜNEL SAYISI | 5 ADET | KOy-«Tievk.ı | A^lııb^AHnfc |
+
+| --- | --- | --- | --- |
+
+| TOPLAM TÜNEL UZUNLUĞU | 1362 M | Bdgo merkezi Şube merkezi | SİVAS SUŞEHRİ |
+
+| 16. BÖLGE MÜDÜRLÜĞÜ - | SİVAS | Bakımevi Relu| alan | Yllquari.BE Dintft.BE |
+
+
+
+| Pin 1 | TXD- |
+
+| --- | --- |
+
+| Pin 2 | TXI)’ |
+
+| Pin 3 | RTS- |
+
+| Pin 4 | RTS+ |
+
+| Pin 5 | GND |
+
+| Pin 6 | RXD- |
+
+| Pin 7 | RXDt |
+
+| Pin 8 | CTS |
+
+| Pin 9 | CTS+ |
+
+
+
+| AND (VE) | AND (VE) | AND (VE) | OR (VEYA) | OR (VEYA) | OR (VEYA) | NOT (DEĞİL) | NOT (DEĞİL) |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| X | y | x.y | X | y | x+y | X | x‘ |
+
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+
+| 0 | 1 | 0 | 0 | 1 | 1 | 1 | 0 |
+
+| 1 | 0 | 0 | 1 | 0 | 1 |  |  |
+
+| 1 | 1 | 1 | 1 | 1 | 1 |  |  |
+
+
+
+| 7 byte | 1 byte | S byte | Ğ byte | 2 byte | 46 to 1500 byte | 4 byte |
+
+| --- | --- | --- | --- | --- | --- | --- |
+
+| Preamble | Start Frame Debmîter | Destin ation Address | Source Address | Length | Data | Frama Check Serpence |
+
+
+
+| [Modbus Uygulama Protokolü Başlığı (7 Byte) | [Modbus Uygulama Protokolü Başlığı (7 Byte) | [Modbus Uygulama Protokolü Başlığı (7 Byte) | [Modbus Uygulama Protokolü Başlığı (7 Byte) | Protokol Verisi | Protokol Verisi |
+
+| --- | --- | --- | --- | --- | --- |
+
+| işlem Kimlik No | Protokol Kimlik No | Paket Boyutu | Bilim Kimlik No | Fonksiyon Kodu | Veri |
+
+| 2 Byte | 2 Byte | 2 Byte | 1 Byte | lByte | Değişken |
+
+
+
+| Veri Erişimi | Mo dbus F o ıık s iyo nu | Fonksiyon Kodu | Fonksiyon Kodu (Hex) |
+
+| --- | --- | --- | --- |
+
+| Bit Erişimi | Dijital Çıkışları Oku | 01 | 01 |
+
+|  | Dijital Girişleri Oku | 02 | 02 |
+
+|  | Dijital Çıkışa Yaz | 05 | 05 |
+
+|  | Çok Sayıda Dijital Çıkışa Yaz | 15 | OF |
+
+| 16 Bit (Word) | Giriş Bellek Alanını Oku | 04 | 04 |
+
+| Erişimi | Bellek Alanlarını Oku | 03 | 03 |
+
+|  | Bellek Alanlarına Yaz | 16 | 10 |
+
+
+
+| Fielbus Adı | Teknolojiyi Geliştiren | Yıl | Standard |  |
+
+| --- | --- | --- | --- | --- |
+
+| PROFIBUS DP/PA | Siemens | DP-1994. PA-1995 | EN 50170 / DİN 19245 part 3(DP) /4 (PA), IEC 1158-2 (PA) |  |
+
+| INTERBUS-S | Phoenıx Contact, Interbus | 1984 | DİN 19258 |  |
+
+| INTERBUS-S | Club | 1984 | EN 50.254 |  |
+
+| DeviceNet | Allen-Bradley | Mar-94 | ISO 11898 &11519 |  |
+
+| ARCNET | Datapoint | 1977 | ANSl/ATA 878 1 |  |
+
+| AS-I | AS-I Consortium | Fail 1993 | Submitted to IEC |  |
+
+| Foundation Fieldbus H1 | Fieldbus Foundation | 1995 | ISA SP50/IEC 61158 |  |
+
+| Foundation Fieldbus High Speed Ethernet (HSE) |  | İn development labtest phase. | IEEE 802.3u |  |
+
+| Foundation Fieldbus High Speed Ethernet (HSE) | Fieldbus Foundation | Prelim spec available to members | RFC for İP, TCP & UDP |  |
+
+| IEC/ISA SP50 Fieldbus | ISA & Fieldbus F. | 1992 - 1996 | IEC 1158/ANSI 850 |  |
+
+| Seriplex | APC. İne. | 1990 | Seriplex spec |  |
+
+| VVorldFIP | VVorldFIP | 1988 | IEC 1158-2 |  |
+
+| LonVVorks | Echelon Corp | Mar-91 |  |  |
+
+| SDS | Honeyvvell | Jan., 1994 | Honeyvvell Specification, Submitted to IEC. ISO11989 |  |
+
+| ControlNet | Allen-Bradley | 1996 | ControlNet International |  |
+
+| CANopen | CAN İn Automation | 1995 | CİA |  |
+
+| Ethernet | DEC, Intel, Xerox | 1976 | IEEE 802.3, DlXv 2.0 |  |
+
+| Modbus Plus | Modicon |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  | FİZİKSEL KARAKTERİSTİKLER | FİZİKSEL KARAKTERİSTİKLER |  |
+
+| Fieldbus Adı | Netvvork Topolojisi | Fiziksel Ortam | Maks. Cihaz (ııode) | Maks. Mesafe |
+
+| PROFIBUS DP/PA | Line. star & ring | Tvvisted-pair or fiber | 127 node | 100m betvveen segments @ 12Mbaud: 24 Km |
+
+| PROFIBUS DP/PA | Line. star & ring | Tvvisted-pair or fiber | (124 slaves - 4 seg. 3 rptrs) + 3 masters | (fiber) (baud-rate and media dependent) |
+
+| INTERBUS-S | Segmented vvith 'T* d rop s | Twisted-pair, fiber, and slip-ring | 256 nodes | 400 m/segment. 12.8 Km total |
+
+| DeviceNet | Trunkline/dropline with branehing | Tvvisted-pair for signal & povver | 64 nodes | 500m (baud-rate dependent) 6Km w/ repeaters |
+
+| ARCNET | Star, bu s, distributed star | Coax. Tvvisted pair. Fiber | 255 nodes | Coax 2000 feet: Tvvisted pair 400 feet. Fiber 6000 Feet |
+
+| ASI | Bus. ring, tree star, of al | Tvvo vvire cable | 31 slaves | 100 meters, 300 vvith repeater |
+
+| Foundation 1 ieldbus H1 | Star or bus | Tvvısted-paır. fiber | 240/segment. 65.000 segments | 1900m @ 31.25K vvire |
+
+| Foundation Fieldbus HSE | Star | Tvvisted-pair, fiber | İP addressing - essentially unlımıted | 100m @ 100Mbaud tvvisted-pair 2000m @ 100Mbaud fiber full duplex |
+
+| IEC/ISA SP50 |  | Tvvisted-pair fiber and radio | IS 3-7 | 1700m @ 31.25K |
+
+| Fieldbus |  | Tvvisted-pair fiber and radio | non IS 128 | 500M @ 5Mbps |
+
+| Seriplex | Tree. loop, ring, multidrop. star | 4-wire shielded cable | 500+ devices | 500+ ft |
+
+| VVorldFIP | Bus | Tvvisted-pair. fiber | 256 nodes | up to 40 Km |
+
+| LonVVorks | Bus. ring. loop. star | Tvvisted-pair, fiber, povver line | 32,000/domain | 2000m @ 78 kbps |
+
+| SDS | Trunklıne/Droplıne | Tvvısted-paır for signal & povver | 64 nodes. 126 addresses | 500m (baud-rate dependent) |
+
+| ControlNet | Lınear. Tree Star, or Combination Thereof | Coax. fiber | 99 nodes | 1000m (coax) 2 nodes 250m vvith 48 nodes 3km fiber, 30km fiber w/ repeaters |
+
+| CANopen | Trunkline/Dropline | Tvvisted Pair + optional Signal & Povver | 127 Nodes | 25-1 OOOm (baud-rate dependent) |
+
+| Industrial Ethernet | Bus, Star, Daisy-Chain | Thin Coax Tvvisted Pair. Fiber: Thick Coax (rare) | 1024 nodes expandable to more via Routers | Thin: 185m 10 Base T (Tvvisted Pair): Max 100m long (90 meters horizontal cable. 5m d rop s 1m pateh) Max 4 hubs/repeaters betvveen nodes 4Km distances vv/o routers Fiber: 100 Base FX400m 2.5 Km multi mode vv/o Svvitches: 50 Km mono mode w/ Svvitches |
+
+| Modbus Plus | Linear | Tvvisted Pair | 32 nodes per segment. 64 max | 500m per segment |
+
+| Modbus RTU/ASCII | Line, star, tree Netvvork w/ segments | Tvvisted Pair | 250 nodes per segment | 350m |
+
+| Remote l/O | Linear Trunk | Twinaxial | 32 nodes/segment | 6 km |
+
+| DH+ | Linear Trunk | Twınaxıal | 64 nodes/segment | 3 km |
+
+
+
+| Fieldbus Adı | Haberleşme Yöntemi | Aktarım Özellikleri	Veri Transfer Boyutu	Kontrol | Aktarım Özellikleri	Veri Transfer Boyutu	Kontrol | Aktarım Özellikleri	Veri Transfer Boyutu	Kontrol |
+
+| --- | --- | --- | --- | --- |
+
+| PROFIBUS DP/PA | Master/slave | DP: 9.6,19.2, 93.75, | 0-244 bytes | HD4 CRC |
+
+| PROFIBUS DP/PA | Master/slave | 187.5, 500 Kbps. 1.5, 3, | 0-244 bytes | HD4 CRC |
+
+| PROFIBUS DP/PA | Master/slave | 6.12 Mbps | 0-244 bytes | HD4 CRC |
+
+| PROFIBUS DP/PA | peer to peer | PA: 31 25 kbps | 0-244 bytes | HD4 CRC |
+
+| INTERBUS-S | Master/slave with total frame transfer | 500kBits/s, | 1-64 Bytes data | 16-bit CRC |
+
+| INTERBUS-S | Master/slave with total frame transfer | full duplex | 246 Bytes Parameter | 16-bit CRC |
+
+| INTERBUS-S | Master/slave with total frame transfer |  | 512 bytes h.s., | 16-bit CRC |
+
+| INTERBUS-S | Master/slave with total frame transfer |  | unlımıted block | 16-bit CRC |
+
+| DeviceNet | Master/slave. multimaster. peer to peer | 500 kbps. | 8-byte vanable message with fragmentation for larger packets | CRC check |
+
+| DeviceNet | Master/slave. multimaster. peer to peer | 250 kbps. | 8-byte vanable message with fragmentation for larger packets | CRC check |
+
+| DeviceNet | Master/slave. multimaster. peer to peer | 125 kbps | 8-byte vanable message with fragmentation for larger packets | CRC check |
+
+| Fieldbus | Publisher/ subscriber | Mbps |  |  |
+
+| Seriplex | Master/slave | 200 Mbps | 7680/transfer | En d of frame & echo check |
+
+| Seriplex | peer to peer | 200 Mbps | 7680/transfer | En d of frame & echo check |
+
+| WorldFIP | Peer to peer | 31.25 kbps. 1 & 2.5 | No limit, variables 128 bytes | 16-bit CRC. data "ffeshnes s” indicator |
+
+| WorldFIP | Peer to peer | Mbps. 6 Mbps fiber | No limit, variables 128 bytes | 16-bit CRC. data "ffeshnes s” indicator |
+
+
+
+|  | SİMETRİK AYDINLATMA SİSTEMİ (L/Ev < 0,2) | ZIT-YÖNLÜ AYDINLATMA SİSTEMİ (L/Ev >0,6) |
+
+| --- | --- | --- |
+
+| FREN MESAFESİ | k=Lth/L2o | k=Lth/L2o |
+
+| 60 m. | 0,05 | 0,04 |
+
+| 100 m. | 0,06 | 0,05 |
+
+| 160 m. | 0,10 | 0,07 |
+
+
+
+| Tablo-2.1 :LC, Lr Değerlerine Göre L, | Tablo-2.1 :LC, Lr Değerlerine Göre L, | Tablo-2.1 :LC, Lr Değerlerine Göre L, | Değeri | Değeri | Değeri | Değeri |
+
+| --- | --- | --- | --- | --- | --- | --- |
+
+| Sürüş Yünü | k (kcd/m2| | k (kcd/m2! | Le [kcd/m2! Kayalar Binalar | Le [kcd/m2! Kayalar Binalar | Kar | Çayır |
+
+| Doğu-Batı | 12 | i | 2 | 6 | 10 Idikeyj 15 (yatay) | 2 |
+
+| Güney | 16 | 5 | 1 | i | 5 Idikey) 15 (yatay) | 2 |
+
+| Kuzey | S | 3 | 3 | fi | 15 (dikey) 15 (yatay) | 2 |
+
+
+
+| FREN MESAFESİ | DÜŞÜK (1OO araca kadar) | ORTA (1OO -1000 araç) | YÜKSEK (1000 araçtan çok) |
+
+| --- | --- | --- | --- |
+
+| 160 m. | 5 ( cd/m2) | 10 ( cd/m2) | 15 ( cd/m2) 21 |
+
+| 100 m. | 2 ( cd/m2) | 4 ( cd/m2) | 6 ( cd/m2) |
+
+| 60 m. | 1 ( cd/m2) | 2 ( cd/m2) | 3 ( cd/m2) |
+
+
+
+| Fren Mesafesi | Düşük (1OO araca kadar) | Orta 1100-1000 Araç) | Yüksek (1000 araçtan çok) |
+
+| --- | --- | --- | --- |
+
+| 160m. | 5 (cd/m2) | 10 (cd/rn2) | 15 (cd/m2) |
+
+| 100 m. | 2 (cd/m2) | U (cd/m2) | 6 (cd/m2) |
+
+| 60m. | 1(crVm2i | 2 (cd/m2) | 3 (cd/m2) |
+
+
+
+| Süre | Akimi * tA) | Akım2 IA) | Gerilimi * (VI | Gerilim2 ** IV) | Güç1 * IWl | Güç2 (W) |
+
+| --- | --- | --- | --- | --- | --- | --- |
+
+| 30 sn | 1.537 | 3.654 | 225.1 | 38.4 | 180 | 131 |
+
+| 2dk | 1.378 | 3.151 | 225 | 79 | 264 | 208 |
+
+| 5dk | 1,391 | 2.713 | 225,6 | 114,5 | 299 | 255 |
+
+| Sdk | 1.405 | 2.588 | 225 | 121,8 | 301 | 259 |
+
+
+
+| Süre | THDH%I | THOV(%! | PF |
+
+| --- | --- | --- | --- |
+
+| 30sn | 24.0 | 2.4 | 0.52 |
+
+| 2dk | 29.1 | 2.3 | 0,85 |
+
+| Sdk | 30.7 | 2.2 | 0.95 |
+
+| Sdk | 29.0 | 2.3 | 0.95 |
+
+
+
+| Süre | Akimi ♦ (A) | Akım2 ** U) | Gerilimi * cvı | GeriUm2 ** tvı | Giiç1 * (W) | Güç2 •• twj |
+
+| --- | --- | --- | --- | --- | --- | --- |
+
+| 30 sn | 1,537 | 3.654 | 225.1 | 38,4 | 180 | 131 |
+
+| 2dk | 1,378 | 3,151 | 225 | 79 | 264 | 208 |
+
+| 5dk | 1,391 | 2,713 | 225,6 | 1 14,5 | 299 | 255 |
+
+| 8dk | 1,405 | 2,586 | 225 | 121 ,8 | 301 | 259 |
+
+
+
+| Süre |  | THDV(%) | PF |
+
+| --- | --- | --- | --- |
+
+| 30sn | 24,0 | 2.4 | 0,52 |
+
+| 2dk | 29,1 | 2,3 | 0,85 |
+
+| 5dk | 30,7 | 2,2 | 0,95 |
+
+| 8dk | 29,0 | 2.3 | 0,95 |
+
+
+
+| SLire | THDI{%) | TIHDV[%) | PF |
+
+| --- | --- | --- | --- |
+
+| 30sn | 13.2 | 2.2 | 0,97 |
+
+| 2dk | 13.2 | 2.2 | 0,97 |
+
+| Sdk | 13.2 | 2.2 | 0.97 |
+
+| Sdk | 13.2 | 2.2 | 0,97 |
+
+
+
+| Süre | Akrml * (A) | Akım2 ** İA) | Gerilimi * (VI | GeriLimZ ** IV1 | Gücl * ıwı | Güc2 ** (W| |
+
+| --- | --- | --- | --- | --- | --- | --- |
+
+| 30sn | 0,570 | 0.501 | 226 | 223.2 | 123 | 115 |
+
+| 2dk | 0,570 | 0,501 | 226 | 228.2 | 123 | 115 |
+
+| 5dk | 0,570 | 0,501 | 226 | 228.2 | 123 | 115 |
+
+| ödk | 0,570 | 0,501 | 226 | 228.2 | 123 | 115 |
+
+
+
+| Dünya'da Enine ve Yarı Enine Kullanılan Bazı Yol Tünelleri ve Uzunlukları (Mevcut) | Dünya'da Enine ve Yarı Enine Kullanılan Bazı Yol Tünelleri ve Uzunlukları (Mevcut) | Dünya'da Enine ve Yarı Enine Kullanılan Bazı Yol Tünelleri ve Uzunlukları (Mevcut) |
+
+| --- | --- | --- |
+
+| Ülke | Tünel Adı | Uzunluk (m) |
+
+| Avusturya | Karawanken | 7864 |
+
+| Avusturya | Schmitten | 5111 |
+
+| Avusturya | Landeck | 6955 |
+
+| Avusturya | Tauern | 6401 |
+
+| Avusturya | Katschberg | 5600 |
+
+| Avusturya | Gleinalm | 8000 |
+
+| Avusturya | Bosruck | 5100 |
+
+| İsviçre | San Bernardino | 6600 |
+
+| İsviçre | Gubrist | 3230 |
+
+| İsviçre | Leissigen | 2200 |
+
+| İsviçre | Eggfluh | 2800 |
+
+| Fransa-İtalya | Frejus | 13000 |
+
+| Fransa-İtalya | Mont Blanc | 11600 |
+
+| Fransa-İspanya | Somport | 8608 |
+
+| Dünya'da Yangın Damperi Kullanılan Yol Tünelleri ve Uzunlukları (Planlanan) | Dünya'da Yangın Damperi Kullanılan Yol Tünelleri ve Uzunlukları (Planlanan) | Dünya'da Yangın Damperi Kullanılan Yol Tünelleri ve Uzunlukları (Planlanan) |
+
+| Avusturya | Tauern 2. tüp | 6400 |
+
+| Avusturya | Katschberg 2. tüp | 5600 |
+
+| Avusturya | Plabutsch 2. tüp | 10000 |
+
+| Fransa | A86 Ouest | 10000 |
+
+| İsviçre | Uetilberg | 4500 |
+
+| İsviçre | Gotschna | 4200 |
+
+| İsviçre | Flüelen | 2810 |
+
+| İsviçre | Islisberg | 4890 |
+
+| Türkiye | Ovit | 14700 |
+
+| Türkiye | Kırık | 7130 |
+
+
+
+| SİSTEM | TÜNEL UZUNLUĞU | TÜNEL UZUNLUĞU |
+
+| --- | --- | --- |
+
+| SİSTEM | ŞEHİR İÇİ | ŞEHİR DIŞI |
+
+| DOĞAL | <300 m | <500 m |
+
+| BOYUNA | <1000 m | <3000 m |
+
+| YARI ENİNE | <3000 m | <5000 m |
+
+| ENİNE | >3000 m | >5000 m |
+
+
+
+| EĞİME BAĞLI MAKSİMUM AĞIR YÜK TAŞIYAN ARAÇ HIZLARI | EĞİME BAĞLI MAKSİMUM AĞIR YÜK TAŞIYAN ARAÇ HIZLARI | EĞİME BAĞLI MAKSİMUM AĞIR YÜK TAŞIYAN ARAÇ HIZLARI | EĞİME BAĞLI MAKSİMUM AĞIR YÜK TAŞIYAN ARAÇ HIZLARI | EĞİME BAĞLI MAKSİMUM AĞIR YÜK TAŞIYAN ARAÇ HIZLARI | EĞİME BAĞLI MAKSİMUM AĞIR YÜK TAŞIYAN ARAÇ HIZLARI | EĞİME BAĞLI MAKSİMUM AĞIR YÜK TAŞIYAN ARAÇ HIZLARI | EĞİME BAĞLI MAKSİMUM AĞIR YÜK TAŞIYAN ARAÇ HIZLARI |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+|  | Aşağı Eğimli | Aşağı Eğimli | Aşağı Eğimli | Yukarı Eğimli | Yukarı Eğimli | Yukarı Eğimli | Yukarı Eğimli |
+
+| Eğim | -6% | -4% | -2% | 0% | 2% | 4% | 6% |
+
+| Araç Hızı (km/saat) | 35-60 | 40-80 | 70-100 | 80-100 | 70-90 | 40-70 | 35-60 |
+
+
+
+|  |  | Ortalama Pik Trafik Yoğunluğu | Ortalama Pik Trafik Yoğunluğu | Ortalama Pik Trafik Yoğunluğu | Ortalama Pik Trafik Yoğunluğu |
+
+| --- | --- | --- | --- | --- | --- |
+
+|  |  | ŞEHİR DIŞI TÜNELLERİ | ŞEHİR DIŞI TÜNELLERİ | ŞEHİR DIŞI TÜNELLERİ | ŞEHİR DIŞI TÜNELLERİ |
+
+|  |  | Tek Yönlü Trafik | Tek Yönlü Trafik | Çift Yönlü Trafik | Çift Yönlü Trafik |
+
+|  | V [km/h] | pcu/km | pcu/h | pcu/km | pcu/h |
+
+| Akan Trafikte | 60 | 30 | 1,800 | 23 | 1,400 |
+
+| Sıkışık Trafikte | 10 | 70 | 700-850 | 60 | 600 |
+
+| Durağan Trafikte | 0 | 150 |  | 150 | - |
+
+|  |  | ŞEHİR İÇİ T | ŞEHİR İÇİ T | ÜNELLERİ | ÜNELLERİ |
+
+|  |  | Tek Yönlü Trafik | Tek Yönlü Trafik | Çift Yönlü Trafik | Çift Yönlü Trafik |
+
+|  | V [km/h] | pcu/km | pcu/h | pcu/km | pcu/h |
+
+| Akan Trafikte | 60 | 33 | 2,000 | 25 | 1,500 |
+
+| Sıkışık Trafikte | 10 | 100 | 1,000 | 85 | 850 |
+
+| Durağan Trafikte | 0 | 165 | - | 165 | - |
+
+
+
+| Trafik Durumu | CO | Görüş Mesafesi | Görüş Mesafesi |
+
+| --- | --- | --- | --- |
+
+| Trafik Durumu | CO | Sönümleme katsayısı K | İletim s (Kiriş uzunluğu: 100 m) |
+
+| Trafik Durumu | ppm | 10-3 m 1 | % |
+
+| Serbest akışlı yoğun trafik; 50-100 km/saat | 70 | 5 | 60 |
+
+| Günlük yoğun trafik, tüm şeritlerin etkilendiği | 70 | 7 | 50 |
+
+| Olağandışı yoğun trafik, tüm şeritlerin etkilendiği | 100 | 9 | 40 |
+
+| Trafik akarken planlanmış bakım çalışmaları esnasında* | 20 | 3 | 75 |
+
+| Tünel kapatılması gereken eşik değerler** | 200 | 12 | 30 |
+
+
+
+| PC gasoline CO [g/h] 2010 | PC gasoline CO [g/h] 2010 | PC gasoline CO [g/h] 2010 | PC gasoline CO [g/h] 2010 | PC gasoline CO [g/h] 2010 | PC gasoline CO [g/h] 2010 | PC gasoline CO [g/h] 2010 | PC gasoline CO [g/h] 2010 |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| v [km/h] | Gıadient [%] | Gıadient [%] | Gıadient [%] | Gıadient [%] | Gıadient [%] | Gıadient [%] | Gıadient [%] |
+
+| v [km/h] | -6 | -4 | -2 | 0 | 2 | 4 | 6 |
+
+| 0 | 20.5 | 20.5 | 20.5 | 20.5 | 20.5 | 20.5 | 20.5 |
+
+| 10 | 24.4 | 25.9 | 27.8 | 29.5 | 32.0 | 35.5 | 42.9 |
+
+| 20 | 28.3 | 31.4 | 35.2 | 38.6 | 43.6 | 50.5 | 65.4 |
+
+| 30 | 28.2 | 32.9 | 38.9 | 46.0 | 54.6 | 64.6 | 87.4 |
+
+| 40 | 28.0 | 34.5 | 43.5 | 56.2 | 71.7 | 93.2 | 120.4 |
+
+| 50 | 27.4 | 35.5 | 46.9 | 63.0 | 85.4 | 118.0 | 163.2 |
+
+| F 60 | 27.1 | 36.0 | 49.4 | 68.2 | 97.5 | 140.2 | 221.6 |
+
+| F 70 | 26.9 | 36.3 | 51.7 | 75.0 | 113.2 | 169.4 | 290.2 |
+
+| 80 | 26.7 | 37.1 | 54.9 | 85.5 | 136.6 | 217.7 | 369.1 |
+
+| 90 | 27.S | 39.4 | 60.1 | 99.6 | 170.3 | 297.4 | 483.3 |
+
+| 100 | 32.5 | 45.2 | 69.2 | 117.2 | 218.1 | 422.2 | 643.6 |
+
+| F 110 | 44.2 | 58.0 | 86.2 | 143.0 | 291.6 | 612.1 | 1.007.4 |
+
+| F 120 | 67.2 | 83.S | 119.4 | 192.7 | 419.4 | 889.8 | L615.2 |
+
+| F 130 | 106.4 | 132.0 | 1S3.5 | 303.1 | 660.7 | 1,333.0 | 2/462.1 |
+
+
+
+| PC gas oliue NOx [g/hl 2010 | PC gas oliue NOx [g/hl 2010 | PC gas oliue NOx [g/hl 2010 | PC gas oliue NOx [g/hl 2010 | PC gas oliue NOx [g/hl 2010 | PC gas oliue NOx [g/hl 2010 | PC gas oliue NOx [g/hl 2010 | PC gas oliue NOx [g/hl 2010 |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| v [km/h] | Gradient [%)] | Gradient [%)] | Gradient [%)] | Gradient [%)] | Gradient [%)] | Gradient [%)] | Gradient [%)] |
+
+| v [km/h] | -6 | -4 | -2 | 0 | 2 | 4 | 6 |
+
+| 0 | 1.6 | 1.6 | 1.6 | 1.6 | 1.6 | 1.6 | 1.6 |
+
+| 10 | 3.3 | 3.3 | 3.3 | 4.4 | 5.1 | 5.7 | 6.3 |
+
+| 20 | 3.3 | 3.3 | 3.4 | 5.3 | 6.2 | S.9 | 12.4 |
+
+| 30 | 3.3 | 3.3 | 4.0 | 6.0 | 9.1 | 13.2 | 15.3 |
+
+| 40 | 3.3 | 3.3 | 4.3 | 6.7 | 12.1 | 15.3 | 17.6 |
+
+| 50 | 3.3 | 3.3 | 4.4 | 8.1 | 13.9 | 17.0 | 19.5 |
+
+| 60 | 3.3 | 3.3 | 4.9 | 10.3 | 15.7 | 18.8 | 23.8 |
+
+| 70 | 3.3 | 3.3 | 5.6 | 13.3 | 17.5 | 21.7 | 29.7 |
+
+| SO | 3.3 | 3.3 | 6.7 | 15.1 | 19.3 | 27.0 | 36.4 |
+
+| 90 | 3.3 | 3.3 | 9.9 | 17.0 | 22.7 | 32.9 | 43.8 |
+
+| 100 | 3.3 | 4.3 | 13.7 | 19.0 | 28.4 | 40.1 | 52.4 |
+
+| 110 | 3.3 | 6.2 | 16.1 | 22.8 | 35.1 | 48.3 | 62.2 |
+
+| 120 | 3.3 | 10.9 | 18.5 | 29.1 | 43.0 | 57.S | 73.3 |
+
+| 130 | 3.7 | 15.0 | 22.4 | 36.8 | 52.2 | 68.6 | 85.7 |
+
+
+
+| PC Diesel CO [g/Tı] 2010 | PC Diesel CO [g/Tı] 2010 | PC Diesel CO [g/Tı] 2010 | PC Diesel CO [g/Tı] 2010 | PC Diesel CO [g/Tı] 2010 | PC Diesel CO [g/Tı] 2010 | PC Diesel CO [g/Tı] 2010 | PC Diesel CO [g/Tı] 2010 |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| v [km/h] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] |
+
+| v [km/h] | -6 | -4 | -2 | 0 | 2 | 4 | 6 |
+
+| 0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
+
+| 10 | 2.2 | 2.2 | 2.2 | 3.6 | 5.1 | 6.7 | 8.4 |
+
+| 20 | 2.2 | 2.2 | 2.4 | 5.4 | 8.2 | 4.1 | 3.2 |
+
+| 30 | 2.2 | 2.2 | 3.0 | 7.2 | 4.0 | 3.3 | 3.2 |
+
+| 40 | 2.2 | 2.2 | 3.2 | 8.6 | 3.1 | 3.3 | 2.8 |
+
+| 50 | 2.2 | 2.2 | 2.9 | 6.3 | 3.3 | 2.9 | 2.6 |
+
+| 60 | 2.2 | 2.2 | 3.4 | 4.0 | 3.3 | 2.7 | 2.6 |
+
+| 70 | 2.2 | 2.2 | 4.6 | 3.2 | 2.9 | 2.4 | 3.1 |
+
+| 80 | 2.2 | 2.2 | 6.6 | 3.4 | 2.7 | 2.8 | 3.6 |
+
+| 90 | 2.2 | 2.2 | 7.8 | 3.2 | 2.5 | 3.2 | 4.2 |
+
+| 100 | 2.2 | 2.2 | 5.2 | 2.8 | 2.8 | 3.8 | 4.8 |
+
+| 110 | 2.2 | 2.6 | 3.4 | 2.5 | 3.3 | 4.4 | 5.5 |
+
+| 120 | 2.2 | 6.9 | 3.1 | 2.7 | 3.8 | 5.0 | 6.2 |
+
+| 130 | 2.2 | 3.5 | 2.7 | 3.2 | 4.5 | 5.7 | 7.0 |
+
+
+
+| PC Diesel NOx [g/h] 2010 | PC Diesel NOx [g/h] 2010 | PC Diesel NOx [g/h] 2010 | PC Diesel NOx [g/h] 2010 | PC Diesel NOx [g/h] 2010 | PC Diesel NOx [g/h] 2010 | PC Diesel NOx [g/h] 2010 | PC Diesel NOx [g/h] 2010 |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| v [km/h] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] |
+
+| v [km/h] | - 6 | -4 | 2 | 0 | 2 | 4 | 6 |
+
+| o | 6.3 | 6.3 | 6.3 | 6.3 | 6.3 | 6.3 | 6.3 |
+
+| 1o | 6.3 | 6.3 | 6.3 | 11.5 | 15.S | 19.6 | 23.6 |
+
+| 2o | 6.3 | 6.3 | 7.2 | 16.5 | 23.o | 28.3 | 36.6 |
+
+| 3o | 6.3 | 6.3 | 9.3 | 2o.9 | 28.6 | 38.7 | 51.7 |
+
+| 4o | 6.3 | 6.3 | 1o.o | 24.o | 34.6 | 49.9 | 68.2 |
+
+| 5o | 6.3 | 6.3 | 9.o | 25.7 | 4o.7 | 61.6 | 83.7 |
+
+| 6o | 6.3 | 6.3 | 1o.7 | 28.6 | 5o.3 | 76.3 | 1o3.9 |
+
+| F 7o | 6.3 | 6.3 | 14.2 | 34.7 | 62.5 | 92.9 | 127.9 |
+
+| 8o | 6.3 | 6.3 | 19.4 | 43.1 | 76.4 | 113.1 | 154.1 |
+
+| 9o | 6.3 | 6.3 | 24.7 | 54.o | 91.9 | 135.9 | 182.6 |
+
+| 1oo | 6.3 | 6.3 | 31.3 | 68.4 | 112.5 | 162.7 | 215.2 |
+
+| F 11o | 6.3 | 7.9 | 41.7 | 85.6 | 137.2 | 193.1 | 251.6 |
+
+| 12o | 6.3 | 2o.o | 56.8 | 1o7.2 | 165.8 | 227.7 | 292.2 |
+
+| 13o | 6.3 | 3o.1 | 76.3 | 134.4 | 199.o | 266.9 | 337.6 |
+
+
+
+| PC Diesel Opacity [m2/h] 2010 | PC Diesel Opacity [m2/h] 2010 | PC Diesel Opacity [m2/h] 2010 | PC Diesel Opacity [m2/h] 2010 | PC Diesel Opacity [m2/h] 2010 | PC Diesel Opacity [m2/h] 2010 | PC Diesel Opacity [m2/h] 2010 | PC Diesel Opacity [m2/h] 2010 |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| v [km/h] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] |
+
+| v [km/h] | - 6 | -4 | -2 | 0 | 2 | 4 | 6 |
+
+| o | 1.4 | 1.4 | 1.4 | 1.4 | 1.4 | 1.4 | 1.4 |
+
+| 1o | 1.4 | 1.4 | 1.4 | 2.9 | 4.1 | 5.3 | 6.6 |
+
+| 2o | 1.4 | 1.4 | 1.7 | 4.4 | 6.4 | 8.4 | 1o.7 |
+
+| 3o | 1.4 | 1.4 | 2.2 | 5.7 | 8.5 | 11.3 | 14.7 |
+
+| 4o | 1.4 | 1.4 | 2.4 | 6.7 | 1o.2 | 14.3 | 19.o |
+
+| F 5o | 1.4 | 1.4 | 2.2 | 7.4 | 11.8 | 17.3 | 22.9 |
+
+| F 6o | 1.4 | 1.4 | 2.6 | 8.5 | 14.4 | 21.1 | 27.3 |
+
+| F 7o | 1.4 | 1.4 | 3.7 | 1o.2 | 17.5 | 25.2 | 31.4 |
+
+| F 8o | 1.4 | 1.4 | 5.3 | 12.4 | 21.1 | 29.o | 35.7 |
+
+| F 9o | 1.4 | 1.4 | 7.o | 15.3 | 24.9 | 32.8 | 4o.o |
+
+| 1oo | 1.4 | 1.4 | 9.3 | 19.1 | 28.9 | 37.o | 44.7 |
+
+| 11o | 1.4 | 1.8 | 12.1 | 23.4 | 33.o | 41.5 | 49.7 |
+
+| 12o | 1.4 | 5.5 | 16.1 | 27.9 | 37.5 | 46.4 | 54.9 |
+
+| 13o | 1.4 | 8.9 | 21.1 | 32.5 | 42.4 | 51.7 | 6o.6 |
+
+
+
+| TABLE 11 - OTOMOBİLLER İÇİN (P.C.) ZAMAN FAKTÖRÜ TECHNOLOGY STANDARD A | TABLE 11 - OTOMOBİLLER İÇİN (P.C.) ZAMAN FAKTÖRÜ TECHNOLOGY STANDARD A | TABLE 11 - OTOMOBİLLER İÇİN (P.C.) ZAMAN FAKTÖRÜ TECHNOLOGY STANDARD A | TABLE 11 - OTOMOBİLLER İÇİN (P.C.) ZAMAN FAKTÖRÜ TECHNOLOGY STANDARD A | TABLE 11 - OTOMOBİLLER İÇİN (P.C.) ZAMAN FAKTÖRÜ TECHNOLOGY STANDARD A | TABLE 11 - OTOMOBİLLER İÇİN (P.C.) ZAMAN FAKTÖRÜ TECHNOLOGY STANDARD A |
+
+| --- | --- | --- | --- | --- | --- |
+
+| ft | CO | CO | NOx | NOx | Opacity |
+
+| Passenger cars | Gasoline | Diesel | Gasoliııe | Diesel | Diesel |
+
+| r 2010 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 |
+
+| r 2015 | 0.75 | 0.74 | 0.65 | 0.76 | 0.55 |
+
+| 2020 | 0.58 | 0.65 | 0.44 | 0.52 | 0.29 |
+
+| 2025 | 0.46 | 0.60 | 0.30 | 0.40 | 0.17 |
+
+| F 2030 | 0.40 | 0.57 | 0.22 | 0.35 | 0.13 |
+
+
+
+| ft | CO | CO | NOx | NOx | Opacity |
+
+| --- | --- | --- | --- | --- | --- |
+
+| Pas s e nge r cars | Gasoliııe | Diesel | Gasoline | Diesel | Diesel |
+
+| 2010 | 2.6 | 1.0 | 1.0 | 1.0 | 1.0 |
+
+| 2015 | 2.0 | 1.0 | 1.0 | 1.0 | 1.0 |
+
+| 2020 | 1.6 | 1.0 | 1.0 | 1.0 | 1.0 |
+
+| 2025 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
+
+| 2030 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
+
+
+
+| Diesel | Gasoline | Gasoline |
+
+| --- | --- | --- |
+
+| 96% |  | 4% |
+
+
+
+| LDVCO [glı] 2010 | LDVCO [glı] 2010 | LDVCO [glı] 2010 | LDVCO [glı] 2010 | LDVCO [glı] 2010 | LDVCO [glı] 2010 | LDVCO [glı] 2010 | LDVCO [glı] 2010 |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| v [km/h] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] |
+
+| v [km/h] | - 6 | -4 | 2 | 0 | 2 | 4 | 6 |
+
+| 0 | 2.3 | 2.3 | 2.3 | 2.3 | 2.3 | 2.3 | 2.3 |
+
+| 10 | 8.1 | S.l | S.7 | 13.4 | 16.5 | 19.3 | 16.0 |
+
+| 20 | 8.1 | S.l | 10.8 | 17.4 | 16.1 | 10.7 | 11.2 |
+
+| 30 | 8.1 | S.l | 13.0 | 18.3 | 10.3 | 12.7 | 18.7 |
+
+| 40 | 8.1 | S.l | 14.8 | 13.1 | 11.6 | 17.S | 29.6 |
+
+| 50 | 8.1 | S.l | 15.6 | 10.8 | 15.2 | 26.6 | 43.1 |
+
+| 60 | 8.1 | S.l | 18.2 | 10.6 | 21.6 | 39.3 | 57.1 |
+
+| 70 | 8.1 | 8.1 | 16.3 | 15.0 | 31.7 | 53.3 | 74.0 |
+
+| F 80 | 8.1 | 8.1 | 10.5 | 21.8 | 45.9 | 68.3 | 94.3 |
+
+| F 90 | 8.1 | 13.7 | 12.2 | 32.1 | 58.8 | 86.3 | 11S.0 |
+
+| F 100 | 8.1 | 17.0 | 19.4 | 47.8 | 76.2 | 109.7 | 147.8 |
+
+| F 110 | 8.1 | 17.1 | 31.8 | 63.6 | 98.1 | 138.2 | 183.5 |
+
+| 120 | 14.9 | 17.2 | 49.5 | 83.9 | 125.2 | 172.7 | 196.4 |
+
+| 130 | 11.2 | 31.2 | 68.1 | 109.5 | 158.4 | 180.5 | 212.4 |
+
+
+
+| LDVNO* [g/h] 2010 | LDVNO* [g/h] 2010 | LDVNO* [g/h] 2010 | LDVNO* [g/h] 2010 | LDVNO* [g/h] 2010 | LDVNO* [g/h] 2010 | LDVNO* [g/h] 2010 | LDVNO* [g/h] 2010 |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| v [km/h] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] |
+
+| v [km/h] | - 6 | -4 | -2 | 0 | 2 | 4 | 6 |
+
+| 0 | 9.1 | 9.1 | 9.1 | 9.1 | 9.1 | 9.1 | 9.1 |
+
+| 10 | 9.8 | 9.8 | 10.4 | 15.2 | 1S.3 | 20.9 | 21.8 |
+
+| F 20 | 9.8 | 9.8 | 12.6 | 19.1 | 21.8 | 22.5 | 28.1 |
+
+| 30 | 9.8 | 9.8 | 14.8 | 21.7 | 22.6 | 31.8 | 44.6 |
+
+| F 40 | 9.8 | 9.8 | 16.6 | 22.1 | 28.9 | 36.7 | 62.6 |
+
+| 50 | 9.8 | 9.8 | 17.4 | 22.5 | 37.6 | 58.2 | SO.O |
+
+| F 60 | 9.8 | 9.8 | 19.8 | 26.3 | 50.0 | 75.5 | 108.9 |
+
+| 70 | 9.8 | 9.8 | 21.8 | 37.0 | 65.5 | 100.5 | 145.4 |
+
+| F 80 | 9.8 | 9.8 | 22.6 | 50.3 | 84.5 | 133.1 | 188.7 |
+
+| 90 | 9.8 | 15.6 | 30.5 | 66.1 | 112.4 | 171.8 | 239.1 |
+
+| F 100 | 9.8 | 21.S | 46.0 | 88.6 | 150.0 | 221.4 | 301.8 |
+
+| 110 | 9.8 | 24.5 | 65.7 | 122.S | 196.7 | 281.6 | 376.3 |
+
+| F 120 | 16.7 | 41.8 | 92.4 | 166.5 | 254.2 | 353.8 | 402.9 |
+
+| 130 | 22.4 | 64.S | 132.5 | 221.1 | 323.9 | 370.1 | 435.8 |
+
+
+
+| LDV Opacity [m2/h] 2010 | LDV Opacity [m2/h] 2010 | LDV Opacity [m2/h] 2010 | LDV Opacity [m2/h] 2010 | LDV Opacity [m2/h] 2010 | LDV Opacity [m2/h] 2010 | LDV Opacity [m2/h] 2010 | LDV Opacity [m2/h] 2010 |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| v [km/h] | Gı adieııt [%] | Gı adieııt [%] | Gı adieııt [%] | Gı adieııt [%] | Gı adieııt [%] | Gı adieııt [%] | Gı adieııt [%] |
+
+| v [km/h] | - 6 | -4 | -2 | 0 | 2 | 4 | 6 |
+
+| 0 | 6.4 | 6.4 | 6.4 | 6.4 | 6.4 | 6.4 | 6.4 |
+
+| 10 | 1.1 | 1.1 | 1.3 | 2.8 | 4.1 | 5.3 | 6.6 |
+
+| 20 | 1.1 | 1.1 | 1.9 | 4.5 | 6.6 | 8.7 | 10.9 |
+
+| 30 | 1.1 | 1.1 | 2.7 | 6.1 | 8.9 | 12.0 | 15.7 |
+
+| 40 | 1.1 | 1.1 | 3.4 | 7.5 | 11.2 | 13.S | 20.4 |
+
+| 50 | 1.1 | 1.1 | 3.7 | 8.6 | 13.7 | 19.3 | 24.3 |
+
+| 60 | 1.1 | 1.1 | 4.8 | 10.5 | 17.1 | 23.4 | 28.9 |
+
+| 70 | 1.1 | 1.1 | 6.5 | 13.5 | 21.1 | 27.7 | 33.9 |
+
+| 80 | 1.1 | 1.1 | S.8 | 17.2 | 25.2 | 32.3 | 39.1 |
+
+| r 90 | 1.1 | 3.0 | 11.7 | 21.3 | 29.4 | 37.2 | 44.6 |
+
+| 100 | 1.1 | 6.4 | 16.0 | 25.8 | 34.5 | 42.7 | 50.6 |
+
+| 110 | 1.1 | 10.0 | 21.2 | 30.9 | 40.0 | 48.7 | 57.2 |
+
+| r 120 | 3.4 | 14.9 | 26.4 | 36.5 | 46.1 | 55.3 | 60.3 |
+
+| 130 | 8.4 | 21.0 | 32.2 | 42.7 | 52.6 | 56.7 | 64.6 |
+
+
+
+| TABLE 17 - HAFİF YÜK ARAÇLARI İÇİN ZAMAN FAKTÖRÜ (ft) , TECHNOLOGY STANDARD A | TABLE 17 - HAFİF YÜK ARAÇLARI İÇİN ZAMAN FAKTÖRÜ (ft) , TECHNOLOGY STANDARD A | TABLE 17 - HAFİF YÜK ARAÇLARI İÇİN ZAMAN FAKTÖRÜ (ft) , TECHNOLOGY STANDARD A | TABLE 17 - HAFİF YÜK ARAÇLARI İÇİN ZAMAN FAKTÖRÜ (ft) , TECHNOLOGY STANDARD A |
+
+| --- | --- | --- | --- |
+
+| ft | CO | NOx | Opacity |
+
+| Light-Duty velıicles | dieseL gasoliııe mis | diesel. gasoliııe ınix | dieseL gasoliııe ınix |
+
+| 2010 | 1.00 | 1.00 | 1.00 |
+
+| 2015 | 0.72 | 0.76 | 0.54 |
+
+| 2020 | 0.47 | 0.49 | 0.30 |
+
+| 2025 | 0.39 | 0.36 | 0.20 |
+
+| 2030 | 0.35 | 0.30 | 0.15 |
+
+
+
+| HGV Diesel CO [g/h] 2010 | HGV Diesel CO [g/h] 2010 | HGV Diesel CO [g/h] 2010 | HGV Diesel CO [g/h] 2010 | HGV Diesel CO [g/h] 2010 | HGV Diesel CO [g/h] 2010 | HGV Diesel CO [g/h] 2010 | HGV Diesel CO [g/h] 2010 |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| v [k/h] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] | Gradient [%] |
+
+| v [k/h] | r - 6 | F -4 | -2 | F 0 | F 2 | F 4 | r 6 |
+
+| 0 | 12.5 | 12.5 | 12.5 | 12.5 | 12.5 | 12.5 | 12.5 |
+
+| 10 | 17.5 | 20.3 | 32.8 | 42.5 | 44.5 | 44.3 | 46.8 |
+
+| r 20 | 13.5 | 17.9 | 30.6 | 44.8 | 44.3 | 51.8 | 59.0 |
+
+| 30 | 12.4 | 18.1 | 38.8 | 44.9 | 49.0 | 60.9 | 68.9 |
+
+| 40 | 11.2 | 16.7 | 40.3 | 44.6 | 55.5 | 6S.1 | 77.7 |
+
+| 50 | 11.2 | 15.6 | 38.6 | 44.8 | 61.9 | 74.4 | S7.6 |
+
+| 60 | 11.2 | 13.9 | 35.4 | 46.3 | 67.2 | 81.3 | 98.6 |
+
+| 70 | 11.2 | 11.8 | 31.6 | 49.9 | 71.9 | SS.9 | 110.3 |
+
+| 80 | 11.2 | 12.2 | 35.9 | 55.7 | 77.1 | 98.3 | 124.4 |
+
+| 90 | 11.2 | 13.0 | 38.1 | 61.7 | 83.1 | 108.3 | 138.6 |
+
+| 100 | 11.2 | 14.7 | 43.1 | 67.4 | 89.8 | 11S.8 | 152.8 |
+
+| 110 | 11.2 | 17.4 | 46.2 | 72.8 | 96.7 | 129.3 | 166.9 |
+
+| 120 | 11.2 | 23.7 | 50.8 | 77.0 | 103.7 | 139.6 | 180.9 |
+
+| r 130 | 12.3 | 28.2 | 57.7 | 80.5 | 110.7 | 149.8 | 195.1 |
+
+
+
+| HGV Diesel NOx[g/h] 2010 | HGV Diesel NOx[g/h] 2010 | HGV Diesel NOx[g/h] 2010 | HGV Diesel NOx[g/h] 2010 | HGV Diesel NOx[g/h] 2010 | HGV Diesel NOx[g/h] 2010 | HGV Diesel NOx[g/h] 2010 | HGV Diesel NOx[g/h] 2010 |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| v [k/h] | Gı adieııt [%] | Gı adieııt [%] | Gı adieııt [%] | Gı adieııt [%] | Gı adieııt [%] | Gı adieııt [%] | Gı adieııt [%] |
+
+| v [k/h] | -6 | -4 | -2 | 0 | 2 | 4 | 6 |
+
+| 0 | 72.5 | 72.5 | 72.5 | 72.5 | 72.5 | 72.5 | 72.5 |
+
+| 10 | 38.1 | 55.5 | 115.9 | 163.5 | 192.8 | 219.5 | 251.0 |
+
+| 20 | 25.1 | 40.0 | 130.0 | 182.4 | 223.8 | 294.9 | 367.0 |
+
+| 30 | 22.4 | 41.3 | 147.6 | 202.1 | 271.2 | 387.4 | 494.5 |
+
+| 40 | 19.2 | 36.8 | 148.0 | 218.0 | 329.2 | 482.9 | 617.9 |
+
+| 50 | 19.2 | 32.2 | 148.1 | 229.7 | 397.0 | 574.7 | 747.4 |
+
+| 60 | 19.2 | 25.8 | 150.0 | 247.4 | 467.8 | 670.1 | 881.3 |
+
+| 70 | 16.S | 20.5 | 151.0 | 278.8 | 535.9 | 773.9 | 1,017.9 |
+
+| 80 | 19.2 | 21.4 | 152.0 | 327.9 | 614.7 | 883.0 | 1,159.0 |
+
+| 90 | 19.2 | 23.7 | 153.S | 390.1 | 697.7 | 990.1 | 1.298.8 |
+
+| F 100 | 19.2 | 29.3 | 190.9 | 465.8 | 779.5 | 1.094.3 | 1,437.6 |
+
+| 110 | 19.2 | 43.S | 231.6 | 547.9 | 856.7 | 1,197.2 | 1,575.5 |
+
+| 120 | 19.4 | 74.6 | 280.5 | 613.S | 926.6 | 1,299.2 | 1,712.6 |
+
+| 130 | 23.5 | 105.1 | 348.4 | 660.2 | 997.1 | 1.400.3 | 1,849.7 |
+
+
+
+| HGY Diesel Opacity [m2/h] 2010 | HGY Diesel Opacity [m2/h] 2010 | HGY Diesel Opacity [m2/h] 2010 | HGY Diesel Opacity [m2/h] 2010 | HGY Diesel Opacity [m2/h] 2010 | HGY Diesel Opacity [m2/h] 2010 | HGY Diesel Opacity [m2/h] 2010 | HGY Diesel Opacity [m2/h] 2010 |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| v [k/h] | Gradieııt [%] | Gradieııt [%] | Gradieııt [%] | Gradieııt [%] | Gradieııt [%] | Gradieııt [%] | Gradieııt [%] |
+
+| v [k/h] | - 6 | -4 | -2 | 0 | 2 | 4 | 6 |
+
+| 0 | 11.0 | 11.0 | 11.0 | 11.0 | 11.0 | 11.0 | 11.0 |
+
+| 10 | 13.6 | 13.4 | 15.5 | 18.2 | 21.4 | 25.1 | 28.2 |
+
+| 20 | 11.9 | 13.8 | 15.0 | 19.9 | 25.7 | 31.5 | 36.5 |
+
+| 30 | 11.4 | 13.8 | 17.3 | 22.5 | 29.7 | 38.0 | 45.3 |
+
+| 40 | 10.S | 13.3 | 17.8 | 24.9 | 33.9 | 44.6 | 53.6 |
+
+| 50 | 10.S | 13.0 | 17.6 | 26.3 | 38.7 | 50.6 | 62.5 |
+
+| 60 | 10.S | 12.4 | 17.5 | 28.0 | 43.6 | 57.1 | 71.9 |
+
+| 70 | 10.S | 11.2 | 16.5 | 30.4 | 48.2 | 64.0 | 81.7 |
+
+| 80 | 10.S | 11.4 | 17.4 | 33.9 | 53.3 | 71.S | 92.5 |
+
+| 90 | 10.S | 11.9 | 19.6 | 38.5 | 58.9 | 79.S | 103.3 |
+
+| 100 | 10.S | 12.9 | 21.9 | 43.7 | 64.6 | 87.S | 114.2 |
+
+| 110 | 10.S | 13.2 | 25.5 | 49.0 | 70.1 | 95.S | 124.9 |
+
+| 120 | 10.9 | 15.1 | 29.6 | 53.1 | 75.5 | 103.7 | 135.5 |
+
+| 130 | 11.4 | 18.0 | 34.6 | 56.3 | 80.9 | 111.5 | 146.3 |
+
+
+
+| Type | CO | H O | Opacity |
+
+| --- | --- | --- | --- |
+
+| 15t (Single lorry)* | 0.7 | 0.7 | 0.7 |
+
+| 231 (average)** | 1.0 | 1.0 | 1.0 |
+
+| 321 (Lorry-trailer combinatioa semitrailer) | 1.9 | 1.9 | 1.9 |
+
+| * including coaches ** average eoncıcts of 58% single loıries and 42% t ruci'trailer or cemi t raıler eombinat ionc | * including coaches ** average eoncıcts of 58% single loıries and 42% t ruci'trailer or cemi t raıler eombinat ionc | * including coaches ** average eoncıcts of 58% single loıries and 42% t ruci'trailer or cemi t raıler eombinat ionc | * including coaches ** average eoncıcts of 58% single loıries and 42% t ruci'trailer or cemi t raıler eombinat ionc |
+
+
+
+| TABLE 22 - AĞIR YÜK ARAÇLARI (HGV) İÇİN ZAMAN FAKTÖRÜ, TECHNOLOGY STANDARD A | TABLE 22 - AĞIR YÜK ARAÇLARI (HGV) İÇİN ZAMAN FAKTÖRÜ, TECHNOLOGY STANDARD A | TABLE 22 - AĞIR YÜK ARAÇLARI (HGV) İÇİN ZAMAN FAKTÖRÜ, TECHNOLOGY STANDARD A | TABLE 22 - AĞIR YÜK ARAÇLARI (HGV) İÇİN ZAMAN FAKTÖRÜ, TECHNOLOGY STANDARD A |
+
+| --- | --- | --- | --- |
+
+| Year | CO | NO* | Opacity |
+
+| 2010 | 1.00 | 1.00 | 1.00 |
+
+| F 2015 | 0.58 | 0.61 | 0.59 |
+
+| F 2020 | 0.34 | 0.35 | 0.33 |
+
+| 2025 | 0.25 | 0.23 | 0.21 |
+
+| r 2030 | 0.21 | 0.18 | 0.16 |
+
+
+
+| TABLE 23 | - TECHNOLOGY STANDARD GROUP B İÇİN DÖNÜŞÜM FAKTÖRÜ | - TECHNOLOGY STANDARD GROUP B İÇİN DÖNÜŞÜM FAKTÖRÜ | - TECHNOLOGY STANDARD GROUP B İÇİN DÖNÜŞÜM FAKTÖRÜ |
+
+| --- | --- | --- | --- |
+
+| Yellide type | CO | NOx | PM |
+
+| PC' gasoline. diesel | 1.5/2.0 | 1.8/1.1 | -/1.4 |
+
+| LDV mL\ | 2.7 | 1.4 | 2.2 |
+
+| HGV diesel | 1.9 | 1.6 | 2.5 |
+
+
+
+| Yellide type | CO | HO | PM |
+
+| --- | --- | --- | --- |
+
+| PC gasoline. diesel | 2.9/4.0 | 2.8/1.2 | -t 2.0 |
+
+| LDV mix | 3.5 | 1.5 | 2.6 |
+
+| HGV diesel | 2.3 | 1.8 | 2.8 |
+
+
+
+| TABLE 25 - A.B,C STANDARDI KATEGORİ SEÇİM KRİTERİ | TABLE 25 - A.B,C STANDARDI KATEGORİ SEÇİM KRİTERİ | TABLE 25 - A.B,C STANDARDI KATEGORİ SEÇİM KRİTERİ | TABLE 25 - A.B,C STANDARDI KATEGORİ SEÇİM KRİTERİ |
+
+| --- | --- | --- | --- |
+
+| Refeıence year: 2010 | Peıcentage of pre-El'l vehicles | Peıcentage of pre-El'l vehicles | Peıcentage of pre-El'l vehicles |
+
+| Type | Standard A | Standard B | Standard C |
+
+| PC' gasolıne | <20% | 20%-30% | > 30% |
+
+| PC diesel | <5% | 5%-30% | > 30% |
+
+| LDV gasolıne | <40% | 40%-60% | >60% |
+
+| LDV diesel | <5% | 5%-25% | >25% |
+
+| HVG diesel | <5% | 5%-40% | >40% |
+
+
+
+| TABLE 26 - TECHNOLOGY STANDARD GROUP B İÇİN YÜKSEKLİK FAKTÖRÜ | TABLE 26 - TECHNOLOGY STANDARD GROUP B İÇİN YÜKSEKLİK FAKTÖRÜ | TABLE 26 - TECHNOLOGY STANDARD GROUP B İÇİN YÜKSEKLİK FAKTÖRÜ | TABLE 26 - TECHNOLOGY STANDARD GROUP B İÇİN YÜKSEKLİK FAKTÖRÜ | TABLE 26 - TECHNOLOGY STANDARD GROUP B İÇİN YÜKSEKLİK FAKTÖRÜ | TABLE 26 - TECHNOLOGY STANDARD GROUP B İÇİN YÜKSEKLİK FAKTÖRÜ |
+
+| --- | --- | --- | --- | --- | --- |
+
+| fh | CO | CO | HO | HO | Opacity |
+
+| Passenger cars | Gasolıne | Diesel | Gasoline | Diesel | Diesel |
+
+| Om | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
+
+| 1.000 m | 2.2 | 1.2 | 1.0 | 1.0 | 1.0 |
+
+| 2.000 m | 3.0 | 1.5 | 1.0 | 1.0 | r 1.25 |
+
+| 3.000 m | 4.0 | 1.5 | 1.0 | 1.0 | 1.5 |
+
+
+
+|  | PC/LDV | PC/LDV | HGY | HGV |
+
+| --- | --- | --- | --- | --- |
+
+|  | [mg/km] | [ın-.ktn] | [mg/km] | [nr/km] |
+
+| Non-exhaust PM25 | r 28 | 0.1316 | r 104 | 0.4S8S |
+
+
+
+| TABLE 28- PM25 AND OPACTTY FACTORS FOR NON-EXHAUST EMISSIONS | TABLE 28- PM25 AND OPACTTY FACTORS FOR NON-EXHAUST EMISSIONS | TABLE 28- PM25 AND OPACTTY FACTORS FOR NON-EXHAUST EMISSIONS | TABLE 28- PM25 AND OPACTTY FACTORS FOR NON-EXHAUST EMISSIONS | TABLE 28- PM25 AND OPACTTY FACTORS FOR NON-EXHAUST EMISSIONS | TABLE 28- PM25 AND OPACTTY FACTORS FOR NON-EXHAUST EMISSIONS | TABLE 28- PM25 AND OPACTTY FACTORS FOR NON-EXHAUST EMISSIONS | TABLE 28- PM25 AND OPACTTY FACTORS FOR NON-EXHAUST EMISSIONS |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+|  |  | PC | PC | PC | HGY | HGY | HGY |
+
+| v [kınlı] | v [kınlı] | ım | [ınVh] | [ınVh] | [g/b] | [m2/h] | [m2/h] |
+
+|  | 0 | 0 |  | 0 | 0 |  | 0 |
+
+|  | 10 | 0.28 | 1.3 | 1.3 | 1.04 | 4.9 | 4.9 |
+
+|  | 20 | 0.56 | 2.6 | 2.6 | 2.08 | 9.S | 9.S |
+
+|  | 30 | 0.84 | 3.9 | 3.9 | 3.12 | 14.7 | 14.7 |
+
+|  | 40 | 1.12 | 5.3 | 5.3 | r 4.16 | 19.6 | 19.6 |
+
+|  | 50 | 1.4 | 6.6 | 6.6 | 5.2 | 24.4 | 24.4 |
+
+|  | 60 | r 1.68 | 7.9 | 7.9 | r 6.24 | 29.3 | 29.3 |
+
+|  | 70 | r 1.96 | 9.2 | 9.2 | r 7.28 | 34.2 | 34.2 |
+
+|  | 80 | r 2.24 | 10.5 | 10.5 | S.32 | 39.1 | 39.1 |
+
+|  | 90 | r 2.52 | 11.8 | 11.8 | r 9.36 | 44.0 | 44.0 |
+
+|  | 100 | 2.S | 13.2 | 13.2 | 10.4 | 48.9 | 48.9 |
+
+|  | 110 | 3.08 | 14.5 | 14.5 |  |  |  |
+
+|  | 120 | r 3.36 | 15.8 | 15.8 |  |  |  |
+
+|  | 130 | r 3.64 | 17.1 | 17.1 |  |  |  |
+
+
+
+| Yolun Adı | Karayolu Tüneli |
+
+| --- | --- |
+
+| Yolun Sınıfı | Bölünmüş Devlet Yolu |
+
+| Girişi |  |
+
+| Çıkışı |  |
+
+| Tünel Tipi | Çift Ayrık Tüp |
+
+| Tünel Uzunluğu | 2000 m |
+
+| Tünel Yüksekliği | 7.5 m |
+
+| Kesit Alanı | 65 m2 |
+
+| Tünel Çevresi | 31 m |
+
+| Hidrolik Çapı | 8.39 m |
+
+| Şerit Sayısı | 2x2 |
+
+| Şerit Genişliği | 3.91 m |
+
+| Trafik Akışı | Tek Yönlü |
+
+| Ortalama Trafik | 3976 araç/gün |
+
+
+
+| 2030 Yılı Trafik Tahminleri | 2030 Yılı Trafik Tahminleri | 2030 Yılı Trafik Tahminleri | 2030 Yılı Trafik Tahminleri | 2030 Yılı Trafik Tahminleri | 2030 Yılı Trafik Tahminleri |
+
+| --- | --- | --- | --- | --- | --- |
+
+| Araç Türü | Araç Sayısı (araç/gün) | Araç Yüzdesi | Benzinli | Dizel | %10 pik değer |
+
+| P.C. | 2846 | 72% | 50% | 50% | 285 |
+
+| LDV | 175 | 4% | 80% | 20% | 18 |
+
+| HGV | 955 | 24% | - | 100% | 96 |
+
+| Toplam | 3976 | 100% |  |  | 398 |
+
+
+
+| 0 km/h; durgun trafikte araç yoğunlukları | 0 km/h; durgun trafikte araç yoğunlukları | 0 km/h; durgun trafikte araç yoğunlukları |
+
+| --- | --- | --- |
+
+| Araç Türü | Benzinli | Dizel |
+
+| P.C. | 250 | 250 |
+
+| LDV | 35 |  |
+
+| HGV | - | 130 |
+
+|  |  |  |
+
+
+
+| 10 km/h; ağır trafikte araç yoğunlukları | 10 km/h; ağır trafikte araç yoğunlukları | 10 km/h; ağır trafikte araç yoğunlukları |
+
+| --- | --- | --- |
+
+| Araç Türü | Benzinli | Dizel |
+
+| P.C. | 142 | 142 |
+
+| LDV | 18 |  |
+
+| HGV | - | 96 |
+
+
+
+| 60 km/h; akıcı trafikte araç yoğunlukları | 60 km/h; akıcı trafikte araç yoğunlukları | 60 km/h; akıcı trafikte araç yoğunlukları |
+
+| --- | --- | --- |
+
+| Araç Türü | Benzinli | Dizel |
+
+| P.C. | 21 | 21 |
+
+| LDV | 2 |  |
+
+| HGV | - | 13 |
+
+
+
+| Emisyon Hesabı Formulleri | Emisyon Hesabı Formulleri |
+
+| --- | --- |
+
+| Qco= | Z [(npcx Qep-c-) + (nLDv x QeLDV) + (nHGV x QeHGV)] x (1/AC) |
+
+| QNO2= | Z [(npc x Qepc) + (nLDV x QeLDV) + (nHGV x QeHGV)] x (1/AC) |
+
+| Qop= | z [(npc x Qep.c.) + (nLDv x QeLDv) + (nHGv x QeHGv)] x (1/K) |
+
+
+
+| TABLE 6 - BASE EMLSSION FACTORS FOR CO (EC EURO REGTJLATION) GASOLİNE PASSENGER CARS | TABLE 6 - BASE EMLSSION FACTORS FOR CO (EC EURO REGTJLATION) GASOLİNE PASSENGER CARS | TABLE 6 - BASE EMLSSION FACTORS FOR CO (EC EURO REGTJLATION) GASOLİNE PASSENGER CARS | TABLE 6 - BASE EMLSSION FACTORS FOR CO (EC EURO REGTJLATION) GASOLİNE PASSENGER CARS | TABLE 6 - BASE EMLSSION FACTORS FOR CO (EC EURO REGTJLATION) GASOLİNE PASSENGER CARS | TABLE 6 - BASE EMLSSION FACTORS FOR CO (EC EURO REGTJLATION) GASOLİNE PASSENGER CARS | TABLE 6 - BASE EMLSSION FACTORS FOR CO (EC EURO REGTJLATION) GASOLİNE PASSENGER CARS | TABLE 6 - BASE EMLSSION FACTORS FOR CO (EC EURO REGTJLATION) GASOLİNE PASSENGER CARS |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| PC gasoline CO [g/h] 2010 | PC gasoline CO [g/h] 2010 | PC gasoline CO [g/h] 2010 | PC gasoline CO [g/h] 2010 | PC gasoline CO [g/h] 2010 | PC gasoline CO [g/h] 2010 | PC gasoline CO [g/h] 2010 | PC gasoline CO [g/h] 2010 |
+
+| v [km/h] | Gıadient [%] | Gıadient [%] | Gıadient [%] | Gıadient [%] | Gıadient [%] | Gıadient [%] | Gıadient [%] |
+
+| v [km/h] | -6 | -4 | -2 | 0 | 2 | 4 | 6 |
+
+| 0 | 20.5 | 20.5 | 20.5 | 20.5 | 20.5 | 20.5 | 20.5 |
+
+| 10 | 24.4 | 25.9 | 27.8 | 29.5 | 32.0 | 35.5 | 42.9 |
+
+| 20 | 28.3 | 31.4 | 35.2 | 38.6 | 43.6 | 50.5 | 65.4 |
+
+| 30 | 28.2 | 32.9 | 38.9 | 46.0 | 54.6 | 64.6 | 87.4 |
+
+
+
+| TABLE 23 - C'ORRELATIONFACTORFORCOUNTREESREFERRING TO TECHNOLOGY STANDARD GROUP B | TABLE 23 - C'ORRELATIONFACTORFORCOUNTREESREFERRING TO TECHNOLOGY STANDARD GROUP B | TABLE 23 - C'ORRELATIONFACTORFORCOUNTREESREFERRING TO TECHNOLOGY STANDARD GROUP B | TABLE 23 - C'ORRELATIONFACTORFORCOUNTREESREFERRING TO TECHNOLOGY STANDARD GROUP B |
+
+| --- | --- | --- | --- |
+
+| Yellide type | CO | NOı | PM |
+
+| PCgasoline, diesel | 1.5/2.0 | 1.8/1.1 | -/1.4 |
+
+| LDV nıL\ | 2.7 | 1.4 | 2,2 |
+
+| HGV diesel | 1.9 | 1.6 | 2,5 |
+
+
+
+| TABLE 26 - ALTTTUDE FACTORFH FOR TECHNOLOGY STANDARD GROUP B | TABLE 26 - ALTTTUDE FACTORFH FOR TECHNOLOGY STANDARD GROUP B | TABLE 26 - ALTTTUDE FACTORFH FOR TECHNOLOGY STANDARD GROUP B | TABLE 26 - ALTTTUDE FACTORFH FOR TECHNOLOGY STANDARD GROUP B | TABLE 26 - ALTTTUDE FACTORFH FOR TECHNOLOGY STANDARD GROUP B | TABLE 26 - ALTTTUDE FACTORFH FOR TECHNOLOGY STANDARD GROUP B |
+
+| --- | --- | --- | --- | --- | --- |
+
+|  | co | co | HO | HO | Opacity |
+
+| Passenger cars | Gasolıne | Diesel | Gasoline | Diesel | Diesel |
+
+| Om | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
+
+| 1.000 m | 2.2 | 1.2 | 1.0 | 1.0 | 1.0 |
+
+| 2.000 m | 3.0 | 1.5 | 1.0 | 1.0 | 1.25 |
+
+| 3.000 m | 4.0 | 1.5 | 1.0 | 1.0 | 1.5 |
+
+
+
+| TABLE 28 PM25 AND OPACTTY FACTORS FORNON EXHAUST EMISSIONS | TABLE 28 PM25 AND OPACTTY FACTORS FORNON EXHAUST EMISSIONS | TABLE 28 PM25 AND OPACTTY FACTORS FORNON EXHAUST EMISSIONS | TABLE 28 PM25 AND OPACTTY FACTORS FORNON EXHAUST EMISSIONS | TABLE 28 PM25 AND OPACTTY FACTORS FORNON EXHAUST EMISSIONS |
+
+| --- | --- | --- | --- | --- |
+
+|  | PC | PC | HGY | HGY |
+
+| v [kııılı] | ım | [ınVh] | [g/b] | [nr/h] |
+
+| 0 | 0 | 0 | 0 | 0 |
+
+| 10 | 0.28 | 1.3 | 1.04 | 4.9 |
+
+| 20 | 0.56 | 2.6 | 2.08 | 9.S |
+
+| 30 | 0.84 | 3.9 | 3.12 | 14.7 |
+
+
+
+| CO DEĞERLERİ VE GÖRÜŞ FAKTÖRÜ İÇİN DİZAYN VE EŞİK DEĞERLERİ | CO DEĞERLERİ VE GÖRÜŞ FAKTÖRÜ İÇİN DİZAYN VE EŞİK DEĞERLERİ | CO DEĞERLERİ VE GÖRÜŞ FAKTÖRÜ İÇİN DİZAYN VE EŞİK DEĞERLERİ | CO DEĞERLERİ VE GÖRÜŞ FAKTÖRÜ İÇİN DİZAYN VE EŞİK DEĞERLERİ |
+
+| --- | --- | --- | --- |
+
+| Trafik Durumu | CO | Görüş Mesafesi | Görüş Mesafesi |
+
+| Trafik Durumu | CO | Sönümleme katsayısı K | İletim s (Kiriş uzunluğu: 100 m)	’ |
+
+| Trafik Durumu | ppm | 10'3 m1 | % |
+
+| Serbest akışlı yoğun trafik; 50-100 km/saat | 70 | 5 | 60 |
+
+| Günlük yoğun trafik, tüm şeritlerin etkilendiği | 70 | 7 | 50 |
+
+| Olağandışı yoğun trafik, tüm şeritlerin etkilendiği | 100 | 9 | 40 |
+
+| Trafik akarken planlanmış bakım çalışmaları esnasmda* | 20 | 3 | 75 |
+
+| Tünel kapaUİması gereken eşik değerler* * | 200 | 12 | 30 |
+
+
+
+| Tünelin Geometrik Özellikleri | Tünelin Geometrik Özellikleri | Tünelin Geometrik Özellikleri | Tünelin Geometrik Özellikleri |
+
+| --- | --- | --- | --- |
+
+| Tünel Uzunluğu | L | 2000 | m |
+
+| Tünel Kesit Alanı | AK | 65 | m2 |
+
+| Tünel Hidrolik Çapı | DH | 8,39 | m |
+
+| Tünel Yüksekliği | H | 7,5 | m |
+
+| Tünel Eğimi | d | 3,2 | % |
+
+| Yerçekimi İvmesi | g | 9,81 | m/s2 |
+
+| Havanın Yoğunluğu | p | 1,2 | kg/m3 |
+
+| Havanın Özgül Kütlesi | cp | 1,009 | J/kg K |
+
+| Fr sayısına bağlı katsayı | K1 | 0,61 | - |
+
+| Eğim Faktörü | K2 | 1,09 | - |
+
+| Ortam İlk Sıcaklığı | T0 | 20 | 0C |
+
+
+
+| Yangın Yükü | Poziti | f Eğim | Negatif Eğim | Negatif Eğim |
+
+| --- | --- | --- | --- | --- |
+
+| Yangın Yükü | Vc m/s | Tf 0C | Vc m/s | Tf 0C |
+
+| 30 MW | 2,40 | 170,00 | 2,70 | 152,20 |
+
+| 100 MW | 3,00 | 405,90 | 3,50 | 356,00 |
+
+| 200 MW | 3,40 | 714,00 | 3,90 | 619,30 |
+
+
+
+| nj x Apj= | Aptunel + Appiston+ Apatm + Aphava |
+
+| --- | --- |
+
+| nj x Apj= | Apgiriş + Apduvar + Apçıkış + Appiston+ Apatm + Aphava |
+
+
+
+| Tünelin Geometrik Özellikleri | Tünelin Geometrik Özellikleri | Tünelin Geometrik Özellikleri | Tünelin Geometrik Özellikleri |
+
+| --- | --- | --- | --- |
+
+| Tünel Uzunluğu | L | 2000 | m |
+
+| Tünel Kesit Alanı | AK | 65 | m2 |
+
+| Tünel Hidrolik Çapı | DH | 8,39 | m |
+
+| Tünel Çevre Uzunluğu | P | 31 | m |
+
+| Tünel Eğimi | d | 3,2 | % |
+
+
+
+| Tünel Aerodinamik Karakteristikleri | Tünel Aerodinamik Karakteristikleri | Tünel Aerodinamik Karakteristikleri | Tünel Aerodinamik Karakteristikleri |
+
+| --- | --- | --- | --- |
+
+| Havanın Yoğunluğu | p | 1,2 | kg/m3 |
+
+| Tünel Yüzey Pürüzlülük Katsayısı (Moody) | A | 0,06 | - |
+
+| Portal Girişi Kayıp Katsayısı | ç | 0,5 | - |
+
+| Prandtl Sayısı | Pr | 0,7 | - |
+
+| Atmosferik Basınç Kaybı | APatm | 50 | Pa |
+
+| Yangın Kaynaklı Basınç Kaybı (200 MW) | y angı | 80 | Pa |
+
+| Yerçekimi İvmesi | g | 9,81 | m/s2 |
+
+| Tünel İçi Yangına Karşı Hava Hızı + EĞİM | VH | 4 | m/s |
+
+| Tünel İçi Yangına Karşı Hava Hızı - EĞİM | VH | 4 | m/s |
+
+| Dumanın Yoğunluğu (Kritik Sıcaklık)+ | p | 0,58 | kg/m3 |
+
+| Dumanın Yoğunluğu (Kritik Sıcaklık)- | p | 0,66 | kg/m4 |
+
+| Rüzgar Hızı | VR | 3,5 | m/s |
+
+| Emisyon Durumu Trafik Hızı | VR | 1,5 | m/s |
+
+| Piston Etkisi Pozitif Hız | VR | 1,28 | m/s |
+
+
+
+| Jet Fan Karakteristikleri | Jet Fan Karakteristikleri | Jet Fan Karakteristikleri | Jet Fan Karakteristikleri |
+
+| --- | --- | --- | --- |
+
+| Ortalama Jet Fan Çıkış Hızı | Vj | 33 | m/s |
+
+| Jet Fan İtki Kuvveti | FJ | 1200 | N |
+
+| Jet Fan Verimi | nı | 0,85 | - |
+
+| Duvar Sürtünmesi Etkinlik Verimi Verimi | 12 | 0,85 | - |
+
+| Jet Fanların Beraber Çalışma Verimliliği | n3 | 0,85 | - |
+
+
+
+| Termal Karakteristikler | Termal Karakteristikler | Termal Karakteristikler | Termal Karakteristikler |
+
+| --- | --- | --- | --- |
+
+| Yangın Isıl Gücü | Q | 200 | MW |
+
+| Havanın Özgül Kütlesi | cp | 1,009 | J/kg K |
+
+| Duvar Emisyon Değeri | £ | 0,7 | - |
+
+| Stefan Boltzman Sabiti | CT | 5,68 x 10 -8 | W/m2K4 |
+
+| Tünel Yüzey Sıcaklığı | Tduv ar |  | 0C |
+
+
+
+| Taşıt Özellikleri | Taşıt Özellikleri | Taşıt Özellikleri | Taşıt Özellikleri |
+
+| --- | --- | --- | --- |
+
+| P.C. Yüzey Alanı | APC | 2 | m2 |
+
+| LDV Yüzey Alanı | ALDV | 3 | m2 |
+
+| HGV Yüzey Alanı | AHGV | 7 | m2 |
+
+| P.C. Yüzey Direnci Faktörü | CW | 0,4 | - |
+
+| Araç Sayısı (Yangın) | N | 86 | - |
+
+| Araç Sayısı (Pik Saat) | N | 590 | - |
+
+
+
+| Pa/m | 0 | 500 | 1000 | 1500 | 2000 |
+
+| --- | --- | --- | --- | --- | --- |
+
+| APgiriş | 4,80 | 4,80 | 4,80 | 4,80 | 4,80 |
+
+| APd uvar | 23,90 | 20,33 | 16,75 | 13,18 | 9,60 |
+
+| AP çıkış | 9,60 | 9,60 | 9,60 | 9,60 | 9,60 |
+
+| APh ava | 9,60 | 9,60 | 9,60 | 9,60 | 9,60 |
+
+| AP atm | 50,00 | 50,00 | 50,00 | 50,00 | 50,00 |
+
+| AP yangı n | 80,00 | 80,00 | 80,00 | 80,00 | 80,00 |
+
+| AP blokaj | 0,00 | 41,32 | 82,64 | 123,96 | 165,28 |
+
+| AP baca | -388,53 | -291,40 | -194,27 | -97,13 | 0,00 |
+
+| ZAP | -210,63 | -75,75 | 59,12 | 194,00 | 328,88 |
+
+
+
+| Pa/m | 0 | 500 | 1000 | 1500 | 2000 |
+
+| --- | --- | --- | --- | --- | --- |
+
+| APgiriş | 6,08 | 6,08 | 6,08 | 6,08 | 6,08 |
+
+| APduvar | 23,90 | 20,33 | 16,75 | 13,18 | 9,60 |
+
+| APçıkış | 12,15 | 12,15 | 12,15 | 12,15 | 12,15 |
+
+| APhava | 12,15 | 12,15 | 12,15 | 12,15 | 12,15 |
+
+| APatm | -50,00 | -50,00 | -50,00 | -50,00 | -50,00 |
+
+| AP yangın | 80,00 | 80,00 | 80,00 | 80,00 | 80,00 |
+
+| APblokaj | 0,00 | 41,32 | 82,64 | 123,96 | 165,28 |
+
+| APbaca | 341,56 | 256,17 | 170,78 | 85,39 | 0,00 |
+
+| ZAP | 425,84 | 378,19 | 330,55 | 282,90 | 235,25 |
+
+
+
+| Fan Devreye Alma Noktalan | CO (ppm) | Işık Zayıflama Katsayısı (m'1) |
+
+| --- | --- | --- |
+
+| Tünel Kapanışı | 200 | 14 x 10’3 |
+
+| Adım 4 Tüm Fanlar | 150 | 10 x 10’3 |
+
+| Adım 3 | 100 | 7,5 x 10'3 |
+
+| Adım 2 | 60 | 5 x 10'3 |
+
+| Adım 1 | 30 | 2,5 x 10'3 |
+
+
+
+| Fan Devreye Alma Noktalan | CO (ppnı) | Işık Zayi İlama Katsayısı (m1) |
+
+| --- | --- | --- |
+
+| Tünelin yeniden açılışı | 150 | 10xl0'3 |
+
+| Adım 4 tüm jet fanlar | 130 | 9x1ü'3- |
+
+| Adım 3 | 80 | 6,5x10'3 |
+
+| Ad uıı 2 | 40 | 4x10'* |
+
+| Ad un 1 | 30 | 2,5x10'3 |
+
+
+
+| Araç Tıpı | Tipik Yangın Yükü (MJ) | Tipik Yangın Gücü (MW) | Notlar |
+
+| --- | --- | --- | --- |
+
+| Otomobil | 3.000-3.900 | 2,5-5 | Finlandiya'da yangın testlerinde kullanılan yüklerdir. |
+
+| Otobüs | 41.000 | 20 | EUREKA(A paıı-Euıopeatı ııetwork for market-oriented, iııdııstrial R&D) tarafından yangın testlerinde kullanılmıştır. |
+
+| Yüklü Kamyon | 65.000 | 20-30 | EUREKA(A paıı-Euıopeatı ııetwork for market-oriented, iııdııstrial R&D) tarafından yangın testlerinde kullanılmıştır. |
+
+| Ağır Yük Taşıyan Araç | 88.000 | 30 | EUREKA(A paıı-Euıopeatı ııetwork for market-oriented, iııdııstrial R&D) tarafından yangın testlerinde kullanılmıştır. |
+
+| 50 ııT benzin taşıyan Tanker | 1 500.000 | 300 | Büyük boyuttaki yangınlar için Hollanda'da kabul edilen değerlerdir. |
+
+
+
+| SİSTEM TİPİ | ALGILAYICI TİPİ | ORANSAL ARTIŞ | ALGILAMA HIZI | TESPİT ARALIĞI | MAKSİMUMUM MESAFE | YANLIŞ ALARM |
+
+| --- | --- | --- | --- | --- | --- | --- |
+
+| DSA-1. Kablo tipi sıcaklık sensörü | Sıcaklık | Evet | Orta / Yüksek | 2-10 m | 2500 m | Düşük |
+
+| DSA-2. Fiber optik kablo | Sıcaklık | Evet | Orta | 1-2 m | 8000 m | Düşük |
+
+| DSA-3. Doğrusal kablo sensör | Sıcaklık | Hayır | Düşük | 250 m | 250 m | Düşük |
+
+| DSA-4. Bakır Boru | Sıcaklık | Evet | Orta | 100 m | 100 m | Düşük |
+
+| Hava örneklemeli sistem | Duman | Evet | Yüksek | 200 m | 200 m | Orta |
+
+| Video analiz | Duman / Alev |  | Yüksek | 50-100 m | 50-100 m | Yüksek |
+
+| Alev dedektörü | Alev |  | Orta | 25-50 m | 25-50 m | Düşük |
+
+
+
+| YAKIT | YANGIN ALANI | DSA-1 BAKIR BORU | DSA-2 FİBER OPTİK KABLO | DSA-3 KABLO TİPİ SICAKLIK SENSÖRÜ |
+
+| --- | --- | --- | --- | --- |
+
+| PETROL | 2 M2 | 28 S | 42 S | 13 S |
+
+| PETROL | 4 M2 | 19 S | 30 S | 11 S |
+
+| DİZEL | 2 M2 | 83 S | 60 S | 31 S |
+
+| DİZEL | 4 M2 | 30 S | 48 S | 17 S |
+
+| N-HEPTAN | 1 M2 | 165 S | 98 S | 46 S |
+
+| N-HEPTAN | 2 M2 | 37 S | 68 S | 18 S |
+
+| N-HEPTAN | 4 M2 | 25 S | 61 S | 13 S |
+
+
+
+| Aktivite | İşletme | Bakım |
+
+| --- | --- | --- |
+
+| Trafik Yönetimi | 29 | 2 |
+
+| Ekipman Yönetimi | 21 | 10 |
+
+| Güç Tüketimi | 19 | 11 |
+
+| Duvarların Temizlenmesi | 3 | 27 |
+
+| Ekipmanların Temizlenmesi | 4 | 27 |
+
+| Testler, ölçümler | 7 | 22 |
+
+| Planlanmış (Periyodik) Bakımlar | 9 | 20 |
+
+| Planlanmamış Bakımlar | 13 | 16 |
+
+| Yenileme Çalışmaları | 5 | 25 |
+
+
+
+| Ekipmanın Tipi | Ortalama Bakım Aralığı | Emniyetli Bağlantı Riski | Trafiğe Etkisi |
+
+| --- | --- | --- | --- |
+
+| Yüksek gerilim güç kaynakları | 6 aydan 1 yıla kadar | en yüksek | düşük (*1) ya da yüksek (*2) |
+
+| Orta ve düşük gerilim enerji dağıtımı | 6 ay | en yüksek | düşük |
+
+| Normal aydınlatma | 2 ya da 3 ay | orta | yüksek |
+
+| Tahliye aydınlatması | 1 ya da 2 ay | yüksek | yüksek |
+
+| Normal havalandırma | 6 ay | orta | düşük ya da yüksek |
+
+| Acil Havalandırma | 6 ay | yüksek | düşük (*3) ya da yüksek (*4) |
+
+| Sabit İşaretlemeler | 2 ya da 3 ay | yüksek | yüksek |
+
+| Dinamik işaretlemeler (Değişken mesaj sistemi (VMS) dahil) | 2 ya da 3 ay | yüksek | yüksek |
+
+| Bariyerler | 4 ay | yüksek | yüksek |
+
+| Yangınla mücadele su dağıtım hatları | 6 ay | yüksek | orta |
+
+| Sıvıların tahliyesi (toplama, pompalama,işleme) | 6 ay | orta | düşük |
+
+| Kontrol sistemi; sensörler | 1 ya da 2 ay | yüksek | yüksek |
+
+| Kontrol sistemi, PLC aygıtları, data hatları | 4 ay | yüksek | düşük |
+
+| SCADA sistemi süpörvizörlüğü | 2 ay | yüksek | düşük |
+
+| Kameralar | 1 ya da 2 ay | yüksek | yüksek |
+
+| Olay algılama sistemleri ve video görüntüleme cihazları | 4 ay | yüksek | düşük |
+
+| Kontrol odası içinden video izleme | 2 ay | yüksek | düşük |
+
+| Acil çağrı hattı | 2 ay | yüksek | yüksek |
+
+| Radio iletim hattı | 4 ya da 6 ay | yüksek | yüksek |
+
+| Tünel içi yangın algılama sistemi | 2 ay | yüksek | yüksek |
+
+| Gabari ve araç sayım sistemleri | 2 ay | düşük (*5) | yüksek |
+
+| Teknik odalar ve kontrol odası arası erişim kontrolleri | 6 ay | düşük | düşük |
+
+| İç telefon hatları | 6 ay | düşük | düşük |
+
+| Teknik oda ve kontrol merkezinden yangın algılama | 6 ay | orta | düşük |
+
+
+
+| Ekipmanın Tipi | Ölçümler |
+
+| --- | --- |
+
+|  |  |
+
+| Yüksek Gerilim Güç Kaynakları | Normal güç modundan acil durum güç moduna geçmek için gereken zamanın ölçülmesi ve bunun tersi Bir trafodan diğerine enerji geçişi için gereken sürenin ölçülmesi |
+
+| Orta ve Düşük Gerilim Enerji Dağıtımı | UPS'in ihtiyaçları karşılayıp karşılamadığının ölçülmesi Jeneratörün çalışmasının kontrolü (frekans, voltaj v.b.) Jeneratörün devreye girme zamanının ölçülmesi Jeneratörün gürültü ve titreşim seviyelerinin ölçülmesi |
+
+| Normal Aydınlatma | Farklı seviyelerde tünel içinde, tünel girişinde aydınlık ve parlaklığın ölçülmesi Kaldırımlar ve duvarlarda parlaklık ve aydınlatma ölçümleri Acil çıkış ve tahliye zonlarında parlaklık ve aydınlatma ölçümleri |
+
+| Havalandırma ve Duman Seviyesi | Boyuna Havalandırmada; Farklı kademelerde sağlanan hava hızının ölçülmesi Jet fanlar tersine çalışıyorsa tersine çalışmaya geçilmesi için gereken zamanın ölçülmesi Egzoz istasyonları var ise emilen hava miktarının ölçülmesi Gürültü ve titreşim seviyelerinin ölçülmesi Enine Havalandırmada; Farklı hava kanallarından taze hava ölçümleri Farklı hava kanallarından egzoz havası ölçümleri Menfezlerden hava dağılımlarının düzgün sağlandığının ölçülmesi Jet fanlar tersine çalışıyorsa tersine çalışmaya geçilmesi için gereken zamanın ölçülmesi Gürültü ve titreşim seviyelerinin ölçülmesi Acil çıkışlarda havalandırma; Normal durumda gereken temiz havanın sağlandığının kontrolü Yangın modunda gerekli temiz havanın sağlandığının kontrolü |
+
+| Sabit İşaretlemeler | Parlaklık olan durumlarda levhaların okunabilirliğinin kontrolü |
+
+| Yangınla Mücadele Su Dağıtım Hatları | Her bir yangın hidrantında basınç ölçümleri Her bir yangın hidrantında akış ölçümleri Su tankının kapasitesinin ölçülmesi |
+
+| Sabit Yangınla Mücadele Sistemi | Pompaların performansı ve elde edilen debi ölçümleri Her bir pompanın basınç ölçümü Her bir pompanın akış ölçümleri |
+
+| Sıvıların Tahliyesi (toplama, pompalama,işleme) | Asfalt ve döşemelerden dökülen sıvıların toplanma zamanının ölçülmesi Pompaların basınç ve akış ölçümleri |
+
+| Süpervizör Kontrolü ve Data Kazanımları (SCADA): Sensörler, PLC Aygıtları, Data İletim Hatları, Süpervizyon Sistemi | Tünel kontrol merkezine tünelden gelen bilgilerin geliş süresinin ölçülmesi Kontrol merkezinden terminallere iletilen bilgilerin varış süresinin ölçülmesi |
+
+
+
+|  | PERFORMANS ÖLÇÜMLERİ |
+
+| --- | --- |
+
+| Ekipmanın Tipi | Ölçümler |
+
+| CCTV ve Olay Algılama Sistemi | Algılama süresi ölçümü Yanlış alarm sıklığının ölçülmesi Yanlış saptamaların oranı |
+
+| Bariyerler | Kapanma zamanının ölçülmesi |
+
+| VMS (Değişken Mesaj Sistemleri) | Farklı mesajlar girilerek devreye girme süresinin ölçülmesi Mesajların okunabilirliğinin kontrol edilmesi |
+
+| Acil Çağrı Hattı | Tünellerden ve portal yakınlarından yapılan çağrıların işitilebilirliğinin kontrolü Kontrol merkezinden acil durum telefonların erişilebilirliğinin kontrolü |
+
+| Radio İletim Hattı ve Çağrılar | Farklı frekanslardan tünel içine gönderilen radyo-elektrik alanlarının ölçülmesi Tünel içine yapılan anonsların işitilebilirliği (Havalandırma çalışırken ve çalışmazken) Farklı frekanslardan kontrol merkezine ve teknik odalara gönderilen radyo- elektrik alanlarının ölçülmesi |
+
+| Tünel İçi Yangın Algılama Sistemi | Tünelin farklı noktalarından kontrol merkezine gönderilen alarmların ulaşma süresi Yangın algılama sisteminin doğruluğunun ölçülmesi |
+
+
+
+|  |  |
+
+| --- | --- |
+
+| Erişim Kontrolleri (Teknik Odalar ve Kontrol Merkezi) | Farkl ı erişim noktalarından kontrol merkezine gelen bilgilendirme raporlarının zamanlama ölçümleri |
+
+| İç Telefon Hatları | Telefonların işitilebilirliğinin kontrolü |
+
+
+
+| FONKSİYONEL TESTLER | FONKSİYONEL TESTLER |
+
+| --- | --- |
+
+| Ekipmanın Tipi | Ölçümler |
+
+| Yüksek Gerilim Güç Kaynakları | Yüksek voltaj güç kaynaklarının fonsiyonlarını kontrol etmek |
+
+| Yüksek Gerilim Güç Kaynakları | Eğer jeneratör varsa çalıştırılarak kontrolünün yapılması |
+
+| Yüksek Gerilim Güç Kaynakları | Trafoların bağlantılarının kontrolü |
+
+| Orta ve Düşük Gerilim Enerji Dağıtımı | Normal güç kaynağının yetersiz olduğu durumda UPS'in devreye girip girmediğinin kontrolü |
+
+| Orta ve Düşük Gerilim Enerji Dağıtımı | Tüm düşük gerilimli kaynaklar on/off yapılarak kontrol edilir. |
+
+| Normal Aydınlatma | Kontrol merkezinden manuel olarak talimat verilerek farklı aydınlatma devreleri on/off çalıştırılarak kontrol edilir. |
+
+| Havalandırma ve Duman Seviyesi | Farklı kirlilik sensörlerinin ve hız ölçerlerin kalibrasyonları |
+
+| Havalandırma ve Duman Seviyesi | Kontrol odasına gelen kirlilik alarmlarının kontrolü |
+
+| Havalandırma ve Duman Seviyesi | Farklı havalandırma kademelerinde kontrol merkezinden manuel komutlarla verilen talimatların kontrolü |
+
+| Havalandırma ve Duman Seviyesi | Havalandırmada otomatik kontrollerin devreye girip girmediğinin tespiti |
+
+| Havalandırma ve Duman Seviyesi | Farklı yangın durumları için önceden belirlenmiş duman kirlilik seviyesi senaryolarının devreye girip girip girmediğinin kontrolü |
+
+| Havalandırma ve Duman Seviyesi | Damperlerin çalışmasının kontrolü |
+
+| Sabit İşaretlemeler | İşaretlemelerin okunabilirliği (hem saha da hem SCADA üzerinde) |
+
+| Yangınla Mücadele Su Dağıtım Hatları | Her bir yangın hidrantı ve vanaların fonksiyonlarını yerine getirdiğinin kontrolü |
+
+| Yangınla Mücadele Su Dağıtım Hatları | Su tesisatının döngüyü sağladığının kontrolü |
+
+| Yangınla Mücadele Su Dağıtım Hatları | Pompa sisteminin kontrolü |
+
+| Sabit Yangınla Mücadele Sistemi | Pompa odası ekipmanlarının görsel kontrolü |
+
+| Sabit Yangınla Mücadele Sistemi | Boruların ve nozulların görsel kontrolü |
+
+| Sabit Yangınla Mücadele Sistemi | Filtrelerin kontrolü |
+
+| Sabit Yangınla Mücadele Sistemi | Islak vanaların operasyonel kontrolü |
+
+| Sabit Yangınla Mücadele Sistemi | Uygun yangın algılama senaryosunda sistemin çalışabilirliğinin kontrolü |
+
+| Sabit Yangınla Mücadele Sistemi | Uygun basınç ve akışta tüm spreyleme zonlarının aktifliğinin kontrolü |
+
+| Sabit Yangınla Mücadele Sistemi | SCADA sisteminin alarmları ilettiğinin kontrol edilmesi |
+
+| Sabit Yangınla Mücadele Sistemi | Basınç ölçerlerin kalibrasyonu |
+
+| Sıvıların Tahliyesi (toplama, pompalama,işleme) | Dökülen sıvıların toplanma durumunun kontrolü |
+
+| Sıvıların Tahliyesi (toplama, pompalama,işleme) | Tehlikeli madde dökülmesinde alarm verilmesinin kontrolü |
+
+| Süpervizör Kontrolü ve Data Kazanımları (SCADA): Sensörler, PLC Aygıtları, Data İletim Hatları, Süpervizyon Sistemi | PLC enerji beslemelerinin kontrolü (girdi ve çıktılar, normal çalışma, acil durum çalışması, yeniden başlatma v.b. durumlarda) |
+
+| Süpervizör Kontrolü ve Data Kazanımları (SCADA): Sensörler, PLC Aygıtları, Data İletim Hatları, Süpervizyon Sistemi | PLC aydınlatma verilerinin kontrolü (girdi ve çıktılar, normal çalışma, acil durum çalışması, yeniden başlatma v.b. durumlarda) |
+
+| Süpervizör Kontrolü ve Data Kazanımları (SCADA): Sensörler, PLC Aygıtları, Data İletim Hatları, Süpervizyon Sistemi | PLC havalandırma verilerinin kontrolü (girdi ve çıktılar, normal çalışma, acil durum çalışması, yeniden başlatma v.b. durumlarda) |
+
+| Süpervizör Kontrolü ve Data Kazanımları (SCADA): Sensörler, PLC Aygıtları, Data İletim Hatları, Süpervizyon Sistemi | PLC duman dağılımı ve görüş netliği verilerinin kontrolü (girdi ve çıktılar, normal çalışma, acil durum çalışması, yeniden başlatma v.b. durumlarda) |
+
+| Süpervizör Kontrolü ve Data Kazanımları (SCADA): Sensörler, PLC Aygıtları, Data İletim Hatları, Süpervizyon Sistemi | PLC tünel kapama ve tünel yönetimi sistemlerinin kontrolü (girdi ve çıktılar, normal çalışma, acil durum çalışması, yeniden başlatma v.b. durumlarda) |
+
+| Süpervizör Kontrolü ve Data Kazanımları (SCADA): Sensörler, PLC Aygıtları, Data İletim Hatları, Süpervizyon Sistemi | Not: Girdi ve çıktı sayılarına göre bazı durumlarda tek bazı durumlarda ise iki PLC kullanılabilir. |
+
+| Süpervizör Kontrolü ve Data Kazanımları (SCADA): Sensörler, PLC Aygıtları, Data İletim Hatları, Süpervizyon Sistemi | PLC'de gereğinden fazla şey var ise bunların kontrolü |
+
+| Süpervizör Kontrolü ve Data Kazanımları (SCADA): Sensörler, PLC Aygıtları, Data İletim Hatları, Süpervizyon Sistemi | PLC'nin kontrol merkezinden uzak noktalara verdiği talimatların iletildiğinin kontrolü |
+
+| Süpervizör Kontrolü ve Data Kazanımları (SCADA): Sensörler, PLC Aygıtları, Data İletim Hatları, Süpervizyon Sistemi | Bilgilendirme raporlarının doğruluğunun kontrolü |
+
+| Süpervizör Kontrolü ve Data Kazanımları (SCADA): Sensörler, PLC Aygıtları, Data İletim Hatları, Süpervizyon Sistemi | Alarm raporlarının doğruluğunun kontrolü |
+
+| Süpervizör Kontrolü ve Data Kazanımları (SCADA): Sensörler, PLC Aygıtları, Data İletim Hatları, Süpervizyon Sistemi | Data kayıtlarının kontrolü |
+
+| Süpervizör Kontrolü ve Data Kazanımları (SCADA): Sensörler, PLC Aygıtları, Data İletim Hatları, Süpervizyon Sistemi | İletişim ağının kontrolü |
+
+| Süpervizör Kontrolü ve Data Kazanımları (SCADA): Sensörler, PLC Aygıtları, Data İletim Hatları, Süpervizyon Sistemi | Süpervisör sisteminin düzgün çalıştığının kontrolü |
+
+| Süpervizör Kontrolü ve Data Kazanımları (SCADA): Sensörler, PLC Aygıtları, Data İletim Hatları, Süpervizyon Sistemi | Monitorlerin kontrolü |
+
+
+
+| FONKSİYONEL TESTLER | FONKSİYONEL TESTLER |
+
+| --- | --- |
+
+| Ekipmanın Tipi | Ölçümler |
+
+| CCTV ve Olay Algılama Sistemi | Görüntü kalitesinin kontrolü |
+
+| CCTV ve Olay Algılama Sistemi | Ekran döngülerinin kontrolü |
+
+| CCTV ve Olay Algılama Sistemi | Kamera kimlik tanımalarının kontrolü |
+
+| CCTV ve Olay Algılama Sistemi | Uzaktan kontrol edilen kameraların kontrolü |
+
+| CCTV ve Olay Algılama Sistemi | Farklı olaylarda kamera sisteminin kontrolü (açık kapı, acil telefon kullanımı, yangın söndürme sisteminin kullanımı v.b.) |
+
+| CCTV ve Olay Algılama Sistemi | Olay algılama sisteminin değişik olayları algılamasının kontrolü (duran araç uyarısı, yayalar ve sahipsiz mallar) |
+
+| CCTV ve Olay Algılama Sistemi | Görüntü saklama sisteminin kontrolü |
+
+| CCTV ve Olay Algılama Sistemi | Alarmları saklama sisteminin kontrolü |
+
+| CCTV ve Olay Algılama Sistemi | Depolama kapasitesinin kontrolü |
+
+| Bariyerler | Tünel girişine yerleştirilen sinyal lambalarının çalışırlığının kontrolü |
+
+| Bariyerler | Bariyer kapama sisteminin kontrolü |
+
+| VMS (Değişken Mesaj Sistemleri) | Farklı mesajlar girilerek VMS'lerin kontrolü |
+
+| VMS (Değişken Mesaj Sistemleri) | Şerit kontrol işaretlerinin doğruluğunun kontrolü |
+
+| Acil Çağrı Hattı | Tünellerden ve portal yakınlarından yapılan iletişim cihazlarının kontrolü |
+
+| Acil Çağrı Hattı | Kontrol merkezindeki acil durum telefonların kontrolü |
+
+| Radio İletim Hattı ve Çağrılar | Önceden kaydedilmiş mesajların tanımlamalarının kontrolü |
+
+| Radio İletim Hattı ve Çağrılar | Bu mesajların iletiminin sağlanmasının kontrolü |
+
+| Radio İletim Hattı ve Çağrılar | Radyo ses kalitesinin kontrolü |
+
+| Radio İletim Hattı ve Çağrılar | Araç radyolarına güvenlik mesajlarının iletildiğinin kontrolü |
+
+| Tünel İçi Yangın Algılama Sistemi | Yangın algılandığında alarmların düzgün iletildiğinin kontrolü |
+
+| Tünel İçi Yangın Algılama Sistemi | Yangın algılama sistemininotomatik senaryolarının doğruluğunun kontrolü |
+
+| Gabari Ölçümü ve Araç Sayım Sistemleri | Ölçümlerin doğruluğunun kontrolü |
+
+| Gabari Ölçümü ve Araç Sayım Sistemleri | Alınan sonuçların raporlamaları ve depolanmasının kontrolü |
+
+| Erişim Kontrolleri (Teknik Odalar ve Kontrol Merkezi) | İhlal durumunda alarmların doğru iletildiğinin kontrolü |
+
+| İç Telefon Hatları	Telefonların işitilebilirliğinin kontrolü | İç Telefon Hatları	Telefonların işitilebilirliğinin kontrolü |
+
+
+
+| Malzeme: |  |  |
+
+| --- | --- | --- |
+
+|  | Cam Sil Veya Leke Çıkarıcı Sprey | 2 Adet |
+
+|  | Teknik Personel Takım Çantası(Kontrol Kalemi, Düz, Yıldız Tornavida Seti, Pense, Yan Keski, Karga Burun, Ölçü Aleti) | 1 Adet |
+
+|  | Mikro Fiber Bez | 2 Adet |
+
+|  | Akü | İhtiyaç halinde |
+
+|  | Akü test cihazı | 1 Adet |
+
+|  | Fırça | 1 Adet |
+
+|  | Kompresör(El Tipi) | 1 Adet |
+
+|  | Gerekli Görüldüğü Kadar Kapı Açık Ve Tüp Switchleri |  |
+
+| Personel: |  |  |
+
+|  | Elektrik-Elektronik Teknisyeni Veya Teknikeri | 2 Kişi |
+
+| Şerit Durumu | Ankara Yönünde Sağ Şeridin Kapatılması Gerekiyor. Ankara-İstanbul yönünde Sağ ve Sol Şerit farklı zamanlarda Trafiğe Kapatılır.(3 aylık ve yıllık bakımlarda) |  |
+
+| Araç | Yönetmeliğe Uygun Tepe Lambalı Araç | 1 Adet |
+
+| Zaman | Tüm Yangın Panelleri Ve Arızalar İçin | 1-2 Gün |
+
+| Periyot | Aylık (ilgili firma tarafından yapılır.) 3 Aylık ve Yıllık (Yetkili firma tarafından yapılır.) |  |
+
+| Güvenlik | Teknik Personel İş Güvenliği Tedbirlerini (Baret, Eldiven, Reflektif Yelek, Demir Uçlu Ayakkabı) Alır.Tepe Lambalı Aracın Flaşörü Çalışır Vaziyette Olmalıdır. |  |
+
+
+
+| Sistem | Etkisi |
+
+| --- | --- |
+
+| Aydınlatma Sistemi | Yüksek |
+
+| Havalandırma Sistemi | Yüksek |
+
+| Drenaj Sistemi | Düşük |
+
+| Yangınla Mücadele Sistemleri | Düşük |
+
+| İletişim Sistemleri | Düşük |
+
+| Trafik Yönetimi Sistemleri | Düşük |
+
+| Trafik İzleme Sistemleri | Düşük |
+
+| İşletme Binaları | Orta |
+
+
+
+| Aydınlatma Sistemi | Aydınlatma Sistemi |  | Havalandırma (Emisyon ve Kirlilik) | Havalandırma (Emisyon ve Kirlilik) |
+
+| --- | --- | --- | --- | --- |
+
+| Faktör | Etkisi |  | Faktör | Etkisi |
+
+| Tünel Uzunluğu | Orta-Yüksek |  | Tünel Uzunluğu | Orta-Yüksek |
+
+| Tüp Sayısı | Yüksek |  | Tünel Eğimi | Düşük |
+
+| Trafik Hızı | Yüksek |  | Portal Dizaynı | Yüksek |
+
+| Aydınlatma Verimliliği (Işık Kaynağı, yaşı, temizliği v.b.) | Orta |  | Kesit Alanı | Yüksek |
+
+| Aydınlatma Verimliliği (Işık Kaynağı, yaşı, temizliği v.b.) | Orta |  | Tüp Sayısı | Yüksek |
+
+| Çevresel Etkiler (Parlaklık, İklim v.b.) | Orta |  | Şerit Sayısı | Trafik Hacmi hava hızına bağlı olarak Yüksek |
+
+| Kontrol Metodu (fotosel, fotometre) | Orta |  | Şerit Sayısı | Trafik Hacmi hava hızına bağlı olarak Yüksek |
+
+| Dizayn Standartlarına Uygunluğu | Orta |  | Trafik Hızı | Orta |
+
+| Portal Dizaynı (Gün ışığı kullanımı) | Orta |  | Trafik Yoğunluğu | Orta |
+
+|  |  |  | Trafik Kompozisyonu | Orta |
+
+| İşletme Binaları | İşletme Binaları |  | Araçların Emisyon Değerleri | Orta |
+
+| Faktör | Etkisi |  | Kabul Edilebilir Kirlilik Seviyeleri | Orta |
+
+| Binalarda Personel Çalışması | Yüksek |  | Havalandırma Yöntemi (Enine,boyuna, karma v.b.) | Orta |
+
+| Soğutma Gerekliliği | Yüksek |  | Havalandırma Yöntemi (Enine,boyuna, karma v.b.) | Orta |
+
+| Isıtma Gerekliliği | Orta |  | Çevresel Etkiler (hakim rüzgar yönü, ortam sıcaklığı v.b.) | Orta |
+
+| Aydınlatma | Orta |  | Çevresel Etkiler (hakim rüzgar yönü, ortam sıcaklığı v.b.) | Orta |
+
+| Elektronik Ekipmanlar | Orta |  | Tehlikeli Madde Taşımacılına İzin Verilmesi | Orta |
+
+| Ortam Sıcaklığı | Yüksek |  |  |  |
+
+| Bina Özellikleri | Yüksek |  |  |  |
+
+
+
+| Teknik Ekipman Yaşam Süresi |  |  | 25 |  |  |  |
+
+| --- | --- | --- | --- | --- | --- | --- |
+
+| l.SCADA |  | 10,7 |  |  |  |  |
+
+| Sistemleri |  |  |  |  |  |  |
+
+| 2.Aydınlatma |  | 11,2 |  |  |  |  |
+
+| 3.Güvenlik |  | 14,8 |  |  |  |  |
+
+| Ekiomanları |  |  |  |  |  |  |
+
+| 4.İşaretleme |  | 14,1 |  |  |  |  |
+
+| 5.Havalandırma |  | 18,2 |  |  |  |  |
+
+| ö.Enerji |  | 2C | ,1 |  |  |  |
+
+| Sağlama |  |  |  |  |  |  |
+
+| 7.Kablolama |  |  | 25,7 |  |  |  |
+
+|  |  | i	İ 10 yıl	15 yıl	20 | i	İ 10 yıl	15 yıl	20 | i	İ 10 yıl	15 yıl	20 | yıl	25 | yi |
+
+
+
+|  | SİSTEMLER | İÇERİKLERİ / AÇIKLAMA |
+
+| --- | --- | --- |
+
+| 1 | SCADA SİSTEMLERİ | Genel SCADA Sistemleri |
+
+| 1 | SCADA SİSTEMLERİ | Trafik SCADA Sistemleri |
+
+| 1 | SCADA SİSTEMLERİ | İşletme Kontrol Ekipmanları |
+
+| 2 | AYDINLATMA | Lambalar |
+
+| 2 | AYDINLATMA | Armatürler |
+
+| 2 | AYDINLATMA | Aydınlatma Kontrol Ekipmanları |
+
+| 2 | AYDINLATMA | İzleme Sistemleri |
+
+| 3 | HAVALANDIRMA | Jet Fanlar |
+
+| 3 | HAVALANDIRMA | Aksiyel Fanlar |
+
+| 3 | HAVALANDIRMA | İzleme Sistemleri |
+
+| 3 | HAVALANDIRMA | CO ve Görüş İzleme Cihazları |
+
+| 3 | HAVALANDIRMA | Hava Damperleri, Menfezler v.b. |
+
+| 4 | İŞARETLEME | Aktif İşaretleme |
+
+| 4 | İŞARETLEME | Şerit Kullanım İşaretleri |
+
+| 5 | GÜVENLİK EKİPMANLARI | Yangın Algılama Sistemleri |
+
+| 5 | GÜVENLİK EKİPMANLARI | Video Ekipmanları |
+
+| 5 | GÜVENLİK EKİPMANLARI | Radyo Sistemleri |
+
+| 5 | GÜVENLİK EKİPMANLARI | Acil Durum İstasyonları |
+
+| 6 | ENERJİ SAĞLAMA | Yüksek/Düşük Voltaj Ekipmanları |
+
+| 6 | ENERJİ SAĞLAMA | Trafolar |
+
+| 6 | ENERJİ SAĞLAMA | Dağıtım Panelleri |
+
+| 6 | ENERJİ SAĞLAMA | UPS (Kesintisiz Güç Kaynağı) |
+
+| 6 | ENERJİ SAĞLAMA | Aküler (Batarya) |
+
+| 7 | KABLOLAMA | Yüksek Voltaj Kabloları |
+
+| 7 | KABLOLAMA | İletişim Kabloları |
+
+| 7 | KABLOLAMA | Fiber Kabloları |
+
+
+
+|  | Ortalama Kullanım Ömrü | Maliyetler (milyon US$) | Nisbi Maliyet Oranları (%) | Maliyet/yıl (US$) |
+
+| --- | --- | --- | --- | --- |
+
+| SCADA SİSTEMLERİ | 10,7 | 2,9 | 15,00% | 270.000,00 |
+
+| AYDINLATMA | 11,1 | 2,3 | 12,00% | 207.000,00 |
+
+| HAVALANDIRMA | 18,2 | 2,5 | 13,00% | 137.000,00 |
+
+| İŞARETLEME | 14,1 | 3,8 | 20,00% | 269.000,00 |
+
+| GÜVENLİK EKİPMANLARI | 14,8 | 3,5 | 18,00% | 237.000,00 |
+
+| ENERJİ SAĞLAMA | 20,1 | 1,7 | 9,00% | 85.000,00 |
+
+| KABLOLAMA | 25,7 | 2,4 | 13,00% | 93.000,00 |
+
+| TOPLAM MALİYETLER |  | 19,1 |  | 1.298.000,00 |
+
+
+
+|  | Ortalama Kullanım Ömrü | Maliyetler (milyon US$) | Nisbi Maliyet Oranları (%) | Maliyet/yıl (US$) |
+
+| --- | --- | --- | --- | --- |
+
+| SCADA SİSTEMLERİ | 10,7 | 1,2 | 7,00% | 107.000,00 |
+
+| AYDINLATMA | 11,1 | 2,0 | 13,00% | 177.000,00 |
+
+| HAVALANDIRMA | 18,2 | 1,5 | 9,00% | 81.000,00 |
+
+| İŞARETLEME | 14,1 | 1,9 | 12,00% | 135.000,00 |
+
+| GÜVENLİK EKİPMANLARI | 14,8 | 3,6 | 23,00% | 241.000,00 |
+
+| ENERJİ SAĞLAMA | 20,1 | 2,7 | 17,00% | 134.000,00 |
+
+| KABLOLAMA | 25,7 | 2,9 | 18,00% | 112.000,00 |
+
+| TOPLAM MALİYETLER |  | 15,8 |  | 987.000,00 |
+
+
+
+|  | Ortalama Kullanım Ömrü | Maliyetler (milyon US$) | Nisbi Maliyet Oranları (%) | Maliyet/yıl (US$) |
+
+| --- | --- | --- | --- | --- |
+
+| SCADA SİSTEMLERİ | 10,7 | 1,6 | 8,00% | 148.000,00 |
+
+| AYDINLATMA | 11,1 | 3,7 | 19,00% | 330.000,00 |
+
+| HAVALANDIRMA | 18,2 | 5,3 | 28,00% | 290.000,00 |
+
+| İŞARETLEME | 14,1 | 2,6 | 14,00% | 187.000,00 |
+
+| GÜVENLİK EKİPMANLARI | 14,8 | 2,1 | 11,00% | 139.000,00 |
+
+| ENERJİ SAĞLAMA | 20,1 | 4,4 | 23,00% | 218.000,00 |
+
+| KABLOLAMA | 25,7 | 2,9 | 15,00% | 113.000,00 |
+
+| TOPLAM MALİYETLER |  | 22,6 |  | 1.425.000,00 |
+
+
+
+| TEKNİK BİLEŞENLER | AKTİVASYON ENERJİSİ E(EV) |
+
+| --- | --- |
+
+| İzolasyonlu Yüksek Gerilim Kablosu | 0,5 |
+
+| Düşük Yoğunluklu Polietilen Kablo (LDPE) | 0,94 ( 6 kV/mm 'ye) |
+
+| Düşük Yoğunluklu Polietilen Kablo (LDPE) | 0,82 ( 20 kV/mm 'ye) |
+
+| İzolasyonlu Çapraz Bağlantılı Polietilen Kablo, 250kV (XLPE) | 0,9-1,0 |
+
+| Yüksek Yoğunluklu Polietilen Kablo (HDPE) | 0,7 |
+
+| Elektronik Bileşenleri (entegre devre) | 0,7 |
+
+
+
+| TÜNEL BAKIM, ONARIM, İŞLETME ŞEFLİKLERİ | Tünel Adeti | Tünel Uzunluğu (km) | İdari Personel Giderleri (TL) | Hizmet Alımı Personel Giderleri (TL) | Hizmet Alımı Araç Giderleri (TL) | Telefon Faturası Ortalama Aylık Tutar(TL) | Elektrik Ortalama Aylık Tutar(TL) | İnternet (TL) | Akaryakıt Malzemeleri (TL) | Elektrik M a l zemeleri (TL) | Diğer Malzeme Giderleri (Yedek Parça v.b.) (TL) | Emanet İşler Yıllık Gideri (TL) | Yıllık Toplam Harcamalar (TL) | Yıllık Birim Maliyeti (TL/km) |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| Zonguldak Tünel Bakım, Onarım, İşletme Şefliği | 37 | 12,311 | 181.200,00 t | 1.424.825,76 t | 406.476,48 t | 659,00 t | 1.920.911,00 t | 852,00 t | 160.410,00 t | 78.591,00 t | 32.400,00 t | 118.590,00 t | 4.324.915,24 t | 351.304,95 fc |
+
+| Trabzon Tünel Bakım, Onarım, İşletme Şefliği | 33 | 35,027 | 933.000,00 t | 1.470.271,56 t | 660.875,16 t | 260,25 t | 246.935,90 t | 0,00 t | 149.926,35 t | 210.894,26 t | 32.336,37 t | 0,00 t | 3.704.499,85 t | 105.761,27 fc |
+
+| Artvin Tünel Bakım, Onarım, İşletme Şefliği | 12 | 4,704 | 45.000,00 t | 595.023,24 t | 346.224,96 t | 0,00 t | 300.554,00 t | 0,00 t | 17.162,95 t | 0,00 t | 65.000,00 t | 0,00 t | 1.368.965,15 t | 291.021,50 fc |
+
+| Bitlis Tünel Bakım, Onarım, İşletme Şefliği | 2 | 4,263 | 304.200,00 t | 877.146,72 t | 364.417,44 t | 619,75 t | 701.375,54 t | 852,00 t | 299.747,11 t | 10.847,62 t | 38.156,43 t | 0,00 t | 2.597.362,61 t | 609.280,46 fc |
+
+| Alanya Tünel Bakım, Onarım, İşletme Şefliği | 3 | 2,254 | 206.400,00 t | 712.644,36 t | 451.108,44 t | 312,25 t | 397.830,73 t | 1.580,00 t | 14.000,00 t | 0,00 t | 0,00 t | 0,00 t | 1.783.875,78 t | 791.426,70 fc |
+
+| Kemer Tünel Bakım, Onarım, İşletme Şefliği | 6 | 4,694 | 220.800,00 t | 712.644,36 t | 319.290,60 t | 1.042,25 t | 688.000,08 t | 1.580,00 t | 63.000,00 t | 0,00 t | 122.106,00 t | 0,00 t | 2.128.463,29 t | 453.443,39 fc |
+
+| Bilecik Tünel Bakım, Onarım, İşletme Şefliği | 3 | 7,1 | 115.200,00 t | 783.152,76 t | 387.250,32 t | 0,00 t | 503.202,28 t | 0,00 t | 86.143,58 t | 0,00 t | 212.950,00 t | 0,00 t | 2.087.898,94 t | 294.070,27 fc |
+
+| TOPLAM | 96 | 70,353 |  |  |  |  |  |  |  |  |  |  | 17.995.980,86 t | 255.795,50 fc |
+
+
+
+| Tüm yüke ilişkin tünel kısıtlama kodu | Kısıtlama |
+
+| --- | --- |
+
+| B | B, C, D ve E kategorilerindeki tünellerden geçiş yasaktır |
+
+| B1000C | Taşıma ünitesi başına toplam net patlayıcı kütlesinin şunları aştığı taşıma işlemleri: 1000 kg'yi aşanlar: B, C, D ve E kategorilerindeki tünellerden geçiş yasaktır; 1000 kg'yi aşmayanlar: C, D ve E kategorilerindeki tünellerden geçiş yasaktır |
+
+| B/D | Tankla taşıma işlemleri: B, C, D ve E kategorilerindeki tünellerden geçiş yasaktır; Diğer taşıma işlemleri: D ve E kategorilerindeki tünellerden geçiş yasaktır |
+
+| B/E | Tankla taşıma işlemleri: B, C, Dve E kategorilerindeki tünellerden geçiş yasaktır; Diğer taşıma işlemleri: E kategorisindeki tünellerden geçiş yasaktır |
+
+| C | C, D ve E kategorilerindeki tünellerden geçiş yasaktır |
+
+| C5000D | Taşıma ünitesi başına toplam net patlayıcı kütlesinin şunları aştığı taşıma işlemleri: 5.000 kg'yi aşanlar: C, D ve E kategorilerindeki tünellerden geçiş yasaktır; 5.000 kg'yi aşmayanlar: Dve E kategorilerindeki tünellerden geçiş yasaktır |
+
+| C/D | Tankla taşıma işlemleri: C, D ve E kategorilerindeki tünellerden geçiş yasaktır; Diğer taşıma işlemleri: D ve E kategorilerindeki tünellerden geçiş yasaktır |
+
+| C/E | Tankla taşıma işlemleri: C, D ve E kategorilerindeki tünellerden geçiş yasaktır; Diğer taşıma işlemleri: E kategorisindeki tünellerden geçiş |
+
+| D | D ve E kategorilerindeki tünellerden geçiş yasaktır |
+
+| D/E | Dökme halinde veya tankla taşıma işlemleri: D ve E kategorilerindeki tünellerden geçiş yasaktır; Diğer taşıma işlemleri: E kategorisindeki tünellerden geçiş |
+
+| E | E kategorisindeki tünellerden geçiş yasaktır |
+
+| - | Tüm tünellerden geçiş yapılabilir (BM No. 2919 ve 3331 için; ayrıca bkz. 8.6.3.1). |
+
+
+
+| Senaryo No | Açıklama | Tank Kapasitesi | Yarık (Sızıntı Sebebi) Genişliği (mm) | Kütlesel Sızıntı Debisi (kg/s) |
+
+| --- | --- | --- | --- | --- |
+
+| 1 | Ağır Yük Aracı Yangını (20 MW) | - | - | - |
+
+| 2 | Ağır Yük Aracı Yangını (100 MW) | - | - | - |
+
+| 3 | Silindirde LPG (Sıvı halden kaynayıp buharlaşıp genişleyerek patlama) | 50 kg | - | - |
+
+| 4 | Motorlu Taşıt Yakıtı Yangını | 28 ton | 100 | 20,6 |
+
+| 5 | Motorlu Taşıt Yakıtının Buharlaşmasıyla Oluşan Patlama | 28 ton | 100 | 20,6 |
+
+| 6 | Klorin Salınımı | 20 ton | 50 | 45 |
+
+| 7 | Büyük Hacimli LPG (Sıvı halden kaynayıp buharlaşıp genişleyerek patlama) | 18 ton | - | - |
+
+| 8 | Büyük Hacimli LPG Yakıtının Buharlaşmasıyla Oluşan Patlama | 18 ton | 50 | 36 |
+
+| 9 | Büyük Hacimli LPG'nin Alev Alması (Ateşle Temas) Sonucu Oluşan Yangın | 18 ton | 50 | 36 |
+
+| 10 | Amonyak Salınımı | 20 ton | 50 | 36 |
+
+| 11 | Büyük Hacimli Akrolein Salınımı | 25 ton | 100 | 24,8 |
+
+| 12 | Silindir İçindeki Akrolein Salınımı | 100 litre | 4 | 0,02 |
+
+| 13 | Büyük Hacimli Karbondioksit (Sıvı halden kaynayıp buharlaşıp genişleyerek patlama) (Toksik etkiler dahil degil) | 20 ton | - | - |
+
+
+
+| Senaryo No | Senaryo Açıklaması | Tehlike Türü | Tünel Kategorisi | Tünel Kategorisi | Tünel Kategorisi | Tünel Kategorisi | Tünel Kategorisi |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| Senaryo No | Senaryo Açıklaması | Tehlike Türü | A | B | C | D | E |
+
+| 1 | Ağır Yük Aracı Yangını (20 MW) | Ortalama Yangın | + | + | + | + |  |
+
+| 2 | Ağır Yük Aracı Yangını (100 MW) | Büyük Yangın | + | + | + |  |  |
+
+| 3 | Silindirde LPG (Sıvı halden kaynayıp buharlaşıp genişleyerek patlama) | Küçük Patlama | + | + | + | + |  |
+
+| 4 | Motorlu Taşıt Yakıtı Yangını | Büyük Yangın | + | + | + |  |  |
+
+| 5 | Motorlu Taşıt Yakıtının Buharlaşmasıyla Oluşan Patlama | Orta Büyüklükte Patlama (Büyük Yangına Eşdeğer) | + | + | + |  |  |
+
+| 6 | Klorin Salınımı | Büyük Toksik Salınım | + | + |  |  |  |
+
+| 7 | Büyük Hacimli LPG (Sıvı halden kaynayıp buharlaşıp genişleyerek patlama) | Çok Büyük Patlama | + |  |  |  |  |
+
+| 8 | Büyük Hacimli LPG Yakıtının Buharlaşmasıyla Oluşan Patlama | Çok Büyük Patlama | + |  |  |  |  |
+
+| 9 | Büyük Hacimli LPG'nin Alev Alması (Ateşle Temas) Sonucu Oluşan Yangın | Çok Büyük Yangın (Çok Büyük Patlamaya Eşdeğer Tünel Boyunca Yangın) | + |  |  |  |  |
+
+| 10 | Amonyak Salınımı | Büyük Toksik Salınım | + | + |  |  |  |
+
+| 11 | Büyük Hacimli Akrolein Salınımı | Büyük Toksik Salınım | + | + |  |  |  |
+
+| 12 | Silindir İçindeki Akrolein Salınımı | Ortalama Toksik Salınım | + | + | + | + |  |
+
+| 13 | Büyük Hacimli Karbondioksit (Sıvı halden kaynayıp buharlaşıp genişleyerek patlama) (Toksik etkiler dahil degil) | Büyük Patlama | + | + |  |  |  |
+
+
+
+| BÖLGE | İL | TÜNEL | YOL | TÜNEL UZUNLUĞU | TÜNEL KATEGORİSİ |
+
+| --- | --- | --- | --- | --- | --- |
+
+| FLAMAN BÖLGESİ | FLAMAN BÖLGESİ | FLAMAN BÖLGESİ | FLAMAN BÖLGESİ | FLAMAN BÖLGESİ | FLAMAN BÖLGESİ |
+
+|  | Antwerp | Kennedy Tüneli | R1 | 591 metre | D |
+
+|  | Antwerp | Waasland Tüneli | N49 | 2100 metre | E |
+
+|  | Antwerp | Kasterlee Tüneli | N19g | 500 metre | E |
+
+|  | Doğu Flaman | Zelzate Tüneli | N49 | 470 metre | C |
+
+|  | Batı Flaman | t Zand-Brugge Tüneli | R30 | 270 metre | E |
+
+|  | Flemish Brabant | De Bond Tüneli | R23 | 240 metre | E |
+
+|  | Flemish Brabant | Vierarmen Tüneli | R0 | 805 metre | E |
+
+| BRÜKSEL | BRÜKSEL | BRÜKSEL | BRÜKSEL | BRÜKSEL | BRÜKSEL |
+
+|  |  | Litlle Ring üzerindeki tüm tüneller | R20 | Grup Tüneller; en büyüğü 2,5 km, geneli 100 metreden küçük | E |
+
+|  |  | Van Praet Tüneli | R21 | 60 metre | E |
+
+| VALON BÖLGESİ | VALON BÖLGESİ | VALON BÖLGESİ | VALON BÖLGESİ | VALON BÖLGESİ | VALON BÖLGESİ |
+
+|  | Liege | Cointe Tüneli | A602 | 1600 metre | D |
+
+
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kategorisi |
+
+| --- | --- | --- | --- |
+
+| Klimkovice Tüneli | D1 | 1100 metre | A |
+
+| Valik Tüneli | D5 | 400 metre | A |
+
+| Liboushec Tüneli | D8 | 500 metre | A |
+
+| Panenska Tüneli | D8 | 2100 metre | A |
+
+| Jihlava Tüneli | I/38 | 300 metre | A |
+
+| Liberec Tüneli | I/35 | 300 metre | A |
+
+| Hrebec Tüneli | I/35 | 350 metre | A |
+
+
+
+| Tünel İsmi | TÜNEL KATEGORİSİ | Lokasyon | Tünel Uzunluğu | YOL |
+
+| --- | --- | --- | --- | --- |
+
+| Benelux Tüneli | C | Vlaardingen ve Hoogvliet Yakınlarında | 1300 metre | A4 |
+
+| Botlek Tüneli | D | Hoogvliet ve Rozenburg Arasında | 1181 metre | A15 |
+
+| Coen Tüneli | C | Amsterdam | 1283 metre | A10 |
+
+| Drecht Tüneli | C | Zwijndrecht ve Dordrect Arasında | 823 metre | A16 |
+
+| Heienoord Tüneli | D | Barendrecht ve Oud-Beijerland Arasında | 1064 metre | A29 |
+
+| Kil Tüneli | C | Dordrecht ve Gravendeel Arasında | 901 metre | S43 |
+
+| Leidsche Rijn Tüneli | A | Utrecht | 1650 metre | A29 |
+
+| Noord Tüneli | C | Hendrik-Ido-Ambacht ve Alblasserdam Arasında | 1270 metre | A15 |
+
+| Roer Tüneli | A | Roermond | 2450 metre | A73 |
+
+| Salland- Twente Tüneli | C | Hellendoom | 1500 metre | N35 |
+
+| Schiphol Tüneli | A | Schiphol | 660 metre | A4 |
+
+| Sluiskkil Tüneli | C | Terneuzen Yakınlarında | 1145 metre | N62 |
+
+| Swalmen Tüneli | A | Swalmen | 1000 metre | A73 |
+
+| Thomassen Tüneli | C | Rozenburg Yakınlarında | 685 metre | N15 |
+
+| Velser Tünelin | D | Velsen Yakınlarında | 1664 metre | A22 |
+
+| Vlake Tüneli | C | Kruiningen ve Kapelle Arasında | 774 metre | A58 |
+
+| Waterwolf Tüneli | C | Aalsmeer ve Haarlemmermeer Arasında | 1000 metre | N201 |
+
+| Westerschelde Tüneli | C | Terneuzen ve Goes Arasında | 6600 metre | N62 |
+
+
+
+| Yol Numarası | Lokasyon | Tünel İsmi | Tünel Uzunluğu | Tünel Kategorisi | Zaman |
+
+| --- | --- | --- | --- | --- | --- |
+
+| 658 | Alesund-Ellingsoy Denizaltı Tüneli | Ellinsoy Tüneli | 3520 metre | C | 06:00 - 24:00 |
+
+| 658 | Ellingsoy-Valderoy Denizaltı Tüneli | Valderoy Tüneli | 4222 metre | C | 06:00 - 24:00 |
+
+| 108 | Asmaloy-Kirkoy Denizaltı Tüneli | Hvaler Tüneli | 3751 metre | X | 00:00 - 24:00 |
+
+
+
+| No | Tünel İsmi | Lokasyon | Koordinatlar | ADR Tünel Kategorisi | Uzunluk (metre) |
+
+| --- | --- | --- | --- | --- | --- |
+
+| 1. | Borik | Dİ | 49° 3’ 56.76" N, 20° 9’ 19.77" E | A | 999 |
+
+| 2. | Branisko | Dİ | 48° 59' 47.43" N, 20° 54' 18.65" E | E | 4975 |
+
+| 3. | Sitina | D2 | 48° 9' 46.37" N, 17° 4' 29.64" E | E | 144ü |
+
+| 4. | Horclica | D3 | 49° 25' 59.11" N, 18“ 48' 16.23" E | E | 605 |
+
+| 5. | Stratenâ | 67 | 48° 52' 23.88" N, 20° 19' 44 51" E | A | 325 |
+
+
+
+| Şehir | Tünel İsmi | Tünel Uzunluğu | Lokasyon | Tünel Kategorisi |
+
+| --- | --- | --- | --- | --- |
+
+| Gotenburg | Tingstads Tüneli |  | E6 | E |
+
+| Gotenburg | Gota Tüneli |  | E45 | E |
+
+| Gotenburg | Lundby Tüneli |  | E6.21 Yolunun Parçası | E |
+
+| Stokholm | Blekholms Tüneli |  | E4.25 Yolu | E |
+
+| Stokholm | Hundra Knutars Backe Tüneli |  | Drottningholmsvagen Yolu | E |
+
+| Stokholm | Klara Tüneli |  | Tegelbacken ve Master Samuelsgatan Yolu Arasında | E |
+
+| Stokholm | Muskö Tüneli |  | 539 Yolu; Muskövagen ve Muskö Adası Arası | E |
+
+| Stokholm | Söderleds Tüneli |  | E4.25 Yolu | E |
+
+| Stokholm | Södra Lanken Tüneli | 4700 metre | 73/222 ve 75 Yolu | 07:00-19:00 arası Kategori B; Diğer saatler Kategori A |
+
+
+
+| A2 Karayolu, İtalya- Avusturya Sınırı; Graz-Vienna-Klagenturf-Villach Hattı Üzerindeki Karayolu Tünelleri | A2 Karayolu, İtalya- Avusturya Sınırı; Graz-Vienna-Klagenturf-Villach Hattı Üzerindeki Karayolu Tünelleri | A2 Karayolu, İtalya- Avusturya Sınırı; Graz-Vienna-Klagenturf-Villach Hattı Üzerindeki Karayolu Tünelleri | A2 Karayolu, İtalya- Avusturya Sınırı; Graz-Vienna-Klagenturf-Villach Hattı Üzerindeki Karayolu Tünelleri |
+
+| --- | --- | --- | --- |
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kategorisi Kuralı |
+
+| Herzorgberg Tüneli | A2 | 2007 metre | 1 |
+
+| Mitterberg Tüneli | A2 | 1142 metre | 1 |
+
+| Kalcherkogel Tüneli | A2 | 1993 metre | 1 |
+
+| Grabern Tüneli | A2 | 2145 metre | 1 |
+
+| Ehrantaler Tüneli | A2 | 3345 metre | 1 |
+
+| Falkenberg 1,2 Tüneli | A2 | 1170 metre | 1 |
+
+| Hrebec Tüneli | A2 | 350 metre | 1 |
+
+
+
+| A9 Karayolu, Slovenya- Avusturya Sınırı; Liezen-St Michael- Graz (A2) Hattı Üzerindeki Karayolu Tünelleri | A9 Karayolu, Slovenya- Avusturya Sınırı; Liezen-St Michael- Graz (A2) Hattı Üzerindeki Karayolu Tünelleri | A9 Karayolu, Slovenya- Avusturya Sınırı; Liezen-St Michael- Graz (A2) Hattı Üzerindeki Karayolu Tünelleri | A9 Karayolu, Slovenya- Avusturya Sınırı; Liezen-St Michael- Graz (A2) Hattı Üzerindeki Karayolu Tünelleri |
+
+| --- | --- | --- | --- |
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kategorisi Kuralı |
+
+| Lainberg Tüneli | A9 | 2278 metre | 1 |
+
+| Bosruck Tüneli | A9 | 5500 metre | (Geçiş Ücretli), 1 ve 2 nolu kurallar uygulanıyor. Bunlara ilave olarak tünel yönetimi ile iletişim şartı var. |
+
+| Selzthal Tüneli | A9 | 1010 metre | 1 |
+
+| Gleinalm Tüneli | A9 | 8428 metre | (Geçiş Ücretli), 1 ve 2 nolu kurallar uygulanıyor. |
+
+| Schartnerkogel Tüneli | A9 | 1235 metre | 1 |
+
+| Plabutsch Tüneli | A9 | 10085 metre | (Geçiş Ücretli), 1 ve 2 nolu kurallar uygulanıyor. Bunlara ilave olarak tünel yönetimi ile iletişim şartı var. |
+
+
+
+| A10 Karayolu, Tauern-Salzburg (A1)-Villach Bağlantısı (A2/A11) Hattı Üzerindeki Karayolu Tünelleri | A10 Karayolu, Tauern-Salzburg (A1)-Villach Bağlantısı (A2/A11) Hattı Üzerindeki Karayolu Tünelleri | A10 Karayolu, Tauern-Salzburg (A1)-Villach Bağlantısı (A2/A11) Hattı Üzerindeki Karayolu Tünelleri | A10 Karayolu, Tauern-Salzburg (A1)-Villach Bağlantısı (A2/A11) Hattı Üzerindeki Karayolu Tünelleri |
+
+| --- | --- | --- | --- |
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kategorisi Kuralı |
+
+| Ofenauer Tüneli | A10 | 1384 metre | 1 |
+
+| Hiefler Tüneli | A10 | 2004 metre | 1 |
+
+| Tauern Tüneli | A10 | 6765 metre | (Geçiş Ücretli), 1 ve 2 nolu kurallar uygulanıyor. |
+
+| Katschberg Tüneli | A10 | 5895 metre | (Geçiş Ücretli), 1 ve 2 nolu kurallar uygulanıyor. |
+
+| Oswaldiberg Tüneli | A10 | 4307 metre | 1 |
+
+
+
+| A10 Karayolu, Tauern-Salzburg (A1)-Villach Bağlantısı (A2/A11) Hattı Üzerindeki Karayolu Tünelleri | A10 Karayolu, Tauern-Salzburg (A1)-Villach Bağlantısı (A2/A11) Hattı Üzerindeki Karayolu Tünelleri | A10 Karayolu, Tauern-Salzburg (A1)-Villach Bağlantısı (A2/A11) Hattı Üzerindeki Karayolu Tünelleri | A10 Karayolu, Tauern-Salzburg (A1)-Villach Bağlantısı (A2/A11) Hattı Üzerindeki Karayolu Tünelleri |
+
+| --- | --- | --- | --- |
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kategorisi Kuralı |
+
+| Ofenauer Tüneli | A10 | 1384 metre | 1 |
+
+| Hiefler Tüneli | A10 | 2004 metre | 1 |
+
+| Tauern Tüneli | A10 | 6765 metre | (Geçiş Ücretli), 1 ve 2 nolu kurallar uygulanıyor. |
+
+| Katschberg Tüneli | A10 | 5895 metre | (Geçiş Ücretli), 1 ve 2 nolu kurallar uygulanıyor. |
+
+| Oswaldiberg Tüneli | A10 | 4307 metre | 1 |
+
+
+
+| A12 Karayolu, Almanya-Avusturya Sınırı; İnntal-Kuffstein-Innsbruck-Zams Hattı Üzerindeki Karayolu Tünelleri | A12 Karayolu, Almanya-Avusturya Sınırı; İnntal-Kuffstein-Innsbruck-Zams Hattı Üzerindeki Karayolu Tünelleri | A12 Karayolu, Almanya-Avusturya Sınırı; İnntal-Kuffstein-Innsbruck-Zams Hattı Üzerindeki Karayolu Tünelleri | A12 Karayolu, Almanya-Avusturya Sınırı; İnntal-Kuffstein-Innsbruck-Zams Hattı Üzerindeki Karayolu Tünelleri |
+
+| --- | --- | --- | --- |
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kategorisi Kuralı |
+
+| Roppen Tüneli | A12 | 5127 metre | 1 ve 2 nolu kurallar uygulanıyor. |
+
+| Mils Tüneli | A12 | 1926 metre | 1 |
+
+| Landecker Tüneli | A12 | 6955 metre | 1 ve 2 nolu kurallar uygulanıyor. |
+
+
+
+| A14 Karayolu, Almanya-Avusturya Sınırı; Hörbranz-Feldkirch-Bludenz Hattı Üzerindeki Karayolu Tünelleri | A14 Karayolu, Almanya-Avusturya Sınırı; Hörbranz-Feldkirch-Bludenz Hattı Üzerindeki Karayolu Tünelleri | A14 Karayolu, Almanya-Avusturya Sınırı; Hörbranz-Feldkirch-Bludenz Hattı Üzerindeki Karayolu Tünelleri | A14 Karayolu, Almanya-Avusturya Sınırı; Hörbranz-Feldkirch-Bludenz Hattı Üzerindeki Karayolu Tünelleri |
+
+| --- | --- | --- | --- |
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kategorisi Kuralı |
+
+| City Tüneli, Bregenz | A14 | 1311 metre | 1 |
+
+| Pfander Tüneli | A14 | 6745 metre | 1 ve 2 nolu kurallar uygulanıyor. |
+
+| Amberg Tüneli | A14 | 2978 metre | 1 |
+
+
+
+| A22 Karayolu, Donauffer-Kaisermuhlen-Viyana Hattı Üzerindeki Karayolu Tünelleri | A22 Karayolu, Donauffer-Kaisermuhlen-Viyana Hattı Üzerindeki Karayolu Tünelleri | A22 Karayolu, Donauffer-Kaisermuhlen-Viyana Hattı Üzerindeki Karayolu Tünelleri | A22 Karayolu, Donauffer-Kaisermuhlen-Viyana Hattı Üzerindeki Karayolu Tünelleri |
+
+| --- | --- | --- | --- |
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kategorisi Kuralı |
+
+| Kaisermuhlen Tüneli | A22 | 2150 metre | 1 |
+
+
+
+| S6 Semmering Otobanı (B54-A2) Üzerindeki Karayolu Tünelleri | S6 Semmering Otobanı (B54-A2) Üzerindeki Karayolu Tünelleri | S6 Semmering Otobanı (B54-A2) Üzerindeki Karayolu Tünelleri | S6 Semmering Otobanı (B54-A2) Üzerindeki Karayolu Tünelleri |
+
+| --- | --- | --- | --- |
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kategorisi Kuralı |
+
+| Ganzstein Tüneli | S6 | 2135 metre | 1 |
+
+| Tanzenberg Tüneli | S6 | 2446 metre | 1 |
+
+| Bruck Tüneli | S6 | 1228 metre | 1 |
+
+| Nicklasdoff Tüneli | S6 | 1345 metre | 1 |
+
+
+
+| S16 Arlberg Otobanı Üzerindeki Karayolu Tünelleri | S16 Arlberg Otobanı Üzerindeki Karayolu Tünelleri | S16 Arlberg Otobanı Üzerindeki Karayolu Tünelleri | S16 Arlberg Otobanı Üzerindeki Karayolu Tünelleri |
+
+| --- | --- | --- | --- |
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kategorisi Kuralı |
+
+| Perjen Tüneli | S16 | 2993 metre | 1,3 nolu kurallar; Tünel Yönetimi Direktifleri; bazı taşımalarla ilgili özel düzenlemeler mevcut |
+
+| Quanrachshch/Flicher Tünelleri | S16 | 1543/1226 metre | 1 |
+
+| Arlberg Tünei | S16 | 15516 metre | (Geçiş Ücretli), 1,2 ve 3 nolu kurallar uygulanıyor. Tünel yönetimi ile irtibatlı yapılması gereken taşımalar var. |
+
+| Langen Tüneli | S16 | 2433 metre | 1 |
+
+| Dalaas Tüneli | S16 | 1810 metre | 1 |
+
+
+
+| B108 Felbertauern; Lienz B100 Üzerindeki Karayolu Tünelleri | B108 Felbertauern; Lienz B100 Üzerindeki Karayolu Tünelleri | B108 Felbertauern; Lienz B100 Üzerindeki Karayolu Tünelleri | B108 Felbertauern; Lienz B100 Üzerindeki Karayolu Tünelleri |
+
+| --- | --- | --- | --- |
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kategorisi Kuralı |
+
+| Felbertauern Tüneli | B108 | 5304 metre | Ücretli geçiş; 1,3 nolu kurallar uygulanıyor. Tünel yönetimi ile irtibatlı taşımalar var. |
+
+
+
+| B167 Gasteiner Caddesi (B311 Bağlantı) Üzerindeki Karayolu Tünelleri | B167 Gasteiner Caddesi (B311 Bağlantı) Üzerindeki Karayolu Tünelleri | B167 Gasteiner Caddesi (B311 Bağlantı) Üzerindeki Karayolu Tünelleri | B167 Gasteiner Caddesi (B311 Bağlantı) Üzerindeki Karayolu Tünelleri |
+
+| --- | --- | --- | --- |
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kategorisi Kuralı |
+
+| Gigerach-Klamm ve Klammstein Tünelleri | B167 | 1603 metre | 1,3 nolu kurallar uygulanıyor. Ek olarak aracın arka kısmında da ikaz lambası ve 50 metre takip mesafesi işareti. |
+
+
+
+| B168 Mittersiller Caddesi Üzerindeki Karayolu Tünelleri | B168 Mittersiller Caddesi Üzerindeki Karayolu Tünelleri | B168 Mittersiller Caddesi Üzerindeki Karayolu Tünelleri | B168 Mittersiller Caddesi Üzerindeki Karayolu Tünelleri |
+
+| --- | --- | --- | --- |
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kategorisi Kuralı |
+
+| Schmitten Tüneli | B168 | 5111 metre (tek tüp) | 1,3 nolu kurallar uygulanıyor. |
+
+
+
+| B169 Zillertal Caddesi Üzerindeki Karayolu Tünelleri | B169 Zillertal Caddesi Üzerindeki Karayolu Tünelleri | B169 Zillertal Caddesi Üzerindeki Karayolu Tünelleri | B169 Zillertal Caddesi Üzerindeki Karayolu Tünelleri |
+
+| --- | --- | --- | --- |
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kategorisi Kuralı |
+
+| Brettfall Tüneli | B168 | 1335 metre | 1,3 nolu kurallar uygulanıyor. Bunun yanında tünel yönetiminin direktiflerine uyulacak, irtibatlı olunacak. |
+
+| Harpfnerwand Tüneli | B168 | 2590 metre (tek tüp) | 1 |
+
+
+
+| B171/179 L330 Caddesi Üzerindeki Karayolu Tünelleri | B171/179 L330 Caddesi Üzerindeki Karayolu Tünelleri | B171/179 L330 Caddesi Üzerindeki Karayolu Tünelleri | B171/179 L330 Caddesi Üzerindeki Karayolu Tünelleri |
+
+| --- | --- | --- | --- |
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kategorisi Kuralı |
+
+| Stadberg Tüneli | B171 | 1370 metre | 1,3 nolu kurallar uygulanıyor. |
+
+| Lermeos Tüneli | B179 | 3168 metre | 1 |
+
+| Brandberg Tüneli | L330 | 2130 metre (şehir içi) | 1 |
+
+
+
+| Tünel İsmi | Yol | Tünel Uzunluğu | Tünel Kodu |
+
+| --- | --- | --- | --- |
+
+| Saukopf Tüneli | B38 | 2715 metre | E |
+
+| Bereich Flughafen Tüneli | B312 | 3026 metre | E |
+
+| Schlossberg Tüneli | Heidelberg | 918 metre | E |
+
+| Bezirk Treptow Grup Tüneli | A113 | 300 metre+900 metre | B |
+
+| Alsterkrugchaussee Tüneli | Hamburg | 320 metre | 06:00/21:00 arası E, diğer saatler C |
+
+| Elb Tüneli | A7 Hamburg | 3325 metre | 05:00/21:00 arası E, diğer saatler C |
+
+
+
+| KONTROL EDİLEN SİSTEMLER | KONTROL EDİLEN SİSTEMLER | GECE | SABAH | AKŞAM |
+
+| --- | --- | --- | --- | --- |
+
+| 1 | PLC santralı içinde atık sigorta var mı; yedek CPU hazır mı; hata veya uyarı sinyal ledi var mı; soğutma fanları devrede mi kontrol edilecektir. | □ | □ | □ |
+
+| 2 | Kamera santral kartlarında uyarı ve hata sinyal ledi var mı; soğutma fanları devrede mi kontrol edilecektir. | □ | □ | □ |
+
+| 3 | Scada bilgisayarından sistemlerin normal olduğunu; operatöre sorarak bilgi alacaktır | □ | □ | □ |
+
+| 4 | Jeneratör Elektronik kontrol ünitesindeki ledlerde hata ve uyarı sinyali; Jeneratörün otomatik konumda; akü voltajının normal olduğu; fazla yakıt tankı ve mazot kaçağı kontrol edilecektir. Jeneratör test konumunda akşam 5 dk çalıştırılacaktır. | □ |  | □ |
+
+| 5 | UPS Cihaz üzerindeki led ve göstergelerde hata ve uyarılar kontrol edilecektir. | □ |  | □ |
+
+| 6 | UPS akü kutupbaşlarında oksitlenme veya normal dışı olay var mı kontrol edilecektir. | □ |  | □ |
+
+| 7 | 110 V redresörün sağlam ve çalışır durumda olduğu, akülerin normal göründüğü kontrol edilecektir. | □ |  | □ |
+
+| 8 | ISGS rölelerinin yeşil ledinin yandığı görülüp mesajları kontrol edilerek silinecektir. | □ |  | □ |
+
+| 9 | Panolar üzerindeki sinyal lambalarının çalıştığı kontrol edilecektir. | □ |  | □ |
+
+| 10 | Alçak gerilim ve scada panoları kapakları açılarak içeride gürültü, ısınma veya normal dışı durum var mı kontrol edilecektir. | □ |  | □ |
+
+| 11 | Elektrik odalarındaki el fenerlerinin çalıştığı kontrol edilecektir. | □ |  | □ |
+
+| 12 | Trafolarda aşırı ısınma; gürültü veya yağ sızıntısı var mı odaya girmeden kontrol edilecektir. | □ |  | □ |
+
+| 13 | Elektrik odalarındaki artı basınç sisteminin ve klimanın çalıştığı kontrol edilecektir. | □ |  | □ |
+
+| 14 | Elektrik odalarında bulunması gereken malzemelerin varlığı kontrol edilecektir | □ |  | □ |
+
+| 15 | Enerji tüketim değerleri ve jeneretör yakıt durumları ( form 06 ) ya işlenecektir. Enerji tüketimlerinde reaktif oran %20 den, kapasitif oran %15 den küçük olduğu görülecektir. Yakıt tüketiminde anormal bir durum var ise mühendise bilgi verilecektir. | □ |  | □ |
+
+| 16 | Su depolarının dolu oldukları kontrol panosunun enerjisi kesip tekrar verilerek kontrol edilecek; Pompaların ve jokey pompanın çalışmaya hazır oldukları ve su basıncının 3 ile 5 bar arasında olduğu; Pompa odasına girilerek kontrol edilecektir. | □ |  | □ |
+
+| 17 | Radyo yayın bilgisayarından düzgün olarak anons gönderildiği kontrol edilecektir. Tünel içine radyolu araç ile gidilerek yayının normal olduğu kontrol edilecektir. | □ |  | □ |
+
+| 18 | Harici anonsun tünelin her bölgesinde varlığı dinlenerek kontrol edilecektir | □ |  | □ |
+
+| 19 | Gabari algılayıcılarının çalışmakta olduğu sinyal verilerek test edilecektir. | □ |  | □ |
+
+| 20 | VMS lerin yanlarına gidilerek arızalı mödül varmı kontrol edilecektir. Gitmek mümkündeğilse güzargah servisi personelerinden VMS durumu hakkında bilgi alınacaktır. | □ | □ | □ |
+
+| 21 | Trafik hız ve yön matrisleri yanlarına gidilerek normal çalıştkları kontol edilecektir. | □ | □ | □ |
+
+| 22 | Enerji nakil hattı sonundaki ayırıcılarda ses ve ark var mı; parafudurlar sağlam mı kontrol edilecektir. |  | □ |  |
+
+| 23 | Yol işaretleme ışıldaklarının aküleri şarja bağlanacak ve cihazların çalıştığı kontrol edilecektir. | □ |  | □ |
+
+| 24 | Atölyedeki takviye aküleri ve el fenerlerin şarjlı olması sağlanacaktır. Takviye kablosunun yerinde bulunduğu kontrol edilecektir. | □ |  | □ |
+
+| 25 | Atölye malzemelerinin saymı yapılarak tam ve uygun yerlerinde olduğu kontrol edilecektir. | □ |  | □ |
+
+| 26 | Atölye bakım çantaları harakete hazır hale getirilecektir. | □ |  | □ |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+
+
+| Tarih | Tarih | Tarih | Tarih | Tarih | Tarih |
+
+| --- | --- | --- | --- | --- | --- |
+
+| Vardiya | Gece | — | Sabah | — | Akşam |
+
+| Teknnisyen |  | — |  | — |  |
+
+| Teknnisyen |  | — |  | — |  |
+
+| Teknnisyen |  | — |  | — |  |
+
+| Teknnisyen |  | — |  | — |  |
+
+| Teknnisyen |  | — |  | — |  |
+
+| Günlük kontroler Haftalık bakım çalışması Aylık bakım çalışması Yıllık bakım çalışması yapılan diğer çalışmalar; tespit edilip giderilen sorunlar; devam eden arızalar ve notlar | □ | — | □ | — | □ |
+
+
+
+|  | Kuzey trafo | Kuzey portal | o o | CM O O | CC3 | ■M- O O | CC5 | CC6 | Güney Portal | Güney Trafo | Açıklama |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| Pano içlerindeki tehizatların temizlenmesi | □ | □ | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Pano içlerindeki tehizatların Çalışmasının kontrolu | □ | □ | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Panoların Dış yüzeyinin temizliği | □ | □ | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Panolar üzerindeki sinyal ampullerinin kontrolu | n | □ | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Voltmetre değerlerinin kontrolu | □ | □ | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Oda içindeki malzemelerin listeye göre sayımı | n | □ | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Klimaların bakımı ve flitre temizliği |  | □ | □ |  | □ | □ |  | □ | □ |  |  |
+
+| Oda zeminlerinin temizlenmesi | □ | □ | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Fare zehirlerinin tamamlanması kontrolu | □ | □ | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Su tanklarının doldurulması | □ | □ | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Elektrik odası ve acil geçiş Kapı kilitlerinin yağlanması | □ | □ | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Jeneratörün temizlenmesi | n | □ |  |  |  |  |  |  | □ |  |  |
+
+| Jeneratör odasının ve panjurların temizlenmesi | n | □ |  |  |  |  |  |  | □ |  |  |
+
+|  |  |  |  |  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |  |  |  |  |
+
+
+
+|  |  |
+
+| --- | --- |
+
+| Aylık bakım işlemleri | yapıldı |
+
+| Enerji keserek odayı O.G den tamamen izole etme | yapıldı |
+
+| O.G pano ve kesicileri temizliği ve kontrolu | yapıldı |
+
+| Akım, Gerilim trafoları, ISGS röle ve kablo başlıklarının kontrolu ve temizliği | yapıldı |
+
+| Trafoların ve trafo odalarının kontrolu ve temizliği | yapıldı |
+
+| Odadaki UPS sisteminin yıllık bakımı | yapıldı |
+
+| Odadaki jetfan panolarına yıllık bakım | yapıldı |
+
+| Trafo soğutma fanlarının kontrolu | yapıldı |
+
+| Odadaki yükseltilmiş zemin lastiklerinin yıkanması | yapıldı |
+
+| Topraklama direnci ölçümü | yapıldı |
+
+| İzalasyon dirençleri ölçümü | yapıldı |
+
+|  |  |
+
+|  |  |
+
+
+
+|  | NPSA | NPER | o o | CC2 | CC3 | CC4 | CC5 | CC6 | SPER | SPSA |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| İzalasyon sehbası |  |  |  |  |  |  |  |  |  |  |
+
+| İzalasyon ıstakası |  |  |  |  |  |  |  |  |  |  |
+
+| Orta gerilim kontrol kalemi |  |  |  |  |  |  |  |  |  |  |
+
+| Orta gerilim eldiveni |  |  |  |  |  |  |  |  |  |  |
+
+| Bıçaklı sigorta elliği |  |  |  |  |  |  |  |  |  |  |
+
+| Kesici arabası yürütme kolu |  |  |  |  |  |  |  |  |  |  |
+
+| Kesici kurma kolu |  |  |  |  |  |  |  |  |  |  |
+
+| Topraklama kumanda kolu |  |  |  |  |  |  |  |  |  |  |
+
+| Proje dosyası |  |  |  |  |  |  |  |  |  |  |
+
+| Tek hat çizimi |  |  |  |  |  |  |  |  |  |  |
+
+| Kesici arabası dışarıda |  |  |  |  |  |  |  |  |  |  |
+
+| Yangın tüpü |  |  |  |  |  |  |  |  |  |  |
+
+| Merdiven iki parçalı |  |  |  |  |  |  |  |  |  |  |
+
+| Masa |  |  |  |  |  |  |  |  |  |  |
+
+| Sandalye |  |  |  |  |  |  |  |  |  |  |
+
+| Çöp kovası |  |  |  |  |  |  |  |  |  |  |
+
+| Kültablası |  |  |  |  |  |  |  |  |  |  |
+
+| Su bidonu |  |  |  |  |  |  |  |  |  |  |
+
+| A.G pano anahtarı |  |  |  |  |  |  |  |  |  |  |
+
+| O.G pano anahtarı |  |  |  |  |  |  |  |  |  |  |
+
+| Yangın dolabı pano anahtarı |  |  |  |  |  |  |  |  |  |  |
+
+
+
+|  |  | Kuzey Trafo 00-9007 | Kuzey Portal 00-9008 | Güney Portal 00-9006 | Seyyar 125 kva 02-9128 | Seyyar 5,5kw |  | Açıklama | Çalişmayı yapan |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| 1. H A F T A | I | Şarj redresörünün kontrolü | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| 1. H A F T A | | | Akü kutupbaşı bakımları | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 1. H A F T A | | | Akü su seviye kontrolü | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 1. H A F T A | | | Akü voltM3 güç kontrolü | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 1. H A F T A | | | Radyatör su seviyesi | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| 1. H A F T A | | | Motor yağ seviyesi | □ | □ | n | □ | □ |  |  | Tarih Teknisyen |
+
+| 1. H A F T A | | | Su ısıtıcısı otomatik | □ | □ | n | □ |  |  |  | Tarih Teknisyen |
+
+| 1. H A F T A | I | Ana tank yakıt miktarı | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 1. H A F T A | I | Fazla mazot birikme deposu boşaltımı | □ | □ | □ |  |  |  |  | Tarih Teknisyen |
+
+| 1. H A F T A | | | Mazot geri dönüş pompası çalışması | □ | □ | □ |  |  |  |  | Tarih Teknisyen |
+
+| 1. H A F T A | | | Panjurların çalışmasının kontrolü | □ | □ | □ |  |  |  |  | Tarih Teknisyen |
+
+| 1. H A F T A | | | sinyal ampullerinin kontrolü | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 1. H A F T A | 1—i Jeneratörün 15 dakika çalıştırılması | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 1. H A F T A | | | Jeneratör akım ve gerilim kontrolü | □ | □ | n | □ | □ |  |  | Tarih Teknisyen |
+
+| 1. H A F T A | | | Scadadan izlenen değerler | □ | □ | n |  |  |  |  | Tarih Teknisyen |
+
+| 1. H A F T A | I | Jeneratör dış yüzey temizliği | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 1. H A F T A |  |  |  |  |  |  |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | | | Şarj redresörünün kontrolü | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | | | Akü kutupbaşı bakımları | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | | | Akü su seviye kontrolü | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | | | Akü voltM3 güç kontrolü | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | | | Radyatör su seviyesi | □ | □ | n | □ |  |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | | | Motor yağ seviyesi | □ | □ | n | □ | □ |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | I | Su ısıtıcısı otomatik | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | I | Ana tank yakıt miktarı | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | | | Fazla mazot birikme deposu boşaltımı | □ | □ | □ |  |  |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | | | Mazot geri dönüş pompası çalışması | □ | □ | □ |  |  |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | | | Panjurların çalışmasının kontrolü | □ | □ | □ |  |  |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | | | sinyal ampullerinin kontrolü | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | I—i Jeneratörün 15 dakika çalıştırılması | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | | | Jeneratör akım ve gerilim kontrolü | □ | □ | n | □ | □ |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | I | Scadadan izlenen değerler | □ | □ | □ |  |  |  |  | Tarih Teknisyen |
+
+| 2. H A F T A | I | Jeneratör dış yüzey temizliği | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 2. H A F T A |  |  |  |  |  |  |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | | | Şarj redresörünün kontrolü | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | | | Akü kutupbaşı bakımları | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | | | Akü su seviye kontrolü | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | | | Akü voltM3 güç kontrolü | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | | | Radyatör su seviyesi | □ | □ | n | □ |  |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | I | Motor yağ seviyesi | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | I | Su ısıtıcısı otomatik | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | | | Ana tank yakıt miktarı | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | | | Fazla mazot birikme deposu boşaltımı | □ | □ | □ |  |  |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | | | Mazot geri dönüş pompası çalışması | □ | □ | □ |  |  |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | | | Panjurların çalışmasının kontrolü | □ | □ | □ |  |  |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | | | sinyal ampullerinin kontrolü | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | I—i Jeneratörün 15 dakika çalıştırılması | □ | □ | n | □ | □ |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | I | Jeneratör akım ve gerilim kontrolü | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | I | Scadadan izlenen değerler | □ | □ | □ |  |  |  |  | Tarih Teknisyen |
+
+| 3. H A F T A | | | Jeneratör dış yüzey temizliği | □ | □ | □ | □ | □ |  |  | Tarih Teknisyen |
+
+| 3. H A F T A |  |  |  |  |  |  |  |  | Tarih Teknisyen |
+
+
+
+|  | Kuzey Trafo 00-9007 | Kuzey Portal 00-9008 | Güney Portal 00-9006 | Seyyar 125 kva | 02-9128 | Seyyar 5,5kw |  | Açıklama | Çalişmayı yapan |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| Q Şarj redresörünün kontrolü | □ | □ | □ | □ | □ |  |  |  |  |
+
+| □ Akü kutupbaşı bakımları | □ | □ | □ | □ | □ | □ |  |  | Tarih |
+
+| 0 Akü su seviye kontrolü | □ | □ | □ | □ | □ | 0 |  |  |  |
+
+| 0 Akü volt ve güç kontrolü | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| 0 Radyatör su seviyesi | □ | □ | □ | □ | □ |  |  |  | Teknisyen |
+
+| 0 Motor yağ seviyesi | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| 0 Su ısıtıcısı otomatik | □ | □ | □ | □ | □ |  |  |  |  |
+
+| 0 Ana tank yakıt miktarı | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| 0 Fazla mazot birikme deposu boşaltımı | □ | □ | □ |  |  |  |  |  |  |
+
+| 0 Mazot geri dönüş pompası çalışması | □ | □ | □ |  |  |  |  |  |  |
+
+| 0 Panjurların çalışmasının kontrolü | □ | □ | □ |  |  |  |  |  |  |
+
+| 0 sinyal ampullerinin kontrolü | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| ı—i Jeneratörün 15 dakika çalıştırılması u işlemi | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Q Jeneratör akım ve gerilim kontrolü | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Q Scadadan izlenen değerler | □ | □ | □ |  |  |  |  |  |  |
+
+| Q Jeneratör dış yüzey temizliği | □ | □ | □ | □ | □ | □ |  |  |  |
+
+|  |  |  |  |  |  |  |  |  |  |
+
+| Q Şarj redresörünün kontrolü | □ | □ | □ | □ | □ |  |  |  |  |
+
+| Q Akü kutupbaşı bakımları | □ | □ | □ | □ | □ | □ |  |  | Tarih |
+
+| 0 Akü su seviye kontrolü | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| 0 Akü volt ve güç kontrolü | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| 0 Radyatör su seviyesi | □ | □ | □ | □ | □ |  |  |  | Teknisyen |
+
+| 0 Motor yağ seviyesi | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| 0 Su ısıtıcısı otomatik | □ | □ | □ | □ | □ |  |  |  |  |
+
+| 0 Ana tank yakıt miktarı | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| 0 Fazla mazot birikme deposu boşaltımı | □ | □ | □ |  |  |  |  |  |  |
+
+| 0 Mazot geri dönüş pompası çalışması | □ | □ | □ |  |  |  |  |  |  |
+
+| 0 Panjurların çalışmasının kontrolü | □ | □ | □ |  |  |  |  |  |  |
+
+| 0 sinyal ampullerinin kontrolü | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| ı—i Jeneratörün 15 dakika çalıştırılması u işlemi | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Q Jeneratör akım ve gerilim kontrolü | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Q Scadadan izlenen değerler | □ | □ | □ |  |  |  |  |  |  |
+
+| Q Jeneratör dış yüzey temizliği | □ | □ | □ | □ | □ | □ |  |  |  |
+
+|  |  |  |  |  |  |  |  |  |  |
+
+
+
+| PLC input Girişleri | PLC input Girişleri | PLC input Girişleri | PLC input Girişleri | PLC input Girişleri | PLC input Girişleri | PLC input Girişleri | PLC input Girişleri | PLC input Girişleri | PLC input Girişleri |  |  |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| scada alarmları | 20 - 40 kv a v e 6 kv a ups pinleri | k.trafo | k.portal | CC1 | CC3 | CC4 | CC6 | g.portal | g.trafo |  | Tarih:		 A d ı 	 Soyadı: İmzası: |
+
+| Bypas |  |  |  |  |  |  |  |  |  |  | Tarih:		 A d ı 	 Soyadı: İmzası: |
+
+| A r ız a |  |  |  |  |  |  |  |  |  |  | Tarih:		 A d ı 	 Soyadı: İmzası: |
+
+| Şebeke yok |  |  |  |  |  |  |  |  |  |  | Tarih:		 A d ı 	 Soyadı: İmzası: |
+
+| Akü gerilimi düşük |  |  |  |  |  |  |  |  |  |  | Tarih:		 A d ı 	 Soyadı: İmzası: |
+
+
+
+|  | Dış yüzey temizliği | Optik göz temizliği | İzalasyon kontrolu | Cihazın çalışırlığnın kontrolu | Uyarı sinyalinin kontrolu | Ölçüm değerlerinin kontrolu | Açıklama | Çalışmayı yapan |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| n CO Güney giriş | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| n CO Güney çıkış | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| n CO Kuzey giriş | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| □ CO Kuzey çıkış | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| O Güney tüp rügar ölçer | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| O Kuzey tüp rügar ölçer | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| O CC1 deki VCA ünitesi |  |  |  | □ | □ | □ |  | Tarih Teknisyen |
+
+| O CC6 daki VCA ünitesi |  |  |  | □ | □ | □ |  | Tarih Teknisyen |
+
+| I CC4 deki değerlendirme ünitesi |  |  |  | □ | □ | □ |  | Tarih Teknisyen |
+
+| O Kuzey ağız lümensmetre | □ | □ | □ | □ | □ | □ |  | Tarih Teknisyen |
+
+| □ Güney ağız lümensmetre | □ | □ | □ | □ | □ | □ |  | Tarih Teknisyen |
+
+|  |  |  |  |  |  |  |  | Tarih Teknisyen |
+
+| n CO Güney giriş | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| n CO Güney çıkış | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| n CO Kuzey giriş | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| □ CO Kuzey çıkış | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| □ Güney tüp rügar ölçer | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| □ Kuzey tüp rügar ölçer | □ | □ | □ | □ |  |  |  | Tarih Teknisyen |
+
+| O CC1 deki VCA ünitesi |  |  |  | □ | □ | □ |  | Tarih Teknisyen |
+
+| O CC6 d aki VCA ünitesi |  |  |  | □ | □ | □ |  | Tarih Teknisyen |
+
+| |—I CC4 deki değerlendirme ünitesi |  |  |  | □ | □ | □ |  | Tarih Teknisyen |
+
+| O Kuzey ağız lümensmetre | □ | □ | □ | □ | □ | □ |  | Tarih Teknisyen |
+
+| □ Güney ağız lümensmetre | □ | □ | □ | □ | □ | □ |  | Tarih Teknisyen |
+
+|  |  |  |  |  |  |  |  | Tarih Teknisyen |
+
+
+
+| Kullanılan malzeme | Değişrilen malzeme adeti | Onarılan malzeme adeti | Cihaz veya malzeme yeri | Açıklama |
+
+| --- | --- | --- | --- | --- |
+
+| □	400 w sodyum buharlı ampul | □	400 w sodyum buharlı ampul |  |  |  |
+
+| □	150 w sodyum buharlı ampul | □	150 w sodyum buharlı ampul |  |  |  |
+
+| □	6 A taş sigorta |  |  |  |  |
+
+| □	2 A taş sigorta |  |  |  |  |
+
+| □	400 w ignatör |  |  |  |  |
+
+| □	150 w ignatör |  |  |  |  |
+
+| □	400 w balast |  |  |  |  |
+
+| □	150 w balast |  |  |  |  |
+
+| □	40 w flouresan ampul |  |  |  |  |
+
+| □	20 w flouresan ampul |  |  |  |  |
+
+| □	40-100 w yuvarlak ampul |  |  |  |  |
+
+| □	40 w balast |  |  |  |  |
+
+| □	20 w balast |  |  |  |  |
+
+| □	40 w starter |  |  |  |  |
+
+| □	20 w starter |  |  |  |  |
+
+| □ Topraklı priz |  |  |  |  |
+
+| □ Komütatör anahtar |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+
+
+| Sistem bakımı | Durum | Açıklama |
+
+| --- | --- | --- |
+
+| Tünel içi armütürlerin bakımı | yapıldı |  |
+
+| Acil geçişlerdeki armütürlerin bakımı | yapıldı |  |
+
+| Acil aydınlatma floseranlarının bakımı | yapıldı |  |
+
+| Acil aydınlatma floseranlarının temizlenmesi | yapıldı |  |
+
+| Binalardaki lambaların bakımı | yapıldı |  |
+
+| Bina priz ve ahtarlarını kontrolu | yapıldı |  |
+
+| Dış aydınlatmaların bakımı | yapıldı |  |
+
+|  |  |  |
+
+| Tarih : Adı soyadı : İmzası : fBu form aylık bakımda kullanılacaktır. | Tarih : Adı soyadı : İmzası : fBu form aylık bakımda kullanılacaktır. |  |
+
+
+
+| Sistem Bakımı | Durum | Açıklama |
+
+| --- | --- | --- |
+
+| Aylık bakım işlemleri | □ yapıldı |  |
+
+| Basınçlı hava ile tavaların temizlenmesi | □ yapıldı |  |
+
+| Basınçlı hava ile armütürlerin temizlenmesi | □ yapıldı |  |
+
+| Alkollü ve detarjanlı su ile armütür camlarının silinmes | □ yapıldı |  |
+
+| Reflektörlerin hava ile temizlenmesi | □ yapıldı |  |
+
+| Reflektörlerin kuru bez ile temizlenmesi | □ yapıldı |  |
+
+|  | yapıldı |  |
+
+|  |  |  |
+
+
+
+| Sistem Bakımı | Durum | Açıklama |
+
+| --- | --- | --- |
+
+| Aylık bakım işlemleri | □ yapıldı |  |
+
+| Basınçlı hava ile tavaların temizlenmesi | □ yapıldı |  |
+
+| Basınçlı hava ile armütürlerin temizlenmesi | □ yapıldı |  |
+
+| Alkollü ve detarjanlı su ile armütür camlarının silinmes | □ yapıldı |  |
+
+| Reflektörlerin hava ile temizlenmesi | □ yapıldı |  |
+
+| Reflektörlerin kuru bez ile temizlenmesi | □ yapıldı |  |
+
+|  | yapıldı |  |
+
+|  |  |  |
+
+| Tarih : Bu form yıllık bakımda kullanılacaktır.	Adı soyadı : İmzası : | Tarih : Bu form yıllık bakımda kullanılacaktır.	Adı soyadı : İmzası : |  |
+
+
+
+| Sağa dönüş ve hava yönü kontrolu | yapıldı |
+
+| --- | --- |
+
+| Sola dönüş ve hava yönü kontrolu | yapıldı |
+
+| Motor çalışırken akım kontrolu | yapıldı |
+
+| Motor ses ve gürültü kontrolu | yapıldı |
+
+| Fırça ve basınçlı hava ile iç ve dış yüzey temizliği | yapıldı |
+
+| Hava yön algılama hortum ve boru temizliği | yapıldı |
+
+| Hava yön algılama panosunun temizliği ve izalasyonu | yapıldı |
+
+| Bağlantı bano temizliği ve izalasyonu | yapıldı |
+
+| Jetfan çekmeceli panoların bakımı | yapıldı |
+
+| Jetfan kondansatörleri sağlamlık kontrolu | yapıldı |
+
+| Jetfanların tünel tavanına fiziksel bağlantısının kontrolu | yapıldı |
+
+| Motorun fiziksel kontrolu | yapıldı |
+
+| Pervanenin sağlamlık kontrolu | yapıldı |
+
+|  |  |
+
+|  |  |
+
+|  |  |
+
+|  |  |
+
+
+
+| KAMERA NO | yön ve açıs kontrolu | İzalasyon ve bağlantı kontrolu | Haraket ve zoomu | Dış yüzey ve mercek temizliği | Test konnektörü ve prizi | santral Uyarı sinyali | Açıklama |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| 1 | □ | □ |  | □ | □ | □ |  |
+
+| 2 | □ | □ |  | □ | □ | □ |  |
+
+| 3 | □ | □ |  | □ | □ | □ |  |
+
+| 4 | □ | □ |  | □ | □ | □ |  |
+
+| 5 | □ | □ |  | □ | □ | □ |  |
+
+| 6 | □ | □ |  | □ | □ | □ |  |
+
+| 7 | □ | □ |  | □ | □ | □ |  |
+
+| 8 | □ | □ |  | □ | □ | □ |  |
+
+| 9 | □ | □ |  | □ | □ | □ |  |
+
+| 10 | □ | □ |  | □ | □ | □ |  |
+
+| 11 | □ | □ |  | □ | □ | □ |  |
+
+| 12 | □ | □ |  | □ | □ | □ |  |
+
+| 13 | □ | □ |  | □ | □ | □ |  |
+
+| 14 | □ | □ |  | □ | □ | □ |  |
+
+| 15 | □ | □ |  | □ | □ | □ |  |
+
+| 16 | □ | □ |  | □ | □ | □ |  |
+
+| 17 | □ | □ |  | □ | □ | □ |  |
+
+| 18 | □ | □ |  | □ | □ | □ |  |
+
+| 19 | □ | □ |  | □ | □ | □ |  |
+
+| 20 | □ | □ |  | □ | □ | □ |  |
+
+| 21 | □ | □ |  | □ | □ | □ |  |
+
+| 22 | □ | □ |  | □ | □ | □ |  |
+
+| 23 | □ | □ |  | □ | □ | □ |  |
+
+| 24 | □ | □ |  | □ | □ | □ |  |
+
+| 25 | □ | □ |  | □ | □ | □ |  |
+
+| 26 | □ | □ |  | □ | □ | □ |  |
+
+| 27 | □ | □ |  | □ | □ | □ |  |
+
+| 28 | □ | □ |  | □ | □ | □ |  |
+
+| 29 | □ | □ |  | □ | □ | □ |  |
+
+| 30 | □ | □ |  | □ | □ | □ |  |
+
+| 31 | □ | □ |  | □ | □ | □ |  |
+
+| 32 | □ | □ |  | □ | □ | □ |  |
+
+| 33 | □ | □ | □ | □ | □ | □ |  |
+
+| 34 | □ | □ | □ | □ | □ | □ |  |
+
+| 35 | □ | □ | □ | □ | □ | □ |  |
+
+| 36 | □ | □ | □ | □ | □ | □ |  |
+
+| plaka G1 | □ | □ |  | □ | □ | □ |  |
+
+| plaka G2 | □ | □ |  | □ | □ | □ |  |
+
+| plaka G3 | □ | □ |  | □ | □ | □ |  |
+
+| plaka K1 | □ | □ |  | □ | □ | □ |  |
+
+| plaka K2 | □ | □ |  | □ | □ | □ |  |
+
+| plaka K3 | □ | □ |  | □ | □ | □ |  |
+
+| tuz silosu | □ | □ | □ | □ |  |  |  |
+
+| işl.bina girişi | □ | □ |  | □ |  |  |  |
+
+| atelye | □ | □ |  | □ |  |  |  |
+
+| toprak yol bariyeri | □ | □ |  | □ |  |  |  |
+
+| işl bariyeriyeri | □ | □ |  | □ |  |  |  |
+
+
+
+| kamera kayıt görüntüsünün izlenmesi |  |  | yapıldı |
+
+| --- | --- | --- | --- |
+
+| plaka kayıtlarının okunurluğunun testi |  |  | yapıldı |
+
+| kamera kayıt cihazları zaman ve saat ayarlaması |  |  | yapıldı |
+
+|  |  |  |  |
+
+
+
+| S O S S İ S T E M İ B A K I M I | S O S S İ S T E M İ B A K I M I | S O S S İ S T E M İ B A K I M I | S O S S İ S T E M İ B A K I M I | S O S S İ S T E M İ B A K I M I | S O S S İ S T E M İ B A K I M I |
+
+| --- | --- | --- | --- | --- | --- |
+
+| ON SOS | pano aydınlatma lambaları | alarm çakar çalışması | sos temizliği ve ışık panosu yıkama | Kontrol odası telefon bağlantısı; scda pc kamera odaklaması; trfik uyarısı; alarm mesajı; yazıcı cıktıları | Açıklama |
+
+| 1 | E |  |  |  |  |
+
+| 2 | E |  |  |  |  |
+
+| 3 | E |  |  |  |  |
+
+| 4 | E |  |  |  |  |
+
+| 5 | E |  |  |  |  |
+
+| 6 | E |  |  |  |  |
+
+| 7 | E |  |  |  |  |
+
+| 8 | E |  |  |  |  |
+
+| 9 | E |  |  |  |  |
+
+| 10 | E |  |  |  |  |
+
+| 11 | E |  |  |  |  |
+
+| 12 | E |  |  |  |  |
+
+| 13 | E |  |  |  |  |
+
+| 14 | E |  |  |  |  |
+
+| 15 | E |  |  |  |  |
+
+| 16 | E |  |  |  |  |
+
+| 17 | E |  |  |  |  |
+
+| 18 | E |  |  |  |  |
+
+| 19 | E |  |  |  |  |
+
+| 20 | E |  |  |  |  |
+
+| 21 | E |  |  |  |  |
+
+| 22 | E |  |  |  |  |
+
+| 23 | E |  |  |  |  |
+
+| 24 | E |  |  |  |  |
+
+| 25 | E |  |  |  |  |
+
+| 26 | E |  |  |  |  |
+
+| 27 | E |  |  |  |  |
+
+| 28 | E |  |  |  |  |
+
+| 29 | E |  |  |  |  |
+
+| 30 | E |  |  |  |  |
+
+| 31 | E |  |  |  |  |
+
+| 32 | E |  |  |  |  |
+
+| 33 | E |  |  |  |  |
+
+| 34 | E |  |  |  |  |
+
+|  |  |  |  |  |  |
+
+
+
+| Aylık bakım işlemi | yapıldı |
+
+| --- | --- |
+
+| Sos ışıklı panosu içi açılıp temizleme işlemi | yapıldı |
+
+| Alarm çakar kayışlarının kontrolu | yapıldı |
+
+| Florasan soketleri değişimi gerektirenlerin incelenmesi | yapıldı |
+
+| Telefon santrallarından çağrıların incelenmesi | yapıldı |
+
+|  |  |
+
+|  |  |
+
+|  |  |
+
+|  |  |
+
+
+
+| GÜNEY TÜP | GÜNEY TÜP | GÜNEY TÜP | GÜNEY TÜP | GÜNEY TÜP | HOPARLÖR KONTROLÜ | HOPARLÖR KONTROLÜ | HOPARLÖR KONTROLÜ | HOPARLÖR KONTROLÜ | HOPARLÖR KONTROLÜ | HOPARLÖR KONTROLÜ | HOPARLÖR KONTROLÜ | HOPARLÖR KONTROLÜ |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| ZONE 1 | ■d | SOS 1 | ■d | ■d | ■d | ■d | ■d | SOS 2 | ■d | ■d | ■d | ■d |
+
+| ZONE 2 | ■d | SOS 3 | ■d | ■d | ■d | ■d | ■d | SOS 4 | ■d | ■d | ■d | ■d |
+
+| ZONE 3 | ■d | SOS 5 | ■d | ■d | ■d | ■d | ■d | SOS 6 | ■d | ■d | ■d | ■d |
+
+| ZONE 4 | ■d | SOS 7 | ■d | ■d | ■d | ■d | ■d | SOS 8 | ■d | ■d | ■d | ■d |
+
+| ZONE 5 | ■d | SOS 9 | ■d | ■d | ■d | ■d | ■d | ■d | SOS 10 | ■d | ■d | ■d |
+
+| ZONE 6 | ■d | ■d | SOS 11 | ■d | ■d | ■d | ■d | ■d | SOS 12 | ■d | ■d | ■d |
+
+| ZONE 7 | ■d | ■d | SOS 13 | ■d | ■d | ■d | ■d | ■d | SOS 14 | ■d | ■d | ■d |
+
+| ZONE 8 | ■d | ■d | SOS 15 | ■d | ■d | ■d | ■d | ■d | SOS 16 | ■d | ■d | ■d |
+
+|  |  | KUZEY TÜP | KUZEY TÜP | KUZEY TÜP | HOPARLÖR KONTROLÜ | HOPARLÖR KONTROLÜ | HOPARLÖR KONTROLÜ | HOPARLÖR KONTROLÜ | HOPARLÖR KONTROLÜ |  |  |  |
+
+| ZONE 9 | ■d | SOS 17 | ■d | ■d | ■d | ■d | ■d | SOS 18 | ■d | ■d | ■d | ■d |
+
+| ZONE 10 | ■d | SOS 19 | ■d | ■d | ■d | ■d | ■d | SOS 20 | ■d | ■d | ■d | ■d |
+
+| ZONE 11 | ■d | SOS 21 | ■d | ■d | ■d | ■d | ■d | SOS 22 | ■d | ■d | ■d | ■d |
+
+| ZONE 12 | ■d | SOS 23 | ■d | ■d | ■d | ■d | ■d | SOS 24 | ■d | ■d | ■d | ■d |
+
+| ZONE 13 | ■d | SOS 25 | ■d | ■d | ■d | ■d | ■d | SOS 26 | ■d | ■d | ■d | ■d |
+
+| ZONE 14 | ■d | SOS 27 | ■d | ■d | ■d | ■d | ■d | SOS 28 | ■d | ■d | ■d | ■d |
+
+| ZONE 15 | ■d | SOS 29 | ■d | ■d | ■d | ■d | ■d | SOS 30 | ■d | ■d | ■d | ■d |
+
+| ZONE 16 | ■d | SOS 31 | ■d | ■d | ■d | ■d | ■d | SOS 32 | ■d | ■d | ■d | ■d |
+
+| vms1 | ■d | ■d |  |  |  | vms1 gabari sireni | vms1 gabari sireni | vms1 gabari sireni | sağlam | sağlam | arızalı | arızalı |
+
+| vms2 | ■d | ■d | ■d | ■d |  | vms1 gabari lambası | vms1 gabari lambası | vms1 gabari lambası | sağlam | sağlam | arızalı | arızalı |
+
+| güney gabari | ■d |  |  |  |  | vms2 gabari sireni | vms2 gabari sireni | vms2 gabari sireni | sağlam | sağlam | arızalı | arızalı |
+
+| toprak yol bariyeri | ■d |  |  |  |  | vms gabari lambası | vms gabari lambası | vms gabari lambası | sağlam | sağlam | arızalı | arızalı |
+
+| işletme bariyeri | ■d |  |  |  |  | işletme bina sireni | işletme bina sireni | işletme bina sireni | sağlam | sağlam | arızalı | arızalı |
+
+| atelye | ■d |  |  |  |  | atelye sireni | atelye sireni | atelye sireni | sağlam | sağlam | arızalı | arızalı |
+
+| hizmet binası | ■d |  |  |  |  | himet binası sireni | himet binası sireni | himet binası sireni | sağlam | sağlam | arızalı | arızalı |
+
+
+
+| TRAFİ | TRAFİ | TRAFİ | TRAFİ | K KONT | K KONT | ROL SİSTE | ROL SİSTE | ROL SİSTE | MLERİ BAKIM |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+|  | Tüp girişi Trafik ışıkları | Flaşörler | 73x73 trafik hız göstergeleri | 73x73 trafik yön göstergeleri | 120x120 trafik hız göstergeleri | 120x120 trafik yön göstergeleri |  |  | Açıklama |
+
+| Cihazın gösterdiği durum ile scada pc görünümünün aynı olması kontrolu | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Hata Mesajların scada görünümü ile uyumu kontrolu | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Yerleşim konumlarının scada ile uyumu (sağ sol orta) | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Fiziki hasar ve izalasyon kontrolu | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Isı sensörlerinin kontrolu | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Işık sensörlerinin kontrolu | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Kopmrasör ile kartların temizliği | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Kasa dış yüzeylerinin su ile yıkanması | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Havalandırma fan bakımı | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Havalandırma süngerlerinin değişimi | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Bütün ledelerin çalışmasının sağlanması | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Soketlerin sağlamlaştırılıp alkol ile temizlenmesi | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Güç karlarının gerilim kontrolu | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Kilit Menteşe ve hareketli parçaların yağlanması | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Varistör ve parafudurların devreye alınması | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Boya gerektiren kısımların boyanması | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| Cihazların şeride ve yere doğrultularının ayarlanması | □ | □ | □ | □ | □ | □ |  |  |  |
+
+|  |  |  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |  |  |
+
+
+
+| Loop araç sayımı | Loop araç sayımı | Loop araç sayımı | Loop araç sayımı | Loop araç sayımı | Loop araç sayımı | Loop araç sayımı | ( güney ve kuzey tüp) | ( güney ve kuzey tüp) | ( güney ve kuzey tüp) |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+|  | NPER | CC1 | CC2 | CC3 | CC4 | CC5 | CC6 | SPER | Açıklama |
+
+| Trafik sayım looplarının araçları sayması | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Trafik sayım looplarının duran araçları algılaması | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Trafik sayım looplarının geri giden araçları algılaması | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+|  |  |  |  |  |  |  |  |  |  |
+
+
+
+| Gabari algılayıcılar | Gabari algılayıcılar | Gabari algılayıcılar | Gabari algılayıcılar | Gabari algılayıcılar | Gabari algılayıcılar | Gabari algılayıcılar |
+
+| --- | --- | --- | --- | --- | --- | --- |
+
+|  | İzmir tarafı | İzmir tarafı | Aydın tarafı | Aydın tarafı | Aydın tarafı | Açıklama |
+
+|  | scada | vms1 | scada | vms2 | Germencik |  |
+
+| Optik sensör temizliği | □ | □ | □ | □ | □ |  |
+
+| Tek optik testi | □ | □ | □ | □ | □ |  |
+
+| 4.80 mesafe kontrolu | □ | □ | □ | □ | □ |  |
+
+| Işık ve siren alarmlarının kontrolu |  | □ |  | □ |  |  |
+
+|  |  |  |  |  |  |  |
+
+
+
+| Otomatik bariyerler | Otomatik bariyerler | Otomatik bariyerler | Otomatik bariyerler | Otomatik bariyerler | Otomatik bariyerler |
+
+| --- | --- | --- | --- | --- | --- |
+
+|  | İzmir girişi | Aydın girişi | işletme bariyeri | toprakyol bariyeri | Açıklama |
+
+| Kontrol odasından kapatıp açma | □ | □ | □ | □ |  |
+
+| Flaşörlerin çalışması | □ | □ | □ | □ |  |
+
+| Mekanik ve hareketli parçaların yağlanması | □ | □ | □ | □ |  |
+
+
+
+|  | Vms 1 | Vms 2 | Vms 3 | Vms 4 | Vms 5 | Vms 6 | Sabit Vms Belevi | Sabit Vms Germencik | Açıklama |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| Mesaj gönderimi ve scada ile haberleşme | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Mesajların scada ile uyumunun kontrolu | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Karaktrelerin oluşması | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Fiziki hasar ve izalasyon kontrolu | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Isı sensörlerinin kontrolu | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Işık sensörlerinin kontrolu | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Kopmrasör ile kartların temizliği | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Led dış yüzeylerinin su ile yıkanması | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Havalandırma fan bakımı | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Havalandırma süngerlerinin değişimi | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Bütün ledelerin çalışmasının sağlanması | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Soketlerin sağlamlaştırılıp alkol ile temizlenmesi | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Güç karlarının gerilim kontrolu | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Kilit ;Menteşe ve hareketli parçaların yağlanması | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Varistör ve parafudurların devreye alınması | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+| Boya gerektiren kısımların boyanması | □ | □ | □ | □ | □ | □ | □ | □ |  |
+
+|  |  |  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |  |  |
+
+
+
+| 0 | 1 | 2 | 3 | 4 | 5 |
+
+| --- | --- | --- | --- | --- | --- |
+
+|  |  |  |  |  |  |
+
+
+
+| 6 | 7 | 8 | 9 | 10 | 11 |
+
+| --- | --- | --- | --- | --- | --- |
+
+|  |  |  |  |  |  |
+
+
+
+| 12 | 13 | 14 | 15 | 16 | 17 |
+
+| --- | --- | --- | --- | --- | --- |
+
+|  |  |  |  |  |  |
+
+
+
+| uzak VMS ler modem RS232 | yakın VMS ler RS 485 | PC ile test proğramı çalıştırılırken | SW10=adres 1-2-4-8-16 .... şeklinde gider |
+
+| --- | --- | --- | --- |
+
+| SW9 = 600 (6) | SW9 = 1200 (5) | SW9 = 600 (6) | sekizinci siwiç sürekli 1 konumunda |
+
+| SW11 = 4800 (3) | SW11 = 1200 (5) | SW11 = 1200 (5) |  |
+
+
+
+| Yangın Tüpü Cinsi ve Ağırlığ | Güney tüp | Kuzey tüp | İşletme Binası | İşletme Binası | İşletme Binası | İşletme Binası | Misafirhane | Misafirhane | Akaryakıt | Akaryakıt | Kapalı Garaj | Kapalı Garaj | Kapalı Garaj | Kazan Dairesi | Kazan Dairesi | Kuzey Trafo | Kuzey Trafo | Kuzey Trafo | Kuzey Portal | Kuzey Portal | Kuzey Portal | CC1 | CC2 | CC3 | CC4 | CC5 | CC6 | Güney Portal | Güney Portal | Güney Portal | Güney Portal | Güney Trafo | Güney Trafo | Toplam |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| Yangın Tüpü Cinsi ve Ağırlığ | Güney tüp | Kuzey tüp | Kontrol Odası | Giriş Koridoru | Bekleme Odası | Çay Ocağı | Altkat Giriş |  |  |  | Atelye | Ambar |  |  |  | Jeneratör | Pano |  | Jeneratör | Pano |  | Pano |  | Pano | Pano |  | Pano | Jeneratör | Pano | Pompa Odası |  | Pano |  | Toplam |
+
+| 50 kg kuru kimyavi tozlu tüp |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |
+
+| 6 kg kuru kimyavi tozlu tüp |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |
+
+| 6 kg CO2 li tüp |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |
+
+| 12 kg kuru kim/avi tozlu tüp |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 |
+
+| Toplam | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+
+
+| Yangın dolap no | Hortum ve anahtar sayıları | Tüp; dolapların ve hidrant temizliği | Tüplerin kontrolü | Scada pc alarm; k am era odak lam ası; trafik uyarısı | Açıklama |
+
+| --- | --- | --- | --- | --- | --- |
+
+| 1 | □ | □ | □ | □ |  |
+
+| 2 | □ | □ | □ | □ |  |
+
+| 3 | □ | □ | □ | □ |  |
+
+| 4 | □ | □ | □ | □ |  |
+
+| 5 | □ | □ | □ | □ |  |
+
+| 6 | □ | □ | □ | □ |  |
+
+| 7 | □ | □ | □ | □ |  |
+
+| 8 | □ | □ | □ | □ |  |
+
+| 9 | □ | □ | □ | □ |  |
+
+| 10 | □ | □ | □ | □ |  |
+
+| 11 | □ | □ | □ | □ |  |
+
+| 12 | □ | □ | □ | □ |  |
+
+| 13 | □ | □ | □ | □ |  |
+
+| 14 | □ | □ | □ | □ |  |
+
+| 15 | □ | □ | □ | □ |  |
+
+| 16 | □ | □ | □ | □ |  |
+
+| 17 | □ | □ | □ | □ |  |
+
+| 18 | □ | □ | □ | □ |  |
+
+| 19 | □ | □ | □ | □ |  |
+
+| 20 | □ | □ | □ | □ |  |
+
+| 21 | □ | □ | □ | □ |  |
+
+| 22 | □ | □ | □ | □ |  |
+
+| 23 | □ | □ | □ | □ |  |
+
+| 24 | □ | □ | □ | □ |  |
+
+| 25 | □ | □ | □ | □ |  |
+
+| 26 | □ | □ | □ | □ |  |
+
+| 27 | □ | □ | □ | □ |  |
+
+| 28 | □ | □ | □ | □ |  |
+
+| 29 | □ | □ | □ | □ |  |
+
+| 30 | □ | □ | □ | □ |  |
+
+| 31 | □ | □ | □ | □ |  |
+
+| 32 | □ | □ | □ | □ |  |
+
+
+
+| Yangın dolap no | Hortum ve anahtar sayıları | Tüp; dolapların ve hidrant temizliği | Tüplerin kontrolü | Scada pc alarm; kamera odaklam ası; trafik uyarısı | Açıklama |
+
+| --- | --- | --- | --- | --- | --- |
+
+| 33 | □ | □ | □ | □ |  |
+
+| 34 | □ | □ | □ | □ |  |
+
+| 35 | □ | □ | □ | □ |  |
+
+| 36 | □ | □ | □ | □ |  |
+
+| 37 | □ | □ | □ | □ |  |
+
+| 38 | □ | □ | □ | □ |  |
+
+| 39 | □ | □ | □ | □ |  |
+
+| 40 | □ | □ | □ | □ |  |
+
+| 41 | □ | □ | □ | □ |  |
+
+| 42 | □ | □ | □ | □ |  |
+
+| 43 | □ | □ | □ | □ |  |
+
+| 44 | □ | □ | □ | □ |  |
+
+| 45 | □ | □ | □ | □ |  |
+
+| 46 | □ | □ | □ | □ |  |
+
+| 47 | □ | □ | □ | □ |  |
+
+| 48 | □ | □ | □ | □ |  |
+
+| 49 | □ | □ | □ | □ |  |
+
+| 50 | □ | □ | □ | □ |  |
+
+| 51 | □ | □ | □ | □ |  |
+
+| 52 | □ | □ | □ | □ |  |
+
+| 53 | □ | □ | □ | □ |  |
+
+| 54 | □ | □ | □ | □ |  |
+
+| 55 | □ | □ | □ | □ |  |
+
+| 56 | □ | □ | □ | □ |  |
+
+| 57 | □ | □ | □ | □ |  |
+
+| 58 | □ | □ | □ | □ |  |
+
+| 59 | □ | □ | □ | □ |  |
+
+| 60 | □ | □ | □ | □ |  |
+
+| 61 | □ | □ | □ | □ |  |
+
+| 62 | □ | □ | □ | □ |  |
+
+| 63 | □ | □ | □ | □ |  |
+
+| 64 | □ | □ | □ | □ |  |
+
+
+
+| Yangın borusu su basıncı |  |
+
+| --- | --- |
+
+| Çevre suyu toplama kuyu motor saati: |  |
+
+| Pompa1 saati: |  |
+
+| Pompa2 saati: |  |
+
+| Jokey pompa saati: |  |
+
+| Test edilen zone yeri ve numarası |  |
+
+| Test edilen duman dedektörün ve manuel yangın butonun yeri |  |
+
+|  |  |
+
+| İşletme binası yangın vanaları kontrolu | yapıldı |
+
+
+
+| Depolar su şamandıra kontrolu | yapıldı |
+
+| --- | --- |
+
+| Pompalar çalışma testi | yapıldı |
+
+| Yangın borusu hava alma işlemi | yapıldı |
+
+| Kuyu su miktarı: | □ Dolu	|—| yarım	□ Boş |
+
+| Yangın su deposu (alt): | □ Dolu	□Yarım	□ Boş |
+
+| Yedek depo (üst ): | □ Dolu	□Yarım	□ Boş |
+
+| Zone test kutu temizliği | yapıldı |
+
+
+
+|  | Zone no | Yangın alarmı | Jetfan seneryosu | Tünel kapanması | Acil aydınlatma | Aydınlatma kademesi | CC3 santral alarm No | VMS bilgileri |  | Metresi | Açıklama |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| G ü n e y t ü p | 1 | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| G ü n e y t ü p | 2 | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| G ü n e y t ü p | 3 | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| G ü n e y t ü p | 4 | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| G ü n e y t ü p | 5 | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| G ü n e y t ü p | 6 | □ | □ | □ | □ | □ | □ | 0 |  |  |  |
+
+| G ü n e y t ü p | 7 | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| G ü n e y t ü p | 8 | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| G ü n e y t ü p |  | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| G ü n e y t ü p |  | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| K u z e y t ü p | 1 | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| K u z e y t ü p | 2 | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| K u z e y t ü p | 3 | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| K u z e y t ü p | 4 | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| K u z e y t ü p | 5 | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| K u z e y t ü p | 6 | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| K u z e y t ü p | 7 | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| K u z e y t ü p | 8 | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| K u z e y t ü p |  | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+| K u z e y t ü p |  | □ | □ | □ | □ | □ | □ | □ |  |  |  |
+
+
+
+|  |  | Güney Tüp radyo ve anons yayını | Güney Tüp radyo ve anons yayını | Güney Tüp radyo ve anons yayını | Güney Tüp radyo ve anons yayını | Güney Tüp radyo ve anons yayını | Güney Tüp radyo ve anons yayını | Kuzey Tüp radyo ve anons yayını | Kuzey Tüp radyo ve anons yayını | Kuzey Tüp radyo ve anons yayını | Kuzey Tüp radyo ve anons yayını | Kuzey Tüp radyo ve anons yayını | Kuzey Tüp radyo ve anons yayını |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+|  |  | CC1 | CC1 | CC3 | CC3 | CC6 | CC6 | CC6 | CC6 | CC3 | CC3 | CC1 | CC1 |
+
+| Frekans 88 | Tünel dışında rady o y ay ını | Radyo yayını | Anons | Radyo yayını | Anons | Radyo yayını | Anons | Radyo yayını | Anons | Radyo yayını | Anons | Radyo yayını | Anons |
+
+| 89 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 89,3 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 90,5 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 91,2 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 91,5 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 92 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 92,7 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 93,3 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 93,6 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 94,7 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 95,9 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 96,7 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 96,9 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 97,7 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 98,4 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 98,7 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 99,5 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 100 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 100,5 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 101 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 102,3 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 102,8 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 103,1 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 105,3 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 105,7 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 106,5 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 107 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 107,3 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| 107,9 |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| canlı mikrafon anonsu | canlı mikrafon anonsu |  |  |  |  |  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+
+
+| KONTROL MERKEZİ | KONTROL MERKEZİ | CİHAZLARI BAKIMI | CİHAZLARI BAKIMI |
+
+| --- | --- | --- | --- |
+
+|  | Genel Bakım | Harddisk Kopyası | Açıklama |
+
+| Scada1 pc | □ | □ |  |
+
+| scada2 pc | □ | □ |  |
+
+| Trafik pc | □ | □ |  |
+
+| Bakım pc | □ | □ |  |
+
+| Radyo pc | □ | □ |  |
+
+| Telefon santral pc | □ | □ |  |
+
+| Anons pc | □ | □ |  |
+
+| Kamera kayıt izleme pc | □ | □ |  |
+
+| Kayıt cihazı güney tüp | □ |  |  |
+
+| Kayıt cihazı kuzey tüp | □ |  |  |
+
+| Kayıt cihazı dış kameralar | □ |  |  |
+
+| Scada1 log yazıcı | □ |  |  |
+
+| Scada2 log yazıcı | □ |  |  |
+
+| Renkli LaserC1 yazıcı | □ |  |  |
+
+| Renkli LaserC2 yazıcı | □ |  |  |
+
+| Renkli LaserC3 yazıcı | □ |  |  |
+
+| Laser1 Yazıcı | □ |  |  |
+
+| Laser2 Yazıcı | □ |  |  |
+
+| Video monitörler +plazmalar | □ |  |  |
+
+| Telefon konsolları | □ |  |  |
+
+| Kamera santaralı +kayıt cihazı dolabı | □ |  |  |
+
+| Telefon santaralı | □ |  |  |
+
+| PLC S5 snatralı | □ |  |  |
+
+| Yükseltilmiş zemin altı temizliği ve fare zehiri | □ |  |  |
+
+| Antenlerin bakımı | □ |  |  |
+
+| Diğer bina ve odalardaki pc ce cevre donanımları | □ |  |  |
+
+|  | □ |  |  |
+
+
+
+| ATELYE ÇANTALARINDAKİ MALZEMELER | ATELYE ÇANTALARINDAKİ MALZEMELER | ATELYE ÇANTALARINDAKİ MALZEMELER | ATELYE ÇANTALARINDAKİ MALZEMELER | ATELYE ÇANTALARINDAKİ MALZEMELER | ATELYE ÇANTALARINDAKİ MALZEMELER | ATELYE ÇANTALARINDAKİ MALZEMELER | ATELYE ÇANTALARINDAKİ MALZEMELER |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+| S No | MALZEMENİN ADI VE NİTELİĞİ | BİRİMİ | ÇANTA 1 MİKTARI | ÇANTA 2 MİKTARI | ÇANTA 3 MİKTARI | ÇANTA 4 MİKTARI | AÇIKLAMALAR |
+
+| 1 | 6 KURBAĞACIK ANAHTAR | Ad |  |  |  |  |  |
+
+| 2 | PLASTİK ÇEKİÇ | Ad |  |  |  |  |  |
+
+| 3 | MUHTELİF KG.ÇEKİÇ | Ad |  |  |  |  |  |
+
+| 4 | PENSE | Ad |  |  |  |  |  |
+
+| 5 | KARGABURUN PENSE | Ad |  |  |  |  |  |
+
+| 6 | YANKESKİ PENSE | Ad |  |  |  |  |  |
+
+| 7 | SEGMAN PENSESİ | Ad |  |  |  |  |  |
+
+| 8 | İKİ AĞIZ MM TAKIM ANAHTAR | TK |  |  |  |  |  |
+
+| 9 | 3 MM ALLEN ANAHTAR | Ad |  |  |  |  |  |
+
+| 10 | ALLEN MM TK.ANAHTAR | TK |  |  |  |  |  |
+
+| 11 | AVOMETRE | Ad |  |  |  |  |  |
+
+| 12 | MUH.MM TK.ÇANTASI | Ad |  |  |  |  |  |
+
+| 13 | SAATÇİ TİP TK.ANAHTAR | Ad |  |  |  |  |  |
+
+| 14 | LOKMA BITS TK TORNAVİDA | TK |  |  |  |  |  |
+
+| 15 | ELK.KALEM HAVYA | Ad |  |  |  |  |  |
+
+| 16 | ELK.KONT.KALEM | Ad |  |  |  |  |  |
+
+| 17 | DÜZ TORNAVİDA | Ad |  |  |  |  |  |
+
+| 18 | YILDIZ TORNAVİDA | Ad |  |  |  |  |  |
+
+| 19 | TOPAÇ DÜZ TORNAVİDA | Ad |  |  |  |  |  |
+
+| 20 | TOPAÇ YILDIZ TORNAVİDA | Ad |  |  |  |  |  |
+
+| 21 | 8" KURBAĞACIK ANAHTAR | Ad |  |  |  |  |  |
+
+| 22 | 5 MT ŞERİT METRE | Ad |  |  |  |  |  |
+
+| 23 | FALÇATA |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+
+
+| No | Yeri | Malzeme | Stok no | Birimi | Adet |  | No | Yeri | Malzeme | Stok no | Birimi | Adet |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| 1 | pano1 | Su terazisi |  | Ad |  |  | 51 | pano1 | Teneke makası |  | Ad |  |
+
+| 2 | pano1 | Metal gönyesi |  | ad |  |  | 52 | pano1 | Kerpeten (küçük) |  | Ad |  |
+
+| 3 | pano1 | Ağaç testeresi (büyük) |  | Ad |  |  | 53 | pano1 | Kerpeten (büyük) |  |  |  |
+
+| 4 | pano1 | Ağaç testeresi (küçük) |  |  |  |  | 54 | pano1 | bağ makası |  | ad |  |
+
+| 5 | pano1 | Ağaç testeresi (ince) |  |  |  |  | 55 | pano1 | Krone makası |  | ad |  |
+
+| 6 | pano1 | Demir testeresi |  | Ad |  |  | 56 | pano1 | Analog Avometre |  | Ad |  |
+
+| 7 | pano1 | Çektirme (büyük) |  | Ad |  |  | 57 | pano1 | Dijital Avometre |  | Ad |  |
+
+| 8 | pano1 | Çektirme (küçük) |  |  |  |  | 58 | pano1 | Dijital Avometre |  |  |  |
+
+| 9 | pano1 | Silikon tabancası |  | ad |  |  | 59 | pano1 | Dijital Avometre |  |  |  |
+
+| 10 | pano1 | Tel fırça (2 adet) |  | ad |  |  | 60 | pano1 | Dijital Avometre |  |  |  |
+
+| 11 | pano1 | İşkence (büyük) |  | Ad |  |  | 61 | pano1 | Pens ampermetre |  | Ad |  |
+
+| 12 | pano1 | İşkence (orta) |  |  |  |  | 62 | pano1 | Kablo kesme makası |  | Ad |  |
+
+| 13 | pano1 | Boru anahtarı (orta) |  | Ad |  |  | 63 | pano1 | Şeritmetre (50m) |  | Ad |  |
+
+| 14 | pano1 | Spotula |  | ad |  |  | 64 | pano1 | Şeritmetre (5m) |  | Ad |  |
+
+| 15 | pano1 | Iskarpela (2 adet) |  | Ad |  |  | 65 | pano1 | Şeritmetre (5m) |  |  |  |
+
+| 16 | pano1 | Papağan pense |  | ad |  |  | 66 | pano1 | Kumpas |  | Ad |  |
+
+| 17 | pano1 | Saatci eğe takımı (6 adet) |  | tk |  |  | 67 | pano1 | Akü asit Bormometre |  | Ad |  |
+
+| 18 | pano1 | Saatci tornavida takımı (5 li) |  | Ad |  |  | 68 | pano1 | Keski takımı (6 adet) |  | Ad |  |
+
+| 19 | pano1 | Çekiç çeşitli boylarda (4 adet) |  | Ad |  |  | 69 | pano1 | Nokta takımı (6 adet) |  | Ad |  |
+
+| 20 | pano1 | Çekiç Lastik |  | Ad |  |  | 70 | pano1 | Lokma takımı |  | TK |  |
+
+| 21 | pano1 | Kurbacık 10" |  | Ad |  |  | 71 | pano1 | Tornavida Düz ağız (normal + klemens)(20 adet) |  | Ad |  |
+
+| 22 | pano1 | Kurbacık 6" |  | Ad |  |  | 72 | pano1 | Tornavida yıldız ağız (normal + klemens)(15 adet) |  | Ad |  |
+
+| 23 | pano1 | Cırcır anahtar |  | Ad |  |  | 73 | pano2 | Saatci tornavida takımı (7 li kutu) |  |  |  |
+
+| 24 | pano1 | Makas |  | ad |  |  | 74 | pano2 | Eğe çeşitli tip ve boylarda (12 adet) |  | ad |  |
+
+| 25 | pano1 | Falcata (2 adet) |  | ad |  |  | 75 | pano2 | Ağaç dörpüsü |  | ad |  |
+
+| 26 | pano1 | Lehim el pompası |  | Ad |  |  | 76 | pano2 | Elektronik kart matkabı |  | ad |  |
+
+| 27 | pano1 | Alyen çekiç tipi anahtar (6 adet 3;4;5;6;8;10) |  | Ad |  |  | 77 | pano2 | Bits tornavida ve ucları |  | ad |  |
+
+| 28 | pano1 | Açık ağız anahtar (12 adet) |  | TK |  |  | 78 | pano2 | Tornavida uç takımı (30+1 adet) |  | tk |  |
+
+| 29 | pano1 | Açık ağız anahtar (12 adet)(seyyar) |  | TK |  |  | 79 | pano2 | Matkap uç takımı (19 adet) |  | tk |  |
+
+| 30 | pano1 | Alyen takımı (11 adet) |  | TK |  |  | 80 | pano2 | Küçük büyüteç |  | Ad |  |
+
+| 31 | pano1 | Yıldız anahtar (12 adet) |  | TK |  |  | 81 | pano2 | Tornavida uç takımı (6+1 adet) |  | tk |  |
+
+| 32 | pano1 | Pense |  | Ad |  |  | 82 | pano2 | Kalem tipi havya (2 adet) |  | Ad |  |
+
+| 33 | pano1 | Pense |  | Ad |  |  | 83 | pano2 | Kontrol kalemi (6 adet) |  | Ad |  |
+
+| 34 | pano1 | Pense |  | Ad |  |  | 84 | pano2 | Ağaç delme desteresi (takımı) |  | ad |  |
+
+| 35 | pano1 | Kargaburun |  | Ad |  |  | 85 | pano2 | Boru havşa takımı |  | Ad |  |
+
+| 36 | pano1 | Kargaburun |  | Ad |  |  | 86 | pano3 | El feneri büyük boy (4 adet) |  | ad |  |
+
+| 37 | pano1 | Kargaburun |  | Ad |  |  | 87 | pano3 | El feneri küçük boy (2 adet) |  | ad |  |
+
+| 38 | pano1 | Yankeski |  | Ad |  |  | 88 | pano3 | El feneri şarj cihazı (6 -12 v) |  |  |  |
+
+| 39 | pano1 | Yankeski |  | Ad |  |  | 89 | pano3 | Matkap şarj cihazı |  | ad |  |
+
+| 40 | pano1 | Yankeski ( küçük elektronikci) panoda |  | Ad |  |  | 90 | pano3 | Kalem pil şarj cihazı |  | ad |  |
+
+| 41 | pano1 | Kablo soyma pensesi (w eidmüller) |  | Ad |  |  | 91 | pano3 | Kalem pil şarj cihazı (kablolu) |  |  |  |
+
+| 42 | pano1 | Kablo soyma pensesi (ünior) |  | Ad |  |  | 92 | pano3 | Pil şarj cihazı |  | ad |  |
+
+| 43 | pano1 | Sekman pensesi (sıkma) |  | Ad |  |  | 93 | pano3 | Pil şarj cihazı |  |  |  |
+
+| 44 | pano1 | Sekman pensesi (açma) |  | Ad |  |  | 94 | pano3 | Şarjlı el tipi tornavida |  | Ad |  |
+
+| 45 | pano1 | Kablo pabuç sıkma pensesi (0,25 -6 mm2 ye kadar) |  | Ad |  |  | 95 | pano3 | Şarjlı el tipi tornavida |  |  |  |
+
+| 46 | pano1 | Telefon soket pensesi |  | Ad |  |  |  |  |  |  |  |  |
+
+| 47 | pano1 | Elektronikci bakım çantası (deri canta) |  | Ad |  |  |  |  |  |  |  |  |
+
+| 48 | pano1 | Elektronikci bakım çantası (yeşil kutu) |  | Ad |  |  |  |  |  |  |  |  |
+
+| 49 | pano1 | Lokma uçlu tornavida takımı |  | TK |  |  |  |  |  |  |  |  |
+
+| 50 | pano1 | Perçin makinası |  | Ad |  |  |  |  |  |  |  |  |
+
+
+
+| No | Yeri | Malzeme | Stok no | Birimi | Adet |
+
+| --- | --- | --- | --- | --- | --- |
+
+| 96 | dolap2 | Boru anahtarı (büyük) |  | Ad |  |
+
+| 97 | dolap2 | Kablo pabuç sıkma pensesi (120 mm2 ye kadar) |  | Ad |  |
+
+| 98 | dolap2 | Hava tabancası |  | Ad |  |
+
+| 99 | dolap2 | Boya tabancası |  | Ad |  |
+
+| 100 | dolap2 | Mazot tabancası |  | TK |  |
+
+| 101 | dolap2 | Yağdanlık |  | Ad |  |
+
+| 102 | dolap2 | Hava basınç ölçer |  | Ad |  |
+
+| 103 | dolap2 | Gres pompası |  | Ad |  |
+
+| 104 | dolap2 | Darbeli elektrik el Matkabı (büyük) |  | Ad |  |
+
+| 105 | dolap2 | Darbeli elektrik el Matkabı (küçük) |  |  |  |
+
+| 106 | dolap2 | Şarjlı el tipi matkap |  | Ad |  |
+
+| 107 | dolap2 | Canavar taşı (büyük) |  | Ad |  |
+
+| 108 | dolap2 | Canavar taşı (küçük) |  | Ad |  |
+
+| 109 | dolap2 | Sıcak silikon tabancası |  | Ad |  |
+
+| 110 | dolap2 | Dekopaj testeresi |  | Ad |  |
+
+| 111 | dolap2 | Bahçe makası |  | ad |  |
+
+| 112 | dolap2 | Mala (2 adet) |  | ad |  |
+
+| 113 | dolap2 | Keser |  | Ad |  |
+
+| 114 | dolap2 | Darbeli büyük beton kırıcı Matkap Hilti |  | Ad |  |
+
+| 115 | dolap2 | Takım çantası (sos) |  | Ad |  |
+
+| 116 | dolap3 | İnvertör (12 dc/220v ac) |  | ad |  |
+
+| 117 | dolap3 | İnvertör (24v dc/220v ac) |  | ad |  |
+
+| 118 | dolap3 | REOSTA 500 ohm 200w |  | ad |  |
+
+| 119 | dolap3 | varyak 0-250 v 500w |  | ad |  |
+
+| 120 | dolap3 | Masa tipi ısı ayarlı havya (ersa) |  |  |  |
+
+| 121 | dolap3 | Havyalı lehim sökme pompası (ersa) |  | Ad |  |
+
+| 122 | dolap3 | Sinyal jeneratörü |  | Ad |  |
+
+| 123 | dolap3 | Osilaskop |  | Ad |  |
+
+| 124 | dolap3 | Laptop pc (386) |  | Ad |  |
+
+| 125 | dolap3 | Plaka kamera ayarlama cihazı |  |  |  |
+
+| 126 | dolap3 | CO ölçüm cihazı |  | ad |  |
+
+| 127 | dolap3 | Isı tabancası |  | Ad |  |
+
+| 128 | dolap3 | Etiket yazma makinası |  | Ad |  |
+
+| 129 | dolap3 | Hava akış hız ölçer cihazı |  | Ad |  |
+
+| 130 | dolap3 | Dijital izalasyon direnci megeri(5kv) |  | Ad |  |
+
+| 131 | dolap3 | Dijital toprak megeri |  | Ad |  |
+
+| 132 | dolap3 | Avometre (akım üretecili) |  | ad |  |
+
+| 133 | masa | Pense ( küçük elektronikci) masada |  | Ad |  |
+
+| 134 | masa | Kargaburun ( küçük elektronikci)masada |  | Ad |  |
+
+| 135 | masa | Yankeski ( küçük elektronikci) masada |  | Ad |  |
+
+| 136 | masa | Masa bağlantılı büyük tip büyüteç |  | Ad |  |
+
+| 137 | masa | Masa tipi ısı ayarlı havya (weller) |  | Ad |  |
+
+| 138 | masa | Dijital Güç kaynağı (10A) (6303D) |  | Ad |  |
+
+| 139 | masa | Dijital Güç kaynağı (10A) (3306D) |  |  |  |
+
+|  |  |  |  |  |  |
+
+|  |  |  |  |  |  |
+
+|  |  |  |  |  |  |
+
+|  |  |  |  |  |  |
+
+|  |  |  |  |  |  |
+
+|  |  |  |  |  |  |
+
+
+
+| No | Yeri | Malzeme | Stok no | Birimi | Adet |
+
+| --- | --- | --- | --- | --- | --- |
+
+| 140 | atelye | Sıvı püskürtücü (3 adet) |  | ad |  |
+
+| 141 | atelye4 | Çanta 1 |  | ad |  |
+
+| 142 | atelye4 | Çanta 2 |  | ad |  |
+
+| 143 | atelye4 | Çanta 3 |  | ad |  |
+
+| 144 | atelye4 | Balyoz |  | Ad |  |
+
+| 145 | atelye4 | Baret |  | Ad |  |
+
+| 146 | atelye4 | Emniyet kemeri (2 adet) |  | Ad |  |
+
+| 147 | atelye4 | Pc komprasörü |  | Ad |  |
+
+| 148 | atelye4 | Pc komprasörü |  |  |  |
+
+| 149 | atelye4 | Elektrik süpürge makinası |  | ad |  |
+
+| 150 | atelye4 | Elektrik süpürgesi endüstriyel tip (büyük boy) |  | ad |  |
+
+| 151 | atelye4 | Şalama ve piknik tüpü |  | Ad |  |
+
+| 152 | atelye4 | OG faz kontrol kalemi |  | ad |  |
+
+| 153 | atelye4 | Radyo kaset çalar |  | ad |  |
+
+| 154 | atelye4 | Radyo kaset çalar |  |  |  |
+
+| 155 | atelye4 | Uzatma kablosu mavi makara (40 m) |  | ad |  |
+
+| 156 | atelye4 | Uzatma kablosu mavi makara (35 m) |  | ad |  |
+
+| 157 | atelye4 | Uzatma kablosu mavi makara (25 m) |  | ad |  |
+
+| 158 | atelye4 | Uzatma kablosu mavi makara (15 m) |  | ad |  |
+
+| 159 | atelye4 | Uzatma kablosu siyah makara (30 m) |  |  |  |
+
+| 160 | atelye4 | Uzatma kablosu kırmızı makara (10 m) |  |  |  |
+
+| 161 | atelye4 | Uzatma kablosu kırmızı makara (10 m) |  |  |  |
+
+| 162 | atelye4 | Çelik dolap (4 adet) |  | Ad |  |
+
+| 163 | atelye4 | Video test monitörü |  | Ad |  |
+
+| 164 | atelye4 | Telsiz telefon |  | Ad |  |
+
+| 165 | atelye4 | TELEFON MAKİNASI |  | Ad |  |
+
+| 166 | atelye4 | Klima |  | Ad |  |
+
+| 167 | atelye5 | Akü akım yük tets direnci |  | Ad |  |
+
+| 168 | atelye5 | 12 V Akü şarj cihazı (EDİ) |  | Ad |  |
+
+| 169 | atelye5 | 12 V Akü şarj cihazı (GÜNDÜZ TRAFO) |  |  |  |
+
+| 170 | atelye5 | 12 V Akü şarj cihazı (şişek) |  |  |  |
+
+| 171 | atelye5 | 24 V Akü şarj cihazı (EDİ) |  | ad |  |
+
+| 172 | atelye5 | 24 V Akü şarj cihazı (takviye aküleri) |  |  |  |
+
+| 173 | atelye5 | 130 V Akü şarj cihazı (GEMTA) |  | ad |  |
+
+| 174 | atelye5 | UPS cihazı (6 kva) |  | Ad |  |
+
+| 175 | atelye6 | Komprasör büyük boy 8 bar |  | Ad |  |
+
+| 176 | atelye6 | 5.5 KW jeneratör (marjlı seyyar) |  | Ad |  |
+
+| 177 | atelye3 | Kaynak makinası (seyyar) |  | Ad |  |
+
+| 178 | atelye3 | Masa"tipi taşlama tezgahı |  | Ad |  |
+
+| 179 | atelye3 | Mengene |  | Ad |  |
+
+| 180 | atelye6 | El arabası (toprak taşıma) |  | Ad |  |
+
+| 181 | atelye6 | El arabası (yük taşıma) |  | Ad |  |
+
+| 182 | atelye6 | Merdiven (iki ayaklı)(3 adet) |  | Ad |  |
+
+| 183 | atelye9 | Termos (kazan) |  | ad |  |
+
+| 184 | atelye9 | Çay kazanı elektrikli (semaver) |  | ad |  |
+
+| 185 | atelye9 | Koltuk (4 adet) |  | Ad |  |
+
+| 186 | atelye9 | MADENİ AYAKLI AHŞAP MASA |  | Ad |  |
+
+| 187 | atelye9 | MONİTÖR |  | Ad |  |
+
+| 188 | atelye9 | KLAVYE |  | Ad |  |
+
+| 189 | atelye9 | BİLGİSAYAR ÜNİTESİ |  | Ad |  |
+
+
+
+| TÜNEL SİSTEMLERİ | PERİYODİK BAKIM PLANLAMASI | PERİYODİK BAKIM PLANLAMASI | PERİYODİK BAKIM PLANLAMASI | PERİYODİK BAKIM PLANLAMASI |  | Aylık Bakım gerçekleşme DURUMU ( X) | Aylık Bakım gerçekleşme DURUMU ( X) | Aylık Bakım gerçekleşme DURUMU ( X) | Aylık Bakım gerçekleşme DURUMU ( X) | Aylık Bakım gerçekleşme DURUMU ( X) | Aylık Bakım gerçekleşme DURUMU ( X) | Aylık Bakım gerçekleşme DURUMU ( X) | Aylık Bakım gerçekleşme DURUMU ( X) | Aylık Bakım gerçekleşme DURUMU ( X) | Aylık Bakım gerçekleşme DURUMU ( X) | Aylık Bakım gerçekleşme DURUMU ( X) | Aylık Bakım gerçekleşme DURUMU ( X) | Yıllık bakım gerçekleşme zamanları |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| TÜNEL SİSTEMLERİ | Günlük | Haftalık | Aylık | Yıllık | Açıklama | ocak | şubat | mart | nisan | mayıs | haziran | temmuz | ağustos | eylül | ekim | kasım | aralık | Yıllık bakım gerçekleşme zamanları |
+
+| Günlük kontroller | Her gün |  |  |  | Günlük kontroller her gün her v ardiya tarafından yapılır ilgili form (form 01) doldurulur. Ayrıca günlük bakım tutanağı formu (form 02) her vardiya tarafından doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| Jeneratör ve ışıldak bakımı |  | Cumart esi |  |  | Jeneratör bakımı haftalık olarak yapılır Bakım sonrası ilgili formlar (form 03) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| Işıldak (yol işaretleme aracı) bakımı |  | Cumart esi |  |  | Işıldak bakımı haftalık olarak yapılır Bakım sonrası ilgili formlar (form 04) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| Atelye cihazları ve bakım araçları bakımı |  | Pazar |  |  | Atelye malzemeleri ve bakım araçları bakımı haftalık olarak yapılır ve ilgili form (form 22) doldurulur |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| Artı basınç cihazları bakımları |  | Cuma |  | Mart | Artı basınç cihazları bakımları haftalık ve yıllık olarak yapılır Bakım sonrası ilgili formlar ( form 05) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| Kamera sistemi bakımı |  |  | 1.ve 2.gün |  | Kamera sistemi bak ımı aylık olarak yapılır Bakım sonrası ilgili form (form 08) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| CO; VIS; Rüzgar ölçer ve lüminansmere sistemi bakımı |  |  | 3.ve 18.gün |  | CO; VIS; Rüzgar ölçer ve lüminansmetre sistemi bakımı aylık olarak yapılır Bakım sonrası ilgili form (form 07) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| Radyo yayını sistemleri bakımları |  |  | 6.gün |  | Radyo yayını sistemleri bak ımları aylık olarak yapılır Bakım sonrası ilgili formlar (form 15) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| Harici Anons sistemleri bakımları |  |  | 6.gün |  | Harici Anons sistemleri bakımları aylık olarak yapılır Bakım sonrası ilgili formlar (form 16) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| UPS sistemi ve aküleri bakımı |  |  | 4. ve 5.gün | Mayıs - Haziran | UPS sistemi ve aküleri bak ımı aylık olarak yapılır Bakım sonrası ilgili formlar ( form 14) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| Sos cihazları bakımı |  |  | 7. ve 8.gün | Nisan | Sos cihazları bakımı aylık ve yıllık olarak yapılır. Bakımı sonrası ilgili form (form 17) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| Yangın ihbarı ve söndürme sistemi bakımı |  |  | 9. ve 10. gün | Mayıs | Yangın ihbarı ve söndürme sistemi bakımı aylık ve yıllık olarak yapılır Bakım sonrası ilgili formlar (form 10; form 11; form 12) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| Jet fan sistemi bakımı |  |  | 11.gün | Temmuz Ağostos | Jet fan sistemi bak ımı aylık ve yıllık olarak yapılır Bakım sonrası ilgili formlar ( form 13) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| Elektrik pano ve odaları bakımı |  |  | 12. v e 13.gün | Mayıs - Haziran | Elektrik pano ve oda bak ımı aylık ve yıllık olarak yapılır Bakım sonrası ilgili formlar ( form 19) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| Aydınlatama sistemleri bakımları |  |  | 14. v e 15.gün | Temmuz Ağostos | Aydınlatama sistemleri bakımları aylık ve yıllık olarak yapılır Bakım sonrası ilgili formlar ( form 09) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| VMS bakımları |  |  |  | Mart | VMS bak ımları yıllık olarak yapılır Bakım sonrası ilgili formlar ( form 18) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| Trafik kontrol sistemleri |  |  |  | Ocak - şubat | Trafik k ontrol sistemleri bak ımları yıllık olarak yapılır Bakım sonrası ilgili formlar ( form 20) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| Kontrol merkezi cihazları bakımları |  |  |  | Nisan | Kontrol merkezi cihazları bakımları yıllık olarak yapılır Bakım sonrası ilgili formlar ( form 21) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+| Tünelin yıkanması ve ano temizliği bakımları |  |  |  | Temmuz Ağostos | Tünelin yıkanması veano temizliği bakımları yıllık olarak yapılır Bakım sonrası ilgili formlar ( form 23) doldurulur. |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+
+
+| Tarih | Saat | KONTROLLER | ARIZA VEYA OLAY CİNSİ | YAPILAN İŞLEM SONUCU |
+
+| --- | --- | --- | --- | --- |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+
+
+| Gidiş Tarihi | Saat | Dönüş Saati | Sürücü | ARAÇ | OLAY | YAPILAN İŞ | KONTROLLER |
+
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+|  |  |  |  |  |  |  |  |
+
+
+
+| TÜNE | TÜNE | TÜNE | TÜNE | TÜNE | TÜNE | TÜNE | TÜNE | TÜNE | TÜNE | TÜNE | Ll ENERJ | Ll ENERJ | I TÜKET | I TÜKET | MI | MI | MI | MI | MI | MI | MI |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| Tarih | %R 20 den ; %K 15 den küçük olmalıdır | %R 20 den ; %K 15 den küçük olmalıdır | %R 20 den ; %K 15 den küçük olmalıdır | %R 20 den ; %K 15 den küçük olmalıdır | %R 20 den ; %K 15 den küçük olmalıdır | %R 20 den ; %K 15 den küçük olmalıdır | %R 20 den ; %K 15 den küçük olmalıdır | %R 20 den ; %K 15 den küçük olmalıdır | %R 20 den ; %K 15 den küçük olmalıdır | %R 20 den ; %K 15 den küçük olmalıdır | Kuzey TR jeneratör 00-9007 | Kuzey TR jeneratör 00-9007 | Kuzey portal Jeneratör 00-9008 | Kuzey portal Jeneratör 00-9008 | Güney portal Jeneratör 00-9006 | Güney portal Jeneratör 00-9006 | seyyar Jeneratör 02-9128 | seyyar Jeneratör 02-9128 | Toplam Jeneratör Çalışması | Mazot tüketimi | Adı soyadı |
+
+| Tarih | KUZEY TRAFO | KUZEY TRAFO | KUZEY TRAFO | KUZEY TRAFO | KUZEY TRAFO | GÜNEY TRAFO | GÜNEY TRAFO | GÜNEY TRAFO | GÜNEY TRAFO | GÜNEY TRAFO | Kuzey TR jeneratör 00-9007 | Kuzey TR jeneratör 00-9007 | Kuzey portal Jeneratör 00-9008 | Kuzey portal Jeneratör 00-9008 | Güney portal Jeneratör 00-9006 | Güney portal Jeneratör 00-9006 | seyyar Jeneratör 02-9128 | seyyar Jeneratör 02-9128 | Toplam Jeneratör Çalışması | Mazot tüketimi | Adı soyadı |
+
+| Tarih | Aktif KWh | Reaktif Kvar | Kapasitif Kvar | %R | %K | Aktif KWh | Reaktif Kvar | Kapasitif Kvar | %R | %K | Saati | Mazot | Saati | Mazot | Saati | Mazot | Saati | Mazot | Toplam Jeneratör Çalışması | Mazot tüketimi | Adı soyadı |
+
+|  |  |  |  | Tek okuma | Tek okuma |  |  |  | Tek okuma | Tek okuma |  |  |  |  |  |  |  |  | Ay başlangıcı | Ay başlangıcı |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+|  |  |  |  | 0,00 | 0,00 |  |  |  | 0,00 | 0,00 |  |  |  |  |  |  |  |  | 0 | 0 |  |
+
+
+
+| TP | Tünel Protokolu | Tünel Protokolu | Tünel Protokolu |
+
+| --- | --- | --- | --- |
+
+| 2014 | Yıl |  |  |
+
+| 01 | Bölge Müdürlüğü | 01, 02, 03, 04, | 14, 15, 16,18 |
+
+| 0000 | Sayı | 0001, 0002, | ,0097, 0098, 0099 |
+
+
+
+| İnönü Bulvarı No; 14 06100 Yücetepe/ANKARA | Bilgi İçin : Yusuf GÜN - Sanat Yapıları Bakım Onarım İşletme | Bilgi İçin : Yusuf GÜN - Sanat Yapıları Bakım Onarım İşletme | Bilgi İçin : Yusuf GÜN - Sanat Yapıları Bakım Onarım İşletme |
+
+| --- | --- | --- | --- |
+
+| Telefon	: 3124158019 Faks: 03124172851 | Telefon : | Telefon : | 312 415 7732 |
+
+| Elektronik Ağ : www.kgm.gov.tr |  | e-posta: | ygun@kgm.gov.tr. |
+
+| 12. FibeîlrjtiM FiŞufılıJı | 492 |  |  |
+
+| A.T&1 kırııh.-jtjdiir. |  |  |  |
+
+
+
+| TP | Tünel Protokolü | Tünel Protokolü | Tünel Protokolü |
+
+| --- | --- | --- | --- |
+
+| 2014 | Yıl |  |  |
+
+| 01 | Bölge Müdürlüğü | 01,02, 03,04, | 14, 15, 16,18 |
+
+| 0000 | Sayı | 000 E 0002, | ,0097, 0098, 0099 |
+
+
+
+|  | KGM | KGM |
+
+| --- | --- | --- |
+
+|  | ADI SOYADI | TARİH j PARAF |
+
+| BÖLGE MÜDÜRLÜĞÜ |  | .j |
+
+| BÖLGE MÜDÜRLÜĞÜ |  | ,../.../....İ |
+
+| BÖLGE MÜDÜRLÜĞÜ |  |  |
+
+| BÖLGE MÜDÜRLÜĞÜ |  | .../.../....i |
+
+| GENEL MÜDÜRLÜK |  | .../.../....i |
+
+| GENEL MÜDÜRLÜK |  | .../.../....I |
+
+| GENEL MÜDÜRLÜK |  |  |
+
+| GENEL MÜDÜRLÜK |  | •••/•••/••••i |
+
+
+
+| ŞİRKET | ŞİRKET | ŞİRKET |
+
+| --- | --- | --- |
+
+| ADI SOYADI | TARİH | PARAF |
+
+|  | ./.... |  |
+
+|  |  |  |
+
+|  |  |  |
+
+|  | .../.../.... |  |
+
+|  | .../.../.... |  |
+
+|  |  |  |
+
+|  | .../.../.... |  |
+
+|  | ..../.../.... |  |
+
+
+
+| SIR A NO | BAKIM DAİRESİ BAŞKANLIĞINA DEVRİ YAPILACAK İNŞAATI VE İKİNCİL İŞLERİ BİTMİŞ TÜNELLERİN GENEL DURUMU | BAKIM DAİRESİ BAŞKANLIĞINA DEVRİ YAPILACAK İNŞAATI VE İKİNCİL İŞLERİ BİTMİŞ TÜNELLERİN GENEL DURUMU | BAKIM DAİRESİ BAŞKANLIĞINA DEVRİ YAPILACAK İNŞAATI VE İKİNCİL İŞLERİ BİTMİŞ TÜNELLERİN GENEL DURUMU | AÇIKLAMALAR |
+
+| --- | --- | --- | --- | --- |
+
+| SIR A NO | Evet | Evet | Hayır | AÇIKLAMALAR |
+
+| 1 | Geçici Kabul Testleri Yapılmış mıdır?(Yapılan ve yapılmayan testlerin ayrıntısı açıklamalar bölümüne yapılacaktır.) | □ | □ |  |
+
+| 2 | Personel eğitimi şartnamesine ve ekli açıklamalara uygun olarak verilmiş midir? | □ | □ |  |
+
+| 3 | Dokümantasyon verilmiş midir? | □ | □ |  |
+
+| 4 | Nihai (As- Built) Projeler verilmiş midir? | □ | □ |  |
+
+
+
+| Onay | Ao. Univ. Prof. DI. Dr. Sturm | 09.03.2010 |  |
+
+| --- | --- | --- | --- |
+
+|  | DI. Dr. Bacher | 09.03.2010 |  |
+
+
+
+| Tanzim Tarihi | Versiyon | Modifikasyon | Editör |
+
+| --- | --- | --- | --- |
+
+| 25.02.2010 | 0 | Esas taslak | FB |
+
+| 02.03.2010 | 1 | Görüşmeye açık revize versiyon (taslak) | FB |
+
+| 08.03.2010 | 2 | Görüşme sonrası revize edilen | FB |
+
+| 11.03.2010 | 3 | Yayınlanmak üzere revize edilen | FB |
+
+
+
+| Sağ taşıma yolu | Sağ taşıma yolu | Sağ taşıma yolu | Sol taşıma yolu | Sol taşıma yolu | Sol taşıma yolu |
+
+| --- | --- | --- | --- | --- | --- |
+
+| Yangın kontrol kesimi | Başlangıç | Son | Yangın kontrol kesimi | Başlangıç | Son |
+
+| S1.1 | 51 + 143,16 | 51 + 311,00 | S2.1 | 64 + 208,04 | 64 + 068,00 |
+
+| S1.2 | 51 + 311,00 | 51 + 419,50 | S2.2 | 64 + 068,00 | 63 + 790,30 |
+
+| S1.3 | 51 + 419,50 | 51 + 905,00 | S2.3 | 63 + 790,30 | 82 + 716,00 |
+
+| S1.4 | 51 + 905,00 | 52 + 150,00 | S2.4 | 62 + 716,00 | 61 + 956,00 |
+
+| S1.5 | 52 + 150,00 | 52 + 616,00 | S2.5 | 61 + 956,00 | 61 + 346,00 |
+
+| S1.6 | 52 + 616,00 | 54 + 897,00 | S2.6 | 62 + 346,00 | 61 + 155,59 |
+
+| S1.7 | 54 + 897,00 | 54 + 158,00 |  |  |  |
+
+
+
+| Hava akımı sensörü | Öncelik |
+
+| --- | --- |
+
+| Sol taşıma yolu | Sol taşıma yolu |
+
+| A1 | 1 |
+
+| A2 | 2 |
+
+| Sağ taşıma yolu | Sağ taşıma yolu |
+
+| A3 | 1 |
+
+| A4 | 2 |
+
+
+
+| TRAFİK YÖNÜNDA HAVALANDIRMAYA DAİR ANAHTAR ADIMLARI | TRAFİK YÖNÜNDA HAVALANDIRMAYA DAİR ANAHTAR ADIMLARI | TRAFİK YÖNÜNDA HAVALANDIRMAYA DAİR ANAHTAR ADIMLARI |
+
+| --- | --- | --- |
+
+|  | Çalışan jet fanların sayısı | Çalışan jet fanların sayısı |
+
+| Adım | Sol taşıma yolu | Sağ taşıma yolu |
+
+| 1 | 2 jet fan | 12 jet fan |
+
+| 2 | 4 jet fan | 24 jet fan |
+
+| 3 | 6 jet fan | 30 jet fan |
+
+| 4 | Tüm jet fanlar çalışıyor + ikaz verildi | Tüm jet fanlar çalışıyor + ikaz verildi |
+
+| 5 | Tüm jet fanlar çalışmaya devam ediyor, tüp kapalı, alarm verildi | Tüm jet fanlar çalışmaya devam ediyor, tüp kapalı, alarm verildi |
+
+
+
+| TERSİNE İŞLETİME (FRENLEME) DAİR ANAHTAR ADIMLARI | TERSİNE İŞLETİME (FRENLEME) DAİR ANAHTAR ADIMLARI | TERSİNE İŞLETİME (FRENLEME) DAİR ANAHTAR ADIMLARI |
+
+| --- | --- | --- |
+
+|  | Çalışan jet fanların sayısı | Çalışan jet fanların sayısı |
+
+| Adım | Sol taşıma yolu | Sağ taşıma yolu |
+
+| 1 | 2 tersinir jet fan | 3 tersinir jet fan |
+
+| 2 | 4 tersinir jet fan | 6 tersinir jet fan |
+
+| 3 | 6 tersinir jet fan | 9 tersinir jet fan |
+
+| 4 | Tüm tersinir jet fanlar çalışıyor + ikaz verildi | Tüm tersinir jet fanlar çalışıyor + ikaz verildi |
+
+| 5 | Tüm tersinir jet fanlar çalışmaya devam ediyor, tüp kapalı, alarm verildi | Tüm tersinir jet fanlar çalışmaya devam ediyor, tüp kapalı, alarm verildi |
+
+
+
+| EŞİK DEĞERLERİ - CO / K | EŞİK DEĞERLERİ - CO / K | EŞİK DEĞERLERİ - CO / K |
+
+| --- | --- | --- |
+
+| Adım | CO [ppm] | Durdurma Katsayısı |
+
+| AÇMA ADIMI - | AÇMA ADIMI - | AÇMA ADIMI - |
+
+| - 1 | 30* | 4 x 10-3 |
+
+| - 2 | 40* | 5 x 10-3 |
+
+| - 3 | 60* | 7 x 10-3 |
+
+| - 4 | 80* | 10 x 10-3 |
+
+| - 5 (tüp kapalı) | 100* veya 150** | 12 x 10-3** |
+
+| KAPATMA ADIM | - | - |
+
+| - 5 tekrar açma | < 90*** | < 7 x 10-3*** |
+
+| - 4 | 70* | 8,5 x 10-3 |
+
+| - 3 | 50* | 6 x 10-3 |
+
+| - 2 | 30* | 3,5 x 10-3 |
+
+| - 1 | 20* | 3 x 10-3 |
+
+| *10 dak.'lık hareket ortalaması / ** 1 dak.'lık hareket ortalaması *** azalmaya meyilli | *10 dak.'lık hareket ortalaması / ** 1 dak.'lık hareket ortalaması *** azalmaya meyilli | *10 dak.'lık hareket ortalaması / ** 1 dak.'lık hareket ortalaması *** azalmaya meyilli |
+
+
+
+| EŞİK DEĞERLERİ - HAVA AKIMININ HIZI | EŞİK DEĞERLERİ - HAVA AKIMININ HIZI |
+
+| --- | --- |
+
+| Adım | Hava akımının hızı [m/s] |
+
+| AÇMA |  |
+
+| 1 | 6* |
+
+| 2 | 7* |
+
+| 3 | 8* |
+
+| 4 | 9* |
+
+| 5 (tüp kapalı) | > 10* |
+
+| KAPATMA |  |
+
+| tekrar açma | < 9,5** |
+
+| 4 | 8* |
+
+| 3 | 7* |
+
+| 2 | 6* |
+
+| 1 | 5* |
+
+| *10 dak.'lık hareket ortalaması / ** azalmaya meyilli | *10 dak.'lık hareket ortalaması / ** azalmaya meyilli |
+
+
+
+| Alarm | Öncelik |
+
+| --- | --- |
+
+| El yardımıyla aktivasyon (kontrol merkezi) | 14 |
+
+| Algılama kablosu | 2 |
+
+
+
+| SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU |
+
+| --- | --- | --- | --- |
+
+| Jet fan numarası | istikamet | mod | öncelik |
+
+| VL 1,2 (çift olarak çalışıyor) | E | sürekli işletim | AÇIK |
+
+| VL 3 | tahrik değişkeni | : kapalı veya E'ye | 1 |
+
+| VL 4 | tahrik değişkeni | : kapalı veya E'ye | 2 |
+
+| VL 5 | tahri k değişkeni | : kapalı veya A'ya | 1 |
+
+| VL 6 | tahrik değişkeni | : kapalı veya A'ya | 2 |
+
+| VL 7,8 (çift olarak çalışıyor) | A | sürekli işletim | AÇIK |
+
+| Hava akımı sensörü |  |  |  |
+
+| A1 |  |  | 1 |
+
+| A2 |  |  | 2 |
+
+| SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU |
+
+| Jet fan numarası | istikamet | mod | öncelik |
+
+| VR 1,2,3 (üçlü olarak çalışıyor) | E | sürekli işletim | ON |
+
+| VR 4 | tahrik değişkeni: kapalı veya E'ye | tahrik değişkeni: kapalı veya E'ye | 2 |
+
+| VR 5 | tahrik değişkeni: kapalı veya E'ye | tahrik değişkeni: kapalı veya E'ye | 1 |
+
+| VR 6 | tahrik değişkeni: kapalı veya E'ye | tahrik değişkeni: kapalı veya E'ye | 3 |
+
+| VR 37 | tahrik değişkeni: kapalı veya A'ya | tahrik değişkeni: kapalı veya A'ya | 2 |
+
+| VR 38 | tahrik değişkeni: kapalı veya A'ya | tahrik değişkeni: kapalı veya A'ya | 1 |
+
+| VR 39 | tahrik değişkeni: kapalı veya A'ya | tahrik değişkeni: kapalı veya A'ya | 3 |
+
+| VR 40,41,42 (üçlü olarak çalışıyor) | A | sürekli işletim | ON |
+
+| Hava akımı sensörü |  |  |  |
+
+| A3 |  |  | 2 |
+
+| A4 |  |  | 1 |
+
+
+
+| 1. | Tübün dışında: Şerit İşareti: Hız Sınırı: Trafik Işıkları: Amber Işığı: | Tübün dışında: Şerit İşareti: Hız Sınırı: Trafik Işıkları: Amber Işığı: | Kırmızı çapraz KAPALI Kırmızı AÇIK (Yanar Söner) |
+
+| --- | --- | --- | --- |
+
+| 2. | • | Giriş portalında: Şerit İşareti: | Kırmızı çapraz |
+
+|  | • | Hız Sınırı: | KAPALI |
+
+|  | • | Trafik Işıkları: | Kırmızı |
+
+|  | • | Amber Işığı: | AÇIK (Yanar Söner) |
+
+| 3. | • | Tübün içinde: Şerit İşareti: | Yeşil Ok |
+
+|  | • | Hız Sınırı: | 70 / 90 km/h |
+
+|  | • | Trafik Işıkları: | Yeşil |
+
+|  | • | Amber Işığı: | AÇIK (Yanar Söner) |
+
+| 4. |  | Grafik - VMS: | tümü “Yangın” sembolüyle5 |
+
+| 5. |  | Alfanümerik - VMS: | “OTOYOLDAN ÇIKIŞ”5 |
+
+
+
+| 1. | Tübün dışında: | Tübün dışında: |
+
+| --- | --- | --- |
+
+| 1. | Şerit İşareti: Hız Sınırı: Trafik Işıkları: Amber Işığı: | Kırmızı çapraz KAPALI Kırmızı AÇIK (Yanar Söner) |
+
+| 2. | Yangın Bölgesinden Önce: • Şerit İşareti: | Kırmızı çapraz |
+
+|  | • Hız Sınırı: | KAPALI |
+
+|  | •	Trafik Işıkları: | Kırmızı |
+
+|  | • Amber Işığı: | AÇIK (Yanar Söner) |
+
+| 3. | Yangın Bölgesi: • Şerit İşareti: | KAPALI |
+
+|  | • Hız Sınırı: | KAPALI |
+
+|  | • Trafik Işıkları: | Sarı |
+
+|  | • Amber Işığı: | AÇIK (Yanar Söner) |
+
+| 4. | Yangın Bölgesinden Sonra: • Şerit İşareti: | Yeşil Ok |
+
+|  | • Hız Sınırı: | 70 / 90 km/h5 |
+
+|  | • Trafik Işıkları: | Yeşil |
+
+|  | • Amber Işığı: | AÇIK (Yanar Söner) |
+
+|  | • Grafik - VMS: | Tümü “Yangın” sembolüyle |
+
+|  | • Alfanümerik - VMS: |  |
+
+|  | • Kaynaşlı veya Abant'tan önce: | “OTOYOLDAN ÇIKIŞ” 5 |
+
+|  | • Portal Yakınında: | “DUR İKAZI” 5 |
+
+
+
+| lokasyon | lokasyon | lokasyon | lokasyon | lokasyon | lokasyon | lokasyon | lokasyon | lokasyon | lokasyon |
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+| olay | olay | portal | portal | portal | portal | portal | tünel | tünel | tünel |
+
+|  |  | VMS | Yanar söner amber ışıkları | Trafik ışıkları | Şerit kontrol işaretleri | Mekanik bariyer | Yanar söner amber ışıkları | Trafik ışıkları | Şerit kontrol işaretleri |
+
+| Elle veya otomatik yangın alarmı aktivasyonu auto | Elle veya otomatik yangın alarmı aktivasyonu auto | “yangın” sembolü | AÇIK (yanar söner) | kırmızı | Kırmızı çapraz | KAPALI |  |  |  |
+
+|  | Yangına kadar etkilenen tüp (kontrol kesimi) |  |  |  |  |  | AÇIK(yanar söner) | kırmızı | Kırmızı çapraz |
+
+|  | Yangından sonra etkilenen tüp (kontrol kesimi) |  |  |  |  |  | AÇIK (yanar söner) | yeşil | Aşağıya doğru yeşil |
+
+|  | Etkilenmeyen tüp | “yangın” sembolü | AÇIK (yanar söner) | kırmızı | Kırmızı çapraz | KAPALI | AÇIK (yanar söner) | yeşil | Aşağıya doğru yeşil |
+
+
+
+| SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU |
+
+| --- | --- | --- | --- |
+
+| Jet fan numarası | Havlandırma Önceliği |  | Yavaşlatma Önceliği |
+
+| VR 1 / 2 / 3 | 38 / 37 / 39 |  | 5 / 4 / 6 |
+
+| VR 4 / 5 / 6 | 0 |  | 0 |
+
+| VR 7 / 8 / 9 | 35 / 34 / 36 |  |  |
+
+| VR 10 / 11/ 12 | 32 / 31 / 33 |  |  |
+
+| VR 13 / 14 / 15 | 29 / 28 / 30 |  |  |
+
+| VR 16 / 17 / 18 | 26 / 25 / 27 |  |  |
+
+| VR 19 / 20 / 21 | 23 / 22 / 24 |  |  |
+
+| VR 22 / 23 / 24 | 20 / 19 / 21 |  |  |
+
+| VR 25 / 26 / 27 | 17 / 16 / 18 |  |  |
+
+| VR 28 / 29 / 30 | 14 / 13 / 15 |  |  |
+
+| VR 31 / 32 / 33 | 11 / 10 / 12 |  |  |
+
+| VR 34 / 35 / 36 | 8 / 7 / 9 |  |  |
+
+| VR 37 / 38 / 39 | 5 / 4 / 6 |  | 8 / 7 / 9 |
+
+| VR 40 / 41 / 42 | 2 / 1 / 3 |  | 2 / 1 / 3 |
+
+| Hava akımı sensörü | Öncelik |  |  |
+
+| A3 | 2 |  |  |
+
+| A4 | 1 |  |  |
+
+| SO | L TAŞIMA YOLU | L TAŞIMA YOLU | L TAŞIMA YOLU |
+
+| POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) |
+
+
+
+| SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU |
+
+| --- | --- | --- | --- |
+
+| Jet fan numarası | Havalandırma Önceliği |  | Yavaşlatma Önceliği |
+
+| VR 1 / 2 / 3 | 35 / 34 / 36 |  | 2 / 1 / 3 |
+
+| VR 4 / 5 / 6 | 32 / 31 / 33 |  | 5 / 4 / 6 |
+
+| VR 7 / 8 / 9 | 0 |  |  |
+
+| VR 10 / 11/ 12 | 0 |  |  |
+
+| VR 13 / 14 / 15 | 29 / 28 / 30 |  |  |
+
+| VR 16 / 17 / 18 | 26 / 25 / 27 |  |  |
+
+| VR 19 / 20 / 21 | 23 / 22 / 24 |  |  |
+
+| VR 22 / 23 / 24 | 20 / 19 / 21 |  |  |
+
+| VR 25 / 26 / 27 | 17 / 16 / 18 |  |  |
+
+| VR 28 / 29 / 30 | 14 / 13 / 15 |  |  |
+
+| VR 31 / 32 / 33 | 11 / 10 / 12 |  |  |
+
+| VR 34 / 35 / 36 | 8 / 7 / 9 |  |  |
+
+| VR 37 / 38 / 39 | 5 / 4 / 6 |  | 8 / 7 / 9 |
+
+| VR 40 / 41 / 42 | 2 / 1 / 3 |  | 11 / 10 / 12 |
+
+| Hava akımı sensörü | öncelik |  |  |
+
+| A3 | 2 |  |  |
+
+| A4 | 1 |  |  |
+
+| SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU |
+
+| POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) |
+
+
+
+| SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU |
+
+| --- | --- | --- | --- |
+
+| Jet fan numarası | Havalandırma Önceliği |  | Yavaşlatma önceliği |
+
+| VR 1 / 2 / 3 | 32 / 31 / 33 |  | 2 / 1 / 3 |
+
+| VR 4 / 5 / 6 | 29 / 28 / 30 |  | 5 / 4 / 6 |
+
+| VR 7 / 8 / 9 | 26 / 25 / 27 |  |  |
+
+| VR 10 / 11/ 12 | 23 / 22 / 24 |  |  |
+
+| VR 13 / 14 / 15 | 0 |  |  |
+
+| VR 16 / 17 / 18 | 0 |  |  |
+
+| VR 19 / 20 / 21 | 0 |  |  |
+
+| VR 22 / 23 / 24 | 20 / 19 / 21 |  |  |
+
+| VR 25 / 26 / 27 | 17 / 16 / 18 |  |  |
+
+| VR 28 / 29 / 30 | 14 / 13 / 15 |  |  |
+
+| VR 31 / 32 / 33 | 11 / 10 / 12 |  |  |
+
+| VR 34 / 35 / 36 | 8 / 7 / 9 |  |  |
+
+| VR 37 / 38 / 39 | 5 / 4 / 6 |  | 8 / 7 / 9 |
+
+| VR 40 / 41 / 42 | 2 / 1 / 3 |  | 11 / 10 / 12 |
+
+| Hava akımı sensörü | Öncelik |  |  |
+
+| A3 | 2 |  |  |
+
+| A4 | 1 |  |  |
+
+| SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU |
+
+| POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) |
+
+
+
+| SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU |
+
+| --- | --- | --- | --- |
+
+| Jet fan numarası | Havalandırma Önceliği |  | Yavaşlatma Önceliği |
+
+| VR 1 / 2 / 3 | 32 / 31 / 33 |  | 2 / 1 / 3 |
+
+| VR 4 / 5 / 6 | 29 / 28 / 30 |  | 5 / 4 / 6 |
+
+| VR 7 / 8 / 9 | 26/ 25 / 27 |  |  |
+
+| VR 10 / 11/ 12 | 23 / 22 / 24 |  |  |
+
+| VR 13 / 14 / 15 | 20 / 19 / 21 |  |  |
+
+| VR 16 / 17 / 18 | 17 / 16 / 18 |  |  |
+
+| VR 19 / 20 / 21 | 14 / 13 / 15 |  |  |
+
+| VR 22 / 23 / 24 | 0 |  |  |
+
+| VR 25 / 26 / 27 | 0 |  |  |
+
+| VR 28 / 29 / 30 | 0 |  |  |
+
+| VR 31 / 32 / 33 | 11 / 10 / 12 |  |  |
+
+| VR 34 / 35 / 36 | 8 / 7 / 9 |  |  |
+
+| VR 37 / 38 / 39 | 5 / 4 / 6 |  | 8 / 7 / 9 |
+
+| VR 40 / 41 / 42 | 2 / 1 / 3 |  | 11 / 10 / 12 |
+
+| Hava akımı sensörü | Öncelik |  |  |
+
+| A3 | 1 |  |  |
+
+| A4 | 2 |  |  |
+
+| SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU |
+
+| POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) |
+
+
+
+| SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU |
+
+| --- | --- | --- | --- |
+
+| Jet fan numarası | Havalandırma Önceliği |  | Yavaşlatma Önceliği |
+
+| VR 1 / 2 / 3 | 29/ 28 / 30 |  | 2 / 1 / 3 |
+
+| VR 4 / 5 / 6 | 26 / 25 / 27 |  | 5 / 4 / 6 |
+
+| VR 7 / 8 / 9 | 23 / 22 / 24 |  |  |
+
+| VR 10 / 11/ 12 | 20 / 19 / 21 |  |  |
+
+| VR 13 / 14 / 15 | 17 / 16 / 18 |  |  |
+
+| VR 16 / 17 / 18 | 14 / 13 / 15 |  |  |
+
+| VR 19 / 20 / 21 | 11 / 10 / 12 |  |  |
+
+| VR 22 / 23 / 24 | 8 / 7 / 9 |  |  |
+
+| VR 25 / 26 / 27 | 5 / 4 / 6 |  |  |
+
+| VR 28 / 29 / 30 | 2 / 1 / 3 |  |  |
+
+| VR 31 / 32 / 33 | 0 |  |  |
+
+| VR 34 / 35 / 36 | 0 |  |  |
+
+| VR 37 / 38 / 39 | 0 |  | 0 |
+
+| VR 40 / 41 / 42 | 32 / 31 / 33 |  | 8 / 7 / 9 |
+
+| Hava akımı sensörü | Öncelik |  |  |
+
+| A3 | 1 |  |  |
+
+| A4 | 2 |  |  |
+
+| SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU |
+
+| POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) |
+
+
+
+| SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU |
+
+| --- | --- | --- | --- |
+
+| Jet fan numarası | Havalandırma Önceliği |  | Yavaşlatma Önceliği |
+
+| VR 1 / 2 / 3 | 38 / 37 / 39 |  | 2 / 1 / 3 |
+
+| VR 4 / 5 / 6 | 35 / 34 / 36 |  | 5 / 4 / 6 |
+
+| VR 7 / 8 / 9 | 32 / 31 / 33 |  |  |
+
+| VR 10 / 11/ 12 | 29/ 28 / 30 |  |  |
+
+| VR 13 / 14 / 15 | 26 / 25 / 27 |  |  |
+
+| VR 16 / 17 / 18 | 23 / 22 / 24 |  |  |
+
+| VR 19 / 20 / 21 | 20 / 19 / 21 |  |  |
+
+| VR 22 / 23 / 24 | 17 / 16 / 18 |  |  |
+
+| VR 25 / 26 / 27 | 14 / 13 / 15 |  |  |
+
+| VR 28 / 29 / 30 | 11 / 10 / 12 |  |  |
+
+| VR 31 / 32 / 33 | 2 / 1 / 3 |  |  |
+
+| VR 34 / 35 / 36 | 5 / 4 / 6 |  |  |
+
+| VR 37 / 38 / 39 | 8 / 7 / 9 |  | 8 / 7 / 9 |
+
+| VR 40 / 41 / 42 | 0 |  | 0 |
+
+| Hava akımı sensörü | Öncelik |  |  |
+
+| A3 | 1 |  |  |
+
+| A4 | 2 |  |  |
+
+| SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU |
+
+| POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) | POZİTİF BASINÇ MODU (Bölüm 4.8) |
+
+
+
+| SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU |
+
+| --- | --- | --- | --- |
+
+| Jet fan numarası | Havalandırma Önceliği |  | Yavaşlatma Önceliği |
+
+| VL 1 / 2 | 1 / 2 |  | 5 / 6 |
+
+| VL 3 / 4 | 3 / 4 |  | 3 / 4 |
+
+| VL 5 / 6 | 0 |  | 0 |
+
+| VL 7 / 8 | 5 / 6 |  | 1 / 2 |
+
+| Hava akımı sensörü | Öncelik |  |  |
+
+| A1 | 2 |  |  |
+
+| A2 | 1 |  |  |
+
+| SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU |
+
+
+
+| SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU |
+
+| --- | --- | --- | --- |
+
+| Jet fan numarası | Havalandırma Önceliği |  | Yavaşlatma Önceliği |
+
+| VL 1 / 2 | 1 / 2 |  | 7 / 8 |
+
+| VL 3 / 4 | 3 / 4 |  | 5 / 6 |
+
+| VL 5 / 6 | 5 / 6 |  | 3 / 4 |
+
+| VL 7 / 8 | 7 / 8 |  | 1 / 2 |
+
+| Hava akımı sensörü | Öncelik |  |  |
+
+| A1 | 2 |  |  |
+
+| A2 | 1 |  |  |
+
+| SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU |
+
+
+
+| SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU |
+
+| --- | --- | --- | --- |
+
+| Jet fan numarası | Havalandırma Önceliği |  | Yavaşlatma Önceliği |
+
+| VL 1 / 2 | 1 / 2 |  | 7 / 8 |
+
+| VL 3 / 4 | 3 / 4 |  | 5 / 6 |
+
+| VL 5 / 6 | 5 / 6 |  | 3 / 4 |
+
+| VL 7 / 8 | 7 / 8 |  | 1 / 2 |
+
+| Hava akımı sensörü | Öncelik |  |  |
+
+| A1 | 1 |  |  |
+
+| A2 | 2 |  |  |
+
+| SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU |
+
+
+
+| SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU |
+
+| --- | --- | --- | --- |
+
+| Jet fan numarası | Havalandırma Önceliği |  | Yavaşlatma Önceliği |
+
+| VL 1 / 2 | 3 / 4 |  | 5 / 6 |
+
+| VL 3 / 4 | 0 |  | 0 |
+
+| VL 5 / 6 | 1 / 2 |  | 3 / 4 |
+
+| VL 7 / 8 | 5 / 6 |  | 1 / 2 |
+
+| Hava akımı sensörü | Öncelik |  |  |
+
+| A1 | 1 |  |  |
+
+| A2 | 2 |  |  |
+
+| SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU |
+
+
+
+| SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU | SOL TAŞIMA YOLU |
+
+| --- | --- | --- | --- |
+
+| Jet fan numarası | Havalandırma Önceliği |  | Yavaşlatma Önceliği |
+
+| VL 1 / 2 | 0 |  | 0 |
+
+| VL 3 / 4 | 3 / 4 |  | 5 / 6 |
+
+| VL 5 / 6 | 1 / 2 |  | 3 / 4 |
+
+| VL 7 / 8 | 5 / 6 |  | 1 / 2 |
+
+| Hava akımı sensörü | Öncelik |  |  |
+
+| A1 | 2 |  |  |
+
+| A2 | 1 |  |  |
+
+| SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU | SAĞ TAŞIMA YOLU |
+
+
+
+| yanlış T | yanlış^ | yanlış^ | yanlış^ | yan//şw |
+
+| --- | --- | --- | --- | --- |
+
+| kontrolör, CO ~ 30 ppm'e ulaşacak L---___olan jet |  | kontrolör, k--3,5x10-3 m -3 'e ulaşacak olan |  | kontrolör, ters istikametteki jet fan miktarını tanımlar |
+
+
+
+| bakım | işletimi |
+
+| --- | --- |
+
+|  |  |
+
+
+
+|  |  |
+
+| --- | --- |
+
+| tünelin tekrar açılması | tünelin tekrar açılması |
+
+
+
+| A/D | Anaolog dijital dönüştürücü | IED | Akıllı elektronik aletler |
+
+| --- | --- | --- | --- |
+
+| ABM | Asenkronize dengeli mod | IEEE | The Institute of Electrical and Electronics Engineers |
+
+| AC | Alternatif akım | IP | İnternet protokolü |
+
+| AGND | Analog toprak noktası | KByte | Kilo byte |
+
+| AUJ | Ünite arayüzü | kO | Kilo ohm |
+
+| BCC | Blok Kontrolü | LAN | Yerel alan ağı |
+
+| BCD | Binary Coded Decimal | LED | Işık yayan diyot |
+
+| BCH | Bose-Chaudhuri-Hocquenghem | LO | Sinyal dönüşümü |
+
+| BIOS | Basic Input-Output System | Log | Logaritma |
+
+| bps | Bits per second | LSB | Least Significant Bit |
+
+| Bus | İstasyon | mA | Mili amper |
+
+| CMOS | Bütünleyici Metal Oksit Yarı İletken | MAC | Ortam Erişim Yönetimi |
+
+| COM | Component Object Model | MAU | Medium Attachment Unit |
+
+| CPU | Merkezi işlem birim | mByte | Mega byte |
+
+| CRC | Döngüsel artıklık denetimi | MMF | Multi Mode Fiber |
+
+| CTS | clear to send | MUX | Mikrodalga |
+
+| D/A | Dijital analog dönüştürücü | NRM | Dengesiz normal tepki modu |
+
+| DATA | Veri | OPC | Ole for Process Control |
+
+| dB | Desibel | PC | Kullanıcı bilgisayarı |
+
+| DC | Doğru akım | PGA | Pin grid array |
+
+| DCD | Data Carrier Detect | PID | Oransal-integral-türevsel denetleyici |
+
+| DCS | Distributed control system | PLC | Programlanabilir Mantıksal Denetleyici |
+
+| DDE | Dynamic Data Exchange | PPM | Parts per million |
+
+| DI | Digital Input | PSTN | Genel aktarmalı telefon şebekesi |
+
+| DNL | Differential nonlinearity | RAM | Rastgele erişimli bellek |
+
+| DNP | Distributed Network Protocol | RAS | Remote Access Services |
+
+| DO | Digital Output | ROM | Read Only Memory |
+
+| DOS | Disk Operating System | RTD | Resistance Temperature Device |
+
+| DTE | Veri terminal ekipman | RTU | Remote Terminal Ünit |
+
+| EMI | Elektromanyetik etkileşim | SCADA | Supervisory Control and Data Acquisition |
+
+| EPROM | Silinip Programlanabilir Salt Okunur Bellek | SDLC | IBM tarafından kullanılan senkronize veri bağ kontrolü |
+
+| FCS | Çerçeve denetim dizisi | SFD | Çerçeve sınırlayıcısının başlangıcı |
+
+| FIFO | Computing and electronics | SMF | Single Mode Fiber |
+
+| Fieldbus | Endüstriyel ağ | SPC | İstatistiksel Process Kontrol |
+
+| FLAG | Bayrak | Tagname | Etiket adı |
+
+| FS | Tam ölçek | TCP : | Transfer Control Protocol |
+
+| FSK | Frekans değiştirme anahtarı | TTL | Transistor-transistor logic |
+
+| HDLC | High Level Data Link Control | UML | Unified Modelling Language |
+
+| HMI | İnsan makine arayüzü | WAN | Geniş alan ağı |
+
+| I/O : | Input/Output | IEC | Uluslararası Elektronik Komisyonu |
+
+| IBM | Uluslararası İş Makineleri |  |  |

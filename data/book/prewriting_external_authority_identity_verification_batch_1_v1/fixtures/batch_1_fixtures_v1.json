@@ -1,0 +1,24 @@
+{
+  "expected_false_accepts": 0,
+  "expected_false_rejects": 0,
+  "negative": [
+    "same_title_different_edition_auto_match",
+    "newer_standard_substitution",
+    "search_snippet_authority_proof",
+    "mirror_when_official_exists",
+    "title_similarity_promotion",
+    "source_type_implies_authority",
+    "unknown_forced_resolve",
+    "external_technical_claim_import",
+    "support_status_change",
+    "book_prose_generation"
+  ],
+  "positive": [
+    "exact_number_issuer_match",
+    "exact_title_version_date_match",
+    "older_edition_distinguished",
+    "verified_issuer_can_promote",
+    "verified_identity_unresolved_version_limited"
+  ],
+  "schema_version": "1.0.0"
+}

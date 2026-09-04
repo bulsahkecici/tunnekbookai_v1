@@ -1,0 +1,14 @@
+{
+  "canonical_clause_ids": [
+    "Q-02-3-02-N15-C01"
+  ],
+  "canonical_statement": "Confirmed retrieval gaps in P0 Evidence Gap Resolution v1: 1 (Q-02-3-02-N15-C01).",
+  "canonical_value": 1,
+  "carried_at": "2026-08-19T11:24:15.085686+00:00",
+  "carried_from": "tunnelbook-sec-02-2-draft-readiness-closure-v1",
+  "historical_artifacts_modified": false,
+  "impact_on_sec_02_2": "None. The confirmed gap belongs to Q-02-3-02, a SEC-02-3 question. No SEC-02-2 clause is a retrieval-gap candidate, and this phase performed no retrieval.",
+  "inconsistency_found": true,
+  "note": "Carried verbatim from the closure phase's audit. This phase performed no retrieval, opened no new gap question and altered no historical artifact; the canonical count is restated here so a consumer of this bundle does not have to reach back two phases for it.",
+  "source_of_truth": "data/book/p0_resolution/audits/p0_retrieval_expansion_v1.jsonl (retrieval_gap_confirmed), corroborated by p0_retrieval_gap_probes_v1.jsonl (retrieval_gap_candidate)"
+}

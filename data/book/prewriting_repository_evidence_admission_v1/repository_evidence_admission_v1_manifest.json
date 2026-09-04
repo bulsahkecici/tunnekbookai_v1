@@ -1,0 +1,65 @@
+{
+  "artifacts": [
+    {
+      "path": "data/book/prewriting_repository_evidence_admission_v1/contracts/repository_evidence_admission_contract_v1.json",
+      "sha256": "9712e9ee8d591ace42dd49195c099cd39d091e9b1c72b05a209e71a52130416c"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_admission_v1/admitted_evidence_registry_v1.json",
+      "sha256": "6ec358bd00bb149c1d6669902f9f12d7ce9aa038da15383214000c017bf68b2b"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_admission_v1/rejected_evidence_registry_v1.json",
+      "sha256": "cc40b35446ff37e4fb24bd498f3a31b96c672e9c818e64454abb278255f119d2"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_admission_v1/section_evidence_coverage_ledger_v1.json",
+      "sha256": "c8ea3139349c3c5153508fa7e0fa8196cbb52af8faf2f8f520d8f100e6dcb2f8"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_admission_v1/repository_evidence_admission_v1_audit.json",
+      "sha256": "1a225419dcaab6bc4028744b036a62cfa8e0ec3e92f026bf5f684300f35a2541"
+    }
+  ],
+  "book_prose_generated": false,
+  "drafting_authorized": false,
+  "frozen_integrity": "PASS",
+  "input_hashes": [
+    {
+      "path": "data/book/coverage/corpus_to_book_coverage_mapping_v1.json",
+      "sha256": "5db9f56ac0f46d6ceba4a50ef83700c72500562737a13ffce015d9c7ea1dd901"
+    },
+    {
+      "path": "data/book/research/research_question_gap_registry_v1.json",
+      "sha256": "13ab8e46bfe3f7db4111dcfb67dcc2e138a1aab5e0d820102c2bab0364fcddac"
+    },
+    {
+      "path": "data/book/evidence_packets/section_evidence_packets_v1.json",
+      "sha256": "1659da3ae01a2c9cd34d7d09c4bc6b2e98dc1f3efd24f8959d1ed4f10d6d5929"
+    },
+    {
+      "path": "data/book/master_structure/book_master_structure_v1.json",
+      "sha256": "4001ec372ddbaa3b3fe98a35645458de455771344faa7c039b3eb81df68dbb30"
+    },
+    {
+      "path": "data/book/source_registry_v1.jsonl",
+      "sha256": "5c9e8fe257375a6afdf589a18ac4baa611c8f80e4f10f85528eda73a2971c766"
+    },
+    {
+      "path": "data/book/prewriting_failure_analysis_v1/prewriting_failure_analysis_v1.json",
+      "sha256": "829fbb4266abff9a9db55bf37b899d30f1629f34d0ab84d48c45fdb81f0ed5ef"
+    },
+    {
+      "path": "data/book/prewriting_explicit_human_decision_gate_v1/explicit_human_decision_gate_v1_manifest.json",
+      "sha256": "df79f1b9ad7a9fca74a9ccd46a5d2da2d7285f8650375e22a2293566c717e8c3"
+    },
+    {
+      "path": "data/book/prewriting_audit/prewriting_hash_list_v1.json",
+      "sha256": "d7feb0b87e38ef756296dcf0e5a433f468faccf642d13bae1c2c022908f5f7cf"
+    }
+  ],
+  "next_phase": "PRE-WRITING COST METHODOLOGY CLOSURE V1",
+  "phase": "PRE-WRITING REPOSITORY EVIDENCE ADMISSION V1",
+  "schema_version": "repository-evidence-admission-manifest-v1",
+  "status": "GO"
+}

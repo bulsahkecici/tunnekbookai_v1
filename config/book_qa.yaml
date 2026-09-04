@@ -1,0 +1,31 @@
+version: 1
+
+evidence_statuses:
+  - SUPPORTED
+  - PARTIALLY_SUPPORTED
+  - INSUFFICIENT_EVIDENCE
+  - NO_EVIDENCE
+  - NOT_EVALUATED
+
+chapter_statuses:
+  - ANSWERED
+  - PARTIALLY_ANSWERED
+  - NOT_ANSWERED
+  - UNSUPPORTED_CLAIM
+  - NOT_APPLICABLE
+
+chapter_quality_gate:
+  minimum_answer_rate: 0.90
+  maximum_unsupported_claims: 0
+  conditional_go_minimum_answer_rate: 0.80
+
+question_gap_discovery:
+  use_full_question_as_query: false
+  maximum_concepts_per_question: 8
+  require_domain_anchor: true
+
+evidence_policy:
+  corpus_only: true
+  model_knowledge_is_evidence: false
+  topical_similarity_is_support: false
+  allowed_evidence_levels: [FULL_TEXT, PDF_EXTRACT, ABSTRACT, WEBPAGE_TEXT]

@@ -1,0 +1,85 @@
+{
+  "checkpoint": "PRE-WRITING REPOSITORY EVIDENCE DISCOVERY AND ADMISSION REMEDIATION V1",
+  "contract_version": "1.0.0",
+  "frozen_before_implementation": true,
+  "required_outcomes": {
+    "discovery_gap_records": 172,
+    "admission_granularity_mismatch_records": 37,
+    "provenance_gap_records": 2,
+    "visual_discovery_must_execute": true,
+    "repository_discovery_must_precede_external_classification": true,
+    "v1_outputs_are_immutable": true,
+    "v2_output_is_separate": true,
+    "standards_may_not_be_weakened": true
+  },
+  "discovery_sources": [
+    "canonical_inventory_metadata",
+    "document_ids_and_authoritative_hashes",
+    "semantic_chunk_registry",
+    "headings_and_section_paths",
+    "existing_retrieval_and_index_artifacts",
+    "existing_research_and_evidence_notes",
+    "targeted_source_reads_only_when_registry_evidence_is_insufficient"
+  ],
+  "required_hierarchy": [
+    "section",
+    "research_question",
+    "evidence_need",
+    "claim_candidate",
+    "source_or_chunk"
+  ],
+  "valid_intermediate_states": [
+    "DISCOVERED_CANDIDATE",
+    "EVIDENCE_NEED_MATCH",
+    "CLAIM_EXTRACTION_REQUIRED",
+    "PROVENANCE_BLOCKED",
+    "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+    "TRUE_EXTERNAL_EVIDENCE_REQUIRED",
+    "UNRESOLVED"
+  ],
+  "admission_rules": {
+    "topical_similarity_is_not_final_admissibility": true,
+    "claim_level_support_is_required_for_final_admission": true,
+    "authority_must_be_acceptable": true,
+    "provenance_must_be_authoritative_and_complete": true,
+    "section_and_research_question_scope_must_match": true,
+    "cross_section_reuse_requires_an_independent_scoped_evidence_need": true,
+    "unknown_or_ambiguous_cases_fail_closed": true
+  },
+  "provenance_rules": {
+    "allowed_sources": [
+      "data/inventory/inventory.jsonl",
+      "data/chunks/chunks.jsonl",
+      "existing_hash_linked_project_registries"
+    ],
+    "invented_provenance_is_forbidden": true,
+    "unresolved_provenance_must_remain_explicit": true
+  },
+  "visual_rules": {
+    "candidate_discovery_sources": [
+      "chunk_image_flags",
+      "chunk_table_flags",
+      "chunk_formula_flags",
+      "headings",
+      "section_paths",
+      "metadata"
+    ],
+    "rights_status_default": "UNKNOWN",
+    "unknown_rights_are_not_reuse_authorization": true,
+    "candidate_classification_required": true,
+    "target_section_required": true,
+    "source_location_required": true,
+    "reconstruction_guidance_required": true
+  },
+  "verification_rules": {
+    "deterministic_rerun_required": true,
+    "positive_tests_required": true,
+    "negative_tests_required": true,
+    "separate_defect_class_audits_required": true,
+    "acceptance_audit_required": true
+  },
+  "authorization": {
+    "drafting_authorized": false,
+    "book_prose_authorized": false
+  }
+}

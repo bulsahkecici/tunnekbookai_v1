@@ -1,0 +1,2658 @@
+{
+  "acceptance_contract_sha256": "c9766e437bd00222574d1aeee5ede17ff74a51bf5ae0cea37e0f3f496f6ebccd",
+  "acceptance_contract_version": "tunnelbook-architecture-v2-acceptance-contract-v1",
+  "accounting": {
+    "corpus_reads": 0,
+    "generation_calls": 0,
+    "post_render_model_passes": 0,
+    "qdrant_writes": 0,
+    "rendered_pilot": "NONE",
+    "retrieval_calls": 0,
+    "validators_weakened": []
+  },
+  "construction_invariant_holds": true,
+  "determinism": {
+    "cross_process_identical": true,
+    "cross_process_sha256": "4351ae07779ebff27d7b4fad94f800ccda97108d8399ea710e6dffa2649f6517",
+    "cross_process_stderr": "",
+    "in_process_identical": true,
+    "in_process_runs": 3,
+    "in_process_sha256": "4351ae07779ebff27d7b4fad94f800ccda97108d8399ea710e6dffa2649f6517"
+  },
+  "failure_histogram": {},
+  "false_accepts": [],
+  "false_rejects": [],
+  "generated_at": "2026-08-19T23:31:28.675244+00:00",
+  "negative_fixtures": {
+    "count": 21,
+    "false_accepts": [],
+    "rejected": 21
+  },
+  "not_plannable_pairs": [
+    {
+      "claim_id": "SEC-02-2-C-005",
+      "realization_role": "CLAIM_STATEMENT",
+      "reason": "a contract rule requires a companion role this claim cannot realize, so no permitted plan contains this pair",
+      "required_companions": [
+        "CONDITION"
+      ],
+      "unrealizable_companions": [
+        "CONDITION"
+      ]
+    },
+    {
+      "claim_id": "SEC-02-2-C-005",
+      "realization_role": "NUMERIC_CRITERIA",
+      "reason": "a contract rule requires a companion role this claim cannot realize, so no permitted plan contains this pair",
+      "required_companions": [
+        "CLAIM_STATEMENT",
+        "CONDITION"
+      ],
+      "unrealizable_companions": [
+        "CONDITION"
+      ]
+    },
+    {
+      "claim_id": "SEC-02-2-C-005",
+      "realization_role": "REQUIREMENT",
+      "reason": "a contract rule requires a companion role this claim cannot realize, so no permitted plan contains this pair",
+      "required_companions": [
+        "CONDITION"
+      ],
+      "unrealizable_companions": [
+        "CONDITION"
+      ]
+    },
+    {
+      "claim_id": "SEC-02-2-R025",
+      "realization_role": "CLAIM_STATEMENT",
+      "reason": "a contract rule requires a companion role this claim cannot realize, so no permitted plan contains this pair",
+      "required_companions": [
+        "QUALIFIER_SCOPE"
+      ],
+      "unrealizable_companions": [
+        "QUALIFIER_SCOPE"
+      ]
+    }
+  ],
+  "note": "The rendered strings in this proof are validator inputs and proof artifacts. They are not a draft, nothing here is authorised for release, and no plan in this file came from a model.",
+  "phase": "SEC-02-2 DRAFTING ARCHITECTURE V2 IMPLEMENTATION",
+  "results": [
+    {
+      "case_id": "UNIV000-minimal",
+      "claim_id": "SEC-02-2-C-001",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "d7cb07b188f89d617e688e1b6f2b4b81cb09e696e7b48e8de1dce1095f7c04bc",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV000-cited",
+      "claim_id": "SEC-02-2-C-001",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "7b78f0b41eea7bc1dcd09308a3a12fe4644d9568c394b3370c2bc535487070c8",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV001-minimal",
+      "claim_id": "SEC-02-2-C-001",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "9f9528d59cc298e5f038e023671273c27874932b2b80fc30b5f3b4809af3e589",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV001-cited",
+      "claim_id": "SEC-02-2-C-001",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "bcf97caf05765bce9f55e460a7652b387bbda21e3f18e56a732b047c14774075",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV002-minimal",
+      "claim_id": "SEC-02-2-C-001",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "34ecab1effbd00662d5a99d21027e795f185c67fdc10f9cb580d848ec308fdf4",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV002-cited",
+      "claim_id": "SEC-02-2-C-001",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "647a313c636fc1c03471a5429a06c6a6bb6448c011666b74667d76d9f1619dc2",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV003-minimal",
+      "claim_id": "SEC-02-2-C-002",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "74d51063eda42919e7e32bf9fab660527ebf85e6a76bd716d021e1ea611caf72",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV003-cited",
+      "claim_id": "SEC-02-2-C-002",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "41841a140b70d17126f28a60cbb986df4643d187cf604b08d855dbc2115ab612",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV004-minimal",
+      "claim_id": "SEC-02-2-C-002",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "edf7b69bf984706e7e267e1beaac4e621dc0c0c49579be575baf7cc0604b6d34",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV004-cited",
+      "claim_id": "SEC-02-2-C-002",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "16241fa8cabfe7e24acca6bcb30dab7a8bd292dfd88eae8927a287d990344a73",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV005-minimal",
+      "claim_id": "SEC-02-2-C-002",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "IDENTITY_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "aeb060cacea314c11f75eeffcdca6f11bdaa56e6f04ca7d325c811d27c8953fe",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV005-cited",
+      "claim_id": "SEC-02-2-C-002",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "IDENTITY_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "769d54ece05e45a2336b670c82321f112d643085b2ae08d15737616fcbccd91c",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV006-minimal",
+      "claim_id": "SEC-02-2-C-002",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "QUALIFIER_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "39b8f621ff1f2088f8d8d083345433b77b90b03ae2862b37b6b2270f9a5e0d52",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV006-cited",
+      "claim_id": "SEC-02-2-C-002",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "QUALIFIER_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "d9abf940e8485fe1790eb2f4219dd62e2b912786027d6eeed193a21a283d1bc7",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV007-minimal",
+      "claim_id": "SEC-02-2-C-003",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "e48446b7229c131424f23bf2920d6021b84872a218630cd310b1f6195dc97d6c",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV007-cited",
+      "claim_id": "SEC-02-2-C-003",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "7e1a941338a2aee02e10922b163c27a5dc855d978091b1c71a4ef0b689c0f43f",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV008-minimal",
+      "claim_id": "SEC-02-2-C-003",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "7defafe1fa0fa9a2b0de8ae470896e02da99db2baa61f63e4518e9872351a29a",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV008-cited",
+      "claim_id": "SEC-02-2-C-003",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "d88927f724da6a27b5fb41d3c79b9168a7765f3947c68f2d53e4fadbf776eb58",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV009-minimal",
+      "claim_id": "SEC-02-2-C-003",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "26996418a5b22683af4cc2152c3979d9c4c65947454ddc1375e0fb18bf086e91",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV009-cited",
+      "claim_id": "SEC-02-2-C-003",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "600c6a5cafd1a2a623dcbae218fb16b246de20b673e71757f046ba5e4d9518f0",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV010-minimal",
+      "claim_id": "SEC-02-2-C-004",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "0e2dd28a6ee1e0c81856ea37d20a18a09616cdc577f0e4b446b152228213ea3b",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV010-cited",
+      "claim_id": "SEC-02-2-C-004",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "d7101e442b155bb9572605bfd15aced3e6598dd2cff69396253a74ae4841ae78",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV011-minimal",
+      "claim_id": "SEC-02-2-C-004",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "a16d9c8b75650d589ad45350be775424fdd35c249384dde65418fe0fbe86aa74",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV011-cited",
+      "claim_id": "SEC-02-2-C-004",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "4a49de20e351402ee331ccecc7edbac65f4ea35204ad40da656d7b5769b97f74",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV012-minimal",
+      "claim_id": "SEC-02-2-C-004",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "b5ea7029269a0724d4e071cfac994d04c50d8a9205099042631d3090dac51532",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV012-cited",
+      "claim_id": "SEC-02-2-C-004",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "31d4e7e0c9dc1993212bd05130eb451451b9e9a56c6a5af88f579e34dc71cb4a",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV016-minimal",
+      "claim_id": "SEC-02-2-C-006",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "8f35e2fcfe686c7af793d5a93f8c68f1cdb1d578939715620983a38b4353d457",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV016-cited",
+      "claim_id": "SEC-02-2-C-006",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "44429117834e1066486e56bd8eb4721aefde153769a92a1b2245d62ac123289d",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV017-minimal",
+      "claim_id": "SEC-02-2-C-006",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "84f5dfe1ab59b3d29dbb5a66df5b42157176af4828d1cb2662dd1186dd45e094",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV017-cited",
+      "claim_id": "SEC-02-2-C-006",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "442c5659c584a0b973e2d46089fd4de4ce8b075d51d82ce166a8ed82941afc94",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV018-minimal",
+      "claim_id": "SEC-02-2-C-006",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "ce4a65bce46354658ed66fe0fb311c35197c338b239b8d65bee32fb12b48c1ab",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV018-cited",
+      "claim_id": "SEC-02-2-C-006",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "a7a5d77a6096e1b6bdb1cf62c90f832b68d14601bcfbb235a6e2cc93723e5dd9",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV019-minimal",
+      "claim_id": "SEC-02-2-C-007",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "c1c4c784f4ef1e050405fc0683580d25bcc3e1916612a6acb2d29892fdf3e52f",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV019-cited",
+      "claim_id": "SEC-02-2-C-007",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "78a40a976266698fbaa8c29253170d74e89ab240fd31b3b2c03b83e5a65279eb",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV020-minimal",
+      "claim_id": "SEC-02-2-C-007",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "24c3d542d4350e00b458a9763d14d812553a9c84eac3dd52d75c028744608d65",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV020-cited",
+      "claim_id": "SEC-02-2-C-007",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "07cbdb609f9e38fb68e3bc93dc53a0912eb44b9f9e71051980fbeb35e462f501",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV021-minimal",
+      "claim_id": "SEC-02-2-C-008",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "6678b1e09dc0af5c904a8c99d70ffab1a22282107613966c0fc052f5dd884ba7",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV021-cited",
+      "claim_id": "SEC-02-2-C-008",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "ffc7b9b450b155a878c611e57f18c667d6a0700e0a526791051b7ec3d2ba8e5e",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV022-minimal",
+      "claim_id": "SEC-02-2-C-008",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "fd40cbfa2e41d1c4219133c18f46f821792d5d927b4873b963406f6da582851f",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV022-cited",
+      "claim_id": "SEC-02-2-C-008",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "4f91b8a0c25afbdfa921c5bd5a88c67aadc6075a74739e23971d10a3c72342a8",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV023-minimal",
+      "claim_id": "SEC-02-2-C-008",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "546fbb09c167b406ef7c17fe53857ba26780ba0d90738cdbd499e525b4af61e1",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV023-cited",
+      "claim_id": "SEC-02-2-C-008",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "6040b17cb75bf187823cdf40bce4af8a47519d81dcd68b5784fd999925c64d97",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV024-minimal",
+      "claim_id": "SEC-02-2-C-009",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "98c0a42248af24bbb4a712e45ef2c58538281ab72b6b889ed27d2967d3ff1a01",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV024-cited",
+      "claim_id": "SEC-02-2-C-009",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "d5a098f3121db4c040f08fabff4ad8ac1b50d9f7eb8a179586e1e3ae70cc7af4",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV025-minimal",
+      "claim_id": "SEC-02-2-C-009",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "459b0b92101ae677b7be99ef80f7d5c2f0a550519269ed2b896c7311af51c331",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV025-cited",
+      "claim_id": "SEC-02-2-C-009",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "2f613338017b0f159edc757340bfa26dea1dfdc13ed346f562b200144eff3d21",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV026-minimal",
+      "claim_id": "SEC-02-2-C-009",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "6bf920b79d67a6f0426c137f0c55f05f92476e99c0c7300a24ccaadf2956d3c3",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV026-cited",
+      "claim_id": "SEC-02-2-C-009",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "f81a4cbb19be2638d2385eb671e88f00282ff04e7f00e8feb702507bbbf13897",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV027-minimal",
+      "claim_id": "SEC-02-2-C-009",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "QUALIFIER_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "96a7970ccff32d96479dd052f646abf15c43df6b39080ab45039c827e30252f1",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV027-cited",
+      "claim_id": "SEC-02-2-C-009",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "QUALIFIER_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "4fb04b6475e944b495163405ab0d1e316c4194afe45982658d8b4d1dbec524a8",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV028-minimal",
+      "claim_id": "SEC-02-2-C-009",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "b0b5f1cf43a98f324d34690bccf7c45b9a7b130d17e70c2789bb37df4fa3ba7f",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV028-cited",
+      "claim_id": "SEC-02-2-C-009",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "3c28b1851aa05c6e2d55f1c08d3efde3007a1bf8ccd26f00699fae1e1bdb8a94",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV029-minimal",
+      "claim_id": "SEC-02-2-C-010",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "780baef7f02e02f9731a08660ca8303ce3ca18f8f22dc41b9905a84bf8e51c84",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV029-cited",
+      "claim_id": "SEC-02-2-C-010",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "bd1e29a08b66640c8dcfbc7492561a7b5463c3e43996c0fcb156545188a1fd4a",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV030-minimal",
+      "claim_id": "SEC-02-2-C-010",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "ab0e8a3066fdb7263a8b96689e795f514d82e378ddfb4cf1f72c6682fbbecc5a",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV030-cited",
+      "claim_id": "SEC-02-2-C-010",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "c33fec960914f1a9c668bab2929b926c11a209abc5c146982b48162461bcb9ff",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV031-minimal",
+      "claim_id": "SEC-02-2-C-010",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "QUALIFIER_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "926aa13fb651de054e360bec46e08484bab3e3da78d12d4d5b1718c72a82ed9b",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV031-cited",
+      "claim_id": "SEC-02-2-C-010",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "QUALIFIER_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "e5b1dace303c5d0403bc6429e7a85851174738087b7ea33f28f7ae14577d8136",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV032-minimal",
+      "claim_id": "SEC-02-2-C-010",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "6c3e84c678b0e041a0c6afc0e8d02011e1f9b432adfb3dba9ab07b8688bb6840",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV032-cited",
+      "claim_id": "SEC-02-2-C-010",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "e34e7959d254defd73d5da4cb7477a6237ab28d1ad5807e3334595d832b69054",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV033-minimal",
+      "claim_id": "SEC-02-2-C-011",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "92da7b4223d9f53cffd79b24d35bf425d01890c462ac17315a07ced369a5a0c5",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV033-cited",
+      "claim_id": "SEC-02-2-C-011",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "8b3c9a7ff7ee91ac0092deb9ba901d41f3168ee8d77b91d78246fd68f8224c39",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV034-minimal",
+      "claim_id": "SEC-02-2-C-011",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "2f97522afe0da832b8fa4ced8bbd40f1389b22dbd74df50baeedcdaff869dffc",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV034-cited",
+      "claim_id": "SEC-02-2-C-011",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "bcd4367bfcc452145c2c2a347fcf212944d1f9581589aa560acd4af3c9df3ece",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV035-minimal",
+      "claim_id": "SEC-02-2-C-011",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "QUALIFIER_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "aa60394c0595ec646dd325b7daab30f82e8b7006cdee205f28729508c7ba1b9a",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV035-cited",
+      "claim_id": "SEC-02-2-C-011",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "QUALIFIER_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "ac8b0d95c76d1d89401894917d66499e3adebc51fa0e91748b37451bb1308ff7",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV036-minimal",
+      "claim_id": "SEC-02-2-C-011",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "4ef38d25a7c24605fd9aea9b16ee1ae69781136a12ef19357c454512d2e65730",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV036-cited",
+      "claim_id": "SEC-02-2-C-011",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "2f384550e760c614769c89ff91a95849c3f9aed8ab949b8729d1446764cfbc42",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV037-minimal",
+      "claim_id": "SEC-02-2-C-012",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "0adad64c23ed754bb15430db5a3fe21a8ae93acf46bea1d50c7904fad4aca496",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV037-cited",
+      "claim_id": "SEC-02-2-C-012",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "667ee722af3d3eafbb32c78294e86ac0c601261fdca17f8d509a6aa758fe4806",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV038-minimal",
+      "claim_id": "SEC-02-2-C-012",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "2e6fb6438d8693e905533db24949b9e96dc0ffd394d1bbfcb0debfa1c8198e5c",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV038-cited",
+      "claim_id": "SEC-02-2-C-012",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "b903036fa289774e03fa4bf4d86eaa9e6f98fd6212a70dfe31406cf52ff9ade3",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV039-minimal",
+      "claim_id": "SEC-02-2-C-013",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "85ef690185127fcd02e8d8b9cb7a2c3145ba3608b70d4a4012e461c22302e5c2",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV039-cited",
+      "claim_id": "SEC-02-2-C-013",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "aa4276558c8dcd53da407d8fc7876ca5d2a9d65d3d2ab8aafc42fa9fc4d5ee00",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV040-minimal",
+      "claim_id": "SEC-02-2-C-013",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "a06f49bd3144c9d6bf22b3b5356db6527372127e03d2108c3bc102efb4a2d84c",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV040-cited",
+      "claim_id": "SEC-02-2-C-013",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "768edd33ebfd703ce96ae18a7af3ccc4331eb74e3128656fdbad400b4504dd36",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV041-minimal",
+      "claim_id": "SEC-02-2-C-014",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "f0d4996be81c16b540747cf403427b6a438b310a682d18d356e741f6690efac7",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV041-cited",
+      "claim_id": "SEC-02-2-C-014",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "2b97472066e4760b0e0b6586c2070c71b36dffeca271750fd132c3307ee25d3d",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV042-minimal",
+      "claim_id": "SEC-02-2-C-014",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "1725383158a5c0fe38768e8ef720583e5c882c438ccfbafde770e6b47d4b22e5",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV042-cited",
+      "claim_id": "SEC-02-2-C-014",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "a55d018655cae286e0eacfbb7953625e513e033d066838b2ddc6fa884aebd02d",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV043-minimal",
+      "claim_id": "SEC-02-2-C-015",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "bbefb2cfa0d9f3b1180510f341a2bd798d6fb9aad5d50b1707ecfe2875882039",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV043-cited",
+      "claim_id": "SEC-02-2-C-015",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "c52478cf49b2853021a7ec14f30e3d8955515702d945467091466cd467133622",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV044-minimal",
+      "claim_id": "SEC-02-2-C-015",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "6ce470e11034b5acaf722be0e50f65c49e8200358db494d97129045ea8f59917",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV044-cited",
+      "claim_id": "SEC-02-2-C-015",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "c6a9545bfbbd43b6a97ad1fe7550917df0f2d696d985ae5fcec60a424324e980",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV045-minimal",
+      "claim_id": "SEC-02-2-C-016",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "526bae54e6d92f506c06691994b57398f601aa6035995967b3952665d043642b",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV045-cited",
+      "claim_id": "SEC-02-2-C-016",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "3017b06bbee2308606f48602715b13d2db61e3112ab7846222b71e4b707aacf9",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV046-minimal",
+      "claim_id": "SEC-02-2-C-017",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "ab3156f93e943457684067f4622339ebb9e4f5fa46e917c9c0bf2fb67846a247",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV046-cited",
+      "claim_id": "SEC-02-2-C-017",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "04b4c19feb622ce843d7ed0715f187901653d7f01ee17be0bb10b15e8aafd269",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV047-minimal",
+      "claim_id": "SEC-02-2-C-017",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "9e2310902f93663fc9996e951e9d7f238b76de2405323fab08cdbfc1f7b98444",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV047-cited",
+      "claim_id": "SEC-02-2-C-017",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "d8af9c976d0269c9525fb1b0c2cc11c7de602a468477b42aa8cddd2d32673baa",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV048-minimal",
+      "claim_id": "SEC-02-2-C-017",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "QUALIFIER_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "f6780085c09c5243b4d7512c1b22cec31d57753c5030311fcb184d8a4806bbd5",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV048-cited",
+      "claim_id": "SEC-02-2-C-017",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "QUALIFIER_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "f00d8e90cd435af3e38fba44a37dc78a7e6c30f79f8dede3c5be9f62e3c13b10",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV049-minimal",
+      "claim_id": "SEC-02-2-P0-001",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "ef42c11493e4e288ec1d84651f2d61db64931136f3669d8db5c8f1e1577afcf6",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV049-cited",
+      "claim_id": "SEC-02-2-P0-001",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "8224b33850485bbe1f46c9f721a7bcf5874c8d239f3bd15ac496aa6fce6e03a4",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV050-minimal",
+      "claim_id": "SEC-02-2-P0-001",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "46a7cf732d9d65934c58c4005669fbf88015978da95f5bf1259d3c2ca1dfab97",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV050-cited",
+      "claim_id": "SEC-02-2-P0-001",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "2fa7a8afbb504d3024a458242b310230644edd74d5b948781fc0bacd3602212f",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV051-minimal",
+      "claim_id": "SEC-02-2-P0-001",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "5b1178fcc41ad92d1a2f1f576a238e22c2a1baa04c0c801aa1329c52180350f7",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV051-cited",
+      "claim_id": "SEC-02-2-P0-001",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "9723174f9370b71ca0946faf6f06ee367bddcbf08775caa63398b73efcf57a19",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV052-minimal",
+      "claim_id": "SEC-02-2-P0-002",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "f87617f489311e91e6c1f6eb178b6e59eed1ba373e0f4a06e597a69e49f665f3",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV052-cited",
+      "claim_id": "SEC-02-2-P0-002",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "4320a4630cd8a622ceaf72753e649104e32239befaf0662f9f3320e3ef4a6b72",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV053-minimal",
+      "claim_id": "SEC-02-2-P0-002",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "5ed5142dc4f58d1b85fd981b0f93bc1faf03d7d1641cddf32f82438c9db4660a",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV053-cited",
+      "claim_id": "SEC-02-2-P0-002",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "5dab957dea4b933520090a2833d4b76de627e1c63d124ebaca9c5efde5eb60d3",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV054-minimal",
+      "claim_id": "SEC-02-2-P0-002",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "IDENTITY_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "ab1715a2383cc222f27b6abc48326c673ac48051bbbbb9a6e32d254392adc3ec",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV054-cited",
+      "claim_id": "SEC-02-2-P0-002",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "IDENTITY_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "9690628caaa8fc7e650f5f59cf6903e00cc43b99147bace0d129be5ced6ee5b9",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV055-minimal",
+      "claim_id": "SEC-02-2-P0-002",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "QUALIFIER_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "e04e794e82e5870a3e7abe4673bd3898b9d83d5e6a805533bfa72cb7cd3ec16a",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV055-cited",
+      "claim_id": "SEC-02-2-P0-002",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "QUALIFIER_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "d7d50dbffa22560fb0affa8d07daed4ab6d4153e649076a9c492b405eb6d228c",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV056-minimal",
+      "claim_id": "SEC-02-2-P0-002",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "df000989e65629de14152009b8adb8f6ef29aae67c4eb4977bf0051d239998f6",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV056-cited",
+      "claim_id": "SEC-02-2-P0-002",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "83d8cb7ebf4c488e4cc6b4ec0033bf9dd8f9f2510bf3f95d931c1c631379e706",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV057-minimal",
+      "claim_id": "SEC-02-2-P0-003",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "726c5662b08e85d07c3f26e186ea9130c4bb120583003798a42dc5da2e4968af",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV057-cited",
+      "claim_id": "SEC-02-2-P0-003",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "fe6a79f96ad4b413dbc2a282537d9bfefaa7fc60049c3441b50004e1c14ef6b0",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV058-minimal",
+      "claim_id": "SEC-02-2-P0-003",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "355febfa82289b939b02887f083f2624e40a5cb3992ae51108f705ad0e0cb05e",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV058-cited",
+      "claim_id": "SEC-02-2-P0-003",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "c3048ac9243098dfe1dd908f06362b1d3c445db32a766da355c61c361721b7d8",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV059-minimal",
+      "claim_id": "SEC-02-2-P0-003",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "b6d6eda5a7e5515db0747320fe38d3d41180f626ecf2aff3f685af5171df1a44",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV059-cited",
+      "claim_id": "SEC-02-2-P0-003",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "d54e795a4c0c2661f257288aea0867eafc0273d25e490a2443475a722d44c2e5",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV060-minimal",
+      "claim_id": "SEC-02-2-P0-003",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "9c4a6094b2ce4a93dbc27fd24404db3bd24c71a5e30a3d0a58b5c9585f092bf0",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV060-cited",
+      "claim_id": "SEC-02-2-P0-003",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "8d3c8fce0dd7ac9d463dd3b1295be437732eebfc93f89b99135bab1561fc7c73",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV061-minimal",
+      "claim_id": "SEC-02-2-P0-004",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "b8d0e23e1feae1443ccaee27f1560ba0bd5ac610fce82a0ada57daadba3bc2c6",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV061-cited",
+      "claim_id": "SEC-02-2-P0-004",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "bee9fa0886847f26a6e64041f51d5b32dc636e75f905f506d6bd620461d5def8",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV062-minimal",
+      "claim_id": "SEC-02-2-P0-004",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "c52d2c7e676835f61d967383f54acce916357857f21a86ad0c01b998474daaf8",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV062-cited",
+      "claim_id": "SEC-02-2-P0-004",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "6a880d7d1527c2fb4025cea58e135348b08eb121c17919ef2e260420063aad42",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV063-minimal",
+      "claim_id": "SEC-02-2-P0-005",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "b4590b1412c2ab70ee75edec528e00bd7c511df2b6346ba00ba40c8be5fc52de",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV063-cited",
+      "claim_id": "SEC-02-2-P0-005",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "f90c385fb0250d22901993a33798753c7f0b90b00124ac06ce47334560de7ce9",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV064-minimal",
+      "claim_id": "SEC-02-2-P0-005",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "2228a461b2d1a1ac1b672c9aa741c5e5c37d710171676848f1bc53460b5dbbca",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV064-cited",
+      "claim_id": "SEC-02-2-P0-005",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "bb4abc5d96fac0ac414c0b3366509b8db5180987def5e9384f4dddec49283033",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV065-minimal",
+      "claim_id": "SEC-02-2-P0-006",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "e77be2cb1a2b0c585d8d4d32a934b51b34c359bd754cb24864bf28175e16a31f",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV065-cited",
+      "claim_id": "SEC-02-2-P0-006",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "efeb8ba9a1e1d4be2bb16565dae5c6174e4c8db6858db780d3421c834a794b3c",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV066-minimal",
+      "claim_id": "SEC-02-2-P0-006",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "14d5d847a0f55ceb8bae278350e7c16a1ab40fb23062b37b5a6c1f690dcc3f9b",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV066-cited",
+      "claim_id": "SEC-02-2-P0-006",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "86a8aefde7a492eaa4fdfd3052ec33b988dea6583ac385eeaba54ed1d5b91c4e",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV067-minimal",
+      "claim_id": "SEC-02-2-P0-006",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "6dd5024bfe92f7261a9128e5aa5c1bebbbc1b84212c7cf5ec75b82b107df2a9a",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV067-cited",
+      "claim_id": "SEC-02-2-P0-006",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "2e0db3d34cbc64b1305731b9a29332e52d87dad4e37029e2258ac229044d8429",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV068-minimal",
+      "claim_id": "SEC-02-2-P0-006",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "6b673affcff0f897c0955a84a00c0b9043eda2321b27968e374cbd230cfc6f1a",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV068-cited",
+      "claim_id": "SEC-02-2-P0-006",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "d901cce318bee9bb152bd06c7e13d5f917a4193ccec88a9f2def73e6dfaf813c",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV069-minimal",
+      "claim_id": "SEC-02-2-P0-007",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "c992249d535a06582246df8d51f7a576c78e01ec646cd037ee3d23ed37226630",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV069-cited",
+      "claim_id": "SEC-02-2-P0-007",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "1389fe94dad929b6d903a2677261ad545e4db632eb310aadf8b3cd556ced9b43",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV070-minimal",
+      "claim_id": "SEC-02-2-P0-007",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "baf88d836dd04a8796a42bf4f9779c8e34ab6217fdceae7d357052e55b4e42f9",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV070-cited",
+      "claim_id": "SEC-02-2-P0-007",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "cffbdb946e336d4edc1991cd144df202958d57c81c17c9e0a800cc194b2901d7",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV071-minimal",
+      "claim_id": "SEC-02-2-P0-008",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "803f6ba7ea404df8de85f278aaf6481e67275b96320830219636fe02aed1dd98",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV071-cited",
+      "claim_id": "SEC-02-2-P0-008",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "81e014e1aa98877366d048938575ed20a80d49d93c2a56d938a9ca27463d7786",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV072-minimal",
+      "claim_id": "SEC-02-2-P0-008",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "3d4d23be9ec321d7271b15c426709239ac46f3a52c5d7789f35a1644c7572790",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV072-cited",
+      "claim_id": "SEC-02-2-P0-008",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "9218f9a88b96e5e6aec7d0a05662450f95ec709e3b51cecdf2c65e7593e658d7",
+      "units": 2
+    },
+    {
+      "case_id": "UNIV073-minimal",
+      "claim_id": "SEC-02-2-P0-008",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "EXEMPLIFICATION",
+      "rejected_unit_ids": [],
+      "render_sha256": "8b6a62a96861ea24a2b09d74b7b90761c488b2182a38e17f48dccb2e35802bdf",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV073-cited",
+      "claim_id": "SEC-02-2-P0-008",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "EXEMPLIFICATION",
+      "rejected_unit_ids": [],
+      "render_sha256": "88d467c35c3bc03b46f3e4b87048bc2fbb8ef16a7a49094c2a3da7524498d902",
+      "units": 3
+    },
+    {
+      "case_id": "UNIV074-minimal",
+      "claim_id": "SEC-02-2-R001",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "a000eb034ac09eb8ffef90946546b8a83be5a19fa2965a326454ff7100f00382",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV074-cited",
+      "claim_id": "SEC-02-2-R001",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "508803067acd0ba813721b0032de73a283b070866f4687f82a5c23ac12d4372c",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV075-minimal",
+      "claim_id": "SEC-02-2-R001",
+      "histogram": {},
+      "kind": "minimal_pair",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "e5ae1f7cb93cda21a7c10d8e52bfb8022342c9daf4646c1763c3b787b2a11155",
+      "units": 1
+    },
+    {
+      "case_id": "UNIV075-cited",
+      "claim_id": "SEC-02-2-R001",
+      "histogram": {},
+      "kind": "explicit_citation",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "f32c0ac559f933109018363e7e03af077789f3345ef4dcd87f403550203248fa",
+      "units": 1
+    },
+    {
+      "case_id": "ALL000",
+      "claim_id": "SEC-02-2-C-001",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION+REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "eb99dfc61cf6dbafb85409c2b9ea1c2d1c1f1eb0dfd780cefe5e188e377f5256",
+      "units": 2
+    },
+    {
+      "case_id": "ALL001",
+      "claim_id": "SEC-02-2-C-002",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT+CONDITION+IDENTITY_SCOPE+QUALIFIER_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "247f139dbd1c32b517e91ea710bd017529a1cc013fca6b270249057854c99e8d",
+      "units": 4
+    },
+    {
+      "case_id": "ALL002",
+      "claim_id": "SEC-02-2-C-003",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION+REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "0c810bd9d8ef1e2fdc6cef1bdc904da40000d2b4ecdfba3a83336896aab3a259",
+      "units": 2
+    },
+    {
+      "case_id": "ALL003",
+      "claim_id": "SEC-02-2-C-004",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "NUMERIC_CRITERIA+REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "957ed9af2e114acbd9d81cdafc536eff0a867db83847565ec8d94f871a21d7fd",
+      "units": 2
+    },
+    {
+      "case_id": "ALL005",
+      "claim_id": "SEC-02-2-C-006",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION+REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "c6210f41fc4f30c0c7fdf28d812de50ceb7cc4db51706da398800e94f804a014",
+      "units": 2
+    },
+    {
+      "case_id": "ALL006",
+      "claim_id": "SEC-02-2-C-007",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "714f74d3c4bb28faafa9d7bd792be96824bba306939bdd62a86890a1d6b1b7d8",
+      "units": 1
+    },
+    {
+      "case_id": "ALL007",
+      "claim_id": "SEC-02-2-C-008",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT+CONDITION+NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "101d2197e60f7d4c3a64e2f0aca1190c24b97cb7d604baa48f22c58233a1ac36",
+      "units": 3
+    },
+    {
+      "case_id": "ALL008",
+      "claim_id": "SEC-02-2-C-009",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION+NUMERIC_CRITERIA+QUALIFIER_SCOPE+REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "ac6ae050c796363e9bcee85752e45908126628332137fe641f0f67e9390983a8",
+      "units": 4
+    },
+    {
+      "case_id": "ALL009",
+      "claim_id": "SEC-02-2-C-010",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION+QUALIFIER_SCOPE+REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "e6ace10004a78e1fe6918454fda2dbf0a2d262e5dce48f48c944d0368bd02b64",
+      "units": 3
+    },
+    {
+      "case_id": "ALL010",
+      "claim_id": "SEC-02-2-C-011",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION+QUALIFIER_SCOPE+REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "c09b58110d5e7193909e7d247a5cd8e1b4a12b9327a9e709920c096832187d36",
+      "units": 3
+    },
+    {
+      "case_id": "ALL011",
+      "claim_id": "SEC-02-2-C-012",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT+CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "d013fab6d666c4b816439f44974ea87afaadae50da1818b35ceff27f7fefbf16",
+      "units": 2
+    },
+    {
+      "case_id": "ALL012",
+      "claim_id": "SEC-02-2-C-013",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT+NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "7fd927b26a0a35162bf75fdcf331c0d2a4e05bcd82fbe17ffa3cea7ca00d28a3",
+      "units": 2
+    },
+    {
+      "case_id": "ALL013",
+      "claim_id": "SEC-02-2-C-014",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT+NUMERIC_CRITERIA",
+      "rejected_unit_ids": [],
+      "render_sha256": "987a3e6fdec55c0a6323a47dee1d539e2b1eb5026ee7ee8ff5cf9ed05a26f6ff",
+      "units": 2
+    },
+    {
+      "case_id": "ALL014",
+      "claim_id": "SEC-02-2-C-015",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT+CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "52e975e94ef82f7138a069a23df50364b6f62bc97de9192ac9e2925f7610387e",
+      "units": 2
+    },
+    {
+      "case_id": "ALL015",
+      "claim_id": "SEC-02-2-C-016",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "8806fc49c4b25f707c366667effbe0b7560ae4bf41ad1be69e0fd4f7eaec32c2",
+      "units": 1
+    },
+    {
+      "case_id": "ALL016",
+      "claim_id": "SEC-02-2-C-017",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT+CONDITION+QUALIFIER_SCOPE",
+      "rejected_unit_ids": [],
+      "render_sha256": "e4500de184a1f181bbb7b4afb85b8611d555a83b254ab4fea9ee1a7ff7fa2a05",
+      "units": 3
+    },
+    {
+      "case_id": "ALL017",
+      "claim_id": "SEC-02-2-P0-001",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION+REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "43a9abae5f693d46c2cb82ca2c60b9e42ea15caa6d5bf5e18b795b2fb688b55b",
+      "units": 2
+    },
+    {
+      "case_id": "ALL018",
+      "claim_id": "SEC-02-2-P0-002",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION+IDENTITY_SCOPE+QUALIFIER_SCOPE+REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "840f87ba3eeac336ea08e7ad1a56e18931b42aec8b17b797c16c3bf4cfc9cfda",
+      "units": 4
+    },
+    {
+      "case_id": "ALL019",
+      "claim_id": "SEC-02-2-P0-003",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION+NUMERIC_CRITERIA+REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "0887d28afb8ffe8cf9003be349591e43376520090dc8a68927d9bd992e2f0d92",
+      "units": 3
+    },
+    {
+      "case_id": "ALL020",
+      "claim_id": "SEC-02-2-P0-004",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT+CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "b64c742fb57941cb025097c9b2e070574d94aac89090df6e445d8b373a332e4f",
+      "units": 2
+    },
+    {
+      "case_id": "ALL021",
+      "claim_id": "SEC-02-2-P0-005",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "57fe3860c287aec077a7575e4ab9153590721f492e9ebcef3fd5568a12f71cc0",
+      "units": 1
+    },
+    {
+      "case_id": "ALL022",
+      "claim_id": "SEC-02-2-P0-006",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CONDITION+NUMERIC_CRITERIA+REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "b2d92302809a3ec1fca087c074cc6f9d4ac2c49b8c5f495e84296c3267065a79",
+      "units": 3
+    },
+    {
+      "case_id": "ALL023",
+      "claim_id": "SEC-02-2-P0-007",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT+CONDITION",
+      "rejected_unit_ids": [],
+      "render_sha256": "835638d45d48add9e157f8091495bc0c4f16d0df30fb8b84114f50d7fb617a62",
+      "units": 2
+    },
+    {
+      "case_id": "ALL024",
+      "claim_id": "SEC-02-2-P0-008",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "CLAIM_STATEMENT+CONDITION+EXEMPLIFICATION",
+      "rejected_unit_ids": [],
+      "render_sha256": "da98c9e755f1b63906eba3856b0c8a020b1fdee71a23277ab5d2f4cdfabff8bb",
+      "units": 3
+    },
+    {
+      "case_id": "ALL025",
+      "claim_id": "SEC-02-2-R001",
+      "histogram": {},
+      "kind": "all_roles_one_paragraph",
+      "outcome": "ACCEPT",
+      "realization_role": "REQUIREMENT",
+      "rejected_unit_ids": [],
+      "render_sha256": "1b9f4f903b9cc986f6971487556b68f0c8d800dfd23b6330b17e00ce45f81101",
+      "units": 1
+    }
+  ],
+  "section_id": "SEC-02-2",
+  "status": "PASS",
+  "universe": {
+    "accepted_cases": 171,
+    "claim_role_pairs": 189,
+    "claims": 27,
+    "enumerated_cases": 171,
+    "pairs_no_permitted_plan_contains": 4,
+    "realizable_pairs": 77,
+    "rendered_units": 353,
+    "roles": 7,
+    "unrealizable_pairs": 112
+  },
+  "unrealizable_detail": [
+    {
+      "claim_id": "SEC-02-2-C-001",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-001",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-001",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-001",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-C-002",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "REQUIREMENT"
+    },
+    {
+      "claim_id": "SEC-02-2-C-002",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-002",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-C-003",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-003",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-003",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-003",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-C-004",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-004",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-004",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "CONDITION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-004",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-005",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-005",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-005",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "CONDITION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-005",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-006",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-006",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-006",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-006",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-C-007",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-007",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-007",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "CONDITION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-007",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-007",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-C-008",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "REQUIREMENT"
+    },
+    {
+      "claim_id": "SEC-02-2-C-008",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-008",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-008",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-009",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-009",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-010",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-010",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-010",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-C-011",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-011",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-011",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-C-012",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "REQUIREMENT"
+    },
+    {
+      "claim_id": "SEC-02-2-C-012",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-012",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-012",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-012",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-C-013",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "REQUIREMENT"
+    },
+    {
+      "claim_id": "SEC-02-2-C-013",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-013",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-013",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "CONDITION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-013",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-014",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "REQUIREMENT"
+    },
+    {
+      "claim_id": "SEC-02-2-C-014",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-014",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-014",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "CONDITION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-014",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-015",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "REQUIREMENT"
+    },
+    {
+      "claim_id": "SEC-02-2-C-015",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-015",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-015",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-015",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-C-016",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "REQUIREMENT"
+    },
+    {
+      "claim_id": "SEC-02-2-C-016",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-016",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-016",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "CONDITION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-016",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-016",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-C-017",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "REQUIREMENT"
+    },
+    {
+      "claim_id": "SEC-02-2-C-017",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-C-017",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-C-017",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-001",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-001",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-001",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-001",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-002",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-002",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-003",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-003",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-003",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-004",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "REQUIREMENT"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-004",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-004",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-004",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-004",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-005",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-005",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-005",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "CONDITION"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-005",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-005",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-006",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-006",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-006",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-007",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "REQUIREMENT"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-007",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-007",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-007",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-007",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-008",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "REQUIREMENT"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-008",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-008",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-P0-008",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-R001",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-R001",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-R001",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "CONDITION"
+    },
+    {
+      "claim_id": "SEC-02-2-R001",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-R001",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    },
+    {
+      "claim_id": "SEC-02-2-R025",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "REQUIREMENT"
+    },
+    {
+      "claim_id": "SEC-02-2-R025",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "IDENTITY_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-R025",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "QUALIFIER_SCOPE"
+    },
+    {
+      "claim_id": "SEC-02-2-R025",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "CONDITION"
+    },
+    {
+      "claim_id": "SEC-02-2-R025",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "EXEMPLIFICATION"
+    },
+    {
+      "claim_id": "SEC-02-2-R025",
+      "code": "RENDER_PLAN_INVALID",
+      "refused": true,
+      "role": "NUMERIC_CRITERIA"
+    }
+  ],
+  "unrealizable_refusals": {
+    "checked": 112,
+    "leaked": [],
+    "refused": 112
+  },
+  "validator_version": "tunnelbook-section-draft-validator-v1.2",
+  "version": "tunnelbook-static-containment-proof-v2",
+  "zero_tolerance_violations": {}
+}

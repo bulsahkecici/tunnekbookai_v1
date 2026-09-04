@@ -1,0 +1,102 @@
+{
+  "actions_attempted": [
+    "cross-lingual mappings authored: 6",
+    "manual mappings authored: 9",
+    "packet inspected in full (20 evidence items)"
+  ],
+  "corpus_gap_candidate": false,
+  "critical_missing_propositions": [
+    "Q-02-3-01-N03-C02",
+    "Q-02-3-01-N03-C04",
+    "Q-02-3-01-N04-C04",
+    "Q-02-3-01-N05-C03",
+    "Q-02-3-01-N06-C01",
+    "Q-02-3-01-N07-C01",
+    "Q-02-3-01-N07-C02",
+    "Q-02-3-01-N07-C03",
+    "Q-02-3-01-N07-C04",
+    "Q-02-3-01-N07-C05"
+  ],
+  "current_insufficient_notes": [
+    "Q-02-3-01-N07-R2"
+  ],
+  "current_partial_claims": [
+    "Q-02-3-01-N02-R2",
+    "Q-02-3-01-N03-R2",
+    "Q-02-3-01-N04-R2",
+    "Q-02-3-01-N05-R2",
+    "Q-02-3-01-N06-R2"
+  ],
+  "current_supported_claims": [
+    "Q-02-3-01-N08-R2"
+  ],
+  "existing_evidence_refs": [
+    "E001",
+    "E002",
+    "E003",
+    "E004",
+    "E005",
+    "E006",
+    "E007",
+    "E008",
+    "E009",
+    "E010",
+    "E011",
+    "E012",
+    "E013",
+    "E014",
+    "E015",
+    "E016",
+    "E017",
+    "E018",
+    "E019",
+    "E020"
+  ],
+  "existing_packet_shas": [
+    "146500b498d97a39c1de773692a9111450808f8c849b8c4ed05d10f44aa4c45d"
+  ],
+  "gap_classes": [
+    "CROSS_LINGUAL_MAPPING_FAILURE",
+    "SPAN_MAPPING_FAILURE"
+  ],
+  "gap_id": "GAP-P0-05",
+  "generation_attempts": 0,
+  "notes": [
+    "not fully supported under this question: 7",
+    "unsupported under this question: 3"
+  ],
+  "packet_exhausted": true,
+  "packet_items_inspected": 20,
+  "question_design_defect": false,
+  "question_id": "Q-02-3-01",
+  "question_text": "TBM ile delme-patlatma yöntemi hangi kriterlere göre karşılaştırılır?",
+  "remaining_missing_propositions": [
+    "Q-02-3-01-N02-C01",
+    "Q-02-3-01-N03-C02",
+    "Q-02-3-01-N03-C04",
+    "Q-02-3-01-N04-C01",
+    "Q-02-3-01-N05-C03",
+    "Q-02-3-01-N06-C01",
+    "Q-02-3-01-N07-C01"
+  ],
+  "resolution_strategy": [
+    "B: inspect the whole frozen packet, not only cited handles",
+    "C: map the Turkish claim onto exact English source spans",
+    "E: assess RETRIEVAL_GAP only after the packet is exhausted",
+    "F: assess CORPUS_GAP only after retrieval is exhausted"
+  ],
+  "resolved_claim_ids": [
+    "SEC-02-3-P0-003",
+    "SEC-02-3-P0-006",
+    "SEC-02-3-P0-007",
+    "SEC-02-3-P0-008",
+    "SEC-02-3-P0-009",
+    "SEC-02-3-P0-023",
+    "SEC-02-3-P0-024"
+  ],
+  "retrieval_expansions": 0,
+  "retrieval_gap_candidate": false,
+  "section_id": "SEC-02-3",
+  "section_objective": "Kazı yöntemi seçim kriterlerini çok kaynaklı kanıtla ortaya koymak ve kaynaklar arası farklılıkları görünür kılmak",
+  "status": "PARTIALLY_RESOLVED"
+}

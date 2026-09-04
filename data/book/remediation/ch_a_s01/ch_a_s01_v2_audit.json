@@ -1,0 +1,169 @@
+{
+  "section_id": "CH-A-S01",
+  "decision": "PASS",
+  "summary": {
+    "supported": 25,
+    "partially_supported": 0,
+    "unsupported": 0,
+    "scope_leakage": 0,
+    "unsupported_source_identity": 0,
+    "redundancy": 0
+  },
+  "sentence_audit": [
+    {
+      "sentence": "Tünel, genel kabul gören tanımıyla etrafındaki toprak veya kaya kütlesi içine kazılarak açılan, yalnızca giriş ve çıkış noktalarında açık kalan, kapalı bir yeraltı geçidi olarak tanımlanır; bu açıklıklar genellikle her iki uçta konumlanır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-001"],
+      "reason": "Draft cümlesi, admitted claim REM-001 ile birebir eşleşmektedir. 'genellikle her iki uçta' qualifier'ı korunmuştur."
+    },
+    {
+      "sentence": "Geometrik olarak nispeten uzun ve dardır; uzunluğu çapının genellikle iki katından çok daha fazladır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-002"],
+      "reason": "Draft cümlesi, admitted claim REM-002 ile uyumludur. 'genellikle' sınırlayıcısı korunmuştur."
+    },
+    {
+      "sentence": "Yapısal ve işlevsel özellikler açısından tünel, çizgisel-tüp şeklinde bir yapıdır ve yeraltı kaya yapısı olarak kabul edilir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-026", "CH-A-S01-REM-027"],
+      "reason": "Çizgisel-tüp yapısı ve yeraltı kaya yapısı tanımları, REM-026 ve REM-027 ile desteklenmektedir."
+    },
+    {
+      "sentence": "Tünel tanımı, kaynaklardan kaynağa geniş bir değişkenlik gösterebilmektedir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-003"],
+      "reason": "Kaynaklar arası değişkenlik iddiası, REM-003 ile doğrudan desteklenmektedir."
+    },
+    {
+      "sentence": "Bu çeşitlilik, tünelin neyin bir tünel sayılacağını belirleyen kriterlerin bağlama göre farklılaşmasından kaynaklanır ve tünel tanımının bağlama ve kullanım amacına göre farklılaşabildiğini gösterir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-003"],
+      "reason": "Bağlama göre farklılaşma açıklaması, REM-003'ün kapsamına girer."
+    },
+    {
+      "sentence": "Belirli yargı bölgelerinde ve standartlarda tünel tanımı, açık uzunluk veya çap eşikleri ile sınırlandırılmıştır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-004", "CH-A-S01-REM-005"],
+      "reason": "Yargı bölgelerine özgü eşik sınırlaması, REM-004 ve REM-005 ile desteklenmektedir."
+    },
+    {
+      "sentence": "Birleşik Krallık’ta karayolu tüneli, uzunluğu 150 metre veya daha fazla olan, yeraltı otoyol yapısı olarak kapatılmış bir yapı olarak tanımlanır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-004"],
+      "reason": "UK 150m eşik tanımı, REM-004 ile tam olarak örtüşmektedir."
+    },
+    {
+      "sentence": "Amerika Birleşik Devletleri’nde Ulusal Yangından Korunma Derneği (NFPA) ise bir tüneli, tasarımı gereği 23 metreden uzun ve çapı 1.800 milimetreden büyük olan yeraltı yapısı olarak tanımlamaktadır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-005"],
+      "reason": "NFPA 23m/1.8m eşik tanımı ve kurum adı, REM-005 ile desteklenmektedir."
+    },
+    {
+      "sentence": "Bu tür spesifik tanımlar, yalnızca ilgili yargı bölgelerindeki altyapı veya düzenleyici bağlamlar için geçerlidir ve genel bir tünel tanımı olarak genişletilemez.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-004", "CH-A-S01-REM-005"],
+      "reason": "Genel tanım olarak genişletilemezlik kısıtı, evidence_limitations ve REM-004/005 qualifier'ları ile uyumludur."
+    },
+    {
+      "sentence": "Türk mühendislik literatüründe ve resmi düzenlemelerde tünel, ulaşım veya iletim amacıyla projelendirilmiş güzergahı, profili ve kesiti önceden belirlenmiş, yer altı geçişini sağlayan yapı olarak ifade edilir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-006"],
+      "reason": "Türk literatürü tanımı, REM-006 ile birebir eşleşmektedir."
+    },
+    {
+      "sentence": "Bu tanım, ulaşım veya taşın yolunun yer üstünden geçirilmesinin teknik olarak mümkün olmadığı veya ekonomik açıdan uygun bulunmadığı durumlarda geçerlidir ve Bozkurt (1970) tarafından verilmiştir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-008", "CH-A-S01-REM-009"],
+      "reason": "Geçerlilik koşulu ve Bozkurt (1970) kaynak kimliği, REM-008 ve REM-009 ile desteklenmektedir."
+    },
+    {
+      "sentence": "Karayolu taşımacılığı bağlamında tünel, trafik geçişine imkan sağlayan yer altı karayolu sanat yapısıdır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-036"],
+      "reason": "Karayolu sanat yapısı tanımı, REM-036 ile desteklenmektedir."
+    },
+    {
+      "sentence": "Ayrıca, demiryolu, karayolu, yaya yolu veya kanal gibi ulaşım veya taşın yolunun bir kısmının yeraltından geçirilmesine imkan tanıyan tüm yer altı yapılarını kapsar.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-007"],
+      "reason": "Çoklu ulaşım modu kapsama tanımı, REM-007 ile desteklenmektedir."
+    },
+    {
+      "sentence": "Tünelin tanımı, bakış açısına göre farklı disiplinler tarafından şekillendirilir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-029", "CH-A-S01-REM-030", "CH-A-S01-REM-031", "CH-A-S01-REM-032"],
+      "reason": "Disiplinlere göre şekillenme iddiası, sonraki cümlelerdeki perspektif tanımları ile desteklenmektedir."
+    },
+    {
+      "sentence": "Mimar perspektifinden tünel; boyut ve biçimi ile kullanımı ve görsel nitelikleri amaca göre tanımlanmış, içinden geçilebilen oyulmuş bir mekan olarak nitelendirilir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-029"],
+      "reason": "Mimar perspektifi tanımı, REM-029 ile tam olarak örtüşmektedir."
+    },
+    {
+      "sentence": "Madencilik perspektifi ise tüneli, içi boşaltılması (kazılması) gereken bir yeraltı açıklığı olarak tanımlar.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-030"],
+      "reason": "Madencilik perspektifi tanımı, REM-030 ile desteklenmektedir."
+    },
+    {
+      "sentence": "İnşaat mühendisliği perspektifinden bakıldığında tünel; tanımlanan yüklenme koşullarını karşılayan ve projesine uygun olarak dayanıklı ve nitelikli şekilde oluşturulması gereken bir taşıyıcı sistemdir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-031"],
+      "reason": "İnşaat mühendisliği perspektifi tanımı, REM-031 ile desteklenmektedir."
+    },
+    {
+      "sentence": "Günümüzün gelişmiş mühendislik perspektifi ise tüneli, çevre kayaçlarıyla birlikte çalışan kalıcı nitelikteki bütünleşik bir geoteknolojik sistem, yani yer içi geçiş yapısı olarak tanımlar.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-032"],
+      "reason": "Modern mühendislik perspektifi tanımı, REM-032 ile desteklenmektedir."
+    },
+    {
+      "sentence": "Tanım kapsamında, tünel; yer altındaki kalıcı açıklık ile bu açıklığın çevresindeki etkilenen ve etkileyen doğal ortamın, uygun kazı, iyileştirme, sağlamlaştırma ve destekleme önlemleri ile oluşturulan güvenli, kalıcı ve denetlenebilir üç boyutlu bir teknik sistemdir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-028"],
+      "reason": "Üç boyutlu teknik sistem tanımı, REM-028 ile birebir eşleşmektedir."
+    },
+    {
+      "sentence": "Yeraltında yapılacak kazı ile istenilen kesitte boşluk oluşturulması ve desteklenmesiyle inşa edilen yeraltı yapısı olarak da ifade edilmektedir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-015"],
+      "reason": "Kazı ve destekleme ile inşa edilen yeraltı yapısı tanımı, REM-015 ile desteklenmektedir."
+    },
+    {
+      "sentence": "Su altı geçişlerini sağlayan daldırma tüneli türü, bir su kütlesini aşmak üzere kullanılır;",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-010"],
+      "reason": "Daldırma tüneli su kütlesi aşma tanımı, REM-010 ile desteklenmektedir."
+    },
+    {
+      "sentence": "bu yöntemde tünel bölümleri genellikle 91 ila 137 metre uzunluğunda olup önceden kazılmış bir hendek içine yerleştirilir.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-011"],
+      "reason": "Bölüm uzunluğu ve hendek içine yerleştirme tanımı, REM-011 ile desteklenmektedir."
+    },
+    {
+      "sentence": "Karayolu tüneli tanımı, Amerikan Devlet Yolları ve Ulaştırma Görevlileri Birliği (AASHTO) Tüneller Teknik Komitesi (T-20) tarafından, yapı tipi veya inşaat yöntemi ne olursa olsun, araç erişiminin yalnızca portal noktalarıyla sınırlı olduğu kapatılmış yollar olarak tanımlanır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-033"],
+      "reason": "AASHTO T-20 kurum adı ve portal erişimi tanımı, REM-033 ile desteklenmektedir."
+    },
+    {
+      "sentence": "Bu tanım, otoyol köprüleri, demiryolu köprüleri veya diğer köprüler tarafından oluşturulan kapatılmış yolları kapsamaz ve tüm tünel yapı tipleri ile inşaat yöntemlerini kapsar.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-034", "CH-A-S01-REM-035"],
+      "reason": "Köprü dışlama ve tüm yapı tipi/yöntem kapsama iddiaları, REM-034 ve REM-035 ile desteklenmektedir."
+    },
+    {
+      "sentence": "Su altı tüneller, yer yüzeyini bozmadan inşa edilen yapay su altı geçişleridir ve çoğunlukla ulaşım amaçlı kullanılır.",
+      "status": "SUPPORTED",
+      "supporting_claim_ids": ["CH-A-S01-REM-037", "CH-A-S01-REM-038"],
+      "reason": "Yapay su altı geçiş ve çoğunlukla ulaşım amaçlı kullanım tanımları, REM-037 ve REM-038 ile desteklenmektedir."
+    }
+  ],
+  "source_identity_issues": [],
+  "scope_issues": [],
+  "qualifier_issues": [],
+  "redundancy_issues": [],
+  "required_actions": []
+}

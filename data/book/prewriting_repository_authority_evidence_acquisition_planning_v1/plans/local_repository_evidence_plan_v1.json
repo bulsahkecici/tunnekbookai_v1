@@ -1,0 +1,651 @@
+{
+  "items": [
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000002",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000003",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000038",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "REPOSITORY_THEN_EXTERNAL_REQUIRED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "project_owner_or_issuer",
+        "canonical_title",
+        "date",
+        "report_or_contract_identifier"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000039",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000042",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000045",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "REPOSITORY_THEN_EXTERNAL_REQUIRED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "creator_or_issuing_body",
+        "title_or_record_description",
+        "date_or_period",
+        "archive_or_collection_locator"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000048",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000072",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "REPOSITORY_THEN_EXTERNAL_REQUIRED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "author",
+        "title",
+        "degree",
+        "institution",
+        "year",
+        "repository_record_or_identifier"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000073",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000074",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000075",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000076",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000087",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "REPOSITORY_THEN_EXTERNAL_REQUIRED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "issuer",
+        "identifier",
+        "edition_or_date",
+        "canonical_title"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000098",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "REPOSITORY_THEN_EXTERNAL_REQUIRED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "author",
+        "title",
+        "degree",
+        "institution",
+        "year",
+        "repository_record_or_identifier"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000100",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000102",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000105",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000163",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "REPOSITORY_THEN_EXTERNAL_REQUIRED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "project_owner_or_issuer",
+        "canonical_title",
+        "date",
+        "report_or_contract_identifier"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000164",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000165",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000193",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "REPOSITORY_THEN_EXTERNAL_REQUIRED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "authors",
+        "article_title",
+        "journal",
+        "year",
+        "doi_or_volume_issue_pages"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000200",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "REPOSITORY_THEN_EXTERNAL_REQUIRED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "authors",
+        "article_title",
+        "journal",
+        "year",
+        "doi_or_volume_issue_pages"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000209",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000211",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000214",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000215",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000216",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000217",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000225",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "REPOSITORY_THEN_EXTERNAL_REQUIRED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "authors",
+        "paper_title",
+        "conference_or_proceedings",
+        "year",
+        "doi_or_pages"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000267",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000268",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000269",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000302",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    },
+    {
+      "bulk_scan_forbidden": true,
+      "document_id": "DOC000306",
+      "method": "TARGETED_DOCUMENT_LOCAL_IDENTITY_EXTRACTION",
+      "planning_state": "SOURCE_TYPE_UNRESOLVED",
+      "stop_when": "SUFFICIENT_TYPE_RELATIVE_IDENTITY_FIELDS_CAPTURED_OR_TARGET_ZONES_EXHAUSTED",
+      "target_fields": [
+        "source_type_evidence"
+      ],
+      "target_zones": [
+        "embedded_metadata",
+        "front_matter",
+        "title_page",
+        "imprint_or_colophon",
+        "headers_and_footers",
+        "bibliographic_block"
+      ]
+    }
+  ],
+  "schema_version": "1.0.0"
+}

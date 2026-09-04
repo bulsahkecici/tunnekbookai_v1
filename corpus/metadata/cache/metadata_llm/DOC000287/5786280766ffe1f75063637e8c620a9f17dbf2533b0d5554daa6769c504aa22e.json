@@ -1,0 +1,49 @@
+{
+  "document_id": "DOC000287",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "parse_retries": 0,
+  "processed_at": "2026-08-15T23:08:36+00:00",
+  "prompt_version": "metadata-suggestion-v2.2",
+  "response": {
+    "authority_level": {
+      "confidence": "low",
+      "evidence": "T.C. Ulaştırma ve Altyapı Bakanlığı Karayolları Genel Müdürlüğü Ar- Ge Dairesi Başkanlığı Zemin Mekaniği ve Tüneller Şubesi Müdürlüğü [authority_C_evidence_class_mismatch]",
+      "value": "unclassified"
+    },
+    "document_type": {
+      "confidence": "high",
+      "evidence": "TÜNEL MÜH.GELİŞTİRME KURSU - (24-28.02.2020)/patlatma-Ankara.ppt",
+      "value": "training_material"
+    },
+    "language": {
+      "confidence": "high",
+      "evidence": "T.C. Ulaştırma ve Altyapı Bakanlığı Karayolları Genel Müdürlüğü",
+      "value": "tr"
+    },
+    "organization": {
+      "confidence": "high",
+      "evidence": "T.C. Ulaştırma ve Altyapı Bakanlığı Karayolları Genel Müdürlüğü Ar- Ge Dairesi Başkanlığı Zemin Mekaniği ve Tüneller Şubesi Müdürlüğü",
+      "value": "Karayolları Genel Müdürlüğü (KGM)"
+    },
+    "title": {
+      "confidence": "high",
+      "evidence": "# patlatma-Ankara",
+      "value": "patlatma-Ankara"
+    },
+    "topics": {
+      "confidence": "high",
+      "evidence": "PATLAYICI MADDELER VE PATLATMA TASARIM ESASLARI",
+      "value": [
+        "blasting",
+        "excavation",
+        "safety"
+      ]
+    },
+    "year": {
+      "confidence": "low",
+      "evidence": "(24-28.02.2020) [evidence_not_grounded_in_context]",
+      "value": 2020
+    }
+  },
+  "source_sha256": "9e8d001f55f9fab3b6de2104875395ea34f9bde10ca9463e7d127c75845cac15"
+}

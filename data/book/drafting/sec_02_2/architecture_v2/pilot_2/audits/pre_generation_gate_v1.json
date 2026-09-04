@@ -1,0 +1,290 @@
+{
+  "evaluated_at": "2026-08-20T06:22:58.653193+00:00",
+  "gate_1_frozen_preflight": {
+    "architecture_v2_acceptance_contract_prefix_ok": true,
+    "architecture_v2_acceptance_contract_sha256": "c9766e437bd00222574d1aeee5ede17ff74a51bf5ae0cea37e0f3f496f6ebccd",
+    "architecture_v2_acceptance_contract_unamended": true,
+    "checked_at": "2026-08-20T06:22:57.577375+00:00",
+    "drift": 0,
+    "implementation_artifacts_checked": 4,
+    "implementation_artifacts_excluded": [
+      "M5_static_containment_proof_v2 — timestamped and re-derived; checked on substance"
+    ],
+    "implementation_drift": [],
+    "lexicon_sha256": {
+      "condition_glosses": "9a9f9176e53ba209677e522be55334d3ab6cc60a2972bb49ad104cf2df01a6ca",
+      "function_lexicon": "dbbb737e4e92d07802340711df0c63a8f1c02bd114ba50a16a3877e77640aa70",
+      "paraphrase_lexicon": "747479264f0182c5a459b225327a5ece807d5c6088b10c122fef411fbea8ae8c",
+      "translation_glosses": "d2fb00181183debbfb28166e789bc5824f779ff0b5f72089b3e6029b6f0eee9c"
+    },
+    "missing_frozen_code": [],
+    "passed": true,
+    "pilot_1_drift": [],
+    "remediation_acceptance_contract_sha256": "117e9ea4b67e536d54bb0cd262e8860649f7415f600f66f4acc742ebca480560",
+    "remediation_acceptance_contract_unamended": true,
+    "remediation_output_drift": [],
+    "remediation_outputs_sha256": {
+      "claim_realization_contract_v2_1": "6d0b3e3ff5619d23fe6896cbf97d0fa010c2ac732c5222d004e06c475fb19eb7",
+      "planner_option_universe_v2_1": "d04fd4f475880dc6c2c4ca632a34995b8bb9421e09caf1cbb9ddc000d0efa322",
+      "planner_universe_remediation_acceptance_contract_v1": "117e9ea4b67e536d54bb0cd262e8860649f7415f600f66f4acc742ebca480560"
+    },
+    "rethink_drift": [],
+    "rethink_inputs_checked": 15
+  },
+  "gate_2_architecture_v2_acceptance_contract": {
+    "sha256": "c9766e437bd00222574d1aeee5ede17ff74a51bf5ae0cea37e0f3f496f6ebccd",
+    "unamended": true
+  },
+  "gate_3_remediation_acceptance_contract": {
+    "sha256": "117e9ea4b67e536d54bb0cd262e8860649f7415f600f66f4acc742ebca480560",
+    "unamended": true
+  },
+  "gate_4_canonical_universe": {
+    "artifact_sha256": "d04fd4f475880dc6c2c4ca632a34995b8bb9421e09caf1cbb9ddc000d0efa322",
+    "claims_exposed": 16,
+    "construction_violations": [],
+    "exclusions": [],
+    "expected_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+    "invariant": "required_roles ⊆ available_roles ⊆ realizable_roles",
+    "invariant_rows": [
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-C-001",
+        "invariant_holds": true,
+        "required_subset_available": true
+      },
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-C-002",
+        "invariant_holds": true,
+        "required_subset_available": true
+      },
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-R001",
+        "invariant_holds": true,
+        "required_subset_available": true
+      },
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-P0-001",
+        "invariant_holds": true,
+        "required_subset_available": true
+      },
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-P0-006",
+        "invariant_holds": true,
+        "required_subset_available": true
+      },
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-P0-005",
+        "invariant_holds": true,
+        "required_subset_available": true
+      },
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-P0-004",
+        "invariant_holds": true,
+        "required_subset_available": true
+      },
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-P0-007",
+        "invariant_holds": true,
+        "required_subset_available": true
+      },
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-P0-008",
+        "invariant_holds": true,
+        "required_subset_available": true
+      },
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-C-003",
+        "invariant_holds": true,
+        "required_subset_available": true
+      },
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-C-004",
+        "invariant_holds": true,
+        "required_subset_available": true
+      },
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-C-005",
+        "invariant_holds": true,
+        "required_subset_available": true
+      },
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-C-007",
+        "invariant_holds": true,
+        "required_subset_available": true
+      },
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-C-006",
+        "invariant_holds": true,
+        "required_subset_available": true
+      },
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-C-012",
+        "invariant_holds": true,
+        "required_subset_available": true
+      },
+      {
+        "available_subset_realizable": true,
+        "claim_id": "SEC-02-2-C-009",
+        "invariant_holds": true,
+        "required_subset_available": true
+      }
+    ],
+    "invariant_violations": [],
+    "loaded_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+    "passed": true,
+    "rebuilt_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+    "recorded_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+    "sha_reproduced": true,
+    "unrealizable_pairs_exposed": 0
+  },
+  "gate_5_subset_invariant": {
+    "claims": 16,
+    "violations": []
+  },
+  "gate_6_feasibility": {
+    "claims_stated": [
+      "SEC-02-2-C-001",
+      "SEC-02-2-C-002",
+      "SEC-02-2-C-003",
+      "SEC-02-2-C-004",
+      "SEC-02-2-C-005",
+      "SEC-02-2-C-006",
+      "SEC-02-2-C-007",
+      "SEC-02-2-C-009",
+      "SEC-02-2-C-012",
+      "SEC-02-2-P0-001",
+      "SEC-02-2-P0-004",
+      "SEC-02-2-P0-005",
+      "SEC-02-2-P0-006",
+      "SEC-02-2-P0-007",
+      "SEC-02-2-P0-008",
+      "SEC-02-2-R001"
+    ],
+    "feasible": true,
+    "language_failures": [],
+    "mandatory_conditions_dropped": 0,
+    "mandatory_conditions_required": 19,
+    "mandatory_qualifiers_dropped": 0,
+    "mandatory_qualifiers_required": 2,
+    "material_units": 19,
+    "numeric_drift": 0,
+    "numeric_units": 0,
+    "plan_id": "SEC-02-2-FEASIBILITY-V2-1",
+    "relations_supported": true,
+    "required_core_claims_missing": [],
+    "required_core_claims_stated": [
+      "SEC-02-2-C-001",
+      "SEC-02-2-P0-001",
+      "SEC-02-2-P0-006",
+      "SEC-02-2-P0-007",
+      "SEC-02-2-P0-008",
+      "SEC-02-2-R001"
+    ],
+    "slots": 19,
+    "source_keys_valid": true,
+    "topics": {
+      "covered": 3,
+      "missing": [],
+      "required": 3,
+      "topics": [
+        "çimento dozajı",
+        "kaplama kalınlığı",
+        "dayanım sınıfı"
+      ]
+    },
+    "units": 19,
+    "universe_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+    "unrealizable_pairs_selected": [],
+    "validation": {
+      "histogram": {},
+      "rejected_unit_ids": [],
+      "status": "ACCEPT"
+    }
+  },
+  "gate_7_static_proof": {
+    "determinism": {
+      "cross_process_identical": true,
+      "cross_process_sha256": "9e372da085f31c98ec78c7fb4a55123c92671eed993b922b1c41811128f89b4e",
+      "cross_process_stderr": "",
+      "in_process_identical": true,
+      "in_process_runs": 3,
+      "in_process_sha256": "9e372da085f31c98ec78c7fb4a55123c92671eed993b922b1c41811128f89b4e"
+    },
+    "failure_histogram": {},
+    "false_accepts": [],
+    "false_rejects": [],
+    "negative_fixtures": {
+      "count": 21,
+      "false_accepts": [],
+      "rejected": 21
+    },
+    "realization_contract": "tunnelbook-claim-realization-contract-v2-1",
+    "status": "PASS",
+    "universe": {
+      "accepted_cases": 184,
+      "claim_role_pairs": 189,
+      "claims": 27,
+      "enumerated_cases": 184,
+      "pairs_no_permitted_plan_contains": 1,
+      "realizable_pairs": 80,
+      "rendered_units": 358,
+      "roles": 7,
+      "unrealizable_pairs": 109
+    },
+    "unrealizable_refusals": {
+      "checked": 109,
+      "leaked": [],
+      "refused": 109
+    },
+    "validator_changed": false,
+    "validator_version": "tunnelbook-section-draft-validator-v1.2",
+    "version": "tunnelbook-static-containment-proof-v2-1",
+    "zero_tolerance_violations": {}
+  },
+  "gate_8_byte_identity": {
+    "all_equal": true,
+    "canonical_universe_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+    "expected_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+    "feasibility_universe_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+    "method": "the serialized universe segment is extracted from the finished prompt string and hashed as UTF-8 bytes; no Python object is compared",
+    "model_payload_universe_sha256": "fafa8b4ceebe788d9765ac8f82463fde5b4c1253c38222fe178113874d37c000",
+    "passed": true,
+    "segment_bytes": 15909
+  },
+  "gate_design_correction": {
+    "correction": "condition and qualifier coverage are read from the unchanged Draft Validator v1.2's own failures, as the remediation's feasibility proof counts them; Pilot #1's figures are still reported as a diagnostic.",
+    "failure_codes_changed": 0,
+    "finding": "Pilot #1's coverage_report reimplements stage E's condition test without the frozen condition_glosses stage E adds, so it false-rejects every valid Turkish rendering of an English-source claim; it scores 0.8696 on the feasibility plan Draft Validator v1.2 accepts with an empty histogram.",
+    "frozen_modules_changed": 0,
+    "made_before_generation": true,
+    "thresholds_changed": 0,
+    "validators_changed": 0
+  },
+  "generation_authorised": true,
+  "phase": "SEC-02-2 ARCHITECTURE V2 PILOT #2 AUTHORISATION",
+  "pilot_id": "SEC-02-2-ARCHV2-PILOT-2",
+  "planner_payload": {
+    "claim_specific_exceptions": 0,
+    "derived_in_controller": false,
+    "options": 16,
+    "payload_version": "tunnelbook-architecture-v2-planner-payload-v2-1",
+    "prompt_sha256": "8d77009ae0979c9e3f3114fc7b15c714972f044e2afdf97324dafd45746903eb",
+    "unrealizable_pairs_exposed": 0
+  },
+  "version": "tunnelbook-sec-02-2-architecture-v2-pilot-2"
+}

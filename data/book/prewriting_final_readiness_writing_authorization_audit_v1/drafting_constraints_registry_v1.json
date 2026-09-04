@@ -1,0 +1,58 @@
+{
+  "constraints": [
+    {
+      "constraint_id": "DCR-01",
+      "rule": "USE_ONLY_SECTION_PERMITTED_EVIDENCE"
+    },
+    {
+      "constraint_id": "DCR-02",
+      "rule": "PRESERVE_CLAIM_RELATIVE_AUTHORITY_LIMITS"
+    },
+    {
+      "constraint_id": "DCR-03",
+      "rule": "DO_NOT_PRESENT_LIMITED_AS_FORMAL_OR_OFFICIAL_AUTHORITY"
+    },
+    {
+      "constraint_id": "DCR-04",
+      "rule": "RESTRICTED_NOT_SOLE_SUPPORT_FOR_IMPORTANT_TECHNICAL_CLAIMS"
+    },
+    {
+      "constraint_id": "DCR-05",
+      "rule": "PRESERVE_QUALIFIERS_CONDITIONS_AND_MODALITY"
+    },
+    {
+      "constraint_id": "DCR-06",
+      "rule": "PRESERVE_CITATION_PROVENANCE"
+    },
+    {
+      "constraint_id": "DCR-07",
+      "rule": "LEAVE_UNRESOLVED_FACTUAL_GAPS_UNRESOLVED"
+    },
+    {
+      "constraint_id": "DCR-08",
+      "rule": "NO_HALLUCINATED_REPAIR"
+    },
+    {
+      "constraint_id": "DCR-09",
+      "rule": "NO_NEW_COST_ANALYSIS_FINDINGS"
+    },
+    {
+      "constraint_id": "DCR-10",
+      "rule": "COST_ANALYSIS_SECTIONS_WAIT_FOR_HUMAN_ARTIFACTS"
+    },
+    {
+      "constraint_id": "DCR-11",
+      "rule": "VISUAL_REUSE_REMAINS_RIGHTS_CONTROLLED"
+    },
+    {
+      "constraint_id": "DCR-12",
+      "rule": "OBEY_FROZEN_FRESHNESS_POLICY"
+    },
+    {
+      "constraint_id": "DCR-13",
+      "rule": "NO_EXTERNAL_TECHNICAL_EVIDENCE_UNLESS_SEPARATELY_ADMITTED"
+    }
+  ],
+  "schema_version": "drafting-constraints-registry-v1",
+  "status": "FROZEN_FOR_HUMAN_AUTHORIZATION_GATE"
+}

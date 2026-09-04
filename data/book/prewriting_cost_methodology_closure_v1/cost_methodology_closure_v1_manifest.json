@@ -1,0 +1,53 @@
+{
+  "artifacts": [
+    {
+      "path": "data/book/prewriting_cost_methodology_closure_v1/contracts/cost_analysis_artifact_contract_v1.json",
+      "sha256": "31c7231950bdb79bb28346ce1b0772986a45fe79abbdd5fdff45324f4c746081"
+    },
+    {
+      "path": "data/book/prewriting_cost_methodology_closure_v1/analytical_artifact_schema_v1.json",
+      "sha256": "dfa0f841c357240ad58f560e7ba041969684540bec0b80ccd9a7c03a6a8d4f47"
+    },
+    {
+      "path": "data/book/prewriting_cost_methodology_closure_v1/cost_analysis_dependency_registry_v1.json",
+      "sha256": "86dd70e3dfb373d5b4c9fd33341122b318a24f090cbbb455c514f152d19a285f"
+    },
+    {
+      "path": "data/book/prewriting_cost_methodology_closure_v1/admission_validation_rules_v1.json",
+      "sha256": "b305e2dcd5b2730b7e63aa5e51242ba2c4c466280f771457de6acf3488b8a737"
+    },
+    {
+      "path": "data/book/prewriting_cost_methodology_closure_v1/fixtures/positive_fixtures_v1.json",
+      "sha256": "6f2e9d13756ca635f85a7fd71ee411c0851666ff15c6cba3f58959aec43a12d0"
+    },
+    {
+      "path": "data/book/prewriting_cost_methodology_closure_v1/fixtures/negative_fixtures_v1.json",
+      "sha256": "599533ed8ca9fd959fc6fc7bf48b842c04d2a09e3b2da592b11d52b692081666"
+    },
+    {
+      "path": "data/book/prewriting_cost_methodology_closure_v1/cost_methodology_closure_v1_audit.json",
+      "sha256": "2b4e4cb95a260a7bd56f4d01d5b39ff07204a3e6e839ec7cb3b903b43774fcca"
+    }
+  ],
+  "book_prose_generated": false,
+  "drafting_authorized": false,
+  "frozen_integrity": "PASS",
+  "input_hashes": [
+    {
+      "path": "data/book/prewriting_explicit_human_decision_gate_v1/human_decision_selections_v1.json",
+      "sha256": "588514c5d9fe9eb248f1a7cfd16636b8c11cdfb456154d9fbdec7bf0d9fb12cc"
+    },
+    {
+      "path": "data/book/prewriting_repository_evidence_admission_v1/repository_evidence_admission_v1_manifest.json",
+      "sha256": "478388be25fe1c0d2fd4faf4a45e270e5dc9849089a39440753b6be66107ee5f"
+    },
+    {
+      "path": "data/book/prewriting_audit/prewriting_hash_list_v1.json",
+      "sha256": "d7feb0b87e38ef756296dcf0e5a433f468faccf642d13bae1c2c022908f5f7cf"
+    }
+  ],
+  "next_phase": "PRE-WRITING FRESHNESS CONTROL V1",
+  "phase": "PRE-WRITING COST METHODOLOGY CLOSURE V1",
+  "schema_version": "cost-methodology-closure-manifest-v1",
+  "status": "GO"
+}

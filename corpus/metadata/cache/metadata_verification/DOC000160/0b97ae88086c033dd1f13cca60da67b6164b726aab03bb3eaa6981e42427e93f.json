@@ -1,0 +1,15 @@
+{
+  "document_id": "DOC000160",
+  "field": "document_type",
+  "model": "qwen3.6-35b-a3b-mlx",
+  "processed_at": "2026-08-15T23:44:32+00:00",
+  "prompt_version": "metadata-verification-v1.1",
+  "response": {
+    "confidence": "high",
+    "evidence": "www.tunnelturkey.org",
+    "relationship": "document_identity",
+    "value": "presentation"
+  },
+  "retries": 0,
+  "source_sha256": "1457e07af2b0f6b8533b9bc852928166f611084644bf7257b1b3e83f7f16d4a1"
+}

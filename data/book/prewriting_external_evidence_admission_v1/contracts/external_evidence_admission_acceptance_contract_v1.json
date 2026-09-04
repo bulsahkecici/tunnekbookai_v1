@@ -1,0 +1,51 @@
+{
+  "authority_priority": [
+    "OFFICIAL_INSTITUTIONAL",
+    "STANDARD_SPECIFICATION",
+    "PEER_REVIEWED_TECHNICAL",
+    "AUTHORITATIVE_INVENTORY_STATISTICS",
+    "OFFICIAL_INVESTIGATION_RECORD",
+    "PRIMARY_TECHNICAL_DOCUMENTATION"
+  ],
+  "book_prose_generated": false,
+  "conditional_required_fields": {
+    "REJECT": [
+      "rejection_reason"
+    ]
+  },
+  "drafting_authorized": false,
+  "mode": "FAIL_CLOSED",
+  "required_fields": [
+    "external_source_id",
+    "target_chapter_ids",
+    "target_section_ids",
+    "target_research_question_ids",
+    "source_title",
+    "author_institution",
+    "source_type",
+    "publication_update_date",
+    "access_as_of_date",
+    "authoritative_url_or_persistent_identifier",
+    "authority_class",
+    "freshness_class",
+    "evidence_role",
+    "exact_claim_evidence_scope_supported",
+    "limitations",
+    "provenance",
+    "rights_access_status",
+    "immutable_capture_hash",
+    "admission_decision"
+  ],
+  "rules": {
+    "complete_provenance_required": true,
+    "cost_analysis_dependencies_may_not_be_satisfied": true,
+    "exact_section_and_research_question_mapping_required": true,
+    "external_evidence_may_not_mask_systemic_repository_defects": true,
+    "freshness_control_v1_pass_required_where_applicable": true,
+    "historical_conflicts_preserved": true,
+    "registered_gap_required": true,
+    "repository_criteria_may_not_be_weakened": true,
+    "visual_reproduction_rights_may_not_be_inferred": true
+  },
+  "schema_version": "external-evidence-admission-acceptance-contract-v1"
+}

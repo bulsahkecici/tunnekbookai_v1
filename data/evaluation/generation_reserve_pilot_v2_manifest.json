@@ -1,0 +1,42 @@
+{
+ "artifact_sha256": "ffe31361b52b798af36dab29eca3705c8bd62900db6dfe716e23f864b2529b05",
+ "created_at": "2026-08-18T01:01:21+03:00",
+ "generation_config_hash": "8d71411e6d0feac7023e53f078de916511040cdf09554e40c9607e71d7e4d6bf",
+ "generation_endpoint": "/v1/completions",
+ "measured_minimum_full_contract_reserve": null,
+ "measured_minimum_nontruncating_reserve": 1536,
+ "pilot_version": "generation-reserve-pilot-v2",
+ "queries": {
+  "P01": {
+   "context_packet_sha": "7ee7dbf31534c2c02ef1001310ca9473cd7eaba89517c795893c8f1669b5cb36",
+   "query": "tünel havalandırma sistemi nasıl tasarlanır",
+   "type": "turkish_factual"
+  },
+  "P02": {
+   "context_packet_sha": "e78850f966b046e520e7cfd56dda5f70cd5aed79a18a2f900e351a46fb644bd0",
+   "query": "What is shotcrete used for in tunnel support",
+   "type": "english_factual"
+  },
+  "P03": {
+   "context_packet_sha": "d79b1658603523acada2eaa07363b3913027c48591c8129d363e8dd423cfe033",
+   "query": "NATM excavation and support classes",
+   "type": "multi_source"
+  },
+  "P04": {
+   "context_packet_sha": "5c1205f06fc50c28edb9c9522e7da8b5dfdeaca6bfe7c74dc72f42d475476914",
+   "query": "püskürtme beton maksimum tabaka kalınlığı ve minimum çimento dozajı",
+   "type": "numeric_technical"
+  },
+  "P05": {
+   "context_packet_sha": "5fed9cbccb4b7fa123cdb3edac7249c84d8e4d098066798b1ae2fe222c5276c4",
+   "query": "Bu tünelin 2031 yılı toplam bakım bütçesi kaç TL olarak planlanmıştır",
+   "type": "must_abstain"
+  }
+ },
+ "row_count": 25,
+ "system_prompt_sha": "0063b9bcbe2d93325b03ae18c6005feb0b9a9571d93132607b740ad794f005cc",
+ "system_prompt_version": "generation-system-prompt-v2",
+ "template_sha": "e84f32a23fdda27689f868aa4a1a5621f41133e51a48d7f3efcbea2839574259",
+ "tokenizer_sha": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4",
+ "validator_version": "citation-validator-v1.2"
+}
