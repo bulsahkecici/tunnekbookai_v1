@@ -36,14 +36,17 @@ def _now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
-def _gather(source: str) -> tuple[list[DiscoveredInput], list[dict]]:
+def _gather(source: str, *, release_id: str | None = None) -> tuple[list[DiscoveredInput], list[dict]]:
     config = load_config()
     inputs: list[DiscoveredInput] = []
     skipped: list[dict] = []
     if source in ("manual", "all"):
         inputs += manual_inbox.discover(config)
     if source in ("papercrawler", "all"):
-        for result in papercrawler_contract.discover():
+        results = papercrawler_contract.discover(release_id=release_id)
+        if release_id and not results:
+            skipped.append({"release": release_id, "blockers": ["release_not_found"]})
+        for result in results:
             if result.blockers:
                 skipped.append({"release": result.release_dir.name, "blockers": result.blockers})
             inputs += result.accepted
@@ -69,6 +72,7 @@ def _dry_run(inputs: list[DiscoveredInput], skipped: list[dict]) -> int:
             "document_id": doc_id,
             "sha256": sha,
             "source_kind": item.source_kind,
+            "release": item.provenance.get("release"),
             "input_path": relpath(item.input_path),
             "format": det.fmt.value,
             "is_legacy": det.is_legacy,
@@ -84,6 +88,36 @@ def _dry_run(inputs: list[DiscoveredInput], skipped: list[dict]) -> int:
         seen.setdefault(r["sha256"], []).append(r["source_kind"])
     duplicates = {sha: kinds for sha, kinds in seen.items() if len(kinds) > 1}
 
+    release_names = sorted({
+        str(row.get("release")) for row in rows if row.get("release")
+    } | {
+        str(row.get("release")) for row in skipped if row.get("release")
+    })
+    release_summaries: dict[str, dict] = {}
+    for release in release_names:
+        release_rows = [row for row in rows if row.get("release") == release]
+        release_skipped = [row for row in skipped if row.get("release") == release]
+        formats: dict[str, int] = {}
+        for row in release_rows:
+            formats[row["format"]] = formats.get(row["format"], 0) + 1
+        release_summaries[release] = {
+            "accepted": len(release_rows),
+            "skipped": sum(1 for row in release_skipped if "reason" in row),
+            "blockers": [
+                blocker for row in release_skipped for blocker in row.get("blockers", [])
+            ],
+            "formats": formats,
+        }
+
+    cross_release_shas: dict[str, list[str]] = {}
+    for row in rows:
+        if row.get("release") and not str(row["sha256"]).startswith("ERROR:"):
+            cross_release_shas.setdefault(row["sha256"], []).append(row["release"])
+    release_collisions = {
+        sha: sorted(set(releases)) for sha, releases in cross_release_shas.items()
+        if len(set(releases)) > 1
+    }
+
     out = {
         "generated_at": _now(),
         "mode": "dry-run",
@@ -92,7 +126,9 @@ def _dry_run(inputs: list[DiscoveredInput], skipped: list[dict]) -> int:
         "by_source": by_source,
         "by_format": by_format,
         "duplicate_sha256_across_sources": len(duplicates),
+        "duplicate_sha256_across_releases": release_collisions,
         "unsupported": sum(1 for r in rows if not r["supported"]),
+        "releases": release_summaries,
         "skipped_records": skipped,
         "rows": rows,
     }
@@ -108,12 +144,22 @@ def _dry_run(inputs: list[DiscoveredInput], skipped: list[dict]) -> int:
     print("Formats:")
     for k, v in sorted(by_format.items()):
         print(f"  {k}: {v}")
+    if release_summaries:
+        print("Releases:")
+        for release, summary in release_summaries.items():
+            print(
+                f"  {release}: accepted={summary['accepted']} skipped={summary['skipped']} "
+                f"blockers={len(summary['blockers'])}"
+            )
     print(f"Unsupported:                    {out['unsupported']}")
     print(f"Duplicate SHA256 across sources: {len(duplicates)}")
+    print(f"Duplicate SHA256 across releases: {len(release_collisions)}")
     if skipped:
         print(f"Skipped crawler records:        {len(skipped)}")
     print(f"\nNothing was processed. Report: {relpath(report_path)}")
-    return 0
+    unreadable = any(str(row["sha256"]).startswith("ERROR:") for row in rows)
+    has_blockers = any(row.get("blockers") for row in skipped)
+    return 2 if out["unsupported"] or unreadable or has_blockers else 0
 
 
 def _build_services(args, config):
@@ -474,6 +520,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--resume", action="store_true", help="skip documents already past a stage")
     p.add_argument("--force-reprocess", action="store_true", help="rebuild derived outputs (never the original)")
     p.add_argument("--document-id", default=None, help="restrict to one document id")
+    p.add_argument("--release", default=None,
+                   help="discover only this PaperCrawler release directory")
     p.add_argument("--max-documents", type=int, default=0)
     p.add_argument("--no-ocr", action="store_true")
     p.add_argument("--no-vision", action="store_true")
@@ -493,7 +541,9 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
-    inputs, skipped = _gather(args.source)
+    if args.release and args.source == "manual":
+        raise SystemExit("--release requires --source papercrawler or --source all")
+    inputs, skipped = _gather(args.source, release_id=args.release)
     if args.document_id:
         inputs = [i for i in inputs if document_id_for_file(i.input_path)[0] == args.document_id]
     if args.from_stage:
@@ -518,6 +568,11 @@ def main(argv: list[str] | None = None) -> int:
         inputs = inputs[: args.max_documents]
     if args.dry_run:
         return _dry_run(inputs, skipped)
+    if any(row.get("blockers") for row in skipped):
+        for row in skipped:
+            if row.get("blockers"):
+                print(f"BLOCKED release={row.get('release')}: {', '.join(row['blockers'])}")
+        return 2
     return _run(inputs, skipped, args)
 
 

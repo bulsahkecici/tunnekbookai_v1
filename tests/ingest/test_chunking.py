@@ -237,6 +237,33 @@ class ModalityChunkTests(unittest.TestCase):
         self.assertEqual(chunk["source_elements"], ["TREF0001"])
         self.assertEqual(chunk["heading_path"], ["Maliyet"])
 
+    def test_oversized_table_is_split_below_hard_limit(self):
+        path = self.root / "tables" / "TABLE_BIG.json"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        grid = [["Kalem", "Açıklama"]] + [
+            [f"Satır {index}", varied(8, offset=index * 8)] for index in range(60)
+        ]
+        path.write_text(json.dumps({"table_id": "TABLE_BIG", "grid": grid}), encoding="utf-8")
+        table = {
+            "table_id": "TABLE_BIG", "asset_id": "TABLE_BIG", "caption": "Büyük tablo",
+            "structured_path": "tables/TABLE_BIG.json", "page": 4,
+            "rows": len(grid), "columns": 2,
+        }
+        elements = [_element(
+            "TREF_BIG", "table_ref", "Büyük tablo", asset_id="TABLE_BIG",
+            page_start=4, heading_path=["Ek"],
+        )]
+        chunks, _ = chunk_document(
+            context=_context(), elements=elements, tables=[table], figures=[], slides=[],
+            sheets=[], ocr_items=[], policy=self.policy, root=self.root,
+        )
+        table_chunks = [chunk for chunk in chunks if chunk["chunk_type"] == TABLE_CHUNK]
+        self.assertGreater(len(table_chunks), 1)
+        self.assertTrue(all(chunk["token_count"] <= self.policy.hard_max_tokens for chunk in table_chunks))
+        self.assertEqual([chunk["table_part"] for chunk in table_chunks], list(range(1, len(table_chunks) + 1)))
+        self.assertTrue(all(chunk["table_parts"] == len(table_chunks) for chunk in table_chunks))
+        self.assertTrue(all(chunk["structured_path"] == "tables/TABLE_BIG.json" for chunk in table_chunks))
+
     def test_figure_becomes_a_figure_chunk_with_separate_ocr_and_description(self):
         figure = {"asset_id": "FIG0008", "caption": "Şekil 8. Enkesit", "page": 33,
                   "path": "figures/FIG0008.png", "ocr_text": "NATM",

@@ -239,22 +239,29 @@ def build_table_chunks(tables: list[dict[str, Any]], elements: list[dict[str, An
             continue
         element = by_asset.get(tid)
         source_elements = [element["element_id"]] if element else []
-        chunk = _base_chunk(context, policy, TABLE_CHUNK, text, source_elements or [tid])
-        chunk.update({
-            "table_id": tid,
-            "caption": table.get("caption"),
-            "structured_path": table.get("structured_path"),
-            "csv_path": table.get("csv_path"),
-            "image_path": table.get("image_path"),
-            "page": table.get("page"),
-            "page_start": table.get("page"),
-            "page_end": table.get("page"),
-            "slide_number": table.get("slide_number"),
-            "rows": table.get("rows"),
-            "columns": table.get("columns"),
-            "heading_path": list((element or {}).get("heading_path") or []),
-        })
-        chunks.append(chunk)
+        # Table rows are newline-delimited. Expose them as split boundaries so a
+        # large table can never bypass the document-wide hard token limit. The
+        # structured table remains authoritative and every part points to it.
+        parts = _split_oversized(text.replace("\n", "\n\n"), policy)
+        for index, part in enumerate(parts, 1):
+            chunk = _base_chunk(context, policy, TABLE_CHUNK, part, source_elements or [tid])
+            chunk.update({
+                "table_id": tid,
+                "table_part": index,
+                "table_parts": len(parts),
+                "caption": table.get("caption"),
+                "structured_path": table.get("structured_path"),
+                "csv_path": table.get("csv_path"),
+                "image_path": table.get("image_path"),
+                "page": table.get("page"),
+                "page_start": table.get("page"),
+                "page_end": table.get("page"),
+                "slide_number": table.get("slide_number"),
+                "rows": table.get("rows"),
+                "columns": table.get("columns"),
+                "heading_path": list((element or {}).get("heading_path") or []),
+            })
+            chunks.append(chunk)
     return chunks
 
 

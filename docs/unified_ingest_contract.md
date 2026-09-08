@@ -35,3 +35,6 @@ Before a model-dependent operation, run the capability probe for the exact model
 in `config/models.yaml`. It verifies a loopback endpoint, model availability, a
 non-empty stable embedding dimension, and a minimal structured local-LLM response.
 Any failure is reported as `MODEL_SERVICE_UNAVAILABLE`; no cloud fallback is used.
+PaperCrawler schema 2.1 releases are accepted only when release metadata, the manifest fingerprint, the package-local `GO` quality gate, and the checksum ledger agree. `source_representation.original_or_raw` is the authoritative input and must remain inside the release root. If it is declared but missing, unsafe, or has no valid checksum, ingest fails closed; crawler-normalized Markdown is never substituted. Schema 2.0 remains compatible through its verified `local_path` fallback.
+
+`--release <release-id>` limits discovery to that exact PaperCrawler release. Hidden and `.partial` directories are never discovered. Dry-run reports each release separately and returns a nonzero status for release blockers, unreadable files, or unsupported formats.
