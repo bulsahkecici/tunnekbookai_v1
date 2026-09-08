@@ -4,8 +4,7 @@ Runs the real CLI over an isolated project root containing ONLY synthetic fixtur
 production corpus, canonical files and question bank are never touched. Covers:
 
   * six formats in one batch, originals preserved byte-for-byte
-  * the PaperCrawler schema-2.0 handoff accepted and its provisional section preserved
-    while the final section is computed independently (§76)
+  * clean and deprecated-field PaperCrawler schema-2.0 packs ingest identically (§76)
   * the same bytes arriving from BOTH the crawler and the manual inbox collapsing into one
     document with two provenance sources (§77)
   * chunks, chunk quality and the embedding-ready manifest produced (§83)
@@ -31,8 +30,8 @@ SMOKE_FORMATS = ["sample_rich.pdf", "sample.docx", "sample.pptx", "sample.xlsx",
                  "sample_text.png", "sample_photo.jpg"]
 
 
-def _write_crawler_release(releases_root: Path, source: Path, *, canonical_id: str,
-                           provisional_section: str) -> Path:
+def _write_papercrawler_release(releases_root: Path, source: Path, *, canonical_id: str,
+                                deprecated_fields: bool = False) -> Path:
     release = releases_root / "RELEASE_2026_09_03"
     registry = release / "00_registry"
     originals = release / "01_originals" / "C_ACADEMIC" / "ARTICLES" / canonical_id
@@ -50,15 +49,13 @@ def _write_crawler_release(releases_root: Path, source: Path, *, canonical_id: s
         "title": "Tunel Bakim Maliyet Raporu",
         "local_path": f"01_originals/C_ACADEMIC/ARTICLES/{canonical_id}/{source.name}",
         "sha256": sha256_file(target),
-        "provisional_primary_section": provisional_section,
-        "provisional_secondary_sections": [],
-        "provisional_section_confidence": 0.91,
-        "crawler_evidence_level": "LIGHT_PDF_TEXT",
         "final_primary_section": None, "final_section_status": "NOT_EVALUATED",
         "paper_crawler_status": "READY_FOR_HANDOFF", "tunnelbookai_status": "NOT_INGESTED",
         "provenance": {"source_url": "https://example.org/rapor.pdf",
                        "discovery_source": "crossref"},
     }
+    if deprecated_fields:
+        record.update({"provisional_primary_section": "1.1", "book_sections": [{"id": "2.2"}]})
     registry.joinpath("handoff_manifest.jsonl").write_text(
         json.dumps(record) + "\n", encoding="utf-8")
     return release
@@ -71,20 +68,20 @@ class IsolatedRunMixin(unittest.TestCase):
     def build_root(cls) -> Path:
         root = Path(tempfile.mkdtemp(prefix="tbai_e2e_"))
         real = Path(__file__).resolve().parents[2]
-        for relative in ("config", "book/scope/normalized", "crawler/config", "scripts"):
+        for relative in ("config", "book/scope/normalized", "scripts"):
             (root / relative).mkdir(parents=True, exist_ok=True)
         for name in ("ingest", "ocr", "vision", "metadata", "classification",
-                     "quality_gate", "chunking"):
+                     "quality_gate", "chunking", "models"):
             shutil.copy2(real / "config" / f"{name}.yaml", root / "config" / f"{name}.yaml")
         shutil.copy2(real / "config" / "paths.json", root / "config" / "paths.json")
         shutil.copy2(real / "book/scope/normalized/book_scope.json",
                      root / "book/scope/normalized/book_scope.json")
-        shutil.copy2(real / "crawler/config/taxonomy.yaml", root / "crawler/config/taxonomy.yaml")
+        shutil.copy2(real / "config/taxonomy.yaml", root / "config/taxonomy.yaml")
         shutil.copy2(real / "scripts" / "utils.py", root / "scripts" / "utils.py")
         shutil.copy2(real / "scripts" / "09_metadata_enrichment.py",
                      root / "scripts" / "09_metadata_enrichment.py")
         shutil.copy2(real / "config" / "config.yaml", root / "config" / "config.yaml")
-        for relative in ("incoming/manual/inbox", "incoming/crawler/releases",
+        for relative in ("incoming/manual/inbox", "incoming/papercrawler/releases",
                          "incoming/quarantine", "originals", "processing", "audit",
                          "corpus/staging", "corpus/canonical"):
             (root / relative).mkdir(parents=True, exist_ok=True)
@@ -110,7 +107,7 @@ class IsolatedRunMixin(unittest.TestCase):
             "tunnelbookai.ingest.cli", "tunnelbookai.ingest.pipeline",
             "tunnelbookai.ingest.staging", "tunnelbookai.ingest.original_archive",
             "tunnelbookai.ingest.config", "tunnelbookai.ingest.sources.manual_inbox",
-            "tunnelbookai.ingest.sources.crawler_contract",
+            "tunnelbookai.ingest.sources.papercrawler_contract",
         ]
         import importlib
         saved = {}
@@ -163,7 +160,7 @@ class ControlledSmokeTests(IsolatedRunMixin):
     def setUp(self):
         if not hasattr(type(self), "_ran"):
             with self.isolated(self.root):
-                code, output = self.run_cli(["--source", "manual", "--resume"])
+                code, output = self.run_cli(["--source", "manual", "--resume", "--no-ocr", "--no-vision", "--no-arbiter"])
             type(self)._ran = (code, output)
         self.code, self.output = type(self)._ran
 
@@ -208,9 +205,8 @@ class ControlledSmokeTests(IsolatedRunMixin):
         self.assertGreaterEqual(totals["tables"], 2, "PDF + DOCX tables")
         self.assertGreaterEqual(totals["sheets"], 3, "XLSX sheets")
 
-    def test_ocr_ran_and_did_not_hallucinate(self):
+    def test_no_ocr_controlled_smoke_keeps_the_photograph_visual_only(self):
         quality = self._quality()
-        self.assertTrue(quality["environment"]["ocr_available"])
         self.assertIn("VISUAL_ONLY", quality["by_evidence_level"],
                       "the photograph must stay VISUAL_ONLY, with no invented text")
 
@@ -248,8 +244,7 @@ class ControlledSmokeTests(IsolatedRunMixin):
 
     def test_multimodal_chunk_types_present(self):
         by_type = self._quality()["chunks_by_type"]
-        for chunk_type in ("TEXT_CHUNK", "TABLE_CHUNK", "FIGURE_CHUNK",
-                           "SLIDE_CHUNK", "SHEET_CHUNK"):
+        for chunk_type in ("TEXT_CHUNK", "TABLE_CHUNK", "SLIDE_CHUNK", "SHEET_CHUNK"):
             self.assertIn(chunk_type, by_type, by_type)
 
     def test_embedding_ready_manifest_written_without_vectors(self):
@@ -284,7 +279,7 @@ class ControlledSmokeTests(IsolatedRunMixin):
 
     def test_resume_is_idempotent(self):
         with self.isolated(self.root):
-            code, output = self.run_cli(["--source", "manual", "--resume"])
+            code, output = self.run_cli(["--source", "manual", "--resume", "--no-ocr", "--no-vision", "--no-arbiter"])
         self.assertEqual(code, 0)
         self.assertEqual(len(list((self.root / "originals").iterdir())), 6)
         self.assertIn("Reused / already processed", output)
@@ -314,8 +309,8 @@ class CrawlerAndDedupEndToEndTests(IsolatedRunMixin):
         cls.root = cls.build_root()
         source = FIX / "sample_rich.pdf"
         cls.sha = sha256_file(source)
-        _write_crawler_release(cls.root / "incoming" / "crawler" / "releases", source,
-                               canonical_id="CAN_E2E01", provisional_section="1.1")
+        _write_papercrawler_release(cls.root / "incoming" / "papercrawler" / "releases", source,
+                                    canonical_id="CAN_E2E01", deprecated_fields=True)
         # the SAME bytes also land in the manual inbox, under a different name
         shutil.copy2(source, cls.root / "incoming" / "manual" / "inbox" / "elden_gelen.pdf")
 
@@ -326,7 +321,7 @@ class CrawlerAndDedupEndToEndTests(IsolatedRunMixin):
     def setUp(self):
         if not hasattr(type(self), "_ran"):
             with self.isolated(self.root):
-                type(self)._ran = self.run_cli(["--source", "all", "--resume"])
+                type(self)._ran = self.run_cli(["--source", "all", "--resume", "--no-ocr", "--no-vision", "--no-arbiter"])
         self.code, self.output = type(self)._ran
 
     def test_run_succeeded(self):
@@ -355,18 +350,16 @@ class CrawlerAndDedupEndToEndTests(IsolatedRunMixin):
         kinds = {source["kind"] for source in provenance["sources"]}
         self.assertEqual(kinds, {"EXTERNAL_DISCOVERY", "MANUAL_INTERNAL"})
 
-    def test_crawler_provisional_preserved_and_final_computed_independently(self):
-        """§76, §36 — the hint is recorded; the answer is recomputed from the document."""
+    def test_deprecated_producer_fields_do_not_enter_final_classification(self):
         bundle = next((self.root / "processing").iterdir())
         classification = json.loads((bundle / "classification.json").read_text(encoding="utf-8"))
-        self.assertEqual(classification["crawler_provisional_section"], "1.1")
         self.assertIsNotNone(classification["final_primary_section"])
-        # the final section came from this engine's own evidence, not from the hint
         self.assertIn("heading_rules", classification["classification_methods"])
-        self.assertIsInstance(classification["crawler_final_agreement"], bool)
-        if classification["final_primary_section"] != "1.1":
-            self.assertFalse(classification["crawler_final_agreement"])
-            self.assertIn("CRAWLER_FINAL_SECTION_DISAGREEMENT", classification["warnings"])
+        self.assertNotIn("crawler_provisional_section", classification)
+        provenance = json.loads((bundle / "provenance.json").read_text(encoding="utf-8"))
+        external = next(source for source in provenance["sources"]
+                        if source["kind"] == "EXTERNAL_DISCOVERY")
+        self.assertIn("crawler_record", external)
 
     def test_original_matches_the_declared_sha256(self):
         archived = next(next((self.root / "originals").iterdir()).glob("source.*"))

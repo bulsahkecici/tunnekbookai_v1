@@ -83,8 +83,8 @@ class IngestPaths:
         return self.root / "incoming"
 
     @property
-    def incoming_crawler_releases(self) -> Path:
-        return self.root / "incoming" / "crawler" / "releases"
+    def incoming_papercrawler_releases(self) -> Path:
+        return self.root / "incoming" / "papercrawler" / "releases"
 
     @property
     def incoming_manual_inbox(self) -> Path:

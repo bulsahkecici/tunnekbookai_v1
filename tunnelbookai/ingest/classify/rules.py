@@ -1,6 +1,6 @@
 """Deterministic rule scoring over the canonical taxonomy (task §34, §36).
 
-The saturating score from `crawler/src/classification_engine.py:score_sections` is reused
+The saturating score is implemented locally for TunnelBookAI final classification.
 verbatim in spirit — strong terms in the title count most, medium terms in the body least —
 but the input is the FULL document evidence bundle (title, headings, body, table and figure
 captions, OCR text, metadata), not a bibliographic record (§36).
@@ -37,7 +37,6 @@ class DocumentEvidence:
     figure_captions: list[str] = None
     ocr_text: str = ""
     metadata_terms: list[str] = None
-    crawler_provisional_section: str | None = None
 
     def __post_init__(self) -> None:
         self.headings = self.headings or []

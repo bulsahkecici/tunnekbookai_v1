@@ -5,7 +5,6 @@
       -> candidate section retrieval (loopback embeddings)
       -> chunk-level votes
       -> rule signals
-      -> crawler provisional hint (a FEATURE, never the answer — §36, §42)
       -> agreement / conflict logic
       -> local Qwen arbitration ONLY when unsettled (§39)
       -> FINAL classification
@@ -36,8 +35,6 @@ class ClassificationResult:
     final_secondary_sections: list[str] = field(default_factory=list)
     final_section_confidence: float | None = None
     classification_methods: list[str] = field(default_factory=list)
-    crawler_provisional_section: str | None = None
-    crawler_final_agreement: bool | None = None
     section_evidence: list[dict[str, Any]] = field(default_factory=list)
     candidates: list[dict[str, Any]] = field(default_factory=list)
     embedding_status: str = embedding_module.UNAVAILABLE
@@ -55,8 +52,6 @@ class ClassificationResult:
             "final_secondary_sections": self.final_secondary_sections,
             "final_section_confidence": self.final_section_confidence,
             "classification_methods": self.classification_methods,
-            "crawler_provisional_section": self.crawler_provisional_section,
-            "crawler_final_agreement": self.crawler_final_agreement,
             "section_evidence": self.section_evidence,
             "candidates": self.candidates,
             "embedding_status": self.embedding_status,
@@ -99,7 +94,6 @@ def build_evidence(
     tables: list[dict[str, Any]],
     figures: list[dict[str, Any]],
     normalized_text: str,
-    crawler_provisional: str | None,
 ) -> DocumentEvidence:
     headings = [e["text"] for e in elements if e.get("type") == "heading" and e.get("text")]
     paragraphs = [e["text"] for e in elements
@@ -123,7 +117,6 @@ def build_evidence(
         figure_captions=[f.get("caption") or "" for f in figures if f.get("caption")],
         ocr_text=ocr_text,
         metadata_terms=[t for t in metadata_terms if t],
-        crawler_provisional_section=crawler_provisional,
     )
 
 
@@ -166,7 +159,6 @@ def classify(
     figures: list[dict[str, Any]],
     normalized_text: str,
     config: Any,
-    crawler_provisional: str | None = None,
     taxonomy: Taxonomy | None = None,
     embedding_index: Any = None,
     embedding_status: str | None = None,
@@ -176,18 +168,12 @@ def classify(
     ccfg = config.classification or {}
     taxonomy = taxonomy or load_taxonomy(
         ccfg.get("taxonomy_source", "book/scope/normalized/book_scope.json"),
-        ccfg.get("crawler_taxonomy_terms", "crawler/config/taxonomy.yaml"))
+        ccfg.get("taxonomy_terms", "config/taxonomy.yaml"))
     result = ClassificationResult(taxonomy_source=taxonomy.source_path)
-
-    # The crawler's section is preserved as a hint and never accepted as final (§36, §42).
-    if crawler_provisional and str(crawler_provisional) not in taxonomy:
-        result.warnings.append(f"CRAWLER_PROVISIONAL_NOT_IN_TAXONOMY:{crawler_provisional}")
-        crawler_provisional = None
-    result.crawler_provisional_section = crawler_provisional
 
     doc_evidence = build_evidence(
         metadata=metadata, elements=elements, tables=tables, figures=figures,
-        normalized_text=normalized_text, crawler_provisional=crawler_provisional)
+        normalized_text=normalized_text)
 
     rule_scores = [s.as_dict() for s in score_sections(doc_evidence, taxonomy=taxonomy)]
     if rule_scores:
@@ -225,7 +211,6 @@ def classify(
     if not fused:
         result.warnings.append("NO_SECTION_CANDIDATES")
         result.decision_path.append("no_candidates")
-        result.crawler_final_agreement = False if crawler_provisional else None
         return result
 
     top = fused[0]
@@ -233,25 +218,22 @@ def classify(
     auto_accept = float(fusion.get("auto_accept_score", 0.88))
     llm_review = float(fusion.get("llm_review_score", 0.52))
     margin = float(fusion.get("disagreement_margin", 0.10))
-    crawler_conflict = bool(crawler_provisional and crawler_provisional != top["id"])
 
     needs_arbiter = (
         top["score"] < llm_review
         or (disagreement and gap < margin)
         or (gap < margin and top["score"] < auto_accept)
-        or crawler_conflict
     )
     result.decision_path.append(
         f"top={top['id']}:{top['score']} gap={gap:.3f} disagreement={disagreement} "
-        f"crawler_conflict={crawler_conflict}")
+        "")
 
     primary = top["id"]
     confidence = top["score"]
 
     if needs_arbiter and allow_arbiter:
         arbiter_result = arbiter_module.arbitrate(
-            doc_evidence.embedding_text(6000), fused, taxonomy, config,
-            crawler_provisional=crawler_provisional)
+            doc_evidence.embedding_text(6000), fused, taxonomy, config)
         result.arbiter_status = arbiter_result.status
         result.arbiter_reason = arbiter_result.reason
         result.arbiter_model = arbiter_result.model
@@ -287,10 +269,6 @@ def classify(
 
     result.final_primary_section = primary
     result.final_section_confidence = round(float(confidence), 4)
-    result.crawler_final_agreement = (
-        (crawler_provisional == primary) if crawler_provisional else None)
-    if crawler_provisional and not result.crawler_final_agreement:
-        result.warnings.append("CRAWLER_FINAL_SECTION_DISAGREEMENT")
     result.section_evidence = evidence_module.collect(
         [primary, *result.final_secondary_sections], elements, tables, figures, taxonomy)
     return result

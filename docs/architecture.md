@@ -1,105 +1,54 @@
 # TunnelBookAI V1 Architecture
 
-## Sorumluluk sınırı
+## Boundary
 
-Crawler doğrudan kanonik corpus'a yazmaz. Keşif ve sınıflandırma sonuçları önce handoff paketine, ardından hash ve provenance kontrolüyle `corpus/staging` alanına alınır. `corpus/canonical` yalnız ayrı bir ingest/normalizasyon kararıyla değiştirilebilir.
-
-```text
-book taxonomy
-  -> crawler discovery/acquisition
-  -> classification + parent-aggregated coverage
-  -> handoff/accepted + handoff/review
-  -> Unified Ingest Engine            (tunnelbookai/ingest, bkz. aşağıdaki akış)
-  -> corpus/staging/v2
-  -> project quality gate
-  -> controlled ingest
-  -> corpus/canonical
-  -> evidence retrieval
-  -> prewriting/chapter/postwriting audits
-```
-
-## Unified Ingest Engine
-
-Crawler paketleri ve manuel belgeler **tek** bir motordan geçer. Manuel belgeler
-handoff sözleşmesinden bağımsızdır; ikisi de aynı orijinal-arşiv, çıkarım, sınıflandırma
-ve kalite kapısı hattını kullanır.
+TunnelBookAI is the authoritative ingest, classification, quality, chunking and
+readiness system. PaperCrawler is an independent acquisition product; TunnelBookAI
+does not contain its discovery, crawling or scheduling implementation.
 
 ```text
-PaperCrawler (READY_FOR_HANDOFF)        Manuel belgeler
-  incoming/crawler/releases/              incoming/manual/inbox/
-            │                                    │
-            └──────────────────┬─────────────────┘
-                               ▼
-                      ORİJİNAL ARŞİV (immutable)
-                          originals/<document_id>/
-                               ▼
-                        FORMAT TESPİTİ
-                               ▼
-                        TAM ÇIKARIM (Docling + yerel ayrıştırıcılar)
-        ┌──────────────────────┼──────────────────────┐
-        ▼                      ▼                      ▼
-      METİN                 TABLOLAR               FİGÜRLER
-   normalized/            tables/*.json          figures/*.png
-   {md,json,txt}          tables/*.csv           OCR / yerel vision
-   pages/ slides/         sheets/*.json
-   sheet_snapshots/
-        └──────────────────────┼──────────────────────┘
-                               ▼
-                    METADATA + PROVENANCE (uydurma yok)
-                               ▼
-                        GLOBAL DEDUP (sha → doi → url → başlık)
-                               ▼
-                  NİHAİ BÖLÜM SINIFLANDIRMASI
-              (kural + loopback embedding + chunk oyu
-               + crawler ipucu → gerekirse yerel Qwen hakem)
-                               ▼
-                     NİHAİ KANIT MODELİ (evidence level)
-                               ▼
-                   BELGE KALİTE KAPISI (GO/REVIEW/REJECT)
-                               ▼
-                       corpus/staging/v2/<document_id>/
-                               ▼
-                YAPI FARKINDA CHUNK'LAMA (multimodal)
-                  processing/<id>/chunks/chunk_manifest.jsonl
-                               ▼
-                       CHUNK KALİTE KAPISI
-                               ▼
-                  EMBEDDING-READY MANIFEST
-              audit/embedding_ready_manifest.jsonl
+PaperCrawler release                 Manual document
+incoming/papercrawler/releases/      incoming/manual/inbox/
+              \                         /
+               \                       /
+                Unified Ingest Engine
+                        |
+      originals -> processing -> corpus/staging -> chunks
+                        |
+        quality gate, audit and controlled promotion only
 ```
 
-Bu motor **embedding üretmez, Qdrant'a yazmaz ve kanonik promosyon yapmaz.**
-Ayrıntılı sözleşmeler: `docs/unified_ingest_contract.md`, `docs/chunking_contract.md`.
+`corpus/canonical` is empty after the 2026 reset. It can be populated only by an
+explicit, separately approved promotion. The engine never builds embeddings,
+writes Qdrant, or promotes a document during ordinary ingest.
 
-## Veri katmanları
+## Authorities
 
-| Katman | Rol | Yazma kuralı |
-|---|---|---|
-| `data/downloads` | Devam ettirilebilir crawler çalışma alanı | Pipeline stage'leri |
-| `handoff/accepted` | Crawler tarafından uygun görülen kaynak paketi | Handoff exporter |
-| `handoff/review` | Belirsiz veya insan kararı isteyen kayıtlar | Otomatik kabul edilmez |
-| `incoming/` | Crawler release'leri ve manuel gelen kutusu | Kullanıcı / crawler |
-| `originals/` | Değiştirilemez orijinal arşiv (read-only kopya) | Unified Ingest, yalnız bir kez |
-| `processing/` | Belge başına zengin çıkarım paketi (yetkili chunk konumu) | Unified Ingest |
-| `corpus/staging` | Hash doğrulanmış yeni adaylar (122 legacy düz paket) | Materializer |
-| `corpus/staging/v2` | Unified Ingest paketleri (`unified_ingest_v1` şekli) | Unified Ingest |
-| `corpus/canonical` | Kitapta kullanılabilen kanonik corpus | Kontrollü ingest |
-| `corpus/rejects` | Silinmeden ayrıştırılan eski/uygunsuz girdiler | Denetimli taşıma |
+| Concern | Authority |
+| --- | --- |
+| Book scope and question coverage | `book/` source files, when intentionally introduced |
+| Classification scope | `book/scope/normalized/book_scope.json` |
+| Classification term dictionary | `config/taxonomy.yaml` |
+| Exact local models | `config/models.yaml` |
+| External source pack | `incoming/papercrawler/releases/` |
+| Manual source pack | `incoming/manual/inbox/` |
+| Source bytes | `originals/<document_id>/source.*` |
+| Structural extraction and chunks | `processing/<document_id>/` |
 
-`data/corpus_final`, `data/metadata` ve `data/temp/full_docling_chunks` eski test/topoloji uyumluluğu için yeni kanonik konumlara yönlenen bağlantılardır; yetkili yollar `corpus/` altındadır.
+Producer fields such as `provisional_primary_section` are accepted only for schema
+2.x compatibility. They are recorded as `DEPRECATED_PRODUCER_SECTION_FIELD` audit
+notes and never influence final classification.
 
-## Kalite kapıları
+## Local model policy
 
-1. Migration gate dosya varlığını, kaynak-hedef SHA256 eşitliğini, iç içe Git ve sanal ortam taşınmadığını doğrular.
-2. Crawler gate checkpoint bütünlüğünü, coverage parent aggregation'ı, handoff uygunluğunu ve duplicate kayıtları denetler.
-3. Corpus gate staging dosyalarının hash/provenance'ını ve kanonik corpus bütünlüğünü doğrular.
-4. Book gate scope, taxonomy ve question bank ilişkilerini dinamik olarak denetler; sabit bölüm/soru sayısına dayanmaz.
-5. Chapter gate yalnız ilgili bölümün soru/kavram kapsamını değerlendirir; tam soru bankasını her bölümde modele göndermez.
+Only loopback endpoints are valid. `config/models.yaml` is the single model
+authority: embedding is `text-embedding-baai-bge-m3-568m`, and the local arbiter is
+`qwen/qwen3.8-27b`. Selection is exact; a model-list fallback or substring match is
+not permitted. A missing/unavailable service yields `MODEL_SERVICE_UNAVAILABLE`.
 
-## Karar semantiği
+## Empty-reset gate
 
-- `PASS` / `GO`: bloklayıcı sorun yoktur.
-- `CONDITIONAL_GO`: otomasyon bütünlüğü geçmiştir fakat açık manuel inceleme veya kayıtlı legacy sınırlaması vardır.
-- `NO_GO`: eksik dosya, hash/provenance hatası, yetim taxonomy ilişkisi ya da tamamlanmamış zorunlu pipeline aşaması vardır.
-
-Tüm yollar proje kökünden türetilir; kullanıcıya özgü mutlak yol çalışma zamanı sözleşmesinin parçası değildir. Robots kararları TTL'li cache'e, provider başarısızlıkları ise kalıcı source-health durumuna yazılır.
+Run `PYTHONPATH=. .venv/bin/python shared/project_quality_gate.py`. It writes
+`audit/empty_corpus_reset_gate.json` and returns `GO` only when legacy corpus,
+processing, chunk, embedding and vector state are absent while both input roots
+exist.

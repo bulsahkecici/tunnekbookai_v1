@@ -4,7 +4,7 @@ version: 1
 local_only: true          # manual ingest: no network egress (§27, §76)
 
 incoming:
-  crawler_releases: incoming/crawler/releases
+  papercrawler_releases: incoming/papercrawler/releases
   manual_inbox: incoming/manual/inbox
   quarantine: incoming/quarantine
 

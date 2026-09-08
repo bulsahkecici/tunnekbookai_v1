@@ -1,0 +1,12 @@
+# Single authority for local model selection. CLI values may override these exact names.
+embedding:
+  provider: local
+  model: text-embedding-baai-bge-m3-568m
+  endpoint_env: EMBEDDING_SERVER
+  default_endpoint: http://127.0.0.1:1234/v1
+
+llm:
+  provider: local
+  model: qwen/qwen3.8-27b
+  endpoint_env: LLM_SERVER
+  default_endpoint: http://127.0.0.1:1234/v1

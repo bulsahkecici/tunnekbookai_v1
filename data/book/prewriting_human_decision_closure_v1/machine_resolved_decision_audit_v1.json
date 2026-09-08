@@ -1,9 +1,0 @@
-{
-  "schema_version": "machine-resolved-decision-audit-v1",
-  "status": "PASS",
-  "resolved": [
-    {"decision_ids":["CHDEC-002","CHDEC-003","CHDEC-004"],"result":"Source ellipses remain explicit unresolved placeholders; no headings are invented.","evidence":["data/book/master_structure/book_master_structure_v1.json#unresolved_outline_gaps","docs/ai/TUNNELBOOKAI_PREWRITING_ORCHESTRATOR_V1.md#chapters-D-E-F"]},
-    {"decision_ids":["RIGHTS-APPLICABILITY-001"],"result":"No candidate asset exists, so no owner permission/risk decision is presently applicable; missing rights will block any later asset release.","evidence":["data/book/assets/nontext_asset_policy_registry_v1.json#candidate_assets","data/book/assets/nontext_asset_policy_registry_v1.json#policies"]}
-  ],
-  "checks": {"authoritative_repository_evidence_only":"PASS","human_choice_inferred":false,"external_evidence_admitted":false,"frozen_artifact_modified":false}
-}

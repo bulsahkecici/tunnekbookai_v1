@@ -88,29 +88,6 @@ class PipelineServices:
         return ChunkPolicy.from_config(self.config)
 
 
-_PROVISIONAL_KEYS = ("provisional_primary_section", "provisional_section",
-                    "crawler_provisional_section", "primary_section")
-
-
-def _crawler_provisional(provenance_doc: dict[str, Any]) -> str | None:
-    """The crawler's provisional section, wherever the contract consumer parked it.
-
-    `sources/crawler_contract.py` preserves it nested under `crawler_provisional`; the flat
-    and `crawler_record` shapes are also accepted so a contract-shape change degrades to
-    "no hint" rather than to a silently wrong hint. It is only ever a hint (§36, §42).
-    """
-    for source in provenance_doc.get("sources", []) or []:
-        for container in (source.get("crawler_provisional") or {}, source,
-                          source.get("crawler_record") or {}):
-            if not isinstance(container, dict):
-                continue
-            for key in _PROVISIONAL_KEYS:
-                value = container.get(key)
-                if value:
-                    return str(value)
-    return None
-
-
 def _read_json(path: Path) -> dict[str, Any]:
     if not path.is_file():
         return {}
@@ -225,7 +202,6 @@ def process_document(
     classification = classify_module.classify(
         metadata=metadata, elements=extraction.text_elements, tables=extraction.tables,
         figures=extraction.figures, normalized_text=normalized_text, config=services.config,
-        crawler_provisional=_crawler_provisional(provenance_doc),
         embedding_index=services.embedding_index,
         embedding_status=services.embedding_status,
         embedding_model=services.embedding_model,

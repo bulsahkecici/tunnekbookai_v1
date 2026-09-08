@@ -1,7 +1,7 @@
 """Canonical section taxonomy (task §35).
 
 `book/scope/normalized/book_scope.json` is the SINGLE taxonomy. Nothing here creates
-another one. `crawler/config/taxonomy.yaml` is loaded only as a *term dictionary* attached to
+another one. `config/taxonomy.yaml` is loaded only as a *term dictionary* attached to
 those same section ids — any id in it that is not in the canonical scope is ignored and
 reported, never adopted.
 """
@@ -17,7 +17,7 @@ from typing import Any
 from ..paths import PROJECT_ROOT
 
 DEFAULT_TAXONOMY = "book/scope/normalized/book_scope.json"
-DEFAULT_TERMS = "crawler/config/taxonomy.yaml"
+DEFAULT_TERMS = "config/taxonomy.yaml"
 
 
 @dataclass(frozen=True)
@@ -33,7 +33,7 @@ class Section:
 
     @property
     def profile(self) -> str:
-        """Text used to embed the section (mirrors crawler/src/hybrid_classifier.py)."""
+        """Text used to embed the section with the configured local embedding model."""
         terms = [*self.strong_terms, *self.medium_terms]
         return f"{self.section_id} {self.title}. " + "; ".join(terms)
 

@@ -18,7 +18,7 @@ import yaml
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 BOOK_ROOT = PROJECT_ROOT / "book"
-TAXONOMY_PATH = PROJECT_ROOT / "crawler" / "config" / "taxonomy.yaml"
+TAXONOMY_PATH = PROJECT_ROOT / "config" / "taxonomy.yaml"
 
 EVIDENCE_STATUSES = {
     "SUPPORTED", "PARTIALLY_SUPPORTED", "INSUFFICIENT_EVIDENCE",

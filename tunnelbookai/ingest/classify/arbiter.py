@@ -15,6 +15,7 @@ base_url raises `RemoteEndpointRejected` rather than falling back to anything (�
 from __future__ import annotations
 
 import json
+import os
 import re
 import urllib.error
 import urllib.request
@@ -48,16 +49,8 @@ class LocalChatClient:
                 self._models = []
         return self._models
 
-    def pick_model(self, preferred_terms: list[str]) -> str | None:
-        models = self.models()
-        for term in preferred_terms:
-            for name in models:
-                if term.lower() in name.lower():
-                    return name
-        return models[0] if models else None
-
-    def available(self) -> bool:
-        return bool(self.models())
+    def has_model(self, model: str) -> bool:
+        return model in self.models()
 
     def chat_json(self, model: str, system: str, user: str) -> dict[str, Any]:
         url = assert_loopback(f"{self.base_url}/chat/completions")
@@ -108,22 +101,21 @@ def arbitrate(
     candidates: list[dict[str, Any]],
     taxonomy: Taxonomy,
     config: Any,
-    *,
-    crawler_provisional: str | None = None,
 ) -> ArbiterResult:
     cfg = (config.classification or {}).get("llm_arbiter", {}) or {}
+    model_cfg = (config.models or {}).get("llm", {}) or {}
     if not cfg.get("enabled", True):
         return ArbiterResult(NOT_RUN, reason="arbiter disabled in config")
     try:
-        client = LocalChatClient(cfg.get("base_url", "http://127.0.0.1:1234/v1"),
+        endpoint = os.getenv(str(model_cfg.get("endpoint_env") or "LLM_SERVER"),
+                             str(model_cfg.get("default_endpoint") or ""))
+        client = LocalChatClient(endpoint,
                                  timeout=float(cfg.get("timeout_seconds", 90)))
     except RemoteEndpointRejected:
         raise
-    if not client.available():
-        return ArbiterResult(UNAVAILABLE, reason="no loopback LLM server answered")
-    model = client.pick_model(list(cfg.get("preferred_model_terms", ["qwen3.6", "qwen3"])))
-    if not model:
-        return ArbiterResult(UNAVAILABLE, reason="no model exposed by the local server")
+    model = str(model_cfg.get("model") or "").strip()
+    if not model or not client.has_model(model):
+        return ArbiterResult(UNAVAILABLE, reason="configured local LLM model is unavailable")
 
     limit = int(cfg.get("max_candidate_sections", 8))
     shortlist = candidates[:limit]
@@ -132,8 +124,6 @@ def arbitrate(
              for c in shortlist]
     user = (
         f"ADAY BÖLÜMLER:\n" + "\n".join(lines) + "\n\n"
-        + (f"CRAWLER GEÇİCİ ÖNERİSİ (yalnızca ipucu, bağlayıcı değil): {crawler_provisional}\n\n"
-           if crawler_provisional else "")
         + f"BELGE KANITI:\n{evidence_text[:8000]}"
     )
     try:

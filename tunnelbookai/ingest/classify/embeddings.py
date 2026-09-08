@@ -1,15 +1,10 @@
-"""Loopback embedding client for section retrieval (task §38).
-
-Reuses the loopback discipline of `crawler/src/hybrid_classifier.py`: an OpenAI-compatible
-server on 127.0.0.1 only, no cloud fallback of any kind. When no local server answers, the
-classifier degrades to rules + crawler hint and records `embedding_status: UNAVAILABLE` —
-it never reaches out to a remote host (§38, §80).
-"""
+"""Exact-model, loopback-only embedding client for section retrieval."""
 
 from __future__ import annotations
 
 import json
 import math
+import os
 import urllib.error
 import urllib.request
 from typing import Any
@@ -18,7 +13,7 @@ from ..vision.provider import RemoteEndpointRejected, assert_loopback
 from .taxonomy import Taxonomy, load_taxonomy
 
 AVAILABLE = "AVAILABLE"
-UNAVAILABLE = "UNAVAILABLE"
+UNAVAILABLE = "MODEL_SERVICE_UNAVAILABLE"
 DISABLED = "DISABLED"
 
 
@@ -32,10 +27,10 @@ def cosine(a: list[float], b: list[float]) -> float:
 
 
 class LocalEmbeddingClient:
-    def __init__(self, base_url: str, *, timeout: float = 60.0) -> None:
+    def __init__(self, base_url: str, model: str, *, timeout: float = 60.0) -> None:
         self.base_url = assert_loopback(base_url)
         self.timeout = timeout
-        self.model: str | None = None
+        self.model = model
         self._models: list[str] | None = None
 
     def _get(self, path: str) -> dict[str, Any]:
@@ -60,18 +55,8 @@ class LocalEmbeddingClient:
                 self._models = []
         return self._models
 
-    def pick_model(self, preferred_terms: list[str]) -> str | None:
-        models = self.models()
-        for term in preferred_terms:
-            for name in models:
-                if term.lower() in name.lower():
-                    return name
-        return models[0] if models else None
-
-    def available(self, preferred_terms: list[str]) -> bool:
-        if self.model is None:
-            self.model = self.pick_model(preferred_terms)
-        return self.model is not None
+    def available(self) -> bool:
+        return self.model in self.models()
 
     def embed(self, text: str) -> list[float] | None:
         if self.model is None:
@@ -112,7 +97,7 @@ class SectionEmbeddingIndex:
         scores: list[dict[str, Any]] = []
         for section_id, profile_vector in self._vectors.items():
             similarity = cosine(vector, profile_vector)
-            # map cosine [-1,1] to [0,1] exactly as the crawler's fusion expects
+            # Map cosine [-1,1] to a bounded score for fusion.
             normalized = max(0.0, min(1.0, (similarity + 1.0) / 2.0))
             if normalized >= min_similarity:
                 scores.append({"id": section_id, "score": round(normalized, 4)})
@@ -124,14 +109,18 @@ def build_index(config: Any, taxonomy: Taxonomy | None = None
                 ) -> tuple[SectionEmbeddingIndex | None, str, str | None]:
     """Resolve a local embedding server. Returns (index, status, model)."""
     cfg = (config.classification or {}).get("embedding", {}) or {}
+    model_cfg = (config.models or {}).get("embedding", {}) or {}
     if not cfg.get("enabled", True):
         return None, DISABLED, None
-    preferred = list(cfg.get("preferred_model_terms", ["nomic-embed", "embed"]))
-    for server in cfg.get("local_servers", ["http://127.0.0.1:1234/v1"]):
-        try:
-            client = LocalEmbeddingClient(server)
-        except RemoteEndpointRejected:
-            raise
-        if client.available(preferred):
-            return SectionEmbeddingIndex(client, taxonomy), AVAILABLE, client.model
+    model = str(model_cfg.get("model") or "").strip()
+    endpoint_env = str(model_cfg.get("endpoint_env") or "EMBEDDING_SERVER")
+    server = os.getenv(endpoint_env, str(model_cfg.get("default_endpoint") or "")).strip()
+    if not model or not server:
+        return None, UNAVAILABLE, None
+    try:
+        client = LocalEmbeddingClient(server, model)
+    except RemoteEndpointRejected:
+        raise
+    if client.available():
+        return SectionEmbeddingIndex(client, taxonomy), AVAILABLE, model
     return None, UNAVAILABLE, None

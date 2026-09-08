@@ -2,7 +2,7 @@
 
     python scripts/ingest_incoming.py --source all --dry-run
     python scripts/ingest_incoming.py --source manual --resume
-    python scripts/ingest_incoming.py --source crawler --resume
+    python scripts/ingest_incoming.py --source papercrawler --resume
 
 Default is production-safe: no canonical promotion, ever.
 
@@ -29,7 +29,7 @@ from .format_registry import detect, is_supported
 from .ids import DocumentIdMap, document_id_for_file
 from .paths import PATHS, relpath
 from .sources import DiscoveredInput
-from .sources import crawler_contract, manual_inbox
+from .sources import manual_inbox, papercrawler_contract
 from .state import IngestState, State
 
 try:
@@ -45,14 +45,14 @@ def _now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
-def _gather(source: str, allow_legacy_1x: bool) -> tuple[list[DiscoveredInput], list[dict]]:
+def _gather(source: str) -> tuple[list[DiscoveredInput], list[dict]]:
     config = load_config()
     inputs: list[DiscoveredInput] = []
     skipped: list[dict] = []
     if source in ("manual", "all"):
         inputs += manual_inbox.discover(config)
-    if source in ("crawler", "all"):
-        for result in crawler_contract.discover(allow_legacy_1x=allow_legacy_1x):
+    if source in ("papercrawler", "all"):
+        for result in papercrawler_contract.discover():
             if result.blockers:
                 skipped.append({"release": result.release_dir.name, "blockers": result.blockers})
             inputs += result.accepted
@@ -145,8 +145,16 @@ def _build_services(args, config):
     taxonomy = load_taxonomy(
         (config.classification or {}).get("taxonomy_source",
                                           "book/scope/normalized/book_scope.json"),
-        (config.classification or {}).get("crawler_taxonomy_terms",
-                                          "crawler/config/taxonomy.yaml"))
+        (config.classification or {}).get("taxonomy_terms",
+                                          "config/taxonomy.yaml"))
+    if args.embedding_server:
+        config.models.setdefault("embedding", {})["default_endpoint"] = args.embedding_server
+    if args.embedding_model:
+        config.models.setdefault("embedding", {})["model"] = args.embedding_model
+    if args.llm_server:
+        config.models.setdefault("llm", {})["default_endpoint"] = args.llm_server
+    if args.llm_model:
+        config.models.setdefault("llm", {})["model"] = args.llm_model
     index, status, model = embedding_module.build_index(config, taxonomy)
 
     return PipelineServices(
@@ -470,7 +478,7 @@ def _unused_write_source_registry(state: IngestState) -> None:
 
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="ingest_incoming", description="TunnelBookAI Unified Ingest Engine")
-    p.add_argument("--source", choices=["crawler", "manual", "all"], default="all")
+    p.add_argument("--source", choices=["papercrawler", "manual", "all"], default="all")
     p.add_argument("--dry-run", action="store_true", help="inventory only; process nothing")
     p.add_argument("--resume", action="store_true", help="skip documents already past a stage")
     p.add_argument("--force-reprocess", action="store_true", help="rebuild derived outputs (never the original)")
@@ -478,8 +486,10 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--max-documents", type=int, default=0)
     p.add_argument("--no-ocr", action="store_true")
     p.add_argument("--no-vision", action="store_true")
-    p.add_argument("--allow-legacy-1x", action="store_true",
-                   help="accept the migrated schema-1.1 crawler package")
+    p.add_argument("--embedding-server", default=None)
+    p.add_argument("--embedding-model", default=None)
+    p.add_argument("--llm-server", default=None)
+    p.add_argument("--llm-model", default=None)
     p.add_argument("--no-chunking", action="store_true",
                    help="stop after staging; chunking is part of a normal successful run")
     p.add_argument("--no-arbiter", action="store_true",
@@ -492,7 +502,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
-    inputs, skipped = _gather(args.source, args.allow_legacy_1x)
+    inputs, skipped = _gather(args.source)
     if args.document_id:
         inputs = [i for i in inputs if document_id_for_file(i.input_path)[0] == args.document_id]
     if args.from_stage:

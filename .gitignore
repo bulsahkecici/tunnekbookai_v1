@@ -50,8 +50,8 @@ incoming/manual/*.xlsx
 incoming/manual/*.png
 incoming/manual/*.jpg
 incoming/manual/*.jpeg
-incoming/crawler/releases/*
-!incoming/crawler/releases/.gitkeep
+incoming/papercrawler/releases/*
+!incoming/papercrawler/releases/.gitkeep
 incoming/quarantine/*
 !incoming/quarantine/.gitkeep
 originals/*

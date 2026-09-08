@@ -152,8 +152,6 @@ def evaluate(
     confidence = getattr(classification, "final_section_confidence", None)
     if confidence is not None and float(confidence) < LOW_SECTION_CONFIDENCE:
         result.review_reasons.append("LOW_SECTION_CONFIDENCE")
-    if getattr(classification, "crawler_final_agreement", None) is False:
-        result.review_reasons.append("CRAWLER_FINAL_SECTION_DISAGREEMENT")
     if evidence_level == "PARTIAL":
         result.review_reasons.append("PARTIAL_EVIDENCE")
     capabilities = content_capabilities(extraction)

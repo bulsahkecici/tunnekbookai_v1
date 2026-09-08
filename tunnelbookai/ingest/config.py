@@ -23,7 +23,7 @@ except ImportError as exc:  # pragma: no cover
     ) from exc
 
 _CONFIG_NAMES = ("ingest", "ocr", "vision", "metadata", "classification", "quality_gate",
-                 "chunking")
+                 "chunking", "models")
 
 
 def _load_yaml(path: Path) -> dict[str, Any]:
@@ -44,6 +44,7 @@ class IngestConfig:
     classification: dict[str, Any]
     quality_gate: dict[str, Any]
     chunking: dict[str, Any]
+    models: dict[str, Any]
 
     @property
     def local_only(self) -> bool:

@@ -23,7 +23,7 @@ from tunnelbookai.ingest.dedup import (
 from tunnelbookai.ingest.extraction import ExtractionResult
 from tunnelbookai.ingest.metadata.provenance import ProvenanceError, ProvenanceLog, record
 from tunnelbookai.ingest.metadata.schema import empty_metadata, validate
-from tunnelbookai.ingest.sources import crawler_contract
+from tunnelbookai.ingest.sources import papercrawler_contract
 
 FIX = Path(__file__).resolve().parent / "fixtures"
 
@@ -241,14 +241,14 @@ class EvidenceModelTests(unittest.TestCase):
 
 
 class ClassificationTests(unittest.TestCase):
-    """§36, §40, §41, §78 — final classification independent of the crawler hint."""
+    """Final classification is solely TunnelBookAI's responsibility."""
 
     @classmethod
     def setUpClass(cls):
         cls.config = load_config()
         cls.taxonomy = load_taxonomy()
 
-    def _classify(self, text, headings=None, crawler=None, **kwargs):
+    def _classify(self, text, headings=None, **kwargs):
         elements = []
         for index, heading in enumerate(headings or [], start=1):
             elements.append({"element_id": f"HEAD{index:04d}", "type": "heading",
@@ -260,7 +260,7 @@ class ClassificationTests(unittest.TestCase):
         return classify_module.classify(
             metadata={"title": (headings or [""])[0], "document_type": None, "topics": []},
             elements=elements, tables=[], figures=[], normalized_text=text,
-            config=self.config, crawler_provisional=crawler, taxonomy=self.taxonomy,
+            config=self.config, taxonomy=self.taxonomy,
             embedding_index=None, embedding_status="DISABLED", embedding_model=None,
             allow_arbiter=False, **kwargs)
 
@@ -296,28 +296,6 @@ class ClassificationTests(unittest.TestCase):
         else:
             self.assertIn(result.final_primary_section, self.taxonomy)
 
-    def test_crawler_provisional_is_a_hint_not_the_answer(self):
-        """§36/§42: the crawler's section is preserved and reported, but the final section is
-        computed independently and may disagree."""
-        result = self._classify(
-            "Tünelin tanımı ve tunnel definition terminolojisi.",
-            headings=["Tünelin Tanımı"], crawler="6.1.2")
-        self.assertEqual(result.crawler_provisional_section, "6.1.2")
-        self.assertEqual(result.final_primary_section, "1.1")
-        self.assertFalse(result.crawler_final_agreement)
-        self.assertIn("CRAWLER_FINAL_SECTION_DISAGREEMENT", result.warnings)
-
-    def test_crawler_agreement_recorded(self):
-        result = self._classify("Tünelin tanımı, tunnel definition.",
-                                headings=["Tünelin Tanımı"], crawler="1.1")
-        self.assertTrue(result.crawler_final_agreement)
-
-    def test_invalid_crawler_taxonomy_id_rejected_not_adopted(self):
-        result = self._classify("Tünelin tanımı, tunnel definition.",
-                                headings=["Tünelin Tanımı"], crawler="99.99")
-        self.assertIsNone(result.crawler_provisional_section)
-        self.assertIn("CRAWLER_PROVISIONAL_NOT_IN_TAXONOMY:99.99", result.warnings)
-        self.assertNotEqual(result.final_primary_section, "99.99")
 
     def test_section_evidence_points_at_real_elements(self):
         result = self._classify("tunnel definition tünel tanımı yapısı",
@@ -353,8 +331,7 @@ class QualityGateTests(unittest.TestCase):
             "extraction": extraction,
             "metadata": _metadata("ING_g"),
             "classification": SimpleNamespace(final_primary_section="1.1",
-                                              final_section_confidence=0.9,
-                                              crawler_final_agreement=None),
+                                              final_section_confidence=0.9),
             "evidence_level": evidence_module.FULL_TEXT,
             "config": self.config,
         }
@@ -381,8 +358,7 @@ class QualityGateTests(unittest.TestCase):
             result = gate_module.evaluate(**self._inputs(
                 original_path=original,
                 classification=SimpleNamespace(final_primary_section="99.99",
-                                               final_section_confidence=0.9,
-                                               crawler_final_agreement=None)))
+                                               final_section_confidence=0.9)))
         self.assertEqual(result.decision, gate_module.REJECT)
         self.assertIn("FINAL_SECTION_INVALID_OR_MISSING", result.reject_reasons)
 
@@ -466,41 +442,6 @@ class QualityGateTests(unittest.TestCase):
                 evidence_level=evidence_module.VISUAL_ONLY))
         self.assertEqual(result.decision, gate_module.REVIEW)
         self.assertIn("OCR_EMPTY_TEXT_IMAGE", result.review_reasons)
-
-
-class CrawlerContractTests(unittest.TestCase):
-    """§76 — schema 2.0 acceptance, and the provisional section as a preserved hint."""
-
-    def test_provisional_section_reaches_classification_from_the_real_contract_shape(self):
-        """crawler_contract.py nests the preserved fields under `crawler_provisional`; the
-        pipeline must read exactly that, or the hint silently never arrives."""
-        from tunnelbookai.ingest.pipeline import _crawler_provisional
-
-        real_shape = {"sources": [{
-            "kind": "EXTERNAL_DISCOVERY",
-            "crawler_provisional": {
-                "provisional_primary_section": "5.5.2",
-                "provisional_secondary_sections": ["5.4"],
-                "provisional_section_confidence": 0.91,
-                "crawler_evidence_level": "LIGHT_PDF_TEXT",
-            }}]}
-        self.assertEqual(_crawler_provisional(real_shape), "5.5.2")
-
-    def test_flat_and_missing_shapes(self):
-        from tunnelbookai.ingest.pipeline import _crawler_provisional
-
-        provenance = {"sources": [{"kind": "EXTERNAL_DISCOVERY",
-                                   "provisional_section": "5.5.2"}]}
-        self.assertEqual(_crawler_provisional(provenance), "5.5.2")
-        self.assertIsNone(_crawler_provisional({"sources": [{"kind": "MANUAL_INTERNAL"}]}))
-        self.assertIsNone(_crawler_provisional({}))
-
-    def test_nested_crawler_record_provisional(self):
-        from tunnelbookai.ingest.pipeline import _crawler_provisional
-
-        provenance = {"sources": [{"kind": "EXTERNAL_DISCOVERY",
-                                   "crawler_record": {"primary_section": "3.2"}}]}
-        self.assertEqual(_crawler_provisional(provenance), "3.2")
 
 
 if __name__ == "__main__":

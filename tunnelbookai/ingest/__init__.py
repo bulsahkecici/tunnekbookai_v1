@@ -2,7 +2,7 @@
 
 Turns two data sources into one standard:
 
-  1. PaperCrawler READY_FOR_HANDOFF packages  ->  incoming/crawler/releases/
+  1. PaperCrawler schema-2.x Source Packs     ->  incoming/papercrawler/releases/
   2. User / internal documents                ->  incoming/manual/inbox/
 
 into deterministic processing bundles under processing/<document_id>/, quality-gated and

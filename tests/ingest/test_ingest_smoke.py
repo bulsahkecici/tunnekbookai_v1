@@ -21,7 +21,7 @@ from tunnelbookai.ingest.config import load_config
 from tunnelbookai.ingest.format_registry import Format, detect, is_supported
 from tunnelbookai.ingest.ids import document_id_for_file, sha256_file
 from tunnelbookai.ingest.original_archive import ArchiveConflict, archive_original
-from tunnelbookai.ingest.sources import crawler_contract, manual_inbox
+from tunnelbookai.ingest.sources import papercrawler_contract, manual_inbox
 from tunnelbookai.ingest.state import IngestState, State, rank
 
 FIX = Path(__file__).resolve().parent / "fixtures"
@@ -140,8 +140,8 @@ class StateMachineTests(unittest.TestCase):
             self.assertTrue(s.is_terminal("ING_z"))
 
 
-def _write_crawler_release(root: Path, *, schema="2.0", producer="paper-crawler-agent",
-                           corrupt_sha=False, status="READY_FOR_HANDOFF") -> Path:
+def _write_papercrawler_release(root: Path, *, schema="2.0", producer="paper-crawler-agent",
+                                corrupt_sha=False, status="READY_FOR_HANDOFF", deprecated=False) -> Path:
     rel = root / "RELEASE_2026_09_02"
     reg = rel / "00_registry"
     orig = rel / "01_originals" / "C_ACADEMIC" / "ARTICLES" / "PC_TEST01"
@@ -159,63 +159,65 @@ def _write_crawler_release(root: Path, *, schema="2.0", producer="paper-crawler-
         "producer": producer, "source_kind": "EXTERNAL_DISCOVERY", "title": "Synthetic",
         "local_path": "01_originals/C_ACADEMIC/ARTICLES/PC_TEST01/source.pdf",
         "sha256": ("0" * 64) if corrupt_sha else sha,
-        "provisional_primary_section": "5.5.2",
-        "provisional_secondary_sections": ["5.4"],
-        "provisional_section_confidence": 0.91,
-        "crawler_evidence_level": "LIGHT_PDF_TEXT",
         "final_primary_section": None, "final_section_status": "NOT_EVALUATED",
         "paper_crawler_status": status, "tunnelbookai_status": "NOT_INGESTED",
         "provenance": {"source_url": "https://example.org/p", "discovery_source": "crossref"},
     }
+    if deprecated:
+        record.update({"provisional_primary_section": "5.5.2", "book_sections": [{"id": "5.4"}]})
     (reg / "handoff_manifest.jsonl").write_text(json.dumps(record) + "\n")
     return rel
 
 
-class CrawlerContractTests(unittest.TestCase):
-    def test_valid_package_accepted_and_provisional_preserved(self):
+class PaperCrawlerContractTests(unittest.TestCase):
+    def test_clean_schema_2_package_is_accepted(self):
         with tempfile.TemporaryDirectory() as d:
             releases = Path(d)
-            _write_crawler_release(releases)
-            res = crawler_contract.consume_release(releases / "RELEASE_2026_09_02")
+            _write_papercrawler_release(releases)
+            res = papercrawler_contract.consume_release(releases / "RELEASE_2026_09_02")
             self.assertEqual(res.blockers, [])
             self.assertEqual(len(res.accepted), 1)
-            prov = res.accepted[0].provenance["crawler_provisional"]
-            self.assertEqual(prov["provisional_primary_section"], "5.5.2")
-            self.assertEqual(prov["crawler_evidence_level"], "LIGHT_PDF_TEXT")
-            # final section is NOT taken from the crawler
-            self.assertNotIn("final_primary_section", res.accepted[0].provenance)
+            self.assertEqual(res.accepted[0].notes, [])
+
+    def test_deprecated_section_fields_are_accepted_but_not_mapped(self):
+        with tempfile.TemporaryDirectory() as d:
+            releases = Path(d)
+            _write_papercrawler_release(releases, deprecated=True)
+            res = papercrawler_contract.consume_release(releases / "RELEASE_2026_09_02")
+            self.assertEqual(len(res.accepted), 1)
+            self.assertIn("DEPRECATED_PRODUCER_SECTION_FIELD:provisional_primary_section", res.accepted[0].notes)
+            self.assertNotIn("provisional_primary_section", res.accepted[0].provenance)
+            self.assertNotIn("book_sections", res.accepted[0].provenance)
 
     def test_sha_mismatch_rejected(self):
         with tempfile.TemporaryDirectory() as d:
-            _write_crawler_release(Path(d), corrupt_sha=True)
-            res = crawler_contract.consume_release(Path(d) / "RELEASE_2026_09_02")
+            _write_papercrawler_release(Path(d), corrupt_sha=True)
+            res = papercrawler_contract.consume_release(Path(d) / "RELEASE_2026_09_02")
             self.assertEqual(res.accepted, [])
             self.assertEqual(res.skipped[0]["reason"], "sha256_mismatch")
 
     def test_wrong_producer_rejected(self):
         with tempfile.TemporaryDirectory() as d:
-            _write_crawler_release(Path(d), producer="evil-agent")
-            res = crawler_contract.consume_release(Path(d) / "RELEASE_2026_09_02")
+            _write_papercrawler_release(Path(d), producer="evil-agent")
+            res = papercrawler_contract.consume_release(Path(d) / "RELEASE_2026_09_02")
             self.assertTrue(any("wrong_producer" in b for b in res.blockers))
 
     def test_unsupported_schema_major_rejected(self):
         with tempfile.TemporaryDirectory() as d:
-            _write_crawler_release(Path(d), schema="3.0")
-            res = crawler_contract.consume_release(Path(d) / "RELEASE_2026_09_02")
+            _write_papercrawler_release(Path(d), schema="3.0")
+            res = papercrawler_contract.consume_release(Path(d) / "RELEASE_2026_09_02")
             self.assertTrue(any("unsupported_contract_schema" in b for b in res.blockers))
 
-    def test_legacy_1x_only_with_optin(self):
+    def test_legacy_1x_is_rejected(self):
         with tempfile.TemporaryDirectory() as d:
-            _write_crawler_release(Path(d), schema="1.1")
+            _write_papercrawler_release(Path(d), schema="1.1")
             rel = Path(d) / "RELEASE_2026_09_02"
-            self.assertTrue(crawler_contract.consume_release(rel).blockers)
-            self.assertEqual(
-                len(crawler_contract.consume_release(rel, allow_legacy_1x=True).accepted), 1)
+            self.assertTrue(papercrawler_contract.consume_release(rel).blockers)
 
     def test_not_ready_status_skipped(self):
         with tempfile.TemporaryDirectory() as d:
-            _write_crawler_release(Path(d), status="MANUAL_REVIEW")
-            res = crawler_contract.consume_release(Path(d) / "RELEASE_2026_09_02")
+            _write_papercrawler_release(Path(d), status="MANUAL_REVIEW")
+            res = papercrawler_contract.consume_release(Path(d) / "RELEASE_2026_09_02")
             self.assertEqual(res.accepted, [])
             self.assertTrue(res.skipped[0]["reason"].startswith("status_"))
 

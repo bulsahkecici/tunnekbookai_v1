@@ -1,21 +1,15 @@
-# Final section classification (§39-§47). Reuses crawler/config/{taxonomy,classification_policy}.yaml
-# fusion math and the loopback security boundary from crawler/src/hybrid_classifier.py.
+# Final section classification. TunnelBookAI owns section taxonomy and final decisions.
 version: 1
 
 taxonomy_source: book/scope/normalized/book_scope.json   # SINGLE canonical taxonomy (§40)
-crawler_taxonomy_terms: crawler/config/taxonomy.yaml      # strong/medium terms per section id
+taxonomy_terms: config/taxonomy.yaml
 
 embedding:
   enabled: true
-  local_servers:
-    - http://127.0.0.1:1234/v1
-    - http://127.0.0.1:11434/v1
-  preferred_model_terms: ['nomic-embed', 'embed']
   top_k: 8
   min_similarity: 0.30
-  # Cloud fallback: NONE (§43). Loopback only.
 
-fusion:            # mirrors crawler/config/classification_policy.yaml
+fusion:
   rule_weight: 0.55
   embedding_weight: 0.45
   auto_accept_score: 0.88
@@ -25,8 +19,6 @@ fusion:            # mirrors crawler/config/classification_policy.yaml
 
 llm_arbiter:
   enabled: true
-  base_url: http://127.0.0.1:1234/v1
-  preferred_model_terms: ['qwen3.6', 'qwen3']
   timeout_seconds: 90
   # Called ONLY on rule/embedding disagreement, close scores, low confidence,
   # multi-section ambiguity (§44). Strong agreement -> skip.
@@ -35,6 +27,3 @@ llm_arbiter:
 
 secondary_sections:
   min_score: 0.55          # configurable threshold (§47)
-
-crawler_provisional:
-  use_as_feature: true     # hint / feature only — never forces the final (§42, §93)

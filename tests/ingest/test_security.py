@@ -111,17 +111,15 @@ class EmbeddingSecurityTests(unittest.TestCase):
         for url in REMOTE_URLS[:4]:
             with self.subTest(url=url):
                 with self.assertRaises(RemoteEndpointRejected):
-                    LocalEmbeddingClient(url)
+                    LocalEmbeddingClient(url, "configured-model")
 
     def test_configured_servers_are_all_loopback(self):
         config = load_config()
-        for server in config.classification["embedding"]["local_servers"]:
-            self.assertTrue(assert_loopback(server))
+        self.assertTrue(assert_loopback(config.models["embedding"]["default_endpoint"]))
 
     def test_remote_server_in_config_raises_rather_than_falling_back(self):
-        config = SimpleNamespace(classification={
-            "embedding": {"enabled": True, "local_servers": ["https://api.openai.com/v1"],
-                          "preferred_model_terms": ["embed"]}})
+        config = SimpleNamespace(classification={"embedding": {"enabled": True}}, models={
+            "embedding": {"model": "configured-model", "default_endpoint": "https://api.openai.com/v1"}})
         with self.assertRaises(RemoteEndpointRejected):
             build_index(config, load_taxonomy())
 
@@ -137,12 +135,12 @@ class ArbiterSecurityTests(unittest.TestCase):
 
     def test_configured_arbiter_is_loopback(self):
         config = load_config()
-        self.assertTrue(assert_loopback(config.classification["llm_arbiter"]["base_url"]))
+        self.assertTrue(assert_loopback(config.models["llm"]["default_endpoint"]))
         self.assertTrue(assert_loopback(config.metadata["llm_enrichment"]["base_url"]))
 
     def test_remote_arbiter_config_raises(self):
-        config = SimpleNamespace(classification={
-            "llm_arbiter": {"enabled": True, "base_url": "https://api.openai.com/v1"}})
+        config = SimpleNamespace(classification={"llm_arbiter": {"enabled": True}}, models={
+            "llm": {"model": "configured-model", "default_endpoint": "https://api.openai.com/v1"}})
         with self.assertRaises(RemoteEndpointRejected):
             arbitrate("metin", [{"id": "1.1", "score": 0.5}], load_taxonomy(), config)
 
