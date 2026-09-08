@@ -20,26 +20,17 @@ from __future__ import annotations
 
 import argparse
 import json
-import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 from .config import load_config
 from .format_registry import detect, is_supported
 from .ids import DocumentIdMap, document_id_for_file
+from .office_renderer import find_libreoffice
 from .paths import PATHS, relpath
 from .sources import DiscoveredInput
 from .sources import manual_inbox, papercrawler_contract
 from .state import IngestState, State
-
-try:
-    import sys as _sys
-    sys.path.insert(0, str(PATHS.root / "scripts"))
-    from utils import find_libreoffice  # noqa: E402
-except Exception:  # pragma: no cover
-    def find_libreoffice():
-        return None
-
 
 def _now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")

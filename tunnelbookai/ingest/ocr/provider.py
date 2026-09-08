@@ -1,7 +1,7 @@
 """Local OCR provider (task §23, §24, §25).
 
 Local engines only — there is no network path in this module (§26, §80). RapidOCR (torch
-backend) is the preferred engine, matching the existing `scripts/03_convert.py` setup so the
+backend) is the preferred engine, matching the validated local setup so the
 two pipelines produce comparable text.
 
 Contract per OCR run:

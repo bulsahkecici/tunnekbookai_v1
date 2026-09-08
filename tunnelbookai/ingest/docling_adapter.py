@@ -76,7 +76,7 @@ def _ocr_options(config: IngestConfig, unsupported: list[str]):
         # RapidOCR language codes differ from ISO-639-1; map conservatively.
         mapped = [{"en": "english", "tr": "latin", "ch": "chinese"}.get(l, l) for l in langs]
         # The default RapidOCR backend is onnxruntime, which this environment does not ship;
-        # config/ocr.yaml pins engine_type: torch to match scripts/03_convert.py.
+        # config/ocr.yaml pins the locally validated torch engine.
         backend = {"torch": "torch", "onnxruntime": "onnxruntime",
                    "openvino": "openvino", "paddle": "paddle"}.get(
                        str(config.ocr.get("engine_type", "torch")).lower())

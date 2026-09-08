@@ -1,6 +1,6 @@
 """Metadata enrichment (task §28-§31).
 
-Evidence discipline, reused from `scripts/09_metadata_enrichment.py`:
+Evidence discipline is implemented inside the Unified Ingest package:
 
   * a value is written only when the document, its package properties, its filename or the
     crawler manifest actually supports it;
@@ -23,7 +23,8 @@ from typing import Any
 
 from ..extraction import ExtractionResult
 from .provenance import ProvenanceLog
-from .schema import empty_metadata, legacy_vocabularies, validate
+from . import vocabularies
+from .schema import empty_metadata, validate
 
 DATE_PATTERNS = (
     re.compile(r"\b(\d{2})[./](\d{2})[./]((?:19|20)\d{2})\b"),
@@ -107,7 +108,6 @@ def build_metadata(
 ) -> tuple[dict[str, Any], ProvenanceLog, list[str]]:
     """Assemble metadata.json + metadata_provenance.json. Returns (metadata, log, warnings)."""
     warnings: list[str] = []
-    legacy = legacy_vocabularies()
     metadata = empty_metadata(document_id)
     log = ProvenanceLog()
 
@@ -138,7 +138,7 @@ def build_metadata(
             candidate = PROJECT_ROOT / candidate
         if candidate.is_file():
             text = candidate.read_text(encoding="utf-8", errors="replace")
-    excerpt = legacy.analysis_excerpt(text, 2500)
+    excerpt = vocabularies.analysis_excerpt(text, 2500)
 
     core = _ooxml_core_properties(original_path) if original_path.suffix.lower() in {
         ".docx", ".pptx", ".xlsx", ".pptm"} else {}
@@ -203,7 +203,7 @@ def build_metadata(
                 confidence="medium", inferred=True,
                 reason=f"explicit date literal in the document: {matched}")
     else:
-        year, evidence, confidence, conflict = legacy.infer_year(
+        year, evidence, confidence, conflict = vocabularies.infer_year(
             display_name, metadata.get("title") or "", text, "")
         if year and not conflict:
             log.set(metadata, "document_date", year, source="document_content",
@@ -224,7 +224,7 @@ def build_metadata(
         log.miss("revision", "no revision marker found")
 
     # -------------------------------------------------------------- language
-    language, language_confidence = legacy.infer_language(text, "")
+    language, language_confidence = vocabularies.infer_language(text, "")
     if language != "unknown":
         log.set(metadata, "language", language, source="document_content",
                 confidence=language_confidence, inferred=True,
@@ -233,7 +233,7 @@ def build_metadata(
         log.miss("language", "too little text for reliable language detection")
 
     # --------------------------------------------------------- document_type
-    document_type, dt_evidence, dt_confidence = legacy.infer_document_type(
+    document_type, dt_evidence, dt_confidence = vocabularies.infer_document_type(
         display_name, metadata.get("title") or "", text, "", original_path.suffix.lower())
     if document_type != "unknown":
         log.set(metadata, "document_type", document_type, source="document_content",
@@ -242,7 +242,7 @@ def build_metadata(
         metadata["document_type"] = None
         log.miss("document_type", dt_evidence)
 
-    topics, topic_evidence, topic_confidence = legacy.infer_topics(
+    topics, topic_evidence, topic_confidence = vocabularies.infer_topics(
         display_name, metadata.get("title") or "", text, "")
     if topics:
         log.set(metadata, "topics", list(topics), source="document_content",
@@ -287,7 +287,8 @@ def build_metadata(
 
     llm_cfg = (config.metadata or {}).get("llm_enrichment", {}) or {}
     if llm_cfg.get("enabled"):
-        warnings += _llm_enrich(metadata, log, text, llm_cfg)
+        warnings += _llm_enrich(
+            metadata, log, text, llm_cfg, (config.models or {}).get("llm", {}) or {})
 
     problems = validate(metadata)
     warnings += [f"METADATA_{p}" for p in problems]
@@ -295,8 +296,10 @@ def build_metadata(
 
 
 def _llm_enrich(metadata: dict[str, Any], log: ProvenanceLog, text: str,
-                cfg: dict[str, Any]) -> list[str]:
+                cfg: dict[str, Any], model_cfg: dict[str, Any]) -> list[str]:
     """Optional loopback-only Qwen pass. Only fills fields still null, never overwrites."""
+    import os
+
     from ..classify.arbiter import LocalChatClient
     from ..vision.provider import RemoteEndpointRejected
 
@@ -304,15 +307,17 @@ def _llm_enrich(metadata: dict[str, Any], log: ProvenanceLog, text: str,
     if not targets:
         return []
     try:
-        client = LocalChatClient(cfg.get("base_url", "http://127.0.0.1:1234/v1"),
+        endpoint = os.getenv(str(model_cfg.get("endpoint_env") or "LLM_SERVER"),
+                             str(model_cfg.get("default_endpoint") or ""))
+        client = LocalChatClient(endpoint,
                                  timeout=float(cfg.get("timeout_seconds", 120)))
     except RemoteEndpointRejected:
         raise
-    if not client.available():
-        return ["METADATA_LLM_UNAVAILABLE"]
-    model = cfg.get("model") or client.pick_model(["qwen"])
+    model = str(model_cfg.get("model") or "").strip()
     if not model:
         return ["METADATA_LLM_NO_MODEL"]
+    if not client.has_model(model):
+        return ["METADATA_LLM_UNAVAILABLE"]
     system = (
         "Sen bir belge üstveri çıkarıcısısın. SADECE verilen metinde birebir geçen bilgileri "
         "döndür. Tahmin etme. Emin değilsen null yaz. Yanıtı JSON ver: "

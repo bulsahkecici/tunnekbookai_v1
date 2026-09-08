@@ -96,3 +96,19 @@ are protected by their dedicated adapter tests.
 Start the two local model services, run the capability probe, then ingest one approved
 PaperCrawler release or manual document into staging. Review the resulting quality and
 classification audits before any separate canonical-promotion decision.
+
+## Post-reset follow-up — 2026-09-08
+
+- Reset and architecture changes were committed as `f1d2fa0` and pushed to `origin/main`
+  without rewriting history.
+- LM Studio was bound directly to `127.0.0.1:1234`; both exact configured models passed
+  the capability probe. The current decision is **AVAILABLE**, with a stable 1,024-value
+  embedding vector and a successful structured LLM response.
+- Pre-reset scripts, documentation, configuration and the duplicate book-input package
+  were isolated under `archive/legacy_pre_reset/`. The active ingest package no longer
+  dynamically imports a legacy script.
+- The reset quality gate now rejects active legacy topology, unsupported root scripts,
+  old runtime paths and the retired model identifier.
+
+The statements above describing `MODEL_SERVICE_UNAVAILABLE` and no commit are retained as
+the historical 2026-09-04 observation; this follow-up supersedes them operationally.

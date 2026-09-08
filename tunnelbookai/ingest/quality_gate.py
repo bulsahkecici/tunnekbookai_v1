@@ -2,7 +2,7 @@
 
     GO      every minimum requirement holds; the document may be staged
     REVIEW  usable, but something needs a human look (thin evidence, missing renderer,
-            low section confidence, crawler/final disagreement)
+            low section confidence, producer/final disagreement)
     REJECT  a minimum requirement failed — the document must not be staged
 
 Format-specific rules (§45): a missing Office renderer is a REVIEW reason, never a REJECT;

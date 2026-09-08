@@ -1,7 +1,7 @@
 # Manuel / Kurum İçi Doküman Kutusu
 
 Bu klasör, kendi eklediğiniz dokümanları TunnelBookAI'nin **Unified Ingest Engine**'ine
-vermek içindir. PaperCrawler paketleri buraya değil, `incoming/crawler/releases/` altına gider.
+vermek içindir. PaperCrawler paketleri buraya değil, `incoming/papercrawler/releases/` altına gider.
 
 ## Nasıl kullanılır
 

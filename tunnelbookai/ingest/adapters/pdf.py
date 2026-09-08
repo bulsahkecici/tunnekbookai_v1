@@ -4,7 +4,7 @@
         -> tables -> pictures -> page snapshots -> normalized outputs
 
 Native text is preferred over OCR: OCR runs when Docling's text layer is thin or empty
-(the `pdf_rapidocr` idea from `scripts/03_convert.py`, reused rather than duplicated —
+(the validated `pdf_rapidocr` path, reused rather than duplicated —
 here it renders through the same `assets.snapshots` pdfium path).
 """
 

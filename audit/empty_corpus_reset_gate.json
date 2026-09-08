@@ -22,6 +22,17 @@
     "vectors": true,
     "legacy_crawler_removed": true,
     "papercrawler_input_ready": true,
-    "manual_input_ready": true
-  }
+    "manual_input_ready": true,
+    "active_scripts_current": true,
+    "legacy_topology_isolated": true,
+    "legacy_runtime_references_absent": true
+  },
+  "active_scripts": [
+    "ingest_incoming.py",
+    "probe_models.py",
+    "promote_staging.py",
+    "reset_legacy_state.py"
+  ],
+  "legacy_active_paths": [],
+  "legacy_runtime_references": []
 }

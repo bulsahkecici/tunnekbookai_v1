@@ -26,8 +26,13 @@ olarak loopback’te çalışır. Servis kapalıysa sistem başka model seçmez 
 ```bash
 PYTHONPATH=. .venv/bin/python scripts/ingest_incoming.py --source manual --dry-run
 PYTHONPATH=. .venv/bin/python scripts/ingest_incoming.py --source papercrawler --dry-run
+PYTHONPATH=. .venv/bin/python scripts/probe_models.py
 PYTHONPATH=. .venv/bin/python shared/project_quality_gate.py
 ```
+
+The repository-level `scripts/` directory contains only supported post-reset operator
+commands. Historical pipeline scripts are isolated under `archive/legacy_pre_reset/` and
+must not be used against the current layout.
 
 Model adlarının tek otoritesi `config/models.yaml`’dır. CLI override sırası:
 `--embedding-model` / `--llm-model` > `config/models.yaml` > açık hata veya unavailable.

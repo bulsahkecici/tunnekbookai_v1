@@ -1,20 +1,15 @@
 """Canonical ingest metadata schema (task §29, §31).
 
 The schema is deliberately small and explicit. Every unknown value is `null` or the literal
-`UNKNOWN` — nothing is ever invented (§31). Controlled vocabularies are imported from
-`scripts/09_metadata_enrichment.py` rather than re-declared, so the ingest engine and the
-legacy corpus pipeline can never drift apart.
+`UNKNOWN` — nothing is ever invented (§31). Controlled vocabularies and deterministic
+inference helpers live in the ingest package and have no legacy-pipeline dependency.
 """
 
 from __future__ import annotations
 
-import importlib.util
-import sys
-from functools import lru_cache
-from pathlib import Path
 from typing import Any
 
-from ..paths import PROJECT_ROOT
+from . import vocabularies
 
 CONFIDENTIALITY = {"PUBLIC", "INTERNAL", "RESTRICTED", "UNKNOWN"}
 DOCUMENT_STATUS = {"FINAL", "APPROVED", "DRAFT", "WORKING_DOCUMENT", "UNKNOWN"}
@@ -30,19 +25,6 @@ NULLABLE_FIELDS = (
     "document_type", "source_url", "doi", "final_primary_section",
     "final_section_confidence", "final_evidence_level",
 )
-
-
-@lru_cache(maxsize=1)
-def legacy_vocabularies() -> Any:
-    """Import the legacy enrichment module for its vocabularies and inference helpers."""
-    path = PROJECT_ROOT / "scripts" / "09_metadata_enrichment.py"
-    spec = importlib.util.spec_from_file_location("tunnelbookai_legacy_metadata", path)
-    if spec is None or spec.loader is None:  # pragma: no cover
-        raise RuntimeError(f"cannot load {path}")
-    module = importlib.util.module_from_spec(spec)
-    sys.modules[spec.name] = module
-    spec.loader.exec_module(module)
-    return module
 
 
 def empty_metadata(document_id: str) -> dict[str, Any]:
@@ -104,7 +86,7 @@ def validate(metadata: dict[str, Any]) -> list[str]:
         problems.append("INVALID_SECONDARY_SECTIONS_NOT_LIST")
     document_type = metadata.get("document_type")
     if document_type is not None:
-        if document_type not in legacy_vocabularies().DOCUMENT_TYPES:
+        if document_type not in vocabularies.DOCUMENT_TYPES:
             problems.append(f"INVALID_DOCUMENT_TYPE:{document_type}")
     sha = metadata.get("original_sha256") or ""
     if sha and (len(sha) != 64 or not all(c in "0123456789abcdef" for c in sha.lower())):

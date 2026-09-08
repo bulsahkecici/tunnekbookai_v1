@@ -1,13 +1,12 @@
-# Metadata enrichment (§30-§34). Reuses controlled vocabularies from
-# scripts/09_metadata_enrichment.py (imported, not duplicated).
+# Metadata enrichment (§30-§34). Controlled vocabularies are owned by
+# tunnelbookai.ingest.metadata.vocabularies.
 version: 1
 
 llm_enrichment:
   enabled: false          # opt-in; loopback qwen only
-  base_url: http://127.0.0.1:1234/v1
-  model: qwen3.6-35b-a3b-mlx
   temperature: 0.1
   timeout_seconds: 120
+  # Endpoint and exact model identity come only from config/models.yaml.
   # LLM may extract / normalize / suggest. It may NOT invent organization, date,
   # author, department, approval status. Missing -> null. Inference -> {inferred:true,
   # confidence, reason}. (§32)

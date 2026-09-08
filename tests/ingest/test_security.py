@@ -136,7 +136,8 @@ class ArbiterSecurityTests(unittest.TestCase):
     def test_configured_arbiter_is_loopback(self):
         config = load_config()
         self.assertTrue(assert_loopback(config.models["llm"]["default_endpoint"]))
-        self.assertTrue(assert_loopback(config.metadata["llm_enrichment"]["base_url"]))
+        self.assertNotIn("base_url", config.metadata["llm_enrichment"])
+        self.assertNotIn("model", config.metadata["llm_enrichment"])
 
     def test_remote_arbiter_config_raises(self):
         config = SimpleNamespace(classification={"llm_arbiter": {"enabled": True}}, models={

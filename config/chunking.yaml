@@ -7,9 +7,9 @@ policy_version: "structure-aware-v1"
 # Token policy.
 #
 # The task's suggested starting point was target 700 / max 1000 / min 150. This project
-# already HAS a chunk policy that was validated against the 214-document canonical corpus
-# (scripts/11_semantic_chunking.py: CHUNKER_VERSION semantic-markdown-v1.1, target 850,
-# soft min 250, soft max 1200, hard max 1500, tokenizer unicode-lexical-v1), so §51's
+# already had a chunk policy validated against the former 214-document corpus
+# (semantic-markdown-v1.1: target 850, soft min 250, soft max 1200, hard max 1500,
+# tokenizer unicode-lexical-v1), so §51's
 # "reuse appropriate tested values" applies and those numbers are carried over rather than
 # re-tuned blind. `overlap_tokens` is new in this engine.
 tokens:

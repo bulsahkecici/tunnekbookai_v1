@@ -1,7 +1,7 @@
 """Token counting for the chunk policy (task §51).
 
 `unicode-lexical-v1` is the same lexical tokenizer the validated legacy chunker uses
-(`scripts/11_semantic_chunking.py`), so the token budgets carried over from that policy mean
+(the former validated semantic chunker), so the token budgets carried over from that policy mean
 the same thing here. It is a deterministic proxy for model tokens, not a model tokenizer —
 which is exactly what a stable, offline chunk policy needs.
 """

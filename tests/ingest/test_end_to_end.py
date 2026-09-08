@@ -68,7 +68,7 @@ class IsolatedRunMixin(unittest.TestCase):
     def build_root(cls) -> Path:
         root = Path(tempfile.mkdtemp(prefix="tbai_e2e_"))
         real = Path(__file__).resolve().parents[2]
-        for relative in ("config", "book/scope/normalized", "scripts"):
+        for relative in ("config", "book/scope/normalized"):
             (root / relative).mkdir(parents=True, exist_ok=True)
         for name in ("ingest", "ocr", "vision", "metadata", "classification",
                      "quality_gate", "chunking", "models"):
@@ -77,10 +77,6 @@ class IsolatedRunMixin(unittest.TestCase):
         shutil.copy2(real / "book/scope/normalized/book_scope.json",
                      root / "book/scope/normalized/book_scope.json")
         shutil.copy2(real / "config/taxonomy.yaml", root / "config/taxonomy.yaml")
-        shutil.copy2(real / "scripts" / "utils.py", root / "scripts" / "utils.py")
-        shutil.copy2(real / "scripts" / "09_metadata_enrichment.py",
-                     root / "scripts" / "09_metadata_enrichment.py")
-        shutil.copy2(real / "config" / "config.yaml", root / "config" / "config.yaml")
         for relative in ("incoming/manual/inbox", "incoming/papercrawler/releases",
                          "incoming/quarantine", "originals", "processing", "audit",
                          "corpus/staging", "corpus/canonical"):
@@ -98,7 +94,6 @@ class IsolatedRunMixin(unittest.TestCase):
         import tunnelbookai.ingest.paths as paths_module
         from tunnelbookai.ingest.classify import taxonomy as taxonomy_module
         from tunnelbookai.ingest.config import load_config
-        from tunnelbookai.ingest.metadata import schema as schema_module
 
         original = paths_module.PATHS
         paths_module.PATHS = paths_module.IngestPaths(root=root)
@@ -118,7 +113,6 @@ class IsolatedRunMixin(unittest.TestCase):
                 module.PATHS = patched
         load_config.cache_clear()
         taxonomy_module.load_taxonomy.cache_clear()
-        schema_module.legacy_vocabularies.cache_clear()
         original_project_root = paths_module.PROJECT_ROOT
         paths_module.PROJECT_ROOT = root
         try:
@@ -130,7 +124,6 @@ class IsolatedRunMixin(unittest.TestCase):
                 importlib.import_module(name).PATHS = value
             load_config.cache_clear()
             taxonomy_module.load_taxonomy.cache_clear()
-            schema_module.legacy_vocabularies.cache_clear()
 
     def run_cli(self, argv: list[str]) -> tuple[int, str]:
         from tunnelbookai.ingest.cli import main
