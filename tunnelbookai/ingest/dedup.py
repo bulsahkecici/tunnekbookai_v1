@@ -123,6 +123,7 @@ class SourceRegistry:
 
     path: Path
     rows: dict[str, dict[str, Any]] = field(default_factory=dict)
+    active_document_ids: set[str] | None = None
 
     def __post_init__(self) -> None:
         if self.path.is_file():
@@ -134,21 +135,40 @@ class SourceRegistry:
     # ------------------------------------------------------------------ lookup
     def find(self, key: DedupKey) -> DedupMatch | None:
         for document_id, row in self.rows.items():
+            if self.active_document_ids is not None and document_id not in self.active_document_ids:
+                continue
+            # A duplicate row is evidence about the later document, not a new identity
+            # authority.  Letting it participate in reverse lookups can incorrectly make
+            # the original document look like a duplicate of its own derivative.
+            if row.get("duplicate_of"):
+                continue
             if document_id == key.document_id:
                 continue
             if key.sha256 and row.get("sha256", "").lower() == key.sha256:
                 return DedupMatch(document_id, "sha256", EXACT, key.sha256[:16])
         for document_id, row in self.rows.items():
+            if self.active_document_ids is not None and document_id not in self.active_document_ids:
+                continue
+            if row.get("duplicate_of"):
+                continue
             if document_id == key.document_id:
                 continue
             if key.doi and normalize_doi(row.get("doi")) == key.doi:
                 return DedupMatch(document_id, "doi", EXACT, key.doi)
         for document_id, row in self.rows.items():
+            if self.active_document_ids is not None and document_id not in self.active_document_ids:
+                continue
+            if row.get("duplicate_of"):
+                continue
             if document_id == key.document_id:
                 continue
             if key.url and normalize_url(row.get("url")) == key.url:
                 return DedupMatch(document_id, "url", EXACT, key.url)
         for document_id, row in self.rows.items():
+            if self.active_document_ids is not None and document_id not in self.active_document_ids:
+                continue
+            if row.get("duplicate_of"):
+                continue
             if document_id == key.document_id or not key.title or key.title_is_weak:
                 continue
             if row.get("title_is_weak"):
@@ -158,6 +178,10 @@ class SourceRegistry:
                     continue
                 return DedupMatch(document_id, "normalized_title", STRONG, key.title[:60])
         for document_id, row in self.rows.items():
+            if self.active_document_ids is not None and document_id not in self.active_document_ids:
+                continue
+            if row.get("duplicate_of"):
+                continue
             if (document_id == key.document_id or not key.title or not key.year
                     or key.title_is_weak or row.get("title_is_weak")):
                 continue
@@ -180,6 +204,8 @@ class SourceRegistry:
                  duplicate_of: str | None = None,
                  duplicate_rule: str | None = None) -> dict[str, Any]:
         row = self.rows.setdefault(key.document_id, {"document_id": key.document_id})
+        if self.active_document_ids is not None:
+            self.active_document_ids.add(key.document_id)
         row.update({
             "sha256": key.sha256,
             "doi": key.doi or None,
@@ -202,6 +228,9 @@ class SourceRegistry:
         if duplicate_of:
             row["duplicate_of"] = duplicate_of
             row["duplicate_rule"] = duplicate_rule
+        else:
+            row.pop("duplicate_of", None)
+            row.pop("duplicate_rule", None)
         return row
 
     def flush(self) -> None:
@@ -232,3 +261,40 @@ def resolve(registry: SourceRegistry, metadata: dict[str, Any], *,
                       provenance_sources=provenance_sources,
                       duplicate_of=duplicate_of, duplicate_rule=duplicate_rule)
     return match, warnings
+
+
+def active_document_ids(project_root: Path) -> set[str]:
+    """Return dedup identities backed by both an original source and processing metadata.
+
+    Ledger-only rows remain preserved for audit, but cannot suppress a real input.
+    """
+    root = Path(project_root)
+    out: set[str] = set()
+    originals = root / "originals"
+    processing = root / "processing"
+    if not originals.is_dir():
+        return out
+    for directory in originals.iterdir():
+        if not directory.is_dir() or directory.is_symlink():
+            continue
+        sources = [path for path in directory.glob("source.*") if path.is_file() and not path.is_symlink()]
+        original_path = directory / "original.json"
+        metadata_path = processing / directory.name / "metadata.json"
+        if len(sources) != 1 or not original_path.is_file() or not metadata_path.is_file():
+            continue
+        try:
+            original = json.loads(original_path.read_text(encoding="utf-8"))
+            metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+            sha = str(original.get("original_sha256") or "")
+            if (
+                original.get("document_id") == directory.name
+                and metadata.get("document_id") == directory.name
+                and metadata.get("original_sha256") == sha
+                and len(sha) == 64
+            ):
+                from .ids import sha256_file
+                if sha256_file(sources[0]) == sha:
+                    out.add(directory.name)
+        except (OSError, ValueError, TypeError):
+            continue
+    return out

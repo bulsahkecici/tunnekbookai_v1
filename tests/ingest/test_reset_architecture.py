@@ -3,9 +3,11 @@
 from __future__ import annotations
 
 import unittest
+import tempfile
 from pathlib import Path
+from unittest import mock
 
-from shared.project_quality_gate import evaluate
+from shared.project_quality_gate import evaluate_empty_reset_gate, inspect_legacy_isolation
 from tunnelbookai.ingest.config import load_config
 from tunnelbookai.ingest.model_capability import UNAVAILABLE, probe
 from tunnelbookai.ingest.metadata import vocabularies
@@ -16,18 +18,34 @@ ROOT = Path(__file__).resolve().parents[2]
 
 class ResetArchitectureTests(unittest.TestCase):
     def test_empty_corpus_gate_passes(self):
-        result = evaluate()
-        self.assertEqual(result["decision"], "GO")
-        self.assertFalse(result["legacy_crawler_present"])
-        self.assertFalse(result["legacy_corpus_present"])
-        self.assertFalse(result["legacy_vector_state_present"])
+        # The reset gate describes an empty bootstrap layout, while a healthy live
+        # repository may later contain ignored ingest outputs.  Exercise the gate in
+        # an isolated empty layout instead of requiring operators to delete user data.
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for relative in (
+                "corpus/canonical", "corpus/staging", "originals", "processing",
+                "incoming/papercrawler/releases", "incoming/manual/inbox", "scripts", "audit",
+            ):
+                (root / relative).mkdir(parents=True, exist_ok=True)
+            for name in (
+                "ingest_incoming.py", "probe_models.py", "promote_staging.py",
+                "reset_legacy_state.py",
+            ):
+                (root / "scripts" / name).touch()
+            with mock.patch("shared.project_quality_gate.ROOT", root):
+                result = evaluate_empty_reset_gate()
+            self.assertEqual(result["decision"], "GO")
+            self.assertFalse(result["legacy_crawler_present"])
+            self.assertFalse(result["legacy_corpus_present"])
+            self.assertFalse(result["legacy_vector_state_present"])
 
     def test_papercrawler_is_an_input_not_an_internal_component(self):
         self.assertTrue((ROOT / "incoming" / "papercrawler" / "releases").is_dir())
         self.assertFalse((ROOT / "crawler").exists())
 
     def test_legacy_runtime_is_isolated_from_active_topology(self):
-        result = evaluate()
+        result = inspect_legacy_isolation()
         self.assertTrue(result["checks"]["active_scripts_current"])
         self.assertTrue(result["checks"]["legacy_topology_isolated"])
         self.assertTrue(result["checks"]["legacy_runtime_references_absent"])

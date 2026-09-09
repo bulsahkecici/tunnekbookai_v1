@@ -4,8 +4,8 @@ No handoff contract required. The engine derives SHA256, MIME, format, filename,
 ingest timestamp and source_kind = MANUAL_INTERNAL. Provenance is never lost: the relative
 inbox path and drop time are recorded.
 
-Files are discovered under incoming/manual/ (recursively, including incoming/manual/inbox/).
-README.md and dotfiles are ignored.
+Files are discovered only under incoming/manual/inbox/ recursively. README.md, Office
+temporary files, dotfiles, hidden directory trees, and symlinks are ignored.
 """
 
 from __future__ import annotations
@@ -27,15 +27,20 @@ def _mtime_iso(path: Path) -> str:
 
 
 def discover(config: IngestConfig, manual_root: Path | None = None) -> list[DiscoveredInput]:
-    root = manual_root or PATHS.incoming_manual_root
+    root = manual_root or PATHS.incoming_manual_inbox
     if not root.is_dir():
         return []
     supported = config.supported_extensions | config.legacy_extensions
     found: list[DiscoveredInput] = []
     for path in sorted(root.rglob("*")):
-        if not path.is_file():
+        relative = path.relative_to(root)
+        if path.is_symlink() or not path.is_file():
             continue
-        if path.name.lower() in _IGNORE_NAMES or path.name.startswith("~$") or path.name.startswith("."):
+        if (
+            path.name.lower() in _IGNORE_NAMES
+            or path.name.startswith("~$")
+            or any(part.startswith(".") for part in relative.parts)
+        ):
             continue
         rel = relpath(path)
         det = detect(path)

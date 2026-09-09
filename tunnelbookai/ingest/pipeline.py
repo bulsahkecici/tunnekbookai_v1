@@ -180,6 +180,7 @@ def process_document(
 
     # ------------------------------------------------------------------ dedup
     registry = services.registry
+    match = None
     if registry is not None:
         match, dedup_warnings = dedup_resolve(
             registry, metadata,
@@ -191,6 +192,16 @@ def process_document(
             outcome.duplicate_of = match.document_id
     state.transition(document_id, State.DEDUP_COMPLETED, source_kind=source_kind,
                      detail={"duplicate_of": outcome.duplicate_of})
+
+    if match is not None and match.strength != "PROBABLE":
+        state.transition(
+            document_id, State.DUPLICATE, source_kind=source_kind,
+            detail={"duplicate_of": match.document_id, "duplicate_rule": match.rule},
+        )
+        if registry is not None:
+            registry.rows[document_id]["state"] = State.DUPLICATE.value
+        outcome.state = State.DUPLICATE
+        return outcome
 
     # ------------------------------------------------------------------ classification
     normalized_text = ""
@@ -223,6 +234,12 @@ def process_document(
         document_id=document_id, archive_meta=archive_meta, provenance_doc=provenance_doc,
         extraction=extraction, metadata=metadata, classification=classification,
         evidence_level=evidence_level, config=services.config, original_path=original_path)
+    if match is not None and match.strength == "PROBABLE":
+        gate.review_reasons.append(
+            f"DUPLICATE_CANDIDATE:{match.rule}:{match.document_id}"
+        )
+        if gate.decision == gate_module.GO:
+            gate.decision = gate_module.REVIEW
     gate_module.write_gate(bundle, document_id, gate)
     outcome.decision = gate.decision
     outcome.warnings += gate.review_reasons

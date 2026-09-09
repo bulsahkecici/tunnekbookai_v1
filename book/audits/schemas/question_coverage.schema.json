@@ -1,14 +1,27 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "TunnelBookAI question-aware coverage",
+  "title": "TunnelBookAI question coverage summary",
   "type": "object",
-  "required": ["section_id", "document_coverage", "question_coverage"],
+  "additionalProperties": false,
+  "required": [
+    "total",
+    "answered",
+    "partial",
+    "not_answered",
+    "coverage",
+    "complete_audit",
+    "publication_gate_passed"
+  ],
   "properties": {
-    "section_id": {"type": "string"},
-    "document_coverage": {"type": "object", "required": ["corpus_eligible_documents"]},
-    "question_coverage": {
-      "type": "object",
-      "required": ["total_questions", "supported", "partial", "insufficient", "no_evidence", "support_rate"]
-    }
+    "total": {"type": "integer", "minimum": 0},
+    "answered": {"type": "integer", "minimum": 0},
+    "partial": {"type": "integer", "minimum": 0},
+    "not_answered": {"type": "integer", "minimum": 0},
+    "coverage": {"type": "number", "minimum": 0, "maximum": 1},
+    "complete_audit": {"type": "boolean"},
+    "count_threshold_met": {"type": "boolean"},
+    "coverage_threshold_met": {"type": "boolean"},
+    "publication_gate_passed": {"type": "boolean"},
+    "book_status": {"type": "string"}
   }
 }

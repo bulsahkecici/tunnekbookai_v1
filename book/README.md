@@ -59,3 +59,18 @@ BOOK INPUT VALIDATION: PASS
 2. **Post-writing chapter audit:** Yazılan bölüm bu soruya gerçekten cevap veriyor mu?
 
 Tam 2.950 soruluk LLM değerlendirmesi bu paket oluşturulurken çalıştırılmamıştır.
+
+## Üretim sözleşmesi
+
+Aktif kitap üretim politikası `book/config/book_contract.json` dosyasındadır. Sözleşme,
+normalize edilmiş kapsam ve soru bankası dosyalarının SHA-256 kimliklerini de sabitler.
+Merkezi doğrulayıcı hem bu kimlikleri hem de 66/59/2.950 yapısal ilişkilerini kontrol eder:
+
+```bash
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book validate
+```
+
+Kapsama ilişkin üç nihai durum yalnızca `ANSWERED`, `PARTIAL`, `NOT_ANSWERED` olabilir.
+`ANSWERED` sonucu gerçek bölüm içi span, claim, document ve locator kimlikleri olmadan
+geçerli değildir. `PARTIAL` yayın kapsamasına dahil edilmez. Global kapı 1.770/2.950 ve
+%60'tır; 30/50 bölüm eşiği V1'de tercih edilen güçlü hedeftir, hard gate değildir.

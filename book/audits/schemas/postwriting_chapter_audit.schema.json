@@ -1,14 +1,59 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "TunnelBookAI post-writing chapter audit",
+  "title": "TunnelBookAI post-writing question coverage result",
   "type": "object",
-  "required": ["question_id", "section_id", "chapter_status", "evidence_documents", "confidence"],
+  "additionalProperties": false,
+  "required": [
+    "question_id",
+    "section_id",
+    "question",
+    "status",
+    "answer_spans",
+    "supporting_claim_ids",
+    "supporting_document_ids",
+    "source_locators",
+    "confidence",
+    "reason"
+  ],
   "properties": {
-    "question_id": {"type": "string"},
-    "section_id": {"type": "string"},
-    "chapter_status": {"enum": ["ANSWERED", "PARTIALLY_ANSWERED", "NOT_ANSWERED", "UNSUPPORTED_CLAIM", "NOT_APPLICABLE"]},
-    "answer_location": {"type": ["object", "null"]},
-    "evidence_documents": {"type": "array", "items": {"type": "string"}},
-    "confidence": {"type": "number", "minimum": 0, "maximum": 1}
-  }
+    "question_id": {"type": "string", "minLength": 1},
+    "section_id": {"type": "string", "minLength": 1},
+    "question": {"type": "string", "minLength": 1},
+    "status": {"enum": ["ANSWERED", "PARTIAL", "NOT_ANSWERED"]},
+    "answer_spans": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["section_file", "paragraph_or_sentence_ids"],
+        "properties": {
+          "section_file": {"type": "string", "minLength": 1},
+          "paragraph_or_sentence_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {"type": "string", "minLength": 1}
+          }
+        }
+      }
+    },
+    "supporting_claim_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "supporting_document_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "source_locators": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "reason": {"type": "string"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"status": {"const": "ANSWERED"}}},
+      "then": {
+        "properties": {
+          "answer_spans": {"minItems": 1},
+          "supporting_claim_ids": {"minItems": 1},
+          "supporting_document_ids": {"minItems": 1},
+          "source_locators": {"minItems": 1}
+        }
+      }
+    }
+  ]
 }

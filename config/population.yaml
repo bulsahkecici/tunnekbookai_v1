@@ -1,0 +1,14 @@
+version: 1
+
+batching:
+  heavy_formats: [PDF, DOCX, PPTX, XLSX, PNG, JPG, DOC, PPT, XLS, RTF]
+  heavy_max_documents: 10
+  heavy_max_source_bytes: 262144000
+  light_max_documents: 50
+  light_max_source_bytes: 104857600
+  minimum_free_bytes: 107374182400
+  initial_processing_expansion_factor: 35
+
+promotion:
+  max_documents: 25
+  max_materialized_bytes: 1073741824

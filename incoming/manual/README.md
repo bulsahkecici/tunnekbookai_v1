@@ -5,7 +5,8 @@ vermek içindir. PaperCrawler paketleri buraya değil, `incoming/papercrawler/re
 
 ## Nasıl kullanılır
 
-Dosyalarınızı doğrudan bu klasöre veya `incoming/manual/inbox/` altına bırakın:
+Dosyalarınızı yalnızca `incoming/manual/inbox/` altına bırakın. Keşif bu kökten recursive
+çalışır; `incoming/manual/` içindeki kardeş dosyalar aday değildir:
 
 ```text
 incoming/manual/inbox/
@@ -43,6 +44,8 @@ hazırlamanıza gerek yoktur — SHA256, MIME, format, boyut, zaman damgası ve 
 - **Ağ kullanılmaz.** Manuel işleme sırasında hiçbir uzak servise (bulut OCR, bulut vision,
   bulut LLM) bağlanılmaz. Yerel yapay zekâ yalnız `127.0.0.1` üzerinde kabul edilir.
 - Aynı dosyayı iki kez bıraksanız bile ikinci kez yeniden işlenmez (`ALREADY_PROCESSED`).
+- Sembolik bağlar, gizli yollar, `README.md`, platform artıkları ve geçici Office dosyaları
+  yok sayılır; ZIP/TAR/7z dosyaları açılmaz.
 - Bu görev kapsamında hiçbir belge `corpus/canonical/`'e yazılmaz; yalnız kalite kapısından
   geçenler `corpus/staging/` için hazırlanır.
 

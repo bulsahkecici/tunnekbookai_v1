@@ -164,7 +164,7 @@ def _dry_run(inputs: list[DiscoveredInput], skipped: list[dict]) -> int:
 
 def _build_services(args, config):
     """Construct the shared, expensive resources once per run."""
-    from .dedup import SourceRegistry
+    from .dedup import SourceRegistry, active_document_ids
     from .classify import embeddings as embedding_module
     from .classify.taxonomy import load_taxonomy
     from .ocr.provider import OcrProvider
@@ -177,7 +177,10 @@ def _build_services(args, config):
     ocr = OcrProvider(config, enabled=do_ocr)
     vision = build_provider(config, enabled=do_vision)      # raises on a non-loopback host
     renderer = OfficeRenderer()
-    registry = SourceRegistry(PATHS.source_registry_path)
+    registry = SourceRegistry(
+        PATHS.source_registry_path,
+        active_document_ids=active_document_ids(PATHS.root),
+    )
 
     taxonomy = load_taxonomy(
         (config.classification or {}).get("taxonomy_source",
@@ -222,6 +225,66 @@ def _group_by_identity(inputs: list[DiscoveredInput]) -> tuple[dict, list[dict]]
     return groups, unreadable
 
 
+def _canonical_documents() -> dict[str, dict]:
+    """Return verified canonical records, failing closed on an invalid snapshot."""
+    from tunnelbookai.canonical.verifier import inspect_canonical, load_snapshot
+
+    # Older isolated ingest fixtures predate the Book Contract and contain only a decoy
+    # canonical file used to prove ingest never writes there. A real manifest without the
+    # authority files is still a hard failure; marker/decoy-only fixtures have no members.
+    if not (PATHS.root / "book" / "config" / "book_contract.json").is_file():
+        if (PATHS.canonical_corpus_root / "canonical_manifest.json").is_file():
+            raise RuntimeError("canonical manifest exists but Book Contract is unavailable")
+        return {}
+    inventory = inspect_canonical(project_root=PATHS.root)
+    if inventory.state.value == "INVALID":
+        raise RuntimeError("canonical corpus is INVALID; ingest is blocked")
+    if not inventory.ready:
+        return {}
+    snapshot = load_snapshot(project_root=PATHS.root)
+    return {record.document_id: record.to_dict() for record in snapshot.manifest.documents}
+
+
+def _terminal_artifacts_complete(state: IngestState, document_id: str, sha256: str) -> bool:
+    """A ledger state is reusable only when its expected artifacts still exist."""
+    from .ids import sha256_file
+
+    current = state.state_of(document_id)
+    if current not in {
+        State.EMBEDDING_READY, State.REVIEW, State.REJECTED, State.DUPLICATE,
+        State.ALREADY_PROCESSED,
+    }:
+        return False
+    row = state.get(document_id) or {}
+    if str(row.get("sha256") or "") != sha256:
+        return False
+    if current is State.REJECTED and (row.get("detail") or {}).get("reason") == "UNSUPPORTED_FORMAT":
+        return True
+    original = PATHS.original_dir(document_id)
+    sources = [path for path in original.glob("source.*") if path.is_file() and not path.is_symlink()]
+    if len(sources) != 1 or not (original / "original.json").is_file():
+        return False
+    if sha256_file(sources[0]) != sha256:
+        return False
+    bundle = PATHS.processing_bundle(document_id)
+    if not all(
+        (bundle / name).is_file()
+        for name in ("metadata.json", "provenance.json", "extraction_report.json")
+    ):
+        return False
+    if current in {State.REVIEW, State.REJECTED, State.EMBEDDING_READY, State.ALREADY_PROCESSED}:
+        if not all((bundle / name).is_file() for name in ("classification.json", "quality_gate.json")):
+            return False
+    if current in {State.EMBEDDING_READY, State.ALREADY_PROCESSED}:
+        required = (
+            bundle / "chunks" / "chunk_manifest.jsonl",
+            bundle / "chunks" / "embedding_ready.jsonl",
+            PATHS.corpus_staging_root / "v2" / document_id / "bundle.json",
+        )
+        return all(path.is_file() and not path.is_symlink() for path in required)
+    return True
+
+
 def _run(inputs: list[DiscoveredInput], skipped: list[dict], args) -> int:
     from .original_archive import archive_original
     from .pipeline import process_document
@@ -229,8 +292,6 @@ def _run(inputs: list[DiscoveredInput], skipped: list[dict], args) -> int:
     from .chunking.policy import ChunkPolicy
 
     config = load_config()
-    services = _build_services(args, config)
-
     state = IngestState(PATHS.ingest_state_path)
     id_map = DocumentIdMap(PATHS.document_id_map_path)
     manifest_rows: list[dict] = []
@@ -239,6 +300,9 @@ def _run(inputs: list[DiscoveredInput], skipped: list[dict], args) -> int:
     libre = find_libreoffice()
 
     groups, unreadable = _group_by_identity(inputs)
+    canonical_documents = _canonical_documents()
+    services = None
+    callback = getattr(args, "outcome_callback", None)
     for row in unreadable:
         failed += 1
         print(f"  FAILED (unreadable): {row['input_path']}: {row['error']}")
@@ -249,12 +313,43 @@ def _run(inputs: list[DiscoveredInput], skipped: list[dict], args) -> int:
         sha = group["sha256"]
         det = detect(primary.input_path)
 
+        canonical = canonical_documents.get(doc_id)
+        if canonical is not None:
+            if canonical.get("source_sha256") != sha:
+                raise RuntimeError(f"canonical document identity conflict: {doc_id}")
+            reused += 1
+            print(f"  {doc_id}  {det.fmt.value:5}  ALREADY_CANONICAL")
+            if callback:
+                callback({"document_id": doc_id, "disposition": "ALREADY_CANONICAL", "engine_state": None})
+            continue
+
         if not is_supported(det, libreoffice_available=libre is not None):
             state.transition(doc_id, State.REJECTED, source_kind=primary.source_kind, sha256=sha,
                              detail={"reason": "UNSUPPORTED_FORMAT", "format": det.fmt.value})
             manifest_rows.append(_manifest_row(doc_id, primary, det, sha, "REJECTED",
                                                "UNSUPPORTED_FORMAT"))
+            if callback:
+                callback({"document_id": doc_id, "disposition": "UNSUPPORTED", "engine_state": State.REJECTED.value})
             continue
+
+
+        if args.resume and not args.force_reprocess and _terminal_artifacts_complete(state, doc_id, sha):
+            reused += 1
+            current = state.state_of(doc_id)
+            disposition = {
+                State.EMBEDDING_READY: "ALREADY_PROCESSED",
+                State.ALREADY_PROCESSED: "ALREADY_PROCESSED",
+                State.REVIEW: "NEEDS_REVIEW",
+                State.REJECTED: "REJECTED",
+                State.DUPLICATE: "DUPLICATE",
+            }[current]
+            print(f"  {doc_id}  {det.fmt.value:5}  {disposition}")
+            if callback:
+                callback({"document_id": doc_id, "disposition": disposition, "engine_state": current.value})
+            continue
+
+        if services is None:
+            services = _build_services(args, config)
 
         # Archive once, then fold in EVERY source's provenance — this happens even when the
         # document is already processed, so a later crawler sighting still registers (§77).
@@ -273,6 +368,9 @@ def _run(inputs: list[DiscoveredInput], skipped: list[dict], args) -> int:
             failed += 1
             state.transition(doc_id, State.FAILED, source_kind=primary.source_kind, sha256=sha,
                              error=f"archive: {exc}")
+            if callback:
+                callback({"document_id": doc_id, "disposition": "FAILED",
+                          "engine_state": State.FAILED.value, "error": str(exc)})
             continue
 
         source_kinds = sorted({item.source_kind for item in items})
@@ -285,28 +383,42 @@ def _run(inputs: list[DiscoveredInput], skipped: list[dict], args) -> int:
         else:
             reused += 1
 
-        if state.is_terminal(doc_id) and not args.force_reprocess:
-            # already fully processed: its provenance was just refreshed above, so re-register
-            # it in the dedup ledger and move on without re-extracting.
-            _register_existing(services, doc_id, bundle, source_kinds)
-            state.transition(doc_id, State.ALREADY_PROCESSED, source_kind=primary.source_kind,
-                             sha256=sha)
-            reused += 1
+        try:
+            outcome = process_document(
+                document_id=doc_id, detection=det, archive_meta=meta, services=services,
+                state=state, source_kind=primary.source_kind)
+        except Exception as exc:
+            failed += 1
+            state.transition(
+                doc_id, State.FAILED, source_kind=primary.source_kind, sha256=sha,
+                error=f"pipeline: {type(exc).__name__}: {exc}"[:500],
+            )
+            print(f"  FAILED {doc_id}: {type(exc).__name__}: {exc}")
+            if callback:
+                callback({"document_id": doc_id, "disposition": "FAILED", "engine_state": State.FAILED.value, "error": str(exc)})
             continue
-
-        outcome = process_document(
-            document_id=doc_id, detection=det, archive_meta=meta, services=services,
-            state=state, source_kind=primary.source_kind)
         outcomes.append(outcome)
         manifest_rows.append(_manifest_row(doc_id, primary, det, sha, outcome.state.value,
                                            outcome.decision or "", outcome))
         print(f"  {doc_id}  {det.fmt.value:5}  {outcome.state.value:18} "
               f"{outcome.decision or '-':7} section={outcome.primary_section or '-':8} "
               f"chunks={outcome.chunk_count} sources={len(items)}")
+        if callback:
+            disposition = {
+                State.EMBEDDING_READY: "STAGED",
+                State.STAGED: "STAGED",
+                State.REVIEW: "NEEDS_REVIEW",
+                State.REJECTED: "REJECTED",
+                State.DUPLICATE: "DUPLICATE",
+                State.FAILED: "FAILED",
+            }.get(outcome.state, "FAILED")
+            callback({"document_id": doc_id, "disposition": disposition,
+                      "engine_state": outcome.state.value, **outcome.as_row()})
 
-    id_map.flush()
-    if services.registry is not None:
-        services.registry.flush()
+    if services is not None:
+        id_map.flush()
+        if services.registry is not None:
+            services.registry.flush()
     _write_manifest(manifest_rows)
 
     # audit/embedding_ready_manifest.jsonl — one row per chunk across the run (§64)
@@ -323,9 +435,10 @@ def _run(inputs: list[DiscoveredInput], skipped: list[dict], args) -> int:
         merge_into(PATHS.audit_root / "embedding_ready_manifest.jsonl", ready_rows,
                    document_ids=touched)
 
-    _write_quality_summary(outcomes, services)
+    if services is not None:
+        _write_quality_summary(outcomes, services)
     _print_summary(inputs, outcomes, archived, reused, failed, manifest_rows, services)
-    return 0
+    return 1 if failed or any(outcome.state is State.FAILED for outcome in outcomes) else 0
 
 
 def _register_existing(services, document_id: str, bundle: Path,
@@ -353,6 +466,7 @@ def _print_summary(inputs, outcomes, archived, reused, failed, manifest_rows, se
     staged = sum(1 for o in outcomes if o.state in (State.STAGED, State.EMBEDDING_READY))
     review = sum(1 for o in outcomes if o.state is State.REVIEW)
     rejected = sum(1 for o in outcomes if o.state is State.REJECTED)
+    duplicates = sum(1 for o in outcomes if o.state is State.DUPLICATE)
     pipeline_failed = sum(1 for o in outcomes if o.state is State.FAILED)
     chunks = sum(o.chunk_count for o in outcomes)
     ready = sum(o.embedding_ready_count for o in outcomes)
@@ -365,6 +479,7 @@ def _print_summary(inputs, outcomes, archived, reused, failed, manifest_rows, se
     print(f"Reused / already processed: {reused}")
     print(f"Staged (GO):                {staged}")
     print(f"Review:                     {review}")
+    print(f"Duplicates:                 {duplicates}")
     print(f"Rejected:                   {rejected + sum(1 for r in manifest_rows if r['status'] == 'REJECTED')}")
     print(f"Failed:                     {failed + pipeline_failed}")
     print(f"Chunks produced:            {chunks}")

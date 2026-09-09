@@ -1,0 +1,45 @@
+{
+  "actor": "bulsahkecici",
+  "after": {
+    "chunk_count": 385,
+    "corpus_digest": "f7142fdea2dd8fef733226a96a886b1975e7119ae449ee1c19940e9602f000e0",
+    "document_count": 1,
+    "manifest_path": "corpus/canonical/canonical_manifest.json",
+    "manifest_sha256": "d4441aae3e508b09dc54199e75f351a3c5dcae1a2d9915434aea9d1ae5eb6036",
+    "ready": true,
+    "reasons": [],
+    "retrieval_allowed": true,
+    "retrieval_ready_chunk_count": 385,
+    "state": "READY",
+    "warnings": []
+  },
+  "applied_candidates": [
+    "ING_b6a2b2e47753afe8699c"
+  ],
+  "approval": {
+    "kind": "EXACT_PLAN_ID",
+    "matched": true,
+    "value": "CCP_c89c16e1bde1cd0254134425107babed68225f77b935551204a088530426729f"
+  },
+  "before": {
+    "canonical_corpus_digest": null,
+    "chunk_count": 0,
+    "document_count": 0,
+    "manifest_sha256": null,
+    "retrieval_ready_chunk_count": 0,
+    "state": "EMPTY"
+  },
+  "contract_version": "controlled-canonical-promotion-v1",
+  "error": null,
+  "finished_at": "2026-09-08T20:50:29+00:00",
+  "idempotent_candidates": [],
+  "plan_id": "CCP_c89c16e1bde1cd0254134425107babed68225f77b935551204a088530426729f",
+  "planned_candidates": [
+    "ING_b6a2b2e47753afe8699c"
+  ],
+  "promotion_id": "CPA_20260908T205029Z_530426729f_5f39f00d",
+  "rejected_candidates": [],
+  "result": "APPLIED",
+  "schema_version": "1.0",
+  "started_at": "2026-09-08T20:50:29+00:00"
+}

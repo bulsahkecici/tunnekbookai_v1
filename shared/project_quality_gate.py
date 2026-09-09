@@ -1,7 +1,8 @@
-"""Empty-corpus readiness gate for TunnelBookAI."""
+"""Explicit empty-reset and active-architecture isolation gates for TunnelBookAI."""
 
 from __future__ import annotations
 
+import argparse
 import json
 from pathlib import Path
 from typing import Any
@@ -49,10 +50,11 @@ def _files(path: Path) -> list[Path]:
     return [p for p in path.rglob("*") if p.is_file() and p.name != ".gitkeep"] if path.is_dir() else []
 
 
-def _active_legacy_references() -> list[str]:
+def active_legacy_references(root_path: Path | None = None) -> list[str]:
     """Find pre-reset runtime references outside the explicit archive/history areas."""
     hits: list[str] = []
-    roots = (ROOT / "scripts", ROOT / "tunnelbookai", ROOT / "config")
+    base = root_path or ROOT
+    roots = (base / "scripts", base / "tunnelbookai", base / "config")
     old_model = "qwen3" + ".6-35b-a3b-mlx"
     for root in roots:
         if not root.is_dir():
@@ -67,11 +69,29 @@ def _active_legacy_references() -> list[str]:
             markers = [marker for marker in LEGACY_RUNTIME_MARKERS if marker in text]
             if old_model in text:
                 markers.append(old_model)
-            hits.extend(f"{path.relative_to(ROOT)}:{marker}" for marker in markers)
+            hits.extend(f"{path.relative_to(base)}:{marker}" for marker in markers)
     return sorted(hits)
 
 
-def evaluate() -> dict[str, Any]:
+def inspect_legacy_isolation(root_path: Path | None = None) -> dict[str, Any]:
+    base = root_path or ROOT
+    active_scripts = sorted(p.name for p in (base / "scripts").glob("*.py"))
+    legacy_active_paths = [path for path in LEGACY_ACTIVE_PATHS if (base / path).exists()]
+    legacy_references = active_legacy_references(base)
+    checks = {
+        "legacy_crawler_removed": not (base / "crawler").exists(),
+        "active_scripts_current": set(active_scripts) == SUPPORTED_SCRIPTS,
+        "legacy_topology_isolated": not legacy_active_paths,
+        "legacy_runtime_references_absent": not legacy_references,
+    }
+    return {
+        "decision": "GO" if all(checks.values()) else "NO_GO", "checks": checks,
+        "active_scripts": active_scripts, "legacy_active_paths": legacy_active_paths,
+        "legacy_runtime_references": legacy_references,
+    }
+
+
+def evaluate_empty_reset_gate() -> dict[str, Any]:
     canonical = _files(ROOT / "corpus" / "canonical")
     staging = _files(ROOT / "corpus" / "staging")
     originals = _files(ROOT / "originals")
@@ -79,9 +99,10 @@ def evaluate() -> dict[str, Any]:
     chunks = [p for p in processing if "/chunks/" in p.as_posix()]
     embeddings = _files(ROOT / "data" / "embeddings") + _files(ROOT / "data" / "embeddings_pilot")
     vectors = _files(ROOT / "data" / "qdrant_storage") + _files(ROOT / "data" / "qdrant_snapshots")
-    active_scripts = sorted(p.name for p in (ROOT / "scripts").glob("*.py"))
-    legacy_active_paths = [path for path in LEGACY_ACTIVE_PATHS if (ROOT / path).exists()]
-    legacy_references = _active_legacy_references()
+    isolation = inspect_legacy_isolation(ROOT)
+    active_scripts = isolation["active_scripts"]
+    legacy_active_paths = isolation["legacy_active_paths"]
+    legacy_references = isolation["legacy_runtime_references"]
     checks = {
         "canonical_documents": len(canonical) == 0,
         "staging_documents": len(staging) == 0,
@@ -117,5 +138,15 @@ def evaluate() -> dict[str, Any]:
     return result
 
 
+def evaluate() -> dict[str, Any]:
+    """Backward-compatible name for the EMPTY RESET GATE."""
+    return evaluate_empty_reset_gate()
+
+
 if __name__ == "__main__":
-    print(json.dumps(evaluate(), ensure_ascii=False, indent=2))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--mode", choices=("empty-reset", "isolation"), default="empty-reset")
+    args = parser.parse_args()
+    result = evaluate_empty_reset_gate() if args.mode == "empty-reset" else inspect_legacy_isolation()
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+    raise SystemExit(0 if result["decision"] == "GO" else 2)

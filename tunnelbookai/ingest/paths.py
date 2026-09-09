@@ -28,8 +28,8 @@ def relpath(path: Path, base: Path | None = None) -> str:
         return path.as_posix()
 
 
-def _load_paths_json() -> dict[str, str]:
-    data = json.loads((PROJECT_ROOT / "config" / "paths.json").read_text(encoding="utf-8"))
+def _load_paths_json(root: Path = PROJECT_ROOT) -> dict[str, str]:
+    data = json.loads((Path(root) / "config" / "paths.json").read_text(encoding="utf-8"))
     return {k: v for k, v in data.items() if isinstance(v, str)}
 
 
@@ -39,7 +39,7 @@ class IngestPaths:
 
     @cached_property
     def _map(self) -> dict[str, str]:
-        return _load_paths_json()
+        return _load_paths_json(self.root)
 
     def _p(self, key: str, default: str) -> Path:
         return self.root / self._map.get(key, default)

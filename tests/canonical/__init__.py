@@ -1,0 +1,1 @@
+"""Controlled canonical promotion tests."""

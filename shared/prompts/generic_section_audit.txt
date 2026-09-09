@@ -17,9 +17,9 @@ Drafttaki her teknik/faktüel cümleyi admitted_claims ile karşılaştır.
 
 Statüler:
 SUPPORTED
-PARTIALLY_SUPPORTED
+PARTIAL
 UNSUPPORTED
-SCOPE_LEAKAGE
+NON_FACTUAL_OR_EDITORIAL
 
 Ayrıca:
 - qualifier kaybını kontrol et
@@ -28,7 +28,7 @@ Ayrıca:
 - scope_exclusions kapsamındaki ayrıntıları SCOPE_LEAKAGE kabul et
 
 PASS yalnızca:
-- partially_supported = 0
+- partial = 0
 - unsupported = 0
 - scope_leakage = 0
 - unsupported_source_identity = 0
@@ -45,7 +45,7 @@ SADECE geçerli JSON üret:
   "decision": "PASS|HOLD",
   "summary": {
     "supported": 0,
-    "partially_supported": 0,
+    "partial": 0,
     "unsupported": 0,
     "scope_leakage": 0,
     "unsupported_source_identity": 0,
@@ -54,8 +54,9 @@ SADECE geçerli JSON üret:
   "sentence_audit": [
     {
       "sentence": "...",
-      "status": "SUPPORTED|PARTIALLY_SUPPORTED|UNSUPPORTED|SCOPE_LEAKAGE",
+      "status": "SUPPORTED|PARTIAL|UNSUPPORTED|NON_FACTUAL_OR_EDITORIAL",
       "supporting_claim_ids": [],
+      "scope_leakage": false,
       "reason": "..."
     }
   ],
@@ -75,5 +76,5 @@ STRICT SUPPORT RULES:
 - Bir cümle SUPPORTED ise supporting_claim_ids boş OLAMAZ.
 - Sentez ve sonuç cümleleri de en az bir admitted claim ID ile açıkça desteklenmelidir.
 - "Genel bağlam cümlesi" olması claim ID zorunluluğunu kaldırmaz.
-- Bir cümlenin yalnızca bir kısmı claimlerle destekleniyorsa PARTIALLY_SUPPORTED olarak işaretle.
+- Bir cümlenin yalnızca bir kısmı claimlerle destekleniyorsa PARTIAL olarak işaretle.
 - Evidence packet içinde bulunmayan bir ayrıntıyı "genel kabul görür", "bilinir", "yaygın olarak kabul edilir" gibi gerekçelerle desteklenmiş sayma.

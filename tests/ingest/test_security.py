@@ -13,6 +13,7 @@ import contextlib
 import io
 import unittest
 from types import SimpleNamespace
+from unittest import mock
 
 from tunnelbookai.ingest import docling_adapter
 from tunnelbookai.ingest.classify.arbiter import LocalChatClient, arbitrate
@@ -224,7 +225,7 @@ class LocalOnlyConfigTests(unittest.TestCase):
 
 
 class PromotionSafetyTests(unittest.TestCase):
-    """§2, §47 — the promotion script can never target the canonical corpus."""
+    """§2, §47 — the legacy script never owns canonical apply behavior."""
 
     def test_canonical_target_refused(self):
         import importlib.util
@@ -248,9 +249,11 @@ class PromotionSafetyTests(unittest.TestCase):
             "promote_staging_dry", PROJECT_ROOT / "scripts" / "promote_staging.py")
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
-        with contextlib.redirect_stdout(io.StringIO()):
-            exit_code = module.main(["--json"])
+        with mock.patch.object(module, "canonical_main", return_value=0) as delegated:
+            with contextlib.redirect_stdout(io.StringIO()):
+                exit_code = module.main(["--json"])
         self.assertEqual(exit_code, 0)
+        delegated.assert_called_once_with(["plan", "--json"])
         self.assertFalse((PROJECT_ROOT / "corpus" / "promoted_v2").exists(),
                          "a dry run must not create the target directory")
 

@@ -101,6 +101,19 @@ class DedupTests(unittest.TestCase):
         self.assertTrue(any(w.startswith("DUPLICATE_EXACT:sha256") for w in warnings))
         self.assertEqual(self.registry.rows["ING_b"]["duplicate_of"], "ING_a")
 
+    def test_duplicate_row_never_becomes_reverse_identity_authority(self):
+        resolve(self.registry, _metadata("ING_original", original_sha256="1" * 64,
+                                         doi="10.1000/original"),
+                source_kinds=["EXTERNAL_DISCOVERY"], state="DEDUP")
+        resolve(self.registry, _metadata("ING_duplicate", original_sha256="2" * 64,
+                                         doi="10.1000/original"),
+                source_kinds=["MANUAL_INTERNAL"], state="DUPLICATE")
+        match = self.registry.find(
+            DedupKey.from_metadata(_metadata("ING_original", original_sha256="1" * 64,
+                                             doi="10.1000/original"))
+        )
+        self.assertIsNone(match)
+
     def test_doi_and_url_normalization(self):
         self.assertEqual(normalize_doi("https://doi.org/10.1234/AbC"), "10.1234/abc")
         self.assertEqual(normalize_doi("DOI:10.1234/abc."), "10.1234/abc")

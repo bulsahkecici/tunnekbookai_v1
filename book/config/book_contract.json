@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "contract_version": "book-production-v1-foundation",
+  "product": "TÜNEL YAPIM, BAKIM VE İŞLETME",
+  "authorities": {
+    "scope": {
+      "path": "book/scope/normalized/book_scope.json",
+      "sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a"
+    },
+    "question_bank": {
+      "path": "book/question_bank/normalized/question_bank.jsonl",
+      "sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70"
+    },
+    "question_bank_index": {
+      "path": "book/question_bank/normalized/question_bank_index.json",
+      "sha256": "23fc9c15c590165fc7450b8683ee4523819f8e9277833eee0ce06e16e96709f2"
+    },
+    "question_bank_integrity": {
+      "path": "book/audits/question_bank_integrity.json",
+      "sha256": "0379df1eea39ba5fa025693546a170b51946ca2b7094b561a172e4a5fbd9cdbd"
+    },
+    "source_manifest": {
+      "path": "book/audits/source_manifest.json",
+      "sha256": "241b14958947613ef9ad0787e3b3bb8684e6eac7e1d963adc2af64f49b07bb97"
+    }
+  },
+  "expected_structure": {
+    "top_level_chapters": 7,
+    "structural_headings": 66,
+    "question_bank_sections": 59,
+    "questions_per_section": 50,
+    "total_questions": 2950
+  },
+  "coverage_policy": {
+    "allowed_states": [
+      "ANSWERED",
+      "PARTIAL",
+      "NOT_ANSWERED"
+    ],
+    "counted_as_answered": [
+      "ANSWERED"
+    ],
+    "global": {
+      "hard_gate": true,
+      "minimum_answered_count": 1770,
+      "minimum_coverage": 0.6,
+      "requires_complete_audit": true
+    },
+    "section": {
+      "hard_gate": false,
+      "preferred_minimum_answered_count": 30,
+      "preferred_minimum_coverage": 0.6
+    }
+  },
+  "evidence_policy": {
+    "prewriting_states": [
+      "SUPPORTED",
+      "PARTIAL",
+      "UNSUPPORTED"
+    ],
+    "postwriting_statement_states": [
+      "SUPPORTED",
+      "PARTIAL",
+      "UNSUPPORTED",
+      "NON_FACTUAL_OR_EDITORIAL"
+    ],
+    "canonical_root": "corpus/canonical",
+    "canonical_manifest": "corpus/canonical/canonical_manifest.json",
+    "allowed_source_roots": [
+      "corpus/canonical"
+    ],
+    "disallowed_source_roots": [
+      "incoming",
+      "processing",
+      "corpus/staging",
+      "archive",
+      "internet"
+    ],
+    "require_claim_registry": true,
+    "require_document_identity": true,
+    "require_source_locator": true,
+    "require_provenance": true,
+    "no_hallucinated_facts": true,
+    "no_hallucinated_headings": true,
+    "external_evidence_admission": "UNIFIED_INGEST_THEN_CONTROLLED_CANONICAL_PROMOTION"
+  },
+  "citation_policy": {
+    "answer_requires_span": true,
+    "answered_requires_claim_ids": true,
+    "answered_requires_document_ids": true,
+    "answered_requires_source_locators": true,
+    "technical_sentences_require_evidence_audit": true
+  },
+  "model_policy": {
+    "authority_path": "config/models.yaml",
+    "authority_sha256": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "provider": "local",
+    "loopback_only": true,
+    "allow_cloud_fallback": false,
+    "allow_model_substitution": false,
+    "unavailable_reason_code": "MODEL_SERVICE_UNAVAILABLE"
+  },
+  "analysis_artifact_policy": {
+    "evidence_types": [
+      "LITERATURE_EVIDENCE",
+      "PROJECT_ANALYSIS_EVIDENCE",
+      "HUMAN_ANALYSIS_ARTIFACT"
+    ],
+    "states": [
+      "NOT_REQUIRED",
+      "REQUIRED_MISSING",
+      "AVAILABLE",
+      "VERIFIED",
+      "REJECTED"
+    ],
+    "missing_required_state": "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+    "allow_model_to_invent_project_findings": false
+  },
+  "section_policy": {
+    "readiness_states": [
+      "READY",
+      "READY_WITH_LIMITATIONS",
+      "EVIDENCE_GAP",
+      "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+      "BLOCKED"
+    ],
+    "freeze_states": [
+      "NOT_FROZEN",
+      "FREEZE_ELIGIBLE",
+      "FROZEN",
+      "INTEGRITY_FAILED",
+      "UNFROZEN"
+    ],
+    "max_editorial_revisions": 2,
+    "freeze_requirements": [
+      "SCOPE_VALIDATION_PASS",
+      "EVIDENCE_AUDIT_PASS",
+      "NO_MATERIAL_UNSUPPORTED_TECHNICAL_CLAIMS",
+      "QUESTION_COVERAGE_AUDIT_COMPLETE",
+      "EDITORIAL_AUDIT_PASS",
+      "CITATION_PROVENANCE_INTEGRITY_PASS",
+      "REQUIRED_ANALYSIS_ARTIFACTS_SATISFIED"
+    ],
+    "revision_requires_reaudit": true,
+    "rollback_requires_hash_verification": true
+  },
+  "artifact_policy": {
+    "retrieval_index_is_derivative": true,
+    "manifest_driven": true,
+    "atomic_writes_required": true,
+    "identity_fields": [
+      "scope_sha256",
+      "question_bank_sha256",
+      "canonical_corpus_digest",
+      "model_id",
+      "model_configuration",
+      "prompt_version",
+      "software_version"
+    ]
+  },
+  "publication_policy": {
+    "required_structural_headings": 66,
+    "required_question_sections": 59,
+    "required_question_audits": 2950,
+    "requires_all_sections_frozen": true,
+    "requires_global_coverage_gate": true,
+    "requires_cross_chapter_consistency_pass": true,
+    "requires_valid_book_manifest": true,
+    "requires_reproducible_assembly": true,
+    "failure_status": "COVERAGE_REMEDIATION_REQUIRED"
+  }
+}

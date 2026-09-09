@@ -1,8 +1,6 @@
 """Staging for quality-approved documents (task §33, §46).
 
-`corpus/staging/` already holds 122 LEGACY flat crawler bundles (`CAN_*/source.md` +
-`provenance.json`). Those are not touched, moved or overwritten. The unified engine writes to
-a versioned subtree instead:
+The unified engine writes approved candidates to a versioned subtree:
 
     corpus/staging/v2/<document_id>/
         bundle.json           the authoritative manifest for this staged document
@@ -30,9 +28,11 @@ from .paths import PATHS, relpath
 STAGING_VERSION = "v2"
 BUNDLE_SHAPE = "unified_ingest_v1"
 
-_COPY_FILES = ("metadata.json", "metadata_provenance.json", "classification.json",
-               "quality_gate.json", "provenance.json", "extraction_report.json",
-               "chunk_quality.json")
+STAGING_COPY_FILES = ("metadata.json", "metadata_provenance.json", "classification.json",
+                      "quality_gate.json", "provenance.json", "extraction_report.json",
+                      "chunk_quality.json")
+# Compatibility for older callers; canonical promotion imports the public name above.
+_COPY_FILES = STAGING_COPY_FILES
 
 
 def staging_root() -> Path:
@@ -59,7 +59,7 @@ def stage_document(
     target = staging_dir(document_id)
     target.mkdir(parents=True, exist_ok=True)
 
-    for name in _COPY_FILES:
+    for name in STAGING_COPY_FILES:
         source = bundle / name
         if source.is_file():
             shutil.copy2(source, target / name)

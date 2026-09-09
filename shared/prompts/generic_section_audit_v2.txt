@@ -17,28 +17,30 @@ KRİTİK:
 Statüler:
 
 SUPPORTED
-PARTIALLY_SUPPORTED
+PARTIAL
 UNSUPPORTED
-SCOPE_LEAKAGE
+NON_FACTUAL_OR_EDITORIAL
 
 SUPPORTED:
 - supporting_claim_ids boş olamaz.
 - Claim ID yalnızca evidence packet içindeki admitted claim'lerden olabilir.
 - Cümlenin bütün factual içeriği claim'ler tarafından desteklenmelidir.
 
-PARTIALLY_SUPPORTED:
+PARTIAL:
 - Cümlenin yalnızca bir kısmı destekleniyorsa.
 
 UNSUPPORTED:
 - Evidence packet cümlenin factual içeriğini desteklemiyorsa.
 
-SCOPE_LEAKAGE:
-- Cümle mevcut section kapsamının dışına taşıyorsa.
+NON_FACTUAL_OR_EDITORIAL:
+- Cümle teknik/faktüel bir destek iddiası taşımıyorsa.
+
+Kapsam dışına taşma, statüden ayrı `scope_leakage` alanında işaretlenmelidir.
 
 Sentez ve sonuç cümleleri de claim ID ile desteklenmelidir.
 
 PASS yalnızca:
-- partially_supported = 0
+- partial = 0
 - unsupported = 0
 - scope_leakage = 0
 - unsupported_source_identity = 0
@@ -53,7 +55,7 @@ SADECE JSON üret:
   "decision": "PASS|HOLD",
   "summary": {
     "supported": 0,
-    "partially_supported": 0,
+    "partial": 0,
     "unsupported": 0,
     "scope_leakage": 0,
     "unsupported_source_identity": 0,
@@ -62,8 +64,9 @@ SADECE JSON üret:
   "sentence_audit": [
     {
       "sentence_id": "S001",
-      "status": "SUPPORTED|PARTIALLY_SUPPORTED|UNSUPPORTED|SCOPE_LEAKAGE",
+      "status": "SUPPORTED|PARTIAL|UNSUPPORTED|NON_FACTUAL_OR_EDITORIAL",
       "supporting_claim_ids": [],
+      "scope_leakage": false,
       "reason": ""
     }
   ],

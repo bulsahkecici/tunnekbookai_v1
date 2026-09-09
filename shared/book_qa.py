@@ -16,18 +16,15 @@ from typing import Any, Iterable
 
 import yaml
 
+from tunnelbookai.book.contract import load_book_contract
+from tunnelbookai.book.models import QuestionCoverageStatus, QuestionEvidenceStatus
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 BOOK_ROOT = PROJECT_ROOT / "book"
 TAXONOMY_PATH = PROJECT_ROOT / "config" / "taxonomy.yaml"
 
-EVIDENCE_STATUSES = {
-    "SUPPORTED", "PARTIALLY_SUPPORTED", "INSUFFICIENT_EVIDENCE",
-    "NO_EVIDENCE", "NOT_EVALUATED",
-}
-CHAPTER_STATUSES = {
-    "ANSWERED", "PARTIALLY_ANSWERED", "NOT_ANSWERED",
-    "UNSUPPORTED_CLAIM", "NOT_APPLICABLE",
-}
+EVIDENCE_STATUSES = {status.value for status in QuestionEvidenceStatus}
+CHAPTER_STATUSES = {status.value for status in QuestionCoverageStatus}
 
 
 def _json(path: Path) -> Any:
@@ -133,10 +130,8 @@ def question_coverage(
         "question_coverage": {
             "total_questions": total,
             "supported": supported,
-            "partial": counts["PARTIALLY_SUPPORTED"],
-            "insufficient": counts["INSUFFICIENT_EVIDENCE"],
-            "no_evidence": counts["NO_EVIDENCE"],
-            "not_evaluated": counts["NOT_EVALUATED"],
+            "partial": counts["PARTIAL"],
+            "unsupported": counts["UNSUPPORTED"],
             "support_rate": round(supported / total, 4) if total else 0.0,
         },
     }
@@ -149,24 +144,26 @@ def technical_concepts(question: str, *, limit: int = 8) -> list[str]:
     return list(dict.fromkeys(token for token in tokens if len(token) > 3 and token not in stop))[:limit]
 
 
-def chapter_gate(section_id: str, evaluations: Iterable[dict[str, Any]], *, minimum_answer_rate: float = 0.90) -> dict[str, Any]:
+def chapter_gate(section_id: str, evaluations: Iterable[dict[str, Any]], *, minimum_answer_rate: float | None = None) -> dict[str, Any]:
     rows = [row for row in evaluations if str(row.get("section_id") or "") == section_id]
-    counts = Counter(str(row.get("chapter_status") or "NOT_ANSWERED") for row in rows)
+    counts = Counter(str(row.get("status") or row.get("chapter_status") or "NOT_ANSWERED") for row in rows)
     unknown = sorted(set(counts) - CHAPTER_STATUSES)
     if unknown:
         raise ValueError(f"invalid chapter statuses: {unknown}")
-    applicable = len(rows) - counts["NOT_APPLICABLE"]
-    rate = counts["ANSWERED"] / applicable if applicable else 0.0
-    unsupported = counts["UNSUPPORTED_CLAIM"]
-    decision = "GO" if rate >= minimum_answer_rate and not unsupported else ("CONDITIONAL_GO" if not unsupported else "NO_GO")
+    if minimum_answer_rate is None:
+        minimum_answer_rate = float(
+            load_book_contract().coverage_policy["section"]["preferred_minimum_coverage"]
+        )
+    rate = counts["ANSWERED"] / len(rows) if rows else 0.0
+    decision = "TARGET_MET" if rate >= minimum_answer_rate else "TARGET_NOT_MET"
     return {
         "section_id": section_id,
         "total_questions": len(rows),
         "answered": counts["ANSWERED"],
-        "partially_answered": counts["PARTIALLY_ANSWERED"],
+        "partial": counts["PARTIAL"],
         "not_answered": counts["NOT_ANSWERED"],
         "answer_rate": round(rate, 4),
-        "unsupported_claims": unsupported,
+        "hard_gate": False,
         "decision": decision,
     }
 

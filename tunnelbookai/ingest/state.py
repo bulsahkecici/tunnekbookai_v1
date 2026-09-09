@@ -34,6 +34,7 @@ class State(str, Enum):
     EMBEDDING_READY = "EMBEDDING_READY"
     REVIEW = "REVIEW"
     REJECTED = "REJECTED"
+    DUPLICATE = "DUPLICATE"
     FAILED = "FAILED"
     ALREADY_PROCESSED = "ALREADY_PROCESSED"
 
@@ -47,7 +48,10 @@ _ORDER = [
 ]
 # STAGED is no longer terminal: chunking continues past it (§65, §66). Resume compatibility
 # is preserved because rank() still orders every pre-existing state identically.
-_TERMINAL = {State.EMBEDDING_READY, State.REJECTED, State.ALREADY_PROCESSED}
+_TERMINAL = {
+    State.EMBEDDING_READY, State.REVIEW, State.REJECTED, State.DUPLICATE,
+    State.ALREADY_PROCESSED,
+}
 
 
 def _now() -> str:
