@@ -1,8 +1,8 @@
 """Supported-format registry and detection (task §9).
 
-Detection order: OOXML ZIP magic sniff (handles mislabelled .docx/.pptx/.xlsx and bare .zip),
-then extension, then mimetypes. An unsupported format is never silently accepted (stop
-condition §93) — it becomes a REJECT with reason UNSUPPORTED_FORMAT, or a quarantine entry.
+Detection order: file-signature sniff (handles mislabelled PDF and OOXML files), then
+extension, then mimetypes. An unsupported format is never silently accepted (stop condition
+§93) — it becomes a REJECT with reason UNSUPPORTED_FORMAT, or a quarantine entry.
 """
 
 from __future__ import annotations
@@ -78,6 +78,15 @@ def _ooxml_sniff(path: Path) -> Format | None:
     return None
 
 
+def _pdf_sniff(path: Path) -> bool:
+    """Recognize a PDF even when an upstream producer supplied the wrong suffix."""
+    try:
+        with path.open("rb") as handle:
+            return handle.read(5) == b"%PDF-"
+    except OSError:
+        return False
+
+
 def detect(path: Path) -> Detection:
     ext = path.suffix.lower()
     mime = mimetypes.guess_type(path.name)[0] or "application/octet-stream"
@@ -85,6 +94,9 @@ def detect(path: Path) -> Detection:
     sniffed = _ooxml_sniff(path)
     if sniffed is not None:
         return Detection(sniffed, False, mime, "ooxml_magic", ADAPTER[sniffed])
+
+    if _pdf_sniff(path):
+        return Detection(Format.PDF, False, mime, "pdf_magic", ADAPTER[Format.PDF])
 
     fmt = _EXT_MAP.get(ext, Format.UNKNOWN)
     if fmt is Format.UNKNOWN:

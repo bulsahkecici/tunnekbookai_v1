@@ -1,0 +1,149 @@
+{
+  "final_primary_section": "2.4",
+  "final_secondary_sections": [
+    "2.2.2",
+    "2.4.1.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4",
+      "section_title": "Tünellerin Projelendirilmesi",
+      "supporting_elements": [
+        "PARA0091",
+        "PARA0220",
+        "PARA0225",
+        "PARA0343",
+        "PARA1075",
+        "LIST0203"
+      ]
+    },
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0168",
+        "FIG0010",
+        "CAPT0009",
+        "PARA0199",
+        "PARA0228",
+        "PARA0234",
+        "LIST0104",
+        "LIST0105",
+        "LIST0108",
+        "LIST0109",
+        "LIST0110",
+        "LIST0117",
+        "LIST0140",
+        "LIST0145",
+        "LIST0152",
+        "LIST0235",
+        "LIST0253"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "LIST0035",
+        "PARA0307",
+        "PARA0310",
+        "PARA1052",
+        "LIST0139",
+        "LIST0217"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7244,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7886,
+      "chunk_vote": 0.0697
+    },
+    {
+      "id": "2.4",
+      "score": 0.7021,
+      "rule_score": 0.5556,
+      "embedding_score": 0.77,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.4109,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3046
+    },
+    {
+      "id": "1",
+      "score": 0.4033,
+      "rule_score": 0.0,
+      "embedding_score": 0.7797,
+      "chunk_vote": 0.2624
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.3808,
+      "rule_score": 0.6923,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3546,
+      "rule_score": 0.0,
+      "embedding_score": 0.7881,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3515,
+      "rule_score": 0.0,
+      "embedding_score": 0.781,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3475,
+      "rule_score": 0.0,
+      "embedding_score": 0.7722,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3471,
+      "rule_score": 0.0,
+      "embedding_score": 0.7713,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3465,
+      "rule_score": 0.0,
+      "embedding_score": 0.7701,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünellerin sayısal modellemesi (sonlu elemanlar analizi) ve tünel etkileşimlerine odaklanan bir doktora tezidir. Başlıklardaki 'Finite element analysis' ve 'Tunnel induced ground deformation' bölümleri, aday listedeki 'Tünellerin Projelendirilmesi' (2.4) ve 'Yumuşak Zeminde Açılan Tüneller' (2.2.2) ile en güçlü örtüşmeyi göstermektedir. İnşaat esnasındaki çalışmalar (2.4.1.2) da ikincil bir",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7244 gap=0.022 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,623 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_ed43c7e5fc89cc476407f0c19121b09be3d53ff9c53759c8b46c1a3b2519abad",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 12,
+    "SUPPORTED": 10,
+    "UNSUPPORTED": 28
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_cd90c08fadda8f7c07354cd6858f3c56a9a6424c1817405226717375de79195f",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_d7b800b5d970b44f794fdc0f85441adb18156429ff8f9db625958318a2150a55",
+        "CLM_3219c8629c34b079b706d0a3eced6f841c1eaf3d29b1f302f26837dd24662e98"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Tarihçesi hangi tarihsel dönemden başlatılmalıdır?",
+      "question_id": "1.3-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_307960c12c00a3e79f0280b410c68661c0bd420b523adc376900a4299c1cbaee",
+        "CLM_d7b800b5d970b44f794fdc0f85441adb18156429ff8f9db625958318a2150a55"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Tarihçesi için bilinen en erken örnekler hangileridir?",
+      "question_id": "1.3-Q02",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c76d430c7681283f9358830c471d252e1ea0e03fc58fce2a2ed8ef82ab25c692"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Tarihçesi kapsamında ilk örneklerin yapılma amacı neydi?",
+      "question_id": "1.3-Q03",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_307960c12c00a3e79f0280b410c68661c0bd420b523adc376900a4299c1cbaee",
+        "CLM_8b467248dc39b6230b4e2d6b99485433fa97914e07e879570bfac1ba1be00371",
+        "CLM_3219c8629c34b079b706d0a3eced6f841c1eaf3d29b1f302f26837dd24662e98"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Tarihçesi hangi coğrafyalarda ve hangi ihtiyaçlarla gelişmiştir?",
+      "question_id": "1.3-Q04",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d7b800b5d970b44f794fdc0f85441adb18156429ff8f9db625958318a2150a55",
+        "CLM_3219c8629c34b079b706d0a3eced6f841c1eaf3d29b1f302f26837dd24662e98",
+        "CLM_eb7ec14b73135fe04ed6ed78ce44201b2901fb7493b9c15b1f1a08ee61aa92bd"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Tarihçesi gelişiminde belirleyici olan başlıca tarihsel dönüm noktaları nelerdir?",
+      "question_id": "1.3-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_307960c12c00a3e79f0280b410c68661c0bd420b523adc376900a4299c1cbaee",
+        "CLM_8b467248dc39b6230b4e2d6b99485433fa97914e07e879570bfac1ba1be00371"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Tarihçesi gelişimini hızlandıran ulaşım ihtiyaçları nelerdir?",
+      "question_id": "1.3-Q06",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_307960c12c00a3e79f0280b410c68661c0bd420b523adc376900a4299c1cbaee",
+        "CLM_b9c6f162e6be3b0fd7cea6ee95e0cb69a93427f87f7602a8e2e2ed8964342112"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Tarihçesi gelişimini hızlandıran kentleşme etkileri nelerdir?",
+      "question_id": "1.3-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi gelişimini hızlandıran sanayileşme etkileri nelerdir?",
+      "question_id": "1.3-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_18e45df586e94c8e0e7a801c916c68e79bf2f87808af8296528f332c1250db98",
+        "CLM_5b8e4a05386607456ebae5f3614bbcf5602b7be07afe9e0f7b939f6a76724395"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Tarihçesi tarihinde kullanılan ilk kazı teknikleri nelerdi?",
+      "question_id": "1.3-Q09",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_45aa0723b607a95ef2f9da4eddc062e30a4d1409606ff1e4c7e167d2f14e5942",
+        "CLM_eb7ec14b73135fe04ed6ed78ce44201b2901fb7493b9c15b1f1a08ee61aa92bd"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Tarihçesi tarihinde kullanılan ilk destekleme yöntemleri nelerdi?",
+      "question_id": "1.3-Q10",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_79e834ead39d7ede13d7003576e67891b2a9e0936606a140c94659946e57edb8",
+        "CLM_3219c8629c34b079b706d0a3eced6f841c1eaf3d29b1f302f26837dd24662e98"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Tarihçesi tarihinde kullanılan yapı malzemeleri nasıl değişmiştir?",
+      "question_id": "1.3-Q11",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a474128d58782bda411829f4522cec4506a2d2649af0708ec441e9952bf20c92"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Patlayıcı teknolojisinin gelişimi Tünellerin Tarihçesi üzerinde nasıl etkili olmuştur?",
+      "question_id": "1.3-Q12",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Mekanize kazı teknolojilerinin gelişimi Tünellerin Tarihçesi üzerinde nasıl etkili olmuştur?",
+      "question_id": "1.3-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "TBM teknolojisinin gelişimi Tünellerin Tarihçesi açısından hangi dönüm noktasını oluşturmuştur?",
+      "question_id": "1.3-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5b8e4a05386607456ebae5f3614bbcf5602b7be07afe9e0f7b939f6a76724395",
+        "CLM_51aaaad632feeb0a12b542a35933124871ce0f7bd1e00882c568f382283432a4",
+        "CLM_c5092fc2441101de1397166a90eba63eb6112a840b5ebd3dae3ddc85a5b7a38a"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "NATM yaklaşımının ortaya çıkışı Tünellerin Tarihçesi içinde nasıl bir değişim yaratmıştır?",
+      "question_id": "1.3-Q15",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3f6954a4a19b63980ba24a1e8ed3e124d81c2a44b60aae114eefa77aa6e091d3",
+        "CLM_6e32cfd03d87bcdfc7c46f208c8a1a8a0250e3d255b49b8f84dae3d1dc6fefc9"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeoloji ve geoteknik bilimindeki ilerlemeler Tünellerin Tarihçesi gelişimini nasıl etkilemiştir?",
+      "question_id": "1.3-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Harita ve ölçme teknolojilerindeki gelişmeler Tünellerin Tarihçesi gelişimini nasıl etkilemiştir?",
+      "question_id": "1.3-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6278d10d2c265ee1bcb70891ed5412fbde2c8fa9ff61aad657ec0cba5aaf5c39",
+        "CLM_40c8675c197bc785f5d3a2ed20754b317deb2c4876f2ced10a9f82ad72cca1ea",
+        "CLM_6794f002cebb9e00403ed32ccd56a3eeb68de2c089b54b24b343dc17ee92cc25"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Beton ve püskürtme beton teknolojileri Tünellerin Tarihçesi gelişiminde nasıl rol oynamıştır?",
+      "question_id": "1.3-Q18",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kaya bulonu ve ankraj sistemlerinin gelişimi Tünellerin Tarihçesi açısından neden önemlidir?",
+      "question_id": "1.3-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Su yalıtımı ve drenaj teknolojilerindeki ilerlemeler Tünellerin Tarihçesi gelişimini nasıl etkilemiştir?",
+      "question_id": "1.3-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Havalandırma teknolojilerindeki gelişmeler Tünellerin Tarihçesi açısından hangi yenilikleri getirmiştir?",
+      "question_id": "1.3-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Aydınlatma teknolojilerindeki gelişmeler Tünellerin Tarihçesi açısından hangi yenilikleri getirmiştir?",
+      "question_id": "1.3-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yangın güvenliği anlayışı Tünellerin Tarihçesi boyunca nasıl değişmiştir?",
+      "question_id": "1.3-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Acil durum ve tahliye yaklaşımı Tünellerin Tarihçesi boyunca nasıl gelişmiştir?",
+      "question_id": "1.3-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0d56342ebbf23924043b25fab507d16e60057eb5f9f5dda13c9d35ad490d95fb"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Önemli kazalar ve felaketler Tünellerin Tarihçesi gelişiminde hangi düzenlemelere yol açmıştır?",
+      "question_id": "1.3-Q25",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3219c8629c34b079b706d0a3eced6f841c1eaf3d29b1f302f26837dd24662e98",
+        "CLM_d7b800b5d970b44f794fdc0f85441adb18156429ff8f9db625958318a2150a55"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Tarihçesi içinde hangi projeler mühendislik açısından dönüm noktası kabul edilir?",
+      "question_id": "1.3-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1b18a41abf929e1e9315248aa3db64580cf4f557caca0a5f06b8afea8fb00888",
+        "CLM_330f6af8fa14445ad4cb6e8fbe84912ee370e484286c948f44132b02fb6a4fc2"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Tarihçesi içinde hangi projeler uzunluk veya ölçek açısından rekor niteliği taşımıştır?",
+      "question_id": "1.3-Q27",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi içinde hangi projeler yapım yöntemi açısından öncü olmuştur?",
+      "question_id": "1.3-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi içinde hangi projeler güvenlik uygulamaları açısından öncü olmuştur?",
+      "question_id": "1.3-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_eb7ec14b73135fe04ed6ed78ce44201b2901fb7493b9c15b1f1a08ee61aa92bd"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Tarihçesi içinde hangi projeler işletme teknolojileri açısından öncü olmuştur?",
+      "question_id": "1.3-Q30",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi gelişiminde kamu kurumlarının rolü ne olmuştur?",
+      "question_id": "1.3-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi gelişiminde üniversiteler ve araştırma kuruluşlarının rolü ne olmuştur?",
+      "question_id": "1.3-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi gelişiminde uluslararası meslek örgütlerinin rolü ne olmuştur?",
+      "question_id": "1.3-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi gelişiminde standartlar ve teknik şartnameler nasıl değişmiştir?",
+      "question_id": "1.3-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi gelişiminde ekonomik koşullar ve finansman modelleri nasıl etkili olmuştur?",
+      "question_id": "1.3-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3219c8629c34b079b706d0a3eced6f841c1eaf3d29b1f302f26837dd24662e98",
+        "CLM_d7b800b5d970b44f794fdc0f85441adb18156429ff8f9db625958318a2150a55",
+        "CLM_1b18a41abf929e1e9315248aa3db64580cf4f557caca0a5f06b8afea8fb00888"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Tarihçesi içinde yapım süreleri zamanla nasıl değişmiştir?",
+      "question_id": "1.3-Q36",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi içinde birim yapım maliyetlerini etkileyen tarihsel değişimler nelerdir?",
+      "question_id": "1.3-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi içinde bakım ve işletme anlayışı zamanla nasıl değişmiştir?",
+      "question_id": "1.3-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi içinde çevresel etkilerin dikkate alınması ne zaman önem kazanmıştır?",
+      "question_id": "1.3-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi içinde sürdürülebilirlik yaklaşımı ne zaman ve nasıl öne çıkmıştır?",
+      "question_id": "1.3-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dijital tasarım araçlarının gelişimi Tünellerin Tarihçesi açısından ne değiştirmiştir?",
+      "question_id": "1.3-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "BIM ve dijital ikiz uygulamaları Tünellerin Tarihçesi içinde hangi yeni dönemi temsil etmektedir?",
+      "question_id": "1.3-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Sensör ve izleme teknolojileri Tünellerin Tarihçesi gelişimini nasıl dönüştürmüştür?",
+      "question_id": "1.3-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3219c8629c34b079b706d0a3eced6f841c1eaf3d29b1f302f26837dd24662e98",
+        "CLM_d7b800b5d970b44f794fdc0f85441adb18156429ff8f9db625958318a2150a55"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Tarihçesi açısından Türkiye ile dünya arasındaki gelişim çizgisi nasıl karşılaştırılabilir?",
+      "question_id": "1.3-Q44",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi içinde bölgesel farklılıkların temel nedenleri nelerdir?",
+      "question_id": "1.3-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d7b800b5d970b44f794fdc0f85441adb18156429ff8f9db625958318a2150a55",
+        "CLM_79e834ead39d7ede13d7003576e67891b2a9e0936606a140c94659946e57edb8",
+        "CLM_3219c8629c34b079b706d0a3eced6f841c1eaf3d29b1f302f26837dd24662e98"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Tarihçesi anlatılırken hangi kronolojik tablo veya zaman çizelgesi verilmelidir?",
+      "question_id": "1.3-Q46",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b62e89810650d1ae5a3f0eb09d51a0214efb9c3112eb73d222e840233061db60",
+        "CLM_8b467248dc39b6230b4e2d6b99485433fa97914e07e879570bfac1ba1be00371"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Tarihçesi anlatılırken hangi proje örnekleri mutlaka yer almalıdır?",
+      "question_id": "1.3-Q47",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi anlatılırken hangi teknik yeniliklerin tarihleri özellikle belirtilmelidir?",
+      "question_id": "1.3-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi günümüzde hangi teknoloji ve mühendislik eğilimleriyle devam etmektedir?",
+      "question_id": "1.3-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Tarihçesi gelecekte hangi gelişmelerle yeni bir aşamaya geçebilir?",
+      "question_id": "1.3-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "1.3",
+  "section_title": "Tünellerin Tarihçesi",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_0d56342ebbf23924043b25fab507d16e60057eb5f9f5dda13c9d35ad490d95fb",
+      "CLM_18e45df586e94c8e0e7a801c916c68e79bf2f87808af8296528f332c1250db98",
+      "CLM_1b18a41abf929e1e9315248aa3db64580cf4f557caca0a5f06b8afea8fb00888",
+      "CLM_307960c12c00a3e79f0280b410c68661c0bd420b523adc376900a4299c1cbaee",
+      "CLM_3219c8629c34b079b706d0a3eced6f841c1eaf3d29b1f302f26837dd24662e98",
+      "CLM_330f6af8fa14445ad4cb6e8fbe84912ee370e484286c948f44132b02fb6a4fc2",
+      "CLM_3f6954a4a19b63980ba24a1e8ed3e124d81c2a44b60aae114eefa77aa6e091d3",
+      "CLM_40c8675c197bc785f5d3a2ed20754b317deb2c4876f2ced10a9f82ad72cca1ea",
+      "CLM_45aa0723b607a95ef2f9da4eddc062e30a4d1409606ff1e4c7e167d2f14e5942",
+      "CLM_51aaaad632feeb0a12b542a35933124871ce0f7bd1e00882c568f382283432a4",
+      "CLM_5b8e4a05386607456ebae5f3614bbcf5602b7be07afe9e0f7b939f6a76724395",
+      "CLM_6278d10d2c265ee1bcb70891ed5412fbde2c8fa9ff61aad657ec0cba5aaf5c39",
+      "CLM_6794f002cebb9e00403ed32ccd56a3eeb68de2c089b54b24b343dc17ee92cc25",
+      "CLM_6e32cfd03d87bcdfc7c46f208c8a1a8a0250e3d255b49b8f84dae3d1dc6fefc9",
+      "CLM_79e834ead39d7ede13d7003576e67891b2a9e0936606a140c94659946e57edb8",
+      "CLM_8b467248dc39b6230b4e2d6b99485433fa97914e07e879570bfac1ba1be00371",
+      "CLM_a474128d58782bda411829f4522cec4506a2d2649af0708ec441e9952bf20c92",
+      "CLM_b62e89810650d1ae5a3f0eb09d51a0214efb9c3112eb73d222e840233061db60",
+      "CLM_b9c6f162e6be3b0fd7cea6ee95e0cb69a93427f87f7602a8e2e2ed8964342112",
+      "CLM_c5092fc2441101de1397166a90eba63eb6112a840b5ebd3dae3ddc85a5b7a38a",
+      "CLM_c76d430c7681283f9358830c471d252e1ea0e03fc58fce2a2ed8ef82ab25c692",
+      "CLM_d7b800b5d970b44f794fdc0f85441adb18156429ff8f9db625958318a2150a55",
+      "CLM_eb7ec14b73135fe04ed6ed78ce44201b2901fb7493b9c15b1f1a08ee61aa92bd"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "1.3-Q01",
+      "1.3-Q05",
+      "1.3-Q07",
+      "1.3-Q09",
+      "1.3-Q11",
+      "1.3-Q12",
+      "1.3-Q16",
+      "1.3-Q26",
+      "1.3-Q30",
+      "1.3-Q36",
+      "1.3-Q44",
+      "1.3-Q47"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "1.3-Q08",
+      "1.3-Q13",
+      "1.3-Q14",
+      "1.3-Q17",
+      "1.3-Q19",
+      "1.3-Q20",
+      "1.3-Q21",
+      "1.3-Q22",
+      "1.3-Q23",
+      "1.3-Q24",
+      "1.3-Q28",
+      "1.3-Q29",
+      "1.3-Q31",
+      "1.3-Q32",
+      "1.3-Q33",
+      "1.3-Q34",
+      "1.3-Q35",
+      "1.3-Q37",
+      "1.3-Q38",
+      "1.3-Q39",
+      "1.3-Q40",
+      "1.3-Q41",
+      "1.3-Q42",
+      "1.3-Q43",
+      "1.3-Q45",
+      "1.3-Q48",
+      "1.3-Q49",
+      "1.3-Q50"
+    ]
+  }
+}

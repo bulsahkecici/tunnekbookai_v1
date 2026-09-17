@@ -1,0 +1,118 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "1"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0002"
+      ]
+    },
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0002",
+        "FIG0002"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1.5",
+      "score": 0.4227,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3635
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.3864,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1817
+    },
+    {
+      "id": "2",
+      "score": 0.3773,
+      "rule_score": 0.0,
+      "embedding_score": 0.7961,
+      "chunk_vote": 0.0952
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3604,
+      "rule_score": 0.0,
+      "embedding_score": 0.8009,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3598,
+      "rule_score": 0.0,
+      "embedding_score": 0.7996,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3587,
+      "rule_score": 0.0,
+      "embedding_score": 0.7972,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3571,
+      "rule_score": 0.0,
+      "embedding_score": 0.7935,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.3563,
+      "rule_score": 0.0,
+      "embedding_score": 0.7918,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3528,
+      "rule_score": 0.0,
+      "embedding_score": 0.7839,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.352,
+      "rule_score": 0.0,
+      "embedding_score": 0.7822,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel kalkan (shield) inşaatında BIM tabanlı bilgi yönetimini ele almakta olup, bu konu tünel yapım teknikleri ve ana elemanları (Bölüm 2) ile doğrudan ilişkilidir. Giriş bölümü (Bölüm 1) ise yeraltı alanı kullanımı ve tünel inşaatının genel avantajları hakkında bağlamsal bilgi vermektedir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:2",
+    "embeddings:8",
+    "top=1.5:0.4227 gap=0.036 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

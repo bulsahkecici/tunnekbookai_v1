@@ -1,0 +1,104 @@
+{
+  "document_id": "ING_4190ab11ff0be66847a9",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Repairing a shield tunnel damaged by secondary grouting.",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Jin-long, Liu",
+        "Jie-qun, Liu",
+        "Davies-Vollum, S.",
+        "Hamza, Omar"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2018",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: doi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "case_study",
+        "geology",
+        "injection",
+        "inspection",
+        "maintenance"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geology:geolog; injection:injection; maintenance:maintenance; inspection:inspection; case_study:case study; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://pdf.core.ac.uk/corefilesystem/pdf/1038/567997988.pdf?se=2026-09-03T17%3A09%3A53Z&sp=r&sv=2026-06-06&sr=b&rscd=inline%3B+filename%3D%22567997988.pdf%22&rsct=application%2Fpdf&sig=LNkb3ffpTbQwOhp0GOoWUf8fEgjsic%2B7zwzQmF1kKYM%3D",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1016/j.tust.2018.07.016",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

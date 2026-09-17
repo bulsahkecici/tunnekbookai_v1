@@ -1,0 +1,108 @@
+{
+  "document_id": "ING_b35c34bea13be254602a",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Railway track settlement patterns and control measures for multi-tunnel construction underneath a station track group: a case study.",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Li P",
+        "Lu F",
+        "Huang H",
+        "Qiu W"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2024",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "case_study",
+        "cost",
+        "excavation",
+        "geology",
+        "maintenance",
+        "operations",
+        "safety",
+        "standards",
+        "traffic"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geology:geolog; excavation:excavat; safety:safety; traffic:traffic; operations:operating; maintenance:maintenance; standards:standard; cost:cost; case_study:case study; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://europepmc.org/articles/PMC11196254?pdf=render",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1038/s41598-024-64916-6",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

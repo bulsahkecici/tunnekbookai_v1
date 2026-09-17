@@ -1,0 +1,134 @@
+{
+  "final_primary_section": "5.9.2",
+  "final_secondary_sections": [
+    "5.1",
+    "2.4"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0059",
+        "LIST0060",
+        "LIST0061",
+        "PARA0005"
+      ]
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0059",
+        "LIST0060",
+        "LIST0061"
+      ]
+    },
+    {
+      "section_id": "2.4",
+      "section_title": "Tünellerin Projelendirilmesi",
+      "supporting_elements": [
+        "PARA0004"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9.2",
+      "score": 0.7258,
+      "rule_score": 0.5556,
+      "embedding_score": 0.795,
+      "chunk_vote": 0.0622
+    },
+    {
+      "id": "5.1",
+      "score": 0.6947,
+      "rule_score": 0.5,
+      "embedding_score": 0.8001,
+      "chunk_vote": 0.0484
+    },
+    {
+      "id": "2.4",
+      "score": 0.6833,
+      "rule_score": 0.4286,
+      "embedding_score": 0.8006,
+      "chunk_vote": 0.1866
+    },
+    {
+      "id": "5.6",
+      "score": 0.4316,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5079
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3672,
+      "rule_score": 0.0,
+      "embedding_score": 0.816,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.367,
+      "rule_score": 0.0,
+      "embedding_score": 0.8027,
+      "chunk_vote": 0.029
+    },
+    {
+      "id": "2",
+      "score": 0.3665,
+      "rule_score": 0.0,
+      "embedding_score": 0.8144,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3612,
+      "rule_score": 0.0,
+      "embedding_score": 0.8026,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3609,
+      "rule_score": 0.0,
+      "embedding_score": 0.8021,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3242,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0933
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC'ın 'Stratejik Konular' bölümünü tanımlamakta olup, tünel seçimi ve tasarımı öncesi karar vericilerin dikkate alması gereken stratejik unsurları ele almaktadır. Bu içerik, uluslararası standartlar ve literatür taraması (5.9.2) ile çalışmanın amacı ve önemi (5.1) başlıklarıyla en yüksek örtüşmeye sahiptir; özellikle stratejik karar süreçleri ve genel tasarım ilkeleri bu bölümlerin kapsa",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:4",
+    "embeddings:8",
+    "top=5.9.2:0.7258 gap=0.031 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

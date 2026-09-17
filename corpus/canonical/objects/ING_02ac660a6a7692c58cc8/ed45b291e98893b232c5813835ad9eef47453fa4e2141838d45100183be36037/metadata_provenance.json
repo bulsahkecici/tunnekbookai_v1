@@ -1,0 +1,104 @@
+{
+  "document_id": "ING_02ac660a6a7692c58cc8",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Performance prediction of roadheaders used in coal mines from the needle penetration index and the schmidt hammer value",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Masoud Rostami",
+        "Sair Kahraman",
+        "Behnaz Dibavar",
+        "Mustafa Fener"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2024",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "cost",
+        "excavation",
+        "geology",
+        "operations",
+        "rock_mechanics"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geology:geolog; rock_mechanics:rock mass; excavation:excavat; operations:operating; cost:cost; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://doi.org/10.1007/s40948-023-00725-x",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1007/s40948-023-00725-x",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

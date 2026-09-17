@@ -1,0 +1,168 @@
+{
+  "final_primary_section": "2.4",
+  "final_secondary_sections": [
+    "2.4.2.1",
+    "2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4",
+      "section_title": "Tünellerin Projelendirilmesi",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0012",
+        "FIG0063",
+        "FIG0064",
+        "FIG0065"
+      ]
+    },
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0002",
+        "HEAD0004",
+        "LIST0009",
+        "LIST0010",
+        "LIST0011",
+        "HEAD0005",
+        "PARA0009",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "PARA0017",
+        "HEAD0006",
+        "PARA0034",
+        "PARA0036",
+        "PARA0037",
+        "LIST0019",
+        "PARA0093",
+        "LIST0030"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "LIST0019",
+        "LIST0025",
+        "PARA0066",
+        "PARA0069",
+        "PARA0073",
+        "PARA0074",
+        "PARA0075",
+        "HEAD0018",
+        "PARA0099",
+        "FIG0063",
+        "FIG0064",
+        "FIG0065",
+        "PARA0103",
+        "PARA0104",
+        "HEAD0025",
+        "HEAD0026",
+        "PARA0175",
+        "HEAD0027",
+        "PARA0176",
+        "HEAD0028",
+        "PARA0177",
+        "LIST0029"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7428,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7809,
+      "chunk_vote": 0.1792
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.6869,
+      "rule_score": 0.5,
+      "embedding_score": 0.7865,
+      "chunk_vote": 0.0398
+    },
+    {
+      "id": "2.1",
+      "score": 0.3967,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2332
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3564,
+      "rule_score": 0.0,
+      "embedding_score": 0.792,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3556,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.128
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3555,
+      "rule_score": 0.0,
+      "embedding_score": 0.7901,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3519,
+      "rule_score": 0.0,
+      "embedding_score": 0.7821,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.351,
+      "rule_score": 0.0,
+      "embedding_score": 0.7801,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3491,
+      "rule_score": 0.0,
+      "embedding_score": 0.7758,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3491,
+      "rule_score": 0.0,
+      "embedding_score": 0.7757,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel tasarım sürecinde risk yönetimi, zemin davranışı analizi ve destek sistemlerinin seçimine odaklanan yapılandırılmış bir yaklaşımı (Risk Oriented Design Process) detaylandırıyor. Bu içerik, tünel projelendirme (2.4) kapsamına giren tasarım metodolojisi ve risk değerlendirmesi ile doğrudan ilişkili olup, güzergah/zemin koşullarının tasarım üzerindeki etkisi (2.4.2.1) ve destek elemanlar",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:15",
+    "embeddings:8",
+    "top=2:0.7428 gap=0.056 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

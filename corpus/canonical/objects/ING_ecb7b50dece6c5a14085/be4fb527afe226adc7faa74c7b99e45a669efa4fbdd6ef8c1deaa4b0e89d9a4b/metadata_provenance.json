@@ -1,0 +1,86 @@
+{
+  "document_id": "ING_ecb7b50dece6c5a14085",
+  "fields": [
+    {
+      "field": "title",
+      "value": "AÇP/01 HER CİNS VE KLASTAKİ ZEMİNDE YARMA KAZISI YAPILMASI VE KULLANILMASI (TÜNEL PORTAL KAZILARI DAHİL):",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "contracts",
+        "drainage",
+        "excavation",
+        "monitoring",
+        "portal",
+        "shotcrete",
+        "standards",
+        "unit_price"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "excavation:kazı; shotcrete:püskürtme beton; drainage:drenaj; portal:portal; monitoring:izleme; standards:en 1; unit_price:birim fiyat; contracts:sözleşme; tunnel_general:tünel"
+    }
+  ]
+}

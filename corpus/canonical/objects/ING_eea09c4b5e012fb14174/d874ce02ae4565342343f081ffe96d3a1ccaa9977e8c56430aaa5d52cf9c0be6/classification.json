@@ -1,0 +1,175 @@
+{
+  "final_primary_section": "5.6",
+  "final_secondary_sections": [
+    "5.1",
+    "5.4.2"
+  ],
+  "final_section_confidence": 0.8905,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0004",
+        "LIST0007",
+        "LIST0009",
+        "LIST0013",
+        "LIST0014",
+        "LIST0016",
+        "LIST0033",
+        "LIST0034",
+        "LIST0037",
+        "LIST0038",
+        "LIST0042",
+        "HEAD0005",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0010",
+        "PARA0011",
+        "PARA0012",
+        "LIST0048",
+        "LIST0049"
+      ]
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0044",
+        "PARA0004",
+        "PARA0007",
+        "PARA0012",
+        "LIST0067",
+        "LIST0068",
+        "LIST0069"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0004",
+        "LIST0007",
+        "LIST0033",
+        "LIST0034",
+        "LIST0037",
+        "LIST0038",
+        "HEAD0005",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0010",
+        "PARA0011",
+        "PARA0012",
+        "LIST0048",
+        "LIST0049",
+        "LIST0052"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.6",
+      "score": 0.8905,
+      "rule_score": 0.6364,
+      "embedding_score": 0.8028,
+      "chunk_vote": 0.6463
+    },
+    {
+      "id": "5.1",
+      "score": 0.6934,
+      "rule_score": 0.5,
+      "embedding_score": 0.8048,
+      "chunk_vote": 0.031
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.6562,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7943,
+      "chunk_vote": 0.0651
+    },
+    {
+      "id": "5.7",
+      "score": 0.3693,
+      "rule_score": 0.0,
+      "embedding_score": 0.7999,
+      "chunk_vote": 0.0465
+    },
+    {
+      "id": "1",
+      "score": 0.3635,
+      "rule_score": 0.0,
+      "embedding_score": 0.7912,
+      "chunk_vote": 0.0372
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3587,
+      "rule_score": 0.0,
+      "embedding_score": 0.7971,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3584,
+      "rule_score": 0.0,
+      "embedding_score": 0.7964,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3575,
+      "rule_score": 0.0,
+      "embedding_score": 0.7944,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3175,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0598
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3135,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0398
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:6",
+    "embeddings:8",
+    "top=5.6:0.8905 gap=0.197 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

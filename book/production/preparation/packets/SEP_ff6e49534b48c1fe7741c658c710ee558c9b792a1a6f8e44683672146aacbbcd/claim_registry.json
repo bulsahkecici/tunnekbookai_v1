@@ -1,0 +1,1093 @@
+{
+  "claim_count": 28,
+  "claims": [
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 10,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_c3a0e31de495e7b755c5/0b578bd2ce9fde9eccf4be99a84e5787d59123a3b9761cd305de9006b4a920ef/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "4fc18a39ec9a2614e0087ae7252b5e711d9909fc4930064514ee6350a19a5bb0",
+      "chunk_id": "ING_c3a0e31de495e7b755c5_CH_c842db7b6f",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_00d78f885595cfa3eace9d33ebe11344bbcd3d87004377a5af29ac3e9c0dada1",
+      "claim_text": "Vaka Çalışması\nTablo: Tablo 1. TBM Maliyetleri.\nTablo 1. TBM Maliyetleri.\n\nDoğrudan Maliyetler | Yöntem Bazlı Maliyetler\n\n1.1 Satın alma ve kurulum maliyetleri | 2.1 Platform tünel yapımına bağlı maliyetler\n\n1.2 Tünel açma ve montaj maliyetleri | 2.2 Pasa taşıma yöntemine bağlı maliyetler\n\n1.3 TBM işletme istasyonu maliyetleri | 2.3 Enjeksiyon gönderim yöntemine bağlı maliyetler\n\n | 2.4 Tünel içi lojistik seçim yöntemine bağlı maliyetler",
+      "conditions": [],
+      "document_id": "ING_c3a0e31de495e7b755c5",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK"
+      ],
+      "locator": "ING_c3a0e31de495e7b755c5:ING_c3a0e31de495e7b755c5_CH_c842db7b6f:pages=5;canonical=corpus/canonical/objects/ING_c3a0e31de495e7b755c5/0b578bd2ce9fde9eccf4be99a84e5787d59123a3b9761cd305de9006b4a920ef/chunks/embedding_ready.jsonl#L10",
+      "page_end": 5,
+      "page_start": 5,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q03": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "6.2",
+        "6.1"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "6.1.3",
+      "supporting_question_ids": [
+        "4.1-Q03"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 28,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "8c559dd352323c1c7a1f7e6752d772001575ca9c66909c172be9d696c3cad8a1",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_9af919729e",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_2aa4a7ac4ddc299c4757ea193d0a091d9a5bf983858b9da1282c3220aab1081f",
+      "claim_text": "3.5.4. LCC Analiz Prosedürü\n Alternatif yönetim usulleri ve bunların sistem üzerindeki etkilerinin incelenmesi. Yaşam döngüsü maliyet analizi farklı ulaşım seçenekleri (otomobil, uçak, raylı sistemler), bilgisayarlar, ağır endüstri ekipmanları ve askeri sistemlerde kullanıldığı gibi bunların yanında oluşturulacak modelin kapsamına göre de değişik uygulamalara sahiptir (GB, 2004). Bu uygulamalardan bazıları Şekil 3.3' te gösterilmiştir. Şekil 3.3. Yaşam döngüsü maliyet analizi uygulamaları (Aytok, 2006).\n\n3.5.4. LCC Analiz Prosedürü\n\nYaşam döngüsü maliyet analizinin prosedürü, bir ürünün/prosesin kavram olarak ortaya çıkması ile başlayıp, ürünün/prosesin üretilmesi, işletilmesi ve elden çıkarılmaya  kadar  olan  tüm  aşamalarında  harcanan  kaynakların  toplam  maliyeti olarak tanımlanmış olup LCC analiz prosedürü Şekil 3.4'te verilmiştir (Woodward, 1997).\n\nŞekil 3.4. Yaşam döngüsü maliyet prosedürü\n\n Maliyet bileşenlerinin tanımlanması, ürün/prosesin tüm yaşamı boyunca gerçekleşen nakit akışlarıdır. Bundan dolayı, maliyet unsurları tanımlanırken, faizin de mutlaka belirlenmesi gerekmektedir. Bu nedenle, yaşam döngüsü maliyet analizinde, ürün/prosesin elde edilmesinden, elden çıkarılmasına  kadarki  tüm  aşamalarındaki  maliyetler  düşünülmeli  ve  net bir şekilde ifade edilmelidir. Maliyet bileşenlerinin tanımlanması öncelikle, maliyet  gruplarının  oluşturulmasını  içerir.  Böylece,  maliyete neden olan ve potansiyel bileşenler ortaya konulabilir (Woodward, 1997). Woodward ( 1997)  tarafından  yapılan  çalışmada,  yaşam  döngüsü  maliyet bileşenleri,  araştırma-geliştirme  maliyetleri,  üretim-uygulama  maliyetleri ve  işletme  maliyetleri  olmak  üzere  üç  grupta  incelenmiş  ve  Şekil  3.5'te buna  bir  örnek  verilmiştir.  Yaşam  döngüsü  maliyet  bileşenleri  3  gruba ayrılsa da maliyet gruplandırılmasında son olarak her bir bileşenin ayrıntılı maliyetleri de gözönüne alınmalıdır.\n\nŞekil 3.5. Yaşam döngüsü maliyetinin bileşenlerinin gruplandırılması (Woodward, 1997)\n\n LCC formülasyon modelinin oluşturulmasında, yaşam döngüsü maliyetinin değerlendirilebileceği en uygun modelin seçilmesi gereklidir . Bu durum Woodward (1997) tarafından önerilen sekiz aşamalı bir zaman testi ile anlaşılabilir:\n\no İşletme profilinin oluşturulması\n\no Kullanım faktörlerinin oluşturulması\n\no Tüm maliyet unsurlarının belirlenmesi\n\no Kritik maliyet parametrelerinin belirlenmesi\n\no Güncel fiyatlarla tüm maliyetlerin hesaplanması\n\no Kabul edilen enflasyon oranının dahil edilmesi\n\no Dönem bazlı maliyetlere yapılan iskontoların hesaplanması\n\no Toplam yapılan iskontoların net bugünkü değere göre düşünülmesi\n\nAsiedu ve Gu ( 1998) ise yaptıkları çalışmada, yaşam döngüsü maliyetini şirket/üretici maliyeti, kullanıcı maliyeti (içsel) ve toplumsal (dışsal) maliyetlerden oluştuğunu belirtmişlerdir.\n\nÇizelge 3.4. Yaşam döngüsü analizinin aşamaları ve maliyetlerle ilişkilendirilmesi   (Aseidi ve Gu, 1998)\n\nŞirket olarak, bir ürünü meydana getirmek, pazarlamak, üretmek, üretilen bu ürünü dağıtmak, işletmek ve ürünü elden çıkarmak için kullanılan kaynaklara ödemelerin  yapılması  gerekmektedir.  Bu  durumda,  maliyet  bileşenleri  Şekil 3.6'da olduğu gibi kategorilere ayrılarak Maliyet Dağılım Yapısı (Cost Breakdown  Structures,  CBS)  oluşturulmalıdır.  Şekil  3.6'da  gösterilen  Maliyet Dağılım Yapısı bir ürün ya da bir sistem için yapılabilecek en kapsamlı maliyet gruplandırması olarak bilinmektedir. Ürün  tasarımı/satın alma veya üretim aşamalarındaki  maliyetlerin  gruplandırılması,  bir  modele  bağlıdır.  Bu  modelin oluşturulmasında gerekli olan veriler maliyet modelinin yapısına uygun seçilmelidir (Aseidu ve Gun, 1998).\n\nŞekil 3.6. Maliyet dağılım yapısı",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_9af919729e:pages=62-66;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L28",
+      "page_end": 66,
+      "page_start": 62,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q33": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q33"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 85,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "b604e3fbd5dbf08577085c093de1ca585c89880bcc590e34a77e50e4afe37e2d",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_6378311b40",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_2f842ff41a140a544379c18b56c8ba43bc57a0cd82f6277360480da4e8535e17",
+      "claim_text": "3.5.4. LCC Analiz Prosedürü\nTablo: Şekil 3.6. Maliyet dağılım yapısı\nŞekil 3.6. Maliyet dağılım yapısı\n\nİçsel Maliyetler.İşletme Maliyetleri Bakım Onarım Maliyetleri Üretim | Dışsal Maliyetler.Elden Çıkarma Maliyetleri\n\nMaliyetleri | Çevresel Maliyetler Diğer Maliyetler",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_6378311b40:pages=66;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L85",
+      "page_end": 66,
+      "page_start": 66,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q06": "PARTIAL",
+        "4.1-Q07": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q06",
+        "4.1-Q07"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 30,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "ed406acdeffb3dbd76462e21287f413ff8966c2d49a48cee442906a0d3c3de8d",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_9314d298d1",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_35b9fb96b936c910db4d222314187fe283e6aacf43097825b42b6559f7b4148b",
+      "claim_text": "3.5.3.2 Dışsal Maliyetler\n2 € olmaktadır. Tren setlerinin bakım maliyetini ise 2,83 $/km, enerji tüketimini 10,5 kwh/km ile 20 kwh/km arasında değişen değerler aldığı belirlenmiştir.  Elden çıkarma maliyeti: Hizmet dışı bırakma ya da elden çıkarma maliyeti; sistem/ürünün yaşam döngüsü boyunca tamir edilemeyen parçalarının elden çıkarılması, sistem/ürünün hizmet dışı bırakılması sonucu bu malzemelerin veya parçaların bertarafı veya arıtımı için oluşan ilgili maliyetlerdir.\n\n3.5.3.2 Dışsal Maliyetler\n\nDışsallık, ekonomik birimler arasında bedeli ödenmemiş karşılıklı bağıntılardır. Bir başka açıdan dışsallık, ekonomik birimlerin davranışlarının tüm sonuçlarına  katlanmadıklarında  ve  faaliyetlerinin  başkaları  üzerindeki  etkilerini hesaba katmadıkları zaman  ortaya çıkar. Bireylerin istek ve ihtiyaçlarının yelpazesinin genişlemesi ve üretim sektörünün alanının gelişmesi, tüketim sürecinin sonunda çevresel sorunlar yaratarak dışsallıkların ortaya çıkmasına yol açmaktadır. Çevresel maliyetlerin artması negatif dışsallıkları yaratmakta; çevrenin  şimdi  ve  gelecekte  'kıt  kaynak'  olduğunun  ve  olacağının  farkına varılması  ise  önlemlerin  alınmasını  gerekli  kılmaktadır.  Bir  üreticinin  meydana getirdiği ürünler sadece kendi kullandığı girdilere bağlı olmayıp, diğer üreticilerin faaliyetlerine  de  bağlı  olabilir  ki,  işte  'dışsal  zarar'  böyle  bir  durumda  ortaya çıkar.  Bir  başka  deyişle,  dışsal  zarar  bir  üreticinin  karşılığında  bir  şey  almadan veya  vermeden  diğer  bir  üreticiye  sağlamış  olduğu  fayda  ve  zarardır.  Örneğin, kamyonların  veya  tren  araçlarının  yol  güzergahında  yaşayan  insanları  etkileyen hava  kirliliği  ve  gürültü  yaratmasında  olduğu  gibi  bir  ulaşım  kullanıcısı  hiçbir maliyete  katlanmadan  diğer  bir  grubun  refahını  etkiliyorsa  dışsal  maliyet  söz konusudur. (Nalçakan ve ark., 2012).\n\nUlaşım  seçeneklerinin  dışsallıkları  birbirinden  oldukça  farklı  biçimlerde oluşabilmektedir. Ancak genel olarak bu tür dışsallıkları oluşumları bakımından, üç temel şekilde incelemek mümkündür.\n\nBirinci düzeyde meydana gelen dışsallıklar, ulaşım hizmetlerinin üretilmesi ve tüketilmesi sırasında meydana gelen çevresel kirleticilerin (küresel ısınma ve iklim değişikliği; CO2,  SO2,  toksisite; ağır metaller,  PAH  v.d. emisyonların) oluşturduğu maliyetlerdir.\n\nİkinci düzeydeki ulaşım dışsallıkları olarak, ulaşım hizmetlerinde meydana gelen kaza vb. olayların oluşturduğu maliyetlerdir.\n\nÜçüncü  düzeydeki  ulaşım  dışsallıkları, ulaşım hizmetinin yoğun  bir şekilde  gerçekleştirilmesiyle,  altyapısının  yetersiz  kalmasından  dolayı  meydana gelen trafik tıkanıklığı denilen dışsal maliyettir.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_9314d298d1:pages=68-69;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L30",
+      "page_end": 69,
+      "page_start": 68,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q06": "PARTIAL",
+        "4.1-Q07": "PARTIAL",
+        "4.1-Q10": "PARTIAL",
+        "4.1-Q16": "SUPPORTED",
+        "4.1-Q36": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q06",
+        "4.1-Q07",
+        "4.1-Q10",
+        "4.1-Q16",
+        "4.1-Q36"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 9,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_fcafb5c9434d660130bf/8378c8bce39e121332fd6810d0a8d9c73e2deeff50ccc75406a80a8df8d085ab/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "f2c5c388a462b88dd5c989ebffddf69ba96e44ecb0df5667ab0c45c58b6d7181",
+      "chunk_id": "ING_fcafb5c9434d660130bf_CH_e64ffc4ac4",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_3fc7cdf5c70702c0af9b2f8e8a4d7df44fd835634172239fe1ae43dd45078607",
+      "claim_text": "4.2 Routine Operating and Maintenance Costs\nin line with CPI over time. 4 Maintenance Cost Breakdown 4 Maintenance Cost Breakdown 4.1 Introduction The data sources for operating and maintenance costs are limited and do not provide sufficient evidence to provide robust and detailed breakdown of these costs between the structure and link roads. We have therefore considered cost rates for the link roads and used our professional judgement to interpret the balance of costs between the main structure and supporting infrastructure.\n\n4.2 Routine Operating and Maintenance Costs\n\nOn this basis, we would apportion the following range of routine operating and maintenance (O&M) costs for the structure and associated link roads for each Crossing location as follows:\n\nIt is noted that the costs allocated to a bridge structure are generally towards the lower end of the range when compared against other crossing structures, such as an immersed or bored tunnel.\n\nGiven the scale of operating and maintenance costs in proportion to capital costs and the conclusion that the vast majority of cost is attributed to the structure, we would suggest a simplification of allocating all operating and maintenance costs to the structure for the purposes of testing whether revenues cover structure only costs.\n\nTable 4: Routine Maintenance Cost Range Splits\n\n4.3 Renewal Operating and Maintenance Costs\n\nIn respect of renewal maintenance costs, we estimate that the costs would be allocated between the structure and the link roads as follows:\n\nBy considering the above, 65% of renewals costs should be assumed for Options A and B and 45% for Option C for financial assessment.  This reflects the uncertainties at this stage and the relatively small costs for renewals compared with initial capital costs.\n\nTable 5: Renewal Maintenance Cost Range Splits\n\n5 Revenue\n\n5 Revenue\n\n5.1 Introduction\n\nEstimation of revenue comprises two steps; estimating flows on the crossings by vehicle class (car, 2-axle other vehicles, and 3+ axle other vehicles), and estimating average toll paid by vehicle class. This chapter explains the derivation of average toll paid by vehicle class.",
+      "conditions": [],
+      "document_id": "ING_fcafb5c9434d660130bf",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_fcafb5c9434d660130bf:ING_fcafb5c9434d660130bf_CH_e64ffc4ac4:pages=16-18;canonical=corpus/canonical/objects/ING_fcafb5c9434d660130bf/8378c8bce39e121332fd6810d0a8d9c73e2deeff50ccc75406a80a8df8d085ab/chunks/embedding_ready.jsonl#L9",
+      "page_end": 18,
+      "page_start": 16,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q35": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.6",
+        "5.5"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5",
+      "supporting_question_ids": [
+        "4.1-Q35"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 31,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "00d0853d873adf2188aa8fe24b7ffef7ea0f909360e00779609082223b6e4e3f",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_f6220f6d56",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_5eefd4ceec27861a1c2842336e8e2900cdaedd7789492451a83cfff0cae3235b",
+      "claim_text": "4. KONUYLA İLGİLİ YAPILAN ÇALIŞMALAR\ngelen dışsallıklar, ulaşım hizmetlerinin üretilmesi ve tüketilmesi sırasında meydana gelen çevresel kirleticilerin (küresel ısınma ve iklim değişikliği; CO2, SO2, toksisite; ağır metaller, PAH v.d. emisyonların) oluşturduğu maliyetlerdir. İkinci düzeydeki ulaşım dışsallıkları olarak, ulaşım hizmetlerinde meydana gelen kaza vb. olayların oluşturduğu maliyetlerdir. Üçüncü düzeydeki ulaşım dışsallıkları, ulaşım hizmetinin yoğun bir şekilde gerçekleştirilmesiyle, altyapısının yetersiz kalmasından dolayı meydana gelen trafik tıkanıklığı denilen dışsal maliyettir.\n\n4. KONUYLA İLGİLİ YAPILAN ÇALIŞMALAR\n\nYapılan detaylı literatür  taramasına  göre, demiryolu ulaşım sistemlerinde yaşam döngüsü analizinin kullanılması ile ilgili çalışmalar oldukça fazla olmakla birlikte,  demiryolu  sistemlerinde  yaşam  döngüsü  maliyeti  ile  ilgili  çalışmaları sınırlı sayıdadır. Literatürde, demiryolu sistemleri için LCA ve LCC yaklaşımının birlikte  yürütüldüğü  çalışmaların  bütün  bir  demiryolu  sistemini  ele  alamadığı, daha  çok  modüler  bir  yaklaşımda  değerlendirildiği  belirlenmiştir.  Ayrıca  ulusal ölçekte, demiryolu sistemlerinin çevresel etkilerinin ve ekonomik değerlendirmesinin  birlikte  araştırıldığı  ve  incelendiği  herhangi  bir  çalışmaya rastlanmadığı gibi, yaşam döngüsü analizi ve yaşam döngüsü maliyeti analizinin bütünsel bir şekilde uygulandığı bir çalışma da tespit edilememiştir.\n\n4.1. LCA ile İlgili Yapılan Çalışmalar\n\nJonasson ( 2003) tarafından yapılan çalışmada, tren araçlarının işletme ve bakım  onarım  aşamalarında  bütünsel  bir  yaklaşım  kazanabilmek  için  Yaşam Döngüsü Analizi (LCA) yöntemi kullanılmıştır. Tren araçlarının işletme aşamasında elektriğin kullanılmasının ve enerji kaybının, bakım onarım aşamasında  ise  deterjan  ve  nafta  gibi  kimyasal  madde  tüketiminin  çevresel etkilere neden olduğu belirlenmiştir. Yapılan çalışmada, demiryolu sistemlerinin; işletme,  bakım  onarım  ve  inşaat  (altyapı)  bileşenlerinin  farklı  seçeneklerinin çevresel açıdan araştırılmasının gerekliliği vurgulanmıştır.\n\nSwärd ( 2006) 'ın çalışmasında,  demiryolu  ulaşım  sistemlerinde  yüksek enerji  kullanılarak  üretilen  malzemelerin,  geri  dönüşüm  ve  yeniden  kullanımları sonrası  çevresel  performansın  nasıl  etkilendiği  yaşam  döngüsü  yaklaşımıyla belirlenmiştir. Yapılan çalışmada, öncelikle İsveç'te demiryolu ulaşımında hangi malzemelerin  geri  dönüştürülebileceği  ve  yeniden  kullanılabileceği  belirlenmiş, demiryolu malzemelerinin geri dönüşümü ve yeniden kullanımı ile ilgili mevcut durum, yeni teknoloji ve en iyi durum senaryoları olmak üzere üç farklı senaryo oluşturulmuş ve bu senaryoların yıllık ve km başına düşen enerji tüketimleri ayrı ayrı olarak hesaplanarak birbirleri ile karşılaştırılmıştır.\n\nFacanha ve Horvath ( 2007) çalışmalarında, Amerika Birleşik Devletleri'ndeki karayolu, demiryolu ve havayolu yük taşımacılığından kaynaklanan  CO2,  NOx,  PM10,  CO,  SO2  gibi  kirleticilerin  emisyon  faktörlerinin belirlenmesinde yaşam döngüsü analiz yöntemini kullanmıştır. Yapılan çalışmada, her  bir  ulaşım  türü  için  sadece  yakıtın  yanmasını  değil,  altyapı  (yapım,  onarım vb.),  ve  işletme  (araçların  üretilmesi,  bakım  onarımı  ve  bertarafı)  bileşenleri  ile birlikte yakıtın üretilmesi ve dağıtılması gibi aşamalar dikkate alınmıştır.\n\nFederici  ve  ark. ( 2008) yaptıkları  çalışmada,  kara  ulaşım  seçenekleri (karayolu, yüksek hızlı tren demiryolu ve konvansiyonel tren demiryolu) ile yolcu ve  yük  taşımacılığını  destekleyen  alt  sistemler  tarafından  oluşturulan  'İtalya Ulaşım  Altyapısı'nı  incelemişlerdir.  Ulaşım  altyapısı;  malzeme  akışı  analizi (MFA), şekillenmiş enerji analizi (EEA), ekserji analizi (EA) ve emergy analizi (EA)    olmak  üzere  4  farklı  değerlendirme  yöntemi  ile  değerlendirilmiştir.  Tüm analizlerde;  araçların,  demiryolu  ve  karayollarının,  bakım  onarım,  üretim  veya inşaat aşamalarında kullanılan malzeme ve enerjisi girdisi ile ilgili ortak bir veri tabanı kullanılmıştır. Yapılan çalışmada, ulaşım sistemlerindeki önemli faktörlerin belirlenmesinde sadece yakıt tüketimi, araçların maliyetleri ve enerji kullanımlarının  değil,  altyapı  bileşenlerinin  oluşturulması  için  gerekli  enerji  ve malzeme  maliyetlerinin  de  araştırılması  gerektiği  görülmüştür.  Yüksek  Hızlı Tren'de  düşük trafik yoğunluğu  güvenilir olmasına rağmen, yüksek enerji maliyetli malzeme kullanıldığı belirlenmiştir. Bunun sonucunda, yüksek hızlı tren ile  yolcu  ve  yük  taşımacılığı  için  gerekli  olan  enerji  ihtiyacının  sırasıyla  1.44 MJ/yolcu-km ve 3.09 MJ/t-km olduğu hesaplanmıştır.\n\nStripple  ve  Uppenberg ( 2010), tarafından yapılan çalışmada, İsveç Bothnia  Hattı  için,  tüm  altyapı  ve  hat  üzerindeki  bileşenlerin  işletim  ve  üretim envanterinin oluşturularak belgelendirilmesi, demiryolu altyapı ve taşıma sisteminin  çevresel  etkilerinin  sera  gazı,  asidifikasyon,  ötrofikasyon  açısından değerlendirilmesi, LCA  yöntemi ile gerçekleştirilmiştir. Yapılan çalışmada öncelikli olarak çalışmanın hedefi ve kapsamı ile birlikte sistem sınırları belirlenmiştir. Daha  sonra her bir altyapı ve taşıma sistemi bileşeni için fonksiyonel birimler tanımlanmıştır.  Bu tezdeki,  yaşam döngüsü  envanter (LCI) sisteminin oluşturulmasında bu çalışmadaki verilerden faydalanılmıştır.\n\nNetwork Rail ( 2010) , çalışmasında, İngiltere'de Londra kentinin kuzey ve batı  bölgeleri  için  mevcut  hatların  yetersiz  kalmasından  dolayı  kapasite  artışına gidilmesi  ve  yeni  yapılacak  olan  yüksek  hızlı  tren  hatlarının  işletime  başlaması sonucu  oluşacak  olan  durum  için  karbon  ayak  izi  hesaplanmış,  demiryolu sisteminin kendi içerisinde oluşturacağı alternatiflerinin çevresel açıdan değerlendirilmesi yapılmıştır.\n\nThiebault ( 2010) çalışmasında,  iki  farklı  demiryolu  köprüsü  tasarımının çevresel etkilerinin belirlenmesinde, yaşam döngüsü analiz yöntemini kullanmıştır. Çalışmanın sistem sınırlarının belirlenmesinde demiryolu köprülerinin inşaatından, işletimine kadar olan tüm aşamaları dikkate alınmıştır. Sonuç olarak yapılan çalışmada, balast kullanılarak oluşturulan demiryolu hattının çevresel  etkilerinin  balastsız  (sadece  beton  yatak)  demiryolu  hattına  göre  daha yüksek olduğu ifade edilmiştir. Köprülerde balastsız demiryolu hattının kullanılması durumunda oluşan çevresel etkilerin %77 oranında azaldığı belirlenmiştir. Çevresel etkilerin azaltılmasında kullanılan ham madde ve alternatif malzemelerin araştırılması gerektiği ifade edilmiştir.\n\nChester  ve  Horvath ( 2010) çalışmalarında,  Kaliforniya  yüksek  hızlı treninin  çevresel  etkilerini  yaşam  döngüsü  analizi  yöntemi  kullanarak  sayısal olarak ifade etmişlerdir. Yaptıkları çalışmada, Kaliforniya yüksek hızlı trenini ve diğer  alternatif  ulaşım  yöntemleri  için  farklı  doluluk  oranlarını  kabul  ederek oluşan çevresel etkiler belirlenmiştir. Özellikle, Kaliforniya yüksek hızlı treninin işletilmesi  için  gerekli  olan  elektriğin  üretilmesinden  kaynaklanan  asidifikasyon etkisinin  ve  SO2  seviyelerinin  ekosistemi  olumsuz  derecede  etkilediğini  ifade etmişlerdir.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_f6220f6d56:pages=70-72;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L31",
+      "page_end": 72,
+      "page_start": 70,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q16": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q16"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 27,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "95b4e370f80c92aaaddb58d3cf67ea61d4b5ac772f80bdd40e9b9e81a05f5360",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_b9ec05e4ec",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_64858687555543fd8782921924c207c9cb72ee98578f29eb9fd25c1765218b4a",
+      "claim_text": "3.5.3. LCC analizinin karar almada kullanımı\nrağmen performansı arttırması: Satın alma kararlarında tedarik maliyeti, seçeneklere değer biçilmesinde gözönünde bulundurulacak tek faktör değildir. Yaşam döngüsü maliyet analizinin dikkate aldığı maliyetler, değiş-tokuş yapılmış değişik satın alma seçeneklerinin özelliklerine göre yapılandırılır. Başarılı bir yaşam döngüsü maliyet analizinin getirdiği diğer temel faydalar ise şunlardır (Aytok, 2006):  Gelecekteki kaynak ihtiyacının tahmin edilmesini ve belirlenmesini sağlar.  Ar-Ge ve öncelikli tasarım kararlarını etkiler.  Stratejik planlamayı ve bütçelemeyi destekler.\n\n3.5.3. LCC analizinin karar almada kullanımı\n\nBir  bütün  olarak  yaşam  döngüsü  maliyet  analizi,  sistemlerin  tasarım sürecini  etkileyerek,  sistemin  yaşam  döngüsü  boyunca ortaya çıkan maliyetlerin toplamını en aza indirecek kararların alınmasında da bir araç olarak kullanılmaktadır.\n\nYaşam döngüsü maliyet analizi, alternatifler  arasından maliyet ve  yaşam süresi  açısından  en  uygun  olan  alternatifin  tespit  edilmesi  ve  gerekli  kararın alınmasında  kullanılabilecek  bir  modeldir.  Yaşam  döngüsü  maliyet  analizi,  bir tesis/işletme  veya  ürün/proses  içerisinde  gerçekleştirilmesi  istenen  çok  sayıdaki yatırım  projelerinin  tamamının  birden  yapılması  için  ödenek  yetersizliği  olması durumlarında,  mevcut  ödeneğin  paylaştırılması için hangi projelere öncelik verileceğinin kararlaştırılmasında da kullanılabilir. Yaşam  döngüsü maliyet analizinin  pek  çok  uygulama  alanı  mevcut  olup,  özellikle  aşağıdaki  konularda değerlendirme yapılmasında da kullanılmaktadır (Aytok, 2006).\n\n Alternatif sistem/ürünün işlevsel senaryoları ve kullanım yaklaşımları,\n\n Alternatif sistem/ürünün işletilmesi, bakım onarım aşamaları,\n\n Alternatif sistem/ürünün tasarım özellikleri (ünitelerin tasarımı, donanım/yazılım seçimi, güvenilirlik, bakım kolaylığı, vb.),\n\n Bir malzeme/parça için alternatif tedarik kaynaklarının seçimi,\n\n Alternatif  üretim  yöntemlerinden  birinin  seçimi  (sürekli/kesintili  üretim, üretim hatlarının miktarı, vb.),\n\n Alternatif dağıtım yollarının, ulaştırma yöntemlerinin, yedek parça depolarının yerlerinin incelenmesi, vb.,\n\n Ürünü elden çıkarmak ve yeniden değerlendirmek için alternatif yöntemlerin belirlenmesi,\n\n Alternatif yönetim  usulleri ve bunların sistem üzerindeki etkilerinin incelenmesi.\n\nYaşam döngüsü maliyet analizi farklı ulaşım seçenekleri (otomobil, uçak, raylı  sistemler),  bilgisayarlar,  ağır  endüstri  ekipmanları  ve  askeri  sistemlerde kullanıldığı  gibi  bunların  yanında  oluşturulacak  modelin  kapsamına  göre  de değişik uygulamalara sahiptir (GB, 2004). Bu uygulamalardan bazıları Şekil 3.3' te gösterilmiştir.\n\nŞekil 3.3. Yaşam döngüsü maliyet analizi uygulamaları (Aytok, 2006).",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_b9ec05e4ec:pages=61-62;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L27",
+      "page_end": 62,
+      "page_start": 61,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q33": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q33"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 10,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_ef8bfe928d0936ae50fc/c4b0c5fe163c05d6f0ce7ea72d856cf2e6fbc8be4c3dd4ff4f54814824611ca7/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "08e738621614d99041ac384b456cb2181302ec1a1be9fe69a39bf15ba0aaee05",
+      "chunk_id": "ING_ef8bfe928d0936ae50fc_CH_b2f4e63907",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_67083a0e13be871c07732b0ee3581eb7e82bd60fc0092b45b1f739278a5f2343",
+      "claim_text": "Vaka Çalışması\n**Doğrudan Maliyetler** | **Yöntem Bazlı Maliyetler**\n\n1.1 Satın alma ve kurulum maliyetleri | 2.1 Platform tünel yapımına bağlı maliyetler\n\n1.2 Tünel açma ve montaj maliyetleri | 2.2 Pasa taşıma yöntemine bağlı maliyetler\n\n1.3 TBM işletme istasyonu maliyetleri | 2.3 Enjeksiyon gönderim yöntemine bağlı maliyetler\n\n | 2.4 Tünel içi lojistik seçim yöntemine bağlı maliyetler",
+      "conditions": [],
+      "document_id": "ING_ef8bfe928d0936ae50fc",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_ef8bfe928d0936ae50fc:ING_ef8bfe928d0936ae50fc_CH_b2f4e63907:canonical=corpus/canonical/objects/ING_ef8bfe928d0936ae50fc/c4b0c5fe163c05d6f0ce7ea72d856cf2e6fbc8be4c3dd4ff4f54814824611ca7/chunks/embedding_ready.jsonl#L10",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q03": "SUPPORTED",
+        "4.1-Q05": "PARTIAL",
+        "4.1-Q20": "PARTIAL",
+        "4.1-Q23": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "6.1",
+        "6.2"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "6.1.3",
+      "supporting_question_ids": [
+        "4.1-Q03",
+        "4.1-Q05",
+        "4.1-Q20",
+        "4.1-Q23"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 12,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_c3a0e31de495e7b755c5/0b578bd2ce9fde9eccf4be99a84e5787d59123a3b9761cd305de9006b4a920ef/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "d2c0749036317092cbeba769c3645716d87fe14e0ee4e2903814e8aa3a8cfceb",
+      "chunk_id": "ING_c3a0e31de495e7b755c5_CH_f5c59e0bd2",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_67b02fedaec893ad7038d802ea363435ce1ba5b573c952e259161582204ba814",
+      "claim_text": "Vaka Çalışması\nŞekil: Şekil 1. TBM pasa taşıma yöntemlerinin proje maliyet ve süresine etkileri.\nŞekil 1. TBM pasa taşıma yöntemlerinin proje maliyet ve süresine etkileri.\n2\n4\nTünel açma ve montaj maliyetini\nTünel açma ve montaj maliyetini\ndüşürmektedir\narttirmaktadır\nSistem ayni zamanda segment montajı için de\nSegment montajı icin ek sistem kurulum\nmaliyeti\nkullanılabilir\nUzun konveyor bant sistemi maliyeti\nProje süresini uzatmaktadır\nDemiryolu ray döşeme aktivitesini ötelemektedir\nProje süresini kisaltmaktadır\nUzayan proje süresine bağlı olarak endirekt\nDemiryolu ray döşeme aktivitesine daha erken\nmaliyetleri arttirmaktadır\nbaşlanılabilmektedir\nTBM işletme istasyonu maliyetini\nTBM işletme istasyonu maliyetini\ndüşürmektedir\narttirmaktadır\nTBM işletme istasyonunun daha uzun\nTBM işletme istasyonunun daha sik\nmesafelerde kullanımina olanak tanmaktadır\nmobilizasyon/demobilizayonu gerekmektedir\nGörsel, TBM pasa taşıma yöntemlerinin proje maliyeti ve süresine etkilerini karşılaştıran iki şematik kesit ile bunlara ait iki sütunlu madde listelerini göstermektedir.",
+      "conditions": [],
+      "document_id": "ING_c3a0e31de495e7b755c5",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_c3a0e31de495e7b755c5:ING_c3a0e31de495e7b755c5_CH_f5c59e0bd2:pages=6;canonical=corpus/canonical/objects/ING_c3a0e31de495e7b755c5/0b578bd2ce9fde9eccf4be99a84e5787d59123a3b9761cd305de9006b4a920ef/chunks/embedding_ready.jsonl#L12",
+      "page_end": 6,
+      "page_start": 6,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q27": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "6.2",
+        "6.1"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "6.1.3",
+      "supporting_question_ids": [
+        "4.1-Q27"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 29,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "986a16d92aca0e2031dbdf7f59417b858cd88894ad7eb7425b3ee879e7e3a345",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_b015eb0fc8",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_74c6566fef75b015788398d88f66af73ccd9dcbd63d5ed5ebced8bb05b4f4c6d",
+      "claim_text": "3.5.3.1 İçsel Maliyetler\ngibi kategorilere ayrılarak Maliyet Dağılım Yapısı (Cost Breakdown Structures, CBS) oluşturulmalıdır. Şekil 3.6'da gösterilen Maliyet Dağılım Yapısı bir ürün ya da bir sistem için yapılabilecek en kapsamlı maliyet gruplandırması olarak bilinmektedir. Ürün tasarımı/satın alma veya üretim aşamalarındaki maliyetlerin gruplandırılması, bir modele bağlıdır. Bu modelin oluşturulmasında gerekli olan veriler maliyet modelinin yapısına uygun seçilmelidir (Aseidu ve Gun, 1998). Şekil 3.6. Maliyet dağılım yapısı\n\n3.5.3.1 İçsel Maliyetler\n\nDemiryolu  ulaşımında,  demiryolu  altyapı  ve  işletme  bileşenleri  kendi özelliklerine  sahip  birer  ürün  gibidir.  Bu  ürünlerin  yapımı  ve  üretimi  sırasında uzun süreçler ve yüksek maliyetli yatırımlar gerekmektedir. Bu nedenle, demiryolu ulaşımında; altyapı (hattın yapımı, bakım-onarımı, işletilmesi ve hattın bertarafı)  ve  işletme  (tren  araçlarının  üretimi,  işletilmesi,  bakım-onarımı  ve araçların bertarafı) bileşenlerine ait içsel maliyetlerinin belirlenmesi gerekmektedir.\n\nYaşam  döngüsü  analizindeki  içsel  maliyet  kategorisi;  yapım  ve  üretim maliyeti, işletme ve bakım  onarım  maliyeti ve son olarak elden çıkarma maliyetlerinden oluşmaktadır (Aseidu ve Gun, 1998).\n\n Yapım  ve  üretim  maliyeti: Yatırım  maliyetleri;  üretilecek  sistemlerin yapım,  montaj  ve  test  maliyetleri,  üretim  tesislerinin  işletme  ve  bakım maliyetleri, başlangıç lojistik destek maliyetleri (test ve destek elemanları geliştirme maliyetleri, yedek parça tedarik maliyetleri, teknik veri geliştirmesi, tesis inşa maliyetleri) üretim ve inşaat aşamasının maliyetlerini  oluşturmaktadır.  Örneğin,  demiryolu  altyapı  sistemlerinin oluşturulmasında kullanılan malzemelerin (çelik, çimento, balast, ray vb.)\n\nenerjinin (elektrik, doğalgaz, fuel oil vb.) üretimi, malzemelerin nakliyesi (karayolu,  demiryolu  vb.)  ve  diğer  saha  çalışmaları  için  ortaya  çıkan maliyetler  yapım ve üretim ile ilgili içsel maliyettir. Kabasakal ve Solak ( 2010)  çalışmasında, ülkemizde  hızlı tren altyapı yapım  maliyetinin Çizelge  3.4  'ten  görüleceği  üzere  ortalama  4,53  milyon  $/km  civarında olduğu görülmüştür. TCDD (2013) çalışmasındaki 2008-2012 yılı istatistik verilerine  göre,  2012  yılında  YHT-  km  maliyeti  60,64  TL,    KT-  km maliyeti (yolcu) 85,01, Lokomotif-km (yük) 62,72 TL olarak verilmiştir.\n\nÇizelge 3.5. Hızlı tren yapım maliyetleri (Kabasakal ve Solak, 2010)\n\n İşletme ve bakım onarım maliyeti: İşletme maliyetleri; işletimi sürdürme, personel  ve  bakım  desteği,  yedek  parça/tamir  parçası  ve  ilgili envanter, test ve destek  donanım bakımı, ulaştırma ve muamele, tesisler, modifikasyonlar  ve  teknik veri değişikliklerinin maliyetlerini kapsar. Örneğin, demiryolu altyapısındaki rayların işletilmesi veya demiryolu tren araçlarının  hat  üzerinde  çalıştırılması  sonucu  oluşan  maliyetler  işletim maliyeti  ile  içsel  maliyetlerin  bir  bölümünü  oluşturmaktadır.  Campos  ve de Rus ( 2009)  yaptığı çalışmada sadece işletme maliyetleri, hızlı tren için koltuk  başına  0,0776  €/km  ile  0,1776  €/km  arasında  değişmektedir.  Bu\n\nrakamlara  göre  ortalama  450  yolcu  kapasiteli  hızlı  tren  setinin  işletme maliyeti  35  €/km  ile  80  €/km  arasında  bir  değer  almaktadır.  Demiryolu işletme maliyetleri,  trenlerin  teknik  özelliklerine  ve  koltuk  kapasitelerine göre farklılıklar göstermektedir. Örneğin, Türkiye'de YHT yolcu taşımacılığının işletme açısından maliyeti 0.12 TL/yolcu-km iken KD 0.22 TL  /yolcu-km, KD  yük  taşımacılığında ise 0.18 TL/ton-km  olarak verilmiştir (TCDD, 2013). Kabasakal ve Solak (2010) göre yılda 500.000 km  yapan  bir  tren  setinin  ortalama  bakım  maliyeti  yıllık  1  milyon  €, kilometre başına 2 € olmaktadır. Tren setlerinin bakım maliyetini ise 2,83 $/km,  enerji  tüketimini  10,5  kwh/km  ile  20  kwh/km  arasında  değişen değerler aldığı belirlenmiştir.\n\n Elden  çıkarma  maliyeti: Hizmet  dışı  bırakma  ya  da  elden  çıkarma maliyeti; sistem/ürünün yaşam döngüsü boyunca tamir edilemeyen parçalarının elden çıkarılması, sistem/ürünün hizmet dışı bırakılması sonucu bu malzemelerin veya parçaların bertarafı veya arıtımı için oluşan ilgili maliyetlerdir.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_b015eb0fc8:pages=66-68;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L29",
+      "page_end": 68,
+      "page_start": 66,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q05": "PARTIAL",
+        "4.1-Q27": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q05",
+        "4.1-Q27"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 17,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_e8366ed46c9240bc4430/1af63e2492821207f4d0d5e2d48b6573b24df4f9a1d659f4e2a54770a1200360/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "f1f0333378aa2d8a8740819c11e20f7a44854e4c93160ed9bd72c29ed568f7b8",
+      "chunk_id": "ING_e8366ed46c9240bc4430_CH_96d90c378d",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_7b7fbc4868b1afb3260cd02efdf78367b98957dfa50b5d2c7a3e18b91ae99187",
+      "claim_text": "3.1 차량운행비용 및 시간지연비용 산정방법\nŞekil: Fig.  1. Social  cost  estimation  process  and  required  data  definition\nFig.  1. Social  cost  estimation  process  and  required  data  definition\nSocial cost breakdown structure\nTraffic congestion cost\nEnvironmental pollution cost\nVehicle driving cost\nTravel time delay cost\nSocial cost estimation method\nVehicle driving cost\nTravel time delay cost\nEnvironmental pollution cost\n1. Cost estimation\nmodel\nII.Required data acquisition\nIII.Vehicle\n-Fuel expenses\n-Traffic volume\n-Fuel consumption model\n-Driving distance & time at\n-Vehicle operation cost\nconsidering vehicle type &\nspeed\neach vehicle type\n(Cho et al., 2007)\ndriving\ncost\n1. Cost\nIlI.Travel time delay cost\nII. Required data acquisition\n-Traffic volume\n-Average value cost per\n-Driving distance & time at\nhour at each vehicle type\ncalculation\neach vehicle type\n(Cho et al., 2007)\nestimation\nmodel\nI. Cost estimation model (KDI,\nII.Required data acquisition\nIII.Environmental poiíution cost\n-Alr pollution cost pèr speed\n-Traffic volume\n-Driving distance & speed\n2008)\n(at each vehicle type)\ncalculation\ncalculation\nSosyal maliyet tahmin sürecinin ve gerekli veri tanımlarının hiyerarşik bir akış şeması olarak gösterildiği bir diyagram.",
+      "conditions": [],
+      "document_id": "ING_e8366ed46c9240bc4430",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_e8366ed46c9240bc4430:ING_e8366ed46c9240bc4430_CH_96d90c378d:pages=3;canonical=corpus/canonical/objects/ING_e8366ed46c9240bc4430/1af63e2492821207f4d0d5e2d48b6573b24df4f9a1d659f4e2a54770a1200360/chunks/embedding_ready.jsonl#L17",
+      "page_end": 3,
+      "page_start": 3,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q41": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "5.6",
+      "supporting_question_ids": [
+        "4.1-Q41"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 39,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "c8330e45bd99c2ec12d910844eb6de4e0f961fcb6e8cd7ada6fdeeaaa79bb557",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_fc4995be24",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_7bbd81f3b894181570286ecbfcff9c2a9c94a8dfe6dfb140261d6658bda54be7",
+      "claim_text": " Atık arıtımı ile ilgili varsayımlar:\nyolcu taşımacılığı yapılan YHD ve KD hatlarının kullanım süreleri sırasıyla 35 ve 32 yıl, yük taşımacılığı yapılan KD hattının kullanım süresi ise 30 yıl olarak varsayılmıştır.  İşletme bileşenleri: YHT ve KT araçlarının işletmesi (yolcu ve yük taşıması) ile ilgili (tren araçlarının kapasitesi, doluluk oranı, kullanım süresi vb.) varsayımlarda Kabasakal ve Solak ( 2010) tarafından yapılan çalışma verileri dikkate alınmış olup, bunlar EK-2.3'de verilmiştir.\n\n Atık arıtımı ile ilgili varsayımlar:\n\nHer iki demiryolu hattının yapımı sırasında oluşan inert malzemelerin katı atık  depolama  sahalarına  gönderildiği  ve  her  iki  demiryolunda  kullanılan  tren araçlarının  kullanım  sürelerinin  dolmasıyla,  tren  araçlarının  parçalanarak  atık yakma tesisine gönderildikleri varsayılmıştır.\n\n5.2.2.2. Hesaplama prosedürü\n\nÇalışmada 1 km demiryolu altyapı sistemi ve 1 yolcu-km,  1 ton-km yük demiryolu  işletme  sisteminin  oluşturulmasında  gerekli  olan  malzemeler  'kg' cinsinden, taşıma verileri ise taşınan malzemelerin ağırlık değeri ve alınan mesafe değerinin çarpılmasıyla bulunan 'kgkm' birimi cinsinden hesaplanarak yazılımda kullanılmıştır.\n\n5.2.3. Etki analizi\n\nBu  çalışmada  kullanılan  CML  2  baseline  2000  hesaplama  yönteminde seçilen etki kategorileri;\n\n abiyotik kaynakların tükenmesi\n\n asidifikasyon\n\n ötrofikasyon\n\n küresel ısınma\n\n ozon tabakasının tükenmesi\n\n toksik etki\n\no insanlar üzerine olan toksik etki\n\no yüzey sularına olan toksik etki\n\no kara ekosistemine olan toksik etki\n\nşeklindedir. Etki analizi sonucu bulunan değerlendirme sonuçları Bulgular'da\n\n fotokimyasal sis (Bölüm 6) verilmiştir.\n\n5.2.4. Yorum\n\nÇalışmanın yorum aşaması, etki analizi sonuçlarına ait bulguların değerlendirmesi olduğu için, Bulgular'da (Bölüm 6) verilmiştir.\n\n5.3 Demiryolu Ulaşım Sistemi ve LCC Uygulaması\n\nYaşam  döngüsü  maliyeti  (Life  Cycle  Cost,  LCC)  kavramı,  bir  sistemin veya ürünün yaşam döngüsü boyunca; sistemin geliştirilmesi, üretilmesi, işletilmesi  ve  envanterden  çıkarılması  için  ortaya  çıkan  maliyetlerin  toplamı olarak  tanımlanmaktadır.  Bu  tez  çalışmasında, demiryolu  ulaşım  sisteminin ekonomik  açıdan  değerlendirilmesi  IEC  60300-3-3  standardına  göre,  hedef  ve kapsam tanımı, maliyet bileşenlerinin belirlenmesi, maliyet verilerinin toplanması, uygun bir  LCC  modelinin  oluşturulması,  sonuçların  yorumlanması  olmak  üzere beş adımda gerçekleştirilmiştir.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_fc4995be24:pages=86-87;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L39",
+      "page_end": 87,
+      "page_start": 86,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q34": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q34"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 17,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_dfe9d01daa14dd6f5dd1/69b42827f8c4049f56352012d92c717d700849120ffe3f200dd4e73b28fb47ce/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "e48d3948e363501d4cfc1200b5a63303641e007d020a6628e820039956e9e9b4",
+      "chunk_id": "ING_dfe9d01daa14dd6f5dd1_CH_c304a48d06",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_7f0532baed1a0ed2c441981a2a85e96c3dd52ec87fa8e5b0ed30091c2098a5fb",
+      "claim_text": "4.  Comparison of transport projects against utility projects using cost per unit volume against tunnel length\nŞekil: Figure 4: Comparison of transport projects against utility projects using cost per unit volume against tunnel length\nFigure 4: Comparison of transport projects against utility projects using cost per unit volume against tunnel length\nTunnel £m/km/face area vs length of tunnel\n3\nNotes\n1) Two Transport tunnel data points not shown:\nLength 0.65km, cost 5.63 £m/km/m²\nLength 95km, cost 0.11 £m/km/m²\n2.5\n2) 2010 data adjusted using 2017 GDP deflator\nCost per unit volume £m/km/m² face area\n2\nTransport\nUtilities\nX\n●\n+\nTransport 2010\n1.5\n×\nUtilities 2010\nX\nPower (Transport)\nx+\nPower (Utilities)\n1\nx ×\n●\n0.5\n+\nX\n+\n0\n0\n5\n10\n15\n20\n25\n30\nTunnel Length (km)\nUlaşım ve altyapı tünel projelerinin uzunluklarına göre birim maliyetlerini karşılaştıran bir grafik.",
+      "conditions": [],
+      "document_id": "ING_dfe9d01daa14dd6f5dd1",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_dfe9d01daa14dd6f5dd1:ING_dfe9d01daa14dd6f5dd1_CH_c304a48d06:pages=11;canonical=corpus/canonical/objects/ING_dfe9d01daa14dd6f5dd1/69b42827f8c4049f56352012d92c717d700849120ffe3f200dd4e73b28fb47ce/chunks/embedding_ready.jsonl#L17",
+      "page_end": 11,
+      "page_start": 11,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q19": "PARTIAL",
+        "4.1-Q20": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "6.1",
+      "supporting_question_ids": [
+        "4.1-Q19",
+        "4.1-Q20"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 11,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_e8366ed46c9240bc4430/1af63e2492821207f4d0d5e2d48b6573b24df4f9a1d659f4e2a54770a1200360/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "df20eb33b05406e50678485b384f0f0a90e284ad71948ee3693282e7f5e80f20",
+      "chunk_id": "ING_e8366ed46c9240bc4430_CH_d1d7fcb993",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_7f2db110749983f41728f9107b50d1f56e3cd4a3f5afeb4b386161b5da95620a",
+      "claim_text": "3.1 차량운행비용 및 시간지연비용 산정방법\nTablo: Table  1. Traffic  congestion  model  (Cho  et  al.,  2007)\nTraffic congestion cost by driving vehicle | Fuel consumption model | Large truck=0.06639+4.158/V+0.00002525×V 2 | Large truck=0.06639+4.158/V+0.00002525×V 2 | Large truck=0.06639+4.158/V+0.00002525×V 2 Traffic congestion cost by driving vehicle | Vehicle operation cost per hour | Car | Model 17,061 won/1*hr | labor cost + depreciation cost +insurance cost + tax & the public utilities charge Traffic congestion cost by driving vehicle | Vehicle operation cost per hour | Bus | 17,329 won/1*hr | labor cost + depreciation cost +insurance cost + tax & the public utilities charge Traffic congestion cost by driving vehicle | Vehicle operation cost per hour | Truck | 13,902 won/1*hr | labor cost + depreciation cost +insurance cost + tax & the public utilities charge Traffic congestion cost by travel time delay |            ×   exp   ×    ×    cos         ×            or    |            ×   exp   ×    ×    cos         ×            or    |            ×   exp   ×    ×    cos         ×            or    |            ×   exp   ×    ×    cos         ×            or   ",
+      "conditions": [],
+      "document_id": "ING_e8366ed46c9240bc4430",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_e8366ed46c9240bc4430:ING_e8366ed46c9240bc4430_CH_d1d7fcb993:pages=4;canonical=corpus/canonical/objects/ING_e8366ed46c9240bc4430/1af63e2492821207f4d0d5e2d48b6573b24df4f9a1d659f4e2a54770a1200360/chunks/embedding_ready.jsonl#L11",
+      "page_end": 4,
+      "page_start": 4,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q26": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "5.6",
+      "supporting_question_ids": [
+        "4.1-Q26"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 47,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "7f77efb5f9328cf01d0780a8a6bc28b03dd68a47c2724ed79a1735f62370dcc1",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_64f9419fa1",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_83995af72feb9a7964ee534d668b1fff734592371520d69bc9a06bb222faa7ff",
+      "claim_text": "7. SONUÇ, TARTIŞMA VE ÖNERİLER\n€ olarak hesaplanmış, bu değer TCDD (2013) çalışmasında ise, 0,07 € (0,18 TL) Kabasakal ve Solak (2010) tarafından yapılan çalışmada ise 0,013 € (0,03TL) bulunmuştur. Bulunan bu değerler nispeten birbirine yakın olmakla beraber, aradaki farklılığa; trenlerin doluluk oranları, sefer sayıları, kapasiteleri ve personel giderleri ile amortisman değerinin dikkate alınıp alınmaması gibi faktörlerin neden olduğu düşünülmektedir.\n\nHer  iki taşımacılık (yolcu  ve yük)  türü için  de,  ülkemizdeki  karar vericilerin,  demiryolları  ile  yapılan  yolcu  taşımacılığındaki  %2,3  değeri  ile  yük taşımacılığındaki  %4,7 oranını  artırmak için çaba sarf etmeleri gerektiği  açıktır. Nitekim yapılan bu çalışmadan da görüleceği üzere,\n\n Türkiye'de  YHT  demiryolu  hattının  çevresel  etkilerinin    %58'i  altyapı, %42'si işletme bileşenlerinden\n\n Konvansiyonel demiryolunun, altyapı bileşeni %39, işletme bileşeni %61 seviyesinde çevresel etkiye neden olmakta ve\n\n Konvansiyonel demiryolunda yük taşınmasından oluşan çevresel etkilerin de % 25'i altyapıdan, %75'i işletmeden kaynaklanmaktadır.\n\nSonuç  olarak,  demiryolu  ulaşımı  ile  ilgili  stratejilerin  belirlenmesinde çevresel etkiler ve dışsal maliyetler mutlaka göz önüne alınmalı ve sürdürülebilir  bir  ulaşım  stratejisi  için  tezde  belirlenen  çevresel  etkiler  ile maliyetleri en aza indirecek önlemler alınmalıdır.\n\nKAYNAKLAR\n\nAECOM . ( 2011 ), High Speed Rail Study - Phase 1 . Department of Infrastructure and Transport , Avustralya .\n\nAndrade, A.R. ( 2008 ), Renewal decisions from a Life-cycle Cost (LCC) Perspective  in  Railway  Infrastructure:  An  integrative  approach  using separate  LCC  models  for  rail  and  ballast  components , Yüksek  Lisans Tezi, Technology of Lisbon Üniversitesi , Lisbon, Portekiz.\n\nAsiedu,  Y.  ve  Gu,  P. ( 1998 ), \" Product  life  cycle  cost  analysis:  State  of  the  art review \", International Journal of Production Research 36 , 883-908.\n\nAtkins . ( 2011 ), Jernbaneverket  Norwegian  High  Speed  Railway  Assessment Project  Contract  -  Financial  &  Economic  Analysis  Subject  -  Estimation and Assessment of Investment Costs Final Report . Jernbaneverket , No: 6.2 , Londra, İngiltere .\n\nBalpetek, F.G., Alay, E. ve Özdoğan, E. ( 2012 ), \" Sürdürülebilir Kalkınma İçin Yaşam Döngüsü Değerlendirmesi ve Tekstil Sanayi \", Tekstil Teknolojileri Elektronik Dergisi 6 , 37-49.\n\nBanar,  M.,  Özdemir,  A.,  Çokaygil, Z.  ve  Özkan,  A. ( 2013 ), '' Life  Cycle Assessment Based Comparison of Electricity Power Generation Alternatives in Turkey '', 3rd International Exergy, Life Cycle Assessment, and Sustainability Workshop & Symposium (ELCAS3) , Nisros, Yunanistan , 1069-1081.\n\nBaron, T., Martinetti, G. ve Pépion, D. ( 2011 ), High Speed Rail and Sustainability . Background  Report:  Methodology  and  results  of  carbon footprint analysis, International Union of Railways (UIC) , Paris .\n\nBaumann,  H.  ve  Tillman,  A.M. ( 2004 ), The  Hitch  Hiker's  Guide  to  LCA-  An orientation in life cycle assessment methodology and application , Studentliterattur, Lund, İsveç.\n\nBishop, L.P. ( 2000 ), Pollution Prevention , Waveland Press, A.B.D.\n\nCampos, J. ve de Rus, G. ( 2009 ), \" Some stylized facts about high-speed rail: A review of HSR experiences around the world \", Transport Policy 16 , 19-28.\n\nCAPRI . ( 2001 ), Concerted  action  on  transport  pricing  research  integration. . Leeds Üniversitesi , No: Nihai Rapor , Leeds, İngiltere .\n\nCE Delft, Infras ve ISI, F. ( 2011 ), External Costs of Transport in Europe Update Study for 2008 . Delft , No: Nihai ,\n\nChang,  B.  ve  Kendall,  A. ( 2011 ), \" Life  cycle  greenhouse  gas  assessment  of infrastructure construction for California's high-speed rail system \", Transportation Research Part D 16 , 429-434.\n\nChester, M. ve Horvath, A. ( 2010 ), \" Life-cycle assessment of high-speed rail: the case of California \", Environmental Research Letters 5 , 014003.\n\nCiroth,  A.  ve  Franze,  J. ( 2009 ), Life  Cycle  Costing  in  SimaPro . GreenDeltaTC Berlin , No: Hollanda .\n\nÇokaygil,  Z. ( 2005 ), Atık  Yönetim  Planlamasında  Yaşam  Döngüsü  Analizi , Yüksek  Lisans  Tezi, Anadolu  Üniversitesi , Fen Bilimleri Enstitüsü, Eskişehir.\n\nÇokaygil,  Z.  ve  Banar,  M. ( 2005 ), '' Yaşam  Döngüsü  Analizi  ve  Standartlar Açısından Bir Değerlendirme '', VI. Ulusal Çevre Mühendisliği Kongresi , İstanbul.\n\nEEA . ( 1997 ), Life  Cycle  Assessment  (LCA)  A  guide  to  approaches,  experiences and  information  sources . Environmental  Issues  Series , No: 6 , United Kingdom .\n\nEEA . ( 2011 ), Revealing  the  costs  of  air  pollution  from  industrial  facilities  in Europe . No: 15/1 , Kopenhag, Danimarka .\n\nEkim, O. ( 2007 ), Yüksek Hızlı Demiryolları İçin Geometrik Özellikler ve Altyapı Yüksek Lisans Tezi, Yıldız Teknik Üniversitesi ,  Fen  Bilimleri  Enstitüsü, İstanbul, Türkiye.\n\nEsveld,  C. ( 1999 ) .  Recent  Developments  in  Slab  Track  Application.  Delft University  of  Technology,  ,  Faculty  of  Civil  Engineering,  Section  of Roads & Railways.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_64f9419fa1:pages=115-118;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L47",
+      "page_end": 118,
+      "page_start": 115,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q36": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q36"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 24,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_33eccda5d186ceb57f1b/98a4c4ca94f0a5c1d276d2d8d5492585711db2633e6310e514936465834d2a0e/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "69cc216738643e3d82a301d59cc293a94cd202d711733e4d1503194c43523058",
+      "chunk_id": "ING_33eccda5d186ceb57f1b_CH_0ca9d0260d",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_89759337de09f4c2861573436a4e1472f6656b5243a8f09216fa2c79efacd9af",
+      "claim_text": "7.7 Users costs and existing taxes\nTablo: Table A5: Monetary costs borne by users\nTable A5: Monetary costs borne by users\n\n |  | Passenger vehicles.Work | Passenger vehicles.Other | Freight vehicles.Local | Freight vehicles.Transit\n\nResource cost [€/vkm] | NEW | 0.134 | 0.134 | 0.285 | 0.285\n\nResource cost [€/vkm] | OLD | 0.134 | 0.134 | 0.285 | 0.285\n\nNational tax [€/vkm] | NEW | 0.073 | 0.073 | 0.107 | 0.107\n\nNational tax [€/vkm] | OLD | 0.073 | 0.073 | 0.107 | 0.107\n\nRegional | NEW tax [€/vkm] | 0.014 | 0.014 | 0.018 | 0.018\n\nRegional | OLD | 0.014 | 0.014 | 0.018 | 0.018",
+      "conditions": [],
+      "document_id": "ING_33eccda5d186ceb57f1b",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_33eccda5d186ceb57f1b:ING_33eccda5d186ceb57f1b_CH_0ca9d0260d:pages=16;canonical=corpus/canonical/objects/ING_33eccda5d186ceb57f1b/98a4c4ca94f0a5c1d276d2d8d5492585711db2633e6310e514936465834d2a0e/chunks/embedding_ready.jsonl#L24",
+      "page_end": 16,
+      "page_start": 16,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q18": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q18"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 97,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "ae67ee915ede5834ed09448a16856b8643ef40c4111750a6b1e458dc533642f1",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_41e5409bfa",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_96d873912aa0ed05f7d838a7ef945a1085f49772202db5fa1d3c12ab2d980039",
+      "claim_text": "6.2. Demiryolu Ulaşımının LCC Sonuçları ve Değerlendirme\nTablo: Çizelge 6.6 Yük taşımacılığı yaşam döngüsü maliyeti karakterizasyon sonuçları\nÇizelge 6.6 Yük taşımacılığı yaşam döngüsü maliyeti karakterizasyon sonuçları\n\nMaliyet.Kategorileri | Birim.€/ ton- km | İşletme bileşenleri.Loko. işletme | İşletme bileşenleri.Loko. üretimi | İşletme bileşenleri.Loko. bakım- onarımı | İşletme bileşenleri.Loko. bertarafı | İşletme bileşenleri.Yük vagonu üretimi | İşletme bileşenleri.Yük vagonu bakım- onarımı | Altyapı bileşenleri.KD hattı yapımı | Altyapı bileşenleri.KD hattı bakım- onarımı | Altyapı bileşenleri.KD hattı bertarafı\n\nMalzeme Maliyetleri | 0.0056 | - | 1.6E-05 | 4.1E-06 | - | 6.7E-04 | 8.0E-05 | 3.7E-03 | 1.1E-03 | -\n\nNakliye Maliyetleri | 0.0022 | - | 7.5E-06 | 3.6E-06 | 7.9E-08 | 7.7E-04 | 1.3E-04 | 6.0E-06 | 9.0E-08 | 1.2E-03\n\nEnerji Maliyetleri | 0.0096 | 8.8E-03 | 7.3E-06 | 1.9E-06 | 0 | 8.8E-05 | 5.3E-04 | 2.4E-05 | 1.7E-04 | -\n\nHafriyat Maliyetleri | 0.0004 | - | - | - | - | - | - | 3.6E-04 | 1.9E-05 | -\n\nElden Ç. Maliyetleri | 0.0038 | - | - | 1.9E-07 | 3.4E-07 | - | 2.7E-03 | 1.0E-03 | - | 3.6E-05\n\nKirletici Maliyetleri | 0.0174 | 1.7E-02 | 2.7E-13 | 1.6E-14 | 3.9E-15 | 1.0E-09 | 1.1E-10 | 3.1E-10 | 7.8E-14 | 1.7E-11\n\nDiğer Dışsal M. | 0.0023 | 2.3E-03 | - | - | - | - | - | - | - | -\n\nToplam Maliyet | 0.0412 | 2.9E-02 | 3.0E-05 | 9.7E-06 | 4.1E-07 | 1.5E-03 | 3.5E-03 | 5.1E-03 | 1.3E-03 | 1.3E-03",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_41e5409bfa:pages=110;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L97",
+      "page_end": 110,
+      "page_start": 110,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q18": "PARTIAL",
+        "4.1-Q50": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q18",
+        "4.1-Q50"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 40,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "6dcc89d829208531595b264b679fc00e2cf802e2bb6517442ddbfbf41c46adba",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_59f490b687",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_a3e316fae7221cb48a251bf72a3c4380e6343e25eb85a33c8b3e44484a350b1b",
+      "claim_text": "5.3.1. Hedef ve kapsam tanımı\nUygulaması Yaşam döngüsü maliyeti (Life Cycle Cost, LCC) kavramı, bir sistemin veya ürünün yaşam döngüsü boyunca; sistemin geliştirilmesi, üretilmesi, işletilmesi ve envanterden çıkarılması için ortaya çıkan maliyetlerin toplamı olarak tanımlanmaktadır. Bu tez çalışmasında, demiryolu ulaşım sisteminin ekonomik açıdan değerlendirilmesi IEC 60300-3-3 standardına göre, hedef ve kapsam tanımı, maliyet bileşenlerinin belirlenmesi, maliyet verilerinin toplanması, uygun bir LCC modelinin oluşturulması, sonuçların yorumlanması olmak üzere beş adımda gerçekleştirilmiştir.\n\n5.3.1. Hedef ve kapsam tanımı\n\nBu  bölümde,  demiryolu  ulaşım  sisteminin  yaşam  döngüsü  yaklaşımıyla ekonomik  açıdan  değerlendirilmesi  hedeflenmiştir.  Önce,  demiryolu  ulaşımının sistem sınırları ve fonksiyonel birimi belirlenmiştir. Sistem sınırları:\n\n Demiryolu altyapı sistemi için;\n\n Hattın yapımı\n\n Hattın bakım onarımı ve işletilmesi\n\n Hattın bertarafı\n\n Demiryolu işletme sistemi için;\n\n Tren araçlarının üretimi\n\n Tren araçlarının işletilmesi\n\n Tren araçlarının bakım onarımı\n\n Tren araçlarının bertarafı\n\nşeklinde olup, her bir bileşen için maliyet bileşenleri detaylı olarak belirlenmiştir.\n\n5.3.2. Maliyet bileşenlerinin belirlenmesi\n\nDemiryolu ulaşım sisteminin maliyet bileşenleri, içsel maliyetler ve dışsal maliyetler  olmak  üzere  iki  bölümde  incelmiştir. İçsel  maliyetler ,  demiryolu ulaşım  sistemi  bileşenleri  olan  demiryolu  altyapı  (demiryolu  hatlarının  yapım, bakım onarım vb.) ve demiryolu işletme (tren araçlarının üretim, tren araçlarının bakım onarım, enerji tüketimi ve elden çıkarma) maliyetleridir. Dışsal maliyetler , yaşam  döngüsü  analizi  sonucu  incelenen  etki  kategorilerinin  (asidifikasyon, ötrofikasyon,  küresel  ısınma,  toksik  etki  gibi)  etki  yüzdesinin  yüksek  olmasına neden olan kirleticilerdir. Yaşam döngüsü maliyet bileşenlerinin sınıflandırılması Çizelge 5.2'de verilmiştir.\n\nÇizelge 5.2. LCC maliyet bileşenlerinin sınıflandırılması\n\n5.3.3. Maliyet verilerine ait envanterin oluşturulması\n\nBu bölümde, 'Demiryolu Altyapı Sistemi' ve 'Demiryolu İşletme Sistemi'nin'  bileşenlerinin  oluşturulmasında,  kullanılan  malzeme  ve  enerji  ile ilgili sayısal ve maliyet verilerinin toplanması amacıyla, Türkiye'de YHT ve KD hattı ile ilgili yapılmış inşaat projeleri ve teknik analiz raporları, LCC çalışmaları ile  ilgili  literatür  bilgileri  ve  veri  tabanları  detaylı  bir  şekilde  incelenmiştir. Ayrıca,  yaşam  döngüsü  maliyet  envanteri  oluşturulurken,  her  bir  bileşen  için gerekli  hesaplamalar  fonksiyonel birim bazında yapılmıştır. İçsel ve dışsal maliyetlere  ait  alt  bileşen  maliyetleri  ile  ilgili  yaşam  döngüsü  maliyet  envanteri EK-3'te verilmiştir.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_59f490b687:pages=88-89;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L40",
+      "page_end": 89,
+      "page_start": 88,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q01": "PARTIAL",
+        "4.1-Q02": "SUPPORTED",
+        "4.1-Q33": "SUPPORTED",
+        "4.1-Q34": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q01",
+        "4.1-Q02",
+        "4.1-Q33",
+        "4.1-Q34"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 67,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "68772a59a45c3b9b95f985ae420612c6eb4d81f9bc6de4925289a2298a542451",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_c04d03d1f9",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_abfdd72164d763d88caa428cb71087f505c0eb3cfda9a31b01e57d18094a8f2b",
+      "claim_text": "Maliyet verilerine ait envanterin oluşturulması ................................. | 5.3.3. Maliyet verilerine ait envanterin oluşturulması ................................. | 5.3.3. Maliyet verilerine ait envanterin oluşturulması ................................. | 74 5.3.4. LCC modelinin oluşturulması ve analizinin yapılması ...................... | 5.3.4. LCC modelinin oluşturulması ve analizinin yapılması ...................... | 5.3.4. LCC modelinin oluşturulması ve analizinin yapılması ...................... | 75 5.3.5. Yorum ................................................................................................ | 5.3.5. Yorum ................................................................................................ | 5.3.5. Yorum ................................................................................................ | 78 6. BULGULAR ................................................................................................... | 6. BULGULAR ................................................................................................... | 6. BULGULAR ................................................................................................... | 79 6.1. 6.2. | Demiryolu Ulaşımının LCA | Demiryolu Ulaşımının LCA | Sonuçları ve Değerlendirilmesi ................... 79  |  | Demiryolu Ulaşımının LCC Sonuçları ve Değerlendirme ........................ 91 | Demiryolu Ulaşımının LCC Sonuçları ve Değerlendirme ........................ 91",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_c04d03d1f9:pages=8;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L67",
+      "page_end": 8,
+      "page_start": 8,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q41": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q41"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 4,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_dfe9d01daa14dd6f5dd1/69b42827f8c4049f56352012d92c717d700849120ffe3f200dd4e73b28fb47ce/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "0ddfa8c89fc9c2ab5bd7298325b0b71a59321b1a9553aab8a59caa987189befa",
+      "chunk_id": "ING_dfe9d01daa14dd6f5dd1_CH_2a5c7933c4",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_adc91e1f6eb62d92bea50bc4a14065e8837a207cef905cfcb273117e5b0aa78a",
+      "claim_text": "Practical challenges of benchmarking tunnels\nsharing information on tunnelling costs. In order for this to succeed, participants needed to agree on consistent and common metrics, as well as a methodology and protocols for the sharing of data. It was agreed that IPA and HE would work with the BTS, as subject matter experts and the author of Appendix G, to help establish a template for the collation of new data and prepare an updated cost benchmark for tunnels.\n\nPractical challenges of benchmarking tunnels\n\nThere are a number of difficulties in estimating the costs of major economic infrastructure (rail, road, energy, water projects). Firstly, there is often a limited number of similar projects or similar tasks to enable reliable unit costs to be established. Secondly there are a number of variables, including ground conditions, tunnelling method, length, diameter and access arrangements, which make any direct comparison difficult or impossible. Thirdly, owing to the long duration of infrastructure projects the costs available at completion are usually a number of years in the past. This is compounded by the fact that the project may have been tendered or contracted in very different economic conditions to those prevailing when the benchmarking exercise is carried out.\n\nMost significantly, data is rarely readily available and for public sector projects there are no universally recognised metrics, notably for performance. The result is that any data used for benchmarking is often, sparse and not always suitable for robust comparison.\n\nFor example, when analysing the cost data received for completed projects it is often not possible to separate the costs related to tunnelling from other project costs. The contract sum may or may not have included items such as indirect costs (for example, overhead), spoil disposal, cross passages and portal construction.\n\nThe lesson is that benchmarking cannot be undertaken as a purely mechanical exercise. Subject matter expertise and direct project knowledge is required to enable sensible decisions about which projects can provide valid benchmark data, about how to adjust for inflation and economic factors, and how to allow for differences between the benchmark projects and the project in hand.",
+      "conditions": [],
+      "document_id": "ING_dfe9d01daa14dd6f5dd1",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_dfe9d01daa14dd6f5dd1:ING_dfe9d01daa14dd6f5dd1_CH_2a5c7933c4:pages=5;canonical=corpus/canonical/objects/ING_dfe9d01daa14dd6f5dd1/69b42827f8c4049f56352012d92c717d700849120ffe3f200dd4e73b28fb47ce/chunks/embedding_ready.jsonl#L4",
+      "page_end": 5,
+      "page_start": 5,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q43": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "6.1",
+      "supporting_question_ids": [
+        "4.1-Q43"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 5,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_fcafb5c9434d660130bf/8378c8bce39e121332fd6810d0a8d9c73e2deeff50ccc75406a80a8df8d085ab/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "24d1178d64aa9bfedf410e8bc1315d6bfb5399070a36d9fe404cdabcbfbfd455",
+      "chunk_id": "ING_fcafb5c9434d660130bf_CH_a9d90e7276",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_b812b7ead2b3d19100018f564873336a24804f479e66d9cafc379e8ca7926f8f",
+      "claim_text": "2.3 Renewal Maintenance Costs\n60 year cost. Based on our benchmarking of these cost rates we would expect costs to be within a range of ±30% of these estimates. These costs reflect a range of aspects and we would therefore assume that they would increase over time in line with the consumer price index. Table 1: Annual Estimated Operating and Routine Maintenance Costs (2012 prices) Note: Costs exclude VAT, although non-recoverable VAT is included\n\n2.3 Renewal Maintenance Costs\n\nRenewal maintenance relates to planned works to repair or replace the road infrastructure to keep it fit for use.  Annual maintenance costs will vary according to the lifetime of the individual components. The maintenance cycle will depend on detailed design decisions on the materials and components. We have, therefore, estimated annual average costs for the purposes of this study.\n\nFor a tunnel, items needing to be replaced on a planned basis include mechanical and electrical equipment and road surfacing.  Whereas for a major bridge, major items for replacement include bridge bearings, road deck joints, road surfacing and corrosion protection works.\n\nFor the major crossing structure adjacent link roads and the tunnel for Option C variant, we have drawn on benchmark evidence on major estuarial crossings (see Section 2.2.4). For the longer length of link roads required for Option C we have drawn on data made available from the Highways Agency's Trunk Road maintenance statistics to calculate costs outside the approach roads area.\n\nThe benchmark costs were interpreted, using linear interpolation based on the dimensions of the illustrative designs, to estimate costs for each of options assessed.\n\nTable 2 below shows the renewal maintenance costs estimates.\n\nBased on our benchmarking of these cost rates we would expect costs to be within a range of ±30% of these estimates.  These costs mainly reflect capital costs and we would therefore assume that they would increase over time in line with the construction cost prices.\n\nTable 2: Annual Average Maintenance Renewal Costs (2012 prices)\n\nNote: Costs exclude VAT on the basis that the works will be on existing highway land",
+      "conditions": [],
+      "document_id": "ING_fcafb5c9434d660130bf",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_fcafb5c9434d660130bf:ING_fcafb5c9434d660130bf_CH_a9d90e7276:pages=9-10;canonical=corpus/canonical/objects/ING_fcafb5c9434d660130bf/8378c8bce39e121332fd6810d0a8d9c73e2deeff50ccc75406a80a8df8d085ab/chunks/embedding_ready.jsonl#L5",
+      "page_end": 10,
+      "page_start": 9,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q35": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.6",
+        "5.5"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5",
+      "supporting_question_ids": [
+        "4.1-Q35"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 34,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "5790fb5c8b54e417318c5d2fca4cb98839059ee43a8b6d2c522259d7a81f44ed",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_e57f7aab77",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_ba7cb8cd753ba03129e8f4e8de759b70da3f59fe28cd7cb85143b00a132bf3ab",
+      "claim_text": "4.2. LCC ile İlgili Yapılan Çalışmalar\nedilmesi için yaşam döngüsü maliyet yaklaşımı kullanılmıştır. Çalışmada yaşam döngüsü maliyet modeli ile yüksek hızlı tren hattının yatırım, işletme, bakım onarım ve yatırım maliyetlerine ilaveten uzun dönem maliyetleri ile ekonomik değerlendirilmesi yapılmıştır. Verilerin toplanmasında ve yaşam döngüsü maliyet modelinin geliştirilmesinde UK HS2 (High Speed Two Limited) verilerinden ve J.P. Baumgartner'ın 'Demiryolu Sektöründe Maliyetler' adlı çalışmasından faydalanılmış ve Oslo Bergen hattı için de bir yaşam döngüsü maliyet modeli oluşturulmuştur.\n\nÇizelge 4.1. Avrupa'da dışsal maliyet ile ilgili yapılmış çalışmalar\n\n4.3. LCA ve LCC Entegrasyonu\n\nLCA ve LCC'nin entegrasyonu ile ilgili yaptığı çalışmada, bu iki metodun yaklaşımları arasındaki farklılıkları ve benzerlikleri ortaya koymaktadır. Özellikle, LCA ve LCC çok farklı sorulara cevap vermek için yapılıyor olmasına rağmen, her iki yaklaşımda karar vericilere daha iyi katkılar verebilmek için gerçekleştirilir. Bu yüzden LCA ve LCC birbirlerinden ayrı bir şekilde yapılsa da, karar vericilere bir çok açıdan karar vermede yardımcı olabilmesi için birbirlerine entegre edilirler (Norris, 2001).\n\nSimoes ve ark. ( 2013) tarafından yapılan çalışmada LCA  ve  LCC metotlarının  entegre  olarak  birlikte  kullanılabileceği  ifade  edilmiş  olup  her  iki metodolojik aracın berabere kullanılabildiği bir model oluşturulmuştur (Şekil 4.1).\n\nLCA/LCC entegre analizi\n\nŞekil 4.1. LCA ve LCC entegre model yapısı\n\n5. MATERYAL VE METOD\n\nUlaşımla  ilgili  olası  çevresel  problemlerin  tanımlanabilmesi  için  tüm ulaşım sistemi,  yaşam döngüsünü içeren bütünsel bir yaklaşımla ele alınmalıdır. Bu  yaklaşımda,  sadece  ulaşım  aracı  değil,  aynı  zamanda  ulaşımı  sağlayan  tüm yapı da dikkate alınmaktadır.\n\nO nedenle, tez çalışmasında, ülkemizde karar vericilere bir girdi sağlaması amacıyla, demiryolu ulaşım sisteminin çevresel etkileri ile bu etkilerin ekonomik açıdan da değerlendirilmesi LCA ve LCC yöntemleri ile birlikte yapılmıştır.\n\nLCA,  bu  çalışmada  dört  adımda  gerçekleştirilmiştir  (Bölüm  5.2).  İlk adımda, hedef ve kapsam tanımı ile çalışmanın amaçları ve hedeflenen çıktılara ulaşmak için gerekli ana bileşenler ortaya konularak demiryolu ulaşım sisteminin sınırları ve fonksiyonel birimi belirlenmiştir (Bölüm 5.2.1). İkinci adımda, yaşam döngüsü envanter analizi için (LCI) malzeme ve enerji akışının sayısal ve teknik verilerinin  toplanması  ve  değerlendirilmesi  gerektiğinden,  sistem  sınırları  kapalı bir kutu olarak ele alınarak, bu kutuya giren tüm hammadde ve enerji bileşenleri ile kutudan çıkan kirletici bileşenler ve yan salınımlar fonksiyonel birim bazında hesaplanmıştır (Bölüm 5.2.2). Üçüncü adımda, yaşam döngüsü etki değerlendirmesi (LCIA)  ile demiryolu  ulaşım sisteminin tüm  bileşenlerinin çevresel etkileri etki kategorileri bazında lisanslı SimaPro 7.3.3 (PRe Consultants, Netherland) yazılımı kullanılarak hesaplanmıştır (Bölüm 5.2.3). Dördüncü aaşamada, etki değerlendirmesi sonuçları yorumlanmıştır (Bölüm 6.1).\n\nLCC  bölümü  ise  beş  adımda  gerçekleştirilmiştir.  Öncelikle,  demiryolu ulaşım sisteminin hedef ve kapsam tanımı yapılmıştır (Bölüm 5.3.1). Bir sonraki adımda,  maliyet  prosesleri  detaylı  bir  şekilde  incelenerek  maliyet  faktörleri belirlenmiş  ve  kategorilere  ayrılmıştır  (Bölüm  5.3.2).  Üçüncü  adımda,  maliyet verileri  toplanarak  yaşam  döngüsü  maliyet  envanteri  oluşturulmuştur  (Bölüm 5.3.3). Dördüncü adımda, uygun LCC modeli, lisanslı SimaPro 7.3.3 yazılımında kurulmuştur  (Bölüm  5.3.4).  Beşinci  adımda,  demiryolu  ulaşımının  her  bileşeni için  yaşam  döngüsü  maliyeti  modeli  ile  ilgili  veriler  lisanslı  SimaPro  7.3.3 yazılımına  girilerek  yaşam  döngüsü  maliyet  analizi  yapılmış  ve  yorumlanmıştır (Bölüm 5.3.5).",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_e57f7aab77:pages=77-79;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L34",
+      "page_end": 79,
+      "page_start": 77,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q33": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q33"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 41,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1aee29b8925d267db7b0/d08214777ea45e860551dab3849738254e06e6348a2be709d41593050ad6e2a8/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "fdd032ed46f2abc7333caa723f1cef23e0e6bef72aff4931f347be23cfd01685",
+      "chunk_id": "ING_1aee29b8925d267db7b0_CH_bcf4b56611",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_cac76e29cc24bd04a59ee85b05c37e844176c41ca9c0a08704ea47a94de1ff96",
+      "claim_text": "Sensitivity analysis\nŞekil: Fig. 7 .  Variances due to the impacts of structural design, transportation distance, and end-of-life treatment.\nFig. 7 .  Variances due to the impacts of structural design, transportation distance, and end-of-life treatment.\nScenario 1\n2.0%\n0.0%\n-2.0%\n4.0%\nScenario 3\nScenario 2\nÜç köşeli bir üçgen (radar) grafiği, iç içe çizgilerle farklı senaryoların yüzde cinsinden varyans değerlerini karşılaştırmaktadır.",
+      "conditions": [],
+      "document_id": "ING_1aee29b8925d267db7b0",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1aee29b8925d267db7b0:ING_1aee29b8925d267db7b0_CH_bcf4b56611:pages=15;canonical=corpus/canonical/objects/ING_1aee29b8925d267db7b0/d08214777ea45e860551dab3849738254e06e6348a2be709d41593050ad6e2a8/chunks/embedding_ready.jsonl#L41",
+      "page_end": 15,
+      "page_start": 15,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q39": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4",
+        "6.1"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q39"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 92,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "16e0a8b1d13ec04c8b585778f5e0e195f53be87e2741b8cf376f013326dd9e33",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_9d9f2fb4d2",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_d5c464c1b29e862aa4d34039e4fe1b9124cabcd89b575d0e87f9421aa9e81f8f",
+      "claim_text": "5.3.2. Maliyet bileşenlerinin belirlenmesi\nTablo: Çizelge 5.2. LCC maliyet bileşenlerinin sınıflandırılması\nÇizelge 5.2. LCC maliyet bileşenlerinin sınıflandırılması\n\nLCC maliyetleri | LCC bileşen maliyetleri | LCC alt bileşen maliyetleri\n\nİçsel maliyetler | Demiryolu altyapı | Demiryolu hattının yapımı Demiryolu hattının bakım onarımı\n\nİçsel maliyetler | Demiryolu işletme | Tren araçlarının üretimi Tren araçlarının bakım onarımı Tren araçlarının işletilmesi\n\nDışsal maliyetler | Kirletici maliyetler | Küresel ısınma (CO, CO 2 ) Asidifikasyon (NO 2 , SO 2, ) Ötrofikasyon (NO 3 , PO 4, ) Toksisite (Arsenik, kadmiyum, krom, kurşun, civa, benzen, PAH, v.b)\n\nDışsal maliyetler | Diğer maliyetler | Kaza Gürültü",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_9d9f2fb4d2:pages=89;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L92",
+      "page_end": 89,
+      "page_start": 89,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q02": "SUPPORTED",
+        "4.1-Q10": "PARTIAL",
+        "4.1-Q50": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q02",
+        "4.1-Q10",
+        "4.1-Q50"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 11,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_132bdd29ff845933c0d0/0e260d55bea585097eea2ae51ee1cec1523429ce7e8b7c4261738b0faece8999/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "d9c90671e9f7d9607665ce4c0c7353738b81fd135d5e6ed3183240993ce4cfe3",
+      "chunk_id": "ING_132bdd29ff845933c0d0_CH_c5b7a1fd15",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_d5d774306e729c2063bd96f10d2258a5ec20d3b9524e97c79f3d9c8a5b0d92c6",
+      "claim_text": "Length\nan influence on the estimated final costs, due to the fact that procurement models with payment methods with asymmetric risk allocations generally lead to higher costs due to the fact that higher risk contingencies are often included by the Contractor or the Owner. Figure 7: Total costs in function of the payment method (for tunnels construction) Source: ITA Report n°17 / April 2016: Recommendations on the development process for Mined Tunnels\n\nLength\n\nThere is no doubt that the longer a tunnel, the higher its cost. Nonetheless, the precise relation between the length and the cost in tunnel construction is difficult to determine, due to the combined effect of a number of other factors, including: the geological/hydrogeological condition, the construction method and support types (as shown in the previous section) and the safety requirements.\n\nThe safety requirements considerably increase with an increase of the tunnel length. The increase in safety requirements directly influences the cost increment. An example of the safety requirements (evacuation facilities, fire resistance requirements, detection and reaction systems, designated refuge points, emergency communication, etc.) per different tunnel lengths is reported in the following table.\n\nFigure 8: Functional and technical specifications of the subsystem infrastructure in Railway Tunnels\n\nSource: Own elaboration based on ERA-CON-2012-05-INT\n\nAdditionally, it has to be considered that the increase of the tunnel length has opposite effect on its unit cost:\n\n The length of a tunnel is inversely related to its unit cost, due to the possibility of creating economies of scale (this is particularly valid for TBM excavation considering its significant capital investment required for the machine);\n\n On the other hand, the longer the tunnel, the highest the uncertainty of the ground conditions, and, consequently, the higher the planning and design cost, the geological investigation cost and usually the contingencies allocated. 63   64  The Base Tunnels that underpass the Alps (even more than 50 km) are considerably longer than the average tunnels considered in this case study and face complex ground conditions and safety measures, which, in turn, affect the overall cost of the project.\n\nIt is worth mentioning that in case of a significant length, the availability of multiple access points and headings would influence the construction programme reducing the time schedule for excavation and lining. (e. g. the Gotthard Base tunnel was excavated through four access tunnels simultaneously, to half the excavation time 65 ).",
+      "conditions": [],
+      "document_id": "ING_132bdd29ff845933c0d0",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_132bdd29ff845933c0d0:ING_132bdd29ff845933c0d0_CH_c5b7a1fd15:pages=16-17;canonical=corpus/canonical/objects/ING_132bdd29ff845933c0d0/0e260d55bea585097eea2ae51ee1cec1523429ce7e8b7c4261738b0faece8999/chunks/embedding_ready.jsonl#L11",
+      "page_end": 17,
+      "page_start": 16,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q19": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2",
+        "2.2"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "6",
+      "supporting_question_ids": [
+        "4.1-Q19"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 10,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_e8366ed46c9240bc4430/1af63e2492821207f4d0d5e2d48b6573b24df4f9a1d659f4e2a54770a1200360/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "eea77dd66e8c21057954d2b78d3cd1fb2fa5911d7ce3a54e6f20e929b9ee833f",
+      "chunk_id": "ING_e8366ed46c9240bc4430_CH_ee873b1bac",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_d86d823ed3682e554ee9ca830bb9cb794cc2b930e49354a45758b360331345ea",
+      "claim_text": "3.1 차량운행비용 및 시간지연비용 산정방법\nTablo: Table  1. Traffic  congestion  model  (Cho  et  al.,  2007)\nTable  1. Traffic  congestion  model  (Cho  et  al.,  2007) 0 | 1 | 2 | 3 | 4 Traffic congestion cost by driving vehicle |            ×   exp   ×    ×                 cos     ×         or    |            ×   exp   ×    ×                 cos     ×         or    |            ×   exp   ×    ×                 cos     ×         or    |            ×   exp   ×    ×                 cos     ×         or    Traffic congestion cost by driving vehicle | i=vehicle class, j=route, k=time, V=speed(km/hr), time=hour | i=vehicle class, j=route, k=time, V=speed(km/hr), time=hour | i=vehicle class, j=route, k=time, V=speed(km/hr), time=hour | i=vehicle class, j=route, k=time, V=speed(km/hr), time=hour Traffic congestion cost by driving vehicle | Fuel consumption model | Passenger car=0.02882+0.910/V+0.000003828×V 2 | Passenger car=0.02882+0.910/V+0.000003828×V 2 | Passenger car=0.02882+0.910/V+0.000003828×V 2 Traffic congestion cost by driving vehicle | Fuel consumption model | Mini bus=0.03336+1.153/V+0.000004312×V 2 | Mini bus=0.03336+1.153/V+0.000004312×V 2 | Mini bus=0.03336+1.153/V+0.000004312×V 2 Traffic congestion cost by driving vehicle | Fuel consumption model | Large bus=0.02476+3.492/V+0.00001277×V 2 | Large bus=0.02476+3.492/V+0.00001277×V 2 | Large bus=0.02476+3.492/V+0.00001277×V 2 Traffic congestion cost by driving vehicle | Fuel consumption model | Small truck=0.01695+1.292/V+0.00001647×V 2 | Small truck=0.01695+1.292/V+0.00001647×V 2 | Small truck=0.01695+1.292/V+0.00001647×V 2",
+      "conditions": [],
+      "document_id": "ING_e8366ed46c9240bc4430",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_e8366ed46c9240bc4430:ING_e8366ed46c9240bc4430_CH_ee873b1bac:pages=4;canonical=corpus/canonical/objects/ING_e8366ed46c9240bc4430/1af63e2492821207f4d0d5e2d48b6573b24df4f9a1d659f4e2a54770a1200360/chunks/embedding_ready.jsonl#L10",
+      "page_end": 4,
+      "page_start": 4,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q26": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "5.6",
+      "supporting_question_ids": [
+        "4.1-Q26"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 128,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "afffc2babb1cde5f97e4dfd465a38fae2f84ec4eeeb650b3f59619f7f56d2a6a",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_3ea926ab95",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_f5f73f274c2a00805f8475f6a3c4d29b863b5cf9fc08041175c49f9068d106f4",
+      "claim_text": "3.5.3. LCC analizinin karar almada kullanımı\nŞekil: Şekil 3.3. Yaşam döngüsü maliyet analizi uygulamaları (Aytok, 2006).\nŞekil 3.3. Yaşam döngüsü maliyet analizi uygulamaları (Aytok, 2006).\nAlternatif\nEn Uygun Alım\nUzun Dönem\nDevam Eden\nÜrünleri\nStratejisini\nPlanlama ve\nProjeyi Kontrol\nKiyaslamak\nBelirlemek\nBütçeleme\nEtmek\nGaranti ve\nFayda\nLCC\nPerformans\nMaliyet\nUYGULAMALARI\nTakibi\nAnalizleri\nKaynakları\nLojistik\nEkipman\nAna\nVerimli\nKavramları\nDeğiştirilmesine\nMaliyetleri\nDağitmak\nKiyaslamak\nKarar Vermek\nBelirlemek\nMerkezi bir kutudan çevresindeki dokuz kutuya oklarla bağlanan hiyerarşik bir kavram diyagramı.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_3ea926ab95:pages=62;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L128",
+      "page_end": 62,
+      "page_start": 62,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q50": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "4.1-Q50"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 16,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_dfe9d01daa14dd6f5dd1/69b42827f8c4049f56352012d92c717d700849120ffe3f200dd4e73b28fb47ce/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "e37aa7d1a1a6393f762fb54ae2b99cea1e3d3d7b2d14269488bec73903d3e55c",
+      "chunk_id": "ING_dfe9d01daa14dd6f5dd1_CH_039cc82269",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_f93d8cecd9291d2bd3471625ec99fd705b5c16e684f0e84b391112607f07c141",
+      "claim_text": "3.  Comparison of transport projects against utility projects using total tunnel volume\nŞekil: Figure 3: Comparison of transport projects against utility projects using total tunnel volume\nFigure 3: Comparison of transport projects against utility projects using total tunnel volume\nProject cost v volume of tunnelling\n700\nTransport\nUtilities\n600\nLinear (Transport)\nLinear (Utilities)\n500\nProject cost (£m)\n●\n400\n●\n●\n300\n200\n●\n●\n100\n●\n●\n0\n0\n100,000\n200,000\n300,000\n400,000\n500,000\n600,000\n700,000\n800,000\n900,000\n1,000,000\nVolume of tunnelling (m³)\nİki farklı veri grubunun iki değişken arasındaki ilişkisini doğrusal eğilim çizgileriyle gösteren bir saçılım grafiği.",
+      "conditions": [],
+      "document_id": "ING_dfe9d01daa14dd6f5dd1",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_dfe9d01daa14dd6f5dd1:ING_dfe9d01daa14dd6f5dd1_CH_039cc82269:pages=10;canonical=corpus/canonical/objects/ING_dfe9d01daa14dd6f5dd1/69b42827f8c4049f56352012d92c717d700849120ffe3f200dd4e73b28fb47ce/chunks/embedding_ready.jsonl#L16",
+      "page_end": 10,
+      "page_start": 10,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "4.1-Q43": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "4.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "6.1",
+      "supporting_question_ids": [
+        "4.1-Q43"
+      ]
+    }
+  ],
+  "contract_version": "section-preparation-v1",
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "registry_id": "SCR_fbc34379e88f138064ca28d81f6280a38556d37eb90b79b8d3996c06d9e685a6",
+  "schema_version": "1.0",
+  "section_id": "4.1",
+  "section_title": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar"
+}

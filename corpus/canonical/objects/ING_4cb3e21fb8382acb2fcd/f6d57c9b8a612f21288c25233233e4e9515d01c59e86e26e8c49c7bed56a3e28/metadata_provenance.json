@@ -1,0 +1,87 @@
+{
+  "document_id": "ING_4cb3e21fb8382acb2fcd",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Statens vegvesen. N500:2022. N500:2022",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2022",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "Dosya yolu/başlıkta açık yıl: 2022"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "mixed",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "geology"
+      ],
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "geology:geolog; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://store.vegnorm.vegvesen.no/n500_2022",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

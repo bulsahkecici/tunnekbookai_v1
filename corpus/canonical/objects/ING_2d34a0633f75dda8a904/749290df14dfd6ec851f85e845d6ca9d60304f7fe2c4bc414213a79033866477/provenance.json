@@ -1,0 +1,140 @@
+{
+  "document_id": "ING_2d34a0633f75dda8a904",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260915_ea6a6ad87eff_2393eb5e556e",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260915_ea6a6ad87eff_2393eb5e556e",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "ea6a6ad87eff",
+        "producer_git_dirty": false,
+        "generated_at": "2026-09-15T19:36:14+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "2393eb5e556e997c6dab9e3bf62ad275b935cc2535d8152f11cb4c72e68d3335"
+      },
+      "canonical_id": "CAN_EDA5E5D46D2FEC1E479B",
+      "producer_document_id": "PC_2D34A0633F75DDA8",
+      "declared_sha256": "2d34a0633f75dda8a90483ea0988368e3a41f7ff2d73eac45f43dfe2c75a9d89",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_2D34A0633F75DDA8/source.pdf",
+        "sha256": "2d34a0633f75dda8a90483ea0988368e3a41f7ff2d73eac45f43dfe2c75a9d89"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.17714/gumusfenbil.740635",
+        "landing_url": "https://doi.org/10.17714/gumusfenbil.740635",
+        "pdf_url": "https://dergipark.org.tr/tr/download/article-file/1113510",
+        "resolved_url": "https://dergipark.org.tr/tr/download/article-file/1113510",
+        "discovery_source": "core",
+        "discovery_query": "Yeni Zigana Tüneli eski Zigana Tüneli tarihçe",
+        "doi": "10.17714/gumusfenbil.740635",
+        "publisher": "[{'title': None, 'identifiers': []}, {'title': None, 'identifiers': []}]"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.17714/gumusfenbil.740635",
+        "landing_url": "https://doi.org/10.17714/gumusfenbil.740635",
+        "pdf_url": "https://dergipark.org.tr/tr/download/article-file/1113510",
+        "resolved_url": "https://dergipark.org.tr/tr/download/article-file/1113510",
+        "discovery_source": "core",
+        "discovery_query": "Yeni Zigana Tüneli eski Zigana Tüneli tarihçe",
+        "doi": "10.17714/gumusfenbil.740635",
+        "publisher": "[{'title': None, 'identifiers': []}, {'title': None, 'identifiers': []}]"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_2D34A0633F75DDA8",
+        "canonical_id": "CAN_EDA5E5D46D2FEC1E479B",
+        "canonical_hint_id": "CAN_EDA5E5D46D2FEC1E479B",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "[{'title': None, 'identifiers': []}, {'title': None, 'identifiers': []}]",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Geomatics Engineering Applications in Tunnel Projects: New Zigana Tunnel Case",
+        "authors": [
+          "Döner, Fatih"
+        ],
+        "year": "2020",
+        "doi": "10.17714/gumusfenbil.740635",
+        "source_url": "https://doi.org/10.17714/gumusfenbil.740635",
+        "landing_url": "https://doi.org/10.17714/gumusfenbil.740635",
+        "resolved_url": "https://dergipark.org.tr/tr/download/article-file/1113510",
+        "local_path": "01_originals/C_ACADEMIC/PC_2D34A0633F75DDA8/source.pdf",
+        "sha256": "2d34a0633f75dda8a90483ea0988368e3a41f7ff2d73eac45f43dfe2c75a9d89",
+        "source_name": "core",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "ABSTRACT",
+        "evidence_level": "ABSTRACT",
+        "acquisition_status": "DOWNLOADED_PDF",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_2D34A0633F75DDA8/source.pdf",
+          "original_or_raw_sha256": "2d34a0633f75dda8a90483ea0988368e3a41f7ff2d73eac45f43dfe2c75a9d89",
+          "crawler_normalized": null,
+          "crawler_normalized_sha256": null,
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "[{'title': None, 'identifiers': []}, {'title': None, 'identifiers': []}]",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "DOWNLOADED_PDF",
+          "source_path": "01_originals/C_ACADEMIC/PC_2D34A0633F75DDA8/source.pdf",
+          "source_sha256": "2d34a0633f75dda8a90483ea0988368e3a41f7ff2d73eac45f43dfe2c75a9d89"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.17714/gumusfenbil.740635",
+          "landing_url": "https://doi.org/10.17714/gumusfenbil.740635",
+          "pdf_url": "https://dergipark.org.tr/tr/download/article-file/1113510",
+          "resolved_url": "https://dergipark.org.tr/tr/download/article-file/1113510",
+          "discovery_source": "core",
+          "discovery_query": "Yeni Zigana Tüneli eski Zigana Tüneli tarihçe",
+          "doi": "10.17714/gumusfenbil.740635",
+          "publisher": "[{'title': None, 'identifiers': []}, {'title': None, 'identifiers': []}]"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source.pdf",
+    "original_sha256": "2d34a0633f75dda8a90483ea0988368e3a41f7ff2d73eac45f43dfe2c75a9d89",
+    "mime_type": "application/pdf",
+    "format": "PDF"
+  }
+}

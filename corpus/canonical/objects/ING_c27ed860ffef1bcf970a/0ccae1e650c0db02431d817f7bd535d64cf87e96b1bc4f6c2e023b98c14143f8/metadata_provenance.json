@@ -1,0 +1,79 @@
+{
+  "document_id": "ING_c27ed860ffef1bcf970a",
+  "fields": [
+    {
+      "field": "title",
+      "value": "B3 60 ÇELİK İKSA DETAYI-Model",
+      "source": "original_file",
+      "confidence": 0.3,
+      "inferred": true,
+      "reason": "no heading or package title; fell back to the filename"
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "drawing",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: detay"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "steel_rib"
+      ],
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "steel_rib:çelik iksa; tunnel_general:tünel"
+    }
+  ]
+}

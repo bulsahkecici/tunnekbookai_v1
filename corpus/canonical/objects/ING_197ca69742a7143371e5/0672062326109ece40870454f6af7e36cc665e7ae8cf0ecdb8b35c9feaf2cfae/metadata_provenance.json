@@ -1,0 +1,106 @@
+{
+  "document_id": "ING_197ca69742a7143371e5",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Index",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "contracts",
+        "drainage",
+        "excavation",
+        "forepoling",
+        "karst",
+        "maintenance",
+        "monitoring",
+        "operations",
+        "quality_control",
+        "regulation",
+        "risk",
+        "rock_bolt",
+        "rock_mechanics",
+        "safety",
+        "shotcrete",
+        "standards",
+        "tbm",
+        "traffic",
+        "water",
+        "waterproofing"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; rock_mechanics:rock mass; excavation:excavat; shotcrete:shotcrete; rock_bolt:rock bolt; forepoling:forepol; karst:karst; water:groundwater; drainage:drainage; waterproofing:waterproof; monitoring:monitoring; risk:risk"
+    },
+    {
+      "field": "document_status",
+      "value": "DRAFT",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "status marking: Preliminary"
+    }
+  ]
+}

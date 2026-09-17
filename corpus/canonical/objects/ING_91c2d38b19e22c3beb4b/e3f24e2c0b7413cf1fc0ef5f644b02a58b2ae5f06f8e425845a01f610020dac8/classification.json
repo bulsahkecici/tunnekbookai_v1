@@ -1,0 +1,222 @@
+{
+  "final_primary_section": "2.2.2",
+  "final_secondary_sections": [
+    "2.2",
+    "2.4.1.2",
+    "2",
+    "1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0009",
+        "PARA0010",
+        "PARA0012",
+        "PARA0019",
+        "PARA0047",
+        "PARA0051",
+        "PARA0056",
+        "LIST0004",
+        "LIST0011",
+        "LIST0013",
+        "LIST0016",
+        "LIST0019"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0009",
+        "PARA0010",
+        "PARA0015",
+        "PARA0018",
+        "PARA0019",
+        "PARA0025",
+        "FIG0006",
+        "CAPT0007",
+        "PARA0034",
+        "PARA0037",
+        "FIG0010",
+        "PARA0051",
+        "PARA0053",
+        "LIST0015",
+        "LIST0016"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0015",
+        "PARA0018",
+        "PARA0025",
+        "PARA0027",
+        "PARA0029",
+        "PARA0035",
+        "FIG0009",
+        "CAPT0010",
+        "PARA0036",
+        "FIG0010",
+        "CAPT0011",
+        "PARA0038",
+        "PARA0039",
+        "PARA0045",
+        "PARA0046",
+        "PARA0051"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0009",
+        "PARA0010",
+        "PARA0014",
+        "HEAD0003",
+        "PARA0015",
+        "PARA0018",
+        "PARA0019",
+        "PARA0025",
+        "FIG0006",
+        "CAPT0007",
+        "PARA0028",
+        "PARA0033",
+        "PARA0034",
+        "PARA0037",
+        "FIG0010",
+        "PARA0051",
+        "PARA0052",
+        "PARA0053",
+        "LIST0015",
+        "LIST0016"
+      ]
+    },
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0009",
+        "PARA0010",
+        "PARA0011",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "FIG0002",
+        "CAPT0001",
+        "TABLE0001",
+        "CAPT0002",
+        "PARA0019",
+        "PARA0020",
+        "FIG0006",
+        "PARA0027",
+        "PARA0029",
+        "PARA0030",
+        "PARA0034",
+        "FIG0008",
+        "PARA0035",
+        "FIG0010",
+        "PARA0039",
+        "PARA0047",
+        "PARA0051"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2.2",
+      "score": 0.7783,
+      "rule_score": 0.6667,
+      "embedding_score": 0.771,
+      "chunk_vote": 0.0733
+    },
+    {
+      "id": "2",
+      "score": 0.7488,
+      "rule_score": 0.5556,
+      "embedding_score": 0.78,
+      "chunk_vote": 0.2113
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.7308,
+      "rule_score": 0.6,
+      "embedding_score": 0.7711,
+      "chunk_vote": 0.0192
+    },
+    {
+      "id": "1",
+      "score": 0.6734,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7641,
+      "chunk_vote": 0.219
+    },
+    {
+      "id": "2.2",
+      "score": 0.644,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7706,
+      "chunk_vote": 0.0576
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3523,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2338
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3478,
+      "rule_score": 0.0,
+      "embedding_score": 0.7728,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3437,
+      "rule_score": 0.0,
+      "embedding_score": 0.7638,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3431,
+      "rule_score": 0.0,
+      "embedding_score": 0.7625,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.238,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0115
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, aşırı sıkıştırılmış (overconsolidated) zeminlerde kalkanlı TBM ile tünel kazısının 3D sayısal modellemesini ele almaktadır. Bu, doğrudan 'Yumuşak Zeminde Açılan Tüneller' (2.2.2) başlığına en yakın teknik alt başlıktır (zemin tipi ve TBM yöntemi odaklı). Ayrıca, kazı sürecinin aşamalı simülasyonu (excavation, grouting vb.) 'İnşaat Esnasındaki Çalışmalar' (2.4.1.2) ile de ilişkilidir. Genel ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:18",
+    "embeddings:8",
+    "top=2.2.2:0.7783 gap=0.029 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

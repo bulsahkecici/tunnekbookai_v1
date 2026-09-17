@@ -1,0 +1,227 @@
+{
+  "final_primary_section": "5.9",
+  "final_secondary_sections": [
+    "5.9.2",
+    "1",
+    "5.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0009",
+        "LIST0014",
+        "HEAD0003",
+        "LIST0091",
+        "LIST0173",
+        "LIST0174",
+        "LIST0175",
+        "LIST0176",
+        "LIST0180",
+        "LIST0188",
+        "HEAD0005",
+        "PARA0007",
+        "LIST0224",
+        "LIST0236",
+        "PARA0008",
+        "PARA0010",
+        "LIST0237",
+        "PARA0013",
+        "HEAD0009",
+        "PARA0018",
+        "LIST0245",
+        "LIST0269",
+        "HEAD0016",
+        "LIST0278",
+        "LIST0281"
+      ]
+    },
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0009",
+        "LIST0014",
+        "HEAD0003",
+        "LIST0091",
+        "LIST0173",
+        "LIST0174",
+        "LIST0175",
+        "LIST0176",
+        "LIST0180",
+        "LIST0188",
+        "HEAD0005",
+        "PARA0007",
+        "LIST0224",
+        "LIST0236",
+        "PARA0008",
+        "PARA0010",
+        "LIST0237",
+        "PARA0013",
+        "HEAD0009",
+        "PARA0018",
+        "LIST0245",
+        "LIST0269",
+        "HEAD0016",
+        "LIST0278",
+        "LIST0281"
+      ]
+    },
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "LIST0091",
+        "LIST0092",
+        "LIST0098",
+        "LIST0101",
+        "LIST0102",
+        "LIST0103",
+        "LIST0104",
+        "LIST0105",
+        "LIST0106",
+        "LIST0107",
+        "LIST0108",
+        "LIST0110",
+        "LIST0113",
+        "LIST0116",
+        "LIST0117",
+        "LIST0118",
+        "LIST0119",
+        "LIST0120",
+        "LIST0121",
+        "LIST0122",
+        "LIST0125",
+        "LIST0126",
+        "LIST0127",
+        "LIST0129",
+        "LIST0132"
+      ]
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "LIST0009",
+        "LIST0014",
+        "HEAD0003",
+        "LIST0091",
+        "LIST0173",
+        "LIST0174",
+        "LIST0175",
+        "LIST0176",
+        "LIST0180",
+        "LIST0188",
+        "HEAD0005",
+        "LIST0224",
+        "LIST0236",
+        "PARA0008",
+        "PARA0010",
+        "LIST0237",
+        "PARA0013",
+        "HEAD0009",
+        "PARA0018",
+        "LIST0245",
+        "LIST0269",
+        "HEAD0016",
+        "LIST0278",
+        "LIST0281",
+        "LIST0291"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1.5.1",
+      "score": 0.7412,
+      "rule_score": 0.6,
+      "embedding_score": 0.7655,
+      "chunk_vote": 0.0835
+    },
+    {
+      "id": "5.1",
+      "score": 0.7086,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7655,
+      "chunk_vote": 0.0425
+    },
+    {
+      "id": "5.9",
+      "score": 0.7056,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7675,
+      "chunk_vote": 0.0232
+    },
+    {
+      "id": "5",
+      "score": 0.3685,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1924
+    },
+    {
+      "id": "5.6",
+      "score": 0.3608,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0541
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3585,
+      "rule_score": 0.0,
+      "embedding_score": 0.7916,
+      "chunk_vote": 0.0116
+    },
+    {
+      "id": "1",
+      "score": 0.3501,
+      "rule_score": 0.0,
+      "embedding_score": 0.7666,
+      "chunk_vote": 0.0255
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3479,
+      "rule_score": 0.0,
+      "embedding_score": 0.77,
+      "chunk_vote": 0.007
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3448,
+      "rule_score": 0.0,
+      "embedding_score": 0.7663,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3445,
+      "rule_score": 0.0,
+      "embedding_score": 0.7655,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Avrupa'daki yeraltı ulaşım sistemleri (tüneller) üzerine yapılan uluslararası bir tarama çalışmasıdır. Bu içerik, 'Ulusal ve Uluslararası Literatür Taraması' (5.9) ve alt başlığı olan 'Uluslararası Literatür Taraması' (5.9.2) ile doğrudan örtüşmektedir. Ayrıca belgenin giriş bölümü (1) de bu taramanın kapsamını tanımladığı için ikincil bölüm olarak değerlendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=1.5.1:0.7412 gap=0.033 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

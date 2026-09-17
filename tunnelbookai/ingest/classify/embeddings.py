@@ -69,6 +69,21 @@ class LocalEmbeddingClient:
         except Exception:
             return None
 
+    def embed_many(self, texts: list[str]) -> list[list[float]] | None:
+        """Embed one ordered batch without silently retrying another model."""
+        if self.model is None or not texts:
+            return None
+        try:
+            payload = self._post("/embeddings", {"model": self.model, "input": texts})
+            data = payload.get("data") or []
+            ordered = sorted(data, key=lambda item: int(item.get("index", 0)))
+            vectors = [[float(value) for value in item["embedding"]] for item in ordered]
+            return vectors if len(vectors) == len(texts) else None
+        except RemoteEndpointRejected:
+            raise
+        except Exception:
+            return None
+
 
 class SectionEmbeddingIndex:
     """Embeds every canonical section profile once, then scores documents against them."""

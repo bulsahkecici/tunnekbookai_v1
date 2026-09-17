@@ -1,0 +1,156 @@
+{
+  "final_primary_section": "2.1.2",
+  "final_secondary_sections": [
+    "2.1",
+    "2",
+    "2.4.1.2",
+    "5.9"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "PARA0004",
+        "HEAD0007"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0004",
+        "HEAD0007",
+        "HEAD0009",
+        "PARA0014",
+        "LIST0055"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0004",
+        "HEAD0007",
+        "HEAD0009",
+        "PARA0014",
+        "LIST0055"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0004",
+        "HEAD0008"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0005",
+        "HEAD0005",
+        "PARA0007",
+        "PARA0008"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.704,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7835,
+      "chunk_vote": 0.3284
+    },
+    {
+      "id": "2.1",
+      "score": 0.6649,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7896,
+      "chunk_vote": 0.1194
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.6465,
+      "rule_score": 0.4286,
+      "embedding_score": 0.8018,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.6375,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7818,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.5936,
+      "rule_score": 0.3333,
+      "embedding_score": 0.8007,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3552,
+      "rule_score": 0.0,
+      "embedding_score": 0.7894,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3533,
+      "rule_score": 0.0,
+      "embedding_score": 0.7852,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3524,
+      "rule_score": 0.0,
+      "embedding_score": 0.7831,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.243,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2985
+    },
+    {
+      "id": "1.1",
+      "score": 0.2102,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1343
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, N. Cristescu'nun 'Tunnel support analysis' başlıklı bölümüdür ve tünel destekleme elemanlarının (şaloma/astari) mekaniksel analizine, kaya-deformasyon etkileşimine ve destek tasarımına odaklanmaktadır. Bu içerik, aday listesindeki 'Tünel Destekleme Elemanları' (2.1.2) başlığıyla en doğrudan örtüşmektedir. Üst düzey başlıklar (2.1 ve 2) hiyerarşik olarak ikincil olarak listelenmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:7",
+    "embeddings:8",
+    "top=2:0.704 gap=0.039 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

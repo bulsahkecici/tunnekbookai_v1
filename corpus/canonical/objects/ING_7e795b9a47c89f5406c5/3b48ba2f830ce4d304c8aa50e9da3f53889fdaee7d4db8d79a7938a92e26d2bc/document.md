@@ -1,0 +1,6217 @@
+**YILDIZ TEKNİK ÜNİVERSİTESİ  
+FEN BİLİMLERİ ENSTİTÜSÜ**
+
+YENİ AVUSTURYA TÜNEL AÇMA YÖNTEMİ İLE İNŞA
+
+EDİLEN BİR TÜNELİN SONLU ELEMANLAR YÖNTEMİ  
+KULLANILARAK ANALİZİ VE DEĞERLENDİRİLMESİ
+
+İnşaat Müh. Sevinç Şehnaz AKTAŞ
+
+**FBE İnşaat Mühendisliği Anabilim Dalı Geoteknik Programında  
+Hazırlanan**
+
+**YÜKSEK LİSANS TEZİ**
+
+**Tez Danışmanı : Prof. Dr. İ. Kutay ÖZAYDIN**
+
+**İSTANBUL, 2009**
+
+İÇİNDEKİLER
+
+Sayfa
+
+SİMGE LİSTESİ 	 i
+
+KISALTMA LİSTESİ 	 ii
+
+ŞEKİL LİSTESİ 	iii
+
+ÇİZELGE LİSTESİ 	 viii
+
+ÖNSÖZ 	xi
+
+ÖZET 	xii
+
+ABSTRACT 	xiii
+
+1. GİRİŞ	 1
+    - 1.1. Çalışmanın Kapsamı	 1
+    - 1.2. Çalışma Yöntemi ve Literatür Araştırmaları 	 2
+2. YERALTI YAPILARI OLARAK TÜNELLER 	4
+    - 2.1. Tanımlar 	4
+        - 2.1.1. Enkesit Şekillerine Göre Tüneller 	5
+        - 2.1.2. Yapım Yöntemlerine Göre Tüneller	 6
+        - 2.1.3. Yapım Amaçlarına Göre Tüneller 	7
+    - 2.2. Tünel Yapımında Yararlanılan Çeşitli Yöntemler 	 9
+3. KAYA KALİTE VE KAYA DESTEK SINIFLAMALARI	10
+    - 3.1. Giriş 	 10
+    - 3.2. Kaya Kütlelerinin Tanımlanması 	12
+    - 3.3. Kaya Kalite ve Destek Sistemleri	 13
+        - 3.3.1. Müller (1963) Sınıflaması 	 13
+        - 3.3.2. Pacher-Rabcewicz (1974)	 13
+        - 3.3.3. Terzaghi (1946) Kaya Yükü Sınıflama Sistemi 	 13
+        - 3.3.4. Stini (1950) Sınıflaması	 18
+        - 3.3.5. Lauffer (1958) Sınıflaması 	 18
+        - 3.3.6. Kaya Yapısı Oranı (RSR)	 19
+        - 3.3.7. Deere (1964)'in Kaya Kalitesi (RQD) Tanımı 	 20
+        - 3.3.8. Kaya Kütlesi Kalitesi Sınıflandırma Sistemleri 	 21
+        - 3.3.9. RMR Kaya Sınıflama Sistemi (Rock Mass Rating)		 26
+4. YENİ AVUSTURYA TÜNEL AÇMA YÖNTEMİ 	 30
+    - 4.1. Kayalarda Gerilme Durumu 	30
+    - 4.2. Tarihçe 	 31
+    - 4.3. Tanımlar ve İlkeler 	 31
+    - 4.4. Yeni Avusturya Yönteminde Önorm B 2203/1994'e Göre Yinelenmeli
+
+(Sıralı) Ve Sürekli (Makinalı) Kazılar İçin Kaya Davranışı 	32
+
+- 4.4.1. A “Sağlam” - “zamanla kırılgan” davranışlı kayaçlar	 33
+- 4.4.1.2. A2 Zamanla Kırılgan Davranış Gösteren Kayaçlar 	 33
+- 4.4.2.2. B2 Çok Kırılgan Kayaçlar 	 34
+- 4.4.2.3. B3 Döküntülü Kayaçlar 	 35
+- 4.4.3.2. C2 Plastik Davranış Gösteren Kayaçlar 	36
+- 4.4.3.3. C3 Aşırı Plastik Davranış Gösteren Kayaçlar 	 37
+- 4.4.3.4. C4 Yumuşak Kayaçlar	 37
+- 4.4.3.5. C5 Şişen-Kabaran Kayaçlar 	38
+5. TÜNELLERDE SAĞLAMLAŞTIRMA, DESTEKLEME VE İYİLEŞTİRME .. 40
+    - 5.1. Sağlamlaştırma ve Destekleme 	 41
+        - 5.1.1. Püskürtme Beton 	 42
+        - 5.1.2. Hasır Çelik	 43
+        - 5.1.3. Kaya Bulonu	 43
+        - 5.1.4. Çelik İksa 	 43
+        - 5.1.5. Çelik Kuşaklar (Straps) 	 44
+    - 5.2. Kaya Sınıflama Sistemleri İle Destek Basıncı ve Destek Seçimi Arasındaki
+
+- 4.4.1.1. A1 Sağlam Kayaçlar	 33
+
+- 4.4.2.1. B1 Kırılgan Kayaçlar	 34
+
+- 4.4.3.1. C1 Kaya Patlamalı Kayaçlar 	36
+
+İlişki 	 44
+
+- 5.2.1. RSR Sistemi İle Destek Basıncı ve Destek Seçimi Arasındaki İlişki 	44
+- 5.2.2. RQD Sistemi İle Destek Basıncı ve Destek Seçimi Arasındaki İlişki 	 45
+- 5.2.3. Q sistemi İle Destek Basıncı ve Destek Seçimi Arasındaki İlişki 	 46
+- 5.2.4. RMR Sistemi İle Destek Basıncı ve Destek Seçimi Arasındaki İlişki 	49
+- 5.3.1.2. Kimyasal Madde Enjeksiyonu	 53
+- 5.3.3. Zeminin Geoteknik Özelliklerinin Korunması 	 54
+- 5.3.3.2. Ön Kazı (Advance Precutting) 	 54
+- 5.3.3.3. Enjeksiyon Kemeri (Jet Grouting Arch) 	 55
+- 5.3.3.4. Önsüren Yöntemi İle Kazı 	 56
+- 5.3.5. Yeraltı Suyunun Dondurulması 	 58
+- 5.3.6. Basınçlı Hava 	 58
+6. YERİNDE KAYA DAYANIM PARAMETRELERİNİN BELİRLENMESİ 	60
+7. HOMOJEN BÖLGELENDİRME 	68
+8. YENİ AVUSTURYA TÜNEL AÇMA YÖNTEMİNİN ANALİZİNDE
+
+- 5.3.1. Dolgu Enjeksiyonu 	 51
+    - 5.3.1.1. Çimento Enjeksiyonu 	 52
+- 5.3.2. Jet Grouting (Jet dolgu) 	 53
+    - 5.3.3.1. Borularla Tavan Kemeri Oluşturma (Cellular Arch) 	 54
+- 5.3.4. Yeraltı Su Seviyesinin Düşürülmesi 	 57
+
+SONLU ELEMANLAR YÖNTEMİ N İ N KULLANIMI VE PLAXIS 3D TUNNEL HAKKINDA GENEL BİLGİ 	68
+
+- 8.1. Yeni Avusturya Tünel Açma Yöntemine Uygun Hesap Yöntemleri	 68
+- 8.2. Sonlu Elemanlar Yöntemi 	 69
+- 8.3. Kullanılan Program Plaxis 3D Tunnel Hakkında Genel Bilgi 	 73
+9. KAĞITHANE - PİYALEPAŞA TÜNELLERİNİN
+
+GEOTEKNİK DEĞERLENDİRİLMESİ VE SEM ANALİZLERİ 	 74
+
+- 9.1. Giriş ve Çalışmanın Amacı 	74
+- 9.2. İnceleme Alanının Jeolojisi 	76
+- 9.2.2. Genel Jeoloji	77
+- 9.2.3. Güzergah Jeolojisi 	79
+- 9.2.4. Yapısal Jeoloji 	80
+- 9.2.5. Depremsellik 	 80
+- 9.2.6. Hidrojeoloji 	 80
+- 9.3.1.2. KP-SK 4 sondajı 	81
+- 9.3.1.3. KP-SK 5 sondajı 	81
+- 9.3.1.4. KP-SK 6A sondajı 	82
+- 9.3.1.5. KP-SK 7 sondajı 	82
+- 9.3.1.6. KP-SK 8 sondajı 	82
+- 9.3.1.7. KP-SK 9 sondajı 	83
+- 9.3.3. Kağıthane-Piyalepaşa Tünelleri	Kaya Kalite Sınıflamaları 	86
+- 9.3.4. Yerinde (In-situ) Kaya Dayanım	Parametreleri 	89
+- 9.3.5. Kağıthane Piyalepaşa Tünelleri	Homojen Bölgelendirmesi 	93
+- 9.3.6. Kağıthane Piyalepaşa Tünelleri Kaya Destekleme Sınıfları 	 95
+- 9.4.2. Program Girdileri (Input Data) 	 100
+- 9.4.2.2. Modellerde Kullanılan Geoteknik Parametreler	 102
+- 9.5.1.2. Deplasmanlar 	 108
+- 9.5.1.4. Bulon tahkikleri 	 124
+- 9.5.2.2. Deplasmanlar 	 131
+
+- 9.2.1. Bölgesel Jeoloji 	76
+
+- 9.3.1. Mekanik Sondajların Değerlendirilmesi 	80
+    - 9.3.1.1. KP-SK 3 sondajı 	81
+- 9.3.2. Fizikomekanik Deneyler 	83
+
+- 9.4.1. Yapılan Analizlerin Amacı ve Hesap Yöntemi 	 99
+    - 9.4.2.1. Destekleme Elemanları İçin Program Girdileri	 101
+
+- 9.5.1. Model 1A İçin Yapılan Analizler 	 103
+    - 9.5.1.1. Tünel Çevresinde Oluşan Gerilmeler 	105
+        - 9.5.1.2.1. Model 1A İçin Hesaplanan Düşey Deplasmanların Değerlendirilmesi 	116
+    - 9.5.1.3. Destekleme Elemanları Tahkikleri 	118
+- 9.5.2. Model 2A İçin Yapılan Analizler 	 127
+    - 9.5.2.1. Tünel Çevresinde Oluşan Gerilmeler 	128
+        - 9.5.2.2.1. Model 2A İçin Hesaplanan Düşey Deplasmanların Değerlendirilmesi 	139
+
+9.5.3	Model 3A İçin Yapılan Analizler 	 140
+
+- 9.5.3.1 Tünel Çevresinde Oluşan Gerilmeler 	141
+- 9.5.3.2 Deplasmanlar 	 144
+
+- 9.5.3.2.1 Model 3A İçin Hesaplanan Düşey Deplasmanların Değerlendirilmesi 	152
+
+- 9.5.4 Model 1B İçin Yapılan Analizler 	 153
+
+- 9.5.4.1 Deplasmanlar 	 154
+
+- 9.5.5 Model 2B İçin Yapılan Analizler 	 162
+
+- 9.5.5.1 Deplasmanlar 	 163
+
+- 9.5.6 Model 3B İçin Yapılan Analizler 	 171
+
+- 9.5.6.1 Deplasmanlar 	 172
+
+- 9.5.7 Model 1C İçin Yapılan Analizler 	 180
+
+- 9.5.7.1 Deplasmanlar 	 182
+
+- 9.5.8 Model 2C İçin Yapılan Analizler 	 190
+
+- 9.5.8.1 Deplasmanlar 	 191
+
+- 9.5.9 Analiz Sonuçlarının Değerlendirilmesi 	 200
+
+- 9.5.9.1 Kaya Ortamının ve Örtü Kalınlığının Etkisi 	200
+- 9.5.9.2 Model Uzunluğunun Etkisi 	 208
+- 9.5.9.3 Kazı İlerleme Adımı Uzunluğunun Etkisi	 211
+
+10. SONUÇLAR 	 214
+
+KAYNAKLAR	218
+
+EKLER 	220
+
+Ek 1	Roclab Analizi Sonuçları 	 220
+
+Ek 2	Kağıthane - Piyalepaşa Tünelleri Plan ve Boykesiti	241
+
+ÖZGEÇMİŞ 	 242
+
+##### SİMGE LİSTESİ
+
+**Y** Birim hacim ağırlığı
+
+Lp	100 mm ve 100 mm'den daha büyük karot parçalarının toplam uzunluğu
+
+Lt	Karotlu sondajlarda ilerleme uzunluğu
+
+o, Tek eksenli basınç dayanımı
+
+Et	Elastisite modülü
+
+O	İçsel sürtünme açısı
+
+c	Kohezyon
+
+H	Tünel derinliği
+
+Pa	Tünele etkiyen yüklerin bileşkesi
+
+u	Deplasman
+
+t	Zaman
+
+n	Porozite
+
+Sa	Suya doygunluk oranı
+
+v	Poisson oranı
+
+Jn	Çatlak takımı sayısı
+
+Jr	Çatlak pürüzlülük sayısı
+
+Ja	Çatlak ayrışma sayısı
+
+Jw	Çatlak suyu indirgeme faktörü
+
+**KISALTMA LİSTESİ**
+
+| NATM    | New Austrian Tunneling Method                  |
+|---------|------------------------------------------------|
+| RQD     | Rock Quality Designation                       |
+| RMR     | Rock Mass Rating                               |
+| RSR     | Rock Structure Rating                          |
+| ÖNORM-B | Österreichische Norman                         |
+| TBM     | Tunnel Boring Machine                          |
+| GSI     | Geological Strength Index                      |
+| KP      | Kağıthane - Piyalepaşa Tünelleri               |
+| KGM     | Karayolları Genel Müdürlüğü                    |
+| KP-SK   | Kağıthane - Piyalepaşa Tünelleri sondaj kuyusu |
+| MJKM    | Mühendislik jeolojisi kaya mekaniği            |
+
+ŞEKİL LİSTESİ
+
+Sayfa
+
+Şekil 2.1	Çeşitli meslek gruplarında tünel tanımları 	 4
+
+Şekil 2.2	Tünel enkesit örnekleri	5
+
+Şekil 2.3	Tünel Tip Kesiti Oluşturma Örneği 	 6
+
+Şekil 2.4	Mekanize veya Konvensiyonel Yöntemlerde Kullanılan Araçlar	7
+
+Şekil 2.5	Ordu Nefise Akçelik (Hapan) tüneline ait portal yapısı	 9
+
+Şekil 3.1	Terzaghi'nin kaya yükü kavramı (Terzaghi, 1946)	 14
+
+Şekil 3.2	Lauffer' e göre aktif iksasız her hangi bir kazı boşluğunun ayakta kalma süresi.18
+
+Şekil 5.1	Fenner - Pacher eğrisi	40
+
+Şekil 5.2	RSR kavramı- 6,5 m çaplı tünel için destek tablosu	44
+
+Şekil 5.3	Tünel desteklemesi seçiminde RQD' nin kullanılması	 45
+
+Şekil 5.4	Q Sisteminde Destekleme Önerileri	47
+
+Şekil 5.5	Tüneli çevreleyen zeminin dolgu enjeksiyonu yardımıyla iyileştirilmesi	52
+
+Şekil 5.6	Borularla tavan kemerinin oluşturulması	55
+
+Şekil 5.7	Mekanik önkazı ile tünel tahkimatı 	 55
+
+Şekil 5.8	Önsürenlerle tünel duraylılığının sağlanması	 57
+
+Şekil 6.1	Kaya mekaniğinde aynı ortamın sistem büyüklüğüne bağlı olarak farklı
+
+şekilde davranmasının post-failure davranışı ile açıklanması	 61
+
+Şekil 6.2	Tek eksenli basınç direncine bağlı taş-kaya ilişkisi	61
+
+Şekil 6.3	GSI ile c/c İlişkisi	65
+
+Şekil 6.4	GSI - İçsel Sürtünme Açısı İlişkisi	65
+
+Şekil 7.1	Tünel projelerinde homojen bölgelendirme 	 67
+
+Şekil 8.1	Sonlu Elemanlar yönteminde düğüm noktası, gerilme noktaları ve eleman	 70
+
+Şekil 8.2	Kağıthane-Piyalepaşa Tünelleri Km: 0+150 kesimi için oluşturulan	sonlu
+
+elemanlar modeli 	 71
+
+Şekil 9.1	Güzergaha ait yer bulduru haritası	75
+
+Şekil 9.2	İstanbul ve çevresinin genel jeoloji haritası	76
+
+Şekil 9.3	İstanbul ve yakın çevresi Tersiyer çökellerinin stratigrafik sütün kesiti	 77
+
+Şekil 9.4	Trakya Serisi'nin (Trakya Formasyonu'nun) Lito-stratigrafik dikme	kesiti	79
+
+Şekil 9.5	KP-SK 3 sondajı 11-20. m arası Kumtaşı için yerinde dayanım
+
+parametrelerinin belirlenmesi 	 89
+
+Şekil 9.6	Kağıthane Piyalepaşa Tünelleri homojen bölgelendirmesi	 94
+
+Şekil 9.7	Kaya destekleme sınıfı oranları	 98
+
+Şekil 9.8	Model 1A Plaxis modeli	104
+
+Şekil 9.9	Model 1A çevresinde hesaplanan ortalama gerilmeler	106
+
+Şekil 9.10	Sol Tüp (T1) sağ altyarıda oluşan maksimum gerilme noktası	107
+
+Şekil 9.11	Model üzerinde deplasman değerlerinin okunduğu noktalar	108
+
+Şekil 9.12	Model 1A'da hesaplanan düşey deplasman dağılımı	109
+
+Şekil 9.13	Model 1A'da hesaplanan yatay deplasman dağılımı	110
+
+Şekil 9.14	Model 1A- T1 tüneli kazı aşamaları ile düşey deplasmanların değişimi	113
+
+Şekil 9.15	Model 1A- T1 tüneli kazı aşamaları ile yatay deplasmanların değişimi	113
+
+Şekil 9.16	Model 1A -T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi	114
+
+Şekil 9.17	Model 1A- T2 tüneli kazı aşamaları ile yatay deplasmanların değişimi	114
+
+Şekil 9.18	Model 1A T1-T2 tünelleri üstyarı düşey deplasmanlarının karşılaştırılması	115
+
+Şekil 9.19	Model 1A T1-T2 tünelleri altyarı düşey deplasmanlarının karşılaştırılması	115
+
+Şekil 9.20	Model 1A T1-T2 tünelleri taban düşey deplasmanlarının karşılaştırılması	116
+
+Şekil 9.21	Destek sistemine etkiyen kuvvet ve momentler	118
+
+Şekil 9.22	T1 tüneli destekleme sistemine etkiyen N11 kuvvetleri dağılımı	119
+
+Şekil 9.23	T2 tüneli destekleme sistemine etkiyen N11 kuvvetleri dağılımı	119
+
+Şekil 9.24	T1 tüneli destekleme sistemine etkiyen Q13 kuvvetleri dağılımı 	 120
+
+Şekil 9.25	T2 tüneli destekleme sistemine etkiyen Q13 kuvvetleri dağılımı 	 120
+
+Şekil 9.26	T1 tüneli destekleme sistemine etkiyen M11 momentleri dağılımı	121
+
+Şekil 9.27	T2 tüneli destekleme sistemine etkiyen M11 momentleri dağılımı	 121
+
+Şekil 9.28 Bulonlara etkiyen kuvvetler 	124
+
+Şekil 9.29 Bulonlar Üzerine Boyuna Yöndeki Çekme Kuvvetleri (N11) 	 124
+
+Şekil 9.30 Bulonlar Üzerinde Enine Yöndeki Çekme Kuvvetleri (N22)	125
+
+Şekil 9.31 Bulonlar Üzerindeki Kesme Kuvvetleri (Q12)	 125
+
+Şekil 9.32 Model 2A Plaxis modeli	128
+
+Şekil 9.33 Model 2A çevresinde hesaplanan ortalama gerilmeler 	129
+
+Şekil 9.34 Sol Tüp (T1) sağ altyarıda oluşan maksimum gerilme noktası	 130
+
+Şekil 9.35	Model 2A'da hesaplanan düşey deplasman dağılımı 	132
+
+Şekil 9.36	Model 2A'da hesaplanan yatay deplasman dağılımı	 133
+
+Şekil 9.37	Model 2A-	T1 tüneli kazı aşamaları ile düşey deplasmanların değişimi 	136
+
+Şekil 9.38	Model 2A-	T1 tüneli kazı aşamaları ile yatay deplasmanların değişimi	136
+
+Şekil 9.39	Model 2A-	T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi	137
+
+Şekil 9.40	Model 2A-	T2 tüneli kazı aşamaları yatay deplasmanların değişimi	137
+
+Şekil 9.41	T1-T2 tünelleri üstyarı düşey deplasmanlarının karşılaştırılması 	138
+
+Şekil 9.42	T1-T2 tünelleri altyarı düşey deplasmanlarının karşılaştırılması	 138
+
+Şekil 9.43	T1-T2 tünelleri taban düşey deplasmanlarının karşılaştırılması 	 139
+
+Şekil 9.44 Model 3A Plaxis modeli	141
+
+Şekil 9.45 Model 3A çevresinde hesaplanan ortalama gerilmeler 	142
+
+Şekil 9.46 Sol Tüp (T1) sağ alt yarıda oluşan maksimum gerilme noktası	 143
+
+Şekil 9.47	Model 3A'da hesaplanan düşey deplasman dağılımı 	145
+
+Şekil 9.48	Model 3A'da hesaplanan yatay deplasman dağılımı	 146
+
+Şekil 9.49	Model 3A- T1 tüneli kazı aşamaları ile düşey deplasmanların değişimi	149
+
+Şekil 9.50	Model 3A- T1 tüneli kazı aşamaları ile yatay deplasmanların değişimi	149
+
+Şekil 9.51	Model 3A -T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi	150
+
+Şekil 9.52	Model 3A- T2 tüneli kazı aşamaları ile yatay deplasmanların değişimi	150
+
+Şekil 9.53	Model 3A T1-T2 tünelleri üstyarı düşey deplasmanlarının karşılaştırılması	151
+
+Şekil 9.54	Model 3A T1-T2 tünelleri altyarı düşey deplasmanlarının karşılaştırılması 	151
+
+Şekil 9.55	Model 3A T1-T2 tünelleri taban düşey deplasmanlarının karşılaştırılması	152
+
+Şekil 9.56	Model 1B Plaxis modeli	154
+
+Şekil 9.57	Model 1B'de hesaplanan düşey deplasman dağılımı 	155
+
+Şekil 9.58	Model 1B'de hesaplanan yatay deplasman dağılımı	156
+
+Şekil 9.59	Model 1B- T1 tüneli kazı	aşamaları	ile düşey deplasmanların değişimi 	159
+
+Şekil 9.60	Model 1B- T1 tüneli kazı	aşamaları	ile yatay deplasmanların değişimi	159
+
+Şekil 9.61	Model 1B- T2 tüneli kazı	aşamaları	ile düşey deplasmanların değişimi 	160
+
+Şekil 9.62	Model 1B- T2 tüneli kazı	aşamaları	ile yatay deplasmanların değişimi	160
+
+Şekil 9.63	Model 1B T1-T2 tünelleri üstyarı düşey deplasmanlarının karşılaştırılması	161
+
+Şekil 9.64	Model 1B T1-T2 tünelleri altyarı deplasmanlarının karşılaştırılması	161
+
+Şekil 9.65	Model 1B T1-T2 tünelleri taban düşey deplasmanlarının karşılaştırılması 	162
+
+Şekil 9.66	Model 2B Plaxis modeli	163
+
+Şekil 9.67	Model 2B'de hesaplanan düşey deplasman dağılımı 	164
+
+Şekil 9.68	Model 2B'de hesaplanan yatay deplasman dağılımı	165
+
+Şekil 9.69	Model 2B- T1 tüneli kazı	aşamaları	ile düşey deplasmanların değişimi 	168
+
+Şekil 9.70	Model 2B- T1 tüneli kazı	aşamaları	ile yatay deplasmanların değişimi	168
+
+Şekil 9.71	Model 2B- T2 tüneli kazı	aşamaları	ile düşey deplasmanların değişimi 	169
+
+Şekil 9.72	Model 2B- T2 tüneli kazı	aşamaları	ile yatay deplasmanların değişimi	169
+
+Şekil 9.73	Model 2B T1-T2 tünelleri üstyarı düşey deplasmanlarının karşılaştırılması	170
+
+Şekil 9.74	Model 2B T1-T2 tünelleri altyarı düşey deplasmanlarının karşılaştırılması	170
+
+Şekil 9.75 Model 2B T1- T2 tünelleri taban düşey deplasmanlarının karşılaştırılması  171
+
+Şekil 9.76 Model 3B Plaxis modeli	172
+
+Şekil 9.77 Model 3B'da hesaplanan düşey deplasman dağılımı 	 173
+
+Şekil 9.78 Model 3B'da hesaplanan yatay deplasman dağılımı	 174
+
+Şekil 9.79 Model 3B- T1 tüneli kazı aşamaları ile düşey deplasmanların değişimi 	177
+
+Şekil 9.80 Model 3B- T1 tüneli kazı aşamaları ile yatay deplasmanların değişimi	177
+
+Şekil 9.81 Model 3B- T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi 	178
+
+Şekil 9.82 Model 3B- T2 tüneli kazı aşamaları yatay deplasmanların değişimi	178
+
+Şekil 9.83 Model 3B T1-T2 tünelleri üstyarı düşey deformasyonları	 179
+
+Şekil 9.84 Model 3B T1-T2 tünelleri altyarı düşey deformasyonları	 179
+
+Şekil 9.85 Model 3B T1- T2 tünelleri taban düşey deformasyonları 	180
+
+Şekil 9.86 Model 1C'de hesaplanan düşey deplasman dağılımı 	 183
+
+Şekil 9.87 Model 1C'de hesaplanan yatay deplasman dağılımı	 184
+
+Şekil 9.88 Model 1C- T1 tüneli kazı aşamaları ile düşey deplasmanların değişimi 	187
+
+Şekil 9.89 Model 1C- T1 tüneli kazı aşamaları ile yatay deplasmanların değişimi	187
+
+Şekil 9.90 Model 1C- T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi 	188
+
+Şekil 9.91 Model 1C- T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi 	188
+
+Şekil 9.92 Model 1C T1-T2 tünelleri üstyarı düşey deplasmanlarının karşılaştırılması 	 189
+
+Şekil 9.93 Model 1C T1-T2 tünelleri altyarı düşey deplasmanlarının karşılaştırılması	 189
+
+Şekil 9.94 Model 1C T1- T2 tünelleri taban düşey deplasmanlarının karşılaştırılması 	190
+
+Şekil 9.95 Model 2C'de hesaplanan düşey deplasman dağılımı 	 192
+
+Şekil 9.96 Model 2C'de hesaplanan yatay deplasman dağılımı	 193
+
+Şekil 9.97 Model 2C- T1 tüneli kazı aşamaları ile düşey deplasmanları değişimi 	196
+
+Şekil 9.98 Model 2C- T1 tüneli kazı aşamaları ile yatay deplasmanların değişimi	196
+
+Şekil 9.99 Model 2C- T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi 	197
+
+Şekil 9.100 Model 2C- T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi 	197
+
+Şekil 9.101 Model 2C T1-T2 tünelleri üstyarı düşey deplasmanlarının karşılaştırılması 	 198
+
+Şekil 9.102 Model 2C T1-T2 tünelleri altyarı düşey deplasmanlarının karşılaştırılması  198
+
+Şekil 9.103 Model 2C T1- T2 tünelleri taban düşey deplasmanlarının karşılaştırılması  199
+
+Şekil 9.104 Model 1A ve Model 1B için hesaplanan T1 tüneli düşey yer
+
+değiştirmelerinin karşılaştırılması 	 202
+
+Şekil 9.105 Model 1A ve Model 1B için hesaplanan T2 tüneli düşey yer
+
+de ğ i ş tirmelerinin karş ı laş t ı r ı lması 	 203
+
+Şekil 9.106 Model 2A ve Model 2B için hesaplanan T1 tüneli düşey yer
+
+de ğ i ş tirmelerinin karş ı laş t ı r ı lması 	 204
+
+Şekil 9.107 Model 2A ve Model 2B için hesaplanan T2 tüneli düşey yer
+
+de ğ i ş tirmelerinin karş ı laş t ı r ı lması 	 205
+
+Şekil 9.108 Model 3A ve Model 3B için hesaplanan T1 tüneli düşey yer
+
+de ğ i ş tirmelerinin karş ı laş t ı r ı lması 	 206
+
+Şekil 9.109 Model 3A ve Model 3B için hesaplanan T2 tüneli düşey yer
+
+de ğ i ş tirmelerinin karş ı laş t ı r ı lması 	 207
+
+Şekil 9.110 Model 1A ve Model 1C için hesaplanan T1 tüneli düşey yer
+
+değiştirmelerinin karşılaştırılması 	 209
+
+Şekil 9.111 Model 1A ve Model 1C için hesaplanan T2 tüneli düşey yer
+
+değiştirmelerinin karşılaştırılması 	 210
+
+Şekil 9.112 Model 2A ve Model 2C için hesaplanan T1 tüneli düşey yer
+
+de ğ i ş tirmelerinin karş ı laş t ı r ı lması 	 212
+
+Şekil 9.113 Model 2A ve Model 2C için hesaplanan T2 tüneli düşey yer
+
+değiştirmelerinin karşılaştırılması 	 213
+
+##### ÇİZELGE LİSTESİ
+
+Sayfa
+
+Çizelge 2.1 Uygulamalarda Karşılaşılan Tünel Kesit alanları	 6
+
+Çizelge 2.2 Dünya'daki Çeşitli Tüneller Hakkında İstatistiksel Bilgiler 	 8
+
+Çizelge 3.1 Günümüzde kullanılan başlıca kaya kütlesi sınıflama sistemleri 	 12
+
+Çizelge 3.2 Ayrılma derecesi ve çatlak sıklığına bağlı olarak Müller'in kaya sınıflaması
+
+(1963) 	 13
+
+Çizelge 3.3 Rabcewicz-Pacher (1974)'e göre tünel açmada kaya sınıflaması 	 15
+
+Çizelge 3.4 Terzaghi'ye göre beklenen dağ basınçları 	 16
+
+Çizelge 3.5 Terzaghi sisteminin Deere ve Ark. (1970) tarafından geliştirilmiş hali 	 17
+
+Çizelge 3.6 RQD- Kaya kalitesi arasındaki ilişki (Deere, 1964) 	 20
+
+Çizelge 3.7 Deere ve Miller (1966) sınıflaması	 20
+
+Çizelge 3.8 Eklem dolgularının tünel davranışına etkileri (Brekke ve Howard, 1972)	 21
+
+Çizelge 3.9 Q sınıflamasına göre çatlak (eklem) takımı sayısı Jn değerleri 	 23
+
+Çizelge 3.10 Q sınıflamasına göre çatlak pürüzlülük durumu Jr değerleri	23
+
+Çizelge 3.11 Q sınıflamasında çatlak ayrışma durumu Ja değerleri 	 24
+
+Çizelge 3.12 Q sınıflamasına göre çatlak suyu indirgeme faktörü Jw değerleri	 25
+
+Çizelge 3.13 Q sınıflamasında gerilme indirgeme faktörü SRF değerleri	25
+
+Çizelge 3.14 RMR sınıflandırma parametreleri ve dereceleri (A)	28
+
+Çizelge 3.15 RMR sınıflamasında süreksizlik yönelimleri için düzeltmeler (B) 	 29
+
+Çizelge 3.16 (A) ve (B)'den elde edilen RMR değerleri ve kaya sınıfları	 29
+
+Çizelge 4.1 Tünel projelerinde dikkate alınması gereken gerilme türleri ve kaynakları   30
+
+Çizelge 5.1 Tipik bir püskürtme beton içerisinde bulunan maddeler ve karışım oranları 	 42
+
+Çizelge 5.2 RQD' ye bağlı olarak kaya tünellerinde (6m-12m arası) tavsiye edilen
+
+destekleme	 46
+
+Çizelge 5.3 Kazı tipine göre kazı destek oranı 	 48
+
+Çizelge 5.4 RMR' ye bağlı olarak kaya kütlesi sınıflarının yorumu ve
+
+dayanı m parametrelerinin tahmini 	 49
+
+Çizelge 5.5 RMR' ye bağlı olarak yeraltı kaya tünellerinde destekleme ve
+
+kazı şeklinin belirlenmesi	 50
+
+Çizelge 6.1 Farklı kayaç türleri için direnç düşüm değerleri 	 62
+
+Çizelge 6.2 Kayaç Tek Eksenli Basınç Dayanımı Tahmini	 63
+
+Çizelge 6.3 Hoek sınıflamalarında kullanılan mi, mb, s ve GSI değerleri	 63
+
+Çizelge 6.4 GSI Sınıflaması (Hoek &amp; Brown)	 64
+
+Çizelge 9.1 Tek eksenli basınç dayanımı deneyi sonuçları	 84
+
+Çizelge 9.2 Sondajlardan elde edilen numunelerin ortalama indeks özellikleri 	 85
+
+Çizelge 9.3 Deney sonuçlarından Mohr diyagramında elde edilen geomekanik
+
+parametreler	 86
+
+Çizelge 9.4 Q-Barton kaya kalite sınıflaması	 87
+
+Çizelge 9.5 RMR kaya kalite sınıflaması 	 88
+
+Çizelge 9.6 Kayaçların yerinde dayanım parametreleri (Hoek - Brown) 	 90
+
+Çizelge 9.7 Kayaçların sınıflandırılması ve yerinde dayanım parametreleri	91
+
+Çizelge 9.8 Kağıthane Piyalepaşa Tünelleri homojen bölgelerini gösterir özet tablo 	 93
+
+Çizelge 9.9 Q-RMR-NATM Kaya Sınıflaması İlişkileri (Bieniawski, 1996)	 95
+
+Çizelge 9.10 Kağıthane Piyalepaşa Tünelleri Q-RMR-NATM Kaya Sınıflaması İlişkileri	 96
+
+Çizelge 9.11 Homojen bölgelere göre seçilen NATM sınıfları 	 97
+
+Çizelge 9.12 Önerilen destek sistemi	97
+
+Çizelge 9.13 Güzergahta kullanılan destekleme elemanları 	 99
+
+Çizelge 9.14 Oluşturulan model kombinasyonları	 100
+
+Çizelge 9.15 Analizi yapılan modeller	 100
+
+Çizelge 9.16 Hesaplamalara esas geoteknik parametreler 	 103
+
+Çizelge 9.17 Model 1A geoteknik parametreleri 	 104
+
+Çizelge 9.18 Model 1A- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri	 111
+
+Çizelge 9.19 Model 1A- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri  112
+
+Çizelge 9.20 T1 tüneli destek sistemine etkiyen maksimum-minimum
+
+kuvvet ve momentler	 122
+
+Çizelge 9.21 T2 tüneli destek sistemine etkiyen maksimum-minimum
+
+kuvvet ve momentler	 122
+
+Çizelge 9.22 Bulonlara etkiyen kuvvetler	 126
+
+Çizelge 9.23 Model 2A geoteknik parametreleri 	 127
+
+Çizelge 9.24 Model 2A- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri	 134
+
+Çizelge 9.25 Model 2A- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri  135
+
+Çizelge 9.26 Model 3A geoteknik parametreleri 	 141
+
+Çizelge 9.27 Model 3A- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri	 147
+
+Çizelge 9.28 Model 3A- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri  148
+
+Çizelge 9.29 Model 1B geoteknik parametreleri 	 154
+
+Çizelge 9.30 Model 1B- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri	157
+
+Çizelge 9.31 Model 1B- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri  158
+
+Çizelge 9.32 Model 2B geoteknik parametreleri 	 163
+
+Çizelge 9.33 Model 2B- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri	166
+
+Çizelge 9.34 Model 2B- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri  167
+
+Çizelge 9.35 Model 3B geoteknik parametreleri 	 172
+
+Çizelge 9.36 Model 3B- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri	175
+
+Çizelge 9.37 Model 3B- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri  176
+
+Çizelge 9.38 Model 1C- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri	185
+
+Çizelge 9.39 Model 1C- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri  186
+
+Çizelge 9.40 Model 2C- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri	194
+
+Çizelge 9.41 Model 2C- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri  195
+
+Çizelge 10.1 Analizi yapılan modeller	 215
+
+##### ÖNSÖZ
+
+Gelişen teknoloji ve artan nüfus ile birlikte yeraltı yapılarının giderek önem kazanması neticesinde “tünelcilik” anlamında da büyük gelişmeler meydana gelmiştir. Yeni Avusturya Tünel Açma Yöntemi eski yöntemlere nazaran destek sistemlerinin daha ekonomik ve yeterli şekilde kullanılmasını sağlayan bir yapım yöntemidir. Geniş anlamda incelendiğinde, tünelin kendisini etrafını çevreleyen kayaca taşıtmayı öngören bir felsefedir. Bu kayacın etrafında taşıyıcı bir zon oluşması ile sağlanmaktadır.
+
+Bu çalışmada Yeni Avusturya Tünel Açma Yöntemi esasları uygulanarak yapılan “Kağıthane- Piyalepaşa Tünelleri” incelenmiştir. Sonlu elemanlar yöntemi kullanılarak yapılan analizlerde neticelerinin çeşitli değişkenlere bağımlılığı incelenmiştir.
+
+Sadece bu tezin hazırlanması esnasında değil; tüm lisans ve yüksek lisans eğitimim boyunca, bana her konuda yardımcı olan, bilgilerini esirgemeyen ve “geoteknik” bilimini bana sevdirip meslek olarak seçmeme neden olan tez danışmanım Sayın Prof. Dr. İ. Kutay ÖZAYDIN' a teşekkürü bir borç bilirim.
+
+Beni bugünlere getiren babam A. Cengiz AKTAŞ, annem Nurhanım AKTAŞ ve tüm aileme minnettarım.
+
+Ayrıca; EMAY Uluslararası Mühendislik Müşavirlik ve Ticaret Ltd. Şti. Yöneticilerine ve çalışanlarına ve ismini burda sayamadığım çalışmamda emeği geçen dostlarıma teşekkürlerimi sunarım.
+
+MAYIS, 2009
+
+Sevinç Şehnaz AKTAŞ İnşaat Mühendisi
+
+##### ÖZET
+
+Günümüzde; nüfus artışının neden olduğu kullanım alanlarının daralması problemi, yer üstünün olduğu kadar yeraltının da kullanımını kaçınılmaz kılmaktadır. Teknolojide meydana gelen hızlı gelişmeler, inşaat sektöründe uygulanan yöntemlerin ve çözüm yollarının da gelişmesini sağlamıştır. Bu gelişmelerin en etkili olduğu alanlardan birisi de yeraltı yapıları ve tünelcilik çözümleri olmaktadır. Ulaşım sektöründe karayolu ve demiryolu güzergâhlarının bir kısmının tüneller ile yeraltından geçirilmesi bu çözümler içersinde yer almaktadır. Kaya mekaniğinde ve zemin mekaniğinde yapılan araştırmalar klasik tünelcilik anlayışını değiştirmiş, yaklaşık elli yıldır birçok projede başarılı bir şekilde uygulanmış olan Yeni Avusturya Tünel Açma Yönteminin (NATM) doğmasını sağlamıştır.
+
+Eski sistemlere kıyasla daha uygulanabilir ve denetlenebilir olan bu sistemlerin modellenmesinde ve çözümlenmesinde çeşitli bilgisayar programlarından yararlanılmakta, böylelikle sonuçlara daha hızlı ve doğru şekilde ulaşılmaktadır.
+
+Bu çalışmada İstanbul Büyük Şehir Belediyesi tarafından KİSKA- MAKYOL (KİSMAK) adi ortaklığına inşaa ettirilen ve EMAY Uluslararası Mühendislik Müşavirlik ve Tic. Ltd. şirketi tarafından projelendirilen “Kağıthane- Piyalepaşa Tünelleri” incelenmiştir. Öncelikle tünel güzergahı jeolojik ve geoteknik açıdan değerlendirilmiştir. Yapılan sondajlar ve laboratuar deneyleri sonuçlarına göre tünel güzergahı boyunca yer alan jeolojik birimler tanımlanmış ve bu birimlere ait yerinde (in-situ) kaya dayanım parametreleri belirlenmiştir. Yeni Avusturya Tünel Açma Yöntemi esasları gözetilerek inşa edilen bu tünellerin sonlu elemanlar yöntemi yardımıyla analizleri yapılmıştır. Analizler sonucunda inceleme konusu tünellerin yeraltında ve yer üstünde yol açması beklenilebilecek yer değiştirmelerin izin verilebilir sınırlar içinde kalacağı, herhangi bir göçme olasılığı bulunmadığı ve önerilen iksa elemanlarının yeterli olacağı anlaşılmıştır. Farklı değişkenlerin tünel ve çevresine etkilerini incelemek için oluşturulan modeller üzerinde PLAXIS 3D TUNNEL sonlu elemanlar programı ile yapılan analiz sonuçları değerlendirilerek tünellerin güvenli bir şekilde açılmasında önemli yer tutan parametrelerin olası etkileri ortaya konmuştur.
+
+**Anahtar Kelimeler:** Tünel, Yeni Avusturya Tünel Açma Yöntemi (NATM), kaya kalite sınıflamaları, sonlu elemanlar yöntemi ile tünel analizi.
+
+##### ABSTRACT
+
+Due to growth in population and scarceness of available land, the use of underground as well as ground surface is becoming more demanded. Rapid developments in technology led to development of new solutions and methods of construction in civil engineering works. One of the fields in which these new developments have been widely used is in the construction of under ground facilities and employment of tunnelling solutions. In transportation engineering passing of railway and highway routes partly underground through tunnels is one of the these solutions. Scientific research in rock and soil mechanics have changed classical tunnelling methods and led to the development of New Austrian Tunnelling Method (NATM) which has been widely used in many projects over the past fifty years.
+
+In the modelling and analysis of new methods of construction the use of computer aided design methods enabled to reach rapid and accurate solutions which made these new technologies more easily applicable and monitorable.
+
+In this study Kağıthane- Piyalepaşa twin highway tunnels project contracted by Istanbul Greater Metropolitan Municipality to KISKA- MAKYOL joint venture and designed by EMAY Engineering and Consulting Company is studied. The geological and geotechnical condition of the tunnel route is evaluated through the findings of borings and laboratory test results. The geological units encountered are defined and in-situ rock mechanical properties are determined. The finite element analyses of the tunnels being constructed by NATM method have been executed. As a result of finite element analysis it is determined that the underground and surface displacements to be caused by tunnelling will be within tolerable limits, there will be no risk of ground failure and the proposed ground retaining and bracing systems will be sufficient. Through the finite element analysis performed with PLAXIS 3D TUNNEL commercial computer code the effects of several parameters relevant to tunnelling are studied and the results of analysis are evaluated with respect to assessment of major parameters known to affect the safety of tunnels.
+
+**Key Word:** Tunnels, New Austrian Tunnelling Method (NATM), Rock Classification System, Finite Element Analysis of Tunnels.
+
+##### 1 GİRİŞ
+
+##### 2 Çalışmanın Kapsamı
+
+Günümüzde; nüfus artışının neden olduğu kullanım alanlarının daralması problemi, yer üstünün olduğu kadar yeraltının da kullanımını kaçınılmaz kılmaktadır. Yeraltı yapıları ulaşım, enerji tesisleri, çeşitli atıkların veya kaynakların depolanması, madencilik gibi alanlarda birçok açıdan büyük önem taşımaktadır. Teknolojide meydana gelen hızlı gelişmeler inşaat sektöründe de uygulanan yöntemlerin ve çözüm yollarının da gelişmesini sağlamıştır. Bu gelişmelerin en etkili olduğu alanlardan birisi de yeraltı yapıları ve tünelcilik çözümleri olmaktadır. Ulaşım sektöründe karayolu ve demiryolu güzergâhlarının bir kısmının tüneller ile yeraltından geçirilmesi bu çözümler içersinde yer almaktadır. Makine sanayinin gelişmesi ile birlikte mekanize tünel açma yöntemleri önemli gelişmeler kaydetmiş, hızlı, ekonomik ve güvenli tünel açma imkânı doğmuştur. Kaya mekaniğinde ve zemin mekaniğinde yapılan araştırmalar klasik tünelcilik anlayışını değiştirmiş, yaklaşık elli yıldır birçok projede başarılı bir şekilde uygulanmış olan Yeni Avusturya Tünel Açma Yönteminin (NATM) doğmasını sağlamıştır.
+
+Eski sistemlere kıyasla daha uygulanabilir ve denetlenebilir olan bu sistemlerin modellenmesinde ve çözümlenmesinde çeşitli bilgisayar programlarından yararlanılmakta, böylelikle sonuçlara daha hızlı ve doğru şekilde ulaşılmaktadır.
+
+İstanbul'un trafik sorununa karşı çeşitli çözüm önerileri getirilmiştir. Bunlar arasında Boğaz geçişini sağlayacak olan Marmaray Projesi, Anadolu ve Avrupa Yakasında inşa edilen metro hattı, Hafif Raylı Demiryolu Sistemleri, Metrobus projesi ve “Yedi Tepeye Yedi Tünel” projesi çözümler arasında en güncel uygulamalardır. Bu tünellerden yapımı halen devam etmekte olan Kağıthane - Piyalepaşa Karayolu Tünelleri'nin kullanıma açılması ile birlikte artan trafiği hafifletmenin yanısıra, mümkün mertebede trafiği yeraltına indirerek güzergahın olabildiğince kısaltılması öngörülmüştür.
+
+Yüksek lisans tezi kapsamında İstanbul Büyük Şehir Belediyesi tarafından KİSKA- MAKYOL (KİSMAK) adi ortaklığına inşaa ettirilen ve EMAY Uluslararası Mühendislik Müşavirlik ve Tic. Ltd. şirketi tarafından projelendirilen “Kağıthane- Piyalepaşa Tünelleri” incelenmiştir. Yeni Avusturya Tünel Açma Yöntemi esasları gözetilerek inşa edilen bu tünellerin sonlu elemanlar yöntemi yardımıyla analizleri yapılmıştır. Analizler neticesinde belirli değişkenlere bağlı olarak zemin yer değiştirmelerindeki değişim belirlenmiştir.
+
+##### 3 Çalışma Yöntemi ve Literatür Araştırmaları
+
+Tez çalışması kapsamında yapılan çalışmalar iki aşamadan oluşmaktadır. Bunlardan ilki Kağıthane-Piyalepaşa tünellerinin inşaat mühendisliği ve geoteknik açıdan etüdü, tünellerde uygulanan Yeni Avusturya Tünel Açma Yönteminin incelenmesi ve elde edilen verilere bağlı olarak tünellerde uygulanan destekleme, sağlamlaştırma ve iyileştirme yöntemlerinin sonlu elemanlar yöntemi ile modellenmesidir. İkinci aşama çalışmalar ise; analizler neticesinde belirli değişkenlere bağlı olarak zemin yer değiştirmelerinin değişiminin belirlenmesidir. Aşağıda maddeler halinde, tez bölümlerin kapsamı özetlenmiştir.
+
+• Tez çalış masının İkinci bölümünde modern tünelcilik yöntemleri ile ilgili genel bilgiler açıklanmıştır.
+
+• Üçüncü bölümde kaya kalite ve destek sınıflamaları özetlenmiştir. Tarihsel sıralamasına göre Terzaghi Kaya Sınıflamasından başlamak üzere literatürde üzerinde sıkça durulan sınıflamalara değinilmiştir. RQD, RMR, RSR, Q-Barton gibi ülkemizde gerçekleştirilen uygulamalarda en çok kullanılan sınıflamalar ayrıntılı olarak işlenmiştir.
+
+• Dördüncü bölümde bir kaya sınıflaması ve bir tünel açma felsefesi olarak kabul edilen Yeni Avusturya Tünel Açma Yöntemi (NATM) tariflenmiştir. Yeraltı kaya yapılarında meydana gelen gerilme durumları, NATM'ın tarihçesi, NATM'ın ilkeleri, NATM sınıflandırmasının belirlenmesi, NATM yönteminde ÖNORM B 2203'e göre kaya davranışı bu başlık altında incelenmiştir.
+
+• Beş inci bölümde tünellerde destekleme, sağlamlaştırma ve iyileştirme yöntemleri açıklanmıştır.
+
+• Alt ı ncı bölümde laboratuarda yapılan deney sonuçlarının arazi koşulları göz önüne alınarak yeniden değerlendirilmesini sağlayan Hoek- Brown ve Vardar yöntemleri hakkında bilgiler verilmiştir.
+
+• Yedinci bölümde “homojen bölgelendirme” kavramı üzerinde durulmuş tur. Homojen bölgelendirmenin hangi parametrelere, birimlere ve hangi unsurlara bağlı olarak belirlendiği tariflenmiştir. Belirlenen homojen bölgelerin projelendirme ve yapım esnasında ne gibi yararları olduğu incelenmiştir.
+
+• Sekizinci bölümde sonlu elemanlar yöntemi ve örnek tünelin analizi sırasında kullanılmı ş olan PLAXIS 3D TUNNEL paket programı hakkında genel bilgiler verilmiştir.
+
+• Dokuzuncu bölümde Kağıthane - Piyalepaşa Tünelleri örnek proje olarak seçilmiş, uluslararası tünel projelendirme esasları kullanılarak bu projeye ait genel jeoloji, mühendislik jeolojisi, geomekanik ve geoteknik özellikler açıklanmış, laboratuar deneyleri sonuçları kullanılarak yerinde geomekanik parametreler hesaplanmıştır.
+
+• Örnek tünel için homojen bölgelendirme yapı lmıştır. Elde edilen beş homojen kesim için NATM kaya destek sınıflamaları belirlenmiş ve destekleme sistemleri önerilmiştir. Bu kesitler PLAXIS 3D TUNNEL paket programında sonlu elemanlar yöntemi ile modellenmiştir. Analiz neticesinde meydana gelmesi beklenilen deplasman ve gerilme değerleri hesaplanmıştır. Hesaplanan zemin yer değiştirmelerinin belirli değişkenlere bağlı olarak değişimi incelenmiştir.
+
+• Tezin son bölümünde ise elde edilen sonuçlar değ erlendirilmiş tir.
+
+##### 4 YERALTI YAPILARI OLARAK TÜNELLER
+
+##### 5 Tanımlar
+
+Yeraltı kaya yapısı; yerkabuğu içinde herhangi bir boşluğun açılmasından sonra bu boşluğu çevreleyen ana kayadan oluşan, mühendislik açısından yeterli ve güvenli taşıyıcı sistemlerdir [1]. Kendisini taşıyan veya olabildiğince kendisini taşımaya zorlanan doğal ortamda çeşitli destekleme, sağlamlaştırma ve iyileştirme yöntemleri ile taşıyıcı kabuk sisteminin oluşturulması ile yeraltı yapıları meydana getirilmektedir. Karayolu tünelleri, demiryolu tünelleri, temiz su veya atık su tünelleri, derivasyon tünelleri, metro tünelleri gibi yapılar yeraltı yapıları olup, genel anlamda bir ortamın kazılması ve desteklenmesi suretiyle oluşturulan, iki ucu açık ve belirli bir eğime sahip sistemlerdir (Şekil 2.1).
+
+<!-- image -->
+
+Şekil 2.1 Çeşitli meslek gruplarında tünel tanımları:
+
+(1) Yeraltı boşluğu-yaratılan mekan, (2) Taşıyıcı Kabuk sistemi,
+
+(3) Kazılması ve desteklenmesi gereken ortam, (4) Kendisini taşıyan veya olabildiğince  
+kendini taşımaya zorlanan doğal ortam [2]
+
+İnsanoğlu çok uzun yıllar önce özellikle sulama amacıyla tünel açmaya başlamış olsa da, özellikle XIX yüzyıldan sonra çok daha zorlu jeolojik koşullar altında, daha uzun ve büyük kesitli tüneller açmaya başlamışlardır [3]. Mekanize yöntemlerin ve patlayıcı teknolojisinin gelişimi ile birlikte neredeyse her türlü ortamda tünel açılabilir hale gelinmiştir. Gerçekten de çok hızlı trenler ve otoyollar gibi yüksek hıza dayanan ulaşım sistemleri, her türlü köprü, viyadük gibi yapıların, özellikle de tünellerin yapımını zorunlu kılmaktadır. Bunlardan başka yerleşme birimlerinde, şehir dokusunun yoğunluğu ve nüfus artışı gibi etkenler, ulaşım ve donanım sorunlarına yeraltında çözüm aranmasını zorunlu kılmaktadır. Zemin mekaniği ve kaya mekaniği konularında gerçekleştirilen ilerlemelerin yanı sıra delme, destekleme ve kaplama yöntemlerindeki önemli gelişmelerin sonucu olarak, her tür zeminde tam güvenlik içerisinde tünel yapımına imkân sağlanmış ve inşaat hızı da arttırılmıştır. Tünelleri enkesit şekilleri, yapım yöntemleri ve yapım amaçlarına göre sınıflamak mümkündür [4]:
+
+##### 6 Enkesit Şekillerine Göre Tüneller
+
+Tünellere ilişkin enkesit tipleri bunların üzerinde bulundukları ulaşım yolunun cinsine ve bu yol zemininden gelecek etkilere göre değişmektedir. Bunlar kaya ortamlarda genellikle enkesitleri dairesel kemer ve iki düşey yan duvardan oluşacak şekilde inşa edilmektedir. Yumuşak zeminlerde açılan tünellerin ise yatay basınçları karşılayacak en kesitlere sahip olması gerekmektedir. Bu tür zeminlerde açılan tünel enkesitlerinin tam daire veya nal şeklinde olması tercih edilmektedir. Dairesel enkesitli tüneller teorik olarak iç ve dış kuvvetleri en iyi karşılayan tünellerdir. Diğer taraftan bunlar en küçük çevreyle en büyük enkesite de sahip olmaktadır. Ancak bu üstünlükleri yanında bazı sakıncaları da mevcuttur. Bunlardan biri tabanlarının yuvarlak olması nedeniyle ulaşım yolu için fazlaca dolgu gerektirmeleri, diğeri ise beton kaplamanın yapım zorluğudur. Günümüzde kemerli ve dairesel enkesit şekilleri arasında olduğundan tasarım mühendisleri ve yüklenici tarafından daha çok nal şeklindeki enkesitler tercih edilmektedir. Böyle bir tünelin tabanı ulaşım yolu için yeteri kadar düz olduğu gibi eğrisel kenarları ve tavanı da kemer gibi çalıştığından dış kuvvetleri karşılamak için daha uygun olmaktadır. Yumurta şeklindeki enkesitler şehir atık sularıyla taşkın debilerini geçiren birleşik kanalizasyon tünellerinde kullanılan enkesitlerdir. Ancak tabanları dar olduğundan karayolu, demiryolu tünelleri için uygun olmamaktadırlar. Dikdörtgen enkesitli tüneller, kaplamalarının yapım zorluğu ve köşelerde meydana gelen gerilme yığılmalarından ötürü aç-kapa tüneller ile su altı tünelleri haricinde uygulanmamaktadırlar. Aşağıda bu enkesitleri gösterir şekiller verilmektedir (Şekil 2.2).
+
+<!-- image -->
+
+Şekil 2.2 Tünel enkesit örnekleri
+
+Karayolu tünellerinde kullanılan tünel profilleri için genellikle dairesel formlar tercih edilmektedir. Tünellerin geometrileri genelde bir merkezden geçen daireler olabildiği gibi, birden fazla yayların bir araya gelmesinden de kesit oluşturulabilmektedir. Aşağıdaki şekilde bir tünel tipine ait örnek boyutlandırma gösterilmiştir (Şekil 2.3) [5]:
+
+sin *p =*
+
+*r* 3 - *r* 2
+
+*c* = *'* 3 2 - 2 *'* 2 ( *'* 3 - *'* 1 ) - *'* 1 2
+
+<!-- image -->
+
+Şekil 2.3 Tünel Tip Kesiti Oluşturma Örneği
+
+Uygulamada genellikle tünel yüksekliği 1.5r alınırken, genişliği 2r olmaktadır. Uygulama amaçlarına göre tünel kesit alanları aşağıdaki gibi olmaktadır (Çizelge 2.1).
+
+Çizelge 2.1Uygulamalarda Karşılaşılan Tünel Kesit alanları
+
+| **Tünel Tipi**          | **Kesit Alanı (m**  **2**  **)**   |
+|-------------------------|------------------------------------|
+| Kanalizasyon            | 10                                 |
+| Hidroelektrik tünelleri | 10-30                              |
+| Tek şerit karayolu      | 75                                 |
+| Demiryolu (tek hat)     | 50                                 |
+| Metro (tek hat)         | 35                                 |
+| Hızlı tren (tek hat)    | 50                                 |
+| Hızlı tren (çift hat)   | 80-100                             |
+
+##### 7 Yapım Yöntemlerine Göre Tüneller
+
+Yapım şekline göre tüneller ; kaya ortamlarda açılan, zeminlerde açılan ve su altıda yapılanlar şeklinde sınıflandırılabilmektedir. Kaya ortamlarda inşa edilen tünellerde genellikle delme patlatma yöntemi ya da değişik tipteki delgi aygıtları kullanılmaktadır. Bu ortamlar kendini taşıyabilir özellikte olması nedeniyle bu tip zeminlerde inşa edilen tünellerde genellikle stabilite sorunlarıyla karşılaşılmamaktadır.
+
+Zemin içerisinde inşa edilecek olan tünellerde ise koşulların kaya ortamlara göre çok daha zor olduğu açıktır. Bu nedenle bu tür zeminler iyileştirme yöntemlerinden biriyle iyileştirilse bile bunlar tünel kazısının daha dikkatlice yapılmasını gerektirmektedir. Durum böyle olunca bu tünellerin inşasında kalkan, boru sürme, şemsiyeleme ve aç-kapa gibi yöntemlerin kullanılması gerekmektedir. Diğer taraftan yumuşak zeminlerde inşa edilecek tünel enkesit şekillerinin olabildiğince finiküler forma yakın seçilmesi kaplamalara gelecek çekme gerilmelerini asgari düzeye inmesini sağlamaktadır.
+
+Su altı tünelleri ise şantiyede üretilen tünel elemanlarının suya batırı l ı p tabana oturtulduktan sonra üzerleri örtülmek suretiyle ya da suda tabana oturtulmadan yüzer şekilde inşa edilmektedirler [4]. Şekil 2.4'de sırasıyla patlayıcı ile ve mekanik yöntemlerle tünel açmada kullanılan, hidrolik kırıcı, eskavatör, roadheader, TBM makinası, jumbo aygıtı görünmektedir [5].
+
+<!-- image -->
+
+<!-- image -->
+
+Şekil 2.4 Mekanize veya Konvensiyonel Yöntemlerde Kullanılan Araçlar: (a) Hidrolik kırıcı, (b) Jumbo (c) TBM (d) Eskavatör ve (e) Roadheader
+
+##### 8 Yapım Amaçlarına Göre Tüneller
+
+Tünellerin ana kullanım amaçları motorlu taşıt ulaşımı, metro ve demiryolu ulaşımı ve su
+
+taşımaktır. Bunların yanı sıra barınak ve tapınak tünelleri, maden galerileri, kanalizasyon ve
+
+kamu hizmet tünelleri, stokaj tünelleri, korunma ve savunma amaçlı tüneller, yaya-bisikletgeçişleri, vahşi hayvan geçişleri ya da derivasyon amaçlı daha özel amaçlara hizmet eden tünellere de rastlanmaktadır. Karayolu tünelleri, trafiğin önemine bağlı olarak aydınlatma, havalandırma, işaret ve denetim donatımları içerir. Dünya'da en çok bilinen tüneller hakkında bazı bilgiler aşağıdaki gibidir [5].
+
+Çizelge 2.2 Dünya'daki Çeşitli Tüneller Hakkında İstatistiksel Bilgiler
+
+| **En Eski Tüneller**                                                    |             |
+|-------------------------------------------------------------------------|-------------|
+| Eupalinos Tüneli                                                        | 1 km        |
+| Urner Loch (İsviçre Alplerindeki ilk tünel, 1707)                       | 64 m        |
+| Mont-Cenis (Fransa-İtalya, 1857-1870)                                   | 12 km       |
+| St. Gotthart Demiryolu tüneli (İsviçre 1872-1878)                       | 15 km       |
+| Karaköy Tüneli (İstanbul Galata-Beyoğlu, 1871-1875)                     | 573 m       |
+| **En Uzun Tüneller**                                                    |             |
+| Seikan (Japonya, 1981-1984)                                             | 54 km       |
+| Euro-Tunnel (Manş Tüneli, Fransa-İngiltere 1986-1993)                   | 50 km       |
+| Simplon I (İsviçre - İtalya 1898-1906)                                  | 20 km       |
+| Grand Apennin (İtalya 1921-1930)                                        | 19 km       |
+| Yeni Gotthard (İsviçre 1969-1980)                                       | 16 km       |
+| **En Uzun Metro Tünelleri**                                             |             |
+| Londra Metrosu                                                          | 414 km      |
+| Moskova                                                                 | 254 km      |
+| New York                                                                | 221 km      |
+| Tokyo                                                                   | 203 km      |
+| Paris                                                                   | 1 65 km     |
+| **Yapımı Devam Eden Önemli Tüneller**                                   |             |
+| Gotthard Tüneli (1993-2015? ): Dünyanın en uzun tüneli, 2300 m derinlik | 2 x 56.9 km |
+| Lötschberg (1994- ) 2300 metre derinlik                                 | 2 x 41.9 km |
+| Guadarrama (İspanya): demiryolu tüneli                                  | 2 x 28.4 km |
+
+Türkiye'nin en uzun Karayolu tüneli Ordu Nefise Akçelik (Hapan) tünelidir. 29 Aralık 2006 tarihinde açılan bu tünel 3825 metre boyundadır. Tünel iki tüpten oluşmakta olup Karadeniz Otoyolu'nun Bolaman - Ordu arasındaki en zor coğrafyasında oldukça konforlu bir geçiş sağlayan Bolaman - Ordu karayolu üzerindedir. Tünel 2 gidiş 2 geliş 1'er emniyet şeritine sahiptir. Şekil 2.5'te Ordu Nefise Akçelik (Hapan) tüneli portaline ait fotoğraf bulunmaktadır [6].
+
+<!-- image -->
+
+Şekil 2.5 Ordu Nefise Akçelik (Hapan) tüneline ait portal yapısı
+
+##### 9 Tünel Yapımında Yararlanılan Çeşitli Yöntemler
+
+Bir tünelin gerçekleştirilmesinde, birbirini izleyen ve iyi bir biçimde birbirine bağlanması gereken işlemlere başvurulur: kazı, pasa nakliyesi, geçici destekleme, kesin kaplama desteklemesi, ince inşaat. Gerçekte, alın kazısının yapılacağı yer sınırlıdır ve tünel içindeki trafik öteki işler için gerekli mekanı kısıtlar. Bir tünelin hangi yöntemle yapılacağının seçiminde ilk veri, arazinin niteliğidir. Desteklemenin yerleştirilmesi için gereken süre zeminin dayanımına bağlıdır ve kazının serbest açıklığına bağlı olarak bu süre azalır yada artar. Birçok tünel kazma yöntemi geliştirilmiştir. Ekonomik nedenlerle, kazının olabildiğince büyük kesitte yapılması istenmektedir. Arazi ve kesit büyüklüğü zorunlu kılarsa, öncelikle tonozlu üst bölüm desteklenir ve çekirdek kazılır (yarım kesit kazısı). Zor arazide çalışıldığında, çeşitli yöntemlerle bölmelenmiş kesitlere göre kazı gerçekleştirilir [7].
+
+##### 10 KAYA KALİTE VE KAYA DESTEK SINIFLAMALARI
+
+##### 11 Giriş
+
+Sözcük anlamı olarak sınıflama, nesnelerin ortak özelliklerine göre gruplandırılması şeklinde tanımlanır. Kaya mekaniği alanında da kaya kütlelerinin sınıflandırılmasına gereksinim duyulmuş ve bu amaçla çeşitli sınıflama sistemleri önerilmiştir. Bu sistemler, kaya mühendisliğinde tasarımın ayrılmaz bir parçası olmakla birlikte, uzun yıllar süren gözlemlere bağlı deneyimler ve istatiksel değerlendirmeler esas alınarak önerilmiş görgül yöntemlerdir. Kaya kütlesi sınıflama sistemlerinin bu çerçevede algılanması ve doğru kullanılması halinde, günümüzde birçok mühendislik projesinin tamamlanmasında başarı ile kullanıldıkları bilinmektedir. Aşağıda bu yönteme örnek teşkil edecek tasarımlar sıralanmıştır [9,10].
+
+A- Ampirik tasarım yöntemleri
+
+- 1- Terzaghi'nin kaya yükleme sınıflaması
+- 2- Stini, Rabcewicz ve Lauffer sınıflamaları
+- 3- Deere'nin kaya kalitesi sınıflaması
+- 4- RSR (Kaya Yapısı Oranı) içeriği
+- 5- Geomekanik sınıflama (RMR sistemi)
+- 6- Q Sistemi
+
+B- Gözleme dayalı tasarım yöntemleri
+
+- 1- Kaya gözlem teknikleri
+- 2- Yeni Avusturya Tünel Metodu (NATM)
+- 3- Birleşme-Hapsetme (Convergence-Confinement) yöntemi
+
+C- Analitik- Sayısal tasarım yöntemleri
+
+- 1- Sayısal modelleme
+- 2- Fiziksel modelleme
+- 3- Kırılma kriteri.
+
+Bieniawski (1988), kaya kütlesi sınıflama sistemlerinin başlıca amaçlarını aşağıdaki şekilde belirtmektedir.
+
+1. Kaya kütlesinin davranışını etkileyen önemli parametreleri tayin etmek,
+2. Kaya kütlesini kendi içerisinde benzer özellikler gösteren bölgelere ayırarak değişik kalitedeki kaya kütlesi sınıflarını belirlemek,
+3. Her kaya kütlesi sınıfının özelliklerinin anlaşılması amacıyla esaslar oluşturmak,
+4. Herhangi bir sahadaki kaya kütlesi koşullarıyla ilgili olarak kazanılan deneyimleri diğer sahalarda karşılaşılan koşullarla karşılaştırılıp ilişki kurmak,
+5. Mühendislik tasarımı için sayısal veri tabanı ve bir klavuz oluşturmak,
+6. Mühendisler arasında ortak temele dayalı teknik iletişimi sağlamak.
+
+Kaya kütlesi sınıflama sistemlerinden elde edilebilecek kazanımlar ise aşağıda verilmiştir.
+
+1. En az sayıda sınıflama parametresi esas alınarak, toplanan verilerle saha çalışmalarının kalitesinin arttırılması,
+2. Tasarıma yönelik amaçlar için sayısal veri sağlanması,
+3. Daha doğru mühendislik kararlarının alınabilmesinin ve projelerde daha etkin bir iletişimin sağlanması.
+
+Herhangi bir kaya kütlesi sınıflama sisteminden elde edilen sonuçlar, doğrudan o sistem tarafından kullanılan girdi parametreleriyle ilgilidir. Dolayısıyla, girdi parametrelerinin tayin edilebilir ve kaya kütlesinin özelliklerini yansıtabilir nitelikte olması önemli bir husustur. Bieniawski (1988) tarafından vurgulandığı gibi, kaya kütlelerinin sınıflandırılmasında özellikle aşağıda belirtilen girdi parametrelerinin dikkate alınmasında yarar vardır.
+
+1. Kaya malzemesinin dayanımı: Bu parametre, kaya kütlesinin dayanımının en üst sınırının belirlenmesinde açısından önemlidir. Ayrıca kaya mekaniğinde sıkıştırıcı gerilme alanlarının önemi dikkate alındığında, tek eksenli sıkışma dayanımının sınıflama açısından gerekli bir parametre olduğu açıktır.
+2. RQD: Bu parametre, kaya karotlarının kalitesinin bir göstergesi olmakla birlikte, süreksizlik yöneliminin etkisini yansıtmaz. Bununla birlikte, tünel projelerinde yaygın olarak kullanılan ve farklı tünel koşullarında kaya davranışının karşılaştırılmasına olanak sağlayan sayısal bir indeks olması açısından önemlidir.
+3. Jeolojik parametreler: Süreksizliklerin aralığı, yönelimi ve yüzey koşulları (pürüzlülük, açıklık, bozunma, dolgu, devamlılık)
+4. Yeraltı suyu koşulları
+5. Gerilme alanı
+6. Başlıca faylar ve kıvrımlar
+
+1946'dan bu yana değişik araştırmacılar tarafından çok sayıda kaya kütlesi sınıflama sistemi geliştirilmiştir. Başlıca sınıflama sistemleri; sistemleri geliştirenler, sistemlerin hangi ülkelerde ve tarihlerde geliştirdikleri ve uygulama alanları gözetilerek Çizelge 3.1'de verilmiştir.
+
+Çizelge 3.1 Günümüzde kullanılan başlıca kaya kütlesi sınıflama sistemleri
+
+|        | **Sınıflama sistemin adı**              | **Geliştiren(ler)**   | **Geliştirildiği**  **ülke**   | **Uygulama Alanları**                  |
+|--------|-----------------------------------------|-----------------------|--------------------------------|----------------------------------------|
+| **1.** | Kaya yükü                               | Terzaghi, 1946        | A.B.D                          | Çelik destekli tüneller                |
+| **2.** | Desteksiz durma süresi                  | Lauffer, 1958         | Avustralya                     | Tünelcilik                             |
+| **3.** | NATM (Yeni Avusturya Tünelcilik Yöntemi | Rabcewicz, 1963       | Avusturya                      | Tünelcilik                             |
+| **4.** | RQD                                     | Deere vd., 1967       | A.B.D                          | Karot loglama, tünelcilik              |
+| **5.** | RSR                                     | Wickham vd., 1972     | A.B.D                          | Tünelcilik                             |
+| **6.** | RMR sistemi                             | Bieniawski, 1973      | G. Afrika                      | Tüneller, madenler, (şevler, temeller) |
+
+##### 12 Kaya Kütlelerinin Tanımlanması
+
+Birçok araştırmacı kaya kütlelerini eklem durumu ve mekanik özelliklerine bağlı olarak şu şekilde tanımlamaktadır;
+
+1. Eklemsiz (sağlam) kaya; ayrışma zonunun altında kalan birçok kaya kütlesinin içinde süreksizlikler tarafından sınırlandırılmış ve içersinde herhangi bir çatlak bulunmayan kaya bloğudur.
+2. Nispeten çatlaklı kaya; üç sürekli eklem takımından daha az eklem takımına sahip olup her hangi bir kazı yapılınca kazı boşluğu çevresinde genellikle serbest blok oluşmayan kaya kütlesidir.
+3. Az bloklu kaya; sürekli eklem takımı sayısı üçten az fakat eklemleri açık ya da yumuşak olan kaya olup bu eklem takımlarını kesen ilave bir çatlak sistemi vardır. Oluşacak bir deformasyon sonucu bu eklem sistemlerinden herhangi birinin zayıflaması (açılması) serbest blokların oluşmasına yol açar.
+4. Bloklu Kaya; üç veya daha fazla eklem takımı içeren kaya kütlesidir. Eklemler belirgin olup açık veya yumuşak dolgulu olabilir. Çekme direnci ölçülemeyecek kadar küçüktür. Bu tür kaya ortamında yapılan kazı sonrasında belirgin yüzeylere sahip bloklar ortaya çıkar.
+5. Çok Gözenekli kaya; bu tür kayalarda gözenekler kayanın mekanik özelliklerini önemli ölçüde etkiler. Gözeneklerde su bulunması ve su basıncında meydana gelen herhangi bir artış kayanın direncide önemli azalmalara da neden olur.
+6. Çok çatlaklı kaya; sık ve kısa (süreksiz) çatlaklara sahiptir. Bu çatlaklar çok kırılgan kayaçlarda ortaya çıkar ve kayanın mekanik özelliklerini etkiler.
+7. Sıkışan veya şişen kaya; su etkisiyle reaksiyon sonucu genişleyen aktif kil mineralleri içerirler.
+8. Sıkışmış kaya molozu; farklı özelliklere sahip ardalanmış kayalardır. Ritmik olarak ardalanmış kumtaşı ve şeyl bu tür kaya grubundan sayılabilir.
+9. Çözünebilir kaya; esas olarak eriyebilen (çözünür) kireçtaşı, dolomit, jips ve kaya tuzu ile çözünebilen çimentolarla bağlanmış kalstik sedimanter kayalardır [10].
+##### 13 Kaya Kalite ve Destek Sistemleri
+
+##### 14 Müller (1963) Sınıflaması
+
+Kayanın taşıma direncindeki düşümleri k (çatlaklılık) ve x (ayrılma derecesi) nin fonksiyonu olarak ifade eden bir sınıflamadır. Kayanın mekanik özelliklerinin belirlenmesinde yardımcı olmaktadır. Çizelge 3.2 ‘de sınıflama grafiği gözükmektedir [12].
+
+Çizelge 3.2 Ayrılma derecesi ve çatlak sıklığına bağlı olarak Müller'in kaya sınıflaması(1963)
+
+<!-- image -->
+
+##### 15 Pacher-Rabcewicz (1974)
+
+Orta Avrupa ekolü tarafından çok sık kullanılan ve arazi koşulları gözetilerek belirlenebilen bir kaya sınıflamasıdır. Kazı sonrasında beklenen gerilme ve deformasyonları, gerekli sağlamlaştırma önlemlerini ve önlemlerin uygulanma zamanını göstermektedir. Çizelge 3.3'de Rabcewicz-Pacher'e göre tünel açmada kaya sınıflamasını belirlemek için kullanılan tablo verilmiştir [12].
+
+##### 16 Terzaghi (1946) Kaya Yükü Sınıflama Sistemi
+
+Terzaghi'nin kaya yükü kavramını açıklayan basitleştirilmiş bir model, Şekil 3.1'de verilmektedir. Bu şekile göre, tünel kazısı sırasında açıklığın yanlarında ve üzerinde gevşemiş bir kaya kütlesi oluşacaktır. ‘abcd' alanı içinde yer alan bu gevşeyen kaya tünel açıklığına doğru hareket etmek isteyecektir. ‘ac' ve ‘bd' sınırları boyunca oluşan sürtünme kuvvetleri bu hareketi engellemeye çalışacaktır. Aynı zamanda, bu sürtünme kuvvetleri, ‘W' arazi yükünün büyük bir bölümünü tünelin her iki yanındaki kaya kütlesi üzerine aktaracaktır. Tünel tavanının ve yanlarının ancak geriye kalan kaya yükünü (hp) taşıması gerekecektir. İçinde hareketin oluştuğu kaya bölgesinin B1 genişliği, kaya kütlesinin özelliklerine ve tünelin genişliği (B) ile yüksekliğine (ht) bağlıdır. Terzaghi'nin kaya yükü sınıflaması Çizelge 3.4'de, bu sınıflama sisteminin Deere ve arkadaşları tarafından geliştirilmiş durumu, Çizelge 3.5'de verilmektedir [13].
+
+<!-- image -->
+
+Şekil 3.1 Terzaghi'nin kaya yükü kavramı (Terzaghi, 1946)
+
+Çizelge 3.3 Rabcewicz-Pacher (1974)’e göre tünel açmada kaya sınıflaması
+
+|                                       | I  SAĞLAM                                                                                                          | II  KIRILGAN                                                                                                          | III  GEVREK  ÇOK GEVREK                                                                                            | IV                                                                                                                                                                                                                                         | V                                                                                                                                                                                                                                          | V                                                                                                                                    |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+|                                       | ZAMANLA AZ KIRILGAN                                                                                                | ZAMANLA ÇOK KIRILGAN                                                                                                  |                                                                                                                    | BASKILI                                                                                                                                                                                                                                    | a  ÇOK BASKILI                                                                                                                                                                                                                             | b  AKICI                                                                                                                             |
+| DOKUSU                                | Yoğun belirsiz süreksizlik işleri                                                                                  | Tabakalanma ve çatlaklanma nedeniyle belirgin süreksizlikler.  yer yer killi çatlak dolguları ve şistli ara katmanlar | Yapraklanma ve çatlakların etksiyle her yönde yaygın ve etkin parçalanma, killi ezilme  ve millonitleşme bölgeleri | Gelişmiş ötelenme izleri.  kıvrımlanmış ve yapraksı yapı kazanmış, bozunma zonu. iyi sıkışmış kohezyonlu ayrık zemin karakterinde                                                                                                          | Tümüyle ufalanmış.  hamurlaşmış ve milonitleşmiş kayaç gevşemiş dokuda az kohezyonlu ayrık zemin karateıinde                                                                                                                               | Ayrık, akıcı daneli zemin                                                                                                            |
+|                                       | Kayanın tek eksenli basınç direnci (a  B  kaya) boşluk duvarına etkiyen teğetsel gerilmelerden (a  B  ) daha büyük |                                                                                                                       | Boşluk duvarındaki teğetsel gerilmeler kaya                                                                        | Teğetsel gerilmelerin kayanın taşıma direncinin üstünde olması nedeniyle kaya plastik davranarak                                                                                                                                           | Teğetsel gerilmelerin kayanın taşıma direncinin üstünde olması nedeniyle kaya plastik davranarak                                                                                                                                           |                                                                                                                                      |
+| DAVRANIŞI                             | °B kava > °B                                                                                                       | °B kava > °B                                                                                                          | direncinin üstünde.                                                                                                | az ve yavaş                                                                                                                                                                                                                                | etkin ve hızlı                                                                                                                                                                                                                             | V                                                                                                                                    |
+| DAVRANIŞI                             | Sürekli duıay (stabil) yersel koruyucu önlemler (kaya  patlamalarına dikkat !)                                     | Kalotun  sağlamlaştırıldığı durumlarda sürekli duıaylık (stabilite)                                                   | Açık veya kapalı bir taşıyıcı halkanın oluşturulması gerekli                                                       | olarak boşluğa doğru deforme olmaktadır. Yanal basınçlar ve taban kabarması görülür. Bu hareketler ancak kapalı ve sağlam bir taşıyıcı halkanın oluşturulması ile durdurulabilir.                                                          | olarak boşluğa doğru deforme olmaktadır. Yanal basınçlar ve taban kabarması görülür. Bu hareketler ancak kapalı ve sağlam bir taşıyıcı halkanın oluşturulması ile durdurulabilir.                                                          | a’daki gibi                                                                                                                          |
+| TOPRAK İŞİ                            | Yok                                                                                                                | Önemsiz                                                                                                               | Çatlak dolgu malzemesi üzerinde oldukça fazla                                                                      | Belirgin                                                                                                                                                                                                                                   | Bazı koşullarda çok fazla (Yumuşatıcı)                                                                                                                                                                                                     |                                                                                                                                      |
+| KAZI                                  | Tam kesit (yekpare) (atnalı)                                                                                       | Tam kesit (atnalı)                                                                                                    | Kalot ve stıos                                                                                                     | Parçalı kazı (1-4)                                                                                                                                                                                                                         | Parçalı kazı                                                                                                                                                                                                                               | Parçalı kazı                                                                                                                         |
+| KAZI ŞEKLİ SAĞLAMLAŞTIRMA ve GÜVENLİK | /A                                                                                                                 | -V A  İd                                                                                                              | B                                                                                                                  | pg                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                            | Çok parçalı kazı (1-5) Kalot. sağ üst gövde, sol üst gövde, sağ alt gövde, sol alt gövde, taban.  Arında ve tavanda özel destekleme. |
+| ÖNLEMLERİ                             | /A                                                                                                                 |                                                                                                                       | B                                                                                                                  | G?                                                                                                                                                                                                                                         | SP                                                                                                                                                                                                                                         | V b’de V’a daki gibi ancak özel koşulları dikkate alan bir şema dahilinde.                                                           |
+| SAĞLAMLAŞTIRMA                        | Gereksiz                                                                                                           | Tavanda sistematik ankıaj                                                                                             | Tavanda ve yanlarda gevşek hafif taşıyıcı halka                                                                    | Kapalı halka oluşturulması                                                                                                                                                                                                                 | Kapalı halka oluşturulması                                                                                                                                                                                                                 | Kapalı halka oluşturulması                                                                                                           |
+| ÖNLEMLERİN UYGULANMASI VE ZAMANI      | Yersel zayıf kısımların tutulması ve gerektiğinde kaya patlatmalarına karşı önlemler.                              | Kalotta daha yaygın bir sağlamlaştırma, gerektiğinde yan duvarların (ayakların) sağlamlaştırılması                    | Kavlaklanmalaı a karşı yüzeyin  sağlamlaştırılması ve korunması kaya içinde taşıyıcı bir sistem oluşturur.         | Önlemler, inşaat çalışmalarının her bölümünü teker teker güvenlik altına almayı, deformasyonları durdurmayı, kapalı bir taşıyıcı halka oluşturmayı kayayı kendi kendine taşıtmayı amaçlar. Kazı yüzeylerini hemen güvenlik altına almak ve | Önlemler, inşaat çalışmalarının her bölümünü teker teker güvenlik altına almayı, deformasyonları durdurmayı, kapalı bir taşıyıcı halka oluşturmayı kayayı kendi kendine taşıtmayı amaçlar. Kazı yüzeylerini hemen güvenlik altına almak ve |                                                                                                                                      |
+|                                       | Sınırlı değildir ve çoğu zaman büyük bir engel oluşturmaz.                                                         | Sınırlı değildir ve çoğu zaman büyük bir engel oluşturmaz.                                                            |                                                                                                                    | sağlamlaştırma işlemlerini öngörülen süre içinde tamamlamış olmak gerekir.                                                                                                                                                                 | sağlamlaştırma işlemlerini öngörülen süre içinde tamamlamış olmak gerekir.                                                                                                                                                                 |                                                                                                                                      |
+
+Çizelge 3.4 Terzaghi'ye göre beklenen dağ basınçları
+
+|   **Grup** | **Kayacın**  **özellikleri**           | **Metre cinsinden dağ basıncı**                            | **Açıklamalar**                                                                       |
+|------------|----------------------------------------|------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|          1 | Sağlam                                 | -                                                          | Ufak tefek kavlaklanmalar görülüyorsa tünel içinde kaplama gerekli                    |
+|          2 | Katı, tabakalı                         | 0-0,5b                                                     | Hafif kaplama, basınç yer yer değişiklik gösterebilir                                 |
+|          3 | Masif, az çatlaklı                     | 0-0,25b                                                    | Hafif kaplama                                                                         |
+|          4 | Az bloklu ve geniş                     | 0,25-0,35(b+h)                                             | Yanal basınç yok                                                                      |
+|          5 | Çokça parçalanmış fakat ayrışmamış     | (0,35-1,1)(b+h)                                            | Hiç veya pek az yanal basınç                                                          |
+|          6 | Bütünüyle parçalanmış fakat ayrışmamış | 1,1(b+h)                                                   | Önemli yan basınçlar, sızan suların yumuşatıcı etkisi tabanda önemli yapı gerektirir. |
+|          7 | Baskılı (yüzeye yakın tünel)           | (1,1-2,1)(b+h)                                             | Büyük yan basınç, taban bağı zorunlu, dairesel kesit önerilir.                        |
+|          8 | Baskılı (derindeki tünel)              | (2,1-4,5)(b+h)                                             | Büyük yan basınç                                                                      |
+|          9 | Kabarma basınçlı ortam                 | (b+h) değeri göz önüne alınmaksızın 80 m' ye kadar gerekli | Dairesel kesit gerekli, uygun olmayn şartlar altında kayıcı bağlar kullanılmalı       |
+|         10 | Sıkışmış kum                           | (0,62-1,38)(b+h)                                           | -                                                                                     |
+|         11 | Gevşek kum                             | (1,08-1,38)(b+h)                                           | -                                                                                     |
+
+<!-- image -->
+
+Notlar: 1) Kaya durumu 4, 5, 6 ve 7 için, su tablasının üstünde yükleri % 50 azaltınız.
+
+2) C=B+ht (=tünel geniş liğ i + yüksekliğ i)
+
+3) y : kayanın birim hacim ağırlığı.
+
+Terzaghi'nin destekleme yöntemi gözlemleri çapı 5-10 m. arasında değişen tünelleri kapsar. Tünel kazıları desteklemede kullanılan bütün yöntemlerde çevre kayacında bazı deformasyonlar olacağı kesindir. Özellikle düşük nitelikli kayalarda (sıkışan şişen kayalar hariç) eğer başlangıç desteği çok fazla yumuşak ise veya destek yapılması gecikirse, son yükler daha fazla olma eğilimindedir. Kontrol edilmeyen deformasyonlar, kazı yerinin dolayında gevşemeler oluşturarak, son yüklerin artmasına neden olabilir. Bu konudaki görüşlere göre, püskürtme betonu ve/veya bulonlama ile geçici destek yaparak son yükleri
+
+azaltmak gereklidir. Bu şekilde kemerlenmeye yetecek, fakat gevşemeye neden olmayacak kadar deformasyon sağlanacağı için, çelik kiriş ve ahşap destekleme yöntemine göre son yükler en az düzeye indirilir [10].
+
+##### 17 Stini (1950) Sınıflaması
+
+Stini (1950) bir kaya kütlesi sınıflandırması önermiş ve tünellerde karşılaşılabilecek olumsuzlukları belirlemiştir. Ayrıca kaya kütlesindeki yapısal kusurları ve gerilmeleri vurgulamış ve fay dalım yönüne paralel olarak tünel açımından kaçınılmasını belirtmiştir.
+
+##### 18 Lauffer (1958) Sınıflaması
+
+Lauffer (1958) tarafından yapılan kaya sınıflamasının esası Stini (1950) nin çalışmalarına dayanmaktadır. Stini kaya kütlesinin içersinde bulunan yapısal kusurların önemini vurgulamaktadır. Lauffer tarafından önerilen herhangi bir açıklığın tahkimatsız olarak göçmeden ayakta kalma süresi birçok kaya kütlesi sınıflaması ile ilgilidir. Kaya kütlesinin özelliklerine bağlı olarak aktif iksasız herhangi bir açıklığın ayakta kalma süresi Şekil 3.2'de verilmektedir. Lauffer sınıflamasının en önemli özelliği tünel açıklığında meydana gelen artışın ayakta kalma süresini önemli ölçüde azalttığını açıklamasıdır. Ancak, daha sonra geliştirilen yeni kaya kütlesi sınıflandırma sistemlerinin geliştirilmesinde oldukça etkili olmuştur [11].
+
+<!-- image -->
+
+Şekil 3.2 Lauffer' e göre aktif iksasız her hangi bir kazı boşluğunun ayakta kalma süresi
+
+##### 19 Kaya Yapısı Oranı (RSR)
+
+RSR (Rock Structure Rating) kavramı, Wickham, Tiedemann ve Skinner (1972) tarafından geliştirilen bir kaya destek tahmin modelidir. RSR, Terzaghi'nin kaya kütlesi sınıflama sisteminden sonraki ilk ayrıntılı kaya kütlesi sınıflama sistemidir. RSR kavramı tünelcilikte kaya kütlesini etkileyen faktörlerin iki genel kategorisini göz önüne almıştır [10]. Bunlar jeolojik parametreler ve yapı parametreleridir ve A,B ve C olmak üzere üç grupta toplanmıştır.
+
+RSR=A+B+C dir.
+
+1. Kaya yapısının genel tanımı şu esaslara göredir:
+
+- 1- Kayanın kökeni (mağmatik, metomorfik, tortul)
+- 2- Kayanın sertliği (sert, orta, yumuşak, ayrışmış)
+- 3- Jeolojik yapı (masif, az faylı ya da kıvrımlı, orta derecede faylı ya da kıvrımlı, çok faylı ya da kıvrımlı).
+
+2. Tünel kazısı yönüne göre süreksizlik örneğinin etkisi:
+
+- 1- Eklem aralığı
+- 2- Eklem yönelimi (doğrultu, eğim)
+- 3- Tünel açma yönü
+
+3. Yeraltı suyu akımı etkisi
+
+- 1- Birleştirilmiş A ve B'ye göre tüm kaya kütlesi niteliği,
+- 2- Eklem durumu (iyi, orta, zayıf)
+- 3- Su akım miktarı (bir ayak boyundaki tünelde, dakikada galon olarak)
+##### 20 Deere (1964)'in Kaya Kalitesi (RQD) Tanımı
+
+Deere (1964) sondajlardan elde edilen 100 mm ve daha uzun karotların toplam karot uzunluğuna oranı şeklinde sayısal bir indeks teklif etmiştir. Bu kaya kalite göstergesi (Rock Quality Designation, RQD) tünel desteklemesinin seçiminde oldukça kullanışlıdır. RQD indeksi ile kaya kalitesi arasındaki ilişki Çizelge 3.6'da verilmektedir [11].
+
+Çizelge 3.6 RQD- Kaya kalitesi arasındaki ilişki (Deere, 1964)
+
+| **RQD (%)**   | **Kaya Kalitesi**   |
+|---------------|---------------------|
+| <25           | Çok zayıf           |
+| 25-50         | Zayıf               |
+| 50-75         | Orta                |
+| 75-90         | İyi                 |
+| 90-100        | Çok iyi (mükemmel)  |
+
+Deere ve Miller (1966) kayaçların dayanım özelliklerini esas alan yeni bir sınıflama
+
+geliştirmişlerdir. Bu sınıflama sisteminde kayacın tek eksenli basınç dayanımı (c c ) ve tanjant elastisite modülü oranı (E t / c c ) değerleri esas alınmıştır. Deere ve Millerin dayanım özellikleri ve modül oranına göre kaya sınıflaması Çizelge 3.7'de verilmektedir.
+
+Çizelge 3.7 Deere ve Miller (1966) sınıflaması
+
+| **Tek eksenli basınç direnci (kg/cm**  **2**  **)**   | **Modül oranı,**  **Et/Cc**   | **Kaya dayanımı**   | **Örnek kayaç**         |
+|-------------------------------------------------------|-------------------------------|---------------------|-------------------------|
+| >2200                                                 | -                             | Çok yüksek          | Kuvarsit, gabro, bazalt |
+| 1100-2200                                             | >500                          | Yüksek              | Granit, gnays           |
+| 550-1100                                              | 200-500                       | Orta                | Şeyl, kumtaşı           |
+| 275-550                                               | <200                          | Düşük               | Kömür, şist, silttaşı   |
+| <275                                                  | -                             | Çok düşük           | Kaya tuzu, çalk         |
+
+Breeke ve Howard (1972) RQD sınıflamasının bir yeraltı açıklığını çevreleyen kaya kütlesinin davranışını doğrudan etkileyen eklem dolgusu ile birlikte eklem yönelimi hakkında da sayısal değerler vermediğini belirtmişler ve süreksizliklerin belli özelliklere bağlı olarak sınıflandırılmasına dikkat çekmişlerdir. Brekke ve Howard tünel kazısı sırasında karşılaşılabilecek dolgu ve süreksizliklerin doğuracağı sonuçları Çizelge 3.8'de özetlemektedir.
+
+Çizelge 3.8 Eklem dolgularının tünel davranışına etkileri (Brekke ve Howard, 1972)
+
+| **Dolgudaki etkin malzeme**         | **Dolgu malzemesinin potansiyel etkileri**                                                  |                                                                                                                                                                |
+|-------------------------------------|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                     | **Kazı sırasında**                                                                          | **Kazıdan sonra**                                                                                                                                              |
+| Kabaran kil                         | Serbestçe	kabararak  kavlaklanır.	Tahkimat  üzerinde	sıkışma	ve  kabarma basıncı oluşturur. | Sıkışma ve kabarma basıncı tahkimat veya kaplama üzerine etki eder, kaplamanın yetersiz olduğu durumlarda kabaran kısımlar dökülerek veya yıkanarak uzaklaşır. |
+| Aktif olmayan kil dolgu             | Sıkışma	etkisiyle  kavlaklanma oluşur. Bazı durumlarda sıkışma çok fazladır.                | Tahkimat üzerinde sıkışmalar olur.                                                                                                                             |
+| Klorit, talk, grafit veya serpantin | Tel tel ayrılarak dökülme oluşur.                                                           | Özellikle su ile temas ettikleri zaman; dayanımlarındaki  azalmalara bağlı olarak ağır yükler oluşabilir.                                                      |
+| Gözenekli kalsit veya jips          |                                                                                             | Ayrışarak kaya kütlesinin duraylılığının bozulmasına neden olabilir.                                                                                           |
+
+##### 21 Kaya Kütlesi Kalitesi Sınıflandırma Sistemleri
+
+Tünel desteklerinin projelendirilmesinde kullanılmak amacı ile çok sayıda parametrenin göz önüne alındığı kaya kütlesi sınıflandırma sistemleri geliştirilmiştir. Tünel desteği projelerinde çok sayıda parametrelerin hepsinin göz önüne alındığı kaya kütlesi sınıflandırma sistemleri kullanılmaktadır [10].
+
+##### Kaya kütlesi niteliğini (Q) tahmin etme yöntemi
+
+Barton ve arkadaşlarının tünellerde yaptıkları araştırma sonuçlarına dayanarak ortaya koydukları sınıflandırma sistemlerinde, “Kaya Kütle Kalitesi” büyüklüğü
+
+*Q* =
+
+*RQD* . *J* *r* . *J* *w J* *n* . *J* *a* . *SRF*
+
+(3.1)
+
+<!-- image -->
+
+bağıntısı ile tanımlanmaktadır. (Barton vd,1974)
+
+RQD	= Kaya kalite göstergesi
+
+Jn	= Çatlak (eklem) takımı sayısı
+
+Jr	= Çatlak pürüzlülük sayısı
+
+Ja	= Çatlak ayrışma sayısı
+
+Jw	= Çatlak suyu indirgeme faktörü
+
+SRF	= Gerilme indirgeme faktörü
+
+Bu parametrelerin diğerleri Çizelge 3.9, Çizelge 3.10, Çizelge 3.11 ve Çizelge 3.12'de verilmiştir.
+
+|                                                        | **Çatlak (Eklem) Takımı Sayısı**                                                   | **Jn**   |
+|--------------------------------------------------------|------------------------------------------------------------------------------------|----------|
+| A.                                                     | Masif birkaç çatlak takımı veya hiç çatlak yok                                     | 0,5-1,0  |
+| B.                                                     | Bir çatlak takımı                                                                  | 2        |
+| C.                                                     | Bir çatlak takımı + düzensiz çatlaklar                                             | 3        |
+| D.                                                     | İki çatlak takımı                                                                  | 4        |
+| E.                                                     | İki çatlak takımı + düzensiz çatlaklar                                             | 6        |
+| F.                                                     | Üç çatlak takımı                                                                   | 9        |
+| G.                                                     | Üç çatlak takımı + düzensiz çatlaklar                                              | 12       |
+| H.                                                     | Dört veya daha fazla çatlak takımı, düzensiz veya çok çatlaklı küp şeker görünümlü | 15       |
+| J.                                                     | Tamamen ufalanmış kaya, toprak görünümlü                                           |          |
+| i. Tünel kesişme kesitlerinde (3 x Jn)                 | i. Tünel kesişme kesitlerinde (3 x Jn)                                             | 20       |
+| ii. Tünel girişlerinde (2 x Jn) değerleri alınmalıdır. | ii. Tünel girişlerinde (2 x Jn) değerleri alınmalıdır.                             |          |
+
+Çizelge 3.10 Q sınıflamasına göre çatlak pürüzlülük durumu Jr değerleri
+
+| **Çatlak Pürüzlülük Durumu**                                                                                                                                                                             |                                                                              | **Jr**                                                      |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------|
+| a. Çat                                                                                                                                                                                                   | lak yüzeyleri temasta veya b= 10 cm  2  den az kayma hareketiyle temasta     |                                                             |
+| A.                                                                                                                                                                                                       | Süreksiz çatlaklar                                                           | 4                                                           |
+| B.                                                                                                                                                                                                       | Dalgalı - pürüzlü                                                            | 3                                                           |
+| C.                                                                                                                                                                                                       | Dalgalı - düz                                                                | 2                                                           |
+| D.                                                                                                                                                                                                       | Dalgalı cilalı                                                               | 1,5                                                         |
+| E.                                                                                                                                                                                                       | Düzlemsel - pürüzlü                                                          | 1,5                                                         |
+| F.                                                                                                                                                                                                       | Düzlemsel - düz                                                              | 1                                                           |
+| G.                                                                                                                                                                                                       | Düzlemsel - cilalı                                                           |                                                             |
+| i. Dalgalı düzlemsel gibi tanımlamalar çatlakların en az 2m'lik uzunluğu boyunca  olan genel karakterini, pürüzlü, düz, cilalı tanımlamaları ise çatlak yüzeyinin küçük ölçekteki özelliklerini tanımlar |                                                                              | 0,5                                                         |
+| b. Makaslama ile çatlak yüzeylerinin teması sağlanmadığında                                                                                                                                              | b. Makaslama ile çatlak yüzeylerinin teması sağlanmadığında                  | b. Makaslama ile çatlak yüzeylerinin teması sağlanmadığında |
+| H.                                                                                                                                                                                                       | Çatlak yüzeylerinin temasını önleyecek kadar kalın kil dolgusu               | 1                                                           |
+| I.                                                                                                                                                                                                       | Çatlak yüzeylerinin temasını önleyecek kalınlıkta kum, çakıl ve breş dolgusu |                                                             |
+| ii. Ortalama çatlak aralığı 3 m' den fazla ise değerlere eklenmelidir.                                                                                                                                   | ii. Ortalama çatlak aralığı 3 m' den fazla ise değerlere eklenmelidir.       | 1                                                           |
+| iii. Makaslama hareketi izleri taşıyan ve bu izlerin olumlu yönde bulunduğu  düzlemsel- cilalı çatlaklar için Jr = 0,5 değeri alınabilir.                                                                |                                                                              | 1                                                           |
+
+| **Çatlak ayrışma durumu**                                                           |                                                                                                                                                                   | **♦**                                                                               | **Ja**                                                                              |
+|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| a. Çatlak yüzeyleri temasta (Mineral dolgu - kil kaplaması yok)                     | a. Çatlak yüzeyleri temasta (Mineral dolgu - kil kaplaması yok)                                                                                                   | a. Çatlak yüzeyleri temasta (Mineral dolgu - kil kaplaması yok)                     | a. Çatlak yüzeyleri temasta (Mineral dolgu - kil kaplaması yok)                     |
+| A.                                                                                  | Sıkıca kaynaşmış sert yumuşamayan geçirimsiz dolgu                                                                                                                | 25°-35°                                                                             | 0,75                                                                                |
+| B.                                                                                  | Ayrışmamış çatlak yüzeyleri, sadece lekeli yüzey                                                                                                                  | 25°-35°                                                                             | 1                                                                                   |
+| C.                                                                                  | Az ayrışmış eklem yüzeyleri, yumuşamayan yüzey mineralleri ile kaplanmış, kum tanecikleri, kil içermeyen parçalı kaya                                             | 25°-30°                                                                             | 2                                                                                   |
+| D.                                                                                  | Siltli, veya kumlu killi kaplama, yumuşak olmayan kil parçaları                                                                                                   | 20°-25°                                                                             | 3                                                                                   |
+| E.                                                                                  | Yumuşayan, düşük sürtmeli kil mineralleriyle kaplı, az miktarda akıcı kil. Örnek örneğin kaolinit veya mika, klorit, talk, jips, grafit, ve az miktarda akıcı kil | 8°-16°                                                                              | 4                                                                                   |
+| b. 10 cm' den az bir kayma hareketiyle çatlak yüzeylerinin teması sağlanabildiğinde | b. 10 cm' den az bir kayma hareketiyle çatlak yüzeylerinin teması sağlanabildiğinde                                                                               | b. 10 cm' den az bir kayma hareketiyle çatlak yüzeylerinin teması sağlanabildiğinde | b. 10 cm' den az bir kayma hareketiyle çatlak yüzeylerinin teması sağlanabildiğinde |
+| F.                                                                                  | Kum tanecikleri, kil içermeyen parçalanmış kaya                                                                                                                   | 25°-30°                                                                             | 4                                                                                   |
+| G.                                                                                  | Aşırı derecede konsolide olmuş, yumuşayan kil dolgulu (< 5 mm'den az kalınlıkta ve sürekli)                                                                       | 16°-24°                                                                             | 6                                                                                   |
+| H.                                                                                  | Orta derecede veya az miktarda konsolide olmuş, yumuşayan kil dolgulu (< 5 mm'den az kalınlıkta ve sürekli)                                                       | 12°-16°                                                                             | 8                                                                                   |
+| J.                                                                                  | Şişen kil dolgusu, montmorillonit vb.(sürekli, kalınlığı 5 mm'den az Ja değerleri şişme özelliği olan kil boyutundaki parçaların % sine bağlıdır.                 | 6°-12°                                                                              | 8-12                                                                                |
+| c. Çatlak yüzeylerinde kayma durumunda temas yok (ince mineral dolgu)               | c. Çatlak yüzeylerinde kayma durumunda temas yok (ince mineral dolgu)                                                                                             | c. Çatlak yüzeylerinde kayma durumunda temas yok (ince mineral dolgu)               | c. Çatlak yüzeylerinde kayma durumunda temas yok (ince mineral dolgu)               |
+| K-  L-  M                                                                           | Ufalanmış veya parçalanmış kaya ve kil bantları veya zonları (Kil özelliklerinin tanımı için G,H,J koşullarına bkz.)                                              | 6°-24°                                                                              | 6-8, 8-12                                                                           |
+| N.                                                                                  | Silt veya kum boyutunda killerden oluşan bantlar veya zonlar, kil içeriği az (yumuşamayan)                                                                        |                                                                                     | 5                                                                                   |
+| O-  P-  R                                                                           | Kalın sürekli kil bantları veya zonları (kil özelliklerinin tanımı için G,H,J koşullarına bakınız.                                                                |                                                                                     | 10-13                                                                               |
+
+| **Çatlak Suyu İndirgeme Faktörü**                                                             |                                                                                               | **Su Basıncı kg/cm2**                                                                         | **Jw**                                                                                        |
+|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| A.                                                                                            | Kuru kazılar veya yer yer az su geliri, lokal olarak 5lt/dak                                  | < 1                                                                                           | 1                                                                                             |
+| B.                                                                                            | Orta miktar su geliri, veya su basıncı, dolgu yer yer su ile yıkanıp akarak boşalabilir.      | 1-2,5                                                                                         | 0,66                                                                                          |
+| C.                                                                                            | Kendi kendini tutabilen kayalarda dolgusuz çatlardan çok miktarda su geliri veya basıncı      | 2,5-10                                                                                        | 0,5                                                                                           |
+| D.                                                                                            | Çok miktarda su geliri veya basıncı, dolgu tümüyle yıkanarak akmış                            | 2,5-10                                                                                        | 0,33                                                                                          |
+| E.                                                                                            | Patlama ile ortaya çıkıp zamanla azalan çok aşırı su geliri veya basıncı                      | > 10                                                                                          | 0,2-0,1                                                                                       |
+| F.                                                                                            | Zamanla azalmayan çok aşırı su geliri veya su basıncı                                         | > 10                                                                                          | 0,1-0,05                                                                                      |
+| i. C ve F' deki faktörler gözlemle kabaca tahmin edilir. Drenaj sağlanırsa Jw artırılmalıdır. | i. C ve F' deki faktörler gözlemle kabaca tahmin edilir. Drenaj sağlanırsa Jw artırılmalıdır. | i. C ve F' deki faktörler gözlemle kabaca tahmin edilir. Drenaj sağlanırsa Jw artırılmalıdır. | i. C ve F' deki faktörler gözlemle kabaca tahmin edilir. Drenaj sağlanırsa Jw artırılmalıdır. |
+| ii. Suyun donması, buz oluşumu gibi özel problemler dikkate alınmamıştır.                     | ii. Suyun donması, buz oluşumu gibi özel problemler dikkate alınmamıştır.                     | ii. Suyun donması, buz oluşumu gibi özel problemler dikkate alınmamıştır.                     | ii. Suyun donması, buz oluşumu gibi özel problemler dikkate alınmamıştır.                     |
+
+Çizelge 3.13 Q sınıflamasında gerilme indirgeme faktörü SRF değerleri
+
+| **Gerilme İndirgeme Faktörü**                                                                        |                                                                                                                                | **Oc /**  **Oı**   | **Ot / Ol**   | **SRF**   |
+|------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|--------------------|---------------|-----------|
+| a. Kazıyı kesen, tünel kazısı yapıldığında kaya kütlesinde gevşemelere neden olabilecek zayıf zonlar | a. Kazıyı kesen, tünel kazısı yapıldığında kaya kütlesinde gevşemelere neden olabilecek zayıf zonlar                           |                    |               |           |
+| A.                                                                                                   | Kil içeren veya kimyasal ayrışmaya uğramış birden fazla zayıflık zonu, çok gevşemiş kaya kütlesi                               |                    |               | 10        |
+| B.                                                                                                   | Kimyasal ayrışmaya uğramış kaya veya kil içeren tek zayıflık zonu (kazı derinliği>50m)                                         |                    |               | 5         |
+| C.                                                                                                   | Kimyasal ayrışmaya uğramış kaya veya kil içeren tek zayıflık zonu                                                              |                    |               | 2,5       |
+| D.                                                                                                   | Kendi kendini tutabilen ve kil içermeyen kayada birden fazla makaslama zonu, kaya kütlesinde gevşeme (herhangi bir derinlikte) |                    |               | 7,5       |
+| E.                                                                                                   | Kendi kendini tutabilen ve kil içermeyen kayada birden fazla makaslama zonu                                                    |                    |               | 5         |
+| F.                                                                                                   | Kendi kendini tutabilen ve kil içermeyen kayada tek makaslama zonu ( kazı derinliği > 50 m)                                    |                    |               | 2,5       |
+| G.                                                                                                   | Gevşek, açık (dolgusuz) çatlaklar, çok çatlaklı veya küp şeker ( herhangi bir derinlikte )                                     |                    |               | 5         |
+
+i. Makaslama zonlarının kazıyı kesmediği fakat etkilediği durumlarda SRF değerleri %25-50
+
+| oranında azaltılır.                                                                               | oranında azaltılır.                                                                                                                   | oranında azaltılır.   | oranında azaltılır.   | oranında azaltılır.   |
+|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------|-----------------------|-----------------------|
+| b. Sağlam kayada kaya gerilmesi problemleri                                                       | b. Sağlam kayada kaya gerilmesi problemleri                                                                                           |                       |                       |                       |
+| H.                                                                                                | Az derinlikte kazı, düşük gerilme koşulları, açık çatlaklar                                                                           | &gt;  200             | < 0,01                | 2,5                   |
+| I.                                                                                                | Orta derecede kaya gerilmesi koşulları                                                                                                | 200  10               | 0,01-0,3              | 1                     |
+| J.                                                                                                | Yüksek gerilme, çok sıkı yapısal unsurlar, gerilme koşulları genellikle elverişli, fakat duvarlarda stabilite problemleri oluşabilir. | 10-5                  | 0,3-0,4               | 0,5-2                 |
+| K.                                                                                                | Masif kayada orta derecede, kabuk şeklinde kaya parçası ayrılması ( kazıdan sonraki 1 saat içerisinde)                                | 5-3                   | 0,5-0,65              | 5,50                  |
+| L.                                                                                                | Masif kayada kazıdan hemen sonraki dakikalarda aşırı derecede, kabuk şeklinde parça ayrılması veya kaya patlaması oluşumu             | 3-2                   | > 1                   | 50  200               |
+| M.                                                                                                | Masif kayada şiddetli kaya patlaması ve ani dinamik deformasyonlar                                                                    | <2                    | > 1                   | 200  400              |
+| c. Sıkışan kaya; kendi kendini tutamayan kayanın yüksek gerilme altında plastik akma deformasyonu | c. Sıkışan kaya; kendi kendini tutamayan kayanın yüksek gerilme altında plastik akma deformasyonu                                     |                       |                       |                       |
+| N.                                                                                                | Sıkışan kayaçta orta derecede gerilme koşulları                                                                                       |                       | 1,5                   | 5-10                  |
+| O.                                                                                                | Sıkışan kayaçta aşırı gerilme koşulları                                                                                               |                       | > 5                   | 10-20                 |
+| P.                                                                                                | Şişen kayaçta orta derecede gerilme koşulları                                                                                         |                       |                       | 5-10                  |
+| R.                                                                                                | Şişen kayaçta aşırı gerilme koşulları                                                                                                 |                       |                       | 10-20                 |
+
+Q sistemi yardımıyla, kaya sı nı flandırmasının yanı sıra yeraltı mühendislik yapı larında kullanılacak destekleme tipleri konusunda öneriler yapılabilmektedir. Bu konuyla ilgili açıklamalar bölüm 5'te verilmiştir.
+
+##### 22 RMR Kaya Sınıflama Sistemi (Rock Mass Rating)
+
+RMR (Rock Mass Rating) Güney Afrika'da 1973 yılında Bieniawski tarafından geliştirilip 1973, 1974, 1976, 1979, 1988 ve 1989 yıllarında yenilenerek günümüzde kullanılan şeklini almıştır. Bu kaya kütlesi mühendislik sınıflaması her biri sondaj karotları ve arazideki ölçümlerden elde edilebilen altı parametreye bağlıdır. Bu parametreler:
+
+• Sağlam kaya numunesinin tek eksenli basınç direnci,
+
+• Sondaj karotlarından elde edilen RQD değeri,
+
+• Eklem sı kl ı ğ ı ,
+
+- Eklemlerin durumu,
+- Yeraltı suyu,
+- Eklemlerin yönlenimi.
+
+Geomekanik sınıflamaya başlamadan önce tüneller güzergahlar boyunca jeolojik özelliklere bağlı olarak bölümlere ayrılır. Sınıflama sisteminin parametreleri her bir jeolojik bölgede yapılan ölçümler sonucu belirlenir.
+
+Geomekanik sınıflamaya ait ilk 5 parametre Çizelge 3.14'de farklı nisbi değerlere bağlı olarak 5 gruba ayrılır. Buna göre oranın yüksek olması kaya kütlesi kalitesinin daha yüksek olması demektir.
+
+Sınıflandırma parametrelerinin değerlendirilmesi yapıldıktan sonra, Çizelge 3.14' de listelenen beş parametreye ait değerler göz önüne alınarak bölgedeki kaya kütlesinin değerlendirilmesi için alt alta toplanır.
+
+Çizelge 3.15' de süreksizliklerin doğrultu ve eğimleri değerlendirilmektedir. Süreksizliklerin doğrultu ve eğimleri farklı mühendislik uygulamaları (tüneller, temeller, madencilik, şevler v.s.) için farklı önem taşıdıklarından ayrı ayrı değerlendirilir.
+
+Süreksizlik yönlenimlerine bağlı düzeltmeler de yapıldıktan sonra, kaya kütlesi Çizelge 3.16‘ya göre sınıflandırılır ve kaya kütlesinin 5 gruptan hangisinin içinde olduğu belirlenir.
+
+Kaya kütlesi sınıflaması ile mühendislik problemleri arasında ilişki kurulabilir. Tünelcilik ve yeraltı açıklıklarında geomekanik sınıflamadan elde edilen değerler yardımıyla tahkimatsız olarak ayakta kalabilme süresi ve maksimum duraylı (stabil) tavan açıklığı belirlenebilir. Bu konuyla ilgili açıklama bölüm 5' te yer almaktadır.
+
+Çizelge 3.14 RMR sınıflandırma parametreleri ve dereceleri (A)
+
+| **1**   | **Sağlam**  **kayanın**  **mukavemeti**   | Uç-yük  mukavemet  indeksi         |                                    | > 8 MPa                                                     | 4-8 MPa                                           | 2-4 MPa                                               | 1-2 MPa                                                                         | Tek eksenli basınç dayanımı  deneyine göre                          |                                                                     |                                                                     |
+|---------|-------------------------------------------|------------------------------------|------------------------------------|-------------------------------------------------------------|---------------------------------------------------|-------------------------------------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
+|         |                                           | Tek eksenli basınç dayanımı        | Tek eksenli basınç dayanımı        | > 200 Mpa                                                   | 100-200  Mpa                                      | 50-100  Mpa                                           | 25-50  Mpa                                                                      | 10  25  Mpa                                                         | 3-10  Mpa                                                           | 1-3  Mpa                                                            |
+|         | Derecelendirme                            | Derecelendirme                     | Derecelendirme                     | 15                                                          | 12                                                | 7                                                     | 4                                                                               | 2                                                                   | 1                                                                   | 0                                                                   |
+| **2**   | **RQD**                                   |                                    |                                    | %90-100                                                     | %75-90                                            | %50-75                                                | %25-50                                                                          | <%25                                                                | <%25                                                                | <%25                                                                |
+|         | Derecelendirme                            | Derecelendirme                     | Derecelendirme                     | 20                                                          | 17                                                | 13                                                    | 8                                                                               | 3                                                                   | 3                                                                   | 3                                                                   |
+| **3**   | **Eklem sıklığı**                         |                                    |                                    | >3m                                                         | 1-3m                                              | 0.3-1m                                                | 50-300m                                                                         | <50mm                                                               | <50mm                                                               | <50mm                                                               |
+|         | Derecelendirme                            | Derecelendirme                     | Derecelendirme                     | 30                                                          | 25                                                | 20                                                    | 10                                                                              | 5                                                                   | 5                                                                   | 5                                                                   |
+| **4**   | **Eklem durumu**                          |                                    |                                    | Çok kaba yüzey, sürekli değil ayrılma yok eklemli sert kaya | Az kaba yüzeyler <1mm açıklıklı Eklemli sert kaya | Az kaba yüzeyler <1 mm açıklıklı Eklemli yumuşak kaya | Sürtünme izli yüzey veya fay kili<5mm veya 1-5mm açık eklemler sürekli eklemler | Yumuşak fay kili>5mm kalın veya açık eklemler >5mm sürekli eklemler | Yumuşak fay kili>5mm kalın veya açık eklemler >5mm sürekli eklemler | Yumuşak fay kili>5mm kalın veya açık eklemler >5mm sürekli eklemler |
+|         | Derecelendirme                            | Derecelendirme                     | Derecelendirme                     | 25                                                          | 20                                                | 12                                                    | 6                                                                               | 0                                                                   | 0                                                                   | 0                                                                   |
+| **5**   | **Yeraltı suyu**                          | Tünelin 10m'lik kısmından gelen su | Tünelin 10m'lik kısmından gelen su | Yok                                                         | Yok                                               | &lt;25  litre/dak.                                    | 25-125 litre/dak                                                                | &gt;125  litre/dak                                                  |                                                                     |                                                                     |
+|         |                                           | Oran                               | Eklemdeki su basıncı               | 0                                                           | 0                                                 | 0.0-0.2                                               | 0.2-0.5                                                                         | >0.5                                                                | >0.5                                                                | >0.5                                                                |
+|         |                                           | Oran                               | Ana  asal  gerilme                 | 0                                                           | 0                                                 | 0.0-0.2                                               | 0.2-0.5                                                                         | >0.5                                                                | >0.5                                                                | >0.5                                                                |
+|         |                                           | Genel  koşullar                    |                                    | Tamamen kuru                                                | Tamamen kuru                                      | Yalnızca  nemli  (kırıklardaki  su)                   | Orta basınç altı nda su                                                         | Önemli su problemleri                                               | Önemli su problemleri                                               | Önemli su problemleri                                               |
+|         | Derecelendirme                            | Derecelendirme                     | Derecelendirme                     | 10                                                          | 10                                                | 7                                                     | 4                                                                               | 0                                                                   | 0                                                                   | 0                                                                   |
+
+| Eklemlerin Doğrultu ve Eğim Yönleri   | Eklemlerin Doğrultu ve Eğim Yönleri   |   Çok  Uygun |   Uygun |   Orta |   Uygun  Değil |   Hiç Uygun değil |
+|---------------------------------------|---------------------------------------|--------------|---------|--------|----------------|-------------------|
+| Dereceleme                            | Tüneller                              |            0 |      -2 |     -5 |            -10 |               -12 |
+| Dereceleme                            | Temeller                              |            0 |      -2 |     -7 |            -15 |               -25 |
+| Dereceleme                            | Şevler                                |            0 |      -5 |    -25 |            -50 |               -60 |
+
+Çizelge 3.16 (A) ve (B)'den elde edilen RMR değerleri ve kaya sınıfları
+
+| Derece toplam (RMR)   | 81-100       | 61-80    | 41-60     | 21-40      | <20            |
+|-----------------------|--------------|----------|-----------|------------|----------------|
+| Kaya sınıfı           | I            | II       | III       | IV         | V              |
+| Tanımlama             | Çok iyi kaya | İyi kaya | Orta kaya | Zayıf kaya | Çok zayıf kaya |
+
+Açılan tünellerin gözlenmesi sonucu kazanılan deneyimlere dayandığından amprik yöntemlerde kaya kütlesinin kalitesi ve duraylılığı sınıflandırılarak önceden benzer nitelikteki kaya ortamlarda denenmiş destek sitemlerine geçilir **.** Yaygın olarak kullanılan kaya sınıflama yöntemleri Barton' un geliştirdiği Q sistemi ve Bieniawski' nin geliştirdiği RMR (Rock Mass Rating) Geomekanik Sınıflamadır. Tünel geçkisinin yer aldığı kayanın niteliği, çatlak sistemi ve koşulları, yeraltı suyunun bulunması gibi özelliklerini sayısal olarak değerlendirerek sınıflandıran bu sistemlerin yanısıra, kayanın tüm davranış özelliklerini bir bütün olarak tanımlayan ve NATM sınıflaması olarak anılan ÖNORM B-2203 sınıflaması da, özellikle Avrupa ülkelerinde yaygın olarak kullanılmaktadır. Tünel açımı sırasında yapılacak gözlemlere ve deformasyon ölçümlerine dayanarak denetlenen NATM sınıflaması, Bieniawski' nin belirttiği ve Lauffer' in de katıldığı gibi, Q ve RMR sınıflamalarını tamamlar niteliktedir [14].
+
+##### 23 YENİ AVUSTURYA TÜNEL AÇMA YÖNTEMİ (NATM)
+
+##### 24 Kayalarda Gerilme Durumu
+
+Modern yeraltı kaya yapıları mekaniği anlayışına göre yeraltı açıklığını çevreleyen kayaçlar bir yandan tüneli yüklemekte, öte yandan da komşu bölgelerden gelen yükleri taşımaktadır. Tüneli zorlayan bu gerilmelerin ortaya çıkarılması ve anlaşılması, projelendirmede olduğu kadar uygulama sırasında da en önemli konular arasındadır. Çizelge 4.1'de tünel projelerinde dikkate alınması gereken gerilme türleri ve kaynakları gösterilmiştir.
+
+Bunlardan ilk ikisi primer (doğal, ilkel) gerilme durumunu oluşturmaktadır. Yeraltı kazısıyla birlikte ilk gerilme ortamı bozulmaktadır. Böylece; mevcut gerilmeler kayacın gevşemesine bağlı olarak yer, yön ve şiddet değiştirek zamanla ikincil (sekonder) gerilmelere dönüşmektedir.
+
+Kazının tamamlanması ile birlikte, ideal-elastik malzeme özelliğindeki kayada ikincil gerilme-deformasyon durumunun son şeklini alması beklenmektedir. Fakat arazi ölçümleri kazı dolayındaki deformasyonların zamana bağlı olarak ve farklı hızlarda geliştiğini kanıtlamaktadır.
+
+Çizelge 4.1 Tünel projelerinde dikkate alınması gereken gerilme türleri ve kaynakları
+
+|                                        | **GERİLME**   | **TÜRLERİ**                 |
+|----------------------------------------|---------------|-----------------------------|
+|                                        |               |                             |
+| **Kayaç örtüsünün kalınlığına bağlı**  |               | **LİTOSTATİK GERİLMELER**   |
+|                                        |               |                             |
+|                                        |               | **TEKTONİK GERİLMELER**     |
+|                                        |               |                             |
+| **Kayaçların gevşemesine bağlı**       |               | **PSÖDOPLASTİKLEŞME**       |
+|                                        |               |                             |
+| **Kimyasal-fiziksel kökenli genleşme** |               | **KABARMA-ŞİŞME**           |
+|                                        |               |                             |
+|                                        |               | **YAPAY ETMEN GERİLMELERİ** |
+|                                        |               |                             |
+|                                        |               | **HİZMET GERİLMELERİ**      |
+
+İkincil gerilmelerin dağılımı sırasında boşluk çevresinde oluşan yeni gerilmelerin şiddetlerine ve kayanın dokusuna bağlı olarak “kemerlenme” adı verilen yüklerin yoğunlaştığı bölgeler meydana gelmektedir.
+
+Tünel açılırken kaya kütlesindeki denge halindeki birincil (primary) kuvvetler, değişerek yine denge durumundaki ikincil (secondary) hale dönüşürler. Bu ancak gerilmelerin yeniden dağılması sürecinin başarılı bir geçiş dönemi ile sağlanabilir. Yeni Austurya Tünel Açma Yöntemi, ekonomiklik ve güvenlik gibi konuları gözönünde bulundurarak bu geçis dönemini kontrol altında tutmayı amaçlar [1, 15].
+
+##### 25 Tarihçe
+
+Bu yüzyılın ortasına kadar geleneksel tünelcilikte, kalıcı tünel destek sistemleri yerleştirilinceye kadar ahşap destek ve çelik ark destek sistemleri kullanılmıştır. Hidroelektrik santrallerin yapımı sırasında uygulanan bölünmüş kazı yönteminde, önce inverte yakın bir galeriyle kazıya başlanır daha sonra yan ve üst galerilerle kazı aşamalı olarak üst yarıya doğru genişletilirdi. Bu yönteme Avusturya Tünel Açma Yöntemi denilirdi. Bu yöntemin zamanla geliştirilmesi ve eski yöntemin tecrübelerinden yararlanılarak NATM ortaya çıkmıştır [8, 16].
+
+1957-1965 yılları arasında geliştirilen bu tünel yapım metodu Rabcewicz tarafından Koruyucu Zon teorilerinin derlenmesiyle 1963 yılında NATM adıyla ortaya konulmuştur. Yöntem bilimsel ve ampirik bir yöntemdir.
+
+Yöntem birçok araştırmacı tarafından farklı yönleriyle incelenmiştir. NATM metodu kullanılarak yapılan ilk büyük ölçekli tünel Rabcewicz tarafından Venezula'da yapılmıştır [1, 10, 11].
+
+##### 26 Tanımlar ve İlkeler
+
+Yeni Avusturya Tünel Açma Yöntemi (NATM) esasen bir kaya sınıflama sistemi olmayıp tünel inşaası sırasında yeraltı kazılarının performansını gözleyen ve yük altındaki kaya kütlesinin davranışının prensiplerini içeren bir yaklaşım veya felsefe dir.
+
+Bu nedenle NATM kesin olarak belirlenmiş kazı ve tahkimat sistemlerini içermemektedir. Ancak, en duraylı ve ekonomik tahkimat miktarının elde edilmesi için tahkimatın sürekli olarak gözden geçirilmesi ve kaya hareketlerinin gözlenmesi esas olmak kaydıyla tünelcilik ve kazı yöntemlerinin hepsi kullanılabilir [11].
+
+Yöntem; özellikle duraysız (zayıf) zeminlere adapte edilen, ince bir püskürtme beton tabakasıyla yüzey sağlamlaştırması yapılan, kaya bulonları yardımıyla sağlamlaştırılan ve mümkün olduğu kadar kısa bir süre içersinde ters kemer betonu ile kaplanan yeni bir tünelcilik yöntemidir [10, 17].
+
+Tünelin açılmasıyla kaya kütlesi içerisindeki birincil (primary) gerilme bölgesi ikincil (secondary) gerilme bölgesine doğru değişim gösterir. Tünel etrafındaki kaya arkının altındaki bölgelerde zamana bağlı olarak gerilmenin tekrardan dağılması süreci oluşur. Bu durum plastik ve elastik davranış bölgelerini kapsar.
+
+Bu yöntemin ilk ve en önemli ilkesi; kayanın mukavemetini korumak ve harekete geçirmek, tünel çevresindeki kayada kendisini destekleyen bir halka oluşturmaktır. Ön sağlamlaştırma, kayanın kendini desteklemesine yardımcı olması için oluşturulur. Bunun için ön sağlamlaştırmanın uygun bir yük-deformasyon özelliğinin olması ve tam zamanında yerleştirilmesi gerekir. NATM'ın ikinci ilkesi, tüneldeki deformasyonların ve kaplamada biriken gerilimlerin aletlerle ölçülmesidir. NATM'ın üçüncü ilkesi; karar verip, anlaşmazlıkları çözerken de, tünel işi ile ilgili bütün tarafların tam bir işbirliği içinde bulunmaları gereğidir. NATM'ın dördüncü ilkesi; her türlü tünel şartına uygun olması ve tünelde, mevcut şartlara göre kolaylıkla uygulanabilmesidir. Bu özelliği NATM'ın bir kazı veya sağlamlaştırma yöntemi değil de bir felsefe olmasının gereğidir [10].
+
+NATM sisteminin temel ilkeleri 22 maddede toplanarak Müller tarafından 1977 yılında yayınlanmıştır. Bu yayının çevirisi 1979 yılında Vardar tarafından yapılmıştır. NATM, prensipte her türlü arazi koşullarında uygulanabilecek önlem, iş ve işlemlerin optimizasyonuna yönelik bir tünelcilik felsefesinin adı olarak tanımlanmıştır [18].
+
+Göreceli olarak üniform jeoloji yapıya sahip bölgelerde kaya kalitesinin sayılarla ifade edildiği ve kaya kütle davranışının formülle tahmin edildiği kaya sınıflama sistemleri geliştirilirken, jeolojik yapının büyük değişkenlikler gösterdiği bölgelerde NATM gibi esnek yapım metotları ve kazı sırasında kaya davranışını esas alan kaya sınıflama yöntemlerine ihtiyaç duyulmuştur.
+
+Son yıllarda NATM'a göre inşa edilen tünellerde kullanılan kaya sınıflama yöntemi kazı sırasında karşılaşılan kayanın geoteknik özellikleri ve tünel yapımı sırasında davranışını kaya parametreleri, örtü yükü, kazı kesiti, ilerleme adımı boyu, kazı sırası yeraltı suyu ve geoteknik ölçüm sonuçlarını dikkate alarak tanımlar [10].
+
+##### 27 Yeni Avusturya Yönteminde Önorm B 2203/1994'e Göre Yinelenmeli (Sıralı) Ve Sürekli (Makinalı) Kazılar İçin Kaya Davranışı
+
+NATM'de kaya sınıfları kayanın davranışına bağlı olarak üç ana grupta toplanmıştır. Her bir
+
+kaya grubunun kendi içindeki alt gruplarını (A1, A2, B1, B2, B3, C1, C2, C3, C4, C5) ayırt
+
+edici özellikler tanımlanmıştır.
+
+Bilindiği gibi; kazı ve ilerleme anolarının dört boyutta (en kesitte, ilerleme yönünde ve zamanlamada) belirlenmesi ve sağlamlaştırma ve destekleme türlerinin seçimi, nitelikleri, sayısı ve boyutları yararlanılan geoteknik veri ve bilgilerin doğruluğuna bağlıdır. Bu bakımdan, Yeni Avusturya Yöntemini öneren planlama ve projelerde kazı öncesi, sırası ve sonrasında ölçüm, gözlem ve yönlendirme çalışmaları birincil ağırlık taşımaktadır.
+
+##### 28 A “Sağlam” - “zamanla kırılgan” davranışlı kayaçlar
+
+Bu ortamlarda genelde kazı sırasındaki zorlamalar nedeniyle kırılmalar olmaz. A1 ve A2 olmak üzere iki alt sınıfı vardır.
+
+##### 29 A1 Sağlam Kayaçlar
+
+Çok kısa sürede sonlanan çok az deformasyon olur. Belirgin süreksizlik olmayan masif kaya görünümündedir. Deformasyonlar çok küçük ve mm mertebesindedir. Kavlakların temizlenmesinden sonra hiçbir sökülme oluşmaz. Su etkisi yoktur. Tünelin desteksiz olarak ayakta durabileceği süre (duraysızlık süresi) 3 haftadan fazladır. Sıralı kazıda destekleme gerekmez. İlerleme adımlarının uzunluğu ilke olarak çalışma tekniğince kısıtlanır. Sürekli kazıda destekleme gerekmez.
+
+##### 30 A2 Zamanla Kırılgan Davranış Gösteren Kayaçlar
+
+Çok kısa sürede sonlanan düşük deformasyonlar görülür. Deformasyonlar çok küçük ve mm mertebesindedir. Tünel tavanında ve yan duvarların üst kısımlarında süreksizliklerin konumu nedeniyle sığ sökülmeler ve kamasal kopmalar olma eğilimi vardır. Yenilme zonu yoktur. Su etkisi önemsizdir. Kamasal kopma eğilimi olan bölgelerde lokal tekil bulonlama, asimetrik yükleme ve sığ örtü kalınlığı olan tünel kesitlerinde projesinde gösterildiği şekilde lokal sistematik bulonlama yapılabilir. Patlatma yumuşak patlama yöntemi ile yapılmalı, ilerleme adımı üst yarıda 2,5 - 3,5 m, alt yarıda 4 m ile sınırlı tutulmalıdır.
+
+Tünelin desteksiz olarak ayakta kalabileceği süre 4 gün ile 3 hafta arasındadır. Sıralı kazıda destekleme tavanda, omuzlarda ve üst yanlarda yer yer, tekil parçaların güvenceye alınması için gerekir. İlerleme adımlarının uzunluğuna aşırı sökülmelerin kısıtlanması amacıyla sınırlama getirilir. Sürekli kazıda destekleme tavanda, omuzlarda ve üst yanlarda yer yer, tekil parçaların güvenceye alınması için gerekir. Destekleme ve sağlamlaştırma işlemleri ayna önündeki ikinci çalışma bölgesinde gerçekleştirilir.
+
+##### 31 B “Kırılgan” Davranışlı Kayaçlar
+
+Bu kayaç sınıfı süreksizliklere bağlı doku dayanımının ve/veya gerilme kemerlenmesinin yetersizliği nedeniyle gevşemeye yatkın ortamları kapsar. B1, B2 ve B3 olmak üzere üç altsınıfa ayrılır.
+
+##### 32 B1 Kırılgan Kayaçlar
+
+Çok kısa sürede sonlanan düşük deformasyonlar, süreksizliklere bağlı dayanım azalması vardır. Patlatma sarsıntıları gevşemelere ve tavanda veya üst omuzlarda sökülmelere neden olur. Deformasyonlar 2-3 cm civarındadır ve hızlı azalır ve tamamlanırlar. Su etkisi genellikle önemsizdir. Üst yarıda sistematik bulonlama, alt yarıda gerektiğinde lokal bulonlama yapılır. Patlatma yumuşak patlatma yöntemi ile yapılmalı, ilerleme adımı üst yarıda 2-3 m alt yarıda 4 m ile sı n ı rlanmalı d ı r. Tünelin desteksiz olarak ayakta durabileceği süre 4 gün ile 10 saat arasındadır. Sıralı kazıda destekleme düzenli olmakla birlikte dar kapsamlıdır. İlerleme adımları, tünelin desteksiz olarak ayakta durabileceği süreye, serbest açıklık boyuna ve sağlamlaştırma ve destekleme elemanlarının oluşturulması için gereken süreye bağlı olarak belirlenir. Yer yer aynanın desteklenmesi gerekebilir. Sürekli kazıda B1.1 ve B1.2 olmak üzere yeniden iki alt sınıf tanımlanmıştır:
+
+**B1.1:** Düzenli fakat dar kapsamlı destekleme tavanda, omuzlarda ve üst yanlarda ayna öncesindeki 2. çalışma bölgesinde makineli kazıyı engellemeksizin gerçekleştirilir. Tünelin desteksiz olarak ayakta durabileceği süre 4 gün ile 2 gün arasındadır.
+
+**B1.2:** Tavanda, omuzlarda ve üst yanlarda düzenli ve dar kapsamlı destekleme 1. ve 2. çalışma bölgesinde gerçekleştirilir. Kazı makinesinin çalışmaları destekleme ve sağlamlaştırma önlemlerinin alınması sırasında kısıtlanır. Tünelin desteksiz olarak ayakta durabileceği süre 2 gün ile 10 saat arasındadır.
+
+##### 33 B2 Çok Kırılgan Kayaçlar
+
+Çok kısa sürede sonlanan düşük deformasyonlar, süreksizliklere bağlı dayanım azalması, düşük kemerlenme, yüksek doku hareketliliği belirgindir. Patlatmaların etkisiyle desteklenmemiş yüzeylerden parçaların kopması gibi hızlı ve derine ulaşan gevşemeler oluşur. Bozunmuş kayada su akışı ile birlikte sınırlı yenilme bölgeleri oluşur. Desteklemenin zamanında yapılması durumunda deformasyonlar 3-5 cm civarında kalır. Tünel kesitinde sistematik destekleme yapılır, gerektiğinde tavanda süren uygulanır. Patlatma yumuşak patlatma yöntemi ile yapılmalı, ilerleme adımı üst yarıda 2-2,5 m, alt yarıda 3,5 m ile sınırlanmalıdır. Tünelin desteksiz olarak ayakta durabileceği süre 10 saat ile 2 saat arasında, hatta daha kısadır. Sıralı kazıda destekleme tavanda, omuzlarda ve yanlarda düzenli ve çoğun aynayı da içerecek şekilde geniş kapsamlıdır. Parçalı kazı kesitleri gerekir. İlerleme adımları tünelin desteksiz olarak ayakta durabileceği süre süresine ve serbest açıklık boyuna göre belirlenir ve ayna sürekli olarak desteklenir. Sürekli kazıda B2.1 ve B2.2 olmak üzere yeniden iki alt sınıf tanımlanmıştır:
+
+**B2.1:** Kazı kafasının hemen arkasından başlamak üzere düzenli destekleme gerçekleştirilir. İlerleme hızını bu çalışmaların gerektirdiği süre belirler. Frezeli makine kullanılıyorsa parçalı kazı yapılır. Tünelin desteksiz olarak ayakta kalabileceği süre 10 - 5 saat arasındadır.
+
+**B2.2:** Kazı kafasının hemen arkasında ön çalışma bölgesini (1.bölgeyi) çepeçevre saracak şekilde düzenli destekleme gerekir. İlerleme hızını bu çalışmaların gerektirdiği süre belirler. Frezeli makine kullanılıyorsa parçalı kazı yapılır 1. ve 2. çalışma bölgesinde gerçekleştirilir. Tünelin desteksiz olarak ayakta durabileceği süre ayna desteklenmeksizin 2 - 5 saat
+
+arasındadır.
+
+##### 34 B3 Döküntülü Kayaçlar
+
+Küçük parçalı kazı kesitlerinin kazılmasında bile kayaç parçaları içeriye dökülür. Stabilite yetersizliğinin nedeni, kohezyonun ve kayaç dokusundaki kenetlenmenin azlığı ve su etkisidir. Deformasyonlar 10 cm' ye kadar çıkabilir. Gevşeme zonu derinlikleri artar. Tünel kesitinde sistematik destekleme, yerel süren uygulaması yapılabilir. Patlatma genellikle yumuşak patlatma ile yapılmalı, titreşime hassas kayalarda mekanik kazı yapılmalı, ilerleme adımı üst yarıda 1,5-2 m, alt yarıda 3 m ile sınırlanmalıdır.
+
+B3 kaya sınıfında invert uygulanması, düşük örtü kalınlığı, asimetrik yükleme, geoteknik ölçümlerle belirlenen deformasyonların sonlanmayarak devam etmesi ve 10 cm'yi aşması
+
+durumunda ringin kapanmayarak yük dağılımının dengelenmesi amacı ile yapılmalıdır.
+
+B grubu gevrek kayaların A ve C grubu kayalardan ayırt edici özelliği, kayanın yapısal olarak kırılganlığı ve kazı geometrisine bağlı olarak patlatmadan sonra gevşemesi ve taneli yapıya dönüşerek kazı çevresinde istenmeyen ani deplasmanlara ve yüklemelere sebebiyet vermesidir. Bu nedenle B1'den B3'e geçişlerde geoteknik ölçümlerle birlikte projesinde öngörülen desteklemelere ve ilerleme adımlarına uyulmalıdır.
+
+Sıralı kazıda; aynanın ön sürenlerle desteklenmesi, çok parçalı kazıda çalışabilmek için bile kayaç niteliğini iyileştirici ve stabiliteyi arttırıcı önlemlerin alınması gereklidir. Aynayı da kapsamak üzere tüneli çepeçevre saracak şekilde düzenli ve yoğun bir destekleme gerekir. Sürekli kazıda şiltsiz makinalar ancak ön sağlamlaştırma gibi çok özel önlemlerin alınmış olduğu durumlarda kullanılabilir. Tünelin desteksiz olarak ayakta durabileceği süre 2 saatten daha azdır.
+
+##### 35 C “Plastik” Davranış Gösteren Kayaçlar
+
+Bu kayaç sınıfı kayaç dayanımın önemli ölçüde aşıldığı ortamları kapsar. Kaya patlaması ve belirgin şişme - kabarma davranışının görüldüğü kayaçlar da bu sınıfa girer. C1, C2, C3, C4 ve C5 olmak üzere beş altsınıfı vardır. C1 sınıfı, kaya patlaması olan kaya kütlelerini tanımlar ve 1994 yılında ÖNORM B 2203'ün revize edilmesi ile belirlenen bir kaya sınıfıdır. C2 kaya baskılı, C3 kaya çok baskılı, C4 akıcı ve C5 şişen kabaran kaya sınıfıdır.
+
+##### 36 C1 Kaya Patlamalı Kayaçlar
+
+Primer (doğal) gerilmeler genelde yoğun, sert ve kırılgan kayaçlarda elastik enerji olarak depolanır. Kazı sırasında bu enerji birdenbire boşalır ve kayaç parçalarının koparak fırlamasına neden olur. Kırılma olaylarının derinlere ulaşmadığı serbest kazı yüzeylerinden dışarıya fırlatılan bu parçalar çoğunlukla sırçalanmış şekildedir.
+
+Bu tip kayalarda delgi ve boşalma patlamaları ile gerilme boşalımı yapılabilir sık
+
+yerleştirilmiş kısa bulonlarla destekleme yapılır. Taban kemeri gerekebilir. Kazı yumuşak
+
+patlatma ile veya mekanik kazı ile yapılmalı, ilerleme adımı üst yarıda 1,5 - 2 m, alt yarıda 3 m ile sınırlanmalıdır.
+
+Sıralı kazıda; destekleme çoğun belirli bölgelerde hemen ve oldukça sık yerleştirilmiş kısa kaya saplamalarıyla yapılır. Gerektiğinde çelik hasır da kullanılır. Kayadaki gerilmelerin boşaltılması için gevşetme delikleri açılabilir veya patlatma ile ortam gevşetilebilir. Sürekli kazıda 1. çalışma bölgesinde sık aralıklarla kısa kaya saplamaları ve gerektiğinde çelik hasır kullanılır. Makinalı kazı bundan fazlaca etkilenmez.
+
+##### 37 C2 Plastik Davranış Gösteren Kayaçlar
+
+Uzun süreli, çok yavaş sonlanan deformasyonlar belirgindir. Plastik ve yüksek kohezyonlu kayaçlarda yenilme mekanizmaları ve plastikleşme bölgeleri gelişir. Bu tip kayalarda, kaya kütlesinde oluşan aşırı gerilmeler nedeniyle kayanın kayma dayanımı aşılır. Tünel kesiti çevresinde geniş plastik zonlar oluşur, C2'de orta mertebede uzun süren ve yavaş son bulan deformasyonlar oluşur. Deformasyon miktar ve hızları, yenilme bölgelerinin genişliği jeolojik koşullara, arazi gerilmelerine, yeraltı suyu durumuna, boşluk suyu basıncına ve kaya kütle özelliklerine bağlıdır.
+
+Sıralı kazıda; destekleme ve sağlamlaştırma bütün kesiti kaplayacak şekilde düzenli olarak yapılır. Aynada kazı kesiti ve biçiminin, stabilitenin korunması ve arttırılmasına yardımcı olacak şekilde seçilmesi gerekir. Sağlamlaştırma işlemlerinin hedefi yenilme mekanizmalarını denetleyerek kırılmaları sınırlandırmaktır. Atım-ilerleme boyu aynadaki stabiliteye göre belirlenir. Sürekli kazıda C2.1 ve C2.2 olmak üzere iki alt sınıf tanımlanmıştır:
+
+**C2.l:** Destekleme düzenli ve kapsamlı şekilde 1 ve 2. çalışma bölgesinde tavanda, omuzlarda ve yanlarda kademeli olarak gerçekleştirilir. Bu çalışmalar makinalı kazı çalışmalarını engeller. Makinanın sıkışmasının önüne geçmek için gerekli önlemler alınmalıdır. Tünelin desteksiz olarak ayakta durabileceği süre 2 gün ile 10 saat arasındadır.
+
+**C2.2:** Kazı kafasının hemen arkasından başlamak üzere düzenli destekleme gerçekleştirilir. İlerleme hızını bu çalışmaların gerektirdiği süre belirler. Parçalı kazı yapılarak ilerlenir. Tünel açma makinasının sıkışmaması için gerekli önlemler alınmalıdır. Tünelin desteksiz olarak ayakta durabileceği süre 5 - 10 saat arasındadır.
+
+##### 38 C3 Aşırı Plastik Davranış Gösteren Kayaçlar
+
+Başlangıçta yüksek deformasyon hızları gösteren, uzun sürede ve çok yavaş sonlanan büyük deformasyonlar görülür. Bu sırada derine ulaşan yenilme mekanizmaları ve plastikleşme bölgeleri oluşur ve gelişir. Tünelin desteksiz olarak ayakta durabileceği süre 2 saat ile 5 saat arasındadır.
+
+Sıralı kazıda bütün serbest yüzeylerin desteklenmesi ve sağlamlaştırılması gereklidir. Parçalı kazı kesitleri gerekir. Bunların boyutları aynanın desteklenebilirliği ile sınırlıdır. Deformasyonların büyüklüğü çoğunlukla deformasyon yarıkları veya biçim değiştirebilen destek öğelerinin kullanımı gibi özel yapısal önlemlerin alınmasını zorunlu kılar. İlerleme adımları aynanın stabilitesine ve deformasyon hızlarına göre belirlenir ve ayna sürekli olarak desteklenir. Sürekli kazıda düzenli ve yoğun bir destekleme kazı kafasının hemen arkasındaki ön çalışma bölgesini (1.bölgeyi) çepeçevre saracak şekilde gerçekleştirilir. Frezeli kazı ancak parçalı olarak ve önemli duraksamalarla yapılabilir. Tünel açma makinasının sıkışmaması için gerekli önlemler alınmalıdır. Tünelin desteksiz olarak ayakta durabileceği süre ayna desteklenmeksizin 2 - 5 saat arasındadır.
+
+##### 39 C4 Yumuşak Kayaçlar
+
+Çok düşük içsel parametreli (kohezyon ve sürtünme açılı) ve yumuşak-plastik kıvamlı kayaçlar desteklenmemiş çok küçük kazı kesitlerinde bile kısa sürede tünel içine akar.
+
+Sıralı kazıda; gerçekleştirilen iyileştirme ve aynanın ön sürenlerle desteklenmesi gibi özel önlemlerle ortam niteliğinin, çok parçalı kazıda ilerlemeyi sağlayacak şekilde önceden ve imalat sırasında geliştirilmesi zorunludur. Her parçada aynayı ve kazı yüzeylerini çepeçevre saracak şekilde düzenli ve yoğun destekleme ve sağlamlaştırma önlemlerinin alınması gerekir. Sürekli kazıda şiltsiz makinalar ancak ön sağlamlaştırma gibi çok özel önlemlerin alınmış olduğu durumlarda kullanılabilir. Tünelin desteksiz olarak ayakta durabileceği süresi 2 saatten daha azdır.
+
+##### 40 C5 Şişen-Kabaran Kayaçlar
+
+Üzerinden yükün kalkmasıyla su alarak şişen ve/veya kabaran killi, anhidritli ve tuzlu mineraller içeren ortamlardır.
+
+Sıralı kazıda zaman içinde de şişme-kabarma basınçlarını alabilen uygun destekleme önlemleri ve işlemleriyle kabarma deformasyonlarının oluşumu önlenebilir ya da bunların zararlı etkileri engellenebilir.
+
+Sürekli kazıda zaman içinde de şişme-kabarma basınçlarını alabilen uygun destekleme önlemleri ve işlemleriyle kabarma deformasyonlarının oluşumu önlenebilir ya da bunların zararlı etkileri engellenebilir. Şiltsiz makinalar ancak çok özel önlemlerin alınmış olduğu durumlarda kullanılabilir.
+
+Tünelin desteksiz olarak ayakta durabileceği süre için veri yoktur.
+
+C2, C3, C4 ve C5 kaya ortamlarında jeolojik haritalamaya ek olarak kazı sırasında bazı arazi ve laboratuar araştırmaları ile geoteknik ölçümler yapılması gereklidir.
+
+C2, C3,C4 ve C5 kaya sınıfları için yapılması gerekli geoteknik ölçümlerde kazı enkesitine daha fazla noktada ve sık aralıkta (5-8 nokta, 10-20 mt), plastikleme zonunun belirlenmesi ve bu zonda oluşan deplasman ve gerilmelerin ölçülmesi için kuyu extensometre, yük hücresi v.b. ölçümlerle püskürtme betonda oluşan deformasyonlar için birim deformasyon ölçerler yerleştirilmelidir.
+
+Bu kaya sınıflarında üç boyutlu ölçüm yapılmalı ve ölçüm sonuçları enkesit üzerinde radyal kapanmaları ve oturmaları gösterecek şekilde işlenmeli, boyuna yönde destekleme sırası ve zamanı verilmelidir.
+
+NATM'de kazı sırasındaki araştırma çalışmaları ve geoteknik ölçümlerden elde edilen veriler projede göz önüne alınan tünelin bulunduğu ortamın jeolojik yapısı, uygulanan kazı yöntemi (bölünmüş kazı, ilerleme adımı), destekleme sırası ve aralıkları, deformasyon toleransları ile birlikte değerlendirilmelidir. Projede baskılı kaya ortamı ile karşılaşılması durumunda tünelin emniyetli gerekse tünelin kazı geometrisinin oluşturulması bakımından yapım sırasında elde edilen veriler de gözönüne alınarak proje çalışması yapılmalıdır [15, 19].
+
+##### 41 NATM'e Göre Kaya Sınıflamalarının Belirlenmesi
+
+NATM'e göre kaya sınıflamalarının belirlenmesinde izlenen sıra aşağıdaki gibidir [10].
+
+1. - Tünel kazısı yapılan kaya kütlesinin karakterinin belirlenmesi:
+
+Proje esas teşkil eden jeolojik, hidrojeolojik ve geoteknik bilgiler tünelin kazısı sırasında yapılan jeolojik haritalamadan elde edilen bilgilerle karşılaştırılmalıdır. Esas olarak projede öngörülen kaya formasyonu, litolojisi ve kaya birimleri ile karşılaşılıp karşılaşılmadığı kontrol edilmelidir.
+
+2. - Kazı sırasında kaya kütlesi tipinin belirlenmesi:
+
+Jeolojik haritalama sırasında elde edilen süreksizlik, süreksizliklerin arasındaki dolgunun niteliği, su sızıntıları, bozuşma dereceleri, kayanın mukavemeti, aşırı sökülme, fayların tünel kesitine göre konumları ve etkileme alanı v.b. bilgiler kullanılarak kazısı yapılan kaya kütlesinin davranışının yorumlanması ve buna göre kaya tipinin ÖNORM 2203/1994'e göre üç ana gruptan (stabil A, gevrek B, baskılı C) hangisine girdiği belirlenmelidir.
+
+Jeolojik haritalamadan elde edilen verilerle sayısal olarak kayayı sınıflayan RMR ve Q sistemi gibi kaya sınıflamaları elde edilmektedir. Bu kaya sınıflamalarında kaya kütlesinin geoteknik parametreleri (kohezyon, içsel sürtünme açısı, elastisite modülü), uygulanan projenin karakteristik özellikleri (kazı geometrisi v.b) kaya kütlesinin anizotropisi ve zamana bağlı davranışı gibi kompleks özellikler tek bir sayısal değere indirgenmektedir. Bu sınıflamalarda kullanılan girdi parametrelerinde kayanın yenilme mekanizması, deplasmanları ve kaya-destek etkileşimi dikkate alınmamakta, dizayna esas parametre ve destek seçimi için yetersiz kalmaktadır.
+
+##### 42 TÜNELLERDE SAĞLAMLAŞTIRMA, DESTEKLEME VE İYİLEŞTİRME
+
+Pacher 1964 yılında gerilme ile deformasyonlar arasındaki ilişkiyi incelemiş ve kalıcı deformasyonun rijit bir destek sistemi ile durdurulabileceğini görmüştür. Kayaç elastik kaldığı sürece, deformasyonlar ile destek basıncı ters orantılı olmaktadır. Kayacın dayanımı aşıldığında ise, yeraltı açıklığından çevre kayacın derinliklerine doğru koruyucu zon adı verilen bölge oluşmaya başlamaktadır. Zamana bağlı olarak açıklık etrafındaki sıkışmış olan malzeme arazi basıncının etkisi ile boşluğa doğru patlamaktadır. Şekil 5.1'de Fenner-Pacher eğrisi olarak bilinen bu davranış gösterilmiştir. Kritik deformasyon sınırı denetlenerek arazi basıncı kontrol edilebilmekte ve gerekli destek basıncı bu sayede belirlenebilmektedir.
+
+<!-- image -->
+
+Şekle göre rijit bir destek sistemi uygulandığında yüksek destek basıncı elde edilmekte, deplasmanların oluşumu engellenebilmektedir. Metro tünelleri gibi yüksek deplasmanlara izin verilmeyen sistemlerde uygulanan bu yöntemin aksine, bir miktar deplasmana izin verildiğinde gerekli olan destek basıncı azalmakta, daha az ve esnek bir destekleme ile imalat yapılabilmektedir.
+
+Eğer bu aşamada deplasmanlar durdurulmazsa, arazi basıncının ve gevşemelerin etkisi ile gerekli destek sistemi ihtiyacı artmakta, deplasmanlar kontrol edilemez bir duruma gelmektedir.
+
+Yeraltı kaya yapılarının inşatı sırasında içinde çalışılan ortam ve koşullar değişmektedir. Bu değişimin derecesi, kuvvetler ve moment dengesinin ya da gerilme durumunun teknik girişim sonucunda ne kadar bozulmuş olduğuna bağlıdır. Zamana bağlı gerilme-deformasyon ilişkisi ve çevre kayacın psödoplastikleşmesi, denge durumu ile etkileşimin ölçütü ve nedeni olmaktadır. Bu etkileşim miktarının teknik girişim için öngörülen sınırları aşması durumunda ise duraylılık sorunu başlamaktadır. Duraylılığın bozulması, yeraltı kaya yapısının çevresi ile olan ilişkisine bağlıdır. Örneğin bir metro tünelinde hiçbir olumsuzluk olmamasına rağmen yüzeyde oturmaların olması duraysızlık kabulü için yeterli olacaktır. Benzer şekilde yerleşimden uzak bir yerde inşa edilen bir tünelde, yeryüzündeki oturmalar duraysızlık olmayacak, tünelde göçüğe neden olabilecek deplasmanlar duraysızlık olarak kabul edilecektir. Duraysızlığın önlenmesi ve-veya giderilmesi için alınan önlemler;
+
+• Sağlamlaştırma
+
+• Destekleme
+
+• İ yileş tirme
+
+olarak derlenmekte ve ön, geçici veya kalıcı olarak sınıflandırılmaktadır.
+
+Alınabilecek bu önlemler kuvvetler dengesini değiştirebilmekte, gerilme durumunu değiştirebilmekte ya da ortam koşullarını iyileştirebilmektedir [1].
+
+##### 43 Sağlamlaştırma ve Destekleme
+
+Kaya sağlamlaştırma (rock reinforcement); bir yeraltı kazı boşluğunun çevresindeki kayanın yük taşıma özelliğini koruması ve duraylılığın arttırılması için kaya bulonları, kablo bulonlar veya herhangi bir kaya sağlamlaştırma elemanının yerleştirilmesi ve kayanın zaten var olan direncinin de harekete geçirilmesidir. Böylece kaya kütlesi “kendi kendini destekler” duruma gelir. Kaya sağlamlaştırma elemanları kaya kütlesinin içerisine yerleştirildiğinden kaya kütlesinin bir parçası haline gelir.
+
+Kaya desteklemesi ise; beton kaplama, çelik iksa veya diğer tür mühendislik elemanları kullanılarak kaya kütlesinin hareketlerini kontrol etmektir. Kaya tahkimat elemanları kaya kütlesinin dışında yer alır.
+
+Sağlamlaştırma tünellerde duvar ve taban emniyetini sağlamak demektir. Gerek tünellerin kazılması sırasında, gerekse bittikten sonra stabilite ve güvenlik, geçici ve/ veya kalıcı sağlamlaştırma yöntemlerine göre uygulama yapılmasıyla sağlanır. Sağlamlaştırma ve destekleme işlemleri; ön gerilmeli veya gerilmesiz kaya bulonu, çelik hasır, püskürtme beton, çelik iksadan (veya inşaat demirinden yapılmış kafes kirişleri) oluşan dış kabuk ile beton (veya betonarme) kabuktan ibarettir.
+
+NATM' da birincil destekler olarak kullanılan püskürtme beton, hasır çelik ve kaya bulonları kaya kütlesiyle birlikte kompozit bir yapı oluşturmaktadır. Kaya ve destek elemanlarından oluşan bu kompozit sistem tünel çevresinde oluşan basınçların yeniden dağılımını sağlayarak kayanın gevşeme sonucu azalmakta olan dayanımının artmasını sağlamaktadır. Deformasyonlar, kontrollü bir şekilde tünel içinde göçüğe meydan vermeden veya emniyetsiz bir ortam oluşmadan gerçekleşmektedir .
+
+Tünellerde sağlamlaştırma iki aşamada gerçekleşmektedir. Geçici sağlamlaştırma kafes donatı, bulonlar, püskürtme beton, tel kafes olup bunların bir veya birkaçının birlikte kullanılmasıyla sağlamlaştırma gerçekleştirilir. Kalıcı sağlamlaştırma ise nihai beton kaplama ve en son yapılacak olan kontakt enjeksiyonları ile oluşturulacaktır. Kaya kendini tutamayacak kadar parçalı ise gerekli görülen desteklerin aralıkları azaltılarak ve süren (ön çakma çubuğu) kullanılarak sağlamlaştırma işlemlerinin emniyetle yapılması sağlanmaktadır. Ayrıca aynanın stabilitesinin sağlanması için aynaya püskürtme beton da atılmaktadır
+
+##### 44 Püskürtme Beton
+
+Püskürtme beton; ince kum, agrega, çimento, çelik elyaf, prizlendirici karışımlardan oluşan kuru yada ıslak olarak pnömatik pompalar yardımıyla kazı yüzeyine fırlatılarak yapıştırılabilen ve çok yönlü kullanım amacı olan bir çeşit harçtır.
+
+Püskürtme beton kazı yüzeyine yakın zemin/ kayanın kesme dayanımını artırır, tünel kesiti çevresindeki kayanın gevşemesini, kayadaki süreksizlikleri doldurarak dökülmeleri ve sökülmeleri önler. Kazıdan hemen sonra oluşan gerilme ve deplasmanların bir kısmını karşılar. Taşıyıcı eleman olarak donatılı ve donatısız kullanılır.
+
+Su / çimento oranı kuru karışımlar için 0,3-0,5 arasında değişir. Bölgesel şartlara uyum sağlaması için bu oran operatör tarafından ayarlanabilir. Islak karışımlar için su/ çimento oranı 0,4-0,6 arasında olur. Tipik bir püskürtme beton karışımında bulunan maddeler ve karışım içindeki oranları Çizelge 5.1' de belirtildiği gibidir [11] .
+
+Çizelge 5.1 Tipik bir püskürtme beton içerisinde bulunan maddeler ve karışım oranları
+
+| Çimento            | %15-20   |
+|--------------------|----------|
+| İri agrega (çakıl) | %30-40   |
+| İnce agrega (kum)  | %40-50   |
+| Hızlandırıcı       | %2-5     |
+| Çelik elyaf        | %2-5     |
+
+##### 45 Hasır Çelik
+
+Perde adıda verilen çelik hasırlar kaya ve zemin destekleme uygulamalarında başarılı bir şekilde kullanılmaktadır. Kaya bulonlarıyla birlikte iki tür çelik hasır kullanılmaktadır. Bunlar birbirlerine zincir şeklinde geçmeli tellerden oluşturulan hasırlar ve birbirlerine kaynatılarak tutturulan çelik hasırlardır. Hasır kullanımının amacı eklemlerin sık ve bulon aralıklarının fazla olduğu kaya ortamlarında bulonlar arasında kalan blokların desteklenmesi ve püskürtme betonun mukavemetinin artırılmasıdır
+
+Çelik hasırlar püskürtme betonla birlikte kullanıldıklarında (özellikle tüneller, ana nakliyat galerileri, band yolları, yeraltı tamir-bakım istasyonları, v.s.) sağlam betonlar gibi çalışır, kayaca sağlamlık verir, hava ve nem etkilerine karşı korur ve bulonların sağlamlaştırma etkilerine ek olarak esaslı bir sağlamlaştırma sağlar.
+
+##### 46 Kaya Bulonu
+
+Kaya bulonları kayayı çekme gerilmelerini taşıyabilecek şekilde sağlamlaştırmak, çekme gerilmelerini ana kayaya iletmek, süreksizliklerin sürtünme direncini arttırmak veya kayada üç eksenli gerilme durumu oluşturmak için yerkabuğu içine bağlanan demir çubuklardır. Bulonlar tünel kazısı sırasında duvar ve tavanda çözülmüş, kopmak üzere olan kayaların yerlerinde kalmalarını sağlayan, güvenliği arttırıcı elemanlardır.
+
+Kaya bulonları tünel kesiti çevresindeki kayanın desteklenmesinde kullanılan ana destek elemanlarından biridir. Kaya bulonu kaya bloklarının sabitlenmesinde tekil olarak kullanıldığı gibi çevredeki kayanın dayanımın arttırılması amacıyla sistematik olarak da kullanılabilir.
+
+##### 47 Çelik İksa
+
+Çelik iksa, kazı yapılan tünel kesitinde püskürtme beton dayanımını kazanıncaya kadar geçen sürede yapım güvenliğini sağlamak ve püskürtme betonda yük dağılımına yardımcı olmak amacıyla kullanılırlar. Uygulanan çelik isa tipleri kaya ortamına göre I, H,TH, E ve kafes kiriş olarak seçilebilir. Bu tür destekleme elemanları az eklemli kaya ortamlarında kullanılabildiği gibi kazıyı müteakip aşırı çatlakların oluştuğu kaya ortamlarında da kullanılabilir. Çok çatlaklı kaya ortamlarında çelik iksa ve kazı duvarı arasına çelik hasır, çelik çubuk, ağaç takoz veya çelik plakalar yerleştirilerek küçük kaya bloklarının düşmesi önlenebilir.
+
+Çelik takımlar kazıyı çevreleyen kaya kütlesini güçlendirmezler. Ancak, deformasyon sonucu zayıflayan çevre kayasına destek olurlar. Ön yüklemeye tabi tutulamadıkları için kazı duvarına aktif bir basınç uygulayamazlar. Bu nedenle, çelik takımların etkinlikleri iksa ile duvar arasına yerleştirilen takozların kalitesine bağlıdır.
+
+##### 48 Çelik Kuşaklar (Straps)
+
+Çelik kuşaklar 6mm kalınlığında, 100 mm eninde ve değişik uzunluklarda imal edilen kolaylıkla şekil verilebilen çelik bandlardır. Çelik kuşaklar kaya bulonlarının yalnız başlarına kullanılmaları durumunda orta ve ince kaya tabakalarını desteklemede yetersiz kaldıklarında bulonlarla birlite kullanılır.
+
+Çelik kuşaklara kazı tavan veya duvarına yerleştirilebilmeleri için kolayca şekil verilebilir. Bunlar düzenli olarak kaya bulonları ile tesbit edilirler. Bu kuşaklar sürekli olarak zayıflık düzlemine dik yönde yerleştirilir [10, 11].
+
+##### 49 Kaya Sınıflama Sistemleri İle Destek Basıncı Ve Destek Seçimi Arasındaki İlişki
+
+##### 50 RSR Sistemi İle Destek Basıncı Ve Destek Seçimi Arasındaki İlişki
+
+Bulunan RSR değeri, iksaya esas olmak üzere kaya kütlesinin niteliğini yansıtır. RSR değeri 19'dan küçük olan kayalarda kuvvetli iksa gerekir. RSR değeri 80 veya daha fazla olan kayalarda iksa gerekmediği sonucuna varılmıştır Şekil 5.2'de 6,50 m çapında tüneller için iksa gereksinimi gösterilmiştir [11].
+
+<!-- image -->
+
+Şekil 5.2 RSR kavramı- 6,5 m çaplı tünel için destek tablosu
+
+Kaya bulonları ve püskürtme betonunu temsil eden eğriler kesikli çizgi ile gösterilmiştir. Aslında RSR kavramı, kaya tünellerinde çelik iksa seçimi için çok yararlı bir yöntemdir; fakat kaya bulonu ve püskürtme betonu seçimi için tavsiye edilmez.
+
+##### 51 RQD Sistemi İle Destek Basıncı Ve Destek Seçimi Arasındaki İlişki
+
+RQD indeksine bağlı olarak kaya tünellerinde tavsiye edilen destekleme ve sağlamlaştırma yöntemi Çizelge 5.2'de verilmektedir. Merrit (1972) yaptığı çalışmalarda RQD indeksinin sağlam kayaçlar içinde açılan tünellerdeki tahkimat ihtiyaçlarının belirlenmesinde oldukça kullanışlı olduğu, ancak, ince kil dolgusu içeren eklemlere sahip kayaçlarda ve sulu ortamlarda bu indeksin kullanılmasının bazı sakıncalarının olduğunu ortaya çıkarmıştır. Şekil 5.3'de Merrit tarafından önerilen RQD-Sağlamlaştırma ilişkisi verilmektedir.
+
+<!-- image -->
+
+Şekil 5.3 Tünel desteklemesi seçiminde RQD' nin kullanılması
+
+| **Kaya kalitesi**                                     | **Tünel açma yöntemi**   | **Alternatif destekleme sistemleri**                                           |                                        |                                                                                             |
+|-------------------------------------------------------|--------------------------|--------------------------------------------------------------------------------|----------------------------------------|---------------------------------------------------------------------------------------------|
+|                                                       |                          | **Çelik destekleme**  **(2)**                                                  | **Kaya bulonları (3)**                 | **Püskürtme beton**                                                                         |
+| Çok iyi  (1)  RQD&gt;90                               | Tünel açma mak.          | Gerek yok.Kaya yükü (0,0-0,2)B                                                 | Gerek yok                              | Gerek yok                                                                                   |
+|                                                       | Delme-patl.              | Gerek yok. Kaya yükü (0,0-0,3)B                                                | Gerek yok                              | Bazı bölgelerde gerekirse 5-8 cm kalınlıkta                                                 |
+| İyi (1)  75&lt;RQD&lt;90                              | Tünel açma mak.          | Gerekirse 1,52-1,83 m aralıklı hafif kaburgalar. Kaya yükü (0,0-0,4)B          | Gerekirse 1,521,83 m aralıklı bulonlar | Bazı bölgelerde gerekirse 5-8 cm kalınlıkta                                                 |
+|                                                       | Delme-patl.              | 1,52-1,83 m aralıklı hafif kaburgalar. Kaya yükü (0,3-0,6)B                    | 1,52-1,83 m aralıklı bulonlar          | Bazı bölgelerde 5-8 cm kalınlıkta                                                           |
+| Orta  50&lt;RQD&lt;75                                 | Tünel açma mak.          | 1,52-1,83 m aralıklı orta büyüklükte kaburgalar. Kaya yükü (0,4-1,0)B          | 1,22-1,83 m aralıklarla bulonlar       | Tavanda 5-11 cm kalınlıkta                                                                  |
+|                                                       | Delme-patl.              | 1,22-1,52 m aralıklı hafif ya da orta büyüklükte kaburga. Kaya yükü (0,6-1,3)B | 0,9-1,52 m aralıklarla bulonlar        | Tavan ve yan duvarlarda 11 cm veya daha fazla kalınlıkta                                    |
+| Zayıf 25<RQD<50                                       | Tünel açma mak.          | 0,9-1,22 m aralıklı yarım daire kaburgalar. Kaya yükü (1,0-1,6)B               | 0,9-1,52 m aralıklı bulonlar           | Bulonlarla birlikte tavan ve yanlarda 11-15 cm kalınlıkta                                   |
+| Zayıf 25<RQD<50                                       | Delme-patl.              | Orta büyüklükte veya ağır kaburgalar. Kaya yükü (1,3-2,0)B                     | 0,6-1,22 m aralıklı bulonlar           | Bulonlarla birlikte 15 cm veya daha kalın tavan ve yanlarda                                 |
+| Çok zayıf RQD<25 (Kabarma basıncı olmayan ortamlarda) | Tünel açma mak.          | 0,6 m aralıklarla orta veya ağır, dairesel kaburgalar  Kaya yükü (1,6-2,2)B    | 0,6-1,22 m aralıklı bulonlar           | Orta büyüklükte kaburgalar ile birlikte kesit boyunca 15 cm veya daha fazla püskürtme beton |
+| Çok zayıf RQD<25 (Kabarma basıncı olmayan ortamlarda) | Delme-patl.              | 0,6 m aralıklı ağır kaburgalar. Kaya yükü (1,6-2,2)B                           | 0,9 m aralıklı bulonlar                | Orta büyüklükte veya daha ağır kaburgalarla birlikte, kesit boyunca 15 cm veya daha kalın   |
+| Çok zayıf (şişen kaya ortamı)                         | Tünel açma mak.          | 0,6 m aralıklı çok ağır, dairesel kaburgalar. Kaya yükü >76,2 m                | 0,6-0,9 m aralıklı bulonlar            | Ağır kaburgalarla birlikte tüm kesit boyunca 15 cm veya daha kalın                          |
+| Çok zayıf (şişen kaya ortamı)                         | Delme-patl.              | 0,6m aralıklı çok ağır, dairesel kaburgalar. Kaya yükü >76,2 m                 | 0,6-0,9 m aralıklı bulonlar            | Ağır kaburgalarla birlikte, tüm kesit boyunca 15 cm veya daha kalın                         |
+
+##### 52 Q sistemi İle Destek Basıncı Ve Destek Seçimi Arasındaki İlişki
+
+Q sistemi yardımıyla, kaya sınıflandırmasının yanı sıra yeraltı mühendislik yapılarında kullanılacak destekleme tipleri konusunda öneriler yapılabilmektedir. Bu konuyla ilgili açıklamalar Şekil 5.4 de gösterilmiştir [10].
+
+KAYA SINIFLARI
+
+<!-- image -->
+
+##### DESTEKLEME KATEGORİLERİ
+
+**(D**
+
+**(2)**
+
+**(3)**
+
+**(4)**
+
+: Tahkimatsız
+
+: Noktasal kaya civatası, sb :Sistematik kaya civatası, B :Sistematik kaya civatası, (ve donatışız püskürtme beton), 4-10cm, B(+S)
+
+<!-- image -->
+
+5. :Lifli Püskürtme Beton (5-9cm) ve Kaya civatası, Sfr+B
+6. :Lifli Püskürtme Beton (12-15cm) ve Kaya civatası, Sfr+B
+7. :Lifli Püskürtme Beton (9-12cm) ve Kaya civatası, Sfr+B
+8. :Lifli Püskürtme Beton (&gt;12cm) ve Kaya civatası, ve çelik iksa, Sfr+RRS+B
+9. :Yerinde Dökme Beton Kaplama, Cca
+
+Şekil 5.4 Q Sisteminde Destekleme Önerileri
+
+##### Sürekli iksasız maksimum proje açıklığı
+
+Sürekli iksasız açıklıkların gerçek açıklık sınırları şöyle ifade edilebilir:
+
+Açıklık = 2 * ESR* Q 0.4 /(2*ESR)	(5.6)
+
+Burada ESR, destek oranıdır. Kazı tipine göre kazı destek oranı şöyledir (Çizelge 5.3)
+
+Çizelge 5.3 Kazı tipine göre kazı destek oranı
+
+| **Kazı Tipi**                                                                                                                                                     | **ESR**   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| A.Geçici maden kazıları                                                                                                                                           | 3-5       |
+| B.Sürekli maden kazıları, hidrolik enerji amaçlı su tünelleri (yüksek basınçlı cebri  boyutlar hariç), büyük kazılar için pilot tüneller, yarmalar ve aynalar v.s | 1,6       |
+| C.Depolar,su tasfiye tesisleri, küçük yol ve demiryolu tünelleri,  denge bacaları, yaklaşım tünelleri v.s.                                                        | 1,3       |
+| D.Santral binaları, büyük yol ve demiryolu tünelleri,  sivil savunma sığınakları                                                                                  | 1         |
+| E. Yer altı nükleer santralleri, fabrikalar,  spor ve kamu tesisleri                                                                                              | 0,8       |
+
+##### Bulonlama
+
+Eğer 20 mm çaplı bir bulon için 10 tonluk aktif bir yük kabul edilirse, destek basıncı aşağıdaki gibidir:
+
+P = 1/a 2 (5.7)
+
+P = Destek bası nç kapasitesi (kg/cm 2 ),
+
+a = Bulon açıklığı (m)
+
+Bulon ve ankraj uzunlukları kazı boyutlarına bağlıdır. Tavanda kullanılan bulonların uzunluğu genellikle kazı enine, duvarlarda kullanılanlarınki ise kazı boyuna bağlıdır. Bulon uzunluğu/kazı eni oranı, kazı eni arttıkça azalma eğilimi gösterir. Buna göre aşağıdaki eşitlikler, inşaat sırasında duruma göre değiştirilebilme kaydıyla önerilir.
+
+| Tavan    | :Bulon L =2+0.15B/ESR   | (5.8)   |
+|----------|-------------------------|---------|
+|          | :Ankraj L =0.40B/ESR    | (5.9)   |
+| Duvarlar | : Bulon L =2+0.15H/ESR  | (5.10)  |
+|          | : Ankraj L =0.35H/ESR   | (5.11)  |
+
+L = uzunluk (m)
+
+B = kazı eni (m)
+
+H = kazı boyu(m)
+
+ESR = kazı destek oranı
+
+##### 53 RMR Sistemi İle Destek Basıncı Ve Destek Seçimi Arasındaki İlişki
+
+Kaya kütlesi sınıflaması ile mühendislik problemleri arasında ilişki kurulabilir. Tünelcilik ve yeraltı açıklıklarında geomekanik sınıflamadan elde edilen değerler yardımıyla tahkimatsız olarak ayakta kalabilme süresi ve maksimum duraylı (stabil) tavan açıklığı belirlenebilir (Çizelge 5.4).
+
+Çizelge 5.4 RMR' ye bağlı olarak kaya kütlesi sınıflarının yorumu ve dayanım parametrelerinin tahmini
+
+| **Kaya Sınıfı**                        |                                        | **I**                 | **II**                              | **III**               | **IV**                  | **V**                |
+|----------------------------------------|----------------------------------------|-----------------------|-------------------------------------|-----------------------|-------------------------|----------------------|
+| Kaya Kütlesi kohezyonu (c)             | 1976                                   | >300 kPa              | 200-300kPa                          | 150-  200kPa          | 100-150kPa              | <100kPa              |
+| Kaya Kütlesi kohezyonu (c)             | 1990                                   | >400kPa               | 300-400kPa                          | 200-  300kPa          | 100-200kPa              | <100kPa              |
+| İçsel sürtünme açısı (♦)               | 1976                                   | >40°                  | 40°-45°                             | 35°-40°               | 30°-35°                 | <30°                 |
+| İçsel sürtünme açısı (♦)               | 1990                                   | >45°                  | 35°-45°                             | 25°-35°               | 15°-25°                 | <15°                 |
+| Ortalama desteksiz ayakta kalma süresi | Ortalama desteksiz ayakta kalma süresi | 15m  açıklıkta 10 yıl | 8 m açıklıkta 6 ay                  | 5m  açıklıkta 1 hafta | 2,5m  açıklıkta 10 saat | 1m  açıklıkta 30 dk. |
+| Kazılabilirlik                         | Kazılabilirlik                         | Çok zayıf             | Kolaylıkla  büyük  parçalar  çıkmaz | Orta                  | Kolay  kazılır          | Çok  kolay  kazılır. |
+
+Geomekanik sınıflamaya bağlı olarak yeraltı kaya tünellerinde kazı şekli ve sağlamlaştırma
+
+esaslarının belirlenmesi Çizelge 5.5'te verilmektedir.
+
+Çizelge 5.5 RMR' ye bağlı olarak yeraltı kaya tünellerinde destekleme ve kazı şeklinin  
+belirlenmesi
+
+| Kaya kütlesi  sınıfı                 | Kazı şekli                                                                                                                                                                     | Tahkimat                                                                                                     | Tahkimat                                                        | Tahkimat                                                                                            |
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+|                                      | Kazı şekli                                                                                                                                                                     | Kaya bulonu                                                                                                  | Püskürtme  beton                                                | Çelik iksa                                                                                          |
+| I  Çok sağlam  kaya  (RMR:100-  81)  | Tam cephe kazı, 3m ilerleme                                                                                                                                                    | Genel olarak tahkimat gereksiz. Gerektiğinde yerel bulonlama                                                 | Genel olarak tahkimat gereksiz. Gerektiğinde yerel bulonlama    | Genel olarak tahkimat gereksiz. Gerektiğinde yerel bulonlama                                        |
+| II  Sağlam  kaya  (RMR:80-  61)      | Tam cephe kazı, 1- 1,5m ilerleme. Kazı aynasından 20m geride tüm tahkimat  yapılmalıdır                                                                                        | Tavanda yerel  bulonlama.  Bulon  uzunlukları 3m, aralıkları 2,5m olmalı, nadiren çelik hasırla              | Gerektiğinde tavan kısmında  50mm  kalınlıkta                   | Gerekmez                                                                                            |
+| III  Orta sağlam kaya  (RMR:60-  41) | Üst ve alt yarı ayrı ayrı  kazılır. 1,5-3m'lik ilerleme. Her  patlatmanın ardından  destekleme elemanı yerleştirilir. Kazı aynasından 10m geride tüm destekleme  yapılmalıdır. | 4m uzunluk ve 1,5-2m aralıklı tavan ve yanlarda çelik  hasırla birlikte                                      | Tavanda 50- 100mm  yanlarad 30mm kalınlıkta                     | Gerekmez                                                                                            |
+| IV  Zayıf kaya  (RMR:40-  21)        | Üst ve alt yarı ayrı ayrı  kazılır. 1-1,5m'lik ilerleme. Kazı aynasından10m geride  kazıya paralel olarak  destekleme  yapılmalıdır.                                           | 4-5m uzunlukta 1-1,5m  aralıklarla çelik  hasırla birlikte . Tavan ve  yanlarda                              | Tavanda 100-  150mm  kenarlarda 100 mm kalınlıkta               | Gerekiyorsa 1,5m aralıklarla hafif iksa                                                             |
+| V  Çok zayıf  kaya  (RMR:20-0)       | Küçük kesitli kazılarla.  0,5-1,5m'lik ilerleme.  Kazıya paralel olarak  destekleme yapılır. Patlatmanın hemen  ardından püskürtme  beton uygulanmalıdır.                      | 5-6 uzunluk, 1- 1,5m aralıklarla ve çelik hasırla birlikte sistematik bulonlama. Tabana bulon yerleştirilir. | Tavana 150- 200mm yanlara 150mm ve kazı  arına 50mm  kalınlıkta | Çelik fırçalarla  desteklenen  0,75 m aralıklı orta ve ağır  iksa. Tabana ters kemer yerleştirilir. |
+
+Q ve RMR sınıflamalarına göre yapılan tünel dizaynlarında yapım sırasında bazı sorunlarla karşılaşılabilmektedir. Bu nedenle Q ve RMR sınıflamalarından ön proje aşamasında faydalanılabilinmekle birlikte uygulama projesi ve yapım aşamasında kaya kütlesinin kompleks özellikleri, zamana bağlı davranışı gözönüne alınarak tünelin açılacağı ortamın geoteknik modelinin oluşturulması, destek sisteminin bu modele göre belirlenmesi, aynada yapılacak jeolojik haritalama ve geoteknik ölçümlere göre modelin ve destek sisteminin sürekli kontrol edilmesi gereklidir.
+
+##### 54 Tünellerde Zemin İyileştirilmesi
+
+Tünellerde maliyetin %70-80 kadarını kazı ve destekleme harcamaları oluşturur. Bazen bu giderlerin beklenenden daha kötü ortam özellikleri ya da koşullarıyla karşılaşılması nedeniyle daha da arttığı görülür. Bu durumda giderleri azaltabilmek ve güvenli çalışma ortamında tünel kazısına devam edebilmek için zemini iyileştirmek ve denetim altına almak kaçınılmaz olur.
+
+Zayıf zeminlerin iyileştirilmesinde veya çıkan problemlerin çözümünde kullanılan yöntemler genellikle; çimento ve kimyasal madde enjeksiyonu, jet grouting, koruyucu kemer oluşturulması, yer altı su seviyesinin alçaltılması, yer altı suyunun dondurulması ve bentonit çamuru ya da basınçlı hava ile duraylılığın sağlanması şeklinde olmaktadır. Bu yöntemler ya tek başlarına ya da birkaçının veya tümünün birlikte kullanılmasıyla uygulanmaktadırlar. Bentonit çamuru ya da basınçlı hava yöntemi yalnızca açım sırasında kullanılabilirken, diğer yöntemler ön iyileştirme- sağlamlaştırma yöntemleri olarak da kullanılabilmektedirler [20].
+
+##### 55 Dolgu Enjeksiyonu
+
+Etkisi sürekli olan bir zemin iyileştirme yöntemidir. Bu yöntemde 20-40 bar basıncındaki dolgu karışımı zemin içine gönderilir. Bu karışım zemindeki boşluk ve gözenekleri doldurarak zeminin geçirgenliğini azaltır ve geoteknik parametrelerini yükseltir. Dolgu çimento veya kimyasal esaslı olabilir. Bu yöntem daha çok siltli, kumlu ve çakıllı ortamlarda kullanılır. Zemin kohezyonsuz olduğu için yüzeyde oluşabilecek tasmandan kaynaklanan ve binaların çökmesine neden olabilecek hareketlerin önlenmesi ve tüneldeki su gelirinin azaltılması sağlanır.
+
+Bu yöntemde güzergah boyunca açılan küçük çaplı bir pilot tünelden daha sonra açılacak olan esas tünel çevresine dolgu enjeksiyonu uygulanır (Şekil 5.5). Dolgu enjeksiyonun yapılabilmesi için;
+
+1. Ana tünel ekseni boyunca daha küçük çaplı bir pilot tünel açılır.
+2. Dolgu çevresel olarak tünel çevresine basılır.
+3. Tünelin üst yarısı uygun raund boyu kadar kazılır. Çelik iksa, çelik hasır ve püskürtme betonla tahkim edilir.
+4. Tünelin alt yarısı kazılır. Tabana ters kemer betonu yerleştirilir.
+<!-- image -->
+
+Şekil 5.5 Tüneli çevreleyen zeminin dolgu enjeksiyonu yardımıyla iyileştirilmesi
+
+##### 56 Çimento Enjeksiyonu
+
+Geniş bir kullanım alanı olan portland çimentosu enjeksiyonda kullanılan maddelerin en önemlisidir. Çimentonun kum ve su ile karışımı, ayrık ya da çatlaklı kayaç içine basıldığında boşlukları ve/veya çatlakları doldurur, sertleştiğinde tanecik ve kayaç parçalarını biribirine yapıştırarak ortamı monolitleştirir. Böylece başta kohezyon olmak üzere, ortamın içsel parametreleri artar ve mekanik davranışı homojenleşir.
+
+Çimento enjeksiyonu sırasında çeşitli amaçlarla karışıma eklenen katkı maddeleri ile bu maddelerin işlevleri aşağıda verilmektedir:
+
+1. Prizi çabuklaştıran maddeler: Sodyum klorür, kalsiyum klorür, sodyum silikat.
+2. Prizi geciktiren maddeler: Doygun tuzlu su, selüloz bileşimleri odun özü, şeker, alçıtaşı.
+3. Yoğunluğu artırıcı maddeler: Barit, ilmenit.
+4. Yoğunluğu azaltıcı maddeler: Su, bentonit.
+##### 57 Kimyasal Madde Enjeksiyonu
+
+Kimyasal maddelerle yapılan enjeksiyon zeminlerin iyileştirilmesinde oldukça başarılı olmakla birlikte pahalı bir yöntem olduğundan ancak zorunlu hallerde kullanılır. Kimyasal enjeksiyon şerbetinin tanecik ihtiva etmemesi, düşük viskositede olması ve sertleşme zamanının kontrol edilebilmesi gibi avantajları vardır. Kimyasal enjeksiyonda reaksiyon, kullanılan farklı maddelerin bir araya gelmesiyle oluşur. Karışım formasyona girmeden önce bir araya gelebileceği gibi formasyon içinde de karışabilir.
+
+Kullanılan başlıca kimyasal enjeksiyon maddeleri silikatlar, ligninler ve reçinelerdir.
+
+**Silikat enjeksiyonları** : Bu yöntemde iyileştirilmesi istenen zemin içinde önce sodyum silikat, daha sonra kalsiyum klorid enjeksiyonu yapılır. Böylece kalsiyum klorit, sodyum silikat ile reaksiyona girerek kalsiyum silikat jeli oluşturur. Bu jel kum taneciklerini bağlayarak zayıf çimentolu bir kumtaşı oluşumunu sağlar.
+
+**Ligninli enjeksiyonlar** : Kağıt sanayinin yan ürünü olarak elde edilen ligno sülfat ile bikromat karışımı düşük viskositeli bir enjeksiyon maddesi oluşturmaktadır. Bu karışım 10 dakika ile 10 saat arasında sertleştiğinden ve sağlam bir jelatin kütlesi oluşturduğundan kumlu zeminlerin iyileştirilmesinde başarıyla kullanılmaktadır.
+
+**Reçineli enjeksiyonlar** : Çok yüksek derecede nüfuz etme özelliği olan bu tür enjeksiyon maddeleri organik kimyasal maddelerin polimerizasyonundan oluşmaktadır. Geçirimliliği çok düşük olan ince taneli ve kumlu zeminlerde viskositesi su ile aynı olan ve belirli süre sonunda aniden sertleşen reçine özellikli enjeksiyonlar kullanılmaktadır.
+
+İdeal olarak enjeksiyon malzemesinde beş özelliğin bulunması gerekmektedir. Bunlar:
+
+1. Düşük vizkoziteye sahip olma
+2. Kontrol edilebilir çökelme zamanına sahip olma
+3. Zeminde yüksek mukavemete neden olma
+4. Toksik içermemek
+5. Kalıcı ve ekeonomik olmaktır.
+##### 58 Jet Grouting (Jet dolgu)
+
+Zemini yerinde, yüksek basınç altında uygulanan çimento şerbeti ile karıştırarak zemin/çimento kolonları oluşturarak yapılan sürekli bir iyileştirme yöntemidir. Sonuçta zeminin mevcut jeoteknik özelliklerine kıyasla daha sağlam bir yapı oluşur. Yöntem killi, kumlu, çakıllı, kumtaşlı ve çakıltaşlı zeminlerde iyi sonuçlar verir. Kohezyon olmadığı için kazı sırasında aşırı deformasyonlar oluşabilir.
+
+##### 59 Zeminin Geoteknik Özelliklerinin Korunması
+
+Geoteknik parametrelerinin korunması amacıyla yapılan çalışmalar sonucu zeminin mekanik özelliklerinin zayıflaması önlenir. Kazının çevresindeki gerilmelerden asgari düzeyde etkilenmesi sağlanır. Bu çalışmaların amacı kazı boşluğu çevresinde oluşacak deformasyonları mümkün olduğu kadar azaltmaktır. Bu yöntemler aşağıda sıralanmaktadır.
+
+##### 60 Borularla Tavan Kemeri Oluşturma (Cellular Arch)
+
+Boyca kısa, hacimce geniş yeraltı kazılarında uygulanan bir yöntemdir. Destekleme işlemi kazıdan önce gerçekleştirilir. Bu yöntem diğer sağlamlaştırma yöntemlerinin uygulanmasının mümkün olmayacağı kadar ince örtü tabakası altında açılan (çok sığ) tünellerde oldukça uygundur.
+
+Yöntemin esası; tünel üst kısmında ve ilerleme yönüne paralel olacak şekilde geniş çaplı boruların uzunlamasına yerleştirilmesidir. Daha sonra boruların içi betonla doldurulur ve bağlantı elemanları yardımıyla birbirlerine bağlanırlar (Şekil 5.6).
+
+##### 61 Ön Kazı (Advance Precutting)
+
+Etkisi sürekli olan bu yöntemde özel olarak imal edilmiş zincirli bir testere ile tünel çevresi kazılır. Açılan bu boşluğa çelik-fiber karışımı içeren ve yüksek mekanik özelliklere sahip olan beton doldurulur. Betonun donması ile tünel çevresinde yüksek mukavemetli bir beton kemer oluştuktan sonra kazı işlemine başlanır. Şekil 5.7'de yöntem şematik olarak gösterilmektedir.
+
+**Boralar yardımıyla kemer oluşturulması**
+
+**Yan galerilerin açılması**
+
+**Boraıann**
+
+**yerteştısılmesı**
+
+**Tünel savanının kazılarak**
+
+**boralanrı bağlanması**
+
+<!-- image -->
+
+Şekil 5.6 Borularla tavan kemerinin oluşturulması Yöntem genellikle kil, kum ve ince agregadan oluşan ve kohezyonsuz zeminlerdeki tünellerin sağlamlaştırılmasında uygulanır. Bu tür ortamlarda tünelin göçmesine neden olabilecek aşırı deformasyonlar oluşabilir.
+
+<!-- image -->
+
+Şekil 5.7 Mekanik önkazı ile tünel tahkimatı
+
+##### 62 Enjeksiyon Kemeri (Jet Grouting Arch)
+
+Kazıya başlamadan önce tünel profilinin üst kısımlarında yataya yakın (0-5 derece), alt yarının duvar kısmında ise düşeye yakın delinen delikler yardımıyla enjekte edilen dolgularla tünel çevresi sağlamlaştırılır. Böylece tünel çevresinde sağlam bir kemer oluşturulur. Bu kemer kazı sırasında tahkimat işlevi görürken nihai tahkimat elemanları üzerine gelen gerilmelerin de düzenli olmasını sağlar.
+
+Enjeksiyon yöntemi çok zayıf kaya ortamları ile tamamen ayrışmış, kohezyonsuz zeminlerde en çok kullanılan yöntemdir. Enjeksiyona başlamadan önce tünel kazı aynasının püskürtme betonla (bazen püskürtme beton+çelik hasır ile) kapatılır. Aynadaki muhtemel yerdeğiştirmeleri ve göçükleri önlemek için tünel ekseni boyunca kazı aynasına 15-20 m uzunluğunda ibo bulonlar yerleştirilir. İbo bulonlara uygulanan dolgu enjeksiyonu bulon ankrajını sağlamasının yanısıra tünel ekseni boyunca zeminin jeoteknik parametrelerinide iyileştirir. Kazı arını ilerisinde toplanan yeraltı sularının uzaklaştırılması ve zeminin susuzlandırılması amacıyla tünel eksenine paralel 6-9 m uzunluğa kadar drenaj boruları yerleştirilir. Delgi sırasında havalı delik delme yöntemi kullanılmalıdır.
+
+Yukarıdaki hazırlık işlemlerinin bitirilmesinden sonra kemer enjeksiyonu işlemine geçilir. Bunun için;
+
+1. Kazı profili boyunca 0-5 derece açı ile 30-60 cm aralıklarla 2 inç (51mm) çap ve 6-9 m boyunda 1. kademe enjeksiyon boruları, 25 derece açı ile 110-130 cm aralıklarla 2inç çap ve 6-9 m boyunda 2. kademe enjeksiyon boruları, 50 derece açı ile 120-140 cm aralıklarla 2 inç çap ve 6-9 m boyunda 3. kademe enjeksiyon boruları yerleş tirilir. Yerleş tirilen enjeksiyon borularına 5- 10 kg/cm 2 'lik bir basınçla çimento enjeksiyonu uygulanmaya başlanır. Enjeksiyondaki çimento/ su oranı; 1.kademe için 100/50, 2. ve 3. kademeler için 100/70civarındadır. Enjeksiyon basıncı artmaya başlayınca durdurulur ve diğer boruların enjeksiyonuna geçilir.
+2. Tünelin üst yarısı bölümlere ayrılarak bir round boyu (0,8-1,0 m) kadar kazılır.
+3. Çelik hasır ve çelik iksa yerleştirilerek püskürtme beton (300mm kalınlıkta) atılır. Ayrıca, kazı arınına da püskürtme beton (50 mm) atılır ve tünel aynasında açığa çıkan drenaj boruları ve bulonların fazlalıkları kesilerek bulonlara yeni yüzey plakalrı takılır ve kazı arınının duraylılığı sağlanır. Enjeksiyon borularının bitimine 3m kalınca yeni enjeksiyon boruları yerleştirilir.
+4. Tünelin alt yarısındaki duvarlar düşeye yakın olarak delinen deliklere yerleştirilen enjeksiyon borularından basılan enjeksiyonla sağlamlaştırılır.
+5. Tünelin alt yarısı kazılır.
+6. Ters kemer betonu atılarak işlem tamamlanır.
+##### 63 Önsüren Yöntemi İle Kazı
+
+Tamamen ayrışmış ve yer yer büyük bloklar içeren zeminlerde kazı yapıldığı zaman, henüz destekleme işlemine başlanılmadan önce tünel tavanı ve kazı aynası göçer. Bu tür akıcı zeminlerde kazıya başlamadan önce tünel profili boyunca sık delikler delinerek 9-13m uzunluğunda 32mm çapında çelik çubuklar 10-20 cm aralıklarla veya 2 inç (51 mm) çapında içi boş borular yerleştirilerek destekleme işleme yapılır. İçi boş çelik boruların yerleştirilmesi durumunda, bu borular yardımıyla zemine çimento enjeksiyonu da yapılabilir. Bu durumda kazı ve tahkimat işlemi aşağıdaki sırya göre yapılır.
+
+1. Çelik çubuk veya çelik borular tünelin tavan kısmına yataya yakın bir şekilde yerleştirilir. Gerekirse enjeksiyon yapılır.
+2. Tünelin aynası bölümlere ayrılarak 1 round boyu kadar ilerletilir.
+3. Çelik hasır, iksa ve püskürtme beton atılır.
+4. 4-6 m bazen de 9 mye kadar çevresel bulonlarla tünel sağlamlaştırılır.
+5. Yaklaşık 10 m ilerlemenin ardından (önceden yerleşirilen sürenlerin bitimine 3 m kala) profil boyunca yeni delikler delinerek sürenler yerleştirilir.
+6. Alt yarı kazılarak ters kemer betonu atılır. Sürenlerle tünel sağlamlaştırma yöntemi Şekil 5.8'de gösterilmektedir.
+<!-- image -->
+
+Şekil 5.8 Önsürenlerle tünel duraylılığının sağlanması
+
+##### 64 Yeraltı Su Seviyesinin Düşürülmesi
+
+Tünel açımı sırasında tünel zemininin jeoteknik özelliklerinin yanında en önemli konu yeraltı su durumudur. Tünel kazısına başlamadan önce yeraltı suyunun kontrol altına alınması gerekir. Bu önlemlerde öncelikle su seviyesinin düşürülmesi veya geçirimsiz birimler arasında yer alan geçirimli seviyelerdeki suyun dikey sondaj kuyularıyla azaltılması olanağı araştırılmalıdır. Açılacak pompaj kuyularının sayısı zeminin veya tünel güzergahında su sorununu yaratan olayın cinsi ve şekline göre tek veya birkaç tane olabileceği gibi belirli bir sıra dahilinde yerleştirilen bir diziden de ibaret olabilir. Eğer iki tünel yan yana açılıyorsa kuyuların iki tünel arasına yerleştirilmesi daha uygundur.
+
+##### 65 Yer altı Suyunun Dondurulması
+
+Bir diğer yöntemde yeraltı suyunun dondurulmasıdır. Bu yöntem ile su akışı durdurulmakta ve kendisini uzun süre tutabilen zeminler elde edilebilmektedir. Tünel inşaatında dondurma, düşey ve yatay olarak iki şekilde gerçekleştirilebilmektedir. Yatay dondurmada ince bir kabuk elde edileceğinden ve düşeye göre daha küçük bir hacim dondurulması ile sonuca ulaşılacağından daha avantajlıdır.
+
+Dondurma yönteminin uygulanmasında zeminin jeolojik ve jeoteknik karakterleri önem kazanmaktadır. Özellikle boşlukların hacmi, zeminin su muhtevası, zeminin ısı iletme katsayısı, zeminin başlangıçtaki ısı derecesi ile zemin içindeki yer altı suyunun hızının bilinmesi gereklidir. Dondurma yöntemlerini genelde iki ana grupta toplamak mümkündür.
+
+**1-Tuzlu su kullanarak dondurma:** En ekonomik yöntem olmakla beraber işleme cevap verme süresi uzundur (20-25 gün). Bu yöntemde tuzlu su kapalı bir devrede dolaştırılarak soğutma sağlanmaktadır. Zemin içinde -20 ile -40 C° soğukluğundaki sıvının borular içinde dolaştırılmasıyla zemin içindeki su dondurulmaktadır. Amonyak ya da karbondioksit soğutucu olarak kullanılır.
+
+**2- Sıvı azot kullanarak dondurma:** Bu yöntemde işleme cevap verme süresi çok kısa (30-40 saat) olmakla beraber oldukça pahalıdır. Bu yöntemde önce sıvı azot zemine verilmekte, daha sonra bir havalandırma borusu yardımıyla havaya bırakılmaktadır. Böylece çok düşük seviyelerdeki soğukluk nedeniyle çok kısa sürede donma sağlanabilmektedir.
+
+Yer altı suyunu dondurma yöntemiyle zeminin iyileştirilmesi enjeksiyon veya diğer yöntemlerin uygulanması durumunda başarılı olabilmektedir. Ancak donma sırasında zeminin kabarması, tünel kazısı nedeniyle zeminin gevşemesi ve donun çözülmesi sırasındaki konsolidasyon gibi nedenlerle yüzeydeki yapılarda deformasyonlar oluşabileceği dikkate alınmalıdır.
+
+##### 66 Basınçlı Hava
+
+Tünele basınçlı hava pompalanarak yapılan ilerlemeye basınçlı hava yöntemi denir. Burada amaç tünel içindeki hidrostatik basıncı dengeleyerek su, kum, çakıl ve yumuşak malzemenin hareketini önlemektir. Bu yöntem:
+
+• Zemin yer altı suyunun atı lması sı rası nda önemli ölçüde deformasyona uğ ruyorsa, (a ş ı r ı yüzey oturmaları oluşuyorsa)
+
+- Su atımında kullanılacak olan kuyuların açımı, yüzeydeki yapılar veya diğer nedenlerle zor ise,
+- Su taşıyan tabakaların hacim ve geçirgenlikleri pompaj işlemi için fazla ise,
+- Zemin aynada kendini tutamıyor ise
+- Akıcı zemin davranışları-sıvılaşma bekleniyorsa
+- Göl ve akarsu tabanı çökelleri içinden geçiliyorsa kullanılmaktadır.
+
+Bu sistemde tünel en kesiti bir basınç duvarı ile kapatılır. Tünel kazısının yapıldığı kısıma havanın geri kaçmasını önlemek için bölme ve basınç odası yerleştirilir. Basınç odası her iki tarafında hava sızdırmaz kapı olan bir hücreden oluşur. Kapatılan bu kısma yeryüzündeki bir kompresör istasyonundan basınçlı hava pompalanır. Kullanılan havanın basıncı zemin suyu basıncına eşit olmalıdır. Bu yöntemde ilerleme yönünde sadece elektrikle çalışan makineler kullanılır. Kazılan toprak ve taşlar basınç duvarına bağlantısı olan ulaşım galerisinden geçilerek nakliye edilir. Eğer kazı esnasında zemin içinden hava kaybı meydana geliyorsa hava basıncını düşürerek ilerlemek veya yüzeyden, tünelden ya da bir kuyudan enjeksiyon yaparak zemin içnden hava kaybını önlemek mümkündür [11, 20, 21, 22].
+
+Polilit olarak adlandırılan çok parçalı, çatlaklı ortamlar monolit (tek, çatlaksız kayaç) ortamlara göre daha düşük direnç gösterir ve kolayca şekil değiştirerek plastikleşebilir. Bunun nedeni, bir gerilme durumunda kayaya aktarılan kuvvetlerin süreksizliklerden ötürü farklı noktalarda farklı büyüklüklere ulaşmasıdır. Parçadan parçaya kuvvet aktarımları sırasında pürüzlü çatlak yüzeylerinde gerilme yığılmaları oluşur. İkincil etmenler arasında ise süreksizlik yüzeylerinin geçmişteki oluşumları sırasında geçirdikleri örselenmeler ve buna bağlı olarak gelişen ayrışma olayları gösterilebilir. Sonuç olarak süreksizliklere yakın kesimlerde yer alan parçacık, iç kesimlere göre önceden daha fazla zorlanmış ve örselenmiştir. Parçacık küçüldükçe bu zayıf kesimlerin hacim içerisindeki payı artar, sonuçta çok parçalılık arttıkça kayanın dayanım parametreleri laboratuvarda incelenen taş örneklerinde bulunan değerlere kıyasla çok belirgin azalmalar gösterir.
+
+Sağlam kaya numuneleri üzerinde yapılan laboratuar deneylerinden elde edilen sonuçlar kayaçlara doğrudan uygulanamaz. Çatlaklar, kırıklar, fissürler, tabakalar, eklemler, faylar gibi kayaçların içindeki süreksizlik yüzeyleri ve bunlar üzerindeki pürüzler sağlamlığı azaltmakta ve dolayısıyla kayaçlar için sağlam numuneye oranla daha düşük taşıma ve dayanım elde edilmektedir.
+
+Kaya mekaniğinde kayaçların arazide sahip oldukları geomekanik büyüklükleri belirlemek için çok sayıda yöntem geliştirilmiştir (Hoek &amp; Brown, Lama, Denkhaus &amp; Bieniwaski, Protodjakonov gibi).
+
+Hoek &amp; Brown tarafından geliştirilen ve laboratuvar taş örneğinin tek eksenli basınç dayanımı değeri ile birlikte kayacın arazide sahip olduğu süreksizlik miktarını ve örselenme durumunu kullanarak hesaplama yöntemi, internetten sağlanabilen yazılımı (RocLab) ile uygulamalarda sıkça kullanılmaktadır.
+
+Modern kaya mekaniğinin kurucularından Müller L. tarafından temeli atılan ve Vardar tarafından geliştirilen bir başka yöntem ile kayacın dokusal özellikleri, süreksizlik özellikleri, tek eksenli basınç dayanımı ve sistem büyüklüğü kullanılarak kayaç için yerinde geomekanik büyüklükler hesaplanabilmektedir.
+
+Sistem büyüklüğü, teknik girişimin etkileşimde olduğu büyüklüktür. Uygulamada kazı açıklığının 8 katı olarak alınabilmektedir. Sistem büyüklüğü veya ölçek etkisi aynı ortamda dikkate alınan değerlendirme sınırıdır. Şekil 6.1' de görülebileceği gibi aynı ortam ne kadar küçük bir alan içerisinde incelenirse, o sistemde etkili olan süreksizliklerin sayısı da azalmış, kayaç monolite yaklaşmış olacaktır [12].
+
+DAVANIN
+
+<!-- image -->
+
+Şekil 6.1 Kaya mekaniğinde aynı ortamın sistem büyüklüğüne bağlı olarak farklı şekilde  
+davranmasının post-failure davranışı ile açıklanması [2]
+
+Kayaçların yerinde mekanik büyüklüklerinin saptanmasında kayaçların tek eksenli basınç
+
+dayanımlarından yola çıkılmaktadır. Şekil 6.2 bu dirençlerine bağlı olarak taş (laboratuvar
+
+örneği) - kaya (arazide) ilişkisini göstermektedir [23].
+
+<!-- image -->
+
+Şekil 6.2 Tek eksenli basınç direncine bağlı taş-kaya ilişkisi [2]
+
+Direnç düşüm sayısı (f) farklı kayaç türleri için post-failure deneylerinden elde edilmektedir. Çizelge 6.1'de farklı kayaç türleri için elde edilmiş değerleri gösterilmektedir.
+
+Çizelge 6.1 Farklı kayaç türleri için direnç düşüm değerleri
+
+| **Kayaç Türü**   | **Direnç düşüm sayısı “f”**   |
+|------------------|-------------------------------|
+| Obsidiyen        | >40                           |
+| Kuvarsit         | 30-40                         |
+| Granit           | 25-35                         |
+| Bazalt           | 20-30                         |
+| Kumtaşı          | 15-25                         |
+| Kireçtaşı        | 12-20                         |
+| Marn             | 8-15                          |
+| Kiltaşı          | 3-12                          |
+
+a değeri anizotropi sayısıdır. Yönlü örneklerde elde edilen tek eksenli basınç dirençlerinin karşılaştırılması ile ulaşılmaktadır. Büyüklük tek eksenli basınç dayanım değerlerinden minimum değer ile maksimum değerin birbirlerine olan oranından belirlenebilmektedir.
+
+„ 	 min
+
+(6.3)
+
+<!-- image -->
+
+a
+
+maks
+
+Kayacın teknik kohezyonu ve içsel sürtünme açısı aşağıdaki gibi hesaplanır;
+
+c kaya = c lab x
+
+*-\/F* X (°arazi / **O** lab )
+
+(6.4)
+
+<!-- image -->
+
+^kaya **\_** 90 (( 2 arctan ( 2 x c kaya / **O** kaya)) (6 - 5)
+
+Dış etkilere bırakılan kayanın içsel parametrelerinin zaman, su ve psödoplastikleşme ile alabileceği son değerler için Barton ve Bieniawski parametreleri ile
+
+c rez = c kaya x 0,018	(6.6)
+
+rez **=** kaya x Jw x RMRfinal / RMRbasic	(6.7)
+
+Hoek ve Brown tarafından geliştirilen yöntemde kayaçların türüne, dokusal özelliklerine, tek eksenli basınç dayanımlarına ve kazı yönteminin hassasiyetine bağlı olarak değerlendirme yapılmakta, kayaçların yerinde dayanımları belirlenebilmektedir. RocLab 1.0 programı kullanılarak kayaçların yerinde mekanik dayanımları kayaçların kalite ve yapısal özelliklerine bağlı olarak hesaplanabilmektedir (Çizelge 6.2).
+
+Çizelge 6.2 Kayaç Tek Eksenli Basınç Dayanımı Tahmini
+
+| **Derece**  **(Brown)**   | **Dayanım**               | **Tek Eksenli Basınç Dayanımı (MPa)**   | **Nokta Yükleme Indeksi (MPa)**   | **Arazideki Durumu**                                            | **Örnekler**                       |
+|---------------------------|---------------------------|-----------------------------------------|-----------------------------------|-----------------------------------------------------------------|------------------------------------|
+| R6                        | Çok yüksek dayanımlı      | >250                                    | >10                               | Sadece jeoloji çekici ile küçük parça kopmaları                 | Taze bazalt, diabaz, gnays, granit |
+| R5                        | Çok  dayanımlı            | 100-250                                 | 4-10                              | Kırılması için jeoloji çekici ile sıkça vurulmalı               | Bazalt, tüfit                      |
+| R4                        | Yüksek  dayanımlı         | 50-100                                  | 2-4                               | Kırılması için jeoloji çekici ile birden fazla darbe gerektirir | Kireçtaşı, kumtaşı, şist           |
+| R3                        | Orta  dayanımlı           | 25-50                                   | 1-2                               | Çakı ile çizilemez, jeoloji çekicinin tek darbesi ile kırılır   | Kiltaşı, kömür, beton, şist        |
+| R2                        | Zayıf  dayanımlı          | 5-25                                    | -                                 | Zorlanırsa çakı ile kesilebilir, çekiç ucu ile delinebilir      | Potas, kaya tuzu                   |
+| R1                        | Çok zayıf dayanımlı       | 1-5                                     | -                                 | Çekiç ucu ile vurulduğunda parçalanır, çakı ile kesilebilir     | Çok ayrışmış kayaç                 |
+| R0                        | Oldukça  zayıf  dayanımlı | 0.25-1                                  | -                                 | Tırnak ile çizilebilir                                          | Zemin                              |
+
+Hoek sınıflamalarında kullanılan mi, mb, s ve GSI değerleri ise aşağıdaki gibi bulunabilmektedir (Çizelge 6.3).
+
+Çizelge 6.3 Hoek sınıflamalarında kullanılan mi, mb, s ve GSI değerleri
+
+| **Kayaç**    |   **mi** | **Kayaç**   |   **mi** |
+|--------------|----------|-------------|----------|
+| Granit       |       33 | Gabro       |       27 |
+| Riyolit      |       16 | Dolorit     |       19 |
+| Obsidiyen    |       19 | Bazalt      |       17 |
+| Granadiyorit |       30 | Aglomera    |       20 |
+| Dasit        |       17 | Breş        |       18 |
+| Diyorit      |       28 | Tüf         |       15 |
+| Andezit      |       19 |             |          |
+
+( *GSI* -100 )
+
+***mb*** **=** ***mi x*** **10** **28**
+
+(6.8)
+
+*s* = 10
+
+( *GSI* - 100 ) ( 9 )
+
+(6.9)
+
+(a = 0,5 için)
+
+<!-- image -->
+
+ve
+
+a = 0,65 - (GSI / 200) ile belirlenebilmektedir. GSI &lt; 25 olduğu durumlarda s = 0 olarak alınmaktadır. GSI değeri aşağıdaki Çizelge 6.4 yardımı ile belirlenebilmektedir.
+
+<!-- image -->
+
+GSI değerine bağlı olarak kohezyon ve içsel sürtünme açıları aşağıdaki şekillerden bulunabilmektedir (Şekil 6.3, 6.4).
+
+ÛOt
+
+6.00Eİ
+
+10	20	30 4U 5U Ö0 70 Jeolojik **Dayanım [ndEİ=i(QHÇ)**
+
+Şekil 6.3 GSI ile c/c İlişkisi
+
+Şekil 6.4 GSI - İçsel Sürtünme Açısı İlişkisi
+
+<!-- image -->
+
+<!-- image -->
+
+##### 67 HOMOJEN BÖLGELENDİRME
+
+Yeraltı kaya yapısı güzergahı jeomorfoloji, jeoloji veya mühendislik jeolojisi açısından kendi içerisinde benzer özellik ve davranış gösteren kesimlere ayrılabilir. Homojen bölgelendirme (dar anlamda kayaç sınıfı) olarak tanımlanan bu çalışma ile yapım sırasında alınması gereken önlemler tariflenebilmektedir. Bu bölgeler önlem, işlem, yöntem değişimi gerektirmeyen ve risk açısından benzerlik gösteren kesimlerdir. Homojen bölgelendirme yapılırken kesimler; zemin-kaya kökeni, türü, dokanak sınırları, yeraltı su seviyesi, zemin kayaç özellikleri, niteliği, niceliği, süreksizlikler, ayrışma durumu, kaya kalitesi, porozite-geçirimlilik durumu, kayacın erime-kabarma-şişme özellikleri, geomekanik özellikler, kazılabilirlik, delinebilirlik, patlatılabilirlik özellikleri, güzergah morfolojisi ile yeraltı kaya yapısı ilişkisi (sığ-derin-çok derin tünel, portal bölgesi, yamaç tüneli, vadi-akarsu altında yer alan tünel, heyelan sahası vb) gibi özellikler dikkate alınarak ayrılırlar [1]. Şekil 7.1'de tünel güzergahı için bir bölgelendirme örneği verilmiştir.
+
+<!-- image -->
+
+-j
+
+<!-- image -->
+
+Tünel pro içlerinde boneleridirme
+
+Fİ: fıs lülfEt »tjı 6ı Fit BÜL£(fk 3; VUftVt YAKIN 1ÜHEU H&lt; 4M Cî ■! OtRı W,OfRİN, COK DERH tUHEl
+
+<!-- image -->
+
+HMUEM EÖLefttft Pf ffiV ZfbNLftftl
+
+Şekil 7.1 Tünel projelerinde homojen bölgelendirme [2]
+
+7. **YENİ AVUSTURYA TÜNEL AÇMA YÖNTEMİNİN ANALİZİNDE SONLU ELEMANLAR YÖNTEMİNİN KULLANIMI VE PLAXIS 3D TUNNEL HAKKINDA GENEL BİLGİ**
+##### 68 Yeni Avusturya Tünel Açma Yöntemine Uygun Hesap Yöntemleri
+
+Yeni Avusturya Tünel Açma Yönteminde tüneli çevreleyen kaya veya zemin ortamı; aynı zamanda tünel yapısına etkiyen yükü ve tünel kaplaması ile birlikte taşıyıcı sistemi oluşturduğu için, tünelin açımından önceki ve sonraki durumu bir arada içeren bir hesap modelinin hazırlanmasını zorlaştırmaktadır. Kazının ve destek sisteminin karşılıklı etkileşmesinden doğan ikincil gerilme durumunu tesbit edebilmek için, birincil gerilme durumunun belirlenmesi büyük önem taşır.
+
+Bu da heterojen, anizotrop ve süreksiz yapısından dolayı birçok kayaçta oldukça zordur. Tüm bu hesapların yapılabilmesi için geoteknik koşullar, statik sistem, hesap, kazı ve iksa yöntemleri, güvenlik kriterleri ve yerinde ölçümler bir bütün olarak ele alınmalıdır. Böylece çeşitli aşamalarda yapılabilen kabul hataları, koşulların daha iyi belirlenmesi ve tecrübe yardımıyla düzeltilebilir. Bu neden NATM'ın en önemli özelliklerinden biridir.
+
+Tünelin kazılmasından sonra oluşacak gerilme ve deformasyonlar ile tünel kaplamalarına gelecek yüklerin belirlenebilmesi için üç yaklaşım kullanılmaktadır. Bunlar: amprik yöntemler, analitik yöntemler ve sayısal yöntemlerdir. Bu yöntemler tek tek veya birlikte kullanılabilirler.
+
+Amprik yöntemler genellikle örnek zemin veya kaya üzerinde yapılan ölçümlere ve arazi verilerine dayanır. Geçmiş tünel kazıları ve deformasyon ölçümleri ile kaplama tipi seçimleri incelenerek hesaplamalarda kullanılır.
+
+Mühendislik mekaniğinde problem, basit elemanlara ayrılarak kolay çözülebilir eşitliklerle ifade edilir ve bu eşitlikler çözülerek analiz edilir. Analitik yöntemler bu tür çözümler üreten analiz yöntemleridir. Karmaşık şekilli kazılarda, kaya kırık zonları olan bölgelerde, simetrik olmayan problemlerde ve izostatik gerilme durumuna uymayan arazi gerilme durumlarında analitik yöntemler başarıyla uygulanamamaktadır. Bu tip problemlerde çözülmesi gereken eşitlik sayısı büyük oranda artmaktadır. Bunun sonucu olarak bu tür problemler için diğer yöntemler geliştirilmeye başlanmıştır.
+
+Tünel kazılarının karmaşık geometrik ve jeolojik biçimlere sahip olması durumunda gerilme- şekil değiştirme analizleri bölgelendirmeyi gerektirir. Bu analiz yöntemleri çok karışıktır ve elle hesaplanamazlar. Bu da sayısal yöntemlerin kullanılmasını gerektirir. Sayısal hesap yöntemleri tünel mühendisliğinde kullanılan hesap yöntemlerinin günümüzde tercih edilen en verimli ve karmaşık grubunu oluşturmaktadırlar. Bu durumuyla sayısal hesap yöntemleri analitik yöntemlerin ileri bir aşaması olarak görülebilir.
+
+Sayısal yöntemlere temel olan üç farklı model tanımlanmıştır. Bunlar süreklilik modeli, süreksizlik modeli ve yatak katsayısı modelleridir. Süreklilik modeline uygun sayısal yöntemler; sonlu elemanlar yöntemi, sonlu farklar yöntemi ve sınır elemanlar yöntemidir. Süreksizlik modeline uygun hesap yöntemi ayrık (bölgesel) elemanlar yöntemidir. Yatak katsayısı modeline uygun hesap yöntemi de elastik kiriş elemanlar yöntemidir [24].
+
+Bu tez kapsamında yapılan tünel analizlerinde sonlu elemanlar yöntemi kullanılan PLAXIS 3D TUNNEL programından yararlanılmıştır.
+
+##### 69 Sonlu Elemanlar Yöntemi
+
+Sayısal çözüm yöntemlerinden biri olan sonlu elemanlar yönteminin kullanımı, bilgisayar kullanımının artması ile birlikte hızla gelişme göstermiştir. Önceleri sadece yapı analizi için kullanılsa da, günümüzde dayandığı prensipler ve çalışma yönteminin uygunluğu neticesinde tüm mühendislik alanlarında kullanılmaktadır.
+
+Yöntemin genel çalışması incelendiğinde; herhangi bir sürekli ortamın sonlu eleman denilen (yani geometrik olarak tanımlı ve boyut olarak sınırlı) parçacıklara bölünmesi esas alınır (Şekil 8.1). Süreksizlikler ise ayrıca modellenebilmektedir. Bu elemanlar birbirlerine düğüm noktası denilen köşe noktalarından bağlıdırlar. Her bir sonlu elemana ait gerçek deplasman değerleri bazı basit fonksiyonlar yardımıyla kurulduktan sonra bu deplasmanların düğüm noktalarındaki değerleri yaklaşık olarak bulunur.
+
+Düşey kesit modeli
+
+2 boyutlu ağ 3 boyutlu model
+
+3 boyutlu ağ
+
+gerilme noktaları
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+6 dü ğ üm noktalı üçgen	Düğ üm noktaları	15 dü ğ üm noktalı kama
+
+Şekil 8.1 Sonlu Elemanlar yönteminde düğüm noktası, gerilme noktaları ve eleman [25]
+
+Bir sonlu elemanın davranış denklemi kullanılarak, düğüm noktalarının deplasman değerleri elde edilir. Tüm yapının davranış denklemleri ise yapıyı oluşturan elemanların denge denklemlerinin, elemanlar arasındaki deplasman sürekliliğini sağlayacak şekilde toplanması ile saptanır. Elde edilen bu denklemler bilinen deplasman sınır şartlarını sağlayacak şekilde değiştirildikten sonra ortaya genellikle, bilinmeyen değişkenleri deplasmanlar olan bir lineer cebirsel denklem takımı çıkar. Denklem takımının çözülmesi ile düğüm noktalarındaki deplasmanlar hesaplanmış olur. Bu deplasman değerlerinden türetilen ifadeler yardımıyla şekil değiştirme ve gerilme değerleri elde edilir. Bu çalışmada incelenen tüneller için oluşturulan bir sonlu elemanlar modeli Şekil 8.2'de gösterilmiştir.
+
+<!-- image -->
+
+Şekil 8.2 Kağıthane-Piyalepaşa Tünelleri  
+Km: 0+150 kesimi için oluşturulan sonlu elemanlar modeli
+
+Geoteknik mühendisliğinde geleneksel yöntemlerle çözülemeyen karmaşık problemlerin çözümünde sonlu elemanlar yönteminin kullanımı hızla gelişme göstermiştir. Özellikle tünel mühendisliğinde inşaat kademeleri, değişken zemin tabakaları, zeminin elasto-plastik özellikleri, zemin kaplama ilişkileri ve benzeri özellikler göz önüne alındığında bu yöntemin kullanılmasının büyük avantajları olduğu açıktır.
+
+Bu karmaşık problemlerin çözümünün yanı sıra sonlu elemanlar yöntemi; yapının son boyutlarında karara varılmasında, ölçüm tekniklerinden elde edilmiş gözlemsel davranışların değerlendirilmesinde, değişik yükleme ve geometri şartlarının uygulanmasında ve diğer yöntemler ile yapılmış tasarımın güçlendirilmesinde etkili bir şekilde kullanılabilmektedir.
+
+Yeni Avusturya Tünel Açma Yöntemi için oluşturulan bir Sonlu Elemanlar Modelinde bazı hususlara dikkat edilmelidir. Bunlar aşağıda sıralanmıştır [24]:
+
+1. Oluşturulan modelin dış sınırlarının bulunan şekil değiştirme, gerilme ve deplasman değerlerini etkilememesi için sınırların tünelden yeterince uzakta olması sağlanmalıdır.
+2. Yeraltının bilinmeyen parametreleri, yeraltı ve tünel davranışının karmaşıklığı ve zeminin yapısal denklemlerinin formüle edilmesindeki zorluklar nedeniyle gerçek koşulları modellemek çok zordur. Bütün koşulları detaylı şekilde modellemek ne yararlı ne de mümkün olduğu için basitleştirilmiş bir model kullanılmalıdır. Model basitleştirilmesi şu yaklaşımlardan birini veya birkaçını kullanarak yapılabilir.
+
+- Üç boyutlu durumların iki boyutta modellenmesi
+- Bölgesel simetrinin kullanılması
+- Zeminin ve tünel inşa aşamalarının basitleştirilerek modellenmesi.
+
+3. Bugün dünyada kullanılan, birçok genel amaçlı sonlu elemanlar programı vardır. Her programın kendi eleman şekilleri vardır. Programı kullanmadan önce özel yeraltı yapılarına uygun elemanları içerip içermediği incelenmelidir (örneğin: ankraj, tünel kaplaması, geogrid vs...).
+4. Yeraltının modellenmesi de, hesap modelinin oluşturulması kadar önemlidir. Aşağıda yaraltı modellenmesi sırasında dikkat edilmesi gereken hususlar sıralanmıştır.
+
+- Hesap modelinin basitleştirilmesi kavramı yeraltı modeli için de geçerlidir.
+- Analizin doğruluğu, çözümün yakınsaklığı ve sayısal hesap sırasındaki	yuvarlatma
+
+hatalarını en aza indirecek sonlu eleman tipinin ve boyutunun seçilmesine	dikkat
+
+edilmelidir.
+
+- Teknik girişim ile çevre etkileşimi (yeryüzündeki yapılar, altyapı tesisleri vs) modelleme esnasında dikkate alınmalıdır.
+- Yeraltı suyu dolaşımı, su-yapı etkileşiminin modellenmesi, kumlu zeminlerde sıvılaşma riskleri göz önünde bulundurulmalıdır.
+- Deprem vb dinamik yüklerin modellenmesi dikkatle yapılmalıdır. Göz ardı edilmemelidir.
+- Ortamı oluşturan mühendislik jeolojisi özelliklerinin (ayrışma durumu, çatlaklılık-kırık durumu gibi süreksizlikler, faylar, kayacın dokusal özellikleri, yerinde kaya dayanım özellikleri) geomekanik büyüklükler ile doğru olarak temsil edilmesi gereklidir.
+- Kazı ilerleme yönüne bağlı olarak tünel aynasında meydana gelecek gerilme ve deplasmanların belirlenmesine yönelik 3 boyutlu analiz yapılmalıdır.
+- NATM'ın temel prensiplerinden olan kademeli kazı aşamalarının ve esnek destekleme elemanlarının modellenmesi sağlanmalıdır.
+- Uygulanacak olan sağlamlaştırma ve iyileştirme elemanlarının modellenmesi yapılmalıdır.
+
+Bu sayısal hesaplamalar neticesinde; yüzeyin, yeraltının ve tünel kaplamasının deformasyonu, zemindeki, kaplamadaki ve zemin ile kaplama arasındaki gerilmeler elde edilir. Elde edilen bu gerilme ve deformasyon değerlerinin tünel inşası sırasında ve daha sonra doğrulanan ölçüm değerleri ile karşılaştırılması neticesinde çeşitli sonuçlara ulaşılır. Bunlar:
+
+• Tünel tasarı m ı ve hesapları nı n do ğ rulanması
+
+• Ölçülen değ erlerin yorumlanması ; hesaplanan değ erler arazide ölçülen değ erlerin önemini belirlemek için bir referans olmaktadır.
+
+• Sayı sal modelin geçerliliğinin kanıtlanması ve kalibrasyonu
+
+Model basitleştirmesinin etkisini öğrenmek ve tasarımında kullanılan malzeme ve zemin parametreleri tahminlerini doğrulamak için modelin onaylanması ve kalibrasyonu çoğunlukla gereklidir. Bu yapılmadan hesap sonuçlarının doğruluğunu belirlemek güçtür.
+
+##### 70 Kullanılan Program Plaxis 3D Tunnel Hakkında Genel Bilgi
+
+Günümüzde sonlu elemanlar yöntemini kullanarak yeraltı yapılarının hesabını yapan birçok program mevcuttur. Bu programlar kendi aralarında incelendiğinde, sonlu elemanlar yönteminde gerilme, deplasman ve şekil değiştirmeye dayalı analizlerde farklı prensiplere göre çözüm yapılabildiği görülmüştür.
+
+Kullanılan en yaygın yeraltı yapısı analiz ve tasarım programları PLAXIS, FLAC, UDEC, PHASE 2 ... olarak sayılabilir. Bu tez kapsamında 3 boyutlu sonlu eleman model tasarımı gerçekleştirilebilen PLAXIS 3D TUNNEL programı için, izinli paket program kullanılmıştır. Bu program lisanslı olup, Yıldız Teknik Üniversitesi İnşaat Fakültesi Geoteknik Anabilim Dalına tescillidir ve buradan alınan izinle kullanılmıştır.
+
+PLAXIS 1987 yılında Hollanda'nın Delft Teknoloji Üniversitesi tarafından geliştirilmeye başlanan, sonlu elemanlar yöntemine göre çalışan bir geoteknik mühendisliği analiz ve tasarım programıdır [25].
+
+İlk PLAXIS programı 2 boyutlu, gerilme ve deformasyon analizi yapan bir programdır. 2001 senesinde çeşitli çalışmalar sonucunda çıkarılan PLAXIS 3D TUNNEL; tünel ve yeraltı yapılarının analizi için geliştirilmiş analiz programıdır. Tünel modülü haricinde PLAXIS'in çeşitli geoteknik problemleri için hazırlanmış birçok modülü bulunmaktadır.
+
+##### 71 KAĞITHANE	-	PİYALEPAŞA	TÜNELLERİNİN	GEOTEKNİK
+
+##### DEĞERLENDİRİLMESİ VE SEM ANALİZLERİ
+
+##### 72 Giriş ve Çalışmanın Amacı
+
+İstanbul'un trafik sorununa karşı çeşitli çözüm önerileri getirilmiştir. Bunlar arasında Boğaz geçişini sağlayacak olan Marmaray Projesi, Anadolu ve Avrupa Yakasında inşa edilen metro hattı, Hafif Raylı Demiryolu Sistemleri, Metrobus projesi ve “Yedi Tepeye Yedi Tünel” projesi çözümler arasında en güncel uygulamalardır. Bu tünellerden yapımı halen devam etmekte olan Kağıthane - Piyalepaşa Karayolu Tünelleri'nin kullanıma açılması ile birlikte artan trafiği hafifletmenin yanısıra, mümkün mertebede trafiği yeraltına indirerek güzergahın olabildiğince kısaltılması öngörülmüştür.
+
+İstanbul Büyükşehir Belediyesi tarafından KİSKA-MAKYOL Adi Ortaklığı'na (KİSMAK) inşa ettirilen Kağıthane-Piyalepaşa Tünelleri “Yedi Tepe Yedi Tünel” Projesinin ilk ayağı olup, 9 m çaplı karayolu tünelleridir. Sağ tüp (1+744.563) gidiş, sol tüp (1+730.756) geliş,
+
+toplam 3475,3 m olan tüneller Kağıthane ilçesinden başlayarak Piyalepaşa Feriköy spor
+
+tesislerinde son bulmaktadır. Tünellerin derinliği Okmeydanı Kavşağı'nda (KM 1+0001+060) 67 m ile en fazla, Öztoprak Mahallesi'nde (KM 0+580-0+600) ise 14 m ile projenin en sığ yerini teşkil etmekte ve iki tüp arası mesafe ise 15,5 m'yi bulmaktadır. Tüneller, İstanbul geneline bakıldığında, en yoğun yerleşim yerlerinden olan Kağıthane İlçesi ve Şişli Okmeydanı mevkiinin altından geçmektedirler. Tünellerin kullanıma açılması ile İstanbul şehir içi trafiğiin büyük ölçüde rahatlayacağı ve karayolu ulaşımının olabildiğince yeraltına taşınacağı düşünülmektedir.
+
+Proje alanı, Kağıthane-Piyalepaşa Tünelleri olup, İstanbul İli, Kağıthane İlçesi, merkezi yerleşim alanının altından geçmektedir. Tünellerin giriş portali Kağıthane Örnektepe Mevkii'nde Kağıthane Viyadüğünün 250 m GB'sında Çamlık Sokak'ta bulunmaktadır. Çıkış Portali ise Piyalepaşa Bulvarı üzerinde Feriköy Spor tesislerinin 5 m KB'sında dır. Tünel giriş ve çıkış şantiyelerine şehir içi ulaşım yolları ile ulaşılabilmektedir.
+
+İstanbul Kağıthane İlçesinden Kasımpaşa Piyalepaşa Mevkisine uzanan sağ tüp 1+744.565 m, sol tüp 1+730.756 m uzunluğunda olan Kağıthane-Piyalepaşa Tünelleri morfolojik açıdan orta engebeli bir arazi profilinden geçmektedir [14]. Şekil 9.1'de güzergaha ait yer bulduru haritası verilmiştir.
+
+ıKMEYDANI
+
+**ANGIÇ**
+
+PÎYALEP,
+
+gfiSBggg
+
+Şekil 9.1 Güzergaha ait yer bulduru haritası
+
+İSL
+
+&lt;1
+
+**GZı**
+
+<!-- image -->
+
+##### 73 İnceleme Alanının Jeolojisi
+
+##### 74 Bölgesel Jeoloji
+
+İstanbul Bölgesinde Kumtaşı-sittaşı (grovak), şeyl ve kiltaşlarından oluşan fliş fasiyesinde çökelmiş Abdüsselamoğlu, Ş. (1963) tarafından Alt Karbonifer (Turnaziyen-Viziyen) yaşı tesbit edilen ve Trakya formasyonu olarak adlandırılan çökeller üzerine Orta Eosen- Alt Oligosen döneminde Kırklareli formasyonu kireçtaşları diskordan olarak çökelmiştir. Gerek Paleozoyik çökeller, gerekse Kırklareli formasyonu üzerine de uyumsuz olarak oturan Oligo- Miyosen dönemi çökelleri, bir taban çakıltaşı ile başlayıp kum-kil kireçtaşı ile ardalanarak, Üst Miyosen sonuna kadar kesiksiz çökelimini sürdürmüştür (Şekil 9.2 ve 9.3) [26].
+
+<!-- image -->
+
+Şekil 9.2 İstanbul ve çevresinin genel jeoloji haritası
+
+<!-- image -->
+
+Şekil 9.3 İstanbul ve yakın çevresi Tersiyer çökellerinin stratigrafik sütün kesiti
+
+##### 75 Genel Jeoloji
+
+İstanbul bölgesinde altta yer alan birimler Paleozoik yaşlıdır. Bu birimler Silüryen'den Alt Karbonifer'e kadar uyumlu bir istif oluştururlar. Genellikle kırıntılı ve karbonatça zengin bu birimler, tektonizmayla karışık bir yapı kazanmışlardır.
+
+Paleozoik yaşlı birimler Dolayoba, Kartal, Tuzla, Baltalimanı ve Trakya formasyonudur.
+
+En altta yer alan Silüryen yaşlı Dolayoba formasyonu, sıkı tutturulmuş kireçtaşlarından, kuvars kırıntılı kumtaşlarından ve yumrulu - bantlı kireçtaşlarından oluşur. Kireçtaşları genellikle resifal özelliktedir.
+
+Dolayoba formasyonu üzerine, Devoniyen yaşlı Kartal ve Tuzla formasyonları gelir. Kartal formasyonu; iri taneli kireçtaşı merceklerinden, yer yer karbonatlı şeyllerden, grovaklardan ve bol fosilli killi kireçtaşlarından meydana gelmiştir.
+
+Tuzla formasyonu ise; yumrulu kireçtaşı, kalkerli şeyl ve tabakalı çörtlerden oluşmuştur. Alt Karbonifer yaşlı Baltalimanı formasyonu, Tuzla formasyonu üzerine gelir ve çok sınırlı yüzlekler halindedir. Bu birim siyah renkli laminalı çörtlerden ibarettir.
+
+Trakya formasyonu ise; başlıca kahverenkli kumtaşı (grovak), şeyl ve kireçtaşı merceklerinden oluşur.
+
+Alt Karbonifer birimleri üzerine açısal uyumsuzlukla Eosen isitifi gelir. Killi kireçtaşı ve
+
+kireçtaşından oluşan Soğucak formasyonu, beyaz, sarımsı beyaz, veya grimsi, ince-orta katmanlı, sert, killi kireçtaşlarınca zengindir. Ara tabakalar halinde yumuşak marn katmanlarına da rastlanılır. Formasyon içinde sert, kalın katmanlı, masif kireçtaşı düzeyleri de yer alır. Bu düzeyler resifal özellik gösterirler.
+
+Soğucak kireçtaşları üzerine geçişli ve aşmalı olarak Ceylan formasyonu gelir. Marn ve kil ardışımı şeklinde çökelmiş olan Ceylan formasyonu üzerinde ise Oligosen'e ait bir isitif yer alır.
+
+İstanbul Yarımadasında Büyükçekmece-Hadımköy-Küçükçekmece arasındaki alanda karasal koşullarda gelişmiş, kırıntılı ve acısu karbonatlarından yapılmış bir istif izlenir. Gürpınar formasyonu olarak tanımlanan bu birim genellikle killerden, volkanik materyalden, kömürlü seviyelerden oluşur.
+
+Gürpınar formasyonu üzerine ise Çamurluhan formasyonu gelir. Bu birim; genellikle çakıltaşı, kumtaşı ve sarı, kahverenkli kumtaşı ara tabakalarını içeren, yeşil renkli kil ve marn ardışımından oluşur. Örgülü akarsu ürünü olan Çukurçeşme, gevşek tututurulmuş, blok, çakıl, kum ve siltten meydana gelir.
+
+Üst Miyosen döneminde gelişen geçici göllerde kil çökelimleri olmuştur. Hakim olarak yeşil renkli, ince laminalı, plastik killerden meydan gelen birim Güngören formasyonu olarak tanımlanmıştır.
+
+Bu formasyon ayrıca kireçtaşı ara katkılı olup tedrici olarak, Bakırköy formasyonuna geçer. Genelde acı su koşullarının egemen olduğu bu denizel ortam içinde kireçtaşı-marn ardalanması çökelmiş ve Bakırköy formasyonu olarak adlandırılmıştır [27].
+
+##### 76 Güzergah Jeolojisi
+
+Tünel güzergahı; İstanbul İli, Kağıthane İlçesi'nde olup, büyük bölümünün yerleşim alanı olması, az sayıdaki mostranın da ayrışmış olmalarına rağmen, tünel güzergahındaki mostraların, mekanik sondajların ve tünel portal aynalarındaki incelemelerin ışığında, proje sahasında Trakya Formasyonu Küçükköy tabakaları'nın hakim olduğu tespit edilmiştir. Trakya Formasyonu-Küçükköy tabakaları (Şekil 9.4) alttan üste doğru türbidit, kumtaşı, silttaşı, şeyl, kiltaşı çamurtaşı, grovak, iri kumtaşı tabakalarından oluşmaktadır.
+
+<!-- image -->
+
+Şekil 9.4 Trakya Serisi'nin (Trakya Formasyonu'nun) Lito-stratigrafik dikme kesiti [14]
+
+##### 77 Yapısal Jeoloji
+
+Çalışma alanının büyük kısmının yerleşim alanı olması sonucunda yüzeyde bölgenin yapısal jeolojisini sergileyecek oranda fay ve kırık gözlenememiştir. Ancak mekanik sondajlar, portal sahaları ve güzergahtaki arazi çalışmaları sonucunda elde edilen veriler ışığında jeolojik boy
+
+kesitlerde bölgenin aşırı faylı-kırıklı bir yapıya sahip olduğu tespit edilebilmiştir. Bölge,
+
+Hersiniyen orojenez döneminde (300-250 milyon yıl öncesinde), yaklaşık doğu-batı yönlerinden etkili olan basınç sistemleri sonucu kıvrılan birimler, alpin orojenez döneminde (yaklaşık 100 milyon yıl öncesinde) bu kez yaklaşık kuzey-güney yönlü basınçların etkisi ile farklı doğrultularda yeniden kırılmış, falyanmış, bindirmeli-naplı bir yapı kazanmıştır. Bu orojenez dönemlerinde, farklı doğrultularda kuvvetlerin etkisi sonucunda kuzey-güney yönünde çekme kuvvetlerine maruz kalmış ve normal faylar ile dilimlenmiştir.
+
+##### 78 Depremsellik
+
+Çalışma alanı 1. dereceden deprem bölgesi içerisinde yer almaktadır.
+
+##### 79 Hidrojeoloji
+
+Sondajlarda tespit edilen su seviyelerinin, yeraltı suyu seviyesi ya da çatlak sistemlerinde kapanan yüzey sular olduğunu tespit etmek mümkün olmamaktadır. Tünel içine sızan sular, tünel kazısı sırasında değişen basınç durumu ile formasyon içindeki çatlaklar, faylar ve ezik zonlardan sızan sulardır. Bu sular kazı sonrasında tünel yüzeyindeki kayaları etkilemekte ve sökülmelere neden olmaktadırlar. Bunun sebebi, süreksizliklerin yer yer kil, çoğunlukla kalsit dolgulu olmasıdır. Bu dolgular su ile yıkanmakta ve süreksizliklerin ayrılmasına sebep olmaktadırlar [14].
+
+##### 80 Mühendislik Jeolojisi
+
+##### 81 Mekanik Sondajların Değerlendirilmesi
+
+Mühendislik jeolojisi incelemeleri kapsamında güzergah üzerinde 10 adet mekanik sondaj yaptırılmıştır. Bu sondajlardan KP-SK 3, 4, 5, 6A, 7, 8 ve 9 sondajları tünelli kesimde yapılacak olan geoteknik değerlendirmeler için baz alınmıştır. Bu sondajlara ait loglar ekler bölümünde yer almaktadır.
+
+##### 82 KP-SK 3 sondajı
+
+Piyalepaşa portal sahası içerisinde, Km 0+628'de, sağ tüp ekseninden yapılmıştır. Ağız kotu
+
+55 m olan sondajda yeraltı su seviyesi 13 m derinlikte ölçülmüştür. 1.50 m siltli kumu
+
+takiben, 1.50-18.00 m'leri arası kahverengi-yeşilimsi, gri renkte, çok çatlaklı ve kırıklı, az ayrışmış, Grovak birimi kesilmiştir. 18.00-23.00 m'leri arasında yeşilimsi renkte, dayanımlı, az çatlaklı ve kırıklı, ayrışmış diyabaz sokulumu geçilmiş ve takiben 23.00-26.10 m'leri arasında yeşilimsi gri renkli, çok kırıklı ve çatlaklı, az ayrışmış, Grovak birimi kesilmiştir. 26.10-30.00 m'leri arasında siyahımsı gri renkli, çok çatlaklı ve kırıklı, az ayrışmış Silttaşı birimi kesilmiştir. Sondaj genelinde çatlak dolgusu kalsit olan birimde çatlak aralığı 1-3 mm arasında-dır. Çatlak yüzeyleri düz-düzlemseldir. Karot eksenine paralel olan bu süreksizlikler zaman zaman karot ekseni ile 45-50 o açılar yapmaktadırlar.
+
+##### 83 KP-SK 4 sondajı
+
+Polat Sokak'ta, Km 1+426'da, sağ tüp ekseni üzerinde yapılmıştır. Ağız kotu 68.20 m olan sondajda yeraltı su seviyesi 11.00m'de dir. İlk 4.5 m'de bitkisel toprak ve dolgu geçilen sondajda, 4.50-31.00 m arasında koyu gri renkli (açık gri renkli kiltaşı bantlı), az kırıklı ve çatlaklı, az ayrışmış Silttaşı birimi kesilmiştir. Çatlak dolgusu kalsit olan birimde, çatlak aralıkları 1-3 mm arasında olup, çatlak yüzeyleri düz-kaygan-düzlemseldir. Çatlaklar karot ekseni ile 45-50 o açılar yapmaktadırlar.
+
+##### 84 KP-SK 5 sondajı
+
+Mahmut Şevket Paşa Mahallesinde, Km 1+198'de sağ ve sol tüplerinin arasından yapılmıştır. Ağız kotu 90.30 m olan sondajda yeraltı su seviyesi 14.00 m' dedir. 7.50 m derinliğine kadar yeşilimsi gri renkli, çok kırıklı ve çatlaklı, ayrışmamış, silttaşı tabakaları kesilmiştir. 7.5065.00 m arası kahverengi gri renkli, çok kırıklı ve çatlaklı, ayrışmamış, Grovak, 45.50-54.00 m'leri arası koyu gri renkli, az ayrışmış, kırıklı ve çatlaklı, ayrışmamış kumtaşı-silttaşı ardalanması kesilmiştir. 14.00-15.00 m, 22.70-23.50 m, 28.50-29.50 m, 54.00-56.50 m‘leri arası aşırı kırıklı, ezilme zonları geçilmiştir. 65.00-73.00 m‘leri arası siyahımsı gri renkli, çok kırıklı ve çatlaklı, az ayrışmış Silttaşı birimi kesilmiştir. Çatlak dolgusu sondaj genelinde kalsit olup, çatlak aralığı 1-3 mm arasındadır. Çatlak yüzeyleri düz-düzlemsel ve yer yer kaygan-düzlemseldir. Karot eksenine paralel olan bu çatlaklar zaman zaman karot ekseni ile 45-75 o açılar yapmaktadırlar.
+
+##### 85 KP-SK 6A sondajı
+
+Okmeydanı'nda, E-5 Karayolu'nun KB'sında, Semavi Sokak'ta Km 1+018'da sağ tüp ekseni üzerinde yapılmıştır. Ağız kotu 98.70 m olan sondajda yeraltı su seviyesi 14.30 m'dedir. 0.00-1.00 m'leri arası bitkisel toprak ve dolguyu takiben, 1.00-43.00 m'leri arasında açık gri renkli, çok kırıklı ve çatlaklı, ayrışmamış kumtaşı-silttaşı ardalanması kesilmiştir. 43.0083.00 m'leri arası açık-koyu gri renkli, çok kırıklı ve çatlaklı, ayrışmamış, kumtaşı-silttaşı ardalanması kesilmiştir. Sondaj genelinde, çatlak dolgusu kalsit, çatlak aralıkları 1-3 mm arasında olan sondajda çatlak yüzeyleri düz-kaygan-düzlemseldir. Karot eksenine 45-50 o açılar yapan çatlaklarla birlikte karot eksenine paralel çatlaklarda görünmektedir.
+
+##### 86 KP-SK 7 sondajı
+
+Öztoprak Sokak'ta Km 0+586'da sol tüp ekseni üzerinde yapılmıştır. Ağız kotu 35.50 m olan sondajda yeraltı su seviyesi 10.20 m'de dir. İlk 2.50 m asfalt ve düzensiz dolgu ile geçilen sondajda 2.50-4.50 m'leri arası sarı renkli çok parçalı ve kırıklı, ayrışmış Grovak birimi kesilmiş, 22.50 m'ye kadar yeşilimsi gri renkli, çok kırık ve çatlaklı, ayrışmamış, kumtaşı- silttaşı ardalanması kesilmiştir. 11.00-21.10 m leri arası aşırı kırıklı bir yapı sergilemektedir. 22.50-28.00 m'leri arası açık gri renkli, kırıklı ve çatlaklı, az ayrışmış Grovak birimi kesilmiştir. Grovak birimini takiben 28.00-34.00 m'leri arası siyahımsı gri renkli, çok kırıklı ve çatlaklı, ayrışmamış Silttaşı birimi kesilmiştir. Sondaj genelinde çatlak dolgusu kalsit olup, çatlak aralıkları 1-5 mm arasındadır. Çatlak yüzeyleri sondaj genelinde düz-kaygan- düzlemsel iken 28.20-30.00 m'leri arası pürüzlü-düzlemseldir. Karot eksenine paralel olan çatlaklar zaman zaman karot ekseni ile 45-60 o açılar yapmaktadırlar.
+
+##### 87 KP-SK 8 sondajı
+
+Örnektepe Spor tesislerinin yanında, Km 0+307'de sağ tüp ekseni üzerinde yapılmıştır. Ağız kotu 72.85 m olan sondajda yeraltı su seviyesi 9.60 m'de dir. İlk 3.00 m bitiksel toprak ve dolguyu takiben 29.50 m'ye kadar kahverengimsi gri renkli, çok kırık ve çatlaklı, ayrışmış, Grovak birimi kesilmiştir. Çatlak dolgusu kalsit olan bu metreler arasında kalsit dolgusunun yer yer erimiş olduğu gözlemlenmiştir. Çatlak aralığı 0.5-1 cm arasında değişmekle birlikte çatlak yüzeyleri düz-lekeli-düzlemseldir. Çatlak sistemleri karot eksenine paralel yer yer karot ekseni ile 30-45 o açılar yapmaktadır. 29.50-70.20 m arası siyahımsı gri renkli, az kırıklı ve çatlaklı, ayrışmamış Silttaşı birimidir. Silttaşı birimi, masif görünümlü ve dayanımlıdır. Çatlak dolgusu kalsit olan 29.50-70.20 m'leri arası süreksizlikler 0.5-1.cm arasındadır. Çatlak yüzeyleri düz, yer yer kaygan, sondaj genelinde düzlemseldir. Karot eksenine paralel olan çatlaklar yanı sıra karot ekseni ile 30-45 o açılar yapan çatlak sistemleri vardır.
+
+##### 88 KP-SK 9 sondajı
+
+Km 0+177'de, sol tüpün 16.00 m kuzeyinde yapılmıştır. Ağız kotu 35.00 m olan sondajda yeraltı su seviyesi 14.50 m'de dir. İlk 1.50 m tamamen ayrışmış, bitkisel topraktan oluşan sondajda, 1.50-18.00 m'leri arası kahverengimsi yeşilimsi gri renkli, çok çatlaklı ve kırıklı, orta derecede ayrışmış Grovak kesilmiştir. Çatlak dolgusu sondaj genelinde kalsit olmasına rağmen yer yer killi çatlak dolguları gözlenmiştir. Çatlak aralıkları 1-3 mm çatlak yüzeyleri ise düz-düzlemseldir. Karot eksenine paralel olan çatlaklar yer yer karot ekseni ile 45-50 o açılar yapmaktadırlar. 18.00-30.00 m'leri arasında, yeşilimsi gri renkli, çok çatlaklı ve kırıklı, az ayrışmış, kumtaşı-silttaşı ardalanması kesilmiştir. 30.00-32.00 m'leri arası siyahımsı gri renkli çatlaklı ve kırıklı, az ayrışmış, Silttaşı birimi kesilmiştir. Çatlak aralıkları 6mm'den küçük, çatlak yüzeyleri kaygan ve düzlemsel, karot ekseni ile 35 o -40 o yapan çatlak sistemleri gözlenmiştir.
+
+##### 89 Fizikomekanik Deneyler
+
+Tünel güzergahının çeşitli yerlerinden alınan örnekler üzerinde İTÜ Mühendislik Jeolojisi ve Kaya Mekaniği laboratuarlarında çeşitli deneyler yapılmıştır. Aşağıdaki çizelgelerde deney sonuçları özetlenmiştir.
+
+Çizelge 9.1 Tek eksenli basınç dayanımı deneyi sonuçları
+
+| **Sondaj No**   | **Derinlik(m)**   |   **Basınç Dayanımı (kg/cm**  **2**  **)** |   **Elastisite Modülü (kg/cm**  **2**  **)** | **Litoloji**     |
+|-----------------|-------------------|--------------------------------------------|----------------------------------------------|------------------|
+| **KP-SK 3**     | 11-20             |                                        221 |                                        34205 | Kumtaşı          |
+|                 | 23-26             |                                        104 |                                        28477 | Kumtaşı          |
+| **KP-SK 4**     | 25-27             |                                        143 |                                        31500 | Silttaşı         |
+|                 | 29-31             |                                        484 |                                        36600 | Silttaşı         |
+| **KP-SK 5**     | 46-51             |                                        131 |                                        25468 | Silttaşı         |
+|                 | 29-34             |                                         39 |                                        20546 | Kumtaşı          |
+|                 | 55-61             |                                        150 |                                        23884 | Kumtaşı          |
+|                 | 65-70             |                                        282 |                                        54008 | Kumtaşı          |
+| **KP-SK 6/A**   | 50-51.2           |                                        193 |                                        42671 | Silttaşı         |
+|                 | 58-60             |                                         96 |                                        19563 | Kumtaşı          |
+|                 | 68-70             |                                        393 |                                       100259 | Kumtaşı-Silttaşı |
+| **KP-SK 7**     | 13-15             |                                        331 |                                        45856 | Kumtaşı          |
+|                 | 23-25             |                                        465 |                                        67127 | Kumtaşı          |
+|                 | 26-28             |                                        282 |                                        91278 | Silttaşı         |
+| **KP-SK 8**     | 36-38.5           |                                        491 |                                        57863 | Silttaşı         |
+|                 | 45-47             |                                        243 |                                        70917 | Silttaşı         |
+|                 | 53.6-55.8         |                                        489 |                                        72727 | Silttaşı         |
+|                 | 63-68             |                                        308 |                                        73876 | Silttaşı         |
+| **KP-SK 9**     | 7.5-10.5          |                                        128 |                                        45695 | Silttaşı         |
+|                 | 17-21.5           |                                        266 |                                        43877 | Kumtaşı-Silttaşı |
+|                 | 27-32             |                                        257 |                                        80352 | Silttaşı         |
+
+| Sondaj No   |   Yk  (gr/cm  3  ) |   Yd (gr/cm  3  ) |   n(%) |   Sa(%) | Litoloji   |
+|-------------|--------------------|-------------------|--------|---------|------------|
+| KP-SK 1     |               2.65 |              2.67 |   2.04 |    2.08 | Kumtaşı    |
+| KP-SK 2     |               2.58 |              2.61 |   2.65 |    2.72 | Kumtaşı    |
+| KP-SK 3     |               2.64 |              2.67 |   2.38 |    0.90 | Kumtaşı    |
+| KP-SK 3     |               2.72 |              2.74 |   2.03 |    0.74 | Silttaşı   |
+| KP-SK 4     |               2.67 |              2.72 |   4.09 |    4.27 | Silttaşı   |
+| KP-SK 5     |               2.63 |              2.67 |   3.98 |    1.51 | Kumtaşı    |
+| KP-SK 5     |               2.66 |               2.7 |   3.47 |    1.30 | Silttaşı   |
+| KP-SK 5     |               2.67 |              2.69 |   1.41 |    0.46 | Kumtaşı    |
+| KP-SK 6/A   |               2.67 |              2.70 |   2.88 |    2.97 | Kumtaşı    |
+| KP-SK 7     |               2.24 |              2.26 |   1.03 |    1.04 | Kumtaşı    |
+| KP-SK 8     |               2.64 |              2.66 |   2.31 |    0.87 | Kumtaşı    |
+| KP-SK 8     |               2.75 |              2.77 |   1.34 |    0.48 | Silttaşı   |
+| KP-SK 9     |               2.62 |              2.68 |   5.22 |    1.99 | Silttaşı   |
+| KP-SK 9     |               2.66 |              2.67 |   1.81 |    0.68 | Kumtaşı    |
+
+Tek eksenli basınç dayanımı, üç eksenli basınç dayanımı ve çekme dayanımlarına göre Mohr çemberleri çizilerek geomekanik parametreler elde edilmiştir. Bulunan değerler Çizelge 9.3'te verilmiştir.
+
+Çizelge 9.3 Deney sonuçlarından Mohr diyagramında elde edilen geomekanik parametreler
+
+| **Sondaj No**   | **Derinlik (m)**   | **0(û)**   | **c (kg/cm**  **2**  **)**   | **Litoloji**     |
+|-----------------|--------------------|------------|------------------------------|------------------|
+| **KP-SK 3**     | 11.0-20.00         | 51-54      | 43.45-76.81                  | Kumtaşı          |
+|                 | 23-26              | 11-49      | 52.2-114                     | Kumtaşı          |
+| **KP-SK 4**     | 25-27              | 67         | 17.93                        | Silttaşı         |
+|                 | 29-31              | 72         | 35.3                         | Silttaşı         |
+| **KP-SK 5**     | 29-34              | 40-54      | 40-71.5                      | Kumtaşı          |
+|                 | 46-51              | 27-52      | 32.2-82                      | Silttaşı         |
+|                 | 56-61              | 28-54      | 50-121.5                     | Kumtaşı          |
+|                 | 65-70              | 52-65      | 49.5-98.8                    | Kumtaşı          |
+| **KP-SK 6/A**   | 50-51.2            | 64-71      | 16.2-23                      | Kumtaşı          |
+|                 | 58-60              | 66-69      | 7.9-8.9                      | Silttaşı         |
+|                 | 68-70              | 50-58      | 55.9-69.4                    | Kumtaşı/Silttaşı |
+| **KP-SK 7**     | 23-25              | 76         | 4.1                          | Kumtaşı          |
+|                 | 26-28              | 69         | 25.5                         | Kumtaşı          |
+| **KP-SK 8**     | 36-38.5            | 40-60      | 51-116.6                     | Silttaşı         |
+|                 | 45-47              | 18-55      | 50-128.3                     | Silttaşı         |
+|                 | 53.6-55.8          | 44-54      | 109.6-142                    | Silttaşı         |
+|                 | 63-68              | 45-57      | 109.7-140.1                  | Silttaşı         |
+| **KP-SK 9**     | 7.5-10.5           | 33         | 34.8                         | Silttaşı         |
+|                 | 17-21.5            | 41-56      | 29.5-76.1                    | Silttaşı         |
+|                 | 27-32              | 26         | 80.4                         | Kumtaşı          |
+
+##### 90 Kağıthane-Piyalepaşa Tünelleri Kaya Kalite Sınıflamaları
+
+Kağıthane-Piyalepaşa Tünelleri güzergahında gerçekleştirilen saha çalışmaları, mekanik sondaj çalışmaları ve İTÜ MJKM laboratuarlarında sahadan alınan karotlar üzerinde yapılan deneyler sonucunda elde edilen veriler ışığında Q-Barton ve RMR kaya kalite sınıflamaları yapılmıştır. Bu çalışmalar mühendislik jeolojisi kapsamında olup, kaya kalite sınıflamalarıyla tünellerde kullanılacak destek sistemleri belirlenebilmektedir. Q-Barton ve RMR kaya kalite sınıflamaları Çizelge 9.4 ve Çizelge 9.5'te gösterilmiştir. Çizelge 9.4 ve Çizelge 9.5'te mavi dolgu rengi ile gösterilen bölümler tünel derinliğindeki özellikleri göstermektedir.
+
+Çizelge 9.4 Q-Barton kaya kalite sınıflaması
+
+| **Sondaj No**   | **Derinlik**   | **Litoloji**   |   **RQD %** | **Q-Barton**   |        |        |        |         |       |
+|-----------------|----------------|----------------|-------------|----------------|--------|--------|--------|---------|-------|
+|                 |                |                |             | **Jn**         | **Jr** | **Ja** | **Jw** | **SRF** | **Q** |
+| KP-SK 3         | 11-20          | Kumtaşı        |          25 | 6              | 1      | 0.75   | 1      | 5       | 1.11  |
+| KP-SK 3         | 23-26          | Kumtaşı        |          35 | 2              | 1      | 0.75   | 1      | 5       | 4.67  |
+| KP-SK 4         | 25-27          | Silttaşı       |          50 | 2              | 1      | 0.75   | 1      | 2.5     | 13.33 |
+| KP-SK 4         | 29-31          | Silttaşı       |          50 | 2              | 0.5    | 0.75   | 1      | 2.5     | 6.67  |
+| KP-SK 5         | 29-34          | Kumtaşı        |          20 | 9              | 0.5    | 1      | 1      | 5       | 0.22  |
+| KP-SK 5         | 46-51          | Silttaşı       |          25 | 4              | 0.5    | 0.75   | 1      | 2.5     | 1.67  |
+| KP-SK 5         | 56-61          | Kumtaşı        |          20 | 9              | 1      | 0.75   | 1      | 2.5     | 1.19  |
+| KP-SK 5         | 65-70          | Kumtaşı        |          15 | 9              | 0.5    | 0.75   | 1      | 2.5     | 0.44  |
+| KP-SK 6/A       | 50-51.2        | Kumtaşı        |          30 | 4              | 0.5    | 0.75   | 1      | 5       | 1.00  |
+| KP-SK 6/A       | 58-60          | Silttaşı       |          55 | 4              | 1      | 0.75   | 1      | 2.5     | 7.33  |
+| KP-SK 6/A       | 68-70          | Kmt-Siltş      |          20 | 4              | 0.5    | 0.75   | 1      | 5       | 0.67  |
+| KP-SK 7         | 23-25          | Kumtaşı        |          75 | 9              | 1      | 0.75   | 1      | 5       | 2.22  |
+| KP-SK 7         | 26-28          | Kumtaşı        |          75 | 4              | 0.5    | 0.75   | 1      | 5       | 2.50  |
+| KP-SK 8         | 36-38.5        | Silttaşı       |          65 | 4              | 0.5    | 0.75   | 1      | 2.5     | 4.33  |
+| KP-SK 8         | 45-47          | Silttaşı       |          80 | 4              | 0.5    | 0.75   | 1      | 2.5     | 5.33  |
+| KP-SK 8         | 53.6-55.8      | Silttaşı       |          95 | 4              | 1      | 0.75   | 1      | 2.5     | 12.67 |
+| KP-SK 8         | 63-68          | Silttaşı       |          35 | 9              | 1      | 0.75   | 1      | 2.5     | 2.07  |
+| KP-SK 9         | 7.5-10         | Silttaşı       |          45 | 9              | 1      | 1      | 0.66   | 5       | 0.66  |
+| KP-SK 9         | 17-21.5        | Silttaşı       |          40 | 9              | 1      | 1      | 0.66   | 5       | 0.59  |
+| KP-SK 9         | 27-32          | Kumtaşı        |          25 | 4              | 1      | 1      | 1      | 5       | 1.25  |
+
+Çizelge 9.5 RMR kaya kalite sınıflaması
+
+| **Sondaj**  **No**   | **Derinlik**   | **Litoloji**   |   **Kayacın**  **Dayanımı**  **(MPa)** |   **Derece.** |   **RQD %** |   **Derece.** |   **Eklem**  **Sıklığı**  **Derecesi** |   **Eklem**  **Durumu**  **Derecesi** |   **Yeraltı**  **Suyu**  **Derecesi** |   **Toplam** | **Kaya**  **Kalitesi**   |
+|----------------------|----------------|----------------|----------------------------------------|---------------|-------------|---------------|----------------------------------------|---------------------------------------|---------------------------------------|--------------|--------------------------|
+| KP-SK 3              | 11-20          | Kumtaşı        |                                   22.1 |             2 |          25 |             8 |                                      5 |                                    20 |                                     7 |           42 | Orta Kalite              |
+| KP-SK 3              | 23-26          | Kumtaşı        |                                  10.44 |             2 |          35 |             8 |                                      5 |                                    20 |                                     7 |           42 | Orta Kalite              |
+| KP-SK 4              | 25-27          | Silttaşı       |                                   14.3 |             2 |          50 |            13 |                                      5 |                                    20 |                                     7 |           47 | Orta Kalite              |
+| KP-SK 4              | 29-31          | Silttaşı       |                                   48.4 |             4 |          50 |            13 |                                      5 |                                    20 |                                     7 |           49 | Orta Kalite              |
+| KP-SK 5              | 29-34          | Kumtaşı        |                                  13.15 |             2 |          20 |             3 |                                      5 |                                     6 |                                     7 |           23 | Zayıf Kalite             |
+| KP-SK 5              | 46-51          | Silttaşı       |                                    3.9 |             1 |          25 |             8 |                                      5 |                                     6 |                                     7 |           27 | Zayıf Kalite             |
+| KP-SK 5              | 56-61          | Kumtaşı        |                                     15 |             2 |          20 |             3 |                                      5 |                                    20 |                                     7 |           37 | Zayıf Kalite             |
+| KP-SK 5              | 65-70          | Kumtaşı        |                                  28.25 |             4 |          15 |             3 |                                      5 |                                     6 |                                     7 |           25 | Zayıf Kalite             |
+| KP-SK  6/A           | 50-51.2        | Kumtaşı        |                                   19.3 |             2 |          30 |             8 |                                      5 |                                     6 |                                     7 |           28 | Zayıf Kalite             |
+|                      | 58-60          | Silttaşı       |                                    9.6 |             1 |          55 |            13 |                                      5 |                                    20 |                                     7 |           46 | Orta Kalite              |
+|                      | 68-70          | Kmt-Siltş      |                                   39.3 |             4 |          20 |             3 |                                      5 |                                     6 |                                     7 |           25 | Zayıf Kalite             |
+| KP-SK 7              | 23-25          | Kumtaşı        |                                   46.5 |             4 |          75 |            17 |                                      5 |                                    20 |                                     7 |           53 | Orta Kalite              |
+| KP-SK 7              | 26-28          | Kumtaşı        |                                   28.2 |             4 |          75 |            17 |                                      5 |                                    20 |                                     7 |           53 | Orta Kalite              |
+| KP-SK 8              | 36-38.5        | Silttaşı       |                                  49.16 |             4 |          65 |            13 |                                     10 |                                    20 |                                     7 |           54 | Orta Kalite              |
+| KP-SK 8              | 45-47          | Silttaşı       |                                  24.32 |             2 |          80 |            17 |                                     10 |                                    20 |                                     7 |           56 | Orta Kalite              |
+| KP-SK 8              | 53.6-55.8      | Silttaşı       |                                  48.96 |             4 |          95 |            20 |                                     10 |                                    20 |                                     7 |           61 | İyi Kalite               |
+| KP-SK 8              | 63-68          | Silttaşı       |                                  30.85 |             4 |          35 |             8 |                                     10 |                                    20 |                                     7 |           49 | Orta Kalite              |
+| KP-SK 9              | 7.5-10         | Silttaşı       |                                   12.8 |             2 |          45 |             8 |                                      5 |                                    20 |                                     7 |           42 | Orta Kalite              |
+| KP-SK 9              | 17-21.5        | Silttaşı       |                                  26.65 |             4 |          40 |             8 |                                      5 |                                    20 |                                     7 |           44 | Orta Kalite              |
+| KP-SK 9              | 27-32          | Kumtaşı        |                                   25.7 |             4 |          25 |             8 |                                      5 |                                    20 |                                     7 |           44 | Orta Kalite              |
+
+Hoek ve Brown tarafından geliştirilen yöntemde kayaçların türüne, dokusal özelliklerine, tek eksenli basınç dayanımlarına ve kazı yönteminin hassasiyetine bağlı olarak değerlendirme yapılmakta, kayaçların yerinde dayanımları belirlenebilmektedir. RocLab 1.0 programı kullanılarak kayaçların yerinde mekanik dayanımları kayaçların kalite ve yapısal özelliklerine bağlı olarak hesaplanmış ve teorik yöntemlerle elde edilenler ile karşılaştırılmıştır. Aşağıda örnek olarak KP-SK 3 sondajında 11-20 metreleri arası için yapılan RocLab analizi gösterilmiştir (Şekil 9.5). Diğer sondajlar için yapılan analiz sonuçları Çizelge 9.6' da verilmiştir.
+
+KP-SK 3 sondajı 11-20 metre derinliğinde bulunan Kumtaşı için yerinde kaya dayanım
+
+parametrelerinin bulunması:
+
+Tek Eksenli Basınç Dayanımı: o lab = 22,1 MPa
+
+GSI = 42 (=RMR alınmıştır)
+
+mi = 15 (Kumtaşı)
+
+D = 0 (tünellerde kontrollü patlatma)
+
+Tünel Derinliği= 15 m
+
+Yukarıda verilen değerlere göre hesaplanan büyüklükler aşağıdaki gibidir;
+
+Yerinde Tek Eksenli Basınç Dayanımı: o in-situ = 0,826 MPa
+
+Kohezyon c = 1,44 MPa
+
+İçsel Sürtünme Açısı = 57 o
+
+Elastisite Modülü = 1112 MPa
+
+<!-- image -->
+
+Çizelge 9.7'de kaya sınıflandırmaları ve laboratuar deney sonuçları ile birlikte Hoek-Brown yöntemi ile elde edilen yerinde kaya dayanım parametreleri özetlenmiştir.
+
+Çizelge 9.6 Kayaçların yerinde dayanım parametreleri (Hoek - Brown)
+
+| **Sondaj**  **No**   | **Derinlik**  **(m)**   | Yd  **(gr/cm**  **3**  **)**   | **Basınç**  **Direnci**   | **Elastisite**  **Modülü**   | **Litoloji**   |   **10** | **c**  **(kg/cm**  **2**  **)**   | **Kaya**  **Kalitesi**   |
+|----------------------|-------------------------|--------------------------------|---------------------------|------------------------------|----------------|----------|-----------------------------------|--------------------------|
+|                      |                         |                                | **(kg/cm**  **2**  **)**  | **(kg/cm**  **2**  **)**     |                |          |                                   |                          |
+| **KP-SK**  **3**     | 1 1 -20                 | 2,67                           | 221                       | 1 1 1 20                     | Kumtaşı        |       57 | 1,44                              | Orta  Kalite             |
+|                      | 23-26                   | 2,67                           | 104                       | 5253                         | Kumtaşı        |       52 | 1,00                              | Orta  Kalite             |
+| **KP-SK**  **4**     | 25-27                   | 2,72                           | 143                       | 13660                        | Silttaşı       |       52 | 1,87                              | Orta  Kalite             |
+|                      | 29-31                   | 2,72                           | 484                       | 43341                        | Silttaşı       |       60 | 3,40                              | Orta  Kalite             |
+| **KP-SK**  **5**     | 29-34                   | 2,67                           | 39                        | 573                          | Kumtaşı        |       29 | 1,03                              | Zayıf  Kalite            |
+|                      | 46-51                   | 2,70                           | 1 31                      | 3325                         | Silttaşı       |       40 | 1,82                              | Zayıf  Kalite            |
+|                      | 56-61                   | 2,69                           | 150                       | 5362                         | Kumtaşı        |       44 | 2,27                              | Zayıf  Kalite            |
+|                      | 65-70                   | 2,60                           | 282                       | 4650                         | Kumtaşı        |       44 | 2,17                              | Zayıf  Kalite            |
+| **KP-SK**  **6/A**   | 50-51.2                 | 2,70                           | 1 93                      | 3806                         | Kumtaşı        |       41 | 2,29                              | Zayıf  Kalite            |
+|                      | 58-60                   | 2,72                           | 96                        | 8597                         | Silttaşı       |       43 | 2,62                              | Orta  Kalite             |
+|                      | 68-70                   | 2,72                           | 393                       | 6469                         | Kumtaşı        |       46 | 2,84                              | Zayıf  Kalite            |
+| **KP-SK**  **7**     | 23-25                   | 2,26                           | 465                       | 46811                        | Kumtaşı        |       64 | 3,48                              | Orta  Kalite             |
+|                      | 26-28                   | 2,26                           | 282                       | 28389                        | Kumtaşı        |       62 | 2,35                              | Orta  Kalite             |
+| **KP-SK**  **8**     | 36-38.5                 | 2,77                           | 491                       | 71329                        | Silttaşı       |       50 | 6,39                              | Orta  Kalite             |
+|                      | 45-47                   | 2,77                           | 243                       | 39223                        | Silttaşı       |       46 | 4,19                              | Orta  Kalite             |
+|                      | 53.6  55.8              | 2,77                           | 489                       | 99642                        | Silttaşı       |       51 | 9,11                              | İyi  Kalite              |
+|                      | 63-68                   | 2,77                           | 308                       | 33427                        | Silttaşı       |       46 | 3,74                              | Orta  Kalite             |
+| **KP-SK**  **9**     | 7.5-10.5                | 2,68                           | 1 28                      | 8782                         | Silttaşı       |       44 | 1 ,24                             | Orta  Kalite             |
+|                      | 17-21.5                 | 2,68                           | 266                       | 20917                        | Silttaşı       |       50 | 2,08                              | Orta  Kalite             |
+|                      | 27-32                   | 2,67                           | 257                       | 1 4793                       | Kumtaşı        |       57 | 2,05                              | Orta  Kalite             |
+
+| SONDAJ  NO   | DERİNLİK  (m)   |   Yd  (gr/cm  3  ) |   TEK  EKSENLİ  BASINÇ  DAYANIMI  (kg/cm  2  ) | LİTOLOJİ   | RQD   | RMR   | KAYA  KALİTESİ   | GEOMEKANİK PARAMETRELER   | GEOMEKANİK PARAMETRELER   | GEOMEKANİK PARAMETRELER   | GEOMEKANİK PARAMETRELER      | GEOMEKANİK PARAMETRELER   | GEOMEKANİK PARAMETRELER   |
+|--------------|-----------------|--------------------|------------------------------------------------|------------|-------|-------|------------------|---------------------------|---------------------------|---------------------------|------------------------------|---------------------------|---------------------------|
+|              |                 |                    |                                                | LİTOLOJİ   | RQD   | RMR   |                  | LABORATUAR SONUÇLARI      | LABORATUAR SONUÇLARI      | LABORATUAR SONUÇLARI      | IN-SITU (YERİNDE)  SONUÇLARI |                           |                           |
+|              |                 |                    |                                                | LİTOLOJİ   | RQD   | RMR   |                  | MOHR DİYAGRAMI            | MOHR DİYAGRAMI            | MOHR DİYAGRAMI            | HOEK- BROWN (RocLab).        | HOEK- BROWN (RocLab).     | HOEK- BROWN (RocLab).     |
+|              |                 |                    |                                                | LİTOLOJİ   | RQD   | RMR   |                  | <K°)                      | (kg/cm  2  )              | E  (kg/cm  2  )           | <t>(°)                       | (kg/cm  2  )              | E  (kg/cm  2  )           |
+| KP-SK 3      | 11-20           |               2.67 |                                         221.00 | Kumtaşı    | 25    | 42    | Orta Kalite      | 51-54                     | 43.4-  76.81              | 34205                     | 55                           | 0.9                       | 221                       |
+| KP-SK 3      | 23-26           |               2.67 |                                         104.40 | Kumtaşı    | 35    | 42    | Orta Kalite      | 11-49                     | 52.2-114                  | 28477                     | 50                           | 0.7                       | 104                       |
+| KP-SK 4      | 25-27           |               2.72 |                                         143.00 | Silttaşı   | 50    | 47    | Orta Kalite      | 67                        | 17.93                     | 31500                     | 40                           | 1.0                       | 143                       |
+| KP-SK 4      | 29-31           |               2.72 |                                         484.00 | Silttaşı   | 50    | 46    | Orta Kalite      | 72                        | 35.3                      | 36600                     | 48                           | 1.8                       | 484                       |
+| KP-SK 5      | 29-34           |               2.67 |                                         131.50 | Kumtaşı    | 20    | 23    | Zayıf Kalite     | 40-54                     | 40-71.5                   | 25468                     | 31                           | 1.1                       | 39                        |
+| KP-SK 5      | 46-51           |                2.7 |                                          39.00 | Silttaşı   | 25    | 27    | Zayıf Kalite     | 27-52                     | 32.2-82                   | 20546                     | 33                           | 1.3                       | 131                       |
+| KP-SK 5      | 56-61           |               2.69 |                                         150.00 | Kumtaşı    | 20    | 37    | Zayıf Kalite     | 28-54                     | 50-121.5                  | 23884                     | 42                           | 1.8                       | 150                       |
+| KP-SK 5      | 65-70           |               2.69 |                                         282.50 | Kumtaşı    | 15    | 25    | Zayıf Kalite     | 52-65                     | 49.5-98.8                 | 54008                     | 46                           | 2.3                       | 282                       |
+| KP-SK 6/A    | 50-51.2         |                2.7 |                                         193.00 | Kumtaşı    | 30    | 28    | Zayıf Kalite     | 64-71                     | 16.2-23                   | 42671                     | 42                           | 2.5                       | 193                       |
+| KP-SK 6/A    | 58-60           |               2.72 |                                          96.00 | Silttaşı   | 55    | 46    | Orta Kalite      | 66-69                     | 7.9-8.9                   | 19563                     | 30                           | 1.5                       | 96                        |
+| KP-SK 6/A    | 68-70           |               2.72 |                                         393.00 | Kmt-Siltş  | 20    | 25    | Zayıf Kalite     | 50-58                     | 55.9-69.4                 | 100259                    | 38                           | 2.2                       | 393                       |
+
+| SONDAJ  NO   | DERİNLİK  (m)   |   yd  (gr/cm3) |   TEK  EKSENLİ  BASINÇ  DAYANIMI  (kg/cm2) | LİTOLOJİ   | RQD   | RMR   | KAYA  KALİTESİ   | GEOMEKANİK PARAMETRELER   | GEOMEKANİK PARAMETRELER   | GEOMEKANİK PARAMETRELER   | GEOMEKANİK PARAMETRELER      | GEOMEKANİK PARAMETRELER   | GEOMEKANİK PARAMETRELER   |
+|--------------|-----------------|----------------|--------------------------------------------|------------|-------|-------|------------------|---------------------------|---------------------------|---------------------------|------------------------------|---------------------------|---------------------------|
+|              |                 |                |                                            | LİTOLOJİ   | RQD   | RMR   |                  | LABORATUAR SONUÇLARI      | LABORATUAR SONUÇLARI      | LABORATUAR SONUÇLARI      | IN-SITU (YERİNDE)  SONUÇLARI |                           |                           |
+|              |                 |                |                                            | LİTOLOJİ   | RQD   | RMR   |                  | MOHR DİYAGRAMI            | MOHR DİYAGRAMI            | MOHR DİYAGRAMI            | HOEK- BROWN (RocLab).        | HOEK- BROWN (RocLab).     | HOEK- BROWN (RocLab).     |
+|              |                 |                |                                            | LİTOLOJİ   | RQD   | RMR   |                  | <&#124;)(o)               | c  (kg/cm 2)              | E  (kg/cm  2  )           | <&#124;)(o)                  | c  (kg/cm 2)              | E  (kg/cm  2  )           |
+| KP-SK 7      | 23-25           |           2.26 |                                     465.00 | Kumtaşı    | 75    | 53    | Orta Kalite      | 76                        | 4.1                       | 45856                     | 60                           | 1.4                       | 46811                     |
+| KP-SK 7      | 26-28           |           2.26 |                                     282.00 | Kumtaşı    | 75    | 53    | Orta Kalite      | 69                        | 25.5                      | 67127                     | 56                           | 1.1                       | 28389                     |
+| KP-SK 8      | 36-38.5         |           2.77 |                                     491.60 | Silttaşı   | 65    | 54    | Orta Kalite      | 40-60                     | 51-116.6                  | 91278                     | 45                           | 3.0                       | 71329                     |
+| KP-SK 8      | 45-47           |           2.77 |                                     243.20 | Silttaşı   | 80    | 56    | Orta Kalite      | 18-55                     | 50-128.3                  | 57863                     | 39                           | 2.0                       | 39223                     |
+| KP-SK 8      | 53.6-55.8       |           2.77 |                                     489.60 | Silttaşı   | 95    | 61    | İyi Kalite       | 44-54                     | 109.6-142                 | 70917                     | 46                           | 3.2                       | 99642                     |
+| KP-SK 8      | 63-68           |           2.77 |                                     308.50 | Silttaşı   | 35    | 49    | Orta Kalite      | 45-57                     | 109.7-  140.1             | 72727.8                   | 40                           | 2.0                       | 33427                     |
+| KP-SK 9      | 7.5-10          |           2.68 |                                     128.00 | Silttaşı   | 45    | 42    | Orta Kalite      | 33                        | 34.8                      | 73876                     | 34                           | 0.8                       | 8782                      |
+| KP-SK 9      | 17-21.5         |           2.68 |                                     266.50 | Silttaşı   | 40    | 44    | Orta Kalite      | 41-56                     | 29.5-76.1                 | 45695                     | 40                           | 1.1                       | 20917                     |
+| KP-SK 9      | 27-32           |           2.67 |                                     257.00 | Kumtaşı    | 25    | 44    | Orta Kalite      | 26                        | 80.4                      | 43877                     | 48                           | 1.4                       | 14793                     |
+
+IJ
+
+SONDAJLARIN TÜNEL KESİMİNE DENK GELEN KISIMLARI
+
+##### 91 Kağıthane Piyalepaşa Tünelleri Homojen Bölgelendirmesi
+
+Kağıthane Piyalepaşa tünelleri güzergahı jeoloji, mühendislik jeolojisi ve jeomorfoloji açısından değerlendirilerek ve örtü kalınlığı, kaya kalitesi ve kaya türleri göz önüne alınarak 5 homojen bölgeye ayrılmıştır (Çizelge 9.8).
+
+Tünellerin derinliği Okmeydanı Kavşağı'nda (KM 1+000-1+060) 67 m ile en fazla, Öztoprak Mahallesi'nde (KM 0+580-0+600) ise 14 m ile projenin en sığ yerini teşkil etmekte ve iki tüp arası mesafe ise 15,5 m'yi bulmaktadır. Örtü kalınlığı bakımından sığ tünel, orta derin tünel ve derin tünel olmak üzere ayrılan tüneller kaya kalitesi yönünden RMR sınıflamasında belirtilen zayıf kalitede ve orta kalitede olarak sınıflandırılmıştır. Tünel güzergahının genelinde Kumtaşı ve Silttaşı birimleri bulunmaktadır. Çizelge 9.8'de bu bölgelerin km sınırları verilmiştir. Bu km aralıkları sol tünel olan T1 tüneli baz alınarak hazırlanmıştır. Şekil 9.6'da güzergaha ait homojen bölgelendirme gösterilmiştir.
+
+Çizelge 9.8 Kağıthane Piyalepaşa Tünelleri homojen bölgelerini gösterir özet tablo
+
+| *BÖLGE*   | *TÜNEL KESİMİ*                                              | *KİLOMETRE*         | *İLGİLİ*  *SONDAJLAR*   |
+|-----------|-------------------------------------------------------------|---------------------|-------------------------|
+| **a**     | Sığ tünel veya giriş/çıkış bölgesi  (orta kalitede grovak)  | 0+105.000-0+195.956 | KP-SK 9                 |
+| **b**     | Orta derin tünel (orta kalitede grovak, silttaşı)           | 0+195.956-0+558.727 | KP-SK 8                 |
+| **c**     | Sığ tünel  (orta kalitede grovak)                           | 0+558.727-0+643.504 | KP-SK 7                 |
+| **d**     | Orta derin tünel (zayıf kalitede grovak)                    | 0+643.504-0+860.000 | KP-SK 7 KP-SK 6A        |
+| **e**     | Derin tünel  (zayıf kalitede grovak)                        | 0+860.000-1+245.000 | KP-SK 6A KP-SK 5        |
+| **b**     | Orta derin tünel (orta kalitede grovak, silttaşı)           | 1+245.000-1+534.681 | KP-SK 4                 |
+| **a**     | Sığ tünel veya giriş/ çıkış bölgesi  (orta kalitede grovak) | 1+534.681-1+611.000 | KP-SK 3                 |
+
+PAÜITLLÜ TE-PİTÜLEPÜJTÜ. Tül TELLERİ HOI.tO JEIT B O LGELEIT DIRM E S1
+
+| CO   | 2>~   | M*   | o   | CO   | —i   |
+|------|-------|------|-----|------|------|
+| LO   | CM    | O    | o   | o    | co   |
+| 03   |       | LO   | o   | o    | cq   |
+| LO   | cd    | od   | o   | lO   |      |
+| 03   | LO    |      | co  |      | co   |
+| T	1  | LO    | co   | co  | CM   | m    |
+| +    | +     | +    | +   | +    | +    |
+| O    | O     | o    | o   | ^=1  | ■’=( |
+
+<!-- image -->
+
+grovak silttaş ı
+
+<!-- image -->
+
+a:sığ tünel veya giriş bölgesi (orta kalitede grovak) b:orta derin tünel (orta kalitede grovak,silttaşı) c;sığ tünel (orta kalitede grovak)
+
+d:orta derin tünel (zayıf kalitede grovak) e;derin tünel (zayıf kalitede grovak)
+
+Şekil 9.6 Kağıthane Piyalepaşa Tünelleri homojen bölgelendirmesi
+
+##### 92 Kağıthane Piyalepaşa Tünelleri Kaya Destekleme Sınıfları
+
+Kağıthane - Piyalepaşa tünellerinde kullanılmakta olan destekleme elemanları NATM -  
+Önorm B 2203'e göre belirlenmektedir. Kaya kalitelerinden yola çıkarak yapılan kaya  
+sınıflama değerlendirmelerine ilişkin geçişler aşağıdaki çizelgede (Çizelge 9.9) özetlenmiştir;  
+Çizelge 9.9 Q-RMR-NATM Kaya Sınıflaması İlişkileri (Bieniawski, 1996)
+
+| **Q**       | **RMR Average**   | **NATM**   |
+|-------------|-------------------|------------|
+| 1000-70     | 100.6-80          | A1         |
+| 70-10       | 80-64.9           | A2         |
+| 10-4        | 64.9-57.8         | B1         |
+| 4-1         | 57.8-47.0         | B2         |
+| 1-0.100     | 47.0-29.1         | B3         |
+| 0.100-0.031 | 29.1-20.0         | C1         |
+| 0.031-0.016 | 20.0-15.0         | C2         |
+| 0.016-0.008 | 15.0-10.0         | C3         |
+| 0.008-0.002 | 10.0-5.0          | C4         |
+| 0.002-0.001 | 5.0-2.5           | C5         |
+
+Kağıthane Piyalepaşa Tünelleri için yapılan Q- Barton ve RMR kaya kalite sınıflamalarına göre yapılan NATM sınıflandırmalarını gösteren tablo Çizelge 9.10'da verilmiştir. NATM sınıfları her homojen bölge için ilgili sondaj verileri incelenerek seçilmiştir. Bu sonuçlar ışığında güzergah boyunca B2 ve B3 NATM sınıflarının hakim olduğu görülmüştür. Homojen bölgelere göre NATM sınıfı dağılımı Çizelge 9.11' de verilmiştir.
+
+| **Sondaj**  **No**   | **Derinlik**   | **Litoloji**   |   **RMR** |               |   **Q** | **RMR kp**  **NATM**   | **Qkp^**  **NATM**   |
+|----------------------|----------------|----------------|-----------|---------------|---------|------------------------|----------------------|
+| KP-SK 3              | 11-20          | Kumtaşı        |        42 | Orta  Kalite  |    1.11 | B3                     | B2                   |
+| KP-SK 3              | 23-26          | Kumtaşı        |        42 | Orta  Kalite  |    4.67 | B3                     | B1                   |
+| KP-SK 4              | 25-27          | Silttaşı       |        47 | Orta  Kalite  |   13.33 | B3                     | A2                   |
+| KP-SK 4              | 29-31          | Silttaşı       |        49 | Orta  Kalite  |    6.67 | B3                     | B1                   |
+| KP-SK 5              | 29-34          | Kumtaşı        |        23 | Zayıf  Kalite |    0.22 | C1                     | B3                   |
+| KP-SK 5              | 46-51          | Silttaşı       |        27 | Zayıf  Kalite |    1.67 | C1                     | B2                   |
+| KP-SK 5              | 56-61          | Kumtaşı        |        37 | Zayıf  Kalite |    1.19 | B3                     | B2                   |
+| KP-SK 5              | 65-70          | Kumtaşı        |        25 | Zayıf  Kalite |    0.44 | C1                     | B3                   |
+| KP-SK  6/A           | 50-51.2        | Kumtaşı        |        28 | Zayıf  Kalite |    1.00 | C1                     | B3                   |
+|                      | 58-60          | Silttaşı       |        46 | Orta  Kalite  |    7.33 | B3                     | B1                   |
+|                      | 68-70          | Kmt-Siltş      |        25 | Zayıf  Kalite |    0.67 | C1                     | B3                   |
+| KP-SK 7              | 23-25          | Kumtaşı        |        53 | Orta  Kalite  |    2.22 | B2                     | B2                   |
+| KP-SK 7              | 26-28          | Kumtaşı        |        53 | Orta  Kalite  |    2.50 | B2                     | B2                   |
+| KP-SK 8              | 36-38.5        | Silttaşı       |        54 | Orta  Kalite  |    4.33 | B2                     | B1                   |
+| KP-SK 8              | 45-47          | Silttaşı       |        56 | Orta  Kalite  |    5.33 | B2                     | B1                   |
+| KP-SK 8              | 53.6-55.8      | Silttaşı       |        61 | İyi  Kalite   |   12.67 | B1                     | A2                   |
+| KP-SK 8              | 63-68          | Silttaşı       |        49 | Orta  Kalite  |    2.07 | B2                     | B2                   |
+| KP-SK 9              | 7.5-10         | Silttaşı       |        42 | Orta  Kalite  |    0.66 | B3                     | B3                   |
+| KP-SK 9              | 17-21.5        | Silttaşı       |        44 | Orta  Kalite  |    0.59 | B3                     | B3                   |
+| KP-SK 9              | 27-32          | Kumtaşı        |        44 | Orta  Kalite  |    1.25 | B3                     | B2                   |
+
+Çizelge 9.11 Homojen bölgelere göre seçilen NATM sınıfları
+
+| a homojen bölgesi   | b homojen bölgesi   | c homojen bölgesi   | d homojen bölgesi   | e homojen bölgesi   |
+|---------------------|---------------------|---------------------|---------------------|---------------------|
+| **B3**              | **B2**              | **B2**              | **B3**              | **B3**              |
+
+Yapılan incelemeler neticesinde belirlenen NATM sınıflamalarına göre “KGM, NATM Uygulamalı Yer Altı Tünel İşleri Teknik Şartnamesi” ‘ne dayanılarak destekleme elemanları önerilmiştir. Fakat tünel güzergahının tamamıyla yerleşim alanları altından geçiyor olması ve yüzey oturmalarının sorunlara yol açabileceği düşüncesi ile yapım esnasında çok daha rijit destekleme sistemleri kullanılmıştır. Çizelge 9.12 ve Şekil 9.7'de sırasıyla önerilen destekleme sistemleri ve kaya destekleme sınıfı dağılımı gösterilmiştir
+
+Çizelge 9.12 Önerilen destek sistemi
+
+| **Homojen**  **Bölge**   | **Kilometre**                              | **NATM**   | **Uzunluk ve Güzergah İçerisindeki Yüzdesi**   | **Önerilen Destekleme Elemanları**   |                     |                      |                                |
+|--------------------------|--------------------------------------------|------------|------------------------------------------------|--------------------------------------|---------------------|----------------------|--------------------------------|
+|                          |                                            |            |                                                | **Püskürtme Beton (cm)**             | **Çelik**  **İksa** | **Hasır**  **Çelik** | **Bulon**  **(4 m,**  **028)** |
+| **a**                    | 0+105.000  0+195.956  1+534.681  1+611.000 | **B3**     | **167 m %11,1**                                | 25                                   | I 160               | 2 kat                | 13                             |
+| **b**                    | 0+195.956  0+558.727  1+245.000  1+534.681 | **B2**     | **652 m % 43,3**                               | 20                                   | I 160               | 1 kat                | 11                             |
+| **c**                    | 0+558.727  0+643.504                       | **B2**     | **85 m % 5,7**                                 | 20                                   | I 160               | 1 kat                | 11                             |
+| **d**                    | 0+643.504  0+860.000                       | **B3**     | **216 m %14,3**                                | 25                                   | I 160               | 2 kat                | 13                             |
+| **e**                    | 0+860.000  1+245.000                       | **B3**     | **385 m %25,6**                                | 25                                   | I 160               | 2 kat                | 13                             |
+
+**Kaya Destekleme Sınıfı Oranları**
+
+B3
+
+B2
+
+<!-- image -->
+
+Şekil 9.7 Kaya destekleme sınıfı oranları
+
+Yapım esnasında üç ana tip kesite göre (standart, rakortman ve tranzisyon kesitleri) inşası yapılan tünellerde gerekli durumlarda destekleme elemanları arttırılmıştır. Tünellerin portal kesimde kullanılan kesite tranzisyon tip kesiti adı verilmiştir.
+
+Kağıthane-Piyalepaşa Tüneli giriş-çıkış portallerinin sorunsuz bir şekilde imalatı için tasarlanan bu tip kesit Standart Tip kesite göre daha geniş çaplı bir kazı sınırına sahiptir. Ayrıca beton kaplama kalınlığı Standart tip kesite göre daha kalındır. Destekleme elemanı
+
+olarak çift kat Q221/221 hasır çelik, 30 cm püskürtme beton ve I160 çelik iksanın yanı sıra
+
+üst yarıda 13, alt yarıda 4 adet olmak üzere; 17 adet 4m uzunluğunda, 12 o aralıklı, ^26 nervürlü çelikten bulonlar kullanılmıştır.
+
+Portal kesimi ile tünel standart kesimi arasındaki geçiş bölgesi için tasarlanan tip kesite Rakortman tip kesiti adı verilmiştir. Tranzisyon tip kesitinden farkı; beton kaplama kalınlığının daha düşük olması ve 25 cm püskürtme betonun kullanılmasıdır. Standart tip kesite göre bu kesitte de kazı sınırı daha geniştir.
+
+Kağıthane-Piyalepaşa Tünellerinin desteklenmesinde portal ve geçiş bölgeleri dışında en çok kullanılan destek sistemi Standart tip kesittir. Destekleme elemanları olarak tek kat Q221/221 çelik hasır, 25 cm püskürtme beton, I160 çelik iksa ve 17 adet 4m uzunluğunda, 12 o aralıklı, ^26 nervürlü çelikten bulonlar kullanılmıştır. Güzergahta kullanılan destekleme elemanlarını gösterir özet tablo Çizelge 9.13'te verilmiştir.
+
+Çizelge 9.13 Güzergahta kullanılan destekleme elemanları
+
+| **Tip Kesit**   | **Uygulanan Kilometre Aralığı**   |            | **Uygulanan Destekleme Elemanları**   |                |                      |                                |
+|-----------------|-----------------------------------|------------|---------------------------------------|----------------|----------------------|--------------------------------|
+|                 | **T1**                            | **T2**     | **Püskürtme Beton (cm)**              | **Çelik İksa** | **Hasır**  **Çelik** | **Bulon**  **(4 m,**  **026)** |
+|                 | 0+105.000-                        | 0+105.000- |                                       |                |                      |                                |
+| **Tranzisyon**  | 0+139.650                         | 0+125.000  | 30                                    | I 160          | 2 kat                | 17                             |
+|                 | 1+581.000-                        | 1+602.000- | 30                                    | I 160          | 2 kat                | 17                             |
+|                 | 1+611.000                         | 1+622.000  |                                       |                |                      |                                |
+|                 | 0+139.650-                        | 0+125.000- |                                       |                |                      |                                |
+| **Rakortman**   | 0+317.500                         | 0+312.000  | 25                                    | I 160          | 2 kat                | 17                             |
+|                 | 1+476.000-                        | 1+497.000- | 25                                    | I 160          | 2 kat                | 17                             |
+|                 | 1+581.000                         | 1+602.000  |                                       |                |                      |                                |
+| **Standart**    | 0+317.500-                        | 0+312.000- | 25                                    | I 160          | 1 kat                | 17                             |
+|                 | 1+476.000                         | 1+497.000  | 25                                    | I 160          | 1 kat                | 17                             |
+
+##### 93 Sonlu Elemanlar Yöntemi ile Tünel Stabilite Analizleri
+
+##### 94 Yapılan Analizlerin Amacı ve Hesap Yöntemi
+
+Bu tez kapsamında Kağıthane - Piyalepaşa tünellerinin sayısal analizi için üç farklı değişken belirlenerek, bu değişkenlerin deformasyonlar üzerindeki etkileri incelenmiştir. İlk değişken kaya ortamı, ikinci değişken üç boyutlu modelde kullanılacak tünel boyu ve üçüncü değişken kazı ilerleme adımıdır.
+
+Analizlerde kullanılacak kesitler örtü kalınlığına göre seçilmiştir. Sığ tünel, orta derin tünel ve derin tünel kesimlerini temsilen seçilen kesitlerde örtü kalınlıkları sırasıyla 15m, 45m ve 65 metredir.
+
+Belirlenen bu üç kesitin homojen ve tabakalı kaya ortamındaki davranışını incelemek için ayrı modellemeler yapılmıştır. Tabakalı durumu belirlemek için ilgili sondaj kesitlerinden yararlanılmıştır.
+
+Model uzunluğunun analizlerdeki etkisini belirlemek için 15 ve 45 metre örtü kalınlığında homojen kaya ortamında bulunan kesitlerin 6 ve 12 metre uzunluğunda modelleri yapılmıştır. Çizelge 9.14'de tez çalışmasında yapılan analizlerde kullanılan modeller, Çizelge 9.15'de ise analiz modellerinin özellikleri sunulmuştur (kesitler sol tüp eksenine göre belirlenmiştir).
+
+Çizelge 9.14 Oluşturulan model kombinasyonları
+
+| KAYA ORTAMI    | Tabakalı   | Tabakalı   | Tabakalı   | Homojen   | Homojen   | Homojen   | Homojen   | Homojen   |
+|----------------|------------|------------|------------|-----------|-----------|-----------|-----------|-----------|
+| ÖRTÜ KALINLIĞI | 15 m       | 45 m       | 65 m       | 15 m      | 15 m      | 45 m      | 45 m      | 65 m      |
+| MODEL UZUNLUĞU | 6 m        | 6 m        | 6 m        | 6 m       | 12 m      | 6 m       | 12 m      | 6 m       |
+
+Çizelge 9.15 Analizi yapılan modeller
+
+| MODEL İSMİ   | KESİT KM'Sİ   | ÖRTÜ KALINLIĞI   | KAYA ORTAMI   | MODEL BOYU   |
+|--------------|---------------|------------------|---------------|--------------|
+| Model-1A     | 0+580.000     | 15 m             | Homojen       | 6m           |
+| Model-1B     | 0+580.000     | 15 m             | Tabakalı      | 6 m          |
+| Model-1C     | 0+580.000     | 15 m             | Homojen       | 12 m         |
+| Model-2A     | 0+820.000     | 45 m             | Homojen       | 6m           |
+| Model-2B     | 0+820.000     | 45 m             | Tabakalı      | 6 m          |
+| Model-2C     | 0+820.000     | 45 m             | Homojen       | 12 m         |
+| Model-3A     | 1+020.000     | 65 m             | Homojen       | 6m           |
+| Model-3B     | 1+020.000     | 65 m             | Tabakalı      | 6 m          |
+
+Kağıthane Piyalepaşa tüneli stabilite analizlerinde Mohr-Coulomb zemin modeli kullanılmıştır. Hesaplamalar ise 3 boyutta plastikleşme teorisine göre yapılmıştır. Plaxis 3D Tunnel Programı hesaplamalarını kademeli inşaat (stage construction) prensibine göre yapmaktadır. Hesap adımları genel olarak; birincil gerilme durumunun oluşturulması, sol tüp üst yarı kazısı, sol tüp üst yarı desteklemesi, sol tüp alt yarı kazısı, sol tüp alt yarı desteklemesi, sağ tüp üst yarı kazısı, sağ tüp üst yarı desteklemesi, sağ tüp alt yarı kazısı ve sağ tüp alt yarı desteklemesi şeklinde ifade edilebilir.
+
+##### 95 Program Girdileri (Input Data)
+
+Plaxis tünelde kullanılan püskürtme beton ve çelik iksa gibi destekleme elemanlarını *plate* adı verilen bir eleman türü olarak kabul etmektedir. Bunlar aynı kesitte yer alması durumunda ayrı ayrı tanımlanamadığı için, püskürtme beton ve çelik iksanın rijitlik parametreleri ayrı ayrı hesaplanmakta ve toplamları plate özelliği olarak programa verilmektedir.
+
+Bu elemanlar için program girdileri aşağıda sıralanmıştır.
+
+- E: malzeme elastisite modülü kN/m 2
+- h = malzeme kalınlığı
+- b = birim mesafe (programda sabit olup, 1 metre olarak alınmakta)
+- A = h.b
+- Bulonlar için A, bulonun kesit alanıdır.
+- I:Atalet momenti I=(bxh 3 )/12
+- w (weight) = Y malzeme X h
+- v: malzeme poisson oranı
+- d=((12EI)/(EA)) 1/2 olup program tarafından hesaplanmaktadır
+##### 96 Destekleme Elemanları İçin Program Girdileri
+
+Modeller için seçilen bütün kesitlerde standart tip kesitin uygulanmış ve aynı destekleme elemanları kullanılmıştır. Destek elemanları aynı, fiziksel ve jeolojik koşulları farklı modellerin analizi neticesinde tünel çevresindeki noktaların deformasyon değişimleri incelenmiştir.
+
+**Tünel Destek Elemanları**
+
+*Püskürtme Beton*
+
+Kalınlık h = 25 cm = 0,25 m
+
+E = 15 000 000 kPa
+
+A = b X h = 1 X 0,25 = 0,25 m 2
+
+I = b.h 3 / 12 = 0,25 3 / 12 = 0,00130 m 4
+
+EA = 15 000 000 X 0,25 = 3 750 000 kN/m
+
+EI = 15 000 000 X 0,00130 = 19531,25 kNm 2 /m
+
+v = 0,2
+
+Y = 24 kN/m 3 w **=** 24 X 0,25 = 6 kN/m/m
+
+*Çelik İksa (I160)*
+
+h = 16 cm = 0,16 m
+
+E = 210 000 000 kPa
+
+A = 22,8 cm 2 = 0,00228 m 2
+
+I = b.h 3 / 12 = 0,16 3 / 12 = 0,000341 m 4 EA = 210 000 000 x 0,00228 = 478 800 kN/m EI = 210 000 000 x 0,000341 = 71 680 kNm 2 /m
+
+- = 0,3
+
+- = 78,5 kN/m 3
+
+w **=** 78,5 x 0,16 = 12,56 kN/m/m
+
+*Kaya Bulonu*
+
+E = 210 000 000 kPa
+
+d = 26 mm (026) = 0,026 m
+
+A = n (d/2) 2 ) = 3,14 x (0,026/2) 2 = 0,000531 EA = 210 000 000 x 0,000531 = 111 495,12 kN/m
+
+*Püskürtme Beton &amp; Çelik İksa*
+
+EAtoplam = EApb + EAiksa = 3 750 000 + 478 800 = 4 228 800 kN/m
+
+EItoplam = EIpb + EIiksa = 19531,25 + 71 680 = 91 211,25 kNm 2 /m
+
+wtoplam = 6 + 12,56 = 18,56 kN/m/m
+
+Vort = 0,25
+
+##### 97 Modellerde Kullanılan Geoteknik Parametreler
+
+Çizelge 9.6'da verilen yerinde kaya dayanım parametreleri verileri göz önüne alınarak, güzergah üzerinde bulunan Kumtaşı ve Silttaşı birimleri orta ve zayıf kaliteli olmak üzere değerlendirilmiştir. Bu birimler için seçilen geoteknik parametreler Çizelge 9.16'da verilmiştir.
+
+Çizelge 9.16 Hesaplamalara esas geoteknik parametreler
+
+| Litoloji   | Kaya  Kalitesi   | SEÇİLEN PARAMETRELER   | SEÇİLEN PARAMETRELER   | SEÇİLEN PARAMETRELER   | SEÇİLEN PARAMETRELER            |
+|------------|------------------|------------------------|------------------------|------------------------|---------------------------------|
+| Litoloji   |                  | Yd (kN/m  3  )         | W                      | c (kN/m  2  )          | Elastisite  Modülü  (kN/m  2  ) |
+| KUMTAŞI    | Zayıf Kalite     | 27                     | 40                     | 200                    | 400 000                         |
+| KUMTAŞI    | Orta Kalite      | 25                     | 52                     | 200                    | 1 000 000                       |
+| SİLTTAŞI   | Zayıf Kalite     | 27                     | 40                     | 180                    | 300 000                         |
+| SİLTTAŞI   | Orta Kalite      | 27                     | 45                     | 300                    | 1 500 000                       |
+
+##### 98 Tünel Analizleri
+
+Kağıthane - Piyalepaşa tünellerinin değişik kesimlerini temsil eden modeller üzerinde gerçekleştirilen analizler sonucunda tünel çevresinde oluşması beklenilen deplasman değerlerinin kazı aşamalarına ve farklı değişkenlere bağlı olarak değişimi ayrıntılı olarak incelenmiştir. Deplasman değişimlerinin yanı sıra Model 1A için gerilme dağılımları ve iksalara etkiyen kuvvetler belirlenmiştir. Kaya ortamı ile iksa ve bulonların dayanımları kontrol edilmiştir.
+
+##### 99 Model 1A İçin Yapılan Analizler
+
+Güzergahın en sığ kesimi olan Öztoprak Sokak mevkiinden alınan bu kesite ait geoteknik parametre değerleri Çizelge 9.17'de, Plaxis modeli Şekil 9.8'da verilmiştir.
+
+**Model 1A Özellikleri**
+
+Örtü kalınlığı: 15 metre
+
+Kaya ortamı: Homojen
+
+Modeldeki tünel boyu: 6 metre
+
+Jeolojik birim: Kumtaşı
+
+Kaya kalitesi: Orta
+
+Kesit kilometresi: 0+580.000
+
+Çizelge 9.17 Model 1A geoteknik parametreleri
+
+| **Litoloji**   | **E (kPa)**   |   **V** |   **c (kPa)** |   **♦(•)** |   **Ysat. (kN/m**  **3**  **)** |   **Yunsat. (kN/m**  **3**  **)** |
+|----------------|---------------|---------|---------------|------------|---------------------------------|-----------------------------------|
+| Kumtaşı        | 1 000 000     |    0.28 |           200 |         52 |                              25 |                                23 |
+
+<!-- image -->
+
+Oluşturulan modele ait kazı aşamaları aşağıda verilmiştir. Üç boyutlu olan modelde (boy = 6m) ilerleme adımı üst yarı için 1,5 metre alt yarı için 3 metre alınmıştır. Böylece dört dilim oluşturulmuştur.
+
+**Kazı adımları:**
+
+1. Kazı öncesi durum
+2. Sağ tünel 1. dilim üst yarı kazısı yapılması (su seviyesi düşürüldü)
+3. Sağ tünel 1.	dilim	üst yarı kazısı desteklemesi, 2.	dilim	üst yarı kazısının yapılması
+4. Sağ tünel 2.	dilim	üst yarı kazısı desteklemesi, 3.	dilim	üst yarı kazısının yapılması
+5. Sağ tünel 3.	dilim	üst yarı kazısı desteklemesi, 4.	dilim	üst yarı kazısının yapılması
+6. Sağ tünel 4.	dilim	üst yarı kazısı desteklemesi, 1.	ve 2.	dilim alt yarı kazılarının yapılması
+7. Sağ tünel 1. ve 2. dilim alt yarı kazılarının desteklerinin yapılması ve 3. ve 4. dilim alt yarı kazılarının yapılması
+8. Sağ tünel 3. ve 4. dilim alt yarı kazılarının desteklerinin yapılması (birinci tünel inşası sonu)
+9. Sol tünel 1. dilim üst yarı kazısı yapılması (su seviyesi düşürüldü)
+10. Sol tünel 1. dilim üst yarı kazısı desteklemesi, 2. dilim üst yarı kazısının yapılması
+11. Sol tünel 2. dilim üst yarı	kazısı	desteklemesi, 3.	dilim üst yarı kazısının yapılması
+12. Sol tünel 3. dilim üst yarı	kazısı	desteklemesi, 4.	dilim üst yarı kazısının yapılması
+13. Sol tünel 4. dilim üst yarı	kazısı	desteklemesi, 1.	ve 2. dilim alt yarı kazılarının yapılması
+14. Sol tünel 1. ve 2. dilim alt yarı kazılarının desteklerinin yapılması ve 3. ve 4. dilim alt yarı kazılarının yapılması
+15. Sol tünel 3. ve 4. dilim alt yarı kazılarının desteklerinin yapılması (ikinci tünel inşası sonu)
+##### 100 Tünel Çevresinde Oluşan Gerilmeler
+
+Kazı ve desteklemenin ardından tünel çevresinde hesaplanan ortalama gerilmeler Şekil 9. 9' da gösterilmiştir. Program çıktısına göre basınç gerilmeleri (-), çekme gerilmeleri ise (+) işaretlidir.
+
+Plaxıs 3D Tunnel 2.4
+
+[kN/m 2 ]
+
+<!-- image -->
+
+■ 100.000
+
+I 0.000
+
+- -100.000
+
+- -200.000
+
+- -300.000
+- -400.000
+- -500.000
+- -500.000
+- -700.000
+- -800.000
+
+- -900.000
+
+■ -1000.00 3
+
+■-1100.00)
+
+**Mean stresses**
+
+Extreme mean stress -l,08*10 J kN/m 2
+
+|    | 1  ***Pıofecr descrfaron***  Model İA   |     |          |                                              |
+|----|-----------------------------------------|-----|----------|----------------------------------------------|
+|    | ***Pıojecr name***  15 homojen 6m       | 110 | 08.05.09 | ***User name***  Yildiz Technical University |
+
+Şekil 9.9 Model İA çevresinde hesaplanan ortalama gerilmeler
+
+Maksimum basınç gerilmesi sol tüpün sağ alt temeli civarında meydana gelmektedir. Buraya ait dağılım Şekil 9.10'de gösterilmiştir.
+
+<!-- image -->
+
+Şekil 9.10 Sol Tüp (T1) sağ alt yarıda oluşan maksimum gerilme noktası 389 numaralı noktada oluşan basınç gerilmelerine ait değerler aşağıdaki gibidir;
+
+Oxx =
+
+- 350kPa
+
+°yy =
+
+-1712 kPa
+
+*Gzz* =
+
+- 486 kPa
+
+<!-- image -->
+
+^zz
+
+Burada yer alan kayaç Kumtaşı olup dayanım özellikleri;
+
+c = 200 kPa 9 = 52 o dir.
+
+Maksimum gerilmeler için Mohr Zarfı çizildiğinde maksimum gerilmenin kayaç dayanımını
+
+^3 = ^zz
+
+486
+
+n, = n,„,= 1712 kPa
+
+<!-- image -->
+
+##### 101 Deplasmanlar
+
+Tünel kazısının bitirilip, destek elemanlarının konulmasının ardından tünelde ve etrafındaki kayaçlarda oluşması beklenilen deplasmanlar belirlenmiştir. Kayaçlarda hesaplanan maksimum düşey deplasman 9,04 mm. ‘dir. Bu değer T2 tüneli tepe noktasına aittir. Hesaplanan oluşan maksimum yatay deplasman ise 2,76 mm ile yüzeyde oluşmuştur. Tünellerde oluşan en büyük yatay deplasman ise 0,86 mm ile T1 tüneli tabanında meydana gelmiştir.
+
+Şekil 9.11'de Model üzerinde deplasman değerlerinin hesaplandığı noktalar gösterilmiştir. Şekil 9.12 ve 9.13'de ise hesaplanan düşey ve yatay yer değiştirmelerin dağılımı gözlenmektedir. Çizelge 9.18 ve 9.19'da kazı aşamalarına göre tünel tepe noktası, alt yarı, üst yarı ve tabanda oluşması hesaplanan yatay ve düşey deplasman değerleri verilmiştir.
+
+<!-- image -->
+
+Şekil 9.11 Model üzerinde deplasman değerlerinin okunduğu noktalar
+
+<!-- image -->
+
+[*10 3 m]
+
+- 5.000 I 4.000 I 3.000
+- 2.000 ■ 1.000 - 0.000
+
+- -1.000
+
+- -2.000
+
+- -3.000
+- -4.000
+- -5.000
+- -6.000
+
+- -7.000
+
+-10.000
+
+<!-- image -->
+
+■ -8.000 **I** -9.000
+
+**Vertical displacements (Uy)**
+
+Extreme Uy -9 z 04*10 3 m
+
+| P LAXIS                                                       | ***Projeet des&amp;ip&amp;on***   |         | Model İA   | Model İA        |                             |
+|---------------------------------------------------------------|-----------------------------------|---------|------------|-----------------|-----------------------------|
+| P LAXIS                                                       | ***Pmjec! name***                 | **s»,** |            | ***User name*** | Yildiz Technical University |
+| **&#124; FütiCe Element Code for Soıl and Rock Analy&amp;es** | 15 homojen 6m                     | 110     | 08.05.09   |                 | Yildiz Technical University |
+
+**Vefsion 2.4,0,456**
+
+Şekil 9.12 Model lA’da hesaplanan düşey deplasman dağılımı
+
+<!-- image -->
+
+[*10" 3 m]
+
+R
+
+2.800
+
+2.400
+
+—I 2.000
+
+- 1.600
+
+- 1.200
+
+- 0.800
+
+- 0.400
+
+- 0.000
+
+- -0.400
+
+- -0.800
+
+■ -1.200
+
+I -1.600
+
+—i -2.000
+
+1-2.400 ■-2.800
+
+**Horizoırtal displacements (Ux)**
+
+| Extreme Ux -2,76* 10 ' m                                 | Extreme Ux -2,76* 10 ' m   | Extreme Ux -2,76* 10 ' m   | Extreme Ux -2,76* 10 ' m   | Extreme Ux -2,76* 10 ' m    |
+|----------------------------------------------------------|----------------------------|----------------------------|----------------------------|-----------------------------|
+| P LAXIS                                                  | ***Projecr descrpctofi***  |                            | Model İA	&#124;            | Model İA	&#124;             |
+| P LAXIS                                                  | ***Projecr name***         | ***Step***                 |                            |                             |
+| **&#124; Pimce Elemene Code for Soil and Rock Analyses** | 15 homojen 6m              | 110                        | 08.05.09                   | Yildiz Technical University |
+
+**Versen 2,4,0,456**
+
+Şekil 9.13 Model lA’da hesaplanan yatay deplasman dağılımı
+
+Çizelge 9.18 Model 1A- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri
+
+|                           |         | *Düşey Deplasmanlar (mm)*   |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
+|---------------------------|---------|-----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|                           |         | *Kazı Aşamaları*            |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
+| *Deplasman Ölçüm Noktası* | *Tünel* | *1*                         | *2*   | *3*   | *4*   | *5*   | *6*   | 7     | *8*   | *9*   | *10*  | *11*  | *12*  | *13*  | *14*  | *15*  |
+| *Tünel Tepe Noktası*      | *Tl*    | 0,01                        | -0,76 | -0,78 | -0,83 | -0,97 | -1,00 | -1,02 | -1,03 | -3,70 | -4,93 | -6,17 | -8,70 | -8,85 | -8,90 | -8,94 |
+|                           | *T2*    | 0,00                        | -2,53 | -3,71 | -4,91 | -7,30 | -7,50 | -7,54 | -7,59 | -8,65 | -8,68 | -8,74 | -8,93 | -8,98 | -9,03 | -9,04 |
+| *Sol Üst Yarı*            | *Tl*    | 0,01                        | -0,58 | -0,60 | -0,62 | -0,71 | -0,72 | -0,74 | -0,74 | -3,00 | -3,66 | -4,42 | -6,05 | -6,22 | -6,29 | -6,34 |
+|                           | *T2*    | 0,00                        | -2,19 | -2,86 | -3,63 | -5,24 | -5,46 | -5,55 | -5,60 | -6,87 | -6,94 | -7,09 | -7,49 | -7,54 | -7,58 | -7,60 |
+| *Sağ Üst Yan*             | *Tl*    | 0,01                        | -0,58 | -0,60 | -0,62 | -0,71 | -0,72 | -0,74 | -0,74 | -3,00 | -3,66 | -4,42 | -6,05 | -6,22 | -6,29 | -6,34 |
+|                           | *T2*    | 0,00                        | -2,20 | -2,86 | -3,62 | -5,21 | -5,43 | -5,52 | -5,56 | -6,18 | -6,19 | -6,23 | -6,33 | -6,36 | -6,39 | -6,40 |
+| *Sol Alt Yarı*            | *Tl*    | 0,01                        | -0,48 | -0,49 | -0,52 | -0,61 | -0,62 | -0,64 | -0,64 | -1,43 | -1,24 | -1,21 | -1,49 | -2,06 | -2,13 | -2,18 |
+|                           | *T2*    | 0,00                        | -0,76 | -0,60 | -0,58 | -0,88 | -1,50 | -1,59 | -1,64 | -2,77 | -2,85 | -3,01 | -3,46 | -3,49 | -3,51 | -3,53 |
+| *Sağ Alt Yarı*            | *Tl*    | 0,00                        | -0,86 | -0,91 | -1,01 | -1,32 | -1,35 | -1,36 | -1,38 | -2,30 | -2,18 | -2,23 | -2,64 | -3,36 | -3,48 | -3,52 |
+|                           | *T2*    | 0,00                        | -0,78 | -0,61 | -0,58 | -0,87 | -1,47 | -1,56 | -1,61 | -2,09 | -2,10 | -2,14 | -2,23 | -2,25 | -2,27 | -2,27 |
+| *Tünel Taban Noktası*     | *Tl*    | 0,01                        | -0,63 | -0,66 | -0,73 | -0,91 | -0,93 | -0,94 | -0,95 | -1,29 | 0,03  | 1,29  | 3,08  | 3,95  | 4,46  | 4,41  |
+|                           | *T2*    | 0,00                        | -0,30 | 0,91  | 2,12  | 3,84  | 4,67  | 5,17  | 5,12  | 4,62  | 4,58  | 4,52  | 4,35  | 4,33  | 4,32  | 4,32  |
+
+Çizelge 9.19 Model 1A- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri
+
+|                           |         | *Yatay Deplasmanlar (mm)*   |       |       |       |       |      |      |      |       |       |       |       |       |       |       |
+|---------------------------|---------|-----------------------------|-------|-------|-------|-------|------|------|------|-------|-------|-------|-------|-------|-------|-------|
+|                           |         | *Kazı Aşamaları*            |       |       |       |       |      |      |      |       |       |       |       |       |       |       |
+| *Deplasman Ölçüm Noktası* | *Tünel* | *1*                         | *2*   | *3*   | *4*   | *5*   | *6*  | 7    | *8*  | *9*   | *10*  | *11*  | *12*  | *13*  | *14*  | *15*  |
+| *Tünel Tepe Noktası*      | *Tl*    | 0,00                        | 0,62  | 0,60  | 0,56  | 0,44  | 0,45 | 0,49 | 0,49 | 0,30  | 0,25  | 0,22  | 0,22  | 0,20  | 0,17  | 0,17  |
+|                           | *T2*    | 0,00                        | 0,15  | 0,16  | 0,16  | 0,14  | 0,14 | 0,15 | 0,15 | -0,41 | -0,39 | -0,34 | -0,18 | -0,21 | -0,27 | -0,27 |
+| *Sol Üst Yarı*            | *Tl*    | 0,00                        | 0,55  | 0,54  | 0,50  | 0,39  | 0,39 | 0,42 | 0,42 | 0,68  | 0,61  | 0,46  | 0,14  | 0,16  | 0,19  | 0,19  |
+|                           | *T2*    | 0,00                        | 0,52  | 0,50  | 0,37  | 0,06  | 0,09 | 0,16 | 0,17 | -0,46 | -0,40 | -0,28 | 0,07  | 0,03  | -0,04 | -0,04 |
+| *Sağ Üst Yan*             | *Tl*    | 0,00                        | 0,69  | 0,65  | 0,57  | 0,34  | 0,34 | 0,39 | 0,39 | -0,23 | -0,25 | -0,16 | 0,16  | 0,08  | -0,02 | -0,02 |
+|                           | *T2*    | 0,00                        | -0,25 | -0,22 | -0,09 | 0,19  | 0,16 | 0,11 | 0,11 | -0,29 | -0,28 | -0,25 | -0,13 | -0,15 | -0,19 | -0,19 |
+| *Sol Alt Yarı*            | *Tl*    | 0,00                        | 0,52  | 0,50  | 0,46  | 0,33  | 0,32 | 0,35 | 0,35 | 0,83  | 0,69  | 0,48  | -0,15 | 0,31  | 0,31  | 0,31  |
+|                           | *T2*    | 0,00                        | 0,67  | 0,56  | 0,29  | -0,36 | 0,07 | 0,09 | 0,09 | -0,93 | -0,86 | -0,74 | -0,34 | -0,36 | -0,41 | -0,41 |
+| *Sağ Alt Yarı*            | *Tl*    | 0,00                        | 0,82  | 0,77  | 0,66  | 0,35  | 0,34 | 0,38 | 0,38 | -0,26 | -0,05 | 0,23  | 1,01  | 0,37  | 0,35  | 0,35  |
+|                           | *T2*    | 0,00                        | -0,46 | -0,36 | -0,10 | 0,50  | 0,08 | 0,07 | 0,07 | -0,41 | -0,40 | -0,38 | -0,28 | -0,28 | -0,30 | -0,30 |
+| *Tünel Taban Noktası*     | *Tl*    | 0,00                        | 0,66  | 0,64  | 0,57  | 0,38  | 0,37 | 0,40 | 0,39 | 0,33  | 0,39  | 0,47  | 0,68  | 0,79  | 0,85  | 0,86  |
+|                           | *T2*    | 0,00                        | 0,10  | 0,10  | 0,09  | 0,06  | 0,07 | 0,08 | 0,08 | -0,78 | -0,76 | -0,72 | -0,55 | -0,55 | -0,58 | -0,57 |
+
+Şekil 9.14 ve 9.17 arası T1 ve T2 tünelleri için belirli noktalarda hesaplanan düşey ve yatay deplasmanların kazı aşamaları ile gelişimi gösterilmiştir.
+
+<!-- image -->
+
+| T1 tepe noktası   | T1 sol üst yarı   | T1 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T1 sol alt yarı   | T1 sağ alt yarı   | T1 taban          |
+
+Şekil 9.14 Model 1A- T1 tüneli kazı aşamaları ile düşey deplasmanların değişimi
+
+<!-- image -->
+
+| T2 tepe noktası   | T2 sol üst yarı   | T2 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T2 sol alt yarı   | T2 sağ alt yarı   | T2 taban          |
+
+Şekil 9.16 Model 1A -T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi
+
+<!-- image -->
+
+<!-- image -->
+
+Şekil 9.18 - 9.20 arası T1 ve T2 tünelleri için hesaplanan üst yarı düşey deplasmanları , alt yarı düşey deplasmanları ve taban düşey deplasmanları karşılaştırmalı olarak gösterilmiştir.
+
+<!-- image -->
+
+Şekil 9.18 Model 1A T1-T2 tünelleri üst yarı düşey deplasmanlarının karşılaştırılması
+
+<!-- image -->
+
+| T2 sol alt yarı   | T2 sağ alt yarı   |
+|-------------------|-------------------|
+| T1 sol alt yarı   | T1 sağ alt yarı   |
+
+<!-- image -->
+
+Şekil 9.20 Model 1A T1-T2 tünelleri taban düşey deplasmanlarının karşılaştırılması
+
+##### 102 Model 1A İçin Hesaplanan Düşey Deplasmanların Değerlendirilmesi
+
+• Maksimum düş ey deplasman 9,04 mm ile T2 tüneli tepe noktası nda hesaplanmı ş t ı r.
+
+• Tünellerde hesaplanan maksimum yatay deplasman ise T1 tüneli tabanı nda 0,86 mm'dir.
+
+• Model 1A'da; T1 ve T2 tünellerinde kazı nı n ba ş laması n ı n ardı ndan, kazı aşamaları ile gelişen düşey deplasmanlar (Şekil 9.18) incelendiğinde, tepe noktası ve üst yarı noktalarının düşey deplasmanlarının alt yarıya göre daha yüksek olduğu görülmüştür.
+
+• T1 ve T2 tünelleri üst yarı dü ş ey deplasmanları incelendiğ inde;
+
+**o** T2 tüneli kazısı nı n başlamasının ardından T1 tüneli kazı sı başlayana kadar T2 tünelindeki düşey deplasmanların arttığı, T1 tünelinde çok az deplasman oluştuğu,
+
+**o** T1 tüneli kazı sının ba şlamasıyla T2 tüneli üst yarı düşey deplasmanlarının sabit kaldığı ve çok az arttığı,
+
+**o** T1 tüneli düşey deplasmanlarının kazı ile birlikte arttığı,
+
+**o** T1 tünelinde son üst yarı kazısını n yapı lması ile yani 12. kazı aşaması ile birlikte her iki tünelde deplasmanların birbirine yakın düşey değerlere ulaştığı,
+
+**o** T2 tünelinin kazısının başlamasıyla birlikte alt yarı düşey deplasmanlarının hızlanarak arttığı,
+
+**o** T1 tüneli sağ alt yarısı T2 tüneline yakın taraf olduğundan, T1 tüneli kazısı başlamadan bu kısımda yaklaşık 1,5 mm'lik düşey deplasmanın oluştuğu,
+
+**o** T1 tünelinin kazısının başlamasıyla birlikte T1 tüneli alt yarısı düşey deplasmanlarının hızlanarak arttığı,
+
+**o** Modelde birbirine bakan kısımlar olan T1 sağ alt yarı - T2 sol alt yarı ile modelde
+
+simetrik olarak ters taraflarda bulunan T1 sol alt yarı - T2 sağ alt yarı noktalarından T2 tüneli alt yarı kazılarına başlanılan 13.kazı aşamasından itibaren deplasmanların hemen hemen aynı değere ulaştığı ve sabitlendiği,
+
+• T1 ve T2 tünellerinin taban orta noktalarının düşey deplasmanları incelendiğinde (Şekil
+
+9.20);
+
+**o** T2 tüneli kazısının başlamasıyla beraber T2 tüneli taban noktasında önce hızlanarak, artan ve maksimum 5 mm değerine ulaşan düşey deplasman (kabarma) oluştuğu,
+
+**o** T1 tünelinin kazısının başlamasıyla birlikte T2 tabanında kabarmanın durduğu, T1 tüneli tabanı orta noktasında hızlanarak artan bir kabarma oluştuğu,
+
+**o** Kazı işleminin bitirilmesiyle birlikte T1 ve T2 tüneli taban orta noktalarında oluşan düşey deplasmanların hemen hemen aynı mertebelerde olduğu belirlenmiştir.
+
+Sonuç olarak, incelenen çift tüneller için, tünel kazısından bitişik çok az etkilendiği, tünellerin çevresinde hesaplanan maksimum düşey ve yatay deplasmanlar ile taban kabarması değerlerinin birbirine yakın olduğu, ayrıca hesaplanan zemin deplasmanlarının güvenli sınırlar içinde kaldığı gözlenmektedir.
+
+##### 103 Destekleme Elemanları Tahkikleri
+
+İnceleme konusu tünellerde kullanılan püskürtme beton ve çelik iksadan oluşan destek elemanı üzerinde oluşan eksenel kuvvet ve moment büyüklükleri aşağıdaki gibi hesaplanmıştır. Hesaplamalarda eksenel kuvvetler N11 ve N22, kesme kuvvetleri Q13, Q12 ve Q23 şeklinde, eğilme momentleri M11 ve M22 şeklinde, burulma momenti ise M12 ile gösterilmiştir. Aşağıdaki şekilde (Şekil 9.21) bu kuvvetlerin yönleri gösterilmiştir. Kuvvetlerde (-) basıncı, (+) çekmeyi göstermektedir. Destekleme elemanları üzerine etkiyen N11, Q13 kuvvetleri ve M11 eğilme momenti dağılımları sırasıyla Şekil 9.22, 23, 24, 25, 26 ve 27'de verilmiştir. Çizelge 9.20 ve 21'de ise hesaplanan maksimum değerleri verilmiştir.
+
+<!-- image -->
+
+Şekil 9.21 Destek sistemine etkiyen kuvvet ve momentler
+
+<!-- image -->
+
+Şekil 9.22 T1 tüneli destekleme sistemine etkiyen N11 kuvvetleri dağılımı
+
+<!-- image -->
+
+Şekil 9.23 T2 tüneli destekleme sistemine etkiyen N11 kuvvetleri dağılımı
+
+<!-- image -->
+
+Şekil 9.24 T1 tüneli destekleme sistemine etkiyen Q13 kuvvetleri dağılımı
+
+<!-- image -->
+
+Şekil 9.25 T2 tüneli destekleme sistemine etkiyen Q13 kuvvetleri dağılımı
+
+<!-- image -->
+
+Şekil 9.26 T1 tüneli destekleme sistemine etkiyen M11 momentleri dağılımı
+
+<!-- image -->
+
+Şekil 9.27 T2 tüneli destekleme sistemine etkiyen M11 momentleri dağılımı
+
+Çizelge 9.20 T1 tüneli destek sistemine etkiyen maksimum-minimum kuvvet ve momentler
+
+| **N11 kN/m Eksenel Kuvvet**   | **Q13 kN/m Kesme Kuvveti**   | **M11 kNm/m Eğilme Momenti**   |
+|-------------------------------|------------------------------|--------------------------------|
+| **-1117,080**                 | -,0,894                      | -,5,333                        |
+| **209,693**                   | ,33,020                      | -20,457                        |
+| ,67,030                       | **-112,193**                 | -,7,669                        |
+| 209,693                       | **133,020**                  | -20,457                        |
+| -409,475                      | -,08,,49                     | **-51,608**                    |
+| -,44,247                      | -96,656                      | **49,937**                     |
+
+Çizelge 9.21 T2 tüneli destek sistemine etkiyen maksimum-minimum kuvvet ve momentler
+
+| **N11 kN/m Eksenel Kuvvet**   | **Q13 kN/m Kesme Kuvveti**   | **M11 kNm/m Eğilme Momenti**   |
+|-------------------------------|------------------------------|--------------------------------|
+| **-1170,720**                 | -6,260                       | -,8,828                        |
+| **171,395**                   | ,,0,904                      | -,9,449                        |
+| -,9,,80,                      | **-133,161**                 | -22,482                        |
+| -540,045                      | **117,936**                  | -68,86,                        |
+| -540,045                      | ,,7,936                      | **-68,861**                    |
+| -296,975                      | ,00,386                      | **47,849**                     |
+
+***T1 tüneli için destekleme sistemi tahkiki:***
+
+Destekleme Elemanı Taşıma Kapasitesi eşitliği;
+
+N 6M
+
+ü = — + —-
+
+1 B	B 2
+
+Püskürtme beton kalınlığı B = 25 cm = 0,25 m;
+
+Maksimum Eksenel Kuvvet için Püskürtme Beton &amp; Çelik İksa Direnci Tahkiki
+
+Nmax = 1117,080 kN/m ve karşılık gelen moment M = 15,333 kNm/m ise birim mesafe için;
+
+o = 4468,32 +1471,968 = 5940,288 kN/m 2 = 59,40 kg/cm 2 &lt; 160 kg/cm 2 emniyetli
+
+Maksimum Kesme Kuvveti için Püskürtme Beton &amp; Çelik İksa Direnci Tahkiki
+
+Qmax = 133,020 kN/m ve karşılık gelen moment M = 20,457 kNm/m ise birim mesafe için; o = 532,08 + 1963,872 = 2495,952 kN/m 2 = 24,96 kg/cm 2 &lt; 160 kg/cm 2 emniyetli Maksimum Moment için Püskürtme Beton &amp; Çelik İksa Direnci Tahkiki
+
+Mmax = 51,608 kNm/m ve karşılık gelen eksenel kuvvet N = 409,275 kN/m ise o = 1637,1 + 4954,368 = 6591,468 kN/m 2 = 65,91 kg/cm 2 &lt; 160 kg/cm 2 + emniyetli
+
+Hesaplamalardan görüldüğü gibi, püskürtme beton ve çelik iksadan oluşan T1 tüneli destekleme sisteminde destek elemanları, oluşan kuvvetler karşısında yenilmemektedir.
+
+***T2 tüneli için destekleme sistemi tahkiki:***
+
+Püskürtme beton kalınlığı B = 25 cm = 0,25 m;
+
+Maksimum Eksenel Kuvvet için Püskürtme Beton &amp; Çelik İksa Direnci Tahkiki
+
+Nmax = 1170,720 kN/m ve karşılık gelen moment M = 18,828 kNm/m ise birim mesafe için;
+
+o = 4682,88 +1807,488 = 6490.368 kN/m 2 = 64,90 kg/cm 2 &lt; 160 kg/cm 2 emniyetli
+
+Maksimum Kesme Kuvveti için Püskürtme Beton &amp; Çelik İksa Direnci Tahkiki
+
+Qmax = 133,161 kN/m ve karşılık gelen moment M = 22,482 kNm/m ise birim mesafe için;
+
+o = 532,644 + 2158,272 = 2690,916 kN/m 2 = 26,91 kg/cm 2 &lt; 160 kg/cm 2 emniyetli
+
+Maksimum Moment için Püskürtme Beton &amp; Çelik İksa Direnci Tahkiki
+
+Mmax = 68,861 kNm/m ve karşılık gelen eksenel kuvvet N = 540,045 kN/m ise o = 2160,10+6610,656 = 8770,836 kN/m 2 = 87,71 kg/cm 2 &lt; 160 kg/cm 2 emniyetli
+
+Hesaplamalardan görüldüğü gibi, püskürtme beton ve çelik iksadan oluşan T2 tüneli destekleme sisteminde destek elemanları, oluşan kuvvetler karşısında yenilmemektedir.
+
+##### 104 Bulon tahkikleri
+
+Bulonlar üzerinde boyuna ve enine yönde etkiyen normal kuvvetler ile boyuna yöndeki kesme kuvvetleri Şekil 9.28'de gösterildiği gibidir.
+
+<!-- image -->
+
+Tünellerde yer alan bulonlara etkiyen kuvvetler aşağıdaki gibidir (Şekil 9.29, 30, 31);
+
+<!-- image -->
+
+Şekil 9.29 Bulonlar Üzerine Boyuna Yöndeki Çekme Kuvvetleri (N11)
+
+<!-- image -->
+
+Şekil 9.30 Bulonlar Üzerinde Enine Yöndeki Çekme Kuvvetleri (N22)
+
+<!-- image -->
+
+Şekil 9.31 Bulonlar Üzerindeki Kesme Kuvvetleri (Q12)
+
+Bulonlara etkiyen kuvvetler aşağıdaki çizelgede özetlenmiştir. Plaxis'de elde edilen çıktılar bulonun , metresi içindir. Bulonlar 4 metre uzunluğunda olduğu için kuvvetler 4 ile çarpılarak Çizelge 9.22'ye eklenmiştir.
+
+Bulona etkiyen maksimum kuvvet ,,,,9 ton ile sağ tüpe ait olan soldan-sağa doğru sayıldığında 3,. bulon üzerindedir. Bir bulonun yaklaşık olarak taşıyabileceği kuvvetin ,0-,2 ton olduğu düşünüldüğünde, bulonların etkiyen kuvvetleri kolayca taşıyabildikleri söylenebilir.
+
+Çizelge 9.22 Bulonlara etkiyen kuvvetler
+
+| Bulon No   | N,, (t)   | N22 (t)   | Q,2 (t)   |
+|------------|-----------|-----------|-----------|
+| ,          | 0,09      | 0,2344    | -0,,445   |
+| 2          | 7,7,      | ,,55,3    | -,,6506   |
+| 3          | 4,48      | ,,7400    | -2,4550   |
+| 4          | 4,32      | 2,4435    | -3,08,2   |
+| 5          | 4,78      | 2,9539    | -3,6856   |
+| 6          | 6,00      | 3,4498    | -4,4555   |
+| 7          | 5,47      | 2,8896    | -3,7798   |
+| 8          | 5,56      | 2,,,99    | -3,0283   |
+| 9          | 8,92      | ,,6540    | -,,66,8   |
+| ,0         | 0,,2      | 0,4066    | -0,2202   |
+| ,,         | 0,03      | 0,2999    | -0,0729   |
+| ,2         | 8,,7      | ,,2900    | -,,4724   |
+| ,3         | 4,68      | ,,644,    | -2,4738   |
+| ,4         | 4,63      | 2,384,    | -3,2078   |
+| ,5         | 5,,6      | 2,9485    | -3,8847   |
+| ,6         | 5,,8      | 2,9424    | -3,8769   |
+| ,7         | 4,6,      | 2,35,6    | -3,,6,8   |
+| ,8         | 4,76      | ,,6460    | -2,4779   |
+| ,9         | 8,25      | ,,2574    | -,,4550   |
+| 20         | 0,32      | 0,26,7    | -0,,358   |
+| 2,         | 5,68      | 3,3027    | -4,3,42   |
+
+Çizelge 9.22 Bulonlara etkiyen kuvvetler (devamı)
+
+|   Bulon No | N11(t)   | N22(t)   | Q12(t)   |
+|------------|----------|----------|----------|
+|         22 | 7,65     | 3,0818   | -4,8532  |
+|         23 | 9,65     | 2,8921   | -5,0802  |
+|         24 | 10,34    | 2,9008   | -5,2081  |
+|         25 | 9,99     | 2,8838   | -5,1265  |
+|         26 | 8,77     | 3,2018   | -5,2983  |
+|         27 | 6,92     | 3,5643   | -4,9361  |
+|         28 | 6,18     | 3,2790   | -4,5008  |
+|         29 | 8,42     | 2,9062   | -4,9467  |
+|         30 | 10,48    | 2,7627   | -5,0926  |
+|         31 | 11,19    | 2,6026   | -4,8204  |
+|         32 | 10,90    | 2,6905   | -4,9043  |
+|         33 | 8,75     | 2,9064   | -4,9959  |
+|         34 | 6,21     | 3,1985   | -4,4574  |
+
+##### 105 Model 2A İçin Yapılan Analizler
+
+Okmeydanı Talatpaşa mevkiinden alınan bu kesite ait geoteknik parametre değerleri Çizelge 9.23'de, Plaxis modeli Şekil 9.32'de verilmiştir.
+
+**Model 2A özellikleri**
+
+Örtü kalınlığı: 45 metre
+
+Kaya ortamı: Homojen
+
+Modeldeki tünel boyu: 6 metre
+
+Jeolojik birim: Silttaşı
+
+Kaya kalitesi: Zayıf
+
+Kesit kilometresi: 0+820.000
+
+Çizelge 9.23 Model 2A geoteknik parametreleri
+
+| Litoloji   | E (kPa)   |    V |   c (kPa) |   *(”) |   Ysat. (kN/m  3  ) |   Yunsat. (kN/m ) |
+|------------|-----------|------|-----------|--------|---------------------|-------------------|
+| Silttaşı   | 300 000   | 0.28 |       180 |     40 |                  27 |                25 |
+
+<!-- image -->
+
+Şekil 9.32 Model 2A Plaxis modeli
+
+Oluşturulan modele ait kazı aşamaları aşağıda verilmiştir. Üç boyutlu olan modelde (boy=6m) ilerleme adımı üst yarı için 1,5 metre alt yarı için 3 metre alınmıştır. Böylece dört dilim oluşturulmuştur.
+
+##### Kazı adımları:
+
+Model 1A ile aynı kazı adımları göz önüne alınmıştır.
+
+##### 106 Tünel Çevresinde Oluşan Gerilmeler
+
+Kazı ve desteklemenin ardından tünel çevresinde hesaplanan ortalama gerilmeler Şekil 9.33'de gösterilmiştir. Program çıktısına göre basınç gerilmeleri (-), çekme gerilmeleri ise (+) işaretlidir.
+
+**[kN/m** **2** **]**
+
+**200.000**
+
+0.000
+
+**-200,000**
+
+**-430.000**
+
+**-600.000**
+
+**-800,000**
+
+-1000.000
+
+**-1200.000**
+
+**-1400.000**
+
+**-1600.000**
+
+**-1800.000**
+
+**-2000.000**
+
+**-2200.000**
+
+**-2400.000**
+
+**-2600.000**
+
+**-2800.000**
+
+129
+
+<!-- image -->
+
+| P LAXIS                                                       | ***Prcjecı descrption***   |      | Model 2A   | Model 2A         |                             |
+|---------------------------------------------------------------|----------------------------|------|------------|------------------|-----------------------------|
+| P LAXIS                                                       |                            | 5555 |            | ***Ussrnsırre*** | Yildiz Technical University |
+| **&#124; Finits Element C&amp;de for Soit and Rock Analyses** | water e3 silttasi          |   56 | 09.05.09   |                  | Yildiz Technical University |
+
+**/ersion 2,4,0.456**
+
+Şekil 9.33 Model 2A çevresinde hesaplanan ortalama gerilmeler
+
+Maksimum basınç gerilmesi sol tüpün sağ alt temeli civarında meydana gelmektedir. Buraya ait dağılım Şekil 9.34'de gösterilmiştir.
+
+<!-- image -->
+
+Şekil 9.34 Sol Tüp (T,) sağ alt yarıda oluşan maksimum gerilme noktası 383 numaralı noktada oluşan basınç gerilmelerine ait değerler aşağıdaki gibidir;
+
+üxx =	- ,026,06 kPa
+
+yy
+
+<!-- image -->
+
+xx
+
+<!-- image -->
+
+üyy =	-4409,62 kPa
+
+üzz =	- ,408,77 kPa
+
+ü z
+
+Burada yer alan kayaç Kumtaşı olup dayanım özellikleri;
+
+c = ,80 kPa *9 =* 40 o dir.
+
+Maksimum gerilmeler için Mohr Zarfı çizildiğinde maksimum gerilmenin kayaç dayanımını
+
+aşmadığı ve güvenli tarafta kalındığı görülmektedir.
+
+<!-- image -->
+
+##### 107 Deplasmanlar
+
+Tünel kazısının bitirilip, destek elemanlarının konulmasının ardından tünelde ve etrafındaki kayaçlarda oluşması beklenilen deplasmanlar belirlenmiştir. Kayaçlarda hesaplanan maksimum düşey deplasman 79,24 mm. ‘dir. Bu değer T1 tüneli tepe noktasına aittir. Hesaplanan maksimum yatay deplasman ise 18,48 mm ile T2 tüneli sağ alt kısmında oluşmuştur. Tünellerde hesaplanan en büyük yatay deplasman ise 13,14 mm ile T1 tüneli tabanında meydana gelmiştir.
+
+Şekil 9.35 ve 9.36'da Plaxis modelinde hesaplanan düşey ve yatay yer değiştirmelerin dağılımı gösterilmiştir. Çizelge 9.24 ve 9.25'de kazı aşamalarına göre tünel tepe noktası, alt yarı, üst yarı ve tabanda oluşan yatay ve düşey deplasman değerleri verilmiştir.
+
+[*10" 3 m]
+
+<!-- image -->
+
+■ 40.000
+
+30.000
+
+20.000
+
+H ıo.ooo
+
+0.000
+
+—1-10.000
+
+-1-20.000
+
+30.000
+
+-|-40.000
+
+50.000
+
+60.000
+
+■-70.000
+
+80.000
+
+**Vertical displacements (Uy)**
+
+Extreme Uy -79,24* 10 " 3 m
+
+### PLAXIS
+
+**Fini te Element Code for Soil and Rock Analyses**
+
+water e3 silttasi
+
+56
+
+Model 2A
+
+10.05,09
+
+Yi İdiz Technical University
+
+Şekil 9.35 Model 2A’da hesaplanan düşey deplasman dağılımı
+
+| T’ ‘A   |           |    |          |
+|---------|-----------|----|----------|
+|         |           |    | îâSgyy ■ |
+|         | f&#124;g3 |    |          |
+|         |           |    |          |
+
+»	| mm
+
+<!-- image -->
+
+[*10 J m]
+
+1
+
+18.000
+
+16.000
+
+14.000
+
+12.000
+
+10.000
+
+8.000
+
+—I 6.000
+
+- 4.000
+
+2.000
+
+0.000  
+—1-2.000  
+-4.000  
+—1-6.000  
+-8.000  
+-l-ıoooo
+
+. 12.000
+
+B
+
+-14.000
+
+-16.000
+
+-18.000
+
+-20.000
+
+**Horizontal displacements (Ux)**
+
+| Extreme Ux -18,48*10"  3  m                              |                                       |    |          |                             |
+|----------------------------------------------------------|---------------------------------------|----|----------|-----------------------------|
+| P LAXIS                                                  | Preyerr  ***cescrpnoa***  Model 2A    |    |          |                             |
+| P LAXIS                                                  | ***Projece name***  water e3 silttasi | 56 | 10.05.09 | Yildiz Technical University |
+| **&#124; Finde Element Code for Soil and Rock Analyses** |                                       | 56 | 10.05.09 | Yildiz Technical University |
+
+Şekil 9.36 Model 2A’da hesaplanan yatay deplasman dağılımı
+
+Çizelge 9.24 Model 2A- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri
+
+|                           |         | *Düşey Deplasmanlar (mm)*   |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
+|---------------------------|---------|-----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|                           |         | *Kazı Aşamaları*            |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
+| *Deplasman Ölçüm Noktası* | *Tünel* | *1*                         | *2*   | *3*   | *4*   | *5*   | *6*   | 7     | *8*   | *9*   | *10*  | *11*  | *12*  | *13*  | *14*  | *15*  |
+| *Tünel Tepe Noktası*      | *Tl*    | 0,0                         | -12,6 | -13,4 | -15,5 | -16,6 | -17,1 | -17,2 | -17,2 | -45,5 | -55,3 | -68,8 | -77,0 | -77,5 | -77,8 | -77,9 |
+|                           | *T2*    | 0,0                         | -29,6 | -37,5 | -50,5 | -56,2 | -57,5 | -57,4 | -57,5 | -69,1 | -70,3 | -72,7 | -74,6 | -75,0 | -75,3 | -75,4 |
+| *Sol Üst Yan*             | *Tl*    | 0,0                         | -10,6 | -11,3 | -12,9 | -13,8 | -14,2 | -14,2 | -14,3 | -37,4 | -43,8 | -52,8 | -59,7 | -60,7 | -61,3 | -61,4 |
+|                           | *T2*    | 0,0                         | -24,5 | -30,1 | -39,8 | -44,5 | -46,4 | -46,6 | -46,7 | -58,3 | -59,7 | -62,6 | -64,7 | -64,9 | -65,2 | -65,2 |
+| *Sağ Üst Yan*             | *Tl*    | 0,0                         | -13,2 | -14,1 | -16,5 | -17,7 | -18,2 | -18,3 | -18,4 | -41,7 | -48,9 | -58,8 | -66,2 | -67,3 | -68,0 | -68,2 |
+|                           | *T2*    | 0,0                         | -24,9 | -30,6 | -40,2 | -45,0 | -47,0 | -47,3 | -47,4 | -54,5 | -55,4 | -57,1 | -58,5 | -58,7 | -58,9 | -58,9 |
+| *Sol Alt Yan*             | *Tl*    | 0,0                         | -5,6  | -6,0  | -7,0  | -7,6  | -7,8  | -7,8  | -7,8  | -14,4 | -11,3 | -5,6  | -0,7  | 0,6   | 1,9   | 1,8   |
+|                           | *T2*    | 0,0                         | -10,3 | -10,5 | -14,0 | -15,2 | -18,4 | -18,7 | -18,9 | -29,1 | -30,5 | -33,3 | -35,4 | -35,6 | -35,8 | -35,8 |
+| *Sağ Alt Yan*             | *Tl*    | 0,0                         | -11,7 | -12,4 | -14,6 | -15,7 | -16,1 | -16,1 | -16,1 | -24,2 | -24,7 | -27,8 | -31,3 | -34,1 | -35,1 | -35,3 |
+|                           | *T2*    | 0,0                         | -10,8 | -10,9 | -13,9 | -15,1 | -18,4 | -18,8 | -19,0 | -25,1 | -25,8 | -27,4 | -28,5 | -28,7 | -28,9 | -28,9 |
+| *Tünel Taban Noktası*     | *Tl*    | 0,0                         | -9,7  | -10,4 | -12,1 | -13,0 | -13,3 | -13,3 | -13,4 | -16,4 | -5,0  | 9,9   | 20,2  | 24,8  | 28,4  | 28,6  |
+|                           | *T2*    | 0,0                         | -5,7  | 4,2   | 19,2  | 27,2  | 32,7  | 35,4  | 35,4  | 30,8  | 30,8  | 31,2  | 31,9  | 31,8  | 31,7  | 31,7  |
+
+Çizelge 9.25 Model 2A- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri
+
+|                           |         | *Oluşan Yatay Deplasmanlar (mm)*   |      |      |      |      |      |      |      |       |       |       |       |       |       |       |
+|---------------------------|---------|------------------------------------|------|------|------|------|------|------|------|-------|-------|-------|-------|-------|-------|-------|
+|                           |         | *Kazı Aşamaları*                   |      |      |      |      |      |      |      |       |       |       |       |       |       |       |
+| *Deplasman Ölçüm Noktası* | *Tünel* | *1*                                | *2*  | *3*  | *4*  | *5*  | *6*  | 7    | *8*  | *9*   | *10*  | *11*  | *12*  | *13*  | *14*  | *15*  |
+| *Tünel Tepe Noktası*      | *Tl*    | 0,0                                | 9,6  | 9,5  | 9,0  | 8,8  | 9,1  | 9,3  | 9,3  | 4,0   | 3,7   | 3,5   | 3,4   | 3,3   | 3,2   | 3,2   |
+|                           | *T2*    | 0,0                                | 8,5  | 8,4  | 7,8  | 7,6  | 7,8  | 8,0  | 8,0  | 9,0   | 8,8   | 7,1   | 6,5   | 6,8   | 7,0   | 7,0   |
+| *Sol Üst Yan*             | *Tl*    | 0,0                                | ıı,ı | 10,9 | 10,2 | 9,8  | 10,2 | 10,5 | 10,5 | -0,5  | -0,8  | 0,5   | 0,7   | 0,2   | -0,2  | -0,3  |
+|                           | *T2*    | 0,0                                | 8,2  | 8,3  | 8,2  | 8,2  | 8,3  | 8,5  | 8,5  | 7,1   | 7,6   | 8,6   | 9,4   | 9,6   | 9,9   | 9,9   |
+| *Sağ Üst Yan*             | *Tl*    | 0,0                                | 11,9 | 11,7 | 10,7 | 10,2 | 10,5 | 10,8 | 10,8 | 0,2   | 1,5   | 4,2   | 6,3   | 2,0   | 1,6   | 1,6   |
+|                           | *T2*    | 0,0                                | 9,9  | 9,8  | 9,1  | 8,7  | 8,9  | 9,2  | 9,1  | 5,1   | 5,6   | 6,3   | 6,7   | 7,4   | 7,4   | 7,3   |
+| *Sol Alt Yan*             | *Tl*    | 0,0                                | 1,1  | 1,1  | 1,1  | 1,0  | 1,1  | 1,1  | 1,1  | -6,5  | -6,3  | -5,5  | -5,1  | -5,3  | -5,6  | -5,6  |
+|                           | *T2*    | 0,0                                | 7,8  | 8,2  | 7,1  | 6,8  | 7,3  | 7,6  | 7,6  | -1,2  | -0,7  | 0,4   | 1,0   | 0,7   | 0,3   | 0,3   |
+| *Sağ Alt Yan*             | *Tl*    | 0,0                                | -5,8 | -6,2 | -5,2 | -5,0 | -5,4 | -5,8 | -5,8 | -11,3 | -11,0 | -10,1 | -9,6  | -9,7  | -9,9  | -9,9  |
+|                           | *T2*    | 0,0                                | 7,6  | 6,9  | 5,0  | 3,5  | 7,6  | 7,9  | 7,9  | -3,1  | -2,7  | -1,4  | -0,5  | -0,8  | -1,2  | -1,2  |
+| *Tünel Taban Noktası*     | *Tl*    | 0,0                                | -6,0 | -5,5 | -4,6 | -3,3 | -8,0 | -8,3 | -8,3 | -14,5 | -14,2 | -13,5 | -12,9 | -13,0 | -13,1 | -13,1 |
+|                           | *T2*    | 0,0                                | 0,7  | 0,7  | 0,6  | 0,6  | 0,9  | 0,9  | 0,9  | -8,0  | -7,8  | -7,0  | -6,3  | -6,5  | -6,7  | -6,7  |
+
+Şekil 9.37 ve 9.40 arası T1 ve T2 tünelleri için belirli noktalarda hesaplanan düşey ve yatay deplasmanların kazı aşamaları ile gelişimi gösterilmiştir.
+
+<!-- image -->
+
+<!-- image -->
+
+| T1 tepe noktası   | T1 sol üst yarı   | T1 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T1 sol alt yarı   | T1 sağ alt yarı   | T1 taban          |
+
+**KM:0+820 T2 TÜNELİ DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+| T2 tepe noktası   | T2 sol üst yarı   | T2 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T2 sol alt yarı   | T2 sağ alt yarı   | T2 taban          |
+
+Şekil 9.39 Model 2A- T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi
+
+**12,0**
+
+**10,0**
+
+**8,0**
+
+**6,0**
+
+**s**
+
+**4,0**
+
+(S
+
+**2,0**
+
+**6/5**
+
+**0,0**
+
+**-2,0**
+
+**-S**
+
+**-4,0**
+
+**-6,0**
+
+**-8,0**
+
+| T2 tepe noktası   | T2 sol üst yarı   | T2 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T2 sol alt yarı   | T2 sağ alt yarı   | T2 taban          |
+
+**KM:0+820 T2 TÜNELİ YATAY DEPLASMANLARI**
+
+<!-- image -->
+
+**-10,0**
+
+Şekil 9.41 - 9.43 arası T1 ve T2 tünelleri için hesaplanan üstyarı düşey deplasmanları, altyarı düşey deplasmanları ve taban düşey deplasmanları karşılaştırmalı olarak gösterilmiştir.
+
+**KM:0+820 T1-T2 TÜNELLERİ ÜSTYARI DÜŞEY DEEpLASMANLARI**
+
+<!-- image -->
+
+Şekil 9.41 T1-T2 tünelleri üstyarı düşey deplasmanlarının karşılaştırılması
+
+<!-- image -->
+
+Şekil 9.42 T1-T2 tünelleri altyarı düşey deplasmanlarının karşılaştırılması
+
+**KM:0+820 T1-T2 TÜNELLERİ TABAN DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+Şekil 9.43 T1-T2 tünelleri taban düşey deplasmanlarının karşılaştırılması
+
+##### 108 Model 2A'da İçin Hesaplanan Düşey Deplasmanların Değerlendirilmesi
+
+• Maksimum düş ey deplasman yaklaş ı k 7,8 cm ile T1 tüneli tepe noktası nda belirlenmi ş tir.
+
+• Tünellerde hesaplanan maksimum yatay deplasman ise 1,3 cm ile T1 tüneli tabanı nda oluşmuştur.
+
+• Model 2A'da; T1 ve T2 tünellerinde kazını n başlamasının ardından, kazı aşamaları ile gelişen düşey deplasmanlar (Şekil 9.41) incelendiğinde, tepe noktası ve üst yarı noktalarının düşey deplasmanlarının alt yarıya göre daha yüksek olduğu görülmektedir.
+
+• T1 ve T2 tünelleri üst yarı düş ey deplasmanları n ı n değ i ş imi incelendiğ inde;
+
+**o** T2 tüneli kazısının başlamasıyla T2 üst yarı noktalarının düşey deplasmanlarının arttığı görülmektedir.
+
+**o** Aynı şekilde T1 tüneli kazısının başlamasıyla beraber T1 tüneli üst yarı noktalarında T2 tüneline benzer olarak düşey deformasyonların arttığı belirlenmiştir.
+
+**o** T1 tüneli üst yarı kazısının bitirilmesiyle beraber sabit hızlı harekete geçen T1 ve T2 tepe noktaları, T1 ve T2 sağ üst yarı noktaları, T1 ve T2 sol üst yarı noktaları; düşey yer değiştirmelerinin sabitlendiği gözlenmektedir.
+
+- T1 ve T2 tünelleri alt yarı noktaları düş ey deplasmanları incelendiğ inde (Ş ekil 9.42);
+
+**o** T2 tüneli alt yarı noktaları ile beraber T1 tünelinin T2 tüneline bakan kısmında olan sağ alt yarı noktasının da, T1 tüneli kazısı başlayana kadar artan bir düşey deplasman hareketi yaptığı gözlenmektedir.
+
+**o** T1 tüneli kazısının başlamasıyla T2 tüneli alt yarı noktaları ve T1 sağ alt yarı noktası artan bir düşey deplasmana maruz kalırken, T1 tüneli sol alt yarı noktasında oluşan düşey deplasmanlar diğerlerinin aksi yönünde, artan bir hızdaki kabarmaya dönüşmüştür.
+
+- T2 tüneli taban orta noktası nda, T1'e nazaran daha büyük; yaklaş ı k 3,2cm‘ lik bir kabarma belirlenmiştir (Şekil 9.43).
+
+Sonuç olarak incelenen çift tüneller için, tünel kazısında bitişik tünelin bu kazıdan etkilendiği belirlenmiştir. T1 tüneli sağ üst yarı ve sol alt yarısında hesaplanan düşey ve yatay deplasman değerlerinin T2 ‘ ye kıyasla daha yüksek olduğu belirlenmiştir. Geriye kalan düşey ve yatay deplasmanlar T2 tünelinde T1 tüneli göre daha yüksektir.
+
+##### 9.5.3 Model 3A İçin Yapılan Analizler
+
+E-5 karayolu altında bulunan bu kesim, tünel güzergahının 65 metre örtü kalınlığı ile en derin kısmını oluşturmaktadır. Bu kesit için kullanılan geoteknik parametreler Çizelge 9.26'da, Plaxis modeli ise Şekil 9.44'de verilmiştir.
+
+**Model 3A Özellikleri**
+
+Örtü kalınlığı: 65 metre
+
+Kaya ortamı: Homojen
+
+Modeldeki tünel boyu: 6 metre
+
+Jeolojik birim: Kumtaşı
+
+Kaya kalitesi: Zayıf
+
+Kesit kilometresi: 1+020.000
+
+Çizelge 9.26 Model 3A geoteknik parametreleri
+
+| **Litoloji**   | **E (kPa)**   |   **V** |   **c (kPa)** |   **♦(•)** |   **Ysat. (kN/m**  **3**  **)** |   **Yunsat. (kN/m**  **3**  **)** |
+|----------------|---------------|---------|---------------|------------|---------------------------------|-----------------------------------|
+| Kumtaşı        | 400 000       |    0.28 |           200 |         40 |                              25 |                                23 |
+
+<!-- image -->
+
+Şekil 9.44 Model 3A Plaxis modeli
+
+Oluşturulan modele ait kazı aşamaları aşağıda verilmiştir. Üç boyutlu olan modelde (boy=6m) ilerleme adımı üst yarı için 1,5 metre alt yarı için 3 metre alınmıştır. Böylece dört dilim oluşturulmuştur.
+
+##### Kazı adımları:
+
+Model 1A ve Model 2A ile aynı kazı adımları göz önüne alınmıştır.
+
+##### 109 Tünel Çevresinde Oluşan Gerilmeler
+
+Kazı ve desteklemenin ardından tünel çevresinde hesaplanan ortalama gerilmeler Şekil 9.45'da gösterilmiştir. Program çıktısına göre basınç gerilmeleri (-), çekme gerilmeleri ise (+) işaretlidir.
+
+[kN/m 2 ]
+
+**1** 200.000
+
+0.000
+
+-200.000
+
+-400.000
+
+-500.000
+
+I -800,000 - -1000.
+
+- -1200.
+
+- -1400.
+
+- -1600.
+
+- *İ800.'
+
+- -2000.
+
+- -2200.
+
+■ -2400.
+
+■ -2600.
+
+**B** -2S0D.
+
+-3000.
+
+-3200.
+
+00 3
+
+00 D
+
+00)
+
+00)
+
+00)
+
+000
+
+00)
+
+00)
+
+00)
+
+00 D
+
+DOÜ
+
+00)
+
+**Mean stresses**
+
+bttreme mean stress-3,09*10 3 kN/m’
+
+P LAXIS
+
+fıstecIna-clCcdiLE
+
+vvater e4 home
+
+Model 3A
+
+|    |          |
+|----|----------|
+| 62 | 11.05.09 |
+
+Yildiz Technical University
+
+Şekil 9.45 Model 3A çevresinde hesaplanan ortalama gerilmeler
+
+<!-- image -->
+
+Maksimum basınç gerilmesi sol tüpün sağ alt temeli civarında meydana gelmektedir. Buraya ait şekil Şekil 9.46'da gösterilmiştir.
+
+Şekil 9.46 Sol Tüp (T1) sağ alt yarıda oluşan maksimum gerilme noktası 383 numaralı noktada oluşan basınç gerilmelerine ait değerler aşağıdaki gibidir;
+
+Oxx = - 1062,43 kPa
+
+Oyy = -5342,85 kPa
+
+*&lt;jzz* = - 1658,8 kPa
+
+CT z
+
+CT
+
+yy
+
+xx
+
+Burada yer alan kayaç Kumtaşı olup dayanım özellikleri;
+
+c = 200 kPa
+
+9 = 40 o dir.
+
+Maksimum gerilmeler için Mohr Zarfı çizildiğinde maksimum gerilmenin kayaç dayanımını aşmadığı ve güvenli tarafta kalındığı görülmektedir.
+
+<!-- image -->
+
+<!-- image -->
+
+##### 110 Deplasmanlar
+
+Tünel kazısı bitirilip, destek elemanlarının konulmasının ardından tünelde ve etrafındaki kayaçlarda oluşması beklenilen deplasmanlar belirlenmiştir. Kayaçlarda meydana gelen maksimum düşey deplasman 77,82 mm. ‘dir. Bu değer T2 tüneli tepe noktasına aittir. Tünel çevresinde hesaplanan maksimum yatay deplasman ise 16,43 mm ile T2 tüneli sağ alt kısmında oluşmuştur. Tünellerde oluşacak en büyük yatay deplasman ise 11,3 mm ile T1 tüneli tabanında hesaplanmıştır.
+
+Şekil 9.47 ve 9.48'de Plaxis modelinde hesaplanan düşey ve yatay yer değiştirmelerin dağılımı gösterilmiştir. Çizelge 9.27 ve 9.28'de kazı aşamalarına göre tünel tepe noktası, alt yarı, üst yarı ve tabanda hesaplanan yatay ve düşey deplasman değerleri verilmiştir.
+
+**Vertical displacernents (Uy)**
+
+**Extreme Uy -77,02*10** **\_î** **m**
+
+**[*10 ’** **3** **m]**
+
+L/l
+
+<!-- image -->
+
+| P LAXIS                                                   | 1  ***Projeci descripüon***   |    | Model 3A   | Model 3A                    |
+|-----------------------------------------------------------|-------------------------------|----|------------|-----------------------------|
+| P LAXIS                                                   | ***Projece name***            |    |            | Yildiz Technical University |
+| **&#124; Finite Element Code for Soil and Rock Analyses** | water e4 home                 | 62 | 11.05.09   | Yildiz Technical University |
+
+**Vefsion 2.4.0.456**
+
+Şekil 9.47 Model 3A’da hesaplanan düşey deplasman dağdımı
+
+**Pbxis 3D Tunnel 2.4**
+
+<!-- image -->
+
+**Horîzontal displacements (Ux)**
+
+**Extreme Ux -16;43*10** **3** **m**
+
+| PLAXIS   | ***Projece descripricn***  Model 3A   |                |          |                                              |
+|----------|---------------------------------------|----------------|----------|----------------------------------------------|
+| PLAXIS   | ***Projece neme***  water e4 home     | ***Seep***  62 | 11.05.09 | ***User neme***  Yildiz Technical University |
+
+Şekil 9.48 Model 3A’da hesaplanan yatay deplasman dağdımı
+
+Çizelge 9.27 Model 3A- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri
+
+|                           |         | *Düşey Deplasmanlar (mm)*   |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
+|---------------------------|---------|-----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|                           |         | *Kazı Aşamaları*            |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
+| *Deplasman Ölçüm Noktası* | *Tünel* | *1*                         | *2*   | *3*   | *4*   | *5*   | *6*   | 7     | *8*   | *9*   | *10*  | *11*  | *12*  | *13*  | *14*  | *15*  |
+| *Tünel Tepe Noktası*      | *Tl*    | 0,0                         | -14,9 | -17,8 | -16,0 | -19,1 | -19,4 | -19,6 | -19,6 | -44,1 | -55,8 | -68,4 | -75,1 | -75,4 | -75,5 | -75,7 |
+|                           | *T2*    | 0,0                         | -30,7 | -51,7 | -40,6 | -58,0 | -58,9 | -58,8 | -59,0 | -67,7 | -69,3 | -71,6 | -73,2 | -73,4 | -73,7 | -73,7 |
+| *Sol Üst Yan*             | *Tl*    | 0,0                         | -13,2 | -15,6 | -14,2 | -16,6 | -16,9 | -17,0 | -17,1 | -36,3 | -44,0 | -53,0 | -58,9 | -59,6 | -60,0 | -60,3 |
+|                           | *T2*    | 0,0                         | -25,4 | -40,1 | -32,3 | -45,8 | -47,2 | -47,4 | -47,7 | -56,4 | -58,1 | -60,7 | -62,4 | -62,6 | -62,7 | -62,8 |
+| *Sağ Üst Yan*             | *Tl*    | 0,0                         | -14,9 | -18,0 | -16,1 | -20,8 | -21,2 | -21,4 | -21,5 | -37,3 | -45,5 | -55,3 | -61,4 | -61,9 | -62,3 | -62,5 |
+|                           | *T2*    | 0,0                         | -25,6 | -40,4 | -32,6 | -46,1 | -47,4 | -47,6 | -47,8 | -53,6 | -54,7 | -56,4 | -57,6 | -57,7 | -57,9 | -57,9 |
+| *Sol Alt Yan*             | *Tl*    | 0,0                         | -11,0 | -13,0 | -11,8 | -13,9 | -14,1 | -14,2 | -14,2 | -19,0 | -19,1 | -21,2 | -23,7 | -25,6 | -26,2 | -26,5 |
+|                           | *T2*    | 0,0                         | -10,9 | -12,3 | -11,0 | -14,5 | -17,9 | -18,3 | -18,6 | -26,2 | -27,8 | -30,3 | -31,9 | -32,1 | -32,2 | -32,2 |
+| *Sağ Alt Yan*             | *Tl*    | 0,0                         | -13,0 | -15,8 | -14,1 | -17,1 | -17,4 | -17,4 | -17,5 | -22,1 | -22,7 | -24,9 | -27,6 | -29,6 | -30,1 | -30,2 |
+|                           | *T2*    | 0,0                         | -11,1 | -12,5 | -11,1 | -14,5 | -16,9 | -17,3 | -17,5 | -22,4 | -23,4 | -24,9 | -25,9 | -26,0 | -26,1 | -26,1 |
+| *Tünel Taban Noktası*     | *Tl*    | 0,0                         | -11,5 | -13,9 | -12,4 | -14,9 | -15,1 | -15,2 | -15,3 | -14,0 | -1,4  | 12,5  | 21,7  | 24,6  | 26,8  | 27,1  |
+|                           | *T2*    | 0,0                         | -5,6  | 18,5  | 5,7   | 27,2  | 31,0  | 33,0  | 33,2  | 30,0  | 29,4  | 28,6  | 27,9  | 27,9  | 27,8  | 27,8  |
+
+Çizelge 9.28 Model 3A- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri
+
+|                           |         | *Yatay Deplasmanlar (mm)*   |      |      |      |      |      |      |      |       |       |       |       |       |       |       |
+|---------------------------|---------|-----------------------------|------|------|------|------|------|------|------|-------|-------|-------|-------|-------|-------|-------|
+|                           |         | *Kazı Aşamaları*            |      |      |      |      |      |      |      |       |       |       |       |       |       |       |
+| *Deplasman Ölçüm Noktası* | *Tünel* | *1*                         | *2*  | *3*  | *4*  | *5*  | *6*  | *7*  | *8*  | *9*   | *10*  | *11*  | *12*  | *13*  | *14*  | *15*  |
+| *Tünel Tepe Noktası*      | *Tl*    | 0,0                         | 7,8  | 7,2  | 7,6  | 7,1  | 7,3  | 7,5  | 7,5  | 4,0   | 3,9   | 3,9   | 3,8   | 3,8   | 3,7   | 3,7   |
+|                           | *T2*    | 0,0                         | 0,0  | -0,2 | -0,1 | -0,3 | -0,3 | -0,3 | -0,3 | -5,6  | -5,3  | -4,6  | -4,5  | -4,6  | -4,9  | -4,8  |
+| *Sol Üst Yan*             | *Tl*    | 0,0                         | 7,0  | 6,4  | 6,8  | 6,2  | 6,4  | 6,5  | 6,5  | 8,6   | 8,4   | 7,5   | 7,4   | 7,6   | 7,8   | 7,9   |
+|                           | *T2*    | 0,0                         | 5,7  | 4,8  | 5,8  | 4,7  | 5,2  | 5,5  | 5,6  | -0,7  | -0,2  | 0,8   | 1,1   | 0,8   | 0,5   | 0,6   |
+| *Sağ Üst Yan*             | *Tl*    | 0,0                         | 9,0  | 8,0  | 8,7  | 8,0  | 8,4  | 8,7  | 8,7  | 0,7   | -0,7  | -1,3  | -1,8  | -2,1  | -2,3  | -2,3  |
+|                           | *T2*    | 0,0                         | -5,8 | -5,5 | -6,1 | -5,6 | -5,9 | -6,2 | -6,1 | -10,1 | -9,7  | -9,1  | -8,8  | -8,9  | -9,1  | -9,0  |
+| *Sol Alt Yan*             | *Tl*    | 0,0                         | 6,8  | 6,2  | 6,6  | 5,9  | 6,1  | 6,2  | 6,2  | 8,9   | 8,3   | 7,4   | 6,6   | 10,5  | 10,7  | 10,7  |
+|                           | *T2*    | 0,0                         | 5,3  | 3,2  | 4,5  | 2,2  | 7,1  | 7,4  | 7,4  | -0,7  | -0,2  | 0,8   | 1,3   | 1,1   | 0,8   | 0,8   |
+| *Sağ Alt Yan*             | *Tl*    | 0,0                         | 9,7  | 8,5  | 9,3  | 7,9  | 8,2  | 8,5  | 8,5  | 0,3   | 1,4   | 3,0   | 3,9   | -0,9  | -1,2  | -1,1  |
+|                           | *T2*    | 0,0                         | -5,7 | -4,1 | -5,2 | -3,1 | -7,8 | -8,1 | -8,0 | -12,4 | -12,1 | -11,5 | -11,1 | -11,2 | -11,4 | -11,3 |
+| *Tünel Taban Noktası*     | *Tl*    | 0,0                         | 8,2  | 7,4  | 7,9  | 7,1  | 7,3  | 7,5  | 7,4  | 4,7   | 5,2   | 5,8   | 6,1   | 7,0   | 7,1   | 7,1   |
+|                           | *T2*    | 0,0                         | -0,3 | -0,4 | -0,3 | -0,3 | 0,5  | 0,5  | 0,5  | -6,0  | -5,7  | -5,2  | -4,8  | -4,9  | -5,1  | -5,1  |
+
+Şekil 9.49 ve 9.52 arası T1 ve T2 tünelleri için belirli noktalarda hesaplanan düşey ve yatay deplasmanların kazı aşamaları ile gelişimi gösterilmiştir.
+
+**KM:1+020 T1 TÜNELİ DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+| T1 tepe noktası   | T1 sol üst yarı   | T1 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T1 sol alt yarı   | T1 sağ alt yarı   | T1 taban          |
+
+Şekil 9.49 Model 3A- T1 tüneli kazı aşamaları ile düşey deplasmanların değişimi
+
+**KM:1+020 T1 TÜNELİ YATAY DEPLASMANLARI**
+
+<!-- image -->
+
+| T1 tepe noktası   | T1 sol üst yarı   | T1 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T1 sol alt yarı   | T1 sağ alt yarı   | T1 taban          |
+
+**KM:1+020 T2 TÜNELİ DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+| T2 tepe noktası   | T2 sol üst yarı   | T2 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T2 sol alt yarı   | T2 sağ alt yarı   | T2 taban          |
+
+Şekil 9.51 Model 3A -T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi
+
+**KM:1+020 T2 TÜNELİ YATAY DEPLASMANLARI**
+
+**10,0**
+
+**5-**
+
+**c**
+
+**es**
+
+4)
+
+O
+
+**s**
+
+**es**
+
+**-15,0**
+
+**Kazı Aş amaları**
+
+5,0
+
+0,0
+
+-5,0
+
+10,0
+
+| T2 tepe noktası   | T2 sol üst yarı   | T2 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T2 sol alt yarı   | T2 sağ alt yarı   | T2 taban          |
+
+<!-- image -->
+
+Şekil 9.53 - 9.55 arası T1 ve T2 tünelleri için hesaplanan üstyarı düşey deplasmanları, altyarı düşey deplasmanları ve taban düşey deplasmanları karşılaştırmalı olarak gösterilmiştir.
+
+**KM:1+020 T1-T2 TÜNELLERİ ÜST YARI DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+T1 tepe noktası	T1 sol üst yarı	T1 sağ üst yarı
+
+T2 tepe noktası	T2 sol üst yarı	T2 sağ üst yarı
+
+Şekil 9.53 Model 3A T1-T2 tünelleri üstyarı düşey deplasmanlarının karşılaştırılması
+
+**KM:1+020 T1-T2 TÜNELLERİ ALT YARI DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+| T1 sol alt yarı   | T1 sağ alt yarı   |
+|-------------------|-------------------|
+| T2 sol alt yarı   | T2 sağ alt yarı   |
+
+**KM:1+020 T1-T2 TÜNELLERİ TABAN DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+Şekil 9.55 Model 3A T1-T2 tünelleri taban düşey deplasmanlarının karşılaştırılması
+
+##### 111 Model 3A İçin Hesaplanan Deplasmanların Değerlendirilmesi
+
+• Model 3A'da T1 ve T2 tünelleri üst yarı dü ş ey deplasmanları incelendiğ inde (Şekil 9.53);
+
+**o** T2 tüneli kazısının başlamasıyla, T2 tüneli üst yarı noktaları düşey deplasmanları artmıştır. Bunun yanı sıra; T1 tüneli T2 tüneli kazısından etkilenmiştir.
+
+**o** T1 tüneli kazı s ı na baş lanı lmadan önce T1 tüneli üst yarı noktaları nda yaklaş ı k 2 cm'lik düşey deplasmanlar oluşmuştur.
+
+**o** T1 tüneli kazı s ı n ı n ba ş laması yla birlikte her iki tünelde artan düş ey deplasmanlar meydana gelmiştir.
+
+**o** T1 tüneli üst yarı kazısının bitirilmesiyle birlikte (12. kazı aşaması) T1-T2 tünelleri tepe noktaları ve diğer üst yarı noktalarında deplasmanlar sabitlenmiş ve hemen hemen aynı deplasman değerlere ulaşmıştır.
+
+• T1 ve T2 tünelleri alt yarı düşey deplasmanları incelendiğinde (Şekil 9.54);
+
+**o** T2 tüneli kazısının başlamasıyla beraber, hem T2 tüneli hem T1 tüneli alt yarı noktalarında düşey deplasman hareketleri olduğu belirlenmiştir. Hareket önce yavaşlayarak artarken, T1 tüneli kazısının başlamasıyla yeniden artan bir eğilim sergilemiştir.
+
+**o** T2 tüneli tabanı T2 tüneli üst yarı kazısı bitirilene kadar kararsız bir deplasman seyri sergilemiştir.
+
+**o** Üst yarı kazısının bitirilmesiyle birlikte yavaşlayan, ardından T1 tüneli kazısının başlamasıyla sabitlenen bir düşey deplasman belirlenen tünel tabanında yaklaşık 30 mm'lik bir düşey deplasman (kabarma) oluşmuştur.
+
+**o** T1 tüneli tabanında ise; T1 kazısı başlayana kadar yaklaşık 10 mm ‘lik oturmalar gözlemlenirken, T1 tüneli kazısının başlamasıyla birlikte düşey deplasmanlar yön değiştirmişlerdir.
+
+**o** T1 tüneli üst yarısı kazısının tamamlanmasıyla T1 tüneli tabanında görülen kabarmalar, hemen hemen T2 tünelindeki değerlere ulaşmıştır.
+
+Sonuç olarak, incelenen çift tüneller için, tünel kazısından bitişik tünelin etkilendiği görülmüştür. T1 tüneli kazısına başlanılmadan önce T1 tüneli üst yarı noktalarında yaklaşık 2 cm'lik düşey deplasmanlar oluşmuştur. İki tünelin inşaatın bitirilmesiyle tüneller çevresinde hesaplanan maksimum düşey ve yatay deplasman değerlerinin üst yarıda, alt yarıda ve tabanda birbirine yakın olduğu gözlenmektedir.
+
+##### 112 Model 1B İçin Yapılan Analizler
+
+Model 1A ile aynı kesit olan Model 1B'de bu kesim civarında yapılan sondajlardan yararlanılarak, ortam homojen yerine tabakalı olarak tanımlanmıştır. Bu kesit için kullanılan geoteknik parametreler Çizelge 9.29'da, Plaxis modeli ise Şekil 9.56'da verilmiştir.
+
+**Model 1B Özellikleri**
+
+Örtü kalınlığı: 15 metre
+
+Kaya ortamı: Tabakalı
+
+Modeldeki tünel boyu: 6 metre
+
+Jeolojik birim: Kumtaşı
+
+Kaya kalitesi: Orta
+
+Kesit kilometresi: 0+580.000
+
+Çizelge 9.29 Model 1B geoteknik parametreleri
+
+| **Derinlik**                                 | **Litoloji**   |   **E (kPa)** | **V**   |   **c**  **(kPa)** |   **♦(•)** |   **Ysat.**  **(kN/m**  **3**  **)** |   **Yunsat.**  **(kN/m**  **3**  **)** |
+|----------------------------------------------|----------------|---------------|---------|--------------------|------------|--------------------------------------|----------------------------------------|
+| İlk 5 metre                                  | Kumtaşı        |        400000 | 0,28    |                200 |         40 |                                   25 |                                     23 |
+| İlk 5 m ile tünel tabanının 6 m altına kadar | Kumtaşı        |        900000 | 0,28    |                200 |         50 |                                   25 |                                     23 |
+| Tünel tabanının 6 m altından itibaren        | Kumtaşı        |       1000000 | 0.28    |                200 |         52 |                                   25 |                                     23 |
+
+<!-- image -->
+
+Şekil 9.56 Model 1B Plaxis modeli
+
+Oluşturulan modele ait kazı aşamaları aşağıda verilmiştir. Üç boyutlu olan modelde (boy=6m) ilerleme adımı üst yarı için 1,5 metre alt yarı için 3 metre alınmıştır. Böylece dört dilim oluşturulmuştur.
+
+**Kazı adımları:**
+
+Model 1A ile aynı kazı adımları göz önüne alınmıştır.
+
+##### 113 Deplasmanlar
+
+Tünel kazısının bitirilip, destek elemanlarının konulmasının ardından tünelde ve etrafındaki kayaçlarda meydana gelen deplasmanlar belirlenmiştir. Kayaçlarda hesaplanan maksimum düşey deplasmanlar 10 mm ile T1 ve T2 tüneli tepe noktalarına aittir. Tünel çevresinde hesaplanan maksimum yatay deplasman ise 3,50 mm ile yüzeyde oluşmuştur. Tünellerde hesaplanan en büyük yatay deplasman ise 0,90 mm ile T1 tüneli tabanında meydana gelmiştir. Şekil 9.11'de Model üzerinde hesaplanan deplasman değerleri için çıktı alınan noktalar gösterilmiştir. Şekil 9.57 ve 9.58'de Plaxis modelinde düşey ve yatay yer değiştirmelerin dağılımı belirtilmiştir. Çizelge 9.30 ve 9.31'de kazı aşamalarına göre tünel tepe noktası, alt yarı, üst yarı ve tabanda oluşan yatay ve düşey deplasman değerleri verilmiştir.
+
+<!-- image -->
+
+[lo'm]
+
+- 5.000 I 4.000 I 3.000
+- 2.000 - 1.000
+
+- 0.000
+
+- -1.000
+
+- -2.000
+
+- -3.000
+- -4.000
+- -5.000
+- -6.000
+
+- -7.000
+
+I -8.000
+
+■ -9.000
+
+I -10.000 ■-11.000
+
+**Vertical displacements (Uy)**
+
+| Extreme Uy -10,05*10  3  m                                |                         |       |          |                             |
+|-----------------------------------------------------------|-------------------------|-------|----------|-----------------------------|
+| P LAXIS                                                   | ***Prcject dacripaon*** |       | Model İB | Model İB                    |
+| P LAXIS                                                   | ***Pnyect name***       | .Step |          |                             |
+| **&#124; Finite Element Code far Soil and Rock AnaLyees** | 15 tabakali 6m          | 111   | 17.05.09 | Yildiz Technical University |
+
+Versen 2,4.0,456
+
+Şekil 9.57 Model lB’de hesaplanan düşey deplasman dağılımı
+
+[*10 3 m]
+
+<!-- image -->
+
+—ı 3.600 I 3.200 ■ 2.800
+
+- 2.400
+- 2.000 ■ 1.600 - 1.200
+
+- 0.800
+
+- 0.400
+- -0.000
+- -0.400
+- -0.800
+
+- -1.200
+
+- -1.600 I -2.000
+
+I -2.400
+
+I -2.800
+
+I -3.200 ■-3.600
+
+**Horizontal displacements (Ux)**
+
+Extreme Ux -3,50*10 ' m
+
+### P LAXIS
+
+**Einite Element Code for Soil and Rock Analyseı**
+
+15 tabakalı 6m
+
+Model İB
+
+| ***Step***   |     |          |
+|--------------|-----|----------|
+|              | 111 | 17.05.09 |
+
+Şekil 9.58 Model lB’de hesaplanan yatay deplasman dağılımı
+
+Çizelge 9.30 Model 1B- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri
+
+|                           |         | *Düşey Deplasmanlar (mm)*   |      |      |      |      |      |      |      |      |      |      |      |      |       |       |
+|---------------------------|---------|-----------------------------|------|------|------|------|------|------|------|------|------|------|------|------|-------|-------|
+|                           |         | *Kazı Aşamaları*            |      |      |      |      |      |      |      |      |      |      |      |      |       |       |
+| *Deplasman Ölçüm Noktası* | *Tünel* | *1*                         | *2*  | *3*  | *4*  | *5*  | *6*  | *7*  | *8*  | *9*  | *10* | *11* | *12* | *13* | *14*  | *15*  |
+| *Tünel Tepe Noktası*      | *Tl*    | 0,0                         | -0,7 | -0,7 | -0,8 | -0,9 | -0,9 | -1,0 | -1,0 | -3,9 | -5,3 | -6,8 | -9,7 | -9,9 | -10,0 | -10,0 |
+|                           | *T2*    | 0,0                         | -2,7 | -4,0 | -5,4 | -8,2 | -8,5 | -8,5 | -8,6 | -9,7 | -9,7 | -9,8 | -9,9 | -9,9 | -10,0 | -10,0 |
+| *Sol Üst Yan*             | *Tl*    | 0,0                         | -0,5 | -0,5 | -0,6 | -0,6 | -0,6 | -0,7 | -0,7 | -3,1 | -3,9 | -4,8 | -6,8 | -7,0 | -7,0  | -7,1  |
+|                           | *T2*    | 0,0                         | -2,3 | -3,1 | -4,0 | -5,9 | -6,2 | -6,3 | -6,3 | -7,7 | -7,8 | -7,9 | -8,3 | -8,3 | -8,4  | -8,4  |
+| *Sağ Üst Yan*             | *Tl*    | 0,0                         | -0,9 | -0,9 | -1,0 | -1,3 | -1,3 | -1,3 | -1,3 | -4,0 | -5,0 | -6,0 | -8,1 | -8,3 | -8,4  | -8,5  |
+|                           | *T2*    | 0,0                         | -2,3 | -3,1 | -4,0 | -5,8 | -6,1 | -6,2 | -6,3 | -6,9 | -6,9 | -6,9 | -7,0 | -7,0 | -7,0  | -7,1  |
+| *Sol Alt Yan*             | *Tl*    | 0,0                         | -0,4 | -0,4 | -0,5 | -0,5 | -0,6 | -0,6 | -0,6 | -1,4 | -1,2 | -1,3 | -1,7 | -2,3 | -2,4  | -2,4  |
+|                           | *T2*    | 0,0                         | -0,8 | -0,6 | -0,6 | -1,0 | -1,7 | -1,8 | -1,9 | -3,1 | -3,2 | -3,4 | -3,8 | -3,8 | -3,9  | -3,9  |
+| *Sağ Alt Yan*             | *Tl*    | 0,0                         | -0,8 | -0,9 | -1,0 | -1,3 | -1,3 | -1,3 | -1,4 | -2,4 | -2,3 | -2,4 | -2,9 | -3,7 | -3,9  | -3,9  |
+|                           | *T2*    | 0,0                         | -0,7 | -0,5 | -0,6 | -1,0 | -1,6 | -1,8 | -1,8 | -2,3 | -2,3 | -2,3 | -2,4 | -2,4 | -2,4  | -2,4  |
+| *Tünel Taban Noktası*     | *Tl*    | 0,0                         | -0,6 | -0,6 | -0,7 | -0,8 | -0,9 | -0,9 | -0,9 | -1,2 | 0,2  | 1,5  | 3,4  | 4,2  | 4,7   | 4,6   |
+|                           | *T2*    | 0,0                         | -0,2 | 1,1  | 2,3  | 4,1  | 4,9  | 5,4  | 5,4  | 4,8  | 4,8  | 4,8  | 4,6  | 4,6  | 4,6   | 4,5   |
+
+Çizelge 9.31 Model 1B- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri
+
+|                           |         | *Yatay Deplasmanlar (mm)*   |      |      |      |      |     |     |     |      |      |      |      |      |      |      |
+|---------------------------|---------|-----------------------------|------|------|------|------|-----|-----|-----|------|------|------|------|------|------|------|
+|                           |         | *Kazı Aşamaları*            |      |      |      |      |     |     |     |      |      |      |      |      |      |      |
+| *Deplasman Ölçüm Noktası* | *Tünel* | *1*                         | *2*  | *3*  | *4*  | *5*  | *6* | *7* | *8* | *9*  | *10* | *11* | *12* | *13* | *14* | *15* |
+| *Tünel Tepe Noktası*      | *Tl*    | 0,0                         | 0,7  | 0,7  | 0,6  | 0,5  | 0,6 | 0,6 | 0,6 | 0,5  | 0,4  | 0,4  | 0,4  | 0,4  | 0,3  | 0,3  |
+|                           | *T2*    | 0,0                         | 0,2  | 0,2  | 0,2  | 0,2  | 0,2 | 0,2 | 0,2 | -0,5 | -0,4 | -0,4 | -0,3 | -0,3 | -0,4 | -0,4 |
+| *Sol Üst Yan*             | *Tl*    | 0,0                         | 0,6  | 0,6  | 0,5  | 0,5  | 0,5 | 0,5 | 0,5 | 0,9  | 0,8  | 0,6  | 0,3  | 0,3  | 0,3  | 0,3  |
+|                           | *T2*    | 0,0                         | 0,6  | 0,6  | 0,5  | 0,1  | 0,1 | 0,2 | 0,2 | -0,5 | -0,4 | -0,3 | 0,0  | 0,0  | -0,1 | -0,1 |
+| *Sağ Üst Yan*             | *Tl*    | 0,0                         | 0,7  | 0,7  | 0,6  | 0,4  | 0,4 | 0,5 | 0,5 | -0,2 | -0,2 | -0,1 | 0,3  | 0,2  | 0,1  | 0,1  |
+|                           | *T2*    | 0,0                         | -0,3 | -0,3 | -0,2 | 0,2  | 0,2 | 0,1 | 0,1 | -0,4 | -0,4 | -0,3 | -0,3 | -0,3 | -0,3 | -0,3 |
+| *Sol Alt Yan*             | *Tl*    | 0,0                         | 0,5  | 0,5  | 0,5  | 0,4  | 0,4 | 0,4 | 0,4 | 1,0  | 0,8  | 0,6  | -0,1 | 0,4  | 0,4  | 0,4  |
+|                           | *T2*    | 0,0                         | 0,7  | 0,7  | 0,4  | -0,3 | 0,2 | 0,2 | 0,2 | -0,9 | -0,8 | -0,7 | -0,3 | -0,3 | -0,4 | -0,4 |
+| *Sağ Alt Yan*             | *Tl*    | 0,0                         | 0,8  | 0,8  | 0,7  | 0,3  | 0,3 | 0,4 | 0,4 | -0,2 | 0,0  | 0,3  | 1,1  | 0,4  | 0,3  | 0,3  |
+|                           | *T2*    | 0,0                         | -0,6 | -0,5 | -0,2 | 0,5  | 0,0 | 0,0 | 0,0 | -0,6 | -0,6 | -0,6 | -0,5 | -0,5 | -0,5 | -0,5 |
+| *Tünel Taban Noktası*     | *Tl*    | 0,0                         | 0,7  | 0,6  | 0,6  | 0,4  | 0,4 | 0,4 | 0,4 | 0,4  | 0,5  | 0,5  | 0,7  | 0,8  | 0,9  | 0,9  |
+|                           | *T2*    | 0,0                         | 0,1  | 0,1  | 0,1  | 0,1  | 0,1 | 0,1 | 0,1 | -0,8 | -0,8 | -0,8 | -0,6 | -0,6 | -0,6 | -0,6 |
+
+Şekil 9.59 ve 9.62 arası T1 ve T2 tünelleri için belirli noktalarda hesaplanan düşey ve yatay deplasmanların kazı aşamaları ile gelişimi gösterilmiştir.
+
+**KM:0+580 T1 TÜNELİ DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+T1 tepe noktası	T1 sol üst yarı	T1 sağ üst yarı
+
+T1 sol alt yarı	T1 sağ alt yarı	T1 taban
+
+Şekil 9.59 Model 1B- T1 tüneli kazı aşamaları ile düşey deplasmanların değişimi
+
+**KM:0+580 T1 TÜNELİ YATAY DEPLASMANLARI**
+
+<!-- image -->
+
+| T1 tepe noktası   | T1 sol üst yarı   | T1 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T1 sol alt yarı   | T1 sağ alt yarı   | T1 taban          |
+
+**KM:0+580 T2 TÜNELİ DÜŞEY DEPLASMANLARI**
+
+**Kazı Aş amaları**
+
+**5-**
+
+**JS**
+
+**c**
+
+**O**
+
+**â?**
+
+**(Z3-**
+
+**Q**
+
+**8,0**
+
+**6,0**
+
+**4,0**
+
+**2,0**
+
+**0,0**
+
+**-2,0**
+
+**-4,0**
+
+**-6,0**
+
+**-8,0**
+
+**-10,0**
+
+**-12,0**
+
+**789101112131415**
+
+<!-- image -->
+
+T2 tepe noktası
+
+T2 sol üst yarı
+
+T2 sağ üst yarı
+
+T2 sol alt yarı
+
+T2 sağ alt yarı
+
+T2 taban
+
+Şekil 9.61 Model 1B- T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi
+
+<!-- image -->
+
+**KM:0+580 T2 TÜNELİ YATAY DEPLASMANLARI**
+
+<!-- image -->
+
+T2 tepe noktası
+
+T2 sol üst yarı
+
+T2 sağ üst yarı
+
+T2 sol alt yarı
+
+T2 sağ alt yarı
+
+T2 taban
+
+<!-- image -->
+
+Şekil 9.63 - 9.65 arası T1 ve T2 tünelleri için hesaplanan üstyarı düşey deplasmanları, altyarı düşey deplasmaları ve taban deplasmanları karşılaştırmalı olarak gösterilmiştir.
+
+**KM:0+580 T1-T2 TÜNELLERİ ÜSTYARI DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+T1 tepe noktası	T1 sol üst yarı	T1 sağ üst yarı
+
+T2 tepe noktası	T2 sol üst yarı	T2 sağ üst yarı
+
+Şekil 9.63 Model 1B T1-T2 tünelleri üstyarı düşey deplasmanlarının karşılaştırılması
+
+**KM:0+580 T1-T2 TÜNELLERİ ALTYARI DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+**KM:0+580 T1-T2 TÜNELLERİ TABAN DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+Şekil 9.65 Model 1B T1-T2 tünelleri taban düşey deplasmanlarının karşılaştırılması
+
+##### 114 Model 2B İçin Yapılan Analizler
+
+Model 2A ile aynı kesit olan Model 2B'de bu kesim civarında yapılan sondajlardan yararlanılarak, ortam homojen yerine tabakalı olarak tanımlanmıştır. Bu kesit için kullanılan geoteknik parametreler Çizelge 9.32'de, Plaxis modeli ise Şekil 9.66'da verilmiştir.
+
+**Model 2B Özellikleri**
+
+Örtü kalınlığı: 45 metre
+
+Kaya ortamı: Tabakalı
+
+Modeldeki tünel boyu: 6 metre
+
+Jeolojik birim: Silttaşı
+
+Kaya kalitesi: Zayıf
+
+Kesit kilometresi: 0+820.000
+
+Çizelge 9.32 Model 2B geoteknik parametreleri
+
+| **Derinlik**                              | **Litoloji**   |   **E**  **(kPa)** |   **V** |   **c**  **(kPa)** |   **♦(•)** |   **Ysat.**  **(kN/m**  **3**  **)** |   **Yunsat.**  **(kN/m**  **3**  **)** |
+|-------------------------------------------|----------------|--------------------|---------|--------------------|------------|--------------------------------------|----------------------------------------|
+| Yüzeyden itibaren ilk 20 metre            | Silttaşı       |             250000 |    0.28 |                160 |         35 |                                   26 |                                     24 |
+| Yüzeyden itibaren ilk 20 metreden sonrası | Silttaşı       |             300000 |    0.28 |                180 |         40 |                                   27 |                                     25 |
+
+| rı	rı  II	II  II	ıı  1. .1	1. .1   |    |           |     |             |
+|------------------------------------|----|-----------|-----|-------------|
+| n  II  II  II                      |    |           |     | r 1  II  II |
+|                                    |    |           |     | H           |
+|                                    |    |           |     |             |
+| II                                 | y  | '	e e     | © © | II          |
+| II                                 | -< | &gt;	*  x |     | II          |
+| i                                  |    | ö         | ö   | i           |
+
+Şekil 9.66 Model 2B Plaxis modeli
+
+Oluşturulan modele ait kazı aşamaları aşağıda verilmiştir. Üç boyutlu olan modelde (boy=6m) ilerleme adımı üst yarı için 1,5 metre alt yarı için 3 metre alınmıştır. Böylece dört dilim oluşturulmuştur.
+
+**Kazı adımları:**
+
+Model 2A ile aynı kazı adımları göz önüne alınmıştır.
+
+##### 115 Deplasmanlar
+
+Tünel kazısının bitirilip, destek elemanlarının konulmasının ardından tünelde ve etrafındaki kayaçlarda meydana gelen deplasmanlar belirlenmiştir. Kayaçlarda hesaplanan maksimum düşey deplasman 85,44 mm. ‘dir. Bu değer T1 tüneli tepe noktasına aittir. Tünel çevresinde hesaplanan maksimum yatay deplasman ise 18,23 mm ile T2 tüneli sağ alt temeline yakın bir kesimde oluşmuştur. Hesaplanan yüzeydeki en büyük yatay deplasman yaklaşık 16 mm, tünellerde hesaplanan en büyük yatay deplasman ise 11,1 mm ile T1 tüneli sağ alt yarısında meydana gelmiştir. Şekil 9.67 ve 9.68'de Plaxis modelinde düşey ve yatay yer değiştirmelerin dağılımı belirtilmiştir. Çizelge 9.33 ve 9.34'de kazı aşamalarına göre tünel tepe noktası, alt yarı, üst yarı ve tabanda oluşan yatay ve düşey deplasman değerleri verilmiştir.
+
+**Pi.AXlS**
+
+<!-- image -->
+
+**1** 40.000
+
+30.000
+
+20.000
+
+10.000
+
+- 0.000
+
+- -10.000
+
+- -20.000
+
+- -30.000
+
+- -40.000
+
+- -50.000
+
+1
+
+-60.000
+
+-70.000
+
+164
+
+<!-- image -->
+
+-80.000
+
+**Vertical displacements (Uy)**
+
+-90.000
+
+| Eütreme Uy -85,44“10  3  m                                |                                          |    |          |                             |
+|-----------------------------------------------------------|------------------------------------------|----|----------|-----------------------------|
+| P LAXIS                                                   | P/a/eer  ***des&amp;tpeiarT***  Model 2B |    |          |                             |
+| P LAXIS                                                   | 45 tabakali 6m                           | 74 | 17.05.09 | Yildiz Technical University |
+| **&#124; Finite Element Code for Soil and Rock Analyses** | 45 tabakali 6m                           | 74 | 17.05.09 | Yildiz Technical University |
+
+Şekil 9.67 Model 2B’de hesaplanan düşey deplasman dağılımı
+
+**Horizontal displacements (Ux)**
+
+Extreme Ux -18,23*10 " 3 m
+
+<!-- image -->
+
+[10 m]
+
+18.000
+
+■ 16.000 ■ 14.000
+
+12.000
+
+10.000
+
+8.000
+
+—I 6.000
+
+4.000
+
+2.000
+
+0.000
+
+2.000
+
+—1-4.000 -1-6.000
+
+8.000
+
+10.000
+
+—1-12.000 I -14.000 1-16.000
+
+■18.000
+
+■20.000
+
+| P LAXIS   | ***des&amp;ipöon***  Model 2B   |                |                      |                                             |
+|-----------|---------------------------------|----------------|----------------------|---------------------------------------------|
+| P LAXIS   | 45 tabakali 6m                  | ***Step***  74 | ***Dite***  17.05.09 | ***Userneme***  Yildiz Technical University |
+
+Şekil 9.68 Model 2B’de hesaplanan yatay deplasman dağılımı
+
+Çizelge 9.33 Model 2B- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri
+
+|                           |         | *Düşey Deplasmanlar (mm)*   |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
+|---------------------------|---------|-----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|                           |         | *Kazı Aşamaları*            |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
+| *Deplasman Ölçüm Noktası* | *Tünel* | *1*                         | *2*   | *3*   | *4*   | *5*   | *6*   | *7*   | *8*   | *9*   | *10*  | *11*  | *12*  | *13*  | *14*  | *15*  |
+| *Tünel Tepe Noktası*      | *Tl*    | -0,1                        | -11,4 | -12,3 | -14,1 | -15,7 | -15,8 | -3,0  | -25,2 | -51,9 | -62,3 | -74,8 | -83,5 | -83,7 | -83,7 | -85,4 |
+|                           | *T2*    | -0,1                        | -27,6 | -35,8 | -47,5 | -55,5 | -55,6 | -42,2 | -64,0 | -74,7 | -76,1 | -78,3 | -80,4 | -80,7 | -80,9 | -81,0 |
+| *Sol Üst Yan*             | *Tl*    | -0,1                        | -9,6  | -10,3 | -11,7 | -13,0 | -13,1 | -0,7  | -22,0 | -43,5 | -50,5 | -58,9 | -66,7 | -67,1 | -67,4 | -67,8 |
+|                           | *T2*    | -0,1                        | -22,8 | -28,5 | -36,8 | -44,3 | -44,6 | -32,9 | -52,4 | -63,1 | -64,8 | -67,4 | -69,8 | -69,9 | -70,1 | -70,2 |
+| *Sağ Üst Yan*             | *Tl*    | -0,1                        | -12,0 | -12,9 | -14,9 | -16,8 | -16,9 | -4,9  | -25,6 | -47,7 | -55,4 | -64,5 | -72,7 | -73,2 | -73,6 | -73,9 |
+|                           | *T2*    | -0,1                        | -23,2 | -29,0 | -37,3 | -44,9 | -45,2 | -33,4 | -53,1 | -59,7 | -60,7 | -62,3 | -63,7 | -63,9 | -64,0 | -64,1 |
+| *Sol Alt Yan*             | *Tl*    | 0,0                         | -7,8  | -8,4  | -9,6  | -10,6 | -10,7 | 0,9   | -19,3 | -26,6 | -26,9 | -29,0 | -33,2 | -35,6 | -36,0 | -36,4 |
+|                           | *T2*    | -0,1                        | -9,2  | -9,1  | -10,8 | -14,4 | -16,5 | -6,6  | -24,1 | -33,5 | -35,1 | -37,7 | -40,1 | -40,2 | -40,2 | -40,3 |
+| *Sağ Alt Yan*             | *Tl*    | -0,1                        | -10,6 | -11,4 | -13,2 | -14,9 | -14,9 | -3,7  | -23,1 | -30,4 | -30,9 | -33,1 | -37,2 | -39,2 | -39,8 | -40,1 |
+|                           | *T2*    | -0,1                        | -9,6  | -9,6  | -11,9 | -16,0 | -18,0 | -7,9  | -25,6 | -31,4 | -32,3 | -33,6 | -34,9 | -35,0 | -35,1 | -35,2 |
+| *Tünel Taban Noktası*     | *Tl*    | -0,1                        | -8,8  | -9,5  | -11,0 | -12,3 | -12,3 | -1,7  | -20,0 | -22,0 | -10,2 | 3,9   | 15,2  | 19,1  | 21,8  | 21,8  |
+|                           | *T2*    | -0,1                        | -4,8  | 5,3   | 18,9  | 29,6  | 33,6  | 40,2  | 33,2  | 28,9  | 30,3  | 30,3  | 31,5  | 31,4  | 31,4  | 31,3  |
+
+Çizelge 9.34 Model 2B- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri
+
+|                           |         | *Yatay Deplasmanlar (mm)*   |      |      |      |      |      |       |      |       |       |       |       |       |       |       |
+|---------------------------|---------|-----------------------------|------|------|------|------|------|-------|------|-------|-------|-------|-------|-------|-------|-------|
+|                           |         | *Kazı Aşamaları*            |      |      |      |      |      |       |      |       |       |       |       |       |       |       |
+| *Deplasman Ölçüm Noktası* | *Tünel* | *1*                         | *2*  | *3*  | *4*  | *5*  | *6*  | *7*   | *8*  | *9*   | *10*  | *11*  | *12*  | *13*  | *14*  | *15*  |
+| *Tünel Tepe Noktası*      | *Tl*    | 0,0                         | 8,2  | 8,1  | 7,6  | 7,4  | 7,6  | *1,1* | 7,9  | 4,5   | 4,2   | 4,0   | 3,8   | 3,8   | 3,7   | 3,7   |
+|                           | *T2*    | 0,0                         | 1,1  | 1,1  | 1,1  | 1,0  | 1,1  | 1,1   | 1,2  | -5,9  | -5,6  | -4,9  | -4,6  | -4,9  | -5,1  | -5,1  |
+| *Sol Üst Yan*             | *Tl*    | 0,0                         | 7,3  | 7,2  | 6,7  | 6,4  | 6,6  | 6,5   | 6,9  | 10,0  | 9,8   | 8,4   | 8,1   | 8,2   | 8,4   | 8,4   |
+|                           | *T2*    | 0,0                         | 7,6  | 8,0  | 6,8  | 6,7  | 7,0  | 6,9   | 7,3  | -0,8  | -0,4  | 0,6   | 1,1   | 0,8   | 0,5   | 0,5   |
+| *Sağ Üst Yan*             | *Tl*    | 0,0                         | 9,4  | 9,2  | 8,4  | 8,2  | 8,4  | 8,4   | 8,7  | -0,2  | -0,6  | 0,4   | 0,3   | 0,0   | -0,4  | -0,4  |
+|                           | *T2*    | 0,0                         | -5,6 | -6,0 | -4,9 | -5,0 | -5,2 | -5,0  | -5,4 | -10,5 | -10,2 | -9,4  | -8,9  | -9,1  | -9,2  | -9,2  |
+| *Sol Alt Yan*             | *Tl*    | 0,0                         | 7,0  | 6,9  | 6,3  | 6,0  | 6,2  | 6,2   | 6,5  | 10,6  | 9,8   | 8,2   | 6,1   | 9,9   | 10,1  | 10,0  |
+|                           | *T2*    | 0,0                         | 7,4  | 6,8  | 5,1  | 4,0  | 8,7  | 8,9   | 9,1  | -1,2  | -0,8  | 0,2   | 1,1   | 0,8   | 0,4   | 0,5   |
+| *Sağ Alt Yan*             | *Tl*    | 0,0                         | 10,2 | 9,9  | 9,0  | 8,3  | 8,6  | 8,4   | 9,2  | 0,9   | 2,0   | 3,9   | 5,2   | 0,4   | 0,2   | 0,2   |
+|                           | *T2*    | 0,0                         | -5,8 | -5,2 | -3,4 | -1,7 | -6,2 | -6,4  | -6,6 | -12,4 | -12,1 | -11,4 | -10,9 | -11,0 | -11,1 | -11,1 |
+| *Tünel Taban Noktası*     | *Tl*    | 0,0                         | 8,5  | 8,3  | 7,7  | 7,3  | 7,5  | 7,3   | 7,9  | 5,9   | 6,4   | 7,1   | 7,6   | 8,0   | 8,0   | 8,0   |
+|                           | *T2*    | 0,0                         | 0,7  | 0,7  | 0,5  | 0,5  | 0,6  | 0,6   | 0,7  | -7,8  | -7,5  | -6,9  | -6,2  | -6,4  | -6,6  | -6,6  |
+
+**KM:0+820 T1 TÜNELİ DÜŞEY DEPLASMANLARI**
+
+| T1 tepe noktası   | T1 sol üst yarı   | T1 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T1 sol alt yarı   | T1 sağ alt yarı   | T1 taban          |
+
+Şekil 9.69 Model 2B- T1 tüneli kazı aşamaları ile düşey deplasmanların değişimi
+
+**KM:0+820 T1 TÜNELİ YATAY DEPLASMANLARI**
+
+T1 tepe noktası	T1 sol üst yarı	T1 sağ üst yarı
+
+T1 sol alt yarı	T1 sağ alt yarı	T1 taban
+
+<!-- image -->
+
+<!-- image -->
+
+**KM:0+820 T2 TÜNELİ DÜŞEY DEPLASMANLARI**
+
+**T2 tepe noktası	T2 sol üst yarı	T2 sağ üst yarı**
+
+**T2 sol alt yarı	T2 sağ alt yarı	T2 taban**
+
+Şekil 9.71 Model 2B- T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi
+
+**KM:0+820 T2 TÜNELİ YATAY DEPLASMANLARI Kazı Aş amaları**
+
+T2 tepe noktası	T2 sol üst yarı	T2 sağ üst yarı
+
+T2 sol alt yarı	T2 sağ alt yarı	T2 taban
+
+<!-- image -->
+
+<!-- image -->
+
+**KM:0+820 T1-T2 TÜNELLERİ ÜSTYARI DÜŞEY DEPLASMANLARI**
+
+T1 tepe noktası	T1 sol üst yarı	T1 sağ üst yarı
+
+T2 tepe noktası	T2 sol üst yarı	T2 sağ üst yarı
+
+Şekil 9.73 Model 2B T1-T2 tünelleri üstyarı düşey deplasmanlarının karşılaştırılması
+
+**KM:0+820 T1-T2 TÜNELLERİ ALTYARI DÜŞEY DEPLASMANLARI**
+
+| T1 sol alt yarı   | T2 sol alt yarı   |
+|-------------------|-------------------|
+| T1 sağ alt yarı   | T2 sağ alt yarı   |
+
+<!-- image -->
+
+<!-- image -->
+
+**KM:0+820 T1-T2 TÜNELLERİ TABAN DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+Şekil 9.75 Model 2B T1- T2 tünelleri taban düşey deplasmanlarının karşılaştırılması
+
+##### 116 Model 3B İçin Yapılan Analizler
+
+Model 3A ile aynı kesit olan Model 3B'de bu kesim civarında yapılan sondajlardan yararlanılarak, ortam homojen yerine tabakalı olarak tanımlanmıştır. Bu kesit için kullanılan geoteknik parametreler Çizelge 9.35'de, Plaxis modeli ise Şekil 9.76'de verilmiştir.
+
+**Model 3B Özellikleri**
+
+Örtü kalınlığı: 65 metre
+
+Kaya ortamı: Tabakalı
+
+Modeldeki tünel boyu: 6 metre
+
+Jeolojik birim: Kumtaşı
+
+Kaya kalitesi: Zayıf
+
+Kesit kilometresi: 1+020.000
+
+Çizelge 9.35 Model 3B geoteknik parametreleri
+
+| **Derinlik**        | **Litoloji**   | **E**  **(kPa)**   |   **V** |   **c**  **(kPa)** |   **♦(•)** |   **Ysat.**  **(kN/m**  **3**  **)** |   **Yunsat.**  **(kN/m**  **3**  **)** |
+|---------------------|----------------|--------------------|---------|--------------------|------------|--------------------------------------|----------------------------------------|
+| İlk 13 metre        | Kumtaşı        | 300  000           |    0.28 |                160 |         30 |                                   23 |                                     21 |
+| 13 metreden sonraki | Kumtaşı        | 350                |    0.28 |                180 |         35 |                                   24 |                                     22 |
+| 20 metre            | Kumtaşı        | 000                |    0.28 |                180 |         35 |                                   24 |                                     22 |
+| 33 metreden sonrası | Kumtaşı        | 400  000           |    0.28 |                200 |         40 |                                   25 |                                     23 |
+
+<!-- image -->
+
+Şekil 9.76 Model 3B Plaxis modeli
+
+Oluşturulan modele ait kazı aşamaları aşağıda verilmiştir. Üç boyutlu olan modelde (boy=6m) ilerleme adımı üst yarı için 1,5 metre alt yarı için 3 metre alınmıştır. Böylece dört dilim oluşturulmuştur.
+
+**Kazı adımları:**
+
+Model 3A ile aynı kazı adımları göz önüne alınıştır.
+
+##### 117 Deplasmanlar
+
+Tünel kazısının bitirilip, destek elemanlarının konulmasının ardından tünelde ve etrafındaki kayaçlarda meydana gelen deplasmanlar belirlenmiştir. Kayaçlarda hesaplanan maksimum düşey deplasman 82,24 mm. ‘dir. Bu değer T1 tüneli tepe noktasına aittir. Tünel çevresinde hesaplanan maksimum yatay deplasman ise 37,72 mm ile T1 tüneli sol alt yarısında oluşmuştur. Şekil 9.77 ve 9.78'de Plaxis modelinde düşey ve yatay yer değiştirmelerin dağılımı gösterilmiştir. Çizelge 9.36 ve 9.37'de kazı aşamalarına göre tünel tepe noktası, alt yarı, üst yarı ve tabanda oluşan yatay ve düşey deplasman değerleri verilmiştir.
+
+<!-- image -->
+
+[*10 m]
+
+■ 40.000
+
+130.000
+
+20.000
+
+10.000
+
+—I 0.000
+
+- -10.000
+
+- -20.000
+
+- -30.000
+
+-1-40.000
+
+-50.000
+
+-60.000
+
+d-70.000
+
+-80.000
+
+™-90.000
+
+**Vertical displacements (Uy)**
+
+| Extreme Uy-82,24*10 "  3  m                               |                                   |         |          |                             |
+|-----------------------------------------------------------|-----------------------------------|---------|----------|-----------------------------|
+| P LAXIS                                                   | **lAtyecr dsKfipefcvT**  Model 3B |         |          |                             |
+| P LAXIS                                                   | 65 tabakali 6m                    | Sr»  73 | 17.05.09 | Yildiz Technical University |
+| **&#124; Finite Element Code for Soil and Rock Analyses** | 65 tabakali 6m                    |         | 17.05.09 | Yildiz Technical University |
+
+Şekil 9.77 Model 3B’da hesaplanan düşey deplasman dağılımı
+
+**Horizontal displacements (Llx)**
+
+Extreme Ux 37,92*10 " m
+
+<!-- image -->
+
+ITO'm]
+
+—ı 40.000 136.000
+
+32.000 H 28.000
+
+24.000
+
+—I20.000
+
+- 16.000
+
+- 12.000
+
+8.000
+
+4.000
+
+H o.ooo
+
+4.000 H-8.000
+
+12.000
+
+J-16.000
+
+- -20.000
+
+- -24.000 1-28.000
+
+■32.000
+
+™-36.000
+
+| Plaxis                                                    | ***descrptron***  Model 3B   |    |          |                                              |
+|-----------------------------------------------------------|------------------------------|----|----------|----------------------------------------------|
+| Plaxis                                                    | 65 tabakali 6m               | 73 | 17.05.09 | ***User name***  Yıldız Technical University |
+| **&#124; Finite Element Code for Soil and Rock Analyses** | 65 tabakali 6m               | 73 | 17.05.09 |                                              |
+
+Şekil 9.78 Model 3B’da hesaplanan yatay deplasman dağılımı
+
+Çizelge 9.36 Model 3B- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri
+
+|                           |         | *Düşey Deplasmanlar (mm)*   |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
+|---------------------------|---------|-----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|                           |         | *Kazı Aşamaları*            |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
+| *Deplasman Ölçüm Noktası* | *Tünel* | *1*                         | *2*   | *3*   | *4*   | *5*   | *6*   | *7*   | *8*   | *9*   | *10*  | *11*  | *12*  | *13*  | *14*  | *15*  |
+| *Tünel Tepe Noktası*      | *Tl*    | 0,0                         | -11,7 | -13,5 | -14,8 | -15,7 | -16,4 | -16,9 | -16,9 | -51,2 | -64,3 | -71,2 | -75,0 | -77,9 | -78,8 | -82,2 |
+|                           | *T2*    | 0,1                         | -31,5 | -43,1 | -48,8 | -52,3 | -54,5 | -55,2 | -55,3 | -67,9 | -70,2 | -72,1 | -73,3 | -74,3 | -74,9 | -74,9 |
+| *Sol Üst Yan*             | *Tl*    | 0,0                         | -10,1 | -11,5 | -12,5 | -13,3 | -13,8 | -14,2 | -14,2 | -41,2 | -51,0 | -57,5 | -61,1 | -65,2 | -66,6 | -66,7 |
+|                           | *T2*    | 0,1                         | -25,2 | -34,1 | -39,5 | -42,9 | -46,2 | -47,4 | -47,5 | -60,0 | -62,7 | -64,6 | -65,8 | -66,8 | -67,4 | -67,4 |
+| *Sağ Üst Yan*             | *Tl*    | 0,0                         | -12,1 | -14,0 | -15,5 | -16,5 | -17,2 | -17,7 | -17,7 | -45,9 | -56,2 | -63,0 | -66,8 | -70,8 | -72,2 | -72,3 |
+|                           | *T2*    | 0,1                         | -25,8 | -34,8 | -40,4 | -43,8 | -47,0 | -48,2 | -48,3 | -56,5 | -58,2 | -59,5 | -60,3 | -61,0 | -61,4 | -61,4 |
+| *Sol Alt Yan*             | *Tl*    | 0,0                         | -8,2  | -9,4  | -10,3 | -10,9 | -11,3 | -11,6 | -11,6 | -17,8 | -19,6 | -21,4 | -22,6 | -25,0 | -26,5 | -26,6 |
+|                           | *T2*    | 0,1                         | -8,1  | -9,9  | -11,2 | -12,4 | -14,5 | -15,9 | -16,0 | -27,1 | -29,7 | -31,5 | -32,6 | -33,4 | -33,9 | -34,0 |
+| *Sağ Alt Yan*             | *Tl*    | 0,0                         | -10,7 | -12,3 | -13,5 | -14,3 | -14,8 | -15,2 | -15,2 | -21,4 | -23,8 | -25,8 | -27,0 | -29,0 | -30,4 | -30,5 |
+|                           | *T2*    | 0,1                         | -8,6  | -10,5 | -11,9 | -13,1 | -14,9 | -16,0 | -16,1 | -23,0 | -24,4 | -25,5 | -26,2 | -26,8 | -27,1 | -27,1 |
+| *Tünel Taban Noktası*     | *Tl*    | 0,0                         | -9,0  | -10,4 | -11,4 | -12,1 | -12,5 | -12,8 | -12,8 | -8,8  | 5,4   | 14,6  | 20,5  | 26,3  | 30,0  | 30,2  |
+|                           | *T2*    | 0,1                         | 0,1   | 13,3  | 21,9  | 27,7  | 32,5  | 37,1  | 37,2  | 33,8  | 34,7  | 34,8  | 34,6  | 34,5  | 34,5  | 34,6  |
+
+Çizelge 9.37 Model 3B- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri
+
+|                           |         | *Yatay Deplasmanlar (mm)*   |      |      |       |       |       |       |       |       |       |       |       |       |       |       |
+|---------------------------|---------|-----------------------------|------|------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|                           |         | *Kazı Aşamaları*            |      |      |       |       |       |       |       |       |       |       |       |       |       |       |
+| *Deplasman Ölçüm Noktası* | *Tünel* | *1*                         | *2*  | *3*  | *4*   | *5*   | *6*   | *7*   | *8*   | *9*   | *10*  | *11*  | *12*  | *13*  | *14*  | *15*  |
+| *Tünel Tepe Noktası*      | *Tl*    | 0,0                         | 8,7  | 8,7  | 8,9   | 9,1   | 9,4   | 9,8   | 9,8   | 6,3   | 6,2   | 6,1   | 6,0   | 6,0   | 5,9   | 5,9   |
+|                           | *T2*    | 0,0                         | 1,2  | 1,0  | 1,0   | 1,0   | 1,0   | 1,1   | 1,1   | -6,7  | -6,3  | -6,3  | -6,4  | -6,5  | -6,8  | -6,8  |
+| *Sol Üst Yan*             | *Tl*    | 0,0                         | 7,8  | 7,6  | 7,7   | 7,9   | 8,2   | 8,5   | 8,5   | 13,5  | 14,9  | 15,8  | 16,3  | 16,9  | 17,3  | 17,3  |
+|                           | *T2*    | 0,0                         | 10,2 | 11,7 | 12,7  | 13,4  | 14,0  | 14,6  | 14,6  | 5,6   | 6,2   | 6,3   | 6,2   | 6,1   | 5,8   | 5,8   |
+| *Sağ Üst Yan*             | *Tl*    | 0,0                         | 9,8  | 9,7  | 9,9   | 10,2  | 10,6  | 11,2  | 11,2  | 0,4   | -1,2  | -2,4  | -3,1  | -3,8  | -4,4  | -4,4  |
+|                           | *T2*    | 0,0                         | -7,9 | -9,6 | -10,8 | -11,5 | -12,0 | -12,5 | -12,5 | -18,2 | -17,7 | -17,6 | -17,5 | -17,5 | -17,7 | -17,7 |
+| *Sol Alt Yan*             | *Tl*    | 0,0                         | 7,4  | 7,2  | 7,3   | 7,4   | 7,6   | 7,9   | 7,9   | 12,0  | 13,6  | 16,3  | 17,1  | 37,1  | 37,6  | 37,6  |
+|                           | *T2*    | 0,0                         | 7,9  | 9,3  | 10,7  | 11,7  | 31,2  | 32,0  | 32,0  | 21,2  | 21,9  | 22,1  | 22,1  | 22,0  | 21,7  | 21,7  |
+| *Sağ Alt Yan*             | *Tl*    | 0,0                         | 10,4 | 10,2 | 10,3  | 10,5  | 10,9  | 11,4  | 11,4  | 3,4   | 2,0   | -1,1  | -1,7  | -22,3 | -22,9 | -22,9 |
+|                           | *T2*    | 0,0                         | -5,9 | -7,5 | -9,1  | -10,1 | -29,6 | -30,1 | -30,1 | -36,1 | -35,7 | -35,5 | -35,4 | -35,4 | -35,5 | -35,5 |
+| *Tünel Taban Noktası*     | *Tl*    | 0,0                         | 8,8  | 8,7  | 8,8   | 8,9   | 9,2   | 9,5   | 9,5   | 7,7   | 8,3   | 8,5   | 8,6   | 9,0   | 9,1   | 9,1   |
+|                           | *T2*    | 0,0                         | 0,9  | 0,9  | 0,8   | 0,6   | 0,6   | 0,8   | 0,8   | -7,7  | -7,3  | -7,1  | -7,1  | -7,1  | -7,3  | -7,3  |
+
+Şekil 9.79 ve 9.82 arası T1 ve T2 tünelleri için belirli noktalarda hesaplanan düşey ve yatay deplasmanların kazı aşamalarına ile gelişimi gösterilmiştir.
+
+**KM:1+020 T1 TÜNELİ DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+T1 tepe noktası	T1 sol üst yarı	T1 sağ üst yarı
+
+T1 sol alt yarı	T1 sağ alt yarı	T1 taban
+
+Şekil 9.79 Model 3B- T1 tüneli kazı aşamaları ile düşey deplasmanların değişimi
+
+**KM:1+020 T1 TÜNELİ YATAY DEPLASMANLARI**
+
+<!-- image -->
+
+| T1 tepe noktası   | T1 sol üst yarı   | T1 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T1 sol alt yarı   | T1 sağ alt yarı   | T1 taban          |
+
+**KM:1+020 T2 TÜNELİ DÜŞEY DEPLASMANLARI**
+
+| T2 tepe noktası   | T2 sol üst yarı   | T2 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T2 sol alt yarı   | T2 sağ alt yarı   | T2 taban          |
+
+Şekil 9.81 Model 3B- T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi
+
+**KM:1+020 T2 TÜNELİ YATAY DEPLASMANLARI**
+
+**T2 tepe noktası	T2 sol üst yarı	T2 sağ üst yarı**
+
+**T2 sol alt yarı	T2 sağ alt yarı	T2 taban**
+
+<!-- image -->
+
+<!-- image -->
+
+Şekil 9.83 -9.85 arası T1 ve T2 tünelleri için hesaplanan üstyarı düşey deplasmanları, altyarı deplasmanları ve taban düşey deplasmanları karşılaştırmalı olarak gösterilmiştir.
+
+**10,0 0,0**
+
+**-10,0 -20,0 -30,0 -40,0 -50,0**
+
+**-** **-** **5** **6** **0** **0** **,** **,** **0** **0**
+
+**4J	’**
+
+**-70,0 -80,0 -90,0**
+
+**KM:1+020 T1-T2 TÜNELLERİ ÜSTYARI DÜŞEY DEPLASMANLARI Kazı Aş amaları**
+
+<!-- image -->
+
+**T1 tepe noktası	T1 sol üst yarı	T1 sağ üst yarı**
+
+**T2 tepe noktası	T2 sol üst yarı	T2 sağ üst yarı**
+
+**KM:1+020 T1-T2 TÜNELLERİ ALTYARI DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+Şekil 9.83 Model 3B T1-T2 tünelleri üstyarı düşey deformasyonları
+
+**KM:1+020 T1-T2 TÜNELLERİ TABAN DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+Şekil 9.85 Model 3B T1- T2 tünelleri taban düşey deformasyonları
+
+##### 118 Model 1C İçin Yapılan Analizler
+
+Model 1A ile aynı kesite sahip olan bu model de modelin boyunun etkisini incelemek amacı ile modelin boyu 12 metre olarak alınmıştır. Plaxis modeline ait kesit ve geoteknik parametreler model 1A ile aynıdır (Şekil 9. 8 ve Çizelge 9.17).
+
+**Model 1C Özellikleri**
+
+Örtü kalınlığı: 15 metre
+
+Kaya ortamı: Homojen
+
+Modeldeki tünel boyu: 12 metre
+
+Jeolojik birim: Kumtaşı
+
+Kaya kalitesi: Orta
+
+Kesit kilometresi: 0+580.000
+
+Oluşturulan modele ait kazı aşamaları aşağıda verilmiştir. Üç boyutlu olan modelde (boy=12 m) ilerleme adımı üst yarı için 1,5 metre alt yarı için 3 metre alınmıştır. Böylece sekiz dilim oluşturulmuştur. Toplam 23 adımda kazının gerçekleştirileceği göz önüne alınmıştır.
+
+##### Kazı adımları:
+
+1. Kazı öncesi durum
+2. Sağ tünel 1. dilim üst yarı kazısı yapılması (su seviyesi düşürüldü)
+3. Sağ tünel 1. dilim üst yarı kazısı desteklemesi, 2. dilim üst yarı kazısının yapılması
+4. Sağ tünel 2. dilim üst yarı kazısı desteklemesi, 3. dilim üst yarı kazısının yapılması
+5. Sağ tünel 3. dilim üst yarı kazısı desteklemesi, 4. dilim üst yarı kazısının yapılması
+6. Sağ tünel 4. dilim üst yarı kazısı desteklemesi, 5.dilim üst yarı kazısının yapılması,
+7. Sağ tünel 5. dilim üst yarı kazısı desteklemesi, 6. dilim üst yarı kazısının yapılması, 1. ve 2. dilim alt yarı kazısı yapılması,
+8. Sağ tünel 6. dilim üst yarı kazısı desteklemesi, 7. dilim üst yarı kazısının yapılması, 1. ve 2. dilim alt yarı kazısı desteklerinin yapılması, 3. ve 4. dilim alt yarı kazısının yapılması
+9. Sağ tünel 7. dilim üst yarı kazısı desteklemesi, 8. dilim üst yarı kazısının yapılması, 3. ve 4. dilim alt yarı kazısı desteklerinin yapılması, 5. ve 6. dilim alt yarı kazısının yapılması
+10. Sağ tünel 8. dilim üst yarı kazısı desteklemesi yapılması, 5. ve 6. dilim alt yarı kazısı desteklemesinin yapılması,
+11. Sağ tünel 7. ve 8. dilim alt yarı kazısının yapılması,
+12. Sağ tünel 7. ve 8. tünel alt yarı kazısının desteklenmesi (birinci tünel inşası bitimi)
+13. Sol tünel 1. dilim üst yarı kazısı yapılması (su seviyesi düşürüldü)
+14. Sol tünel 1. dilim üst yarı kazısı desteklemesi, 2. dilim üst yarı kazısının yapılması
+15. Sol tünel 2. dilim üst yarı kazısı desteklemesi, 3. dilim üst yarı kazısının yapılması
+16. Sol tünel 3. dilim üst yarı kazısı desteklemesi, 4. dilim üst yarı kazısının yapılması
+17. Sol tünel 4. dilim üst yarı kazısı desteklemesi, 5.dilim üst yarı kazısının yapılması,
+18. Sol tünel 5. dilim üst yarı kazısı desteklemesi, 6. dilim üst yarı kazısının yapılması, 1. ve 2. dilim alt yarı kazısı yapılması,
+19. Sol tünel 6. dilim üst yarı kazısı desteklemesi, 7. dilim üst yarı kazısının yapılması, 1. ve 2. dilim alt yarı kazısı desteklerinin yapılması, 3. ve 4. dilim alt yarı kazısının yapılması
+20. Sol tünel 7. dilim üst yarı kazısı desteklemesi, 8. dilim üst yarı kazısının yapılması, 3. ve 4. dilim alt yarı kazısı desteklerinin yapılması, 5. ve 6. dilim alt yarı kazısının yapılması
+21. Sol tünel 8. dilim üst yarı kazısı desteklemesi yapılması, 5. ve 6. dilim alt yarı kazısı desteklemesinin yapılması,
+22. Sol tünel 7. ve 8. dilim alt yarı kazısının yapılması,
+23. Sol tünel 7. ve 8. tünel alt yarı kazısının desteklenmesi (ikinci tünel inşası bitimi)
+
+##### 119 Deplasmanlar
+
+Tünel kazısının bitirilip, destek elemanlarının konulmasının ardından tünelde ve etrafındaki kayaçlarda meydana gelen deplasmanlar belirlenmiştir. Kayaçlarda hesaplanan maksimum düşey deplasman 9 mm‘dir. Bu değer T2 tüneli tepe noktasına aittir. Tünel çevresinde hesaplanan maksimum yatay deplasman ise 2,69 mm ile yüzeyde oluşmuştur. Tünelde meydana gelen maksimum yatay deplasman 0,6 mm ile T2 tüneli tabanıdır. Şekil 9.86 ve 9.87'de Plaxis modelinde düşey ve yatay yer değiştirmelerin dağılımı gösterilmiştir. Çizelge 9.38 ve 9.39'da kazı aşamalarına göre tünel tepe noktası, alt yarı, üst yarı ve tabanda olacağı hesaplanan yatay ve düşey deplasman değerleri verilmiştir.
+
+[*10 3 m]
+
+<!-- image -->
+
+■ 5.000
+
+4.000
+
+□
+
+— 3.000
+
+2.000
+
+**—I** 1.000
+
+- 0.000
+
+- -1.000 -1-2.000
+
+-3.000
+
+-|-4.000
+
+-5.000
+
+-|-6.000
+
+-7.000
+
+—1-8.000
+
+**Vertical displacements (Uy)**
+
+Extreme Uy -9,00*10 3 m
+
+<!-- image -->
+
+1-9.000 -10.000
+
+| P LAXIS   | ***Project descrfaton***   |     | Model İC   | Model İC   |                             |
+|-----------|----------------------------|-----|------------|------------|-----------------------------|
+| P LAXIS   | 15 homojen 12m             | 120 | 18.05.09   |            | Yildiz Technical University |
+
+Şekil 9.86 Model lC’de hesaplanan düşey deplasman dağılımı
+
+<!-- image -->
+
+[*10 3 m]
+
+□
+
+2.800 2.400
+
+- 2.000
+
+- 1.600
+
+- 1.200
+
+- 0.800
+
+- 0.400
+
+- 0.000
+
+- -0.400
+
+- -0.800
+
+—i -1.200
+
+I -1.600 I -2.000
+
+I -2.400 ■-2.800
+
+**Horizontal displacements (Ux)**
+
+Extreme Ux -2,69*10’ J m
+
+| P LAXIS                                                    | ***Project descripöon***   |            | Model İC   | Model İC     |                             |
+|------------------------------------------------------------|----------------------------|------------|------------|--------------|-----------------------------|
+| P LAXIS                                                    |                            | ***Step*** | ***Sele*** | **töername** | Yildiz Technical University |
+| **&#124; Finite Element Code for Soil and ftock Analyses** | 15 homojen 12m             | 120        | 18.05.09   |              | Yildiz Technical University |
+
+**Version 2.4.0.456**
+
+Şekil 9.87 Model lC’de hesaplanan yatay deplasman dağılımı
+
+Çizelge 9.38 Model 1C- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri
+
+*Düşey Deplasmanlar (mm)*
+
+*Kazı Aşamaları*
+
+| *Deplasman Ölçüm Noktası*   | *Tünel*   | *1*   | *2*   | *3*   | *4*   | *5*   | *6*   | *7*   | *8*   | *9*   | *10*   | *11*   | *12*   | *13*   | *14*   | *15*   | *16*   | *17*   | *18*   | *19*   | *20*   | *21*   | *22*   | *23*   |
+|-----------------------------|-----------|-------|-------|-------|-------|-------|-------|-------|-------|-------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| *Tünel Tepe Noktası*        | *Tl*      | 0,0   | 0,8   | 0,8   | 0,8   | 0,8   | 0,8   | 0,9   | 0,9   | 1,0   | 1,0    | 1,0    | 1,0    | 3,7    | 4,6    | 5,3    | 5,9    | 6,5    | 7,1    | 7,7    | 8,8    | 8,8    | 8,8    | 8,9    |
+|                             | *T2*      | 0,0   | 2,5   | 3,5   | 4,1   | 4,8   | 5,3   | 5,8   | 6,4   | 7,4   | 7,5    | 7,5    | 7,5    | 8,6    | 8,6    | 8,7    | 8,7    | 8,7    | 8,8    | 8,8    | 9,0    | 9,0    | 9,0    | 9,0    |
+| *Sol Üst Yan*               | *Tl*      | 0,0   | 0,6   | 0,6   | 0,6   | 0,6   | 0,6   | 0,6   | 0,7   | 0,7   | 0,7    | 0,7    | 0,7    | 3,0    | 3,5    | 3,9    | 4,3    | 4,7    | 5,0    | 5,4    | 6,1    | 6,2    | 6,2    | 6,2    |
+|                             | *T2*      | 0,0   | 2,2   | 2,7   | 3,2   | 3,6   | 3,9   | 4,3   | 4,7   | 5,4   | 5,5    | 5,5    | 5,5    | 6,8    | 6,8    | 6,8    | 6,9    | 7,0    | 7,0    | 7,2    | 7,4    | 7,4    | 7,4    | 7,4    |
+| *Sağ Üst Yan*               | *Tl*      | 0,0   | 0,9   | 0,9   | 1,0   | 1,0   | 1,0   | 1,1   | 1,2   | 1,3   | 1,3    | 1,4    | 1,4    | 3,8    | 4,4    | 4,9    | 5,3    | 5,7    | 6,2    | 6,6    | 7,4    | 7,5    | 7,5    | 7,5    |
+|                             | *T2*      | 0,0   | 2,2   | 2,7   | 3,2   | 3,6   | 3,9   | 4,3   | 4,7   | 5,4   | 5,4    | 5,4    | 5,4    | 6,1    | 6,1    | 6,1    | 6,1    | 6,1    | 6,1    | 6,2    | 6,2    | 6,3    | 6,3    | 6,3    |
+| *Sol Alt Yan*               | *Tl*      | 0,0   | 0,5   | 0,5   | 0,5   | 0,5   | 0,5   | 0,5   | 0,6   | 0,6   | 0,6    | 0,6    | 0,6    | 1,5    | 1,3    | 1,2    | 1,2    | 1,2    | 1,7    | 1,9    | 2,3    | 2,3    | 2,3    | 2,3    |
+|                             | *T2*      | 0,0   | 0,9   | 0,7   | 0,6   | 0,6   | 0,6   | 1,1   | 1,3   | 1,7   | 1,8    | 1,7    | 1,8    | 2,9    | 2,9    | 3,0    | 3,1    | 3,1    | 3,2    | 3,3    | 3,6    | 3,6    | 3,6    | 3,6    |
+| *Sağ Alt Yan*               | *Tl*      | 0,0   | 0,9   | 0,9   | 0,9   | 1,0   | 1,0   | 1,1   | 1,2   | 1,3   | 1,4    | 1,3    | 1,4    | 2,4    | 2,2    | 2,2    | 2,2    | 2,3    | 2,9    | 3,2    | 3,6    | 3,6    | 3,6    | 3,6    |
+|                             | *T2*      | 0,0   | 0,9   | 0,7   | 0,6   | 0,6   | 0,6   | 1,1   | 1,3   | 1,7   | 1,7    | 1,7    | 1,7    | 2,2    | 2,2    | 2,2    | 2,2    | 2,3    | 2,3    | 2,3    | 2,4    | 2,4    | 2,4    | 2,4    |
+| *Tünel Taban Noktası*       | *Tl*      | 0,0   | 0,6   | 0,6   | 0,6   | 0,7   | 0,7   | 0,7   | 0,8   | 0,9   | 0,9    | 0,9    | 0,9    | 1,8    | 1,3    | 0,7    | 0,3    | 0,1    | 0,9    | 1,4    | 2,0    | 1,9    | 2,0    | 2,0    |
+|                             | *T2*      | 0,0   | 0,4   | 0,6   | 1,6   | 2,2   | 2,7   | 3,7   | 4,4   | 5,0   | 4,9    | 5,1    | 5,1    | 4,6    | 4,6    | 4,6    | 4,5    | 4,5    | 4,5    | 4,4    | 4,3    | 4,3    | 4,3    | 4,3    |
+
+Çizelge 9.39 Model 1C- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri
+
+|                           |         | *Yatay Deplasmanlar (mm)*   |      |      |      |      |      |      |      |     |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
+|---------------------------|---------|-----------------------------|------|------|------|------|------|------|------|-----|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
+|                           |         | *Kazı Aşamalan*             |      |      |      |      |      |      |      |     |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
+| *Deplasman Ölçüm Noktası* | *Tünel* | *1*                         | *2*  | *3*  | *4*  | *5*  | *6*  | *7*  | *8*  | *9* | *10* | *11* | *12* | *13* | *14* | *15* | *16* | *17* | *18* | *19* | *20* | *21* | *22* | *23* |
+| *Tünel Tepe Noktası*      | *Tl*    | 0,0                         | 0,6  | 0,6  | 0,6  | 0,6  | 0,6  | 0,6  | 0,5  | 0,5 | 0,5  | 0,5  | 0,5  | 0,3  | 0,3  | 0,2  | 0,2  | 0,2  | 0,2  | 0,2  | 0,2  | 0,2  | 0,2  | 0,2  |
+|                           | *T2*    | 0,0                         | 0,1  | 0,2  | 0,2  | 0,2  | 0,2  | 0,2  | 0,2  | 0,2 | 0,1  | 0,2  | 0,2  | -0,4 | -0,4 | -0,4 | -0,4 | -0,3 | -0,3 | -0,3 | -0,3 | -0,3 | -0,3 | -0,3 |
+| *Sol Üst Yan*             | *Tl*    | 0,0                         | 0,5  | 0,5  | 0,5  | 0,5  | 0,5  | 0,5  | 0,5  | 0,4 | 0,4  | 0,4  | 0,4  | 0,7  | 0,7  | 0,6  | 0,5  | 0,4  | 0,4  | 0,3  | 0,2  | 0,2  | 0,2  | 0,2  |
+|                           | *T2*    | 0,0                         | 0,5  | 0,5  | 0,5  | 0,4  | 0,3  | 0,3  | 0,3  | 0,1 | 0,1  | 0,1  | 0,1  | -0,5 | -0,5 | -0,4 | -0,4 | -0,3 | -0,3 | -0,2 | -0,1 | 0,0  | -0,1 | -0,1 |
+| *Sağ Üst Yan*             | *Tl*    | 0,0                         | 0,7  | 0,7  | 0,7  | 0,6  | 0,6  | 0,5  | 0,5  | 0,4 | 0,4  | 0,4  | 0,4  | -0,2 | -0,3 | -0,2 | -0,2 | -0,1 | -0,1 | -0,1 | 0,0  | 0,0  | 0,0  | 0,0  |
+|                           | *T2*    | 0,0                         | -0,2 | -0,3 | -0,2 | -0,1 | -0,1 | 0,0  | 0,0  | 0,1 | 0,1  | 0,1  | 0,1  | -0,2 | -0,2 | -0,2 | -0,2 | -0,2 | -0,2 | -0,2 | -0,2 | -0,2 | -0,2 | -0,2 |
+| *Sol Alt Yan*             | *Tl*    | 0,0                         | 0,5  | 0,5  | 0,5  | 0,5  | 0,5  | 0,4  | 0,4  | 0,4 | 0,3  | 0,4  | 0,4  | 0,8  | 0,8  | 0,7  | 0,5  | 0,4  | 0,7  | 0,6  | 0,3  | 0,3  | 0,3  | 0,3  |
+|                           | *T2*    | 0,0                         | 0,7  | 0,6  | 0,5  | 0,3  | 0,2  | 0,5  | 0,3  | 0,1 | 0,1  | 0,1  | 0,1  | -1,0 | -0,9 | -0,9 | -0,8 | -0,8 | -0,7 | -0,6 | -0,5 | -0,4 | -0,5 | -0,5 |
+| *Sağ Alt Yan*             | *Tl*    | 0,0                         | 0,8  | 0,8  | 0,8  | 0,7  | 0,7  | 0,6  | 0,6  | 0,4 | 0,4  | 0,4  | 0,4  | -0,2 | -0,1 | 0,0  | 0,2  | 0,4  | 0,0  | 0,1  | 0,4  | 0,4  | 0,4  | 0,4  |
+|                           | *T2*    | 0,0                         | -0,5 | -0,4 | -0,3 | -0,1 | 0,0  | -0,3 | -0,2 | 0,1 | 0,1  | 0,1  | 0,1  | -0,4 | -0,4 | -0,4 | -0,3 | -0,3 | -0,3 | -0,3 | -0,3 | -0,3 | -0,3 | -0,3 |
+| *Tünel Taban Noktası*     | *Tl*    | 0,0                         | 0,7  | 0,7  | 0,7  | 0,7  | 0,7  | 0,7  | 0,6  | 0,5 | 0,5  | 0,5  | 0,5  | 0,3  | 0,2  | 0,2  | 0,1  | 0,1  | 0,1  | 0,1  | 0,1  | 0,1  | 0,1  | 0,1  |
+|                           | *T2*    | 0,0                         | 0,1  | 0,1  | 0,1  | 0,1  | 0,1  | 0,1  | 0,1  | 0,1 | 0,1  | 0,1  | 0,1  | -0,8 | -0,8 | -0,8 | -0,7 | -0,7 | -0,7 | -0,7 | -0,6 | -0,6 | -0,6 | -0,6 |
+
+Şekil 9.88 ve 9.91 arası T1 ve T2 tünelleri için belirli noktalarda hesaplanan düşey ve yatay deplasmanların kazı aşamaları ile gelişimi gösterilmiştir.
+
+**KM:0+580 T1 TÜNELİ DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+T1 tepe noktası	T1 sol üst yarı	T1 sağ üst yarı
+
+T1 sol alt yarı	T1 sağ alt yarı	T1 taban
+
+Şekil 9.88 Model 1C- T1 tüneli kazı aşamaları ile düşey deplasmanların değişimi
+
+**KM:0+580 T1 TÜNELİ YATAY DEPLASMANLARI**
+
+<!-- image -->
+
+Şekil 9.89 Model 1C- T1 tüneli kazı aşamaları ile yatay deplasmanların değişimi
+
+**KM:0+580 T2 TÜNELİ DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+T2 tepe noktası	T2 sol üst yarı	T2 sağ üst yarı
+
+T2 sol alt yarı	T2 sağ alt yarı	T2 taban
+
+Şekil 9.90 Model 1C- T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi
+
+**KM:0+580 T2 TÜNELİ YATAY DEPLASMANLARI**
+
+<!-- image -->
+
+Şekil 9.91 Model 1C- T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi
+
+Şekil 9.92 - 9.94 arası T1 ve T2 tünelleri için hesaplanan üstyarı düşey deplasmanları, altyarı düşey deplasmanları ve taban düşey deplasmanları karşılaştırmalı olarak gösterilmiştir.
+
+**KM:0+580 T1-T2 TÜNELLERİ ÜST YARI DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+Şekil 9.92 Model 1C T1-T2 tünelleri üstyarı düşey deplasmanlarının karşılaştırılması
+
+**KM:0+580 T1-T2 TÜNELLERİ ALT YARI DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+Şekil 9.93 Model 1C T1-T2 tünelleri altyarı düşey deplasmanlarının karşılaştırılması
+
+**KM:0+580 T1-T2 TÜNELLERİ TABAN DÜŞEY DEPLASMANLARI**
+
+<!-- image -->
+
+Şekil 9.94 Model 1C T1- T2 tünelleri taban düşey deplasmanlarının karşılaştırılması
+
+##### 120 Model 2C İçin Yapılan Analizler
+
+Model 2A ile aynı kesite sahip olan bu modelde modelin boyunun etkisini araştırmak için model boyu 12 metre alınmıştır. Plaxis modeline ait kesit ve geoteknik parametreler model 2A ile aynıdır (Şekil 9.32 ve Çizelge 9.23).
+
+**Model 2C Özellikleri**
+
+Örtü kalınlığı: 45 metre
+
+Kaya ortamı: Homojen
+
+Modeldeki tünel boyu: 12 metre
+
+Jeolojik birim: Silttaşı
+
+Kaya kalitesi: Zayıf
+
+Kesit kilometresi: 0+820.000
+
+Oluşturulan modele ait kazı aşamaları aşağıda verilmiştir. Üç boyutlu olan modelde (boy=12 m) Model 1C'den farklı olarak ilerleme adımı üst yarı için 3 metre alt yarı için 6 metre alınmıştır. Böylece dört dilim oluşturulmuştur.
+
+**Kazı adımları:**
+
+Kazı adımları Model 2A ile aynı olup, kazının toplam 15 adımda gerçekleştirilmesi öngörülmüştür.
+
+##### 121 Deplasmanlar
+
+Tünel kazısının bitirilip, destek elemanlarının konulmasının ardından tünelde ve etrafındaki kayaçlarda meydana gelen deplasmanlar belirlenmiştir. Kayaçlarda hesaplanan maksimum düşey deplasman 80,52 mm‘dir. Bu değer T2 tüneli tepe noktasına aittir. Tünel çevresinde hesaplanan maksimum yatay deplasman ise 18,75 mm ile T2 tüneli sağ alt yarıya yakın bir kesimde oluşmuştur. Tünelde meydana gelen maksimum yatay deplasman 13,4 mm ile T2 tüneli sağ alt yarısındadır. Yüzeyde hesaplanan maksimum yatay deplasman değeri ise yaklaşık 16 mm civarındadır. Şekil 9.95 ve 9.96'da Plaxis modelinde düşey ve yatay yer değiştirmelerin dağılımı gösterilmiştir. Çizelge 9.40 ve 9.41'de kazı aşamalarına göre tünel tepe noktası, alt yarı, üst yarı ve tabanda hesaplanan yatay ve düşey deplasman değerleri verilmiştir.
+
+**Vertical displacements (Uy)**
+
+Extreme Uy -80,52*10 3 m
+
+<!-- image -->
+
+[*10 m]
+
+□
+
+30.000 20.000
+
+H ıo.ooo
+
+0.000
+
+—1-10.000
+
+- -20.000
+
+--30.000
+
+-40.000
+
+50.000
+
+H-60.000
+
+■70.000
+
+■-80.000
+
+90.000
+
+| PLAXIS   | P/ö/eer  ***des&amp;ıjpeion***  Model 2C   |           |          |                                          |
+|----------|--------------------------------------------|-----------|----------|------------------------------------------|
+| PLAXIS   | 45 homojen 12 2                            | Step  208 | 18.05.09 | t'ser.Tj.ne  Yildiz Technical University |
+
+Şekil 9.95 Model 2C’de hesaplanan düşey deplasman dağılımı
+
+**Ptocs 30 Tunnct 2.4**
+
+<!-- image -->
+
+**Horizontal displacements (Ux)**
+
+Extreme Ux -18,75*10' 3 m
+
+P LAXIS
+
+**Fmp Flrtapnı Cadr** ***loı*** **Sed md Pm-k \a»Iw%**
+
+|                 |     |            | kar «w   |                             |
+|-----------------|-----|------------|----------|-----------------------------|
+| 45_homojen_12_2 | 208 | I	18.05.09 |          | Yildiz Technical University |
+
+Model 2C
+
+Şekil 9.96 Model 2C’de hesaplanan yatay deplasman dağdımı
+
+Çizelge 9.40 Model 2C- Kazı aşamalarına göre hesaplanan düşey deplasman değerleri
+
+|                           |         | *Düşey Deplasmanlar (mm)*   |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
+|---------------------------|---------|-----------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|                           |         | *Kazı Aşamaları*            |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
+| *Deplasman Ölçüm Noktası* | *Tünel* | *1*                         | *2*   | *3*   | *4*   | *5*   | *6*   | *7*   | *8*   | *9*   | *10*  | *11*  | *12*  | *13*  | *14*  | *15*  |
+| *Tünel Tepe Noktası*      | *Tl*    | 0,0                         | -12,5 | -13,5 | -14,9 | -16,8 | -17,1 | -17,2 | -17,2 | -50,9 | -60,5 | -69,3 | -78,7 | -79,0 | -79,0 | -79,1 |
+|                           | *T2*    | 0,0                         | -33,9 | -42,4 | -49,8 | -58,1 | -58,6 | -58,5 | -58,6 | -70,3 | -71,8 | -73,7 | -76,3 | -76,5 | -76,7 | -76,8 |
+| *Sol Üst Yan*             | *Tl*    | 0,0                         | -10,6 | -11,4 | -12,5 | -14,0 | -14,2 | -14,3 | -14,3 | -41,1 | -48,2 | -54,5 | -61,5 | -62,2 | -62,4 | -62,5 |
+|                           | *T2*    | 0,0                         | -27,6 | -34,5 | -40,3 | -46,5 | -47,4 | -47,5 | -47,6 | -59,5 | -61,0 | -63,2 | -66,1 | -66,3 | -66,5 | -66,5 |
+| *Sağ Üst Yan*             | *Tl*    | 0,0                         | -12,9 | -14,1 | -15,6 | -17,8 | -18,1 | -18,2 | -18,2 | -46,1 | -53,9 | -60,8 | -68,3 | -69,0 | -69,2 | -69,3 |
+|                           | *T2*    | 0,0                         | -28,0 | -34,9 | -40,6 | -46,9 | -47,9 | -48,1 | -48,2 | -55,7 | -56,7 | -58,0 | -59,9 | -60,0 | -60,1 | -60,2 |
+| *Sol Alt Yan*             | *Tl*    | 0,0                         | -8,7  | -9,4  | -10,3 | -11,5 | -11,7 | -11,7 | -11,8 | -18,1 | -18,6 | -20,2 | -23,1 | -25,2 | -25,4 | -25,5 |
+|                           | *T2*    | 0,0                         | -8,0  | -9,2  | -10,9 | -13,4 | -16,3 | -16,4 | -16,5 | -27,1 | -28,6 | -30,7 | -33,6 | -33,8 | -33,8 | -33,9 |
+| *Sağ Alt Yan*             | *Tl*    | 0,0                         | -11,4 | -12,4 | -13,8 | -15,7 | -15,9 | -15,9 | -16,0 | -23,2 | -24,5 | -26,5 | -30,1 | -32,9 | -33,2 | -33,3 |
+|                           | *T2*    | 0,0                         | -8,3  | -9,1  | -10,6 | -13,0 | -16,1 | -16,4 | -16,5 | -23,0 | -23,9 | -25,0 | -26,7 | -26,8 | -26,9 | -26,9 |
+| *Tünel Taban Noktası*     | *Tl*    | 0,0                         | -9,6  | -10,4 | -11,5 | -13,1 | -13,2 | -13,3 | -13,3 | -5,3  | 7,2   | 15,5  | 22,3  | 27,4  | 28,4  | 28,3  |
+|                           | *T2*    | 0,0                         | 3,2   | 15,1  | 22,7  | 28,7  | 34,0  | 35,1  | 35,0  | 30,0  | 29,4  | 28,7  | 27,7  | 27,7  | 27,6  | 27,6  |
+
+Çizelge 9.41 Model 2C- Kazı aşamalarına göre hesaplanan yatay deplasman değerleri
+
+|                           |         | *Yatay Deplasmanlar (mm)*   |      |      |      |      |      |      |      |       |       |       |       |       |       |       |
+|---------------------------|---------|-----------------------------|------|------|------|------|------|------|------|-------|-------|-------|-------|-------|-------|-------|
+|                           |         | *Kazı Aşamalan*             |      |      |      |      |      |      |      |       |       |       |       |       |       |       |
+| *Deplasman Ölçüm Noktası* | *Tünel* | *1*                         | *2*  | *3*  | *4*  | *5*  | *6*  | *7*  | *8*  | *9*   | *10*  | *11*  | *12*  | *13*  | *14*  | *15*  |
+| *Tünel Tepe Noktası*      | *Tl*    | 0,0                         | 8,5  | 8,5  | 8,2  | 7,8  | 8,1  | 8,3  | 8,3  | 4,3   | 4,0   | 3,9   | 3,8   | 3,7   | 3,6   | 3,6   |
+|                           | *T2*    | 0,0                         | 0,8  | 0,8  | 0,8  | 0,8  | 0,8  | 0,8  | 0,8  | -6,4  | -6,2  | -5,8  | -5,1  | -5,4  | -5,6  | -5,6  |
+| *Sol Üst Yan*             | *Tl*    | 0,0                         | 7,7  | 7,6  | 7,3  | 6,9  | 7,0  | 7,2  | 7,2  | 10,8  | 9,9   | 8,9   | 7,7   | 7,9   | 8,0   | 8,0   |
+|                           | *T2*    | 0,0                         | 8,7  | 8,4  | 7,8  | 6,8  | 7,2  | 7,4  | 7,4  | -0,9  | -0,6  | 0,1   | 1,0   | 0,7   | 0,4   | 0,3   |
+| *Sağ Üst Yan*             | *Tl*    | 0,0                         | 9,6  | 9,5  | 9,2  | 8,5  | 8,8  | 9,1  | 9,1  | -1,4  | -1,1  | -0,4  | 0,6   | 0,1   | -0,2  | -0,2  |
+|                           | *T2*    | 0,0                         | -7,4 | -7,0 | -6,4 | -5,6 | -6,0 | -6,2 | -6,2 | -11,4 | -11,1 | -10,5 | -9,7  | -9,9  | -10,1 | -10,1 |
+| *Sol Alt Yan*             | *Tl*    | 0,0                         | 7,4  | 7,2  | 7,0  | 6,5  | 6,6  | 6,8  | 6,8  | 10,6  | 9,9   | 8,8   | 7,3   | 11,3  | 11,3  | 11,4  |
+|                           | *T2*    | 0,0                         | 7,3  | 6,2  | 5,0  | 3,3  | 7,6  | 7,8  | 7,8  | -2,7  | -2,3  | -1,6  | -0,5  | -0,8  | -1,1  | -1,1  |
+| *Sağ Alt Yan*             | *Tl*    | 0,0                         | 10,3 | 10,1 | 9,6  | 8,7  | 9,0  | 9,3  | 9,3  | 0,7   | 2,1   | 3,9   | 5,9   | 1,4   | 1,2   | 1,2   |
+|                           | *T2*    | 0,0                         | -6,5 | -5,8 | -4,9 | -3,6 | -8,5 | -8,6 | -8,6 | -14,7 | -14,4 | -13,9 | -13,2 | -13,3 | -13,4 | -13,4 |
+| *Tünel Taban Noktası*     | *Tl*    | 0,0                         | 8,8  | 8,7  | 8,4  | 7,8  | 8,0  | 8,2  | 8,2  | 6,1   | 6,7   | 7,1   | 7,4   | 8,7   | 8,7   | 8,7   |
+|                           | *T2*    | 0,0                         | 0,4  | 0,5  | 0,4  | 0,3  | 0,9  | 0,9  | 0,9  | -7,6  | -7,4  | -7,0  | -6,3  | -6,4  | -6,6  | -6,6  |
+
+**KM:0+820 T1 TÜNELİ DÜŞEY DEPLASMANLARI**
+
+| T1 tepe noktası   | T1 sol üst yarı   | T1 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T1 sol alt yarı   | T1 sağ alt yarı   | T1 taban          |
+
+Şekil 9.97 Model 2C- T1 tüneli kazı aşamaları ile düşey deplasmanları değişimi
+
+**KM:0+820 T1 TÜNELİ YATAY DEPLASMANLARI**
+
+| T1 tepe noktası   | T1 sol üst yarı   | T1 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T1 sol alt yarı   | T1 sağ alt yarı   | T1 taban          |
+
+<!-- image -->
+
+<!-- image -->
+
+**KM:0+820 T2 TÜNELİ DÜŞEY DEPLASMANLARI**
+
+| T2 tepe noktası   | T2 sol üst yarı   | T2 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T2 sol alt yarı   | T2 sağ alt yarı   | T2 taban          |
+
+Şekil 9.99 Model 2C- T2 tüneli kazı aşamaları ile düşey deplasmanların değişimi
+
+**KM:0+820 T2 TÜNELİ YATAY DEPLASMANLARI**
+
+| T2 tepe noktası   | T2 sol üst yarı   | T2 sağ üst yarı   |
+|-------------------|-------------------|-------------------|
+| T2 sol alt yarı   | T2 sağ alt yarı   | T2 taban          |
+
+<!-- image -->
+
+<!-- image -->
+
+**KM:0+820 T1-T2 TÜNELLERİ ÜSTYARI DÜŞEY DEPLASMANLARI**
+
+T1 tepe noktası	T1 sol üst yarı	T1 sağ üst yarı
+
+T2 tepe noktası	T2 sol üst yarı	T2 sağ üst yarı
+
+Şekil 9.101 Model 2C T1-T2 tünelleri üstyarı düşey deplasmanlarının karşılaştırılması
+
+**KM:0+820 T1-T2 TÜNELLERİ ALTYARI DÜŞEY DEPLASMANLARI**
+
+| T1 sol alt yarı   | T2 sol alt yarı   |
+|-------------------|-------------------|
+| T1 sağ alt yarı   | T2 sağ alt yarı   |
+
+<!-- image -->
+
+<!-- image -->
+
+**KM:0+820 T1-T2 TÜNELLERİ TABAN DÜŞEY DEPLASMANLARI**
+
+Şekil 9.103 Model 2C T1- T2 tünelleri taban düşey deplasmanlarının karşılaştırılması
+
+<!-- image -->
+
+##### 122 Analiz Sonuçlarının Değerlendirilmesi
+
+##### 123 Kaya Ortamının ve Örtü Kalınlığının Etkisi
+
+Kaya ortamının tünel davranışı üzerindeki etkisini incelemek amacıyla; 15 m, 45 m ve 65 m örtü kalınlığına sahip üç adet kesit için önce jeolojik ortamın tek bir birimden (incelenen kesitteki hakim formasyondan) oluştuğu varsayılan homojen kaya ortamlarını temsil eden modeller (1A, 2A ve 3A modelleri) kullanılarak sayısal analizler gerçekleştirilmiştir. Ardından bu üç kesitin civarında yapılan sondajlar incelenerek jeolojik birimleri temsil eden tabakalar belirlenmiş ve gerçek duruma daha yakın tabakalı modeller (1B, 2B ve 3B modelleri) için analizler yapılmıştır.
+
+Jeolojik ortamın ve örtü kalınlığının etkisini belirlemek için, sayısal analizler sonucunda kaya ortamında ve açılan tünel çevresinde oluşacağı hesaplanan yer değiştirmeler karşılaştırılmıştır. Modellenen ikiz tünellerin (T1 ve T2 tünelleri) tepe noktaları, üst yarı noktaları, alt yarı noktaları ve taban noktalarında kazı aşamalarına bağlı olarak oluşacağı hesaplanan düşey değiştirmeler karşılaştırıldığında aşağıdaki hususlar gözlemlenmiştir.
+
+1. Ortamın tek bir jeolojik birimden oluşması veya tabakalı bir yapıya sahip olmasının hesaplanan düşey yer değiştirmeler üzerinde etkisi, T1 ve T2 Tünelleri için sırası ile, 15 m örtü kalınlığına sahip kesit için Şekil 9.104 ve Şekil 9.105'da; 45 m örtü kalınlığına sahip kesit için Şekil 9.106 ve Şekil 9.107'de ; 65 m örtü kalınlığına sahip kesit için ise Şekil 9.108 ve Şekil 9.109'da karşılaştırmalı olarak gösterilmiştir. Hesaplanan düşey değiştirme değerlerinin kazı aşamalarına bağlı olarak gelişimini gösteren bu grafikler incelendiğinde, hesaplanan değerlerin birbirine oldukça yakın olduğu, bununla birlikte gerçek duruma daha yakın olan tabakalı modellerdeki düşey değiştirme miktarlarının homojen modellerdeki düşey yer değiştirme miktarlarına göre biraz daha yüksek olduğu görülmektedir. Maksimum düşey yer değiştirmelerin hesaplandığı tünel tepe noktaları için değerler arasında jeolojik ortamın özelliklerine ve örtü kalınlığına bağlı olarak 1-10 mm arasında fark olduğu gözlenmektedir.
+2. İncelenen kesitlerdeki jeolojik ortam farklılıklarından dolayı, hesap sonuçlarından örtü kalınlığının etkisini tam olarak gözlemlemek mümkün olmamakla birlikte, yukarıda değinilen grafikler incelendiğinden en küçük tepe noktası ve taban kabarması düşey yer değiştirmelerinin örtü kalınlığı 15 m olan kesit(sığ tünel) için hesaplandığı, örtü kalınlığı 45m ve 65m olan kesitlerde(orta ve derin tünel) tepedeki maksimum düşey yer değiştirme ve taban kabarması değerlerinin oldukça birbirine yakın ve sığ tünel için elde edilen değerlerden 7-8 kat daha fazla olduğu gözlenmektedir. İncelenen kesitlerin aynı bölgesel jeolojik ortamda ve benzer birimler içinde yer aldığı dikkate alındığında, sayısal analiz sonuçlarının örtü kalınlığının etkisi konusunda da önemli ipuçları verdiği söylenebilir.
+
+Arazide doğal jeolojik ortamda tünel inşası esnasında karşılaşılması olası ezik zon, faylı kesim, örselenme durumu veya daha faklı durumların sayısal modellere tam olarak yansıtılmasında zorluklar olduğu açıktır. Sayısal analizler ile kullanılan modelin arazi koşullarını ile benzeşimi oranında gerçekçi sonuçlar elde edilebilmektedir. Bununla birlikte, jeolojik ortamın homojen olarak kabul edildiği basitleştirilmiş modeller ile oluşması beklenilebilecek yer değiştirmelerin mertebesinin gerçeğe oldukça yakın tahmin edilebileceği görülmektedir. Tünellerin ön tasarım işlemlerinde, jeolojik ortamın hakim karakterinin doğru seçilmiş geomekanik parametrelerle göz önüne alınması durumunda, homojen modeller kullanılarak yapılacak sayısal analizlerin, yer değiştirmelerin mertebesinin daha hızlı bir şekilde belirlenmesi açısından oldukça yararlı sonuçlar verebileceğine inanılmaktadır.
+
+**KM :0+580 Tl TÜNELİ DÜŞEY DEPLASMANLARININ KAYA ORTAMINA GÖRE DEĞİŞİMİ**
+
+6,00 i
+
+-2,00
+
+-4,00
+
+-6,00
+
+-8,00
+
+-10,00
+
+**Kazı Aşamalan**
+
+202
+
+<!-- image -->
+
+-12,00 J
+
+| —♦— Tl tepe noktasıjA   | —I—Tl tepe noktasıJB   | -■-Tl sol üst yarıj A   | — Tl sol tist yarı_l B   | Tl sağ üst yarı_ 1A    | — Tl sağ üst yarı_ 1B   |
+|-------------------------|------------------------|-------------------------|--------------------------|------------------------|-------------------------|
+| Tl sol alt yarı_l A     | Tl sol alt yarı_l B    | -H$-T1 sağ alt yarı_l A | Tl sağ alt yarı_l B      | -•-Tl taban noktasıj A | Tl taban noktasıJB      |
+
+Şekil 9.104 Model İA ve Model İB için hesaplanan Tl tüneli düşey yer değiştirmelerinin karşılaştırılması
+
+KM:0+580 T2 TÜNELÎ DÜŞ EY DEPLASMANLARININ KAYA ORTAMINA GÖREDEĞÎŞÎMÎ
+
+203
+
+<!-- image -->
+
+—♦— T2 tepe noktası\_lA	—|—T2 tepe noktası\_lB	T2 solüstyarı\_lA — T2 sol üst yarı\_lB	T2 sağ üst yarı\_lA — T2 sağ üstyarı\_lB
+
+T2 solaltyarı lA	T2 solaltyarı lB	T2 sağ altyarı lA	T2 sağ alt yarı lB	T2 taban noktası lA	T2 taban noktası lB
+
+Şekil 9.105 Model İA ve Model İB için hesaplanan T2 tüneli düşey yer değiştirmelerinin karşdaştınlması
+
+204
+
+<!-- image -->
+
+| —Tl tepe noktası_2A   | Tl sol üst yan_2A   | Tl sağ üst yarı_2A   | Tl sol alt yan_2A   | Tl sağ alt yan_2A   | -•—Tl tabannoktası_2A   |
+|-----------------------|---------------------|----------------------|---------------------|---------------------|-------------------------|
+| —1—Tl tepe noktası 2B | Tl sol üst yarı 2B  | — Tl sağ üst yarı 2B | Tl sol alt yarı 2B  | Tl sağ alt yarı 2B  | Tl taban noktası_2B     |
+
+205
+
+<!-- image -->
+
+| —T2 tepe noktası_2A    | T2 sol üst yan_2A   | T2 sağ üst yarı_2A   | T2 sol alt yan_2A   | X T2 sağ alt yarı_2A   | > T2 taban noktası_2A   |
+|------------------------|---------------------|----------------------|---------------------|------------------------|-------------------------|
+| —I— T2 tepe noktası 2B | T2 sol üst yarı 2B  | — T2 sağ üst yarı 2B | T2 sol alt yarı 2B  | T2 sağ alt yarı 2B     | T2 taban noktası 2B     |
+
+40.00
+
+20.00
+
+0.00
+
+## il
+
+i -20,00
+
+S
+
+## JS
+
+## a.
+
+q -40.00
+
+O)
+
+’Z-
+
+## Q
+
+-60.00
+
+-80.00
+
+-100.00
+
+206
+
+<!-- image -->
+
+1	2	3	4	5	6	7	8	9	10	11	12	13	14	15
+
+## Kazı As amaları
+
+| —♦—Tl tepe noktası_3A   | Tl sol üst yan_3A   | Tl sağ üst yarı_3A   | Tl solaltyarı_3A   | X Tl sağ alt yarı_3A   | -•—Tl tabannoktası_3A   |
+|-------------------------|---------------------|----------------------|--------------------|------------------------|-------------------------|
+| —1—Tl tepe noktası 3B   | Tl sol üst yarı 3B  | Tl sağ üst yarı 3B   | Tl solaltyarı 3B   | Tl sağ alt yarı 3B     | Tl taban noktası_3B     |
+
+| —♦— T2 tepe noktası_3A   | T2 sol üst yarı_3A   | T2 sağ üst yarı_3A   | T2 sol alt yarı_3A   | —T2 sağ alt yarı_3A   | ♦ T2 taban noktası_3A   |
+|--------------------------|----------------------|----------------------|----------------------|-----------------------|-------------------------|
+| —I— T2 tepe noktası 3B   | T2 sol üst yarı 3B   | — T2 sağ üst yarı 3B | T2 sol alt yarı 3B   | T2 sağ alt yarı 3B    | T2 taban noktası 3B     |
+
+207
+
+<!-- image -->
+
+##### 124 Model Uzunluğunun Etkisi
+
+3D sonlu eleman modellemelerinde seçilen model boyu uzunluğunun analiz sonuçları üzerindeki etkisini incelemek amacıyla; 15 m örtü kalınlığına sahip tünel kesiti için model uzunluğunun 6m ve 12 m olarak alındığı iki model ( sırası ile, Model 1A ve Model 1C) için elde edilen sonuçlar karşılaştırılmıştır. Örtü kalınlığının eşit ve jeolojik ortamın homojen ve aynı olduğu bu modellerde üst yarı kazı ilerleme boyları 1,5 m, alt yarı kazı ilerleme boyları 3 m alı nmı ş t ı r. Buna göre, Model 1A'da 4, Model 1C'de ise 8 dilim bulunmaktadı r. İ ki modelde hesap aşamaları farklı olduğundan hesaplanan düşey yer değiştirme değerlerinin karşılaştırılması, tünel yapımının eşdeğer aşamalarına karşılık geldiği düşünülen, kazı öncesi durum, sağ tünel 1. dilim üst yarı kazısı, sağ tünel inşası sonu, sol tünel 1. dilim üst yarı kazısı ve sol tünel inşası sonu aşamaları için yapılmıştır.
+
+Şekil 9.110 ve Şekil 111'de sırası ile, T1 ve T2 tünelleri için, model boyunun 6m ve 12 m alındığı Model 1A ve Model 1C modelleri kullanılarak gerçekleştirilen sayısal analizler sonucunda, tünellerin tepe noktaları, üst yarı noktaları, alt yarı noktaları ve taban noktaları için hesaplanan düşey yer değiştirme değerlerinin kazı aşamaları ile gelişimi karşılaştırmalı olarak gösterilmiştir. Bu grafiklerin incelenmesinden, hesaplanan yer değiştirme değerlerinin modelin üçüncü boyutunun (boyunun) iki kat uzatılmasıyla neredeyse hiç değişmediği gözlenmektedir. Bu çalışmada göz önüne alınan jeolojik ortamlar için, 3D modelin uzunluğunun analiz sonuçları üzerinde bir etkisi olmadığı görülmektedir. Böyle durumlarda 3D modellerde model uzunluğunun arttırılması hesap adımlarını fazlalaştırdığından gereksiz zaman kaybına neden olmaktadır. Aynı hesabın, kazı aynasında stabilite sorunu beklenen bir ortamda yapılması durumunda ise üçüncü boyut önem kazanmaktadır. Örneğin zemin ortamı veya gevşek kaya ortamında açılan bir TBM tünelinde aynada uygulanan destek basıncının belirlenmesi amacıyla yapılacak modellemelerde veya dokanak sınırında açılacak tünellerin modellenmesinde üçüncü boyut etkisinin önemli olduğu bilinmektedir.
+
+**Tl TÜNELİNDE MEYDANA GELEN DÜŞEY DEPLASMANLARIN MODEL UZUNLUĞU İLE DEĞİŞİMİ**
+
+#### 6,00
+
+#### -10,00
+
+209
+
+<!-- image -->
+
+#### 1	2	8	9	15
+
+| -♦-Tl tepe noktasıJA -   | -1—Tl tepe noktası. İC   | -i-Tl sol üst yarıJA   | —Tl sol üst yarı_lC   | Tl sağüstyarı_lA —Tl sağ üst yarı_lC     |
+|--------------------------|--------------------------|------------------------|-----------------------|------------------------------------------|
+| Tl sol alt yarı l A      | Tl sol alt yarı.lC       | -3K-T1 sağ alt yarıJA  | Tl sağ alt yarı lC    | Tl taban noktası 1 A	Tl taban noktası 1C |
+
+T2 TÜNELİNDE MEYDANA GELEN DÜŞEY DEPLASMANLARIN MODEL UZUNLUĞU İLE DEĞİŞİMİ
+
+<!-- image -->
+
+—T2 tepe noktası\_l A	—I—T2 tepe noktası.İC	—T2 sol üst yan\_lA 	T2 solüst yarı\_lC	T2 sağ üst yanJA 	T2 sağ üst yan\_lC
+
+T2 solalt yarı lA	T2 solalt yarı lC	—T2 sağ alt yarı lA	T2 sağ alt yarı lC	-®-T2 taban noktasıJA	T2 taban noktası lC
+
+##### 125 Kazı İlerleme Adımı Uzunluğunun Etkisi
+
+Tünel yapımının sayısal analizler ile incelendiği bu çalışmada Kağıthane-Piyalepaşa karayolu tünellerinin değişik kesimlerini temsil ettiği düşünülen 3 adet kesit farklı şekillerde modellenerek analizler gerçekleştirilmiştir. Sayısal analizlerde 3D modelleme yapılmış ve model boyu genellikle 6 m olarak seçilmiş ve tünel kazısı 15 ilerleme adımı ile modellenmiştir. Gerçekleştirilen 2 adet analizde ise model boyu 12 m olarak seçilmiş, kazı bunlardan birinde (Model 1C) ilerleme adımları uzunluğu diğer modellerle aynı olması için 23 ilerleme adımı ile diğerinde ise (Model 2C) 15 ilerleme adımı ile modellenmiştir. Kazı ilerleme adımının etkisini incelemek amacı ile örtü kalınlığı 45 m olan kesit için uzunluğu 6 m ve 12 m olan iki modelde( Model 2A ve 2C) kazı adımı sayısı eşit tutularak farklı uzunlukta fakat eşit sayıda dilim (4 dilim) oluşturulmuştur. Model 2A'da kazı ilerleme adımı uzunluğu üst yarı için 1,5 m iken, model 2C'de bu değer 3 m alınmıştır. Alt yarı kazı ilerleme boyları sırasıyla 3 m ve 6 m'dir. Analizlerde boyuna doğrultuda jeolojik ortamda değişiklikler olmadığının varsayıldığı göz önüne alınmalıdır.
+
+Şekil 9.112 ve Şekil 9.113'de kazı aşama sayısı aynı olan bu modeller kullanılarak, sırası ile, T1 ve T2 tünelleri için hesaplanan düşey yer değiştirme değerleri, tünellerin tepe noktaları, üst yarı noktaları, alt yarı noktaları ve taban noktaları için karşılaştırmalı olarak gösterilmiştir.
+
+Analiz sonuçları incelendiğinde ilerleme adımı boyunun hesaplanan düşey yer değiştirme değerleri üzerinde çok etkili olmadığı, 2 kat arttırılmasıyla birlikte düşey yer değiştirmelerin biraz arttığı gözlenmektedir. Bununla birlikte şehir içi tünellerinde, boyuna doğrultuda jeolojik ortamda önceden öngörülemeyecek değişiklikler olabileceği göz önüne alınarak, ilerleme mesafesine sınırlamalar getirilmiştir. İlerleme mesafesi için tecrübeler neticesinde NATM sınıflamalarına bağlı olarak önerilen değerler Karayolları Genel Müdürlüğü “NATM Uygulamalı Yer Altı Tünel İşleri Teknik Şartnamesi”'nde yer almaktadır.
+
+## Tl TÜNELİ DÜŞEY DEPLASMANLARININ İLERLEME ADIMINA GÖRE DEĞİŞİMİ
+
+40,00 -i
+
+<!-- image -->
+
+| 1                     | 2	3	4              | 5	6                | 7	8	9  Kazı Aşamaları   | 10 11 12          | 13	14	15             |
+|-----------------------|--------------------|--------------------|-------------------------|-------------------|----------------------|
+| —Tl tepe noktası_2 A  | -■—Tl solüstyan_2A | Tl sağ üst yan_2 A | Tl sol alt yan_2 A      | Tl sağ alt yan_2A | Tl taban noktası_2 A |
+| —1—Tl tepe noktası 2C | Tl solüstyan 2C    | Tl sağ üst yan 2C  | Tl solaltyan 2C         | Tl sağ alt yan 2C | Tl taban noktası_2C  |
+
+T2 tepe noktası\_2A T2 solaltyarı 2A
+
+-T2 tepe noktası\_2C  
+T2 solaltyarı 2C
+
+T2 sol üst yarı\_2 A —T2 sağ alt yarı 2 A
+
+■T2 solüstyaıı\_2C T2 sağ altyaıı 2C
+
+T2 sağ üst yaıı\_2A  
+-T2 taban noktası\_2 A
+
+T2 sağ üst yan\_2C T2 taban noktası\_2C
+
+<!-- image -->
+
+##### 10. SONUÇLAR
+
+Bu tez çalışması kapsamında Yeni Avusturya Tünel Açma Yöntemi(NATM) kullanılarak, İstanbul'un ulaşım sorunlarına çözüm arayışları bağlamında gerçekleştirilmekte olan Yedi Tepeye Yedi Tünel projesi kapsamında inşa edilmekte olan “Kağıthane- Piyalepaşa” tünelleri incelenmiştir. Tünellerin geçtiği güzergah boyunca jeolojik ve geoteknik koşullar değerlendirilmiş, güzergahı temsil ettiği düşünülen tipik kesitler 3 boyutlu modellenerek tünellerin yapımı sayısal olarak analiz edilmiştir. Analiz sonuçları değerlendirilerek jeolojik ortam ve örtü kalınlığı değişkenlikleri yanında, tünel açma adımlarındaki farklılıkların olası etkileri incelenmiştir.
+
+İnceleme konusu 9 m çaplı karayolu tünellerinin İstanbul'un Avrupa yakasında Trakya Formasyonu'nun Küçükköy Tabakaları olarak nitelendirilen kayaçlarının hakim bir bölgede açılacağı tespit edilmiştir. Tünellerin Kağıthane- Piyalepaşa arasında yerleşim alanlarının altında açılacağı anlaşılmaktadır. Tünellerin güzergahı üzerinde 7 adet mekanik sondaj yaptırılmıştır. Bu sondajlardan alınan numuneler üzerinde laboratuar deneyleri uygulanmış, laboratuar deneyleri sonuçları ve arazi gözlemleri neticesinde tünel güzergahına ait geomekanik parametreler belirlenmiştir. Bu değerlerin yerinde (in-situ) kaya dayanım parametrelerine çevirimleri yapılmıştır.
+
+Tünel güzergahı için kaya kalite sınıflamaları yapılmıştır. RQD ve RMR sınıflamaları yapılan tünel güzergahı; kaya kalitesi, örtü derinliği ve kaya türü gözetilerek 5 adet homojen bölgeye ayrılmıştır. Homojen bölgelendirme sonucu tünel kesimlerinin NATM sınıfları belirlenmiş ve bu sınıflamaya göre destek sistemleri önerilmiştir.
+
+İnceleme konusu tünellerin yapım sırasında davranışının sayısal yöntemlerle incelenmesi ve değişik faktörlerin etkilerinin araştırılması amacı ile 5 adet homojen bölgeyi temsil eden 3 adet tipik kesit oluşturulmuştur. Bu kesitlerin oluşturulmasında jeolojik ortam ve örtü kalınlığı temel değişkenler olarak göz önüne alınmıştır.
+
+NATM yöntemi ile inşa edilmekte olan tünellerin sayısal analizi üç boyutlu sonlu elemanlar analiz yönteminin kullanıldığı PLAXIS 3D TUNNEL programı ile gerçekleştirilmiştir. Analizlerde seçilen 3 adet kesit kullanılarak oluşturulan 8 adet modelden yaralanılmış ve tünel açılan ortamda oluşacak yer değiştirmeler ve gerilmelerin yanında, NATM iksa elemanlarına etkiyecek tesirler hesaplanmıştır. Analizlerde kullanılan modellere ait bilgiler Çizelge 10.1'de özetlenmiştir.
+
+Çizelge 10.1 Analizi yapılan modeller
+
+| MODEL  İSMİ   | KESİT  KM'Sİ   | ÖRTÜ  KALINLIĞI   | KAYA  ORTAMI   | MODEL  BOYU   |
+|---------------|----------------|-------------------|----------------|---------------|
+| Model-1A      | 0+580.000      | 15 m              | Homojen        | 6m            |
+| Model-1B      | 0+580.000      | 15 m              | Tabakalı       | 6 m           |
+| Model-1C      | 0+580.000      | 15 m              | Homojen        | 12 m          |
+| Model-2A      | 0+820.000      | 45 m              | Homojen        | 6m            |
+| Model-2B      | 0+820.000      | 45 m              | Tabakalı       | 6 m           |
+| Model-2C      | 0+820.000      | 45 m              | Homojen        | 12 m          |
+| Model-3A      | 1+020.000      | 65 m              | Homojen        | 6m            |
+| Model-3B      | 1+020.000      | 65 m              | Tabakalı       | 6 m           |
+
+Analiz sonuçları incelenen ortamda açılacak tünellerin yol açacağı yer değiştirmelerin izin verilebilir sınırlar içinde kalacağını, jeolojik ortamda yenilmelerin ortaya çıkmasının beklenilmeyeceğini ve öngörülen tünel iksa elemanların yeterli olacağını, dolayısıyla planlanan tünellerin güvenli olarak inşa edilmesinin mümkün olduğunu göstermiştir.
+
+Araştırma kapsamında değişik faktörlerin etkilerinin incelenmesi amaçlanmıştır. Bu faktörler, jeolojik ortamın modellenme şekli(homojen veya tabakalı), örtü kalınlığı(15 m, 45 m ve 65 m) 3D modelin boyu (6 m ve 12 m) ve kazı adımları olarak seçilmiştir. Bu parametrelerin analiz sonuçları üzerinde etkilerini değerlendirmede, temel ölçüt olarak tünelin çevresinde yer alan 5 adet noktada ve tabanı ortasında oluşacak düşey yer değiştirmeler karşılaştırılması olmasına karar verilmiştir. Açılacak ikiz tünellerin her ikisi üzerinde Şekil 9.12'de gösterilen bu noktalarda oluşacağı hesaplanan düşey yer değiştirmelerin kazı adımlarına bağlı olarak gelişimi grafikler halinde gösterilmiştir. Analizlerde göz önüne alınan değişkenlerin etkileri karşılaştırılmalı olarak sunulan bu grafikler yardımı ile değerlendirilmeye çalışılmıştır.
+
+Gerçekleştirilen sayısal analizlerin sonuçlarının değerlendirilmesi ile varılan sonuçlar aşağıda özetlenmiştir.
+
+• Jeolojik ortamı n ve örtü kalı nlı ğ ı n ı n etkisini belirlemek için, sayı sal analizler sonucunda kaya ortamında ve açılan tünel çevresinde oluşacağı hesaplanan yer değiştirmeler karşılaştırılmıştır. Modellenen ikiz tünellerin (T1 ve T2 tünelleri) tepe noktaları, üst yarı noktaları, alt yarı noktaları ve taban noktalarında kazı aşamalarına bağlı olarak oluşacağı hesaplanan düşey değiştirmeler karşılaştırıldığında aşağıdaki hususlar gözlemlenmiştir.
+
+1. Ortamın tek bir jeolojik birimden oluşması veya tabakalı bir yapıya sahip olmasının hesaplanan düşey yer değiştirmeler üzerinde etkisi, T1 ve T2 Tünelleri için sırası ile, 15 m örtü kalınlığına sahip kesit için Şekil 9.105 ve Şekil 9.106'da; 45 m örtü kalınlığına sahip kesit için Şekil 9.107 ve Şekil 9.108; 65 m örtü kalınlığına sahip kesit için ise Şekil 9.109 ve Şekil 9.110 karşılaştırmalı olarak gösterilmiştir. Hesaplanan düşey değiştirme değerlerinin kazı aşamalarına bağlı olarak gelişimini gösteren bu grafikler incelendiğinde, hesaplanan değerlerin birbirine oldukça yakın olduğu, bununla birlikte gerçek duruma daha yakın olan tabakalı modellerdeki düşey değiştirme miktarlarının homojen modellerdeki düşey yer değiştirme miktarlarına göre biraz daha yüksek olduğu görülmektedir. Maksimum düşey yer değiştirmelerin hesaplandığı tünel tepe noktaları için değerler arasında jeolojik ortamın özelliklerine ve örtü kalınlığına bağlı olarak 1-10 mm arasında fark olduğu gözlenmektedir.
+2. İncelenen kesitlerdeki jeolojik ortam farklılıklarından dolayı, hesap sonuçlarından örtü kalınlığının etkisini tam olarak gözlemlemek mümkün olmamakla birlikte, yukarıda değinilen grafikler incelendiğinden en küçük tepe noktası ve taban kabarması düşey yer değiştirmelerinin örtü kalınlığı 15 m olan kesit(sığ tünel) için hesaplandığı, örtü kalınlığı 45m ve 65m olan kesitlerde(orta ve derin tünel) tepedeki maksimum düşey yer değiştirme ve taban kabarması değerlerinin oldukça birbirine yakın ve sığ tünel için elde edilen değerlerden 7-8 kat daha fazla olduğu gözlenmektedir. İncelenen kesitlerin aynı bölgesel jeolojik ortamda ve benzer birimler içinde yer aldığı dikkate alındığında, sayısal analiz sonuçlarının örtü kalınlığının etkisi konusunda da önemli ipuçları verdiği söylenebilir.
+
+Arazide doğal jeolojik ortamda tünel inşası esnasında karşılaşılması olası ezik zon, faylı kesim, örselenme durumu veya daha faklı durumların sayısal modellere tam olarak yansıtılmasında zorluklar olduğu açıktır. Sayısal analizler ile kullanılan modelin arazi koşullarını ile benzeşimi oranında gerçekçi sonuçlar elde edilebilmektedir. Bununla birlikte, jeolojik ortamın homojen olarak kabul edildiği basitleştirilmiş modeller ile oluşması beklenilebilecek yer değiştirmelerin mertebesinin gerçeğe oldukça yakın tahmin edilebileceği görülmektedir. Tünellerin ön tasarım işlemlerinde, jeolojik ortamın hakim karakterinin doğru seçilmiş geomekanik parametrelerle göz önüne alınması durumunda, homojen modeller kullanılarak yapılacak sayısal analizlerin, yer değiştirmelerin mertebesinin daha hızlı bir şekilde belirlenmesi açısından oldukça yararlı sonuçlar verebileceğine inanılmaktadır.
+
+• Hesaplanan yer değ i ş tirme değ erlerinin modelin üçüncü boyutunun (boyunun) iki kat uzatılmasıyla neredeyse hiç değişmediği gözlenmektedir. Bu çalışmada göz önüne alınan jeolojik ortamlar için, 3D modelin uzunluğunun analiz sonuçları üzerinde bir etkisi olmadığı görülmektedir. Böyle durumlarda 3D modellerde model uzunluğunun arttırılması hesap adımlarını fazlalaştırdığından gereksiz zaman kaybına neden olmaktadır. Aynı hesabın, kazı aynasında stabilite sorunu beklenen bir ortamda yapılması durumunda ise üçüncü boyut önem kazanmaktadır. Örneğin zemin ortamı veya gevşek kaya ortamında açılan bir TBM tünelinde aynada uygulanan destek basıncının belirlenmesi amacıyla yapılacak modellemelerde veya dokanak sınırında açılacak tünellerin modellenmesinde üçüncü boyut etkisinin önemli olduğu bilinmektedir.
+
+• İ lerleme adı m ı boyunun hesaplanan düş ey yer değ i ş tirme değ erleri üzerinde çok etkili olmadığı, 2 kat arttırılmasıyla birlikte düşey yer değiştirmelerin biraz arttığı gözlenmektedir. Bununla birlikte şehir içi tünellerinde, boyuna doğrultuda jeolojik ortamda önceden öngörülemeyecek değişiklikler olabileceği göz önüne alınarak, ilerleme mesafesine sınırlamalar getirilmiştir. İlerleme mesafesi için tecrübeler neticesinde NATM sınıflamalarına bağlı olarak önerilen değerler Karayolları Genel Müdürlüğü “NATM Uygulamalı Yer Altı Tünel İşleri Teknik Şartnamesi”'nde yer almaktadır.
+
+##### KAYNAKLAR
+
+1. Koçak B., (2006), Yeraltı Kaya Yapılarının Denetimi Ve Yönlendirilmesinde Uzman Sistem Oluşturulması, Doktora Tezi, İTÜ Fen Bilimleri Enstitüsü.
+2. Vardar M., (2005), Time dependent stability problems in tunnels and time-dependent
+
+behavior of the rock mass, ITA / AITES Training course tunnel engineering.
+
+3. Thema Larousse, (1993), Tematik Ansiklopedi, cilt 3, s. 442-443, Milliyet Gazetecilik, İstanbul.
+4. Öztürk H. T., Durmuş A., (2008), “Tünellere Toplu Bir Bakış ve Savunma Tünellerinin Türkiye İçin Önemi”, İMO İstanbul Bülten, Sayı 96 , s. 11-17.
+5. Kolymbas D., (2005), Tunnelling and Tunnel Mechanics, Springer, Germany, 437 p.
+6. Şans G., (2005), Karadeniz Sahil Yolu Projesi Hapan Tünel Güzergahı'nın Mühendislik Jeolojisi ve Jeomekanik Değerlendirilmesi, Yüksek Lisans Tezi, İTÜ Fen Bilimleri Enstitüsü.
+7. Büyük Larousse, (1993), Tematik Ansiklopedi, cilt 23, s. 11793, Milliyet Gazetecilik, İstanbul.
+8. Schubert W., (2002), Grundlagen der New Austrian Tunnelling Method, Technische Universitât Graz Institute für Felsmechanik und Tunnelbau, s. 9-21.
+9. Ulusay R., Sönmez H.,(2007), Kaya Kütlelerinin Mühendislik Özellikleri, Jeoloji Mühendisleri Odası, Yayın No:60, s. 292.
+10. Karaoğlan H., (2002), Kaya Zeminde Tünel Tasarımı, Yüksek Lisans Tezi, İTÜ Fen Bilimleri Enstitüsü.
+11. Kılıç A., (1997), Tarsus Ayrımı-Adana-Gaziantep (TAG) Otoyolu Bahçe Yöresindeki Tünellerin Kaya Sınıflamaları ve Kaya Bulonlarıyla Desteklenmesi, Doktora Tezi, Ç.Ü Fen Bilimleri Enstitüsü.
+12. Yüzer E., Vardar M., (1986), Kaya Mekaniği, İTÜ Vakfı Kitap Yayınları No:11, İTÜ Maden Fakültesi Ofset Atölyesi, 187 s.
+13. Karpuz C., Hindistan M.A., (2006), Kaya Mekaniği İlkeleri, Uygulamaları, TMMOB Ankara Maden Mühendisleri Odası, 346 s.
+14. Karagöz S.D., (2007), Kağıthane-Piyalepaşa Tünelleri Mühendislik Jeolojisi Çalışması, Yüksek Lisans, İTÜ Fen Bilimleri Enstitüsü.
+15. Vardar M., (2004), Kaya Mekaniği Ders Notları, İstanbul Teknik Üniversitesi, Maden Fakültesi, Uygulamalı Jeoloji Anabilim Dalı .
+16. IACES, (1995), NATM Summer Course, Lecture Notes.
+17. Aygar E., (2000), Bolu Tünelleri'nde Yeni Avusturya Tünelcilik Yöntemine Eleştirel Bir Yaklaşım, Yüksek Lisans Tezi, Hacettepe Üniversitesi Fen Bilimleri Enstitüsü.
+18. Müller L.-Salzburg, Fecker E., (1963), Fundamental Ideas And Principles Of The “New Austrian Tunelling Method“, 1-10 p.
+19. Akçelik N., Solak T., Mucukgil R., (1999), NATM Uygulamalı Yer Altı Tünel İşleri Teknik Şartnamesi ve Tünel Yapımında Karşılaşılan Problemler Semineri, TCK Genel Müdürlüğü, Ankara, 8-12 Kasım, s. 13-21.
+20. Vardar M., (1994), Metro Tünellerinde Duraylılığın Korunması ve Sağlanması, Sağlamlaştırma-Destekleme-İyileştirme, Ulaşımda Yer altı Kazıları Sempozyumu, Maden Mühendisleri Odası, İstanbul, s. 41-51.
+21. Özaydın K., (2007), Zeminlerin İyileştirilmesi Ders Notları, Yıldız Teknik Üniversitesi, İnşaat Fakültesi, Geoteknik Anabilim Dalı.
+22. Özaydın K., (2003), Zemin Mekaniği, Birsen Yayınevi, İstanbul, s.261.
+23. Emay Uluslararası Mühendislik Müşavirlik ve Tic. Ltd. Şti., (2004), Karadeniz Sahil Yolu Çayeli-Ardeşen-Hopa Devlet Yolu Arhavi Tüneli Kesin Proje Geoteknik Raporu, Üsküdar, İstanbul.
+24. Ergin K., (1992), Yeni Avusturya Tünel İnşa Yönteminde Sonlu Elemanlar Yöntemiyle Tünel Kaplaması Hesabı, Yüksek Lisans Tezi, İTÜ Fen Bilimleri Enstitüsü.
+25. Brinkgreve R.B.J., Broere W., (2004), PLAXIS 3D TUNNEL- Version 2 Manuel, Delft Unıversity of Technology &amp; Plaxis B.V., The Netherlands.
+26. Yıldırım M., Savaşkan E., (2003), İstanbul Bölgesi Tersiyer Çökellerinin Stratigrafisine Yeni Bir Yaklaşım ve Çökellerin Mühendislik Özellikleri, İstanbul'un Jeolojisi Sempozyumu Bildiriler Kitabı.
+27. Emay Uluslararası Mühendislik Müşavirlik ve Tic. Ltd. Şti., (2004), Karadeniz Sahil
+
+Yolu Çayeli-Ardeşen-Hopa Devlet Yolu Arhavi Tüneli Kesin Proje Geoteknik Raporu,
+
+Üsküdar, İstanbul.
+
+28. Emay Uluslararası Mühendislik Müşavirlik ve Tic. Ltd. Şti., (2005), Dolmabahçe-
+
+Dolapdere-Piyalepaşa-Kağıthane tünelleri inşaatı Piyalepaşa-Kağıthane Tüneli Derin Tünelli Kesim, Tünel Hesap Raporu, Üsküdar, İstanbul.
+
+**EK 1 ROCLAB PROGRAMI İLE YAPILAN ANALİZ SONUÇLARI**
+
+Majör principal stress (MPa)
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 2.301 s = 0.0020 a = 0.509
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.205 MPa friction angle = 56.69 deg
+
+<!-- image -->
+
+**Rock Mass Parameters**
+
+tensile strength = -0.022 MPa
+
+uniaxial compressive strength = 1.085 MPa
+
+global strength = 5.099 MPa
+
+0.0	0.5
+
+<!-- image -->
+
+deformation modulus = 1479.25 MPa
+
+Majör principal stress (MPa)
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 0.947 s = 0.0020 a = 0.509
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.208 MPa friction angle = 49.53 deg
+
+<!-- image -->
+
+**Rock Mass Parameters**
+
+tensile strength = -0.056 MPa
+
+uniaxial compressive strength = 1.125 MPa
+
+global strength = 3.426 MPa
+
+222
+
+<!-- image -->
+
+deformation modulus = 2091.72 MPa
+
+Majör principal stress (MPa)
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 0.882 s = 0.0016 a = 0.510
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.124 MPa friction angle = 44.01 deg
+
+<!-- image -->
+
+**Rock Mass Parameters**
+
+tensile strength = -0.023 MPa
+
+uniaxial compressive strength = 0.479 MPa
+
+global strength = 1.571 MPa
+
+223
+
+<!-- image -->
+
+deformation modulus = 878.21 MPa
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 1.133 s = 0.0035 a = 0.506
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.374 MPa friction angle = 46.06 deg
+
+<!-- image -->
+
+**Rock Mass Parameters**
+
+tensile strength = -0.094 MPa
+
+uniaxial compressive strength = 1.752 MPa
+
+global strength = 4.448 MPa
+
+224
+
+<!-- image -->
+
+deformation modulus = 3342.69 MPa
+
+Majör principal stress (MPa)
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 1.739 s = 0.0131 a = 0.503
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.911 MPa friction angle = 50.85 deg
+
+<!-- image -->
+
+**Rock Mass Parameters**
+
+tensile strength = -0.370 MPa
+
+uniaxial compressive strength = 5.545 MPa
+
+global strength = 9.416 MPa
+
+225
+
+<!-- image -->
+
+deformation modulus = 9964.19 MPa
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 1.454 s = 0.0075 a = 0.504
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.419 MPa friction angle = 46.01 deg
+
+<!-- image -->
+
+**Rock Mass Parameters**
+
+tensile strength = -0.126 MPa
+
+uniaxial compressive strength = 2.072 MPa
+
+global strength = 4.131 MPa
+
+226
+
+<!-- image -->
+
+deformation modulus = 3922.33 MPa
+
+Majör principal stress (MPa)
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 1.354 s = 0.0060 a = 0.504
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.639 MPa friction angle = 50.01 deg
+
+<!-- image -->
+
+**Rock Mass Parameters**
+
+tensile strength = -0.219 MPa
+
+uniaxial compressive strength = 3.733 MPa
+
+global strength = 7.961 MPa
+
+227
+
+<!-- image -->
+
+deformation modulus = 7132.86 MPa
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 3.173 s = 0.0054 a = 0.505
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.235 MPa friction angle = 62.49 deg
+
+**Rock Mass Parameters**
+
+tensile strength = -0.048 MPa
+
+uniaxial compressive strength = 2.022 MPa
+
+global strength = 6.754 MPa
+
+Majör principal stress (MPa)
+
+2.0
+
+228
+
+1.5
+
+1.0
+
+O.î
+
+0.0
+
+inor principal stress (MPa)
+
+<!-- image -->
+
+<!-- image -->
+
+deformation modulus = 2838.87 MPa
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 3.173 s = 0.0054 a = 0.505
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.348 MPa friction angle = 64.59 deg
+
+**Rock Mass Parameters**
+
+tensile strength = -0.079 MPa
+
+uniaxial compressive strength = 3.334 MPa
+
+global strength = 11.138 MPa
+
+<!-- image -->
+
+deformation modulus = 4681.11 MPa
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 1.167 s = 0.0002 a = 0.531
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.284 MPa friction angle = 46.44 deg
+
+<!-- image -->
+
+**Rock Mass Parameters**
+
+tensile strength = -0.008 MPa
+
+uniaxial compressive strength = 0.470 MPa
+
+global strength = 4.957 MPa
+
+230
+
+0
+
+1
+
+<!-- image -->
+
+deformation modulus = 646.89 MPa
+
+Majör principal stress (MPa)
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 1.017 s = 0.0025 a = 0.508
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.207 MPa friction angle = 35.06 deg
+
+**Rock Mass Parameters**
+
+tensile strength = -0.023 MPa
+
+uniaxial compressive strength = 0.457 MPa
+
+global strength = 1.292 MPa
+
+<!-- image -->
+
+deformation modulus = 859.65 MPa
+
+Majör principal stress (MPa)
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 1.146 s = 0.0003 a = 0.526
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.229 MPa friction angle = 41.26 deg
+
+**Rock Mass Parameters**
+
+tensile strength = -0.006 MPa
+
+uniaxial compressive strength = 0.288 MPa
+
+global strength = 2.476 MPa
+
+232
+
+<!-- image -->
+
+deformation modulus = 380.58 MPa
+
+Majör principal stress (MPa)
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 1.030 s = 0.0002 a = 0.531
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.217 MPa friction angle = 44.24 deg
+
+<!-- image -->
+
+**Rock Mass Parameters**
+
+tensile strength = -0.007 MPa
+
+uniaxial compressive strength = 0.338 MPa
+
+global strength = 3.335 MPa
+
+233
+
+<!-- image -->
+
+deformation modulus = 465.00 MPa
+
+Majör principal stress (MPa)
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 1.581 s = 0.0009 a = 0.514
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.227 MPa friction angle = 43.71 deg
+
+<!-- image -->
+
+**Rock Mass Parameters**
+
+tensile strength = -0.009 MPa
+
+uniaxial compressive strength = 0.411 MPa
+
+global strength = 2.398 MPa
+
+234
+
+<!-- image -->
+
+deformation modulus = 536.18 MPa
+
+Majör principal stress (MPa)
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 1.254 s = 0.0003 a = 0.527
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.182 MPa friction angle = 40.35 deg
+
+<!-- image -->
+
+**Rock Mass Parameters**
+
+tensile strength = -0.003 MPa
+
+uniaxial compressive strength = 0.183 MPa
+
+global strength = 1.753 MPa
+
+235
+
+<!-- image -->
+
+deformation modulus = 332.49 MPa
+
+Majör principal stress (MPa)
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 0.959 s = 0.0002 a = 0.536
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.103 MPa friction angle = 28.85 deg
+
+**Rock Mass Parameters**
+
+tensile strength = -0.001 MPa
+
+uniaxial compressive strength = 0.040 MPa
+
+global strength = 0.434 MPa
+
+236
+
+<!-- image -->
+
+deformation modulus = 57.33 MPa
+
+û\_
+
+c
+
+o.
+
+o
+
+(ü -
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 2.471 s = 0.0025 a = 0.508
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.340 MPa friction angle = 59.59 deg
+
+**Rock Mass Parameters**
+
+237
+
+<!-- image -->
+
+tensile strength = -0.049 MPa uniaxial compressive strength = 2.303 MPa global strength = 10.018 MPa deformation modulus = 4334.05 MPa
+
+1
+
+0
+
+<!-- image -->
+
+Majör principal stress (MPa)
+
+**Hoek-Brown Criterion**
+
+mb = 2.561 s = 0.0028 a = 0.507
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.187 MPa friction angle = 52.31 deg
+
+**Rock Mass Parameters**
+
+tensile strength = -0.015 MPa
+
+uniaxial compressive strength = 0.722 MPa
+
+global strength = 3.022 MPa
+
+deformation modulus = 1365.97 MPa
+
+238
+
+0.0 0.2 0.4  
+Minör principal stress (MPa)
+
+<!-- image -->
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 1.890 s = 0.0016 a = 0.510
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.100 MPa friction angle = 52.11 deg
+
+**Rock Mass Parameters**
+
+tensile strength = -0.009 MPa
+
+uniaxial compressive strength = 0.390 MPa
+
+global strength = 1.865 MPa
+
+deformation modulus = 525.28 MPa
+
+Majör principal stress (MPa)
+
+239
+
+<!-- image -->
+
+0.0 0.1 0.2 Minör principal stress (MPa)
+
+Majör principal stress (MPa)
+
+<!-- image -->
+
+**Hoek-Brown Criterion**
+
+mb = 1.890 s = 0.0016 a = 0.510
+
+**Mohr-Coulomb Fit**
+
+cohesion = 0.144 MPa friction angle = 56.96 deg
+
+<!-- image -->
+
+**Rock Mass Parameters**
+
+tensile strength = -0.019 MPa
+
+uniaxial compressive strength = 0.826 MPa
+
+global strength = 3.947 MPa
+
+240
+
+<!-- image -->
+
+deformation modulus = 1111.94 MPa
+
+**EK 2 KAĞITHANE - PİYALEPAŞA TÜNELLERİ PLAN VE BOY KESİTİ**
+
+| **ÖZGEÇMİŞ**   |            |                                                                                                |
+|----------------|------------|------------------------------------------------------------------------------------------------|
+| Doğum tarihi   | 08.03.1983 |                                                                                                |
+| Doğum yeri     | İstanbul   |                                                                                                |
+| Lise           | 1997-2001  | Çemberlita ş K ı z Lisesi (YDA)                                                                |
+| Lisans         | 2001-2006  | Y ı ldı z Teknik Üniversitesi İ n ş aat Fakültesi  İ n ş aat Mühendisliğ i Bölümü              |
+|                | 2004-2007  | Yı ldı z Teknik Üniversitesi İ n ş aat Fakültesi  Jeodezi ve Fotogrametri Mühendisliğ i Bölümü |
+| Yüksek Lisans  | 2006-2009  | Y ı ldı z Teknik Üniversitesi Fen Bilimleri Enstitüsü                                          |
+
+İnşaat Mühendisliği Anabilim Dalı Geoteknik Programı
+
+##### Çalıştığı kurumlar
+
+2007-Devam ediyor EMAY Uluslararası Mühendislik Müşavirlik ve Tic. Ltd. Ş ti.
+
+SİMGELER
+
+SİLTTAŞI-KUMTAŞI
+
+ARDALANMASI
+
+SİLTTAŞI
+
+ALT KARBONİFER VİZEEN
+
+MUHTEMEL FORMASYON SINIRI
+
+I &lt;-&gt; | ANTİKLİ NAL
+
+**SK-2**
+
+**Kaff** ~~**U**~~ **mıa** ~~**P**~~ **l** ~~**j**~~ **cMpatn TOnM Sondaja***
+
+**SK-3**
+
+**KaTfthano-Pfyalopafa İM Sondaja***
+
+KAĞITHANE-PİYALEPAŞA TÜNELLERİ PLANI
+
+**SİLTTAŞI-KUMTAŞI**
+
+**ARDALANMASI**
+
+ALT KARBONİFER VİZEEN
+
+**I -X»-1**
+
+### m
+
+SENKLİNAL
+
+NORMAL FAY
+
+TERS FAY
+
+MEKANİK SONDAJLARA AİT METRAJ TABLOSU
+
+| SK NO   |   DERİNLİK |
+|---------|------------|
+| KP-SK1  |         30 |
+| KP-SK2  |      23.30 |
+| KP-SK3  |         30 |
+| KP-SK4  |         31 |
+| KP-SK5  |         73 |
+| KP-SK6  |      50.40 |
+| KP-SK6A |         83 |
+| KP-SK7  |         34 |
+| KP-SK8  |      70.20 |
+| KP-SK9  |         32 |
+
+**30.90—32.70 orari**
+
+**4090-9000 o aam* anu**
+
+SfflîS,	.
+
+**Yorat» «mı dorioMI ıttJDııı Sondaj d«ftm	ıMm**
+
+**AJM** m A£ul&gt;
+
+**art ronM**
+
+Amtan-attan
+
+**J3.00 M**
+
+»
+
+MOVMC
+
+**3dXm** **rt**
+
+«S-
+
+**T «mı dorinffl ilam ıjdartim	ısa«**
+
+--K tt
+
+**Sondol Yort Sandal Kabı YoraltT «mı dört Sondaj dortâm**
+
+«jL.T
+
+r«r
+
+**Sandal ’fcrf Sondaj Kotu YoraKT «imi dört Sondoj daMm**
+
+**?fâon*p&lt;!rçoSTHT) 090**
+
+**Acft «ri ronM**
+
+**ŞMjjEF***
+
+**STLTTAfl**
+
+«g- r
+
+B'sa*'* 1 -
+
+**ootUdT w KTrT GROVAK**
+
+#### gar
+
+g®
+
+**“.TTASfe**
+
+**T** «mi **(M** ıj **drinm**
+
+«mel.
+
+*sna*
+
+**STLTTAfl**
+
+**7J0**
+
+**flggg*^**
+
+n V
+
+**art ronM**
+
+**9000	—**
+
+| **TÜNEL DERİNLİĞİ**                                                      |                                                     |                     |                                          |                                    |                         |          |                                                |                                | 19.93                | **20.26**                   |                                                                                         | **21.08**                                             |                      | **30.68	35.44**                                                       | **40.81**                |                      |                      |                      |           |
+|--------------------------------------------------------------------------|-----------------------------------------------------|---------------------|------------------------------------------|------------------------------------|-------------------------|----------|------------------------------------------------|--------------------------------|----------------------|-----------------------------|-----------------------------------------------------------------------------------------|-------------------------------------------------------|----------------------|-----------------------------------------------------------------------|--------------------------|----------------------|----------------------|----------------------|-----------|
+| **LİTOLOJİ VE ORTAM ÖZELLİKLERİ**                                        |                                                     |                     |                                          |                                    | **ÖRTÜ**                |          |                                                | **BİTKİSEL TOPRAK+DOLG**       |                      | BİTKİSEL  **TOPRAK**        |                                                                                         | **BİTKİSEL TOPRAK**                                   |                      | **BİTKİSEL TOPRAK	BİTKİSEL TOPRAK**                                   | **BİTKİSEL TOPRAK**      |                      | **BİTKİSEL TOPRAK**  |                      |           |
+|                                                                          |                                                     |                     |                                          |                                    | **TÜNEL ÜST YARISINDA** |          |                                                | **GROVAK**                     |                      | **GROVAK-SİLTTAŞI**         |                                                                                         | **KUMTAŞI-SILTTAŞI ARDALANMASI**                      |                      | **KUMTAŞI-SILTTAŞI ARDALANMASI	KUMTAŞI-SILTTAŞI ARDALANMASI, GROVAK** | **SİLTTAŞI**             |                      | **GROVAK**           |                      |           |
+|                                                                          |                                                     |                     |                                          |                                    | **TÜNEL ALT YARISINDA** |          |                                                | **KUMTAŞI-SILTTAŞIARDALANMAS** |                      | **SİLTTAŞI	SİLTTAŞI**  KDKT |                                                                                         | **AŞI-SIL I I AŞI AKUALANMAİ5I, UKUVAK, SİL I I AŞI** |                      | **KUMTAŞPSILI IAŞI ARDALANMASI	GROVAK-SILI İAŞI**                     | **SİLTTAŞI**             |                      | **DIYABAZ-SILTTAŞI** |                      |           |
+| **S**  **O**                                                             | **KAYAÇLARIN FİZİKSEL VE**  **MEKANİK ÖZELLİKLERİ** |                     | **TEK EKSENLİ BASINÇ DAYANIMI (kg/cm3)** |                                    |                         |          |                                                | **128,00-268,50**              |                      | **243,20-491,60**           |                                                                                         |                                                       |                      | **96,00-393,00	39,00-282,50**                                         | **143,00-484,00**        |                      | **104,40-221,00**    |                      |           |
+|                                                                          |                                                     |                     | **BİRİM HACİM AĞIRLIĞI (yk)**            |                                    |                         |          |                                                | 2.62-2.66                      | 2.62-2.66            | **2.64-2.75**               |                                                                                         | **2.24**                                              |                      | **2.67	2.83-2.67**                                                    | ''2.67                   | ''2.67               | 2.64                 | 2.64                 | 2.64      |
+|                                                                          |                                                     |                     | **POROZİTE %**                           |                                    |                         |          |                                                | **1.81**                       |                      | **1.34**                    |                                                                                         | **1.03**                                              |                      | **2.88	1.41-3.98**                                                    |                          |                      |                      |                      |           |
+|                                                                          |                                                     |                     | **AĞIRLIKÇA SU EMME (Sa%1**              |                                    |                         |          |                                                | **0.68**                       |                      | **0.48**                    |                                                                                         | **1.04**                                              |                      | 2.97	1,51                                                             |                          |                      |                      |                      |           |
+|                                                                          |                                                     |                     | **YERALTI SUYU (SU GELİRİ It/dk) (Jw)**  |                                    |                         |          |                                                |                                |                      | **SU GELİRİ YOK**           |                                                                                         | **SU GELİRİ YOK**                                     |                      | **SU GELİRİ YOK	SU GELİRİ YOK**                                       | **SU GELİRİ YOK**        |                      | **SU GELİRİ YOK**    |                      |           |
+|                                                                          |                                                     |                     | **EKLEM YÜZEY DURUMU / PÜRÜZLÜLÜK**      |                                    |                         |          |                                                |                                |                      | DÜZ-KAYGAN-DÜZLEMSEL        | DÜZ-KAYGAN-DÜZLEMSEL                                                                    | **DÜZ-KAYGAN-DÜZLE MSEL**                             |                      | **DÜZ-KAYGAN-DÜZLEMSEL	DÜZ-KAYGAN-DÜZLEMSEL**                         | **DÜZ-KAYGAN-DÜZLEMSEL** |                      | **DÜZ-DÜZLEMSEL**    |                      |           |
+|                                                                          |                                                     |                     | **SÜREKSİZLİK DOLGUSU**                  |                                    |                         |          |                                                | **KALSİT-KİL DOLGULU**         |                      | **KALSİT DOLGULU**          |                                                                                         | **KALSİT DOLGULU**                                    |                      | **KALSİT DOLGULU	KALSİT DOLGULU**                                     | **KALSİT DOLGULU**       |                      | **KALSİT DOLGULU**   |                      |           |
+|                                                                          |                                                     |                     | **AYRIŞMA DURUMU (Ja)**                  |                                    |                         |          |                                                | **AZ-ORTA BOZUNMUŞ**           |                      | **BOZUNMAMIŞ**              |                                                                                         | **BOZUNMAMIŞ**                                        |                      | **BOZUNMAMIŞ	BOZUNMAMIŞ**                                             | **AZ BOZUNMUŞ**          |                      | **AZ BOZUNMUŞ**      |                      |           |
+| **&#124; MÜHENDİSLİK JE**                                                | *** a:**  *n*                                       | **TÜNELAYN ASINDA** | **E (kg/cm2)**                           |                                    | **LABORATUARI**         |          |                                                | **45695-73876**                |                      | **70917**                   |                                                                                         | **45856-07127**                                       |                      | **100259	20548-238B4**                                                | **31500-36600**          |                      | **34205**            |                      |           |
+|                                                                          |                                                     |                     |                                          |                                    | **IN-SITU	&#124;**      |          |                                                | **8782-20917**                 |                      | **99642**                   |                                                                                         | **28388-46811**                                       |                      | **6469	3325-5362**                                                    | **13660-43340**          |                      | **11120**            |                      |           |
+|                                                                          |                                                     |                     | **yd (gr/cm3)**                          |                                    |                         |          |                                                | **2,68**                       |                      | **2.77**                    |                                                                                         | **2,26**                                              |                      | **2,72	2,70**                                                         | 2,72                     | 2,72                 | **2,67**             |                      |           |
+|                                                                          |                                                     |                     | **c (kg/cm2)**                           |                                    | **LABORATUAR**          |          |                                                | **29,5-76,1**                  |                      | **109,6-142**               |                                                                                         | **4,1-25,5**                                          |                      | **55,9-89,4	32,2-121,5**                                              | **17,93-35,3**           |                      | 43,4-76,8            | 43,4-76,8            | 43,4-76,8 |
+|                                                                          |                                                     |                     |                                          |                                    | **IN-SITU**             |          |                                                | **0,8-1,1**                    |                      | **3.2**                     |                                                                                         | 1,1                                                   |                      | **2,2	33-42**                                                         | **1,00-1,80**            |                      | **0,9**              |                      |           |
+|                                                                          |                                                     |                     | **0°**                                   |                                    | **LABORATUAR**          |          |                                                | **26-56**                      |                      | **44-54**                   |                                                                                         | **69-76**                                             |                      | **50-58	27-54**                                                       | **67-72**                |                      | **51-54**            |                      |           |
+|                                                                          |                                                     |                     |                                          |                                    | **IN-SITU**             |          |                                                | **34-40**                      |                      | **46**                      |                                                                                         | **56-60**                                             |                      | **38	33-42**                                                          | **40-48**                |                      | **55**               |                      |           |
+| **KAYA KALİTE VE**  **KAYA DESTEK**                                      |                                                     |                     | **RQD**                                  |                                    |                         |          |                                                |                                |                      |                             |                                                                                         |                                                       |                      |                                                                       |                          |                      | **%25-30**           |                      |           |
+|                                                                          |                                                     |                     | **RMR**                                  |                                    |                         |          |                                                |                                |                      |                             |                                                                                         |                                                       |                      |                                                                       | **10**                   |                      |                      |                      |           |
+|                                                                          |                                                     |                     | O-BARTON                                 | O-BARTON                           | O-BARTON                | O-BARTON |                                                | **ORTA KALİTE KAYA**           |                      | **İYİ KALİTE KAYA**         |                                                                                         | **ORTA KALİTE KAYA**                                  |                      |                                                                       |                          |                      | **ORTA KALİTE KAYA** |                      |           |
+|                                                                          |                                                     |                     | **NATM**                                 |                                    |                         |          |                                                | B3                             | B3                   | B2                          | B2                                                                                      | B2                                                    | B3                   | B3                                                                    | B2                       | B2                   | B3                   | B3                   | B3        |
+| **TÜNELDE**  **DESTEKLEME**  **SAĞLAMLAŞTIRMA**  **VE**  **İYİLEŞTİRME** |                                                     |                     | **ÖNERİLEN**                             | **İKSA SİSTEMİ**                   |                         |          |                                                | **1160**                       |                      | **1100**                    |                                                                                         | **1160**                                              | **1160**             | **1160**                                                              | **1160**                 |                      | **1160**             |                      |           |
+|                                                                          |                                                     |                     |                                          | **PÜSKÜRTME BETON KALINLIĞI (cm)** |                         |          |                                                | **25**                         |                      | **20**                      |                                                                                         | **20**                                                | **25**               | 25                                                                    | **20**                   |                      | **25**               |                      |           |
+|                                                                          |                                                     |                     |                                          | **ÇELİK HASIR**                    |                         |          |                                                | 2*0221/221                     | 2*0221/221           | 1*0221/221                  | 1*0221/221                                                                              | 1*0221/221                                            | 2*0221/221           | **2*0221/221**                                                        | 1*0221/221               | 1*0221/221           | **2*0221021**        |                      |           |
+|                                                                          |                                                     |                     |                                          | **BULON**                          |                         |          |                                                | **13 adet 026 L=4m**           |                      | **11 adet 028 L=4m**        |                                                                                         | **11 adet 028 L=4m**                                  | **13 adet 028 L=4m** | **l3adet028L=4m**                                                     | **11 adet 028 L=4m**     |                      | **13 adet 028 L=4m** |                      |           |
+|                                                                          |                                                     |                     | **UYGULANAN**                            | **İKSA SİSTEMİ**                   |                         |          |                                                | **1160**                       | **1160**             |                             | **1160 1160 1160 1160 1160**                                                            |                                                       |                      |                                                                       |                          | **1160**             |                      | **1160**             |           |
+|                                                                          |                                                     |                     |                                          | **PÜSKÜRTME BETON KALINLIĞI (dm)** |                         |          |                                                | **30**                         | **25**               |                             | 25	25	25	25	25                                                                          | 25	25	25	25	25                                        | 25	25	25	25	25       | 25	25	25	25	25                                                        | 25	25	25	25	25           | **25**               |                      | **30**               |           |
+|                                                                          |                                                     |                     |                                          | **ÇELİK HASIR**                    |                         |          |                                                | **2*0221/221**                 | **2*0221/221**       |                             | **2*0221/221 2*0221/221	2*0221/221	2*0221/221 2*0221/221**                              |                                                       |                      |                                                                       |                          | **2*0221/221**       |                      | **2*0221/221**       |           |
+|                                                                          |                                                     |                     |                                          | **BULON**                          |                         |          |                                                | **17 adet 026 L=4m**           | **17 adat 026 L=4m** |                             | **17 adet 026 L=4m	17adat 026 L=4m	17 adat 026 L=4m	17 adet 026 L=4m	17 adet 026 L=4m** |                                                       |                      |                                                                       |                          | **17 adet 026 L=4m** |                      | **17 adet 026 L=4m** |           |
+|                                                                          |                                                     |                     |                                          | **HOMOJEN BÛLGELENDİRME**          |                         |          | a	&#124;	b	&#124;  **c	&#124;**  d	e  **b**  a |                                |                      |                             |                                                                                         |                                                       |                      |                                                                       |                          |                      |                      |                      |           |
+
+I &lt;H&gt; I
+
+ı -^ı
+
+### m
+
+SİLTTAŞI
+
+MUHTEMEL FORMASYON SINIRI
+
+ANTİKLİNAL
+
+SENKLİNAL
+
+NORMAL FAY
+
+KAĞITHANE-PİYALEPAŞA KUZEY TÜNEL (SOL TÜP) BOYKESİTİ (KM= 0+060.000 - 1+730.756)
+
+**U&lt; II I Hll «MI 00**
+
+**KumtnTT—Sl** ~~**ttg**~~ **TT** **w** **Ardaramaat**
+
+**KAĞITHANE-PİYALEPAŞA TÜNELLERİ  
+SOL TÜP (KUZEY)**
+
+**MÜHENDİSLİK JEOLOJİSİ PLAN VE BOYKESİT**
+
+**YAPAN: SEVİNÇ ŞEHNAZ AKTAŞ**
+
+**ÖĞRENCİ NO: 06509002**
+
+**TEZ DANIŞMANI: PROF.DR. I.KUTAY ÖZAYDIN**
+
+ÖLÇEK: 1/1000
+
+EK-2
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->

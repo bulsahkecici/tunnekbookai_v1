@@ -1,0 +1,187 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "2.2",
+    "5.9.2",
+    "5.9"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0003",
+        "PARA0004",
+        "FIG0017",
+        "PARA0019",
+        "PARA0085",
+        "HEAD0023",
+        "HEAD0024",
+        "PARA0094",
+        "PARA0095",
+        "PARA0097",
+        "TABLE0004",
+        "CAPT0006",
+        "HEAD0028",
+        "PARA0098",
+        "FIG0039",
+        "CAPT0007",
+        "TABLE0005",
+        "CAPT0008",
+        "PARA0099",
+        "FIG0040",
+        "CAPT0009",
+        "FIG0041",
+        "CAPT0010",
+        "FIG0042",
+        "CAPT0011"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0003",
+        "PARA0004",
+        "FIG0007",
+        "FIG0017",
+        "PARA0018",
+        "PARA0019",
+        "PARA0085",
+        "HEAD0023",
+        "HEAD0024",
+        "PARA0094",
+        "PARA0095",
+        "PARA0097",
+        "TABLE0004",
+        "CAPT0006",
+        "HEAD0028",
+        "PARA0098",
+        "FIG0039",
+        "CAPT0007",
+        "TABLE0005",
+        "CAPT0008",
+        "PARA0099",
+        "FIG0040",
+        "CAPT0009",
+        "FIG0041",
+        "CAPT0010"
+      ]
+    },
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0019",
+        "PARA0104",
+        "PARA0105",
+        "PARA0395",
+        "FIG0174"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0019",
+        "PARA0104",
+        "PARA0105",
+        "PARA0395",
+        "FIG0174"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7606,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7804,
+      "chunk_vote": 0.2692
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.7098,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7872,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.7051,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7766,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3827,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3856
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.361,
+      "rule_score": 0.0,
+      "embedding_score": 0.7961,
+      "chunk_vote": 0.0138
+    },
+    {
+      "id": "6.2.1",
+      "score": 0.3566,
+      "rule_score": 0.0,
+      "embedding_score": 0.7925,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3544,
+      "rule_score": 0.0,
+      "embedding_score": 0.7875,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.353,
+      "rule_score": 0.0,
+      "embedding_score": 0.7844,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.2",
+      "score": 0.3492,
+      "rule_score": 0.0,
+      "embedding_score": 0.7761,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3166,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0552
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, karmaşık bir jeolojide (makaslama zonları ve dayklar) açılan ikiz tünellerde kullanılan dört EPB-TBM'in performanslarının karşılaştırılmasını içermektedir. Bu içerik, TBM'lerin tasarım parametreleri, kesici kafa detayları, thrust/tork indeksleri ve tünel yapım teknikleriyle doğrudan ilgilidir; bu nedenle 'Tünel Ana Elemanları, Ana Özellikleri ve Yapım Teknikleri' (Bölüm 2) birincil, 'Tünel ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7606 gap=0.051 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

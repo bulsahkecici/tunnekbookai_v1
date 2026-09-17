@@ -1,0 +1,113 @@
+{
+  "document_id": "ING_5224c577f6e7a067e468",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Çamlıca Tepesi Ulaşım Tünellerinin Yapım Aşamalarında Karşılaşılan Sorunların Değerlendirilmesi",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Feyat Taz",
+        "Ömer Ündül",
+        "Hasan Denek"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2018",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "injection",
+        "monitoring",
+        "rock_mechanics",
+        "tbm"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; geotechnical_investigation:geotechnical; geology:jeoloji; rock_mechanics:rock mechanics; excavation:kazı; injection:enjeksiyon; monitoring:monitoring; tunnel_general:tünel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://dergipark.org.tr/tr/pub/jmd/article/434139",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.24232/jmd.434139",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "document_status",
+      "value": "DRAFT",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "status marking: preliminary"
+    }
+  ]
+}

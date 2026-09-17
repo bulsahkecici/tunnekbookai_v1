@@ -1,0 +1,95 @@
+{
+  "final_primary_section": "5.5.2.1",
+  "final_secondary_sections": [
+    "5.7"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.5.2.1",
+      "section_title": "Yapısal Bakım-Onarım Maliyetleri",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "7.2",
+      "score": 0.3659,
+      "rule_score": 0.0,
+      "embedding_score": 0.8131,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3569,
+      "rule_score": 0.0,
+      "embedding_score": 0.793,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.2",
+      "score": 0.3567,
+      "rule_score": 0.0,
+      "embedding_score": 0.7927,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7",
+      "score": 0.3565,
+      "rule_score": 0.0,
+      "embedding_score": 0.7923,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.3564,
+      "rule_score": 0.0,
+      "embedding_score": 0.7919,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.3564,
+      "rule_score": 0.0,
+      "embedding_score": 0.792,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3564,
+      "rule_score": 0.0,
+      "embedding_score": 0.7919,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3561,
+      "rule_score": 0.0,
+      "embedding_score": 0.7914,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, T8 Tüneli'ndeki yapısal hasarların (çatlaklar, dolgu durumları) ve destek sistemlerinin (çelik, beton kalınlığı) detaylı saha ölçümlerini ve değerlendirmelerini içermektedir. Bu veriler, doğrudan yapısal bakım ve onarım ihtiyaçlarını belirlemeye yönelik olup, 'Yapısal Bakım-Onarım Maliyetleri' bölümünün temel girdisi niteliğindedir. Ayrıca enerji tüketimi ve verimli işletme ile doğrudan ili",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:0",
+    "chunk_votes:1",
+    "embeddings:8",
+    "top=7.2:0.3659 gap=0.009 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

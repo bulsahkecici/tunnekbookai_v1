@@ -1,0 +1,136 @@
+{
+  "final_primary_section": "2.4.1.2",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0001",
+        "PARA0010",
+        "PARA0011",
+        "PARA0014",
+        "PARA0015",
+        "HEAD0008",
+        "HEAD0010",
+        "PARA0024",
+        "PARA0025",
+        "HEAD0011",
+        "PARA0026",
+        "PARA0035",
+        "LIST0009",
+        "LIST0052",
+        "LIST0053",
+        "LIST0056",
+        "FIG0004",
+        "CAPT0004",
+        "FIG0011"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0023",
+        "PARA0040",
+        "LIST0022"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.2",
+      "score": 0.664,
+      "rule_score": 0.5,
+      "embedding_score": 0.7482,
+      "chunk_vote": 0.0116
+    },
+    {
+      "id": "2",
+      "score": 0.5848,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7622,
+      "chunk_vote": 0.0426
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3597,
+      "rule_score": 0.0,
+      "embedding_score": 0.7717,
+      "chunk_vote": 0.062
+    },
+    {
+      "id": "6.1",
+      "score": 0.3426,
+      "rule_score": 0.0,
+      "embedding_score": 0.7579,
+      "chunk_vote": 0.0078
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3418,
+      "rule_score": 0.0,
+      "embedding_score": 0.7596,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3416,
+      "rule_score": 0.0,
+      "embedding_score": 0.759,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3388,
+      "rule_score": 0.0,
+      "embedding_score": 0.753,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3366,
+      "rule_score": 0.0,
+      "embedding_score": 0.7479,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.3179,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4109
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.2859,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0543
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, yeraltı dondurma yöntemiyle yapılan geçit inşaatı sırasında tünel segmentlerine etkiyen donma kabarması basıncının saha izlenimini (in-situ monitoring) detaylandırmaktadır. Bu, doğrudan inşaat aşamasındaki çalışmalar ve izleme teknikleriyle ilgilidir. Ayrıca tünel yapım tekniklerinden biri olan dondurma yöntemi, ana bölüm 2 (Yapım Teknikleri) ile de ilişkilidir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.4.2:0.664 gap=0.079 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

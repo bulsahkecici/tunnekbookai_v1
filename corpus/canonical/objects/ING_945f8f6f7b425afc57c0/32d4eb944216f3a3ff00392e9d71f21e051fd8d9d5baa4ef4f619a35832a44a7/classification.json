@@ -1,0 +1,119 @@
+{
+  "final_primary_section": "2.2.2",
+  "final_secondary_sections": [
+    "2.4.1.1"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "manual_review"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.4.1.1",
+      "section_title": "İnşaat Başlamadan Önce Yapılan Çalışmalar",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1",
+      "score": 0.7149,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7587,
+      "chunk_vote": 0.4389
+    },
+    {
+      "id": "2",
+      "score": 0.6753,
+      "rule_score": 0.5,
+      "embedding_score": 0.7734,
+      "chunk_vote": 0.0111
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.5902,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7683,
+      "chunk_vote": 0.0556
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.5773,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7643,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3589,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2667
+    },
+    {
+      "id": "6.1",
+      "score": 0.3397,
+      "rule_score": 0.0,
+      "embedding_score": 0.7549,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3377,
+      "rule_score": 0.0,
+      "embedding_score": 0.7504,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3372,
+      "rule_score": 0.0,
+      "embedding_score": 0.7494,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3371,
+      "rule_score": 0.0,
+      "embedding_score": 0.7491,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.2357,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:14",
+    "embeddings:8",
+    "top=1:0.7149 gap=0.040 disagreement=True ",
+    "arbiter:skipped"
+  ],
+  "warnings": [
+    "ARBITER_SKIPPED_BY_FLAG"
+  ],
+  "taxonomy_source": "book/scope/normalized/book_scope.json",
+  "document_id": "ING_945f8f6f7b425afc57c0",
+  "manual_review": {
+    "status": "APPROVED",
+    "reviewed_at": "2026-09-13T16:56:54+00:00",
+    "note": "Twin-tunnel soft-ground settlement prediction study verified after recovery."
+  }
+}

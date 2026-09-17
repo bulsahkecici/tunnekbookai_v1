@@ -1,0 +1,95 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.8"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.8",
+      "section_title": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "3",
+      "score": 0.3453,
+      "rule_score": 0.0,
+      "embedding_score": 0.7674,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.8",
+      "score": 0.3443,
+      "rule_score": 0.0,
+      "embedding_score": 0.765,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3429,
+      "rule_score": 0.0,
+      "embedding_score": 0.762,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3403,
+      "rule_score": 0.0,
+      "embedding_score": 0.7562,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4.1",
+      "score": 0.3397,
+      "rule_score": 0.0,
+      "embedding_score": 0.7549,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3385,
+      "rule_score": 0.0,
+      "embedding_score": 0.7523,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3382,
+      "rule_score": 0.0,
+      "embedding_score": 0.7515,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.338,
+      "rule_score": 0.0,
+      "embedding_score": 0.7511,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Avrasya Tüneli'ndeki günlük araç geçiş rekorunu ve işletme verilerini içermektedir. Bu içerik, tünelin günlük operasyonel performansını ve bakım/işletme süreçlerini yansıttığı için 'Tünel Bakım-Onarım ve İşletme' (5.4) bölümüne en uygun düşmektedir. Ayrıca, tünelin resmi birim yapısı ve yönetim hiyerarşisine atıfta bulunması nedeniyle 'Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şef",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:0",
+    "chunk_votes:2",
+    "embeddings:8",
+    "top=3:0.3453 gap=0.001 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

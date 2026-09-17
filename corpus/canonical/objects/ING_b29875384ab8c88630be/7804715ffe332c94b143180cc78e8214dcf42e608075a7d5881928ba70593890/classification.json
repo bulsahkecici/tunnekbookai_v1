@@ -1,0 +1,117 @@
+{
+  "final_primary_section": "5.4.1",
+  "final_secondary_sections": [
+    "5.4",
+    "5.5.2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4.1",
+      "section_title": "Yapısal Bakım",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.5.2.1",
+      "section_title": "Yapısal Bakım-Onarım Maliyetleri",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.7.1",
+      "score": 0.3439,
+      "rule_score": 0.0,
+      "embedding_score": 0.7643,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3436,
+      "rule_score": 0.0,
+      "embedding_score": 0.7636,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3429,
+      "rule_score": 0.0,
+      "embedding_score": 0.762,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3425,
+      "rule_score": 0.0,
+      "embedding_score": 0.7612,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3417,
+      "rule_score": 0.0,
+      "embedding_score": 0.7594,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2",
+      "score": 0.3412,
+      "rule_score": 0.0,
+      "embedding_score": 0.7583,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.3411,
+      "rule_score": 0.0,
+      "embedding_score": 0.7579,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3402,
+      "rule_score": 0.0,
+      "embedding_score": 0.756,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2733,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.45
+    },
+    {
+      "id": "1.1",
+      "score": 0.2283,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.225
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Prinses Margriettunnel'daki yapısal hasarın (trem palalarının kırılması, taban yükselmesi) onarımını ve yeni ankraj sistemlerinin (trem palaları, duvar ankrajları) uygulanmasını detaylı olarak anlatmaktadır. Bu, doğrudan yapısal bakım ve onarım faaliyetlerini kapsamaktadır. Maliyet veya işletme verilerine odaklanmadığı için 5.4.1 birincil, 5.4 (genel bakım) ve 5.5.2.1 (yapısal onarım maliye",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:7",
+    "chunk_votes:8",
+    "embeddings:8",
+    "top=5.7.1:0.3439 gap=0.000 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

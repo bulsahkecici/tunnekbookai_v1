@@ -1,0 +1,133 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0014",
+        "LIST0016",
+        "LIST0017",
+        "LIST0018",
+        "LIST0019",
+        "LIST0022",
+        "HEAD0012",
+        "FIG0027",
+        "FIG0028",
+        "HEAD0013",
+        "FIG0038",
+        "FIG0046"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0014",
+        "LIST0017",
+        "LIST0018",
+        "LIST0019",
+        "LIST0022",
+        "HEAD0012",
+        "FIG0027",
+        "FIG0028"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2",
+      "score": 0.7796,
+      "rule_score": 0.5,
+      "embedding_score": 0.7731,
+      "chunk_vote": 0.5333
+    },
+    {
+      "id": "2",
+      "score": 0.7171,
+      "rule_score": 0.5,
+      "embedding_score": 0.7972,
+      "chunk_vote": 0.1667
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3512,
+      "rule_score": 0.0,
+      "embedding_score": 0.7805,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3504,
+      "rule_score": 0.0,
+      "embedding_score": 0.7787,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3488,
+      "rule_score": 0.0,
+      "embedding_score": 0.7751,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3465,
+      "rule_score": 0.0,
+      "embedding_score": 0.7699,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3462,
+      "rule_score": 0.0,
+      "embedding_score": 0.7694,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3459,
+      "rule_score": 0.0,
+      "embedding_score": 0.7686,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.1",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel delme makineleri (TBM/TDM) tiplerini, avantaj/dezavantajlarını ve DSİ'nin bu yöntemle yürüttüğü projeleri detaylıca ele aldığı için 'Tünel Yapım Yöntemleri' (2.2) ana bölümüdür. Üst başlık olan 'Tünel Ana Elemanları, Ana Özellikleri ve Yapım Teknikleri' (2) ise kapsayıcı genel başlık olarak ikincil bölümdür.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:8",
+    "embeddings:8",
+    "top=2.2:0.7796 gap=0.062 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

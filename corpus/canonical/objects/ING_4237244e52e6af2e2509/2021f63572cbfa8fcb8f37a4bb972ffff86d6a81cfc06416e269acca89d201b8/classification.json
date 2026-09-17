@@ -1,0 +1,111 @@
+{
+  "final_primary_section": "2.4.3",
+  "final_secondary_sections": [
+    "2.4"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.3",
+      "section_title": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.4",
+      "section_title": "Tünellerin Projelendirilmesi",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.3",
+      "score": 0.3586,
+      "rule_score": 0.0,
+      "embedding_score": 0.7969,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3521,
+      "rule_score": 0.0,
+      "embedding_score": 0.7824,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.35,
+      "rule_score": 0.0,
+      "embedding_score": 0.7778,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4.2",
+      "score": 0.348,
+      "rule_score": 0.0,
+      "embedding_score": 0.7734,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3479,
+      "rule_score": 0.0,
+      "embedding_score": 0.7731,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3472,
+      "rule_score": 0.0,
+      "embedding_score": 0.7715,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3462,
+      "rule_score": 0.0,
+      "embedding_score": 0.7694,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4.1",
+      "score": 0.3454,
+      "rule_score": 0.0,
+      "embedding_score": 0.7675,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3212,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2308
+    },
+    {
+      "id": "1",
+      "score": 0.2756,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4615
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Norveç'in ulusal otoyol standardı N500 (Vegtunneler) hakkında olup tünel projelendirme esaslarını ve standartlarını tanımlamaktadır. Bu içerik, Karayolları Genel Müdürlüğü'nün tünel projelendirme esasları bölümüyle (2.4.3) konseptual olarak en yakın eşleşmeyi göstermektedir; ayrıca genel tünel projelendirme bölümü (2.4) ile de ilişkilidir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:4",
+    "chunk_votes:3",
+    "embeddings:8",
+    "top=2.4.3:0.3586 gap=0.006 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

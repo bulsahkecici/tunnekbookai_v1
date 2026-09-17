@@ -1,0 +1,106 @@
+{
+  "document_id": "ING_7cfe0808e9ee21407a48",
+  "fields": [
+    {
+      "field": "title",
+      "value": "ÜSKÜDAR–ÜMRANİYE–ÇEKMEKÖY METRO HATTINDA YAPILAN UYGULAMA DEĞİŞİKLİKLERİNİN PROJEYE MALİ VE SÜRESEL ETKİSİ",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Mücahit Namlı"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2018",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: doi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "contracts",
+        "cost",
+        "excavation",
+        "geology",
+        "maintenance",
+        "natm",
+        "operations",
+        "tbm",
+        "ventilation"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; tbm:tbm; geology:jeoloji; excavation:kazı; ventilation:havalandırma; operations:işletme; maintenance:bakım; cost:maliyet; contracts:sözleşme; accident:kaza; tunnel_general:tünel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://dergipark.org.tr/tr/download/article-file/414540",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.28948/ngumuh.386502",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

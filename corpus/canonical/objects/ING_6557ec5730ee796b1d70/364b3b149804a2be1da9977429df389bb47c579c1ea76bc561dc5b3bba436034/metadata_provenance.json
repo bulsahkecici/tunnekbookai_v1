@@ -1,0 +1,91 @@
+{
+  "document_id": "ING_6557ec5730ee796b1d70",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Geodetical Measurments as Part of New Austrian Tunnelling Method",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Kaluža, Alen"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2006",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "instrumentation",
+        "natm"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:new austrian tunnel; instrumentation:instrumentation; accident:kaza; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://pdf.core.ac.uk/corefilesystem/pdf/443/12088571.pdf?se=2026-09-03T17%3A08%3A07Z&sp=r&sv=2026-06-06&sr=b&rscd=inline%3B+filename%3D%2212088571.pdf%22&rsct=application%2Fpdf&sig=GvMdAbh9KK4%2FW14ZQMxqsEeeMSS0p5mpwZyeiS8VAlU%3D",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

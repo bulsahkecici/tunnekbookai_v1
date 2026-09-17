@@ -1,0 +1,123 @@
+{
+  "final_primary_section": "5.7",
+  "final_secondary_sections": [
+    "5.7.2"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": [
+        "PARA0003",
+        "PARA0004",
+        "LIST0028",
+        "LIST0029",
+        "LIST0030",
+        "LIST0032",
+        "LIST0038",
+        "LIST0042",
+        "LIST0044",
+        "LIST0046",
+        "LIST0047"
+      ]
+    },
+    {
+      "section_id": "5.7.2",
+      "section_title": "Enerji Maliyetini Azaltma Yöntemleri",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.6447,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7778,
+      "chunk_vote": 0.0448
+    },
+    {
+      "id": "5.7",
+      "score": 0.6425,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7629,
+      "chunk_vote": 0.0671
+    },
+    {
+      "id": "5.6",
+      "score": 0.3658,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3012
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3487,
+      "rule_score": 0.0,
+      "embedding_score": 0.7749,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3471,
+      "rule_score": 0.0,
+      "embedding_score": 0.7714,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3451,
+      "rule_score": 0.0,
+      "embedding_score": 0.7669,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3441,
+      "rule_score": 0.0,
+      "embedding_score": 0.7647,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3438,
+      "rule_score": 0.0,
+      "embedding_score": 0.764,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.343,
+      "rule_score": 0.0,
+      "embedding_score": 0.7623,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5",
+      "score": 0.3048,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3453
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel havalandırma sistemlerinin rüzgar etkisi altında CFD ile analiz edilmesini ve yangın güvenliği üzerindeki etkilerini incelemektedir. Bu, tünel işletme ve bakım süreçlerinde enerji tüketimi ve verimlilik (5.7) ile doğrudan ilişkilidir; ayrıca havalandırma optimizasyonu enerji maliyetlerini etkilediğinden 5.7.2 ile de bağlantılıdır.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:10",
+    "embeddings:8",
+    "top=5.4.2:0.6447 gap=0.002 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

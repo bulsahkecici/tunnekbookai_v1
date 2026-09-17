@@ -1,0 +1,98 @@
+{
+  "document_id": "ING_6a37b2f9c7aa247ebf95",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Geotechnical Report of the Shaft Work in Enasan-Tunnel",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "INOMA, Hidetoshi"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "1975",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "technical_report",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: technical report"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "geotechnical_investigation",
+        "maintenance"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geotechnical_investigation:geotechnical; maintenance:maintenance; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://www.jstage.jst.go.jp/article/jjseg1960/16/3/16_3_150/_article",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.5110/jjseg.16.150",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,1543 @@
+{
+  "claim_count": 39,
+  "claims": [
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 60,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "f1c0ce02eb5fd0abff3fbdefcc4abca11d9e53a17f1566b0af941ccc30a068fa",
+      "chunk_id": "ING_2005c18d2148fb921826_CH_ed4616c196",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_0ba9d471e1f4ac7703d422fee84d67d9ccbfe33de80c91e8d72311376c0b5bcf",
+      "claim_text": "9.4.2.2 Modellerde Kullanılan Geoteknik Parametreler\nDestekleme Elemanları İ çin Program Girdileri Modeller için seçilen bütün kesitlerde standart tip kesitin uygulanmı ş ve aynı destekleme elemanları kullanılmı ş tır. Destek elemanları aynı, fiziksel ve jeolojik ko ş ulları farklı modellerin analizi neticesinde tünel çevresindeki noktaların deformasyon de ğ i ş imleri incelenmi ş tir. Tünel Destek Elemanları Püskürtme Beton ν = 0,2 Çelik İ ksa (I160) ν = 0,3 Kaya Bulonu E = 210 000 000 kPa\n\nPüskürtme Beton & Çelik İ ksa\n\n9.4.2.2 Modellerde Kullanılan Geoteknik Parametreler\n\nÇizelge  9.6'da  verilen  yerinde  kaya  dayanım  parametreleri  verileri  göz  önüne  alınarak, güzergah  üzerinde  bulunan  Kumta ş ı  ve  Siltta ş ı  birimleri  orta  ve  zayıf  kaliteli  olmak  üzere de ğ erlendirilmi ş tir. Bu birimler için seçilen geoteknik parametreler Çizelge 9.16'da verilmi ş tir.\n\nÇizelge 9.16 Hesaplamalara esas geoteknik parametreler\n\n9.5 Tünel Analizleri\n\nKa ğ ıthane  -  Piyalepa ş a  tünellerinin  de ğ i ş ik  kesimlerini  temsil  eden  modeller  üzerinde gerçekle ş tirilen analizler sonucunda tünel çevresinde olu ş ması beklenilen deplasman de ğ erlerinin  kazı  a ş amalarına  ve  farklı  de ğ i ş kenlere  ba ğ lı  olarak  de ğ i ş imi  ayrıntılı  olarak incelenmi ş tir.  Deplasman  de ğ i ş imlerinin  yanı  sıra  Model  1A  için  gerilme  da ğ ılımları  ve iksalara  etkiyen  kuvvetler  belirlenmi ş tir.  Kaya  ortamı  ile  iksa  ve  bulonların  dayanımları kontrol edilmi ş tir.\n\n9.5.1 Model 1A İ çin Yapılan Analizler\n\nGüzergahın  en  sı ğ kesimi  olan  Öztoprak  Sokak  mevkiinden  alınan  bu  kesite  ait  geoteknik parametre de ğ erleri Çizelge 9.17'de, Plaxis modeli Ş ekil 9.8'da verilmi ş tir.\n\nModel 1A Özellikleri\n\nÖrtü kalınlı ğ\n\nı: 15 metre\n\nKaya ortamı: Homojen\n\nModeldeki tünel boyu: 6 metre\n\nJeolojik birim: Kumta\n\nş ı\n\nKaya kalitesi: Orta\n\nKesit kilometresi: 0+580.000\n\nÇizelge 9.17 Model 1A geoteknik parametreleri\n\nŞ ekil 9.8 Model 1A Plaxis modeli\n\nOlu ş turulan modele ait kazı a ş amaları a ş a ğ ıda verilmi ş tir.  Üç  boyutlu  olan  modelde (boy = 6m) ilerleme adımı üst yarı için 1,5 metre alt yarı için 3 metre alınmı ş tır. Böylece dört dilim olu ş turulmu ş tur.",
+      "conditions": [],
+      "document_id": "ING_2005c18d2148fb921826",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_ed4616c196:pages=119-121;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L60",
+      "page_end": 121,
+      "page_start": 119,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q04": "PARTIAL",
+        "2.1.2-Q05": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1",
+        "2.2",
+        "5.9.1",
+        "1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.1.2-Q04",
+        "2.1.2-Q05"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 11,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_2acb6a1bea35571728e7/45438c464500368723dbb2d814a3b979ced5d8b2461754c1b42848249fc9c3c6/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "a471babfc93ac994294db3754935bae7d88acfcf75835c994206f95767aed493",
+      "chunk_id": "ING_2acb6a1bea35571728e7_CH_8c6a6c7609",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_20e914a07c1b426a8ed237a3d79d9b498e505d382d68c66c4732ff0ede166945",
+      "claim_text": "19 Tünel Destek Elemanları\nbir süre stabil kalabilir. Bu sınıflamaya göre belirlenen destek şekilleri Çizelge.3.12'de sunulmuştur. Çizelge 3.12 ÖNORM B 2203 kaya sınıfları için destek sistemleri DESTEK SINIFI DESTEK SİSTEMİ A1 - STABİL KAYA A2- SONRADAN AZ SÖKÜLEN B1-GEVREK B2-ÇOK GEVREK Tavanda, yan duvarlarda ve aynada sistematik destek, gerekirse tavanda süren Tavan, yan duvar ve aynada sistematik destek, lokal olarak süren, altyarı B3-TANELİ C1-BASKILI C2-ÇOK BASKILI C3-AŞIRI BASKILI C4-AKICI C5-ŞİŞEN\n\n18 BULGULAR\n\n19 Tünel Destek Elemanları\n\nTünellerde kullanılan destekleme elemanları genel olarak aşağıdadır.\n\nSürenler\n\nPüskürtme Beton\n\nHasır Çelik\n\nKaya Bulonu\n\nÇelik İksa\n\nÇelik Levha\n\nZemin Çivisi\n\nEnjeksiyon\n\nŞemsiye Kemer Uygulaması\n\nİç Beton Kaplama\n\n20 Sürenler\n\nKazıdan önce tünel kesitinde boyuna yönde desteksiz kazı açıklığının kısaltılması ve aşırı sökülmelerin önlenmesi amacıyla enjeksiyonlu veya enjeksiyonsuz demir çubuk veya çelik boru olarak kullanılan destek elemanlarıdır. Sürensiz kazı Şekil.4.1'de süren\n\nkullanılarak yapılan kazı ise Şekil.4.2'de sunulmuştur.\n\nÇelik iksanın üzerinden yatayla maksimum 5-10 derece açı yapacak şekilde çakılırlar ve sayıları uygulanan destek tipine göre farklılık gösterirler. Uygulamada daha çok 1-1/2\" çapında, 4 m lik borular kullanılır. Sürenler boyuna yönde bindirmeli olarak ilerleme adımının 2-2,5 katı kadar olmalıdır. Klasik süren uygulaması Şekil.4.3'te verilmiştir.\n\nYeni ilerleme adımı için yapılacak süren uygulaması bir önceki adımın desteklemeleri tamamlanmadan yapılmalı ve süren eğimi aşırı kazıyı engelleyecek şekilde yataya yakın olmalıdır. Ayna kazısında süren uygulaması yapılması Şekil.4.4'tedir.\n\nŞekil.4.1.Sürensiz kazı\n\nFREE\n\nSPAN\n\nTHEORETICAL\n\nEXCAVATION\n\nLINE\n\nFOREPOLING\n\nPRACTICAL EXCAVATION\n\nŞekil.4.2 Süren kullanılarak yapılan kazı\n\nŞekil.4.3 Klasik süren uygulaması\n\nŞekil.4.4 Ayna kazısında süren uygulaması\n\n21 Püskürtme beton\n\nPüskürtme Beton; agrega, çimento, su ve priz hızlandırıcı katkı karışımının boru hattı içerisinde basınçlı hava ile taşınıp, püskürtülerek yerleştirilen beton olarak tanımlanmaktadır. Geleneksel betona göre kalıp gerektirmemesi ve özel katkılarla hemen dayanım kazanmaya başlaması gibi özellikleri nedeniyle yer altı mühendislik yapılarında tercih edilmektedir. Şekil.4.5'te hatalı püskürtme beton uygulaması 4.6'da ise doğru uygulama gösterilmiştir.\n\nPüskürtme betona, çekme dayanımını arttırmak için çelik lifler ilave edilebilir. Çelik lif ilavesiyle betonda oluşabilecek çatlaklar önlenmiş olur. Çelik lifler ayrıca püskürtme betonun eğilme dayanımını ve basınç dayanımını da arttırmaktadır. Lifler beton hacminin her noktasına dağıldığından dayanım özelliklerinin her yönde daha üniform olduğu bir malzeme elde edilmektedir.\n\nŞekil.4.5 Hatalı püskürtme beton uygulaması\n\nŞekil.4.6 Doğru püskürtme beton uygulaması\n\nPüskürtme beton kırık ve çatlaklar arasına girerek kayacın yerindeki kayma dayanımını arttırır.\n\nKaya elemanları arasındaki bağlantı düşükse; yüzeye uygulanan püskürtme beton statik bakımdan bir kabuk gibi çalışarak taşıyıcılık sağlar.\n\nÇöken, gevşeyen tabakalara karşı erken direnç göstererek iyi bir kemerleşme sağlar ve dayanımın zamanla artmasıyla gevşemeleri önler, deformasyonları en\n\naza indirir.\n\nKazılan yüzeylerin hava ve su ile temasını keserek yüzey bozunmasını ve gevşemeleri önler.\n\nÇeşitli püskürtme beton uygulamaları Şekil.4.7 ve Şekil.4.8'de verilmiştir.\n\nŞekil.4.7 Püskürtme beton ile tünel cidarının hava ve su ile temasının kesilmesi\n\nŞekil.4.8 Tünelde püskürtme beton uygulaması",
+      "conditions": [],
+      "document_id": "ING_2acb6a1bea35571728e7",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_2acb6a1bea35571728e7:ING_2acb6a1bea35571728e7_CH_8c6a6c7609:canonical=corpus/canonical/objects/ING_2acb6a1bea35571728e7/45438c464500368723dbb2d814a3b979ced5d8b2461754c1b42848249fc9c3c6/chunks/embedding_ready.jsonl#L11",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q19": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2.2",
+        "2.2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q19"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 46,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "830ec0682113662557f9a137a60d2a89128eb08dc9cd70b41c465519e5d6c878",
+      "chunk_id": "ING_7e795b9a47c89f5406c5_CH_5339f89a9f",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_21885976335ca02d24e353d58804a0f10a328d4b6a8fc883c0bf5955cc9a9ab1",
+      "claim_text": "69 Sonlu Elemanlar Yöntemi\nyöntemlere temel olan üç farklı model tanımlanmıştır. Bunlar süreklilik modeli, süreksizlik modeli ve yatak katsayısı modelleridir. Süreklilik modeline uygun sayısal yöntemler; sonlu elemanlar yöntemi, sonlu farklar yöntemi ve sınır elemanlar yöntemidir. Süreksizlik modeline uygun hesap yöntemi ayrık (bölgesel) elemanlar yöntemidir. Yatak katsayısı modeline uygun hesap yöntemi de elastik kiriş elemanlar yöntemidir [24]. Bu tez kapsamında yapılan tünel analizlerinde sonlu elemanlar yöntemi kullanılan PLAXIS 3D TUNNEL programından yararlanılmıştır.\n\n69 Sonlu Elemanlar Yöntemi\n\nSayısal çözüm yöntemlerinden biri olan sonlu elemanlar yönteminin kullanımı, bilgisayar kullanımının artması ile birlikte hızla gelişme göstermiştir. Önceleri sadece yapı analizi için kullanılsa da, günümüzde dayandığı prensipler ve çalışma yönteminin uygunluğu neticesinde tüm mühendislik alanlarında kullanılmaktadır.\n\nYöntemin genel çalışması incelendiğinde; herhangi bir sürekli ortamın sonlu eleman denilen (yani geometrik olarak tanımlı ve boyut olarak sınırlı) parçacıklara bölünmesi esas alınır (Şekil 8.1). Süreksizlikler ise ayrıca modellenebilmektedir. Bu elemanlar birbirlerine düğüm noktası denilen köşe noktalarından bağlıdırlar. Her bir sonlu elemana ait gerçek deplasman değerleri bazı basit fonksiyonlar yardımıyla kurulduktan sonra bu deplasmanların düğüm noktalarındaki değerleri yaklaşık olarak bulunur.\n\nDüşey kesit modeli\n\n2 boyutlu ağ 3 boyutlu model\n\n3 boyutlu ağ\n\ngerilme noktaları\n\n6 dü ğ üm noktalı üçgen\tDüğ üm noktaları\t15 dü ğ üm noktalı kama\n\nŞekil 8.1 Sonlu Elemanlar yönteminde düğüm noktası, gerilme noktaları ve eleman [25]\n\nBir sonlu elemanın davranış denklemi kullanılarak, düğüm noktalarının deplasman değerleri elde edilir. Tüm yapının davranış denklemleri ise yapıyı oluşturan elemanların denge denklemlerinin, elemanlar arasındaki deplasman sürekliliğini sağlayacak şekilde toplanması ile saptanır. Elde edilen bu denklemler bilinen deplasman sınır şartlarını sağlayacak şekilde değiştirildikten sonra ortaya genellikle, bilinmeyen değişkenleri deplasmanlar olan bir lineer cebirsel denklem takımı çıkar. Denklem takımının çözülmesi ile düğüm noktalarındaki deplasmanlar hesaplanmış olur. Bu deplasman değerlerinden türetilen ifadeler yardımıyla şekil değiştirme ve gerilme değerleri elde edilir. Bu çalışmada incelenen tüneller için oluşturulan bir sonlu elemanlar modeli Şekil 8.2'de gösterilmiştir.\n\nŞekil 8.2 Kağıthane-Piyalepaşa Tünelleri\nKm: 0+150 kesimi için oluşturulan sonlu elemanlar modeli\n\nGeoteknik mühendisliğinde geleneksel yöntemlerle çözülemeyen karmaşık problemlerin çözümünde sonlu elemanlar yönteminin kullanımı hızla gelişme göstermiştir. Özellikle tünel mühendisliğinde inşaat kademeleri, değişken zemin tabakaları, zeminin elasto-plastik özellikleri, zemin kaplama ilişkileri ve benzeri özellikler göz önüne alındığında bu yöntemin kullanılmasının büyük avantajları olduğu açıktır.\n\nBu karmaşık problemlerin çözümünün yanı sıra sonlu elemanlar yöntemi; yapının son boyutlarında karara varılmasında, ölçüm tekniklerinden elde edilmiş gözlemsel davranışların değerlendirilmesinde, değişik yükleme ve geometri şartlarının uygulanmasında ve diğer yöntemler ile yapılmış tasarımın güçlendirilmesinde etkili bir şekilde kullanılabilmektedir.\n\nYeni Avusturya Tünel Açma Yöntemi için oluşturulan bir Sonlu Elemanlar Modelinde bazı hususlara dikkat edilmelidir. Bunlar aşağıda sıralanmıştır [24]:\n\nOluşturulan modelin dış sınırlarının bulunan şekil değiştirme, gerilme ve deplasman değerlerini etkilememesi için sınırların tünelden yeterince uzakta olması sağlanmalıdır.\n\nYeraltının bilinmeyen parametreleri, yeraltı ve tünel davranışının karmaşıklığı ve zeminin yapısal denklemlerinin formüle edilmesindeki zorluklar nedeniyle gerçek koşulları modellemek çok zordur. Bütün koşulları detaylı şekilde modellemek ne yararlı ne de mümkün olduğu için basitleştirilmiş bir model kullanılmalıdır. Model basitleştirilmesi şu yaklaşımlardan birini veya birkaçını kullanarak yapılabilir.\n\nÜç boyutlu durumların iki boyutta modellenmesi\n\nBölgesel simetrinin kullanılması\n\nZeminin ve tünel inşa aşamalarının basitleştirilerek modellenmesi.\n\nBugün dünyada kullanılan, birçok genel amaçlı sonlu elemanlar programı vardır. Her programın kendi eleman şekilleri vardır. Programı kullanmadan önce özel yeraltı yapılarına uygun elemanları içerip içermediği incelenmelidir (örneğin: ankraj, tünel kaplaması, geogrid vs...).\n\nYeraltının modellenmesi de, hesap modelinin oluşturulması kadar önemlidir. Aşağıda yaraltı modellenmesi sırasında dikkat edilmesi gereken hususlar sıralanmıştır.\n\nHesap modelinin basitleştirilmesi kavramı yeraltı modeli için de geçerlidir.\n\nAnalizin doğruluğu, çözümün yakınsaklığı ve sayısal hesap sırasındaki\tyuvarlatma\n\nhatalarını en aza indirecek sonlu eleman tipinin ve boyutunun seçilmesine\tdikkat\n\nedilmelidir.\n\nTeknik girişim ile çevre etkileşimi (yeryüzündeki yapılar, altyapı tesisleri vs) modelleme esnasında dikkate alınmalıdır.\n\nYeraltı suyu dolaşımı, su-yapı etkileşiminin modellenmesi, kumlu zeminlerde sıvılaşma riskleri göz önünde bulundurulmalıdır.\n\nDeprem vb dinamik yüklerin modellenmesi dikkatle yapılmalıdır. Göz ardı edilmemelidir.\n\nOrtamı oluşturan mühendislik jeolojisi özelliklerinin (ayrışma durumu, çatlaklılık-kırık durumu gibi süreksizlikler, faylar, kayacın dokusal özellikleri, yerinde kaya dayanım özellikleri) geomekanik büyüklükler ile doğru olarak temsil edilmesi gereklidir.\n\nKazı ilerleme yönüne bağlı olarak tünel aynasında meydana gelecek gerilme ve deplasmanların belirlenmesine yönelik 3 boyutlu analiz yapılmalıdır.\n\nNATM'ın temel prensiplerinden olan kademeli kazı aşamalarının ve esnek destekleme elemanlarının modellenmesi sağlanmalıdır.\n\nUygulanacak olan sağlamlaştırma ve iyileştirme elemanlarının modellenmesi yapılmalıdır.\n\nBu sayısal hesaplamalar neticesinde; yüzeyin, yeraltının ve tünel kaplamasının deformasyonu, zemindeki, kaplamadaki ve zemin ile kaplama arasındaki gerilmeler elde edilir. Elde edilen bu gerilme ve deformasyon değerlerinin tünel inşası sırasında ve daha sonra doğrulanan ölçüm değerleri ile karşılaştırılması neticesinde çeşitli sonuçlara ulaşılır. Bunlar:\n\n• Tünel tasarı m ı ve hesapları nı n do ğ rulanması\n\n• Ölçülen değ erlerin yorumlanması ; hesaplanan değ erler arazide ölçülen değ erlerin önemini belirlemek için bir referans olmaktadır.\n\n• Sayı sal modelin geçerliliğinin kanıtlanması ve kalibrasyonu\n\nModel basitleştirmesinin etkisini öğrenmek ve tasarımında kullanılan malzeme ve zemin parametreleri tahminlerini doğrulamak için modelin onaylanması ve kalibrasyonu çoğunlukla gereklidir. Bu yapılmadan hesap sonuçlarının doğruluğunu belirlemek güçtür.",
+      "conditions": [],
+      "document_id": "ING_7e795b9a47c89f5406c5",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_5339f89a9f:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L46",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q22": "SUPPORTED",
+        "2.1.2-Q23": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q22",
+        "2.1.2-Q23"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 1,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_b011796d9570a6e89619/afef36b83099133b6c9cc351451071fca73351b810c5bd494983eaaedb295afb/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "fdd975c3d659501720755c81958b6197c173d4b54ff46172c4991bb089565b5d",
+      "chunk_id": "ING_b011796d9570a6e89619_CH_96e93be160",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_2688a42bef5d6d741e67574b05fd7c9029f0e49aafcc1df91c7b234df4b1180a",
+      "claim_text": "2. TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ\n\n2.1. Tünel Yapı/Destekleme Elemanları\n\n2.1.1 Tünellerle İlgili Tanımlamalar\n\nYer altında açılan iki tarafı açık kazılara tünel, bir tarafı açık kazılara ise galeri adı verilir.\n\nEngebeli yerlerdeki yol inşaatlarında\n\nBaraj inşaatlarında\n\nMetro inşaatında\n\nHidroelektrik santrallerde\n\nYer altı madenciliğinde tünel ve galeri çalışmaları önemli bir yer tutar.\n\nResim-2.1\n\nTünelde Çalışma\n\nDik açılan yer altı kazılarına kuyu, baca veya şaft denir. Aşağıya eğimli olarak açılan galeriye baş aşağı; yukarıya doğru açılan galeriye ise baş yukarı adı verilir. Yer altında beklenme veya sığınma amaçlı boşluklara oda veya cep adı verilir. Tünelin üzerinde bulunan zemine örtü; bunun kalınlığına ise örtü kalınlığı, kazılarda çıkan malzemeye de pasa denir (\n\nhttps://avys.omu.edu.tr/storage/app/public/mustafa.vekli/70039/14.%20hafta%20(2020-2021).pdf\n\n).\n\nŞekil-2.1'de görüldüğü üzere; tünel boşluğunun alt kısmı “taban/radye”, yan kısımları “yan/ayak/duvar”, üst kısmı “tavan/kemer”, kemerin ayaklarla birleştiği nokta “üzengi ve üzengi seviyesi”, üzenginin üstünde kalan kısım “kalot”, üzengi seviyesinin altında kalan kısım “stros/orta kısım”, tünel üstündeki zemin “örtü”, tünel üstünde yer alan zemin kalınlığı “örtü kalınlığı” ve tünelde bir işlemin yapıldığı, uzunluğu değişken olan parça ise “ano” olarak adlandırılır (https://www.academia.edu/42427564).\n\nŞekil-2.1\n\nTünellere Ait Tanımlamalar\n\n2.1.2 Tünel Destekleme Elemanları\n\nÜlkemizde yaygın olarak kullanılan tünel açma yöntemi NATM olarak bilinen Yeni Avusturya Tünel Açma yöntemidir. Natm yöntemi ile açılan tünellerde kullanılan destekleme elemanlarını birincil destekleme elemanları ve ikincil destekleme elemanları olarak ayırabiliriz.\n\nTünellerde kullanılan birincil destekleme elemanları aşağıda yer almaktadır.\n\nSüren\n\nPüskürtme Beton\n\nHasır Çelik\n\nKaya Bulonu\n\nÇelik İksa\n\nZemin Çivisi\n\nEnjeksiyon\n\nŞemsiye Kemer Uygulaması\n\nTünellerde kullanılan ikincil destekleme elemanları ise aşağıda verilmektedir.\n\nİnvert Betonu\n\nTemel Kiriş Betonu\n\nSu Yalıtımı ve Drenaj İşleri\n\nKaplama Betonu/Kemer Betonu/Nihai Beton\n\nNatm ile inşa edilmiş tipik bir karayolu tüneline ait imalatlar şematik olarak aşağıda yer alan şekilde paylaşılmaktadır.\n\nŞekil-2.2\n\nTipik Karayolu Tüneli İmalatları\n\nTünelde güvenli bir kazı alanı yaratabilmek amacıyla öncelikle aynada süren imalatları tamamlanarak ayna kazısı yapılır.\n\nKazı yapıldıktan sonra birincil destekleme elemanları; püskürtme beton, hasır çelik, çelik iksa, gerek duyulduğu taktirde ikinci kat hasır çelik ve bulon yüzeye sırasıyla uygulanmaktadır. Daha sonra bulon plaklarının kapatılması ve yalıtım için yüzeyin hazırlanması amacıyla tekrar püskürtme beton uygulaması yapılır.\n\nEğer tünel invert betonlu olarak projelendirildiyse daha sonra invert betonu uygulamasına geçilir. Onu takiben temel kiriş imalatı yapılır. Daha sonra kiriş betonu üzerine yan drenaj boruları döşenir. Geotekstil ve membran uygulaması tamamlandıktan sonra nihai beton uygulamasına geçilir. Son olarak kablo kanalı, ana drenaj borusu ve yol üstyapı imalatları yapılır.\n\nBirincil Destekleme Elemanları:\n\nSüren:\n\nKazıdan önce tünel kesitinde boyuna yönde desteksiz kazı açıklığının kısaltılması ve aşırı sökülmelerin önlenmesi amacıyla enjeksiyonlu veya enjeksiyonsuz demir çubuk veya çelik boru olarak kullanılan destek elemanlarıdır.\n\nSürensiz kazı Şekil-2.3'de ve süren kullanılarak yapılan kazı ise Şekil-2.4'de sunulmaktadır. Klasik süren uygulaması ise Şekil-2.5'de gösterilmektedir.\n\nŞekil-2.3\n\nSürensiz Kazı\n\nŞekil-2.4\n\nSürenli Kazı\n\nŞekil-2.5\n\nKlasik Süren Uygulaması\n\nYeni ilerleme adımı için yapılacak süren uygulaması bir önceki adımın desteklemeleri tamamlanmadan yapılmalı ve süren eğimi aşırı kazıyı engelleyecek şekilde yataya yakın olmalıdır. Ayna kazısında süren uygulaması yapılması Resim-2.2’de yer almaktadır.\n\nResim-2.2\n\nAyna Kazısında Süren Uygulaması\n\nPüskürtme Beton:\n\nPüskürtme beton; agrega, çimento, su ve priz hızlandırıcı katkı karışımının boru hattı içerisinde basınçlı hava ile taşınıp, püskürtülerek yerleştirilen beton olarak tanımlanmaktadır. Geleneksel betona göre kalıp gerektirmemesi ve özel katkılarla hemen dayanım kazanmaya başlaması gibi özellikleri nedeniyle yer altı mühendislik yapılarında tercih edilmektedir.\n\nPüskürtme betona, çekme dayanımını arttırmak için çelik lifler ilave edilebilir. Çelik lif ilavesiyle betonda oluşabilecek çatlaklar önlenmiş olur. Çelik lifler ayrıca püskürtme betonun eğilme dayanımını ve basınç dayanımını da arttırmaktadır. Lifler beton hacminin her noktasına dağıldığından dayanım özelliklerinin her yönde daha üniform olduğu bir malzeme elde edilmektedir.\n\nPüskürtme betonun sağlamış olduğu avantajlar aşağıda sıralanmaktadır.\n\nPüskürtme beton, kırık ve çatlaklar arasına girerek kayacın yerindeki kayma dayanımını arttırır.\n\nKaya elemanları arasındaki bağlantı düşükse, yüzeye uygulanan püskürtme beton statik bakımdan bir kabuk gibi çalışarak taşıyıcılık sağlar.\n\nÇöken veya gevşeyen tabakalara karşı erken direnç göstererek iyi bir kemerleşme sağlar. Ayrıca dayanımın zamanla artmasıyla gevşemeleri önleyerek deformasyonları en aza indirir.\n\nKazılan yüzeylerin hava ve su ile temasını keserek yüzeyin bozulmasını ve gevşemeleri önler.\n\nÇeşitli püskürtme beton uygulamaları Resim-2.3’de ve Resim-2.4'de verilmektedir.\n\nResim-2.3\n\nPüskürtme beton ile tünel cidarının hava ve su ile temasının kesilmesi",
+      "conditions": [],
+      "document_id": "ING_b011796d9570a6e89619",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_b011796d9570a6e89619:ING_b011796d9570a6e89619_CH_96e93be160:canonical=corpus/canonical/objects/ING_b011796d9570a6e89619/afef36b83099133b6c9cc351451071fca73351b810c5bd494983eaaedb295afb/chunks/embedding_ready.jsonl#L1",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q01": "PARTIAL",
+        "2.1.2-Q03": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1.2",
+        "2",
+        "5.4",
+        "2.2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q01",
+        "2.1.2-Q03"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 301,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "4bc4d82e1c56dd622af6eff35cba20b17cd19783f35b15861a2f728de5f0f5dc",
+      "chunk_id": "ING_312befcda2ff316b7279_CH_d611f4204e",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_2d5b0b3ac89f4292cff883acb947b251174879f32b1c3cd7165411b80b6573b1",
+      "claim_text": "350.01.08 Tünel Projecisinin Temsilcisi\nsıklıkta kaydedilecektir. Elde edilen kesitlerin kopyaları, mühendiste her zaman bulundurulacaktır. Jeolojik şartlarda ani ve beklenmedik bir değişiklik olması halinde yüklenici, mühendisi ve Tünel Projecisinin temsilcisini derhal haberdar edecektir. Araştırma sondajları yüklenicinin İdare tarafından onaylı jeoloji mühendisinin huzurunda yapılacaktır. Mühendis veya tünel projecisinin temsilcisi de hazır bulunacaktır. Yüklenici, yapacağı her bir araştırma işini uygun bir süre önceden bildirecektir. Komple kapsamlı kayıtlar mühendis tarafından kabul edilinceye kadar tünellere ait tamamlama belgeleri verilmeyecektir.\n\n350.01.08 Tünel Projecisinin Temsilcisi\n\nİdare tarafından onaylanan tünel projecisi, Kısım 350.01.02 'de tanımlanan mühendisi, temsilcisi olarak tünel şantiyesinde görevlendirecektir. Tünel projecisinin temsilcisi tünel çalışmalarının devamı süresince sürekli  olarak  işyerinde  bulunacaktır.  Tünel  projecisinin  temsilcisi,  herhangi  bir  kazı  aynasında  kaya sınıflandırmasının ve uygulanacak desteklemenin, paftalarda gösterilen ve bu kısımda tanımlanan onaylı kazı ve destek sistemlerine göre uygulamasından sorumlu olacaktır. Tünel projecisinin temsilcisi projenin doğru  olarak  uygulanmasını  sağlayacak,  tünel  işlerinin  yapımı  sırasında  tüm  faaliyetleri  izleyecek, tavsiyelerde bulunacak ve yardımcı olacaktır. Şartnameye uygun olmayan imalatları ve yapım metotlarını tünel projecisinin temsilcisi derhal yüklenici ve mühendise rapor edecektir.\n\nTünel  projecisinin  temsilcisi  hem  geçici  hem  de  daimi  tüm  yer  altı  inşaat  işleri  ile  ilgilenecektir. Gerektiğinde portal daimi işleri içerisine katılacak, tünel portallerini oluşturmak için gereken tüm geçici işlerle de ilgilenecektir.\n\nÖlçümleri ve okumaları yapmak, çizim ve diyagramları tünel projecisinin temsilcisi veya mühendisin talimatına  uygun  olarak  hazırlamak  için  yüklenici,  İdarece  onaylanmış  nitelikli  personel  görevlendirecektir. Tünel projecisinin temsilcisi, ölçüm sonuçlarının doğru yorumlanmasından sorumlu olacak, ölçüm ve ayna jeolojik haritalama sonuçlarına göre kazı sınıflarının ve destek sistemlerinin değişmesi gerektiğinde mühendisin ve Araştırma ve Geliştirme Başmühendisliğinin onayını alarak, destek ve yapım uygulaması değişiklikleri hakkında gereken kararları alacaktır.\n\nTüm  okuma,  çizim,  diyagram,  grafik  vb.  kopyaları  mühendise  verilecektir.  Yüklenici,  jeoteknik ölçümlerin ve ölçüm gerektiren tüm diğer işlere ait ölçümlerin kaydedilmesi için mühendis tarafından onaylanacak formları kullanacaktır.\n\nTünel projecisinin temsilcisi, her bir ölçüm istasyonundan elde edilen jeoteknik ölçümlerin yorumlanması ve kararları içeren aylık rapor hazırlayacaktır. Rapor, çalışılan her bir aynada yapılan veya yapılması teklif  edilen  her  tür  değişikliği  içerecektir.  Rapor,  yüklenici  tarafından  ay  sonundan  itibaren  10  gün içerisinde mühendise sunulacaktır.",
+      "conditions": [],
+      "document_id": "ING_312befcda2ff316b7279",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_d611f4204e:pages=200;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L301",
+      "page_end": 200,
+      "page_start": 200,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q44": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2",
+        "2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.4.3",
+      "supporting_question_ids": [
+        "2.1.2-Q44"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 314,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "d2a18218ce5ac2e5bbe36c0b01f148fbbc965dbf97666ec3c6c8518c434e9406",
+      "chunk_id": "ING_312befcda2ff316b7279_CH_2190b0306f",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_38b9225f9b17b51c88ebc02746aa082036a83c8b1e7c1e29b56aafa535bc0193",
+      "claim_text": "350.04.01.04 Gabari Profili\nön destekleme paftalarda gösterilmiştir. Bununla beraber, bekleyen kaya şartlarındaki değişimlerin bir sonucu olarak, her bir destekleme sistemi için paftalarda gösterilen standart ön destekleme sistemlerinde, Tünel Projecisinin Temsilcisinin önerisi, İdare ve mühendisin onayı ile Kısım 350.02.03.01 'e uygun olarak, yapım sırasında tadilat ve ayarlamalar gerekebilir. Yüklenici, destekleme elemanlarının kazılan tüneli çevreleyen kaya kütlesinin ayrışma ve gevşemesini önleyecek tarzda ve sırada monte veya tatbik edilmelerini sağlayacaktır.\n\n350.04.01.04 Gabari Profili\n\n1. Gabari Profili için Kısım 350.05 'e bakınız.\n\n350.04.01.05 Kayıtlar\n\nFiilen  monte  edilen  tünel  desteklemesinin  tüm  özelliklerini  ve  işlerin  devamı  boyunca  performansını ihtiva  eden  kapsamlı  kayıtlar  yüklenici  tarafından  hazırlanacak,  muhafaza  edilecek  ve  mühendise günlük  olarak sunulacaktır. Bu kayıtlar; monte edilen destekleme elemanlarının tip, miktar ve yerini, desteklemenin  montajından  sonraki  gabari  profilini;  standart  destekleme  sistemine  göre  farklılıkları, aşırı  deformasyonlara dair gözlemleri, püskürtme betonu çatlaklarını vb. çalışmaları içerecektir. Aşırı deformasyon, püskürtme betonunda çatlak gözlenmesi halinde tünel projecisinin temsilcisi ile mühendis derhal haberdar edilecektir.\n\nYüklenici her bir ayna pozisyonu şenajını içeren bir kayıt tutacak ve ayna ilerledikçe bu kayıt yenilecektir. Bu kayıt, ilgili aynaya yakın ve uygun bir yerde danışma maksadıyla bulundurulacaktır.\n\nYukarıdaki tüm kayıtlar onay için mühendise günlük olarak sunulacaktır.\n\n350.04.01.06 Ekipman ve Malzeme Temini\n\nYer  altı  desteklemesinin  montajına  ait  herhangi  bir  mekanik  plent  veya  ekipman  belirtilen  işlere performans  bakımından  ve  yürürlükteki  'İşçi  Sağlığı  ve  İş  Güvenliği  Tüzüğü'  bakımından  uygun, ayrıca iş programının üretim şartlarını sağlayacak yeterli kapasitede olacaktır.\n\nYer altı kazı işlerinin devamı sırasında destek montajı için gereken ekipmanın derhal çalışmasını temin için ekipmanın uygun bakımı ve yeterli yedek parçalarının temini sağlanacaktır.\n\nÇalışılan  tüm  aynalarda  destekleme  yapımı  için  gereken  malzemelerin  kesintisiz  ikmali  her  zaman sağlanmış olacaktır. Zayıf zeminlerdeki kazılar için bu ön şartın, tünel yapımı emniyet hususlarıyla kuvvetli bağlantılı olduğu bilinmelidir.\n\nTünel desteklemesinin montajı normal yöntemler ile önlenemeyecek, beklenmedik stabil olmayan kaya şartları, fazla miktarda su akışı gibi acil durumlarda derhal ve etkin bir önlem alınması için gereken malzeme ve ekipmanı yüklenici, her bir tünel kazısında bulunduracaktır.\n\nYüklenici, paftalarda gösterilen kaya sınıflandırmasına uygun ve iş programına göre gereken her bir destekleme elemanını, en az iki hafta süreyle yetecek şekilde şantiyede bulunduracak veya derhal temin edebilecek durumda olacaktır.",
+      "conditions": [],
+      "document_id": "ING_312befcda2ff316b7279",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_2190b0306f:pages=207-208;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L314",
+      "page_end": 208,
+      "page_start": 207,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q05": "PARTIAL",
+        "2.1.2-Q34": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2",
+        "2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.4.3",
+      "supporting_question_ids": [
+        "2.1.2-Q05",
+        "2.1.2-Q34"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 35,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "ac0762e6fcb0214fd09164299968a85cf697e2be510dd641369ee1b5b72f278f",
+      "chunk_id": "ING_7e795b9a47c89f5406c5_CH_2ca4f7e8c9",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_3a4ab93bcb9b8f05e1d0871ca521f2e349b6f3bd4f6f831351427af699de9d0c",
+      "claim_text": "52 Q sistemi İle Destek Basıncı Ve Destek Seçimi Arasındaki İlişki\nönerilen RQD-Sağlamlaştırma ilişkisi verilmektedir. Şekil 5.3 Tünel desteklemesi seçiminde RQD' nin kullanılması Kaya kalitesi Tünel açma yöntemi Alternatif destekleme sistemleri Çelik destekleme (2) Kaya bulonları (3) Püskürtme beton Çok iyi (1) RQD>90 İyi (1) 75<RQD<90 Orta 50<RQD<75 0,6 m aralıklarla orta veya ağır, dairesel kaburgalar Kaya yükü (1,6-2,2)B\n\n52 Q sistemi İle Destek Basıncı Ve Destek Seçimi Arasındaki İlişki\n\nQ sistemi yardımıyla, kaya sınıflandırmasının yanı sıra yeraltı mühendislik yapılarında kullanılacak destekleme tipleri konusunda öneriler yapılabilmektedir. Bu konuyla ilgili açıklamalar Şekil 5.4 de gösterilmiştir [10].\n\nKAYA SINIFLARI\n\nDESTEKLEME KATEGORİLERİ\n\n(D\n\n(2)\n\n(3)\n\n(4)\n\n: Tahkimatsız\n\n: Noktasal kaya civatası, sb :Sistematik kaya civatası, B :Sistematik kaya civatası, (ve donatışız püskürtme beton), 4-10cm, B(+S)\n\n:Lifli Püskürtme Beton (5-9cm) ve Kaya civatası, Sfr+B\n\n:Lifli Püskürtme Beton (12-15cm) ve Kaya civatası, Sfr+B\n\n:Lifli Püskürtme Beton (9-12cm) ve Kaya civatası, Sfr+B\n\n:Lifli Püskürtme Beton (>12cm) ve Kaya civatası, ve çelik iksa, Sfr+RRS+B\n\n:Yerinde Dökme Beton Kaplama, Cca\n\nŞekil 5.4 Q Sisteminde Destekleme Önerileri\n\nSürekli iksasız maksimum proje açıklığı\n\nSürekli iksasız açıklıkların gerçek açıklık sınırları şöyle ifade edilebilir:\n\nAçıklık = 2 * ESR* Q\n\n0.4\n\n/(2*ESR)\t(5.6)\n\nBurada ESR, destek oranıdır. Kazı tipine göre kazı destek oranı şöyledir (Çizelge 5.3)\n\nÇizelge 5.3 Kazı tipine göre kazı destek oranı\n\nKazı Tipi\n\nESR\n\nB.Sürekli maden kazıları, hidrolik enerji amaçlı su tünelleri (yüksek basınçlı cebri\n\nboyutlar hariç), büyük kazılar için pilot tüneller, yarmalar ve aynalar v.s\n\nC.Depolar,su tasfiye tesisleri, küçük yol ve demiryolu tünelleri,\n\ndenge bacaları, yaklaşım tünelleri v.s.\n\nD.Santral binaları, büyük yol ve demiryolu tünelleri,\n\nsivil savunma sığınakları\n\nE. Yer altı nükleer santralleri, fabrikalar,\n\nspor ve kamu tesisleri",
+      "conditions": [],
+      "document_id": "ING_7e795b9a47c89f5406c5",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_2ca4f7e8c9:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L35",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q12": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q12"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 14,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_e3a78fec24c25a09fd74/49443009072fa93059c2a3f482a31f9622aaeeb17ce72929585ab4b6e6e85445/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "7d1c53c0f91125ec60425684deb22e020f5bab3930b25324c0aa040d1de0066e",
+      "chunk_id": "ING_e3a78fec24c25a09fd74_CH_fc95d1dd4a",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_4fed7b088204b7e830d28b0dc98a7258f01256099a8700549da8027f581ffe28",
+      "claim_text": "3.1.1.3. Tünel Açma Yöntemleri\nŞekil 3.9. İzmir Metro Tüneli için önerilen ön sağlamlaştırma ve boru kemer yönteminin ölçeksiz en kesit görünümü (Kun, 2010) Yukarıda zayıf ortam şartlarında tünel açma çalışmalarında destekleme elemanlarından kısaca bahsedilmektedir. Bu destekleme elemanları sayesinde zayıf ortam şartlarının iyileştirilmesi, kaya kalitesinin yükseltilmesi, güvenli kazı sürecinin elde edilmesi amacıyla kazı alanına jet grout ve enjeksiyon gibi iyileştirme yöntemleri de kazının gerçekleştirileceği ortam şartlarına bağlı olarak bireysel veya birlikte uygulanabilmektedir.\n\n3.1.1.3. Tünel Açma Yöntemleri\n\nTünel  açma  çalışmalarının  başlangıç  anından  bitimine  kadar  gerçekleştirilen işlem aşamaları aşağıda olduğu gibi özetlenebilir (Bell, 1994).\n\n Tünel çalışmalarının gerçekleştirileceği bölgenin jeolojik yapısı tespit edilerek, tünelin güzergahı, yeri ve derinliği belirlenmelidir.\n\n Tespit edilen  güzergah  üzerindeki  zeminin  veya kaya tabakasının  yeraltı  su seviyesi,  yapısından  kaynaklı  bozukluklar  (fay,  kırık,  eklem  takımı  vb.)  ve dayanım parametreleri belirlenmelidir.\n\n Buradan  hareketle  kazanılan  deneyimler  ve  yapılan  hesaplamalardan  yola çıkarak  ulaşılan  veriler  ışığında,  kazının  metodu,  kullanılacak  olan  tünel tahkimat elemanları, tünel kazısının kesiti, tünel kazısının gerçekleştirileceği makinenin türü ve ihtiyaç halinde drenaj yöntemleri tespit edilmelidir.\n\n Yapısal bir model tasarlanmalı ve elimizde var olan farklı veriler, farklı türdeki tahkimat elemanları ve farklı zemin şartları kullanılarak oluşturulan modele uygulanmalıdır.\n\n Gerilme  deformasyonlardan  yola  çıkarak  hazırlanan  modelin  güvenirliliği gözden geçirilmelidir.\n\n Tünel açımı ile birlikte yerinde ve sürekli ölçümler paralel olarak yapılmalı ve ulaşılan  deformasyon  değerleri  incelendiğinde  ilerlemeye  ve  zamana  göre değişiklik göstermiyorsa yapıma devam edilmelidir. Şekil 3.10.' da tünel açma çalışmaları esnasında takip edilecek aşamalar kısaca özetlenmektedir.\n\nŞekil 3.10. Tünel açma çalışmaları esnasında izlenecek yol (Bell, 1994 düzenlenerek)\n\nTünel açma ve destekleme çalışmaları kapsamında kullanılan yöntemlerin ortaya çıkma  sebepleri,  gelişim  süreçleri  ve  yöntemler  arasındaki  ilişkilere  bu  bölümde örneklerle değinilecektir.\n\nTünel açma çalışmaları sırasında tercih edilen inşaat yöntemleri her zaman doğal şartlara uygun olmalıdır. Bu sebeple, tünel inşaatı metodu ve tahkimat yöntemi, salt teoriye takılı kalmamalı ve kaya tabakasının değişkenliğine duyarlı olmalıdır. Tünel inşaatı  ve  tahkimatı  konusundaki  fikirler  20.  yüzyılda  3  ana  teknik  ile  ortaya konulmuştur;\n\n 1920' li yıllarda taş ve ahşap gibi malzemeler kullanılan pasif tahkimat tercih edilmiş, sonraki zamanlarda ortaya çıkan yerinde dökme beton ve ağır çelik\n\ntahkimat ile daha büyük tünel boşlukları oluşturma imkanı doğmuş ve tünel açma çalışmalarında yüksek hızla ilerleme kat edilmiştir.\n\n 1960'  lı  yıllarda  özellikle  maden  ve  inşaat  mühendisliği  alanlarında  kaya saplamaları  ve  püskürtme  beton  kullanımı  Yeni  Avusturya  Tünel  Açma Yöntemi' nin ortaya çıkmasını sağlamıştır. Bu metotla daha sonraki zamanlarda hem sığ hem de derin tünellerde önemli gelişmeler elde edilmiştir.\n\n 1990' lı yıllar ve 2000' li yılların başında ise henüz yeni geliştirilmiş olan ön tahkimat  sistemleri  kullanılmaya  başlanmış  ve  bu  durum  ise  zayıf  zemin koşullarında  Yeni  İtalyan  Yöntemi'  nin  kullanılmasına  olanak  tanımıştır (Duffaut, 1996a).\n\nTünelcilik faaliyetlerinin başladığı ilk zamanlardan bu yana yeraltı boşluklarının ve yeraltı açıklıklarının kendilerini desteklemesi, ek olarak hiçbir destek elemanına ihtiyaç duyulmadan gerçekleştirilmiştir. Kemerlenme olarak adlandırılan bu ana ilke, tarih  öncesi  dönemlerde  insanlara,  aşırı  süreksizlik  barındırmaması  şartı  ile  düşük dayanıma sahip kayaçlar içindeki duraylı boşluklarda yaşama imkanı sağlamıştır.\n\nGeçmiş  zamanlarda  kilise  ve  köprüler  için  kendini  destekleme  ilkesine  çatı kemerleri inşaatında ihtiyaç duyulmuştur. Bu kemer türleri, kendisini meydana getiren bloklar, yerine tam olarak yerleştiği taktirde çimentoya ihtiyaç duymadan konumunu koruyabilmişlerdir. Kemerler yapısını meydana getiren elemanların ilerleme sıkışma etkisi sayesinde yerçekimi kuvvetlerini karşılarlar. Yeraltında oluşan yükler ve bu tür üç boyutlu kemerlenmeler doğa aracılığıyla karşılanmaktadır. İnşası gerçekleştirilen kemerler baz alındığında doğru olarak kabul edilen tüm durumlar, yeraltı boşlukları, insanların  kendi  eliyle  açtığı  veya  doğal  olarak  teşekkül  etmiş  tüneller  için  de geçerlidir (Duffaut, 1996b).\n\nEğer kayacın yapısı tünel etrafında oluşacak teğetsel gerilmeleri karşılayacak dayanıma sahip durumda ise ve kötü olarak yönlendirilmiş eklem yüzeylerine sahip değilse  boşluk,  ek  olarak  bir  tahkimata  ihtiyaç  duymaksızın  ayakta  duracaktır. Genişliği  50  metre  civarında  doğal  olan  bu  büyük  boşluklar  günümüzde  bir  hayli\n\n4.\n\nMATERYAL VE  YÖNTEM\n\nMuhammed Şerif YOLUK\n\nyaygındır.  Kendi kendine ayakta kalabilen 400 metre genişliğindeki Malezya' daki Good Luck yeraltı boşluğu şuana kadar bilinen boyut olarak en büyük boşluktur.\n\nKaya  tabakasının  olabildiğince  homojen  olması  halinde  ve  boşluğun  çevresi boyunca kaya dayanımı aşıldığı taktirde boşluğun çevresinde fazla gerilmeyi içeren plastik  halka  tabakası  meydana  gelmektedir.  Plastik  deformasyon  nedeniyle  kaya tabakasına  aktarılacak  yüksek  seviyedeki  hasar,  ince  bir  tabaka  halinde  püskürtme beton uygulamasıyla yani düşük kalınlığa sahip bir tahkimatla önlenebilir.\n\nKaya tabakası çatlaklı bir yapıya sahipse ve hatta zemin malzemesi halinde ise artık kendi kendini taşıyamayacak hale gelir. Bu nedenle kaya tabakasını kuvvetlendirmek  ve  bütün  olarak  bir  arada  tutmak  için  kaya  saplamalarına  veya çimentolamaya ihtiyaç duyulur (Duffaut, 1996b).",
+      "conditions": [],
+      "document_id": "ING_e3a78fec24c25a09fd74",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_e3a78fec24c25a09fd74:ING_e3a78fec24c25a09fd74_CH_fc95d1dd4a:pages=37-41;canonical=corpus/canonical/objects/ING_e3a78fec24c25a09fd74/49443009072fa93059c2a3f482a31f9622aaeeb17ce72929585ab4b6e6e85445/chunks/embedding_ready.jsonl#L14",
+      "page_end": 41,
+      "page_start": 37,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q12": "SUPPORTED",
+        "2.1.2-Q21": "SUPPORTED",
+        "2.1.2-Q34": "PARTIAL",
+        "2.1.2-Q37": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.2",
+      "supporting_question_ids": [
+        "2.1.2-Q12",
+        "2.1.2-Q21",
+        "2.1.2-Q34",
+        "2.1.2-Q37"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 31,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "125251dddd81540d404dd9dc60a0f7b45431b0d535e6dd1251e0916dcc1dd91e",
+      "chunk_id": "ING_7e795b9a47c89f5406c5_CH_9f3955e183",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_50aa8a1ef1a7fa6b48f788b95534f6814d11dc7969edd1724e19ab907e9cdc2e",
+      "claim_text": "43 Sağlamlaştırma ve Destekleme\noturmaların olması duraysızlık kabulü için yeterli olacaktır. Benzer şekilde yerleşimden uzak bir yerde inşa edilen bir tünelde, yeryüzündeki oturmalar duraysızlık olmayacak, tünelde göçüğe neden olabilecek deplasmanlar duraysızlık olarak kabul edilecektir. Duraysızlığın önlenmesi ve-veya giderilmesi için alınan önlemler; • Sağlamlaştırma • Destekleme • İ yileş tirme olarak derlenmekte ve ön, geçici veya kalıcı olarak sınıflandırılmaktadır. Alınabilecek bu önlemler kuvvetler dengesini değiştirebilmekte, gerilme durumunu değiştirebilmekte ya da ortam koşullarını iyileştirebilmektedir [1].\n\n43 Sağlamlaştırma ve Destekleme\n\nKaya sağlamlaştırma (rock reinforcement); bir yeraltı kazı boşluğunun çevresindeki kayanın yük taşıma özelliğini koruması ve duraylılığın arttırılması için kaya bulonları, kablo bulonlar veya herhangi bir kaya sağlamlaştırma elemanının yerleştirilmesi ve kayanın zaten var olan direncinin de harekete geçirilmesidir. Böylece kaya kütlesi “kendi kendini destekler” duruma gelir. Kaya sağlamlaştırma elemanları kaya kütlesinin içerisine yerleştirildiğinden kaya kütlesinin bir parçası haline gelir.\n\nKaya desteklemesi ise; beton kaplama, çelik iksa veya diğer tür mühendislik elemanları kullanılarak kaya kütlesinin hareketlerini kontrol etmektir. Kaya tahkimat elemanları kaya kütlesinin dışında yer alır.\n\nSağlamlaştırma tünellerde duvar ve taban emniyetini sağlamak demektir. Gerek tünellerin kazılması sırasında, gerekse bittikten sonra stabilite ve güvenlik, geçici ve/ veya kalıcı sağlamlaştırma yöntemlerine göre uygulama yapılmasıyla sağlanır. Sağlamlaştırma ve destekleme işlemleri; ön gerilmeli veya gerilmesiz kaya bulonu, çelik hasır, püskürtme beton, çelik iksadan (veya inşaat demirinden yapılmış kafes kirişleri) oluşan dış kabuk ile beton (veya betonarme) kabuktan ibarettir.\n\nNATM' da birincil destekler olarak kullanılan püskürtme beton, hasır çelik ve kaya bulonları kaya kütlesiyle birlikte kompozit bir yapı oluşturmaktadır. Kaya ve destek elemanlarından oluşan bu kompozit sistem tünel çevresinde oluşan basınçların yeniden dağılımını sağlayarak kayanın gevşeme sonucu azalmakta olan dayanımının artmasını sağlamaktadır. Deformasyonlar, kontrollü bir şekilde tünel içinde göçüğe meydan vermeden veya emniyetsiz bir ortam oluşmadan gerçekleşmektedir .\n\nTünellerde sağlamlaştırma iki aşamada gerçekleşmektedir. Geçici sağlamlaştırma kafes donatı, bulonlar, püskürtme beton, tel kafes olup bunların bir veya birkaçının birlikte kullanılmasıyla sağlamlaştırma gerçekleştirilir. Kalıcı sağlamlaştırma ise nihai beton kaplama ve en son yapılacak olan kontakt enjeksiyonları ile oluşturulacaktır. Kaya kendini tutamayacak kadar parçalı ise gerekli görülen desteklerin aralıkları azaltılarak ve süren (ön çakma çubuğu) kullanılarak sağlamlaştırma işlemlerinin emniyetle yapılması sağlanmaktadır. Ayrıca aynanın stabilitesinin sağlanması için aynaya püskürtme beton da atılmaktadır",
+      "conditions": [],
+      "document_id": "ING_7e795b9a47c89f5406c5",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_9f3955e183:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L31",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q37": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q37"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 45,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "f0de3e100c889cde2133f62154b7172ba160a44c042f44990c584667e6a3d213",
+      "chunk_id": "ING_2005c18d2148fb921826_CH_45baea2f5f",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_58127d46284fd0a79a9afbfccf2aae65d565bf35726723cdd11d3d3863e03055",
+      "claim_text": "8.1 Yeni Avusturya Tünel Açma Yöntemine Uygun Hesap Yöntemleri\nyer alan tünel, heyelan sahası vb) gibi özellikler dikkate alınarak ayrılırlar [1]. Ş ekil 7.1'de tünel güzergahı için bir bölgelendirme örne ğ i verilmi ş tir. Ş ekil 7.1 Tünel projelerinde homojen bölgelendirme [2] 68 YEN İ AVUSTURYA TÜNEL AÇMA YÖNTEM İ N İ N ANAL İ Z İ NDE SONLU ELEMANLAR YÖNTEM İ N İ N KULLANIMI VE PLAXIS 3D TUNNEL HAKKINDA GENEL B İ LG İ\n\n8.1 Yeni Avusturya Tünel Açma Yöntemine Uygun Hesap Yöntemleri\n\nYeni  Avusturya  Tünel  Açma  Yönteminde  tüneli  çevreleyen  kaya  veya  zemin  ortamı;  aynı sistemi u  için,  tünelin  açımından  önceki  ve  sonraki  durumu  bir  arada  içeren  bir  hesap ılıklı an  ikincil  gerilme  durumunu  tesbit  edebilmek  için,  birincil  gerilme\n\nzamanda  tünel  yapısına  etkiyen yükü  ve  tünel kaplaması  ile birlikte ta ş ıyıcı olu ş turdu ğ modelinin hazırlanmasını zorla ş tırmaktadır. Kazının ve destek sisteminin kar ş etkile ş mesinden  do ğ durumunun belirlenmesi büyük önem ta ş ır. Bu da heterojen, anizotrop ve süreksiz yapısından dolayı birçok kayaçta oldukça zordur. Tüm bu  hesapların  yapılabilmesi  için  geoteknik  ko ş ullar,  statik  sistem,  hesap,  kazı  ve  iksa yöntemleri, güvenlik kriterleri ve yerinde ölçümler bir bütün olarak ele alınmalıdır. Böylece çe ş itli  a ş amalarda  yapılabilen  kabul  hataları,  ko ş ulların  daha  iyi  belirlenmesi  ve  tecrübe yardımıyla düzeltilebilir. Bu neden NATM'ın en önemli özelliklerinden biridir. Tünelin  kazılmasından  sonra  olu ş acak  gerilme  ve  deformasyonlar  ile  tünel  kaplamalarına gelecek yüklerin belirlenebilmesi için üç yakla ş ım kullanılmaktadır. Bunlar: amprik yöntemler,  analitik  yöntemler  ve  sayısal  yöntemlerdir.  Bu  yöntemler  tek  tek  veya  birlikte kullanılabilirler. Amprik  yöntemler  genellikle  örnek  zemin  veya  kaya  üzerinde  yapılan  ölçümlere  ve  arazi verilerine dayanır. Geçmi ş tünel kazıları ve deformasyon ölçümleri ile kaplama tipi seçimleri incelenerek hesaplamalarda kullanılır. Mühendislik  mekani ğ inde  problem,  basit  elemanlara  ayrılarak  kolay  çözülebilir  e ş itliklerle ifade edilir ve bu e ş itlikler çözülerek analiz edilir. Analitik yöntemler bu tür çözümler üreten analiz yöntemleridir. Karma ş ık ş ekilli kazılarda, kaya kırık zonları olan bölgelerde, simetrik olmayan problemlerde ve izostatik gerilme durumuna uymayan arazi gerilme durumlarında analitik  yöntemler  ba ş arıyla  uygulanamamaktadır.  Bu  tip  problemlerde  çözülmesi  gereken e ş itlik  sayısı  büyük  oranda  artmaktadır.  Bunun  sonucu  olarak  bu  tür  problemler  için  di ğ er\n\nyöntemler geli ş tirilmeye ba ş lanmı ş tır.\n\n69\n\nTünel kazılarının karma ş ık geometrik ve jeolojik biçimlere sahip olması durumunda gerilmeş ekil de ğ i ş tirme analizleri bölgelendirmeyi gerektirir. Bu analiz yöntemleri çok karı ş ıktır ve elle  hesaplanamazlar.  Bu  da  sayısal  yöntemlerin  kullanılmasını  gerektirir.  Sayısal  hesap yöntemleri tünel mühendisli ğ inde kullanılan hesap yöntemlerinin günümüzde tercih edilen en verimli  ve  karma ş ık  grubunu  olu ş turmaktadırlar.  Bu  durumuyla  sayısal  hesap  yöntemleri analitik yöntemlerin ileri bir a ş aması olarak görülebilir.\n\nSayısal  yöntemlere  temel  olan  üç  farklı  model  tanımlanmı ş tır.  Bunlar  süreklilik  modeli, süreksizlik modeli  ve  yatak  katsayısı modelleridir. Süreklilik  modeline  uygun  sayısal yöntemler;  sonlu  elemanlar  yöntemi,  sonlu  farklar  yöntemi  ve  sınır  elemanlar  yöntemidir. Süreksizlik  modeline  uygun  hesap  yöntemi  ayrık  (bölgesel)  elemanlar  yöntemidir.  Yatak katsayısı modeline uygun hesap yöntemi de elastik kiri ş elemanlar yöntemidir [24].\n\nBu tez kapsamında yapılan tünel analizlerinde sonlu elemanlar yöntemi kullanılan PLAXIS 3D TUNNEL programından yararlanılmı ş tır.",
+      "conditions": [],
+      "document_id": "ING_2005c18d2148fb921826",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_45baea2f5f:pages=85-86;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L45",
+      "page_end": 86,
+      "page_start": 85,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q22": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2.1",
+        "2.2",
+        "5.9.1",
+        "1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.1.2-Q22"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 3,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_9fea1e259f10c9d371f0/58b79d5b5f1958aa4fccdd19986430a69bd4ff45d41cb8458a57234c8901c4a3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "4398a78fe9a9698d20c2f33e5d84409318a2ab9d0c291986cd5fa849a3ab01f4",
+      "chunk_id": "ING_9fea1e259f10c9d371f0_CH_dfa84773e1",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_584e1e084d3903cf3ea601eb795069eeb0499216b7771f0174f5a02eae0af788",
+      "claim_text": "Karayolları Genel Müdürlüğünde > Portal bölgeleri\nyapımına esas teşkil eden projedir.) 1/1000-1/2000'lik ( eksenin 250 m sağı, 250 m solunu kapsayacak şekilde) mühendislik jeolojisi haritasının hazırlanması Jeolojik modelin oluşturulması Jeoteknik modelin jeoteknik profilin oluşturulması (kaya sınıflamaları) Tünelin geometrisinin (güzergah ve tip kesitinin) kesinleştirilmesi Tünel kazı ve destekleme sisteminin boyutlandırılması (nümerik analizler) Portal kesimde yapılacak şev kazılarının ve portal yapılarının projelendirilmesi KESİN PROJE İÇİN YAPILACAK ARAŞTIRMA ÇALIŞMALARINDA ÖNCELİKLİ OLARAK GÖZ ÖNÜNE ALINAN BÖLGELER\n\nPortal bölgeleri\n\nTünel\tüzerinde\tgenelde\tzayıf\tzemin/kaya\tkoşullarının\tolduğu\tsığ\törtü kalınlığının bulunduğu kesimler\n\nDerin kırılma, sık eklem ve ayrışma potansiyeli olan kaya/zemin birimleri Su taşıyıcı zonlar, akifer özelliği olan litolojiler\n\nFay zonları ve özellikleri\n\nUyumsuzluk yüzeyleri ve şişme potansiyeli olan düzeyler\n\nTÜNEL KAZI DESTEK TİP PROJELERİNİN OLUŞTURULMASI\n\nKaya sınıflarına bağlı olarak kazı sisteminin ve birincil destekleme elemanlarının (püskürtme beton, çelik hasır, çelik iksa, süren, bulon v.b.) ve ikincil destekleme elamanlarının (kaplama betonu) boyutlandırılması\n\nTünel projelerinin tünel kazı ve destekleme sisteminin yerinde nasıl uygulanacağı Kazının aşamalandırılması\n\nBirincil destekleme elemanlarının doğru ve zamanında yerleştirilmesi Birbirini izleyen kazı ve ilerleme adımlarının belirtilmesi\n\nKazı ve destekleme sırasında yapılacak geoteknik ölçüm ve araştırma çalışmalarıyla kaya sınıflarına bağlı olarak hangi tip kazı destekleme sistemi ve teknik işlerin yapılacağının belirlenmesi\n\nÜlkemiz tünel tasarımları için de çeşitli uluslararası yükümlülükleri de karşılamak durumundadır.\n\nAvrupa Birliği’nin Avrupa Parlamentosu ve Konseyi tarafından “Trans-Avrupa Yol Ağındaki Tüneller İçin Asgari Güvenlik Gereksinimleri” yönergesi 2004 yılında yürürlüğe girmiştir.\n\nBu yönerge çerçevesinde, Karayolu ağı üzerinde hizmet verecek olan tünellerin asgari güvenlik gereksinimlerine ilişkin proje ölçütlerinin belirlenmesi ilgili rapor ve ekleri 08–03–2005 tarihinde yürürlüğe konulmuştur. Söz konusu yönerge ve ölçüt belirleme raporu tünellerin asgari güvenlik gereksinimlerini detaylı olarak vermektedir.\n\nAyrıca Tehlikeli Maddelerin Karayolu İle Taşınması Hakkındaki Yönetmelik hükümleri gereği Avrupa Birliği tarafından da kullanılmakta olan ve ADR (International Carriage of Dangerous Goods by Road) adı verilen Tehlikeli Maddelerin Karayollarında Taşınması Mevzuatı ile ilgili çalışmalar devam etmektedir.\n\nBu çalışma kapsamında tehlikeli maddeler sınıflandırılarak hangi maddeleri taşıyan araçların hangi tünellerden geçmesine izin verileceğine ilişkin risk analizlerinin yapılması, uygun güzergahların belirlenmesi ve oluşabilecek herhangi bir kaza, yangın vb. tehlikeli durumlar için alınması gereken önlemler de bulunmaktadır.\n\nYapım Aşamasında;",
+      "conditions": [],
+      "document_id": "ING_9fea1e259f10c9d371f0",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_9fea1e259f10c9d371f0:ING_9fea1e259f10c9d371f0_CH_dfa84773e1:canonical=corpus/canonical/objects/ING_9fea1e259f10c9d371f0/58b79d5b5f1958aa4fccdd19986430a69bd4ff45d41cb8458a57234c8901c4a3/chunks/embedding_ready.jsonl#L3",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q25": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.4",
+      "supporting_question_ids": [
+        "2.1.2-Q25"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 298,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "41f088fc89ffc27b9dc54fb84713c7547147bffd6bee4ae36de8f59289ace6c8",
+      "chunk_id": "ING_312befcda2ff316b7279_CH_138bcd52d1",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_591c2b2b65f22ee6729f1da205850eca8c2563afdacd58e3f1f513821bfa4352",
+      "claim_text": "350.01.04 Jeolojik ve Jeoteknik Bilgiler\ntürlü olumsuzluklar, uygunsuzluklar bütün masrafları kendisine ait olmak üzere yüklenici tarafından giderilecektir. Kazı sırasında karşılaşılan kaya ve kaya kütlesi şartlarına ait bir belgeleme sağlamak üzere yüklenicinin nitelikli jeoloji mühendisi tarafından jeolojik haritalama yapılacaktır ( Kısım 350.11.04 , 'Ekler' bölümüne bakınız). Alın şevi ve yan şevlerin desteklenmesi ile işin açık yarma kesimi içerisine uzayabilecek herhangi koruyucu güvenlik önlemleri dahil olmak üzere tünel girişlerindeki tüm işler, onaylı projesine göre yapılacaktır.\n\n350.01.04 Jeolojik ve Jeoteknik Bilgiler\n\nİlgili  paftalarda  sunulan  ve  raporlarda  açıklanan  Jeolojik-Jeoteknik  bilgiler,  tünel  güzergâhı  boyunca Tünel  Projecisi  tarafından  yapılmış  jeolojik  haritalama,  jeofizik  araştırmalar,  sondaj  ve  laboratuvar çalışmalarını içeren araştırmaya dayanan mevcut Jeolojik-Jeoteknik bilgi düzeyini temsil etmelidir.\n\nJeolojik-jeoteknik  raporlarda  sunulan  bilgiler  aşağıda  belirtilen  çalışmaların  sonuçlarının  birlikte değerlendirilmesine dayanmaktadır;\n\nYüzey  jeolojisi çalışmaları (jeolojik harita alımı, süreksizlik ölçümü,  problemli kesimlerin ayıklanması, yüzey ve yer altı suyu koşullarının belirlenmesi vb.),\n\nAraştırma gözlem çukurları,\n\nJeofizik araştırmalar,\n\nSondaj, basınçlı su testi, pressiyometre, inklinometre vb. ile laboratuvar deneyleri.\n\nYapılmış  haritalama  ve  diğer  arazi  deneyleri  bu  bilgileri  tamamlamaktadır.  Yapım  sırasında  ihtiyaç duyulabilecek  ilave  araştırma  çalışmaları,  mühendis  ve  İdare  tarafından  onaylanması  şartıyla  yüklenici tarafından yapılacaktır.\n\nBu kısım; tünel kazısı sırasında karşılaşılan kayanın süreksizlik, ayrışma, bozuşma, dayanım koşulları ile su durumunu içeren ve kayanın stabilitesi açısından bir kaya sınıflandırma sistemini tanımlamaktadır. Bu amaca yönelik olarak tünel kazı aynasındaki kaya koşulları Kaya Kütle Kalitesi (Q) ve Kaya Kütle Sınıflaması (RMR) sistemine göre kaya sınıflarının belirlenmesi amacıyla, yüklenici tarafından tünellerin içerisinde  her  ilerleme  adımında  kullanılacaktır.  Bu  kaya  sınıfları,  yapılacak  deformasyon  ölçümleri ile  birlikte  değerlendirilerek  kazı  (her  türlü  kaya  kazısı,  zemin  kazısı,  yapay  malzeme  vb.)  ve  destek sisteminin tespit edilmesinde kullanılacaktır.\n\n350.01.05 Yapım Metodu\n\nTünel işleri, NATM uygulaması ile ilgili tüm prensiplere dayanılarak yapılacaktır.\n\nBu kısımda yer alan şartlar, bu özel tünel açma metoduna ait tüm ana yapım detaylarını kapsamaktadır. Ancak genel yapım kavramından ve işin yürütülmesiyle ilgili doğacak sonuçlardan yüklenici sorumludur.\n\nYapımın tüm safhalarında tünel projecisinin  temsilcisi  ile  mühendis  arasında  yakın  bir  koordinasyon olması  gerekmektedir.  Tünel  kazı  ve/veya  destek  sisteminde  yapılacak  değişiklik  teklifi  veya  tünel yapımıyla  ilgili  herhangi  başka  konu  hakkındaki  herhangi  bir  değişiklik  teklifi  mühendis  tarafından onaylanacaktır. Bu onaylama yüklenicinin proje ve tünellerin yapımıyla ilgili sorumluluğunu ortadan kaldırmaz.\n\nYapım, yüklenicinin tecrübeli personeli ve kalifiye denetleyici kadrosu tarafından yürütülecektir. Aynada görevlendirilmelerinden  önce  anahtar  personele  yazılı  yetki  verilmesi,  yer  altı  işlerinde  tecrübesiz\n\npersonele yeterli eğitimin verilmesi gerekmektedir. Ancak bunlardan, genel yapım kavramından ve işin yürütülmesiyle ilgili doğacak sonuçlardan yüklenici sorumludur.\n\nTünel  işlerinin  yapımı  sırasında,  devamlı  olarak  havalandırma,  aydınlatma  ve  drenaj  sağlanacaktır. Havalandırma;  uluslararası  emniyet  standartlarında  belirtilen  ve  gerekli  kılınan  minimum  şartları karşılayacaktır.",
+      "conditions": [],
+      "document_id": "ING_312befcda2ff316b7279",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_138bcd52d1:pages=199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L298",
+      "page_end": 199,
+      "page_start": 199,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q04": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2",
+        "2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.4.3",
+      "supporting_question_ids": [
+        "2.1.2-Q04"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 4,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_136f634f80c52397bef3/4c78ff143ce1ebec89cb2b9f72385f9d72f16753de24c64647d486e2d45970dd/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "08271ae500e362f24fa17db4e81b07cd06386875c5d48b80a0db104829a185ff",
+      "chunk_id": "ING_136f634f80c52397bef3_CH_08d603133d",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_598fb879668a3174d86e990a4d5a7f64a75cd9304da744db4f2fb9f40bb3332f",
+      "claim_text": "2. Tünelcilikte Destek  Sistemlerinin  Görgül Olarak Belirlenmesi\nJeolojik Dayanım İndeksi (GSI) ise ilk defa Hoek vd. (1995) tarafından önerilmiştir. Q, RMR, RMi ve GSI sistemleri zaman içinde revize edilerek günümüzdeki şeklini almışlardır. Ayrıca, destek tipinin kazı sırasında belirlenmesinde Yeni Avusturya Tünel Açma Yöntemi (NATM) sistemi de yaygın olarak kullanılmaktadır. Bu metotta diğer sistemler gibi kesin önerilmiş destek elemanları yerine kullanılması gereken destek elemanlarının türü belirtilmiş olup, destek elemanı sistematiği uygulayıcılar tarafından belirlenmektedir.\n\n2. Tünelcilikte Destek  Sistemlerinin  Görgül Olarak Belirlenmesi\n\nTünelcilikte ön destek sistemlerinin belirlenmesinde temeli puanlama metoduna dayanan RMR, Q ve RMi sistemleri yaygın olarak kullanılmaktadır.  Bu  sınıflamalarda  puanlamalar genel olarak kaya malzemesinin mekanik özellikleri, süreksizliklerin özellikleri ve su durumuna göre yapılmakta ve elde edilen sonuca göre  ön  destek  sistemi  belirlenmektedir.    Yaygın olarak kullanılan bu sistemlerinin avantajları yanında dezavantajları da vardır.\n\nBu görgül sınıflama sistemlerinin avantajları maddeler halinde sıralanacak olursa:\n\n Kaya kütleleri sınıflandırılırken, girilen veriler sistematik olarak tanımlandığından saha araştırmalarının kalitesi daha da artmaktadır.\n\n Bu sınıflamalarda nicel bir değerlendirme yapıldığından kişisel değerlendirmelere kıyasla daha güvenilir sonuçlar elde edilmektedir.\n\n Sınıflandırma, her kaya kütlesinin kilit parametreleri için bir kontrol listesi oluşturmaktadır. Diğer bir deyişle, kaya kütlesinin tanımlanması sürecini yönlendirmektedir.\n\n Sınıflandırma,  tasarım  amaçlı  nicel  bilgilerle sonuçlanmakta  ve  bir  proje  üzerinde  daha  iyi mühendislik  kararı  ve  etkili  iletişim  imkânı sağlamaktadır (Bieniawski, 1993).\n\n Nicel bir sınıflandırma, belirli bir projede sağlıklı mühendislik yargısı için  uygun  ve etkili  iletişim  sağlamaya  yardımcı  olmaktadır (Hoek, 2007).\n\n Kaya kütlesinin kalitesi ve mekanik özellikleri arasındaki ilişkiler kaya kütlesinin deformasyon, dayanım veya şişme özelliklerini belirlemek ve tahmin etmek için de kullanılabilmektedir.\n\nDezavantajları bakımından ele alındığında;\n\n Tek bir sınıflama sisteminden elde edilen sonuçların  diğer  sistemler  ile  karşılaştırmadan kullanılması, analitik ve gözlemsel tasarım metotlarını göz ardı etmekte ve projedeki olası duraylılık problemlerini önleyememektir.\n\n Kaya  kütlesi  sınıflama  sistemlerinin,  üzerinde geliştirildikleri veri  tabanından  kaynaklanan sınırlamaların tam olarak anlaşılmadan kullanılması durumunda güvenilir sonuçlar elde edilememektedir (Bieniawski, 1993).\n\n Elde edilen sonuçlarının yanlış değerlendirilmesi  veya  kullanılması  gerçekçi\n\nolmayan  destek  seçiminin  yapılmasına  neden olabilmektedir.\n\n Sınıflandırma sistemlerinin yardımıyla belirlenen destek sisteminin gerçekçiliğinin, uygulamaya geçilmeden önce test edilememesi zorluklara  veya  duraylılık  problemlerine  yol açabilmektedir.\n\n Kaya kütle sınıflama sistemleri tarafından önerilen destek elemanlarına (püskürtme beton, kaya bulonu, vb) ait teknik özelliklerin (püskürtme beton dayanımı, kaya bulonu çapı ve dayanımı) tanımlanmamış olması nedeniyle tasarım sırasında güçlüklerle karşılaşılabilmektedir.\n\nÖn destek tasarımın uygulama aşamasındaki güvenirliliği, son yıllarda sıklıkla kullanılan sayısal analizler yardımıyla test edilmektedir.  Bu konuda  yapılan  çalışmalarda  (Geniş  vd.,  2007; Gürocak  vd.,  2007;  Gürocak,  2011;  Kaya  vd., 2011;  Kaya  ve  Bulut,  2013,  Kanık  vd.,  2015; Yalçın vd., 2016, Kaya ve Sayın, 2017) RMR, Q ve RMi gibi görgül sınıflamalar ve sayısal analizler birlikte kullanılmış ve destek tasarımında ampirik ve sayısal yöntemlerin bütünleştirilmesinin önemi ortaya konulmaya çalışılmıştır.  Görgül  olarak  belirlenen  ön  destek sistemlerinin güvenirliliğinin sayısal yöntemler ile analiz edilmesi, daha gerçekçi destek sistemlerinin belirlenebilmesine imkân tanımaktadır.\n\nBu çalışmanın amacı, görgül sistemler tarafından önerilen  püskürtme  beton  dayanımının  derinlikle olan  ilişkisini  ortaya  koymaktır.  Nitekim  görgül sistemler destek sistemi olarak püskürtme betonu önermekte ancak uygulanacak püskürtme betonun dayanımı hakkında herhangi bir öneride bulunmamaktadır. Bu nedenle, uygulama sırasında genellikle 30 MPa  dayanıma sahip püskürtme beton kullanılmaktadır. Ancak, duraylılığı sağlamak amacıyla artan kazı derinliği ile birlikte püskürtme beton dayanımının da artırılması gerekliliği düşünüldüğünde, kazı derinliği ile püskürtme beton dayanımı arasındaki ilişkinin önemli olduğunu söylemek mümkündür.\n\nGünümüze kadar püskürtme beton tasarımı konusunda farklı araştırmacılar tarafından yapılmış  bir  çok  çalışma  bulunmaktadır  (Wood vd., 1993; Kirsten, 1992; Beauprè vd., 2005; Badr ve  Brooks,  2008;  Patel  vd.,  2012;  Barros  vd., 2014;  NIOSH,  2014;  Zhang,  2014;  Mohajerani vd., 2015; Badr, 2016). Bu çalışmalar genel olarak püskürtme betonun tasarımı ve dayanımının artırılması  konusundadır.  Artan  kazı  derinliği  ile püskürtme  betonun  dayanımının  ne  kadar  olması\n\ngerektiği konusunda yapılmış herhangi bir çalışma bulunmamaktadır.\n\nBu  çalışmada,  kazı  derinliğinin  püskürtme  beton dayanımı  üzerindeki  etkisini  incelemek  amacıyla sayısal analizlerden yararlanılmış ve bu etki ortaya  çıkarılmaya  çalışılmıştır.  Bu  amaçla,  en yaygın olarak kullanılan görgül yöntemlerden birisi  olan  RMR89  sistemine  ait  kaya  sınıfları dikkate alınmıştır.\n\nGörgül bir kaya kütle sınıflama sistemi olan RMR Sınıflama Sistemi, ilk kez 1972-1973 yılları arasında yapılan çalışmalar sonucunda Bieniawski (1973)  tarafından  geliştirilmiştir.  Sınıflamaya  ait parametreler  ve  bu  parametrelere  ait  puanların belirlenmesi konusunda yine Bieniawski tarafından 1989 yılında yapılan öneriler ile modifiye  edilen  RMR  sınıflaması  (RMR89),  son olarak  2014  yılında  yapılan  değişiklikler  (Celada vd.,  2014)  ile  son  halini  almıştır.  Yaygın  olarak kullanılması ve kabul edilmiş olması sebebiyle bu çalışmada RMR sisteminin 1989 versiyonu tercih edilmiştir.\n\nRMR14'ün  önerilmesinden  önce  uzunca  bir  süre kullanılan RMR89 sistemi aşağıdaki girdi parametrelerini kullanmaktadır;\n\n Kayacın  tek eksenli basınç dayanımı  veya nokta yükü dayanım indeksi,\n\n Kaya kalitesi göstergesi (% RQD)\n\n Süreksizlik ara uzaklığı\n\n Süreksizliklerin  durumu  (devamlılık,  açıklık, pürüzlülük, dolgu ve bozunma)\n\n Yeraltı suyu durumu\n\nRMR73 versiyonunda dayanım, RQD ve süreksizlik ara uzaklığı için yapılan değerlendirmeler  aralıkların  sınır  değerlerini  de kapsamaktaydı ve bu durum uygulamada hatalara sebep olmaktaydı. Bu üç parametrenin daha hassas  puanlanabilmesi  için  Bieniawski  (1989), ISRM (1981) tarafından önerilen tanımlama ölçütlerini esas alınarak çeşitli abaklar geliştirilmiştir.",
+      "conditions": [],
+      "document_id": "ING_136f634f80c52397bef3",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_136f634f80c52397bef3:ING_136f634f80c52397bef3_CH_08d603133d:pages=2-3;canonical=corpus/canonical/objects/ING_136f634f80c52397bef3/4c78ff143ce1ebec89cb2b9f72385f9d72f16753de24c64647d486e2d45970dd/chunks/embedding_ready.jsonl#L4",
+      "page_end": 3,
+      "page_start": 2,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q19": "SUPPORTED",
+        "2.1.2-Q21": "SUPPORTED",
+        "2.1.2-Q24": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2.1.2",
+        "2"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q19",
+        "2.1.2-Q21",
+        "2.1.2-Q24"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:STRUCTURED_DOCUMENT",
+      "canonical_line_number": 34,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_6ec633413efc464ce241/f1ddc69562fa2e2219140afd7830ab3b954305d781c366b4666942d115c215b8/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "6dd9df588cedb73f1e7b5bf2ec33b79fb5b3b8299c32d23a0f0b67c67e16a8dc",
+      "chunk_id": "ING_6ec633413efc464ce241_CH_75013709b4",
+      "chunk_type": "SLIDE_CHUNK",
+      "claim_id": "CLM_648674279f6b8534000ae1187a3466364d9f8b264831148223bca5358b984800",
+      "claim_text": "Tünelde mevcut uygulanmış olan destekleme sistemine bakıldığında, yerinde karar verilerek, yer yer ilave bulon desteklemesi uygulanmıştır. Fakat buna rağmen deformasyonların tolerans sınırlarını aşması engellenememiştir. Aşırı deformasyonlara bağlı olarak sol tüp Km: 30+756 – 30+763 kesiminde göçük meydana gelmiş, ve tünel tavan kesiminde göçüğe bağlı olarak oluşan boşluk, beton ile doldurulmuştur.",
+      "conditions": [],
+      "document_id": "ING_6ec633413efc464ce241",
+      "evidence_level": "STRUCTURED_DOCUMENT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_SLIDE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_6ec633413efc464ce241:ING_6ec633413efc464ce241_CH_75013709b4:pages=68;canonical=corpus/canonical/objects/ING_6ec633413efc464ce241/f1ddc69562fa2e2219140afd7830ab3b954305d781c366b4666942d115c215b8/chunks/embedding_ready.jsonl#L34",
+      "page_end": 68,
+      "page_start": 68,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q37": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1.2",
+        "2.4.1",
+        "2"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": 68,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q37"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:STRUCTURED_DOCUMENT",
+      "canonical_line_number": 5,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7f177b472ed62ef80108/72ef01fc60eb101417976d371f154842e5a45aa6a41c838e696a8bc32540360c/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "9f50a3fc14d19ac0075117ddd996d28b477627470beb91cb2e3f3d8729a7cc76",
+      "chunk_id": "ING_7f177b472ed62ef80108_CH_60708e239d",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_697a00ab18de2866b5bb2420030ec8c8ac02cacb8d21aad494a82d60b1df44dc",
+      "claim_text": "YAPIM A Ş AMASINDA TÜNELLERDE YAPILAN JEOTEKN İ K ÇALI Ş MALAR\namalarda uygulanan destek elemanlar ı n ı ve kaya ortam ı n ı n elastik veya plastik davran ı ş lar ı n ı say ı salla ş t ı rabilmekte ve tünel destekleme tasar ı m ı nda önemli yer tutmaktad ı r. Ancak jeolojik ortam ve jeoteknik özelliklerin çok detayl ı ortaya konulmas ı gereklidir. SUNUM ADI TÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR VE ÇÖZÜM ÖNER İ LER İ\n\nTünellerde Destek Sistemleri ve Radyal De ğ i ş imler Aras ı ndaki Elastik  ve Plastik Deformasyon İ li ş kisi\n\nTünellerde Destek Sistemleri ve Radyal De ğ i ş imler Aras ı ndaki Elastik  ve Plastik Deformasyon İ li ş kisi\n\nTünellerde Destek Sistemleri ve Radyal De ğ i ş imler Aras ı ndaki Elastik  ve Plastik Deformasyon İ li ş kisi\n\nTünellerde Radyal De ğ i ş imlerin Gösterimi\n\nKARAYOLLARINDA TÜNELC İ L İ K\n\nKARAYOLLARINDA TÜNELC İ L İ K\n\nYAPIM A Ş AMASINDA TÜNELLERDE YAPILAN JEOTEKN İ K ÇALI Ş MALAR\n\n JEOLOJ İ K HAR İ TALAMA VE MÜHEND İ SL İ K JEOLOJ İ S İ ÇALI Ş MALARI\n\n Jeolojik Haritalama Formu\n\n Mühendislik Jeolojisi Verilerinin Tutulmas ı\n\n Jeomekanik Özelliklerin Ortaya Konulmas ı\n\n Q ve RMR Kaya S ı n ı flar ı n ı n Tespit Edilmesi\n\n JEOTEKN İ K ÖLÇÜMLER\n\n Deformasyon Ölçüm İ stasyonlar ı n ı n Olu ş turulmas ı\n\n İ ki ve Üç Boyutlu Deformasyon Ölçümleri\n\n Hassas Ölçüm Aletleri İ le\n\n Ekstansometreler İ le\n\n Yüzey Deformasyon ve Oturma Ölçümleri (S ı ğ Tünellerde)\n\n NATM Kaya S ı n ı f ı n ı n Belirlenmesi\n\n UYGULAMA PROJES İ N İ N KONTROLÜ, REV İ ZE VE EK ÖNLEMLER İ N DE Ğ ERLEND İ R İ LMES İ\n\n N İ HA İ DESTEKLEMEN İ N YAPILMASI\n\nTÜNELLERDE YAPILAN JEOTEKN İ K ÇALI Ş MALAR\n\nSUNUM ADI\n\nTÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR  VE ÇÖZÜM ÖNER İ LER İ",
+      "conditions": [],
+      "document_id": "ING_7f177b472ed62ef80108",
+      "evidence_level": "STRUCTURED_DOCUMENT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_7f177b472ed62ef80108:ING_7f177b472ed62ef80108_CH_60708e239d:pages=17-26;canonical=corpus/canonical/objects/ING_7f177b472ed62ef80108/72ef01fc60eb101417976d371f154842e5a45aa6a41c838e696a8bc32540360c/chunks/embedding_ready.jsonl#L5",
+      "page_end": 26,
+      "page_start": 17,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q04": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1.2",
+        "2.4.1.2",
+        "5.9.1",
+        "2.1",
+        "2.2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.4.1",
+      "supporting_question_ids": [
+        "2.1.2-Q04"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 140,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "af2b0b4ad9aed79389b4671bfd671c06ba1ac25ce76d9d0dff1556fd5f732c4e",
+      "chunk_id": "ING_2005c18d2148fb921826_CH_2f7b286904",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_6c40dc13aebcae3725fcc54531d43d0b61d35aab4596eb719a434c5caec9aa8b",
+      "claim_text": "5.2.2 RQD Sistemi İ le Destek Basıncı Ve Destek Seçimi Arasındaki İ li ş ki\nTablo: Çizelge 5.2 RQD' ye ba ğ lı olarak kaya tünellerinde (6m-12m arası) tavsiye edilen destekleme\nÇizelge 5.2 RQD' ye ba ğ lı olarak kaya tünellerinde (6m-12m arası) tavsiye edilen destekleme\n\n | Tünel açma.Tünel açma | Alternatif destekleme sistemleri.Çelik destekleme (2) | Alternatif destekleme sistemleri.Kaya bulonları (3) | Alternatif destekleme sistemleri.Püskürtme beton\n\nÇok iyi (1) RQD>90 | Tünel açma mak. | Gerek yok.Kaya yükü (0,0-0,2)B | Gerek yok | Gerek yok\n\nÇok iyi (1) RQD>90 | Delme-patl. | Gerek yok. Kaya yükü (0,0-0,3)B | Gerek yok | Bazı bölgelerde gerekirse 5-8 cm kalınlıkta\n\nİ yi (1) 75<RQD<90 | Tünel açma mak. | Gerekirse 1,52-1,83 m aralıklı hafif kaburgalar. Kaya yükü (0,0-0,4)B | Gerekirse 1,52- 1,83 m aralıklı bulonlar | Bazı bölgelerde gerekirse 5-8 cm kalınlıkta\n\nİ yi (1) 75<RQD<90 | Delme-patl. | 1,52-1,83 m aralıklı hafif kaburgalar. Kaya yükü (0,3-0,6)B | 1,52-1,83 m aralıklı bulonlar | Bazı bölgelerde 5-8 cm kalınlıkta\n\nOrta 50<RQD<75 | Tünel açma mak. | 1,52-1,83 m aralıklı orta büyüklükte kaburgalar. Kaya yükü (0,4-1,0)B | 1,22-1,83 m aralıklarla bulonlar | Tavanda 5-11 cm kalınlıkta\n\nOrta 50<RQD<75 | Delme-patl. | 1,22-1,52 m aralıklı hafif ya da orta büyüklükte kaburga. Kaya yükü (0,6-1,3)B | 0,9-1,52 m aralıklarla bulonlar | Tavan ve yan duvarlarda 11 cm veya daha fazla kalınlıkta\n\nZayıf 25<RQD<50 | Tünel açma mak. | 0,9-1,22 m aralıklı yarım daire kaburgalar. Kaya yükü (1,0-1,6)B | 0,9-1,52 m aralıklı bulonlar | Bulonlarla birlikte tavan ve yanlarda 11-15 cm kalınlıkta\n\nZayıf 25<RQD<50 | Delme-patl. | Orta büyüklükte veya a ğ ır kaburgalar. Kaya yükü (1,3-2,0)B | 0,6-1,22 m aralıklı bulonlar | Bulonlarla birlikte 15 cm veya daha kalın tavan ve yanlarda\n\nÇok zayıf RQD<25 (Kabarma basıncı olmayan ortamlarda) | Tünel açma mak. | 0,6 m aralıklarla orta veya a ğ ır, dairesel kaburgalar Kaya yükü (1,6-2,2)B | 0,6-1,22 m aralıklı bulonlar | Orta büyüklükte kaburgalar ile birlikte kesit boyunca 15 cm veya daha fazla püskürtme beton\n\nÇok zayıf RQD<25 (Kabarma basıncı olmayan ortamlarda) | Delme-patl. | 0,6 m aralıklı a ğ ır kaburgalar. Kaya yükü (1,6-2,2)B | 0,9 m aralıklı bulonlar | Orta büyüklükte veya daha a ğ ır kaburgalarla birlikte, kesit boyunca 15 cm veya daha kalın\n\nÇok zayıf ( ş i ş en kaya ortamı) | Tünel açma mak. | 0,6 m aralıklı çok a ğ ır, dairesel kaburgalar. Kaya yükü >76,2 m | 0,6-0,9 m aralıklı bulonlar | A ğ ır kaburgalarla birlikte tüm kesit boyunca 15 cm veya daha kalın\n\nÇok zayıf ( ş i ş en kaya ortamı) | Delme-patl. | 0,6m aralıklı çok a ğ ır, dairesel kaburgalar. Kaya yükü >76,2 m | 0,6-0,9 m aralıklı bulonlar | A ğ ır kaburgalarla birlikte, tüm kesit boyunca 15 cm veya daha kalın",
+      "conditions": [],
+      "document_id": "ING_2005c18d2148fb921826",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_2f7b286904:pages=63;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L140",
+      "page_end": 63,
+      "page_start": 63,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q11": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1",
+        "2.2",
+        "5.9.1",
+        "1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.1.2-Q11"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 10,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_161788a110d058683acf/5cb85878be1dae0f938171c330c10b98270684b3e4355791318c17f05261c935/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "1671b3d2c38cfada93cef2d7be8741a725a0abd34db66b52da2b86a1e3013ee3",
+      "chunk_id": "ING_161788a110d058683acf_CH_a777f355cc",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_73d01ca84265e776cf78dec38b980e889fc4c76579f4fa8fb39f5f369c3c7e1a",
+      "claim_text": "Kaynaklar\nsınıfı için bu mesafeler zemine göre revize edilmelidir. Aksi takdirde tünellerin birbirine olan etkisi tünel destek sistemlerinin stabilitesi üzerinde olumsuz etki yapacaktır. Zayıf zeminlerde açılan tünellerde iç kaplama betonu tünelde deformasyonların sönümlenmesinden hemen sonra yapılmalıdır. Aksi takdirde oluşacak olan şişme ve sıkışma basınçları uzun dönemde dış kaplamanın stabilitesini olumsuz etkileyecektir. Zayıf zeminlerde yapılacak olan iç kaplama uzun dönemde oluşabilecek olan şişme ve sıkışma basınçlarınıda karşılacak düzeyde olmalıdır. Bu bölgelerde iç kaplama donatılı olarak yapılmalıdır.\n\nKaynaklar\n\nAygar, E. B. 2000. Yeni Avusturya tünelcilik yöntemine eleştirel bir yaklaşım. [master tezi]. [Ankara]:Hacettepe University\n\nAygar,  E.B.  2007.  Bolu  Tüneli  duraylılığının  satik  ve  dinamik  analiz yöntemleriyle  incelenmesi.  [doktara  tezi].  [Ankara]:  Hacettepe University.\n\nAygar, E.B. 2020. Evaluation of new austrian tunnelling method applied to bolu tunnel's weak rocks. Journal of Rock Mechanics and Geotechnical Engineering 12 (2020) 541-556.\n\nAygar, E.B. 2021a. An evaluation on causes behind the bolu tunnel collapse following the 12 November 2 1999 düzce earthquake: seismic action or inadequate tunnel support capacity, in Reviewer.\n\nAygar,  E.B.  2021b.  An  assessment  on  problems  encountered  during tunneling in graphitic schists,  in Reviewer.\n\nAygar,  E.B.,  Gokceoglu,  C.  2020.  Problems  encountered  during  a  railway tunnel excavation in squeezing and swelling materials and possible engineering measures: a Case study from turkey. Sustainability. 12, 1166, https://doi.org/10.3390/su12031166.\n\nAygar,  E.B.  Gokceoglu  C.  2021a.  Evaluation  of  collapsed  zone  in  t24 tunnel (ankara-istanbul high speed railway project, turkey). Euroengeo. 3rd European Regional Conference of IAEG.\n\nAygar,  E.B.,  Gokceoglu,  C.  2021b.  A  special  support  design  for  a  large-span tunnel crossing an activefault (t9 tunnel, ankara-sivas high-speed railway project, turkey). Environmental Earth Sciences, 80 (1), 37, https://doi.org/10.1007/s12665-020-09328-1.\n\nAygar, E.B., Gokceoglu, C. 2021c. Analytical solutions and 3d numerical analyses of a shallow tunnel excavated in weak ground: a case from turkey. International Journal of Geo-Engineering. 12 (1), 9, DOI: 10.1186/s40703-021-00142-7.\n\nAygar,  E.B.,  Gokceoglu,  C.  2021d.  Evaluation  of  collapse  mechanism and portal interaction of a high-speed railway tunnel (t29 Tunnel, turkey). Eurock 2021.Torino.\n\nBarla, G. 2002. Tunnelling mechanics tunnelling under squeezing rock conditions tunnelling mechanics - advances in geotechnical engi-\n\nneering and tunnelling (pp.169-268) chapter: 3 publisher: P.O.Box 1675 Editors: D. Kolymbas.\n\nBarla, G. 2016. Full-face excavation of large tunnels in difficult conditions.  Journal  of  Rock  Mechanics  and  Geotechnical  Engineering, (2016) 294-303.\n\nDalgıç, S. 2002. Tunneling in squeezing rock, the bolu tunnel, anatolian motorway. turkey. Engineering Geology.\n\nGeoconsult ZT GmbH. 1998. Bolu tunnel geological longitudinal profile along left tube as built conditions, asarsuyu portal to elmalık portal.\n\nGeoconsult ZT GmbH. 2002. Anatolian motorway stretch-2 bolu tunnel by-pass rock support class distribuiton.\n\nGoel,  R.K.,  Jethwa,  J.L.,  Paithakan,  A.G.  1995.  Tunnelling  through  the young Himalayas - a case history of the Maneri-Uttarkashi power tunnel. Engrg. Geol., 39, pp. 31-44.\n\nHoek, E. 2001. Big tunnels in bad rock, The 36th Karl Terzaghi lecture. Journal of Geotechnical and Geo-environmental Engineering, A.S. C.E., 127(9), 726-740.\n\nHoek, E. 2007. Practical Rock Engineering, p 341, https://www.rocscience.com/assets/resources/learning/  hoek/Practical-Rock-Engineering-Full-Text.pdf.\n\nHoek, E. 2012. Rock Support Interaction analysis for tunnels in weak rcok masses,  https://www.rocscience.com/documents/pdfs/rocnews/winter2012/Rock-Support-Interaction-Analysis-for-Tunnels-Hoek.pdf.\n\nHoek, E., Marinos, P. 2000. Predicting tunnel squeezing. Tunnels and Tunnelling International. Part 1 - November 2000, Part 2.\n\nItasca, 2002. Flac3d User Manual Getting Started.\n\nJethwa, J. L. 1981. Evaluation of rock pressures in tunnels through squeezing ground in lower himalayas. PhD thesis.Department of Civil Engineering. University of Roorkee,India, 272.\n\nKGM (General Directorate of Highways). 2013. Technical specifications of general directorate of highways.\n\nLettis,  W.  &  Asssociates Inc.,  A.Barka, 2000. Geologic Characterisation of Fault Rupture Hazard, Gümüşova-Gerede Motorway project report.\n\nLunardi, P. 2000a. The underground as a resource and reserve for new spaces; adec-rs as an effective tool to be able to realize them (part 1). Proceedings of the Bindi R, Cassani G World Tunnel Congress 2014 - Tunnels for a better Life. Foz do Iguaçu, Brazil.",
+      "conditions": [],
+      "document_id": "ING_161788a110d058683acf",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_161788a110d058683acf:ING_161788a110d058683acf_CH_a777f355cc:pages=10;canonical=corpus/canonical/objects/ING_161788a110d058683acf/5cb85878be1dae0f938171c330c10b98270684b3e4355791318c17f05261c935/chunks/embedding_ready.jsonl#L10",
+      "page_end": 10,
+      "page_start": 10,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q38": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.2",
+        "2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.1.2-Q38"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 58,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "4159b263374bcc616e32fa6e3e0c50e028d33cbb81b9b129d43554878ef054a1",
+      "chunk_id": "ING_7e795b9a47c89f5406c5_CH_5b72c6f487",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_7661309b743944f7dc62458ebbbc83e62745db9c959894e2181dad9e441fe4d3",
+      "claim_text": "95 Program Girdileri (Input Data)\nteorisine göre yapılmıştır. Plaxis 3D Tunnel Programı hesaplamalarını kademeli inşaat (stage construction) prensibine göre yapmaktadır. Hesap adımları genel olarak; birincil gerilme durumunun oluşturulması, sol tüp üst yarı kazısı, sol tüp üst yarı desteklemesi, sol tüp alt yarı kazısı, sol tüp alt yarı desteklemesi, sağ tüp üst yarı kazısı, sağ tüp üst yarı desteklemesi, sağ tüp alt yarı kazısı ve sağ tüp alt yarı desteklemesi şeklinde ifade edilebilir.\n\n95 Program Girdileri (Input Data)\n\nPlaxis tünelde kullanılan püskürtme beton ve çelik iksa gibi destekleme elemanlarını\n\nplate\n\nadı verilen bir eleman türü olarak kabul etmektedir. Bunlar aynı kesitte yer alması durumunda ayrı ayrı tanımlanamadığı için, püskürtme beton ve çelik iksanın rijitlik parametreleri ayrı ayrı hesaplanmakta ve toplamları plate özelliği olarak programa verilmektedir.\n\nBu elemanlar için program girdileri aşağıda sıralanmıştır.\n\nE: malzeme elastisite modülü kN/m\n\n2\n\nh = malzeme kalınlığı\n\nb = birim mesafe (programda sabit olup, 1 metre olarak alınmakta)\n\nA = h.b\n\nBulonlar için A, bulonun kesit alanıdır.\n\nI:Atalet momenti I=(bxh\n\n3\n\n)/12\n\nw (weight) = Y malzeme X h\n\nv: malzeme poisson oranı\n\nd=((12EI)/(EA))\n\n1/2\n\nolup program tarafından hesaplanmaktadır\n\n96 Destekleme Elemanları İçin Program Girdileri\n\nModeller için seçilen bütün kesitlerde standart tip kesitin uygulanmış ve aynı destekleme elemanları kullanılmıştır. Destek elemanları aynı, fiziksel ve jeolojik koşulları farklı modellerin analizi neticesinde tünel çevresindeki noktaların deformasyon değişimleri incelenmiştir.\n\nTünel Destek Elemanları\n\nPüskürtme Beton\n\nKalınlık h = 25 cm = 0,25 m\n\nE = 15 000 000 kPa\n\nA = b X h = 1 X 0,25 = 0,25 m\n\n2\n\nI = b.h\n\n3\n\n/ 12 = 0,25\n\n3\n\n/ 12 = 0,00130 m\n\n4\n\nEA = 15 000 000 X 0,25 = 3 750 000 kN/m\n\nEI = 15 000 000 X 0,00130 = 19531,25 kNm\n\n2\n\n/m\n\nv = 0,2\n\nY = 24 kN/m\n\n3\n\nw\n\n=\n\n24 X 0,25 = 6 kN/m/m\n\nÇelik İksa (I160)\n\nh = 16 cm = 0,16 m\n\nE = 210 000 000 kPa\n\nA = 22,8 cm\n\n2\n\n= 0,00228 m\n\n2\n\nI = b.h\n\n3\n\n/ 12 = 0,16\n\n3\n\n/ 12 = 0,000341 m\n\n4\n\nEA = 210 000 000 x 0,00228 = 478 800 kN/m EI = 210 000 000 x 0,000341 = 71 680 kNm\n\n2\n\n/m\n\n= 0,3\n\n= 78,5 kN/m\n\n3\n\nw\n\n=\n\n78,5 x 0,16 = 12,56 kN/m/m\n\nKaya Bulonu\n\nE = 210 000 000 kPa\n\nd = 26 mm (026) = 0,026 m\n\nA = n (d/2)\n\n2\n\n) = 3,14 x (0,026/2)\n\n2\n\n= 0,000531 EA = 210 000 000 x 0,000531 = 111 495,12 kN/m\n\nPüskürtme Beton & Çelik İksa\n\nEAtoplam = EApb + EAiksa = 3 750 000 + 478 800 = 4 228 800 kN/m\n\nEItoplam = EIpb + EIiksa = 19531,25 + 71 680 = 91 211,25 kNm\n\n2\n\n/m\n\nwtoplam = 6 + 12,56 = 18,56 kN/m/m\n\nVort = 0,25",
+      "conditions": [],
+      "document_id": "ING_7e795b9a47c89f5406c5",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_5b72c6f487:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L58",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q03": "PARTIAL",
+        "2.1.2-Q22": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q03",
+        "2.1.2-Q22"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 114,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1f2620af18f727fc650f/599203f07b7416f2a5811748da836b3d4d375ab3f9ca2a31377c78e78d795d8c/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "db569ca31c06c1d9b9baec3d80afe926124bcd8c393cb9a0aeef7db83fc58353",
+      "chunk_id": "ING_1f2620af18f727fc650f_CH_dd740d3cdc",
+      "chunk_type": "SLIDE_CHUNK",
+      "claim_id": "CLM_7adcad5732a616686d287857e2da0676bd7aeb1253c4ad0e7d324adcceb349c8",
+      "claim_text": "KONTROL MÜHENDİSİ GELİŞTİRME KURSU\n\nPratik olarak Q, RMR, GSI ışığında belirlenen NATM Kazı Kaya Sınıfı’na göre ampirik destek önerilmektedir. Jeoteknik tasarım aşamasında önerilen bu destek sistemi sayısal çözümlemelerle netleştirilmelidir.\n\nNATM yönteminde tünel duraylılığı, çevre kayaç üzerine gelen gerilmelerin kontrollü bir şekilde rahatlatılmasıyla sağlanır. Bu şekilde çevre kayaçlar, güçlendirme elemanlarının da yardımı ile, karmaşık bir yükleme yönteminden kendi kendini destekleyen bir destek sistemine dönüşür ve kalıcı destekler üzerine gelecek olan yükler azaltılmış olur.",
+      "conditions": [],
+      "document_id": "ING_1f2620af18f727fc650f",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_SLIDE_CHUNK"
+      ],
+      "locator": "ING_1f2620af18f727fc650f:ING_1f2620af18f727fc650f_CH_dd740d3cdc:pages=153;canonical=corpus/canonical/objects/ING_1f2620af18f727fc650f/599203f07b7416f2a5811748da836b3d4d375ab3f9ca2a31377c78e78d795d8c/chunks/embedding_ready.jsonl#L114",
+      "page_end": 153,
+      "page_start": 153,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q24": "SUPPORTED"
+      },
+      "secondary_section_ids": [],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": 153,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.1.2-Q24"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:STRUCTURED_DOCUMENT",
+      "canonical_line_number": 31,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_c736114ad7d9ac29557c/7744ed55e644a8175f2f9544108036932ffe4bf83d5f91d408c1327b2dae6358/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "1135da9792c468980cd3e89894fb86be350198b7542ff00bc5505fbeb5355a4f",
+      "chunk_id": "ING_c736114ad7d9ac29557c_CH_887e92e077",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_8142ab4911f73023b8f5fe6575c10cc75ddfe9e8c328c41c8ae235255eff2d0b",
+      "claim_text": "NATM uygulamas ı örne ğ i\nÇelik\nPüskürtme\nSaplama\niksa\ninvert\nHasır\nBeton PB\nSN BIon\nQ188/188\nΦ26,3m\n10 cm C 25\nI 120 + 5 cm PB\n(221/221)\nQ188/188,\n12 adet işBAN\nI 120,\nHER ZAMAN\n15 cm PB\nA2\nGEREKTIČIND E\nHER\nGEREKTiČINDE\nZAMAN\nHER\nB1\nZAMAN\nB2\nHER ZAMAN\nB3\nDÜNYADA VE TÜRKIYEDE TÜNELCILIK\nTÜRKiYE TÜNELCiLiK SEMiNERÍ / 13 Haziran 2013– M. VARDAR\nBu görsel, bir tünelin farklı kesit bölümlerine göre uygulanan destek sistemlerinin koşullarını renk kodlu bir tablo halinde göstermektedir.",
+      "conditions": [],
+      "document_id": "ING_c736114ad7d9ac29557c",
+      "evidence_level": "STRUCTURED_DOCUMENT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_c736114ad7d9ac29557c:ING_c736114ad7d9ac29557c_CH_887e92e077:pages=36;canonical=corpus/canonical/objects/ING_c736114ad7d9ac29557c/7744ed55e644a8175f2f9544108036932ffe4bf83d5f91d408c1327b2dae6358/chunks/embedding_ready.jsonl#L31",
+      "page_end": 36,
+      "page_start": 36,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q49": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.2"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.1.2-Q49"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 349,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "e1f6ea3c28c81d998c04f01670ad05bbd09f8fab9a61de8d0b2c11db17591610",
+      "chunk_id": "ING_312befcda2ff316b7279_CH_825e27fd08",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_834b19cf224d69708ec69a384d23aa83ba267afe2777813cf65306e6de507704",
+      "claim_text": "350.06.01.03.03 Ek Yerlerinin Deneye Tabi Tutulması\nbağlanacaktır. Montaj gayesi ile membranda herhangi bir delinmeye müsaade edilmeyecektir. Su yalıtım membranı, varsa uyarı tabakası içeriye gelecek şekilde ve betonlama sırasında aşırı gerilmeye maruz kalmasını önlemek üzere yeterli gevşeklikte serilecektir. Bitişik su yalıtım tabakaları çift kaynakla birleştirilecektir. Tünel yan duvarlarının tabanı boyunca membran, paftalarda gösterildiği üzere, yan drenaj borularını örtecek şekilde yeteri kadar uzatılacaktır. Su tutuculara bağlantılar ve açık yarmalardaki yapıların yalıtımlarına bağlantıları, imalatçısı tarafından hazırlanan paftalara göre yapılacaktır.\n\n350.06.01.03.03 Ek Yerlerinin Deneye Tabi Tutulması\n\nTüm ek yerleri deneye tabi tutulacak ve bu deneylere ait kayıtlar yüklenici tarafından mühendise sunulacaktır ( Kısım 350.07.01.03 'e bakınız).\n\n350.06.01.03.03.01 Ek Yerlerinin Basınçlı Hava ile Deneye Tabi Tutulması\n\nSu yalıtım membranı bitişik tabakaları arasındaki ek yerleri, çift kaynaklı eklerle teşkil edilmiş deney kanalına basınçlı  hava  pompalanarak,  geçirimsizlik  açısından  deneye  tabi  tutulacaktır.  Başlangıçta  deney  basıncı  5 dakikalık bir deney süresi için 2 bar veya 10 dakikalık bir deney süresi için 1,5 bar olacaktır. Hava basıncı kaybının her iki halde de % 20'den daha fazla olmaması halinde ek yeri su geçirmez kabul edilecektir.\n\n350.06.01.03.03.02 Vakum Ekipmanı ile Ek Yerleri Deneyi\n\nÖzel teşkil edilen ek yerleri veya yerel onarımlar gibi sınırlı ebattaki membran kısımlarının deneylerinde vakum ekipmanı  kullanılabilir.  Bu  ekipman,  deneye  tabi  tutulacak  alana  sıkıca  oturtulduktan  sonra  membrandaki sızıntıları tesbit etmek için havası pompayla boşaltılan bir vakum çanından ibarettir.\n\n350.06.01.03.04 Koruyucu Önlemler\n\nMontaj sırasında veya montajdan sonra su yalıtım membranının zarar görmemesi için her türlü dikkat sarf edilecektir.  Herhangi  bir  hasar  olması  halinde,  nihai  beton  kaplamanın  yapılmasından  önce  onarılacak  ve deneye tabi tutulacaktır.\n\n350.06.02 Daimi Yer altı Suyu Drenajı\n\nBu madde, tünellerde daimi yer altı suyu drenaj sisteminin montaj ve bakımını ele almaktadır. Yapım sırasında, boyuna yer altı suyu drenaj sisteminin dizayn kotundan daha aşağıda yer altı suyuna rastlanması halinde bunu çözümlemek üzere ayrıca bir daimi drenaj sistemi dizayn edilecektir.",
+      "conditions": [],
+      "document_id": "ING_312befcda2ff316b7279",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_825e27fd08:pages=222;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L349",
+      "page_end": 222,
+      "page_start": 222,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q33": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2",
+        "2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.4.3",
+      "supporting_question_ids": [
+        "2.1.2-Q33"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 12,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_f63fb62709dcfc717cf0/7023735c6b5ba1aeb3ba6f3314113976c25ec14417819e197329dbcb9d520058/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "eec0788151fd3d84cffc627842712bbd0c9738e5f86191c5003470d814e74bd8",
+      "chunk_id": "ING_f63fb62709dcfc717cf0_CH_fb9bbedf29",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_841a0b29b5668eea4becdc26dbf17c6d0b41e46eed77b6659cb29699f85f36bf",
+      "claim_text": ".. > 419 > C□ST TREND 197 □-19B3\n?rı STEEL SETS Bunlara karşılık dezavantajları; Mekanik tünel açma ve otomat ize edilmiş kaplama yöntemlerine karşı, daha yavaş olması İşçi, mühendis ve jeo.logların bu metod da çok tecrübeleri o)ması lnşaat kontrolünün ve jeoteknik ölçümlerin daha yoğun olması Tecriıbeler artıkça ekonomik avantajların da yükselttiğini alttaki diagram gösteriyor. Bu gelişmenin diğer fatörleride, daha derin ön araştırmalar, titiz planlama, _claha sarih ihale dökümanları ve makine ve iksa malzemelerindeki gelişmelerdir.\n\nC□ST TREND 197 □-19B3\n\n(EXCAVATIDN\tSUPPDRT)\n\nCDSTS C10 3 A s Jrrı )\n\n150\n\nRCJC::K MASS C::LASS\n\nı\n\nil\n\n100\t.\t.\n\n\"+'_\n\n•iVil\n\n♦\t.\n\n--.o.  -------\n\n\"'\tv\n\n0\t..\t·-:---.\n\n--0--0\t♦.. ♦\t--;--_\n\n·-·\n\n50\t-\n\n40\n\n\"--;-·\n\no   -♦♦  -\to    ♦\t♦\n\n\"·\t-------.-\n\n:m\n\n1\n\n====- -•\t;\n\n_: :..  :\n\n;=-\n\n-.\n\n-L_\n\n:_\n\n20\n\n1\n\n• --•-o :ı--o-===\n\n00\n\n197 □ 71 72 73 74 75 76 77 7B 79 B□ B1 B2 B3\n\n10\tYEAR\n\n'12. TUNNE:l.5; TOTAL l.E:NGTH :32. KM\n\nekil 17\n\nSONUÇLAR\n\nBurada değişik ybntemler kısaca açıklanmış, uygulanabildikleri yerler belirtilmiştir.   Ancak   her   bir   yöntemin   yararları   ve  sakıncaları    olduğu için her hangi bir yöntemi seçip, bu en iyisidir denilemez.\n\nEn uygun  ve  ekonomik  çözümü  elde  etmek  için  her  bir kullanımın  ayrı ayn  ele  alınması  gereklidir.   Tiınel   inşaatlarında   maliyetin  %70-%80'i   kazı ve iksalardan  doğmaktadır.Ne  yazıkki  bu  ağır  maliyet· oranı  ne kadar  derin iyi\tbir\tzemin\taraştırması\tol ursa\tol sun,\tyinede\tbilinmeyen\tbazı",
+      "conditions": [],
+      "document_id": "ING_f63fb62709dcfc717cf0",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_f63fb62709dcfc717cf0:ING_f63fb62709dcfc717cf0_CH_fb9bbedf29:canonical=corpus/canonical/objects/ING_f63fb62709dcfc717cf0/7023735c6b5ba1aeb3ba6f3314113976c25ec14417819e197329dbcb9d520058/chunks/embedding_ready.jsonl#L12",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q20": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.4",
+        "5.6"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.1.2-Q20"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 9,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_e3a78fec24c25a09fd74/49443009072fa93059c2a3f482a31f9622aaeeb17ce72929585ab4b6e6e85445/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "d4dd46abd7d80ffe17dd4238ddc51a4cf292dd43c596b76b320b9748b35dc932",
+      "chunk_id": "ING_e3a78fec24c25a09fd74_CH_0451268dbf",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_8c34cc6df2142b2c1f293e68757dba0fb4efd533b9e23ebb875df3f5b42d7127",
+      "claim_text": "Püskürtme Beton\nzamanlarda tünelcilik anlamında bilimsel çalışmaların yoğunlaşması ve ortaya konulan sonuçlardan hareketle tünel inşaatında klasik destek elemanlarına (püskürtme beton, hasır çelik, çelik iksa vb.) ek olarak boru kemer, kaya bulonları, ayna çivileri ve sürenler tercih edilmektedir. Belirtmiş olduğumuz bu ek destek elemanları tünel için ön görülen risk faktörleri dikkate alındığında yalnız, birlikte veya enjeksiyon teknikleri ile entegre olarak kullanılmaktadır. Buradan hareketle tünel inşaatında kullanılan destekleme elemanlarının işlevlerine aşağıda özetle değinilmektedir.\n\nPüskürtme Beton\n\nPüskürtme  beton;  kuru  veya  ıslak  olarak  kazı  yüzeyine  pompa  yardımıyla püskürtülerek  yapıştırılabilen  ve  farklı  alanlarda  kullanıma  açık  olan  (Şekil  3.2.  ve Şekil  3.3.)  bir  destek  elemanıdır.  Püskürtme  beton  uygulaması  kayalar  arasındaki boşlukları  doldurarak  sökülme  ve  dağılmalara  engel  olan,  tünel  kesiti  etrafındaki kayanın kazı alanı içerisine doğru hareket etmesini (gevşemesini) önleyen ve tünelin kazı  yüzeyine  yakın  kısımlarındaki  zemin/kayanın  kesme  dayanımını  arttıran  bir uygulamadır. NATM metoduna göre bir defada fırlatılan püskürtme beton dolgunluğu 20  cm'  yi  aşmamalıdır.  Püskürtme  beton  uygulaması,  tünel  kazısının  akabinde meydana gelebilecek deplasman ve gerilmelerin bir bölümünü önler.\n\nPüskürtme betonun kazı yüzeyine tatbik edilmesinde yaş ve kuru olmak üzere iki  metodunda  avantaj  ve  dezavantajları  göz  önüne  alınmaktadır.  Kuru  olarak  kazı yüzeyine  tatbik  edilen  püskürtme  beton,  su  miktarının  yoğun  olduğu  ortamda bekletilmemelidir ve uygulama esnasında ıslak kum tercih edilmemelidir. Yaş olarak kazı  yüzeyine uygulanan püskürtme beton ise bir üniteden özdeşleşmiş bir karışım olarak elde edildiğinden, elverişsiz şartlarda ve uygulandığı kazı  yüzeyi üzerindeki etkisi bakımından daha elverişli sonuçlar ortaya koymaktadır.\n\nKuru metot  ile  kazı  yüzeyine  püskürtme  beton  uygulaması;  uygun  maliyetli, küçük  ölçekli,  küçük  kapasiteli  bir  uygulama  iken  yaş  metot  ile  kazı  yüzeyine püskürtme beton uygulaması; yüksek verimli, daha büyük ölçekli ve iletim mesafesi kısıtlı olan bir uygulama metodudur. Çizelge 3.2' de çeşitli araştırmacılar tarafından ileri  sürülen  zayıf  ortam  koşulları  için  püskürtme  beton  parametreleri  aşağıda verilmektedir.\n\nŞekil 3.2. Püskürtme betonun tünelin üstyarı kazısına uygulanması (Atasoy, 2010)\n\nŞekil 3.3. Püskürtme betonun tünelin altyarı kazısına uygulanması (Atasoy, 2010)\n\nÇizelge 3.2. Tünel yapımında farklı araştırmacılar tarafından zayıf kaya tabakalarının tespit edildiği hallerde tavsiye edilen püskürtme beton kalınlığı (Torunoğlu, 2008 düzenlenerek)",
+      "conditions": [],
+      "document_id": "ING_e3a78fec24c25a09fd74",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_e3a78fec24c25a09fd74:ING_e3a78fec24c25a09fd74_CH_0451268dbf:pages=28-30;canonical=corpus/canonical/objects/ING_e3a78fec24c25a09fd74/49443009072fa93059c2a3f482a31f9622aaeeb17ce72929585ab4b6e6e85445/chunks/embedding_ready.jsonl#L9",
+      "page_end": 30,
+      "page_start": 28,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q19": "SUPPORTED",
+        "2.1.2-Q26": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.2",
+      "supporting_question_ids": [
+        "2.1.2-Q19",
+        "2.1.2-Q26"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 37,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "2e6fd2c32757abf919ba3aa544ddebf3833e8235a65240d81ad5b1684c31fdc4",
+      "chunk_id": "ING_7e795b9a47c89f5406c5_CH_25d3ec885c",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_8d1198e56273e26fc2da9538caa6190ee545dca69202e767e9727443a3612650",
+      "claim_text": "54 Tünellerde Zemin İyileştirilmesi\nve ağır iksa. Tabana ters kemer yerleştirilir. Q ve RMR sınıflamalarına göre yapılan tünel dizaynlarında yapım sırasında bazı sorunlarla karşılaşılabilmektedir. Bu nedenle Q ve RMR sınıflamalarından ön proje aşamasında faydalanılabilinmekle birlikte uygulama projesi ve yapım aşamasında kaya kütlesinin kompleks özellikleri, zamana bağlı davranışı gözönüne alınarak tünelin açılacağı ortamın geoteknik modelinin oluşturulması, destek sisteminin bu modele göre belirlenmesi, aynada yapılacak jeolojik haritalama ve geoteknik ölçümlere göre modelin ve destek sisteminin sürekli kontrol edilmesi gereklidir.\n\n54 Tünellerde Zemin İyileştirilmesi\n\nTünellerde maliyetin %70-80 kadarını kazı ve destekleme harcamaları oluşturur. Bazen bu giderlerin beklenenden daha kötü ortam özellikleri ya da koşullarıyla karşılaşılması nedeniyle daha da arttığı görülür. Bu durumda giderleri azaltabilmek ve güvenli çalışma ortamında tünel kazısına devam edebilmek için zemini iyileştirmek ve denetim altına almak kaçınılmaz olur.\n\nZayıf zeminlerin iyileştirilmesinde veya çıkan problemlerin çözümünde kullanılan yöntemler genellikle; çimento ve kimyasal madde enjeksiyonu, jet grouting, koruyucu kemer oluşturulması, yer altı su seviyesinin alçaltılması, yer altı suyunun dondurulması ve bentonit çamuru ya da basınçlı hava ile duraylılığın sağlanması şeklinde olmaktadır. Bu yöntemler ya tek başlarına ya da birkaçının veya tümünün birlikte kullanılmasıyla uygulanmaktadırlar. Bentonit çamuru ya da basınçlı hava yöntemi yalnızca açım sırasında kullanılabilirken, diğer yöntemler ön iyileştirme- sağlamlaştırma yöntemleri olarak da kullanılabilmektedirler [20].\n\n55 Dolgu Enjeksiyonu\n\nEtkisi sürekli olan bir zemin iyileştirme yöntemidir. Bu yöntemde 20-40 bar basıncındaki dolgu karışımı zemin içine gönderilir. Bu karışım zemindeki boşluk ve gözenekleri doldurarak zeminin geçirgenliğini azaltır ve geoteknik parametrelerini yükseltir. Dolgu çimento veya kimyasal esaslı olabilir. Bu yöntem daha çok siltli, kumlu ve çakıllı ortamlarda kullanılır. Zemin kohezyonsuz olduğu için yüzeyde oluşabilecek tasmandan kaynaklanan ve binaların çökmesine neden olabilecek hareketlerin önlenmesi ve tüneldeki su gelirinin azaltılması sağlanır.\n\nBu yöntemde güzergah boyunca açılan küçük çaplı bir pilot tünelden daha sonra açılacak olan esas tünel çevresine dolgu enjeksiyonu uygulanır (Şekil 5.5). Dolgu enjeksiyonun yapılabilmesi için;\n\nAna tünel ekseni boyunca daha küçük çaplı bir pilot tünel açılır.\n\nDolgu çevresel olarak tünel çevresine basılır.\n\nTünelin üst yarısı uygun raund boyu kadar kazılır. Çelik iksa, çelik hasır ve püskürtme betonla tahkim edilir.\n\nTünelin alt yarısı kazılır. Tabana ters kemer betonu yerleştirilir.\n\nŞekil 5.5 Tüneli çevreleyen zeminin dolgu enjeksiyonu yardımıyla iyileştirilmesi",
+      "conditions": [],
+      "document_id": "ING_7e795b9a47c89f5406c5",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_25d3ec885c:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L37",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q34": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q34"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 10,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_64d76911a70ea5f6678b/05d6865edee0bd681f59858990c3e26e55574868ce637f5deca311e4ebcc036c/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "32ca1f3fbd1a82ca0e82cfe1b9a08c4e3903e2488684c822bc9e10b5a139e36b",
+      "chunk_id": "ING_64d76911a70ea5f6678b_CH_0dd5c6fc6f",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_94b5008f2639cca738e0eae30cc953124193ec272326ee72a62c56f78d540b78",
+      "claim_text": "DESTEK SİSTEMİNİN SEÇİMİ\nQ\n0.1\n1\n4\n10\n40\nsınıf\n<V\nV\nIV\nIII\nⅡI\n4\naçıklık\n2\nm\nKaya ankrąjları\n0\n300\nkalınlık\n200\npüskürtme beton\nmm\n100\n4\naçıklık\n2\nçelik kaburgalar\nm\nGenişleme\nborusu\nEnjeksiyonlu\nrezin\nŞişme - sürtünmeli\nmekanizma\nTünel destek yöntemlerinin kaya kalite sınıflarına göre değişen parametrelerini grafikler ve kesit çizimiyle gösteren teknik şema.",
+      "conditions": [],
+      "document_id": "ING_64d76911a70ea5f6678b",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK"
+      ],
+      "locator": "ING_64d76911a70ea5f6678b:ING_64d76911a70ea5f6678b_CH_0dd5c6fc6f:canonical=corpus/canonical/objects/ING_64d76911a70ea5f6678b/05d6865edee0bd681f59858990c3e26e55574868ce637f5deca311e4ebcc036c/chunks/embedding_ready.jsonl#L10",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q10": "SUPPORTED",
+        "2.1.2-Q12": "SUPPORTED",
+        "2.1.2-Q24": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2.2",
+        "2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.1.2-Q10",
+        "2.1.2-Q12",
+        "2.1.2-Q24"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:IMAGE_OCR",
+      "canonical_line_number": 34,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_c53f1b9e55e8c861f3bb/62f5a1ab2e378ef55d061b08b9785cb7c80681c17024b177439460e21a48f893/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "8554571469cc778266e1afbacb9dcebbfcdbabff1d1eca412806f41b05b170bf",
+      "chunk_id": "ING_c53f1b9e55e8c861f3bb_CH_d90ee48f49",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_95e6bc02ff6a68915fc80e78f9f059ecc359c968bb543e5c2ca24de8d82cc095",
+      "claim_text": "Bir tünel inşaatında kaya sınıflaması ve destek uygulamasını belgeleyen teknik form.",
+      "conditions": [],
+      "document_id": "ING_c53f1b9e55e8c861f3bb",
+      "evidence_level": "IMAGE_OCR",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_c53f1b9e55e8c861f3bb:ING_c53f1b9e55e8c861f3bb_CH_d90ee48f49:pages=2;canonical=corpus/canonical/objects/ING_c53f1b9e55e8c861f3bb/62f5a1ab2e378ef55d061b08b9785cb7c80681c17024b177439460e21a48f893/chunks/embedding_ready.jsonl#L34",
+      "page_end": 2,
+      "page_start": 2,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q05": "PARTIAL",
+        "2.1.2-Q44": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1",
+        "2"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q05",
+        "2.1.2-Q44"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 16,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_2acb6a1bea35571728e7/45438c464500368723dbb2d814a3b979ced5d8b2461754c1b42848249fc9c3c6/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "a48922536925d0a818b06bd66044abcdcafc186f94e4dbad524a8ccc746b6389",
+      "chunk_id": "ING_2acb6a1bea35571728e7_CH_c240ee0a81",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_b41690f148322836e8dd8e70a0483e038e4383fca6c8862b31805fa46fa29808",
+      "claim_text": "KAYNAKLAR\nmodelleme programlarında hangi girdiler kullanılırsa, ona göre sonuçlar alınacaktır. Bu nedenle doğru tasarım yapılması ve eldeki verilerin en gerçekçi şekilde kullanılması, uygulama aşamasında çıkabilecek problemlerin en aza indirgenmesini sağlayacaktır. Bu da tasarımı yapan mühendisin tecrübe ve bilgisine bağlıdır. Sonuç olarak tüm sayısal modellemeler ve kullanılan tüm yöntemler tasarımcının verdiği bilgilere göre sonuç vermektedir. Bu nedenle tasarım konusunda deneyimli elemanların ortak çalışmaları ile gerçekleştirilmeli, tüm arazi, aletsel ve deneysel çalışmalar titizlikle yürütülmelidir.\n\nKAYNAKLAR\n\nAk, E. 2005. Tünel Tasarımında Sonlu Elrmanlar Metodu İle Gerilme ve Deformasyon Analizleri-Destek Tasarımı. Osmangazi Üniversitesi Fen Bilimleri Enstitüsü\n\nYüksek Lisans Tezi, 58, Eskişehir.\n\nAksoy, C.O. ve Onargan, T. 2010. Zayıf Kaya Koşullarında Uygulanan Şemsiye Kemer Boyutunun Sayısal Modelleme İle Belirlenmesi: İzmir Metrosu Örneği. Madencilik Dergisi, 49 (4); 3-11.\n\nArıoğlu, B., Yüksel, A., Ünlütepe, A. ve Arıoğlu E. 1994. İncirli-M.İnönü Tünelinde\n\nUygulanan Geoteknik Ölçümler ve Değerlendirmesi. Ulaşımda Yeraltı Kazıları 1. Sempozyumu, 2; 419-436.\n\nArıoğlu, B., Yüksel, A., Kurtuldu, S. ve Arıoğlu, E., 2002a. İzmir Metro Projesinde Yeni Avusturya Tünel Açma Metodu Uygulamalar. Yapı Dünyası, 73, İstanbul.\n\nArıoğlu, B., Yüksel, A. ve Arıoğlu, E., 2002b. İzmir Metro Projesi Nene Hatun Tünelindeki Geoteknik Çalışmalar ve Değerlendirilmesi. ECAS 2002 Uluslar arası Yapı ve Deprem Mühendisliği Sempozyumu, 1; 305-319.\n\nBiberoğlu, D. ve Dalgıç, S. 1996. İstanbul Metrosu Kazılarında Karşılaşılan Fay Zonlarının Kazı Duraylılığına Etkisi. Zemin Mekaniği ve Temel\n\nMühendisliği 6. Ulusal Kongresi, 1; 316-324.\n\nBarton,N., Lien, R., Lunde, J. 1974. Engineering Classification of Rock Masses for the Design of Tunnel Support. Rock Mechanics 6, 189-243.\n\nBieniawski, Z.T. 1989. Engineering Rock Mass Classifications. John Willey and Sons, Balkema, Cape Town.\n\nDeere, D.U. and Miller, R.P. 1966. Engineering Classification and Index Properties for Intact Rock. Air Force Weapons Laboratory Technical Report, Leonard Hill, 270.\n\nDuddek, H. 1992. Tunnelling in Rock Masses. Engineering in Rock Masses, Butterworth Heinemann Ltd, 439, California.\n\nEmiroğlu, A. 2010. İstanbul (4. Levent - Hacıosman Arası) Metro Tünelindeki Mühendislik Uygulamaları. Çukurova Üniversitesi Fen Bilimleri Enstitüsü Yüksek Lisans Tezi, 139, Adana.\n\nHook, E. and Brown, E.T. 1980. Underground Excavations in Rock. IMM., 245, London.\n\nHook, E. Kaiser, P. K., Bawden, W.F. 1993. Support of Underground Excavations in Hard Rock. Funding by Mining Research Directorate and Universities Research Incentive Fund, 223, London.\n\nKoçkar, M. K. ve Akgün, H. 2004. Ilıksu Tünellerinin Jeoteknik Değerlendirmesi. IMO Teknik Dergi, 214, 3191-3214, İstanbul.\n\nKökçüoğlu, H. 2006. Sonlu elemanlar Metodu İle Tünel Modellemesi ve Bir Uygulama.\n\nGazi Üniversitesi Fen Bilimleri Enstitüsü Yüksek Lisans Tezi, 153, Ankara.\n\nOnargan, T., Kun, M., Pamukçu, Ç., Aksoy, C. O. 2009. Yeni İtalyan Tünel Açma Yönteminin Gelişim Süreci ve İzmir Metrosu Bornova Tünel İnşaatı Ön Destek Tasarımında Uygulanması. Madencilik Dergisi, 48 (2), 23-36.\n\nÖnalp, A. 1982. İnşaat Mühendislerine Geoteknik Bilgisi. KTÜ Yayınları, 1224,\n\nTrabzon.\n\nÖzbek, A. 2005. Yeraltı Kazılarında (Tünellerde) Yerdğiştirme Vektörünün İzlenmesi ve Ayna İlerisindeki Ortamların Tahmini. İstanbul Üniversitesi Mühendislik Fakültesi Yerbilimleri Dergisi, 18 (2); 171-181.\n\nÖztürk, E., 2007. Tüneller ve Tasarım İlkeleri. Karadeniz Teknik Üniversitesi Fen Bilimleri Enstitüsü Yüksek Lisans Tezi, 153, Trabzon.\n\nRabcewicz, L., 1964. The New Austrian Tunneling Method. Water Power, 16 (11); 453-457.\n\nSatır, B. 2007. Tünel Deformasyonlarının Jeodezik, Geoteknik ve Sonlu Elemanlar Yöntemleri ile Belirlenmesi. Karadeniz Teknik Üniversitesi Yüksek Lisans Tezi, 80, Trabzon.\n\nSauer, G., ve Gold, H. 1989. NATM Ground Concepts and their effect on Contract Practices. Rapid Excavation and Tunnelling Conference, Los Angeles,\n\nUSA.\n\nTerzaghi, K. 1946. Rock Defects and Loads on Tunnel Support In Rock Tunnelling With Steel Supports, Commercial Shearing and Stamping Company, 99, Berlin.",
+      "conditions": [],
+      "document_id": "ING_2acb6a1bea35571728e7",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_2acb6a1bea35571728e7:ING_2acb6a1bea35571728e7_CH_c240ee0a81:canonical=corpus/canonical/objects/ING_2acb6a1bea35571728e7/45438c464500368723dbb2d814a3b979ced5d8b2461754c1b42848249fc9c3c6/chunks/embedding_ready.jsonl#L16",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q23": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2.2",
+        "2.2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q23"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 159,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "a1e80af629f92c63b42df425a79bfb1e9c9e634135778a0ec83735964014ac4a",
+      "chunk_id": "ING_2005c18d2148fb921826_CH_0b97838a06",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_bb9b2e813e721616b3e547a488e91182f7c2a700f92094b205d23e13411c80b6",
+      "claim_text": "9.3.6 Ka ğ ıthane Piyalepa ş a Tünelleri Kaya Destekleme Sınıfları\nTablo: Çizelge 9.12 Önerilen destek sistemi\nÇizelge 9.12 Önerilen destek sistemi\n\nHomojen Bölge | Kilometre | NATM | Uzunluk ve Güzergah İ çerisindeki Yüzdesi. | Önerilen Destekleme Elemanları.Püskürtme Beton (cm) | Önerilen Destekleme Elemanları.Çelik İ ksa | Önerilen Destekleme Elemanları.Hasır Çelik | Önerilen Destekleme Elemanları.Bulon (4 m, Φ 28)\n\na | 0+105.000- 0+195.956 1+534.681- 1+611.000 | B3 | 167 m %11,1 | 25 | I 160 | 2 kat | 13\n\nb | 0+195.956- 0+558.727 1+245.000- 1+534.681 | B2 | 652 m % 43,3 | 20 | I 160 | 1 kat | 11\n\nc | 0+558.727- 0+643.504 | B2 | 85 m % 5,7 | 20 | I 160 | 1 kat | 11\n\nd | 0+643.504- 0+860.000 | B3 | 216 m %14,3 | 25 | I 160 | 2 kat | 13\n\ne | 0+860.000- 1+245.000 | B3 | 385 m %25,6 | 25 | I 160 | 2 kat | 13",
+      "conditions": [],
+      "document_id": "ING_2005c18d2148fb921826",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK"
+      ],
+      "locator": "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_0b97838a06:pages=114;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L159",
+      "page_end": 114,
+      "page_start": 114,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q12": "SUPPORTED",
+        "2.1.2-Q24": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2.1",
+        "2.2",
+        "5.9.1",
+        "1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.1.2-Q12",
+        "2.1.2-Q24"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 16,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_cbf08cc5651cbc903a95/bf3f7de22a1c5f0116e39552050931ed5ec585cc500da11e822317ccd5880042/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "9066ff80ee5a13d68a251ffa4d10d16e24cbd134b7fe0ada20098836d4790ff1",
+      "chunk_id": "ING_cbf08cc5651cbc903a95_CH_77e587461d",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_bc008936dcaf9aee017dbbc57eee270c4b1a1f5a11194e074715c27978191a02",
+      "claim_text": "5 .TARTIŞMA VE SONUÇ\nolarak kullanılması düşünülen destek sisteminin tünel için uygunluğu denetlenir. Şekil. 4 .36'da Ilıksu tünelleri yapılan gerilme - deformasyon analizleri ve sonuçları görülebilir. Analiz sonucuna göre desteksiz durumda kazı sonucu meydana gelen deformasyonlar, destek uygulaması yapıldıktan sonra oluşan deformasyonların 3 katıdır. Yani destek uygulaması ile deformasyonlar 1/3 oranında azalarak izin verilebilir sınırlar içerisine düşmüştür. Şekil. 4.36 Ilıksu tünelleri kazı aşamaları sayısal analizi (Koçkar ve Akgün, 2004)\n\n5 .TARTIŞMA VE SONUÇ\n\nBu çalışma neticesinde aşağıdaki sonuçlara ulaşılmıştır.\n\n Yeraltında  kaya  ortamı  içerisinde  açılacak  tünellerin  dayanım  ve  tahkimat  - çevre  kaya  kütlesi  etkileşimini  fiziksel  ve  sayısal  modeller  ile  tahmin  etmek mümkündür.  Ancak  fiziksel  modeller  oldukça  pahalı  oldukları  için  sayısal bilgisayar modellemeleri tercih edilir.\n\n Tünel iksasında kullanılan kaya sınıflamaları tasarıma yardımcıdır ve ön tasarım amacıyla kullanılması gereken birer araç oldukları unutulmamalıdır.\n\n Tünel  iksası ve  güçlendirmesinde  ana  amaç,  tüneli  çevreleyen kaya/zemin kütlesini,  püskürtme  beton,  süren,  çelik  hasır,  çelik  iksa,  çelik  levha  ve  kaya bulonları gibi esnek destek elemanları kullanarak ince ve geçici bir destekleme uygulamak, böylece tünel çevresinde yük taşıyıcı bir halka oluşturmaktır.\n\n Yük taşıyıcı bu halka ile tünel içinde gelişecek ilk deformasyonlara izin verilir ve tünel içine doğru gelişen kaya basıncını azaltmak ve yükleri kazı çevresindeki kayanın kendisine taşıtılır . Böylelikle son destekleme  (kaplama)  daha  az yüklenecek,  daha  so nra yapılabilecek  ve  daha  ince  bir  yapı olabilecektir. Deformasyonlar kazı sırasında ölçülecek ve projedeki hesaplamalarla karşılaştırılacaktır.\n\n Destek  ve  tünel  tasarımını  gerçekleştirmek  amacıyla  kullanılan t üm  sayısal modelleme programlarında hangi girdiler kullanılırsa, ona göre sonuçlar alınacaktır. Bu nedenle doğru tasarım yapılması ve eldeki verilerin en gerçekçi şekilde  kullanılması,  uygulama  aşamasında  çıkabilecek  problemlerin  en  aza indirgenmesini  sağlayacaktır.  Bu  da  tasarımı  yapan  mühendisin  tecrübe  ve bilgisine bağlıdır.\n\n Sonuç olarak tüm sayısal modellemeler ve kullanılan tüm yöntemler tasarımcının  verdiği  bilgilere  göre  sonuç  vermektedir.  Bu  nedenle  tasarım konusunda  deneyimli  elemanların  ortak  çalışmaları  ile  gerçekleştirilmeli,  tüm arazi, aletsel ve deneysel çalışmalar titizlikle yürütülmelidir.",
+      "conditions": [],
+      "document_id": "ING_cbf08cc5651cbc903a95",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_cbf08cc5651cbc903a95:ING_cbf08cc5651cbc903a95_CH_77e587461d:pages=51;canonical=corpus/canonical/objects/ING_cbf08cc5651cbc903a95/bf3f7de22a1c5f0116e39552050931ed5ec585cc500da11e822317ccd5880042/chunks/embedding_ready.jsonl#L16",
+      "page_end": 51,
+      "page_start": 51,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q23": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2.2",
+        "2.1.2",
+        "2.2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q23"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 59,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "8c4d567ed06f7cef1b0a3e52b821996eca37a00067e70989fba9dea5ab4ee42a",
+      "chunk_id": "ING_2005c18d2148fb921826_CH_17c8b5470a",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_bc93c36c897faccd8744bc1f8ab0e706218d9156ee665c34dd6a97396bb0451e",
+      "claim_text": "9.4.2 Program Girdileri (Input Data)\nkademeli in ş aat (stage construction) prensibine göre yapmaktadır. Hesap adımları genel olarak; birincil gerilme durumunun olu ş turulması, sol tüp üst yarı kazısı, sol tüp üst yarı desteklemesi, sol tüp alt yarı kazısı, sol tüp alt yarı desteklemesi, sa ğ tüp üst yarı kazısı, sa ğ tüp üst yarı desteklemesi, sa ğ tüp alt yarı kazısı ve sa ğ tüp alt yarı desteklemesi ş eklinde ifade edilebilir.\n\n9.4.2 Program Girdileri (Input Data)\n\nPlaxis tünelde kullanılan püskürtme beton ve çelik iksa gibi destekleme elemanlarını plate adı verilen  bir  eleman  türü  olarak  kabul  etmektedir.  Bunlar  aynı  kesitte  yer  alması  durumunda ayrı ayrı tanımlanamadı ğ ı için, püskürtme beton ve çelik iksanın rijitlik parametreleri ayrı ayrı hesaplanmakta ve toplamları plate özelli ğ i olarak programa verilmektedir.\n\nBu elemanlar için program girdileri a ş a ğ ıda sıralanmı ş tır.\n\nE: malzeme elastisite modülü kN/m 2\n\nh = malzeme kalınlı ğ ı\n\nb = birim mesafe (programda sabit olup, 1 metre olarak alınmakta)\n\nA = h.b\n\nBulonlar için A, bulonun kesit alanıdır.\n\nI:Atalet momenti I=(bxh 3 )/12\n\nw (weight) = γ malzeme x h\n\nν : malzeme poisson oranı\n\nd=((12EI)/(EA)) ½ olup program tarafından hesaplanmaktadır\n\n9.4.2.1 Destekleme Elemanları İ çin Program Girdileri\n\nModeller  için  seçilen  bütün  kesitlerde  standart  tip  kesitin  uygulanmı ş ve  aynı  destekleme elemanları kullanılmı ş tır. Destek elemanları aynı, fiziksel ve jeolojik  ko ş ulları farklı modellerin analizi neticesinde tünel çevresindeki noktaların deformasyon de ğ i ş imleri incelenmi ş tir.\n\nTünel Destek Elemanları\n\nPüskürtme Beton\n\nν = 0,2\n\nÇelik İ ksa (I160)\n\nν = 0,3\n\nKaya Bulonu\n\nE = 210 000 000 kPa",
+      "conditions": [],
+      "document_id": "ING_2005c18d2148fb921826",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_17c8b5470a:pages=117-119;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L59",
+      "page_end": 119,
+      "page_start": 117,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q03": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1",
+        "2.2",
+        "5.9.1",
+        "1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.1.2-Q03"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 3,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_136f634f80c52397bef3/4c78ff143ce1ebec89cb2b9f72385f9d72f16753de24c64647d486e2d45970dd/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "2acdd0c2ac735056436560c2d48120eb756f89725ca6a008b9aa2976584e711f",
+      "chunk_id": "ING_136f634f80c52397bef3_CH_3a457bec38",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_c0c5ec59af9c61df183c0785e4ad2266e8213627c24226800afd14fef629ada7",
+      "claim_text": "1. Giriş\nsystem was determined stable up to 410 m overburden in the evaluated analyses for 20 MPa strengthen shotcrete. In this study, it is revealed that, the increase in depth of excavation indicates that the strength of the shotcrete must be increased to avoid instabilities of the support systems or that the support systems recommended for a lower rock class should be selected. Keywords : Excavation depth, Numerical modeling, RMR classification system, Shotcrete strength\n\n1. Giriş\n\nTünelcilikte maliyet üzerindeki en önemli parametrelerden  birisi,  tünelde  kullanılacak  olan destek  sistemlerinin  çeşididir.  Bu  parametre  kazı sırasında geçilecek birimlerin jeolojik ve jeoteknik özellikleri ile doğrudan ilişkilidir. Tünel güzergâhındaki  birimlerin  jeolojik  ve  jeoteknik özelliklerinin belirlenebilmesi ise tünel güzergâhı boyunca sondaj ve yüzey çalışmalar ile mümkündür. Tünelcilikte ön  destek  sistemlerinin saptanması amacıyla farklı araştırmacılar tarafından birçok kaya  kütle sınıflama sistemi önerilmiştir (Terzaghi, 1946; Lauffer, 1958; Deere, 1964; Wickhamvd., 1972; Bieniawski, 1989; Barton vd., 1974; Palmström, 1995). Önerilen bu sistemler zaman zaman revize edilerek günümüzdeki halini almıştır.\n\nTerzaghi (1946) tarafından önerilen sınıflama sistemi 35  yıldan fazla bir süre etkili olarak kullanılmıştır.  Lauffer  (1958)  ise,  Stini  (1950) tarafından yapılan bir çalışmadan esinlenerek, destek sisteminin çeşidi ve miktarını tünel genişliği ve desteksiz durma süresine bağlı olarak belirlemeye çalışmıştır. Deere (1964) sondaj karotlarından belirlenebilen Kaya Kalite Göstergesi  (RQD)  parametresini  kullanarak  bir sınıflama önermiştir. Wickham vd. (1972) tarafından Amerika Birleşik Devletleri'nde geliştirilen kaya yapısı değerlendirmesi  (RSR) kavramı, sınıflandırma parametrelerinin nispi önemini  ölçmek  için  yapılan  ilk  sınıflandırma sistemdir.  Bieniawski  (1989)  tarafından  önerilen Kaya  Kütle  Puanlama  (RMR)  ve  Barton  vd. (1974)  tarafından  önerilen  Kaya  Kütle  Kalitesi (Q) sistemleri birbirlerinden bağımsız olarak geliştirilmişlerdir.\n\nBu sınıflama sistemlerinin ikisi de kaya bulonu ve püskürtme  beton  gibi  modern  tünel  güçlendirme yöntemlerinin seçimini sağlayacak niceliksel veriler sağlamaktadırlar. Kaya Kütle İndeksi (RMi)  sınıflama sistemi Palmström  tarafından 1995 yılında, Jeolojik Dayanım İndeksi (GSI) ise ilk  defa  Hoek  vd.  (1995)  tarafından  önerilmiştir. Q,  RMR,  RMi  ve  GSI  sistemleri  zaman  içinde revize edilerek günümüzdeki şeklini almışlardır.\n\nAyrıca, destek tipinin kazı sırasında belirlenmesinde Yeni Avusturya Tünel  Açma Yöntemi (NATM) sistemi de yaygın olarak kullanılmaktadır.  Bu  metotta  diğer  sistemler  gibi kesin önerilmiş destek elemanları yerine kullanılması  gereken  destek  elemanlarının  türü belirtilmiş olup, destek elemanı sistematiği uygulayıcılar tarafından belirlenmektedir.",
+      "conditions": [],
+      "document_id": "ING_136f634f80c52397bef3",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_136f634f80c52397bef3:ING_136f634f80c52397bef3_CH_3a457bec38:pages=2;canonical=corpus/canonical/objects/ING_136f634f80c52397bef3/4c78ff143ce1ebec89cb2b9f72385f9d72f16753de24c64647d486e2d45970dd/chunks/embedding_ready.jsonl#L3",
+      "page_end": 2,
+      "page_start": 2,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q21": "SUPPORTED",
+        "2.1.2-Q25": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1.2",
+        "2"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q21",
+        "2.1.2-Q25"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 8,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_d1123b7de4da11b36816/8b36d1ac65a19ff0411bc85a182ee8cb3921d8e14275a6549be8e5479cb9d3bb/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "719a91eb1b5cb9079583076f7bff99e3879ba40aed0dc1b7d9fd5dee24ecd618",
+      "chunk_id": "ING_d1123b7de4da11b36816_CH_ca3972161f",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_c84ad6967abd0fcdc22e140b1e3ed29f36165e8584a86117c92e383e2ea4e48c",
+      "claim_text": "Kaynakça\nstabilitesi sağlanmalıdır. Aksi takdirde uzun dönemde sıkışmaya bağlı olarak oluşabilecek deformasyonlar geçici tahkimatlarda ciddi sıkıntılara sebebiyet verecektir. Tünel destek sistemleri belirlenirken zemin davranışının çok iyi belirlenmesi gerekir. Belirlenecek destek sistemleri ile destek reaksiyon eğrisi ile optimum destek basıncı belirlenmelidir. Zayıf zeminlerdeki en önemli handikap tünel kazısından sonra tünel aynasında destek elemanları yapılana kadar geçen sürede oluşan deformasyonlardır. Bu durumun önüne geçilmesi için ayna bulonları ve şemsiye tipi sürenler ile ayna stabilitesini kısa dönemde sağlamalıdır.\n\nKaynakça\n\nZ.T. Bieniawski, 'Engineering classification of jointed rock masses,' Trans S. Afr. Inst. Civ. Engrs 15, 335-344. 1973.\n\nZ.T. Bieniawski, 'Rock mass classification in rock engineering,' In Exploration for rock engineering, proc. of the symp., (ed. Z.T. Bieniawski) 1, 97-106. Cape Town: Balkema. 1976.\n\nZ.T. Bieniawski, Engineering rock mass classifications. New York: Wiley. 1989.\n\nN.R. Barton, R. Lien, J. Lunde, 'Engineering classification of rock masses for the design of tunnel support,' Rock Mech. 6(4), 189-239. 1974.\n\nN.  R.  Barton,  F.  Løset,  R.  Lien,  J.  Lunde,  'Application  of  the  q-system  in  design  decisions,' In Subsurface space, (ed. M. Bergman) 2, 553-561. New York: Pergamon.1981.\n\nN.Barton, 'Application of q-system and index tests to estimate shear strength and deformability of rock masses,' In Workshop on Norwegian Method of Tunnelling, pp. pp 66-84, New Delhi, India,1993.\n\nL.v Rabcewicz, 'The new austrian tunnelling method, Part One,' Water Power , pp 453-457, 1964.\n\nL.v. Rabcewicz, 'The new austrian tunnelling method, Part Two,' Water Power , pp 511-515, 1964.\n\nL.v. Rabcewicz, 'The new austrian tunnelling method, Part Three,' Water Power , pp 19-24, 1965.\n\nL.v. Rabcewicz, J. Golser, 'Principles of dimensioning the supporting system for the 'new austrian tunnelling method,' Water Power, Marc, 88-93. 1973.\n\nL. Müller, 'Removing misconceptions on the new austrian tunnelling method,' Tunnels & Tunnelling International, 10(8):29-32. 1978.\n\nE.B.  Aygar,  C.  Gökçeoğlu,  'Ankara-istanbul  yüksek  hızlı  tren  projesi,  t13  tüneli  fay  zonunda karşılaşılan  sorunlar  ve  çözüm  önerileri  ankara-istanbul  hıgh  speed  raılway  project,  the  problems encountered at t13 tunnel  fault zone and solutıon suggestıons,' IMCET 2019 / Antalya / Turkey / April 16 . 19, Proceedings 26th  International Mining Congress and Exhibition of Turkey , 2019.\n\nE.B. Aygar, C. Gökçeoğlu, 'Problems encountered during a railway tunnel excavation in squeezing and swelling materials and possible engineering measures: a case study from turkey,' Sustainability , 12, 1166, https://doi.org/10.3390/su12031166, 2020.\n\nE.B.  Aygar,  'Evaluation  of  new  austrian  tunnelling  method  applied  to  bolu  tunnel's  weak  rcoks,' Journal of Rock Mechanics and Geotechnical Engineering , 12, 541-546, 2020.\n\nE.B.  Aygar,  C.  Gokceoglu,  'Effects  of  portal  failure  on  tunnel  support  systems  in  a  highway tunnel.'. Geotech Geol Eng, 39, 5707-5726.  https://doi.org/10.1007/s10706-021-01859-z. 2021\n\nC.O.  Aksoy,  K.  Ogul,  I.  Topal,  S.C.Ozer,  V.  Ozacar,  E.  Posluk,  'Numerical  modelling  of  nondeformable  support  in  swelling  and  squeezing  rock,' International  Journal  of  Rock  Mechanics  & Mining Sciences , 52, 61-70, doi:10.1016/j.ijrmms.2012.\n\nE.B. Aygar, S.Karahan, S. Gullu, C. Gokceoglu, 'Analytical and numerical analyses of the support system for a large-span tunnel in challenging and seismically active ground conditions,' Transportation Infrastructure Geotechnology, https://doi.org/10.1007/s40515-022-00251-5. 2022.\n\nG. Barla, 'Full face excavation of large tunnels in difficult conditions,' Journal of Rock Mechanics and Geotechnical Engineering , http://doi.org/10.1016/j.jrmge.2015.12.003.2015.\n\nE. Hoek, 'Tunnel support in weak rock,' In: Symposium of Sedimentary Rock Engineering, 631, 1-13. 1998.\n\nG. Barla, 'Tunnelling under squeezing rock conditions,' Tunnelling  Mechanics-Advances  in Geotechnical Engineering and Tunnelling , 2011.\n\nP.  Lınardi,  'Design  and  construction  tunnels-ADECO-RS  approach,' Tunnels  and  Tunnelling Internations, Special Supplement May , 2000.\n\nP.Lunardi,  R. Bindhi, 'The evaluation of reinforcement of the advance core using fiber glass elements for short and long term stability of tunnels under difficult stress-strain conditions: design, technologies and operating methods,' Progress in Tunnelling after 2000, AITES-ITA 2011 World Tunnel Congress, 2, 309-322. 2001.",
+      "conditions": [],
+      "document_id": "ING_d1123b7de4da11b36816",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_d1123b7de4da11b36816:ING_d1123b7de4da11b36816_CH_ca3972161f:pages=11-12;canonical=corpus/canonical/objects/ING_d1123b7de4da11b36816/8b36d1ac65a19ff0411bc85a182ee8cb3921d8e14275a6549be8e5479cb9d3bb/chunks/embedding_ready.jsonl#L8",
+      "page_end": 12,
+      "page_start": 11,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q19": "SUPPORTED",
+        "2.1.2-Q21": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2",
+        "2.1.2",
+        "2.4.2.2"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q19",
+        "2.1.2-Q21"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 15,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_2acb6a1bea35571728e7/45438c464500368723dbb2d814a3b979ced5d8b2461754c1b42848249fc9c3c6/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "156a8149a648399ead329827ef4de6e7218e7704160c468900234f16a9b826b1",
+      "chunk_id": "ING_2acb6a1bea35571728e7_CH_8b45908f98",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_d5d61eae0bf46fc5206ff2202af9f649d0b98eaa3e826d908580929748ff4da2",
+      "claim_text": "30 Sayısal Modellemeler ile İksa ve Güçlendirme Uygulamaları\naçılacak olan Ilıksu Tünelleri kazı aşamaları için Phase 2D programında yapılmış bir sayısal modelleme sunulmuştur. B3 sınıfı için Şekilde görülebileceği gibi sayısal modelleme 4 aşamada gerçekleştirilmiştir. İlk aşamada tünel arını belirlenmiş, 2.aşamada desteksiz üst yarı kazısı, 3.aşamada alt yarı kazısı yapılmış ve desteksiz tünel açıklığı için gerilme vektörleri belirlenmiştir. 4.aşamada ise tünel çevresi tünel kaya türlerine göre belirlenen destek sistemi uygulaması modellenerek bu durum için gerilme vektörleri belirlenmiştir.\n\nŞekil.4.35 Ilıksu tünelleri kazı aşamaları sayısal modellemesi (Koçkar ve Akgün, 2004)\n\nYukarıdaki sayısal modelleme üzerinde yapılan sayısal analizlerle\n\ngerilme - deformasyon özellikleri belirlenir ve desteksiz durumdaki deformasyonlarla, destekli durumdaki deformasyonlar karşılaştırılır. Sonuç olarak kullanılması düşünülen destek sisteminin tünel için uygunluğu denetlenir. Şekil.4.36'da Ilıksu tünelleri yapılan gerilme - deformasyon analizleri ve sonuçları görülebilir. Analiz sonucuna göre desteksiz durumda kazı sonucu meydana gelen deformasyonlar, destek uygulaması yapıldıktan sonra oluşan deformasyonların 3 katıdır. Yani destek uygulaması ile deformasyonlar 1/3 oranında azalarak izin verilebilir sınırlar içerisine düşmüştür.\n\nEk iııc ıl dep taşınanlar\n\nDeplasman\n\nDeforme\n\nolmuş\n\nprofil\n\nikincil deplasmanlar\n\n< Des teksiz»\n\n(Des tek Sistemleri- ile Bulıl: te)\n\nn.aoç+onn\n\nn. I.\n\nr\n\n- r fl\n\nI Zle-OOJ\n\nlmm ra\n\n8.57e-003\n\n■■\n\n/b I\n\n■ - II I I\n\n4\n\nAL\n\n' .e\n\n2.S7e-0G2\n\n-1.\n\nB-\n\n3 43 <<O2\n\nra\n\nL13MO1\n\ns.ı x a\n\nl,32»-001\n\nC.OOe-002\n\n1\tSfage 1 Btag* 2 / S1age 3 / SJaçe 4 /\n\n• l\\SUg.l/an,F?A î/EUg.l/\n\nŞekil.4.36 Ilıksu tünelleri kazı aşamaları sayısal analizi (Koçkar ve Akgün, 2004)\n\n31 TARTIŞMA VE SONUÇ\n\nBu çalışma neticesinde aşağıdaki sonuçlara ulaşılmıştır.\n\nYeraltında kaya ortamı içerisinde açılacak tünellerin dayanım ve tahkimat - çevre kaya kütlesi etkileşimini fiziksel ve sayısal modeller ile tahmin etmek mümkündür. Ancak fiziksel modeller oldukça pahalı oldukları için sayısal\n\nbilgisayar modellemeleri tercih edilir.\n\nTünel iksasında kullanılan kaya sınıflamaları tasarıma yardımcıdır ve ön tasarım amacıyla kullanılması gereken birer araç oldukları unutulmamalıdır.\n\nTünel iksası ve güçlendirmesinde ana amaç, tüneli çevreleyen kaya/zemin kütlesini, püskürtme beton, süren, çelik hasır, çelik iksa, çelik levha ve kaya bulonları gibi esnek destek elemanları kullanarak ince ve geçici bir destekleme uygulamak, böylece tünel çevresinde yük taşıyıcı bir halka oluşturmaktır.\n\nYük taşıyıcı bu halka ile tünel içinde gelişecek ilk deformasyonlara izin verilir ve tünel içine doğru gelişen kaya basıncını azaltmak ve yükleri kazı çevresindeki kayanın kendisine taşıtılır. Böylelikle son destekleme (kaplama) daha az yüklenecek, daha sonra yapılabilecek ve daha ince bir yapı olabilecektir. Deformasyonlar kazı sırasında ölçülecek ve projedeki hesaplamalarla karşılaştırılacaktır.\n\nDestek ve tünel tasarımını gerçekleştirmek amacıyla kullanılan tüm sayısal modelleme programlarında hangi girdiler kullanılırsa, ona göre sonuçlar alınacaktır. Bu nedenle doğru tasarım yapılması ve eldeki verilerin en gerçekçi şekilde kullanılması, uygulama aşamasında çıkabilecek problemlerin en aza indirgenmesini sağlayacaktır. Bu da tasarımı yapan mühendisin tecrübe ve bilgisine bağlıdır.\n\nSonuç olarak tüm sayısal modellemeler ve kullanılan tüm yöntemler tasarımcının verdiği bilgilere göre sonuç vermektedir. Bu nedenle tasarım konusunda deneyimli elemanların ortak çalışmaları ile gerçekleştirilmeli, tüm arazi, aletsel ve deneysel çalışmalar titizlikle yürütülmelidir.",
+      "conditions": [],
+      "document_id": "ING_2acb6a1bea35571728e7",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_2acb6a1bea35571728e7:ING_2acb6a1bea35571728e7_CH_8b45908f98:canonical=corpus/canonical/objects/ING_2acb6a1bea35571728e7/45438c464500368723dbb2d814a3b979ced5d8b2461754c1b42848249fc9c3c6/chunks/embedding_ready.jsonl#L15",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q23": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2.2",
+        "2.2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q23"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:STRUCTURED_DOCUMENT",
+      "canonical_line_number": 7,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7f177b472ed62ef80108/72ef01fc60eb101417976d371f154842e5a45aa6a41c838e696a8bc32540360c/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "d75ec406222b30213b289dfefda8b5d2a1789720b5945a2e70a7cb606321cebe",
+      "chunk_id": "ING_7f177b472ed62ef80108_CH_614e0549d6",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_d733242a88fb8fd636f1a69ac398e39d46de26cab2fa6e207c4f1fd3f7278e86",
+      "claim_text": "TÜNELLERDE DESTEKLEME SÜRELER İ\nı z ı n ı n artt ı ğ ı tünel kesitlerinde deformasyon sönümleninceye kadar okumalara devam edilmelidir. Deformasyon Ölçümlerinde Kullan ı lan Ölçüm Enstrümanlar ı  Bulon Yükleri Ölçülmesinde  Ölçüm Bulonu  Yük Hücresi  Yüzey Deformasyonlar ı Ölçülmesinde  Ekstansometre  İ nklonometre  Yeralt ı suyu Ölçülmesinde  Piezometre  Yap ı Hareketlerinin Ölçülmesinde  Oturma Ölçümleri  Dönme Ölçümleri  Patlatma Titre ş imlerinin Ölçülmesinde  Sismograf Deformasyon Ölçümleri için Kullan ı lan Enstrümanlar\n\nTÜNELLERDE DESTEKLEME SÜRELER İ\n\nRMR S ı n ı f ı nda Desteksiz Durma Süreleri\n\nSUNUM ADI\n\nTÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR  VE ÇÖZÜM ÖNER İ LER İ\n\nTÜNELLERDE DESTEKLEME SÜRELER İ\n\nRMR S ı n ı f ı nda Destektik Durma Süreleri- Destek Bas ı nc ı -Deformasyon İ li ş kisi Grafi ğ i\n\nSUNUM ADI\n\nTÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR  VE ÇÖZÜM ÖNER İ LER İ\n\nTÜNELLERDE DESTEKLEME SÜRELER İ\n\nC20/25 MPa S ı n ı f ı nda Püskürtme Betonun Bas ı nç Dayan ı m Geli ş im H ı z ı\n\nSUNUM ADI\n\nTÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR  VE ÇÖZÜM ÖNER İ LER İ\n\nÜstyar ı Taban Kaz ı s ı n ı n De ğ i ş tirilmesi\n\nSUNUM ADI\n\nTÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR  VE ÇÖZÜM ÖNER İ LER İ\n\nTEKN İ K DETAY\n\nTÜNEL DESTEKLEME SÜRELER İ N İ N ÖNEM İ VE ÖNGÖRÜLEN KAZI GEOMETR İ S İ N İ N YAPILMAMASI DURUMU\n\nC2 kayas ı için Eksenel Simetri Grafi ğ i: Tünel aynas ı n ı n 1 metre gerisinde % 49 oran ı nda (top def./1mdef.) malzeme parametrelerinde yumu ş ama gerçekle ş mektedir. Bu oran aynan ı n 4 metre ileride % 81 oran ı ndad ı r. Yani desteksiz durma sürelerine göre ve destek imalat ı yapmadan ilerlenmesi durumunda birim parametreleri oldukça dü ş mekte ve ilave imalatlara, kesit taramalar ı na yol açmaktad ı r. Kesit taramalar ı da tünelin yeniden imal edilmesi anlam ı na gelmektedir.\n\nSUNUM ADI\n\nTÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR  VE ÇÖZÜM ÖNER İ LER İ",
+      "conditions": [],
+      "document_id": "ING_7f177b472ed62ef80108",
+      "evidence_level": "STRUCTURED_DOCUMENT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_7f177b472ed62ef80108:ING_7f177b472ed62ef80108_CH_614e0549d6:pages=34-38;canonical=corpus/canonical/objects/ING_7f177b472ed62ef80108/72ef01fc60eb101417976d371f154842e5a45aa6a41c838e696a8bc32540360c/chunks/embedding_ready.jsonl#L7",
+      "page_end": 38,
+      "page_start": 34,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q31": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2.1.2",
+        "2.4.1.2",
+        "5.9.1",
+        "2.1",
+        "2.2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.4.1",
+      "supporting_question_ids": [
+        "2.1.2-Q31"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 58,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "a194312d897342d762bdf2f9ccfd41cf7aada748f4adf480edb1358c63f3039e",
+      "chunk_id": "ING_2005c18d2148fb921826_CH_20b9fb52e8",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_d7f2b88e39f96b1aa2236393fa42c168dca45dff6ad2a2cfa3dfbdc67780f76b",
+      "claim_text": "9.4.1 Yapılan Analizlerin Amacı ve Hesap Yöntemi\nportal ve geçi ş bölgeleri dı ş ında en çok kullanılan destek sistemi Standart tip kesittir. Destekleme elemanları olarak tek kat Q221/221 çelik hasır, 25 cm püskürtme beton, I160 çelik iksa ve 17 adet 4m uzunlu ğ unda, 12 o aralıklı, ϕ 26 nervürlü çelikten bulonlar kullanılmı ş tır. Güzergahta kullanılan destekleme elemanlarını gösterir özet tablo Çizelge 9.13'te verilmi ş tir. Çizelge 9.13 Güzergahta kullanılan destekleme elemanları\n\n9.4 Sonlu Elemanlar Yöntemi ile Tünel Stabilite Analizleri\n\n9.4.1 Yapılan Analizlerin Amacı ve Hesap Yöntemi\n\nBu tez kapsamında Ka ğ ıthane - Piyalepa ş a tünellerinin sayısal analizi için  üç farklı de ğ i ş ken belirlenerek, bu de ğ i ş kenlerin deformasyonlar üzerindeki etkileri incelenmi ş tir. İ lk de ğ i ş ken kaya ortamı, ikinci de ğ i ş ken üç boyutlu modelde kullanılacak tünel boyu ve üçüncü de ğ i ş ken kazı ilerleme adımıdır.\n\nAnalizlerde kullanılacak kesitler örtü kalınlı ğ ına göre seçilmi ş tir. Sı ğ tünel, orta derin tünel ve derin tünel kesimlerini temsilen seçilen kesitlerde örtü kalınlıkları sırasıyla 15m, 45m ve 65 metredir.\n\nBelirlenen bu üç kesitin homojen ve tabakalı kaya ortamındaki davranı ş ını incelemek için ayrı modellemeler yapılmı ş tır. Tabakalı durumu  belirlemek için ilgili sondaj kesitlerinden yararlanılmı ş tır.\n\nModel uzunlu ğ unun  analizlerdeki  etkisini  belirlemek  için  15  ve  45  metre  örtü  kalınlı ğ ında homojen kaya ortamında bulunan kesitlerin 6 ve 12 metre uzunlu ğ unda modelleri yapılmı ş tır. Çizelge 9.14'de tez çalı ş masında yapılan analizlerde kullanılan modeller, Çizelge 9.15'de ise analiz modellerinin özellikleri sunulmu ş tur (kesitler sol tüp eksenine göre belirlenmi ş tir).\n\nÇizelge 9.14 Olu ş turulan model kombinasyonları\n\nÇizelge 9.15 Analizi yapılan modeller\n\nKa ğ ıthane Piyalepa ş a tüneli stabilite analizlerinde Mohr-Coulomb zemin modeli kullanılmı ş tır.  Hesaplamalar ise 3 boyutta plastikle ş me teorisine göre yapılmı ş tır.  Plaxis  3D Tunnel  Programı  hesaplamalarını  kademeli  in ş aat (stage construction) prensibine göre yapmaktadır. Hesap adımları genel olarak; birincil gerilme durumunun olu ş turulması, sol tüp üst  yarı  kazısı,  sol  tüp  üst  yarı  desteklemesi,  sol  tüp  alt  yarı  kazısı,  sol  tüp  alt  yarı desteklemesi, sa ğ tüp üst yarı kazısı, sa ğ tüp üst yarı desteklemesi, sa ğ tüp alt yarı kazısı ve sa ğ tüp alt yarı desteklemesi ş eklinde ifade edilebilir.",
+      "conditions": [],
+      "document_id": "ING_2005c18d2148fb921826",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_20b9fb52e8:pages=116-117;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L58",
+      "page_end": 117,
+      "page_start": 116,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q22": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2.1",
+        "2.2",
+        "5.9.1",
+        "1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.1.2-Q22"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 311,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "cc0b5a9c0abc366cf837f0db89937b5139c749e5fb2db9088567ed9444b6430f",
+      "chunk_id": "ING_312befcda2ff316b7279_CH_631c36fadb",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_da477ba8752cfc6484ebdcebd122af3aa77b878be06f878a8d00576157d016c1",
+      "claim_text": "350.03.02.09.02 Malzeme ve Yapım\nher zaman içeriye akan suyun normal hacminin en az birbuçuk katına delme ekipmanının kullandığı su miktarının eklenmesiyle elde edilecek miktar kadar olacaktır. Yüklenici, tünelde tesis edilmiş pompalarla aynı kapasitedeki yedek pompaları çalışır durumda depo edecek veya derhal temin edebilir durumda olacaktır. Yüklenici, suyun tahliye edilmesinden önce çökeltme tankları veya mühendisin talebine uygun başka arıtma imkanları sağlayacaktır. Yüklenici, tüm birikmiş çamur, silt veya diğer döküntüleri mühendisin talebine uygun olarak yer altı işlerinden uzaklaştıracaktır.\n\n350.03.02.09.02 Malzeme ve Yapım\n\n1. Boyuna Drenaj: Tünel drenajı, ilgili kazı tabanında yerleştirilen çakıl doldurulmuş hendeklerle yapılacaktır. Büyük miktarda su girişi olan sahalarda, derive edilecek suyun miktarına bağlı olarak 150-250 mm çapında üst kısmı delikli sert PVC borularının monte edilmesi gerekli olabilir.\n\nİniş yönünde yapılan tünel kazılarında, belirli aralıklarda, suyun tünel dışına pompalanacağı toplama çukurları açılacaktır.\n\nRadyal Drenler: Yoğun su akışları için, kaya içerisinde tahliye delikleri açılacaktır. Deliklerin içerisine, 1 ½'  çapında tavan ve omuz bölgesinde delikli yan duvarlar ve omuz alt seviyelerinde, alt kesimi kapalı, üst  kesimi  delikli  çelik  veya  sert  PVC  boruları  yerleştirilecektir.  Boru  ile  delik  ağzı  arasındaki  boşluk çabuk priz alan harç ile kapatılacaktır. Çabuk priz alan harç, geçici onarım veya kaplamalarda kullanılan ve birkaç dakikada priz ve sertleşme sağlayan bir malzemedir. Belirli başka bir özellik gerekmemektedir. Boru ağzı, ilgili tünel kazısı tabanındaki geçici boyuna drenaja, toplama çukurlarına veya boyuna hendeklere bağlanacaktır.\n\nÇevre  Drenleri: Kaya  yüzeyindeki  ıslak  sahalarda  su,  kayaya  çabuk  priz  alan  harç  veya  püskürtme betonu ile tesbit edilmiş ve ilgili kazı tabanındaki kuyular veya boyuna hendeklere bağlanmış yarım kabuklar (tercihan oluklu, yumuşak PVC boru) vasıtasıyla toplanacaktır.\n\nPüskürtme beton kaplamada sonradan görülen ıslak sahalar, delinip açılacak ve (2) veya (3)'de olduğu üzere işleme tabi tutulacaktır.\n\nGeçirimli zemin veya çok çatlaklı kayada yapılan tünellerde, tünel projecisinin temsilcisi tarafından talep edilmesi ve mühendis tarafından onaylanması halinde, püskürtme beton kaplaması arkasında su basıncının artmasını önlemek üzere, minimum 4 cm çapında çevre drenleri sistematik olarak tesis edilecektir.\n\nYapım  işi  süresince  tüm  suyun  yeterli  şekilde  kontrol  edilebilmesi  için  yüklenici,  yapılan  toplama çukurlarının temiz tutulmasını ve drenaj sisteminin bakımlı olmasını sağlayacaktır.",
+      "conditions": [],
+      "document_id": "ING_312befcda2ff316b7279",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_631c36fadb:pages=207;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L311",
+      "page_end": 207,
+      "page_start": 207,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q33": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2",
+        "2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.4.3",
+      "supporting_question_ids": [
+        "2.1.2-Q33"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 109,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "395a9e4083dee3f5da66185a292b2c7ca61b765066a685fe6baa3c48ae5f3036",
+      "chunk_id": "ING_7e795b9a47c89f5406c5_CH_5cf162a2d7",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_f30823331b81859b38af5fc1011c30034ad63eb693e70e7f1ad4cc1044bbb654",
+      "claim_text": "51 RQD Sistemi İle Destek Basıncı Ve Destek Seçimi Arasındaki İlişki\n**Kaya kalitesi**.**Kaya kalitesi** | **Tünel açma yöntemi**.**Tünel açma yöntemi** | **Alternatif destekleme sistemleri**.**Çelik destekleme**\n\n\n\n**(2)** | **Alternatif destekleme sistemleri**.**Kaya bulonları (3)** | **Alternatif destekleme sistemleri**.**Püskürtme beton**\n\nÇok iyi\n\n\n\n(1)\n\n\n\nRQD&gt;90 | Tünel açma mak. | Gerek yok.Kaya yükü (0,0-0,2)B | Gerek yok | Gerek yok\n\nÇok iyi\n\n\n\n(1)\n\n\n\nRQD&gt;90 | Delme-patl. | Gerek yok. Kaya yükü (0,0-0,3)B | Gerek yok | Bazı bölgelerde gerekirse 5-8 cm kalınlıkta\n\nİyi (1)\n\n\n\n75&lt;RQD&lt;90 | Tünel açma mak. | Gerekirse 1,52-1,83 m aralıklı hafif kaburgalar. Kaya yükü (0,0-0,4)B | Gerekirse 1,521,83 m aralıklı bulonlar | Bazı bölgelerde gerekirse 5-8 cm kalınlıkta\n\nİyi (1)\n\n\n\n75&lt;RQD&lt;90 | Delme-patl. | 1,52-1,83 m aralıklı hafif kaburgalar. Kaya yükü (0,3-0,6)B | 1,52-1,83 m aralıklı bulonlar | Bazı bölgelerde 5-8 cm kalınlıkta\n\nOrta\n\n\n\n50&lt;RQD&lt;75 | Tünel açma mak. | 1,52-1,83 m aralıklı orta büyüklükte kaburgalar. Kaya yükü (0,4-1,0)B | 1,22-1,83 m aralıklarla bulonlar | Tavanda 5-11 cm kalınlıkta\n\nOrta\n\n\n\n50&lt;RQD&lt;75 | Delme-patl. | 1,22-1,52 m aralıklı hafif ya da orta büyüklükte kaburga. Kaya yükü (0,6-1,3)B | 0,9-1,52 m aralıklarla bulonlar | Tavan ve yan duvarlarda 11 cm veya daha fazla kalınlıkta\n\nZayıf 25<RQD<50 | Tünel açma mak. | 0,9-1,22 m aralıklı yarım daire kaburgalar. Kaya yükü (1,0-1,6)B | 0,9-1,52 m aralıklı bulonlar | Bulonlarla birlikte tavan ve yanlarda 11-15 cm kalınlıkta\n\nZayıf 25<RQD<50 | Delme-patl. | Orta büyüklükte veya ağır kaburgalar. Kaya yükü (1,3-2,0)B | 0,6-1,22 m aralıklı bulonlar | Bulonlarla birlikte 15 cm veya daha kalın tavan ve yanlarda\n\nÇok zayıf RQD<25 (Kabarma basıncı olmayan ortamlarda) | Tünel açma mak. | 0,6 m aralıklarla orta veya ağır, dairesel kaburgalar\n\n\n\nKaya yükü (1,6-2,2)B | 0,6-1,22 m aralıklı bulonlar | Orta büyüklükte kaburgalar ile birlikte kesit boyunca 15 cm veya daha fazla püskürtme beton\n\nÇok zayıf RQD<25 (Kabarma basıncı olmayan ortamlarda) | Delme-patl. | 0,6 m aralıklı ağır kaburgalar. Kaya yükü (1,6-2,2)B | 0,9 m aralıklı bulonlar | Orta büyüklükte veya daha ağır kaburgalarla birlikte, kesit boyunca 15 cm veya daha kalın\n\nÇok zayıf (şişen kaya ortamı) | Tünel açma mak. | 0,6 m aralıklı çok ağır, dairesel kaburgalar. Kaya yükü >76,2 m | 0,6-0,9 m aralıklı bulonlar | Ağır kaburgalarla birlikte tüm kesit boyunca 15 cm veya daha kalın\n\nÇok zayıf (şişen kaya ortamı) | Delme-patl. | 0,6m aralıklı çok ağır, dairesel kaburgalar. Kaya yükü >76,2 m | 0,6-0,9 m aralıklı bulonlar | Ağır kaburgalarla birlikte, tüm kesit boyunca 15 cm veya daha kalın",
+      "conditions": [],
+      "document_id": "ING_7e795b9a47c89f5406c5",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_5cf162a2d7:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L109",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q11": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.1.2-Q11"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 207,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "8687b6756a4fa66166d1f174d7fcc2978a2353d7988f7bdf594c6e4f87d8c098",
+      "chunk_id": "ING_2005c18d2148fb921826_CH_78a1565ff3",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_fc95b94a3381d548b737f3a4e90d6465bd38176e1be642f1966c5026aeef13a5",
+      "claim_text": "5.2.2 RQD Sistemi İ le Destek Basıncı Ve Destek Seçimi Arasındaki İ li ş ki\nŞekil: Ş ekil 5.3 Tünel desteklemesi seçiminde RQD' nin kullanılması\nŞ ekil 5.3 Tünel desteklemesi seçiminde RQD' nin kullanılması\nTünel açıklığı (m)\n0\n5\n10\n15\n100\n+\nTahkimat gereksiz\nveya yerei buloniama\n75\nDüzenli bulonlama\n%º\n(1-1.5m arahkl)\n50\nRQD\n25\nÇelik iksa\n0\n0\n10\n20\n30\n40\n50\n60\nTünel açikligi,(ft)\nTünel açıklığı ile RQD değeri arasındaki ilişkiye göre uygun destekleme tipinin belirlenmesini gösteren bir sınıflandırma diyagramıdır.",
+      "conditions": [],
+      "document_id": "ING_2005c18d2148fb921826",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK"
+      ],
+      "locator": "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_78a1565ff3:pages=62;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L207",
+      "page_end": 62,
+      "page_start": 62,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q10": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2.1",
+        "2.2",
+        "5.9.1",
+        "1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.1.2-Q10"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 300,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "e5e0b103d8c5a724cc47830518389837832c0f3a8b5791d85ed8ebf341af5723",
+      "chunk_id": "ING_312befcda2ff316b7279_CH_864a12b2e5",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_fcd1ac09f0a3d2fe6aa48dad4ba322a4b99d8123ec9885e4ac8b5fa0a7b24ee0",
+      "claim_text": "350.01.07 Jeolojik Haritalama\nÖlçüm ve aplikasyon için gereken tüm alet, ekipman, kayıt defteri, nivelman defteri, ölçüm aletleri vb. malzemeyi temin edecektir. Ölçüm işi ve aplikasyonun kontrolü için gereken herhangi bir ölçüm ekipmanı, sözleşme süresi boyunca mühendis tarafından kullanılabilecektir. Mühendisin talebi halinde kontrol amacıyla şenör ve taşıma imkanı yüklenici tarafından sağlanacaktır. İhmal veya yanlış aplikasyon nedeniyle ortaya çıkan tüm ilave işler, masrafı yükleniciye ait olmak üzere, mühendis talimatıyla yüklenici tarafından derhal yapılacaktır.\n\n350.01.07 Jeolojik Haritalama\n\nTünel yapımı sırasında jeolojik haritalama temel bir şart olup yüklenici tarafından yerine getirilecektir. Yüklenici, belirtilen işleri yapmak üzere İdare ve mühendisin onayladığı kalifiye bir Jeoloji Mühendisini görevlendirecektir.\n\nTünel aynasından itibaren sürekli olarak en az 30 m'lik kesimin jeolojik yapısının bilinmesi, kazı ve destek sistemlerinin belirlenmesi ve yapım aşamasında projede öngörülen kaya koşullarından farklı kaya ortamlarının olup olmadığının araştırılması için yatay sondajlar yapılacaktır.\n\nYapılacak yatay sondajların karot verimi % 70'den az olmayacak ve son 10 m'si bindirmeli olacak şekilde planlanacaktır. Bu sondajlar yüklenici tarafından yapılacak, değerlendirilmesi mühendis ve Araştırma ve Geliştirme Başmühendisliğince yapılacaktır.\n\nHer  50  m'lik  kazı  tamamlandığında,  tünel  kazısı  sırasında  elde  edilen  jeolojik  bilgilere  ait  kapsamlı kayıtlar,  kazı  aşamasında  gözlenen  ve  ölçülen  tüm  veriler  ışığında  yapılan  kazı  ve  destek  sistemleri, proje aşamasında öngörülen kazı ve destek sistemleri ile imal edilen destek ve karşılaşılan kaya/zemin koşullarıyla ilgili tüm verileri içerecek şekilde jeolojik plan ve boyuna profil mühendise sunulmak üzere yüklenici tarafından hazırlanacak ve muhafaza edilecektir.\n\nİlerleme hızının ayda 50 m'den az olması halinde her ay bir rapor hazırlanacaktır. Kısım 350.11.04 , 'Ekler'de belirtilen bu kayıtlar, kaya formasyonlarına ait tüm açıklamaları, süreksizliklerin yönelimlerini (doğrultu ve eğim), çatlakların durumu,  şistozite,  bozuşma  ve  bulundukları  yerler  bakımından karakteristiklerini, fayların boyut ve yapısını, yeraltı suyu durumunu ve tünel yapımı ile ilgili olabilecek\n\ndiğer tüm bilgileri içerecektir. Ayrıca ayna kazı adımlarının her aşaması fotoğraflanarak mühendis, tünel projecisi (veya temsilcisi) ile İdareye verilecektir.\n\nJeolojik  kesitler,  tünel  kazısı  sırasında,  tünel  üst  yarı  kazısı  aynasında  günlük  olarak  veya  mühendis talebine göre istenen sıklıkta kaydedilecektir. Elde edilen kesitlerin kopyaları, mühendiste her zaman bulundurulacaktır.\n\nJeolojik  şartlarda  ani  ve  beklenmedik  bir  değişiklik  olması  halinde  yüklenici,  mühendisi  ve  Tünel Projecisinin temsilcisini derhal haberdar edecektir.\n\nAraştırma sondajları yüklenicinin İdare tarafından onaylı jeoloji mühendisinin huzurunda yapılacaktır. Mühendis veya tünel projecisinin temsilcisi de hazır bulunacaktır. Yüklenici, yapacağı her bir araştırma işini uygun bir süre önceden bildirecektir.\n\nKomple kapsamlı kayıtlar mühendis tarafından kabul edilinceye kadar tünellere ait tamamlama belgeleri verilmeyecektir.",
+      "conditions": [],
+      "document_id": "ING_312befcda2ff316b7279",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_864a12b2e5:pages=199-200;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L300",
+      "page_end": 200,
+      "page_start": 199,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.1.2-Q44": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2",
+        "2.1"
+      ],
+      "section_id": "2.1.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.4.3",
+      "supporting_question_ids": [
+        "2.1.2-Q44"
+      ]
+    }
+  ],
+  "contract_version": "section-preparation-v1",
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "registry_id": "SCR_3c67a1e3b7d775d59c4ec12482352726451b1d7fd14d48985a955f95bd68405b",
+  "schema_version": "1.0",
+  "section_id": "2.1.2",
+  "section_title": "Tünel Destekleme Elemanları"
+}

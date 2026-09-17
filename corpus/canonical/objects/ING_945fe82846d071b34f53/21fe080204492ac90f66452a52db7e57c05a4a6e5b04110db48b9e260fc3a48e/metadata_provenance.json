@@ -1,0 +1,87 @@
+{
+  "document_id": "ING_945fe82846d071b34f53",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Longitudinal Joint Design For Fibre Reinforced Segmental Tunnel Linings",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2026",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Belge metninde publication/date bağlamında açık yıl: 2026"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "tunnel_general"
+      ],
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://about.ita-aites.org/publications/wg-publications/2614/longitudinal-joint-design-for-fibre-reinforced-segmental-tunnel-linings?tmpl=component",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

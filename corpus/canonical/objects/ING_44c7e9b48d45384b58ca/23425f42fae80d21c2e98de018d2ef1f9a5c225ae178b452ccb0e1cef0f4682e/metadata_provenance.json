@@ -1,0 +1,112 @@
+{
+  "document_id": "ING_44c7e9b48d45384b58ca",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Study of the influence of geotechnical parameters on the TBM performance in Tehran–Shomal highway project using ANN and SPSS",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "S. R. Torabi",
+        "H. Shirazi",
+        "H. Hajali",
+        "M. Monjezi"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2011",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: journal of"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "case_study",
+        "drainage",
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "ground_improvement",
+        "maintenance",
+        "operations",
+        "rock_bolt",
+        "rock_mechanics",
+        "tbm",
+        "traffic",
+        "ventilation"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; geotechnical_investigation:geotechnical; geology:geolog; rock_mechanics:rock mechanics; excavation:excavat; rock_bolt:rock bolt; ground_improvement:ground improvement; drainage:drainage; ventilation:ventilation; traffic:traffic; operations:operation; maintenance:maintenance"
+    },
+    {
+      "field": "source_url",
+      "value": "https://link.springer.com/article/10.1007/s12517-011-0415-3",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1007/s12517-011-0415-3",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "document_id": "ING_ba9aa86f631f57839b71",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Traffic management | Road Tunnels Manual - PIARC (World Road Association)",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "manual",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: manual"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "cost",
+        "maintenance",
+        "monitoring",
+        "operations",
+        "portal",
+        "safety",
+        "traffic",
+        "ventilation"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "portal:portal; monitoring:monitoring; safety:safety; ventilation:ventilation; traffic:traffic; operations:operation; maintenance:maintenance; cost:cost; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://tunnelsmanual.piarc.org/en/equipment-systems/traffic-management",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

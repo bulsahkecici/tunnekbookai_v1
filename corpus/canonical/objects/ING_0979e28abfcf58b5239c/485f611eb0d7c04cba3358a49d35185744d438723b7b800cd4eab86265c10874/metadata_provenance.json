@@ -1,0 +1,115 @@
+{
+  "document_id": "ING_0979e28abfcf58b5239c",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Engineering geological investigations along the Meram railway tunnel, Konya, Turkey",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Ali Riza Sogut",
+        "Njong Joseph Samba"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2019",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: journal of"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "case_study",
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "monitoring",
+        "natm",
+        "rock_bolt",
+        "rock_mechanics",
+        "shotcrete",
+        "support_systems"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; geotechnical_investigation:geotechnical; geology:geolog; rock_mechanics:rock mechanics; excavation:excavat; shotcrete:shotcrete; rock_bolt:rock bolt; support_systems:support system; monitoring:monitoring; case_study:case study; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://link.springer.com/article/10.1007/s12517-019-4839-5",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1007/s12517-019-4839-5",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "document_status",
+      "value": "DRAFT",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "status marking: preliminary"
+    }
+  ]
+}

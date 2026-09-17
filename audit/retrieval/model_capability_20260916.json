@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-09-16",
+  "embedding": {
+    "endpoint": "http://127.0.0.1:1234/v1",
+    "model": "text-embedding-baai-bge-m3-568m",
+    "model_available": true,
+    "request_succeeds": true,
+    "non_empty_vector": true,
+    "vector_dimension": 1024,
+    "stable_dimension": true,
+    "status": "AVAILABLE"
+  },
+  "llm": {
+    "endpoint": "http://127.0.0.1:1234/v1",
+    "model": "qwen/qwen3.8-27b",
+    "model_available": true,
+    "structured_request_succeeds": true,
+    "status": "AVAILABLE"
+  },
+  "decision": "AVAILABLE",
+  "command": "PYTHONPATH=. .venv/bin/python scripts/probe_models.py"
+}

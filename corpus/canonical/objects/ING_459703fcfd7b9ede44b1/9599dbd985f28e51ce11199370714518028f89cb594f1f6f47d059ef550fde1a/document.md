@@ -1,0 +1,2306 @@
+<!-- image -->
+
+Logo
+
+## FIXED FIRE FIGHTING AND EMERGENCY VENTILATION SYSTEMS FOR HIGHWAY TUNNELS - RESEARCH REPORT
+
+<!-- image -->
+
+Photograph
+
+FHWA-HIF-24-005
+
+## Technical Report Documentation Page
+
+| 1. Report No. FHWA-HIF-24-005                                                                                                      | 2. Government Accession No. TBA                                                   | 3. Recipient's Catalog No. TBA                                           |
+|------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| 4. Title and Subtitle Fixed Fire Fighting and Emergency Ventilation Systems for 7. Principal Investigator(s): WSP (Matthew Bilson, | Raza, William Connell)                                                            | Highway Tunnels - Research Report 5. Report Date October 2023 Code Hasan |
+|                                                                                                                                    |                                                                                   | 6. Performing Organization TBA                                           |
+| 8. Performing Organization Report TBA 9. Performing Organization WSP USA, Inc. One Penn Plaza                                      | and Address                                                                       | Name 10. Work Unit No. (TRAIS) TBA Contract or Grant No.                 |
+| 250 West 34 th Street New York, NY, 10119 11. DTFH6114D00048                                                                       | 250 West 34 th Street New York, NY, 10119 11. DTFH6114D00048                      | 12. Sponsoring Agency Name and Address Federal Highway Administration    |
+|                                                                                                                                    |                                                                                   | 13. Type of Report and Period Covered                                    |
+| U.S. Department of Transportation 1200 New Jersey Avenue, SE Washington, DC 20590                                                  | U.S. Department of Transportation 1200 New Jersey Avenue, SE Washington, DC 20590 | 14. Sponsoring Agency Code                                               |
+
+## 15. Supplementary Notes
+
+## 16. Abstract
+
+The Federal Highway Administration (FHWA) has conducted research into the use of fixed fire fighting systems (FFFS) in road tunnels. The objective was to consider the operational integration of highway tunnel emergency ventilation systems (EVS) with installed fixed fire fighting systems (FFFS). This report is the summary report, which brings together findings from the earlier reports. The research found that the FFFS operation can improve the longitudinal EVS performance through cooling of the combustion products.  Computational  fluid  dynamics  (CFD)  models  were  developed  to  examine  FFFS  and  EVS integration,  using  Fire  Dynamics  Simulator  (FDS)  (a  freely  available  CFD  software  developed  by  the National Institute of Standards and Technology). It was found that FDS models tended to over predict critical velocity and backlayering under longitudinal ventilation, and that grid independence could not be achieved for  the  mesh  resolutions  used.  FDS  models  were  able  to  replicate  the  observed  beneficial effects of FFFS operation for the EVS. Suggested practices for FFFS and EVS integration are provided.
+
+| 17. Key Words Fixed fire fighting system, FFFS, deluge, water mist, tunnel, tunnel ventilation, CFD, testing, nozzle characterization   | 17. Key Words Fixed fire fighting system, FFFS, deluge, water mist, tunnel, tunnel ventilation, CFD, testing, nozzle characterization   | 17. Key Words Fixed fire fighting system, FFFS, deluge, water mist, tunnel, tunnel ventilation, CFD, testing, nozzle characterization   | 18. Distribution Statement No restrictions.   |
+|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| 19. Security Classif. (of this report) UNCLASSIFIED                                                                                     | 20. Security Classif. (of this page) UNCLASSIFIED                                                                                       | 21. No. of Pages 123                                                                                                                    | 22. Price                                     |
+
+Form DOT F 1700.7(8-72)
+
+Reproduction of completed page authorized
+
+## Notice
+
+This document is disseminated under the sponsorship of the U.S. Department of Transportation in the interest of information exchange. The U.S. Government assumes no liability for the use of the information contained in this document.
+
+The U.S. Government does not endorse products or manufacturers. Trademarks or manufacturers' names appear in this document only because they are considered essential to the objective of the document. They are  included  for  informational  purposes  only  and  are  not  intended  to  reflect  a  preference,  approval,  or endorsement of any one product or entity.
+
+## Non-Binding Contents
+
+Except for the statutes and regulations cited, the contents of this document do not have the force and effect of law and are not meant to bind the States or the public in any way. This document is intended only to provide information regarding existing requirements under the law or agency policies.
+
+## Quality Assurance Statement
+
+The  Federal  Highway  Administration  (FHWA)  provides  high-quality  information  to  serve  Government, industry, and the public in a manner that promotes public understanding. Standards and policies are used to ensure and maximize the quality, objectivity, utility, and integrity of its information. FHWA periodically reviews quality issues and adjusts its programs and processes to ensure continuous quality improvement.
+
+## ACRONYMS
+
+| ABBREVIATION   | DETAIL                                         |
+|----------------|------------------------------------------------|
+| CFD            | Computational fluid dynamics                   |
+| CNG            | Compressed natural gas                         |
+| DNS            | Direct numerical simulation                    |
+| EVS            | Emergency ventilation system                   |
+| FDC            | Fire department connection                     |
+| FDS            | Fire Dynamics Simulator                        |
+| FFFS           | Fixed fire fighting system                     |
+| FHRR           | Fire heat release rate                         |
+| FHWA           | Federal Highway Administration                 |
+| FPLS           | Fire protection and life safety                |
+| HGV            | Heavy goods vehicle                            |
+| HRR            | Heat release rate                              |
+| LES            | Large eddy simulation                          |
+| LTA            | Land Transport Authority                       |
+| MT             | Memorial Tunnel                                |
+| MTFVTP         | Memorial Tunnel Fire Ventilation Test Program  |
+| NFPA           | National Fire Protection Association           |
+| NIST           | National Institute of Standards and Technology |
+| PIARC          | World Road Association                         |
+| RISE           | Research Institutes of Sweden                  |
+| SOLIT          | Safety Of Life In Tunnels                      |
+
+## SUMMARY
+
+The Federal Highway Administration (FHWA) has been researching the use of fixed fire fighting systems (FFFS) in road tunnels.  The  objective  was to  consider the  operational  integration  of highway tunnel emergency ventilation systems (EVS) with installed fixed  fire fighting systems (FFFS), and to then develop a set of suggested practices on the integration of FFFS and EVS. The technical approach to this research project was divided into the following five distinct tasks:
+
+1. Literature survey and synthesis [1] (Fixed Fire Fighting and Emergency Ventilation Systems for  Highway  Tunnels  -  Literature  Survey  and  Synthesis,  Federal  Highway  Administration, FHWA-HIF-20-016). This report provided a review of the state-of-the-art related to FFFS and EVS in highway tunnels. Key outcomes from this report were used to formulate research questions into the integration of FFFS and EVS.
+2. Industry workshop and report (including workplans for computer modeling and testing) [2] (Fixed Fire Fighting and Emergency Ventilation Systems for Highway Tunnels - Workshop Report,  Federal  Highway  Administration,  FHWA-HIF-20-060).  A  workshop  was  held  with industry participants in January 2020. The outcome of this report included the workplans for computer modeling and physical testing.
+3. Computer modeling research [3] (Fixed Fire Fighting and Emergency Ventilation Systems for Highway Tunnels - Computer Modeling Report, Federal Highway Administration, FHWA-HIF22-021).  Fire  Dynamics  Simulator  (FDS)  was  used  for  computer  modeling 1 .  FDS  model validation work used the Memorial Tunnel (located in West Virginia) longitudinal ventilation tests, as well as tests with FFFS by the Singapore Land Transport Authority (LTA).
+
+The  Memorial  Tunnel  validation  work  appearing  in  Chapter  2  of  the  Computer  Modeling Report used a large wall roughness height (0.9 m) to calibrate a backlayering result in the model to better match test data. The methodology based on these models was then used to look at the relative effects of the FFFS on smoke management. In this present report a smaller value of the wall roughness height is used (0.05 m) and the internal obstructions in the tunnel are modeled in greater detail.
+
+The  FDS  software  was  updated  after  publication  of  the  Computer  Modeling  Report.  The version of FDS used in the Computer Modeling Report had some issues with the pressure solver predicting oscillating pressure fields and model numerical stability, or poor convergence of  the  pressure  field  for  different  grid  resolutions.  In  the  Computer  Modeling  Report  small openings, as suggested in the FDS User Guide, were sometimes used to achieve a stable numerical solution. Since the publication of the Computer Modeling Report, the developers of FDS have implemented changes to the pressure solver to address the pressure issues [4]. With these updates, improved pressure field convergence is demonstrated [5], and the model has also been found to predict more realistic pressure fields for tunnel fire models (that is, the pressure decreases along the tunnel in the direction of airflow and similar results are observed as the grid is refined). The updated FDS User Guide provides additional discussion around long tunnels and pressure solver considerations, and model convergence advice. It is noted that inclusion of additional openings is still suggested in the User Guide, but this was not used as  an  approach  in  this  present  report  and  instead  the  pressure  solver  convergence parameters were refined to achieve a stable solution.
+
+1 The FDS software is developed by the National Institute of Standards and Technology (NIST) and the use of FDS is free of charge.
+
+As a result of the above items, conclusions regarding the performance of FDS for longitudinal ventilation and backlayering prediction have been revised in this summary report. This report should be referenced instead of computer modeling research report [3] (Fixed Fire Fighting and  Emergency  Ventilation  Systems  for  Highway  Tunnels  -  Computer  Modeling  Report, Federal Highway Administration, FHWA-HIF-22-021) for updated information regarding FDS.
+
+4. Laboratory  scale  testing  [6]  (Fixed  Fire  Fighting  and  Emergency  Ventilation  Systems  for Highway Tunnels - Laboratory Testing Report, Federal Highway Administration, FHWA-HIF23-022). Testing was conducted on a reduced scale tunnel with different FFFS nozzles used. FDS models were conducted to replicate the tests. Testing showed that smaller water drops caused more cooling, and that FFFS operation helped improve backlayering control through the cooling effects of the water spray on combustion products. The main finding in this report with FDS was that the model did not predict backlayering unless the grid was fine near to the walls.
+5. Research report and suggested practices. This is the present document. Chapter 2 of this document provides a summary of the previous reports in the research program, Chapter 3 summarizes integration of longitudinal EVS and FFFS, Chapter 4 presents a discussion of additional related topics, and Chapter 5 provides the conclusions.
+
+Research hypotheses are revisited here to summarize the outcomes. The first hypothesis is that FFFS and EVS can be integrated and EVS capacity optimized because of the cooling effects of the FFFS water spray. The second hypothesis is that CFD can be used to predict FFFS and EVS interaction for design integration.
+
+The  first  hypothesis  is  partially  accepted,  because  EVS  capacity  optimization  has  not  been investigated, but the research has found results that demonstrate that the FFFS can improve EVS performance through cooling of the combustion products. The Testing Report demonstrated that the  FFFS  operation  provided  cooling  that  enabled  improved  smoke  control  in  longitudinal ventilation relative to a similar test condition with no FFFS operating. The literature survey also found other test evidence supporting this. The SOLIT (Safety Of Life In Tunnels) test scientific report [7] noted that the 'capacity of the fire ventilation can be tripled when a water mist FFFS is used at the same time.' In the Class A fire tests (wood pallets), the longitudinal ventilation system was noted to prevent backlayering with a FHRR of around 30 MW and an upstream velocity in the range of 2 to 2.5 m/s. With Class B fires (liquid fuel), backlayering was observed with a FHRR of 20 MW and an upstream velocity of 2.8 m/s, prior to FFFS operation. When the FFFS was operated the FHRR was not immediately reduced, however, backlayering was prevented at a peak FHRR of around 70 MW with an upstream velocity of 2.1 m/s (with FFFS in operation) [8]. The FDS models conducted in Section 3.3 and Section 3.9.6 herein, and in the Testing Report, also demonstrated improved smoke control due to the FFFS cooling effects.
+
+The second hypothesis is that CFD can be used to predict FFFS and EVS interaction for design integration.  The  CFD  model  used  herein  was  Fire  Dynamics  Simulator  (FDS) 1 .  Integration combinations  of  FFFS  and  EVS  include  water  droplet  size,  varying  water  application  rates, different ventilation regimes (longitudinal, transverse, single point exhaust) and varying tunnel geometry. This hypothesis is broken down into individual parts:
+
+- Water droplet drift: Refer to Section 3.7 herein. This was estimated with equations and FDS models,  with  similar  results  for  large  drop  (0.65 mm  diameter)  systems  but  divergence between equations and models for smaller drops (0.155 mm), with the equations tending to predict more water drop drift. The hypothesis is accepted for this aspect when applied to the larger  water  drops.  Some  caution  is  suggested  in  the  use  of  models  and  equations  as described herein due to comparison with test data not being provided. Physical measurements of water droplet drift, to provide physical data for model validation, is also suggested for future research.
+- Airflow resistance due to the FFFS: Refer to Section 3.5 herein. The airflow resistance was estimated with equations and FDS models. The losses due to FFFS were found to be small relative  to  other  losses  in  the  tunnel  due  to  wall  friction,  aerodynamic  resistance  of obstructions, fire, etc. In Section 3.9.5 herein FDS models were conducted, and a similar result was seen. The hypothesis is accepted for this aspect, though it is noted that the equation presented in Section 3.5 would provide acceptable results as an alternative to running an FDS model.
+- FFFS cooling effects: The ability of FDS to predict cooling due to the FFFS was tested in the Computer Modeling Report through comparison of downstream temperatures from the LTA tests. The analysis in the Computer Modeling Report showed that the model could predict temperature downstream of the fire with the LTA test data after operation of the FFFS, and results were similar for grid resolutions of 0.2 m and 0.4 m. The velocity in these tests was around  3 m/s  and,  based  on  observation  of  other  full-scale  test  results  (Memorial  Tunnel tests), likely to be more than the critical velocity. These results gave some confidence in the ability  of  FDS to predict water evaporation and gas cooling, which are physical processes introduced when considering the interaction between the EVS and FFFS. Note that the LTA models  were  repeated  with  the  newer  versions  of  FDS,  which  improved  on  previously identified pressure solver issues (refer to Section 2.3 herein), and the results showed only minor differences to results on the older version of FDS. FDS models in the Testing Report also  showed that the model could predict  downstream temperatures when the FFFS was operated. The hypothesis is accepted for this aspect.
+- Tenability: Refer to Section 3.8 herein and below:
+- For temperature when considering the FFFS cooling effects, the FDS model can predict downstream temperature (hypothesis accepted).
+- For radiation heat flux, the FDS models tended to over-predict the heat flux relative to tests (hypothesis not accepted, though it is noted that the tendency of FDS to give higher heat fluxes would lead to an outcome predicting reduced tenability in this parameter, and this parameter tends only to be exceeded in the region of the fire perimeter where tenability levels are usually not feasible to achieve).
+- For carbon monoxide, other toxic combustion product levels, and visibility, specific data were not obtained (hypothesis inconclusive). It is noted that FDS models do account for
+
+physical factors that cause mixing of combustion products down from ceiling level, but specific validation data for this were not sourced in this research.
+
+- Critical velocity: Refer to Section 3.9 herein. It was found that FDS over-predicts backlayering (and  hence  critical  velocity)  and  that  the  extent  of  the  predicted  backlayering  changes (increases) with finer grids. It is noted that test data were not obtained for critical velocity with FFFS operating and thus the FDS models were not validated for this condition. The research hypothesis is not accepted for the aspect of quantitative critical velocity prediction.
+
+## ACKNOWLEDGMENTS
+
+The  FHWA  is  the  source  of  all  figures  and  photographs  within  this  document  unless  noted otherwise. Reviewers of this report are acknowledged: Igor Maevski, Andrew Page, David Hahm, and Arnold Dix.
+
+## UNIT CONVERSIONS
+
+## TABLE OF CONTENTS
+
+| 1 INTRODUCTION ................................................................................................................................... 1   | 1 INTRODUCTION ................................................................................................................................... 1   | 1 INTRODUCTION ................................................................................................................................... 1   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.1                                                                                                                                                    | 1.1                                                                                                                                                    | Terminology................................................................................................................................... 1       |
+| 2 PROJECT REPORT SUMMARIES ...................................................................................................... 3                    | 2 PROJECT REPORT SUMMARIES ...................................................................................................... 3                    | 2 PROJECT REPORT SUMMARIES ...................................................................................................... 3                    |
+| 2.1                                                                                                                                                    | 2.1                                                                                                                                                    | Literature Survey and Synthesis ................................................................................................... 3                  |
+| 2.2 Workshop                                                                                                                                           | 2.2 Workshop                                                                                                                                           | Report ........................................................................................................................ 26                     |
+| 2.3 Computer Modeling Report                                                                                                                           | 2.3 Computer Modeling Report                                                                                                                           | ......................................................................................................... 27                                           |
+| 2.4 Testing Report                                                                                                                                     | 2.4 Testing Report                                                                                                                                     | ............................................................................................................................. 31                       |
+| 3 LONGITUDINAL VENTILATION ........................................................................................................ 35                 | 3 LONGITUDINAL VENTILATION ........................................................................................................ 35                 | 3 LONGITUDINAL VENTILATION ........................................................................................................ 35                 |
+| 3.1                                                                                                                                                    | Fire Heat Release Rate (FHRR) .................................................................................................                        | 35                                                                                                                                                     |
+| 3.2                                                                                                                                                    | FFFS Cooling of the Combustion Products ................................................................................                               | 37                                                                                                                                                     |
+| 3.3                                                                                                                                                    | Critical and Confinement Velocity ...............................................................................................                      | 37                                                                                                                                                     |
+| 3.4                                                                                                                                                    | Airflow Resistance Due to Fire ....................................................................................................                    | 49                                                                                                                                                     |
+| 3.5                                                                                                                                                    | Airflow Resistance Due to the FFFS ...........................................................................................                         | 52                                                                                                                                                     |
+| 3.6                                                                                                                                                    | Friction Losses Introduced by FFFS Pipework ...........................................................................                                | 53                                                                                                                                                     |
+| 3.7                                                                                                                                                    | Water Droplet Deflection Due to the EVS ...................................................................................                            | 56                                                                                                                                                     |
+| 3.8                                                                                                                                                    | Tenability for Egress and Fire Fighting .......................................................................................                        | 60                                                                                                                                                     |
+| 3.9                                                                                                                                                    | Memorial Tunnel Fire Tests ........................................................................................................                    | 62                                                                                                                                                     |
+| 3.10                                                                                                                                                   | Summary .....................................................................................................................................          | 94                                                                                                                                                     |
+| FURTHER TOPICS ............................................................................................................................. 98        | FURTHER TOPICS ............................................................................................................................. 98        | FURTHER TOPICS ............................................................................................................................. 98        |
+| 4.1                                                                                                                                                    | System Combinations .................................................................................................................                  | 98                                                                                                                                                     |
+| 4.2                                                                                                                                                    | Transverse Ventilation and FFFS Integration .............................................................................                              | 99                                                                                                                                                     |
+| 4.3                                                                                                                                                    | Alternative Fuel Vehicles ...........................................................................................................                  | 102                                                                                                                                                    |
+| 4.4                                                                                                                                                    | Dangerous Goods Vehicles ......................................................................................................                        | 103                                                                                                                                                    |
+| 4.5                                                                                                                                                    | Water Application Rate and FFFS Nozzles ..............................................................................                                 | 105                                                                                                                                                    |
+| 4.6                                                                                                                                                    | Owner Perspectives ..................................................................................................................                  | 106                                                                                                                                                    |
+| 4.7                                                                                                                                                    | Structural Fire Protection ..........................................................................................................                  | 107                                                                                                                                                    |
+| 4.8                                                                                                                                                    | FFFS Operational Aspects ........................................................................................................                      | 108                                                                                                                                                    |
+| 5 CONCLUSIONS ................................................................................................................................ 109     | 5 CONCLUSIONS ................................................................................................................................ 109     | 5 CONCLUSIONS ................................................................................................................................ 109     |
+| 5.1                                                                                                                                                    | Literature Survey and Synthesis - Revisiting the Questions Raised ........................................                                             | 109                                                                                                                                                    |
+| 5.2                                                                                                                                                    | Literature Survey and Synthesis - Ventilation Discussion ........................................................                                      | 113                                                                                                                                                    |
+| 5.3                                                                                                                                                    | Research Hypotheses ...............................................................................................................                    | 115                                                                                                                                                    |
+| 5.4                                                                                                                                                    | Summary of Suggested Practices Based on Research Findings .............................................                                                | 117                                                                                                                                                    |
+| 5.5                                                                                                                                                    | Suggested Topics for Future Research ....................................................................................                              | 117                                                                                                                                                    |
+
+## LIST OF FIGURES
+
+| Figure 2-1: Circular cross-section tunnel. ...................................................................................                                                                                                                                                                                                  | 4                                                                                                     |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| Figure 2-2: Rectangular cross-section tunnel. ............................................................................                                                                                                                                                                                                      | 4                                                                                                     |
+| Figure 2-3: Horseshoe cross-section tunnel. ..............................................................................                                                                                                                                                                                                      | 4                                                                                                     |
+| Figure 2-4: Oval cross-section tunnel. ........................................................................................                                                                                                                                                                                                 | 4                                                                                                     |
+| Figure 2-5: Graph. FHRR data for single passenger car fires [22].                                                                                                                                                                                                                                                               | ............................................10                                                        |
+| Figure 2-6: Graph. FHRR data for bus fires [16] [22].                                                                                                                                                                                                                                                                           | ................................................................10                                    |
+| Figure 2-7: Graph. FHRR data for heavy goods vehicle fires [18] [19]. ......................................11                                                                                                                                                                                                                  |                                                                                                       |
+| Figure 2-8: Graph. FHRR profiles for gasoline and electric vehicles [31] and [33].                                                                                                                                                                                                                                              | ....................13                                                                                |
+| Figure 2-9: Graph. FHRR curves for a selection of Runehamar tests [37] (2016 tests), [38] (2013 tests). ..............................................................................................................................16                                                                                        |                                                                                                       |
+| Figure 2-10: Graph. FHRR curves for a selection of LTA tests [39].                                                                                                                                                                                                                                                              | ..........................................17                                                          |
+| Figure 2-11: Graph. LTA test versus design fire HRR curves.                                                                                                                                                                                                                                                                     | ...................................................18                                                 |
+| Figure 2-12: Typical FFFS zone arrangement [41]. ...................................................................19                                                                                                                                                                                                          |                                                                                                       |
+| Figure 2-13: Example of CCTV and FFFS integration [41].                                                                                                                                                                                                                                                                         | .......................................................21                                             |
+| Figure 2-14: Example of CCTV and FFFS integration [41].                                                                                                                                                                                                                                                                         | .......................................................21                                             |
+| Figure 2-15: Graph. Water application rates (per NFPA 13 3 Figure 19.3.3.1.1) with common road tunnel applications indicated [44] [41]. ................................................................22                                                                                                                      |                                                                                                       |
+| Figure 2-16: Equation. Critical velocity equation with FFFS impact factored in [56]. ..................30                                                                                                                                                                                                                       |                                                                                                       |
+| Figure 3-1: Equation. Pressure balance for a longitudinal EVS.                                                                                                                                                                                                                                                                  | ................................................35                                                    |
+| Figure 3-2: Equation. Pressure changes due to buoyancy forces.                                                                                                                                                                                                                                                                  | .............................................37                                                       |
+| Figure 3-3: Equation. Critical velocity, NFPA 502 4 2014 [66].                                                                                                                                                                                                                                                                  | ....................................................38                                                |
+| Figure 3-4: Sketch of the scaled-up tunnel model (side view).                                                                                                                                                                                                                                                                   | ...................................................41                                                 |
+| Figure 3-5: Sketch of the scaled-up tunnel model (top view).                                                                                                                                                                                                                                                                    | ....................................................41                                                |
+| Figure 3-6: FDS model of the scaled-up tunnel.                                                                                                                                                                                                                                                                                  | ........................................................................42                            |
+| Figure 3-7: Widened tunnel model for the geometry sensitivity.                                                                                                                                                                                                                                                                  | ................................................43                                                    |
+| Figure 3-8: Temperature contour comparison for the base case and fine grid resolution at FDS predicted critical velocity. ..................................................................................................45                                                                                                  |                                                                                                       |
+| Figure 3-9: Visibility contour comparison for the base case and fine grid resolution with FDS inlet velocity reduced (from critical predicted value of 2.2 m/s) and FFFS operating.                                                                                                                                             | ........46                                                                                            |
+| Figure 3-10: Visibility contour comparison for the base case and fine grid resolution with widened tunnel model with FDS inlet velocity reduced (from critical predicted value of 2.2 m/s) and FFFS operating.                                                                                                                  | ...................................................................................................46 |
+| Figure 3-11: Visibility contour comparison for the 50 MW FHRR tunnel model with fine grid resolution with nine percent reduction in the free stream inlet velocity. .....................................47                                                                                                                     |                                                                                                       |
+| Figure 3-12: Visibility contour comparison between varying inlet boundary condition proximity to the fire at fine grid resolution with FDS inlet velocity reduced (from critical predicted value) and FFFS operating. .......................................................................................47                 |                                                                                                       |
+| Figure 3-13: Visibility contour comparison between varying inlet boundary condition proximity to the fire at fine grid resolution with FDS predicted critical velocity and FFFS operating. ..................................................................................................................................48 |                                                                                                       |
+| Figure 3-14: Equation. SVS pressure drop equation due to fire. ................................................50                                                                                                                                                                                                               |                                                                                                       |
+
+| Figure 3-15: Equation. Pressure drop equation suggested for EVS design [68]. .......................50                                                                                                                          |                                                                                                            |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| Figure 3-16: Equation. Pressure loss due to throttling effects [51] (downstream stratification). ............................................................................................................................51 |                                                                                                            |
+| Figure 3-17: Pressure losses due to fire (Memorial Tunnel cross section) (MTLV-01-02).                                                                                                                                          | .........52                                                                                                |
+| Figure 3-18: Equation. Pressure loss due to the FFFS [71]. ......................................................52                                                                                                             |                                                                                                            |
+| Figure 3-19: Equation. Haaland equation for friction factor. .......................................................53                                                                                                          |                                                                                                            |
+| Figure 3-20: Equation. Pressure loss equation. .........................................................................53                                                                                                      |                                                                                                            |
+| Figure 3-21: Equation. Friction factor computation for internal obstructions. .............................54                                                                                                                   |                                                                                                            |
+| Figure 3-22: Equation. Friction factor interference factor for shadowing [73]. ............................54                                                                                                                   |                                                                                                            |
+| Figure 3-23: Square tunnel cross-section and geometry both with and without FFFS pipework modeled for the CFD analysis. ...................................................................................55                   |                                                                                                            |
+| Figure 3-24: Equation. Pressure loss and friction factor computation for CFD analysis.                                                                                                                                          | ............56                                                                                             |
+| Figure 3-25: Equation. Water drop equation of motion in horizontal direction [71]. ....................57                                                                                                                       |                                                                                                            |
+| Figure 3-26: Equation. Water drop equation of motion in vertical direction [71]. ........................57                                                                                                                     |                                                                                                            |
+| Figure 3-27: Equation. Water drop relative velocity to air [71]. ..................................................57                                                                                                           |                                                                                                            |
+| Figure 3-28: Equation. Water drop drag coefficient [71]. ...........................................................57                                                                                                          |                                                                                                            |
+| Figure 3-29: Equation. Water drop Reynolds number in air [71]. ...............................................58                                                                                                                |                                                                                                            |
+| Figure 3-30: Model schematic to examine water drop drift. .......................................................58                                                                                                             |                                                                                                            |
+| Figure 3-31: Spray prediction with FDS (EVS-11-45) compared with results from analytical equations (EVS-11-44) for large drop size. ...............................................................................59           |                                                                                                            |
+| Figure 3-32: Spray prediction with FDS (EVS-11-42) compared with results from analytical equations (EVS-11-44) for mist drop size. .................................................................................59          |                                                                                                            |
+| Figure 3-33: Spray prediction with FDS (EVS-11-46) compared with results from analytical equations (EVS-11-44) for mist drop size with air motion frozen. ..............................................60                      |                                                                                                            |
+| Figure 3-34: Equation. Pressure balance for a longitudinal EVS.                                                                                                                                                                 | ..............................................63                                                           |
+| Figure 3-35: Tunnel cross section (Memorial Tunnel).                                                                                                                                                                            | ...............................................................64                                          |
+| Figure 3-36: FDS model cross section with fans in groups of three in the foreground and simplified blockages at measurement loops. .............................................................................65              |                                                                                                            |
+| Figure 3-37: Memorial Tunnel tests showing blockages in the tunnel [64].                                                                                                                                                        | ................................65                                                                         |
+| Figure 3-38: Jet fan thrust.                                                                                                                                                                                                    | ........................................................................................................66 |
+| Figure 3-39: FDS model with more detailed blockage representation. .......................................66                                                                                                                    |                                                                                                            |
+| Figure 3-40: FHRR profile for Memorial Tunnel test 612B.                                                                                                                                                                        | ........................................................67                                                 |
+| Figure 3-41: Cold flow results (MTLV-01-04). ............................................................................71                                                                                                     |                                                                                                            |
+| Figure 3-42: Isotherm of temperature (86 degrees Fahrenheit) upstream of fire, Memorial Tunnel test 612B versus FDS (MTLV-03-6), volumetric heat source, 0.4 m grid. ......................74                                   |                                                                                                            |
+| Figure 3-43: Isotherm of temperature (86 degrees Fahrenheit) upstream of fire, Memorial Tunnel test 612B versus FDS (MTLV-03-7), mixing controlled fire, 0.4 m grid...........................75                                |                                                                                                            |
+| Figure 3-44: Isotherm of temperature (86 degrees Fahrenheit) upstream of fire, Memorial Tunnel test 612B versus FDS (MTLV-03-10), volumetric heat source, 0.2 m grid. ....................75                                    |                                                                                                            |
+| Figure 3-45: Isotherm of temperature (86 degrees Fahrenheit) upstream of fire, Memorial Tunnel test 612B versus FDS (MTLV-03-8), mixing controlled fire, 0.2 m grid...........................76                                |                                                                                                            |
+
+| Figure 3-46: Isotherm of temperature (86 degrees Fahrenheit) upstream of fire, Memorial Tunnel test 612B versus FDS (MTLV-03-20), volumetric heat source, 0.4 m grid with no vehicle silhouettes. ....................................................................................................................76   |                    |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| Figure 3-47: Memorial Tunnel test 612B versus FDS, temperature at loop 307 (203 ft. upstream of loop 205) at 3.66 m (12 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).                                                                | ................78 |
+| Figure 3-48: Memorial Tunnel test 612B versus FDS, temperature at loop 307 (203 ft. upstream of loop 205) at 7.32 m (24 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).                                                                | ................78 |
+| Figure 3-49: Memorial Tunnel test 612B versus FDS, temperature at loop 305 (37 ft. upstream of loop 205) at 3.66 m (12 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).                                                                 | ................79 |
+| Figure 3-50: Memorial Tunnel test 612B versus FDS, temperature at loop 305 (37 ft. upstream of loop 205) at 7.32 m (24 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).                                                                 | ................79 |
+| Figure 3-51: Memorial Tunnel test 612B versus FDS, temperature at loop 304 (40 ft. downstream of loop 205) at 3.66 m (12 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).                                                               | ................80 |
+| Figure 3-52: Memorial Tunnel test 612B versus FDS, temperature at loop 304 (40 ft. downstream of loop 205) at 7.32 m (24 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).                                                               | ................80 |
+| Figure 3-53: Memorial Tunnel test 612B versus FDS, temperature at loop 302 (217 ft. downstream of loop 205) at 3.66 m (12 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).                                                              | ................81 |
+| Figure 3-54: Memorial Tunnel test 612B versus FDS, temperature at loop 302 (217 ft. downstream of loop 205) at 7.32 m (24 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).                                                              | ................81 |
+| Figure 3-55: Memorial Tunnel test 612B versus FDS, velocity at loop 305 (37 ft. upstream of loop 205) at 3.66 m (12 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8). ...........................82                                      |                    |
+| Figure 3-56: Memorial Tunnel test 612B versus FDS, velocity at loop 305 (37 ft. upstream of loop 205) at 7.32 m (24 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8). ...........................82                                      |                    |
+| Figure 3-57: Memorial Tunnel test 612B versus FDS, velocity at loop 304 (40 ft. downstream of loop 205) at 3.66 m (12 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).                                                                  | ................83 |
+| Figure 3-58: Memorial Tunnel test 612B versus FDS, velocity at loop 304 (40 ft. downstream of loop 205) at 7.32 m (24 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).                                                                  | ................83 |
+| Figure 3-59: Memorial Tunnel test 612B versus FDS, temperature at loop 305 (37 ft. upstream of loop 205) at 3.66 m (12 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7). ................................................84                                |                    |
+| Figure 3-60: Memorial Tunnel test 612B versus FDS, temperature at loop 305 (37 ft. upstream of loop 205) at 7.32 m (24 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7). ................................................85                                |                    |
+
+| Figure 3-61: Memorial Tunnel test 612B versus FDS, temperature at loop 304 (40 ft. downstream of loop 205 at 3.66 m (12 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7). ................................................85              |                                                                                            |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| Figure 3-62: Memorial Tunnel test 612B versus FDS, temperature at loop 304 (40 ft. downstream of loop 205) at 7.32 m (24 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7). ....................................86                         |                                                                                            |
+| Figure 3-63: Memorial Tunnel test 612B versus FDS, temperature at loop 302 (217 ft. downstream of loop 205 at 3.66 m (12 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7). ................................................86             |                                                                                            |
+| Figure 3-64: Memorial Tunnel test 612B versus FDS, temperature at loop 302 (217 ft. downstream of loop 205) at 7.32 m (24 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7). ....................................87                        |                                                                                            |
+| Figure 3-65: Memorial Tunnel test 612B versus FDS, velocity at loop 305 (37 ft. upstream of loop 205) at 3.66 m (12 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7). .................................................................87 |                                                                                            |
+| Figure 3-66: Memorial Tunnel test 612B versus FDS, velocity at loop 305 (37 ft. upstream of loop 205) at 7.32 m (24 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7). .................................................................88 |                                                                                            |
+| Figure 3-67: Memorial Tunnel test 612B versus FDS, velocity at loop 304 (40 ft. downstream of loop 205) at 3.66 m (12 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7). ....................................88                            |                                                                                            |
+| Figure 3-68: Memorial Tunnel test 612B versus FDS, velocity at loop 304 (40 ft. downstream of loop 205) at 7.32 m (24 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7). ....................................89                            |                                                                                            |
+| Figure 3-69: Temperature profile for 3 fans.                                                                                                                                                                                                                                                              | ..............................................................................93           |
+| Figure 3-70: Temperature profile for 5 fans.                                                                                                                                                                                                                                                              | ..............................................................................93           |
+| Figure 3-71: Pressure profile for 3 fans in operation.                                                                                                                                                                                                                                                    | .................................................................94                        |
+| Figure 3-72: Pressure profile for 5 fans in operation.                                                                                                                                                                                                                                                    | .................................................................94                        |
+| Figure 4-1: Transverse ventilation system schematic.                                                                                                                                                                                                                                                      | ............................................................. 101                          |
+| Figure 4-2: Point exhaust schematic.                                                                                                                                                                                                                                                                      | ...................................................................................... 101 |
+| Figure 4-3: Interaction of water droplet and exhaust.                                                                                                                                                                                                                                                     | .............................................................. 101                         |
+| Figure 4-4: Visualization of smoke spread (cropped at 10 m or less visibility), no FFFS.                                                                                                                                                                                                                  | ......... 102                                                                              |
+| Figure 4-5: Visualization of smoke spread (cropped at 10 m or less visibility), FFFS...............                                                                                                                                                                                                       | 102                                                                                        |
+| Figure 4-6: Visualization of smoke spread (cropped at 10 m or less visibility), FFFS, reduced exhaust rate. .............................................................................................................                                                                                 | 102                                                                                        |
+| Figure 4-7: Graph. Water application rates (per NFPA 13 3 Figure 19.3.3.1.1) with common road tunnel applications indicated [44] [41]. ............................................................................                                                                                       | 106                                                                                        |
+| LIST OF TABLES                                                                                                                                                                                                                                                                                            | LIST OF TABLES                                                                             |
+| Table 2-1: Common tunnel shapes [12]......................................................................................                                                                                                                                                                                | 3                                                                                          |
+| Table 2-2: Tunnel functional systems table.                                                                                                                                                                                                                                                               | ............................................................................... 5          |
+| Table 2-3: Key fire parameters for electric and gasoline vehicles [31]. ......................................12 Table 2-4: FFFS design categories per NFPA 502 4 .                                                                                                                                       | ..................................................................19                       |
+
+| Table 2-5: Summary of Runehamar [38] [48] (RH), LTA 2012 [39] (LTA) and LTA 2018 [40] (LTA2) full-scale test programs. .........................................................................................25                        |                                                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| Table 3-1: FDS parameters used in the computer modeling. .....................................................39                                                                                                                          |                                                            |
+| Table 3-2: FFFS parameters. ....................................................................................................41                                                                                                        |                                                            |
+| Table 3-3: Initial model results comparing NFPA 502 4 2014 critical velocity. .............................42                                                                                                                             |                                                            |
+| Table 3-4: Results showing impact of the FFFS on critical velocity reduction. ...........................43                                                                                                                               |                                                            |
+| Table 3-5: Results for a wider tunnel model with 2 m/s inlet velocity. ........................................44                                                                                                                         |                                                            |
+| Table 3-6: Results for a wider tunnel model with 25 percent reduction in the inlet velocity from 2 m/s to 1.5 m/s. ...............................................................................................................44      |                                                            |
+| Table 3-7: Results with an increased FHRR (from 20 MW to 50 MW) with no FFFS and with FFFS. ................................................................................................................................44            |                                                            |
+| Table 3-8: Results with 25 percent reduction in the inlet velocity from 2.2 m/s to 1.65 m/s with no FFFS and with FFFS. ....................................................................................................45            |                                                            |
+| Table 3-9: Summary of cases for nozzle placement sensitivity. .................................................48                                                                                                                         |                                                            |
+| Table 3-10: Results for base case model geometry with different nozzle placements and 25 percent reduction in the FDS predicted critical velocity of 2.2 m/s. .......................................48                                   |                                                            |
+| Table 3-11: Results for the base case model with different water flow rates and 25 percent reduction in the FDS predicted critical velocity. .........................................................................49                  |                                                            |
+| Table 3-12: Roughness heights [67]. .........................................................................................53                                                                                                           |                                                            |
+| Table 3-13: Parameters used in the computation of pressure loss and friction factor.                                                                                                                                                      | ...............56                                          |
+| Table 3-14: Summary of the computed pressure losses and friction factors. .............................56                                                                                                                                 |                                                            |
+| Table 3-15: Water drop parameters modeled. ...........................................................................58                                                                                                                  |                                                            |
+| Table 3-16: Fire fighter suggested tenability limits [77]. .............................................................61                                                                                                                |                                                            |
+| Table 3-17: Memorial Tunnel fan locations. ...............................................................................66                                                                                                              |                                                            |
+| Table 3-18: Memorial Tunnel fan operation sequence, test 612B. .............................................67                                                                                                                            |                                                            |
+| Table 3-19: Summary of the reported Memorial Tunnel FDS runs. ............................................68                                                                                                                              |                                                            |
+| Table 3-20: Memorial Tunnel one-dimensional model parameters. ...........................................70                                                                                                                               |                                                            |
+| Table 3-21: Cold flow parameters and results. ..........................................................................71                                                                                                                |                                                            |
+| Table 3-22: Summary of Memorial Tunnel models and volume flow results (600 to 900 s). .................................................................................................................................................73 |                                                            |
+| Table 3-23: Nozzle parameters (see [3]). ..................................................................................90                                                                                                             |                                                            |
+| Table 3-24: Results for FFFS impact on airflow. ........................................................................91                                                                                                                |                                                            |
+| Table 3-25: Impact of FFFS on airflow and smoke control                                                                                                                                                                                   | ........................................................92 |
+| Table 4-1: System combinations. ..............................................................................................99                                                                                                          |                                                            |
+| Table 4-2: Results from fire tests of water-based FFFS with foam additives [94] .....................                                                                                                                                     | 105                                                        |
+
+## 1 INTRODUCTION
+
+The objective of this project was to identify and address the current industry's ability to adequately consider the operational integration of highway tunnel emergency ventilation systems (EVS) with installed fixed fire fighting systems (FFFS), and to then develop a set of suggested practices on the integration of FFFS and EVS. The technical approach to this research project was divided into the following:
+
+1. Literature survey and synthesis [1] (Fixed Fire Fighting and Emergency Ventilation Systems for  Highway  Tunnels  -  Literature  Survey  and  Synthesis,  Federal  Highway  Administration, FHWA-HIF-20-016).
+2. Industry workshop and report (including workplans for computer modeling and testing) [2] (Fixed Fire Fighting and Emergency Ventilation Systems for Highway Tunnels - Workshop Report, Federal Highway Administration, FHWA-HIF-20-060).
+3. Computer modeling research [3] (Fixed Fire Fighting and Emergency Ventilation Systems for Highway Tunnels - Computer Modeling Report, Federal Highway Administration, FHWA-HIF22-021).
+4. Laboratory  scale  testing  [6]  (Fixed  Fire  Fighting  and  Emergency  Ventilation  Systems  for Highway Tunnels - Computer Modeling Report, Federal Highway Administration, FHWA-HIF23-022).
+5. Research report and suggested practices.
+
+This  document  is  the  research  report  and  suggested  practices.  Section  2  of  this  document provides  a  summary  of  the  previous  reports  in  the  research  program,  Section  3  summarizes integration of longitudinal EVS and FFFS, Section 4 presents a discussion of additional related topics, and Section 5 provides the conclusions.
+
+## 1.1 Terminology
+
+Numerous terms are used to describe FFFS. The following terminologies related to FFFS are provided  in  National  Fire  Protection  Association  (NFPA)  standards 2 (note  that  use  of  NFPA standards in highway tunnels is voluntary and not a Federal requirement):
+
+- Deluge sprinkler system - A sprinkler system employing open sprinklers or nozzles that are attached to a piping system that is connected to a water supply through a valve that is opened by the operation of a detection system installed in the same areas as the sprinklers or the nozzles. When this valve opens, water flows into the piping system and discharges from all sprinklers or nozzles attached thereto (NFPA 13 3 ).
+
+2 NFPA standards are industry standards. Use of NFPA standards is not a Federal requirement for highway tunnels.
+
+3 Use of NFPA 13 Standard for Installation of Sprinkler Systems is not a Federal requirement in highway tunnels.
+
+- Deluge  system -  An  open  fixed  water-based  fire  suppression  system  activated  either manually or automatically (NFPA 502 4 ).
+- Fixed water-based fire fighting system - A system permanently attached to the tunnel that can spread a water-based extinguishing agent in all or part of the tunnel (NFPA 502 4 ).
+- High pressure system - A water mist system where the distribution system piping is exposed to pressures of 34.5 bar (500 psi) or greater (NFPA 750 5 ). Different jurisdictions set varying classifications regarding pressure, for instance the UPTUN project (short for cost effective sustainable and innovative upgrading methods for fire safety in existing tunnels) from Europe set a high pressure system at more than 60 bar, medium pressure as 16 to 60 bar, and low pressure as less than 16 bar [9].
+- Water mist system - A water spray for which the Dv0.99, for the flow-weighted cumulative volumetric  distribution  of  water  droplets  is  less  than  1000  μm  within  the  nozzle  operating pressure range (NFPA 750 5 ). Note that the term Dv0.99 means the 99 th  percentile droplet diameter (i.e., it means that 99 percent of the water droplets have a diameter less than or equal to the value quoted).
+
+Although a water mist system is technically a deluge sprinkler system (per NFPA 13 3 ), in the tunnel  industry,  the  terms  for  deluge  system  and  water  mist  system  have  a  subtle  difference between their meaning, and in line with the World Road Association (PIARC) [10], the following are used throughout this document:
+
+- The term deluge system refers to lower pressure large water droplet deluge systems (typical water pressures in the order 1 bar to 1.5 bar, mean droplet diameter in the order 1000 μm or greater).
+- The term water mist system is associated with a deluge system that employs a large water pressure and special nozzles to generate a very small droplet diameter (pressures can be 16 bar to 60 bar, droplet diameter in the order 400 μm to 200 μm [9], although it is noted that lower pressure mist systems are also available).
+- Systems that employ frangible bulbs in the nozzles are referred to as automatic sprinkler systems .
+
+Regarding sprinkler systems that employ foam additives , where this document refers to an FFFS it implicitly refers to a water only FFFS. If a foam additive is applicable or present the discussion text states this explicitly.
+
+4 Use of NFPA 502 Standard for Road Tunnels Bridges and Other Limited Access Highways is not a Federal requirement in highway tunnels.
+
+5 Use of NFPA 750 Standard on Water Mist Fire Protection Systems is not a Federal Requirement in highway tunnels.
+
+## 2 PROJECT REPORT SUMMARIES
+
+## 2.1 Literature Survey and Synthesis
+
+The Literature Survey and Synthesis, conducted in 2018 and 2019, provided a review of topics related  to  integration  of  emergency  ventilation  systems  (EVS)  and  fixed  fire  fighting  systems (FFFS) [11]. Topics in the review included tunnel design and fire-life safety (FLS), tunnel design fires, FFFS design and performance, EVS and integration with FFFS, and tunnel structural fire rating and FFFS.
+
+## 2.1.1 Tunnel Design and Fire-Life Safety
+
+The scope of this section was to review tunnel types, operating tunnel systems, design standards and process, and to review the use of fire protection and life-safety systems in existing U.S. tunnels.
+
+## 2.1.1.1  Types of Tunnels and Construction Method
+
+The four main tunnel types are circular, rectangular, horseshoe, and oval. They are constructed by boring, blasting, excavating, or by sinking a precast tube. Table 2-1 summarizes tunnel shapes and features. Figure 2-1, Figure 2-2, Figure 2-3 and Figure 2-4 provide schematic representations of each tunnel cross section.
+
+Table 2-1: Common tunnel shapes [12].
+
+| TUNNEL SHAPE   | COMMENTS                                                                                                                                                                                                                                                                                                                                                                                          |
+|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Circular       | Rectangular roadway cross section with raised walkway on either side. Space above and below the roadway can be used as ventilation plenums. A tunnel ceiling is present in certain designs. Subset of this geometry is a twin-level tunnel; one level in each direction of travel (e.g., Alaskan Way Tunnel in Seattle). Typical construction method: tunnel boring machine. Refer to Figure 2-1. |
+| Rectangular    | Allows for unidirectional traffic in two tunnels or bidirectional traffic in a single tunnel. All interior volume is used for the roadway. Typical construction method: immersed tube or cut and cover. Refer to Figure 2-2.                                                                                                                                                                      |
+| Horseshoe      | Combination of circular and rectangular tunnels, with space above the roadway that can be used as a ventilation plenum. A tunnel ceiling is present in certain designs. Typical construction method: mined or excavated. Refer to Figure 2-3.                                                                                                                                                     |
+| Oval           | Wider version of the horseshoe tunnel, which allows for more lanes of traffic. Oval shape can also be used to better withstand pressures (e.g., ground or groundwater). A tunnel ceiling is present in certain designs. Typical construction method: mined or excavated. Refer to Figure 2-4.                                                                                                     |
+
+Figure 2-1: Circular cross-section tunnel.
+
+<!-- image -->
+
+Icon
+
+Figure 2-2: Rectangular cross-section tunnel.
+
+<!-- image -->
+
+Icon
+
+Figure 2-3: Horseshoe cross-section tunnel.
+
+<!-- image -->
+
+Icon
+
+Figure 2-4: Oval cross-section tunnel.
+
+<!-- image -->
+
+Icon
+
+## 2.1.1.2  Fire Protection and Life-Safety Systems
+
+Systems for fire protection and life-safety (FPLS) include EVS, FFFS, closed circuit television (CCTV),  public  address  (PA)  and  communications,  signage,  lighting,  standpipe,  supervisory control, and data acquisition (SCADA), power, and drainage. Refer to Table 2-2 for a summary of the systems and FFFS-EVS integration aspects.
+
+Table 2-2: Tunnel functional systems table.
+
+| SYSTEM FUNCTION AND TYPE                                | ROLE IN OVERALL FPLS DESIGN                                                                                                                                                                                                                                                                                                                           | FFFS-EVS INTEGRATION CONSIDERATIONS                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Fire prevention - height control                        | Stop over-height vehicles from damaging ceiling mounted systems.                                                                                                                                                                                                                                                                                      | Not applicable                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Fire prevention - hazardous vehicle restrictions        | The range of vehicle types allowed to use the tunnel can affect the design fire used in the overall FPLS design; the tunnel owner might initiate review of the FPLS in response to different vehicle types using the tunnel.                                                                                                                          | Effectiveness of the FFFS on different vehicle/cargo types.                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Detection - CCTV cameras                                | Cameras allow a tunnel operator to remotely monitor conditions and identify incidents. Cameras can be fitted with video incident detection systems which can alert an operator to a problem early during an incident. Cameras can be fitted with smoke, flame, and heat detection although this is not commonly used as a primary means of detection. | Because fires are often detected via CCTV before an automatic fire detection system alarms, the operator can use the CCTV to identify the fire location; fire modes and FFFS zone integration is a consideration when locating cameras (e.g., at zone boundaries); once the FFFS is operated, the water spray might obscure the operator's CCTV view and integration of CCTV with FFFS zones can help alleviate this through correlating FFFS zones with CCTV. |
+| Detection - automatic incident detection (AID) via CCTV | AID implementation on a CCTV system can quickly alert an operator to stopped vehicles within the tunnel.                                                                                                                                                                                                                                              | AID might impose limits on the camera spacing and this is a factor to consider in FFFS and CCTV zone integration.                                                                                                                                                                                                                                                                                                                                              |
+| Detection - linear heat detection                       | Linear heat detection (LHD) is a fusible type of cable, optic fiber or microchip that is set to activate at a certain temperature or based on a rate of rise; it provides an automatic means of detecting a fire and its location.                                                                                                                    | Coordination of the LHD alarm with the SCADA system to activate the appropriate zone response based on the fire location.                                                                                                                                                                                                                                                                                                                                      |
+| Detection - traffic loop detection                      | Can alert the operator to a stopped or slowed traffic condition, like AID on CCTV.                                                                                                                                                                                                                                                                    | Not applicable                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Detection - alarms (doors, cabinets, etc.)              | Access control and monitoring to provide assurance that the local FPLS controls are not tampered with.                                                                                                                                                                                                                                                | Not applicable                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Egress - exits                                          | Emergency exits and signage directing users to them provide a point of safety for users and an access point for first responders.                                                                                                                                                                                                                     | Spacing of exits can change the egress path and time of tenability; the FFFS might affect this time.                                                                                                                                                                                                                                                                                                                                                           |
+| Egress - lighting                                       | Lighting in road tunnels is often designed to achieve specified normal and emergency light levels; lighting is also used to illuminate egress points and other signage.                                                                                                                                                                               | Coordination of egress lighting with fire modes to illuminate the best egress path; activation of FFFS and light visibility reduction.                                                                                                                                                                                                                                                                                                                         |
+| Egress - low level lights                               | Low level lights outline lanes and barriers.                                                                                                                                                                                                                                                                                                          | Activation of FFFS and light visibility reduction.                                                                                                                                                                                                                                                                                                                                                                                                             |
+
+| SYSTEM FUNCTION AND TYPE                        | ROLE IN OVERALL FPLS DESIGN                                                                                                                                            | FFFS-EVS INTEGRATION CONSIDERATIONS                                                                                                                                                                                                      |
+|-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Egress - exit sounders                          | Exit sounders are located at egress doors and announce the exit point.                                                                                                 | Both FFFS and EVS can generate significant in-tunnel noise, making exit sounders difficult to hear.                                                                                                                                      |
+| Communications - public address system          | The PA system relays information to users during an incident and can also be used to initiate an evacuation.                                                           | Noise from the FFFS and EVS can significantly affect the intelligibility of the system.                                                                                                                                                  |
+| Communications - emergency phones               | Phones placed along the tunnel allow users to report incidents and provide detail; these can be useful where phone service coverage is poor.                           | Noise from the FFFS and EVS could impede ability of people to hear when using the phones; placement of phones in egress corridors/passages is one way this could be alleviated; visual directions to phones (e.g., signs) can also help. |
+| Communications - cell phone / radio rebroadcast | Phone service and radio signal strength are reduced in a tunnel; the addition of rebroadcast systems allows motorists and first responders to communicate.             | Refer to the note above regarding noise.                                                                                                                                                                                                 |
+| Communications - variable message signs         | Variable message signs (VMS) and lane use signals allow the operator to control traffic; VMS can also be used to transmit specific messages to users.                  | VMS messages and fire mode operation to alert motorists to fire and potential FFFS activation (driving hazard exists due to low visibility).                                                                                             |
+| Smoke management - jet fans and smoke exhaust   | Fans keep the egress path clear of smoke and hot gases.                                                                                                                | The ventilation system is suggested to be designed based on the design fire and possibly considering the effects of FFFS on it.                                                                                                          |
+| Fire protection - hydrants                      | Hydrants provide a fire department connection to a water supply that can be used to charge a standpipe or attach a hose and fight a fire directly.                     | Not applicable                                                                                                                                                                                                                           |
+| Fire protection - hose connections              | Hose connections to a standpipe within the tunnel allow firefighters to operate at locations remote from a hydrant; may include points for inserting foam.             | The local fire department might have specifications on the hose connection type and may request the standpipe, if dry, be automatically charged during a fire mode.                                                                      |
+| Fire protection - extinguishers                 | Extinguishers are typically provided at regular intervals along the tunnel and are useful for control of very small fires.                                             | Not applicable                                                                                                                                                                                                                           |
+| Fire protection - water supply                  | Depending on the location of the tunnel, the local water supply may not be sufficient to support FFFS or standpipe; storage tanks and pumps may be part of the design. | The available water supply can significantly affect any FFFS design, especially the water flow rate and subsequent cooling/reduction of the design fire.                                                                                 |
+| Fire protection - FFFS                          | FFFS are one of the critical elements in the FPLS design and can significantly affect the design fire and the tunnel structural protection specification.              | Effects of the EVS on the FFFS                                                                                                                                                                                                           |
+
+| SYSTEM FUNCTION AND TYPE                         | ROLE IN OVERALL FPLS DESIGN                                                                                                                                                                                                                                                                                                                                                    | FFFS-EVS INTEGRATION CONSIDERATIONS                                                                                                                                                            |
+|--------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Passive fire protection - structural fire rating | Depending on the design fire, additional structural protection may be included to maintain the integrity of the tunnel for a set period. Where used with FFFS present, the protection is suggested to be waterproof such that the FFFS does not damage it.                                                                                                                     | Passive fire protection allows less heat transfer to walls; however, the impact on EVS is likely to be minimal [13].                                                                           |
+| Electrical - redundant power supply              | Tunnels can have redundant power supplies capable of powering the emergency systems if the tunnel is to remain open during a power outage; this can be done with independent power feeds, generators, or uninterruptible power supplies.                                                                                                                                       | FFFS and EVS power as it relates to redundant power supply capacity (note that backup power is not always provided for the EVS).                                                               |
+| Electrical - redundant control                   | If the connection is lost between the main tunnel control center and the tunnel, a second control center is provided as a backup.                                                                                                                                                                                                                                              | Control of FFFS and EVS from the backup control center.                                                                                                                                        |
+| Drainage - roadway drains                        | A roadway drainage system is used for keeping the roadway clear of pooling water, including capturing water from FFFS and fire fighting activities, and preventing fire propagation through the drainage system.                                                                                                                                                               | Sizing of the drainage system with FFFS water application rate in mind, as well as the volume of water expected due to tunnel leakage, a spill from cargo, and an allowance for hose streams.  |
+| Management and response - response crew          | The response crew is tasked with initial response to incidents, including fighting small fires.                                                                                                                                                                                                                                                                                | Response crew trained on the response procedures for fire incidents, including what to expect during FFFS and EVS operations.                                                                  |
+| Management and response - control center         | The control center and the assigned tunnel operators are responsible for monitoring the tunnel and initiating the fire response procedures. Not all tunnels have a dedicated control center and full-time operator; where an operator is not present, local controls (for fire department to operate FFFS and EVS) and/or automation of a response are alternative approaches. | Design of the FFFS and EVS controls with the tunnel operator in mind, with a goal to make operation as straightforward as possible to limit confusion during what can be a stressful incident. |
+| Management and response - incident response      | As part of any FPLS design, a response procedures document is produced with input from local authorities and first responders; the response timeline is a consideration during design of FFFS and EVS systems.                                                                                                                                                                 | Response procedure, and any system integration assumptions, to be covered in the response procedure and made clear to the responders.                                                          |
+
+## 2.1.1.3  FPLS for U.S. Highway Tunnels
+
+The main standard used in the U.S. for FPLS is NFPA 502 4 . The standard sets out minimum FLS provisions including, but not limited to, ventilation, egress, lighting, electrical (power), signage, traffic control, fire standpipe, FFFS, and incident management plans. To be enforced, NFPA 502 4 might  be  adopted  by  the  authority  having  jurisdiction  (AHJ)  who  has  authority  over  the  fire systems, such as the fire marshal, or through a local fire code or on a project-by-project basis [14]. Where NFPA 502 4  is nominated for use, engineering analysis is used to show compliance. Early engagement of first responders and local jurisdictional code authorities is also undertaken to confirm their specific requirements and expectations. NFPA 502 4  is suggested to be referred to for further details.
+
+## 2.1.1.4  Use of FFFS for FPLS in U.S. Highway Tunnels
+
+For tunnels complying with NFPA 502 4 , FFFS can be considered as part of the overall FLS design. Historically, FFFS have had limited use in U.S. tunnels but have become more prevalent in U.S. highway tunnels over the last 10 to 15 years. FFFS have been used to mitigate risk in higher hazard scenarios, including larger design fires and urban tunnels/overbuilds. FFFS have also been investigated for use in retrofits to increase the fire heat release rate (FHRR) an existing tunnel can manage, potentially bringing the tunnel more in line with existing standards. FFFS might be able to be used in existing tunnels with undersized mechanical ventilation to reduce or limit the FHRR, thereby allowing the existing tunnel EVS to better manage smoke; this might be a cost-effective way to provide an improved level of safety.
+
+A selection of U.S. tunnels and FPLS related parameters is given in Section 2.5 of the Literature Survey and Synthesis.
+
+## 2.1.1.5  Tunnel Construction and FPLS Systems
+
+The tunnel construction type can affect the FPLS systems and their installation. For example, a transverse ventilation system cannot be used unless separate air ducts are part of the tunnel construction. FFFS and other systems are less affected by construction type. However, routing of pipework and other elements should consider clearance available above the roadway. Space for ancillary equipment is also a consideration, along with supporting infrastructure to supply/remove water from the FFFS.
+
+## 2.1.2 Tunnel Design Fires
+
+A design fire scenario is 'an idealization of a real fire occurrence' [15]. The design fire forms part of the basis of the design for FPLS systems. Design features that are directly include egress, ventilation, structural fire resistance, FFFS, and fire fighting strategy. NFPA 502 4 Section 11.4.2 [14] states that the 'design of the emergency ventilation system shall be based on a fire scenario having defined heat release rates, smoke release rates, and carbon monoxide release rates, all varying as a function of time.' Development of the design fire scenario, per NFPA 502 4  Section 11.4.2, also involves consideration of 'the operational risks that are associated with the types of vehicles expected to use the tunnel.'
+
+The primary fire load in a road tunnel fire is the vehicles themselves. NFPA 502 4  provides some discussion about design FHRR based on vehicle type. Section 11.4.2 states 'the selection of the design fire size heat release rate shall consider the types of vehicles that are expected to use the tunnel.' NFPA 502 4  does not specify what fire size is to be used, instead leaving it as a joint determination  between  the  AHJ,  designer,  and  owner.  Table A.11.4.1  from  NFPA  502 4 gives suggested heat release rates for common vehicle sizes:
+
+- Passenger car: 5-10 MW (representative FHRR 8 MW).
+- Several passenger cars: 10-20 MW (representative FHRR 15 MW) (with FFFS 10-15 MW).
+
+- Bus: 25-34 MW (representative FHRR 30 MW) (with FFFS 20 MW).
+- Heavy goods truck: 20-200 MW (representative FHRR 150 MW) (with FFFS 15-90 MW).
+- Flammable liquid tanker: 200-300 MW (representative FHRR 300 MW).
+
+There have been several fire tests conducted over the past decades to determine the fire profiles for vehicles [16]. Testing has included single vehicles, multiple vehicles, buses, and mock-ups of heavy  goods  vehicle loads. Tests have  been  conducted  in  tunnels and  in laboratory configurations. Sample test data are provided:
+
+- Single passenger cars (refer to Figure 2-5).
+- Buses (refer to Figure 2-6).
+- Heavy goods vehicles (refer to Figure 2-7).
+
+In the figures, the FHRR is compared with fast and ultra-fast growth rate fire curves. NFPA 92 6 Table B.7.1 states the time for a fast growth rate fire to reach 1.06 MW is 150 s at a growth rate constant of 46.9 W/s 2 , and an ultra-fast fire to reach 1.06 MW is 75 s [17] at a growth rate constant of 188 W/s 2 . The fire grows to the FHRR specified at a rate proportional to the growth constant times the time elapsed (in seconds) squared.
+
+Dangerous goods vehicles are banned in most U.S. tunnels, especially in high risk (urban) areas. On that basis, heavy goods vehicle fires are typically most concerning for purposes of tunnel EVS design, since these vehicles have the largest peak FHRRs. In the Eureka test [18] (Figure 2-7) the  fuel  load  was  an  actual  heavy  goods  vehicle  (cab  plus  trailer  with  furniture),  while  the Runehamar test was based on a mock-up vehicle load (wood and plastic pallets, rubber tires, plastic cups) [19]. The Runehamar fire tests exhibited very rapid growth compared with the Eureka HGV test. Several factors contributed to this in the Runehamar test including the fireboard used to  protect  the  tunnel  lining  (increased  heat  feedback  due  to  the  insulating  properties  of  the fireboard leading to a faster fire growth rate) and the ignition source (small fire placed within the burning commodity. In contrast for the Eureka test the fire was started inside the truck driver's cabin and was allowed to spread to the load as the test progressed).
+
+Bulk fuel tanker fires are noted in NFPA 502 4  to have a potential FHRR of 300 MW. There are no full-scale data available for a fuel tanker fire test [20] and the FHRR is likely to depend on the circumstances around the event leading to a fire [21]. Tests are reported for pool fires, which can be used to represent a major fuel spill. Pool fire tests of gasoline in a laboratory have an FHRR of around 2.4 MW/m 2  [21].
+
+6 Use of NFPA 92 Standard for Smoke Control Systems is not a Federal Requirement in highway tunnels.
+
+Figure 2-5: Graph. FHRR data for single passenger car fires [22].
+
+<!-- image -->
+
+Line chart
+
+Figure 2-6: Graph. FHRR data for bus fires [16] [22].
+
+<!-- image -->
+
+Line chart
+
+Figure 2-7: Graph. FHRR data for heavy goods vehicle fires [18] [19].
+
+<!-- image -->
+
+Line chart
+
+## 2.1.2.1  New Energy Carriers
+
+New energy  carrier  vehicles  (alternative  fuel  vehicles)  are  vehicles  powered  by  fuel  sources including  natural  gas  (compressed  or  liquefied),  hydrogen,  biodiesel,  ethanol,  and  electric vehicles (batteries). The principal concerns within a tunnel environment include explosion risk for fuels  such  as  compressed  natural  gas  or  hydrogen,  firefighting  response  strategies,  thermal runaway in the case of battery fires, and the somewhat uncertain nature of a design fire for these alternative fuels [15] [23].
+
+Regulations may limit or prohibit the use of alternative fuel vehicles in U.S. tunnels. In cases where alternative fuels are allowed, they are limited in type and quantity. The Port Authority of New York and New Jersey limit alternative fuels in its facilities to vehicles using compressed natural gas or liquefied natural gas [24]. These vehicles are only permitted to use tunnels if the vehicle has a dedicated fuel system meeting specified regulatory standards, if the fuel capacity of the vehicle does not exceed 150 pounds, and appropriate markings and symbols are displayed. Similar  restrictions  are  applied  via  the  Code  of  Maryland  for  vehicles  in  tunnels  such  as  the Baltimore Harbor and Fort McHenry Tunnels in Maryland [25].
+
+For vehicles carrying compressed gases, one of the major safety features is the fuel tank and the pressure relief device [23] . The role of the relief device is seen in fire tests and incidents:
+
+- In 2010 a study by the UK group BRE (Building Research Establishment) looked at full-scale burns of gasoline vehicles, with one case also involving a test of an LPG vehicle [26]. The LPG vehicle test had the vehicle positioned between two gasoline fueled vehicles, one of which served as the ignition source. The FHRR was not measured in this test, but the test did show that the LPG tank did not explode and that the pressure relief device functioned as designed to vent the LPG fuel in a controlled manner.
+- A CNG bus fire incident in The Netherlands in 2012 [27] involved a fire starting in the engine compartment of the bus, which ultimately spread to rest of the bus and caused the cylinder
+
+pressure relief device to activate. The flames from the cylinders extended 15 to 20 meters for about four minutes. The flames did not cause any injuries, however, there were questions raised regarding what impact these flames would have had in a tunnel fire.
+
+- Fire fighting strategies for natural gas vehicles generally include approaching the vehicle with caution  (e.g.,  approaching  from  the  front  of  the  vehicle  if  the  cylinder  is  at  the  rear),  and allowing the pressure relief device to fully relieve the cylinder pressures if possible by limiting water application to the cylinder where it is safe to do so [28].
+- For hydrogen fuel vehicles, the response is like natural gas fires although it is noted that the flame is invisible. In some cases, if safe to do so, suggested practices advocate allowing the fire  to  burn  [29].  Recent  risk  analysis  on  the  use  of  hydrogen fuel  cell vehicles  in  tunnels concluded that for most vehicle accidents there are no additional hazards beyond those from the crash. If there is a fire involving hydrogen the possibility of a jet flame due to operation of a pressure relief device on the fuel tank was noted [30].
+
+With the development and implementation of electric vehicles research has been conducted to understand how these fires burn and how first responders can suppress them. Full-scale fire tests with an electric vehicle show a similar FHRR to a gasoline fueled vehicle and similar order of magnitude for some combustion product yields [31]. The yield of hydrogen fluoride might tend to be greater with an EV [32]. Some key fire parameters for vehicles are summarized in Table 2-3.
+
+Table 2-3: Key fire parameters for electric and gasoline vehicles [31] .
+
+| MANUFACTURER AND VEHICLE    |   MANUFACTURER 1, ELECTRIC (EV1) |   MANUFACTURER 1, GASOLINE (ICE1) |   MANUFACTURER 2, ELECTRIC (EV2) |   MANUFACTURER 2, GASOLINE (ICE2) |
+|-----------------------------|----------------------------------|-----------------------------------|----------------------------------|-----------------------------------|
+| Fire heat release rate (MW) |                              4.2 |                               4.8 |                              4.7 |                               6.1 |
+| Heat of combustion (MJ/kg)  |                             29.8 |                              35.9 |                             30.7 |                              36.4 |
+| CO yield (g/g fuel)         |                            0.049 |                             0.063 |                            0.042 |                             0.057 |
+| CO 2 yield (g/g fuel)       |                            2.172 |                             2.646 |                           2.2208 |                            2.6278 |
+| THC yield (g/g fuel)        |                           0.0115 |                            0.0124 |                           0.0103 |                            0.0099 |
+| NO yield (g/g fuel)         |                           0.0024 |                            0.0035 |                           0.0028 |                            0.0027 |
+| NO 2 yield (g/g fuel)       |                           0.0009 |                            0.0016 |                           0.0013 |                            0.0015 |
+| HF yield (g/g fuel)         |                           0.0073 |                            0.0032 |                           0.0053 |                             0.003 |
+| HCl yield (g/g fuel)        |                           0.0100 |                            0.0104 |                           0.0069 |                            0.0078 |
+| HCN yield (g/g fuel)        |                           0.0005 |                            0.0009 |                           0.0005 |                            0.0006 |
+
+Figure 2-8 provides FHRR profiles for alternative fuel vehicles [33]. There are several curves on this figure, and although results vary from one test to another, there is some consistency in the FHRR results shown on this chart. The peak FHRR is around 5 MW and the time to reach this peak is approximately 20 minutes. This is significant because the profile shows similar results for regular gasoline vehicles and electric vehicles.
+
+In terms of fire fighting for electric vehicles:
+
+- Water is the suggested suppressant for electric vehicle fires [34]. Large amounts of water are suggested to be used to fight battery fires and to cool the battery [34]. NFPA research has also determined the volume of water to suppress battery fires trends with the capacity of the
+
+battery [35]. It was also found that firefighter access to the battery has a significant, but not yet quantified, effect on the time to suppress the fire [35].
+
+- A concern for using water to suppress an electrical fire is the risk of electrocution. Prior to the NFPA study referenced above, it had previously been concluded that using water on electric vehicle  fires  does  not  create  a  risk  of  electrocution.  In  the  NFPA  study  regarding  fire suppression for electric vehicles, this conclusion was reaffirmed [35].
+- A recent review of battery fires in electric vehicles looked at previous incidents, safety, and fire protection issues [32]. Key findings of the review were that the fire hazard could be greater for larger battery capacity, and that electrical vehicle fires can be harder to suppress because of difficulty in cooling the battery pack inside the vehicle. Fire fighting and post incident cleanup  operations  were  also  discussed.  One  of  the  unique  aspects  of  these  vehicles  is  the potential for secondary fires to occur due to the energy remaining in the battery. The review also shed some light on risks post-incident, nothing that electric vehicles should not be towed in a manner that allows wheels to move as this can cause reverse build of up electrical energy in the vehicle. Post incident monitoring of the vehicle and storing remote from other vehicles was also suggested due to the potential for reignition. Finally, there is a possibility that electric vehicle fires leave a different residue behind after the fire compared with gasoline vehicles (due to different materials in the battery), and this can mean that cleaning of the tunnel and fire water runoff treatment are suggested to be considered as part of the operational response planning.
+
+Figure 2-8: Graph. FHRR profiles for gasoline and electric vehicles [31] and [33].
+
+<!-- image -->
+
+Line chart
+
+New energy carriers represent an evolving area of research for the industry, and this is especially true when considering the topic of FLS and FFFS in tunnels. For first responders, identification of the vehicle and the fuel type are key actions. For many vehicles identification is achieved via a label  or  through  the  knowledge  of  fire  responders  to  correctly  identify  the  vehicle.  The identification process helps responders to determine the best way to approach an incident and initiatives are being developed to standardize identification [36].
+
+## 2.1.2.2  Fixed Fire Fighting Systems
+
+The primary effects of an FFFS are decreasing both the fire growth rate and peak FHRR. These effects can potentially reduce structure damage, irritant production, backlayering of smoke, and temperatures within the tunnel [15]. FFFS can also cool the surrounding area and thus reduce the risk of fire spread to other vehicles. NFPA 502 4  provides information on the FHRR for tunnels with an FFFS (see Section 2.1.2). Note that tests show the FFFS is to be activated early to have this effect. If activated too late, the fire could overwhelm the suppression system and the FHRR reduction might not occur [15].
+
+A  summary  of  fire  tests  is  provided  in  the  most  recent  PIARC  report  and  recently  published textbooks  [21]  (Table 16.1)  [10]  (Appendix  4).  Further  detail  from  a  selection  of  the  tests  is provided below.
+
+Two series of tests were conducted as part of the SOLIT (Safety of Life in Tunnels) Project. The result of the first test series were published in 2007, and the second test series (SOLIT 2 ) in 2012. The review herein focuses on the SOLIT 2  project which involved testing using a water mist system [8]. Fire tests were carried out in the San Pedro de Anes Tunnel in Spain. The test section had a height of 5.2 m and a width of 7.5 m. The fire loads were a mock-up of a truck fire load, consisting of standard wood pallets, and a diesel pool fire. The wood pallet fire load had a potential FHRR of  150 MW  (408  pallets,  9600  kg,  140  GJ)  and  the  ignition  source  was  three  gasoline  pools distributed throughout  the  fire  load.  Ventilation  was  longitudinal  and  a  target  was  placed  5 m downstream of the fire. A PVC tarpaulin was used to cover the fire load.
+
+The  work  was  focused  on  compensatory  effects  of  an  FFFS  for  design  aspects  including ventilation, distance between exits, passive fire protection and fire fighting [7]. Key measurements included  FHRR,  temperature,  visualization  of  smoke  movement  and  fire  spread.  The  major outcomes of the tests included a demonstration of the following positive effects of the FFFS [7]:
+
+- Temperature reduction - reduction in temperature immediately above the fire, reduced area of high temperatures and temperature kept to less than 1000 degrees C ([7] Figures 4 through 7).
+- Temperature  reduction  -  temperatures  downstream  of  the  fire  reduced  to  around  60 degrees C, from over 100 degrees C without an FFFS ([7] Figure 8 and 9).
+- Radiant heat flux - reduced from more than 10 kW/m 2  to around 1.5 kW/m 2  with the FFFS operating ([7] Figure 13 and 14).
+- Fire spread - fire spread, indicated by increased temperature, was effectively prevented for up to 30 minutes downstream of the fire ([7] Figure 15).
+- FHRR - potential FHRR of 150 MW kept to around 40 to 50 MW with the FFFS operating ([7] Figure 17 and 18).
+- Self-rescue  -  reduced  temperatures  (to  within  tenable  limits)  ([7]  Figure 23  and  24)  and reduced carbon dioxide concentrations (more than 10 percent CO2 to less than 2 percent with the FFFS) ([7] Figure 25 and 26).
+- Protection of structure - significant reduction in the internal temperature of a concrete sample during the tests ([7] Figure 31).
+- Ventilation - the scientific report [7] noted that the 'capacity of the fire ventilation can be tripled when a water mist FFFS is used at the same time.' In the tests of Class A fires the longitudinal
+
+ventilation system was noted to prevent backlayering with an FHRR of around 30 MW and an upstream velocity in the range of 2 to 2.5 m/s. With class B fires, backlayering was observed with an FHRR of 20 MW and an upstream velocity of 2.8 m/s, prior to FFFS operation. When the FFFS was operated the FHRR was not immediately reduced, however, backlayering was prevented at a peak FHRR of around 70 MW with an upstream velocity of 2.1 m/s (with FFFS in operation) [8].
+
+The Runehamar tunnel is an out of service, two lane road tunnel located in Norway (approximately 28 ft.  (8.6 m)  wide  by  16.5 ft.  (5.0 m)  high).  The  Research  Institutes  of  Sweden  (RISE)  have conducted multiple full-scale fire tests in the tunnel, involving heavy goods vehicle mockups and tests using deluge systems. One set of six tests with deluge systems was performed in 2013, and another set of six in 2016 [37] [38]. Note that these tests had a different fire configuration to the tests performed in 2005 (discussed in Section 2.1.2).
+
+In both sets of tests (2013 and 2016), the fire source was the same: 420 standard Euro (EUR) wooden pallets elevated on concrete slabs, with sheet steel shielding the ends and the top of the pallet stack. The steel plates were used to make it difficult for water to penetrate directly to the fire load during the test; the configuration was not noted to have any basis in standardized HGV loading [38]. The energy load of the fire source was estimated to be 180 GJ, with a predicted peak FHRR of 100 MW [37].
+
+The suppression system setup was also the same between the two sets of tests. The main pipe was located near the tunnel side wall, with nozzles directed toward the fire source. The total zone length was 98 ft. (30 m), and contained six nozzles, evenly spaced. The tunnel width was 8.6 m. The twelve tests varied FFFS application rates, nozzle types, and type of shielding. A longitudinal velocity of 590 fpm (3 m/s) was used in the tests, except for one test with a frangible bulb sprinkler which  had  a  lower  velocity  (393  fpm,  2  m/s).  During  the  2016  tests,  the  deluge  system  was activated  4 minutes  after  ceiling  temperatures  reached  286°F  (141°C)  [37].  The  tests  also included a target stack of 21 wooden pallets placed 16.5 ft. (5 m) downstream of the fire source, within the deluge zone. The location and size of the target were the same between the 2013 and 2016 tests.
+
+Test 6 of the 2013 tests was an unsuppressed, and mostly a free burn test (the test was close to an unsuppressed, free burn test as the FFFS was activated very late and the pipe accidentally broke  at  around  activation  time,  and  thus  FFFS  had  only  a  very  minor  influence  on  the  fire development). The peak FHRR was between 70 and 80 MW. The 2003 Runehamar tests [19] had a much larger peak FHRR, but these tests used a different fire load configuration and a restricted tunnel cross section at the fire site.
+
+The remainder of the 2013 tests used a water application rate of 0.25 gpm/ft 2  (10 mm/min), with a total flow rate of 595 gpm (2250 L/min) [38]. Nozzle types and flow rates were varied in the 2016 tests [37]. Figure 2-9 shows only the effects of varying the water application rate and nozzle type (all  other  variables  held  constant).  The  water  application  rates  in  this  selection  of  tests  vary between 0.15 and 0.25 gpm/ft 2  (6 and 10 mm/min), with the resulting peak HRR ranging from 13 to 28 MW (a reduction of 64 percent to 83 percent). The only test where the target stack of pallets (downstream) ignited was the free burn test in 2013. All tests where water was applied prevented the fire from spreading to the target [37].
+
+Figure 2-9: Graph. FHRR curves for a selection of Runehamar tests [37] (2016 tests), [38] (2013 tests).
+
+<!-- image -->
+
+Line chart
+
+A series of tests was performed in Spain for the Singapore Land Transport Authority (LTA) to investigate the fire heat release rate of heavy goods vehicles in tunnels [39]. The fire source in these tests  was  like  the  Runehamar  tests,  and  contained  180  wooden  pallets  and  48  plastic pallets, shielded on three sides by steel plates. A plastic tarp covered the other two exposed sides. The tunnel at the fire site was 17 ft. high and 24 ft. wide (5.2 m by 7.3 m). A longitudinal velocity of 600 fpm (3 m/s) was generated and used for the duration of the tests. Similar to the Runehamar tests, a target stack of 38 wood and plastic pallets was placed 16 ft. (5 m) downstream of the source to assess fire spread.
+
+The test used a suppression system consisting of 46 nozzles distributed over a length of 165 ft. (50 m). Water application rates of 0.20 to 0.30 gpm/ft 2  (8 and 12 mm/min) were tested; the deluge system was activated 4 minutes into the test.
+
+Test 7 of the LTA tests was a free burn test, which reached a peak heat release rate of 150 MW (shown  in  Figure 2-10).  Test  2  used  directional  nozzles  and  a  water  application  rate  of  0.20 gpm/ft 2  (8 mm/min), which limited the peak FHRR to 40 MW. Test 4 used standard spray nozzles and an application rate of 0.30 gpm/ft 2  (12 mm/min), limiting the peak HRR to 30 MW [39].
+
+The target stack of pallets (downstream) was ignited in the free-burn test (test 7). Test 4 with water application, limited the heat flux at the target to 1.3 kW/m², which is significantly less than the  typical  minimum  ignition  heat  flux  of  10  kW/m².  Heat  flux  results  for  Test  2  were  not provided [39].
+
+Figure 2-10: Graph. FHRR curves for a selection of LTA tests [39].
+
+<!-- image -->
+
+Line chart
+
+The LTA tests showed that a fire with a peak FHRR of 150 MW is suppressed to 40 MW with the application of 0.20 gpm/ft 2  (8 mm/min) of water. For reference, the LTA fire can be compared to an example design fire of 120 MW, with an ultrafast growth rate as per NFPA 92 6 . NFPA 92 6 Table B.7.1 states the time for an ultra-fast fire to reach 1.06 MW is 75 s [17] at a growth rate constant of 188 W/s 2 . The t-squared design fire equation is then plotted in Figure 2-11 using this same growth rate, along with the LTA test HRR curve. This shows the LTA test well matches the ultra-fast, heavy goods vehicle design fire curve, though with a larger peak HRR. No fire inception period is assumed in this design fire curve, meaning the fire begins to grow per the t-squared curve immediately after ignition. In the test the fire ignition source was located within the wood pallet load; in a real fire, the growth rate is expected to be slower in the initial phases until the fire spread to the load (assuming that the fire was not originated in the load).
+
+Tests of a proprietary low pressure water mist system were conducted in the test tunnel at San Pedro De Anes in 2018 [40] for the Singapore Land Transport Authority (LTA). Tests were of wooden and plastic pallets with a metal cover at the ends and on top. Details of the system nozzles were:
+
+- Zone length 80 ft. (25 m).
+- Longitudinal pipeline (two pipelines).
+- Nozzles arranged in pairs at each longitudinal location.
+
+Fire tests included a free burn where the maximum FHRR was 243 MW. For a water application rate of 0.1 gpm/ft 2  (4 mm/min), the peak FHRR was 46 MW (after water mist activation) and at 6 and 8 mm/min, the peak FHRR was 30 MW. The system was normally operated at 4 minutes into the test,  but  in  a  test  with  a  6  mm/min  water  application  rate  with the  operation  delayed to  8 minutes, the fire reached a peak FHRR of 157 MW. Early operation of the FFFS was suggested to  help reduce the severity of the fire. The tests demonstrated that the FHRR increased with decreasing water application rate, however, in all cases if the FFFS was operated early the system was able to keep the FHRR low compared with the free burn rate.
+
+Figure 2-11: Graph. LTA test versus design fire HRR curves.
+
+<!-- image -->
+
+Line chart
+
+## 2.1.3  FFFS Design and Performance
+
+## 2.1.3.1  Performance Objectives
+
+NFPA  502 4   [14]  summarizes  the  objectives  of  FFFS  into  four  performance  categories:  fire suppression,  fire  control,  volume  cooling,  and  surface  cooling.  The  objectives  for  each performance category are summarized in Table 2-4. The performance category selected may affect  FFFS design parameters such as water application rate, droplet properties (size, spray pattern), nozzle design and layout, water supply, water additives, fire alarm, system controls, and FFFS activation time. The objectives of some categories could overlap, as the categories follow a tiered approach (e.g., fire control is volume cooling with the added goal of reducing the FHRR). The  interaction  of  the  system  parameters  affecting  performance  is  complex  and  testing  is suggested to fully demonstrate that the objective is met.
+
+Table 2-4: FFFS design categories per NFPA 502 4 .
+
+| SYSTEM           | NFPA 502 4 OBJECTIVE                                                                                                                                                                                            |
+|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Fire suppression | Designed to sharply reduce the heat release rate of a fire and prevent its growth by means of direct and sufficient application of extinguishing agent through the fire plume to the burning fuel surface.      |
+| Fire control     | Designed to limit the size of a fire by distribution of extinguishing agent to decrease the heat release rate and pre-wet adjacent combustibles while controlling gas temperatures to reduce structural damage. |
+| Volume cooling   | Designed to provide substantial cooling of products of combustion but is not intended to affect heat release rate directly.                                                                                     |
+| Surface cooling  | Designed to provide direct cooling of critical structure, equipment, or appurtenances without directly affecting heat release rate.                                                                             |
+
+## 2.1.3.2  Design of Fixed Fire Fighting Systems
+
+FFFS in road tunnels are intended to provide water spray capability over select coverage areas (zones) of the tunnel roadway surface area. Delivery of water to each roadway zone is controlled by a valve (refer Section 1.1). In response to a fire incident within the roadway, one or more zones may  be  activated  to  discharge  water  onto  the  coverage  area.  The  FFFS  design  might  also consider fire department connections (FDCs) to allow the fire department  the ability/option to boost system pressure. Figure 2-12 provides a schematic view of an FFFS arrangement.
+
+<!-- image -->
+
+Flow chart
+
+Source: FHWA
+
+Figure 2-12: Typical FFFS zone arrangement [41].
+
+Design  of  an  FFFS  involves  key  components  including  valves,  heating,  zone  sizes,  system operation/activation, design fire, system integration, water supply, drainage, nozzle design and selection,  ventilation,  over-height  protection  and  fire  fighting  strategy.  In  the  U.S.  the  main standards for FFFS design for a highway tunnel include:
+
+- NFPA 13 Standard for the Installation of Sprinkler Systems 3
+
+- NFPA 15 Standard for Water Spray Fixed Systems for Fire Protection 7
+- NFPA  16  Standard  for  the  Installation  of  Foam-Water  Sprinkler  and  Foam-Water  Spray Systems 8
+- NFPA 18 Standard on Wetting Agents 9
+- NFPA  25  Standard  for  the  Inspection,  Testing,  and  Maintenance  of  Water-Based  Fire Protection Systems 10
+- NFPA 750 Standard on Water Mist Fire Protection Systems 5
+
+The NFPA standards noted above, and other FFFS design documents [42] [9] can be referenced for more detailed design information. One item not always covered in the standards is system integration. A short summary of the main points follows.
+
+Activation of the FFFS at an early stage of a fire incident is suggested as it can keep the peak FHRR lower than a scenario where the FFFS is activated later [10]. Achieving this goal typically involves manual activation of the FFFS by the tunnel operator. This is because a fire is more often visible on CCTV before an automatic means activates (e.g., linear heat detector). Once the fire location has been identified (via the camera ID and/or clearly visible markings on the tunnel walls), the operator activates the corresponding FFFS zone. It is a suggested practice that operators are equipped and trained to identify the fire locations easily and accurately.
+
+Figure 2-13 and Figure 2-14 provides an example of design integration between a CCTV system and FFFS in an Australian tunnel [41]. This figure shows (fixed) camera locations at or near zone boundaries. Where fixed cameras are used at regular spacing, placing a camera within a zone, instead of at the boundaries, might confuse the operator who then would have to check multiple cameras to confirm a zone.
+
+7 Use of NFPA 15 Standard for Water Spray Fixed Systems for Fire Protection is not a Federal requirement in highway tunnels.
+
+8 NFPA 16 Standard for the Installation of Foam-Water Sprinkler and Foam-Water Spray Systems is not a Federal requirement in highway tunnels.
+
+9 NFPA 18 Standard on Wetting Agents is not a Federal requirement in highway tunnels.
+
+10 NFPA 25 Standard for the Inspection, Testing, and Maintenance of Water-Based Fire Protection Systems is not a Federal requirement in highway tunnels.
+
+<!-- image -->
+
+Engineering drawing
+
+Source: FHWA
+
+Figure 2-13: Example of CCTV and FFFS integration [41].
+
+<!-- image -->
+
+Photograph
+
+Source: FHWA
+
+Figure 2-14: Example of CCTV and FFFS integration [41].
+
+## 2.1.3.3  Water Application Rate
+
+Road tunnel FFFS involves a substantial  amount  of  water  provided  over  an  extended  period (designs are frequently provided to deliver water for a time in the order of at least 60 minutes). This can place a burden on the available water supply, delivery networks, and drainage systems. The FFFS water application rate is suggested to be carefully considered relative to the objectives for exposure protection, control of burning, suppression, and extinguishment.
+
+NFPA 502 4   does  not  state  water  application  standards  for  tunnel  FFFS.  Rates  used  in  U.S. highway tunnels have been based on international standards, largely Japanese and Australian,
+
+## CCTV example:
+
+- Zones on the image shown are D30 and D29.
+- Zone D30 is the foreground.
+- Zone D29 is the background.
+
+results  of  full-scale  tunnel  test  programs,  and  with  consideration  NFPA  13 3 .  Figure 2-15 summarizes some typical water application rates as per NFPA 13 3 . Note that the dashed lines in this figure reflect how the water application rate reduces with increased coverage area. To date, most U.S. road tunnels that have been equipped with FFFS use water application rates between 0.15 gpm/ft 2  and 0.20 gpm/ft 2   (6  mm/min to 8 mm/min) The recently opened SR 99 Tunnel in Seattle WA selected a water application rate of 0.30 gpm/ft 2 (12 mm/min) for its FFFS.
+
+Japan and Australia have installed FFFS in their road tunnels for many decades. Japan generally specifies  that  tunnels  are  to  be  equipped  with  systems  that  deliver  0.15  gpm/ft 2   (6 mm/min) (tunnels in Japan are specified to have an FFFS based on length and traffic volume). In Japan, many full-scale tests were conducted, however, the tests were conducted several years ago and available details are limited [21]. One recent paper describes some of the model scale testing conducted as a basis for the water application rate, with full-scale testing only been conducted as a confirmation test in the completed facility [43]. Test reports cited in this work are from the 1960s. Recent data on fires and FFFS activation in Japan has also been collected [43].
+
+Figure 2-15: Graph. Water application rates (per NFPA 13 3  Figure 19.3.3.1.1) with common road tunnel applications indicated [44] [41].
+
+<!-- image -->
+
+Line chart
+
+The Australian approach for water application rate is in the range of 0.18 gpm/ft 2 to 0.25 gpm/ft 2 . Tests with FFFS in tunnels were not carried out to confirm the water application rate range used. Sydney Harbour Tunnel was the first Australian tunnel to be provided with FFFS and the water application rate was 0.25 gpm/ft 2  (10 mm/min). The process to determine this water application rate relied on the sprinkler standard AS 2118. The tunnel was treated as a storage area under AS 2118; two trucks side by side with a height of 14.8 ft. (4.5 m) were construed to represent a storage commodity and classified as extra high hazard category 2, which led to a water application rate of 0.25 gpm/ft 2 (10 mm/min) over an area of 2800 ft 2  (260 m 2 ) [45]. It was also noted that NFPA sprinkler tests were conducted at comparable water flow rates and that the fire was not fully  extinguished;  thus,  the  system  was  installed  on  a  basis  that  it  would  suppress  but  not extinguish the fire. This behavior of the system has been observed in practice [41]. A recent review of all tunnel fires in Australia from 1992 to 2017 identified 78 total fires, and deluge was deployed in 30 of the instances [46]. The review noted that in cases where the deluge system was used,
+
+90 percent of fires were extinguished within 30 minutes and tunnels were reopened to traffic in an average of 74 minutes.
+
+The  determination  of  appropriate  water  application  rate  and  the  effectiveness  of  FFFS  in controlling tunnel fires has been an area of active research in recent years. The results of this research are described in more detail in the Literature Survey and Synthesis [1]. In some studies, full-scale fire scenarios were created in tunnel environments and the effective FHRR reduction was measured relative to water application rate.  A summary of results from test programs is provided in Table 2-5. Water application rates ranging from 4 mm/min to 12 mm/min have been found to  be  effective  at  suppressing  the  fire,  subject  to  variations  with  early  operation  of  the system  and  nozzle  type.  The  results  show,  for  the  test  series  considered,  that  mist  systems achieved the greatest reduction in FHRR.
+
+## 2.1.4 FFFS and Tunnel Structural Fire Rating
+
+Impact of the FFFS on the tunnel structural fire rating was reviewed as part of the literature survey. Structural design and impact of elevated temperatures on structural integrity was not part of that review.
+
+Time-temperature curves for structural fire rating of tunnels were reviewed, as well as test data, and consideration of FFFS impacts. The review found that FFFS can reduce the FHRR and hence the temperatures that the structure is exposed to. The degree of cooling was noted to depend on the FFFS parameters as well as the fire source. CFD analysis was recognized as a tool that could be used to characterize the thermal environment and thus to help determine a suitable timetemperature curve for structural design. Coupling between the thermal environment analysis and the subsequent structural design was noted, with coordination identified as a key activity.
+
+Considerations in the process identified included the thermal response of the concrete, the risk of structural failure (e.g., failures may be less tolerable if the tunnel is in unstable ground) and FFFS reliability. It was noted that there is still a potential for spalling even with the use of FFFS; the delayed activation of FFFS allows concrete temperatures to increase, which is then coupled with thermal  shock  after  the  application  of  water.  A  failure  of  the  FFFS  could  also  increase  the likelihood of spalling.
+
+The subject of FFFS reliability when considering compensations for structural fire protection was identified as a potential area for further research and development. The consequences of FFFS failure for a structure relying on active fire protection, and the likelihood of FFFS failure are some suggested considerations. The FFFS reliability can depend on many factors such as software, water supply, mechanical components, uncertainty in modeling and testing, and human factors. The literature review noted that compensation of structural fire rating or passive fire protection provision based on FFFS inclusion relies on a consensus on an acceptable level of residual risk. An understanding of the consequences of failure of the FFFS is needed as part of this process. A recent review paper highlighted a similar point regarding system reliability, and it stressed a cautious approach to adopting trade-offs in design provisions for structural fire protection when FFFS are included [47].
+
+## 2.1.5 FFFS and EVS Interaction
+
+The literature survey considered interaction of the FFFS with the EVS. Topics covered in the chapter included a review of EVS types for smoke management including natural ventilation, longitudinal ventilation, transverse  ventilation, semi-transverse  ventilation,  fully  transverse ventilation,  and  single  point  extraction.  Critical  velocity  for  smoke  control  was  reviewed  and equations and methods for estimation of critical velocity were presented. FFFS impact on tunnel ventilation systems was presented by reviewing the parameters that can impact the EVS design. This review identified several FFFS impacts that can affect ventilation design, including:
+
+- Fire heat release rate.
+- Critical velocity for smoke control.
+- FFFS cooling of the combustion products.
+- Pressure loss (airflow resistance) due to fire.
+- Pressure loss (airflow resistance) due to the FFFS (droplets and humidity).
+- Friction losses introduced by FFFS pipework.
+- Water droplet deflection due to the EVS.
+- Tenability for egress and fire fighting.
+
+Future research suggestions were identified for the integration of the FFFS and EVS, including the following:
+
+- Development  of  a  more  general  equation  for  critical  velocity  with  ventilation  and  FFFS, possibly using CFD modeling.
+- Pressure loss caused by the FFFS components and FFFS spray (droplets and humidity).
+- Pressure loss caused by the fire when an FFFS is operating.
+- FFFS impact on FHRR and whether a specific nozzle type and/or water application rate for a certain FHRR outcome is possible.
+- In terms of tenability for occupant egress, areas for further possible research were identified:
+- Additional data on HGV toxic gas yields.
+- Measurement of irritant species for a fire with and without FFFS.
+- Timing for egress, FFFS activation, fire growth, etc.
+
+Chapters 3 and 4 herein provide more in-depth discussion about the findings of research on FFFS and EVS integration.
+
+Table 2-5: Summary of Runehamar [38] [48] (RH), LTA 2012 [39] (LTA) and LTA 2018 [40] (LTA2) full-scale test programs.
+
+| Test ID   | Nozzle type                   | Total fuel energy (GJ)   |   Total fuel energy burned (GJ) |   Max. HRR (MW) | percent HRR reduce   | percent fuel energy burned   | Water rate (mm/min) (gpm/ft 2 )   | Time FFFS on (min)   |
+|-----------|-------------------------------|--------------------------|---------------------------------|-----------------|----------------------|------------------------------|-----------------------------------|----------------------|
+| RH 13-1   | TN-25 (sidewall)              | 189                      |                            36.4 |            17.7 | 78                   | 0.19                         | 10 mm/min, 0.25 gpm/ft 2          | 6:04                 |
+| RH 13-2   | TN-25                         | 189                      |                            32.0 |            18.5 | 77                   | 0.17                         | 10, 0.25                          | 8:20                 |
+| RH 13-3   | TN-25                         | 189                      |                            27.0 |            15.2 | 81                   | 0.14                         | 10, 0.25                          | 13:18                |
+| RH 13-4   | TN-25 (tarpaulin)             | 189                      |                            37.5 |            11.0 | 86                   | 0.20                         | 10, 0.25                          | 18:25                |
+| RH 13-5   | TN-25 (no steel cover)        | 189                      |                            54.7 |            39.6 | 50                   | 0.29                         | 10, 0.25                          | 7:17                 |
+| RH 13-6   | TN-25 (free burn)             | 189                      |                           180.8 |            78.9 | N/A                  | Not available                | N/A                               | N/A                  |
+| RH 16-1   | TN-25                         | 189                      |                              33 |            14.9 | 81                   | 0.17                         | 9, 0.21                           | 8:16                 |
+| RH 16-2   | TN-17                         | 189                      |                              49 |            13.9 | 82                   | 0.26                         | 7, 0.18                           | 8:15                 |
+| RH 16-3   | TN-17                         | 189                      |                              45 |            16.5 | 79                   | 0.24                         | 7, 0.16                           | 8:12                 |
+| RH 16-4   | TN-25                         | 189                      |                              23 |            14.0 | 82                   | 0.12                         | 7, 0.18                           | 8:47                 |
+| RH 16-5   | SW-24                         | 189                      |                              78 |            29.7 | 62                   | 0.41                         | 7, 0.16                           | 8:33                 |
+| RH 16-6   | SW-24 (bulb, 93°C activation) | 189                      |                              75 |            31.1 | 61                   | 0.40                         | 3.7 to 4.9, 0.09 to 0.12          | 5:40                 |
+| LTA 1     | Directional (down)            | ≈100                     |                            46.6 |            37.7 | 75                   | Not available                | 12, 0.30                          | 4:00                 |
+| LTA 2     | Directional (down)            | ≈100                     |                            52.7 |            44.1 | 71                   | Not available                | 8, 0.20                           | 4:00                 |
+| LTA 3     | Standard                      | ≈100                     |                            44.5 |            44.4 | 71                   | Not available                | 12, 0.30                          | 4:00                 |
+| LTA 4     | Standard                      | ≈100                     |                            35.9 |            29.5 | 80                   | Not available                | 12, 0.30                          | 4:00                 |
+| LTA 5     | Standard                      | ≈100                     |                            30.2 |            27.1 | 82                   | Not available                | 12, 0.30                          | 4:00                 |
+| LTA 6     | Standard                      | ≈100                     |                            61.6 |            97.5 | 82                   | Not available                | 12, 0.30                          | 4:00                 |
+| LTA 7     | Free burn                     | ≈100                     |                            99.2 |             150 | N/A                  | ≈100                         | N/A                               | N/A                  |
+| LTA2 1    | Mist                          | 13.2                     |                            13.2 |               8 | 97                   | 7                            | 8, 0.2                            | 4:00                 |
+| LTA2 2    | Mist                          | 24.4                     |                            24.4 |              21 | 91                   | 13                           | 6, 0.15                           | 4:00                 |
+| LTA2 3    | Mist                          | 40.7                     |                            40.7 |              32 | 87                   | 21                           | 4, 0.1                            | 4:00                 |
+| LTA2 4    | Mist with deluge              | 21.2                     |                            21.2 |              19 | 92                   | 11                           | 6 and 10, 0.15 and 0.25           | 4:00                 |
+| LTA2 5    | Mist, delay operation         | 91.9                     |                            91.9 |             157 | 35                   | 47                           | 6, 0.15                           | 8:00                 |
+| LTA2 6    | Free burn                     | 193.8                    |                           193.8 |             243 | N/A                  | ≈100                         | N/A                               | N/A                  |
+
+## 2.2 Workshop Report
+
+A workshop comprising participants from the industry was held over two days from January 15 to January  16,  2020)  in  Washington,  DC.  Participants  at  the  workshops  included  consultants, academics, agency staff, and former emergency services personnel.
+
+The outcomes from the workshop were published in a report  [2]. The report summarized the workshop feedback, computer modeling plan, and laboratory and full-scale testing workplans. The principal outcomes from the workshop and impacts on the current project can be classified into three  areas  of  discussion:  miscellaneous  topics,  computer  modeling  workplan,  and  testing workplan.
+
+Miscellaneous topics included several elements of tunnel FLS and some specific areas on FFFS. Topics included FFFS combined with other FLS systems, alternative fuel vehicles, dangerous goods, water application rate and FFFS nozzle parameters, owner perspectives, structural fire protection, critical velocity, ventilation design, transverse ventilation, CFD models, testing, FFFS activation, tunnel washing, and FFFS and EVS combinations. The topics discussed helped to shape the computer modeling work (see Section 2.3 herein), the testing program (see Section 2.4 herein), and additional topics (see Section 4 herein).
+
+Computer  modeling  work  comprised  a  significant  part  of  the  overall  project  and  a  dedicated chapter to this subject was included in the workshop report. The chapter described the plan for conducting the computer modeling work. The plan was comprised of validation of CFD models with fire, validation of CFD models with FFFS operation, FFFS spray characterization, prediction of critical velocity with longitudinal ventilation and FFFS, and transverse ventilation modeling with FFFS. Test data for validation were identified, a matrix of planned models for analysis was set out, and data to record were identified.
+
+Computational fluid dynamics (CFD) model approaches were presented in the workshop with Fire Dynamics Simulator (FDS) 1  noted as the model of choice because of the number of fire dynamics phenomena already set  up,  as  opposed  to  a  customizable  commercial  CFD  package.  Some further justification for the use of FDS model was requested by some participants. It was noted that FDS includes all the relevant physical models and input parameters specific to the problem of smoke management and sprinkler operation. Validation was emphasized to test the modeling approach and provide assurance that the user has set the problem up correctly. The approach to model validation was presented, focusing on existing test data for tunnel fires with and without FFFS operating.
+
+Laboratory and full-scale testing were discussed in the workshop, and the discussion helped to shape the workplans. Parameters for the test tunnels were identified as well as data to record and a matrix of planned tests. Laboratory scale tests were identified for initial testing because such tests tend to be less expensive and faster to conduct, thus facilitating an improved understanding of likely results prior to running the more expensive full-scale test. Tests were identified to look at longitudinal ventilation interaction with the FFFS. A series of tests were identified comprising cold flow tests to establish friction parameters, fire tests with no FFFS operating, fire tests with FFFS operating, and tests to characterize the nozzle spray patterns. Test data to record were identified including  such  items  as  temperature,  velocity,  humidity,  adiabatic  surface  temperature  and visualization.
+
+A work plan was outlined for full-scale testing, but this was at a very preliminary stage. A test facility was identified and a potential matrix of tests. The test plan was developed to a preliminary stage because it was subject to potential changes based on computer modeling and laboratory scale testing.
+
+Based on feedback at the workshop two research hypotheses were developed and the computer modeling  and  testing  work  outcomes  were  referenced  back  to  these  hypotheses  to  check outcomes. The hypotheses are repeated:
+
+- The first hypothesis is that FFFS and EVS can be integrated and EVS capacity optimized because of the cooling effects of the FFFS water spray. This hypothesis can be verified via measurement of the critical velocity for smoke control, pressure loss due to the FFFS water spray and impact of the EVS on water delivery. If the hypothesis is true, then  the critical velocity should decrease due to the cooling. Additional airflow resistance introduced by the FFFS spray is likely to be negligible with respect to other airflow resistance in the tunnel from items such as vehicles, wall friction, buoyancy, fire, and external wind. Finally, the EVS should not cause excessive water droplet drift as to cause a negative effect on water droplet delivery to the fire zone.
+- The second hypothesis (to be verified by computer modeling) is that CFD can be used to predict FFFS and EVS interaction for design integration. Integration combinations of FFFS and EVS include:
+- Small and large water droplet systems
+- Varying water application rates and FFFS zone configurations
+- Longitudinal ventilation
+- Transverse ventilation
+- Single point exhaust
+- Varying tunnel geometry (area, perimeter, height, grade)
+
+## 2.3 Computer Modeling Report
+
+Computer  modeling  was  conducted  using  the  Fire  Dynamics  Simulator  (FDS) 1   as  the computational fluid dynamics software. The computer modeling report was comprised of initial chapters that compared FDS simulation results to full-scale test data (Chapter 2 compared with Memorial  Tunnel  test  data,  Chapter  3  with  the  LTA  test  data).  Later  chapters  then  provided parameter investigations. The following provides an overview of the report and updates on the findings.
+
+Chapter  2  provided  an  account  of  FDS  simulations  for  certain  Memorial  Tunnel  longitudinal ventilation tests. FDS results were compared with Memorial Tunnel test data for a 10 MW and 50 MW fire. Results of this comparison showed that backlayering was over predicted with FDS and that the results for backlayering were grid dependent, with the backlayering extent increasing with finer grids. The changes in backlayering with grid resolution were considered acceptable in the report since the differences are unlikely to have an impact on life safety design outcomes (the backlayering observed in the report was at steady state and the smoke layer was in the ceiling region  of  the  tunnel).  The  Memorial  Tunnel  validation  work  appearing  in  Chapter  2  of  the Computer Modeling Report used a large wall roughness height (0.9 m) to calibrate a backlayering result in the FDS model to better match the actual test data. This same modelling methodology was then used to look at the relative effects of the FFFS on smoke management in later chapters.
+
+Chapter 2 (of the Computer Modeling Report) investigated the sensitivity of many parameters, including  thermal  conditions  (wall  heat  transfer,  FHRR),  turbulence  model,  heat  source (volumetric)  and  compared  the  predicted  temperature  and  velocity  profiles  upstream  and downstream with the Memorial Tunnel test data. In the region upstream of the fire, temperature and velocity profiles reflected the models over prediction of backlayering. Downstream of the fire, there was better agreement between the models and actual test data. The dynamic Smagorinsky turbulence  model  was  seen  to  give  improved  results  in  one  instance  (temperature  prediction downstream, Figure 2-44 in the Computer Modeling Report). Grid sensitivity studies for 0.1 m, 0.2 m and 0.4 m grids showed similar results for temperature and velocity downstream of the fire for  the  finer  two  grids.  The  turbulence  model  sensitivity  with  grid  resolution  was  not  explored further but is an area suggested for further research, since a test on a different turbulence model did show an improved result for temperature at loop 304 downstream of the fire (see Figure 2-79 in the Computer Modeling Report).
+
+In the current report the Memorial Tunnel longitudinal ventilation tests are revisited (see Section 3.9) using a more realistic value of the wall roughness height (0.05 m) and with greater detail of the internal obstructions present in the tunnel during the tests. The results support the conclusion that FDS over predicts backlayering, with the backlayering extent increasing with finer grids.
+
+Beyer and Stacey [49] looked at different CFD software to investigate backlayering and confirmed the conclusion of the Computer Modeling Report, that FDS over predicts critical velocity. An eddy dissipation model was instead tested, using Reynolds averaged turbulence models, and showed a  better  prediction  of  critical  velocity  with  the  CFD  model.  Reasons  for  FDS  over  predicting backlayering were hypothesized to be related to the stepped representation of curved geometry and resolution of the near-wall boundary layer.
+
+Pressure fluctuation issues have also been identified with FDS [50] [51]. The work by Riess [51] identified that the pressure profiles in longitudinal ventilation with a fire were sensitive to the grid, and that they were only realistic with a volumetric heat source. In 2020, Ang et al. [50] published an article looking into longitudinally ventilated tunnel fires in FDS and found mass flow oscillations in certain instances. The developers of FDS published a response and implemented a fix in the model for the pressure fluctuations [4], and they also demonstrated in the updated FDS User Guide, a more realistic pressure profile (that is, the pressure decreases along the tunnel in the direction of airflow) and similarity between refined grids for the pressure profile. These changes to FDS were implemented after completion of the Computer Modeling Report. The developers of FDS noted that the changes made did not eliminate all pressure fluctuations, which are caused in long tunnels by the low Mach number assumption, but the updated solver had an improved converge rate which the pressure solver was able to manage [4]. The updated FDS User Guide provides  additional  discussion  around  long  tunnels  and  pressure  solver  considerations,  and model convergence advice. It is noted that inclusion of additional openings is still suggested in the User Guide, but this was not used as an approach in this present report and instead the pressure solver convergence parameters were refined to achieve a stable solution.
+
+Volumetric heat source models were investigated in the Computer Modeling Report and found to give some plausible results, but they are not considered an ideal model for fire since they do not resolve the fire and thermal plume in a deterministic manner (see Section 3.5 of the Literature Survey). Volumetric heat source models are noted to be used in the industry, but it is suggested these  are  avoided  except  for  purposes  of  conducting  some  early-stage  screening  or  model sensitivity analysis.
+
+Given the sensitivity of backlayering to grid resolution, the use of a very large wall roughness for calibrating results, and pressure issues noted, the work in Chapter 2 of the Computer Modeling should be considered a calibration of FDS rather than a validation. An updated analysis of the Memorial  Tunnel  tests  is  presented  in  Section  3.9  herein.  This  section  revisits  the  Memorial Tunnel validation work and modeling the tests using FDS, where internal tunnel obstructions are modeled in more detail (see Appendix herein), the wall roughness height is a more realistic value (0.05 m), and the updated version of FDS (which addresses pressure convergence issues) is used.  Refer  to  Chapter  3  herein  for  more  discussion  and  revised  conclusions  regarding  the performance of FDS for longitudinal ventilation and backlayering prediction.
+
+Chapter 3 in the Computer Modeling Report provided a validation study based on 2011 tests in the San Pedro de Anes Tunnel with an FFFS operational [39]. These models were developed to investigate the ability of FDS to predict the thermal environment with the FFFS operating. The upstream velocity in the tests was 3 m/s. FDS models were compared with test data with similar results for temperature prediction downstream of the fire when the FFFS was operated. Some discrepancy between the FDS model and test data for the radiation heat flux downstream of the fire  was  identified,  with  the  model  tending  to  predict  a  larger  peak  radiative  heat  flux  at  high FHRRs (prior to the FFFS activation when the FHRR was around 20 MW without FFFS operating). The FDS model made a reasonable prediction of radiation heat flux at times other than at the peak FHRR. Note that smooth (zero roughness height) walls were modeled for these cases. FDS models for the LTA test were rerun after publication of the Computer Modeling Report on newer versions of FDS with the updated pressure solver and the variation in results were minor relative to those cases in the Computer Modeling Report.
+
+In Chapter 4 a parameter investigation into longitudinal smoke control was conducted for a tunnel with a cross section around 7.2 m wide and 5.2 m high. Volumetric and mixing controlled methods of modeling the fire were tested. The NFPA 502 4  critical velocity equations from 2014, 2017 and 2020 editions of the standard were used to compare with model results. The wall roughness in these models was a smooth wall (zero roughness height). At the time of developing these models for the Computer Modeling Report, there were issues with the FDS pressure solver and numerical stability  (which  as  noted,  have  been  improved in newer versions of FDS). The models in the chapter used either a volumetric heat source to achieve a stable result (which does not make an accurate fire plume prediction), or small open boundaries were distributed along the length of the tunnel to achieve a numerically stable solution. It is noted that the NFPA 502 4 equation from the 2020 edition has been withdrawn [52] [53]. The 2017 equation is also being brought into question in the industry for reasons connected to those explained in [53]. Comparison of model results with the  equations  was  used  to  demonstrate  that  FDS  models  were  giving  results  in  line  with expectations.  However,  given  the  issues  brought  up  with  the  equations,  less  reliance  on comparison with equations is now suggested. Work is ongoing in the industry to further develop the critical velocity equations [54] [55].
+
+In Chapter 4, models with the FFFS operating showed a reduction in the critical velocity compared to  a  case  with  no  FFFS.  The reduction in critical  velocity  was  compared with an equation for smoke  management  with  an  FFFS  per  Ko  and  Hadjisophocleous  [56].  Refer  to  Figure 2-16.
+
+Symbols are Cp is the specific heat of air (kJ/kg/K), g is the acceleration due to gravity (m/s 2 ), D is the hydraulic diameter of the tunnel (m), ρo is the average density of the approach (upstream) air (kg/m 3 ), Q is the convective fire heat release rate (kW), Q' is the dimensionless heat release based on the hydraulic tunnel height, To is the ambient temperature (K), V is the critical velocity without FFFS (m/s), V'' is  the  dimensionless critical velocity without FFFS, VFFFS is  the  critical velocity accounting for FFFS (m/s), and ω is the water spray density (mm/min). The equation is valid up to a FHRR of 40 MW.
+
+Figure 2-16: Equation. Critical velocity equation with FFFS impact factored in [56].
+
+When using this equation in practice, in some situations the critical velocity was found to increase with low FFFS water application rates. The equation computes reduction in critical velocity based on a constant divided by the water application rate (9/ω), and thus once the water application rate is less than the constant, this multiplier becomes greater than 1, increasing the velocity for higher values of Q'. Caution is suggested with the use of the quantitative results reported in Chapter 4 given the revision of conclusions noted above related to backlayering prediction with FDS and the use of the equations as a basis for model result comparison.
+
+Chapter  5  provided  an  investigation  of  the  interaction  between  smoke  management  with longitudinal ventilation and FFFS for a range of parameters, including tunnel cross section, water application  rate  and  FFFS  droplet  diameter.  The  parameter  investigation  showed  results  that reflected a conclusion that the FFFS improves smoke management. FDS models with no FFFS operating were developed with an upstream velocity that resulted in backlayering, models with FFFS operating and the same boundary conditions then showed a reduction in the backlayering. When factors that would increase cooling of the smoke were investigated (such as a smaller drop size or increased water application rate), the resultant smoke control was improved for the same ventilation boundary (i.e., less smoke spread upstream). The models were all developed on a grid resolution of 0.4 m and with a volumetric heat source (this was used because of stability problems, but small openings distributed along the length of the tunnel were not used and the walls were smooth). The conclusion that the FFFS improves smoke management (in terms of backlayering length, smoke stratification was not investigated) is plausible, based on test data, and the results show factors like drop size and water application rate improve smoke management outcomes. Caution is suggested with the use of the quantitative results reported in this chapter given the revision of conclusions noted above related to backlayering prediction with FDS.
+
+Other results presented in Chapter 5 include tenability charts and temperature near to the fire (using a mixing controlled combustion model). Those results show the qualitative impact of the FFFS.  Validation  of  these  aspects  was  not  explored  for  the  report.  It  is  noted  that  the  FDS Validation Guide [57] reports validation studies for combustion product transport in Chapter 9 and for temperature near to the fire in Chapter 11, with varied levels of agreement between experiment and model results.
+
+Chapter 6 provided parameter studies related to transverse ventilation. Interaction of water spray from  a  FFFS  and  transverse  exhaust  systems  (distributed  and  single  point  exhaust).  was investigated, and it was found that a distributed transverse exhaust system did not entrain much water into the exhaust air stream (the amount of water entrained was approaching zero percent of the water flow rate) whereas a single point exhaust system did tend to draw water into the exhaust air stream, thus reducing the amount of water reaching the roadway. The nozzle was positioned in the middle of the exhaust point as this represented the worst possible case. Around 50 percent of the nozzle water flow was drawn into the exhaust. It is noted though that this was not a very realistic case and in practical situations, if a nozzle was positioned in the exhaust, there would be many other nozzles nearby and the amount of water reaching the roadway and fire site would be negligibly impacted.
+
+Chapter 7 looked at the interactions between a transverse ventilation system with FFFS operating to provide insight into the influences of the EVS. For reasons discussed above, models were conducted with a volumetric heat source (but smooth walls and no distributed openings) on a coarse grid (0.4 m). The transverse ventilation models looked an increased tunnel length due to the ventilation and smoke management scenario simulated. The volumetric heat source results tend to be more reliable for results remote from the fire, thus in these models where smoke is spreading  100  to  200  m  from  the  fire,  there  is  likely  less  influence  from  the  fire  plume.  Grid resolution issues noted earlier still apply and any smoke spread predicted in the models would probably  increase  as  the  grid  was  refined.  The  results  showed  that  the  FFFS  improves  the efficiency of the transverse system, with overall smoke spread extent being reduced when using the FFFS (i.e., a model with no FFFS and a 20 MW fire showed smoke spreading to around 300 m of tunnel, while the FFFS model showed that spread reduced to 240 m). The FFFS did cause some  reduction  in  tenability  in  the  zone  of  operation  due  to  the  water  spray  mixing  smoke downward. However, this was confined to an area near to the fire, and additional exhaust capacity is not considered necessary. Caution is suggested with the use of the quantitative results reported in this chapter given the revision of conclusions noted above related to backlayering prediction with FDS.
+
+Chapter 8 summarized the results, research hypotheses and discusses next steps. The research hypotheses findings are updated in Section 5.3 herein. This section should be referred to for the status based on updated modeling approaches and validation studies.
+
+## 2.4 Testing Report
+
+The Testing Report provides detail of the laboratory scale testing that was performed to better understand the interaction between longitudinal EVS and the FFFS. The tests were principally structured toward verifying critical/confinement velocity with an FFFS operating and to provide data for CFD model validation The testing report was comprised of the following chapters:
+
+- Chapter 2 provided a summary of the test facility and procedures. The test tunnel geometry and configuration were described along with the ventilation system implemented, different fire loads  and  FFFS  that  were  used.  The  test  tunnel  was  built  primarily  using  water  resistant aquapanel boards. The ventilation system comprised of three fans which were used to supply air with a capacity of up to 34,000 m 3 /h (20,000 CFM). The system was set up to supply an
+
+adjustable longitudinal air flow through the tunnel to investigate critical/confinement velocity and backlayering. Fires were generated as class B fires using a pan of heptane or diesel and were designed to generate an approximate FHRR of 0.625 MW or 1.3 MW. For FFFS, three different nozzles were used with varying droplet diameter sizes (volume median diameter, Dv0.5, drop sizes of 1117 µm, 280 µm and 131 µm).
+
+- Chapter 3 summarized the test results. Reported results included inlet velocity profile, airflow resistance  of  FFFS  and  other  obstructions,  FHRR  measurements,  critical/confinement velocity by judging backlayering in the tests, adiabatic surface temperatures of the ceiling and tunnel wall, static pressure measurements, relative humidity, and water spray characteristics. Backlayering was controlled in all fire tests after FFFS was activated, however, results from the  tests  were  not  able  to  be  used  to  quantify  the  extent  of  critical/conferment  velocity reduction when the FFFS was operated. Results showed that FFFS with a large water droplet size  had  less  cooling  effect  than  FFFS  with  a  smaller  water  drop  size.  Small/negligible pressure changes were observed due to the operation of FFFS, but this may have been due to  the  small  pressure  changes  involved  and  it  was  not  necessarily  a  conclusive  result. Measurements of the adiabatic surface temperature, relative humidity, and pressure change were  suggested  for  further  investigation  in  the  future  as  there  was  low  confidence  in  the accuracy  of  some  results.  It  was  also  suggested,  for  future  works,  that  tighter  control  of upstream velocity and FHRR be achieved.
+- Chapter  4  presented  FDS  models  (performed  with  the  updated  version  of  FDS  which addresses  the  pressure  issues  discussed  in  Section  2.3)  of  some  selected  tests  and compared the computational results with the test data. Results with FDS models showed the following:
+- The FDS results and test data (gas temperatures at the tunnel ceiling) showed qualitatively similar  results  downstream  of  the  fire,  and  in  some  cases,  there  was  quantitative agreement  as  well.  The  cooling  effect  of  the  water  spray  (seen  in  temperatures downstream of the fire) was usually in agreement (FDS model versus test).
+- Confidence in test results for adiabatic surface temperature, relative humidity and static pressure was not high enough to make meaningful comparisons with the FDS results. These parameters were, however, not critical from the tests for the overall question of FFFS and EVS integration.
+- Backlayering proved difficult to predict with FDS (measured by gas temperatures near to the ceiling), but in cases where the model did predict backlayering, a subsequent reduction in backlayering distance was seen when the FFFS was operated. More backlayering was predicted on the finer grids tested, which is consistent with observations elsewhere that as the grid is refined the FDS model predicts more backlayering. A fully grid converged result was not arrived at within the range of grids tested, especially in the region upstream of the fire. This is consistent with the findings noted above for the Computer Modeling Report. See also Section 3.9 for further analysis that demonstrates that FDS over predicts backlayering.
+- Results  (for  instance,  backlayering  or  no  backlayering)  were  sensitive  to  key  input parameters such as upstream velocity or FHRR, within the range of test uncertainty. The
+
+uncertainty in velocity measurements and FHRR, and the lack of a test result where the upstream velocity was controlled to just achieve critical velocity, meant that the critical velocity could not be established within a range that helped the study to draw a quantitative conclusion on critical velocity. Due to the uncertainty and lower confidence in test results for adiabatic surface temperature, relative humidity and static pressure, comparison was not made for these quantities.
+
+- Chapter 5 summarized the results and discussed next steps. The first research hypothesis was that FFFS and EVS can be integrated, and EVS capacity optimized due to FFFS cooling. The second research hypothesis was that CFD (FDS) can be used to help integrate the FFFS and EVS for varying system designs.
+- The  first  hypothesis  was  partly  supported  through  test  results  demonstrating  that  the velocity to control smoke was reduced through application of the FFFS.
+- The second hypothesis was partially accepted, but only based on qualitative similarities between  test  and  FDS  model  for  backlayering  control  (i.e.,  improved  smoke  control, reduced backlayering, with FFFS operation). Investigation of the second hypothesis was hampered  by  uncertainty  in  the  test  conditions  (FHRR  and  upstream  velocity).  FDS models were found to struggle to predict the backlayering observed in the tests unless upstream velocity and FHRR were varied (within range of test uncertainty). The models tended to struggle to predict the transient backlayering behavior that was seen in the tests. In some instances, backlayering prediction was improved through grid refinement. A grid independent result for backlayering was not achieved. This is consistent with the results noted in the Computer Modeling Report and discussed further in Section 3.9 herein.
+
+Some notable findings from the testing were:
+
+- Temperatures were reduced with smaller water droplets. Nozzle A (1117 µm droplet diameter) at 60 s after FFFS operation, had a downstream temperature of approximately 225 °C, FHRR approximately 1.25 MW. Nozzle B (280 µm droplet diameter) at 60 s after FFFS operation, had  a  downstream  temperature  of  approximately  160 °C,  FHRR  approximately  1.1 MW. Nozzle C (131 µm droplet) at 60 s after FFFS operation, had a downstream temperature of approximately 80 °C, FHRR approximately 1.1 MW. Water application rate for Nozzle A was 3.4 mm/min, Nozzle B was 2 mm/min and Nozzle C was 1.4 mm/min. Upstream velocity was approximately 1.2 m/s in these tests.
+- Effectiveness of the longitudinal velocity was improved when the FFFS was operated (based on reduction in smoke backlayering). However, the degree of improvement was not able to be quantified.
+- The  process  of  water  spray  droplet  profile  development  (diameter,  spray  patterns)  and subsequent  FDS  model  parameter  determination  was  successfully  demonstrated.  A  laser Doppler process was used to measure droplet data and a genetic algorithm was then used with FDS models to determine the model parameters for water spray that gave the best spray pattern match to test data.
+
+Based on the findings in the report, suggested topics for further research (as part of a future test program) were identified:
+
+- Revisit and consider the possibility for future tests to take measurements of the adiabatic surface temperature, relative humidity (or a quantity more suited to water vapor quantification), and pressure change with the goal of providing additional data for these  quantities where there was some uncertainty as to the robustness of the data.
+- In a suggested future research effort, conduct additional tests to provide a quantification of the confinement/critical velocity. In the tests reported the FHRR was transient and there was uncertainty in the upstream air speed, and both these points meant it was not possible to determine quantitatively what the critical velocity was. Future testing could be designed to address these points. A gas burner could be considered for the fire to achieve better FHRR control.
+- Full-scale testing, with the above points addressed, is an area of further suggested research. Whilst small-scale experiments allow more control over conditions and are cheaper to perform than full-scale tests, it is noted that their usefulness depends on the accuracy of the scaling model employed. Froude number is assumed to best represent the physics of buoyant driven smoke movement, but it is noted that scaling on this approach does not accurately scale other parameters such as radiation, fuel geometry, heat transfer and turbulence. If the scaling is too far from the large scale, there is noted to then be considerable uncertainty in the applicability of small-scale results [58].
+- It is suggested, based on outcomes from future suggested tests, to explore development of equations following the physics of backlayering that approximate the known data. The NFPA 502 4 equation is a suggested starting point.
+- Further testing of CFD models, including FDS and other CFD software. Analysis with other CFD models is suggested as it could prove helpful to expand the range of physical models tested, especially in relation to turbulence models, near-wall effects, and geometry resolution (where curved surfaces are involved). Section 2.3 herein provides discussion about analysis of longitudinal ventilation with alternative CFD software [49].
+
+## 3 LONGITUDINAL VENTILATION
+
+In  this  chapter,  integration  of  the  FFFS  and  EVS  is  considered  for  a  longitudinal  ventilation scenario using jet fans. The approach taken is to consider the equation for designing a longitudinal ventilation system, which is a pressure balance, as per Figure 3-1. Note that this equation is also discussed in detail in Section 5.3 of the Literature Survey [1].
+
+## Figure 3-1: Equation. Pressure balance for a longitudinal EVS.
+
+In Figure 3-1, Nf is the number of jet fans, ∆Pj is the pressure rise due to a jet fan, ∆PVEH is the pressure loss due to vehicles, ∆Pf is the pressure loss due to wall friction, lights, FFFS pipework, entry losses and exit losses, ∆Pm is  the  pressure loss due to meteorological effects, including wind, ∆Pb is the pressure loss or rise due to buoyancy, ∆Pfire is the pressure loss due to the fire, and ∆PFFFS is the pressure loss due to the FFFS spray.
+
+There are terms in the force balance that are potentially affected by the FFFS. The force balance equation in expanded form is non-linear and there is not a single term that dominates. A combined FFFS-EVS design solution has several inputs and interactions (e.g., design fire HRR, ambient temperature and pressure, tunnel geometry including grade and area, tunnel friction factor, FFFS water application rate and drop size, vehicle geometry, and external wind).
+
+In a tunnel environment, FFFS impacts to consider include the following:
+
+- Fire heat release rate.
+- FFFS cooling of the combustion products.
+- Critical velocity for smoke control.
+- Pressure loss (airflow resistance) due to fire.
+- Pressure loss (airflow resistance) due to the FFFS (droplets and humidity).
+- Friction losses introduced by FFFS pipework.
+- Water droplet deflection due to the EVS.
+- Tenability for egress and fire fighting.
+
+Detailed discussion of each parameter follows along with example applications.
+
+## 3.1 Fire Heat Release Rate (FHRR)
+
+Section 3.4.3 of the Literature Survey [1] explored the impact of the FFFS on the FHRR, and a summary is provided in Section 2.1.2 herein. The Literature Survey noted that, based on full-scale tests, that an FHRR reduction on the order of 50 percent was observed, and that an FFFS could prevent fire spread. Performance of the FFFS can vary depending on design parameters including water application rate, water drop size and type of fire.
+
+For  the  design  FHRR,  NFPA  502 4 [14]  states  that  representative  FHRRs  for  a  heavy  goods vehicle (HGV) is 150 MW, and for a flammable liquid tanker is 300 MW. In practice, these values can be used only as a starting point in determining the design FHRR for a given tunnel. The final determination of the design fire can be made after considering all relevant factors (e.g., tunnel geometry, traffic makeup, facility risk, etc.).
+
+The expected impact of FFFS varies with system type, water application rate, droplet size, and nozzle type. However, various small and full-scale tests indicate that a reduction in peak FHRR of 50 to 97 percent is likely (assuming prompt activation of the system and a water application rate in the order of 0.15 to 0.20 gpm/ft 2 [6 to 8 mm/min]) [59] [37] [38] [39] [40]. Delayed activation of the FFFS limits the reduction in peak FHRR achieved [60]. Typically, a higher water application rate  results  in  a  slightly  lower  peak  FHRR  [37]  [38].  However,  in  testing  of  an  FFFS,  a  water application rate of 0.1 gpm/ft 2  (4 mm/min) has been seen to reduce the peak FHRR by 97 percent [40]. The difference in peak FHRR with varying water application rate (e.g., between a system with  0.1  gpm/ft 2 or  with  0.2  gpm/ft 2 )  has  been  observed  to  be  small  and  unlikely  to  be  of significance for integrated FFFS-EVS designs (refer to Section 2.1.2.2, Section 2.1.3.3 and Table 2-5). Note that the nozzle type and effect on the FHRR is an area where further research could be beneficial.
+
+Dangerous goods vehicle fires, and particularly liquid fuel fires, are an area where a more cautious approach to use of FFFS and assumption of reduction in the FHRR is suggested. For liquid fuel spills, laboratory scale testing has shown that the FFFS only reduces the FHRR for liquid fuel spills if an aqueous film forming foam (AFFF) is added [61] to the water. This conclusion was applicable with a low pressure FFFS, which likely had large droplets (on the order of 800 µm) based on the nozzles used (i.e., a deluge system). Deluge system water drops can potentially more easily reach a burning surface since the larger droplet can have higher momentum and thus penetrate the fire plume. However, based on test observations this is not a major advantage in a liquid pool fire since AFFF has to be included to form a layer on the fuel and interrupt heating of the fuel [61].
+
+Tests  on  class  B  fires  (liquid  pools)  have  shown  that  a  water  mist  system  can  extinguish  an unshielded liquid fuel fire without additives [8] (water application rates were not available in this test report, nor was a specific FHRR that the system could be effective for, though it is noted that the class B FHRR was as much as 60 MW). Droplet diameter varies between deluge and mist systems. Mist systems have smaller droplets (on the order of 200 µm) and tend to provide a greater  temperature  reduction  due  to  the  increased  surface  area  of  the  water  drops.  The increased volume cooling potential of the mist interrupts heat feedback to the burning surface more effectively than larger drops, and for some situations possibly enough to slow fire growth or even  reduce  the  FHRR.  Studies  have  found  that  addition  of  a  foam  can  further  improve  the effectiveness of a water mist system [62]. Effectiveness of the smaller drop (mist) system for a liquid fuel spill fire is supported by the tests. A larger drop (deluge) system probably would not perform as well since the large water drops might penetrate the fire plume, but the drops would have limited effectiveness on the burning surface since they would scatter the liquid fuel and the fuel would float on the water. Further research is suggested to provide a better quantification of the effectiveness of each system.
+
+Suggested practices: For design purposes a reduction in the FHRR for Class A fires of around 50 to 97 percent from a base condition with no FFFS is possible when using an FFFS. This is suggested to be supported by evidence from full-scale tests with comparable design parameters such  as  design  fire (potential FHRR,  type  of  vehicle and  shielded  versus  unshielded configuration), water application rate, nozzle parameters, tunnel geometry, water droplet size, ventilation  conditions,  and  system  activation  time.  Test  results  also  suggest  that  water  mist systems can be effective for Class B fires.
+
+## 3.2 FFFS Cooling of the Combustion Products
+
+Cooling of combustion products affects the buoyancy forces that are accounted for in sizing of the  ventilation  system  (per  equation  in  Figure 3-1).  The  buoyancy  forces  also  depend  on  the tunnel grade since the hot gases move in the upgrade direction. An equation for the impact of buoyancy forces as per PIARC [63] is provided in Figure 3-1.
+
+Figure 3-2: Equation. Pressure changes due to buoyancy forces.
+
+In Figure 3-2, ∆Pb is the pressure loss or rise due to buoyancy,  0 is the ambient density (kg/m 3 ),  is the average local density downstream of the fire (kg/m 3 ), g is the acceleration due to gravity (m/s 2 ), G is the tunnel gradient (percent) where a negative gradient denotes airflow downhill, and L is the distance over which the pressure change is computed (m). Note that if the gradient is downhill  and  the  air  temperature  is  increased  downstream  (because  of  a  fire),  that  pressure change from this equation is going to be greater than zero. Refer to the equation in Figure 3-1, for the sign convention context (a positive loss term represents a force that the ventilation system would be sized to overcome).
+
+The density of the gases can be computed through an ideal gas equation, which relates the gas temperature to the density. Thus, a CFD model or test data can be used to inform the temperature prediction  and  subsequent  buoyant  force.  When  the  FFFS  is  operated,  the  magnitude  of  the buoyancy force is influenced by the degree of cooling. The Computer Modeling report explored the prediction of downstream temperatures (refer to Section 3 of that report) and showed that FDS was able predict gas temperatures downstream of the fire with FFFS operating.
+
+Suggested practices: Cooling effects can be beneficial for smoke management, depending on the tunnel gradient. Test data or CFD are suggested to be able to be used to predict the effects of the FFFS on the gas temperatures downstream of the fire. This can serve as an input into computation of buoyancy forces for a one-dimensional model via the equation provided in Figure 3-2.
+
+## 3.3 Critical and Confinement Velocity
+
+The NFPA 502 4  equation from the 2014 edition is used herein to provide a starting point for critical velocity estimation in the model boundary conditions. The results of this equation are compared with FDS models that have been developed to have dimensions more like a full-scale tunnel but follow the geometric proportions of the tunnel used in the Testing Report.
+
+Per NFPA 502 4  2023 edition (3.3.15), the critical velocity is the minimum steady state velocity of the ventilation airflow moving toward the fire, within a tunnel or passageway, that is required to prevent backlayering at the fire site.
+
+Per NFPA 502 4  2023 edition (3.3.15), the confinement velocity is the steady-state velocity of the longitudinal ventilation airflow moving toward a fire within a tunnel or passageway that controls the backlayering distance.
+
+Note that confinement velocity also relies on a backlayering distance to be specified, thus the magnitude of ventilation can change if different extents of backlayering are allowed.
+
+The  critical  velocity  equation  from  NFPA  502 4 2014  edition,  refer  to  Figure 3-3,  was  initially validated as part of the Memorial Tunnel test work [64] [65]. In that work, it was noted that a smoke-controlled situation was deemed to have occurred when the backlayering was contained before  loop  305,  which  was  stationed  37 feet  upstream  of  the  fire  centerline  (loop  205).  The validation  process  adjusted  the  critical  velocity  for  blockage  local  to  loop  305,  which  was estimated at 17 percent of the cross-sectional area, resulting in a local increase in velocity of 20 percent. The  equation  was  noted  to  over-predict critical velocity  at  higher  FHRRs  by approximately 4 percent at 50 MW and 16 percent at 100 MW.
+
+In Figure 3-3 A is the area perpendicular to the flow (m 2 ), Cp is the specific heat of air (kJ/kg/K), g is the acceleration due to gravity (m/s 2 ), G is the absolute value of tunnel grade as a percent, H is the height of duct or tunnel at the fire site (m), K1 is 0.606, which is the Froude number factor raised to the negative one third power, Kg is the grade factor which is 1 for 0 percent or uphill grade, and calculated per the provided equation for downhill grade (equation for Kg is based on Figure D.1 in NFPA 502 4  2014), ρ is the average density of the approach (upstream) air (kg/m 3 ), Q is the heat the fire adds directly to air at the fire site (kW), T is the temperature of the approach air (K), Tf is the average temperature of the fire site gases (K), and Vc is the critical velocity (m/s). Note that in the Memorial Tunnel validation work, that the height used was equal to the tunnel height minus the fuel pan height, and not the height of tunnel from floor to ceiling [64].
+
+Figure 3-3: Equation. Critical velocity, NFPA 502 4 2014 [66].
+
+The  equation  for  smoke  management  with  an  FFFS  per  Ko  and  Hadjisophocleous  [56]  was considered for use as well. However, when using this equation in practice, in some situations the critical velocity was found to increase with low FFFS water application rates. Section 2.3 provides further explanation. For suggested practices relating to critical velocity and FFFS, refer to Section 3.10.
+
+## 3.3.1  Computer Model
+
+FDS 1   is  used  to  consider  the  smoke  control  with  and  without  the  FFFS  operating.  Table  3-1 provides  the  main  parameters  used.  For  FFFS,  two  rows  with  six  nozzles  were  considered providing a zone length of 24 m. Table 3-2 shows the FFFS parameters used. Figure 3-4 and Figure 3-5 show cross-sectional sketches of the tunnel.
+
+Table 3-1: FDS parameters used in the computer modeling.
+
+| ITEM                         | VALUE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Geometry                     | FDS models were developed to have dimensions more like a full-scale tunnel but following the geometric proportions of the tunnel used in the Testing Report. The tunnel model had dimensions of 10.4 m width, 5.0 m height and 48.0 m length.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Grid resolution - base case  | The base grid case FDS grid resolution used was 0.4 m along the tunnel length. The grid resolution was varied across the tunnel width and height to generate a finer grid near the walls. In the width (Y) direction the grid varies (0 m is the tunnel centerline): -5.2 m to -4.8 m, 0.1 m resolution -4.8 m to -4.4 m, 0.2 m resolution -4.4 m to +4.4 m, 0.4 m resolution +4.4 m to +4.8 m, 0.2 m resolution +4.8 m to +5.2 m, 0.1 m resolution In the vertical (Z) direction the grid varies: 0 m to 0.5 m, 0.125 m resolution 0.5 m to 1.0 m, 0.25 m resolution 1.0 m to 4.0 m, 0.5 m resolution 4.0 m to 4.5 m, 0.25 m resolution 4.5 m to 5.0 m, 0.125 m resolution The resultant cell count was 120 cells along the tunnel length, 34 cells along the tunnel width, and 18 cells along the tunnel height.        |
+| Grid sensitivity - fine grid | The fine grid case FDS grid resolution used was 0.2 m along the tunnel length. The grid resolution was varied across the tunnel width and height to generate a finer grid near the walls. In the width (Y) direction the grid varies (0 m is the tunnel centerline): -5.2 m to -4.8 m, 0.05 m resolution -4.8 m to -4.4 m, 0.1 m resolution -4.4 m to +4.4 m, 0.2 m resolution +4.4 m to +4.8 m, 0.1 m resolution +4.8 m to +5.2 m, 0.05 m resolution In the vertical (Z) direction the grid varies: 0 m to 0.5 m, 0.0625 m resolution 0.5 m to 1.0 m, 0.125 m resolution 1.0 m to 4.0 m, 0.25 m resolution 4.0 m to 4.5 m, 0.125 m resolution 4.5 m to 5.0 m, 0.0625 m resolution The resultant cell count was 240 cells along the tunnel length, 68 cells along the tunnel width, and 36 cells along the tunnel height. |
+| Fire pool and shield         | 20 MW fire with fire surface 1.0 m above the tunnel floor with default FDS heptane fire parameters. Shield length of 6.8 m, width of 4.8 m, and height of 2.5 m above tunnel floor. Where a different FHRR is tested an explicit note is added.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Inlet velocity               | Varies, informed by NFPA 502 4 2014 critical velocity equations to make an initial estimate of the velocity to control smoke.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+
+February 2024
+
+| ITEM                     | VALUE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| FFFS parameters          | FFFS was set up using nozzle parameters in Table 3-2. The following FDS inputs were used for the nozzles based on nozzle characterization, for Nozzle A (a typical listed nozzle used in the United States, refer to the Testing Report, Section 2.3 and Section 3.8): PARTICLE_VELOCITY = 27.0, SPRAY_ANGLE = 45.0,90.0, PARTICLES_PER_SECOND = 5000, SPRAY_PATTERN_SHAPE = 'UNIFORM', OFFSET = 0.00 For Nozzle B (a smaller water droplet nozzle that has a lower flow rate and was used in the testing, refer to the Testing Report, Section 2.3 and Section 3.8): PARTICLE_VELOCITY = 13.8, SPRAY_ANGLE = 2.3,75.3, PARTICLES_PER_SECOND = 5000, |
+| Wall boundary conditions | OFFSET = 0.0 The test tunnel had a wall boundary condition corresponding to the aquapanels used in the tunnel from the Testing Report, with a thickness of 1 cm and the backing exposed to ambient air. Material properties for the wall were: Density = 750 kg/m 3 Heat capacity = 0.84 kJ/kg/K Conductivity = 0.16945 W/m/K Emissivity = 0.9                                                                                                                                                                                                                                                                                                       |
+| FDS model parameters     | Settings for the pressure solver were adjusted to have a pressure tolerance of 100, maximum pressure iterations of 200, and the tunnel preconditioner setting was set to true [5]. Other model parameters were as per FDS defaults.                                                                                                                                                                                                                                                                                                                                                                                                                  |
+
+Table 3-2: FFFS parameters.
+
+| SYSTEM PARAMETER                                                                                                                                                 | NOZZLE A   | NOZZLE B   |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|------------|
+| Droplet diameter                                                                                                                                                 | 1129.3 µm  | 284.5 µm   |
+| Number of nozzle rows                                                                                                                                            | 2          | 2          |
+| Number of nozzles per row                                                                                                                                        | 6          | 6          |
+| Total number of nozzles                                                                                                                                          | 12         | 12         |
+| Nozzle spacing within rows                                                                                                                                       | 4.0 m      | 4.0 m      |
+| Spacing between rows                                                                                                                                             | 5.4 m      | 5.4 m      |
+| Water application rate (nominal, some small variations up to 0.4 mm/min may have resulted for certain cases at 8 mm/min and 0.1 mm/min for the 2.5 mm/min cases) | 8.0 mm/min | 2.5 mm/min |
+| Flow rate per nozzle                                                                                                                                             | 160 L/min  | 50 L/min   |
+| Total system flow rate                                                                                                                                           | 1920 L/min | 600 L/min  |
+| Spray angle (inner angle, degrees)                                                                                                                               | 45.0 °     | 2.3 °      |
+| Spray angle (outer angle, degrees)                                                                                                                               | 90.0 °     | 75.3 °     |
+| Particle velocity                                                                                                                                                | 27.0 m/s   | 13.8 m/s   |
+
+Figure 3-4: Sketch of the scaled-up tunnel model (side view).
+
+<!-- image -->
+
+Engineering drawing
+
+Figure 3-5: Sketch of the scaled-up tunnel model (top view).
+
+<!-- image -->
+
+Engineering drawing
+
+Figure 3-6 shows the FDS model developed for the scaled-up tunnel. The model was run with free stream inlet velocities based on initial estimates using the NFPA 502 4 2014 critical velocity equation. Table 3-3 compares the visibility extent observed at the centerline at steady state.
+
+February 2024
+
+Figure 3-6: FDS model of the scaled-up tunnel.
+
+<!-- image -->
+
+Engineering drawing
+
+Table 3-3: Initial model results comparing NFPA 502 4  2014 critical velocity.
+
+| MODEL ID   | MODEL DESCRIPTION   |   FHRR (MW) |   VELOCITY (m/s) | VELOCITY RELATIVE TO NFPA 502 2014   | FFFS   | OBSERVATION              |
+|------------|---------------------|-------------|------------------|--------------------------------------|--------|--------------------------|
+| EVS-29-1   | Initial model       |          20 |              1.5 | +0%                                  | None   | Backlayer not controlled |
+| EVS-29-2   | Increased velocity  |          20 |              2.1 | +40%                                 | None   | Backlayer controlled     |
+
+Results show that the FDS overpredicts critical velocity relative to the NFPA 502 4  2014 equation (comparison made to the equation since these models do not represent a situation for which fullscale tests were conducted, refer to Section 3.9 for comparison of results to full-scale test data for  the  Memorial  Tunnel  tests).  The  FDS  model  needed  a  velocity  of  2.1  m/s  to  control backlayering versus 1.5 m/s per the equation. More discussion about FDS overpredicting critical velocity is provided in Section 3.9.4 (where it is also shown that FDS predicts more backlayering as the grid is refined).
+
+To see the effects of FFFS operating, the inlet velocity was reduced to determine the reduction in the critical velocity that could be achieved with FFFS operating. Cases were conducted with the velocity set to 1.65 m/s (10 percent more than the NFPA 502 4  2014 equation value) and results were observed for no FFFS, and then cases with FFFS using Nozzle A and Nozzle B. Table 3-4 compares results for the three runs. The results show improved smoke management (reduced backlayering)  with  FFFS  operating.  The  backlayering  was  not  quite  reduced  to  zero  with  the velocity used (thus the velocity is technically speaking a confinement velocity) but the result is indicative of the beneficial impact of the FFFS for smoke management.
+
+Table 3-4: Results showing impact of the FFFS on critical velocity reduction.
+
+| MODEL ID   | MODEL DESCRIPTION           |   FHRR (MW) |   VELOCITY (m/s) | VELOCITY RELATIVE TO NFPA 502 2014   | FFFS                 | OBSERVATION (BASED ON VISIBILITY)    |
+|------------|-----------------------------|-------------|------------------|--------------------------------------|----------------------|--------------------------------------|
+| EVS-29-34  | Initial model               |          20 |             1.65 | +10%                                 | None                 | Backlayer not controlled             |
+| EVS-29-12  | Increased velocity and FFFS |          20 |             1.65 | +10%                                 | Nozzle A, 8 mm/min   | Backlayer controlled, less than 10 m |
+| EVS-29-14  | Increased velocity and FFFS |          20 |             1.65 | +10%                                 | Nozzle B, 2.5 mm/min | Backlayer controlled, less than 10 m |
+
+## 3.3.2  Computer Model Sensitivity
+
+Sensitivity of the results to different factors was considered, which included width of the tunnel, FHRR and grid resolution. Sensitivity cases were run both with and without FFFS using Nozzle A. Additional sensitivity cases were run for Nozzle B to determine if smoke control was sensitive to the number of nozzles and their placement.
+
+## 3.3.2.1  Geometry Sensitivity
+
+The  tunnel  model  from  Section  3.3.1  was  widened  by  4.8  m  making  the  total  width  15.2 m. Figure 37 shows the widened tunnel geometry. The number of nozzle rows was increased to four for Nozzle A to account for the increase in the tunnel width. Fire heat release rate was kept at 20 MW. The free stream inlet velocity was computed using the 2014 NFPA 502 4  critical velocity equation with margin added (40 percent) and applied as the inlet boundary condition.
+
+Figure 3-7: Widened tunnel model for the geometry sensitivity.
+
+<!-- image -->
+
+Engineering drawing
+
+Table 3-5 shows the results with and without FFFS operating using Nozzle A. Results show that smoke is  better  controlled  with  FFFS  operating  using  Nozzle  A  at  a  uniform  inlet  velocity  of 2.0 m/s.
+
+Table 3-5: Results for a wider tunnel model with 2 m/s inlet velocity.
+
+| MODEL ID   | MODEL DESCRIPTION               |   FHRR (MW) |   VELOCITY (m/s) | VELOCITY RELATIVE TO NFPA 502 2014   | FFFS               | OBSERVATION (BASED ON VISIBILITY)        |
+|------------|---------------------------------|-------------|------------------|--------------------------------------|--------------------|------------------------------------------|
+| EVS-29-42  | Wider tunnel at 15.2 m          |          20 |              2.0 | +43%                                 | None               | Some backlayering but appears controlled |
+| EVS-29-23  | Wider tunnel at 15.2 m and FFFS |          20 |              2.0 | +43%                                 | Nozzle A, 8 mm/min | No backlayering                          |
+
+Table 3-6 shows the results with 25 percent reduction in the inlet velocity. As expected, the case with no FFFS operating shows substantial backlayering. Results show that the FFFS helps to control the smoke and a degree of control is achieved, even with 25 percent reduction in the inlet velocity.
+
+Table 3-6: Results for a wider tunnel model with 25 percent reduction in the inlet velocity from 2 m/s to 1.5 m/s.
+
+| MODEL ID   | MODEL DESCRIPTION               |   FHRR (MW) |   VELOCITY (m/s) | VELOCITY RELATIVE TO NFPA 502 2014   | FFFS               | OBSERVATION (BASED ON VISIBILITY)        |
+|------------|---------------------------------|-------------|------------------|--------------------------------------|--------------------|------------------------------------------|
+| EVS-29-38  | Wider tunnel at 15.2 m          |          20 |              1.5 | +7%                                  | None               | Backlayer not controlled                 |
+| EVS-29-24  | Wider tunnel at 15.2 m and FFFS |          20 |              1.5 | +7%                                  | Nozzle A, 8 mm/min | Some backlayering but appears controlled |
+
+## 3.3.2.2  Fire Heat Release Rate Sensitivity
+
+The  FHRR  of  the  scaled-up  tunnel  model  from  Section  3.3.1  was  increased  to  50  MW  to investigate the effectiveness of the FFFS with regards to smoke control with a larger fire. The length of the fire pool was extended by 1.6 m to account for the increased FHRR. Table 3-7 shows the results with and without FFFS operating using Nozzle A. Results show that smoke is controlled with or without FFFS operating using Nozzle A at a uniform inlet velocity of 2.2 m/s.
+
+Table 3-7: Results with an increased FHRR (from 20 MW to 50 MW) with no FFFS and with FFFS.
+
+| MODEL ID   | MODEL DESCRIPTION       |   FHRR (MW) |   VELOCITY (m/s) | VELOCITY RELATIVE TO NFPA 502 2014   | FFFS               | OBSERVATION (BASED ON VISIBILITY)   |
+|------------|-------------------------|-------------|------------------|--------------------------------------|--------------------|-------------------------------------|
+| EVS-29-43  | Increased FHRR          |          50 |              2.2 | +22%                                 | None               | Backlayering controlled             |
+| EVS-29-20  | Increased FHRR and FFFS |          50 |              1.5 | +22%                                 | Nozzle A, 8 mm/min | Backlayering controlled             |
+
+Table 3-8 shows the results with 25 percent reduction in the inlet velocity. Results show that FFFS helps to control the smoke effectivity even with 25 percent reduction in the inlet velocity.
+
+Table 3-8: Results with 25 percent reduction in the inlet velocity from 2.2 m/s to 1.65 m/s with no FFFS and with FFFS.
+
+| MODEL ID   | MODEL DESCRIPTION                               |   FHRR (MW) |   VELOCITY (m/s) | VELOCITY RELATIVE TO NFPA 502 2014   | FFFS               | OBSERVATION (BASED ON VISIBILITY)   |
+|------------|-------------------------------------------------|-------------|------------------|--------------------------------------|--------------------|-------------------------------------|
+| EVS-29-37  | Increased FHRR and 25% velocity reduction       |          50 |             1.65 | +10%                                 | None               | Backlayer not controlled            |
+| EVS-29-25  | Increased FHRR, 25% velocity reduction and FFFS |          50 |             1.65 | +10%                                 | Nozzle A, 8 mm/min | Backlayering controlled             |
+
+## 3.3.2.3  Grid Resolution Sensitivity
+
+Sensitivity to the grid resolution was tested using a fine grid resolution, with the grid resolution doubled  (i.e.,  cell  sizes  halved)  relative  to  the  base  case  grid  as  per  Table  3-1.  Figure  3-8 compares the temperature contour of the base case model (refer to Section 3.3.1) with the fine grid  resolution  at  the  observed  critical  velocity  of  2.2  m/s.  Results  show  slightly  higher temperatures upstream of the fire with a finer grid resolution, however, the difference is very small. Finer grids were not tested since the computation time became too long.
+
+Figure 3-8: Temperature contour comparison for the base case and fine grid resolution at FDS predicted critical velocity.
+
+<!-- image -->
+
+Geographical map
+
+Figure 3-9 compares the visibility contour of the base case tunnel model (refer to Section 3.3.1) with the fine grid resolution and 25 percent reduction in inlet velocity with FFFS operating. It is noted that due to the transient nature of the fire, there exists some fluctuation in the visibility contour  results.  The  result  for  the  base  gird  (EVS-29-12)  had  such  fluctuations  where backlayering increased and decreased continuously. The finer grid case (EVS-29-31) did not have as much fluctuation and the extent of backlayering predicted is less.
+
+Figure 3-9: Visibility contour comparison for the base case and fine grid resolution with FDS inlet velocity reduced (from critical predicted value of 2.2 m/s) and FFFS operating.
+
+<!-- image -->
+
+Engineering drawing
+
+Figure 3-10 compares the visibility contour of the base grid resolution with the fine grid resolution of the widened tunnel model (refer to Section 3.3.2.1), with FFFS operating. Results show slightly increased  backlayering  predicted  with  finer  grid  resolution.  With  no  FFFS  operating,  the backlayering exceeds beyond the tunnel length upstream of the fire for the widened tunnel model.
+
+Figure 3-10: Visibility contour comparison for the base case and fine grid resolution with widened tunnel model with FDS inlet velocity reduced (from critical predicted value of 2.2 m/s) and FFFS operating.
+
+<!-- image -->
+
+Engineering drawing
+
+Figure 3-11 compares the visibility contour of the base grid resolution with the fine grid resolution with the increased FHRR of 50 MW (refer to Section 3.3.2.2), FFFS operating and reduction in the  free  stream  inlet  velocity  computed  using  the  2014  NFPA  502 4 critical  velocity  equation. Results  show  similar  backlayering  prediction  in  both  cases.  With  no  FFFS  operating,  the backlayering exceeds well beyond the tunnel length upstream of the fire for the 50 MW FHRR tunnel model.
+
+For the grid refinement cases investigated here, the difference in the backlayering extent between the models with different grid resolutions is minor in terms of potential impact on an engineering application. That is, keeping everything the same between base case and refined grids, and with a  velocity  less  than  the  critical  value  used,  FFFS  is  seen  to  keep  the  smoke  backlayering contained on both grids. The difference in backlayering length between the different grids is small (less  than  a  tunnel  hydraulic  diameter,  for  instance,  see  Figure  3-9).  Considering  this,  it  is concluded that FFFS can provide improved smoke control due to the cooling effect. Section 3.10 provides further discussion on the ability of FDS to predict the cooling effects and smoke control.
+
+Finer grids, to try and achieve a completely grid independent result, were not tested since the computation time became too long. Without a fully grid independent result, the absolute nature of results is to be treated with some caution. However, as noted, keeping everything else the same, and assuming no other underlying factors, the FDS models do provide a relative demonstration of the beneficial impact of the FFFS on smoke control and differences between different grids are quite small overall.
+
+Figure 3-11: Visibility contour comparison for the 50 MW FHRR tunnel model with fine grid resolution with nine percent reduction in the free stream inlet velocity and FFFS operating.
+
+<!-- image -->
+
+Engineering drawing
+
+## 3.3.2.4  Inlet Boundary Condition Sensitivity
+
+The sensitivity associated with the inlet boundary condition of the tunnel model is investigated here using results with FFFS operating using Nozzle A at fine grid resolution. The impact of the proximity of the inlet boundary condition with respect to the fire location is investigated and the effect  of  the  upstream  smoke  propagation  being  adversely  influenced  by  the  inlet  boundary condition location is considered when backlayering is expected to be controlled.
+
+Figure 3-12 compares the visibility contour of the fine grid resolution of the tunnel model with FFFS operating using Nozzle A with an extended tunnel model of 60 m upstream of the fire at 25 percent  reduced  inlet  velocity.  Results  are  found  to  be  similar,  suggesting  that  the  flow development from velocity profile with a constant velocity has negligible effect on the upstream smoke propagation when backlayering is expected to be controlled.
+
+Figure 3-12: Visibility contour comparison between varying inlet boundary condition proximity to the fire at fine grid resolution with FDS inlet velocity reduced (from critical predicted value) and FFFS operating.
+
+<!-- image -->
+
+Engineering drawing
+
+Figure 3-13 compares the visibility contour of the fine grid resolution of the tunnel model with no FFFS, with an extended tunnel model of 60 m upstream of the fire at the predicted critical velocity. Results are found to be similar for both cases, suggesting a similar conclusion as per earlier results from Figure 3-12. This shows when backlayering is controlled, the proximity of the inlet boundary  condition  with  respect  to  the  fire  location  does  not  impact  the  upstream  smoke propagation substantially.
+
+Figure 3-13: Visibility contour comparison between varying inlet boundary condition proximity to the fire at fine grid resolution with FDS predicted critical velocity and FFFS operating.
+
+<!-- image -->
+
+Engineering drawing
+
+## 3.3.2.5  Nozzle Placement Sensitivity
+
+The sensitivity associated with the nozzle placement is investigated here using Nozzle B (refer to Table 3-2) using the base case model from Section 3.3.1. Sensitivity was conducted by increasing the number of nozzles per row as well as increasing the number of rows of the nozzles. Table 3-9 summarizes  the  sensitivity  cases  run.  The  water  application  rate  in  all  cases  was  nominally 2.5 mm/min. Flow rate is provided per nozzle. The results showed minimal to no sensitivity for the cases conducted.
+
+Table 3-9: Summary of cases for nozzle placement sensitivity.
+
+| CASE      | NOZZLES                    | FLOW RATE   |
+|-----------|----------------------------|-------------|
+| EVS-29-14 | 6 nozzles per row, 2 rows  | 50 LPM      |
+| EVS-29-16 | 12 nozzles per row, 2 rows | 25 LPM      |
+| EVS-29-18 | 8 nozzles per row, 3 rows  | 25 LPM      |
+
+Table 3-10: Results for base case model geometry with different nozzle placements and 25 percent reduction in the FDS predicted critical velocity of 2.2 m/s.
+
+| MODEL ID   | MODEL DESCRIPTION          |   FHRR (MW) |   VELOCITY (m/s) | VELOCITY RELATIVE TO NFPA 502 2014   | FFFS                                          | OBSERVATION (BASED ON VISIBILITY)   |
+|------------|----------------------------|-------------|------------------|--------------------------------------|-----------------------------------------------|-------------------------------------|
+| EVS-29-37  | 6 nozzles per row, 2 rows  |          20 |             1.65 | +10%                                 | Nozzle B, 12 nozzles, 50 LPM each, 2.5 mm/min | Backlayering controlled             |
+| EVS-29-16  | 12 nozzles per row, 2 rows |          20 |             1.65 | +10%                                 | Nozzle B, 24 nozzles, 25 LPM each, 2.5 mm/min | Backlayering controlled             |
+| EVS-29-18  | 8 nozzles per row, 3 rows  |          20 |             1.65 | +10%                                 | Nozzle B, 24 nozzles, 25 LPM each, 2.5 mm/min | Backlayering controlled             |
+
+Results are shown with 25 percent reduction in the observed critical velocity of 2.2 m/s for the base case model. The description of the respective contours is followed by a set of numbers. The first number indicates the number of nozzles per row and the second number (after the dash) indicates number of rows. Results show no significant difference in terms of visibility, indicating that the nozzle placement may not have a big impact on smoke control. 12 nozzles (6-2) are seen to  control  the  smoke  as  effectively  as  24  nozzles  (8-3)  with  minor  difference  in  the  resulting backlayering.
+
+Additional sensitivity was conducted to investigate the effect of varying water flow rate of the nozzles on smoke control. Table 3-11 compares the results where the total system flow rate was varied from 50 LPM (base case model) to 100 LPM (double) and 25 LPM (half) flow rates. The nozzle placement was kept the same in all three cases to two rows of nozzles with six nozzles per row. Results showed no significant difference for this scenario between total system water flow rates in terms of smoke control.
+
+Table 3-11: Results for the base case model with different water flow rates and 25 percent reduction in the FDS predicted critical velocity.
+
+| MODEL ID   | MODEL DESCRIPTION         |   FHRR (MW) |   VELOCITY (m/s) | VELOCITY RELATIVE TO NFPA 502 2014   | FFFS                                           | OBSERVATION (BASED ON VISIBILITY)   |
+|------------|---------------------------|-------------|------------------|--------------------------------------|------------------------------------------------|-------------------------------------|
+| EVS-29-14  | 6 nozzles per row, 2 rows |          20 |             1.65 | +10%                                 | Nozzle B, 12 nozzles, 50 LPM each, 2.5 mm/min  | Backlayering controlled             |
+| EVS-29-44  | 6 nozzles per row, 2 rows |          20 |             1.65 | +10%                                 | Nozzle B, 12 nozzles, 100 LPM each, 5 mm/min   | Backlayering controlled             |
+| EVS-29-45  | 6 nozzles per row, 2 rows |          20 |             1.65 | +10%                                 | Nozzle B, 12 nozzles, 25 LPM each, 1.25 mm/min | Backlayering controlled             |
+
+## 3.4 Airflow Resistance Due to Fire
+
+The pressure loss (flow resistance) due to the fire is difficult to predict and is typically estimated using either CFD data or an empirical formula. Equations are presented in the literature for the purposes of computation of a pressure loss due to fire. The first equation considered is taken from the governing equations of the SVS (Subway Ventilation Simulation) software [67]. SVS is a onedimensional flow solver, aimed for use in rail tunnels, but is applicable to road tunnels as well. Its calculation of the fire pressure loss is based on the equation in Figure 3-14.
+
+## Figure 3-14: Equation. SVS pressure drop equation due to fire.
+
+In  Figure 3-14, ∆ Pfire is  the  pressure  loss  due  to the  fire  (Pa), ρ 0 is  the  density  of  ambient air (kg/m 3 ), vin is the magnitude of the upstream velocity (m/s), Tfire is the temperature at the fire (K), T0 is the ambient temperature (K), Qconv is the convective portion of the fire heat release rate (W), Cp is the specific heat of air (J/kg/K), and 𝑚̇ is the mass flow rate of air (kg/s).
+
+One limitation of this equation is that it does not account for the width of the tunnel. In a typical two-lane tunnel, the fire may occupy most of the cross section, and the pressure loss is averaged over  the  cross  section.  However,  applying  this  averaged  value  to  a  six-lane  tunnel  may overestimate the total loss. In these wider tunnels, most single vehicle fires do not occupy the entire width of a six-lane tunnel, and therefore the loss averaged over the cross section should, in theory, be lower for the larger tunnel (unless the fire involves many vehicles and occupies the entire cross section).
+
+A  recent  paper by  Carlotti  and  Salizzoni [68]  uses  dimensional analysis  of multiple  empirical formulae and compares the results with small-scale experimental data to derive a new equation for the pressure drop due to fire, shown below in Figure 3-15.
+
+## Figure 3-15: Equation. Pressure drop equation suggested for EVS design [68].
+
+In Figure 3-15, ∆ Pfire is the pressure loss due to the fire (Pa), Qconv is the convective portion of the fire heat release rate (W), v is the magnitude of the upstream velocity (m/s), Cp is the specific heat of air (J/kg/K), T0 is the ambient temperature (K), and Dh is the hydraulic diameter of the tunnel (m).
+
+The fire pressure loss has also been referred to as a throttling effect in a paper by Riess et. Al. [51]. Pressure loss is comprised of contributions to the losses due to expansion of gases at the fire  (per  Figure 3-14  and  Figure 3-15),  increased  wall  friction  downstream  of  the  fire  due  to increased air speed, deceleration due to cooling downstream of the fire, and resistance due to temperature stratification downstream of the fire. Figure 3-16 provides the pressure losses based on CFD analysis [51] considering the stratification losses.
+
+February 2024
+
+February 2024
+
+Figure 3-16: Equation. Pressure loss due to throttling effects [51] (downstream stratification).
+
+In Figure 3-16, ∆Pthrottle is the pressure loss due to the fire (Pa) and downstream throttling effects, Q is the fire heat release rate (W), u0 is the magnitude of the upstream velocity (m/s), AT is the tunnel  cross  section  area  (m 2 ), HT is  the  height  of  the  tunnel  (m),  and L3 is  tunnel  length downstream of the fire. The magnitude of L3 can vary with tunnel length downstream of the fire and  it  is  noted  that  CFD  analysis  is  suggested  to  verify  the  magnitude  for  tunnel  lengths downstream that are more than 500 meters long [51] due to smoke stratification affecting the result.
+
+Figure 3-17 presents an example of pressure loss due to fire computed with the three equations presented for varying FHRR. The equation calculations presented are based on the Memorial Tunnel cross section (with ceiling removed) at a velocity from upstream of the fire of 3 m/s. There is variation in the pressure losses. The SVS equation is seen to predict a lower pressure loss due to fire than the correlation by Carlotti and Salizzoni.
+
+Note  that  the  equation  by  Riess  et  al.  [51]  includes  the  pressure  losses  due  to  stratification downstream of the fire and the magnitude of these losses is quite large relative to the pressure loss at the fire. Development of the equation by Riess included taking account of static pressure gain due to the flow downstream of the fire cooling and slowing down [69]. Note that this effect is not included in the one-dimensional formulation outlined in PIARC [63] and discussed in Section 3.  Instead,  any  cooling  effects  are  taken  account  of  as  energy  removal  via  a  temperature decrease. The magnitude of the static pressure regain tends to be small relative to the other loss terms per analysis in  [69]. If the  formulation  in  Figure  3-16  was  developed  with  this  term  not accounted for, the losses predicted would be slightly increased. It is noted that the subject of pressure loss due to fire is an area of ongoing research in the industry and recently released publications are suggested to be consulted to keep up with developments (for example [70]).
+
+Suggested practices: The pressure loss due to fire can be estimated via the equation provided in Figure 3-15. It has also been demonstrated that there are additional losses downstream of the fire, not only due to the temperature increase from the fire, but also the stratification [51]. This loss can be more than the fire pressure losses and is suggested to be accounted for in the EVS design for longitudinal ventilation. The formulation in Figure 3-16 is suggested for use to estimate this.
+
+Figure 3-17: Pressure losses due to fire (Memorial Tunnel cross section) (MTLV-01-02).
+
+<!-- image -->
+
+Line chart
+
+## 3.5 Airflow Resistance Due to the FFFS
+
+Airflow resistance due to the FFFS is due to losses created by the water droplets, humidity, and spray dynamics. Recent work by Riess explored the effects of the FFFS on airflow resistance [71].  An  equation  was  proposed  as  presented  in  Figure  3-18.  The  equation  is  based  on  a momentum balance in the tunnel, and it assumes that the water droplets are accelerated to the same  air  speed  as  in  the  tunnel  and  are  distributed  symmetrically  (thus  some  droplets  add momentum to the longitudinal airflow, while others equally remove momentum from the airflow). Volume  increase  due  to  water  evaporation  is  not  included  in  the  equation  and  is  assumed negligible.
+
+Figure 3-18: Equation. Pressure loss due to the FFFS [71].
+
+In  Figure  3-18, ∆ PFFFS is  the  pressure  loss due  to  the  FFFS  (Pa), u0 is  the  magnitude of  the upstream velocity (m/s), and 𝑚̇ 𝑤 is the mass flow rate of water (kg/s), and AT is the tunnel cross section area (m 2 ).
+
+A calculation based on the Memorial Tunnel cross section (with ceiling removed) was conducted to estimate the magnitude of the pressure losses introduced due to the FFFS. In the calculation the air speed was 3 m/s, tunnel area was 60.4 m 2 , and the water application rate was 10 mm/min over an area 30 m long and 8 m wide (which is a typical FFFS zone dimension seen in practice). Computation using the equation (Figure 3-18) gives a pressure loss of 2 Pa due to the water spray, or 120 N based on the tunnel cross section area. A typical jet fan used in a tunnel for longitudinal ventilation has a thrust of 1500 N and typically a tunnel is ventilated with four or more jet fans. Based on this analysis the airflow resistance due to the FFFS is small relative to other losses (such as friction, fire resistance, buoyancy, etc.). Although losses due to the FFFS are small, the equation is suggested to be used in a design calculation to verify that the losses are minor overall.
+
+Other possible losses introduced by the FFFS include evaporation of water droplets causing a change in density of the air. Work by Riess [71] considered this factor and determined an increase in air density due to droplets of about four percent, which amounted to an additional pressure loss that was not large enough for design consideration. A study to look at losses from the FFFS in a fire scenario, based on the Memorial Tunnel test geometry, is presented in Section 3.9.4.
+
+Suggested practices: Losses  due  to  the  FFFS  are  small  but  they  can  be  estimated  via  the equation provided in Figure 3-18. The losses therefore are suggested to be factored into the ventilation design calculations for a longitudinal EVS.
+
+## 3.6 Friction Losses Introduced by FFFS Pipework
+
+Friction losses are present in a tunnel due to the wall roughness and internal obstructions. Wall roughness due to concrete surfaces can be estimated via the roughness height per the equation provided  in  Figure 3-19,  which  is  known  as  the  Haaland  equation  for  wall  friction  based  on roughness height [72].
+
+Figure 3-19: Equation. Haaland equation for friction factor.
+
+In Figure 3-19, the symbol f is the dimensionless Darcy friction factor,  is the roughness height (m), D is the tunnel hydraulic diameter (m), and Re is the dimensionless Reynolds number. The Reynolds number is computed as the product of fluid density (kg/m 3 ) times velocity (m/s) times diameter (m), divided by the fluid viscosity (Ns/m 2 ). The Darcy friction factor is used to compute the pressure loss along a length of tunnel or duct according to Figure 3-20.
+
+Figure 3-20: Equation. Pressure loss equation.
+
+In Figure 3-20, ∆P is pressure change (Pa), L is the length of duct or tunnel (m),  is the fluid density  (kg/m 3 ),  and u is  the  average  velocity  (m/s).  Other  symbols  are  as  per  Figure 3-19. Roughness heights for some common materials encountered in tunnels are listed in Table 3-12.
+
+Table 3-12: Roughness heights [67].
+
+| Surface          |   Roughness height,  (ft) |   Roughness height,  (mm) |
+|------------------|----------------------------|----------------------------|
+| Clean steel      |                    0.00015 |                       0.05 |
+| Asphalted iron   |                    0.00040 |                        0.1 |
+| Smooth concrete  |                      0.001 |                        0.3 |
+| Average concrete |                      0.003 |                        0.9 |
+| Rough concrete   |                       0.01 |                        3.0 |
+
+The losses due to internal tunnel obstructions, such as cameras, lighting and FFFS elements, can be estimated based on the geometry of the object, number of objects, and published loss factors for the object's drag [67] [73]. Figure 3-21 provides the equation which converts the object drag to an effective friction factor. The wall friction is suggested to be accounted for also and assuming the objects are offset from the wall, the simplest way to account for wall friction is to add the two factors (i.e., the wall roughness contribution from Figure 3-19 and the internal obstructions from Figure 3-21, to compute pressure loss using the equation in Figure 3-20).
+
+Figure 3-21: Equation. Friction factor computation for internal obstructions.
+
+In Figure 3-21, f s is the friction factor, D is the tunnel hydraulic diameter (m), L is the length of duct or tunnel (m), At is the tunnel cross sectional area (m 2 ), Ni is the number of objects i along the tunnel length, CD,i is the drag coefficient of object i , Ai is the area of object i perpendicular to the airflow (m 2 ), and Fi is the interference coefficient. The interference coefficient is used when objects are arranged in a continuous fashion in a tunnel or duct and there is a possibility of aerodynamic shadowing, which can reduce the effective drag of an object, per Figure 3-22 [73].
+
+Figure 3-22: Equation. Friction factor interference factor for shadowing [73].
+
+In Figure 3-22, F is the interference factor (as per Figure 3-21), S is the spacing between objects (m), W is the object width facing the airflow (m), and the equation is valid for S/W between 10 and 40.
+
+When objects are attached to the wall with no offset, then the percentage of the wall surface covered by objects could be estimated, in order to not overestimate the total friction factor. The percentage  of  the  overall  tunnel  wall  surface  area  taken  up  by  objects  would  be  used  to proportionally reduce the tunnel wall roughness (computed per Figure 3-19). However, care is suggested here because if the objects have very rough surfaces parallel to the flow, then that friction is suggested to be accounted for in addition to the drag that is considered per Figure 3-21. The importance of taking this more complex calculation route is going to be dependent on the specifics of an application and whether there is a concern that friction factor is overestimated by not making this allowance. Note that CFD models can also be used to estimate tunnel friction and as geometry becomes more complex this may be a better method.
+
+## 3.6.1  Computation of Tunnel and Duct Losses Due to FFFS
+
+Pressure loss in a tunnel (or a duct) due to FFFS pipework can be computed using CFD and friction factors can be estimated via equations. For this purpose, a square tunnel was modeled using  ANSYS  Fluent 11 This  software  was  used  because  it  enabled  local  grid  refinement  and resolution of the FFFS pipework, which would not have been feasible in software such as FDS which uses a rectangular grid with less ability to provide local refinement. Figure 3-23 shows the tunnel cross-section and geometry both with and without FFFS pipework. An inlet velocity of 5.0 m/s was set and pressure changes were measured at the inlet and outlet for both models. The FFFS pipework followed a typical pipework structure found in tunnels. Thirty pipework branches with pipe sizes varying from 0.1 m (4 in) to 0.05 m (2 in) in diameter were modeled, equally spaced at 3.5 m (11.5 ft). The tunnel was extended by 15.2 m (50 ft) before and after FFFS pipework to provide unobstructed volume for flow stability at the inlet and outlet. The FFFS pipework was offset by 0.15 m (6 in) away from the tunnel walls. An additional case was run where the offset between the tunnel wall and FFFS pipework was removed, that is, the pipework was attached to the tunnel walls.
+
+A nominal grid size of 0.15 m was used with hexahedral mesh for the models. The grid was locally refined around obstructions with a resolution down to 0.01 m for the smaller geometric features. The models were run using the pressure-based solver, at steady state. The realizable k-epsilon turbulence model was used with standard wall functions.  The  inlet  was given  a  velocity  inlet boundary condition and outlet was set as a pressure outlet. The models used the SIMPLE (semiimplicit pressure linked equation) algorithm for pressure correction.
+
+Figure 3-23: Square tunnel cross-section and geometry both with and without FFFS pipework modeled for the CFD analysis.
+
+<!-- image -->
+
+Engineering drawing
+
+Figure 3-24 shows the equations used to compute pressure losses and friction factors using CFD results. Table 3-13 provides the values of the parameters used in the computation.
+
+11 ANSYS Fluent is a commercially available general purpose CFD software (note that the software name is included  for  informational  purposes  only  and  it  is  not  intended  to  reflect  a  preference,  approval,  or endorsement of any one product or entity).
+
+Figure 3-24: Equation. Pressure loss and friction factor computation for CFD analysis.
+
+In Figure 3-24, ∆ P is the pressure change (Pa), f is the computed friction factor, fD is the Darcy friction factor based on smooth wall friction, ρ is the fluid density (kg/m 3 ), V is the average velocity (m/s), L is the length of duct or tunnel (m), Dh is the tunnel hydraulic diameter (m), Pin is the total inlet pressure (Pa), and Pout is the total outlet pressure (Pa).
+
+Table 3-13: Parameters used in the computation of pressure loss and friction factor.
+
+| PARAMETER                     | VALUE        |
+|-------------------------------|--------------|
+| Density ( ρ )                 | 1.225 kg/m 3 |
+| Velocity ( V )                | 5.0 m/s      |
+| Darcy friction factor ( f D ) | 0.0097       |
+| Length ( L )                  | 132.2 m      |
+| Hydraulic diameter ( D h )    | 8.9 m        |
+| Area ( A )                    | 81.0 m 2     |
+| Perimeter ( P )               | 36.4 m       |
+
+The inlet and outlet pressures were obtained from the CFD analysis using the static pressure change.  Friction  factor  was  then  calculated  using  the  equation  from  Figure  3-24.  Table  3-14 summarizes the results of the computation.
+
+Table 3-14: Summary of the computed pressure losses and friction factors.
+
+| CASE                        | INLET PRESSURE (P in )   | OUTLET PRESSURE (P out )   | PRESSURE CHANGE ( ∆ P)   | FRICTION FACTOR (f) (PERCENT CHANGE FROM NO PIPEWORK)   | MODEL ID   |
+|-----------------------------|--------------------------|----------------------------|--------------------------|---------------------------------------------------------|------------|
+| Without FFFS pipework       | 19.32 Pa                 | 15.39 Pa                   | 3.93 Pa                  | 0.017                                                   | EVS-30-4   |
+| With pipework (6 in offset) | 22.62 Pa                 | 15.60 Pa                   | 7.01 Pa                  | 0.031 (179 percent)                                     | EVS-30-3   |
+| With pipework (no offset)   | 23.45 Pa                 | 15.56 Pa                   | 7.89 Pa                  | 0.035 (200 percent)                                     | EVS-30-5   |
+
+Suggested practices: Results show an increase in the friction factors with the inclusion of FFFS pipework in the tunnel. Each tunnel design is going to be unique and thus pressure losses due to FFFS pipework are suggested to be estimated on a case-by-case basis. Grid refinement study is also suggested.
+
+## 3.7 Water Droplet Deflection Due to the EVS
+
+Water  droplet  deflection  in  the  longitudinal  air  stream  can  be  computed  with  CFD  and  also estimated via equations [71]. The equation of motion in the horizontal direction is per Figure 3-25
+
+and the vertical direction per Figure 3-26. These equations can be numerically integrated in time to estimate the droplet motion in a known velocity field.
+
+Figure 3-25: Equation. Water drop equation of motion in horizontal direction [71].
+
+Figure 3-26: Equation. Water drop equation of motion in vertical direction [71].
+
+In Figure 3-25 and Figure 3-26, ud,x is the velocity of the water drop in the x (horizontal) direction (m/s), ud,z is the velocity of the water drop in the z (vertical) direction in (m/s), ua,x is the velocity of the air in the horizontal direction (m/s),  a is the air density and  d the drop density (kg/m 3 ), crel is the velocity of the drop relative to the air (m/s) (per Figure 3-27), cw is the drop drag coefficient (per Figure 3-28), Dd is the drop diameter (m), t is time (s), and g is the acceleration due to gravity (m/s 2 ).
+
+Figure 3-27: Equation. Water drop relative velocity to air [71].
+
+In Figure 3-27, ud,y is  the velocity of the water drop in the y (lateral) direction (m/s), ua,y is  the velocity of the air in the y (lateral) direction (m/s), ua,z is the velocity of the air in the z (vertical) direction (m/s), and other symbols are the same as noted for Figure 3-25 and Figure 3-26.
+
+Figure 3-28: Equation. Water drop drag coefficient [71].
+
+In Figure 3-28, cw is the drop drag coefficient, and Red is the drop Reynolds number as per Figure 3-29. In Figure 3-29 symbols are as per Figure 3-25 and Figure 3-26 and µa is the air viscosity (Ns/m 2 ).
+
+Figure 3-29: Equation. Water drop Reynolds number in air [71].
+
+As an example, the equations were numerically integrated to estimate droplet drift and compared with FDS results. The longitudinal velocity in the models was 2.5 m/s and the tunnel cross section was 8.8 m wide and 4.4 m high. A single nozzle was placed into the tunnel and at 0.1 m offset from the tunnel ceiling. Two nozzle types were tested as per Table 3-15. The models had a grid resolution of 0.2 m in all coordinate directions, and the version of FDS used was 6.7.7 (FDS6.7.7933-gaa3296d1b-nightly). Figure 3-30 shows the model configuration.
+
+Figure 3-30: Model schematic to examine water drop drift.
+
+<!-- image -->
+
+Engineering drawing
+
+Table 3-15: Water drop parameters modeled.
+
+| PARAMETER                          | TRIAL A   | MIST 1                 |
+|------------------------------------|-----------|------------------------|
+| Particle velocity (m/s)            | 18.5      | 12.0                   |
+| Spray angle (inner angle, degrees) | 30.0      | 1.0                    |
+| Spray angle (outer angle, degrees) | 74.5      | 60.0                   |
+| Particle diameter D v,0.5 (μm)     | 650.0     | 155                    |
+| Droplet offset (mm)                | 30        | 100                    |
+| Nozzle flow rate (LPM)             | 82        | Varies, typically 39.6 |
+| Particles per second               | 5000      | 5000                   |
+| Age (s)                            | 30        | 30                     |
+| Reference                          | EVS-10-18 | [74]                   |
+
+Results  from  models  with  TRIAL  A  parameters  are  provided  in  Figure  3-31.  The  FDS  model predicts slightly less water droplet drift than the equations, with the FDS model predicting about one meter less of water droplet drift, out of a total drift extent of around six meters. For the MIST 1 parameters, results are provided in Figure 3-32. The FDS model predicts less water droplet drift than the equations, with the FDS model predicting up to 14 meters drift against the equations predicting 21 meters. To understand why the drift was different, a second model was conducted where  the  air  velocity  field  was  held  constant  and  not  affected  by  drop  motion.  Results  are provided in Figure 3-33 and difference between FDS and equations is reduced to three meters. The equation predicts a greater degree of drift. The FDS models include for three-dimensional motion of the air and water drops, as well as water drops affecting air motion and vice versa, whereas the analytical equations account for motion of the water drop in two dimensions and there is no mechanism for water drops to affect air movement. This difference might be the cause of  discrepancy  observed.  It  is  noted  that  the  particle  motion  models  in  FDS  have  undergone
+
+February 2024
+
+verification  testing  compared  to  analytical  formulas  [75].  If  delivery  of  water  to  the  fire  site  in longitudinal ventilation is a key goal of the system design, then the results of this analysis show that the analytical equations predict a greater degree of droplet drift downstream.
+
+Figure 3-31: Spray prediction with FDS (EVS-11-45) compared with results from analytical equations (EVS-11-44) for large drop size.
+
+<!-- image -->
+
+Scatter plot
+
+Figure 3-32: Spray prediction with FDS (EVS-11-42) compared with results from analytical equations (EVS-11-44) for mist drop size.
+
+<!-- image -->
+
+Line chart
+
+Figure 3-33: Spray prediction with FDS (EVS-11-46) compared with results from analytical equations (EVS-11-44) for mist drop size with air motion frozen.
+
+<!-- image -->
+
+Line chart
+
+Suggested practices: Per the Literature Survey ([11] Section 4.7.4) one of the considerations in FFFS-EVS  integration  is  zoning.  Analytical  equations  (Figure  3-21  through  Figure  3-29)  are suggested for use to provide an initial estimate of water drop drift in longitudinal flow, noting that this may predict more drift as droplet size decreases. FDS models accounting for impact of drop motion on air motion and vice versa can be used to obtain a more refined estimate. To obtain a full picture of the spray distribution in the tunnel a model incorporating all the nozzles in the active zone could be considered. Some caution is suggested in the use of models and equations as described herein due to comparison with test data not being provided. Physical measurements of water  droplet  drift,  to  provide  physical  data  for  model  validation,  is  also  suggested  for  future research.
+
+## 3.8 Tenability for Egress and Fire Fighting
+
+The tenability of the environment during a fire is dependent on the gas temperature, radiation heat flux and concentration of toxic combustion products (such as carbon monoxide) [76]. Tenability for occupant egress is outlined in the annex sections of NFPA 502 4  [14]. Tenability is defined in the annex in terms of temperature (maximum 140°F, 60°C for 10 minutes), radiation heat flux (less  than  2.5 kW/m 2 ),  visibility  (doors  and  walls  visible  at  10 m  based on  reflected  light)  and toxicity (carbon monoxide less than 450 ppm for 15 minutes).
+
+Tenability limits for egress and fire fighting are different because fire fighters would normally be working in protective clothing and equipped with breathing apparatus. For fire fighting operations the Fire Brigade Intervention Model (FBIM) [77] provides order of magnitude limits depending on the duration of exposure, as outlined in Table 3-16. The FBIM limits for firefighters are typically applicable for a smoke or hot layer of 1.5 m or more above floor level.
+
+The impact of FFFS on temperature downstream of the fire has been measured in full-scale tests such as the LTA tests [39]. The tests showed the extent of cooling due to FFFS and validation with FDS has been conducted [3]. The validation exercise helped to establish that FDS can be used as a tool to predict downstream conditions for temperature with longitudinal ventilation. An exploration of tenability downstream was presented in the Computer Modeling report (refer to [3], Section 5.5) with the FDS validation guide relied on for validation (refer Section 2.3 herein for further discussion). The Computer Modeling report looked at the impact of FHRR on downstream conditions to demonstrate how FDS can be applied to the question of downstream temperature conditions. The techniques presented in the computer modeling report could be used to predict the downstream conditions for different FFFS, EVS and tunnel parameters (geometry).
+
+Table 3-16: Fire fighter suggested tenability limits [77].
+
+| CONDITION   | MAXIMUM TIME (min)   | MAXIMUM TEMPERATURE ( ⁰ C)             | MAXIMUM RADIATION (IN LOWER LAYER) (kW/m 2 )   |
+|-------------|----------------------|----------------------------------------|------------------------------------------------|
+| Routine     | 25                   | 100 (lower layer)                      | 1                                              |
+| Hazardous   | 10                   | 120 (lower layer)                      | 3                                              |
+| Extreme     | 1                    | 160 (lower layer) to 280 (upper layer) | 4 to 4.5                                       |
+| Critical    | <1                   | 235 (lower layer)                      | 10                                             |
+
+The impact of the FFFS on the radiation heat flux was also investigated in the Computer Modeling Report. In the Computer Modeling reports the FDS models showed an over prediction of radiative heat flux levels. The default radiation model in FDS was used. This model is based on solving the radiation transport equation, specifying a percentage of the FHRR that is generated as radiative heat  which  then  appears  as  a  source  term  in  the  transport  equations,  and  then  solving  the radiation transport equation numerically in space and time dimensions using a gray gas model [5]. In the LTA test validation per the Computer Modeling Report, it is noted that the FDS model did make a better prediction of radiation heat flux once the FFFS had been operated. Radiation heat flux is mainly a concern in the region near to the fire, typically at the fire and up to 100 ft or 30 m  away  from  the  fire.  It  is  noted  that  in  this  proximity  to  the  fire  that  tenability  is  usually impractical to achieve [14], and since the radiation heat flux decreases with the inverse of distance from the fire squared, the region of concern for radiation heat flux tends to be in the fire perimeter region. Thus, although FDS might over predict the radiative heat flux, the impact of this is likely confined to small region and have minimal impact on the FFFS-EVS integration.
+
+It is helpful to look also at full-scale test data and experience for radiation heat flux, especially for fire fighting operations. In the SOLIT tests [8] the radiation heat flux was seen to be reduced with operation of the FFFS, especially compared with free burn tests conducted as part of the LTA test series [39]. In the SOLIT tests, of particular interest was the class B (pool) fire tests; at around 5 minutes into these tests the FHRR was hovering at approximately 50 MW to 60 MW, while the radiation heat flux was around 1 kW/m 2 in locations upstream and downstream of the fire. Finally, during the SOLIT tests, an observer noted how it was possible to get very near to a 15 MW to 20 MW fire wearing basic fire protective clothing [78]. These results help to support the idea that the FFFS is a valuable aid to fire fighting operations.
+
+For radiation heat flux, FDS modeling is suggested to be used with caution since the validation exercises were not able to establish the accuracy of the approach. The models did show an over prediction of test data. The fact that radiation is typically of concern only near to the fire reduces the importance of being able to make very accurate prediction of the radiation heat flux when it comes to FFFS-EVS integration. It is suggested to check results with basic hand sums per heat transfer text books (such as [79]), to realize that even with FFFS operating that radiation heat flux could be high near to a fire, and to rely on evidence from full-scale test data [8], [37], [39] when looking to make conclusions regarding potential impact of the FFFS on reducing heat fluxes to aid fire fighting operations.
+
+For carbon monoxide, the LTA tests showed an increase in CO production by a factor of up to 5 when the FFFS was suppressing the fire [39]. Production toxic gases during a fire is complex, and local shielding from incoming air could result in local regions of the fire that see an increased rate of CO production due to incomplete combustion. The Computer Modeling Report showed that the FFFS mixes the CO down from the ceiling level of the tunnel such that a more uniform concentration of CO over the cross section is realized.
+
+Suggested practices, temperature: FDS can be used to predict the temperature downstream of a fire with a longitudinal EVS operating. The FDS model can help to determine the impact of parameter  combinations  included  water  application  rate,  droplet  size,  tunnel  geometry  and ventilation conditions.
+
+Suggested practices, radiation heat flux: The experience with FDS models conducted for the current research is that heat flux is likely to be over-estimated. If FDS is used to predict radiation heat flux it is suggested to be used with consideration of analytical sums to verify results. Fullscale test data could also be consulted. For tenability purposes, radiation heat flux tends to be a concern  only  in  the  region  near  to  the  fire,  thus  lessening  the  impact  of  this  on  FFFS-EVS integration.
+
+Suggested practices, carbon monoxide: Full-scale test data suggest that carbon monoxide yield (per kilogram of fuel burned) might increase when FHRR is decreased by the FFFS. If using FDS to predict downstream tenability, with a reduced FHRR, then the possibility of an increased CO concentration (and possibly other toxic combustion products) is suggested to be considered. The FFFS can also mix carbon monoxide (and other combustion products) down from the ceiling region of the tunnel to the region where people are located; this effect is accounted for in typical FDS models.
+
+Suggested further research: Topics that are suggested to be considered for further research include improvement of the radiation heat flux prediction, impact of FFFS on generation of carbon monoxide (and other combustion products) when the fire is suppressed, and impact of FFFS on generation of irritant gases arising from fire.
+
+## 3.9 Memorial Tunnel Fire Tests
+
+A series of 98 full-scale fire tests were conducted in the Memorial Tunnel (MT) (located in West Virginia) in the 1990s, with natural, longitudinal, and transverse ventilation, and FHRRs from 10 MW to 100 MW [64] [65]. Longitudinal ventilation tests were modeled as part of the Computer Modeling  Report  [3]  and  Section  2.3  herein  provides  a  summary.  The  tests  and  computer modeling are revisited herein, this time with the entire length of tunnel modeled, with jet fans included, and transient modeling conducted using an updated version of FDS 1 .
+
+The jet fans are used to generate the longitudinal flow in the model. This approach was taken to model all the relevant terms in the tunnel ventilation pressure balance, per Figure 3-34, and to then enable the impact of the FFFS to be examined (in this full aerodynamic model). Models were conducted to determine the number of jet fans to control smoke for the case modeled, and those models were then repeated with FFFS operating and the number of jet fans reduced to achieve the same smoke management outcome.
+
+Note that this approach is looking at the global effects of the jet fans and the FFFS for predicting longitudinal flow in the tunnel. A comparison for the longitudinal flow relative to the test does not provide validation of the  FDS model's ability to predict backlayering. To examine the model's ability to predict backlayering the ceiling temperature at the loops upstream of the fire (i.e., loops 305 and 306) is compared between the model and the test, along with the longitudinal airflows.
+
+## Figure 3-34: Equation. Pressure balance for a longitudinal EVS.
+
+In Figure 3-34, Nf is the number of jet fans, ∆Pj is the pressure rise due to a jet fan, ∆PVEH is the pressure loss due to vehicles, ∆Pf is the pressure loss due to wall friction, lights, FFFS pipework, entry losses and exit losses, ∆Pm is  the  pressure loss due to meteorological effects, including wind, ∆Pb is the pressure loss or rise due to buoyancy, ∆Pfire is the pressure loss due to the fire, and ∆PFFFS is the pressure loss due to the FFFS spray.
+
+The approach taken to models here (modeling the whole tunnel length) is noted to not be one that is essential to investigate critical velocity and impact of FFFS on that parameter alone. A shorter model set up, without jet fans and all the terms in Figure 3-34 modeled, would be suitable for this task. Later sections herein (Section 3.9.4 and Section 3.10) discuss performance of FDS for this purpose.
+
+## 3.9.1  FDS Model Development
+
+The FDS models were developed based on Memorial Tunnel test 612B. This test was chosen because it had a nominal 50 MW FHRR, which is in the order of what is used in highway tunnel design  (50  to  150  MW  FHRRs  are  typical)  and  the  smoke  management  performance  varied throughout the test with some backlayering initially, and then controlled backlayering once fans were operated. In addition, there was a period of the test where fan operation was unchanged and the volume flow and FHRR were pseudo-steady. An overview of FDS model parameters related to this investigation is provided below.
+
+Tunnel geometry includes the cross section, length, grade, and internal obstructions. Refer to Figure 3-35 for the tunnel cross section. Tunnel grade runs downward from north (the entry portal) to south (smoke is always ventilated downgrade in the longitudinal ventilation tests), and grade is a constant at 3.2 percent (modeled by varying the gravity vector components). The tunnel was approximately 854 m (2801 ft.) long. The tunnel included a lower ceiling height at the entry and exit sections, which was 21 m long at the entry and 22 m long at the exit with a height of 4.4 m. Cross sectional area was approximately 60.5 m 2  in the mainline sections and 37.3 m 2 at the entry and exit sections. The arch of the tunnel ceiling was modeled by stair-stepped geometry. The test had vehicle silhouettes included.
+
+Figure 3-35: Tunnel cross section (Memorial Tunnel).
+
+<!-- image -->
+
+Engineering drawing
+
+The blockages were associated with the measurement loops and for the Computer Modeling Report FDS models a simplified form of blockages, with a blockage ratio (blockage area/tunnel area) of 17.6 percent, was modeled, as seen in Figure 3-36. The resolution of blockages in the FDS model is limited by the grid size (since the tunnel curvature and physical blockages can only be  represented  to  a  resolution  that  matches  the  grid).  In  the  Computer  Modeling  Report  the blockage area in the models was based on fitting the obstructions to the mesh (0.2 m by 0.2 m in the  Computer  Modeling  Report,  with  a  tunnel  free  area  of  61.04 m 2 and  blockage  area  of 10.76 m 2 ).
+
+Figure  3-37  shows  a  photograph  of  the  blockages  with  the  tunnel  ceiling  in  place  (used  in transverse ventilation tests), but the form of blockages is understood to be similar for tests with the ceiling removed (i.e., longitudinal ventilation tests). Figure 3-39 shows an FDS model where a more detailed blockage representation was modeled. In this figure (with a mesh and blockage resolution of 0.4 m) the tunnel free area was 60.32 m 2 , with a blockage area at the plane of loop 305 of 12.64 m 2 , for a blockage ratio of 21 percent. In the Memorial Tunnel Test Report [64], the blockage ratio was noted to be approximately 17 percent. The blockages cause local velocity enhancement; at 17 percent the factor is 1.20, at 18 percent it is 1.22, and at 21 percent it is 1.27.
+
+In this current report this more detailed form of blockages was used unless noted otherwise. In the model summaries, refer to Table 3-21 and Table 3-22, when the blockage form is referred to as 'simple' it is per Figure 3-36 and 'complex' is per Figure 3-39. Note that in some cases vehicle silhouettes,  as  informed  in  the  test  report,  were  included  too  and  this  is  noted  in  the  model summary whether included or not.
+
+The FDS models were conducted on two different grid resolutions. Most models had a cubic grid cell size of 0.4 m. Some refined grid cases were tested using a cubic grid of 0.2 m. The resolution of the individual models is listed in the summary tables, Table 3-21 and Table 3-22.
+
+February 2024
+
+<!-- image -->
+
+Engineering drawing
+
+Figure 3-36: FDS model cross section with fans in groups of three in the foreground and simplified blockages at measurement loops.
+
+<!-- image -->
+
+Photograph
+
+Source: FHWA
+
+Figure 3-37: Memorial Tunnel tests showing blockages in the tunnel [64].
+
+The tunnel included a total of 24 jet fans, 15 of which were upstream of the fire location. The jet fans were installed in groups of three, with each group spaced approximately 100 m (328 ft.) apart from each other. Each fan was rated to deliver a thrust of 1765 N (397 lbf) with a fan diameter of 1265 mm (4.15 ft.). In the tests considered, the 15 fans upstream of the fire were used and were included in the FDS models herein. Fan stationing in the tunnel is provided in Table 3-17 with the transient operation sequence as used in test 612B provided in Table 3-18. Note that a 10 s offset was used (in the FDS models) between individual fan starts and fans were assumed to reach capacity 10 s after starting. The remaining nine jet fans (to make a total of 24) were installed (downstream of the fire) only for the final three longitudinal ventilation tests (623B, 624B and 625B) [65].
+
+The fan geometry was as per Figure 3-36 with fans modeled per the method described in the FDS literature [5]. The fan dimensions were adjusted to match the grid and achieve a cross sectional area as near as possible to the fan area from tests (1.26 m 2 ). The grid resolution used meant that FDS model fans could not have a precise match to the tests in terms of cross-sectional area of the fan. The FDS model fan had a dimension 1.6 m wide by 1.2 m high for a net area of 1.92 m 2 . The FDS model fan had an airflow set such that the fan thrust matched that of the test fans. Jet fan thrust was computed as per Figure 3-38.
+
+Figure 3-38: Jet fan thrust.
+
+Ff is the fan thrust (N),  is the density (kg/m 3 ), Af is the fan discharge area (m 2 ), and Vf is the fan discharge velocity (m 2 ).
+
+The jet fan was modeled with some of the fan shroud included. Models without the fan shroud tended to predict less airflow by an appreciable margin, while models with the fan shroud included gave a closer prediction of the airflow. This finding is consistent with previous investigations with respect to the fan shroud inclusion [80]. All models included the fan shroud unless noted, and it was included on the downstream side of the fan with a length of 0.8 m. Refer to Section 3.9.3 for specific results reporting on this sensitivity.
+
+The FDS model used open (zero pressure) boundary conditions at the entry portal and a small adverse pressure of 0.6 Pa at the exit (equivalent to a 1 m/s wind velocity, which was chosen to attempt  to  match  air  speed  in  the  tunnel  at  the  start  of  the  test).  An  ambient  temperature  of 7 degrees C was used. Walls were assumed to have an initial temperature of 20 degrees C.
+
+Figure 3-39: FDS model with more detailed blockage representation.
+
+<!-- image -->
+
+Bar chart
+
+Table 3-17: Memorial Tunnel fan locations.
+
+| FAN        | STATION (DISTANCE FROM THE ENTRY PORTAL)   |
+|------------|--------------------------------------------|
+| 1, 2, 3    | 94.8 m (311 ft)                            |
+| 4, 5, 6    | 189.6 m (622 ft)                           |
+| 7, 8, 9    | 284.8 m (934 ft)                           |
+| 10, 11, 12 | 379.6 m (1245 ft)                          |
+| 13, 14, 15 | 474.4 m (1556 ft)                          |
+
+Table 3-18: Memorial Tunnel fan operation sequence, test 612B.
+
+| FANS                             |   START TIME (S) |   STOP TIME (S) |
+|----------------------------------|------------------|-----------------|
+| 2, 5, 8, 11, 14                  |              302 |            1005 |
+| 2, 5, 8, 11                      |             1005 |            1187 |
+| 2, 5, 8, 11, 14                  |             1187 |            1489 |
+| 1, 2, 4, 5, 7, 8, 10, 11, 13, 14 |             1489 |            2279 |
+| 1, 4, 7, 10, 13                  |             2279 |            2378 |
+
+The fire used a pan of fuel oil (number 2 fuel oil) to generate a heat release rate (HRR) ranging from 10 MW to 100 MW. A surface area of 4.46 m 2  (48 ft 2 ) was estimated to produce a 10 MW HRR. Fire pans were set approximately 0.46 m (30 inches) from the tunnel floor. The centerline of the fire was approximately 615.5 m (2019 ft.) from the north portal. The tunnel cross sectional tunnel area in the models was 60.32 m 2 , and the instrumentation modeled (and fitted to the grid at 0.4 m resolution) took up an area at loop 305 of 12.64 m 2 , thus giving a reduced area and higher velocity in the region of the fire [64]. Pans were correlated to FHRR approximately: 50 MW used a 6.1 m by 3.7 m (20 ft. by 12 ft.) pan, 20 MW used a 3.7 m by 2.4 m (12 ft. by 8 ft.) pan, 10 MW used a 3.7 m by 1.2 m (4 ft. by 12 ft.) pan, and 30 MW used a 3.7 m by 3.7 m (12 ft. by 12 ft.) pan [65]. The 30 MW pan was not tested individually but was used in testing where a FHRR of 100 MW was generated. Pans were positioned relative to the fire centerline: 50 MW pan was upstream, pans downstream in order of distance downstream were the 20 MW, 10 MW and 30 MW pans. The FHRR, for MT fire cases, was transient. For test 612B the FHRR was per the profile provided in Figure 3-40.
+
+Figure 3-40: FHRR profile for Memorial Tunnel test 612B.
+
+<!-- image -->
+
+Line chart
+
+FDS models were conducted using a volumetric heat source or a mixing-controlled fire model. The volumetric heat source models used a fire volume of 71.68 m 3  (6.4 m long, 4 m wide and 2.8 m high with the fire 0.4 m off the ground) and a FHRR per unit volume of 488.3 kW/m 3 , giving a nominal FHRR of 35 MW (equivalent to 50 MW with 30 percent radiative heat fraction; only the convective portion of FHRR was modeled). The FHRR was ramped with respect to time per the profile in Figure 3-40. The fire was set up such that it had an equivalent heat of combustion of 20 MJ/kg, a soot yield of 0.1 and a CO yield 0.05. Soot and CO were included as source terms within the fire volume. The net mass flow rate from these sources relative to tunnel flow was small (less than 2 percent) and assumed to have negligible impact on results.
+
+For the mixing-controlled models, the fire surface area in these models was set to approximately match the surface area of the pans used in the test with an area of 1953.125 kW/m 2  and a pan 6.4 m long and 4 m wide. The pan was set at a height 1.2 m off the roadway in these models. The chemical formula in these models was set to be approximately representative of a polymer (GM21 per [76]) CH1.8N0.05O0.3. The soot yield was 0.131, CO yield was 0.05 and radiative fraction was 0.3. Radiation was modeled in these cases.
+
+The wall boundary condition in the models used a roughness with a height of 0.05 m. This equates to an effective friction factor of approximately 0.033 through the tunnel. Sensitivity to smooth walls was also investigated.
+
+Thermal conditions around the fire zone comprised an insulated boundary for a distance 60 m (200 ft.) upstream and downstream of the fire. The Memorial Tunnel Test Data Report stated that the fire zone area was located between loops 302 and 307, and that the walls and ceiling in this 400 ft. region of tunnel were treated with 4 to 6 inches of sprayed-on insulation [81]. The insulation material properties were: specific heat capacity (Cp) = 1100 J/kg-K, conductivity (k) = 0.21 W/m/K, density (ρ) = 900 kg/m 3 , emissivity(ε) = 0.5, thickness = 0.15 m.
+
+Remote  from  the  fire  and  behind  the  insulating  board,  the  boundary  conditions  comprised concrete with material properties including specific heat capacity (Cp) = 1200 J/kg/K, conductivity (k) = 1.2 W/m/K, density (ρ) = 2000 kg/m 3 , emissivity(ε) = 0.9, thickness = 0.6 m. The concrete wall boundary was 0.6 m thick with an insulated boundary (zero heat transfer) applied at the outer edge of the concrete. For the length of time considered in this analysis, this outer boundary had negligible impact on results as heat was not able to transfer through to the outer edge to a degree that could influence results (verified by a 1D transient heat transfer calculation).
+
+The FDS version used for most cases herein was 6.7.7 unless stated otherwise. A summary of the reported FDS runs in Section 3.9.3 and Section 3.9.4 is shown in Table 3-19 along with the specific FDS version used. Numerical parameters in the models were per defaults except that the tunnel preconditioner was set to true, the pressure tolerance magnitude was 100 and up to 200 pressure iterations were allowed.
+
+Table 3-19: Summary of the reported Memorial Tunnel FDS runs.
+
+| MODEL (ID)   | DESCRIPTION                                                                                                                                              | FDS VERSION                     |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| MTLV-02-3    | Cold flow longitudinal ventilation, full tunnel length, 0.4 m grid, blockages per Figure 3-36, no shroud on fans, total 9 fans on                        | FDS6.7.7-0- gfe0d4ef38-release  |
+| MTLV-02-4    | Cold flow longitudinal ventilation, full tunnel length, 0.4 m grid, blockages per Figure 3-36, shroud on fans, total 9 fans on                           | FDS6.7.7-0- gfe0d4ef38-release  |
+| MTLV-02-8    | Cold flow longitudinal ventilation, full tunnel length, 0.4 m grid, shroud on fans, blockages per Figure 3-39, and vehicle silhouettes, total 9 fans on  | FDS6.7.7-0- gfe0d4ef38-release  |
+| MTLV-02-12   | Cold flow longitudinal ventilation, full tunnel length, 0.2 m grid, shroud on fans, blockages per Figure 3-39, and vehicle silhouettes, total 9 fans on  | FDS6.7.7-97- g35dc1c8c5-nightly |
+| MTLV-02-13   | Cold flow longitudinal ventilation, full tunnel length, 0.4 m grid, shroud on fans, blockages per Figure 3-39, and vehicle silhouettes, total 15 fans on | FDS6.7.7-0- gfe0d4ef38-release  |
+
+| MODEL (ID)   | DESCRIPTION                                                                                                                                                            | FDS VERSION                     |
+|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| MTLV-02-14   | Cold flow longitudinal ventilation, full tunnel length, 0.2 m grid, shroud on fans, blockages per Figure 3-39, and vehicle silhouettes, smooth walls, total 9 fans on  | FDS6.7.7-97- g35dc1c8c5-nightly |
+| MTLV-02-17   | Cold flow longitudinal ventilation, full tunnel length, 0.4 m grid, shroud on fans, blockages per Figure 3-39, and vehicle silhouettes, smooth walls, total 9 fans on  | FDS6.7.7-97- g35dc1c8c5-nightly |
+| MTLV-02-18   | Cold flow longitudinal ventilation, full tunnel length, 0.4 m grid, shroud on fans, blockages per Figure 3-39, and vehicle silhouettes, smooth walls, total 15 fans on | FDS6.7.7-97- g35dc1c8c5-nightly |
+| MTLV-02-19   | Cold flow longitudinal ventilation, full tunnel length, 0.2 m grid, shroud on fans, blockages per Figure 3-39, and no vehicle silhouettes, total 9 fans on             | FDS6.7.7-97- g35dc1c8c5-nightly |
+| MTLV-03-4    | Test 612B, longitudinal ventilation with fire, simple blockages, no vehicle silhouettes, volumetric heat source, 0.4 m grid                                            | FDS6.7.7-0- gfe0d4ef38-release  |
+| MTLV-03-6    | Test 612B, longitudinal ventilation with fire, complex blockages, with vehicle silhouettes, volumetric heat source, 0.4 m grid                                         | FDS6.7.7-0- gfe0d4ef38-release  |
+| MTLV-03-7    | Test 612B, longitudinal ventilation with fire, complex blockages, with vehicle silhouettes, HRRPUA heat source, 0.4 m grid                                             | FDS6.7.7-0- gfe0d4ef38-release  |
+| MTLV-03-8    | Test 612B, longitudinal ventilation with fire, complex blockages, with vehicle silhouettes, HRRPUA heat source, 0.2 m grid                                             | FDS6.7.7-97- g35dc1c8c5-nightly |
+| MTLV-03-9    | Test 612B, longitudinal ventilation with fire, simple blockages, no vehicle silhouettes, HRRPUA heat source, 0.4 m grid                                                | FDS6.7.7-0- gfe0d4ef38-release  |
+| MTLV-03-10   | Test 612B, longitudinal ventilation with fire, complex blockages, with vehicle silhouettes, volumetric heat source, 0.2 m grid                                         | FDS6.7.7-97- g35dc1c8c5-nightly |
+| MTLV-03-20   | Test 612B, longitudinal ventilation with fire, complex blockages, no vehicle silhouettes, volumetric heat source, 0.4 m grid                                           | FDS6.7.7-97- g35dc1c8c5-nightly |
+
+## 3.9.2  1D Model Development
+
+A one-dimensional (1D) model was developed to solve the aerodynamic equation provided in Figure 3-1  per  the  Memorial  Tunnel  Fire  Ventilation  Test  Program  (MTFVTP)  configuration. Principal model parameters are provided in Table 3-20. Velocity decay tests were used as part of the MTFVTP tests to estimate the overall losses through the tunnel, which amounted to a K factor of 13.1 (with velocity defined based on the tunnel cross sectional area in the main segment and K factor equivalent to fL/D as per Figure 3-20). Losses were computed due to the expansion and contraction sections, which amounted to 0.18 (basis area was the upstream area for both the expansion and contraction). When removing these losses as well as the tunnel inlet and exit losses  (0.5  and  1.0,  respectively),  the  remainder  of  the  internal  obstructions  and  wall  friction losses amounted to an effective wall friction factor of 0.069 (f is based on Figure 3-20, the velocity basis being the large tunnel cross sectional area of 59.9 m 2 and total length of the tunnel).
+
+Table 3-20: Memorial Tunnel one-dimensional model parameters.
+
+| PARAMETER                                       | VALUE   | UNITS   | NOTES                      |
+|-------------------------------------------------|---------|---------|----------------------------|
+| Fire heat release rate (FHRR)                   | 0       | MW      | Indicative of cold flow    |
+| Entrance length                                 | 21.3    | m       | Test parameter             |
+| Exit length                                     | 21.3    | m       | Test parameter             |
+| Main length                                     | 811.3   | m       | Test parameter             |
+| Tunnel cross-sectional area (entrance and exit) | 36.9    | m 2     | Test parameter             |
+| Tunnel cross-sectional area (main)              | 59.9    | m 2     | Test parameter             |
+| Tunnel height                                   | 7.86    | m       | Test parameter             |
+| Tunnel perimeter (entrance and exit)            | 26.2    | m       | Test parameter             |
+| Tunnel perimeter (main)                         | 29.5    | m       | Test parameter             |
+| Tunnel hydraulic diameter (entrance and exit)   | 5.63    | m       | Test parameter             |
+| Tunnel hydraulic diameter (main)                | 8.08    | m       | Test parameter             |
+| Tunnel grade                                    | (-)3.2  | percent | Uphill from south to north |
+| Friction factor                                 | 0.068   | -       | Test parameter             |
+| Ambient wind speed                              | 0       | m/s     | Test parameter             |
+| Ambient temperature                             | 7.2     | °C      | Estimated/assumed          |
+| Ambient pressure                                | 100,700 | Pa      | Estimated/assumed          |
+| Density                                         | 1.26    | kg/m 3  | Test parameter             |
+| Fan locations                                   | -       | -       | As per Table 3-17          |
+| Rated fan thrust                                | 1765    | N       | Test parameter             |
+| Rated fan discharge velocity                    | 34.2    | m/s     | Test parameter             |
+| Installation factor                             | 0.9     | -       | Test parameter             |
+
+## 3.9.3 Cold Flow Longitudinal Ventilation
+
+Cold flow tests were conducted as part of the MTFVTP. Airflows were reported in the main test report [64] and the Phase IV CFD report [65]. The results are used herein to compare 1D analysis and the cold flow FDS analysis where jet fans are used to generate the longitudinal flow. There is some discrepancy between the test results reported in the two MTFVTP documents and both sets of data are considered herein. The results (airflows from the cold flow tests) reported in the later Phase IV report provide a lower airflow than those from the main test report. Going back over the reports and the data, a reason for the difference could not be found. The engineers involved in the authoring the two reports were consulted but nobody could recall why the later Phase IV report  had  different  airflows.  The  discrepancy  might  be  related  to  the  blockages  at measurement loops and corrections made to the measured airflows [82].
+
+Figure 3-41 provides the data from the test report and the Phase IV CFD report along with some FDS model results. The full set of results are given in Table 3-21. In this table sensitivity results using different FDS model set up are reported, as well as 1D model results. The 1D model had a friction factor based on the value reported in the Phase IV CFD report. FDS models without the fan shroud tended to under predict airflow by a large margin, while models with the fan shroud gave a closer prediction of airflow (MTLV-02-3 versus MTLV-02-4). This finding is consistent with previous investigations with respect to the fan shroud inclusion [80]. Grid resolution had a minor impact  on  results,  with  slightly  less  airflow  predicted  at  a  finer  grid  (MTLV-02-8  versus MTLV-02-12). The inclusion of internal blockages that better represented the actual blockages in the tests (Figure 3-36 shows the simple blockage representation and Figure 3-39 shows the more detailed  representation)  had  a  minor  impact  on  the  results,  with  the  more  detailed  blockage representation  giving  less  airflow  (MTLV-02-4  versus  MTLV-02-8).  The  impact  of  vehicle silhouettes was tested and found to be minor (refer model MTLV-02-12 versus MTLV-02-19).
+
+Figure 3-41: Cold flow results (MTLV-01-04).
+
+<!-- image -->
+
+Line chart
+
+Table 3-21: Cold flow parameters and results.
+
+|   FANS ON | FDS MODEL                                                                                                      |   AIRFLOW (FROM TESTS AS QUOTED IN PHASE IV REPORT) IN m 3 /s |   AIRFLOW (FROM TESTS AS QUOTED IN ORIGINAL REPORT) IN m 3 /s |   AIRFLOW (FDS) IN m 3 /s | FDS (OR 1D WHERE STATED) VERSUS TEST PER PHASE IV REPORT RESULT   | FDS (OR 1D WHERE STATED) VERSUS TEST PER ORIGINAL REPORT RESULT   |
+|-----------|----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|
+|         9 | Full tunnel length, 0.4 m grid, blockages per Figure 3-36, no shroud on fans (MTLV-02-3)                       |                                                           289 |                                                           369 |                       219 | -24 percent                                                       | -41 percent                                                       |
+|         9 | Full tunnel length, 0.4 m grid, blockages per Figure 3-36, shroud on fans (MTLV-02-4)                          |                                                           289 |                                                           369 |                       309 | +7 percent                                                        | -16 percent                                                       |
+|         9 | Full tunnel length, 0.4 m grid, shroud on fans, blockages per Figure 3-39, and vehicle silhouettes (MTLV-02-8) |                                                           289 |                                                           369 |                       280 | -3 percent                                                        | -24 percent                                                       |
+
+|   FANS ON | FDS MODEL                                                                                                                      |   AIRFLOW (FROM TESTS AS QUOTED IN PHASE IV REPORT) IN m 3 /s |   AIRFLOW (FROM TESTS AS QUOTED IN ORIGINAL REPORT) IN m 3 /s |   AIRFLOW (FDS) IN m 3 /s | FDS (OR 1D WHERE STATED) VERSUS TEST PER PHASE IV REPORT RESULT   | FDS (OR 1D WHERE STATED) VERSUS TEST PER ORIGINAL REPORT RESULT   |
+|-----------|--------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------|
+|         9 | Full tunnel length, 0.4 m grid, shroud on fans, blockages per Figure 3-39, and vehicle silhouettes, smooth walls (MTLV- 02-17) |                                                           289 |                                                           369 |                       315 | +9 percent                                                        | -15 percent                                                       |
+|         9 | Full tunnel length, 0.2 m grid, shroud on fans, blockages per Figure 3-39, and vehicle silhouettes (MTLV-02-12)                |                                                           289 |                                                           369 |                       260 | -10 percent                                                       | -30 percent                                                       |
+|         9 | Full tunnel length, 0.2 m grid, shroud on fans, blockages per Figure 3-39, and no vehicle silhouettes (MTLV-02-19)             |                                                           289 |                                                           369 |                       267 | -8 percent                                                        | -28 percent                                                       |
+|         9 | Full tunnel length, 0.2 m grid, shroud on fans, blockages per Figure 3-39, and vehicle silhouettes, smooth walls (MTLV- 02-14) |                                                           289 |                                                           369 |                       305 | +6 percent                                                        | -17 percent                                                       |
+|        15 | Full tunnel length, 0.4 m grid, shroud on fans, blockages per Figure 3-39, and vehicle silhouettes (MTLV-02-13)                |                                                           376 |                                                           463 |                       335 | -11 percent                                                       | -28 percent                                                       |
+|        15 | Full tunnel length, 0.4 m grid, shroud on fans, blockages per Figure 3-39, and vehicle silhouettes, smooth walls (MTLV- 02-18) |                                                           376 |                                                           463 |                       384 | +2 percent                                                        | -17 percent                                                       |
+|         3 | 1D model, cold flow (MTLV-01-01)                                                                                               |                                                           175 |                                                           226 |                       165 | -6 percent (1D)                                                   | -27 percent                                                       |
+|         9 | 1D model, cold flow (MTLV-01-01)                                                                                               |                                                           289 |                                                           369 |                       293 | +1 percent (1D)                                                   | -21 percent                                                       |
+|        15 | 1D model, cold flow (MTLV-01-01)                                                                                               |                                                           376 |                                                           463 |                       373 | -1 percent (1D)                                                   | -19 percent                                                       |
+
+## 3.9.4 Longitudinal Ventilation with Fire
+
+Simulation of the Memorial Tunnel fire tests with longitudinal ventilation is presented in this section with changes from the approach used in the Computer Modeling Report. Changes include that the models are fully transient, the full tunnel length is modeled, a wall roughness height of 0.05 m is used, the blockages are represented in more detail (see Figure 3-39), and a newer version of FDS is used with modifications made to address identified pressure issues (see Section 2.3 for more discussion). Models were developed of test 612B and considered a volumetric heat source or mixing controlled model and were tested on grid resolutions 0.2 m and 0.4 m.
+
+Model results summarized in Table 3-22 based on volume flow rate at loop 214 (considered to be the  most  reliable),  based  on  an  average  between  600 s  and  900 s,  variation  to  loop  214  is presented  here  (average  airflow  for  loop  214  was  140 m 3 /s).  The  volume  flow  rate  was  not imposed as a boundary condition but was a result of the airflow generated by the FDS model's jet fans. The technique of modeling jet fans to generate a longitudinal airflow is used in Section 3.9.5 and Section 3.9.6 to demonstrate the change in jet fan numbers to generate a longitudinal flow when the FFFS is operated.
+
+The  results  with  simple  blockages  (refer  to  Section  3.9.1  for  a  description)  and  no  vehicle silhouettes  show  more  airflow  relative  to  the  tests.  A  more  accurate  (and  more  complex) representation of the blockages with vehicle silhouettes included gives results in closer agreement to  the  test.  A  case  with  smooth  walls  was  also  run  and  was  seen  to  give  more  airflow.  The roughness height in models was 0.05 m, giving a friction factor of around 0.033. This is a more realistic  value than was used in the Computer Modeling Report which had used a roughness height of 0.9 m. Internal geometry made up the remainder of the tunnel loss factors. The sensitivity to vehicle silhouettes was tested (model MTLV-03-6 versus MTLV-03-20). In the models removing the silhouettes had almost no impact on the net airflow generated.
+
+Table 3-22: Summary of Memorial Tunnel models and volume flow results (600 to 900 s).
+
+| MODEL (ID)   | BLOCKAGE   | VEHICLE SILHOUETTES INCLUDED   | HEAT SOURCE   | GRID   | VOLUME FLOW, PERCENT DIFFERENCE AT LOOP 214   |
+|--------------|------------|--------------------------------|---------------|--------|-----------------------------------------------|
+| MTLV-03-4    | Simple     | No                             | Volumetric    | 0.4 m  | +19 percent                                   |
+| MTLV-03-6    | Complex    | Yes                            | Volumetric    | 0.4 m  | -2 percent                                    |
+| MTLV-03-20   | Complex    | No                             | Volumetric    | 0.4 m  | -1 percent                                    |
+| MTLV-03-7    | Complex    | Yes                            | HRRPUA        | 0.4 m  | -6 percent                                    |
+| MTLV-03-8    | Complex    | Yes                            | HRRPUA        | 0.2 m  | -9 percent                                    |
+| MTLV-03-9    | Simple     | No                             | HRRPUA        | 0.4 m  | +13 percent                                   |
+| MTLV-03-10   | Complex    | Yes                            | Volumetric    | 0.2 m  | -6 percent                                    |
+
+Temperature  and  velocity  were  recorded  at  eight  locations  on  the  tunnel  centerline  in  the Memorial Tunnel tests, upstream and downstream of the fire, at varying heights above the tunnel roadway level (A2 0.30 m, B2 1.22 m, C2 2.44 m, D2 3.66 m, E2 4.82 m, F2 5.73 m, G2 6.49 m, H2 7.32 m). Results presented herein include backlayering versus time (based on a temperature isotherm of 30 degrees C or 86 degrees F, at the measurement location, H2, near to the ceiling), volume flow near to the entry portal (at loop 214), and selected velocity and temperature loop results upstream and downstream of the fire. Results are examined for four cases from Table
+
+3-22 (MTLV-03-6, MTLV-03-7, MTLV-03-8 and MTLV-03-10); these results look at sensitivity to the fire source (volumetric or mixing controlled) and grid resolution (0.2 m or 0.4 m).
+
+Figure 3-42, Figure 3-43, Figure 3-44, and Figure 3-45 provide a temperature isotherm near the tunnel ceiling as a measure of backlayering. The isotherm is based on temperature recorded at each discrete longitudinal measurement loop. The results show the following:
+
+- FDS is predicting more backlayering relative to the test, and the backlayering extent increases with  decreasing  grid  resolution  (e.g.,  Figure  3-43  versus  Figure  3-45,  from  600  to  900 seconds). Given the agreement of volumetric flow rates shown previously, this result shows that FDS is under predicting the backlayering relative to the test, since test and model had almost the same upstream velocity. This result is consistent with the previous FDS analysis in the Computer Modeling Report and the Testing Report. A finer grid (0.1 m) was not able to be tested for these models, due to computational cost (excessive time to run), though previous observations in the Computer Modeling Report suggest that the backlayering would increase further (i.e., the results for backlayering are grid dependent).
+- Similar outcomes were seen (results and trends in backlayering extent) for the volumetric heat source  versus  mixing-controlled  model  (Figure  3-42  versus  Figure  3-43,  and  Figure  3-44 versus Figure 3-45).
+
+Figure 3-42: Isotherm of temperature (86 degrees Fahrenheit) upstream of fire, Memorial Tunnel test 612B versus FDS (MTLV-03-6), volumetric heat source, 0.4 m grid.
+
+<!-- image -->
+
+Line chart
+
+Figure 3-43: Isotherm of temperature (86 degrees Fahrenheit) upstream of fire, Memorial Tunnel test 612B versus FDS (MTLV-03-7), mixing controlled fire, 0.4 m grid.
+
+<!-- image -->
+
+Line chart
+
+Figure 3-44: Isotherm of temperature (86 degrees Fahrenheit) upstream of fire, Memorial Tunnel test 612B versus FDS (MTLV-03-10), volumetric heat source, 0.2 m grid.
+
+<!-- image -->
+
+Line chart
+
+Figure 3-45: Isotherm of temperature (86 degrees Fahrenheit) upstream of fire, Memorial Tunnel test 612B versus FDS (MTLV-03-8), mixing controlled fire, 0.2 m grid.
+
+<!-- image -->
+
+Line chart
+
+Figure 3-46 shows the results with vehicle silhouettes removed. The airflow in this model is almost the same as with silhouettes included and the backlayering is unchanged (compare to Figure 3-42).
+
+Figure 3-46: Isotherm of temperature (86 degrees Fahrenheit) upstream of fire, Memorial Tunnel test 612B versus FDS (MTLV-03-20), volumetric heat source, 0.4 m grid with no vehicle silhouettes.
+
+<!-- image -->
+
+Line chart
+
+Temperature  results  at  selected  loops  and  vertical  locations  (D2  and  H2)  upstream  and downstream of the fire are provided for the 0.2 m grid in Figure 3-47 and Figure 3-48 (loop 307), Figure 3-49 and Figure 3-50 (loop 305), Figure 3-51 and Figure 3-52 (loop 304), and Figure 3-53 and Figure 3-54 (loop 302). Results are showing FDS predicting more backlayering than the test. There is some similar trend in model versus test during earlier stages (prior to 600 seconds), such as at loop 307 (Figure 3-47 and Figure 3-48), loop 305 (16 ft upstream of the fire edge, 37 ft upstream of loop 205), see Figure 3-49 and Figure 3-50, there is a greater variation between test and  FDS  model.  This  can  be  attributed  to  the  FDS  model  over  predicting  the  backlayering, especially in the time range from 600 to 900 seconds. Further downstream of the fire, at loop 302 (217 ft downstream of loop 205) there is closer agreement between the model and test, per Figure 3-53 and Figure 3-54. At loop 304 (40 ft downstream of loop 205, Figure 3-51 and Figure 3-52) there  is  variation  between  the  test  and  model,  however,  this  loop  may  have  been  more substantially affected by flames, as noted previously in the Computer Modeling Report.
+
+Results  with  the  volumetric  heat  source  model  show  a  lower  temperature  than  the  mixingcontrolled model at locations near to the fire (loop 304 in Figure 3-52, and loop 305 in Figure 3-49 and Figure 3-50). At locations remote from the fire (loop 307 in Figure 3-47 and Figure 3-48, and loop 302 in Figure 3-53 and Figure 3-54) the volumetric heat source cases and mixing-controlled cases are in closer alignment. The result is expected since the volumetric heat source approach does not resolve the combustion and instead relies on an assumed combustion zone.
+
+Figure 3-47: Memorial Tunnel test 612B versus FDS, temperature at loop 307 (203 ft. upstream of loop 205) at 3.66 m (12 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-48: Memorial Tunnel test 612B versus FDS, temperature at loop 307 (203 ft. upstream of loop 205) at 7.32 m (24 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-49: Memorial Tunnel test 612B versus FDS, temperature at loop 305 (37 ft. upstream of loop 205) at 3.66 m (12 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-50: Memorial Tunnel test 612B versus FDS, temperature at loop 305 (37 ft. upstream of loop 205) at 7.32 m (24 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-51: Memorial Tunnel test 612B versus FDS, temperature at loop 304 (40 ft. downstream of loop 205) at 3.66 m (12 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-52: Memorial Tunnel test 612B versus FDS, temperature at loop 304 (40 ft. downstream of loop 205) at 7.32 m (24 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-53: Memorial Tunnel test 612B versus FDS, temperature at loop 302 (217 ft. downstream of loop 205) at 3.66 m (12 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-54: Memorial Tunnel test 612B versus FDS, temperature at loop 302 (217 ft. downstream of loop 205) at 7.32 m (24 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).
+
+<!-- image -->
+
+Line chart
+
+Velocity predictions for 0.2 m grids with volumetric heat source and mixing controlled heat source models are provided in Figure 3-55 and Figure 3-56 (loop 305), and Figure 3-57 and Figure 3-58 (loop 304). Like the temperature results, the models show differences driven by the FDS model over predicting the backlayering (see Figure 3-56).
+
+Figure 3-55: Memorial Tunnel test 612B versus FDS, velocity at loop 305 (37 ft. upstream of loop 205) at 3.66 m (12 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-56: Memorial Tunnel test 612B versus FDS, velocity at loop 305 (37 ft. upstream of loop 205) at 7.32 m (24 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-57: Memorial Tunnel test 612B versus FDS, velocity at loop 304 (40 ft. downstream of loop 205) at 3.66 m (12 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-58: Memorial Tunnel test 612B versus FDS, velocity at loop 304 (40 ft. downstream of loop 205) at 7.32 m (24 ft) above tunnel base, volumetric heat source and mixing controlled heat source with 0.2 m grid resolution (MTLV-03-10, MTLV-03-8).
+
+<!-- image -->
+
+Line chart
+
+Sensitivity to grid resolution tested 0.2 m and 0.4 m grids. The results in Figure 3-59 and Figure 3-60 show temperature at loop 305. The temperature profiles at the point near to the ceiling, H2, show  the  finer  grid  gives  a  higher  temperature  in  the  time  range  600  to  900  seconds.  The backlayering here is greater with the finer grid, and the results here reflect that. Velocity results at the same location, Figure 3-65 and Figure 3-66, reflect the increased backlayering (with the FDS models showing a negative velocity relative to the test result showing a positive velocity in Figure  3-66)  but  there  is  less  change  observed  for  the  different  grid  resolutions.  The  results downstream of the fire at loop 304, temperature in Figure 3-61 and Figure 3-62, and velocity in Figure 3-67 and Figure 3-68 show smaller observable differences between different grids. Of note is the finer grid giving a higher temperature near the ceiling at loop 304, see Figure 3-62.
+
+Further downstream of the fire, at loop 302 (217 ft. downstream in Figure 3-63 and Figure 3-64), the temperature profiles are observed to match test data more closely, and there is less variation between the different grid results. This could be attributed to the more evenly mixed flow field downstream. The finer grid gives a slightly higher temperature prediction relative to the coarse grid for the point near the ceiling (Figure 3-64). A finer grid (0.1 m) was not able to be run due to computational limitations and long run times.
+
+Figure 3-59: Memorial Tunnel test 612B versus FDS, temperature at loop 305 (37 ft. upstream of loop 205) at 3.66 m (12 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-60: Memorial Tunnel test 612B versus FDS, temperature at loop 305 (37 ft. upstream of loop 205) at 7.32 m (24 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-61: Memorial Tunnel test 612B versus FDS, temperature at loop 304 (40 ft. downstream of loop 205 at 3.66 m (12 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-62: Memorial Tunnel test 612B versus FDS, temperature at loop 304 (40 ft. downstream of loop 205) at 7.32 m (24 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-63: Memorial Tunnel test 612B versus FDS, temperature at loop 302 (217 ft. downstream of loop 205 at 3.66 m (12 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-64: Memorial Tunnel test 612B versus FDS, temperature at loop 302 (217 ft. downstream of loop 205) at 7.32 m (24 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-65: Memorial Tunnel test 612B versus FDS, velocity at loop 305 (37 ft. upstream of loop 205) at 3.66 m (12 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-66: Memorial Tunnel test 612B versus FDS, velocity at loop 305 (37 ft. upstream of loop 205) at 7.32 m (24 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-67: Memorial Tunnel test 612B versus FDS, velocity at loop 304 (40 ft. downstream of loop 205) at 3.66 m (12 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7).
+
+<!-- image -->
+
+Line chart
+
+Figure 3-68: Memorial Tunnel test 612B versus FDS, velocity at loop 304 (40 ft. downstream of loop 205) at 7.32 m (24 ft) above tunnel base, mixing controlled heat source with 0.2 m and 0.4 m grid resolution (MTLV-03-8, MTLV-03-7).
+
+<!-- image -->
+
+Line chart
+
+The revisit of MT validation in this section was conducted because the Computer Modeling Report had to use large wall roughness height (0.9 m) to calibrate a result in the FDS model to better match test data, and the version of FDS had pressure solver issues that were later improved on in newer versions of the software. The high wall roughness height approach has not been used in this current work. Instead, the obstructions were modeled more detail based on information that came available after the Computer Modeling Report had been completed. The approach herein also considered a fully transient model approach, where individual jet fans were modeled as well as a FHRR that varied per test measurements. Results were compared to transient test data. The Computer Modeling Report showed that FDS over predicted backlayering and critical velocity, and the same trends are seen in the updated models herein.
+
+Test data from 612B are approximately steady (velocity and loop 214 and FHRR) from 600 to 900 seconds (refer to Figure 3-40). The average FHRR in this time range is approximately 46 MW (from Figure 3-40). The average test volume flow rate at loop 214 is 140 m 3 /s. Taking the tunnel area to be 650 ft 2 (60.4 m 2 ) with a blockage ratio of 17 percent (per the test report [64]), gives a local  velocity  of  2.8 m/s.  Per  test  data  results  (e.g.,  Figure  3-42)  this  velocity  prevents backlayering. Calculations with NFPA 502 4  2014 give a critical velocity of 2.9 m/s (local to the fire, FHRR 46.2 MW, 30 percent radiation, tunnel height 7.9 m, grade -3.2 percent).
+
+FDS results are presented in Section 3.9.6 which show that 181 m 3 /s can prevent backlayering. With  a  modeled  tunnel  area  of  61.04 m 2 and  a  blockage  area  at  loop  305  of  12.64 m 2 ,  this amounts to a local velocity of 3.7 m/s. This is approximately 34 percent higher than the velocity arrived at from the test data. This result is on a coarse grid (0.4 m) and at a FHRR of 50 MW (versus the test average of 46 MW). The FHRR difference is expected to have negligible impact. For instance, if the NFPA 502 4 2014 equation is used to compute critical velocity at 46.2 MW or 50 MW, the value is 2.9 versus 3.0 m/s, respectively. The grid resolution used in this model comparison is 0.4 m. The backlayering predicted with the model increases as the grid is refined.
+
+Therefore, the over prediction of critical velocity arrived at here, 34 percent, is going to increase further if more refined grid models were conducted.
+
+Beyer  and  Stacey  [49]  have  reported  FDS  models  on  a  grid  with  a  resolution  of  0.2 m longitudinally, and 0.1 m in the vertical and spanwise directions. Those models showed, for a 50 MW  FHRR  and  3.0  m/s  inlet  velocity,  that  the  smoke  backlayer  extended  to  a  location upstream of loop 307 (more than 200 ft upstream of the fire). Results in Figure 3-47 show smoke backlayer extends to at least loop 307. Beyer and Stacey tested alternative CFD models, using a Reynolds-averaged turbulence model in ANSYS Fluent 11  with an eddy dissipation combustion model.  The  results  of  their  analysis  found  that  this  approach  could  provide  a  backlayering prediction consistent with the test data (i.e., at 3 m/s velocity for a 50 MW FHRR the backlayering was prevented). Reasons that FDS overpredicts backlayering were hypothesized to be related to the  stepped  (rectangular)  representation  of  curved  surfaces,  and  the  near-wall  modeling  and treatment in FDS.
+
+In conclusion, it can be stated that FDS over-predicts backlayering, and hence critical velocity. The magnitude of the over-prediction is on the order of 34 percent or more. A grid-converged result for backlayering extent was not arrived at due to computational limitations. Finer grids have been observed to predict more backlayering, and thus it is expected that as the grid is refined further, that the backlayering predicted would increase more (and critical velocity would increase). The issue is under further investigation [83].
+
+## 3.9.5 Airflow Resistance Due to the FFFS
+
+The Memorial Tunnel FDS model was run with jet fans modeled and FFFS elements included but no fire. A similar analysis was conducted using the 1D model, with additional resistance factored in using the equations presented in Section 3.5 (see Figure 3-18). The purpose of these models was to operate the FFFS and measure the tunnel airflow to see if the airflow changed based on FFFS resistance introduced. The model considered water spray introduced in zones that were 32 m long covering the tunnel width. Nozzle parameters were as per Table 3-23 and there were 16 nozzles per zone for a water application rate of 10 mm/min. There were three zones modeled, with zone 1 starting at 300 seconds, zone 2 at 600 seconds and zone 3 at 900 seconds.
+
+Table 3-23: Nozzle parameters (see [3]).
+
+| PARAMETER                          | TRIAL A RESULTS   |
+|------------------------------------|-------------------|
+| Particle velocity (m/s)            | 18.5              |
+| Spray angle (inner angle, degrees) | 30.0              |
+| Spray angle (outer angle, degrees) | 74.5              |
+| Particle diameter Dv,0.5 (μm)      | 650.0             |
+| Droplet offset (mm)                | 30                |
+| Nozzle flow rate (LPM)             | 82                |
+| Particles per second               | 5000              |
+| Age (s)                            | 30                |
+| Reference                          | EVS-10-18         |
+
+A total  of  nine  jet  fans  were  operated  in  the  analysis.  Results  are  provided  in  Table  3-24  for airflows using a FDS model and a 1D model. The 1D model predicts about 10 percent more airflow than the FDS model and the FDS predicts more impact due to the FFFS operation. The FDS model had an ambient temperature of 7 degrees C and a wall temperature of 20 degrees C. The FDS model allowed water to evaporate, which would have reduced the average air temperature and  possibly  caused  the  modeled  jet  fans  to  experience  slightly  lower  air  temperatures  thus increasing the effective thrust and volume flow in the tunnel. The 1D model did not include this effect and thus a decrease in airflow was seen for each additional FFFS zone operated. Tunnel grade was also included, so the cooler air in the FDS models would have also provided conditions to lead to more volume flow.
+
+The results of the analysis showed only a small change in airflows due to operation of the FFFS, typically within a few percent of the flow with no FFFS present and with both methods to a level of accuracy that would be inside design margins. This confirms that the FFFS introduces minimal additional pressure loss for the parameters considered herein.
+
+Table 3-24: Results for FFFS impact on airflow.
+
+|   NUMBER OF FFFS ZONES OPERATING | AIRFLOW (m 3 /s AT TUNNEL ENTRY REGION) FROM FDS (MTLV-02-15) (PERCENT CHANGE FROM NO FFFS CASE)   | AIRFLOW (m 3 /s AT TUNNEL ENTRY) FROM 1D MODEL (MTLV- 01-03) (PERCENT CHANGE FROM NO FFFS CASE)   |
+|----------------------------------|----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+|                                0 | 253.0                                                                                              | 295.1                                                                                             |
+|                                1 | 258.9 (+2.3 percent)                                                                               | 292.5 (-0.9 percent)                                                                              |
+|                                2 | 257.8 (+1.9 percent)                                                                               | 289.9 (-1.8 percent)                                                                              |
+|                                3 | 257.4 (+1.7 percent)                                                                               | 287.0 (-2.8 percent)                                                                              |
+
+## 3.9.6  Smoke Control With and Without FFFS
+
+FDS models were conducted with a steady 50 MW fire present. The FFFS was modeled also, initially off and then activated after 360 s. The airflow was recorded and used to indicate the extent to which the FFFS was assisting. Impact of the FFFS on smoke control was observed. Different numbers of fans were operated (3 to 7) and fans were always stationed upstream of the fire. Table 3-25 provides a summary of cases run and the main results. Grid resolution was 0.4 m, and the mixing-controlled fire model approach was used. The idea behind these simulations was to look at the impact of longitudinal velocity on smoke control, and the fans were modeled to examine the impact of the FFFS on airflows generated within the full aerodynamic model of the tunnel.
+
+Figure 3-69 and Figure 3-70 show the temperature profiles. The temperature profile gives an indication of the extent of backlayering, which is seen to be reduced when FFFS is operated. The airflow is not affected very much when FFFS is operated, indicating that the cooling effects of FFFS for reduction of downstream buoyancy, do not play a major role for the situation modeled here. Other scenarios where smoke is directed for a longer distance downstream or where fans are exposed to heat downstream, might show a greater change. Pressure profiles along the tunnel length are provided in Figure 3-71 and Figure 3-72. The results here show very little change in the pressure profiles before and after FFFS is operated, which is consistent with the observation of a small change in airflow before and after FFFS operation.
+
+Table 3-25: Impact of FFFS on airflow and smoke control
+
+| CASE        | FFFS CONFIG                                   |   FANS ON | AIRFLOW BEFORE AND AFTER FFFS OPERATING m 3 /s (VELOCITY UPSTREAM m/s)   | NFPA 502 4 2014 FREE STREAM (m/s)   | MEMORIAL TUNNEL FREE STREAM CRITICAL VELOCITY FROM TEST 612B (m/s)   | BACKLAYERING BEFORE AND AFTER FFFS OPERATING (m)   |
+|-------------|-----------------------------------------------|-----------|--------------------------------------------------------------------------|-------------------------------------|----------------------------------------------------------------------|----------------------------------------------------|
+| MTLV- 03-17 | 8 mm/min, Nozzle A from Test Report           |         3 | Before: 50 m 3 /s, 0.83 m/s After: 53 m 3 /s, 0.88 m/s                   | N/A                                 | N/A                                                                  | Before: 230 m After: 230 m                         |
+| MTLV- 03-18 | 8 mm/min, Nozzle A from Computer Model Report |         3 | Before: 49 m 3 /s, 0.81 m/s After: 60 m 3 /s, 0.99 m/s                   | N/A                                 | N/A                                                                  | Before: 230 m After: 180 m                         |
+| MTLV- 03-15 | 8 mm/min, Nozzle A from Test Report           |         4 | Before: 101 m 3 /s, 1.67 m/s After: 108 m 3 /s, 1.79 m/s                 | N/A                                 | N/A                                                                  | Before: 130 m After: 50 m                          |
+| MTLV- 03-16 | 8 mm/min, Nozzle A from Test Report           |         5 | Before: 137 m 3 /s, 2.26 m/s After: 141 m 3 /s, 2.33 m/s                 | N/A                                 | N/A                                                                  | Before: 40 m After: 0 m                            |
+| MTLV- 03-22 | No FFFS                                       |         6 | 160 m 3 /s, 2.64 m/s                                                     | 2.4                                 | 2.4                                                                  | Backlayer: 15 m                                    |
+| MTLV- 03-23 | No FFFS                                       |         7 | 181 m 3 /s, 2.99 m/s                                                     | 2.4                                 | 2.4                                                                  | Backlayer: 0 m                                     |
+
+Results in Table 3-25 for five fans in operation show smoke control (0 m backlayering) for an upstream velocity (free stream) of 2.33 m/s with FFFS in operation. The critical velocity found in these models was 2.99 m/s (MTLV-03-32). The ratio for FFFS operating to no FFFS is 2.33/2.99 = 0.77. The results herein are noted to be on a grid resolution of 0.4 m and grid refinement has not been tested. Based on previous sections, a finer grid is likely to give more backlayer. The results show a relative improvement in smoke management when FFFS is operated. Section 3.3 found that a similar ratio to that arrived at here (e.g., velocity of 1.65 m/s with FFFS and 2.2 m/s without FFFS per Figure 3-8 and Figure 3-9, giving a ratio of 1.65/2.2=0.75).
+
+Figure 3-69: Temperature profile for 3 fans.
+
+<!-- image -->
+
+Line chart
+
+Figure 3-70: Temperature profile for 5 fans.
+
+<!-- image -->
+
+Line chart
+
+Figure 3-71: Pressure profile for 3 fans in operation.
+
+<!-- image -->
+
+Line chart
+
+Figure 3-72: Pressure profile for 5 fans in operation.
+
+<!-- image -->
+
+Line chart
+
+## 3.10  Summary
+
+Integration of the FFFS and EVS was the subject of this chapter for longitudinal ventilation using jet fans. Impact of the FFFS was considered for the FHRR, cooling of the combustion products, critical velocity for smoke control, pressure losses due to the fire including operation of the FFFS, friction  losses  introduced  by  FFFS  pipework,  water  droplet  deflection  due  to  the  EVS,  and tenability  for  egress  and  fire  fighting.  FDS  analysis  of  the  Memorial  Tunnel  was  used  to demonstrate  the  relative  changes  in  jet  fan  numbers  for  a  fire  scenario  using  longitudinal ventilation.
+
+The impact of the FFFS on FHRR varies with system type, water application rate, droplet size, and nozzle type. Several full-scale tests indicate that a reduction in peak FHRR is likely, assuming prompt activation of the system in the event of a fire. Section 2.1.2.2 reviewed full-scale tests using  FFFS.  In  this  review,  water  application  rates  ranging  from  4 mm/min  to  12 mm/min (0.1 gpm/ft 2 to 0.3 gpm/ft 2 ) have been tested and found to be effective at preventing fires reaching peak FHRR. For instance, a full-scale test of a load of pallets was conducted in the test tunnel at San Pedro De Anes in 2018 [40]. In that test a free burn fire reached a peak FHRR of 243 MW. A further test with a low-pressure water mist system (4 mm/min) water application rate, was found to keep the FHRR at 32 MW. Several other test programs ([7], [37], [38], [39]) of different systems, fire load and water application rates have demonstrated the effectiveness of FFFS at limiting the peak FHRR. A reduction of peak FHRR of 50 to 97 percent is seen to be possible.
+
+The pressure loss (flow resistance) due to the fire is typically estimated using an empirical formula. There is variation in the pressure losses when computed using the available equations from the literature. The equation by Riess et al. [51] includes effects in addition to the fire pressure loss at the fire site (losses downstream of the fire, which were shown to be greater than the pressure losses at  the  fire  site),  while  other  equations  (e.g.,  Carlotti  and  Salizzoni  [68],  and  SVS  [67]) consider only effects at the fire site. This is noted to be an area of ongoing research in the industry [70]. Airflow resistance from the FFFS is due to losses created by the water droplets, humidity, and spray dynamics. Other possible losses introduced by the FFFS include evaporation of water droplets causing a change in density of the air. Equations and analysis (refer to Section 3.5) showed that airflow resistance due to the FFFS is small relative to other losses in the EVS design (such as friction, fire resistance, buoyancy, etc.).
+
+CFD results for friction losses due to FFFS pipework, refer to Section 3.6, showed an increase in the pressure losses and friction factors with the inclusion of FFFS pipework in a tunnel. It is noted that this could vary depending on the arrangement of pipework in each tunnel and each unique configuration could be considered and possibly analyzed to verify expected losses.
+
+Water  droplet  deflection  in  the  longitudinal  air  stream  was  investigated  in  Section  3.7.  The deflection  was  computed  with  FDS  and  estimated  via  equations.  Analytical  equations  are suggested for use to provide an initial estimate of water drop drift in longitudinal  airflow. FDS models were used to account for impact of drop motion on air motion and vice versa. The FDS models and equations agreed for large drop systems (0.65 mm). For the smaller drop systems (0.155 mm), the equations predicted a greater extent of water droplet drift downstream. Some caution is suggested in the use of models and equations as described herein due to comparison with  test  data  not  being  provided.  Physical  measurements  of  water  droplet  drift,  to  provide physical data for model validation, is also suggested for future research.
+
+Memorial Tunnel FDS models and 1D calculation were used to investigate airflow resistance due to the FFFS in Section 3.9.5. Analysis was performed with jet fans and FFFS elements but not fire. FDS predicted more impact due to the FFFS operation as compared to a 1D model. The FDS model allowed water to evaporate, which would have reduced the average air temperature and decreased the volume flow rate relative to the 1D model, which did not allow for any cooling due to evaporation. The results of the analysis showed very little change in airflows due to operation of the FFFS, typically within a few percent of the flow with no FFFS present, to a level of accuracy that would be inside design margins.
+
+Tenability  for  egress  and  fire  fighting  is  discussed  in  Section  3.8.  FDS  was  noted  to  achieve reasonable agreement relative to tests for prediction of the temperature downstream of a fire with a longitudinal EVS operating. The accuracy of FDS for prediction of radiation heat flux however is noted to not agree, especially near to the fire. The FFFS can mix carbon monoxide (and other combustion products) down from the ceiling region of the tunnel to the region where people are located;  an  effect  that  is  typically  accounted  for  in  an  FDS  model.  FDS  likely  over-predicts radiation in the region 10 m downstream of the fire but given the proximity to the fire, where conditions are not expected to be tenable, this is typically a minor issue.
+
+Assessments were conducted to look at the ability of FDS to predict the critical velocity in a tunnel fire. In Section 3.3 FDS models were run for a full-scale tunnel configuration with similar set up and proportions to that used in the Testing Report. The analysis looked at a range of sensitivities (FHRR, geometry, FFFS layout, grid resolution) and investigated the critical velocity. The analysis showed a relative change in the critical velocity with FFFS operating, with the FFFS reducing critical velocity by 25 percent in the FDS models (see Table 3-3 and Table 3-4). This result is noted to be relative; it shows that critical velocity is reduced with FFFS. The exact magnitude of the critical velocity is uncertain because of the shortcomings with FDS results in relation to critical velocity prediction and grid dependence of results.
+
+A longitudinal ventilation test from the Memorial Tunnel fire tests was used to revisit validation of FDS in Section 3.9. The validation was revisited from the Computer Modeling Report because further details (drawings) of the internal obstructions became available and the models in that report  had  to  be  calibrated  to  use  a  large  wall  roughness  height  to  achieve  agreement  of backlayering prediction. The FDS models herein incorporated the entire length of the tunnel, jet fans, and blockage representation, and the models were conducted with transient FHRR and jet fan operation, corresponding to the tests. The FDS models gave a prediction of the total airflow in the tunnel, but the models over-predicted backlayering length and hence critical velocity.
+
+For the grid refinement studies, some solution parameters (e.g., bulk volume flow) did not change much between grids. Grid convergence was not achieved for the backlayering length or variables associated with this, such as ceiling region temperature and velocity near the ceiling upstream of the fire. As the grid was refined further, the backlayering length increased and a stable backlayer length was not able to be found for the range of grids tested. Thus, it can be stated that FDS is grid sensitive in this parameter (backlayering).
+
+For the Memorial Tunnel models conducted herein, when the FFFS is applied in FDS, keeping everything else the same in the model, an improvement in the smoke control is observed (i.e., a reduction of  backlayering  for  keeping  velocity the  same  as the  no  FFFS  case).  This  result  is consistent with test data from the Testing Report which showed smoke control improvement when FFFS is operated keeping the upstream velocity approximately the same. It is noted that in the Computer Modeling Report FDS models of the LTA tunnel FFFS tests showed prediction of the cooling effects of the water spray under longitudinal ventilation based on temperature downstream of  the  fire.  This  cooling  effect  is  one  of  the  physical  processes  introduced  when  the  FFFS  is operated. For the Memorial Tunnel tests presented in Section 3.9.6 the FDS models were shown to over predict critical velocity relative to the test, by around 34 percent with the models giving
+
+40 m of backlayering, and more expected on a refined grid. The same models were conducted with FFFS operating and the backlayering was eliminated due to the water's cooling effect.
+
+Research into the cause of the backlayering grid dependence with FDS is suggested as a subject for  future  work.  Other  CFD  software  may  be  of  benefit  for  investigating  this  problem  too,  as demonstrated by Beyer and Stacey [49].
+
+Suggested practices (critical velocity and FFFS): It  has been found that FDS over-predicts backlayering,  and  this  over-prediction  of  backlayering  by  FDS  directly  results  in  an  overestimation (up to 34 percent, or more as the grid is refined) of the ventilation air velocity necessary to control it. Grid independence was not able to be achieved for critical velocity or backlayering extent. Downstream temperatures did show better convergence of temperature results as the grid was  refined.  The  cooling  effects  of  an  FFFS  were  evaluated  and  based  on  temperatures downstream of the fire, the model was predicting similar results to the tests.
+
+For the laboratory tests conducted with the FFFS activated, improved smoke control for the same upstream  velocity  was  observed  (i.e.,  with  no  FFFS  there  was  backlayering,  and  with  FFFS operating, backlayering was prevented). This smoke behavior was able to be repeated in FDS models. The same behavior has been observed in full-scale fire tests (SOLIT tests [7]).
+
+For  tunnel  engineering  design  considerations  with  FFFS  and  EVS  operation  in  longitudinal ventilation, FDS modeling with FFFS could be used, with certain precautions taken, to explore the change in smoke control for a scenario with and without FFFS. These precautions include the provision that grid refinement studies be conducted (ideally over two or more grid sizes, with grids getting down to 0.4 m to 0.2 m or less, with and without FFFS, to demonstrate consistency of engineering design outcomes with respect to the grid resolution), and that a baseline for critical velocity (for comparing the FDS model results to) without FFFS be established through test data, or a result from another validated CFD software package (where full-scale data for the geometry are not available). It is also cautioned that very coarse grids (e.g., 0.5 m to 1.0 m resolution) might show no backlayering at all (this was seen in the Testing Report where the grid had to be refined to see backlayering, and also was seen in a recent grid refinement investigation looking into the FDS issues [83]).
+
+## 4 FURTHER TOPICS
+
+Discussion is provided in this section about topics related to FFFS and EVS which pertain to some additional  items  of  interest  or  relevance  for  integration.  Topics  covered  include  system combinations, transverse ventilation and FFFS integration, alternative fuel vehicles, dangerous goods  vehicles,  water  application  rate  and  FFFS  nozzles,  owner  perspectives,  structural  fire protection, and operational aspects.
+
+## 4.1 System Combinations
+
+The  objective  is  to  consider  whether  the  installation  of  an  FFFS  in  the  tunnel  can  allow  for reduction  in  other  FLS  systems.  The  SOLIT  (Safety  of  Life  in  Tunnels)  [42]  research  report discussed impacts of FFFS on other FLS systems. Consideration of the benefit to fire-life safety that  could  be  realized  with  installation  of  an  FFFS  includes  the  design  fire  heat  release  rate (FHRR), EVS, spacing and placement of exit doors or cross passages, emergency response time, and level of structural fire protection.
+
+System combination is reliant on the operation of the FFFS. Sensitivity to a scenario where the FFFS does not operate  should  be  a  consideration.  This  can  involve  system  reliability,  FFFS operational policy, risk analysis, and consideration of FFFS integration with other systems.
+
+System reliability, maintainability and availability (RAMS) analysis is identified in the PIARC FFFS report  as  a  factor  to  consider  if  FFFS  are  used  as  a  compensatory  measure  [10].  Factors  to consider  in  this  include  water  supply,  redundancy  of  components,  control  systems,  and maintainability. Discussion of sprinkler effectiveness, with some consideration of reliability, is also covered in Section 4.9 of the Literature Survey and Synthesis.
+
+FFFS operational policy is concerned with fire detection (manual or automatic), and when the FFFS could be operated. The approach here can vary depending on the tunnel and factors such as  whether  it  has  full-time  monitoring  and  system  operation  capability  (i.e.,  from  a  monitored control center), and the jurisdictional approach. The operational policy can influence the timing of FFFS operation which, depending on the fire scenario, can influence FFFS performance. For instance, the approach to FFFS operation in Australian and New Zealand tunnels is to operate the FFFS as early as possible once a fire is confirmed since this approach is believed to have the best chance of controlling the fire event [41]. The FFFS can obscure vision for motorists and Section 4.7.5 of the Literature Survey and Synthesis shows an example of this situation, and this may be a consideration to make when determining operational policy.
+
+Risk analysis can be used as a framework to communicate the costs, benefits, and sensitivity of FFFS compensations with other emergency systems. Risk analysis can also be helpful to test sensitivity to system reliability, where the sensitivity to the overall outcomes (in terms of costs or adverse impacts of an event) can be quantified for varying degrees of reliability. When considering system combinations this can help to shape the level of reliability sought in the FFFS, and it can be  used  to  compare  costs  and  impacts  of  different  fire  protection  measures.  An  example application considers the question of installing an FFFS versus other compensatory measures for FLS including traffic control and smoke exhaust [84].
+
+Another factor to  consider  in  FFFS  combinations  is  system  integration.  System  integration  is discussed in Section 4.7 of the Literature Survey and Synthesis. This can involve FLS provisions that extend beyond the FFFS and the system it is being combined with. For instance, placement of  CCTV with respect to FFFS zones can impact the ability of the operator to identify the fire location  quickly  and  accurately,  thus  potentially  impacting  the  FFFS  reliability.  Factors  listed include fire detection, system controls, CCTV, EVS (i.e., drift of water drops beyond the FFFS operational zone), egress provisions, and traffic operation and response. Discussion of integration can be found in several references [10], [41], [85].
+
+An integration point noted in the Workshop Report was that there was some uncertainty about whether water droplets would influence fan performance.  Surveys were conducted as part of developing this current report, and some fan manufacturers were consulted. No evidence of any adverse impact of water droplets on fan performance was found.
+
+System combinations is a complex topic as it involves  a performance-based approach to the overall FLS design, where potential compensatory benefits from installing an FFFS are realized. Combinations should undergo a careful development process and sensitivity to system failures are suggested to be considered as part of the development. While it is not possible to cover all system combinations herein, when considering various combinations, a thorough analysis should be  undertaken,  literature  consulted  (such  as  the  references  cited  herein),  and  any  proposed combination  should  undergo  review  and  approval  by  suitability  qualified  entities.  Table  4-1 summarizes some possible system combinations when FFFS is considered.
+
+Table 4-1: System combinations.
+
+| SYSTEM                     | POSSIBLE FFFS BENEFITS                                                                          | NOTES                                                                                                                                                                 |
+|----------------------------|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| EVS                        | Reduction in capacity due to FFFS cooling effects.                                              | Refer to Section 3 herein.                                                                                                                                            |
+| Structure                  | Cooler environment, possibly leading to a reduced level of structural fire protection measures. | FFFS reliability and structural damage that could occur if FFFS fails.                                                                                                |
+| Exit spacing               | Potential to increase spacing of exits.                                                         | Would be subject to detailed egress and tenability analysis.                                                                                                          |
+| Fire department operations | FFFS can aid operations and help to approach the fire.                                          | System combinations here are likely to be minimal, but might include some reduced hose connection number, hydrant spacing increase, or increase in the response time. |
+| Operations                 | Faster recovery post incident.                                                                  | Previous incidents have shown this to be the case, refer to the Literature Survey and Synthesis.                                                                      |
+
+## 4.2 Transverse Ventilation and FFFS Integration
+
+Transverse ventilation systems are comprised of distributed exhaust and supply ports along the length of the tunnel. Different types of transverse systems exist including fully transverse (see Figure 4-1), semi-transverse, and point exhaust (see Figure 4-2). Transverse ventilation systems are common in many existing U.S. tunnels. Integration of a transverse ventilation system with an FFFS was considered in the Computer Modeling Report. Considerations that arise for integration include  water  spray  and  exhaust  interaction  (see  Figure  4-3),  impact  of  FFFS  on  the  smoke management, and impact on EVS performance. A summary of the main findings is provided below.
+
+For water spray and EVS interaction, the Computer Modeling Report included an investigation of the  water spray  interacting  with  the  exhaust.  The  study  looked  at  whether  water  droplets  are entrained into the exhaust duct. It was found that for a transverse system with distributed slots that a very small amount of water was entrained into the exhaust duct. For a single point exhaust more  water  was  entrained  into  the  air  duct  although  in  the  case  modeled  the  nozzle  was positioned in the midpoint of an exhaust damper. Placement of the nozzle meant that results favored water entrainment. The investigation concluded that FFFS and EVS integration should consider ventilation conditions and placement of the nozzles, and droplet parameters based on nozzles  provided.  When  operating  single  point  exhaust,  the  dampers  are  usually  opened downstream of the fire, so water entrainment is not likely to have much of an adverse impact on FFFS performance. In terms of a suggested practice, it was noted that FDS models could be used to test an EVS configuration and combinations of nozzle types and layouts as part of the design development.
+
+Impact of EVS on smoke management for a transverse system was explored in Chapter 6 of the Computer Modeling Report. The analysis demonstrated that the cooling effect of the water spray improved the exhaust system's effectiveness, with reduced extent of smoke spread along the tunnel when the FFFS was operated. This finding is analogous to the longitudinal ventilation (see Section 3.3) where it was shown that the FFFS can provide cooling such that the smoke control velocity can be reduced. One concern with transverse ventilation and FFFS is the potential for smoke destratification.  This  effect  was  investigated  in  Section  7.2  of  the  Computer  Modeling Report.  The  finding  was  that  smoke  was  mixed  down  toward  roadway  level,  but  smoke stratification was recovered beyond the active FFFS zone. Example results are provided in Figure 4-4, Figure 4-5 and Figure 4-6. Note that validation and grid refinement studies have not been performed for these models and they are representative, keeping other parameters the same, of the effects of the FFFS introduction. Analogous to the results and cautions noted in the previous chapter for longitudinal ventilation, these results might predict more smoke spread for finer grids and might be tending to over predict the smoke spread extent.
+
+Some reduction in tenability occurred in the active FFFS zone, but it was noted that a typical FFFS zone length is 20 m to 30 m (80 ft. to 100 ft.), and this is comparable to the fire perimeter length (applies both sides of the fire) noted in the annex of NFPA 502 4 , where the text states that application  of  tenability  criteria  within  the  fire  perimeter  is  impractical.  Given  this,  changing ventilation  capacity  or  operational  approach  to  try  and  preserve  smoke  stratification  was  not suggested because benefits of FFFS operation on overall system were concluded to outweigh any negative effects local to the fire zone.
+
+Another factor to consider with transverse ventilation and FFFS integration includes design of the ventilation  system, specifically,  sizing  of fans  to provide the  design  airflows.  Ventilation  sizing calculations should consider heat effects and gas expansion based on the fire, FFFS cooling, and heat transfer as air/smoke is drawn along the ventilation ducts. Volume flow rate at hot conditions can be more than at ambient conditions (leading to a greater pressure loss along the duct relative to a calculation based on ambient temperatures), and hot gases can reduce fan performance. In addition to the heat transfer effects, if any FFFS components are housed in an air duct (supply or exhaust), then the additional airflow resistance of these items is suggested to be considered (refer to Section 3.6).
+
+In terms of design practice for a transverse ventilation system there are numerous parameters to consider. For instance, for single point exhaust, there is a question on how many dampers to open. Also, for transverse ventilation with FFFS it is not certain (without detailed engineering analysis) by how much the FFFS might allow a reduction in exhaust flow rate, nor is it known whether this possible reduction is affected by having dampers located above the roadway or to the  side  of  the  roadway.  Each  tunnel  has  slightly  different  parameters  for  geometry,  grade, ventilation system, FFFS, and design fire. It is suggested that CFD modeling is therefore used to conduct detailed engineering analysis to explore the integration issues specific to a project. Use of CFD would be subject to verification and validation efforts to establish the ability of the CFD model to reliably simulate the ventilation system of interest.
+
+Figure 4-1: Transverse ventilation system schematic.
+
+Figure 4-2: Point exhaust schematic.
+
+<!-- image -->
+
+Photograph
+
+Source: FHWA
+
+Figure 4-3: Interaction of water droplet and exhaust.
+
+Figure 4-4: Visualization of smoke spread (cropped at 10 m or less visibility), no FFFS.
+
+<!-- image -->
+
+Line chart
+
+Figure 4-5: Visualization of smoke spread (cropped at 10 m or less visibility), FFFS.
+
+<!-- image -->
+
+Line chart
+
+Figure 4-6: Visualization of smoke spread (cropped at 10 m or less visibility), FFFS, reduced exhaust rate.
+
+<!-- image -->
+
+Line chart
+
+## 4.3 Alternative Fuel Vehicles
+
+Alternative fuel vehicles are an area of active development and research, especially as the topic relates to tunnels [86]. For the current research project, the main question is whether water based FFFS can or could be used on an alternative fuel vehicle fire. An understanding of the issues surrounding  FFFS  use  was  achieved  through  a  review  of  suggested  first  responder  actions concerning alternative fuel vehicles. The vehicle propulsion types investigated herein included electric, ethanol, biodiesel, compressed natural gas, liquid propane gas and hydrogen. Findings are summarized below, specifically as they relate to the use of water as a fire extinguishing agent.
+
+Per an NFPA research report [35], electric vehicle fires can be combated using  water. Large volumes of water may be necessary to cool the vehicle as there is a danger of reignition even after the initial suppression of the fire due to thermal runaway. One risk is that the vehicle can still be electrified, even after suppression activities are mostly complete, and there is potential for reignition. Similar risks exist for gasoline fuel vehicle fires (i.e., reignition of unburned fuel that encounters  an  ignition  source).  A  recent  publication  used  full-scale  testing  to  examine  the performance of an FFFS on gasoline fuel vehicles and electric vehicles in the context of fire protection for vehicle holds on ferries [87]. The authors concluded that the battery electric vehicle fire did not appear to be more challenging for the FFFS that they tested.
+
+Ethanol  is  a  traditional  fuel  type  used  in  internal  combustion  engines.  It  is  relevant  to  the discussion because its use at present is not as widespread as gasoline, but it may see more use in coming years as it can be produced via distillation processes. Ethanol fires are noted to burn with a visible flame with little to no smoke. In general, the same safety measures that apply to gasoline apply to ethanol [88]. An ethanol spill fire is suggested to be fought in much the same way as a gasoline spill, although it is noted that an alcohol resistant film forming foam is suggested to be used [89]. Biodiesel fueled vehicles are noted to be like gasoline vehicles and no differences in fire fighting strategy are suggested based on the available literature. It is suggested to avoid using a large drop water stream on a biodiesel pool fire as it may scatter fuel and spread fire, and instead for foam forming additives, water mist, carbon dioxide, dry chemical or a clean agents are suggested [90].
+
+Compressed natural gas (CNG), hydrogen and liquified propane gas fuels all involve storage of the fuel under pressure. A standard safety device is a pressure relief device, which is activated by heat during a fire, and the purpose of this device is to mitigate the potential for a cylinder to explode due to overpressure caused by heat from the fire. Fire fighting response suggestions are that if the cylinders are not involved in the fire to extinguish the fire with normal response tactics, but if the fire is impinging on the cylinders or if the cylinders are on fire, to let the vehicle burn and watch for secondary hazards [91]. Cylinders are noted to vent down in around 2 to 5 minutes once the pressure relief device activates.
+
+The  use  of  FFFS  on  vehicles  with  gas  cylinders  is  unique  because  the  FFFS  can  provide substantial cooling over a large area. However, it is noted in literature that if the fire is internal to the vehicle and shielded from the FFFS, there is a risk that the cylinders might be heated from below and shielded from the FFFS spray, with the thermally activated pressure relief device on top of the cylinder exposed to water. This would reduce effectiveness of the pressure relief device (assuming the device is thermally activated). Identification of CNG vehicles by the operator of the FFFS, as well as training to search for these vehicles, is suggested as a possible mitigation for fire fighting operations.
+
+Recently, testing has been conducted to look at the effects of water spray cooling and affecting the pressure relief device's thermal activation [92]. The concern in this work was the potential for the cylinder to burst due to delay in the pressure relief. The test summary concluded that water spray could cause the pressure relief device to not operate due to cooling, but it also noted that the water spray provided cooling that was able to provide some degree of cooling to the cylinder. The suggested strategy is to extinguish the fire and cool the energy source. It was also suggested that larger amounts of water than what FFFS typically consume might be needed to protect gas cylinders exposed to fire.
+
+## 4.4 Dangerous Goods Vehicles
+
+Section 3.3.3 and Section 3.4.4 of the literature survey covered the subject of bulk liquid fuel fires. The design fire suggested in NFPA 502 4  [14] for a gasoline tanker fire is in the range of 200 MW to 300 MW. One of the key characteristics for a gasoline tanker fire is the potentially fast fire growth rate. A previous incident investigation has noted that the fire can grow very fast and a FHRR of 440 MW was estimated [93]. An issue for many tunnel operating authorities is whether dangerous goods vehicles could be allowed passage through the tunnel or be forced to use an alternative route.
+
+Addition of water additives to the FFFS (e.g., film forming foams) is used to mitigate the effects of a gasoline tanker fire. The additives seek to cover the surface of a fuel spill, reducing the ability of air to reach the surface and interrupting heat feedback to the fuel. While the FFFS can work best if the fire is unshielded, it is noted that water with additives can still provide a benefit where water flows under a vehicle. Effectiveness of safety systems in these incidents can depend on the speed of system activation. Three U.S. road tunnels currently use water additives in their FFFS, and it is noted that activation of the system can be very quick where additive is available at the deluge valve. Tunnel operators are also noted to be trained to active the FFFS as soon as a spill is identified rather than waiting for flames to appear.
+
+Deluge system water drops can potentially more easily reach a burning surface since the larger droplet can have higher momentum and thus penetrate the fire plume. However, there is a risk that large drops can disturb the fuel surface, scatter fuel and cause a flare up of the fire (like the phenomenon observed when water is used on a burning stovetop oil fire). Mist systems might limit the potential to disturb the fuel surface. For instance, in the SOLIT work, a Class B fire was tested using a water mist system. The fire was not shielded and the mist was able to suppress the pool fire through cooling effects [8]. While this result is encouraging it is noted that this test was done in a very controlled manner where the pool was stationary. Section 3.1 herein noted that laboratory testing has shown that the FFFS only reduces the FHRR for liquid fuel spills if an aqueous film forming foam (AFFF) is added [61] to the water.
+
+Research  on  additives  to  water-based  systems  was  conducted  by  the  NFPA  Research Foundation [94]. The work involved a survey of additives along with fire testing on Class B fires of varying dimensions (a two-dimensional pool fire and a three-dimensional flowing fuel fire). For two-dimensional  tests,  systems  using  water  alone  were  not  able  to  extinguish  the  fire  and although fire control was achieved it took more water than in tests where additives were added. Tests  with  addition  of  additives  showed  faster  fire  control  and  in  many  cases  the  fire  was extinguished. In the three-dimensional tests, the water additives were included to provide control of the fire and there was sensitivity to the water application rate. Table 4-2 summarizes some of the results. The referenced report and other sources can be consulted for details of additives used and their effectiveness as not all additives perform equally, and these tests only include three of the many water additive formulas available.
+
+Impacts of the FFFS on hazardous/dangerous goods vehicle fires was not a principal part of this research. This subject is suggested as a topic for possible future research projects. Additionally, it is suggested the research should consider maintenance, cleanup, operation (if the operator can choose to not use additives in certain instances), type of additive (non-fluorine foams have been developed  recently)  and  previous  U.S.  owner  experience  of  FFFS  with  additives  in  highway tunnels. Water additives are used in some U.S. Tunnels (e.g., Mount Baker, Mercer Island, I5 Convention Place lid, East End Crossing Tunnel). The research shows that benefits are realized for fires involving liquid fuels, which is a consideration for highway tunnels allowing hazardous goods transport. One consideration in future research could be to further test the sensitivity of outcomes to the water application rate and determine whether the system performance can be achieved with water application rates (with an additive included) comparable to the lower bounds of what is seen in U.S. tunnel applications (on the order of 0.15 to 0.20 gpm/ft 2 ).
+
+Table 4-2: Results from fire tests of water-based FFFS with foam additives [94]
+
+| TEST   | AGENT   |   WATER APPLICATION RATE (gpm/ft 2 ) | EXTINGUISHED   | TIME TO 90 PERCENT CONTROL (s)   | TIME TO EXTINGUISH (s)   |
+|--------|---------|--------------------------------------|----------------|----------------------------------|--------------------------|
+| 1, 2D  | Water   |                                  0.3 | No             | 480                              | NA                       |
+| 2, 2D  | Water   |                                 0.45 | Yes            | 85                               | 153                      |
+| 3, 2D  | A       |                                  0.3 | Yes            | 131                              | 157                      |
+| 6, 2D  | A       |                                 0.16 | No             | NA                               | NA                       |
+| 7, 2D  | A       |                                 0.22 | Yes            | 180                              | 243                      |
+| 8, 2D  | B       |                                  0.3 | Yes            | 39                               | 50                       |
+| 11, 2D | B       |                                 0.16 | Yes            | 95                               | 98                       |
+| 15, 2D | C       |                                  0.3 | Yes            | 22                               | 29                       |
+| 18, 2D | C       |                                 0.16 | Yes            | 43                               | 62                       |
+| 13, 3D | Water   |                                  0.3 | No             | NA                               | NA                       |
+| 14, 3D | Water   |                                 0.45 | No             | NA                               | NA                       |
+| 4, 3D  | A       |                                  0.3 | No             | NA                               | NA                       |
+| 9, 3D  | B       |                                  0.3 | Yes            | 264                              | 274                      |
+| 16, 3D | C       |                                  0.3 | No             | 275                              | NA                       |
+| 19, 3D | C       |                                 0.22 | No             | NA                               | NA                       |
+
+## 4.5 Water Application Rate and FFFS Nozzles
+
+Water  application  rate  for  FFFS  in  a  tunnel  application  can  have  an  impact  on  both  system performance and design as it directly determines the overall water supply. Section 4.4 of the Literature  Survey  and  Synthesis  details  how  international  tunnel  industry  experience  varies regarding selected water application rates for FFFS, and that current design standards do not specify a water application rate for a tunnel application. Figure 4-7 shows an example of water application rates used. Many factors are noted to come into consideration when choosing water application  rate  for  a  given  tunnel  application.  One  of  the  key  considerations  is  to  identify performance goals of the FFFS, and then look at how factors such as water application rate and droplet size influence that performance. The available water supply, length, and width of the FFFS zones, and number of operational FFFS zones were identified as key factors to look at, especially when retrofitting an existing tunnel.
+
+Figure 4-7: Graph. Water application rates (per NFPA 13 3  Figure 19.3.3.1.1) with common road tunnel applications indicated [44] [41].
+
+<!-- image -->
+
+Line chart
+
+Mist  systems  versus  deluge  systems  are  discussed  in  relation  to  water  application  rate.  Mist systems typically use less water with a smaller droplet size, while a deluge system uses larger droplets and more water. Different mechanisms of cooling in a fire situation can dominate with one system or another; a mist system has a larger surface area to volume ratio and evaporates faster to provide increased cooling and reaches the fire through entrainment into the plume. A larger water droplet (deluge system) tends to penetrate the fire plume and potentially reach the burning surface. Both systems were noted to have potential to provide FLS benefits. The choice of  one  system versus another can depend on the particulars of the application. For instance, drainage was noted to be a challenge when retrofitting an existing tunnel and thus an FFFS using less water may be beneficial. Droplet drift due to ventilation conditions is another consideration to be made when choosing an FFFS type. For example, a system with larger droplets has potential to be less affected by ventilation. Multiple FFFS zones is one way to mitigate droplet drift.
+
+FFFS nozzle type and selection is not a subject that has been explored at length in this research. In many situations a listed nozzle is selected, but it is noted that this may not fully cover tunnel suitability,  especially  due to  the  higher  air velocity  encountered  in tunnel  situations.  The  work referenced  above  is  helpful  to  consider  when  integrating  the  FFFS  and  EVS,  especially  with respect to water application rate and drop parameters. One factor not explored in the current project is the impact of different nozzle types and orientations on subsequent FHRR. A recent study looked at this topic for a rail vehicle fire scenario where the fire was inside the vehicle [95]. It was shown that a regular pendent sprinkler, mounted above the railcar with a water flow rate compliant with NFPA 13 3 , had little impact on the FHRR due to shielding. A sidewall mounted nozzle was shown to have more of an impact in limiting the FHRR as the water spray was able to penetrate the railcar, reach burning surfaces and limit the fire growth and peak FHRR. Based on this point, nozzle arrangement and type are suggested topics for future research.
+
+## 4.6 Owner Perspectives
+
+Some discussion of the owner's perspective with respect to FFFS took place during the workshop. One issue that tunnel owners may face when looking at their existing tunnels is whether to retrofit their facility with an FFFS. It was noted by one agency participant that a useful tool for tunnel owners would be a flowchart or decision tree to help them work through the process; or a checklist that outlines what they should consider. Development of such a flowchart would be a complex process because no two tunnels are the same.
+
+PIARC produced a report [10] that was intended to 'provide strategic guidance and advice on FFFS to allow their implementation to be considered in a balanced manner.'  The report was aiming  to  provide  'decision  makers  and  designers  with  information  to  assist  them  with  their understanding of the parameters of FFFS, and to provide guidance on whether or not to include FFFS in their road tunnels.' The document covers topics including decision factors (compliance, life  safety,  asset  protection, traffic,  firefighting  response, operations and maintenance, testing, cost-benefit  considerations,  sustainability,  and  legal  considerations),  design  considerations, system definition/procurement, research, and analysis.
+
+The chapter in  the  PIARC  report  on  design  considerations  provides  an  account  of  the  many factors  that  can  influence  the  decision  making.  These  factors  include  the  type  of  system  and hence amount of water (mist or deluge), the water supply available and whether an on-site tank is provided to meet capacity and reliability, drainage capacity, environmental factors (where to discharge water to, temperature and possibility of freezing), available space for installation of pipework, valves and nozzles, and integration with other tunnel systems such as ventilation, fire detection and operation.
+
+Development of a deterministic tool is a suggested area for further research and development. This tool would involve the input of stakeholders in its development, including owners, designers, fire departments, etc. In development of such a tool some factors to consider are that, in addition to life safety, a key area of concern is protection of assets i.e., the tunnel facility itself. Resiliency of the tunnel infrastructure is a likely benefit of the FFFS, and it is suggested to inform policy makers of the overall role that an FFFS plays in this. A key goal of any tool developed would be to provide owners with a method to assess pros and cons of installing an FFFS; the goal would be to have a framework that could be used to help document the basis of a decision. It might be the case that this framework resides in, and is developed as part of, annex (explanatory, not binding) material to a document like NFPA 502 4 .
+
+## 4.7 Structural Fire Protection
+
+Structural fire protection and the impact of the FFFS was discussed in Section 6 of the Literature Survey and Synthesis. Data were quoted from research which showed that the FFFS can reduce temperatures in a tunnel fire, potentially reducing the design basis temperatures for structural fire durability. This topic was also explored in the Computer Modeling Report (refer to Section 5.6). In the Testing Report observation was made of enhanced and faster cooling with the water mist (relative to larger drop systems) (refer Section 3.3.2). Temperature reduction might enable a more integrated design for structural fire protection measures. This topic was discussed in the workshop and feedback was received from participants.
+
+In looking at the benefits of the FFFS for structural fire durability it was noted that the impact of temperature on the structure is seen in two ways. One way is the impact of heat on the ability of the structure to continue to withstand loads, and the second is through any plastic deformation of the structure. Both issues were noted to be design considerations although usually the focus is on the impact of heat on the structure's load bearing capacity. It was noted that deformation can cause cracks in the unexposed structure which can be hard to detect and repair.
+
+It was noted in the Workshop Report that these aspects of structural design are an extension to the scope of the research. It was noted that data could be recorded in computer models and tests to help support future research in this area. It was also noted that when looking at the data that the time-temperature curve for structural fire protection design might be able to be adjusted based on  FFFS  inclusion.  The  adjustment  could  consider  the  peak  temperatures  reached  and  time duration. It was suggested that the reduction of temperatures, however, would not necessarily be enough to show that the structural fire rating is achieved. Additional analysis of the structure and how it responds to the temperatures was suggested to be conducted as well.
+
+The overall effect of the FFFS on structural fire protection is a suggested topic for future research. As part of this research, key topics to investigate, in addition to the structural engineering aspects include FFFS reliability, maintenance, whether any potential structural damage is repairable, and the impact of infrastructure downtime due to an incident.
+
+## 4.8 FFFS Operational Aspects
+
+The FFFS in in a road tunnel is usually operated remotely from a (human) operator command [41]. There is a loss of visibility and direct impact on motorists when an FFFS is activated in a tunnel, so the tunnel operator's decision to activate the FFFS is a potentially critical decision with pros and cons. Note that the EVS has almost less potential for negative impacts compared with the  FFFS,  and thus  the  EVS  is  usually  activated  without  delay.  In  response  plans  (for  some tunnels with FFFS) operators are trained to activate the FFFS once flame is visible.
+
+How the capabilities and performance of automatic fire detection systems affect system activation is a consideration. One concern is false activation of the FFFS which can result in areas of low visibility that catch motorists unaware. This fact suggests that the risk associated with a vehicular accident due to false activation might be higher than having a non-automatic FFFS. It was noted at the workshop that water mist systems build up slowly due to the finer droplets and there would not be an instant 'wall' of water as would be the case with a deluge type system. However, this is a misconception. While the volume of water is less with water mist, there is still a significant reduction of visibility. This was observed during the laboratory scale testing. Practical experience is that motorists try to keep driving through a tunnel, even if the FFFS is operating [41]. In building applications,  system  engineers  are  noted  to  include  interlocks  to  confirm  fire  to  limit  false activations.  Deluge  systems  in tunnels that  have  24/7 monitoring,  typically  have  a  delay  time applied after the automatic fire detection initiates that allows the tunnel operator time to abort any automatic FFFS activation in the event of a false alarm [41].
+
+Road tunnels are routinely washed. There is little experience with tunnel washing operations and interference or impact on the FFFS. Research has been conducted by the Health and Safety Executive (United Kingdom) into corrosion and cleaning of offshore (oil platform) deluge systems [96]. That research found that there was no evidence that cleaning mechanically sound pipework could result in damage to the pipework or that one cleaning method is better. The main finding of the research was that nozzles (in offshore applications) were tending to block with debris after wet testing. However, in this application seawater was used and thus flushing the system with potable  water  after  testing  was  suggested.  There  is  less  concern  like  this  for  road  tunnel applications, however, there is still potential for debris blockages of nozzles. A suggested area for  further  research  as  related  to  washing  is  to  test  whether  the  washing  brushes  typically employed,  and  the  forces  the  brush  would  impart  have  any  adverse  impact  on  nozzles  (i.e., whether they bend the nozzle potentially changing the water delivery profile).
+
+## 5 CONCLUSIONS
+
+## 5.1 Literature Survey and Synthesis - Revisiting the Questions Raised
+
+The Literature Survey and Synthesis posed several questions pertaining to the use of FFFS and integrating  with  other  FLS  systems.  The  questions  are  revisited  herein,  with  updates  (where applicable) based on the outcomes of the additional research conducted.
+
+1. What types of tunnels are constructed and how? The four main tunnel types are circular, rectangular, horseshoe, and oval. They are constructed by boring, blasting, excavating, or by sinking a precast tube. Refer to Table 2-1 herein.
+2. What are the principal functional systems? The principal functional systems include EVS, FFFS, CCTV, public address and communications, signage, lighting, standpipe, SCADA, PA, power, and drainage. Refer to Section 2.1.1.2 herein.
+3. What  is  the  U.S.  FLS  approach  for  highway  tunnels? The  primary  FLS  approach  for highway tunnels is compliance with NFPA 502 4  via an engineering analysis showing the FLS goals are met. Early engagement of first responders and local jurisdictional code authorities is also undertaken to confirm their specific requirements and expectations. Refer to Section 2.1.1.3 herein.
+4. Where do FFFS fit into the overall FLS picture for a U.S. highway tunnel? For tunnels complying with NFPA 502 4 , FFFS could be considered as part of the overall FLS design. Historically, FFFS have had limited use in U.S. road tunnels, but they have become more common on new road tunnels, which is in line with international practices. Refer to Section 2.1.3 herein.
+5. How does the tunnel construction affect the FPLS system? The tunnel construction can greatly affect the FPLS systems and their installation. For example, a transverse ventilation system cannot be used unless separate air ducts are part of the tunnel construction. FFFS and other systems are less affected by construction type. However, routing of pipework and other  elements  relies  on  sufficient  clearance  above  the  roadway,  space  for  ancillary equipment, along with supporting infrastructure to supply/remove water from the FFFS.
+6.  What is the design FHRRs suggested? Material provided in NFPA 502 4  indicates that a representative FHRR for an HGV is 150 MW, and a flammable liquid tanker is 300 MW. These values do not consider active suppression from an FFFS but can be used only as a starting point in determining the design FHRR for a specific tunnel facility. The final determination of the design fire can be made after considering all relevant factors on a case-by-case basis for each tunnel (e.g., tunnel geometry, traffic makeup, facility risk, etc.). Refer to Section 2.1.2 herein.
+7. What is the impact of FFFS on FHRR? The expected impact of FFFS varies with system type, application rate, droplet size, and nozzle type. However, various small and full-scale tests (for instance, see [59] [37] [38] [39] [40]) indicate that with prompt activation of the system and a water application rate of 0.1 to 0.3 gpm/ft 2  (4 to 12 mm/min) that a reduction in peak FHRR is likely (50 to 97 percent has been observed). Information on nozzle type and impacts on the FHRR could be better documented and this is an area where further research could be beneficial. Laboratory scale testing has shown that FFFS only reduces the FHRR for liquid
+
+fuel spills if an AFFF is added [61], however, there is evidence that water mist can be effective on class B fires [8]. Refer to Section 2.1.2.2 herein.
+
+8. How do different types of FFFS and their activation and application rates affect the fire? Droplet  diameter  varies  between  deluge  and  mist  systems.  Mist  systems  tend  to  provide greater temperature reduction due to the smaller droplet sizes. The deluge system water spray has more momentum (due to larger droplets) and therefore potential to penetrate the fire plume and reach the burning surface. However, for shielded fires the deluge water spray cannot reach the seat of the fire. In contrast, the small droplets for a water mist system tend toward a greater amount of water being entrained into the fire plume with air, and through evaporation the mist cools the environment, thus reducing heat feedback to the fire, pyrolysis rate, and hence the FHRR.
+
+Delayed activation of  FFFS limits the reduction in peak FHRR achieved  [60]. Typically, a higher water application rate results in a slightly lower peak FHRR [37] [38] [40]. However, for deluge system water application rates of 0.15 gpm/ft 2 (6 mm/min) and greater, the difference in peak FHRR (e.g., between a system with 0.15 gpm/ft 2  or 0.20 gpm/ft 2 ) is unlikely to be of significance for integrated FFFS-EVS designs. Table 2-5 provides a summary of some test data to compare water application rate, activation time and peak FHRR. A result in that table for  a  low-pressure  water  mist  system  quotes  a  test  where  a  water  application  rate  of 0.1 gpm/ft 2 (4 mm/min) was effective and kept a fire with potential to reach 243 MW to a peak FHRR of 32 MW [40].
+
+9. What is the role of laboratory scale testing and full-scale testing? Combustion modeling remains a heavily researched topic, and the full physics of combustion are not completely understood. In general, experimental data in full and small-scale tests allows theories to be tested,  models  to  be  tested/calibrated/validated,  and  other  practical  insights  to  be  gained about how fires burn in tunnels.
+
+Whilst small-scale experiments allow more control over conditions and are cheaper to perform than full-scale tests, it is noted that their usefulness depends on the accuracy of the scaling model employed. Froude number is assumed to best represent the physics of buoyant driven smoke movement, but it is noted that scaling on this approach does not accurately scale other parameters such as radiation, fuel geometry, heat transfer and turbulence. If the scaling is too far from the full-scale there could be low confidence in the applicability of small-scale results [58].
+
+10. What is the  role  of  CFD  modeling? CFD models are a quick and cost-effective means (relative to full-scale tests)  of  investigating  a  particular  fire  scenario  in  a  tunnel  where  the FHRR is specified a priori. CFD can be reliably used to predict gas phase cooling. However, for FHRR or fire spread prediction, to draw any useful conclusions from a model, a calibration against experimental data is suggested. CFD also has a limited application in modeling certain aspects of FFFS in tunnels (e.g., FFFS interruption of the combustion/pyrolysis process).
+
+FDS models were used to investigate critical velocity at a FHRR around 50 MW, and it was found that FDS tends to over-predict the critical velocity (by at least 34 percent) and a grid converged solution for backlayering length was not achieved. The FDS models were able to predict  cooling  due  to  the  FFFS  in  the  region  downstream  of  the  fire  with  reasonable agreement to test data and better grid convergence was achieved. FDS models were used in a comparative analysis with and without FFFS to demonstrate the impacts of FFFS on smoke management. Further discussion about FDS is provided below in Section 5.3.
+
+Alternative CFD models to FDS were not tested in this research. Other studies have provided validation  of  a  CFD  model  of  the  Memorial  Tunnel  longitudinal  ventilation  fire  tests  using ANSYS Fluent 11  [49]. The critical velocity arrived at in this work was in agreement with test data.
+
+11. How do water application rate and other design parameters link to NFPA 502 4 goals? As per Table 4-4 in the Literature Survey and Synthesis, the water application rates (with deluge systems) of 0.30 gpm/ft 2 to 0.15 gpm/ft 2  (12 mm/min to 6 mm/min) could achieve fire control. An updated summary is provided in Table 2-5. Data suggest that water application rates as low as 0.1 gpm/ft 2 (4 mm/min) could achieve control of the fire. Further study with testing or analysis (CFD) is suggested to better quantify threshold limits and system details (nozzle layout, type, water application rate) with respect to NFPA 502 4 goals. This is an area suggested for further research.
+12. What  level  of  effort  is  needed  for  maintenance  and  inspection  of  FFFS? Regular maintenance and inspection of FFFS are critical to their effective operation. On average, FFFS have a high effectiveness value [97]. Maintenance aspects for FFFS are outlined in NFPA 25 10  [98]. Many valve components have weekly or monthly inspections; however, the sprinkler piping and nozzles only have annual inspections. Based on data from thousands of fire events, the reliability rate of a properly designed, maintained, and operated FFFS is estimated at 99.4 percent [99]. This is an area for suggested further research.
+13. What is the deflection of water droplets by the EVS? Water droplet drift is not a concern, if  multiple  zones  can  be  activated,  refer  to  Section  5.3.7  in  the  Literature  Survey  and Synthesis. A validated modeling methodology for water spray drift would be useful. Section 3.7 herein demonstrates the use of FDS and equations to investigate water droplet deflection.
+14. Is  there  a  critical  velocity  equation  that  is  applied  when  the  FFFS  are  applied? The critical velocity has been investigated herein with FDS, for more details refer to Section 3.3, item 8 above and Section 5.3 below. Results from the analysis with FFFS were compared to cases without. It was found that the FFFS application in the FDS models typically reduced the FDS predicted critical velocity by about 25 percent relative to a case with no FFFS (keeping all other model parameters, including the FHRR, the same). See Section 3.10 and Section 5.4  for  further  discussion  about  the  performance  of  FDS  and  cautionary  notes  regarding suggested practices for critical velocity prediction.
+15. Where  are  the  vulnerable  points  in  an  integrated  FFFS-EVS  design? Research suggestions due to vulnerability include:
+- Develop a more general equation for critical velocity with ventilation and FFFS using CFD modeling. Section 3.3 herein investigates this using FDS to conduct CFD models. Results from the analysis with FFFS were compared to cases without. It was found that the FFFS application  typically  reduced  the  FDS  predicted  critical  velocity  by  about  25  percent relative to a case with no FFFS.
+- Pressure loss caused by the FFFS components and FFFS spray (droplets and humidity) - investigate with testing and analytical sums. Refer to Section 3.5 herein for discussion
+
+and analysis regarding the airflow resistance due to the FFFS water spray. Losses due to the water spray were found to be minor/small relative to other losses in the ventilation system.  Pressure  loss  due  to  FFFS  components  is  discussed  in  Section  3.6  and  a demonstration of using CFD to compute losses was provided.
+
+- Pressure loss caused by the fire when an FFFS is operating. Results from FDS models reported  in  Section  3.9  demonstrate  use  of  FDS  in  a  model  with  all  the  aerodynamic system  losses  and  fans  included  to  drive  the  flow.  Similar  results  to  test  data  were achieved  for  total  volume  flow,  suggesting  that  the  losses  in  the  system  were  being accurately captured by the model. This method could be used to compute resultant airflow factoring in pressure losses when FFFS is operating. In terms of a simple equation, this is an area for suggested further research.
+- FFFS impact on FHRR - Selection of a nozzle type and water application rate for a certain FHRR outcome. This is an area for suggested further research.
+- In terms of tenability for occupant egress, further information would be useful including:
+- o Additional data on HGV toxic gas yields. This is an area for suggested further research.
+- o Measurement of irritant species for a fire with and without FFFS. This is an area for suggested further research.
+- o Timing for egress, FFFS activation, fire growth, etc.  This  is  an  area  for  suggested further research.
+16. Do FFFS reduce the structural passive fire protection requirements; if so, by how much, and how does system reliability impact this? It is demonstrated that FFFS can reduce the temperatures that the structure is exposed to. The degree of cooling depends on the FFFS parameters as well as the fire source. CFD analysis can be used to characterize the thermal environment and to determine a suitable time-temperature curve for structural design. There is a strong coupling between the thermal environment analysis and the subsequent structural design.  Passive  fire  protection  specifications  might  be  able  to  be  reduced,  but  key considerations include the thermal response of the concrete, the risk of structural failure (e.g., failures may be less tolerable if the tunnel is in unstable ground) and FFFS reliability. There is still a potential for spalling even with the use of FFFS; delayed activation of FFFS allows concrete  temperatures  to  increase,  which  is  then  coupled  with  thermal  shock  after  the application of water. A failure of the FFFS system can increase the likelihood of spalling.
+
+The subject of FFFS reliability when considering compensations for passive fire protection is an  area  for  further  research  and  development.  The  consequences  of  FFFS  failure  for  a structure  relying  on  active  fire  protection,  and  the  likelihood  of  FFFS  failure,  should  be understood.  Ultimately,  compensation  of  passive  fire  protection  based  on  FFFS  inclusion relies on a consensus on an acceptable level of residual risk.
+
+Refer  to  Section  4.7  herein  for  further  discussion.  This  is  an  area  suggested  for  further research. The key area is the structural response to elevated temperatures. The FFFS can reduce the magnitude of the peak temperatures, but there is still a possibility that the structure experiences elevated temperatures. The response of the materials and structure to elevated temperatures is thus a consideration.
+
+## 5.2 Literature Survey and Synthesis - Ventilation Discussion
+
+Relevant to the basic goal of this research, the following key areas were identified in the Literature Survey  and  Synthesis  for  further  investigation  as  part  of  the  computer  modeling  and  testing efforts:
+
+- Critical velocity:
+- Critical velocity is of interest because the ability to predict critical velocity when an FFFS is operated is a fundamental input to an integrated EVS design. Existing equations have limited validity at water application rates less than 9 mm/min and at FHRRs more than 40 MW [56].
+
+The  goal  for  further  investigation  was  to  develop  a  validated  and  verified  method  of modeling tunnel fires to determine critical velocity with FFFS, and to extend the range of validity of existing equations. Refer to Section 3.3 herein which provides an investigation of  critical  velocity.  It  was  found,  using  FDS,  that  the  FFFS  could  typically  reduce  the predicted critical velocity by approximately 25 percent due to cooling effects on combustion products. See Section 3.10, Section 5.3 and Section 5.4 for further discussion about the performance  of  FDS  and  cautionary  notes  regarding  suggested  practices  for  critical velocity prediction.
+
+- Transverse ventilation:
+- Transverse  ventilation  is  of  interest  because  many  existing  tunnels  in  the  U.S.  use  a transverse  ventilation  system.  Of  concern  is  how  smoke  management  in  a  transverse scheme is affected by the FFFS, as well as whether FFFS droplets can become entrained in the exhaust airflow and lower the effectiveness of the FFFS.
+
+The  impact  of  the  FFFS  in  a  transverse  ventilation  scheme  was  investigated  in  the Computer  Modeling  Report.  It  was  shown  that  the  FFFS  can  cause  smoke  to  mix downward within the zone of FFFS application, but beyond the zone of FFFS application conditions were not adversely affected and the FFFS  improved overall  smoke management  overall  through  cooling  effects.  Refer  to  Section  4.2  herein  for  further discussion of findings. The smoke spread extent was reduced by around 20 m for the FDS models conducted (from around 160 m either side of the fire to 140 m either side of the fire for the scenario considered; note that the results can be considered relative to one another rather than absolute predictions given the issues encountered with FDS and backlayering prediction, and it is suggested that further validation studies of transverse ventilation be conducted).
+
+Most new tunnels in the U.S. are using a longitudinal EVS via the action of jet fans. The Literature Survey and Synthesis described a design approach where a one-dimensional calculation is used to compute the fan thrust. As part of that review several key parts of the calculation where the FFFS  have  an  impact  were  identified.  The  summary  below  notes  relevant  findings  from  the research.
+
+- Fire heat release rate (Section 5.3.1 of the Literature Survey and Synthesis):
+- Laboratory testing was conducted as part of this research, but the tests were not designed with the intent to measure FHRR reduction due to FFFS application. Previously conducted
+
+measurements  of  FHRR  in  full-scale  tests  have  provided  useful  data  surrounding  the efficacy of the FFFS for a given water application rate and nozzle layout/type. Refer to Section 3.1 herein for more in-depth discussion, Section 2.1.2.2 herein, and the response to entry number 7 and 8 in the previous section. Laboratory scale testing has shown that FFFS only reduces the FHRR for liquid fuel spills if an AFFF is added [61], however, there is evidence that water mist can be effective on class B fires [8].
+
+- FFFS  cooling  of  the  combustion  products  (Section  5.3.3  of  the  Literature  Survey  and Synthesis):
+- The ability of the FFFS to cool combustion products is well-established and was further demonstrated as part of the laboratory testing. Improved smoke management was seen in the testing when FFFS was operated. Measurement of temperatures also showed the cooling potential of the FFFS. Refer to Section 3.2 herein.
+- Pressure  loss  (airflow  resistance)  due  to  fire  (Section  5.3.4  of  the  Literature  Survey  and Synthesis):
+- Equations have been developed for pressure loss due to fire (refer to Section 3.4 herein). The testing conducted was not able to record measurements of pressure loss accurately enough to fully quantify the impact of the fire. The pressure loss due to fire was computed using equations previously developed and it was noted that the SVS formulation predicts a lower pressure loss than newer formulations. Recent research by Riess showed that temperature stratification effects downstream of the fire contribute most of the loss effects due to fire [69].
+- Pressure loss (airflow resistance) due to the FFFS (droplets and humidity) (Section 5.3.5 of the Literature Survey and Synthesis):
+- Measurements of pressure loss and humidity in the laboratory scale tests did not yield reliable data. Refer to Section 3.5 herein for discussion of the pressure losses due to the FFFS. The Literature Survey and Synthesis made arguments for the losses being minor, which was supported by the findings herein. In Section 3.5 an equation is presented to estimate  the  maximum  theoretical  pressure  loss  based  on  the  water  stream  being accelerated  up  to  the  same  speed  as  the  tunnel  airflow.  The  equation  assumes  a symmetrical water spray and is based on a force balance. The net force to accelerate the droplets to the same speed as the tunnel airflow is therefore proportional to the mass flow of water, meaning that a water mist system (lower water flow rate) is expected to produce a reduced pressure loss relative to a deluge system.
+- Considerations of pressure effects were made via a design scenario study (refer to Section 3.9.5) and the FFFS was seen to have negligible impact on overall pressure losses in the tunnel.
+- Friction  losses  introduced  by  FFFS  pipework  (Section  5.3.6  of  the  Literature  Survey  and Synthesis):
+- Measurements of pressures in the laboratory scale tests with ventilation operating did not provide useful data. CFD models were conducted and discussed herein to demonstrate a method for estimating losses due to pipework. It was noted that the actual losses would depend on the specific arrangement of each tunnel's FFFS. Refer to Section 3.6 herein.
+
+- Water droplet deflection due to the EVS (Section 5.3.7 of the of the Literature Survey and Synthesis):
+- Measurements in the testing did not yield useful data in this area. Computer modeling for droplet drift was conducted herein and compared with equations to demonstrate methods to estimate droplet drift. It was shown that equations could make a reasonable estimate of droplet drift for large droplet diameters (1000 µm). Refer to Section 3.7 herein.
+- Tenability for egress and fire fighting (Section 5.3.8 of the Literature Survey and Synthesis):
+- The impact of the FFFS on generation of carbon monoxide is such that the yield of CO is increased due to incomplete combustion. Refer to Section 3.8 herein. Measurement of possible increases in CO production due to FFFS operation is a subject for suggested further research.
+
+## 5.3 Research Hypotheses
+
+The  hypotheses  for  this  work  were  investigating  the  integration  of  the  FFFS  and  EVS  and modeling  the  interaction  of  these  systems  using  CFD.  Principal  hypotheses  investigated  are described below.
+
+The first hypothesis is that FFFS and EVS can be integrated and EVS capacity optimized due to the cooling effects of the FFFS water spray. The second hypothesis is that CFD can be used to predict FFFS and EVS interaction for design integration. The CFD model used herein was Fire Dynamics Simulator (FDS) and thus conclusions related to this hypothesis are limited to the use of FDS 1  since other CFD models were not investigated.
+
+The  first  hypothesis  is  partially  accepted,  because  EVS  capacity  optimization  has  not  been investigated, but the research has found results that demonstrate that the FFFS can improve EVS performance through cooling of the combustion products. The Testing Report demonstrated that the  FFFS  operation  provided  cooling  that  enabled  improved  smoke  control  in  longitudinal ventilation relative to a similar test condition with no FFFS operating. The literature survey also found other test evidence supporting this. The SOLIT (Safety Of Life In Tunnels) test scientific report [7] noted that the 'capacity of the fire ventilation can be tripled when a water mist FFFS is used at the same time.' In the Class A fire tests (wood pallets), the longitudinal ventilation system was noted to prevent backlayering with a FHRR of around 30 MW and an upstream velocity in the range of 2 to 2.5 m/s. With Class B fires (liquid fuel), backlayering was observed with a FHRR of 20 MW and an upstream velocity of 2.8 m/s, prior to FFFS operation. When the FFFS was operated the FHRR was not immediately reduced, however, backlayering was prevented at a peak FHRR of around 70 MW with an upstream velocity of 2.1 m/s (with FFFS in operation) [8]. The FDS models conducted in Section 3.3, Section 3.9.6 herein, and in the Testing Report, also demonstrated improved smoke control due to the FFFS cooling effects.
+
+The second hypothesis is that CFD can be used to predict FFFS and EVS interaction for design integration.  The  CFD  model  used  herein  was  Fire  Dynamics  Simulator  (FDS)  and  thus conclusions related to this hypothesis are limited to the use of FDS since other CFD models were not investigated. Integration combinations of FFFS and EVS include water droplet size, varying water  application  rates,  different  ventilation  regimes  (longitudinal,  transverse,  single  point exhaust) and varying tunnel geometry. This hypothesis is broken down into individual parts:
+
+- Water droplet drift: Refer to Section 3.7 herein. This was estimated with equations and FDS models,  with  similar  results  for  large  drop  (0.65 mm  diameter)  systems  but  divergence between equations and models for smaller drops (0.155 mm), with the equations tending to predict more water drop drift. The hypothesis is accepted for this aspect when applied to the larger  water  drops.  Some  caution  is  suggested  in  the  use  of  models  and  equations  as described herein due to comparison with test data not being provided. Physical measurements of water droplet drift, to provide physical data for model validation, is also suggested for future research.
+- Airflow resistance due to the FFFS: Refer to Section 3.5 herein. The airflow resistance was estimated with equations and FDS models. The losses due to FFFS were found to be small and  of  minimal  consequence  relative  to  other  losses  in  the  tunnel  due  to  wall  friction, aerodynamic resistance of obstructions, fire, etc. In Section 3.9.5 herein FDS models were conducted that demonstrated that the losses are small. The hypothesis is accepted for this aspect, though it is noted that the equation presented in Section 3.5 would provide acceptable results for much less effort than an FDS model.
+- FFFS cooling effects: The ability of FDS to predict cooling due to the FFFS was tested in the Computer Modeling Report through comparison of downstream temperatures from the LTA tests.  The  analysis  in  the  Computer  Modeling  Report  showed  reasonable  agreement  of temperature downstream of the fire with the LTA test data after operation of the FFFS, and results were similar for grid resolutions of 0.2 m and 0.4 m. The velocity in these tests was around  3 m/s  and,  based  on  observation  of  other  full-scale  test  results  (Memorial  Tunnel tests), likely to be more than the critical velocity. These results gave some confidence in the ability  of  FDS  to  predict  water  evaporation  and  gas  cooling,  which  physical  processes introduced when considering the interaction between the EVS and FFFS. Note that the LTA models  were  repeated  with  the  newer  versions  of  FDS,  which  improved  on  previously identified pressure solver issues (refer to Section 2.3 herein), and the results showed only minor differences to results on the older version of FDS. FDS models in the Testing Report also  showed  reasonable  agreement  of  downstream  temperatures  when  the  FFFS  was operated. The hypothesis is accepted for this aspect.
+- Tenability: Refer to Section 3.8 herein and below:
+- For temperature when considering the FFFS cooling effects, the FDS model can make a reasonable prediction of downstream temperature (hypothesis accepted).
+- For radiation heat flux, the FDS models tended to over-predict the heat flux relative to tests (hypothesis not accepted, though it is noted that the tendency of FDS to give higher heat fluxes would lead to an outcome predicting reduced tenability in this parameter, and this parameter tends only to be exceeded in the region of the fire perimeter where tenability levels are usually not feasible to achieve).
+- For carbon monoxide, other toxic combustion product levels, and visibility, specific data were not obtained (hypothesis inconclusive). It is noted that FDS models do account for physical factors that cause mixing of combustion products down from ceiling level, but specific validation data for this were not sourced in this research.
+
+- Critical velocity: Refer to Section 3.9 herein. It was found that FDS over-predicts backlayering (and hence critical velocity) at the FHRR tested (around 50 MW) and that the extent of the predicted backlayering changes (increases) with finer grids. It is noted that test data were not obtained for critical velocity with FFFS operating and thus the FDS models were not validated for this condition. The research hypothesis is not accepted for the aspect of quantitative critical velocity prediction.
+
+## 5.4 Summary of Suggested Practices Based on Research Findings
+
+It has been found that FDS over-predicts backlayering, and this over-prediction of backlayering by FDS directly results in an over-estimation (up to 34 percent, or more as the grid is refined) of the ventilation air velocity necessary to control it. Grid independence was not able to be achieved for critical velocity or backlayering extent. The cooling effects of an FFFS were evaluated and based on temperatures downstream of the fire, the model was predicting similar results to the tests.
+
+For the laboratory tests conducted with the FFFS activated, improved smoke control for the same upstream  velocity  was  observed  (i.e.,  with  no  FFFS  there  was  backlayering,  and  with  FFFS operating, backlayering was prevented). This smoke behavior was able to be repeated in FDS models. The same behavior has been observed in full-scale fire tests (SOLIT tests [7]).
+
+For  tunnel  engineering  design  considerations  with  FFFS  and  EVS  operation  in  longitudinal ventilation, FDS modeling can be used to explore the change in smoke control for a scenario with and without FFFS if certain precautions are taken. These precautions include the provision of grid refinement studies (ideally over two or more grid sizes, with grid sizes ranging from 0.4 m to 0.2 m or less, with and without FFFS, to demonstrate the consistency of outcomes with respect to the grid  resolution),  and  that  a  baseline  for  critical  velocity  without  FFFS  be  established  for comparison to FDS results using either test data or results from another validated CFD software package.  The  precautions  noted  here  for  FDS  use  in  exploring  FFFS  and  EVS  operation  in longitudinal ventilation are also suggested  to be  followed for other tunnel engineering computations/ventilation configurations.
+
+It is noted that in some tunnel simulations FDS predicts unexpected oscillations in the mass flow rate [50]. The FDS developers discuss this in the User Guide and have developed mitigations to improve convergence [4]. It is suggested to check the model results to verify that the pressure field  and  mass flow  rate  are  converging  (not  oscillating  in  an  unexpected  way)  and  to  adjust pressure solver tolerances as needed to improve the convergence. Use of small openings along the tunnel for mitigation of pressure issues is suggested in the FDS User Guide but that method was not used herein and instead the pressure solver convergence parameters were adjusted to achieve a stable solution.
+
+For  more  detailed  suggested  practices  for  integrating  an  EVS  and  FFFS  for  longitudinal ventilation,  Section  3  provides  a  design  scenario  study  structured  around  the  force  balance equation that is used to size a longitudinal EVS, with suggested practices provided in each subsection discussion.
+
+## 5.5 Suggested Topics for Future Research
+
+Suggested topics for further research include the following:
+
+February 2024
+
+- Computer modeling or testing of FHRR and FFFS impact. The suggested end aim would be to develop a computational approach to estimate the FHRR for a given FFFS configuration (nozzle,  water  application  rate,  droplet  sizes,  etc.).  Full-scale  testing  could  be  useful  as opposed to small-scale tests.
+- Dangerous goods vehicles and FHRR reduction is one area for future research (see Section 4.4 herein).
+- Additional data on HGV toxic gas yields. Measurement of irritant species for a fire with and without FFFS.
+- Further research on tunnel structures, their response to fire, and the interaction of the FFFS.
+- Further model validation work using FDS and other CFD packages, especially in the prediction of smoke backlayering.
+
+## REFERENCES
+
+- [1] FHWA, 'Fixed Fire Fighting and Emergency Ventilation Systems for Highway Tunnels - Literature Survey and Synthesis.' Federal Highway Administration, FHWA-HIF-20-016, 2020.
+- [2] FHWA, 'Fixed Fire Fighting and Emergency Ventilation Systems for Highway Tunnels - Workshop Report.' Federal Highway Administration, FHWA-HIF-20-060, 2020.
+- [3] FHWA, 'Fixed Fire Fighting and Emergency Ventilation Systems for Highway Tunnels - Computer Modeling Report.' Federal Highway Administration, FHWA-HIF-22-021, 2022.
+- [4] K. McGrattan and R. McDermott, 'Response to 'Unexpected Oscillations in Fire Modelling Inside a Long Tunnel' by Ang et al.,' p. 5.
+- [5] 'Fire Dynamics Simulator (Version 6) User's Guide.' National Institute of Standards and Technology, 2019. Accessed: Jan. 19, 2019. [Online]. Available: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication1019.pdf
+- [6] FHWA, 'Fixed Fire Fighting and Emergency Ventilation Systems for Highway Tunnels - Laboratory Testing Report.' Federal Highway Administration, FHWA-HIF-23-022, 2023.
+- [7] SOLIT2 Research Consortium, 'SOLIT2 Report, Scientific Final Report,' 2012.
+- [8] SOLIT2 Research Consortium, 'SOLIT2 Report, Annex 2, Selected Results of Full Scale Fire Tests,' 2012.
+- [9] T. McCory, D. Sprakel, E. Christensen, and E. Christensen, 'Engineering Guidance for WaterBased Fire Fighting Systems in Road Tunnels,' UPTUN, 2008.
+- [10] PIARC, Fixed Fire Fighting Systems in Road Tunnels: Current Practices and Recommendations . Permanent International Association of Road Congresses, Technical Committee on Road Tunnel Operation, 3.3, 2016.
+- [11] 'Fixed Firefighting and Emergency Ventilation Systems - Literature Survey and Synthesis.' Federal Highway Administration, FHWA-HIF-20-016, 2019. [Online]. Available: https://www.fhwa.dot.gov/bridge/tunnel/pubs/nhi09010/fixed\_firefighting.pdf
+- [12] FHWA, 'Tunnel Operations, Maintenance, Inspection, and Evaluation Manual,' Federal Highway Administration, 2016.
+- [13] M. Bilson and K. McQuade, 'Energy Budget in Tunnel Fires - Consideration of Fixed Fire Fighting Systems and Passive Fire Protection,' in Seventh International Symposium on Tunnel Safety and Security , 2016, pp. 281-292.
+- [14] 'NFPA 502 Standard for Road Tunnels, Bridges and Other Limited Access Highways 2023.' NFPA, 2023.
+- [15] I. Maevski, 'Design Fires in Road Tunnels, NCHRP Synthesis 415.' National Cooperative Highway Research Program, 2011.
+- [16] A. Beard and R. Carvel, Eds., Handbook of Tunnel Fire Safety , Second Edition. Institution of Civil Engineers, 2012.
+- [17] 'NFPA 92 Standard for Smoke Control Systems.' NFPA, 2018.
+- [18] E. Casele, A. Haack, H. Ingason, H. Malhorta, and E. Richter, Eds., Fires in Transport Tunnels, Report on Full-Scale Tests, Eureka Project EU 499: FIRETUN . 1995.
+- [19] H. Ingason and A. Lonnermark, 'Heat Release Rates from Heavy Goods Vehicle Trailers in Tunnels,' Fire Safety Journal , vol. 40, pp. 646-668, 2005.
+- [20] H. Ingason and Y. Z. Li, 'Spilled Liquid Fires in Tunnels,' Fire Safety Journal , vol. 91, pp. 399406, 2017, doi: 10.1016/j.firesaf.2017.03.065.
+- [21] H. Ingason, Y. Z. Li, and A. Lönnermark, Tunnel Fire Dynamics . Springer, 2015.
+- [22] M. Hurley, Ed., SFPE Handbook of Fire Protection Engineering , 5th ed., 3 vols. Springer, 2016.
+- [23] J. Gehandler, P. Karlsson, and L. Vylund, 'Risks Associated with Alternative Fuels in Road Tunnels and Underground Garages,' SP Technical Research Institute of Sweden, 2017:14, 2017.
+- [24] PANYNJ, 'Traffic Rules and Regulations.' The Port Authority of New York and New Jersey, 2016.
+
+- [25] Maryland Transportation Authority, 'Sec. 11.07.01.03. Alternative-Fuel Vehicles,' Code of Maryland Regulations. Accessed: Mar. 09, 2019. [Online]. Available: http://mdrules.elaws.us/comar/11.07.01.03
+- [26] BRE, Department for Communities and Local Government, Communities and Local Government, and Sustainable Buildings Division, 'Fire Spread in Car Parks,' UK Department for Communities and Local Government, Watford, England, 2010.
+- [27] Dutch Safety Board, 'Fire in a CNG Bus,' Dutch Safety Board, 2012.
+- [28] Indianapolis Fire Dept., 'Indianapolis SIIT Team Investigation, Close Call Incident.' Accessed: Mar. 08, 2019. [Online]. Available: https://www.scribd.com/document/352387750/IndianapolisSIIT-Team-Investigation#from\_embed
+- [29] U.S. Department of Energy Hydrogen Program, 'Hydrogen Safety Tips for First Responders.' Accessed: Mar. 09, 2019. [Online]. Available: http://www.dhses.ny.gov/ofpc/publications/documents/HydrogenPoster\_v15.pdf
+- [30] B. D. Ehrhart, D. M. Brooks, A. B. Muna, and C. B. LaFleur, 'Risk Assessment of Hydrogen Fuel Cell Electric Vehicles in Tunnels,' Fire Technol , vol. 56, no. 3, pp. 891-912, May 2020, doi: 10.1007/s10694-019-00910-z.
+- [31] A. Lecocq, M. Bertana, B. Truchot, and G. Marlair, 'Comparison of the Fire Consequences of an Electric Vehicle and an Internal Combustion Engine,' in Second International Conference on Fires in Vehicles , pp. 183-193.
+- [32] P. Sun, R. Bisschop, H. Niu, and X. Huang, 'A Review of Battery Fires in Electric Vehicles,' Fire Technol , vol. 56, no. 4, pp. 1361-1410, Jul. 2020, doi: 10.1007/s10694-019-00944-3.
+- [33] N. Watanabe et al. , 'Comparison of Fire Behaviors of an Electric-Battery-Powered Vehicle and Gasoline-Powered Vehicle in a Real-Scale Fire Test,' in Second International Conference on Fires in Vehicles , 2012, pp. 195-205.
+- [34] 'Emergency Response Guide,' Tesla , p. 36.
+- [35] R. T. Long, A. F. Blum, T. J. Bress, and B. R. T. Cotts, 'Emergency Response to Incident Involving Electric Vehicle Battery Hazards.' NFPA.org, Jul. 2013. [Online]. Available: https://www.nfpa.org/News-and-Research/Data-research-and-tools/Electrical/EmergencyResponse-to-Incident-Involving-Electric-Vehicle-Battery-Hazards
+- [36] Congressional Fire Services Institute, 'A Resolution Supporting Standard Markings for Vehicles Using Alternatives Fuels,' Congressional Fire Services Institute. Accessed: Mar. 09, 2019. [Online]. Available: https://www.cfsi.org/documents/resolution-supporting-standard-markingsvehicles-using-alternatives-fuels/
+- [37] H. Ingason and Y. Z. Li, 'Large Scale Fire Tests with Different Types of Fixed Fire Fighting Systems in the Runehamar Tunnel,' in Eighth International Symposium of Tunnel Safety and Security , 2018, pp. 593-608.
+- [38] H. Ingason, 'Large Scale Fire Tests with Fixed Fire Fighting System in Runehamar Tunnel,' SP Technical Research Institute of Sweden, SP Report 2014:32, 2014.
+- [39] M. K. Cheong, W. O. Cheong, K. W. Leong, A. D. Lemaire, and L. M. Noordijk, 'Heat Release Rate of Heavy Goods Vehicle Fire in Tunnels with Fixed Water Based Fire-Fighting System,' Fire Technology , vol. 50, no. 2, pp. 249-266, 2014.
+- [40] M. K. Cheong et al. , 'Heat Release Rates of Heavy Goods Vehicle Trailer in Tunnels with Fixed Water-Based Fire Fighting Systems,' Athens, Greece, 2019, pp. 621-632.
+- [41] FHWA, 'Tunnel Fire Protection Using Fixed Firefighting Systems - Advanced Practices in Australia and New Zealand,' Federal Highway Administration, 2018.
+- [42] 'SOLIT2 Report, Engineering Guidance for Fixed Fire Fighting Systems in Tunnels,' 2012.
+- [43] M. Yokota and K. Yamazaki, 'Functions of Water Spray Systems in Japanese Expressway Tunnels,' in Eighth International Symposium of Tunnel Safety and Security , 2018, pp. 582-593.
+- [44] 'NFPA 13 Standard for the Installation of Sprinkler Systems.' NFPA, 2016.
+- [45] R. Foster, 'Sydney Harbor Tunnel Fire Protection.' Eagle Consulting Group, Fire Austalia, 1991.
+
+- [46] N. Casey, 'Fire Incident and Fire Safety Operational Data for Major Australian Road Tunnels,' in Eighth International Symposium of Tunnel Safety and Security , 2018, pp. 288-299.
+- [47] 'Structural Fire Protection of Tunnels - The Limitations of 'Trade-Off' When Using Fixed Fire Fighting Systems.' Passive Fire Protection Network, Apr. 2021.
+- [48] H. Ingason, Y. Z. Li, and M. Bobert, 'Large Scale Fire Tests with Different Types of Fixed Fire Fighting System in the Runehamar Tunnel,' SP Technical Research Institute of Sweden, SP Report 2016:76, 2016.
+- [49] M. Beyer and C. Stacey, 'CFD Validation for Smoke Control Design,' in 11th Conference on Tunnel Safety and Ventilation , 2022, pp. 55-74.
+- [50] C. D. Ang, G. Rein, and J. Peiro, 'Unexpected Oscillations in Fire Modelling Inside a Long Tunnel,' Fire Technol , vol. 56, no. 5, pp. 1937-1941, Sep. 2020, doi: 10.1007/s10694-020-01004x.
+- [51] I. Riess, D. Weber, and M. Steck, 'On the Air-Flow Resistance of Tunnel Fires in Longitudinal Ventilation - The Throttling Effect,' 2020, p. 10.
+- [52] 'NFPA 502 2020 Edition, Standard for Road Tunnels, Bridges and Other Limited Access Highways, Tentative Interim Amendment 1561.' Jun. 30, 2021.
+- [53] C. Stacey and M. Beyer, 'Critical of Critical Velocity - An Industry Practitioner's Perspective,' Tunnel Safety and Ventilation Conference , p. 16, 2020.
+- [54] Y. Shi, N. De Los Rios, and K. Lopez, 'The Critical Penalty,' in 19th International Symposium on Aerodynamics, Ventilation and Fire in Tunnels , 2022, pp. 5-17.
+- [55] Y. Shi, I. Bowman, N. De Los Rios, N. Harvey, K. Lopez, and L. Pelessone, 'NFPA 502 Critical Velocity Calculation Methodologies and Dimensionless Heat Release Rate,' in Tenth International Symposium on Tunnel Safety and Security , 2023, pp. 513-525.
+- [56] Y. J. Ko and G. V. Hadjisophocleous, 'Study of Smoke Backlayering During Suppression in Tunnels,' Fire Safety Journal , vol. 58, pp. 240-247, 2013.
+- [57] K. B. McGrattan, 'Fire Dyanmics Simulator Technical Reference Guide Volume 3: Validation,' National Institute of Standards and Technology, Gaithersburg, MD, NIST SP 1018, 2006. doi: 10.6028/NIST.SP.1018.
+- [58] G. Grant, S. Jagger, and C. Lea, 'Fires in Tunnels,' Philosophical Transactions of the Royal Society A , no. 356, pp. 2873-2906, 1998.
+- [59] Y. Z. Li, G. Appel, H. Ingason, and H. Nyman, 'Model Scale Tunnel Fire Tests with Water-Based Fire Suppression Systems,' SP Technical Research Institute of Sweden, 2014:02, 2014.
+- [60] M. Arvidson, 'Large-Scale Water Spray and Water Mist Fire Suppression System Tests for the Protection of Ro-Ro Cargo Decks on Ships,' Fire Technology , vol. 50, no. 3, pp. 589-610, 2014, doi: 10.1007/s10694-012-0312-7.
+- [61] H. Ingason, G. Appel, and U. Lundström, 'Water Spray Interaction with Liquid Spill in a Road Tunnel,' SP Technical Research Institute of Sweden, SP Report 2015: 91, 2015.
+- [62] A. K. Kim, B. Z. Dlugogorski, and J. R. Mawhinney, 'The Effect of Foam Additives on the Fire Suppression Efficiency of Water Mist,' Halon Options Technical Working Conference , pp. 347358, 1994.
+- [63] PIARC, Systems and Equipment for Fire and Smoke Control in Road Tunnels . Permanent International Association of Road Congresses, Technical Committee on Road Tunnel Operation, 3.3, 2007.
+- [64] Bechtel - Parsons Brinckerhoff, 'Memorial Tunnel Fire Ventilation Comprehensive Test Report Volume 1.' Massachusetts Highway Department, 1995.
+- [65] Bechtel - Parsons Brinckerhoff, 'Memorial Tunnel Fire Ventilation Test Program Phase IV Report.' Massachusetts Highway Department, 1999.
+- [66] 'NFPA 502 Standard for Road Tunnels, Bridges and Other Limited Access Highways 2014.' NFPA, 2014.
+
+- [67] Parsons Brinckerhoff Quade and Douglas, Subway Environmental Design Handbook , vol. 2. US Department of Transportation, Federal Transit Administration, Research and Special Programs Administration, 2002.
+- [68] P. Carlotti and P. Salizzoni, 'Pressure Drop Caused by a Fire in a Tunnel,' in 17th International Symposium of Aerodynamics Ventilation and Fire in Tunnels , 2017, pp. 363-371.
+- [69] I. Riess, 'Aerodynamic Resistance of Fires in Tunnels'.
+- [70] C. D. Ang, J. Peiró, I. Riess, and G. Rein, 'Analysis of Fire Throttling in Longitudinally Ventilated Tunnels With a One-dimensional Model,' Fire Technol , vol. 58, no. 5, pp. 2925-2947, Sep. 2022, doi: 10.1007/s10694-022-01285-4.
+- [71] I. Riess, 'Fixed Fire Fighting Systems and Tunnel Ventilation.'
+- [72] S. Haaland, 'Simple and Explicit Formulas for the Friction Factor in Turbulent Flow,' Journal of Fluids Engineering , vol. 103, pp. 89-90, 1983.
+- [73] M. McPherson, Subsurface Ventilation Engineering . Springer-Science + Business Media, 1993.
+- [74] R. Bellas, M. A. Gómez, A. González-Gil, J. Porteiro, and J. L. Míguez, 'Assessment of the Fire Dynamics Simulator for Modeling Fire Suppression in Engine Rooms of Ships with Low-Pressure Water Mist,' Fire Technol , vol. 56, no. 3, pp. 1315-1352, May 2020, doi: 10.1007/s10694-01900931-8.
+- [75] K. B. McGrattan, 'Fire Dynamics Simulator (Version 6) Technical Reference Guide Volume 2 Verification,' National Institute of Standards and Technology, Gaithersburg, MD, NIST SP 1018, 2006. doi: 10.6028/NIST.SP.1018.
+- [76] P. DeNenno et al. , SFPE Handbook of Fire Protection Engineering , Third. 2002.
+- [77] 'Fire Brigade Intervention Model Manual.' Australasian Fire and Emergency Service Authorities Council, 2020.
+- [78] R. Carvel, 'Mitigation of Tunnel Fires,' 2012, pp. 27-39.
+- [79] J. Holman, Heat Transfer , 7th ed. 1990.
+- [80] Thunderhead Engineering, 'Modeling Jet Fans,' Thunderhead Support. Accessed: Jun. 05, 2022. [Online]. Available: https://support.thunderheadeng.com/tutorials/pyrosim/modeling-jet-fans/
+- [81] Bechtel - Parsons Brinckerhoff, 'Memorial Tunnel Test Data Report.' Massachusetts Highway Department, 1995.
+- [82] Bechtel - Parsons Brinckerhoff, 'Memorial Tunnel Fire Ventilation Test Program, Memorial Tunnel Test Data Report.' Massachusetts Highway Department.
+- [83] 'Backlayering and changes with grid resolution,' GitHub. Accessed: Jun. 21, 2023. [Online]. Available: https://github.com/firemodels/fds
+- [84] M. Bilson and A. Purchase, 'Determining Benefits of Fixed Fire Fighting Systems in Road Tunnels - A Risk-Based Approach,' in Seventh International Symposium on Tunnel Safety and Security , 2014, pp. 475-484.
+- [85] M. Bilson and A. Gouge, 'Fire-Life Safety and System Integration: The Functional Mode Table,' PB Network , vol. 78, pp. 19-22, 2014.
+- [86] N. Harvey, M. Bilson, and G. Clark, 'Alternative Fuels and the Future of Road Tunnels and Road Tunnel Design,' Routes/Roads , no. 378, 2018.
+- [87] M. Arvidson and Ö. Westlund, 'Water Spray Fire Suppression Tests Comparing Gasoline-Fuelled and Battery Electric Vehicles,' Fire Technol , Aug. 2023, doi: 10.1007/s10694-023-01473-w.
+- [88] 'Alternative Fuels Data Center: E85 Codes and Standards.' Accessed: Aug. 08, 2022. [Online]. Available: https://afdc.energy.gov/fuels/ethanol\_codes.html
+- [89] 'Ethanol Fuel Presents New Challenges to Firefighters,' Firehouse. Accessed: Jun. 13, 2023. [Online]. Available: https://www.firehouse.com/home/article/12167349/firefighter-training-ethanolfuel-and-firefighting-foam
+- [90] 'Biodiesel Handling and Use Guide.' U.S. Department of Energy, 2016.
+- [91] 'First Responder Guide: CNG and LNG Vehicle Fuel Sysmtes.' Agility Fuel Systems, 2015.
+
+- [92] J. Gehandler and A. Lonnermark, 'Safe Extinguishment of Fire Exposed Compressed Natural Gas (CNG) and Hydrogen (H2) Cylinders,' in Proceeedings of the Tenth International Symposium on Tunnel Safety and Security , Apr. 2023.
+- [93] M. H. Raddum and R. Mellum, 'Public Investigation of Fire in Tank Trailer in the Skatestraum Tunnel in Sogn og Fjordane County on 15th of July 2015,' in Eighth International Symposium on Tunnel Safety and Security , 2018, pp. 132-145.
+- [94] J. L. Scheffey and M. E. Benfer, 'Evaluation of Water Additives for Fire Control and Vapor Mitigation - Phase II, Two and Three Dimensional Class B Fire Tests.' The Fire Protection Research Foundation, 2014.
+- [95] P. Kumar, E. Persson, M. Bilson, and J. Del Solar, 'Fixed Fire Fighting Systems Impact on Fire Propagation in Rail Environments,' 2022.
+- [96] L. Robinson, 'Corrosion and Cleaning of Offshore Deluge Systems.' Health and Safety Executive, 2015.
+- [97] K. Frank, Gravestock, N., Spearpoint, M., and Fleiscmann, C., 'A Review of Sprinkler System Effectiveness Studies,' Fire Science Reviews , vol. 2, no. 6, 2013.
+- [98] 'NFPA 25 Standard for the Inspection, Testing, and Maintenance of Water-Based Fire Protection Systems.' NFPA, 2017.
+- [99] M. Ahrens, 'U.S. Experience with Sprinklers,' NFPA, 2013.

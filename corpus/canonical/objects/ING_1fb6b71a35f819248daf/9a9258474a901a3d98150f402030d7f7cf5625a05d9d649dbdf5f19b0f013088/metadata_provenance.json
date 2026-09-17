@@ -1,0 +1,92 @@
+{
+  "document_id": "ING_1fb6b71a35f819248daf",
+  "fields": [
+    {
+      "field": "title",
+      "value": "SCADA SİSTEMLERİ KURS NOTLARI",
+      "source": "ooxml_properties",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Hazırlayan Tarık AY (Elektronik)"
+      ],
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2016",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "Dosya yolu/başlıkta açık yıl: 2016"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "training_material",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: eğitim"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "cost",
+        "fire_safety",
+        "history",
+        "instrumentation",
+        "inventory",
+        "maintenance",
+        "operations",
+        "regulation",
+        "standards",
+        "tbm",
+        "traffic",
+        "ventilation"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; instrumentation:enstrüman; fire_safety:yangın; ventilation:havalandırma; traffic:trafik; operations:işletme; maintenance:bakım; regulation:yönetmelik; standards:standart; cost:maliyet; history:tarihçe; inventory:envanter"
+    }
+  ]
+}

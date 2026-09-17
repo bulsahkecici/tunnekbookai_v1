@@ -1,0 +1,89 @@
+{
+  "document_id": "ING_dbb4c155e9d46ab4fc3f",
+  "fields": [
+    {
+      "field": "title",
+      "value": "7- Yapım Sözleşme",
+      "source": "original_file",
+      "confidence": 0.3,
+      "inferred": true,
+      "reason": "no heading or package title; fell back to the filename"
+    },
+    {
+      "field": "authors",
+      "value": [
+        "fundatoprak"
+      ],
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": "55",
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "contracts",
+        "fire_safety",
+        "forepoling",
+        "maintenance",
+        "operations",
+        "payment",
+        "regulation",
+        "risk",
+        "unit_price"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "forepoling:süren; risk:risk; fire_safety:yangın; operations:işletme; maintenance:bakım; regulation:mevzuat; unit_price:birim fiyat; payment:hakediş; contracts:sözleşme"
+    }
+  ]
+}

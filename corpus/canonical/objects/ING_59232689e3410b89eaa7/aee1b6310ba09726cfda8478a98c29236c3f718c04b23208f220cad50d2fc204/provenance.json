@@ -1,0 +1,150 @@
+{
+  "document_id": "ING_59232689e3410b89eaa7",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_597CC464A92208E3E599",
+      "producer_document_id": "PC_59232689E3410B89",
+      "declared_sha256": "59232689e3410b89eaa7fa5374d8cc1cbb9fa2f55aa2600af13f7a2a6b78c14d",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_59232689E3410B89/source.pdf",
+        "sha256": "59232689e3410b89eaa7fa5374d8cc1cbb9fa2f55aa2600af13f7a2a6b78c14d"
+      },
+      "provenance": {
+        "source_url": "http://hdl.handle.net/10397/101043",
+        "landing_url": "http://hdl.handle.net/10397/101043",
+        "pdf_url": "http://ira.lib.polyu.edu.hk/bitstream/10397/101043/1/Yin_Evolutionary_Hybrid_Neural.pdf",
+        "discovery_source": "openalex",
+        "discovery_query": "soft ground tunnelling EPB shield",
+        "doi": "10.1016/j.tust.2020.103594",
+        "publisher": "PolyU Institutional Research Archive (Hong Kong Polytechnic University)"
+      },
+      "producer_provenance": {
+        "source_url": "http://hdl.handle.net/10397/101043",
+        "landing_url": "http://hdl.handle.net/10397/101043",
+        "pdf_url": "http://ira.lib.polyu.edu.hk/bitstream/10397/101043/1/Yin_Evolutionary_Hybrid_Neural.pdf",
+        "discovery_source": "openalex",
+        "discovery_query": "soft ground tunnelling EPB shield",
+        "doi": "10.1016/j.tust.2020.103594",
+        "publisher": "PolyU Institutional Research Archive (Hong Kong Polytechnic University)"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_59232689E3410B89",
+        "canonical_id": "CAN_597CC464A92208E3E599",
+        "canonical_hint_id": "CAN_597CC464A92208E3E599",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "PolyU Institutional Research Archive (Hong Kong Polytechnic University)",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Evolutionary hybrid neural network approach to predict shield tunneling-induced ground settlements",
+        "authors": [
+          "Kun Zhang",
+          "Hai‐Min Lyu",
+          "Shui‐Long Shen",
+          "Annan Zhou",
+          "Zhen‐Yu Yin"
+        ],
+        "year": "2020",
+        "doi": "10.1016/j.tust.2020.103594",
+        "source_url": "http://hdl.handle.net/10397/101043",
+        "landing_url": "http://hdl.handle.net/10397/101043",
+        "resolved_url": "http://ira.lib.polyu.edu.hk/bitstream/10397/101043/1/Yin_Evolutionary_Hybrid_Neural.pdf",
+        "local_path": "01_originals/C_ACADEMIC/PC_59232689E3410B89/source.pdf",
+        "sha256": "59232689e3410b89eaa7fa5374d8cc1cbb9fa2f55aa2600af13f7a2a6b78c14d",
+        "source_name": "openalex",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "TITLE_METADATA_ONLY",
+        "evidence_level": "TITLE_METADATA_ONLY",
+        "acquisition_status": "DOWNLOADED_PDF",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_59232689E3410B89/source.pdf",
+          "original_or_raw_sha256": "59232689e3410b89eaa7fa5374d8cc1cbb9fa2f55aa2600af13f7a2a6b78c14d",
+          "crawler_normalized": null,
+          "crawler_normalized_sha256": null,
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "shield_tunnelling",
+          "settlement",
+          "alignment",
+          "tunnel_classification",
+          "sustainability",
+          "EPB",
+          "ventilation",
+          "site_investigation"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "PolyU Institutional Research Archive (Hong Kong Polytechnic University)",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "DOWNLOADED_PDF",
+          "source_path": "01_originals/C_ACADEMIC/PC_59232689E3410B89/source.pdf",
+          "source_sha256": "59232689e3410b89eaa7fa5374d8cc1cbb9fa2f55aa2600af13f7a2a6b78c14d"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "http://hdl.handle.net/10397/101043",
+          "landing_url": "http://hdl.handle.net/10397/101043",
+          "pdf_url": "http://ira.lib.polyu.edu.hk/bitstream/10397/101043/1/Yin_Evolutionary_Hybrid_Neural.pdf",
+          "discovery_source": "openalex",
+          "discovery_query": "soft ground tunnelling EPB shield",
+          "doi": "10.1016/j.tust.2020.103594",
+          "publisher": "PolyU Institutional Research Archive (Hong Kong Polytechnic University)"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source.pdf",
+    "original_sha256": "59232689e3410b89eaa7fa5374d8cc1cbb9fa2f55aa2600af13f7a2a6b78c14d",
+    "mime_type": "application/pdf",
+    "format": "PDF"
+  }
+}

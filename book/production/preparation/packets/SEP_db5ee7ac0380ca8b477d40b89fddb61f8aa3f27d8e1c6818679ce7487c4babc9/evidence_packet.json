@@ -1,0 +1,552 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_d4640d2f7d63a96a6d319c81a09394a98036143819fc6bc5a2295be8dbab8674",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 2,
+    "SUPPORTED": 0,
+    "UNSUPPORTED": 48
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_db5ee7ac0380ca8b477d40b89fddb61f8aa3f27d8e1c6818679ce7487c4babc9",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel hangi tarihsel dönemden başlatılmalıdır?",
+      "question_id": "1.3.2-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel için bilinen en erken örnekler hangileridir?",
+      "question_id": "1.3.2-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel kapsamında ilk örneklerin yapılma amacı neydi?",
+      "question_id": "1.3.2-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel hangi coğrafyalarda ve hangi ihtiyaçlarla gelişmiştir?",
+      "question_id": "1.3.2-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel gelişiminde belirleyici olan başlıca tarihsel dönüm noktaları nelerdir?",
+      "question_id": "1.3.2-Q05",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel gelişimini hızlandıran ulaşım ihtiyaçları nelerdir?",
+      "question_id": "1.3.2-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel gelişimini hızlandıran kentleşme etkileri nelerdir?",
+      "question_id": "1.3.2-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel gelişimini hızlandıran sanayileşme etkileri nelerdir?",
+      "question_id": "1.3.2-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel tarihinde kullanılan ilk kazı teknikleri nelerdi?",
+      "question_id": "1.3.2-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel tarihinde kullanılan ilk destekleme yöntemleri nelerdi?",
+      "question_id": "1.3.2-Q10",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel tarihinde kullanılan yapı malzemeleri nasıl değişmiştir?",
+      "question_id": "1.3.2-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Patlayıcı teknolojisinin gelişimi Türkiye’de İlk Tünel üzerinde nasıl etkili olmuştur?",
+      "question_id": "1.3.2-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Mekanize kazı teknolojilerinin gelişimi Türkiye’de İlk Tünel üzerinde nasıl etkili olmuştur?",
+      "question_id": "1.3.2-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "TBM teknolojisinin gelişimi Türkiye’de İlk Tünel açısından hangi dönüm noktasını oluşturmuştur?",
+      "question_id": "1.3.2-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "NATM yaklaşımının ortaya çıkışı Türkiye’de İlk Tünel içinde nasıl bir değişim yaratmıştır?",
+      "question_id": "1.3.2-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Jeoloji ve geoteknik bilimindeki ilerlemeler Türkiye’de İlk Tünel gelişimini nasıl etkilemiştir?",
+      "question_id": "1.3.2-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Harita ve ölçme teknolojilerindeki gelişmeler Türkiye’de İlk Tünel gelişimini nasıl etkilemiştir?",
+      "question_id": "1.3.2-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Beton ve püskürtme beton teknolojileri Türkiye’de İlk Tünel gelişiminde nasıl rol oynamıştır?",
+      "question_id": "1.3.2-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kaya bulonu ve ankraj sistemlerinin gelişimi Türkiye’de İlk Tünel açısından neden önemlidir?",
+      "question_id": "1.3.2-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Su yalıtımı ve drenaj teknolojilerindeki ilerlemeler Türkiye’de İlk Tünel gelişimini nasıl etkilemiştir?",
+      "question_id": "1.3.2-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Havalandırma teknolojilerindeki gelişmeler Türkiye’de İlk Tünel açısından hangi yenilikleri getirmiştir?",
+      "question_id": "1.3.2-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Aydınlatma teknolojilerindeki gelişmeler Türkiye’de İlk Tünel açısından hangi yenilikleri getirmiştir?",
+      "question_id": "1.3.2-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yangın güvenliği anlayışı Türkiye’de İlk Tünel boyunca nasıl değişmiştir?",
+      "question_id": "1.3.2-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Acil durum ve tahliye yaklaşımı Türkiye’de İlk Tünel boyunca nasıl gelişmiştir?",
+      "question_id": "1.3.2-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Önemli kazalar ve felaketler Türkiye’de İlk Tünel gelişiminde hangi düzenlemelere yol açmıştır?",
+      "question_id": "1.3.2-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel içinde hangi projeler mühendislik açısından dönüm noktası kabul edilir?",
+      "question_id": "1.3.2-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_587d62a0047416fa691470a0c98154d98e5395a645bf6cb65d60ebd3f2974656",
+        "CLM_1f7629885e3daf8d6105938197004c536b3494a537eaf6bb77b5e27fb2a5f336",
+        "CLM_6993141f838a9b9cf1a41716613b2eda5fe260d8d0b540ae2b87c918e67143d2"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Türkiye’de İlk Tünel içinde hangi projeler uzunluk veya ölçek açısından rekor niteliği taşımıştır?",
+      "question_id": "1.3.2-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_01e1cd8917c1327c3315760cae764080b751d4c57a75863be517401c28769674"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Türkiye’de İlk Tünel içinde hangi projeler yapım yöntemi açısından öncü olmuştur?",
+      "question_id": "1.3.2-Q28",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel içinde hangi projeler güvenlik uygulamaları açısından öncü olmuştur?",
+      "question_id": "1.3.2-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel içinde hangi projeler işletme teknolojileri açısından öncü olmuştur?",
+      "question_id": "1.3.2-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel gelişiminde kamu kurumlarının rolü ne olmuştur?",
+      "question_id": "1.3.2-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel gelişiminde üniversiteler ve araştırma kuruluşlarının rolü ne olmuştur?",
+      "question_id": "1.3.2-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel gelişiminde uluslararası meslek örgütlerinin rolü ne olmuştur?",
+      "question_id": "1.3.2-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel gelişiminde standartlar ve teknik şartnameler nasıl değişmiştir?",
+      "question_id": "1.3.2-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel gelişiminde ekonomik koşullar ve finansman modelleri nasıl etkili olmuştur?",
+      "question_id": "1.3.2-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel içinde yapım süreleri zamanla nasıl değişmiştir?",
+      "question_id": "1.3.2-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel içinde birim yapım maliyetlerini etkileyen tarihsel değişimler nelerdir?",
+      "question_id": "1.3.2-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel içinde bakım ve işletme anlayışı zamanla nasıl değişmiştir?",
+      "question_id": "1.3.2-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel içinde çevresel etkilerin dikkate alınması ne zaman önem kazanmıştır?",
+      "question_id": "1.3.2-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel içinde sürdürülebilirlik yaklaşımı ne zaman ve nasıl öne çıkmıştır?",
+      "question_id": "1.3.2-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dijital tasarım araçlarının gelişimi Türkiye’de İlk Tünel açısından ne değiştirmiştir?",
+      "question_id": "1.3.2-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "BIM ve dijital ikiz uygulamaları Türkiye’de İlk Tünel içinde hangi yeni dönemi temsil etmektedir?",
+      "question_id": "1.3.2-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Sensör ve izleme teknolojileri Türkiye’de İlk Tünel gelişimini nasıl dönüştürmüştür?",
+      "question_id": "1.3.2-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel açısından Türkiye ile dünya arasındaki gelişim çizgisi nasıl karşılaştırılabilir?",
+      "question_id": "1.3.2-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel içinde bölgesel farklılıkların temel nedenleri nelerdir?",
+      "question_id": "1.3.2-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel anlatılırken hangi kronolojik tablo veya zaman çizelgesi verilmelidir?",
+      "question_id": "1.3.2-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel anlatılırken hangi proje örnekleri mutlaka yer almalıdır?",
+      "question_id": "1.3.2-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel anlatılırken hangi teknik yeniliklerin tarihleri özellikle belirtilmelidir?",
+      "question_id": "1.3.2-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel günümüzde hangi teknoloji ve mühendislik eğilimleriyle devam etmektedir?",
+      "question_id": "1.3.2-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de İlk Tünel gelecekte hangi gelişmelerle yeni bir aşamaya geçebilir?",
+      "question_id": "1.3.2-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "1.3.2",
+  "section_title": "Türkiye’de İlk Tünel",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_01e1cd8917c1327c3315760cae764080b751d4c57a75863be517401c28769674",
+      "CLM_1f7629885e3daf8d6105938197004c536b3494a537eaf6bb77b5e27fb2a5f336",
+      "CLM_587d62a0047416fa691470a0c98154d98e5395a645bf6cb65d60ebd3f2974656",
+      "CLM_6993141f838a9b9cf1a41716613b2eda5fe260d8d0b540ae2b87c918e67143d2"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "1.3.2-Q27",
+      "1.3.2-Q28"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "1.3.2-Q01",
+      "1.3.2-Q02",
+      "1.3.2-Q03",
+      "1.3.2-Q04",
+      "1.3.2-Q05",
+      "1.3.2-Q06",
+      "1.3.2-Q07",
+      "1.3.2-Q08",
+      "1.3.2-Q09",
+      "1.3.2-Q10",
+      "1.3.2-Q11",
+      "1.3.2-Q12",
+      "1.3.2-Q13",
+      "1.3.2-Q14",
+      "1.3.2-Q15",
+      "1.3.2-Q16",
+      "1.3.2-Q17",
+      "1.3.2-Q18",
+      "1.3.2-Q19",
+      "1.3.2-Q20",
+      "1.3.2-Q21",
+      "1.3.2-Q22",
+      "1.3.2-Q23",
+      "1.3.2-Q24",
+      "1.3.2-Q25",
+      "1.3.2-Q26",
+      "1.3.2-Q29",
+      "1.3.2-Q30",
+      "1.3.2-Q31",
+      "1.3.2-Q32",
+      "1.3.2-Q33",
+      "1.3.2-Q34",
+      "1.3.2-Q35",
+      "1.3.2-Q36",
+      "1.3.2-Q37",
+      "1.3.2-Q38",
+      "1.3.2-Q39",
+      "1.3.2-Q40",
+      "1.3.2-Q41",
+      "1.3.2-Q42",
+      "1.3.2-Q43",
+      "1.3.2-Q44",
+      "1.3.2-Q45",
+      "1.3.2-Q46",
+      "1.3.2-Q47",
+      "1.3.2-Q48",
+      "1.3.2-Q49",
+      "1.3.2-Q50"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "final_primary_section": "5.9.2",
+  "final_secondary_sections": [
+    "5.9",
+    "5.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0070",
+        "LIST0071",
+        "LIST0072",
+        "PARA0006"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0070",
+        "LIST0071",
+        "LIST0072",
+        "PARA0006"
+      ]
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0070",
+        "LIST0071",
+        "LIST0072"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9",
+      "score": 0.7341,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8031,
+      "chunk_vote": 0.0857
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.7278,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8017,
+      "chunk_vote": 0.0571
+    },
+    {
+      "id": "5.1",
+      "score": 0.6952,
+      "rule_score": 0.5,
+      "embedding_score": 0.8029,
+      "chunk_vote": 0.0444
+    },
+    {
+      "id": "5.6",
+      "score": 0.43,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3997
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3681,
+      "rule_score": 0.0,
+      "embedding_score": 0.8181,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3623,
+      "rule_score": 0.0,
+      "embedding_score": 0.805,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3609,
+      "rule_score": 0.0,
+      "embedding_score": 0.8021,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3607,
+      "rule_score": 0.0,
+      "embedding_score": 0.8016,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3603,
+      "rule_score": 0.0,
+      "embedding_score": 0.8007,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.3433,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0666
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC'ın uluslararası bir kaynak olan 'Road Tunnels Manual'ından alınmıştır ve tünel güvenlik yönetimi araçlarını (risk analizi, denetim, acil durum tatbikatları) ele almaktadır. Bu içerik, aday listesindeki 'Uluslararası Literatür Taraması' (5.9.2) bölümüne en uygun düşmektedir; ulusal literatür (5.9) ise ikincil bir bağlantı olarak değerlendirilebilir ancak kaynak uluslararası olduğundan ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:5",
+    "embeddings:8",
+    "top=5.9:0.7341 gap=0.006 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

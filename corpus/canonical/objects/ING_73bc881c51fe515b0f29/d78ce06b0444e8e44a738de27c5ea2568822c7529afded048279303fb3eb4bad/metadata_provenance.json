@@ -1,0 +1,103 @@
+{
+  "document_id": "ING_73bc881c51fe515b0f29",
+  "fields": [
+    {
+      "field": "title",
+      "value": "TBM Construction Tunnel Forward-to-cross-hole Radar Transmission Imaging Leading Potential Rockburst Geological Forecast Safety Monitoring System and Method",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2022",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: journal of"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "monitoring",
+        "operations",
+        "risk",
+        "rock_mechanics",
+        "safety",
+        "tbm"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; geotechnical_investigation:geotechnical; geology:geolog; rock_mechanics:rock mechanics; excavation:excavat; monitoring:monitoring; risk:risk; safety:safety; operations:operation; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "http://scholar-press.com/papers/495",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.38007/ijetc.2022.030101",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

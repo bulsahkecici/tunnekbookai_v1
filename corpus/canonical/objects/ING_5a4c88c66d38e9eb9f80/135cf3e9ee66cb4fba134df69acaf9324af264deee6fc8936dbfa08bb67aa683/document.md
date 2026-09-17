@@ -1,0 +1,13 @@
+# source_raw
+
+## "Greater Bay Area Xili" TBM Completes Factory Acceptance for Xili Tunnel Project
+
+### "Greater Bay Area Xili" TBM Completes Factory Acceptance for Xili Tunnel Project
+
+Recently, the super-large diameter TBM named “Greater Bay Area Xili”, developed by CREG, has successfully completed FAT at the Shunde manufacturing base in Guangzhou. The tailor-made equipment will be officially applied to the Xili Tunnel project of the Ganzhou-Shenzhen High-speed Railway, serving as a key construction equipment to advance the development of core transportation hubs in the Guangdong-Hong Kong-Macao Greater Bay Area.
+
+The new TBM boasts an excavation diameter of 13.9 meters. The total tunneling length of the Xili Tunnel section reaches 4 kilometers, with a maximum buried depth of 75.8 meters. The construction route covers complex geological conditions of full-section weathered granite and weakly weathered granite strata. During the tunneling process, the machine needs to underpass 21 crucial buildings and structures, including existing railways, urban highways, metro lines, university campuses and urban rivers. Such complex construction conditions put forward extremely high standards for the TBM’s face pressure stabilization performance and precise ground settlement control capability.
+
+To tackle prominent construction difficulties, including long-distance hard rock tunneling, traversing fractured fault zones and operating under high confined water pressure, the R&D team has designed multiple targeted optimisation schemes for the equipment. Meanwhile, the TBM is equipped with innovative technologies represented by the intelligent cutter wear detection system, which greatly improves the overall intelligent operation level of the machine and lays a solid technical and equipment foundation for safe, stable and efficient tunneling construction.
+
+In addition to superior mechanical performance, the TBM features a distinctive national trend design. Its cutter head is painted with an auspicious dragon pattern as the core element, adopting a red, blue and orange color scheme that integrates unique Lingnan regional cultural characteristics, symbolising the powerful equipment breaking through underground obstacles to smooth the hub traffic corridor. Located in Shenzhen, the Xili High-speed Railway Hub is one of the city’s major passenger transport hubs, gathering multiple national railways, intercity railways and urban metro lines. After the project is fully completed, it will become Shenzhen’s largest comprehensive railway and rail transit interchange hub, playing a pivotal role in building Shenzhen into a national railway hub city and enhancing the core driving strength of the Guangdong-Hong Kong-Macao Greater Bay Area.

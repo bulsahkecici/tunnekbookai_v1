@@ -1,0 +1,106 @@
+{
+  "document_id": "ING_23c4167ecb23a12b59cd",
+  "fields": [
+    {
+      "field": "title",
+      "value": "COMPARISON OF TUNNELLING METHODS NATM AND ADECO-RS",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Linda Černá Vydrová"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2015",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "excavation",
+        "geotechnical_investigation",
+        "monitoring",
+        "natm",
+        "rock_mechanics",
+        "shotcrete",
+        "support_systems",
+        "tbm",
+        "traffic",
+        "ventilation"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; tbm:tbm; geotechnical_investigation:geotechnical; rock_mechanics:rock mass; excavation:excavat; shotcrete:shotcrete; support_systems:support system; monitoring:monitoring; ventilation:ventilation; traffic:traffic; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://ojs.cvut.cz/ojs/index.php/cej/article/download/9025/6842",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.14311/cej.2015.01.0003",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

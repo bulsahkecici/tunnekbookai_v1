@@ -77,8 +77,8 @@ bytes. `FAILED` may be explicitly retried; `REVIEW`, `REJECTED` and `UNSUPPORTED
 terminal until an explicit operator action. Exact/strong duplicates stop before staging;
 probable duplicates require review. No runtime root is deleted to resume.
 
-Population states are `INVENTORIED`, `READY_TO_INGEST`, `INGESTING`, `INGEST_ACCOUNTED`,
-`STAGING_AUDITED`, `PROMOTION_PENDING_APPROVAL`, `PROMOTING`, `CANONICAL_READY` and
+Population states are `INVENTORIED`, `READY_TO_INGEST`, `INGESTING`, `PAUSED`,
+`INGEST_ACCOUNTED`, `STAGING_AUDITED`, `PROMOTION_PENDING_APPROVAL`, `PROMOTING`, `CANONICAL_READY` and
 `BLOCKED`. Per-document dispositions are `PENDING`, `STAGED`, `ALREADY_PROCESSED`,
 `ALREADY_CANONICAL`, `DUPLICATE`, `NEEDS_REVIEW`, `REJECTED`, `UNSUPPORTED`, `FAILED` and
 `RECOVERY_REQUIRED`. A failure or review is accounted only after success or a recorded
@@ -105,3 +105,19 @@ and no unresolved failures or reviews. The report records identities, counts, di
 reason codes, promotion IDs, manifest SHA and corpus digest. It embeds no source/chunk text
 or absolute external paths and explicitly reports retrieval, evidence audit and writing as
 `NOT_IMPLEMENTED`.
+
+## Checkpoint, interruption and local control
+
+The run ledger and attempt ledger are atomically checkpointed after every document. A
+cooperative stop request is checked before each next document: the active document is
+allowed to finish, its outcome is checkpointed, the attempt becomes `PAUSED`, and the batch
+is deliberately not marked complete. Resume revalidates source, inventory and canonical
+identities, skips complete terminal artifacts, and restarts only an interrupted document
+whose terminal artifacts are absent. A prior orphaned `RUNNING` attempt is closed as
+`INTERRUPTED` before the locked resume begins.
+
+Only one population writer may hold `audit/corpus_population/population.lock`. The local
+dashboard is a supervisor over the same public batch runner; it has no alternate ingest or
+canonical write path. Its HTTP server binds only to loopback, rejects non-loopback Host
+headers, requires a per-process control token for state-changing requests, and persists
+stop intent separately from display state.

@@ -1,0 +1,152 @@
+{
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [
+    "2.1.2",
+    "2.4.1.2",
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "FIG0011",
+        "FIG0037",
+        "FIG0040",
+        "FIG0041",
+        "FIG0042",
+        "FIG0043",
+        "FIG0044",
+        "FIG0045",
+        "FIG0046"
+      ]
+    },
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "FIG0037",
+        "FIG0040",
+        "FIG0041",
+        "FIG0042",
+        "FIG0043",
+        "FIG0044",
+        "FIG0045",
+        "FIG0046"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "FIG0011",
+        "FIG0037",
+        "FIG0040",
+        "FIG0041",
+        "FIG0042",
+        "FIG0043",
+        "FIG0044",
+        "FIG0045",
+        "FIG0046"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1",
+      "score": 0.7017,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7691,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.6308,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7669,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.4056,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3491,
+      "rule_score": 0.0,
+      "embedding_score": 0.7757,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3441,
+      "rule_score": 0.0,
+      "embedding_score": 0.7647,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3437,
+      "rule_score": 0.0,
+      "embedding_score": 0.7638,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3433,
+      "rule_score": 0.0,
+      "embedding_score": 0.7628,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3433,
+      "rule_score": 0.0,
+      "embedding_score": 0.7629,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3432,
+      "rule_score": 0.0,
+      "embedding_score": 0.7626,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.2833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Bolu Dağı Tüneli'nde uygulanan CM (45) kazı destek sistemi, pilot tünel açılması, ilave bandajlar ve tahkimat sistemleri gibi yapısal destek elemanlarına odaklanmaktadır. Bu nedenle birincil bölüm 'Tünel Yapı/Destek Elemanları' (2.1) olarak belirlenmiştir. Pilot tünel ve inşaat aşamasındaki ölçümler ikincil olarak 'Tünel Destekleme Elemanları' (2.1.2) ve 'İnşaat Esnasındaki Çalışmalar' (2.4",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:6",
+    "embeddings:8",
+    "top=2.1:0.7017 gap=0.071 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

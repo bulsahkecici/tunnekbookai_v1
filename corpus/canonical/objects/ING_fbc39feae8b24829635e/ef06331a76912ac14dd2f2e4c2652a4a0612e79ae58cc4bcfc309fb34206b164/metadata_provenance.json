@@ -1,0 +1,104 @@
+{
+  "document_id": "ING_fbc39feae8b24829635e",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Underpassing of Angel Underground by London ring main extension tunnel",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Jones, Benoît"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2011",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: doi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "monitoring",
+        "operations",
+        "risk",
+        "tbm",
+        "water"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; geotechnical_investigation:site investigation; geology:geolog; excavation:excavat; water:groundwater; monitoring:monitoring; risk:risk; operations:operation; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://pdf.core.ac.uk/corefilesystem/pdf/136/1387666.pdf?se=2026-09-03T17%3A11%3A26Z&sp=r&sv=2026-06-06&sr=b&rscd=inline%3B+filename%3D%221387666.pdf%22&rsct=application%2Fpdf&sig=U1EFHIJqxXKikBIFonPjCI%2FmF8FBWZ%2FKDEOcmE902%2Fc%3D",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.4417/IJGCH-02-02-02",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

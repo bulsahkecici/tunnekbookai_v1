@@ -1,0 +1,294 @@
+{
+  "batch_number": 8,
+  "results": [
+    {
+      "confidence": 0.7,
+      "mapped_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "paragraph_id": "1.1-P031",
+      "question_ids": [
+        "1.1-Q45"
+      ],
+      "reason_code": "COMPOSITE_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel tanımı, yeraltı kaya yapısının mühendislik açısından yeterli ve güvenli taşıyıcı sistemler oluşturmasıyla zemin koşullarına göre şekillenir.",
+      "sentence_id": "1.1-S085",
+      "source_locators": [
+        "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_b535170db3:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L11"
+      ],
+      "status": "PARTIAL",
+      "supporting_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "supporting_document_ids": [
+        "ING_7e795b9a47c89f5406c5"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "paragraph_id": "1.1-P031",
+      "question_ids": [
+        "1.1-Q45"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Homojen kesimler için NATM kaya destek sınıflamaları belirlenir ve destekleme sistemleri önerilir.",
+      "sentence_id": "1.1-S086",
+      "source_locators": [
+        "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_b535170db3:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L11"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "supporting_document_ids": [
+        "ING_7e795b9a47c89f5406c5"
+      ]
+    },
+    {
+      "confidence": 0.1,
+      "mapped_claim_ids": [
+        "CLM_0b5309ce35274ad47546dcecb54736000120f4a1513bc4193e4efd46f9173b82"
+      ],
+      "paragraph_id": "1.1-P031",
+      "question_ids": [
+        "1.1-Q45"
+      ],
+      "reason_code": "NO_DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel inşaat projesine ait zemin ve jeolojik gözlem parametreleri, farklı zemin koşullarındaki tünel tanımını etkiler.",
+      "sentence_id": "1.1-S087",
+      "source_locators": [],
+      "status": "UNSUPPORTED",
+      "supporting_claim_ids": [],
+      "supporting_document_ids": []
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "paragraph_id": "1.1-P032",
+      "question_ids": [
+        "1.1-Q46"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel tanımı, NATM ile ilgili tünel işleri ana maddeleri kapsamında her tür kaya ve zemin ortamları içerisindeki yapım şartlarını tanımlar.",
+      "sentence_id": "1.1-S088",
+      "source_locators": [
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "supporting_document_ids": [
+        "ING_312befcda2ff316b7279"
+      ]
+    },
+    {
+      "confidence": 0.05,
+      "mapped_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "paragraph_id": "1.1-P032",
+      "question_ids": [
+        "1.1-Q46"
+      ],
+      "reason_code": "NO_DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Geçici şefler oluşturarak yapının inşa edilmesi ve üzerinin doldurulması şeklinde yapılan yapılar açık kapalı tüneli olarak tanımlanır.",
+      "sentence_id": "1.1-S089",
+      "source_locators": [],
+      "status": "UNSUPPORTED",
+      "supporting_claim_ids": [],
+      "supporting_document_ids": []
+    },
+    {
+      "confidence": 0.6,
+      "mapped_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "paragraph_id": "1.1-P032",
+      "question_ids": [
+        "1.1-Q46"
+      ],
+      "reason_code": "COMPOSITE_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Yeraltı kaya yapısı, yerkabuğu içinde boşluk açılmasından sonra ana kayadan oluşan taşıyıcı sistemler olarak farklı yapım yöntemlerinde ele alınır.",
+      "sentence_id": "1.1-S090",
+      "source_locators": [
+        "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_b535170db3:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L11"
+      ],
+      "status": "PARTIAL",
+      "supporting_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "supporting_document_ids": [
+        "ING_7e795b9a47c89f5406c5"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_341458aaac0a4c2e0a2edfa16344629e6ff12aa7603d43121f8c42a5ec150bed",
+        "CLM_eb41c2e818156d32036e495d214f27d612a73b92f35eca5d94629f6e59230d07"
+      ],
+      "paragraph_id": "1.1-P033",
+      "question_ids": [
+        "1.1-Q47"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelciliğin tarihsel gelişimi, MÖ 15000'den günümüze kadar maden, nakliyat, su yolu ve ulaşım amaçlı tünellerin yapımını kapsar.",
+      "sentence_id": "1.1-S091",
+      "source_locators": [
+        "ING_9fdf7f646f2268199035:ING_9fdf7f646f2268199035_CH_e51b424f82:canonical=corpus/canonical/objects/ING_9fdf7f646f2268199035/d1c39483b7230111496248816d514b82c3c212217fe35b28bbc84634b158035b/chunks/embedding_ready.jsonl#L32",
+        "ING_e3a78fec24c25a09fd74:ING_e3a78fec24c25a09fd74_CH_8006f96bd7:pages=24;canonical=corpus/canonical/objects/ING_e3a78fec24c25a09fd74/49443009072fa93059c2a3f482a31f9622aaeeb17ce72929585ab4b6e6e85445/chunks/embedding_ready.jsonl#L42"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_341458aaac0a4c2e0a2edfa16344629e6ff12aa7603d43121f8c42a5ec150bed",
+        "CLM_eb41c2e818156d32036e495d214f27d612a73b92f35eca5d94629f6e59230d07"
+      ],
+      "supporting_document_ids": [
+        "ING_9fdf7f646f2268199035",
+        "ING_e3a78fec24c25a09fd74"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_341458aaac0a4c2e0a2edfa16344629e6ff12aa7603d43121f8c42a5ec150bed",
+        "CLM_eb41c2e818156d32036e495d214f27d612a73b92f35eca5d94629f6e59230d07"
+      ],
+      "paragraph_id": "1.1-P033",
+      "question_ids": [
+        "1.1-Q47"
+      ],
+      "reason_code": "EDITORIAL_SENTENCE",
+      "section_id": "1.1",
+      "sentence": "Tünel tanımı, tarihsel süreçte farklı amaçlar ve teknikler kullanılarak evrilmiştir.",
+      "sentence_id": "1.1-S092",
+      "source_locators": [],
+      "status": "NON_FACTUAL_OR_EDITORIAL",
+      "supporting_claim_ids": [],
+      "supporting_document_ids": []
+    },
+    {
+      "confidence": 0.4,
+      "mapped_claim_ids": [
+        "CLM_eb41c2e818156d32036e495d214f27d612a73b92f35eca5d94629f6e59230d07"
+      ],
+      "paragraph_id": "1.1-P033",
+      "question_ids": [
+        "1.1-Q47"
+      ],
+      "reason_code": "CLAIM_OVERREACH",
+      "section_id": "1.1",
+      "sentence": "Geçmiş dönemlerden günümüze kadar gelen tünellerin çap, uzunluk ve amaçları, teknolojik gelişmelerin tünel tanımını etkilediğini gösterir.",
+      "sentence_id": "1.1-S093",
+      "source_locators": [
+        "ING_e3a78fec24c25a09fd74:ING_e3a78fec24c25a09fd74_CH_8006f96bd7:pages=24;canonical=corpus/canonical/objects/ING_e3a78fec24c25a09fd74/49443009072fa93059c2a3f482a31f9622aaeeb17ce72929585ab4b6e6e85445/chunks/embedding_ready.jsonl#L42"
+      ],
+      "status": "PARTIAL",
+      "supporting_claim_ids": [
+        "CLM_eb41c2e818156d32036e495d214f27d612a73b92f35eca5d94629f6e59230d07"
+      ],
+      "supporting_document_ids": [
+        "ING_e3a78fec24c25a09fd74"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_31a8a7f48220ddb475c9d053a967467c9690e19cf4f3acf48edfe0c2fccfffd2"
+      ],
+      "paragraph_id": "1.1-P034",
+      "question_ids": [
+        "1.1-Q48"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin sürdürülebilirlik açısından değerlendirilmesi, CEEQUAL gibi uluslararası kanıta dayalı değerlendirme ve ödül sistemleri çerçevesinde ele alınmalıdır.",
+      "sentence_id": "1.1-S094",
+      "source_locators": [
+        "ING_246054e0940d9efbe056:ING_246054e0940d9efbe056_CH_445d71626d:pages=28;canonical=corpus/canonical/objects/ING_246054e0940d9efbe056/2d583191e43a71c99571327e3b5fa03644f779693892f7b263208ee8e7c14efc/chunks/embedding_ready.jsonl#L64"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_31a8a7f48220ddb475c9d053a967467c9690e19cf4f3acf48edfe0c2fccfffd2"
+      ],
+      "supporting_document_ids": [
+        "ING_246054e0940d9efbe056"
+      ]
+    },
+    {
+      "confidence": 0.85,
+      "mapped_claim_ids": [
+        "CLM_31a8a7f48220ddb475c9d053a967467c9690e19cf4f3acf48edfe0c2fccfffd2"
+      ],
+      "paragraph_id": "1.1-P034",
+      "question_ids": [
+        "1.1-Q48"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Bu değerlendirme, projelerin performansını ölçmek ve karşılaştırmak için şeffaf bir indeks oluşturmayı hedefler.",
+      "sentence_id": "1.1-S095",
+      "source_locators": [
+        "ING_246054e0940d9efbe056:ING_246054e0940d9efbe056_CH_445d71626d:pages=28;canonical=corpus/canonical/objects/ING_246054e0940d9efbe056/2d583191e43a71c99571327e3b5fa03644f779693892f7b263208ee8e7c14efc/chunks/embedding_ready.jsonl#L64"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_31a8a7f48220ddb475c9d053a967467c9690e19cf4f3acf48edfe0c2fccfffd2"
+      ],
+      "supporting_document_ids": [
+        "ING_246054e0940d9efbe056"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_17ea146c01cb99baab33e90d283f3c946668d007dea78466d524318f5c97b1be"
+      ],
+      "paragraph_id": "1.1-P034",
+      "question_ids": [
+        "1.1-Q48"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Sürdürülebilirlik kavramının kökeni M.Ö. 300-400 yıllarına, Aristoteles'in Politi eserine kadar uzanmaktadır.",
+      "sentence_id": "1.1-S096",
+      "source_locators": [
+        "ING_7d7c44992e83c7185c41:ING_7d7c44992e83c7185c41_CH_9d95dfd0a3:pages=2-3;canonical=corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl#L2"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_17ea146c01cb99baab33e90d283f3c946668d007dea78466d524318f5c97b1be"
+      ],
+      "supporting_document_ids": [
+        "ING_7d7c44992e83c7185c41"
+      ]
+    }
+  ],
+  "sentence_ids": [
+    "1.1-S085",
+    "1.1-S086",
+    "1.1-S087",
+    "1.1-S088",
+    "1.1-S089",
+    "1.1-S090",
+    "1.1-S091",
+    "1.1-S092",
+    "1.1-S093",
+    "1.1-S094",
+    "1.1-S095",
+    "1.1-S096"
+  ]
+}

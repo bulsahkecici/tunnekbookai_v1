@@ -52,9 +52,12 @@ def _provenance(context: ChunkingContext) -> dict[str, Any]:
 
 
 def _base_chunk(context: ChunkingContext, policy: ChunkPolicy, chunk_type: str,
-                text: str, source_elements: list[str]) -> dict[str, Any]:
-    return {
-        "chunk_id": chunk_id(context.document_id, chunk_type, source_elements, text, policy),
+                text: str, source_elements: list[str], *,
+                identity_part: str | None = None) -> dict[str, Any]:
+    chunk = {
+        "chunk_id": chunk_id(
+            context.document_id, chunk_type, source_elements, text, policy, identity_part
+        ),
         "document_id": context.document_id,
         "chunk_type": chunk_type,
         "final_primary_section": context.final_primary_section,
@@ -73,12 +76,15 @@ def _base_chunk(context: ChunkingContext, policy: ChunkPolicy, chunk_type: str,
         "chunk_policy_version": policy.policy_version,
         "tokenizer": policy.tokenizer_name,
     }
+    if identity_part is not None:
+        chunk["chunk_identity_part"] = identity_part
+    return chunk
 
 
 # --------------------------------------------------------------------------- text chunks
 def _split_oversized(text: str, policy: ChunkPolicy) -> list[str]:
-    """Last-resort split of a single oversized block, on sentence boundaries where possible."""
-    if tokenizer.count(text) <= policy.hard_max_tokens:
+    """Split a block at the normal maximum, using sentence boundaries where possible."""
+    if tokenizer.count(text) <= policy.max_tokens:
         return [text]
     pieces = [p for p in _SENTENCE_RE.split(text) if p.strip()]
     out: list[str] = []
@@ -86,17 +92,20 @@ def _split_oversized(text: str, policy: ChunkPolicy) -> list[str]:
     size = 0
     for piece in pieces:
         piece_tokens = tokenizer.count(piece)
-        if piece_tokens > policy.hard_max_tokens:
+        if piece_tokens > policy.max_tokens:
             if current:
                 out.append(" ".join(current))
                 current, size = [], 0
             remaining = piece
-            while tokenizer.count(remaining) > policy.max_tokens:
+            while remaining:
                 head = tokenizer.truncate_to(remaining, policy.max_tokens)
+                if head == remaining:
+                    current, size = [remaining], tokenizer.count(remaining)
+                    break
+                if not head:
+                    raise RuntimeError("tokenizer could not advance while splitting text")
                 out.append(head)
                 remaining = remaining[len(head):].lstrip()
-            if remaining:
-                current, size = [remaining], tokenizer.count(remaining)
             continue
         if size + piece_tokens > policy.max_tokens and current:
             out.append(" ".join(current))
@@ -128,11 +137,22 @@ def _flush_text_group(group: list[dict[str, Any]], context: ChunkingContext,
     slides = [e.get("slide_number") for e in group if e.get("slide_number")]
 
     chunks: list[dict[str, Any]] = []
-    for index, part in enumerate(_split_oversized(body, policy)):
+    parts = _split_oversized(body, policy)
+    for index, part in enumerate(parts):
         text = part
         if index == 0 and previous_tail and policy.overlap_tokens > 0:
-            text = f"{previous_tail}\n\n{part}"
-        chunk = _base_chunk(context, policy, TEXT_CHUNK, text, element_ids)
+            # Adding the normal overlap must not push the final chunk over the
+            # preferred maximum.  The hard maximum remains a fail-closed guard.
+            overlap_budget = max(0, policy.max_tokens - tokenizer.count(part))
+            overlap = tokenizer.tail_tokens(
+                previous_tail, min(policy.overlap_tokens, overlap_budget)
+            )
+            if overlap:
+                text = f"{overlap}\n\n{part}"
+        identity_part = f"{index + 1}/{len(parts)}" if len(parts) > 1 else None
+        chunk = _base_chunk(
+            context, policy, TEXT_CHUNK, text, element_ids, identity_part=identity_part
+        )
         chunk["heading_path"] = list(heading_path)
         chunk["page_start"] = min(pages) if pages else None
         chunk["page_end"] = max(page_end_values) if page_end_values else chunk["page_start"]
@@ -244,7 +264,10 @@ def build_table_chunks(tables: list[dict[str, Any]], elements: list[dict[str, An
         # structured table remains authoritative and every part points to it.
         parts = _split_oversized(text.replace("\n", "\n\n"), policy)
         for index, part in enumerate(parts, 1):
-            chunk = _base_chunk(context, policy, TABLE_CHUNK, part, source_elements or [tid])
+            chunk = _base_chunk(
+                context, policy, TABLE_CHUNK, part, source_elements or [tid],
+                identity_part=f"{index}/{len(parts)}" if len(parts) > 1 else None,
+            )
             chunk.update({
                 "table_id": tid,
                 "table_part": index,
@@ -263,6 +286,96 @@ def build_table_chunks(tables: list[dict[str, Any]], elements: list[dict[str, An
             })
             chunks.append(chunk)
     return chunks
+
+
+def split_chunks_to_soft_max(
+    chunks: list[dict[str, Any]], policy: ChunkPolicy
+) -> list[dict[str, Any]]:
+    """Apply the normal maximum to every modality without losing its metadata.
+
+    Figure and OCR chunks used to bypass the format-specific splitters.  This final
+    pass makes the token policy uniform while preserving source references and
+    modality fields on every resulting part.
+    """
+    split: list[dict[str, Any]] = []
+    for original in chunks:
+        parts = _split_oversized(str(original.get("text") or ""), policy)
+        if len(parts) == 1:
+            split.append(original)
+            continue
+        for index, part in enumerate(parts, start=1):
+            chunk = dict(original)
+            chunk["text"] = part
+            chunk["token_count"] = tokenizer.count(part)
+            chunk["size_part"] = index
+            chunk["size_parts"] = len(parts)
+            chunk["chunk_identity_part"] = f"{index}/{len(parts)}"
+            chunk["chunk_id"] = chunk_id(
+                str(original.get("document_id") or ""),
+                str(original.get("chunk_type") or ""),
+                list(original.get("source_elements") or []),
+                part,
+                policy,
+                chunk["chunk_identity_part"],
+            )
+            split.append(chunk)
+    for ordinal, chunk in enumerate(split, start=1):
+        chunk["ordinal"] = ordinal
+    return split
+
+
+def merge_short_text_chunks(
+    chunks: list[dict[str, Any]], policy: ChunkPolicy
+) -> list[dict[str, Any]]:
+    """Merge only short adjacent text chunks that share the same heading path."""
+    merged = [dict(chunk) for chunk in chunks]
+    changed = True
+    while changed:
+        changed = False
+        for index, chunk in enumerate(merged):
+            if (
+                chunk.get("chunk_type") != TEXT_CHUNK
+                or int(chunk.get("token_count") or 0) >= policy.min_tokens
+            ):
+                continue
+            neighbours = [
+                neighbour for neighbour in (index - 1, index + 1)
+                if 0 <= neighbour < len(merged)
+                and merged[neighbour].get("chunk_type") == TEXT_CHUNK
+                and merged[neighbour].get("heading_path") == chunk.get("heading_path")
+                and int(merged[neighbour].get("token_count") or 0)
+                    + int(chunk.get("token_count") or 0) <= policy.max_tokens
+            ]
+            if not neighbours:
+                continue
+            neighbour = min(
+                neighbours, key=lambda position: int(merged[position].get("token_count") or 0)
+            )
+            first_index, second_index = sorted((index, neighbour))
+            first, second = merged[first_index], merged[second_index]
+            combined = dict(first)
+            combined["text"] = f"{first.get('text') or ''}\n\n{second.get('text') or ''}".strip()
+            combined["source_elements"] = list(dict.fromkeys(
+                list(first.get("source_elements") or [])
+                + list(second.get("source_elements") or [])
+            ))
+            combined["token_count"] = tokenizer.count(combined["text"])
+            starts = [value for value in (first.get("page_start"), second.get("page_start")) if value]
+            ends = [value for value in (first.get("page_end"), second.get("page_end")) if value]
+            combined["page_start"] = min(starts) if starts else None
+            combined["page_end"] = max(ends) if ends else combined["page_start"]
+            for key in ("size_part", "size_parts", "chunk_identity_part"):
+                combined.pop(key, None)
+            combined["chunk_id"] = chunk_id(
+                str(combined.get("document_id") or ""), TEXT_CHUNK,
+                combined["source_elements"], combined["text"], policy,
+            )
+            merged[first_index:second_index + 1] = [combined]
+            changed = True
+            break
+    for ordinal, chunk in enumerate(merged, start=1):
+        chunk["ordinal"] = ordinal
+    return merged
 
 
 # ------------------------------------------------------------------------- figure chunks
@@ -346,8 +459,14 @@ def build_slide_chunks(slides: list[dict[str, Any]], context: ChunkingContext,
         if not body:
             continue
         # one slide may need several chunks when it is very large (§58)
-        for part in _split_oversized(body, policy):
-            chunk = _base_chunk(context, policy, SLIDE_CHUNK, part, [f"SLIDE{number:04d}"])
+        slide_parts = _split_oversized(body, policy)
+        for part_index, part in enumerate(slide_parts, 1):
+            chunk = _base_chunk(
+                context, policy, SLIDE_CHUNK, part, [f"SLIDE{number:04d}"],
+                identity_part=(
+                    f"{part_index}/{len(slide_parts)}" if len(slide_parts) > 1 else None
+                ),
+            )
             chunk.update({
                 "slide_number": number,
                 "slide_title": slide.get("title"),
@@ -414,21 +533,33 @@ def build_sheet_chunks(sheets: list[dict[str, Any]], context: ChunkingContext,
                           if columns else sheet.get("used_range"))
             header = f"Sayfa: {name}" + (" (gizli)" if sheet.get("hidden") else "")
             text = f"{header}\n{body}"
-            chunk = _base_chunk(context, policy, SHEET_CHUNK, text,
-                                [sheet.get("asset_id") or f"SHEET:{name}"])
-            chunk.update({
-                "sheet_name": name,
-                "sheet_hidden": bool(sheet.get("hidden")),
-                "cell_range": cell_range,
-                "used_range": sheet.get("used_range"),
-                "formula_present": formulas > 0,
-                "formula_count": formulas,
-                "excel_tables": [t.get("name") for t in (sheet.get("excel_tables") or [])],
-                "structured_path": structured,
-                "csv_path": sheet.get("csv_path"),
-                "heading_path": [str(name)] if name else [],
-            })
-            chunks.append(chunk)
+            source_elements = [sheet.get("asset_id") or f"SHEET:{name}"]
+            # A fixed row band is not a sufficient size bound: formula-heavy or
+            # very wide sheets can contain thousands of lexical tokens in only a
+            # handful of rows. Apply the same deterministic last-resort splitter
+            # used by text and tables while retaining the structured sheet as the
+            # authoritative source for every part.
+            parts = _split_oversized(text.replace("\n", "\n\n"), policy)
+            for index, part in enumerate(parts, 1):
+                chunk = _base_chunk(
+                    context, policy, SHEET_CHUNK, part, source_elements,
+                    identity_part=f"{index}/{len(parts)}" if len(parts) > 1 else None,
+                )
+                chunk.update({
+                    "sheet_name": name,
+                    "sheet_hidden": bool(sheet.get("hidden")),
+                    "sheet_part": index,
+                    "sheet_parts": len(parts),
+                    "cell_range": cell_range,
+                    "used_range": sheet.get("used_range"),
+                    "formula_present": formulas > 0,
+                    "formula_count": formulas,
+                    "excel_tables": [t.get("name") for t in (sheet.get("excel_tables") or [])],
+                    "structured_path": structured,
+                    "csv_path": sheet.get("csv_path"),
+                    "heading_path": [str(name)] if name else [],
+                })
+                chunks.append(chunk)
     return chunks
 
 
@@ -514,6 +645,8 @@ def chunk_document(
         chunks += build_ocr_chunks(ocr_items, figure_chunks, context, policy)
 
     kept, dropped = deduplicate(chunks, policy)
+    kept = split_chunks_to_soft_max(kept, policy)
+    kept = merge_short_text_chunks(kept, policy)
     for ordinal, chunk in enumerate(kept, start=1):
         chunk["ordinal"] = ordinal
     return kept, dropped

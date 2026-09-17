@@ -1,0 +1,105 @@
+{
+  "document_id": "ING_30c57dbe3f63046861b2",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Analysis of Plastic Deformations for Tunnel Support Design in Weak Flysch Rock Mass of a Hydropower Tunnel in Central Albania",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Jorge Terron-Almenara",
+        "Krishna Kanta Panthi"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2025",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "excavation",
+        "fiber_reinforced_concrete",
+        "geology",
+        "geotechnical_investigation",
+        "monitoring",
+        "rock_mechanics",
+        "safety",
+        "shotcrete"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geotechnical_investigation:geotechnical; geology:geolog; rock_mechanics:rock mechanics; excavation:excavat; shotcrete:shotcrete; fiber_reinforced_concrete:fiber reinforced; monitoring:monitoring; safety:safety; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://link.springer.com/content/pdf/10.1007/s00603-025-04545-1.pdf",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1007/s00603-025-04545-1",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

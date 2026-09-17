@@ -1,0 +1,212 @@
+{
+  "final_primary_section": "2.4",
+  "final_secondary_sections": [
+    "2.1",
+    "2.2.1",
+    "2.4.2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4",
+      "section_title": "Tünellerin Projelendirilmesi",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0004",
+        "PARA0016",
+        "PARA0044",
+        "PARA0046",
+        "PARA0857",
+        "PARA0877",
+        "PARA0906",
+        "PARA0926",
+        "PARA0955",
+        "PARA1054",
+        "PARA1308",
+        "PARA1486",
+        "PARA2221",
+        "PARA2311",
+        "PARA2323",
+        "LIST0041",
+        "LIST0043",
+        "LIST0044",
+        "LIST0065",
+        "LIST0066",
+        "LIST0098"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "PARA0004",
+        "PARA0005",
+        "PARA0009",
+        "PARA0010",
+        "PARA0012",
+        "PARA0014",
+        "HEAD0010",
+        "PARA0037",
+        "PARA0038",
+        "PARA0039",
+        "PARA0040",
+        "PARA0041",
+        "PARA0044",
+        "PARA0745",
+        "PARA0762",
+        "PARA0786",
+        "PARA0996",
+        "PARA2244",
+        "PARA2245",
+        "FIG0004",
+        "CAPT0006",
+        "PARA2252",
+        "PARA2255",
+        "PARA2276",
+        "PARA2277"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0006",
+        "PARA0008",
+        "TABLE0001",
+        "CAPT0001",
+        "PARA0009",
+        "PARA0011",
+        "PARA0012",
+        "PARA0013",
+        "PARA0015",
+        "PARA0036",
+        "PARA0038",
+        "PARA0039",
+        "PARA0040",
+        "PARA0041",
+        "PARA0042",
+        "PARA0044",
+        "HEAD0014",
+        "PARA0046",
+        "PARA0047",
+        "PARA0048",
+        "LIST0005",
+        "HEAD0015",
+        "PARA0735",
+        "PARA0737",
+        "PARA0745"
+      ]
+    },
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "LIST0001",
+        "PARA0009",
+        "PARA0026",
+        "PARA0036",
+        "PARA2311",
+        "PARA2320",
+        "PARA2321",
+        "PARA2322",
+        "LIST0035",
+        "LIST0048",
+        "LIST0059",
+        "LIST0107",
+        "LIST0176"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7451,
+      "rule_score": 0.6,
+      "embedding_score": 0.7889,
+      "chunk_vote": 0.0505
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.6747,
+      "rule_score": 0.5,
+      "embedding_score": 0.7772,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.4541,
+      "rule_score": 0.7333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2538
+    },
+    {
+      "id": "2.4",
+      "score": 0.3637,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1686
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3602,
+      "rule_score": 0.0,
+      "embedding_score": 0.7962,
+      "chunk_vote": 0.0095
+    },
+    {
+      "id": "2.1",
+      "score": 0.3563,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1316
+    },
+    {
+      "id": "6.1",
+      "score": 0.3558,
+      "rule_score": 0.0,
+      "embedding_score": 0.7879,
+      "chunk_vote": 0.0063
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3501,
+      "rule_score": 0.0,
+      "embedding_score": 0.7781,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.7772,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3492,
+      "rule_score": 0.0,
+      "embedding_score": 0.776,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel tasarımında kullanılan RMR ve Q sistemlerinin gelişimini, destek elemanları (tünellerin projelendirilmesi) ve kayaç zemin özellikleri (kayaç zeminde açılan tüneller) üzerindeki etkilerini incelemektedir. Bu kapsam, 'Tünellerin Projelendirilmesi' (2.4) başlığına en uygun düşmektedir; ayrıca destek elemanları (2.1) ve kayaç zemin (2.2.1) ile de doğrudan ilişkilidir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7451 gap=0.070 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

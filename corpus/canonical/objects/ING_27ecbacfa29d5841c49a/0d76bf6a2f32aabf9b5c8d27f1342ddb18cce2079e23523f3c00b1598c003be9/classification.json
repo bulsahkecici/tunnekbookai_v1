@@ -1,0 +1,139 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0004",
+        "PARA0005",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0016",
+        "PARA0017",
+        "PARA0018",
+        "PARA0020",
+        "PARA0021",
+        "PARA0022",
+        "PARA0023",
+        "PARA0024",
+        "PARA0034",
+        "PARA0035",
+        "TABLE0002",
+        "CAPT0006",
+        "PARA0037",
+        "CAPT0010",
+        "TABLE0003",
+        "CAPT0011",
+        "PARA0045",
+        "FIG0014",
+        "PARA0069"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0024"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.8161,
+      "rule_score": 0.6,
+      "embedding_score": 0.782,
+      "chunk_vote": 0.421
+    },
+    {
+      "id": "2.2",
+      "score": 0.7573,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7926,
+      "chunk_vote": 0.2253
+    },
+    {
+      "id": "6.1",
+      "score": 0.3523,
+      "rule_score": 0.0,
+      "embedding_score": 0.7724,
+      "chunk_vote": 0.0235
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3499,
+      "rule_score": 0.0,
+      "embedding_score": 0.7775,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3476,
+      "rule_score": 0.0,
+      "embedding_score": 0.7725,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3461,
+      "rule_score": 0.0,
+      "embedding_score": 0.769,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3458,
+      "rule_score": 0.0,
+      "embedding_score": 0.7684,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3447,
+      "rule_score": 0.0,
+      "embedding_score": 0.7659,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3434,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0672
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.2404,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0235
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, TBM ve NATM inşaat yöntemlerinin titreşim azaltma etkilerini karşılaştırmalı olarak incelemektedir. Bu, doğrudan 'Tünel Yapım Yöntemleri' (2.2) başlığına aittir. Ayrıca, çalışma kayaç zeminde (blasting/TBM) yapıldığı için 'Kayaç Zeminde Açılan Tüneller' (2.2.1) ikincil bölüm olarak değerlendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.8161 gap=0.059 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

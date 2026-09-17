@@ -1,4 +1,4 @@
-"""Honest foundation-stage registry for not-yet-implemented production steps."""
+"""Stage registry for implemented and intentionally pending production steps."""
 
 from __future__ import annotations
 

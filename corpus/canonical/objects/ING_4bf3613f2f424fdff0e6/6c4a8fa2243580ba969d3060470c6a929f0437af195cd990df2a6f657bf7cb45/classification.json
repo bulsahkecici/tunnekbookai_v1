@@ -1,0 +1,153 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.4.1.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0016",
+        "PARA0018",
+        "PARA0019",
+        "PARA0024",
+        "PARA0028",
+        "FIG0006",
+        "PARA0034",
+        "PARA0035",
+        "PARA0049",
+        "PARA0050",
+        "PARA0062",
+        "PARA0064",
+        "PARA0065",
+        "PARA0066",
+        "LIST0030"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0016",
+        "PARA0020",
+        "PARA0026",
+        "PARA0027",
+        "PARA0028",
+        "FIG0006",
+        "CAPT0002",
+        "PARA0035",
+        "FIG0007",
+        "CAPT0003",
+        "FIG0008",
+        "CAPT0004",
+        "FIG0009",
+        "CAPT0005",
+        "FIG0010",
+        "CAPT0006",
+        "FIG0011",
+        "FIG0012",
+        "FIG0013",
+        "CAPT0007",
+        "FIG0014",
+        "CAPT0008",
+        "FIG0015",
+        "PARA0044",
+        "HEAD0012"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7414,
+      "rule_score": 0.5556,
+      "embedding_score": 0.814,
+      "chunk_vote": 0.0977
+    },
+    {
+      "id": "2.2",
+      "score": 0.6854,
+      "rule_score": 0.5,
+      "embedding_score": 0.7944,
+      "chunk_vote": 0.0148
+    },
+    {
+      "id": "1",
+      "score": 0.4058,
+      "rule_score": 0.0,
+      "embedding_score": 0.7872,
+      "chunk_vote": 0.2576
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3602,
+      "rule_score": 0.0,
+      "embedding_score": 0.8004,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3573,
+      "rule_score": 0.0,
+      "embedding_score": 0.7901,
+      "chunk_vote": 0.0089
+    },
+    {
+      "id": "6.1",
+      "score": 0.3551,
+      "rule_score": 0.0,
+      "embedding_score": 0.7813,
+      "chunk_vote": 0.0178
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3543,
+      "rule_score": 0.0,
+      "embedding_score": 0.7874,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3524,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1121
+    },
+    {
+      "id": "5.3",
+      "score": 0.3514,
+      "rule_score": 0.0,
+      "embedding_score": 0.7808,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3477,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2108
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, düşük hacim kaybı ile tünel kazısı (TBM) sırasında oluşan yerleşmelerin izlenmesi ve üçüncü taraf tünellerin etkilenmesinin analizi üzerine odaklanmaktadır. Bu, doğrudan 'Tünel Yapım Yöntemleri' (2.2) ile ilişkilidir. Ayrıca, inşaat sırasında yapılan hassas nivelman ve izleme çalışmaları 'İnşaat Esnasındaki Çalışmalar' (2.4.1.2) başlığıyla da örtüşmektedir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7414 gap=0.056 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

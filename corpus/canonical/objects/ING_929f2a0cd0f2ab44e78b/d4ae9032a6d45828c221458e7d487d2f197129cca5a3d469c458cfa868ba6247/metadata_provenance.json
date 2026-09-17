@@ -1,0 +1,108 @@
+{
+  "document_id": "ING_929f2a0cd0f2ab44e78b",
+  "fields": [
+    {
+      "field": "title",
+      "value": "A case study on Tunneling using NATM",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Raviprasad Gupta",
+        "B. Ravinder"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2015",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: journal of"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "case_study",
+        "contracts",
+        "cost",
+        "excavation",
+        "natm",
+        "risk",
+        "rock_bolt",
+        "shotcrete",
+        "steel_rib",
+        "support_systems",
+        "unit_price"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; excavation:excavat; shotcrete:shotcrete; steel_rib:lattice girder; rock_bolt:rock bolt; support_systems:support system; risk:risk; cost:cost; unit_price:unit price; contracts:contract; case_study:case study; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://indianjournals.com/article/ijt1-5-2-030",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.5958/2231-3915.2015.00028.0",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

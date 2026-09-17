@@ -1,0 +1,119 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.9.1"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "manual_review"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.9.1",
+      "section_title": "Ulusal Literatür Taraması",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5",
+      "score": 0.8443,
+      "rule_score": 0.75,
+      "embedding_score": 0.7847,
+      "chunk_vote": 0.1432
+    },
+    {
+      "id": "5.4",
+      "score": 0.8146,
+      "rule_score": 0.7143,
+      "embedding_score": 0.7942,
+      "chunk_vote": 0.0716
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.7156,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.1",
+      "score": 0.3586,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1432
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3552,
+      "rule_score": 0.0,
+      "embedding_score": 0.7894,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3536,
+      "rule_score": 0.0,
+      "embedding_score": 0.7858,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.1",
+      "score": 0.3512,
+      "rule_score": 0.0,
+      "embedding_score": 0.7804,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.1",
+      "score": 0.3505,
+      "rule_score": 0.0,
+      "embedding_score": 0.7789,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3504,
+      "rule_score": 0.0,
+      "embedding_score": 0.7787,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.3",
+      "score": 0.3342,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1432
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5:0.8443 gap=0.030 disagreement=True ",
+    "arbiter:skipped"
+  ],
+  "warnings": [
+    "ARBITER_SKIPPED_BY_FLAG"
+  ],
+  "taxonomy_source": "book/scope/normalized/book_scope.json",
+  "document_id": "ING_746d18498e07a8a0f397",
+  "manual_review": {
+    "status": "APPROVED",
+    "reviewed_at": "2026-09-13T17:24:54+00:00",
+    "note": "KGM'nin trafiğe açık devlet ve il yolu tünellerine yönelik bakım, onarım ve işletme kurs notları içerik üzerinden doğrulandı."
+  }
+}

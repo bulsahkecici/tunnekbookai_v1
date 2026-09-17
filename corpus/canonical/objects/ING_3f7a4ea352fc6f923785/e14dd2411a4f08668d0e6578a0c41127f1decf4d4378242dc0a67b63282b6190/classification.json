@@ -1,0 +1,175 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "2.2",
+    "2.4.2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0004",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0010",
+        "PARA0011",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0017",
+        "PARA0018",
+        "PARA0019",
+        "FIG0002",
+        "PARA0020",
+        "HEAD0008",
+        "PARA0021",
+        "PARA0022",
+        "PARA0023",
+        "PARA0024",
+        "PARA0025",
+        "PARA0026",
+        "PARA0033",
+        "FIG0004",
+        "PARA0039"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0004",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0010",
+        "PARA0011",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0017",
+        "PARA0018",
+        "PARA0019",
+        "FIG0002",
+        "PARA0020",
+        "HEAD0008",
+        "PARA0021",
+        "PARA0022",
+        "PARA0023",
+        "PARA0024",
+        "PARA0025",
+        "PARA0026",
+        "PARA0033",
+        "FIG0004",
+        "PARA0039"
+      ]
+    },
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "PARA0013",
+        "LIST0008",
+        "LIST0020",
+        "LIST0023",
+        "LIST0032"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7108,
+      "rule_score": 0.5,
+      "embedding_score": 0.7766,
+      "chunk_vote": 0.1814
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.6729,
+      "rule_score": 0.5,
+      "embedding_score": 0.7732,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.3646,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1732
+    },
+    {
+      "id": "6.1",
+      "score": 0.3609,
+      "rule_score": 0.0,
+      "embedding_score": 0.7851,
+      "chunk_vote": 0.038
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.36,
+      "rule_score": 0.0,
+      "embedding_score": 0.7999,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3538,
+      "rule_score": 0.0,
+      "embedding_score": 0.7739,
+      "chunk_vote": 0.0277
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3516,
+      "rule_score": 0.0,
+      "embedding_score": 0.7814,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3502,
+      "rule_score": 0.0,
+      "embedding_score": 0.7742,
+      "chunk_vote": 0.0092
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3485,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0925
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.3473,
+      "rule_score": 0.0,
+      "embedding_score": 0.7718,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, TBM'nin ana kontrol parametrelerinin (itme ve tork) optimize edilmesine odaklanmaktadır. Bu parametreler, tünel yapım tekniklerinin ve makine-makine etkileşiminin temelini oluşturduğundan 'Tünel Ana Elemanları, Ana Özellikleri ve Yapım Teknikleri' (Bölüm 2) birincil konudur. Spesifik olarak TBM kullanımı ve parametre ayarları, 'Tünel Yapım Yöntemleri' (Bölüm 2.2) ile doğrudan ilişkilidir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7108 gap=0.038 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

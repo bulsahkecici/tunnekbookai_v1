@@ -56,7 +56,13 @@ def _ledger_identity(context: CanonicalContext, document_id: str, source_sha: st
     return canonical_sha256(selected), selected
 
 
-def _validate_ledgers(context: CanonicalContext, metadata: dict[str, Any], source_sha: str) -> str:
+def _validate_ledgers(
+    context: CanonicalContext,
+    metadata: dict[str, Any],
+    source_sha: str,
+    *,
+    source_registry: SourceRegistry | None = None,
+) -> str:
     document_id = str(metadata["document_id"])
     digest, selected = _ledger_identity(context, document_id, source_sha)
     for name in ("source_registry", "document_id_map", "ingest_manifest", "ingest_state"):
@@ -75,10 +81,11 @@ def _validate_ledgers(context: CanonicalContext, metadata: dict[str, Any], sourc
         raise CanonicalError("UPSTREAM_DEDUP_VERIFICATION_FAILED", "ingest manifest is not uniquely eligible")
     if state_row.get("state") != "EMBEDDING_READY" or id_row.get("sha256") != source_sha:
         raise CanonicalError("UPSTREAM_DEDUP_VERIFICATION_FAILED", "ingest state or document map is inconsistent")
-    match = SourceRegistry(
+    registry = source_registry or SourceRegistry(
         context.paths.source_registry_path,
         active_document_ids=active_document_ids(context.root),
-    ).find(DedupKey.from_metadata(metadata))
+    )
+    match = registry.find(DedupKey.from_metadata(metadata))
     if match is not None and match.strength in {"EXACT", "STRONG"}:
         raise CanonicalError(
             "UPSTREAM_DEDUP_VERIFICATION_FAILED",
@@ -119,7 +126,7 @@ def validate_chunk_files(
         )
         expected = chunk_id(
             document_id, str(row.get("chunk_type") or ""), list(row.get("source_elements") or []),
-            str(row.get("text") or ""), policy,
+            str(row.get("text") or ""), policy, row.get("chunk_identity_part"),
         )
         if cid != expected:
             raise CanonicalError("CHUNK_INTEGRITY_FAILED", f"chunk id does not recompute: {cid}")
@@ -158,7 +165,11 @@ def document_digest(record: Mapping[str, Any]) -> str:
 
 
 def inspect_candidate(
-    context: CanonicalContext, staging_dir: Path, *, existing_documents: Iterable[Mapping[str, Any]] = (),
+    context: CanonicalContext,
+    staging_dir: Path,
+    *,
+    existing_documents: Iterable[Mapping[str, Any]] = (),
+    source_registry: SourceRegistry | None = None,
 ) -> CanonicalPromotionCandidate:
     document_id = staging_dir.name
     try:
@@ -282,7 +293,9 @@ def inspect_candidate(
         if bundle.get("chunk_count") != len(identities) or chunk_quality.get("chunk_count") != len(identities):
             raise CanonicalError("CHUNK_INTEGRITY_FAILED", "declared chunk counts differ")
 
-        ledger_digest = _validate_ledgers(context, metadata, source_sha)
+        ledger_digest = _validate_ledgers(
+            context, metadata, source_sha, source_registry=source_registry,
+        )
         inputs = [
             _identity(context, bundle_path), _identity(context, original_json_path), _identity(context, source_path),
             *(_identity(context, path) for path in required_staged),
@@ -403,7 +416,22 @@ def discover_candidates(
         directories = sorted(path for path in root.iterdir() if path.is_dir() or path.is_symlink())
     else:
         directories = []
-    return tuple(inspect_candidate(context, path, existing_documents=existing_documents) for path in directories)
+    # Verifying active source identities hashes the authoritative originals. At
+    # corpus scale that projection must be computed once per planning pass, not
+    # once per candidate (which would turn N candidates into N full-corpus scans).
+    registry = SourceRegistry(
+        context.paths.source_registry_path,
+        active_document_ids=active_document_ids(context.root),
+    )
+    return tuple(
+        inspect_candidate(
+            context,
+            path,
+            existing_documents=existing_documents,
+            source_registry=registry,
+        )
+        for path in directories
+    )
 
 
 __all__ = ["discover_candidates", "document_digest", "inspect_candidate", "validate_chunk_files"]

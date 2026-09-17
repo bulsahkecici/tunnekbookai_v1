@@ -1,0 +1,171 @@
+{
+  "final_primary_section": "2.1.2",
+  "final_secondary_sections": [
+    "2.2.2",
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "PARA0006",
+        "PARA0014",
+        "FIG0008",
+        "CAPT0007",
+        "FIG0009",
+        "PARA0015",
+        "LIST0019",
+        "LIST0024",
+        "LIST0027",
+        "LIST0028",
+        "LIST0032"
+      ]
+    },
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0002",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "HEAD0003",
+        "PARA0009",
+        "FIG0002",
+        "CAPT0001",
+        "FIG0003",
+        "CAPT0002",
+        "FIG0004",
+        "CAPT0003",
+        "PARA0011",
+        "FIG0005",
+        "CAPT0004",
+        "FIG0007",
+        "CAPT0005",
+        "PARA0012",
+        "HEAD0006",
+        "PARA0013",
+        "PARA0014"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0004",
+        "PARA0006",
+        "PARA0015",
+        "LIST0013",
+        "LIST0014",
+        "LIST0017",
+        "LIST0018",
+        "LIST0019",
+        "LIST0024",
+        "LIST0027",
+        "LIST0028",
+        "LIST0034",
+        "LIST0036",
+        "LIST0037",
+        "LIST0038"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1.2",
+      "score": 0.7261,
+      "rule_score": 0.6,
+      "embedding_score": 0.7691,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.6316,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7685,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.4144,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4219
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.3619,
+      "rule_score": 0.0,
+      "embedding_score": 0.7948,
+      "chunk_vote": 0.0211
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3484,
+      "rule_score": 0.0,
+      "embedding_score": 0.7743,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.3484,
+      "rule_score": 0.0,
+      "embedding_score": 0.7742,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3462,
+      "rule_score": 0.0,
+      "embedding_score": 0.7626,
+      "chunk_vote": 0.0151
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3446,
+      "rule_score": 0.0,
+      "embedding_score": 0.7658,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3432,
+      "rule_score": 0.0,
+      "embedding_score": 0.7627,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3152,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0482
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, kalkan tünel segmentlerinin yapısal davranışını, bağlantı elemanlarını (civalar) ve zemin etkileşimini model testlerle incelemektedir. Bu, tünelin yapısal bütünlüğü ve destekleme elemanları (segmentler ve bağlantıları) ile doğrudan ilgilidir. Ayrıca, yumuşak zemin katmanlarının oturmaya etkisi analiz edildiği için 'Yumuşak Zeminde Açılan Tüneller' bölümü ikincil olarak seçilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.1.2:0.7261 gap=0.094 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,124 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.4.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0077",
+        "LIST0078",
+        "LIST0079"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "LIST0004",
+        "LIST0007",
+        "LIST0056",
+        "LIST0059",
+        "LIST0062"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9.2",
+      "score": 0.7254,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7994,
+      "chunk_vote": 0.0506
+    },
+    {
+      "id": "5.4",
+      "score": 0.6855,
+      "rule_score": 0.5,
+      "embedding_score": 0.8012,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.4815,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.6573
+    },
+    {
+      "id": "1",
+      "score": 0.3762,
+      "rule_score": 0.0,
+      "embedding_score": 0.8045,
+      "chunk_vote": 0.0708
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3667,
+      "rule_score": 0.0,
+      "embedding_score": 0.8149,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3664,
+      "rule_score": 0.0,
+      "embedding_score": 0.8143,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3637,
+      "rule_score": 0.0,
+      "embedding_score": 0.8083,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.3603,
+      "rule_score": 0.0,
+      "embedding_score": 0.8006,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3602,
+      "rule_score": 0.0,
+      "embedding_score": 0.8005,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.3418,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.059
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC Yol Tünelleri El Kitabı'ndan olup 'Traffic management' (Trafik Yönetimi) başlığı altında tünellerdeki trafik işaretleri, sinyalleri ve kontrol sistemlerini ele almaktadır. Bu içerik, tünel işletme ve bakım süreçlerinin bir parçası olarak değerlendirildiğinden 'Tünel Bakım-Onarım ve İşletme' (5.4) bölümüne aittir. Ayrıca trafik yönetim sistemlerinin elektrik-elektronik altyapı ile iliş",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:5",
+    "embeddings:8",
+    "top=5.9.2:0.7254 gap=0.040 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

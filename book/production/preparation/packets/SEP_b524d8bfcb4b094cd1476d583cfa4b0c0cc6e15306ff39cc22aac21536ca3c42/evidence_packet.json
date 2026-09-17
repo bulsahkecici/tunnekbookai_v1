@@ -1,0 +1,650 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_137fd0327cee86881ec76143cfdbdf355fc616a9b6926b5f8521178e198fd59b",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 22,
+    "SUPPORTED": 5,
+    "UNSUPPORTED": 23
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_b524d8bfcb4b094cd1476d583cfa4b0c0cc6e15306ff39cc22aac21536ca3c42",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_bc1d971f49e4d735d8c3e59d3e57520a53e251cdd4f74de3b0ab39c62020ee42",
+        "CLM_94f72a089e5e95c9c897a9e79cc351353eadbcff942c4d8de17f66d83477923c"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım kavramının kapsamı ve temel amacı nedir?",
+      "question_id": "5.4.3-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım tünel güvenliği açısından neden gereklidir?",
+      "question_id": "5.4.3-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım hizmet sürekliliği açısından neden gereklidir?",
+      "question_id": "5.4.3-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8f2971732d3be09a77ee5f1be1b93cc523cff452485337034b827ff2eef8d0f7"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım kapsamında hangi yapısal bileşenler dikkate alınır?",
+      "question_id": "5.4.3-Q04",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8b2deb7e45a5255ae0a3411c9db3ca784fc86d6293c8c180cab7f043ce6b271f",
+        "CLM_bc1d971f49e4d735d8c3e59d3e57520a53e251cdd4f74de3b0ab39c62020ee42"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım kapsamında hangi elektrik sistemleri dikkate alınır?",
+      "question_id": "5.4.3-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım kapsamında hangi elektronik sistemler dikkate alınır?",
+      "question_id": "5.4.3-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım kapsamında hangi elektromekanik sistemler dikkate alınır?",
+      "question_id": "5.4.3-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım kapsamında havalandırma sistemleri nasıl ele alınır?",
+      "question_id": "5.4.3-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8b2deb7e45a5255ae0a3411c9db3ca784fc86d6293c8c180cab7f043ce6b271f",
+        "CLM_56b93ab62a96db05bdd087c566c625d30a6e6b85e9f8fe3fde022e24aa9ef25d",
+        "CLM_85dcafe2cbb6037352f5b96b5fedad0d4357124bfbe189f430e931c1d8fbce0a"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Periyodik Bakım kapsamında aydınlatma sistemleri nasıl ele alınır?",
+      "question_id": "5.4.3-Q09",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_97d5d0a9cc72158de936b4adf0c08afd8695df74c85a53ba7766313e4fcafb5c",
+        "CLM_5d90f003dee10c0e2fa375466dccc65a23938e916be259ea3979c3c220ecabe5",
+        "CLM_bf9dc1cc1d21d4508f9f74a0545ebb8da40043b8df15f4f197166b5c148698f7"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Periyodik Bakım kapsamında enerji dağıtım ve yedek güç sistemleri nasıl ele alınır?",
+      "question_id": "5.4.3-Q10",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_08badf61d84635bec7267b987d702db1859c5f7b36f57a3cc680fe93ac19cb3b"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım kapsamında yangın algılama ve söndürme sistemleri nasıl ele alınır?",
+      "question_id": "5.4.3-Q11",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_03dff6a7ae2e823ad77c71c606f0574873b2dd8e32d6f7d4d5d99fb496644bea"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım kapsamında kamera, haberleşme ve olay algılama sistemleri nasıl ele alınır?",
+      "question_id": "5.4.3-Q12",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_62f6ce0d3e1f18495a5ef70ab9cf379177cd9f1b244950e3a038679f16e71195"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım kapsamında drenaj, pompa ve su yalıtımı sistemleri nasıl ele alınır?",
+      "question_id": "5.4.3-Q13",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım kapsamında kaplama, derz ve yüzey bozulmaları nasıl izlenir?",
+      "question_id": "5.4.3-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım kapsamında portal ve yaklaşım bölgeleri nasıl ele alınır?",
+      "question_id": "5.4.3-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bc1d971f49e4d735d8c3e59d3e57520a53e251cdd4f74de3b0ab39c62020ee42",
+        "CLM_94f72a089e5e95c9c897a9e79cc351353eadbcff942c4d8de17f66d83477923c",
+        "CLM_151b75dfb4525066da15b18604b0ecd5fa44baf8cdc75b85b08be205ab7b082f"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Periyodik Bakım için bakım türleri nasıl sınıflandırılır?",
+      "question_id": "5.4.3-Q16",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım içinde rutin bakım ile periyodik bakım arasındaki fark nedir?",
+      "question_id": "5.4.3-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3f014a0387b17acc87c289b07e321629dd2c979de2066af5144705099ff1dab7"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım içinde önleyici bakım ile düzeltici bakım arasındaki fark nedir?",
+      "question_id": "5.4.3-Q18",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım içinde kestirimci bakım hangi verilerle uygulanabilir?",
+      "question_id": "5.4.3-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bc1d971f49e4d735d8c3e59d3e57520a53e251cdd4f74de3b0ab39c62020ee42",
+        "CLM_94f72a089e5e95c9c897a9e79cc351353eadbcff942c4d8de17f66d83477923c",
+        "CLM_151b75dfb4525066da15b18604b0ecd5fa44baf8cdc75b85b08be205ab7b082f",
+        "CLM_840433abf4facb7b01faaa3e726dce865b79b1563fd85c88fc4d9a8cd2a07e07"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Periyodik Bakım için bakım periyotları nasıl belirlenir?",
+      "question_id": "5.4.3-Q20",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_25ff83283e1155650557e224f744a4bc1d4a1dae2c1d6306589c3d27f92b5cb4",
+        "CLM_29fe362b972682e7b23c08db3aca183bcba97da8071d1f4ec5280f5e107aa400"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım için kritik ekipmanların önceliklendirilmesi nasıl yapılır?",
+      "question_id": "5.4.3-Q21",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım için arıza modları ve etkileri nasıl analiz edilir?",
+      "question_id": "5.4.3-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım için durum değerlendirme ve kondisyon puanlama sistemi nasıl kurulabilir?",
+      "question_id": "5.4.3-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2eb060607d840e75e6e384f9773ef4273109eded2449fc8762ed192a7206e27b"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım için sensör ve uzaktan izleme verileri nasıl kullanılabilir?",
+      "question_id": "5.4.3-Q24",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bc1d971f49e4d735d8c3e59d3e57520a53e251cdd4f74de3b0ab39c62020ee42",
+        "CLM_94f72a089e5e95c9c897a9e79cc351353eadbcff942c4d8de17f66d83477923c",
+        "CLM_806665838353b3e36432e88f35d1b5bd959c6e033cdefdbce20a6a54e088b334"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım için bakım kayıtlarında hangi bilgiler tutulmalıdır?",
+      "question_id": "5.4.3-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_840433abf4facb7b01faaa3e726dce865b79b1563fd85c88fc4d9a8cd2a07e07",
+        "CLM_6949556a13d4844a3f5162b1a66d64a3c675133d7f5b2153eef4d0f526527e78"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım için yedek parça yönetimi nasıl planlanmalıdır?",
+      "question_id": "5.4.3-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bc1d971f49e4d735d8c3e59d3e57520a53e251cdd4f74de3b0ab39c62020ee42",
+        "CLM_151b75dfb4525066da15b18604b0ecd5fa44baf8cdc75b85b08be205ab7b082f"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım için personel ve vardiya planlaması nasıl yapılmalıdır?",
+      "question_id": "5.4.3-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım için yüklenici ve hizmet alımı yönetimi nasıl yapılmalıdır?",
+      "question_id": "5.4.3-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_503974dd13781bbe0e5987fa2f34b5653567d6c650465d79b33a739b30f316df",
+        "CLM_2dc0e0d80e9000bb1ade4110fc90b6f22d84cc9695abbce7ce8f69421052a64b"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım sırasında trafik güvenliği nasıl sağlanmalıdır?",
+      "question_id": "5.4.3-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım sırasında şerit veya tünel kapatma kararları nasıl verilmelidir?",
+      "question_id": "5.4.3-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_aa299244a2f4cad40200d8d54d025aa7bf490386e931706982dca2859d2bc578",
+        "CLM_cc0581e20d8e61833312b43ba30e87abd3d431bec74a6fbe9384552d006e9587",
+        "CLM_006cdb8a62df172d96ad0129e1cd5996f4ceb123817f5046c4f45ec752b19147"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım sırasında iş sağlığı ve güvenliği riskleri nasıl yönetilmelidir?",
+      "question_id": "5.4.3-Q31",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım için acil müdahale ile planlı bakım nasıl koordine edilmelidir?",
+      "question_id": "5.4.3-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_109c69dacf1452b2a23f92a519ca47df3f371b6db88fa23c089c95cde20da650",
+        "CLM_5fbbb3068c1b542d896e6fb98c1096f6cba561132ed37e9c0513735228f4d8a8"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım performansı hangi göstergelerle ölçülmelidir?",
+      "question_id": "5.4.3-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bc1d971f49e4d735d8c3e59d3e57520a53e251cdd4f74de3b0ab39c62020ee42",
+        "CLM_94f72a089e5e95c9c897a9e79cc351353eadbcff942c4d8de17f66d83477923c"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım kapsamında kullanılabilirlik ve arıza süresi nasıl izlenmelidir?",
+      "question_id": "5.4.3-Q34",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d29d031406352b9477bb78ce1361b5ccd87478a2daee8d535be9899376d0fb9f",
+        "CLM_97d5d0a9cc72158de936b4adf0c08afd8695df74c85a53ba7766313e4fcafb5c"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Periyodik Bakım kapsamında enerji tüketimi hangi göstergelerle izlenmelidir?",
+      "question_id": "5.4.3-Q35",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım kapsamında bakım maliyeti hangi göstergelerle izlenmelidir?",
+      "question_id": "5.4.3-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_109c69dacf1452b2a23f92a519ca47df3f371b6db88fa23c089c95cde20da650"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım kapsamında arızaların tekrarlanma oranı nasıl izlenmelidir?",
+      "question_id": "5.4.3-Q37",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım kapsamında güvenlik olayları ve ramak kala kayıtları nasıl kullanılmalıdır?",
+      "question_id": "5.4.3-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım için denetim ve kabul kriterleri nelerdir?",
+      "question_id": "5.4.3-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım için mevzuat, standart ve teknik şartname gereklilikleri nelerdir?",
+      "question_id": "5.4.3-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_92de55514166345060ddb9e39167ead00ce99d0223c50c23b5f6d9e334fa13f2"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım için Karayolları Genel Müdürlüğü uygulamalarında hangi süreçler öne çıkar?",
+      "question_id": "5.4.3-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1262619d314c02ef76c4effa6672f6cdbfaf3d5ecbdbe4ee4ecfaf984d16fe1a"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım için enerji verimliliği hangi teknik önlemlerle artırılabilir?",
+      "question_id": "5.4.3-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım için otomasyon ve akıllı kontrol sistemleri hangi faydaları sağlayabilir?",
+      "question_id": "5.4.3-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f5962cb0bfa567e1461887cef423e2019d4b2aaac4a82bd9f412e870d8d559b5",
+        "CLM_954b995e2a0b3c870e5cd9768ba6976efa1541444e97b0811853932cfbba892f"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım için yaşam döngüsü maliyet yaklaşımı nasıl uygulanabilir?",
+      "question_id": "5.4.3-Q44",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım için bakım ertelemesinin teknik ve ekonomik sonuçları nelerdir?",
+      "question_id": "5.4.3-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0f1443231126db1a40e4a15b313caa3ce42e8ef9c53fe033cb0d79170b595ed7"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım için yenileme veya modernizasyon kararı hangi kriterlerle verilmelidir?",
+      "question_id": "5.4.3-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım sürdürülebilirlik ve karbon ayak izi açısından nasıl geliştirilebilir?",
+      "question_id": "5.4.3-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım konusunda Türkiye’den hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "5.4.3-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Periyodik Bakım konusunda dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "5.4.3-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f1e06c5ef5564d1f5406d9a34e085deb8ae95a9cfefc82912afc6a4878345375",
+        "CLM_01bb88075c164a988172165900ed4394eb4a2a0a66dcb9f8faf3a5c631aecec0"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Periyodik Bakım için optimum güvenlik, performans ve maliyet dengesi nasıl kurulabilir?",
+      "question_id": "5.4.3-Q50",
+      "reason_code": "PARTIAL_ONLY"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "5.4.3",
+  "section_title": "Periyodik Bakım",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_006cdb8a62df172d96ad0129e1cd5996f4ceb123817f5046c4f45ec752b19147",
+      "CLM_01bb88075c164a988172165900ed4394eb4a2a0a66dcb9f8faf3a5c631aecec0",
+      "CLM_03dff6a7ae2e823ad77c71c606f0574873b2dd8e32d6f7d4d5d99fb496644bea",
+      "CLM_08badf61d84635bec7267b987d702db1859c5f7b36f57a3cc680fe93ac19cb3b",
+      "CLM_0f1443231126db1a40e4a15b313caa3ce42e8ef9c53fe033cb0d79170b595ed7",
+      "CLM_109c69dacf1452b2a23f92a519ca47df3f371b6db88fa23c089c95cde20da650",
+      "CLM_1262619d314c02ef76c4effa6672f6cdbfaf3d5ecbdbe4ee4ecfaf984d16fe1a",
+      "CLM_151b75dfb4525066da15b18604b0ecd5fa44baf8cdc75b85b08be205ab7b082f",
+      "CLM_25ff83283e1155650557e224f744a4bc1d4a1dae2c1d6306589c3d27f92b5cb4",
+      "CLM_29fe362b972682e7b23c08db3aca183bcba97da8071d1f4ec5280f5e107aa400",
+      "CLM_2dc0e0d80e9000bb1ade4110fc90b6f22d84cc9695abbce7ce8f69421052a64b",
+      "CLM_2eb060607d840e75e6e384f9773ef4273109eded2449fc8762ed192a7206e27b",
+      "CLM_3f014a0387b17acc87c289b07e321629dd2c979de2066af5144705099ff1dab7",
+      "CLM_503974dd13781bbe0e5987fa2f34b5653567d6c650465d79b33a739b30f316df",
+      "CLM_56b93ab62a96db05bdd087c566c625d30a6e6b85e9f8fe3fde022e24aa9ef25d",
+      "CLM_5d90f003dee10c0e2fa375466dccc65a23938e916be259ea3979c3c220ecabe5",
+      "CLM_5fbbb3068c1b542d896e6fb98c1096f6cba561132ed37e9c0513735228f4d8a8",
+      "CLM_62f6ce0d3e1f18495a5ef70ab9cf379177cd9f1b244950e3a038679f16e71195",
+      "CLM_6949556a13d4844a3f5162b1a66d64a3c675133d7f5b2153eef4d0f526527e78",
+      "CLM_806665838353b3e36432e88f35d1b5bd959c6e033cdefdbce20a6a54e088b334",
+      "CLM_840433abf4facb7b01faaa3e726dce865b79b1563fd85c88fc4d9a8cd2a07e07",
+      "CLM_85dcafe2cbb6037352f5b96b5fedad0d4357124bfbe189f430e931c1d8fbce0a",
+      "CLM_8b2deb7e45a5255ae0a3411c9db3ca784fc86d6293c8c180cab7f043ce6b271f",
+      "CLM_8f2971732d3be09a77ee5f1be1b93cc523cff452485337034b827ff2eef8d0f7",
+      "CLM_92de55514166345060ddb9e39167ead00ce99d0223c50c23b5f6d9e334fa13f2",
+      "CLM_94f72a089e5e95c9c897a9e79cc351353eadbcff942c4d8de17f66d83477923c",
+      "CLM_954b995e2a0b3c870e5cd9768ba6976efa1541444e97b0811853932cfbba892f",
+      "CLM_97d5d0a9cc72158de936b4adf0c08afd8695df74c85a53ba7766313e4fcafb5c",
+      "CLM_aa299244a2f4cad40200d8d54d025aa7bf490386e931706982dca2859d2bc578",
+      "CLM_bc1d971f49e4d735d8c3e59d3e57520a53e251cdd4f74de3b0ab39c62020ee42",
+      "CLM_bf9dc1cc1d21d4508f9f74a0545ebb8da40043b8df15f4f197166b5c148698f7",
+      "CLM_cc0581e20d8e61833312b43ba30e87abd3d431bec74a6fbe9384552d006e9587",
+      "CLM_d29d031406352b9477bb78ce1361b5ccd87478a2daee8d535be9899376d0fb9f",
+      "CLM_f1e06c5ef5564d1f5406d9a34e085deb8ae95a9cfefc82912afc6a4878345375",
+      "CLM_f5962cb0bfa567e1461887cef423e2019d4b2aaac4a82bd9f412e870d8d559b5"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "5.4.3-Q01",
+      "5.4.3-Q04",
+      "5.4.3-Q05",
+      "5.4.3-Q11",
+      "5.4.3-Q12",
+      "5.4.3-Q13",
+      "5.4.3-Q18",
+      "5.4.3-Q21",
+      "5.4.3-Q24",
+      "5.4.3-Q25",
+      "5.4.3-Q26",
+      "5.4.3-Q27",
+      "5.4.3-Q29",
+      "5.4.3-Q31",
+      "5.4.3-Q33",
+      "5.4.3-Q34",
+      "5.4.3-Q37",
+      "5.4.3-Q41",
+      "5.4.3-Q42",
+      "5.4.3-Q44",
+      "5.4.3-Q46",
+      "5.4.3-Q50"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "5.4.3-Q02",
+      "5.4.3-Q03",
+      "5.4.3-Q06",
+      "5.4.3-Q07",
+      "5.4.3-Q08",
+      "5.4.3-Q14",
+      "5.4.3-Q15",
+      "5.4.3-Q17",
+      "5.4.3-Q19",
+      "5.4.3-Q22",
+      "5.4.3-Q23",
+      "5.4.3-Q28",
+      "5.4.3-Q30",
+      "5.4.3-Q32",
+      "5.4.3-Q36",
+      "5.4.3-Q38",
+      "5.4.3-Q39",
+      "5.4.3-Q40",
+      "5.4.3-Q43",
+      "5.4.3-Q45",
+      "5.4.3-Q47",
+      "5.4.3-Q48",
+      "5.4.3-Q49"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "document_id": "ING_b19d8a57ecda6b4f6130",
+  "status": "PASS",
+  "chunk_count": 30,
+  "chunks_by_type": {
+    "TEXT_CHUNK": 16,
+    "TABLE_CHUNK": 2,
+    "FIGURE_CHUNK": 12
+  },
+  "token_stats": {
+    "min": 10,
+    "max": 1166,
+    "mean": 421.9,
+    "total": 12658
+  },
+  "policy": {
+    "chunk_schema_version": "1.0",
+    "chunk_policy_version": "structure-aware-v1",
+    "tokenizer": "unicode-lexical-v1",
+    "target_tokens": 850,
+    "min_tokens": 250,
+    "max_tokens": 1200,
+    "hard_max_tokens": 1500,
+    "overlap_tokens": 80
+  },
+  "deduplicated_chunks": [
+    {
+      "chunk_id": "ING_b19d8a57ecda6b4f6130_CH_dc377e9bc4",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_b19d8a57ecda6b4f6130_CH_6e13d8efcf"
+    },
+    {
+      "chunk_id": "ING_b19d8a57ecda6b4f6130_CH_6b06d02b81",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_b19d8a57ecda6b4f6130_CH_6e13d8efcf"
+    },
+    {
+      "chunk_id": "ING_b19d8a57ecda6b4f6130_CH_87a3288afb",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_b19d8a57ecda6b4f6130_CH_76330be2de"
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

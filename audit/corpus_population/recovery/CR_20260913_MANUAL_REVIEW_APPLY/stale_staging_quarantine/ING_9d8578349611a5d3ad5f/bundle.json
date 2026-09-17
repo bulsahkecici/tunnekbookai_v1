@@ -1,0 +1,34 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_9d8578349611a5d3ad5f",
+  "original_sha256": "9d8578349611a5d3ad5f8fa2736e96172f530180f05d90f671950e82ddbf23b4",
+  "source_kind": "EXTERNAL_DISCOVERY",
+  "format": "HTML",
+  "title": "The Simulation Analysis of Large Cross-Section Soft Rock Tunnel Excavation under the Bias Terrain",
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "2.4"
+  ],
+  "final_section_confidence": 0.85,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": false,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_9d8578349611a5d3ad5f",
+  "original_archive": "originals/ING_9d8578349611a5d3ad5f",
+  "chunks_authoritative_path": "processing/ING_9d8578349611a5d3ad5f/chunks/chunk_manifest.jsonl",
+  "chunk_count": 1,
+  "chunk_quality_status": "PASS",
+  "canonical_promoted": false
+}

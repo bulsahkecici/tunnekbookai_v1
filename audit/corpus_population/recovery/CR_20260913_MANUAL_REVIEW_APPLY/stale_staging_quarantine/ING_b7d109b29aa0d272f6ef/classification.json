@@ -1,0 +1,119 @@
+{
+  "final_primary_section": "2.4.1",
+  "final_secondary_sections": [
+    "2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": [
+        "PARA0026"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0010",
+        "HEAD0002",
+        "PARA0026",
+        "HEAD0012"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1",
+      "score": 0.3525,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2347
+    },
+    {
+      "id": "6.1",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.7639,
+      "chunk_vote": 0.0296
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3476,
+      "rule_score": 0.0,
+      "embedding_score": 0.7724,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3441,
+      "rule_score": 0.0,
+      "embedding_score": 0.7647,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3434,
+      "rule_score": 0.0,
+      "embedding_score": 0.7632,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3417,
+      "rule_score": 0.0,
+      "embedding_score": 0.7593,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3407,
+      "rule_score": 0.0,
+      "embedding_score": 0.757,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3396,
+      "rule_score": 0.0,
+      "embedding_score": 0.7546,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.338,
+      "rule_score": 0.0,
+      "embedding_score": 0.751,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3046,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.148
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Jragung Barajı tahliye tüneli için yüzey ve yeraltı mühendislik jeolojik karakterizasyonuna (RMR ve Q sınıflandırmaları) odaklanmaktadır. Bu içerik doğrudan 'Jeolojik ve Geoteknik İncelemeler' (2.4.1) bölümüne aittir. Ayrıca, jeolojik verilerden türetilen kazı yöntemi ve destek sistemi önerileri nedeniyle 'Tünel Yapı/Destek Elemanları' (2.1) ikincil bölüm olarak listelenmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:6",
+    "embeddings:8",
+    "top=2.1:0.3525 gap=0.003 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

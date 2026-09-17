@@ -1,0 +1,35 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_5d524bf61343305c4f9c",
+  "original_sha256": "5d524bf61343305c4f9c1a8fda2248659201b7fa0304f2a8c00b0c9559d8dbc4",
+  "source_kind": "MANUAL_INTERNAL",
+  "format": "PDF",
+  "title": "TÜRKİYE KARAYOLLARI TÜNELLERİNİN TARİHÇESİ VE TÜNEL GÜVENLİK KRİTERLERİ 1",
+  "final_primary_section": "3",
+  "final_secondary_sections": [
+    "1.4.2",
+    "5.4"
+  ],
+  "final_section_confidence": 0.95,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": true,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_5d524bf61343305c4f9c",
+  "original_archive": "originals/ING_5d524bf61343305c4f9c",
+  "chunks_authoritative_path": "processing/ING_5d524bf61343305c4f9c/chunks/chunk_manifest.jsonl",
+  "chunk_count": 12,
+  "chunk_quality_status": "PASS",
+  "canonical_promoted": false
+}

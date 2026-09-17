@@ -82,6 +82,84 @@ class OfficeRenderer:
         detail = (proc.stderr or proc.stdout or "").strip().splitlines()[-1:] or [""]
         return None, [f"OFFICE_RENDER_NO_OUTPUT:{detail[0][:120]}"]
 
+    def convert_to_xlsx(self, source: Path, out_dir: Path) -> tuple[Path | None, list[str]]:
+        """Convert a legacy XLS workbook to a temporary XLSX structural source.
+
+        The caller owns ``out_dir`` and removes it after openpyxl has loaded both the
+        formula and cached-value passes.  The immutable original is never modified.
+        """
+        if not self.available():
+            return None, ["XLS_CONVERSION_UNAVAILABLE"]
+        out_dir = out_dir.resolve()
+        out_dir.mkdir(parents=True, exist_ok=True)
+        profile = out_dir / "_lo_xls_profile"
+        command = [
+            str(self._binary), "--headless", "--norestore", "--invisible",
+            f"-env:UserInstallation={profile.as_uri()}",
+            "--convert-to", "xlsx", "--outdir", str(out_dir), str(Path(source).resolve()),
+        ]
+        try:
+            proc = subprocess.run(
+                command,
+                capture_output=True,
+                text=True,
+                timeout=self.timeout_seconds,
+                check=False,
+                encoding="utf-8",
+                errors="replace",
+            )
+        except subprocess.TimeoutExpired:
+            return None, ["XLS_CONVERSION_TIMEOUT"]
+        except Exception as exc:
+            return None, [f"XLS_CONVERSION_FAILED:{type(exc).__name__}"]
+        produced = out_dir / (Path(source).stem + ".xlsx")
+        if produced.is_file():
+            return produced, []
+        candidates = sorted(out_dir.glob("*.xlsx"))
+        if candidates:
+            return candidates[0], []
+        detail = (proc.stderr or proc.stdout or "").strip().splitlines()[-1:] or [""]
+        return None, [f"XLS_CONVERSION_NO_OUTPUT:{detail[0][:120]}"]
+
+    def convert_to_pptx(self, source: Path, out_dir: Path) -> tuple[Path | None, list[str]]:
+        """Convert a legacy binary PPT to a temporary PPTX structural source.
+
+        ``python-pptx`` intentionally supports OOXML only.  LibreOffice provides the
+        compatibility bridge while the original binary file remains untouched.
+        """
+        if not self.available():
+            return None, ["PPT_CONVERSION_UNAVAILABLE"]
+        out_dir = out_dir.resolve()
+        out_dir.mkdir(parents=True, exist_ok=True)
+        profile = out_dir / "_lo_ppt_profile"
+        command = [
+            str(self._binary), "--headless", "--norestore", "--invisible",
+            f"-env:UserInstallation={profile.as_uri()}",
+            "--convert-to", "pptx", "--outdir", str(out_dir), str(Path(source).resolve()),
+        ]
+        try:
+            proc = subprocess.run(
+                command,
+                capture_output=True,
+                text=True,
+                timeout=self.timeout_seconds,
+                check=False,
+                encoding="utf-8",
+                errors="replace",
+            )
+        except subprocess.TimeoutExpired:
+            return None, ["PPT_CONVERSION_TIMEOUT"]
+        except Exception as exc:
+            return None, [f"PPT_CONVERSION_FAILED:{type(exc).__name__}"]
+        produced = out_dir / (Path(source).stem + ".pptx")
+        if produced.is_file():
+            return produced, []
+        candidates = sorted(out_dir.glob("*.pptx"))
+        if candidates:
+            return candidates[0], []
+        detail = (proc.stderr or proc.stdout or "").strip().splitlines()[-1:] or [""]
+        return None, [f"PPT_CONVERSION_NO_OUTPUT:{detail[0][:120]}"]
+
     def render_pages(
         self,
         source: Path,

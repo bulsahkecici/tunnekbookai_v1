@@ -1,0 +1,117 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.4.2",
+    "5.4.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4.1",
+      "section_title": "Yapısal Bakım",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.3339,
+      "rule_score": 0.0,
+      "embedding_score": 0.7419,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3265,
+      "rule_score": 0.0,
+      "embedding_score": 0.7255,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3246,
+      "rule_score": 0.0,
+      "embedding_score": 0.7213,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3243,
+      "rule_score": 0.0,
+      "embedding_score": 0.7206,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.3243,
+      "rule_score": 0.0,
+      "embedding_score": 0.7207,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3235,
+      "rule_score": 0.0,
+      "embedding_score": 0.7189,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3227,
+      "rule_score": 0.0,
+      "embedding_score": 0.7172,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.322,
+      "rule_score": 0.0,
+      "embedding_score": 0.7155,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3023,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1364
+    },
+    {
+      "id": "1",
+      "score": 0.2924,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5455
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, E10 Nappstraumtunnelen'in rehabilitasyon ve güvenlik ekipmanlarının yenilenmesi ihalesi hakkında bir haberdir. Bu, tünelin işletme ve bakım-onarım aşamasındaki çalışmaları (5.4) kapsamaktadır. Metinde özellikle elektrik tesisatı ve güvenlik ekipmanlarının yenilenmesinden (5.4.2) ve iç kaplamaların sökülüp yeni su/donma koruması yapılmasından (yapısal bakım/onarım, 5.4.1) bahsedilmektedir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:4",
+    "chunk_votes:5",
+    "embeddings:8",
+    "top=5.4.2:0.3339 gap=0.007 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

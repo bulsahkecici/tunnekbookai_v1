@@ -1,0 +1,95 @@
+{
+  "document_id": "ING_1b4596736bbcf61f370b",
+  "fields": [
+    {
+      "field": "title",
+      "value": "www.dergipark.gov.tr ISSN:2148-3736",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2020-04-04",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "explicit date literal in the document: 04.04.2020"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: journal of"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "cost",
+        "fire_safety",
+        "inventory",
+        "operations",
+        "safety",
+        "standards",
+        "traffic",
+        "ventilation"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "safety:güvenlik; fire_safety:yangın; ventilation:havalandırma; traffic:trafik; operations:işletme; standards:standart; cost:maliyet; accident:kaza; inventory:envanter; tunnel_general:tünel"
+    },
+    {
+      "field": "doi",
+      "value": "10.31202/ecjse.714744",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

@@ -91,19 +91,22 @@ def normalize_for_id(text: str) -> str:
 
 
 def chunk_id(document_id: str, chunk_type: str, source_elements: list[str],
-             text: str, policy: ChunkPolicy) -> str:
+             text: str, policy: ChunkPolicy, identity_part: str | None = None) -> str:
     """Deterministic id from identity + type + source boundaries + policy + content (§61).
 
     A pure ordinal would silently reuse an id when the content changes; hashing the source
     element boundaries AND the normalized text means a changed chunk gets a changed id.
     """
-    payload = "␟".join([
+    fields = [
         document_id,
         chunk_type,
         ",".join(source_elements),
         policy.policy_version,
         policy.schema_version,
-        normalize_for_id(text),
-    ])
+    ]
+    if identity_part is not None:
+        fields.append(identity_part)
+    fields.append(normalize_for_id(text))
+    payload = "␟".join(fields)
     digest = hashlib.sha256(payload.encode("utf-8")).hexdigest()
     return f"{document_id}_CH_{digest[:10]}"

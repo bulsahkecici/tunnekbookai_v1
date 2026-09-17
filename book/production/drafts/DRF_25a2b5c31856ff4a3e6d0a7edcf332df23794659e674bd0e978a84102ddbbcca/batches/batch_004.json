@@ -1,0 +1,208 @@
+{
+  "batch_number": 4,
+  "claim_ids": [
+    "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+    "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+    "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493",
+    "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092",
+    "CLM_43c97a5fab4a77bfd85ce48405c079bfb4782dafda367e70020f13eda3c5d50a",
+    "CLM_7c2be707b740ef81cb28e6dc5bba2b1f886644291fbf72923737191b8a61b5f3",
+    "CLM_319234efac3a6a1db886f64478ceb512601ae8e7fd34737a1bc3286304cec42b",
+    "CLM_0b5309ce35274ad47546dcecb54736000120f4a1513bc4193e4efd46f9173b82",
+    "CLM_67aa9188a918c5f718f55e572e0175de1ec6e771b40a35238d12a5415d511a28",
+    "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9",
+    "CLM_7031f6e1e062c50056ceee802b43d660def1de3d56de8cd27d85895573c6b670"
+  ],
+  "paragraphs": [
+    [
+      {
+        "claim_ids": [
+          "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+          "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+        ],
+        "question_ids": [
+          "1.1-Q26"
+        ],
+        "text": "Tünelin tanımı, yeraltı boşluğunun oluşturulması ve bu boşluğu çevreleyen ana kayanın mühendislik açısından güvenli bir taşıyıcı sistem olarak değerlendirilmesi üzerine kuruludur."
+      },
+      {
+        "claim_ids": [
+          "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+          "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+        ],
+        "question_ids": [
+          "1.1-Q26"
+        ],
+        "text": "Bu bağlamda, doğal ortamın kendisini taşıyabilme kapasitesine göre çeşitli destekleme ve sağlamlaştırma yöntemleri ile bir taşıyıcı kabuk sistemi oluşturulması, tanımın temel unsurlarından biridir."
+      },
+      {
+        "claim_ids": [
+          "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+        ],
+        "question_ids": [
+          "1.1-Q26"
+        ],
+        "text": "Farklı meslek grupları tüneli; yaratılan mekan, taşıyıcı kabuk, kazılması gereken ortam veya doğal ortam olarak farklı disiplinler üzerinden temsil etmektedir."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_43c97a5fab4a77bfd85ce48405c079bfb4782dafda367e70020f13eda3c5d50a"
+        ],
+        "question_ids": [
+          "1.1-Q29"
+        ],
+        "text": "Uluslararası literatürde tünel için mutabakat sağlanmış tek bir tanım bulunmamakla birlikte, genel anlamıyla yeraltından kazı yapılarak oluşturulan geçitler olarak ele alınmaktadır."
+      },
+      {
+        "claim_ids": [
+          "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493",
+          "CLM_43c97a5fab4a77bfd85ce48405c079bfb4782dafda367e70020f13eda3c5d50a"
+        ],
+        "question_ids": [
+          "1.1-Q29"
+        ],
+        "text": "Terminoloji, farklı disiplinlerin tüneli iç boşluk, taşıyıcı kabuk veya doğal ortam olarak farklı şekillerde tanımlamasından kaynaklanan çeşitlilik göstermektedir."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092",
+          "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9"
+        ],
+        "question_ids": [
+          "1.1-Q30"
+        ],
+        "text": "Tünel tanımları, yeraltı yapılarına ait şartnamelerde ve teknik kılavuzlarda yer almaktadır."
+      },
+      {
+        "claim_ids": [
+          "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092",
+          "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9"
+        ],
+        "question_ids": [
+          "1.1-Q30"
+        ],
+        "text": "Bu standartlarda tünel, yeraltında kazı ile boşluk oluşturulması ve desteklenmesiyle inşa edilen yapı olarak tanımlanırken, kapsamı belirleyen esaslar da belirtilmektedir."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_43c97a5fab4a77bfd85ce48405c079bfb4782dafda367e70020f13eda3c5d50a"
+        ],
+        "question_ids": [
+          "1.1-Q32"
+        ],
+        "text": "Uluslararası tünel mühendisliği literatüründe tünel, mutabakat sağlanmış tek bir tanımı olmamakla birlikte, yeraltından kazı yapılarak oluşturulan geçitler olarak genel bir çerçevede ele alınmaktadır."
+      },
+      {
+        "claim_ids": [
+          "CLM_43c97a5fab4a77bfd85ce48405c079bfb4782dafda367e70020f13eda3c5d50a",
+          "CLM_7c2be707b740ef81cb28e6dc5bba2b1f886644291fbf72923737191b8a61b5f3"
+        ],
+        "question_ids": [
+          "1.1-Q32"
+        ],
+        "text": "Bu yapılar, doğal engellerin aşılmasını sağlayarak iki yerleşim birimi arasında kesintisiz bağlantı kurma işlevi görmektedir."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+        ],
+        "question_ids": [
+          "1.1-Q33"
+        ],
+        "text": "Tünel tanımı konusunda, yeraltı boşluğu, taşıyıcı kabuk sistemi, kazılması gereken ortam ve doğal ortam arasındaki ayrım sıkça karıştırılan unsurlar arasında yer almaktadır."
+      },
+      {
+        "claim_ids": [
+          "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+        ],
+        "question_ids": [
+          "1.1-Q33"
+        ],
+        "text": "Ayrıca, açık kapalı tünel olarak tanımlanan yapılar ile tam yeraltı kazısı gerektiren yapılar arasındaki terminolojik farklar dikkat edilmesi gereken noktalar arasındadır."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+          "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+        ],
+        "question_ids": [
+          "1.1-Q34"
+        ],
+        "text": "Tünelin tanımı, yalnızca fiziksel boşluk olarak değil, mühendislik açısından güvenli taşıyıcı sistemler bütünü olarak değerlendirilmelidir."
+      },
+      {
+        "claim_ids": [
+          "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+          "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+        ],
+        "question_ids": [
+          "1.1-Q34"
+        ],
+        "text": "Doğal ortamın kendisini taşıyabilme kapasitesinin göz ardı edilmesi, tanımın eksik anlaşılmaya yol açabileceği önemli bir noktadır."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_67aa9188a918c5f718f55e572e0175de1ec6e771b40a35238d12a5415d511a28"
+        ],
+        "question_ids": [
+          "1.1-Q35"
+        ],
+        "text": "Teknik çizimlerde tünel, tip kesiti, cephesi ve bağlantı detaylarını içeren yapısal mühendislik çizimleri ile gösterilmektedir."
+      },
+      {
+        "claim_ids": [
+          "CLM_0b5309ce35274ad47546dcecb54736000120f4a1513bc4193e4efd46f9173b82",
+          "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9"
+        ],
+        "question_ids": [
+          "1.1-Q35"
+        ],
+        "text": "Proje aşamasında tünelin güzergahı, profili ve kesiti belirlenerek, zemin ve jeolojik gözlem parametreleri tablo ve şemalarla belgelenmektedir."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9",
+          "CLM_7031f6e1e062c50056ceee802b43d660def1de3d56de8cd27d85895573c6b670"
+        ],
+        "question_ids": [
+          "1.1-Q36"
+        ],
+        "text": "Sözleşme ve ihale dokümanlarında tünel; ulaşım veya iletim amacıyla, projesinde öngörülmüş güzergahı, profili ve kesiti belirlenmiş, yer altı geçişini sağlayan yapı olarak tanımlanmalıdır."
+      },
+      {
+        "claim_ids": [
+          "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9",
+          "CLM_7031f6e1e062c50056ceee802b43d660def1de3d56de8cd27d85895573c6b670"
+        ],
+        "question_ids": [
+          "1.1-Q36"
+        ],
+        "text": "Bu tanım, yeraltı kazı, iksa, kaplama, koruma hücreleri ve havalandırma işlerini kapsayan esaslarla birlikte dokümantasyona geçirilmelidir."
+      }
+    ]
+  ],
+  "question_ids": [
+    "1.1-Q26",
+    "1.1-Q29",
+    "1.1-Q30",
+    "1.1-Q32",
+    "1.1-Q33",
+    "1.1-Q34",
+    "1.1-Q35",
+    "1.1-Q36"
+  ]
+}

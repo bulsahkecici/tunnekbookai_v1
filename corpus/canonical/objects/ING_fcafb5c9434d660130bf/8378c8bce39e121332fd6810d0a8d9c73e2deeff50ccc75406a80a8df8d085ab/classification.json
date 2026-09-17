@@ -1,0 +1,195 @@
+{
+  "final_primary_section": "5",
+  "final_secondary_sections": [
+    "5.6",
+    "5.5"
+  ],
+  "final_section_confidence": 0.8633,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5",
+      "section_title": "TÜNEL BAKIM-ONARIM VE İŞLETME MALİYETLERİ",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0009",
+        "PARA0013",
+        "LIST0005",
+        "LIST0007",
+        "LIST0011",
+        "LIST0012",
+        "LIST0013",
+        "LIST0014",
+        "LIST0015",
+        "LIST0016",
+        "LIST0017",
+        "LIST0018",
+        "LIST0020",
+        "HEAD0008",
+        "LIST0021",
+        "LIST0025",
+        "LIST0026",
+        "LIST0027",
+        "HEAD0010",
+        "LIST0028",
+        "LIST0029",
+        "LIST0030",
+        "LIST0031",
+        "LIST0032"
+      ]
+    },
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "LIST0003",
+        "LIST0004",
+        "LIST0005",
+        "LIST0006",
+        "LIST0008",
+        "LIST0012",
+        "LIST0028",
+        "LIST0029",
+        "LIST0030",
+        "LIST0031",
+        "LIST0033",
+        "LIST0034",
+        "LIST0035",
+        "LIST0037",
+        "LIST0038",
+        "LIST0039",
+        "TABLE0004",
+        "CAPT0002",
+        "LIST0043",
+        "LIST0050",
+        "LIST0054",
+        "LIST0055",
+        "LIST0057",
+        "LIST0058",
+        "LIST0059"
+      ]
+    },
+    {
+      "section_id": "5.5",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0009",
+        "PARA0013",
+        "LIST0011",
+        "LIST0013",
+        "LIST0015",
+        "LIST0018",
+        "LIST0020",
+        "HEAD0008",
+        "LIST0026",
+        "HEAD0010",
+        "LIST0035",
+        "TABLE0003",
+        "CAPT0001",
+        "HEAD0011",
+        "LIST0037",
+        "LIST0041",
+        "LIST0050",
+        "LIST0070",
+        "HEAD0020",
+        "LIST0071",
+        "HEAD0022",
+        "LIST0074",
+        "TABLE0006",
+        "CAPT0004"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5",
+      "score": 0.8633,
+      "rule_score": 0.6667,
+      "embedding_score": 0.7956,
+      "chunk_vote": 0.4428
+    },
+    {
+      "id": "5.6",
+      "score": 0.8147,
+      "rule_score": 0.6667,
+      "embedding_score": 0.8,
+      "chunk_vote": 0.1902
+    },
+    {
+      "id": "5.5",
+      "score": 0.3618,
+      "rule_score": 0.0,
+      "embedding_score": 0.8041,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3.5",
+      "score": 0.3603,
+      "rule_score": 0.0,
+      "embedding_score": 0.7941,
+      "chunk_vote": 0.0148
+    },
+    {
+      "id": "7.1",
+      "score": 0.3586,
+      "rule_score": 0.0,
+      "embedding_score": 0.7968,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3579,
+      "rule_score": 0.0,
+      "embedding_score": 0.7954,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.1",
+      "score": 0.3577,
+      "rule_score": 0.0,
+      "embedding_score": 0.7949,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2",
+      "score": 0.3551,
+      "rule_score": 0.0,
+      "embedding_score": 0.789,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3347,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0237
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3332,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0158
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Lower Thames Crossing projesi için işletme, bakım ve gelir maliyetlerini analiz etmektedir. Bu içerik, tünel mühendisliği bağlamında 'Tünel Bakım-Onarım ve İşletme Maliyetleri' (Bölüm 5) başlığıyla en yüksek örtüşmeye sahiptir. Bakım maliyetlerini etkileyen faktörler (rutin/yenileme ayrımı) ve genel maliyet yapısı, 5.6 ve 5.5 alt bölümleriyle de doğrudan ilgilidir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:21",
+    "embeddings:8",
+    "top=5:0.8633 gap=0.049 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

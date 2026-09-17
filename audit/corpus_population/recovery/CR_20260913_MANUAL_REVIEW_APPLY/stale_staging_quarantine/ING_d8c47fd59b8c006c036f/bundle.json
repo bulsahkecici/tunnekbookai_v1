@@ -1,0 +1,32 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_d8c47fd59b8c006c036f",
+  "original_sha256": "d8c47fd59b8c006c036f09be83fed7ee7fd3654016e8a6543caf32addd182c26",
+  "source_kind": "MANUAL_INTERNAL",
+  "format": "DOCX",
+  "title": "Microsoft Word - D.. Kapak.doc",
+  "final_primary_section": "2.4.2",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.747,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": true,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_d8c47fd59b8c006c036f",
+  "original_archive": "originals/ING_d8c47fd59b8c006c036f",
+  "chunks_authoritative_path": "processing/ING_d8c47fd59b8c006c036f/chunks/chunk_manifest.jsonl",
+  "chunk_count": 201,
+  "chunk_quality_status": "WARN",
+  "canonical_promoted": false
+}

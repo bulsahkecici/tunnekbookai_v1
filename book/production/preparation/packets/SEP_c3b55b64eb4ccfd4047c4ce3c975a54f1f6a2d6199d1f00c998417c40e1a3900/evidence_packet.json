@@ -1,0 +1,567 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_7d36011a6bf2d48deb50b8aadf15d8348964912d8df5c225b0abbb84edc3ad78",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 2,
+    "SUPPORTED": 1,
+    "UNSUPPORTED": 47
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_c3b55b64eb4ccfd4047c4ce3c975a54f1f6a2d6199d1f00c998417c40e1a3900",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri kapsamında maliyet kavramı nasıl tanımlanmalıdır?",
+      "question_id": "5.5.2.2-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri hangi maliyet kalemlerini içerir?",
+      "question_id": "5.5.2.2-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri kapsamında doğrudan maliyetler nelerdir?",
+      "question_id": "5.5.2.2-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri kapsamında dolaylı maliyetler nelerdir?",
+      "question_id": "5.5.2.2-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri kapsamında ilk yatırım maliyetleri nasıl ayrıştırılır?",
+      "question_id": "5.5.2.2-Q05",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri kapsamında bakım maliyetleri nasıl ayrıştırılır?",
+      "question_id": "5.5.2.2-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri kapsamında işletme maliyetleri nasıl ayrıştırılır?",
+      "question_id": "5.5.2.2-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri kapsamında yenileme ve büyük onarım maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.2.2-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri kapsamında personel maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.2.2-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri kapsamında enerji maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.2.2-Q10",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri kapsamında malzeme maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.2.2-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri kapsamında makine ve ekipman maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.2.2-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri kapsamında taşeron ve hizmet alımı maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.2.2-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri kapsamında trafik yönetimi ve güvenlik maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.2.2-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri kapsamında kapanma veya kapasite kaybı gibi kullanıcı maliyetleri dikkate alınmalı mıdır?",
+      "question_id": "5.5.2.2-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri kapsamında çevresel maliyetler nasıl değerlendirilebilir?",
+      "question_id": "5.5.2.2-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri için toplam maliyet ile birim maliyet arasındaki fark nasıl açıklanmalıdır?",
+      "question_id": "5.5.2.2-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri için TL/m, TL/km veya benzeri birim maliyet göstergeleri ne zaman kullanılmalıdır?",
+      "question_id": "5.5.2.2-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri farklı tünel uzunluklarında nasıl değişir?",
+      "question_id": "5.5.2.2-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri farklı tünel kesitlerinde nasıl değişir?",
+      "question_id": "5.5.2.2-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri farklı tüp ve şerit sayılarında nasıl değişir?",
+      "question_id": "5.5.2.2-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri farklı jeolojik ve geoteknik koşullarda nasıl değişir?",
+      "question_id": "5.5.2.2-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri farklı yapım yöntemlerinde nasıl değişir?",
+      "question_id": "5.5.2.2-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri farklı destek sınıflarında nasıl değişir?",
+      "question_id": "5.5.2.2-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri farklı elektromekanik donanım düzeylerinde nasıl değişir?",
+      "question_id": "5.5.2.2-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri trafik yoğunluğu ve işletme rejiminden nasıl etkilenir?",
+      "question_id": "5.5.2.2-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri yapım süresi veya işletme süresinden nasıl etkilenir?",
+      "question_id": "5.5.2.2-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri için baz yıl ve fiyat seviyesi nasıl tanımlanmalıdır?",
+      "question_id": "5.5.2.2-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri hesaplarında enflasyon etkisi nasıl düzeltilmelidir?",
+      "question_id": "5.5.2.2-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri hesaplarında döviz kuru etkisi nasıl ele alınmalıdır?",
+      "question_id": "5.5.2.2-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri hesaplarında iskonto oranı hangi durumlarda kullanılmalıdır?",
+      "question_id": "5.5.2.2-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri için net bugünkü değer yaklaşımı nasıl uygulanabilir?",
+      "question_id": "5.5.2.2-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_367be7c2105e0207ba6ff9e717e95552a9d10e406207f8ce09dc14fb38faef73",
+        "CLM_9b3359b684af37b903471f70e975e82bac24d64b277ebd86e50694d177bd8f97",
+        "CLM_6635da8260a9774f09dad47df3c021e1f13513df829e050845215547fe02af50",
+        "CLM_b736d5275cf5ca74565e3cba4b84e48b8d62821a3d643f1241ed2f452f10199f"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri için yaşam döngüsü maliyeti yaklaşımı nasıl uygulanabilir?",
+      "question_id": "5.5.2.2-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1e7a29c570e981d549037ca39a0d0718085fad3641575bf610ebd9c1d594eeb7",
+        "CLM_47889ee6c0bf247d2d51cc5014e7dad889f4ac4d8bded3fec9abc94faafc16c8",
+        "CLM_c5ed4199e409f4a2767c1f4cb14a38ced554d4188a0e25ac2b875162b48542e4",
+        "CLM_9620d218771a05562d756542e95e125ef8fe1b5d759f80a5ccb56a187c8dfdd0"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri hesaplarında hizmet ömrü nasıl belirlenmelidir?",
+      "question_id": "5.5.2.2-Q34",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6e1f35af48f8d5d276c1da0475931512c59d0ef0f242a8c56ebdd864b0cba8c7",
+        "CLM_c5ed4199e409f4a2767c1f4cb14a38ced554d4188a0e25ac2b875162b48542e4",
+        "CLM_fc1ae483ffc1c3a0c4aaece0f8d3f1162527d028b5540fa790e2350288ffeb73",
+        "CLM_e25fc1a685fbf86e97d95cadd90c022ae84d3c2f5e25989890bebcb58b8c28f0"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri hesaplarında yenileme periyotları nasıl belirlenmelidir?",
+      "question_id": "5.5.2.2-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri hesaplarında hurda veya kalıntı değer dikkate alınmalı mıdır?",
+      "question_id": "5.5.2.2-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri hesaplarında belirsizlik kaynakları nelerdir?",
+      "question_id": "5.5.2.2-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri için risk payı veya beklenmeyen giderler nasıl ele alınmalıdır?",
+      "question_id": "5.5.2.2-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri için duyarlılık analizi hangi değişkenlere uygulanmalıdır?",
+      "question_id": "5.5.2.2-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri için senaryo analizi nasıl kurulabilir?",
+      "question_id": "5.5.2.2-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri için maliyet verileri hangi kaynaklardan toplanmalıdır?",
+      "question_id": "5.5.2.2-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri için farklı yıllara ait veriler nasıl karşılaştırılabilir hale getirilmelidir?",
+      "question_id": "5.5.2.2-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri için farklı projeler arasındaki maliyet karşılaştırmasında hangi normalizasyonlar gerekir?",
+      "question_id": "5.5.2.2-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri için aykırı maliyet değerleri nasıl incelenmelidir?",
+      "question_id": "5.5.2.2-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri için temel maliyet sürücüleri istatistiksel olarak nasıl belirlenebilir?",
+      "question_id": "5.5.2.2-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri için maliyet tahmin modellerinin başarısı nasıl doğrulanmalıdır?",
+      "question_id": "5.5.2.2-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri Türkiye ve uluslararası örnekler arasında nasıl karşılaştırılabilir?",
+      "question_id": "5.5.2.2-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri bakımından maliyet azaltma fırsatları hangi aşamalarda ortaya çıkar?",
+      "question_id": "5.5.2.2-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri ile güvenlik ve kalite arasında nasıl bir denge kurulmalıdır?",
+      "question_id": "5.5.2.2-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri bölümünün sonunda karar vericiye hangi maliyet göstergeleri sunulmalıdır?",
+      "question_id": "5.5.2.2-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "5.5.2.2",
+  "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_1e7a29c570e981d549037ca39a0d0718085fad3641575bf610ebd9c1d594eeb7",
+      "CLM_367be7c2105e0207ba6ff9e717e95552a9d10e406207f8ce09dc14fb38faef73",
+      "CLM_47889ee6c0bf247d2d51cc5014e7dad889f4ac4d8bded3fec9abc94faafc16c8",
+      "CLM_6635da8260a9774f09dad47df3c021e1f13513df829e050845215547fe02af50",
+      "CLM_6e1f35af48f8d5d276c1da0475931512c59d0ef0f242a8c56ebdd864b0cba8c7",
+      "CLM_9620d218771a05562d756542e95e125ef8fe1b5d759f80a5ccb56a187c8dfdd0",
+      "CLM_9b3359b684af37b903471f70e975e82bac24d64b277ebd86e50694d177bd8f97",
+      "CLM_b736d5275cf5ca74565e3cba4b84e48b8d62821a3d643f1241ed2f452f10199f",
+      "CLM_c5ed4199e409f4a2767c1f4cb14a38ced554d4188a0e25ac2b875162b48542e4",
+      "CLM_e25fc1a685fbf86e97d95cadd90c022ae84d3c2f5e25989890bebcb58b8c28f0",
+      "CLM_fc1ae483ffc1c3a0c4aaece0f8d3f1162527d028b5540fa790e2350288ffeb73"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "5.5.2.2-Q33",
+      "5.5.2.2-Q35"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "5.5.2.2-Q01",
+      "5.5.2.2-Q02",
+      "5.5.2.2-Q03",
+      "5.5.2.2-Q04",
+      "5.5.2.2-Q05",
+      "5.5.2.2-Q06",
+      "5.5.2.2-Q07",
+      "5.5.2.2-Q08",
+      "5.5.2.2-Q09",
+      "5.5.2.2-Q10",
+      "5.5.2.2-Q11",
+      "5.5.2.2-Q12",
+      "5.5.2.2-Q13",
+      "5.5.2.2-Q14",
+      "5.5.2.2-Q15",
+      "5.5.2.2-Q16",
+      "5.5.2.2-Q17",
+      "5.5.2.2-Q18",
+      "5.5.2.2-Q19",
+      "5.5.2.2-Q20",
+      "5.5.2.2-Q21",
+      "5.5.2.2-Q22",
+      "5.5.2.2-Q23",
+      "5.5.2.2-Q24",
+      "5.5.2.2-Q25",
+      "5.5.2.2-Q26",
+      "5.5.2.2-Q27",
+      "5.5.2.2-Q28",
+      "5.5.2.2-Q29",
+      "5.5.2.2-Q30",
+      "5.5.2.2-Q31",
+      "5.5.2.2-Q32",
+      "5.5.2.2-Q36",
+      "5.5.2.2-Q37",
+      "5.5.2.2-Q38",
+      "5.5.2.2-Q39",
+      "5.5.2.2-Q40",
+      "5.5.2.2-Q41",
+      "5.5.2.2-Q42",
+      "5.5.2.2-Q43",
+      "5.5.2.2-Q44",
+      "5.5.2.2-Q45",
+      "5.5.2.2-Q46",
+      "5.5.2.2-Q47",
+      "5.5.2.2-Q48",
+      "5.5.2.2-Q49",
+      "5.5.2.2-Q50"
+    ]
+  }
+}

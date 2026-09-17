@@ -52,18 +52,47 @@ class LocalChatClient:
     def has_model(self, model: str) -> bool:
         return model in self.models()
 
-    def chat_json(self, model: str, system: str, user: str) -> dict[str, Any]:
+    def chat_json(
+        self,
+        model: str,
+        system: str,
+        user: str,
+        *,
+        response_schema: dict[str, Any] | None = None,
+        max_tokens: int = 1024,
+        reasoning_effort: str = "none",
+    ) -> dict[str, Any]:
         url = assert_loopback(f"{self.base_url}/chat/completions")
         payload = {
-            "model": model, "temperature": 0.1,
+            "model": model,
+            "temperature": 0.1,
+            "max_tokens": max_tokens,
+            # LM Studio exposes the loaded Qwen model with xhigh reasoning by default.
+            # Classification is a bounded choice, so hidden reasoning only adds latency
+            # and caused the production 90-second timeout observed on 2026-09-09.
+            "reasoning_effort": reasoning_effort,
+            "stream": False,
             "messages": [{"role": "system", "content": system},
                          {"role": "user", "content": user}],
         }
+        if response_schema is not None:
+            payload["response_format"] = {
+                "type": "json_schema",
+                "json_schema": {
+                    "name": "tunnelbookai_response",
+                    "strict": True,
+                    "schema": response_schema,
+                },
+            }
         request = urllib.request.Request(
             url, data=json.dumps(payload).encode("utf-8"),
             headers={"Content-Type": "application/json"}, method="POST")
-        with urllib.request.urlopen(request, timeout=self.timeout) as response:
-            body = json.loads(response.read().decode("utf-8"))
+        try:
+            with urllib.request.urlopen(request, timeout=self.timeout) as response:
+                body = json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode("utf-8", errors="replace")[:1000]
+            raise ValueError(f"local chat HTTP {exc.code}: {detail}") from exc
         content = body["choices"][0]["message"]["content"] or ""
         content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
         match = re.search(r"\{.*\}", content, re.DOTALL)
@@ -127,7 +156,30 @@ def arbitrate(
         + f"BELGE KANITI:\n{evidence_text[:8000]}"
     )
     try:
-        payload = client.chat_json(model, SYSTEM_PROMPT, user)
+        max_selected = int(cfg.get("max_selected_sections", 5))
+        schema = {
+            "type": "object",
+            "additionalProperties": False,
+            "required": ["primary_section", "secondary_sections", "confidence", "reason"],
+            "properties": {
+                "primary_section": {"type": "string", "enum": sorted(allowed)},
+                "secondary_sections": {
+                    "type": "array",
+                    "items": {"type": "string", "enum": sorted(allowed)},
+                    "maxItems": max(0, max_selected - 1),
+                },
+                "confidence": {"type": "number", "minimum": 0.0, "maximum": 1.0},
+                "reason": {"type": "string"},
+            },
+        }
+        payload = client.chat_json(
+            model,
+            SYSTEM_PROMPT,
+            user,
+            response_schema=schema,
+            max_tokens=int(cfg.get("max_tokens", 512)),
+            reasoning_effort=str(cfg.get("reasoning_effort", "none")),
+        )
     except RemoteEndpointRejected:
         raise
     except Exception as exc:
@@ -137,7 +189,6 @@ def arbitrate(
     if primary not in allowed or primary not in taxonomy:
         return ArbiterResult(REJECTED_INVALID_SECTION, model=model,
                              reason=f"arbiter returned {primary!r}, not in the candidate set")
-    max_selected = int(cfg.get("max_selected_sections", 5))
     secondary = [str(s) for s in (payload.get("secondary_sections") or [])
                  if str(s) in taxonomy and str(s) != primary][: max_selected - 1]
     confidence = payload.get("confidence")

@@ -14,6 +14,8 @@ import shutil
 import tempfile
 import unittest
 from pathlib import Path
+from types import SimpleNamespace
+from unittest import mock
 
 from tunnelbookai.ingest.adapters import AdapterContext, get_adapter
 from tunnelbookai.ingest.config import load_config
@@ -241,6 +243,76 @@ class PptxAdapterTests(AdapterHarness):
             self.assertIn("VISUAL_RENDERER_UNAVAILABLE", result.warnings)
         self.assertTrue(result.succeeded)
 
+    def test_docling_text_fallback_keeps_legacy_ppt_chunkable(self):
+        from tunnelbookai.ingest.adapters.pptx import _fallback_text_elements
+        from tunnelbookai.ingest.chunking.chunker import (
+            ChunkingContext,
+            build_text_chunks,
+        )
+        from tunnelbookai.ingest.chunking.policy import ChunkPolicy
+
+        elements = _fallback_text_elements(
+            "# Tünel Yapımı\n\nEski sunumdan çıkarılan okunabilir metin.", ""
+        )
+        chunks = build_text_chunks(
+            elements,
+            ChunkingContext(
+                document_id="ING_legacy_ppt",
+                original_sha256="0" * 64,
+                source_kind="MANUAL_INTERNAL",
+                final_primary_section="2.4",
+                format="PPT",
+                evidence_level="FULL_TEXT",
+            ),
+            ChunkPolicy(),
+        )
+
+        self.assertEqual([row["type"] for row in elements], ["heading", "paragraph"])
+        self.assertEqual(len(chunks), 1)
+        self.assertIn("Eski sunumdan", chunks[0]["text"])
+
+    def test_legacy_ppt_is_converted_before_structural_parse(self):
+        source = self.tmp / "legacy.ppt"
+        source.write_bytes(b"legacy-placeholder")
+        bundle = self.tmp / "legacy_ppt_bundle"
+        bundle.mkdir(exist_ok=True)
+        renderer = mock.Mock()
+        renderer.available.return_value = True
+
+        def convert_to_pptx(_source, out_dir):
+            converted = Path(out_dir) / "legacy.pptx"
+            shutil.copy(FIX / "sample.pptx", converted)
+            return converted, []
+
+        renderer.convert_to_pptx.side_effect = convert_to_pptx
+        renderer.render_pages.return_value = ([], [])
+        context = AdapterContext(
+            document_id="ING_legacyppt",
+            original_path=source,
+            original_filename="legacy.ppt",
+            bundle=bundle,
+            detection=SimpleNamespace(fmt=SimpleNamespace(value="PPT")),
+            config=self.config,
+            office_renderer=renderer,
+            root=PROJECT_ROOT,
+            do_ocr=False,
+            do_vision=False,
+        )
+        with mock.patch(
+            "tunnelbookai.ingest.adapters.pptx.docling_adapter.convert",
+        ) as convert:
+            result = get_adapter("pptx")(context)
+
+        self.assertTrue(result.succeeded, result.errors)
+        self.assertEqual(len(result.slides), 2)
+        self.assertTrue(result.engine["legacy_ppt_conversion"])
+        self.assertEqual(result.engine["docling_status"], "SKIPPED_LEGACY_NATIVE")
+        self.assertEqual(result.engine["native_parser"], "libreoffice+python-pptx")
+        self.assertEqual(result.engine["structural_authority"], "libreoffice_converted_pptx")
+        self.assertIn("PPT_CONVERTED_TO_PPTX", result.warnings)
+        convert.assert_not_called()
+        renderer.convert_to_pptx.assert_called_once()
+
 
 class XlsxAdapterTests(AdapterHarness):
     """§74 — multiple sheets, hidden sheet, formulas, coordinates, sheet JSON + CSV."""
@@ -302,6 +374,39 @@ class XlsxAdapterTests(AdapterHarness):
         self.assertTrue(result.capabilities["sheets"])
         for sheet in result.sheets:
             self.assertTrue((PROJECT_ROOT / sheet["structured_path"]).is_file())
+
+    def test_legacy_xls_is_converted_before_openpyxl_reads_it(self):
+        source = self.tmp / "legacy.xls"
+        source.write_bytes(b"legacy-placeholder")
+        bundle = self.tmp / "legacy_xls_bundle"
+        bundle.mkdir(exist_ok=True)
+        renderer = mock.Mock()
+        renderer.available.return_value = True
+
+        def convert_to_xlsx(_source, out_dir):
+            converted = Path(out_dir) / "legacy.xlsx"
+            shutil.copy(FIX / "sample.xlsx", converted)
+            return converted, []
+
+        renderer.convert_to_xlsx.side_effect = convert_to_xlsx
+        context = AdapterContext(
+            document_id="ING_legacyxls",
+            original_path=source,
+            original_filename="legacy.xls",
+            bundle=bundle,
+            detection=SimpleNamespace(fmt=SimpleNamespace(value="XLS")),
+            config=self.config,
+            office_renderer=renderer,
+            root=PROJECT_ROOT,
+        )
+        result = get_adapter("xlsx")(context)
+
+        self.assertTrue(result.succeeded, result.errors)
+        self.assertEqual(result.engine["native_parser"], "libreoffice+openpyxl")
+        self.assertTrue(result.engine["legacy_xls_conversion"])
+        self.assertIn("XLS_CONVERTED_TO_XLSX", result.warnings)
+        self.assertGreater(result.engine["formula_count"], 0)
+        renderer.convert_to_xlsx.assert_called_once()
 
 
 class ImageAdapterTests(AdapterHarness):

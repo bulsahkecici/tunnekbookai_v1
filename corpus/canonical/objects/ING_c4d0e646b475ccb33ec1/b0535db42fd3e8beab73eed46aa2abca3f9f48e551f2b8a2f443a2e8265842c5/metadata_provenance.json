@@ -1,0 +1,106 @@
+{
+  "document_id": "ING_c4d0e646b475ccb33ec1",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Kurp Elemanlarının Karayolu Yapım Maliyetine Etkisi: Erzurum İli Örneği",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Muhammed Yasin ÇODUR",
+        "Muhammet DALASLAN",
+        "Kadir Diler ALEMDAR"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2019",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "mixed",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: journal of"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "case_study",
+        "cost",
+        "maintenance",
+        "route_selection",
+        "safety",
+        "standards",
+        "support_systems",
+        "unit_price"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "route_selection:route selection; support_systems:support system; safety:safety; maintenance:bakım; standards:standart; cost:maliyet; unit_price:birim fiyat; case_study:case study; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://dergipark.org.tr/tr/pub/ecjse/article/504833",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.31202/ecjse.504833",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

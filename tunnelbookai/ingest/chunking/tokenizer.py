@@ -23,18 +23,20 @@ def count(text: str) -> int:
 
 
 def truncate_to(text: str, limit: int) -> str:
-    """Cut `text` at a whitespace boundary so it fits `limit` tokens."""
-    if count(text) <= limit:
-        return text
-    words = (text or "").split()
-    low, high = 0, len(words)
-    while low < high:
-        mid = (low + high + 1) // 2
-        if count(" ".join(words[:mid])) <= limit:
-            low = mid
-        else:
-            high = mid - 1
-    return " ".join(words[:low])
+    """Return a source-text prefix containing at most ``limit`` lexical tokens.
+
+    Cutting by whitespace-delimited words is unsafe for dense punctuation or binary-looking
+    input: one such "word" can contain thousands of lexical tokens and yield an empty prefix.
+    Token spans guarantee progress and preserve an exact prefix of the source string.
+    """
+    if limit <= 0 or not text:
+        return ""
+    cut = 0
+    for index, match in enumerate(TOKEN_RE.finditer(text), 1):
+        if index > limit:
+            return text[:cut].rstrip()
+        cut = match.end()
+    return text
 
 
 def tail_tokens(text: str, limit: int) -> str:

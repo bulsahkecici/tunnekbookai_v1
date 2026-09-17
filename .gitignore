@@ -29,6 +29,8 @@ data/qdrant_storage/
 data/qdrant_snapshots/
 data/embeddings/
 data/embeddings_pilot/
+book/retrieval/builds/
+book/retrieval/indexes/
 data/temp/
 data/temporary/*
 !data/temporary/.gitkeep
@@ -66,3 +68,9 @@ audit/ingest_dry_run.json
 audit/unified_ingest_quality.json
 audit/embedding_ready_manifest.jsonl
 audit/canonical_promotions/canonical.lock
+audit/corpus_population/population.lock
+# Local rollback archives can exceed 1 GB; keep them on disk, not in Git.
+audit/corpus_population/recovery/**/*.tar
+audit/dashboard/
+test-results/
+playwright-report/

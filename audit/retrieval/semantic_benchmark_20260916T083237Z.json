@@ -1,0 +1,804 @@
+{
+  "schema_version": "1.0",
+  "benchmark_version": "book-retrieval-v1-fixed-queries",
+  "created_at": "2026-09-16T08:32:37+00:00",
+  "index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+  "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+  "model_id": "text-embedding-baai-bge-m3-568m",
+  "case_count": 4,
+  "passed_case_count": 4,
+  "passed": true,
+  "cases": [
+    {
+      "id": "chapter_3_history",
+      "section": "3",
+      "query": "Karayolları Genel Müdürlüğü tünellerinin tarihsel gelişimi Ovit ve Zigana tünelleri",
+      "expected_document_ids": [
+        "ING_62c2a5de1e2d13c0013a",
+        "ING_7d7c44992e83c7185c41"
+      ],
+      "passed": true,
+      "expected_document_found": [
+        "ING_62c2a5de1e2d13c0013a",
+        "ING_7d7c44992e83c7185c41"
+      ],
+      "result_count": 10,
+      "top_score": 0.657589,
+      "results": [
+        {
+          "canonical_line_number": 19,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_62c2a5de1e2d13c0013a/e30f9de77e9e4e97cc5a4af909e159dc199937a282cb129edc6c021936b86ac4/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_62c2a5de1e2d13c0013a_CH_2cfbfad57d",
+          "chunk_type": "FIGURE_CHUNK",
+          "document_id": "ING_62c2a5de1e2d13c0013a",
+          "embedding_text_sha256": "7a0d423e046f33d7ef7a18b5727c749249f706ed5272d366ddd2f0cc4a022694",
+          "page_end": 6,
+          "page_start": 6,
+          "secondary_section_ids": [
+            "1.4.2"
+          ],
+          "section_id": "3",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.657589,
+          "snippet": "Ovit ve Zigana Tünellerinin Uluslararası Önemi Şekil: Harita 3. İpek Yolu güzergahı ve Ovit - Zigana Tünelleri Harita 3. İpek Yolu güzergahı ve Ovit - Zigana Tünelleri URAL DAGLARI ALTAY DAGLARI Gobi Çola AFRIKA UMMAN DENIZI HNDISTAN PASiFlK OKYANUSU HINT OKYANUSU Akunce TOu W"
+        },
+        {
+          "canonical_line_number": 16,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_62c2a5de1e2d13c0013a/e30f9de77e9e4e97cc5a4af909e159dc199937a282cb129edc6c021936b86ac4/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_62c2a5de1e2d13c0013a_CH_dcc79c66a7",
+          "chunk_type": "FIGURE_CHUNK",
+          "document_id": "ING_62c2a5de1e2d13c0013a",
+          "embedding_text_sha256": "93aa885257f3102b55a9859b16971599d75d9224b7930069d19ed361d6fc94c9",
+          "page_end": 3,
+          "page_start": 3,
+          "secondary_section_ids": [
+            "1.4.2"
+          ],
+          "section_id": "3",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.64467,
+          "snippet": "Yeni Zigan a Tüneli Şekil: Harita 1. Ovit Tüneli ve Zigana Tüneli Harita 1. Ovit Tüneli ve Zigana Tüneli KARADENIZ Zigana Tüneli Maçka Ovit Tüneli Artvin Gümüşhane Erzurum Bayburt"
+        },
+        {
+          "canonical_line_number": 21,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_62c2a5de1e2d13c0013a/e30f9de77e9e4e97cc5a4af909e159dc199937a282cb129edc6c021936b86ac4/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_62c2a5de1e2d13c0013a_CH_131247f04d",
+          "chunk_type": "FIGURE_CHUNK",
+          "document_id": "ING_62c2a5de1e2d13c0013a",
+          "embedding_text_sha256": "7385f5043fb07990f8c412aff267a66b85a62f7b45e97a30e381c50c02c9a551",
+          "page_end": 7,
+          "page_start": 7,
+          "secondary_section_ids": [
+            "1.4.2"
+          ],
+          "section_id": "3",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.642541,
+          "snippet": "Ovit ve Zigana Tünellerinin Uluslararası Önemi Şekil: Harita 5. Türkiye -AsyaYolu ve OvitZigana Tünelleri Harita 5. Türkiye -AsyaYolu ve OvitZigana Tünelleri BULGARISTAN RUSYA FEGERASYONU Kaphule KARADENIZ MANISTAN lamit GORCISTAN Upak Eskipehir Arkara Yorget Amasya Sivas Ergincan Oganat Askale Ovat Abyaka Erzurum Aksaray AKDENIZ GKRK SURIYE IRAK Se kayuktan Sor koin"
+        },
+        {
+          "canonical_line_number": 20,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_62c2a5de1e2d13c0013a/e30f9de77e9e4e97cc5a4af909e159dc199937a282cb129edc6c021936b86ac4/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_62c2a5de1e2d13c0013a_CH_259da117d5",
+          "chunk_type": "FIGURE_CHUNK",
+          "document_id": "ING_62c2a5de1e2d13c0013a",
+          "embedding_text_sha256": "8ea539a1340a1ed3bd571d3356f2d867bcb596b9fb42b32a71802a9b6e164999",
+          "page_end": 7,
+          "page_start": 7,
+          "secondary_section_ids": [
+            "1.4.2"
+          ],
+          "section_id": "3",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.628273,
+          "snippet": "Ovit ve Zigana Tünellerinin Uluslararası Önemi Şekil: Harita 4. TRACECA ve ZiganaOvit Tünelleri Harita 4. TRACECA ve ZiganaOvit Tünelleri NYATAN UKRAYNA RUSYA FEDERASYONU AZAK DENZI KARADENIZ Istanbul HAAR NHR GORCISTAN Trabzon Rize Zigahat TURKIYE Goma Baku AKDENIZ SURIVE Tahrad Dgar Okow"
+        },
+        {
+          "canonical_line_number": 8,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_7d7c44992e83c7185c41_CH_60ae3cd126",
+          "chunk_type": "FIGURE_CHUNK",
+          "document_id": "ING_7d7c44992e83c7185c41",
+          "embedding_text_sha256": "d84d0d6069d137f7923c1c7f8dbb7a648f2a15252c68e39cdf269f5c8cf13af7",
+          "page_end": 4,
+          "page_start": 4,
+          "secondary_section_ids": [
+            "1.4.2"
+          ],
+          "section_id": "3",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.624167,
+          "snippet": "1.1. Yeni Zigana Tüneli'nin Konumu ve Çevresinin Coğrafi Özellikleri Şekil: Foto 1: Eski Zigana Tüneli Foto 1: Eski Zigana Tüneli"
+        },
+        {
+          "canonical_line_number": 9,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_7d7c44992e83c7185c41_CH_5fc9840dbd",
+          "chunk_type": "FIGURE_CHUNK",
+          "document_id": "ING_7d7c44992e83c7185c41",
+          "embedding_text_sha256": "72ed0d4c1e0bf0261f04e9e7d18bcdd9426c980436d3440c075cc5f05a0bef48",
+          "page_end": 5,
+          "page_start": 5,
+          "secondary_section_ids": [
+            "1.4.2"
+          ],
+          "section_id": "3",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.616613,
+          "snippet": "1.1. Yeni Zigana Tüneli'nin Konumu ve Çevresinin Coğrafi Özellikleri Şekil: Foto 2: Yeni Zigana Tüneli Foto 2: Yeni Zigana Tüneli ZIAN T"
+        },
+        {
+          "canonical_line_number": 11,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_2d34a0633f75dda8a904/749290df14dfd6ec851f85e845d6ca9d60304f7fe2c4bc414213a79033866477/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_2d34a0633f75dda8a904_CH_9f7c40d49d",
+          "chunk_type": "TABLE_CHUNK",
+          "document_id": "ING_2d34a0633f75dda8a904",
+          "embedding_text_sha256": "f1a76d614d21fb9e0c6df05d0b4215a0dcbba4604d725b5dc4c89d3f19511fc0",
+          "page_end": 2,
+          "page_start": 2,
+          "secondary_section_ids": [
+            "3",
+            "1.4.2"
+          ],
+          "section_id": "2.4.3",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.608603,
+          "snippet": "1. Giriş Tablo: Tablo 1. Türkiye'deki ulaşım amaçlı bazı tünel projeleri ve tünel uzunlukları Tablo 1. Türkiye'deki ulaşım amaçlı bazı tünel projeleri ve tünel uzunlukları Tünel Projesi Adı | Uzunluk (metre) | Tamamlanma Yılı Yeni Zigana Tüneli | 14481 | Devam ediyor Ovit Dağı Tüneli | 14000 | 2018 Kop Dağı Tüneli | 6500 | Devam ediyor Sabuncubeli Tüneli | 6480 | 2018 Avrasya Tüneli | 5400 | 2016 Ilgaz Dağı Tüneli | 5391 | 2016 Cankurtaran Tüneli | 5228 | 2018"
+        },
+        {
+          "canonical_line_number": 15,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_62c2a5de1e2d13c0013a/e30f9de77e9e4e97cc5a4af909e159dc199937a282cb129edc6c021936b86ac4/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_62c2a5de1e2d13c0013a_CH_e89afe480d",
+          "chunk_type": "FIGURE_CHUNK",
+          "document_id": "ING_62c2a5de1e2d13c0013a",
+          "embedding_text_sha256": "87b104d7465de9742b13569ae3486e8529e945bb5fb4e399d73bbb77e4f0a0cf",
+          "page_end": 3,
+          "page_start": 3,
+          "secondary_section_ids": [
+            "1.4.2"
+          ],
+          "section_id": "3",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.595745,
+          "snippet": "Asırlık Hayal: Ovit Tüneli Şekil: Foto ğraf 1. Ovit Tüneli Foto ğraf 1. Ovit Tüneli"
+        },
+        {
+          "canonical_line_number": 17,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_62c2a5de1e2d13c0013a/e30f9de77e9e4e97cc5a4af909e159dc199937a282cb129edc6c021936b86ac4/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_62c2a5de1e2d13c0013a_CH_49c14fd99d",
+          "chunk_type": "FIGURE_CHUNK",
+          "document_id": "ING_62c2a5de1e2d13c0013a",
+          "embedding_text_sha256": "4263a05326293d7cdb7ea6a25bb49b8cce247c6f62f81542d293367cadfaaa36",
+          "page_end": 4,
+          "page_start": 4,
+          "secondary_section_ids": [
+            "1.4.2"
+          ],
+          "section_id": "3",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.58632,
+          "snippet": "Yeni Zigan a Tüneli Şekil: Fotoğraf 2. Zigana Tüneli Fotoğraf 2. Zigana Tüneli 新"
+        },
+        {
+          "canonical_line_number": 22,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_62c2a5de1e2d13c0013a/e30f9de77e9e4e97cc5a4af909e159dc199937a282cb129edc6c021936b86ac4/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_62c2a5de1e2d13c0013a_CH_a88bb304f0",
+          "chunk_type": "FIGURE_CHUNK",
+          "document_id": "ING_62c2a5de1e2d13c0013a",
+          "embedding_text_sha256": "808bf9298f52a658300142615fb03f4d2f5663f756f1856596410b731aef1bae",
+          "page_end": 8,
+          "page_start": 8,
+          "secondary_section_ids": [
+            "1.4.2"
+          ],
+          "section_id": "3",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.584707,
+          "snippet": "Ovit ve Zigana Tünellerinin Uluslararası Önemi Şekil: Harita 6. Türkiye Karadeniz Çevre Karayolu Koridoru ve KEİT Ülkeleri Harita 6. Türkiye Karadeniz Çevre Karayolu Koridoru ve KEİT Ülkeleri MACANIBTIAN UKRAYNA KAZAKÍSIAN ROMANYA RUSYA FEDERASYONU KARADENIZ IRAN SURIVE AKDENIZ IRAK"
+        }
+      ]
+    },
+    {
+      "id": "chapter_4_transport_cost",
+      "section": "4",
+      "query": "Ulaşım yatırımlarında yaşam döngüsü maliyeti ve maliyet kavramı",
+      "expected_document_ids": [
+        "ING_339e05e3358e01b537d8",
+        "ING_43bc7c7729c6e993a390"
+      ],
+      "passed": true,
+      "expected_document_found": [
+        "ING_339e05e3358e01b537d8"
+      ],
+      "result_count": 10,
+      "top_score": 0.696736,
+      "results": [
+        {
+          "canonical_line_number": 40,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_339e05e3358e01b537d8_CH_59f490b687",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_339e05e3358e01b537d8",
+          "embedding_text_sha256": "6dcc89d829208531595b264b679fc00e2cf802e2bb6517442ddbfbf41c46adba",
+          "page_end": 89,
+          "page_start": 88,
+          "secondary_section_ids": [
+            "4"
+          ],
+          "section_id": "4.3.5",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.696736,
+          "snippet": "5.3.1. Hedef ve kapsam tanımı Uygulaması Yaşam döngüsü maliyeti (Life Cycle Cost, LCC) kavramı, bir sistemin veya ürünün yaşam döngüsü boyunca; sistemin geliştirilmesi, üretilmesi, işletilmesi ve envanterden çıkarılması için ortaya çıkan maliyetlerin toplamı olarak tanımlanmaktadır. Bu tez çalışmasında, demiryolu ulaşım sisteminin ekonomik açıdan değerlendirilmesi IEC 60300-3-3 standardına göre, hedef ve kapsam tanımı, maliyet bileşenlerinin belirlenmesi, maliyet verilerinin toplanması, uygun bi"
+        },
+        {
+          "canonical_line_number": 34,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_339e05e3358e01b537d8_CH_e57f7aab77",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_339e05e3358e01b537d8",
+          "embedding_text_sha256": "5790fb5c8b54e417318c5d2fca4cb98839059ee43a8b6d2c522259d7a81f44ed",
+          "page_end": 79,
+          "page_start": 77,
+          "secondary_section_ids": [
+            "4"
+          ],
+          "section_id": "4.3.5",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.676242,
+          "snippet": "4.2. LCC ile İlgili Yapılan Çalışmalar edilmesi için yaşam döngüsü maliyet yaklaşımı kullanılmıştır. Çalışmada yaşam döngüsü maliyet modeli ile yüksek hızlı tren hattının yatırım, işletme, bakım onarım ve yatırım maliyetlerine ilaveten uzun dönem maliyetleri ile ekonomik değerlendirilmesi yapılmıştır. Verilerin toplanmasında ve yaşam döngüsü maliyet modelinin geliştirilmesinde UK HS2 (High Speed Two Limited) verilerinden ve J.P. Baumgartner'ın 'Demiryolu Sektöründe Maliyetler' adlı çalışmasından"
+        },
+        {
+          "canonical_line_number": 28,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_339e05e3358e01b537d8_CH_9af919729e",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_339e05e3358e01b537d8",
+          "embedding_text_sha256": "8c559dd352323c1c7a1f7e6752d772001575ca9c66909c172be9d696c3cad8a1",
+          "page_end": 66,
+          "page_start": 62,
+          "secondary_section_ids": [
+            "4"
+          ],
+          "section_id": "4.3.5",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.652146,
+          "snippet": "3.5.4. LCC Analiz Prosedürü  Alternatif yönetim usulleri ve bunların sistem üzerindeki etkilerinin incelenmesi. Yaşam döngüsü maliyet analizi farklı ulaşım seçenekleri (otomobil, uçak, raylı sistemler), bilgisayarlar, ağır endüstri ekipmanları ve askeri sistemlerde kullanıldığı gibi bunların yanında oluşturulacak modelin kapsamına göre de değişik uygulamalara sahiptir (GB, 2004). Bu uygulamalardan bazıları Şekil 3.3' te gösterilmiştir. Şekil 3.3. Yaşam döngüsü maliyet analizi uygulamaları (Ayto"
+        },
+        {
+          "canonical_line_number": 128,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_339e05e3358e01b537d8_CH_3ea926ab95",
+          "chunk_type": "FIGURE_CHUNK",
+          "document_id": "ING_339e05e3358e01b537d8",
+          "embedding_text_sha256": "afffc2babb1cde5f97e4dfd465a38fae2f84ec4eeeb650b3f59619f7f56d2a6a",
+          "page_end": 62,
+          "page_start": 62,
+          "secondary_section_ids": [
+            "4"
+          ],
+          "section_id": "4.3.5",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.641817,
+          "snippet": "3.5.3. LCC analizinin karar almada kullanımı Şekil: Şekil 3.3. Yaşam döngüsü maliyet analizi uygulamaları (Aytok, 2006). Şekil 3.3. Yaşam döngüsü maliyet analizi uygulamaları (Aytok, 2006). Alternatif En Uygun Alım Uzun Dönem Devam Eden Ürünleri Stratejisini Planlama ve Projeyi Kontrol Kiyaslamak Belirlemek Bütçeleme Etmek Garanti ve Fayda LCC Performans Maliyet UYGULAMALARI Takibi Analizleri Kaynakları Lojistik Ekipman Ana Verimli Kavramları Değiştirilmesine Maliyetleri Dağitmak Kiyaslamak Kara"
+        },
+        {
+          "canonical_line_number": 148,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_339e05e3358e01b537d8_CH_f4e7227b79",
+          "chunk_type": "FIGURE_CHUNK",
+          "document_id": "ING_339e05e3358e01b537d8",
+          "embedding_text_sha256": "e21490cea97f653b68934e344a9bee03c61ba8dc26e4af564825854e62b2864e",
+          "page_end": 109,
+          "page_start": 109,
+          "secondary_section_ids": [
+            "4"
+          ],
+          "section_id": "4.3.5",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.635969,
+          "snippet": "6.2. Demiryolu Ulaşımının LCC Sonuçları ve Değerlendirme Şekil: Çizelge 6.5. KD yaşam döngüsü maliyeti karakterizasyon sonuçları Çizelge 6.5. KD yaşam döngüsü maliyeti karakterizasyon sonuçları Birim Işletme bileșenleri Altyapı bileşenleri KT KD Maliyet Kategorileri KT KT KT KD KD yolcu- bakım- bakım- işletme üretim bertaraf yapim bertaraf km onarim onarim Mal.M. 0.0065 9.0E-05 1.9E-03 3.5E-03 1.0E-03 Nakliye M. 0.0012 1.7E-05 2.2E-05 5.6E-06 8.5E-08 İçsel Enerji M. 0.0074 7.2E-03 7.3E-06 2.3E-0"
+        },
+        {
+          "canonical_line_number": 31,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_339e05e3358e01b537d8_CH_f6220f6d56",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_339e05e3358e01b537d8",
+          "embedding_text_sha256": "00d0853d873adf2188aa8fe24b7ffef7ea0f909360e00779609082223b6e4e3f",
+          "page_end": 72,
+          "page_start": 70,
+          "secondary_section_ids": [
+            "4"
+          ],
+          "section_id": "4.3.5",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.635865,
+          "snippet": "4. KONUYLA İLGİLİ YAPILAN ÇALIŞMALAR gelen dışsallıklar, ulaşım hizmetlerinin üretilmesi ve tüketilmesi sırasında meydana gelen çevresel kirleticilerin (küresel ısınma ve iklim değişikliği; CO2, SO2, toksisite; ağır metaller, PAH v.d. emisyonların) oluşturduğu maliyetlerdir. İkinci düzeydeki ulaşım dışsallıkları olarak, ulaşım hizmetlerinde meydana gelen kaza vb. olayların oluşturduğu maliyetlerdir. Üçüncü düzeydeki ulaşım dışsallıkları, ulaşım hizmetinin yoğun bir şekilde gerçekleştirilmesiyle,"
+        },
+        {
+          "canonical_line_number": 49,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_339e05e3358e01b537d8_CH_2e33958a69",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_339e05e3358e01b537d8",
+          "embedding_text_sha256": "d6852d33f2664c4109fc9c16acdff658e8bcb3a3f3257c80882cb52fdc86a703",
+          "page_end": 122,
+          "page_start": 120,
+          "secondary_section_ids": [
+            "4"
+          ],
+          "section_id": "4.3.5",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.63526,
+          "snippet": "KAYNAKLAR ( 2012 ), \" Ulaştırma Sektörünün Yarattığu Dışsal Maliyetlerin Ekonomik Etkileri \", Sosyal Bilimler Dergisi 4 , 55-73. Network Rail . ( 2010 ), Comparing environmental impact of conventional and high speed rail . Planning and Regulation , No: Nihai Rapor , London, England . Norris, G.A. ( 2001 ), \" Integrating Life Cycle Cost Analysis and LCA \", Int. J. LCA 6 , 118-121. Özeler, D. ve Demirer, G.N. ( 2001 ), \" Önleyici Çevre Yönetiminde Ürün ve Proses Optimizasyonu için Yeni Bir Yöntem "
+        },
+        {
+          "canonical_line_number": 27,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_339e05e3358e01b537d8_CH_b9ec05e4ec",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_339e05e3358e01b537d8",
+          "embedding_text_sha256": "95b4e370f80c92aaaddb58d3cf67ea61d4b5ac772f80bdd40e9b9e81a05f5360",
+          "page_end": 62,
+          "page_start": 61,
+          "secondary_section_ids": [
+            "4"
+          ],
+          "section_id": "4.3.5",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.635244,
+          "snippet": "3.5.3. LCC analizinin karar almada kullanımı rağmen performansı arttırması: Satın alma kararlarında tedarik maliyeti, seçeneklere değer biçilmesinde gözönünde bulundurulacak tek faktör değildir. Yaşam döngüsü maliyet analizinin dikkate aldığı maliyetler, değiş-tokuş yapılmış değişik satın alma seçeneklerinin özelliklerine göre yapılandırılır. Başarılı bir yaşam döngüsü maliyet analizinin getirdiği diğer temel faydalar ise şunlardır (Aytok, 2006):  Gelecekteki kaynak ihtiyacının tahmin edilmesin"
+        },
+        {
+          "canonical_line_number": 12,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_046493eef6fb4c973116/1ecabcbb2329f060e1ae23e92f3819572164c38f9eff37520924c669f79f3410/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_046493eef6fb4c973116_CH_77790fe8b6",
+          "chunk_type": "FIGURE_CHUNK",
+          "document_id": "ING_046493eef6fb4c973116",
+          "embedding_text_sha256": "912920fc5853efb8f1dcbdbf9a8cf372485db13cb8c88135fdcb10f3e71a37ba",
+          "page_end": 2,
+          "page_start": 2,
+          "secondary_section_ids": [],
+          "section_id": "4.3.5",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.629274,
+          "snippet": "International Research Journal of Engineering and Technology (IRJET) e-ISSN: 2395-0056 Şekil: Figure 2. Life Cycle Cost of Tunnel Figure 2. Life Cycle Cost of Tunnel Planning & Design Construction Upgrading Agency costs Maintenance Inspections Operation Disposal Repair LCC costs User Travel delay cost Vehicle operation cost Society Accidents costs Envronmental impact Others Bir ana düğümden üç alt kategoriye ve bunların da çeşitli alt kalemlere uzanan hiyerarşik bir sınıflandırma ağacı."
+        },
+        {
+          "canonical_line_number": 3,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_339e05e3358e01b537d8_CH_44c743b144",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_339e05e3358e01b537d8",
+          "embedding_text_sha256": "b631be491f993e969b425c604bd4640b4057f0c6418741bd2805cd7585bddf5a",
+          "page_end": 15,
+          "page_start": 5,
+          "secondary_section_ids": [
+            "4"
+          ],
+          "section_id": "4.3.5",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.626714,
+          "snippet": "TEŞEKKÜR percent of infrastructure components and 75 percent of operation components. Conclusions, in the determination of railway transportation strategies, it should be taken consider both environmental impacts and externalities cost. And also, for sustainable transportation strategy, it should be taken preventions to minimize both the environmental impacts and costs in this thesis. Keywords: Life Cycle Assessment, Life Cycle Cost, High Speed Train, Conventional Train, Environmental Impacts of"
+        }
+      ]
+    },
+    {
+      "id": "chapter_5_maintenance",
+      "section": "5",
+      "query": "Karayolu tünellerinde periyodik bakım işletme ve enerji maliyetleri",
+      "expected_document_ids": [
+        "ING_746d18498e07a8a0f397",
+        "ING_aa8140c07fce1b3482e4"
+      ],
+      "passed": true,
+      "expected_document_found": [
+        "ING_746d18498e07a8a0f397"
+      ],
+      "result_count": 10,
+      "top_score": 0.691299,
+      "results": [
+        {
+          "canonical_line_number": 162,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_746d18498e07a8a0f397_CH_0ca9ca7f31",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_746d18498e07a8a0f397",
+          "embedding_text_sha256": "1cbd41a5a7a19b5dae611c300cee0a9c739d36faaa42ad7f6aa8e4a9ba7cac2b",
+          "page_end": 404,
+          "page_start": 402,
+          "secondary_section_ids": [
+            "5.9.1"
+          ],
+          "section_id": "5.4",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.691299,
+          "snippet": " Köşkler ve panoların; yıllık bakımlarında aşağıdaki hususlara dikkat edilmelidir; Aydınlatma Elemanları ve Sistemleri ; yıllık bakımlarında aşağıdaki hususlara dikkat edilmelidir; Tüm aydınlatma direklerinin ve tünel içi armatürlerin kontrol ve temizliği yapılarak arızalı sigortalar değiştirilecek ve eksik olan direk kapakları tamamlanacaktır. Tüm koruma ve işletme topraklamaları ile paratonerlerin topraklamaları ölçülerek gerekirse iyileştirme yapılır. Armatürlerin eksik cam kapakları tamamla"
+        },
+        {
+          "canonical_line_number": 163,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_746d18498e07a8a0f397_CH_dd81390fd2",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_746d18498e07a8a0f397",
+          "embedding_text_sha256": "11f91ce82ea8d124d4a9ea6e1d0064cf24d32a117769eef0fc66025c6ebf2103",
+          "page_end": 407,
+          "page_start": 405,
+          "secondary_section_ids": [
+            "5.9.1"
+          ],
+          "section_id": "5.4",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.685197,
+          "snippet": "5.5.1. ENERJİ MALİYETLERİ AZALTMA ÖNERİLERİ ve personel maliyetlerinden oluşmaktadır. Yenileme maliyetleri bel li bir sistemin komple yenilenmesini ifade etmektedir. Bazı ekipmanların servis ömürleri sonlandığında mecburi olarak sistemi yenileme ihtiyaçları doğmaktadır. Karayolu tünellerinde yapısal dizayn ömrü olarak ortalama 120 yıl öngörülmektedir. Ancak bu süre içerisinde kullanılan ekipmanlar ve servislerin ömürleri yapısal kaliteye, çevresel faktörlere ve değişen teknolojilere göre değişme"
+        },
+        {
+          "canonical_line_number": 158,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_1fb6b71a35f819248daf_CH_40022ddd12",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_1fb6b71a35f819248daf",
+          "embedding_text_sha256": "7bb331e6815b3dd0621fb226a2e55e1ce5fe38dff7d2100c8308e7780994d970",
+          "page_end": null,
+          "page_start": null,
+          "secondary_section_ids": [
+            "5",
+            "5.4"
+          ],
+          "section_id": "5.4.2",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.68248,
+          "snippet": "TEŞEKKÜR > 3000 METREDEN UZUN TÜNELLER > 263 TÜNEL BAKIM, ONARIM VE İŞLETME MALİYETLERİ tutularak temizlenir. Yağlı trafolarının yağ sızıntıları, Kuru tip trafoların hava akışı ve nemlenme durumları kontrol edilir. Kapakların menteşe ve kilitleri kontrol edilerek, çalışır hale getirilir. S SCADA Sisteminin; yıllık bakımlarında aşağıdaki hususlara dikkat edilmelidir; Sistemde kayıtlı bilgilerin ve sistemle ilgili dokümantasyonun kontrolü ve değerlendirmesi Ethernet ve Profibus haberleşmelerinin k"
+        },
+        {
+          "canonical_line_number": 332,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_1fb6b71a35f819248daf_CH_41e2451534",
+          "chunk_type": "TABLE_CHUNK",
+          "document_id": "ING_1fb6b71a35f819248daf",
+          "embedding_text_sha256": "fa9fe32cf27b1bcffde895977fb353453877074aca9cba71644a8995fc22decc",
+          "page_end": null,
+          "page_start": null,
+          "secondary_section_ids": [
+            "5",
+            "5.4"
+          ],
+          "section_id": "5.4.2",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.654606,
+          "snippet": "TEŞEKKÜR > 3000 METREDEN UZUN TÜNELLER > 272 ÜLKEMİZDE TÜNEL BAKIM ONARIM İŞLETME MALİYETLERİ ENVANTER BİLGİLERİ TÜNEL BAKIM, ONARIM, İŞLETME ŞEFLİKLERİ | Tünel Adeti | Tünel Uzunluğu (km) | İdari Personel Giderleri (TL) | Hizmet Alımı Personel Giderleri (TL) | Hizmet Alımı Araç Giderleri (TL) | Telefon Faturası Ortalama Aylık Tutar(TL) | Elektrik Ortalama Aylık Tutar(TL) | İnternet (TL) | Akaryakıt Malzemeleri (TL) | Elektrik M a l zemeleri (TL) | Diğer Malzeme Giderleri (Yedek Parça v.b.) (TL)"
+        },
+        {
+          "canonical_line_number": 331,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_746d18498e07a8a0f397_CH_87b067a420",
+          "chunk_type": "TABLE_CHUNK",
+          "document_id": "ING_746d18498e07a8a0f397",
+          "embedding_text_sha256": "056af71c161489cf94aa9a5852752f6fdbf9412d0f84bd493ba336dbc0f5aa65",
+          "page_end": 411,
+          "page_start": 411,
+          "secondary_section_ids": [
+            "5.9.1"
+          ],
+          "section_id": "5.4",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.649796,
+          "snippet": "5.5.3. SİSTEMLERİN KULLANIM ÖMÜRLERİ Tablo: Şekil 122.USA Tünellerinde Yıllık Yenileme Maliyetleri (Çift Tüp; 3,2 km) Şekil 122.USA Tünellerinde Yıllık Yenileme Maliyetleri (Çift Tüp; 3,2 km) | Ortalama Kullanım Ömrü | Maliyetler (milyon US$) | Nisbi Maliyet Oranları (%) | Maliyet/yıl (US$) SCADA SİSTEMLERİ | 10,7 | 1,6 | 8,00% | 148.000,00 AYDINLATMA | 11,1 | 3,7 | 19,00% | 330.000,00 HAVALANDIRMA | 18,2 | 5,3 | 28,00% | 290.000,00 İŞARETLEME | 14,1 | 2,6 | 14,00% | 187.000,00 GÜVENLİK EKİPMANL"
+        },
+        {
+          "canonical_line_number": 169,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_746d18498e07a8a0f397_CH_28025373f1",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_746d18498e07a8a0f397",
+          "embedding_text_sha256": "f1de4545795cfb47a458ef66b88b3c6fac8589fae78ae09caac226a1e73deb79",
+          "page_end": 422,
+          "page_start": 419,
+          "secondary_section_ids": [
+            "5.9.1"
+          ],
+          "section_id": "5.4",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.645673,
+          "snippet": "GİRİŞ yılı Tünel Bakım İşletme Şefliklerimizde oluşan maliyetlerle ilgili olarak özet tablo aşağıda verilmiştir; Tablo 50 . 2015 Yılı Tünel Bakım, Onarım, İşletme Maliyetleri Maliyetler incelendiğinde en düşük maliyetin Trabzon Şefliğinde olduğu görülmektedir. Bunun ana nedeni tünel sayısının fazlalığıdır. Tünel 1 km'de olsa 5 km'de olsa personel yönünden aynı ihtiyaçları barındırdığı ve en yüksek maliyet kaleminin de personellerden kaynaklandığı düşünülecek olursa maliyetler arasındaki farklar "
+        },
+        {
+          "canonical_line_number": 333,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_746d18498e07a8a0f397_CH_e736370190",
+          "chunk_type": "TABLE_CHUNK",
+          "document_id": "ING_746d18498e07a8a0f397",
+          "embedding_text_sha256": "f20aff23653abcbd85edd1e7658a3b849094b3fb13bc12c52c6a6226523a3be5",
+          "page_end": 418,
+          "page_start": 418,
+          "secondary_section_ids": [
+            "5.9.1"
+          ],
+          "section_id": "5.4",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.635413,
+          "snippet": "5.5.4. ÜLKE MİZDE TÜNEL BAKIM ONARIM İŞLETME MALİYETLERİ ENVANTER BİLGİLERİ Tablo: Tablo 50 . 2015 Yılı Tünel Bakım, Onarım, İşletme Maliyetleri Tablo 50 . 2015 Yılı Tünel Bakım, Onarım, İşletme Maliyetleri TÜNEL BAKIM, ONARIM, İŞLETME ŞEFLİKLERİ | Tünel Adeti | Tünel Uzunluğu (km) | İdari Personel Giderleri (TL) | Hizmet Alımı Personel Giderleri (TL) | Hizmet Alımı Araç Giderleri (TL) | Telefon Faturası Ortalama Aylık Tutar(TL) | Elektrik Ortalama Aylık Tutar(TL) | İnternet (TL) | Akaryakıt Mal"
+        },
+        {
+          "canonical_line_number": 239,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_746d18498e07a8a0f397_CH_4aef2c1e3b",
+          "chunk_type": "TABLE_CHUNK",
+          "document_id": "ING_746d18498e07a8a0f397",
+          "embedding_text_sha256": "81fe9349d8476c36a2a16fc25f4a4960b3d930eb6464bd9ca373d1ca95fcddde",
+          "page_end": 16,
+          "page_start": 16,
+          "secondary_section_ids": [
+            "5.9.1"
+          ],
+          "section_id": "5.4",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.635347,
+          "snippet": "0 Tablo 31. Egzoz Dışı PM 2,5 (Partikül Madde) Faktörleri…………………………………………………………………….241 Tablo 32. Egzoz Dışı Emisyonlar İçin PM 2,5 ve Görüş (Opaklık) Faktörleri……………………………………..….241 Tablo 33. PIARC tarafından kabul edilen araç tipleri ve yangın kapasiteleri…………………………………….279 Tablo 34. Büyük Tünel Yangınları……………………………………………………………………………….……………………281 Tablo 35. Yangın Söndürücü Kullanım Şekilleri………………………………………………………………………………..291 Tablo 36.Tünellerde Yangın Tespiti İçin Kullanılan Sistemlerin Karş"
+        },
+        {
+          "canonical_line_number": 164,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_1fb6b71a35f819248daf_CH_90c355de0a",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_1fb6b71a35f819248daf",
+          "embedding_text_sha256": "b1d423b7a2a025d0e3c5d92802389bd38846a5350d9503c0023a54b01b84b0d9",
+          "page_end": null,
+          "page_start": null,
+          "secondary_section_ids": [
+            "5",
+            "5.4"
+          ],
+          "section_id": "5.4.2",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.632776,
+          "snippet": "TEŞEKKÜR > 3000 METREDEN UZUN TÜNELLER > GİRİŞ Bakım, Onarım, İşletme Şefliği 294.070,27 fc 255.795,50 fc Maliyetler incelendiğinde en düşük maliyetin Trabzon Şefliğinde olduğu görülmektedir. Bunun ana nedeni tünel sayısının fazlalığıdır. Tünel 1 km'de olsa 5 km'de olsa personel yönünden aynı ihtiyaçları barındırdığı ve en yüksek maliyet kaleminin de personellerden kaynaklandığı düşünülecek olursa maliyetler arasındaki farklar anlaşılabilir olmaktadır. Önümüzdeki dönemde uygulanacak çalışmalarla"
+        },
+        {
+          "canonical_line_number": 330,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_746d18498e07a8a0f397_CH_5dee212b48",
+          "chunk_type": "TABLE_CHUNK",
+          "document_id": "ING_746d18498e07a8a0f397",
+          "embedding_text_sha256": "589670da199d252f9e0f7d174877af30224d899eeef6bb5dff3abccfff9c0932",
+          "page_end": 411,
+          "page_start": 411,
+          "secondary_section_ids": [
+            "5.9.1"
+          ],
+          "section_id": "5.4",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.630198,
+          "snippet": "5.5.3. SİSTEMLERİN KULLANIM ÖMÜRLERİ Tablo: Şekil 121 . Avusturya Tünellerinde Yıllık Yenileme Maliyetleri (Çift tüp; 2,7 km) Şekil 121 . Avusturya Tünellerinde Yıllık Yenileme Maliyetleri (Çift tüp; 2,7 km) | Ortalama Kullanım Ömrü | Maliyetler (milyon US$) | Nisbi Maliyet Oranları (%) | Maliyet/yıl (US$) SCADA SİSTEMLERİ | 10,7 | 1,2 | 7,00% | 107.000,00 AYDINLATMA | 11,1 | 2,0 | 13,00% | 177.000,00 HAVALANDIRMA | 18,2 | 1,5 | 9,00% | 81.000,00 İŞARETLEME | 14,1 | 1,9 | 12,00% | 135.000,00 GÜV"
+        }
+      ]
+    },
+    {
+      "id": "chapter_6_construction_cost",
+      "section": "6",
+      "query": "Tünel yapım maliyetleri birim fiyat kazı püskürtme beton ve destekleme",
+      "expected_document_ids": [
+        "ING_5c2983ff4ac61dc979ff",
+        "ING_ecb7b50dece6c5a14085"
+      ],
+      "passed": true,
+      "expected_document_found": [
+        "ING_ecb7b50dece6c5a14085"
+      ],
+      "result_count": 10,
+      "top_score": 0.733575,
+      "results": [
+        {
+          "canonical_line_number": 9,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_ecb7b50dece6c5a14085/be4fb527afe226adc7faa74c7b99e45a669efa4fbdd6ef8c1deaa4b0e89d9a4b/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_ecb7b50dece6c5a14085_CH_ee9942806e",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_ecb7b50dece6c5a14085",
+          "embedding_text_sha256": "33e8e68c32fa47f23ad28d1c45ab88c8c509c583c699d31061cbdff0b4b6d504",
+          "page_end": 9,
+          "page_start": 8,
+          "secondary_section_ids": [
+            "2.3"
+          ],
+          "section_id": "6",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.733575,
+          "snippet": "Birim Fiyata Dahil Olmayan Masraflar : şekilde zayi olan püskürtme beton döküntülerinin ve artıklarının gerektiğinde kazılması, yüklenmesi, inşaat yerinden İdarece gösterilecek yere taşınması, boşaltılması, geri saçılma, uçuşma, sıkışma ve benzeri zayiatlar ile bu zayiatlara ait malzeme bedelleri ve taşınmaları için zayiat dahil aşağıda 'Birim Fiyata Dahil Olmayan Masraflar' başlığı altında sayılanlar dışında kalan diğer bütün işlerin yapılması için lüzumlu her türlü işçilik, malzeme, makine, al"
+        },
+        {
+          "canonical_line_number": 8,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_ecb7b50dece6c5a14085/be4fb527afe226adc7faa74c7b99e45a669efa4fbdd6ef8c1deaa4b0e89d9a4b/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_ecb7b50dece6c5a14085_CH_da6a3f0857",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_ecb7b50dece6c5a14085",
+          "embedding_text_sha256": "a436e426ba1a0a261046266528000a6947ad3e28e3904d01e414c6372e37b1e3",
+          "page_end": 8,
+          "page_start": 8,
+          "secondary_section_ids": [
+            "2.3"
+          ],
+          "section_id": "6",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.725406,
+          "snippet": "AÇP/37 TÜNELDE PÜSKÜRTME BETONU (SHOTCRETE) YAPILMASI (Beton Santralı ile) : fiyattan ayrıca ödenir. 8Aynı iş bünyesinde yeni bir tünel çıkması veya yol ekseninin değişmesi vb. nedeniyle tünel yerinin, hattının ve kotunun değişmesi halinde de bu birim fiyat aynen uygulanır. 9Bu kazı birim fiyatına yapım, deformasyon ve kaçınılmaz kazı toleransları dahildir. Ayrıca ölçüye dahil edilmez. 10Tünel ile ilgili yapılan kazıya, imalata, taşımaya, malzemeye, işçiliğe; 'Zam' veya başka bir isim altında hi"
+        },
+        {
+          "canonical_line_number": 16,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_ecb7b50dece6c5a14085/be4fb527afe226adc7faa74c7b99e45a669efa4fbdd6ef8c1deaa4b0e89d9a4b/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_ecb7b50dece6c5a14085_CH_f55690878b",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_ecb7b50dece6c5a14085",
+          "embedding_text_sha256": "b804bc28b6b49c2f800215a4f3ef05ce2f03186c550f3442fa89fecc6cb3d0ea",
+          "page_end": 17,
+          "page_start": 15,
+          "secondary_section_ids": [
+            "2.3"
+          ],
+          "section_id": "6",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.715903,
+          "snippet": "Birim Fiyata Dahil Olmayan Masraflar : İdare ve/veya Mühendisin gerekli göreceği yüzeylerin epoksi veya benzeri bir madde ile onarımı, beton ile membran arasında özellikle üst noktalarda oluşabilecek boşlukların uygun bir şekilde kontak enjeksiyonu ile doldurulması, beton derz sızdırmazlık contalarının iş başında temini ile aşağıda 'Birim Fiyata Dahil Olmayan Masraflar' başlığı altında sayılanlar dışında kalan diğer bütün işlerin yapılması için gerekli her türlü işçilik, malzeme, makine, alet ve"
+        },
+        {
+          "canonical_line_number": 4,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_ecb7b50dece6c5a14085/be4fb527afe226adc7faa74c7b99e45a669efa4fbdd6ef8c1deaa4b0e89d9a4b/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_ecb7b50dece6c5a14085_CH_95e3685fd6",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_ecb7b50dece6c5a14085",
+          "embedding_text_sha256": "e65fac43e9cb059d89ac57276e50e34be4f6b4547621308a80a18dc6e0ef13d2",
+          "page_end": 4,
+          "page_start": 3,
+          "secondary_section_ids": [
+            "2.3"
+          ],
+          "section_id": "6",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.713843,
+          "snippet": "Birim Fiyata Dahil Olmayan Masraflar : gerekli kalite deneylerinin yapılması ve deney sonuçlarının İdareye teslimi, gerektiğinde iş iskelesinin yapılması, dökülen ve zayi olan püskürtme betonu döküntülerinin ve artıklarının gerektiğinde kazılması, yüklenmesi, boşaltılması, inşaat yerinden İdarece gösterilecek yere taşınması suretiyle püskürtme betonu yapılması, aşağıda 'Birim Fiyata Dahil Olmayan Masraflar' başlığı altında sayılanlar dışında kalan diğer bütün işlerin yapılması için lüzumlu her t"
+        },
+        {
+          "canonical_line_number": 10,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_ecb7b50dece6c5a14085/be4fb527afe226adc7faa74c7b99e45a669efa4fbdd6ef8c1deaa4b0e89d9a4b/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_ecb7b50dece6c5a14085_CH_06890a5979",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_ecb7b50dece6c5a14085",
+          "embedding_text_sha256": "8c78667a718ee1f38f4f6fd5d7fcd085ef661f167e1929dc5da7086c08598620",
+          "page_end": 11,
+          "page_start": 10,
+          "secondary_section_ids": [
+            "2.3"
+          ],
+          "section_id": "6",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.667615,
+          "snippet": "AÇP/38 TÜNELDE 1,5' DIŞ ÇAPINDA ÇELİK BORU İLE ENJEKSİYONSUZ SÜREN YAPILMASI : püskürtme betonu için herhangi bir bedel ödenmez. 7Tünel ile ilgili yapılan kazıya, imalata, taşımaya, malzemeye, işçiliğe; 'Zam' veya başka bir isim altında hiçbir şekilde ilave bir ödeme yapılamaz. 8Bu birim fiyata yapım ve deformasyon toleransları dahildir. 9Karışımda kullanılacak agreganın; Teknik Şartnamelerde veya İdarece istenen özelliklere uygun olması koşuluyla dere veya taş ocaklarından temin edilmesi birim "
+        },
+        {
+          "canonical_line_number": 7,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_ecb7b50dece6c5a14085/be4fb527afe226adc7faa74c7b99e45a669efa4fbdd6ef8c1deaa4b0e89d9a4b/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_ecb7b50dece6c5a14085_CH_d3ead9f9f5",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_ecb7b50dece6c5a14085",
+          "embedding_text_sha256": "bc168f2178bb7990d6d20293e34a5c2fc300dfbc53a0c48ed42a9831e3d6f804",
+          "page_end": 7,
+          "page_start": 6,
+          "secondary_section_ids": [
+            "2.3"
+          ],
+          "section_id": "6",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.664664,
+          "snippet": "Birim Fiyata Dahil Olmayan Masraflar : inşaat ve aşırı kazı (overbreak) toleransları, yüklenicinin kusuru dışında oluşan 2 m 3 den küçük önlenemeyen göçük ve boşluklar ile ilgili bütün hizmetler (kazı, nakliye, doldurma vs. hizmetler), tünel tabanının reglajının yapılması, aşağıda 'Birim Fiyata Dahil Olmayan Masraflar' başlığı altında sayılanlar dışında kalan diğer bütün işlerin yapılması için lüzumlu her türlü işçilik, malzeme, makine, alet ve araç masrafları ile yüklenici karı ve genel masrafl"
+        },
+        {
+          "canonical_line_number": 3,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_ecb7b50dece6c5a14085/be4fb527afe226adc7faa74c7b99e45a669efa4fbdd6ef8c1deaa4b0e89d9a4b/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_ecb7b50dece6c5a14085_CH_957241e6a7",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_ecb7b50dece6c5a14085",
+          "embedding_text_sha256": "c4b494fc5ab7f22aced2b64d02b56678f29a2c555ed4679078772ca164c113d8",
+          "page_end": 3,
+          "page_start": 3,
+          "secondary_section_ids": [
+            "2.3"
+          ],
+          "section_id": "6",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.656109,
+          "snippet": "AÇP/33 PÜSKÜRTME BETONU (SHOTCRETE) YAPILMASI : (Beton santrali ile) ve taşıma bedeli ödenmez. Dolguların yapılmasına başlamadan önce, zemin K.T.Ş. nin ilgili kısmına uygun olarak temizlenecek ve bitkisel toprağı sıyrılmış kesim K.T.Ş. nin ilgili maddesine uygun olarak 20 cm. derinlikte kabartılıp sıkıştırılacaktır. Bu işlem için ayrıca bir bedel ödenmeyecektir. Taban genişliği 2.5 m.den büyük olan her türlü kanal kazısı Poz AÇP/01 No.lu teklif birim fiyattan ödenir. AÇP/33 PÜSKÜRTME BETONU (SHO"
+        },
+        {
+          "canonical_line_number": 6,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_ecb7b50dece6c5a14085/be4fb527afe226adc7faa74c7b99e45a669efa4fbdd6ef8c1deaa4b0e89d9a4b/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_ecb7b50dece6c5a14085_CH_3bba9ce58f",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_ecb7b50dece6c5a14085",
+          "embedding_text_sha256": "d79e5eb2440e8ebe78183669544515c29d904e67944a1a1d1860529700b4420c",
+          "page_end": 6,
+          "page_start": 5,
+          "secondary_section_ids": [
+            "2.3"
+          ],
+          "section_id": "6",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.6478,
+          "snippet": "Birim Fiyata Dahil Olmayan Masraflar : lüzumlu iş iskelelerinin, çalışma platformlarının yapılması, her derinlik ve her yükseklikte, her yerde ve her türlü şartlar altında bulonlara bağlanarak yerine konulması, işyerinde ki her türlü yükleme, yatay ve düşey taşıma, boşaltma ve istifi ile aşağıda 'Birim Fiyata Dahil Olmayan Masraflar' başlığı altında sayılanlar dışında kalan diğer bütün işlerin yapılması için lüzumlu her türlü malzeme, işçilik, makine, alet ve araç masrafları ile yüklenici karı v"
+        },
+        {
+          "canonical_line_number": 21,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_6935929ec3c5b865ccdb/f0135ab640018a4e3a25bd50eb191b525e915d7f9515386716d77986fb69f5e7/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_6935929ec3c5b865ccdb_CH_7437847440",
+          "chunk_type": "FIGURE_CHUNK",
+          "document_id": "ING_6935929ec3c5b865ccdb",
+          "embedding_text_sha256": "6e0a66b707cac642014a9be7f5563326efb961bc71859a3bea040cb9e6f4479f",
+          "page_end": 7,
+          "page_start": 7,
+          "secondary_section_ids": [
+            "6.1"
+          ],
+          "section_id": "6",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.638424,
+          "snippet": "U/G Unit Cost Analysis ILC RDR U/G Costs Analysis Tunnel Construction Costs (TBM) 9,000 400 (m/week) 375 Construction Cost ($/m) 8,000 TBM Advance Rate 350 7,000 TBM Advance Rate ( Tunnel 325 Construction 6,000 Costs 300 5,000 275 4,000 250 3 4 5 6 7 8 9 Nominal Tunnel Diameter (m) Grafik, tünel çapının artmasıyla birlikte iki farklı metrikin (bir oran ve bir maliyet) nasıl değiştiğini gösteren eğrileri karşılaştırmaktadır."
+        },
+        {
+          "canonical_line_number": 11,
+          "canonical_retrieval_path": "corpus/canonical/objects/ING_ecb7b50dece6c5a14085/be4fb527afe226adc7faa74c7b99e45a669efa4fbdd6ef8c1deaa4b0e89d9a4b/chunks/embedding_ready.jsonl",
+          "chunk_id": "ING_ecb7b50dece6c5a14085_CH_35e5987db6",
+          "chunk_type": "TEXT_CHUNK",
+          "document_id": "ING_ecb7b50dece6c5a14085",
+          "embedding_text_sha256": "f084f49d5a8b405da966a553e8a76b3b6dbdcfa434ca306e68d06af01df445ec",
+          "page_end": 11,
+          "page_start": 11,
+          "secondary_section_ids": [
+            "2.3"
+          ],
+          "section_id": "6",
+          "sheet_name": null,
+          "slide_number": null,
+          "score": 0.637512,
+          "snippet": "Birim Fiyata Dahil Olan Masraflar : kazıya, imalata, taşımaya, malzemeye, işçiliğe; 'Zam' veya başka bir isim altında hiçbir şekilde ilave bir ödeme yapılamaz. AÇP/39 TÜNELDE 1,5\" DIŞ ÇAPINDA ÇELİK BORU İLE ENJEKSİYONLU SÜREN YAPILMASI : K.T.Ş. nin ilgili kısımlarındaki esaslar ve şartlara, projeye ve İdarenin talimatına uygun olarak, her kesit ve uzunluktaki tünelde 1,5' dış çapında çelik borudan enjeksiyonlu süren tesis edilmesi. Birim Fiyata Dahil Olan Masraflar : Lüzumlu iş iskelesi ve çalış"
+        }
+      ]
+    }
+  ]
+}

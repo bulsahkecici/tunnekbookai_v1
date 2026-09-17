@@ -1,0 +1,89 @@
+{
+  "document_id": "ING_d8c47fd59b8c006c036f",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Microsoft Word - D.. Kapak.doc",
+      "source": "ooxml_properties",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Faruk"
+      ],
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2007-07-30",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "explicit date literal in the document: 30/07/2007"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "thesis",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: yüksek lisans tezi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "blasting",
+        "geology",
+        "geotechnical_investigation",
+        "history",
+        "monitoring",
+        "route_selection",
+        "shotcrete",
+        "standards",
+        "water"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geotechnical_investigation:geoteknik; geology:jeoloji; route_selection:güzergâh seç; blasting:patlatma; shotcrete:püskürtme beton; water:yeraltı su; monitoring:izleme; standards:standart; history:tarihçe; tunnel_general:tünel"
+    }
+  ]
+}

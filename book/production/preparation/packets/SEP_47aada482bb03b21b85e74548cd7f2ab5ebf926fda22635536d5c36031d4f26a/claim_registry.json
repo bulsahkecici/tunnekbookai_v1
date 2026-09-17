@@ -1,0 +1,610 @@
+{
+  "claim_count": 14,
+  "claims": [
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 85,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_674564f8c6d600238ac2/a9a20b97a266f755c31c5c7174444115808ff66c3b6bb853389bf298a3768791/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "a3886d39754044c1a8eedefb85da2e70162b448d9493d27014e8a0ccca3616a0",
+      "chunk_id": "ING_674564f8c6d600238ac2_CH_a71327b7c1",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_1a5573a8e2884115f4659e740148a8ff9b42aa27707c79e1da9b2a26efba9442",
+      "claim_text": "| Boykesit Belirlemede Dikkat Edilecek Hususlar .................................................. 17 1.4. | Güzergâh Zeminine Göre Tünel İ n ş as ı ................................................................. 19 1.4.1. | Kayaç Zeminlerde Tünel İ n ş as ı ............................................................................. 20 1.4.1.1. | Delme-Patlatmayla Tünel İ n ş as ı ........................................................................... 20",
+      "conditions": [],
+      "document_id": "ING_674564f8c6d600238ac2",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_674564f8c6d600238ac2:ING_674564f8c6d600238ac2_CH_a71327b7c1:pages=4;canonical=corpus/canonical/objects/ING_674564f8c6d600238ac2/a9a20b97a266f755c31c5c7174444115808ff66c3b6bb853389bf298a3768791/chunks/embedding_ready.jsonl#L85",
+      "page_end": 4,
+      "page_start": 4,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.4.2-Q43": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2",
+        "1.3"
+      ],
+      "section_id": "2.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "1",
+      "supporting_question_ids": [
+        "2.4.2-Q43"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 8,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1f2620af18f727fc650f/599203f07b7416f2a5811748da836b3d4d375ab3f9ca2a31377c78e78d795d8c/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "5d245de1e295d614d19f9e01688dd1461cad1154421bd3e4f92fcbb169b1a25b",
+      "chunk_id": "ING_1f2620af18f727fc650f_CH_7bbc7e428f",
+      "chunk_type": "SLIDE_CHUNK",
+      "claim_id": "CLM_5ba016f71e2577f01c8beb5242b9bbc25b2e6c3f94b4c9b918b3dba135142bde",
+      "claim_text": "YÜZEY ŞEKİLLERİ VE JEOLOJİK MODELİN GÜZERGAHLA OLAN İLİŞKİSİ\n\nKonuşmacı notu: Sağlıklı proje çalışmalarını ancak sağlıklı hat çalışmaları ile sağlayabiliriz. Tünelli güzergahlarda da tünel giriş portalleri, bölgenin depremselliği, yeraltı suyu durumu ve jeolojik etkenlerin ortaya konulması ve kaya sınıflarının ön görüsünün ortaya konulması gerekmektedir.",
+      "conditions": [],
+      "document_id": "ING_1f2620af18f727fc650f",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_SLIDE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1f2620af18f727fc650f:ING_1f2620af18f727fc650f_CH_7bbc7e428f:pages=8;canonical=corpus/canonical/objects/ING_1f2620af18f727fc650f/599203f07b7416f2a5811748da836b3d4d375ab3f9ca2a31377c78e78d795d8c/chunks/embedding_ready.jsonl#L8",
+      "page_end": 8,
+      "page_start": 8,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.4.2-Q39": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "2.4.2",
+      "sheet_name": null,
+      "slide_number": 8,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.4.2-Q39"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:STRUCTURED_DOCUMENT",
+      "canonical_line_number": 6,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7f177b472ed62ef80108/72ef01fc60eb101417976d371f154842e5a45aa6a41c838e696a8bc32540360c/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "3cb9edf12c820b2dca673e59afed0ac36528255859f7c0bdd8ce6307e2f3146c",
+      "chunk_id": "ING_7f177b472ed62ef80108_CH_268ed4c839",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_731fc59f67c85c49d63447bfc879ee9cf857c7486d2c4abee7e3c88efc9027cd",
+      "claim_text": "DEFORMASYON ÖLÇÜMLER İ\nı ğ Tünellerde)  NATM Kaya S ı n ı f ı n ı n Belirlenmesi  UYGULAMA PROJES İ N İ N KONTROLÜ, REV İ ZE VE EK ÖNLEMLER İ N DE Ğ ERLEND İ R İ LMES İ  N İ HA İ DESTEKLEMEN İ N YAPILMASI TÜNELLERDE YAPILAN JEOTEKN İ K ÇALI Ş MALAR SUNUM ADI TÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR VE ÇÖZÜM ÖNER İ LER İ\n\nDEFORMASYON ÖLÇÜMLER İ\n\nRADYAL DEFORMASYON ÖLÇÜM NOKTALARI\n\nKUYU EKSTANSOMETRELER İ\n\nSUNUM ADI\n\nTÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR  VE ÇÖZÜM ÖNER İ LER İ\n\nDEFORMASYON ÖLÇÜMLER İ\n\nRADYAL DEFORMASYON ÖLÇÜM NOKTALARI\n\nKUYU EKSTANSOMETRELER İ\n\nSUNUM ADI\n\nTÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR  VE ÇÖZÜM ÖNER İ LER İ\n\nDEFORMASYON ÖLÇÜMLER İ\n\nSUNUM ADI\n\nTÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR  VE ÇÖZÜM ÖNER İ LER İ\n\nDEFORMASYON ÖLÇÜMLER İ\n\nSUNUM ADI\n\nTÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR  VE ÇÖZÜM ÖNER İ LER İ\n\nDeformasyon Ölçüm Aral ı klar ı\n\nÖlçüm istasyonlar ı n ı n yerle ş tirilmesine müteakiben;\n\n 1. Haftada günlük ölçüm\n\n 2. Haftada 2 defa\n\n 3. Haftada 1 defa,\n\n 4. Haftada 15 günde 1 ölçüm veya ayda bir ölçüm ( ş artlara göre) yap ı lmal ı d ı r.\n\n Deformasyon h ı z ı n ı n artt ı ğ ı tünel kesitlerinde deformasyon sönümleninceye kadar okumalara devam edilmelidir.\n\nDeformasyon Ölçümlerinde Kullan ı lan Ölçüm Enstrümanlar ı\n\n Bulon Yükleri Ölçülmesinde\n\n Ölçüm Bulonu\n\n Yük Hücresi\n\n Yüzey Deformasyonlar ı Ölçülmesinde\n\n Ekstansometre\n\n İ nklonometre\n\n Yeralt ı suyu Ölçülmesinde\n\n Piezometre\n\n Yap ı Hareketlerinin Ölçülmesinde\n\n Oturma Ölçümleri\n\n Dönme Ölçümleri\n\n Patlatma Titre ş imlerinin Ölçülmesinde\n\n Sismograf\n\nDeformasyon Ölçümleri için Kullan ı lan Enstrümanlar",
+      "conditions": [],
+      "document_id": "ING_7f177b472ed62ef80108",
+      "evidence_level": "STRUCTURED_DOCUMENT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_7f177b472ed62ef80108:ING_7f177b472ed62ef80108_CH_268ed4c839:pages=27-33;canonical=corpus/canonical/objects/ING_7f177b472ed62ef80108/72ef01fc60eb101417976d371f154842e5a45aa6a41c838e696a8bc32540360c/chunks/embedding_ready.jsonl#L6",
+      "page_end": 33,
+      "page_start": 27,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.4.2-Q31": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1.2",
+        "2.4.1.2",
+        "5.9.1",
+        "2.1",
+        "2.2.1"
+      ],
+      "section_id": "2.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.4.1",
+      "supporting_question_ids": [
+        "2.4.2-Q31"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 46,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1f2620af18f727fc650f/599203f07b7416f2a5811748da836b3d4d375ab3f9ca2a31377c78e78d795d8c/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "303308c787680be1b08655f2a88caf6f1c00db04539df0c56f88a7b945108e51",
+      "chunk_id": "ING_1f2620af18f727fc650f_CH_39448b76cb",
+      "chunk_type": "SLIDE_CHUNK",
+      "claim_id": "CLM_7e101796f4971dc0dbf453a8f42adbb7c7bbc8270ae70f5300de1f09e0b96c50",
+      "claim_text": "TÜNEL MÜHENDİSİ YETİŞTİRME KURSU\n\nKaya Kütlesi Yapısal Özellikleri\n\nÇeşitli mühendislik işlerinde ve kazılarda; tünel, yeraltı santralleri, köprü ayakları gibi büyük yapılarının projelendirilmesinde ve duraylılık hesaplarının yapılmasında temelin ve kullanılacak malzemenin saptanmasında, çeşitli kuvvetler karşısında doğacak deformasyonların önceden belirlenmesinde kayaçların mühendislik özelliklerini de etkileyen süreksizlik özelliklerinin iyi bilinmesi gerekmektedir.",
+      "conditions": [],
+      "document_id": "ING_1f2620af18f727fc650f",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_SLIDE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1f2620af18f727fc650f:ING_1f2620af18f727fc650f_CH_39448b76cb:pages=61;canonical=corpus/canonical/objects/ING_1f2620af18f727fc650f/599203f07b7416f2a5811748da836b3d4d375ab3f9ca2a31377c78e78d795d8c/chunks/embedding_ready.jsonl#L46",
+      "page_end": 61,
+      "page_start": 61,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.4.2-Q12": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "2.4.2",
+      "sheet_name": null,
+      "slide_number": 61,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.4.2-Q12"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 16,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_674564f8c6d600238ac2/a9a20b97a266f755c31c5c7174444115808ff66c3b6bb853389bf298a3768791/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "ee2ad20ca357d7a879f6c1463c9917b3357fcdee019e00bd0f0991bc72af015d",
+      "chunk_id": "ING_674564f8c6d600238ac2_CH_504e956caf",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_906b870d5344ed0fd19f9d12e59b072870caa1e24c6752a0c735510b59ee7c14",
+      "claim_text": "1.3.2.1. Güzergâh Seçiminde Dikkat Edilecek Hususlar\na ş amas ı nda yap ı lan geoteknik incelemeler tünellerin emniyetlerinin ve i ş levselliklerinin denetimi için yap ı lmaktad ı r. Bu denetimlerle söz konusu yap ı lar ı n geçirimsizliklerinin ve yerde ğ i ş tirmelerinin tolerans s ı n ı rlar ı dâhilinde kalmas ı , ekonomik ömürleri boyunca gerekli emniyete sahip olmalar ı ve onar ı mlar ı n ı n zaman ı nda yap ı lmas ı sa ğ lanmaktad ı r.\n\n1.3.2.  Tünel  Güzergâh ı n ı n  Seçimi  ve  Boykesit  Belirlenmesinde  Dikkat  Edilecek Hususlar\n\n1.3.2.1. Güzergâh Seçiminde Dikkat Edilecek Hususlar\n\nTünel güzergâh ı n ı n  seçiminde dikkat edilecek en önemli husus bir engel yoksa tünel ekseninin  do ğ rusal  ve  tek  e ğ imli  olmas ı n ı sa ğ lamaya  çal ı ş makt ı r.  Ancak  bu  durum genellikle  k ı sa tünellerde sa ğ lanabilmektedir. Tünel güzergâh ı n ı n seçiminde dikkat edilecek ba ş l ı ca hususlar a ş a ğ ı da özetlenmektedir (Bozkurt,1970):\n\nJeolojik ve geoteknik incelemenin sonuçlar ı na göre, olabildi ğ ince çal ı ş ma süresini, maliyeti artt ı ran ve iksa gerektiren zeminlerden kaç ı n ı lmal ı d ı r.\n\nZorunlu  olmad ı kça  tünel  giri ş ve  ç ı k ı ş a ğ ı zlar ı n ı n  sa ğ lam  kayaya  rastlamas ı için gereken eksen de ğ i ş iklikleri yap ı lmal ı d ı r. Zay ı f zeminlere rastlamas ı ndan kaç ı n ı lamad ı ğ ı nda stabilite için gerekli önlemler al ı nmal ı d ı r.\n\nYayg ı n çatlak, k ı r ı k ve fayl ı bölgelerde olabildi ğ ince tünel ekseninin k ı r ı klara dik do ğ rultuda olmas ı sa ğ lanmal ı d ı r (Natm,1995).\n\nŞ ekil 1.11. Tünel   güzergâh ı n ı n  faylara  göre  önerilen  ve  önerilmeyen konumlar ı (Natm, 1995)\n\nDebisi,  bas ı nc ı ve s ı cakl ı ğ ı fazla olabilecek sular ı n  ç ı kmas ı ihtimali  yüksek zeminlerden olabildi ğ ince kaç ı nmal ı aksi halde gerekli önlemlerle söz konusu sular tahliye edilmelidir.\n\nÖzellikle ş antiye say ı s ı n ı artt ı rmak suretiyle uzun tünellerin in ş a süresini k ı saltmak için bölgenin  topografik  durumuna  göre,  tünel  in ş as ı için gerekli  kuyular ı n ekonomiyi  de  dikkate  alarak  uygun  yerlerde  aç ı lmal ı ve  güzergâh  bu  kuyular ı n yak ı n ı ndan geçmelidir.\n\nTüneli  kesintiye  u ğ ratan  vadilerin  geçilmesi  söz  konusu  oldu ğ unda  köprü  ve viyadükler bak ı m ı ndan bu vadilerin dik olarak geçilmesine çal ı ş ı lmal ı d ı r.\n\nTünel  do ğ rusal  olamad ı ğ ı nda  mümkün  oldu ğ unca  büyük  yar ı çapl ı daire  yaylar ı kullan ı lmal ı d ı r.\n\nUzun  tüneller,  bir  vadiye  yak ı n  olarak  geçecekse  di ğ er  ko ş ullar  da  elveri ş liyse, güzergâh ı nda bir sapma yapmak suretiyle yolun aç ı k havadan geçmesi sa ğ lamal ı d ı r ( Ş ekil 1.12.). Bu suretle tünel in ş as ı ve havaland ı r ı lmas ı kolayla ş t ı r ı ld ı ğ ı gibi belirli bir ekonomi de sa ğ lanm ı ş olmaktad ı r.\n\nŞ ekil 1.12. Vadiye   yak ı n   geçecek  olan  uzun tünel  durumunda  güzergâh sapt ı r ı larak  yolun  bir k ı sm ı n ı n aç ı k havadan geçmesinin tünelde süreksizlik  olu ş turmak suretiyle sa ğ lanmas ı na ili ş kin ş ematik bir gösterim\n\nŞ ehir  içi  tünelleri,  istimlâklerin  pahal ı olmas ı yada  mümkün  olmamas ı ,  tünelin yüzeye yak ı n aç ı lmas ı durumunda yap ı lar ı n zarar görme ihtimalinin yüksek olmas ı hallerinde, olabildi ğ ince cadde ve yollar ı n alt ı ndan geçirilmelidir.\n\n10)Nehir, bo ğ az gibi suyollar ı n ı n alt ı ndan geçi ş te  gemi gabarilerini de dikkate alarak güzergâh gerekti ğ inde yata ğ ı n derinle ş tirilmesine imkân verecek ş ekilde geçirilmelidir.",
+      "conditions": [],
+      "document_id": "ING_674564f8c6d600238ac2",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_674564f8c6d600238ac2:ING_674564f8c6d600238ac2_CH_504e956caf:pages=31-33;canonical=corpus/canonical/objects/ING_674564f8c6d600238ac2/a9a20b97a266f755c31c5c7174444115808ff66c3b6bb853389bf298a3768791/chunks/embedding_ready.jsonl#L16",
+      "page_end": 33,
+      "page_start": 31,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.4.2-Q01": "PARTIAL",
+        "2.4.2-Q02": "PARTIAL",
+        "2.4.2-Q03": "PARTIAL",
+        "2.4.2-Q05": "PARTIAL",
+        "2.4.2-Q14": "PARTIAL",
+        "2.4.2-Q15": "PARTIAL",
+        "2.4.2-Q18": "PARTIAL",
+        "2.4.2-Q21": "PARTIAL",
+        "2.4.2-Q25": "PARTIAL",
+        "2.4.2-Q28": "PARTIAL",
+        "2.4.2-Q29": "PARTIAL",
+        "2.4.2-Q30": "PARTIAL",
+        "2.4.2-Q43": "PARTIAL",
+        "2.4.2-Q46": "PARTIAL",
+        "2.4.2-Q47": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2",
+        "1.3"
+      ],
+      "section_id": "2.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "1",
+      "supporting_question_ids": [
+        "2.4.2-Q01",
+        "2.4.2-Q02",
+        "2.4.2-Q03",
+        "2.4.2-Q05",
+        "2.4.2-Q14",
+        "2.4.2-Q15",
+        "2.4.2-Q18",
+        "2.4.2-Q21",
+        "2.4.2-Q25",
+        "2.4.2-Q28",
+        "2.4.2-Q29",
+        "2.4.2-Q30",
+        "2.4.2-Q43",
+        "2.4.2-Q46",
+        "2.4.2-Q47"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 17,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_674564f8c6d600238ac2/a9a20b97a266f755c31c5c7174444115808ff66c3b6bb853389bf298a3768791/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "38bb540d6ec927684d3ec24bbcfde85b2d6d5b9915ce3c176d2455bf704b6b77",
+      "chunk_id": "ING_674564f8c6d600238ac2_CH_b8de0fa131",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_a0917420563ca069e6645ed5af7e448aa26f9feeb89acd94675850ccb9ad1245",
+      "claim_text": "1.3.2.2. Boykesit Belirlemede Dikkat Edilecek Hususlar\nolmamas ı , tünelin yüzeye yak ı n aç ı lmas ı durumunda yap ı lar ı n zarar görme ihtimalinin yüksek olmas ı hallerinde, olabildi ğ ince cadde ve yollar ı n alt ı ndan geçirilmelidir. 10)Nehir, bo ğ az gibi suyollar ı n ı n alt ı ndan geçi ş te gemi gabarilerini de dikkate alarak güzergâh gerekti ğ inde yata ğ ı n derinle ş tirilmesine imkân verecek ş ekilde geçirilmelidir.\n\n1.3.2.2. Boykesit Belirlemede Dikkat Edilecek Hususlar\n\nTünel boykesitlerinin belirlenmesinde dikkat edilecek ba ş l ı ca hususlar a ş a ğ ı da verilmektedir (Bozkurt,1970):\n\nTünel  aç ı l ı rken  yada  i ş letme  s ı ras ı nda  meydana  gelen  sular  tahliye  edilmelidir. Tahliye i ş leminin mümkünse boykesite yeterli e ğ im verilerek cazibeyle gerçekle ş tirilmesi tercih edilmelidir. Bunun için binde 2'lik e ğ imin yeterli oldu ğ u bilinmektedir.\n\nÖzellikle  demiryolu  tünellerinde  Mümkün  olabildi ğ ince  i ş letme  bak ı m ı ndan  sabit direnimli  bir  yönlü  e ğ imler  kullan ı lmal ı d ı r ( Ş ekil.  1.13a).  Ancak  uzun  tünel in ş aatlar ı nda  kolayl ı k  sa ğ lamak  ve  ekonomi  elde  etmek  için  kaz ı n ı n  iki  ba ş tan\n\nyürütülmesi  uygun  olmaktad ı r.  Bu  durumda  sular ı n  her  iki  ba ş tan  da  d ı ş ar ı at ı labilmesi için boykesidin s ı rt ş eklinde olmas ı sa ğ lanmal ı d ı r ( Ş ekil. 1.13b).\n\nBurada özellikle buharl ı demiryolu tünellerinde s ı rt bölgesinde birikecek dumanlar ı n bo ş alt ı lmas ı bak ı m ı ndan, bir havaland ı rma sorununun ortaya ç ı kt ı ğ ı ve bu sorunun s ı rt ı n tepe noktas ı ndan bir kuyu aç ı lmas ı yla çözülebilece ğ ini belirtmek uygun olmaktad ı r.\n\nŞ ekil 1.13. Bir yönde (a) ve iki yönde (b) e ğ imli ş ematik boykesit örnekleri\n\nAkarsular ı n  alt ı ndan  geçilmesi  halinde  her  iki  ba ş tan  ters  e ğ im  uygulanmas ı yla talveg alt ı nda yeterli derinli ğ e  inilmesi  sa ğ lanmal ı ve  mevcut  s ı z ı nt ı sular ı uygun çukur yan ı nda aç ı lacak bir kuyuya toplan ı p buradan terfiiyle tahliye edilmelidir.\n\nYolun  tünel  içinde  kalan  k ı sm ı n ı n  e ğ imi  aç ı k  havadaki  k ı sm ı n ı n  en  büyük e ğ iminden tünel içindeki nem ile hava direncindeki art ı ş nedeniyle %20 civar ı nda daha az olmas ı sa ğ lanmal ı d ı r.\n\nŞ ehir  içi  tünellerinde,  ana  cadde  ve  yollar ı n  alt ı ndan  geçildi ğ inde  mevcut  at ı k sular ı n al ı nabilmesi için tünele yeterli e ğ im verilmelidir.\n\nE ğ er  bir  sak ı nca  yoksa  metro  tünellerinde,  boykesit  birbirini  izleyen  iki  istasyon aras ı nda çukur olarak geçilmelidir ( Ş ekil 1.14.). Böylece metro katarlar ı n ı istasyondan  ç ı k ı ş ı ini ş te  oldu ğ undan  h ı zlanma  kolayla ş makta,  istasyona  giri ş i  ise ç ı k ı ş ta  oldu ğ undan  durma  kolayla ş maktad ı r. Arazinin  e ğ imi istasyonlar ı n bu ş ekilde  yap ı lmas ı na  imkân  tan ı mad ı ğ ı takdirde  an ı lan istasyonlar  olu ş turulan sahanl ı k ş eklindeki düzlüklerde yap ı lmal ı d ı r.\n\nŞ ekil 1.14. Metro tünellerinin boykesidinde uygun istasyonlar ı n yerle ş tirilmesine ili ş kin ş ematik bir örnek",
+      "conditions": [],
+      "document_id": "ING_674564f8c6d600238ac2",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_674564f8c6d600238ac2:ING_674564f8c6d600238ac2_CH_b8de0fa131:pages=33-35;canonical=corpus/canonical/objects/ING_674564f8c6d600238ac2/a9a20b97a266f755c31c5c7174444115808ff66c3b6bb853389bf298a3768791/chunks/embedding_ready.jsonl#L17",
+      "page_end": 35,
+      "page_start": 33,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.4.2-Q01": "PARTIAL",
+        "2.4.2-Q02": "PARTIAL",
+        "2.4.2-Q11": "PARTIAL",
+        "2.4.2-Q14": "PARTIAL",
+        "2.4.2-Q28": "PARTIAL",
+        "2.4.2-Q43": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2",
+        "1.3"
+      ],
+      "section_id": "2.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "1",
+      "supporting_question_ids": [
+        "2.4.2-Q01",
+        "2.4.2-Q02",
+        "2.4.2-Q11",
+        "2.4.2-Q14",
+        "2.4.2-Q28",
+        "2.4.2-Q43"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:STRUCTURED_DOCUMENT",
+      "canonical_line_number": 7,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7f177b472ed62ef80108/72ef01fc60eb101417976d371f154842e5a45aa6a41c838e696a8bc32540360c/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "d75ec406222b30213b289dfefda8b5d2a1789720b5945a2e70a7cb606321cebe",
+      "chunk_id": "ING_7f177b472ed62ef80108_CH_614e0549d6",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_a0bf4233f7c09c1f14951458f1cba01ad9687e7f9145a114ff7a693507ef4ce4",
+      "claim_text": "TÜNELLERDE DESTEKLEME SÜRELER İ\nı z ı n ı n artt ı ğ ı tünel kesitlerinde deformasyon sönümleninceye kadar okumalara devam edilmelidir. Deformasyon Ölçümlerinde Kullan ı lan Ölçüm Enstrümanlar ı  Bulon Yükleri Ölçülmesinde  Ölçüm Bulonu  Yük Hücresi  Yüzey Deformasyonlar ı Ölçülmesinde  Ekstansometre  İ nklonometre  Yeralt ı suyu Ölçülmesinde  Piezometre  Yap ı Hareketlerinin Ölçülmesinde  Oturma Ölçümleri  Dönme Ölçümleri  Patlatma Titre ş imlerinin Ölçülmesinde  Sismograf Deformasyon Ölçümleri için Kullan ı lan Enstrümanlar\n\nTÜNELLERDE DESTEKLEME SÜRELER İ\n\nRMR S ı n ı f ı nda Desteksiz Durma Süreleri\n\nSUNUM ADI\n\nTÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR  VE ÇÖZÜM ÖNER İ LER İ\n\nTÜNELLERDE DESTEKLEME SÜRELER İ\n\nRMR S ı n ı f ı nda Destektik Durma Süreleri- Destek Bas ı nc ı -Deformasyon İ li ş kisi Grafi ğ i\n\nSUNUM ADI\n\nTÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR  VE ÇÖZÜM ÖNER İ LER İ\n\nTÜNELLERDE DESTEKLEME SÜRELER İ\n\nC20/25 MPa S ı n ı f ı nda Püskürtme Betonun Bas ı nç Dayan ı m Geli ş im H ı z ı\n\nSUNUM ADI\n\nTÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR  VE ÇÖZÜM ÖNER İ LER İ\n\nÜstyar ı Taban Kaz ı s ı n ı n De ğ i ş tirilmesi\n\nSUNUM ADI\n\nTÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR  VE ÇÖZÜM ÖNER İ LER İ\n\nTEKN İ K DETAY\n\nTÜNEL DESTEKLEME SÜRELER İ N İ N ÖNEM İ VE ÖNGÖRÜLEN KAZI GEOMETR İ S İ N İ N YAPILMAMASI DURUMU\n\nC2 kayas ı için Eksenel Simetri Grafi ğ i: Tünel aynas ı n ı n 1 metre gerisinde % 49 oran ı nda (top def./1mdef.) malzeme parametrelerinde yumu ş ama gerçekle ş mektedir. Bu oran aynan ı n 4 metre ileride % 81 oran ı ndad ı r. Yani desteksiz durma sürelerine göre ve destek imalat ı yapmadan ilerlenmesi durumunda birim parametreleri oldukça dü ş mekte ve ilave imalatlara, kesit taramalar ı na yol açmaktad ı r. Kesit taramalar ı da tünelin yeniden imal edilmesi anlam ı na gelmektedir.\n\nSUNUM ADI\n\nTÜNELC İ L İ KTE YAPIM, KAR Ş ILA Ş ILAN SORUNLAR  VE ÇÖZÜM ÖNER İ LER İ",
+      "conditions": [],
+      "document_id": "ING_7f177b472ed62ef80108",
+      "evidence_level": "STRUCTURED_DOCUMENT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_7f177b472ed62ef80108:ING_7f177b472ed62ef80108_CH_614e0549d6:pages=34-38;canonical=corpus/canonical/objects/ING_7f177b472ed62ef80108/72ef01fc60eb101417976d371f154842e5a45aa6a41c838e696a8bc32540360c/chunks/embedding_ready.jsonl#L7",
+      "page_end": 38,
+      "page_start": 34,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.4.2-Q31": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1.2",
+        "2.4.1.2",
+        "5.9.1",
+        "2.1",
+        "2.2.1"
+      ],
+      "section_id": "2.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.4.1",
+      "supporting_question_ids": [
+        "2.4.2-Q31"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 3,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_0d8f102824829559a474/29e0ad3be8806a27157e5f700b5a13514fe7e3b03e7b76e589ccd58b9cfc8b97/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "8898386cf06c0faf4a4e4283d92658fc1439a67a453382ca9cf20ba034c328c8",
+      "chunk_id": "ING_0d8f102824829559a474_CH_0fb769ffcc",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_a2fa7511e0a032308b084b1ef20336ab70b3466174953fefd74ab68ffc739bda",
+      "claim_text": "7.3.5 Korunma Hücreleri\naralıklarla çökelme çukurları yapılacaktır. Tünelin aydınlatma ve havalandırma tesisatları elektrik, mekanik ve metal aksamları ıslanmaya ve rutubetlenmeye karĢı korunmuĢ olacaktır. Kaplama yapıldıktan sonra tünelin normal iç gabarisinde daralma veya Ģekil değiĢtirme olmaması için müteahhit gerekli önlemleri alacaktır. Kaplaması yapılmıĢ bölümlerde tünel gabarisi geçirilerek, tünel boĢluğunun projesine uygunluğu kontrol edilecektir. Tünel iç yüz eğrisinde hiçbir değiĢiklik, tünel boĢluğunda tünel eksenine göre eninde ve yüksekliğinde 5 cm.'den fazla daralma kabul edilmez.\n\n7.3.5 Korunma Hücreleri\n\nĠĢletme  amacına  uygun  olarak;  bakım-onarım,  kurtarma  ve  diğer  ihtiyaçlara  cevap verecek ünitelerin tünel projesinde yerleri, boyutları, kullanım ve güvenlik ihtiyaçlarına cevap verecek Ģekilde dıĢa çıkıĢ galerileri, baca ve merdivenleri tünelin kazı, iksa, kaplama inĢaatı sırasında  birlikte  yapılacaktır.  Zemin  durumunun  elveriĢsizliği  halinde,  proje  değiĢikliği sağlanarak koruma hücre yerleri idarece değiĢtirilebilir.\n\n7.3.6 Havalandırma\n\nUzunluğu  300  metreyi  geçen  tünellerde  havalandırma  tesisatı  yapılması  zorunludur. Vardiyalı olarak sürekli çalıĢılan uzunluğu daha az tünellerde de havalandırma düĢünülebilir. Havalandırma  tesisatının  tünelde  kazı  aynası  önünde  çalıĢan  personelin  sağlığına  yetecek havayı, kazı ve patlatmalarda oluĢan tozlar ile akaryakıtlı makinaların kirletici zararlı gazlarını uzaklaĢtıracak kapasitede ve sağlayacak güçte olması  Ģarttır. Ayrıca, ilgili iĢçi sağlığı ve güvenliği tüzük ve yönetmeliklerine uyulacaktır.\n\nHavalandırma tesisatı projesine göre yapılacaktır. Arıza, zehirli gaz, beklenmedik aĢırı sıcaklıklarla  karĢılaĢılması  hallerine  göre  havalandırma  kapasitesinin  artırılması  tedbirleri alınmıĢ olacak, yedek ekipman bulundurulacaktır.\n\nHavalandırma yapılan tünellerde aydınlatma elektrikle yapılacaktır. Galeri kısımlarında diğer aydınlatma araçları kullanılabilecektir.\n\n7.3.7 Uygunluk Kriteri\n\nTünel işlerinin uygunluğu; projesine göre tünelin kazı, enjeksiyon, iksa ve kaplaması, güzergahın zemine tatbiki, deformasyon ve hareketlerin, yanıcı ve zehirleyici gazlar ile tozların ve gürültünün ölçümü ve havalandırma işlerinde deneyimli ve bilgi birikimi olan mühendislerin sorumluluğu ve denetimi tedbirleri; yer altı inşaatıyla ilgili i ş güvenliği ve işçi sağlığı tüzük ve yönetmelik  tedbirleri, makina  kullanımında  özel  güvenlik  tedbirleri, ilgili standart ve şartnamelerle  belirlenmiş  projelendirme  ve  uygulama  tedbirleri,  ilgili  Türk  ve/veya  Avrupa Birliği standartları ile getirilecek tedbirler çerçevesinde değerlendirilecektir.",
+      "conditions": [],
+      "document_id": "ING_0d8f102824829559a474",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_0d8f102824829559a474:ING_0d8f102824829559a474_CH_0fb769ffcc:pages=4;canonical=corpus/canonical/objects/ING_0d8f102824829559a474/29e0ad3be8806a27157e5f700b5a13514fe7e3b03e7b76e589ccd58b9cfc8b97/chunks/embedding_ready.jsonl#L3",
+      "page_end": 4,
+      "page_start": 4,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.4.2-Q40": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "2.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "2.4.2-Q40"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 7,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_b011796d9570a6e89619/afef36b83099133b6c9cc351451071fca73351b810c5bd494983eaaedb295afb/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "ca515eac9826808c1df50d8648858e943914456db035e0d150fb5c2635709763",
+      "chunk_id": "ING_b011796d9570a6e89619_CH_0018dcbf80",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_ab57c6a2e4d3bc125ad7fefa034c1b527c48a5bce902c3fd879e0168f4cd03db",
+      "claim_text": "Bu nedenle tünel tasarımına başlanılmadan önce jeolojik ve geoteknik incelemeler gerçekleştirilmekte ve bu incelemeler inşaat esnasında ve inşaattan sonra da devam ettirilmektedir. 2.4.1.1. İnşaat Başlamadan Önce Yapılan Çalışmalar Tünel inşasına başlanmadan önce zeminin özeliklerinin ve davranışlarının belirlenmesine ilişkin birtakım çalışmalar yapılmaktadır. Hava fotoğrafı çalışmaları, yüzey jeolojisi incelemeleri, jeofizik araştırmalar, yerinde deneyler ve laboratuvar çalışmaları bunlara örnek teşkil etmektedir. Bu çalışma ve incelemelerin başlıca amaçları aşağıda verilmektedir:\n\n1)\tMümkün olan güzergâhlardan en uygununu seçmek,\n\n2)\tTünel ekseni boyunca zemin-kayaç sınırı, yeraltı suyu, faylar, farklı zemin ve kayaç tipleri, tabakaların durumu, depremsellik, gaz ve ısı durumu gibi özeliklerin belirtildiği jeolojik harita çıkartmak,\n\n3)\tTünel güzergâhındaki zeminin geoteknik özeliklerini belirlemektir.\n\n2.4.1.2. İnşaat Esnasındaki Çalışmalar\n\nTünel inşası esnasındaki gözlem ve ölçümlere ilişkin çalışmalar, stabilitenin ve geçirimsizliğin korunması amacıyla gerçekleştirilmektedir.\n\nKazı başladıktan sonra sürdürülen incelemeler sayesinde; zemin özeliklerinin yerinde belirlenmesi, çatlak diyagramlarının çizilmesi ve böylelikle kazı devam ettikçe ilerideki kesitlerde karşılaşılabilecek sorunlu ortamların kestirilmesi sağlanmaktadır. Böylece ilave destekleme, kazı yönteminde değişiklik gereksinimleri, kazıdan etkilenebilecek yapılarda meydana gelen oturmalar, yüksek ısı, gaz, zemin suyu akışı gibi sorunlara karşı önlem alınabilmektedir.\n\n2.4.1.3. Kullanım Aşaması Çalışmaları\n\nKullanım (işletme) aşamasında yapılan geoteknik incelemeler tünellerin emniyetlerinin ve işlevselliklerinin denetimi için yapılmaktadır. Bu denetimlerle söz konusu yapıların geçirimsizliklerinin ve yer değiştirmelerinin tolerans sınırları dâhilinde kalması, ekonomik ömürleri boyunca gerekli emniyete sahip olmaları ve onarımlarının zamanında yapılması sağlanmaktadır.\n\n2.4.2. Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Hususlar\n\n2.4.2.1. Güzergah Seçiminde Dikkat Edilecek Hususlar\n\nTünel güzergâhının seçiminde dikkat edilecek en önemli husus bir engel yoksa tünel ekseninin doğrusal ve tek eğimli olmasını sağlamaya çalışmaktır. Ancak bu durum genellikle kısa tünellerde sağlanabilmektedir. Tünel güzergâhının seçiminde dikkat edilecek başlıca hususlar aşağıda özetlenmektedir:\n\n1)\tJeolojik ve geoteknik incelemenin sonuçlarına göre, olabildiğince çalışma süresini, maliyeti arttıran ve iksa gerektiren zeminlerden kaçınılmalıdır.\n\n2)\tZorunlu olmadıkça tünel giriş ve çıkış ağızlarının sağlam kayaya rastlaması için gereken eksen değişiklikleri yapılmalıdır. Zayıf zeminlere rastlamasından kaçınılamadığında stabilite için gerekli önlemler alınmalıdır.\n\n3)\tYaygın çatlak, kırık ve faylı bölgelerde olabildiğince tünel ekseninin kırıklara dik doğrultuda olması sağlanmalıdır.\n\nŞekil-2.19\n\nTünel güzergâhının faylara göre önerilen ve önerilmeyen konumları\n\n4)\tDebisi, basıncı ve sıcaklığı fazla olabilecek suların çıkması ihtimali yüksek zeminlerden olabildiğince kaçınmalı aksi halde gerekli önlemlerle söz konusu sular tahliye edilmelidir.\n\n5)\tÖzellikle şantiye sayısını arttırmak suretiyle uzun tünellerin inşa süresini kısaltmak için bölgenin topoğrafik durumuna göre, tünel inşası için gerekli kuyuların ekonomiyi de dikkate alarak uygun yerlerde açılmalı ve güzergâh bu kuyuların yakınından geçmelidir.\n\n6)\tTüneli kesintiye uğratan vadilerin geçilmesi söz konusu olduğunda köprü ve viyadükler bakımından bu vadilerin dik olarak geçilmesine çalışılmalıdır.\n\n7)\tTünel doğrusal olamadığında mümkün olduğunca büyük yarıçaplı daire yayları kullanılmalıdır.\n\n8)\tUzun tüneller, bir vadiye yakın olarak geçecekse diğer koşullar da elverişliyse, güzergâhında bir sapma yapmak suretiyle yolun açık havadan geçmesi sağlamalıdır (Şekil-2.20). Bu suretle tünel inşası ve havalandırılması kolaylaştırıldığı gibi belirli bir ekonomi de sağlanmış olmaktadır.\n\nŞekil-2.20\n\nVadiye yakın geçecek olan uzun tünel durumunda güzergâh saptırılarak yolun bir kısmının açık havadan geçmesinin tünelde süreksizlik oluşturmak suretiyle sağlanmasına ilişkin şematik bir gösterim\n\n9)\tŞehir içi tünelleri, kamulaştırmanın pahalı olması yada mümkün olmaması, tünelin yüzeye yakın açılması durumunda yapıların zarar görme ihtimalinin yüksek olması hallerinde, olabildiğince cadde ve yolların altından geçirilmelidir.\n\n10)\t Nehir, boğaz gibi suyollarının altından geçişte gemi gabarilerini de dikkate alarak güzergâh gerektiğinde yatağın derinleştirilmesine imkân verecek şekilde geçirilmelidir.\n\n2.4.2.2. Boykesit Belirlemede Dikkat Edilecek Hususlar\n\nTünel boykesitlerinin belirlenmesinde dikkat edilecek başlıca hususlar aşağıda verilmektedir:\n\n1)\tTünel açılırken yada işletme sırasında meydana gelen sular tahliye edilmelidir. Tahliye işleminin mümkünse boykesite yeterli eğim verilerek cazibeyle gerçekleştirilmesi tercih edilmelidir. Bunun için binde 2’lik eğimin yeterli olduğu bilinmektedir.\n\n2)\tÖzellikle demiryolu tünellerinde mümkün olabildiğince işletme bakımından sabit direnimli bir yönlü eğimler kullanılmalıdır (Şekil-2.21a). Ancak uzun tünel inşaatlarında kolaylık sağlamak ve ekonomi elde etmek için kazının iki baştan yürütülmesi uygun olmaktadır. Bu durumda suların her iki baştan da dışarı atılabilmesi için boykesitin sırt şeklinde olması sağlanmalıdır (Şekil-2.21b).\n\nBurada özellikle buharlı demiryolu tünellerinde sırt bölgesinde birikecek dumanların boşaltılması bakımından, bir havalandırma sorununun ortaya çıktığı ve bu sorunun sırtın tepe noktasından bir kuyu açılmasıyla çözülebileceğini belirtmek uygun olmaktadır.\n\nBir yönde eğimli boykesite ilişkin şematik bir görünüm\n\n(b) İki yönde eğimli ve havalandırma bacalı boykesite ilişkin şematik bir görünüm\n\nŞekil-2.21\n\nBir yönde (a) ve iki yönde (b) eğimli şematik boykesit örnekleri\n\n3)\tAkarsuların altından geçilmesi halinde her iki baştan ters eğim uygulanmasıyla talveg altında yeterli derinliğe inilmesi sağlanmalı ve mevcut sızıntı suları uygun çukur yanında açılacak bir kuyuya toplanıp buradan tahliye edilmelidir.\n\n4)\tYolun tünel içinde kalan kısmının eğimi açık havadaki kısmının en büyük eğiminden tünel içindeki nem ile hava direncindeki artış nedeniyle %20 civarında daha az olması sağlanmalıdır.\n\n5)\tŞehir içi tünellerinde, ana cadde ve yolların altından geçildiğinde mevcut atık suların alınabilmesi için tünele yeterli eğim verilmelidir.\n\n6)\tEğer bir sakınca yoksa metro tünellerinde, boykesit birbirini izleyen iki istasyon arasında çukur olarak geçilmelidir (Şekil-2.22). Böylece metro katarlarını istasyondan çıkışı inişte olduğundan hızlanma kolaylaşmakta, istasyona girişi ise çıkışta olduğundan durma kolaylaşmaktadır. Arazinin eğimi istasyonların bu şekilde yapılmasına imkân tanımadığı takdirde anılan istasyonlar oluşturulan sahanlık şeklindeki düzlüklerde yapılmalıdır(",
+      "conditions": [],
+      "document_id": "ING_b011796d9570a6e89619",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_b011796d9570a6e89619:ING_b011796d9570a6e89619_CH_0018dcbf80:canonical=corpus/canonical/objects/ING_b011796d9570a6e89619/afef36b83099133b6c9cc351451071fca73351b810c5bd494983eaaedb295afb/chunks/embedding_ready.jsonl#L7",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.4.2-Q01": "PARTIAL",
+        "2.4.2-Q03": "PARTIAL",
+        "2.4.2-Q04": "PARTIAL",
+        "2.4.2-Q05": "PARTIAL",
+        "2.4.2-Q12": "PARTIAL",
+        "2.4.2-Q21": "PARTIAL",
+        "2.4.2-Q28": "PARTIAL",
+        "2.4.2-Q29": "PARTIAL",
+        "2.4.2-Q30": "PARTIAL",
+        "2.4.2-Q43": "PARTIAL",
+        "2.4.2-Q46": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1.2",
+        "2",
+        "5.4",
+        "2.2.1"
+      ],
+      "section_id": "2.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "2.4.2-Q01",
+        "2.4.2-Q03",
+        "2.4.2-Q04",
+        "2.4.2-Q05",
+        "2.4.2-Q12",
+        "2.4.2-Q21",
+        "2.4.2-Q28",
+        "2.4.2-Q29",
+        "2.4.2-Q30",
+        "2.4.2-Q43",
+        "2.4.2-Q46"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 143,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "b9ba2fdbfc97b4a83dddb22996854078b03280f83cfe3f47786846a8e9a8a062",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_9e177595b8",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_b6777072fbe4d647bf0f80f99b235475acc1c8632ea1c1311ca1dbf891e2ff0f",
+      "claim_text": "5.2. BAKIM YÖNETİM SİSTEMİ\nya da bir kısmını yenilemek aşırı maliyetli olabilir. Bu sebep le ihtiyatlı bir yenileme planı yapmak gerekmektedir. Bu planlarda tahminler mümkün olduğunca net olmalıdır. Farklı ekipmanların kullanım ömrünü bilmeden yenileme planı yapmak mümkün değildir. Tünel içinde ve dışında farklı üreticilerin ürettiği çok sayıd a cihaz mevcuttur. Birkaç yılda teknolojik değişimler nedeniyle havalandırma, güç sağlayıcı sistemleri, kamera sistemleri v.b. teknolojileri değişebilmektedir. Bu sebeple gelişen teknolojilerin yakından takip edilmesi gerekmektedir.\n\n5.2. BAKIM YÖNETİM SİSTEMİ\n\nTünel  İşletme  Yöneticisi  koruyucu  ve  düzeltici  bakım  faaliyetleri  için  uygun  bakım programlarını  hazırlamalıdır.  Bu  programlar  hazırlanırken  akıldan  çıkarılmaması  gereken maliyet ve güvenlikte dengeyi kurmaktır. Her bir ekipmanın ortalama kullanım ömrü, yıllık maliyeti, ilk yatırım maliyeti, beklenen bakım giderleri, servis giderleri, trafik maliyetleri ve ilgili  müdahale  maliyetleri  istatistiki  olarak  tutulmalıdır.  Maliyetler  düşünülerek  gerekirse alternatif bakım programları hazırlanmalıdır.\n\nPerso neller özellikle planlanmamış müdahaleler gerektiren durumların yüksek potansiyeli olduğunu bilerek zaman, personel ve malzeme eksikliği gibi sorunlar yaşamamak için önceden önlemini almalıdır. Çünkü ekipman eksikliği ve oluşacak herhangi bir aksaklık tüm sistemi etkileyebilir ve müdahale süresine bağlı olarak onarımı uzun sürebilir.\n\nBakım yönetiminin kapsamı;\n\n Çalışma ve müdahalelerin planlanması,\n\n Göstergelerin takibi,\n\n Masrafların yönetimi,\n\n Geçici bütçe düzenlenmesi,\n\n Alt yüklenicinin yönetilmesi,\n\n Bakım personellerinin eğitimi ve yönetilmesi olarak sayılabilir.\n\nKoruyucu  ve  düzeltici  bakım  faaliyetleri  için  hazırlanan  programlarda  aşağıdaki hususlara dikkat etmek gerekir;\n\n Müdahale süresi belirlenmeli,\n\n Gerekli personel sayısı belirlenmeli,\n\n Dışarıdan  gerekecek  personel  sayısı  belirlenmeli  (alt  yüklenici,  polis,  itfaiye personelleri v.b.)\n\n Erişim planı yapılmalı,\n\n Muayene için talimatlar hazır olmalı,\n\n Önlem  amaçlı  trafik levhaları hazır olmalı, tüm  trafik düzeni düşünülmeli (Bakımlarda tüm güzergâhın ba kımını tek seferde yapmak önemlidir.),\n\n Anemometre,  luminansmetre,  lüksmetre,  voltmetre  v.b.  ölçüm  cihazları  hazır olmalı,\n\n Pick-up, sepetli vinç, vakumlu süpürge v.b. araçla müdahale gerektirecek sistemler için bu araçlar hazır tutulmalı,\n\n Çizimler,  diyagra mlar,  performanslar  v.b.  hazırlanmalı,  formlara  işlenmeli, önceki sonuçlarla karşılaştırılmalı ve bir sonraki müdahale planları yapılmalıdır.",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_9e177595b8:pages=339-340;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L143",
+      "page_end": 340,
+      "page_start": 339,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.4.2-Q47": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "2.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "2.4.2-Q47"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 3,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_9fea1e259f10c9d371f0/58b79d5b5f1958aa4fccdd19986430a69bd4ff45d41cb8458a57234c8901c4a3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "4398a78fe9a9698d20c2f33e5d84409318a2ab9d0c291986cd5fa849a3ab01f4",
+      "chunk_id": "ING_9fea1e259f10c9d371f0_CH_dfa84773e1",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_b951db1706dda32d97400f83ea044e4d7636e557f2e0e376d06f468cc3f2963c",
+      "claim_text": "Karayolları Genel Müdürlüğünde > Portal bölgeleri\nyapımına esas teşkil eden projedir.) 1/1000-1/2000'lik ( eksenin 250 m sağı, 250 m solunu kapsayacak şekilde) mühendislik jeolojisi haritasının hazırlanması Jeolojik modelin oluşturulması Jeoteknik modelin jeoteknik profilin oluşturulması (kaya sınıflamaları) Tünelin geometrisinin (güzergah ve tip kesitinin) kesinleştirilmesi Tünel kazı ve destekleme sisteminin boyutlandırılması (nümerik analizler) Portal kesimde yapılacak şev kazılarının ve portal yapılarının projelendirilmesi KESİN PROJE İÇİN YAPILACAK ARAŞTIRMA ÇALIŞMALARINDA ÖNCELİKLİ OLARAK GÖZ ÖNÜNE ALINAN BÖLGELER\n\nPortal bölgeleri\n\nTünel\tüzerinde\tgenelde\tzayıf\tzemin/kaya\tkoşullarının\tolduğu\tsığ\törtü kalınlığının bulunduğu kesimler\n\nDerin kırılma, sık eklem ve ayrışma potansiyeli olan kaya/zemin birimleri Su taşıyıcı zonlar, akifer özelliği olan litolojiler\n\nFay zonları ve özellikleri\n\nUyumsuzluk yüzeyleri ve şişme potansiyeli olan düzeyler\n\nTÜNEL KAZI DESTEK TİP PROJELERİNİN OLUŞTURULMASI\n\nKaya sınıflarına bağlı olarak kazı sisteminin ve birincil destekleme elemanlarının (püskürtme beton, çelik hasır, çelik iksa, süren, bulon v.b.) ve ikincil destekleme elamanlarının (kaplama betonu) boyutlandırılması\n\nTünel projelerinin tünel kazı ve destekleme sisteminin yerinde nasıl uygulanacağı Kazının aşamalandırılması\n\nBirincil destekleme elemanlarının doğru ve zamanında yerleştirilmesi Birbirini izleyen kazı ve ilerleme adımlarının belirtilmesi\n\nKazı ve destekleme sırasında yapılacak geoteknik ölçüm ve araştırma çalışmalarıyla kaya sınıflarına bağlı olarak hangi tip kazı destekleme sistemi ve teknik işlerin yapılacağının belirlenmesi\n\nÜlkemiz tünel tasarımları için de çeşitli uluslararası yükümlülükleri de karşılamak durumundadır.\n\nAvrupa Birliği’nin Avrupa Parlamentosu ve Konseyi tarafından “Trans-Avrupa Yol Ağındaki Tüneller İçin Asgari Güvenlik Gereksinimleri” yönergesi 2004 yılında yürürlüğe girmiştir.\n\nBu yönerge çerçevesinde, Karayolu ağı üzerinde hizmet verecek olan tünellerin asgari güvenlik gereksinimlerine ilişkin proje ölçütlerinin belirlenmesi ilgili rapor ve ekleri 08–03–2005 tarihinde yürürlüğe konulmuştur. Söz konusu yönerge ve ölçüt belirleme raporu tünellerin asgari güvenlik gereksinimlerini detaylı olarak vermektedir.\n\nAyrıca Tehlikeli Maddelerin Karayolu İle Taşınması Hakkındaki Yönetmelik hükümleri gereği Avrupa Birliği tarafından da kullanılmakta olan ve ADR (International Carriage of Dangerous Goods by Road) adı verilen Tehlikeli Maddelerin Karayollarında Taşınması Mevzuatı ile ilgili çalışmalar devam etmektedir.\n\nBu çalışma kapsamında tehlikeli maddeler sınıflandırılarak hangi maddeleri taşıyan araçların hangi tünellerden geçmesine izin verileceğine ilişkin risk analizlerinin yapılması, uygun güzergahların belirlenmesi ve oluşabilecek herhangi bir kaza, yangın vb. tehlikeli durumlar için alınması gereken önlemler de bulunmaktadır.\n\nYapım Aşamasında;",
+      "conditions": [],
+      "document_id": "ING_9fea1e259f10c9d371f0",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_9fea1e259f10c9d371f0:ING_9fea1e259f10c9d371f0_CH_dfa84773e1:canonical=corpus/canonical/objects/ING_9fea1e259f10c9d371f0/58b79d5b5f1958aa4fccdd19986430a69bd4ff45d41cb8458a57234c8901c4a3/chunks/embedding_ready.jsonl#L3",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.4.2-Q39": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2"
+      ],
+      "section_id": "2.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.4",
+      "supporting_question_ids": [
+        "2.4.2-Q39"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 3,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_3ed9bee7ff5641991a95/1f4748100a53b06a4063ff026c09580d2a064c2c9a4f65481e74089520f359d0/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "793885c47287ef0d270e57967167816eb7eb71c54880f7968fbe40db9760b2df",
+      "chunk_id": "ING_3ed9bee7ff5641991a95_CH_7ed8b513d0",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_cdb88423bf87367647795427cd2f00f6086b7e288015188960b1390282878a37",
+      "claim_text": "3 Korunma Hücreleri\naralıklarla çökelme çukurları yapılacaktır. Tünelin aydınlatma ve havalandırma tesisatları elektrik, mekanik ve metal aksamları ıslanmaya ve rutubetlenmeye karĢı korunmuĢ olacaktır. Kaplama yapıldıktan sonra tünelin normal iç gabarisinde daralma veya Ģekil değiĢtirme olmaması için müteahhit gerekli önlemleri alacaktır. Kaplaması yapılmıĢ bölümlerde tünel gabarisi geçirilerek, tünel boĢluğunun projesine uygunluğu kontrol edilecektir. Tünel iç yüz eğrisinde hiçbir değiĢiklik, tünel boĢluğunda tünel eksenine göre eninde ve yüksekliğinde 5 cm.‘den fazla daralma kabul edilmez.\n\n3 Korunma Hücreleri\n\nĠĢletme amacına uygun olarak; bakım-onarım, kurtarma ve diğer ihtiyaçlara cevap verecek ünitelerin tünel projesinde yerleri, boyutları, kullanım ve güvenlik ihtiyaçlarına cevap verecek Ģekilde dıĢa çıkıĢ galerileri, baca ve merdivenleri tünelin kazı, iksa, kaplama inĢaatı sırasında birlikte yapılacaktır. Zemin durumunun elveriĢsizliği halinde, proje değiĢikliği sağlanarak koruma hücre yerleri idarece değiĢtirilebilir.\n\n4 Havalandırma\n\nUzunluğu 300 metreyi geçen tünellerde havalandırma tesisatı yapılması zorunludur. Vardiyalı olarak sürekli çalıĢılan uzunluğu daha az tünellerde de havalandırma düĢünülebilir. Havalandırma tesisatının tünelde kazı aynası önünde çalıĢan personelin sağlığına yetecek havayı, kazı ve patlatmalarda oluĢan tozlar ile akaryakıtlı makinaların kirletici zararlı gazlarını uzaklaĢtıracak kapasitede ve sağlayacak güçte olması Ģarttır. Ayrıca, ilgili iĢçi sağlığı ve güvenliği tüzük ve yönetmeliklerine uyulacaktır.\n\nHavalandırma tesisatı projesine göre yapılacaktır. Arıza, zehirli gaz, beklenmedik aĢırı sıcaklıklarla karĢılaĢılması hallerine göre havalandırma kapasitesinin artırılması tedbirleri alınmıĢ olacak, yedek ekipman bulundurulacaktır.\n\nHavalandırma yapılan tünellerde aydınlatma elektrikle yapılacaktır. Galeri kısımlarında diğer aydınlatma araçları kullanılabilecektir.\n\n5 Uygunluk Kriteri\n\nTünel işlerinin uygunluğu; projesine göre tünelin kazı, enjeksiyon, iksa ve kaplaması, güzergahın zemine tatbiki, deformasyon ve hareketlerin, yanıcı ve zehirleyici gazlar ile tozların ve gürültünün ölçümü ve havalandırma işlerinde deneyimli ve bilgi birikimi olan mühendislerin sorumluluğu ve denetimi tedbirleri; yer altı inşaatıyla ilgili i\n\nş\n\ngüvenliği ve işçi sağlığı tüzük ve yönetmelik tedbirleri, makina kullanımında özel güvenlik tedbirleri, ilgili standart ve şartnamelerle belirlenmiş projelendirme ve uygulama tedbirleri, ilgili Türk ve/veya Avrupa Birliği standartları ile getirilecek tedbirler çerçevesinde değerlendirilecektir.",
+      "conditions": [],
+      "document_id": "ING_3ed9bee7ff5641991a95",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_3ed9bee7ff5641991a95:ING_3ed9bee7ff5641991a95_CH_7ed8b513d0:canonical=corpus/canonical/objects/ING_3ed9bee7ff5641991a95/1f4748100a53b06a4063ff026c09580d2a064c2c9a4f65481e74089520f359d0/chunks/embedding_ready.jsonl#L3",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.4.2-Q40": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.4.3",
+        "5"
+      ],
+      "section_id": "2.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.4.2-Q40"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 14,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_674564f8c6d600238ac2/a9a20b97a266f755c31c5c7174444115808ff66c3b6bb853389bf298a3768791/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "40bc337de84022c4546c5c60316b92aa8f397bcc9f199d0e5d40612eb46cbbfb",
+      "chunk_id": "ING_674564f8c6d600238ac2_CH_2ebb4d38d8",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_dbae30176ce59209a6c8b91150adbf68922316b80da01192f8bbcd542534c836",
+      "claim_text": "1.3.1. Jeolojik ve Geoteknik İ ncelemeler\nı sal güvenli ğ inin sa ğ lanmas ı ve zemin etkileri ile ilgili arazi ölçümleri Kar ş ı la ş ı lan problemleri aç ı klayan belgelerin haz ı rlanmas ı d ı r. Tünel tasar ı m ı na ili ş kin baz ı a ş amalar a ş a ğ ı daki ak ı ş diyagram ı nda verilmektedir. Ş ekil 1.10. Tünel tasar ı m ak ı ş ş emas ı\n\n1.3.1. Jeolojik ve Geoteknik İ ncelemeler\n\nBina,  yol,  köprü,  tünel  gibi  mühendislik  yap ı lar ı içinde  tünellerin  di ğ erlerine  oranla zeminle olan ili ş kisinin  çok  daha  önemli  oldu ğ u  aç ı kt ı r.  Dolay ı s ı yla  tünel  in ş aatlar ı için zemin özeliklerinin çok daha hassas olarak belirlenmesi gerekmektedir.\n\nTünel  in ş as ı için  kaz ı ya  ba ş lanmas ı yla  kaz ı lan  zeminin  do ğ al  dengesi  bozulmakta dolay ı s ı yla yeni bir denge durumu olu ş abilmesi için ortamdaki gerilme da ğ ı l ı m ı de ğ i ş mektedir.  Bu  yeni  gerilme  da ğ ı l ı m ı nda  zeminin  jeolojik  geçmi ş ve  geoteknik özelikleri önemli rol oynamaktad ı r. Bu nedenle tünel tasar ı m ı na ba ş lanmadan önce jeolojik ve  geoteknik  incelemeler  gerçekle ş tirilmekte  ve  bu  incelemeler  in ş aat  esnas ı nda  ve in ş aattan sonra da devam ettirilmektedir.\n\n1.3.1.1. İ n ş aat Ba ş lamadan Önce Yap ı lan Çal ı ş malar\n\nTünel in ş as ı na ba ş lanmadan önce zeminin özeliklerinin ve davran ı ş lar ı n ı n belirlenmesine ili ş kin birtak ı m çal ı ş malar yap ı lmaktad ı r. Hava foto ğ raf ı çal ı ş malar ı , yüzey jeolojisi  incelemeleri,  jeofizik  ara ş t ı rmalar,  yerinde  deneyler  ve  laboratuvar  çal ı ş malar ı bunlara birer örnek te ş kil etmektedir. Bu çal ı ş ma ve incelemelerin ba ş l ı ca amaçlar ı a ş a ğ ı da verilmektedir:\n\nMümkün olan güzergâhlardan en uygununu seçmek,\n\nTünel ekseni boyunca zemin- kayaç s ı n ı r ı ,  yeralt ı suyu, faylar, farkl ı zemin ve kayaç  tipleri, tabakalar ı n  durumu,  depremsellik,  gaz  ve ı s ı durumu  gibi özeliklerin belirtildi ğ i jeolojik harita ç ı kartmak,\n\nTünel güzergâh ı ndaki zeminin geoteknik özeliklerini belirlemektir.",
+      "conditions": [],
+      "document_id": "ING_674564f8c6d600238ac2",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_674564f8c6d600238ac2:ING_674564f8c6d600238ac2_CH_2ebb4d38d8:pages=30;canonical=corpus/canonical/objects/ING_674564f8c6d600238ac2/a9a20b97a266f755c31c5c7174444115808ff66c3b6bb853389bf298a3768791/chunks/embedding_ready.jsonl#L14",
+      "page_end": 30,
+      "page_start": 30,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.4.2-Q04": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2",
+        "1.3"
+      ],
+      "section_id": "2.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "1",
+      "supporting_question_ids": [
+        "2.4.2-Q04"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 45,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1f2620af18f727fc650f/599203f07b7416f2a5811748da836b3d4d375ab3f9ca2a31377c78e78d795d8c/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "54171de20cc70278a21edb7b34d0cd00af64cc75a64eac0fd534d87c28846d43",
+      "chunk_id": "ING_1f2620af18f727fc650f_CH_8e46a18192",
+      "chunk_type": "SLIDE_CHUNK",
+      "claim_id": "CLM_e8af1badd20f82e491d038152df202624062174031cd5c447bf483e8fdccbce7",
+      "claim_text": "TÜNEL MÜHENDİSİ YETİŞTİRME KURSU\n\nKaya Kütlesi Yapısal Özellikleri\n\nA: Kayacın\n Tipi\n\nE: Konum\n eğim/eğim yönü\n\nG: Süreksizlik\n Açıklığı\n\nM: Su \nSızıntısı\n\nL: Blok \nBoyutu/Şekli\n\nF: Süreksizlik\nPürüzlülüğü\n\nD: Süreksizlik\nTipi:Tabaka,Fay\nvb.\n\nH: Dolgu Tipi\n ve Genişliği\n\nB: Dayanım\n\nJ: Süreksizliğin\ndevamlılığı\n\nI: Süreksizlik\nAralığı\n\nK: Eklem \nTakımı\nSayısı",
+      "conditions": [],
+      "document_id": "ING_1f2620af18f727fc650f",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_SLIDE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1f2620af18f727fc650f:ING_1f2620af18f727fc650f_CH_8e46a18192:pages=60;canonical=corpus/canonical/objects/ING_1f2620af18f727fc650f/599203f07b7416f2a5811748da836b3d4d375ab3f9ca2a31377c78e78d795d8c/chunks/embedding_ready.jsonl#L45",
+      "page_end": 60,
+      "page_start": 60,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "2.4.2-Q12": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "2.4.2",
+      "sheet_name": null,
+      "slide_number": 60,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "2.4.2-Q12"
+      ]
+    }
+  ],
+  "contract_version": "section-preparation-v1",
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "registry_id": "SCR_e3802f0097727526653a62524f89f2bd086f689ed926a1e3fb3910bf5e8c020c",
+  "schema_version": "1.0",
+  "section_id": "2.4.2",
+  "section_title": "Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Hususlar"
+}

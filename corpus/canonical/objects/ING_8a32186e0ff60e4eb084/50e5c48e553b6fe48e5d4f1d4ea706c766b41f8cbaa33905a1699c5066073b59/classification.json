@@ -1,0 +1,183 @@
+{
+  "final_primary_section": "2.4.1.2",
+  "final_secondary_sections": [
+    "2.4.1",
+    "2"
+  ],
+  "final_section_confidence": 0.92,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0004",
+        "PARA0034",
+        "PARA0035",
+        "PARA0036",
+        "PARA0037",
+        "PARA0038",
+        "PARA0039",
+        "PARA0040",
+        "PARA0041",
+        "PARA0042",
+        "PARA0043",
+        "HEAD0008",
+        "PARA0044",
+        "FIG0004",
+        "CAPT0001",
+        "HEAD0011",
+        "PARA0046",
+        "HEAD0012",
+        "LIST0006",
+        "LIST0008",
+        "LIST0009",
+        "LIST0010",
+        "HEAD0013",
+        "PARA0049"
+      ]
+    },
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": [
+        "FIG0021",
+        "FIG0026",
+        "HEAD0063",
+        "FIG0029",
+        "CAPT0030",
+        "FIG0030",
+        "CAPT0031",
+        "PARA0127",
+        "LIST0109",
+        "HEAD0110",
+        "PARA0218",
+        "FIG0078",
+        "CAPT0080"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0035",
+        "PARA0036",
+        "PARA0037",
+        "PARA0038",
+        "PARA0040",
+        "LIST0002",
+        "PARA0053",
+        "LIST0021",
+        "PARA0059",
+        "LIST0029",
+        "PARA0063",
+        "LIST0034",
+        "PARA0100",
+        "FIG0015",
+        "CAPT0016",
+        "LIST0114",
+        "PARA0132",
+        "FIG0032",
+        "LIST0123",
+        "FIG0034",
+        "CAPT0035",
+        "LIST0125",
+        "FIG0039",
+        "CAPT0040",
+        "PARA0163"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.1.2",
+      "score": 0.8096,
+      "rule_score": 0.6,
+      "embedding_score": 0.8323,
+      "chunk_vote": 0.2753
+    },
+    {
+      "id": "2",
+      "score": 0.7333,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8066,
+      "chunk_vote": 0.0735
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.4011,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1722
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3636,
+      "rule_score": 0.0,
+      "embedding_score": 0.8079,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3632,
+      "rule_score": 0.0,
+      "embedding_score": 0.807,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3598,
+      "rule_score": 0.0,
+      "embedding_score": 0.7996,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.359,
+      "rule_score": 0.0,
+      "embedding_score": 0.7977,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3589,
+      "rule_score": 0.0,
+      "embedding_score": 0.7976,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3587,
+      "rule_score": 0.0,
+      "embedding_score": 0.7971,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.349,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.095
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, geleneksel tünel kazısı sırasında uygulanan jeoteknik izleme (monitoring) prosedürlerini, veri toplama sıklıklarını ve inşaat aşamasındaki risk yönetimini detaylıca ele aldığı için 'İnşaat Esnasındaki Çalışmalar' bölümüne en yüksek ağırlıkla aittir. Jeoteknik incelemeler ve tünel yapım teknikleri de ikincil bağlam olarak değerlendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.4.1.2:0.8096 gap=0.076 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

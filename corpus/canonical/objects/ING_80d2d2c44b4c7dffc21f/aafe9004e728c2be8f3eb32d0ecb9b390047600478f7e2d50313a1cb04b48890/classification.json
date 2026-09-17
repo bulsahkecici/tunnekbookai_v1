@@ -1,0 +1,102 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.5696,
+  "classification_methods": [
+    "heading_rules",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4",
+      "score": 0.5696,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7473,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3479,
+      "rule_score": 0.0,
+      "embedding_score": 0.7732,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.338,
+      "rule_score": 0.0,
+      "embedding_score": 0.7512,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3351,
+      "rule_score": 0.0,
+      "embedding_score": 0.7447,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3348,
+      "rule_score": 0.0,
+      "embedding_score": 0.7439,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6",
+      "score": 0.3348,
+      "rule_score": 0.0,
+      "embedding_score": 0.7441,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3346,
+      "rule_score": 0.0,
+      "embedding_score": 0.7436,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.3",
+      "score": 0.334,
+      "rule_score": 0.0,
+      "embedding_score": 0.7422,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.4:0.5696 gap=0.222 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

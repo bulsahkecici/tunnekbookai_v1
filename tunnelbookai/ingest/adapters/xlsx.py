@@ -24,6 +24,7 @@ import csv
 import io
 import json
 import re
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -122,16 +123,41 @@ def run(context: AdapterContext) -> ExtractionResult:
         result.fail("OPENPYXL_UNAVAILABLE")
         return result
 
+    open_source = source
+    legacy_conversion: tempfile.TemporaryDirectory[str] | None = None
+    is_legacy_xls = fmt == "XLS" or source.suffix.lower() == ".xls"
+    if is_legacy_xls:
+        renderer = context.office_renderer
+        if renderer is None or not renderer.available():
+            result.fail("XLS_CONVERSION_UNAVAILABLE")
+            return result
+        legacy_conversion = tempfile.TemporaryDirectory(prefix="tbai_xls_")
+        converted, conversion_warnings = renderer.convert_to_xlsx(
+            source, Path(legacy_conversion.name)
+        )
+        if converted is None:
+            result.fail(";".join(conversion_warnings or ["XLS_CONVERSION_FAILED"]))
+            legacy_conversion.cleanup()
+            return result
+        open_source = converted
+        result.warn("XLS_CONVERTED_TO_XLSX")
+
     try:
-        workbook = openpyxl.load_workbook(str(source), data_only=False, read_only=False)
+        workbook = openpyxl.load_workbook(str(open_source), data_only=False, read_only=False)
     except Exception as exc:
         result.fail(f"XLSX_OPEN_FAILED:{type(exc).__name__}: {exc}")
+        if legacy_conversion is not None:
+            legacy_conversion.cleanup()
         return result
     try:
-        cached_workbook = openpyxl.load_workbook(str(source), data_only=True, read_only=False)
+        cached_workbook = openpyxl.load_workbook(
+            str(open_source), data_only=True, read_only=False
+        )
     except Exception:
         cached_workbook = None
         result.warn("XLSX_CACHED_VALUES_UNAVAILABLE")
+    if legacy_conversion is not None:
+        legacy_conversion.cleanup()
 
     properties = workbook.properties
     workbook_meta = {
@@ -289,7 +315,11 @@ def run(context: AdapterContext) -> ExtractionResult:
         "format": fmt,
         "adapter": "xlsx",
         "source_filename": context.original_filename,
-        "structural_authority": "openpyxl_workbook_model",
+        "structural_authority": (
+            "libreoffice_converted_openpyxl_workbook_model"
+            if is_legacy_xls
+            else "openpyxl_workbook_model"
+        ),
         "workbook_properties": workbook_meta,
         "named_ranges": named_ranges,
         "sheet_names": list(workbook.sheetnames),
@@ -309,7 +339,8 @@ def run(context: AdapterContext) -> ExtractionResult:
     result.text_elements = builder.elements
     result.page_count = len(sheet_records)
     result.engine = {
-        "native_parser": "openpyxl",
+        "native_parser": "libreoffice+openpyxl" if is_legacy_xls else "openpyxl",
+        "legacy_xls_conversion": is_legacy_xls,
         "data_only_pass": cached_workbook is not None,
         "formula_count": total_formulas,
     }

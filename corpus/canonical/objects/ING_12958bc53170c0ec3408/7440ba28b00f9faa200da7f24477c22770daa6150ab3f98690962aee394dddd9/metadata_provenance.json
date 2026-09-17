@@ -1,0 +1,90 @@
+{
+  "document_id": "ING_12958bc53170c0ec3408",
+  "fields": [
+    {
+      "field": "title",
+      "value": "KAYA  SINIFLANDIRMASI",
+      "source": "ooxml_properties",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "TCK"
+      ],
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": "119",
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "excavation",
+        "geology",
+        "injection",
+        "instrumentation",
+        "maintenance",
+        "monitoring",
+        "quality_control",
+        "rock_bolt",
+        "shotcrete"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geology:jeoloji; excavation:kazı; shotcrete:püskürtme beton; rock_bolt:kaya bulonu; injection:enjeksiyon; monitoring:izleme; instrumentation:enstrüman; maintenance:bakım; quality_control:kalite kontrol; accident:kaza; tunnel_general:tünel"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.4.1",
+    "2",
+    "2.4.1.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0002",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "HEAD0004",
+        "PARA0011",
+        "PARA0012",
+        "FIG0002",
+        "TABLE0001",
+        "CAPT0002",
+        "PARA0014",
+        "PARA0016",
+        "PARA0037",
+        "PARA0066",
+        "HEAD0014",
+        "PARA0068",
+        "LIST0007",
+        "LIST0008",
+        "LIST0009",
+        "PARA0069",
+        "PARA0070"
+      ]
+    },
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": [
+        "FIG0002",
+        "CAPT0001",
+        "LIST0042",
+        "LIST0043",
+        "LIST0044",
+        "LIST0051"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0002",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "HEAD0004",
+        "PARA0011",
+        "PARA0012",
+        "FIG0002",
+        "TABLE0001",
+        "CAPT0002",
+        "PARA0014",
+        "PARA0016",
+        "PARA0037",
+        "PARA0066",
+        "HEAD0014",
+        "PARA0068",
+        "LIST0007",
+        "LIST0008",
+        "LIST0009",
+        "PARA0069",
+        "PARA0070"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0005",
+        "PARA0009",
+        "LIST0007",
+        "LIST0027",
+        "LIST0035"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2",
+      "score": 0.7072,
+      "rule_score": 0.5,
+      "embedding_score": 0.7862,
+      "chunk_vote": 0.1421
+    },
+    {
+      "id": "2",
+      "score": 0.6829,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7878,
+      "chunk_vote": 0.2132
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.6353,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7769,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3665,
+      "rule_score": 0.0,
+      "embedding_score": 0.7829,
+      "chunk_vote": 0.0711
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3566,
+      "rule_score": 0.0,
+      "embedding_score": 0.7925,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3535,
+      "rule_score": 0.0,
+      "embedding_score": 0.7855,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3525,
+      "rule_score": 0.0,
+      "embedding_score": 0.7833,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3503,
+      "rule_score": 0.0,
+      "embedding_score": 0.7784,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3288,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.116
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3243,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0935
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, TBM (Tünel Açma Makinesi) kazı sürecindeki tıkanma risklerini değerlendiren bir model sunmaktadır. Bu, doğrudan 'Tünel Yapım Yöntemleri' (2.2) ile ilgilidir. Ayrıca, jeolojik koşulların (Class III kaya) kazı planlaması ve risk azaltmadaki rolüne atıfta bulunması nedeniyle 'Jeolojik ve Geoteknik İncelemeler' (2.4.1) ikincil bölüm olarak seçilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2:0.7072 gap=0.024 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,176 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.2.1",
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0023",
+        "PARA0024",
+        "FIG0031",
+        "FIG0032",
+        "FIG0033",
+        "PARA0035",
+        "LIST0036",
+        "PARA0038",
+        "PARA0039",
+        "LIST0039",
+        "FIG0045",
+        "HEAD0009",
+        "FIG0047",
+        "CAPT0001",
+        "HEAD0010",
+        "FIG0049",
+        "CAPT0002",
+        "FIG0051",
+        "CAPT0003",
+        "FIG0054",
+        "CAPT0004",
+        "LIST0043",
+        "LIST0045",
+        "LIST0052",
+        "PARA0051"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0053",
+        "PARA0065",
+        "PARA0078",
+        "FIG0132",
+        "FIG0133",
+        "LIST0127"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0023",
+        "PARA0024",
+        "PARA0027",
+        "PARA0028",
+        "FIG0031",
+        "FIG0032",
+        "FIG0033",
+        "PARA0035",
+        "LIST0035",
+        "LIST0036",
+        "PARA0039",
+        "LIST0039",
+        "FIG0045",
+        "HEAD0009",
+        "FIG0047",
+        "CAPT0001",
+        "HEAD0010",
+        "FIG0049",
+        "CAPT0002",
+        "FIG0051",
+        "CAPT0003",
+        "FIG0054",
+        "CAPT0004",
+        "LIST0043",
+        "LIST0045"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7816,
+      "rule_score": 0.6,
+      "embedding_score": 0.8092,
+      "chunk_vote": 0.1871
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.7666,
+      "rule_score": 0.6364,
+      "embedding_score": 0.7902,
+      "chunk_vote": 0.0551
+    },
+    {
+      "id": "2.2",
+      "score": 0.7477,
+      "rule_score": 0.6,
+      "embedding_score": 0.7902,
+      "chunk_vote": 0.0606
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.354,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0198
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3523,
+      "rule_score": 0.0,
+      "embedding_score": 0.7828,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.352,
+      "rule_score": 0.0,
+      "embedding_score": 0.7823,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3519,
+      "rule_score": 0.0,
+      "embedding_score": 0.782,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3518,
+      "rule_score": 0.0,
+      "embedding_score": 0.7817,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.3517,
+      "rule_score": 0.0,
+      "embedding_score": 0.7816,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3254,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0992
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Dubai ve Doha metro projelerinde kullanılan TBM-EPB yöntemleri, segment özellikleri ve tünel çapları gibi yapım tekniklerine odaklanmaktadır. Bu içerik, 'Tünel Yapım Yöntemleri' (2.2) başlığıyla en yüksek örtüşmeyi göstermektedir. Kayaç zeminde açılan tüneller (2.2.1) ikincil bir bağlantıdır çünkü EPB tünelciliği genellikle yumuşak zeminlerde kullanılır ancak genel tünel yapım teknikleri (2",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:21",
+    "embeddings:8",
+    "top=2:0.7816 gap=0.015 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

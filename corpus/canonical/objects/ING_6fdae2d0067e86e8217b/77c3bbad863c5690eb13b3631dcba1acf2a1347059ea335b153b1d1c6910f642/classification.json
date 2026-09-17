@@ -1,0 +1,178 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2",
+    "2.1"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0002",
+        "PARA0007",
+        "PARA0008",
+        "PARA0021",
+        "PARA0022",
+        "PARA0033",
+        "LIST0007"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0002",
+        "PARA0007",
+        "PARA0008",
+        "PARA0011",
+        "PARA0012",
+        "PARA0020",
+        "PARA0021",
+        "PARA0022",
+        "LIST0001",
+        "LIST0002",
+        "PARA0023",
+        "PARA0024",
+        "PARA0025",
+        "PARA0026",
+        "FIG0003",
+        "CAPT0004",
+        "FIG0004",
+        "CAPT0005",
+        "FIG0005",
+        "CAPT0006",
+        "FIG0008",
+        "CAPT0009",
+        "FIG0010",
+        "PARA0028"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "PARA0002",
+        "PARA0007",
+        "PARA0008",
+        "PARA0011",
+        "PARA0012",
+        "PARA0020",
+        "PARA0021",
+        "LIST0001",
+        "LIST0002",
+        "PARA0023",
+        "PARA0024",
+        "PARA0025",
+        "PARA0026",
+        "FIG0003",
+        "CAPT0004",
+        "FIG0004",
+        "CAPT0005",
+        "FIG0005",
+        "CAPT0006",
+        "FIG0008",
+        "CAPT0009",
+        "FIG0010",
+        "PARA0027",
+        "FIG0011",
+        "CAPT0012"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7947,
+      "rule_score": 0.6,
+      "embedding_score": 0.8053,
+      "chunk_vote": 0.2618
+    },
+    {
+      "id": "2.2",
+      "score": 0.7237,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7872,
+      "chunk_vote": 0.0694
+    },
+    {
+      "id": "5.6",
+      "score": 0.3679,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0893
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3651,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1757
+    },
+    {
+      "id": "2.1",
+      "score": 0.357,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1351
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3516,
+      "rule_score": 0.0,
+      "embedding_score": 0.7813,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3493,
+      "rule_score": 0.0,
+      "embedding_score": 0.7763,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3485,
+      "rule_score": 0.0,
+      "embedding_score": 0.7745,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3465,
+      "rule_score": 0.0,
+      "embedding_score": 0.7699,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3455,
+      "rule_score": 0.0,
+      "embedding_score": 0.7677,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Polonya'daki TS-26 tünelinin Yeni Avusturya Tünel İnşaat Yöntemi (NATM) ile yapımını, kazı süreçlerini, birincil/ikincil kaplamaları ve jeolojik koşulları detaylı bir vaka çalışması olarak ele almaktadır. Bu içerik, doğrudan 'Tünel Yapım Yöntemleri' (2.2) başlığına ve genel 'Tünel Ana Elemanları ve Yapım Teknikleri' (2) bölümüne aittir. Birincil ve ikincil kaplama elemanlarına atıflar 2.1 i",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:11",
+    "embeddings:8",
+    "top=2:0.7947 gap=0.071 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

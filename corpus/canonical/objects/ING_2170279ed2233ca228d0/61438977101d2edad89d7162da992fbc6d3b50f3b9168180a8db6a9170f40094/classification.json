@@ -1,0 +1,152 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.6",
+    "5.9.2"
+  ],
+  "final_section_confidence": 0.7481,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "PARA0006",
+        "LIST0069",
+        "LIST0070",
+        "LIST0071"
+      ]
+    },
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "LIST0004",
+        "LIST0007",
+        "LIST0009",
+        "LIST0013",
+        "LIST0014",
+        "LIST0016",
+        "LIST0034",
+        "LIST0043",
+        "LIST0044",
+        "PARA0003",
+        "PARA0005",
+        "LIST0051",
+        "LIST0054",
+        "LIST0056",
+        "LIST0060",
+        "LIST0061",
+        "LIST0063"
+      ]
+    },
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "PARA0006",
+        "LIST0069",
+        "LIST0070",
+        "LIST0071",
+        "PARA0007"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.1",
+      "score": 0.7481,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7967,
+      "chunk_vote": 0.1701
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.7312,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7916,
+      "chunk_vote": 0.0972
+    },
+    {
+      "id": "5.4",
+      "score": 0.6808,
+      "rule_score": 0.5,
+      "embedding_score": 0.7906,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.4065,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3827
+    },
+    {
+      "id": "1",
+      "score": 0.3739,
+      "rule_score": 0.0,
+      "embedding_score": 0.7969,
+      "chunk_vote": 0.0765
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3592,
+      "rule_score": 0.0,
+      "embedding_score": 0.7983,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.357,
+      "rule_score": 0.0,
+      "embedding_score": 0.7933,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3568,
+      "rule_score": 0.0,
+      "embedding_score": 0.7928,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3558,
+      "rule_score": 0.0,
+      "embedding_score": 0.7906,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3347,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1458
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC Yol Tünelleri El Kitabı'ndan tünel içi spesifik tehlikeleri (çarpışma, yangın, tehlikeli madde) ve bunların işletme aşamasındaki etkilerini ele almaktadır. Bu içerik, tünelin güvenli ve sürdürülebilir işletilmesi ile doğrudan ilişkili olduğundan 'Tünel Bakım-Onarım ve İşletme' (5.4) başlığına en yakın düşmektedir. Güvenlik önlemleri ve risk yönetimi, işletme maliyetlerini ve prosedürl",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:5",
+    "embeddings:8",
+    "top=5.1:0.7481 gap=0.017 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

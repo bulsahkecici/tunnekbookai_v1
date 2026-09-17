@@ -1,0 +1,60 @@
+{
+  "claim_count": 1,
+  "claims": [
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 8,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_2faf85c35994ba6c3e58/d061e81427e12a950c0849f9edb8f14675a9b1cb57d4d98bc1d5d97c656190fb/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "23c57e2dbed0ffed5552d9d0e28ea537d369d035392769e0de75df70ebdff381",
+      "chunk_id": "ING_2faf85c35994ba6c3e58_CH_4285145774",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_06bdfee5908262b3725e389539a09c3af97c3f74109f4cc8c220ea7bb1b0fdab",
+      "claim_text": "1.3 Aim and objectives\nThus, the complex interaction mechanism, the magnitude of the surface load transferred to the crown and its effects on the liners of existing tunnels can be studied while a thorough and improved understanding of the interaction problem can be achieved. Relative few recorded publications, to the author's knowledge, exist on this topic the majority of which are dealing with the response of a pipe (rather than a tunnel) to surface loads.\n\n1.3 Aim and objectives\n\nThis  research project  aims  to  produce  tools  for  numerical modelling  of  tunnelling interactions. To fulfil this aim the project has the following objectives.\n\nThe  first  objective is  to  investigate whether  it  is  possible  to  perform  both detailed  and  accurate  numerical  modelling in  terms  of  available  computer resources.  Apart  from numerical modelling  other  methods  such as  small scale physical  testing,  centrifuge  testing  and  empirical methods  are  available.  The choice  of  the  former  method  though  was  made  in  order  to  exploit  specific advantages  of numerical modelling in general and 3-D non-linear finite element analysis in particular through this project. These advantages  are: /) the ability to model the complex  interaction mechanism of soil-turmel-structure, //) the ability to model any domain in all its three dimensions without having to make any 2-D simplifications  and ///)  the ability to perform  parametric  studies  varying geometric or material parameters.\n\nThe next  objective  is to  attempt  to  reduce the  amount  of time  spent  during the pre-processing  stage  (this  involves  the  generation  of  a  mesh)  of  the finite element  analysis. 3-D mesh generation can be time consuming. It is essential  to ensure that all required parametric studies  for this project are carried out within the  available  time  period.  Hence,  a  fully  automated  fast  and  robust  way  of generating 3-D meshes is a prerequisite for such analyses.\n\nThe third  objective  is  to  compare the  different methods used  in this project. A given  numerical  model will be  analysed  in  particular,  employing  different commercial  F E packages  (Strand7  and  Plaxis)  to  investigate whether  these packages  will  produce the  same predictions. Further to this the  same numerical model  will  be  analysed using  different types  of  F E  analyses  (2-D  and 3-D)  to highlight  the  differences  (if any)  in the  predictions.  Neither  the  production  of design  charts  (this  might  be  part  of  later  work)  nor  the  comparison  of  the produced tools with field data, are initially aimongst the  project objectives. The reason for the  latter is twofold.  Firstly,  the objective  is to compare the methods and evaluate the tools themselves  using the available knowledge  at that time and the  gradually build up experience.  To make a proper evaluation one  has  to  be\n\naware of how  sophisticated  the method  used  is, what simplifications have  been made,  the  quality  of  the  input  data and how  these  affect  the  predictions  made. Secondly,  only  already  published  field  data  are  in  the  author's  possession to evaluate  the  proposed  tools.  Numerous  recorded  field  cases  would  be required to allow  for  conclusive evaluations. Even  then,  this  would  be  a  type  C I prediction' according to Lambe (1973)  classification. Lambe (1973) states that:\n\n\"One must hold some suspicion of  using type CI  predictions to  prove the validity of  any  prediction technique \".\n\nThe final objective  of this project is to  attempt  to  clarify an unresolved conflict amongst researchers  which  requires  investigation. This  has  to  do  with  the direction  of  the  surface  deformation  vectors  due  to  tunnelling  in  a  greenfield site.",
+      "conditions": [],
+      "document_id": "ING_2faf85c35994ba6c3e58",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_2faf85c35994ba6c3e58:ING_2faf85c35994ba6c3e58_CH_4285145774:pages=28-29;canonical=corpus/canonical/objects/ING_2faf85c35994ba6c3e58/d061e81427e12a950c0849f9edb8f14675a9b1cb57d4d98bc1d5d97c656190fb/chunks/embedding_ready.jsonl#L8",
+      "page_end": 29,
+      "page_start": 28,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "6.1.1-Q02": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.2.2",
+        "2.4.1.2"
+      ],
+      "section_id": "6.1.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "2.4",
+      "supporting_question_ids": [
+        "6.1.1-Q02"
+      ]
+    }
+  ],
+  "contract_version": "section-preparation-v1",
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "registry_id": "SCR_25ad90f4d401c41638dcdea6a3b5e89fad8c357c2cdfbabc9f7fd919d6552a0c",
+  "schema_version": "1.0",
+  "section_id": "6.1.1",
+  "section_title": "Çalışmanın Amacı ve Önemi"
+}

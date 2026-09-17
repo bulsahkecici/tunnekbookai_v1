@@ -1,0 +1,106 @@
+{
+  "document_id": "ING_385f04fa7a10c73a4412",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Sıkışan kayada açılan Uluabat Tünelinde klasik ve tünel açma makinesiyle (TBM) yapılan kazıların karşılaştırılması",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "İbrahim Kuşku",
+        "Evren Poşluk",
+        "Süleyman Dalğıç"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2026",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: journal of"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "cost",
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "injection",
+        "operations",
+        "support_systems",
+        "tbm"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; geotechnical_investigation:geotechnical; geology:jeoloji; excavation:kazı; support_systems:destek sistem; injection:enjeksiyon; operations:operation; cost:maliyet; tunnel_general:tünel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://dergipark.org.tr/tr/download/article-file/5878758",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.28948/ngumuh.1923102",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

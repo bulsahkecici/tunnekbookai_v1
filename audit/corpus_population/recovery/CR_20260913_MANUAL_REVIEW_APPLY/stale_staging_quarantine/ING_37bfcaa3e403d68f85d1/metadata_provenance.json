@@ -1,0 +1,85 @@
+{
+  "document_id": "ING_37bfcaa3e403d68f85d1",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Turcja 16-19 03 2015 part4",
+      "source": "original_file",
+      "confidence": 0.3,
+      "inferred": true,
+      "reason": "no heading or package title; fell back to the filename"
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2015",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "Dosya yolu/başlıkta açık yıl: 2015"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "operations",
+        "regulation",
+        "risk",
+        "safety",
+        "standards",
+        "traffic",
+        "ventilation"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "risk:risk; safety:safety; ventilation:ventilation; traffic:traffic; operations:operating; regulation:regulation; standards:standard; tunnel_general:tunnel"
+    }
+  ]
+}

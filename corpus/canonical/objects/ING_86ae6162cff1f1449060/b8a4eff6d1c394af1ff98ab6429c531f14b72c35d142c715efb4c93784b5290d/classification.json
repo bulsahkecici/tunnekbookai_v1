@@ -1,0 +1,180 @@
+{
+  "final_primary_section": "2.2.2",
+  "final_secondary_sections": [
+    "2.2",
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0005",
+        "PARA0006",
+        "LIST0005",
+        "PARA0012",
+        "PARA0056",
+        "PARA0067",
+        "PARA0068",
+        "LIST0015",
+        "LIST0018",
+        "LIST0022"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0008",
+        "LIST0001",
+        "LIST0002",
+        "LIST0004",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "PARA0017",
+        "PARA0018",
+        "PARA0021",
+        "PARA0023",
+        "PARA0024",
+        "PARA0025",
+        "PARA0026",
+        "PARA0027",
+        "PARA0028",
+        "FIG0003",
+        "PARA0029",
+        "PARA0031"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0005",
+        "PARA0006",
+        "PARA0008",
+        "LIST0001",
+        "LIST0002",
+        "LIST0004",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "PARA0021",
+        "PARA0023",
+        "PARA0026",
+        "PARA0027",
+        "PARA0028",
+        "FIG0003",
+        "PARA0031",
+        "PARA0035",
+        "FIG0005",
+        "CAPT0004",
+        "PARA0041",
+        "PARA0046",
+        "LIST0006"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2.2",
+      "score": 0.7801,
+      "rule_score": 0.6667,
+      "embedding_score": 0.7921,
+      "chunk_vote": 0.0346
+    },
+    {
+      "id": "2.2",
+      "score": 0.7712,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7788,
+      "chunk_vote": 0.326
+    },
+    {
+      "id": "2",
+      "score": 0.7312,
+      "rule_score": 0.5556,
+      "embedding_score": 0.772,
+      "chunk_vote": 0.1412
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.7748,
+      "chunk_vote": 0.0054
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3482,
+      "rule_score": 0.0,
+      "embedding_score": 0.7738,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.347,
+      "rule_score": 0.0,
+      "embedding_score": 0.7712,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3467,
+      "rule_score": 0.0,
+      "embedding_score": 0.7704,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3448,
+      "rule_score": 0.0,
+      "embedding_score": 0.7662,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.341,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0548
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3385,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0427
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, EPB-TBM'nin yumuşak zemin koşullarındaki (soft ground) kullanımını ve bu zeminlerdeki tork/itme kuvveti modellemesini ele aldığı için 'Yumuşak Zeminde Açılan Tüneller' bölümüne en uygun düşmektedir. Başlıkta 'rock tunnels' ifadesi olsa da, EPB'nin temel uygulama alanı ve metindeki vurgu yumuşak zemin dengesine yapılmaktadır.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2.2:0.7801 gap=0.009 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

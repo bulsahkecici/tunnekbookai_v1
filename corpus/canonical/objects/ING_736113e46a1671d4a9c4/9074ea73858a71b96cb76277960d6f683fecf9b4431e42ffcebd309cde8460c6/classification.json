@@ -1,0 +1,154 @@
+{
+  "final_primary_section": "1.5",
+  "final_secondary_sections": [
+    "5.9"
+  ],
+  "final_section_confidence": 0.8076,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.5",
+      "section_title": "Tünel Felaketleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0165",
+        "PARA0018",
+        "HEAD0006",
+        "PARA0054",
+        "PARA0055",
+        "PARA0057",
+        "PARA0058",
+        "HEAD0009",
+        "PARA0059",
+        "PARA0069",
+        "HEAD0014",
+        "PARA0088",
+        "PARA0105",
+        "LIST0196",
+        "PARA0106",
+        "LIST0230",
+        "PARA0130",
+        "LIST0260",
+        "PARA0146",
+        "LIST0264",
+        "PARA0148",
+        "PARA0152"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0015",
+        "LIST0078",
+        "HEAD0004",
+        "PARA0010",
+        "PARA0054",
+        "PARA0058",
+        "PARA0063",
+        "PARA0065",
+        "PARA0070",
+        "PARA0099",
+        "PARA0110",
+        "PARA0112",
+        "LIST0241",
+        "PARA0136",
+        "LIST0252",
+        "PARA0142",
+        "PARA0163",
+        "PARA0174",
+        "PARA0180"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1.5",
+      "score": 0.8076,
+      "rule_score": 0.6,
+      "embedding_score": 0.7644,
+      "chunk_vote": 0.4181
+    },
+    {
+      "id": "5.9",
+      "score": 0.6756,
+      "rule_score": 0.5,
+      "embedding_score": 0.7646,
+      "chunk_vote": 0.0325
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3531,
+      "rule_score": 0.0,
+      "embedding_score": 0.7806,
+      "chunk_vote": 0.009
+    },
+    {
+      "id": "5.7",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.777,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3494,
+      "rule_score": 0.0,
+      "embedding_score": 0.7765,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.348,
+      "rule_score": 0.0,
+      "embedding_score": 0.7686,
+      "chunk_vote": 0.0108
+    },
+    {
+      "id": "1.5.1",
+      "score": 0.3457,
+      "rule_score": 0.0,
+      "embedding_score": 0.7683,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3449,
+      "rule_score": 0.0,
+      "embedding_score": 0.7665,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3356,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1502
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.2783,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0163
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=1.5:0.8076 gap=0.132 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

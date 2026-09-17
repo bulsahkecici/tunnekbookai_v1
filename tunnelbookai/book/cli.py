@@ -8,9 +8,15 @@ import sys
 from typing import Any
 
 from .errors import BookEngineError
+from .coverage_audit import run_coverage_audit
+from .evidence_review import run_evidence_review
 from .inputs import BookInputs, load_book_inputs
+from .preparation import prepare_sections
+from .prewriting import run_prewriting_audit
+from .retrieval import build_index, search_index
 from .stages import not_implemented
 from .status import build_status
+from .writer import run_section_writer
 
 
 SECTION_COMMANDS = {
@@ -23,7 +29,6 @@ SECTION_COMMANDS = {
     "freeze": "SECTION_FREEZE",
 }
 GLOBAL_COMMANDS = {
-    "build-index": "BOOK_RETRIEVAL_INDEX",
     "assemble": "BOOK_ASSEMBLY",
 }
 
@@ -49,9 +54,26 @@ def parser() -> argparse.ArgumentParser:
         child.add_argument("--json", action="store_true")
     for name in GLOBAL_COMMANDS:
         sub.add_parser(name)
+    build = sub.add_parser("build-index")
+    build.add_argument("--batch-size", type=int, default=32)
+    build.add_argument("--no-resume", action="store_true")
+    search = sub.add_parser("search")
+    search.add_argument("--query", required=True)
+    search.add_argument("--section")
+    search.add_argument("--top-k", type=int, default=10)
     for name in SECTION_COMMANDS:
         child = sub.add_parser(name)
-        child.add_argument("--section", required=True)
+        if name in {"evidence-audit", "prepare"}:
+            target = child.add_mutually_exclusive_group(required=True)
+            target.add_argument("--section")
+            target.add_argument("--all", action="store_true")
+            if name == "evidence-audit":
+                child.add_argument("--batch-size", type=int, default=25)
+                child.add_argument("--top-k", type=int, default=4)
+        else:
+            child.add_argument("--section", required=True)
+            if name in {"write", "evidence-review", "coverage-audit"}:
+                child.add_argument("--batch-size", type=int, default=8)
     return root
 
 
@@ -76,6 +98,84 @@ def main(argv: list[str] | None = None) -> int:
             return 0
         if args.command == "status":
             _print(build_status(inputs), json_output=True)
+            return 0
+        if args.command == "build-index":
+            def progress(payload: dict[str, Any]) -> None:
+                print(json.dumps({"event": "INDEX_PROGRESS", **payload}, ensure_ascii=False), file=sys.stderr, flush=True)
+            _print(build_index(batch_size=args.batch_size, resume=not args.no_resume, progress=progress))
+            return 0
+        if args.command == "search":
+            if args.section and args.section not in inputs.scope_by_id:
+                raise BookEngineError(
+                    "UNKNOWN_SECTION", f"section is not present in authoritative scope: {args.section}"
+                )
+            _print(search_index(args.query, section=args.section, top_k=args.top_k))
+            return 0
+        if args.command == "evidence-audit":
+            if args.section and args.section not in inputs.questions_by_section:
+                raise BookEngineError(
+                    "UNKNOWN_SECTION", f"section is not a question-bank section: {args.section}"
+                )
+            def audit_progress(payload: dict[str, Any]) -> None:
+                print(json.dumps({"event": "EVIDENCE_AUDIT_PROGRESS", **payload}, ensure_ascii=False), file=sys.stderr, flush=True)
+            _print(run_prewriting_audit(
+                section_ids=None if args.all else [args.section],
+                batch_size=args.batch_size,
+                top_k=args.top_k,
+                progress=audit_progress,
+            ))
+            return 0
+        if args.command == "prepare":
+            if args.section and args.section not in inputs.questions_by_section:
+                raise BookEngineError(
+                    "UNKNOWN_SECTION", f"section is not a question-bank section: {args.section}"
+                )
+            def preparation_progress(payload: dict[str, Any]) -> None:
+                print(json.dumps({"event": "SECTION_PREPARATION_PROGRESS", **payload}, ensure_ascii=False), file=sys.stderr, flush=True)
+            _print(prepare_sections(
+                section_ids=None if args.all else [args.section],
+                progress=preparation_progress,
+            ))
+            return 0
+        if args.command == "write":
+            if args.section not in inputs.questions_by_section:
+                raise BookEngineError(
+                    "UNKNOWN_SECTION", f"section is not a question-bank section: {args.section}"
+                )
+            def writer_progress(payload: dict[str, Any]) -> None:
+                print(json.dumps({"event": "SECTION_WRITER_PROGRESS", **payload}, ensure_ascii=False), file=sys.stderr, flush=True)
+            result = run_section_writer(
+                args.section,
+                batch_size=args.batch_size,
+                progress=writer_progress,
+            )
+            _print(result)
+            return 0 if result.get("status") != "BLOCKED" else 2
+        if args.command == "evidence-review":
+            if args.section not in inputs.questions_by_section:
+                raise BookEngineError(
+                    "UNKNOWN_SECTION", f"section is not a question-bank section: {args.section}"
+                )
+            def evidence_review_progress(payload: dict[str, Any]) -> None:
+                print(json.dumps({"event": "POSTWRITING_EVIDENCE_PROGRESS", **payload}, ensure_ascii=False), file=sys.stderr, flush=True)
+            _print(run_evidence_review(
+                args.section,
+                batch_size=args.batch_size,
+                progress=evidence_review_progress,
+            ))
+            return 0
+        if args.command == "coverage-audit":
+            if args.section not in inputs.questions_by_section:
+                raise BookEngineError(
+                    "UNKNOWN_SECTION", f"section is not a question-bank section: {args.section}"
+                )
+            def coverage_progress(payload: dict[str, Any]) -> None:
+                print(json.dumps({"event": "QUESTION_COVERAGE_PROGRESS", **payload}, ensure_ascii=False), file=sys.stderr, flush=True)
+            _print(run_coverage_audit(
+                args.section,
+                batch_size=args.batch_size,
+                progress=coverage_progress,
+            ))
             return 0
         if args.command in SECTION_COMMANDS:
             if args.section not in inputs.scope_by_id:

@@ -10,6 +10,7 @@ from typing import Any
 from tunnelbookai.canonical.eligibility import inspect_candidate
 from tunnelbookai.canonical.hashing import load_json as canonical_load_json
 from tunnelbookai.canonical.paths import CanonicalContext
+from tunnelbookai.ingest.dedup import SourceRegistry, active_document_ids
 from tunnelbookai.canonical.verifier import inspect_canonical, parse_manifest
 from tunnelbookai.ingest.paths import PROJECT_ROOT
 from tunnelbookai.ingest.staging import STAGING_COPY_FILES
@@ -76,6 +77,10 @@ def build_staging_audit(
     _verify_inventory(inventory)
     context = CanonicalContext.load(root)
     existing = _existing_canonical(context)
+    source_registry = SourceRegistry(
+        context.paths.source_registry_path,
+        active_document_ids=active_document_ids(root),
+    )
     document_quality: Counter[str] = Counter()
     chunk_quality: Counter[str] = Counter()
     dispositions: Counter[str] = Counter()
@@ -128,7 +133,12 @@ def build_staging_audit(
         staging = root / "corpus" / "staging" / "v2" / document_id
         if not staging.is_dir():
             continue
-        candidate = inspect_candidate(context, staging, existing_documents=existing)
+        candidate = inspect_candidate(
+            context,
+            staging,
+            existing_documents=existing,
+            source_registry=source_registry,
+        )
         canonical_actions[candidate.action.value] += 1
         size = 0
         if candidate.action.value == "PROMOTE":

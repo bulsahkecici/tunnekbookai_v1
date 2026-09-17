@@ -1,5 +1,11 @@
 # TunnelBookAI V1
 
+## Güncel çalışma günlüğü
+
+Projenin başlangıçtan bugüne aktif işlem özeti, kanıt bağlantıları, son corpus durumu ve
+bundan sonraki değişiklik kayıtları `reports/project_work_log.md` dosyasında tutulur.
+Projede yapılan her anlamlı işlemden sonra bu günlük güncellenir.
+
 PaperCrawler kaynakları keşfeder ve güvenli bir schema-2.x Source Pack üretir. TunnelBookAI,
 kullanıcının sağladığı veya PaperCrawler’dan gelen kaynakları tek Unified Ingest hattından
 geçirerek işler, sınıflandırır, parçalar ve kitap üretiminde kullanılabilir
@@ -42,6 +48,21 @@ belge kimliklerini taşır; `tunnelbookai.canonical` bütün uygunluk kontroller
 ve her `CCP_` planı için operatörün aynı kimlikle açık onayını ister. Normatif sözleşme:
 `docs/corpus_population_contract.md`.
 
+### Yerel operasyon paneli
+
+Uzun population koşuları, yalnızca loopback üzerinde çalışan web panelinden izlenebilir ve
+güvenli biçimde durdurulup devam ettirilebilir:
+
+```bash
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.dashboard \
+  --run audit/corpus_population/runs/CPR_<exact-id>.json
+```
+
+Panel varsayılan olarak `http://127.0.0.1:8765` adresindedir. Güvenli durdurma aktif
+belgeyi tamamlar, atomik checkpoint yazar ve sonraki belge başlamadan worker'ı durdurur.
+Devam komutu tamamlanmış belgeleri yeniden işlemeden aynı batch'ten sürer. Ayrıntılar:
+`docs/operations_dashboard.md`.
+
 ## Empty-corpus bootstrap
 
 Yeni bir kurulumda corpus, chunks, embeddings ve vectors sıfır olabilir. Bu durum hata
@@ -78,14 +99,25 @@ adları için tek otorite olmaya devam eder.
 ```bash
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book validate
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book status
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book evidence-audit \
+  --all --batch-size 50 --top-k 4
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book prepare --all
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book write --section 1.1 --batch-size 8
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book evidence-review \
+  --section 1.1 --batch-size 12
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book coverage-audit \
+  --section 1.1 --batch-size 10
 ```
 
 Yayın için 2.950 sorunun tamamı denetlenmeli; yalnızca `ANSWERED` sayılır ve hem en az
 1.770 cevap hem de en az `%60` global kapsama ulaşılmalıdır. `PARTIAL` kapsama eklenmez.
 Canonical dışındaki ingest, processing, staging, archive veya internet içeriği kitap
-kanıtı değildir. Foundation sonrasındaki üretim aşamaları henüz `NOT_IMPLEMENTED`
-döndürür; boş canonical corpus üzerinden metin üretilmez. Ayrıntılar için
-`docs/book_production_engine.md` belgesine bakın.
+kanıtı değildir. Gerçek retrieval indexi, Qwen destekli yazım-öncesi kanıt auditi ve
+canonical-only bölüm kanıt paketleri/iddia kayıtları, sentence-to-claim haritalı yerel Qwen
+bölüm yazarı, bağımsız cümle-kanıt denetimi ve gerçek span/claim zincirli soru kapsam
+auditi uygulanmıştır. Editoryal/freeze/assembly aşamaları sözleşmeleri tamamlanana kadar
+`NOT_IMPLEMENTED` döndürür. Ham taslaklar audit geçmeden yayınlanabilir sayılmaz.
+Ayrıntılar için `docs/book_production_engine.md` belgesine bakın.
 
 ## Controlled canonical promotion
 

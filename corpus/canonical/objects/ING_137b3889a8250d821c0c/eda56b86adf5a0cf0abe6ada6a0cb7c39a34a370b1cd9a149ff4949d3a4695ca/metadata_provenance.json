@@ -1,0 +1,100 @@
+{
+  "document_id": "ING_137b3889a8250d821c0c",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Microsoft Word - Austrian-practice-of tunnelling-contracts_Engl-Ver5__endgültig_ImA.doc",
+      "source": "ooxml_properties",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "a.immler"
+      ],
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2011",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Belge metninde publication/date bağlamında açık yıl: 2011"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "contracts",
+        "cost",
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "inspection",
+        "natm",
+        "operations",
+        "risk",
+        "rock_mechanics",
+        "standards",
+        "unit_price"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; geotechnical_investigation:geotechnical; geology:geolog; rock_mechanics:rock mass; excavation:excavat; risk:risk; operations:operation; inspection:inspection; standards:standard; cost:cost; unit_price:unit price; contracts:contract"
+    },
+    {
+      "field": "document_status",
+      "value": "DRAFT",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "status marking: PRELIMINARY"
+    }
+  ]
+}

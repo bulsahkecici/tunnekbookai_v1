@@ -1,0 +1,145 @@
+{
+  "document_id": "ING_0a6197c8620ab2c26167",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_E33CA44F5A9498DE618E",
+      "producer_document_id": "PC_0A6197C8620AB2C2",
+      "declared_sha256": "0a6197c8620ab2c26167d2a188b09b51b964e13db04f3c9d73ce9a6a85ce36ab",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_0A6197C8620AB2C2/source_raw.html",
+        "sha256": "0a6197c8620ab2c26167d2a188b09b51b964e13db04f3c9d73ce9a6a85ce36ab"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.11532/journalte2004.15.61",
+        "landing_url": "https://doi.org/10.11532/journalte2004.15.61",
+        "resolved_url": "https://www.jstage.jst.go.jp/article/journalte2004/15/0/15_0_61/_article",
+        "discovery_source": "openaire",
+        "discovery_query": "tunnel construction cost",
+        "publisher": "Japan Society of Civil Engineers"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.11532/journalte2004.15.61",
+        "landing_url": "https://doi.org/10.11532/journalte2004.15.61",
+        "resolved_url": "https://www.jstage.jst.go.jp/article/journalte2004/15/0/15_0_61/_article",
+        "discovery_source": "openaire",
+        "discovery_query": "tunnel construction cost",
+        "publisher": "Japan Society of Civil Engineers"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_0A6197C8620AB2C2",
+        "canonical_id": "CAN_E33CA44F5A9498DE618E",
+        "canonical_hint_id": "CAN_E33CA44F5A9498DE618E",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "Japan Society of Civil Engineers",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Optimum tunnel design considering construction cost and tunnel stability",
+        "authors": [
+          "Hisatake, Masayasu",
+          "Kajiwara, Kazuma",
+          "Sasaki, Toshihiro"
+        ],
+        "year": "2005",
+        "doi": null,
+        "source_url": "https://doi.org/10.11532/journalte2004.15.61",
+        "landing_url": "https://doi.org/10.11532/journalte2004.15.61",
+        "resolved_url": "https://www.jstage.jst.go.jp/article/journalte2004/15/0/15_0_61/_article",
+        "local_path": "01_originals/C_ACADEMIC/PC_0A6197C8620AB2C2/source_raw.html",
+        "sha256": "0a6197c8620ab2c26167d2a188b09b51b964e13db04f3c9d73ce9a6a85ce36ab",
+        "source_name": "openaire",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "WEB_SNAPSHOT_TEXT",
+        "evidence_level": "WEB_SNAPSHOT_TEXT",
+        "acquisition_status": "SNAPSHOTTED_WEB",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_0A6197C8620AB2C2/source_raw.html",
+          "original_or_raw_sha256": "0a6197c8620ab2c26167d2a188b09b51b964e13db04f3c9d73ce9a6a85ce36ab",
+          "crawler_normalized": "01_originals/C_ACADEMIC/PC_0A6197C8620AB2C2/source.md",
+          "crawler_normalized_sha256": "b0d365986638d4afb351bfe321f3a5d8b2f344c68b5f79e32962062c61172a7c",
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "sustainability",
+          "energy",
+          "cost_estimation",
+          "excavation",
+          "energy_efficiency",
+          "monitoring",
+          "construction_management",
+          "cost_driver"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "Japan Society of Civil Engineers",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "SNAPSHOTTED_WEB",
+          "source_path": "01_originals/C_ACADEMIC/PC_0A6197C8620AB2C2/source_raw.html",
+          "source_sha256": "0a6197c8620ab2c26167d2a188b09b51b964e13db04f3c9d73ce9a6a85ce36ab"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.11532/journalte2004.15.61",
+          "landing_url": "https://doi.org/10.11532/journalte2004.15.61",
+          "resolved_url": "https://www.jstage.jst.go.jp/article/journalte2004/15/0/15_0_61/_article",
+          "discovery_source": "openaire",
+          "discovery_query": "tunnel construction cost",
+          "publisher": "Japan Society of Civil Engineers"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source_raw.html",
+    "original_sha256": "0a6197c8620ab2c26167d2a188b09b51b964e13db04f3c9d73ce9a6a85ce36ab",
+    "mime_type": "text/html",
+    "format": "HTML"
+  }
+}

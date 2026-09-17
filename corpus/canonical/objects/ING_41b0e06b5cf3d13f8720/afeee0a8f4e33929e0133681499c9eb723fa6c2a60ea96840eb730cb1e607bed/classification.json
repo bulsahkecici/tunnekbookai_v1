@@ -1,0 +1,111 @@
+{
+  "final_primary_section": "2.4.1.3",
+  "final_secondary_sections": [
+    "5.7"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6.1",
+      "score": 0.5013,
+      "rule_score": 0.2,
+      "embedding_score": 0.7451,
+      "chunk_vote": 0.0299
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3378,
+      "rule_score": 0.0,
+      "embedding_score": 0.7507,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.337,
+      "rule_score": 0.0,
+      "embedding_score": 0.7488,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3365,
+      "rule_score": 0.0,
+      "embedding_score": 0.7477,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3364,
+      "rule_score": 0.0,
+      "embedding_score": 0.7475,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.3348,
+      "rule_score": 0.0,
+      "embedding_score": 0.7441,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3345,
+      "rule_score": 0.0,
+      "embedding_score": 0.7433,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.3345,
+      "rule_score": 0.0,
+      "embedding_score": 0.7434,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2729,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4478
+    },
+    {
+      "id": "1.1",
+      "score": 0.2281,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2239
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Maasdeltatunnel'in su batonlarının başarıyla batırılması ve ardından su yolunun yeniden açılması gibi inşaat ve devreye alma aşamasındaki operasyonel gelişmeleri detaylandırıyor. Bu, 'Kullanım Aşaması Çalışmaları' (veya inşaat/devreye alma süreçleri) ile doğrudan ilişkili olup, su yolu trafiğinin yönetimi ve tünelin işlevsel hale getirilmesi nedeniyle 'Tünelde Verimli Bakım-İşletme' ile de ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:7",
+    "chunk_votes:7",
+    "embeddings:8",
+    "top=6.1:0.5013 gap=0.163 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

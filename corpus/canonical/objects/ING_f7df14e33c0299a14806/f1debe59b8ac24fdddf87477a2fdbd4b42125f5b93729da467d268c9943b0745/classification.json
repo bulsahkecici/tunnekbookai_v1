@@ -1,0 +1,174 @@
+{
+  "final_primary_section": "2.4",
+  "final_secondary_sections": [
+    "2.2.1",
+    "2.4.1.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4",
+      "section_title": "Tünellerin Projelendirilmesi",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0002",
+        "FIG0006",
+        "CAPT0003",
+        "PARA0021",
+        "PARA0024",
+        "PARA0031",
+        "PARA0098",
+        "LIST0024",
+        "LIST0034",
+        "LIST0037",
+        "LIST0039"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0004",
+        "PARA0007",
+        "PARA0008",
+        "PARA0016",
+        "PARA0018",
+        "PARA0021",
+        "PARA0024",
+        "PARA0025",
+        "TABLE0001",
+        "CAPT0005",
+        "HEAD0014",
+        "PARA0028",
+        "TABLE0002",
+        "CAPT0006",
+        "HEAD0015",
+        "PARA0029",
+        "PARA0030",
+        "PARA0031",
+        "PARA0037",
+        "PARA0047",
+        "PARA0049",
+        "FIG0010",
+        "PARA0050",
+        "HEAD0024"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0014",
+        "HEAD0018",
+        "PARA0032",
+        "PARA0044",
+        "PARA0045",
+        "FIG0009",
+        "CAPT0011",
+        "PARA0047",
+        "FIG0010",
+        "FIG0013",
+        "CAPT0018",
+        "PARA0093",
+        "PARA0094",
+        "PARA0095",
+        "PARA0102",
+        "LIST0020",
+        "LIST0034"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7491,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7899,
+      "chunk_vote": 0.1901
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.6886,
+      "rule_score": 0.5,
+      "embedding_score": 0.7769,
+      "chunk_vote": 0.0699
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.6747,
+      "rule_score": 0.5,
+      "embedding_score": 0.777,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.4104,
+      "rule_score": 0.7143,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0875
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3918,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1257
+    },
+    {
+      "id": "6.1",
+      "score": 0.3542,
+      "rule_score": 0.0,
+      "embedding_score": 0.7871,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3531,
+      "rule_score": 0.0,
+      "embedding_score": 0.7847,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3523,
+      "rule_score": 0.0,
+      "embedding_score": 0.7828,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3501,
+      "rule_score": 0.0,
+      "embedding_score": 0.778,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.35,
+      "rule_score": 0.0,
+      "embedding_score": 0.7777,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, farklı ampirik tasarım yaklaşımlarının (NATM, Q, RMR vb.) tünel genişletme sırasında kayaç zemin davranışına etkisini sayısal simülasyon ve saha gözlemleriyle karşılaştırarak projelendirme yöntemlerini değerlendirmektedir. Bu içerik, 'Tünellerin Projelendirilmesi' (2.4) başlığına en uygun düşmektedir. Kayaç zeminde açılması (2.2.1) ve inşaat esnasındaki çalışmalar (2.4.1.2) ikincil konular ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7491 gap=0.060 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

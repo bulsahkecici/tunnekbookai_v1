@@ -1,0 +1,107 @@
+{
+  "final_primary_section": "1.2",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.7619,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.2",
+      "section_title": "Tünellerin Sınıflandırılması",
+      "supporting_elements": [
+        "HEAD0011",
+        "HEAD0012",
+        "LIST0071"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1.2",
+      "score": 0.7619,
+      "rule_score": 0.6,
+      "embedding_score": 0.8178,
+      "chunk_vote": 0.0693
+    },
+    {
+      "id": "1",
+      "score": 0.4067,
+      "rule_score": 0.0,
+      "embedding_score": 0.8247,
+      "chunk_vote": 0.1779
+    },
+    {
+      "id": "5.6",
+      "score": 0.4051,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1922
+    },
+    {
+      "id": "2.2",
+      "score": 0.3829,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0809
+    },
+    {
+      "id": "2",
+      "score": 0.382,
+      "rule_score": 0.0,
+      "embedding_score": 0.8376,
+      "chunk_vote": 0.0252
+    },
+    {
+      "id": "5.1",
+      "score": 0.3729,
+      "rule_score": 0.0,
+      "embedding_score": 0.8226,
+      "chunk_vote": 0.0135
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.3728,
+      "rule_score": 0.0,
+      "embedding_score": 0.8284,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3718,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.109
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3717,
+      "rule_score": 0.0,
+      "embedding_score": 0.8187,
+      "chunk_vote": 0.0162
+    },
+    {
+      "id": "6.1",
+      "score": 0.3711,
+      "rule_score": 0.0,
+      "embedding_score": 0.8246,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:23",
+    "embeddings:8",
+    "top=1.2:0.7619 gap=0.355 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

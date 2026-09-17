@@ -1,0 +1,121 @@
+{
+  "final_primary_section": "1.4.2",
+  "final_secondary_sections": [
+    "3",
+    "5.8"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.4.2",
+      "section_title": "Türkiye’de Karayolu Tünelleri",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "3",
+      "section_title": "KARAYOLLARI GENEL MÜDÜRLÜĞÜ TÜNELLERİN TARİHÇESİ",
+      "supporting_elements": [
+        "PARA3717"
+      ]
+    },
+    {
+      "section_id": "5.8",
+      "section_title": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri",
+      "supporting_elements": [
+        "PARA3717"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.3",
+      "score": 0.6845,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7602,
+      "chunk_vote": 0.5455
+    },
+    {
+      "id": "3",
+      "score": 0.6295,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7592,
+      "chunk_vote": 0.2727
+    },
+    {
+      "id": "5.8",
+      "score": 0.5681,
+      "rule_score": 0.3333,
+      "embedding_score": 0.744,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3378,
+      "rule_score": 0.0,
+      "embedding_score": 0.7506,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.2",
+      "score": 0.3377,
+      "rule_score": 0.0,
+      "embedding_score": 0.7505,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4.2",
+      "score": 0.3362,
+      "rule_score": 0.0,
+      "embedding_score": 0.747,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.3.2",
+      "score": 0.3355,
+      "rule_score": 0.0,
+      "embedding_score": 0.7455,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7",
+      "score": 0.3353,
+      "rule_score": 0.0,
+      "embedding_score": 0.7452,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.1",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Türkiye genelindeki karayolu tünellerinin coğrafi dağılımını ve isimlerini içeren bir harita/veritabanı listesi niteliğindedir. Bu içerik, 'Türkiye'de Karayolu Tünelleri' başlığıyla en doğrudan örtüşmektedir. Ayrıca KGM (Karayolları Genel Müdürlüğü) kaynaklı olması nedeniyle 'KGM Tünellerin Tarihçesi' ile de dolaylı bir bağlantısı vardır.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:6",
+    "chunk_votes:14",
+    "embeddings:8",
+    "top=2.4.3:0.6845 gap=0.055 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

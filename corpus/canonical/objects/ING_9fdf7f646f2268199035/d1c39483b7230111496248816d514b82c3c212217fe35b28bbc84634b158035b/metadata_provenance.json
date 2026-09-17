@@ -1,0 +1,89 @@
+{
+  "document_id": "ING_9fdf7f646f2268199035",
+  "fields": [
+    {
+      "field": "title",
+      "value": "T.C.",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Lenovo"
+      ],
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": "2",
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "thesis",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: yüksek lisans tezi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "excavation",
+        "forepoling",
+        "geology",
+        "geotechnical_investigation",
+        "jet_grouting",
+        "natm",
+        "rock_bolt",
+        "shotcrete",
+        "support_systems"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; geotechnical_investigation:geoteknik; geology:jeoloji; excavation:kazı; shotcrete:püskürtme beton; rock_bolt:kaya bulonu; forepoling:süren; support_systems:tahkimat; jet_grouting:jet grout; tunnel_general:tünel"
+    }
+  ]
+}

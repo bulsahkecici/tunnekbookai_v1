@@ -1,0 +1,129 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.7265,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0012",
+        "PARA0013",
+        "PARA0015",
+        "LIST0012",
+        "PARA0028",
+        "LIST0024",
+        "LIST0025",
+        "LIST0026",
+        "LIST0028",
+        "PARA0045",
+        "PARA0047",
+        "PARA0048",
+        "PARA0049",
+        "PARA0052",
+        "PARA0053",
+        "PARA0055",
+        "PARA0068",
+        "PARA0070",
+        "PARA0075",
+        "PARA0078",
+        "PARA0080",
+        "HEAD0034",
+        "PARA0081",
+        "PARA0082"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7265,
+      "rule_score": 0.5556,
+      "embedding_score": 0.791,
+      "chunk_vote": 0.0748
+    },
+    {
+      "id": "5",
+      "score": 0.3744,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0385
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3544,
+      "rule_score": 0.0,
+      "embedding_score": 0.7875,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3526,
+      "rule_score": 0.0,
+      "embedding_score": 0.7835,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3494,
+      "rule_score": 0.0,
+      "embedding_score": 0.7765,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.3",
+      "score": 0.3475,
+      "rule_score": 0.0,
+      "embedding_score": 0.7722,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.3458,
+      "rule_score": 0.0,
+      "embedding_score": 0.7684,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6",
+      "score": 0.3453,
+      "rule_score": 0.0,
+      "embedding_score": 0.7673,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3453,
+      "rule_score": 0.0,
+      "embedding_score": 0.7674,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.33,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7265 gap=0.352 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

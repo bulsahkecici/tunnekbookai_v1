@@ -1,0 +1,110 @@
+{
+  "final_primary_section": "6",
+  "final_secondary_sections": [
+    "7.2"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "6",
+      "section_title": "TÜNEL YAPIM MALİYETLERİ",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "7.2",
+      "section_title": "Tünel Yapım Maliyetleri",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6",
+      "score": 0.3643,
+      "rule_score": 0.0,
+      "embedding_score": 0.8095,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.1",
+      "score": 0.3589,
+      "rule_score": 0.0,
+      "embedding_score": 0.7975,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2",
+      "score": 0.3588,
+      "rule_score": 0.0,
+      "embedding_score": 0.7974,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5",
+      "score": 0.3587,
+      "rule_score": 0.0,
+      "embedding_score": 0.7972,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.3586,
+      "rule_score": 0.0,
+      "embedding_score": 0.7969,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3564,
+      "rule_score": 0.0,
+      "embedding_score": 0.792,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.3555,
+      "rule_score": 0.0,
+      "embedding_score": 0.79,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3555,
+      "rule_score": 0.0,
+      "embedding_score": 0.7899,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.8",
+      "score": 0.11,
+      "rule_score": 0.2,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.11,
+      "rule_score": 0.2,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel içi kablo kanalı yapımında kullanılan makine, beton, işçilik ve genel masrafları içeren bir birim fiyat analizi (poz) sunmaktadır. Bu, doğrudan inşaat/yapım maliyetlerini temsil ettiğinden 'Tünel Yapım Maliyetleri' (6) ana bölümüne aittir. 7.2 alt başlığı da aynı konuyu kapsadığı için ikincil olarak listelenmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:5",
+    "chunk_votes:0",
+    "embeddings:8",
+    "top=6:0.3643 gap=0.005 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

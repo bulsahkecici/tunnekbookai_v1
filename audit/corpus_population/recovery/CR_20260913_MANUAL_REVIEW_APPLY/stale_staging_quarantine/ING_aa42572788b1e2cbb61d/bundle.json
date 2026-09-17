@@ -1,0 +1,35 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_aa42572788b1e2cbb61d",
+  "original_sha256": "aa42572788b1e2cbb61ddc105bafb1d951b9278b99a8154737115819f2489595",
+  "source_kind": "EXTERNAL_DISCOVERY",
+  "format": "HTML",
+  "title": "Hazard and Risk Identification in Earthworks for Road Tunnel Construction: A Case Study of the First Road Tunnel in Kalimantan Island, Indonesia",
+  "final_primary_section": "5.9.2",
+  "final_secondary_sections": [
+    "5.9",
+    "6.2.2"
+  ],
+  "final_section_confidence": 0.85,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": true,
+    "figures": false,
+    "page_snapshots": false,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_aa42572788b1e2cbb61d",
+  "original_archive": "originals/ING_aa42572788b1e2cbb61d",
+  "chunks_authoritative_path": "processing/ING_aa42572788b1e2cbb61d/chunks/chunk_manifest.jsonl",
+  "chunk_count": 20,
+  "chunk_quality_status": "WARN",
+  "canonical_promoted": false
+}

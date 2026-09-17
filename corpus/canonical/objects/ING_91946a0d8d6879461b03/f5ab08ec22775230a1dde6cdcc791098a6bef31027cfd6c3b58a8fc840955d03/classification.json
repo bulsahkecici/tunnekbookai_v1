@@ -1,0 +1,121 @@
+{
+  "final_primary_section": "1.5",
+  "final_secondary_sections": [
+    "2.4.1.3"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.5",
+      "section_title": "Tünel Felaketleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0003",
+        "LIST0032",
+        "LIST0036",
+        "LIST0037",
+        "LIST0039"
+      ]
+    },
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": [
+        "LIST0010",
+        "LIST0040"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1",
+      "score": 0.676,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7892,
+      "chunk_vote": 0.4375
+    },
+    {
+      "id": "1.5",
+      "score": 0.637,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7807,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.517,
+      "rule_score": 0.2,
+      "embedding_score": 0.7933,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3537,
+      "rule_score": 0.0,
+      "embedding_score": 0.7859,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3515,
+      "rule_score": 0.0,
+      "embedding_score": 0.7811,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.351,
+      "rule_score": 0.0,
+      "embedding_score": 0.78,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3502,
+      "rule_score": 0.0,
+      "embedding_score": 0.7782,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3499,
+      "rule_score": 0.0,
+      "embedding_score": 0.7776,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.2774,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2083
+    },
+    {
+      "id": "1.4.1",
+      "score": 0.2357,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, yol tünellerinde yangın, duman ve acil durumlar sırasında sürücülerin nasıl davranması gerektiğine dair güvenlik ipuçlarını ve acil çıkış prosedürlerini içermektedir. Bu içerik, doğrudan 'Tünel Felaketleri' (yangın/acil durum) başlığıyla en yüksek örtüşmeye sahiptir. Ayrıca, tünellerin işletme ve kullanım aşamasındaki güvenlik önlemleri nedeniyle 'Kullanım Aşaması Çalışmaları' ikincil bölüm",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:4",
+    "embeddings:8",
+    "top=1:0.676 gap=0.039 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

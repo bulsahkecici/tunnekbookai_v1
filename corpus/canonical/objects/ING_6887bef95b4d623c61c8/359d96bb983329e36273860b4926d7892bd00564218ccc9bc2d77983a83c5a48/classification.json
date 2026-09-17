@@ -1,0 +1,117 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.4.2",
+    "5.4.3"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4.3",
+      "section_title": "Periyodik Bakım",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.3554,
+      "rule_score": 0.0,
+      "embedding_score": 0.7897,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3445,
+      "rule_score": 0.0,
+      "embedding_score": 0.7656,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3435,
+      "rule_score": 0.0,
+      "embedding_score": 0.7633,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3407,
+      "rule_score": 0.0,
+      "embedding_score": 0.757,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3407,
+      "rule_score": 0.0,
+      "embedding_score": 0.7572,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.2",
+      "score": 0.338,
+      "rule_score": 0.0,
+      "embedding_score": 0.751,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.3377,
+      "rule_score": 0.0,
+      "embedding_score": 0.7505,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.3375,
+      "rule_score": 0.0,
+      "embedding_score": 0.75,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3365,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3077
+    },
+    {
+      "id": "1",
+      "score": 0.2756,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4615
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, bir tünelde güvenlik ekipmanlarının (aydınlatma, acil durum istasyonları, kameralar) yenilenmesi ve kurulumu sürecini anlatmaktadır. Bu, tünel işletme ve bakım-onarım kapsamına giren bir aktivitedir. Özellikle elektrik-elektronik sistemlerin (LED, kameralar) bakımı ve periyodik güvenlik denetimleri ile doğrudan ilgilidir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:3",
+    "chunk_votes:3",
+    "embeddings:8",
+    "top=5.4.2:0.3554 gap=0.011 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

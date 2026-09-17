@@ -1,0 +1,147 @@
+{
+  "document_id": "ING_d87342e347dded050870",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_B18BD199CE7DF69F31FB",
+      "producer_document_id": "PC_D87342E347DDED05",
+      "declared_sha256": "d87342e347dded050870ced9be92a67706f862cd29fc57340bc610b62fc8f6a9",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_D87342E347DDED05/source.pdf",
+        "sha256": "d87342e347dded050870ced9be92a67706f862cd29fc57340bc610b62fc8f6a9"
+      },
+      "provenance": {
+        "source_url": "https://europepmc.org/articles/PMC11012377",
+        "landing_url": "https://europepmc.org/articles/PMC11012377",
+        "pdf_url": "https://www.mdpi.com/1996-1944/17/7/1486/pdf?version=1711361362",
+        "discovery_source": "europe_pmc",
+        "discovery_query": "NATM tunnel support shotcrete rock",
+        "doi": "10.3390/ma17071486"
+      },
+      "producer_provenance": {
+        "source_url": "https://europepmc.org/articles/PMC11012377",
+        "landing_url": "https://europepmc.org/articles/PMC11012377",
+        "pdf_url": "https://www.mdpi.com/1996-1944/17/7/1486/pdf?version=1711361362",
+        "discovery_source": "europe_pmc",
+        "discovery_query": "NATM tunnel support shotcrete rock",
+        "doi": "10.3390/ma17071486"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_D87342E347DDED05",
+        "canonical_id": "CAN_B18BD199CE7DF69F31FB",
+        "canonical_hint_id": "CAN_B18BD199CE7DF69F31FB",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "UNKNOWN"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Utilizing Crushed Limestone as a Sustainable Alternative in Shotcrete Applications.",
+        "authors": [
+          "Mutaz E",
+          "Dafalla M",
+          "Al-Mahbashi AM",
+          "Serati M"
+        ],
+        "year": "2024",
+        "doi": "10.3390/ma17071486",
+        "source_url": "https://europepmc.org/articles/PMC11012377",
+        "landing_url": "https://europepmc.org/articles/PMC11012377",
+        "resolved_url": "https://www.mdpi.com/1996-1944/17/7/1486/pdf?version=1711361362",
+        "local_path": "01_originals/C_ACADEMIC/PC_D87342E347DDED05/source.pdf",
+        "sha256": "d87342e347dded050870ced9be92a67706f862cd29fc57340bc610b62fc8f6a9",
+        "source_name": "europe_pmc",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "ABSTRACT",
+        "evidence_level": "ABSTRACT",
+        "acquisition_status": "DOWNLOADED_PDF",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_D87342E347DDED05/source.pdf",
+          "original_or_raw_sha256": "d87342e347dded050870ced9be92a67706f862cd29fc57340bc610b62fc8f6a9",
+          "crawler_normalized": null,
+          "crawler_normalized_sha256": null,
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "TBM",
+          "shotcrete",
+          "sustainability",
+          "disaster",
+          "drill_and_blast",
+          "energy",
+          "excavation",
+          "rock_tunnel",
+          "shield_tunnelling"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "UNKNOWN"
+        },
+        "acquisition": {
+          "status": "DOWNLOADED_PDF",
+          "source_path": "01_originals/C_ACADEMIC/PC_D87342E347DDED05/source.pdf",
+          "source_sha256": "d87342e347dded050870ced9be92a67706f862cd29fc57340bc610b62fc8f6a9"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://europepmc.org/articles/PMC11012377",
+          "landing_url": "https://europepmc.org/articles/PMC11012377",
+          "pdf_url": "https://www.mdpi.com/1996-1944/17/7/1486/pdf?version=1711361362",
+          "discovery_source": "europe_pmc",
+          "discovery_query": "NATM tunnel support shotcrete rock",
+          "doi": "10.3390/ma17071486"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source.pdf",
+    "original_sha256": "d87342e347dded050870ced9be92a67706f862cd29fc57340bc610b62fc8f6a9",
+    "mime_type": "application/pdf",
+    "format": "PDF"
+  }
+}

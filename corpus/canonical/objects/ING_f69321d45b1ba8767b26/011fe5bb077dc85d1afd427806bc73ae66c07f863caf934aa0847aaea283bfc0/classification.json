@@ -1,0 +1,141 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.4.2",
+    "5.9.2"
+  ],
+  "final_section_confidence": 0.7254,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0077",
+        "LIST0078",
+        "LIST0079"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "LIST0004",
+        "LIST0007",
+        "LIST0034",
+        "LIST0040",
+        "LIST0042",
+        "LIST0051",
+        "LIST0059",
+        "LIST0062"
+      ]
+    },
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0077",
+        "LIST0078",
+        "LIST0079",
+        "PARA0006"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9",
+      "score": 0.7254,
+      "rule_score": 0.5556,
+      "embedding_score": 0.789,
+      "chunk_vote": 0.074
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.7239,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7965,
+      "chunk_vote": 0.0493
+    },
+    {
+      "id": "5.4",
+      "score": 0.678,
+      "rule_score": 0.5,
+      "embedding_score": 0.7845,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.4632,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.6658
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3623,
+      "rule_score": 0.0,
+      "embedding_score": 0.805,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.3564,
+      "rule_score": 0.0,
+      "embedding_score": 0.7919,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3555,
+      "rule_score": 0.0,
+      "embedding_score": 0.79,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3553,
+      "rule_score": 0.0,
+      "embedding_score": 0.7895,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3553,
+      "rule_score": 0.0,
+      "embedding_score": 0.7895,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.2865,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0575
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC Yol Tünelleri El Kitabı'ndan alınmış olup 'Ekipman ve Sistemler' altındaki 'Yangın Tehlikelerinin Azaltılması' bölümünü kapsamaktadır. Bu içerik, tünel içindeki elektrikli-elektronik ve elektromekanik sistemlerin (ventilasyon, yangın söndürme) işlevselliğini ve bakımını gerektirdiğinden, en yakın aday olan 'Tünel Bakım-Onarım ve İşletme' (5.4) ve alt başlığı 'Elektrik-Elektronik ve El",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:5",
+    "embeddings:8",
+    "top=5.9:0.7254 gap=0.002 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

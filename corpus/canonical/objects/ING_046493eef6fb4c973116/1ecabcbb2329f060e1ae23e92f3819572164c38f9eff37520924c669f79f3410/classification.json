@@ -1,0 +1,128 @@
+{
+  "final_primary_section": "4.3.5",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.9646,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "4.3.5",
+      "section_title": "Tünel Yaşam Döngü Maliyetleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0005",
+        "PARA0007",
+        "PARA0008",
+        "LIST0001",
+        "LIST0002",
+        "LIST0004",
+        "HEAD0004",
+        "PARA0009",
+        "PARA0010",
+        "PARA0012",
+        "PARA0013",
+        "FIG0004",
+        "CAPT0002",
+        "PARA0016",
+        "FIG0005",
+        "HEAD0009",
+        "PARA0025",
+        "PARA0026",
+        "LIST0008",
+        "LIST0010",
+        "LIST0013",
+        "LIST0014",
+        "LIST0019"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "4.3.5",
+      "score": 0.9646,
+      "rule_score": 0.8095,
+      "embedding_score": 0.8231,
+      "chunk_vote": 0.4947
+    },
+    {
+      "id": "5",
+      "score": 0.4068,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2007
+    },
+    {
+      "id": "6.1",
+      "score": 0.3632,
+      "rule_score": 0.0,
+      "embedding_score": 0.807,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3615,
+      "rule_score": 0.0,
+      "embedding_score": 0.8034,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3605,
+      "rule_score": 0.0,
+      "embedding_score": 0.8012,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3589,
+      "rule_score": 0.0,
+      "embedding_score": 0.7975,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3582,
+      "rule_score": 0.0,
+      "embedding_score": 0.7959,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3569,
+      "rule_score": 0.0,
+      "embedding_score": 0.7931,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.3555,
+      "rule_score": 0.0,
+      "embedding_score": 0.7899,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3404,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0521
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:11",
+    "embeddings:8",
+    "top=4.3.5:0.9646 gap=0.558 disagreement=False ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

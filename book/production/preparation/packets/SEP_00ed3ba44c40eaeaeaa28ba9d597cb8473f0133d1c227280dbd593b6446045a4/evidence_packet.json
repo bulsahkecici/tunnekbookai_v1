@@ -1,0 +1,648 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_29141e7d42403fb6cead23744ee95ee32702d16ab07e57bcac27951ff3c71da6",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 16,
+    "SUPPORTED": 12,
+    "UNSUPPORTED": 22
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_00ed3ba44c40eaeaeaa28ba9d597cb8473f0133d1c227280dbd593b6446045a4",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_eddc30cbd9a5da79d59b16565403246d44019c77aafae1af2d3305d3fd731bee"
+      ],
+      "confidence": 0.95,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri kapsamında maliyet kavramı nasıl tanımlanmalıdır?",
+      "question_id": "4.3.5-Q01",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3c0d24ba717c6a3bffb4c64addfed7ac0c5b926cc3f5e9046f35a511b84b9f66"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri hangi maliyet kalemlerini içerir?",
+      "question_id": "4.3.5-Q02",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5fe7468bed607f843003aeab781e0342ee4cd7359a9188474c75a46a738359fa",
+        "CLM_e963ad3eadca23b5a39aa270ef24236715cdde95caf43c5f5570b0f5c211c737"
+      ],
+      "confidence": 0.95,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri kapsamında doğrudan maliyetler nelerdir?",
+      "question_id": "4.3.5-Q03",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri kapsamında dolaylı maliyetler nelerdir?",
+      "question_id": "4.3.5-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5fe7468bed607f843003aeab781e0342ee4cd7359a9188474c75a46a738359fa",
+        "CLM_89082c78afe68f3a14c9437126346117cc5260c672bd65352afd1efee2344d73"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri kapsamında ilk yatırım maliyetleri nasıl ayrıştırılır?",
+      "question_id": "4.3.5-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_379df1279a77e626afdd92266c2c3a0b53dc28750c692c5cf475864a26c2eb0e",
+        "CLM_f5a6cb2ebf439026217f5de3795548673df0395ac563a91a3e03f64c9d4e0f0f"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri kapsamında bakım maliyetleri nasıl ayrıştırılır?",
+      "question_id": "4.3.5-Q06",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f3deed17c2ab3dc5d1e5c17f806639dc6a3e522793c2bb0ee714a3a6f4b1ac70"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri kapsamında işletme maliyetleri nasıl ayrıştırılır?",
+      "question_id": "4.3.5-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f3deed17c2ab3dc5d1e5c17f806639dc6a3e522793c2bb0ee714a3a6f4b1ac70",
+        "CLM_f5a6cb2ebf439026217f5de3795548673df0395ac563a91a3e03f64c9d4e0f0f"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri kapsamında yenileme ve büyük onarım maliyetleri nasıl ele alınır?",
+      "question_id": "4.3.5-Q08",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f3deed17c2ab3dc5d1e5c17f806639dc6a3e522793c2bb0ee714a3a6f4b1ac70"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri kapsamında personel maliyetleri nasıl ele alınır?",
+      "question_id": "4.3.5-Q09",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f3deed17c2ab3dc5d1e5c17f806639dc6a3e522793c2bb0ee714a3a6f4b1ac70"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri kapsamında enerji maliyetleri nasıl ele alınır?",
+      "question_id": "4.3.5-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri kapsamında malzeme maliyetleri nasıl ele alınır?",
+      "question_id": "4.3.5-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f3deed17c2ab3dc5d1e5c17f806639dc6a3e522793c2bb0ee714a3a6f4b1ac70"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri kapsamında makine ve ekipman maliyetleri nasıl ele alınır?",
+      "question_id": "4.3.5-Q12",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri kapsamında taşeron ve hizmet alımı maliyetleri nasıl ele alınır?",
+      "question_id": "4.3.5-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri kapsamında trafik yönetimi ve güvenlik maliyetleri nasıl ele alınır?",
+      "question_id": "4.3.5-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri kapsamında kapanma veya kapasite kaybı gibi kullanıcı maliyetleri dikkate alınmalı mıdır?",
+      "question_id": "4.3.5-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri kapsamında çevresel maliyetler nasıl değerlendirilebilir?",
+      "question_id": "4.3.5-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_89082c78afe68f3a14c9437126346117cc5260c672bd65352afd1efee2344d73"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri için toplam maliyet ile birim maliyet arasındaki fark nasıl açıklanmalıdır?",
+      "question_id": "4.3.5-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_89082c78afe68f3a14c9437126346117cc5260c672bd65352afd1efee2344d73"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri için TL/m, TL/km veya benzeri birim maliyet göstergeleri ne zaman kullanılmalıdır?",
+      "question_id": "4.3.5-Q18",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3b6b27b12ec91c39ae4b1a3a854e6dd5ce0ab9cd491a91a040ac9a1299914894",
+        "CLM_6a1c0b1dab6b346363d1062583a2efc7211febb8813f4aa72ce119160b97a588"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri farklı tünel uzunluklarında nasıl değişir?",
+      "question_id": "4.3.5-Q19",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri farklı tünel kesitlerinde nasıl değişir?",
+      "question_id": "4.3.5-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f5a6cb2ebf439026217f5de3795548673df0395ac563a91a3e03f64c9d4e0f0f",
+        "CLM_abda30a7522350917fa73da3b4e31d8dca6b0d30a6bd888f2756a07299f87b07",
+        "CLM_f0d4627c284cbfc746a2f1e36dca6c2672ecd02c867db5c930af40db46a01858"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri farklı tüp ve şerit sayılarında nasıl değişir?",
+      "question_id": "4.3.5-Q21",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri farklı jeolojik ve geoteknik koşullarda nasıl değişir?",
+      "question_id": "4.3.5-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_89082c78afe68f3a14c9437126346117cc5260c672bd65352afd1efee2344d73",
+        "CLM_f002d98644d0f7a7e36b094a2a899849b967751d632350a77ea39e3b896b1b44"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri farklı yapım yöntemlerinde nasıl değişir?",
+      "question_id": "4.3.5-Q23",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6d63edef2c145eea78ad8ad72c4ea7340ed2578afda204eafdda400549ffb646",
+        "CLM_02f1086d0fc999782e1ebe3191121ac02bc472ec10b5bf58f66b2deffd20aaba"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri farklı destek sınıflarında nasıl değişir?",
+      "question_id": "4.3.5-Q24",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f5a6cb2ebf439026217f5de3795548673df0395ac563a91a3e03f64c9d4e0f0f",
+        "CLM_ec8c31b92dba3dc6ebd5c1de2ae74263f961f67d10f96dfc50c9a2a51a4fde94",
+        "CLM_7b472ddd71d09b12034ae936ee8acd74ede032f490861cd7c8709263ddf81379",
+        "CLM_7a35edc07cfbee6f49d9911f13d9e0c0d46db209b849245d4e5e0a70892a6627"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri farklı elektromekanik donanım düzeylerinde nasıl değişir?",
+      "question_id": "4.3.5-Q25",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3b6b27b12ec91c39ae4b1a3a854e6dd5ce0ab9cd491a91a040ac9a1299914894",
+        "CLM_ae2b15b6ef2026110561d37165626dd881653658d0d513e11520961005c180a9"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri trafik yoğunluğu ve işletme rejiminden nasıl etkilenir?",
+      "question_id": "4.3.5-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f3deed17c2ab3dc5d1e5c17f806639dc6a3e522793c2bb0ee714a3a6f4b1ac70",
+        "CLM_3b6b27b12ec91c39ae4b1a3a854e6dd5ce0ab9cd491a91a040ac9a1299914894",
+        "CLM_f5a6cb2ebf439026217f5de3795548673df0395ac563a91a3e03f64c9d4e0f0f"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri yapım süresi veya işletme süresinden nasıl etkilenir?",
+      "question_id": "4.3.5-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri için baz yıl ve fiyat seviyesi nasıl tanımlanmalıdır?",
+      "question_id": "4.3.5-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri hesaplarında enflasyon etkisi nasıl düzeltilmelidir?",
+      "question_id": "4.3.5-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri hesaplarında döviz kuru etkisi nasıl ele alınmalıdır?",
+      "question_id": "4.3.5-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri hesaplarında iskonto oranı hangi durumlarda kullanılmalıdır?",
+      "question_id": "4.3.5-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1bd9326c9ccd8514233a449e50a138fd77609a91d05a64e7be6b3f8a5a600033",
+        "CLM_02d65e768e9d5cd79864c4666a855083971376a8ef8cf76fc4f019e3a359b297"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri için net bugünkü değer yaklaşımı nasıl uygulanabilir?",
+      "question_id": "4.3.5-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_901cc9ad63eaa6b854b098cfd86c308d7268458b40e1b9210e776fd68a55fe8d",
+        "CLM_aae8a1fc7102e56309e40e28d1c47342e547b298c12dcea9c567425ee6e8b3de",
+        "CLM_d35dc375e60c1c90d1c50c185d7b3d8e8f590063a5b909617e53f17d1af1058a",
+        "CLM_eddc30cbd9a5da79d59b16565403246d44019c77aafae1af2d3305d3fd731bee"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri için yaşam döngüsü maliyeti yaklaşımı nasıl uygulanabilir?",
+      "question_id": "4.3.5-Q33",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f3deed17c2ab3dc5d1e5c17f806639dc6a3e522793c2bb0ee714a3a6f4b1ac70",
+        "CLM_f5a6cb2ebf439026217f5de3795548673df0395ac563a91a3e03f64c9d4e0f0f",
+        "CLM_0a981d995105c43780caf193a1968dc78f8db32129e82e5f2e71ef23d59c68e2",
+        "CLM_29c90e5577aef9e985dd771e4ea76d67d37c404b39524146cb8f760f921dee3a"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri hesaplarında hizmet ömrü nasıl belirlenmelidir?",
+      "question_id": "4.3.5-Q34",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f5a6cb2ebf439026217f5de3795548673df0395ac563a91a3e03f64c9d4e0f0f",
+        "CLM_f3deed17c2ab3dc5d1e5c17f806639dc6a3e522793c2bb0ee714a3a6f4b1ac70",
+        "CLM_0a981d995105c43780caf193a1968dc78f8db32129e82e5f2e71ef23d59c68e2",
+        "CLM_6ff1dea43b2311592dd578b3a4bb32e0a0f6008429f395f4e47574cf55a0d238"
+      ],
+      "confidence": 0.88,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri hesaplarında yenileme periyotları nasıl belirlenmelidir?",
+      "question_id": "4.3.5-Q35",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri hesaplarında hurda veya kalıntı değer dikkate alınmalı mıdır?",
+      "question_id": "4.3.5-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri hesaplarında belirsizlik kaynakları nelerdir?",
+      "question_id": "4.3.5-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri için risk payı veya beklenmeyen giderler nasıl ele alınmalıdır?",
+      "question_id": "4.3.5-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri için duyarlılık analizi hangi değişkenlere uygulanmalıdır?",
+      "question_id": "4.3.5-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri için senaryo analizi nasıl kurulabilir?",
+      "question_id": "4.3.5-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5fe7468bed607f843003aeab781e0342ee4cd7359a9188474c75a46a738359fa",
+        "CLM_b3c8dadd88abb8b17a616ebf8c12b659d099854035bd1fc62f0e52e27fb4955f"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri için maliyet verileri hangi kaynaklardan toplanmalıdır?",
+      "question_id": "4.3.5-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_12a1292e84261d2fefcd7cd4b8b8822a99f50dd833482b4ecbcf413c744453f7",
+        "CLM_3b6b27b12ec91c39ae4b1a3a854e6dd5ce0ab9cd491a91a040ac9a1299914894",
+        "CLM_6a1c0b1dab6b346363d1062583a2efc7211febb8813f4aa72ce119160b97a588"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri için farklı yıllara ait veriler nasıl karşılaştırılabilir hale getirilmelidir?",
+      "question_id": "4.3.5-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_65628e4b6c162f6868f99e1944f7ee7d255abe0988baf62bcb421b0ff2dec29f"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri için farklı projeler arasındaki maliyet karşılaştırmasında hangi normalizasyonlar gerekir?",
+      "question_id": "4.3.5-Q43",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri için aykırı maliyet değerleri nasıl incelenmelidir?",
+      "question_id": "4.3.5-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri için temel maliyet sürücüleri istatistiksel olarak nasıl belirlenebilir?",
+      "question_id": "4.3.5-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri için maliyet tahmin modellerinin başarısı nasıl doğrulanmalıdır?",
+      "question_id": "4.3.5-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f5a6cb2ebf439026217f5de3795548673df0395ac563a91a3e03f64c9d4e0f0f",
+        "CLM_73111115e32e8ee2acd5d380a39225ffc081be92aef01b372b3d3103aaab223a"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri Türkiye ve uluslararası örnekler arasında nasıl karşılaştırılabilir?",
+      "question_id": "4.3.5-Q47",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f3deed17c2ab3dc5d1e5c17f806639dc6a3e522793c2bb0ee714a3a6f4b1ac70",
+        "CLM_1bd9326c9ccd8514233a449e50a138fd77609a91d05a64e7be6b3f8a5a600033",
+        "CLM_aae8a1fc7102e56309e40e28d1c47342e547b298c12dcea9c567425ee6e8b3de"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yaşam Döngü Maliyetleri bakımından maliyet azaltma fırsatları hangi aşamalarda ortaya çıkar?",
+      "question_id": "4.3.5-Q48",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri ile güvenlik ve kalite arasında nasıl bir denge kurulmalıdır?",
+      "question_id": "4.3.5-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yaşam Döngü Maliyetleri bölümünün sonunda karar vericiye hangi maliyet göstergeleri sunulmalıdır?",
+      "question_id": "4.3.5-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "4.3.5",
+  "section_title": "Tünel Yaşam Döngü Maliyetleri",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_02d65e768e9d5cd79864c4666a855083971376a8ef8cf76fc4f019e3a359b297",
+      "CLM_02f1086d0fc999782e1ebe3191121ac02bc472ec10b5bf58f66b2deffd20aaba",
+      "CLM_0a981d995105c43780caf193a1968dc78f8db32129e82e5f2e71ef23d59c68e2",
+      "CLM_12a1292e84261d2fefcd7cd4b8b8822a99f50dd833482b4ecbcf413c744453f7",
+      "CLM_1bd9326c9ccd8514233a449e50a138fd77609a91d05a64e7be6b3f8a5a600033",
+      "CLM_29c90e5577aef9e985dd771e4ea76d67d37c404b39524146cb8f760f921dee3a",
+      "CLM_379df1279a77e626afdd92266c2c3a0b53dc28750c692c5cf475864a26c2eb0e",
+      "CLM_3b6b27b12ec91c39ae4b1a3a854e6dd5ce0ab9cd491a91a040ac9a1299914894",
+      "CLM_3c0d24ba717c6a3bffb4c64addfed7ac0c5b926cc3f5e9046f35a511b84b9f66",
+      "CLM_5fe7468bed607f843003aeab781e0342ee4cd7359a9188474c75a46a738359fa",
+      "CLM_65628e4b6c162f6868f99e1944f7ee7d255abe0988baf62bcb421b0ff2dec29f",
+      "CLM_6a1c0b1dab6b346363d1062583a2efc7211febb8813f4aa72ce119160b97a588",
+      "CLM_6d63edef2c145eea78ad8ad72c4ea7340ed2578afda204eafdda400549ffb646",
+      "CLM_6ff1dea43b2311592dd578b3a4bb32e0a0f6008429f395f4e47574cf55a0d238",
+      "CLM_73111115e32e8ee2acd5d380a39225ffc081be92aef01b372b3d3103aaab223a",
+      "CLM_7a35edc07cfbee6f49d9911f13d9e0c0d46db209b849245d4e5e0a70892a6627",
+      "CLM_7b472ddd71d09b12034ae936ee8acd74ede032f490861cd7c8709263ddf81379",
+      "CLM_89082c78afe68f3a14c9437126346117cc5260c672bd65352afd1efee2344d73",
+      "CLM_901cc9ad63eaa6b854b098cfd86c308d7268458b40e1b9210e776fd68a55fe8d",
+      "CLM_aae8a1fc7102e56309e40e28d1c47342e547b298c12dcea9c567425ee6e8b3de",
+      "CLM_abda30a7522350917fa73da3b4e31d8dca6b0d30a6bd888f2756a07299f87b07",
+      "CLM_ae2b15b6ef2026110561d37165626dd881653658d0d513e11520961005c180a9",
+      "CLM_b3c8dadd88abb8b17a616ebf8c12b659d099854035bd1fc62f0e52e27fb4955f",
+      "CLM_d35dc375e60c1c90d1c50c185d7b3d8e8f590063a5b909617e53f17d1af1058a",
+      "CLM_e963ad3eadca23b5a39aa270ef24236715cdde95caf43c5f5570b0f5c211c737",
+      "CLM_ec8c31b92dba3dc6ebd5c1de2ae74263f961f67d10f96dfc50c9a2a51a4fde94",
+      "CLM_eddc30cbd9a5da79d59b16565403246d44019c77aafae1af2d3305d3fd731bee",
+      "CLM_f002d98644d0f7a7e36b094a2a899849b967751d632350a77ea39e3b896b1b44",
+      "CLM_f0d4627c284cbfc746a2f1e36dca6c2672ecd02c867db5c930af40db46a01858",
+      "CLM_f3deed17c2ab3dc5d1e5c17f806639dc6a3e522793c2bb0ee714a3a6f4b1ac70",
+      "CLM_f5a6cb2ebf439026217f5de3795548673df0395ac563a91a3e03f64c9d4e0f0f"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "4.3.5-Q05",
+      "4.3.5-Q07",
+      "4.3.5-Q09",
+      "4.3.5-Q10",
+      "4.3.5-Q12",
+      "4.3.5-Q17",
+      "4.3.5-Q18",
+      "4.3.5-Q24",
+      "4.3.5-Q26",
+      "4.3.5-Q27",
+      "4.3.5-Q32",
+      "4.3.5-Q41",
+      "4.3.5-Q42",
+      "4.3.5-Q43",
+      "4.3.5-Q47",
+      "4.3.5-Q48"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "4.3.5-Q04",
+      "4.3.5-Q11",
+      "4.3.5-Q13",
+      "4.3.5-Q14",
+      "4.3.5-Q15",
+      "4.3.5-Q16",
+      "4.3.5-Q20",
+      "4.3.5-Q22",
+      "4.3.5-Q28",
+      "4.3.5-Q29",
+      "4.3.5-Q30",
+      "4.3.5-Q31",
+      "4.3.5-Q36",
+      "4.3.5-Q37",
+      "4.3.5-Q38",
+      "4.3.5-Q39",
+      "4.3.5-Q40",
+      "4.3.5-Q44",
+      "4.3.5-Q45",
+      "4.3.5-Q46",
+      "4.3.5-Q49",
+      "4.3.5-Q50"
+    ]
+  }
+}

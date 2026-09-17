@@ -100,6 +100,34 @@ class RendererFailureTests(unittest.TestCase):
         self.assertEqual(len(warnings), 1)
         self.assertTrue(warnings[0].startswith("OFFICE_RENDER_NO_OUTPUT"))
 
+    def test_xls_conversion_timeout_is_reported(self):
+        renderer = OfficeRenderer(timeout_seconds=1)
+        renderer._binary = Path("/bin/echo")
+        with mock.patch(
+            "tunnelbookai.ingest.office_renderer.subprocess.run",
+            side_effect=subprocess.TimeoutExpired(cmd="soffice", timeout=1),
+        ):
+            with tempfile.TemporaryDirectory() as tmp:
+                converted, warnings = renderer.convert_to_xlsx(
+                    Path(tmp) / "legacy.xls", Path(tmp) / "out"
+                )
+        self.assertIsNone(converted)
+        self.assertEqual(warnings, ["XLS_CONVERSION_TIMEOUT"])
+
+    def test_ppt_conversion_timeout_is_reported(self):
+        renderer = OfficeRenderer(timeout_seconds=1)
+        renderer._binary = Path("/bin/echo")
+        with mock.patch(
+            "tunnelbookai.ingest.office_renderer.subprocess.run",
+            side_effect=subprocess.TimeoutExpired(cmd="soffice", timeout=1),
+        ):
+            with tempfile.TemporaryDirectory() as tmp:
+                converted, warnings = renderer.convert_to_pptx(
+                    Path(tmp) / "legacy.ppt", Path(tmp) / "out"
+                )
+        self.assertIsNone(converted)
+        self.assertEqual(warnings, ["PPT_CONVERSION_TIMEOUT"])
+
 
 class SubprocessSafetyTests(unittest.TestCase):
     """§17 — argument array, no shell, isolated profile, timeout, stderr captured."""
@@ -146,6 +174,34 @@ class SubprocessSafetyTests(unittest.TestCase):
             args, _ = self.captured_call(FIXTURES / "sample.docx", Path(tmp) / "out")
         self.assertTrue(Path(args[0][-1]).is_absolute())
         self.assertFalse(args[0][-1].startswith("-"))
+
+    def test_xls_conversion_uses_argument_array_and_isolated_profile(self):
+        renderer = OfficeRenderer(timeout_seconds=42)
+        renderer._binary = Path("/bin/echo")
+        with mock.patch("tunnelbookai.ingest.office_renderer.subprocess.run") as run:
+            run.return_value = subprocess.CompletedProcess([], 0, "", "")
+            with tempfile.TemporaryDirectory() as tmp:
+                renderer.convert_to_xlsx(Path(tmp) / "legacy.xls", Path(tmp) / "out")
+        command = run.call_args.args[0]
+        kwargs = run.call_args.kwargs
+        self.assertIsInstance(command, list)
+        self.assertIn("xlsx", command)
+        self.assertTrue(any(p.startswith("-env:UserInstallation=file:///") for p in command))
+        self.assertFalse(kwargs.get("shell", False))
+
+    def test_ppt_conversion_uses_argument_array_and_isolated_profile(self):
+        renderer = OfficeRenderer(timeout_seconds=42)
+        renderer._binary = Path("/bin/echo")
+        with mock.patch("tunnelbookai.ingest.office_renderer.subprocess.run") as run:
+            run.return_value = subprocess.CompletedProcess([], 0, "", "")
+            with tempfile.TemporaryDirectory() as tmp:
+                renderer.convert_to_pptx(Path(tmp) / "legacy.ppt", Path(tmp) / "out")
+        command = run.call_args.args[0]
+        kwargs = run.call_args.kwargs
+        self.assertIsInstance(command, list)
+        self.assertIn("pptx", command)
+        self.assertTrue(any(p.startswith("-env:UserInstallation=file:///") for p in command))
+        self.assertFalse(kwargs.get("shell", False))
 
 
 class SnapshotHarness(unittest.TestCase):

@@ -1,0 +1,116 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "2.4.3",
+    "5"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.4.3",
+      "section_title": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5",
+      "section_title": "TÜNEL BAKIM-ONARIM VE İŞLETME MALİYETLERİ",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4",
+      "score": 0.6844,
+      "rule_score": 0.5,
+      "embedding_score": 0.7987,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.6786,
+      "rule_score": 0.5,
+      "embedding_score": 0.7857,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3602,
+      "rule_score": 0.0,
+      "embedding_score": 0.8004,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3574,
+      "rule_score": 0.0,
+      "embedding_score": 0.7943,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3557,
+      "rule_score": 0.0,
+      "embedding_score": 0.7904,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6",
+      "score": 0.3555,
+      "rule_score": 0.0,
+      "embedding_score": 0.7899,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.1",
+      "score": 0.3543,
+      "rule_score": 0.0,
+      "embedding_score": 0.7874,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5",
+      "score": 0.3529,
+      "rule_score": 0.0,
+      "embedding_score": 0.7842,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.2",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel yapım aşamasındaki kazı, iksa, kaplama, havalandırma ve güvenlik tedbirlerini detaylandırmaktadır. Bu içerik, 'Tünel Ana Elemanları, Ana Özellikleri ve Yapım Teknikleri' (Bölüm 2) başlığıyla en yüksek örtüşmeye sahiptir. 'Tünel Projelendirilmesi Esasları' (2.4.3) ise uygulama esasları ve proje kontrolü içerdiği için ikincil bölüm olarak değerlendirilmiştir. Bakım-onarım bölümleri (5, ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:10",
+    "embeddings:8",
+    "top=5.4:0.6844 gap=0.006 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

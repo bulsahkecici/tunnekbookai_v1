@@ -1,0 +1,607 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_fe821f110a85b171b11802876238c2d0725837bd6d0603b38cc97a7f92ee0b82",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 18,
+    "SUPPORTED": 0,
+    "UNSUPPORTED": 32
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_0c0b9cefc42530b09f9e5ea9dc97a643f0a1e656caa67a760b2ed97e77ab6361",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_891d4a5c87e51439e3188021c1c50b78a55dc757eb1fa19fa245ca9d6a0b61d5",
+        "CLM_4dceb390628a04d4dc409651f327f77ad45920f657a1506276ce29c70b3e4a5d"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri hangi kurumsal görev ve sorumlulukları kapsar?",
+      "question_id": "5.8-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri içinde merkezi teşkilatın rolü nedir?",
+      "question_id": "5.8-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_738db26f499a9309a9e77c749e7fe231a9f04159402ffd933a3dec697255a49b"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri içinde bölge teşkilatının rolü nedir?",
+      "question_id": "5.8-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri içinde saha birimlerinin rolü nedir?",
+      "question_id": "5.8-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4bc29ac1167b59b52701a3dc5eb35a6e76eaf48e12dada752da80f7e9016a7b2"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için görev, yetki ve sorumluluklar nasıl ayrıştırılmalıdır?",
+      "question_id": "5.8-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için karar alma zinciri nasıl çalışır?",
+      "question_id": "5.8-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için teknik onay süreçleri nasıl yürütülür?",
+      "question_id": "5.8-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için proje kontrol süreçleri nasıl yürütülür?",
+      "question_id": "5.8-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için bakım ve işletme planları kim tarafından hazırlanır ve onaylanır?",
+      "question_id": "5.8-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için bütçe hazırlama ve kaynak tahsisi nasıl yapılır?",
+      "question_id": "5.8-Q10",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için personel planlaması nasıl yapılır?",
+      "question_id": "5.8-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için ihtiyaç duyulan uzmanlık alanları nelerdir?",
+      "question_id": "5.8-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için vardiya ve nöbet organizasyonu nasıl planlanır?",
+      "question_id": "5.8-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için eğitim ve yetkinlik gereklilikleri nelerdir?",
+      "question_id": "5.8-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için iş sağlığı ve güvenliği sorumlulukları nasıl dağıtılır?",
+      "question_id": "5.8-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0cecff0267ce6e46bd4d416d42c1abb8053d00ccafce25b26d72cb7b2e060b15"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için acil durum sorumlulukları nasıl dağıtılır?",
+      "question_id": "5.8-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri ile trafik yönetim birimleri nasıl koordinasyon kurar?",
+      "question_id": "5.8-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri ile emniyet, itfaiye, sağlık ve AFAD gibi kurumlar nasıl koordinasyon kurar?",
+      "question_id": "5.8-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4508c0145bdf8c74fa9b34a3e6d5389ff04df8206ca2a328b8d32a0c9365fdc5"
+      ],
+      "confidence": 0.25,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri ile yüklenici firmalar arasındaki sorumluluk sınırları nasıl belirlenir?",
+      "question_id": "5.8-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri ile danışmanlık ve kontrol teşkilatı arasındaki ilişki nasıl yürütülür?",
+      "question_id": "5.8-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4bc29ac1167b59b52701a3dc5eb35a6e76eaf48e12dada752da80f7e9016a7b2"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için standart işletme prosedürleri hangi konuları kapsamalıdır?",
+      "question_id": "5.8-Q21",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fc28d203837ad0e893f43aad5bc4494b1e52a01ca3f8e8d5b3658e4d66c8357f",
+        "CLM_b2d91c1b75625d7bd16094dfa90469f6c352b01dde5115c4ad761d3e3737ac00"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için bakım prosedürleri hangi konuları kapsamalıdır?",
+      "question_id": "5.8-Q22",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1046bd5a68482aad60f02e632ada29de6ed3942f335b584bd1a5841325c74753"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için arıza ve olay bildirim prosedürleri nasıl olmalıdır?",
+      "question_id": "5.8-Q23",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için kayıt ve dokümantasyon sistemi nasıl kurulmalıdır?",
+      "question_id": "5.8-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8fdefe7af130434703db26cf73776f079e645b08bb4cd7a8ebb74f7b761534ec"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için varlık envanteri nasıl tutulmalıdır?",
+      "question_id": "5.8-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1c6a31bd1bbfd52dfe1105531e2af399c146cf5a90822f47f14cbaddab7f285b",
+        "CLM_1f61c066ccad12de68f5b7745241c5ec13be77169713964dcd81a7ced3411f9f"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için bakım yönetim sistemi veya CMMS nasıl kullanılabilir?",
+      "question_id": "5.8-Q26",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için performans göstergeleri hangi düzeylerde raporlanmalıdır?",
+      "question_id": "5.8-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için enerji tüketimi nasıl izlenip raporlanmalıdır?",
+      "question_id": "5.8-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0223e781f217bd1d9afd0c54f55acab741e720e31277540776d4bbc735358003",
+        "CLM_55abefc319856684d213e32284cffd26b5ac0b734c42c3ed994be0e2fd20962f"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için bakım maliyetleri nasıl izlenip raporlanmalıdır?",
+      "question_id": "5.8-Q29",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için arıza süreleri ve kullanılabilirlik nasıl izlenmelidir?",
+      "question_id": "5.8-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için güvenlik performansı nasıl izlenmelidir?",
+      "question_id": "5.8-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için denetim mekanizmaları nelerdir?",
+      "question_id": "5.8-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için iç denetim ve dış denetim rolleri nasıl ayrılır?",
+      "question_id": "5.8-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için mevzuat ve teknik şartname uyumu nasıl doğrulanır?",
+      "question_id": "5.8-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için kalite güvence sistemi nasıl kurulabilir?",
+      "question_id": "5.8-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4508c0145bdf8c74fa9b34a3e6d5389ff04df8206ca2a328b8d32a0c9365fdc5",
+        "CLM_1046bd5a68482aad60f02e632ada29de6ed3942f335b584bd1a5841325c74753"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için risk yönetimi nasıl kurumsallaştırılabilir?",
+      "question_id": "5.8-Q36",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1046bd5a68482aad60f02e632ada29de6ed3942f335b584bd1a5841325c74753",
+        "CLM_e6c9151f931f1ec52470c0d6f8a013907133f6d6e6ed1ac27c9d2e127e55a8c6"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için acil durum tatbikatları ne sıklıkla ve nasıl yapılmalıdır?",
+      "question_id": "5.8-Q37",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fc28d203837ad0e893f43aad5bc4494b1e52a01ca3f8e8d5b3658e4d66c8357f",
+        "CLM_23184a5c2ebffca2e6d9e06eea9f63cd3a758d4be3f5b2035aef7176876e028e"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için yedek ekipman ve kritik stok politikası nasıl belirlenir?",
+      "question_id": "5.8-Q38",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için satın alma ve tedarik süreçlerinde hangi teknik kriterler kullanılmalıdır?",
+      "question_id": "5.8-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_365c0b994a54e5f73eadd042a3d988a14f2c2c3efe77ae09b2783804ab88af4a"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için veri paylaşımı ve bilgi güvenliği nasıl sağlanmalıdır?",
+      "question_id": "5.8-Q40",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için uzaktan izleme ve merkezi kontrol hangi faydaları sağlar?",
+      "question_id": "5.8-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için dijitalleşme ve otomasyon hangi süreçleri iyileştirebilir?",
+      "question_id": "5.8-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için farklı tüneller arasında kaynak paylaşımı nasıl planlanabilir?",
+      "question_id": "5.8-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için hizmet seviyesi hedefleri nasıl tanımlanabilir?",
+      "question_id": "5.8-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için bakım öncelikleri hangi kriterlerle sıralanabilir?",
+      "question_id": "5.8-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0223e781f217bd1d9afd0c54f55acab741e720e31277540776d4bbc735358003",
+        "CLM_fc28d203837ad0e893f43aad5bc4494b1e52a01ca3f8e8d5b3658e4d66c8357f"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için bütçe kısıtında hangi optimizasyon yaklaşımı uygulanabilir?",
+      "question_id": "5.8-Q46",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için ulusal uygulamalar uluslararası iyi uygulamalarla nasıl karşılaştırılabilir?",
+      "question_id": "5.8-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_891d4a5c87e51439e3188021c1c50b78a55dc757eb1fa19fa245ca9d6a0b61d5",
+        "CLM_41690a0178cb08bde447938a9a6b41deb07944fae3a19eef40125856997a49f3"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için örnek bir organizasyon şeması nasıl kurulmalıdır?",
+      "question_id": "5.8-Q48",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4508c0145bdf8c74fa9b34a3e6d5389ff04df8206ca2a328b8d32a0c9365fdc5",
+        "CLM_6852278c216a8c8ea6f00ce19193ed9a813ecfb7557a891b01d65a600ef38a9d"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri için örnek bir sorumluluk matrisi hangi görevleri içermelidir?",
+      "question_id": "5.8-Q49",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri bölümünün sonunda okuyucu kurumsal işleyişi uçtan uca anlayabiliyor mu?",
+      "question_id": "5.8-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "5.8",
+  "section_title": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_0223e781f217bd1d9afd0c54f55acab741e720e31277540776d4bbc735358003",
+      "CLM_0cecff0267ce6e46bd4d416d42c1abb8053d00ccafce25b26d72cb7b2e060b15",
+      "CLM_1046bd5a68482aad60f02e632ada29de6ed3942f335b584bd1a5841325c74753",
+      "CLM_1c6a31bd1bbfd52dfe1105531e2af399c146cf5a90822f47f14cbaddab7f285b",
+      "CLM_1f61c066ccad12de68f5b7745241c5ec13be77169713964dcd81a7ced3411f9f",
+      "CLM_23184a5c2ebffca2e6d9e06eea9f63cd3a758d4be3f5b2035aef7176876e028e",
+      "CLM_365c0b994a54e5f73eadd042a3d988a14f2c2c3efe77ae09b2783804ab88af4a",
+      "CLM_41690a0178cb08bde447938a9a6b41deb07944fae3a19eef40125856997a49f3",
+      "CLM_4508c0145bdf8c74fa9b34a3e6d5389ff04df8206ca2a328b8d32a0c9365fdc5",
+      "CLM_4bc29ac1167b59b52701a3dc5eb35a6e76eaf48e12dada752da80f7e9016a7b2",
+      "CLM_4dceb390628a04d4dc409651f327f77ad45920f657a1506276ce29c70b3e4a5d",
+      "CLM_55abefc319856684d213e32284cffd26b5ac0b734c42c3ed994be0e2fd20962f",
+      "CLM_6852278c216a8c8ea6f00ce19193ed9a813ecfb7557a891b01d65a600ef38a9d",
+      "CLM_738db26f499a9309a9e77c749e7fe231a9f04159402ffd933a3dec697255a49b",
+      "CLM_891d4a5c87e51439e3188021c1c50b78a55dc757eb1fa19fa245ca9d6a0b61d5",
+      "CLM_8fdefe7af130434703db26cf73776f079e645b08bb4cd7a8ebb74f7b761534ec",
+      "CLM_b2d91c1b75625d7bd16094dfa90469f6c352b01dde5115c4ad761d3e3737ac00",
+      "CLM_e6c9151f931f1ec52470c0d6f8a013907133f6d6e6ed1ac27c9d2e127e55a8c6",
+      "CLM_fc28d203837ad0e893f43aad5bc4494b1e52a01ca3f8e8d5b3658e4d66c8357f"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "5.8-Q01",
+      "5.8-Q03",
+      "5.8-Q05",
+      "5.8-Q16",
+      "5.8-Q19",
+      "5.8-Q21",
+      "5.8-Q22",
+      "5.8-Q23",
+      "5.8-Q25",
+      "5.8-Q26",
+      "5.8-Q29",
+      "5.8-Q36",
+      "5.8-Q37",
+      "5.8-Q38",
+      "5.8-Q40",
+      "5.8-Q46",
+      "5.8-Q48",
+      "5.8-Q49"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "5.8-Q02",
+      "5.8-Q04",
+      "5.8-Q06",
+      "5.8-Q07",
+      "5.8-Q08",
+      "5.8-Q09",
+      "5.8-Q10",
+      "5.8-Q11",
+      "5.8-Q12",
+      "5.8-Q13",
+      "5.8-Q14",
+      "5.8-Q15",
+      "5.8-Q17",
+      "5.8-Q18",
+      "5.8-Q20",
+      "5.8-Q24",
+      "5.8-Q27",
+      "5.8-Q28",
+      "5.8-Q30",
+      "5.8-Q31",
+      "5.8-Q32",
+      "5.8-Q33",
+      "5.8-Q34",
+      "5.8-Q35",
+      "5.8-Q39",
+      "5.8-Q41",
+      "5.8-Q42",
+      "5.8-Q43",
+      "5.8-Q44",
+      "5.8-Q45",
+      "5.8-Q47",
+      "5.8-Q50"
+    ]
+  }
+}

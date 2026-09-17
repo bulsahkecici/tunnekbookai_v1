@@ -1,0 +1,158 @@
+{
+  "final_primary_section": "2.4",
+  "final_secondary_sections": [
+    "2.1",
+    "2.4.2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4",
+      "section_title": "Tünellerin Projelendirilmesi",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0012",
+        "FIG0073",
+        "FIG0075",
+        "FIG0078"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "LIST0019",
+        "LIST0026",
+        "LIST0031",
+        "LIST0034",
+        "FIG0057",
+        "HEAD0023",
+        "LIST0044",
+        "FIG0073",
+        "FIG0075",
+        "FIG0078",
+        "HEAD0032",
+        "LIST0046",
+        "HEAD0033",
+        "HEAD0035",
+        "HEAD0037",
+        "HEAD0038",
+        "LIST0048",
+        "HEAD0039",
+        "LIST0049",
+        "LIST0051"
+      ]
+    },
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0002",
+        "HEAD0008",
+        "LIST0009",
+        "LIST0010",
+        "LIST0011",
+        "HEAD0009",
+        "FIG0018",
+        "HEAD0010",
+        "FIG0029",
+        "LIST0019",
+        "LIST0038",
+        "LIST0052"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7879,
+      "rule_score": 0.6,
+      "embedding_score": 0.8058,
+      "chunk_vote": 0.2264
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.6943,
+      "rule_score": 0.5,
+      "embedding_score": 0.798,
+      "chunk_vote": 0.0509
+    },
+    {
+      "id": "2.1",
+      "score": 0.3964,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.232
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3617,
+      "rule_score": 0.0,
+      "embedding_score": 0.8037,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3605,
+      "rule_score": 0.0,
+      "embedding_score": 0.801,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3591,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1455
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3578,
+      "rule_score": 0.0,
+      "embedding_score": 0.795,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3566,
+      "rule_score": 0.0,
+      "embedding_score": 0.7925,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3563,
+      "rule_score": 0.0,
+      "embedding_score": 0.7917,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3554,
+      "rule_score": 0.0,
+      "embedding_score": 0.7897,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel tasarım sürecinde risk değerlendirmesi, zemin modeli, kazı ve destek tasarımının entegrasyonunu ve inşaat aşamasındaki izlemeyi detaylandırarak 'Tünellerin Projelendirilmesi' (2.4) başlığına aittir. Destek elemanlarının (bolt, shotcrete) seçimi ve davranışı nedeniyle 'Tünel Yapı/Destek Elemanları' (2.1) ikincil bölüm olarak değerlendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:13",
+    "embeddings:8",
+    "top=2:0.7879 gap=0.094 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,162 @@
+{
+  "final_primary_section": "5.9",
+  "final_secondary_sections": [
+    "5.1",
+    "2.4.2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0018",
+        "PARA0027",
+        "PARA0028",
+        "PARA0037",
+        "PARA0039",
+        "PARA0040",
+        "PARA0046",
+        "PARA0055",
+        "LIST0009",
+        "PARA0060",
+        "PARA0061",
+        "PARA0067",
+        "PARA0071",
+        "PARA0073",
+        "PARA0074",
+        "PARA0075",
+        "LIST0020",
+        "LIST0033"
+      ]
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "PARA0018",
+        "PARA0027",
+        "PARA0028",
+        "PARA0037",
+        "PARA0039",
+        "PARA0040",
+        "PARA0046",
+        "PARA0049",
+        "PARA0055",
+        "LIST0009",
+        "PARA0060",
+        "PARA0067",
+        "LIST0033"
+      ]
+    },
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "PARA0016",
+        "PARA0018",
+        "PARA0019",
+        "PARA0027",
+        "PARA0048",
+        "PARA0062",
+        "PARA0063",
+        "PARA0065",
+        "PARA0066",
+        "PARA0076",
+        "PARA0081"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.6",
+      "score": 0.7193,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7814,
+      "chunk_vote": 0.0604
+    },
+    {
+      "id": "5.1",
+      "score": 0.6427,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7763,
+      "chunk_vote": 0.0384
+    },
+    {
+      "id": "5.9",
+      "score": 0.6424,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7783,
+      "chunk_vote": 0.032
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.64,
+      "rule_score": 0.4286,
+      "embedding_score": 0.773,
+      "chunk_vote": 0.032
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3539,
+      "rule_score": 0.0,
+      "embedding_score": 0.7822,
+      "chunk_vote": 0.0096
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3515,
+      "rule_score": 0.0,
+      "embedding_score": 0.7726,
+      "chunk_vote": 0.0192
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3499,
+      "rule_score": 0.0,
+      "embedding_score": 0.7776,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.7743,
+      "chunk_vote": 0.0064
+    },
+    {
+      "id": "5",
+      "score": 0.321,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0769
+    },
+    {
+      "id": "2.4",
+      "score": 0.2763,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0064
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel eğimlerinin ve basınç değişimlerinin tren yolcuları üzerindeki sağlık etkilerini inceleyen bir akademik makaledir. Bu içerik, tünel mühendisliği kitabı bağlamında mevcut adaylar arasında en uygun olan 'Ulusal ve Uluslararası Literatür Taraması' (5.9) bölümüne, dış kaynak referansı olarak sınıflandırılmalıdır. Ayrıca çalışmanın amacı ve önemi (5.1) ile de dolaylı bir bağlantısı vardır ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.6:0.7193 gap=0.077 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

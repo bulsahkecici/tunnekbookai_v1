@@ -1,0 +1,129 @@
+{
+  "final_primary_section": "5.4.2",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.7181,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0002",
+        "PARA0009",
+        "PARA0013",
+        "LIST0012",
+        "PARA0016",
+        "LIST0017",
+        "LIST0018",
+        "PARA0026",
+        "PARA0028",
+        "PARA0040",
+        "PARA0056",
+        "FIG0004",
+        "HEAD0026",
+        "PARA0061",
+        "PARA0062",
+        "FIG0005",
+        "PARA0065",
+        "PARA0066",
+        "HEAD0028",
+        "PARA0069",
+        "FIG0006",
+        "CAPT0005",
+        "PARA0070",
+        "PARA0071"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.7181,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7799,
+      "chunk_vote": 0.0576
+    },
+    {
+      "id": "5.6",
+      "score": 0.3913,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2064
+    },
+    {
+      "id": "1",
+      "score": 0.3875,
+      "rule_score": 0.0,
+      "embedding_score": 0.7587,
+      "chunk_vote": 0.2306
+    },
+    {
+      "id": "5.9",
+      "score": 0.3489,
+      "rule_score": 0.0,
+      "embedding_score": 0.7672,
+      "chunk_vote": 0.0182
+    },
+    {
+      "id": "6.1",
+      "score": 0.3452,
+      "rule_score": 0.0,
+      "embedding_score": 0.7604,
+      "chunk_vote": 0.0152
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3452,
+      "rule_score": 0.0,
+      "embedding_score": 0.7631,
+      "chunk_vote": 0.0091
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3429,
+      "rule_score": 0.0,
+      "embedding_score": 0.7619,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3425,
+      "rule_score": 0.0,
+      "embedding_score": 0.7612,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3419,
+      "rule_score": 0.0,
+      "embedding_score": 0.7598,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.33,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.4.2:0.7181 gap=0.327 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

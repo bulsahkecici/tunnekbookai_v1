@@ -1,0 +1,127 @@
+{
+  "final_primary_section": "5.7",
+  "final_secondary_sections": [
+    "5.7.2",
+    "5.4.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0001",
+        "LIST0047",
+        "LIST0066"
+      ]
+    },
+    {
+      "section_id": "5.7.2",
+      "section_title": "Enerji Maliyetini Azaltma Yöntemleri",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0001"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.6",
+      "score": 0.725,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7715,
+      "chunk_vote": 0.1111
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.6807,
+      "rule_score": 0.4286,
+      "embedding_score": 0.779,
+      "chunk_vote": 0.2222
+    },
+    {
+      "id": "5.7",
+      "score": 0.6348,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7757,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3524,
+      "rule_score": 0.0,
+      "embedding_score": 0.7832,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.351,
+      "rule_score": 0.0,
+      "embedding_score": 0.7799,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3493,
+      "rule_score": 0.0,
+      "embedding_score": 0.7763,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3484,
+      "rule_score": 0.0,
+      "embedding_score": 0.7742,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.3482,
+      "rule_score": 0.0,
+      "embedding_score": 0.7737,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2189,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1778
+    },
+    {
+      "id": "1.4",
+      "score": 0.21,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1333
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Rikoti tünelindeki havalandırma sisteminin optimizasyonunu ve jet fan kullanımının elektrik enerjisi tüketimini azaltarak yıllık maliyet tasarrufu sağlamasını ele almaktadır. Bu içerik, tünelde verimli bakım-çalıştırma ve enerji tüketimi (5.7) ile enerji maliyetini azaltma yöntemleri (5.7.2) başlıklarıyla doğrudan örtüşmektedir. Havalandırma sistemlerinin (elektrik-elektronik) bakımı ve ver",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:5",
+    "embeddings:8",
+    "top=5.6:0.725 gap=0.044 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

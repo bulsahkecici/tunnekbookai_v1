@@ -1,0 +1,82 @@
+{
+  "document_id": "ING_0739a505bb03a31d9a92",
+  "format": "PDF",
+  "adapter": "pdf",
+  "normalized_markdown_path": "processing/ING_0739a505bb03a31d9a92/normalized/document.md",
+  "normalized_json_path": "processing/ING_0739a505bb03a31d9a92/normalized/document.json",
+  "normalized_text_path": "processing/ING_0739a505bb03a31d9a92/normalized/document.txt",
+  "pages": [
+    "PAGE0001"
+  ],
+  "figures": [
+    "FIG0001"
+  ],
+  "tables": [],
+  "charts": [],
+  "slides": [],
+  "sheets": [],
+  "ocr_items": [
+    {
+      "ocr_item_id": "OCRPAGE0001",
+      "scope": "PAGE",
+      "page": 1,
+      "asset_id": "PAGE0001",
+      "ocr_status": "SUCCESS",
+      "ocr_engine": "rapidocr_torch",
+      "ocr_languages": [
+        "tr",
+        "en"
+      ],
+      "ocr_text": "NOTLAR:\n2-\n1-\nAKSI BELIRTILMEDIKÇE KOTLAR m, ÔLÇÜLER cm'DIR.\nYANGIN DOLABI VE AYDINLATMA ILE ILGÍLÍ GÔSTERIMLER BÍLGÍ AMAÇUDIR.\nÜSTYAPI KALINLIKLARI ÖNGÖRÜLEN TRAFIK SAYIMLARI DIKKATE ALINARAK\nYAN DRENAJ BORUSU VE ANA DRENAJ BORUSUNUN BAČLANTISI IÇIN DRENAJ\nDETAYLARINA BAKINIZ.\nKONTAK ENJEKSIYONU IÇIN BORU\nAYRICA HESAPLANMALIDIR.\n1-5*(3 m'DE BiR)\nAYDINLATMA\nR530\nIC KAPLAMA BETONU (C30/37)\nKULLANIM ÇIZGISI\n(GABARI)\nKORUYUCU TABAKA\nSU YALITIMI MEMBRANI +\nPOSKORTME BETONU (C25/30)\n8\nTRAFIKISARETLERI\nTRAFIK IşARETLERÍ\n580\n200\n085\n05\nRT30\n10\nR730\n02\nYANGIN DOLABI\n00\n100\n400\n400\nBAKIM BACASI\nYANGIN DOLABI\n(48mDE BIR)\n85\nR1350\nR1360\nBAKIM BACASI\n(48m'DE BIR)\nKABLO KANALI\nGÖZENEKLI (POROZ)\nBETON\nBETON(C30/37)\nKORUYUCU TABAKA\n0200 mm,PVC\nDELKLi ATNALI\nDRENAJ BORUSU\nBETON (C30/37)\nBETON (C30/37)\nANA DRENAJ GIDERI\n@400mm SPIRAL SARIMLI PVC BORU\nTABAN KEMER BETONU\n(C30/37)\nTABAKA VE KALINLIKLARI OST YAPI\nPROJELENDIRME RAPORUNA GORE\nBELIRLENECEKTIR\nTCK 2007/75 NO'LU IÇ GENELGEYE UYGUN\nGRANOLER MALZEME\nTONEL TIPI TABAN\nDRENAJ BORUSU ©200 mm,PVC\n132\n400\nTABAN KEMERLI TONEL TIP KESITI\n(ALIYMANDA)",
+      "ocr_confidence": null
+    }
+  ],
+  "text_elements": 1,
+  "warnings": [
+    "CHART_EXTRACTION_DISABLED_BY_CONFIG",
+    "NATIVE_TEXT_LAYER_THIN_OCR_FALLBACK"
+  ],
+  "errors": [],
+  "capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "engine": {
+    "docling_status": "SUCCESS",
+    "docling_versions": {
+      "docling": "2.124.0",
+      "docling-core": "2.93.0",
+      "docling-ibm-models": "4.0.1",
+      "docling-parse": "7.16.0"
+    },
+    "docling_options": {
+      "images_scale": 2.0,
+      "generate_page_images": true,
+      "generate_picture_images": true,
+      "do_table_structure": true,
+      "do_ocr": true,
+      "do_picture_classification": true,
+      "do_formula_enrichment": false,
+      "do_chart_extraction": false,
+      "enable_remote_services": false,
+      "allow_external_plugins": false,
+      "document_timeout": 1800.0,
+      "ocr_options": "RapidOcrOptions",
+      "do_picture_description": false
+    },
+    "docling_unsupported_options": [],
+    "chart_status": "DISABLED",
+    "native_text_layer_chars": 0,
+    "native_text_layer": "THIN"
+  },
+  "page_count": 1,
+  "text_char_count": 1109
+}

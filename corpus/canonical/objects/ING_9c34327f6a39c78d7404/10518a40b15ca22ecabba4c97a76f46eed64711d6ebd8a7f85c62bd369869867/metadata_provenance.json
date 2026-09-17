@@ -1,0 +1,116 @@
+{
+  "document_id": "ING_9c34327f6a39c78d7404",
+  "fields": [
+    {
+      "field": "title",
+      "value": "A Deep Learning Approach to Identify Rock Bolts in Complex 3D Point Clouds of Underground Mines Captured Using Mobile Laser Scanners",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Dibyayan Patra",
+        "Pasindu Ranasinghe",
+        "Bikram Banerjee",
+        "Simit Raval"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2025",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "monitoring",
+        "operations",
+        "rock_bolt",
+        "rock_mechanics",
+        "shotcrete",
+        "standards",
+        "steel_mesh",
+        "support_systems",
+        "ventilation"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "rock_mechanics:rock mass; shotcrete:shotcrete; steel_mesh:steel mesh; rock_bolt:rock bolt; support_systems:support system; monitoring:monitoring; ventilation:ventilation; operations:operation; standards:standard; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://arxiv.org/pdf/2506.20464v1",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.3390/rs17152701",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "confidentiality",
+      "value": "RESTRICTED",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "confidentiality marking: restricted"
+    }
+  ]
+}

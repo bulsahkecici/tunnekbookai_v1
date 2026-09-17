@@ -1,0 +1,109 @@
+{
+  "final_primary_section": "2.4.1.2",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.6829,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0052",
+        "HEAD0009",
+        "PARA0062",
+        "PARA0063",
+        "PARA0066"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.1.2",
+      "score": 0.6829,
+      "rule_score": 0.5,
+      "embedding_score": 0.7708,
+      "chunk_vote": 0.0552
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.4176,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3377
+    },
+    {
+      "id": "2",
+      "score": 0.3556,
+      "rule_score": 0.0,
+      "embedding_score": 0.7804,
+      "chunk_vote": 0.0221
+    },
+    {
+      "id": "6.1",
+      "score": 0.3486,
+      "rule_score": 0.0,
+      "embedding_score": 0.771,
+      "chunk_vote": 0.0083
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3482,
+      "rule_score": 0.0,
+      "embedding_score": 0.7737,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3479,
+      "rule_score": 0.0,
+      "embedding_score": 0.7675,
+      "chunk_vote": 0.0124
+    },
+    {
+      "id": "5.3",
+      "score": 0.3449,
+      "rule_score": 0.0,
+      "embedding_score": 0.7665,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.344,
+      "rule_score": 0.0,
+      "embedding_score": 0.7645,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3429,
+      "rule_score": 0.0,
+      "embedding_score": 0.762,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2895,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2691
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:17",
+    "embeddings:8",
+    "top=2.4.1.2:0.6829 gap=0.265 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

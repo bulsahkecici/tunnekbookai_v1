@@ -1,0 +1,1485 @@
+{
+  "claim_count": 38,
+  "claims": [
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 332,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "fa9fe32cf27b1bcffde895977fb353453877074aca9cba71644a8995fc22decc",
+      "chunk_id": "ING_1fb6b71a35f819248daf_CH_41e2451534",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_0c54f7c055027deb6887bb875c9a57369a5145531a7de48374d66fd73750cae1",
+      "claim_text": "TEŞEKKÜR > 3000 METREDEN UZUN TÜNELLER > 272 ÜLKEMİZDE TÜNEL BAKIM ONARIM İŞLETME MALİYETLERİ ENVANTER BİLGİLERİ\nTÜNEL BAKIM, ONARIM, İŞLETME ŞEFLİKLERİ | Tünel\n\n\n\nAdeti | Tünel\n\n\n\nUzunluğu\n\n\n\n(km) | İdari Personel Giderleri (TL) | Hizmet Alımı Personel Giderleri (TL) | Hizmet Alımı Araç Giderleri (TL) | Telefon\n\n\n\nFaturası\n\n\n\nOrtalama\n\n\n\nAylık\n\n\n\nTutar(TL) | Elektrik Ortalama Aylık Tutar(TL) | İnternet\n\n\n\n(TL) | Akaryakıt\n\n\n\nMalzemeleri\n\n\n\n(TL) | Elektrik\n\n\n\nM a l zemeleri (TL) | Diğer\n\n\n\nMalzeme\n\n\n\nGiderleri\n\n\n\n(Yedek Parça v.b.)\n\n\n\n(TL) | Emanet İşler Yıllık Gideri (TL) | Yıllık Toplam Harcamalar (TL) | Yıllık Birim Maliyeti (TL/km)\n\n**Zonguldak Tünel Bakım, Onarım, İşletme Şefliği** | 37 | 12,311 | 181.200,00 t | 1.424.825,76 t | 406.476,48 t | 659,00 t | 1.920.911,00 t | 852,00 t | 160.410,00 t | 78.591,00 t | 32.400,00 t | 118.590,00 t | 4.324.915,24 t | **351.304,95 fc**\n\n**Trabzon Tünel Bakım, Onarım, İşletme Şefliği** | 33 | 35,027 | 933.000,00 t | 1.470.271,56 t | 660.875,16 t | 260,25 t | 246.935,90 t | 0,00 t | 149.926,35 t | 210.894,26 t | 32.336,37 t | 0,00 t | 3.704.499,85 t | **105.761,27 fc**\n\n**Artvin Tünel Bakım, Onarım, İşletme Şefliği** | 12 | 4,704 | 45.000,00 t | 595.023,24 t | 346.224,96 t | 0,00 t | 300.554,00 t | 0,00 t | 17.162,95 t | 0,00 t | 65.000,00 t | 0,00 t | 1.368.965,15 t | **291.021,50 fc**\n\n**Bitlis Tünel Bakım, Onarım, İşletme Şefliği** | 2 | 4,263 | 304.200,00 t | 877.146,72 t | 364.417,44 t | 619,75 t | 701.375,54 t | 852,00 t | 299.747,11 t | 10.847,62 t | 38.156,43 t | 0,00 t | 2.597.362,61 t | **609.280,46 fc**\n\n**Alanya Tünel Bakım, Onarım, İşletme Şefliği** | 3 | 2,254 | 206.400,00 t | 712.644,36 t | 451.108,44 t | 312,25 t | 397.830,73 t | 1.580,00 t | 14.000,00 t | 0,00 t | 0,00 t | 0,00 t | 1.783.875,78 t | **791.426,70 fc**\n\n**Kemer Tünel Bakım, Onarım, İşletme Şefliği** | 6 | 4,694 | 220.800,00 t | 712.644,36 t | 319.290,60 t | 1.042,25 t | 688.000,08 t | 1.580,00 t | 63.000,00 t | 0,00 t | 122.106,00 t | 0,00 t | 2.128.463,29 t | **453.443,39 fc**\n\n**Bilecik Tünel Bakım, Onarım, İşletme Şefliği** | 3 | 7,1 | 115.200,00 t | 783.152,76 t | 387.250,32 t | 0,00 t | 503.202,28 t | 0,00 t | 86.143,58 t | 0,00 t | 212.950,00 t | 0,00 t | 2.087.898,94 t | **294.070,27 fc**\n\nTOPLAM | 96 | 70,353 |  |  |  |  |  |  |  |  |  |  | 17.995.980,86 t | **255.795,50 fc**",
+      "conditions": [],
+      "document_id": "ING_1fb6b71a35f819248daf",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_41e2451534:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L332",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q19": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5",
+        "5.4"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4.2",
+      "supporting_question_ids": [
+        "5.5.2.1-Q19"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 139,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_b6a2b2e47753afe8699c/6133b901672c377b1af0a80c529478d8219c32f8309a61d341bfd11fb78d4b4d/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "6b893c5ffa44eebee581af5354db434c0e17d00585f8b8f210416994771e88d0",
+      "chunk_id": "ING_b6a2b2e47753afe8699c_CH_83c5c89ac8",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_133fcbfcd448ac8983d1accd161b9cffac22227a5942d84ef70d2ec5251c34eb",
+      "claim_text": "Life-Cycle Costs 5.3.1.4\nthat compares two different repair schemes where the amount of repair work does not change over the repair period. This simple example indicates that if funds are limited in any particular year, then there is not a significant difference when the repairs are performed. In other cases, the cost and amount of repair work could significantly increase because of inflation and the neglected repairs could increase the rate of deterioration and require more extensive repairs.\n\nLife-Cycle Costs 5.3.1.4\n\nLife cycles are estimated using relevant deterioration models based on data collected over many inspection cycles.  Cost effective strategies consider the costs of various competing alternatives over a specific duration or time period such as the remaining useful life of a particular tunnel system, the next ten years, etc. Life-cycle analysis is a useful tool for evaluating capital investment alternatives such as whether to purchase, own, operate, maintain, or replace an asset. For example when considering obsolete fan systems, it might require less up-front capital to overhaul the motors than purchase new motors; however, the new fan motors may last longer, consume less power, and require less maintenance expenditures, which over the useful life cycle could cost less. If the new controllers are compatible with the planned supervisory control and data acquisition system, then these benefits should also be included in the evaluation.\n\nAsset Management 5.3.1.5\n\nAsset management involves deploying, operating, maintaining, upgrading, and replacing tunnel system components in a cost-efficient manner while maintaining acceptable levels of safety and service. These schemes evaluate alternatives and determine the most effective use of limited resources by employing optimized allocation techniques.\n\nTable 5.5 - Sample simple cost estimate for comparing two alternative repair schemes.\n\nCivil and Structural Evaluations 5.3.2\n\nWhen establishing the conditions of the tunnel and evaluating the engineering properties of the materials, it is important to have the existing records available to obtain the appropriate design, construction, and maintenance information. The geotechnical records should also be reviewed to obtain the soil parameters and the groundwater information. This information may be useful for example when assessing a leaking segment of the tunnel or where the geometry of the tunnel cross-section changes. If any essential information is missing, special or in-depth inspections can be used to obtain the missing information.\n\nTable 5.6 - Sample simple ranking for repair of a civil or structural component.\n\nA table can be set up as a tool for evaluating civil and structural elements based on the basic evaluation schemes that were previously discussed. From Table 5.6 for example, qualitative evaluations can be used to rank repairs. The evaluation method developed should be based on the policies and practices of the tunnel owner. More elaborate quantitative methods can be developed to take advantage of multi-variable codified input parameters using sophisticated algorithms processed by computer software; however, it is highly recommended to use engineering judgment as a final check for evaluating quantitative results.\n\nStructural Analysis - It is important to evaluate the changes that might impact the load carrying capacity and durability of civil and structural elements. The primary considerations include material degradation and section loss. Loads may have changed over time due to a number of factors such as the installation of new equipment, heavier truck use, earthwork, and changing groundwater levels. The evaluation should consider the pertinent assumptions used in the design to include any standards, codes, or criteria that were used. A structural analysis should be performed on a structure that supports loads in the tunnel when there are changes to:\n\nThe loads supported by the tunnel structure.\n\nSection loss occurs in the structure.\n\nThe material properties are degraded due to corrosion and deterioration.\n\nThe ground interacts with the tunnel liner rather than simply acting as an applied load on the final liner. The ground should be treated as a material with engineering properties to include strength, stiffness, and weight. The ground may also distribute all or a portion of the live loads in the vicinity of the tunnel. If a highway tunnel supports live loads from aircraft or rail vehicles, it would be prudent to conduct a structural analysis of the tunnel liner.",
+      "conditions": [],
+      "document_id": "ING_b6a2b2e47753afe8699c",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_b6a2b2e47753afe8699c:ING_b6a2b2e47753afe8699c_CH_83c5c89ac8:pages=220-222;canonical=corpus/canonical/objects/ING_b6a2b2e47753afe8699c/6133b901672c377b1af0a80c529478d8219c32f8309a61d341bfd11fb78d4b4d/chunks/embedding_ready.jsonl#L139",
+      "page_end": 222,
+      "page_start": 220,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q08": "PARTIAL",
+        "5.5.2.1-Q27": "PARTIAL",
+        "5.5.2.1-Q33": "SUPPORTED",
+        "5.5.2.1-Q38": "SUPPORTED",
+        "5.5.2.1-Q40": "PARTIAL",
+        "5.5.2.1-Q42": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5.2.1-Q08",
+        "5.5.2.1-Q27",
+        "5.5.2.1-Q33",
+        "5.5.2.1-Q38",
+        "5.5.2.1-Q40",
+        "5.5.2.1-Q42"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 6,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_b57512185e362b343dd2/14be7ccc1b295464f517f2de4e0e5f748c154f7a7db91ec10b0699711ed82bb8/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "956932d141f24cc834dea844291795504e4b5b57d16469e58427bcbc6d6357d6",
+      "chunk_id": "ING_b57512185e362b343dd2_CH_5024258dfa",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_16402e6315602ac2721d549289bf5e3ab018feb8609d3a0da050204d174f54d3",
+      "claim_text": "1. 터널 길이와 굴착량에 따른 터널 공사비\n감소하는 추세를 보이고 있다. 본 논문은 총 4개 현장을 선정하였지만 추후 연구를 더욱 보완하기 위해서는 더 많은 터널 현장 자료의 수 집이 필요하다. 공사비 산출에 적용되는 실적단가를 기 본으로 적용하고 실적단가가 없는 그 외의 공종들에 대 한 단가는 원가계산에 의한 단가 산출을 하여 적용하였 다. 원가 계산에 의한 단가를 구성하는 재료비, 노무비, 중기사용료의 적용 기준 및 단가산출 기준은 다음 [표 3]와 같다[3]. 표 3. 단가산출 기준\n\n1. 터널 길이와 굴착량에 따른 터널 공사비\n\n4개의  현장에  대하여  터널  길이에  따른  터널  공사비 변동을  조사하였다.  아래의  [표  4]에서  보는  바와  같이 터널  길이가  증가함에  따라  그에  따른  공사비도  증가한 다는  것을  확인할  수  있었다.\n\n표 4. 터널 길이와 굴착량에 따른 터널공사비\n\n4개  현장  조사  결과  터널길이  1m당  공사비는  평균 4,459,266원으로  나타났으며,  굴착량  1m 3   공사비는  평 균  57,589원으로  나타났다.\n\n터널연장이  증감하게  되면  그에  따른  버력  운반  및 각종  재료의  운반거리가  늘어나게  되고  작업자들의  터 널  막장으로의  이동시간과  그에  따른  작업시간도  증가 한다.  그리고  덤프트럭의  소요  대수도  늘어나  공사비가 증가하게  된다.  또한  토공  공종  공사비  구성상  노무비 의  비율이  타  공종에  비하여  가장  높기  때문에  장대터 널  할증에  의한  공사비  증감,  영향을  가장  크게  받는  다 는걸  알  수  있었다.  그리고  터널  공사에서  가장  큰  비중 을  차지하는  것은  토공부분으로  나타났다.  터널공사에 서  가장  많은  부분을  차지하는  것이  토공비라는  것을 알  수  있다.\n\n2. 암질에 따른 터널 공사비\n\n다음은  암질에  따른  공사비  변동사항을  조사하였다. 기존에  수행된  4개  터널공사를  살펴본  결과  보통암,  연 암,  풍화암,  경암  등  총  4가지  암질로  이루어져  있었다.\n\n표 5. 암질에 따른 공사비\n\n암질에  따른  공사비  변동을  살펴보면  [표  5]과  같이 나타난다.  보통암을  굴착하는데  가장  많은  평균  공사비 가  소요되고  경암이  가장  적게  소요  되었다.  이는  암질 이  굴착의  용이성,  지보공의  종류와  수량  등에  영향을 주고  이는  공사비에  반영되는  것으로  판단된다.\n\n표 6. 공사비 변동사항\n\n이러한  암질이  터널  공사비에  영향을  미치는  요인으 로  나타난  이유는  터널의  굴착  방법에는  여러  가지가 있으며  각각의  방법에  따라  경제성과  시공성이  모두  다 르기  때문에  현장여건과  지반조건을  모두  고려하여  적 합한  굴착방법을  선정하여야하기  때문이다.",
+      "conditions": [],
+      "document_id": "ING_b57512185e362b343dd2",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_b57512185e362b343dd2:ING_b57512185e362b343dd2_CH_5024258dfa:pages=6-7;canonical=corpus/canonical/objects/ING_b57512185e362b343dd2/14be7ccc1b295464f517f2de4e0e5f748c154f7a7db91ec10b0699711ed82bb8/chunks/embedding_ready.jsonl#L6",
+      "page_end": 7,
+      "page_start": 6,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q19": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "6.2.2",
+        "2"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "6",
+      "supporting_question_ids": [
+        "5.5.2.1-Q19"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 25,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "422d2f7db9ee82dc1645915bfe78066672213576b0b9464f5b519653eb3bd297",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_d49d8773d9",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_19af406c4f49fa54b8a6d827bde5b13151414c9737dadad8c664ff1938c06300",
+      "claim_text": "3.5. Yaşam Döngüsü Maliyeti (LCC) Analizi\nproses öncesi ve sonrasındaki farklılıklar ve ağırlıklı değerlendirme yöntemleri şeklindedir. Bütünlük, hassasiyet ve uygunluk kontrolü, belirsizlik analizleri ve veri kalitesi değerlendirmesinin sonuçlarıyla tamamlanabilir. Sonuç ve öneriler: Yorum aşamasının bu dördüncü basamağının amacı, LCA çalışması veya yaşam döngüsü envanter çalışmasının raporu için, sonuçlara varmak ve öneriler getirmektir. Bu basamak, LCA çalışmasını okuyan kişiler açısından gerekli ve çalışmanın raporlanmasını ve şeffaflığını geliştirme bakımından son derece önemlidir (Çokaygil, 2005).\n\n3.5. Yaşam Döngüsü Maliyeti (LCC) Analizi\n\nİşletmelerde, herhangi bir ürün ya da proses ile ilgili ayrıntılı maliyetlerin hesaplanması;  üretilecek  olan  ürünün  cinsine,  işletmenin  kapasitesine,  üretim tekniğine v.b. etkenlere göre değişiklikler göstermektedir. Bu  nedenle, her işletmede  kullanılabilecek  mevcut  bir  maliyet  sistemi  bulunmamaktadır.  Bunun yanısıra,  her  işletme;  ürünün  cinsine,  prosesin  kendi  yapısal  özelliklerine  ve ihtiyaçlarına göre maliyetler oluşturmalıdır. Ancak, herhangi bir ürün ya da proses maliyetleri  ile  ilgili  alınan  kararlarda  detaylı  bir  yapılandırmanın  söz  konusu olmadığı  görülmektedir.  Oysa  küreselleşen  dünyada  rekabetin  arttığı  göz  önüne alınırsa,  maliyet  ayrıntılarının  detaylandırılarak,  ürün  ya  da  proseslerin  yaşam döngüsünü  kapsayan  bir  maliyet  değerlendirilmesinin  son  derece  önemli  bir avantaj kazandıracağı düşünülmektedir.\n\nBir sistem veya prosesin yalnızca üretim maliyetlerini değil, sistemin ya da prosesin tüm yaşam döngüsü boyunca tüm (araştırma ve geliştirme, işletme, elden çıkarma gibi) aşamalarının neden olduğu maliyetleri değerlendiren yaşam döngüsü  maliyet yaklaşımı ile maliyetlerin kısmi değerlendirmeleri yerine, bütünsel bir şekilde ele  alınabilmesi  mümkün olabilmektedir.  Böylelikle, sistem veya  proses  ile  ilgili  farklı  seçeneklerin  maliyetler  açısından  karşılaştırılması gerçekleştirilebilecek ve tesis/işletme kaynakları daha etkin ve verimli kullanılabilecektir.\n\nYaşam  döngüsü  maliyeti  (Life  Cycle  Cost,  LCC)  kavramı,  bir  sistemin veya ürünün yaşam döngüsü boyunca; sistemin geliştirilmesi, üretilmesi, işletilmesi  ve  envanterden  çıkarılması  için  ortaya  çıkan  maliyetlerin  toplamı olarak tanımlanmaktadır (Işın, 2009).\n\nYaşam  döngüsü  maliyet  analizi  konusundaki  ilk  çalışmalara 1960'lı yıllarda Amerika Birleşik Devletleri Savunma Bakanlığı tarafından başlanmıştır. Silah  sistemlerinin  satın  alma  fiyatları  yanında,  sistemlerin  kullanımı  nedeniyle ortaya çıkan lojistik (işletim ve bakım) maliyetlerin de, rekabet eden ürünlere göre önemli  farklılıklar  gösterdiği  bu  çalışmalarda  belirlenmiştir.  Geleneksel  olarak, lojistik  maliyetleri  ihmal  eden  tedarik  usulleri  yerine,  satın  alma  kararlarında, tahmin de olsa, lojistik maliyetlerin de dikkate alınması gerektiği tespit edilmiştir (Aytok, 2006).\n\nSon  yıllarda  yaşam  döngüsü  maliyetlerinin  hesaplanılması,  mühendislik ekonomisinde  popülerlik  kazanmış  ve  1960'larda  Amerika  Birleşik  Devletleri hükümet teşkilatları tarafından donanım alımlarında maliyet etkinliklerini arttırmak amacıyla, yaşam döngüsü maliyet analizleri bir araç olarak kullanılmıştır.  Daha  sonra  yaşam  döngüsü  maliyet  hesaplamaları  iş  dünyasında yaygınlaşarak ürün geliştirme çalışmalarında ve proje geliştirmelerinde kullanılmıştır (Aytok, 2006).\n\nKonuya ilişkin paralel çalışmaların, A.B.D.'ndeki kadar kapsamlı olmasa da,  diğer  ülkelerde  de  gündeme  geldiği  ve  çalışmalar  yapıldığı  görülmektedir. İngiltere'de 'Yaşam Döngüsü Maliyetlerine Göre Tasarım' proje grubu oluşturularak, proje  yöneticilerinin maliyet ve performanslara ilişkin yapacakları analizler için, metodoloji geliştirilmeye çalışılmıştır. Halen Kanada  Ulusal Savunma  Bakanlığı,  çeşitli  iyileştirme  çalışmaları  ile  yaşam  döngüsü  maliyet modelini  ve  metodolojisini,  savunma  malzemeleri  tedarikinde  uygulamakta  ve savunma sanayi işletmelerinden, verecekleri tekliflerinde, yaşam döngüsü maliyetlerine ilişkin bilgileri de istemektedir (Aytok, 2006).",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_d49d8773d9:pages=57-59;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L25",
+      "page_end": 59,
+      "page_start": 57,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q33": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q33"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 8,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_f80432dae1b16b5436e3/4c01b52ff441d2437c8ba3d1bbdae64482fdf3ae6073f2a8339d8fa62f920bf3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "9adc4dafc71b5a8556cacfa2fd8c7d369c4baf99fa65188a4707fa333982cd6e",
+      "chunk_id": "ING_f80432dae1b16b5436e3_CH_79a5510938",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_3a2b6323300bfc0b6550d9f8ffdc9473aab5349ccf693a451bec498a77e54442",
+      "claim_text": "3.1. Problem description\nthe shape parameter of the Gamma process before applying maintenance measure, and d i     is the effect of the th i repair, which is a coefficient between 0 and 1. The new shape parameter * α after applying th i maintenance measure can be modeled by: In numerical modelling, this intervention leads the degradation to a more smoothly developed process, which delays the arriving time of ultimate service states.\n\n3. Formation of the problem\n\n3.1. Problem description\n\nIn this study, SOM approach dealing with different classifications of service state will be investigated. Multi-levelled service state represents a refine maintenance method; otherwise the two-levelled service state represents an extensive  maintenance  method.  The  two  methods  adopting SOM approach cooperated with periodic inspection policies constitute two maintenance strategies, which are MS-1 and MS-2. Their effects are compared through numerical simulation of a real tunnel in the light of lifetime maintenance cost under safety requirement.\n\nThe details of the two maintenance strategies are shown in Table 3. It should be noted that the assumptions of different degrees of repairing measures in SOM approach refer to Section 2.2, and the preventive repair in two-levelled service state is the same with major repair in multi-levelled service state.\n\nIn  order  to  get  the  minimum  lifetime  maintenance cost  of  different  maintenance  strategies  under  safety  requirement, the parameters of the two maintenance strategies should be optimized at the same time. In general, the threshold for whether a structure enters a dangerous state (failure) is known and can be learned from previous experiments or calculations. Therefore, the parameters that need to be optimized in the two maintenance strategies are inspection interval and maintenance thresholds, as shown in Table 3.\n\nTable 3. Parameters to be optimized in different maintenance strategies\n\n3.2. Mathematical formulation\n\nThe proposing problem involves non-stationary Gamma process and imperfect maintenance modelling, which is difficult to apply the theoretical formulas in the calculation of lifetime maintenance cost in this case (Van, Bérenguer 2012). In this study, we propose a simulation-based method to calculate the expected number of repairing actions and failures during the service life of tunnel structure. The lifetime maintenance cost can be computed by:\n\nwhere lifetime C is  the  lifetime  maintenance  cost  during service  life  of  tunnel  structure. insp N is  the  number  of inspection during service life, and insp C is the cost per inspection. Assuming there are m types repairing methods of  the  tunnel. i r N is  the  number  of  repairing  measures of type i applied during the service life of tunnel structure, and i r C is the cost of maintenance type i . f C is the cost of rehabilitation when a failure occurs, and f N is the number of failures occurred. ( ) · E is  the expectation operator.\n\nOne constraint of the optimization is that the probability of failure during the service life should be lower than a threshold level. The probability of failure of tunnel structure during service life can be estimated from ( ) f E N if the  numbers  of  simulations  are  large  enough.  From  the standards of tunnel structure, the value of probability of failure should be less than 4 1.1 10 - × in the lifetime of tunnel (GB50153-2008 2008).\n\nFrom the above, the mathematical formulation of the optimization problem is given by:",
+      "conditions": [],
+      "document_id": "ING_f80432dae1b16b5436e3",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_f80432dae1b16b5436e3:ING_f80432dae1b16b5436e3_CH_79a5510938:pages=6-7;canonical=corpus/canonical/objects/ING_f80432dae1b16b5436e3/4c01b52ff441d2437c8ba3d1bbdae64482fdf3ae6073f2a8339d8fa62f920bf3/chunks/embedding_ready.jsonl#L8",
+      "page_end": 7,
+      "page_start": 6,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q34": "PARTIAL",
+        "5.5.2.1-Q40": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q34",
+        "5.5.2.1-Q40"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 27,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "95b4e370f80c92aaaddb58d3cf67ea61d4b5ac772f80bdd40e9b9e81a05f5360",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_b9ec05e4ec",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_483873393ddf483c1a12db5f30404c5e3a317d40b22f556f7a2f0cefddbbc75a",
+      "claim_text": "3.5.3. LCC analizinin karar almada kullanımı\nrağmen performansı arttırması: Satın alma kararlarında tedarik maliyeti, seçeneklere değer biçilmesinde gözönünde bulundurulacak tek faktör değildir. Yaşam döngüsü maliyet analizinin dikkate aldığı maliyetler, değiş-tokuş yapılmış değişik satın alma seçeneklerinin özelliklerine göre yapılandırılır. Başarılı bir yaşam döngüsü maliyet analizinin getirdiği diğer temel faydalar ise şunlardır (Aytok, 2006):  Gelecekteki kaynak ihtiyacının tahmin edilmesini ve belirlenmesini sağlar.  Ar-Ge ve öncelikli tasarım kararlarını etkiler.  Stratejik planlamayı ve bütçelemeyi destekler.\n\n3.5.3. LCC analizinin karar almada kullanımı\n\nBir  bütün  olarak  yaşam  döngüsü  maliyet  analizi,  sistemlerin  tasarım sürecini  etkileyerek,  sistemin  yaşam  döngüsü  boyunca ortaya çıkan maliyetlerin toplamını en aza indirecek kararların alınmasında da bir araç olarak kullanılmaktadır.\n\nYaşam döngüsü maliyet analizi, alternatifler  arasından maliyet ve  yaşam süresi  açısından  en  uygun  olan  alternatifin  tespit  edilmesi  ve  gerekli  kararın alınmasında  kullanılabilecek  bir  modeldir.  Yaşam  döngüsü  maliyet  analizi,  bir tesis/işletme  veya  ürün/proses  içerisinde  gerçekleştirilmesi  istenen  çok  sayıdaki yatırım  projelerinin  tamamının  birden  yapılması  için  ödenek  yetersizliği  olması durumlarında,  mevcut  ödeneğin  paylaştırılması için hangi projelere öncelik verileceğinin kararlaştırılmasında da kullanılabilir. Yaşam  döngüsü maliyet analizinin  pek  çok  uygulama  alanı  mevcut  olup,  özellikle  aşağıdaki  konularda değerlendirme yapılmasında da kullanılmaktadır (Aytok, 2006).\n\n Alternatif sistem/ürünün işlevsel senaryoları ve kullanım yaklaşımları,\n\n Alternatif sistem/ürünün işletilmesi, bakım onarım aşamaları,\n\n Alternatif sistem/ürünün tasarım özellikleri (ünitelerin tasarımı, donanım/yazılım seçimi, güvenilirlik, bakım kolaylığı, vb.),\n\n Bir malzeme/parça için alternatif tedarik kaynaklarının seçimi,\n\n Alternatif  üretim  yöntemlerinden  birinin  seçimi  (sürekli/kesintili  üretim, üretim hatlarının miktarı, vb.),\n\n Alternatif dağıtım yollarının, ulaştırma yöntemlerinin, yedek parça depolarının yerlerinin incelenmesi, vb.,\n\n Ürünü elden çıkarmak ve yeniden değerlendirmek için alternatif yöntemlerin belirlenmesi,\n\n Alternatif yönetim  usulleri ve bunların sistem üzerindeki etkilerinin incelenmesi.\n\nYaşam döngüsü maliyet analizi farklı ulaşım seçenekleri (otomobil, uçak, raylı  sistemler),  bilgisayarlar,  ağır  endüstri  ekipmanları  ve  askeri  sistemlerde kullanıldığı  gibi  bunların  yanında  oluşturulacak  modelin  kapsamına  göre  de değişik uygulamalara sahiptir (GB, 2004). Bu uygulamalardan bazıları Şekil 3.3' te gösterilmiştir.\n\nŞekil 3.3. Yaşam döngüsü maliyet analizi uygulamaları (Aytok, 2006).",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_b9ec05e4ec:pages=61-62;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L27",
+      "page_end": 62,
+      "page_start": 61,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q33": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q33"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 12,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_f80432dae1b16b5436e3/4c01b52ff441d2437c8ba3d1bbdae64482fdf3ae6073f2a8339d8fa62f920bf3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "8c9ad7f1f2d3f19a0392541956d11c7b7f66483d6078fd16c5d49878fd5aa799",
+      "chunk_id": "ING_f80432dae1b16b5436e3_CH_0ef5164dc0",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_48a3927c010d50315d94e54ce630466d0541b2f9a2c9830ca875d8c91623acf8",
+      "claim_text": "Conclusions\nTheir difference is that MS-1 has different degrees of repairing activities to choose. Thus, the results of numerical investigation show that when there are different degrees of repairing measures available and minor or medium repair is more effective/cheaper in SOM approach, the maintenance strategy adopting multi-levelled services state will greatly reduce the maintenance cost during the whole service life of tunnel structure. Table 8. Optimal parameters and maintenance cost for different maintenance strategies\n\nConclusions\n\nThis paper proposes a SOM approach to investigate the efficiency of maintenance strategies. SOM approach takes the  level  of  service  state  as  criteria  for  selecting  repairing measures. Two representative maintenance strategies, which  are  multi-levelled  service  state  and  two-levelled service state, are compared in the view of lifetime maintenance cost. The numerical investigations of the two maintenance strategies show that:\n\nSOM approach is able to deal with maintenance strategies adopting different classifications of service state, and their effects can be compared by optimization algorithms in the view of lifetime maintenance cost.\n\nMinor or medium repairing measures implemented in the early deterioration stage of tunnel will postpone more severe damages happen and reduces lifetime maintenance cost.\n\nThe  maintenance  strategy  adopting  multi-levelled service state (MS-1) can greatly reduce maintenance cost, which is better than MS-2.\n\nAlthough there are still several limitations, such as the idealized degradation assumption of Gamma process and negligence of extreme effects, SOM approach is validated to be an effective method for allocating resources in the maintenance of tunnel.\n\nFunding\n\nThis work was supported by the China Postdoctoral Science Foundation under Grant number 2017M621474.\n\nDisclosure Statement\n\nNo potential conflict of interest was reported by the authors.\n\nReferences\n\nAi, Q.; Yuan, Y.; Mahadevan, S.; Jiang, X. 2016. Probabilistic degradation modelling of circular tunnels assembled from segmental linings, Structural Concrete 17(2): 257-273.\n\nhttps://doi.org/10.1002/suco.201400122\n\nBaji, H.; Li, C.; Scicluna, S.; Dauth, J. 2017. Risk-cost optimised maintenance strategy for tunnel structures, Tunnelling and Underground Space Technology 69: 72-84.\n\nhttps://doi.org/10.1016/j.tust.2017.06.008\n\nBarker, C. T.; Newby, M. J. 2009. Optimal non-periodic inspection for a multivariate degradation model, Reliability  Engi-\n\nneering & System Safety 94(1): 33-43.\n\nhttps://doi.org/10.1016/j.ress.2007.03.015\n\nCastanier, B.; Grall, A.; Bérenguer, C. 2005. A condition-based maintenance policy with non-periodic inspections for a twounit  series  system, Reliability  Engineering & System  Safety 87(1): 109-120. https://doi.org/10.1016/j.ress.2004.04.013\n\nChen, C. J.; Juan, Y. K.; Hsu, Y. H. 2017. Developing a systematic approach to evaluate and predict building service life, Journal of Civil Engineering and Management 23(7): 890-901.\n\nhttps://doi.org/10.3846/13923730.2017.1341956\n\nDo, P.; Voisin, A.; Levrat, E.; Iung, B. 2015. A proactive condition-based maintenance strategy with both perfect and imperfect maintenance actions, Reliability Engineering & System Safety 133: 22-32. https://doi.org/10.1016/j.ress.2014.08.011\n\nFarran, M.; Zayed, T. 2015. Fitness-oriented multi-objective optimisation for infrastructures rehabilitations, Structure and Infrastructure Engineering 11(6): 761-775.\n\nhttps://doi.org/10.1080/15732479.2014.905964\n\nGB50153-2008 Unified standard for reliability design of engineering structures . Beijing: China Architecture and Building Press, 2008 (in Chinese).\n\nGrall,  A.;  Bérenguer,  C.;  Dieulle,  L.  2002.  A  condition-based maintenance policy for stochastically deteriorating systems, Reliability Engineering & System Safety 76(2): 167-180. https://doi.org/10.1016/S0951-8320(01)00148-X\n\nJardine, A. K.; Lin, D.; Banjevic, D. 2006. A review on machinery diagnostics and prognostics implementing condition-based maintenance, Mechanical Systems and Signal Processing 20(7): 1483-1510. https://doi.org/10.1016/j.ymssp.2005.09.012\n\nJin,  Y-F.;  Yin,  Z-Y.;  Shen,  S-L.;  Hicher,  P-Y.  2016.  Selection  of sand models and identification of parameters using an enhanced genetic algorithm, International Journal for Numerical and Analytical Methods in Geomechanics 40(8): 1219-1240. https://doi.org/10.1002/nag.2487\n\nJin, Y.-F.; Yin, Z.-Y.; Shen, S.-L.; Zhang, D.-M. 2017. A new hybrid real-coded genetic algorithm and its application to parameters identification of soils, Inverse Problems in Science and Engineering 25(9): 1343-1366.",
+      "conditions": [],
+      "document_id": "ING_f80432dae1b16b5436e3",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_f80432dae1b16b5436e3:ING_f80432dae1b16b5436e3_CH_0ef5164dc0:pages=11;canonical=corpus/canonical/objects/ING_f80432dae1b16b5436e3/4c01b52ff441d2437c8ba3d1bbdae64482fdf3ae6073f2a8339d8fa62f920bf3/chunks/embedding_ready.jsonl#L12",
+      "page_end": 11,
+      "page_start": 11,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q48": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q48"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 9,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_c3a0e31de495e7b755c5/0b578bd2ce9fde9eccf4be99a84e5787d59123a3b9761cd305de9006b4a920ef/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "6239d424f28bae83b45e94652b791fc71f4b40c5731a91996ca0bcf121ba5c92",
+      "chunk_id": "ING_c3a0e31de495e7b755c5_CH_85aff53b13",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_4a080bf8dfac569dd5eb8816b32d34b437ca96c2bb9f64ebb8eac9c240b1abfe",
+      "claim_text": "Kaynaklar\nalternatif maliyet analizi çalışmalarının katılımcıların kişisel tecrübe ve deneyimleri ile yüklenici firmaların geçmiş proje verilerine dayalı olarak yapıldığı, bu nedenle de kapsamlı ve de detaylı olamadığı gerçeğine ışık tutmaktadır. Elde edilen verilerin alternatif maliyet analizi konusunda araştırma yapacak olan akademisyen ve özel sektör çalışanlarına ışık tutması amaçlanmıştır. Alternatif maliyet analizini etkileyen faktörleri inceleyen bir çalışmanın ön değerlendirme verilerini sunan bu çalışmadan elde edilen bulgular, alternatif maliyet analizi çalışmaları için geliştirilebilecek sistematik yaklaşımlara temel olarak kullanılabilir.\n\nKaynaklar\n\nhttp://www.prnewswire.com/news-releases/global-construction-market-worth-103-trillionin-2020-50-largest-most-influential-markets-292235961.html>\n\nNgowi, A. J., Pienaar, E., Talukhaba, A., ve Mbachu, J. (2005). The globalization of the construction industry-a review, Building and Environment, Vol. 40(2005), pp. 135-141.\n\nGier, D. M.(2007). What impact does using Building Information Modelling have on teaching estimating to construction management students?. http://ascpro0.ascweb.org/archives/cd/2008/ paper/CEUE179002008.pdf.\n\nBuckley,  B.  (2008).  More  BIM  benefits:  Building  Information  Modelling  offers  a  more efficient way to estimate jobs. Building Information, Vol. 58.\n\nHendrickson, C. (2000). Project Management for Construction: Fundamental Concepts for Owners, Engineers, Architects and Builders. 2. baskı, Prentice Hall, Pittsburg, USA.\n\nLarson, E. W. ve Gray, C. F. (2011). Project Management: the managerial process. 5. baskı, McGraw-Hill, Londra, Büyük Britanya\n\n< https://theconstructor.org/construction/construction-project-costs/7677/>.\n\nJackson, B. J. (2010). Construction Management Jumpstart. Wiley, Indianapolis, Indiana, USA.\n\nMurugan, G. (2011). Estimation and costing [PowerPoint slide]. Internet kaynağı: https:// www.slideshare.net/ganeshmrgn/estimation-and-costing\n\nAkintoye,  A.  (2000).  Analysis  of  factors  influencing  project  cost  estimating  practices, Journal of Construction Management and Economics, Vol. 18, pp. 77-89.\n\nMoore  D.  (2003).  Buildability,  Prefabrication,  Rationalisation  and  Passive  Buildings  in the UK, Association of Researchers in Construction Management, 12th Annual Conference and Annual General Meeting, Conference Proceedings, Sheffield Hallam University, 1, pp. 93-100.\n\nSkitmore, M. ve Wilcock, J. (1994). Estimating processes of smaller builders. Construction Management and Economics, 12,139-54.\n\nHwang, S. (2009). Dynamic regression models for prediction of construction costs. Journal of Construction Engineering and  Management. ASCE, 135(5), 360-367.\n\nKim, H. and Reinschmidt, K. (2010). Effects of contractors' risk attitude on competition in construction. Journal of Construction Eng. and Management ASCE, 137(4), 275-283.\n\nTaylor,  T.  (1977)  How  certain  are  you  about  the  uncertainty  of  your  estimates  AACE Bulletin. June 1977.\n\nSkitmore,  R.M.  (1985)  The  influence  of  professional  expertise  in  construction  price forecasts, University of Salford. British cataloging library publishing.\n\nUlubeyli,  J.,  ve  Kazaz, A.  (2009). A  multiple  criteria  desicion-making  approach  to  the selection of concrete pumps. Journal of Civil Engineering and Management, 15(4), 369-376.\n\nIrizarry, J., ve Karan, E. P. (2012). Optimizing location of tower cranes on construction sites through GIS and BIM integration. Journal of Information Technology in Construction, 17, 351-366.\n\nUğur, L. O. (2007). TBM Üyesi İnşaat Firmalarının Planlama, Yapı Maliyeti Hesaplama ve Risk Yönetimi Yaklaşımları. TBM.\n\nWaly, A. F., ve Thabet, W. Y. (2003). A virtual construction environment for preconstruction planning. Automation in Construction, 12(2), 139-154.\n\nFrankson, L. (2016). Positive outlook for global construction industry. Infrastructure News.\n\nCigla,  M., Yagiz,  S.,  ve  Ozdemir,  L.  (2001). Application  of  tunnel  boring  machines  in underground  mine  development.  17.  Uluslararası  Madencilik  Kongresi  ve  Sergisi,  Ankara, Türkiye, 19-22 Haziran.",
+      "conditions": [],
+      "document_id": "ING_c3a0e31de495e7b755c5",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_c3a0e31de495e7b755c5:ING_c3a0e31de495e7b755c5_CH_85aff53b13:pages=11-12;canonical=corpus/canonical/objects/ING_c3a0e31de495e7b755c5/0b578bd2ce9fde9eccf4be99a84e5787d59123a3b9761cd305de9006b4a920ef/chunks/embedding_ready.jsonl#L9",
+      "page_end": 12,
+      "page_start": 11,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q41": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "6.2",
+        "6.1"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "6.1.3",
+      "supporting_question_ids": [
+        "5.5.2.1-Q41"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 5,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1c34185c0c034c6f73f6/e4c97c5fcb0484c0719589e82c85f1a1f8d7458621d6f16cc1a31cc59d64d2fd/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "f276c11d76c1ec0db97baa84fa6c5a83dc9ff55169605b55f2a993aec479af52",
+      "chunk_id": "ING_1c34185c0c034c6f73f6_CH_4dd509c368",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_53e3209c3f4b6c28c22f80b406314bc3d51761cf3a6d3f131f9eb59808989e7c",
+      "claim_text": "3. Risk-based life cycle cost (LCC) model\nwas estimated based on the reporting times for corrective maintenance stated in the work orders. The labour and material costs considered were those reported for each work order for corrective maintenance. Failure cost data were forecasted for 20 and 30 years using a MOGA based on the ARIMA model (Al-Douri, Hamodi, and Lundberg 2018). Table 1. Sample of generated operating cost (OC) data (Al-Chalabi 2018).\n\n3. Risk-based life cycle cost (LCC) model\n\nIn the present study, it was tested and validated the failure data, testing them for trends using the Laplace trend test and for serial correlation (Ansell & Phillips, 1994). When these tests are used, depending on the results, the classical statistical techniques for reliability modelling may be an appropriate approach (Ascher 2008; Ghosh and Majumdar 2011; Modarres 2016). The Kolmogorov - Smirnov (K-S) test is traditionally used for the selection and validation of probability distribution models (Louit, Pascual, and Jardine 2009). For the reliability modelling of repairable systems, the basic methodology involves analysing the failure data and identifying the failure data with signi fi cant consequences. The TTF data are tested concerning the assumption that they are independent and identically distributed (iid). If the assumption that the data are iid is not valid, then classical statistical techniques for reliability analysis may not be appropriate. Therefore, a nonstationary model such as the non-homogeneous Poisson process (NHPP) must be fi tted. The proportionality constant of the NHPP is assumed to be uncertain due to the lack of knowledge about the true expected number of defects initiation (Barabady and Kumar 2008; Kuniewski, van der Weide, and van Noortwijk 2009).\n\nSince maintenance cost limitations invariably exist, risk assessment needs to be integrated in the LCC to create a useful and complementary decision making tool (Stewart 2001). Risk assessment clearly de fi nes the reliability and provides a measure of the cost-e ff ectiveness, since reliability is the probability of failures that will necessitate maintenance. The initial stage of risk assessment is to estimate the reliability through fi tting the proper distribution. Note that reliability is not simply the probability of failure. The risk of failure or damage entails direct repair and maintenance costs. The risk of disruption of functional use is very real and, therefore, one must aim to eliminate this risk as much as is practicable, but the risk of failure also causes problems and these problems entail costs. However, a more meaningful risk assessment measure is the expected cost of failure, de fi ned in Equation (1) (Furuta et al. 2004; Stewart 2001).\n\nwhere Ect is the expected risk cost over t monthly time scale 0 ; . . . ; t f g , Rfi is the failure monthly rate, which is the rate of the interval times of two regular repairable failures. Cfi is the failure cost (labour and material cost) associated with the occurrence of each limit over the number of failures M . The risk costs were forecasted using a GA based on the ARIMA model for 20 years. The failure rate was increased manually stepwise by 1% to be in total a value ranging from 1% to 250% risk to study the variation of the risk percentage and the association with the LCC. The stepwise by 1% is modifying the original failure rate values through multiplying with the required risk percentage over the original risk percentage then multiple the result failure rate with the cost. Then, the risk cost integrated in the optimization model was used to fi nd the minimum cost against the system bene fi ts.\n\nSince the optimal value of the costs is required to obtain the optimal replacement time ( ORT ), the following optimization model was developed to fi nd the replacement time (RT) that minimizes the total cost value ( TCvalue ), as shown in the Equations below. The term ' total cost value ' is de fi ned as the summation of the fan ' s purchase price (PP), operating cost (OC), maintenance cost (MC) and resale value St over a long period, with replacements occurring at intervals of n periods (Al-Chalabi et al. 2014; Eschenbach 2003).\n\nwhere the following notation is used:\n\nMC : maintenance cost (cu)\n\nCM : corrective maintenance cost (cu)\n\nPM : preventive maintenance cost (cu)\n\nSPc : material cost for corrective maintenance (cu)\n\nLCc : labour cost for corrective maintenance (cu)\n\nSPp : material cost for preventive maintenance (cu)\n\nLCp : labour cost for preventive maintenance (cu)\n\nSt : resale value (cu)\n\nBV1 : booking value on fi rst day of operation (cu)\n\nDr : depreciation rate\n\nt : fan ' s lifetime (months).\n\nThe depreciation rate, which allows for full depreciation by the end of the planned lifetime of the fan, is modelled by Equation (6) (Al-Chalabi et al. 2014; Luderer, Nollau, and Vetters 2009).",
+      "conditions": [],
+      "document_id": "ING_1c34185c0c034c6f73f6",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1c34185c0c034c6f73f6:ING_1c34185c0c034c6f73f6_CH_4dd509c368:pages=5-6;canonical=corpus/canonical/objects/ING_1c34185c0c034c6f73f6/e4c97c5fcb0484c0719589e82c85f1a1f8d7458621d6f16cc1a31cc59d64d2fd/chunks/embedding_ready.jsonl#L5",
+      "page_end": 6,
+      "page_start": 5,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q38": "SUPPORTED",
+        "5.5.2.1-Q46": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5",
+        "5.7.1"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q38",
+        "5.5.2.1-Q46"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 71,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_43bc7c7729c6e993a390/9020e5cfe6c92bf03d6efe2c2e1157d30725d06dece03d1d95e2a1e08a7323b5/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "d30d601af98a7bfc3d9ddc023b2ce28ab5b394a669fcb8288abb2665615862fa",
+      "chunk_id": "ING_43bc7c7729c6e993a390_CH_bb44d01b9d",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_58dda6eaba26f040b67ca59542b2e84faf6fe77b43b755cfce60a63e489027d2",
+      "claim_text": "4.5 Presentation phase\nNon-Monetary Criteria\nSchedule\nA\nConstructability\nA1\nB\nMinimizing Risk\nCl\nC2\nC\nDurability\nD1\nBl\nC2\nD\nEase of Maintenance\nE1\nE2\nCl\nD2\nE\nF\nC\nV=F/C\nWeight\n1\n1\n6\n3\n3\nFunction Points\nCost\nValue Index\nAlternatives %\n7\n7\n43\n21\n21\n3\n3\n3\n2\n2\nOriginal\n21.43\n21.43\n128.57\n42.86\n42.86\n257.14\n329,957\n779.32\n4\n5\n4\n4\n5\nAlternative “2”\n28.57\n35.71\n171.43\n85.71\n107.14\n428.57\n527,931\n811.79\nRates : (5) Excellent, (4) Very Good, (3) Good, (2) Fair, (1) Poor\nFIGURE 11\nWEM for Structural Section four.\nYapısal bir kesit için parasal olmayan kriterlerin ağırlıklı puanlamayla iki alternatifin karşılaştırıldığı bir değerlendirme tablosu.",
+      "conditions": [],
+      "document_id": "ING_43bc7c7729c6e993a390",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_43bc7c7729c6e993a390:ING_43bc7c7729c6e993a390_CH_bb44d01b9d:pages=19;canonical=corpus/canonical/objects/ING_43bc7c7729c6e993a390/9020e5cfe6c92bf03d6efe2c2e1157d30725d06dece03d1d95e2a1e08a7323b5/chunks/embedding_ready.jsonl#L71",
+      "page_end": 19,
+      "page_start": 19,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q50": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.7",
+        "6.1"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q50"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 30,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "ed406acdeffb3dbd76462e21287f413ff8966c2d49a48cee442906a0d3c3de8d",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_9314d298d1",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_5b1b38fe08ed828831b4b675c7a402bd8bd9f7357a6725cacd69ee9ca8194934",
+      "claim_text": "3.5.3.2 Dışsal Maliyetler\n2 € olmaktadır. Tren setlerinin bakım maliyetini ise 2,83 $/km, enerji tüketimini 10,5 kwh/km ile 20 kwh/km arasında değişen değerler aldığı belirlenmiştir.  Elden çıkarma maliyeti: Hizmet dışı bırakma ya da elden çıkarma maliyeti; sistem/ürünün yaşam döngüsü boyunca tamir edilemeyen parçalarının elden çıkarılması, sistem/ürünün hizmet dışı bırakılması sonucu bu malzemelerin veya parçaların bertarafı veya arıtımı için oluşan ilgili maliyetlerdir.\n\n3.5.3.2 Dışsal Maliyetler\n\nDışsallık, ekonomik birimler arasında bedeli ödenmemiş karşılıklı bağıntılardır. Bir başka açıdan dışsallık, ekonomik birimlerin davranışlarının tüm sonuçlarına  katlanmadıklarında  ve  faaliyetlerinin  başkaları  üzerindeki  etkilerini hesaba katmadıkları zaman  ortaya çıkar. Bireylerin istek ve ihtiyaçlarının yelpazesinin genişlemesi ve üretim sektörünün alanının gelişmesi, tüketim sürecinin sonunda çevresel sorunlar yaratarak dışsallıkların ortaya çıkmasına yol açmaktadır. Çevresel maliyetlerin artması negatif dışsallıkları yaratmakta; çevrenin  şimdi  ve  gelecekte  'kıt  kaynak'  olduğunun  ve  olacağının  farkına varılması  ise  önlemlerin  alınmasını  gerekli  kılmaktadır.  Bir  üreticinin  meydana getirdiği ürünler sadece kendi kullandığı girdilere bağlı olmayıp, diğer üreticilerin faaliyetlerine  de  bağlı  olabilir  ki,  işte  'dışsal  zarar'  böyle  bir  durumda  ortaya çıkar.  Bir  başka  deyişle,  dışsal  zarar  bir  üreticinin  karşılığında  bir  şey  almadan veya  vermeden  diğer  bir  üreticiye  sağlamış  olduğu  fayda  ve  zarardır.  Örneğin, kamyonların  veya  tren  araçlarının  yol  güzergahında  yaşayan  insanları  etkileyen hava  kirliliği  ve  gürültü  yaratmasında  olduğu  gibi  bir  ulaşım  kullanıcısı  hiçbir maliyete  katlanmadan  diğer  bir  grubun  refahını  etkiliyorsa  dışsal  maliyet  söz konusudur. (Nalçakan ve ark., 2012).\n\nUlaşım  seçeneklerinin  dışsallıkları  birbirinden  oldukça  farklı  biçimlerde oluşabilmektedir. Ancak genel olarak bu tür dışsallıkları oluşumları bakımından, üç temel şekilde incelemek mümkündür.\n\nBirinci düzeyde meydana gelen dışsallıklar, ulaşım hizmetlerinin üretilmesi ve tüketilmesi sırasında meydana gelen çevresel kirleticilerin (küresel ısınma ve iklim değişikliği; CO2,  SO2,  toksisite; ağır metaller,  PAH  v.d. emisyonların) oluşturduğu maliyetlerdir.\n\nİkinci düzeydeki ulaşım dışsallıkları olarak, ulaşım hizmetlerinde meydana gelen kaza vb. olayların oluşturduğu maliyetlerdir.\n\nÜçüncü  düzeydeki  ulaşım  dışsallıkları, ulaşım hizmetinin yoğun  bir şekilde  gerçekleştirilmesiyle,  altyapısının  yetersiz  kalmasından  dolayı  meydana gelen trafik tıkanıklığı denilen dışsal maliyettir.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_9314d298d1:pages=68-69;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L30",
+      "page_end": 69,
+      "page_start": 68,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q06": "PARTIAL",
+        "5.5.2.1-Q10": "PARTIAL",
+        "5.5.2.1-Q16": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q06",
+        "5.5.2.1-Q10",
+        "5.5.2.1-Q16"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 141,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "6ddc18ad540217c1593dfe1e69d12e31c0014f586786379066b0b4698e68d5bf",
+      "chunk_id": "ING_1fb6b71a35f819248daf_CH_3e85fad643",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_6059b6f11a2880c827b9123671f72f84e17e52c196c59eb0d45631c2d0ffb54e",
+      "claim_text": "TEŞEKKÜR > 3000 METREDEN UZUN TÜNELLER > 244 BAKIM YÖNETİM SİSTEMİ\nSistemin tümünü ya da bir kısmını yenilemek aşırı maliyetli olabilir. Bu sebeple ihtiyatlı bir yenileme planı yapmak gerekmektedir. Bu planlarda tahminler mümkün olduğunca net olmalıdır. Farklı ekipmanların kullanım ömrünü bilmeden yenileme planı yapmak mümkün değildir. Tünel içinde ve dışında farklı üreticilerin ürettiği çok sayıda cihaz mevcuttur. Birkaç yılda teknolojik değişimler nedeniyle havalandırma, güç sağlayıcı sistemleri, kamera sistemleri v.b. teknolojileri değişebilmektedir. Bu sebeple gelişen teknolojilerin yakından takip edilmesi gerekmektedir.\n\n244 BAKIM YÖNETİM SİSTEMİ\n\nTünel İşletme Yöneticisi koruyucu ve düzeltici bakım faaliyetleri için uygun bakım programlarını hazırlamalıdır. Bu programlar hazırlanırken akıldan çıkarılmaması gereken maliyet ve güvenlikte dengeyi kurmaktır. Her bir ekipmanın ortalama kullanım ömrü, yıllık maliyeti, ilk yatırım maliyeti, beklenen bakım giderleri, servis giderleri, trafik maliyetleri ve ilgili müdahale maliyetleri istatistiki olarak tutulmalıdır. Maliyetler düşünülerek gerekirse alternatif bakım programları hazırlanmalıdır.\n\nPersoneller özellikle planlanmamış müdahaleler gerektiren durumların yüksek potansiyeli olduğunu bilerek zaman, personel ve malzeme eksikliği gibi sorunlar yaşamamak için önceden önlemini almalıdır. Çünkü ekipman eksikliği ve oluşacak herhangi bir aksaklık tüm sistemi etkileyebilir ve müdahale süresine bağlı olarak onarımı uzun sürebilir.\n\nBakım yönetiminin kapsamı;\n\nS\n\nÇalışma ve müdahalelerin planlanması,\n\nS\n\nGöstergelerin takibi,\n\nS\n\nMasrafların yönetimi,\n\nS\n\nGeçici bütçe düzenlenmesi,\n\nS\n\nAlt yüklenicinin yönetilmesi,\n\nS\n\nBakım personellerinin eğitimi ve yönetilmesi olarak sayılabilir.\n\nKoruyucu ve düzeltici bakım faaliyetleri için hazırlanan programlarda aşağıdaki hususlara dikkat etmek gerekir;\n\nS\n\nMüdahale süresi belirlenmeli,\n\nS\n\nGerekli personel sayısı belirlenmeli,\n\nS\n\nDışarıdan gerekecek personel sayısı belirlenmeli (alt yüklenici, polis, itfaiye personelleri v.b.)\n\nS\n\nErişim planı yapılmalı,\n\nS\n\nMuayene için talimatlar hazır olmalı,\n\nS\n\nÖnlem amaçlı trafik levhaları hazır olmalı, tüm trafik düzeni düşünülmeli (Bakımlarda tüm güzergâhın bakımını tek seferde yapmak önemlidir.),\n\nS Anemometre, luminansmetre, lüksmetre, voltmetre v.b. ölçüm cihazları hazır olmalı,\n\nS Pick-up, sepetli vinç, vakumlu süpürge v.b. araçla müdahale gerektirecek sistemler\n\niçin bu araçlar hazır tutulmalı,\n\nS Çizimler, diyagramlar, performanslar v.b. hazırlanmalı, formlara işlenmeli, önceki sonuçlarla karşılaştırılmalı ve bir sonraki müdahale planları yapılmalıdır.",
+      "conditions": [],
+      "document_id": "ING_1fb6b71a35f819248daf",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_3e85fad643:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L141",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q35": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "5",
+        "5.4"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4.2",
+      "supporting_question_ids": [
+        "5.5.2.1-Q35"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 9,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_d2978a67c2f781234eb5/96b398db25dd6ce579f4dde0e3bcd0f6335f12d16f3070e5a9b4576afdd78802/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "d2a08c7cffcc4bf2f3993d1d8aed8e6b989e5606272e77e7975005a6792123d7",
+      "chunk_id": "ING_d2978a67c2f781234eb5_CH_457434e1f5",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_62fd1331e717e2607ef4f5c0871a248d3ab870063c28959855fcd21c17ee309d",
+      "claim_text": "2)大 規模対策(Xi≧3.0D)\n件費などを含む. 図-鯛1.0kmあ た りの湧水量頻度分布 表-6湧 水対策シナリオ12) 表-7補 助対策シナ リオ13)(対 策シナ リオ) 表-6に 示 した湧水対策シナ リオの閾値 を勘案す ると, 湧水対策が必要 となる亀裂は,坑 道に交差する全亀 裂の内9%程 度(頻 度の割合0.8/8.9=0.09)で ある ことが分かる. 次 に,補 助対策費に関しては,湧 水対策費の算定 と同様に,当 プ ロジェク トに関わる専 門家への ヒア リング,文 献調査から表-7お よび図-12に 示すよ うな対策シナリオと対策コス トを設定した14).\n\n1)小 規模対策(10D<Xi<3.0D)\n\n2)大 規模対策(Xi≧3.0D)\n\n図-12補 助対策工\n\n最後に,原 位 置で観察 された亀裂情報を用いて作 成 した亀裂ネッ トワー クモデル を用いて,不 良地山 支保 ・掘削費C(4)の 算定に必要 となる支保パターンの 累積距離を算定する.不 良地山の判定は,大 規模亀 裂の破砕幅に起因する.大 規模亀裂は,亀 裂長 さが 1. 0km以 上の亀裂 と定義 した.こ れ は,式(7)に よ り, 亀裂長さが1.0km以 上の亀裂は,破 砕幅が約2.6m以 上 となり,表-7に 示すように,雪破砕幅が トンネルの 直径を超 え,対 策工が必ず必要な亀裂であることを 考慮に入れて設定した.前 述のように,こ の支保パ ターンの累積距離は,離 散的な確率量となるが,そ の平均値は延長1.0kmに 対 して8.0mと 極 めて微小な 値 となった.こ の結果より,(1)に 示 した地盤統計 学手法により得 られた支保パターンと合わせて,平 均値 としての支保パターンの比率は,A〜B級89.2%, CH級8.0%,CM級2.0%,D級0.8%と なり,不 良地 山の出現による,(1)の 支保 ・掘削費C(1)の 変動に及ぼ す影響は小さくなるものと推定される.\n\n4.建 設 コス ト変動 リスク\n\n3章 に示した解析結果に基づき,坑 道延長1km当 りの建設コス トを構成する,以 下に示す各費用を算 定する.\n\n(1)支 保 ・掘削費C(1)\n\n(2)湧 水対策費C(2)\n\n(3)補 助対策費C(3)\n\n(4)不 良地山支保 ・掘削費C(4)\n\nその結果 として得 られ る,上 記 の各費用 に対す る リスクカーブを図-13〜 図-16に 示す.\n\nまず,図-13に 示す支保 ・掘削費C(1)の リスクカ ーブにおけるコス ト変動量は極めて微小である.こ の特性は,当 該サイ トでの地盤統計学に基づく弾性 波速度分布の推定結果で,弾 性波速度が3.7km/s以 上 の領域が90%程 度 となってい るこ とに加 えて,確 率 量 となる不良地 山支保 ・ 掘削費C(4)の 算定に必要 とな る支保パターンの累積距離が極めて小 さいことによ るものである.\n\n次に\"図-14〜 図-15に 示す湧水対策費C(2)お よ び補助対策費C(3)の リスクカーブでは,原 位置デー タ よ り推 定 した亀裂特性 の不確実性が大きいため,そ の亀裂特性を用いた亀裂ネ ットワークモデル手法に 基づき算定されたコス ト変動も比較的大きな値 とな る.す なわち,支 保 ・掘削費C(1)の コス ト変動幅が数 百万円のオーダーであるのに対 して,湧 水対策費C(2) お よび補助対策費C(3)の リス クカープ での コス ト変動 幅 は5〜7千 万円程度 と1桁 大 きな値 となっている.\n\nまた,図-16に 示す不良地山支保 ・掘削費C(4)の リスクカーブでは,前 述のように支保パターンの増 強を必要 とす る不良地 山の出現す る確率 が比較的小 さいため,リ ス クカーブで のコス ト変動幅 は,最 大 で15百 万円程度となっている。\n\n以上のC(1)〜C(4)の 各費用に対す る リスクカーブに お けるコス ト変動幅の関係 は,図-17に 示すように, 支保 ・掘削費C(1)に,そ の他 のC(2)〜C(4)の リスクカー ブを順次重ね合わせることによってより明 らかとな る.な お\"図-17に 示す関係において,C(1)〜C(4)の 各費用に対するリスクカーブをすべて重ね合せたも のが,言 うまでもなく延長1.0km当 りの建設 コス ト に対するリスクカーブとなる.\n\n次 に,C(1)〜C(4)の 各費用に対するリスクカーブの\n\nト\n\n図-16不 良地山支保 ・掘削費のリスクカーブ\n\n内,コ ス ト変動の小 さなC(1)を 除く各費用に対 して, リス ク評価指標 となるVaR(前 述のように図-3(b)\n\n図-17各 費用のリスクカーブ重ね合わせ\n\nにおいて超過確率5%と 設定)を 算定した結果を図18に 示す.同 図に示すように,湧 水対策費C(2),補 助対策費C(3)お よび不良地山支保 ・ 掘削費C(4)のVaR は,そ れぞれ3.1千 万円程度,3.5千 万円程度,0.9千 万円程度 とな る.こ こで,図-13に 示す支保 ・掘削 費C(1)の リスクカーブでのコス ト変動幅が数百万円の オーダーであることから,概 算としてこれを0と 仮 定すると,C(2)〜C(4)の 費用に対す るVaRの 和である 75千 万円が,こ の処分坑道を1km掘 削する上での, 破砕帯あるいは突発湧水等の不良地山の出現に対す るコス ト変動 リス クの代表値 にな るもの と解釈 され る.こ のコス ト変動量は,図-13に 示す支保 ・掘削 費C(1)のVaRが27.3千 万円程度であることを考慮す る と,概 算 の 掘 削 費 用 に 対 し て,27% (7.5/27.3=0.27)に 相 当す ることになる.す なわち,\n\nこのコス ト変動 リスクは,現 状の原位置調査結果に 含 まれ る不連続 面に関す る情報 の不確実性 に起因す るものと解釈 される.言 い換えれば,本 研究におい て提案する手法は,原 位置調査結果に含まれる不確 実性の度合いを,建 設コス ト変動 リスクと言 うコス ト次元で表現するものである.し たがって,例 えば 今後原位置での追加調査を実施 した場合には,そ の 追加調査が情報の不確実性を低減する度合いについ て,コ ス ト次元 で定量的に評価することが可能にな るものと推察される.さ らに,建 設 コス ト変動 リス クの大きさと地盤調査に必要 となった費用の関係か ら,地 盤調査の費用対効果に関する有益な情報の提 示が可能になるものと推察される.\n\n図-18各 費用に対するVaR算 定結果の比較",
+      "conditions": [],
+      "document_id": "ING_d2978a67c2f781234eb5",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_d2978a67c2f781234eb5:ING_d2978a67c2f781234eb5_CH_457434e1f5:pages=11-13;canonical=corpus/canonical/objects/ING_d2978a67c2f781234eb5/96b398db25dd6ce579f4dde0e3bcd0f6335f12d16f3070e5a9b4576afdd78802/chunks/embedding_ready.jsonl#L9",
+      "page_end": 13,
+      "page_start": 11,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q37": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "6.1.3",
+        "2.3"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "6.2.2",
+      "supporting_question_ids": [
+        "5.5.2.1-Q37"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 143,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "b9ba2fdbfc97b4a83dddb22996854078b03280f83cfe3f47786846a8e9a8a062",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_9e177595b8",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_6d554fb92ac554a22c9be3c2dbf9162f066975500f66c745997bbfe1c0c7810b",
+      "claim_text": "5.2. BAKIM YÖNETİM SİSTEMİ\nya da bir kısmını yenilemek aşırı maliyetli olabilir. Bu sebep le ihtiyatlı bir yenileme planı yapmak gerekmektedir. Bu planlarda tahminler mümkün olduğunca net olmalıdır. Farklı ekipmanların kullanım ömrünü bilmeden yenileme planı yapmak mümkün değildir. Tünel içinde ve dışında farklı üreticilerin ürettiği çok sayıd a cihaz mevcuttur. Birkaç yılda teknolojik değişimler nedeniyle havalandırma, güç sağlayıcı sistemleri, kamera sistemleri v.b. teknolojileri değişebilmektedir. Bu sebeple gelişen teknolojilerin yakından takip edilmesi gerekmektedir.\n\n5.2. BAKIM YÖNETİM SİSTEMİ\n\nTünel  İşletme  Yöneticisi  koruyucu  ve  düzeltici  bakım  faaliyetleri  için  uygun  bakım programlarını  hazırlamalıdır.  Bu  programlar  hazırlanırken  akıldan  çıkarılmaması  gereken maliyet ve güvenlikte dengeyi kurmaktır. Her bir ekipmanın ortalama kullanım ömrü, yıllık maliyeti, ilk yatırım maliyeti, beklenen bakım giderleri, servis giderleri, trafik maliyetleri ve ilgili  müdahale  maliyetleri  istatistiki  olarak  tutulmalıdır.  Maliyetler  düşünülerek  gerekirse alternatif bakım programları hazırlanmalıdır.\n\nPerso neller özellikle planlanmamış müdahaleler gerektiren durumların yüksek potansiyeli olduğunu bilerek zaman, personel ve malzeme eksikliği gibi sorunlar yaşamamak için önceden önlemini almalıdır. Çünkü ekipman eksikliği ve oluşacak herhangi bir aksaklık tüm sistemi etkileyebilir ve müdahale süresine bağlı olarak onarımı uzun sürebilir.\n\nBakım yönetiminin kapsamı;\n\n Çalışma ve müdahalelerin planlanması,\n\n Göstergelerin takibi,\n\n Masrafların yönetimi,\n\n Geçici bütçe düzenlenmesi,\n\n Alt yüklenicinin yönetilmesi,\n\n Bakım personellerinin eğitimi ve yönetilmesi olarak sayılabilir.\n\nKoruyucu  ve  düzeltici  bakım  faaliyetleri  için  hazırlanan  programlarda  aşağıdaki hususlara dikkat etmek gerekir;\n\n Müdahale süresi belirlenmeli,\n\n Gerekli personel sayısı belirlenmeli,\n\n Dışarıdan  gerekecek  personel  sayısı  belirlenmeli  (alt  yüklenici,  polis,  itfaiye personelleri v.b.)\n\n Erişim planı yapılmalı,\n\n Muayene için talimatlar hazır olmalı,\n\n Önlem  amaçlı  trafik levhaları hazır olmalı, tüm  trafik düzeni düşünülmeli (Bakımlarda tüm güzergâhın ba kımını tek seferde yapmak önemlidir.),\n\n Anemometre,  luminansmetre,  lüksmetre,  voltmetre  v.b.  ölçüm  cihazları  hazır olmalı,\n\n Pick-up, sepetli vinç, vakumlu süpürge v.b. araçla müdahale gerektirecek sistemler için bu araçlar hazır tutulmalı,\n\n Çizimler,  diyagra mlar,  performanslar  v.b.  hazırlanmalı,  formlara  işlenmeli, önceki sonuçlarla karşılaştırılmalı ve bir sonraki müdahale planları yapılmalıdır.",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_9e177595b8:pages=339-340;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L143",
+      "page_end": 340,
+      "page_start": 339,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q35": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5.2.1-Q35"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 3,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_046493eef6fb4c973116/1ecabcbb2329f060e1ae23e92f3819572164c38f9eff37520924c669f79f3410/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "d3d65778c9b23a13c4fe1377c80d4c95a0e60388c7c50e871d1fda43c5babb69",
+      "chunk_id": "ING_046493eef6fb4c973116_CH_6acb7c066a",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_728a75719a82638e90cde0621a806eb7ccecb9bc75cde7e1d9f05e52479f22c4",
+      "claim_text": "3. LCCA OF TUNNEL\neffective solution. This phase is the key phase of savings since the cost required for any changes increases rapidly once the design has been chosen. During the project in service, LCC can be used to choose the repair alternate helping the decision maker to take decision such as whether to repair or replace. Finally, it can also be used to choose the optimal demolition strategy at the end of its life in cost perspective.\n\n3. LCCA OF TUNNEL\n\nLife cycle cost of tunnel include agency costs, user costs  and society  costs with further subdivisions as on Figure 2. Most of the costs occur at different times during the life cycle of the project. Comparing of past, present and future costs on a common basis is usually done with Net Present Value (NPV) method[1], which is based on the principal that having money at hand today more valuable than to have at future. NPV method transfer all future and present costs to today's value.\n\nInternational Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056\n\nVolume: 08 Issue: 07 | July 2021                 www.irjet.net                                                                      p-ISSN: 2395-0072\n\nFigure 2. Life Cycle Cost of Tunnel\n\nSince the inflation is hard to predict, it is excluded in LCC calculations for the projects of long term investments. The value of discount rate depends on the purpose of analysis. Lower the discount rate, larger the consideration of future costs and maximum usage by public authorities. Larger the discount rate, larger the risks on investment and future cost not considered  as  important.  Discount  rate  have  a  greater impact on LCC. LCC can be subdivided as shown in Figure 2. [1]\n\n3.1 AGENCY COST\n\nAgency costs [1] are direct expenses by the owner of  the  project  which  includes  design  cost,  investment cost, insurance, utilities, servicing, remedial action costs and end of life management costs. Calculating agency cost with NPV method requires time and cost of every maintenance activity.  Since  these  parameters  are  difficult  to  predict which is the greatest constraints for LCCA, assumptions are  made  for  operation  and  maintenance  cost  based  on historical data from actual bridge inspections and repairs. Agency costs may be subdivided as shown in Figure 3. The percentage divisions are based on European Telecommunication Standards Institute (ETSI) Standards.\n\nFigure 3. Agency Cost",
+      "conditions": [],
+      "document_id": "ING_046493eef6fb4c973116",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_046493eef6fb4c973116:ING_046493eef6fb4c973116_CH_6acb7c066a:pages=1-2;canonical=corpus/canonical/objects/ING_046493eef6fb4c973116/1ecabcbb2329f060e1ae23e92f3819572164c38f9eff37520924c669f79f3410/chunks/embedding_ready.jsonl#L3",
+      "page_end": 2,
+      "page_start": 1,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q32": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q32"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 32,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_24d838d56a803f516d12/a7cc9ba5d81fe5ba30b9db4eace038137b002982279c4ce41bc43d380a5b6967/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "66bbc3e504abb69aa595befe0714dcede7b691995c725beb591559d022c4eb86",
+      "chunk_id": "ING_24d838d56a803f516d12_CH_ac676f9b66",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_82ab3b970040bec448072aab2e1ce602c99da877cac5a8f4894f68daeea65a38",
+      "claim_text": "6 Repair and maintenance\nŞekil: Fig. 10 The degradation curve of a structure\nFig. 10 The degradation curve of a structure\nPerformance level\nEnvironmental load conditions better than design conditions\nbetter material, construction and maintenance management\nDesign level\nEnvironmental load conditions worse than design conditions\nworse material, construction and maintenance management\nEarly repair\nManagement level\nof early repair\nService time=Life time\nFinal level\nFirst life\nSecond life\nService time\nYapının performansının zaman içindeki bozunumunu gösteren bir grafik.",
+      "conditions": [],
+      "document_id": "ING_24d838d56a803f516d12",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_24d838d56a803f516d12:ING_24d838d56a803f516d12_CH_ac676f9b66:pages=10;canonical=corpus/canonical/objects/ING_24d838d56a803f516d12/a7cc9ba5d81fe5ba30b9db4eace038137b002982279c4ce41bc43d380a5b6967/chunks/embedding_ready.jsonl#L32",
+      "page_end": 10,
+      "page_start": 10,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q48": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.2",
+        "2.2.3"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "5.5.2.1-Q48"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 68,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_43bc7c7729c6e993a390/9020e5cfe6c92bf03d6efe2c2e1157d30725d06dece03d1d95e2a1e08a7323b5/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "d6571d5034f273213f2b8a3a1952f80df49bb88885b1f822cd07f23bffbce955",
+      "chunk_id": "ING_43bc7c7729c6e993a390_CH_8c60e05274",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_94d952795da4fbf0a5f97a5ba6c4382ed9007322d9ea6dcf94634262694bddc4",
+      "claim_text": "4.5 Presentation phase\nŞekil: FIGURE 8 WEM for structural works (Section One).\nFIGURE 8 WEM for structural works (Section One).\nNon-Monetary Criteria\nSchedule\nA\nConstructability\nA1\nB\nMinimizing Risk\nCl\nC2\nC\nDurability\nD1\nB1\nC2\nD\nEase of Maintenance\nEl\nE2\nIO\nD2\nE\nF\nC\nV=F/C\nWeight\n1\n1\n6\n3\nε\nFunction Points\nCost\nValue Index\nAlternatives %\n7\n7\n43\n21\n21\n4\n3\n5\n3\n4\nOriginal Design\n28.57\n21.43\n214.29\n64.29\n85.71\n414.29\n30,811,362\n134.46\n3\n3\nε\n3\nε\nOption \"A\"\n21.43\n21.43\n128.57\n64.29\n64.29\n300.00\n31,481,174\n95.30\nRates : (5) Excellent, (4) Very Good, (3) Good, (2) Fair, (1) Poor\nYapısal işlerdeki alternatiflerin çeşitli kriterlere göre puanlanarak fonksiyon, maliyet ve değer indeksleri üzerinden karşılaştırıldığı ağırlıklı öğe matrisi tablosu.",
+      "conditions": [],
+      "document_id": "ING_43bc7c7729c6e993a390",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_43bc7c7729c6e993a390:ING_43bc7c7729c6e993a390_CH_8c60e05274:pages=18;canonical=corpus/canonical/objects/ING_43bc7c7729c6e993a390/9020e5cfe6c92bf03d6efe2c2e1157d30725d06dece03d1d95e2a1e08a7323b5/chunks/embedding_ready.jsonl#L68",
+      "page_end": 18,
+      "page_start": 18,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q50": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.7",
+        "6.1"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q50"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 330,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "589670da199d252f9e0f7d174877af30224d899eeef6bb5dff3abccfff9c0932",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_5dee212b48",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_96404f147f64af389a60f5983b56dba95d5711d24c8aae5e8748a3a8b24c8bf8",
+      "claim_text": "5.5.3. SİSTEMLERİN KULLANIM ÖMÜRLERİ\nTablo: Şekil 121 . Avusturya Tünellerinde Yıllık Yenileme Maliyetleri (Çift tüp; 2,7 km)\nŞekil 121 . Avusturya Tünellerinde Yıllık Yenileme Maliyetleri (Çift tüp; 2,7 km)\n\n | Ortalama Kullanım Ömrü | Maliyetler (milyon US$) | Nisbi Maliyet Oranları (%) | Maliyet/yıl (US$)\n\nSCADA SİSTEMLERİ | 10,7 | 1,2 | 7,00% | 107.000,00\n\nAYDINLATMA | 11,1 | 2,0 | 13,00% | 177.000,00\n\nHAVALANDIRMA | 18,2 | 1,5 | 9,00% | 81.000,00\n\nİŞARETLEME | 14,1 | 1,9 | 12,00% | 135.000,00\n\nGÜVENLİK EKİPMANLARI | 14,8 | 3,6 | 23,00% | 241.000,00\n\nENERJİ SAĞLAMA | 20,1 | 2,7 | 17,00% | 134.000,00\n\nKABLOLAMA | 25,7 | 2,9 | 18,00% | 112.000,00\n\nTOPLAM MALİYETLER |  | 15,8 |  | 987.000,00",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_5dee212b48:pages=411;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L330",
+      "page_end": 411,
+      "page_start": 411,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q21": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5.2.1-Q21"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 69,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_43bc7c7729c6e993a390/9020e5cfe6c92bf03d6efe2c2e1157d30725d06dece03d1d95e2a1e08a7323b5/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "dc4a69ad8829e0d981b3f9c5689f844ff3a392d27355485e580517671e77c11b",
+      "chunk_id": "ING_43bc7c7729c6e993a390_CH_6fe42448ef",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_9672f6e9ad565aefaa63375747d1745b3a6362e1757c1422526f5bc6813b23ca",
+      "claim_text": "4.5 Presentation phase\nŞekil: FIGURE 9 WEM for structural section two.\nFIGURE 9 WEM for structural section two.\nNon-Monetary Criteria\nA\nSchedule\nA\nB.\nConstructability\nA1\nB\nC\nMinimizing Risk\nCl\nC2\nC\nD\nDurability\nD1\nB1\nC2\nD\nE.\nEase of Maintenance\nE1\nE2\nC1\nD2\nE\nF\nC\nV=F/C\nWeight\n1\n1\n6\n3\nε\nFunction Points\nCost\nValue Index\nAlternatives\n%\n7\n7\n43\n21\n21\n4\n4\n4\n4\n3\nOriginal Design\n28.57\n28.57\n171.43\n85.71\n64.29\n378.57\n29,830,791\n126.91\n4\n5\n3\n4\n4\nAlternative design\n28.57\n35.71\n128.57\n85.71\n85.71\n364.29\n30,622,387\n118.96\nRates : (5) Excellent, (4) Very Good, (3) Good, (2) Fair, (1) Poor\nYapısal bölüm iki için ağırlıklı değerlendirme matrisi (WEM) tablosu, hiyerarşik kriter ağırlıkları, alternatif puanları, fonksiyon puanları, maliyet ve değer endeksini karşılaştırmalı biçimde özetlemektedir.",
+      "conditions": [],
+      "document_id": "ING_43bc7c7729c6e993a390",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_43bc7c7729c6e993a390:ING_43bc7c7729c6e993a390_CH_6fe42448ef:pages=18;canonical=corpus/canonical/objects/ING_43bc7c7729c6e993a390/9020e5cfe6c92bf03d6efe2c2e1157d30725d06dece03d1d95e2a1e08a7323b5/chunks/embedding_ready.jsonl#L69",
+      "page_end": 18,
+      "page_start": 18,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q50": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.7",
+        "6.1"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q50"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 31,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "00d0853d873adf2188aa8fe24b7ffef7ea0f909360e00779609082223b6e4e3f",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_f6220f6d56",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_9ab5a4266c2a8a58a43f641db2d4d8c8c2b479369ae99abd2728f56c3f87e245",
+      "claim_text": "4. KONUYLA İLGİLİ YAPILAN ÇALIŞMALAR\ngelen dışsallıklar, ulaşım hizmetlerinin üretilmesi ve tüketilmesi sırasında meydana gelen çevresel kirleticilerin (küresel ısınma ve iklim değişikliği; CO2, SO2, toksisite; ağır metaller, PAH v.d. emisyonların) oluşturduğu maliyetlerdir. İkinci düzeydeki ulaşım dışsallıkları olarak, ulaşım hizmetlerinde meydana gelen kaza vb. olayların oluşturduğu maliyetlerdir. Üçüncü düzeydeki ulaşım dışsallıkları, ulaşım hizmetinin yoğun bir şekilde gerçekleştirilmesiyle, altyapısının yetersiz kalmasından dolayı meydana gelen trafik tıkanıklığı denilen dışsal maliyettir.\n\n4. KONUYLA İLGİLİ YAPILAN ÇALIŞMALAR\n\nYapılan detaylı literatür  taramasına  göre, demiryolu ulaşım sistemlerinde yaşam döngüsü analizinin kullanılması ile ilgili çalışmalar oldukça fazla olmakla birlikte,  demiryolu  sistemlerinde  yaşam  döngüsü  maliyeti  ile  ilgili  çalışmaları sınırlı sayıdadır. Literatürde, demiryolu sistemleri için LCA ve LCC yaklaşımının birlikte  yürütüldüğü  çalışmaların  bütün  bir  demiryolu  sistemini  ele  alamadığı, daha  çok  modüler  bir  yaklaşımda  değerlendirildiği  belirlenmiştir.  Ayrıca  ulusal ölçekte, demiryolu sistemlerinin çevresel etkilerinin ve ekonomik değerlendirmesinin  birlikte  araştırıldığı  ve  incelendiği  herhangi  bir  çalışmaya rastlanmadığı gibi, yaşam döngüsü analizi ve yaşam döngüsü maliyeti analizinin bütünsel bir şekilde uygulandığı bir çalışma da tespit edilememiştir.\n\n4.1. LCA ile İlgili Yapılan Çalışmalar\n\nJonasson ( 2003) tarafından yapılan çalışmada, tren araçlarının işletme ve bakım  onarım  aşamalarında  bütünsel  bir  yaklaşım  kazanabilmek  için  Yaşam Döngüsü Analizi (LCA) yöntemi kullanılmıştır. Tren araçlarının işletme aşamasında elektriğin kullanılmasının ve enerji kaybının, bakım onarım aşamasında  ise  deterjan  ve  nafta  gibi  kimyasal  madde  tüketiminin  çevresel etkilere neden olduğu belirlenmiştir. Yapılan çalışmada, demiryolu sistemlerinin; işletme,  bakım  onarım  ve  inşaat  (altyapı)  bileşenlerinin  farklı  seçeneklerinin çevresel açıdan araştırılmasının gerekliliği vurgulanmıştır.\n\nSwärd ( 2006) 'ın çalışmasında,  demiryolu  ulaşım  sistemlerinde  yüksek enerji  kullanılarak  üretilen  malzemelerin,  geri  dönüşüm  ve  yeniden  kullanımları sonrası  çevresel  performansın  nasıl  etkilendiği  yaşam  döngüsü  yaklaşımıyla belirlenmiştir. Yapılan çalışmada, öncelikle İsveç'te demiryolu ulaşımında hangi malzemelerin  geri  dönüştürülebileceği  ve  yeniden  kullanılabileceği  belirlenmiş, demiryolu malzemelerinin geri dönüşümü ve yeniden kullanımı ile ilgili mevcut durum, yeni teknoloji ve en iyi durum senaryoları olmak üzere üç farklı senaryo oluşturulmuş ve bu senaryoların yıllık ve km başına düşen enerji tüketimleri ayrı ayrı olarak hesaplanarak birbirleri ile karşılaştırılmıştır.\n\nFacanha ve Horvath ( 2007) çalışmalarında, Amerika Birleşik Devletleri'ndeki karayolu, demiryolu ve havayolu yük taşımacılığından kaynaklanan  CO2,  NOx,  PM10,  CO,  SO2  gibi  kirleticilerin  emisyon  faktörlerinin belirlenmesinde yaşam döngüsü analiz yöntemini kullanmıştır. Yapılan çalışmada, her  bir  ulaşım  türü  için  sadece  yakıtın  yanmasını  değil,  altyapı  (yapım,  onarım vb.),  ve  işletme  (araçların  üretilmesi,  bakım  onarımı  ve  bertarafı)  bileşenleri  ile birlikte yakıtın üretilmesi ve dağıtılması gibi aşamalar dikkate alınmıştır.\n\nFederici  ve  ark. ( 2008) yaptıkları  çalışmada,  kara  ulaşım  seçenekleri (karayolu, yüksek hızlı tren demiryolu ve konvansiyonel tren demiryolu) ile yolcu ve  yük  taşımacılığını  destekleyen  alt  sistemler  tarafından  oluşturulan  'İtalya Ulaşım  Altyapısı'nı  incelemişlerdir.  Ulaşım  altyapısı;  malzeme  akışı  analizi (MFA), şekillenmiş enerji analizi (EEA), ekserji analizi (EA) ve emergy analizi (EA)    olmak  üzere  4  farklı  değerlendirme  yöntemi  ile  değerlendirilmiştir.  Tüm analizlerde;  araçların,  demiryolu  ve  karayollarının,  bakım  onarım,  üretim  veya inşaat aşamalarında kullanılan malzeme ve enerjisi girdisi ile ilgili ortak bir veri tabanı kullanılmıştır. Yapılan çalışmada, ulaşım sistemlerindeki önemli faktörlerin belirlenmesinde sadece yakıt tüketimi, araçların maliyetleri ve enerji kullanımlarının  değil,  altyapı  bileşenlerinin  oluşturulması  için  gerekli  enerji  ve malzeme  maliyetlerinin  de  araştırılması  gerektiği  görülmüştür.  Yüksek  Hızlı Tren'de  düşük trafik yoğunluğu  güvenilir olmasına rağmen, yüksek enerji maliyetli malzeme kullanıldığı belirlenmiştir. Bunun sonucunda, yüksek hızlı tren ile  yolcu  ve  yük  taşımacılığı  için  gerekli  olan  enerji  ihtiyacının  sırasıyla  1.44 MJ/yolcu-km ve 3.09 MJ/t-km olduğu hesaplanmıştır.\n\nStripple  ve  Uppenberg ( 2010), tarafından yapılan çalışmada, İsveç Bothnia  Hattı  için,  tüm  altyapı  ve  hat  üzerindeki  bileşenlerin  işletim  ve  üretim envanterinin oluşturularak belgelendirilmesi, demiryolu altyapı ve taşıma sisteminin  çevresel  etkilerinin  sera  gazı,  asidifikasyon,  ötrofikasyon  açısından değerlendirilmesi, LCA  yöntemi ile gerçekleştirilmiştir. Yapılan çalışmada öncelikli olarak çalışmanın hedefi ve kapsamı ile birlikte sistem sınırları belirlenmiştir. Daha  sonra her bir altyapı ve taşıma sistemi bileşeni için fonksiyonel birimler tanımlanmıştır.  Bu tezdeki,  yaşam döngüsü  envanter (LCI) sisteminin oluşturulmasında bu çalışmadaki verilerden faydalanılmıştır.\n\nNetwork Rail ( 2010) , çalışmasında, İngiltere'de Londra kentinin kuzey ve batı  bölgeleri  için  mevcut  hatların  yetersiz  kalmasından  dolayı  kapasite  artışına gidilmesi  ve  yeni  yapılacak  olan  yüksek  hızlı  tren  hatlarının  işletime  başlaması sonucu  oluşacak  olan  durum  için  karbon  ayak  izi  hesaplanmış,  demiryolu sisteminin kendi içerisinde oluşturacağı alternatiflerinin çevresel açıdan değerlendirilmesi yapılmıştır.\n\nThiebault ( 2010) çalışmasında,  iki  farklı  demiryolu  köprüsü  tasarımının çevresel etkilerinin belirlenmesinde, yaşam döngüsü analiz yöntemini kullanmıştır. Çalışmanın sistem sınırlarının belirlenmesinde demiryolu köprülerinin inşaatından, işletimine kadar olan tüm aşamaları dikkate alınmıştır. Sonuç olarak yapılan çalışmada, balast kullanılarak oluşturulan demiryolu hattının çevresel  etkilerinin  balastsız  (sadece  beton  yatak)  demiryolu  hattına  göre  daha yüksek olduğu ifade edilmiştir. Köprülerde balastsız demiryolu hattının kullanılması durumunda oluşan çevresel etkilerin %77 oranında azaldığı belirlenmiştir. Çevresel etkilerin azaltılmasında kullanılan ham madde ve alternatif malzemelerin araştırılması gerektiği ifade edilmiştir.\n\nChester  ve  Horvath ( 2010) çalışmalarında,  Kaliforniya  yüksek  hızlı treninin  çevresel  etkilerini  yaşam  döngüsü  analizi  yöntemi  kullanarak  sayısal olarak ifade etmişlerdir. Yaptıkları çalışmada, Kaliforniya yüksek hızlı trenini ve diğer  alternatif  ulaşım  yöntemleri  için  farklı  doluluk  oranlarını  kabul  ederek oluşan çevresel etkiler belirlenmiştir. Özellikle, Kaliforniya yüksek hızlı treninin işletilmesi  için  gerekli  olan  elektriğin  üretilmesinden  kaynaklanan  asidifikasyon etkisinin  ve  SO2  seviyelerinin  ekosistemi  olumsuz  derecede  etkilediğini  ifade etmişlerdir.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_f6220f6d56:pages=70-72;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L31",
+      "page_end": 72,
+      "page_start": 70,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q16": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q16"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 331,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "056af71c161489cf94aa9a5852752f6fdbf9412d0f84bd493ba336dbc0f5aa65",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_87b067a420",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_a4e6e802c39840cead1a653f86c6ed0c937d2323f827327fc9502c1ecfd14ef6",
+      "claim_text": "5.5.3. SİSTEMLERİN KULLANIM ÖMÜRLERİ\nTablo: Şekil 122.USA Tünellerinde Yıllık Yenileme Maliyetleri (Çift Tüp; 3,2 km)\nŞekil 122.USA Tünellerinde Yıllık Yenileme Maliyetleri (Çift Tüp; 3,2 km)\n\n | Ortalama Kullanım Ömrü | Maliyetler (milyon US$) | Nisbi Maliyet Oranları (%) | Maliyet/yıl (US$)\n\nSCADA SİSTEMLERİ | 10,7 | 1,6 | 8,00% | 148.000,00\n\nAYDINLATMA | 11,1 | 3,7 | 19,00% | 330.000,00\n\nHAVALANDIRMA | 18,2 | 5,3 | 28,00% | 290.000,00\n\nİŞARETLEME | 14,1 | 2,6 | 14,00% | 187.000,00\n\nGÜVENLİK EKİPMANLARI | 14,8 | 2,1 | 11,00% | 139.000,00\n\nENERJİ SAĞLAMA | 20,1 | 4,4 | 23,00% | 218.000,00\n\nKABLOLAMA | 25,7 | 2,9 | 15,00% | 113.000,00\n\nTOPLAM MALİYETLER |  | 22,6 |  | 1.425.000,00",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_87b067a420:pages=411;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L331",
+      "page_end": 411,
+      "page_start": 411,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q21": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5.2.1-Q21"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 4,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_aa8140c07fce1b3482e4/7f383589eda776d1229717f3e244e9e59a1becfd5457f6289267443958d96243/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "e9bdbf494d2c63426e7f2d434fa521c0daea10ab26897d06ad3a657a60ca2014",
+      "chunk_id": "ING_aa8140c07fce1b3482e4_CH_683904393f",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_a9eda604e954cb84053ed35e0abb0a51187e31a645aa9914d8eb4261ec0e7da7",
+      "claim_text": "YapimBakimIsletmeMaliyet > İstatistikler\n​​​​​​​​​​​​​​​​​​​​​​​​​​​​Bakım-İşletme Maliyet Bilgileri\n\n​ ​ 2025​ Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri 2024 Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri 2023 Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri 2022​​ Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri 2021​ Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri 2020​ Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri 2019 Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri 2018 ​Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri 2017 Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri 2016 Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri 2015 Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri ​ 2014​ ​Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri 2013 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri ​ 2012 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri 2011 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri 2010 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri 2009 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri 2008 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri ​ 2007 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri 2006 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri 2005 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri 2004​ Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri ​​ Gerekli uygulamaları indirmek için tıklayınız. ​ |  | 2025​ Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri |  | 2024 Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri |  | 2023 Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri |  | 2022​​ Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri |  | 2021​ Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri |  | 2020​ Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri |  | 2019 Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri |  | 2018 ​Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri |  | 2017 Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri |  | 2016 Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri |  | 2015 Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri | ​ | 2014​ ​Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri |  | 2013 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri ​ |  | 2012 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri |  | 2011 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri |  | 2010 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri |  | 2009 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri |  | 2008 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri | ​ | 2007 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri |  | 2006 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri |  | 2005 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri |  | 2004​ Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri |  | Gerekli uygulamaları indirmek için tıklayınız.\n\n | 2025​ Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri\n\n | 2024 Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri\n\n | 2023 Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri\n\n | 2022​​ Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri\n\n | 2021​ Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri\n\n | 2020​ Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri\n\n | 2019 Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri\n\n | 2018 ​Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri\n\n | 2017 Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri\n\n | 2016 Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri\n\n | 2015 Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri\n\n​ | 2014​ ​Yılı Devlet ve İl Yolları Bakım - İşletme Maliyetleri\n\n | 2013 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri ​\n\n | 2012 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri\n\n | 2011 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri\n\n | 2010 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri\n\n | 2009 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri\n\n | 2008 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri\n\n​ | 2007 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri\n\n | 2006 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri\n\n | 2005 Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri\n\n | 2004​ Yılı Devlet ve İl Yolları Bakım-İşletme Maliyetleri\n\n | Gerekli uygulamaları indirmek için tıklayınız.",
+      "conditions": [],
+      "document_id": "ING_aa8140c07fce1b3482e4",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_aa8140c07fce1b3482e4:ING_aa8140c07fce1b3482e4_CH_683904393f:canonical=corpus/canonical/objects/ING_aa8140c07fce1b3482e4/7f383589eda776d1229717f3e244e9e59a1becfd5457f6289267443958d96243/chunks/embedding_ready.jsonl#L4",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q41": "PARTIAL",
+        "5.5.2.1-Q42": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.4",
+        "5.5"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q41",
+        "5.5.2.1-Q42"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 333,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "f20aff23653abcbd85edd1e7658a3b849094b3fb13bc12c52c6a6226523a3be5",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_e736370190",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_b00dfdcba44987a33a8014cbaa94ccce167836c7c641b8e475d69e697df7b6f6",
+      "claim_text": "5.5.4. ÜLKE MİZDE TÜNEL BAKIM ONARIM İŞLETME MALİYETLERİ ENVANTER BİLGİLERİ\nTablo: Tablo 50 . 2015 Yılı Tünel Bakım, Onarım, İşletme Maliyetleri\nTablo 50 . 2015 Yılı Tünel Bakım, Onarım, İşletme Maliyetleri\n\nTÜNEL BAKIM, ONARIM, İŞLETME ŞEFLİKLERİ | Tünel Adeti | Tünel Uzunluğu (km) | İdari Personel Giderleri (TL) | Hizmet Alımı Personel Giderleri (TL) | Hizmet Alımı Araç Giderleri (TL) | Telefon Faturası Ortalama Aylık Tutar(TL) | Elektrik Ortalama Aylık Tutar(TL) | İnternet (TL) | Akaryakıt Malzemeleri (TL) | Elektrik Malzemeleri (TL) | Diğer Malzeme Giderleri (Yedek Parça v.b.) (TL) | Emanet İşler Yıllık Gideri (TL) | Yıllık Toplam Harcamalar (TL) | Yıllık Birim Maliyeti (TL/km)\n\nZonguldak Tünel Bakım, Onarım, İşletme Şefliği | 37 | 12,311 | 181.200,00 ₺ | 1.424.825,76 ₺ | 406.476,48 ₺ | 659,00 ₺ | 1.920.911,00 ₺ | 852,00 ₺ | 160.410,00 ₺ | 78.591,00 ₺ | 32.400,00 ₺ | 118.590,00 ₺ | 4.324.915,24 ₺ | 351.304,95 ₺\n\nTrabzon Tünel Bakım, Onarım, İşletme Şefliği | 33 | 35,027 | 933.000,00 ₺ | 1.470.271,56 ₺ | 660.875,16 ₺ | 260,25 ₺ | 246.935,90 ₺ | 0,00 ₺ | 149.926,35 ₺ | 210.894,26 ₺ | 32.336,37 ₺ | 0,00 ₺ | 3.704.499,85 ₺ | 105.761,27 ₺\n\nArtvin Tünel Bakım, Onarım, İşletme Şefliği | 12 | 4,704 | 45.000,00 ₺ | 595.023,24 ₺ | 346.224,96 ₺ | 0,00 ₺ | 300.554,00 ₺ | 0,00 ₺ | 17.162,95 ₺ | 0,00 ₺ | 65.000,00 ₺ | 0,00 ₺ | 1.368.965,15 ₺ | 291.021,50 ₺\n\nBitlis Tünel Bakım, Onarım, İşletme Şefliği | 2 | 4,263 | 304.200,00 ₺ | 877.146,72 ₺ | 364.417,44 ₺ | 619,75 ₺ | 701.375,54 ₺ | 852,00 ₺ | 299.747,11 ₺ | 10.847,62 ₺ | 38.156,43 ₺ | 0,00 ₺ | 2.597.362,61 ₺ | 609.280,46 ₺\n\nAlanya Tünel Bakım, Onarım, İşletme Şefliği | 3 | 2,254 | 206.400,00 ₺ | 712.644,36 ₺ | 451.108,44 ₺ | 312,25 ₺ | 397.830,73 ₺ | 1.580,00 ₺ | 14.000,00 ₺ | 0,00 ₺ | 0,00 ₺ | 0,00 ₺ | 1.783.875,78 ₺ | 791.426,70 ₺\n\nKemer Tünel Bakım, Onarım, İşletme Şefliği | 6 | 4,694 | 220.800,00 ₺ | 712.644,36 ₺ | 319.290,60 ₺ | 1.042,25 ₺ | 688.000,08 ₺ | 1.580,00 ₺ | 63.000,00 ₺ | 0,00 ₺ | 122.106,00 ₺ | 0,00 ₺ | 2.128.463,29 ₺ | 453.443,39 ₺\n\nBilecik Tünel Bakım, Onarım, İşletme Şefliği | 3 | 7,1 | 115.200,00 ₺ | 783.152,76 ₺ | 387.250,32 ₺ | 0,00 ₺ | 503.202,28 ₺ | 0,00 ₺ | 86.143,58 ₺ | 0,00 ₺ | 212.950,00 ₺ | 0,00 ₺ | 2.087.898,94 ₺ | 294.070,27 ₺\n\nTOPLAM | 96 | 70,353 |  |  |  |  |  |  |  |  |  |  | 17.995.980,86 ₺ | 255.795,50 ₺",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_e736370190:pages=418;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L333",
+      "page_end": 418,
+      "page_start": 418,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q19": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5.2.1-Q19"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 85,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "b604e3fbd5dbf08577085c093de1ca585c89880bcc590e34a77e50e4afe37e2d",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_6378311b40",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_b4b89a9f712258731888dbacdfbb74a9b48da394d0bf56ad6ececd9d36a070f8",
+      "claim_text": "3.5.4. LCC Analiz Prosedürü\nTablo: Şekil 3.6. Maliyet dağılım yapısı\nŞekil 3.6. Maliyet dağılım yapısı\n\nİçsel Maliyetler.İşletme Maliyetleri Bakım Onarım Maliyetleri Üretim | Dışsal Maliyetler.Elden Çıkarma Maliyetleri\n\nMaliyetleri | Çevresel Maliyetler Diğer Maliyetler",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_6378311b40:pages=66;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L85",
+      "page_end": 66,
+      "page_start": 66,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q02": "PARTIAL",
+        "5.5.2.1-Q07": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q02",
+        "5.5.2.1-Q07"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 70,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_43bc7c7729c6e993a390/9020e5cfe6c92bf03d6efe2c2e1157d30725d06dece03d1d95e2a1e08a7323b5/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "40d2b135423d91e2021ca2f28702c0c2c6edf11a6fa97ce7726b07b4136abee1",
+      "chunk_id": "ING_43bc7c7729c6e993a390_CH_c9c9571172",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_b7064c0168d481d15cd4bb15f2f87e029e48cd79cf93506b1f1034200de3a1a3",
+      "claim_text": "4.5 Presentation phase\nNon-Monetary Criteria\nA\nSchedule\nA\n•\nB\nConstructability\nA1\nB\nC\nMinimizing Risk\nC1\nC2\nC\nD\nDurability\nD1\nB1\nC2\nD\nE\nEase of Maintenance\nE1\nE2\nCl\nD2\nE\nF\nC\nV=F/C\nWeight\n1\n1\n6\n3\n3\nFunction Points\nCost\nValue Index\nAlternatives %\n7\n7\n43\n21\n21\n3\n4\n3\n4\n5\nOriginal Design\n21.43\n28.57\n128.57\n85.71\n107.14\n371.43\n6,873,797\n54.04\n4\n4\n4\n4\n3\nAlternative design\n28.57\n28.57\n171.43\n85.71\n64.29\n378.57\n4,514,816\n83.85\nRates : (5) Excellent, (4) Very Good, (3) Good, (2) Fair, (1) Poor\nFIGURE 10\nWEM for structural section three.\nBu görsel, bir yapısal kesit için farklı tasarım alternatiflerinin çeşitli kriterlere göre puanlanıp maliyetleriyle karşılaştırılarak değer indeksi hesaplandığı ağırlıklı değer mühendisliği analiz tablosunu göstermektedir.",
+      "conditions": [],
+      "document_id": "ING_43bc7c7729c6e993a390",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_43bc7c7729c6e993a390:ING_43bc7c7729c6e993a390_CH_c9c9571172:pages=19;canonical=corpus/canonical/objects/ING_43bc7c7729c6e993a390/9020e5cfe6c92bf03d6efe2c2e1157d30725d06dece03d1d95e2a1e08a7323b5/chunks/embedding_ready.jsonl#L70",
+      "page_end": 19,
+      "page_start": 19,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q50": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.7",
+        "6.1"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q50"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 5,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_fcafb5c9434d660130bf/8378c8bce39e121332fd6810d0a8d9c73e2deeff50ccc75406a80a8df8d085ab/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "24d1178d64aa9bfedf410e8bc1315d6bfb5399070a36d9fe404cdabcbfbfd455",
+      "chunk_id": "ING_fcafb5c9434d660130bf_CH_a9d90e7276",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_bfc782e62abe9ed58e12941115b367d5e570968a56375f8fc1d726e12acb9dca",
+      "claim_text": "2.3 Renewal Maintenance Costs\n60 year cost. Based on our benchmarking of these cost rates we would expect costs to be within a range of ±30% of these estimates. These costs reflect a range of aspects and we would therefore assume that they would increase over time in line with the consumer price index. Table 1: Annual Estimated Operating and Routine Maintenance Costs (2012 prices) Note: Costs exclude VAT, although non-recoverable VAT is included\n\n2.3 Renewal Maintenance Costs\n\nRenewal maintenance relates to planned works to repair or replace the road infrastructure to keep it fit for use.  Annual maintenance costs will vary according to the lifetime of the individual components. The maintenance cycle will depend on detailed design decisions on the materials and components. We have, therefore, estimated annual average costs for the purposes of this study.\n\nFor a tunnel, items needing to be replaced on a planned basis include mechanical and electrical equipment and road surfacing.  Whereas for a major bridge, major items for replacement include bridge bearings, road deck joints, road surfacing and corrosion protection works.\n\nFor the major crossing structure adjacent link roads and the tunnel for Option C variant, we have drawn on benchmark evidence on major estuarial crossings (see Section 2.2.4). For the longer length of link roads required for Option C we have drawn on data made available from the Highways Agency's Trunk Road maintenance statistics to calculate costs outside the approach roads area.\n\nThe benchmark costs were interpreted, using linear interpolation based on the dimensions of the illustrative designs, to estimate costs for each of options assessed.\n\nTable 2 below shows the renewal maintenance costs estimates.\n\nBased on our benchmarking of these cost rates we would expect costs to be within a range of ±30% of these estimates.  These costs mainly reflect capital costs and we would therefore assume that they would increase over time in line with the construction cost prices.\n\nTable 2: Annual Average Maintenance Renewal Costs (2012 prices)\n\nNote: Costs exclude VAT on the basis that the works will be on existing highway land",
+      "conditions": [],
+      "document_id": "ING_fcafb5c9434d660130bf",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_fcafb5c9434d660130bf:ING_fcafb5c9434d660130bf_CH_a9d90e7276:pages=9-10;canonical=corpus/canonical/objects/ING_fcafb5c9434d660130bf/8378c8bce39e121332fd6810d0a8d9c73e2deeff50ccc75406a80a8df8d085ab/chunks/embedding_ready.jsonl#L5",
+      "page_end": 10,
+      "page_start": 9,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q08": "PARTIAL",
+        "5.5.2.1-Q28": "PARTIAL",
+        "5.5.2.1-Q35": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "5.6",
+        "5.5"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q08",
+        "5.5.2.1-Q28",
+        "5.5.2.1-Q35"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 23,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1980884f21bd5c134c8e/0effd3265e7b0d1e00a62d5d7903b1b3cc803bc90583a53d18af06412bd9fc86/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "271f685cde51aa3b4dd625af5501ec5101d9efe78eeb470ca7ca9b3f9d9db68a",
+      "chunk_id": "ING_1980884f21bd5c134c8e_CH_b062e928ec",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_c1abaed9e0d0b043f387bfb7eee395da98ad09701758f9b2edf5cde7dbda43db",
+      "claim_text": "3.1. Materials and methods\n| Maintenance costs discounted at year zero.Asphalt Life = 20 years | Maintenance costs discounted at year zero.Life = 30 years | Concrete pavement ( € /m 2 ).Life = 20 years | Life = 30 years\n\nT1 | 40.54 | 47.54 | 5.16 | 10.12\n\nT2 | 47.23 | 55.93 | 5.16 | 10.12\n\nT3 | 53.09 | 61.78 | 5.16 | 10.12",
+      "conditions": [],
+      "document_id": "ING_1980884f21bd5c134c8e",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1980884f21bd5c134c8e:ING_1980884f21bd5c134c8e_CH_b062e928ec:pages=5;canonical=corpus/canonical/objects/ING_1980884f21bd5c134c8e/0effd3265e7b0d1e00a62d5d7903b1b3cc803bc90583a53d18af06412bd9fc86/chunks/embedding_ready.jsonl#L23",
+      "page_end": 5,
+      "page_start": 5,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q27": "PARTIAL",
+        "5.5.2.1-Q34": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.7",
+        "5.6"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q27",
+        "5.5.2.1-Q34"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 41,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1aee29b8925d267db7b0/d08214777ea45e860551dab3849738254e06e6348a2be709d41593050ad6e2a8/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "fdd032ed46f2abc7333caa723f1cef23e0e6bef72aff4931f347be23cfd01685",
+      "chunk_id": "ING_1aee29b8925d267db7b0_CH_bcf4b56611",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_ccaeaf063394cc3a6e4d338269a7dd99875c232960ccde405641fdc751e2742a",
+      "claim_text": "Sensitivity analysis\nŞekil: Fig. 7 .  Variances due to the impacts of structural design, transportation distance, and end-of-life treatment.\nFig. 7 .  Variances due to the impacts of structural design, transportation distance, and end-of-life treatment.\nScenario 1\n2.0%\n0.0%\n-2.0%\n4.0%\nScenario 3\nScenario 2\nÜç köşeli bir üçgen (radar) grafiği, iç içe çizgilerle farklı senaryoların yüzde cinsinden varyans değerlerini karşılaştırmaktadır.",
+      "conditions": [],
+      "document_id": "ING_1aee29b8925d267db7b0",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1aee29b8925d267db7b0:ING_1aee29b8925d267db7b0_CH_bcf4b56611:pages=15;canonical=corpus/canonical/objects/ING_1aee29b8925d267db7b0/d08214777ea45e860551dab3849738254e06e6348a2be709d41593050ad6e2a8/chunks/embedding_ready.jsonl#L41",
+      "page_end": 15,
+      "page_start": 15,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q39": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4",
+        "6.1"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q39"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 84,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "1d7559b7ed461dc72431adcdf391c9a99ba0801cb4b94082e217db3ab8570820",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_e8e79172ab",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_cf085ae8b019ec738538ea876f6ea331586083ee5852b28ec24550fbcce321de",
+      "claim_text": "3.5.4. LCC Analiz Prosedürü\nTablo: Çizelge 3.4. Yaşam döngüsü analizinin aşamaları ve maliyetlerle ilişkilendirilmesi   (Aseidi ve Gu, 1998)\nÇizelge 3.4. Yaşam döngüsü analizinin aşamaları ve maliyetlerle ilişkilendirilmesi   (Aseidi ve Gu, 1998)\n\nŞirket Maliyetleri | Kullanıcı Maliyetleri | LCC LCA Toplumsal (Dışsal) Maliyetler\n\nMalzeme, Enerji Fabrika/tesis Maaş/ücretler vb. |  | Yapım veya Üretim Atık Kirlilik Sağlık problemleri\n\nNakliye Depolama Atık Iskarta Garanti hizmetleri | Nakliye Depolama Enerji Malzeme Bakım onarım | İşletme veya kullanım Ambalajlama Atık Kirlilik Sağlık problemleri\n\n | Bertaraf/atık arıtımı/ geri kazanım | Elden çıkarma Ambalajlama, Atık, Kirlilik, Sağlık Problemleri",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_e8e79172ab:pages=65;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L84",
+      "page_end": 65,
+      "page_start": 65,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q16": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q16"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 138,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_b6a2b2e47753afe8699c/6133b901672c377b1af0a80c529478d8219c32f8309a61d341bfd11fb78d4b4d/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "aa4ac3570348ec85932837778056c705ba455ab4546b8c72f4959972af5cba12",
+      "chunk_id": "ING_b6a2b2e47753afe8699c_CH_6e759c4771",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_d0b1358c2bc51a1d2a82175837237362d0266c680970359f1e93ec6ceb65d932",
+      "claim_text": "Cost Estimating 5.3.1.3\ntypically completed when the schedule permits. Figure 5.1 depicts an optimized replacement plan for an off-the-shelf pump motor deemed to have minimal consequence of failure. Figure 5.2 depicts an optimized preventative maintenance schedule for a customized fan motor deemed to have a high consequence of failure. Figure 5.1 - Optimized on-demand maintenance for an off-the-shelf pump. Figure 5.2 - Optimized preventative maintenance schedule for a customized motor.\n\nCost Estimating 5.3.1.3\n\nA cost estimate is usually needed as part of the evaluation process to successfully manage and budget for repairs. Alternative repair schemes also need cost estimates for comparison purposes. Repair costs are influenced by a number of considerations. For evaluation purposes, a sufficient cost estimate can generally be made using methods discussed in AASHTO 2013. This guide identifies four key estimating techniques to include:\n\nConceptual estimating\n\nBid-based estimating\n\nCost-based estimating\n\nRisk-based estimating\n\nBased on the estimated quantities of labor, materials, and equipment and meaningful consideration of incidental items, such as mobilization of equipment, traffic maintenance, contingency, subcontractor fees, and contractor overhead and profit, sufficient cost estimates can be made for evaluation purposes. If the repair scheme involves work at a future date, then the time value of money must be taken into account.\n\nTable 5.5 shows a very simple example of a cost estimate that compares two different repair schemes where the amount of repair work does not change over the repair period. This simple example indicates that if funds are limited in any particular year, then there is not a significant difference when the repairs are performed. In other cases, the cost and amount of repair work could significantly increase because of inflation and the neglected repairs could increase the rate of deterioration and require more extensive repairs.",
+      "conditions": [],
+      "document_id": "ING_b6a2b2e47753afe8699c",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_b6a2b2e47753afe8699c:ING_b6a2b2e47753afe8699c_CH_6e759c4771:pages=220;canonical=corpus/canonical/objects/ING_b6a2b2e47753afe8699c/6133b901672c377b1af0a80c529478d8219c32f8309a61d341bfd11fb78d4b4d/chunks/embedding_ready.jsonl#L138",
+      "page_end": 220,
+      "page_start": 220,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q29": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5.2.1-Q29"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 28,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "8c559dd352323c1c7a1f7e6752d772001575ca9c66909c172be9d696c3cad8a1",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_9af919729e",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_d4bb1c6fb05a3f5ddbc13d325e096e4fc5362711f3d018880d83eb401eee8f1b",
+      "claim_text": "3.5.4. LCC Analiz Prosedürü\n Alternatif yönetim usulleri ve bunların sistem üzerindeki etkilerinin incelenmesi. Yaşam döngüsü maliyet analizi farklı ulaşım seçenekleri (otomobil, uçak, raylı sistemler), bilgisayarlar, ağır endüstri ekipmanları ve askeri sistemlerde kullanıldığı gibi bunların yanında oluşturulacak modelin kapsamına göre de değişik uygulamalara sahiptir (GB, 2004). Bu uygulamalardan bazıları Şekil 3.3' te gösterilmiştir. Şekil 3.3. Yaşam döngüsü maliyet analizi uygulamaları (Aytok, 2006).\n\n3.5.4. LCC Analiz Prosedürü\n\nYaşam döngüsü maliyet analizinin prosedürü, bir ürünün/prosesin kavram olarak ortaya çıkması ile başlayıp, ürünün/prosesin üretilmesi, işletilmesi ve elden çıkarılmaya  kadar  olan  tüm  aşamalarında  harcanan  kaynakların  toplam  maliyeti olarak tanımlanmış olup LCC analiz prosedürü Şekil 3.4'te verilmiştir (Woodward, 1997).\n\nŞekil 3.4. Yaşam döngüsü maliyet prosedürü\n\n Maliyet bileşenlerinin tanımlanması, ürün/prosesin tüm yaşamı boyunca gerçekleşen nakit akışlarıdır. Bundan dolayı, maliyet unsurları tanımlanırken, faizin de mutlaka belirlenmesi gerekmektedir. Bu nedenle, yaşam döngüsü maliyet analizinde, ürün/prosesin elde edilmesinden, elden çıkarılmasına  kadarki  tüm  aşamalarındaki  maliyetler  düşünülmeli  ve  net bir şekilde ifade edilmelidir. Maliyet bileşenlerinin tanımlanması öncelikle, maliyet  gruplarının  oluşturulmasını  içerir.  Böylece,  maliyete neden olan ve potansiyel bileşenler ortaya konulabilir (Woodward, 1997). Woodward ( 1997)  tarafından  yapılan  çalışmada,  yaşam  döngüsü  maliyet bileşenleri,  araştırma-geliştirme  maliyetleri,  üretim-uygulama  maliyetleri ve  işletme  maliyetleri  olmak  üzere  üç  grupta  incelenmiş  ve  Şekil  3.5'te buna  bir  örnek  verilmiştir.  Yaşam  döngüsü  maliyet  bileşenleri  3  gruba ayrılsa da maliyet gruplandırılmasında son olarak her bir bileşenin ayrıntılı maliyetleri de gözönüne alınmalıdır.\n\nŞekil 3.5. Yaşam döngüsü maliyetinin bileşenlerinin gruplandırılması (Woodward, 1997)\n\n LCC formülasyon modelinin oluşturulmasında, yaşam döngüsü maliyetinin değerlendirilebileceği en uygun modelin seçilmesi gereklidir . Bu durum Woodward (1997) tarafından önerilen sekiz aşamalı bir zaman testi ile anlaşılabilir:\n\no İşletme profilinin oluşturulması\n\no Kullanım faktörlerinin oluşturulması\n\no Tüm maliyet unsurlarının belirlenmesi\n\no Kritik maliyet parametrelerinin belirlenmesi\n\no Güncel fiyatlarla tüm maliyetlerin hesaplanması\n\no Kabul edilen enflasyon oranının dahil edilmesi\n\no Dönem bazlı maliyetlere yapılan iskontoların hesaplanması\n\no Toplam yapılan iskontoların net bugünkü değere göre düşünülmesi\n\nAsiedu ve Gu ( 1998) ise yaptıkları çalışmada, yaşam döngüsü maliyetini şirket/üretici maliyeti, kullanıcı maliyeti (içsel) ve toplumsal (dışsal) maliyetlerden oluştuğunu belirtmişlerdir.\n\nÇizelge 3.4. Yaşam döngüsü analizinin aşamaları ve maliyetlerle ilişkilendirilmesi   (Aseidi ve Gu, 1998)\n\nŞirket olarak, bir ürünü meydana getirmek, pazarlamak, üretmek, üretilen bu ürünü dağıtmak, işletmek ve ürünü elden çıkarmak için kullanılan kaynaklara ödemelerin  yapılması  gerekmektedir.  Bu  durumda,  maliyet  bileşenleri  Şekil 3.6'da olduğu gibi kategorilere ayrılarak Maliyet Dağılım Yapısı (Cost Breakdown  Structures,  CBS)  oluşturulmalıdır.  Şekil  3.6'da  gösterilen  Maliyet Dağılım Yapısı bir ürün ya da bir sistem için yapılabilecek en kapsamlı maliyet gruplandırması olarak bilinmektedir. Ürün  tasarımı/satın alma veya üretim aşamalarındaki  maliyetlerin  gruplandırılması,  bir  modele  bağlıdır.  Bu  modelin oluşturulmasında gerekli olan veriler maliyet modelinin yapısına uygun seçilmelidir (Aseidu ve Gun, 1998).\n\nŞekil 3.6. Maliyet dağılım yapısı",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_9af919729e:pages=62-66;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L28",
+      "page_end": 66,
+      "page_start": 62,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q33": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q33"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 163,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "11f91ce82ea8d124d4a9ea6e1d0064cf24d32a117769eef0fc66025c6ebf2103",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_dd81390fd2",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_da5c6e541686169acb1d86361269ab3f237498f4f6fbb4d95f1840815a364fe1",
+      "claim_text": "5.5.1. ENERJİ MALİYETLERİ AZALTMA ÖNERİLERİ\nve personel maliyetlerinden oluşmaktadır. Yenileme maliyetleri bel li bir sistemin komple yenilenmesini ifade etmektedir. Bazı ekipmanların servis ömürleri sonlandığında mecburi olarak sistemi yenileme ihtiyaçları doğmaktadır. Karayolu tünellerinde yapısal dizayn ömrü olarak ortalama 120 yıl öngörülmektedir. Ancak bu süre içerisinde kullanılan ekipmanlar ve servislerin ömürleri yapısal kaliteye, çevresel faktörlere ve değişen teknolojilere göre değişmektedir. Aşağıdaki şekilde ekipmanların kullanım ömürlerine etki eden bazı faktörler gösterilmiştir. Şekil 117 . Ekipman Kullanım Ömrüne Etki Eden Bazı Faktörler\n\n5.5.1. ENERJİ MALİYETLERİ AZALTMA ÖNERİLERİ\n\nEnerji maliyetlerini azaltmak için öncelikle enerjinin nasıl sağlandığı, enerjiyi sağlama maliyetleri ve nasıl tüketildiğini saptamak gerekmektedi r.\n\nÜlkemizde  de  olduğu  gibi  birçok  ülkede  elektrik  özel  firmalar  aracılığıyla  ihale  ile sağlanmaktadır.  Bağımsız  enerji  aracıları  kullanılması  tünel  operatörleri  için  de  avantaj sağlamaktadır. Aşağıdaki yöntemler kullanılarak enerji maliyetleri azaltılabi lir.\n\n Elektrik  enerjisinin  birim  maliyeti  genellikle  günlük  ve  yıllık  talepler  bulunarak pik değerler üzerinden hesaplanır. Pik kullanım değerleri azaltılarak, daha düşük enerji talebi üzerinden teklifler alınabilir.\n\n Modern yöntemlerle enerji tüketimleri kaydedilir, analiz edilir ve böylelikle aktif bir  güç  yönetim  sistemi  kurulabilir.  Gün  ışığından  mümkün  olduğunca  fazla faydalanılmalıdır.\n\n Ekipman  seçiminde  ekipmanların  tüm  yaşam  ömürleri  maliyetleri  ve  buna  göre güç tüketim değerleri hesaplanarak alternatifler değerlendirilebilir.\n\n Tünellerde  önemli  enerji  tüketim  sistemleri;  aydınlatma,  havalandırma  ve  hava temizleme sistemleridir. Aydınlatma sistemleri tünel aydınlatma miktarları ölçülerek trafik hızına göre kontrol altına alınmalıdır. Jet fanların gereğ inden fazla çalışması engellenmelidir.\n\n Düşük basınçlı sodyum aydınlatmalar yüksek basınçlılardan daha az enerji tüketir ve  sarı  ışık  yayarlar.  Mavi  ışık  yayan  yüksek  basınçlı  sodyum  aydınlatmalar  ise göz  için  daha  düşük  aydınlatma  miktarıyla  daha  faydalıdır.  Tünel  özelliklerine göre en uygun aydınlatma seçilmelidir.\n\n Duvarların  temiz  tutulması,  boyanması,  kirli  lambaların  temiz  tutulması,  asfaltın temiz  olması  gibi  yöntemler  uygulanarak  aydınlatmadan  daha  verimli  şekilde faydalanabilir.\n\n Trafiğin sıkışık olduğu durumlarda aydınlatma seviyesi kısılmalıdır. Bu durumda daha fazla havalandırma ihtiyacı olacaktır.\n\n Tüm  sistemin  enerji  ihtiyacına  tünel  kontrol  merkezlerinde  bulunan  SCADA sistemleri üzerinden erişilmeli ve izlenmeli ve müdahale edilmelidir.\n\nTünelle rde kullanılan sistemlerin enerji maliyetleri üzerine etkileri aşağıdaki tabloda listelenmiştir:\n\nTablo 44 . Sistemlerin Enerji Kullanımı\n\nTablodan görüleceği üzere enerji sarfiyatının en fazla olduğu sistemler aydınlatma ve havalandırma  sistemleridir.  Bunların  ardından  işletme  binaları  gelmektedir.  Bu  üç  sistemin güç tüketimine etkiyen faktörler ve etki oranları aşağıdaki tablolarda gösterilmiştir.\n\nTablo 45. Enerji Tüketimine Etkiyen Faktörler\n\nSon  yıllarda  enerji  maliyetlerini  azaltma  yönünde  ciddi  başarılar  sağlanmıştır  ve  bu eğilim  gelecek  yıllarda  da  devam  edecektir.  Fransa'da  LED  aydınlatma  teknolojilerinin tünellerde kullanımı denenmektedir. İtalya'da reflektör malzeme kullanımı deneme aşamasındadır. Çift tüp olan tünellerde tünel portalları arası mesafenin 30 m'den az olmaması tavsiye  edilerek  bir  tünelden  atılan  kirleticilerin  diğer  tünele  girişi  ve  fazladan  jet  fan çalışması önlenmeye çalışılmaktadır. Ayrıca CFD ve model çalışmaları sayesinde havalandırma sistemlerinin daha verimli çalıştırılma seçenekleri üzerinde durulmaktadır.",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_dd81390fd2:pages=405-407;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L163",
+      "page_end": 407,
+      "page_start": 405,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q10": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5.2.1-Q10"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 34,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_f80432dae1b16b5436e3/4c01b52ff441d2437c8ba3d1bbdae64482fdf3ae6073f2a8339d8fa62f920bf3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "8a73f138969b668b2901771c9d2c91fef4678a9c17fd5d10994a1a5627d65fdc",
+      "chunk_id": "ING_f80432dae1b16b5436e3_CH_fedca40feb",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_ddd9a2f6227de2fb835d0d7135fda28a19ae2e7a93b090d1631a2432b285b64c",
+      "claim_text": "4.3. Results of numerical investigation\nŞekil: Figure 8. Comparison of maintenance costs by contour plot\nFigure 8. Comparison of maintenance costs by contour plot\n40\n30\n(year)\n35\n100\n☆\nContour plot of cost (10^{3)\nOptimal result\n(year)\n25\n-330\n☆\n400\nContour plot of cost (103)\nOptimal result\n30\n80\n140\n60\n100\n20\n-330\nInspection interval\n25\n80\nInspection interval\n210\n20\n40☆\n60\n15\n15\n10\n5\n60\n148\n80\n100\n60\n88\n80\n10\n5\n300\n330\n270\n240\n210\n180\n150\n在\n180\n400\n500\n180\n20\n30\n40\n50\n60\n70\n80\n80\n90\n100\n110\n120\n130\nMaintenance threshold S\nMaintenance threshold S\n(a) MS-1\n(b) MS-2\nİki farklı senaryo için bakım maliyetinin kontur haritalarıyla karşılaştırmalı olarak gösterildiği grafik.",
+      "conditions": [],
+      "document_id": "ING_f80432dae1b16b5436e3",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_f80432dae1b16b5436e3:ING_f80432dae1b16b5436e3_CH_fedca40feb:pages=10;canonical=corpus/canonical/objects/ING_f80432dae1b16b5436e3/4c01b52ff441d2437c8ba3d1bbdae64482fdf3ae6073f2a8339d8fa62f920bf3/chunks/embedding_ready.jsonl#L34",
+      "page_end": 10,
+      "page_start": 10,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q34": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q34"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 17,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1aee29b8925d267db7b0/d08214777ea45e860551dab3849738254e06e6348a2be709d41593050ad6e2a8/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "57442bbbbaf8bcce150eed342ede2023c7c937e037c14b0d98990c197ee46b3f",
+      "chunk_id": "ING_1aee29b8925d267db7b0_CH_bec41febae",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_de9eb8f7756f25edddca1827a5d763ba6bb61f64580a557209418005788e7088",
+      "claim_text": "Sensitivity analysis\nworkforce training may experience higher expenditures. Labor costs also differ, with developing regions often providing more affordable labor but potentially requiring skill enhancement 47 . Stricter environmental regulations can lead to higher compliance costs, whereas lenient policies might result in future challenges. Additionally, well-established infrastructure minimizes logistical expenses, and local economic conditions impact purchasing power and market potential. Each case demands a tailored evaluation, given the complexity of these interconnected elements.\n\nSensitivity analysis\n\nSensitivity  analysis  is  a  critical  tool  in  assessing  the  robustness  and  reliability  of  LCA  and  LCC  outcomes, particularly in studies involving significant assumptions or uncertain input parameters. It involves systematically varying key inputs to evaluate their impact on the results, ensuring that uncertainties or subjective choices do not unduly influence findings.\n\nFig. 6 .  Cost Comparison.\n\nIn this study, a sensitivity analysis was performed to assess how key parameters affect road embankment alternatives' environmental and economic performance using a one-at-a-time (OAT) approach, where one variable is changed while keeping others constant, for simplicity and interpretability 48 . Concrete and reinforcement steel, used in the tunnel's construction, were identified as major contributors to both environmental impact and cost. Thus, a model excluding the tunnel's structural design was applied. Secondly, various transportation distance scenarios  and  end-of-life  scenarios  were  tested  to  determine  their  effect  on  the  environmental  impacts  and costs. Finally, other factors influencing results, such as climate conditions and traffic loads, are discussed. These analyses aimed to gain a deeper understanding of the environmental and economic impacts associated with material selection and transportation logistics for embankment applications.\n\nFig. 7 .  Variances due to the impacts of structural design, transportation distance, and end-of-life treatment.\n\nThe influence of the tunnel's structural design\n\nThe analysis assesses three methods, with and without concrete and steel, across human health, ecosystems, and resource depletion. Figures 7a shows relative changes in environmental scores, including the single score, human health score, ecosystems score, and resource depletion score. Scores significantly decreased for soil backfill by 96%, 96%, 88%, and 81%, respectively. For EPS with HDPE geomembrane, the scores dropped by about 81%, 82%, 62%, and 23%, respectively. For EPS with nanocoating, the scores decreased by around 85%, 86%, 65%, and 25%, respectively. The most significant drop was seen in the soil backfill method and the single scores. The smallest drop was observed in the resource category.\n\nThe cost analysis evaluates the alternatives, with and without concrete and steel. Figures 7b illustrates the relative  changes in the cost, including the cost of materials and transportation, construction, health-related, and total cost. For soil backfill, the costs decreased by approximately 85%, 48%, 96%, and 87%, respectively. For EPS geofoam with HDPE geomembrane, the costs dropped by about 29%, 93%, 82%, and 43%, respectively. For EPS geofoam with nanocoating, the costs decreased by around 29%, 93%, 86%, and 44%, respectively. The most significant drop was seen in the soil backfill method, particularly in the health-related cost, which matches the results of the sensitivity analysis of LCA in the previous section. The smallest drop was observed in the materials cost of EPS geofoam with HDPE geomembrane or nanocoating.\n\nLCA and LCC trends indicated that excluding concrete and steel  reinforcement  significantly  altered  the environmental impact ranking and cost, shifting soil backfill from the highest to the lowest impact and cost option. However, this introduces a methodological limitation, as the choice of embankment material directly affects the structural design and concrete quantities. Therefore, it is crucial to include these materials in the comparative  analyses  for  a  comprehensive  and  accurate  evaluation.  Excluding  concrete  and  steel  was  not feasible, as the type of backfill material directly influenced the design and structural requirements of the twinbay tunnels, affecting their load-bearing capacity, settlement behavior, and overall stability.",
+      "conditions": [],
+      "document_id": "ING_1aee29b8925d267db7b0",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1aee29b8925d267db7b0:ING_1aee29b8925d267db7b0_CH_bec41febae:pages=13-16;canonical=corpus/canonical/objects/ING_1aee29b8925d267db7b0/d08214777ea45e860551dab3849738254e06e6348a2be709d41593050ad6e2a8/chunks/embedding_ready.jsonl#L17",
+      "page_end": 16,
+      "page_start": 13,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q39": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4",
+        "6.1"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q39"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 19,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_f80432dae1b16b5436e3/4c01b52ff441d2437c8ba3d1bbdae64482fdf3ae6073f2a8339d8fa62f920bf3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "b134e6c217be754f1b8dc9551457edba50018dbc669af865c2f20bf6da5d6f9f",
+      "chunk_id": "ING_f80432dae1b16b5436e3_CH_fcd00c304c",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_e1bb83802a185f67685110ea4860dec8cef6fd4070a6a3bb046741e9ac240ba1",
+      "claim_text": "4.2. Assumptions of maintenance strategy\nTablo: Table 6. Assumptions of the costs of different maintenance activities\nTable 6. Assumptions of the costs of different maintenance activities\n\nMaintenance measures | Cost\n\nInspection | 1\n\nMinor repair | 5\n\nMedium repair | 200\n\nMajor repair (= preventive repair) | 500\n\nRehabilitation | 500000",
+      "conditions": [],
+      "document_id": "ING_f80432dae1b16b5436e3",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_f80432dae1b16b5436e3:ING_f80432dae1b16b5436e3_CH_fcd00c304c:pages=9;canonical=corpus/canonical/objects/ING_f80432dae1b16b5436e3/4c01b52ff441d2437c8ba3d1bbdae64482fdf3ae6073f2a8339d8fa62f920bf3/chunks/embedding_ready.jsonl#L19",
+      "page_end": 9,
+      "page_start": 9,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q02": "PARTIAL",
+        "5.5.2.1-Q06": "PARTIAL",
+        "5.5.2.1-Q08": "PARTIAL",
+        "5.5.2.1-Q29": "PARTIAL",
+        "5.5.2.1-Q37": "PARTIAL",
+        "5.5.2.1-Q45": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q02",
+        "5.5.2.1-Q06",
+        "5.5.2.1-Q08",
+        "5.5.2.1-Q29",
+        "5.5.2.1-Q37",
+        "5.5.2.1-Q45"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 6,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_d2978a67c2f781234eb5/96b398db25dd6ce579f4dde0e3bcd0f6335f12d16f3070e5a9b4576afdd78802/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "fc347405b75087f142f04e701a3d17ef3020c9ad7dea7ceeaf207e95b071bd03",
+      "chunk_id": "ING_d2978a67c2f781234eb5_CH_affd0c9641",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_e807a6710fc10786576a502afa29a8b2267b9d1e4339adaa0887a5855ce2aa8a",
+      "claim_text": "(3)建 設 コスト変動リスク評価手法\nョン番号iの 亀裂ネ ッ トワークモデルでの,大 規模 亀裂に起因する不良地山部の破砕幅W(式(7)右 辺第 2項 に相 当)を 求め,そ の延長に1m辺 りの施工単価 を掛けることで,不 良地山支保 ・掘削費C(4)iが 式(8) に示すように算定される. ただし,LD(i)は リア ライゼーシ ョン番号iで の不良地 山部の延長を表し,CDは1mあ た りの不良地山部で の施工単価を表す. この手順を,リ アライゼーション総数のNA回 繰 り 返すことで,不 良地山支保 ・掘削費C(4)の 分布が得 ら れ る.\n\n(3)建 設 コスト変動リスク評価手法\n\n(1)お よび(2)に おいて示したC(1)〜C(4)の 各費 用 は,い ずれ もモ ンテカル ロシ ミュ レー シ ョンによ る離散的な確率量 となる.こ のため,各 費用の算定 結果に関する評価には,図-3に 示す縦軸を超過確率, 横軸をコス トとしたリスクカーブを用いる.\n\nここで,リ ス クカーブ とは,金 融工学分野におい て収益 と超過確率の関係か ら,い わゆる収益の不確 実性を表現する方法として一般的に用い られている ものである.そ して,リ ス クカーブを用いた判断指 標 としては,確 率分布における期待値からのはずれ 量を表わすボラティリティV,あ るいは超過確率xを\n\n想定した場合の収益に対応する値(VaR)x(バ リューア ッ トリスク)が 用い られる.\n\n筆者 らは,こ の金融工学分野の知見を援用 し,地 盤 の不均 一性 に起 因す る建設 コス ト変動 リスクの判 断指標となるコス ト変動のボラティリティVを,図 -3(a)に 従 い \"以 下の手順で\"次 式 に基づ き算定す る方法を提案 した.\n\nここに,Max[・]は,・ の最大値を表わす記号である. また,C0.1,Co .5およびC0.9は,そ れぞれ リス クカー ブにおける超過確率が,0.1,0.5お よび0.9に 相 当す る 建設 コス トを表わす.な お\"式(10)に 示すRuお よび Rdは,そ れぞれアップサイ ドリスクおよびダウンサ イ ドリスクの偏差を表わすものである.\n\n次 に,リ ス クカーブに示す建設 コス トとそ の超過 確率の関係が,一 般的には正規分布のような対称分 布 となることが想定されるため,超 過確率05に 相当 す る建設 コス トC0.5を 期待値に準ずる値と仮定し, 建設 コス トのボラティ リティ7を 次式のように定義 した.\n\nただし,上 記の手法は,本 研究では(1)の支保 ・掘 削費C(1)に 相当す る,不 良地山を除く岩盤での トンネ ル建設コス ト評価において適用したものである.こ れ に対 して,金 融工学分野でも,近 年は突発性の高 い金 融 リス ク評 価 にお い て は,図-3(b)に 示 す (VaR)xが 判断指標 として用いられる事例が多 くな り つつある10),11).本研究は\"湧 水あるいは不良地山の よ うな突発性 の高い要因に起因するコス ト変動を評 価 す ることを 目的 としているた め,そ の判断指標と しては(VaR)xを 用いるものとする.\n\nここで,(VaR)xを 算定す る上 で必要 となる,具 体 的な超過確率xの 設定に関しては,明 確な規準は定 められていないが,金 融工学では超過確率xを5% (確率値では95%)と する事例が一般的である.本\n\n図-4処 分坑道模式図\n\n研究では\"こ の事例に準拠 して,超 過確率xを5%と した(VaR)0.05を 評価指標 とし\"以 下この値をVaRと 称する.\n\nVaRが 少頻度大事象となるような突発的なリスク 要因を考慮 したコス ト変動 リス ク評価指標 であるこ とを考えれば,施 工者や事業者にとってVaRは,不 良地山対策 としての予備費をどの程度計上すべきで あるかを判断する材料となると推察される.\n\nただし,VaRは コス ト変動 を表現す る リスクカー ブの一つの代表値であることに注意 し\"最 終的にコ ス ト変動 を評価す る際には\"リ スクカーブの形状と 合わせて総合的に判断すべきである.",
+      "conditions": [],
+      "document_id": "ING_d2978a67c2f781234eb5",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_d2978a67c2f781234eb5:ING_d2978a67c2f781234eb5_CH_affd0c9641:pages=6-7;canonical=corpus/canonical/objects/ING_d2978a67c2f781234eb5/96b398db25dd6ce579f4dde0e3bcd0f6335f12d16f3070e5a9b4576afdd78802/chunks/embedding_ready.jsonl#L6",
+      "page_end": 7,
+      "page_start": 6,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q37": "PARTIAL",
+        "5.5.2.1-Q38": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "6.1.3",
+        "2.3"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "6.2.2",
+      "supporting_question_ids": [
+        "5.5.2.1-Q37",
+        "5.5.2.1-Q38"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 29,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "986a16d92aca0e2031dbdf7f59417b858cd88894ad7eb7425b3ee879e7e3a345",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_b015eb0fc8",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_e8b8fedb558bfe3d3042acbd03a0e517a4e8fd3df0b8d156765ba6e4bcdd61cc",
+      "claim_text": "3.5.3.1 İçsel Maliyetler\ngibi kategorilere ayrılarak Maliyet Dağılım Yapısı (Cost Breakdown Structures, CBS) oluşturulmalıdır. Şekil 3.6'da gösterilen Maliyet Dağılım Yapısı bir ürün ya da bir sistem için yapılabilecek en kapsamlı maliyet gruplandırması olarak bilinmektedir. Ürün tasarımı/satın alma veya üretim aşamalarındaki maliyetlerin gruplandırılması, bir modele bağlıdır. Bu modelin oluşturulmasında gerekli olan veriler maliyet modelinin yapısına uygun seçilmelidir (Aseidu ve Gun, 1998). Şekil 3.6. Maliyet dağılım yapısı\n\n3.5.3.1 İçsel Maliyetler\n\nDemiryolu  ulaşımında,  demiryolu  altyapı  ve  işletme  bileşenleri  kendi özelliklerine  sahip  birer  ürün  gibidir.  Bu  ürünlerin  yapımı  ve  üretimi  sırasında uzun süreçler ve yüksek maliyetli yatırımlar gerekmektedir. Bu nedenle, demiryolu ulaşımında; altyapı (hattın yapımı, bakım-onarımı, işletilmesi ve hattın bertarafı)  ve  işletme  (tren  araçlarının  üretimi,  işletilmesi,  bakım-onarımı  ve araçların bertarafı) bileşenlerine ait içsel maliyetlerinin belirlenmesi gerekmektedir.\n\nYaşam  döngüsü  analizindeki  içsel  maliyet  kategorisi;  yapım  ve  üretim maliyeti, işletme ve bakım  onarım  maliyeti ve son olarak elden çıkarma maliyetlerinden oluşmaktadır (Aseidu ve Gun, 1998).\n\n Yapım  ve  üretim  maliyeti: Yatırım  maliyetleri;  üretilecek  sistemlerin yapım,  montaj  ve  test  maliyetleri,  üretim  tesislerinin  işletme  ve  bakım maliyetleri, başlangıç lojistik destek maliyetleri (test ve destek elemanları geliştirme maliyetleri, yedek parça tedarik maliyetleri, teknik veri geliştirmesi, tesis inşa maliyetleri) üretim ve inşaat aşamasının maliyetlerini  oluşturmaktadır.  Örneğin,  demiryolu  altyapı  sistemlerinin oluşturulmasında kullanılan malzemelerin (çelik, çimento, balast, ray vb.)\n\nenerjinin (elektrik, doğalgaz, fuel oil vb.) üretimi, malzemelerin nakliyesi (karayolu,  demiryolu  vb.)  ve  diğer  saha  çalışmaları  için  ortaya  çıkan maliyetler  yapım ve üretim ile ilgili içsel maliyettir. Kabasakal ve Solak ( 2010)  çalışmasında, ülkemizde  hızlı tren altyapı yapım  maliyetinin Çizelge  3.4  'ten  görüleceği  üzere  ortalama  4,53  milyon  $/km  civarında olduğu görülmüştür. TCDD (2013) çalışmasındaki 2008-2012 yılı istatistik verilerine  göre,  2012  yılında  YHT-  km  maliyeti  60,64  TL,    KT-  km maliyeti (yolcu) 85,01, Lokomotif-km (yük) 62,72 TL olarak verilmiştir.\n\nÇizelge 3.5. Hızlı tren yapım maliyetleri (Kabasakal ve Solak, 2010)\n\n İşletme ve bakım onarım maliyeti: İşletme maliyetleri; işletimi sürdürme, personel  ve  bakım  desteği,  yedek  parça/tamir  parçası  ve  ilgili envanter, test ve destek  donanım bakımı, ulaştırma ve muamele, tesisler, modifikasyonlar  ve  teknik veri değişikliklerinin maliyetlerini kapsar. Örneğin, demiryolu altyapısındaki rayların işletilmesi veya demiryolu tren araçlarının  hat  üzerinde  çalıştırılması  sonucu  oluşan  maliyetler  işletim maliyeti  ile  içsel  maliyetlerin  bir  bölümünü  oluşturmaktadır.  Campos  ve de Rus ( 2009)  yaptığı çalışmada sadece işletme maliyetleri, hızlı tren için koltuk  başına  0,0776  €/km  ile  0,1776  €/km  arasında  değişmektedir.  Bu\n\nrakamlara  göre  ortalama  450  yolcu  kapasiteli  hızlı  tren  setinin  işletme maliyeti  35  €/km  ile  80  €/km  arasında  bir  değer  almaktadır.  Demiryolu işletme maliyetleri,  trenlerin  teknik  özelliklerine  ve  koltuk  kapasitelerine göre farklılıklar göstermektedir. Örneğin, Türkiye'de YHT yolcu taşımacılığının işletme açısından maliyeti 0.12 TL/yolcu-km iken KD 0.22 TL  /yolcu-km, KD  yük  taşımacılığında ise 0.18 TL/ton-km  olarak verilmiştir (TCDD, 2013). Kabasakal ve Solak (2010) göre yılda 500.000 km  yapan  bir  tren  setinin  ortalama  bakım  maliyeti  yıllık  1  milyon  €, kilometre başına 2 € olmaktadır. Tren setlerinin bakım maliyetini ise 2,83 $/km,  enerji  tüketimini  10,5  kwh/km  ile  20  kwh/km  arasında  değişen değerler aldığı belirlenmiştir.\n\n Elden  çıkarma  maliyeti: Hizmet  dışı  bırakma  ya  da  elden  çıkarma maliyeti; sistem/ürünün yaşam döngüsü boyunca tamir edilemeyen parçalarının elden çıkarılması, sistem/ürünün hizmet dışı bırakılması sonucu bu malzemelerin veya parçaların bertarafı veya arıtımı için oluşan ilgili maliyetlerdir.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_b015eb0fc8:pages=66-68;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L29",
+      "page_end": 68,
+      "page_start": 66,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q45": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.1-Q45"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 1,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_77cf2eb068cd0f71b6f6/e1a3326789798326f8c667aa1182ab4e6c4a2f27bf3259278e000e53e88c51c3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "97196252f2917d69f875cb1b4f1a59c51890bc9f4cc88e7172ceb07305c1c6ac",
+      "chunk_id": "ING_77cf2eb068cd0f71b6f6_CH_372476e24b",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_f78455bb804df7cc1a85e262212df854f0afec04d4f3dc0849b0fd6468065c10",
+      "claim_text": "7.1 General\n7.  COST OF MAINTENANCE\n\n7.1 General\n\nTunnels are normally provided with technically advanced and expensive equipment that, for  operation  and  maintenance,  demands  a  high  degree  of  competence  and  considerable resource. Professional and structured planning of operation and maintenance activities is necessary if the following demands are to be met:\n\nthe safety of road-users,\n\noperational economy.\n\nensuring free traffic flow,\n\nIf  the  available  amount  of  money  for  maintenance  is  not  sufficient,  there  will  be  an adverse influence on both service levels and safety.\n\n7.1.1 Objectives of Maintenance\n\nThe overall aim of operational maintenance is to maintain a specified level of safety, with an optimal level of expenditure and without adverse environmental effect.\n\nThis  means that maintenance shall be planned and  executed in such a way that the operational  assumptions  made  at  the  design  stage  remain  validated  throughout  the operational period. Similarly, attention must also be paid to the technical assumptions upon which decisions were based in the planning and construction of the tunnel.\n\nObjectives can be achieved by:\n\nmaintaining the planned functions that have been built into the tunnel,\n\nmaintaining the functional requirements, or modifying  them to meet current requirements,\n\nmaintaining the functional safety, or modifying to meet current requirements,\n\nensuring that safety equipment meets the requirements, at all times,\n\naiming at a uniform standard for similar installations, especially tunnels on the same road section, with similar traffic flows.\n\nensuring that safety procedures meet the requirements, at all times,\n\nAs a consequence of these objectives, requirements shall be documented regarding the functioning  of  each  installation,  and  how  those  functions  shall  be  maintained  in  the event of interruptions or irregularities in operation.",
+      "conditions": [],
+      "document_id": "ING_77cf2eb068cd0f71b6f6",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_77cf2eb068cd0f71b6f6:ING_77cf2eb068cd0f71b6f6_CH_372476e24b:pages=1;canonical=corpus/canonical/objects/ING_77cf2eb068cd0f71b6f6/e1a3326789798326f8c667aa1182ab4e6c4a2f27bf3259278e000e53e88c51c3/chunks/embedding_ready.jsonl#L1",
+      "page_end": 1,
+      "page_start": 1,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.1-Q49": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5",
+        "5.6",
+        "5.1",
+        "5.4.2"
+      ],
+      "section_id": "5.5.2.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "7.1",
+      "supporting_question_ids": [
+        "5.5.2.1-Q49"
+      ]
+    }
+  ],
+  "contract_version": "section-preparation-v1",
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "registry_id": "SCR_f569e9ae31062fd4148ef63ae0bb96c6f4e204057ee1a730ea03ac07fe1a9b5a",
+  "schema_version": "1.0",
+  "section_id": "5.5.2.1",
+  "section_title": "Yapısal Bakım-Onarım Maliyetleri"
+}

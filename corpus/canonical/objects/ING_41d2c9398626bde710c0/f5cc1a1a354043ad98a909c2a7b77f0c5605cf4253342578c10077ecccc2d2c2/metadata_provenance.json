@@ -1,0 +1,114 @@
+{
+  "document_id": "ING_41d2c9398626bde710c0",
+  "fields": [
+    {
+      "field": "title",
+      "value": "New Austrian Tunnelling Method (NATM) in Urban Metro Projects",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Abhishek Sagar Chougule"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2021",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: doi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "blasting",
+        "construction_management",
+        "excavation",
+        "geology",
+        "ground_improvement",
+        "instrumentation",
+        "maintenance",
+        "monitoring",
+        "natm",
+        "operations",
+        "risk",
+        "rock_bolt",
+        "rock_mechanics",
+        "safety",
+        "shotcrete",
+        "support_systems",
+        "tbm",
+        "traffic"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; tbm:tbm; geology:geolog; rock_mechanics:rock mass; excavation:excavat; blasting:blasting; shotcrete:shotcrete; rock_bolt:rock bolt; support_systems:support system; ground_improvement:ground improvement; monitoring:monitoring; instrumentation:instrumentation"
+    },
+    {
+      "field": "source_url",
+      "value": "https://www.ijraset.com/fileserve.php?FID=34608",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.22214/ijraset.2021.34608",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

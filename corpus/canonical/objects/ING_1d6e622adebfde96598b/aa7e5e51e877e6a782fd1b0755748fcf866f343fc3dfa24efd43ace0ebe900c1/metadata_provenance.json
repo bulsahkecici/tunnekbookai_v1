@@ -1,0 +1,116 @@
+{
+  "document_id": "ING_1d6e622adebfde96598b",
+  "fields": [
+    {
+      "field": "title",
+      "value": "BIM-based digital platform and risk management system for mountain tunnel construction.",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Liu N",
+        "Guo D",
+        "Song Z",
+        "Zhong S",
+        "Hu R"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2023",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "blasting",
+        "construction_management",
+        "cost",
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "karst",
+        "maintenance",
+        "monitoring",
+        "natm",
+        "operations",
+        "risk",
+        "safety",
+        "shotcrete",
+        "standards"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; geotechnical_investigation:geotechnical; geology:geolog; excavation:excavat; blasting:blasting; shotcrete:shotcrete; karst:karst; monitoring:monitoring; risk:risk; safety:safety; operations:operation; maintenance:maintenance"
+    },
+    {
+      "field": "source_url",
+      "value": "https://www.nature.com/articles/s41598-023-34525-w.pdf",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1038/s41598-023-34525-w",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

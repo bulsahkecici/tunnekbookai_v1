@@ -11,6 +11,8 @@ from .sources import DiscoveredInput
 
 def run_selected(
     inputs: list[DiscoveredInput], *, outcome_callback: Callable[[dict], None] | None = None,
+    progress_callback: Callable[[dict], None] | None = None,
+    should_stop: Callable[[], bool] | None = None,
     resume: bool = True, force_reprocess: bool = False, no_ocr: bool = False,
     no_vision: bool = False, no_arbiter: bool = False,
 ) -> int:
@@ -27,6 +29,8 @@ def run_selected(
         llm_server=None,
         llm_model=None,
         outcome_callback=outcome_callback,
+        progress_callback=progress_callback,
+        should_stop=should_stop,
     )
     return cli._run(inputs, [], args)
 

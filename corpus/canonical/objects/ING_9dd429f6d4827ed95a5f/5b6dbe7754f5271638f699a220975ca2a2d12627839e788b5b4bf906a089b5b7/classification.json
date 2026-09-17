@@ -1,0 +1,162 @@
+{
+  "final_primary_section": "2.1.2",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.861,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "PARA0005",
+        "PARA0008",
+        "PARA0009",
+        "LIST0005",
+        "PARA0016",
+        "PARA0017",
+        "PARA0025",
+        "PARA0034",
+        "PARA0035",
+        "LIST0112",
+        "PARA0038",
+        "PARA0039",
+        "PARA0042",
+        "HEAD0030",
+        "PARA0044",
+        "PARA0045",
+        "PARA0048",
+        "FIG0009",
+        "CAPT0006",
+        "FIG0010",
+        "CAPT0007",
+        "HEAD0031",
+        "PARA0050",
+        "PARA0053",
+        "PARA0056"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0005",
+        "PARA0008",
+        "PARA0009",
+        "LIST0005",
+        "PARA0016",
+        "PARA0017",
+        "PARA0025",
+        "PARA0028",
+        "FIG0004",
+        "CAPT0001",
+        "PARA0033",
+        "PARA0034",
+        "PARA0035",
+        "PARA0036",
+        "LIST0112",
+        "PARA0038",
+        "PARA0039",
+        "LIST0114",
+        "PARA0042",
+        "PARA0043",
+        "HEAD0030",
+        "PARA0044",
+        "PARA0045",
+        "PARA0046",
+        "PARA0048"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1.2",
+      "score": 0.861,
+      "rule_score": 0.7143,
+      "embedding_score": 0.7799,
+      "chunk_vote": 0.3359
+    },
+    {
+      "id": "2",
+      "score": 0.7407,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8002,
+      "chunk_vote": 0.1251
+    },
+    {
+      "id": "2.4",
+      "score": 0.406,
+      "rule_score": 0.7143,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0656
+    },
+    {
+      "id": "5.6",
+      "score": 0.3748,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0404
+    },
+    {
+      "id": "5",
+      "score": 0.3577,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0386
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3531,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0154
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3524,
+      "rule_score": 0.0,
+      "embedding_score": 0.7831,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3522,
+      "rule_score": 0.0,
+      "embedding_score": 0.7827,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3519,
+      "rule_score": 0.0,
+      "embedding_score": 0.7821,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3517,
+      "rule_score": 0.0,
+      "embedding_score": 0.7795,
+      "chunk_vote": 0.0046
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.1.2:0.861 gap=0.120 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

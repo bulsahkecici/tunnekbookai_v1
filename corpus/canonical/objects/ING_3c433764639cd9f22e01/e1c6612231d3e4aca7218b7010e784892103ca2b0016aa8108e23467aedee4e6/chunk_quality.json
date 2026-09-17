@@ -1,0 +1,134 @@
+{
+  "document_id": "ING_3c433764639cd9f22e01",
+  "status": "PASS",
+  "chunk_count": 74,
+  "chunks_by_type": {
+    "SLIDE_CHUNK": 37,
+    "FIGURE_CHUNK": 37
+  },
+  "token_stats": {
+    "min": 1,
+    "max": 179,
+    "mean": 40.8,
+    "total": 3017
+  },
+  "policy": {
+    "chunk_schema_version": "1.0",
+    "chunk_policy_version": "structure-aware-v1",
+    "tokenizer": "unicode-lexical-v1",
+    "target_tokens": 850,
+    "min_tokens": 250,
+    "max_tokens": 1200,
+    "hard_max_tokens": 1500,
+    "overlap_tokens": 80
+  },
+  "deduplicated_chunks": [
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_ccdd27972e",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_f236e229a6"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_2f7f44aa88",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_0a938b15df"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_53ad0dc839",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_0a938b15df"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_01e4916a29",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_0a938b15df"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_dd45b096b1",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_0a938b15df"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_c8d24bc692",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_0a938b15df"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_6cbb037e34",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_0a938b15df"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_600fc7542c",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_0a938b15df"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_a58df4b2c4",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_0a938b15df"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_4ed5eac12c",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_78e8ce0f0e"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_9ceca01c23",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_78e8ce0f0e"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_291dd339c7",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_78e8ce0f0e"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_87036ffaf8",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_78e8ce0f0e"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_825997dbd6",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_78e8ce0f0e"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_74a71eae86",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_78e8ce0f0e"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_02f7cec901",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_78e8ce0f0e"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_169ea49e77",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_78e8ce0f0e"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_8006d391b7",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_78e8ce0f0e"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_c3f8f9697e",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_78e8ce0f0e"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_6c3d876291",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_78e8ce0f0e"
+    },
+    {
+      "chunk_id": "ING_3c433764639cd9f22e01_CH_8d0c8881a7",
+      "chunk_type": "SLIDE_CHUNK",
+      "duplicate_of": "ING_3c433764639cd9f22e01_CH_78e8ce0f0e"
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

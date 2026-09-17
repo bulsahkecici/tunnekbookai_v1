@@ -1,0 +1,105 @@
+{
+  "document_id": "ING_26e9d9982148de8608a4",
+  "fields": [
+    {
+      "field": "title",
+      "value": "ANKARA – SİVAS DEMİRYOLU HIZLI TREN PROJESİ T-5 TÜNELİ YAPIM ÇALIŞMALARI",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Ömer Sezgi HİÇYILMAZ",
+        "Mehmet Özçelik"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2019",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "project_document",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: projesi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "natm",
+        "portal",
+        "rock_mechanics",
+        "shotcrete",
+        "steel_mesh"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; geotechnical_investigation:sondaj; geology:jeoloji; rock_mechanics:rqd; excavation:kazı; shotcrete:püskürtme beton; steel_mesh:çelik hasır; portal:portal; tunnel_general:tünel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://dergipark.org.tr/tr/download/article-file/743303",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.21923/jesd.491825",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

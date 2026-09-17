@@ -19,7 +19,9 @@ fusion:
 
 llm_arbiter:
   enabled: true
-  timeout_seconds: 90
+  timeout_seconds: 60
+  reasoning_effort: none
+  max_tokens: 512
   # Called ONLY on rule/embedding disagreement, close scores, low confidence,
   # multi-section ambiguity (§44). Strong agreement -> skip.
   max_candidate_sections: 8

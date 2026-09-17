@@ -1,0 +1,169 @@
+{
+  "final_primary_section": "2.4.1",
+  "final_secondary_sections": [
+    "2.4.1.2",
+    "2.4.2.1",
+    "2"
+  ],
+  "final_section_confidence": 0.75,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": [
+        "PARA0003",
+        "PARA0007",
+        "PARA0011",
+        "PARA0056",
+        "PARA0065",
+        "PARA0069",
+        "PARA0073",
+        "LIST0010"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0069",
+        "LIST0034"
+      ]
+    },
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "PARA0005",
+        "PARA0007",
+        "LIST0014",
+        "LIST0020",
+        "LIST0021",
+        "LIST0024",
+        "LIST0028",
+        "LIST0060",
+        "LIST0062"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0007",
+        "PARA0011",
+        "PARA0042",
+        "PARA0046",
+        "PARA0065",
+        "PARA0066",
+        "PARA0067",
+        "PARA0070",
+        "LIST0017",
+        "LIST0019",
+        "LIST0023",
+        "LIST0026",
+        "LIST0028",
+        "LIST0030",
+        "LIST0034",
+        "LIST0036",
+        "LIST0040",
+        "LIST0042",
+        "LIST0056",
+        "LIST0057",
+        "LIST0064",
+        "LIST0066",
+        "LIST0068"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6.1",
+      "score": 0.6961,
+      "rule_score": 0.5,
+      "embedding_score": 0.7731,
+      "chunk_vote": 0.1158
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.6727,
+      "rule_score": 0.5,
+      "embedding_score": 0.7726,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.6432,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7737,
+      "chunk_vote": 0.0463
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.3493,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0965
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3482,
+      "rule_score": 0.0,
+      "embedding_score": 0.7737,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3481,
+      "rule_score": 0.0,
+      "embedding_score": 0.7735,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3422,
+      "rule_score": 0.0,
+      "embedding_score": 0.7605,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3421,
+      "rule_score": 0.0,
+      "embedding_score": 0.7603,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3416,
+      "rule_score": 0.0,
+      "embedding_score": 0.7591,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.3056,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, kalkan tünelciliği sırasında inşaat parametreleri (itme, tork, ilerleme hızı vb.) ve sondaj verilerini kullanarak jeolojik özellikleri belirlemeye odaklanmaktadır. Bu, 'Jeolojik ve Geoteknik İncelemeler' (2.4.1) başlığına doğrudan uymaktadır. Ayrıca, verilerin inşaat esnasında toplanması ve analiz edilmesi, 'İnşaat Esnasındaki Çalışmalar' (2.4.1.2) alt başlığıyla da ilişkilidir. Diğer adayl",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=6.1:0.6961 gap=0.023 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

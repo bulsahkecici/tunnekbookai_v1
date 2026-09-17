@@ -1,0 +1,129 @@
+{
+  "final_primary_section": "6",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.7953,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "6",
+      "section_title": "TÜNEL YAPIM MALİYETLERİ",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0005",
+        "PARA0006",
+        "PARA0009",
+        "TABLE0001",
+        "CAPT0001",
+        "PARA0010",
+        "PARA0027",
+        "FIG0007",
+        "CAPT0004",
+        "PARA0031",
+        "LIST0019",
+        "LIST0020",
+        "PARA0046",
+        "LIST0025",
+        "LIST0026",
+        "LIST0027",
+        "LIST0028",
+        "PARA0058",
+        "PARA0059",
+        "FIG0014",
+        "CAPT0014",
+        "TABLE0007",
+        "CAPT0015",
+        "PARA0060"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6",
+      "score": 0.7953,
+      "rule_score": 0.6667,
+      "embedding_score": 0.8097,
+      "chunk_vote": 0.0714
+    },
+    {
+      "id": "2.4",
+      "score": 0.4033,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1831
+    },
+    {
+      "id": "6.1",
+      "score": 0.3764,
+      "rule_score": 0.0,
+      "embedding_score": 0.8189,
+      "chunk_vote": 0.0393
+    },
+    {
+      "id": "2.3",
+      "score": 0.371,
+      "rule_score": 0.0,
+      "embedding_score": 0.8222,
+      "chunk_vote": 0.0051
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.3672,
+      "rule_score": 0.0,
+      "embedding_score": 0.8102,
+      "chunk_vote": 0.0128
+    },
+    {
+      "id": "7",
+      "score": 0.3664,
+      "rule_score": 0.0,
+      "embedding_score": 0.8029,
+      "chunk_vote": 0.0256
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.363,
+      "rule_score": 0.0,
+      "embedding_score": 0.8066,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3626,
+      "rule_score": 0.0,
+      "embedding_score": 0.8057,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3609,
+      "rule_score": 0.0,
+      "embedding_score": 0.8019,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3584,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0421
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=6:0.7953 gap=0.392 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

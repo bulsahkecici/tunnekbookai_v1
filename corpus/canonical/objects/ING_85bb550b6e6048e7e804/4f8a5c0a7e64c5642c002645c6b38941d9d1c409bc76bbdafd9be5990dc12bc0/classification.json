@@ -1,0 +1,105 @@
+{
+  "final_primary_section": "2.4.2.1",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.7254,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "PARA0001"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.2.1",
+      "score": 0.7254,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7938,
+      "chunk_vote": 0.063
+    },
+    {
+      "id": "6.1",
+      "score": 0.3749,
+      "rule_score": 0.0,
+      "embedding_score": 0.7995,
+      "chunk_vote": 0.0756
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3693,
+      "rule_score": 0.0,
+      "embedding_score": 0.8039,
+      "chunk_vote": 0.0378
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3594,
+      "rule_score": 0.0,
+      "embedding_score": 0.7986,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3582,
+      "rule_score": 0.0,
+      "embedding_score": 0.7961,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3579,
+      "rule_score": 0.0,
+      "embedding_score": 0.7953,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.3568,
+      "rule_score": 0.0,
+      "embedding_score": 0.7929,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3568,
+      "rule_score": 0.0,
+      "embedding_score": 0.7928,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.2834,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.042
+    },
+    {
+      "id": "1",
+      "score": 0.2363,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2647
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:7",
+    "embeddings:8",
+    "top=2.4.2.1:0.7254 gap=0.351 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

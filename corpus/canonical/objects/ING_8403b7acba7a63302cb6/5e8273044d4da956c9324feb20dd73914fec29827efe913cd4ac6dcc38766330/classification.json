@@ -1,0 +1,111 @@
+{
+  "final_primary_section": "2.2.2",
+  "final_secondary_sections": [
+    "2.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2.2",
+      "score": 0.3366,
+      "rule_score": 0.0,
+      "embedding_score": 0.748,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3352,
+      "rule_score": 0.0,
+      "embedding_score": 0.7449,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3351,
+      "rule_score": 0.0,
+      "embedding_score": 0.7446,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3348,
+      "rule_score": 0.0,
+      "embedding_score": 0.744,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3342,
+      "rule_score": 0.0,
+      "embedding_score": 0.7426,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.334,
+      "rule_score": 0.0,
+      "embedding_score": 0.7422,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3328,
+      "rule_score": 0.0,
+      "embedding_score": 0.7395,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3328,
+      "rule_score": 0.0,
+      "embedding_score": 0.7395,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3167,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.6667
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.2,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0833
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, portal iyileştirmeleri kapsamında düşük geçirimliliğe sahip ince daneli zeminlerin stabilizasyonu için kullanılan enjeksiyon (permeasyon, çatlatma, jet grout) ve derin karıştırma yöntemlerini detaylıca açıklamaktadır. Bu yöntemler, özellikle yumuşak veya zayıf zemin koşullarında tünel yapımında uygulanan zemin iyileştirme teknikleri olduğundan, 'Yumuşak Zeminde Açılan Tüneller' bölümüne en ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2.2:0.3366 gap=0.001 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

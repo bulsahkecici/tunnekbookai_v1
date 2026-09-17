@@ -1,0 +1,133 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.7",
+    "2.4.3",
+    "3",
+    "2.4.1.3"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.4.3",
+      "section_title": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları",
+      "supporting_elements": [
+        "HEAD0022"
+      ]
+    },
+    {
+      "section_id": "3",
+      "section_title": "KARAYOLLARI GENEL MÜDÜRLÜĞÜ TÜNELLERİN TARİHÇESİ",
+      "supporting_elements": [
+        "HEAD0022"
+      ]
+    },
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.3",
+      "score": 0.663,
+      "rule_score": 0.3333,
+      "embedding_score": 0.798,
+      "chunk_vote": 0.3529
+    },
+    {
+      "id": "3",
+      "score": 0.624,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7897,
+      "chunk_vote": 0.1765
+    },
+    {
+      "id": "5.4",
+      "score": 0.5819,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7746,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.5817,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7742,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.5813,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7734,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.2",
+      "score": 0.3536,
+      "rule_score": 0.0,
+      "embedding_score": 0.7858,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3507,
+      "rule_score": 0.0,
+      "embedding_score": 0.7793,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3491,
+      "rule_score": 0.0,
+      "embedding_score": 0.7758,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3056,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.2592,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1176
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel işletme aşamasındaki güvenlik sistemlerini (aydınlatma, havalandırma, yangın, haberleşme, trafik kontrol) ve KGM'nin bu sistemlere yönelik stratejik planlarını detaylıca ele aldığı için 'Tünel Bakım-Onarım ve İşletme' (5.4) birincil bölümdür. Enerji tüketimi ve maliyet optimizasyonu vurgusu 'Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi' (5.7) ile, KGM'nin tünel projelendirme ve st",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:10",
+    "embeddings:8",
+    "top=2.4.3:0.663 gap=0.039 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

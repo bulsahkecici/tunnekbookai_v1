@@ -1,0 +1,651 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_468f5e9d5e753a9c6912acce239a76ef4d9512f72b1cc8a01da033aeed8998cb",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 26,
+    "SUPPORTED": 3,
+    "UNSUPPORTED": 21
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_c9d392dc922543d72fdbdd56228e6c2fdaf221b84fcbae3b2aa75d8b16ca1450",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_8061198414da018544b7e041c6d0d2f1787521a02a6563579a2194a41a2eb020",
+        "CLM_046aae0be7dc41fd3bfcb4c5d58d55d8a3f0cf81508137d8626316538abfa27e"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar kavramı nasıl tanımlanır?",
+      "question_id": "2.1.1-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8061198414da018544b7e041c6d0d2f1787521a02a6563579a2194a41a2eb020"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar için kullanılan temel teknik tanım nedir?",
+      "question_id": "2.1.1-Q02",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8e4790493f735c9bddf9e9609589049ccb8dcbc8633d7f18820204905a05b2df",
+        "CLM_8061198414da018544b7e041c6d0d2f1787521a02a6563579a2194a41a2eb020"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar kapsamına hangi yapılar, unsurlar veya durumlar girer?",
+      "question_id": "2.1.1-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8e4790493f735c9bddf9e9609589049ccb8dcbc8633d7f18820204905a05b2df"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar kapsamı dışında kalan benzer kavramlar nelerdir?",
+      "question_id": "2.1.1-Q04",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar ile yakın anlamlı kavramlar arasındaki temel farklar nelerdir?",
+      "question_id": "2.1.1-Q05",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8061198414da018544b7e041c6d0d2f1787521a02a6563579a2194a41a2eb020"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar açıklanırken hangi temel terimlerin önceden tanımlanması gerekir?",
+      "question_id": "2.1.1-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_046aae0be7dc41fd3bfcb4c5d58d55d8a3f0cf81508137d8626316538abfa27e",
+        "CLM_6c3607899842b3528a4f399ef4d0cd9d019daa760315f21a81faf82b9510f806"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar hangi mühendislik disiplinleriyle doğrudan ilişkilidir?",
+      "question_id": "2.1.1-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5d0b45f3dee772ef2672c1321a19d43638255de9b2e9afbb0a189d2c8f9b4a35",
+        "CLM_be70da32515f34269ac078ad78571fef83589f32e091af4ba8bc53eb4c6c8509"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar neden karayolu tünel mühendisliği açısından önemlidir?",
+      "question_id": "2.1.1-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar hangi amaçlara hizmet eder?",
+      "question_id": "2.1.1-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a3ea9cee304b9f596f30e2a84a6a6394e4921b2c8cb388113dd460e7bd4463d5",
+        "CLM_e07a16476fc4b4af487f4f92aae0abc343d001bf4654031aa0433e85e408502c",
+        "CLM_046aae0be7dc41fd3bfcb4c5d58d55d8a3f0cf81508137d8626316538abfa27e"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar değerlendirilirken hangi fiziksel özellikler dikkate alınır?",
+      "question_id": "2.1.1-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_be70da32515f34269ac078ad78571fef83589f32e091af4ba8bc53eb4c6c8509",
+        "CLM_6ea37835e2b8acaa53f1d4a6162a257ac5bff9f2042573b78a313e2151b652f5"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar değerlendirilirken hangi geometrik özellikler dikkate alınır?",
+      "question_id": "2.1.1-Q11",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_976b7f480d7d8496f5e078555348538b6445555c44163a007d2a2aa6089c56f6",
+        "CLM_be70da32515f34269ac078ad78571fef83589f32e091af4ba8bc53eb4c6c8509",
+        "CLM_a3ea9cee304b9f596f30e2a84a6a6394e4921b2c8cb388113dd460e7bd4463d5"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar değerlendirilirken hangi jeolojik ve geoteknik özellikler önemlidir?",
+      "question_id": "2.1.1-Q12",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.2,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar açısından güvenlik kavramı nasıl ele alınır?",
+      "question_id": "2.1.1-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5d0b45f3dee772ef2672c1321a19d43638255de9b2e9afbb0a189d2c8f9b4a35",
+        "CLM_2c05b83bbbab6f10439b72335510d57faa5e2a52e110cb499a938e4e6b453839"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar açısından işletme koşulları neden önemlidir?",
+      "question_id": "2.1.1-Q14",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.25,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar açısından bakım gereksinimleri nasıl tanımlanır?",
+      "question_id": "2.1.1-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a3ea9cee304b9f596f30e2a84a6a6394e4921b2c8cb388113dd460e7bd4463d5",
+        "CLM_3374ce48f57f32cb5d3043a2fbf8849d2238d1e6bc623943f058e6b402382565",
+        "CLM_a134e8a2b863bda62cbea8e00687a258b8df4f0f77d7a0fee1dc67c3b9b35c15"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar açısından yapım yöntemi seçiminin rolü nedir?",
+      "question_id": "2.1.1-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.2,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar ile tünel uzunluğu arasında nasıl bir ilişki kurulabilir?",
+      "question_id": "2.1.1-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_952afb87eb595ad126cb8ae6dedc225add687fc0450b84534ca76c28fcd7ac71",
+        "CLM_d3f74b80f41dbf8450f4910df1b167d8803bd369d12934d20952e04d54d8e4f9"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar ile tünel kesiti veya geometrisi arasında nasıl bir ilişki vardır?",
+      "question_id": "2.1.1-Q18",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.2,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar ile trafik türü ve trafik yoğunluğu arasındaki ilişki nedir?",
+      "question_id": "2.1.1-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.25,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar ile havalandırma gereksinimleri arasında nasıl bir bağ vardır?",
+      "question_id": "2.1.1-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.25,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar ile aydınlatma gereksinimleri arasında nasıl bir bağ vardır?",
+      "question_id": "2.1.1-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.2,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar ile drenaj ve su yalıtımı gereksinimleri arasında nasıl bir bağ vardır?",
+      "question_id": "2.1.1-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.25,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar ile yangın güvenliği arasında nasıl bir ilişki vardır?",
+      "question_id": "2.1.1-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.25,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar ile acil durum yönetimi arasında nasıl bir ilişki vardır?",
+      "question_id": "2.1.1-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fba5e65c68c7a043abac79533cfebffaa9e95bc5fa2924d9ef7f67676b8b40d6",
+        "CLM_2a6fa5ea1d27c8f327e32500fe154ed1efa72cf9b7a9a8604d80bbe0b4068f20"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar bakımından portal bölgelerinin önemi nedir?",
+      "question_id": "2.1.1-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e07a16476fc4b4af487f4f92aae0abc343d001bf4654031aa0433e85e408502c",
+        "CLM_a3ea9cee304b9f596f30e2a84a6a6394e4921b2c8cb388113dd460e7bd4463d5",
+        "CLM_8061198414da018544b7e041c6d0d2f1787521a02a6563579a2194a41a2eb020"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar bakımından tünel içi kaplama ve destek sistemlerinin rolü nedir?",
+      "question_id": "2.1.1-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a3ea9cee304b9f596f30e2a84a6a6394e4921b2c8cb388113dd460e7bd4463d5",
+        "CLM_e07a16476fc4b4af487f4f92aae0abc343d001bf4654031aa0433e85e408502c",
+        "CLM_2cc17694771592411b03baa1951881281ba8e3f60c3c0da97cdcdafc5f63d979"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar hangi ölçülebilir parametrelerle ifade edilebilir?",
+      "question_id": "2.1.1-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar için kullanılan birimler ve temel büyüklükler nelerdir?",
+      "question_id": "2.1.1-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar ile ilgili terminolojide ulusal ve uluslararası kullanım farklılıkları var mıdır?",
+      "question_id": "2.1.1-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8e4790493f735c9bddf9e9609589049ccb8dcbc8633d7f18820204905a05b2df"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar ile ilgili tanımlar hangi standart, şartname veya teknik kılavuzlarda yer alır?",
+      "question_id": "2.1.1-Q30",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar Türkiye’deki karayolu tüneli uygulamalarında nasıl kullanılır?",
+      "question_id": "2.1.1-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_046aae0be7dc41fd3bfcb4c5d58d55d8a3f0cf81508137d8626316538abfa27e"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar uluslararası tünel mühendisliği literatüründe nasıl ele alınır?",
+      "question_id": "2.1.1-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8061198414da018544b7e041c6d0d2f1787521a02a6563579a2194a41a2eb020",
+        "CLM_f713c887fb792a58d06c685519d9c17c197b05ca13dd86db0bfb3f4bf4d29d06"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar konusunda sık karıştırılan terimler hangileridir?",
+      "question_id": "2.1.1-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8061198414da018544b7e041c6d0d2f1787521a02a6563579a2194a41a2eb020"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar konusunda yanlış veya eksik anlaşılmaya yol açabilecek noktalar nelerdir?",
+      "question_id": "2.1.1-Q34",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_68a92bcd70bc4ad20114d0415d8cc91d77b49ed906faf6ea3f388b435ab94596",
+        "CLM_7c868b34220d653e213c5ed90d3029e89c28299a31a12a9c60e4b01635fc5cbc"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar teknik çizimlerde ve projelerde nasıl gösterilir?",
+      "question_id": "2.1.1-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8e4790493f735c9bddf9e9609589049ccb8dcbc8633d7f18820204905a05b2df",
+        "CLM_e50b2d9cc2112307b50e02ba71a243653bb59c0e64af3c1ba260dbfb35ab5f4b"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar sözleşme ve ihale dokümanlarında nasıl tanımlanmalıdır?",
+      "question_id": "2.1.1-Q36",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar maliyet analizlerinde nasıl sınırlandırılmalıdır?",
+      "question_id": "2.1.1-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar yaşam döngüsü yaklaşımı içinde nasıl konumlandırılır?",
+      "question_id": "2.1.1-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3ca2a67022c3d0e7f5a3edf91d30f407b35fc5ed9e0b8bd6d8ab4406ae93317b"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar risk değerlendirmelerinde nasıl kullanılır?",
+      "question_id": "2.1.1-Q39",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar kalite kontrol süreçlerinde nasıl ele alınır?",
+      "question_id": "2.1.1-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a3ea9cee304b9f596f30e2a84a6a6394e4921b2c8cb388113dd460e7bd4463d5",
+        "CLM_68a92bcd70bc4ad20114d0415d8cc91d77b49ed906faf6ea3f388b435ab94596"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar için hangi saha verileri gereklidir?",
+      "question_id": "2.1.1-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_68a92bcd70bc4ad20114d0415d8cc91d77b49ed906faf6ea3f388b435ab94596",
+        "CLM_512976dd10c7aaf289ad7b9a0a70b757db873e65a8f3c75ca20cea82b7681345"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar için hangi proje verileri gereklidir?",
+      "question_id": "2.1.1-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0afd837c5e96e25d2f5ad11f5fb81cf50662a061b1c9d342fcc03847cd8baaa9",
+        "CLM_3ca2a67022c3d0e7f5a3edf91d30f407b35fc5ed9e0b8bd6d8ab4406ae93317b"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar için hangi işletme verileri gereklidir?",
+      "question_id": "2.1.1-Q43",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_88c157b09c29bafb451e3d2c971ea2bb2127cbf85799cf4f4da8873406dc77f7",
+        "CLM_8061198414da018544b7e041c6d0d2f1787521a02a6563579a2194a41a2eb020"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar farklı tünel türlerinde nasıl değişir?",
+      "question_id": "2.1.1-Q44",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a3ea9cee304b9f596f30e2a84a6a6394e4921b2c8cb388113dd460e7bd4463d5",
+        "CLM_e07a16476fc4b4af487f4f92aae0abc343d001bf4654031aa0433e85e408502c",
+        "CLM_f713c887fb792a58d06c685519d9c17c197b05ca13dd86db0bfb3f4bf4d29d06"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar farklı zemin koşullarında nasıl değişir?",
+      "question_id": "2.1.1-Q45",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a3ea9cee304b9f596f30e2a84a6a6394e4921b2c8cb388113dd460e7bd4463d5",
+        "CLM_e07a16476fc4b4af487f4f92aae0abc343d001bf4654031aa0433e85e408502c"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerle İlgili Tanımlamalar farklı yapım yöntemlerinde nasıl değişir?",
+      "question_id": "2.1.1-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar zaman içinde teknolojik gelişmelerden nasıl etkilenmiştir?",
+      "question_id": "2.1.1-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar sürdürülebilirlik açısından nasıl değerlendirilmelidir?",
+      "question_id": "2.1.1-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar için kitapta verilmesi gereken en temel örnekler nelerdir?",
+      "question_id": "2.1.1-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerle İlgili Tanımlamalar hakkında okuyucunun bölüm sonunda hangi temel kavramları ayırt edebilmesi gerekir?",
+      "question_id": "2.1.1-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "2.1.1",
+  "section_title": "Tünellerle İlgili Tanımlamalar",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_046aae0be7dc41fd3bfcb4c5d58d55d8a3f0cf81508137d8626316538abfa27e",
+      "CLM_0afd837c5e96e25d2f5ad11f5fb81cf50662a061b1c9d342fcc03847cd8baaa9",
+      "CLM_2a6fa5ea1d27c8f327e32500fe154ed1efa72cf9b7a9a8604d80bbe0b4068f20",
+      "CLM_2c05b83bbbab6f10439b72335510d57faa5e2a52e110cb499a938e4e6b453839",
+      "CLM_2cc17694771592411b03baa1951881281ba8e3f60c3c0da97cdcdafc5f63d979",
+      "CLM_3374ce48f57f32cb5d3043a2fbf8849d2238d1e6bc623943f058e6b402382565",
+      "CLM_3ca2a67022c3d0e7f5a3edf91d30f407b35fc5ed9e0b8bd6d8ab4406ae93317b",
+      "CLM_512976dd10c7aaf289ad7b9a0a70b757db873e65a8f3c75ca20cea82b7681345",
+      "CLM_5d0b45f3dee772ef2672c1321a19d43638255de9b2e9afbb0a189d2c8f9b4a35",
+      "CLM_68a92bcd70bc4ad20114d0415d8cc91d77b49ed906faf6ea3f388b435ab94596",
+      "CLM_6c3607899842b3528a4f399ef4d0cd9d019daa760315f21a81faf82b9510f806",
+      "CLM_6ea37835e2b8acaa53f1d4a6162a257ac5bff9f2042573b78a313e2151b652f5",
+      "CLM_7c868b34220d653e213c5ed90d3029e89c28299a31a12a9c60e4b01635fc5cbc",
+      "CLM_8061198414da018544b7e041c6d0d2f1787521a02a6563579a2194a41a2eb020",
+      "CLM_88c157b09c29bafb451e3d2c971ea2bb2127cbf85799cf4f4da8873406dc77f7",
+      "CLM_8e4790493f735c9bddf9e9609589049ccb8dcbc8633d7f18820204905a05b2df",
+      "CLM_952afb87eb595ad126cb8ae6dedc225add687fc0450b84534ca76c28fcd7ac71",
+      "CLM_976b7f480d7d8496f5e078555348538b6445555c44163a007d2a2aa6089c56f6",
+      "CLM_a134e8a2b863bda62cbea8e00687a258b8df4f0f77d7a0fee1dc67c3b9b35c15",
+      "CLM_a3ea9cee304b9f596f30e2a84a6a6394e4921b2c8cb388113dd460e7bd4463d5",
+      "CLM_be70da32515f34269ac078ad78571fef83589f32e091af4ba8bc53eb4c6c8509",
+      "CLM_d3f74b80f41dbf8450f4910df1b167d8803bd369d12934d20952e04d54d8e4f9",
+      "CLM_e07a16476fc4b4af487f4f92aae0abc343d001bf4654031aa0433e85e408502c",
+      "CLM_e50b2d9cc2112307b50e02ba71a243653bb59c0e64af3c1ba260dbfb35ab5f4b",
+      "CLM_f713c887fb792a58d06c685519d9c17c197b05ca13dd86db0bfb3f4bf4d29d06",
+      "CLM_fba5e65c68c7a043abac79533cfebffaa9e95bc5fa2924d9ef7f67676b8b40d6"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "2.1.1-Q01",
+      "2.1.1-Q02",
+      "2.1.1-Q03",
+      "2.1.1-Q06",
+      "2.1.1-Q07",
+      "2.1.1-Q08",
+      "2.1.1-Q10",
+      "2.1.1-Q11",
+      "2.1.1-Q12",
+      "2.1.1-Q14",
+      "2.1.1-Q16",
+      "2.1.1-Q25",
+      "2.1.1-Q26",
+      "2.1.1-Q27",
+      "2.1.1-Q30",
+      "2.1.1-Q32",
+      "2.1.1-Q33",
+      "2.1.1-Q34",
+      "2.1.1-Q35",
+      "2.1.1-Q39",
+      "2.1.1-Q41",
+      "2.1.1-Q42",
+      "2.1.1-Q43",
+      "2.1.1-Q44",
+      "2.1.1-Q45",
+      "2.1.1-Q46"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "2.1.1-Q05",
+      "2.1.1-Q09",
+      "2.1.1-Q13",
+      "2.1.1-Q15",
+      "2.1.1-Q17",
+      "2.1.1-Q19",
+      "2.1.1-Q20",
+      "2.1.1-Q21",
+      "2.1.1-Q22",
+      "2.1.1-Q23",
+      "2.1.1-Q24",
+      "2.1.1-Q28",
+      "2.1.1-Q29",
+      "2.1.1-Q31",
+      "2.1.1-Q37",
+      "2.1.1-Q38",
+      "2.1.1-Q40",
+      "2.1.1-Q47",
+      "2.1.1-Q48",
+      "2.1.1-Q49",
+      "2.1.1-Q50"
+    ]
+  }
+}

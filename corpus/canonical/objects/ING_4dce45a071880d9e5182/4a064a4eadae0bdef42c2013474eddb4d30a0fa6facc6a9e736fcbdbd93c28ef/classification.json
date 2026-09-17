@@ -1,0 +1,115 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "2.4.1.3"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "LIST0010"
+      ]
+    },
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": [
+        "LIST0010"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.1.3",
+      "score": 0.5413,
+      "rule_score": 0.2,
+      "embedding_score": 0.8029,
+      "chunk_vote": 0.1
+    },
+    {
+      "id": "5.4",
+      "score": 0.5198,
+      "rule_score": 0.2,
+      "embedding_score": 0.7995,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3669,
+      "rule_score": 0.0,
+      "embedding_score": 0.8153,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3634,
+      "rule_score": 0.0,
+      "embedding_score": 0.8076,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4",
+      "score": 0.3611,
+      "rule_score": 0.0,
+      "embedding_score": 0.8024,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3606,
+      "rule_score": 0.0,
+      "embedding_score": 0.8014,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3605,
+      "rule_score": 0.0,
+      "embedding_score": 0.8012,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3602,
+      "rule_score": 0.0,
+      "embedding_score": 0.8004,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.3033,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.6
+    },
+    {
+      "id": "1.1",
+      "score": 0.2433,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Federal Highway Administration'ın (FHWA) tünel projeleriyle ilgili bağlantıları ve programlarını listelemektedir. Bu içerik, altyapı varlıklarının yönetimi, korunması ve işletilmesiyle doğrudan ilgilidir; bu nedenle 'Tünel Bakım-Onarım ve İşletme' (5.4) en uygun birincil bölümdür. 'Kullanım Aşaması Çalışmaları' (2.4.1.3) ise tünelin işletme ve bakım aşamasındaki genel faaliyetleri kapsadığı",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:7",
+    "chunk_votes:2",
+    "embeddings:8",
+    "top=2.4.1.3:0.5413 gap=0.021 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

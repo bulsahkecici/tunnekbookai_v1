@@ -1,0 +1,85 @@
+{
+  "document_id": "ING_17e5e4aa41637a66b3de",
+  "fields": [
+    {
+      "field": "title",
+      "value": "TÜRK İ YE TÜNELC İ L İ K SEM İ NER İ 2013",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2013",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "Dosya yolu/başlıkta açık yıl: 2013"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "fire_safety",
+        "inspection",
+        "safety",
+        "standards",
+        "traffic",
+        "ventilation"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "safety:güvenlik; fire_safety:yangın; ventilation:havalandırma; traffic:trafik; inspection:muayene; standards:standart; accident:kaza; tunnel_general:tünel"
+    }
+  ]
+}

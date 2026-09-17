@@ -1,0 +1,104 @@
+{
+  "document_id": "ING_8f5557ab42f7b5c58a81",
+  "fields": [
+    {
+      "field": "title",
+      "value": "PÜSKÜRTME BETONUN YAKLAŞIK MALİYET ANALİZİ İÇİN UYGULAMA GELİŞTİRİLMESİ",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Melda Alkan Çakıroğlu",
+        "Ahmet Ali Süzen",
+        "İlkenur ŞENTÜRK"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2020",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "cost_analysis",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: maliyet analiz"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "cost",
+        "operations",
+        "shotcrete",
+        "steel_mesh",
+        "support_systems",
+        "unit_price"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "shotcrete:püskürtme beton; steel_mesh:çelik hasır; support_systems:tahkimat; operations:işletme; cost:maliyet; unit_price:birim fiyat"
+    },
+    {
+      "field": "source_url",
+      "value": "https://dergipark.org.tr/tr/download/article-file/1014007",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.21923/jesd.562008",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "final_primary_section": "1.5",
+  "final_secondary_sections": [
+    "1.5.1",
+    "1.4.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.5",
+      "section_title": "Tünel Felaketleri",
+      "supporting_elements": [
+        "HEAD0004",
+        "PARA0006",
+        "PARA0085",
+        "PARA0090",
+        "PARA0095",
+        "PARA0097",
+        "PARA0098",
+        "PARA0100",
+        "PARA0103",
+        "PARA0104",
+        "PARA0105",
+        "PARA0111",
+        "PARA0115",
+        "PARA0116",
+        "PARA0119"
+      ]
+    },
+    {
+      "section_id": "1.5.1",
+      "section_title": "Dünyada Gerçekleşen Önemli Tünel Felaketleri",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "1.4.1",
+      "section_title": "Dünyada Karayolu Tünelleri",
+      "supporting_elements": [
+        "HEAD0004",
+        "PARA0006",
+        "PARA0088",
+        "PARA0089",
+        "PARA0093",
+        "PARA0100",
+        "PARA0109",
+        "PARA0112",
+        "PARA0113"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.6",
+      "score": 0.7661,
+      "rule_score": 0.6364,
+      "embedding_score": 0.7774,
+      "chunk_vote": 0.081
+    },
+    {
+      "id": "1.5",
+      "score": 0.7326,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7742,
+      "chunk_vote": 0.1431
+    },
+    {
+      "id": "1.4.1",
+      "score": 0.6383,
+      "rule_score": 0.4286,
+      "embedding_score": 0.772,
+      "chunk_vote": 0.0257
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3686,
+      "rule_score": 0.0,
+      "embedding_score": 0.7872,
+      "chunk_vote": 0.0719
+    },
+    {
+      "id": "1.5.2",
+      "score": 0.3619,
+      "rule_score": 0.0,
+      "embedding_score": 0.8043,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.1",
+      "score": 0.3604,
+      "rule_score": 0.0,
+      "embedding_score": 0.8008,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "3",
+      "score": 0.3559,
+      "rule_score": 0.0,
+      "embedding_score": 0.7772,
+      "chunk_vote": 0.0308
+    },
+    {
+      "id": "4.3.5",
+      "score": 0.3502,
+      "rule_score": 0.0,
+      "embedding_score": 0.7782,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3305,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2775
+    },
+    {
+      "id": "5.7",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, uzun bir karayolu tünelinde yangın senaryosunun acil durum simülasyonunu (CFD analizi) ele almaktadır. Bu içerik, tünel yangınları ve güvenlik yönetimi kapsamında değerlendirildiğinden 'Tünel Felaketleri' (1.5) başlığıyla en güçlü ilişkilidir. Dünyadaki büyük tünel yangınlarına atıfta bulunması nedeniyle 'Dünyada Gerçekleşen Önemli Tünel Felaketleri' (1.5.1) ikincil bölüm olarak listelenmiş",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.6:0.7661 gap=0.033 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

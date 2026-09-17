@@ -1,0 +1,102 @@
+{
+  "final_primary_section": "5.6",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.6712,
+  "classification_methods": [
+    "heading_rules",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.6",
+      "score": 0.6712,
+      "rule_score": 0.5,
+      "embedding_score": 0.7693,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.35,
+      "rule_score": 0.0,
+      "embedding_score": 0.7777,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3477,
+      "rule_score": 0.0,
+      "embedding_score": 0.7727,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.347,
+      "rule_score": 0.0,
+      "embedding_score": 0.7712,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3469,
+      "rule_score": 0.0,
+      "embedding_score": 0.7709,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3466,
+      "rule_score": 0.0,
+      "embedding_score": 0.7702,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.346,
+      "rule_score": 0.0,
+      "embedding_score": 0.7689,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3448,
+      "rule_score": 0.0,
+      "embedding_score": 0.7662,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:5",
+    "chunk_votes:13",
+    "embeddings:8",
+    "top=5.6:0.6712 gap=0.321 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

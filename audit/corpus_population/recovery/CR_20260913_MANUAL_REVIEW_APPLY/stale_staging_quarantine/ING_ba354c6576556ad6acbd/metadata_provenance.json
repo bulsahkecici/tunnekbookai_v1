@@ -1,0 +1,104 @@
+{
+  "document_id": "ING_ba354c6576556ad6acbd",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Challenges and solutions of large diameter TBM assembly in deep cavern construction inside the Highway Tunnel in Istanbul",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "C. Balci",
+        "S. Acun",
+        "D. Bayram",
+        "C. Balkaya"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2026",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "excavation",
+        "natm",
+        "operations",
+        "portal",
+        "tbm"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; tbm:tbm; excavation:excavat; portal:portal; operations:operation; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://www.taylorfrancis.com/chapters/oa-edit/10.1201/9781042001064-16/challenges-solutions-large-diameter-tbm-assembly-deep-cavern-construction-inside-highway-tunnel-istanbul-balci-acun-bayram-balkaya",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1201/9781042001064-16",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

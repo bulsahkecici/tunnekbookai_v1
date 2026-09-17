@@ -1,0 +1,716 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_1ece227295f7640f4a6e0b516a366a47ae5eacd1a96a96701b8355d261a367d1",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 16,
+    "SUPPORTED": 15,
+    "UNSUPPORTED": 19
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_1e67deeb64219eba3ed6a470ef0d3b0ecfc09ddeaa5027754258e178937734bb",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kavramının kapsamı ve temel amacı nedir?",
+      "question_id": "5.7.1-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri tünel güvenliği açısından neden gereklidir?",
+      "question_id": "5.7.1-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri hizmet sürekliliği açısından neden gereklidir?",
+      "question_id": "5.7.1-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fa18df999971f378ee980e66998328bfc6456b285d4f8172d8e95b553467bc7d",
+        "CLM_fa5bb9cf95a0adca127ab7a807495b0921a2c56a857b07244840e55a06f257ac"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında hangi yapısal bileşenler dikkate alınır?",
+      "question_id": "5.7.1-Q04",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a0cf69a42f0c442930a761e2adc787c282cfd73656b0d982a5d6623b56d5318e",
+        "CLM_be52097f41800179cca29dede0c7787720bf9f223308c71a08508a9902aeec2f",
+        "CLM_ace6c58c1c057ddcc90aacb3d64c8e47b66e8751b22b23915163924e1dd827d4"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında hangi elektrik sistemleri dikkate alınır?",
+      "question_id": "5.7.1-Q05",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_be52097f41800179cca29dede0c7787720bf9f223308c71a08508a9902aeec2f",
+        "CLM_2f904d9c76378356ecd2e440625615b6c3444ad7bfbd40a6bc1697a041736497"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında hangi elektronik sistemler dikkate alınır?",
+      "question_id": "5.7.1-Q06",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ace6c58c1c057ddcc90aacb3d64c8e47b66e8751b22b23915163924e1dd827d4",
+        "CLM_a0cf69a42f0c442930a761e2adc787c282cfd73656b0d982a5d6623b56d5318e"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında hangi elektromekanik sistemler dikkate alınır?",
+      "question_id": "5.7.1-Q07",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6f7c7581c4a46e2a267a0d10a5cff24f8f1a4a45958208b8d6b658f7d279a84c",
+        "CLM_45bd04eb8c0874711479f8e51ac31fb4525658d74fafc1c508ad5b2279f30c0d",
+        "CLM_b57428d302487542243e79f33db696ddfc9a4a4e36e3342e401c91e4033f1d74"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında havalandırma sistemleri nasıl ele alınır?",
+      "question_id": "5.7.1-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a0cf69a42f0c442930a761e2adc787c282cfd73656b0d982a5d6623b56d5318e",
+        "CLM_b57428d302487542243e79f33db696ddfc9a4a4e36e3342e401c91e4033f1d74",
+        "CLM_fa5bb9cf95a0adca127ab7a807495b0921a2c56a857b07244840e55a06f257ac"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında aydınlatma sistemleri nasıl ele alınır?",
+      "question_id": "5.7.1-Q09",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a0cf69a42f0c442930a761e2adc787c282cfd73656b0d982a5d6623b56d5318e",
+        "CLM_a597e50fa657757d89eadac4b435a090ab0987486e8c4dd7a7d4066a0597be2a",
+        "CLM_5885ca663d8ab5d8dfae8936d638e8710f0bb5bc49a04b86c8752ca4b3205cfd",
+        "CLM_ace6c58c1c057ddcc90aacb3d64c8e47b66e8751b22b23915163924e1dd827d4"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında enerji dağıtım ve yedek güç sistemleri nasıl ele alınır?",
+      "question_id": "5.7.1-Q10",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6298245fc8e273f31bc46d97035dcb9cf15f234cd6011af41b1c8b8a0e4563fc",
+        "CLM_afd5e02adaec0d78aee980dfc7704b680822263ae070f1ce08dc225c2e3b6cbc",
+        "CLM_a0cf69a42f0c442930a761e2adc787c282cfd73656b0d982a5d6623b56d5318e"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında yangın algılama ve söndürme sistemleri nasıl ele alınır?",
+      "question_id": "5.7.1-Q11",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a4071e9bf616698cdce7d5ff2140ced361bc535023ead3b83de4df3cc73cf80a",
+        "CLM_d04c5ebf757d41ff1c63c94aa0d1d4692aa2fd3ce12efe3232f3500fa2644c43",
+        "CLM_55c45dc1a403917854d8e7aac6a1e7195ebf57a0e8e055b871205468a64f505b",
+        "CLM_bfeefed031bead7b0f7cf77ed41f2f35ceaff491221a7f66449cae209ffae270"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında kamera, haberleşme ve olay algılama sistemleri nasıl ele alınır?",
+      "question_id": "5.7.1-Q12",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_10cc373993a9ed5e214c65256e848ebde27a58d7e7ceb542b02b270acead7d3f",
+        "CLM_a0cf69a42f0c442930a761e2adc787c282cfd73656b0d982a5d6623b56d5318e",
+        "CLM_afd5e02adaec0d78aee980dfc7704b680822263ae070f1ce08dc225c2e3b6cbc",
+        "CLM_1e67b0582a54a0651aef4f473165b948af057411a1d05f10b86abef18d638a7e"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında drenaj, pompa ve su yalıtımı sistemleri nasıl ele alınır?",
+      "question_id": "5.7.1-Q13",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında kaplama, derz ve yüzey bozulmaları nasıl izlenir?",
+      "question_id": "5.7.1-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında portal ve yaklaşım bölgeleri nasıl ele alınır?",
+      "question_id": "5.7.1-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9dba9250108d7bca845880ba4dbd56369971a546244c1b991d90284312f1bd32",
+        "CLM_4159fd5ca743347eae7edc3951918afc9d00628491c8156d5580d4ccaaf05299",
+        "CLM_64c72fdfc4895193561035bce235ef330a553531ba16e40c416a0204075f50c4"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için bakım türleri nasıl sınıflandırılır?",
+      "question_id": "5.7.1-Q16",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a9102008a682b03bc8cb1cba52febdfb48df75cf837b47724d17dfccc083e481",
+        "CLM_c984abdd92e218fc830935d8bf980daa29ddbea47f6f393a01b492951a53248d",
+        "CLM_2adb874a0d0bb9d56d1d677d9ff6e2d2595e231e970d1db47b3f50a67d66c549"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri içinde rutin bakım ile periyodik bakım arasındaki fark nedir?",
+      "question_id": "5.7.1-Q17",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_129a3ae6dab380e3f3c12ff743945ae8c01018ef0bf003e31c4c4be81dd72900",
+        "CLM_c779cd410a7883b49997f1d3d53fbed0ad06a1b68ff66da6fe9247d40f199d92",
+        "CLM_15772d060048d250365503efbcfe5eb6535d19b8cbd7d73a5066fe28f617f41a"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri içinde önleyici bakım ile düzeltici bakım arasındaki fark nedir?",
+      "question_id": "5.7.1-Q18",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_10e4d709d2341bc23a9d43802e82776832edbb5d009d153d87249f630489a97d",
+        "CLM_9c72a10bb9f7c63daafb3a074e5d01719a3b40c95b981aea2ed7b164fe8d71fd",
+        "CLM_b8c0b547332b64c9d5d9a48240a408fd9a5dadb2078695fc1914a85a08d8c998"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri içinde kestirimci bakım hangi verilerle uygulanabilir?",
+      "question_id": "5.7.1-Q19",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a9102008a682b03bc8cb1cba52febdfb48df75cf837b47724d17dfccc083e481",
+        "CLM_9dba9250108d7bca845880ba4dbd56369971a546244c1b991d90284312f1bd32",
+        "CLM_10e4d709d2341bc23a9d43802e82776832edbb5d009d153d87249f630489a97d",
+        "CLM_fa5bb9cf95a0adca127ab7a807495b0921a2c56a857b07244840e55a06f257ac"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için bakım periyotları nasıl belirlenir?",
+      "question_id": "5.7.1-Q20",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7bd8100ebbae9b34b506e62f5eeca0cbb64280271a992cb7884081421806fbb5",
+        "CLM_24049a150e56e98ff776215ea865dcd8658d647531c212db069758f3c9072a18",
+        "CLM_c779cd410a7883b49997f1d3d53fbed0ad06a1b68ff66da6fe9247d40f199d92"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için kritik ekipmanların önceliklendirilmesi nasıl yapılır?",
+      "question_id": "5.7.1-Q21",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9dba9250108d7bca845880ba4dbd56369971a546244c1b991d90284312f1bd32",
+        "CLM_7e41659b0bcb063c70074b8a1aab46bd25f049874912e936e3a8f6edc4f42a8c",
+        "CLM_40d86adea579ef0380e7150f582f0ca1d82a0e78b36d589670c9a759e1d63edf",
+        "CLM_10e4d709d2341bc23a9d43802e82776832edbb5d009d153d87249f630489a97d"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için arıza modları ve etkileri nasıl analiz edilir?",
+      "question_id": "5.7.1-Q22",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2212f8b9efffe56dcb97df44ba43a40e787a95681f3afe920f477484f45955b6",
+        "CLM_9dba9250108d7bca845880ba4dbd56369971a546244c1b991d90284312f1bd32",
+        "CLM_fc0fe2ff64ca27f7665d521f71cd776ce4a741204fe2d2d91436301c019c5d54"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için durum değerlendirme ve kondisyon puanlama sistemi nasıl kurulabilir?",
+      "question_id": "5.7.1-Q23",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_20e295f6d6220a34e0416fd2837becae05e17ce7a6bba880a5284e0c157c4db1",
+        "CLM_e184b68f72a65f57bb66fb916f03523c28e66128472c1f41c217187e2c259e29"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için sensör ve uzaktan izleme verileri nasıl kullanılabilir?",
+      "question_id": "5.7.1-Q24",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fa578b778722877a4fd74daa48fa9b3990e36b1328399abe04da31c6c7fdb29f",
+        "CLM_89d856f7035687af8993eeb2d8fcf2744f19d723b050f54a94d37f11cf17007e",
+        "CLM_658e40df08039628a6cc5e9f8db92c91483bd02c6b30914673db9f36d3f11729",
+        "CLM_2e5ce350eaebfd846376ff2bf644263776d31a91c18a33daa1ea15a866ab35c2"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için bakım kayıtlarında hangi bilgiler tutulmalıdır?",
+      "question_id": "5.7.1-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f8a040ea0db4e8d4bbcb2bbed371ed0fe7dd8fffbd3f191eae25f7305a3f0d4a",
+        "CLM_129a3ae6dab380e3f3c12ff743945ae8c01018ef0bf003e31c4c4be81dd72900",
+        "CLM_c779cd410a7883b49997f1d3d53fbed0ad06a1b68ff66da6fe9247d40f199d92"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için yedek parça yönetimi nasıl planlanmalıdır?",
+      "question_id": "5.7.1-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için personel ve vardiya planlaması nasıl yapılmalıdır?",
+      "question_id": "5.7.1-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için yüklenici ve hizmet alımı yönetimi nasıl yapılmalıdır?",
+      "question_id": "5.7.1-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri sırasında trafik güvenliği nasıl sağlanmalıdır?",
+      "question_id": "5.7.1-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri sırasında şerit veya tünel kapatma kararları nasıl verilmelidir?",
+      "question_id": "5.7.1-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri sırasında iş sağlığı ve güvenliği riskleri nasıl yönetilmelidir?",
+      "question_id": "5.7.1-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c779cd410a7883b49997f1d3d53fbed0ad06a1b68ff66da6fe9247d40f199d92",
+        "CLM_129a3ae6dab380e3f3c12ff743945ae8c01018ef0bf003e31c4c4be81dd72900",
+        "CLM_f8a040ea0db4e8d4bbcb2bbed371ed0fe7dd8fffbd3f191eae25f7305a3f0d4a"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için acil müdahale ile planlı bakım nasıl koordine edilmelidir?",
+      "question_id": "5.7.1-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9c72a10bb9f7c63daafb3a074e5d01719a3b40c95b981aea2ed7b164fe8d71fd",
+        "CLM_1ef03d596f54dc5b2e0c4000df1162f95e82e15cad89043f1fdeb94b69d1fbc7",
+        "CLM_9dba9250108d7bca845880ba4dbd56369971a546244c1b991d90284312f1bd32",
+        "CLM_10e4d709d2341bc23a9d43802e82776832edbb5d009d153d87249f630489a97d"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri performansı hangi göstergelerle ölçülmelidir?",
+      "question_id": "5.7.1-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında kullanılabilirlik ve arıza süresi nasıl izlenmelidir?",
+      "question_id": "5.7.1-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_32c487fec288401658a740e6b25d4a1c717fbabf73f6048f3114caf9ffb4801f",
+        "CLM_a0cf69a42f0c442930a761e2adc787c282cfd73656b0d982a5d6623b56d5318e",
+        "CLM_331608b104ef05af6c251bf6baa86052033ac64d9919729f1f436a26b7469ed3",
+        "CLM_b57428d302487542243e79f33db696ddfc9a4a4e36e3342e401c91e4033f1d74"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında enerji tüketimi hangi göstergelerle izlenmelidir?",
+      "question_id": "5.7.1-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9c72a10bb9f7c63daafb3a074e5d01719a3b40c95b981aea2ed7b164fe8d71fd",
+        "CLM_331608b104ef05af6c251bf6baa86052033ac64d9919729f1f436a26b7469ed3",
+        "CLM_fa578b778722877a4fd74daa48fa9b3990e36b1328399abe04da31c6c7fdb29f",
+        "CLM_1ef03d596f54dc5b2e0c4000df1162f95e82e15cad89043f1fdeb94b69d1fbc7"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında bakım maliyeti hangi göstergelerle izlenmelidir?",
+      "question_id": "5.7.1-Q36",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında arızaların tekrarlanma oranı nasıl izlenmelidir?",
+      "question_id": "5.7.1-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri kapsamında güvenlik olayları ve ramak kala kayıtları nasıl kullanılmalıdır?",
+      "question_id": "5.7.1-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için denetim ve kabul kriterleri nelerdir?",
+      "question_id": "5.7.1-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için mevzuat, standart ve teknik şartname gereklilikleri nelerdir?",
+      "question_id": "5.7.1-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için Karayolları Genel Müdürlüğü uygulamalarında hangi süreçler öne çıkar?",
+      "question_id": "5.7.1-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_331608b104ef05af6c251bf6baa86052033ac64d9919729f1f436a26b7469ed3",
+        "CLM_b57428d302487542243e79f33db696ddfc9a4a4e36e3342e401c91e4033f1d74",
+        "CLM_3d2704dcf7146c9e87c01e68a9f659fe113f5b7562f00690e9a5db9b3d4308f3",
+        "CLM_20e295f6d6220a34e0416fd2837becae05e17ce7a6bba880a5284e0c157c4db1"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için enerji verimliliği hangi teknik önlemlerle artırılabilir?",
+      "question_id": "5.7.1-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için otomasyon ve akıllı kontrol sistemleri hangi faydaları sağlayabilir?",
+      "question_id": "5.7.1-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2eef060975980ffcfd8284b3f9c50247fe0dc3cbe3fe35c0e48cee1457892b20",
+        "CLM_34352dfc4d13c9006e8535435dd5f9e2a7ac67a1fa02a533bbc07111e6f73f69",
+        "CLM_154df57d7d00c43d5830c8c3ceb9225ffbb96e0f02589e72990a64d46a55022e",
+        "CLM_4295e3abe7aa1112190e8bb1fdb6e84708c1a3542125683a9b9fedd8b77975e1"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için yaşam döngüsü maliyet yaklaşımı nasıl uygulanabilir?",
+      "question_id": "5.7.1-Q44",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9dba9250108d7bca845880ba4dbd56369971a546244c1b991d90284312f1bd32",
+        "CLM_331608b104ef05af6c251bf6baa86052033ac64d9919729f1f436a26b7469ed3",
+        "CLM_fa578b778722877a4fd74daa48fa9b3990e36b1328399abe04da31c6c7fdb29f",
+        "CLM_9c72a10bb9f7c63daafb3a074e5d01719a3b40c95b981aea2ed7b164fe8d71fd"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için bakım ertelemesinin teknik ve ekonomik sonuçları nelerdir?",
+      "question_id": "5.7.1-Q45",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9dba9250108d7bca845880ba4dbd56369971a546244c1b991d90284312f1bd32",
+        "CLM_129a3ae6dab380e3f3c12ff743945ae8c01018ef0bf003e31c4c4be81dd72900",
+        "CLM_6049dfc76e23a6476e45b3159e844e4ad64d841f587fc4863da246ff4ba7a972",
+        "CLM_7e41659b0bcb063c70074b8a1aab46bd25f049874912e936e3a8f6edc4f42a8c"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için yenileme veya modernizasyon kararı hangi kriterlerle verilmelidir?",
+      "question_id": "5.7.1-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri sürdürülebilirlik ve karbon ayak izi açısından nasıl geliştirilebilir?",
+      "question_id": "5.7.1-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri konusunda Türkiye’den hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "5.7.1-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_331608b104ef05af6c251bf6baa86052033ac64d9919729f1f436a26b7469ed3",
+        "CLM_20e295f6d6220a34e0416fd2837becae05e17ce7a6bba880a5284e0c157c4db1",
+        "CLM_90bb8262e07b0bf2ad728b3b997dc2a594fdafa2a4d05c2868f10c5c3b15b931",
+        "CLM_fa578b778722877a4fd74daa48fa9b3990e36b1328399abe04da31c6c7fdb29f"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri konusunda dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "5.7.1-Q49",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9dba9250108d7bca845880ba4dbd56369971a546244c1b991d90284312f1bd32",
+        "CLM_331608b104ef05af6c251bf6baa86052033ac64d9919729f1f436a26b7469ed3",
+        "CLM_129a3ae6dab380e3f3c12ff743945ae8c01018ef0bf003e31c4c4be81dd72900",
+        "CLM_10e4d709d2341bc23a9d43802e82776832edbb5d009d153d87249f630489a97d"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Bakım-İşletme Maliyetini Azaltma Yöntemleri için optimum güvenlik, performans ve maliyet dengesi nasıl kurulabilir?",
+      "question_id": "5.7.1-Q50",
+      "reason_code": "PARTIAL_ONLY"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "5.7.1",
+  "section_title": "Bakım-İşletme Maliyetini Azaltma Yöntemleri",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_10cc373993a9ed5e214c65256e848ebde27a58d7e7ceb542b02b270acead7d3f",
+      "CLM_10e4d709d2341bc23a9d43802e82776832edbb5d009d153d87249f630489a97d",
+      "CLM_129a3ae6dab380e3f3c12ff743945ae8c01018ef0bf003e31c4c4be81dd72900",
+      "CLM_154df57d7d00c43d5830c8c3ceb9225ffbb96e0f02589e72990a64d46a55022e",
+      "CLM_15772d060048d250365503efbcfe5eb6535d19b8cbd7d73a5066fe28f617f41a",
+      "CLM_1e67b0582a54a0651aef4f473165b948af057411a1d05f10b86abef18d638a7e",
+      "CLM_1ef03d596f54dc5b2e0c4000df1162f95e82e15cad89043f1fdeb94b69d1fbc7",
+      "CLM_20e295f6d6220a34e0416fd2837becae05e17ce7a6bba880a5284e0c157c4db1",
+      "CLM_2212f8b9efffe56dcb97df44ba43a40e787a95681f3afe920f477484f45955b6",
+      "CLM_24049a150e56e98ff776215ea865dcd8658d647531c212db069758f3c9072a18",
+      "CLM_2adb874a0d0bb9d56d1d677d9ff6e2d2595e231e970d1db47b3f50a67d66c549",
+      "CLM_2e5ce350eaebfd846376ff2bf644263776d31a91c18a33daa1ea15a866ab35c2",
+      "CLM_2eef060975980ffcfd8284b3f9c50247fe0dc3cbe3fe35c0e48cee1457892b20",
+      "CLM_2f904d9c76378356ecd2e440625615b6c3444ad7bfbd40a6bc1697a041736497",
+      "CLM_32c487fec288401658a740e6b25d4a1c717fbabf73f6048f3114caf9ffb4801f",
+      "CLM_331608b104ef05af6c251bf6baa86052033ac64d9919729f1f436a26b7469ed3",
+      "CLM_34352dfc4d13c9006e8535435dd5f9e2a7ac67a1fa02a533bbc07111e6f73f69",
+      "CLM_3d2704dcf7146c9e87c01e68a9f659fe113f5b7562f00690e9a5db9b3d4308f3",
+      "CLM_40d86adea579ef0380e7150f582f0ca1d82a0e78b36d589670c9a759e1d63edf",
+      "CLM_4159fd5ca743347eae7edc3951918afc9d00628491c8156d5580d4ccaaf05299",
+      "CLM_4295e3abe7aa1112190e8bb1fdb6e84708c1a3542125683a9b9fedd8b77975e1",
+      "CLM_45bd04eb8c0874711479f8e51ac31fb4525658d74fafc1c508ad5b2279f30c0d",
+      "CLM_55c45dc1a403917854d8e7aac6a1e7195ebf57a0e8e055b871205468a64f505b",
+      "CLM_5885ca663d8ab5d8dfae8936d638e8710f0bb5bc49a04b86c8752ca4b3205cfd",
+      "CLM_6049dfc76e23a6476e45b3159e844e4ad64d841f587fc4863da246ff4ba7a972",
+      "CLM_6298245fc8e273f31bc46d97035dcb9cf15f234cd6011af41b1c8b8a0e4563fc",
+      "CLM_64c72fdfc4895193561035bce235ef330a553531ba16e40c416a0204075f50c4",
+      "CLM_658e40df08039628a6cc5e9f8db92c91483bd02c6b30914673db9f36d3f11729",
+      "CLM_6f7c7581c4a46e2a267a0d10a5cff24f8f1a4a45958208b8d6b658f7d279a84c",
+      "CLM_7bd8100ebbae9b34b506e62f5eeca0cbb64280271a992cb7884081421806fbb5",
+      "CLM_7e41659b0bcb063c70074b8a1aab46bd25f049874912e936e3a8f6edc4f42a8c",
+      "CLM_89d856f7035687af8993eeb2d8fcf2744f19d723b050f54a94d37f11cf17007e",
+      "CLM_90bb8262e07b0bf2ad728b3b997dc2a594fdafa2a4d05c2868f10c5c3b15b931",
+      "CLM_9c72a10bb9f7c63daafb3a074e5d01719a3b40c95b981aea2ed7b164fe8d71fd",
+      "CLM_9dba9250108d7bca845880ba4dbd56369971a546244c1b991d90284312f1bd32",
+      "CLM_a0cf69a42f0c442930a761e2adc787c282cfd73656b0d982a5d6623b56d5318e",
+      "CLM_a4071e9bf616698cdce7d5ff2140ced361bc535023ead3b83de4df3cc73cf80a",
+      "CLM_a597e50fa657757d89eadac4b435a090ab0987486e8c4dd7a7d4066a0597be2a",
+      "CLM_a9102008a682b03bc8cb1cba52febdfb48df75cf837b47724d17dfccc083e481",
+      "CLM_ace6c58c1c057ddcc90aacb3d64c8e47b66e8751b22b23915163924e1dd827d4",
+      "CLM_afd5e02adaec0d78aee980dfc7704b680822263ae070f1ce08dc225c2e3b6cbc",
+      "CLM_b57428d302487542243e79f33db696ddfc9a4a4e36e3342e401c91e4033f1d74",
+      "CLM_b8c0b547332b64c9d5d9a48240a408fd9a5dadb2078695fc1914a85a08d8c998",
+      "CLM_be52097f41800179cca29dede0c7787720bf9f223308c71a08508a9902aeec2f",
+      "CLM_bfeefed031bead7b0f7cf77ed41f2f35ceaff491221a7f66449cae209ffae270",
+      "CLM_c779cd410a7883b49997f1d3d53fbed0ad06a1b68ff66da6fe9247d40f199d92",
+      "CLM_c984abdd92e218fc830935d8bf980daa29ddbea47f6f393a01b492951a53248d",
+      "CLM_d04c5ebf757d41ff1c63c94aa0d1d4692aa2fd3ce12efe3232f3500fa2644c43",
+      "CLM_e184b68f72a65f57bb66fb916f03523c28e66128472c1f41c217187e2c259e29",
+      "CLM_f8a040ea0db4e8d4bbcb2bbed371ed0fe7dd8fffbd3f191eae25f7305a3f0d4a",
+      "CLM_fa18df999971f378ee980e66998328bfc6456b285d4f8172d8e95b553467bc7d",
+      "CLM_fa578b778722877a4fd74daa48fa9b3990e36b1328399abe04da31c6c7fdb29f",
+      "CLM_fa5bb9cf95a0adca127ab7a807495b0921a2c56a857b07244840e55a06f257ac",
+      "CLM_fc0fe2ff64ca27f7665d521f71cd776ce4a741204fe2d2d91436301c019c5d54"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "5.7.1-Q04",
+      "5.7.1-Q08",
+      "5.7.1-Q23",
+      "5.7.1-Q24",
+      "5.7.1-Q25",
+      "5.7.1-Q26",
+      "5.7.1-Q32",
+      "5.7.1-Q33",
+      "5.7.1-Q35",
+      "5.7.1-Q36",
+      "5.7.1-Q42",
+      "5.7.1-Q44",
+      "5.7.1-Q45",
+      "5.7.1-Q46",
+      "5.7.1-Q49",
+      "5.7.1-Q50"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "5.7.1-Q01",
+      "5.7.1-Q02",
+      "5.7.1-Q03",
+      "5.7.1-Q14",
+      "5.7.1-Q15",
+      "5.7.1-Q27",
+      "5.7.1-Q28",
+      "5.7.1-Q29",
+      "5.7.1-Q30",
+      "5.7.1-Q31",
+      "5.7.1-Q34",
+      "5.7.1-Q37",
+      "5.7.1-Q38",
+      "5.7.1-Q39",
+      "5.7.1-Q40",
+      "5.7.1-Q41",
+      "5.7.1-Q43",
+      "5.7.1-Q47",
+      "5.7.1-Q48"
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "final_primary_section": "5.4.1",
+  "final_secondary_sections": [
+    "2.4.1.3",
+    "2.4.2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4.1",
+      "section_title": "Yapısal Bakım",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "HEAD0004",
+        "PARA0010",
+        "FIG0001",
+        "CAPT0001",
+        "HEAD0006",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "PARA0019",
+        "PARA0021",
+        "PARA0022",
+        "PARA0023",
+        "PARA0024",
+        "FIG0008",
+        "CAPT0007",
+        "PARA0025"
+      ]
+    },
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": [
+        "PARA0005",
+        "PARA0006",
+        "FIG0001",
+        "PARA0035"
+      ]
+    },
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "PARA0005",
+        "PARA0006",
+        "HEAD0010",
+        "PARA0026",
+        "PARA0045"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.1",
+      "score": 0.7026,
+      "rule_score": 0.5,
+      "embedding_score": 0.7673,
+      "chunk_vote": 0.1616
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.6739,
+      "rule_score": 0.5,
+      "embedding_score": 0.7678,
+      "chunk_vote": 0.0169
+    },
+    {
+      "id": "2",
+      "score": 0.3662,
+      "rule_score": 0.0,
+      "embedding_score": 0.7687,
+      "chunk_vote": 0.1013
+    },
+    {
+      "id": "6.1",
+      "score": 0.3601,
+      "rule_score": 0.0,
+      "embedding_score": 0.7823,
+      "chunk_vote": 0.0405
+    },
+    {
+      "id": "1.2",
+      "score": 0.3513,
+      "rule_score": 0.0,
+      "embedding_score": 0.7806,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3453,
+      "rule_score": 0.0,
+      "embedding_score": 0.7673,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3449,
+      "rule_score": 0.0,
+      "embedding_score": 0.7665,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3447,
+      "rule_score": 0.0,
+      "embedding_score": 0.7661,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.3363,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0315
+    },
+    {
+      "id": "5.4",
+      "score": 0.33,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel kaplamasındaki çatlakların derin öğrenme ile otomatik sınıflandırılması ve segmentasyonunu ele almakta olup, bu süreç tünelin sağlık durumunun değerlendirilmesi ve yapısal bütünlüğünün izlenmesi kapsamında 'Yapısal Bakım' (5.4.1) başlığına en uygun düşmektedir. Ayrıca, bu analizlerin tünelin işletme/kullanım aşamasında yapıldığı vurgusu nedeniyle 'Kullanım Aşaması Çalışmaları' (2.4.1.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.4.1:0.7026 gap=0.029 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

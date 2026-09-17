@@ -1,0 +1,32 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_376b6902031fe537a68c",
+  "original_sha256": "376b6902031fe537a68c4606bbc954db0a2583e517f679e65b8aeded512e39cd",
+  "source_kind": "MANUAL_INTERNAL",
+  "format": "PDF",
+  "title": "High Speed Two",
+  "final_primary_section": "2",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.7404,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": true,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_376b6902031fe537a68c",
+  "original_archive": "originals/ING_376b6902031fe537a68c",
+  "chunks_authoritative_path": "processing/ING_376b6902031fe537a68c/chunks/chunk_manifest.jsonl",
+  "chunk_count": 13,
+  "chunk_quality_status": "WARN",
+  "canonical_promoted": false
+}

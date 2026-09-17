@@ -1,0 +1,188 @@
+{
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [
+    "2.2.1",
+    "2",
+    "2.4.2.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "LIST0003",
+        "LIST0004",
+        "LIST0005",
+        "LIST0006",
+        "LIST0007",
+        "PARA0008",
+        "LIST0008",
+        "LIST0009",
+        "LIST0010",
+        "LIST0011",
+        "PARA0010",
+        "PARA0011",
+        "PARA0013",
+        "PARA0014",
+        "FIG0003",
+        "PARA0016",
+        "PARA0017",
+        "HEAD0007",
+        "PARA0019",
+        "PARA0023",
+        "PARA0024"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "LIST0003",
+        "LIST0004",
+        "LIST0005",
+        "LIST0006",
+        "LIST0007",
+        "PARA0008",
+        "LIST0008",
+        "LIST0009",
+        "LIST0010",
+        "LIST0011",
+        "PARA0010",
+        "PARA0011",
+        "PARA0013",
+        "PARA0014",
+        "FIG0003",
+        "PARA0016",
+        "PARA0017",
+        "HEAD0007",
+        "PARA0019",
+        "PARA0023",
+        "PARA0024"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0007",
+        "PARA0012",
+        "PARA0031",
+        "PARA0059",
+        "LIST0028",
+        "LIST0031",
+        "LIST0035",
+        "LIST0036"
+      ]
+    },
+    {
+      "section_id": "2.4.2.2",
+      "section_title": "Boykesit Belirlemede Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "LIST0011",
+        "PARA0010",
+        "PARA0013"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1",
+      "score": 0.7378,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7522,
+      "chunk_vote": 0.2186
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.716,
+      "rule_score": 0.5,
+      "embedding_score": 0.7446,
+      "chunk_vote": 0.2794
+    },
+    {
+      "id": "2",
+      "score": 0.7035,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7555,
+      "chunk_vote": 0.0398
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.6252,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7445,
+      "chunk_vote": 0.0221
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3436,
+      "rule_score": 0.0,
+      "embedding_score": 0.7635,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3377,
+      "rule_score": 0.0,
+      "embedding_score": 0.743,
+      "chunk_vote": 0.0166
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.3368,
+      "rule_score": 0.0,
+      "embedding_score": 0.7484,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.332,
+      "rule_score": 0.0,
+      "embedding_score": 0.7378,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3161,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0525
+    },
+    {
+      "id": "5.6",
+      "score": 0.2463,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.053
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, derin bir tünelde şap (shotcrete) kabuğunun yapısal davranışını ve destek elemanlarının (şap) anelitik/sonlu eleman modeli ile analizini ele aldığı için 'Tünel Yapı/Destek Elemanları' (2.1) birincil bölümdür. Ayrıca çalışmanın kayaç zeminde (Hoek-Brown modeli kullanılarak) derin bir tünel açılımını simüle etmesi nedeniyle 'Kayaç Zeminde Açılan Tüneller' (2.2.1) ikincil bölümdür.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.1:0.7378 gap=0.022 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

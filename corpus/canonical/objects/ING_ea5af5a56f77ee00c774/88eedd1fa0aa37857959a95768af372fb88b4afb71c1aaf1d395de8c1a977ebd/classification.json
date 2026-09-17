@@ -1,0 +1,118 @@
+{
+  "final_primary_section": "2.4.1.3",
+  "final_secondary_sections": [
+    "5.4.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0001",
+        "LIST0004"
+      ]
+    },
+    {
+      "section_id": "5.4.1",
+      "section_title": "Yapısal Bakım",
+      "supporting_elements": [
+        "PARA0001"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.2",
+      "score": 0.6825,
+      "rule_score": 0.5,
+      "embedding_score": 0.7945,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.6549,
+      "rule_score": 0.4286,
+      "embedding_score": 0.8204,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.4069,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3846
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3613,
+      "rule_score": 0.0,
+      "embedding_score": 0.8028,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3609,
+      "rule_score": 0.0,
+      "embedding_score": 0.8019,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3605,
+      "rule_score": 0.0,
+      "embedding_score": 0.801,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3603,
+      "rule_score": 0.0,
+      "embedding_score": 0.8006,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.3583,
+      "rule_score": 0.0,
+      "embedding_score": 0.7962,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3581,
+      "rule_score": 0.0,
+      "embedding_score": 0.7958,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3534,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1171
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünellerin işletme (operational) aşamasındaki hasar kategorileri ve denetim tekniklerine odaklanmaktadır. Bu içerik, doğrudan 'Kullanım Aşaması Çalışmaları' (2.4.1.3) başlığıyla örtüşmektedir. Ayrıca, hasarların yapısal doğası ve onarım gerekliliği nedeniyle 'Yapısal Bakım' (5.4.1) ikincil bölüm olarak değerlendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:2",
+    "embeddings:8",
+    "top=5.2:0.6825 gap=0.028 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,117 @@
+{
+  "final_primary_section": "5.4.2",
+  "final_secondary_sections": [
+    "5.4.3",
+    "5.7"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4.3",
+      "section_title": "Periyodik Bakım",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.3549,
+      "rule_score": 0.0,
+      "embedding_score": 0.7887,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3515,
+      "rule_score": 0.0,
+      "embedding_score": 0.7812,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.349,
+      "rule_score": 0.0,
+      "embedding_score": 0.7756,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.348,
+      "rule_score": 0.0,
+      "embedding_score": 0.7733,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.3466,
+      "rule_score": 0.0,
+      "embedding_score": 0.7703,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3456,
+      "rule_score": 0.0,
+      "embedding_score": 0.7679,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.2",
+      "score": 0.3456,
+      "rule_score": 0.0,
+      "embedding_score": 0.7679,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3453,
+      "rule_score": 0.0,
+      "embedding_score": 0.7673,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2742,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4545
+    },
+    {
+      "id": "1.1",
+      "score": 0.2288,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2273
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge behandelt de vervanging en testfase van het ventilatiesysteem (elektrisch-elektronisch/elektromechanisch) in de Wijkertunnel, wat direct correspondeert met het onderhoud van dergelijke systemen (5.4.2). De beschrijving van de testfase en integratie met andere systemen voor veiligheid en betrouwbaarheid ondersteunt secundaire links naar periodiek onderhoud (5.4.3) en efficiëntie/energiegebrui",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:6",
+    "embeddings:8",
+    "top=5.4.2:0.3549 gap=0.003 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

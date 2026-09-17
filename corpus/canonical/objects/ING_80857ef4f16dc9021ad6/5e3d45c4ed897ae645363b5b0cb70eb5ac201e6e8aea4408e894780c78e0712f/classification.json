@@ -1,0 +1,201 @@
+{
+  "final_primary_section": "5.7",
+  "final_secondary_sections": [
+    "5.7.2",
+    "5.4.2",
+    "5.6"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "HEAD0004",
+        "PARA0015",
+        "PARA0016",
+        "HEAD0005",
+        "PARA0017",
+        "PARA0018",
+        "FIG0003",
+        "CAPT0001",
+        "PARA0019",
+        "PARA0020",
+        "PARA0022",
+        "FIG0004",
+        "CAPT0002",
+        "PARA0029",
+        "PARA0030",
+        "PARA0038",
+        "FIG0009",
+        "CAPT0007",
+        "PARA0043",
+        "TABLE0002"
+      ]
+    },
+    {
+      "section_id": "5.7.2",
+      "section_title": "Enerji Maliyetini Azaltma Yöntemleri",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "HEAD0004",
+        "PARA0015",
+        "PARA0016",
+        "HEAD0005",
+        "PARA0017",
+        "PARA0018",
+        "FIG0003",
+        "CAPT0001",
+        "PARA0019",
+        "PARA0020",
+        "PARA0021",
+        "PARA0022",
+        "FIG0004",
+        "CAPT0002",
+        "PARA0029",
+        "PARA0030",
+        "PARA0036",
+        "PARA0038",
+        "FIG0009",
+        "CAPT0007"
+      ]
+    },
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "HEAD0004",
+        "PARA0015",
+        "PARA0016",
+        "HEAD0005",
+        "PARA0017",
+        "PARA0018",
+        "FIG0003",
+        "CAPT0001",
+        "PARA0019",
+        "PARA0020",
+        "PARA0022",
+        "FIG0004",
+        "CAPT0002",
+        "PARA0029",
+        "PARA0030",
+        "PARA0038",
+        "PARA0039",
+        "FIG0009",
+        "CAPT0007",
+        "PARA0043"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.7564,
+      "rule_score": 0.5556,
+      "embedding_score": 0.763,
+      "chunk_vote": 0.2872
+    },
+    {
+      "id": "5.6",
+      "score": 0.7193,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7515,
+      "chunk_vote": 0.1279
+    },
+    {
+      "id": "5.7",
+      "score": 0.6808,
+      "rule_score": 0.5,
+      "embedding_score": 0.7565,
+      "chunk_vote": 0.077
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3508,
+      "rule_score": 0.0,
+      "embedding_score": 0.7795,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3424,
+      "rule_score": 0.0,
+      "embedding_score": 0.7608,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3366,
+      "rule_score": 0.0,
+      "embedding_score": 0.748,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3366,
+      "rule_score": 0.0,
+      "embedding_score": 0.7479,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3363,
+      "rule_score": 0.0,
+      "embedding_score": 0.7473,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.2793,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0213
+    },
+    {
+      "id": "1.4.1",
+      "score": 0.2464,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0533
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel havalandırma sisteminde enerji tasarrufu sağlayan yeni bir kontrol algoritması (CGPFC) önermektedir. Bu, doğrudan 'Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi' (5.7) başlığıyla örtüşmektedir. Ayrıca, geleneksel yönteme göre daha az enerji tüketmesi vurgusu 'Enerji Maliyetini Azaltma Yöntemleri' (5.7.2) ile güçlü bir bağlantı kurar. Havalandırma sistemlerinin otomatik kontrolü, el",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:22",
+    "embeddings:8",
+    "top=5.4.2:0.7564 gap=0.037 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

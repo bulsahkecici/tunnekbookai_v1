@@ -1,0 +1,204 @@
+{
+  "final_primary_section": "6",
+  "final_secondary_sections": [
+    "2.3",
+    "5.6",
+    "6.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "6",
+      "section_title": "TÜNEL YAPIM MALİYETLERİ",
+      "supporting_elements": [
+        "PARA0004",
+        "PARA0006",
+        "PARA0007",
+        "PARA0015",
+        "PARA0016",
+        "PARA0017",
+        "PARA0022",
+        "PARA0023",
+        "PARA0024",
+        "PARA0026",
+        "PARA0027",
+        "PARA0029",
+        "PARA0031",
+        "PARA0033",
+        "PARA0042",
+        "PARA0046",
+        "PARA0058",
+        "PARA0060",
+        "PARA0061",
+        "FIG0003",
+        "CAPT0005",
+        "TABLE0005",
+        "CAPT0006",
+        "FIG0004",
+        "CAPT0007"
+      ]
+    },
+    {
+      "section_id": "2.3",
+      "section_title": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar",
+      "supporting_elements": [
+        "LIST0036",
+        "LIST0038"
+      ]
+    },
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "PARA0003",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "FURN0001",
+        "PARA0018",
+        "PARA0023",
+        "PARA0024",
+        "PARA0025",
+        "PARA0026",
+        "PARA0028",
+        "PARA0029",
+        "PARA0031",
+        "PARA0032",
+        "PARA0033",
+        "PARA0034",
+        "PARA0044",
+        "PARA0045",
+        "PARA0046",
+        "PARA0047",
+        "PARA0048",
+        "PARA0050",
+        "PARA0055",
+        "PARA0062",
+        "PARA0063"
+      ]
+    },
+    {
+      "section_id": "6.1",
+      "section_title": "Çalışmanın Amacı, Kapsamı, Yöntem ve Kullanılan Verileri",
+      "supporting_elements": [
+        "PARA0005",
+        "PARA0019",
+        "PARA0025",
+        "HEAD0013",
+        "PARA0028",
+        "HEAD0014",
+        "PARA0029",
+        "PARA0030",
+        "PARA0032",
+        "PARA0033",
+        "PARA0034",
+        "PARA0035",
+        "PARA0036",
+        "PARA0038",
+        "HEAD0016",
+        "PARA0043",
+        "PARA0046",
+        "PARA0071",
+        "PARA0072",
+        "PARA0073",
+        "PARA0074",
+        "PARA0079",
+        "HEAD0032",
+        "PARA0082",
+        "PARA0085"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.6",
+      "score": 0.7195,
+      "rule_score": 0.5,
+      "embedding_score": 0.8138,
+      "chunk_vote": 0.1415
+    },
+    {
+      "id": "6",
+      "score": 0.7118,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7917,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.6936,
+      "rule_score": 0.5,
+      "embedding_score": 0.7911,
+      "chunk_vote": 0.0631
+    },
+    {
+      "id": "2.3",
+      "score": 0.3596,
+      "rule_score": 0.0,
+      "embedding_score": 0.7991,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3557,
+      "rule_score": 0.0,
+      "embedding_score": 0.7904,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.354,
+      "rule_score": 0.0,
+      "embedding_score": 0.7866,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3533,
+      "rule_score": 0.0,
+      "embedding_score": 0.785,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.1",
+      "score": 0.3519,
+      "rule_score": 0.0,
+      "embedding_score": 0.782,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.2932,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.091
+    },
+    {
+      "id": "4.1",
+      "score": 0.2597,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1199
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel inşaat mega projelerindeki maliyet aşımı ve zaman gecikmelerini etkileyen faktörleri (teknik, yönetişim, finansman) ampirik olarak analiz etmektedir. Bu içerik, 'Tünel Yapım Maliyetleri' (Bölüm 6) başlığıyla en güçlü örtüşmektedir. Ayrıca, maliyeti etkileyen unsurların analizi 'Tünellerin Yapım Maliyetine Etki Eden Unsurlar' (2.3) ile ve O&M (İşletme ve Bakım) faktörlerinin incelenmes",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.6:0.7195 gap=0.008 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

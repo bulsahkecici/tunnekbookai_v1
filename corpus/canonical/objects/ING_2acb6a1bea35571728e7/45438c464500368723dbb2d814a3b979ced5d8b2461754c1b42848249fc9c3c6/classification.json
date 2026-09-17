@@ -1,0 +1,154 @@
+{
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [
+    "2.2",
+    "2.2.1"
+  ],
+  "final_section_confidence": 0.92,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "HEAD0021",
+        "FIG0046",
+        "PARA0502",
+        "FIG0060",
+        "FIG0063",
+        "PARA0563",
+        "PARA0569",
+        "PARA0582"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0015",
+        "PARA0024",
+        "PARA0073",
+        "HEAD0008",
+        "PARA0084",
+        "PARA0085",
+        "PARA0092",
+        "PARA0093",
+        "LIST0010",
+        "PARA0101",
+        "HEAD0011",
+        "PARA0107",
+        "PARA0118",
+        "PARA0119",
+        "PARA0121",
+        "PARA0126",
+        "PARA0127",
+        "PARA0231",
+        "HEAD0019",
+        "PARA0354",
+        "PARA0580"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0502",
+        "FIG0060",
+        "PARA0563",
+        "PARA0564",
+        "PARA0566"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.8398,
+      "rule_score": 0.6,
+      "embedding_score": 0.8231,
+      "chunk_vote": 0.447
+    },
+    {
+      "id": "2.1",
+      "score": 0.8117,
+      "rule_score": 0.6923,
+      "embedding_score": 0.7955,
+      "chunk_vote": 0.1149
+    },
+    {
+      "id": "2.2",
+      "score": 0.7283,
+      "rule_score": 0.5,
+      "embedding_score": 0.8089,
+      "chunk_vote": 0.1967
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.5996,
+      "rule_score": 0.3333,
+      "embedding_score": 0.8139,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3593,
+      "rule_score": 0.0,
+      "embedding_score": 0.7985,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3587,
+      "rule_score": 0.0,
+      "embedding_score": 0.797,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3569,
+      "rule_score": 0.0,
+      "embedding_score": 0.793,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3565,
+      "rule_score": 0.0,
+      "embedding_score": 0.7922,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.2357,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge başlığı 'Tünellerde Destek Sistemleri ve Güçlendirme Yöntemleri' olup, gövde metni ve başlıklar (Sürenler, Püskürtme beton, Kaya bulonu vb.) doğrudan tünel yapı/destek elemanlarını detaylandırmaktadır. Ayrıca tünel açma yöntemleri (NATM, TBM) ve kaya sınıflama sistemleri de içerildiğinden, ana bölüm 2.1 (Destek Elemanları) olarak seçilmiş; ikincil olarak 2.2 (Yapım Yöntemleri) ve 2.2.1 (Kaya",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.8398 gap=0.028 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

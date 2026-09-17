@@ -1,0 +1,145 @@
+{
+  "final_primary_section": "2.1.2",
+  "final_secondary_sections": [
+    "2.1",
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0004",
+        "HEAD0007",
+        "PARA0011",
+        "LIST0002",
+        "LIST0004",
+        "LIST0006",
+        "LIST0007"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0004",
+        "HEAD0007",
+        "PARA0011",
+        "LIST0002",
+        "LIST0004",
+        "LIST0006",
+        "LIST0007"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0004",
+        "PARA0005",
+        "HEAD0007",
+        "PARA0011",
+        "LIST0002",
+        "LIST0004",
+        "LIST0006",
+        "LIST0007"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1.2",
+      "score": 0.7317,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7692,
+      "chunk_vote": 0.15
+    },
+    {
+      "id": "2",
+      "score": 0.6871,
+      "rule_score": 0.5,
+      "embedding_score": 0.7779,
+      "chunk_vote": 0.06
+    },
+    {
+      "id": "2.1",
+      "score": 0.5753,
+      "rule_score": 0.3333,
+      "embedding_score": 0.76,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3463,
+      "rule_score": 0.0,
+      "embedding_score": 0.7696,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3454,
+      "rule_score": 0.0,
+      "embedding_score": 0.7676,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3445,
+      "rule_score": 0.0,
+      "embedding_score": 0.7655,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3441,
+      "rule_score": 0.0,
+      "embedding_score": 0.7647,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3424,
+      "rule_score": 0.0,
+      "embedding_score": 0.7608,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.1",
+      "score": 0.3177,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.41
+    },
+    {
+      "id": "1",
+      "score": 0.2413,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.29
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, segmental tünel kaplamasının (lining) deprem yükü altında Plaxis 2D ile sayısal analizi üzerine odaklanmaktadır. Bu analiz, tünelin yapısal elemanlarını (kaplama, ekler) ve bunların davranışını incelediğinden, 'Tünel Destekleme Elemanları' (2.1.2) en uygun birincil başlıktır. Üst düzey sınıflandırmalar olan 'Tünel Yapı/Destek Elemanları' (2.1) ve 'Tünel Ana Elemanları...' (2) ikincil olarak",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:10",
+    "embeddings:8",
+    "top=2.1.2:0.7317 gap=0.045 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

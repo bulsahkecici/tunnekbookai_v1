@@ -1,0 +1,155 @@
+{
+  "document_id": "ING_8492cbc925971094859c",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_C220CF6C77E567EF60C5",
+      "producer_document_id": "PC_8492CBC925971094",
+      "declared_sha256": "8492cbc925971094859c6a4c40deb189fdfcb6979b30a951687690fddf1dc440",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_8492CBC925971094/source.pdf",
+        "sha256": "8492cbc925971094859c6a4c40deb189fdfcb6979b30a951687690fddf1dc440"
+      },
+      "provenance": {
+        "source_url": "http://hdl.handle.net/20.500.11820/98e2ad30-81f9-441f-a1ff-4572860945c6",
+        "landing_url": "http://hdl.handle.net/20.500.11820/98e2ad30-81f9-441f-a1ff-4572860945c6",
+        "pdf_url": "https://www.pure.ed.ac.uk/ws/files/34849992/TUST_2017_Wang_Carvel_Curved_Tunnel.pdf",
+        "resolved_url": "https://www.pure.ed.ac.uk/ws/files/34849992/TUST_2017_Wang_Carvel_Curved_Tunnel.pdf",
+        "discovery_source": "openalex",
+        "discovery_query": "road tunnel fire safety ventilation",
+        "doi": "10.1016/j.tust.2017.04.015",
+        "publisher": "Edinburgh Research Explorer (University of Edinburgh)"
+      },
+      "producer_provenance": {
+        "source_url": "http://hdl.handle.net/20.500.11820/98e2ad30-81f9-441f-a1ff-4572860945c6",
+        "landing_url": "http://hdl.handle.net/20.500.11820/98e2ad30-81f9-441f-a1ff-4572860945c6",
+        "pdf_url": "https://www.pure.ed.ac.uk/ws/files/34849992/TUST_2017_Wang_Carvel_Curved_Tunnel.pdf",
+        "resolved_url": "https://www.pure.ed.ac.uk/ws/files/34849992/TUST_2017_Wang_Carvel_Curved_Tunnel.pdf",
+        "discovery_source": "openalex",
+        "discovery_query": "road tunnel fire safety ventilation",
+        "doi": "10.1016/j.tust.2017.04.015",
+        "publisher": "Edinburgh Research Explorer (University of Edinburgh)"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_8492CBC925971094",
+        "canonical_id": "CAN_C220CF6C77E567EF60C5",
+        "canonical_hint_id": "CAN_C220CF6C77E567EF60C5",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "Edinburgh Research Explorer (University of Edinburgh)",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Numerical study on fire smoke movement and control in curved road tunnels",
+        "authors": [
+          "Feng Wang",
+          "Mingnian Wang",
+          "Ricky Carvel",
+          "Yu Wang"
+        ],
+        "year": "2017",
+        "doi": "10.1016/j.tust.2017.04.015",
+        "source_url": "http://hdl.handle.net/20.500.11820/98e2ad30-81f9-441f-a1ff-4572860945c6",
+        "landing_url": "http://hdl.handle.net/20.500.11820/98e2ad30-81f9-441f-a1ff-4572860945c6",
+        "resolved_url": "https://www.pure.ed.ac.uk/ws/files/34849992/TUST_2017_Wang_Carvel_Curved_Tunnel.pdf",
+        "local_path": "01_originals/C_ACADEMIC/PC_8492CBC925971094/source.pdf",
+        "sha256": "8492cbc925971094859c6a4c40deb189fdfcb6979b30a951687690fddf1dc440",
+        "source_name": "openalex",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "LIGHT_PDF_TEXT",
+        "evidence_level": "LIGHT_PDF_TEXT",
+        "acquisition_status": "DOWNLOADED_PDF",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_8492CBC925971094/source.pdf",
+          "original_or_raw_sha256": "8492cbc925971094859c6a4c40deb189fdfcb6979b30a951687690fddf1dc440",
+          "crawler_normalized": null,
+          "crawler_normalized_sha256": null,
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "road_tunnel",
+          "ventilation",
+          "jet_fan",
+          "fire",
+          "traffic_management",
+          "monitoring",
+          "excavation",
+          "alignment",
+          "fire_safety",
+          "fire_detection",
+          "inspection"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "Edinburgh Research Explorer (University of Edinburgh)",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "DOWNLOADED_PDF",
+          "source_path": "01_originals/C_ACADEMIC/PC_8492CBC925971094/source.pdf",
+          "source_sha256": "8492cbc925971094859c6a4c40deb189fdfcb6979b30a951687690fddf1dc440"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "http://hdl.handle.net/20.500.11820/98e2ad30-81f9-441f-a1ff-4572860945c6",
+          "landing_url": "http://hdl.handle.net/20.500.11820/98e2ad30-81f9-441f-a1ff-4572860945c6",
+          "pdf_url": "https://www.pure.ed.ac.uk/ws/files/34849992/TUST_2017_Wang_Carvel_Curved_Tunnel.pdf",
+          "resolved_url": "https://www.pure.ed.ac.uk/ws/files/34849992/TUST_2017_Wang_Carvel_Curved_Tunnel.pdf",
+          "discovery_source": "openalex",
+          "discovery_query": "road tunnel fire safety ventilation",
+          "doi": "10.1016/j.tust.2017.04.015",
+          "publisher": "Edinburgh Research Explorer (University of Edinburgh)"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source.pdf",
+    "original_sha256": "8492cbc925971094859c6a4c40deb189fdfcb6979b30a951687690fddf1dc440",
+    "mime_type": "application/pdf",
+    "format": "PDF"
+  }
+}

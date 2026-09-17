@@ -1,0 +1,178 @@
+{
+  "final_primary_section": "2.4.2",
+  "final_secondary_sections": [
+    "2.4.2.2",
+    "5.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.2",
+      "section_title": "Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0005",
+        "PARA0006",
+        "PARA0022",
+        "PARA0030",
+        "PARA0033",
+        "PARA0043",
+        "FIG0006",
+        "PARA0046",
+        "FIG0007",
+        "FIG0008",
+        "PARA0053",
+        "PARA0058",
+        "PARA0069",
+        "FIG0010",
+        "PARA0089",
+        "PARA0091",
+        "PARA0096",
+        "PARA0097",
+        "FIG0013",
+        "CAPT0011",
+        "PARA0106",
+        "PARA0107",
+        "PARA0108"
+      ]
+    },
+    {
+      "section_id": "2.4.2.2",
+      "section_title": "Boykesit Belirlemede Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "PARA0006",
+        "PARA0009",
+        "PARA0014",
+        "PARA0018",
+        "PARA0026",
+        "PARA0030",
+        "PARA0033",
+        "PARA0049",
+        "PARA0060",
+        "FIG0010",
+        "PARA0079",
+        "PARA0089",
+        "PARA0091",
+        "PARA0096",
+        "PARA0097",
+        "FIG0013",
+        "CAPT0011",
+        "PARA0106",
+        "PARA0107",
+        "PARA0108"
+      ]
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0006",
+        "PARA0009",
+        "PARA0028",
+        "PARA0029",
+        "PARA0030",
+        "PARA0031",
+        "PARA0038",
+        "PARA0047",
+        "PARA0055",
+        "LIST0010",
+        "LIST0011",
+        "FIG0009",
+        "PARA0106"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.2",
+      "score": 0.7091,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7816,
+      "chunk_vote": 0.0089
+    },
+    {
+      "id": "5.1",
+      "score": 0.6788,
+      "rule_score": 0.5,
+      "embedding_score": 0.7822,
+      "chunk_vote": 0.0089
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.6766,
+      "rule_score": 0.5,
+      "embedding_score": 0.7814,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.432,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3266
+    },
+    {
+      "id": "1",
+      "score": 0.395,
+      "rule_score": 0.0,
+      "embedding_score": 0.7844,
+      "chunk_vote": 0.21
+    },
+    {
+      "id": "2",
+      "score": 0.3623,
+      "rule_score": 0.0,
+      "embedding_score": 0.8012,
+      "chunk_vote": 0.0089
+    },
+    {
+      "id": "2.4",
+      "score": 0.3569,
+      "rule_score": 0.0,
+      "embedding_score": 0.793,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3568,
+      "rule_score": 0.0,
+      "embedding_score": 0.7928,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3512,
+      "rule_score": 0.0,
+      "embedding_score": 0.7805,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.3353,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0266
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel boykesitinin (cross-section) kullanım amacına, zemin koşullarına ve yapım sürecine bağlı olarak nasıl belirlendiğini detaylıca açıklamaktadır. Bu içerik, 'Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Hususlar' başlığıyla doğrudan örtüşmektedir. Özellikle yol tünelleri için boykesit tasarım kriterleri (şerit sayısı, acil durum alanları, hız limitleri) 2.4.2.2 a",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.4.2:0.7091 gap=0.030 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

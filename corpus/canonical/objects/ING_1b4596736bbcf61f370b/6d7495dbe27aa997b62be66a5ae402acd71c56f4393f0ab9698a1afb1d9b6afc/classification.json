@@ -1,0 +1,133 @@
+{
+  "final_primary_section": "5.6",
+  "final_secondary_sections": [
+    "5.4",
+    "5.9.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "PARA0014",
+        "PARA0016",
+        "LIST0009",
+        "LIST0011",
+        "LIST0022",
+        "LIST0025",
+        "LIST0033"
+      ]
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "PARA0014",
+        "LIST0033"
+      ]
+    },
+    {
+      "section_id": "5.9.1",
+      "section_title": "Ulusal Literatür Taraması",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0014",
+        "LIST0006",
+        "LIST0030"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.6",
+      "score": 0.7277,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7975,
+      "chunk_vote": 0.066
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.6906,
+      "rule_score": 0.5,
+      "embedding_score": 0.7914,
+      "chunk_vote": 0.0475
+    },
+    {
+      "id": "5",
+      "score": 0.3927,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1301
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3673,
+      "rule_score": 0.0,
+      "embedding_score": 0.8163,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.8",
+      "score": 0.3605,
+      "rule_score": 0.0,
+      "embedding_score": 0.8012,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.2",
+      "score": 0.3596,
+      "rule_score": 0.0,
+      "embedding_score": 0.7991,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3578,
+      "rule_score": 0.0,
+      "embedding_score": 0.7951,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4",
+      "score": 0.3564,
+      "rule_score": 0.0,
+      "embedding_score": 0.792,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "3",
+      "score": 0.3563,
+      "rule_score": 0.0,
+      "embedding_score": 0.7917,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.2",
+      "score": 0.2829,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0396
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünellerin işletme özellikleri, güvenlik altyapıları (aydınlatma, havalandırma, yangın) ve sürücü davranışlarındaki sorunlar ile çözüm önerilerini detaylıca incelemektedir. Bu içerik, tünel işletme ve bakım süreçlerini etkileyen faktörleri (güvenlik, maliyet, teknoloji) ele alan 5.6 bölümü ile en yüksek örtüşmeye sahiptir. Ayrıca genel tünel bakım-onarım ve işletme konusunu kapsayan 5.4 böl",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:22",
+    "embeddings:8",
+    "top=5.6:0.7277 gap=0.037 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

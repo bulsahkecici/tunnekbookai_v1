@@ -1,0 +1,117 @@
+{
+  "document_id": "ING_8ab7b35f303e1512ee90",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Construction Technology and Application of TBM in Shengli Tunnel of Tianshan Mountain under poor geological conditions",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Zhenping Zhao",
+        "Chen Jianxun",
+        "Geng Qi",
+        "Li Dong",
+        "Huang Dengxia",
+        "Luo Yanbin",
+        "Liu Weiwei",
+        "Mu Shaoping",
+        "Peter Anesu Kanhenga",
+        "Wu Teligen"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2024",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: journal of"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "case_study",
+        "collapse",
+        "contracts",
+        "excavation",
+        "geology",
+        "karst",
+        "risk",
+        "rock_mechanics",
+        "safety",
+        "tbm",
+        "traffic",
+        "water"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; geology:geolog; rock_mechanics:rock mechanics; excavation:excavat; karst:karst; water:groundwater; risk:risk; safety:safety; traffic:traffic; contracts:contract; collapse:collapse; case_study:case study"
+    },
+    {
+      "field": "source_url",
+      "value": "https://ojs.cvut.cz/ojs/index.php/cej/article/view/9693",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.14311/cej.2024.02.0012",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

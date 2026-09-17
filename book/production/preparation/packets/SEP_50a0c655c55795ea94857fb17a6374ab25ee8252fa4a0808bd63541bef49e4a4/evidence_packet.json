@@ -1,0 +1,694 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_98bdd207e2e5c3b46dc6ff963009e9eaea4bd6a1081f456bfb7a83870c04b0e9",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 28,
+    "SUPPORTED": 5,
+    "UNSUPPORTED": 17
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_50a0c655c55795ea94857fb17a6374ab25ee8252fa4a0808bd63541bef49e4a4",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar kapsamında maliyet kavramı nasıl tanımlanmalıdır?",
+      "question_id": "2.3-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_55ab9b2fb83d2ddf4e9656797f4729995591a8f2a896745fb5c753eac8e3cef1",
+        "CLM_5504e2765b9a6b26ebe4c967d5fd4aee3e4192a8bcb18c0a305827561a37ae71",
+        "CLM_4d17d8dae087985973f178e4cfd9a867cefcf391228df3347758e220d41aaae4"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar hangi maliyet kalemlerini içerir?",
+      "question_id": "2.3-Q02",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_495bd0c9da5d5b0f12ed1eb011852da32bb529156a1e02b6b26af65047a82f14"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar kapsamında doğrudan maliyetler nelerdir?",
+      "question_id": "2.3-Q03",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar kapsamında dolaylı maliyetler nelerdir?",
+      "question_id": "2.3-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar kapsamında ilk yatırım maliyetleri nasıl ayrıştırılır?",
+      "question_id": "2.3-Q05",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e7d499ace6df744ec48512eb43eb9bfb13edc4e9bde7ecb94748c12bc46b8974"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar kapsamında bakım maliyetleri nasıl ayrıştırılır?",
+      "question_id": "2.3-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e7d499ace6df744ec48512eb43eb9bfb13edc4e9bde7ecb94748c12bc46b8974"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar kapsamında işletme maliyetleri nasıl ayrıştırılır?",
+      "question_id": "2.3-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_304bd856484de886a1027ffd6f74736ac75eacd92a39913053125a7059ac7e66",
+        "CLM_e823e67571cd299a2d8c77b500dafcf2202647aedd133abf78ec7e87e03c1d8b"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar kapsamında yenileme ve büyük onarım maliyetleri nasıl ele alınır?",
+      "question_id": "2.3-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar kapsamında personel maliyetleri nasıl ele alınır?",
+      "question_id": "2.3-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_304bd856484de886a1027ffd6f74736ac75eacd92a39913053125a7059ac7e66"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar kapsamında enerji maliyetleri nasıl ele alınır?",
+      "question_id": "2.3-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4e0fe7ef38ea1a9c6184fc95c0c20adf7e810c2c70b2b958b18a4da63a149390"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar kapsamında malzeme maliyetleri nasıl ele alınır?",
+      "question_id": "2.3-Q11",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar kapsamında makine ve ekipman maliyetleri nasıl ele alınır?",
+      "question_id": "2.3-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_530b1c7980258669079548177c01d74a4cf52db88379305d6282a972d5722a7c"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar kapsamında taşeron ve hizmet alımı maliyetleri nasıl ele alınır?",
+      "question_id": "2.3-Q13",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar kapsamında trafik yönetimi ve güvenlik maliyetleri nasıl ele alınır?",
+      "question_id": "2.3-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar kapsamında kapanma veya kapasite kaybı gibi kullanıcı maliyetleri dikkate alınmalı mıdır?",
+      "question_id": "2.3-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4e0fe7ef38ea1a9c6184fc95c0c20adf7e810c2c70b2b958b18a4da63a149390"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar kapsamında çevresel maliyetler nasıl değerlendirilebilir?",
+      "question_id": "2.3-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar için toplam maliyet ile birim maliyet arasındaki fark nasıl açıklanmalıdır?",
+      "question_id": "2.3-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar için TL/m, TL/km veya benzeri birim maliyet göstergeleri ne zaman kullanılmalıdır?",
+      "question_id": "2.3-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ebffde864483ab7a127d91c810cf69091de55ca38413f1a3b1021c425967b2a9",
+        "CLM_fbb6bb6e70d2c08e4550413b1c85a36c4da203843e628cfcc1ec0a30a676cb61",
+        "CLM_fce1da7307d6ef1b047a9e9a7992ba5f9191548794e21214dc691c92398f46bf"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar farklı tünel uzunluklarında nasıl değişir?",
+      "question_id": "2.3-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fce1da7307d6ef1b047a9e9a7992ba5f9191548794e21214dc691c92398f46bf",
+        "CLM_fbb6bb6e70d2c08e4550413b1c85a36c4da203843e628cfcc1ec0a30a676cb61"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar farklı tünel kesitlerinde nasıl değişir?",
+      "question_id": "2.3-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar farklı tüp ve şerit sayılarında nasıl değişir?",
+      "question_id": "2.3-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fbb6bb6e70d2c08e4550413b1c85a36c4da203843e628cfcc1ec0a30a676cb61",
+        "CLM_fce1da7307d6ef1b047a9e9a7992ba5f9191548794e21214dc691c92398f46bf",
+        "CLM_7422423bc94b558f79381b4b43a587d4a9efc0653a98aff20a5403dd709ee0c9",
+        "CLM_c5bfc7c674d8fca779bb2b90282294a62eabe91606802fe2653cf26f492443f0"
+      ],
+      "confidence": 0.7,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar farklı jeolojik ve geoteknik koşullarda nasıl değişir?",
+      "question_id": "2.3-Q22",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fbb6bb6e70d2c08e4550413b1c85a36c4da203843e628cfcc1ec0a30a676cb61",
+        "CLM_fce1da7307d6ef1b047a9e9a7992ba5f9191548794e21214dc691c92398f46bf",
+        "CLM_5504e2765b9a6b26ebe4c967d5fd4aee3e4192a8bcb18c0a305827561a37ae71"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar farklı yapım yöntemlerinde nasıl değişir?",
+      "question_id": "2.3-Q23",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7684b8ae4ad9e5143c19d4eb4a1a9881820e6b209c326f535383fa42753cc61c",
+        "CLM_263b4b68c4d62e1253ab5425764b9b46d61522f47b457a8a3f40a8619029781a",
+        "CLM_fbb6bb6e70d2c08e4550413b1c85a36c4da203843e628cfcc1ec0a30a676cb61"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar farklı destek sınıflarında nasıl değişir?",
+      "question_id": "2.3-Q24",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar farklı elektromekanik donanım düzeylerinde nasıl değişir?",
+      "question_id": "2.3-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar trafik yoğunluğu ve işletme rejiminden nasıl etkilenir?",
+      "question_id": "2.3-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e3d3b60d9395cb1abcde287976d53709b6e43854ff4becb675f444564c71683a",
+        "CLM_304bd856484de886a1027ffd6f74736ac75eacd92a39913053125a7059ac7e66"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar yapım süresi veya işletme süresinden nasıl etkilenir?",
+      "question_id": "2.3-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar için baz yıl ve fiyat seviyesi nasıl tanımlanmalıdır?",
+      "question_id": "2.3-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_79c247a5dd4c85037197979400efbe362f6b0036fa741f3d4af473871cd99763"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar hesaplarında enflasyon etkisi nasıl düzeltilmelidir?",
+      "question_id": "2.3-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar hesaplarında döviz kuru etkisi nasıl ele alınmalıdır?",
+      "question_id": "2.3-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar hesaplarında iskonto oranı hangi durumlarda kullanılmalıdır?",
+      "question_id": "2.3-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_850b80d2acfbd5a16027c73d7f9d2a5952fb99d236b14ae88676a823f0ff5010",
+        "CLM_5c6bb22508b970c34fedecdc819b3b6a91fcc59b393d952e73bdf6bceafae057"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar için net bugünkü değer yaklaşımı nasıl uygulanabilir?",
+      "question_id": "2.3-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e1464de5fd9120b015dfe658689dc17e6eda996906357414c8a1206c09bd0dae",
+        "CLM_850b80d2acfbd5a16027c73d7f9d2a5952fb99d236b14ae88676a823f0ff5010",
+        "CLM_477a8d181f126f3039d3fc0f91148f2b4cf1d74b7f4bf3f160c9765005825ce2",
+        "CLM_bdd0224b18425c3e5157d04502b5114d322b9a428e33bf12ce13bd62668e81b0"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar için yaşam döngüsü maliyeti yaklaşımı nasıl uygulanabilir?",
+      "question_id": "2.3-Q33",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_304bd856484de886a1027ffd6f74736ac75eacd92a39913053125a7059ac7e66",
+        "CLM_5a29dc17591690659fe6e05b0c1faacb95ea4923c313b27df083fe0bb05d17c1",
+        "CLM_4117ef5fa92fa1787dca8f22de85ed4defcc8ccfc2f9753e3d8ea7df435ee5aa",
+        "CLM_02a7dc27dca6b260b795d1aaa5ce7dd208789a60f670c2fbd9ff07ca753670fe"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar hesaplarında hizmet ömrü nasıl belirlenmelidir?",
+      "question_id": "2.3-Q34",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_304bd856484de886a1027ffd6f74736ac75eacd92a39913053125a7059ac7e66",
+        "CLM_5a29dc17591690659fe6e05b0c1faacb95ea4923c313b27df083fe0bb05d17c1",
+        "CLM_4117ef5fa92fa1787dca8f22de85ed4defcc8ccfc2f9753e3d8ea7df435ee5aa"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar hesaplarında yenileme periyotları nasıl belirlenmelidir?",
+      "question_id": "2.3-Q35",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar hesaplarında hurda veya kalıntı değer dikkate alınmalı mıdır?",
+      "question_id": "2.3-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5d84fb6f6f0f781dd3e890c6781bfdb6341f96e5eb2e12c21dd9412a5f2f6da1",
+        "CLM_fbb6bb6e70d2c08e4550413b1c85a36c4da203843e628cfcc1ec0a30a676cb61",
+        "CLM_fce1da7307d6ef1b047a9e9a7992ba5f9191548794e21214dc691c92398f46bf",
+        "CLM_b51ce6adf0be4e8b4bcad0c2935671661c52b9b95c61e9324cf27655de607949"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar hesaplarında belirsizlik kaynakları nelerdir?",
+      "question_id": "2.3-Q37",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_02960e412b8ff47aae96ed05bf0f4cd3624dbff1bac2867e157c917034267dc0",
+        "CLM_c394ed22ac8c6dfd442f4b30303cf7e52985b336697f8fa5d682b4b9d449f0b4",
+        "CLM_5d84fb6f6f0f781dd3e890c6781bfdb6341f96e5eb2e12c21dd9412a5f2f6da1"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar için risk payı veya beklenmeyen giderler nasıl ele alınmalıdır?",
+      "question_id": "2.3-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fbb6bb6e70d2c08e4550413b1c85a36c4da203843e628cfcc1ec0a30a676cb61",
+        "CLM_1894906dc959ff6d6c9580493f57fe04ed7940fd6292c281595ac0efdd3f5036",
+        "CLM_7cb34631ba0ddaf3fcf5cb97526ab35770d551166f507e764f55e7270f5ad8a8"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar için duyarlılık analizi hangi değişkenlere uygulanmalıdır?",
+      "question_id": "2.3-Q39",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b51ce6adf0be4e8b4bcad0c2935671661c52b9b95c61e9324cf27655de607949",
+        "CLM_5504e2765b9a6b26ebe4c967d5fd4aee3e4192a8bcb18c0a305827561a37ae71"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar için senaryo analizi nasıl kurulabilir?",
+      "question_id": "2.3-Q40",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f5d9512e439b016cdfca1ef4ee9107d85e771278065f69e49b25a15f2402e0d5",
+        "CLM_83bb43c01cfab7708dba5e3f2bc74f4671d5c8cb10913892e554dead83254ee6"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar için maliyet verileri hangi kaynaklardan toplanmalıdır?",
+      "question_id": "2.3-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e5b27a69916d92a54a6aa0ef61dcc469748f7114e2288efea1878c71c0665e6d",
+        "CLM_83bb43c01cfab7708dba5e3f2bc74f4671d5c8cb10913892e554dead83254ee6"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar için farklı yıllara ait veriler nasıl karşılaştırılabilir hale getirilmelidir?",
+      "question_id": "2.3-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e5b27a69916d92a54a6aa0ef61dcc469748f7114e2288efea1878c71c0665e6d",
+        "CLM_5504e2765b9a6b26ebe4c967d5fd4aee3e4192a8bcb18c0a305827561a37ae71",
+        "CLM_7422423bc94b558f79381b4b43a587d4a9efc0653a98aff20a5403dd709ee0c9"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar için farklı projeler arasındaki maliyet karşılaştırmasında hangi normalizasyonlar gerekir?",
+      "question_id": "2.3-Q43",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar için aykırı maliyet değerleri nasıl incelenmelidir?",
+      "question_id": "2.3-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fbb6bb6e70d2c08e4550413b1c85a36c4da203843e628cfcc1ec0a30a676cb61",
+        "CLM_fce1da7307d6ef1b047a9e9a7992ba5f9191548794e21214dc691c92398f46bf",
+        "CLM_5504e2765b9a6b26ebe4c967d5fd4aee3e4192a8bcb18c0a305827561a37ae71"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar için temel maliyet sürücüleri istatistiksel olarak nasıl belirlenebilir?",
+      "question_id": "2.3-Q45",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_493315abece597a8dfd225dd08cd99c2e8a7abe25be6fe8ff467da2522c7df35",
+        "CLM_7ab44042215087e63dfe96a6e91dbc9bad514c19c73a6f3b5735e2700bd5cad8",
+        "CLM_32b9566044a8b0e003dc6ec796c24be4975771f91918166248eb54505bf41a22"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar için maliyet tahmin modellerinin başarısı nasıl doğrulanmalıdır?",
+      "question_id": "2.3-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5504e2765b9a6b26ebe4c967d5fd4aee3e4192a8bcb18c0a305827561a37ae71",
+        "CLM_fce1da7307d6ef1b047a9e9a7992ba5f9191548794e21214dc691c92398f46bf",
+        "CLM_fbb6bb6e70d2c08e4550413b1c85a36c4da203843e628cfcc1ec0a30a676cb61",
+        "CLM_7422423bc94b558f79381b4b43a587d4a9efc0653a98aff20a5403dd709ee0c9"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar Türkiye ve uluslararası örnekler arasında nasıl karşılaştırılabilir?",
+      "question_id": "2.3-Q47",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_304bd856484de886a1027ffd6f74736ac75eacd92a39913053125a7059ac7e66",
+        "CLM_850b80d2acfbd5a16027c73d7f9d2a5952fb99d236b14ae88676a823f0ff5010",
+        "CLM_fbb6bb6e70d2c08e4550413b1c85a36c4da203843e628cfcc1ec0a30a676cb61",
+        "CLM_b51ce6adf0be4e8b4bcad0c2935671661c52b9b95c61e9324cf27655de607949"
+      ],
+      "confidence": 0.75,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar bakımından maliyet azaltma fırsatları hangi aşamalarda ortaya çıkar?",
+      "question_id": "2.3-Q48",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0f21db4fd77336a763a957e9d564e1671e646b89a09b1e6659df3b3e3ad85efe",
+        "CLM_e7d499ace6df744ec48512eb43eb9bfb13edc4e9bde7ecb94748c12bc46b8974",
+        "CLM_5d84fb6f6f0f781dd3e890c6781bfdb6341f96e5eb2e12c21dd9412a5f2f6da1",
+        "CLM_ed0d382ed97ee6f2222b8d6fd6c4cfa7cf255f7431d0cbfa6172e22cf9ffd1a0"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar ile güvenlik ve kalite arasında nasıl bir denge kurulmalıdır?",
+      "question_id": "2.3-Q49",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_530b1c7980258669079548177c01d74a4cf52db88379305d6282a972d5722a7c",
+        "CLM_304bd856484de886a1027ffd6f74736ac75eacd92a39913053125a7059ac7e66",
+        "CLM_034b06370db61a85f27b9c86e4eb429cb892737b1783a9738167b9d0509f2110"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar bölümünün sonunda karar vericiye hangi maliyet göstergeleri sunulmalıdır?",
+      "question_id": "2.3-Q50",
+      "reason_code": "PARTIAL_ONLY"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "2.3",
+  "section_title": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_02960e412b8ff47aae96ed05bf0f4cd3624dbff1bac2867e157c917034267dc0",
+      "CLM_02a7dc27dca6b260b795d1aaa5ce7dd208789a60f670c2fbd9ff07ca753670fe",
+      "CLM_034b06370db61a85f27b9c86e4eb429cb892737b1783a9738167b9d0509f2110",
+      "CLM_0f21db4fd77336a763a957e9d564e1671e646b89a09b1e6659df3b3e3ad85efe",
+      "CLM_1894906dc959ff6d6c9580493f57fe04ed7940fd6292c281595ac0efdd3f5036",
+      "CLM_263b4b68c4d62e1253ab5425764b9b46d61522f47b457a8a3f40a8619029781a",
+      "CLM_304bd856484de886a1027ffd6f74736ac75eacd92a39913053125a7059ac7e66",
+      "CLM_32b9566044a8b0e003dc6ec796c24be4975771f91918166248eb54505bf41a22",
+      "CLM_4117ef5fa92fa1787dca8f22de85ed4defcc8ccfc2f9753e3d8ea7df435ee5aa",
+      "CLM_477a8d181f126f3039d3fc0f91148f2b4cf1d74b7f4bf3f160c9765005825ce2",
+      "CLM_493315abece597a8dfd225dd08cd99c2e8a7abe25be6fe8ff467da2522c7df35",
+      "CLM_495bd0c9da5d5b0f12ed1eb011852da32bb529156a1e02b6b26af65047a82f14",
+      "CLM_4d17d8dae087985973f178e4cfd9a867cefcf391228df3347758e220d41aaae4",
+      "CLM_4e0fe7ef38ea1a9c6184fc95c0c20adf7e810c2c70b2b958b18a4da63a149390",
+      "CLM_530b1c7980258669079548177c01d74a4cf52db88379305d6282a972d5722a7c",
+      "CLM_5504e2765b9a6b26ebe4c967d5fd4aee3e4192a8bcb18c0a305827561a37ae71",
+      "CLM_55ab9b2fb83d2ddf4e9656797f4729995591a8f2a896745fb5c753eac8e3cef1",
+      "CLM_5a29dc17591690659fe6e05b0c1faacb95ea4923c313b27df083fe0bb05d17c1",
+      "CLM_5c6bb22508b970c34fedecdc819b3b6a91fcc59b393d952e73bdf6bceafae057",
+      "CLM_5d84fb6f6f0f781dd3e890c6781bfdb6341f96e5eb2e12c21dd9412a5f2f6da1",
+      "CLM_7422423bc94b558f79381b4b43a587d4a9efc0653a98aff20a5403dd709ee0c9",
+      "CLM_7684b8ae4ad9e5143c19d4eb4a1a9881820e6b209c326f535383fa42753cc61c",
+      "CLM_79c247a5dd4c85037197979400efbe362f6b0036fa741f3d4af473871cd99763",
+      "CLM_7ab44042215087e63dfe96a6e91dbc9bad514c19c73a6f3b5735e2700bd5cad8",
+      "CLM_7cb34631ba0ddaf3fcf5cb97526ab35770d551166f507e764f55e7270f5ad8a8",
+      "CLM_83bb43c01cfab7708dba5e3f2bc74f4671d5c8cb10913892e554dead83254ee6",
+      "CLM_850b80d2acfbd5a16027c73d7f9d2a5952fb99d236b14ae88676a823f0ff5010",
+      "CLM_b51ce6adf0be4e8b4bcad0c2935671661c52b9b95c61e9324cf27655de607949",
+      "CLM_bdd0224b18425c3e5157d04502b5114d322b9a428e33bf12ce13bd62668e81b0",
+      "CLM_c394ed22ac8c6dfd442f4b30303cf7e52985b336697f8fa5d682b4b9d449f0b4",
+      "CLM_c5bfc7c674d8fca779bb2b90282294a62eabe91606802fe2653cf26f492443f0",
+      "CLM_e1464de5fd9120b015dfe658689dc17e6eda996906357414c8a1206c09bd0dae",
+      "CLM_e3d3b60d9395cb1abcde287976d53709b6e43854ff4becb675f444564c71683a",
+      "CLM_e5b27a69916d92a54a6aa0ef61dcc469748f7114e2288efea1878c71c0665e6d",
+      "CLM_e7d499ace6df744ec48512eb43eb9bfb13edc4e9bde7ecb94748c12bc46b8974",
+      "CLM_e823e67571cd299a2d8c77b500dafcf2202647aedd133abf78ec7e87e03c1d8b",
+      "CLM_ebffde864483ab7a127d91c810cf69091de55ca38413f1a3b1021c425967b2a9",
+      "CLM_ed0d382ed97ee6f2222b8d6fd6c4cfa7cf255f7431d0cbfa6172e22cf9ffd1a0",
+      "CLM_f5d9512e439b016cdfca1ef4ee9107d85e771278065f69e49b25a15f2402e0d5",
+      "CLM_fbb6bb6e70d2c08e4550413b1c85a36c4da203843e628cfcc1ec0a30a676cb61",
+      "CLM_fce1da7307d6ef1b047a9e9a7992ba5f9191548794e21214dc691c92398f46bf"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "2.3-Q02",
+      "2.3-Q06",
+      "2.3-Q07",
+      "2.3-Q08",
+      "2.3-Q10",
+      "2.3-Q11",
+      "2.3-Q13",
+      "2.3-Q16",
+      "2.3-Q19",
+      "2.3-Q20",
+      "2.3-Q22",
+      "2.3-Q23",
+      "2.3-Q24",
+      "2.3-Q27",
+      "2.3-Q29",
+      "2.3-Q32",
+      "2.3-Q37",
+      "2.3-Q38",
+      "2.3-Q39",
+      "2.3-Q40",
+      "2.3-Q41",
+      "2.3-Q42",
+      "2.3-Q43",
+      "2.3-Q45",
+      "2.3-Q46",
+      "2.3-Q47",
+      "2.3-Q49",
+      "2.3-Q50"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "2.3-Q01",
+      "2.3-Q04",
+      "2.3-Q05",
+      "2.3-Q09",
+      "2.3-Q12",
+      "2.3-Q14",
+      "2.3-Q15",
+      "2.3-Q17",
+      "2.3-Q18",
+      "2.3-Q21",
+      "2.3-Q25",
+      "2.3-Q26",
+      "2.3-Q28",
+      "2.3-Q30",
+      "2.3-Q31",
+      "2.3-Q36",
+      "2.3-Q44"
+    ]
+  }
+}

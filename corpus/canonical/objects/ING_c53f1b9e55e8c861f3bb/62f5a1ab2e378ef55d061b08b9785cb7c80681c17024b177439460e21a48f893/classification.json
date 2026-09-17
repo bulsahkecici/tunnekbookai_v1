@@ -1,0 +1,101 @@
+{
+  "final_primary_section": "2.2.1",
+  "final_secondary_sections": [
+    "2.1",
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.3",
+      "score": 0.3538,
+      "rule_score": 0.0,
+      "embedding_score": 0.7863,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3411,
+      "rule_score": 0.0,
+      "embedding_score": 0.7579,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3395,
+      "rule_score": 0.0,
+      "embedding_score": 0.7544,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.3393,
+      "rule_score": 0.0,
+      "embedding_score": 0.754,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3379,
+      "rule_score": 0.0,
+      "embedding_score": 0.7509,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3374,
+      "rule_score": 0.0,
+      "embedding_score": 0.7497,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3372,
+      "rule_score": 0.0,
+      "embedding_score": 0.7494,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3368,
+      "rule_score": 0.0,
+      "embedding_score": 0.7484,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Karayolları Genel Müdürlüğü'ne ait bir tünel projesinin (Erdemli-Silifke-Taşucu) saha gözlem formlarını ve RMR (Rock Mass Rating) kaya sınıflandırma parametrelerini içermektedir. Bu veriler, tünelin yapıldığı zeminin (kayaç) özelliklerini ve destek sınıfını belirlemeye yönelik olup, 'Kayaç Zeminde Açılan Tüneller' (2.2.1) bölümünün kapsamına girmektedir. Ayrıca tünelin destek elemanları ve ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:0",
+    "chunk_votes:3",
+    "embeddings:8",
+    "top=2.4.3:0.3538 gap=0.013 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

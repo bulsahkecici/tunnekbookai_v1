@@ -1,0 +1,95 @@
+{
+  "document_id": "ING_8290ac15a538bb0f22bd",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Demiryolu Mühendisliği",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2021-11-02",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "explicit date literal in the document: 02.11.2021"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: doi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "cost",
+        "fire_safety",
+        "geology",
+        "operations",
+        "risk",
+        "safety",
+        "standards",
+        "tbm"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; geology:jeoloji; risk:risk; safety:güvenlik; fire_safety:yangın; operations:işletme; standards:standart; cost:maliyet; accident:kaza; tunnel_general:tünel"
+    },
+    {
+      "field": "doi",
+      "value": "10.47072/demiryolu.1018008",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

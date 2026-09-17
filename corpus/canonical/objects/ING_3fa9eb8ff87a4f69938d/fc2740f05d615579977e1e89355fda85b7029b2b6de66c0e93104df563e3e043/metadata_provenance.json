@@ -1,0 +1,84 @@
+{
+  "document_id": "ING_3fa9eb8ff87a4f69938d",
+  "fields": [
+    {
+      "field": "title",
+      "value": "MADENDEN TEMİZ ENERJİYE AVUSTRALYA DÖNÜŞÜMÜ",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2002",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Belge metninde publication/date bağlamında açık yıl: 2002"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "contracts",
+        "fire_safety",
+        "geology",
+        "inspection",
+        "operations",
+        "tbm"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; geology:geolog; fire_safety:yangın; operations:operation; inspection:inspection; contracts:contract; tunnel_general:tünel"
+    }
+  ]
+}

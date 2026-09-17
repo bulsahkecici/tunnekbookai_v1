@@ -1,0 +1,32 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_d844b88241ad23e0112f",
+  "original_sha256": "d844b88241ad23e0112f7379aa7139f947ebebb2da499ff4cef01b61e57a9009",
+  "source_kind": "MANUAL_INTERNAL",
+  "format": "DOCX",
+  "title": "EK : 8",
+  "final_primary_section": "5",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.579,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": true,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_d844b88241ad23e0112f",
+  "original_archive": "originals/ING_d844b88241ad23e0112f",
+  "chunks_authoritative_path": "processing/ING_d844b88241ad23e0112f/chunks/chunk_manifest.jsonl",
+  "chunk_count": 21,
+  "chunk_quality_status": "PASS",
+  "canonical_promoted": false
+}

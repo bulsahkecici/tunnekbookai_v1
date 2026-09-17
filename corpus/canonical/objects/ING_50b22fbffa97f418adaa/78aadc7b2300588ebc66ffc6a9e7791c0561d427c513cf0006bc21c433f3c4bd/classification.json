@@ -1,0 +1,163 @@
+{
+  "final_primary_section": "5.6",
+  "final_secondary_sections": [
+    "5.4.2"
+  ],
+  "final_section_confidence": 0.7936,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0004",
+        "PARA0009",
+        "PARA0010",
+        "PARA0011",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "HEAD0004",
+        "HEAD0005",
+        "PARA0018",
+        "FIG0003",
+        "PARA0021",
+        "PARA0022",
+        "LIST0002",
+        "HEAD0010",
+        "PARA0024",
+        "FIG0005",
+        "PARA0025",
+        "TABLE0005",
+        "CAPT0009",
+        "FIG0007",
+        "CAPT0010",
+        "PARA0027"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0009",
+        "PARA0010",
+        "PARA0011",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "HEAD0004",
+        "HEAD0005",
+        "PARA0018",
+        "HEAD0006",
+        "PARA0019",
+        "FIG0004",
+        "CAPT0001",
+        "HEAD0008",
+        "LIST0001",
+        "LIST0002",
+        "HEAD0009",
+        "PARA0023",
+        "TABLE0001",
+        "CAPT0003",
+        "TABLE0003",
+        "CAPT0005",
+        "TABLE0004"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.6",
+      "score": 0.7936,
+      "rule_score": 0.6364,
+      "embedding_score": 0.7671,
+      "chunk_vote": 0.2417
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.7119,
+      "rule_score": 0.5,
+      "embedding_score": 0.7822,
+      "chunk_vote": 0.1744
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3537,
+      "rule_score": 0.0,
+      "embedding_score": 0.7861,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3494,
+      "rule_score": 0.0,
+      "embedding_score": 0.7593,
+      "chunk_vote": 0.0387
+    },
+    {
+      "id": "5.7",
+      "score": 0.3472,
+      "rule_score": 0.0,
+      "embedding_score": 0.7644,
+      "chunk_vote": 0.0161
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3471,
+      "rule_score": 0.0,
+      "embedding_score": 0.7714,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3444,
+      "rule_score": 0.0,
+      "embedding_score": 0.7653,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3432,
+      "rule_score": 0.0,
+      "embedding_score": 0.7627,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3416,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0581
+    },
+    {
+      "id": "5",
+      "score": 0.2789,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0194
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel havalandırma sistemlerinin (jet fanlar, aksiyel fanlar) seçimini yatırım maliyeti, tasarım karmaşıklığı ve işletme performansına göre çok kriterli karar verme (MCDM) yöntemleriyle analiz etmektedir. Bu, doğrudan 'Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler' (5.6) başlığıyla örtüşmektedir. Ayrıca, mekanik havalandırma sistemlerinin (elektrik-elektronik/elektromekani",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.6:0.7936 gap=0.082 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

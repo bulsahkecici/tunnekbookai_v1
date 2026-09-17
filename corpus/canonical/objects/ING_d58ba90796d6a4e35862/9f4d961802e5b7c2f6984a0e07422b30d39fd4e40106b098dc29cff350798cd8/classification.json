@@ -1,0 +1,117 @@
+{
+  "final_primary_section": "5.7.2",
+  "final_secondary_sections": [
+    "5.4.2",
+    "5.7"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.7.2",
+      "section_title": "Enerji Maliyetini Azaltma Yöntemleri",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.5.2.2",
+      "score": 0.3466,
+      "rule_score": 0.0,
+      "embedding_score": 0.7703,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3455,
+      "rule_score": 0.0,
+      "embedding_score": 0.7677,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3447,
+      "rule_score": 0.0,
+      "embedding_score": 0.7659,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.3426,
+      "rule_score": 0.0,
+      "embedding_score": 0.7614,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.3419,
+      "rule_score": 0.0,
+      "embedding_score": 0.7597,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3411,
+      "rule_score": 0.0,
+      "embedding_score": 0.7579,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3393,
+      "rule_score": 0.0,
+      "embedding_score": 0.7539,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3385,
+      "rule_score": 0.0,
+      "embedding_score": 0.7523,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2777,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4719
+    },
+    {
+      "id": "1.1",
+      "score": 0.2305,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.236
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Heinenoordtunnel'daki yeni LED aydınlatma ve ışık ızgaralarının enerji tasarrufu sağladığına ve maliyetleri düşürdüğüne odaklanmaktadır. Bu içerik, 'Enerji Maliyetini Azaltma Yöntemleri' (5.7.2) bölümünün kapsamına en uygun düşmektedir. Ayrıca aydınlatma sistemlerinin bakımı ve işletmesi ile ilgili olduğu için 5.4.2 ve 5.7 bölümleri ikincil olarak listelenmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:7",
+    "chunk_votes:9",
+    "embeddings:8",
+    "top=5.5.2.2:0.3466 gap=0.001 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,116 @@
+{
+  "final_primary_section": "2.1.2",
+  "final_secondary_sections": [
+    "2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "FIG0008"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "PARA0004",
+        "FIG0005"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7895,
+      "rule_score": 0.6,
+      "embedding_score": 0.7767,
+      "chunk_vote": 0.3
+    },
+    {
+      "id": "2.1",
+      "score": 0.7561,
+      "rule_score": 0.6,
+      "embedding_score": 0.769,
+      "chunk_vote": 0.15
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.6327,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7711,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3464,
+      "rule_score": 0.0,
+      "embedding_score": 0.7697,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3437,
+      "rule_score": 0.0,
+      "embedding_score": 0.7638,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.343,
+      "rule_score": 0.0,
+      "embedding_score": 0.7622,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3404,
+      "rule_score": 0.0,
+      "embedding_score": 0.7564,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3402,
+      "rule_score": 0.0,
+      "embedding_score": 0.7561,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.295,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel destek elemanları olarak kullanılan püskürtme betonunda (shotcrete) ve nihai kaplamalarda makro sentetik fiber donatının özellikleri, çalışma prensipleri ve test standartlarını detaylıca ele almaktadır. Bu içerik, 'Tünel Destekleme Elemanları' başlığıyla doğrudan örtüşmektedir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:8",
+    "embeddings:8",
+    "top=2:0.7895 gap=0.033 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

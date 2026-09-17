@@ -1,0 +1,146 @@
+{
+  "document_id": "ING_4ddfacba06240aa3a164",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_19049635FBA77E244B37",
+      "producer_document_id": "PC_4DDFACBA06240AA3",
+      "declared_sha256": "4ddfacba06240aa3a1646a254bcf00a4f0a97b078480f82e64dbeb6b6582d69b",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/B_INTERNATIONAL_TECHNICAL/PC_4DDFACBA06240AA3/source_raw.html",
+        "sha256": "4ddfacba06240aa3a1646a254bcf00a4f0a97b078480f82e64dbeb6b6582d69b"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.21660/2017.31.6536",
+        "landing_url": "https://doi.org/10.21660/2017.31.6536",
+        "resolved_url": "https://geomatejournal.com/geomate/article/download/1075/922",
+        "discovery_source": "crossref",
+        "discovery_query": "shield tunnel construction cost",
+        "doi": "10.21660/2017.31.6536",
+        "publisher": "International Journal of GEOMATE"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.21660/2017.31.6536",
+        "landing_url": "https://doi.org/10.21660/2017.31.6536",
+        "resolved_url": "https://geomatejournal.com/geomate/article/download/1075/922",
+        "discovery_source": "crossref",
+        "discovery_query": "shield tunnel construction cost",
+        "doi": "10.21660/2017.31.6536",
+        "publisher": "International Journal of GEOMATE"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_4DDFACBA06240AA3",
+        "canonical_id": "CAN_19049635FBA77E244B37",
+        "canonical_hint_id": "CAN_19049635FBA77E244B37",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "European Commission",
+          "country": "European Union",
+          "institution_type": "INTERNATIONAL_OFFICIAL",
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "3D-FEM ANALYSIS OF SHIELD TUNNEL CONSTRUCTION WITH GROUND-SPRING MODEL",
+        "authors": [
+          "Pattanasak Chaipanna"
+        ],
+        "year": "2017",
+        "doi": "10.21660/2017.31.6536",
+        "source_url": "https://doi.org/10.21660/2017.31.6536",
+        "landing_url": "https://doi.org/10.21660/2017.31.6536",
+        "resolved_url": "https://geomatejournal.com/geomate/article/download/1075/922",
+        "local_path": "01_originals/B_INTERNATIONAL_TECHNICAL/PC_4DDFACBA06240AA3/source_raw.html",
+        "sha256": "4ddfacba06240aa3a1646a254bcf00a4f0a97b078480f82e64dbeb6b6582d69b",
+        "source_name": "crossref",
+        "publisher_code": "EC",
+        "route_path": "B_INTERNATIONAL_TECHNICAL",
+        "crawler_evidence_level": "WEB_SNAPSHOT_TEXT",
+        "evidence_level": "WEB_SNAPSHOT_TEXT",
+        "acquisition_status": "SNAPSHOTTED_WEB",
+        "source_representation": {
+          "original_or_raw": "01_originals/B_INTERNATIONAL_TECHNICAL/PC_4DDFACBA06240AA3/source_raw.html",
+          "original_or_raw_sha256": "4ddfacba06240aa3a1646a254bcf00a4f0a97b078480f82e64dbeb6b6582d69b",
+          "crawler_normalized": "01_originals/B_INTERNATIONAL_TECHNICAL/PC_4DDFACBA06240AA3/source.md",
+          "crawler_normalized_sha256": "7f3e568347aa262ea9772a411ef60a048463e099990a0f865567d61813fcf8af",
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_A",
+        "provisional_authority_tier": "A3",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "INTERNATIONAL_OFFICIAL",
+        "authority_tier": "A3",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "shield_tunnelling",
+          "site_investigation",
+          "soft_ground",
+          "cost_estimation",
+          "geotechnics",
+          "excavation",
+          "monitoring",
+          "construction_cost"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "European Commission",
+          "country": "European Union",
+          "institution_type": "INTERNATIONAL_OFFICIAL",
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "SNAPSHOTTED_WEB",
+          "source_path": "01_originals/B_INTERNATIONAL_TECHNICAL/PC_4DDFACBA06240AA3/source_raw.html",
+          "source_sha256": "4ddfacba06240aa3a1646a254bcf00a4f0a97b078480f82e64dbeb6b6582d69b"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.21660/2017.31.6536",
+          "landing_url": "https://doi.org/10.21660/2017.31.6536",
+          "resolved_url": "https://geomatejournal.com/geomate/article/download/1075/922",
+          "discovery_source": "crossref",
+          "discovery_query": "shield tunnel construction cost",
+          "doi": "10.21660/2017.31.6536",
+          "publisher": "International Journal of GEOMATE"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source_raw.html",
+    "original_sha256": "4ddfacba06240aa3a1646a254bcf00a4f0a97b078480f82e64dbeb6b6582d69b",
+    "mime_type": "text/html",
+    "format": "PDF"
+  }
+}

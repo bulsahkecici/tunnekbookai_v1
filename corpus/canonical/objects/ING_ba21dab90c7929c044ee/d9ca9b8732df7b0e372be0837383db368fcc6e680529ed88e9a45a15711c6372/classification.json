@@ -1,0 +1,121 @@
+{
+  "final_primary_section": "5.7",
+  "final_secondary_sections": [
+    "5.7.2"
+  ],
+  "final_section_confidence": 0.568,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0003",
+        "PARA0008",
+        "PARA0010",
+        "PARA0013",
+        "FIG0001",
+        "CAPT0001",
+        "PARA0031",
+        "PARA0042"
+      ]
+    },
+    {
+      "section_id": "5.7.2",
+      "section_title": "Enerji Maliyetini Azaltma Yöntemleri",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.568,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7378,
+      "chunk_vote": 0.0132
+    },
+    {
+      "id": "5.7",
+      "score": 0.5669,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7413,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3484,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3672
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3314,
+      "rule_score": 0.0,
+      "embedding_score": 0.7364,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3287,
+      "rule_score": 0.0,
+      "embedding_score": 0.7304,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3284,
+      "rule_score": 0.0,
+      "embedding_score": 0.7297,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3273,
+      "rule_score": 0.0,
+      "embedding_score": 0.7274,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3258,
+      "rule_score": 0.0,
+      "embedding_score": 0.724,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.3254,
+      "rule_score": 0.0,
+      "embedding_score": 0.7231,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.2924,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2834
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel havalandırma sistemine sahip bir broiler (tavuk) çiftliğindeki çevresel koşulların (sıcaklık, nem, gürültü, ışık) uzamsal analizini ve stres bölgelerini incelemektedir. Bu içerik, tünel mühendisliğindeki 'Tünel' kavramından ziyade tarımsal yapı havalandırmasıyla ilgilidir. Verilen aday bölümler arasında doğrudan bir eşleşme bulunmamakla birlikte, en yakın semantik bağlantı, havalandır",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:12",
+    "embeddings:8",
+    "top=5.4.2:0.568 gap=0.001 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

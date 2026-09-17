@@ -1,0 +1,126 @@
+{
+  "final_primary_section": "5.4.1",
+  "final_secondary_sections": [
+    "2.4.1.3"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4.1",
+      "section_title": "Yapısal Bakım",
+      "supporting_elements": [
+        "PARA0004",
+        "PARA0008",
+        "PARA0011",
+        "PARA0013",
+        "LIST0020",
+        "LIST0026"
+      ]
+    },
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": [
+        "PARA0006",
+        "PARA0014",
+        "PARA0015",
+        "PARA0054",
+        "PARA0057",
+        "LIST0029",
+        "LIST0038"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1.1",
+      "score": 0.3703,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4763
+    },
+    {
+      "id": "5.6",
+      "score": 0.3682,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.191
+    },
+    {
+      "id": "2",
+      "score": 0.3591,
+      "rule_score": 0.0,
+      "embedding_score": 0.7697,
+      "chunk_vote": 0.0639
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3461,
+      "rule_score": 0.0,
+      "embedding_score": 0.769,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3457,
+      "rule_score": 0.0,
+      "embedding_score": 0.7683,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3452,
+      "rule_score": 0.0,
+      "embedding_score": 0.7672,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3451,
+      "rule_score": 0.0,
+      "embedding_score": 0.7581,
+      "chunk_vote": 0.02
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.342,
+      "rule_score": 0.0,
+      "embedding_score": 0.76,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.342,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0599
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.341,
+      "rule_score": 0.0,
+      "embedding_score": 0.7578,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel kaplamasındaki boşlukların (cavity) tespit edilmesi için lazer Doppler vibrometrisi kullanılarak yapılan deneysel bir çalışmayı ele almaktadır. Bu, mevcut tünel altyapısının hasar tespiti ve durum değerlendirmesi kapsamında yapısal bakım ve onarım süreçlerinin temelini oluşturur. Bu nedenle 'Yapısal Bakım' (5.4.1) birincil bölüm olarak seçilmiştir. Ayrıca, bu tespitlerin tünelin işlet",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.1.1:0.3703 gap=0.002 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

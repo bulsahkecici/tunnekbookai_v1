@@ -1,0 +1,180 @@
+{
+  "final_primary_section": "2.4.1",
+  "final_secondary_sections": [
+    "2.1.2",
+    "2.4.1.2",
+    "5.9.1",
+    "2.1",
+    "2.2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "FIG0043",
+        "FIG0095"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "FIG0073"
+      ]
+    },
+    {
+      "section_id": "5.9.1",
+      "section_title": "Ulusal Literatür Taraması",
+      "supporting_elements": [
+        "FIG0001",
+        "FIG0003",
+        "FIG0006",
+        "HEAD0002",
+        "FIG0010",
+        "HEAD0004",
+        "HEAD0006",
+        "HEAD0009",
+        "HEAD0010",
+        "HEAD0011",
+        "HEAD0012",
+        "HEAD0013",
+        "HEAD0014",
+        "FIG0031",
+        "FIG0035",
+        "FIG0038",
+        "FIG0040",
+        "FIG0047",
+        "FIG0051",
+        "FIG0055",
+        "FIG0056",
+        "FIG0059",
+        "FIG0063",
+        "FIG0067",
+        "FIG0070"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "FIG0042",
+        "FIG0043",
+        "FIG0046",
+        "FIG0075",
+        "FIG0078",
+        "FIG0095",
+        "FIG0136",
+        "FIG0168"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "FIG0075",
+        "FIG0078",
+        "FIG0136",
+        "FIG0168"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7682,
+      "rule_score": 0.6,
+      "embedding_score": 0.7863,
+      "chunk_vote": 0.1719
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.681,
+      "rule_score": 0.5,
+      "embedding_score": 0.7911,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.6806,
+      "rule_score": 0.5,
+      "embedding_score": 0.7902,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.6396,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7864,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.4132,
+      "rule_score": 0.0,
+      "embedding_score": 0.8036,
+      "chunk_vote": 0.2578
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3539,
+      "rule_score": 0.0,
+      "embedding_score": 0.7864,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.353,
+      "rule_score": 0.0,
+      "embedding_score": 0.7845,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3513,
+      "rule_score": 0.0,
+      "embedding_score": 0.7806,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3462,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2031
+    },
+    {
+      "id": "2.2",
+      "score": 0.2922,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0859
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, KGM Jeolojik Hizmetler Şube Müdürlüğü tarafından hazırlanmış olup Türkiye'nin jeolojik/tektonik yapısını, fay haritalarını ve deprem risklerini incelemektedir. Bu içerik doğrudan 'Jeolojik ve Geoteknik İncelemeler' (2.4.1) bölümüne aittir. Ayrıca metindeki 'Tünellerde Destekleme Süreleri' ve 'Destek Sistemleri' başlıkları ile görsellerdeki destek uygulamaları, 'Tünel Destekleme Elemanları' ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7682 gap=0.087 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

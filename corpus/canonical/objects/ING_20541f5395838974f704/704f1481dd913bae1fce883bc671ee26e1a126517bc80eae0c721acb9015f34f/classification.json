@@ -1,0 +1,162 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0004",
+        "PARA0006",
+        "PARA0007",
+        "PARA0009",
+        "LIST0002",
+        "LIST0004",
+        "HEAD0005",
+        "PARA0010",
+        "PARA0015",
+        "PARA0016",
+        "PARA0017",
+        "FIG0003",
+        "CAPT0003",
+        "PARA0026",
+        "PARA0057",
+        "PARA0081",
+        "PARA0083",
+        "LIST0037",
+        "LIST0045",
+        "LIST0049",
+        "LIST0050",
+        "LIST0077",
+        "LIST0078"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0004",
+        "PARA0006",
+        "PARA0007",
+        "PARA0009",
+        "LIST0002",
+        "LIST0004",
+        "HEAD0005",
+        "PARA0010",
+        "PARA0015",
+        "PARA0016",
+        "PARA0017",
+        "FIG0003",
+        "CAPT0003",
+        "PARA0026",
+        "PARA0057",
+        "PARA0073",
+        "PARA0079",
+        "PARA0081",
+        "PARA0083",
+        "PARA0085",
+        "PARA0086",
+        "LIST0037",
+        "LIST0038",
+        "LIST0045"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.6746,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7923,
+      "chunk_vote": 0.1617
+    },
+    {
+      "id": "2.2",
+      "score": 0.5908,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7888,
+      "chunk_vote": 0.0128
+    },
+    {
+      "id": "6.1",
+      "score": 0.3749,
+      "rule_score": 0.0,
+      "embedding_score": 0.799,
+      "chunk_vote": 0.0766
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3593,
+      "rule_score": 0.0,
+      "embedding_score": 0.7872,
+      "chunk_vote": 0.0255
+    },
+    {
+      "id": "5.3",
+      "score": 0.358,
+      "rule_score": 0.0,
+      "embedding_score": 0.7955,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3568,
+      "rule_score": 0.0,
+      "embedding_score": 0.7929,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.356,
+      "rule_score": 0.0,
+      "embedding_score": 0.791,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3556,
+      "rule_score": 0.0,
+      "embedding_score": 0.7902,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3141,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0426
+    },
+    {
+      "id": "5",
+      "score": 0.2886,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0681
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, TBM (Tünel Kazıcı) verileri kullanılarak jeolojik yeniden yapılandırma için aktif öğrenme çerçevesi önermektedir. Bu, tünel yapım yöntemlerinden biri olan TBM ile doğrudan ilgilidir ve inşaat esnasındaki veri analizi/yapım tekniği kapsamına girdiğinden 2.2 (Tünel Yapım Yöntemleri) birincil, 2 (Tünel Ana Elemanları...) ikincil olarak seçilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.6746 gap=0.084 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,1092 @@
+{
+  "claim_count": 1776,
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 907,
+    "SUPPORTED": 257,
+    "UNSUPPORTED": 1786
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "manifest_id": "SPM_d05b2282c795b17740b6d4c2089e73febc088f49987fe64e6d60b383efe01276",
+  "question_count": 2950,
+  "schema_version": "1.0",
+  "section_count": 59,
+  "sections": [
+    {
+      "claim_count": 60,
+      "claim_registry_id": "SCR_23fbfd1d00a75631624ad88bce64b2b678403d61e66053d073d5c8237058b63c",
+      "claim_registry_path": "book/production/preparation/packets/SEP_300294f79e4be9eacfdb4bf3279e97a44266982c09db06feb12e609cd00f2324/claim_registry.json",
+      "claim_registry_sha256": "62f697d139443e0ded0666ff8d52cd3b3d01d0931c1630a87a9e3c60d3fbe738",
+      "evidence_counts": {
+        "PARTIAL": 31,
+        "SUPPORTED": 11,
+        "UNSUPPORTED": 8
+      },
+      "packet_id": "SEP_300294f79e4be9eacfdb4bf3279e97a44266982c09db06feb12e609cd00f2324",
+      "packet_path": "book/production/preparation/packets/SEP_300294f79e4be9eacfdb4bf3279e97a44266982c09db06feb12e609cd00f2324/evidence_packet.json",
+      "packet_sha256": "f04e946a896ac1d609ab5f9551bf1b44c463f51f4b4a8155a08af7a96f13e632",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "1.1",
+      "section_title": "Tünelin Tanımı"
+    },
+    {
+      "claim_count": 35,
+      "claim_registry_id": "SCR_cac814d438c703dea514f264ef9b0b704f0f46e0e12e56bef75e7d420b871697",
+      "claim_registry_path": "book/production/preparation/packets/SEP_92f732329b12e0a5bd9e982b5ccf7b08664d74b6a80bb582eba97c491f5d961d/claim_registry.json",
+      "claim_registry_sha256": "d40683c8a1e88b78c67db3852cc7fb7397e64d67c971af5f29d5c06399a44f8e",
+      "evidence_counts": {
+        "PARTIAL": 17,
+        "SUPPORTED": 6,
+        "UNSUPPORTED": 27
+      },
+      "packet_id": "SEP_92f732329b12e0a5bd9e982b5ccf7b08664d74b6a80bb582eba97c491f5d961d",
+      "packet_path": "book/production/preparation/packets/SEP_92f732329b12e0a5bd9e982b5ccf7b08664d74b6a80bb582eba97c491f5d961d/evidence_packet.json",
+      "packet_sha256": "5953fda47becafd394060b1d88dc0ddfc52877aeb68e564c23d008f04ffacfac",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "1.2",
+      "section_title": "Tünellerin Sınıflandırılması"
+    },
+    {
+      "claim_count": 23,
+      "claim_registry_id": "SCR_ed43c7e5fc89cc476407f0c19121b09be3d53ff9c53759c8b46c1a3b2519abad",
+      "claim_registry_path": "book/production/preparation/packets/SEP_cd90c08fadda8f7c07354cd6858f3c56a9a6424c1817405226717375de79195f/claim_registry.json",
+      "claim_registry_sha256": "79a204872c3dd2a8308d65cb12cbabaacd51be05e642a38aa6e70b1329c54d1b",
+      "evidence_counts": {
+        "PARTIAL": 12,
+        "SUPPORTED": 10,
+        "UNSUPPORTED": 28
+      },
+      "packet_id": "SEP_cd90c08fadda8f7c07354cd6858f3c56a9a6424c1817405226717375de79195f",
+      "packet_path": "book/production/preparation/packets/SEP_cd90c08fadda8f7c07354cd6858f3c56a9a6424c1817405226717375de79195f/evidence_packet.json",
+      "packet_sha256": "bfe4557c4b190f066997e98a3d465566c645bf53ae075cd924477ccc35ab6a89",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "1.3",
+      "section_title": "Tünellerin Tarihçesi"
+    },
+    {
+      "claim_count": 10,
+      "claim_registry_id": "SCR_c686837fd5c7c9a746138cab9628ed2f60494e975c93d22ffd3d5ed854b9e04e",
+      "claim_registry_path": "book/production/preparation/packets/SEP_80df6b5471fe6b76184b29556d37c8f222034101e686a2b737409642caedf4ef/claim_registry.json",
+      "claim_registry_sha256": "b15c94e6e8df1aa1cf1471745f33188cbafebbc4007008cea342ccd4c2efcba6",
+      "evidence_counts": {
+        "PARTIAL": 6,
+        "SUPPORTED": 4,
+        "UNSUPPORTED": 40
+      },
+      "packet_id": "SEP_80df6b5471fe6b76184b29556d37c8f222034101e686a2b737409642caedf4ef",
+      "packet_path": "book/production/preparation/packets/SEP_80df6b5471fe6b76184b29556d37c8f222034101e686a2b737409642caedf4ef/evidence_packet.json",
+      "packet_sha256": "3aa75ade8a5735a41c74eb7286c4682792883fd2aec0f91f7ca975ec1585d44b",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "1.3.1",
+      "section_title": "Dünyadaki İlk Tüneller"
+    },
+    {
+      "claim_count": 4,
+      "claim_registry_id": "SCR_d4640d2f7d63a96a6d319c81a09394a98036143819fc6bc5a2295be8dbab8674",
+      "claim_registry_path": "book/production/preparation/packets/SEP_db5ee7ac0380ca8b477d40b89fddb61f8aa3f27d8e1c6818679ce7487c4babc9/claim_registry.json",
+      "claim_registry_sha256": "eff04e9c6b3930f8a03c8a1ade8cdc97499e025775c6b9c783979e96bc96665d",
+      "evidence_counts": {
+        "PARTIAL": 2,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 48
+      },
+      "packet_id": "SEP_db5ee7ac0380ca8b477d40b89fddb61f8aa3f27d8e1c6818679ce7487c4babc9",
+      "packet_path": "book/production/preparation/packets/SEP_db5ee7ac0380ca8b477d40b89fddb61f8aa3f27d8e1c6818679ce7487c4babc9/evidence_packet.json",
+      "packet_sha256": "c7166e679c55ff6c044de6a9d48a09ce37daba318b0b005907b9ea61069114e8",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "1.3.2",
+      "section_title": "Türkiye’de İlk Tünel"
+    },
+    {
+      "claim_count": 84,
+      "claim_registry_id": "SCR_20f323f14a9fc6e2e3d5ce007bc9afbc7aa17d7d9a798555655605fb753b15f6",
+      "claim_registry_path": "book/production/preparation/packets/SEP_c6a92b3050b01ab77f8c27491506143228b29c92cbc7e42ec44625b8ed38234b/claim_registry.json",
+      "claim_registry_sha256": "abdf5918ec1aa4bef7ea96d5961bec7fa6fd6fb09376db797eaf5da180a0bdaf",
+      "evidence_counts": {
+        "PARTIAL": 22,
+        "SUPPORTED": 20,
+        "UNSUPPORTED": 8
+      },
+      "packet_id": "SEP_c6a92b3050b01ab77f8c27491506143228b29c92cbc7e42ec44625b8ed38234b",
+      "packet_path": "book/production/preparation/packets/SEP_c6a92b3050b01ab77f8c27491506143228b29c92cbc7e42ec44625b8ed38234b/evidence_packet.json",
+      "packet_sha256": "c5718484cea12a4d24aa84691cc186b38e0f1e627850946b804ef0e95c0d80ec",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "1.4",
+      "section_title": "En İyi Tünel Mühendislik Uygulamaları"
+    },
+    {
+      "claim_count": 33,
+      "claim_registry_id": "SCR_187416dca2ce7f3ef3f9acab13343b9ee68a527a793cc46431eeef53f9b07f03",
+      "claim_registry_path": "book/production/preparation/packets/SEP_0ecbd2f91cc30176b4b84657cbaff4ab87aa50f982df3ff213c15bc9ed3de9f3/claim_registry.json",
+      "claim_registry_sha256": "fa7348352bf7ec35fd4e7eb41abff5d253f1838205df11af75c2ed14f5792a8a",
+      "evidence_counts": {
+        "PARTIAL": 8,
+        "SUPPORTED": 9,
+        "UNSUPPORTED": 33
+      },
+      "packet_id": "SEP_0ecbd2f91cc30176b4b84657cbaff4ab87aa50f982df3ff213c15bc9ed3de9f3",
+      "packet_path": "book/production/preparation/packets/SEP_0ecbd2f91cc30176b4b84657cbaff4ab87aa50f982df3ff213c15bc9ed3de9f3/evidence_packet.json",
+      "packet_sha256": "e67478d06cd82097d1f6add6e19e8ab41e9058f87601506fbb7a71c30c3c3eec",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "1.4.1",
+      "section_title": "Dünyada Karayolu Tünelleri"
+    },
+    {
+      "claim_count": 24,
+      "claim_registry_id": "SCR_31ad59c9a435f43475ba89e778114d72690d5843c010496a26385523b7f76b38",
+      "claim_registry_path": "book/production/preparation/packets/SEP_df34624531ff01b57b5576d3bfbd7234b0a14e8225796fa17edd1944952e646e/claim_registry.json",
+      "claim_registry_sha256": "37323a3dfe4858644af4aac7e46f47f93f0a0d646aa001f12d1dcf54f09ee9da",
+      "evidence_counts": {
+        "PARTIAL": 11,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 39
+      },
+      "packet_id": "SEP_df34624531ff01b57b5576d3bfbd7234b0a14e8225796fa17edd1944952e646e",
+      "packet_path": "book/production/preparation/packets/SEP_df34624531ff01b57b5576d3bfbd7234b0a14e8225796fa17edd1944952e646e/evidence_packet.json",
+      "packet_sha256": "fbd6e287156696ccc6da58604650494243faeafc3e80d8c7a710220c628cbd14",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "1.4.2",
+      "section_title": "Türkiye’de Karayolu Tünelleri"
+    },
+    {
+      "claim_count": 61,
+      "claim_registry_id": "SCR_5592f68a8ae6094b086211cbd450e46070a7b1762952030ab768c3f514b176ae",
+      "claim_registry_path": "book/production/preparation/packets/SEP_2ad85db1ac0e9fa0b98be835ea5d2dd3b8b86d1813e52533965d65327fc2b0c7/claim_registry.json",
+      "claim_registry_sha256": "054b123dc948a707fb41ace5d28e627733a7eaa80f833dc071e03619e0e794a4",
+      "evidence_counts": {
+        "PARTIAL": 25,
+        "SUPPORTED": 9,
+        "UNSUPPORTED": 16
+      },
+      "packet_id": "SEP_2ad85db1ac0e9fa0b98be835ea5d2dd3b8b86d1813e52533965d65327fc2b0c7",
+      "packet_path": "book/production/preparation/packets/SEP_2ad85db1ac0e9fa0b98be835ea5d2dd3b8b86d1813e52533965d65327fc2b0c7/evidence_packet.json",
+      "packet_sha256": "e5bc26e5dc78419156b4dc19590ade9f5b0c7433e9e29384796b970e6d8d4d96",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "1.5",
+      "section_title": "Tünel Felaketleri"
+    },
+    {
+      "claim_count": 43,
+      "claim_registry_id": "SCR_f93a8b727f01d9399afc193130fe8f630ec0fc0c5aa70354b88f39eec47fd771",
+      "claim_registry_path": "book/production/preparation/packets/SEP_137bd77f1d1fcb8b3e823439984576eb89ba9cc19b4e81795547e7c5378fac18/claim_registry.json",
+      "claim_registry_sha256": "ce26d896193fc0598ad592e62e0139bac16c0aa8dec5d4586d632612e4b2daa1",
+      "evidence_counts": {
+        "PARTIAL": 26,
+        "SUPPORTED": 2,
+        "UNSUPPORTED": 22
+      },
+      "packet_id": "SEP_137bd77f1d1fcb8b3e823439984576eb89ba9cc19b4e81795547e7c5378fac18",
+      "packet_path": "book/production/preparation/packets/SEP_137bd77f1d1fcb8b3e823439984576eb89ba9cc19b4e81795547e7c5378fac18/evidence_packet.json",
+      "packet_sha256": "5e099beab073c27b35cd4ce8e7e6833bf8248f56a2eccba87433a7d94f96cab7",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "1.5.1",
+      "section_title": "Dünyada Gerçekleşen Önemli Tünel Felaketleri"
+    },
+    {
+      "claim_count": 35,
+      "claim_registry_id": "SCR_b28e400135638f63946cefd0bffe7e9d76c32c84cb35b97f170ef9249557f5ac",
+      "claim_registry_path": "book/production/preparation/packets/SEP_c06379a27dd4221c005fa7c086fae2d6cdc0265e40c195ec78575696d5d1ebff/claim_registry.json",
+      "claim_registry_sha256": "6d64d424afdb007eaf21db0eacc5dab2f7bb705081aa1377088f4089ac631d30",
+      "evidence_counts": {
+        "PARTIAL": 12,
+        "SUPPORTED": 4,
+        "UNSUPPORTED": 34
+      },
+      "packet_id": "SEP_c06379a27dd4221c005fa7c086fae2d6cdc0265e40c195ec78575696d5d1ebff",
+      "packet_path": "book/production/preparation/packets/SEP_c06379a27dd4221c005fa7c086fae2d6cdc0265e40c195ec78575696d5d1ebff/evidence_packet.json",
+      "packet_sha256": "e35b1b7e28927d0b3b916c25aae7d5bc916810da035542fd302c35ee8a7017ad",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "1.5.2",
+      "section_title": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları"
+    },
+    {
+      "claim_count": 58,
+      "claim_registry_id": "SCR_d3c42712e92c313237cee5de06dc340e58eac8045627316cd72629d3326ee7b4",
+      "claim_registry_path": "book/production/preparation/packets/SEP_c66465b4acc9b116736e5129857957cf620c0696667300bd42ba0282dbd7e62b/claim_registry.json",
+      "claim_registry_sha256": "23fce2917ca431a242190baaef810735d9db5cc22ecbb9b8bb7ad85d58c0cbcc",
+      "evidence_counts": {
+        "PARTIAL": 18,
+        "SUPPORTED": 12,
+        "UNSUPPORTED": 20
+      },
+      "packet_id": "SEP_c66465b4acc9b116736e5129857957cf620c0696667300bd42ba0282dbd7e62b",
+      "packet_path": "book/production/preparation/packets/SEP_c66465b4acc9b116736e5129857957cf620c0696667300bd42ba0282dbd7e62b/evidence_packet.json",
+      "packet_sha256": "5479d08502edfe6da7b9fa9a2a3d3c69da8be3490a0445fe3ad9c280834055be",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları"
+    },
+    {
+      "claim_count": 26,
+      "claim_registry_id": "SCR_468f5e9d5e753a9c6912acce239a76ef4d9512f72b1cc8a01da033aeed8998cb",
+      "claim_registry_path": "book/production/preparation/packets/SEP_c9d392dc922543d72fdbdd56228e6c2fdaf221b84fcbae3b2aa75d8b16ca1450/claim_registry.json",
+      "claim_registry_sha256": "19822befc87fadabd3a3a575e4b1897140a9f0f28580cc399e080b56294e9e3b",
+      "evidence_counts": {
+        "PARTIAL": 26,
+        "SUPPORTED": 3,
+        "UNSUPPORTED": 21
+      },
+      "packet_id": "SEP_c9d392dc922543d72fdbdd56228e6c2fdaf221b84fcbae3b2aa75d8b16ca1450",
+      "packet_path": "book/production/preparation/packets/SEP_c9d392dc922543d72fdbdd56228e6c2fdaf221b84fcbae3b2aa75d8b16ca1450/evidence_packet.json",
+      "packet_sha256": "7137e13d73d10bde2fc2d6bf40361dcb56da93073c7c5bb4576ba0d2557576ed",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "2.1.1",
+      "section_title": "Tünellerle İlgili Tanımlamalar"
+    },
+    {
+      "claim_count": 39,
+      "claim_registry_id": "SCR_3c67a1e3b7d775d59c4ec12482352726451b1d7fd14d48985a955f95bd68405b",
+      "claim_registry_path": "book/production/preparation/packets/SEP_3e8ad3c4afe8c1fa6f8ef6d9b38a261f256cb03b3378dc40db46e9a5f9a5b841/claim_registry.json",
+      "claim_registry_sha256": "811234e7ead003912eb934a9b092d5fc5ca92b80c01ccb17f323b5de0b1db11e",
+      "evidence_counts": {
+        "PARTIAL": 13,
+        "SUPPORTED": 9,
+        "UNSUPPORTED": 28
+      },
+      "packet_id": "SEP_3e8ad3c4afe8c1fa6f8ef6d9b38a261f256cb03b3378dc40db46e9a5f9a5b841",
+      "packet_path": "book/production/preparation/packets/SEP_3e8ad3c4afe8c1fa6f8ef6d9b38a261f256cb03b3378dc40db46e9a5f9a5b841/evidence_packet.json",
+      "packet_sha256": "df9a6334e3c4c801afffe277707a79af1cf2d4cc02da1dedde433099b632415f",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları"
+    },
+    {
+      "claim_count": 85,
+      "claim_registry_id": "SCR_47855c760d22f7f6c7af2bf26296d6c628dae154ec2c5592b4be86e437132762",
+      "claim_registry_path": "book/production/preparation/packets/SEP_65b7e407f3bda46a5e21c5d2dc7fcb7048b32b1d70ce0119b08e49312ad82196/claim_registry.json",
+      "claim_registry_sha256": "97a7b9e46776cf53db75df54916a61d35561858f6012d124876a73076b69f4cc",
+      "evidence_counts": {
+        "PARTIAL": 31,
+        "SUPPORTED": 10,
+        "UNSUPPORTED": 9
+      },
+      "packet_id": "SEP_65b7e407f3bda46a5e21c5d2dc7fcb7048b32b1d70ce0119b08e49312ad82196",
+      "packet_path": "book/production/preparation/packets/SEP_65b7e407f3bda46a5e21c5d2dc7fcb7048b32b1d70ce0119b08e49312ad82196/evidence_packet.json",
+      "packet_sha256": "a70d8026413bf97b9a095b10e871dcb233bc238a8935cc5f3701a8f9f5725e5f",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri"
+    },
+    {
+      "claim_count": 48,
+      "claim_registry_id": "SCR_101c5d2e2fadc873c6f324f47e1546527edbc465547c078113d7cc45e8d6db4e",
+      "claim_registry_path": "book/production/preparation/packets/SEP_58e49a0aa583d18a5e0bf031f71978e470b3d82906a0a7ec0570ef3cd5abe5c2/claim_registry.json",
+      "claim_registry_sha256": "10eff62e36e2674587c901c410832dc228ac113789b72c89c749df79b87eaedb",
+      "evidence_counts": {
+        "PARTIAL": 31,
+        "SUPPORTED": 4,
+        "UNSUPPORTED": 15
+      },
+      "packet_id": "SEP_58e49a0aa583d18a5e0bf031f71978e470b3d82906a0a7ec0570ef3cd5abe5c2",
+      "packet_path": "book/production/preparation/packets/SEP_58e49a0aa583d18a5e0bf031f71978e470b3d82906a0a7ec0570ef3cd5abe5c2/evidence_packet.json",
+      "packet_sha256": "7aadaf63ed28f25092fd88b69f141e5830c3e11ca7b02ae8c3f5073a8532cd4b",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller"
+    },
+    {
+      "claim_count": 10,
+      "claim_registry_id": "SCR_342e03ab4dd95a790c4ca24f77af1b4a52c3bfc18837b81220f230303161209b",
+      "claim_registry_path": "book/production/preparation/packets/SEP_5fa8f7a43b15ef57c3e999e2b9765649f9da32b25f354ac6600fd8cf97fe3a46/claim_registry.json",
+      "claim_registry_sha256": "9aefb05d4e9fc6342785207c698fa7e1e3c0a7ee67ace08647c9ba8d9dd39cb4",
+      "evidence_counts": {
+        "PARTIAL": 9,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 41
+      },
+      "packet_id": "SEP_5fa8f7a43b15ef57c3e999e2b9765649f9da32b25f354ac6600fd8cf97fe3a46",
+      "packet_path": "book/production/preparation/packets/SEP_5fa8f7a43b15ef57c3e999e2b9765649f9da32b25f354ac6600fd8cf97fe3a46/evidence_packet.json",
+      "packet_sha256": "dedd6af54c127f71127b61c66e43396ef453bbf3ddd00a57d5802dfbcb120514",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller"
+    },
+    {
+      "claim_count": 3,
+      "claim_registry_id": "SCR_0a2121440d5a705195d829a0396ce11b153b9879c8e2ea03f2fa8d5f6dca58a5",
+      "claim_registry_path": "book/production/preparation/packets/SEP_464797e5391c16781d511ed310c28abfc6acc8ecdd7094b448044baaf197cf5b/claim_registry.json",
+      "claim_registry_sha256": "bf743a59adc6a92f72f32884bbb29f268807c4c1f7656285863e3acca304f854",
+      "evidence_counts": {
+        "PARTIAL": 5,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 45
+      },
+      "packet_id": "SEP_464797e5391c16781d511ed310c28abfc6acc8ecdd7094b448044baaf197cf5b",
+      "packet_path": "book/production/preparation/packets/SEP_464797e5391c16781d511ed310c28abfc6acc8ecdd7094b448044baaf197cf5b/evidence_packet.json",
+      "packet_sha256": "067ed61df46f742082e8b25cedcf3343a4bc13b8fbca867e55c857a95b9a8907",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "2.2.3",
+      "section_title": "Su Altında Açılan Tüneller"
+    },
+    {
+      "claim_count": 41,
+      "claim_registry_id": "SCR_98bdd207e2e5c3b46dc6ff963009e9eaea4bd6a1081f456bfb7a83870c04b0e9",
+      "claim_registry_path": "book/production/preparation/packets/SEP_50a0c655c55795ea94857fb17a6374ab25ee8252fa4a0808bd63541bef49e4a4/claim_registry.json",
+      "claim_registry_sha256": "334b8d98e9f9b279b3b1ed23a4353417f480554ca9bd2775be5c462f0ff1cd8f",
+      "evidence_counts": {
+        "PARTIAL": 28,
+        "SUPPORTED": 5,
+        "UNSUPPORTED": 17
+      },
+      "packet_id": "SEP_50a0c655c55795ea94857fb17a6374ab25ee8252fa4a0808bd63541bef49e4a4",
+      "packet_path": "book/production/preparation/packets/SEP_50a0c655c55795ea94857fb17a6374ab25ee8252fa4a0808bd63541bef49e4a4/evidence_packet.json",
+      "packet_sha256": "c55a41850c8db7849e5d682551d044d6510ad85ae4f572626ac1b28e2344ee88",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "2.3",
+      "section_title": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar"
+    },
+    {
+      "claim_count": 71,
+      "claim_registry_id": "SCR_ccf692c1d8d1f6ac75ef3dce22fd823bbc218d60f05eb3a58c3cc674dbf546f0",
+      "claim_registry_path": "book/production/preparation/packets/SEP_24fde8ee64680e21da79da17b48e1b790e8824516ade917e15dd246d785645a5/claim_registry.json",
+      "claim_registry_sha256": "24fb928def4acf76b4c8b4524c078beb5d7bf91bccdf2b0233df50aac5c0e282",
+      "evidence_counts": {
+        "PARTIAL": 30,
+        "SUPPORTED": 12,
+        "UNSUPPORTED": 8
+      },
+      "packet_id": "SEP_24fde8ee64680e21da79da17b48e1b790e8824516ade917e15dd246d785645a5",
+      "packet_path": "book/production/preparation/packets/SEP_24fde8ee64680e21da79da17b48e1b790e8824516ade917e15dd246d785645a5/evidence_packet.json",
+      "packet_sha256": "0041fbe04ce468f99f2852e4076351570b16dc6c35ce030ce869b09dcfb113e2",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "2.4",
+      "section_title": "Tünellerin Projelendirilmesi"
+    },
+    {
+      "claim_count": 66,
+      "claim_registry_id": "SCR_bac262a262b92495ddf06a1e34dcdce9dfc54a02b93923036353a4b8144cf543",
+      "claim_registry_path": "book/production/preparation/packets/SEP_daae63c341ed276badfa59a6874b0668c1541cb49890a890134a2045668952b8/claim_registry.json",
+      "claim_registry_sha256": "938b1f7dca62e729aa53609a8adf74d6655b6c160cdc911a24fa7e27695d613e",
+      "evidence_counts": {
+        "PARTIAL": 22,
+        "SUPPORTED": 16,
+        "UNSUPPORTED": 12
+      },
+      "packet_id": "SEP_daae63c341ed276badfa59a6874b0668c1541cb49890a890134a2045668952b8",
+      "packet_path": "book/production/preparation/packets/SEP_daae63c341ed276badfa59a6874b0668c1541cb49890a890134a2045668952b8/evidence_packet.json",
+      "packet_sha256": "9fd2f8d0c5354a39486db8e1fdddf8a65dc8fb504a7ee4d5324d631acc31b244",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler"
+    },
+    {
+      "claim_count": 55,
+      "claim_registry_id": "SCR_102c98f931e2b82528fcf533894611146173fe0c07b8e22b0b928adf20d2aa17",
+      "claim_registry_path": "book/production/preparation/packets/SEP_d18674a3fb10efa8f44959076b8e8acc07b92cd300ae8f066d105cdb64858130/claim_registry.json",
+      "claim_registry_sha256": "67e8e73b4bd1e13f77b4e62a9d941cc85e3823ad73b3b3dc3624b590378d69ba",
+      "evidence_counts": {
+        "PARTIAL": 27,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 23
+      },
+      "packet_id": "SEP_d18674a3fb10efa8f44959076b8e8acc07b92cd300ae8f066d105cdb64858130",
+      "packet_path": "book/production/preparation/packets/SEP_d18674a3fb10efa8f44959076b8e8acc07b92cd300ae8f066d105cdb64858130/evidence_packet.json",
+      "packet_sha256": "6143b287d076298d5d3e5d188d387914a8b38d8a0674b37502ddf6ef6401253a",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "2.4.1.1",
+      "section_title": "İnşaat Başlamadan Önce Yapılan Çalışmalar"
+    },
+    {
+      "claim_count": 101,
+      "claim_registry_id": "SCR_63b0e7168b68da6814f1ff0d1620ff46707e891622e76e0cfaaa9c8b1205c6aa",
+      "claim_registry_path": "book/production/preparation/packets/SEP_dc56c037a50eefff5bd2d227fcc087a56e86ed04f0edffc3102fc20a4d83946e/claim_registry.json",
+      "claim_registry_sha256": "00118266564d594c3592511cd7d7d3c517d03027438e873e3ad5e28cfb121467",
+      "evidence_counts": {
+        "PARTIAL": 21,
+        "SUPPORTED": 17,
+        "UNSUPPORTED": 12
+      },
+      "packet_id": "SEP_dc56c037a50eefff5bd2d227fcc087a56e86ed04f0edffc3102fc20a4d83946e",
+      "packet_path": "book/production/preparation/packets/SEP_dc56c037a50eefff5bd2d227fcc087a56e86ed04f0edffc3102fc20a4d83946e/evidence_packet.json",
+      "packet_sha256": "a80297af92170af257d6555618ba50a61c8dde44f1f96ae76267135b666373ec",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar"
+    },
+    {
+      "claim_count": 74,
+      "claim_registry_id": "SCR_78f67b02782561e23e22f0d5cb1730dc3c8dd71aa1b7dc9b532ddee7a9f0904d",
+      "claim_registry_path": "book/production/preparation/packets/SEP_3482a10fc574e5226d54fb1da304247aa1639fa67e6811802e46d571b9e8d674/claim_registry.json",
+      "claim_registry_sha256": "6b4bc565ee5c62b9587f05e3629de034f2f26bf3f7f8c1e795732a0154860f93",
+      "evidence_counts": {
+        "PARTIAL": 29,
+        "SUPPORTED": 10,
+        "UNSUPPORTED": 11
+      },
+      "packet_id": "SEP_3482a10fc574e5226d54fb1da304247aa1639fa67e6811802e46d571b9e8d674",
+      "packet_path": "book/production/preparation/packets/SEP_3482a10fc574e5226d54fb1da304247aa1639fa67e6811802e46d571b9e8d674/evidence_packet.json",
+      "packet_sha256": "40e097a6287a28857e3d486533c0d9d5c1ea12e14eae89349969cce864dc1cb8",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları"
+    },
+    {
+      "claim_count": 14,
+      "claim_registry_id": "SCR_e3802f0097727526653a62524f89f2bd086f689ed926a1e3fb3910bf5e8c020c",
+      "claim_registry_path": "book/production/preparation/packets/SEP_47aada482bb03b21b85e74548cd7f2ab5ebf926fda22635536d5c36031d4f26a/claim_registry.json",
+      "claim_registry_sha256": "2cd6f49bd01657c7abfd0d8e1f85a0ef28f6f315ea2a889b9d085fef74a85a92",
+      "evidence_counts": {
+        "PARTIAL": 21,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 29
+      },
+      "packet_id": "SEP_47aada482bb03b21b85e74548cd7f2ab5ebf926fda22635536d5c36031d4f26a",
+      "packet_path": "book/production/preparation/packets/SEP_47aada482bb03b21b85e74548cd7f2ab5ebf926fda22635536d5c36031d4f26a/evidence_packet.json",
+      "packet_sha256": "995cee2a6ca2f1b1fc7b57876215ebafc6b83694cee463df413c8de808c8dc0e",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "2.4.2",
+      "section_title": "Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Hususlar"
+    },
+    {
+      "claim_count": 23,
+      "claim_registry_id": "SCR_8b08a7c61dd844d9e95fb80ec43dc219b17c6fa39a1497d897063bd5500800f1",
+      "claim_registry_path": "book/production/preparation/packets/SEP_1802c9d71aa7c9d991cf5906e1a57af42dc5db9ec26d0a8dc72da14fbc2d2d73/claim_registry.json",
+      "claim_registry_sha256": "94e5ea944219803ae42ab01cd7bb3a70aee7b5111d15175534ef59c82f060d18",
+      "evidence_counts": {
+        "PARTIAL": 22,
+        "SUPPORTED": 2,
+        "UNSUPPORTED": 26
+      },
+      "packet_id": "SEP_1802c9d71aa7c9d991cf5906e1a57af42dc5db9ec26d0a8dc72da14fbc2d2d73",
+      "packet_path": "book/production/preparation/packets/SEP_1802c9d71aa7c9d991cf5906e1a57af42dc5db9ec26d0a8dc72da14fbc2d2d73/evidence_packet.json",
+      "packet_sha256": "538eac98324221edef5a0c9f080cb369dc9e8dcf08287f5c9c52b7b12a0c8419",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar"
+    },
+    {
+      "claim_count": 6,
+      "claim_registry_id": "SCR_5c96bdc9e9de4bfb6271ab8e4f4a4642cbafe1bcc302a512597d4d0eb095d8b2",
+      "claim_registry_path": "book/production/preparation/packets/SEP_1500303b40446fe52c5044e2164166913e94da8227230e6fa8d94032e2a42419/claim_registry.json",
+      "claim_registry_sha256": "566bdd07c81d8c8bc0bda66f53f3d1dd6a2497dbc7e91d0920da526c97cff75b",
+      "evidence_counts": {
+        "PARTIAL": 3,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 47
+      },
+      "packet_id": "SEP_1500303b40446fe52c5044e2164166913e94da8227230e6fa8d94032e2a42419",
+      "packet_path": "book/production/preparation/packets/SEP_1500303b40446fe52c5044e2164166913e94da8227230e6fa8d94032e2a42419/evidence_packet.json",
+      "packet_sha256": "57b36687da4ee63b85a25b8226ddca01cf9ffc244e03df910da854a98fd5dc8c",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "2.4.2.2",
+      "section_title": "Boykesit Belirlemede Dikkat Edilecek Hususlar"
+    },
+    {
+      "claim_count": 12,
+      "claim_registry_id": "SCR_3a7be0e84823a0a0f5c8040faa0c1eae2bf264a35c13f82d91678a5076c64362",
+      "claim_registry_path": "book/production/preparation/packets/SEP_bce798e6df6246eae9d2cebfef190abb9660545083f1182478ae27acf6dc50cf/claim_registry.json",
+      "claim_registry_sha256": "d2669b6a61c174de1e9fef270240f67a0c0807c571c337bc157c1969a619d126",
+      "evidence_counts": {
+        "PARTIAL": 10,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 40
+      },
+      "packet_id": "SEP_bce798e6df6246eae9d2cebfef190abb9660545083f1182478ae27acf6dc50cf",
+      "packet_path": "book/production/preparation/packets/SEP_bce798e6df6246eae9d2cebfef190abb9660545083f1182478ae27acf6dc50cf/evidence_packet.json",
+      "packet_sha256": "5f7d0bfbfa60097754adc337322a0a7bb1f4d921b74cc60984e3e0d18d94e620",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "2.4.3",
+      "section_title": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları"
+    },
+    {
+      "claim_count": 28,
+      "claim_registry_id": "SCR_fbc34379e88f138064ca28d81f6280a38556d37eb90b79b8d3996c06d9e685a6",
+      "claim_registry_path": "book/production/preparation/packets/SEP_ff6e49534b48c1fe7741c658c710ee558c9b792a1a6f8e44683672146aacbbcd/claim_registry.json",
+      "claim_registry_sha256": "08b6b53d20d5b1001a07dee105c3640d4070eb07124406e8ec46acb562404290",
+      "evidence_counts": {
+        "PARTIAL": 18,
+        "SUPPORTED": 4,
+        "UNSUPPORTED": 28
+      },
+      "packet_id": "SEP_ff6e49534b48c1fe7741c658c710ee558c9b792a1a6f8e44683672146aacbbcd",
+      "packet_path": "book/production/preparation/packets/SEP_ff6e49534b48c1fe7741c658c710ee558c9b792a1a6f8e44683672146aacbbcd/evidence_packet.json",
+      "packet_sha256": "83da6299b250f6f1ff33f79f82aff6a7b22a9046cea5013ebaddc8a95eea57d2",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "4.1",
+      "section_title": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar"
+    },
+    {
+      "claim_count": 31,
+      "claim_registry_id": "SCR_29141e7d42403fb6cead23744ee95ee32702d16ab07e57bcac27951ff3c71da6",
+      "claim_registry_path": "book/production/preparation/packets/SEP_00ed3ba44c40eaeaeaa28ba9d597cb8473f0133d1c227280dbd593b6446045a4/claim_registry.json",
+      "claim_registry_sha256": "be02405ce08cc26a631e7463c22384082a2ce067acffcc06a7d9ff6afc5f936b",
+      "evidence_counts": {
+        "PARTIAL": 16,
+        "SUPPORTED": 12,
+        "UNSUPPORTED": 22
+      },
+      "packet_id": "SEP_00ed3ba44c40eaeaeaa28ba9d597cb8473f0133d1c227280dbd593b6446045a4",
+      "packet_path": "book/production/preparation/packets/SEP_00ed3ba44c40eaeaeaa28ba9d597cb8473f0133d1c227280dbd593b6446045a4/evidence_packet.json",
+      "packet_sha256": "ed931858a3ebfee21474e689684d2a81a2ec7ec14c445900992d81979d3cbcae",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "4.3.5",
+      "section_title": "Tünel Yaşam Döngü Maliyetleri"
+    },
+    {
+      "claim_count": 0,
+      "claim_registry_id": "SCR_cc3a79b1462921f3a852e52e217efeba41175524ef3c4f6eae01e16d75f94e96",
+      "claim_registry_path": "book/production/preparation/packets/SEP_7d619dc0f2fbbf582b6174bb28c8f9ac698d06f1a6045364373a5a7b71095664/claim_registry.json",
+      "claim_registry_sha256": "92ebdc1adb6436d5b494a7c408004bb14dd8e84502aec9921ddc6d4a9626987c",
+      "evidence_counts": {
+        "PARTIAL": 0,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 50
+      },
+      "packet_id": "SEP_7d619dc0f2fbbf582b6174bb28c8f9ac698d06f1a6045364373a5a7b71095664",
+      "packet_path": "book/production/preparation/packets/SEP_7d619dc0f2fbbf582b6174bb28c8f9ac698d06f1a6045364373a5a7b71095664/evidence_packet.json",
+      "packet_sha256": "fe155e661c163f23900bdf4b3e322d9ad3fcd06ba957feea22b8e5ff03c5739f",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi"
+    },
+    {
+      "claim_count": 3,
+      "claim_registry_id": "SCR_4a4330dba95bc9ac9ef836ad08b9b5c25411f05c6ecae1f03098ed9c9465cf53",
+      "claim_registry_path": "book/production/preparation/packets/SEP_c68529199f51c855ea5a8a051bf5e18502ff15a3098fee0f7d41d35c1c37e876/claim_registry.json",
+      "claim_registry_sha256": "0879a7ebd49921db0b4e16e30162591caf72accae0948d88903664627e534b27",
+      "evidence_counts": {
+        "PARTIAL": 2,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 48
+      },
+      "packet_id": "SEP_c68529199f51c855ea5a8a051bf5e18502ff15a3098fee0f7d41d35c1c37e876",
+      "packet_path": "book/production/preparation/packets/SEP_c68529199f51c855ea5a8a051bf5e18502ff15a3098fee0f7d41d35c1c37e876/evidence_packet.json",
+      "packet_sha256": "d05d6f620dbc486eb4f8f9a0b992b4770d4132fe961e2f951cdceb257e5bcb4b",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "5.2",
+      "section_title": "Çalışmanın Kapsamı"
+    },
+    {
+      "claim_count": 0,
+      "claim_registry_id": "SCR_e80bc4c7de0715a60f4d3cd559aebe76fdc2a345f1e6b956a9260ef6ef035169",
+      "claim_registry_path": "book/production/preparation/packets/SEP_8255684cd163c6d969ea5c5603c6b2babc665c80efaf8cc1b469ce7163f1ef3d/claim_registry.json",
+      "claim_registry_sha256": "487d3b175be40a98d6515511b405bc2ab64e0149b7db69abf6ac424191c6126e",
+      "evidence_counts": {
+        "PARTIAL": 0,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 50
+      },
+      "packet_id": "SEP_8255684cd163c6d969ea5c5603c6b2babc665c80efaf8cc1b469ce7163f1ef3d",
+      "packet_path": "book/production/preparation/packets/SEP_8255684cd163c6d969ea5c5603c6b2babc665c80efaf8cc1b469ce7163f1ef3d/evidence_packet.json",
+      "packet_sha256": "df731c9b2252d00b55d620e6c11c71326fbcc1b1ce169073919585da2cd15607",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "5.3",
+      "section_title": "Çalışmanın Yöntemi ve Kullanılan Veriler"
+    },
+    {
+      "claim_count": 46,
+      "claim_registry_id": "SCR_7e4affdfa67a24f0e348e58dd3403db19aced5c32dd19005df51044701d1e8d1",
+      "claim_registry_path": "book/production/preparation/packets/SEP_5a6e774669ffd3666b030f4c8da587cdec302fe01b6f251bc6e4967907bd3929/claim_registry.json",
+      "claim_registry_sha256": "9a3766a0f7e4cf42d8d2ec8e9aa7bed002c1bd9f538da621154d1de4b81eb3bf",
+      "evidence_counts": {
+        "PARTIAL": 27,
+        "SUPPORTED": 6,
+        "UNSUPPORTED": 17
+      },
+      "packet_id": "SEP_5a6e774669ffd3666b030f4c8da587cdec302fe01b6f251bc6e4967907bd3929",
+      "packet_path": "book/production/preparation/packets/SEP_5a6e774669ffd3666b030f4c8da587cdec302fe01b6f251bc6e4967907bd3929/evidence_packet.json",
+      "packet_sha256": "275238eed6a59cc6c6426c18cf1c8d8e8f4d09415af4006e48ea2414642d5f5e",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme"
+    },
+    {
+      "claim_count": 39,
+      "claim_registry_id": "SCR_d55c2276daefbb9ec7253c43e81c73247df4dca9871ff7aaeb94aca916ffcbf5",
+      "claim_registry_path": "book/production/preparation/packets/SEP_0dd292b20a37246659255c11e3959ef3fd830c12f54a7f71d882f204096a4c8b/claim_registry.json",
+      "claim_registry_sha256": "797d8ad4698df49ae70a9999d8f3af090c8028abac9c9810c6a8e08e28cc74b9",
+      "evidence_counts": {
+        "PARTIAL": 19,
+        "SUPPORTED": 3,
+        "UNSUPPORTED": 28
+      },
+      "packet_id": "SEP_0dd292b20a37246659255c11e3959ef3fd830c12f54a7f71d882f204096a4c8b",
+      "packet_path": "book/production/preparation/packets/SEP_0dd292b20a37246659255c11e3959ef3fd830c12f54a7f71d882f204096a4c8b/evidence_packet.json",
+      "packet_sha256": "cea7bd27786efaecaaeac6c06584697aeae520f75429184b319c11a8e67f5a98",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "5.4.1",
+      "section_title": "Yapısal Bakım"
+    },
+    {
+      "claim_count": 49,
+      "claim_registry_id": "SCR_6f320a51f992a79669f1a553e2868ae763d933829b8097c041d25d1043e8e649",
+      "claim_registry_path": "book/production/preparation/packets/SEP_781be09d6561435a9afa68fcc7b4158f66f4348e18054f9d8bb4d1cdf709cd3e/claim_registry.json",
+      "claim_registry_sha256": "7ea8c9094115fb8888252c01b1e5234010dbc00fe43d723a26375baeb2653ebb",
+      "evidence_counts": {
+        "PARTIAL": 22,
+        "SUPPORTED": 8,
+        "UNSUPPORTED": 20
+      },
+      "packet_id": "SEP_781be09d6561435a9afa68fcc7b4158f66f4348e18054f9d8bb4d1cdf709cd3e",
+      "packet_path": "book/production/preparation/packets/SEP_781be09d6561435a9afa68fcc7b4158f66f4348e18054f9d8bb4d1cdf709cd3e/evidence_packet.json",
+      "packet_sha256": "509c8d8f0c45e64249b7e38b04f3d8a09648946295e2488b0a73fbe93132c2e4",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı"
+    },
+    {
+      "claim_count": 35,
+      "claim_registry_id": "SCR_137fd0327cee86881ec76143cfdbdf355fc616a9b6926b5f8521178e198fd59b",
+      "claim_registry_path": "book/production/preparation/packets/SEP_b524d8bfcb4b094cd1476d583cfa4b0c0cc6e15306ff39cc22aac21536ca3c42/claim_registry.json",
+      "claim_registry_sha256": "6de27ab8c2c088595cb4cb92a7478baf5a1ffb267392beb3992cf7bb8ccae2ec",
+      "evidence_counts": {
+        "PARTIAL": 22,
+        "SUPPORTED": 5,
+        "UNSUPPORTED": 23
+      },
+      "packet_id": "SEP_b524d8bfcb4b094cd1476d583cfa4b0c0cc6e15306ff39cc22aac21536ca3c42",
+      "packet_path": "book/production/preparation/packets/SEP_b524d8bfcb4b094cd1476d583cfa4b0c0cc6e15306ff39cc22aac21536ca3c42/evidence_packet.json",
+      "packet_sha256": "d60308fb2c0e934f8d328e36285eb7a97590254a215cc3f29b6e176eed76cee5",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "5.4.3",
+      "section_title": "Periyodik Bakım"
+    },
+    {
+      "claim_count": 20,
+      "claim_registry_id": "SCR_018636c5131019477344468419f9b9fff72be379433821acb0a9302cbba15397",
+      "claim_registry_path": "book/production/preparation/packets/SEP_7095ae2e25795da1b93c4ac4021d27cc5cbfbae349adc46ec028fef5ff76bb7a/claim_registry.json",
+      "claim_registry_sha256": "5f350c26c880201f65ce8e12316607f9dd535c61f014096dc7a806cdfa210a05",
+      "evidence_counts": {
+        "PARTIAL": 17,
+        "SUPPORTED": 6,
+        "UNSUPPORTED": 27
+      },
+      "packet_id": "SEP_7095ae2e25795da1b93c4ac4021d27cc5cbfbae349adc46ec028fef5ff76bb7a",
+      "packet_path": "book/production/preparation/packets/SEP_7095ae2e25795da1b93c4ac4021d27cc5cbfbae349adc46ec028fef5ff76bb7a/evidence_packet.json",
+      "packet_sha256": "e27accbc5cf9e1f1b50e233dc0925a6068b8f7d5fcea24b2e57e973aac6a0863",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "5.5",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetleri"
+    },
+    {
+      "claim_count": 31,
+      "claim_registry_id": "SCR_a3fe19a7e57b46911724c7ae1ed90415fd830165e1f4b60b589a8ba4ab10c161",
+      "claim_registry_path": "book/production/preparation/packets/SEP_5e3eaaaf9b8a33a387b40044af620767577c2dad0dd06c78af4c778626b44aaf/claim_registry.json",
+      "claim_registry_sha256": "d3bd4ac4c81cf0615a5f62d3834a249b2ce4b505cd383a043f98df5528f3ef34",
+      "evidence_counts": {
+        "PARTIAL": 16,
+        "SUPPORTED": 2,
+        "UNSUPPORTED": 32
+      },
+      "packet_id": "SEP_5e3eaaaf9b8a33a387b40044af620767577c2dad0dd06c78af4c778626b44aaf",
+      "packet_path": "book/production/preparation/packets/SEP_5e3eaaaf9b8a33a387b40044af620767577c2dad0dd06c78af4c778626b44aaf/evidence_packet.json",
+      "packet_sha256": "39535bc2294dab1dac9847152ba3a3c3c47aed36390e295606662f1ee4d4a7f9",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "5.5.1",
+      "section_title": "Yönetim ve İşletme Maliyetleri"
+    },
+    {
+      "claim_count": 38,
+      "claim_registry_id": "SCR_238395e8afb698495e838b6a4acc62fcb26d0c812964c5cefce7be4c3916bfcd",
+      "claim_registry_path": "book/production/preparation/packets/SEP_a36c201ad3f0a85967ee8748314664eadf71b97c944805dabe39607e72689df2/claim_registry.json",
+      "claim_registry_sha256": "d30bc7215b7e055265bf7e863b0a836e5a92227a60705e59baeab3489b324ca9",
+      "evidence_counts": {
+        "PARTIAL": 28,
+        "SUPPORTED": 2,
+        "UNSUPPORTED": 20
+      },
+      "packet_id": "SEP_a36c201ad3f0a85967ee8748314664eadf71b97c944805dabe39607e72689df2",
+      "packet_path": "book/production/preparation/packets/SEP_a36c201ad3f0a85967ee8748314664eadf71b97c944805dabe39607e72689df2/evidence_packet.json",
+      "packet_sha256": "72bf61cbe461c6819b81734747fab8d91bff72d755e6e35c0c25132f7720e72c",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "5.5.2",
+      "section_title": "Bakım-Onarım Maliyetleri"
+    },
+    {
+      "claim_count": 38,
+      "claim_registry_id": "SCR_f569e9ae31062fd4148ef63ae0bb96c6f4e204057ee1a730ea03ac07fe1a9b5a",
+      "claim_registry_path": "book/production/preparation/packets/SEP_f8bb82ad589d5ffbd27a52b0bb822808b848336f8a60e44d9fc82f8940bc63b8/claim_registry.json",
+      "claim_registry_sha256": "eeb3b4803ee4b99fadae919ba3c99805ba9733c65640d080ae4b4e4474a37ce3",
+      "evidence_counts": {
+        "PARTIAL": 23,
+        "SUPPORTED": 3,
+        "UNSUPPORTED": 24
+      },
+      "packet_id": "SEP_f8bb82ad589d5ffbd27a52b0bb822808b848336f8a60e44d9fc82f8940bc63b8",
+      "packet_path": "book/production/preparation/packets/SEP_f8bb82ad589d5ffbd27a52b0bb822808b848336f8a60e44d9fc82f8940bc63b8/evidence_packet.json",
+      "packet_sha256": "468a7120ed1943edd892fbb92b42ad6db676addc82fa5a5bb185551cdc2507e8",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "5.5.2.1",
+      "section_title": "Yapısal Bakım-Onarım Maliyetleri"
+    },
+    {
+      "claim_count": 11,
+      "claim_registry_id": "SCR_7d36011a6bf2d48deb50b8aadf15d8348964912d8df5c225b0abbb84edc3ad78",
+      "claim_registry_path": "book/production/preparation/packets/SEP_c3b55b64eb4ccfd4047c4ce3c975a54f1f6a2d6199d1f00c998417c40e1a3900/claim_registry.json",
+      "claim_registry_sha256": "fb783375215da076710ec80ee44b93b2542be6107d2a91062a751ee88790ab22",
+      "evidence_counts": {
+        "PARTIAL": 2,
+        "SUPPORTED": 1,
+        "UNSUPPORTED": 47
+      },
+      "packet_id": "SEP_c3b55b64eb4ccfd4047c4ce3c975a54f1f6a2d6199d1f00c998417c40e1a3900",
+      "packet_path": "book/production/preparation/packets/SEP_c3b55b64eb4ccfd4047c4ce3c975a54f1f6a2d6199d1f00c998417c40e1a3900/evidence_packet.json",
+      "packet_sha256": "ffbece2ccc3f6722793a6af39aa78f28255f706661ba9439c8f2ea470945d365",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "5.5.2.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri"
+    },
+    {
+      "claim_count": 14,
+      "claim_registry_id": "SCR_0ee35fb165625eb89002a8ef03d7e0a017b3ee3361e3e296542c473f0d5ffc67",
+      "claim_registry_path": "book/production/preparation/packets/SEP_ea16b8b85acaa85e7e5b77d1dbb2a7873818872b1f86032ebd8e6416aef375cb/claim_registry.json",
+      "claim_registry_sha256": "9bab7af7da28d8747ca288de2d4809467446bb8089a15ee2909fc075ac327024",
+      "evidence_counts": {
+        "PARTIAL": 16,
+        "SUPPORTED": 2,
+        "UNSUPPORTED": 32
+      },
+      "packet_id": "SEP_ea16b8b85acaa85e7e5b77d1dbb2a7873818872b1f86032ebd8e6416aef375cb",
+      "packet_path": "book/production/preparation/packets/SEP_ea16b8b85acaa85e7e5b77d1dbb2a7873818872b1f86032ebd8e6416aef375cb/evidence_packet.json",
+      "packet_sha256": "8356ad0f7c09f23d976c2cc59283ce098d1b40ae92a26d3750f7fbc06e58bcc0",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler"
+    },
+    {
+      "claim_count": 43,
+      "claim_registry_id": "SCR_a50cfcbfd49ee0f9253b2d57619fe899cabc4371cef5ea468776260b478a28df",
+      "claim_registry_path": "book/production/preparation/packets/SEP_670d02bc94fbe2f9065519ee1c07826995092fb8f54336baa779f58c95d8989a/claim_registry.json",
+      "claim_registry_sha256": "36e51d9b8f078fbb8fd7279e04f3c0d9f7a769f01f37f040835eb7eb56412a35",
+      "evidence_counts": {
+        "PARTIAL": 32,
+        "SUPPORTED": 1,
+        "UNSUPPORTED": 17
+      },
+      "packet_id": "SEP_670d02bc94fbe2f9065519ee1c07826995092fb8f54336baa779f58c95d8989a",
+      "packet_path": "book/production/preparation/packets/SEP_670d02bc94fbe2f9065519ee1c07826995092fb8f54336baa779f58c95d8989a/evidence_packet.json",
+      "packet_sha256": "05a80a6bb3707d0d4ec70bf26ab269925d1c05dba0947241a95c0b1fc1149ac9",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi"
+    },
+    {
+      "claim_count": 54,
+      "claim_registry_id": "SCR_1ece227295f7640f4a6e0b516a366a47ae5eacd1a96a96701b8355d261a367d1",
+      "claim_registry_path": "book/production/preparation/packets/SEP_1e67deeb64219eba3ed6a470ef0d3b0ecfc09ddeaa5027754258e178937734bb/claim_registry.json",
+      "claim_registry_sha256": "83379ceca69468bea47b4f9809aed8b089b8541713cc99e015814a668c2f29f6",
+      "evidence_counts": {
+        "PARTIAL": 16,
+        "SUPPORTED": 15,
+        "UNSUPPORTED": 19
+      },
+      "packet_id": "SEP_1e67deeb64219eba3ed6a470ef0d3b0ecfc09ddeaa5027754258e178937734bb",
+      "packet_path": "book/production/preparation/packets/SEP_1e67deeb64219eba3ed6a470ef0d3b0ecfc09ddeaa5027754258e178937734bb/evidence_packet.json",
+      "packet_sha256": "789ddd87cee5d4a87874beea4c1a20f41023d00fa8e8f3dccaf6cf5918594a99",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "5.7.1",
+      "section_title": "Bakım-İşletme Maliyetini Azaltma Yöntemleri"
+    },
+    {
+      "claim_count": 44,
+      "claim_registry_id": "SCR_131a8bfa80899a8aa2233162ef5d3eb6a25e3e08a595f1d533940f8a2fbd3017",
+      "claim_registry_path": "book/production/preparation/packets/SEP_574fda3cd2c2a9d70214d4c08253c6a2c44289b34effbc9c992ec7cc2eff5d6f/claim_registry.json",
+      "claim_registry_sha256": "21b29b3baf7a8e9b6ad10a2dcafff3c18b565da77cb617d32ea146061e9c017f",
+      "evidence_counts": {
+        "PARTIAL": 19,
+        "SUPPORTED": 10,
+        "UNSUPPORTED": 21
+      },
+      "packet_id": "SEP_574fda3cd2c2a9d70214d4c08253c6a2c44289b34effbc9c992ec7cc2eff5d6f",
+      "packet_path": "book/production/preparation/packets/SEP_574fda3cd2c2a9d70214d4c08253c6a2c44289b34effbc9c992ec7cc2eff5d6f/evidence_packet.json",
+      "packet_sha256": "5566113369d0c43ae51103e96b50db6de4e45ef0ff8617e3141072be9d947034",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "5.7.2",
+      "section_title": "Enerji Maliyetini Azaltma Yöntemleri"
+    },
+    {
+      "claim_count": 19,
+      "claim_registry_id": "SCR_fe821f110a85b171b11802876238c2d0725837bd6d0603b38cc97a7f92ee0b82",
+      "claim_registry_path": "book/production/preparation/packets/SEP_0c0b9cefc42530b09f9e5ea9dc97a643f0a1e656caa67a760b2ed97e77ab6361/claim_registry.json",
+      "claim_registry_sha256": "2c6ef6fd89f94d528879f31a8dc1e1a28b8a60eb56e27bfdf4052b75571c6639",
+      "evidence_counts": {
+        "PARTIAL": 18,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 32
+      },
+      "packet_id": "SEP_0c0b9cefc42530b09f9e5ea9dc97a643f0a1e656caa67a760b2ed97e77ab6361",
+      "packet_path": "book/production/preparation/packets/SEP_0c0b9cefc42530b09f9e5ea9dc97a643f0a1e656caa67a760b2ed97e77ab6361/evidence_packet.json",
+      "packet_sha256": "9dff5cdbfcbc2930ef781d1e903feb06b3008029071e66df305bf8b9475c3d6b",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "5.8",
+      "section_title": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri"
+    },
+    {
+      "claim_count": 0,
+      "claim_registry_id": "SCR_61b0670046b4e6926356d01ee75ce851f5c819df9e26208ca3ac7488783a0a80",
+      "claim_registry_path": "book/production/preparation/packets/SEP_b71435fe13aefe0a98fa943f7a740e34e0e96a68f1d8ed45b9fcc143cfb6543f/claim_registry.json",
+      "claim_registry_sha256": "53ad1cf81de58c6e57bc4869146b368cc383998757b50f3946a35b6481d93087",
+      "evidence_counts": {
+        "PARTIAL": 0,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 50
+      },
+      "packet_id": "SEP_b71435fe13aefe0a98fa943f7a740e34e0e96a68f1d8ed45b9fcc143cfb6543f",
+      "packet_path": "book/production/preparation/packets/SEP_b71435fe13aefe0a98fa943f7a740e34e0e96a68f1d8ed45b9fcc143cfb6543f/evidence_packet.json",
+      "packet_sha256": "b81be2c7cb79fedd0cb9bbf0cdf8c33609084733afdb8df9f711af694dcdba88",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması"
+    },
+    {
+      "claim_count": 0,
+      "claim_registry_id": "SCR_6a69ecb6860770fb51702ebf2818ed6f7d4b95fbe06853b3d2a7036331f75b82",
+      "claim_registry_path": "book/production/preparation/packets/SEP_9ffac98a0ec9274160f280c91032e907ba94830fd381a9980159dd62abe116c6/claim_registry.json",
+      "claim_registry_sha256": "0f2abb0a3c4f7ef2cbb16f6e87069a4699afd081385e73bcdeaf6370867e4fd4",
+      "evidence_counts": {
+        "PARTIAL": 0,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 50
+      },
+      "packet_id": "SEP_9ffac98a0ec9274160f280c91032e907ba94830fd381a9980159dd62abe116c6",
+      "packet_path": "book/production/preparation/packets/SEP_9ffac98a0ec9274160f280c91032e907ba94830fd381a9980159dd62abe116c6/evidence_packet.json",
+      "packet_sha256": "c84cd43343a3f1f984c4b1e8f623a8eb29d3f0f2e40dc719a21d96302e923260",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "5.9.1",
+      "section_title": "Ulusal Literatür Taraması"
+    },
+    {
+      "claim_count": 13,
+      "claim_registry_id": "SCR_8c7d96c62e3791ee9fbff5be2a4225e5f826a5401b02bedbf5103f0e6eeae095",
+      "claim_registry_path": "book/production/preparation/packets/SEP_e3824b26b8307f832b8c7d9dea1f690cd2c96b6f5ac678cfc0521c382365e100/claim_registry.json",
+      "claim_registry_sha256": "ad896309a2d70b91cf1068043278b23984bf31173688e48c79dbb3ccf3b3a837",
+      "evidence_counts": {
+        "PARTIAL": 10,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 40
+      },
+      "packet_id": "SEP_e3824b26b8307f832b8c7d9dea1f690cd2c96b6f5ac678cfc0521c382365e100",
+      "packet_path": "book/production/preparation/packets/SEP_e3824b26b8307f832b8c7d9dea1f690cd2c96b6f5ac678cfc0521c382365e100/evidence_packet.json",
+      "packet_sha256": "dc4d7ce630a6fd110f6ce0c260141250c93d825e51b9701760ed35c98604d675",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması"
+    },
+    {
+      "claim_count": 0,
+      "claim_registry_id": "SCR_43f7848036c5f396279eb037541d3bdbf2bf8ea4379ecc9be802ccfdab5e18e1",
+      "claim_registry_path": "book/production/preparation/packets/SEP_7fa7dea5101386fd462792653ed84bf203a628deace861090ae3b35f64d8d91a/claim_registry.json",
+      "claim_registry_sha256": "0ce5697fae25ab4914fb9dcd904c5831dd31d222480ffeb0ae813a5ab8e1d8d3",
+      "evidence_counts": {
+        "PARTIAL": 0,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 50
+      },
+      "packet_id": "SEP_7fa7dea5101386fd462792653ed84bf203a628deace861090ae3b35f64d8d91a",
+      "packet_path": "book/production/preparation/packets/SEP_7fa7dea5101386fd462792653ed84bf203a628deace861090ae3b35f64d8d91a/evidence_packet.json",
+      "packet_sha256": "4812b273a240a18642af62b1876036829d922fb887806ad81bfe69a857e0be2b",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "6.1",
+      "section_title": "Çalışmanın Amacı, Kapsamı, Yöntem ve Kullanılan Verileri"
+    },
+    {
+      "claim_count": 1,
+      "claim_registry_id": "SCR_25ad90f4d401c41638dcdea6a3b5e89fad8c357c2cdfbabc9f7fd919d6552a0c",
+      "claim_registry_path": "book/production/preparation/packets/SEP_4c6b65cff783a10123cd8868c3ca228f8609deb7a177250133cab3556c39912e/claim_registry.json",
+      "claim_registry_sha256": "ece6311bcec23d10af87620b5a8a063ca67d39f7554e033079675604ac7ad6b6",
+      "evidence_counts": {
+        "PARTIAL": 1,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 49
+      },
+      "packet_id": "SEP_4c6b65cff783a10123cd8868c3ca228f8609deb7a177250133cab3556c39912e",
+      "packet_path": "book/production/preparation/packets/SEP_4c6b65cff783a10123cd8868c3ca228f8609deb7a177250133cab3556c39912e/evidence_packet.json",
+      "packet_sha256": "b7ba44479c8fed29867af3f33641aa55396c10c438ee1c223a45a4ad071c50be",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "6.1.1",
+      "section_title": "Çalışmanın Amacı ve Önemi"
+    },
+    {
+      "claim_count": 3,
+      "claim_registry_id": "SCR_2be20c503bc8cd9afec6965fe20d9571ff43afeba6b56687c1cb0604ce8d1f08",
+      "claim_registry_path": "book/production/preparation/packets/SEP_e681cbcffc8ace259888c0ad0830cd6267524c655e7172dc3ebbae1b9138a06f/claim_registry.json",
+      "claim_registry_sha256": "dc3eb0eece9f0ddbaf8140daaf06d9610b909a4d5d98965dc00a2545b76c7579",
+      "evidence_counts": {
+        "PARTIAL": 2,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 48
+      },
+      "packet_id": "SEP_e681cbcffc8ace259888c0ad0830cd6267524c655e7172dc3ebbae1b9138a06f",
+      "packet_path": "book/production/preparation/packets/SEP_e681cbcffc8ace259888c0ad0830cd6267524c655e7172dc3ebbae1b9138a06f/evidence_packet.json",
+      "packet_sha256": "efda884d566e898b37084cec1e7ce80cbefb71bdb2bf98e8164aa2f6dea292e0",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "6.1.2",
+      "section_title": "Çalışmanın Kapsamı"
+    },
+    {
+      "claim_count": 0,
+      "claim_registry_id": "SCR_aefa816131c9b93f1594fb2f9638ccffe9df6dc5bfeb6b5765de6f15b1c5ef2b",
+      "claim_registry_path": "book/production/preparation/packets/SEP_0650d6fa981ba4577c1afcbf0479c0892564cf0541bede08aa32f3a1d5bf29e4/claim_registry.json",
+      "claim_registry_sha256": "13ca15c5d6c4046e661fc5874be62d43f43e417505b380cd141096a4cef9e1e8",
+      "evidence_counts": {
+        "PARTIAL": 0,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 50
+      },
+      "packet_id": "SEP_0650d6fa981ba4577c1afcbf0479c0892564cf0541bede08aa32f3a1d5bf29e4",
+      "packet_path": "book/production/preparation/packets/SEP_0650d6fa981ba4577c1afcbf0479c0892564cf0541bede08aa32f3a1d5bf29e4/evidence_packet.json",
+      "packet_sha256": "4b57d1165f5427a3c9fdb8e370241c98f06f59fad3158c24f648f2e6d8a9914f",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "6.1.3",
+      "section_title": "Çalışmanın Yöntemi"
+    },
+    {
+      "claim_count": 2,
+      "claim_registry_id": "SCR_05f8c8259dd714cb8db5c63ce0ea43092077d33702293e17ebd1faff1e9b6b01",
+      "claim_registry_path": "book/production/preparation/packets/SEP_08e1553acd373f31789340c29e5acdee2bf94bf650451d7dfd694475d770d431/claim_registry.json",
+      "claim_registry_sha256": "a456b795fa4c24e3c566f455578d81bd4fb953d6e50cb20ca70000fb2f268f7c",
+      "evidence_counts": {
+        "PARTIAL": 3,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 47
+      },
+      "packet_id": "SEP_08e1553acd373f31789340c29e5acdee2bf94bf650451d7dfd694475d770d431",
+      "packet_path": "book/production/preparation/packets/SEP_08e1553acd373f31789340c29e5acdee2bf94bf650451d7dfd694475d770d431/evidence_packet.json",
+      "packet_sha256": "8ff7267a84269194531f5d02fbbcabe39ae82becd870f7f6308b31c0df8724e2",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "6.2",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması (Mehmet Çelikkaya)"
+    },
+    {
+      "claim_count": 0,
+      "claim_registry_id": "SCR_1b8e21070fed89bf15f19ade54efcf44e20993bc84901779f2ce98b0e10bf828",
+      "claim_registry_path": "book/production/preparation/packets/SEP_8a89a5bced0daf65d6673752651294da09b2a5964f79347eb6a06445ddd15114/claim_registry.json",
+      "claim_registry_sha256": "c485c9c67d864b6e7616637ff35767df1fd67d9c2f77ad6161ced4298acc7fca",
+      "evidence_counts": {
+        "PARTIAL": 0,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 50
+      },
+      "packet_id": "SEP_8a89a5bced0daf65d6673752651294da09b2a5964f79347eb6a06445ddd15114",
+      "packet_path": "book/production/preparation/packets/SEP_8a89a5bced0daf65d6673752651294da09b2a5964f79347eb6a06445ddd15114/evidence_packet.json",
+      "packet_sha256": "3305bcda55f3a4ef1ac64d4dcf1d80abdf76435aa87bd3716305277a62693dbd",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "6.2.1",
+      "section_title": "Ulusal Literatür Taraması"
+    },
+    {
+      "claim_count": 13,
+      "claim_registry_id": "SCR_cfbb9d6e66159565b3cf6233533e3449576d8af56a96a70e28d1070f65cedaad",
+      "claim_registry_path": "book/production/preparation/packets/SEP_2fe5e9682a949042bd21cd424d3343d240d9c9ffd7788385eba9dd658d76217a/claim_registry.json",
+      "claim_registry_sha256": "cbd07f259c453c80cd8fa9db7286961a114c2fb22e39bba5b7d993180e67ddbe",
+      "evidence_counts": {
+        "PARTIAL": 9,
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 41
+      },
+      "packet_id": "SEP_2fe5e9682a949042bd21cd424d3343d240d9c9ffd7788385eba9dd658d76217a",
+      "packet_path": "book/production/preparation/packets/SEP_2fe5e9682a949042bd21cd424d3343d240d9c9ffd7788385eba9dd658d76217a/evidence_packet.json",
+      "packet_sha256": "07281acca9273cbb3d8beff85e6e0dea8c4bc2aa67e54ffe51fdc596920dee04",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "6.2.2",
+      "section_title": "Uluslararası Literatür Taraması"
+    },
+    {
+      "claim_count": 15,
+      "claim_registry_id": "SCR_aeda5224a06522f4719b3dc7831b35dec2780eb097a86ba40d8185d5b7bdf79b",
+      "claim_registry_path": "book/production/preparation/packets/SEP_6f0b89a6b877a3ba88d353ad6178470aa2b1d04e825fde2598c94ca88ea4510e/claim_registry.json",
+      "claim_registry_sha256": "0b1de1c129840334ba4c32bb09f74f69ae34af44030337b57966ff34b8c57fe3",
+      "evidence_counts": {
+        "PARTIAL": 19,
+        "SUPPORTED": 1,
+        "UNSUPPORTED": 30
+      },
+      "packet_id": "SEP_6f0b89a6b877a3ba88d353ad6178470aa2b1d04e825fde2598c94ca88ea4510e",
+      "packet_path": "book/production/preparation/packets/SEP_6f0b89a6b877a3ba88d353ad6178470aa2b1d04e825fde2598c94ca88ea4510e/evidence_packet.json",
+      "packet_sha256": "b4cfe644bfe088be738c5bec7509337d814f124c460458d58ed62e66561a76d8",
+      "question_count": 50,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "7.1",
+      "section_title": "Tünel Bakım-İşletme Maliyetleri"
+    },
+    {
+      "claim_count": 42,
+      "claim_registry_id": "SCR_22761cf1a20ff58e582bb86b55f98b57bc33a5edb6606a4d6d4c460e53cdc493",
+      "claim_registry_path": "book/production/preparation/packets/SEP_06ac0cf480b79f1cbf637bd8072c853e54ff4d59bf82e1b914441c56edc2a2b9/claim_registry.json",
+      "claim_registry_sha256": "c8e1c3b1c0d0739c29697c83531256c4c2f3d8321deac48c3d224a17cf5d0123",
+      "evidence_counts": {
+        "PARTIAL": 32,
+        "SUPPORTED": 1,
+        "UNSUPPORTED": 17
+      },
+      "packet_id": "SEP_06ac0cf480b79f1cbf637bd8072c853e54ff4d59bf82e1b914441c56edc2a2b9",
+      "packet_path": "book/production/preparation/packets/SEP_06ac0cf480b79f1cbf637bd8072c853e54ff4d59bf82e1b914441c56edc2a2b9/evidence_packet.json",
+      "packet_sha256": "f007cd457e58ee94830601831a72c5095da9443a0612754249446df1af1d5240",
+      "question_count": 50,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "7.2",
+      "section_title": "Tünel Yapım Maliyetleri"
+    }
+  ],
+  "sections_prepared": 59,
+  "status": "COMPLETE",
+  "updated_at": "2026-09-17T07:33:19+00:00"
+}

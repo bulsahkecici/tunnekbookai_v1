@@ -1,0 +1,195 @@
+{
+  "final_primary_section": "1.5",
+  "final_secondary_sections": [
+    "2.2",
+    "5.4"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.5",
+      "section_title": "Tünel Felaketleri",
+      "supporting_elements": [
+        "PARA0080",
+        "LIST0013",
+        "PARA0101",
+        "PARA0134",
+        "PARA0150",
+        "PARA0152",
+        "PARA0174",
+        "HEAD0066",
+        "PARA0191",
+        "HEAD0075",
+        "PARA0229",
+        "PARA0230",
+        "PARA0231",
+        "PARA0235",
+        "PARA0236",
+        "HEAD0079",
+        "PARA0260",
+        "PARA0261",
+        "HEAD0084",
+        "PARA0265",
+        "PARA0272",
+        "PARA0283",
+        "HEAD0088",
+        "PARA0295",
+        "PARA0296"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "LIST0049",
+        "LIST0051",
+        "LIST0066",
+        "PARA0668",
+        "PARA0671",
+        "HEAD0182",
+        "PARA0677",
+        "HEAD0183",
+        "PARA0678",
+        "PARA0680",
+        "FIG0012",
+        "CAPT0013",
+        "PARA0685",
+        "PARA0690",
+        "FIG0013",
+        "CAPT0014",
+        "FIG0014",
+        "CAPT0015",
+        "PARA0691",
+        "PARA0705",
+        "LIST0171",
+        "LIST0205",
+        "FIG0023",
+        "LIST0213",
+        "PARA0730"
+      ]
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "PARA0015",
+        "PARA0016",
+        "PARA0019",
+        "PARA0024",
+        "PARA0041",
+        "PARA0042",
+        "PARA0043",
+        "PARA0079",
+        "PARA0080",
+        "PARA0089",
+        "PARA0091",
+        "LIST0012",
+        "LIST0015",
+        "LIST0020",
+        "PARA0095",
+        "PARA0102",
+        "LIST0026",
+        "PARA0106",
+        "LIST0033",
+        "PARA0109",
+        "PARA0113",
+        "PARA0115",
+        "PARA0116",
+        "PARA0121",
+        "PARA0122"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1.5",
+      "score": 0.4287,
+      "rule_score": 0.7647,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0408
+    },
+    {
+      "id": "1.5.1",
+      "score": 0.4206,
+      "rule_score": 0.7647,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.3",
+      "score": 0.4125,
+      "rule_score": 0.75,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.404,
+      "rule_score": 0.6923,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1164
+    },
+    {
+      "id": "5.6",
+      "score": 0.3921,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1269
+    },
+    {
+      "id": "5",
+      "score": 0.3842,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0878
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3667,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3667,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.3566,
+      "rule_score": 0.0,
+      "embedding_score": 0.7615,
+      "chunk_vote": 0.0698
+    },
+    {
+      "id": "5.9",
+      "score": 0.3516,
+      "rule_score": 0.0,
+      "embedding_score": 0.7743,
+      "chunk_vote": 0.0159
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, 'Making Transportation Tunnels Safe and Secure' başlıklı bir güvenlik ve tehdit analizi raporudur. İçerikteki 'Hazards and Threats' (Tehditler ve Riskler) bölümü, hasar potansiyeli ve felaket senaryoları (Table 2, Table 3, Figure 10) ile doğrudan 'Tünel Felaketleri' (1.5) bölümüyle örtüşmektedir. Ayrıca, tünellerin yapım yöntemleri (Table 7, 8) ve güvenlik sistemleri (Table 17, 18) nedeniyl",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=1.5:0.4287 gap=0.008 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

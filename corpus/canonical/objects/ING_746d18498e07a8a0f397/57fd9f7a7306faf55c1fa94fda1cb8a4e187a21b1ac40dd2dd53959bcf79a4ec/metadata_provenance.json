@@ -1,0 +1,86 @@
+{
+  "document_id": "ING_746d18498e07a8a0f397",
+  "fields": [
+    {
+      "field": "title",
+      "value": "TÜNEL BAKIM ONARIM İŞLETME KURS NOTLARI",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2016",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "Dosya yolu/başlıkta açık yıl: 2016"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "training_material",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: eğitim"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "blasting",
+        "cost",
+        "excavation",
+        "history",
+        "maintenance",
+        "operations",
+        "traffic"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "excavation:kazı; blasting:patlatma; traffic:trafik; operations:işletme; maintenance:bakım; cost:maliyet; accident:kaza; history:tarihçe; tunnel_general:tünel"
+    }
+  ]
+}

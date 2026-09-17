@@ -1,0 +1,121 @@
+{
+  "final_primary_section": "2.2.1",
+  "final_secondary_sections": [
+    "2.4.1.2"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0016",
+        "PARA0017",
+        "PARA0023",
+        "PARA0036",
+        "LIST0004",
+        "LIST0010",
+        "LIST0017"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "LIST0018"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6.1",
+      "score": 0.3665,
+      "rule_score": 0.0,
+      "embedding_score": 0.7632,
+      "chunk_vote": 0.1154
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3634,
+      "rule_score": 0.0,
+      "embedding_score": 0.7734,
+      "chunk_vote": 0.0769
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3441,
+      "rule_score": 0.0,
+      "embedding_score": 0.7646,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3437,
+      "rule_score": 0.0,
+      "embedding_score": 0.7637,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3389,
+      "rule_score": 0.0,
+      "embedding_score": 0.7531,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3388,
+      "rule_score": 0.0,
+      "embedding_score": 0.7528,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3385,
+      "rule_score": 0.0,
+      "embedding_score": 0.7523,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3383,
+      "rule_score": 0.0,
+      "embedding_score": 0.7517,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.2013,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0897
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, kömür madenlerinde kullanılan roadheader'ların performansını kayaç zemin özellikleri (Schmidt çekiç, iğne penetrasyon) ile ilişkilendirerek tünel/maden galerisi kazı performansını modellemektedir. Bu içerik, 'Kayaç Zeminde Açılan Tüneller' (2.2.1) başlığıyla en güçlü örtüşmektedir. Ayrıca inşaat/kazı esnasındaki performans ölçümleri ve yöntemler nedeniyle 'İnşaat Esnasındaki Çalışmalar' (2.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:19",
+    "embeddings:8",
+    "top=6.1:0.3665 gap=0.003 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

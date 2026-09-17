@@ -1,0 +1,193 @@
+{
+  "final_primary_section": "4.3.5",
+  "final_secondary_sections": [
+    "5.7",
+    "5.6"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "4.3.5",
+      "section_title": "Tünel Yaşam Döngü Maliyetleri",
+      "supporting_elements": [
+        "PARA0005",
+        "PARA0008",
+        "PARA0012",
+        "PARA0027",
+        "PARA0029",
+        "PARA0031",
+        "PARA0032",
+        "PARA0033",
+        "TABLE0009",
+        "CAPT0011",
+        "PARA0036",
+        "PARA0055",
+        "PARA0056",
+        "TABLE0022",
+        "CAPT0025",
+        "PARA0060",
+        "TABLE0023",
+        "CAPT0029",
+        "FIG0010",
+        "CAPT0030",
+        "PARA0065",
+        "PARA0066",
+        "PARA0067"
+      ]
+    },
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0005",
+        "PARA0008",
+        "LIST0002",
+        "PARA0010",
+        "PARA0012",
+        "HEAD0011",
+        "PARA0033",
+        "PARA0034",
+        "PARA0035",
+        "PARA0037",
+        "PARA0038",
+        "PARA0042",
+        "PARA0043",
+        "TABLE0013",
+        "CAPT0015",
+        "PARA0044",
+        "HEAD0013",
+        "PARA0046",
+        "PARA0047",
+        "HEAD0014",
+        "PARA0048",
+        "PARA0051",
+        "TABLE0016",
+        "CAPT0019"
+      ]
+    },
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "PARA0002",
+        "PARA0005",
+        "PARA0006",
+        "PARA0008",
+        "LIST0002",
+        "LIST0004",
+        "FIG0004",
+        "CAPT0001",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "PARA0023",
+        "PARA0024",
+        "PARA0028",
+        "PARA0029",
+        "PARA0033",
+        "LIST0014",
+        "LIST0015",
+        "PARA0039",
+        "PARA0043",
+        "TABLE0012",
+        "CAPT0014",
+        "FIG0006"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "4.3.5",
+      "score": 0.789,
+      "rule_score": 0.6364,
+      "embedding_score": 0.7876,
+      "chunk_vote": 0.173
+    },
+    {
+      "id": "5.7",
+      "score": 0.7154,
+      "rule_score": 0.5556,
+      "embedding_score": 0.794,
+      "chunk_vote": 0.0128
+    },
+    {
+      "id": "5.6",
+      "score": 0.4222,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3607
+    },
+    {
+      "id": "5",
+      "score": 0.37,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2002
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.36,
+      "rule_score": 0.0,
+      "embedding_score": 0.8,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3591,
+      "rule_score": 0.0,
+      "embedding_score": 0.7979,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3542,
+      "rule_score": 0.0,
+      "embedding_score": 0.7872,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.354,
+      "rule_score": 0.0,
+      "embedding_score": 0.7867,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7",
+      "score": 0.3512,
+      "rule_score": 0.0,
+      "embedding_score": 0.7805,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.1",
+      "score": 0.3512,
+      "rule_score": 0.0,
+      "embedding_score": 0.7804,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, İtalyan yol tünellerindeki farklı kaplama ve aydınlatma sistemlerinin yaşam döngüsü maliyetlerini (life cycle costs) karşılaştırmalı olarak analiz etmektedir. Bu kapsam, 'Tünel Yaşam Döngü Maliyetleri' (4.3.5) başlığıyla en yüksek örtüşmeye sahiptir. Ayrıca bakım planları ve enerji tüketimi (aydınlatma) verileri nedeniyle 5.7 ve 5.6 bölümleri ikincil olarak ilişkilendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=4.3.5:0.789 gap=0.074 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

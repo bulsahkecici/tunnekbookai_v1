@@ -1,0 +1,35 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_69d7dba96886fbecd37b",
+  "original_sha256": "69d7dba96886fbecd37b45962e192ea54cd8024f239786977caadf0e25fef04e",
+  "source_kind": "MANUAL_INTERNAL",
+  "format": "DOCX",
+  "title": "Tunnels-PIARC",
+  "final_primary_section": "6",
+  "final_secondary_sections": [
+    "4.3.5",
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": true,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_69d7dba96886fbecd37b",
+  "original_archive": "originals/ING_69d7dba96886fbecd37b",
+  "chunks_authoritative_path": "processing/ING_69d7dba96886fbecd37b/chunks/chunk_manifest.jsonl",
+  "chunk_count": 1,
+  "chunk_quality_status": "WARN",
+  "canonical_promoted": false
+}

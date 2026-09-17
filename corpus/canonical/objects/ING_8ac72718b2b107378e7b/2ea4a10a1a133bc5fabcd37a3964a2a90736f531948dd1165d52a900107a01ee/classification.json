@@ -1,0 +1,138 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2",
+    "5"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0001",
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0004",
+        "HEAD0003",
+        "HEAD0004"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0001",
+        "HEAD0001",
+        "HEAD0002",
+        "LIST0008",
+        "PARA0004",
+        "HEAD0003",
+        "HEAD0004",
+        "LIST0022",
+        "LIST0031",
+        "LIST0033"
+      ]
+    },
+    {
+      "section_id": "5",
+      "section_title": "TÜNEL BAKIM-ONARIM VE İŞLETME MALİYETLERİ",
+      "supporting_elements": [
+        "PARA0031",
+        "PARA0111"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7762,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7922,
+      "chunk_vote": 0.3207
+    },
+    {
+      "id": "2.2",
+      "score": 0.6835,
+      "rule_score": 0.5,
+      "embedding_score": 0.771,
+      "chunk_vote": 0.0576
+    },
+    {
+      "id": "5",
+      "score": 0.6745,
+      "rule_score": 0.5,
+      "embedding_score": 0.7766,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3503,
+      "rule_score": 0.0,
+      "embedding_score": 0.7784,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.35,
+      "rule_score": 0.0,
+      "embedding_score": 0.7777,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3482,
+      "rule_score": 0.0,
+      "embedding_score": 0.7737,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3478,
+      "rule_score": 0.0,
+      "embedding_score": 0.7729,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.1",
+      "score": 0.3465,
+      "rule_score": 0.0,
+      "embedding_score": 0.7701,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.1",
+      "score": 0.2726,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1842
+    },
+    {
+      "id": "1",
+      "score": 0.2133,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1497
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, NATM (Yeni Avusturya Tünel Yapım Yöntemi) projelerinde saha organizasyonu, inşaat sözleşmeleri ve değişen zemin davranışlarına esnek yanıt mekanizmalarını detaylandırarak tünel yapım yöntemleri ve uygulama süreçlerine odaklanmaktadır. Bu içerik, 'Tünel Yapım Yöntemleri' (2.2) başlığıyla en güçlü örtüşmektedir; ana bölüm olarak 'Tünel Ana Elemanları, Ana Özellikleri ve Yapım Teknikleri' (2) ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:6",
+    "embeddings:8",
+    "top=2:0.7762 gap=0.093 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

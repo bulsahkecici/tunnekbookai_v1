@@ -1,0 +1,206 @@
+{
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [
+    "2.1.2",
+    "2",
+    "2.4.2"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0001",
+        "LIST0003",
+        "LIST0008",
+        "LIST0009",
+        "LIST0010",
+        "FIG0023",
+        "PARA0010",
+        "LIST0012",
+        "FIG0025",
+        "HEAD0016",
+        "LIST0017",
+        "LIST0019",
+        "FIG0036",
+        "HEAD0019",
+        "LIST0022",
+        "LIST0031",
+        "HEAD0024",
+        "LIST0032",
+        "HEAD0025",
+        "LIST0033",
+        "FIG0066",
+        "HEAD0026",
+        "HEAD0027",
+        "HEAD0028"
+      ]
+    },
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "LIST0008",
+        "LIST0009",
+        "LIST0010",
+        "FIG0023",
+        "HEAD0016",
+        "LIST0017",
+        "LIST0019",
+        "FIG0036",
+        "HEAD0019",
+        "LIST0022",
+        "LIST0031",
+        "HEAD0024",
+        "LIST0032",
+        "HEAD0025",
+        "FIG0066",
+        "HEAD0026",
+        "HEAD0027",
+        "HEAD0028",
+        "HEAD0029",
+        "HEAD0030",
+        "HEAD0031",
+        "LIST0034",
+        "LIST0035",
+        "LIST0036"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0001",
+        "LIST0003",
+        "LIST0008",
+        "LIST0009",
+        "LIST0010",
+        "FIG0023",
+        "PARA0010",
+        "LIST0012",
+        "HEAD0016",
+        "LIST0017",
+        "LIST0019",
+        "FIG0036",
+        "HEAD0019",
+        "LIST0022",
+        "LIST0031",
+        "HEAD0024",
+        "LIST0032",
+        "HEAD0025",
+        "LIST0033",
+        "FIG0066",
+        "HEAD0026",
+        "HEAD0027",
+        "HEAD0028",
+        "HEAD0029"
+      ]
+    },
+    {
+      "section_id": "2.4.2",
+      "section_title": "Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0001",
+        "LIST0010",
+        "HEAD0011",
+        "FIG0023"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1",
+      "score": 0.8295,
+      "rule_score": 0.6364,
+      "embedding_score": 0.8133,
+      "chunk_vote": 0.3177
+    },
+    {
+      "id": "2",
+      "score": 0.7497,
+      "rule_score": 0.5,
+      "embedding_score": 0.7941,
+      "chunk_vote": 0.3367
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.6051,
+      "rule_score": 0.3333,
+      "embedding_score": 0.8262,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.5869,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7858,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.3483,
+      "rule_score": 0.0,
+      "embedding_score": 0.774,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3482,
+      "rule_score": 0.0,
+      "embedding_score": 0.7738,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3474,
+      "rule_score": 0.0,
+      "embedding_score": 0.7719,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3474,
+      "rule_score": 0.0,
+      "embedding_score": 0.7719,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3056,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.2927,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0886
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, zayıf zemin ve yüksek örtü altındaki tünellerde kullanılan destek stratejilerini (LSC akma elemanları, esnek kaplamalar, çiviler) ve bunların yapısal davranışını detaylı olarak ele aldığı için 'Tünel Yapı/Destek Elemanları' başlığı en uygun birincil bölümdür. Destekleme elemanlarına odaklanması nedeniyle 2.1.2 ikincil bölümdür.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:8",
+    "embeddings:8",
+    "top=2.1:0.8295 gap=0.080 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

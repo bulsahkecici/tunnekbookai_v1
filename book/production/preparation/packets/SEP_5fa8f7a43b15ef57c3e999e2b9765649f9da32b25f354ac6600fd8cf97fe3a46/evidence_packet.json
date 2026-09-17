@@ -1,0 +1,585 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_342e03ab4dd95a790c4ca24f77af1b4a52c3bfc18837b81220f230303161209b",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 9,
+    "SUPPORTED": 0,
+    "UNSUPPORTED": 41
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_5fa8f7a43b15ef57c3e999e2b9765649f9da32b25f354ac6600fd8cf97fe3a46",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_801bbf7672e52220c3376b26b86724799fa7a21e428fd63c542df934d9a48cb4",
+        "CLM_f42cbe7cb0a54788aeda80d8a4b99261949e028ba3fbff13d80dc096661a004c"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yumuşak Zeminde Açılan Tüneller nedir ve tünel mühendisliğindeki temel işlevi nedir?",
+      "question_id": "2.2.2-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller hangi mühendislik problemini çözmeyi amaçlar?",
+      "question_id": "2.2.2-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller için temel tasarım girdileri nelerdir?",
+      "question_id": "2.2.2-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller için jeolojik girdiler nelerdir?",
+      "question_id": "2.2.2-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller için geoteknik girdiler nelerdir?",
+      "question_id": "2.2.2-Q05",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller için hidrojeolojik girdiler nelerdir?",
+      "question_id": "2.2.2-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller için topoğrafik ve geometrik girdiler nelerdir?",
+      "question_id": "2.2.2-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller için trafik ve işletme girdileri nelerdir?",
+      "question_id": "2.2.2-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller seçiminde tünel uzunluğu nasıl etkili olur?",
+      "question_id": "2.2.2-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_801bbf7672e52220c3376b26b86724799fa7a21e428fd63c542df934d9a48cb4",
+        "CLM_f42cbe7cb0a54788aeda80d8a4b99261949e028ba3fbff13d80dc096661a004c",
+        "CLM_64527916b5dfddc9a1dc4fbf67a91c3e068bd5d3aca48bc5201e9e910e3a4002"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yumuşak Zeminde Açılan Tüneller seçiminde tünel kesiti ve açıklığı nasıl etkili olur?",
+      "question_id": "2.2.2-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller seçiminde örtü kalınlığı nasıl etkili olur?",
+      "question_id": "2.2.2-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_64527916b5dfddc9a1dc4fbf67a91c3e068bd5d3aca48bc5201e9e910e3a4002",
+        "CLM_5661d8e2c0b0527f2dc0f8085a8571e9731bd2989f6f735f68ad3d4434b262db",
+        "CLM_82e7b1c23146036223074ee85c14e99c17446a216553c266159e58c2a8c43525"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yumuşak Zeminde Açılan Tüneller seçiminde kaya kütlesi veya zemin özellikleri nasıl etkili olur?",
+      "question_id": "2.2.2-Q12",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_82e7b1c23146036223074ee85c14e99c17446a216553c266159e58c2a8c43525",
+        "CLM_64527916b5dfddc9a1dc4fbf67a91c3e068bd5d3aca48bc5201e9e910e3a4002",
+        "CLM_0a8cf0f4d52170157e9a37dc4e2e1f08f824ea2464dc32dcd7c1e5fd72b9a869"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yumuşak Zeminde Açılan Tüneller seçiminde yeraltı suyu koşulları nasıl etkili olur?",
+      "question_id": "2.2.2-Q13",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller seçiminde çevresel ve yerleşim koşulları nasıl etkili olur?",
+      "question_id": "2.2.2-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller seçiminde iş sağlığı ve güvenliği nasıl dikkate alınır?",
+      "question_id": "2.2.2-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller seçiminde yapım süresi nasıl dikkate alınır?",
+      "question_id": "2.2.2-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_801bbf7672e52220c3376b26b86724799fa7a21e428fd63c542df934d9a48cb4",
+        "CLM_bdfaaaf3ea1174598c70e54264d5d9d3d9f104eba2c3deca9c5bd452c0081b17"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yumuşak Zeminde Açılan Tüneller seçiminde ilk yatırım maliyeti nasıl dikkate alınır?",
+      "question_id": "2.2.2-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller seçiminde bakım ve işletme maliyetleri nasıl dikkate alınır?",
+      "question_id": "2.2.2-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_801bbf7672e52220c3376b26b86724799fa7a21e428fd63c542df934d9a48cb4",
+        "CLM_82e7b1c23146036223074ee85c14e99c17446a216553c266159e58c2a8c43525",
+        "CLM_f42cbe7cb0a54788aeda80d8a4b99261949e028ba3fbff13d80dc096661a004c",
+        "CLM_72fe3d1dcc0704d0f11a1cbfa25bf73e2fcc8beeec9846bad6d0a81685d76560"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yumuşak Zeminde Açılan Tüneller için hangi alternatif teknik çözümler karşılaştırılabilir?",
+      "question_id": "2.2.2-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_080641352eec148a0e687c66e08ab22c95eb97d54f8cf85b1b6e904f43e0ff6c",
+        "CLM_801bbf7672e52220c3376b26b86724799fa7a21e428fd63c542df934d9a48cb4",
+        "CLM_82e7b1c23146036223074ee85c14e99c17446a216553c266159e58c2a8c43525",
+        "CLM_f42cbe7cb0a54788aeda80d8a4b99261949e028ba3fbff13d80dc096661a004c"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yumuşak Zeminde Açılan Tüneller alternatiflerinin avantajları ve dezavantajları nelerdir?",
+      "question_id": "2.2.2-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller için karar verme sürecinde hangi teknik kriterlere ağırlık verilmelidir?",
+      "question_id": "2.2.2-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller tasarımında hangi hesap yöntemleri kullanılır?",
+      "question_id": "2.2.2-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller tasarımında hangi sayısal modelleme yöntemleri kullanılabilir?",
+      "question_id": "2.2.2-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller tasarımında hangi ampirik sınıflandırmalar kullanılabilir?",
+      "question_id": "2.2.2-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller tasarımında hangi güvenlik katsayıları veya performans kriterleri önemlidir?",
+      "question_id": "2.2.2-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller uygulamasında hangi başlıca malzemeler kullanılır?",
+      "question_id": "2.2.2-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_801bbf7672e52220c3376b26b86724799fa7a21e428fd63c542df934d9a48cb4",
+        "CLM_f42cbe7cb0a54788aeda80d8a4b99261949e028ba3fbff13d80dc096661a004c"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yumuşak Zeminde Açılan Tüneller uygulamasında hangi başlıca makine ve ekipmanlar kullanılır?",
+      "question_id": "2.2.2-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller uygulamasının tipik iş sırası nasıldır?",
+      "question_id": "2.2.2-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller uygulamasında kalite kontrol nasıl yapılır?",
+      "question_id": "2.2.2-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller uygulamasında saha ölçümleri ve enstrümantasyon nasıl kullanılır?",
+      "question_id": "2.2.2-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller uygulamasında deformasyonlar nasıl izlenir?",
+      "question_id": "2.2.2-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller uygulamasında su girişleri nasıl kontrol edilir?",
+      "question_id": "2.2.2-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller uygulamasında drenaj ve yalıtım nasıl ele alınır?",
+      "question_id": "2.2.2-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller uygulamasında beklenmeyen zemin koşullarına nasıl müdahale edilir?",
+      "question_id": "2.2.2-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller uygulamasında en sık görülen teknik riskler nelerdir?",
+      "question_id": "2.2.2-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller uygulamasında hata veya yetersizlik belirtileri nelerdir?",
+      "question_id": "2.2.2-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller uygulamasında düzeltici ve güçlendirici önlemler nelerdir?",
+      "question_id": "2.2.2-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_134fa9240d6c31651a6e1ccea1bd74dd1ee8bf76b95e73480e1d61d5f2d8874b"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yumuşak Zeminde Açılan Tüneller ile nihai kaplama arasındaki ilişki nasıl kurulmalıdır?",
+      "question_id": "2.2.2-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller ile portal tasarımı arasındaki ilişki nedir?",
+      "question_id": "2.2.2-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller ile havalandırma, aydınlatma ve diğer elektromekanik sistemler nasıl koordine edilir?",
+      "question_id": "2.2.2-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller için uygulanabilir ulusal standart ve şartnameler nelerdir?",
+      "question_id": "2.2.2-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller için uygulanabilir uluslararası standart ve kılavuzlar nelerdir?",
+      "question_id": "2.2.2-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller açısından Karayolları Genel Müdürlüğü uygulamalarında hangi esaslar öne çıkar?",
+      "question_id": "2.2.2-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller için yapım sırasında tutulması gereken kayıtlar nelerdir?",
+      "question_id": "2.2.2-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller için kabul ve devreye alma kriterleri nelerdir?",
+      "question_id": "2.2.2-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller kullanım aşamasında nasıl izlenmeli ve denetlenmelidir?",
+      "question_id": "2.2.2-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller yaşam döngüsü boyunca hangi bakım gereksinimlerini doğurur?",
+      "question_id": "2.2.2-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller sürdürülebilirlik ve çevresel etki açısından nasıl değerlendirilebilir?",
+      "question_id": "2.2.2-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller ile ilgili Türkiye’den hangi uygulama örnekleri verilebilir?",
+      "question_id": "2.2.2-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yumuşak Zeminde Açılan Tüneller ile ilgili dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "2.2.2-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "2.2.2",
+  "section_title": "Yumuşak Zeminde Açılan Tüneller",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_080641352eec148a0e687c66e08ab22c95eb97d54f8cf85b1b6e904f43e0ff6c",
+      "CLM_0a8cf0f4d52170157e9a37dc4e2e1f08f824ea2464dc32dcd7c1e5fd72b9a869",
+      "CLM_134fa9240d6c31651a6e1ccea1bd74dd1ee8bf76b95e73480e1d61d5f2d8874b",
+      "CLM_5661d8e2c0b0527f2dc0f8085a8571e9731bd2989f6f735f68ad3d4434b262db",
+      "CLM_64527916b5dfddc9a1dc4fbf67a91c3e068bd5d3aca48bc5201e9e910e3a4002",
+      "CLM_72fe3d1dcc0704d0f11a1cbfa25bf73e2fcc8beeec9846bad6d0a81685d76560",
+      "CLM_801bbf7672e52220c3376b26b86724799fa7a21e428fd63c542df934d9a48cb4",
+      "CLM_82e7b1c23146036223074ee85c14e99c17446a216553c266159e58c2a8c43525",
+      "CLM_bdfaaaf3ea1174598c70e54264d5d9d3d9f104eba2c3deca9c5bd452c0081b17",
+      "CLM_f42cbe7cb0a54788aeda80d8a4b99261949e028ba3fbff13d80dc096661a004c"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "2.2.2-Q01",
+      "2.2.2-Q10",
+      "2.2.2-Q12",
+      "2.2.2-Q13",
+      "2.2.2-Q17",
+      "2.2.2-Q19",
+      "2.2.2-Q20",
+      "2.2.2-Q27",
+      "2.2.2-Q38"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "2.2.2-Q02",
+      "2.2.2-Q03",
+      "2.2.2-Q04",
+      "2.2.2-Q05",
+      "2.2.2-Q06",
+      "2.2.2-Q07",
+      "2.2.2-Q08",
+      "2.2.2-Q09",
+      "2.2.2-Q11",
+      "2.2.2-Q14",
+      "2.2.2-Q15",
+      "2.2.2-Q16",
+      "2.2.2-Q18",
+      "2.2.2-Q21",
+      "2.2.2-Q22",
+      "2.2.2-Q23",
+      "2.2.2-Q24",
+      "2.2.2-Q25",
+      "2.2.2-Q26",
+      "2.2.2-Q28",
+      "2.2.2-Q29",
+      "2.2.2-Q30",
+      "2.2.2-Q31",
+      "2.2.2-Q32",
+      "2.2.2-Q33",
+      "2.2.2-Q34",
+      "2.2.2-Q35",
+      "2.2.2-Q36",
+      "2.2.2-Q37",
+      "2.2.2-Q39",
+      "2.2.2-Q40",
+      "2.2.2-Q41",
+      "2.2.2-Q42",
+      "2.2.2-Q43",
+      "2.2.2-Q44",
+      "2.2.2-Q45",
+      "2.2.2-Q46",
+      "2.2.2-Q47",
+      "2.2.2-Q48",
+      "2.2.2-Q49",
+      "2.2.2-Q50"
+    ]
+  }
+}

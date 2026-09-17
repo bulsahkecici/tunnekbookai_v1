@@ -1,0 +1,579 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_c686837fd5c7c9a746138cab9628ed2f60494e975c93d22ffd3d5ed854b9e04e",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 6,
+    "SUPPORTED": 4,
+    "UNSUPPORTED": 40
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_80df6b5471fe6b76184b29556d37c8f222034101e686a2b737409642caedf4ef",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller hangi tarihsel dönemden başlatılmalıdır?",
+      "question_id": "1.3.1-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_27bba1871e1f64e1f8cbb23a27475581f6acf408eac606e999639685d1578f9f",
+        "CLM_6fa62c4e33ddcc5fca84551b9c46070356fe38c6cae71d8216706e501b5799bc"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Dünyadaki İlk Tüneller için bilinen en erken örnekler hangileridir?",
+      "question_id": "1.3.1-Q02",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f30b9ce1974ca31b5bb8a2a630e3a9f62aefbf69a8fcdcba54d4317fd60c6db7",
+        "CLM_27bba1871e1f64e1f8cbb23a27475581f6acf408eac606e999639685d1578f9f"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Dünyadaki İlk Tüneller kapsamında ilk örneklerin yapılma amacı neydi?",
+      "question_id": "1.3.1-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f30b9ce1974ca31b5bb8a2a630e3a9f62aefbf69a8fcdcba54d4317fd60c6db7",
+        "CLM_48d8eafc08be5f0e1f28b4a6efb713725e2a21efe5a4b6b2bec17b54677fa37c"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Dünyadaki İlk Tüneller hangi coğrafyalarda ve hangi ihtiyaçlarla gelişmiştir?",
+      "question_id": "1.3.1-Q04",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d1b33e0b08314e8bf65e3aff8e9ad97da28cf5f139a283d0d02f93620650314d",
+        "CLM_27bba1871e1f64e1f8cbb23a27475581f6acf408eac606e999639685d1578f9f"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Dünyadaki İlk Tüneller gelişiminde belirleyici olan başlıca tarihsel dönüm noktaları nelerdir?",
+      "question_id": "1.3.1-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller gelişimini hızlandıran ulaşım ihtiyaçları nelerdir?",
+      "question_id": "1.3.1-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller gelişimini hızlandıran kentleşme etkileri nelerdir?",
+      "question_id": "1.3.1-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller gelişimini hızlandıran sanayileşme etkileri nelerdir?",
+      "question_id": "1.3.1-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller tarihinde kullanılan ilk kazı teknikleri nelerdi?",
+      "question_id": "1.3.1-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_808132ac40556febab5895d0265e99fb7c01de49a90f57b07408a421b7476e22",
+        "CLM_c35ff4aabc00c668cb8dee3001c417358ba0d68acdd7151307082dd4b39ca030"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Dünyadaki İlk Tüneller tarihinde kullanılan ilk destekleme yöntemleri nelerdi?",
+      "question_id": "1.3.1-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller tarihinde kullanılan yapı malzemeleri nasıl değişmiştir?",
+      "question_id": "1.3.1-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Patlayıcı teknolojisinin gelişimi Dünyadaki İlk Tüneller üzerinde nasıl etkili olmuştur?",
+      "question_id": "1.3.1-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Mekanize kazı teknolojilerinin gelişimi Dünyadaki İlk Tüneller üzerinde nasıl etkili olmuştur?",
+      "question_id": "1.3.1-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "TBM teknolojisinin gelişimi Dünyadaki İlk Tüneller açısından hangi dönüm noktasını oluşturmuştur?",
+      "question_id": "1.3.1-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "NATM yaklaşımının ortaya çıkışı Dünyadaki İlk Tüneller içinde nasıl bir değişim yaratmıştır?",
+      "question_id": "1.3.1-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Jeoloji ve geoteknik bilimindeki ilerlemeler Dünyadaki İlk Tüneller gelişimini nasıl etkilemiştir?",
+      "question_id": "1.3.1-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Harita ve ölçme teknolojilerindeki gelişmeler Dünyadaki İlk Tüneller gelişimini nasıl etkilemiştir?",
+      "question_id": "1.3.1-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Beton ve püskürtme beton teknolojileri Dünyadaki İlk Tüneller gelişiminde nasıl rol oynamıştır?",
+      "question_id": "1.3.1-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kaya bulonu ve ankraj sistemlerinin gelişimi Dünyadaki İlk Tüneller açısından neden önemlidir?",
+      "question_id": "1.3.1-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Su yalıtımı ve drenaj teknolojilerindeki ilerlemeler Dünyadaki İlk Tüneller gelişimini nasıl etkilemiştir?",
+      "question_id": "1.3.1-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Havalandırma teknolojilerindeki gelişmeler Dünyadaki İlk Tüneller açısından hangi yenilikleri getirmiştir?",
+      "question_id": "1.3.1-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Aydınlatma teknolojilerindeki gelişmeler Dünyadaki İlk Tüneller açısından hangi yenilikleri getirmiştir?",
+      "question_id": "1.3.1-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yangın güvenliği anlayışı Dünyadaki İlk Tüneller boyunca nasıl değişmiştir?",
+      "question_id": "1.3.1-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Acil durum ve tahliye yaklaşımı Dünyadaki İlk Tüneller boyunca nasıl gelişmiştir?",
+      "question_id": "1.3.1-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Önemli kazalar ve felaketler Dünyadaki İlk Tüneller gelişiminde hangi düzenlemelere yol açmıştır?",
+      "question_id": "1.3.1-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller içinde hangi projeler mühendislik açısından dönüm noktası kabul edilir?",
+      "question_id": "1.3.1-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_27bba1871e1f64e1f8cbb23a27475581f6acf408eac606e999639685d1578f9f",
+        "CLM_6fa62c4e33ddcc5fca84551b9c46070356fe38c6cae71d8216706e501b5799bc"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Dünyadaki İlk Tüneller içinde hangi projeler uzunluk veya ölçek açısından rekor niteliği taşımıştır?",
+      "question_id": "1.3.1-Q27",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller içinde hangi projeler yapım yöntemi açısından öncü olmuştur?",
+      "question_id": "1.3.1-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller içinde hangi projeler güvenlik uygulamaları açısından öncü olmuştur?",
+      "question_id": "1.3.1-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller içinde hangi projeler işletme teknolojileri açısından öncü olmuştur?",
+      "question_id": "1.3.1-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller gelişiminde kamu kurumlarının rolü ne olmuştur?",
+      "question_id": "1.3.1-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller gelişiminde üniversiteler ve araştırma kuruluşlarının rolü ne olmuştur?",
+      "question_id": "1.3.1-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller gelişiminde uluslararası meslek örgütlerinin rolü ne olmuştur?",
+      "question_id": "1.3.1-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller gelişiminde standartlar ve teknik şartnameler nasıl değişmiştir?",
+      "question_id": "1.3.1-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller gelişiminde ekonomik koşullar ve finansman modelleri nasıl etkili olmuştur?",
+      "question_id": "1.3.1-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_27bba1871e1f64e1f8cbb23a27475581f6acf408eac606e999639685d1578f9f",
+        "CLM_d1b33e0b08314e8bf65e3aff8e9ad97da28cf5f139a283d0d02f93620650314d",
+        "CLM_5fc64bd98c37623a682443ba6cc4313727277a47dc3cef8c9b85600924ad6554"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Dünyadaki İlk Tüneller içinde yapım süreleri zamanla nasıl değişmiştir?",
+      "question_id": "1.3.1-Q36",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller içinde birim yapım maliyetlerini etkileyen tarihsel değişimler nelerdir?",
+      "question_id": "1.3.1-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller içinde bakım ve işletme anlayışı zamanla nasıl değişmiştir?",
+      "question_id": "1.3.1-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller içinde çevresel etkilerin dikkate alınması ne zaman önem kazanmıştır?",
+      "question_id": "1.3.1-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller içinde sürdürülebilirlik yaklaşımı ne zaman ve nasıl öne çıkmıştır?",
+      "question_id": "1.3.1-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dijital tasarım araçlarının gelişimi Dünyadaki İlk Tüneller açısından ne değiştirmiştir?",
+      "question_id": "1.3.1-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "BIM ve dijital ikiz uygulamaları Dünyadaki İlk Tüneller içinde hangi yeni dönemi temsil etmektedir?",
+      "question_id": "1.3.1-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Sensör ve izleme teknolojileri Dünyadaki İlk Tüneller gelişimini nasıl dönüştürmüştür?",
+      "question_id": "1.3.1-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller açısından Türkiye ile dünya arasındaki gelişim çizgisi nasıl karşılaştırılabilir?",
+      "question_id": "1.3.1-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller içinde bölgesel farklılıkların temel nedenleri nelerdir?",
+      "question_id": "1.3.1-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d1b33e0b08314e8bf65e3aff8e9ad97da28cf5f139a283d0d02f93620650314d",
+        "CLM_772e3551220fa96e1263c1f77bed96537fa1c5446dd99bb70eb7435b90c2a411"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Dünyadaki İlk Tüneller anlatılırken hangi kronolojik tablo veya zaman çizelgesi verilmelidir?",
+      "question_id": "1.3.1-Q46",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f30b9ce1974ca31b5bb8a2a630e3a9f62aefbf69a8fcdcba54d4317fd60c6db7",
+        "CLM_b6a64eb2825e14ce2a07fe14f7e31202ae5f91023b5c3f54213ab6d48da5022c"
+      ],
+      "confidence": 0.75,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Dünyadaki İlk Tüneller anlatılırken hangi proje örnekleri mutlaka yer almalıdır?",
+      "question_id": "1.3.1-Q47",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d1b33e0b08314e8bf65e3aff8e9ad97da28cf5f139a283d0d02f93620650314d",
+        "CLM_808132ac40556febab5895d0265e99fb7c01de49a90f57b07408a421b7476e22"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Dünyadaki İlk Tüneller anlatılırken hangi teknik yeniliklerin tarihleri özellikle belirtilmelidir?",
+      "question_id": "1.3.1-Q48",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller günümüzde hangi teknoloji ve mühendislik eğilimleriyle devam etmektedir?",
+      "question_id": "1.3.1-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadaki İlk Tüneller gelecekte hangi gelişmelerle yeni bir aşamaya geçebilir?",
+      "question_id": "1.3.1-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "1.3.1",
+  "section_title": "Dünyadaki İlk Tüneller",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_27bba1871e1f64e1f8cbb23a27475581f6acf408eac606e999639685d1578f9f",
+      "CLM_48d8eafc08be5f0e1f28b4a6efb713725e2a21efe5a4b6b2bec17b54677fa37c",
+      "CLM_5fc64bd98c37623a682443ba6cc4313727277a47dc3cef8c9b85600924ad6554",
+      "CLM_6fa62c4e33ddcc5fca84551b9c46070356fe38c6cae71d8216706e501b5799bc",
+      "CLM_772e3551220fa96e1263c1f77bed96537fa1c5446dd99bb70eb7435b90c2a411",
+      "CLM_808132ac40556febab5895d0265e99fb7c01de49a90f57b07408a421b7476e22",
+      "CLM_b6a64eb2825e14ce2a07fe14f7e31202ae5f91023b5c3f54213ab6d48da5022c",
+      "CLM_c35ff4aabc00c668cb8dee3001c417358ba0d68acdd7151307082dd4b39ca030",
+      "CLM_d1b33e0b08314e8bf65e3aff8e9ad97da28cf5f139a283d0d02f93620650314d",
+      "CLM_f30b9ce1974ca31b5bb8a2a630e3a9f62aefbf69a8fcdcba54d4317fd60c6db7"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "1.3.1-Q03",
+      "1.3.1-Q04",
+      "1.3.1-Q05",
+      "1.3.1-Q10",
+      "1.3.1-Q36",
+      "1.3.1-Q48"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "1.3.1-Q01",
+      "1.3.1-Q06",
+      "1.3.1-Q07",
+      "1.3.1-Q08",
+      "1.3.1-Q09",
+      "1.3.1-Q11",
+      "1.3.1-Q12",
+      "1.3.1-Q13",
+      "1.3.1-Q14",
+      "1.3.1-Q15",
+      "1.3.1-Q16",
+      "1.3.1-Q17",
+      "1.3.1-Q18",
+      "1.3.1-Q19",
+      "1.3.1-Q20",
+      "1.3.1-Q21",
+      "1.3.1-Q22",
+      "1.3.1-Q23",
+      "1.3.1-Q24",
+      "1.3.1-Q25",
+      "1.3.1-Q26",
+      "1.3.1-Q28",
+      "1.3.1-Q29",
+      "1.3.1-Q30",
+      "1.3.1-Q31",
+      "1.3.1-Q32",
+      "1.3.1-Q33",
+      "1.3.1-Q34",
+      "1.3.1-Q35",
+      "1.3.1-Q37",
+      "1.3.1-Q38",
+      "1.3.1-Q39",
+      "1.3.1-Q40",
+      "1.3.1-Q41",
+      "1.3.1-Q42",
+      "1.3.1-Q43",
+      "1.3.1-Q44",
+      "1.3.1-Q45",
+      "1.3.1-Q49",
+      "1.3.1-Q50"
+    ]
+  }
+}

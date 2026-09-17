@@ -1,0 +1,187 @@
+{
+  "final_primary_section": "2.2.1",
+  "final_secondary_sections": [
+    "2.1",
+    "2.4",
+    "2"
+  ],
+  "final_section_confidence": 0.92,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "LIST0017",
+        "LIST0023",
+        "LIST0024",
+        "LIST0027",
+        "LIST0031",
+        "LIST0034",
+        "LIST0035",
+        "LIST0036",
+        "HEAD0020",
+        "HEAD0023",
+        "LIST0044",
+        "LIST0046",
+        "LIST0049",
+        "LIST0054",
+        "LIST0057",
+        "LIST0108",
+        "LIST0109",
+        "LIST0110",
+        "FIG0205"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "FIG0064",
+        "LIST0030",
+        "LIST0031",
+        "FIG0071",
+        "LIST0034",
+        "LIST0035",
+        "LIST0036",
+        "HEAD0020",
+        "FIG0088",
+        "HEAD0023",
+        "LIST0041",
+        "LIST0044",
+        "LIST0046",
+        "LIST0047",
+        "LIST0049",
+        "LIST0054",
+        "LIST0055",
+        "HEAD0033",
+        "LIST0107",
+        "LIST0108",
+        "LIST0109",
+        "LIST0110",
+        "FIG0205"
+      ]
+    },
+    {
+      "section_id": "2.4",
+      "section_title": "Tünellerin Projelendirilmesi",
+      "supporting_elements": [
+        "HEAD0003",
+        "HEAD0043",
+        "HEAD0044",
+        "LIST0100",
+        "LIST0128"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "FIG0064",
+        "LIST0030",
+        "FIG0071",
+        "FIG0088",
+        "LIST0041",
+        "LIST0044",
+        "LIST0046",
+        "LIST0047",
+        "LIST0054",
+        "LIST0055",
+        "HEAD0033",
+        "LIST0107",
+        "LIST0121"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1",
+      "score": 0.8078,
+      "rule_score": 0.6364,
+      "embedding_score": 0.8024,
+      "chunk_vote": 0.2333
+    },
+    {
+      "id": "2.4",
+      "score": 0.7442,
+      "rule_score": 0.6,
+      "embedding_score": 0.7816,
+      "chunk_vote": 0.0626
+    },
+    {
+      "id": "2",
+      "score": 0.7282,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8133,
+      "chunk_vote": 0.0334
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.6974,
+      "rule_score": 0.5,
+      "embedding_score": 0.7945,
+      "chunk_vote": 0.0742
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3637,
+      "rule_score": 0.0,
+      "embedding_score": 0.8028,
+      "chunk_vote": 0.0124
+    },
+    {
+      "id": "5.6",
+      "score": 0.3582,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0408
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3555,
+      "rule_score": 0.0,
+      "embedding_score": 0.7899,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.354,
+      "rule_score": 0.0,
+      "embedding_score": 0.7867,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3524,
+      "rule_score": 0.0,
+      "embedding_score": 0.7831,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3426,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0631
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, farklı kaya koşullarında (çakıl ve sıkışan kaya) tünel tasarımını, destek elemanlarının (LSC, WABE, rock bolt) seçimi ve deformasyon ölçümleriyle entegrasyonunu detaylı olarak ele almaktadır. Bu içerik, 'Kayaç Zeminde Açılan Tüneller' (2.2.1) başlığına en uygun düşmektedir; ayrıca destek elemanları (2.1) ve jeoteknik tasarım süreçleri (2.4) ikincil konular olarak öne çıkmaktadır.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:19",
+    "embeddings:8",
+    "top=2.1:0.8078 gap=0.064 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

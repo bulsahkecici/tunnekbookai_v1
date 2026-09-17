@@ -1,0 +1,275 @@
+{
+  "batch_number": 3,
+  "question_ids": [
+    "1.1-Q21",
+    "1.1-Q22",
+    "1.1-Q23",
+    "1.1-Q24",
+    "1.1-Q25",
+    "1.1-Q26",
+    "1.1-Q27",
+    "1.1-Q28",
+    "1.1-Q29",
+    "1.1-Q30"
+  ],
+  "results": [
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S042",
+            "1.1-S043"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.85,
+      "question": "Tünelin Tanımı ile aydınlatma gereksinimleri arasında nasıl bir bağ vardır?",
+      "question_id": "1.1-Q21",
+      "reason": "PARTIAL_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_5a99712752:pages=213-214;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L105",
+        "ING_1b4596736bbcf61f370b:ING_1b4596736bbcf61f370b_CH_7a49bb4e1d:pages=13;canonical=corpus/canonical/objects/ING_1b4596736bbcf61f370b/6d7495dbe27aa997b62be66a5ae402acd71c56f4393f0ab9698a1afb1d9b6afc/chunks/embedding_ready.jsonl#L34"
+      ],
+      "status": "PARTIAL",
+      "supporting_claim_ids": [
+        "CLM_9b54b92d76ac8daf141b1b11f60942952989532e8040bb8d49a70e5c054d6a77",
+        "CLM_c8bcb98ed09f35d9583fdfac341aa29b9a027e56ed7713dff173b598a4ba7c4c"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397",
+        "ING_1b4596736bbcf61f370b"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S044",
+            "1.1-S045"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.95,
+      "question": "Tünelin Tanımı ile drenaj ve su yalıtımı gereksinimleri arasında nasıl bir bağ vardır?",
+      "question_id": "1.1-Q22",
+      "reason": "COMPOSITE_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_9edbc28eb7644c0de5ff:ING_9edbc28eb7644c0de5ff_CH_a58bf5d4af:pages=1;canonical=corpus/canonical/objects/ING_9edbc28eb7644c0de5ff/74275fe7a0aea02b4981304dc1627c149c636c091db00c6229e570b8cf02da8b/chunks/embedding_ready.jsonl#L1",
+        "ING_9edbc28eb7644c0de5ff:ING_9edbc28eb7644c0de5ff_CH_12b9bbd4c6:pages=2;canonical=corpus/canonical/objects/ING_9edbc28eb7644c0de5ff/74275fe7a0aea02b4981304dc1627c149c636c091db00c6229e570b8cf02da8b/chunks/embedding_ready.jsonl#L2"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_fbe9a01c9661f10b2883601e401a6bc8c8d60210e7d885b425101afa3c8652de",
+        "CLM_4ce286a41fb39b5342a1a90d1bbdfbf7095bfe743dd5b4b660752f385a694307"
+      ],
+      "supporting_document_ids": [
+        "ING_9edbc28eb7644c0de5ff"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S046",
+            "1.1-S047"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.85,
+      "question": "Tünelin Tanımı ile yangın güvenliği arasında nasıl bir ilişki vardır?",
+      "question_id": "1.1-Q23",
+      "reason": "PARTIAL_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_9f0e307bbe:pages=294-298;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L128",
+        "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_6229b5bb3d:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L127"
+      ],
+      "status": "PARTIAL",
+      "supporting_claim_ids": [
+        "CLM_e016893580998dfb9a2cfad243797f6578a56e735c3c5135188781766a9a3f26",
+        "CLM_9f9f5f104810e98b3977446410371f7dc0a7efe5e3ff71e95355ef4da3781dcf"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397",
+        "ING_1fb6b71a35f819248daf"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S048",
+            "1.1-S049"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.9,
+      "question": "Tünelin Tanımı ile acil durum yönetimi arasında nasıl bir ilişki vardır?",
+      "question_id": "1.1-Q24",
+      "reason": "COMPOSITE_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_f28eeecf50:pages=53-55;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L18",
+        "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_6640be043b:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L31"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_de719cbd5159d7146a137ca52ef36f23970c8bff1b1b55692fb61bc7e64f1150",
+        "CLM_60fa2073ac9768f67633192dd85262680270db6a765bab032bc2ae2d5c7fe505"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397",
+        "ING_1fb6b71a35f819248daf"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S050",
+            "1.1-S051"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.9,
+      "question": "Tünelin Tanımı bakımından portal bölgelerinin önemi nedir?",
+      "question_id": "1.1-Q25",
+      "reason": "COMPOSITE_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_153e9e2a4af4519f1e27:ING_153e9e2a4af4519f1e27_CH_23ca60163a:pages=49-50;canonical=corpus/canonical/objects/ING_153e9e2a4af4519f1e27/f09de3c7a774882a2152df1276cc946fb0d5f61ec9022eb526af7ad4aaddf323/chunks/embedding_ready.jsonl#L18",
+        "ING_9fea1e259f10c9d371f0:ING_9fea1e259f10c9d371f0_CH_dfa84773e1:canonical=corpus/canonical/objects/ING_9fea1e259f10c9d371f0/58b79d5b5f1958aa4fccdd19986430a69bd4ff45d41cb8458a57234c8901c4a3/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_94d06be13db094d79e7478e970b137734ac295b8921b8a806e40f62257ff0df9",
+        "CLM_6d055b89c4c58fa58dc599e92b2fdb34c0a19326add9bf9a9fd1cb553bedaf7a"
+      ],
+      "supporting_document_ids": [
+        "ING_153e9e2a4af4519f1e27",
+        "ING_9fea1e259f10c9d371f0"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S052",
+            "1.1-S053",
+            "1.1-S054"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.95,
+      "question": "Tünelin Tanımı bakımından tünel içi kaplama ve destek sistemlerinin rolü nedir?",
+      "question_id": "1.1-Q26",
+      "reason": "COMPOSITE_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_9298d2989f:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L6",
+        "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_b535170db3:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L11",
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_d860cf25d2:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L193"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "supporting_document_ids": [
+        "ING_2005c18d2148fb921826",
+        "ING_7e795b9a47c89f5406c5"
+      ]
+    },
+    {
+      "answer_spans": [],
+      "confidence": 1.0,
+      "question": "Tünelin Tanımı hangi ölçülebilir parametrelerle ifade edilebilir?",
+      "question_id": "1.1-Q27",
+      "reason": "NO_ANSWER_SPAN",
+      "section_id": "1.1",
+      "source_locators": [],
+      "status": "NOT_ANSWERED",
+      "supporting_claim_ids": [],
+      "supporting_document_ids": []
+    },
+    {
+      "answer_spans": [],
+      "confidence": 1.0,
+      "question": "Tünelin Tanımı için kullanılan birimler ve temel büyüklükler nelerdir?",
+      "question_id": "1.1-Q28",
+      "reason": "NO_ANSWER_SPAN",
+      "section_id": "1.1",
+      "source_locators": [],
+      "status": "NOT_ANSWERED",
+      "supporting_claim_ids": [],
+      "supporting_document_ids": []
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S055",
+            "1.1-S056"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.9,
+      "question": "Tünelin Tanımı ile ilgili terminolojide ulusal ve uluslararası kullanım farklılıkları var mıdır?",
+      "question_id": "1.1-Q29",
+      "reason": "COMPOSITE_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_38efefcbcc:pages=11-23;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L2",
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_d860cf25d2:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L193"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_43c97a5fab4a77bfd85ce48405c079bfb4782dafda367e70020f13eda3c5d50a",
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397",
+        "ING_2005c18d2148fb921826"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S057",
+            "1.1-S058"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.9,
+      "question": "Tünelin Tanımı ile ilgili tanımlar hangi standart, şartname veya teknik kılavuzlarda yer alır?",
+      "question_id": "1.1-Q30",
+      "reason": "COMPOSITE_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297",
+        "ING_0d8f102824829559a474:ING_0d8f102824829559a474_CH_a377e6d5a7:pages=1-2;canonical=corpus/canonical/objects/ING_0d8f102824829559a474/29e0ad3be8806a27157e5f700b5a13514fe7e3b03e7b76e589ccd58b9cfc8b97/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092",
+        "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9"
+      ],
+      "supporting_document_ids": [
+        "ING_312befcda2ff316b7279",
+        "ING_0d8f102824829559a474"
+      ]
+    }
+  ]
+}

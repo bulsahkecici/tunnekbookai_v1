@@ -1,0 +1,35 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_a5f5d0149f34f48f25e7",
+  "original_sha256": "a5f5d0149f34f48f25e7d9e5152a647ed775d413fb6e47ead6fffe458eb0981b",
+  "source_kind": "EXTERNAL_DISCOVERY",
+  "format": "HTML",
+  "title": "A STUDY ON RAPID NATM TUNNEL DRIVING BY EARLY-HIGH-STRENGTH SHOTCRETE SUPPORT SYSTEM",
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "2.1.2",
+    "2.2.1"
+  ],
+  "final_section_confidence": 0.716,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": false,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_a5f5d0149f34f48f25e7",
+  "original_archive": "originals/ING_a5f5d0149f34f48f25e7",
+  "chunks_authoritative_path": "processing/ING_a5f5d0149f34f48f25e7/chunks/chunk_manifest.jsonl",
+  "chunk_count": 2,
+  "chunk_quality_status": "WARN",
+  "canonical_promoted": false
+}

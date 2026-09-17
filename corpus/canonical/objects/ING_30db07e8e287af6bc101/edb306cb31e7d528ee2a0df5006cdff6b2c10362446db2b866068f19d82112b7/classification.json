@@ -1,0 +1,111 @@
+{
+  "final_primary_section": "5.9.2",
+  "final_secondary_sections": [
+    "5.9"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.5624,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7314,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.5167,
+      "rule_score": 0.2,
+      "embedding_score": 0.7431,
+      "chunk_vote": 0.1117
+    },
+    {
+      "id": "1.5",
+      "score": 0.4013,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4787
+    },
+    {
+      "id": "5.9",
+      "score": 0.3382,
+      "rule_score": 0.0,
+      "embedding_score": 0.7515,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3346,
+      "rule_score": 0.0,
+      "embedding_score": 0.7435,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3322,
+      "rule_score": 0.0,
+      "embedding_score": 0.7382,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3313,
+      "rule_score": 0.0,
+      "embedding_score": 0.7363,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3294,
+      "rule_score": 0.0,
+      "embedding_score": 0.7321,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.1",
+      "score": 0.3291,
+      "rule_score": 0.0,
+      "embedding_score": 0.7313,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3197,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2234
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, NRC Publications Archive'dan alınmış uluslararası bir dergide (Fire Safety Journal) yayımlanmış bir makale kaydıdır. Bu nedenle 'Uluslararası Literatür Taraması' başlığı en uygun birincil sınıflandırmadır. Ana başlık 'Ulusal ve Uluslararası Literatür Taraması' olduğundan ikincil olarak listelenmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:7",
+    "chunk_votes:2",
+    "embeddings:8",
+    "top=5.4.2:0.5624 gap=0.046 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

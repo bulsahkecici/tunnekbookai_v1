@@ -1,0 +1,195 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2",
+    "5.9.1"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "LIST0001",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0010",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "PARA0019",
+        "FIG0018",
+        "PARA0031",
+        "PARA0034",
+        "HEAD0019",
+        "PARA0036",
+        "PARA0037",
+        "PARA0038",
+        "PARA0040",
+        "HEAD0029",
+        "HEAD0030",
+        "PARA0069",
+        "PARA0070",
+        "LIST0035",
+        "FIG0039",
+        "PARA0073",
+        "FIG0043"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "LIST0001",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0010",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "PARA0019",
+        "FIG0018",
+        "PARA0031",
+        "PARA0034",
+        "HEAD0019",
+        "PARA0036",
+        "PARA0037",
+        "PARA0038",
+        "PARA0040",
+        "HEAD0029",
+        "HEAD0030",
+        "PARA0069",
+        "PARA0070",
+        "LIST0035",
+        "FIG0039",
+        "PARA0073",
+        "FIG0043"
+      ]
+    },
+    {
+      "section_id": "5.9.1",
+      "section_title": "Ulusal Literatür Taraması",
+      "supporting_elements": [
+        "LIST0001",
+        "PARA0009",
+        "PARA0015",
+        "HEAD0029",
+        "PARA0083",
+        "PARA0120",
+        "PARA0129",
+        "PARA0130",
+        "FIG0078",
+        "PARA0198",
+        "PARA0273",
+        "PARA0278",
+        "FIG0128",
+        "HEAD0117",
+        "PARA0369",
+        "PARA0370",
+        "PARA0371",
+        "PARA0460",
+        "PARA0491",
+        "PARA0504",
+        "PARA0505",
+        "LIST0066",
+        "LIST0067",
+        "LIST0068",
+        "LIST0069"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2",
+      "score": 0.7618,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7848,
+      "chunk_vote": 0.2651
+    },
+    {
+      "id": "2",
+      "score": 0.7269,
+      "rule_score": 0.5,
+      "embedding_score": 0.7891,
+      "chunk_vote": 0.234
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.6868,
+      "rule_score": 0.5,
+      "embedding_score": 0.8039,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3556,
+      "rule_score": 0.0,
+      "embedding_score": 0.7902,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3529,
+      "rule_score": 0.0,
+      "embedding_score": 0.7842,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3521,
+      "rule_score": 0.0,
+      "embedding_score": 0.7825,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3511,
+      "rule_score": 0.0,
+      "embedding_score": 0.7803,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.351,
+      "rule_score": 0.0,
+      "embedding_score": 0.78,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3056,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.2856,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0532
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Ankara-İzmir Hızlı Tren Projesi'ndeki T-1 tünelinin Türkiye'nin en büyük TBM (Tünel Delme Makinesi) ile açılması, TBM teknik özellikleri, kazı yöntemi ve performans verilerini detaylı olarak ele almaktadır. Bu içerik doğrudan 'Tünel Yapım Yöntemleri' (2.2) başlığına ve üst bölüm olan 'Tünel Ana Elemanları, Ana Özellikleri ve Yapım Teknikleri' (2) kapsamına girmektedir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2:0.7618 gap=0.035 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

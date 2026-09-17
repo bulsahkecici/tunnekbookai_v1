@@ -1,0 +1,223 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.1",
+    "2.2.1",
+    "2.1.2"
+  ],
+  "final_section_confidence": 0.92,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0003",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0010",
+        "PARA0012",
+        "FIG0002",
+        "CAPT0002",
+        "PARA0013",
+        "PARA0014",
+        "HEAD0005",
+        "PARA0017",
+        "PARA0018",
+        "HEAD0007",
+        "PARA0044",
+        "PARA0101",
+        "PARA0105",
+        "PARA0106",
+        "PARA0111",
+        "LIST0009",
+        "PARA0113"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "PARA0004",
+        "FIG0001",
+        "PARA0007",
+        "PARA0009",
+        "PARA0011",
+        "PARA0012",
+        "FIG0002",
+        "CAPT0002",
+        "PARA0017",
+        "PARA0018",
+        "PARA0019",
+        "PARA0020",
+        "PARA0029",
+        "PARA0030",
+        "PARA0031",
+        "PARA0043",
+        "PARA0044",
+        "FIG0004",
+        "CAPT0004",
+        "FIG0005",
+        "CAPT0005",
+        "PARA0047",
+        "PARA0048",
+        "PARA0051",
+        "PARA0052"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0004",
+        "FIG0001",
+        "PARA0009",
+        "PARA0010",
+        "PARA0012",
+        "PARA0019",
+        "PARA0020",
+        "PARA0021",
+        "PARA0028",
+        "PARA0029",
+        "PARA0031",
+        "PARA0041",
+        "PARA0042",
+        "PARA0043",
+        "PARA0044",
+        "FIG0004",
+        "CAPT0004",
+        "FIG0005",
+        "CAPT0005",
+        "PARA0047",
+        "PARA0048",
+        "PARA0051",
+        "PARA0062",
+        "PARA0067",
+        "PARA0068"
+      ]
+    },
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "PARA0004",
+        "PARA0007",
+        "PARA0009",
+        "PARA0012",
+        "PARA0020",
+        "PARA0043",
+        "PARA0044",
+        "PARA0047",
+        "PARA0048",
+        "PARA0051",
+        "PARA0058",
+        "PARA0067",
+        "PARA0082",
+        "PARA0083",
+        "PARA0097",
+        "PARA0099",
+        "PARA0105",
+        "PARA0107",
+        "PARA0108",
+        "PARA0109",
+        "LIST0007"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.8657,
+      "rule_score": 0.6364,
+      "embedding_score": 0.8455,
+      "chunk_vote": 0.4258
+    },
+    {
+      "id": "2.1",
+      "score": 0.7776,
+      "rule_score": 0.6,
+      "embedding_score": 0.8041,
+      "chunk_vote": 0.1789
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.7271,
+      "rule_score": 0.5556,
+      "embedding_score": 0.804,
+      "chunk_vote": 0.0484
+    },
+    {
+      "id": "2.2",
+      "score": 0.6924,
+      "rule_score": 0.5,
+      "embedding_score": 0.8098,
+      "chunk_vote": 0.0151
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.6484,
+      "rule_score": 0.4286,
+      "embedding_score": 0.8033,
+      "chunk_vote": 0.006
+    },
+    {
+      "id": "1",
+      "score": 0.3886,
+      "rule_score": 0.0,
+      "embedding_score": 0.787,
+      "chunk_vote": 0.1723
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3578,
+      "rule_score": 0.0,
+      "embedding_score": 0.7951,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3578,
+      "rule_score": 0.0,
+      "embedding_score": 0.7951,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.1",
+      "score": 0.2939,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0947
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.2408,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0255
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Yeni Avusturya Tünelcilik Metodu'nun (NATM) teorik temellerini, konverjans-kısıtlama yöntemini ve inşaat dinamiklerini detaylıca ele aldığı için 'Tünel Yapım Yöntemleri' (2.2) ana bölümüne aittir. İçerikteki destek elemanları ve kayaç zemin etkileşimi açıklamaları, ikincil olarak 'Tünel Yapı/Destek Elemanları' (2.1) ve 'Kayaç Zeminde Açılan Tüneller' (2.2.1) bölümlerini destekler.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.8657 gap=0.088 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

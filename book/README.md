@@ -53,12 +53,15 @@ BOOK INPUT VALIDATION: PASS
 
 ## Pipeline'da kullanım
 
-İleride her `section_id` için ilgili 50 soru JSONL'den seçilebilir. Aynı bankanın iki kalite kapısında kullanılması önerilir:
+Her `section_id` için ilgili 50 soru JSONL'den seçilir. Aynı banka iki kalite kapısında kullanılır:
 
 1. **Pre-writing evidence audit:** Corpus bu soruyu cevaplayacak yeterli kanıt içeriyor mu?
 2. **Post-writing chapter audit:** Yazılan bölüm bu soruya gerçekten cevap veriyor mu?
 
-Tam 2.950 soruluk LLM değerlendirmesi bu paket oluşturulurken çalıştırılmamıştır.
+Tam 2.950 soruluk yerel Qwen yazım-öncesi değerlendirmesi tamamlanmıştır. Aktif audit
+`audit/book/prewriting_evidence_audit.json` dosyasındadır. Bunun seçtiği canonical kanıtlar
+59 içerik-adresli bölüm paketi ve iddia kaydına dönüştürülmüştür; aktif manifest
+`book/production/preparation/manifest.json` dosyasındadır.
 
 ## Üretim sözleşmesi
 

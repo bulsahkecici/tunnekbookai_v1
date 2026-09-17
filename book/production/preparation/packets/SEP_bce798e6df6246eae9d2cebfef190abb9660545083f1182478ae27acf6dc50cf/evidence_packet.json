@@ -1,0 +1,582 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_3a7be0e84823a0a0f5c8040faa0c1eae2bf264a35c13f82d91678a5076c64362",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 10,
+    "SUPPORTED": 0,
+    "UNSUPPORTED": 40
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_bce798e6df6246eae9d2cebfef190abb9660545083f1182478ae27acf6dc50cf",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_0969d96e24b5cf9c1d4f96479a49568f123aa121b6dbdef83d1aa01284205cd7",
+        "CLM_b617c9360b477b9b10eafae2015a2faf09f48e57a14abf50eaf94916c050323e"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları hangi kurumsal görev ve sorumlulukları kapsar?",
+      "question_id": "2.4.3-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f2b5b5f5db4d082bc155cc4f4eaa6468e194fdcc81644678d3418bd8abd01c8a"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları içinde merkezi teşkilatın rolü nedir?",
+      "question_id": "2.4.3-Q02",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b617c9360b477b9b10eafae2015a2faf09f48e57a14abf50eaf94916c050323e",
+        "CLM_eb2ca332468796f44ae38aaf6090aa6de2b0043ac3ab7dae791b62fdf94748a0"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları içinde bölge teşkilatının rolü nedir?",
+      "question_id": "2.4.3-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları içinde saha birimlerinin rolü nedir?",
+      "question_id": "2.4.3-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b617c9360b477b9b10eafae2015a2faf09f48e57a14abf50eaf94916c050323e",
+        "CLM_0969d96e24b5cf9c1d4f96479a49568f123aa121b6dbdef83d1aa01284205cd7"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için görev, yetki ve sorumluluklar nasıl ayrıştırılmalıdır?",
+      "question_id": "2.4.3-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için karar alma zinciri nasıl çalışır?",
+      "question_id": "2.4.3-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için teknik onay süreçleri nasıl yürütülür?",
+      "question_id": "2.4.3-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için proje kontrol süreçleri nasıl yürütülür?",
+      "question_id": "2.4.3-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için bakım ve işletme planları kim tarafından hazırlanır ve onaylanır?",
+      "question_id": "2.4.3-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için bütçe hazırlama ve kaynak tahsisi nasıl yapılır?",
+      "question_id": "2.4.3-Q10",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için personel planlaması nasıl yapılır?",
+      "question_id": "2.4.3-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için ihtiyaç duyulan uzmanlık alanları nelerdir?",
+      "question_id": "2.4.3-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için vardiya ve nöbet organizasyonu nasıl planlanır?",
+      "question_id": "2.4.3-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için eğitim ve yetkinlik gereklilikleri nelerdir?",
+      "question_id": "2.4.3-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için iş sağlığı ve güvenliği sorumlulukları nasıl dağıtılır?",
+      "question_id": "2.4.3-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için acil durum sorumlulukları nasıl dağıtılır?",
+      "question_id": "2.4.3-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları ile trafik yönetim birimleri nasıl koordinasyon kurar?",
+      "question_id": "2.4.3-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları ile emniyet, itfaiye, sağlık ve AFAD gibi kurumlar nasıl koordinasyon kurar?",
+      "question_id": "2.4.3-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları ile yüklenici firmalar arasındaki sorumluluk sınırları nasıl belirlenir?",
+      "question_id": "2.4.3-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları ile danışmanlık ve kontrol teşkilatı arasındaki ilişki nasıl yürütülür?",
+      "question_id": "2.4.3-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için standart işletme prosedürleri hangi konuları kapsamalıdır?",
+      "question_id": "2.4.3-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için bakım prosedürleri hangi konuları kapsamalıdır?",
+      "question_id": "2.4.3-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için arıza ve olay bildirim prosedürleri nasıl olmalıdır?",
+      "question_id": "2.4.3-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için kayıt ve dokümantasyon sistemi nasıl kurulmalıdır?",
+      "question_id": "2.4.3-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için varlık envanteri nasıl tutulmalıdır?",
+      "question_id": "2.4.3-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_56804b8e31b13a7ead9f4a9b6e84f51eeee69d3d57413f62fd2228f710b7b108",
+        "CLM_ff55719cdca112de96e4c957343af0322791a98dc7b2df803fbfc0ee3a19bca1"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için bakım yönetim sistemi veya CMMS nasıl kullanılabilir?",
+      "question_id": "2.4.3-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için performans göstergeleri hangi düzeylerde raporlanmalıdır?",
+      "question_id": "2.4.3-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için enerji tüketimi nasıl izlenip raporlanmalıdır?",
+      "question_id": "2.4.3-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_948545f38ee7c4f2dc229cd5e01d1055e3f53b7f5c1f91e5a69e88ee4db75dcf",
+        "CLM_e4d3d6fe4ec4fdc8ae319dfe28cbf7568592ff8c5bc464c5e265f99b59a83809"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için bakım maliyetleri nasıl izlenip raporlanmalıdır?",
+      "question_id": "2.4.3-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için arıza süreleri ve kullanılabilirlik nasıl izlenmelidir?",
+      "question_id": "2.4.3-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için güvenlik performansı nasıl izlenmelidir?",
+      "question_id": "2.4.3-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için denetim mekanizmaları nelerdir?",
+      "question_id": "2.4.3-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için iç denetim ve dış denetim rolleri nasıl ayrılır?",
+      "question_id": "2.4.3-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için mevzuat ve teknik şartname uyumu nasıl doğrulanır?",
+      "question_id": "2.4.3-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için kalite güvence sistemi nasıl kurulabilir?",
+      "question_id": "2.4.3-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için risk yönetimi nasıl kurumsallaştırılabilir?",
+      "question_id": "2.4.3-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7ce3d6fc8c391d6e899aff49f0c84e851d83affac54fe18ad51033fc4cf9c252"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için acil durum tatbikatları ne sıklıkla ve nasıl yapılmalıdır?",
+      "question_id": "2.4.3-Q37",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için yedek ekipman ve kritik stok politikası nasıl belirlenir?",
+      "question_id": "2.4.3-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için satın alma ve tedarik süreçlerinde hangi teknik kriterler kullanılmalıdır?",
+      "question_id": "2.4.3-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için veri paylaşımı ve bilgi güvenliği nasıl sağlanmalıdır?",
+      "question_id": "2.4.3-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5a344502e23677623da218d3f984931c966e5d0b9e34d270d1c555aeff91cc6e"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için uzaktan izleme ve merkezi kontrol hangi faydaları sağlar?",
+      "question_id": "2.4.3-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için dijitalleşme ve otomasyon hangi süreçleri iyileştirebilir?",
+      "question_id": "2.4.3-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için farklı tüneller arasında kaynak paylaşımı nasıl planlanabilir?",
+      "question_id": "2.4.3-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için hizmet seviyesi hedefleri nasıl tanımlanabilir?",
+      "question_id": "2.4.3-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için bakım öncelikleri hangi kriterlerle sıralanabilir?",
+      "question_id": "2.4.3-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için bütçe kısıtında hangi optimizasyon yaklaşımı uygulanabilir?",
+      "question_id": "2.4.3-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için ulusal uygulamalar uluslararası iyi uygulamalarla nasıl karşılaştırılabilir?",
+      "question_id": "2.4.3-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b617c9360b477b9b10eafae2015a2faf09f48e57a14abf50eaf94916c050323e",
+        "CLM_882083d6f249fbc0b7af763b9f406866d5fce4d5b4b0e58d4822ed4d03b65a41"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için örnek bir organizasyon şeması nasıl kurulmalıdır?",
+      "question_id": "2.4.3-Q48",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0969d96e24b5cf9c1d4f96479a49568f123aa121b6dbdef83d1aa01284205cd7",
+        "CLM_b617c9360b477b9b10eafae2015a2faf09f48e57a14abf50eaf94916c050323e",
+        "CLM_3693ce2d1a7fedef69f4e8635415431d1a273bd769c4f4a62d1a8e3af5730df5"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları için örnek bir sorumluluk matrisi hangi görevleri içermelidir?",
+      "question_id": "2.4.3-Q49",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları bölümünün sonunda okuyucu kurumsal işleyişi uçtan uca anlayabiliyor mu?",
+      "question_id": "2.4.3-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "2.4.3",
+  "section_title": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_0969d96e24b5cf9c1d4f96479a49568f123aa121b6dbdef83d1aa01284205cd7",
+      "CLM_3693ce2d1a7fedef69f4e8635415431d1a273bd769c4f4a62d1a8e3af5730df5",
+      "CLM_56804b8e31b13a7ead9f4a9b6e84f51eeee69d3d57413f62fd2228f710b7b108",
+      "CLM_5a344502e23677623da218d3f984931c966e5d0b9e34d270d1c555aeff91cc6e",
+      "CLM_7ce3d6fc8c391d6e899aff49f0c84e851d83affac54fe18ad51033fc4cf9c252",
+      "CLM_882083d6f249fbc0b7af763b9f406866d5fce4d5b4b0e58d4822ed4d03b65a41",
+      "CLM_948545f38ee7c4f2dc229cd5e01d1055e3f53b7f5c1f91e5a69e88ee4db75dcf",
+      "CLM_b617c9360b477b9b10eafae2015a2faf09f48e57a14abf50eaf94916c050323e",
+      "CLM_e4d3d6fe4ec4fdc8ae319dfe28cbf7568592ff8c5bc464c5e265f99b59a83809",
+      "CLM_eb2ca332468796f44ae38aaf6090aa6de2b0043ac3ab7dae791b62fdf94748a0",
+      "CLM_f2b5b5f5db4d082bc155cc4f4eaa6468e194fdcc81644678d3418bd8abd01c8a",
+      "CLM_ff55719cdca112de96e4c957343af0322791a98dc7b2df803fbfc0ee3a19bca1"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "2.4.3-Q01",
+      "2.4.3-Q02",
+      "2.4.3-Q03",
+      "2.4.3-Q05",
+      "2.4.3-Q26",
+      "2.4.3-Q29",
+      "2.4.3-Q37",
+      "2.4.3-Q41",
+      "2.4.3-Q48",
+      "2.4.3-Q49"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "2.4.3-Q04",
+      "2.4.3-Q06",
+      "2.4.3-Q07",
+      "2.4.3-Q08",
+      "2.4.3-Q09",
+      "2.4.3-Q10",
+      "2.4.3-Q11",
+      "2.4.3-Q12",
+      "2.4.3-Q13",
+      "2.4.3-Q14",
+      "2.4.3-Q15",
+      "2.4.3-Q16",
+      "2.4.3-Q17",
+      "2.4.3-Q18",
+      "2.4.3-Q19",
+      "2.4.3-Q20",
+      "2.4.3-Q21",
+      "2.4.3-Q22",
+      "2.4.3-Q23",
+      "2.4.3-Q24",
+      "2.4.3-Q25",
+      "2.4.3-Q27",
+      "2.4.3-Q28",
+      "2.4.3-Q30",
+      "2.4.3-Q31",
+      "2.4.3-Q32",
+      "2.4.3-Q33",
+      "2.4.3-Q34",
+      "2.4.3-Q35",
+      "2.4.3-Q36",
+      "2.4.3-Q38",
+      "2.4.3-Q39",
+      "2.4.3-Q40",
+      "2.4.3-Q42",
+      "2.4.3-Q43",
+      "2.4.3-Q44",
+      "2.4.3-Q45",
+      "2.4.3-Q46",
+      "2.4.3-Q47",
+      "2.4.3-Q50"
+    ]
+  }
+}

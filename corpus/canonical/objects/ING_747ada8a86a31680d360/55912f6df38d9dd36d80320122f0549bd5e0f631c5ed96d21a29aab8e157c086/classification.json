@@ -1,0 +1,259 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.5.1",
+    "5.6",
+    "5.9",
+    "5.9.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0032",
+        "LIST0033",
+        "LIST0034",
+        "LIST0035",
+        "LIST0036",
+        "LIST0037",
+        "LIST0038",
+        "LIST0039",
+        "LIST0042",
+        "LIST0045",
+        "LIST0047",
+        "HEAD0005",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0010",
+        "PARA0012",
+        "PARA0014",
+        "PARA0015"
+      ]
+    },
+    {
+      "section_id": "5.5.1",
+      "section_title": "Yönetim ve İşletme Maliyetleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0009",
+        "LIST0013",
+        "LIST0014",
+        "LIST0016",
+        "LIST0022",
+        "LIST0023",
+        "LIST0032",
+        "LIST0033",
+        "LIST0034",
+        "LIST0035",
+        "LIST0036",
+        "LIST0037",
+        "LIST0038",
+        "LIST0039",
+        "LIST0042",
+        "HEAD0005",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0010",
+        "PARA0012",
+        "PARA0014"
+      ]
+    },
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "LIST0004",
+        "LIST0007",
+        "LIST0009",
+        "LIST0013",
+        "LIST0014",
+        "LIST0016",
+        "LIST0034",
+        "LIST0035",
+        "LIST0041",
+        "LIST0046",
+        "LIST0050",
+        "PARA0003",
+        "PARA0004",
+        "PARA0006",
+        "PARA0010",
+        "PARA0011",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "PARA0017",
+        "PARA0018",
+        "PARA0019",
+        "PARA0020"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0032",
+        "LIST0033",
+        "LIST0034",
+        "LIST0035",
+        "LIST0036",
+        "LIST0037",
+        "LIST0038",
+        "LIST0039",
+        "LIST0042",
+        "LIST0045",
+        "LIST0047",
+        "HEAD0005",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0010",
+        "PARA0012",
+        "PARA0014",
+        "PARA0015"
+      ]
+    },
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0032",
+        "LIST0033",
+        "LIST0034",
+        "LIST0035",
+        "LIST0036",
+        "LIST0037",
+        "LIST0038",
+        "LIST0039",
+        "LIST0042",
+        "LIST0045",
+        "LIST0047",
+        "HEAD0005",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0010",
+        "PARA0012",
+        "PARA0014",
+        "PARA0015"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5",
+      "score": 0.7995,
+      "rule_score": 0.6,
+      "embedding_score": 0.8229,
+      "chunk_vote": 0.2459
+    },
+    {
+      "id": "5.9",
+      "score": 0.7345,
+      "rule_score": 0.5556,
+      "embedding_score": 0.823,
+      "chunk_vote": 0.0426
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.73,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8195,
+      "chunk_vote": 0.0284
+    },
+    {
+      "id": "5.4",
+      "score": 0.6958,
+      "rule_score": 0.5,
+      "embedding_score": 0.824,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.4465,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4823
+    },
+    {
+      "id": "5.5.1",
+      "score": 0.3815,
+      "rule_score": 0.0,
+      "embedding_score": 0.8183,
+      "chunk_vote": 0.0662
+    },
+    {
+      "id": "5.3",
+      "score": 0.3704,
+      "rule_score": 0.0,
+      "embedding_score": 0.8231,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.369,
+      "rule_score": 0.0,
+      "embedding_score": 0.8201,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3689,
+      "rule_score": 0.0,
+      "embedding_score": 0.8197,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.2882,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0662
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC'ın 'Operation' (İşletme) bölümüne aittir ve operasyonel görevler, paydaş işbirliği, organizasyon ve karmaşık tünel işletme prosedürlerini detaylandırır. Bu içerik, aday listesindeki 'Tünel Bakım-Onarım ve İşletme' (5.4) başlığıyla en doğrudan örtüşmektedir. Metindeki 'Operational costs' ve 'Staff-related issues' referansları, ikincil olarak 'Yönetim ve İşletme Maliyetleri' (5.5.1) ve ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:8",
+    "embeddings:8",
+    "top=5:0.7995 gap=0.065 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

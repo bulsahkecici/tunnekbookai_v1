@@ -1,0 +1,135 @@
+{
+  "final_primary_section": "5.7",
+  "final_secondary_sections": [
+    "5.4.2",
+    "6.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0057",
+        "PARA0003",
+        "PARA0004",
+        "LIST0063",
+        "LIST0065"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0057",
+        "PARA0003",
+        "PARA0004",
+        "LIST0063",
+        "LIST0065"
+      ]
+    },
+    {
+      "section_id": "6.1",
+      "section_title": "Çalışmanın Amacı, Kapsamı, Yöntem ve Kullanılan Verileri",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0057",
+        "PARA0006"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.7",
+      "score": 0.695,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7385,
+      "chunk_vote": 0.3846
+    },
+    {
+      "id": "6.1",
+      "score": 0.6234,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7503,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.5703,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7489,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3351,
+      "rule_score": 0.0,
+      "embedding_score": 0.7447,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3341,
+      "rule_score": 0.0,
+      "embedding_score": 0.7424,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3336,
+      "rule_score": 0.0,
+      "embedding_score": 0.7414,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3333,
+      "rule_score": 0.0,
+      "embedding_score": 0.7407,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3329,
+      "rule_score": 0.0,
+      "embedding_score": 0.7397,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2526,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3462
+    },
+    {
+      "id": "1.1",
+      "score": 0.2218,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1923
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel aydınlatmasında DALI sisteminin kullanımını ve karşılaştırmalı maliyet analizini ele almaktadır. Bu içerik, tüneldeki enerji tüketimi ve verimli işletme (5.7) ile doğrudan ilişkilidir. Ayrıca, DALI'nin bir elektrik-elektronik kontrol sistemi olması nedeniyle bu sistemlerin bakımı (5.4.2) ile de ikincil bir bağlantısı vardır.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:3",
+    "embeddings:8",
+    "top=5.7:0.695 gap=0.072 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

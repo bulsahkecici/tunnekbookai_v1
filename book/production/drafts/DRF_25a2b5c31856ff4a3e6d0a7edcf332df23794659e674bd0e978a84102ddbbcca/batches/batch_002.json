@@ -1,0 +1,296 @@
+{
+  "batch_number": 2,
+  "claim_ids": [
+    "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+    "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+    "CLM_17799c8bbf606ac08499b6410e8c69afa0a258152daf765bf983deed9a970430",
+    "CLM_98e7a9137aee021e887faa551b79422d03a1aa4beccf7c695132cd721499b8a2",
+    "CLM_fba3b7efcccf194671121f7739e84d167d205659c50b92f00f6379a60cf3d468",
+    "CLM_e42a923dd9582f0e99d47ddc84ed69e19194e36f5e621178b790ed4f912d92e6",
+    "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9",
+    "CLM_c9c0d3b54e2e0975677186ca2e95929b2aecd627555c00aa55382303096eb9ed",
+    "CLM_3c9d15c26d90d9dd30120b6ee2cff2141866ad7fb212bc23e9d0cfab380f63b8",
+    "CLM_3229b57ba24d2f281223fc46f7b900ab716e3b62090143d5eb646f7cccda9b65",
+    "CLM_9b8efd965e1ed27fbb36eecb1ac161214241ff315dfa9e7e3c86b9578d3c8d93",
+    "CLM_01119ca80f88d3006624e5c897248cecb71c688a739588d7ed33b5f23d55764e",
+    "CLM_b253dd6a50e834424c942dab576527143b967bec74665a1481638c0c9f52e9ac",
+    "CLM_29980a953a06a22010695c1cc7df9ad9997d56e894fb9a7eac44bc49250b5011",
+    "CLM_81e8f9b19ec34da8a0fee9f2ba8c3a3f43d7fb22d5a6e195f45a5cca8ac222db",
+    "CLM_341458aaac0a4c2e0a2edfa16344629e6ff12aa7603d43121f8c42a5ec150bed"
+  ],
+  "paragraphs": [
+    [
+      {
+        "claim_ids": [
+          "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+          "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e"
+        ],
+        "question_ids": [
+          "1.1-Q10"
+        ],
+        "text": "Tünelin tanımı değerlendirilirken, yeraltı kaya yapısının yerkabuğu içinde açılan boşluğu çevreleyen ana kayadan oluştuğu ve mühendislik açısından yeterli ve güvenli taşıyıcı sistemler oluşturduğu dikkate alınır."
+      },
+      {
+        "claim_ids": [
+          "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+          "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e"
+        ],
+        "question_ids": [
+          "1.1-Q10"
+        ],
+        "text": "Bu yapı, kendisini taşıyan veya olabildiğince kendisini taşımaya zorlanan doğal ortamda çeşitli destekleme, sağlamlaştırma ve iyileştirme yöntemleriyle taşıyıcı kabuk sisteminin oluşturulmasını gerektirir."
+      },
+      {
+        "claim_ids": [
+          "CLM_81e8f9b19ec34da8a0fee9f2ba8c3a3f43d7fb22d5a6e195f45a5cca8ac222db"
+        ],
+        "question_ids": [
+          "1.1-Q10"
+        ],
+        "text": "Tünelin fiziksel özellikleri, çevre kayaçlarla birlikte çalışan kalıcı nitelikteki bütünleşik bir geoteknolojik sistem ve yer içi geçiş yapısı olarak ele alınır."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_17799c8bbf606ac08499b6410e8c69afa0a258152daf765bf983deed9a970430"
+        ],
+        "question_ids": [
+          "1.1-Q11"
+        ],
+        "text": "Tünelin tanımı açısından geometrik özellikler, kesit şeklinin yarıçap ve açı değerleri gibi parametrelerle tanımlanması üzerinden değerlendirilir."
+      },
+      {
+        "claim_ids": [
+          "CLM_17799c8bbf606ac08499b6410e8c69afa0a258152daf765bf983deed9a970430"
+        ],
+        "question_ids": [
+          "1.1-Q11"
+        ],
+        "text": "Örneğin yumurta kesitli bir tünelin geometrisi, farklı yarıçap ve açı kombinasyonları kullanılarak belirlenir."
+      },
+      {
+        "claim_ids": [
+          "CLM_fba3b7efcccf194671121f7739e84d167d205659c50b92f00f6379a60cf3d468"
+        ],
+        "question_ids": [
+          "1.1-Q11"
+        ],
+        "text": "Tünel güzergahı seçim çalışmalarında bağlantı yolu geometrileri ve olası portal yerleri gibi geometrik unsurlar tasarımın temel girdileri arasında yer alır."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_98e7a9137aee021e887faa551b79422d03a1aa4beccf7c695132cd721499b8a2"
+        ],
+        "question_ids": [
+          "1.1-Q12"
+        ],
+        "text": "Tünel inşaatlarında zeminle olan ilişkinin diğer mühendislik yapılarına oranla çok daha önemli olduğu açıktır ve bu nedenle zemin özelliklerinin hassas olarak belirlenmesi gerekmektedir."
+      },
+      {
+        "claim_ids": [
+          "CLM_98e7a9137aee021e887faa551b79422d03a1aa4beccf7c695132cd721499b8a2"
+        ],
+        "question_ids": [
+          "1.1-Q12"
+        ],
+        "text": "Kazıya başlanmasıyla kazılan zeminin doğal dengesi bozulmakta ve yeni bir denge durumu oluşabilmesi için ortamdaki gerilme dağılımı değişmektedir."
+      },
+      {
+        "claim_ids": [
+          "CLM_3c9d15c26d90d9dd30120b6ee2cff2141866ad7fb212bc23e9d0cfab380f63b8"
+        ],
+        "question_ids": [
+          "1.1-Q12"
+        ],
+        "text": "Jeolojik koşullar, tünel projesinin fizibilitesi için belirleyici olan ve yapısal stabilite üzerinde büyük rol oynayan temel faktörlerdir."
+      },
+      {
+        "claim_ids": [
+          "CLM_fba3b7efcccf194671121f7739e84d167d205659c50b92f00f6379a60cf3d468"
+        ],
+        "question_ids": [
+          "1.1-Q12"
+        ],
+        "text": "Tünel güzergahı seçiminde jeolojik-jeoteknik koşullar ve riskler, mühendislik jeolojisi haritalama, sondajlar ve laboratuvar çalışmaları gibi araştırmalarla detaylıca incelenir."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_e42a923dd9582f0e99d47ddc84ed69e19194e36f5e621178b790ed4f912d92e6"
+        ],
+        "question_ids": [
+          "1.1-Q13"
+        ],
+        "text": "Karayolu tünelleri yapısal özellikleri nedeniyle yol güvenliğinin ön planda olduğu yol kesimleridir."
+      },
+      {
+        "claim_ids": [
+          "CLM_e42a923dd9582f0e99d47ddc84ed69e19194e36f5e621178b790ed4f912d92e6"
+        ],
+        "question_ids": [
+          "1.1-Q13"
+        ],
+        "text": "Yeni inşa edilen tünellerin işletmesini kolaylaştıran ve güvenliklerini artıran yeni teknolojik sistemler geliştirilmiştir."
+      },
+      {
+        "claim_ids": [
+          "CLM_e42a923dd9582f0e99d47ddc84ed69e19194e36f5e621178b790ed4f912d92e6"
+        ],
+        "question_ids": [
+          "1.1-Q13"
+        ],
+        "text": "Buna rağmen bazı tünellerde güvenlik ve sürücü davranışları açısından hâlâ farklı problemler mevcuttur ve bu problemler detaylı olarak incelenmiştir."
+      },
+      {
+        "claim_ids": [
+          "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+        ],
+        "question_ids": [
+          "1.1-Q13"
+        ],
+        "text": "Risk analizi, gereken durumlarda işlevsel olarak tünel işletmesinden sorumlu yönetim biriminden bağımsız bir kuruluş tarafından yürütülür."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_fba3b7efcccf194671121f7739e84d167d205659c50b92f00f6379a60cf3d468"
+        ],
+        "question_ids": [
+          "1.1-Q14"
+        ],
+        "text": "Tünel güzergahı seçim çalışmalarında yapım ve işletme koşulları, jeolojik-jeoteknik koşullar ve iklimsel parametrelerle birlikte değerlendirilen temel kriterlerdendir."
+      },
+      {
+        "claim_ids": [
+          "CLM_c9c0d3b54e2e0975677186ca2e95929b2aecd627555c00aa55382303096eb9ed"
+        ],
+        "question_ids": [
+          "1.1-Q14"
+        ],
+        "text": "Yüksek yarma kesitlerde, birimlerin jeomekanik özelliklerine bağlı olarak imalat ve işletme koşullarında oluşabilecek stabilite sorunları potansiyeli, tünel inşasının gerekçeleri arasında sayılır."
+      },
+      {
+        "claim_ids": [
+          "CLM_9b8efd965e1ed27fbb36eecb1ac161214241ff315dfa9e7e3c86b9578d3c8d93"
+        ],
+        "question_ids": [
+          "1.1-Q14"
+        ],
+        "text": "İşletme ve bakım faaliyetlerinin profesyonel ve yapılandırılmış planlanması, yol kullanıcılarının güvenliği ve operasyonel ekonomi gibi taleplerin karşılanması için gereklidir."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_3229b57ba24d2f281223fc46f7b900ab716e3b62090143d5eb646f7cccda9b65",
+          "CLM_01119ca80f88d3006624e5c897248cecb71c688a739588d7ed33b5f23d55764e"
+        ],
+        "question_ids": [
+          "1.1-Q15"
+        ],
+        "text": "Tünel işletme yöneticisi, koruyucu ve düzeltici bakım faaliyetleri için uygun bakım programlarını hazırlamalıdır."
+      },
+      {
+        "claim_ids": [
+          "CLM_3229b57ba24d2f281223fc46f7b900ab716e3b62090143d5eb646f7cccda9b65",
+          "CLM_01119ca80f88d3006624e5c897248cecb71c688a739588d7ed33b5f23d55764e"
+        ],
+        "question_ids": [
+          "1.1-Q15"
+        ],
+        "text": "Bu programlar hazırlanırken maliyet ve güvenlik arasında denge kurulması esastır."
+      },
+      {
+        "claim_ids": [
+          "CLM_9b8efd965e1ed27fbb36eecb1ac161214241ff315dfa9e7e3c86b9578d3c8d93"
+        ],
+        "question_ids": [
+          "1.1-Q15"
+        ],
+        "text": "Operasyonel bakımın genel amacı, çevresel olumsuz etki yaratmadan ve optimal harcama düzeyiyle belirli bir güvenlik seviyesini sürdürmektir."
+      },
+      {
+        "claim_ids": [
+          "CLM_9b8efd965e1ed27fbb36eecb1ac161214241ff315dfa9e7e3c86b9578d3c8d93"
+        ],
+        "question_ids": [
+          "1.1-Q15"
+        ],
+        "text": "Bakım için ayrılan fon yetersiz kalırsa, hem hizmet seviyeleri hem de güvenlik üzerinde olumsuz bir etki oluşacaktır."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_b253dd6a50e834424c942dab576527143b967bec74665a1481638c0c9f52e9ac"
+        ],
+        "question_ids": [
+          "1.1-Q16"
+        ],
+        "text": "Bir proje için seçilen tünel yapım yöntemi, çeşitli faktörlere bağlıdır."
+      },
+      {
+        "claim_ids": [
+          "CLM_29980a953a06a22010695c1cc7df9ad9997d56e894fb9a7eac44bc49250b5011"
+        ],
+        "question_ids": [
+          "1.1-Q16"
+        ],
+        "text": "Yapım yönteminin seçimi, zemin türü, çevresel etki ve bakım maliyetleri gibi unsurları dikkate almalıdır."
+      },
+      {
+        "claim_ids": [
+          "CLM_b253dd6a50e834424c942dab576527143b967bec74665a1481638c0c9f52e9ac"
+        ],
+        "question_ids": [
+          "1.1-Q16"
+        ],
+        "text": "Tünel inşaatı, öngörülemeyen zemin koşulları, çevresel gereksinimler ve jeolojik faktörler nedeniyle zorlu bir görev olarak kabul edilir."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_01119ca80f88d3006624e5c897248cecb71c688a739588d7ed33b5f23d55764e"
+        ],
+        "question_ids": [
+          "1.1-Q17"
+        ],
+        "text": "Tünel uzunluğu, tünelin tanımı ve sınıflandırılması açısından önemli bir parametre olarak ele alınabilir."
+      },
+      {
+        "claim_ids": [
+          "CLM_01119ca80f88d3006624e5c897248cecb71c688a739588d7ed33b5f23d55764e"
+        ],
+        "question_ids": [
+          "1.1-Q17"
+        ],
+        "text": "Örneğin 3000 metreden uzun tüneller, bakım yönetim sistemi açısından özel bir kategori oluşturur."
+      },
+      {
+        "claim_ids": [
+          "CLM_341458aaac0a4c2e0a2edfa16344629e6ff12aa7603d43121f8c42a5ec150bed"
+        ],
+        "question_ids": [
+          "1.1-Q17"
+        ],
+        "text": "Tarihsel gelişim tablolarında tünellerin uzunlukları, çapları ve yapım yıllarıyla birlikte listelenerek fiziksel boyutları tanımlanır."
+      }
+    ]
+  ],
+  "question_ids": [
+    "1.1-Q10",
+    "1.1-Q11",
+    "1.1-Q12",
+    "1.1-Q13",
+    "1.1-Q14",
+    "1.1-Q15",
+    "1.1-Q16",
+    "1.1-Q17"
+  ]
+}

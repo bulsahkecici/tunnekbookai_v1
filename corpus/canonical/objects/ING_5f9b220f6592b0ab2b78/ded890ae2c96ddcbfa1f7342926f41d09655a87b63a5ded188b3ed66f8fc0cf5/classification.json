@@ -1,0 +1,143 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "2.2",
+    "2.4.1",
+    "5.9.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0026",
+        "PARA0027",
+        "PARA0031",
+        "PARA0032",
+        "LIST0007",
+        "LIST0009",
+        "LIST0019",
+        "LIST0020"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0027",
+        "PARA0031",
+        "PARA0032"
+      ]
+    },
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": [
+        "PARA0026",
+        "LIST0008"
+      ]
+    },
+    {
+      "section_id": "5.9.1",
+      "section_title": "Ulusal Literatür Taraması",
+      "supporting_elements": [
+        "HEAD0002",
+        "LIST0010",
+        "LIST0014"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7459,
+      "rule_score": 0.5,
+      "embedding_score": 0.7849,
+      "chunk_vote": 0.3383
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.6488,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7721,
+      "chunk_vote": 0.0781
+    },
+    {
+      "id": "2.2",
+      "score": 0.6001,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7687,
+      "chunk_vote": 0.1041
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3545,
+      "rule_score": 0.0,
+      "embedding_score": 0.7878,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3532,
+      "rule_score": 0.0,
+      "embedding_score": 0.7849,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3491,
+      "rule_score": 0.0,
+      "embedding_score": 0.7758,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3474,
+      "rule_score": 0.0,
+      "embedding_score": 0.7719,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3463,
+      "rule_score": 0.0,
+      "embedding_score": 0.7696,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.2692,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1673
+    },
+    {
+      "id": "1",
+      "score": 0.2041,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1041
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Mersin-Anamur T3 Tüneli'nde karşılaşılan karstik boşlukların iyileştirilme yöntemlerini (hafif köpük beton uygulaması) ve tünelin jeolojik/jeoteknik özelliklerini detaylıca ele almaktadır. Bu içerik, tünel yapım teknikleri, destekleme sistemleri ve zemin incelemeleri ile doğrudan ilişkili olduğundan 'Tünel Ana Elemanları, Ana Özellikleri ve Yapım Teknikleri' (Bölüm 2) birincil, 'Tünel Yapım",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:17",
+    "embeddings:8",
+    "top=2:0.7459 gap=0.097 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

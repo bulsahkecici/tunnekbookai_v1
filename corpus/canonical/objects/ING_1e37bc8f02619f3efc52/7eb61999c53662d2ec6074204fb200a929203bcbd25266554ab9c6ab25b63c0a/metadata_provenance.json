@@ -1,0 +1,86 @@
+{
+  "document_id": "ING_1e37bc8f02619f3efc52",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Kop Tüneli Yapım Çalışmaları ve Metodolojisi",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2017-08-07",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "explicit date literal in the document: 07.08.2017"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: research article"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "cost",
+        "forepoling",
+        "maintenance",
+        "natm",
+        "operations",
+        "safety",
+        "standards"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; forepoling:süren; safety:safety; operations:işletme; maintenance:bakım; standards:standart; cost:maliyet; accident:kaza; tunnel_general:tünel"
+    }
+  ]
+}

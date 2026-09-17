@@ -1,0 +1,192 @@
+{
+  "final_primary_section": "2.2.2",
+  "final_secondary_sections": [
+    "2.4.1.2",
+    "1",
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0004",
+        "PARA0006",
+        "PARA0011",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0016",
+        "PARA0021",
+        "TABLE0001",
+        "CAPT0003",
+        "PARA0025",
+        "PARA0026",
+        "PARA0027",
+        "PARA0029",
+        "PARA0030",
+        "PARA0031",
+        "FIG0007",
+        "CAPT0008",
+        "PARA0033",
+        "PARA0051",
+        "PARA0052",
+        "PARA0057",
+        "PARA0058",
+        "PARA0059",
+        "PARA0069"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0017",
+        "HEAD0005",
+        "PARA0025",
+        "PARA0026",
+        "PARA0089",
+        "PARA0091"
+      ]
+    },
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0011",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "PARA0017",
+        "PARA0021",
+        "TABLE0001",
+        "CAPT0003",
+        "PARA0022",
+        "PARA0023",
+        "PARA0025",
+        "PARA0026",
+        "PARA0027",
+        "PARA0029",
+        "PARA0030",
+        "PARA0031",
+        "FIG0007",
+        "CAPT0008"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0004",
+        "PARA0033",
+        "PARA0052",
+        "PARA0076",
+        "PARA0077",
+        "LIST0008",
+        "PARA0089",
+        "PARA0090",
+        "PARA0091"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2.2",
+      "score": 0.7238,
+      "rule_score": 0.5,
+      "embedding_score": 0.7923,
+      "chunk_vote": 0.2112
+    },
+    {
+      "id": "1",
+      "score": 0.6972,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7792,
+      "chunk_vote": 0.3043
+    },
+    {
+      "id": "2",
+      "score": 0.6393,
+      "rule_score": 0.4286,
+      "embedding_score": 0.781,
+      "chunk_vote": 0.0107
+    },
+    {
+      "id": "6.1",
+      "score": 0.3545,
+      "rule_score": 0.0,
+      "embedding_score": 0.7878,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3525,
+      "rule_score": 0.0,
+      "embedding_score": 0.7833,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3524,
+      "rule_score": 0.0,
+      "embedding_score": 0.78,
+      "chunk_vote": 0.0072
+    },
+    {
+      "id": "5.3",
+      "score": 0.348,
+      "rule_score": 0.0,
+      "embedding_score": 0.7734,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3479,
+      "rule_score": 0.0,
+      "embedding_score": 0.7731,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.2844,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2434
+    },
+    {
+      "id": "5.6",
+      "score": 0.2838,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0442
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, yumuşak zeminde (kil/kumlu kil) gerçekleştirilen bir metro tüneli kalkan kazısı sırasında oluşan ek gerilmeleri ve yüzey oturmalarını incelemektedir. Bu içerik, 'Yumuşak Zeminde Açılan Tüneller' başlığıyla doğrudan örtüşmektedir. Ayrıca, inşaat aşamasındaki izleme ve analiz süreçleri nedeniyle 'İnşaat Esnasındaki Çalışmalar' ikincil bölüm olarak değerlendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2.2:0.7238 gap=0.027 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

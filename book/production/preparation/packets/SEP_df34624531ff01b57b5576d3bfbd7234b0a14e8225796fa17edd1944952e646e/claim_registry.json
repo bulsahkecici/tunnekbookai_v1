@@ -1,0 +1,935 @@
+{
+  "claim_count": 24,
+  "claims": [
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 11,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_2d34a0633f75dda8a904/749290df14dfd6ec851f85e845d6ca9d60304f7fe2c4bc414213a79033866477/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "f1a76d614d21fb9e0c6df05d0b4215a0dcbba4604d725b5dc4c89d3f19511fc0",
+      "chunk_id": "ING_2d34a0633f75dda8a904_CH_9f7c40d49d",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_28982c6906e8b41e95e3f190e3e4bcfaeda72c9b5392a61446b02329a1492db4",
+      "claim_text": "1. Giriş\nTablo: Tablo  1. Türkiye'deki  ulaşım  amaçlı  bazı  tünel projeleri ve tünel uzunlukları\nTablo  1. Türkiye'deki  ulaşım  amaçlı  bazı  tünel projeleri ve tünel uzunlukları\n\nTünel Projesi Adı | Uzunluk (metre) | Tamamlanma Yılı\n\nYeni Zigana Tüneli | 14481 | Devam ediyor\n\nOvit Dağı Tüneli | 14000 | 2018\n\nKop Dağı Tüneli | 6500 | Devam ediyor\n\nSabuncubeli Tüneli | 6480 | 2018\n\nAvrasya Tüneli | 5400 | 2016\n\nIlgaz Dağı Tüneli | 5391 | 2016\n\nCankurtaran Tüneli | 5228 | 2018",
+      "conditions": [],
+      "document_id": "ING_2d34a0633f75dda8a904",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_2d34a0633f75dda8a904:ING_2d34a0633f75dda8a904_CH_9f7c40d49d:pages=2;canonical=corpus/canonical/objects/ING_2d34a0633f75dda8a904/749290df14dfd6ec851f85e845d6ca9d60304f7fe2c4bc414213a79033866477/chunks/embedding_ready.jsonl#L11",
+      "page_end": 2,
+      "page_start": 2,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q27": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "3",
+        "1.4.2"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "2.4.3",
+      "supporting_question_ids": [
+        "1.4.2-Q27"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 3,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_752100774713db4bce1b/ca0e7b71bf4dec5af4e49bb43028d5db5d1141153765b3f34fa4bd34b6053db4/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "97cc65a9be9bb558888f03df098abf8973ff4bae60837f8fb54d189471737e06",
+      "chunk_id": "ING_752100774713db4bce1b_CH_e77ce3ec19",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_3575aeeee534d720e90daa788c22a9d6863011a82d2a8c8e5977903fcd0b10d9",
+      "claim_text": "Karayolu Tünellerinin Tasarlanmas ı\nTasarlanmas ı Tünel Güzergah ı Seçim Çal ı ş malar ı ; Öncel çal ı ş malar ve tarihçe, Topografik model, Karayolu standat ı (Otoyol, Devlet Yolu, vb), Jeolojik - Jeoteknik ko ş ullar ve riskler, Tünel bölgesinin iklimsel parametreleri ve çevresel özellikleri, Olas ı portal yerleri ve ba ğ lant ı yolu geometrileri, Yap ı m ve i ş letme ko ş ullar ı , vb ...\n\nKarayolu Tünellerinin Tasarlanmas ı\n\nKarayolu Tünellerinin Tasarlanmas ı\n\nKarayolu Tünellerinin Tasarlanmas ı\n\nJeolojik - Jeoteknik Ara ş t ı rma Çal ı ş malar ı ;\n\nÖncel çal ı ş malar ı n derlenmesi ve planlama,\n\nMühendislik Jeolojisi haritalama çal ı ş malar ı ,\n\nTemel Ara ş t ı rma Sondajlar ı ve Yerinde Deneyler,\n\nJeofizik çal ı ş malar,\n\nLaboratuvar çal ı ş malar ı , vb ...\n\nJeolojik - Jeoteknik  Ara ş t ı rma Çal ı ş malar ı\n\nMühendislik Jeolojisi Haritalamas ı ;\n\nJeolojik birimlerin ay ı rtlanmas ı ,\n\nBirimlerin jeomekanik özelliklerinin ay ı rtlanmas ı ,\n\nYeralt ı suyu kaynaklar ı n ı n yay ı l ı m ı ,\n\nBölgenin tektonik modeli,\n\nEtkin ölçümleme çal ı ş malar ı ,\n\nStandartlara uygun tan ı mlama,\n\nFotograflama,\n\nvb ...\n\nsaha üzerindeki\n\nJeolojik - Jeoteknik  Ara ş t ı rma Çal ı ş malar ı\n\nTemel Ara ş t ı rma Sondajlar ı ;\n\nHaz ı rl ı k ve do ğ ru ekip / ekipman ı n temini,\n\nStandartlara uygun tan ı mlama,\n\nÖzgün verileri temsil eden say ı salla ş t ı rma,\n\nYerinde deneyler,\n\nYeralt ı suyu seviyesi takibi,\n\nÖrneklerin düzenlenmesi ve nakli,\n\nEksiksiz loglama,\n\nvb ...\n\nJeolojik - Jeoteknik  Ara ş t ı rma Çal ı ş malar ı\n\nJeolojik - Jeoteknik  Ara ş t ı rma Çal ı ş malar ı",
+      "conditions": [],
+      "document_id": "ING_752100774713db4bce1b",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_752100774713db4bce1b:ING_752100774713db4bce1b_CH_e77ce3ec19:pages=14-20;canonical=corpus/canonical/objects/ING_752100774713db4bce1b/ca0e7b71bf4dec5af4e49bb43028d5db5d1141153765b3f34fa4bd34b6053db4/chunks/embedding_ready.jsonl#L3",
+      "page_end": 20,
+      "page_start": 14,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q16": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "1.4.2-Q16"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:STRUCTURED_DOCUMENT",
+      "canonical_line_number": 251,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_5c229054fb8f53a306c0/c7eaa9feb3d3c69faa6051c5f2cb7908466cda7f32f60604fa462e600ca12d3a/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "e885a1a554c3c864c480d34b9ed62f54b6026855048ea1d86cbc9cdb46004c6e",
+      "chunk_id": "ING_5c229054fb8f53a306c0_CH_d64a02067b",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_3ca71b11e6fa218089779f6656329fc52a8c17f366aa7e5f5909a434d7c4941d",
+      "claim_text": "2015 YILINDA TAMAMLANMASI PLANLANAN TÜNELLER\nSIRA NO. | BÖLGE NO. | TÜNELİN ADI. | YOLUN ADI. | K.K.NO. | TÜP ADEDİ. | UZUNLUK m ).( SOL ( m ) | UZUNLUK m ).SAĞ ( m )\n\n1 | 1 | Kasımpaşa | Beyoğlu, Kasımpaşa Hasköy Caddesi Yolu |  | 2 | 1.235 | 1.315\n\n2 | 1 | Karasu Tüneli | Kaynarca - Karasu İkmal | 014-01 | 2 | 360 | 470\n\n3 | 2 | Konak Tüneli | İkiztepe-Konak-Doğanlar | 35-63 | 2 | 1.674 | 1.674\n\n4 | 5 | Karayar Tüneli | Erdemli-Silifke-Taşucu-13. Bölge Hududu Yolu | 400-16 | 2 | 985 | 1.015\n\n5 | 5 | T1 | Erdemli-Silifke-Taşucu-13. Bölge Hududu Yolu (Büyükeceli) | 400-16 | 2 | 240 | 240\n\n6 | 5 | T2 | Erdemli-Silifke-Taşucu-13. Bölge Hududu Yolu (Büyükeceli) | 400-16 | 2 | 760 | 760\n\n7 | 5 | T3 | K.Maraş-Göksun-6.Bl.Hd. Yolu | 825-03 | 2 | 470 | 470\n\n8 | 7 | Boztepe Tüneli | Ordu Çevre Yolu |  | 2 | 3.313 | 3.308\n\n9 | 7 | Öceli Tüneli | Ordu Çevre Yolu |  | 2 | 2.004 | 2.034\n\n10 | 7 | Terzili Tüneli | Ordu Çevre Yolu |  | 2 | 1.180 | 1.180\n\n11 | 7 | T1 Tüneli | Ordu - Mesudiye Koyulhisar Devlet Yolu 1.Kısım |  | 1 | 226 | \n\n12 | 7 | T5 Tüneli | Ordu - Mesudiye Koyulhisar Devlet Yolu 1.Kısım |  | 1 | 300 | \n\n13 | 7 | T6 Tüneli | Ordu - Mesudiye Koyulhisar Devlet Yolu1.Kısım |  | 1 | 373 | \n\n14 | 7 | Geyikkaya Tüneli | Ordu - Mesudiye Koyulhisar Devlet Yolu 3.Kısım |  | 1 | 410 | \n\n15 | 7 | Akdağ | Amasya-Taşova Yolu |  | 1 | 875 | \n\n16 | 8 | Erkenek Tüneli | Malatya Darende Ayr. - Gölbaşı | 850-10 | 2 | 1.816 | 1.816\n\n17 | 8 | Karahan Tüneli | Malatya Gölbaşı Ayr.- Darende | 300-22 | 2 | 1.600 | 1.600\n\n18 | 8 | T1 Tüneli | Kığı -Yedisu | 12-79 | 1 | 1.442 | \n\n19 | 8 | T2 Tüneli | Kiğı-Yedisu | 12-79 | 1 | 1.299 | \n\n20 | 9 | Cudi 2 | Cizre-Şırnak Devlet Yolu |  | 2 | 727 | 786\n\n21 | 9 | Ballı Tüneli | Şırnak-Ortabağ -Çığlı | 400-33 | 1 | 225 | \n\n22 | 10 | Iklıkçı Tüneli | (Giresun-Espiye)Ayr.-Dereli D.Y. | 865-01 | 1 | 234 | \n\n23 | 10 | Cankurtaran Tüneli | Hopa-Borçka Yolu Km:6+500-13+787,77 |  | 2 | 5.226 | 5.221\n\n24 | 10 | Salmankaş Tüneli | Araklı Dağbaşı Uğrak İl Yolu |  | 2 | 4100 | 4100\n\n25 | 10 | T1 Tüneli | (Trabzon-Kürtün) Ayr.Gümüşhane-Kale |  | 2 | 1.637 | 439\n\n26 | 10 | Gçy Giriş Kavşağı K1 Kolu | (Trabzon-Kürtün) Ayr.Gümüşhane-Kale |  | 1 | 295 | \n\n27 | 10 | Gçy Giriş Kavşağı K3 Kolu | (Trabzon-Kürtün) Ayr.Gümüşhane-Kale |  | 1 | 196 | \n\n28 | 10 | Balyemez Tüneli | (Trabzon-Kürtün) Ayr.Gümüşhane-Kale |  | 2 | 1.690 | 1.690\n\n29 | 10 | T2 Tüneli | (Trabzon-Kürtün) Ayr.Gümüşhane-Kale |  | 2 | 898 | 898\n\n30 | 10 | Ovit Tüneli | İkizdere-İspir Yolu | 925/02 | 2 | 14.000 | 14.000\n\n31 | 10 | Yeniköy Tüneli | Gümüşhane -Bayburt Ayr.-Kelkit -Şiran (Kelkit Şehir Geçişi) (Dap) Pirahmet-Alıçlı (Pirahmet Kavşağı Dahil) Ve (Ünlüpınar-Kelkit Arası) |  | 2 | 620 | 560\n\n32 | 10 | Akyazı Tüneli | Trabzon Şehir Geçişi Kanuni Bulvarı İle Akyazı Ve Sahil Bağlantı Yollarının Yapım İşi |  | 2 | 2.416 | 2.478",
+      "conditions": [],
+      "document_id": "ING_5c229054fb8f53a306c0",
+      "evidence_level": "STRUCTURED_DOCUMENT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_5c229054fb8f53a306c0:ING_5c229054fb8f53a306c0_CH_d64a02067b:pages=283;canonical=corpus/canonical/objects/ING_5c229054fb8f53a306c0/c7eaa9feb3d3c69faa6051c5f2cb7908466cda7f32f60604fa462e600ca12d3a/chunks/embedding_ready.jsonl#L251",
+      "page_end": 283,
+      "page_start": 283,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q27": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.8",
+        "5.4",
+        "5.9.2",
+        "5.9",
+        "3"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5",
+      "supporting_question_ids": [
+        "1.4.2-Q27"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 169,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "f1de4545795cfb47a458ef66b88b3c6fac8589fae78ae09caac226a1e73deb79",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_28025373f1",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_3db4feb468154e7a8046267fa9d5bd0e6676b7e6cd4fddaf4578fa202bce2e78",
+      "claim_text": "GİRİŞ\nyılı Tünel Bakım İşletme Şefliklerimizde oluşan maliyetlerle ilgili olarak özet tablo aşağıda verilmiştir; Tablo 50 . 2015 Yılı Tünel Bakım, Onarım, İşletme Maliyetleri Maliyetler incelendiğinde en düşük maliyetin Trabzon Şefliğinde olduğu görülmektedir. Bunun ana nedeni tünel sayısının fazlalığıdır. Tünel 1 km'de olsa 5 km'de olsa personel yönünden aynı ihtiyaçları barındırdığı ve en yüksek maliyet kaleminin de personellerden kaynaklandığı düşünülecek olursa maliyetler arasındaki farklar anlaşılabilir olmaktadır. Önümüzdeki dönemde uygulanacak çalışmalarla bu maliyetlerin düşürülmesi hedeflenmektedir.\n\nBÖLÜM 6 KARAYOLU TÜNELLERİNDE TEHLİKELİ MADDE TAŞIMACILIĞI\n\nGİRİŞ\n\nTünellerde  kaza  oranı  yolun  diğer  kesimlerine  göre  daha  azdır.  Ancak  kaza  sonucu yangın çıktıysa tünel içinde bu yangın hızla yayılır ve ciddi tehlikeler oluşturabilir. 1990'ların sonunda  Avrupa'da  meydana  gelen  Mont  Blanc,  Tauern  ve  Gothard  Tünel  felaketlerinden sonra çeşitli çalışmalar yapılmış ve bu çalışmaların bir uzantısı olarak karayolu tünellerinde tehlikeli madde taşımacılığı ile ilgili yönetmelikler oluşturulmuştur.\n\nBu  b ölümde  kısaca  bu  sürecin  gelişimini,  ilgili  mevzuatları  ve  ülkemizde  gelinen noktayı inceleyeceğiz.\n\n6.1. MEVZUATLAR\n\nTehlikeli Maddelerin karayolu tünellerinden geçirilmesi konusunda tünel güvenliği ile yakından ilgili olan aşağıdaki üç mevzuatın gerekli liklerini uygulamak gerekmektedir.\n\n Avrupa Parlamentosu ve Konseyi'nin 29.04.2004 tarih ve 2004/54/EC sayılı \"Trans - Avrupa Karayolu Ağı Tünelleri İçin Minimum Güvenlik Gereksinimleri\",\n\n ADR  2007/2009  (Tehlikeli  Maddelerin  Karayolu  İle  Taşınması  Hakkında  Avru pa Anlaşması)\n\n ISO 31000 Guide 73:2009 ( Risk Yönetimi)\n\n6.1.1. 2004/54/EC DİREKTİFİ İLE İLGİLİ HUSUSLAR\n\nDirektife  göre  TEN  yol  ağında  bulunan  500  metreden  uzun  trafiğe  açık,  yapım aşamasında  ve  yapımı  planlanan  tünellerle  ilgili  bazı  yükümlülükler  ve  uy gulama  takvimi getirildiğinden bir önceki konuda bahsedilmişti.\n\nUygulama takvimine göre 30.04.2009 tarihine kadar komisyon tarafından üye ülkeler tarafından  geliştirilen  risk  analiz  yöntemleri  ile  ilgili  rapor  hazırlanması  istenmişti.  2004 yılından itibaren üye ülkeler konu üzerine çalışmış ve 2007 yılında ortak bir çalışma raporu ile PİARC bünyesinde 'Karayolu Tünelleri İçin Risk Analizi Raporu' oluşturulmuştur. 2012\n\nyılında komisyon devam eden çalışmaları tekrar güncelleyerek 2012R23EN sayılı 'Karayolu T ünellerinde Risk Çalışmaları Konusunda  Güncel Çalışmalar' raporunu hazırlamıştır. Çalışmaların içeriği ile ilgili ileriki konularda bazı bilgiler verilecektir.",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_28025373f1:pages=419-422;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L169",
+      "page_end": 422,
+      "page_start": 419,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q38": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "1.4.2-Q38"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:STRUCTURED_DOCUMENT",
+      "canonical_line_number": 16,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7f177b472ed62ef80108/72ef01fc60eb101417976d371f154842e5a45aa6a41c838e696a8bc32540360c/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "f26d822eefa8956ea3f181fdccc363b2155f1013177cf9bf2366dcb687bf6829",
+      "chunk_id": "ING_7f177b472ed62ef80108_CH_7919467031",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_3ee9c4e97b1517a30287e19837e53c61a68becad1ba0762636732294544d1a62",
+      "claim_text": "KARAYOLLARI GENEL MÜDÜRLÜČÜ\nAR-GE Dairesi Başkanlığı, Jeolojik Hizmetler Şubesi Müdürlüğü\n«Türkiye Tünelcilik Semineri / 13 Haziran 2013»\nSUNUMiÇERIČi\nÜlkemizin Genel Jeolojik ve Tektonik Yapısinın Tünelcilik Yapımına Etkisi\nKarayollarında Kullanılan Tünel Açma Metodları\nTünelde Kazı-Destek Aşamaları\nTünel Kazisı Esnasında Yapılması Gereken Kaya Sınıflama Çalışmaları\nDeformasyon Ölçümleri\nYapım Çalışmalarında Karşılaşılan Problemler ve Çözüm Önerileri\nProje ve Yapım Çalışmalarının Karşılaştırılması\nTünel Resimleri\nTeşekkür\nDeniz kıyısındaki bir yol ve tünel girişlerinin fotoğrafı üzerine mavi bir kutu içinde madde işaretli bir liste yerleştirilmiş sunum slaytı.",
+      "conditions": [],
+      "document_id": "ING_7f177b472ed62ef80108",
+      "evidence_level": "STRUCTURED_DOCUMENT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_7f177b472ed62ef80108:ING_7f177b472ed62ef80108_CH_7919467031:pages=2;canonical=corpus/canonical/objects/ING_7f177b472ed62ef80108/72ef01fc60eb101417976d371f154842e5a45aa6a41c838e696a8bc32540360c/chunks/embedding_ready.jsonl#L16",
+      "page_end": 2,
+      "page_start": 2,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q16": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1.2",
+        "2.4.1.2",
+        "5.9.1",
+        "2.1",
+        "2.2.1"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.4.1",
+      "supporting_question_ids": [
+        "1.4.2-Q16"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 42,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_e3a78fec24c25a09fd74/49443009072fa93059c2a3f482a31f9622aaeeb17ce72929585ab4b6e6e85445/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "c2a4de1a657fe4f736acf4eb9ea1492127f9f6bc1b866a6736b50bd81c010785",
+      "chunk_id": "ING_e3a78fec24c25a09fd74_CH_8006f96bd7",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_4432bae21f4e6b35f88a3667fd8d66f99ae4002ee41322122527145890c450e9",
+      "claim_text": "3.1.1.1. Tünelciliğin Tarihsel Anlamda Gelişimi\nTablo: Çizelge 3.1. Geçmiş dönemlerden günümüze kadar gelen bazı tüneller ve özellikleri (Köse ve diğer., 2007'den düzenlenerek)\nÇizelge 3.1. Geçmiş dönemlerden günümüze kadar gelen bazı tüneller ve özellikleri (Köse ve diğer., 2007'den düzenlenerek)\n\nTünel Adı | Yapım Yılı | Yeri | Amacı | Çapı (m) | Uzunluk (m)\n\n- | MÖ 15000 | Avrupa | Maden | - | -\n\n- | MÖ 4000 MÖ 2000 | Anadolu İtalya | Nakliyat Nakliyat | 3,50x5,40 7,50 | 1000 900\n\nAksırat | MÖ 300 | Anadolu | Suyolu | 0,80x2,0 | 45000\n\n- | MÖ 200 | Anadolu | Nakliyat | 3,80x4,80 | 960\n\n- | MÖ 36 | İtalya | Ulaşım | 7,60-9,15 | 1220\n\nFacinus | MS 41 | İtalya | Drenaj | - | 5635\n\nMal-passe | 1679-1681 | Fransa | Su Yolu | 7,0x8,0 | 160\n\nThames | 1807-1842 | İngiltere | Ulaşım | - | -\n\nSchuylkill | 1818-1820 | Amerika | Suyolu | 5,50x6,10 | 250\n\nMoodhead | 1839-1841 | İngiltere | Demiryolu | 8,50x6,70 | 4843\n\nBergen | 1850-1855 | Amerika | Demiryolu | 8,50x6,40 | 1281\n\nMont cenıs | 1857-1871 | Fransa-İtalya | Demiryolu | 7,60x6,10 | 12700\n\nSt. Godhard | 1872-1881 | İsviçre | Demiryolu | 8,0x7,50 | 14980\n\nSımplon I | 1895-1906 | İsviçre | Demiryolu | 5,0x5,35 | 19730\n\nSımplon II | 1912-1921 | İtalya | Demiryolu | - | -\n\nRove | 1911-1922 | Fransa | Deniz Tün. | - | 7118\n\nConnaught | 1913-1916 | Kanada | Demiryolu | 8,50x7,90 | 8052\n\nTanna | 1918-1934 | Japonya | Karayolu | - | -\n\nAppenin | 1920-1931 | İtalya | Demiryolu | 9,40x8,30 | 18510\n\nNew cascade | 1924-1927 | Amerika | Demiryolu | 8,0x7,50 | 14980\n\nMetro | 1900- | Paris | Ulaşım | 7,80 | 15200\n\nMetro | 1937-1946 | Londra | Ulaşım | 14,10 | 4620\n\nMetro | 1934-1964 | Moskova | Ulaşım | 2,0x6,0 | 59500\n\nMetro | - | Chicago | Ulaşım | 4,50 | 22500\n\nMest delaware | 1955-1959 | Amerika | Sulama | 4,10 | 70858\n\nE. Turnut | 1954-1958 | Avustralya | Sulama | 7,30 | 22224\n\nHarold roberst | 1957-1960 | Amerika | Sulama | 3,95 | 37485\n\nMont blanc | 1959-1965 | Fransa İtalya | Demiryolu | 9,0x12,45 | 12650\n\nKadıncık I | 1967-1969 | Türkiye | Hidroelektrik | 4,00 | 7128\n\nUrfa | 1977-1992 | Türkiye | Sulama | 9,00 | 2x26400\n\nEyüp | 1986-1987 | Türkiye | Kanalizasyon | 2,20 | 1865\n\nSelatinler | 1988-1994 | Türkiye | Karayolu | 12,5 | 2x2950\n\nYahazu | 1990-1993 | Japonya | Karayolu | 12x7,5 | 2x2000\n\nİstanbul | 1992- | Türkiye | Ulaşım | 6,40 | 2x6500",
+      "conditions": [],
+      "document_id": "ING_e3a78fec24c25a09fd74",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_e3a78fec24c25a09fd74:ING_e3a78fec24c25a09fd74_CH_8006f96bd7:pages=24;canonical=corpus/canonical/objects/ING_e3a78fec24c25a09fd74/49443009072fa93059c2a3f482a31f9622aaeeb17ce72929585ab4b6e6e85445/chunks/embedding_ready.jsonl#L42",
+      "page_end": 24,
+      "page_start": 24,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q46": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.2",
+      "supporting_question_ids": [
+        "1.4.2-Q46"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 2,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_752100774713db4bce1b/ca0e7b71bf4dec5af4e49bb43028d5db5d1141153765b3f34fa4bd34b6053db4/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "97fc2dad8905ce80a96ddc21a4dfeb1ed11fbc88fbbed2fa49d56f2a4ea96248",
+      "chunk_id": "ING_752100774713db4bce1b_CH_85e1bd4af9",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_526b872e1dc35ce102f23375aa7ec5dcc5ba840b84ee25eaf437be842deaf305",
+      "claim_text": "Neden tünel?\nn iyile ş tirilmesi, k ı salmas ı ve trafik güvenli ğ inin artt ı r ı lmas ı gereksinimi, Güzergah ı n bir bölümünün önemli stabilite sorunlar ı (heyelan, kaya dü ş mesi, ç ı ğ , vb) veya potansiyeli içermesi durumu, Yüksek yarma kesitlerde; birimlerin jeomekanik özelliklerine ba ğ l ı olarak imalat ve i ş letme ko ş ullar ı nda olu ş abilecek stabilite sorunlar ı potansiyeli,\n\nKarayolu Tünelleri\n\nNeden tünel?\n\nYüksek kaz ı - dolgu ve sanat yap ı s ı gereksinimi olan kesimlerde tünelin teknik ve ekonomik kriterler gere ğ i çözüm olarak de ğ erlendirilmesi,\n\nÇevresel ve tarihi koruma alanlar ı na ba ğ l ı olarak aç ı k kaz ı yap ı lamayan kesimler,\n\nKarayolu güzergah ı n ı n yerle ş im bölgeleri içerisinden geçmesi durumunda olu ş abilecek aç ı k kaz ı lardan kaç ı nma gereksinimi,\n\nvb ...\n\nKarayolu Tünelleri\n\nKarayolu Tünelleri\n\nTürkiye Tünelcilik Semineri 2013\n\nKarayolu Tünelleri\n\nTürkiye Tünelcilik Semineri 2013\n\nKarayolu Tünellerinin Tasarlanmas ı\n\nPlanlama Çal ı ş malar ı ,\n\nTünel Güzergah ı Seçim Çal ı ş malar ı ,\n\nJeolojik - Jeoteknik Ara ş t ı rma Çal ı ş malar ı ,\n\nTünel Tasar ı m Çal ı ş malar ı ,\n\nKe ş if ve İ hale Dökümanlar ı n ı n Haz ı rlanmas ı ,\n\nKarayolu Tünellerinin Tasarlanmas ı\n\nPlanlama Çal ı ş malar ı ;\n\nTünelli karayolu geçkisinin yol a ğ ı içerisindeki planlanan konumu ve önemi,\n\nGeçkinin maliyet - fayda dengesi,\n\nKarayolu standat ı (Otoyol, Devlet Yolu, vb),\n\nTrafik say ı mlar ı ve projeksiyonu,\n\nTünel bölgesinin iklimsel parametreleri ve çevresel özellikleri,\n\nTünel bölgesinin Jeolojik - Jeoteknik ko ş ullar ı ,\n\nvb ...\n\nKarayolu Tünellerinin Tasarlanmas ı\n\nTünel Güzergah ı Seçim Çal ı ş malar ı ;\n\nÖncel çal ı ş malar ve tarihçe,\n\nTopografik model,\n\nKarayolu standat ı (Otoyol, Devlet Yolu, vb),\n\nJeolojik - Jeoteknik ko ş ullar ve riskler,\n\nTünel bölgesinin iklimsel parametreleri ve çevresel özellikleri,\n\nOlas ı portal yerleri ve ba ğ lant ı yolu geometrileri,\n\nYap ı m ve i ş letme ko ş ullar ı ,\n\nvb ...",
+      "conditions": [],
+      "document_id": "ING_752100774713db4bce1b",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_752100774713db4bce1b:ING_752100774713db4bce1b_CH_85e1bd4af9:pages=7-13;canonical=corpus/canonical/objects/ING_752100774713db4bce1b/ca0e7b71bf4dec5af4e49bb43028d5db5d1141153765b3f34fa4bd34b6053db4/chunks/embedding_ready.jsonl#L2",
+      "page_end": 13,
+      "page_start": 7,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q04": "PARTIAL",
+        "1.4.2-Q06": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "1.4.2-Q04",
+        "1.4.2-Q06"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 43,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_e3a78fec24c25a09fd74/49443009072fa93059c2a3f482a31f9622aaeeb17ce72929585ab4b6e6e85445/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "6a7131c4ed2ff86e5c83d22fa43d5d1f7135bcbdd3793f898103d5292ddf14ab",
+      "chunk_id": "ING_e3a78fec24c25a09fd74_CH_8e12337014",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_59ab9a92cdd20750c1c4a28edf0cb3b73c0af500c5285cea999a49da97aef81d",
+      "claim_text": "3.1.1.1. Tünelciliğin Tarihsel Anlamda Gelişimi\n0 | 1 | 2 | 3 | 4 | 5\n\nİzmir | 1995-2001 | Türkiye | Ulaşım | 2x6,5 | 2x1400\n\nİzmir | 2000-2007 | Türkiye | Karayolu | 12 | 1800\n\nİzmir | 2001- | Türkiye | Ulaşım | 12 | 5400",
+      "conditions": [],
+      "document_id": "ING_e3a78fec24c25a09fd74",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_e3a78fec24c25a09fd74:ING_e3a78fec24c25a09fd74_CH_8e12337014:pages=25;canonical=corpus/canonical/objects/ING_e3a78fec24c25a09fd74/49443009072fa93059c2a3f482a31f9622aaeeb17ce72929585ab4b6e6e85445/chunks/embedding_ready.jsonl#L43",
+      "page_end": 25,
+      "page_start": 25,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q46": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.2",
+      "supporting_question_ids": [
+        "1.4.2-Q46"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 1,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "b711509d21a2ce5d974900d38e2ecece376b858cd17881ba1a97c27e733ce20b",
+      "chunk_id": "ING_1fb6b71a35f819248daf_CH_15db63c46c",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_5db7f8869fd612c1d91fcadbb1d9fe70bbee7eec47ad299c81075c49d7994051",
+      "claim_text": "T.C.\n\nULAŞTIRMA DENİZCİLİK VE HABERLEŞME BAKANLIĞI\nKarayolları Genel Müdürlüğü\n\nTÜNEL BAKIM\n\nONARIM\n\nİŞLETME KURS\n\nNOTLARI\n\n(DEVLET VE İL YOLLARI ÜZERİNDEKİ\nTRAFİĞE AÇIK TÜNELLER)\n\nTESİSLER VE BAKIM DAİRESİ BAŞKANLIĞI\nSanat Yapıları Bakım, Onarım, İşletme Şubesi Müdürlüğü\nEKİM-2016\n\nÖNSÖZ\n\nBu kitap; Karayolu tünellerinin bakım, onarım ve işletilmesi aşamalarında çalışan teknik personellerin bilgilendirilmesi ve bu amaçla yapılacak eğitim çalışmalarında yol gösterici olması amacıyla hazırlanmıştır.\n\n1 .Bölümde; tünelcilik hakkında genel bilgiler ve kısa tarihi gelişim süreci, tünel çeşitleri ve tünel yapılmadan önceki çalışmalar hakkında bilgi verilmiştir.\n\nBölümde; özellikle 1999 yılında meydana gelen tünel faciaları sonucu konuyla ilgili yapılan çalışmalar, oluşturulan uluslararası mevzuatlar ve ülkemizde de oluşturulan standartlar hakkında bilgi verilmesi amaçlanmıştır.\n\nBölümde; Genel Müdürlüğümüze bağlı devlet ve il yollarında bulunan tünellerin kitabın yazıldığı tarih itibariyle güncel envanter bilgileri verilmiştir.\n\nBölümde; tünellerin bakım, onarım ve işletilmesi aşamasında çalışanlarımızı direkt ilgilendiren, tünel ikincil işleri olarak adlandırılan, elektromekanik sistemlerin işlevleri anlatılmış, sistemlerin teknik detayları ve mühendisliği hakkında bilgi verilerek teknik personellerin konu bütünlüğü açısından temel düzeyde sistemler hakkında bilgi sahibi olması hedeflenmiştir.\n\nBölümde; asıl konumuz olan tünel bakım, onarım ve işletme faaliyetleri, bakım programları, periyodik bakımlar, uluslararası düzeyde konu ile ilgili yapılan çalışmalar, bakım maliyetleri ve maliyet azaltma önerileri hakkında detaylı bilgiler verilmiştir.\n\nBölümde; Karayolu tünellerinde tehlikeli madde taşımacılığı konusunda mevzuat yükümlülüklerimiz gereği tüm işletme şeflikleri ile organize çalışılması gerektiği için konu ile ilgili teknik personellere uluslararası düzeyde yapılan çalışmalar, tünel tehlike sınıfları hakkında bilgi, şu an gelinen durum ve yapılacak çalışmalar hakkında bilgi verilmiştir.\n\nBu çalışmanın hazırlanmasında emeği geçen çalışma arkadaşlarımıza teşekkür eder, tünelcilik konusunda uluslararası kabul görmüş güncel çalışmaların anlatıldığı ve bundan sonraki yapılacak çalışmalara vizyon oluşturacak bu kitabın tüm karayolculara faydalı olmasını temenni ederim.\n\nf\n\n\\. .A A /\t\\\n\nİsmail KARTAL\n\nGenel Müdür",
+      "conditions": [],
+      "document_id": "ING_1fb6b71a35f819248daf",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_15db63c46c:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L1",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q38": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5",
+        "5.4"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4.2",
+      "supporting_question_ids": [
+        "1.4.2-Q38"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 4,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "6c11cd31c24f2a37c26e18fab362c3162fc3e22cd37587a94ed7012b36344cb9",
+      "chunk_id": "ING_7d7c44992e83c7185c41_CH_b9db210bab",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_7e0727172dee22f95315eb60388b0227fee23961685043ae0b1ed5da51e66994",
+      "claim_text": "2. Sürdürülebilir Ulaşım Açısından Yeni Zigana Tüneli\nyer alan Zigana Geçidi, Avrupa ülkeleriyle İran arasındaki ticaretin can damarlarından biri olmuştur. SSCB'nin dağılmasıyla birlikte ticaret güzergâhları Karadeniz'in kuzeyindeki limanlar ile Basra Körfezindeki limanlara kaydırılmıştır (Bekdemir, vd. 2001). Ancak ortaya çıkan Bağımsız Devletler Toplulukları ticaretlerini Trabzon Limanı'ndan sağlamalarıyla (Koday, 1999) birlikte Zigana Geçidi ulusal ve uluslararası ulaşımda önemini korumaya devam etmiş ve halen de etmektedir. Günümüzde söz konusu geçidin önemi yapılan tünellerle birlikte daha da artmaya başlamıştır.\n\n2. Sürdürülebilir Ulaşım Açısından Yeni Zigana Tüneli\n\nUlaşımın  kesintisiz  sağlanabilmesi  için  tünellerin  önemi  çok  büyüktür. Tüneller şehir içinde ve dışında olsun özellikle hava olaylarının etkisini en aza indirebilmektedir. Dağların zirvelerinden geçen karayollarında ulaşımın kesintisiz sağlanabilmesinde tünellerin ayrı bir yeri vardır. Tünellerin olmadığı dönemlerde Zigana Geçidi, kış aylarında kar yağışı ve buzlanmalardan dolayı ulaşıma  kapanmış  ve  bu  güzergâhtaki  ticaret  Hopa  güzergâhı  üzerinden yapılmıştır (Koday , 1995). 1989 yılında Eski Zigana Tüneli'nin açılmasıyla birlikte karayolu ulaşımı kesintisiz sağlanmaya başlanmıştır.\n\nGünümüzde  Zigana Dağı'nda ulaşımın kesintisiz sağlanabilmesine rağmen kışın  kar  ve  yağmur  yağışlarının  yoğunluğundan  dolayı  ulaşımda aksamalar  meydana  gelebilmektedir.  Özellikle  sıcaklığın  eksi  derecelere kadar indiği yörede, karayolunda oluşan buzlanmalar ulaşım araçlarının kaza yapmasına neden olabilmektedir (Foto 3). Ayrıca yağışların yoğun olduğu dönemlerde  karayolu  üzerinde  heyelanlar  meydana  gelmekte  ve  zaman zaman  da  taş  düşmeleri  olabilmektedir.  Bu  heyelan  ve  taş  düşmeleri  kısa süre de olsa ulaşımın aksamasına sebep olmaktadır (Foto 4). Yeni Zigana Tüneli'nin açılmasıyla birlikte kışın bu ağır şartlarının etkisi ortadan kalkacağı düşünülmektedir.\n\nFoto 3: Zigana Dağı'nda Kar ve Buzlanmadan Kaynaklı Kaza (Kaynak: www.gunebakis.com.tr)\n\nFoto 4: Zigana Dağı'nda Heyelan (Kaynak: www.gozlemgazetesi.com.tr)\n\nYaban hayatı durumuna bakıldığında karayollarında yaban hayvanlarının yanında terk edilmiş/edilmemiş evcil hayvanlar için yapılan ekoloji köprüleri ve altgeçitlerin büyük önemi bulunmaktadır. Çünkü ulaşım araçlarının söz konusu  hayvanlara  çarpma  ihtimalinin  yüksekliğinden  dolayı  maddi  ve manevi  kazalara  neden  olması  kaçınılmazdır.  Türkiye'de  2022  verilerine göre hayvan-taşıt çatışmasına bağlı trafik kazalarında, otoyollarda meydana gelen 13 trafik kazasında 17 kişi yaralanmış, devlet yollarında oluşan 392 trafik kazasında 6 kişi ölmüş 678 kişi yaralanmış, il yollarında meydana gelen 134 trafik kazasında 3 kişi ölmüş 209 kişi yaralanmıştır (Karayolları Genel Müdürlüğü,  2022).  Söz  konusu  kazalar,  hayvan  geçişleri  ve  hayvancılık faaliyetlerinin yoğun olarak yapıldığı kırsal yerleşim merkezlerindeki küçükbaş  ve  büyükbaş  gibi  sürü  hayvanlarının  geçişleri  anında  meydana gelen  kazaları  içermektedir.    Zigana  Dağı'ndaki  karayolu  üzerinde  ekoloji köprüsü ve altgeçitlerin olmaması yaban hayvanları ve terk edilmiş/edilmemiş evcil hayvanlar için büyük tehlike arz etmektedir. Y eni Zigana Tüneli, Zigana Dağı'ndan geçen ulaşım araçlarını azaltarak yaban hayatı ve çevresindeki terk edilmiş/edilmemiş  evcil  hayvanları  korumaya  yönelik  olması  bakımından sürdürülebilir bir etki ortaya çıkarmıştır.\n\nZigana  Dağı'ndan  geçen  karayolunun  çevresinde  birçok  yerleşim  yeri bulunmaktadır. Günümüzde  ulaşım  araçlarının  artmasıyla birlikte söz konusu karayolu kalabalıklaşmaya başlamıştır. Böylece yerleşim yerlerinden geçen ulaşım araçlarının etkisiyle  motor  gürültüsü  artmıştır.  Özellikle  yaz aylarında  turistik  faaliyetin  arttığı  bu  bölgede  gürültü  durumu  daha  fazla olmaktadır. Bu sebeple çevrede yaşayan yerel halk ve yöreye gelen turistler fazla  gürültüden  rahatsız  olabilmektedir.  Y eni  Zigana  Tüneli'nin  açılması, karayolundan geçen ulaşım araçlarıyla birlikte gürültü durumunu da azaltmış ve yerleşim yerlerini daha sakin hale getirmiştir.\n\nNüfusun  artmasıyla  birlikte  sürekli  artan  ulaşım  araçlarının  doğaya saldığı karbon salınımları da artmaktadır. Böylece dünya her geçen gün daha fazla zehirlenerek kirlenmektedir. Birleşmiş Milletlerin 2015 yılında Paris'te düzenlediği  toplantıda  iklim  değişikliği  ile  ilgili  Paris  Anlaşması  kabul edilmiştir. Bu anlaşmaya göre bütün ülkeler 2020 yılı sonrasında sera gazı emisyonlarını  azaltma  taahhüdünde  bulunmuşlardır.  Bu  çerçevede  ülkeler, fosil  enerji  kaynaklarının  tüketilmesini  azaltmaya  çalışmaktadırlar.  Dünya genelinde enerji  üretiminden  kaynaklı  sera  gazı  emisyonu  %72  ve  bunun içinde ulaşımın payı ise %15'tir (Şekil 3).\n\nŞekil 3: Sektörlere Göre Sera Gazı Emisyonları (Kaynak: Center for Climate and Energy Solutions, 2023)\n\nKarayolu  tünelleri  mesafeyi  kısalttığından  ulaşım  araçlarının  da  ortaya çıkardığı ve sera gazının bileşenlerinden olan karbon salınımlarının azaltılmasını sağlamaktadır. Özellikle yüksek dağ kütlelerini aşarken ulaşım araçları  daha  fazla  karbon  salınımı  ortaya  çıkarmaktadır.  Bunlardan  biri de  Zigana  Dağı'ndan geçen karayoludur. Söz konusu karayolunda ulaşım araçları  1800  metreye  çıkarken  araçlar  daha  fazla  yakıt  tüketmekte  ve çevreye daha fazla karbon salmaktadır. Özellikle ağır vasıtaların (tır, kamyon, otobüs vb.) bu güzergâhtan ilerlemesi binek araçlara göre çok daha fazla yakıt  tüketimine sebep olmaktadır. Son on yılda Zigana Dağı'ndan geçen günlük  araç  sayılarına  bakıldığında  2012'de  ortalama  olarak  günde  2805 araç  geçmiştir.  Yıldan  yıla  sürekli  artan  araç  geçişleri  2017  yılında  zirve noktasına  ulaşmıştır.  Takip  eden  yıllarda  azalma  eğilimi  göstermişse  de 2020  yılında  Covid  19'un  etkisiyle  daha  da  düşüşe  geçmiştir.  Ancak  son on yıl karşılaştırıldığında ortalama günlük araç geçişlerinde artışın olduğu görülerek 2022 yılında 3282 aracın geçtiği kaydedilmiştir. Bir araç ortalama 1 km'de 2.35 gram karbondioksit (CO2) salmaktadır 2  (Y alılı Kılıç vd., 2021). Zigana Dağı'ndaki karayolundan geçen her bir araç (Y eni Zigana Tüneli'nin başlangıç ve bitiş mesafesi) 23 km mesafede 5 gram CO2 yaymaktadır. Eğim derecesi arttığında bu sayı da artabilmekte ve ulaşım araçları daha fazla CO2 salmaktadır. Y eni Zigana Tünelinin mesafesi yaklaşık 14,5 km olduğundan karbon salınımı 3.29 grama düşmektedir. Son on yılda Zigana Dağı'ndan geçen araçların karbon salınımlarına bakıldığında 2012 yılında günlük geçen ulaşım  araçları  ortalama  14.025  gram  karbon  salarken  2023  yılında  bu sayı 16.410 grama çıkarak %15 oranında artış göstermiştir (Tablo 1). Y eni Zigana Tüneli ile birlikte güzergâh üzerindeki araçların çoğu yaklaşık 1000 metre yükseltiye çıkmadığından yakıt tüketimi azalmakta ve araçların karbon salınımlarında düşüş yaşanmaktadır.",
+      "conditions": [],
+      "document_id": "ING_7d7c44992e83c7185c41",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_7d7c44992e83c7185c41:ING_7d7c44992e83c7185c41_CH_b9db210bab:pages=7-10;canonical=corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl#L4",
+      "page_end": 10,
+      "page_start": 7,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q06": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "1.4.2"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "3",
+      "supporting_question_ids": [
+        "1.4.2-Q06"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 1,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_9fea1e259f10c9d371f0/58b79d5b5f1958aa4fccdd19986430a69bd4ff45d41cb8458a57234c8901c4a3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "57303a00ec6662616bc6fa25c3daf8874a306a2d06f54dda3c4292e6180c4691",
+      "chunk_id": "ING_9fea1e259f10c9d371f0_CH_6f395bb34e",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_85dc4e7130ccf008065a7634fa656740e2c8be864187d4ea96d0886957b31554",
+      "claim_text": "SUNUM ADI\n\nSUNUM ADI\t63.BÖLGE MÜDÜRLERİ\n\nTOPLANTISI\n\nA. GÜRKAN GÜNGÖR\n\nAR-GE DAİRESİ BAŞKANLIĞI ZEMİN MEKANİĞİ VE TÜNELLER ŞUBESİ MÜDÜRLÜĞÜ\n\nBİRİM ADI\n\nSİNA KİZİROĞLU\n\nHAZIRLAYANIN ADI SOYADI\n\nKARAYOLLARI GENEL MÜDÜRLÜĞÜNDE TÜNELCİLİK ÇALIŞMALARI\n\nTÜRKİYE TÜNELCİLİK SEMİNERİ 13 HAZİRAN 2013\n\nARGE DAİRESİ BAŞKANLIĞI\n\nANKARA\n\nBirileri bugün gölgede oturuyorsa,\n\nuzun zaman önce birileri ağaç ektiği içindir. Warren Buffet\n\nTÜRKİYE TÜNELCİLİK SEMİNERİ\n\nTÜRKİYE TÜNELCİLİK SEMİNERİ\n\nMilliyet gazetesinin 28 Temmuz 1928 tarihli haberinin başlığı Boğaziçi’nde bir Tünel Yapılacak.\n\nİngiliz-İtalyan ortaklığı olan bir inşaat şirketi ilgili ülkelerin onayını bekleyen bir proje geliştirmiştir.\n\nProje, Arnavutluk’un Draç Limanından başlayıp Selanik üzerinden Anadolu’ya kadar uzanan bir demiryolu öngörüyor.\n\nDemiryolu Boğaz’ı denizin altından geçecek şeklide projelendirilmiştir.\n\n85 yıl önce bu haberde bahsedilen ve Boğaz’ın altından geçen demiryolu hattı, günümüzde Marmaray projesiyle gerçek olmuştur.\n\nNUM ADI\tKARAYOLLARI GENEL MÜDÜRLÜĞÜNDE TÜNELCİLİK ÇALIŞMALARI\n\nwww.kgm.gov.tr\n\nSU\n\nTÜRKİYE TÜNELCİLİK SEMİNERİ\n\nSUNUM ADI\n\nKARAYOLLARI GENEL MÜDÜRLÜĞÜNDE TÜNELCİLİK ÇALIŞMALARI\n\nwww.kgm.gov.tr\n\nKarayolları Genel Müdürlüğü, kuruluş yıllarında tekerlek dönsün ilkesiyle, ülkenin her köşesine erişebilirlik hedeflemiştir.\n\nTeşkilatımızın kuruluşundan günümüze kadar geçen süreçte kamuoyunun Karayolu Ulaşımındaki beklentileri değişmiş ve bir karayolu güzergâhının geometrik ve fiziksel yapısının, her türlü meteorolojik şartta (kar, sel, çığ düşmesi vb) kesintisiz ve güvenli ulaşım sağlaması, seyahat konforunun en üst seviyede olması ve seyahat süresinin kısaltılması hususlarında beklentileri artmıştır.\n\nDünyada yer altı yapılarının önem kazanmasıyla oluşan eğilimin sonucu ve ülkemizde bilgi birikimi, gerek projelendirme gerekse yapım çalışmalarından edinilen tecrübenin artmasıyla tüneller artık kaçınılan yapılar olmaktan çıkmış, tercih edilen yapılar haline gelmiştir.\n\nBu durumun doğal sonucu olarak karayolu ulaşımında da gerek yatay ve düşey yol geometrilerinde sağladığı iyileştirme, gerekse portal bölgeleri dışında kamulaştırma gereksinimini azaltması gibi avantajlar tünelleri ön plana çıkarmıştır.\n\nDevlet yollarındaki en eski tünel\t:\t1954\tyılında\tinşa\tedilen\t151\tm\n\nuzunluğundaki Hoynat Tüneli (7. Bölge Müdürlüğü–Samsun)\n\nTrafiğe açık en uzun otoyolu tüneli :\t6086 m uzunluğunda Selatin Tüneli\n\n(2. Bölge Müdürlüğü–İzmir)\n\nDevlet yollarındaki en kısa tünel\t:\t35 m uzunluğundaki Halil Rıfat Paşa\n\nTüneli (1989 yılı)\n\n(10. Bölge Müdürlüğü – Trabzon)\n\nTrafiğe açık en uzun tünel\t:\tOrdu - NEFİSE AKÇELİK Tüneli\n\n(L = 2 x 3,820 = 7,640 m)\n\n(7. Bölge Müdürlüğü–Samsun)\n\n40\n\n35\n\n30\n\n25\n\n20\n\n15\n\n10\n\n5\n\n0\n\n1\t2\t3\t4\t5\t6\t7\t8\t9\t10\t11\t12\t13\t14\t15\t16\t18\tKÖSOB\n\nProje Aşamasında\tYapımı Devam Eden\tTrafiğe Açık\tTOPLAM\n\n60\n\n40\n\n20\n\n0\n\n1\t2\t3\t4\t5\t6\t7\t8\t9\t10\t11\t12\t13\t14\t15\t16\t18\tKÖSOB\n\nProje Aşamasında\tYapımı Devam Eden\tTrafiğe Açık\tTOPLAM\n\n180\n\n160\n\n140\n\n120\n\n100\n\n80\n\n60\n\n40\n\n20\n\n0\n\n1\t2\t3\t4\t5\t6\t7\t8\t9\t10\t11\t12\t13\t14\t15\t16\t18\tKÖSOB\n\nProje Aşamasında\tYapımı Devam Eden\tTrafiğe Açık\tTOPLAM\n\n240\n\n220\n\n200\n\n180\n\n160\n\n140\n\n120\n\n100\n\n80\n\n60\n\n40\n\n20\n\n0\n\n1\t2\t3\t4\t5\t6\t7\t8\t9\t10\t11\t12\t13\t14\t15\t16\t18\tKÖSOB\n\nProje Aşamasında\tYapımı Devam Eden\tTrafiğe Açık\tTOPLAM\n\nUM ADI\tKARAYOLLARI GENEL MÜDÜRLÜĞÜNDE TÜNELCİLİK ÇALIŞMALARI\n\nwww.kgm.gov.tr\n\nSUN",
+      "conditions": [],
+      "document_id": "ING_9fea1e259f10c9d371f0",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_9fea1e259f10c9d371f0:ING_9fea1e259f10c9d371f0_CH_6f395bb34e:canonical=corpus/canonical/objects/ING_9fea1e259f10c9d371f0/58b79d5b5f1958aa4fccdd19986430a69bd4ff45d41cb8458a57234c8901c4a3/chunks/embedding_ready.jsonl#L1",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q31": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.4",
+      "supporting_question_ids": [
+        "1.4.2-Q31"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 1,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "7842c981d1f0b4e4d15ee42eab40cf7ab8982ba1663489ab1db42ce2cb43cc3e",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_0afbba7155",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_8c1c34718080ab7966f3c21ae14ae7ce5807e314232cdf42b38dbff69153d027",
+      "claim_text": "TÜNEL BAKIM ONARIM İŞLETME KURS NOTLARI\nTÜNEL BAKIM ONARIM İŞLETME KURS NOTLARI\n\n(DEVLET VE İL YOLLARI ÜZERİNDEKİ TRAFİĞE AÇIK TÜNELLER)\n\nTESİSLER VE BAKIM DAİRESİ BAŞKANLIĞI Sanat Yapıları Bakım, Onarım, İşletme Şubesi Müdürlüğü EKİM -2016\n\nTEŞEKKÜR\n\nBu  kitapta  bulunan  bilgilerin  toplanması  ve  yazımında  emeği  geçen  KGM  Sanat Yapıları  Bakım,  Onarım,  İşletme  Şubesi  Müdürlüğü  personellerinden  Tarık  AY,  Derya TATYÜZ,  Macit  ASLAN,  Özkan  KAÇAN  ve  diğer  Şube  Müdürlüğümüz  personellerine; kitabın  hazırlık  sürecinde  özellikle  bakım,  onarım  ve  işletme  konusundaki  tecrübelerini  ve dokümanlarını bizlerle paylaşan Bolu Dağı Tünel Bakım İşletme Şefi Murtaza BEŞİROĞLU ve çalışanlarına; aynı şekilde bizlere tecrübelerini aktaran ve geçmiş  çalışmalarından faydalandığımız, 2007 yılında kurulan Şube Müdürlüğümüzün ve bağlı Karayolları Devlet ve İl  Yolları  üzerinde  bulunan  Tünel  Bakım  İşletme  Şefliklerimizde  bulunan  tüm  karayolcu arkadaşlarımıza;  bu  çalışma  için  toplanan  komisyonumuzun  başında  olan  ancak  geçirdiği rahatsızlık  nedeniyle  bu  süreçte  aramızda  bulunamayan  ancak  manevi  desteğini  her  zaman hissettiğimiz  şefimiz  Sema  KELEŞ'e,  eğitim  konusundaki  tecrübelerini  bizimle  paylaşan müdür yardımcımız Selçuk KASIMOĞULLARI'na;  kitabın basımı, düzenlenmesi ve dağıtımında bizlere yardımcı olan karayolcu arkadaşlarımıza ve en önemlisi tüm çalışmalar boyunca  bizlerden  desteğini  esirgemeyip  birikimini  bizlerle  paylaşan  Şube  Müdürümüz Erdinç  KASIRGA'ya  ve  Daire  Başkanımız  Yasin  ALTUNYUVA'ya  katkılarından  dolayı teşekkür ederiz.\n\nSANAT YAPILARI BAKIM İŞ LETME Ş UBES İ MÜDÜRLÜ Ğ Ü\n\nK İ TAP DÜZENLEME KOM İ SYONU\n\nİÇİNDEKİLER\n\n4.1.3.9. Protokol Karşılaştırmaları……………………………………………………………………………………………188\n\n4.8.  DİĞER SİSTEMLER……………………………………………………………………………………………………………………303",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_0afbba7155:pages=1-9;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L1",
+      "page_end": 9,
+      "page_start": 1,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q38": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "1.4.2-Q38"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 6,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "8f2ede0b6f41666fd13367896462ad437b8b6b76112327000439192be73fe9c0",
+      "chunk_id": "ING_7d7c44992e83c7185c41_CH_53b3aefc37",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_96f003af7f375439feb4f5febe972657e8c4d413211bed4e9f3ab8d29947f2ea",
+      "claim_text": "Kaynakça\nazaltmasıyla ulaşım araçlarının kar ve buzlanmadan kaynaklı kazaların sayısını da azaltacağı düşünülmektedir. Aynı zamanda kaza nedeniyle ortaya çıkan ulaşım aksaklıklarını da minimum düzeye indireceği şüphesizdir. Tünel, yağışın fazla olduğu mevsimlerde heyelanların etkisini azaltmış ve fiziksel çözünmeden kaynaklı taş düşmelerinden dolayı oluşan yol kapanmalarına karşı alternatif bir güzergâh olmuştur. Zigana Dağı'ndan geçen ulaşım araçlarının azalmasıyla birlikte yaban ve terk edilmiş/edilmemiş evcil hayvanların kaza risklerini minimuma düşüren tünel, maddi ve manevi kazaların oluşmasını engelleyecektir.\n\nKaynakça\n\nAlaeddinoğlu, F . (2018). Dünya'da ve Türkiye'de sürdürülebilir kalkınma politikalarının gelişimi. Sürdürülebilir Kalkınma ve Türkiye (Eds. Ferhat Arslan, Arife Karadağ, Pervin Aksak), Gazi Kitabevi, 1-32.\n\nArınç, K. (2014). Doğal, Beşeri, İktisadi ve Siyasal Yönleriyle Akdeniz ve Karadeniz Bölgeleri. Erzurum: Biyosfer Araştırmaları Merkezi Coğrafya Araştırmaları Serisi No: 105.\n\nArslan, F . (2014). Türkiye'de sürdürülebilir doğal kaynak kullanımı arayışlarına  bir  örnek:  yeşil  binalar. Akademik Sosyal Araştırmalar Dergisi ,  2(2), 288-304.\n\nArslan, F . (2018). Türkiye'de bir kalkınma aracı olarak kurumsal sürdürülebilirlik ve örnek uygulamalar. Sürdürülebilir Kalkınma ve Türkiye (Eds. Ferhat Arslan, Arife Karadağ, Pervin Aksak), Gazi Kitabevi, 531-557.\n\nBakırcı, M. (2018). Ulaşım coğrafyası açısından sürdürülebilirlik ve Türkiye'de mevcut durum. Sürdürülebilir Kalkınma ve Türkiye (Eds. Ferhat Arslan, Arife Karadağ, Pervin Aksak), Gazi Kitabevi, 385-416.\n\nBekdemir, Ü., Şahin, F . & Kadıoğlu, Y . (2001). Trabzon limanından İran'a yapılan transit ticaretin gelişmesi, sorunları ve geleceği. Doğu Coğrafya Der - gisi , 7(5), 35-58.\n\nBreheny,  M  (1990).  Strategic  planning  and  urban  sustainability .  Proceeding of the 1990 town and country planning association annual conference, London.\n\nCenter for Climate and Energy Solutions, (2023). Global Emissions. https:// www.c2es.org/content/international-emissions/\n\nGaripağaoğlu, N. (2018). Türkiye'de sürdürülebilir bölgesel kalkınmada havza  planlama  ve  yönetiminin  önemi.  Sürdürülebilir  Kalkınma  ve  Türkiye  (Eds.  Ferhat  Arslan,  Arife  Karadağ,  Pervin  Aksak),  Gazi  Kitabevi, 143-176.\n\nKadıoğlu, Y. (2006). Zigana (Kalkanlı) Geçidi'nin karayolu ulaşımındaki rolü ve önemi. Türk Coğrafya Dergis i, 44, 45-60.\n\nKarayolları Genel Müdürlüğü (2022). Karayolları Genel Müdürlüğü Sorumlulu ğundaki Yol Ağında Meydana Gelen Trafik Kazalarına Ait Özet Bilgiler. https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Trafik/TrafikKazalariOzeti.aspx\n\nKarayolları Genel Müdürlüğü (2023). İstatistikler, trafik ve ulaşım bilgileri. https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Istatistikler/TrafikveUlasim. aspx\n\nKılıçaslan, A. (1994). Trabzon-Değirmendere Havzasının beşeri ve iktisadi coğrafya özellikleri. Atatürk Üniversitesi Sosyal Bilimler Enstitüsü Coğrafya Anabilim Dalı Yayımlanmamış Doktora Tezi.\n\nKnoflacher, H. & Ocalır, E. V . (2011). Sürdürülebilir ulaşım kavramı üzerine tartışmalar. TMMOB İnşaat Mühendisleri Odası 9. Ulaştırma Kongresi, 16-18 Mayıs, 51-58.\n\nKoday, S. (1999). Trabzon Limanı. Türk Coğrafya Dergisi , 34, 467-488.\n\nKoday, Z. (1995). Hopa ilçesinin coğrafyası. Atatürk Üniversitesi Sosyal Bilimler Enstitüsü Y ayımlanmamış Doktora Tezi.\n\nMay, A. D., Karlstrom, A., Marler, N., (2003). Developing sustainable urban land use and transport stretegies. A Decision Makers Guidebook, Institute for Transport Studies, University of Leeds.\n\nMcKenzie, S. (2004). Social sustainability: towards some definitions. Hawkw Research Institute Working Paper Series No: 27, Hawke Research Institute, University of Sout Australia.\n\nMeteroloji Genel Müdürlüğü (2023). Trabzon iklim verileri. www.mgm.gov.tr/ veridegerlendirme/il-ve-ilceler-istatistik.aspx?m=TRABZON\n\nSargın, S. ve Demir, Ş. (2018). İnsan mekân ilişkisi ölçeğinde kent kimliği ve Gümüşhane örneği. The Journal of International Scientific Researches , 3(4), 221-239.\n\nTozlu, S. (1997). Trabzon-Erzurum-Beyazıt yolu (1850-1900). Atatürk Üniversitesi Sosyal Bilimler Enstitüsü Y ayımlanmamış Doktora Tezi.\n\nUlaştırma ve Altyapı Bakanlığı (2023). Projeler. www.uab.gov.tr/projeler\n\nUnited Nations (1987). Our common future. Report of the World Comission on Enviroment and Development.\n\nYalılı Kılıç, M., Dönmez, T . & Adalı, S. (2021). Karayolu ulaşımında yakıt tüketimine bağlı karbon ayak izi değişimi: Çanakkale örneği. Gümüşhane Üniversitesi Fen Bilimleri Dergisi , 11(3), 943-955.\n\nZhu, H., Yan, J., & Liang, W . (2019). Challenges and development prospects of ultra-long and ultra-deep mountain tunnels. Engineering , 5, 384-392.\n\nwww.dpma.de/english/our_office/publications/milestones/inventionsthatmadehistory/theworldsfirstunderground/index.html",
+      "conditions": [],
+      "document_id": "ING_7d7c44992e83c7185c41",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_7d7c44992e83c7185c41:ING_7d7c44992e83c7185c41_CH_53b3aefc37:pages=13-14;canonical=corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl#L6",
+      "page_end": 14,
+      "page_start": 13,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q06": "PARTIAL",
+        "1.4.2-Q40": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "1.4.2"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "3",
+      "supporting_question_ids": [
+        "1.4.2-Q06",
+        "1.4.2-Q40"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 6,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_d6cabd5890cae7ee2a05/17d447a6023d9380f5aa00089138ec4fb9fd734cf565f07c8e84dad9ac210ab5/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "daa55df705b839e7e15fcc26cb0e9f34a9ee4dc7a1181a4dfa657deab56e6e76",
+      "chunk_id": "ING_d6cabd5890cae7ee2a05_CH_6c0d86cb3d",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_aa0070c435957df90814c629a9d9391515f0da427e461961df4feb412da925c8",
+      "claim_text": "Türkiye'deki Karayolu Tünellerinde Trafik Güvenliği\nyapılıyor. Tünel tüpleri boyunca yangın algılama sistemi mevcut. Her 500 metrede bir 2 tüp arası acil geçişler mevcut. Selatin tünelinin olumsuz özellikleri: En yakın itfaiyenin tünele ulaşması 30 dakika sürüyor. Tünelden çıkış rotasını gösteren tahliye aydınlatması mevcut ancak en yakın çıkış noktasının mesafesini gösteren tabelalarda aydınlatma mevcut değil. Kızlaç tünelinin olumlu özellikleri: Tünel aydınlatması normal güvenlik ve tahliye aydınlatması şeklinde. Tünel havalandırması olarak boyuna havalandırma seçilmiş ve PIARC önerilerine göre projelendirilmiş.\n\nTürkiye'deki Karayolu Tünellerinde Trafik Güvenliği\n\nTünel içinde havalandırma kontrolü yapılıyor.\n\nTünel tüpleri boyunca yangın alarm sistemi mevcut.\n\nTünel  içerisinde  itfaiye  ve  polis  ekiplerinin  telsiz  haberleşmesi  yapabilmeleri mümkün.\n\nYaklaşık 350 metrede bir 2 tüp arası acil geçişler mevcut.\n\nKızlaç tünelinin olumsuz özellikleri:\n\nEn yakın itfaiyenin tünele ulaşması 25 dakika sürüyor.\n\nTünelden çıkış rotasını gösteren tahliye aydınlatması mevcut ancak en yakın çıkış noktasının mesafesini gösteren tabelalarda aydınlatma mevcut değil.\n\nPortal girişlerinde bariyerler mevcut değil.\n\nAcil durum telefonları arızalı.\n\nAslanlı tünelinin olumlu özellikleri:\n\nTünel havalandırma sistemi jet fanlarla yapılan boyuna havalandırma sistemi.\n\nOtomatik  yangın  alarm  sistemi  ve  yangın  esnasında  devreye  giren  yeterli  güçte havalandırma sistemi mevcut.\n\nTünel  içerisinde  itfaiye  ve  polis  ekiplerinin  telsiz  haberleşmesi  yapabilmeleri mümkün.\n\nYaklaşık 350 metrede bir 2 tüp arası acil geçişler mevcut.\n\nAslanlı tünelinin olumsuz özellikleri:\n\nEn yakın itfaiyenin tünele ulaşması 25 dakika sürüyor.\n\nPortal girişlerinde bariyerler mevcut değil.\n\nAcil durum telefonları arızalı.\n\nTünel girişlerinde gabari kontrolü yok.\n\nAyran tünelinin olumlu özellikleri:\n\nTünel havalandırma sistemi jet fanlarla yapılan boyuna havalandırma sistemi.\n\nOtomatik  yangın  alarm  sistemi  ve  yangın  esnasında  devreye  giren  yeterli  güçte havalandırma sistemi mevcut.\n\nTünel ortasında 1 adet 2 tüp arası acil geçiş mevcut.\n\nAyran tünelinin olumsuz özellikleri:\n\nEn yakın itfaiyenin tünele ulaşması 25 dakika sürüyor.\n\nPortal girişlerinde bariyerler mevcut değil.\n\nAcil durum telefonları arızalı.\n\nTünel girişlerinde gabari kontrolü yok.\n\nTünel  içerisinde  itfaiye  ve  polis  ekiplerinin  telsiz  haberleşmesi  yapabilmeleri mümkün değil.\n\nUlaş tünelinin olumlu özellikleri:\n\nTünel ortasında cep mevcut\n\nOtomatik  yangın  alarm  sistemi  ve  yangın  esnasında  devreye  giren  yeterli  güçte havalandırma sistemi mevcut.\n\n4478",
+      "conditions": [],
+      "document_id": "ING_d6cabd5890cae7ee2a05",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_d6cabd5890cae7ee2a05:ING_d6cabd5890cae7ee2a05_CH_6c0d86cb3d:pages=8;canonical=corpus/canonical/objects/ING_d6cabd5890cae7ee2a05/17d447a6023d9380f5aa00089138ec4fb9fd734cf565f07c8e84dad9ac210ab5/chunks/embedding_ready.jsonl#L6",
+      "page_end": 8,
+      "page_start": 8,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q24": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "1.5.2",
+        "5.9.1"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "1.5",
+      "supporting_question_ids": [
+        "1.4.2-Q24"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 7,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "e1495b5a03cae73fc936f8c555f044d85149d358724d7a6352e07f31463cbd74",
+      "chunk_id": "ING_1fb6b71a35f819248daf_CH_b82e9c650c",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_b731ecb4119394c82c4b57213cf0cb4b82d6c1c97d628808c5ae154f10e1e43d",
+      "claim_text": "TEŞEKKÜR > 1 TÜNEL TANIMI, TARİHÇESİ VE GEREKLİLİĞİ\naksatmamak, doğal yapıyı bozmamak için akarsuların veya boğaz teşkil eden deniz sularının altından geçilmek istendiği zaman, S İnşası ve bakımı fazla masraflı olan kendini tutamayan zeminlerdeki büyük yarmalardan kurtulmak amacıyla, S Yer üstü istimlâklerinin çok pahalı olduğu yerlerdeki yolların genişletilmesi veya yeni yolların açılması imkânının bulunmadığı durumlarda ya da kitle halinde toplu ulaşım gerektiği zaman metro inşası için, S Trafiği çok yoğun olan yolların veya bir yolla bir demiryolunun aynı düzeyde birbirini kesmesi istenmediği zaman,\n\nS Birbirlerinden tepe, sırt, akarsu, boğaz vb. gibi doğal engellerle ayrılmış şehir semtlerinin birleştirilmesi amacıyla.\n\nÜlkemiz; uluslararası ulaşım yol ağlarının geçiş koridoru üzerinde olması, coğrafi olarak da yüksek dağlık alanları içermesi (ortalama yükseltisi 1100 metreden fazla) ve olumsuz kış koşullarında trafik güvenliğinin sağlanabilmesi için tünel projelerine yoğunluk vermektedir.\n\nÖzelikle Bolu Dağı Tünelinin trafiğe açılmasıyla ivmelenen tünel yapımı konusu son yıllarda yapımı tamamlanan ve devam eden önemli tünel yapılarıyla devam etmektedir.\n\nBunlara; Kuzey Marmara Otoyolu güzergâhında yer alan dünyanın ilk dört şeritli karayolu tünelleri Sütlüce ve Riva Tünelleri, İstanbul İzmir Otoyolu güzergahında bulunan üç şeritli Orhangazi, Belkahve ve Selçukgazi Tünelleri, İzmir Körfez Geçişi Yapay Ada ve Batırma Tünel Yapısı, Yeni Zigana Tüneli, Ovit Tüneli, Kop Tüneli, Kırık Tüneli, İzmir Konak ve Sabuncubeli Tünelleri, Erkenek ve Karahan Tünelleri, Geminbeli Tüneli, Kahramanmaraş-Göksu aksında yer alan karayolu tünelleri, Karadeniz Sahil Yolu Tünelleri, İlgaz Tüneli, Zonguldak Şehir Geçişi Tünelleri (Mithatpaşa, Sapça, Üzülmez Tünelleri); bunların yanında İstanbul’da Marmaray, Avrasya Tüneli, Haliç Tüneli örnek olarak gösterilebilir.\n\nKarayolları Genel Müdürlüğüne bağlı envanterimize bakıldığında 244 adet, 219 km uzunluğunda tünel trafiğe açık, 133 adet 329 km tünelimizin ise yapımı devam etmektedir. Aşağıdaki tabloda bunlarla ilgili bilgiler verilmiştir.\n\nGRAFİK t KCM TÜNEL ADET BİLGİLER3\t5)\n\nŞekil 2. KGM Tünel Bilgileri\n\n2 TÜNEL ÇEŞİTLERİ\n\nTüneller, yapım şekillerine göre ve iş levlerine göre olmak üzere iki ana başlıkta incelenebilir. Yapım şekline göre tüneller, tünellerin nasıl bir toprak parçasında nasıl inşa edilmesi gerektiğiyle ilgili, işlevlerine göre tüneller ise tünellerin ne amaçla ve ne şekilde kullanılacağına dair bir sınıflandırmadır.\n\nŞekil 3. Tünel Çeşitleri",
+      "conditions": [],
+      "document_id": "ING_1fb6b71a35f819248daf",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_b82e9c650c:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L7",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q04": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5",
+        "5.4"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4.2",
+      "supporting_question_ids": [
+        "1.4.2-Q04"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 2,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_9fea1e259f10c9d371f0/58b79d5b5f1958aa4fccdd19986430a69bd4ff45d41cb8458a57234c8901c4a3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "fa27cbf703ab1df2cbde4cd86b16a04e489e4937beb4c4a73c2e079d2ed86852",
+      "chunk_id": "ING_9fea1e259f10c9d371f0_CH_0f3afa578d",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_b7c7562adad6df86d6ac0f4d71ccf2cabfd3d9fdca002a32d8a6c4c83b8b12ea",
+      "claim_text": "Gelişen projelendirme ve yapım teknolojileri ile edinilen bilgi birikimlerinin sonucu, bu yıldan sonra tünel projelendirilmesi ve yapımı büyük bir hızla artmıştır.\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 KÖSOB Proje Aşamasında Yapımı Devam Eden Trafiğe Açık TOPLAM 240 220 200 180 160 140 120 100 80 60 40 20 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 KÖSOB Proje Aşamasında Yapımı Devam Eden Trafiğe Açık TOPLAM UM ADI KARAYOLLARI GENEL MÜDÜRLÜĞÜNDE TÜNELCİLİK ÇALIŞMALARI www.kgm.gov.tr SUN\n\nGelişen projelendirme ve yapım teknolojileri ile edinilen bilgi birikimlerinin sonucu, bu yıldan sonra tünel projelendirilmesi ve yapımı büyük bir hızla artmıştır.\n\nDünyada yer altı yapılarının önem kazanmasıyla oluşan eğilimin sonucu ve ülkemizde bilgi birikimi, gerek projelendirme gerekse yapım çalışmalarından edinilen tecrübenin artmasıyla tüneller artık kaçınılan yapılar olmaktan çıkmış, tercih edilen yapılar haline gelmiştir.\n\nBu durumun doğal sonucu olarak karayolu ulaşımında da gerek yatay ve düşey yol geometrilerinde sağladığı iyileştirme, gerekse portal bölgeleri dışında kamulaştırma gereksinimini azaltması gibi avantajlar tünelleri ön plana çıkarmıştır.\n\nTÜRKİYE TÜNELCİLİK SEMİNERİ\n\nNUM ADI\tKARAYOLLARI GENEL MÜDÜRLÜĞÜNDE TÜNELCİLİK ÇALIŞMALARI\n\nwww.kgm.gov.tr\n\nTÜRKİYE TÜNELCİLİK SEMİNERİ\n\nNUM ADI\tKARAYOLLARI GENEL MÜDÜRLÜĞÜNDE TÜNELCİLİK ÇALIŞMALARI\n\nwww.kgm.gov.tr\n\nTÜRKİYE TÜNELCİLİK SEMİNERİ\n\nTÜRKİYE TÜNELCİLİK SEMİNERİ\n\nTÜRKİYE TÜNELCİLİK SEMİNERİ\n\nTÜRKİYE TÜNELCİLİK SEMİNERİ\n\nKarayolları Genel Müdürlüğünde\n\nTünel Projelendirme Çalışma Aşamaları\n\nUygun tünel güzergahının seçimi,\n\nYeterli jeolojik arazi araştırması\n\nKaya/zemin mekaniği prensiplerinin dikkate alınması\n\nEsnek destekleme, narin kaplama dizaynı\n\nYapım sırasında teknik emniyet ve maliyetin dengelenebilmesine olanak veren alternatif tip desteklemelerin oluşturulması,\n\nÖn Etüt Aşaması:\n\n(Üzerinde tünelin yer aldığı ana güzergahın seçilerek incelenmesi aşaması) hava fotoğrafları,\t1/25.000'lik topoğrafik harita\n\nbölgesel jeoloji, yüzey jeolojisi, 1/25.000'likmühendislik jeolojisi haritası bölgesel tektonizmanın fayların, süreksizliklerin tünele etkileri\n\ntünel üzerinde veya yakınında heyelanlar hidrojeolojik yapının incelenmesi\n\ntünelin portal kesimlerinde arazinin genel yapısı, heyelan bulunup bulunmadığı\n\ntünel\tgiriş\taynasının\tbulunduğu\tkesimde\tkaya/zemin\tortamının\tstabil\tolup olmadığı, örtü yüksekliği v.b.\n\nÖn Proje Aşaması :\n\n(Alternatiflerin\tincelenerek\ttünel\tiçin\tteknik\tve\tekonomik\ten\tuygun güzergahın kesinleştirilme aşaması)\n\n1/5000'lik Mühendislik Jeolojisi haritasının hazırlanması\n\nAraştırma programına göre sondaj, araştırma çukuru, jeofizik, laboratuvar deneyleri, yerinde deneyler v.b. (araştırma çalışmalarının tipi, sayısı ve yerleri jeolojisi çalışmaları ve uygulanacak tünel kesiti, tünelin, tünelin geçtiği seviye ve tünelin diğer geometrik özellikler eğimi v.b.) dikkate alınarak belirlenmektedir.)\n\nKazı ve destek ön projelerinin hazırlanması\n\nKesin Proje Aşaması :\n\n(Tünelin yapımına esas teşkil eden projedir.)\n\n1/1000-1/2000'lik\t(\teksenin\t250\tm\tsağı,\t250\tm\tsolunu\tkapsayacak\tşekilde) mühendislik jeolojisi haritasının hazırlanması\n\nJeolojik modelin oluşturulması\n\nJeoteknik modelin jeoteknik profilin oluşturulması (kaya sınıflamaları) Tünelin geometrisinin (güzergah ve tip kesitinin) kesinleştirilmesi\n\nTünel kazı ve destekleme sisteminin boyutlandırılması (nümerik analizler) Portal kesimde yapılacak şev kazılarının ve portal yapılarının projelendirilmesi\n\nKESİN PROJE İÇİN YAPILACAK ARAŞTIRMA ÇALIŞMALARINDA ÖNCELİKLİ OLARAK GÖZ ÖNÜNE ALINAN\tBÖLGELER",
+      "conditions": [],
+      "document_id": "ING_9fea1e259f10c9d371f0",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_9fea1e259f10c9d371f0:ING_9fea1e259f10c9d371f0_CH_0f3afa578d:canonical=corpus/canonical/objects/ING_9fea1e259f10c9d371f0/58b79d5b5f1958aa4fccdd19986430a69bd4ff45d41cb8458a57234c8901c4a3/chunks/embedding_ready.jsonl#L2",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q31": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.4",
+      "supporting_question_ids": [
+        "1.4.2-Q31"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 1,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "39eacbe9d1d6394cc253365aaf910de21096b0d525d1656c14cb6265ed0aa24d",
+      "chunk_id": "ING_7d7c44992e83c7185c41_CH_751f928d57",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_b8a412517b4a349f31ce54810b08cb92bcbd28b80a31128b286c03f0c5b2c97c",
+      "claim_text": "Özet\nBölüm 11\n\nSürdürülebilir Ulaşımda Karayolu Tünellerinin Yeri: Y eni Zigana (Trabzon) Tüneli\n\nMehmet Üzülmez 1\n\nÖzet\n\nSürdürülebilirlik  günümüzde  bütün  yaşam  alanımıza  girmiş  bulunmaktadır. Dünya  nüfusunun  artması  bu  kavramın  önemini  daha  da  artırmıştır.  İnsan yaşamının  vazgeçilmez  unsurlarından  biri  olan  ulaşımın  da  sürdürülebilir şekilde yapılması gerekmektedir. Bunun için ülkeler belirli sürelerde Birleşmiş Milletler  çatısı  altında  çeşitli  toplantılar  yapmaktadır.  Y apılan  bu  toplantıların sonucunda ülkeler, gelecekte sera gazı üretimini azaltmaya yönelik taahhütlerde bulunmaktadırlar.  Sera  gazı  üretiminde  enerjinin  payı  %72  seviyelerinde ve  ulaşım  ise  enerjiden  kaynaklı  sera  gazı  üretimine  %15  oranında  katkı sağlamaktadır. Ulaşımın payını daha da aşağı düşürebilmek için ulaşım araçları fosil yakıtlar yerine elektrikle çalışan araçlara  dönüşebilmektedir.  Ulaşım yollarında da teknolojinin gelişmesiyle daha uzun köprü ve tünellerin yapılması mesafeleri kısaltmakta ve böylece havaya daha az karbon salınımının olmasını sağlamaktadırlar.  Bu  çalışmada  da  Türkiye'nin  en  uzun  karayolu  tüneli  olan Yeni  Zigana  Tüneli'nin  ulaşımdaki  sürdürülebilirliği  incelenmiştir.  Zigana Dağı'ndan geçen Y eni Zigana Tüneli ulaşımın sürdürülebilir şekilde olmasına katkı sağlamaktadır. Çünkü yeni yapılan tünel eskisine göre 600-700 metre daha alçaktan geçmektedir. Böylece hem ekonomik olarak mesafeyi kısaltmak hem de  1800  metre  yükseltiye  çıkmadan  araçlardan  çıkan  karbon  salınımını  %15 oranla azaltmaktadır. Y eni Zigana Tüneli, yüksek rakımdan geçen karayolunda yaşanan  kış  mevsiminin  getirdiği  ağır  iklim  koşullarının  etkisini  azaltmasıyla ulaşım araçlarının kar ve buzlanmadan kaynaklı kazaların sayısını da azaltacağı düşünülmektedir. Aynı zamanda kaza nedeniyle ortaya çıkan ulaşım aksaklıklarını da  minimum  düzeye  indireceği  şüphesizdir.  Tünel,  yağışın  fazla  olduğu mevsimlerde heyelanların etkisini azaltmış ve fiziksel çözünmeden kaynaklı taş düşmelerinden  dolayı  oluşan  yol  kapanmalarına  karşı  alternatif  bir  güzergâh olmuştur. Zigana Dağı'ndan geçen ulaşım araçlarının azalmasıyla birlikte yaban ve terk edilmiş/edilmemiş evcil hayvanların kaza risklerini minimuma düşüren tünel, maddi ve manevi kazaların oluşmasını engelleyecektir.",
+      "conditions": [],
+      "document_id": "ING_7d7c44992e83c7185c41",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_7d7c44992e83c7185c41:ING_7d7c44992e83c7185c41_CH_751f928d57:pages=1;canonical=corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl#L1",
+      "page_end": 1,
+      "page_start": 1,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q40": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "1.4.2"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "3",
+      "supporting_question_ids": [
+        "1.4.2-Q40"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 32,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_9fdf7f646f2268199035/d1c39483b7230111496248816d514b82c3c212217fe35b28bbc84634b158035b/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "617cc8e6eafd4a93b292c735bbf7fc0b27a1e16f7332acad7fc537f5a5cdbce5",
+      "chunk_id": "ING_9fdf7f646f2268199035_CH_e51b424f82",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_d7a374b2217744b895f330af00cfd4cd4b9081ef74d29b18e85e48ad3b1f896d",
+      "claim_text": "HARRAN ÜNİVERSİTESİ\nFEN BİLİMLERİ ENSTİTÜSÜ > 6 Tünelciliğin Tarihsel Anlamda Gelişimi\nTünel Adı | Tünel Adı | Yapım Yılı | Yeri | Yeri | Yeri | Amacı | Amacı | Çapı\n\n\n\n(m) | Çapı\n\n\n\n(m) | Uzunluk\n\n\n\n(m) | \n\n- | - | MÖ 15000 | Avrupa | Avrupa | Avrupa | Maden | Maden | - | - | - | \n\n- | - | MÖ 4000 | Anadolu | Anadolu | Anadolu | Nakliyat | Nakliyat | 3,50x5,40 | 3,50x5,40 | 1000 | \n\n |  | MÖ 2000 | İtalya | İtalya | İtalya | Nakliyat | Nakliyat | 7,50 | 7,50 | 900 | \n\nAksırat | Aksırat | MÖ 300 | Anadolu | Anadolu | Anadolu | Suyolu | Suyolu | 0,80x2,0 | 0,80x2,0 | 45000 | \n\n- | - | MÖ 200 | Anadolu | Anadolu | Anadolu | Nakliyat | Nakliyat | 3,80x4,80 | 3,80x4,80 | 960 | \n\n- | - | MÖ 36 | İtalya | İtalya | İtalya | Ulaşım | Ulaşım | 7,60-9,15 | 7,60-9,15 | 1220 | \n\nFacinus | Facinus | MS 41 | İtalya | İtalya | İtalya | Drenaj | Drenaj | - | - | 5635 | \n\nMal-passe | Mal-passe | 1679-1681 | Fransa | Fransa | Fransa | Su Yolu | Su Yolu | 7,0x8,0 | 7,0x8,0 | 160 | \n\nThames | Thames | 1807-1842 | İngiltere | İngiltere | İngiltere | Ulaşım | Ulaşım | - | - | - | \n\nSchuylkill | Schuylkill | 1818-1820 | Amerika | Amerika | Amerika | Suyolu | Suyolu | 5,50x6,10 | 5,50x6,10 | 250 | \n\nMoodhead | Moodhead | 1839-1841 | İngiltere | İngiltere | İngiltere | Demiryolu | Demiryolu | 8,50x6,70 | 8,50x6,70 | 4843 | \n\nBergen | Bergen | 1850-1855 | Amerika | Amerika | Amerika | Demiryolu | Demiryolu | 8,50x6,40 | 8,50x6,40 | 1281 | \n\nMont cenıs | Mont cenıs | 1857-1871 | Fransa-İtalya | Fransa-İtalya | Fransa-İtalya | Demiryolu | Demiryolu | 7,60x6,10 | 7,60x6,10 | 12700 | \n\nSt. Godhard | St. Godhard | 1872-1881 | İsviçre | İsviçre | İsviçre | Demiryolu | Demiryolu | 8,0x7,50 | 8,0x7,50 | 14980 | \n\nSımplon I | Sımplon I | 1895-1906 | İsviçre | İsviçre | İsviçre | Demiryolu | Demiryolu | 5,0x5,35 | 5,0x5,35 | 19730 | \n\nSımplon II | Sımplon II | 1912-1921 | İtalya | İtalya | İtalya | Demiryolu | Demiryolu | - | - | - | \n\nRove | Rove | 1911-1922 | Fransa | Fransa | Fransa | Deniz Tün. | Deniz Tün. | - | - | 7118 | \n\nConnaught | Connaught | 1913-1916 | Kanada | Kanada | Kanada | Demiryolu | Demiryolu | 8,50x7,90 | 8,50x7,90 | 8052 | \n\nTanna | Tanna | 1918-1934 | Japonya | Japonya | Japonya | Karayolu | Karayolu | - | - | - | \n\nAppenin | Appenin | 1920-1931 | İtalya | İtalya | İtalya | Demiryolu | Demiryolu | 9,40x8,30 | 9,40x8,30 | 18510 | \n\nNew cascade | New cascade | 1924-1927 | Amerika | Amerika | Amerika | Demiryolu | Demiryolu | 8,0x7,50 | 8,0x7,50 | 14980 | \n\nMetro | Metro | 1900- | Paris | Paris | Paris | Ulaşım | Ulaşım | 7,80 | 7,80 | 15200 | \n\nMetro | Metro | 1937-1946 | Londra | Londra | Londra | Ulaşım | Ulaşım | 14,10 | 14,10 | 4620 | \n\nMetro | Metro | 1934-1964 | Moskova | Moskova | Moskova | Ulaşım | Ulaşım | 2,0x6,0 | 2,0x6,0 | 59500 | \n\nMetro | Metro | - | Chicago | Chicago | Chicago | Ulaşım | Ulaşım | 4,50 | 4,50 | 22500 | \n\nMest delaware | Mest delaware | 1955-1959 | Amerika | Amerika | Amerika | Sulama | Sulama | 4,10 | 4,10 | 70858 | \n\nE. Turnut | E. Turnut | 1954-1958 | Avustralya | Avustralya | Avustralya | Sulama | Sulama | 7,30 | 7,30 | 22224 | \n\nHarold roberst | Harold roberst | 1957-1960 | Amerika | Amerika | Amerika | Sulama | Sulama | 3,95 | 3,95 | 37485 | \n\nMont blanc | Mont blanc | 1959-1965 | Fransa İtalya | Fransa İtalya | Fransa İtalya | Demiryolu | Demiryolu | 9,0x12,45 | 9,0x12,45 | 12650 | \n\nKadıncık I | Kadıncık I | 1967-1969 | Türkiye | Türkiye | Türkiye | Hidroelektrik | Hidroelektrik | 4,00 | 4,00 | 7128 | \n\nUrfa | Urfa | 1977-1992 | Türkiye | Türkiye | Türkiye | Sulama | Sulama | 9,00 | 9,00 | 2x26400 | \n\nEyüp | Eyüp | 1986-1987 | Türkiye | Türkiye | Türkiye | Kanalizasyon | Kanalizasyon | 2,20 | 2,20 | 1865 | \n\nSelatinler | Selatinler | 1988-1994 | Türkiye | Türkiye | Türkiye | Karayolu | Karayolu | 12,5 | 12,5 | 2x2950 | \n\nYahazu | Yahazu | 1990-1993 | Japonya | Japonya | Japonya | Karayolu | Karayolu | 12x7,5 | 12x7,5 | 2x2000 | \n\nİstanbul | İstanbul | 1992- | Türkiye | Türkiye | Türkiye | Ulaşım | Ulaşım | 6,40 | 6,40 | 2x6500 | \n\nİzmir | 1995-2001 | 1995-2001 | 1995-2001 | Türkiye | Ulaşım | Ulaşım | 2x6,5 | 2x6,5 | 2x1400 | 2x1400 | 2x1400\n\nİzmir | 2000-2007 | 2000-2007 | 2000-2007 | Türkiye | Karayolu | Karayolu | 12 | 12 | 1800 | 1800 | 1800\n\nİzmir | 2001- | 2001- | 2001- | Türkiye | Ulaşım | Ulaşım | 12 | 12 | 5400 | 5400 | 5400",
+      "conditions": [],
+      "document_id": "ING_9fdf7f646f2268199035",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_9fdf7f646f2268199035:ING_9fdf7f646f2268199035_CH_e51b424f82:canonical=corpus/canonical/objects/ING_9fdf7f646f2268199035/d1c39483b7230111496248816d514b82c3c212217fe35b28bbc84634b158035b/chunks/embedding_ready.jsonl#L32",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q46": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.2.1",
+        "2.1"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.2",
+      "supporting_question_ids": [
+        "1.4.2-Q46"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 2,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_d6cabd5890cae7ee2a05/17d447a6023d9380f5aa00089138ec4fb9fd734cf565f07c8e84dad9ac210ab5/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "f5b68b6e48cd13862395ce6b1e562c995d361ce4bc5c7746d73a7898f8906995",
+      "chunk_id": "ING_d6cabd5890cae7ee2a05_CH_57c695737a",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_db54eec6a6f4a13812d274e8469c08840c10bd7adb1c76f9ac3fdf920d1e37a8",
+      "claim_text": "1. GİRİŞ\nprepared and put into force the directive on minimum safety requirements in road tunnels in 2004, due to the accidents happening in the tunnels within the boundaries in recent years. In this study, the current situation of 18 road tunnels in Turkey is examined; compliance of the tunnels in Turkey to EU directive is considered; and the things to do to secure the traffic safety in these tunnels are stated. Not: Bu yazı\n\n1. GİRİŞ\n\nKarayollarında ulaşımı kolaylaştıran, uzun mesafeleri kısaltarak geçmeye olanak sağlayan tünellerde yeterli güvenlik önlemleri alınmadığında ciddi trafik kazaları meydana gelebilmektedir. Özellikle tehlikeli madde taşıyan araçların sebep olduğu yangınlı kazalarda bu önlemlerin gerekliliği daha iyi anlaşılmaktadır.\n\nGelecekte  gerçekleşmesi  muhtemel  tünel  kazalarının  önlenmesi  ve  etkilerinin  azaltılması amacıyla,  bugüne  kadar  meydana  gelen  tünel  kazalarına  ait  verilerin  incelenmesi  ve istatistiki  bilgilerin  değerlendirilmesi  gereklidir.  Bunun  için;  sürücü,  tünel  işletimi,  tünel altyapısı ve araçlarla ilgili tünel güvenliğini etkileyen faktörlerin kazaya etkilerinin ortaya konulması gereklidir.\n\nTürkiye  engebeli  coğrafi  yapısı  nedeniyle  çok  sayıda  karayolu  tüneline  sahiptir.  Yapım aşamasındaki tünellerin tamamlanmasıyla bu sayı daha da artacaktır. Türkiye'deki mevcut karayolu  tünellerinin  minimum  güvenlik  kriterleri  açısından  değerlendirilmesi  ve  yeni yapılacak tünellerin de bu kriterler göz önünde bulundurularak projelendirilmesi gereklidir. Diğer  yandan  Avrupa  Birliği'ne  üyelik  sürecinde,  diğer  tüm  alanlarda  olduğu  gibi  bu alanda da Türkiye'deki standartların AB ile uyumlaştırılması gerekmektedir.\n\n2. TÜNEL GÜVENLİĞİ\n\nTünel  kaza  raporlarının  incelenmesi  ile  kazaya  karışan  araçların  türü,  kazanın  meydana geldiği tünelin özellikleri, kazanın ne tür bir hata sonucu meydana geldiği gibi bir çok konu hakkında  bilgi  alınabilir.  Tünel  kazalarının  istatistiksel  olarak  değerlendirilebilmesi  için tünel özellikleri ve kaza özelliklerinin belirlenmesi gereklidir. Bu özellikler;\n\nTünel özellikleri: Tünelin fiziksel ve geometrik özellikleri (yeri, uzunluğu, eğimi, şerit genişliği,  vb.),  işaretlemeler,  aydınlatma,  havalandırma  sistemleri,  mevcut  güvenlik sistemleri vb.\n\nKaza özellikleri: Kazanın nasıl meydana geldiği, kaza tipi ve şekli, kazaya neden olan unsurlar, kaza sonucu meydana gelen yaralanma ve/veya ölümler vb. özelliklerdir.\n\nLiteratürde karayolu tünel kazaları ile ilgili yapılan çalışmalar incelendiğinde karşımıza şu sonuçlar çıkmaktadır:\n\nRapor edilen birçok karayolu tünel kazasında araç tipleri açık olarak belirtilmemiş olmasına rağmen  eldeki  veriler  incelendiğinde  en  fazla  kazaya  karışan  araç  türünün  kamyonlar olduğu göze çarpmaktadır [1].\n\nÇift yönlü trafik akışının olduğu tünellerde tek yönlü trafik akışı olanlara oranla % 40 daha fazla kaza meydana geldiği görülmektedir. Bir çok tünelde acil durum şeridinin olmaması trafik  üzerinde  negatif  bir  etki  yaratmaktadır.  Eğimi  %2,5'in  üzerinde  olan  tünellerde meydana  gelen  araç  arızalanmaları,  eğimi  %2,5'dan  daha  az  olanlara  oranla  5  kat  daha fazladır. Uluslararası istatistikler incelendiğinde; araçlarda çıkan  yangının  nedeninin, çarpışmalardan daha çok; aracın hatalı elektrik sisteminden, aşırı ısınmış motordan vb. bir sebepten kendiliğinden alev alma şeklinde kaynaklandığı görülür. Buna rağmen dünyada en kötü  sonuçları  olan  14  tünel  yangını  incelendiğinde  12'sinde  yangının  kaza  sonucu meydana geldiği görülmektedir [2].\n\nPIARC (World Road Association) tarafından incelenen karayolu tünel kazalarında meydana gelen yangınların nedenleri şu şekilde sıralanmıştır [3].\n\nElektrik arızaları (hafif araçlarda en sık olarak yangın sebebi),\n\nFren balatalarında meydana gelen ısınmalar (ağır taşıtlardaki yangınların %60-%70'inin sebebi),\n\nAracın kendi kendine alev almasına yol açan diğer arızalar.\n\nDaha az karşılaşılan kaza nedenleri:\n\nÇarpışmalar,\n\nTünel ekipmanındaki teknik hatalar,\n\nTünellerde yürütülen bakım çalışmalarıdır [3].\n\nTünelde meydana gelecek olası bir yangının boyutları yangın çıkan aracın yükü ve tipine bağlıdır.\n\nÇizelge 1. PIARC tarafından kabul edilen araç tipleri ve yangın kapasiteleri [3]",
+      "conditions": [],
+      "document_id": "ING_d6cabd5890cae7ee2a05",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_d6cabd5890cae7ee2a05:ING_d6cabd5890cae7ee2a05_CH_57c695737a:pages=2-3;canonical=corpus/canonical/objects/ING_d6cabd5890cae7ee2a05/17d447a6023d9380f5aa00089138ec4fb9fd734cf565f07c8e84dad9ac210ab5/chunks/embedding_ready.jsonl#L2",
+      "page_end": 3,
+      "page_start": 2,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q23": "PARTIAL",
+        "1.4.2-Q25": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "1.5.2",
+        "5.9.1"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "1.5",
+      "supporting_question_ids": [
+        "1.4.2-Q23",
+        "1.4.2-Q25"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 28,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "e19d9dcece0401e23d191b53e408b6b35a7a9a153346c1a770067c2528c364cf",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_fd150dd2f8",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_dbd4cf4a5ddc96c36ab52d692f1e478f76d6cd7686253bf17712d7498aeb180e",
+      "claim_text": "2.2.3.2.16 . HABERLEŞME SERVİSLERİ (Dahili ve Harici Anons Sistemi)\nböylece tünel acil durumlarda kapatılabilecektir. İlave araçlar, örneğin değişken mesaj işaretleri ve bariyerler, mesajlara uyulmasının temini için sağlanabilir. 3000 m' den uzun, kontrol merkezi olan ve trafik hacmi şerit başına 2000 araçtan yüksek olan tüm tünellerin içerisinde, bir acil durumda araçları durduracak ekipmanın, 1000 m' yi aşmayacak aralıklarla olması önerilir. Bu ekipman, trafik sinyallerini ve olası ilave araçları örneğin hoparlörler, değişken mesaj işaretleri ve bariyerleri kapsayacaktır.\n\n2.2.3.2.16 . HABERLEŞME SERVİSLERİ (Dahili ve Harici Anons Sistemi)\n\nTelsiz ekipmanı (Belirli frekanstaki telsiz yayınlarının tünel boyunca  iletimini sağlayan elektronik ekipman) , acil servislerin (bakım, itfaiye, ambulans, vb.), kullanımı için, 1000  m'  den  uzun  ve  trafik  hacmi  şerit  basına  2000  araçtan  yü ksek  tüm  tünellere  tesis edilecektir.\n\nKontrol  merkezinin  olduğu  yerde,  gerektiğinde  acil  durum  mesajlarını  iletmek  için, tünel  kullanıcılarına  hitap  eden  kanalların  radyo  yayınına  giriş  yapma  imkânı  olacaktır. Tahliye esnasında tünel kullanıcılarının dışarıya erişmeden önce bekleyeceği sığınaklarda ve diğer tesislerde, kullanıcılara bilgi aktarılması amacıyla, hoparlörler teçhiz edilecektir.\n\n2.2.3.2.17 . ACİL GÜÇ TEMİNİ\n\nTüm tüneller  tahliye  için  kaçınılmaz  olan  güvenlik  ekipmanlarının,  tüm  kullanıcılar tüneli  tahliye  edinceye  kadar,  işletimini  sağlayacak  bir  acil  güç  kaynağına  sahip  olacaktır. Elektrik,  ölçü  ve  kontrol  devreleri,  örneğin  lokal  bir  arızanın,  veya  bir  yangın  nedeniyle oluşan bozulmanın diğer sistemleri etkileyemeyeceği şekilde tasarlanacaktır.\n\n2.2.3.2.18 . EKİPMANLARIN YANGINA DAYANIKLILIĞI\n\nTüm  tünel  ekipmanının  yangına  dayanıklılık  düzeyi,  teknolojik  imkânları  ve  bir yangın durumunda gerekli güvenlik fonksiyonlarının sürdürülmesi amacı, dikkate alınacaktır.\n\n2 .2.4. TÜRKİYE'DE YAPILAN TÜNEL GÜVENLİĞİ ÇALIŞMALARI\n\nBilindiği üzere, Türkiye Avrupa Birliği'ne üye olduktan sonra Trans Avrupa Ağlarının (TENT) bir parçası haline gelmiştir. Bu sebepten dolayı Türkiye'nin kullanımına sunulan AB fonlarının büyük çoğunluğunu ulaştırma sektörü oluşturmaktadır. Türkiye, AB'nin ulaştırma projelerine kaynak sağlamasını temin etmek için Trans Avrupa Ağlarına bağlanması sırasında izleyeceği  stratejinin,  yapması  gereken  yatırımların  ve  Türkiye'yi  Trans  Avrupa  Ağlarına bağlayacak çok modlu taşımacılığı sağlayacak ana güzergâhların belirleneceği, bu güzergâhlara bağlantı sağlayacak önemli ulaştırma ağlarının ve bağlantı noktalarının da ortaya konulacağı Ulaşım Altyapı İhtiyaç Değerlendirme Çalışmasını (TINA Türkiye) hazırlamıştır.\n\nTEN  yolu;  Tür kiye  sınırları  içerisinde  Kapıkule  Sınır  Kapısından  başlayıp,  doğuda Sarp, Gürbulak Sınır Kapılarına, güneyde Cilvegözü ve Habur Sınır Kapılarına ulaşmaktadır. Bu güzergâhlarda bulunan tüneller, karayollarının bütünleyici bir parçasını oluşturmaktadır. Aşağıdaki  harita  ve  tablolarda  TEN  ağında  bulunan  karayollarımız  ve  tünellerimiz  yer almaktadır.\n\n07.09.2004 tarihinde Karayolları Genel Müdürlüğü'nde toplanan komisyon, dünyada bu uygulamalarda rehber olarak kullanılan;\n\n Avrupa Parlamentosu ve Konseyi'nin 2 9.04.2004 tarih ve 2004/54/EC sayılı \"Trans - Avrupa Karayolu Ağı Tünelleri İçin Minimum Güvenlik Gereksinimleri\",\n\n Tüneller İçin Acil Durum Tesisleri Şartnamesi (Japonya, 1997)\n\n UNECE-Karayolu Tünelleri Uzmanlar Grubu'nun Tavsiyeleri Nihai Rapor\n\n (TRANS/AC.7/9, 2001)\n\n PIARC Tünellerde Yol Güvenliği (1995)\n\n Avusturya Planlama Kılavuzu (RVS.9.281, RVS.9.282, RVS.9.261, RVS.9.262)\n\n CIE (Uluslararası Aydınlatma Komisyonu)\n\nŞekil 19 . Ülkemizden Geçen TEN Yol Ağı\n\nkaynaklarını incelemi ş,  'Trans - Avrupa  Karayolu  Ağı  Tünelleri  için  Minimum Güvenlik Gereksinimleri nin altyapı önlemleri bakımından  esas alınmasına karar verilmiştir.  Bu direktifte  yer  almayan  hususlar  için  yukarıdaki  belgelerin  ilgili  hükümlerinin  uygulanacağı belirtilmiştir.\n\nKGM'nin  08.03.2005  tarihli  'Tünellerin  Asgari  Güvenlik  Gereksinimlerine  İlişkin Proje Kriterlerinin Belirlenmesiyle İlgili Komisyon Raporu'nda altyapı standartları bakımından  AB  direktifinin  esas  alınmasıyla,  yeni  yapılacak  olan  tünellerde  bu  şartların sağlanması kararlaştırılmıştır. Güncel olarak bu kurallar uygulanmaya devam etmektedir.\n\nS onuçlanan  bir  diğer  çalışma  ise  2004/54/EC  Direktifinin  'Teknik  Gereklilikler' kısmının referans alındığı, Şube Müdürlüğümüz  tarafından hazırlanan ve 04.08.2015 tarihind en itibaren yürürlüğe giren 'Tünel İşletme Yönetmeliği'dir (Bkz.EK -3).\n\n2008  yılında  İMO  Teknik  Dergisinin,  2008  4471 - 4486,Yazı  295  sayılı  makalesinde yapılan  çalışmada  AB  Tünel  Güvenliği  Direktifine  göre  Türkiye'deki  tünellerin  bir  kısmı incelenmiş  ve  faydalı  sonuçlara  ulaşılmıştır.  Çalışmada  18  adet  karayolu  tüneli  incelenmiş olup, meydana gelen trafik kazaları istatistiki bilgileri de dâhil olmak üzere ortak sorunların giderilmesine yönelik çözüm önerileri sunulmuştur. Bu hususlardan bazıları aşağıda beli rtilmiştir.\n\nNot: Yukarıda bahsedildiği gibi söz konusu tasarı günümüzde yönetmelik haline getirilmiştir.",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_fd150dd2f8:pages=70-75;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L28",
+      "page_end": 75,
+      "page_start": 70,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q24": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "1.4.2-Q24"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 2,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "210cdf6065012da356603a0e391e9d5ec703d16ad6371c69d01714b295b14930",
+      "chunk_id": "ING_7d7c44992e83c7185c41_CH_9d95dfd0a3",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_e5d2c4a4c2c83e5297cc722ab5eb4e52ce5ba8b8defa09330856eb3e969e4ec3",
+      "claim_text": "1. Giriş\nazaltmasıyla ulaşım araçlarının kar ve buzlanmadan kaynaklı kazaların sayısını da azaltacağı düşünülmektedir. Aynı zamanda kaza nedeniyle ortaya çıkan ulaşım aksaklıklarını da minimum düzeye indireceği şüphesizdir. Tünel, yağışın fazla olduğu mevsimlerde heyelanların etkisini azaltmış ve fiziksel çözünmeden kaynaklı taş düşmelerinden dolayı oluşan yol kapanmalarına karşı alternatif bir güzergâh olmuştur. Zigana Dağı'ndan geçen ulaşım araçlarının azalmasıyla birlikte yaban ve terk edilmiş/edilmemiş evcil hayvanların kaza risklerini minimuma düşüren tünel, maddi ve manevi kazaların oluşmasını engelleyecektir.\n\n1. Giriş\n\nSürdürülebilirlik,  çağımızda  bütün  yaşam  alanlarımızda  etkili  olmaya başlayan  bir  kavramdır.  Bu  kavramla  ilgili  düşünceler  yeni  olmamakla birlikte geçmişi milattan önceki yıllara dayanmaktadır. M.Ö. 300-400 yılları arasında yaşamış olan Aristoteles, ünlü eseri Politika'da kendi kendine yeten ev ekonomilerini yaratmaya çalışmıştır (Knoflacher ve Ocalır, 2011). Böylece sürdürülebilirlik kavramı dar kapsamlı da olsa tanımlanmıştır. Günümüzde sürdürülebilirlik  kavramıyla  ilgili  pek  çok  tanım  bulunmaktadır.  Herkes tarafından  bilinen  ilk  tanımlardan  biri,  Birleşmiş  Milletlerin  Brundtland raporunda  ortaya  konan şimdiki  neslin  gereksinimlerini  karşılarken  gelecek neslin kendi ihtiyaçlarını karşılama yeteneğinden ödün vermeyen gelişme şeklindeki tanımdır (United Nations, 1987).  Bazı araştırmacılar bunu daha da geliştirerek tanıma çevresel değerler (Breheny , 1990), doğal kaynakların korunması  (May  vd.,  2003),  hakkaniyetli  bir  toplumun  teşvik  edilmesi (McKenzie, 2004) ve sağlıklı yaşanabilir toplulukların (Knoflacher ve Ocalır, 2011)  meydana  getirilmesi  gibi  eklemeler  yapmışlardır.  Bu  eklemelerle birlikte sürdürülebilirlik kavramı çok boyutlu bir nitelik kazanmıştır (Bakırcı, 2018).\n\nDünya nüfusunun artması nedeniyle sürdürülebilirlik konusu önemsenmeye başlanmıştır. Çünkü nüfusun artması, kaynakların daha çok tükenmesine ve sınırsız olan insan ihtiyaçlarının da sınırlı olan doğal kaynaklar üzerindeki tüketim baskısının kurulmasına sebep olmuştur (Arslan, 2014). Özellikle sanayi döneminin ortaya çıkardığı daha fazla üretmek ve tüketmenin sonucunda, dünyadaki doğal kaynakların sınırlı olduğu düşüncesinin önemi artırmıştır. Bu düşünceyle birlikte günümüzde üretim esnasında kullanılan doğal  kaynakların  sürdürülebilir  bir  şekilde  tüketilmesi  sonucu  ortaya çıkmıştır.  Ülkeler  ve  onların  kurumları  kalkınmalarında  sürdürülebilirliği ön  plana  almaya  çalışmaktadırlar  (Garipağaoğlu,  2018;  Alaeddinoğlu, 2018; Arslan,  2018).  Böylece  enerji  üretiminde  kullanılan  fosil  yakıtların yerine  yenilenebilir  enerji  kaynakların  kullanılması,  orman  kesimi  yapılan ülkelerde (Örneğin Finlandiya) her bir ağaç kesimine karşılık yerine on katı ağaç dikme şartının getirilmesi, çöplerin geri dönüşümle tekrardan üretime kazandırılması gibi faaliyetler gelişmeye başlamıştır.\n\nSürdürülebilirlik, insanoğlunun yaşadığı birçok alana girmiş bulunmaktadır. Bunlardan biri de günlük hayatta insanoğlunun yaşamı içinde sürekli olan ulaşımdır. Ulaşım, insanın varlığından beri olan bir faaliyettir. Günümüz dünyasında bu faaliyet insanoğlunun yaşamında olmazsa olmazlarından  biri  haline  gelmiştir.  Ancak  dünya  nüfusu  arttıkça  yaşam mekânları da genişlemekte ve böylece daha fazla ulaşım araçları ile birlikte yollara  gerek  duyulmaktadır.  Canlı  hayatının  geleceği  düşünüldüğünde ulaşımın daha sürdürülebilir şekilde yerine getirilmesi ihtiyacı doğmaktadır. Bu sebeple günümüzde ulaşım araçları elektrikli modellere dönmekteyken, bisiklet  gibi  sadece  insan  enerjisine  ihtiyaç  duyulan  araçların  varlığı  daha da  artmaktadır.  Teknolojinin  gelişmesiyle  birlikte  ulaşım  araçlarını  yanı sıra yollar da gelişmiştir.  Günümüzün ulaşım yolları, geçmişe kıyasla daha modern daha uzun köprü ve tünellerden oluşmaktadır. Köprü ve tünellerin yapılması  yolları  kısaltırken  araçlardan  çıkan  zehirli  gazların  miktarını azaltmaktadır.  Böylece  araçların  çevreye  verdiği  zararlarda  eskisine  göre azalma olabilmektedir.\n\nDünyada  ilk  tünellerin  yapımı  milattan  önceki  yıllara  gitse  de  ulaşım için  yapılan  ilk  tünel,  1870'de  metro  ulaşımı  için  yer  altında  el  işçiliği  ile yapılan Londra'daki Tower Metrosu tünelidir (www.dpma.de). Söz konusu tarihten beri teknolojinin gelişmesiyle dünyada karayolu, demiryolu ve su altından geçen tünellerin sayısı artmıştır. Bu tünellere gün geçtikçe yenileri eklenmekte ve ülkeler en uzun tünel yapma yarışına girerek adlarını tarihe yazdırmaktadır. Günümüzde en uzun demiryolu ulaşım tüneline sahip olan ülke İsviçre (Gottharda Base T unnel, 57,10 km), karayolu ulaşımı tüneline sahip olan ülke Norveç (Laerdal Tunnel, 24,51 km) ve su altındaki ulaşım tüneline  sahip  olan  ülke  ise  Çin  (Hanjiang-Weihe  T unnel,  81,60  km)'dir (Zhu vd., 2019). Ülkemize bakıldığında ise en uzun karayolu tüneli TrabzonGümüşhane arasındaki Yeni Zigana Tüneli (14,48 km), en uzun demiryolu tüneli Sivas'taki Deliktaş Tüneli (5,4 km) ve en uzun su altındaki tünel ise İstanbul'daki Avrasya Tüneli (14,6 km)'dir (Ulaştırma ve Altyapı Bakanlığı, 2023).\n\nBu çalışma, Türkiye'nin ve Avrupa'nın en uzun karayolu tüneli olan  Y eni  Zigana  Tüneli'nin  ulaşımdaki  sürdürülebilirliğini  araştırmayı amaçlamaktadır. Söz konusu amaç için öncelikle çalışma konusu ile ilgili ulusal ve uluslararası literatür taraması yapılmıştır. Konum haritasının yapımında coğrafi  bilgi  sistemleri  programlarından  biri  olan  ArcGIS  adlı  programın 10.5 yazılımından yararlanılmıştır. Haritada bulunan il ve ilçe sınırları, yol, yerleşim, akarsu ve baraj gölü verileri için Harita Genel Müdürlüğü'nden ve  Google'ın  OpenStreetMap  uygulamasından  faydalanılmıştır.  Yükselti değerlerini gösteren verinin temini için ise Aster Global Digital Elevation Model (GDEM)'den elde edilen 30 metre çözünürlüklü Digital Elevation Model (Dem)'e başvurulmuştur. Zigana Dağı'ndan geçen son on yıla ait araç bilgileri  Karayolları  Genel  Müdürlüğü'nden temin edilmiştir. Ulaşım yolu ve tünelini yerinde incelemek için araçla güzergâh takip edilerek zamansal olarak mesafede kısalma olup olmadığı ortaya koyulmuştur.",
+      "conditions": [],
+      "document_id": "ING_7d7c44992e83c7185c41",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_7d7c44992e83c7185c41:ING_7d7c44992e83c7185c41_CH_9d95dfd0a3:pages=2-3;canonical=corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl#L2",
+      "page_end": 3,
+      "page_start": 2,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q40": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "1.4.2"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "3",
+      "supporting_question_ids": [
+        "1.4.2-Q40"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 31,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "8591db466546f6ebce42b225d393fa7619c7b253bca055e5d9105c8c89b5c9e8",
+      "chunk_id": "ING_1fb6b71a35f819248daf_CH_6640be043b",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_e971d8a25a7a95c30e096ece133fe1b3bbaad4e25356707325cb0fdbfea92b83",
+      "claim_text": "TEŞEKKÜR > 49 ACİL GÜÇ TEMİNİ\nacil servislerin (bakım, itfaiye, ambulans, vb.), kullanımı için, 1000 m' den uzun ve trafik hacmi şerit basına 2000 araçtan yüksek tüm tünellere tesis edilecektir. Kontrol merkezinin olduğu yerde, gerektiğinde acil durum mesajlarını iletmek için, tünel kullanıcılarına hitap eden kanalların radyo yayınına giriş yapma imkânı olacaktır. Tahliye esnasında tünel kullanıcılarının dışarıya erişmeden önce bekleyeceği sığınaklarda ve diğer tesislerde, kullanıcılara bilgi aktarılması amacıyla, hoparlörler teçhiz edilecektir.\n\n49 ACİL GÜÇ TEMİNİ\n\nTüm tüneller tahliye için kaçınılmaz olan güvenlik ekipmanlarının, tüm kullanıcılar tüneli tahliye edinceye kadar, işletimini sağlayacak bir acil güç kaynağına sahip olacaktır. Elektrik, ölçü ve kontrol devreleri, örneğin lokal bir arızanın, veya bir yangın nedeniyle oluşan bozulmanın diğer sistemleri etkileyemeyeceği şekilde tasarlanacaktır.\n\n50 EKİPMANLARIN YANGINA DAYANIKLILIĞI\n\nTüm tünel ekipmanının yangına dayanıklılık düzeyi, teknolojik imkânları ve bir yangın durumunda gerekli güvenlik fonksiyonlarının sürdürülmesi amacı, dikkate alınacaktır.\n\n51 TÜRKİYE'DE YAPILAN TÜNEL GÜVENLİĞİ ÇALIŞMALARI\n\nBilindiği üzere, Türkiye Avrupa Birliği'ne üye olduktan sonra Trans Avrupa Ağlarının (TEN-T) bir parçası haline gelmiştir. Bu sebepten dolayı Türkiye'nin kullanımına sunulan AB fonlarının büyük çoğunluğunu ulaştırma sektörü oluşturmaktadır. Türkiye, AB'nin ulaştırma projelerine kaynak sağlamasını temin etmek için Trans Avrupa Ağlarına bağlanması sırasında izleyeceği stratejinin, yapması gereken yatırımların ve Türkiye'yi Trans Avrupa Ağlarına bağlayacak çok modlu taşımacılığı sağlayacak ana güzergâhların belirleneceği, bu güzergâhlara bağlantı sağlayacak önemli ulaştırma ağlarının ve bağlantı noktalarının da ortaya konulacağı Ulaşım Altyapı İhtiyaç Değerlendirme Çalışmasını (TINA Türkiye) hazırlamıştır.\n\nTEN yolu; Türkiye sınırları içerisinde Kapıkule Sınır Kapısından başlayıp, doğuda Sarp, Gürbulak Sınır Kapılarına, güneyde Cilvegözü ve Habur Sınır Kapılarına ulaşmaktadır. Bu güzergâhlarda bulunan tüneller, karayollarının bütünleyici bir parçasını oluşturmaktadır. Aşağıdaki harita ve tablolarda TEN ağında bulunan karayollarımız ve tünellerimiz yer almaktadır.\n\n07.09.2004 tarihinde Karayolları Genel Müdürlüğü'nde toplanan komisyon, dünyada bu uygulamalarda rehber olarak kullanılan;\n\nS Avrupa Parlamentosu ve Konseyi'nin 29.04.2004 tarih ve 2004/54/EC sayılı \"Trans-\n\nAvrupa Karayolu Ağı Tünelleri İçin Minimum Güvenlik Gereksinimleri\",\n\nS Tüneller İçin Acil Durum Tesisleri Şartnamesi (Japonya, 1997)\n\nS UNECE-Karayolu Tünelleri Uzmanlar Grubu'nun Tavsiyeleri Nihai Rapor S (TRANS/AC.7/9, 2001)\n\nS PIARC Tünellerde Yol Güvenliği (1995)\n\nS Avusturya Planlama Kılavuzu (RVS.9.281, RVS.9.282, RVS.9.261, RVS.9.262)\n\nS CIE (Uluslararası Aydınlatma Komisyonu)\n\nŞekil 19. Ülkemizden Geçen TEN Yol Ağı\n\nkaynaklarını incelemiş, ‘Trans-Avrupa Karayolu Ağı Tünelleri için Minimum Güvenlik Gereksinimlerinin altyapı önlemleri bakımından esas alınmasına karar verilmiştir. Bu direktifte yer almayan hususlar için yukarıdaki belgelerin ilgili hükümlerinin uygulanacağı belirtilmiştir.\n\nKGM'nin 08.03.2005 tarihli ‘Tünellerin Asgari Güvenlik Gereksinimlerine İlişkin Proje Kriterlerinin Belirlenmesiyle İlgili Komisyon Raporu'nda altyapı standartları bakımından AB direktifinin esas alınmasıyla, yeni yapılacak olan tünellerde bu şartların sağlanması kararlaştırılmıştır. Güncel olarak bu kurallar uygulanmaya devam etmektedir.\n\nSonuçlanan bir diğer çalışma ise 2004/54/EC Direktifinin “Teknik Gereklilikler” kısmının referans alındığı, Şube Müdürlüğümüz tarafından hazırlanan ve 04.08.2015 tarihinden itibaren yürürlüğe giren ‘Tünel İşletme Yönetmeliği'dir (Bkz.EK-3).\n\n2008 yılında İMO Teknik Dergisinin, 2008 4471-4486,Yazı 295 sayılı makalesinde yapılan çalışmada AB Tünel Güvenliği Direktifine göre Türkiye'deki tünellerin bir kısmı incelenmiş ve faydalı sonuçlara ulaşılmıştır. Çalışmada 18 adet karayolu tüneli incelenmiş olup, meydana gelen trafik kazaları istatistiki bilgileri de dâhil olmak üzere ortak sorunların giderilmesine yönelik çözüm önerileri sunulmuştur. Bu hususlardan bazıları aşağıda belirtilmiştir.\n\nSorun:\n\nTünellerde meydana gelecek bir yangına müdahale için yerel itfaiye teşkilatı ile protokol yapılmakta ve olası bir yangında bu itfaiye teşkilatından yararlanılmaya çalışılmaktadır. Ancak tüneller genellikle kırsal ve dağlık arazide olduğu için yerel itfaiyenin bölgeye ulaşması güç olmakta ve itfaiyenin ulaşım süresi ortalama olarak yarını saati aşmaktadır. Tünel yangınları incelendiğinde bu sürenin çok uzun olduğu ortaya çıkmaktadır. Ayrıca itfaiyenin bir tünel yangınına müdahale edebilecek yeterli teçhizat, ekipman ve donanıma sahip olmadığı görülmektedir.\n\nÖneri:\n\nİtfaiyenin olay yerine ulaşma süresi göz önünde bulundurularak, yoğun trafikli tünellerde daimi itfaiye biriminin oluşturulması ve olası tünel yangınına müdahale edecek olan itfaiyenin yeterli teçhizat, ekipman, donanım ve bilgi birikimine sahip olması sağlanmalıdır.\n\nSorun:\n\nTürkiye’de biı kaza durumunda tünel güvenliğinin sağlanması ve kazaya müdahalede rolü olan itfaiye, ambulans, polis, jandarma gibi kurumlanıl arasında bir koordinasyon ve bilgi akışı bulunmamaktadır. Bu durum, tünelde meydana gelebilecek olası bir kazaya müdahalede görev dağılımı ve müdahale yöntemleri konusunda karışıklara yol açabilecektir.\n\nÖneri:\n\nYukarıda belirtilen kurumlar arasında koordinasyonu ve denetimi sağlayacak idari yetkisi bulunan bir otoıite/kuramsal yapı oluşturulabilir. Oluşturulan bu kuranı vasıtasıyla tünel işletimine katılan ve tünel güvenliğinden sorumlu tüm personel periyodik eğitimlere tabi tutulabilir, her tünel için acil duranı planları hazırlanabilir ve acil durııııı tatbikatlarının yapılması sağlanabilir.\n\nSortin:\n\nTürkiye’de bugüne kadar toplumun ilgisini çekecek büyük bir tünel kazası meydana gelmediğinden sürücülerin tünel güvenliği konusunda bilgisiz oldukları görülmektedir. Yapılan tatbikatlarda, tünel girişlerinde trafik işaretleri ile tünelde yangın olduğu belirtilmesine ve kırınızı ışıklarla tünele girişlerin yasaklanmasına rağmen sürücülerin tünele gitmeye devanı ettikleri görülmüştür.\n\nÖneri:\n\nSürücülerin tünelde araç kullanırken, aracın arızalanması, trafiğin sıkışması, bir kaza olması ve tünelde yangın çıkması vb. acil bir durumda yapınası gereken davranışlar konusunda bilgilendirilmeleri gereklidir. Bunun için yazılı ve görsel basından faydalanabilir, yerel ve merkezi yönetimler tarafından eğitim programları ve bilgilendirme ve bilinçlendirme kampanyaları hazırlanabilir. Ayrıca sürücü adaylarının eğitimleri sırasında özellikle tünel güvenliği konusunda bilgi aktarılabilir. Mevcut güvenlik ekipmanları ve tünel içerisinde doğru davranış kuralları ile ilgili broşürler hazırlanarak tünellerden önceki dinlenme alanları ve/veya ücret gişelerinde sürücülere dağıtılabilir. Bununla birlikte, sürücülerin tünel içinde hız limitlerine uymalarının ve takip mesafesini korumalarının etkin kontrollerle sağlanması gerekmektedir.",
+      "conditions": [],
+      "document_id": "ING_1fb6b71a35f819248daf",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_6640be043b:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L31",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q24": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5",
+        "5.4"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4.2",
+      "supporting_question_ids": [
+        "1.4.2-Q24"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 8,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_d6cabd5890cae7ee2a05/17d447a6023d9380f5aa00089138ec4fb9fd734cf565f07c8e84dad9ac210ab5/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "f9a24955f1e4d77a7aee75401148e151262e94a1676f4ef1544b871bc3b9b77a",
+      "chunk_id": "ING_d6cabd5890cae7ee2a05_CH_2e526b0a09",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_f447a6bec1eb416ed770dfee952a346905112d539ddb3e8ba0b5b919202bd51f",
+      "claim_text": "4.3. İncelenen Tünellerde Tespit Edilen Güvenlik Sorunları ve Çözüm Önerileri\ndaha fazla olduğu görülmektedir. Tünellerde meydana gelen trafik kazaları irdelendiğinde bu tespite paralel bir durum söz konusu olsa da, bazı tünellerde aydınlatma, havalandırma gibi güvenlik sistemlerinin çalışmıyor olması, gerekli işaretlemelerin yapılmamış olması ya da tünelde acil durum için kullanılacak cep bulunmaması gibi altyapı nedenlerinden dolayı da kazalar meydana gelebilmektedir. Türkiye'deki Karayolu Tünellerinde Trafik Güvenliği M. Kürşat ÇUBUK, Ebru ARIKAN ÖZTÜRK, Seda HATİPOĞLU, M. Zafer SİNOPLU Türkiye'deki Karayolu Tünellerinde Trafik Güvenliği\n\n4.3. İncelenen Tünellerde Tespit Edilen Güvenlik Sorunları ve Çözüm Önerileri\n\nÇalışmada  incelenen  18  adet  karayolu  tünelinde  belirlenen  sorunlar  ve  bu  sorunların çözümüne yönelik öneriler aşağıda belirtilmiştir.\n\nSorun: Tünellerde meydana gelecek bir yangına müdahale için yerel itfaiye teşkilatı ile protokol  yapılmakta  ve  olası  bir  yangında  bu  itfaiye  teşkilatından  yararlanılmaya çalışılmaktadır.  Ancak  tüneller  genellikle  kırsal  ve  dağlık  arazide  olduğu  için  yerel itfaiyenin  bölgeye  ulaşması  güç  olmakta  ve  itfaiyenin  ulaşım  süresi  ortalama  olarak yarım saati  aşmaktadır.  Tünel  yangınları  incelendiğinde  bu  sürenin  çok  uzun  olduğu ortaya çıkmaktadır. Ayrıca itfaiyenin bir tünel yangınına müdahale edebilecek yeterli teçhizat, ekipman ve donanıma sahip olmadığı görülmektedir.\n\nÖneri: İtfaiyenin olay yerine ulaşma süresi göz önünde bulundurularak, yoğun trafikli tünellerde  daimi  itfaiye  biriminin  oluşturulması  ve  olası  tünel  yangınına  müdahale edecek  olan  itfaiyenin  yeterli  teçhizat,  ekipman,  donanım  ve  bilgi  birikimine  sahip olması sağlanmalıdır.\n\nSorun: Türkiye'de  bir  kaza  durumunda  tünel  güvenliğinin  sağlanması  ve  kazaya müdahalede rolü olan itfaiye, ambulans, polis, jandarma gibi kurumların arasında bir koordinasyon ve bilgi akışı bulunmamaktadır. Bu durum, tünelde meydana gelebilecek olası  bir  kazaya  müdahalede  görev  dağılımı  ve  müdahale  yöntemleri  konusunda karışıklara yol açabilecektir.\n\nÖneri: Yukarıda  belirtilen  kurumlar  arasında  koordinasyonu  ve  denetimi  sağlayacak idari  yetkisi  bulunan  bir  otorite/kurumsal  yapı  oluşturulabilir.  Oluşturulan  bu  kurum vasıtasıyla  tünel  işletimine  katılan  ve  tünel  güvenliğinden  sorumlu  tüm  personel periyodik eğitimlere tabi tutulabilir, her tünel için acil durum planları hazırlanabilir ve acil durum tatbikatlarının yapılması sağlanabilir.\n\nSorun: Türkiye'de  bugüne  kadar  toplumun  ilgisini  çekecek  büyük  bir  tünel  kazası meydana  gelmediğinden  sürücülerin  tünel  güvenliği  konusunda  bilgisiz  oldukları görülmektedir.  Yapılan  tatbikatlarda,  tünel  girişlerinde  trafik  işaretleri  ile  tünelde yangın  olduğu  belirtilmesine  ve  kırmızı  ışıklarla  tünele  girişlerin  yasaklanmasına rağmen sürücülerin tünele girmeye devam ettikleri görülmüştür.\n\nÖneri: Sürücülerin tünelde araç kullanırken, aracın arızalanması, trafiğin sıkışması, bir kaza  olması  ve  tünelde  yangın  çıkması  vb.  acil  bir  durumda  yapması  gereken davranışlar  konusunda  bilgilendirilmeleri  gereklidir.  Bunun  için  yazılı  ve  görsel basından faydalanabilir, yerel ve merkezi yönetimler tarafından eğitim programları ve bilgilendirme ve bilinçlendirme kampanyaları hazırlanabilir. Ayrıca sürücü adaylarının eğitimleri  sırasında  özellikle  tünel  güvenliği  konusunda  bilgi  aktarılabilir.  Mevcut güvenlik  ekipmanları  ve  tünel  içerisinde  doğru  davranış  kuralları  ile  ilgili  broşürler hazırlanarak tünellerden önceki dinlenme alanları ve/veya ücret gişelerinde sürücülere dağıtılabilir.  Bununla  birlikte,  sürücülerin  tünel  içinde  hız  limitlerine  uymalarının  ve takip mesafesini korumalarının etkin kontrollerle sağlanması gerekmektedir.\n\nSorun: Tünellerden  tehlikeli madde  geçişleri ile ilgili olarak bir  kanun  ya  da yönetmelik bulunmamakta, bu geçişler için Bayındırlık ve İskan Bakanlığı tarafından onaylanan Tünel  İşletme  ve  Bakımı  Hakkında  Yönetmelik tasarısı  Karayolları  Genel Müdürlüğü (KGM) tarafından yönerge olarak kullanılmaktadır. Ayrıca Türkiye'de yük taşıyan araçlarda aşırı yükleme problemi ile çok sık karşılaşılmaktadır.\n\nÖneri: Ağır yük taşıyan araçların kurallara uygun olarak yük taşıyıp taşımadıkları etkin ve  periyodik  denetlemelerle  kontrol  edilmelidir.  Tehlikeli  madde  taşıyan  araçların güvenlik donanımlarının kurallara uygun olup olmadığı da yine yapılacak bu denetlemelerle  tespit  edilmelidir.  Ayrıca  tehlikeli  maddeler  sınıflandırılarak  hangi maddeleri taşıyan araçların hangi tünellerden geçmesine izin verileceğine ilişkin risk analizlerinin yapılması ve uygun güzergahların belirlenmesi gerekmektedir. Denetlemelerde yüklemelerle ilgili karşılaşılan kural ihlallerinde, sadece sürücüye ceza verilmemeli, kural ihlalinde sorumluluğu olan taşımacıya da ceza verilmeli ve cezalar caydırıcı olmalıdır.\n\nSorun: Özellikle  sınır  geçen  araçlar,  ülkeler  arasındaki  yakıt  fiyat  farkı  avantajını kullanabilmek için yakıt tanklarını aşırı biçimde büyütmektedirler\n\nÖneri: Ağır yük taşıyan araçlar ve otobüslerin yakıt tankı kapasitelerinin sınırlandırılması ve denetlemelerle bu yakıt tanklarının kurallara uygunluğunun kontrol edilmesi gereklidir.\n\nSorun: Avrupa'da meydana gelen bir çok tünel yangınının aşırı ısınmış motor ve fren sistemi nedeniyle çıktığı görülmektedir. Yüksek eğimli alanlardaki tünellerde fren ve motor sistemi aşırı derecede ısınmaktadır.\n\nÖneri: Yüksek  eğimli  alanlardaki  tünellerde,  araçların  motorlarının  soğuması  ve gerekli kontrollerin yapılması için tünel girişlerden önce park alanları oluşturulabilir.",
+      "conditions": [],
+      "document_id": "ING_d6cabd5890cae7ee2a05",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_d6cabd5890cae7ee2a05:ING_d6cabd5890cae7ee2a05_CH_2e526b0a09:pages=13-14;canonical=corpus/canonical/objects/ING_d6cabd5890cae7ee2a05/17d447a6023d9380f5aa00089138ec4fb9fd734cf565f07c8e84dad9ac210ab5/chunks/embedding_ready.jsonl#L8",
+      "page_end": 14,
+      "page_start": 13,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q23": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "1.5.2",
+        "5.9.1"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "1.5",
+      "supporting_question_ids": [
+        "1.4.2-Q23"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 1,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_d6cabd5890cae7ee2a05/17d447a6023d9380f5aa00089138ec4fb9fd734cf565f07c8e84dad9ac210ab5/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "8f20683e2946f9404e84c3f9281a08d6d3092fd1f0c06d66f93abfb372aa3d7e",
+      "chunk_id": "ING_d6cabd5890cae7ee2a05_CH_f863d4afd2",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_f69a87132babf82bd6b91ab7d6d994993c56a7540b8943b7e41e8252020c0db5",
+      "claim_text": "İMO Teknik Dergi, 2008 4471-4486, Yazı 295\n\nTürkiye'deki Karayolu Tünellerinde Trafik Güvenliği *\n\nM. Kürşat ÇUBUK* Ebru ARIKAN ÖZTÜRK** Seda HATİPOĞLU*** M. Zafer SİNOPLU****\n\nÖZ\n\nTüneller,  karayollarının  bütünleyici  bir  parçasını  oluşturmaktadır.  Aşılması  güç  coğrafi engellerin tünel kullanılarak geçilmesi ulusal ve uluslararası ulaşımda çok büyük avantajlar sağlamaktadır. Tünellerde, tünel olmayan kesimlere oranla daha az trafik kazası meydana gelmektedir. Bununla birlikte tünel kazaları, kapalı bir hacimde olması nedeniyle özellikle yangınlı  kazalarda  dramatik  sonuçlar  doğurabilmektedir.  Avrupa  Birliği,  son  yıllarda sınırları içerisinde bulunan tünellerde meydana gelen kazalar nedeniyle, karayolu tünellerinde  minimum  güvenlik  kriterleri  direktifini  hazırlayarak  2004  yılında  yürürlüğe koymuştur. Bu çalışmada, Türkiye'deki 18 adet karayolu tünelinin mevcut durumları tespit edilmiş,  bu  tünellerin  Avrupa  Birliği  direktifine  uygunlukları  irdelenmiş  ve bu  tünellerde trafik güvenliğinin sağlanabilmesi için yapılması gerekenler ortaya konulmuştur.\n\nABSTRACT\n\nTraffic Safety in Highway Tunnels in Turkey\n\nTunnels  form  a  supplementary  part  of  the  highways.  Crossing  the  geographical  barriers which forms difficulty in passing over by tunnels provides great advantages in national and international communication. Fewer traffic accidents happen in the tunnels than on areas without tunnel. On the other hand accidents in tunnels, especially fires, can have dramatic consequences, since they happen in a closed area. The European Union prepared and put into force the directive on minimum safety requirements in road tunnels in 2004, due to the accidents happening in the tunnels within the boundaries in recent years. In this study, the current situation of 18 road tunnels in Turkey is examined; compliance of the tunnels in Turkey to EU directive is considered; and the things to do to secure the traffic safety in these tunnels are stated.\n\nNot: Bu yazı",
+      "conditions": [],
+      "document_id": "ING_d6cabd5890cae7ee2a05",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_d6cabd5890cae7ee2a05:ING_d6cabd5890cae7ee2a05_CH_f863d4afd2:pages=1;canonical=corpus/canonical/objects/ING_d6cabd5890cae7ee2a05/17d447a6023d9380f5aa00089138ec4fb9fd734cf565f07c8e84dad9ac210ab5/chunks/embedding_ready.jsonl#L1",
+      "page_end": 1,
+      "page_start": 1,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.4.2-Q04": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "1.5.2",
+        "5.9.1"
+      ],
+      "section_id": "1.4.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "1.5",
+      "supporting_question_ids": [
+        "1.4.2-Q04"
+      ]
+    }
+  ],
+  "contract_version": "section-preparation-v1",
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "registry_id": "SCR_31ad59c9a435f43475ba89e778114d72690d5843c010496a26385523b7f76b38",
+  "schema_version": "1.0",
+  "section_id": "1.4.2",
+  "section_title": "Türkiye’de Karayolu Tünelleri"
+}

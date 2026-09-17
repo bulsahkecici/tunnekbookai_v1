@@ -1,0 +1,111 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.1",
+      "score": 0.5161,
+      "rule_score": 0.2,
+      "embedding_score": 0.7666,
+      "chunk_vote": 0.0556
+    },
+    {
+      "id": "2",
+      "score": 0.3495,
+      "rule_score": 0.0,
+      "embedding_score": 0.7767,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3489,
+      "rule_score": 0.0,
+      "embedding_score": 0.7754,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3487,
+      "rule_score": 0.0,
+      "embedding_score": 0.7748,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3452,
+      "rule_score": 0.0,
+      "embedding_score": 0.7672,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3449,
+      "rule_score": 0.0,
+      "embedding_score": 0.7664,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3448,
+      "rule_score": 0.0,
+      "embedding_score": 0.7663,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3445,
+      "rule_score": 0.0,
+      "embedding_score": 0.7655,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.25,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3333
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.2426,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2963
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel kalıp sisteminin (tunnel formwork) toplu konut üretimindeki uygulama teknikleri ve karşılaşılan sorunları ele almaktadır. Bu içerik, tünel yapım yöntemleri ve endüstrileşmiş yapım teknikleri kapsamında değerlendirildiğinden, 'Tünel Yapım Yöntemleri' (2.2) birincil, 'Tünel Ana Elemanları, Ana Özellikleri ve Yapım Teknikleri' (2) ikincil bölüm olarak seçilmiştir. Not: Belge aslında inşa",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:19",
+    "embeddings:8",
+    "top=5.4.1:0.5161 gap=0.167 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -14,6 +14,7 @@ from tunnelbookai.population.inventory import build_inventory
 from tunnelbookai.population.manual_import import apply_import_plan, build_import_plan
 from tunnelbookai.population.models import atomic_json
 from tunnelbookai.population.runner import run_batch
+from tunnelbookai.ingest.cli import STOPPED_EXIT_CODE
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -103,6 +104,147 @@ class InventoryTests(unittest.TestCase):
             self.assertNotEqual(run["documents"][selected_id]["disposition"], "PENDING")
             attempt = repo.root / "audit/corpus_population/attempts" / f"{result['attempt_id']}.json"
             self.assertEqual(json.loads(attempt.read_text())["status"], "COMPLETED")
+        finally:
+            repo.close()
+
+    def test_safe_stop_pauses_without_completing_batch_and_resume_finishes(self):
+        from tests.canonical.fixtures import SyntheticRepo
+        from tunnelbookai.canonical.paths import CanonicalContext
+        from tunnelbookai.canonical.promotion import apply_plan, build_plan
+
+        repo = SyntheticRepo()
+        try:
+            shutil.copytree(PROJECT_ROOT / "config", repo.root / "config", dirs_exist_ok=True)
+            (repo.root / "incoming/manual/inbox/source.txt").write_text(
+                "checkpoint evidence\n", encoding="utf-8"
+            )
+            context = CanonicalContext.load(repo.root)
+            canonical_plan = build_plan(context=context)
+            apply_plan(
+                repo.root / f"audit/canonical_promotions/plans/{canonical_plan.plan_id}.json",
+                approve=canonical_plan.plan_id,
+                context=context,
+            )
+            inventory = build_inventory(repo.root, write=True)
+            planned = plan_batches(inventory["inventory_path"], repo.root, write=True)
+            batch = planned["batches"][0]
+            selected_id = batch["documents"][0]["document_id"]
+
+            def paused_run(_inputs, **kwargs):
+                kwargs["progress_callback"]({"event": "DOCUMENT_STARTED", "document_id": selected_id})
+                kwargs["outcome_callback"]({
+                    "document_id": selected_id,
+                    "disposition": "STAGED",
+                    "engine_state": "EMBEDDING_READY",
+                })
+                return STOPPED_EXIT_CODE
+
+            with mock.patch("tunnelbookai.population.runner.run_selected", side_effect=paused_run):
+                paused = run_batch(batch["batch_path"], repo.root, stop_requested=lambda: True)
+            self.assertEqual(paused["status"], "PAUSED")
+            run_path = repo.root / planned["run"]["run_path"]
+            run = json.loads(run_path.read_text(encoding="utf-8"))
+            self.assertEqual(run["state"], "PAUSED")
+            self.assertNotIn(batch["batch_id"], run["completed_batches"])
+            self.assertEqual(run["documents"][selected_id]["disposition"], "STAGED")
+
+            def completed_run(_inputs, **kwargs):
+                kwargs["outcome_callback"]({
+                    "document_id": selected_id,
+                    "disposition": "ALREADY_PROCESSED",
+                    "engine_state": "EMBEDDING_READY",
+                })
+                return 0
+
+            with mock.patch("tunnelbookai.population.runner.run_selected", side_effect=completed_run):
+                resumed = run_batch(batch["batch_path"], repo.root, resume=True)
+            self.assertEqual(resumed["status"], "COMPLETED")
+            run = json.loads(run_path.read_text(encoding="utf-8"))
+            self.assertIn(batch["batch_id"], run["completed_batches"])
+            attempt_statuses = [
+                json.loads((repo.root / "audit/corpus_population/attempts" / f"{item}.json").read_text())["status"]
+                for item in run["attempt_ids"]
+            ]
+            self.assertEqual(attempt_statuses, ["PAUSED", "COMPLETED"])
+        finally:
+            repo.close()
+
+    def test_failed_batch_resume_selects_only_unresolved_checkpoints(self):
+        from tests.canonical.fixtures import SyntheticRepo
+        from tunnelbookai.canonical.paths import CanonicalContext
+        from tunnelbookai.canonical.promotion import apply_plan, build_plan
+
+        repo = SyntheticRepo()
+        try:
+            shutil.copytree(PROJECT_ROOT / "config", repo.root / "config", dirs_exist_ok=True)
+            (repo.root / "incoming/manual/inbox/source.txt").write_text(
+                "retry checkpoint evidence\n", encoding="utf-8"
+            )
+            context = CanonicalContext.load(repo.root)
+            canonical_plan = build_plan(context=context)
+            apply_plan(
+                repo.root / f"audit/canonical_promotions/plans/{canonical_plan.plan_id}.json",
+                approve=canonical_plan.plan_id,
+                context=context,
+            )
+            inventory = build_inventory(repo.root, write=True)
+            planned = plan_batches(inventory["inventory_path"], repo.root, write=True)
+            batch = planned["batches"][0]
+            run_path = repo.root / planned["run"]["run_path"]
+            run = json.loads(run_path.read_text(encoding="utf-8"))
+            document_id = batch["documents"][0]["document_id"]
+            run["documents"][document_id] = {
+                "document_id": document_id,
+                "disposition": "STAGED",
+                "engine_state": "STAGED",
+                "chunk_quality_status": "FAIL",
+            }
+            atomic_json(run_path, run)
+
+            with mock.patch("tunnelbookai.population.runner.run_selected", return_value=0) as selected:
+                result = run_batch(batch["batch_path"], repo.root, resume=True)
+
+            self.assertEqual(result["status"], "COMPLETED")
+            self.assertEqual(selected.call_args.args[0], [])
+        finally:
+            repo.close()
+
+    def test_batch_rejects_config_changed_after_inventory(self):
+        from tests.canonical.fixtures import SyntheticRepo
+        from tunnelbookai.canonical.paths import CanonicalContext
+        from tunnelbookai.canonical.promotion import apply_plan, build_plan
+
+        repo = SyntheticRepo()
+        try:
+            shutil.copytree(PROJECT_ROOT / "config", repo.root / "config", dirs_exist_ok=True)
+            (repo.root / "incoming/manual/inbox/source.txt").write_text(
+                "pinned configuration evidence\n", encoding="utf-8"
+            )
+            context = CanonicalContext.load(repo.root)
+            canonical_plan = build_plan(context=context)
+            apply_plan(
+                repo.root / f"audit/canonical_promotions/plans/{canonical_plan.plan_id}.json",
+                approve=canonical_plan.plan_id,
+                context=context,
+            )
+            inventory = build_inventory(repo.root, write=True)
+            planned = plan_batches(inventory["inventory_path"], repo.root, write=True)
+            batch = planned["batches"][0]
+            classification = repo.root / "config/classification.yaml"
+            classification.write_text(
+                classification.read_text(encoding="utf-8") + "\n# changed after planning\n",
+                encoding="utf-8",
+            )
+
+            with self.assertRaisesRegex(
+                RuntimeError, "config changed since population inventory: config/classification.yaml"
+            ):
+                run_batch(batch["batch_path"], repo.root)
+
+            run = json.loads(
+                (repo.root / planned["run"]["run_path"]).read_text(encoding="utf-8")
+            )
+            self.assertEqual(run["attempt_ids"], [])
         finally:
             repo.close()
 

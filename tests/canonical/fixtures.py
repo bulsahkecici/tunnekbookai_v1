@@ -29,7 +29,10 @@ class SyntheticRepo:
     def __init__(self) -> None:
         self.temporary = tempfile.TemporaryDirectory()
         self.root = Path(self.temporary.name)
-        shutil.copytree(PROJECT_ROOT / "book", self.root / "book")
+        shutil.copytree(
+            PROJECT_ROOT / "book", self.root / "book",
+            ignore=shutil.ignore_patterns("retrieval"),
+        )
         (self.root / "config").mkdir()
         for name in ("paths.json", "models.yaml"):
             shutil.copyfile(PROJECT_ROOT / "config" / name, self.root / "config" / name)

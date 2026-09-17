@@ -1,0 +1,124 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.2.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0005",
+        "PARA0009",
+        "PARA0011",
+        "PARA0012",
+        "FIG0002",
+        "CAPT0002",
+        "PARA0026",
+        "FIG0009",
+        "CAPT0010",
+        "PARA0029",
+        "PARA0043"
+      ]
+    },
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.767,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7704,
+      "chunk_vote": 0.3238
+    },
+    {
+      "id": "2.2",
+      "score": 0.6721,
+      "rule_score": 0.5,
+      "embedding_score": 0.7626,
+      "chunk_vote": 0.0196
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3863,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1816
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3476,
+      "rule_score": 0.0,
+      "embedding_score": 0.7725,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3453,
+      "rule_score": 0.0,
+      "embedding_score": 0.7674,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.3447,
+      "rule_score": 0.0,
+      "embedding_score": 0.7659,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3429,
+      "rule_score": 0.0,
+      "embedding_score": 0.7619,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3429,
+      "rule_score": 0.0,
+      "embedding_score": 0.762,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3428,
+      "rule_score": 0.0,
+      "embedding_score": 0.7618,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, EPB-TBM yöntemiyle açılan ve yumuşak kil/zemin koşullarında (soft clay, dense sands) iç basınç altında hizmet edilebilirlik analizi yapılan bir tüneli incelemektedir. Bu içerik, 'Tünel Yapım Yöntemleri' (2.2) başlığına ve özellikle 'Yumuşak Zeminde Açılan Tüneller' (2.2.2) alt başlığına doğrudan uymaktadır.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:18",
+    "embeddings:8",
+    "top=2:0.767 gap=0.095 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

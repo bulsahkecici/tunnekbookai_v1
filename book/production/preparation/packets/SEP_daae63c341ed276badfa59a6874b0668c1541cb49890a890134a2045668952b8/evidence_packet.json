@@ -1,0 +1,724 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_bac262a262b92495ddf06a1e34dcdce9dfc54a02b93923036353a4b8144cf543",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 22,
+    "SUPPORTED": 16,
+    "UNSUPPORTED": 12
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_daae63c341ed276badfa59a6874b0668c1541cb49890a890134a2045668952b8",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_3059a201d0ac3a01814176f98f2daf4d6c4a4bf4347549e392e4a8bc1a9de50b",
+        "CLM_12a23ae7435f33a41550ffac3c8bb16eb0d4c08fe88037daed98e79c9e64b784"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler nedir ve tünel mühendisliğindeki temel işlevi nedir?",
+      "question_id": "2.4.1-Q01",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d387299fcf09c9a8ade3c58baffb61cf9a6ccc80851580a22ae884e1c3c02ee7",
+        "CLM_88cab094eac4a64601f0ca6b3bde9dbd4ded60d5827e3c4ed19f256340d11510"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler hangi mühendislik problemini çözmeyi amaçlar?",
+      "question_id": "2.4.1-Q02",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_61886b4e0615f770e0a52b52db0c16b782d0c99f2deb4a9af95ce31019b6cb61",
+        "CLM_e0c07e0d747479daebf44c532410ccd3dd1275d0e5625e8dc5dd0404498f49b3"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler için temel tasarım girdileri nelerdir?",
+      "question_id": "2.4.1-Q03",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6cc2edfbf63b2d76120bb64fe07c4cf6e5e822d5ea1364e916f6a69b2fbd4d93",
+        "CLM_247d9eafb4eeae1fa2750252ce37da863b1e644bb122263cc7eeccd5b795b83a"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler için jeolojik girdiler nelerdir?",
+      "question_id": "2.4.1-Q04",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c498277222c85563c84b7d75cedf5360e6398bf5bde249c3108ae2b6d5b5a545"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler için geoteknik girdiler nelerdir?",
+      "question_id": "2.4.1-Q05",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_247d9eafb4eeae1fa2750252ce37da863b1e644bb122263cc7eeccd5b795b83a",
+        "CLM_aa6cd57c6baf215d9d2db858372a48197071336d7fbbb57e5e3989615887f489"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler için hidrojeolojik girdiler nelerdir?",
+      "question_id": "2.4.1-Q06",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler için topoğrafik ve geometrik girdiler nelerdir?",
+      "question_id": "2.4.1-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler için trafik ve işletme girdileri nelerdir?",
+      "question_id": "2.4.1-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler seçiminde tünel uzunluğu nasıl etkili olur?",
+      "question_id": "2.4.1-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler seçiminde tünel kesiti ve açıklığı nasıl etkili olur?",
+      "question_id": "2.4.1-Q10",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler seçiminde örtü kalınlığı nasıl etkili olur?",
+      "question_id": "2.4.1-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_58a8366f11589c33d1bf52230c87973c6331f087172aee8c443af49f9109be61",
+        "CLM_552396a125ecf97a7bcdd4b8d5242531fe70365c8a475649519380f73e5e425e"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler seçiminde kaya kütlesi veya zemin özellikleri nasıl etkili olur?",
+      "question_id": "2.4.1-Q12",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ee4518ad22bf8595e13e41f6566934cc727babd4d785a06540056a882991d94f",
+        "CLM_2406f3c30b211713e9abedf37a0ec05780e0ea40687803030176cce4dc0fb387"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler seçiminde yeraltı suyu koşulları nasıl etkili olur?",
+      "question_id": "2.4.1-Q13",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler seçiminde çevresel ve yerleşim koşulları nasıl etkili olur?",
+      "question_id": "2.4.1-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f6f8f924a302726811d23abd9e56747dafe212a828022b7d1a0695a9fe0be999",
+        "CLM_b07e8715df078649feac25809abb83bb6d6398f79fa73f268a869afbfc9acd60"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler seçiminde iş sağlığı ve güvenliği nasıl dikkate alınır?",
+      "question_id": "2.4.1-Q15",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler seçiminde yapım süresi nasıl dikkate alınır?",
+      "question_id": "2.4.1-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_15b1f13cbdbb7aaa4a3e4856a799e3a3d05cd9d1c707861943f2eea7f7fdbb27",
+        "CLM_62545c0693c2567161388ed4f845104a0e48ef27740d3da27ac80de45fbf1ead"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler seçiminde ilk yatırım maliyeti nasıl dikkate alınır?",
+      "question_id": "2.4.1-Q17",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler seçiminde bakım ve işletme maliyetleri nasıl dikkate alınır?",
+      "question_id": "2.4.1-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f6b6bc85c97efb9aba9202c475a08628596404239d670b7acd09f2b1a78348d7",
+        "CLM_7437e6c2fb237bbfeafaa9df28ded494a5a746e2e3e2b39dc107a395f5fae364"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler için hangi alternatif teknik çözümler karşılaştırılabilir?",
+      "question_id": "2.4.1-Q19",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_352f5a996be815aac65c418bdf3c6588c6c83293b40d51f31e227ee52cc850b2"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler alternatiflerinin avantajları ve dezavantajları nelerdir?",
+      "question_id": "2.4.1-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9c6a6ec52f3382dd250f3d98a674df8d8df998ddcacc1849cfc50411286d82d6",
+        "CLM_cdbfa79b5ab543d240b30c7ecefe6e56fe4469333ca82841dcbcd2bd0ca9a2ce"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler için karar verme sürecinde hangi teknik kriterlere ağırlık verilmelidir?",
+      "question_id": "2.4.1-Q21",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9597bf6f78083d885faacb919144ca2b155235bcb694451d101f17af73570116",
+        "CLM_824ddcae90db95503c31e6b2ad73cbaf3e2f49bf0499f1cea266e31593a7dcc9",
+        "CLM_8db194b3c71feaa5d00497e209ae1bfda3be5217b34c58a1be1f3e1dbec0f987"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler tasarımında hangi hesap yöntemleri kullanılır?",
+      "question_id": "2.4.1-Q22",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a68611f1a5ed47d2127133e51473164512e799dde66de3c0ab0bde8a19c38c4f",
+        "CLM_ccf4243a7d54734149c6132cec44725d0624de86f140d6c6d67814d28d018b1b",
+        "CLM_064745be1a4f1e69c530b2872edc532277c4e0b9955dff6afc3133c36e08169f"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler tasarımında hangi sayısal modelleme yöntemleri kullanılabilir?",
+      "question_id": "2.4.1-Q23",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_febec8fb75fc902148ee521f561f0214465512c72e505ecbbbcfd2c34c2514e0",
+        "CLM_fb230599c79a0a7e3241907805de072de7b055ab3c10ac832c944191c465ad42",
+        "CLM_b1f3b130d98d5c03ce2c269adeffa73031e95016d69573d3b03a2b0a461a189c"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler tasarımında hangi ampirik sınıflandırmalar kullanılabilir?",
+      "question_id": "2.4.1-Q24",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_82169b8f57afa4b59b65ee74feeee28ec7c1976c1be9257e18b5bc0839184334",
+        "CLM_70d3dc833c92f989b294dab2eb22e0395cae7717e2907d27e06459fda8a2b88d"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler tasarımında hangi güvenlik katsayıları veya performans kriterleri önemlidir?",
+      "question_id": "2.4.1-Q25",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_08c13a1479a872f85f9e34c98a11fcd8444a40b8eac9086a3aca3d1b00a1dd43"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler uygulamasında hangi başlıca malzemeler kullanılır?",
+      "question_id": "2.4.1-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_08c13a1479a872f85f9e34c98a11fcd8444a40b8eac9086a3aca3d1b00a1dd43",
+        "CLM_3d2de225642edf3308ce1a47c2421bf9a796d45c86dd297d0570df6a7b77fbb8"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler uygulamasında hangi başlıca makine ve ekipmanlar kullanılır?",
+      "question_id": "2.4.1-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_61886b4e0615f770e0a52b52db0c16b782d0c99f2deb4a9af95ce31019b6cb61",
+        "CLM_ddecd6b1635bf869f7f2f23009f10ea86634e5237689cc488f9fa685c8df64d6"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler uygulamasının tipik iş sırası nasıldır?",
+      "question_id": "2.4.1-Q28",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c498277222c85563c84b7d75cedf5360e6398bf5bde249c3108ae2b6d5b5a545",
+        "CLM_d813664b42c86950ecc798d2262a025905f947102d91592dbc50e49d492fe16e",
+        "CLM_08c13a1479a872f85f9e34c98a11fcd8444a40b8eac9086a3aca3d1b00a1dd43"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler uygulamasında kalite kontrol nasıl yapılır?",
+      "question_id": "2.4.1-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_eab6208b18a2b3811ae57562b666bfdb7f1d69cf0614f3c702d91308e0f9d8dd",
+        "CLM_d69a63f31be5cc9813fc5717ea5a4ddb0881e9fa4bdff1fe3a0a499a7111cfbd",
+        "CLM_3b3b3bf786e832176001958bedd27ea408f9a6db4be0f1317b806124d07f437b",
+        "CLM_c2daae89da4afd4d1b9422b33c7b0c3c500265640096054da35f87d15b36c4e5"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler uygulamasında saha ölçümleri ve enstrümantasyon nasıl kullanılır?",
+      "question_id": "2.4.1-Q30",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_cc9bbef3927b6834c40c4cd7871280ff2e3dc44ed4e1a92de5b3c0e95c4b59f8",
+        "CLM_4d6bb1c1fc96c805fba991adb4bf9c5538eeac6ef3635798499bb6b4bad67a92",
+        "CLM_7c193bfb3218743bd2ccd59581cf4e7641ea7770ba0b3639b707ee8b393790b1"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler uygulamasında deformasyonlar nasıl izlenir?",
+      "question_id": "2.4.1-Q31",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6cc2edfbf63b2d76120bb64fe07c4cf6e5e822d5ea1364e916f6a69b2fbd4d93",
+        "CLM_2406f3c30b211713e9abedf37a0ec05780e0ea40687803030176cce4dc0fb387"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler uygulamasında su girişleri nasıl kontrol edilir?",
+      "question_id": "2.4.1-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a2a07cfdc550efb824b46da890786264f190c9319603d236dd28d91a0c7ef527",
+        "CLM_b359e86d61f69ea770f027a82d1dd970a0d0c0dd73ff6ebed7df0ed0a7eb6076"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler uygulamasında drenaj ve yalıtım nasıl ele alınır?",
+      "question_id": "2.4.1-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_828c3ce36e83962466ee4a21e38df017f92bad355aa7b3c3e49fb5fa0a58e2d3",
+        "CLM_15b1f13cbdbb7aaa4a3e4856a799e3a3d05cd9d1c707861943f2eea7f7fdbb27",
+        "CLM_2406f3c30b211713e9abedf37a0ec05780e0ea40687803030176cce4dc0fb387"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler uygulamasında beklenmeyen zemin koşullarına nasıl müdahale edilir?",
+      "question_id": "2.4.1-Q34",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_828c3ce36e83962466ee4a21e38df017f92bad355aa7b3c3e49fb5fa0a58e2d3",
+        "CLM_2406f3c30b211713e9abedf37a0ec05780e0ea40687803030176cce4dc0fb387",
+        "CLM_3059a201d0ac3a01814176f98f2daf4d6c4a4bf4347549e392e4a8bc1a9de50b",
+        "CLM_70d3dc833c92f989b294dab2eb22e0395cae7717e2907d27e06459fda8a2b88d"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler uygulamasında en sık görülen teknik riskler nelerdir?",
+      "question_id": "2.4.1-Q35",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_88cab094eac4a64601f0ca6b3bde9dbd4ded60d5827e3c4ed19f256340d11510",
+        "CLM_b775ce1bd835a3a660c2a05e35b1ef271f83fef79473a746895a1d834d7392a5"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler uygulamasında hata veya yetersizlik belirtileri nelerdir?",
+      "question_id": "2.4.1-Q36",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7604075546199d920029ec4918c3e177adf9cead0d6569e5c1247e6589b477bc",
+        "CLM_083a1299d99a7c308a2e499beab47cb052b4834c7e3b10b53722a895fa6d345f",
+        "CLM_5fc69e8324994686e8a97d8dee4e6e6417c88f58678a4fed9658386663337a97",
+        "CLM_77e8c6e633fd020b8e30e9fdc391eab8d37fc1969c4789a97866dd373a3561b0"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler uygulamasında düzeltici ve güçlendirici önlemler nelerdir?",
+      "question_id": "2.4.1-Q37",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ab8dc6c39da1f8164d6782007f79f882adf161ac1717fa958456a865e123e805",
+        "CLM_a6718429d2995a33eeea72df089d3e76c5bb3afab049cd2c3fcb46f2e0408ffe",
+        "CLM_2c5e0bbc6e49a68aabd380ceeeda45705c40ee9216703a85641986adc391bc71"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler ile nihai kaplama arasındaki ilişki nasıl kurulmalıdır?",
+      "question_id": "2.4.1-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d05bb86ffba738123ff9955516a6c75947a3881a33d39727c4910a662f38ed67",
+        "CLM_ef53f458ffbe3fe33a0629317cce3eee0fdf0a60f4d2b005e3d798a024c6e03f",
+        "CLM_3059a201d0ac3a01814176f98f2daf4d6c4a4bf4347549e392e4a8bc1a9de50b"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler ile portal tasarımı arasındaki ilişki nedir?",
+      "question_id": "2.4.1-Q39",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler ile havalandırma, aydınlatma ve diğer elektromekanik sistemler nasıl koordine edilir?",
+      "question_id": "2.4.1-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7e06e2687258bb45be88fba910de220aaf034953e616a8f13ddf3087c0cc4962",
+        "CLM_2c5e0bbc6e49a68aabd380ceeeda45705c40ee9216703a85641986adc391bc71",
+        "CLM_34201811802c25ba296eb72dbb2cbfe450d24320c7c8141eca9c8cf3577b6536",
+        "CLM_08c13a1479a872f85f9e34c98a11fcd8444a40b8eac9086a3aca3d1b00a1dd43"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler için uygulanabilir ulusal standart ve şartnameler nelerdir?",
+      "question_id": "2.4.1-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_268c6c41189f039add178e0e019e42cbac40c799426bb546f9ca8540561cde30",
+        "CLM_69f2d94413167bdc4482ab5430629e3cb780dc0e0b36aabb6ede23207c21a53a"
+      ],
+      "confidence": 0.75,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler için uygulanabilir uluslararası standart ve kılavuzlar nelerdir?",
+      "question_id": "2.4.1-Q42",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d387299fcf09c9a8ade3c58baffb61cf9a6ccc80851580a22ae884e1c3c02ee7",
+        "CLM_b9ba49e7daaf6e747d15eaed5ef7e0aa56c982b4c3cc88bbe4e301954abb37a3",
+        "CLM_8bfceb792ddc9461a2287665ba66837c791753dc91a7d12e1e474903f3813711"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler açısından Karayolları Genel Müdürlüğü uygulamalarında hangi esaslar öne çıkar?",
+      "question_id": "2.4.1-Q43",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_08c13a1479a872f85f9e34c98a11fcd8444a40b8eac9086a3aca3d1b00a1dd43",
+        "CLM_2c5e0bbc6e49a68aabd380ceeeda45705c40ee9216703a85641986adc391bc71",
+        "CLM_a13cc8c993dd78168491d20ab7d88768ec692439e20a09a32942ccb3affabfd9",
+        "CLM_ab8dc6c39da1f8164d6782007f79f882adf161ac1717fa958456a865e123e805"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler için yapım sırasında tutulması gereken kayıtlar nelerdir?",
+      "question_id": "2.4.1-Q44",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2c5e0bbc6e49a68aabd380ceeeda45705c40ee9216703a85641986adc391bc71",
+        "CLM_61886b4e0615f770e0a52b52db0c16b782d0c99f2deb4a9af95ce31019b6cb61",
+        "CLM_cdbfa79b5ab543d240b30c7ecefe6e56fe4469333ca82841dcbcd2bd0ca9a2ce"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler için kabul ve devreye alma kriterleri nelerdir?",
+      "question_id": "2.4.1-Q45",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_08c13a1479a872f85f9e34c98a11fcd8444a40b8eac9086a3aca3d1b00a1dd43",
+        "CLM_268c6c41189f039add178e0e019e42cbac40c799426bb546f9ca8540561cde30",
+        "CLM_4796bd4dc8d31675eef6840ead2c98760ed900d065735adf30efebd5bdca5d49"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler kullanım aşamasında nasıl izlenmeli ve denetlenmelidir?",
+      "question_id": "2.4.1-Q46",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler yaşam döngüsü boyunca hangi bakım gereksinimlerini doğurur?",
+      "question_id": "2.4.1-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler sürdürülebilirlik ve çevresel etki açısından nasıl değerlendirilebilir?",
+      "question_id": "2.4.1-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3059a201d0ac3a01814176f98f2daf4d6c4a4bf4347549e392e4a8bc1a9de50b",
+        "CLM_b9ba49e7daaf6e747d15eaed5ef7e0aa56c982b4c3cc88bbe4e301954abb37a3"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeolojik ve Geoteknik İncelemeler ile ilgili Türkiye’den hangi uygulama örnekleri verilebilir?",
+      "question_id": "2.4.1-Q49",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Jeolojik ve Geoteknik İncelemeler ile ilgili dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "2.4.1-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "2.4.1",
+  "section_title": "Jeolojik ve Geoteknik İncelemeler",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_064745be1a4f1e69c530b2872edc532277c4e0b9955dff6afc3133c36e08169f",
+      "CLM_083a1299d99a7c308a2e499beab47cb052b4834c7e3b10b53722a895fa6d345f",
+      "CLM_08c13a1479a872f85f9e34c98a11fcd8444a40b8eac9086a3aca3d1b00a1dd43",
+      "CLM_12a23ae7435f33a41550ffac3c8bb16eb0d4c08fe88037daed98e79c9e64b784",
+      "CLM_15b1f13cbdbb7aaa4a3e4856a799e3a3d05cd9d1c707861943f2eea7f7fdbb27",
+      "CLM_2406f3c30b211713e9abedf37a0ec05780e0ea40687803030176cce4dc0fb387",
+      "CLM_247d9eafb4eeae1fa2750252ce37da863b1e644bb122263cc7eeccd5b795b83a",
+      "CLM_268c6c41189f039add178e0e019e42cbac40c799426bb546f9ca8540561cde30",
+      "CLM_2c5e0bbc6e49a68aabd380ceeeda45705c40ee9216703a85641986adc391bc71",
+      "CLM_3059a201d0ac3a01814176f98f2daf4d6c4a4bf4347549e392e4a8bc1a9de50b",
+      "CLM_34201811802c25ba296eb72dbb2cbfe450d24320c7c8141eca9c8cf3577b6536",
+      "CLM_352f5a996be815aac65c418bdf3c6588c6c83293b40d51f31e227ee52cc850b2",
+      "CLM_3b3b3bf786e832176001958bedd27ea408f9a6db4be0f1317b806124d07f437b",
+      "CLM_3d2de225642edf3308ce1a47c2421bf9a796d45c86dd297d0570df6a7b77fbb8",
+      "CLM_4796bd4dc8d31675eef6840ead2c98760ed900d065735adf30efebd5bdca5d49",
+      "CLM_4d6bb1c1fc96c805fba991adb4bf9c5538eeac6ef3635798499bb6b4bad67a92",
+      "CLM_552396a125ecf97a7bcdd4b8d5242531fe70365c8a475649519380f73e5e425e",
+      "CLM_58a8366f11589c33d1bf52230c87973c6331f087172aee8c443af49f9109be61",
+      "CLM_5fc69e8324994686e8a97d8dee4e6e6417c88f58678a4fed9658386663337a97",
+      "CLM_61886b4e0615f770e0a52b52db0c16b782d0c99f2deb4a9af95ce31019b6cb61",
+      "CLM_62545c0693c2567161388ed4f845104a0e48ef27740d3da27ac80de45fbf1ead",
+      "CLM_69f2d94413167bdc4482ab5430629e3cb780dc0e0b36aabb6ede23207c21a53a",
+      "CLM_6cc2edfbf63b2d76120bb64fe07c4cf6e5e822d5ea1364e916f6a69b2fbd4d93",
+      "CLM_70d3dc833c92f989b294dab2eb22e0395cae7717e2907d27e06459fda8a2b88d",
+      "CLM_7437e6c2fb237bbfeafaa9df28ded494a5a746e2e3e2b39dc107a395f5fae364",
+      "CLM_7604075546199d920029ec4918c3e177adf9cead0d6569e5c1247e6589b477bc",
+      "CLM_77e8c6e633fd020b8e30e9fdc391eab8d37fc1969c4789a97866dd373a3561b0",
+      "CLM_7c193bfb3218743bd2ccd59581cf4e7641ea7770ba0b3639b707ee8b393790b1",
+      "CLM_7e06e2687258bb45be88fba910de220aaf034953e616a8f13ddf3087c0cc4962",
+      "CLM_82169b8f57afa4b59b65ee74feeee28ec7c1976c1be9257e18b5bc0839184334",
+      "CLM_824ddcae90db95503c31e6b2ad73cbaf3e2f49bf0499f1cea266e31593a7dcc9",
+      "CLM_828c3ce36e83962466ee4a21e38df017f92bad355aa7b3c3e49fb5fa0a58e2d3",
+      "CLM_88cab094eac4a64601f0ca6b3bde9dbd4ded60d5827e3c4ed19f256340d11510",
+      "CLM_8bfceb792ddc9461a2287665ba66837c791753dc91a7d12e1e474903f3813711",
+      "CLM_8db194b3c71feaa5d00497e209ae1bfda3be5217b34c58a1be1f3e1dbec0f987",
+      "CLM_9597bf6f78083d885faacb919144ca2b155235bcb694451d101f17af73570116",
+      "CLM_9c6a6ec52f3382dd250f3d98a674df8d8df998ddcacc1849cfc50411286d82d6",
+      "CLM_a13cc8c993dd78168491d20ab7d88768ec692439e20a09a32942ccb3affabfd9",
+      "CLM_a2a07cfdc550efb824b46da890786264f190c9319603d236dd28d91a0c7ef527",
+      "CLM_a6718429d2995a33eeea72df089d3e76c5bb3afab049cd2c3fcb46f2e0408ffe",
+      "CLM_a68611f1a5ed47d2127133e51473164512e799dde66de3c0ab0bde8a19c38c4f",
+      "CLM_aa6cd57c6baf215d9d2db858372a48197071336d7fbbb57e5e3989615887f489",
+      "CLM_ab8dc6c39da1f8164d6782007f79f882adf161ac1717fa958456a865e123e805",
+      "CLM_b07e8715df078649feac25809abb83bb6d6398f79fa73f268a869afbfc9acd60",
+      "CLM_b1f3b130d98d5c03ce2c269adeffa73031e95016d69573d3b03a2b0a461a189c",
+      "CLM_b359e86d61f69ea770f027a82d1dd970a0d0c0dd73ff6ebed7df0ed0a7eb6076",
+      "CLM_b775ce1bd835a3a660c2a05e35b1ef271f83fef79473a746895a1d834d7392a5",
+      "CLM_b9ba49e7daaf6e747d15eaed5ef7e0aa56c982b4c3cc88bbe4e301954abb37a3",
+      "CLM_c2daae89da4afd4d1b9422b33c7b0c3c500265640096054da35f87d15b36c4e5",
+      "CLM_c498277222c85563c84b7d75cedf5360e6398bf5bde249c3108ae2b6d5b5a545",
+      "CLM_cc9bbef3927b6834c40c4cd7871280ff2e3dc44ed4e1a92de5b3c0e95c4b59f8",
+      "CLM_ccf4243a7d54734149c6132cec44725d0624de86f140d6c6d67814d28d018b1b",
+      "CLM_cdbfa79b5ab543d240b30c7ecefe6e56fe4469333ca82841dcbcd2bd0ca9a2ce",
+      "CLM_d05bb86ffba738123ff9955516a6c75947a3881a33d39727c4910a662f38ed67",
+      "CLM_d387299fcf09c9a8ade3c58baffb61cf9a6ccc80851580a22ae884e1c3c02ee7",
+      "CLM_d69a63f31be5cc9813fc5717ea5a4ddb0881e9fa4bdff1fe3a0a499a7111cfbd",
+      "CLM_d813664b42c86950ecc798d2262a025905f947102d91592dbc50e49d492fe16e",
+      "CLM_ddecd6b1635bf869f7f2f23009f10ea86634e5237689cc488f9fa685c8df64d6",
+      "CLM_e0c07e0d747479daebf44c532410ccd3dd1275d0e5625e8dc5dd0404498f49b3",
+      "CLM_eab6208b18a2b3811ae57562b666bfdb7f1d69cf0614f3c702d91308e0f9d8dd",
+      "CLM_ee4518ad22bf8595e13e41f6566934cc727babd4d785a06540056a882991d94f",
+      "CLM_ef53f458ffbe3fe33a0629317cce3eee0fdf0a60f4d2b005e3d798a024c6e03f",
+      "CLM_f6b6bc85c97efb9aba9202c475a08628596404239d670b7acd09f2b1a78348d7",
+      "CLM_f6f8f924a302726811d23abd9e56747dafe212a828022b7d1a0695a9fe0be999",
+      "CLM_fb230599c79a0a7e3241907805de072de7b055ab3c10ac832c944191c465ad42",
+      "CLM_febec8fb75fc902148ee521f561f0214465512c72e505ecbbbcfd2c34c2514e0"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "2.4.1-Q01",
+      "2.4.1-Q02",
+      "2.4.1-Q03",
+      "2.4.1-Q06",
+      "2.4.1-Q15",
+      "2.4.1-Q17",
+      "2.4.1-Q19",
+      "2.4.1-Q20",
+      "2.4.1-Q25",
+      "2.4.1-Q26",
+      "2.4.1-Q27",
+      "2.4.1-Q28",
+      "2.4.1-Q29",
+      "2.4.1-Q32",
+      "2.4.1-Q33",
+      "2.4.1-Q34",
+      "2.4.1-Q35",
+      "2.4.1-Q36",
+      "2.4.1-Q38",
+      "2.4.1-Q41",
+      "2.4.1-Q45",
+      "2.4.1-Q49"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "2.4.1-Q07",
+      "2.4.1-Q08",
+      "2.4.1-Q09",
+      "2.4.1-Q10",
+      "2.4.1-Q11",
+      "2.4.1-Q14",
+      "2.4.1-Q16",
+      "2.4.1-Q18",
+      "2.4.1-Q40",
+      "2.4.1-Q47",
+      "2.4.1-Q48",
+      "2.4.1-Q50"
+    ]
+  }
+}

@@ -1,0 +1,540 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_cc3a79b1462921f3a852e52e217efeba41175524ef3c4f6eae01e16d75f94e96",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 0,
+    "SUPPORTED": 0,
+    "UNSUPPORTED": 50
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_7d619dc0f2fbbf582b6174bb28c8f9ac698d06f1a6045364373a5a7b71095664",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi altında ele alınan temel araştırma problemi nedir?",
+      "question_id": "5.1-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi hangi ana soruya cevap vermeyi amaçlamaktadır?",
+      "question_id": "5.1-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi hangi alt araştırma sorularına ayrılabilir?",
+      "question_id": "5.1-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi neden tünel mühendisliği ve kamu yönetimi açısından önemlidir?",
+      "question_id": "5.1-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi literatürdeki hangi boşluğu doldurmayı hedeflemektedir?",
+      "question_id": "5.1-Q05",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi uygulamada hangi kararları desteklemeyi amaçlamaktadır?",
+      "question_id": "5.1-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında hangi tünel türleri dahil edilmiştir?",
+      "question_id": "5.1-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında hangi tünel türleri hariç tutulmuştur?",
+      "question_id": "5.1-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında coğrafi sınırlar nasıl belirlenmiştir?",
+      "question_id": "5.1-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında zaman aralığı nasıl belirlenmiştir?",
+      "question_id": "5.1-Q10",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında analiz birimi nedir?",
+      "question_id": "5.1-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında örneklem veya evren nasıl tanımlanmıştır?",
+      "question_id": "5.1-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında veri kaynakları nelerdir?",
+      "question_id": "5.1-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında idari kayıtlar nasıl kullanılmıştır?",
+      "question_id": "5.1-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında proje ve keşif verileri nasıl kullanılmıştır?",
+      "question_id": "5.1-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında bakım ve işletme kayıtları nasıl kullanılmıştır?",
+      "question_id": "5.1-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında maliyet verilerinin para birimi ve baz yılı nasıl tanımlanmıştır?",
+      "question_id": "5.1-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında hangi bağımlı veya hedef değişkenler kullanılmıştır?",
+      "question_id": "5.1-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında hangi açıklayıcı değişkenler kullanılmıştır?",
+      "question_id": "5.1-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında kategorik değişkenler nasıl tanımlanmıştır?",
+      "question_id": "5.1-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında sayısal değişkenler nasıl tanımlanmıştır?",
+      "question_id": "5.1-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında değişkenlerin birimleri açıkça belirtilmiş midir?",
+      "question_id": "5.1-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında veri temizleme adımları nelerdir?",
+      "question_id": "5.1-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında eksik veriler nasıl ele alınmıştır?",
+      "question_id": "5.1-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında aykırı değerler nasıl belirlenmiştir?",
+      "question_id": "5.1-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında mükerrer kayıtlar nasıl kontrol edilmiştir?",
+      "question_id": "5.1-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında fiyat farkı, enflasyon veya döviz etkileri nasıl düzeltilmiştir?",
+      "question_id": "5.1-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında kullanılan tanımlayıcı istatistikler nelerdir?",
+      "question_id": "5.1-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında kullanılan karşılaştırmalı istatistik yöntemleri nelerdir?",
+      "question_id": "5.1-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında kullanılan ilişki veya korelasyon analizleri nelerdir?",
+      "question_id": "5.1-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında kullanılan regresyon veya tahmin yöntemleri nelerdir?",
+      "question_id": "5.1-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında kullanılan makine öğrenmesi yöntemleri varsa neden seçilmiştir?",
+      "question_id": "5.1-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında model doğrulama yaklaşımı nedir?",
+      "question_id": "5.1-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında performans ölçütleri nasıl seçilmiştir?",
+      "question_id": "5.1-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında istatistiksel anlamlılık ile pratik önem nasıl ayrıştırılmıştır?",
+      "question_id": "5.1-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında alt grup analizleri yapılmış mıdır?",
+      "question_id": "5.1-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında tünel uzunluğu, yöntem, zemin ve benzeri özellikler kontrol edilmiş midir?",
+      "question_id": "5.1-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında değişkenler arası çoklu bağlantı veya bağımlılık sorunları incelenmiş midir?",
+      "question_id": "5.1-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında sonuçların sağlamlığı için duyarlılık analizleri yapılmış mıdır?",
+      "question_id": "5.1-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında kullanılan veri ve yöntemlerin yeniden üretilebilirliği nasıl sağlanmıştır?",
+      "question_id": "5.1-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında veri kalitesinin sınırlılıkları nelerdir?",
+      "question_id": "5.1-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında seçim yanlılığı veya temsil sorunu var mıdır?",
+      "question_id": "5.1-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında ölçüm ve kayıt hatalarının etkisi nedir?",
+      "question_id": "5.1-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında genellenebilirlik sınırları nelerdir?",
+      "question_id": "5.1-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında hangi varsayımlar yapılmıştır?",
+      "question_id": "5.1-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında hangi etik, kurumsal veya veri gizliliği hususları dikkate alınmıştır?",
+      "question_id": "5.1-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında yöntem seçiminin alternatifleri nelerdir?",
+      "question_id": "5.1-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında yöntemin güçlü yönleri nelerdir?",
+      "question_id": "5.1-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi kapsamında yöntemin zayıf yönleri nelerdir?",
+      "question_id": "5.1-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Amacı ve Önemi açıklaması okuyucunun sonuçların nasıl üretildiğini baştan sona yeniden kurmasına yeterli midir?",
+      "question_id": "5.1-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "5.1",
+  "section_title": "Çalışmanın Amacı ve Önemi",
+  "writer_constraints": {
+    "allowed_claim_ids": [],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "5.1-Q01",
+      "5.1-Q02",
+      "5.1-Q03",
+      "5.1-Q04",
+      "5.1-Q05",
+      "5.1-Q06",
+      "5.1-Q07",
+      "5.1-Q08",
+      "5.1-Q09",
+      "5.1-Q10",
+      "5.1-Q11",
+      "5.1-Q12",
+      "5.1-Q13",
+      "5.1-Q14",
+      "5.1-Q15",
+      "5.1-Q16",
+      "5.1-Q17",
+      "5.1-Q18",
+      "5.1-Q19",
+      "5.1-Q20",
+      "5.1-Q21",
+      "5.1-Q22",
+      "5.1-Q23",
+      "5.1-Q24",
+      "5.1-Q25",
+      "5.1-Q26",
+      "5.1-Q27",
+      "5.1-Q28",
+      "5.1-Q29",
+      "5.1-Q30",
+      "5.1-Q31",
+      "5.1-Q32",
+      "5.1-Q33",
+      "5.1-Q34",
+      "5.1-Q35",
+      "5.1-Q36",
+      "5.1-Q37",
+      "5.1-Q38",
+      "5.1-Q39",
+      "5.1-Q40",
+      "5.1-Q41",
+      "5.1-Q42",
+      "5.1-Q43",
+      "5.1-Q44",
+      "5.1-Q45",
+      "5.1-Q46",
+      "5.1-Q47",
+      "5.1-Q48",
+      "5.1-Q49",
+      "5.1-Q50"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "document_id": "ING_3995c7f174162568f19e",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Construction of a tunnel under thin rock overburden in Middle Marsyangdi Hydroelectric Project, Central Nepal",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Kaustubh Mani Nepal"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2004",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: journal of"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "blasting",
+        "excavation",
+        "geology",
+        "monitoring",
+        "natm",
+        "rock_bolt",
+        "rock_mechanics",
+        "shotcrete",
+        "standards",
+        "steel_rib",
+        "support_systems"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; geology:geolog; rock_mechanics:rock mass; excavation:excavat; blasting:blasting; shotcrete:shotcrete; steel_rib:steel rib; rock_bolt:rock bolt; support_systems:support system; monitoring:monitoring; standards:standard; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://www.nepjol.info/index.php/JNGS/article/view/31715",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.3126/jngs.v29i0.31715",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

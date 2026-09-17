@@ -1,0 +1,94 @@
+{
+  "document_id": "ING_7e795b9a47c89f5406c5",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Microsoft Word - tez_metin_26_05.doc",
+      "source": "ooxml_properties",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "sehnaz"
+      ],
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "thesis",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: yüksek lisans tezi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "excavation",
+        "forepoling",
+        "geology",
+        "geotechnical_investigation",
+        "history",
+        "injection",
+        "jet_grouting",
+        "portal",
+        "rock_bolt",
+        "rock_mechanics",
+        "shotcrete",
+        "steel_rib",
+        "support_systems",
+        "water"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geotechnical_investigation:geoteknik; geology:jeoloji; rock_mechanics:kaya mekani; excavation:kazı; shotcrete:püskürtme beton; steel_rib:çelik iksa; rock_bolt:kaya bulonu; forepoling:süren; support_systems:destek sistem; jet_grouting:jet grout; injection:enjeksiyon; water:yeraltı su"
+    }
+  ]
+}

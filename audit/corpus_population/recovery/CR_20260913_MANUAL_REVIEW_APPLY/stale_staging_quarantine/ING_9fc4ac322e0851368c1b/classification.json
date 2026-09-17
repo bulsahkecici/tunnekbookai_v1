@@ -1,0 +1,106 @@
+{
+  "final_primary_section": "2.2.2",
+  "final_secondary_sections": [
+    "2.2.3"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.2.3",
+      "section_title": "Su Altında Açılan Tüneller",
+      "supporting_elements": [
+        "HEAD0001"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1",
+      "score": 0.6932,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7796,
+      "chunk_vote": 0.5455
+    },
+    {
+      "id": "2.2.3",
+      "score": 0.6224,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7838,
+      "chunk_vote": 0.1818
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.3667,
+      "rule_score": 0.0,
+      "embedding_score": 0.8149,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.353,
+      "rule_score": 0.0,
+      "embedding_score": 0.7845,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3518,
+      "rule_score": 0.0,
+      "embedding_score": 0.7818,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4",
+      "score": 0.3516,
+      "rule_score": 0.0,
+      "embedding_score": 0.7813,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3515,
+      "rule_score": 0.0,
+      "embedding_score": 0.781,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3504,
+      "rule_score": 0.0,
+      "embedding_score": 0.7786,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.1",
+      "score": 0.2379,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2727
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge başlığı 'Settlements of immersed tunnel on soft ground' (Yumuşak zeminde batık tünel oturmaları) olup, ana odak noktası 'soft ground' (yumuşak zemin) olduğundan 2.2.2 birincil bölümdür. 'Immersed tunnel' (batık tünel) ifadesi ise 2.2.3 ile ilişkili ikincil bir konudur.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:3",
+    "chunk_votes:1",
+    "embeddings:8",
+    "top=1:0.6932 gap=0.071 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,710 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_5592f68a8ae6094b086211cbd450e46070a7b1762952030ab768c3f514b176ae",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 25,
+    "SUPPORTED": 9,
+    "UNSUPPORTED": 16
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_2ad85db1ac0e9fa0b98be835ea5d2dd3b8b86d1813e52533965d65327fc2b0c7",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_487ce65e2c8887266215524a99d62b61aa5ac81757be077e77b53f2fb6dcb23e",
+        "CLM_314453ba4b6ffcafce6b01e1070beac686eb14a3b00a12423086961a6924b2db",
+        "CLM_8e212b1460d5eee8934be4b52a6688bdcb35fd05807f02224bbb9cd7c5578198"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri kapsamında hangi olaylar 'önemli' veya 'felaket' olarak değerlendirilmelidir?",
+      "question_id": "1.5-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Felaketleri olayları hangi ölçütlere göre sınıflandırılabilir?",
+      "question_id": "1.5-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e24a1a5cadf7a442462edabc3aa09c819161f919bbaa57283a3b771eab95574c",
+        "CLM_1ea825c1603ed14d9c444f1bc2fca5f462a10a33e81e1b2260ad59cff7863f9f",
+        "CLM_e4d401af97fb176313e5bf1e1b9b6c0b8e7205b8d9ff03539b33dc8f143c6e42"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri içinde yangın kaynaklı olayların başlıca nedenleri nelerdir?",
+      "question_id": "1.5-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Felaketleri içinde çarpışma kaynaklı olayların başlıca nedenleri nelerdir?",
+      "question_id": "1.5-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9ed13eadee229ae744b692ca6b50680336c439e46409a1dcf90dff9b3521b90e",
+        "CLM_833c6f72b2f0b43bef1ad7f0453b12b55a37c14093685cd40e80468d0f9f6be6",
+        "CLM_61a0b2a54270f56092bb584b6af5dd549984b5f160f694cebf9ba143fe90f112"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri içinde yapısal göçme veya stabilite kaybı kaynaklı olayların nedenleri nelerdir?",
+      "question_id": "1.5-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bacd10fdfb3a138523e2a0737135493fe64cd7aaeccc14a7509e0fa23ee321ed",
+        "CLM_833c6f72b2f0b43bef1ad7f0453b12b55a37c14093685cd40e80468d0f9f6be6"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri içinde su baskını veya drenaj yetersizliği kaynaklı olayların nedenleri nelerdir?",
+      "question_id": "1.5-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a2568fcefdb342069d873e0b8f582fb02d6527b8b8d7c9891280fa5ba30299f2",
+        "CLM_40e798b01720f9ce3a1e7576c6bdbb9714690f31478b6e375794e477a6ab0d72"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri içinde tehlikeli madde taşımacılığı hangi riskleri artırır?",
+      "question_id": "1.5-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bc2f87c6faa1f870b7955636be6c4f088e3d125f85cab977171091c3a7bcfd6a",
+        "CLM_3fb2036ea9c44d12cc2ac8a9baeb6874dad3f58cd7c52f6ecb478a3d3e0a5033"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri içinde insan hatasının rolü nasıl değerlendirilir?",
+      "question_id": "1.5-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_afcaba33f4a30f306f24876f374a8d883c5b1e90d3a8ab38ef3bae776d4fb60e"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Felaketleri içinde araç kaynaklı teknik arızaların rolü nedir?",
+      "question_id": "1.5-Q09",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_250285df82e40b27938505ce896a8ca508d52e30bd267e452d00bb078f1bad26",
+        "CLM_521ac5beb03b348c83daf37985db861dfc4aae019b488d15bd8f9f3f70bdd88c",
+        "CLM_c6e4a5e30cf4a57f1fee818b3f31a996f2374d5da95d3b73f8c1f11e5dec6dd6"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri içinde tünel geometrisinin olay şiddetine etkisi nedir?",
+      "question_id": "1.5-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0aaec3df161f582371d37918b109a5bb8ff670644234aa67ad6da3d9353dc656",
+        "CLM_e560f262d232d194923a7bd597fa99191b6f13be92742dba3669735d2ac6416a"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri içinde trafik yoğunluğunun olay şiddetine etkisi nedir?",
+      "question_id": "1.5-Q11",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0e3bd213d08807485c39c6d6ba484b2cc3659d89460ee0ce42115f6b30e79707",
+        "CLM_7e0b5de26f830d5d764288c21900195a94d46c72f167f008ecdf46ac49f0b3ed"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Felaketleri içinde tek tüp ve çift tüp düzeninin güvenlik sonuçları nasıl farklılaşır?",
+      "question_id": "1.5-Q12",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a4bc36e0783b7e0c364a8b1460ca5de08128eb280e51dcec2dfb5362b9117918",
+        "CLM_1ea825c1603ed14d9c444f1bc2fca5f462a10a33e81e1b2260ad59cff7863f9f"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri içinde havalandırma sisteminin performansı sonucu nasıl etkiler?",
+      "question_id": "1.5-Q13",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e4d401af97fb176313e5bf1e1b9b6c0b8e7205b8d9ff03539b33dc8f143c6e42"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Felaketleri içinde duman kontrolünün kritik rolü nedir?",
+      "question_id": "1.5-Q14",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c557a19c1ab955a091467e8fce167f13a93e4a5b119f74f8732f5478811e879a"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Felaketleri içinde yangına dayanıklı kaplama ve malzemelerin rolü nedir?",
+      "question_id": "1.5-Q15",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b8e334b3c0775090019fdfe5098c93564d348915447028b23a0a402e3d5a96bc",
+        "CLM_b587085757baaa35582b028f98c44efe4c1bfa2a58ba138d1fa3004d2c9b5d76"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Felaketleri içinde acil çıkışların sayısı ve aralığı neden önemlidir?",
+      "question_id": "1.5-Q16",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d31c27424f68687a4eccae2db77660311509f2675d139b837c1b71b983a3c8a5",
+        "CLM_3146bb6a3cc77d930c3e444ba2c041edba8b3f3ce719b8f390420f1351275c95"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri içinde kaçış yollarının tasarımı can kaybını nasıl etkiler?",
+      "question_id": "1.5-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_41fe9e00eefd983f8fd588f11de6aeb64ffcb4d59b575ad466a7fac71d572b99",
+        "CLM_93aef00ce5b362aa379fc8850cd83215dad1b9c5e18c9026e3e16083a684777c"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri içinde algılama ve alarm sistemleri ne kadar belirleyicidir?",
+      "question_id": "1.5-Q18",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6f0aa2ab48bee34308ca01bf6415de66a57ee38c67bd8c18ae15bebfa26f8dcc",
+        "CLM_799afe5aa561711f161043d70185845faa3f7945009b075d1e63295122e03053"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri içinde kamera ve olay algılama sistemlerinin rolü nedir?",
+      "question_id": "1.5-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_af76a57b94c15eb5362264ee71b2742e7a873f8c0557620ea90b2da1a84c7966"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri içinde haberleşme sistemlerinin başarısı nasıl değerlendirilir?",
+      "question_id": "1.5-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8827ac0aef9db30da798cb9da693251fd55648e0f2034f1ecb6b3bda93edc3fe",
+        "CLM_b6f5832b5901f91296f66e1f474fbb27cf1b2285056e648666b0373feb78960b",
+        "CLM_f2d34d36aa78875b8a8a7ea4c58219f39429e00f5464089c89ff788bec799d68"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Felaketleri içinde itfaiye ve kurtarma ekiplerinin erişim süresi neden önemlidir?",
+      "question_id": "1.5-Q21",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Felaketleri içinde işletme merkezinin karar alma süreci nasıl etkili olur?",
+      "question_id": "1.5-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0aaec3df161f582371d37918b109a5bb8ff670644234aa67ad6da3d9353dc656",
+        "CLM_7c61962493129ebf016e623bf9be72848d345c3021a35beac1bc981dd569dd1e",
+        "CLM_0e216d93bd90b18b52c673b27c49fdcc70dc715cd7ac99a2841d21d93d8397c8"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri içinde kullanıcı davranışları ve tahliye kararları nasıl etkili olur?",
+      "question_id": "1.5-Q23",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8d4e148c12e6895bf1e350a762ca1120e24e6a3ddbf896a42f6a60b44c141a83",
+        "CLM_5fa3aacf9cd90a15863b5218aede07889d4c0b48a94865f0aa6d1549b43808e8",
+        "CLM_f26fb93b3850853ecea885cfd12cfb90f850890b7a14c3afd595cd6f6d93d79b"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri sonrasında hangi teknik inceleme yöntemleri uygulanır?",
+      "question_id": "1.5-Q24",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_aa5c4a8250c37300f641fe7cd8af58ebeae9ed2abec245ff016f18fef0f3abe6"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri sonrasında kök neden analizi nasıl yapılmalıdır?",
+      "question_id": "1.5-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9ed13eadee229ae744b692ca6b50680336c439e46409a1dcf90dff9b3521b90e",
+        "CLM_c6e4a5e30cf4a57f1fee818b3f31a996f2374d5da95d3b73f8c1f11e5dec6dd6",
+        "CLM_aa5c4a8250c37300f641fe7cd8af58ebeae9ed2abec245ff016f18fef0f3abe6",
+        "CLM_d31a23ac6c29aba28f53833c72f4ba8f46f278c10b0b4d8437b8d138dd7d5018"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri sonrasında yapısal hasar nasıl değerlendirilir?",
+      "question_id": "1.5-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8e212b1460d5eee8934be4b52a6688bdcb35fd05807f02224bbb9cd7c5578198",
+        "CLM_2775e01c035248792da5bb060fbc1e69d700141a86224e68eb92d6eee9ae11d7"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri sonrasında elektromekanik sistem hasarı nasıl değerlendirilir?",
+      "question_id": "1.5-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.2,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Felaketleri sonrasında tünelin yeniden hizmete açılma kriterleri nelerdir?",
+      "question_id": "1.5-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Felaketleri olaylarının doğrudan maliyetleri hangi kalemlerden oluşur?",
+      "question_id": "1.5-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Felaketleri olaylarının dolaylı ulaşım ve ekonomik maliyetleri nasıl hesaplanabilir?",
+      "question_id": "1.5-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_eb53d56ecb16f6aafceb70c328f095a890633b65df6dfe85fc1fa0f139b904e8",
+        "CLM_7aef11d9863867c8723b9419fd4fb27ad1779cc153149b6f912c13ad6ff0ade2"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri olaylarının bakım ve yenileme politikalarına etkisi nedir?",
+      "question_id": "1.5-Q31",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_eb53d56ecb16f6aafceb70c328f095a890633b65df6dfe85fc1fa0f139b904e8",
+        "CLM_3289a4a6e21c3a6cb13e55ce69b101637b4dbec3b26a99ee31486bfe6c17e921"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri olayları hangi mevzuat veya standart değişikliklerine yol açmıştır?",
+      "question_id": "1.5-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Felaketleri olaylarından sonra havalandırma standartlarında hangi değişiklikler görülmüştür?",
+      "question_id": "1.5-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fdb3077b4a2824417c98d7f0ab13a56211f698128024a4fbfef851072b19be3c",
+        "CLM_eb53d56ecb16f6aafceb70c328f095a890633b65df6dfe85fc1fa0f139b904e8"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri olaylarından sonra yangın güvenliği standartlarında hangi değişiklikler görülmüştür?",
+      "question_id": "1.5-Q34",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5b7034fa5435480be3fc1edba4e7e4bb6b01359c020a372d8622d0392b98922c",
+        "CLM_3146bb6a3cc77d930c3e444ba2c041edba8b3f3ce719b8f390420f1351275c95",
+        "CLM_b587085757baaa35582b028f98c44efe4c1bfa2a58ba138d1fa3004d2c9b5d76",
+        "CLM_b8e334b3c0775090019fdfe5098c93564d348915447028b23a0a402e3d5a96bc"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri olaylarından sonra acil çıkış ve kaçış mesafesi kriterleri nasıl değişmiştir?",
+      "question_id": "1.5-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Felaketleri olaylarından sonra tehlikeli madde taşımacılığına ilişkin uygulamalar nasıl değişmiştir?",
+      "question_id": "1.5-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2e89602398eba0e1fc0e44bac37b15de66d0fe2b32db8ca67fdd0d84b1583348",
+        "CLM_5cb60c134dd07605f0bdf86f70c40e1892ce8148b63b84801bdc42906c2b0093",
+        "CLM_542abf1d86f7d4987c6eab68d4fd34f707e6932d980b740a096eb54ee99f8088",
+        "CLM_350a26901d02d6ce1ac019d13e2519ed0de13dff50df382cab82ee802daaa087"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Felaketleri olayları risk analizlerinde nasıl modellenebilir?",
+      "question_id": "1.5-Q37",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_dd60a8488ee6bd7a153fda647bea971c74b72206448aa32eaee73136e7811468",
+        "CLM_d05dd57b1805ced262152a4d35f362e3953240ef030ae2a374bb479e41030caf",
+        "CLM_c1eef85e7b1b9847077af1511bd37e67026d727e896d4407bf9776e874c4b8be"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Felaketleri için olasılık ve sonuç temelli risk matrisi nasıl kurulabilir?",
+      "question_id": "1.5-Q38",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5cb60c134dd07605f0bdf86f70c40e1892ce8148b63b84801bdc42906c2b0093",
+        "CLM_5137fae28bbb3164a46ab4f531e6be6854c98d90c1ac1e4003218ee66ecba210",
+        "CLM_5fa3aacf9cd90a15863b5218aede07889d4c0b48a94865f0aa6d1549b43808e8",
+        "CLM_2e89602398eba0e1fc0e44bac37b15de66d0fe2b32db8ca67fdd0d84b1583348"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Felaketleri için senaryo bazlı güvenlik analizi nasıl yapılabilir?",
+      "question_id": "1.5-Q39",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e24a1a5cadf7a442462edabc3aa09c819161f919bbaa57283a3b771eab95574c",
+        "CLM_314453ba4b6ffcafce6b01e1070beac686eb14a3b00a12423086961a6924b2db",
+        "CLM_487ce65e2c8887266215524a99d62b61aa5ac81757be077e77b53f2fb6dcb23e",
+        "CLM_fdb3077b4a2824417c98d7f0ab13a56211f698128024a4fbfef851072b19be3c"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri olaylarında ortak nedenler ve tekrar eden örüntüler nelerdir?",
+      "question_id": "1.5-Q40",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Felaketleri olayları arasında mühendislik tasarım hataları açısından ortaklıklar var mıdır?",
+      "question_id": "1.5-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Felaketleri olayları arasında işletme hataları açısından ortaklıklar var mıdır?",
+      "question_id": "1.5-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Felaketleri olayları arasında bakım eksiklikleri açısından ortaklıklar var mıdır?",
+      "question_id": "1.5-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e67d532637ee477217ced3228fed98f420fb1fbadc4c7495cadae7bf2c2969f1",
+        "CLM_994d24727221afd97e2f98f3b6b8b79945dae331ff2ae356731c0583eef0925b",
+        "CLM_2df9aba93b014a2b37e99819d6db0bd725c03e35dd5485b5c69b83cb6f3715be"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri olayları açısından en etkili önleyici tedbirler hangileridir?",
+      "question_id": "1.5-Q44",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7a660aa3df7203c2cc87a02b132be176ce25ca800fe8fb0a508693be9750460f",
+        "CLM_2df9aba93b014a2b37e99819d6db0bd725c03e35dd5485b5c69b83cb6f3715be"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Felaketleri olayları açısından en etkili zarar azaltıcı tedbirler hangileridir?",
+      "question_id": "1.5-Q45",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Felaketleri anlatılırken hangi olaylar ayrıntılı vaka analizi olarak seçilmelidir?",
+      "question_id": "1.5-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Her vaka için tarih, yer, tünel özellikleri, neden, sonuç ve alınan dersler birlikte veriliyor mu?",
+      "question_id": "1.5-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Felaketleri içinde can kaybı ve yaralanma verileri nasıl güvenilir biçimde sunulmalıdır?",
+      "question_id": "1.5-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Felaketleri içinden çıkarılan dersler yeni tünel tasarımlarına nasıl aktarılabilir?",
+      "question_id": "1.5-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Felaketleri içinden çıkarılan dersler mevcut tünellerin iyileştirilmesine nasıl aktarılabilir?",
+      "question_id": "1.5-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "1.5",
+  "section_title": "Tünel Felaketleri",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_0aaec3df161f582371d37918b109a5bb8ff670644234aa67ad6da3d9353dc656",
+      "CLM_0e216d93bd90b18b52c673b27c49fdcc70dc715cd7ac99a2841d21d93d8397c8",
+      "CLM_0e3bd213d08807485c39c6d6ba484b2cc3659d89460ee0ce42115f6b30e79707",
+      "CLM_1ea825c1603ed14d9c444f1bc2fca5f462a10a33e81e1b2260ad59cff7863f9f",
+      "CLM_250285df82e40b27938505ce896a8ca508d52e30bd267e452d00bb078f1bad26",
+      "CLM_2775e01c035248792da5bb060fbc1e69d700141a86224e68eb92d6eee9ae11d7",
+      "CLM_2df9aba93b014a2b37e99819d6db0bd725c03e35dd5485b5c69b83cb6f3715be",
+      "CLM_2e89602398eba0e1fc0e44bac37b15de66d0fe2b32db8ca67fdd0d84b1583348",
+      "CLM_314453ba4b6ffcafce6b01e1070beac686eb14a3b00a12423086961a6924b2db",
+      "CLM_3146bb6a3cc77d930c3e444ba2c041edba8b3f3ce719b8f390420f1351275c95",
+      "CLM_3289a4a6e21c3a6cb13e55ce69b101637b4dbec3b26a99ee31486bfe6c17e921",
+      "CLM_350a26901d02d6ce1ac019d13e2519ed0de13dff50df382cab82ee802daaa087",
+      "CLM_3fb2036ea9c44d12cc2ac8a9baeb6874dad3f58cd7c52f6ecb478a3d3e0a5033",
+      "CLM_40e798b01720f9ce3a1e7576c6bdbb9714690f31478b6e375794e477a6ab0d72",
+      "CLM_41fe9e00eefd983f8fd588f11de6aeb64ffcb4d59b575ad466a7fac71d572b99",
+      "CLM_487ce65e2c8887266215524a99d62b61aa5ac81757be077e77b53f2fb6dcb23e",
+      "CLM_5137fae28bbb3164a46ab4f531e6be6854c98d90c1ac1e4003218ee66ecba210",
+      "CLM_521ac5beb03b348c83daf37985db861dfc4aae019b488d15bd8f9f3f70bdd88c",
+      "CLM_542abf1d86f7d4987c6eab68d4fd34f707e6932d980b740a096eb54ee99f8088",
+      "CLM_5b7034fa5435480be3fc1edba4e7e4bb6b01359c020a372d8622d0392b98922c",
+      "CLM_5cb60c134dd07605f0bdf86f70c40e1892ce8148b63b84801bdc42906c2b0093",
+      "CLM_5fa3aacf9cd90a15863b5218aede07889d4c0b48a94865f0aa6d1549b43808e8",
+      "CLM_61a0b2a54270f56092bb584b6af5dd549984b5f160f694cebf9ba143fe90f112",
+      "CLM_6f0aa2ab48bee34308ca01bf6415de66a57ee38c67bd8c18ae15bebfa26f8dcc",
+      "CLM_799afe5aa561711f161043d70185845faa3f7945009b075d1e63295122e03053",
+      "CLM_7a660aa3df7203c2cc87a02b132be176ce25ca800fe8fb0a508693be9750460f",
+      "CLM_7aef11d9863867c8723b9419fd4fb27ad1779cc153149b6f912c13ad6ff0ade2",
+      "CLM_7c61962493129ebf016e623bf9be72848d345c3021a35beac1bc981dd569dd1e",
+      "CLM_7e0b5de26f830d5d764288c21900195a94d46c72f167f008ecdf46ac49f0b3ed",
+      "CLM_833c6f72b2f0b43bef1ad7f0453b12b55a37c14093685cd40e80468d0f9f6be6",
+      "CLM_8827ac0aef9db30da798cb9da693251fd55648e0f2034f1ecb6b3bda93edc3fe",
+      "CLM_8d4e148c12e6895bf1e350a762ca1120e24e6a3ddbf896a42f6a60b44c141a83",
+      "CLM_8e212b1460d5eee8934be4b52a6688bdcb35fd05807f02224bbb9cd7c5578198",
+      "CLM_93aef00ce5b362aa379fc8850cd83215dad1b9c5e18c9026e3e16083a684777c",
+      "CLM_994d24727221afd97e2f98f3b6b8b79945dae331ff2ae356731c0583eef0925b",
+      "CLM_9ed13eadee229ae744b692ca6b50680336c439e46409a1dcf90dff9b3521b90e",
+      "CLM_a2568fcefdb342069d873e0b8f582fb02d6527b8b8d7c9891280fa5ba30299f2",
+      "CLM_a4bc36e0783b7e0c364a8b1460ca5de08128eb280e51dcec2dfb5362b9117918",
+      "CLM_aa5c4a8250c37300f641fe7cd8af58ebeae9ed2abec245ff016f18fef0f3abe6",
+      "CLM_af76a57b94c15eb5362264ee71b2742e7a873f8c0557620ea90b2da1a84c7966",
+      "CLM_afcaba33f4a30f306f24876f374a8d883c5b1e90d3a8ab38ef3bae776d4fb60e",
+      "CLM_b587085757baaa35582b028f98c44efe4c1bfa2a58ba138d1fa3004d2c9b5d76",
+      "CLM_b6f5832b5901f91296f66e1f474fbb27cf1b2285056e648666b0373feb78960b",
+      "CLM_b8e334b3c0775090019fdfe5098c93564d348915447028b23a0a402e3d5a96bc",
+      "CLM_bacd10fdfb3a138523e2a0737135493fe64cd7aaeccc14a7509e0fa23ee321ed",
+      "CLM_bc2f87c6faa1f870b7955636be6c4f088e3d125f85cab977171091c3a7bcfd6a",
+      "CLM_c1eef85e7b1b9847077af1511bd37e67026d727e896d4407bf9776e874c4b8be",
+      "CLM_c557a19c1ab955a091467e8fce167f13a93e4a5b119f74f8732f5478811e879a",
+      "CLM_c6e4a5e30cf4a57f1fee818b3f31a996f2374d5da95d3b73f8c1f11e5dec6dd6",
+      "CLM_d05dd57b1805ced262152a4d35f362e3953240ef030ae2a374bb479e41030caf",
+      "CLM_d31a23ac6c29aba28f53833c72f4ba8f46f278c10b0b4d8437b8d138dd7d5018",
+      "CLM_d31c27424f68687a4eccae2db77660311509f2675d139b837c1b71b983a3c8a5",
+      "CLM_dd60a8488ee6bd7a153fda647bea971c74b72206448aa32eaee73136e7811468",
+      "CLM_e24a1a5cadf7a442462edabc3aa09c819161f919bbaa57283a3b771eab95574c",
+      "CLM_e4d401af97fb176313e5bf1e1b9b6c0b8e7205b8d9ff03539b33dc8f143c6e42",
+      "CLM_e560f262d232d194923a7bd597fa99191b6f13be92742dba3669735d2ac6416a",
+      "CLM_e67d532637ee477217ced3228fed98f420fb1fbadc4c7495cadae7bf2c2969f1",
+      "CLM_eb53d56ecb16f6aafceb70c328f095a890633b65df6dfe85fc1fa0f139b904e8",
+      "CLM_f26fb93b3850853ecea885cfd12cfb90f850890b7a14c3afd595cd6f6d93d79b",
+      "CLM_f2d34d36aa78875b8a8a7ea4c58219f39429e00f5464089c89ff788bec799d68",
+      "CLM_fdb3077b4a2824417c98d7f0ab13a56211f698128024a4fbfef851072b19be3c"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "1.5-Q01",
+      "1.5-Q03",
+      "1.5-Q05",
+      "1.5-Q06",
+      "1.5-Q07",
+      "1.5-Q08",
+      "1.5-Q10",
+      "1.5-Q11",
+      "1.5-Q13",
+      "1.5-Q17",
+      "1.5-Q18",
+      "1.5-Q19",
+      "1.5-Q20",
+      "1.5-Q23",
+      "1.5-Q24",
+      "1.5-Q25",
+      "1.5-Q26",
+      "1.5-Q27",
+      "1.5-Q31",
+      "1.5-Q32",
+      "1.5-Q34",
+      "1.5-Q35",
+      "1.5-Q40",
+      "1.5-Q44",
+      "1.5-Q45"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "1.5-Q02",
+      "1.5-Q04",
+      "1.5-Q22",
+      "1.5-Q28",
+      "1.5-Q29",
+      "1.5-Q30",
+      "1.5-Q33",
+      "1.5-Q36",
+      "1.5-Q41",
+      "1.5-Q42",
+      "1.5-Q43",
+      "1.5-Q46",
+      "1.5-Q47",
+      "1.5-Q48",
+      "1.5-Q49",
+      "1.5-Q50"
+    ]
+  }
+}

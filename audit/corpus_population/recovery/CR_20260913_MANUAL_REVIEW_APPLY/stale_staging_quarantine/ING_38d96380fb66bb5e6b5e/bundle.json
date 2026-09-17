@@ -1,0 +1,34 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_38d96380fb66bb5e6b5e",
+  "original_sha256": "38d96380fb66bb5e6b5e51f0b0576e5a39b5ec5e18093078f5e4903146402ab1",
+  "source_kind": "MANUAL_INTERNAL",
+  "format": "PDF",
+  "title": "Birim Fiyat Detay (04.376/01A)",
+  "final_primary_section": "4.1",
+  "final_secondary_sections": [
+    "4"
+  ],
+  "final_section_confidence": 0.65,
+  "final_evidence_level": "IMAGE_OCR",
+  "content_capabilities": {
+    "text": true,
+    "tables": true,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_38d96380fb66bb5e6b5e",
+  "original_archive": "originals/ING_38d96380fb66bb5e6b5e",
+  "chunks_authoritative_path": "processing/ING_38d96380fb66bb5e6b5e/chunks/chunk_manifest.jsonl",
+  "chunk_count": 6,
+  "chunk_quality_status": "WARN",
+  "canonical_promoted": false
+}

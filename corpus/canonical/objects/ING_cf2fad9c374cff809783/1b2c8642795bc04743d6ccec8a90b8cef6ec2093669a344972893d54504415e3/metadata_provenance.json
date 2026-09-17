@@ -1,0 +1,94 @@
+{
+  "document_id": "ING_cf2fad9c374cff809783",
+  "fields": [
+    {
+      "field": "title",
+      "value": "ÖNSÖZ",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "YOK"
+      ],
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "thesis",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: yüksek lisans tezi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "blasting",
+        "cost",
+        "excavation",
+        "forepoling",
+        "geology",
+        "geotechnical_investigation",
+        "history",
+        "injection",
+        "operations",
+        "rock_mechanics",
+        "shotcrete",
+        "standards",
+        "steel_mesh",
+        "support_systems"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geotechnical_investigation:sondaj; geology:jeoloji; rock_mechanics:rqd; excavation:kazı; blasting:patlatma; shotcrete:püskürtme beton; steel_mesh:çelik hasır; forepoling:süren; support_systems:tahkimat; injection:enjeksiyon; operations:işletme; standards:standart"
+    }
+  ]
+}

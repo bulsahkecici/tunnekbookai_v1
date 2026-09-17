@@ -1,0 +1,97 @@
+{
+  "document_id": "ING_3841601bb7a8dbfbb8bd",
+  "fields": [
+    {
+      "field": "title",
+      "value": "A Study on the Construction and Technical Implication of the Seikan Tunnel in Japan: Drawing Implications for the Korea-Japan Discussion on Underwater Tunnel Construction",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "jang churl Shin"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2019",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "mixed",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "drawing",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: drawing"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "tunnel_general"
+      ],
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://www.earticle.net/Article/A360207",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.31634/cjs.2019.45.067",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "final_primary_section": "2.4.1.2",
+  "final_secondary_sections": [
+    "2.4.1.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0004",
+        "PARA0006",
+        "PARA0007"
+      ]
+    },
+    {
+      "section_id": "2.4.1.1",
+      "section_title": "İnşaat Başlamadan Önce Yapılan Çalışmalar",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.6876,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7859,
+      "chunk_vote": 0.241
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.5876,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7873,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3607,
+      "rule_score": 0.0,
+      "embedding_score": 0.8016,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3542,
+      "rule_score": 0.0,
+      "embedding_score": 0.787,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3533,
+      "rule_score": 0.0,
+      "embedding_score": 0.7852,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.353,
+      "rule_score": 0.0,
+      "embedding_score": 0.7845,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3528,
+      "rule_score": 0.0,
+      "embedding_score": 0.7839,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3522,
+      "rule_score": 0.0,
+      "embedding_score": 0.7826,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3176,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0602
+    },
+    {
+      "id": "1",
+      "score": 0.2604,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3855
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, TBM ile tünel inşaatı sırasında kullanılan ileri radar görüntüleme ve kaya patlaması tahmini için bir güvenlik izleme sistemi geliştirmektedir. Bu, doğrudan inşaat esnasındaki çalışmalar (2.4.1.2) ile ilgilidir. Ayrıca, inşaat öncesi jeolojik keşif ve planlama (2.4.1.1) ile de dolaylı bir bağlantısı vardır.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:7",
+    "embeddings:8",
+    "top=2:0.6876 gap=0.100 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

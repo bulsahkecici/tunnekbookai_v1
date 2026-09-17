@@ -1,0 +1,116 @@
+{
+  "document_id": "ING_b0485b41cec0993e8baa",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Influence of the Tunnel Shape on Shotcrete Lining Stresses",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Fabrizio Barpi",
+        "Daniele Peila",
+        "Barpi, Fabrizio",
+        "Peila, Daniele"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2011",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "blasting",
+        "collapse",
+        "excavation",
+        "final_lining",
+        "geology",
+        "geotechnical_investigation",
+        "monitoring",
+        "rock_mechanics",
+        "shotcrete"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geotechnical_investigation:geotechnical; geology:geolog; rock_mechanics:rock mass; excavation:excavat; blasting:drill and blast; shotcrete:shotcrete; final_lining:final lining; monitoring:monitoring; collapse:collapse; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://core.ac.uk/download/11423418.pdf",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1111/j.1467-8667.2011.00728.x",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "document_status",
+      "value": "DRAFT",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "status marking: draft"
+    }
+  ]
+}

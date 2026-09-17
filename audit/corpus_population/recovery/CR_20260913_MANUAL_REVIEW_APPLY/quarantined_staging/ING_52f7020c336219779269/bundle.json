@@ -1,0 +1,32 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_52f7020c336219779269",
+  "original_sha256": "52f7020c3362197792695eb08aff9ec2cd4ec521a80fcdc821aa58c69dc721ed",
+  "source_kind": "EXTERNAL_DISCOVERY",
+  "format": "HTML",
+  "title": "Seepage Analysis and Optimization of Engineering Method for Municipal Underwater Tunnel Construction in Urban Coastal Stratum",
+  "final_primary_section": "1",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.5917,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": false,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_52f7020c336219779269",
+  "original_archive": "originals/ING_52f7020c336219779269",
+  "chunks_authoritative_path": "processing/ING_52f7020c336219779269/chunks/chunk_manifest.jsonl",
+  "chunk_count": 0,
+  "chunk_quality_status": "PASS",
+  "canonical_promoted": false
+}

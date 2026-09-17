@@ -153,9 +153,12 @@ def run(context: AdapterContext) -> ExtractionResult:
     # 1) Docling conversion. If the OCR-enabled pass fails (e.g. the configured OCR backend
     #    is not installed) retry without Docling OCR: structure is still worth having, and
     #    this adapter has its own pdfium+RapidOCR page fallback below.
+    # Docling OCR is expensive and unnecessary when the PDF already has a usable text
+    # layer. Figure OCR still runs below for text-bearing diagrams in those documents.
+    docling_ocr_required = bool(context.do_ocr and native_layer_thin)
     conversion = docling_adapter.convert(source, context.config, input_format="PDF",
-                                         do_ocr=context.do_ocr, want_vision=False)
-    if not conversion.ok and context.do_ocr:
+                                         do_ocr=docling_ocr_required, want_vision=False)
+    if not conversion.ok and docling_ocr_required:
         retry = docling_adapter.convert(source, context.config, input_format="PDF",
                                         do_ocr=False, want_vision=False)
         if retry.ok:
@@ -244,8 +247,14 @@ def run(context: AdapterContext) -> ExtractionResult:
 
     # 6) Figure OCR (§25).
     if context.ocr is not None and context.do_ocr and figure_records:
-        for warning in ocr_provider.ocr_figures(context.ocr, figure_records, context.root):
-            result.warn(warning)
+        # A scan was already OCRed page-wide by Docling or the fallback above. Running
+        # another OCR pass over every crop repeats the dominant cost without adding a new
+        # evidence source. Native-text PDFs still get figure OCR for diagrams.
+        if docling_ocr_recovered or ocr_items:
+            result.warn("FIGURE_OCR_SKIPPED_PAGE_OCR_ALREADY_RUN")
+        else:
+            for warning in ocr_provider.ocr_figures(context.ocr, figure_records, context.root):
+                result.warn(warning)
 
     # 7) Normalized outputs.
     markdown = conversion.markdown or ""

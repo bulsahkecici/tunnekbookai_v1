@@ -1,0 +1,163 @@
+{
+  "final_primary_section": "1.5",
+  "final_secondary_sections": [
+    "5.6"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.5",
+      "section_title": "Tünel Felaketleri",
+      "supporting_elements": [
+        "PARA0030",
+        "PARA0209",
+        "HEAD0013",
+        "PARA0224",
+        "PARA0225",
+        "PARA0226",
+        "PARA0227",
+        "PARA0232",
+        "LIST0032",
+        "PARA0247",
+        "LIST0085",
+        "PARA0368",
+        "PARA0378",
+        "PARA0388",
+        "PARA0418",
+        "PARA0425",
+        "PARA0448",
+        "LIST0160",
+        "LIST0161",
+        "PARA0488",
+        "PARA0498",
+        "LIST0186",
+        "PARA0540",
+        "LIST0235",
+        "LIST0251"
+      ]
+    },
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "PARA0014",
+        "PARA0030",
+        "PARA0187",
+        "PARA0199",
+        "PARA0206",
+        "PARA0209",
+        "PARA0217",
+        "LIST0026",
+        "PARA0221",
+        "HEAD0013",
+        "PARA0224",
+        "PARA0226",
+        "PARA0229",
+        "PARA0230",
+        "LIST0030",
+        "PARA0232",
+        "LIST0032",
+        "LIST0060",
+        "FIG0039",
+        "PARA0251",
+        "LIST0074",
+        "PARA0264",
+        "PARA0267",
+        "PARA0268",
+        "PARA0270"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1.5",
+      "score": 0.4472,
+      "rule_score": 0.7895,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0649
+    },
+    {
+      "id": "5.6",
+      "score": 0.3745,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.039
+    },
+    {
+      "id": "7",
+      "score": 0.3678,
+      "rule_score": 0.0,
+      "embedding_score": 0.7597,
+      "chunk_vote": 0.1299
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3489,
+      "rule_score": 0.0,
+      "embedding_score": 0.7724,
+      "chunk_vote": 0.0065
+    },
+    {
+      "id": "6.1",
+      "score": 0.3443,
+      "rule_score": 0.0,
+      "embedding_score": 0.7578,
+      "chunk_vote": 0.0162
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3442,
+      "rule_score": 0.0,
+      "embedding_score": 0.7648,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4",
+      "score": 0.3409,
+      "rule_score": 0.0,
+      "embedding_score": 0.7575,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3408,
+      "rule_score": 0.0,
+      "embedding_score": 0.7574,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.1",
+      "score": 0.3393,
+      "rule_score": 0.0,
+      "embedding_score": 0.7541,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3389,
+      "rule_score": 0.0,
+      "embedding_score": 0.7531,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, AIPCR'nin 'Karayolu Tünelleri İçin Risk Analizi' başlıklı bir rapordur. İçerik ağırlıklı olarak risk analizi yöntemleri, senaryolar (BLEVE, yangın, tahliye) ve güvenlik yönetimi üzerine odaklanmaktadır. Bu, 'Tünel Felaketleri' (1.5) bölümünün kapsamına (risk, güvenlik, kaza senaryoları) en yakın düşmektedir. Ayrıca, risk analizi ve güvenlik yönetimi, tünel işletme ve bakım maliyetlerini doğ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=1.5:0.4472 gap=0.073 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

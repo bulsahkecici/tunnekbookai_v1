@@ -1,0 +1,108 @@
+{
+  "final_primary_section": "2.2.2",
+  "final_secondary_sections": [
+    "2.2",
+    "1"
+  ],
+  "final_section_confidence": 0.7593,
+  "classification_methods": [
+    "heading_rules",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2.2",
+      "score": 0.7593,
+      "rule_score": 0.6364,
+      "embedding_score": 0.7983,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.5649,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7369,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.5644,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7358,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3377,
+      "rule_score": 0.0,
+      "embedding_score": 0.7504,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3334,
+      "rule_score": 0.0,
+      "embedding_score": 0.7409,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3322,
+      "rule_score": 0.0,
+      "embedding_score": 0.7383,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.3",
+      "score": 0.3306,
+      "rule_score": 0.0,
+      "embedding_score": 0.7347,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3306,
+      "rule_score": 0.0,
+      "embedding_score": 0.7347,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.1",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:4",
+    "chunk_votes:1",
+    "embeddings:8",
+    "top=2.2.2:0.7593 gap=0.194 disagreement=False ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,195 @@
+{
+  "final_primary_section": "1.5",
+  "final_secondary_sections": [
+    "5.4.2",
+    "5.7"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.5",
+      "section_title": "Tünel Felaketleri",
+      "supporting_elements": [
+        "PARA0016",
+        "PARA0022",
+        "PARA0024",
+        "PARA0025",
+        "HEAD0012",
+        "PARA0026",
+        "PARA0027",
+        "PARA0028",
+        "PARA0029",
+        "PARA0030",
+        "TABLE0010",
+        "CAPT0002",
+        "TABLE0011",
+        "CAPT0003",
+        "PARA0033",
+        "PARA0034",
+        "PARA0036",
+        "TABLE0012",
+        "CAPT0004",
+        "PARA0038",
+        "TABLE0013",
+        "CAPT0005",
+        "PARA0041",
+        "PARA0056",
+        "PARA0060"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0001",
+        "LIST0004",
+        "LIST0005",
+        "LIST0006",
+        "LIST0007",
+        "LIST0008",
+        "LIST0009",
+        "LIST0011",
+        "LIST0018",
+        "LIST0019",
+        "LIST0020",
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0025",
+        "LIST0033",
+        "LIST0034",
+        "LIST0035",
+        "LIST0036",
+        "LIST0037",
+        "LIST0039",
+        "LIST0041",
+        "LIST0043",
+        "LIST0045"
+      ]
+    },
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0001",
+        "LIST0004",
+        "LIST0005",
+        "LIST0006",
+        "LIST0007",
+        "LIST0008",
+        "LIST0009",
+        "LIST0033",
+        "LIST0034",
+        "LIST0035",
+        "LIST0036",
+        "LIST0045",
+        "LIST0046",
+        "LIST0047",
+        "LIST0049",
+        "PARA0016",
+        "PARA0017",
+        "PARA0018",
+        "PARA0019",
+        "PARA0020",
+        "PARA0026",
+        "PARA0027",
+        "PARA0028",
+        "PARA0029"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.6",
+      "score": 0.8292,
+      "rule_score": 0.6923,
+      "embedding_score": 0.7663,
+      "chunk_vote": 0.268
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.7571,
+      "rule_score": 0.6,
+      "embedding_score": 0.7793,
+      "chunk_vote": 0.1321
+    },
+    {
+      "id": "5.7",
+      "score": 0.7324,
+      "rule_score": 0.6,
+      "embedding_score": 0.7795,
+      "chunk_vote": 0.008
+    },
+    {
+      "id": "1.5",
+      "score": 0.3863,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2814
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3502,
+      "rule_score": 0.0,
+      "embedding_score": 0.7782,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.347,
+      "rule_score": 0.0,
+      "embedding_score": 0.771,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3454,
+      "rule_score": 0.0,
+      "embedding_score": 0.7676,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3452,
+      "rule_score": 0.0,
+      "embedding_score": 0.767,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3441,
+      "rule_score": 0.0,
+      "embedding_score": 0.7646,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3396,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0478
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel havalandırma akışları ve yangınlarının çok ölçekli modellemesine odaklanan bir doktora tezidir. Başlıklardaki '1.2. Fundamentals of tunnel fires' ve '1.5. Analysis of tunnel ventilation systems and fires' bölümleri, doğrudan '1.5: Tünel Felaketleri' (yangınlar felaket kategorisindedir) ile eşleşmektedir. Havalandırma sistemlerinin (jet fanlar vb.) çalışması ve bakımı ise '5.4.2: Elekt",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.6:0.8292 gap=0.072 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

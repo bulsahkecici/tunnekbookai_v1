@@ -1,0 +1,151 @@
+{
+  "document_id": "ING_a11326648f705babf4f9",
+  "format": "PDF",
+  "adapter": "pdf",
+  "normalized_markdown_path": "processing/ING_a11326648f705babf4f9/normalized/document.md",
+  "normalized_json_path": "processing/ING_a11326648f705babf4f9/normalized/document.json",
+  "normalized_text_path": "processing/ING_a11326648f705babf4f9/normalized/document.txt",
+  "pages": [
+    "PAGE0001",
+    "PAGE0002",
+    "PAGE0003",
+    "PAGE0004",
+    "PAGE0005"
+  ],
+  "figures": [],
+  "tables": [
+    "TABLE0001",
+    "TABLE0002",
+    "TABLE0003"
+  ],
+  "charts": [],
+  "slides": [],
+  "sheets": [],
+  "ocr_items": [
+    {
+      "ocr_item_id": "OCRPAGE0001",
+      "scope": "PAGE",
+      "page": 1,
+      "asset_id": "PAGE0001",
+      "ocr_status": "SUCCESS",
+      "ocr_engine": "rapidocr_torch_cpu",
+      "ocr_languages": [
+        "tr",
+        "en"
+      ],
+      "ocr_text": "Newfoundland Fixed Link Pre-feasibility Study\nPage 1 of 2\nRail Tunnel\nEstimation of annual operating and maintenance costs\nA. Energy Costs\n1. Tunnel lighting\n3000000\nkWh/yr @\n0.1\n$/kWh=$\n300000\n/yr\n2. Ventilation fans\n400000\nkWh/yr @\n0.1\n$/kWh=$\n40000\n/yr\n3. Sump pumps\n20000\nkWh/yr @\n0.1\n$/kWh=$\n2000\n/yr\nSub-total A - $\n342000\n/yr\nB. Electrical Maintenance Costs\n1. Labour (Assume 1 electricians for 5 days per week throughout year)\nElectrician 1\n2080\nhrs/yr @\n65\n$/hr=\n$\n135200\n/yr\n2. Materials/replacement of equipment (assume electrical equipment replaced once every 40 years)\nElectrical equipment cost= $\n1000000\nwritten-off over\n40\nyears = $\n25000\n/yr\nSub-total B - $\n160200\n/yr\nC. Mechanical Maintenance Costs\n1. Labour (Assume 1 mechanic/maintenance technician for 5 days per week throughout year)\nMechanic\n2080\nhrs/yr @\n65\n$/hr=\n$\n135200\n/yr\n2. Materials/replacement of equipment (assume mechanical equipment replaced every 40 years)\nVentilation system cost= $\n1000000\nwritten-off over\n40\nyears = $\n25000\nlyr\nEmergency generators= $\n500000\nwritten-off over\n40\nyears = $\n12500\n/yr\nDrainage pumps cost= $\n200000\nwritten-off over\n40\nyears = $\n5000\nlyr\nSub-total C - $\n177700\nlyr\ncontd.",
+      "ocr_confidence": null
+    },
+    {
+      "ocr_item_id": "OCRPAGE0002",
+      "scope": "PAGE",
+      "page": 2,
+      "asset_id": "PAGE0002",
+      "ocr_status": "SUCCESS",
+      "ocr_engine": "rapidocr_torch_cpu",
+      "ocr_languages": [
+        "tr",
+        "en"
+      ],
+      "ocr_text": "Newfoundland Fixed Link Pre-feasibility Study\nPage 2 of 2\nRail Tunnel\nEstimation of annual operating costs\nD. Structure Maintenance Costs\n1ise  e n n    s   e irrs\nSenior engineer\n100\nhrs/yr @\n130\n$/hr=\n$\n13000\nEngineer 1\n100\nhrs/yr @\n100\n$/hr=\n$\n10000\nEngineer 2\n100\nhrs/yr @\n100\n$/hr=\n$\n10000\n2. Tunnel Cleaning (Assume 4 man crew for 13 weeks once a year)\nLabourers\n2080\nhrs/yr @\n60\n$/hr=\n$\n124800\n/yr\n3. Sump clean-up (Assume 2 man crew for 2 days twice a year)\nLabourers\n64\nhrs/yr @\n50\n$/hr=\n$\n3200\nlyr\n4. Structure maintenance (Assume 4 man crew for 13 weeks once a year)\nLabourers\n2080\nhrs/yr @\n50\n$/hr=\n$\n104000\n/yr\n5. Permanent Way Inspection (Assume 2 men inspect track 3 times per week)\nLabourers\n312\nhrs/yr @\n50\n$/hr=\n$\n15600\n/yr\n6. Permanent way maintenance (Assume 4 man crew for 12 weeks once a year)\nLabourers\n1920\nhrs/yr @\n50\n$/hr=\n$\n96000\n/yr\nSub-total D - $\n215600\n/yr\nTotal estimated maintenance cost=$\n895,500lyr",
+      "ocr_confidence": null
+    },
+    {
+      "ocr_item_id": "OCRPAGE0003",
+      "scope": "PAGE",
+      "page": 3,
+      "asset_id": "PAGE0003",
+      "ocr_status": "SUCCESS",
+      "ocr_engine": "rapidocr_torch_cpu",
+      "ocr_languages": [
+        "tr",
+        "en"
+      ],
+      "ocr_text": "Newfoundland Fixed Link\nRail System - Estimation of Annual Operating Cost\nItem\nAnnual Cost\nAssumptions:\nFacility operates 12 hours/day, 7 days/week 50 percent\nof this time the facility is fully staffed with toll collectors.\nthe remainder of the time only l toll booth is operating\non each side.\nA\nSalaried Staff\nMult.\nUnit\nRate\nTunnel Manager\n1.40\nYear\n100,000\n140,000\nTunnel Operator\n1.40\nYear\n100,000\n140,000\nApprentice Operator\n1.40\nYear\n60,000\n84,000\nSite Maintenance Mgr\n1.40\nYear\n50,000\n70,000\nB\nHourly Staff\nQuant\nUnit\nRate\nToll collectors - (2 FT, 4 PT, 1 PT Spare)\n7,000\nh\n50\n350,000\nSite Labor\n4,000\nh\n35\n140,000\nElectricians\n6,000\nh\n65\n390,000\nMechanics\n6,000\nh\n60\n360,000\nTrain drivers\n8,000\nh\n85\n680,000\nLoading foreman\n4,000\nh\n55\n220,000\nLaborers\n20,000\nh\n40\n800,000\nC\nSubcontracted Work\nLocomotive maintenance\n1\nS7\n120,000\n120,000\nRolling stock maintenance\n1\nLS\n25,000\n25,000\nFacility cleaning\n52\nW\n250\n13,000\nLandscaping\n52\nW\n500\n26,000\nBuilding maintenance\n1\nLS\n10,000\n10,000\nD\nPower\nQuant\nUnit\nRate\n8,922\nMW-h\n60\n535,324\nE\nEquipment Depreciation (straight-line)\nLife\nUnit\nCap. Cost\nLocomotives (20 years)\n20\nYear\n13,750,000\n687,500\nRolling stock (20 years)\n20\nYear\n10,128,421\n506,421\nBuildings\n30\nYear\n2,912,000\n97,067\nRoads\n30\nYear\n1,250,000\n41,667\nTrackwork\n25\nYear\n3,130,000\n125,200\nOCS system\n15\nYear\n9,298,814\n619,921\nSignal system\n15\nYear\n6,592,000\n439,467\nTrain loading system\n12\nYear\n500,000\n41,667\nHeavy vehicles\n12\nYear\n560,000\n46,667\nLight trucks\n7\nYear\n220,000\n31,429\nTOTAL ANNUAL OPERATING COST OF SHUTTLE TRAIN\n$\n6,740,327",
+      "ocr_confidence": null
+    },
+    {
+      "ocr_item_id": "OCRPAGE0004",
+      "scope": "PAGE",
+      "page": 4,
+      "asset_id": "PAGE0004",
+      "ocr_status": "SUCCESS",
+      "ocr_engine": "rapidocr_torch_cpu",
+      "ocr_languages": [
+        "tr",
+        "en"
+      ],
+      "ocr_text": "Time\nTrain A\nTrain B\nTrain C\nTrack Use\nPCUs to N\nPCUs to L\n0:00:00\nLoading at L\nIdle\nIdle\nunused\n0\n0\n0:15:00\nDeparts for N\nIdle\nLoading at N\nTrain A\n126\n21 railcars with\n6\nECU per\n0:30:00\nUnloading at N\nLoading at L\nDeparts for L\nTrain C\n126\n0:45:00\nLoading at N\nDeparts for N\nUnloading at L\nTrain B\n126\n1:00:00\nDeparts for L\nUnloading at N\nLoading at L\nTrain A\n126\n1:15:00\nUnloading at L\nLoading at N\nDeparts for N\nTrain C\n126\n1:30:00\nLoading at L\nDeparts for L\nUnloading at N\nTrain B\n126\n1:45:00\nDeparts for N\nUnloading at L\nLoading at N\nTrain A\n126\n2:00:00\nUnloading at N\nLoading at L\nDeparts for L\nTrain C\n126\n2:15:00\nLoading at N\nDeparts for N\nUnloading at L\nTrain B\n126\n2:30:00\nDeparts for L\nUnloading at N\nLoading at L\nTrain A\n126\n2:45:00Unloading at L\nLoading at N\nDeparts for N\nTrain C\n126\n3:00:00\nDeparts for L\nUnloading at N\nTrain B\n126\n3:15:00\nUnloading at L\n252 PCU/hr\nEach Direction",
+      "ocr_confidence": null
+    },
+    {
+      "ocr_item_id": "OCRPAGE0005",
+      "scope": "PAGE",
+      "page": 5,
+      "asset_id": "PAGE0005",
+      "ocr_status": "EMPTY",
+      "ocr_engine": "rapidocr_torch_cpu",
+      "ocr_languages": [
+        "tr",
+        "en"
+      ],
+      "ocr_text": null,
+      "ocr_confidence": null
+    }
+  ],
+  "text_elements": 5,
+  "warnings": [
+    "CHART_EXTRACTION_DISABLED_BY_CONFIG",
+    "NATIVE_TEXT_LAYER_THIN_OCR_FALLBACK"
+  ],
+  "errors": [],
+  "capabilities": {
+    "text": true,
+    "tables": true,
+    "figures": false,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "engine": {
+    "docling_status": "SUCCESS",
+    "docling_versions": {
+      "docling": "2.124.0",
+      "docling-core": "2.93.0",
+      "docling-ibm-models": "4.0.1",
+      "docling-parse": "7.16.0"
+    },
+    "docling_options": {
+      "accelerator_options": {
+        "device": "mps",
+        "num_threads": 4
+      },
+      "accelerator_requested": "auto",
+      "accelerator_device": "mps",
+      "accelerator_reason": "auto_selected_mps",
+      "images_scale": 2.0,
+      "generate_page_images": true,
+      "generate_picture_images": true,
+      "do_table_structure": true,
+      "do_ocr": false,
+      "do_picture_classification": true,
+      "do_formula_enrichment": false,
+      "do_chart_extraction": false,
+      "enable_remote_services": false,
+      "allow_external_plugins": false,
+      "document_timeout": 1800.0,
+      "do_picture_description": false,
+      "converter_cache": "reused"
+    },
+    "docling_unsupported_options": [],
+    "chart_status": "DISABLED",
+    "native_text_layer_chars": 2893,
+    "native_text_layer": "THIN"
+  },
+  "page_count": 5,
+  "text_char_count": 4629
+}

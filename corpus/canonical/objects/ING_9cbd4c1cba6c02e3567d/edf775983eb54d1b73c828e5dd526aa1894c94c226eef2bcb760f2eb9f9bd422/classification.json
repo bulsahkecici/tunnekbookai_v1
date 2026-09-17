@@ -1,0 +1,156 @@
+{
+  "final_primary_section": "1",
+  "final_secondary_sections": [
+    "2",
+    "2.2",
+    "2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0001",
+        "PARA0002",
+        "LIST0001",
+        "LIST0002",
+        "LIST0004",
+        "LIST0005",
+        "LIST0006",
+        "LIST0008",
+        "LIST0012",
+        "LIST0013",
+        "LIST0014",
+        "LIST0015",
+        "LIST0019",
+        "LIST0020",
+        "LIST0023",
+        "PARA0011",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "LIST0015",
+        "LIST0017",
+        "LIST0019",
+        "LIST0021"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "LIST0017",
+        "LIST0021"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "LIST0015",
+        "LIST0019"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1",
+      "score": 0.7426,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7728,
+      "chunk_vote": 0.5455
+    },
+    {
+      "id": "2",
+      "score": 0.7071,
+      "rule_score": 0.5,
+      "embedding_score": 0.7733,
+      "chunk_vote": 0.1705
+    },
+    {
+      "id": "2.2",
+      "score": 0.5759,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7613,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.5738,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7567,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3456,
+      "rule_score": 0.0,
+      "embedding_score": 0.7679,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.342,
+      "rule_score": 0.0,
+      "embedding_score": 0.7601,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3416,
+      "rule_score": 0.0,
+      "embedding_score": 0.759,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3402,
+      "rule_score": 0.0,
+      "embedding_score": 0.7561,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.2585,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1136
+    },
+    {
+      "id": "1.1",
+      "score": 0.2038,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1023
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, ITA Tünel Ödülleri 2026 finalistlerinin duyurusu olup sektörel gelişmeleri, yenilikleri ve genel başarıları özetleyen bir giriş niteliğindedir. Spesifik bir mühendislik tekniği, yapı elemanı veya literatür taraması içermediğinden, genel bağlamı ve sektörel tanıtımı kapsayan 'GİRİŞ' bölümüne en uygun düşmektedir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:2",
+    "embeddings:8",
+    "top=1:0.7426 gap=0.036 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

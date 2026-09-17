@@ -1,0 +1,142 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.1"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0004",
+        "PARA0005",
+        "PARA0009",
+        "PARA0020",
+        "PARA0022",
+        "PARA0028",
+        "PARA0029",
+        "PARA0030",
+        "PARA0035",
+        "PARA0044",
+        "PARA0048",
+        "PARA0049",
+        "PARA0057",
+        "PARA0058",
+        "PARA0059",
+        "PARA0061",
+        "PARA0075",
+        "HEAD0038",
+        "FIG0012",
+        "CAPT0013",
+        "PARA0114",
+        "PARA0116",
+        "FIG0014",
+        "CAPT0015",
+        "PARA0120"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "PARA0044",
+        "FIG0062",
+        "LIST0040",
+        "LIST0061"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7759,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7928,
+      "chunk_vote": 0.318
+    },
+    {
+      "id": "2.2",
+      "score": 0.7145,
+      "rule_score": 0.5,
+      "embedding_score": 0.7738,
+      "chunk_vote": 0.2065
+    },
+    {
+      "id": "2.1",
+      "score": 0.3791,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0619
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3625,
+      "rule_score": 0.0,
+      "embedding_score": 0.7649,
+      "chunk_vote": 0.0915
+    },
+    {
+      "id": "2.3",
+      "score": 0.3469,
+      "rule_score": 0.0,
+      "embedding_score": 0.7709,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3447,
+      "rule_score": 0.0,
+      "embedding_score": 0.766,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3445,
+      "rule_score": 0.0,
+      "embedding_score": 0.7656,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.344,
+      "rule_score": 0.0,
+      "embedding_score": 0.7644,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.3439,
+      "rule_score": 0.0,
+      "embedding_score": 0.7642,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.2789,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0193
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Yeni Avusturya Tünel Açma Yöntemi (NATM) ile açılan bir tünelin radye temele etkisini inceleyen bir tezdir. Başlıklarda ve görsellerde (Şekil 3.16-3.20) NATM uygulaması, aşamalı kazı ve tahkimat süreçleri detaylıca yer aldığı için 'Tünel Yapım Yöntemleri' (2.2) birincil bölümdür. Ayrıca püskürtme beton, hasır çelik, kaya bulonu gibi elemanların tanıtılması 'Tünel Yapı/Destek Elemanları' (2.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7759 gap=0.061 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

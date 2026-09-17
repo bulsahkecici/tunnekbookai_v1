@@ -1,0 +1,126 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "5.9.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "LIST0014",
+        "LIST0015",
+        "LIST0061",
+        "LIST0062"
+      ]
+    },
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "PARA0003",
+        "PARA0010",
+        "LIST0069",
+        "LIST0070",
+        "LIST0071",
+        "PARA0012"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9",
+      "score": 0.7282,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8004,
+      "chunk_vote": 0.0624
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.7257,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8041,
+      "chunk_vote": 0.0416
+    },
+    {
+      "id": "5.6",
+      "score": 0.439,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.545
+    },
+    {
+      "id": "1",
+      "score": 0.3756,
+      "rule_score": 0.0,
+      "embedding_score": 0.8087,
+      "chunk_vote": 0.0582
+    },
+    {
+      "id": "2",
+      "score": 0.3651,
+      "rule_score": 0.0,
+      "embedding_score": 0.8114,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3645,
+      "rule_score": 0.0,
+      "embedding_score": 0.8101,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3605,
+      "rule_score": 0.0,
+      "embedding_score": 0.8012,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3596,
+      "rule_score": 0.0,
+      "embedding_score": 0.799,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3592,
+      "rule_score": 0.0,
+      "embedding_score": 0.7982,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.2847,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0485
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC'ın 'Road Tunnels Manual' kitabındaki 'Construction and Geometry' (Yapım ve Geometri) bölümüne aittir. Bu içerik, tünelin ana elemanları, yapım teknikleri ve geometrik özellikleriyle (trafik kapasitesi, hizalama, şerit geometrisi) doğrudan ilgilidir; bu nedenle '2: TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ' birincil bölümdür. Ayrıca metin, uluslararası bir kuruluşun (PI",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:6",
+    "embeddings:8",
+    "top=5.9:0.7282 gap=0.002 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

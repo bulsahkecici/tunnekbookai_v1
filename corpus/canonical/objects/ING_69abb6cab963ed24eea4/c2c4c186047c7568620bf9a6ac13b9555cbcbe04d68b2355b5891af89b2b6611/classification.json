@@ -1,0 +1,132 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.4.2",
+    "1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0010",
+        "LIST0012",
+        "LIST0013",
+        "HEAD0003",
+        "LIST0014",
+        "LIST0016",
+        "LIST0017"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0013",
+        "HEAD0003",
+        "LIST0014",
+        "LIST0015"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.1.3",
+      "score": 0.6667,
+      "rule_score": 0.3333,
+      "embedding_score": 0.8015,
+      "chunk_vote": 0.3636
+    },
+    {
+      "id": "1",
+      "score": 0.6338,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7688,
+      "chunk_vote": 0.2727
+    },
+    {
+      "id": "5.4",
+      "score": 0.6006,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7757,
+      "chunk_vote": 0.0909
+    },
+    {
+      "id": "5.9",
+      "score": 0.3517,
+      "rule_score": 0.0,
+      "embedding_score": 0.7815,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3492,
+      "rule_score": 0.0,
+      "embedding_score": 0.7761,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3483,
+      "rule_score": 0.0,
+      "embedding_score": 0.7741,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3483,
+      "rule_score": 0.0,
+      "embedding_score": 0.7739,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.3471,
+      "rule_score": 0.0,
+      "embedding_score": 0.7714,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.1",
+      "score": 0.2106,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1364
+    },
+    {
+      "id": "5",
+      "score": 0.2106,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1364
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Federal Highway Administration'ın (FHWA) tünel denetimi, ulusal tünel envanteri ve güvenlik denetimi standartları hakkında bilgi içermektedir. Bu içerik, tünelin işletme ve bakım aşamasındaki denetim faaliyetlerini temsil ettiğinden 'Tünel Bakım-Onarım ve İşletme' bölümüne en uygun düşmektedir. Denetimlerin yapısal ve sistemsel doğası nedeniyle elektrik-elektronik sistemlerin bakımı alt baş",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:7",
+    "chunk_votes:2",
+    "embeddings:8",
+    "top=2.4.1.3:0.6667 gap=0.033 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

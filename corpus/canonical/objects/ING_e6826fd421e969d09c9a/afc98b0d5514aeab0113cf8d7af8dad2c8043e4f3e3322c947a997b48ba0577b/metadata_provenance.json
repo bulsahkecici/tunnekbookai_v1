@@ -1,0 +1,110 @@
+{
+  "document_id": "ING_e6826fd421e969d09c9a",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Uniaxial Mechanical Behavior and Constitutive Modeling of Early-Age Steel Fiber-Reinforced Concrete Under Variable-Temperature Curing Conditions.",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Xu Y",
+        "Xie Q",
+        "Zhou H",
+        "Jia Y",
+        "Zheng Z",
+        "Pan C"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2025",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: doi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "blasting",
+        "excavation",
+        "geology",
+        "monitoring",
+        "natm",
+        "safety",
+        "standards",
+        "ventilation",
+        "water"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; geology:geolog; excavation:excavat; blasting:blasting; water:groundwater; monitoring:monitoring; safety:safety; ventilation:ventilation; standards:standard; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://europepmc.org/articles/PMC12348606?pdf=render",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.3390/ma18153642",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

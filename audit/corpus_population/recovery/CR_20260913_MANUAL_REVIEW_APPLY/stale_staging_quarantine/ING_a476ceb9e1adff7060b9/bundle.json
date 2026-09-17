@@ -1,0 +1,32 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_a476ceb9e1adff7060b9",
+  "original_sha256": "a476ceb9e1adff7060b9d22a6feaef1a7722d031d160ab7ca9432299b17f9c28",
+  "source_kind": "EXTERNAL_DISCOVERY",
+  "format": "HTML",
+  "title": "Jeomorfolojinin Karayolu Geçkisi Altyapı Yapım Maliyetine Etkisinin Örnek Kesimde İrdelenmesi",
+  "final_primary_section": "2.4.3",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.5626,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": false,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_a476ceb9e1adff7060b9",
+  "original_archive": "originals/ING_a476ceb9e1adff7060b9",
+  "chunks_authoritative_path": "processing/ING_a476ceb9e1adff7060b9/chunks/chunk_manifest.jsonl",
+  "chunk_count": 2,
+  "chunk_quality_status": "WARN",
+  "canonical_promoted": false
+}

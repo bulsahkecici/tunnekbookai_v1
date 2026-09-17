@@ -1,0 +1,91 @@
+{
+  "document_id": "ING_ef74fd1d060d31f37486",
+  "fields": [
+    {
+      "field": "title",
+      "value": "TOPLU KONUT ÜRETİMİNDE TÜNEL KALIP SİSTEMİ UYGULAMALARI   VE KARŞILAŞILAN SORUNLAR",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "OĞUZALP, Ercan H.",
+        "KORUR, Saim"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2005",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": "20",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "revision literal: v.20"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "cost"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "cost:maliyet; accident:kaza; tunnel_general:tünel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://pdf.core.ac.uk/corefilesystem/pdf/13418/229920543.pdf?se=2026-09-03T17%3A05%3A14Z&sp=r&sv=2026-06-06&sr=b&rscd=inline%3B+filename%3D%22229920543.pdf%22&rsct=application%2Fpdf&sig=N3s%2BGMgP0IGREAvFneixYOVYRf%2BpDz1UdksTgRXDr28%3D",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

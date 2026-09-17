@@ -1,0 +1,109 @@
+{
+  "final_primary_section": "5.9.1",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.774,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9.1",
+      "section_title": "Ulusal Literatür Taraması",
+      "supporting_elements": [
+        "LIST0005",
+        "LIST0006",
+        "LIST0007",
+        "LIST0030",
+        "PARA0012"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9.1",
+      "score": 0.774,
+      "rule_score": 0.3333,
+      "embedding_score": 0.757,
+      "chunk_vote": 1.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3514,
+      "rule_score": 0.0,
+      "embedding_score": 0.7808,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3505,
+      "rule_score": 0.0,
+      "embedding_score": 0.7788,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3477,
+      "rule_score": 0.0,
+      "embedding_score": 0.7727,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3463,
+      "rule_score": 0.0,
+      "embedding_score": 0.7696,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3451,
+      "rule_score": 0.0,
+      "embedding_score": 0.7669,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.3443,
+      "rule_score": 0.0,
+      "embedding_score": 0.7652,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7",
+      "score": 0.342,
+      "rule_score": 0.0,
+      "embedding_score": 0.7599,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.1",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:10",
+    "embeddings:8",
+    "top=5.9.1:0.774 gap=0.423 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,109 @@
+{
+  "document_id": "ING_e23391c342e3c9132fac",
+  "fields": [
+    {
+      "field": "title",
+      "value": "CAVER 3.0: A Tool for the Analysis of Transport Pathways in Dynamic Protein Structures",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Eva Chovancová",
+        "Antonín Pavelka",
+        "Petr Beneš",
+        "Ondřej Strnad",
+        "Jan Brezovský",
+        "Barbora Kozlíková",
+        "Artur Góra",
+        "Vilém Šustr",
+        "Martin Klvaňa",
+        "Petr Medek",
+        "Lada Biedermannová",
+        "Jiří­ Sochor",
+        "Jiřı́ Damborský"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2012",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: doi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "tunnel_general"
+      ],
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1002708&type=printable",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1371/journal.pcbi.1002708",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

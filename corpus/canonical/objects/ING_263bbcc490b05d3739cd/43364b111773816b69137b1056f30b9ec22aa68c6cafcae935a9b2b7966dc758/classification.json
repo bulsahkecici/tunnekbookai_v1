@@ -1,0 +1,171 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2",
+    "2.4.2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0010",
+        "HEAD0006",
+        "PARA0011",
+        "PARA0012",
+        "HEAD0008",
+        "PARA0013",
+        "PARA0017",
+        "HEAD0011",
+        "HEAD0012",
+        "PARA0025",
+        "PARA0026",
+        "LIST0001",
+        "PARA0028",
+        "PARA0029",
+        "LIST0002",
+        "PARA0030",
+        "PARA0031",
+        "PARA0032"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0010",
+        "HEAD0006",
+        "PARA0011",
+        "PARA0012",
+        "HEAD0008",
+        "PARA0013",
+        "PARA0017",
+        "HEAD0011",
+        "HEAD0012",
+        "PARA0025",
+        "PARA0026",
+        "LIST0001",
+        "PARA0028",
+        "PARA0029",
+        "LIST0002",
+        "PARA0030",
+        "PARA0031",
+        "PARA0032"
+      ]
+    },
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "PARA0019"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.6937,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7872,
+      "chunk_vote": 0.2688
+    },
+    {
+      "id": "2.2",
+      "score": 0.6608,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7793,
+      "chunk_vote": 0.1219
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.635,
+      "rule_score": 0.4286,
+      "embedding_score": 0.773,
+      "chunk_vote": 0.0072
+    },
+    {
+      "id": "6.1",
+      "score": 0.365,
+      "rule_score": 0.0,
+      "embedding_score": 0.7841,
+      "chunk_vote": 0.0609
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3542,
+      "rule_score": 0.0,
+      "embedding_score": 0.7871,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3536,
+      "rule_score": 0.0,
+      "embedding_score": 0.7762,
+      "chunk_vote": 0.0215
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3508,
+      "rule_score": 0.0,
+      "embedding_score": 0.7795,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3503,
+      "rule_score": 0.0,
+      "embedding_score": 0.7784,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3407,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1756
+    },
+    {
+      "id": "5",
+      "score": 0.2908,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0789
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, TBM (Tünel Açma Makinesi) çalışma parametrelerinin (devir sayısı, penetrasyon) optimizasyonuna odaklanan bir karar verme metodolojisini tanımlamaktadır. Bu, doğrudan 'Tünel Yapım Yöntemleri' (2.2) başlığına ve daha geniş kapsamdaki 'Tünel Ana Elemanları... ve Yapım Teknikleri' (2) bölümüne uymaktadır. Diğer adaylar (güzergah, bakım maliyeti, çalışma yöntemi) belgenin ana içeriğiyle örtüşmem",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.6937 gap=0.033 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

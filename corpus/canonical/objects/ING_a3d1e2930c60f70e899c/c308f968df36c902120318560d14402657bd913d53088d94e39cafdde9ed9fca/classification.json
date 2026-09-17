@@ -1,0 +1,111 @@
+{
+  "final_primary_section": "2.4.1.1",
+  "final_secondary_sections": [
+    "2.4.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.1",
+      "section_title": "İnşaat Başlamadan Önce Yapılan Çalışmalar",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.1.3",
+      "score": 0.3342,
+      "rule_score": 0.0,
+      "embedding_score": 0.7427,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3335,
+      "rule_score": 0.0,
+      "embedding_score": 0.7411,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.333,
+      "rule_score": 0.0,
+      "embedding_score": 0.74,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3325,
+      "rule_score": 0.0,
+      "embedding_score": 0.7388,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3313,
+      "rule_score": 0.0,
+      "embedding_score": 0.7363,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3313,
+      "rule_score": 0.0,
+      "embedding_score": 0.7363,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.3284,
+      "rule_score": 0.0,
+      "embedding_score": 0.7297,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3264,
+      "rule_score": 0.0,
+      "embedding_score": 0.7254,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2191,
+      "rule_score": 0.2,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5455
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, inşaat başlamadan önce jeolojik ve geoteknik incelemeler (sondajlar) yapıldığını belirtmektedir. Bu, 'İnşaat Başlamadan Önce Yapılan Çalışmalar' başlığına doğrudan uymaktadır. Ana başlık olarak 2.4.1.1 seçilirken, üst kategori olan 2.4.1 (Jeolojik ve Geoteknik İncelemeler) ikincil olarak listelenmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:5",
+    "chunk_votes:5",
+    "embeddings:8",
+    "top=2.4.1.3:0.3342 gap=0.001 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

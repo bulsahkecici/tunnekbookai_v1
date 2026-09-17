@@ -1,0 +1,316 @@
+{
+  "batch_number": 2,
+  "question_ids": [
+    "1.1-Q11",
+    "1.1-Q12",
+    "1.1-Q13",
+    "1.1-Q14",
+    "1.1-Q15",
+    "1.1-Q16",
+    "1.1-Q17",
+    "1.1-Q18",
+    "1.1-Q19",
+    "1.1-Q20"
+  ],
+  "results": [
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S012",
+            "1.1-S013",
+            "1.1-S014"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.95,
+      "question": "Tünelin Tanımı değerlendirilirken hangi geometrik özellikler dikkate alınır?",
+      "question_id": "1.1-Q11",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_44c81917a2b146074aeb:ING_44c81917a2b146074aeb_CH_3f778c3365:pages=5;canonical=corpus/canonical/objects/ING_44c81917a2b146074aeb/8f60493777ee22c3001bbbd9a5668bf0b97af8b23ce3845ee3eac392fbe07481/chunks/embedding_ready.jsonl#L25",
+        "ING_752100774713db4bce1b:ING_752100774713db4bce1b_CH_e77ce3ec19:pages=14-20;canonical=corpus/canonical/objects/ING_752100774713db4bce1b/ca0e7b71bf4dec5af4e49bb43028d5db5d1141153765b3f34fa4bd34b6053db4/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_17799c8bbf606ac08499b6410e8c69afa0a258152daf765bf983deed9a970430",
+        "CLM_fba3b7efcccf194671121f7739e84d167d205659c50b92f00f6379a60cf3d468"
+      ],
+      "supporting_document_ids": [
+        "ING_44c81917a2b146074aeb",
+        "ING_752100774713db4bce1b"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S015",
+            "1.1-S016",
+            "1.1-S017",
+            "1.1-S018"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.95,
+      "question": "Tünelin Tanımı değerlendirilirken hangi jeolojik ve geoteknik özellikler önemlidir?",
+      "question_id": "1.1-Q12",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_674564f8c6d600238ac2:ING_674564f8c6d600238ac2_CH_2ebb4d38d8:pages=30;canonical=corpus/canonical/objects/ING_674564f8c6d600238ac2/a9a20b97a266f755c31c5c7174444115808ff66c3b6bb853389bf298a3768791/chunks/embedding_ready.jsonl#L14",
+        "ING_28bb46527ab1a9bdd865:ING_28bb46527ab1a9bdd865_CH_f4469364d6:pages=2;canonical=corpus/canonical/objects/ING_28bb46527ab1a9bdd865/230245a24a2ae3a7f10985f4ebd95b1221c8883461e7c2948260803fe2fffca5/chunks/embedding_ready.jsonl#L2",
+        "ING_752100774713db4bce1b:ING_752100774713db4bce1b_CH_e77ce3ec19:pages=14-20;canonical=corpus/canonical/objects/ING_752100774713db4bce1b/ca0e7b71bf4dec5af4e49bb43028d5db5d1141153765b3f34fa4bd34b6053db4/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_98e7a9137aee021e887faa551b79422d03a1aa4beccf7c695132cd721499b8a2",
+        "CLM_3c9d15c26d90d9dd30120b6ee2cff2141866ad7fb212bc23e9d0cfab380f63b8",
+        "CLM_fba3b7efcccf194671121f7739e84d167d205659c50b92f00f6379a60cf3d468"
+      ],
+      "supporting_document_ids": [
+        "ING_674564f8c6d600238ac2",
+        "ING_28bb46527ab1a9bdd865",
+        "ING_752100774713db4bce1b"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S019",
+            "1.1-S020",
+            "1.1-S021",
+            "1.1-S022"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.9,
+      "question": "Tünelin Tanımı açısından güvenlik kavramı nasıl ele alınır?",
+      "question_id": "1.1-Q13",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_1b4596736bbcf61f370b:ING_1b4596736bbcf61f370b_CH_5188dcfd01:pages=2-3;canonical=corpus/canonical/objects/ING_1b4596736bbcf61f370b/6d7495dbe27aa997b62be66a5ae402acd71c56f4393f0ab9698a1afb1d9b6afc/chunks/embedding_ready.jsonl#L3",
+        "ING_1c8cf251c81e8ae5e70c:ING_1c8cf251c81e8ae5e70c_CH_14829f0fcb:pages=16;canonical=corpus/canonical/objects/ING_1c8cf251c81e8ae5e70c/2894a12f8ee25c479266c072b7a54f8a4060edc370206c1a9d573bfa6e23e904/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_e42a923dd9582f0e99d47ddc84ed69e19194e36f5e621178b790ed4f912d92e6",
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "supporting_document_ids": [
+        "ING_1b4596736bbcf61f370b",
+        "ING_1c8cf251c81e8ae5e70c"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S023",
+            "1.1-S024",
+            "1.1-S025"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.9,
+      "question": "Tünelin Tanımı açısından işletme koşulları neden önemlidir?",
+      "question_id": "1.1-Q14",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_752100774713db4bce1b:ING_752100774713db4bce1b_CH_e77ce3ec19:pages=14-20;canonical=corpus/canonical/objects/ING_752100774713db4bce1b/ca0e7b71bf4dec5af4e49bb43028d5db5d1141153765b3f34fa4bd34b6053db4/chunks/embedding_ready.jsonl#L3",
+        "ING_752100774713db4bce1b:ING_752100774713db4bce1b_CH_85e1bd4af9:pages=7-13;canonical=corpus/canonical/objects/ING_752100774713db4bce1b/ca0e7b71bf4dec5af4e49bb43028d5db5d1141153765b3f34fa4bd34b6053db4/chunks/embedding_ready.jsonl#L2",
+        "ING_77cf2eb068cd0f71b6f6:ING_77cf2eb068cd0f71b6f6_CH_372476e24b:pages=1;canonical=corpus/canonical/objects/ING_77cf2eb068cd0f71b6f6/e1a3326789798326f8c667aa1182ab4e6c4a2f27bf3259278e000e53e88c51c3/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_fba3b7efcccf194671121f7739e84d167d205659c50b92f00f6379a60cf3d468",
+        "CLM_c9c0d3b54e2e0975677186ca2e95929b2aecd627555c00aa55382303096eb9ed",
+        "CLM_9b8efd965e1ed27fbb36eecb1ac161214241ff315dfa9e7e3c86b9578d3c8d93"
+      ],
+      "supporting_document_ids": [
+        "ING_752100774713db4bce1b",
+        "ING_77cf2eb068cd0f71b6f6"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S026",
+            "1.1-S027",
+            "1.1-S028",
+            "1.1-S029"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.95,
+      "question": "Tünelin Tanımı açısından bakım gereksinimleri nasıl tanımlanır?",
+      "question_id": "1.1-Q15",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_9e177595b8:pages=339-340;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L143",
+        "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_3e85fad643:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L141",
+        "ING_77cf2eb068cd0f71b6f6:ING_77cf2eb068cd0f71b6f6_CH_372476e24b:pages=1;canonical=corpus/canonical/objects/ING_77cf2eb068cd0f71b6f6/e1a3326789798326f8c667aa1182ab4e6c4a2f27bf3259278e000e53e88c51c3/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_3229b57ba24d2f281223fc46f7b900ab716e3b62090143d5eb646f7cccda9b65",
+        "CLM_01119ca80f88d3006624e5c897248cecb71c688a739588d7ed33b5f23d55764e",
+        "CLM_9b8efd965e1ed27fbb36eecb1ac161214241ff315dfa9e7e3c86b9578d3c8d93"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397",
+        "ING_1fb6b71a35f819248daf",
+        "ING_77cf2eb068cd0f71b6f6"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S030",
+            "1.1-S031",
+            "1.1-S032"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.9,
+      "question": "Tünelin Tanımı açısından yapım yöntemi seçiminin rolü nedir?",
+      "question_id": "1.1-Q16",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_279425daaab3228f6b72:ING_279425daaab3228f6b72_CH_95242dbcc4:pages=1-3;canonical=corpus/canonical/objects/ING_279425daaab3228f6b72/a57c2158caf9cd17d882372bbc2fed50af0128bde301549955b5870f911b6ae3/chunks/embedding_ready.jsonl#L1",
+        "ING_2842db8bbc71f7e687e9:ING_2842db8bbc71f7e687e9_CH_5e35fe58c6:pages=3-4;canonical=corpus/canonical/objects/ING_2842db8bbc71f7e687e9/ab915c866a9dcea9c5fa81e53f2c993cd38bb8f5521e60b6bec2f1e3e2016994/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_b253dd6a50e834424c942dab576527143b967bec74665a1481638c0c9f52e9ac",
+        "CLM_29980a953a06a22010695c1cc7df9ad9997d56e894fb9a7eac44bc49250b5011"
+      ],
+      "supporting_document_ids": [
+        "ING_279425daaab3228f6b72",
+        "ING_2842db8bbc71f7e687e9"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S035"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.6,
+      "question": "Tünelin Tanımı ile tünel uzunluğu arasında nasıl bir ilişki kurulabilir?",
+      "question_id": "1.1-Q17",
+      "reason": "PARTIAL_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_9fdf7f646f2268199035:ING_9fdf7f646f2268199035_CH_e51b424f82:canonical=corpus/canonical/objects/ING_9fdf7f646f2268199035/d1c39483b7230111496248816d514b82c3c212217fe35b28bbc84634b158035b/chunks/embedding_ready.jsonl#L32"
+      ],
+      "status": "PARTIAL",
+      "supporting_claim_ids": [
+        "CLM_341458aaac0a4c2e0a2edfa16344629e6ff12aa7603d43121f8c42a5ec150bed"
+      ],
+      "supporting_document_ids": [
+        "ING_9fdf7f646f2268199035"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S036",
+            "1.1-S037"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.9,
+      "question": "Tünelin Tanımı ile tünel kesiti veya geometrisi arasında nasıl bir ilişki vardır?",
+      "question_id": "1.1-Q18",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_c27ed860ffef1bcf970a:ING_c27ed860ffef1bcf970a_CH_4c1f3feb1a:pages=1;canonical=corpus/canonical/objects/ING_c27ed860ffef1bcf970a/0ccae1e650c0db02431d817f7bd535d64cf87e96b1bc4f6c2e023b98c14143f8/chunks/embedding_ready.jsonl#L1",
+        "ING_cbf08cc5651cbc903a95:ING_cbf08cc5651cbc903a95_CH_82009b4139:pages=5;canonical=corpus/canonical/objects/ING_cbf08cc5651cbc903a95/bf3f7de22a1c5f0116e39552050931ed5ec585cc500da11e822317ccd5880042/chunks/embedding_ready.jsonl#L27"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_67aa9188a918c5f718f55e572e0175de1ec6e771b40a35238d12a5415d511a28",
+        "CLM_fbd4dc096663bd3fc6120cb97a6551b568bef33679dca30eafd94f480fa2d6dc"
+      ],
+      "supporting_document_ids": [
+        "ING_c27ed860ffef1bcf970a",
+        "ING_cbf08cc5651cbc903a95"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S039"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.85,
+      "question": "Tünelin Tanımı ile trafik türü ve trafik yoğunluğu arasındaki ilişki nedir?",
+      "question_id": "1.1-Q19",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_1c8cf251c81e8ae5e70c:ING_1c8cf251c81e8ae5e70c_CH_14829f0fcb:pages=16;canonical=corpus/canonical/objects/ING_1c8cf251c81e8ae5e70c/2894a12f8ee25c479266c072b7a54f8a4060edc370206c1a9d573bfa6e23e904/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "supporting_document_ids": [
+        "ING_1c8cf251c81e8ae5e70c"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S040",
+            "1.1-S041"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.9,
+      "question": "Tünelin Tanımı ile havalandırma gereksinimleri arasında nasıl bir bağ vardır?",
+      "question_id": "1.1-Q20",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_cd3c96c696:pages=241-242;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L116",
+        "ING_1b4596736bbcf61f370b:ING_1b4596736bbcf61f370b_CH_a51786d0a5:pages=6;canonical=corpus/canonical/objects/ING_1b4596736bbcf61f370b/6d7495dbe27aa997b62be66a5ae402acd71c56f4393f0ab9698a1afb1d9b6afc/chunks/embedding_ready.jsonl#L20"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_c8edefade90c2963a0ac369ebdd0d570ef48291d95465a88da2d432c613a10b7",
+        "CLM_92f4465aa120f134d76d243ac082533663c1caec57ee1d7fc11c058f45ab3fb6"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397",
+        "ING_1b4596736bbcf61f370b"
+      ]
+    }
+  ]
+}

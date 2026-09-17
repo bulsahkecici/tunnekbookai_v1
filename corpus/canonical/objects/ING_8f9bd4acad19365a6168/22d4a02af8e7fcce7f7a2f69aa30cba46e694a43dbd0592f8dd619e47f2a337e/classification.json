@@ -1,0 +1,125 @@
+{
+  "final_primary_section": "5.9",
+  "final_secondary_sections": [
+    "5.9.1",
+    "5.9.2"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.9.1",
+      "section_title": "Ulusal Literatür Taraması",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0002",
+        "PARA0009",
+        "PARA0010",
+        "PARA0011",
+        "PARA0012",
+        "PARA0014"
+      ]
+    },
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9",
+      "score": 0.6954,
+      "rule_score": 0.5,
+      "embedding_score": 0.8231,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.6915,
+      "rule_score": 0.5,
+      "embedding_score": 0.8145,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.4795,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.6475
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.4309,
+      "rule_score": 0.0,
+      "embedding_score": 0.8457,
+      "chunk_vote": 0.2518
+    },
+    {
+      "id": "5.3",
+      "score": 0.3683,
+      "rule_score": 0.0,
+      "embedding_score": 0.8185,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.364,
+      "rule_score": 0.0,
+      "embedding_score": 0.8089,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.364,
+      "rule_score": 0.0,
+      "embedding_score": 0.8089,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3635,
+      "rule_score": 0.0,
+      "embedding_score": 0.8077,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4",
+      "score": 0.3627,
+      "rule_score": 0.0,
+      "embedding_score": 0.8061,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, 'Kullanılan Kaynaklar' başlığı altında ulusal (KGM, ITU, OMU) ve uluslararası (Academia.edu, DergiPark) kaynakları listelemektedir. Bu içerik, doğrudan 'Ulusal ve Uluslararası Literatür Taraması' bölümüne ve alt başlıklarına karşılık gelmektedir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:1",
+    "embeddings:8",
+    "top=5.9:0.6954 gap=0.004 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

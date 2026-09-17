@@ -1,0 +1,111 @@
+{
+  "document_id": "ING_bd413d5e468d8d8cee5c",
+  "fields": [
+    {
+      "field": "title",
+      "value": "A study on risk assessment and system development of tunnel lighting facilities based on XGBoost and Bayesian optimization",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Hui Xiao",
+        "Weihong Yang",
+        "Jiabao Tang",
+        "Zhiliu L. Wang"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2026",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "cost",
+        "excavation",
+        "inspection",
+        "karst",
+        "maintenance",
+        "operations",
+        "risk",
+        "safety",
+        "tbm",
+        "traffic",
+        "waterproofing"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; excavation:excavat; karst:karst; waterproofing:waterproof; risk:risk; safety:safety; traffic:traffic; operations:operation; maintenance:maintenance; inspection:inspection; cost:cost; accident:accident"
+    },
+    {
+      "field": "source_url",
+      "value": "https://doi.org/10.1038/s41598-026-54945-8",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1038/s41598-026-54945-8",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

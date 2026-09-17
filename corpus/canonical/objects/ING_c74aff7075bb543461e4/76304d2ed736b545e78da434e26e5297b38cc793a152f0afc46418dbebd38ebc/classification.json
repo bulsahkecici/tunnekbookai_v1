@@ -1,0 +1,148 @@
+{
+  "final_primary_section": "1.5",
+  "final_secondary_sections": [
+    "5.7",
+    "5.4.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.5",
+      "section_title": "Tünel Felaketleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0001",
+        "PARA0003",
+        "PARA0012",
+        "PARA0021",
+        "PARA0023",
+        "PARA0028"
+      ]
+    },
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0001",
+        "PARA0013",
+        "PARA0014",
+        "PARA0022",
+        "PARA0027",
+        "PARA0030",
+        "PARA0031",
+        "LIST0047",
+        "LIST0066"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0001",
+        "PARA0013",
+        "PARA0014",
+        "PARA0022",
+        "PARA0027",
+        "PARA0030",
+        "PARA0031"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.7",
+      "score": 0.6318,
+      "rule_score": 0.4286,
+      "embedding_score": 0.769,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.5835,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7781,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5",
+      "score": 0.4488,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5939
+    },
+    {
+      "id": "5.6",
+      "score": 0.3883,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1916
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3607,
+      "rule_score": 0.0,
+      "embedding_score": 0.8015,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3597,
+      "rule_score": 0.0,
+      "embedding_score": 0.7994,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3531,
+      "rule_score": 0.0,
+      "embedding_score": 0.7846,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3518,
+      "rule_score": 0.0,
+      "embedding_score": 0.7818,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.351,
+      "rule_score": 0.0,
+      "embedding_score": 0.7799,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3471,
+      "rule_score": 0.0,
+      "embedding_score": 0.7714,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel yangınlarındaki kritik hava hızı ve havalandırma sistemi çöküşünü analiz etmektedir. Bu içerik doğrudan 'Tünel Felaketleri' (1.5) başlığıyla örtüşmektedir. Havalandırma sistemlerinin yangın kontrolündeki rolü nedeniyle 'Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi' (5.7) ikincil bölüm olarak değerlendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:7",
+    "embeddings:8",
+    "top=5.7:0.6318 gap=0.048 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

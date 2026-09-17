@@ -1,0 +1,35 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_70692d73bb93cfb1d00a",
+  "original_sha256": "70692d73bb93cfb1d00ac0c29be2920e40cb7d86d9a82d40c5937851050e1c23",
+  "source_kind": "MANUAL_INTERNAL",
+  "format": "DOCX",
+  "title": "Tünel Kaynaklı Kazalar Çökmeler",
+  "final_primary_section": "1.5",
+  "final_secondary_sections": [
+    "1.5.1",
+    "1.5.2"
+  ],
+  "final_section_confidence": 0.85,
+  "final_evidence_level": "VISUAL_ONLY",
+  "content_capabilities": {
+    "text": false,
+    "tables": false,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_70692d73bb93cfb1d00a",
+  "original_archive": "originals/ING_70692d73bb93cfb1d00a",
+  "chunks_authoritative_path": "processing/ING_70692d73bb93cfb1d00a/chunks/chunk_manifest.jsonl",
+  "chunk_count": 27,
+  "chunk_quality_status": "PASS",
+  "canonical_promoted": false
+}

@@ -1,0 +1,125 @@
+{
+  "final_primary_section": "2.2.1",
+  "final_secondary_sections": [
+    "2.2",
+    "2"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0002"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0002"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0002"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2.1",
+      "score": 0.7089,
+      "rule_score": 0.5,
+      "embedding_score": 0.7847,
+      "chunk_vote": 0.1539
+    },
+    {
+      "id": "2",
+      "score": 0.7024,
+      "rule_score": 0.5,
+      "embedding_score": 0.8032,
+      "chunk_vote": 0.0798
+    },
+    {
+      "id": "2.2",
+      "score": 0.5883,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7888,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.4018,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3592
+    },
+    {
+      "id": "6.2",
+      "score": 0.3574,
+      "rule_score": 0.0,
+      "embedding_score": 0.7942,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3566,
+      "rule_score": 0.0,
+      "embedding_score": 0.7924,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3542,
+      "rule_score": 0.0,
+      "embedding_score": 0.7872,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3534,
+      "rule_score": 0.0,
+      "embedding_score": 0.7854,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.353,
+      "rule_score": 0.0,
+      "embedding_score": 0.7845,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2121,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1437
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Nepal'daki Lesser Himalaya bölgesinde ince kaya örtüsü altında NATM yöntemiyle tünel inşaatını, kazı tekniklerini (top heading, benching) ve kaya kütle sınıflandırmasını (RMR, Q, GSI) detaylı olarak ele almaktadır. Bu içerik, 'Kayaç Zeminde Açılan Tüneller' başlığıyla en yüksek örtüşmeye sahiptir. Kazı yöntemleri ve genel yapısal elemanlar (shotcrete, rock bolt) nedeniyle 2.2 ve 2. bölümler",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:4",
+    "embeddings:8",
+    "top=2.2.1:0.7089 gap=0.006 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

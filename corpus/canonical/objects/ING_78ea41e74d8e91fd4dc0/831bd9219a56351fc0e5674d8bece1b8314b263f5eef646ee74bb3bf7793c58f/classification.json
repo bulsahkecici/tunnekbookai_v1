@@ -1,0 +1,163 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0005",
+        "PARA0025",
+        "PARA0026",
+        "PARA0027",
+        "PARA0028",
+        "PARA0029",
+        "PARA0030",
+        "PARA0032",
+        "PARA0033",
+        "PARA0034",
+        "PARA0035",
+        "PARA0036",
+        "PARA0037",
+        "HEAD0014",
+        "PARA0038",
+        "PARA0039",
+        "PARA0041",
+        "PARA0042",
+        "PARA0043",
+        "PARA0044",
+        "PARA0046",
+        "PARA0047",
+        "PARA0048"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0005",
+        "PARA0025",
+        "PARA0026",
+        "PARA0027",
+        "PARA0028",
+        "PARA0029",
+        "PARA0030",
+        "PARA0032",
+        "PARA0033",
+        "PARA0034",
+        "PARA0035",
+        "PARA0036",
+        "PARA0037",
+        "HEAD0014",
+        "PARA0038",
+        "PARA0039",
+        "PARA0041",
+        "PARA0042",
+        "PARA0043",
+        "PARA0044",
+        "PARA0046",
+        "PARA0047",
+        "PARA0048"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2",
+      "score": 0.8337,
+      "rule_score": 0.6,
+      "embedding_score": 0.8148,
+      "chunk_vote": 0.4353
+    },
+    {
+      "id": "2",
+      "score": 0.7822,
+      "rule_score": 0.5,
+      "embedding_score": 0.8156,
+      "chunk_vote": 0.4509
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3558,
+      "rule_score": 0.0,
+      "embedding_score": 0.7906,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3533,
+      "rule_score": 0.0,
+      "embedding_score": 0.7851,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3496,
+      "rule_score": 0.0,
+      "embedding_score": 0.7768,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3486,
+      "rule_score": 0.0,
+      "embedding_score": 0.7747,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.346,
+      "rule_score": 0.0,
+      "embedding_score": 0.7689,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3457,
+      "rule_score": 0.0,
+      "embedding_score": 0.7682,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2534,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0885
+    },
+    {
+      "id": "5.6",
+      "score": 0.2367,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0051
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, NATM ve TBM gibi iki temel tünel yapım yöntemini karşılaştırmalı olarak analiz etmekte ve bu yöntemlerin temel prensiplerini, inovasyonlarını ve uygulama koşullarını incelemektedir. Bu içerik, 'Tünel Yapım Yöntemleri' (2.2) başlığıyla doğrudan örtüşmektedir. Üst başlık olan 'TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ' (2) ise bu alt bölümün genel kapsamını temsil etmektedir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2:0.8337 gap=0.051 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

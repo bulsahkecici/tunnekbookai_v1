@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TunnelBookAI canonical section claim registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "contract_version",
+    "section_id",
+    "section_title",
+    "identity",
+    "claim_count",
+    "claims",
+    "registry_id"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "contract_version": {"const": "section-preparation-v1"},
+    "section_id": {"type": "string", "minLength": 1},
+    "section_title": {"type": "string", "minLength": 1},
+    "identity": {"type": "object"},
+    "claim_count": {"type": "integer", "minimum": 0},
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim_id", "claim_text", "document_id", "chunk_id", "locator", "section_id",
+          "evidence_strength", "authority_class", "provenance_status", "qualifiers",
+          "conditions", "limitations", "supporting_question_ids", "canonical_retrieval_path",
+          "canonical_line_number", "canonical_text_sha256"
+        ]
+      }
+    },
+    "registry_id": {"type": "string", "pattern": "^SCR_[0-9a-f]{64}$"}
+  }
+}

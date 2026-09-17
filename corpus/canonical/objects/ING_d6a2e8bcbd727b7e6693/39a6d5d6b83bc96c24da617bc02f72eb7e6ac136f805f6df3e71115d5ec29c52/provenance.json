@@ -1,0 +1,138 @@
+{
+  "document_id": "ING_d6a2e8bcbd727b7e6693",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_119EF67A3892D27228D2",
+      "producer_document_id": "PC_D6A2E8BCBD727B7E",
+      "declared_sha256": "d6a2e8bcbd727b7e6693ea1b465d2f2b8a5cdb73a54b6f7dd08c512ca2692a33",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/A_OFFICIAL/PC_D6A2E8BCBD727B7E/source_raw.html",
+        "sha256": "d6a2e8bcbd727b7e6693ea1b465d2f2b8a5cdb73a54b6f7dd08c512ca2692a33"
+      },
+      "provenance": {
+        "source_url": "https://www.vegvesen.no/vegprosjekter/fullfort/e6halogalandsbrua/nyhetsarkiv/e6-e10-traeldaltunnelen-apen-for-trafikk/",
+        "landing_url": "https://www.vegvesen.no/vegprosjekter/fullfort/e6halogalandsbrua/nyhetsarkiv/e6-e10-traeldaltunnelen-apen-for-trafikk/",
+        "resolved_url": "https://www.vegvesen.no/vegprosjekter/fullfort/e6halogalandsbrua/nyhetsarkiv/e6-e10-traeldaltunnelen-apen-for-trafikk/",
+        "discovery_source": "sitemap:STATENS_VEGVESEN",
+        "publisher": "Statens vegvesen"
+      },
+      "producer_provenance": {
+        "source_url": "https://www.vegvesen.no/vegprosjekter/fullfort/e6halogalandsbrua/nyhetsarkiv/e6-e10-traeldaltunnelen-apen-for-trafikk/",
+        "landing_url": "https://www.vegvesen.no/vegprosjekter/fullfort/e6halogalandsbrua/nyhetsarkiv/e6-e10-traeldaltunnelen-apen-for-trafikk/",
+        "resolved_url": "https://www.vegvesen.no/vegprosjekter/fullfort/e6halogalandsbrua/nyhetsarkiv/e6-e10-traeldaltunnelen-apen-for-trafikk/",
+        "discovery_source": "sitemap:STATENS_VEGVESEN",
+        "publisher": "Statens vegvesen"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_D6A2E8BCBD727B7E",
+        "canonical_id": "CAN_119EF67A3892D27228D2",
+        "canonical_hint_id": "CAN_119EF67A3892D27228D2",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "Statens vegvesen",
+          "country": "Norway",
+          "institution_type": "ROAD_AUTHORITY",
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "e6-e10-traeldaltunnelen-apen-for-trafikk",
+        "authors": [],
+        "year": null,
+        "doi": null,
+        "source_url": "https://www.vegvesen.no/vegprosjekter/fullfort/e6halogalandsbrua/nyhetsarkiv/e6-e10-traeldaltunnelen-apen-for-trafikk/",
+        "landing_url": "https://www.vegvesen.no/vegprosjekter/fullfort/e6halogalandsbrua/nyhetsarkiv/e6-e10-traeldaltunnelen-apen-for-trafikk/",
+        "resolved_url": "https://www.vegvesen.no/vegprosjekter/fullfort/e6halogalandsbrua/nyhetsarkiv/e6-e10-traeldaltunnelen-apen-for-trafikk/",
+        "local_path": "01_originals/A_OFFICIAL/PC_D6A2E8BCBD727B7E/source_raw.html",
+        "sha256": "d6a2e8bcbd727b7e6693ea1b465d2f2b8a5cdb73a54b6f7dd08c512ca2692a33",
+        "source_name": "sitemap:STATENS_VEGVESEN",
+        "publisher_code": "STATENS_VEGVESEN",
+        "route_path": "A_OFFICIAL",
+        "crawler_evidence_level": "TITLE_METADATA_ONLY",
+        "evidence_level": "TITLE_METADATA_ONLY",
+        "acquisition_status": "SNAPSHOTTED_WEB",
+        "source_representation": {
+          "original_or_raw": "01_originals/A_OFFICIAL/PC_D6A2E8BCBD727B7E/source_raw.html",
+          "original_or_raw_sha256": "d6a2e8bcbd727b7e6693ea1b465d2f2b8a5cdb73a54b6f7dd08c512ca2692a33",
+          "crawler_normalized": "01_originals/A_OFFICIAL/PC_D6A2E8BCBD727B7E/source.md",
+          "crawler_normalized_sha256": "d34f06962bd74a1fa0c6baddf1a8cbc6005a9d2b60e5a08c99c4cc743d8f1708",
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "news",
+        "provisional_source_tier": "TIER_A",
+        "provisional_authority_tier": "A2",
+        "provisional_classification_status": "LLM_ACCEPTED",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "NEWS",
+        "source_class": "ROAD_AUTHORITY",
+        "authority_tier": "A2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "geotechnics",
+          "operation",
+          "rail_tunnel",
+          "road_safety",
+          "road_tunnel",
+          "shield_tunnelling",
+          "sustainability",
+          "traffic_management"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "Statens vegvesen",
+          "country": "Norway",
+          "institution_type": "ROAD_AUTHORITY",
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "SNAPSHOTTED_WEB",
+          "source_path": "01_originals/A_OFFICIAL/PC_D6A2E8BCBD727B7E/source_raw.html",
+          "source_sha256": "d6a2e8bcbd727b7e6693ea1b465d2f2b8a5cdb73a54b6f7dd08c512ca2692a33"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://www.vegvesen.no/vegprosjekter/fullfort/e6halogalandsbrua/nyhetsarkiv/e6-e10-traeldaltunnelen-apen-for-trafikk/",
+          "landing_url": "https://www.vegvesen.no/vegprosjekter/fullfort/e6halogalandsbrua/nyhetsarkiv/e6-e10-traeldaltunnelen-apen-for-trafikk/",
+          "resolved_url": "https://www.vegvesen.no/vegprosjekter/fullfort/e6halogalandsbrua/nyhetsarkiv/e6-e10-traeldaltunnelen-apen-for-trafikk/",
+          "discovery_source": "sitemap:STATENS_VEGVESEN",
+          "publisher": "Statens vegvesen"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source_raw.html",
+    "original_sha256": "d6a2e8bcbd727b7e6693ea1b465d2f2b8a5cdb73a54b6f7dd08c512ca2692a33",
+    "mime_type": "text/html",
+    "format": "HTML"
+  }
+}

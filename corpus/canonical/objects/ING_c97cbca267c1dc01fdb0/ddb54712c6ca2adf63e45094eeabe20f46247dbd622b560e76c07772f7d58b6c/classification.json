@@ -1,0 +1,124 @@
+{
+  "final_primary_section": "2.4.1.2",
+  "final_secondary_sections": [
+    "2.4.1.3",
+    "2.4.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "LIST0046",
+        "LIST0057"
+      ]
+    },
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": [
+        "LIST0023",
+        "LIST0025",
+        "LIST0058"
+      ]
+    },
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.1.3",
+      "score": 0.3486,
+      "rule_score": 0.0,
+      "embedding_score": 0.7672,
+      "chunk_vote": 0.0168
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3481,
+      "rule_score": 0.0,
+      "embedding_score": 0.7736,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3416,
+      "rule_score": 0.0,
+      "embedding_score": 0.759,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3416,
+      "rule_score": 0.0,
+      "embedding_score": 0.7592,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3409,
+      "rule_score": 0.0,
+      "embedding_score": 0.7576,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.34,
+      "rule_score": 0.0,
+      "embedding_score": 0.7555,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3399,
+      "rule_score": 0.0,
+      "embedding_score": 0.7553,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3395,
+      "rule_score": 0.0,
+      "embedding_score": 0.7545,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3306,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.125
+    },
+    {
+      "id": "2.4",
+      "score": 0.2952,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.101
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Viyana metrosu inşaatı sırasında jet grouting (jet enjeksiyonu) uygulamasının detaylarını, inşaat sürecindeki zorlukları, izleme çalışmalarını ve sonuçları anlatmaktadır. Bu içerik doğrudan 'İnşaat Esnasındaki Çalışmalar' başlığına uymaktadır. Ayrıca inşaat sonrası oturma (settlement) takibi ve bina değerlendirmeleri 'Kullanım Aşaması Çalışmaları' ile ilişkili olup, jeoteknik tasarım ve ana",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:10",
+    "embeddings:8",
+    "top=2.4.1.3:0.3486 gap=0.001 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

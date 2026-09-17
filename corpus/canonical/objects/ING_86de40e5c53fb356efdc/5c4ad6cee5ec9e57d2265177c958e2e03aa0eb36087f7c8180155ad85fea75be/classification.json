@@ -1,0 +1,148 @@
+{
+  "final_primary_section": "1.5",
+  "final_secondary_sections": [
+    "5.4.2",
+    "1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.5",
+      "section_title": "Tünel Felaketleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0001",
+        "PARA0002",
+        "PARA0003",
+        "PARA0007",
+        "PARA0015"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0001",
+        "PARA0006",
+        "PARA0007",
+        "PARA0011",
+        "PARA0013",
+        "PARA0014",
+        "PARA0016"
+      ]
+    },
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0001",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0009",
+        "PARA0011",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.6",
+      "score": 0.689,
+      "rule_score": 0.5,
+      "embedding_score": 0.7665,
+      "chunk_vote": 0.0956
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.649,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7819,
+      "chunk_vote": 0.0573
+    },
+    {
+      "id": "1",
+      "score": 0.6013,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7667,
+      "chunk_vote": 0.1147
+    },
+    {
+      "id": "1.5",
+      "score": 0.4483,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4915
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3537,
+      "rule_score": 0.0,
+      "embedding_score": 0.7859,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3527,
+      "rule_score": 0.0,
+      "embedding_score": 0.7838,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.7772,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3474,
+      "rule_score": 0.0,
+      "embedding_score": 0.7719,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3459,
+      "rule_score": 0.0,
+      "embedding_score": 0.7687,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.1",
+      "score": 0.2541,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0918
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, yol tünellerindeki yangın acil durum havalandırması, kritik hız ve duman geri tabakalanması gibi konuları ele aldığı için 'Tünel Felaketleri' (1.5) bölümüne en uygun düşmektedir. Havalandırma sistemlerinin (jet fanlar) yangın senaryosundaki performansı ve sınırlılıkları, bu sistemlerin bakım ve işletme parametreleriyle ilgili 'Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı' (5.4.2",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:6",
+    "embeddings:8",
+    "top=5.6:0.689 gap=0.040 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

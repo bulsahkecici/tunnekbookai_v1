@@ -1,0 +1,195 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "2.2",
+    "5.9.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "LIST0003",
+        "PARA0006",
+        "PARA0012",
+        "FIG0017",
+        "FIG0028",
+        "FIG0031",
+        "PARA0017",
+        "PARA0018",
+        "PARA0019",
+        "PARA0022",
+        "FIG0032",
+        "CAPT0002",
+        "FIG0033",
+        "CAPT0003",
+        "FIG0034",
+        "CAPT0004",
+        "TABLE0003",
+        "CAPT0005",
+        "PARA0023",
+        "PARA0024",
+        "PARA0025",
+        "PARA0026",
+        "PARA0027",
+        "PARA0028",
+        "PARA0029"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "LIST0003",
+        "PARA0006",
+        "PARA0012",
+        "FIG0017",
+        "FIG0028",
+        "FIG0031",
+        "PARA0017",
+        "PARA0018",
+        "PARA0019",
+        "PARA0022",
+        "FIG0032",
+        "CAPT0002",
+        "FIG0033",
+        "CAPT0003",
+        "FIG0034",
+        "CAPT0004",
+        "TABLE0003",
+        "CAPT0005",
+        "PARA0023",
+        "PARA0024",
+        "PARA0025",
+        "PARA0026",
+        "PARA0027",
+        "PARA0028",
+        "PARA0029"
+      ]
+    },
+    {
+      "section_id": "5.9.1",
+      "section_title": "Ulusal Literatür Taraması",
+      "supporting_elements": [
+        "LIST0004",
+        "PARA0011",
+        "PARA0012",
+        "PARA0094",
+        "PARA0128",
+        "PARA0134",
+        "PARA0136",
+        "FIG0067",
+        "PARA0235",
+        "PARA0236",
+        "PARA0237",
+        "PARA0240",
+        "PARA0241",
+        "PARA0242",
+        "PARA0244",
+        "PARA0366",
+        "HEAD0111",
+        "PARA0370",
+        "PARA0398",
+        "LIST0034",
+        "FIG0150",
+        "PARA0471",
+        "PARA0472",
+        "PARA0482",
+        "PARA0485"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.779,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7846,
+      "chunk_vote": 0.3518
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.7169,
+      "rule_score": 0.5556,
+      "embedding_score": 0.803,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3803,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2513
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3573,
+      "rule_score": 0.0,
+      "embedding_score": 0.7941,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.1",
+      "score": 0.3569,
+      "rule_score": 0.0,
+      "embedding_score": 0.793,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3549,
+      "rule_score": 0.0,
+      "embedding_score": 0.7886,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3549,
+      "rule_score": 0.0,
+      "embedding_score": 0.7886,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3516,
+      "rule_score": 0.0,
+      "embedding_score": 0.7813,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3489,
+      "rule_score": 0.0,
+      "embedding_score": 0.7753,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3056,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Ankara AKM-Kızılay Metro Projesi'ndeki TBM (Tünel Delme Makinesi) montajı, turn-table operasyonları ve Efemçukuru Altın Madeni'ndeki BDM (Başyukarı Delme Makinesi) performansını detaylandırmaktadır. Bu içerik, tünel ana elemanları (TBM/BDM) ve yapım teknikleri (kazı yöntemleri, montaj) ile doğrudan ilgilidir. Literatür taraması bölümleri (5.9.1, 6.2.1) bu spesifik teknik uygulama ve proje r",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.779 gap=0.062 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

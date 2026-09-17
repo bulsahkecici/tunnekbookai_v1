@@ -1,0 +1,199 @@
+{
+  "final_primary_section": "2.4.1.3",
+  "final_secondary_sections": [
+    "2.2",
+    "2.1.1",
+    "1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": [
+        "FIG0007",
+        "PARA0041",
+        "PARA0062"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0014",
+        "PARA0020",
+        "PARA0025",
+        "PARA0026",
+        "PARA0027",
+        "PARA0028",
+        "PARA0029",
+        "PARA0030",
+        "PARA0032",
+        "PARA0039",
+        "HEAD0006",
+        "PARA0048",
+        "PARA0049",
+        "TABLE0003",
+        "CAPT0012",
+        "PARA0050",
+        "PARA0054",
+        "PARA0057",
+        "PARA0066"
+      ]
+    },
+    {
+      "section_id": "2.1.1",
+      "section_title": "Tünellerle İlgili Tanımlamalar",
+      "supporting_elements": [
+        "PARA0017",
+        "PARA0020",
+        "PARA0025",
+        "PARA0028",
+        "PARA0029",
+        "FIG0007",
+        "PARA0030",
+        "PARA0033",
+        "PARA0034",
+        "PARA0037",
+        "PARA0038",
+        "PARA0040",
+        "TABLE0001",
+        "CAPT0007",
+        "FIG0016",
+        "CAPT0008",
+        "FIG0017",
+        "CAPT0009",
+        "HEAD0006",
+        "PARA0041",
+        "PARA0043",
+        "TABLE0002",
+        "CAPT0010",
+        "PARA0044",
+        "PARA0045"
+      ]
+    },
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "PARA0005",
+        "HEAD0001",
+        "PARA0013",
+        "PARA0014",
+        "PARA0017",
+        "PARA0018",
+        "HEAD0003",
+        "PARA0019",
+        "PARA0020",
+        "PARA0023",
+        "FIG0005",
+        "CAPT0001",
+        "PARA0028",
+        "PARA0029",
+        "FIG0007",
+        "PARA0030",
+        "PARA0031",
+        "PARA0032",
+        "FIG0008",
+        "CAPT0003",
+        "FIG0009",
+        "CAPT0004",
+        "FIG0012",
+        "FIG0013",
+        "CAPT0006"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7054,
+      "rule_score": 0.5,
+      "embedding_score": 0.805,
+      "chunk_vote": 0.0905
+    },
+    {
+      "id": "1",
+      "score": 0.6889,
+      "rule_score": 0.4286,
+      "embedding_score": 0.776,
+      "chunk_vote": 0.2699
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.394,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3202
+    },
+    {
+      "id": "2.2",
+      "score": 0.3619,
+      "rule_score": 0.0,
+      "embedding_score": 0.784,
+      "chunk_vote": 0.0455
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3555,
+      "rule_score": 0.0,
+      "embedding_score": 0.7899,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3466,
+      "rule_score": 0.0,
+      "embedding_score": 0.7703,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3465,
+      "rule_score": 0.0,
+      "embedding_score": 0.7699,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3465,
+      "rule_score": 0.0,
+      "embedding_score": 0.77,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3463,
+      "rule_score": 0.0,
+      "embedding_score": 0.7695,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.2841,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0455
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, TBM ile tünel açılması sırasında mevcut altyapı (otobüs merdiveni ve metro tünelleri) üzerindeki yer hareketlerinin izlenmesi, tahmin edilmesi ve geri analizi üzerine odaklanmaktadır. Bu içerik, tünel yapımının kullanım aşamasındaki etkileri ve izleme çalışmaları ile doğrudan örtüşmektedir. İkincil olarak tünel yapım yöntemleri (TBM/EPB) ve tanımlamalar da ele alınmaktadır.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:23",
+    "embeddings:8",
+    "top=2:0.7054 gap=0.017 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

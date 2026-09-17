@@ -1,0 +1,111 @@
+{
+  "final_primary_section": "1.5",
+  "final_secondary_sections": [
+    "5.4"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.5",
+      "section_title": "Tünel Felaketleri",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.5796,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7695,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.5786,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7672,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 1.0
+    },
+    {
+      "id": "1.5",
+      "score": 0.3535,
+      "rule_score": 0.0,
+      "embedding_score": 0.7855,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.2",
+      "score": 0.3528,
+      "rule_score": 0.0,
+      "embedding_score": 0.784,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.1",
+      "score": 0.3488,
+      "rule_score": 0.0,
+      "embedding_score": 0.7752,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3469,
+      "rule_score": 0.0,
+      "embedding_score": 0.7708,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.3",
+      "score": 0.3455,
+      "rule_score": 0.0,
+      "embedding_score": 0.7678,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3441,
+      "rule_score": 0.0,
+      "embedding_score": 0.7647,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünellerde meydana gelen kazaların nedenleri, riskleri (yangın, duman, panik) ve güvenlik önlemlerini detaylıca ele aldığı için 'Tünel Felaketleri' (1.5) başlığına en uygun düşmektedir. Metindeki 'düzenli bakım ve denetim' vurgusu nedeniyle 'Tünel Bakım-Onarım ve İşletme' (5.4) ikincil bölüm olarak değerlendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:12",
+    "embeddings:8",
+    "top=5.4.2:0.5796 gap=0.001 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

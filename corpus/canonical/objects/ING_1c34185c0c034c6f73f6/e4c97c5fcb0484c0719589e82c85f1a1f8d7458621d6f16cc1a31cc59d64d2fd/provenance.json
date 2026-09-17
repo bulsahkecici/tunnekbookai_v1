@@ -1,0 +1,146 @@
+{
+  "document_id": "ING_1c34185c0c034c6f73f6",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_A43860D099F3FB5DFAA5",
+      "producer_document_id": "PC_1C34185C0C034C6F",
+      "declared_sha256": "1c34185c0c034c6f73f61a440663027831ade12f6c3515aeeb0d5bfa8925f767",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_1C34185C0C034C6F/source.pdf",
+        "sha256": "1c34185c0c034c6f73f61a440663027831ade12f6c3515aeeb0d5bfa8925f767"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1080/0951192x.2020.1757157",
+        "landing_url": "https://doi.org/10.1080/0951192x.2020.1757157",
+        "discovery_source": "openaire",
+        "discovery_query": "road tunnel life cycle cost",
+        "doi": "10.1080/0951192x.2020.1757157",
+        "publisher": "Informa UK Limited"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.1080/0951192x.2020.1757157",
+        "landing_url": "https://doi.org/10.1080/0951192x.2020.1757157",
+        "discovery_source": "openaire",
+        "discovery_query": "road tunnel life cycle cost",
+        "doi": "10.1080/0951192x.2020.1757157",
+        "publisher": "Informa UK Limited"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_1C34185C0C034C6F",
+        "canonical_id": "CAN_A43860D099F3FB5DFAA5",
+        "canonical_hint_id": "CAN_A43860D099F3FB5DFAA5",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "Informa UK Limited",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Risk-based life cycle cost analysis using a two-level multi-objective genetic algorithm",
+        "authors": [
+          "Yamur K. Al-Douri",
+          "Hussan Al-Chalabi",
+          "Jan Lundberg"
+        ],
+        "year": "2020",
+        "doi": "10.1080/0951192x.2020.1757157",
+        "source_url": "https://doi.org/10.1080/0951192x.2020.1757157",
+        "landing_url": "https://doi.org/10.1080/0951192x.2020.1757157",
+        "resolved_url": "https://doi.org/10.1080/0951192x.2020.1757157",
+        "local_path": "01_originals/C_ACADEMIC/PC_1C34185C0C034C6F/source.pdf",
+        "sha256": "1c34185c0c034c6f73f61a440663027831ade12f6c3515aeeb0d5bfa8925f767",
+        "source_name": "openaire",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "TITLE_METADATA_ONLY",
+        "evidence_level": "TITLE_METADATA_ONLY",
+        "acquisition_status": "DOWNLOADED_PDF",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_1C34185C0C034C6F/source.pdf",
+          "original_or_raw_sha256": "1c34185c0c034c6f73f61a440663027831ade12f6c3515aeeb0d5bfa8925f767",
+          "crawler_normalized": null,
+          "crawler_normalized_sha256": null,
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "LLM_ACCEPTED",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "ITS",
+          "construction_cost",
+          "construction_risk",
+          "cost_driver",
+          "cost_estimation",
+          "life_cycle_cost",
+          "operation_cost",
+          "route_selection",
+          "unit_cost"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "Informa UK Limited",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "DOWNLOADED_PDF",
+          "source_path": "01_originals/C_ACADEMIC/PC_1C34185C0C034C6F/source.pdf",
+          "source_sha256": "1c34185c0c034c6f73f61a440663027831ade12f6c3515aeeb0d5bfa8925f767"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.1080/0951192x.2020.1757157",
+          "landing_url": "https://doi.org/10.1080/0951192x.2020.1757157",
+          "discovery_source": "openaire",
+          "discovery_query": "road tunnel life cycle cost",
+          "doi": "10.1080/0951192x.2020.1757157",
+          "publisher": "Informa UK Limited"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source.pdf",
+    "original_sha256": "1c34185c0c034c6f73f61a440663027831ade12f6c3515aeeb0d5bfa8925f767",
+    "mime_type": "application/pdf",
+    "format": "PDF"
+  }
+}

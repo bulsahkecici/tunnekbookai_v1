@@ -1,0 +1,707 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_131a8bfa80899a8aa2233162ef5d3eb6a25e3e08a595f1d533940f8a2fbd3017",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 19,
+    "SUPPORTED": 10,
+    "UNSUPPORTED": 21
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_574fda3cd2c2a9d70214d4c08253c6a2c44289b34effbc9c992ec7cc2eff5d6f",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_00170b04eab2188ab14becccc02e9edc1378ae448f574191633c0b1f627cfa0b",
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed",
+        "CLM_3027aa9bd74fc5a75b8f4d352e81d925a6ace07d91cef56130e286c630c39541",
+        "CLM_fb0de421c7931a63ebce4f4864bb48b70924c03850438e916b111c1bf344393b"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kavramının kapsamı ve temel amacı nedir?",
+      "question_id": "5.7.2-Q01",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri tünel güvenliği açısından neden gereklidir?",
+      "question_id": "5.7.2-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri hizmet sürekliliği açısından neden gereklidir?",
+      "question_id": "5.7.2-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_00170b04eab2188ab14becccc02e9edc1378ae448f574191633c0b1f627cfa0b",
+        "CLM_fb0de421c7931a63ebce4f4864bb48b70924c03850438e916b111c1bf344393b",
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında hangi yapısal bileşenler dikkate alınır?",
+      "question_id": "5.7.2-Q04",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed",
+        "CLM_353eea49bdc8984eeb66ffa72775c52b8a8a1da124a5a577a910c5ba8376ce1f",
+        "CLM_fb0de421c7931a63ebce4f4864bb48b70924c03850438e916b111c1bf344393b"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında hangi elektrik sistemleri dikkate alınır?",
+      "question_id": "5.7.2-Q05",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed",
+        "CLM_353eea49bdc8984eeb66ffa72775c52b8a8a1da124a5a577a910c5ba8376ce1f",
+        "CLM_fb0de421c7931a63ebce4f4864bb48b70924c03850438e916b111c1bf344393b"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında hangi elektronik sistemler dikkate alınır?",
+      "question_id": "5.7.2-Q06",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed",
+        "CLM_353eea49bdc8984eeb66ffa72775c52b8a8a1da124a5a577a910c5ba8376ce1f",
+        "CLM_fb0de421c7931a63ebce4f4864bb48b70924c03850438e916b111c1bf344393b"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında hangi elektromekanik sistemler dikkate alınır?",
+      "question_id": "5.7.2-Q07",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed",
+        "CLM_fb0de421c7931a63ebce4f4864bb48b70924c03850438e916b111c1bf344393b",
+        "CLM_2f295992715b1cfe6de5da15ebd53269db289858e28f1ecac42ef1d05ec76c68"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında havalandırma sistemleri nasıl ele alınır?",
+      "question_id": "5.7.2-Q08",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed",
+        "CLM_fb0de421c7931a63ebce4f4864bb48b70924c03850438e916b111c1bf344393b",
+        "CLM_d805e3e9655303928d5e602ab6e8b55bea75cc247f5e9790e24106d75930ac35"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında aydınlatma sistemleri nasıl ele alınır?",
+      "question_id": "5.7.2-Q09",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2c12f6d5a25458e2d58ff74f803aa1a8bddef9ba8a9ca6afc4c7019fe1b2eb17",
+        "CLM_cf3ce46eb6ad026316c171e118722b4542912b0aa00ef948caea2344aa81dadc"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında enerji dağıtım ve yedek güç sistemleri nasıl ele alınır?",
+      "question_id": "5.7.2-Q10",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bb0e62a6c6a0912b7b9f00a52d8a3f0c34be9964db972fe5bbbcf199ac4fc1dc",
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed",
+        "CLM_353eea49bdc8984eeb66ffa72775c52b8a8a1da124a5a577a910c5ba8376ce1f",
+        "CLM_9f15187a1bd0f0ddfabbe5bc4ae088ea98fdb55717c6f56543b7ff838bbeef63"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında yangın algılama ve söndürme sistemleri nasıl ele alınır?",
+      "question_id": "5.7.2-Q11",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed",
+        "CLM_105a870fae94118e1176cdd3a50673adcb11db7e8f00250fb136b402b5367cf0",
+        "CLM_d75ef62ce423845e8bbcdbe9fe9aedc91306997e4bf06f2f3cbef1cb4e1bb488"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında kamera, haberleşme ve olay algılama sistemleri nasıl ele alınır?",
+      "question_id": "5.7.2-Q12",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed",
+        "CLM_353eea49bdc8984eeb66ffa72775c52b8a8a1da124a5a577a910c5ba8376ce1f",
+        "CLM_b66a3e63c2e5d20692e940a1d1877cae0c2ceee04776ce83494f952027768069"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında drenaj, pompa ve su yalıtımı sistemleri nasıl ele alınır?",
+      "question_id": "5.7.2-Q13",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında kaplama, derz ve yüzey bozulmaları nasıl izlenir?",
+      "question_id": "5.7.2-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında portal ve yaklaşım bölgeleri nasıl ele alınır?",
+      "question_id": "5.7.2-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3027aa9bd74fc5a75b8f4d352e81d925a6ace07d91cef56130e286c630c39541",
+        "CLM_35b91a2d7a7d5ee9a45d5f5a65efe3967627b0757d615a6433f42b6e44f7aa8a",
+        "CLM_00170b04eab2188ab14becccc02e9edc1378ae448f574191633c0b1f627cfa0b",
+        "CLM_e1c7b636bd37a8dea001d79743174e46ac13b7e90621a652e3e2315f3924fc9c"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için bakım türleri nasıl sınıflandırılır?",
+      "question_id": "5.7.2-Q16",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_773fbca401c6904f6953416d790271fbddd957c3eca317bea76ac3e6f35a9ca3",
+        "CLM_0df534c0b99c827d1b7b98e9b706d1f98af51b21bf18a1cacec1448b81f11811",
+        "CLM_620d800dda2075b8ecb5c7fe60f2b997d6e022c89b9582638beec337889f00d8",
+        "CLM_f40afa37d8043c86ef840458b7b40b6aec7cc965bcdd88e1ceb3944c65be9076"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri içinde rutin bakım ile periyodik bakım arasındaki fark nedir?",
+      "question_id": "5.7.2-Q17",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_34f03731559391cb20cf0e3bd5ec0f4e8e20aec3bd7d7832d73f8565300525ed",
+        "CLM_b9dc8ca9256dcc97131d7961682dfbe5d64890586a1478aabf6915d2f3387b7a",
+        "CLM_ba80af05c1f4021f8763fc6f563302e9c59f4d9b0dec8d8613720c8a3fe237af"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri içinde önleyici bakım ile düzeltici bakım arasındaki fark nedir?",
+      "question_id": "5.7.2-Q18",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri içinde kestirimci bakım hangi verilerle uygulanabilir?",
+      "question_id": "5.7.2-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_00170b04eab2188ab14becccc02e9edc1378ae448f574191633c0b1f627cfa0b",
+        "CLM_52febb3ff43a419d68edf23f4d4eea87bff15b1d0aec51c82f213c804cf01680"
+      ],
+      "confidence": 0.75,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için bakım periyotları nasıl belirlenir?",
+      "question_id": "5.7.2-Q20",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_00170b04eab2188ab14becccc02e9edc1378ae448f574191633c0b1f627cfa0b",
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed",
+        "CLM_3027aa9bd74fc5a75b8f4d352e81d925a6ace07d91cef56130e286c630c39541",
+        "CLM_af7e2f5f270ae62dbbcdb248eca5d546db9de944707b259f9a8b69fcfee29667"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için kritik ekipmanların önceliklendirilmesi nasıl yapılır?",
+      "question_id": "5.7.2-Q21",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için arıza modları ve etkileri nasıl analiz edilir?",
+      "question_id": "5.7.2-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için durum değerlendirme ve kondisyon puanlama sistemi nasıl kurulabilir?",
+      "question_id": "5.7.2-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için sensör ve uzaktan izleme verileri nasıl kullanılabilir?",
+      "question_id": "5.7.2-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_35b91a2d7a7d5ee9a45d5f5a65efe3967627b0757d615a6433f42b6e44f7aa8a",
+        "CLM_66ba62cb3c8a266ef53e23587de50a94f5d4b091e5c0ca0aaea623a76f48da98",
+        "CLM_cb48dc1ff1d5d052209c1599cf14434af6935261170631c0eaca27585721ec4f",
+        "CLM_1c5b547c799f82894170f056db536b39054c4ce7c5a5b0ee0a521d8e9c77b6c6"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için bakım kayıtlarında hangi bilgiler tutulmalıdır?",
+      "question_id": "5.7.2-Q25",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için yedek parça yönetimi nasıl planlanmalıdır?",
+      "question_id": "5.7.2-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3027aa9bd74fc5a75b8f4d352e81d925a6ace07d91cef56130e286c630c39541",
+        "CLM_00170b04eab2188ab14becccc02e9edc1378ae448f574191633c0b1f627cfa0b",
+        "CLM_502b9997ed32eee389adbc47594f242c27104eb0de4f015c30303767702f4425",
+        "CLM_b6ef6abcfd5d14f8122cfb46bd8b90ebcb77c196c834574d6b208e45f9b11799"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için personel ve vardiya planlaması nasıl yapılmalıdır?",
+      "question_id": "5.7.2-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için yüklenici ve hizmet alımı yönetimi nasıl yapılmalıdır?",
+      "question_id": "5.7.2-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri sırasında trafik güvenliği nasıl sağlanmalıdır?",
+      "question_id": "5.7.2-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri sırasında şerit veya tünel kapatma kararları nasıl verilmelidir?",
+      "question_id": "5.7.2-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri sırasında iş sağlığı ve güvenliği riskleri nasıl yönetilmelidir?",
+      "question_id": "5.7.2-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3027aa9bd74fc5a75b8f4d352e81d925a6ace07d91cef56130e286c630c39541",
+        "CLM_1c5b547c799f82894170f056db536b39054c4ce7c5a5b0ee0a521d8e9c77b6c6",
+        "CLM_b9dc8ca9256dcc97131d7961682dfbe5d64890586a1478aabf6915d2f3387b7a",
+        "CLM_39b3ab73581b9e6d093f95ce0bca45466bc8e915797310807e2b580b14fc0b79"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için acil müdahale ile planlı bakım nasıl koordine edilmelidir?",
+      "question_id": "5.7.2-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_00170b04eab2188ab14becccc02e9edc1378ae448f574191633c0b1f627cfa0b",
+        "CLM_fb0de421c7931a63ebce4f4864bb48b70924c03850438e916b111c1bf344393b",
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri performansı hangi göstergelerle ölçülmelidir?",
+      "question_id": "5.7.2-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında kullanılabilirlik ve arıza süresi nasıl izlenmelidir?",
+      "question_id": "5.7.2-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fb0de421c7931a63ebce4f4864bb48b70924c03850438e916b111c1bf344393b",
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed",
+        "CLM_00170b04eab2188ab14becccc02e9edc1378ae448f574191633c0b1f627cfa0b",
+        "CLM_a0beee253ef97a9345bc531ce073c5c26a81660094d46e80eb079c10a626ba7e"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında enerji tüketimi hangi göstergelerle izlenmelidir?",
+      "question_id": "5.7.2-Q35",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3027aa9bd74fc5a75b8f4d352e81d925a6ace07d91cef56130e286c630c39541",
+        "CLM_00170b04eab2188ab14becccc02e9edc1378ae448f574191633c0b1f627cfa0b",
+        "CLM_e1c7b636bd37a8dea001d79743174e46ac13b7e90621a652e3e2315f3924fc9c",
+        "CLM_502b9997ed32eee389adbc47594f242c27104eb0de4f015c30303767702f4425"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında bakım maliyeti hangi göstergelerle izlenmelidir?",
+      "question_id": "5.7.2-Q36",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında arızaların tekrarlanma oranı nasıl izlenmelidir?",
+      "question_id": "5.7.2-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri kapsamında güvenlik olayları ve ramak kala kayıtları nasıl kullanılmalıdır?",
+      "question_id": "5.7.2-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için denetim ve kabul kriterleri nelerdir?",
+      "question_id": "5.7.2-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için mevzuat, standart ve teknik şartname gereklilikleri nelerdir?",
+      "question_id": "5.7.2-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için Karayolları Genel Müdürlüğü uygulamalarında hangi süreçler öne çıkar?",
+      "question_id": "5.7.2-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_00170b04eab2188ab14becccc02e9edc1378ae448f574191633c0b1f627cfa0b",
+        "CLM_3027aa9bd74fc5a75b8f4d352e81d925a6ace07d91cef56130e286c630c39541",
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed",
+        "CLM_fb0de421c7931a63ebce4f4864bb48b70924c03850438e916b111c1bf344393b"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için enerji verimliliği hangi teknik önlemlerle artırılabilir?",
+      "question_id": "5.7.2-Q42",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_00170b04eab2188ab14becccc02e9edc1378ae448f574191633c0b1f627cfa0b",
+        "CLM_1133ea47cb57b7d5be09ffbf62cf2b65abed9f72297d21a9f1348c1b38c073ca",
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed",
+        "CLM_af7e2f5f270ae62dbbcdb248eca5d546db9de944707b259f9a8b69fcfee29667"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için otomasyon ve akıllı kontrol sistemleri hangi faydaları sağlayabilir?",
+      "question_id": "5.7.2-Q43",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_86289b4d8268629adeff0c23bd6e175b25d628c6d7ea799b418aa85c6327d627",
+        "CLM_f3c679d7e97f1fc8e02a41c8bc53e0ed82310b1ad2869416544bbc84d9ae3442",
+        "CLM_c70c3dca05c64f6b66112bc32dd969ab9535a7bee8c4aed5b57b07a75067a262",
+        "CLM_32304ed2cfd19cbdebfa65cfe75ab593d8f1e26a8a4f4d7455899f84694e5904"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için yaşam döngüsü maliyet yaklaşımı nasıl uygulanabilir?",
+      "question_id": "5.7.2-Q44",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_00170b04eab2188ab14becccc02e9edc1378ae448f574191633c0b1f627cfa0b",
+        "CLM_3027aa9bd74fc5a75b8f4d352e81d925a6ace07d91cef56130e286c630c39541",
+        "CLM_e1c7b636bd37a8dea001d79743174e46ac13b7e90621a652e3e2315f3924fc9c",
+        "CLM_52febb3ff43a419d68edf23f4d4eea87bff15b1d0aec51c82f213c804cf01680"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için bakım ertelemesinin teknik ve ekonomik sonuçları nelerdir?",
+      "question_id": "5.7.2-Q45",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_00170b04eab2188ab14becccc02e9edc1378ae448f574191633c0b1f627cfa0b",
+        "CLM_fb0de421c7931a63ebce4f4864bb48b70924c03850438e916b111c1bf344393b",
+        "CLM_ce27b9f5583de128ab5dec36364ac3dbed965d4a7e92d013323e4f807289da05",
+        "CLM_63880214e9ed30b535c207f5dec1bcf153b0cbfd01217c2b9f43505fdfd01228"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için yenileme veya modernizasyon kararı hangi kriterlerle verilmelidir?",
+      "question_id": "5.7.2-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d0694b6f060a3c93e760b19baec8a8345fc67e9cc75645b2c406c2d076659454",
+        "CLM_2a66e9b260c2c1372a9b50ca09d0b273d56547b63a98ab875f395cace409f77f",
+        "CLM_be34472c5102e2218e80e1d6f87a6fb1306a570cc163cae147ea71ec82248acc",
+        "CLM_d4862f690bb18fe91c1c8f77654c6665127b2072618829a03c498cf524e8536f"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri sürdürülebilirlik ve karbon ayak izi açısından nasıl geliştirilebilir?",
+      "question_id": "5.7.2-Q47",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri konusunda Türkiye’den hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "5.7.2-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed",
+        "CLM_3027aa9bd74fc5a75b8f4d352e81d925a6ace07d91cef56130e286c630c39541",
+        "CLM_00170b04eab2188ab14becccc02e9edc1378ae448f574191633c0b1f627cfa0b",
+        "CLM_f0f17f59df487540ce947941fac61f39de81224c2d8e27b42b82dede242794aa"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri konusunda dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "5.7.2-Q49",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Enerji Maliyetini Azaltma Yöntemleri için optimum güvenlik, performans ve maliyet dengesi nasıl kurulabilir?",
+      "question_id": "5.7.2-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "5.7.2",
+  "section_title": "Enerji Maliyetini Azaltma Yöntemleri",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_00170b04eab2188ab14becccc02e9edc1378ae448f574191633c0b1f627cfa0b",
+      "CLM_0df534c0b99c827d1b7b98e9b706d1f98af51b21bf18a1cacec1448b81f11811",
+      "CLM_105a870fae94118e1176cdd3a50673adcb11db7e8f00250fb136b402b5367cf0",
+      "CLM_1133ea47cb57b7d5be09ffbf62cf2b65abed9f72297d21a9f1348c1b38c073ca",
+      "CLM_11ff4ef7e1db1df2e3cbef67089516b77dbf46b5f6e4fe98e59bc22e00e0f9ed",
+      "CLM_1c5b547c799f82894170f056db536b39054c4ce7c5a5b0ee0a521d8e9c77b6c6",
+      "CLM_2a66e9b260c2c1372a9b50ca09d0b273d56547b63a98ab875f395cace409f77f",
+      "CLM_2c12f6d5a25458e2d58ff74f803aa1a8bddef9ba8a9ca6afc4c7019fe1b2eb17",
+      "CLM_2f295992715b1cfe6de5da15ebd53269db289858e28f1ecac42ef1d05ec76c68",
+      "CLM_3027aa9bd74fc5a75b8f4d352e81d925a6ace07d91cef56130e286c630c39541",
+      "CLM_32304ed2cfd19cbdebfa65cfe75ab593d8f1e26a8a4f4d7455899f84694e5904",
+      "CLM_34f03731559391cb20cf0e3bd5ec0f4e8e20aec3bd7d7832d73f8565300525ed",
+      "CLM_353eea49bdc8984eeb66ffa72775c52b8a8a1da124a5a577a910c5ba8376ce1f",
+      "CLM_35b91a2d7a7d5ee9a45d5f5a65efe3967627b0757d615a6433f42b6e44f7aa8a",
+      "CLM_39b3ab73581b9e6d093f95ce0bca45466bc8e915797310807e2b580b14fc0b79",
+      "CLM_502b9997ed32eee389adbc47594f242c27104eb0de4f015c30303767702f4425",
+      "CLM_52febb3ff43a419d68edf23f4d4eea87bff15b1d0aec51c82f213c804cf01680",
+      "CLM_620d800dda2075b8ecb5c7fe60f2b997d6e022c89b9582638beec337889f00d8",
+      "CLM_63880214e9ed30b535c207f5dec1bcf153b0cbfd01217c2b9f43505fdfd01228",
+      "CLM_66ba62cb3c8a266ef53e23587de50a94f5d4b091e5c0ca0aaea623a76f48da98",
+      "CLM_773fbca401c6904f6953416d790271fbddd957c3eca317bea76ac3e6f35a9ca3",
+      "CLM_86289b4d8268629adeff0c23bd6e175b25d628c6d7ea799b418aa85c6327d627",
+      "CLM_9f15187a1bd0f0ddfabbe5bc4ae088ea98fdb55717c6f56543b7ff838bbeef63",
+      "CLM_a0beee253ef97a9345bc531ce073c5c26a81660094d46e80eb079c10a626ba7e",
+      "CLM_af7e2f5f270ae62dbbcdb248eca5d546db9de944707b259f9a8b69fcfee29667",
+      "CLM_b66a3e63c2e5d20692e940a1d1877cae0c2ceee04776ce83494f952027768069",
+      "CLM_b6ef6abcfd5d14f8122cfb46bd8b90ebcb77c196c834574d6b208e45f9b11799",
+      "CLM_b9dc8ca9256dcc97131d7961682dfbe5d64890586a1478aabf6915d2f3387b7a",
+      "CLM_ba80af05c1f4021f8763fc6f563302e9c59f4d9b0dec8d8613720c8a3fe237af",
+      "CLM_bb0e62a6c6a0912b7b9f00a52d8a3f0c34be9964db972fe5bbbcf199ac4fc1dc",
+      "CLM_be34472c5102e2218e80e1d6f87a6fb1306a570cc163cae147ea71ec82248acc",
+      "CLM_c70c3dca05c64f6b66112bc32dd969ab9535a7bee8c4aed5b57b07a75067a262",
+      "CLM_cb48dc1ff1d5d052209c1599cf14434af6935261170631c0eaca27585721ec4f",
+      "CLM_ce27b9f5583de128ab5dec36364ac3dbed965d4a7e92d013323e4f807289da05",
+      "CLM_cf3ce46eb6ad026316c171e118722b4542912b0aa00ef948caea2344aa81dadc",
+      "CLM_d0694b6f060a3c93e760b19baec8a8345fc67e9cc75645b2c406c2d076659454",
+      "CLM_d4862f690bb18fe91c1c8f77654c6665127b2072618829a03c498cf524e8536f",
+      "CLM_d75ef62ce423845e8bbcdbe9fe9aedc91306997e4bf06f2f3cbef1cb4e1bb488",
+      "CLM_d805e3e9655303928d5e602ab6e8b55bea75cc247f5e9790e24106d75930ac35",
+      "CLM_e1c7b636bd37a8dea001d79743174e46ac13b7e90621a652e3e2315f3924fc9c",
+      "CLM_f0f17f59df487540ce947941fac61f39de81224c2d8e27b42b82dede242794aa",
+      "CLM_f3c679d7e97f1fc8e02a41c8bc53e0ed82310b1ad2869416544bbc84d9ae3442",
+      "CLM_f40afa37d8043c86ef840458b7b40b6aec7cc965bcdd88e1ceb3944c65be9076",
+      "CLM_fb0de421c7931a63ebce4f4864bb48b70924c03850438e916b111c1bf344393b"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "5.7.2-Q01",
+      "5.7.2-Q04",
+      "5.7.2-Q10",
+      "5.7.2-Q11",
+      "5.7.2-Q12",
+      "5.7.2-Q13",
+      "5.7.2-Q16",
+      "5.7.2-Q17",
+      "5.7.2-Q18",
+      "5.7.2-Q21",
+      "5.7.2-Q27",
+      "5.7.2-Q32",
+      "5.7.2-Q33",
+      "5.7.2-Q36",
+      "5.7.2-Q43",
+      "5.7.2-Q45",
+      "5.7.2-Q46",
+      "5.7.2-Q47",
+      "5.7.2-Q49"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "5.7.2-Q02",
+      "5.7.2-Q03",
+      "5.7.2-Q14",
+      "5.7.2-Q15",
+      "5.7.2-Q19",
+      "5.7.2-Q22",
+      "5.7.2-Q23",
+      "5.7.2-Q24",
+      "5.7.2-Q26",
+      "5.7.2-Q28",
+      "5.7.2-Q29",
+      "5.7.2-Q30",
+      "5.7.2-Q31",
+      "5.7.2-Q34",
+      "5.7.2-Q37",
+      "5.7.2-Q38",
+      "5.7.2-Q39",
+      "5.7.2-Q40",
+      "5.7.2-Q41",
+      "5.7.2-Q48",
+      "5.7.2-Q50"
+    ]
+  }
+}

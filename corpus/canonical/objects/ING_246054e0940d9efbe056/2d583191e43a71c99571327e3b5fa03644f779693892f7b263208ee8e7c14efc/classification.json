@@ -1,0 +1,142 @@
+{
+  "final_primary_section": "1",
+  "final_secondary_sections": [
+    "5"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "FIG0001",
+        "FIG0002",
+        "FIG0004",
+        "FIG0005",
+        "FIG0006",
+        "FIG0010",
+        "PARA0006",
+        "PARA0018",
+        "PARA0028",
+        "FIG0012",
+        "FIG0014",
+        "FIG0015",
+        "FIG0016",
+        "PARA0029",
+        "FIG0019",
+        "FIG0020",
+        "FIG0021",
+        "PARA0031",
+        "FIG0022",
+        "PARA0038",
+        "FIG0024",
+        "FIG0025",
+        "PARA0039",
+        "FIG0028",
+        "FIG0029"
+      ]
+    },
+    {
+      "section_id": "5",
+      "section_title": "TÜNEL BAKIM-ONARIM VE İŞLETME MALİYETLERİ",
+      "supporting_elements": [
+        "FIG0004",
+        "LIST0017",
+        "LIST0039",
+        "LIST0061"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1",
+      "score": 0.4218,
+      "rule_score": 0.0,
+      "embedding_score": 0.7711,
+      "chunk_vote": 0.3742
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3492,
+      "rule_score": 0.0,
+      "embedding_score": 0.7761,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3478,
+      "rule_score": 0.0,
+      "embedding_score": 0.7728,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3475,
+      "rule_score": 0.0,
+      "embedding_score": 0.7722,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7",
+      "score": 0.347,
+      "rule_score": 0.0,
+      "embedding_score": 0.7711,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3463,
+      "rule_score": 0.0,
+      "embedding_score": 0.7695,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.3458,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0788
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3448,
+      "rule_score": 0.0,
+      "embedding_score": 0.7663,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3447,
+      "rule_score": 0.0,
+      "embedding_score": 0.7659,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.2816,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0328
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel projelerinin finansmanı, sürdürülebilirlik, iklim değişikliği ve uluslararası finansal kurumlar (Dünya Bankası, IMF) ile ilişkisi üzerine genel bir giriş ve stratejik değerlendirme niteliğindedir. Bu içerik, kitabın genel bağlamını ve motivasyonunu ortaya koyan 'GİRİŞ' bölümüne en uygun düşmektedir. Ayrıca, projelerin maliyet ve finansman boyutuna değinmesi nedeniyle 'TÜNEL BAKIM-ONAR",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:13",
+    "embeddings:8",
+    "top=1:0.4218 gap=0.073 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

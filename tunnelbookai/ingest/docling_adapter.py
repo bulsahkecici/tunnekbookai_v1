@@ -11,16 +11,60 @@ Security: `enable_remote_services` and `allow_external_plugins` are forced False
 from __future__ import annotations
 
 import importlib.metadata
+import json
+import threading
+from collections import OrderedDict
 from dataclasses import dataclass, field
 from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
+from .acceleration import (
+    rapidocr_torch_params,
+    resolve_accelerator,
+    resolve_ocr_accelerator,
+)
 from .config import IngestConfig
 
 
 class DoclingUnavailable(RuntimeError):
     pass
+
+
+# DocumentConverter lazily loads the expensive layout/OCR models.  The ingest worker is
+# serial, so keeping a small per-process cache avoids paying that startup cost for every
+# document without introducing concurrent access to a converter instance.
+_CONVERTER_CACHE_MAX = 6
+_CONVERTER_CACHE: OrderedDict[str, tuple[Any, Any]] = OrderedDict()
+_CONVERTER_CACHE_LOCK = threading.Lock()
+
+
+def _converter_cache_key(fmt_key: str, applied: dict[str, Any]) -> str:
+    return json.dumps(
+        {"format": fmt_key, "options": applied},
+        ensure_ascii=True,
+        sort_keys=True,
+        default=str,
+        separators=(",", ":"),
+    )
+
+
+def _cached_converter(constructor: Any, key: str, format_options: dict[Any, Any]) -> tuple[Any, bool]:
+    with _CONVERTER_CACHE_LOCK:
+        cached = _CONVERTER_CACHE.pop(key, None)
+        if cached is not None and cached[0] is constructor:
+            _CONVERTER_CACHE[key] = cached
+            return cached[1], True
+        converter = constructor(format_options=format_options or None)
+        _CONVERTER_CACHE[key] = (constructor, converter)
+        while len(_CONVERTER_CACHE) > _CONVERTER_CACHE_MAX:
+            _CONVERTER_CACHE.popitem(last=False)
+        return converter, False
+
+
+def _discard_converter(key: str) -> None:
+    with _CONVERTER_CACHE_LOCK:
+        _CONVERTER_CACHE.pop(key, None)
 
 
 @lru_cache(maxsize=1)
@@ -63,7 +107,7 @@ class DoclingConversion:
         return self.document is not None and self.status in {"SUCCESS", "PARTIAL_SUCCESS"}
 
 
-def _ocr_options(config: IngestConfig, unsupported: list[str]):
+def _ocr_options(config: IngestConfig, unsupported: list[str], *, device: str = "cpu"):
     """Build an OCR options object for the configured local engine. Never remote."""
     engine = str(config.ocr.get("engine", "rapidocr")).lower()
     langs = list(config.ocr.get("languages", ["tr", "en"]))
@@ -80,7 +124,10 @@ def _ocr_options(config: IngestConfig, unsupported: list[str]):
         backend = {"torch": "torch", "onnxruntime": "onnxruntime",
                    "openvino": "openvino", "paddle": "paddle"}.get(
                        str(config.ocr.get("engine_type", "torch")).lower())
-        for kwargs in ([{"lang": mapped, "backend": backend}] if backend else []) + \
+        primary_kwargs: dict[str, Any] = {"lang": mapped, "backend": backend}
+        if backend == "torch":
+            primary_kwargs["rapidocr_params"] = rapidocr_torch_params(device)
+        for kwargs in ([primary_kwargs, {"lang": mapped, "backend": backend}] if backend else []) + \
                       [{"lang": mapped}, {}]:
             try:
                 return po.RapidOcrOptions(**kwargs)
@@ -102,9 +149,14 @@ def _ocr_options(config: IngestConfig, unsupported: list[str]):
     return None
 
 
-def build_pdf_options(config: IngestConfig, *, do_ocr: bool, want_vision: bool = False):
+def build_pdf_options(
+    config: IngestConfig, *, do_ocr: bool, want_vision: bool = False,
+    accelerator_override: str | None = None,
+    ocr_accelerator_override: str | None = None,
+):
     """PdfPipelineOptions with every flag guarded. Returns (options, applied, unsupported)."""
     try:
+        from docling.datamodel.accelerator_options import AcceleratorOptions
         from docling.datamodel.pipeline_options import PdfPipelineOptions
     except ImportError as exc:  # pragma: no cover
         raise DoclingUnavailable(str(exc)) from exc
@@ -113,6 +165,30 @@ def build_pdf_options(config: IngestConfig, *, do_ocr: bool, want_vision: bool =
     applied: dict[str, Any] = {}
     unsupported: list[str] = []
     opts = PdfPipelineOptions()
+
+    selection = resolve_accelerator(config)
+    accelerator_device = accelerator_override or selection.resolved
+    if accelerator_device not in {"cpu", "cuda", "mps"}:
+        raise ValueError(f"invalid accelerator override: {accelerator_device}")
+    accelerator_options = AcceleratorOptions(
+        device=accelerator_device,
+        num_threads=int(dcfg.get("num_threads", 4)),
+    )
+    _set(opts, "accelerator_options", accelerator_options, applied, unsupported)
+    applied["accelerator_options"] = {
+        "device": accelerator_device,
+        "num_threads": accelerator_options.num_threads,
+    }
+    applied["accelerator_requested"] = selection.requested
+    applied["accelerator_device"] = accelerator_device
+    applied["accelerator_reason"] = (
+        "runtime_cpu_fallback" if accelerator_override == "cpu" else selection.reason
+    )
+
+    ocr_selection = resolve_ocr_accelerator(config)
+    ocr_accelerator_device = ocr_accelerator_override or ocr_selection.resolved
+    if ocr_accelerator_device not in {"cpu", "cuda", "mps"}:
+        raise ValueError(f"invalid OCR accelerator override: {ocr_accelerator_device}")
 
     _set(opts, "images_scale", float(dcfg.get("images_scale", 2.0)), applied, unsupported)
     _set(opts, "generate_page_images", bool(dcfg.get("generate_page_images", True)), applied, unsupported)
@@ -140,10 +216,17 @@ def build_pdf_options(config: IngestConfig, *, do_ocr: bool, want_vision: bool =
     if timeout:
         _set(opts, "document_timeout", float(timeout), applied, unsupported)
 
-    ocr_opts = _ocr_options(config, unsupported) if do_ocr else None
+    ocr_opts = _ocr_options(config, unsupported, device=ocr_accelerator_device) if do_ocr else None
     if ocr_opts is not None:
         _set(opts, "ocr_options", ocr_opts, applied, unsupported)
         applied["ocr_options"] = type(ocr_opts).__name__
+        applied["ocr_accelerator_requested"] = ocr_selection.requested
+        applied["ocr_accelerator_device"] = ocr_accelerator_device
+        applied["ocr_accelerator_reason"] = (
+            "runtime_cpu_fallback"
+            if ocr_accelerator_override == "cpu"
+            else ocr_selection.reason
+        )
 
     if not want_vision:
         _set(opts, "do_picture_description", False, applied, unsupported)
@@ -183,20 +266,44 @@ def convert(
         except Exception as exc:
             unsupported.append(f"format_option:{fmt_key}:{exc}")
 
-    try:
-        converter = DocumentConverter(format_options=format_options or None)
-    except Exception as exc:
-        return DoclingConversion(status="CONVERTER_INIT_FAILED", errors=[str(exc)],
-                                 applied_options=applied, unsupported_options=unsupported,
-                                 versions=versions)
-
-    def _run_once():
+    def _run_once(options: dict[Any, Any], cache_key: str):
         try:
-            return converter.convert(str(source)), None
+            converter, reused = _cached_converter(DocumentConverter, cache_key, options)
+            return converter.convert(str(source)), None, reused
         except Exception as exc:
-            return None, f"{type(exc).__name__}: {exc}"
+            # A converter that raised may contain partially initialized native state.
+            _discard_converter(cache_key)
+            return None, f"{type(exc).__name__}: {exc}", None
 
-    result, failure = _run_once()
+    active_format_options = format_options
+    active_cache_key = _converter_cache_key(fmt_key, applied)
+    result, failure, reused = _run_once(active_format_options, active_cache_key)
+    applied["converter_cache"] = "reused" if reused else "created"
+    if result is None and applied.get("accelerator_device") != "cpu" and format_options:
+        try:
+            fallback_opts, fallback_applied, fallback_unsupported = build_pdf_options(
+                config,
+                do_ocr=do_ocr,
+                want_vision=want_vision,
+                accelerator_override="cpu",
+                ocr_accelerator_override="cpu",
+            )
+            fallback_options = {target: option_cls(pipeline_options=fallback_opts)}
+            fallback_cache_key = _converter_cache_key(fmt_key, fallback_applied)
+            result, fallback_failure, fallback_reused = _run_once(
+                fallback_options, fallback_cache_key
+            )
+            unsupported.extend(fallback_unsupported)
+            if result is not None:
+                unsupported.append(f"note:accelerator_cpu_fallback_after:{failure}")
+                applied.update(fallback_applied)
+                applied["converter_cache"] = "reused" if fallback_reused else "created"
+                active_format_options = fallback_options
+                active_cache_key = fallback_cache_key
+            else:
+                failure = f"{failure}; CPU fallback: {fallback_failure}"
+        except Exception as exc:
+            failure = f"{failure}; CPU fallback setup: {type(exc).__name__}: {exc}"
     if result is None:
         return DoclingConversion(status="CONVERSION_FAILED", errors=[failure or "unknown"],
                                  applied_options=applied, unsupported_options=unsupported,
@@ -219,7 +326,7 @@ def convert(
     # and we keep whichever pass produced more content.
     if _status_of(result) == "PARTIAL_SUCCESS" and any(
             "failed to parse" in e.lower() for e in _errors_of(result)):
-        retried, _ = _run_once()
+        retried, _, _ = _run_once(active_format_options, active_cache_key)
         if retried is not None and _richness(retried) > _richness(result):
             unsupported.append("note:retried_after_partial_page_parse")
             result = retried

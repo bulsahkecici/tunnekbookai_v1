@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "applied_at": "2026-09-13T17:24:55+00:00",
+  "run_id": "CPR_ccac3979539cf8e4548d550355ad5c68886d47e9f4eed4207a01f2d38165f3f4",
+  "approved": [
+    {
+      "document_id": "ING_017a281e3b7e47690da6",
+      "disposition": "STAGED",
+      "state": "EMBEDDING_READY",
+      "engine_state": "EMBEDDING_READY",
+      "quality_decision": "GO",
+      "final_primary_section": "2.1.2",
+      "final_evidence_level": "FULL_TEXT",
+      "chunk_count": 198,
+      "chunk_quality_status": "WARN",
+      "embedding_ready_chunks": 198,
+      "staging_path": "corpus/staging/v2/ING_017a281e3b7e47690da6",
+      "duplicate_of": null,
+      "warnings": [],
+      "errors": [],
+      "manual_review": {
+        "status": "APPROVED",
+        "reviewed_at": "2026-09-13T17:24:52+00:00",
+        "note": "Ulaşım tünellerinin sonlu elemanlar modeli; kaplama, çelik iksa, ankraj ve püskürtme beton girdileri içerik üzerinden doğrulandı."
+      }
+    },
+    {
+      "document_id": "ING_1c5a56abfaae6e524858",
+      "disposition": "STAGED",
+      "state": "EMBEDDING_READY",
+      "engine_state": "EMBEDDING_READY",
+      "quality_decision": "GO",
+      "final_primary_section": "2.4.1.2",
+      "final_evidence_level": "FULL_TEXT",
+      "chunk_count": 9,
+      "chunk_quality_status": "PASS",
+      "embedding_ready_chunks": 9,
+      "staging_path": "corpus/staging/v2/ING_1c5a56abfaae6e524858",
+      "duplicate_of": null,
+      "warnings": [],
+      "errors": [],
+      "manual_review": {
+        "status": "APPROVED",
+        "reviewed_at": "2026-09-13T17:24:53+00:00",
+        "note": "Kazı sırasında deplasman, konverjans ve ayna ilerlemesi izleme yöntemleri içerik üzerinden doğrulandı."
+      }
+    },
+    {
+      "document_id": "ING_746d18498e07a8a0f397",
+      "disposition": "STAGED",
+      "state": "EMBEDDING_READY",
+      "engine_state": "EMBEDDING_READY",
+      "quality_decision": "GO",
+      "final_primary_section": "5.4",
+      "final_evidence_level": "FULL_TEXT",
+      "chunk_count": 587,
+      "chunk_quality_status": "WARN",
+      "embedding_ready_chunks": 587,
+      "staging_path": "corpus/staging/v2/ING_746d18498e07a8a0f397",
+      "duplicate_of": null,
+      "warnings": [],
+      "errors": [],
+      "manual_review": {
+        "status": "APPROVED",
+        "reviewed_at": "2026-09-13T17:24:54+00:00",
+        "note": "KGM'nin trafiğe açık devlet ve il yolu tünellerine yönelik bakım, onarım ve işletme kurs notları içerik üzerinden doğrulandı."
+      }
+    }
+  ],
+  "quarantined_staging": [],
+  "accounted_exclusions": [],
+  "unresolved": [],
+  "canonical_candidates_verified": [
+    "ING_017a281e3b7e47690da6",
+    "ING_1c5a56abfaae6e524858",
+    "ING_746d18498e07a8a0f397"
+  ],
+  "canonical_written": false
+}

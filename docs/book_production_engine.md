@@ -79,11 +79,99 @@ python -m tunnelbookai.canonical plan --document-id ING_...
 python -m tunnelbookai.canonical verify
 ```
 
-The CLI also declares the future commands `build-index`, `evidence-audit`, `prepare`,
-`write`, `evidence-review`, `coverage-audit`, `editorial-audit`, `freeze` and `assemble`.
-At the foundation milestone each returns structured `NOT_IMPLEMENTED` with a non-zero exit
-status. This is intentional: no placeholder artifact, fake audit or unsupported prose is
-created.
+The CLI declares `editorial-audit`, `freeze` and `assemble` as future commands. Until their contracts are
+implemented, each returns structured `NOT_IMPLEMENTED` with a non-zero exit status. This
+is intentional: no placeholder artifact, fake audit or unsupported prose is created.
+
+`build-index` and `search` now implement Book Retrieval Layer V1. The index consumes only
+the independently verified canonical manifest and its admitted `embedding_ready.jsonl`
+members. It stores normalized float32 vector shards under `book/retrieval/indexes/` and
+atomically publishes `book/retrieval/index_manifest.json` only after full coverage and hash
+verification. The manifest binds the derivative index to the canonical corpus digest,
+canonical manifest hash, exact local embedding model and frozen book-input identities.
+
+```bash
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book build-index --batch-size 32
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book search \
+  --query "tünel yapım maliyeti" --section 6 --top-k 10
+```
+
+Interrupted builds are resumable by default. No cloud endpoint, model fallback, staging or
+processing artifact is accepted as retrieval evidence.
+
+`evidence-audit` implements the pre-writing audit. It retrieves from the complete verified
+canonical index, asks the exact configured local Qwen model to classify each frozen
+question as `SUPPORTED`, `PARTIAL` or `UNSUPPORTED`, and preserves deterministic retrieval
+provenance for every result. Section checkpoints are atomic and a repeated command resumes
+from the last valid section.
+
+```bash
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book evidence-audit \
+  --all --batch-size 50 --top-k 4
+```
+
+The active machine-readable summary is
+`audit/book/prewriting_evidence_audit.json`; the complete question-level output is stored
+under its content-addressed audit directory, and the operator summary is
+`reports/prewriting_evidence_audit.md`.
+
+`prepare` turns the completed audit into immutable, content-addressed section evidence
+packets and canonical claim registries. Only evidence explicitly selected by the Qwen
+audit is admitted. `UNSUPPORTED` questions receive no allowed claim; `PARTIAL` questions
+are restricted to qualified drafting. Every registered claim stores the exact canonical
+passage, document/chunk identity, locator, text digest and linked question IDs.
+
+```bash
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book prepare --all
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book prepare --section 1.1
+```
+
+The active preparation manifest is `book/production/preparation/manifest.json`; its
+content-addressed packets contain `evidence_packet.json` and `claim_registry.json`.
+`reports/section_preparation.md` is the operator summary.
+
+`write` implements a resumable, local-Qwen section writer. It admits only questions marked
+`SUPPORTED` or `PARTIAL`, resolves all model references against the prepared claim registry,
+and requires every generated sentence to identify at least one claim and question. Each
+batch has an atomic checkpoint. The resulting Markdown remains `DRAFTED_UNAUDITED` until
+the downstream evidence, coverage and editorial gates pass.
+
+```bash
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book write \
+  --section 1.1 --batch-size 8
+```
+
+Drafts are content-addressed under `book/production/drafts/`; each contains `section.md`,
+`sentence_map.json`, a manifest and resumable Qwen batch checkpoints. Active draft pointers
+are under `book/production/drafts/active/` and appear in `book status`.
+
+`evidence-review` independently asks local Qwen whether each drafted sentence is actually
+entailed by its mapped canonical passages. Cross-sentence claim selection is rejected; a
+failed batch is recursively split down to a single sentence when necessary. Results are
+`SUPPORTED`, `PARTIAL`, `UNSUPPORTED` or `NON_FACTUAL_OR_EDITORIAL`. Any partial or
+unsupported sentence places the section on `AUDIT_HOLD` for revision.
+
+```bash
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book evidence-review \
+  --section 1.1 --batch-size 12
+```
+
+Machine audits are under `audit/book/postwriting/`; human issue reports are written as
+`reports/postwriting_evidence_review_<section>.md`.
+
+`coverage-audit` evaluates all 50 frozen questions against real draft sentence spans and
+the accepted post-writing evidence chain. `ANSWERED` is possible only with independently
+`SUPPORTED` sentences and complete claim/document/locator provenance. A model answer based
+on a `PARTIAL` sentence is conservatively downgraded to `PARTIAL`; a reference-free partial
+answer becomes `NOT_ANSWERED`.
+
+```bash
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book coverage-audit \
+  --section 1.1 --batch-size 10
+```
+
+Machine results are under `audit/book/coverage/`; human summaries are written as
+`reports/question_coverage_<section>.md`. Partial answers never count toward coverage.
 
 `status` is read-only. It reports book-input identities, canonical inventory, retrieval
 readiness, section counts and publication blockers. A non-empty canonical root without a
@@ -111,6 +199,9 @@ closed. Book status consumes this same validator.
 
 ## Next milestone
 
-**Book Retrieval Layer V1**: implement a reproducible derivative index over only a verified
-canonical snapshot. Embeddings, retrieval and pre-writing evidence audits remain
-`NOT_IMPLEMENTED` in the canonical-promotion milestone.
+The retrieval index, benchmark, pre-writing audit and all 59 constrained section evidence
+packets/claim registries are complete. The local Qwen writer contract is implemented and
+verified with a section 1.1 pilot, and its post-writing sentence-to-claim evidence audit is
+complete. Section 1.1 also has a complete 50-question coverage audit. The next milestone is
+bounded editorial revision of evidence and repetition issues; freeze and assembly stages
+stay `NOT_IMPLEMENTED` until their contracts are implemented and verified.

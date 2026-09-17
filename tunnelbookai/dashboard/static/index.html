@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TunnelBookAI Operasyon Paneli</title>
+  <meta name="description" content="TunnelBookAI belge işleme, içerik ve inceleme paneli">
+  <link rel="stylesheet" href="/styles.css?v=5">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div><p class="eyebrow">TUNNELBOOKAI · CORPUS OPERATIONS</p><h1>Kaynak işleme kontrolü</h1><p class="lede">İlerlemeyi izle, çıkarılan içeriği incele ve sorunlu belgeleri ayrı bir kuyrukta yönet.</p></div>
+      <div class="connection"><span class="pulse"></span><span id="connectionText">Bağlanıyor</span></div>
+    </header>
+
+    <nav class="tabs" aria-label="Panel bölümleri">
+      <button class="tab active" data-view="overview">Genel bakış</button>
+      <button class="tab" data-view="documents">Belgeler ve chunklar</button>
+      <button class="tab" data-view="search">Semantik arama</button>
+      <button class="tab" data-view="statistics">İstatistikler</button>
+      <button class="tab" data-view="improvements">İyileştirme</button>
+      <button class="tab" data-view="review">Manuel inceleme <span id="reviewTabCount" class="tab-count">0</span></button>
+    </nav>
+
+    <section id="overviewView" class="view active">
+      <section class="hero-grid" aria-label="Çalışma özeti">
+        <article class="run-card panel">
+          <div class="panel-head"><div><span class="label">AKTİF ÇALIŞMA</span><h2 id="runId">—</h2></div><span id="statusBadge" class="badge neutral" data-testid="status-badge">YÜKLENİYOR</span></div>
+          <div class="progress-copy"><strong id="progressPercent">0%</strong><span id="progressCount">0 / 0 belge</span></div>
+          <div class="progress-track" role="progressbar" aria-label="Belge ilerlemesi" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="progressBar"></span></div>
+          <p id="statusMessage" class="status-message" aria-live="polite">Durum okunuyor…</p>
+          <div class="controls" aria-label="Çalışma kontrolleri"><button id="startButton" class="button primary" data-testid="start-button">Başlat</button><button id="stopButton" class="button danger" data-testid="stop-button" disabled>Güvenli durdur</button><button id="resumeButton" class="button secondary" data-testid="resume-button" disabled>Devam et</button></div>
+          <p class="safety-note">Durdurma aktif belgeyi yarıda kesmez. Belge tamamlanır, checkpoint yazılır ve sonraki belge başlamadan işlem durur.</p>
+        </article>
+        <aside class="now-card panel">
+          <span class="label">ŞİMDİ İŞLENEN</span>
+          <div class="now-value"><span>Batch</span><strong id="currentBatch">Henüz başlamadı</strong></div>
+          <div class="now-value"><span>Belge</span><strong id="currentDocument">Beklemede</strong></div>
+          <div class="model-panel" aria-label="Yerel model sağlık durumu">
+            <div class="model-panel-head"><span class="label">YEREL MODELLER</span><button id="modelButton" class="text-button">Yeniden kontrol et</button></div>
+            <div class="model-health-grid">
+              <article id="llmHealth" class="model-health" data-testid="llm-health" data-state="checking"><span id="llmLight" class="health-light checking"></span><div><strong>LLM</strong><span id="llmStatus" class="health-state">Kontrol ediliyor</span><small id="llmDetail">Yerel servis sorgulanıyor…</small></div></article>
+              <article id="embeddingHealth" class="model-health" data-testid="embedding-health" data-state="checking"><span id="embeddingLight" class="health-light checking"></span><div><strong>Embedding</strong><span id="embeddingStatus" class="health-state">Kontrol ediliyor</span><small id="embeddingDetail">Yerel servis sorgulanıyor…</small></div></article>
+            </div>
+            <p id="modelStatus" class="model-summary" role="status">Model sağlık kontrolü başlatılıyor…</p>
+          </div>
+        </aside>
+      </section>
+      <section class="metrics" aria-label="İşlem sayaçları"><article><span>Batch</span><strong id="batchMetric">0 / 0</strong></article><article><span>Staging hazır</span><strong id="stagedMetric">0</strong></article><article><span>İnceleme</span><strong id="reviewMetric">0</strong></article><article><span>Hata</span><strong id="failedMetric">0</strong></article></section>
+      <section class="detail-grid">
+        <article class="panel document-panel"><div class="panel-head compact"><div><span class="label">SONUÇ AKIŞI</span><h2>Son tamamlanan belgeler</h2></div><span id="runState" class="muted">—</span></div><div class="table-wrap"><table><thead><tr><th>Belge</th><th>Sonuç</th><th>Bölüm</th><th>Chunk</th></tr></thead><tbody id="documentRows"><tr><td colspan="4" class="empty">Henüz sonuç yok.</td></tr></tbody></table></div></article>
+        <article class="panel log-panel"><div class="panel-head compact"><div><span class="label">CANLI KAYIT</span><h2>Worker günlüğü</h2></div><button id="logButton" class="text-button">Yenile</button></div><pre id="logOutput" tabindex="0">Worker henüz çıktı üretmedi.</pre></article>
+      </section>
+    </section>
+
+    <section id="documentsView" class="view">
+      <article class="panel browser-panel">
+        <div class="panel-head"><div><span class="label">CORPUS GEZGİNİ</span><h2>Belgeler ve üretilen chunklar</h2></div><span id="documentTotal" class="muted">0 belge</span></div>
+        <form id="documentFilters" class="filters"><label><span>Ara</span><input id="documentSearch" type="search" placeholder="Dosya adı, belge kimliği veya neden"></label><label><span>Durum</span><select id="documentDisposition"><option value="ALL">Tümü</option><option value="ATTENTION">Dikkat gerekenler</option><option value="STAGED">Staging</option><option value="NEEDS_REVIEW">İnceleme</option><option value="RECOVERY_REQUIRED">Yarıda kalan</option><option value="DUPLICATE">Kopya</option><option value="ALREADY_PROCESSED">Önceden işlenmiş</option><option value="PENDING">Bekleyen</option></select></label><button class="button secondary" type="submit">Filtrele</button></form>
+        <div class="table-wrap tall"><table><thead><tr><th>Dosya / belge</th><th>Tür</th><th>Durum</th><th>Bölüm</th><th>Chunk</th><th>Neden</th></tr></thead><tbody id="allDocumentRows"><tr><td colspan="6" class="empty">Belgeler yükleniyor…</td></tr></tbody></table></div>
+        <div class="pager"><button id="prevPage" class="text-button">← Önceki</button><span id="pageText">1 / 1</span><button id="nextPage" class="text-button">Sonraki →</button></div>
+      </article>
+    </section>
+
+    <section id="searchView" class="view">
+      <article class="panel browser-panel retrieval-panel">
+        <div class="panel-head">
+          <div><span class="label">BOOK RETRIEVAL V1</span><h2>Canonical corpusta semantik arama</h2><p class="muted section-note">BGE-M3 vektörleriyle anlam benzerliği aranır. Her sonuç canonical belge, chunk, bölüm ve varsa sayfa konumuyla gösterilir.</p></div>
+          <span id="retrievalBadge" class="badge neutral" data-testid="retrieval-badge">KONTROL EDİLİYOR</span>
+        </div>
+        <div id="retrievalIdentity" class="retrieval-identity muted">Index durumu okunuyor…</div>
+        <form id="semanticSearchForm" class="filters retrieval-filters">
+          <label><span>Arama sorusu</span><input id="semanticQuery" type="search" maxlength="1000" required placeholder="Örn. Tünel yapımında püskürtme beton maliyeti nasıl belirlenir?"></label>
+          <label><span>Bölüm filtresi</span><select id="semanticSection"><option value="">Tüm bölümler</option><option value="3">3. bölüm</option><option value="4">4. bölüm</option><option value="5">5. bölüm</option><option value="6">6. bölüm</option></select></label>
+          <button id="semanticSearchButton" class="button primary" type="submit">Semantik ara</button>
+        </form>
+        <p id="semanticSearchStatus" class="status-message" role="status">Bir soru yazarak canonical kanıtları arayabilirsin.</p>
+        <div id="semanticResults" class="semantic-results"><p class="empty">Henüz arama yapılmadı.</p></div>
+      </article>
+    </section>
+
+    <section id="statisticsView" class="view">
+      <div id="assetMetrics" class="metrics metric-six"></div>
+      <section class="detail-grid stats-grid">
+        <article class="panel padded"><span class="label">CHUNK DAĞILIMI</span><h2>Üretilen içerik türleri</h2><div id="chunkStats" class="bar-list"></div></article>
+        <article class="panel padded"><span class="label">DOSYA TÜRLERİ</span><h2>Kaynak envanteri</h2><div id="formatStats" class="bar-list"></div></article>
+        <article class="panel padded"><span class="label">PERFORMANS</span><h2>Gerçek çalışma süresi</h2><div id="speedStats" class="stat-copy"></div></article>
+        <article class="panel padded"><span class="label">BELGE UYARILARI</span><h2>Gerçek iyileştirme adayları</h2><p id="warningNote" class="muted section-note">Sayılar etkilenen benzersiz belge sayısını gösterir.</p><div id="warningStats" class="bar-list"></div><h3 class="stats-subhead">Bilgi kayıtları</h3><div id="informationalWarningStats" class="bar-list"></div></article>
+      </section>
+    </section>
+
+    <section id="improvementsView" class="view">
+      <article class="panel browser-panel">
+        <div class="panel-head"><div><span class="label">UYARI TEMELLİ İYİLEŞTİRME</span><h2>Hedefli belge iyileştirmesi</h2><p class="muted section-note">Yalnızca türetilmiş chunk çıktıları güncellenir; orijinal dosya, çıkarılan metin ve manuel bölüm kararları korunur.</p></div><span id="improvementBadge" class="badge neutral">YÜKLENİYOR</span></div>
+        <div class="progress-copy"><strong id="improvementPercent">0%</strong><span id="improvementCount">0 / 0 belge</span></div>
+        <div class="progress-track" role="progressbar" aria-label="İyileştirme ilerlemesi" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="improvementBar"></span></div>
+        <p id="improvementMessage" class="status-message">İyileştirme durumu okunuyor…</p>
+        <div class="controls"><button id="improvementStartButton" class="button primary">İyileştirmeyi başlat</button></div>
+        <div id="improvementMetrics" class="metrics improvement-metrics"></div>
+        <section class="detail-grid stats-grid improvement-grid">
+          <article class="panel padded"><span class="label">ÖNCE / SONRA</span><h2>Chunk kalite sinyalleri</h2><div id="improvementBeforeAfter" class="stat-copy"></div></article>
+          <article class="panel padded"><span class="label">GÜVENLİ ERTELENENLER</span><h2>Görsel yeniden işleme adayları</h2><p class="muted section-note">Aynı çıkarıcıyla kör tekrar yapılmaz; veri kaybı veya uydurma içerik riski olanlar ayrı tutulur.</p><div id="improvementDeferred" class="bar-list"></div></article>
+        </section>
+        <article id="sectionReviewPanel" class="section-review-panel" hidden>
+          <div><span class="label">MANUEL BÖLÜM İNCELEMESİ</span><h2>3, 4 ve 6. bölüm kararları</h2><p id="sectionReviewId" class="muted section-note">—</p></div>
+          <div id="sectionReviewSummary" class="stat-copy"></div>
+        </article>
+        <article id="targetedRecoveryPanel" class="section-review-panel" hidden>
+          <div><span class="label">KAYNAK KURTARMA</span><h2>Resmi tam metinlerle değiştirilenler</h2><p id="targetedRecoveryId" class="muted section-note">—</p></div>
+          <div id="targetedRecoverySummary" class="stat-copy"></div>
+        </article>
+        <article id="section3ResearchPanel" class="section-review-panel" hidden>
+          <div><span class="label">PAPERCRAWLER DERİN ARAŞTIRMA</span><h2>Bölüm 3 kaynak güçlendirmesi</h2><p id="section3ResearchId" class="muted section-note">—</p></div>
+          <div id="section3ResearchSummary" class="stat-copy"></div>
+        </article>
+        <div class="panel-head compact improvement-recent-head"><div><span class="label">SON İŞLEMLER</span><h2>Belge sonuçları</h2></div><span id="improvementCurrent" class="muted">—</span></div>
+        <div id="improvementRecent" class="review-list"><p class="empty">Henüz işlem yok.</p></div>
+      </article>
+    </section>
+
+    <section id="reviewView" class="view">
+      <article class="panel browser-panel"><div class="panel-head"><div><span class="label">MANUEL İNCELEME KUYRUĞU</span><h2>Okunamayan veya şüpheli belgeler</h2><p class="muted section-note">Kaynak dosyalar taşınmaz; sorun ve not burada kalıcı tutulur. Belge ayrıntısından çıktıları inceleyebilirsin.</p></div><strong id="reviewOpen">0 açık</strong></div><div id="reviewCards" class="review-list"><p class="empty">Kuyruk yükleniyor…</p></div></article>
+    </section>
+  </main>
+
+  <dialog id="detailDialog" class="detail-dialog"><div class="dialog-head"><div><span class="label">BELGE AYRINTISI</span><h2 id="detailTitle">—</h2></div><button id="closeDetail" class="icon-button" aria-label="Kapat">×</button></div><div id="detailSummary" class="detail-summary"></div><div class="detail-columns"><section><div class="subhead"><h3>Chunklar</h3><span id="chunkCount" class="muted"></span></div><div id="chunkList" class="chunk-list"></div></section><section><div class="subhead"><h3>Dosyalar ve görseller</h3><span class="muted">Salt okunur</span></div><div id="assetList" class="asset-list"></div></section></div></dialog>
+  <dialog id="previewDialog" class="preview-dialog"><div class="dialog-head"><h2 id="previewTitle">Önizleme</h2><button id="closePreview" class="icon-button" aria-label="Kapat">×</button></div><div id="previewBody" class="preview-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="/app.js?v=6" defer></script>
+</body>
+</html>

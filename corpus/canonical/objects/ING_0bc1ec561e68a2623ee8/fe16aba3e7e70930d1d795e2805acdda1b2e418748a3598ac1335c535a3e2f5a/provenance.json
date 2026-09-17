@@ -1,0 +1,145 @@
+{
+  "document_id": "ING_0bc1ec561e68a2623ee8",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_DB81FC888C7468AD7BE0",
+      "producer_document_id": "PC_0BC1EC561E68A262",
+      "declared_sha256": "0bc1ec561e68a2623ee80243cdeccef4140f6fb5c4dfa65b40019e0031e85296",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_0BC1EC561E68A262/source.pdf",
+        "sha256": "0bc1ec561e68a2623ee80243cdeccef4140f6fb5c4dfa65b40019e0031e85296"
+      },
+      "provenance": {
+        "source_url": "https://arxiv.org/abs/2305.06043v1",
+        "landing_url": "https://arxiv.org/abs/2305.06043v1",
+        "pdf_url": "https://arxiv.org/pdf/2305.06043v1",
+        "resolved_url": "https://arxiv.org/pdf/2305.06043v1",
+        "discovery_source": "arxiv",
+        "discovery_query": "tünel destek elemanları NATM",
+        "publisher": "arXiv"
+      },
+      "producer_provenance": {
+        "source_url": "https://arxiv.org/abs/2305.06043v1",
+        "landing_url": "https://arxiv.org/abs/2305.06043v1",
+        "pdf_url": "https://arxiv.org/pdf/2305.06043v1",
+        "resolved_url": "https://arxiv.org/pdf/2305.06043v1",
+        "discovery_source": "arxiv",
+        "discovery_query": "tünel destek elemanları NATM",
+        "publisher": "arXiv"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_0BC1EC561E68A262",
+        "canonical_id": "CAN_DB81FC888C7468AD7BE0",
+        "canonical_hint_id": "CAN_DB81FC888C7468AD7BE0",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "arXiv",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Autonomous Stabilization of Retinal Videos for Streamlining Assessment of Spontaneous Venous Pulsations",
+        "authors": [
+          "Hongwei Sheng",
+          "Xin Yu",
+          "Feiyu Wang",
+          "MD Wahiduzzaman Khan",
+          "Hexuan Weng",
+          "Sahar Shariflou",
+          "S. Mojtaba Golzan"
+        ],
+        "year": "2023",
+        "doi": null,
+        "source_url": "https://arxiv.org/abs/2305.06043v1",
+        "landing_url": "https://arxiv.org/abs/2305.06043v1",
+        "resolved_url": "https://arxiv.org/pdf/2305.06043v1",
+        "local_path": "01_originals/C_ACADEMIC/PC_0BC1EC561E68A262/source.pdf",
+        "sha256": "0bc1ec561e68a2623ee80243cdeccef4140f6fb5c4dfa65b40019e0031e85296",
+        "source_name": "arxiv",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "ABSTRACT",
+        "evidence_level": "ABSTRACT",
+        "acquisition_status": "DOWNLOADED_PDF",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_0BC1EC561E68A262/source.pdf",
+          "original_or_raw_sha256": "0bc1ec561e68a2623ee80243cdeccef4140f6fb5c4dfa65b40019e0031e85296",
+          "crawler_normalized": null,
+          "crawler_normalized_sha256": null,
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "G",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "PREPRINT",
+        "source_class": "ACADEMIC",
+        "authority_tier": "G",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "NATM"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "arXiv",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "DOWNLOADED_PDF",
+          "source_path": "01_originals/C_ACADEMIC/PC_0BC1EC561E68A262/source.pdf",
+          "source_sha256": "0bc1ec561e68a2623ee80243cdeccef4140f6fb5c4dfa65b40019e0031e85296"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://arxiv.org/abs/2305.06043v1",
+          "landing_url": "https://arxiv.org/abs/2305.06043v1",
+          "pdf_url": "https://arxiv.org/pdf/2305.06043v1",
+          "resolved_url": "https://arxiv.org/pdf/2305.06043v1",
+          "discovery_source": "arxiv",
+          "discovery_query": "tünel destek elemanları NATM",
+          "publisher": "arXiv"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source.pdf",
+    "original_sha256": "0bc1ec561e68a2623ee80243cdeccef4140f6fb5c4dfa65b40019e0031e85296",
+    "mime_type": "application/pdf",
+    "format": "PDF"
+  }
+}

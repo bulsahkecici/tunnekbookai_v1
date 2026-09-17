@@ -1,0 +1,93 @@
+{
+  "document_id": "ING_e8be5c1744652c55a754",
+  "fields": [
+    {
+      "field": "title",
+      "value": "DESIGN OF TUNNELS IN VARIOUS ROCK CONDITIONS",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "drainage",
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "maintenance",
+        "monitoring",
+        "operations",
+        "rock_bolt",
+        "rock_mechanics",
+        "safety",
+        "shotcrete",
+        "standards",
+        "support_systems",
+        "traffic",
+        "ventilation"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geotechnical_investigation:geotechnical; geology:geolog; rock_mechanics:rock mass; excavation:excavat; shotcrete:shotcrete; rock_bolt:rock bolt; support_systems:support system; drainage:drainage; monitoring:monitoring; safety:safety; ventilation:ventilation; traffic:traffic"
+    }
+  ]
+}

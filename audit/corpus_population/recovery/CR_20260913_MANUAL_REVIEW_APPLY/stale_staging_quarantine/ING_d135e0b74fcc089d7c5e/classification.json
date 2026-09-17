@@ -1,0 +1,142 @@
+{
+  "final_primary_section": "2.4.1",
+  "final_secondary_sections": [
+    "2.4.1.1",
+    "2.4.2.1"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": [
+        "LIST0020",
+        "LIST0035",
+        "LIST0039",
+        "FIG0037",
+        "CAPT0006",
+        "LIST0045",
+        "FIG0041",
+        "CAPT0007"
+      ]
+    },
+    {
+      "section_id": "2.4.1.1",
+      "section_title": "İnşaat Başlamadan Önce Yapılan Çalışmalar",
+      "supporting_elements": [
+        "FIG0016",
+        "LIST0020",
+        "LIST0022",
+        "LIST0035",
+        "LIST0039",
+        "FIG0037",
+        "CAPT0006",
+        "LIST0045",
+        "FIG0041",
+        "CAPT0007"
+      ]
+    },
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "FIG0015",
+        "LIST0014",
+        "LIST0027",
+        "LIST0056"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.1.1",
+      "score": 0.705,
+      "rule_score": 0.5,
+      "embedding_score": 0.7875,
+      "chunk_vote": 0.1282
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.6445,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7744,
+      "chunk_vote": 0.0513
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.6059,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7937,
+      "chunk_vote": 0.0769
+    },
+    {
+      "id": "2",
+      "score": 0.3538,
+      "rule_score": 0.0,
+      "embedding_score": 0.7863,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3526,
+      "rule_score": 0.0,
+      "embedding_score": 0.7721,
+      "chunk_vote": 0.0256
+    },
+    {
+      "id": "6.1",
+      "score": 0.3507,
+      "rule_score": 0.0,
+      "embedding_score": 0.7794,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3495,
+      "rule_score": 0.0,
+      "embedding_score": 0.7766,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3489,
+      "rule_score": 0.0,
+      "embedding_score": 0.7754,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3415,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1795
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.2545,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.094
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Semmering Baz Tüneli örneğinde jeolojik ve jeoteknik inceleme stratejilerini (saha haritalama, sondaj, jeofizik, laboratuvar testleri) detaylı olarak ele almaktadır. Bu içerik doğrudan 'Jeolojik ve Geoteknik İncelemeler' (2.4.1) başlığına aittir. Ayrıca inceleme fazlarının güzergah seçimi ve ön tasarım aşamalarına odaklanması nedeniyle ikincil olarak güzergah seçimi (2.4.2.1) ve inşaat önce",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:13",
+    "embeddings:8",
+    "top=2.4.1.1:0.705 gap=0.060 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

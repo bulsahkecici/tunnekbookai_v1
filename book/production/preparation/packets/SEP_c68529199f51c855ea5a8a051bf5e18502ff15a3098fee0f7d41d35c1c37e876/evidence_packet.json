@@ -1,0 +1,551 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_4a4330dba95bc9ac9ef836ad08b9b5c25411f05c6ecae1f03098ed9c9465cf53",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 2,
+    "SUPPORTED": 0,
+    "UNSUPPORTED": 48
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_c68529199f51c855ea5a8a051bf5e18502ff15a3098fee0f7d41d35c1c37e876",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı altında ele alınan temel araştırma problemi nedir?",
+      "question_id": "5.2-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı hangi ana soruya cevap vermeyi amaçlamaktadır?",
+      "question_id": "5.2-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı hangi alt araştırma sorularına ayrılabilir?",
+      "question_id": "5.2-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı neden tünel mühendisliği ve kamu yönetimi açısından önemlidir?",
+      "question_id": "5.2-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı literatürdeki hangi boşluğu doldurmayı hedeflemektedir?",
+      "question_id": "5.2-Q05",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı uygulamada hangi kararları desteklemeyi amaçlamaktadır?",
+      "question_id": "5.2-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_39d3f839ea5d518fbcf2ec27fe472c6cdf18fa1f8ad12e26cf2d54b11126188b",
+        "CLM_2239f7194dee34cd8527b6d8be64cc26e322acf23e572b3ef530a85158bbee60",
+        "CLM_ccff84d056b351fe29abf6b5dc60bed888ffffd50afb255e1214deed2cf40869"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Çalışmanın Kapsamı kapsamında hangi tünel türleri dahil edilmiştir?",
+      "question_id": "5.2-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_39d3f839ea5d518fbcf2ec27fe472c6cdf18fa1f8ad12e26cf2d54b11126188b"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Çalışmanın Kapsamı kapsamında hangi tünel türleri hariç tutulmuştur?",
+      "question_id": "5.2-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında coğrafi sınırlar nasıl belirlenmiştir?",
+      "question_id": "5.2-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında zaman aralığı nasıl belirlenmiştir?",
+      "question_id": "5.2-Q10",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında analiz birimi nedir?",
+      "question_id": "5.2-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında örneklem veya evren nasıl tanımlanmıştır?",
+      "question_id": "5.2-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında veri kaynakları nelerdir?",
+      "question_id": "5.2-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında idari kayıtlar nasıl kullanılmıştır?",
+      "question_id": "5.2-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında proje ve keşif verileri nasıl kullanılmıştır?",
+      "question_id": "5.2-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında bakım ve işletme kayıtları nasıl kullanılmıştır?",
+      "question_id": "5.2-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında maliyet verilerinin para birimi ve baz yılı nasıl tanımlanmıştır?",
+      "question_id": "5.2-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında hangi bağımlı veya hedef değişkenler kullanılmıştır?",
+      "question_id": "5.2-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında hangi açıklayıcı değişkenler kullanılmıştır?",
+      "question_id": "5.2-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında kategorik değişkenler nasıl tanımlanmıştır?",
+      "question_id": "5.2-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında sayısal değişkenler nasıl tanımlanmıştır?",
+      "question_id": "5.2-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında değişkenlerin birimleri açıkça belirtilmiş midir?",
+      "question_id": "5.2-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında veri temizleme adımları nelerdir?",
+      "question_id": "5.2-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında eksik veriler nasıl ele alınmıştır?",
+      "question_id": "5.2-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında aykırı değerler nasıl belirlenmiştir?",
+      "question_id": "5.2-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında mükerrer kayıtlar nasıl kontrol edilmiştir?",
+      "question_id": "5.2-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında fiyat farkı, enflasyon veya döviz etkileri nasıl düzeltilmiştir?",
+      "question_id": "5.2-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında kullanılan tanımlayıcı istatistikler nelerdir?",
+      "question_id": "5.2-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında kullanılan karşılaştırmalı istatistik yöntemleri nelerdir?",
+      "question_id": "5.2-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında kullanılan ilişki veya korelasyon analizleri nelerdir?",
+      "question_id": "5.2-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında kullanılan regresyon veya tahmin yöntemleri nelerdir?",
+      "question_id": "5.2-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında kullanılan makine öğrenmesi yöntemleri varsa neden seçilmiştir?",
+      "question_id": "5.2-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında model doğrulama yaklaşımı nedir?",
+      "question_id": "5.2-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında performans ölçütleri nasıl seçilmiştir?",
+      "question_id": "5.2-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında istatistiksel anlamlılık ile pratik önem nasıl ayrıştırılmıştır?",
+      "question_id": "5.2-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında alt grup analizleri yapılmış mıdır?",
+      "question_id": "5.2-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında tünel uzunluğu, yöntem, zemin ve benzeri özellikler kontrol edilmiş midir?",
+      "question_id": "5.2-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında değişkenler arası çoklu bağlantı veya bağımlılık sorunları incelenmiş midir?",
+      "question_id": "5.2-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında sonuçların sağlamlığı için duyarlılık analizleri yapılmış mıdır?",
+      "question_id": "5.2-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında kullanılan veri ve yöntemlerin yeniden üretilebilirliği nasıl sağlanmıştır?",
+      "question_id": "5.2-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında veri kalitesinin sınırlılıkları nelerdir?",
+      "question_id": "5.2-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında seçim yanlılığı veya temsil sorunu var mıdır?",
+      "question_id": "5.2-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında ölçüm ve kayıt hatalarının etkisi nedir?",
+      "question_id": "5.2-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında genellenebilirlik sınırları nelerdir?",
+      "question_id": "5.2-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında hangi varsayımlar yapılmıştır?",
+      "question_id": "5.2-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında hangi etik, kurumsal veya veri gizliliği hususları dikkate alınmıştır?",
+      "question_id": "5.2-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında yöntem seçiminin alternatifleri nelerdir?",
+      "question_id": "5.2-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında yöntemin güçlü yönleri nelerdir?",
+      "question_id": "5.2-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı kapsamında yöntemin zayıf yönleri nelerdir?",
+      "question_id": "5.2-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Kapsamı açıklaması okuyucunun sonuçların nasıl üretildiğini baştan sona yeniden kurmasına yeterli midir?",
+      "question_id": "5.2-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "5.2",
+  "section_title": "Çalışmanın Kapsamı",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_2239f7194dee34cd8527b6d8be64cc26e322acf23e572b3ef530a85158bbee60",
+      "CLM_39d3f839ea5d518fbcf2ec27fe472c6cdf18fa1f8ad12e26cf2d54b11126188b",
+      "CLM_ccff84d056b351fe29abf6b5dc60bed888ffffd50afb255e1214deed2cf40869"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "5.2-Q07",
+      "5.2-Q08"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "5.2-Q01",
+      "5.2-Q02",
+      "5.2-Q03",
+      "5.2-Q04",
+      "5.2-Q05",
+      "5.2-Q06",
+      "5.2-Q09",
+      "5.2-Q10",
+      "5.2-Q11",
+      "5.2-Q12",
+      "5.2-Q13",
+      "5.2-Q14",
+      "5.2-Q15",
+      "5.2-Q16",
+      "5.2-Q17",
+      "5.2-Q18",
+      "5.2-Q19",
+      "5.2-Q20",
+      "5.2-Q21",
+      "5.2-Q22",
+      "5.2-Q23",
+      "5.2-Q24",
+      "5.2-Q25",
+      "5.2-Q26",
+      "5.2-Q27",
+      "5.2-Q28",
+      "5.2-Q29",
+      "5.2-Q30",
+      "5.2-Q31",
+      "5.2-Q32",
+      "5.2-Q33",
+      "5.2-Q34",
+      "5.2-Q35",
+      "5.2-Q36",
+      "5.2-Q37",
+      "5.2-Q38",
+      "5.2-Q39",
+      "5.2-Q40",
+      "5.2-Q41",
+      "5.2-Q42",
+      "5.2-Q43",
+      "5.2-Q44",
+      "5.2-Q45",
+      "5.2-Q46",
+      "5.2-Q47",
+      "5.2-Q48",
+      "5.2-Q49",
+      "5.2-Q50"
+    ]
+  }
+}

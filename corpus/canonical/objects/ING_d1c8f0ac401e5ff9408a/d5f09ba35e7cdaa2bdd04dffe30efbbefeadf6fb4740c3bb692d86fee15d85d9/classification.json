@@ -1,0 +1,179 @@
+{
+  "final_primary_section": "5.4.2",
+  "final_secondary_sections": [
+    "1.5",
+    "1"
+  ],
+  "final_section_confidence": 0.75,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "PARA0003",
+        "LIST0035",
+        "PARA0018",
+        "LIST0050",
+        "PARA0048",
+        "LIST0063",
+        "PARA0074",
+        "LIST0073",
+        "PARA0094",
+        "LIST0075",
+        "PARA0098",
+        "LIST0076",
+        "PARA0100",
+        "LIST0077",
+        "PARA0102",
+        "LIST0099"
+      ]
+    },
+    {
+      "section_id": "1.5",
+      "section_title": "Tünel Felaketleri",
+      "supporting_elements": [
+        "LIST0002",
+        "PARA0003",
+        "HEAD0009",
+        "LIST0032",
+        "PARA0012",
+        "LIST0037",
+        "PARA0022",
+        "LIST0051",
+        "PARA0050",
+        "LIST0056",
+        "PARA0060",
+        "LIST0063",
+        "PARA0074",
+        "LIST0073",
+        "PARA0094",
+        "LIST0077",
+        "PARA0102",
+        "PARA0113"
+      ]
+    },
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0002",
+        "HEAD0002",
+        "PARA0003",
+        "HEAD0008",
+        "HEAD0009",
+        "LIST0028",
+        "LIST0032",
+        "PARA0012",
+        "LIST0033",
+        "PARA0014",
+        "LIST0034",
+        "PARA0016",
+        "LIST0035",
+        "PARA0018",
+        "LIST0036",
+        "PARA0020",
+        "LIST0037",
+        "PARA0022",
+        "LIST0038",
+        "PARA0024",
+        "LIST0039",
+        "PARA0026",
+        "LIST0040",
+        "PARA0028"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.6954,
+      "rule_score": 0.5,
+      "embedding_score": 0.7929,
+      "chunk_vote": 0.0679
+    },
+    {
+      "id": "1",
+      "score": 0.6097,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7772,
+      "chunk_vote": 0.133
+    },
+    {
+      "id": "1.5",
+      "score": 0.4124,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5342
+    },
+    {
+      "id": "2",
+      "score": 0.3532,
+      "rule_score": 0.0,
+      "embedding_score": 0.7738,
+      "chunk_vote": 0.0249
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3528,
+      "rule_score": 0.0,
+      "embedding_score": 0.7841,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.1",
+      "score": 0.3512,
+      "rule_score": 0.0,
+      "embedding_score": 0.7804,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3502,
+      "rule_score": 0.0,
+      "embedding_score": 0.7782,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.7771,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3475,
+      "rule_score": 0.0,
+      "embedding_score": 0.7723,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3217,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0807
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünellerde yangın söndürme ve algılama sistemlerini (su spreyi, su sisi) detaylı olarak ele almaktadır. Bu, tünel altyapısındaki elektrik-elektronik ve elektromekanik sistemlerin (söndürme pompaları, sensörler, kontrol üniteleri) işlevselliği ve bakımıyla doğrudan ilişkilidir. Ayrıca yangın, tünel felaketlerinin en kritik boyutu olduğundan 1.5 (Tünel Felaketleri) bölümüyle de güçlü bir bağl",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:19",
+    "embeddings:8",
+    "top=5.4.2:0.6954 gap=0.086 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

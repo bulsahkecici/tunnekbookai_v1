@@ -1,0 +1,87 @@
+{
+  "document_id": "ING_16e105dfc7ea0a648e4f",
+  "fields": [
+    {
+      "field": "title",
+      "value": "ANKARA-İZMİR HIZLI TREN PROJESİ EŞME-SALİHLİ KESİMİ T-1 TÜNELİ TÜRKİYE'NİN EN BÜYÜK TÜNEL DELME MAKİNESİ İLE AÇILIYOR",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2021-11-15",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "explicit date literal in the document: 15.11.2021"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "project_document",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: projesi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "contracts",
+        "excavation",
+        "fire_safety",
+        "geology",
+        "operations",
+        "risk",
+        "safety",
+        "standards",
+        "tbm"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; geology:geolog; excavation:kazı; risk:risk; safety:safety; fire_safety:yangın; operations:operation; standards:standart; contracts:contract; tunnel_general:tünel"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "document_id": "ING_12a10662c18b4a5c80f3",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_E1322FBF3FF37FE1E656",
+      "producer_document_id": "PC_12A10662C18B4A5C",
+      "declared_sha256": "12a10662c18b4a5c80f323ddcff07be326bbfd1a73d79e0fd3fdb4ef33d3f3ba",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_12A10662C18B4A5C/source.pdf",
+        "sha256": "12a10662c18b4a5c80f323ddcff07be326bbfd1a73d79e0fd3fdb4ef33d3f3ba"
+      },
+      "provenance": {
+        "source_url": "https://europepmc.org/articles/PMC8378735",
+        "landing_url": "https://europepmc.org/articles/PMC8378735",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0256523&type=printable",
+        "resolved_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0256523&type=printable",
+        "discovery_source": "europe_pmc",
+        "discovery_query": "highway tunnel accident fire case",
+        "doi": "10.1371/journal.pone.0256523"
+      },
+      "producer_provenance": {
+        "source_url": "https://europepmc.org/articles/PMC8378735",
+        "landing_url": "https://europepmc.org/articles/PMC8378735",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0256523&type=printable",
+        "resolved_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0256523&type=printable",
+        "discovery_source": "europe_pmc",
+        "discovery_query": "highway tunnel accident fire case",
+        "doi": "10.1371/journal.pone.0256523"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_12A10662C18B4A5C",
+        "canonical_id": "CAN_E1322FBF3FF37FE1E656",
+        "canonical_hint_id": "CAN_E1322FBF3FF37FE1E656",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "UNKNOWN"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Optimal exit choice during highway tunnel evacuations based on the fire locations.",
+        "authors": [
+          "Wang Y",
+          "Ma J",
+          "Liu Y",
+          "Bai Y",
+          "Xu L"
+        ],
+        "year": "2021",
+        "doi": "10.1371/journal.pone.0256523",
+        "source_url": "https://europepmc.org/articles/PMC8378735",
+        "landing_url": "https://europepmc.org/articles/PMC8378735",
+        "resolved_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0256523&type=printable",
+        "local_path": "01_originals/C_ACADEMIC/PC_12A10662C18B4A5C/source.pdf",
+        "sha256": "12a10662c18b4a5c80f323ddcff07be326bbfd1a73d79e0fd3fdb4ef33d3f3ba",
+        "source_name": "europe_pmc",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "ABSTRACT",
+        "evidence_level": "ABSTRACT",
+        "acquisition_status": "DOWNLOADED_PDF",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_12A10662C18B4A5C/source.pdf",
+          "original_or_raw_sha256": "12a10662c18b4a5c80f323ddcff07be326bbfd1a73d79e0fd3fdb4ef33d3f3ba",
+          "crawler_normalized": null,
+          "crawler_normalized_sha256": null,
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "road_tunnel",
+          "evacuation",
+          "route_selection",
+          "energy",
+          "energy_efficiency",
+          "emergency_response",
+          "cost_estimation",
+          "excavation",
+          "fire_suppression"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "UNKNOWN"
+        },
+        "acquisition": {
+          "status": "DOWNLOADED_PDF",
+          "source_path": "01_originals/C_ACADEMIC/PC_12A10662C18B4A5C/source.pdf",
+          "source_sha256": "12a10662c18b4a5c80f323ddcff07be326bbfd1a73d79e0fd3fdb4ef33d3f3ba"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://europepmc.org/articles/PMC8378735",
+          "landing_url": "https://europepmc.org/articles/PMC8378735",
+          "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0256523&type=printable",
+          "resolved_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0256523&type=printable",
+          "discovery_source": "europe_pmc",
+          "discovery_query": "highway tunnel accident fire case",
+          "doi": "10.1371/journal.pone.0256523"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source.pdf",
+    "original_sha256": "12a10662c18b4a5c80f323ddcff07be326bbfd1a73d79e0fd3fdb4ef33d3f3ba",
+    "mime_type": "application/pdf",
+    "format": "PDF"
+  }
+}

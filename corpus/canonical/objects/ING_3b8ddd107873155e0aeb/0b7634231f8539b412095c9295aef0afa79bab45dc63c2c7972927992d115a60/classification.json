@@ -1,0 +1,190 @@
+{
+  "final_primary_section": "1.1",
+  "final_secondary_sections": [
+    "1.2",
+    "2.2",
+    "1.3.1"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.1",
+      "section_title": "Tünelin Tanımı",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0001",
+        "PARA0002",
+        "PARA0003",
+        "PARA0004",
+        "PARA0006",
+        "PARA0010",
+        "FIG0001",
+        "CAPT0001",
+        "FIG0002",
+        "CAPT0002",
+        "HEAD0007",
+        "PARA0011",
+        "PARA0017",
+        "PARA0018",
+        "HEAD0010",
+        "FIG0003",
+        "CAPT0003",
+        "FIG0004",
+        "CAPT0004",
+        "PARA0024",
+        "PARA0025",
+        "PARA0026",
+        "PARA0027",
+        "FIG0005"
+      ]
+    },
+    {
+      "section_id": "1.2",
+      "section_title": "Tünellerin Sınıflandırılması",
+      "supporting_elements": [
+        "PARA0002",
+        "FIG0002",
+        "CAPT0002",
+        "FIG0003",
+        "CAPT0003",
+        "PARA0025",
+        "PARA0041",
+        "FIG0012",
+        "CAPT0012",
+        "FIG0014",
+        "CAPT0014",
+        "PARA0067",
+        "PARA0070",
+        "PARA0071",
+        "PARA0077",
+        "PARA0078",
+        "PARA0084",
+        "LIST0028",
+        "LIST0034",
+        "FIG0020",
+        "CAPT0020",
+        "LIST0039",
+        "LIST0040",
+        "LIST0041",
+        "LIST0042"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0050",
+        "PARA0051",
+        "PARA0052",
+        "PARA0055",
+        "PARA0057",
+        "PARA0058",
+        "PARA0059",
+        "PARA0062",
+        "LIST0008",
+        "LIST0126"
+      ]
+    },
+    {
+      "section_id": "1.3.1",
+      "section_title": "Dünyadaki İlk Tüneller",
+      "supporting_elements": [
+        "PARA0093",
+        "LIST0029"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2.3",
+      "score": 0.7591,
+      "rule_score": 0.6,
+      "embedding_score": 0.8105,
+      "chunk_vote": 0.0719
+    },
+    {
+      "id": "1.1",
+      "score": 0.7556,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8109,
+      "chunk_vote": 0.1758
+    },
+    {
+      "id": "1.2",
+      "score": 0.7481,
+      "rule_score": 0.6,
+      "embedding_score": 0.7968,
+      "chunk_vote": 0.0476
+    },
+    {
+      "id": "1.3.1",
+      "score": 0.7374,
+      "rule_score": 0.6,
+      "embedding_score": 0.7943,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.4188,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2607
+    },
+    {
+      "id": "1",
+      "score": 0.4152,
+      "rule_score": 0.0,
+      "embedding_score": 0.8121,
+      "chunk_vote": 0.249
+    },
+    {
+      "id": "2",
+      "score": 0.3692,
+      "rule_score": 0.0,
+      "embedding_score": 0.8049,
+      "chunk_vote": 0.0348
+    },
+    {
+      "id": "2.2",
+      "score": 0.3582,
+      "rule_score": 0.0,
+      "embedding_score": 0.796,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3572,
+      "rule_score": 0.0,
+      "embedding_score": 0.7937,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3311,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0056
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belgenin ana metni tünelin temel tanımını, kullanım alanlarını ve terminolojisini (uzunluk/çap oranları) detaylıca açıklamaktadır; bu da doğrudan 'Tünelin Tanımı' bölümüne karşılık gelmektedir. Ayrıca farklı ülkelerdeki tanımlar ve tür çeşitliliği sınıflandırma ile, inşaat yöntemleri listesi ise yapım yöntemleri ile ilişkilendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2.3:0.7591 gap=0.003 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

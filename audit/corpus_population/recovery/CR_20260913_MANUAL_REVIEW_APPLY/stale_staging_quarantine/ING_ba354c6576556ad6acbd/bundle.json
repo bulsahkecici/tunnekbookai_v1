@@ -1,0 +1,34 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_ba354c6576556ad6acbd",
+  "original_sha256": "ba354c6576556ad6acbdc03c2d77d7725e9e80282b2ba39c2838b8f5e613c248",
+  "source_kind": "EXTERNAL_DISCOVERY",
+  "format": "HTML",
+  "title": "Challenges and solutions of large diameter TBM assembly in deep cavern construction inside the Highway Tunnel in Istanbul",
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.95,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": false,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_ba354c6576556ad6acbd",
+  "original_archive": "originals/ING_ba354c6576556ad6acbd",
+  "chunks_authoritative_path": "processing/ING_ba354c6576556ad6acbd/chunks/chunk_manifest.jsonl",
+  "chunk_count": 2,
+  "chunk_quality_status": "WARN",
+  "canonical_promoted": false
+}

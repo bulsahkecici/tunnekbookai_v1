@@ -1,0 +1,124 @@
+{
+  "final_primary_section": "2.4.2.1",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.7506,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "LIST0001",
+        "PARA0012",
+        "PARA0013",
+        "PARA0024",
+        "PARA0044",
+        "PARA0048",
+        "PARA0049",
+        "LIST0006",
+        "LIST0010",
+        "LIST0014",
+        "LIST0015",
+        "LIST0017",
+        "LIST0018",
+        "LIST0021",
+        "LIST0027",
+        "LIST0029",
+        "LIST0034",
+        "LIST0035",
+        "PARA0052",
+        "LIST0038"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.2.1",
+      "score": 0.7506,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7758,
+      "chunk_vote": 0.2293
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3577,
+      "rule_score": 0.0,
+      "embedding_score": 0.7814,
+      "chunk_vote": 0.0305
+    },
+    {
+      "id": "6.1",
+      "score": 0.3541,
+      "rule_score": 0.0,
+      "embedding_score": 0.7868,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3523,
+      "rule_score": 0.0,
+      "embedding_score": 0.7796,
+      "chunk_vote": 0.0076
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.351,
+      "rule_score": 0.0,
+      "embedding_score": 0.7801,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3499,
+      "rule_score": 0.0,
+      "embedding_score": 0.7776,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3498,
+      "rule_score": 0.0,
+      "embedding_score": 0.7774,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3493,
+      "rule_score": 0.0,
+      "embedding_score": 0.7762,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.3376,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0381
+    },
+    {
+      "id": "5.4",
+      "score": 0.33,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:20",
+    "embeddings:8",
+    "top=2.4.2.1:0.7506 gap=0.393 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

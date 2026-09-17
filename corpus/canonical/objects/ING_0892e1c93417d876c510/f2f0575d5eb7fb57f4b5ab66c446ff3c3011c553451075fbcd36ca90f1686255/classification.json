@@ -1,0 +1,168 @@
+{
+  "final_primary_section": "2.1.2",
+  "final_secondary_sections": [
+    "2.2.2",
+    "2.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "LIST0001",
+        "LIST0003",
+        "LIST0004",
+        "LIST0005",
+        "FIG0002",
+        "LIST0007",
+        "PARA0012",
+        "FURN0002",
+        "LIST0015",
+        "FIG0003",
+        "PARA0038",
+        "PARA0040",
+        "PARA0052",
+        "LIST0020",
+        "PARA0056",
+        "PARA0061",
+        "PARA0063",
+        "PARA0067",
+        "PARA0078"
+      ]
+    },
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0007",
+        "PARA0046",
+        "LIST0036",
+        "LIST0038"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0005",
+        "PARA0008",
+        "LIST0001",
+        "LIST0002",
+        "LIST0006",
+        "PARA0010",
+        "PARA0021",
+        "PARA0031",
+        "PARA0032",
+        "PARA0033",
+        "PARA0039",
+        "PARA0043",
+        "PARA0046",
+        "PARA0051",
+        "PARA0063",
+        "PARA0067",
+        "PARA0070",
+        "PARA0075",
+        "LIST0033",
+        "LIST0040",
+        "LIST0041"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7606,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7862,
+      "chunk_vote": 0.2561
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.7398,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7592,
+      "chunk_vote": 0.2128
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.7081,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7576,
+      "chunk_vote": 0.0578
+    },
+    {
+      "id": "2.2",
+      "score": 0.6349,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7582,
+      "chunk_vote": 0.0397
+    },
+    {
+      "id": "1",
+      "score": 0.3669,
+      "rule_score": 0.0,
+      "embedding_score": 0.7599,
+      "chunk_vote": 0.1248
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3434,
+      "rule_score": 0.0,
+      "embedding_score": 0.7631,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.34,
+      "rule_score": 0.0,
+      "embedding_score": 0.7556,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3373,
+      "rule_score": 0.0,
+      "embedding_score": 0.7496,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3288,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1159
+    },
+    {
+      "id": "2.1",
+      "score": 0.2486,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0643
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, TBM (Tünel Delme Makinesi) ile açılan tünellerde kullanılan iki bileşenli dolgu harcı (backfilling grout) ve segment kaplaması arkasındaki boşluğun doldurulması üzerine odaklanmaktadır. Bu konu, tünel destekleme elemanları ve mekanik kazı yöntemlerinde kullanılan malzemeler kapsamında değerlendirildiğinden 2.1.2 (Tünel Destekleme Elemanları) birincil bölüm olarak seçilmiştir. Ayrıca, TBM'ni",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7606 gap=0.021 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

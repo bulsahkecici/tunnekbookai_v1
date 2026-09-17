@@ -1,0 +1,49 @@
+{
+  "document_id": "ING_6f06a43e97fd059a20d9",
+  "source_kind": "EXTERNAL_DISCOVERY",
+  "original_filename": "source_raw.html",
+  "original_sha256": "6f06a43e97fd059a20d97776133ea15c83bee2a6d568980114a268e8ca371d14",
+  "format": "HTML",
+  "mime_type": "text/html",
+  "title": "Test Newsletter",
+  "authors": [],
+  "organization": null,
+  "department": null,
+  "document_date": "2025",
+  "revision": null,
+  "language": "en",
+  "document_type": null,
+  "topics": [
+    "maintenance",
+    "monitoring",
+    "operations",
+    "safety",
+    "traffic",
+    "ventilation"
+  ],
+  "source_url": "https://tunnelsmanual.piarc.org/en/node/330",
+  "doi": null,
+  "confidentiality": "UNKNOWN",
+  "document_status": "UNKNOWN",
+  "ingest_method": "crawler_handoff",
+  "final_primary_section": "5.9",
+  "final_secondary_sections": [
+    "5.9.2",
+    "5.1"
+  ],
+  "final_section_confidence": 0.7434,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": false,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "schema_version": "1.0"
+}

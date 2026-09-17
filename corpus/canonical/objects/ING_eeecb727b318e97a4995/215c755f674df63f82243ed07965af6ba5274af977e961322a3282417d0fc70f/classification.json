@@ -1,0 +1,144 @@
+{
+  "final_primary_section": "2.4.1.3",
+  "final_secondary_sections": [
+    "2",
+    "1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": [
+        "PARA0003",
+        "LIST0041",
+        "LIST0048"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0005",
+        "PARA0003",
+        "PARA0004",
+        "LIST0032",
+        "LIST0053",
+        "LIST0056"
+      ]
+    },
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0005",
+        "PARA0003",
+        "PARA0004",
+        "LIST0032",
+        "LIST0033",
+        "LIST0037",
+        "LIST0038",
+        "LIST0040",
+        "LIST0048",
+        "LIST0051",
+        "LIST0053",
+        "LIST0054",
+        "LIST0055"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.6895,
+      "rule_score": 0.5,
+      "embedding_score": 0.7781,
+      "chunk_vote": 0.072
+    },
+    {
+      "id": "1",
+      "score": 0.6493,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7804,
+      "chunk_vote": 0.324
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3603,
+      "rule_score": 0.0,
+      "embedding_score": 0.7901,
+      "chunk_vote": 0.024
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3551,
+      "rule_score": 0.0,
+      "embedding_score": 0.7891,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3537,
+      "rule_score": 0.0,
+      "embedding_score": 0.786,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3517,
+      "rule_score": 0.0,
+      "embedding_score": 0.7815,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4",
+      "score": 0.3506,
+      "rule_score": 0.0,
+      "embedding_score": 0.7792,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3504,
+      "rule_score": 0.0,
+      "embedding_score": 0.7787,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel kaplamalarının (linings) yapısal sağlığının izlenmesi ve bakımı için temas etmeyen tekniklerin (GPR, termografi vb.) kullanımını detaylandırmaktadır. Bu içerik, doğrudan 'Kullanım Aşaması Çalışmaları' (2.4.1.3) başlığıyla örtüşmektedir. Ayrıca tünel ana elemanlarından biri olan kaplama (lining) üzerine odaklandığı için 'TÜNEL ANA ELEMANLARI' (2) bölümüyle de ilişkili olmakla birlikte,",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:12",
+    "embeddings:8",
+    "top=2:0.6895 gap=0.040 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

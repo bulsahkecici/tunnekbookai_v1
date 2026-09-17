@@ -1,0 +1,117 @@
+{
+  "final_primary_section": "5.4.2",
+  "final_secondary_sections": [
+    "5.4",
+    "5.7.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.7.1",
+      "section_title": "Bakım-İşletme Maliyetini Azaltma Yöntemleri",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6.1",
+      "score": 0.5087,
+      "rule_score": 0.2,
+      "embedding_score": 0.7615,
+      "chunk_vote": 0.0299
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.7771,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3474,
+      "rule_score": 0.0,
+      "embedding_score": 0.7721,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3466,
+      "rule_score": 0.0,
+      "embedding_score": 0.7703,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.3461,
+      "rule_score": 0.0,
+      "embedding_score": 0.7691,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3459,
+      "rule_score": 0.0,
+      "embedding_score": 0.7687,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3443,
+      "rule_score": 0.0,
+      "embedding_score": 0.7652,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3436,
+      "rule_score": 0.0,
+      "embedding_score": 0.7635,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2729,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4478
+    },
+    {
+      "id": "1.1",
+      "score": 0.2281,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2239
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Rijkswaterstaat'ın Heinenoord tüneli için geliştirdiği 3BT (bedien, bestuur, bewaak) sisteminin, tünel içindeki trafik ve güvenlik tesisatlarının (aydınlatma, kamera, havalandırma vb.) entegrasyonunu ve otomasyonunu ele almaktadır. Bu içerik doğrudan elektrik-elektronik ve elektromekanik sistemlerin bakım ve işletme kapsamına girmektedir. Ayrıca sistemin yeniden kullanılabilirliği ve yenile",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:7",
+    "chunk_votes:7",
+    "embeddings:8",
+    "top=6.1:0.5087 gap=0.159 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

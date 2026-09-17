@@ -1,0 +1,177 @@
+{
+  "final_primary_section": "5.4.1",
+  "final_secondary_sections": [
+    "5.5.2.1",
+    "5.7.1",
+    "5.9"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4.1",
+      "section_title": "Yapısal Bakım",
+      "supporting_elements": [
+        "PARA0043",
+        "PARA0074",
+        "PARA0076",
+        "PARA0100",
+        "HEAD0006",
+        "PARA0112",
+        "FIG0003",
+        "CAPT0001",
+        "HEAD0007",
+        "PARA0131",
+        "PARA0132",
+        "PARA0133",
+        "PARA0155",
+        "LIST0003",
+        "LIST0005",
+        "LIST0006",
+        "LIST0009",
+        "FIG0005",
+        "PARA0159",
+        "PARA0160",
+        "FIG0006",
+        "CAPT0004",
+        "FIG0007",
+        "CAPT0005",
+        "PARA0188"
+      ]
+    },
+    {
+      "section_id": "5.5.2.1",
+      "section_title": "Yapısal Bakım-Onarım Maliyetleri",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.7.1",
+      "section_title": "Bakım-İşletme Maliyetini Azaltma Yöntemleri",
+      "supporting_elements": [
+        "LIST0650"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0043",
+        "PARA0074",
+        "PARA0075",
+        "PARA0076",
+        "PARA0090",
+        "PARA0091",
+        "PARA0094",
+        "PARA0100",
+        "FIG0005",
+        "PARA0159",
+        "PARA0188",
+        "FIG0014",
+        "LIST0066",
+        "PARA0336",
+        "LIST0091",
+        "FIG0027",
+        "PARA0538",
+        "PARA0554",
+        "PARA0667",
+        "PARA0745",
+        "PARA0747",
+        "PARA0782",
+        "PARA0787",
+        "PARA0805",
+        "PARA0807"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.1",
+      "score": 0.7889,
+      "rule_score": 0.6364,
+      "embedding_score": 0.8017,
+      "chunk_vote": 0.1407
+    },
+    {
+      "id": "5.9",
+      "score": 0.7205,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8042,
+      "chunk_vote": 0.0151
+    },
+    {
+      "id": "5",
+      "score": 0.3731,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0323
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3648,
+      "rule_score": 0.0,
+      "embedding_score": 0.8043,
+      "chunk_vote": 0.0141
+    },
+    {
+      "id": "2",
+      "score": 0.3621,
+      "rule_score": 0.0,
+      "embedding_score": 0.7947,
+      "chunk_vote": 0.0226
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.3605,
+      "rule_score": 0.0,
+      "embedding_score": 0.8012,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3601,
+      "rule_score": 0.0,
+      "embedding_score": 0.8003,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3598,
+      "rule_score": 0.0,
+      "embedding_score": 0.7996,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3587,
+      "rule_score": 0.0,
+      "embedding_score": 0.7971,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3448,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.074
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel kaplamalarındaki hasarların (çatlak, boşluk, sızıntı) tespit edilmesini, yapısal durum değerlendirmesini ve ardından gelen onarım/yenileme (retrofitting) yöntemlerini kapsamlı bir şekilde incelemektedir. Bu içerik, tünelin mevcut yapısının korunması ve iyileştirilmesi odaklı 'Yapısal Bakım' (5.4.1) başlığıyla en yüksek örtüşmeye sahiptir. Onarım yöntemlerinin maliyet ve verimlilik boy",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.4.1:0.7889 gap=0.068 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

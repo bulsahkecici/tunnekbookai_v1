@@ -1,0 +1,99 @@
+{
+  "document_id": "ING_0892e1c93417d876c510",
+  "fields": [
+    {
+      "field": "title",
+      "value": "The behaviour of a two-component backfilling grout used in a Tunnel-Boring Machine",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Borio, Luca",
+        "Peila, Daniele",
+        "Pelizza, Sebastiano"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2011",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "excavation",
+        "final_lining",
+        "injection",
+        "operations",
+        "risk",
+        "rock_mechanics",
+        "tbm",
+        "water",
+        "waterproofing"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; rock_mechanics:rock mass; excavation:excavat; injection:injection; water:water inflow; waterproofing:waterproof; final_lining:final lining; risk:risk; operations:operation; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://pdf.core.ac.uk/corefilesystem/pdf/351/11421901.pdf?se=2026-09-03T16%3A56%3A52Z&sp=r&sv=2026-06-06&sr=b&rscd=inline%3B+filename%3D%2211421901.pdf%22&rsct=application%2Fpdf&sig=2%2Bie%2BcZjse7GFvRryzyAx%2B2iyIgdAHOhUQVPCOjqxFw%3D",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

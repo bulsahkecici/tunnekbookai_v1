@@ -1,0 +1,149 @@
+{
+  "final_primary_section": "5.9",
+  "final_secondary_sections": [
+    "5.9.2",
+    "5.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "PARA0006",
+        "PARA0008",
+        "PARA0010",
+        "LIST0052",
+        "LIST0053",
+        "LIST0054",
+        "PARA0013"
+      ]
+    },
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "PARA0006",
+        "PARA0008",
+        "PARA0010",
+        "LIST0052",
+        "LIST0053",
+        "LIST0054",
+        "PARA0013"
+      ]
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "PARA0006",
+        "PARA0008",
+        "PARA0010",
+        "LIST0052",
+        "LIST0053",
+        "LIST0054"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9",
+      "score": 0.7369,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7997,
+      "chunk_vote": 0.1071
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.735,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8114,
+      "chunk_vote": 0.0714
+    },
+    {
+      "id": "5.1",
+      "score": 0.6944,
+      "rule_score": 0.5,
+      "embedding_score": 0.7963,
+      "chunk_vote": 0.0555
+    },
+    {
+      "id": "5.6",
+      "score": 0.4299,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4996
+    },
+    {
+      "id": "1",
+      "score": 0.3776,
+      "rule_score": 0.0,
+      "embedding_score": 0.7947,
+      "chunk_vote": 0.0999
+    },
+    {
+      "id": "1.4",
+      "score": 0.3636,
+      "rule_score": 0.0,
+      "embedding_score": 0.7933,
+      "chunk_vote": 0.0333
+    },
+    {
+      "id": "5.3",
+      "score": 0.3596,
+      "rule_score": 0.0,
+      "embedding_score": 0.7991,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3592,
+      "rule_score": 0.0,
+      "embedding_score": 0.7982,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3566,
+      "rule_score": 0.0,
+      "embedding_score": 0.7925,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.2917,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0833
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC'ın Yol Tünelleri El Kitabı'ndaki 'Useful links' (Faydalı Bağlantılar) sayfasıdır. Bu sayfa, ITA, NFPA, UNECE gibi uluslararası kuruluşlara ve standartlara yapılan atıfları içermekte olup, bu kaynakların derlenmesi ve sunulması doğrudan 'Uluslararası Literatür Taraması' veya genel literatür taraması kapsamına girmektedir. Belge, belirli bir tünel projesinin amacı, yöntemi veya maliyet ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:4",
+    "embeddings:8",
+    "top=5.9:0.7369 gap=0.002 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

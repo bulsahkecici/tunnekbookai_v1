@@ -1,0 +1,741 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_78f67b02782561e23e22f0d5cb1730dc3c8dd71aa1b7dc9b532ddee7a9f0904d",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 29,
+    "SUPPORTED": 10,
+    "UNSUPPORTED": 11
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_3482a10fc574e5226d54fb1da304247aa1639fa67e6811802e46d571b9e8d674",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları kavramının kapsamı ve temel amacı nedir?",
+      "question_id": "2.4.1.3-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_cd12e677bd45630f518a6a9e0009ebf671262e69313d1abc7a45cc9aebcc85a5",
+        "CLM_5f85405d5a7a532790874419b77bf6762ed6ed1aa8cc8114b4f051a5a2ad9a7d"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları tünel güvenliği açısından neden gereklidir?",
+      "question_id": "2.4.1.3-Q02",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_64f8f6d0122c38d6176278013e1cbec31ca45ff116884c9b331c67199d7dfa78",
+        "CLM_63e51c944260dbe319b0f38f380948e8d88db21ddb54d4ab6a47b617454d0e5b"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları hizmet sürekliliği açısından neden gereklidir?",
+      "question_id": "2.4.1.3-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında hangi yapısal bileşenler dikkate alınır?",
+      "question_id": "2.4.1.3-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5a9d10fd5b72c1c4356860b06cd39571c3381851cec7b3cc5bfaab6c14d1b545",
+        "CLM_29822ffdc9040f4b19223e1407a9c8a8b968cfc2a69d1f6f77cd03169f6b887b"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında hangi elektrik sistemleri dikkate alınır?",
+      "question_id": "2.4.1.3-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_29822ffdc9040f4b19223e1407a9c8a8b968cfc2a69d1f6f77cd03169f6b887b",
+        "CLM_9fa88a6c39db0f169c2196e287d43178804ea7fcfee7b7fbe531ad6ad53059b2"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında hangi elektronik sistemler dikkate alınır?",
+      "question_id": "2.4.1.3-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_22ff998cbf28ca9a49013e9ae4bbc6e23cf6f1fef5ea38329c63427f4b90621d",
+        "CLM_64410fd667e5d7461987e7fb74e2b850bdcacc5d9f9cf95e5394d6d19409559d"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında hangi elektromekanik sistemler dikkate alınır?",
+      "question_id": "2.4.1.3-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0d6920aaad7b8efdd1ee29eb2bbdf96be358777f6a5fc33f973447631b931dd4",
+        "CLM_e47dadb212760a76eb44e90a891f2360e9a0ef6ceb55e3be108478c591d90b23"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında havalandırma sistemleri nasıl ele alınır?",
+      "question_id": "2.4.1.3-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_79b8bba0e5a0ad67d1978d321c29d7fbc84338a2a24f5d99a8b068cecadcc673",
+        "CLM_5a9d10fd5b72c1c4356860b06cd39571c3381851cec7b3cc5bfaab6c14d1b545",
+        "CLM_ae9148425d0970c030bcfdd968017993cabfab30508e4a431cad4ce6b32fa438"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında aydınlatma sistemleri nasıl ele alınır?",
+      "question_id": "2.4.1.3-Q09",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5a9d10fd5b72c1c4356860b06cd39571c3381851cec7b3cc5bfaab6c14d1b545",
+        "CLM_f691bbaef583050d39bb71230954a096e8b6723ac1ba0ece357ea121abb53279"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında enerji dağıtım ve yedek güç sistemleri nasıl ele alınır?",
+      "question_id": "2.4.1.3-Q10",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a71f583dae44c067283fca91026712c573da44f4ecce0a3ce2729202a668786b",
+        "CLM_67b35eb2b25824039fe2ac48050a600b6325320b2b147b98c8515083379c342f",
+        "CLM_6c4c674f63f6de1a974f7b4afeb34cba83a74505a28f40d656f5cfba7d29114e",
+        "CLM_2a3651548fce9980444760e5d4454d51d0c0978d631d42e7cc16e0523f9930b7"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında yangın algılama ve söndürme sistemleri nasıl ele alınır?",
+      "question_id": "2.4.1.3-Q11",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_cd541fa0837097fe750b45570737ca8a1476eda218cced7f1beefd1cad1ad890",
+        "CLM_1faeebd62fe68da73065db2ae6cbca8731c6327682427779f18aad3e255cdecb",
+        "CLM_eaf154aa7ee2f2a6a1b7867a34dc5999e5f02439e3e2581136100798f49571db",
+        "CLM_3aba2f81994194dc55da240833dc3548cf67c2ffab17ddaf3d6e6729bf4d014a"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında kamera, haberleşme ve olay algılama sistemleri nasıl ele alınır?",
+      "question_id": "2.4.1.3-Q12",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2c738e246b383d234001e268c655dca5c18ab603f0c668a5d32c62065dbef340",
+        "CLM_2cf4fdb5b26e3c71b6c590779f3562e5dddb012f6c4a00b3ccf113870afed45b",
+        "CLM_bca57667bba17696f64620ae5a347018bca063caa10c46a8f9aeaa49f00465d0"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında drenaj, pompa ve su yalıtımı sistemleri nasıl ele alınır?",
+      "question_id": "2.4.1.3-Q13",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında kaplama, derz ve yüzey bozulmaları nasıl izlenir?",
+      "question_id": "2.4.1.3-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında portal ve yaklaşım bölgeleri nasıl ele alınır?",
+      "question_id": "2.4.1.3-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e038f639e9efa8890a7b1ab73f843bd95a058496c4c606f6e672724a9cd3ad15",
+        "CLM_d772863393e08e6703bd98093561badc71e02bb494416b2557cd5c0d94ba9cd3"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları için bakım türleri nasıl sınıflandırılır?",
+      "question_id": "2.4.1.3-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8ae7ec5a1d15490d63341be71f9fe63f60ebe9dab9bc821141f5fe78facbabef",
+        "CLM_9ab2be3261eb1cfe2ac9f238bf2aba7a6c53b2ca9aa37de9b060c4d180de3416",
+        "CLM_92230cc7cb7ac2caa1bf36a6bd8f03267c57679e5c872b917089e0fea0cd9142",
+        "CLM_31727a483231f87d60d550d136c43d3bd16577ed3867dd58be38c8bdff75e53a"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları içinde rutin bakım ile periyodik bakım arasındaki fark nedir?",
+      "question_id": "2.4.1.3-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_dca5aa408e4edd6493875614f4e56f41d847247101a8e255c966318509203d94",
+        "CLM_9fa88a6c39db0f169c2196e287d43178804ea7fcfee7b7fbe531ad6ad53059b2"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları içinde önleyici bakım ile düzeltici bakım arasındaki fark nedir?",
+      "question_id": "2.4.1.3-Q18",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9fa88a6c39db0f169c2196e287d43178804ea7fcfee7b7fbe531ad6ad53059b2"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları içinde kestirimci bakım hangi verilerle uygulanabilir?",
+      "question_id": "2.4.1.3-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9ab2be3261eb1cfe2ac9f238bf2aba7a6c53b2ca9aa37de9b060c4d180de3416",
+        "CLM_8ae7ec5a1d15490d63341be71f9fe63f60ebe9dab9bc821141f5fe78facbabef",
+        "CLM_92230cc7cb7ac2caa1bf36a6bd8f03267c57679e5c872b917089e0fea0cd9142"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları için bakım periyotları nasıl belirlenir?",
+      "question_id": "2.4.1.3-Q20",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_619facdeccc8f577341ba1bab5f226bae4e6087e2289e7444df54e927a133453",
+        "CLM_7c55bff6ae8bc74202eccd102ac95b06e461afd502ae9c30995c85169b699e64"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları için kritik ekipmanların önceliklendirilmesi nasıl yapılır?",
+      "question_id": "2.4.1.3-Q21",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_88789d2f38bebd277894303e7be49a610cd4f1156797105ba65c9c8020b91496",
+        "CLM_dabad845e79209fb4f156cb7d8b812773e73b85f17e193817cb5f62f47c21f9a",
+        "CLM_90dfa3c70ef63f58fa4bf9ac91d99e4c67914ffd8cf69aab8d13fcde5a6c2419"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları için arıza modları ve etkileri nasıl analiz edilir?",
+      "question_id": "2.4.1.3-Q22",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_759228bde2a26dfacc702a68470daffbbec0ca49e660bddb7c3951c69a155bda",
+        "CLM_4ab0d9756be9b8ab8aab8b5e37c9573bc118c8ebeb20c8be867311a9296328db"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları için durum değerlendirme ve kondisyon puanlama sistemi nasıl kurulabilir?",
+      "question_id": "2.4.1.3-Q23",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6d4704b4006d5deb710689bc2f97b984eed02b3e3878f14819f3fce20bc5e7e6",
+        "CLM_fd8753d812a8f17abe4ef0e7e6d40565d48ad0f9ded913d572e9022ea787fd07",
+        "CLM_036b1217e0cfbc1b73454e42d968cb30759101ce625fd00ae64c7952094be9a3"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları için sensör ve uzaktan izleme verileri nasıl kullanılabilir?",
+      "question_id": "2.4.1.3-Q24",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d454b266f5610d6ed988396efdc3e1c64e19e448d9a44107a2cd2476aba32d74",
+        "CLM_9ab2be3261eb1cfe2ac9f238bf2aba7a6c53b2ca9aa37de9b060c4d180de3416",
+        "CLM_31727a483231f87d60d550d136c43d3bd16577ed3867dd58be38c8bdff75e53a",
+        "CLM_d6ba1b39c003c661677dfe898064f9f3f40dc495b910050a6f210a71d1ba8615"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları için bakım kayıtlarında hangi bilgiler tutulmalıdır?",
+      "question_id": "2.4.1.3-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_dca5aa408e4edd6493875614f4e56f41d847247101a8e255c966318509203d94",
+        "CLM_dabad845e79209fb4f156cb7d8b812773e73b85f17e193817cb5f62f47c21f9a",
+        "CLM_9fa88a6c39db0f169c2196e287d43178804ea7fcfee7b7fbe531ad6ad53059b2",
+        "CLM_6e4a1fb834079b01690ccbb8e0f3beeb5242d1cfd390514d2890cee9a04bafe3"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları için yedek parça yönetimi nasıl planlanmalıdır?",
+      "question_id": "2.4.1.3-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_90dfa3c70ef63f58fa4bf9ac91d99e4c67914ffd8cf69aab8d13fcde5a6c2419",
+        "CLM_f0720948513d5aaf50cfd49e6fb1961ea5103ae4a69064e32b27fff8b96b9383"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları için personel ve vardiya planlaması nasıl yapılmalıdır?",
+      "question_id": "2.4.1.3-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları için yüklenici ve hizmet alımı yönetimi nasıl yapılmalıdır?",
+      "question_id": "2.4.1.3-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9b6bd339fc144182b8fd01017e09f818deb4b5d4855f9e8e516db14715a7917c",
+        "CLM_9806e9dca2762d6afdec58a9f38889ae06f2e27bcae7d780eb75a642d42b9adb",
+        "CLM_5f85405d5a7a532790874419b77bf6762ed6ed1aa8cc8114b4f051a5a2ad9a7d"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları sırasında trafik güvenliği nasıl sağlanmalıdır?",
+      "question_id": "2.4.1.3-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları sırasında şerit veya tünel kapatma kararları nasıl verilmelidir?",
+      "question_id": "2.4.1.3-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_54fcbff2290237cef5e0bc6c89240d66f265cd5af43980808391a145a00223a9",
+        "CLM_4db37eb380678164076b9f5f9ebae3a1df8161c80f847fc4ad1af5d84bc2359c",
+        "CLM_93f2731feb007f71309281d510cfbd286fb5acea04c169febce0e3ed8b196ba1"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları sırasında iş sağlığı ve güvenliği riskleri nasıl yönetilmelidir?",
+      "question_id": "2.4.1.3-Q31",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_dabad845e79209fb4f156cb7d8b812773e73b85f17e193817cb5f62f47c21f9a",
+        "CLM_dca5aa408e4edd6493875614f4e56f41d847247101a8e255c966318509203d94",
+        "CLM_0ad23da1d2dc9e1d312c8ae63f8dc7f86047b01171af6cfb06b87914020e5e1d"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları için acil müdahale ile planlı bakım nasıl koordine edilmelidir?",
+      "question_id": "2.4.1.3-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2ce875ea8cc8f515378cb60af5e05c91dfbb5443e50f266b585e5e9ca346db29",
+        "CLM_2b6ef0e9fc64620508aaa471d845229cf232c0d6833970e7a78b54e750e28cfe"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları performansı hangi göstergelerle ölçülmelidir?",
+      "question_id": "2.4.1.3-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_88789d2f38bebd277894303e7be49a610cd4f1156797105ba65c9c8020b91496"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında kullanılabilirlik ve arıza süresi nasıl izlenmelidir?",
+      "question_id": "2.4.1.3-Q34",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_365afde86763e4ad227eb07608e9aee83a42984da2b472963a5dc04db2662439",
+        "CLM_f841ab6cb0ee4f77195152cbd5037985d12694d89b6aef1b7ac42fe73d66d2ee",
+        "CLM_f0720948513d5aaf50cfd49e6fb1961ea5103ae4a69064e32b27fff8b96b9383"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında enerji tüketimi hangi göstergelerle izlenmelidir?",
+      "question_id": "2.4.1.3-Q35",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3d6b72707f9bf8c375a3783f04de2ef03747cfe851612eb67dda9f50abb1064f",
+        "CLM_646ee03677450c3234bcf1ed80a10c9265946f0a2159b8a61c3239c2408afcb2",
+        "CLM_6e4a1fb834079b01690ccbb8e0f3beeb5242d1cfd390514d2890cee9a04bafe3"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında bakım maliyeti hangi göstergelerle izlenmelidir?",
+      "question_id": "2.4.1.3-Q36",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_88789d2f38bebd277894303e7be49a610cd4f1156797105ba65c9c8020b91496"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında arızaların tekrarlanma oranı nasıl izlenmelidir?",
+      "question_id": "2.4.1.3-Q37",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_84db289f435d9b0c0a69c32262d27f0ee8fe81b61137431dbdbf0939f7d307f5",
+        "CLM_e7e54d01cc26963a12e1cf76f36c928ac630b78abf49f819d875fe44b066eb40"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları kapsamında güvenlik olayları ve ramak kala kayıtları nasıl kullanılmalıdır?",
+      "question_id": "2.4.1.3-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.2,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları için denetim ve kabul kriterleri nelerdir?",
+      "question_id": "2.4.1.3-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.2,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları için mevzuat, standart ve teknik şartname gereklilikleri nelerdir?",
+      "question_id": "2.4.1.3-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0c47232e92a131c2053a8e7f7f6c7813253a03e29adceecd6616dbeb6adff36e"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları için Karayolları Genel Müdürlüğü uygulamalarında hangi süreçler öne çıkar?",
+      "question_id": "2.4.1.3-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b4f5e432d82e0fda5483d112b36ac9aea2c81fff9c3464d50327e0384c3b4746"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları için enerji verimliliği hangi teknik önlemlerle artırılabilir?",
+      "question_id": "2.4.1.3-Q42",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_048755b166a38bc677da7564d62ef8e1f3e56523e1ca9b2871d8fb83a755bd6b",
+        "CLM_9fa88a6c39db0f169c2196e287d43178804ea7fcfee7b7fbe531ad6ad53059b2"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları için otomasyon ve akıllı kontrol sistemleri hangi faydaları sağlayabilir?",
+      "question_id": "2.4.1.3-Q43",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6561fa040b453651c38b790276d3b2de67639e1d99dee716062c573dce5b8564",
+        "CLM_0128ccb1795de087b47ca3b260d81ff4d880f5987aa39098351be8e26840ea61",
+        "CLM_b2e9cb54c2c7c86ff8a08268fc6e33ea04567f5e24295aec38a8fd3c50265678",
+        "CLM_d17042d533c9bf217060d1327c7888a64750ff6963030887b4167552044254de"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları için yaşam döngüsü maliyet yaklaşımı nasıl uygulanabilir?",
+      "question_id": "2.4.1.3-Q44",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.25,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları için bakım ertelemesinin teknik ve ekonomik sonuçları nelerdir?",
+      "question_id": "2.4.1.3-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c27a7c3d071bdeb7e3c1b7fb9819eeb1d13a44a2ef893a1ee6a3cb8eb1be3623",
+        "CLM_fbfce102606663a6e2e0df31e73bdc064f7b5376b6143f8a3c814b85ad107458"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları için yenileme veya modernizasyon kararı hangi kriterlerle verilmelidir?",
+      "question_id": "2.4.1.3-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3e205bd65f75392f7a0f85b5debb88c0cb75922fc7c75dc08e9d1f7701ad0d39",
+        "CLM_97c0e445e0b9e4ef85371d5907aa6226e831a0ab13fb0d80f5c8d8d29531d0f9",
+        "CLM_ceb6cb615119b96074db0d8a2e64a95c5d598057f8281fb9a54c015150c69ece"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları sürdürülebilirlik ve karbon ayak izi açısından nasıl geliştirilebilir?",
+      "question_id": "2.4.1.3-Q47",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları konusunda Türkiye’den hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "2.4.1.3-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kullanım Aşaması Çalışmaları konusunda dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "2.4.1.3-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f84942bdae100ce9da461ac03b72a5caeff7ff241aa766d0de148b49e6fac9c0",
+        "CLM_bd5ad64a5ef2c8761bf7ae1508ca6e066ac341b49213d03b24dde32a590b1555"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kullanım Aşaması Çalışmaları için optimum güvenlik, performans ve maliyet dengesi nasıl kurulabilir?",
+      "question_id": "2.4.1.3-Q50",
+      "reason_code": "PARTIAL_ONLY"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "2.4.1.3",
+  "section_title": "Kullanım Aşaması Çalışmaları",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_0128ccb1795de087b47ca3b260d81ff4d880f5987aa39098351be8e26840ea61",
+      "CLM_036b1217e0cfbc1b73454e42d968cb30759101ce625fd00ae64c7952094be9a3",
+      "CLM_048755b166a38bc677da7564d62ef8e1f3e56523e1ca9b2871d8fb83a755bd6b",
+      "CLM_0ad23da1d2dc9e1d312c8ae63f8dc7f86047b01171af6cfb06b87914020e5e1d",
+      "CLM_0c47232e92a131c2053a8e7f7f6c7813253a03e29adceecd6616dbeb6adff36e",
+      "CLM_0d6920aaad7b8efdd1ee29eb2bbdf96be358777f6a5fc33f973447631b931dd4",
+      "CLM_1faeebd62fe68da73065db2ae6cbca8731c6327682427779f18aad3e255cdecb",
+      "CLM_22ff998cbf28ca9a49013e9ae4bbc6e23cf6f1fef5ea38329c63427f4b90621d",
+      "CLM_29822ffdc9040f4b19223e1407a9c8a8b968cfc2a69d1f6f77cd03169f6b887b",
+      "CLM_2a3651548fce9980444760e5d4454d51d0c0978d631d42e7cc16e0523f9930b7",
+      "CLM_2b6ef0e9fc64620508aaa471d845229cf232c0d6833970e7a78b54e750e28cfe",
+      "CLM_2c738e246b383d234001e268c655dca5c18ab603f0c668a5d32c62065dbef340",
+      "CLM_2ce875ea8cc8f515378cb60af5e05c91dfbb5443e50f266b585e5e9ca346db29",
+      "CLM_2cf4fdb5b26e3c71b6c590779f3562e5dddb012f6c4a00b3ccf113870afed45b",
+      "CLM_31727a483231f87d60d550d136c43d3bd16577ed3867dd58be38c8bdff75e53a",
+      "CLM_365afde86763e4ad227eb07608e9aee83a42984da2b472963a5dc04db2662439",
+      "CLM_3aba2f81994194dc55da240833dc3548cf67c2ffab17ddaf3d6e6729bf4d014a",
+      "CLM_3d6b72707f9bf8c375a3783f04de2ef03747cfe851612eb67dda9f50abb1064f",
+      "CLM_3e205bd65f75392f7a0f85b5debb88c0cb75922fc7c75dc08e9d1f7701ad0d39",
+      "CLM_4ab0d9756be9b8ab8aab8b5e37c9573bc118c8ebeb20c8be867311a9296328db",
+      "CLM_4db37eb380678164076b9f5f9ebae3a1df8161c80f847fc4ad1af5d84bc2359c",
+      "CLM_54fcbff2290237cef5e0bc6c89240d66f265cd5af43980808391a145a00223a9",
+      "CLM_5a9d10fd5b72c1c4356860b06cd39571c3381851cec7b3cc5bfaab6c14d1b545",
+      "CLM_5f85405d5a7a532790874419b77bf6762ed6ed1aa8cc8114b4f051a5a2ad9a7d",
+      "CLM_619facdeccc8f577341ba1bab5f226bae4e6087e2289e7444df54e927a133453",
+      "CLM_63e51c944260dbe319b0f38f380948e8d88db21ddb54d4ab6a47b617454d0e5b",
+      "CLM_64410fd667e5d7461987e7fb74e2b850bdcacc5d9f9cf95e5394d6d19409559d",
+      "CLM_646ee03677450c3234bcf1ed80a10c9265946f0a2159b8a61c3239c2408afcb2",
+      "CLM_64f8f6d0122c38d6176278013e1cbec31ca45ff116884c9b331c67199d7dfa78",
+      "CLM_6561fa040b453651c38b790276d3b2de67639e1d99dee716062c573dce5b8564",
+      "CLM_67b35eb2b25824039fe2ac48050a600b6325320b2b147b98c8515083379c342f",
+      "CLM_6c4c674f63f6de1a974f7b4afeb34cba83a74505a28f40d656f5cfba7d29114e",
+      "CLM_6d4704b4006d5deb710689bc2f97b984eed02b3e3878f14819f3fce20bc5e7e6",
+      "CLM_6e4a1fb834079b01690ccbb8e0f3beeb5242d1cfd390514d2890cee9a04bafe3",
+      "CLM_759228bde2a26dfacc702a68470daffbbec0ca49e660bddb7c3951c69a155bda",
+      "CLM_79b8bba0e5a0ad67d1978d321c29d7fbc84338a2a24f5d99a8b068cecadcc673",
+      "CLM_7c55bff6ae8bc74202eccd102ac95b06e461afd502ae9c30995c85169b699e64",
+      "CLM_84db289f435d9b0c0a69c32262d27f0ee8fe81b61137431dbdbf0939f7d307f5",
+      "CLM_88789d2f38bebd277894303e7be49a610cd4f1156797105ba65c9c8020b91496",
+      "CLM_8ae7ec5a1d15490d63341be71f9fe63f60ebe9dab9bc821141f5fe78facbabef",
+      "CLM_90dfa3c70ef63f58fa4bf9ac91d99e4c67914ffd8cf69aab8d13fcde5a6c2419",
+      "CLM_92230cc7cb7ac2caa1bf36a6bd8f03267c57679e5c872b917089e0fea0cd9142",
+      "CLM_93f2731feb007f71309281d510cfbd286fb5acea04c169febce0e3ed8b196ba1",
+      "CLM_97c0e445e0b9e4ef85371d5907aa6226e831a0ab13fb0d80f5c8d8d29531d0f9",
+      "CLM_9806e9dca2762d6afdec58a9f38889ae06f2e27bcae7d780eb75a642d42b9adb",
+      "CLM_9ab2be3261eb1cfe2ac9f238bf2aba7a6c53b2ca9aa37de9b060c4d180de3416",
+      "CLM_9b6bd339fc144182b8fd01017e09f818deb4b5d4855f9e8e516db14715a7917c",
+      "CLM_9fa88a6c39db0f169c2196e287d43178804ea7fcfee7b7fbe531ad6ad53059b2",
+      "CLM_a71f583dae44c067283fca91026712c573da44f4ecce0a3ce2729202a668786b",
+      "CLM_ae9148425d0970c030bcfdd968017993cabfab30508e4a431cad4ce6b32fa438",
+      "CLM_b2e9cb54c2c7c86ff8a08268fc6e33ea04567f5e24295aec38a8fd3c50265678",
+      "CLM_b4f5e432d82e0fda5483d112b36ac9aea2c81fff9c3464d50327e0384c3b4746",
+      "CLM_bca57667bba17696f64620ae5a347018bca063caa10c46a8f9aeaa49f00465d0",
+      "CLM_bd5ad64a5ef2c8761bf7ae1508ca6e066ac341b49213d03b24dde32a590b1555",
+      "CLM_c27a7c3d071bdeb7e3c1b7fb9819eeb1d13a44a2ef893a1ee6a3cb8eb1be3623",
+      "CLM_cd12e677bd45630f518a6a9e0009ebf671262e69313d1abc7a45cc9aebcc85a5",
+      "CLM_cd541fa0837097fe750b45570737ca8a1476eda218cced7f1beefd1cad1ad890",
+      "CLM_ceb6cb615119b96074db0d8a2e64a95c5d598057f8281fb9a54c015150c69ece",
+      "CLM_d17042d533c9bf217060d1327c7888a64750ff6963030887b4167552044254de",
+      "CLM_d454b266f5610d6ed988396efdc3e1c64e19e448d9a44107a2cd2476aba32d74",
+      "CLM_d6ba1b39c003c661677dfe898064f9f3f40dc495b910050a6f210a71d1ba8615",
+      "CLM_d772863393e08e6703bd98093561badc71e02bb494416b2557cd5c0d94ba9cd3",
+      "CLM_dabad845e79209fb4f156cb7d8b812773e73b85f17e193817cb5f62f47c21f9a",
+      "CLM_dca5aa408e4edd6493875614f4e56f41d847247101a8e255c966318509203d94",
+      "CLM_e038f639e9efa8890a7b1ab73f843bd95a058496c4c606f6e672724a9cd3ad15",
+      "CLM_e47dadb212760a76eb44e90a891f2360e9a0ef6ceb55e3be108478c591d90b23",
+      "CLM_e7e54d01cc26963a12e1cf76f36c928ac630b78abf49f819d875fe44b066eb40",
+      "CLM_eaf154aa7ee2f2a6a1b7867a34dc5999e5f02439e3e2581136100798f49571db",
+      "CLM_f0720948513d5aaf50cfd49e6fb1961ea5103ae4a69064e32b27fff8b96b9383",
+      "CLM_f691bbaef583050d39bb71230954a096e8b6723ac1ba0ece357ea121abb53279",
+      "CLM_f841ab6cb0ee4f77195152cbd5037985d12694d89b6aef1b7ac42fe73d66d2ee",
+      "CLM_f84942bdae100ce9da461ac03b72a5caeff7ff241aa766d0de148b49e6fac9c0",
+      "CLM_fbfce102606663a6e2e0df31e73bdc064f7b5376b6143f8a3c814b85ad107458",
+      "CLM_fd8753d812a8f17abe4ef0e7e6d40565d48ad0f9ded913d572e9022ea787fd07"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "2.4.1.3-Q02",
+      "2.4.1.3-Q03",
+      "2.4.1.3-Q05",
+      "2.4.1.3-Q06",
+      "2.4.1.3-Q07",
+      "2.4.1.3-Q08",
+      "2.4.1.3-Q09",
+      "2.4.1.3-Q13",
+      "2.4.1.3-Q16",
+      "2.4.1.3-Q17",
+      "2.4.1.3-Q19",
+      "2.4.1.3-Q22",
+      "2.4.1.3-Q23",
+      "2.4.1.3-Q25",
+      "2.4.1.3-Q26",
+      "2.4.1.3-Q27",
+      "2.4.1.3-Q29",
+      "2.4.1.3-Q31",
+      "2.4.1.3-Q32",
+      "2.4.1.3-Q33",
+      "2.4.1.3-Q34",
+      "2.4.1.3-Q36",
+      "2.4.1.3-Q37",
+      "2.4.1.3-Q38",
+      "2.4.1.3-Q41",
+      "2.4.1.3-Q43",
+      "2.4.1.3-Q46",
+      "2.4.1.3-Q47",
+      "2.4.1.3-Q50"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "2.4.1.3-Q01",
+      "2.4.1.3-Q04",
+      "2.4.1.3-Q14",
+      "2.4.1.3-Q15",
+      "2.4.1.3-Q28",
+      "2.4.1.3-Q30",
+      "2.4.1.3-Q39",
+      "2.4.1.3-Q40",
+      "2.4.1.3-Q45",
+      "2.4.1.3-Q48",
+      "2.4.1.3-Q49"
+    ]
+  }
+}

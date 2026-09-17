@@ -1,0 +1,115 @@
+{
+  "final_primary_section": "6.1",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.6909,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "6.1",
+      "section_title": "Çalışmanın Amacı, Kapsamı, Yöntem ve Kullanılan Verileri",
+      "supporting_elements": [
+        "HEAD0016",
+        "FIG0005",
+        "PARA0050",
+        "HEAD0018",
+        "PARA0051",
+        "PARA0054",
+        "LIST0017",
+        "PARA0055",
+        "HEAD0021",
+        "PARA0056",
+        "PARA0123"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6.1",
+      "score": 0.6909,
+      "rule_score": 0.5,
+      "embedding_score": 0.7947,
+      "chunk_vote": 0.0412
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3569,
+      "rule_score": 0.0,
+      "embedding_score": 0.793,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3561,
+      "rule_score": 0.0,
+      "embedding_score": 0.7914,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3542,
+      "rule_score": 0.0,
+      "embedding_score": 0.7872,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3529,
+      "rule_score": 0.0,
+      "embedding_score": 0.7806,
+      "chunk_vote": 0.0082
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.3519,
+      "rule_score": 0.0,
+      "embedding_score": 0.7819,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.1",
+      "score": 0.3509,
+      "rule_score": 0.0,
+      "embedding_score": 0.7798,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.2",
+      "score": 0.3501,
+      "rule_score": 0.0,
+      "embedding_score": 0.7781,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4",
+      "score": 0.2343,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2551
+    },
+    {
+      "id": "1",
+      "score": 0.2253,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2099
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=6.1:0.6909 gap=0.334 disagreement=False ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

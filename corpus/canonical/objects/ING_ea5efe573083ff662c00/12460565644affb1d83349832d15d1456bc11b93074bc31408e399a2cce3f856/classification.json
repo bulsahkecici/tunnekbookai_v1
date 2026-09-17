@@ -1,0 +1,114 @@
+{
+  "final_primary_section": "2.4.1.3",
+  "final_secondary_sections": [
+    "2.4.1.2"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0081",
+        "PARA0097"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.2.1",
+      "score": 0.6407,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7668,
+      "chunk_vote": 0.0496
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.5777,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7652,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3491,
+      "rule_score": 0.0,
+      "embedding_score": 0.7758,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3454,
+      "rule_score": 0.0,
+      "embedding_score": 0.7676,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3443,
+      "rule_score": 0.0,
+      "embedding_score": 0.7651,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3442,
+      "rule_score": 0.0,
+      "embedding_score": 0.7649,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.2",
+      "score": 0.3441,
+      "rule_score": 0.0,
+      "embedding_score": 0.7647,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3436,
+      "rule_score": 0.0,
+      "embedding_score": 0.7636,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3056,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2875,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5207
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, otonom araçlar için tünel içi konumlandırma ve navigasyon sistemlerini ele aldığından, doğrudan 'Kullanım Aşaması Çalışmaları' (2.4.1.3) ile ilişkilidir. Tünel içi altyapı unsurlarının (yangın söndürme lambaları, şerit çizgileri) konumlandırma için kullanılması, tünelin işletme ve kullanım aşamasındaki fonksiyonlarına işaret eder. İnşaat aşaması (2.4.1.2) ikincil olarak, tünel tesisatlarını",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.4.2.1:0.6407 gap=0.063 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

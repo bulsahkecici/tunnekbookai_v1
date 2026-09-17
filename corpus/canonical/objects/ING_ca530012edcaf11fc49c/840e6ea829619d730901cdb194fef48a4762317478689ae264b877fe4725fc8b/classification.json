@@ -1,0 +1,194 @@
+{
+  "final_primary_section": "5.6",
+  "final_secondary_sections": [
+    "5.4.2",
+    "5.7"
+  ],
+  "final_section_confidence": 0.7565,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0003",
+        "HEAD0008",
+        "HEAD0009",
+        "LIST0030",
+        "PARA0010",
+        "LIST0031",
+        "PARA0012",
+        "LIST0034",
+        "PARA0018",
+        "LIST0035",
+        "PARA0020",
+        "LIST0036",
+        "PARA0022",
+        "LIST0038",
+        "PARA0026",
+        "LIST0039",
+        "PARA0028",
+        "LIST0048",
+        "PARA0046",
+        "LIST0049",
+        "PARA0048",
+        "LIST0050",
+        "PARA0050"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0003",
+        "HEAD0008",
+        "HEAD0009",
+        "LIST0031",
+        "PARA0012",
+        "LIST0034",
+        "PARA0018",
+        "LIST0036",
+        "PARA0022",
+        "LIST0038",
+        "PARA0026",
+        "LIST0039",
+        "PARA0028",
+        "LIST0048",
+        "PARA0046",
+        "LIST0049",
+        "PARA0048",
+        "LIST0054",
+        "PARA0058",
+        "LIST0055",
+        "PARA0060",
+        "LIST0056",
+        "PARA0062"
+      ]
+    },
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0003",
+        "HEAD0008",
+        "HEAD0009",
+        "LIST0031",
+        "PARA0012",
+        "LIST0034",
+        "PARA0018",
+        "LIST0036",
+        "PARA0022",
+        "LIST0038",
+        "PARA0026",
+        "LIST0039",
+        "PARA0028",
+        "LIST0048",
+        "PARA0046",
+        "LIST0049",
+        "PARA0048",
+        "LIST0054",
+        "PARA0058",
+        "LIST0055",
+        "PARA0060",
+        "LIST0056",
+        "PARA0062"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.6",
+      "score": 0.7565,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7813,
+      "chunk_vote": 0.2469
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.586,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7771,
+      "chunk_vote": 0.0151
+    },
+    {
+      "id": "5.7",
+      "score": 0.586,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7793,
+      "chunk_vote": 0.0101
+    },
+    {
+      "id": "2",
+      "score": 0.5164,
+      "rule_score": 0.2,
+      "embedding_score": 0.7786,
+      "chunk_vote": 0.0302
+    },
+    {
+      "id": "1.5",
+      "score": 0.4334,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5169
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3566,
+      "rule_score": 0.0,
+      "embedding_score": 0.7924,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3506,
+      "rule_score": 0.0,
+      "embedding_score": 0.779,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3498,
+      "rule_score": 0.0,
+      "embedding_score": 0.7773,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3494,
+      "rule_score": 0.0,
+      "embedding_score": 0.7764,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2074,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1206
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:14",
+    "embeddings:8",
+    "top=5.6:0.7565 gap=0.170 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,32 @@
+{
+  "answered": 32,
+  "audit_decision": "PASS",
+  "audit_id": "QCA_567e9ff1709d3d573b69c79170576d0a65b84f5ee729950aaea394ac5de4be3e",
+  "contract_version": "question-coverage-audit-v1",
+  "coverage": 0.64,
+  "hard_gate": false,
+  "identity": {
+    "batch_size": 10,
+    "draft_id": "DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca",
+    "evidence_review_id": "PSE_71c7993c2f3eee8678b11171cf121357cc9a27d5db3b33b44f8b923fb8d4c02e",
+    "evidence_review_sha256": "8161d6244e9a496a85744e2175e901c1682318d7bd7b4bda63ab58803d0916b0",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "model_id": "qwen/qwen3.8-27b",
+    "prompt_version": "qwen-question-coverage-v1",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "section_id": "1.1",
+    "software_version": "question-coverage-audit-v3"
+  },
+  "not_answered": 9,
+  "partial": 9,
+  "question_count": 50,
+  "results_path": "audit/book/coverage/QCA_567e9ff1709d3d573b69c79170576d0a65b84f5ee729950aaea394ac5de4be3e/results.jsonl",
+  "results_sha256": "5c5f8e1d70fada1b1b8e1c8800ff8173b687692e356878d98d45499699a8fc46",
+  "schema_version": "1.0",
+  "section_id": "1.1",
+  "stage": "QUESTION_COVERAGE_AUDIT",
+  "status": "COMPLETE",
+  "target_met": true,
+  "total": 50,
+  "updated_at": "2026-09-17T09:09:44+00:00"
+}

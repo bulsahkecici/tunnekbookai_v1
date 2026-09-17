@@ -1,0 +1,102 @@
+{
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [
+    "2.2.1",
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1",
+      "score": 0.6724,
+      "rule_score": 0.5,
+      "embedding_score": 0.772,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.5809,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7725,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.5797,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7698,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3521,
+      "rule_score": 0.0,
+      "embedding_score": 0.7824,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.7771,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3.5",
+      "score": 0.349,
+      "rule_score": 0.0,
+      "embedding_score": 0.7755,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3471,
+      "rule_score": 0.0,
+      "embedding_score": 0.7714,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.346,
+      "rule_score": 0.0,
+      "embedding_score": 0.7688,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, T8 Tüneli çıkış kesimi için RMR (Rock Mass Rating) sınıflandırması, kaya kalite derecesi (RQD), süreksizlik parametreleri ve uygulanan destek sistemleri (püskürtme beton, bulon, ıksa) gibi tünel yapı ve destek elemanlarına ait detaylı teknik verileri içermektedir. Bu nedenle birincil bölüm 'Tünel Yapı/Destek Elemanları' olarak belirlenmiştir. Kayaç zemin parametrelerine odaklanması nedeniyl",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:3",
+    "chunk_votes:0",
+    "embeddings:8",
+    "top=2.1:0.6724 gap=0.092 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

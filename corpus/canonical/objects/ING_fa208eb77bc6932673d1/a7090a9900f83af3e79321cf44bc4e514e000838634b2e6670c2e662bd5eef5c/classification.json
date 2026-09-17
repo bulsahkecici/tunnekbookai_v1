@@ -1,0 +1,137 @@
+{
+  "final_primary_section": "1.5.2",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.5.2",
+      "section_title": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "LIST0002",
+        "FIG0018",
+        "PARA0020",
+        "PARA0127",
+        "FIG0057",
+        "PARA0147",
+        "PARA0148",
+        "PARA0164",
+        "PARA0175",
+        "HEAD0039",
+        "PARA0179",
+        "PARA0180",
+        "PARA0181",
+        "PARA0182",
+        "PARA0186",
+        "PARA0187",
+        "PARA0190",
+        "HEAD0042",
+        "PARA0193",
+        "PARA0194",
+        "PARA0195",
+        "PARA0196",
+        "PARA0199",
+        "HEAD0043",
+        "HEAD0044"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9.1",
+      "score": 0.6782,
+      "rule_score": 0.5,
+      "embedding_score": 0.7538,
+      "chunk_vote": 0.0698
+    },
+    {
+      "id": "2",
+      "score": 0.6397,
+      "rule_score": 0.4286,
+      "embedding_score": 0.759,
+      "chunk_vote": 0.0621
+    },
+    {
+      "id": "5.6",
+      "score": 0.4137,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3182
+    },
+    {
+      "id": "1.5.2",
+      "score": 0.3466,
+      "rule_score": 0.0,
+      "embedding_score": 0.7703,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3421,
+      "rule_score": 0.0,
+      "embedding_score": 0.7603,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.8",
+      "score": 0.342,
+      "rule_score": 0.0,
+      "embedding_score": 0.7599,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3406,
+      "rule_score": 0.0,
+      "embedding_score": 0.7569,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3389,
+      "rule_score": 0.0,
+      "embedding_score": 0.7532,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3388,
+      "rule_score": 0.0,
+      "embedding_score": 0.7528,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3102,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0233
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, 6 Şubat depremleri sonrası Tünelcilik Derneği'nin yayımladığı başsağlığı mesajı ve deprem kaynaklı can kayıplarını içermektedir. Bu içerik, doğrudan bir mühendislik analizi veya literatür taraması değil, Türkiye'de gerçekleşen önemli bir afet/kaza olayına dair bilgilendirme niteliğindedir. Aday listesindeki 'Türkiye’de Gerçekleşen Önemli Tünel Kazaları' bölümü, deprem gibi afetlerin altyapı",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.9.1:0.6782 gap=0.038 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

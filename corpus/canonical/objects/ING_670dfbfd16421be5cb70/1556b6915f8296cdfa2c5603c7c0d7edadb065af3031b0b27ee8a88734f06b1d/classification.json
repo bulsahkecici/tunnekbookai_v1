@@ -1,0 +1,204 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2",
+    "5.9.1",
+    "2.2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0006",
+        "PARA0010",
+        "PARA0015",
+        "FIG0018",
+        "PARA0025",
+        "PARA0027",
+        "PARA0028",
+        "HEAD0016",
+        "PARA0031",
+        "PARA0032",
+        "PARA0033",
+        "PARA0035",
+        "PARA0038",
+        "PARA0040",
+        "PARA0041",
+        "PARA0042",
+        "PARA0043",
+        "FIG0026",
+        "PARA0044",
+        "PARA0045",
+        "PARA0046",
+        "HEAD0020",
+        "PARA0052",
+        "PARA0053",
+        "PARA0054"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0006",
+        "PARA0010",
+        "PARA0015",
+        "FIG0018",
+        "PARA0025",
+        "PARA0027",
+        "PARA0028",
+        "HEAD0016",
+        "PARA0031",
+        "PARA0032",
+        "PARA0033",
+        "PARA0035",
+        "PARA0038",
+        "PARA0040",
+        "PARA0041",
+        "PARA0042",
+        "PARA0043",
+        "FIG0026",
+        "PARA0044",
+        "PARA0045",
+        "PARA0046",
+        "HEAD0020",
+        "PARA0052",
+        "PARA0053",
+        "PARA0054"
+      ]
+    },
+    {
+      "section_id": "5.9.1",
+      "section_title": "Ulusal Literatür Taraması",
+      "supporting_elements": [
+        "LIST0001",
+        "PARA0006",
+        "PARA0009",
+        "PARA0037",
+        "PARA0038",
+        "FIG0026",
+        "PARA0044",
+        "HEAD0028",
+        "PARA0073",
+        "PARA0173",
+        "PARA0293",
+        "PARA0295",
+        "PARA0300",
+        "PARA0469",
+        "PARA0527",
+        "PARA0644",
+        "PARA0645",
+        "LIST0126",
+        "LIST0127",
+        "LIST0128",
+        "LIST0129",
+        "PARA0646",
+        "PARA0737",
+        "LIST0355",
+        "PARA1157"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0296",
+        "PARA0297"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2",
+      "score": 0.7377,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7659,
+      "chunk_vote": 0.1872
+    },
+    {
+      "id": "2",
+      "score": 0.7353,
+      "rule_score": 0.5,
+      "embedding_score": 0.7666,
+      "chunk_vote": 0.3265
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.7043,
+      "rule_score": 0.5556,
+      "embedding_score": 0.771,
+      "chunk_vote": 0.0087
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.6712,
+      "rule_score": 0.5,
+      "embedding_score": 0.7693,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3474,
+      "rule_score": 0.0,
+      "embedding_score": 0.7721,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.2",
+      "score": 0.3448,
+      "rule_score": 0.0,
+      "embedding_score": 0.7662,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3445,
+      "rule_score": 0.0,
+      "embedding_score": 0.7655,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.1",
+      "score": 0.3442,
+      "rule_score": 0.0,
+      "embedding_score": 0.7648,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.322,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2351
+    },
+    {
+      "id": "1.5",
+      "score": 0.3168,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.056
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, İstanbul Metrosu tünellerinde kullanılan 'Boru Şemsiye (Umbrella Arch)' yöntemine odaklanmaktadır. Bu yöntem, zemin tahkimatı ve kazı tekniği kapsamında değerlendirildiğinden, 'Tünel Yapım Yöntemleri' (2.2) başlığı en uygun birincil sınıflandırmadır. Üst başlık olan 'Tünel Ana Elemanları, Ana Özellikleri ve Yapım Teknikleri' (2) ise genel kategori olarak ikincil bölüm olarak listelenmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2:0.7377 gap=0.002 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

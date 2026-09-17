@@ -1,0 +1,648 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_8b08a7c61dd844d9e95fb80ec43dc219b17c6fa39a1497d897063bd5500800f1",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 22,
+    "SUPPORTED": 2,
+    "UNSUPPORTED": 26
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_1802c9d71aa7c9d991cf5906e1a57af42dc5db9ec26d0a8dc72da14fbc2d2d73",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_9e9371c592d6c301cf52da8dcbc379f29677b6e01817664f7e0b340c79ef1af8"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar nedir ve tünel mühendisliğindeki temel işlevi nedir?",
+      "question_id": "2.4.2.1-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_fb333ab272ef0ccac1abcb5a5f86d80d21e1f1df81593a9ed7a72220e5c3e883"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar hangi mühendislik problemini çözmeyi amaçlar?",
+      "question_id": "2.4.2.1-Q02",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fb333ab272ef0ccac1abcb5a5f86d80d21e1f1df81593a9ed7a72220e5c3e883",
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_df33c3667aa3df589fb1bbb5edf9141956825a7ec44b10019f85a63a825e7347"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar için temel tasarım girdileri nelerdir?",
+      "question_id": "2.4.2.1-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a118d06bfb52dcc7952630b33f61eb0ba8c973fc1bf9b1e211aca669583e5d4e",
+        "CLM_c96b9e368e0dd9f77ea9f29c62676e42f8a7bab99a542c028431bfecd3bc1304",
+        "CLM_b84400e6449c82a6b45976a6df693266e4b9f1709fe38aac419715e3be1755c3"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar için jeolojik girdiler nelerdir?",
+      "question_id": "2.4.2.1-Q04",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_9e9371c592d6c301cf52da8dcbc379f29677b6e01817664f7e0b340c79ef1af8",
+        "CLM_e23ff93afc832e2e97d1c11a5ac47b2e022afd43409d241b21a02a58a3b7e9ba"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar için geoteknik girdiler nelerdir?",
+      "question_id": "2.4.2.1-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_a118d06bfb52dcc7952630b33f61eb0ba8c973fc1bf9b1e211aca669583e5d4e"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar için hidrojeolojik girdiler nelerdir?",
+      "question_id": "2.4.2.1-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_7d59150f5f91ccb1f7e387859d4cf3c817a4cde33ee961b46263225ec52176d9",
+        "CLM_a118d06bfb52dcc7952630b33f61eb0ba8c973fc1bf9b1e211aca669583e5d4e"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar için topoğrafik ve geometrik girdiler nelerdir?",
+      "question_id": "2.4.2.1-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fce311317cfe3f79bcc0537503624995c854c46e2a8ffa779419c4c9eee3457d",
+        "CLM_88454e017305f771cf93bba9dbc0829674bfe78bfbc8525f48aee8ab5c65eb83"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar için trafik ve işletme girdileri nelerdir?",
+      "question_id": "2.4.2.1-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_7d59150f5f91ccb1f7e387859d4cf3c817a4cde33ee961b46263225ec52176d9"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar seçiminde tünel uzunluğu nasıl etkili olur?",
+      "question_id": "2.4.2.1-Q09",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.3,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar seçiminde tünel kesiti ve açıklığı nasıl etkili olur?",
+      "question_id": "2.4.2.1-Q10",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.25,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar seçiminde örtü kalınlığı nasıl etkili olur?",
+      "question_id": "2.4.2.1-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_651ceb951284f02b902e60ab50b6c7fe0ad439f46c255429319fb9e669c4ecfe",
+        "CLM_e85cb7f23f8fc407d96cf2b2a23832684da2fd1e6b91ac5d63a40037231cfb85",
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar seçiminde kaya kütlesi veya zemin özellikleri nasıl etkili olur?",
+      "question_id": "2.4.2.1-Q12",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_651ceb951284f02b902e60ab50b6c7fe0ad439f46c255429319fb9e669c4ecfe"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar seçiminde yeraltı suyu koşulları nasıl etkili olur?",
+      "question_id": "2.4.2.1-Q13",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fce311317cfe3f79bcc0537503624995c854c46e2a8ffa779419c4c9eee3457d",
+        "CLM_88454e017305f771cf93bba9dbc0829674bfe78bfbc8525f48aee8ab5c65eb83",
+        "CLM_7d59150f5f91ccb1f7e387859d4cf3c817a4cde33ee961b46263225ec52176d9"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar seçiminde çevresel ve yerleşim koşulları nasıl etkili olur?",
+      "question_id": "2.4.2.1-Q14",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_0517cf91a84ae00f0ff16309382e3bb23fd0c2409942ed73b6b6a5d9728d722a"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar seçiminde iş sağlığı ve güvenliği nasıl dikkate alınır?",
+      "question_id": "2.4.2.1-Q15",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.3,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar seçiminde yapım süresi nasıl dikkate alınır?",
+      "question_id": "2.4.2.1-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fce311317cfe3f79bcc0537503624995c854c46e2a8ffa779419c4c9eee3457d",
+        "CLM_88454e017305f771cf93bba9dbc0829674bfe78bfbc8525f48aee8ab5c65eb83",
+        "CLM_f2b0211d6595de61b16ab874389e612dc7adeaffd496656eef6b436a8e2d0567"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar seçiminde ilk yatırım maliyeti nasıl dikkate alınır?",
+      "question_id": "2.4.2.1-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_c8ca3915f5c9e009fe29713b7700b22f0374d8cf549f42f35812f62c1791e4de"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar seçiminde bakım ve işletme maliyetleri nasıl dikkate alınır?",
+      "question_id": "2.4.2.1-Q18",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c141fee3f5a28c1e5861e33a69d5cf58b1afd818476a8fa753db96fa783ff962",
+        "CLM_7dd65c0b99e9845bbef9d5535c7bcef13be748f9c52bc861cab7464aed7f718e",
+        "CLM_7d59150f5f91ccb1f7e387859d4cf3c817a4cde33ee961b46263225ec52176d9"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar için hangi alternatif teknik çözümler karşılaştırılabilir?",
+      "question_id": "2.4.2.1-Q19",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fce311317cfe3f79bcc0537503624995c854c46e2a8ffa779419c4c9eee3457d",
+        "CLM_7d59150f5f91ccb1f7e387859d4cf3c817a4cde33ee961b46263225ec52176d9",
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_c8b4884aad16647a7ce8ddb6b9422e51e9e629f542ecfc2941b2de3c9e80cdcd"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar alternatiflerinin avantajları ve dezavantajları nelerdir?",
+      "question_id": "2.4.2.1-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fce311317cfe3f79bcc0537503624995c854c46e2a8ffa779419c4c9eee3457d",
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_88454e017305f771cf93bba9dbc0829674bfe78bfbc8525f48aee8ab5c65eb83",
+        "CLM_fb333ab272ef0ccac1abcb5a5f86d80d21e1f1df81593a9ed7a72220e5c3e883"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar için karar verme sürecinde hangi teknik kriterlere ağırlık verilmelidir?",
+      "question_id": "2.4.2.1-Q21",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_eb8b4869c6da5939ebd583cbbf6c088ad91d818a7b98a3ebb9b200b02b3b54f8"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar tasarımında hangi hesap yöntemleri kullanılır?",
+      "question_id": "2.4.2.1-Q22",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.35,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar tasarımında hangi sayısal modelleme yöntemleri kullanılabilir?",
+      "question_id": "2.4.2.1-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f7e5ac20edaa878a312ac53112e8dba1490edb74ea7fa0ef576acac2b91ab2ba",
+        "CLM_7d59150f5f91ccb1f7e387859d4cf3c817a4cde33ee961b46263225ec52176d9"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar tasarımında hangi ampirik sınıflandırmalar kullanılabilir?",
+      "question_id": "2.4.2.1-Q24",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fce311317cfe3f79bcc0537503624995c854c46e2a8ffa779419c4c9eee3457d",
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_fb333ab272ef0ccac1abcb5a5f86d80d21e1f1df81593a9ed7a72220e5c3e883"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar tasarımında hangi güvenlik katsayıları veya performans kriterleri önemlidir?",
+      "question_id": "2.4.2.1-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar uygulamasında hangi başlıca malzemeler kullanılır?",
+      "question_id": "2.4.2.1-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar uygulamasında hangi başlıca makine ve ekipmanlar kullanılır?",
+      "question_id": "2.4.2.1-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_7d59150f5f91ccb1f7e387859d4cf3c817a4cde33ee961b46263225ec52176d9"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar uygulamasının tipik iş sırası nasıldır?",
+      "question_id": "2.4.2.1-Q28",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar uygulamasında kalite kontrol nasıl yapılır?",
+      "question_id": "2.4.2.1-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar uygulamasında saha ölçümleri ve enstrümantasyon nasıl kullanılır?",
+      "question_id": "2.4.2.1-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar uygulamasında deformasyonlar nasıl izlenir?",
+      "question_id": "2.4.2.1-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar uygulamasında su girişleri nasıl kontrol edilir?",
+      "question_id": "2.4.2.1-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar uygulamasında drenaj ve yalıtım nasıl ele alınır?",
+      "question_id": "2.4.2.1-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar uygulamasında beklenmeyen zemin koşullarına nasıl müdahale edilir?",
+      "question_id": "2.4.2.1-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar uygulamasında en sık görülen teknik riskler nelerdir?",
+      "question_id": "2.4.2.1-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar uygulamasında hata veya yetersizlik belirtileri nelerdir?",
+      "question_id": "2.4.2.1-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar uygulamasında düzeltici ve güçlendirici önlemler nelerdir?",
+      "question_id": "2.4.2.1-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar ile nihai kaplama arasındaki ilişki nasıl kurulmalıdır?",
+      "question_id": "2.4.2.1-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a118d06bfb52dcc7952630b33f61eb0ba8c973fc1bf9b1e211aca669583e5d4e",
+        "CLM_b03bb4da9a36fdeb995a36bf910b0763cf86b16e168e63ff1f45fdb52a57863d"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar ile portal tasarımı arasındaki ilişki nedir?",
+      "question_id": "2.4.2.1-Q39",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar ile havalandırma, aydınlatma ve diğer elektromekanik sistemler nasıl koordine edilir?",
+      "question_id": "2.4.2.1-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar için uygulanabilir ulusal standart ve şartnameler nelerdir?",
+      "question_id": "2.4.2.1-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar için uygulanabilir uluslararası standart ve kılavuzlar nelerdir?",
+      "question_id": "2.4.2.1-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar açısından Karayolları Genel Müdürlüğü uygulamalarında hangi esaslar öne çıkar?",
+      "question_id": "2.4.2.1-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar için yapım sırasında tutulması gereken kayıtlar nelerdir?",
+      "question_id": "2.4.2.1-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar için kabul ve devreye alma kriterleri nelerdir?",
+      "question_id": "2.4.2.1-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+        "CLM_243a438f87ad3b4aae821436a9f0ee5b6653435a8ac681f376c46d4dc8d22e75"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar kullanım aşamasında nasıl izlenmeli ve denetlenmelidir?",
+      "question_id": "2.4.2.1-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar yaşam döngüsü boyunca hangi bakım gereksinimlerini doğurur?",
+      "question_id": "2.4.2.1-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar sürdürülebilirlik ve çevresel etki açısından nasıl değerlendirilebilir?",
+      "question_id": "2.4.2.1-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar ile ilgili Türkiye’den hangi uygulama örnekleri verilebilir?",
+      "question_id": "2.4.2.1-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Güzergah Seçiminde Dikkat Edilecek Hususlar ile ilgili dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "2.4.2.1-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "2.4.2.1",
+  "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_0517cf91a84ae00f0ff16309382e3bb23fd0c2409942ed73b6b6a5d9728d722a",
+      "CLM_243a438f87ad3b4aae821436a9f0ee5b6653435a8ac681f376c46d4dc8d22e75",
+      "CLM_651ceb951284f02b902e60ab50b6c7fe0ad439f46c255429319fb9e669c4ecfe",
+      "CLM_757a8967000ce67586d5f910f3aebf81a2c1fee56ddb195dd85cbf312c72cd5b",
+      "CLM_7d59150f5f91ccb1f7e387859d4cf3c817a4cde33ee961b46263225ec52176d9",
+      "CLM_7dd65c0b99e9845bbef9d5535c7bcef13be748f9c52bc861cab7464aed7f718e",
+      "CLM_88454e017305f771cf93bba9dbc0829674bfe78bfbc8525f48aee8ab5c65eb83",
+      "CLM_9e9371c592d6c301cf52da8dcbc379f29677b6e01817664f7e0b340c79ef1af8",
+      "CLM_a118d06bfb52dcc7952630b33f61eb0ba8c973fc1bf9b1e211aca669583e5d4e",
+      "CLM_b03bb4da9a36fdeb995a36bf910b0763cf86b16e168e63ff1f45fdb52a57863d",
+      "CLM_b84400e6449c82a6b45976a6df693266e4b9f1709fe38aac419715e3be1755c3",
+      "CLM_c141fee3f5a28c1e5861e33a69d5cf58b1afd818476a8fa753db96fa783ff962",
+      "CLM_c8b4884aad16647a7ce8ddb6b9422e51e9e629f542ecfc2941b2de3c9e80cdcd",
+      "CLM_c8ca3915f5c9e009fe29713b7700b22f0374d8cf549f42f35812f62c1791e4de",
+      "CLM_c96b9e368e0dd9f77ea9f29c62676e42f8a7bab99a542c028431bfecd3bc1304",
+      "CLM_df33c3667aa3df589fb1bbb5edf9141956825a7ec44b10019f85a63a825e7347",
+      "CLM_e23ff93afc832e2e97d1c11a5ac47b2e022afd43409d241b21a02a58a3b7e9ba",
+      "CLM_e85cb7f23f8fc407d96cf2b2a23832684da2fd1e6b91ac5d63a40037231cfb85",
+      "CLM_eb8b4869c6da5939ebd583cbbf6c088ad91d818a7b98a3ebb9b200b02b3b54f8",
+      "CLM_f2b0211d6595de61b16ab874389e612dc7adeaffd496656eef6b436a8e2d0567",
+      "CLM_f7e5ac20edaa878a312ac53112e8dba1490edb74ea7fa0ef576acac2b91ab2ba",
+      "CLM_fb333ab272ef0ccac1abcb5a5f86d80d21e1f1df81593a9ed7a72220e5c3e883",
+      "CLM_fce311317cfe3f79bcc0537503624995c854c46e2a8ffa779419c4c9eee3457d"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "2.4.2.1-Q01",
+      "2.4.2.1-Q02",
+      "2.4.2.1-Q03",
+      "2.4.2.1-Q05",
+      "2.4.2.1-Q06",
+      "2.4.2.1-Q07",
+      "2.4.2.1-Q08",
+      "2.4.2.1-Q09",
+      "2.4.2.1-Q12",
+      "2.4.2.1-Q13",
+      "2.4.2.1-Q14",
+      "2.4.2.1-Q15",
+      "2.4.2.1-Q17",
+      "2.4.2.1-Q18",
+      "2.4.2.1-Q20",
+      "2.4.2.1-Q21",
+      "2.4.2.1-Q22",
+      "2.4.2.1-Q24",
+      "2.4.2.1-Q25",
+      "2.4.2.1-Q28",
+      "2.4.2.1-Q39",
+      "2.4.2.1-Q46"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "2.4.2.1-Q10",
+      "2.4.2.1-Q11",
+      "2.4.2.1-Q16",
+      "2.4.2.1-Q23",
+      "2.4.2.1-Q26",
+      "2.4.2.1-Q27",
+      "2.4.2.1-Q29",
+      "2.4.2.1-Q30",
+      "2.4.2.1-Q31",
+      "2.4.2.1-Q32",
+      "2.4.2.1-Q33",
+      "2.4.2.1-Q34",
+      "2.4.2.1-Q35",
+      "2.4.2.1-Q36",
+      "2.4.2.1-Q37",
+      "2.4.2.1-Q38",
+      "2.4.2.1-Q40",
+      "2.4.2.1-Q41",
+      "2.4.2.1-Q42",
+      "2.4.2.1-Q43",
+      "2.4.2.1-Q44",
+      "2.4.2.1-Q45",
+      "2.4.2.1-Q47",
+      "2.4.2.1-Q48",
+      "2.4.2.1-Q49",
+      "2.4.2.1-Q50"
+    ]
+  }
+}

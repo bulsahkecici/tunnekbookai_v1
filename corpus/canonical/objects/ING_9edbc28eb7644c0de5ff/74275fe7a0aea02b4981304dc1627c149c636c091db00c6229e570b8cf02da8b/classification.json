@@ -1,0 +1,110 @@
+{
+  "final_primary_section": "2.4.1",
+  "final_secondary_sections": [
+    "5.4"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2.3",
+      "score": 0.3533,
+      "rule_score": 0.0,
+      "embedding_score": 0.7852,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.1",
+      "score": 0.3521,
+      "rule_score": 0.0,
+      "embedding_score": 0.7825,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.2",
+      "score": 0.3516,
+      "rule_score": 0.0,
+      "embedding_score": 0.7813,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3.5",
+      "score": 0.3512,
+      "rule_score": 0.0,
+      "embedding_score": 0.7804,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3508,
+      "rule_score": 0.0,
+      "embedding_score": 0.7796,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3502,
+      "rule_score": 0.0,
+      "embedding_score": 0.7782,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.1",
+      "score": 0.3491,
+      "rule_score": 0.0,
+      "embedding_score": 0.7758,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.3",
+      "score": 0.3483,
+      "rule_score": 0.0,
+      "embedding_score": 0.774,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel güzergahının yeraltı su durumu, jeolojik yapılar (çatlaklar, senklinaller) ve suyun fiziksel/kimyasal özelliklerinin incelenmesi üzerine odaklanmaktadır. Bu içerik, inşaat öncesi ve sırasında yapılan jeolojik ve geoteknik incelemeler (2.4.1) ile doğrudan örtüşmektedir. Ayrıca suyun drenajı ve kontrolü, tünel işletme ve bakım süreçlerini (5.4) de etkilediğinden ikincil bölüm olarak değ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:4",
+    "chunk_votes:8",
+    "embeddings:8",
+    "top=2.2.3:0.3533 gap=0.001 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

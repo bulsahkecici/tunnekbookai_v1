@@ -1,0 +1,540 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_61b0670046b4e6926356d01ee75ce851f5c819df9e26208ca3ac7488783a0a80",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 0,
+    "SUPPORTED": 0,
+    "UNSUPPORTED": 50
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_b71435fe13aefe0a98fa943f7a740e34e0e96a68f1d8ed45b9fcc143cfb6543f",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için literatür taramasının temel amacı nedir?",
+      "question_id": "5.9-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması hangi araştırma sorularını desteklemek üzere yapılmıştır?",
+      "question_id": "5.9-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için hangi veri tabanları ve yayın platformları taranmalıdır?",
+      "question_id": "5.9-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için hangi Türkçe anahtar kelimeler kullanılmalıdır?",
+      "question_id": "5.9-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için hangi İngilizce anahtar kelimeler kullanılmalıdır?",
+      "question_id": "5.9-Q05",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için arama dizgileri ve Boolean operatörleri nasıl kurulmalıdır?",
+      "question_id": "5.9-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için taramanın başlangıç ve bitiş tarihleri nasıl belirlenmelidir?",
+      "question_id": "5.9-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için hangi yayın türleri dahil edilmelidir?",
+      "question_id": "5.9-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için hangi yayın türleri hariç tutulmalıdır?",
+      "question_id": "5.9-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için tezler ve akademik makaleler nasıl birlikte değerlendirilmelidir?",
+      "question_id": "5.9-Q10",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için kamu kurumlarının raporları ve teknik şartnameleri nasıl değerlendirilmelidir?",
+      "question_id": "5.9-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için konferans bildirileri ve sektör raporları nasıl değerlendirilmelidir?",
+      "question_id": "5.9-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için dahil etme kriterleri nelerdir?",
+      "question_id": "5.9-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için dışlama kriterleri nelerdir?",
+      "question_id": "5.9-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için mükerrer yayınlar nasıl ayıklanmalıdır?",
+      "question_id": "5.9-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için çalışmaların kalite değerlendirmesi nasıl yapılmalıdır?",
+      "question_id": "5.9-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için çalışmaların kanıt düzeyi nasıl sınıflandırılabilir?",
+      "question_id": "5.9-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde hangi ülkeler veya bölgeler daha fazla temsil edilmektedir?",
+      "question_id": "5.9-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde Türkiye’ye özgü çalışmaların sayısı ve niteliği nedir?",
+      "question_id": "5.9-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde karayolu tünellerine odaklanan çalışmalar nasıl ayrıştırılmalıdır?",
+      "question_id": "5.9-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde yapım maliyetine odaklanan çalışmalar nasıl ayrıştırılmalıdır?",
+      "question_id": "5.9-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde bakım ve işletme maliyetine odaklanan çalışmalar nasıl ayrıştırılmalıdır?",
+      "question_id": "5.9-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde enerji tüketimine odaklanan çalışmalar nasıl ayrıştırılmalıdır?",
+      "question_id": "5.9-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde güvenlik ve risk çalışmalarının maliyetle ilişkisi nasıl ele alınmıştır?",
+      "question_id": "5.9-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde hangi maliyet bileşenleri en sık incelenmiştir?",
+      "question_id": "5.9-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde hangi teknik değişkenler en sık kullanılmıştır?",
+      "question_id": "5.9-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde hangi veri kaynakları en sık kullanılmıştır?",
+      "question_id": "5.9-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde hangi istatistiksel yöntemler en sık kullanılmıştır?",
+      "question_id": "5.9-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde hangi regresyon veya tahmin yöntemleri kullanılmıştır?",
+      "question_id": "5.9-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde makine öğrenmesi kullanan çalışmalar hangi sonuçları vermiştir?",
+      "question_id": "5.9-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde yaşam döngüsü maliyeti kullanan çalışmalar hangi varsayımları yapmıştır?",
+      "question_id": "5.9-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde maliyetlerin farklı yıllar ve para birimleri arasında karşılaştırılması nasıl yapılmıştır?",
+      "question_id": "5.9-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde sonuçlar arasında hangi ortak eğilimler bulunmaktadır?",
+      "question_id": "5.9-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde sonuçlar arasında hangi çelişkiler bulunmaktadır?",
+      "question_id": "5.9-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde farklı sonuçların nedenleri nasıl açıklanabilir?",
+      "question_id": "5.9-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde hangi değişkenlerin maliyet üzerinde güçlü etkisi olduğu raporlanmıştır?",
+      "question_id": "5.9-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde hangi değişkenlerin etkisi konusunda kanıt yetersizdir?",
+      "question_id": "5.9-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde yöntemsel sınırlılıklar nelerdir?",
+      "question_id": "5.9-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde veri kalitesi sorunları nelerdir?",
+      "question_id": "5.9-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde örneklem büyüklüğü ve temsil sorunları nelerdir?",
+      "question_id": "5.9-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde hangi araştırma boşlukları açıkça görülmektedir?",
+      "question_id": "5.9-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması içinde Türkiye açısından hangi özel araştırma boşlukları bulunmaktadır?",
+      "question_id": "5.9-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması mevcut çalışmanın yöntem seçimini nasıl desteklemektedir?",
+      "question_id": "5.9-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması mevcut çalışmanın değişken seçimini nasıl desteklemektedir?",
+      "question_id": "5.9-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması mevcut çalışmanın sonuçlarının yorumlanması için hangi karşılaştırma noktalarını sağlamaktadır?",
+      "question_id": "5.9-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için çalışmalar tablo halinde hangi alanlarla özetlenmelidir?",
+      "question_id": "5.9-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için kaynakların güncelliği nasıl değerlendirilmelidir?",
+      "question_id": "5.9-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması için atıf zinciri ve temel referans eserler nasıl belirlenmelidir?",
+      "question_id": "5.9-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması sonunda literatürdeki ortak bulgular ile açık boşluklar net biçimde ayrıştırılıyor mu?",
+      "question_id": "5.9-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve Uluslararası Literatür Taraması sonunda mevcut çalışmanın literatüre özgün katkısı açıkça konumlandırılıyor mu?",
+      "question_id": "5.9-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "5.9",
+  "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+  "writer_constraints": {
+    "allowed_claim_ids": [],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "5.9-Q01",
+      "5.9-Q02",
+      "5.9-Q03",
+      "5.9-Q04",
+      "5.9-Q05",
+      "5.9-Q06",
+      "5.9-Q07",
+      "5.9-Q08",
+      "5.9-Q09",
+      "5.9-Q10",
+      "5.9-Q11",
+      "5.9-Q12",
+      "5.9-Q13",
+      "5.9-Q14",
+      "5.9-Q15",
+      "5.9-Q16",
+      "5.9-Q17",
+      "5.9-Q18",
+      "5.9-Q19",
+      "5.9-Q20",
+      "5.9-Q21",
+      "5.9-Q22",
+      "5.9-Q23",
+      "5.9-Q24",
+      "5.9-Q25",
+      "5.9-Q26",
+      "5.9-Q27",
+      "5.9-Q28",
+      "5.9-Q29",
+      "5.9-Q30",
+      "5.9-Q31",
+      "5.9-Q32",
+      "5.9-Q33",
+      "5.9-Q34",
+      "5.9-Q35",
+      "5.9-Q36",
+      "5.9-Q37",
+      "5.9-Q38",
+      "5.9-Q39",
+      "5.9-Q40",
+      "5.9-Q41",
+      "5.9-Q42",
+      "5.9-Q43",
+      "5.9-Q44",
+      "5.9-Q45",
+      "5.9-Q46",
+      "5.9-Q47",
+      "5.9-Q48",
+      "5.9-Q49",
+      "5.9-Q50"
+    ]
+  }
+}

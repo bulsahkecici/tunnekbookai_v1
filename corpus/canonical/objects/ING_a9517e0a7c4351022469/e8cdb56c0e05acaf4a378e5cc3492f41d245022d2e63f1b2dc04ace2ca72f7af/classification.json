@@ -1,0 +1,169 @@
+{
+  "final_primary_section": "2.4.1",
+  "final_secondary_sections": [
+    "2.4.1.1",
+    "2.4.1.2",
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": [
+        "LIST0079",
+        "LIST0157",
+        "LIST0197"
+      ]
+    },
+    {
+      "section_id": "2.4.1.1",
+      "section_title": "İnşaat Başlamadan Önce Yapılan Çalışmalar",
+      "supporting_elements": [
+        "LIST0153",
+        "LIST0161"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "LIST0003",
+        "PARA0096",
+        "PARA0101",
+        "PARA0108",
+        "PARA0109",
+        "LIST0068",
+        "LIST0069",
+        "PARA0111",
+        "LIST0103",
+        "LIST0105",
+        "LIST0107",
+        "LIST0194"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0009",
+        "LIST0001",
+        "PARA0012",
+        "PARA0020",
+        "PARA0025",
+        "FIG0001",
+        "PARA0029",
+        "PARA0034",
+        "PARA0036",
+        "LIST0005",
+        "PARA0038",
+        "PARA0039",
+        "PARA0040",
+        "PARA0059",
+        "PARA0061",
+        "LIST0026",
+        "LIST0027",
+        "LIST0028",
+        "LIST0037",
+        "HEAD0024",
+        "PARA0075",
+        "PARA0076",
+        "LIST0038",
+        "PARA0082"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.2.1",
+      "score": 0.7087,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7748,
+      "chunk_vote": 0.0222
+    },
+    {
+      "id": "2",
+      "score": 0.6805,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7771,
+      "chunk_vote": 0.2256
+    },
+    {
+      "id": "1.1",
+      "score": 0.4185,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2589
+    },
+    {
+      "id": "2.4",
+      "score": 0.3767,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1332
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3498,
+      "rule_score": 0.0,
+      "embedding_score": 0.7773,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.777,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3485,
+      "rule_score": 0.0,
+      "embedding_score": 0.7745,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3478,
+      "rule_score": 0.0,
+      "embedding_score": 0.773,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3476,
+      "rule_score": 0.0,
+      "embedding_score": 0.7725,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3469,
+      "rule_score": 0.0,
+      "embedding_score": 0.7708,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, yeraltı yapılarının jeoteknik tasarımında zemin karakterizasyonu, davranış belirleme ve inşaat önlemlerinin seçimi gibi süreçleri detaylandırmaktadır. Bu içerik, aday listesindeki 'Jeolojik ve Geoteknik İncelemeler' (2.4.1) bölümünün kapsamına en uygun düşmektedir. Ayrıca tasarım (Phase 1) ve inşaat (Phase 2) aşamalarındaki çalışmalar, sırasıyla 2.4.1.1 ve 2.4.1.2 alt bölümleriyle doğrudan ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.4.2.1:0.7087 gap=0.028 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

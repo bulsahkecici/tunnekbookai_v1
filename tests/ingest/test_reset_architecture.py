@@ -29,7 +29,9 @@ class ResetArchitectureTests(unittest.TestCase):
             ):
                 (root / relative).mkdir(parents=True, exist_ok=True)
             for name in (
+                "corpus_search_smoke.py",
                 "ingest_incoming.py", "probe_models.py", "promote_staging.py",
+                "retrieval_benchmark.py",
                 "reset_legacy_state.py",
             ):
                 (root / "scripts" / name).touch()

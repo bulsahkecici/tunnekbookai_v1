@@ -1,0 +1,141 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "2.2",
+    "2.1.2",
+    "5.9"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0017",
+        "PARA0019",
+        "PARA0020",
+        "PARA0021",
+        "PARA0025",
+        "PARA0056",
+        "LIST0004"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "PARA0019",
+        "PARA0020",
+        "PARA0025"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0029",
+        "LIST0019",
+        "LIST0025",
+        "PARA0059"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1",
+      "score": 0.6973,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7591,
+      "chunk_vote": 0.3499
+    },
+    {
+      "id": "5.9",
+      "score": 0.6723,
+      "rule_score": 0.5,
+      "embedding_score": 0.7555,
+      "chunk_vote": 0.0368
+    },
+    {
+      "id": "2",
+      "score": 0.5802,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7566,
+      "chunk_vote": 0.0322
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3446,
+      "rule_score": 0.0,
+      "embedding_score": 0.7555,
+      "chunk_vote": 0.023
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.3415,
+      "rule_score": 0.0,
+      "embedding_score": 0.7589,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3407,
+      "rule_score": 0.0,
+      "embedding_score": 0.7572,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.3395,
+      "rule_score": 0.0,
+      "embedding_score": 0.7544,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3384,
+      "rule_score": 0.0,
+      "embedding_score": 0.752,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.2778,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0138
+    },
+    {
+      "id": "5.6",
+      "score": 0.2689,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1658
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, su altı tünel inşaatında kullanılan 'donma-yalıtım boru çatısı' (freeze-sealing pipe-roof) yönteminin sayısal analizini içermektedir. Bu yöntem, tünel yapımında kullanılan bir destekleme ve su yalıtımı tekniğidir. Bu nedenle, tünelin ana elemanları ve yapım tekniklerini kapsayan Bölüm 2 (TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ) birincil sınıflandırmadır. Boru çatısı bir de",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:21",
+    "embeddings:8",
+    "top=1:0.6973 gap=0.025 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

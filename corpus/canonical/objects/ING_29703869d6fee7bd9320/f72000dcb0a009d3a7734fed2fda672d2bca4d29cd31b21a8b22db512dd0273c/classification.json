@@ -1,0 +1,133 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0001",
+        "PARA0004",
+        "PARA0005",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0010",
+        "PARA0027"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0001",
+        "PARA0004",
+        "PARA0005",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0010",
+        "PARA0027",
+        "PARA0040",
+        "PARA0041"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.6713,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7913,
+      "chunk_vote": 0.1475
+    },
+    {
+      "id": "2.2",
+      "score": 0.5893,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7764,
+      "chunk_vote": 0.0328
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3479,
+      "rule_score": 0.0,
+      "embedding_score": 0.7732,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3455,
+      "rule_score": 0.0,
+      "embedding_score": 0.7677,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3453,
+      "rule_score": 0.0,
+      "embedding_score": 0.7674,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.345,
+      "rule_score": 0.0,
+      "embedding_score": 0.7666,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3445,
+      "rule_score": 0.0,
+      "embedding_score": 0.7656,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3431,
+      "rule_score": 0.0,
+      "embedding_score": 0.7625,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.1887,
+      "rule_score": 0.2,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3934
+    },
+    {
+      "id": "7",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, NATM (Yeni Avusturya Tünel Yöntemi) ile kazılanan bir tünelin sismik analizini karşılaştırmalı olarak incelemektedir. NATM, tünel yapım yöntemlerinden biri olduğundan ve metin inşaat sırasındaki gerilme tarihçesi ile yapısal yanıtı odak noktası olarak ele aldığından, en uygun birincil bölüm 'Tünel Yapım Yöntemleri' (2.2) olarak belirlenmiştir. Genel kapsam gereği üst bölüm 'Tünel Ana Eleman",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:12",
+    "embeddings:8",
+    "top=2:0.6713 gap=0.082 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

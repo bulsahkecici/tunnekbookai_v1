@@ -1,0 +1,73 @@
+{
+  "document_id": "ING_29dc43677cbbd95c697d",
+  "format": "PDF",
+  "adapter": "pdf",
+  "normalized_markdown_path": "processing/ING_29dc43677cbbd95c697d/normalized/document.md",
+  "normalized_json_path": "processing/ING_29dc43677cbbd95c697d/normalized/document.json",
+  "normalized_text_path": "processing/ING_29dc43677cbbd95c697d/normalized/document.txt",
+  "pages": [
+    "PAGE0001",
+    "PAGE0002"
+  ],
+  "figures": [
+    "FIG0001",
+    "FIG0002"
+  ],
+  "tables": [
+    "TABLE0001",
+    "TABLE0002",
+    "TABLE0003"
+  ],
+  "charts": [],
+  "slides": [],
+  "sheets": [],
+  "ocr_items": [],
+  "text_elements": 14,
+  "warnings": [
+    "CHART_EXTRACTION_DISABLED_BY_CONFIG",
+    "NATIVE_TEXT_LAYER_THIN_DOCLING_OCR_RECOVERED"
+  ],
+  "errors": [],
+  "capabilities": {
+    "text": true,
+    "tables": true,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "engine": {
+    "docling_status": "SUCCESS",
+    "docling_versions": {
+      "docling": "2.124.0",
+      "docling-core": "2.93.0",
+      "docling-ibm-models": "4.0.1",
+      "docling-parse": "7.16.0"
+    },
+    "docling_options": {
+      "images_scale": 2.0,
+      "generate_page_images": true,
+      "generate_picture_images": true,
+      "do_table_structure": true,
+      "do_ocr": true,
+      "do_picture_classification": true,
+      "do_formula_enrichment": false,
+      "do_chart_extraction": false,
+      "enable_remote_services": false,
+      "allow_external_plugins": false,
+      "document_timeout": 1800.0,
+      "ocr_options": "RapidOcrOptions",
+      "do_picture_description": false
+    },
+    "docling_unsupported_options": [],
+    "chart_status": "DISABLED",
+    "native_text_layer_chars": 0,
+    "native_text_layer": "ABSENT_OCR_RECOVERED"
+  },
+  "page_count": 2,
+  "text_char_count": 396
+}

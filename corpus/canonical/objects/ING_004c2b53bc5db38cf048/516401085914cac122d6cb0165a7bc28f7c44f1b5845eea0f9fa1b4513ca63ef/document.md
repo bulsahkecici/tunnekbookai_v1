@@ -1,0 +1,210 @@
+## DOI ： 10.11779/CJGE2021S2018
+
+## 加固范围对软土浅埋超大直径盾构掘进地表沉降的影响
+
+黄昌富 1 ，龙  文 2 ，宋棋龙 3 ，李  栋 4 ，苏  栋 *3，5 ，陈湘生 3，5
+
+(1. 中铁十五局集团有限公司，上海 200070；2. 珠海大横琴城市新中心发展有限公司，广东 珠海 519030；3. 深圳大学土木与交通工程学院， 广东 深圳 518060；4. 珠海市规划设计研究院，广东 珠海 519000；5. 滨海城市韧性基础设施教育部重点实验室（深圳大学） ，广东 深圳 518060)
+
+摘  要 ：盾构法是软土地区地下隧道开挖的主要施工方法，但软土浅埋超大直径盾构掘进对地表沉降的影响有待进一 步研究。以珠海横琴杧洲隧道工程为背景，利用有限元软件开展了加固范围对软土浅埋超大直径盾构掘进地表沉降影 响的研究。结果表明：当 t =0.00 D 时，地表最大沉降约 50  mm ，当 t =0.20 D 时，地表最大沉降约 8  mm ，相比 t =0.00 D 最大沉降减小约 84% ，软土地层经加固处理后可有效减少隧道开挖对地表沉降的影响；同时着重分析了盾构隧道不同 施工阶段的横向地表沉降变化规律，其中盾构机通过监测横断面期间对地表扰动程度最大，累计沉降占比约 50%~60% 。 关键词 ：软土地层；加固范围；超大直径盾构；浅埋；地表沉降
+
+中图分类号： TU43 ； U455 文献标识码： A 文章编号： 1000 - 4548(2021)S2 - 0076 - 04 作者简介 ：黄昌富 (1971- ) ，男，正高级工程师，博士，主要从事隧道与地下工程、地下空间灾害治理等方面的研究。 E-mail ： hcf1971@126.com 。
+
+## Influence of reinforcement range on ground settlement of shallow-buried super-large-diameter shield tunneling in soft soils
+
+HUANG Chang-fu 1 , LONG Wen 2 , SONG Qi-long 3 , LI Dong 4 , SU Dong 3, 5 , CHEN Xiang-sheng 3, 5 (1. China Railway 15 Bureau Group CO., Ltd., Shanghai 201306, China; 2. Zhuhai Da Hengqin City New Center Development Co., Ltd., Zhuhai 519030, China; 3. College of Civil and Transportation Engineering, Shenzhen University, Shenzhen 518060, China; 4. Zhuhai Institute of Urban Planning &amp; Design, Zhuhai 519000, China; 5. Key Laboratory for Resilient Infrastructures of Coastal Cities (MOE),
+
+Shenzhen University, Shenzhen 518060, China)
+
+Abstract : The shield method is the main construction method for the excavation of underground tunnels in soft soil areas, but the impact of shallow-buried super-large-diameter shield tunneling in soft soils on ground settlement needs to be further studied. Based on the case of Weizhou Tunnel in Hengqin of Zhuhai the influence of the reinforcement range on the surface settlement of shallow-buried super-large diameter shield tunneling in soft soils is studied by using the finite element software. The results show that when t =0.00 D , the maximum surface settlement is about 50 mm, when t =0.20 D , the maximum surface settlement is about 8 mm, which is about 84% less than the maximum settlement at t =0.00 D %, and the soft soil layer can effectively reduce the  impact  of  tunnel  excavation  on  surface  settlement  after  reinforcement.  Meanwhile,  the  law  of  lateral  surface  settlement changes during the  different  construction stages  of  shield tunnels is  analyzed,  and the  shield tunneling  machine  disturbs the ground surface during the monitoring of the cross section. The degree is the largest, and the cumulative subsidence accounts for about 50% to 60%.
+
+Key words : soft soil layer; reinforcement range; super-large-diameter shield tunnel; shallow embedment; surface settlement
+
+## 0  引    言
+
+<!-- image -->
+
+Icon
+
+盾构法施工因具有高效、安全、对周围地层扰动 小等特性，已成为隧道开挖的主要施工方法。但由于 地质条件的多样性与施工工艺的不完善，盾构在地层 内部掘进时仍然会对周围环境产生扰动，使地表产生 不均匀变形，当变形量过大时可能会危及周围建筑和 地下管线等建（构）筑物的安全，引起一系列环境及 岩土工程问题。
+
+目前，隧道开挖引起的地表沉降，主要是通过 Peck 公式进行计算，或者其他针对施工环境变化提出 的沉降预测公式， 都是通过对 Peck 公式进行补充和修 正 [1] 。此外，也有部分学者基于实际工程，通过现场
+
+───────
+
+基金项目： 国家自然科学基金项目（ 51938008 ， 52090081 ） ；中铁十五 局科研项目（ CR15CG-ZH-HQMZSD-2021-00001(KJ) ）
+
+收稿日期：
+
+2021
+
+-
+
+08
+
+-
+
+18
+
+* 通信作者（ E-mail: sudong@szu.edu.cn
+
+2
+
+监测获取有关土体位移、应力、孔压等数据，分析和 预测隧道开挖对地层扰动影响 [2] 。盾构掘进引起的地 层变形是一个三维问题， 随着数值仿真技术不断发展， 有限元法模拟盾构隧道掘进过程得到越来越广泛的应 用，张海波等 [3] 提出一种综合考虑各种因素的盾构施 工三维有限元模拟方法，分析了隧道周围及地表土体 的位移和变形规律，王国才等 [4] 以杭州地铁 1 号线某 区间地铁隧道开挖为例，利用三维非线性有限元软件 对地铁盾构隧道开挖过程进行了数值模拟与分析。上 述研究主要分析盾构在原始地层掘进过程中对地层扰 动影响，对于经过加固处理后的软弱地层中盾构掘进 对地层扰动机理的研究较少。本文以珠海横琴忙洲隧 道工程为背景，采用三维有限元方法研究了加固范围 对软土浅埋超大直径盾构掘进地表沉降的影响。
+
+## 1  工程背景
+
+## 1.1  工程概况
+
+珠海横琴杧洲隧道工程位于横琴一体化区域，工 程建设有利于促进区域发展与融合，隧道穿越马骝洲 水道，道路等级为城市主干道，设计速度 60  km/h ， 路线全长约 3 km ，隧道段总长约 1.74 km ，分南北两 条隧道。隧道工程采用直径 15.01 m 的泥水平衡盾构， 隧道采用单层衬砌结构，管片外径为 14.5 m ，内径为 13.3 m ，厚度为 0.6 m ，环宽为 2 m 。
+
+## 1.2  工程地质
+
+本工程盾构机掘进线路主要穿越淤泥、黏土、粉 质黏土，局部穿越碎石质粉质黏土、全风化砂岩，隧 道掘进其中一部分地质剖面图见图 1 。
+
+图1 地质剖面图
+
+<!-- image -->
+
+Engineering drawing
+
+Fig. 1 Geological profile
+
+## 1.3  加固措施
+
+隧道工程地质条件差，且采用超大直径盾构浅埋 开挖，如果直接施工易造成开挖面失稳破坏，对周围 环境影响严重，因此需对软弱地层进行加固处理，保
+
+77
+
+证隧道施工及运营期间的安全。
+
+为了提高盾构隧道基底的承载力和侧向的抗推能 力，通过对盾构隧道基底及四周软弱地层进行环形加 固处理，研究加固范围对地表沉降的影响，地层加固 方式如图 2 所示 [5] ，其中 C 表示隧道埋深， t 表示土层 加固范围。
+
+图2 地层加固示意图
+
+<!-- image -->
+
+Engineering drawing
+
+Fig. 2 Schematic diagram of ground reinforcement
+
+## 2  三维数值分析
+
+## 2.1  数值模型
+
+本次三维数值分析采用 PLAXIS 3D 有限元软件。 由于结构对称性，模型取半结构建立，同时考虑到边 界尺寸效应，模型尺寸取值如下：长 9 D （开挖方向） ， 宽 3 D ，高 4 D ，其中 D 为开挖面直径，取 14.5 m 。
+
+模型边界条件为，底部完全约束，侧面约束法向 方向，顶部自由；地下水位位于地表，不考虑地下水 渗流影响，采用潜水位分析，三维计算模型如图 3 所 示。
+
+在盾构隧道掘进方向的第 8 环衬砌处的横断面的 地表布置了横向沉降测点，在隧道轴线上方的地表布 置了纵向沉降测点，其中有 3 个测点标记为 WY1 ， WY2 ， WY3 ，具体测点布置图如图 4 所示。
+
+图3 三维计算模型
+
+<!-- image -->
+
+Engineering drawing
+
+Fig. 3 Three-dimensional model
+
+<!-- image -->
+
+Engineering drawing
+
+图4 测点布置图
+
+Fig. 4 Layout of measuring points
+
+## 2.2  本构模型及参数
+
+天然土层采用小应变硬化本构模型 （简称 HSS 模 型） ， 相关参数来自隧道建设工程的地质勘探报告，在 此基础上参考了梁发云对上海软土 HSS 模型试验研 究 [6] ，各土层相同参数取值如下：剪胀角 Ψ =0.1 °， 破坏比 R f=0.9 ，参考应力 P ref =100 kPa ，加卸载泊松比 ur  =0.2 ， 0.7  = 10 - 4 ，其余不同土层的详细参数见表 1 。
+
+加固土层采用 Mohr-Coulomb 理想弹塑性本构模 型，参数选取基于现场实测数据，具体取值如下：天 然重度  =23  kN/m 3 ，弹性模量 E =300  MPa ，黏聚力 ϲ =50 kPa ，摩擦角 φ =30 °。
+
+表1 土层参数表
+
+Table 1 Soil parameters
+
+| 参数        | 单位    |   冲填土 |    淤泥 |   粉质黏土 |
+|-----------|-------|-------|-------|--------|
+| 厚度        | m     |     5 |    25 |     15 |
+| c         | kPa   |    14 |  13.1 |   30.3 |
+| φ         | ( ° ) |  15.3 |  13.3 |   15.1 |
+| K 0       | -     |  0.50 |  0.72 |   0.43 |
+| m         | -     |  0.80 |  0.80 |   0.75 |
+| E S1-2    | MPa   |  1.77 |  2.01 |   4.75 |
+| ref oed E | MPa   |  1.68 |  1.91 |   3.90 |
+| ref 50 E  | MPa   |  2.02 |  2.29 |   4.41 |
+| ref ur E  | MPa   | 14.14 | 16.03 |  22.05 |
+| ref 0 G   | MPa   |  35.4 |  40.1 |  55.13 |
+
+## 3  地表沉降对比分析
+
+## 3.1  纵向测点沉降
+
+实际工程施工时，盾构隧道基底及四周软弱地层 环向加固范围 t 约为 0.20 D ，因此本节主要讨论、比较 未加固（ t =0.00 D ） 与加固范围 t =0.20 D 对地表沉降影 响。图 5 是隧道中轴线上方地表纵向测点随盾构掘进 的沉降时程曲线，图中标记了盾构开挖面到达及盾尾 到达测点 WY1 的时刻。
+
+从图 5 可看出， t =0.00 D 与 t =0.20 D 两个工况下纵 向测点累计沉降变化相似，都呈现反' S '形态。在 开挖面到达之前，测点会累计一定沉降，累计占比约 25% ，主要是由于模拟过程中采取一次开挖 2 D 距离 后盾构才逐环掘进；在盾构通过时，测点累计沉降会 出现陡增现象，占比约 60% ，主要是由于盾构施工会 引起较大的地层损失；在盾尾通过以后，因隧道覆土 厚度低及开挖直径大等原因，出现管片上浮，地表微 小回弹现象。另外，对于 t =0.00 D 测点累计最大沉降约 50 mm ，而 t =0.20 D 时测点累计最大沉降仅 8 mm 左右， 反映加固措施有效减小盾构掘进对地表沉降影响。
+
+## 3.2  横向地表沉降
+
+图 6 是横断面地表沉降时程曲线，图中 L 指盾构 机距离横断面的水平距离，当 L ＜ 0 时，盾构机在横
+
+2021
+
+断面左侧，当 L ＞ 0 时，盾构机在横断面右侧。盾构 机掘进对横断面地表沉降的影响可以分为 4 个阶段： 第一阶段（ L ＜- 10 m ） ， 地表整体沉降； 第二阶段 （- 10 m ＜ L ＜ 0 m ） ， 盾构通过前的前期沉降； 第三阶段 （ 0 m ＜ L ＜ 14 m ） ，盾构通过时的施工沉降；第四阶段（ 14 m ＜ L ＜ 20 m ） ，盾构通过后的固结沉降。
+
+图5 纵向测点沉降时程曲线
+
+<!-- image -->
+
+Line chart
+
+Fig. 5 Time-history curves of settlement of longitudinal measuring points
+
+各阶段累计沉降量及占比见表 2 ，第一阶段占比 10% ～ 20% ，第二阶段占比 20% ～ 30% ，第三阶段占 比 55% ～ 65% ，第四阶段占比 0% ～ 5% ，其中，第二、 三阶段对地表沉降的影响最大，这主要是因为，第二 阶级盾构掘进对地层有一定扰动影响，使地表产生一 定沉降，第三阶段盾构通过及盾尾注浆时会引起地层 损失，使地表发生较大沉降。
+
+表2 地表累计沉降量及占比
+
+Table 2 Cumulative surface settlement and its proportion
+
+| 掘进阶段              |   第一阶段 |   第二阶段 |   第三阶段 |   第四阶段 |
+|-------------------|--------|--------|--------|--------|
+| t =0.00 D 沉 降 /mm |    4.9 |   12.3 |   29.9 |    1.2 |
+| 占比 /%             |   10.1 |   25.5 |   61.9 |    2.5 |
+| t =0.20 D 沉 降 /mm |    1.7 |    2.3 |    4.6 |    0.1 |
+| 占比 /%             |   19.5 |   26.4 |   52.9 |    1.2 |
+
+2
+
+<!-- image -->
+
+Line chart
+
+图6 横断面地表沉降时程曲线
+
+<!-- image -->
+
+Line chart
+
+Fig. 6 Time-history curves of cross-section surface settlement
+
+## 4  结    论
+
+本文通过有限元软件 PLAXIS  3D 分析了不同加 固范围对软土浅埋超大直径盾构掘进地表沉降的影 响，得到以下结论：
+
+- （ 1 ）当 t =0.00 D 时，地表最大沉降约 50 mm ，当 t =0.20 D 时，地表最大沉降约 8 mm ，相比 t =0.00 D 最 大沉降减少约 84% 。
+- （ 2 ）盾构机掘进过程中，纵向地表测点累计沉降 变化呈反' S '形态。在盾构通过测点期间，累计沉 降会出现陡增现象，占比约 60% ，在盾尾通过测点后， 因隧道覆土厚度低及开挖直径大等原因，出现管片上 浮，地表微小回弹现象。
+- （ 3 ）着重分析了地表整体沉降以及盾构机掘进 前、中、后共 4 个施工阶段横向地表沉降的变化规律， 其中盾构机通过监测横断面期间对地表沉降的影响最 大，累计沉降占比约 50% ～ 60% 。
+
+## 参考文献：
+
+- [1] 魏 纲 , 陈伟军 , 魏新江 . 双圆盾构隧道施工引起的地面 沉降预测 [J]. 岩土力学 , 2011, 32 (4): 991 - 996. (WEI Gang, CHEN  Wei-jun, WEI Xin-jiang. Prediction of surface settlement induced by double-o-tube shield tunnel excavation[J]. Rock and Soil Mechanics, 2011, 32 (4): 991 - 996. (in Chinese))
+- [2] 袁大军 , 尹 凡 , 王华伟 , 等 . 超大直径泥水盾构掘进对土 体的扰动研究 [J]. 岩石力学与工程学报 ,  2009, 28 (10): 2074 - 2080. (YUAN Da-jun, YIN Fan, WANG Hua-wei, et al.  Study  of  soil  disturbance  caused  by  super-large  diameter slurry shield tunnelling[J]. Chinese Journal of Rock Mechanics and Engineering, 2009, 28 (10):  2074 - 2080.  (in Chinese))
+- [3] 张海波 , 殷宗泽 , 朱俊高 . 地铁隧道盾构法施工过程中地 层变位的三维有限元模拟 [J]. 岩石力学与工程学报 ,  2005, 24 (5):  755 - 760.  (ZHANG  Hai-bo,  YIN  Zong-ze,  ZHU Jun-gao. 3d finite element simulation on deformation of soil mass  during  shield  tunneling[J].  Chinese  Journal  of  Rock Mechanics  and  Engineering,  2005, 24 (5):  755 - 760.  (in Chinese))
+- [4] 王国才 , 马达君 , 杨 阳 , 等 . 软土地层中地铁盾构施工引 起地表沉降的三维有限元分析 [J]. 岩土工程学报 ,  2011, 33 ( 增刊 1): 273 - 277. (WANG Guo-cai, MA Da-jun, YANG Yang, et al. 3-D finite element analysis of ground settlement caused by shield construction of metro tunnels in soft soils[J]. Chinese Journal of Geotechnical Engineering, 2011, 33 (S1): 273 - 277. (in Chinese))
+- [5]  TYAGI  A,  LIU  Y ,  PAN  Y  T,  et  al.  Equivalent  strength  for tunnels in cement-admixed soil columns with spatial variability  and  positioning  error[J].  Journal  of  Geotechnical and Geoenvironmental Engineering, 2020, 146 (10): 04020101.
+- [6] 梁发云 , 贾亚杰 , 丁钰津 , 等 . 上海地区软土 HSS 模型参数 的试验研究 [J]. 岩土工程学报 ,  2017, 39 (2):  269 - 278. (LIANG Fa-yun, JIA Ya-jie, DING Yu-jin, et al. Experimental study on parameters of HSS  model for soft soils in Shanghai[J].  Chinese  Journal  of  Geotechnical  Engineering, 2017, 39 (2): 269 - 278. (in Chinese))
+
+（编校：明经平）
+
+79

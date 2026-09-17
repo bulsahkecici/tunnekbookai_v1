@@ -1,0 +1,134 @@
+{
+  "final_primary_section": "2.4.2.1",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "HEAD0004",
+        "LIST0005",
+        "LIST0006",
+        "HEAD0006",
+        "LIST0012",
+        "LIST0013",
+        "LIST0014",
+        "LIST0015",
+        "HEAD0007",
+        "LIST0034"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "LIST0009",
+        "LIST0011",
+        "LIST0024",
+        "LIST0026",
+        "LIST0027",
+        "LIST0029",
+        "HEAD0010",
+        "LIST0030",
+        "LIST0031",
+        "LIST0032",
+        "HEAD0012"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.2.1",
+      "score": 0.7069,
+      "rule_score": 0.5,
+      "embedding_score": 0.7813,
+      "chunk_vote": 0.1518
+    },
+    {
+      "id": "2",
+      "score": 0.6195,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7787,
+      "chunk_vote": 0.1786
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3555,
+      "rule_score": 0.0,
+      "embedding_score": 0.7901,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.3",
+      "score": 0.3533,
+      "rule_score": 0.0,
+      "embedding_score": 0.785,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3524,
+      "rule_score": 0.0,
+      "embedding_score": 0.7831,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3519,
+      "rule_score": 0.0,
+      "embedding_score": 0.7819,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3501,
+      "rule_score": 0.0,
+      "embedding_score": 0.7779,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.3492,
+      "rule_score": 0.0,
+      "embedding_score": 0.7761,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.3089,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1696
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.2447,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0446
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Avusturya tünel sözleşme uygulamalarını, jeolojik belirsizliklerin yönetimini, risk paylaşımını ve kazı sınıfı matrisi gibi yapım tekniklerini detaylandırır. Bu içerik, tünel güzergahı seçimi ve boykesit belirlemede dikkate alınan hususlar (2.4.2.1) ile doğrudan ilişkili olup, aynı zamanda tünel ana elemanları ve yapım teknikleri (2) kapsamına girmektedir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:10",
+    "embeddings:8",
+    "top=2.4.2.1:0.7069 gap=0.087 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

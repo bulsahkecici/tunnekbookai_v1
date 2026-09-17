@@ -1,0 +1,103 @@
+{
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [
+    "2.1.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1",
+      "score": 0.35,
+      "rule_score": 0.0,
+      "embedding_score": 0.7778,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.7771,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3496,
+      "rule_score": 0.0,
+      "embedding_score": 0.7768,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3492,
+      "rule_score": 0.0,
+      "embedding_score": 0.7759,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3429,
+      "rule_score": 0.0,
+      "embedding_score": 0.7619,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.342,
+      "rule_score": 0.0,
+      "embedding_score": 0.7601,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3412,
+      "rule_score": 0.0,
+      "embedding_score": 0.7583,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3404,
+      "rule_score": 0.0,
+      "embedding_score": 0.7565,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, 'Taban kemersiz tip kesit' başlıklı bir teknik çizimdir ve tünelin yapısal bileşenlerini (iç kaplama betonu, koruyucu tabaka, drenaj boruları, granüler malzeme vb.) detaylı olarak göstermektedir. Bu içerik, tünelin fiziksel yapısını ve destek elemanlarını tanımlayan 2.1 (Tünel Yapı/Destek Elemanları) ve 2.1.2 (Tünel Destekleme Elemanları) bölümleriyle doğrudan örtüşmektedir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:1",
+    "chunk_votes:0",
+    "embeddings:8",
+    "top=2.1:0.35 gap=0.000 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

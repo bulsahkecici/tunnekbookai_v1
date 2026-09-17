@@ -1,0 +1,113 @@
+{
+  "document_id": "ING_de0401d9e1390887ac1b",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Prediction of Ground Surface Settlements Induced by EPB Shield Tunneling in Water-Rich Soft Strata",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Yi Yang",
+        "Xinggao Li",
+        "Dalong Jin",
+        "Xingqi Jiang",
+        "Hanyuan Li"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2022",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: doi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "collapse",
+        "monitoring",
+        "operations",
+        "safety"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "monitoring:monitoring; safety:safety; operations:operation; accident:accident; collapse:collapse; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://www.mdpi.com/2076-3417/12/9/4665/pdf?version=1651892873",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.3390/app12094665",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "confidentiality",
+      "value": "RESTRICTED",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "confidentiality marking: restricted"
+    }
+  ]
+}

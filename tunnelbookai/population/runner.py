@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import contextlib
+import fcntl
 import importlib
+import os
 import shutil
 import uuid
 from collections import Counter
@@ -14,8 +16,9 @@ import yaml
 
 from tunnelbookai.canonical.verifier import inspect_canonical
 from tunnelbookai.ingest.config import load_config
-from tunnelbookai.ingest.ids import document_id_for_file
+from tunnelbookai.ingest.ids import document_id_for_file, sha256_file
 from tunnelbookai.ingest.paths import PROJECT_ROOT
+from tunnelbookai.ingest.cli import STOPPED_EXIT_CODE
 from tunnelbookai.ingest.runner import run_selected
 from tunnelbookai.ingest.sources import manual_inbox, papercrawler_contract
 
@@ -73,6 +76,16 @@ def _canonical_projection(root: Path) -> dict[str, Any]:
     }
 
 
+def _verify_config_identities(root: Path, inventory: dict[str, Any]) -> None:
+    config_root = (root / "config").resolve()
+    for relative, expected in inventory.get("config_identities", {}).items():
+        path = (root / str(relative)).resolve()
+        if path.parent != config_root or path.is_symlink() or not path.is_file():
+            raise RuntimeError(f"planned config is missing or unsafe: {relative}")
+        if sha256_file(path) != expected:
+            raise RuntimeError(f"config changed since population inventory: {relative}")
+
+
 def _discover(root: Path, inventory: dict[str, Any], selected: set[str]):
     config = load_config()
     candidates = manual_inbox.discover(config, root / "incoming" / "manual" / "inbox")
@@ -109,9 +122,53 @@ def _discover(root: Path, inventory: dict[str, Any], selected: set[str]):
     return found
 
 
-def run_batch(
+@contextlib.contextmanager
+def _population_lock(root: Path):
+    """Enforce the population contract's single-writer boundary across CLI and UI."""
+    lock_path = root / "audit" / "corpus_population" / "population.lock"
+    lock_path.parent.mkdir(parents=True, exist_ok=True)
+    with lock_path.open("a+", encoding="utf-8") as handle:
+        try:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError as exc:
+            raise RuntimeError("another corpus population worker is already running") from exc
+        handle.seek(0)
+        handle.truncate()
+        handle.write(str(os.getpid()))
+        handle.flush()
+        try:
+            yield
+        finally:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
+
+
+def _close_interrupted_attempts(root: Path, run: dict[str, Any]) -> None:
+    """Close orphaned RUNNING attempts before a locked resume begins."""
+    for attempt_id in run.get("attempt_ids", []):
+        path = root / "audit" / "corpus_population" / "attempts" / f"{attempt_id}.json"
+        if not path.is_file():
+            continue
+        attempt = load_object(path)
+        if attempt.get("status") != "RUNNING":
+            continue
+        attempt["status"] = "INTERRUPTED"
+        attempt["finished_at"] = now()
+        attempt["error"] = "worker ended before final attempt checkpoint; resumed safely"
+        attempt["summary"] = {
+            "documents_checkpointed": len(attempt.get("documents") or {}),
+            "dispositions": dict(sorted(Counter(
+                str(row.get("disposition") or "UNKNOWN")
+                for row in (attempt.get("documents") or {}).values()
+            ).items())),
+        }
+        atomic_json(path, attempt, readonly=True)
+
+
+def _run_batch_unlocked(
     batch_path: Path | str, project_root: Path | str | None = None, *,
     resume: bool = True, force_reprocess: bool = False,
+    no_ocr: bool = False, no_vision: bool = False, no_arbiter: bool = False,
+    stop_requested: Any = None, progress_callback: Any = None,
 ) -> dict[str, Any]:
     root = Path(project_root or PROJECT_ROOT).resolve()
     path = Path(batch_path)
@@ -134,9 +191,12 @@ def run_batch(
     from .batching import _verify_inventory, _verify_run
     _verify_inventory(inventory)
     _verify_run(run)
+    _verify_config_identities(root, inventory)
     before = _canonical_projection(root)
     if before != run["canonical_before"]:
         raise RuntimeError("canonical state changed since population planning")
+
+    _close_interrupted_attempts(root, run)
 
     config = yaml.safe_load((root / "config" / "population.yaml").read_text(encoding="utf-8"))
     policy = config["batching"]
@@ -147,7 +207,19 @@ def run_batch(
     if free < required_free:
         raise RuntimeError(f"insufficient free space: required={required_free} available={free}")
 
-    selected = {str(row["document_id"]) for row in batch["documents"]}
+    # A failed batch is retried from its durable per-document checkpoints.  Ingest's
+    # internal ledger deliberately does not consider quality-failed STAGED documents
+    # embedding-ready, but re-extracting those large documents on every retry is both
+    # wasteful and wrong: they already belong in manual review.  Only genuinely
+    # unresolved outcomes are selected again.
+    retry_dispositions = {"PENDING", "RECOVERY_REQUIRED", "FAILED"}
+    selected = {
+        str(row["document_id"])
+        for row in batch["documents"]
+        if str((run.get("documents", {}).get(str(row["document_id"])) or {}).get(
+            "disposition"
+        ) or "PENDING") in retry_dispositions
+    }
     with _ingest_root(root):
         inputs = _discover(root, inventory, selected)
     run["state"] = PopulationState.INGESTING.value
@@ -175,17 +247,31 @@ def run_batch(
         document_id = str(outcome["document_id"])
         run["documents"][document_id] = outcome
         attempt["documents"][document_id] = outcome
+        attempt.pop("current_document_id", None)
         run["updated_at"] = now()
         atomic_json(run_path, run)
         atomic_json(attempt_path, attempt)
+
+    def progress(event: dict[str, Any]) -> None:
+        document_id = str(event.get("document_id") or "")
+        if document_id:
+            attempt["current_document_id"] = document_id
+            atomic_json(attempt_path, attempt)
+        if progress_callback:
+            progress_callback(event)
 
     try:
         with _ingest_root(root):
             exit_code = run_selected(
                 inputs,
                 outcome_callback=checkpoint,
+                progress_callback=progress,
+                should_stop=stop_requested,
                 resume=resume,
                 force_reprocess=force_reprocess,
+                no_ocr=no_ocr,
+                no_vision=no_vision,
+                no_arbiter=no_arbiter,
             )
     except BaseException as exc:
         attempt["status"] = "FAILED"
@@ -231,9 +317,39 @@ def run_batch(
         atomic_json(attempt_path, attempt, readonly=True)
         raise RuntimeError("canonical identity changed during ingest batch")
 
+    if exit_code == STOPPED_EXIT_CODE:
+        run["state"] = PopulationState.PAUSED.value
+        run["updated_at"] = now()
+        atomic_json(run_path, run)
+        attempt["status"] = "PAUSED"
+        attempt["exit_code"] = exit_code
+        attempt["canonical_after"] = after
+        attempt["finished_at"] = now()
+        attempt.pop("current_document_id", None)
+        attempt["summary"] = {
+            "documents_checkpointed": len(attempt["documents"]),
+            "dispositions": dict(sorted(Counter(
+                str(row.get("disposition") or "UNKNOWN")
+                for row in attempt["documents"].values()
+            ).items())),
+        }
+        atomic_json(attempt_path, attempt, readonly=True)
+        return {
+            "status": "PAUSED",
+            "exit_code": exit_code,
+            "batch_id": batch["batch_id"],
+            "run_id": run_id,
+            "attempt_id": attempt_id,
+            "canonical_preserved": True,
+            "run_state": run["state"],
+        }
+
     key = "completed_batches" if exit_code == 0 else "failed_batches"
     if batch["batch_id"] not in run[key]:
         run[key].append(batch["batch_id"])
+    opposite = "failed_batches" if exit_code == 0 else "completed_batches"
+    if batch["batch_id"] in run[opposite]:
+        run[opposite].remove(batch["batch_id"])
     unresolved = [
         row for row in run["documents"].values()
         if row.get("disposition") in {"PENDING", "RECOVERY_REQUIRED", "FAILED", "NEEDS_REVIEW"}
@@ -266,6 +382,27 @@ def run_batch(
         "canonical_preserved": True,
         "run_state": run["state"],
     }
+
+
+def run_batch(
+    batch_path: Path | str, project_root: Path | str | None = None, *,
+    resume: bool = True, force_reprocess: bool = False,
+    no_ocr: bool = False, no_vision: bool = False, no_arbiter: bool = False,
+    stop_requested: Any = None, progress_callback: Any = None,
+) -> dict[str, Any]:
+    root = Path(project_root or PROJECT_ROOT).resolve()
+    with _population_lock(root):
+        return _run_batch_unlocked(
+            batch_path,
+            root,
+            resume=resume,
+            force_reprocess=force_reprocess,
+            no_ocr=no_ocr,
+            no_vision=no_vision,
+            no_arbiter=no_arbiter,
+            stop_requested=stop_requested,
+            progress_callback=progress_callback,
+        )
 
 
 __all__ = ["run_batch"]

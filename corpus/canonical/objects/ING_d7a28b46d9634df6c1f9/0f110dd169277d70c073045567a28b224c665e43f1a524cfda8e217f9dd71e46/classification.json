@@ -1,0 +1,147 @@
+{
+  "final_primary_section": "2.1.2",
+  "final_secondary_sections": [
+    "2",
+    "5.9.1"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "HEAD0006",
+        "LIST0015",
+        "LIST0038"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0006",
+        "LIST0013",
+        "LIST0014",
+        "LIST0015",
+        "LIST0019",
+        "LIST0021",
+        "LIST0032",
+        "LIST0038",
+        "LIST0041",
+        "LIST0043",
+        "LIST0047",
+        "LIST0054",
+        "LIST0055",
+        "LIST0057",
+        "LIST0059"
+      ]
+    },
+    {
+      "section_id": "5.9.1",
+      "section_title": "Ulusal Literatür Taraması",
+      "supporting_elements": [
+        "LIST0012",
+        "LIST0013",
+        "LIST0018",
+        "LIST0019",
+        "LIST0028",
+        "LIST0040",
+        "LIST0041",
+        "LIST0047",
+        "PARA0003"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7997,
+      "rule_score": 0.6364,
+      "embedding_score": 0.7858,
+      "chunk_vote": 0.2302
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.7078,
+      "rule_score": 0.5,
+      "embedding_score": 0.8004,
+      "chunk_vote": 0.1131
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.6406,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7885,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3617,
+      "rule_score": 0.0,
+      "embedding_score": 0.8038,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3578,
+      "rule_score": 0.0,
+      "embedding_score": 0.7951,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3559,
+      "rule_score": 0.0,
+      "embedding_score": 0.7908,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3548,
+      "rule_score": 0.0,
+      "embedding_score": 0.7884,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3536,
+      "rule_score": 0.0,
+      "embedding_score": 0.7857,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.2831,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0404
+    },
+    {
+      "id": "2.2",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, zayıf ve sıkışan kaya kütlesinde açılan bir tünel için 'Rijit Destek Sistemi' çözümüne odaklanmaktadır. Bu içerik, doğrudan 'Tünel Destekleme Elemanları' (2.1.2) başlığıyla örtüşmektedir. Genel 'Tünel Ana Elemanları' (2) bölümü ise üst düzey kapsayıcı kategori olarak ikincil bölüm olarak listelenmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:8",
+    "embeddings:8",
+    "top=2:0.7997 gap=0.092 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

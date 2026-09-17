@@ -1,0 +1,113 @@
+{
+  "document_id": "ING_403b8511e3993602b1b6",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Application of RMR89–NATM Rock Mass Classification for Tunnel Design: A Case Study From Bilaspur, Himachal Pradesh, India",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Baalamurugan Arumugam",
+        "Selvam Sekar",
+        "Muthukumar Perumal",
+        "Jesuraja Kamaraj",
+        "Muralitharan Jothimani"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2026",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "case_study",
+        "collapse",
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "natm",
+        "rock_bolt",
+        "rock_mechanics",
+        "safety",
+        "shotcrete",
+        "steel_rib",
+        "support_systems",
+        "water"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; geotechnical_investigation:geotechnical; geology:geolog; rock_mechanics:rock mass; excavation:excavat; shotcrete:shotcrete; steel_rib:steel rib; rock_bolt:rock bolt; support_systems:support system; water:groundwater; safety:safety; collapse:collapse"
+    },
+    {
+      "field": "source_url",
+      "value": "https://doi.org/10.1002/eng2.70706",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1002/eng2.70706",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

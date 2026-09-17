@@ -1,0 +1,117 @@
+{
+  "final_primary_section": "2.4.1.2",
+  "final_secondary_sections": [
+    "1"
+  ],
+  "final_section_confidence": 0.75,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0003",
+        "LIST0001"
+      ]
+    },
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "HEAD0003",
+        "PARA0008"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1",
+      "score": 0.6596,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7856,
+      "chunk_vote": 0.3636
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.61,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7966,
+      "chunk_vote": 0.0909
+    },
+    {
+      "id": "6.1",
+      "score": 0.5297,
+      "rule_score": 0.2,
+      "embedding_score": 0.7947,
+      "chunk_vote": 0.0606
+    },
+    {
+      "id": "5.3",
+      "score": 0.35,
+      "rule_score": 0.0,
+      "embedding_score": 0.7777,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.7771,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3488,
+      "rule_score": 0.0,
+      "embedding_score": 0.7751,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3487,
+      "rule_score": 0.0,
+      "embedding_score": 0.7748,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.2",
+      "score": 0.3476,
+      "rule_score": 0.0,
+      "embedding_score": 0.7725,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.2439,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.303
+    },
+    {
+      "id": "1.1",
+      "score": 0.2197,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1818
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel inşası sırasında oluşan yüzey oturmalarını (surface subsidence) ve inşaat sürecindeki izleme/analiz yöntemlerini (PLAXIS, Sentinel-1) ele aldığı için 'İnşaat Esnasındaki Çalışmalar' bölümüne en uygun düşmektedir. Giriş bölümü ise genel bağlam olarak ikincil kabul edilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:6",
+    "chunk_votes:3",
+    "embeddings:8",
+    "top=1:0.6596 gap=0.050 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

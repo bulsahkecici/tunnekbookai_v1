@@ -1,0 +1,88 @@
+{
+  "document_id": "ING_88968c23fedbc36eebbc",
+  "fields": [
+    {
+      "field": "title",
+      "value": "astra_19004_risikoanalysefuertunneldernationalstrassen2014v101.pdf",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2014",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "Dosya yolu/başlıkta açık yıl: 2014"
+    },
+    {
+      "field": "revision",
+      "value": "1.10",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "revision literal: V1.10"
+    },
+    {
+      "field": "language",
+      "value": "de",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "portal",
+        "standards"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "portal:portal; standards:standard; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://www.astra.admin.ch/dam/de/sd-web/dix-NfDt-rWv/astra_19004_risikoanalysefuertunneldernationalstrassen2014v101.pdf",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

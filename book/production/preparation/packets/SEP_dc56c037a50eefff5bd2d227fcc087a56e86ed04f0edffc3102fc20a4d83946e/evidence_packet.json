@@ -1,0 +1,775 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_63b0e7168b68da6814f1ff0d1620ff46707e891622e76e0cfaaa9c8b1205c6aa",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 21,
+    "SUPPORTED": 17,
+    "UNSUPPORTED": 12
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_dc56c037a50eefff5bd2d227fcc087a56e86ed04f0edffc3102fc20a4d83946e",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_9364a3249b7b7c303eb76b9bf52ae5a407421037c9dd129a9aac500ba8674c0e",
+        "CLM_1652b7728ac120730284865e6559a6163545b38b840563f5e5099d8df717a5dd",
+        "CLM_3ee99d241e4c61124c9bf1b3fbd555a04879486ad6bd6e34ad25ebfba9f6b05c"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar nedir ve tünel mühendisliğindeki temel işlevi nedir?",
+      "question_id": "2.4.1.2-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar hangi mühendislik problemini çözmeyi amaçlar?",
+      "question_id": "2.4.1.2-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1e3888e806c73bfec551465ed1928583380b7ab99d108f10298f8b1e74162462",
+        "CLM_09a3958d42d125189a890267f6e805209d63c28d5ad2fd43c204efe7a44319eb"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar için temel tasarım girdileri nelerdir?",
+      "question_id": "2.4.1.2-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ebb73a7ab49fc0716795c3c37b4a8e57750ceacb24499977910c48e526e76e1f",
+        "CLM_c57b14a94b5105fd8e7fddd1882daa091a50ac1843d61d8e4dcc9cc93abfb81f",
+        "CLM_fd7433563a544b17235d41e893b82a69b799fcfef7f3b39c13d0df21868ffe6a"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar için jeolojik girdiler nelerdir?",
+      "question_id": "2.4.1.2-Q04",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7cb5a9f35873161908f0e3fd7bac497c324a2109ce5a68b20b1d375a497e37c6",
+        "CLM_0fda72451d26c59ec7b1ec7044423933179aad0240abf70d7e3856c99e21808e",
+        "CLM_97fbf4dd3d33213f9ba3ad6c511ea2f86b6e6008c14cd7f3fcca027016c16821",
+        "CLM_264bf29a350783f9092e652ed0052fae3809478a3e99ca525da4fba18ce1200c"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar için geoteknik girdiler nelerdir?",
+      "question_id": "2.4.1.2-Q05",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_70f425103802ed7a93d5a9bfa1079f2b6db5f9e421fcb13b1a8b44e953745a4e",
+        "CLM_c57b14a94b5105fd8e7fddd1882daa091a50ac1843d61d8e4dcc9cc93abfb81f"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar için hidrojeolojik girdiler nelerdir?",
+      "question_id": "2.4.1.2-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar için topoğrafik ve geometrik girdiler nelerdir?",
+      "question_id": "2.4.1.2-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_060f79d63067b763dc7c9c96efccc5c5a24387f85db60951a29dccfa671a2b61",
+        "CLM_e3a20747821e108391560a7a92ee5f4d316d80aaf928b1d1b91245e403cc51a5",
+        "CLM_286080fda2e39712ff3bd812abf8a5fce5973935f3a8f0663b2aec94eb17d0b3"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar için trafik ve işletme girdileri nelerdir?",
+      "question_id": "2.4.1.2-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar seçiminde tünel uzunluğu nasıl etkili olur?",
+      "question_id": "2.4.1.2-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fbbf7fd2b54d100aa1162ee845e536f5300cf8c8a79e52fc2eda0dd509e20b0b",
+        "CLM_4732f00f93fdc81440b3adfaf66f52dbd1a1f9fc143f87fb5cec7dea828a78fb",
+        "CLM_eb298664b5b5d8a6a8ad6e930cc8b6516ed581338c7c9c7f0799f496ac10fa67"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar seçiminde tünel kesiti ve açıklığı nasıl etkili olur?",
+      "question_id": "2.4.1.2-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_60b1b8bcc9aacfab932b04498cb49396fa1bbc212531fbbaa546e82a1a3416a3",
+        "CLM_b041da9a8a91e5f3bc30d9c5a259d585f378727a44f67e73fa0d46e9ed55f36f"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar seçiminde örtü kalınlığı nasıl etkili olur?",
+      "question_id": "2.4.1.2-Q11",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bc4a90eefb522726edb233fd635a4276221cd8fc96301e4b6d56fea5cf841a67",
+        "CLM_5e26b17d909d9da907072e2b8caab182a8720c89d29c7af26fc477bce32d7c72",
+        "CLM_383a8e56d28b6c89a134eb98cbf2435c437c3db06796b843a3e23df6f3e03e9b"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar seçiminde kaya kütlesi veya zemin özellikleri nasıl etkili olur?",
+      "question_id": "2.4.1.2-Q12",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar seçiminde yeraltı suyu koşulları nasıl etkili olur?",
+      "question_id": "2.4.1.2-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5f4c2400ea03652aa751455ec994f8e08f0bff76d0650965619d4a7457cf0679",
+        "CLM_94dc75e2fdcda2bd0d5c9bbe6c9b07f708d93445e8ac08518a279c75b1097f0f",
+        "CLM_d436ab2321e9ba11a8560af1b8c466dfe53f3d206f02fb4ee44d3fdac58f3b8c"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar seçiminde çevresel ve yerleşim koşulları nasıl etkili olur?",
+      "question_id": "2.4.1.2-Q14",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ee8c2f122b3cb1c49cc00c0cb2d56c401c70f836f73a1cf6f2e19db865f7bf20",
+        "CLM_814aaf4d011a98dd29da2249e2328d1e705663e914cf0893af9d6e98f1960e25"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar seçiminde iş sağlığı ve güvenliği nasıl dikkate alınır?",
+      "question_id": "2.4.1.2-Q15",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7e31d7cc98f114cfddd1db9a85659b871fb4eaee45a361105ede96b3c611d70d",
+        "CLM_968fc2308aa4ac31ea86f4f90f231e814fc771268a0c1bef06c7aa8d1a85dc7a",
+        "CLM_aaadac6c283e54231927134bb26ec3d2b2a758862fe61fde85d829a90c875778",
+        "CLM_964f77dd88eee71e96be299ebdbee1c5a08dd61574c2681b8bb01df17c8ddb1b"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar seçiminde yapım süresi nasıl dikkate alınır?",
+      "question_id": "2.4.1.2-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_83a5186e51b72c86080a571b030b4f7772cf4d9d2979cbd669f0fd18d14550e7",
+        "CLM_30ac8ec16827284ac6608b83a7bbeb14f2b4ab48e7a112a9bb85054ce09e8a19",
+        "CLM_dfb455b7d764d59da83afcc75d10986c755a921265a7cebe767b1449b4c45d53",
+        "CLM_4c75ff28fbc55d8e3592b24f6513fe55f89ec5998e530ede4b59ae2d08493f12"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar seçiminde ilk yatırım maliyeti nasıl dikkate alınır?",
+      "question_id": "2.4.1.2-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7367e4ba4f0ed3c16acc6fc9744557bface2228c698be54e218bacdb6666da7a",
+        "CLM_62125f76aec5df471eabce4e0ee8fe3afb1434c18aefab919790ed0a789c5855",
+        "CLM_1eacd1f803d10193367ce4b4a558048993118c1ce5b82b54418697f1e1641fd3",
+        "CLM_fd2bf9518c434676c5574c40722e3eb1da3879136d3d3a84b4dd49b4b9fe4177"
+      ],
+      "confidence": 0.75,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar seçiminde bakım ve işletme maliyetleri nasıl dikkate alınır?",
+      "question_id": "2.4.1.2-Q18",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_03e6cbbd82cfcbc56485f4c587680023e81a91677efac8fecd6456fdc69cb49e",
+        "CLM_c5fe7104b04f3bef489ab3eb2ca13cf335ab6fffb2d73d9cf6869757515891f1",
+        "CLM_ff9f16e46b5d58c8e9e8c9215a23b149995624dcf0b23bd1c1a01df68cd1c3dd",
+        "CLM_9074b015f4ad2166632783c7e30bd0cd8a2c421cf187951a163e7a330ff72409"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar için hangi alternatif teknik çözümler karşılaştırılabilir?",
+      "question_id": "2.4.1.2-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9379a5931f6bc0bf334bfc5312504d7d84ee9c0826d5b8e8732b446e96e49008",
+        "CLM_c9373f7b9f01cc4d72625c4a2b99174a8b8f37252bcd5c79f1c071bc609766fb",
+        "CLM_1740cc049f7debf97af6d2cd52a94c028b25e9656388e6d7dbf0843358d65d5f"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar alternatiflerinin avantajları ve dezavantajları nelerdir?",
+      "question_id": "2.4.1.2-Q20",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4f486e5eb9e2f7329e26d9a6a65df38da057484e58070d342e123b2ff6ce071d",
+        "CLM_7cb5a9f35873161908f0e3fd7bac497c324a2109ce5a68b20b1d375a497e37c6",
+        "CLM_97fbf4dd3d33213f9ba3ad6c511ea2f86b6e6008c14cd7f3fcca027016c16821"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar için karar verme sürecinde hangi teknik kriterlere ağırlık verilmelidir?",
+      "question_id": "2.4.1.2-Q21",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_09a3958d42d125189a890267f6e805209d63c28d5ad2fd43c204efe7a44319eb",
+        "CLM_04de4a795abf3bf6a1ee9e1b5162674d08b4b4ef1dca1e31c46c81f49f6104cc",
+        "CLM_2799bd52fa9c9140608535dedb942a4ca7205575053aaf45c8d2d03fc918ee27"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar tasarımında hangi hesap yöntemleri kullanılır?",
+      "question_id": "2.4.1.2-Q22",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_04de4a795abf3bf6a1ee9e1b5162674d08b4b4ef1dca1e31c46c81f49f6104cc",
+        "CLM_853ab1f92857fdb84ec7697d2c686c72b43d9c1b3eb700f9d940ffc3e88bfb2a",
+        "CLM_09a3958d42d125189a890267f6e805209d63c28d5ad2fd43c204efe7a44319eb",
+        "CLM_94258a55b3d06b6b7886746fa123af1c7c1afcc5e740b4651287ce64b77d61dd"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar tasarımında hangi sayısal modelleme yöntemleri kullanılabilir?",
+      "question_id": "2.4.1.2-Q23",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_345622117e92017a9f3347bf6c546273cccd7d7bffe22c56d7e155007ddac55c",
+        "CLM_60dc0b80bd157a3d07bc1571a10db55ea42c7451d23808cd047b0d0a11c4caca"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar tasarımında hangi ampirik sınıflandırmalar kullanılabilir?",
+      "question_id": "2.4.1.2-Q24",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar tasarımında hangi güvenlik katsayıları veya performans kriterleri önemlidir?",
+      "question_id": "2.4.1.2-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar uygulamasında hangi başlıca malzemeler kullanılır?",
+      "question_id": "2.4.1.2-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ff9a85f81e432f937a977b3a3c5e01c3782baa811fd00af3fb670e9a3f7ca503"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar uygulamasında hangi başlıca makine ve ekipmanlar kullanılır?",
+      "question_id": "2.4.1.2-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b8fb62aa1a82561b5d992f63ad44d82dad20fb88382f478b7f48997c5b2659cf"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar uygulamasının tipik iş sırası nasıldır?",
+      "question_id": "2.4.1.2-Q28",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1ce404c134f15eb839299dc777301b6498ca2c181317dd1238e77139f6e053ce",
+        "CLM_264cb113213ea5c858c899dfb7d286684fa4c30f523a5e13e9cdc7071b529f32",
+        "CLM_64c57b9e0f300038ee3637aa7d3a9af2a4ca129526c8b96e3c497ec11c74d5fc",
+        "CLM_a57674876e7bf736282fe859976be96dced733086a5fe89ffa2c256f60eefdc3"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar uygulamasında kalite kontrol nasıl yapılır?",
+      "question_id": "2.4.1.2-Q29",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c6a3a1128e3a1bd1b35b26af4d29930c00866c9658af1efd9d11d5f7d53a27ee",
+        "CLM_6af16ba21536b2f5562731818639fe410124e139b4b9162faf725a4a2027d2cd",
+        "CLM_33f5d31465fa71e8db9a46d0137542b83a5e27827c2ed6b562958f8c0b5b3b29"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar uygulamasında saha ölçümleri ve enstrümantasyon nasıl kullanılır?",
+      "question_id": "2.4.1.2-Q30",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a2211bfa1c68846cfcf02bbb2ca43b3b200a30039db23e60fee021acc8115740",
+        "CLM_1fc65b97c9e7a0fcd02231814c1fcd15d3c16a048ea63011af3f0d7d8f670f24",
+        "CLM_fc7cad2b51897a1781cafbcbc9ceaa2250df2588b79eae7decced4a18c6c08fb",
+        "CLM_341fd5f38915c41d55e63dac1c071427a8e2002ba8ce913183fae78e15d91bc0"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar uygulamasında deformasyonlar nasıl izlenir?",
+      "question_id": "2.4.1.2-Q31",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f67ef1cf217fb373c01b19d0ffc542a151812efaf23a5423c98c72b815bc1cc3",
+        "CLM_766e32a738eb09d53f43a9d924d49c16d859f0df03e575522d7f90fb496d9162",
+        "CLM_497974c5910abb0adf77cfd50ef44a3f404244a69ffef934e58cb0f11a851614"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar uygulamasında su girişleri nasıl kontrol edilir?",
+      "question_id": "2.4.1.2-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a6f65f904e01140e50103e4783da7dbcb5b138d0d8dd30a81371493787956cb2",
+        "CLM_11a0a7b5e003c474633da6f7064288e0f63fffa54bd2d9fef4b390027f6c1b8a"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar uygulamasında drenaj ve yalıtım nasıl ele alınır?",
+      "question_id": "2.4.1.2-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar uygulamasında beklenmeyen zemin koşullarına nasıl müdahale edilir?",
+      "question_id": "2.4.1.2-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_eb1bf7b9592e552aebe56c6689f6d4481e15d30326c9a0f579f126b70994da6a",
+        "CLM_089ec70c22640d3ba03926d352138520fea962b68c3e73c86acb2e824682a2b1"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar uygulamasında en sık görülen teknik riskler nelerdir?",
+      "question_id": "2.4.1.2-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar uygulamasında hata veya yetersizlik belirtileri nelerdir?",
+      "question_id": "2.4.1.2-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b220e66708dd57fbf14538d2858b6b56adc426c0125407097958281bd62ae2ba",
+        "CLM_1520f063d1ea25c81e62493b3e3e8e966069719226b2bfe3c503b0c454b416de",
+        "CLM_ecb7f133e1744d1cde6bd1567cc183541235db100d8e63c471781c0500dc47bc"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar uygulamasında düzeltici ve güçlendirici önlemler nelerdir?",
+      "question_id": "2.4.1.2-Q37",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1d46b70b79c70a40393c4c0ec9269666f6f557e75b4114fa1885343e93e1be76",
+        "CLM_8b57e3384dbff14ce029c5a2ee771dbbc2856507de0bce16566403288d9f87f9"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar ile nihai kaplama arasındaki ilişki nasıl kurulmalıdır?",
+      "question_id": "2.4.1.2-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1d571a12eb2cc54bc89ec044742063a4261fd3e549eebca63849e3306ac1811b",
+        "CLM_9267bec82b957355f63dd6229a66e726387e1ba0332a7688bcc3a3f8cd343bb3",
+        "CLM_79b5e09504652f8db0a13afa4a7a3b5e9cd89ec8aa0c7073e6910f30d6e70c46",
+        "CLM_f8a7ec91f61fdf7b4cf6e3e0180e093eee12e159598675c8a25800cfc1e497c1"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar ile portal tasarımı arasındaki ilişki nedir?",
+      "question_id": "2.4.1.2-Q39",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d90b0aeaf5c076f51cc0bcd8b25cc2e510f70c0a4aaeac2e5e1b48d190b6ef95",
+        "CLM_b7309c724c74b063ebee65757724704b5b3b484f1e89b0984fd1e4c1ffae4175",
+        "CLM_83d8d0e9e40e996ddcb11d52bae6e7fbcc4836008b87c4ba7da563173e8cdee4"
+      ],
+      "confidence": 0.75,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar ile havalandırma, aydınlatma ve diğer elektromekanik sistemler nasıl koordine edilir?",
+      "question_id": "2.4.1.2-Q40",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_41e22323589dcfd78e2169d6fb86d4dc181700a1d0605ea8bf35151ceb93e98f",
+        "CLM_de32faa1171239c60bb1c5f14d322140aeabc8ebfb6a18cf8784fe12f5ad110c",
+        "CLM_7b465bfa0d7b8cecd4392bffe4d147f36e40aaa42d877750627ccd084230d527"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar için uygulanabilir ulusal standart ve şartnameler nelerdir?",
+      "question_id": "2.4.1.2-Q41",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_41e22323589dcfd78e2169d6fb86d4dc181700a1d0605ea8bf35151ceb93e98f",
+        "CLM_de32faa1171239c60bb1c5f14d322140aeabc8ebfb6a18cf8784fe12f5ad110c",
+        "CLM_e6a0bb612491ef8df03d32156c7490d62e320ff2533047b0d97c141985dfc12e"
+      ],
+      "confidence": 0.75,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar için uygulanabilir uluslararası standart ve kılavuzlar nelerdir?",
+      "question_id": "2.4.1.2-Q42",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar açısından Karayolları Genel Müdürlüğü uygulamalarında hangi esaslar öne çıkar?",
+      "question_id": "2.4.1.2-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4562248e5ed7c95796c7e9a2409100f073a7b342421b5d76c9447654977dd3cb",
+        "CLM_1dc290ab772d64fc8ad70fe4b506d8a557cc766382ece90dcb0566b6c7b400e3"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar için yapım sırasında tutulması gereken kayıtlar nelerdir?",
+      "question_id": "2.4.1.2-Q44",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar için kabul ve devreye alma kriterleri nelerdir?",
+      "question_id": "2.4.1.2-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_df80de2d4f77e164abc044aa52da675d147ab1dc5e9d92be3cabddbf73381a22",
+        "CLM_513dd4bec0b96827bf6a7b49d50ee82dd81dfa1534f598e788b4eda326b79e57",
+        "CLM_136d8d9234abcfe1a9ea3d852735666991c2e3685774c025f1f0848258f47d74"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar kullanım aşamasında nasıl izlenmeli ve denetlenmelidir?",
+      "question_id": "2.4.1.2-Q46",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_14d86091ddadcbd88ae2d9afc09db297482b2f36cdbbeb9e719f03cd3ffd2b6a",
+        "CLM_abf08fb6a5aa5ac247678158405d1c553f8167629ce4de696275c665fd53b318",
+        "CLM_782a292c5d166f3d0a33d2e54e349e2ff609966b75a7637973107124e799c300"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar yaşam döngüsü boyunca hangi bakım gereksinimlerini doğurur?",
+      "question_id": "2.4.1.2-Q47",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4e56d9b5f42142deb8b80586e4ed188ddfceb716eb66d2ca1ae8a76847cae90f",
+        "CLM_94dc75e2fdcda2bd0d5c9bbe6c9b07f708d93445e8ac08518a279c75b1097f0f",
+        "CLM_5f4c2400ea03652aa751455ec994f8e08f0bff76d0650965619d4a7457cf0679",
+        "CLM_75e99a5eb138e1eb585851728f0727253daf8c7563934a6990e29b43abff6343"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Esnasındaki Çalışmalar sürdürülebilirlik ve çevresel etki açısından nasıl değerlendirilebilir?",
+      "question_id": "2.4.1.2-Q48",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar ile ilgili Türkiye’den hangi uygulama örnekleri verilebilir?",
+      "question_id": "2.4.1.2-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Esnasındaki Çalışmalar ile ilgili dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "2.4.1.2-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "2.4.1.2",
+  "section_title": "İnşaat Esnasındaki Çalışmalar",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_03e6cbbd82cfcbc56485f4c587680023e81a91677efac8fecd6456fdc69cb49e",
+      "CLM_04de4a795abf3bf6a1ee9e1b5162674d08b4b4ef1dca1e31c46c81f49f6104cc",
+      "CLM_060f79d63067b763dc7c9c96efccc5c5a24387f85db60951a29dccfa671a2b61",
+      "CLM_089ec70c22640d3ba03926d352138520fea962b68c3e73c86acb2e824682a2b1",
+      "CLM_09a3958d42d125189a890267f6e805209d63c28d5ad2fd43c204efe7a44319eb",
+      "CLM_0fda72451d26c59ec7b1ec7044423933179aad0240abf70d7e3856c99e21808e",
+      "CLM_11a0a7b5e003c474633da6f7064288e0f63fffa54bd2d9fef4b390027f6c1b8a",
+      "CLM_136d8d9234abcfe1a9ea3d852735666991c2e3685774c025f1f0848258f47d74",
+      "CLM_14d86091ddadcbd88ae2d9afc09db297482b2f36cdbbeb9e719f03cd3ffd2b6a",
+      "CLM_1520f063d1ea25c81e62493b3e3e8e966069719226b2bfe3c503b0c454b416de",
+      "CLM_1652b7728ac120730284865e6559a6163545b38b840563f5e5099d8df717a5dd",
+      "CLM_1740cc049f7debf97af6d2cd52a94c028b25e9656388e6d7dbf0843358d65d5f",
+      "CLM_1ce404c134f15eb839299dc777301b6498ca2c181317dd1238e77139f6e053ce",
+      "CLM_1d46b70b79c70a40393c4c0ec9269666f6f557e75b4114fa1885343e93e1be76",
+      "CLM_1d571a12eb2cc54bc89ec044742063a4261fd3e549eebca63849e3306ac1811b",
+      "CLM_1dc290ab772d64fc8ad70fe4b506d8a557cc766382ece90dcb0566b6c7b400e3",
+      "CLM_1e3888e806c73bfec551465ed1928583380b7ab99d108f10298f8b1e74162462",
+      "CLM_1eacd1f803d10193367ce4b4a558048993118c1ce5b82b54418697f1e1641fd3",
+      "CLM_1fc65b97c9e7a0fcd02231814c1fcd15d3c16a048ea63011af3f0d7d8f670f24",
+      "CLM_264bf29a350783f9092e652ed0052fae3809478a3e99ca525da4fba18ce1200c",
+      "CLM_264cb113213ea5c858c899dfb7d286684fa4c30f523a5e13e9cdc7071b529f32",
+      "CLM_2799bd52fa9c9140608535dedb942a4ca7205575053aaf45c8d2d03fc918ee27",
+      "CLM_286080fda2e39712ff3bd812abf8a5fce5973935f3a8f0663b2aec94eb17d0b3",
+      "CLM_30ac8ec16827284ac6608b83a7bbeb14f2b4ab48e7a112a9bb85054ce09e8a19",
+      "CLM_33f5d31465fa71e8db9a46d0137542b83a5e27827c2ed6b562958f8c0b5b3b29",
+      "CLM_341fd5f38915c41d55e63dac1c071427a8e2002ba8ce913183fae78e15d91bc0",
+      "CLM_345622117e92017a9f3347bf6c546273cccd7d7bffe22c56d7e155007ddac55c",
+      "CLM_383a8e56d28b6c89a134eb98cbf2435c437c3db06796b843a3e23df6f3e03e9b",
+      "CLM_3ee99d241e4c61124c9bf1b3fbd555a04879486ad6bd6e34ad25ebfba9f6b05c",
+      "CLM_41e22323589dcfd78e2169d6fb86d4dc181700a1d0605ea8bf35151ceb93e98f",
+      "CLM_4562248e5ed7c95796c7e9a2409100f073a7b342421b5d76c9447654977dd3cb",
+      "CLM_4732f00f93fdc81440b3adfaf66f52dbd1a1f9fc143f87fb5cec7dea828a78fb",
+      "CLM_497974c5910abb0adf77cfd50ef44a3f404244a69ffef934e58cb0f11a851614",
+      "CLM_4c75ff28fbc55d8e3592b24f6513fe55f89ec5998e530ede4b59ae2d08493f12",
+      "CLM_4e56d9b5f42142deb8b80586e4ed188ddfceb716eb66d2ca1ae8a76847cae90f",
+      "CLM_4f486e5eb9e2f7329e26d9a6a65df38da057484e58070d342e123b2ff6ce071d",
+      "CLM_513dd4bec0b96827bf6a7b49d50ee82dd81dfa1534f598e788b4eda326b79e57",
+      "CLM_5e26b17d909d9da907072e2b8caab182a8720c89d29c7af26fc477bce32d7c72",
+      "CLM_5f4c2400ea03652aa751455ec994f8e08f0bff76d0650965619d4a7457cf0679",
+      "CLM_60b1b8bcc9aacfab932b04498cb49396fa1bbc212531fbbaa546e82a1a3416a3",
+      "CLM_60dc0b80bd157a3d07bc1571a10db55ea42c7451d23808cd047b0d0a11c4caca",
+      "CLM_62125f76aec5df471eabce4e0ee8fe3afb1434c18aefab919790ed0a789c5855",
+      "CLM_64c57b9e0f300038ee3637aa7d3a9af2a4ca129526c8b96e3c497ec11c74d5fc",
+      "CLM_6af16ba21536b2f5562731818639fe410124e139b4b9162faf725a4a2027d2cd",
+      "CLM_70f425103802ed7a93d5a9bfa1079f2b6db5f9e421fcb13b1a8b44e953745a4e",
+      "CLM_7367e4ba4f0ed3c16acc6fc9744557bface2228c698be54e218bacdb6666da7a",
+      "CLM_75e99a5eb138e1eb585851728f0727253daf8c7563934a6990e29b43abff6343",
+      "CLM_766e32a738eb09d53f43a9d924d49c16d859f0df03e575522d7f90fb496d9162",
+      "CLM_782a292c5d166f3d0a33d2e54e349e2ff609966b75a7637973107124e799c300",
+      "CLM_79b5e09504652f8db0a13afa4a7a3b5e9cd89ec8aa0c7073e6910f30d6e70c46",
+      "CLM_7b465bfa0d7b8cecd4392bffe4d147f36e40aaa42d877750627ccd084230d527",
+      "CLM_7cb5a9f35873161908f0e3fd7bac497c324a2109ce5a68b20b1d375a497e37c6",
+      "CLM_7e31d7cc98f114cfddd1db9a85659b871fb4eaee45a361105ede96b3c611d70d",
+      "CLM_814aaf4d011a98dd29da2249e2328d1e705663e914cf0893af9d6e98f1960e25",
+      "CLM_83a5186e51b72c86080a571b030b4f7772cf4d9d2979cbd669f0fd18d14550e7",
+      "CLM_83d8d0e9e40e996ddcb11d52bae6e7fbcc4836008b87c4ba7da563173e8cdee4",
+      "CLM_853ab1f92857fdb84ec7697d2c686c72b43d9c1b3eb700f9d940ffc3e88bfb2a",
+      "CLM_8b57e3384dbff14ce029c5a2ee771dbbc2856507de0bce16566403288d9f87f9",
+      "CLM_9074b015f4ad2166632783c7e30bd0cd8a2c421cf187951a163e7a330ff72409",
+      "CLM_9267bec82b957355f63dd6229a66e726387e1ba0332a7688bcc3a3f8cd343bb3",
+      "CLM_9364a3249b7b7c303eb76b9bf52ae5a407421037c9dd129a9aac500ba8674c0e",
+      "CLM_9379a5931f6bc0bf334bfc5312504d7d84ee9c0826d5b8e8732b446e96e49008",
+      "CLM_94258a55b3d06b6b7886746fa123af1c7c1afcc5e740b4651287ce64b77d61dd",
+      "CLM_94dc75e2fdcda2bd0d5c9bbe6c9b07f708d93445e8ac08518a279c75b1097f0f",
+      "CLM_964f77dd88eee71e96be299ebdbee1c5a08dd61574c2681b8bb01df17c8ddb1b",
+      "CLM_968fc2308aa4ac31ea86f4f90f231e814fc771268a0c1bef06c7aa8d1a85dc7a",
+      "CLM_97fbf4dd3d33213f9ba3ad6c511ea2f86b6e6008c14cd7f3fcca027016c16821",
+      "CLM_a2211bfa1c68846cfcf02bbb2ca43b3b200a30039db23e60fee021acc8115740",
+      "CLM_a57674876e7bf736282fe859976be96dced733086a5fe89ffa2c256f60eefdc3",
+      "CLM_a6f65f904e01140e50103e4783da7dbcb5b138d0d8dd30a81371493787956cb2",
+      "CLM_aaadac6c283e54231927134bb26ec3d2b2a758862fe61fde85d829a90c875778",
+      "CLM_abf08fb6a5aa5ac247678158405d1c553f8167629ce4de696275c665fd53b318",
+      "CLM_b041da9a8a91e5f3bc30d9c5a259d585f378727a44f67e73fa0d46e9ed55f36f",
+      "CLM_b220e66708dd57fbf14538d2858b6b56adc426c0125407097958281bd62ae2ba",
+      "CLM_b7309c724c74b063ebee65757724704b5b3b484f1e89b0984fd1e4c1ffae4175",
+      "CLM_b8fb62aa1a82561b5d992f63ad44d82dad20fb88382f478b7f48997c5b2659cf",
+      "CLM_bc4a90eefb522726edb233fd635a4276221cd8fc96301e4b6d56fea5cf841a67",
+      "CLM_c57b14a94b5105fd8e7fddd1882daa091a50ac1843d61d8e4dcc9cc93abfb81f",
+      "CLM_c5fe7104b04f3bef489ab3eb2ca13cf335ab6fffb2d73d9cf6869757515891f1",
+      "CLM_c6a3a1128e3a1bd1b35b26af4d29930c00866c9658af1efd9d11d5f7d53a27ee",
+      "CLM_c9373f7b9f01cc4d72625c4a2b99174a8b8f37252bcd5c79f1c071bc609766fb",
+      "CLM_d436ab2321e9ba11a8560af1b8c466dfe53f3d206f02fb4ee44d3fdac58f3b8c",
+      "CLM_d90b0aeaf5c076f51cc0bcd8b25cc2e510f70c0a4aaeac2e5e1b48d190b6ef95",
+      "CLM_de32faa1171239c60bb1c5f14d322140aeabc8ebfb6a18cf8784fe12f5ad110c",
+      "CLM_df80de2d4f77e164abc044aa52da675d147ab1dc5e9d92be3cabddbf73381a22",
+      "CLM_dfb455b7d764d59da83afcc75d10986c755a921265a7cebe767b1449b4c45d53",
+      "CLM_e3a20747821e108391560a7a92ee5f4d316d80aaf928b1d1b91245e403cc51a5",
+      "CLM_e6a0bb612491ef8df03d32156c7490d62e320ff2533047b0d97c141985dfc12e",
+      "CLM_eb1bf7b9592e552aebe56c6689f6d4481e15d30326c9a0f579f126b70994da6a",
+      "CLM_eb298664b5b5d8a6a8ad6e930cc8b6516ed581338c7c9c7f0799f496ac10fa67",
+      "CLM_ebb73a7ab49fc0716795c3c37b4a8e57750ceacb24499977910c48e526e76e1f",
+      "CLM_ecb7f133e1744d1cde6bd1567cc183541235db100d8e63c471781c0500dc47bc",
+      "CLM_ee8c2f122b3cb1c49cc00c0cb2d56c401c70f836f73a1cf6f2e19db865f7bf20",
+      "CLM_f67ef1cf217fb373c01b19d0ffc542a151812efaf23a5423c98c72b815bc1cc3",
+      "CLM_f8a7ec91f61fdf7b4cf6e3e0180e093eee12e159598675c8a25800cfc1e497c1",
+      "CLM_fbbf7fd2b54d100aa1162ee845e536f5300cf8c8a79e52fc2eda0dd509e20b0b",
+      "CLM_fc7cad2b51897a1781cafbcbc9ceaa2250df2588b79eae7decced4a18c6c08fb",
+      "CLM_fd2bf9518c434676c5574c40722e3eb1da3879136d3d3a84b4dd49b4b9fe4177",
+      "CLM_fd7433563a544b17235d41e893b82a69b799fcfef7f3b39c13d0df21868ffe6a",
+      "CLM_ff9a85f81e432f937a977b3a3c5e01c3782baa811fd00af3fb670e9a3f7ca503",
+      "CLM_ff9f16e46b5d58c8e9e8c9215a23b149995624dcf0b23bd1c1a01df68cd1c3dd"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "2.4.1.2-Q01",
+      "2.4.1.2-Q03",
+      "2.4.1.2-Q06",
+      "2.4.1.2-Q08",
+      "2.4.1.2-Q10",
+      "2.4.1.2-Q14",
+      "2.4.1.2-Q15",
+      "2.4.1.2-Q16",
+      "2.4.1.2-Q17",
+      "2.4.1.2-Q19",
+      "2.4.1.2-Q22",
+      "2.4.1.2-Q27",
+      "2.4.1.2-Q28",
+      "2.4.1.2-Q32",
+      "2.4.1.2-Q33",
+      "2.4.1.2-Q35",
+      "2.4.1.2-Q37",
+      "2.4.1.2-Q38",
+      "2.4.1.2-Q39",
+      "2.4.1.2-Q47",
+      "2.4.1.2-Q48"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "2.4.1.2-Q02",
+      "2.4.1.2-Q07",
+      "2.4.1.2-Q09",
+      "2.4.1.2-Q13",
+      "2.4.1.2-Q25",
+      "2.4.1.2-Q26",
+      "2.4.1.2-Q34",
+      "2.4.1.2-Q36",
+      "2.4.1.2-Q43",
+      "2.4.1.2-Q45",
+      "2.4.1.2-Q49",
+      "2.4.1.2-Q50"
+    ]
+  }
+}

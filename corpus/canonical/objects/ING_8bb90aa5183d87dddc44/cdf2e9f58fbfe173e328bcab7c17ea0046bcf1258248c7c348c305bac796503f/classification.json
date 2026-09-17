@@ -1,0 +1,191 @@
+{
+  "final_primary_section": "2.4.1.1",
+  "final_secondary_sections": [
+    "2.4.1.2",
+    "2.4",
+    "1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.1",
+      "section_title": "İnşaat Başlamadan Önce Yapılan Çalışmalar",
+      "supporting_elements": [
+        "LIST0205",
+        "LIST0213"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "LIST0038",
+        "PARA0269",
+        "PARA0279",
+        "PARA0316",
+        "PARA0317",
+        "LIST0117",
+        "LIST0118",
+        "PARA0321",
+        "LIST0156",
+        "LIST0158",
+        "LIST0160",
+        "LIST0245"
+      ]
+    },
+    {
+      "section_id": "2.4",
+      "section_title": "Tünellerin Projelendirilmesi",
+      "supporting_elements": [
+        "PARA0003",
+        "PARA0016",
+        "PARA0019",
+        "PARA0022",
+        "PARA0030",
+        "PARA0033",
+        "PARA0034",
+        "PARA0036",
+        "PARA0039",
+        "PARA0040",
+        "PARA0041",
+        "PARA0046",
+        "PARA0048",
+        "PARA0050",
+        "PARA0055",
+        "PARA0068",
+        "PARA0071",
+        "PARA0080",
+        "PARA0081",
+        "PARA0082",
+        "PARA0088",
+        "PARA0093",
+        "PARA0099",
+        "PARA0116",
+        "PARA0117"
+      ]
+    },
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "LIST0018",
+        "PARA0024",
+        "PARA0027",
+        "PARA0045",
+        "PARA0081",
+        "PARA0101",
+        "PARA0108",
+        "PARA0120",
+        "PARA0125",
+        "PARA0205",
+        "LIST0058",
+        "PARA0235",
+        "PARA0236",
+        "PARA0252",
+        "LIST0093",
+        "HEAD0012",
+        "PARA0255",
+        "LIST0103",
+        "PARA0273",
+        "LIST0123",
+        "LIST0129",
+        "LIST0131",
+        "LIST0133",
+        "LIST0134",
+        "LIST0135"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.2.1",
+      "score": 0.7026,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7712,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.6576,
+      "rule_score": 0.4286,
+      "embedding_score": 0.774,
+      "chunk_vote": 0.118
+    },
+    {
+      "id": "1.1",
+      "score": 0.4405,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4524
+    },
+    {
+      "id": "2.4",
+      "score": 0.3536,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.118
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3506,
+      "rule_score": 0.0,
+      "embedding_score": 0.7792,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3505,
+      "rule_score": 0.0,
+      "embedding_score": 0.7788,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3492,
+      "rule_score": 0.0,
+      "embedding_score": 0.776,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3478,
+      "rule_score": 0.0,
+      "embedding_score": 0.7729,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3478,
+      "rule_score": 0.0,
+      "embedding_score": 0.7728,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3475,
+      "rule_score": 0.0,
+      "embedding_score": 0.7723,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Avusturya Jeomekanik Derneği'nin (ÖGG) geleneksel kazı ile yeraltı yapılarının jeoteknik tasarımına ilişkin kılavuzudur. İçerik, tasarım (Phase 1) ve inşaat (Phase 2) aşamalarını detaylandırır. Aday listesindeki '2.4.1.1: İnşaat Başlamadan Önce Yapılan Çalışmalar' (Tasarım fazı) ve '2.4.1.2: İnşaat Esnasındaki Çalışmalar' (İnşaat fazı) belgenin ana odak noktaları olan tasarım ve inşaat süre",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.4.2.1:0.7026 gap=0.045 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

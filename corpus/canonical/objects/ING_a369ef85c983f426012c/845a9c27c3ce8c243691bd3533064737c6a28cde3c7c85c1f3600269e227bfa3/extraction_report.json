@@ -1,0 +1,94 @@
+{
+  "document_id": "ING_a369ef85c983f426012c",
+  "format": "PDF",
+  "adapter": "pdf",
+  "normalized_markdown_path": "processing/ING_a369ef85c983f426012c/normalized/document.md",
+  "normalized_json_path": "processing/ING_a369ef85c983f426012c/normalized/document.json",
+  "normalized_text_path": "processing/ING_a369ef85c983f426012c/normalized/document.txt",
+  "pages": [
+    "PAGE0001"
+  ],
+  "figures": [
+    "FIG0001"
+  ],
+  "tables": [],
+  "charts": [],
+  "slides": [],
+  "sheets": [],
+  "ocr_items": [
+    {
+      "ocr_item_id": "OCRPAGE0001",
+      "scope": "PAGE",
+      "page": 1,
+      "asset_id": "PAGE0001",
+      "ocr_status": "SUCCESS",
+      "ocr_engine": "rapidocr_torch_cpu",
+      "ocr_languages": [
+        "tr",
+        "en"
+      ],
+      "ocr_text": "NOTLAR:\n1-\n2-\nAKSI BELIRTILMEDIKÇE KOTLAR m, OLÇÜLER cmVDIR\nYANGIN DOLABI VE AYDINLATMA ILE ILGILI GÔSTERIMLER BILGI AMAÇLIDIR.\nYAN DRENAJ BORUSU VE ANA DRENAJ BORUSUNUN BAGLANTISI ICIN\n4-\nOSTYAPI KALINLIKLARIONGOROLEN TRAFIK SAYIMLARI DIKKATE ALINARAK\nAYRICA HESAPLANMALIDIR.\nDRENAJ DETAYLARINA BAKINIZ\nAYDINLATMA\nAYDINLATMA\nIÇ KAPLAMA BETONU (C30/37)\n300\nR530\n+ UYMI MLIAMANI\nKORUYUCU TABAKA\nKULLANIM ÇIZGISI\n(GABARI)\nPOSKORTME BETONU (C25/30)\n009\nTRAFIK ISARETLERI\n580\n200\n580\n05\nR730\nR730\n02\nt0\nYANGIN DOLABI\n100\n400\n100\n2\nR1350\nR1350\nKABLO KANALI\nGÔZENEKL1(POROZ)\nKORUYUCU TABAKA\nBETON\nDREN RUSU\nTONEL TIPr\n0200 mm,PVC\nTCK 2007/75 NO'LU IÇ GENELGEYE UYGUN\nGRANÜLER MALZEME\nDOZLEME BETONU(C16/20)\n10-15 cm\n72\nGROBETON(C16/20)\nTONEL TIPI DRENAJ\nBORUSU 0200\nmm,PVC\nGROBETON(C16/20)\nANA DRENAJ GIDERI\n125\n400\n400\n@400mm SPIRAL SARIMLIPVC BORU\nTABAN KEMERSIZ TÜNEL TIP KESITI\n(ALIYMANDA)\nOLÇEK; 1/25",
+      "ocr_confidence": null
+    }
+  ],
+  "text_elements": 1,
+  "warnings": [
+    "CHART_EXTRACTION_DISABLED_BY_CONFIG",
+    "NATIVE_TEXT_LAYER_THIN_OCR_FALLBACK",
+    "FIGURE_OCR_SKIPPED_PAGE_OCR_ALREADY_RUN"
+  ],
+  "errors": [],
+  "capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "engine": {
+    "docling_status": "SUCCESS",
+    "docling_versions": {
+      "docling": "2.124.0",
+      "docling-core": "2.93.0",
+      "docling-ibm-models": "4.0.1",
+      "docling-parse": "7.16.0"
+    },
+    "docling_options": {
+      "accelerator_options": {
+        "device": "mps",
+        "num_threads": 4
+      },
+      "accelerator_requested": "auto",
+      "accelerator_device": "mps",
+      "accelerator_reason": "auto_selected_mps",
+      "images_scale": 2.0,
+      "generate_page_images": true,
+      "generate_picture_images": true,
+      "do_table_structure": true,
+      "do_ocr": true,
+      "do_picture_classification": true,
+      "do_formula_enrichment": false,
+      "do_chart_extraction": false,
+      "enable_remote_services": false,
+      "allow_external_plugins": false,
+      "document_timeout": 1800.0,
+      "ocr_options": "RapidOcrOptions",
+      "ocr_accelerator_requested": "cpu",
+      "ocr_accelerator_device": "cpu",
+      "ocr_accelerator_reason": "rapidocr_stability_default",
+      "do_picture_description": false,
+      "converter_cache": "reused"
+    },
+    "docling_unsupported_options": [],
+    "chart_status": "DISABLED",
+    "native_text_layer_chars": 0,
+    "native_text_layer": "THIN"
+  },
+  "page_count": 1,
+  "text_char_count": 911
+}

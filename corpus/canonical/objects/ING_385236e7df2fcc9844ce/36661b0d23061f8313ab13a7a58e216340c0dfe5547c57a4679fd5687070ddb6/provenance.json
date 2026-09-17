@@ -1,0 +1,143 @@
+{
+  "document_id": "ING_385236e7df2fcc9844ce",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_172F7772DB192BA8D4C2",
+      "producer_document_id": "PC_385236E7DF2FCC98",
+      "declared_sha256": "385236e7df2fcc9844ce250c4192ccf047f450423dedcb33aa0495f56b6d3b70",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/A_OFFICIAL/PC_385236E7DF2FCC98/source_raw.html",
+        "sha256": "385236e7df2fcc9844ce250c4192ccf047f450423dedcb33aa0495f56b6d3b70"
+      },
+      "provenance": {
+        "source_url": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Istatistikler/SanatYapilariBakimOnarimIsletmeBilgileri.aspx",
+        "landing_url": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Istatistikler/SanatYapilariBakimOnarimIsletmeBilgileri.aspx",
+        "resolved_url": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Istatistikler/SanatYapilariBakimOnarimIsletmeBilgileri.aspx",
+        "discovery_source": "institutional:KGM",
+        "discovery_query": "seed",
+        "publisher": "Karayolları Genel Müdürlüğü"
+      },
+      "producer_provenance": {
+        "source_url": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Istatistikler/SanatYapilariBakimOnarimIsletmeBilgileri.aspx",
+        "landing_url": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Istatistikler/SanatYapilariBakimOnarimIsletmeBilgileri.aspx",
+        "resolved_url": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Istatistikler/SanatYapilariBakimOnarimIsletmeBilgileri.aspx",
+        "discovery_source": "institutional:KGM",
+        "discovery_query": "seed",
+        "publisher": "Karayolları Genel Müdürlüğü"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_385236E7DF2FCC98",
+        "canonical_id": "CAN_172F7772DB192BA8D4C2",
+        "canonical_hint_id": "CAN_172F7772DB192BA8D4C2",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "Karayolları Genel Müdürlüğü",
+          "country": "Turkey",
+          "institution_type": "TR_OFFICIAL",
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Köprü ve Tünel Bilgileri",
+        "authors": [],
+        "year": null,
+        "doi": null,
+        "source_url": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Istatistikler/SanatYapilariBakimOnarimIsletmeBilgileri.aspx",
+        "landing_url": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Istatistikler/SanatYapilariBakimOnarimIsletmeBilgileri.aspx",
+        "resolved_url": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Istatistikler/SanatYapilariBakimOnarimIsletmeBilgileri.aspx",
+        "local_path": "01_originals/A_OFFICIAL/PC_385236E7DF2FCC98/source_raw.html",
+        "sha256": "385236e7df2fcc9844ce250c4192ccf047f450423dedcb33aa0495f56b6d3b70",
+        "source_name": "institutional:KGM",
+        "publisher_code": "KGM",
+        "route_path": "A_OFFICIAL",
+        "crawler_evidence_level": "WEB_SNAPSHOT_TEXT",
+        "evidence_level": "WEB_SNAPSHOT_TEXT",
+        "acquisition_status": "SNAPSHOTTED_WEB",
+        "source_representation": {
+          "original_or_raw": "01_originals/A_OFFICIAL/PC_385236E7DF2FCC98/source_raw.html",
+          "original_or_raw_sha256": "385236e7df2fcc9844ce250c4192ccf047f450423dedcb33aa0495f56b6d3b70",
+          "crawler_normalized": "01_originals/A_OFFICIAL/PC_385236E7DF2FCC98/source.md",
+          "crawler_normalized_sha256": "56ff079e5711dd9c75a3456deadb077989756958b54592463c76ca44c3e4bb58",
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "inventory",
+        "provisional_source_tier": "TIER_A",
+        "provisional_authority_tier": "A1",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "INVENTORY",
+        "source_class": "TR_OFFICIAL",
+        "authority_tier": "A1",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "lighting",
+          "accident",
+          "KGM",
+          "monitoring",
+          "periodic_maintenance",
+          "maintenance",
+          "road_tunnel",
+          "road_safety",
+          "traffic_management",
+          "electromechanical_maintenance"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "Karayolları Genel Müdürlüğü",
+          "country": "Turkey",
+          "institution_type": "TR_OFFICIAL",
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "SNAPSHOTTED_WEB",
+          "source_path": "01_originals/A_OFFICIAL/PC_385236E7DF2FCC98/source_raw.html",
+          "source_sha256": "385236e7df2fcc9844ce250c4192ccf047f450423dedcb33aa0495f56b6d3b70"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Istatistikler/SanatYapilariBakimOnarimIsletmeBilgileri.aspx",
+          "landing_url": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Istatistikler/SanatYapilariBakimOnarimIsletmeBilgileri.aspx",
+          "resolved_url": "https://www.kgm.gov.tr/Sayfalar/KGM/SiteTr/Istatistikler/SanatYapilariBakimOnarimIsletmeBilgileri.aspx",
+          "discovery_source": "institutional:KGM",
+          "discovery_query": "seed",
+          "publisher": "Karayolları Genel Müdürlüğü"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source_raw.html",
+    "original_sha256": "385236e7df2fcc9844ce250c4192ccf047f450423dedcb33aa0495f56b6d3b70",
+    "mime_type": "text/html",
+    "format": "HTML"
+  }
+}

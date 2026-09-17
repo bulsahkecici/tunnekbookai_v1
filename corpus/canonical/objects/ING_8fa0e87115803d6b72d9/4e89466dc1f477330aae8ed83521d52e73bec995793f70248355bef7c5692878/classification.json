@@ -1,0 +1,103 @@
+{
+  "final_primary_section": "2.4.1.3",
+  "final_secondary_sections": [
+    "5.4"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.1.3",
+      "score": 0.3504,
+      "rule_score": 0.0,
+      "embedding_score": 0.7787,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3501,
+      "rule_score": 0.0,
+      "embedding_score": 0.7781,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3.5",
+      "score": 0.3499,
+      "rule_score": 0.0,
+      "embedding_score": 0.7776,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3498,
+      "rule_score": 0.0,
+      "embedding_score": 0.7773,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3494,
+      "rule_score": 0.0,
+      "embedding_score": 0.7765,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3492,
+      "rule_score": 0.0,
+      "embedding_score": 0.776,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.2",
+      "score": 0.3488,
+      "rule_score": 0.0,
+      "embedding_score": 0.775,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4",
+      "score": 0.3473,
+      "rule_score": 0.0,
+      "embedding_score": 0.7718,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.11,
+      "rule_score": 0.2,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, T3 Tüneli'nin 'takip son çalışma' (son durum/izleme) raporudur. İçerik, RMR (Rock Mass Rating) puanlaması, kaya sınıflandırması ve destek sınıfı (C2) gibi yapısal bütünlük ve performans izlemesine odaklanmaktadır. Bu, tünelin kullanım aşamasındaki izleme ve bakım/onarım kararlarına (5.4) temel teşkil eden teknik verileri içerir. Aday listesindeki 'Kullanım Aşaması Çalışmaları' (2.4.1.3) bu ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:1",
+    "chunk_votes:2",
+    "embeddings:8",
+    "top=2.4.1.3:0.3504 gap=0.000 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

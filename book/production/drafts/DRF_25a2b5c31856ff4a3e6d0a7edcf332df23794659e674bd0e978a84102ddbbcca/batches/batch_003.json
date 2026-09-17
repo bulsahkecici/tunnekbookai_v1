@@ -1,0 +1,197 @@
+{
+  "batch_number": 3,
+  "claim_ids": [
+    "CLM_67aa9188a918c5f718f55e572e0175de1ec6e771b40a35238d12a5415d511a28",
+    "CLM_fbd4dc096663bd3fc6120cb97a6551b568bef33679dca30eafd94f480fa2d6dc",
+    "CLM_21a939d616d47c56e53d4c0fdc81fa286eae712f6e72bf0ec6cd84cda0e1ab7c",
+    "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9",
+    "CLM_c8edefade90c2963a0ac369ebdd0d570ef48291d95465a88da2d432c613a10b7",
+    "CLM_92f4465aa120f134d76d243ac082533663c1caec57ee1d7fc11c058f45ab3fb6",
+    "CLM_5ac68032c50cf520497dc1a64ba520086e227fdd3eac6568945551735a640b62",
+    "CLM_fd0ecc2791b8be21764aa648aa94bcc2750e1cb33ce0b3f9a008b8417426c125",
+    "CLM_9b54b92d76ac8daf141b1b11f60942952989532e8040bb8d49a70e5c054d6a77",
+    "CLM_c8bcb98ed09f35d9583fdfac341aa29b9a027e56ed7713dff173b598a4ba7c4c",
+    "CLM_fb5c617bd2aaed8888006262a255aa2491c79ffe6a8071f8f8ea34ded9c20d22",
+    "CLM_fbe9a01c9661f10b2883601e401a6bc8c8d60210e7d885b425101afa3c8652de",
+    "CLM_4ce286a41fb39b5342a1a90d1bbdfbf7095bfe743dd5b4b660752f385a694307",
+    "CLM_e016893580998dfb9a2cfad243797f6578a56e735c3c5135188781766a9a3f26",
+    "CLM_9f9f5f104810e98b3977446410371f7dc0a7efe5e3ff71e95355ef4da3781dcf",
+    "CLM_60fa2073ac9768f67633192dd85262680270db6a765bab032bc2ae2d5c7fe505",
+    "CLM_de719cbd5159d7146a137ca52ef36f23970c8bff1b1b55692fb61bc7e64f1150",
+    "CLM_c8f68dbe52f7030a03d66e65c611fbcee7788b045ef00a356db2bb06f30e73f6",
+    "CLM_6d055b89c4c58fa58dc599e92b2fdb34c0a19326add9bf9a9fd1cb553bedaf7a",
+    "CLM_94d06be13db094d79e7478e970b137734ac295b8921b8a806e40f62257ff0df9"
+  ],
+  "paragraphs": [
+    [
+      {
+        "claim_ids": [
+          "CLM_67aa9188a918c5f718f55e572e0175de1ec6e771b40a35238d12a5415d511a28"
+        ],
+        "question_ids": [
+          "1.1-Q18"
+        ],
+        "text": "Tünelin tanımı, yapısal mühendislik çizimlerinde tip kesit, cephe ve bağlantı detaylarını içeren bir yapısal birim olarak ele alınır."
+      },
+      {
+        "claim_ids": [
+          "CLM_fbd4dc096663bd3fc6120cb97a6551b568bef33679dca30eafd94f480fa2d6dc"
+        ],
+        "question_ids": [
+          "1.1-Q18"
+        ],
+        "text": "Bu tanım, örtü kalınlığı, anahtar taşı, kemer, kalot, uzengi, ayak, stros ve taban gibi bölümleri oklarla işaretleyen teknik şemalarla desteklenir."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_21a939d616d47c56e53d4c0fdc81fa286eae712f6e72bf0ec6cd84cda0e1ab7c"
+        ],
+        "question_ids": [
+          "1.1-Q19"
+        ],
+        "text": "Tünelin tanımı, trafik türü ve yoğunluğu ile doğrudan bir geometrik bağıntı kurmaz; ancak trafik verileri tünelin yapısal özellikleri bağlamında değerlendirilir."
+      },
+      {
+        "claim_ids": [
+          "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+        ],
+        "question_ids": [
+          "1.1-Q19"
+        ],
+        "text": "Yıllık ortalama günlük trafik hacmi, tünel tanımında şerit başına düşen motorlu taşıt birimi olarak risk analizi kapsamında ele alınır."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_c8edefade90c2963a0ac369ebdd0d570ef48291d95465a88da2d432c613a10b7"
+        ],
+        "question_ids": [
+          "1.1-Q20"
+        ],
+        "text": "Tünelin tanımı, havalandırma gereksinimlerini belirleyen temel faktörler arasında tünel uzunluğu, tüp sayısı ve araç yoğunluğu ile doğrudan ilişkilidir."
+      },
+      {
+        "claim_ids": [
+          "CLM_92f4465aa120f134d76d243ac082533663c1caec57ee1d7fc11c058f45ab3fb6"
+        ],
+        "question_ids": [
+          "1.1-Q20"
+        ],
+        "text": "Tünel içi havalandırma sistemleri, tavan fanları gibi yapısal bileşenlerle tünelin fiziksel yapısına entegre edilir."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_9b54b92d76ac8daf141b1b11f60942952989532e8040bb8d49a70e5c054d6a77"
+        ],
+        "question_ids": [
+          "1.1-Q21"
+        ],
+        "text": "Tünelin tanımı, aydınlatma gereksinimlerini belirleyen bir çerçeve oluşturur; iyi bir tünel aydınlatması, yaklaşılan yoldaki rahatlık ve emniyetle eşdeğer trafik akışı sağlamayı hedefler."
+      },
+      {
+        "claim_ids": [
+          "CLM_c8bcb98ed09f35d9583fdfac341aa29b9a027e56ed7713dff173b598a4ba7c4c"
+        ],
+        "question_ids": [
+          "1.1-Q21"
+        ],
+        "text": "Tünel giriş ve çıkışlarında yaşanan ışık farklılığı, tünelin yapısal konumu ve geometrisiyle ilişkili bir aydınlatma problemi olarak ele alınır."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_fbe9a01c9661f10b2883601e401a6bc8c8d60210e7d885b425101afa3c8652de"
+        ],
+        "question_ids": [
+          "1.1-Q22"
+        ],
+        "text": "Tünelin tanımı, su yalıtımı ve drenaj gereksinimleriyle bağlantılıdır; tünel açıldığında yeraltı suyu oluşan boşluğa yönelir ve tünel tabanına kadar drene edilir."
+      },
+      {
+        "claim_ids": [
+          "CLM_4ce286a41fb39b5342a1a90d1bbdfbf7095bfe743dd5b4b660752f385a694307"
+        ],
+        "question_ids": [
+          "1.1-Q22"
+        ],
+        "text": "Tünel tabanının eğimli olması ve yan galerilerle suyun dışarı atılması, tünelin yeraltı suyu dreni gibi görev yapmasını sağlayan yapısal özelliklerdir."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_e016893580998dfb9a2cfad243797f6578a56e735c3c5135188781766a9a3f26"
+        ],
+        "question_ids": [
+          "1.1-Q23"
+        ],
+        "text": "Tünelin tanımı, yangın güvenliği ile doğrudan ilişkilidir; tünel kazalarının sosyal etkileri nedeniyle güvenlik, yapımından servis ömrü sonuna kadar gözetilmesi gereken bir husustur."
+      },
+      {
+        "claim_ids": [
+          "CLM_9f9f5f104810e98b3977446410371f7dc0a7efe5e3ff71e95355ef4da3781dcf"
+        ],
+        "question_ids": [
+          "1.1-Q23"
+        ],
+        "text": "Yangın, tünel güvenliği için en büyük riski oluşturan unsur olarak, tünelin kapalı yapısı ve alternatif yol kısıtlamaları bağlamında değerlendirilir."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_de719cbd5159d7146a137ca52ef36f23970c8bff1b1b55692fb61bc7e64f1150"
+        ],
+        "question_ids": [
+          "1.1-Q24"
+        ],
+        "text": "Tünelin tanımı, acil durum yönetimi ile bağlantılıdır; tünel operatörlerinin ana görevi, normal ve kaza durumlarında yol kullanıcılarının güvenliğini sağlamaktır."
+      },
+      {
+        "claim_ids": [
+          "CLM_60fa2073ac9768f67633192dd85262680270db6a765bab032bc2ae2d5c7fe505"
+        ],
+        "question_ids": [
+          "1.1-Q24"
+        ],
+        "text": "Acil güç temini, tahliye sırasında güvenlik ekipmanlarının çalışmasını sağlamak üzere tünelin yapısal ve işletmesel tanımına dahil edilir."
+      }
+    ],
+    [
+      {
+        "claim_ids": [
+          "CLM_94d06be13db094d79e7478e970b137734ac295b8921b8a806e40f62257ff0df9"
+        ],
+        "question_ids": [
+          "1.1-Q25"
+        ],
+        "text": "Tünelin tanımı bakımından portal bölgeleri, tünelin geometrisi ve çevresel gereksinimleri açısından kritik öneme sahiptir."
+      },
+      {
+        "claim_ids": [
+          "CLM_6d055b89c4c58fa58dc599e92b2fdb34c0a19326add9bf9a9fd1cb553bedaf7a"
+        ],
+        "question_ids": [
+          "1.1-Q25"
+        ],
+        "text": "Portal bölgeleri, kesin proje aşamasında tünelin geometrisinin kesinleştirilmesi ve şev kazılarının projelendirilmesi için öncelikli olarak incelenen alanlardır."
+      }
+    ]
+  ],
+  "question_ids": [
+    "1.1-Q18",
+    "1.1-Q19",
+    "1.1-Q20",
+    "1.1-Q21",
+    "1.1-Q22",
+    "1.1-Q23",
+    "1.1-Q24",
+    "1.1-Q25"
+  ]
+}

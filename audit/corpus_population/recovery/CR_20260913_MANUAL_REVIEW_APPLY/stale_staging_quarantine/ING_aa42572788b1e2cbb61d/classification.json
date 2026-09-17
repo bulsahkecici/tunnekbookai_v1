@@ -1,0 +1,149 @@
+{
+  "final_primary_section": "5.9.2",
+  "final_secondary_sections": [
+    "5.9",
+    "6.2.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0008",
+        "PARA0018",
+        "PARA0022",
+        "PARA0027",
+        "PARA0029",
+        "PARA0031",
+        "PARA0179",
+        "PARA0285",
+        "PARA0343",
+        "PARA0389",
+        "PARA0515",
+        "PARA0596",
+        "PARA0614",
+        "PARA0621"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0008",
+        "PARA0018",
+        "PARA0022",
+        "PARA0027",
+        "PARA0029",
+        "PARA0031",
+        "PARA0179",
+        "PARA0285",
+        "PARA0343",
+        "PARA0389",
+        "PARA0515",
+        "PARA0596",
+        "PARA0614",
+        "PARA0621"
+      ]
+    },
+    {
+      "section_id": "6.2.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0621"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6.1",
+      "score": 0.352,
+      "rule_score": 0.0,
+      "embedding_score": 0.7777,
+      "chunk_vote": 0.01
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3506,
+      "rule_score": 0.0,
+      "embedding_score": 0.7792,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.3502,
+      "rule_score": 0.0,
+      "embedding_score": 0.7702,
+      "chunk_vote": 0.0179
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.7771,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3487,
+      "rule_score": 0.0,
+      "embedding_score": 0.7749,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3462,
+      "rule_score": 0.0,
+      "embedding_score": 0.7694,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3456,
+      "rule_score": 0.0,
+      "embedding_score": 0.768,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3456,
+      "rule_score": 0.0,
+      "embedding_score": 0.7679,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3422,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3358
+    },
+    {
+      "id": "5.6",
+      "score": 0.2962,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3021
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Kalimantan Adası'ndaki bir yol tüneli inşaatında tehlike ve risk tanımlaması üzerine uluslararası bir vaka çalışmasıdır. İçerikteki 'literature review' (literatür taraması) metodolojisi ve uluslararası bağlam (Endonezya/IIETA dergisi) nedeniyle, aday listesindeki 'Uluslararası Literatür Taraması' başlıklı bölümler (5.9.2 ve 6.2.2) en uygun eşleşmelerdir. Çalışmanın amacı ve kapsamı da 5.1 i",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:22",
+    "embeddings:8",
+    "top=6.1:0.352 gap=0.001 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

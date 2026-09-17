@@ -1,0 +1,147 @@
+{
+  "final_primary_section": "2.2.2",
+  "final_secondary_sections": [
+    "2.4.2.1"
+  ],
+  "final_section_confidence": 0.8633,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0031",
+        "PARA0058",
+        "PARA0059",
+        "PARA0085",
+        "PARA0086",
+        "PARA0113",
+        "PARA0183",
+        "PARA0242",
+        "PARA0244",
+        "PARA0245",
+        "PARA0248",
+        "PARA0277",
+        "PARA0306",
+        "PARA0334",
+        "PARA0362",
+        "PARA0391",
+        "PARA0419",
+        "PARA0448",
+        "PARA0449",
+        "PARA0476",
+        "PARA0477",
+        "PARA0493",
+        "LIST0025",
+        "LIST0028"
+      ]
+    },
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "PARA0058",
+        "LIST0033",
+        "LIST0067",
+        "LIST0069",
+        "LIST0070",
+        "LIST0073",
+        "LIST0092",
+        "LIST0102",
+        "LIST0106",
+        "LIST0110"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2.2",
+      "score": 0.8633,
+      "rule_score": 0.7143,
+      "embedding_score": 0.7681,
+      "chunk_vote": 0.374
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.6676,
+      "rule_score": 0.5,
+      "embedding_score": 0.7614,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3484,
+      "rule_score": 0.0,
+      "embedding_score": 0.7636,
+      "chunk_vote": 0.0241
+    },
+    {
+      "id": "6.1",
+      "score": 0.3454,
+      "rule_score": 0.0,
+      "embedding_score": 0.7555,
+      "chunk_vote": 0.0271
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3447,
+      "rule_score": 0.0,
+      "embedding_score": 0.7619,
+      "chunk_vote": 0.009
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3425,
+      "rule_score": 0.0,
+      "embedding_score": 0.7611,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.341,
+      "rule_score": 0.0,
+      "embedding_score": 0.7577,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3381,
+      "rule_score": 0.0,
+      "embedding_score": 0.7514,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3179,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0615
+    },
+    {
+      "id": "5.1",
+      "score": 0.2848,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0491
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2.2:0.8633 gap=0.196 disagreement=False ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

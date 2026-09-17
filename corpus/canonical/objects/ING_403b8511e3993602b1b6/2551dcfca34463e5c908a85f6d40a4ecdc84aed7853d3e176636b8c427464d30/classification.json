@@ -1,0 +1,193 @@
+{
+  "final_primary_section": "2.2.1",
+  "final_secondary_sections": [
+    "2.2",
+    "2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0005",
+        "PARA0006",
+        "PARA0010",
+        "PARA0011",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "FIG0010",
+        "PARA0017",
+        "PARA0020",
+        "PARA0023",
+        "PARA0026",
+        "PARA0027",
+        "HEAD0012",
+        "PARA0030",
+        "TABLE0004",
+        "CAPT0009",
+        "PARA0033",
+        "PARA0035",
+        "PARA0039",
+        "PARA0041",
+        "PARA0046"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0005",
+        "PARA0006",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "PARA0017",
+        "PARA0023",
+        "PARA0050",
+        "PARA0054",
+        "FIG0019",
+        "PARA0055",
+        "PARA0057",
+        "HEAD0028",
+        "PARA0069",
+        "LIST0021",
+        "LIST0024",
+        "LIST0026",
+        "LIST0027",
+        "LIST0028",
+        "LIST0029",
+        "LIST0065",
+        "LIST0067"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "PARA0006",
+        "PARA0010",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "FIG0010",
+        "PARA0017",
+        "PARA0022",
+        "PARA0026",
+        "PARA0027",
+        "PARA0029",
+        "PARA0031",
+        "PARA0040",
+        "PARA0042",
+        "PARA0047",
+        "PARA0050",
+        "PARA0052",
+        "PARA0053",
+        "PARA0054",
+        "FIG0019",
+        "PARA0055",
+        "PARA0057",
+        "PARA0058"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7565,
+      "rule_score": 0.6,
+      "embedding_score": 0.7745,
+      "chunk_vote": 0.14
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.7358,
+      "rule_score": 0.6,
+      "embedding_score": 0.7664,
+      "chunk_vote": 0.0545
+    },
+    {
+      "id": "2.1",
+      "score": 0.3949,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1411
+    },
+    {
+      "id": "2.2",
+      "score": 0.3792,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0625
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3592,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.046
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.354,
+      "rule_score": 0.0,
+      "embedding_score": 0.7684,
+      "chunk_vote": 0.0409
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3524,
+      "rule_score": 0.0,
+      "embedding_score": 0.7832,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3512,
+      "rule_score": 0.0,
+      "embedding_score": 0.7628,
+      "chunk_vote": 0.0399
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3482,
+      "rule_score": 0.0,
+      "embedding_score": 0.7738,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3447,
+      "rule_score": 0.0,
+      "embedding_score": 0.7661,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, kayaç zeminde (Bilaspur, Himachal Pradesh) açılan bir tünel için RMR89 sınıflandırması ve NATM (Yeni Avusturya Tünelcilik Yöntemi) destek parametrelerinin (shotcrete, forepoling, bolt) uygulanmasını detaylandırmaktadır. Bu içerik, 'Kayaç Zeminde Açılan Tüneller' (2.2.1) başlığıyla en yüksek örtüşmeye sahiptir. Ayrıca, NATM süreçleri ve destek elemanları (shotcrete, mesh, rib) nedeniyle 'Tün",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7565 gap=0.021 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

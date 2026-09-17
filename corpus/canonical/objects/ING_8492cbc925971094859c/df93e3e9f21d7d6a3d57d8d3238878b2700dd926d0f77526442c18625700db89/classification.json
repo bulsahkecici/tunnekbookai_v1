@@ -1,0 +1,143 @@
+{
+  "final_primary_section": "5.9",
+  "final_secondary_sections": [
+    "5.3",
+    "5.7"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0004"
+      ]
+    },
+    {
+      "section_id": "5.3",
+      "section_title": "Çalışmanın Yöntemi ve Kullanılan Veriler",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": [
+        "PARA0013",
+        "PARA0017",
+        "PARA0019",
+        "PARA0025",
+        "PARA0026",
+        "PARA0028",
+        "FIG0011",
+        "PARA0044",
+        "FIG0012",
+        "PARA0045",
+        "PARA0046",
+        "PARA0048",
+        "PARA0049",
+        "LIST0001",
+        "LIST0002",
+        "LIST0003",
+        "LIST0004",
+        "LIST0010",
+        "LIST0013",
+        "LIST0014",
+        "LIST0022",
+        "LIST0023",
+        "LIST0026"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.6499,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7782,
+      "chunk_vote": 0.07
+    },
+    {
+      "id": "5.7",
+      "score": 0.6271,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7585,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3837,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1682
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3501,
+      "rule_score": 0.0,
+      "embedding_score": 0.7779,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3432,
+      "rule_score": 0.0,
+      "embedding_score": 0.7601,
+      "chunk_vote": 0.0059
+    },
+    {
+      "id": "5.3",
+      "score": 0.3431,
+      "rule_score": 0.0,
+      "embedding_score": 0.7625,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3418,
+      "rule_score": 0.0,
+      "embedding_score": 0.757,
+      "chunk_vote": 0.0059
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3415,
+      "rule_score": 0.0,
+      "embedding_score": 0.7588,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3404,
+      "rule_score": 0.0,
+      "embedding_score": 0.7564,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5",
+      "score": 0.3118,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3803
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, kıvrımlı tünellerdeki yangın duman hareketi üzerine yapılan sayısal bir çalışma olup, tünel mühendisliği literatüründeki mevcut araştırmaları (kritik hız, duman geri katmanlanması) incelemektedir. Bu nedenle 'Ulusal ve Uluslararası Literatür Taraması' (5.9) bölümüne en uygun düşmektedir. Çalışmanın sayısal modelleme ve veri analizi yöntemi içermesi, ikincil olarak 'Çalışmanın Yöntemi ve Kul",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:22",
+    "embeddings:8",
+    "top=5.4.2:0.6499 gap=0.023 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

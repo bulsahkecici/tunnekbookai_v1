@@ -1,0 +1,111 @@
+{
+  "final_primary_section": "1.3",
+  "final_secondary_sections": [
+    "1.3.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.3",
+      "section_title": "Tünellerin Tarihçesi",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "1.3.1",
+      "section_title": "Dünyadaki İlk Tüneller",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6.1",
+      "score": 0.3311,
+      "rule_score": 0.0,
+      "embedding_score": 0.7172,
+      "chunk_vote": 0.0417
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3277,
+      "rule_score": 0.0,
+      "embedding_score": 0.7283,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.3",
+      "score": 0.3248,
+      "rule_score": 0.0,
+      "embedding_score": 0.7218,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.3.1",
+      "score": 0.3247,
+      "rule_score": 0.0,
+      "embedding_score": 0.7216,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.3243,
+      "rule_score": 0.0,
+      "embedding_score": 0.7207,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.3",
+      "score": 0.3235,
+      "rule_score": 0.0,
+      "embedding_score": 0.7188,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3231,
+      "rule_score": 0.0,
+      "embedding_score": 0.7179,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3226,
+      "rule_score": 0.0,
+      "embedding_score": 0.7169,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.2552,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0972
+    },
+    {
+      "id": "5.6",
+      "score": 0.2458,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3125
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Pompei'deki su şebekesinin Samnitler'den Augustus'a kadar olan tarihçesini ve erken dönem su temin sistemlerini (kuyu, sarnıç) incelemektedir. Bu içerik, tünel mühendisliği kitabındaki 'Tünellerin Tarihçesi' ve 'Dünyadaki İlk Tüneller' (su kanalları/aqueductlar tünel teknolojisinin erken örnekleridir) bölümleriyle en yüksek örtüşmeye sahiptir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=6.1:0.3311 gap=0.003 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

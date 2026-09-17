@@ -1,0 +1,227 @@
+{
+  "final_primary_section": "5.4.2",
+  "final_secondary_sections": [
+    "5.6",
+    "5.9.2",
+    "5.9"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "PARA0012",
+        "PARA0013",
+        "HEAD0017",
+        "PARA0055",
+        "PARA0056",
+        "PARA0061",
+        "PARA0062",
+        "PARA0071",
+        "FIG0015",
+        "CAPT0015",
+        "PARA0080",
+        "FIG0018",
+        "LIST0072",
+        "LIST0075",
+        "PARA0107",
+        "PARA0120",
+        "FIG0022",
+        "PARA0123",
+        "PARA0129",
+        "LIST0091",
+        "LIST0092",
+        "LIST0094",
+        "LIST0098",
+        "PARA0132",
+        "PARA0139"
+      ]
+    },
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0002",
+        "PARA0004",
+        "PARA0006",
+        "PARA0010",
+        "LIST0001",
+        "LIST0008",
+        "PARA0012",
+        "PARA0013",
+        "PARA0016",
+        "LIST0016",
+        "PARA0020",
+        "PARA0021",
+        "PARA0023",
+        "PARA0024",
+        "PARA0025",
+        "FIG0003",
+        "PARA0030",
+        "LIST0040",
+        "LIST0045",
+        "LIST0047",
+        "LIST0048",
+        "FIG0005",
+        "CAPT0004",
+        "PARA0035"
+      ]
+    },
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0002",
+        "PARA0005",
+        "PARA0006",
+        "PARA0009",
+        "PARA0010",
+        "LIST0001",
+        "PARA0016",
+        "LIST0016",
+        "LIST0059",
+        "LIST0061",
+        "PARA0056",
+        "PARA0067",
+        "HEAD0018",
+        "PARA0080",
+        "PARA0081",
+        "PARA0087",
+        "PARA0098",
+        "PARA0099",
+        "PARA0100",
+        "PARA0102",
+        "PARA0103",
+        "PARA0107",
+        "LIST0079",
+        "LIST0080",
+        "PARA0121"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0002",
+        "PARA0005",
+        "PARA0006",
+        "PARA0009",
+        "PARA0010",
+        "LIST0001",
+        "PARA0016",
+        "LIST0016",
+        "LIST0059",
+        "LIST0061",
+        "PARA0056",
+        "PARA0067",
+        "HEAD0018",
+        "PARA0080",
+        "PARA0081",
+        "PARA0087",
+        "PARA0098",
+        "PARA0099",
+        "PARA0100",
+        "PARA0102",
+        "PARA0103",
+        "PARA0107",
+        "LIST0079",
+        "LIST0080",
+        "PARA0121"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.7944,
+      "rule_score": 0.7143,
+      "embedding_score": 0.7812,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.7404,
+      "rule_score": 0.6,
+      "embedding_score": 0.7814,
+      "chunk_vote": 0.0439
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.7377,
+      "rule_score": 0.6,
+      "embedding_score": 0.7851,
+      "chunk_vote": 0.0219
+    },
+    {
+      "id": "5.6",
+      "score": 0.438,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3567
+    },
+    {
+      "id": "5",
+      "score": 0.3886,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1097
+    },
+    {
+      "id": "1.5",
+      "score": 0.3819,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.076
+    },
+    {
+      "id": "1",
+      "score": 0.3799,
+      "rule_score": 0.0,
+      "embedding_score": 0.7673,
+      "chunk_vote": 0.1729
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3521,
+      "rule_score": 0.0,
+      "embedding_score": 0.7824,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3454,
+      "rule_score": 0.0,
+      "embedding_score": 0.7676,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3454,
+      "rule_score": 0.0,
+      "embedding_score": 0.7676,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, otoyel tünellerindeki sabit yangın söndürme sistemlerinin (FFFS) tasarım, inşaat, işletme ve özellikle bakım süreçlerini detaylı olarak incelemektedir. FFS'ler elektrik-elektronik ve elektromekanik sistemler kategorisine girdiğinden ve metin 'maintenance' (bakım) vurgusu taşıdığından 5.4.2 birincil bölümdür. Ayrıca uluslararası (Avustralya, Yeni Zelanda) vaka çalışmaları ve literatür tarama",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.4.2:0.7944 gap=0.054 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

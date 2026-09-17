@@ -1,0 +1,862 @@
+{
+  "claim_count": 20,
+  "claims": [
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 84,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_a23b1e815eedc4a3c978/6125482a4b0680ed1e1322928db3ae20fbec04df1444afaba2068edf4fa15db8/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "d84b2b8bb68364b634baa5e7424a82d8c22b7e472c31807595c62a043db5e1c4",
+      "chunk_id": "ING_a23b1e815eedc4a3c978_CH_1839710da8",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_0aa4e428400421c378941c73aa3e1a3e31d2b530f15333e0b6a1eaeec23c218b",
+      "claim_text": "1- TARAFLAR:\nTamamlanmas ı ndan sonra geçerli olacak ve kiralama süresi ile ayn ı sürede sona erecektir. 18) Protokole konu çal ı ş malar için al ı nacak teknik dan ı ş manl ı k ve kontrollük hizmetleri bedeli, düzenlenen analizde tünelin her bir metresi için 11,00 TL. Olarak belirlenmi ş olup, 2009 y ı l ı nda bu bedel geçerli olacak ve her y ı l birim fiyatlara göre yeniden belirlenecektir.\n\nP R O T O K O L\n\n1- TARAFLAR:\n\nUla ş t ı rma Bakanl ı ğ ı Karayollar ı Genel Müdürlü ğ ü   ile …………………………………..dir.\n\nProtokol metninde, Karayollar ı Genel Müdürlü ğ ü KGM ,  .............................................. ise YAPTIRAN olarak belirtilmi ş tir.\n\nKarayollar ı …(  ........  )  Bölge  Müdürü KGM 'nin, …………………………..ise YAPTIRAN ' ı n  i ş yeri temsilcileridir.\n\n2İ MZA YETK İ S İ :\n\nBu protokolü imzalamaya KGM ad ı na  ...  Bölge Müdürü…………………..Yetkilidir. YAPTlRAN ad ı na Yetkili ise, ……………………………….....dir.\n\n3- PROTOKOLÜN KONUSU:\n\nBu protokolün  konusu;  ekli  projede,  planda,  krokide görüldü ğ ü  gibi;  Kontrol  Kesim  (KKNo)  ba ş lang ı c ı 0+000 al ı nmak üzere  ………..………  K.K.Nolu ....................................................................................... ................................................................. yolunun, ..............  km.sindeki……….…….  Tünelinin  içinden YAPTIRAN taraf ı ndan kesintisiz cep telefonu ileti ş imi için radyo baz istasyonu anten ve ekipmanlar ı n ı n montaj ı i ş idir.",
+      "conditions": [],
+      "document_id": "ING_a23b1e815eedc4a3c978",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_a23b1e815eedc4a3c978:ING_a23b1e815eedc4a3c978_CH_1839710da8:pages=132;canonical=corpus/canonical/objects/ING_a23b1e815eedc4a3c978/6125482a4b0680ed1e1322928db3ae20fbec04df1444afaba2068edf4fa15db8/chunks/embedding_ready.jsonl#L84",
+      "page_end": 132,
+      "page_start": 132,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q13": "PARTIAL",
+        "5.5-Q18": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.4",
+        "5.9.2"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.8",
+      "supporting_question_ids": [
+        "5.5-Q13",
+        "5.5-Q18"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 29,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_33eccda5d186ceb57f1b/98a4c4ca94f0a5c1d276d2d8d5492585711db2633e6310e514936465834d2a0e/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "a33551b33bb1ae67cac391e5464b379c7bbc5b656bedf74a900d88932f067bf5",
+      "chunk_id": "ING_33eccda5d186ceb57f1b_CH_7179635c88",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_0bdbe5de4c76acb27a4b0868cef1344ddf21bb72a08d808c5a14ca22c971f4a1",
+      "claim_text": "7.8 Other parameters\nTablo: Table 6: Welfare gains sensitivity analysis (present-value daily sums in euros over 20 year horizon, 5% discount rate) Source: Authors' calculations\nTable 6: Welfare gains sensitivity analysis (present-value daily sums in euros over 20 year horizon, 5% discount rate) Source: Authors' calculations\n\n0 | 1 | 2 | 3 | 4 | 5\n\n5 | Yes OLD+NEW, optimal |  | 2,292,661 100% | 1,971,823 100% for Cases 3&5 | 2,945,536 100%\n\n4 | Yes NEW, break even |  | 1,037,063 45% | 1,037,063 53% tunnel rise 20% | 1,051,452 36% = 1.5\n\n3 | Yes None | (1) Base case | 1,939,515 85% | 1,591,367 81% salvage value of NEW | 994,783 34% cost of public funds\n\n2 | No OLD, optimal | (1) Base case | 466,804 20% | 466,804 24% costs, maint. costs & | 2,300,043 78% (3) Marginal\n\n1 (BAU) | No None | (1) Base case | N/A 0% | N/A 0% (2) Construction | N/A 0%\n\nRegime | Construct NEW tunnel? Tolling of tunnels | (1) Base case | Welfare gain Welfare gain relative to Regime 5 | Welfare gain Welfare gain relative to Regime 5 | Welfare gain Welfare gain relative to Regime 5",
+      "conditions": [],
+      "document_id": "ING_33eccda5d186ceb57f1b",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_33eccda5d186ceb57f1b:ING_33eccda5d186ceb57f1b_CH_7179635c88:pages=21;canonical=corpus/canonical/objects/ING_33eccda5d186ceb57f1b/98a4c4ca94f0a5c1d276d2d8d5492585711db2633e6310e514936465834d2a0e/chunks/embedding_ready.jsonl#L29",
+      "page_end": 21,
+      "page_start": 21,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q32": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5-Q32"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 332,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "fa9fe32cf27b1bcffde895977fb353453877074aca9cba71644a8995fc22decc",
+      "chunk_id": "ING_1fb6b71a35f819248daf_CH_41e2451534",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_0de74542aa95f1dd28f740b9f896f7995842346d219fe144b73633a1b644140d",
+      "claim_text": "TEŞEKKÜR > 3000 METREDEN UZUN TÜNELLER > 272 ÜLKEMİZDE TÜNEL BAKIM ONARIM İŞLETME MALİYETLERİ ENVANTER BİLGİLERİ\nTÜNEL BAKIM, ONARIM, İŞLETME ŞEFLİKLERİ | Tünel\n\n\n\nAdeti | Tünel\n\n\n\nUzunluğu\n\n\n\n(km) | İdari Personel Giderleri (TL) | Hizmet Alımı Personel Giderleri (TL) | Hizmet Alımı Araç Giderleri (TL) | Telefon\n\n\n\nFaturası\n\n\n\nOrtalama\n\n\n\nAylık\n\n\n\nTutar(TL) | Elektrik Ortalama Aylık Tutar(TL) | İnternet\n\n\n\n(TL) | Akaryakıt\n\n\n\nMalzemeleri\n\n\n\n(TL) | Elektrik\n\n\n\nM a l zemeleri (TL) | Diğer\n\n\n\nMalzeme\n\n\n\nGiderleri\n\n\n\n(Yedek Parça v.b.)\n\n\n\n(TL) | Emanet İşler Yıllık Gideri (TL) | Yıllık Toplam Harcamalar (TL) | Yıllık Birim Maliyeti (TL/km)\n\n**Zonguldak Tünel Bakım, Onarım, İşletme Şefliği** | 37 | 12,311 | 181.200,00 t | 1.424.825,76 t | 406.476,48 t | 659,00 t | 1.920.911,00 t | 852,00 t | 160.410,00 t | 78.591,00 t | 32.400,00 t | 118.590,00 t | 4.324.915,24 t | **351.304,95 fc**\n\n**Trabzon Tünel Bakım, Onarım, İşletme Şefliği** | 33 | 35,027 | 933.000,00 t | 1.470.271,56 t | 660.875,16 t | 260,25 t | 246.935,90 t | 0,00 t | 149.926,35 t | 210.894,26 t | 32.336,37 t | 0,00 t | 3.704.499,85 t | **105.761,27 fc**\n\n**Artvin Tünel Bakım, Onarım, İşletme Şefliği** | 12 | 4,704 | 45.000,00 t | 595.023,24 t | 346.224,96 t | 0,00 t | 300.554,00 t | 0,00 t | 17.162,95 t | 0,00 t | 65.000,00 t | 0,00 t | 1.368.965,15 t | **291.021,50 fc**\n\n**Bitlis Tünel Bakım, Onarım, İşletme Şefliği** | 2 | 4,263 | 304.200,00 t | 877.146,72 t | 364.417,44 t | 619,75 t | 701.375,54 t | 852,00 t | 299.747,11 t | 10.847,62 t | 38.156,43 t | 0,00 t | 2.597.362,61 t | **609.280,46 fc**\n\n**Alanya Tünel Bakım, Onarım, İşletme Şefliği** | 3 | 2,254 | 206.400,00 t | 712.644,36 t | 451.108,44 t | 312,25 t | 397.830,73 t | 1.580,00 t | 14.000,00 t | 0,00 t | 0,00 t | 0,00 t | 1.783.875,78 t | **791.426,70 fc**\n\n**Kemer Tünel Bakım, Onarım, İşletme Şefliği** | 6 | 4,694 | 220.800,00 t | 712.644,36 t | 319.290,60 t | 1.042,25 t | 688.000,08 t | 1.580,00 t | 63.000,00 t | 0,00 t | 122.106,00 t | 0,00 t | 2.128.463,29 t | **453.443,39 fc**\n\n**Bilecik Tünel Bakım, Onarım, İşletme Şefliği** | 3 | 7,1 | 115.200,00 t | 783.152,76 t | 387.250,32 t | 0,00 t | 503.202,28 t | 0,00 t | 86.143,58 t | 0,00 t | 212.950,00 t | 0,00 t | 2.087.898,94 t | **294.070,27 fc**\n\nTOPLAM | 96 | 70,353 |  |  |  |  |  |  |  |  |  |  | 17.995.980,86 t | **255.795,50 fc**",
+      "conditions": [],
+      "document_id": "ING_1fb6b71a35f819248daf",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_41e2451534:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L332",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q02": "SUPPORTED",
+        "5.5-Q06": "PARTIAL",
+        "5.5-Q07": "PARTIAL",
+        "5.5-Q09": "SUPPORTED",
+        "5.5-Q19": "PARTIAL",
+        "5.5-Q21": "PARTIAL",
+        "5.5-Q25": "PARTIAL",
+        "5.5-Q26": "PARTIAL",
+        "5.5-Q41": "PARTIAL",
+        "5.5-Q47": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5",
+        "5.4"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4.2",
+      "supporting_question_ids": [
+        "5.5-Q02",
+        "5.5-Q06",
+        "5.5-Q07",
+        "5.5-Q09",
+        "5.5-Q19",
+        "5.5-Q21",
+        "5.5-Q25",
+        "5.5-Q26",
+        "5.5-Q41",
+        "5.5-Q47"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 191,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "8052171dde3d903c2456f0f47afb22eabdbaa71dcc289e29c7728ad797b9b545",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_ebf05a3bc9",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_16b3eb1c5965d213d6d40934b7a505d57f2c0cbe08094476a84ea00d3a13956e",
+      "claim_text": "Risk analizi\nve güncel tutmak, Tünellerin düzenli bir şekilde bakımını yapmak/yaptırmak, kontrol etmek ve denetlemek, ayrıca uygun güvenlik şartlarını düzenlemek, ç) Acil hizmet eğitimi ve donanımı için kurumsal ve acil durum planlarının devreye sokulmasını sağlamak, Acil bir durumda, tünel veya grup tünellerin derhal kapatılması dahil diğer hususların yöntemlerini tanımlamak, e) Gerekli risk azaltma önlemlerini uygulamak/uygulattırmak, f) Tün el bakım işletme usul ve esaslarını belirlemek.\n\nRisk analizi\n\nMADDE  8  - (1)  Risk  analizi,  gereken  durumlarda,  işlevsel  olarak  tünel  işletmesinden  sorumlu  yönetim biriminden bağımsız bir kuruluş tarafından yürütülür. Risk analizinin içeriği ve sonuçları, ilgili Tünel Bakım İşletme Şefliğine, Tünel Bakım İşletme Şefliği olmayan yerlerde ise ilgili Başmühendisliğe gönderilir.\n\nHazırlanan  risk  analizi,  ilgili  Başmühendislik  tarafından  değerlendirilerek,  ilave  görüş  ve  öneriler  ile birlikte önce Bölge Müdürlüğüne, sonra da Genel Müdürlüğe gönderilir.\n\nRaporlama\n\nMADDE 9 - (1) Karayolu kullanıcılarının güvenliğini açıkça etkileyen tünellerdeki yangınlar ve kazalar ile bunların  sıklığı  ve  bu  tür  olayların  nedenleri  hakkında  her  ay  ilgili  Tünel  Bakım  İşletme  Şeflikleri,  Tünel  Bakım İşletme Şefliği olmayan yerlerde ilgili Başmühendislik tarafından rapor hazırlatılır, hazırlanan bu raporlar, ilgili Tünel Bakım  İşletme  Şefliğince,  Tünel  Bakım  İşletme  Şefliği  olmayan  yerlerde  ilgili  Başmühendislikçe  değerlendirilir, güve nlik  hizmetlerinin ve önlemlerinin gerçek rolü ve etkinliği hakkında bilgi temin edilir. Raporlama aylık olarak düzenlenir ve her yılın Aralık ayında taşra teşkilatı tarafından Genel Müdürlüğe gönderilir.\n\nProtokol\n\nMADDE  10  - (1)  Tünellerden  diğer  kurum  ve  kuruluşlar  tarafından  geçirilmek  istenen  tesisler  ile  ilgili yapılacak protokoller, ilgili genelgeler ve protokol düzenleme esasları doğrultusunda yapılır.\n\nDÖRDÜNCÜ BÖLÜM Güvenlik Önlemleri\n\nTünellerde alınacak güvenlik önlemleri\n\nMADDE 11 - (1) Tünel güvenl iği ile ilgili olarak aşağıdaki önlemler alınır:\n\na) Tünelden geçen trafiğin sürekli ve güvenli bir şekilde akışı sağlanır.\n\nİşletme ve acil durum hizmetleriyle ilgilenen personel gerekli eğitimlere tabi tutulur.\n\nAcil  durum  senaryoları  farklı  olaylar  için  hazırlanır  ve  bütün  tünellerde  bulunur.  Ayrıca  tatbikatlar  ile senaryoların işleyişi ve etkinliği izlenir.\n\nç) Önceden planlanmış yapım veya bakım çalışmaları nedeniyle şeritlerin tamamen veya kısmen kapatılması, daima tünelin dışından başlatılır. Değişken mesaj işaretleri, ışıklı trafik cihazları ve mekanik bariyerler bu amaç için ilave olarak kullanılabilir.\n\nd) Ciddi bir kaza veya olay durumunda, ilgili tünelin bütün tüpleri trafiğe kapatılır, içeride kalan araçların en kısa yoldan tahliyesi sağlanır. Tünel dışındaki ve tünel içindeki trafiğin mümkün  olan  en kısa  zamanda durdurulabilmesi için sadece tünel girişlerindeki ve aynı zamanda varsa tünelin içindeki değişken trafik işaretleri, ışıklı trafik  işaret  cihazlarının  ve  mekanik  bariyerlerin  eşzamanlı  harekete  geçirilmesi  ile  bu  durum  gerçekleştirilir.  Bu sistemlerin  olmadığı  tünellerde  trafiğe  kapatma  işlemi  uygun  bir  şekilde  yapılır.  Trafik,  durumdan  etkilenmemiş araçların tüneli hızlı bir biçimde terk edebilmesinin sağlanacağı şekilde yönlendirilir.\n\n(2) Acil durum hizmetlerine erişme süresi yapılacak tatbikatlar ile ölçülerek belirlenir, tünelde olayın meydana gelmesi  halinde  acil  durum  hizmetlerine  erişme  süresi  belirlenen  sürelerden  uzun  olmaz.  Yıllık  Ortalama  Günlük Trafik sayısı 2000'in üzerinde olan iki yönlü tünellerde, tünelin iki ucuna acil hizmetlerin yerleştirilme gereksinimi 8 inci madde uyarınca, bir risk analizi ile belirlenir ve bu hizmetlerden mümkün olanları Genel Müdürlüğün onayı ile gerçekleştirilebilir.",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_ebf05a3bc9:pages=498-499;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L191",
+      "page_end": 499,
+      "page_start": 498,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q38": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5-Q38"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 1,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_046493eef6fb4c973116/1ecabcbb2329f060e1ae23e92f3819572164c38f9eff37520924c669f79f3410/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "0f5fa4473cc938383e84d250dfc5456d931bb826ab5e7dc9e233ca56300c3bdd",
+      "chunk_id": "ING_046493eef6fb4c973116_CH_075354e48a",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_1ac78e88688a478bc924ea426e8a6c7c7a1b42f36a8e5afe91a6fd26aacf2496",
+      "claim_text": "Volume: 08 Issue: 07 | July 2021                 www.irjet.net                                                                      p-ISSN: 2395-0072\n\nLife Cycle Cost Analysis of Tunnel\n\nMr. Manojkumar Jadhav 1 , Prof. Kalyani Nichat 2\n\n1-2 G.H.Raisoni University, Amravati, Anjangaon Bari Road, Amravati, Maharashtra, India\n\n---------------------------------------------------------------------***----------------------------------------------------------------------\n\nAbstract - Tunnels in general represent a significant financial investment with challenging design, construction, and operational issues. Tunnels that are not adequately planned, designed,  and  constructed  usually  require  more  costly  and extensive repairs. Tunnel Life Cycle Cost Analysis (LCCA) is a data-driven tool that provides a detailed account of the total costs of the project over its expected life. In order to realize an optimal  trade-off  between  investment  and  maintenance  of tunnel projects, LCCA should be applied. The main problematic issue  is  the  water  infiltration  through  the  tunnel,  which  is described in detail in this paper. LCCA has several applications, including  help  in  selecting  the  best  alternative  to  meet  a project objective. Lifecycle cost analysis is a dynamic process.\n\nKey Words :\n\nLCCA, Tunnel, life cycle costs",
+      "conditions": [],
+      "document_id": "ING_046493eef6fb4c973116",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_046493eef6fb4c973116:ING_046493eef6fb4c973116_CH_075354e48a:pages=1;canonical=corpus/canonical/objects/ING_046493eef6fb4c973116/1ecabcbb2329f060e1ae23e92f3819572164c38f9eff37520924c669f79f3410/chunks/embedding_ready.jsonl#L1",
+      "page_end": 1,
+      "page_start": 1,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q33": "SUPPORTED"
+      },
+      "secondary_section_ids": [],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5-Q33"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 333,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "f20aff23653abcbd85edd1e7658a3b849094b3fb13bc12c52c6a6226523a3be5",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_e736370190",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_34b786abf344657ea91445beb54d57df094e75a404e737c3fee7d0a51839e198",
+      "claim_text": "5.5.4. ÜLKE MİZDE TÜNEL BAKIM ONARIM İŞLETME MALİYETLERİ ENVANTER BİLGİLERİ\nTablo: Tablo 50 . 2015 Yılı Tünel Bakım, Onarım, İşletme Maliyetleri\nTablo 50 . 2015 Yılı Tünel Bakım, Onarım, İşletme Maliyetleri\n\nTÜNEL BAKIM, ONARIM, İŞLETME ŞEFLİKLERİ | Tünel Adeti | Tünel Uzunluğu (km) | İdari Personel Giderleri (TL) | Hizmet Alımı Personel Giderleri (TL) | Hizmet Alımı Araç Giderleri (TL) | Telefon Faturası Ortalama Aylık Tutar(TL) | Elektrik Ortalama Aylık Tutar(TL) | İnternet (TL) | Akaryakıt Malzemeleri (TL) | Elektrik Malzemeleri (TL) | Diğer Malzeme Giderleri (Yedek Parça v.b.) (TL) | Emanet İşler Yıllık Gideri (TL) | Yıllık Toplam Harcamalar (TL) | Yıllık Birim Maliyeti (TL/km)\n\nZonguldak Tünel Bakım, Onarım, İşletme Şefliği | 37 | 12,311 | 181.200,00 ₺ | 1.424.825,76 ₺ | 406.476,48 ₺ | 659,00 ₺ | 1.920.911,00 ₺ | 852,00 ₺ | 160.410,00 ₺ | 78.591,00 ₺ | 32.400,00 ₺ | 118.590,00 ₺ | 4.324.915,24 ₺ | 351.304,95 ₺\n\nTrabzon Tünel Bakım, Onarım, İşletme Şefliği | 33 | 35,027 | 933.000,00 ₺ | 1.470.271,56 ₺ | 660.875,16 ₺ | 260,25 ₺ | 246.935,90 ₺ | 0,00 ₺ | 149.926,35 ₺ | 210.894,26 ₺ | 32.336,37 ₺ | 0,00 ₺ | 3.704.499,85 ₺ | 105.761,27 ₺\n\nArtvin Tünel Bakım, Onarım, İşletme Şefliği | 12 | 4,704 | 45.000,00 ₺ | 595.023,24 ₺ | 346.224,96 ₺ | 0,00 ₺ | 300.554,00 ₺ | 0,00 ₺ | 17.162,95 ₺ | 0,00 ₺ | 65.000,00 ₺ | 0,00 ₺ | 1.368.965,15 ₺ | 291.021,50 ₺\n\nBitlis Tünel Bakım, Onarım, İşletme Şefliği | 2 | 4,263 | 304.200,00 ₺ | 877.146,72 ₺ | 364.417,44 ₺ | 619,75 ₺ | 701.375,54 ₺ | 852,00 ₺ | 299.747,11 ₺ | 10.847,62 ₺ | 38.156,43 ₺ | 0,00 ₺ | 2.597.362,61 ₺ | 609.280,46 ₺\n\nAlanya Tünel Bakım, Onarım, İşletme Şefliği | 3 | 2,254 | 206.400,00 ₺ | 712.644,36 ₺ | 451.108,44 ₺ | 312,25 ₺ | 397.830,73 ₺ | 1.580,00 ₺ | 14.000,00 ₺ | 0,00 ₺ | 0,00 ₺ | 0,00 ₺ | 1.783.875,78 ₺ | 791.426,70 ₺\n\nKemer Tünel Bakım, Onarım, İşletme Şefliği | 6 | 4,694 | 220.800,00 ₺ | 712.644,36 ₺ | 319.290,60 ₺ | 1.042,25 ₺ | 688.000,08 ₺ | 1.580,00 ₺ | 63.000,00 ₺ | 0,00 ₺ | 122.106,00 ₺ | 0,00 ₺ | 2.128.463,29 ₺ | 453.443,39 ₺\n\nBilecik Tünel Bakım, Onarım, İşletme Şefliği | 3 | 7,1 | 115.200,00 ₺ | 783.152,76 ₺ | 387.250,32 ₺ | 0,00 ₺ | 503.202,28 ₺ | 0,00 ₺ | 86.143,58 ₺ | 0,00 ₺ | 212.950,00 ₺ | 0,00 ₺ | 2.087.898,94 ₺ | 294.070,27 ₺\n\nTOPLAM | 96 | 70,353 |  |  |  |  |  |  |  |  |  |  | 17.995.980,86 ₺ | 255.795,50 ₺",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_e736370190:pages=418;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L333",
+      "page_end": 418,
+      "page_start": 418,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q01": "PARTIAL",
+        "5.5-Q02": "SUPPORTED",
+        "5.5-Q06": "PARTIAL",
+        "5.5-Q07": "PARTIAL",
+        "5.5-Q09": "SUPPORTED",
+        "5.5-Q10": "PARTIAL",
+        "5.5-Q12": "PARTIAL",
+        "5.5-Q13": "PARTIAL",
+        "5.5-Q19": "PARTIAL",
+        "5.5-Q21": "PARTIAL",
+        "5.5-Q25": "PARTIAL",
+        "5.5-Q26": "PARTIAL",
+        "5.5-Q41": "PARTIAL",
+        "5.5-Q47": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5-Q01",
+        "5.5-Q02",
+        "5.5-Q06",
+        "5.5-Q07",
+        "5.5-Q09",
+        "5.5-Q10",
+        "5.5-Q12",
+        "5.5-Q13",
+        "5.5-Q19",
+        "5.5-Q21",
+        "5.5-Q25",
+        "5.5-Q26",
+        "5.5-Q41",
+        "5.5-Q47"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 6,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_a95c677557c8064ee02e/0934f89a00c0e4d9c338ce3cf982cb213ab4e550bb69375f1361f4ba071409b6/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "1b810248fa58a63bd56d17147a0671e0c143b2fbbcd8cd63c684cd9c159c5a3c",
+      "chunk_id": "ING_a95c677557c8064ee02e_CH_42c9c0da99",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_51b5cc20c9ad2d19d9812ad200e3b399dffd72dbd360e6edfb710da470883856",
+      "claim_text": "2. METHODOLOGY\ntotal length of the tunnel is about 2954 m. The project is completed in 2007 and opened to the traffic. Project had been financed by equity capital and external loans. The total estimated cost of the project is 686.267.689 $. But by the end of 2006 the actual costs reached to $952.001.155 (excluding Value Added Tax (VAT)) (GDH, 2007).\n\n2. METHODOLOGY\n\nIn literature and practice, three decision rules; net present value, internal rate of return and benefit/cost ratio are widely used in project selection. The main point of the decision is the comparison of cost and benefit streams in a time dimension. The decision depends upon whether the benefits generated by the project exceed the costs.\n\n2.1. Net Present Value\n\nNet present value (NPV) is the most widely used method as a decision rule for project selection. NPV is the difference between the present values of benefits and costs. NPV can be calculated in two ways, either by taking the difference of separately discounted costs and benefits or discounting the net benefits (benefits-costs). For the chosen period, the project with the highest net present value can be selected as the most beneficial. If the analysis is done for a single project, the project is evaluated as worthwhile when the NPV is positive for the chosen discount rate. The most important issue here is the choice of the right discount or interest rate, which is commonly chosen as the social time preference rate. The general formula is given as below:\n\n!\n\nWhere B t is  the benefits at time t; C t is the costs at time t; i is  the discount rate and n is the length of time for the project's benefit and cost streams.",
+      "conditions": [],
+      "document_id": "ING_a95c677557c8064ee02e",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_a95c677557c8064ee02e:ING_a95c677557c8064ee02e_CH_42c9c0da99:pages=4;canonical=corpus/canonical/objects/ING_a95c677557c8064ee02e/0934f89a00c0e4d9c338ce3cf982cb213ab4e550bb69375f1361f4ba071409b6/chunks/embedding_ready.jsonl#L6",
+      "page_end": 4,
+      "page_start": 4,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q32": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "6.2.2",
+        "6.1.1"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "6.2",
+      "supporting_question_ids": [
+        "5.5-Q32"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 163,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "11f91ce82ea8d124d4a9ea6e1d0064cf24d32a117769eef0fc66025c6ebf2103",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_dd81390fd2",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_678042fc5ab3c5ec7d51eb7b13ab91eba455997c7efdb400ec4e428c8a991dd6",
+      "claim_text": "5.5.1. ENERJİ MALİYETLERİ AZALTMA ÖNERİLERİ\nve personel maliyetlerinden oluşmaktadır. Yenileme maliyetleri bel li bir sistemin komple yenilenmesini ifade etmektedir. Bazı ekipmanların servis ömürleri sonlandığında mecburi olarak sistemi yenileme ihtiyaçları doğmaktadır. Karayolu tünellerinde yapısal dizayn ömrü olarak ortalama 120 yıl öngörülmektedir. Ancak bu süre içerisinde kullanılan ekipmanlar ve servislerin ömürleri yapısal kaliteye, çevresel faktörlere ve değişen teknolojilere göre değişmektedir. Aşağıdaki şekilde ekipmanların kullanım ömürlerine etki eden bazı faktörler gösterilmiştir. Şekil 117 . Ekipman Kullanım Ömrüne Etki Eden Bazı Faktörler\n\n5.5.1. ENERJİ MALİYETLERİ AZALTMA ÖNERİLERİ\n\nEnerji maliyetlerini azaltmak için öncelikle enerjinin nasıl sağlandığı, enerjiyi sağlama maliyetleri ve nasıl tüketildiğini saptamak gerekmektedi r.\n\nÜlkemizde  de  olduğu  gibi  birçok  ülkede  elektrik  özel  firmalar  aracılığıyla  ihale  ile sağlanmaktadır.  Bağımsız  enerji  aracıları  kullanılması  tünel  operatörleri  için  de  avantaj sağlamaktadır. Aşağıdaki yöntemler kullanılarak enerji maliyetleri azaltılabi lir.\n\n Elektrik  enerjisinin  birim  maliyeti  genellikle  günlük  ve  yıllık  talepler  bulunarak pik değerler üzerinden hesaplanır. Pik kullanım değerleri azaltılarak, daha düşük enerji talebi üzerinden teklifler alınabilir.\n\n Modern yöntemlerle enerji tüketimleri kaydedilir, analiz edilir ve böylelikle aktif bir  güç  yönetim  sistemi  kurulabilir.  Gün  ışığından  mümkün  olduğunca  fazla faydalanılmalıdır.\n\n Ekipman  seçiminde  ekipmanların  tüm  yaşam  ömürleri  maliyetleri  ve  buna  göre güç tüketim değerleri hesaplanarak alternatifler değerlendirilebilir.\n\n Tünellerde  önemli  enerji  tüketim  sistemleri;  aydınlatma,  havalandırma  ve  hava temizleme sistemleridir. Aydınlatma sistemleri tünel aydınlatma miktarları ölçülerek trafik hızına göre kontrol altına alınmalıdır. Jet fanların gereğ inden fazla çalışması engellenmelidir.\n\n Düşük basınçlı sodyum aydınlatmalar yüksek basınçlılardan daha az enerji tüketir ve  sarı  ışık  yayarlar.  Mavi  ışık  yayan  yüksek  basınçlı  sodyum  aydınlatmalar  ise göz  için  daha  düşük  aydınlatma  miktarıyla  daha  faydalıdır.  Tünel  özelliklerine göre en uygun aydınlatma seçilmelidir.\n\n Duvarların  temiz  tutulması,  boyanması,  kirli  lambaların  temiz  tutulması,  asfaltın temiz  olması  gibi  yöntemler  uygulanarak  aydınlatmadan  daha  verimli  şekilde faydalanabilir.\n\n Trafiğin sıkışık olduğu durumlarda aydınlatma seviyesi kısılmalıdır. Bu durumda daha fazla havalandırma ihtiyacı olacaktır.\n\n Tüm  sistemin  enerji  ihtiyacına  tünel  kontrol  merkezlerinde  bulunan  SCADA sistemleri üzerinden erişilmeli ve izlenmeli ve müdahale edilmelidir.\n\nTünelle rde kullanılan sistemlerin enerji maliyetleri üzerine etkileri aşağıdaki tabloda listelenmiştir:\n\nTablo 44 . Sistemlerin Enerji Kullanımı\n\nTablodan görüleceği üzere enerji sarfiyatının en fazla olduğu sistemler aydınlatma ve havalandırma  sistemleridir.  Bunların  ardından  işletme  binaları  gelmektedir.  Bu  üç  sistemin güç tüketimine etkiyen faktörler ve etki oranları aşağıdaki tablolarda gösterilmiştir.\n\nTablo 45. Enerji Tüketimine Etkiyen Faktörler\n\nSon  yıllarda  enerji  maliyetlerini  azaltma  yönünde  ciddi  başarılar  sağlanmıştır  ve  bu eğilim  gelecek  yıllarda  da  devam  edecektir.  Fransa'da  LED  aydınlatma  teknolojilerinin tünellerde kullanımı denenmektedir. İtalya'da reflektör malzeme kullanımı deneme aşamasındadır. Çift tüp olan tünellerde tünel portalları arası mesafenin 30 m'den az olmaması tavsiye  edilerek  bir  tünelden  atılan  kirleticilerin  diğer  tünele  girişi  ve  fazladan  jet  fan çalışması önlenmeye çalışılmaktadır. Ayrıca CFD ve model çalışmaları sayesinde havalandırma sistemlerinin daha verimli çalıştırılma seçenekleri üzerinde durulmaktadır.",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_dd81390fd2:pages=405-407;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L163",
+      "page_end": 407,
+      "page_start": 405,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q01": "PARTIAL",
+        "5.5-Q08": "PARTIAL",
+        "5.5-Q10": "PARTIAL",
+        "5.5-Q27": "PARTIAL",
+        "5.5-Q34": "SUPPORTED",
+        "5.5-Q35": "SUPPORTED",
+        "5.5-Q48": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5-Q01",
+        "5.5-Q08",
+        "5.5-Q10",
+        "5.5-Q27",
+        "5.5-Q34",
+        "5.5-Q35",
+        "5.5-Q48"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 158,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "7bb331e6815b3dd0621fb226a2e55e1ce5fe38dff7d2100c8308e7780994d970",
+      "chunk_id": "ING_1fb6b71a35f819248daf_CH_40022ddd12",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_77da7beaca9356f0abb26443d961b3fc94b391ba2bd3eee7c75f1be8bdc72d69",
+      "claim_text": "TEŞEKKÜR > 3000 METREDEN UZUN TÜNELLER > 263 TÜNEL BAKIM, ONARIM VE İŞLETME MALİYETLERİ\ntutularak temizlenir. Yağlı trafolarının yağ sızıntıları, Kuru tip trafoların hava akışı ve nemlenme durumları kontrol edilir. Kapakların menteşe ve kilitleri kontrol edilerek, çalışır hale getirilir. S SCADA Sisteminin; yıllık bakımlarında aşağıdaki hususlara dikkat edilmelidir; Sistemde kayıtlı bilgilerin ve sistemle ilgili dokümantasyonun kontrolü ve değerlendirmesi Ethernet ve Profibus haberleşmelerinin kontrolü ve analizi Bağlantıların kontrolü Önemli sinyallerinin I/O analizi ile kontrolü Program yedeklemeleri Temizlik (detaylı) Şekil 116.PLC Pano Bakımı\n\n263 TÜNEL BAKIM, ONARIM VE İŞLETME MALİYETLERİ\n\nKarayolu tünellerinde işletme maliyetlerini azaltma çalışmalarında odaklanılan başlıca konular; enerji tüketim maliyetleri, personel maliyetleri, bakım maliyetleri ve yenileme maliyetleridir. Bu bölümde PİARC raporlarında geçen çalışmalar ve sonuçları üzerine bilgiler verilecektir.\n\nİşletme maliyetleri; yıllık denetim maliyetleri, tünelin günlük maliyetleri, ücret toplama varsa bunların personel maliyetleri v.b. kalemlerden oluşmaktadır.\n\nBakım maliyetleri; program dâhilinde yapılan rutin bakımlar, temizlik, çabuk tükenen malzemelerin maliyetleri (aydınlatma elemanları, filtreler, bataryalar v.b.), operatör ve personel maliyetlerinden oluşmaktadır.\n\nYenileme maliyetleri belli bir sistemin komple yenilenmesini ifade etmektedir. Bazı ekipmanların servis ömürleri sonlandığında mecburi olarak sistemi yenileme ihtiyaçları doğmaktadır. Karayolu tünellerinde yapısal dizayn ömrü olarak ortalama 120 yıl öngörülmektedir. Ancak bu süre içerisinde kullanılan ekipmanlar ve servislerin ömürleri yapısal kaliteye, çevresel faktörlere ve değişen teknolojilere göre değişmektedir. Aşağıdaki şekilde ekipmanların kullanım ömürlerine etki eden bazı faktörler gösterilmiştir.\n\n264 ENERJİ MALİYETLERİ AZALTMA ÖNERİLERİ\n\nEnerji maliyetlerini azaltmak için öncelikle enerjinin nasıl sağlandığı, enerjiyi sağlama maliyetleri ve nasıl tüketildiğini saptamak gerekmektedir.\n\nÜlkemizde de olduğu gibi birçok ülkede elektrik özel firmalar aracılığıyla ihale ile sağlanmaktadır. Bağımsız enerji aracıları kullanılması tünel operatörleri için de avantaj sağlamaktadır. Aşağıdaki yöntemler kullanılarak enerji maliyetleri azaltılabilir.\n\nS\n\nElektrik enerjisinin birim maliyeti genellikle günlük ve yıllık talepler bulunarak pik değerler üzerinden hesaplanır. Pik kullanım değerleri azaltılarak, daha düşük enerji talebi üzerinden teklifler alınabilir.\n\nS Modern yöntemlerle enerji tüketimleri kaydedilir, analiz edilir ve böylelikle aktif\n\nbir güç yönetim sistemi kurulabilir. Gün ışığından mümkün olduğunca fazla faydalanılmalıdır.\n\nS Ekipman seçiminde ekipmanların tüm yaşam ömürleri maliyetleri ve buna göre güç tüketim değerleri hesaplanarak alternatifler değerlendirilebilir.\n\nS Tünellerde önemli enerji tüketim sistemleri; aydınlatma, havalandırma ve hava temizleme sistemleridir. Aydınlatma sistemleri tünel aydınlatma miktarları ölçülerek trafik hızına göre kontrol altına alınmalıdır. Jet fanların gereğinden fazla çalışması engellenmelidir.\n\nS Düşük basınçlı sodyum aydınlatmalar yüksek basınçlılardan daha az enerji tüketir ve sarı ışık yayarlar. Mavi ışık yayan yüksek basınçlı sodyum aydınlatmalar ise göz için daha düşük aydınlatma miktarıyla daha faydalıdır. Tünel özelliklerine göre en uygun aydınlatma seçilmelidir.\n\nS Duvarların temiz tutulması, boyanması, kirli lambaların temiz tutulması, asfaltın temiz olması gibi yöntemler uygulanarak aydınlatmadan daha verimli şekilde\n\nfaydalanabilir.\n\nS Trafiğin sıkışık olduğu durumlarda aydınlatma seviyesi kısılmalıdır. Bu durumda daha fazla havalandırma ihtiyacı olacaktır.\n\nS Tüm sistemin enerji ihtiyacına tünel kontrol merkezlerinde bulunan SCADA sistemleri üzerinden erişilmeli ve izlenmeli ve müdahale edilmelidir.\n\nTünellerde kullanılan sistemlerin enerji maliyetleri üzerine etkileri aşağıdaki tabloda listelenmiştir:\n\nTablo 44. Sistemlerin Enerji Kullanımı\n\nTablodan görüleceği üzere enerji sarfiyatının en fazla olduğu sistemler aydınlatma ve havalandırma sistemleridir. Bunların ardından işletme binaları gelmektedir. Bu üç sistemin güç tüketimine etkiyen faktörler ve etki oranları aşağıdaki tablolarda gösterilmiştir.\n\nTablo 45. Enerji Tüketimine Etkiyen Faktörler\n\nSon yıllarda enerji maliyetlerini azaltma yönünde ciddi başarılar sağlanmıştır ve bu eğilim gelecek yıllarda da devam edecektir. Fransa'da LED aydınlatma teknolojilerinin tünellerde kullanımı denenmektedir. İtalya'da reflektör malzeme kullanımı deneme aşamasındadır. Çift tüp olan tünellerde tünel portalları arası mesafenin 30 m'den az olmaması tavsiye edilerek bir tünelden atılan kirleticilerin diğer tünele girişi ve fazladan jet fan çalışması önlenmeye çalışılmaktadır. Ayrıca CFD ve model çalışmaları sayesinde havalandırma sistemlerinin daha verimli çalıştırılma seçenekleri üzerinde durulmaktadır.",
+      "conditions": [],
+      "document_id": "ING_1fb6b71a35f819248daf",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_40022ddd12:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L158",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q10": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5",
+        "5.4"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4.2",
+      "supporting_question_ids": [
+        "5.5-Q10"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 141,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "6ddc18ad540217c1593dfe1e69d12e31c0014f586786379066b0b4698e68d5bf",
+      "chunk_id": "ING_1fb6b71a35f819248daf_CH_3e85fad643",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_9d6638c98965785ecca03ade091d35766b4f975c8032352eb9a852006f9170ca",
+      "claim_text": "TEŞEKKÜR > 3000 METREDEN UZUN TÜNELLER > 244 BAKIM YÖNETİM SİSTEMİ\nSistemin tümünü ya da bir kısmını yenilemek aşırı maliyetli olabilir. Bu sebeple ihtiyatlı bir yenileme planı yapmak gerekmektedir. Bu planlarda tahminler mümkün olduğunca net olmalıdır. Farklı ekipmanların kullanım ömrünü bilmeden yenileme planı yapmak mümkün değildir. Tünel içinde ve dışında farklı üreticilerin ürettiği çok sayıda cihaz mevcuttur. Birkaç yılda teknolojik değişimler nedeniyle havalandırma, güç sağlayıcı sistemleri, kamera sistemleri v.b. teknolojileri değişebilmektedir. Bu sebeple gelişen teknolojilerin yakından takip edilmesi gerekmektedir.\n\n244 BAKIM YÖNETİM SİSTEMİ\n\nTünel İşletme Yöneticisi koruyucu ve düzeltici bakım faaliyetleri için uygun bakım programlarını hazırlamalıdır. Bu programlar hazırlanırken akıldan çıkarılmaması gereken maliyet ve güvenlikte dengeyi kurmaktır. Her bir ekipmanın ortalama kullanım ömrü, yıllık maliyeti, ilk yatırım maliyeti, beklenen bakım giderleri, servis giderleri, trafik maliyetleri ve ilgili müdahale maliyetleri istatistiki olarak tutulmalıdır. Maliyetler düşünülerek gerekirse alternatif bakım programları hazırlanmalıdır.\n\nPersoneller özellikle planlanmamış müdahaleler gerektiren durumların yüksek potansiyeli olduğunu bilerek zaman, personel ve malzeme eksikliği gibi sorunlar yaşamamak için önceden önlemini almalıdır. Çünkü ekipman eksikliği ve oluşacak herhangi bir aksaklık tüm sistemi etkileyebilir ve müdahale süresine bağlı olarak onarımı uzun sürebilir.\n\nBakım yönetiminin kapsamı;\n\nS\n\nÇalışma ve müdahalelerin planlanması,\n\nS\n\nGöstergelerin takibi,\n\nS\n\nMasrafların yönetimi,\n\nS\n\nGeçici bütçe düzenlenmesi,\n\nS\n\nAlt yüklenicinin yönetilmesi,\n\nS\n\nBakım personellerinin eğitimi ve yönetilmesi olarak sayılabilir.\n\nKoruyucu ve düzeltici bakım faaliyetleri için hazırlanan programlarda aşağıdaki hususlara dikkat etmek gerekir;\n\nS\n\nMüdahale süresi belirlenmeli,\n\nS\n\nGerekli personel sayısı belirlenmeli,\n\nS\n\nDışarıdan gerekecek personel sayısı belirlenmeli (alt yüklenici, polis, itfaiye personelleri v.b.)\n\nS\n\nErişim planı yapılmalı,\n\nS\n\nMuayene için talimatlar hazır olmalı,\n\nS\n\nÖnlem amaçlı trafik levhaları hazır olmalı, tüm trafik düzeni düşünülmeli (Bakımlarda tüm güzergâhın bakımını tek seferde yapmak önemlidir.),\n\nS Anemometre, luminansmetre, lüksmetre, voltmetre v.b. ölçüm cihazları hazır olmalı,\n\nS Pick-up, sepetli vinç, vakumlu süpürge v.b. araçla müdahale gerektirecek sistemler\n\niçin bu araçlar hazır tutulmalı,\n\nS Çizimler, diyagramlar, performanslar v.b. hazırlanmalı, formlara işlenmeli, önceki sonuçlarla karşılaştırılmalı ve bir sonraki müdahale planları yapılmalıdır.",
+      "conditions": [],
+      "document_id": "ING_1fb6b71a35f819248daf",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_3e85fad643:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L141",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q35": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "5",
+        "5.4"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4.2",
+      "supporting_question_ids": [
+        "5.5-Q35"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 40,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "6dcc89d829208531595b264b679fc00e2cf802e2bb6517442ddbfbf41c46adba",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_59f490b687",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_a0cbb7e8e7d8280c3782ee544409bbcfb68ecbb5231bff64d1fa066dee63780e",
+      "claim_text": "5.3.1. Hedef ve kapsam tanımı\nUygulaması Yaşam döngüsü maliyeti (Life Cycle Cost, LCC) kavramı, bir sistemin veya ürünün yaşam döngüsü boyunca; sistemin geliştirilmesi, üretilmesi, işletilmesi ve envanterden çıkarılması için ortaya çıkan maliyetlerin toplamı olarak tanımlanmaktadır. Bu tez çalışmasında, demiryolu ulaşım sisteminin ekonomik açıdan değerlendirilmesi IEC 60300-3-3 standardına göre, hedef ve kapsam tanımı, maliyet bileşenlerinin belirlenmesi, maliyet verilerinin toplanması, uygun bir LCC modelinin oluşturulması, sonuçların yorumlanması olmak üzere beş adımda gerçekleştirilmiştir.\n\n5.3.1. Hedef ve kapsam tanımı\n\nBu  bölümde,  demiryolu  ulaşım  sisteminin  yaşam  döngüsü  yaklaşımıyla ekonomik  açıdan  değerlendirilmesi  hedeflenmiştir.  Önce,  demiryolu  ulaşımının sistem sınırları ve fonksiyonel birimi belirlenmiştir. Sistem sınırları:\n\n Demiryolu altyapı sistemi için;\n\n Hattın yapımı\n\n Hattın bakım onarımı ve işletilmesi\n\n Hattın bertarafı\n\n Demiryolu işletme sistemi için;\n\n Tren araçlarının üretimi\n\n Tren araçlarının işletilmesi\n\n Tren araçlarının bakım onarımı\n\n Tren araçlarının bertarafı\n\nşeklinde olup, her bir bileşen için maliyet bileşenleri detaylı olarak belirlenmiştir.\n\n5.3.2. Maliyet bileşenlerinin belirlenmesi\n\nDemiryolu ulaşım sisteminin maliyet bileşenleri, içsel maliyetler ve dışsal maliyetler  olmak  üzere  iki  bölümde  incelmiştir. İçsel  maliyetler ,  demiryolu ulaşım  sistemi  bileşenleri  olan  demiryolu  altyapı  (demiryolu  hatlarının  yapım, bakım onarım vb.) ve demiryolu işletme (tren araçlarının üretim, tren araçlarının bakım onarım, enerji tüketimi ve elden çıkarma) maliyetleridir. Dışsal maliyetler , yaşam  döngüsü  analizi  sonucu  incelenen  etki  kategorilerinin  (asidifikasyon, ötrofikasyon,  küresel  ısınma,  toksik  etki  gibi)  etki  yüzdesinin  yüksek  olmasına neden olan kirleticilerdir. Yaşam döngüsü maliyet bileşenlerinin sınıflandırılması Çizelge 5.2'de verilmiştir.\n\nÇizelge 5.2. LCC maliyet bileşenlerinin sınıflandırılması\n\n5.3.3. Maliyet verilerine ait envanterin oluşturulması\n\nBu bölümde, 'Demiryolu Altyapı Sistemi' ve 'Demiryolu İşletme Sistemi'nin'  bileşenlerinin  oluşturulmasında,  kullanılan  malzeme  ve  enerji  ile ilgili sayısal ve maliyet verilerinin toplanması amacıyla, Türkiye'de YHT ve KD hattı ile ilgili yapılmış inşaat projeleri ve teknik analiz raporları, LCC çalışmaları ile  ilgili  literatür  bilgileri  ve  veri  tabanları  detaylı  bir  şekilde  incelenmiştir. Ayrıca,  yaşam  döngüsü  maliyet  envanteri  oluşturulurken,  her  bir  bileşen  için gerekli  hesaplamalar  fonksiyonel birim bazında yapılmıştır. İçsel ve dışsal maliyetlere  ait  alt  bileşen  maliyetleri  ile  ilgili  yaşam  döngüsü  maliyet  envanteri EK-3'te verilmiştir.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_59f490b687:pages=88-89;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L40",
+      "page_end": 89,
+      "page_start": 88,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q33": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5-Q33"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 169,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "f1de4545795cfb47a458ef66b88b3c6fac8589fae78ae09caac226a1e73deb79",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_28025373f1",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_a2dfd8dd4af8cf6492366fc8b57742bc823d11de69704a66f44c2bbfc30fd03b",
+      "claim_text": "GİRİŞ\nyılı Tünel Bakım İşletme Şefliklerimizde oluşan maliyetlerle ilgili olarak özet tablo aşağıda verilmiştir; Tablo 50 . 2015 Yılı Tünel Bakım, Onarım, İşletme Maliyetleri Maliyetler incelendiğinde en düşük maliyetin Trabzon Şefliğinde olduğu görülmektedir. Bunun ana nedeni tünel sayısının fazlalığıdır. Tünel 1 km'de olsa 5 km'de olsa personel yönünden aynı ihtiyaçları barındırdığı ve en yüksek maliyet kaleminin de personellerden kaynaklandığı düşünülecek olursa maliyetler arasındaki farklar anlaşılabilir olmaktadır. Önümüzdeki dönemde uygulanacak çalışmalarla bu maliyetlerin düşürülmesi hedeflenmektedir.\n\nBÖLÜM 6 KARAYOLU TÜNELLERİNDE TEHLİKELİ MADDE TAŞIMACILIĞI\n\nGİRİŞ\n\nTünellerde  kaza  oranı  yolun  diğer  kesimlerine  göre  daha  azdır.  Ancak  kaza  sonucu yangın çıktıysa tünel içinde bu yangın hızla yayılır ve ciddi tehlikeler oluşturabilir. 1990'ların sonunda  Avrupa'da  meydana  gelen  Mont  Blanc,  Tauern  ve  Gothard  Tünel  felaketlerinden sonra çeşitli çalışmalar yapılmış ve bu çalışmaların bir uzantısı olarak karayolu tünellerinde tehlikeli madde taşımacılığı ile ilgili yönetmelikler oluşturulmuştur.\n\nBu  b ölümde  kısaca  bu  sürecin  gelişimini,  ilgili  mevzuatları  ve  ülkemizde  gelinen noktayı inceleyeceğiz.\n\n6.1. MEVZUATLAR\n\nTehlikeli Maddelerin karayolu tünellerinden geçirilmesi konusunda tünel güvenliği ile yakından ilgili olan aşağıdaki üç mevzuatın gerekli liklerini uygulamak gerekmektedir.\n\n Avrupa Parlamentosu ve Konseyi'nin 29.04.2004 tarih ve 2004/54/EC sayılı \"Trans - Avrupa Karayolu Ağı Tünelleri İçin Minimum Güvenlik Gereksinimleri\",\n\n ADR  2007/2009  (Tehlikeli  Maddelerin  Karayolu  İle  Taşınması  Hakkında  Avru pa Anlaşması)\n\n ISO 31000 Guide 73:2009 ( Risk Yönetimi)\n\n6.1.1. 2004/54/EC DİREKTİFİ İLE İLGİLİ HUSUSLAR\n\nDirektife  göre  TEN  yol  ağında  bulunan  500  metreden  uzun  trafiğe  açık,  yapım aşamasında  ve  yapımı  planlanan  tünellerle  ilgili  bazı  yükümlülükler  ve  uy gulama  takvimi getirildiğinden bir önceki konuda bahsedilmişti.\n\nUygulama takvimine göre 30.04.2009 tarihine kadar komisyon tarafından üye ülkeler tarafından  geliştirilen  risk  analiz  yöntemleri  ile  ilgili  rapor  hazırlanması  istenmişti.  2004 yılından itibaren üye ülkeler konu üzerine çalışmış ve 2007 yılında ortak bir çalışma raporu ile PİARC bünyesinde 'Karayolu Tünelleri İçin Risk Analizi Raporu' oluşturulmuştur. 2012\n\nyılında komisyon devam eden çalışmaları tekrar güncelleyerek 2012R23EN sayılı 'Karayolu T ünellerinde Risk Çalışmaları Konusunda  Güncel Çalışmalar' raporunu hazırlamıştır. Çalışmaların içeriği ile ilgili ileriki konularda bazı bilgiler verilecektir.",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_28025373f1:pages=419-422;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L169",
+      "page_end": 422,
+      "page_start": 419,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q01": "PARTIAL",
+        "5.5-Q06": "PARTIAL",
+        "5.5-Q07": "PARTIAL",
+        "5.5-Q09": "SUPPORTED",
+        "5.5-Q10": "PARTIAL",
+        "5.5-Q13": "PARTIAL",
+        "5.5-Q18": "PARTIAL",
+        "5.5-Q19": "PARTIAL",
+        "5.5-Q25": "PARTIAL",
+        "5.5-Q26": "PARTIAL",
+        "5.5-Q27": "PARTIAL",
+        "5.5-Q41": "PARTIAL",
+        "5.5-Q47": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5-Q01",
+        "5.5-Q06",
+        "5.5-Q07",
+        "5.5-Q09",
+        "5.5-Q10",
+        "5.5-Q13",
+        "5.5-Q18",
+        "5.5-Q19",
+        "5.5-Q25",
+        "5.5-Q26",
+        "5.5-Q27",
+        "5.5-Q41",
+        "5.5-Q47"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 251,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "c3d398eff363a2454c53093e34d0e08b04a08321773a32f9794dc9e107420348",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_0553c71a18",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_bd650669ba9b088b73c6080ff4a15d3fe8e22982f10ce5653c5e07e009053474",
+      "claim_text": "Devlet Ve İl Yollarımızda;\nTablo: Tablo 4 . Tünel Bakım İşletme Şeflikleri\nTablo 4 . Tünel Bakım İşletme Şeflikleri\n\nTÜNEL BAKIM İŞLETME ŞEFİLİKLERİ.SIRA NO | TÜNEL BAKIM İŞLETME ŞEFİLİKLERİ.BÖLGE NO TÜNEL BAKIM İŞLETME | TÜNEL BAKIM İŞLETME ŞEFİLİKLERİ.BAKIM- İŞLETME AĞINDAKİ TÜNEL ADEDİ (Tek Yönde) | TÜNEL BAKIM İŞLETME ŞEFİLİKLERİ.ŞEFLİĞİ BAKIM- İŞLETME AĞINDAKİ TÜNEL UZUNLUĞU (Metre)\n\n1 2 | SABUNCUBEL TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 1 | 3.348,00\n\n2 5 | SİLİFKE TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 3 | 5.815,30\n\n3 5 | GÖKSUN TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 4 | 9.022,81\n\n7 | ORDU TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 28 | 4 23.999,38\n\n7 | SAMSUN TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 16 | 5 17.553,43\n\n8 | MALATYA TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 4 | 6 4.994,00\n\n10 | TRABZON TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 33 | 7 35.028,80\n\n10 | ARTVİN TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 12 | 8 4.894,00\n\n11 | BİTLİS TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 4 | 9 7.005,00\n\n12 | KIRIK TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 3 | 10 2.220,00\n\n13 | ANTALYA TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 11 | 11 7.890,04\n\n14 | BİLECİK TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 2 | 12 6.524,00\n\n15 | ZONGULDAK TÜNEL BAKIM İŞLETME ŞEFLİĞİ | 35 | 13 12.395,00\n\nTOPLAM: | TOPLAM: | 156 | 140.689,76",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_0553c71a18:pages=87;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L251",
+      "page_end": 87,
+      "page_start": 87,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q47": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5-Q47"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 143,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "b9ba2fdbfc97b4a83dddb22996854078b03280f83cfe3f47786846a8e9a8a062",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_9e177595b8",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_c39821d6190936f2d52d1af610b0491b093be7251b5d7aff426f2d671c998405",
+      "claim_text": "5.2. BAKIM YÖNETİM SİSTEMİ\nya da bir kısmını yenilemek aşırı maliyetli olabilir. Bu sebep le ihtiyatlı bir yenileme planı yapmak gerekmektedir. Bu planlarda tahminler mümkün olduğunca net olmalıdır. Farklı ekipmanların kullanım ömrünü bilmeden yenileme planı yapmak mümkün değildir. Tünel içinde ve dışında farklı üreticilerin ürettiği çok sayıd a cihaz mevcuttur. Birkaç yılda teknolojik değişimler nedeniyle havalandırma, güç sağlayıcı sistemleri, kamera sistemleri v.b. teknolojileri değişebilmektedir. Bu sebeple gelişen teknolojilerin yakından takip edilmesi gerekmektedir.\n\n5.2. BAKIM YÖNETİM SİSTEMİ\n\nTünel  İşletme  Yöneticisi  koruyucu  ve  düzeltici  bakım  faaliyetleri  için  uygun  bakım programlarını  hazırlamalıdır.  Bu  programlar  hazırlanırken  akıldan  çıkarılmaması  gereken maliyet ve güvenlikte dengeyi kurmaktır. Her bir ekipmanın ortalama kullanım ömrü, yıllık maliyeti, ilk yatırım maliyeti, beklenen bakım giderleri, servis giderleri, trafik maliyetleri ve ilgili  müdahale  maliyetleri  istatistiki  olarak  tutulmalıdır.  Maliyetler  düşünülerek  gerekirse alternatif bakım programları hazırlanmalıdır.\n\nPerso neller özellikle planlanmamış müdahaleler gerektiren durumların yüksek potansiyeli olduğunu bilerek zaman, personel ve malzeme eksikliği gibi sorunlar yaşamamak için önceden önlemini almalıdır. Çünkü ekipman eksikliği ve oluşacak herhangi bir aksaklık tüm sistemi etkileyebilir ve müdahale süresine bağlı olarak onarımı uzun sürebilir.\n\nBakım yönetiminin kapsamı;\n\n Çalışma ve müdahalelerin planlanması,\n\n Göstergelerin takibi,\n\n Masrafların yönetimi,\n\n Geçici bütçe düzenlenmesi,\n\n Alt yüklenicinin yönetilmesi,\n\n Bakım personellerinin eğitimi ve yönetilmesi olarak sayılabilir.\n\nKoruyucu  ve  düzeltici  bakım  faaliyetleri  için  hazırlanan  programlarda  aşağıdaki hususlara dikkat etmek gerekir;\n\n Müdahale süresi belirlenmeli,\n\n Gerekli personel sayısı belirlenmeli,\n\n Dışarıdan  gerekecek  personel  sayısı  belirlenmeli  (alt  yüklenici,  polis,  itfaiye personelleri v.b.)\n\n Erişim planı yapılmalı,\n\n Muayene için talimatlar hazır olmalı,\n\n Önlem  amaçlı  trafik levhaları hazır olmalı, tüm  trafik düzeni düşünülmeli (Bakımlarda tüm güzergâhın ba kımını tek seferde yapmak önemlidir.),\n\n Anemometre,  luminansmetre,  lüksmetre,  voltmetre  v.b.  ölçüm  cihazları  hazır olmalı,\n\n Pick-up, sepetli vinç, vakumlu süpürge v.b. araçla müdahale gerektirecek sistemler için bu araçlar hazır tutulmalı,\n\n Çizimler,  diyagra mlar,  performanslar  v.b.  hazırlanmalı,  formlara  işlenmeli, önceki sonuçlarla karşılaştırılmalı ve bir sonraki müdahale planları yapılmalıdır.",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_9e177595b8:pages=339-340;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L143",
+      "page_end": 340,
+      "page_start": 339,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q06": "PARTIAL",
+        "5.5-Q08": "PARTIAL",
+        "5.5-Q12": "PARTIAL",
+        "5.5-Q25": "PARTIAL",
+        "5.5-Q34": "SUPPORTED",
+        "5.5-Q35": "SUPPORTED",
+        "5.5-Q38": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5-Q06",
+        "5.5-Q08",
+        "5.5-Q12",
+        "5.5-Q25",
+        "5.5-Q34",
+        "5.5-Q35",
+        "5.5-Q38"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 33,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "9caa670f5ec4178177edcb5a19df7069872a6206e154e2eedc57c952b0a48c98",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_67388e7094",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_c4882c84fe5d7a277aab8eb421fe7113ae9e4ab00a5a79b4f1aa65a4a949553c",
+      "claim_text": "4.2. LCC ile İlgili Yapılan Çalışmalar\nYüksek Hızlı Tren sisteminin altyapı (demiryolu hattı, tünel, viyadük, elektrifikasyon) çalışmaları sonucu oluşan sera gazı emisyonlarının belirlenmesinde yaşam döngüsü analiz yöntemi kullanılmıştır. Altyapı çalışmaları sırasında kullanılan malzeme ve nakliye proseslerinin sera gazı emisyonlarına %80 seviyesinde neden olduğu belirlenmiştir. Ayrıca, tünel ve viyadük gibi bazı sanat yapılarının toplam hat uzunluğunun sadece %15'i kadar uzunlukta olmasına rağmen, bu yapılardan meydana gelen sera gazı emisyonlarının %60 oranında olduğu ifade edilmiştir.\n\n4.2. LCC ile İlgili Yapılan Çalışmalar\n\nEsveld ( 1999) tarafından  yapılan  çalışmada,  konvansiyonel  ve  yüksek hızlı  tren  demiryolu  hatlarında  balast  kullanılması  ile  ilgili  görüşler,  yaşam döngüsü maliyet yaklaşımıyla ele alınmıştır.  Demiryolu ray hatlarında kullanılan balastların  inşaat,  yıllık  bakım  onarım  maliyetleri  belirlenmiştir.  Sonuç  olarak demiryolu ray hattı maliyetleri açısından, konvansiyonel demiryolu ray hatlarında balast  kullanılmasının  uygun  olabileceği,  yüksek  hızlı  tren  seferlerinin  ve  yeni yük taşıma koridorlarının oluşmasıyla ilgili olarak servis sürelerinin uzamasının, bakım onarım miktarlarının,  yükleme oranları  ile  hızların  artmasının  maliyetleri etkileyeceği belirtilmiştir.\n\nZoeteman ( 2001) çalışmasında, demiryolu altyapı sistemlerinin (inşaat ve bakım onarım) bileşenleri ile ilgili maliyetlerin hesaplanmasında karar vericilere yardımcı  olmak  amacıyla yaşam  döngüsü  maliyet yaklaşımını kullanmıştır. Çalışmada,  Almanya  Yüksek  Hızlı  Treni  ile  ilgili  örnek  bir  LCC  çalışması  da yapılmıştır.\n\nJun  ve  Kim ( 2007) çalışmalarında,  tüm  demiryolu  sisteminin  yaşam döngüsü maliyetini değerlendirmek için temel bir çalışma olarak demiryolu tren araçlarının  yaşam  döngüsü  maliyet  modelinin  oluşturulmasını  amaçlamışlardır. Yapılan  bu  çalışmada,  demiryolu  araçlarının  yaşam  döngüsü  maliyet  modeli oluşturulurken, Uluslararası Elektroteknik Komisyonu, IEC 60300-3-3 standardından ve Avrupa Demiryolu Endüstri Birlikleri Yaşam Döngüsü Maliyet grubu (UNIFE LCC) tarafından hazırlanan yaşam döngüsü maliyeti rehberinden faydalanılmıştır. Demiryolu araçlarının yaşam döngüsü maliyet modeli oluşturulurken,  tren  araçlarının  yatırım,  yıllık  işletme  ve  yıllık  bakım  onarım maliyetleri  dikkate  alınmıştır.  Sonuç  olarak,  yapılan  çalışmada,  demiryolu  tren araçlarının  yıllık  bakım  onarım  maliyetlerinin  hesaplanmasına  yoğunlaştıkları belirtilmiş ve oluşturulan modelin  tutarlılığı ve kullanılabilirliği geleneksel maliyet modelleriyle karşılaştırılmıştır.\n\nAndrade ( 2008) tarafından yapılan bu  çalışmada,  demiryolu  altyapı sistemlerinde kullanılan ray ve balast malzemelerinin bakım onarım aşamasında karar vericilere yardımcı olması için yaşam döngüsü maliyeti yönteminin uygulanması amaçlanmıştır. Demiryolunda mevcut olan modele ek olarak balast LCC  modeli  geliştirilmiştir.  Her  iki  modele  ait  entegre  senaryolar  ile  bakım onarım aşamalarına yeni bir seçenek sunulmuştur. Bu çalışmada yaşam döngüsü maliyeti  yaklaşımına  ait  IEC  60300-3-3  standardı  incelenmiştir.  IEC  60300-3-3 standardının (2004) yılında güncellendiği ve bu standardın demiryolu altyapılarında  yaşam döngüsü maliyeti modelinin oluşturulmasına destek olduğu belirlenmiştir.\n\nCiroth ve Franze ( 2009) tarafından yapılan çalışmada, LCA yazılımı için seçilen SimaPro 7.3.3 yazılımında, LCC için uygun bir modelin oluşturulabileceği ve  LCC analizinin  gerçekleştirilebileceği  ifade  edilmektedir.  Yapılan  çalışmada, LCC analizi  modelinin  oluşturulması  için  yapılması  gereken  adımlar  detaylı  bir şekilde  belirtilmiş  ve  şu  anda  SimaPro  7.3.3  yazılımının  veri  tabanında  bu çalışmada kullanılabilecek herhangi bir verinin olmadığı ifade edilmiştir.\n\nPatra  ve ark. ( 2009) tarafından yapılan  çalışmada  yaşam  döngüsü analizinin demiryolu hatlarının bakım onarımının, yaşam döngüsü maliyetindeki belirsizliklerin ortaya konularak belirlenmesi hedeflenmiştir. Bu amaç kapsamında, Monte Carlo simülasyonu ve Deney Tasarımının kombinasyonları ile uygun bir metodoloji oluşturulmuştur. Oluşturulan bakım onarım maliyet modeli ile İsveç Demiryolu Hattı için örnek bir çalışma yapılmıştır.  Yapılan çalışma ile belirsizliklere  neden  olan  parametreler  (hatta  oluşan  gecikmeler  ve  gecikme maliyetleri, (güvenirlik, ulaşılabilirlik ve bakım maliyetleri) (RAM)  tespit edilmiştir.\n\nKim  ve  ark. ( 2010) çalışmalarında,  hafif  raylı  taşımacılığının  altyapı bileşenleri için yaşam döngüsü maliyetinin tahmin edilebilmesini sağlayacak olan bir sistemin geliştirilmesini, geliştirilen bu sistemin ekonomik açıdan uygulanabilir  olmasını  ve  karar  vericiler  için  karar  verme  aşamasında  yardımcı olabilmesini amaçlamışlardır. Yapılan çalışmada öncelikle, altyapı bileşenleri için inşaat  maliyetlerini  etkileyen  faktörler  belirlenmiştir.  Her  bir  birim  maliyet  için veri  tabanı  oluşturularak,  inşaat  maliyetleri  hesaplanmıştır.  Daha  sonra  yaşam döngüsü  maliyeti  için  literatür  taramalarıyla  birlikte  prosedürler  ve  modeller tanımlanmıştır. Yaşam döngüsü maliyeti için bir algoritma yazılması gerçekleştirilmiş ve yazılan algoritmanın uygulanabilirliği ve tutarlılığının sağlanması  amacıyla  hafif  raylı  taşımacılık  için  köprülerin  yaşam  döngüsü maliyeti hesaplanmıştır. Sonuç olarak, yapılan bu çalışmada hafif raylı taşımacılık inşaat  projelerinde  maliyetlerin  tahmin  edilebilmesi  ve  yaşam  döngüsü  maliyet analizinin uygulanabilirliği ortaya konulmuştur.\n\nHoffart ve Kamps ( 2010) çalışmalarında, demiryolu altyapısında sinyalizasyon  sisteminin  sürdürülebilir  işletme  stratejisi  için  yaşam  döngüsü maliyeti yaklaşımının uygulanması gerektiğini belirtmektedirler. Demiryolu sektöründe  bazı  özel  koşullar  düşünülerek,  sinyalizasyon  sistemlerinde  yaşam döngüsü maliyet analizinin nasıl hesaplanacağı sorusu yöneltilmiş ve sürdürülebilir bir yaklaşım için yaşam döngüsü maliyet analizinin Avrupa'da tüm demiryolu  şirketleri  arasında  önemli  bir  fark  yarattığı  belirtilmiştir.  Yapılan  bu çalışmada yaşam döngüsü maliyet analizi ile Avrupa demiryollarının (demiryolu sektöründe  yatırım  maliyetlerinin  yüksek  olması,  demiryolu  projelerinin  oluşum aşamalarında yatırım maliyetlerinde meydana gelen hataların öngörülememesi ve demiryolu altyapı sistemlerinin kullanım sürelerinin fazla olması gibi) sorunların çözümünde yaşam döngüsü maliyet analizinin uygulanabilirliğinin altı çizilmektedir. Yaşam döngüsü maliyet analizi yaklaşımı ile yapılan çalışma, IEC 60300- 3-3 standardına göre altı aşamada gerçekleştirilmiştir. Aşamalar sırasıyla; hedef  ve  kapsam  tanımı,    sistem  geliştirilmesi,  üretim,  kurulum,  işletme,  bakım onarım ve son aşama olan elden çıkarma olarak belirlenmiştir. Her bir aşama için model  içerisinde  maliyetler  hesaplanmıştır.  Çalışmanın  sonucu  olarak,  yaşam döngüsü  maliyeti  yaklaşımı  ile  uzun  süreli  yatırımların,  yatırım  maliyetlerinin analiz edilebilmesinin de ne denli önemli olduğu vurgulanmıştır.\n\nAtkins ( 2011) 'in  çalışmasında,    Norveç  yüksek  hızlı  tren  projesinin finansal  ve  ekonomik  açıdan  yatırım  maliyetlerinin  değerlendirilmesi  ve  tahmin edilmesi için yaşam döngüsü maliyet yaklaşımı kullanılmıştır. Çalışmada yaşam döngüsü  maliyet  modeli  ile  yüksek  hızlı  tren  hattının  yatırım,  işletme,  bakım onarım  ve  yatırım  maliyetlerine  ilaveten  uzun  dönem  maliyetleri  ile  ekonomik değerlendirilmesi yapılmıştır. Verilerin toplanmasında ve yaşam döngüsü maliyet modelinin geliştirilmesinde UK HS2 (High Speed Two Limited) verilerinden ve J.P. Baumgartner'ın 'Demiryolu  Sektöründe Maliyetler' adlı çalışmasından faydalanılmış  ve  Oslo  Bergen  hattı  için  de  bir  yaşam  döngüsü  maliyet  modeli oluşturulmuştur.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_67388e7094:pages=73-76;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L33",
+      "page_end": 76,
+      "page_start": 73,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q33": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5-Q33"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 331,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "056af71c161489cf94aa9a5852752f6fdbf9412d0f84bd493ba336dbc0f5aa65",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_87b067a420",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_d25d8675bb3dd4893f877d290f4566eb92d2944529703794ef814711d7703d5e",
+      "claim_text": "5.5.3. SİSTEMLERİN KULLANIM ÖMÜRLERİ\nTablo: Şekil 122.USA Tünellerinde Yıllık Yenileme Maliyetleri (Çift Tüp; 3,2 km)\nŞekil 122.USA Tünellerinde Yıllık Yenileme Maliyetleri (Çift Tüp; 3,2 km)\n\n | Ortalama Kullanım Ömrü | Maliyetler (milyon US$) | Nisbi Maliyet Oranları (%) | Maliyet/yıl (US$)\n\nSCADA SİSTEMLERİ | 10,7 | 1,6 | 8,00% | 148.000,00\n\nAYDINLATMA | 11,1 | 3,7 | 19,00% | 330.000,00\n\nHAVALANDIRMA | 18,2 | 5,3 | 28,00% | 290.000,00\n\nİŞARETLEME | 14,1 | 2,6 | 14,00% | 187.000,00\n\nGÜVENLİK EKİPMANLARI | 14,8 | 2,1 | 11,00% | 139.000,00\n\nENERJİ SAĞLAMA | 20,1 | 4,4 | 23,00% | 218.000,00\n\nKABLOLAMA | 25,7 | 2,9 | 15,00% | 113.000,00\n\nTOPLAM MALİYETLER |  | 22,6 |  | 1.425.000,00",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_87b067a420:pages=411;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L331",
+      "page_end": 411,
+      "page_start": 411,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q21": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5-Q21"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 3,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_046493eef6fb4c973116/1ecabcbb2329f060e1ae23e92f3819572164c38f9eff37520924c669f79f3410/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "d3d65778c9b23a13c4fe1377c80d4c95a0e60388c7c50e871d1fda43c5babb69",
+      "chunk_id": "ING_046493eef6fb4c973116_CH_6acb7c066a",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_d81c0644a6b748799cba3e4efbca6e860c6cfe14cce206a45ae1965ad20e7be5",
+      "claim_text": "3. LCCA OF TUNNEL\neffective solution. This phase is the key phase of savings since the cost required for any changes increases rapidly once the design has been chosen. During the project in service, LCC can be used to choose the repair alternate helping the decision maker to take decision such as whether to repair or replace. Finally, it can also be used to choose the optimal demolition strategy at the end of its life in cost perspective.\n\n3. LCCA OF TUNNEL\n\nLife cycle cost of tunnel include agency costs, user costs  and society  costs with further subdivisions as on Figure 2. Most of the costs occur at different times during the life cycle of the project. Comparing of past, present and future costs on a common basis is usually done with Net Present Value (NPV) method[1], which is based on the principal that having money at hand today more valuable than to have at future. NPV method transfer all future and present costs to today's value.\n\nInternational Research Journal of Engineering and Technology (IRJET)       e-ISSN: 2395-0056\n\nVolume: 08 Issue: 07 | July 2021                 www.irjet.net                                                                      p-ISSN: 2395-0072\n\nFigure 2. Life Cycle Cost of Tunnel\n\nSince the inflation is hard to predict, it is excluded in LCC calculations for the projects of long term investments. The value of discount rate depends on the purpose of analysis. Lower the discount rate, larger the consideration of future costs and maximum usage by public authorities. Larger the discount rate, larger the risks on investment and future cost not considered  as  important.  Discount  rate  have  a  greater impact on LCC. LCC can be subdivided as shown in Figure 2. [1]\n\n3.1 AGENCY COST\n\nAgency costs [1] are direct expenses by the owner of  the  project  which  includes  design  cost,  investment cost, insurance, utilities, servicing, remedial action costs and end of life management costs. Calculating agency cost with NPV method requires time and cost of every maintenance activity.  Since  these  parameters  are  difficult  to  predict which is the greatest constraints for LCCA, assumptions are  made  for  operation  and  maintenance  cost  based  on historical data from actual bridge inspections and repairs. Agency costs may be subdivided as shown in Figure 3. The percentage divisions are based on European Telecommunication Standards Institute (ETSI) Standards.\n\nFigure 3. Agency Cost",
+      "conditions": [],
+      "document_id": "ING_046493eef6fb4c973116",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_046493eef6fb4c973116:ING_046493eef6fb4c973116_CH_6acb7c066a:pages=1-2;canonical=corpus/canonical/objects/ING_046493eef6fb4c973116/1ecabcbb2329f060e1ae23e92f3819572164c38f9eff37520924c669f79f3410/chunks/embedding_ready.jsonl#L3",
+      "page_end": 2,
+      "page_start": 1,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q32": "PARTIAL",
+        "5.5-Q33": "SUPPORTED",
+        "5.5-Q48": "SUPPORTED"
+      },
+      "secondary_section_ids": [],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5-Q32",
+        "5.5-Q33",
+        "5.5-Q48"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 162,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "1cbd41a5a7a19b5dae611c300cee0a9c739d36faaa42ad7f6aa8e4a9ba7cac2b",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_0ca9ca7f31",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_dbd23e325cf04e4b374db1a33cc2ec02ad5d7541da4e2220da365879e6117283",
+      "claim_text": " Köşkler ve panoların; yıllık bakımlarında aşağıdaki hususlara dikkat edilmelidir;\nAydınlatma Elemanları ve Sistemleri ; yıllık bakımlarında aşağıdaki hususlara dikkat edilmelidir; Tüm aydınlatma direklerinin ve tünel içi armatürlerin kontrol ve temizliği yapılarak arızalı sigortalar değiştirilecek ve eksik olan direk kapakları tamamlanacaktır. Tüm koruma ve işletme topraklamaları ile paratonerlerin topraklamaları ölçülerek gerekirse iyileştirme yapılır. Armatürlerin eksik cam kapakları tamamlanır. Dönen armatürlerin ayarları yapılır. Tünellerin yılda bir defa aydınlatma düzeyi ( luminans) ölçümü Lüminansmetre ile yerinde yapılarak SCADA programından alınan ölçümlerle karşılaştırılarak İDARE ye sunulmalıdır.\n\n Köşkler ve panoların; yıllık bakımlarında aşağıdaki hususlara dikkat edilmelidir;\n\nPanolar hava tutularak temizlenir.\n\nYağlı  trafolarının  yağ  sızıntıları,  Kuru  tip  trafoların  hava  akışı  ve  nemlenme durumları kontrol edilir.\n\nKapakların menteşe ve kilitleri kontrol edilerek, çalışır hale getirilir.\n\n SCADA Sisteminin; yıllık bakımlarında aşağıdaki hususlara dikkat edilmelidir;\n\nSistemde  kayıtlı  bilgileri n  ve  sistemle  ilgili  dokümantasyonun  kontrolü  ve değerlendirmesi\n\nEthernet ve Profibus haberleşmelerinin kontrolü ve analizi\n\nBağlantıların kontrolü\n\nÖnemli sinyallerinin I/O analizi ile kontrolü\n\nProgram yedeklemeleri\n\nTemizlik (detaylı)\n\nŞekil 116 .PLC Pano Bakımı\n\n5.5. TÜNEL BAKIM, ONARIM VE İŞLETME MALİYETLERİ\n\nKarayolu tünellerinde işletme maliyetlerini azaltma çalışmalarında odaklanılan başlıca konular;  enerji  tüketim  maliyetleri,  personel  maliyetleri, bakım  maliyetleri  ve  yeni leme maliyetleridir. Bu bölümde PİARC raporlarında geçen çalışmalar ve sonuçları üzerine bilgiler verilecektir.\n\nİşletme maliyetleri; yıllık denetim  maliyetleri, tünelin günlük  maliyetleri, ücret toplama varsa bunların personel maliyetleri v.b. kalemlerden oluşmaktadır.\n\nBakım maliyetleri; program dâhilinde yapılan rutin bakımlar, temizlik, çabuk tükenen malzemelerin  maliyetleri  (aydınlatma  elemanları,  filtreler, bataryalar v.b.), operatör ve personel maliyetlerinden oluşmaktadır.\n\nYenileme maliyetleri bel li  bir  sistemin  komple  yenilenmesini  ifade  etmektedir.  Bazı ekipmanların  servis  ömürleri  sonlandığında  mecburi  olarak  sistemi  yenileme  ihtiyaçları doğmaktadır. Karayolu tünellerinde yapısal dizayn ömrü olarak ortalama 120 yıl öngörülmektedir.  Ancak  bu  süre içerisinde  kullanılan  ekipmanlar  ve  servislerin  ömürleri yapısal  kaliteye,  çevresel  faktörlere  ve  değişen  teknolojilere  göre  değişmektedir.  Aşağıdaki şekilde ekipmanların kullanım ömürlerine etki eden bazı faktörler gösterilmiştir.\n\nŞekil 117 . Ekipman Kullanım Ömrüne Etki Eden Bazı Faktörler",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_0ca9ca7f31:pages=402-404;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L162",
+      "page_end": 404,
+      "page_start": 402,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q12": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5-Q12"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 165,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "9c87134da96fae2d4e3f986114c8f8370d3fdb5fdfeb2132bcc6e3c69b0171ff",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_4027103235",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_df25057f14bf501776ddbea166bba4e7e599db018eba48f30e21638c6659e8fe",
+      "claim_text": "5.5.3. SİSTEMLERİN KULLANIM ÖMÜRLERİ\nv.b. etkiler de hesaba katılarak optimum fayda sağlayacak ürünler seçilmelidir.  Çevresel faktörler ve iklim göz önüne alınarak bakım masraflarını azaltacak bazı kurallar alınabilir. Örneğin bazı bölgelerde çetin kış koşulları olduğunda çivili, zincirli lastikler kullanılır ve bunların tünel içinde asfalta ciddi zararı olmaktadır. Bunların tünel içerisinde kullanımı yasaklanarak asfalt bakım maliyetler i azaltılabilir.  Dizayn aşamasında tünelin her noktasına erişimin kolay olması sağlanmalıdır. Tünel köşelerinde toz birikmesini engelleyecek tasarımlar yapılmalıdır.\n\n5.5.3. SİSTEMLERİN KULLANIM ÖMÜRLERİ\n\nAşağıdaki tablolarda tünellerde kullanılan 26 değişik sistem üzerine 10 farklı ülkenin uzmanlarından (Avusturya, Belçika, Finlandiya, Fransa, Japonya, İspanya, İsveç, İsviçre, UK, USA) alınan görüşler neticesinde oluşturulan tablo görülmektedir.\n\nSonuçlar  karşılaştırıldığında  ekipman  kullanım  ömürleri ile  ilgili  ülkeden  ülkeye değişen bazı farklılıklar görülmektedir. Elektronik sistemler (SCADA izleme ekipmanı gibi) sınırlı  bir  ömre  sahiptir.  Mekanik  ve  enerji  kablo  sistemleri  20  yılı  aşan  sürelerde  ömre sahiptir.  Aydınlatma  ekipmanları  beklenmedik  şekilde  düşük  kullanım  ömrüne  s ahiptir. Bunda en büyük etken tünel meteorolojik koşullarının malzemeleri beklenen değerden daha hızlı  yıpratmasıdır.  Güvenlik  ve  işaretleme  ekipmanları  ortalama  ömre  sahip  olup  bu  süre yaklaşık 15 yıldır.\n\nYıllık  maliyetler  hesaplanırken  ilk  yatırım  maliyeti  ve  ortalama  yaşam  ömrü  temel alınarak istatistiki veriler kullanılır. Aşağıda 3 farklı ülkeden 3 farklı tip tünel üzerine yıllık yenileme maliyetleriyle ilgili araştırma sonuçları yer almaktadır.\n\nOrtalama maliyetler  ve  bekl enen bakım maliyetleri  (servis  durumu  ve  akan  trafikte) için  farklı  yenileme  stratejileri  mevcuttur.  3  örnek  üzerinde  yapılan  çalışmalarda  2  farklı strateji üzerinde durulmuştur.\n\n Bozukluklardan kaynaklanan yenileme çalışmaları\n\n Servis bilgilerine dayalı yenileme çalışmaları\n\nİleriki  yıllara  dönük  olarak  faiz  oranları  da  hesaplanarak  karşılaştırma  yapıldığında ikinci  durumun  daha  ekonomik  olduğu  sonucuna  varılmıştır.  Avusturya'nın  RVS  13.03.41 ulusal bakım kılavuzu örneğinde olduğu gibi, ülkeler koruyucu b akım düzenlemeleri yaparak servis ömürlerini kullanmaya dayalı çalışmalara odaklanmalıdır.\n\nŞekil 118 . Ekipmanların Ortalama Kullanım Süreleri\n\nŞekil 119. Tünel Sistemleri ve Bileşenlerinin Ortalama Ömürleri\n\nŞek il 120 . İsviçre Tünellerinde Yıllık Yenileme Maliyetleri (Tek tüp;2 km)\n\nŞekil 121 . Avusturya Tünellerinde Yıllık Yenileme Maliyetleri (Çift tüp; 2,7 km)\n\nŞekil 122.USA Tünellerinde Yıllık Yenileme Maliyetleri (Çift Tüp; 3,2 km)\n\nŞekil 123 .Üç Farklı Ülkenin Yenileme Maliyetlerinin Karşılaştırılması",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_4027103235:pages=408-411;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L165",
+      "page_end": 411,
+      "page_start": 408,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q34": "SUPPORTED",
+        "5.5-Q35": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5-Q34",
+        "5.5-Q35"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 164,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "b9dfcf45ea91a4fbfa0d2982138206217b50f2310e5dbaa2ca3d70c1bec5d5e4",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_ab930d6893",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_fd97c102f28099dcfdca340258d23b097b7d9aacffa087d65813e5ffcd4fee6e",
+      "claim_text": "5.5.2. PERSONEL ve BAKIM MALİYETLERİNİ AZALTMA ÖNERİLERİ\nTüketimine Etkiyen Faktörler Son yıllarda enerji maliyetlerini azaltma yönünde ciddi başarılar sağlanmıştır ve bu eğilim gelecek yıllarda da devam edecektir. Fransa'da LED aydınlatma teknolojilerinin tünellerde kullanımı denenmektedir. İtalya'da reflektör malzeme kullanımı deneme aşamasındadır. Çift tüp olan tünellerde tünel portalları arası mesafenin 30 m'den az olmaması tavsiye edilerek bir tünelden atılan kirleticilerin diğer tünele girişi ve fazladan jet fan çalışması önlenmeye çalışılmaktadır. Ayrıca CFD ve model çalışmaları sayesinde havalandırma sistemlerinin daha verimli çalıştırılma seçenekleri üzerinde durulmaktadır.\n\n5.5.2. PERSONEL ve BAKIM MALİYETLERİNİ AZALTMA ÖNERİLERİ\n\nPersonel maliyetlerinden kasıt günlük bakım ve işletmeyi yapan personellerdir. Bunlar bakım masrafları kapsamındadır. Aşağıdaki uygulamalarla maliyetler azaltılabilir:\n\n Tünel  Kontrol  Merkezleri  belirli  alanlarda  toplanarak  tünellerin  gözetlemesi buradan sağlanabilir. Kurulacak SCADA  sistemleri basit, işletmesi kolay olmalıdır.\n\n Polis  ve  diğer  acil  durum  servislerine  tünel  bilgilerine  erişim  izni  verilmesi hususunda protokoller yapılarak kazalar ve olaylarla ilgili işbirliği kurulabilir.\n\n İmkân bulunursa araç tanıma sistemi ve gereken yerlerde ücret toplama sistemleri kurularak bunun için istihdam gereği ortadan kalkabilir.\n\n Koruyucu ve düzeltici  bakım  çalışmalarında  bakım  standartlarını  iyi  belirlemek gerekir. Düşük bakım standartları ile çalışmak kısa vadede fayda sağlasa da uzun vadede sorunlar ortay çıkabilir. Bu sebeple ekipmanların kullanım ömrüne göre en uygun bakım programları geliştirilmedir.\n\n Bakım çalışmalarının  programı  yapılırken  trafiğe  etkisi  iyi  düşünülmelidir.  Bazı durumlarda  gece  bakım  yapmak  avantajlı  olsa  da  çalışan  personelin  vardiya ücretleri yüksek olacağından iki ihtimalde de en uygun yöntem düşünülmelidi r.\n\n Bakım  çalışmalarını  devletin  kendi  personeliyle  yapması  mı  yoksa  ihale  ile yapılması  mı  konusunda  maliyetler  düşünülerek  devletin  kısa,  orta,  uzun  vade planları iyi yapılmalıdır.\n\n Genel  olarak  kullanılacak  ekipman  ve  sistemin  ilk  yatırım  maliyetleri  ön celik verilerek sistem kurulumu yapılmaktadır. Sistem ve ekipman seçimlerinde bakımları,  kullanım  ömürleri  v.b.  etkiler  de  hesaba  katılarak  optimum  fayda sağlayacak ürünler seçilmelidir.\n\n Çevresel faktörler ve iklim göz önüne alınarak bakım masraflarını azaltacak bazı kurallar  alınabilir.  Örneğin  bazı  bölgelerde  çetin  kış  koşulları  olduğunda  çivili, zincirli lastikler kullanılır ve bunların tünel içinde asfalta ciddi zararı olmaktadır. Bunların tünel içerisinde kullanımı yasaklanarak asfalt bakım maliyetler i azaltılabilir.\n\n Dizayn  aşamasında  tünelin  her  noktasına  erişimin  kolay  olması  sağlanmalıdır. Tünel köşelerinde toz birikmesini engelleyecek tasarımlar yapılmalıdır.",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_ab930d6893:pages=407-408;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L164",
+      "page_end": 408,
+      "page_start": 407,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5-Q09": "SUPPORTED",
+        "5.5-Q48": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5-Q09",
+        "5.5-Q48"
+      ]
+    }
+  ],
+  "contract_version": "section-preparation-v1",
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "registry_id": "SCR_018636c5131019477344468419f9b9fff72be379433821acb0a9302cbba15397",
+  "schema_version": "1.0",
+  "section_id": "5.5",
+  "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetleri"
+}

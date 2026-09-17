@@ -1,0 +1,32 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_dbb4c155e9d46ab4fc3f",
+  "original_sha256": "dbb4c155e9d46ab4fc3f24ce12a19384b150335b3e341a8e2a06e1d0d63de306",
+  "source_kind": "MANUAL_INTERNAL",
+  "format": "DOCX",
+  "title": "7- Yapım Sözleşme",
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.6694,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": true,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_dbb4c155e9d46ab4fc3f",
+  "original_archive": "originals/ING_dbb4c155e9d46ab4fc3f",
+  "chunks_authoritative_path": "processing/ING_dbb4c155e9d46ab4fc3f/chunks/chunk_manifest.jsonl",
+  "chunk_count": 4,
+  "chunk_quality_status": "PASS",
+  "canonical_promoted": false
+}

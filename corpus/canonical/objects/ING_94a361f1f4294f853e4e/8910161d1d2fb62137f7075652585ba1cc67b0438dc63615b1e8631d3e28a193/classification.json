@@ -1,0 +1,136 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.4.2",
+    "5.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0069",
+        "LIST0070",
+        "LIST0071"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "LIST0004",
+        "LIST0007",
+        "LIST0051",
+        "LIST0054"
+      ]
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0069",
+        "LIST0070",
+        "LIST0071"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9.2",
+      "score": 0.7346,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8137,
+      "chunk_vote": 0.0641
+    },
+    {
+      "id": "5.1",
+      "score": 0.7011,
+      "rule_score": 0.5,
+      "embedding_score": 0.8137,
+      "chunk_vote": 0.0498
+    },
+    {
+      "id": "5.4",
+      "score": 0.6896,
+      "rule_score": 0.5,
+      "embedding_score": 0.8103,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.4781,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.6406
+    },
+    {
+      "id": "1",
+      "score": 0.3738,
+      "rule_score": 0.0,
+      "embedding_score": 0.8108,
+      "chunk_vote": 0.0448
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3649,
+      "rule_score": 0.0,
+      "embedding_score": 0.8109,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3649,
+      "rule_score": 0.0,
+      "embedding_score": 0.8109,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3649,
+      "rule_score": 0.0,
+      "embedding_score": 0.8109,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3643,
+      "rule_score": 0.0,
+      "embedding_score": 0.8096,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.3449,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0747
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC Yol Tünelleri El Kitabı'ndaki 'Ekipman ve Sistemler' bölümüne aittir. Bu bölüm, tünellerin işletme ve bakım süreçlerinde kullanılan teknik altyapıyı (trafik yönetimi, acil durum sistemleri vb.) tanımlamaktadır. Aday listesindeki '5.4: Tünel Bakım-Onarım ve İşletme' başlığı, bu teknik sistemlerin işletme ve bakım bağlamındaki yerini en iyi karşılayan ana kategoridir. '5.4.2: Elektrik-E",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:4",
+    "embeddings:8",
+    "top=5.9.2:0.7346 gap=0.034 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

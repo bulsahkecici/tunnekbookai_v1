@@ -1,0 +1,36 @@
+{
+  "document_id": "ING_05d2478cb1670abeea8e",
+  "format": "HTML",
+  "adapter": "text",
+  "normalized_markdown_path": "processing/ING_05d2478cb1670abeea8e/normalized/document.md",
+  "normalized_json_path": "processing/ING_05d2478cb1670abeea8e/normalized/document.json",
+  "normalized_text_path": "processing/ING_05d2478cb1670abeea8e/normalized/document.txt",
+  "pages": [],
+  "figures": [],
+  "tables": [],
+  "charts": [],
+  "slides": [],
+  "sheets": [],
+  "ocr_items": [],
+  "text_elements": 32,
+  "warnings": [],
+  "errors": [],
+  "capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": false,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "engine": {
+    "native_parser": "python",
+    "encoding": "utf-8"
+  },
+  "page_count": 0,
+  "text_char_count": 1289
+}

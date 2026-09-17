@@ -1,0 +1,55 @@
+{
+  "document_id": "ING_3b434b03f09745ed6d9c",
+  "format": "JPG",
+  "adapter": "image",
+  "normalized_markdown_path": "processing/ING_3b434b03f09745ed6d9c/normalized/document.md",
+  "normalized_json_path": "processing/ING_3b434b03f09745ed6d9c/normalized/document.json",
+  "normalized_text_path": "processing/ING_3b434b03f09745ed6d9c/normalized/document.txt",
+  "pages": [],
+  "figures": [
+    "FIG0001"
+  ],
+  "tables": [],
+  "charts": [],
+  "slides": [],
+  "sheets": [],
+  "ocr_items": [
+    {
+      "ocr_item_id": "OCRFIG0001",
+      "scope": "FIGURE",
+      "page": 1,
+      "asset_id": "FIG0001",
+      "ocr_status": "EMPTY",
+      "ocr_engine": "rapidocr_torch",
+      "ocr_languages": [
+        "tr",
+        "en"
+      ],
+      "ocr_text": null,
+      "ocr_confidence": null
+    }
+  ],
+  "text_elements": 2,
+  "warnings": [
+    "OCR_EMPTY_TEXT_IMAGE"
+  ],
+  "errors": [],
+  "capabilities": {
+    "text": false,
+    "tables": false,
+    "figures": true,
+    "page_snapshots": false,
+    "ocr": false,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "engine": {
+    "native_parser": "pillow",
+    "ocr_engine": "rapidocr_torch"
+  },
+  "page_count": 1,
+  "text_char_count": 0
+}

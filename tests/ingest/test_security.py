@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import contextlib
 import io
+import json
 import unittest
 from types import SimpleNamespace
 from unittest import mock
@@ -145,6 +146,45 @@ class ArbiterSecurityTests(unittest.TestCase):
             "llm": {"model": "configured-model", "default_endpoint": "https://api.openai.com/v1"}})
         with self.assertRaises(RemoteEndpointRejected):
             arbitrate("metin", [{"id": "1.1", "score": 0.5}], load_taxonomy(), config)
+
+    def test_chat_request_disables_reasoning_and_enforces_schema(self):
+        captured = {}
+
+        class Response:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *_args):
+                return False
+
+            def read(self):
+                return json.dumps({
+                    "choices": [{"message": {"content": '{"ok": true}'}}]
+                }).encode("utf-8")
+
+        def fake_open(request, timeout):
+            captured["payload"] = json.loads(request.data.decode("utf-8"))
+            captured["timeout"] = timeout
+            return Response()
+
+        client = LocalChatClient("http://127.0.0.1:1234/v1", timeout=12)
+        with mock.patch("urllib.request.urlopen", side_effect=fake_open):
+            result = client.chat_json(
+                "configured-model",
+                "system",
+                "user",
+                response_schema={
+                    "type": "object",
+                    "properties": {"ok": {"type": "boolean"}},
+                    "required": ["ok"],
+                },
+                max_tokens=128,
+            )
+        self.assertEqual(result, {"ok": True})
+        self.assertEqual(captured["payload"]["reasoning_effort"], "none")
+        self.assertEqual(captured["payload"]["max_tokens"], 128)
+        self.assertEqual(captured["payload"]["response_format"]["type"], "json_schema")
+        self.assertEqual(captured["timeout"], 12)
 
 
 class DoclingSecurityTests(unittest.TestCase):

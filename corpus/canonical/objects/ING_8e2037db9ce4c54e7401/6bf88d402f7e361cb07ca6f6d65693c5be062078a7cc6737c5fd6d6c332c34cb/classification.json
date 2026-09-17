@@ -1,0 +1,163 @@
+{
+  "final_primary_section": "5.9.2",
+  "final_secondary_sections": [
+    "5.9"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0034",
+        "LIST0071",
+        "LIST0086",
+        "LIST0110",
+        "LIST0118",
+        "LIST0129",
+        "LIST0144",
+        "LIST0153",
+        "LIST0162",
+        "LIST0169",
+        "LIST0171",
+        "PARA0016",
+        "LIST0188",
+        "LIST0193",
+        "LIST0194",
+        "LIST0237",
+        "LIST0250",
+        "LIST0254",
+        "LIST0265",
+        "LIST0287",
+        "LIST0295",
+        "LIST0317",
+        "LIST0326",
+        "LIST0329",
+        "LIST0337"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0034",
+        "LIST0071",
+        "LIST0086",
+        "LIST0110",
+        "LIST0118",
+        "LIST0129",
+        "LIST0144",
+        "LIST0153",
+        "LIST0162",
+        "LIST0169",
+        "LIST0171",
+        "PARA0016",
+        "LIST0188",
+        "LIST0193",
+        "LIST0194",
+        "LIST0237",
+        "LIST0250",
+        "LIST0254",
+        "LIST0265",
+        "LIST0287",
+        "LIST0295",
+        "LIST0317",
+        "LIST0326",
+        "LIST0329",
+        "LIST0337"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9",
+      "score": 0.6858,
+      "rule_score": 0.5,
+      "embedding_score": 0.7918,
+      "chunk_vote": 0.0222
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.6857,
+      "rule_score": 0.5,
+      "embedding_score": 0.7968,
+      "chunk_vote": 0.0106
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3877,
+      "rule_score": 0.0,
+      "embedding_score": 0.8079,
+      "chunk_vote": 0.1206
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3663,
+      "rule_score": 0.0,
+      "embedding_score": 0.8139,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.3647,
+      "rule_score": 0.0,
+      "embedding_score": 0.7935,
+      "chunk_vote": 0.0381
+    },
+    {
+      "id": "2",
+      "score": 0.36,
+      "rule_score": 0.0,
+      "embedding_score": 0.793,
+      "chunk_vote": 0.0159
+    },
+    {
+      "id": "6.2",
+      "score": 0.355,
+      "rule_score": 0.0,
+      "embedding_score": 0.7888,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.354,
+      "rule_score": 0.0,
+      "embedding_score": 0.7866,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.345,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1969
+    },
+    {
+      "id": "5.6",
+      "score": 0.2927,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0884
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, demiryolu tünel püskürtme betonu üzerine uluslararası akademik makaleleri (Tunnelling and Underground Space Technology, Composite Structures vb.) içeren bir literatür taramasıdır. Bu nedenle 'Uluslararası Literatür Taraması' (5.9.2) birincil, 'Ulusal ve Uluslararası Literatür Taraması' (5.9) ikincil bölümdür.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.9:0.6858 gap=0.000 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,710 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_22761cf1a20ff58e582bb86b55f98b57bc33a5edb6606a4d6d4c460e53cdc493",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 32,
+    "SUPPORTED": 1,
+    "UNSUPPORTED": 17
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_06ac0cf480b79f1cbf637bd8072c853e54ff4d59bf82e1b914441c56edc2a2b9",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_81c35c75a4885335a33b413829198283330e36575b04dbe51dda4929e7e96c57",
+        "CLM_86910b9855f15d2becbc1af39d7f6e473e5ea6886ad594329bb50113fb512d23",
+        "CLM_9990e31b8105a6a033b4cbcc1125f4aeac79c0cbb34d7d6ac48bc794009cf1d3"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için araştırmanın en temel bulgusu nedir?",
+      "question_id": "7.2-Q01",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri için kullanılan veri setinin temel büyüklüğü ve kapsamı nedir?",
+      "question_id": "7.2-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f221fd24b2d9231fa8cdbc1224427d597e67de71716be4b9c19c993ac7646427",
+        "CLM_3b9ddc4beb417892d7b96d34201443b3aa3462d01f5704a24f5b2e25619615e8",
+        "CLM_edc01a62305c2fa20536307a8c145fbb670e105ce0a23bffab72748f4de8fa23"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için temel tanımlayıcı istatistikler ne göstermektedir?",
+      "question_id": "7.2-Q03",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri için ortalama, medyan ve dağılım ölçüleri nasıl farklılaşmaktadır?",
+      "question_id": "7.2-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f221fd24b2d9231fa8cdbc1224427d597e67de71716be4b9c19c993ac7646427",
+        "CLM_e229fb37cc3b93d21646a76f722ae614ee238d90073db8e350b941f191adcbe6",
+        "CLM_edc01a62305c2fa20536307a8c145fbb670e105ce0a23bffab72748f4de8fa23"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için birim maliyetlerin dağılımı nasıldır?",
+      "question_id": "7.2-Q05",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3b9ddc4beb417892d7b96d34201443b3aa3462d01f5704a24f5b2e25619615e8",
+        "CLM_91f177ff5db521f699f7e6424dd3b3d2358029e7c870691cc6c4111163c9ef87"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için en düşük ve en yüksek değerler hangi koşullarda görülmüştür?",
+      "question_id": "7.2-Q06",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b53babb3a26546d74595ade023be79bff41c78dc4cad035b8542dc149c3cd265",
+        "CLM_0d00ccd5b01038fb2d5f7cecd14389479f6c8fcb09ea652a04b0bb3073e8530e"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için aykırı değerler hangi projelerde veya gruplarda görülmüştür?",
+      "question_id": "7.2-Q07",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri tünel uzunluğuna göre nasıl değişmektedir?",
+      "question_id": "7.2-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f221fd24b2d9231fa8cdbc1224427d597e67de71716be4b9c19c993ac7646427",
+        "CLM_5bdc3eeae5465b44d0c5ff63c6e82fc14995e326a2b964d89c5990618c74b180"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri tünel genişliği veya kesitine göre nasıl değişmektedir?",
+      "question_id": "7.2-Q09",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9b67d359eb8b627502114796c664983e5b2856155bb58121dfb0f7e41fd64686"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri tüp sayısına göre nasıl değişmektedir?",
+      "question_id": "7.2-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri şerit sayısına göre nasıl değişmektedir?",
+      "question_id": "7.2-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri trafik akış tipine göre nasıl değişmektedir?",
+      "question_id": "7.2-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f221fd24b2d9231fa8cdbc1224427d597e67de71716be4b9c19c993ac7646427",
+        "CLM_c7e830e83d960c042425c92ffbdf59e50365a7f126e14b3cffb9205e91dbdbfb",
+        "CLM_3573fc65d56280aa61c18243615bec48d4dcc72a1bec43db21a0bc576a536a90"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri yapım yöntemine göre nasıl değişmektedir?",
+      "question_id": "7.2-Q13",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_81c35c75a4885335a33b413829198283330e36575b04dbe51dda4929e7e96c57",
+        "CLM_b3ee3ba2df9e3ab3b0e07f527398a366fade0c4f9c6ea6377e308a6612cffcc2",
+        "CLM_2c897225c6c91165a0fd8484a3a7f8d4e2e063eda40cb2228797e6493fa85815"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri zemin veya kaya sınıfına göre nasıl değişmektedir?",
+      "question_id": "7.2-Q14",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri yapım süresine göre nasıl değişmektedir?",
+      "question_id": "7.2-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri coğrafi konuma veya bölgeye göre nasıl değişmektedir?",
+      "question_id": "7.2-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_736bccc3eb7680bfcb23a7e26abcdfe437835d8878c422b80cc0783c03f7abc1",
+        "CLM_40a1ce4376c75eb4ff54b9947682d1dde4f5b315bcd2a60f81a7447d71b9b036",
+        "CLM_5dae7e4ed60a13303e2972e6111a4a1891f7e912744980d396cbe6b24aac35bb"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri tünelin hizmet yaşı ile nasıl ilişkilidir?",
+      "question_id": "7.2-Q17",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_91f177ff5db521f699f7e6424dd3b3d2358029e7c870691cc6c4111163c9ef87",
+        "CLM_29227cf108f8ee8a58560707e1da8ed6c43257d711da3821cf31cc0c1602958a",
+        "CLM_84452668f1a056137b91b1db6c20c9f600a467613066500e3aff1c3df9df5269"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri bakım sıklığı ile nasıl ilişkilidir?",
+      "question_id": "7.2-Q18",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri elektromekanik donanım düzeyi ile nasıl ilişkilidir?",
+      "question_id": "7.2-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_736bccc3eb7680bfcb23a7e26abcdfe437835d8878c422b80cc0783c03f7abc1",
+        "CLM_e9b091240d9b5d661a5c1ed3cea728f17dfe49ca436680ef1065d56d9cee408b"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri enerji tüketimi ile nasıl ilişkilidir?",
+      "question_id": "7.2-Q20",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_81c35c75a4885335a33b413829198283330e36575b04dbe51dda4929e7e96c57",
+        "CLM_b3ee3ba2df9e3ab3b0e07f527398a366fade0c4f9c6ea6377e308a6612cffcc2"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için hangi değişkenlerle anlamlı ilişkiler bulunmuştur?",
+      "question_id": "7.2-Q21",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri için hangi değişkenlerle anlamlı ilişki bulunmamıştır?",
+      "question_id": "7.2-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3b9ddc4beb417892d7b96d34201443b3aa3462d01f5704a24f5b2e25619615e8",
+        "CLM_f221fd24b2d9231fa8cdbc1224427d597e67de71716be4b9c19c993ac7646427"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için korelasyon sonuçları ne göstermektedir?",
+      "question_id": "7.2-Q23",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3b9ddc4beb417892d7b96d34201443b3aa3462d01f5704a24f5b2e25619615e8",
+        "CLM_8bf150b7f59976520f1e26e1d61933db9ac76f02d81a2bd2327046ac6b8ae8b3",
+        "CLM_13ede7d4135f354a22875c8d461bc203a44a82325480647ea8220f618d70ce3d"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için grup karşılaştırmaları ne göstermektedir?",
+      "question_id": "7.2-Q24",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3b9ddc4beb417892d7b96d34201443b3aa3462d01f5704a24f5b2e25619615e8",
+        "CLM_86910b9855f15d2becbc1af39d7f6e473e5ea6886ad594329bb50113fb512d23",
+        "CLM_0c441e961f24c38c7c1d256339e6aff2fd0da2c8566d9f48f9bc53875132a47d"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için regresyon veya tahmin modeli sonuçları ne göstermektedir?",
+      "question_id": "7.2-Q25",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_81c35c75a4885335a33b413829198283330e36575b04dbe51dda4929e7e96c57",
+        "CLM_b3ee3ba2df9e3ab3b0e07f527398a366fade0c4f9c6ea6377e308a6612cffcc2",
+        "CLM_e06ce93f7d578a95f09037bc5f408ab443185f0bab65f1f49b5e7bd8e0c48026",
+        "CLM_9990e31b8105a6a033b4cbcc1125f4aeac79c0cbb34d7d6ac48bc794009cf1d3"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için modelde en etkili değişkenler hangileridir?",
+      "question_id": "7.2-Q26",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri için modelin açıklama veya tahmin başarısı ne düzeydedir?",
+      "question_id": "7.2-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_002bffd29c3391715fcb1aecf68cd6768cc3722de78d7964d74e9cb33b512752",
+        "CLM_4a37a42392fe9c0cc1f3b9b0d1a96f5716814339ea0ce2cb23c9de19fb904a0d"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için model hataları hangi durumlarda artmaktadır?",
+      "question_id": "7.2-Q28",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri için sonuçların güven aralıkları veya belirsizlik düzeyi nedir?",
+      "question_id": "7.2-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri için duyarlılık analizleri ana sonucu değiştiriyor mu?",
+      "question_id": "7.2-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_13ede7d4135f354a22875c8d461bc203a44a82325480647ea8220f618d70ce3d",
+        "CLM_e229fb37cc3b93d21646a76f722ae614ee238d90073db8e350b941f191adcbe6"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için farklı model veya yöntemler benzer sonuç veriyor mu?",
+      "question_id": "7.2-Q31",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri için bulunan sonuçlar ulusal literatürle uyumlu mudur?",
+      "question_id": "7.2-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri için bulunan sonuçlar uluslararası literatürle uyumlu mudur?",
+      "question_id": "7.2-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri için literatürden farklılaşan bulgular nasıl açıklanabilir?",
+      "question_id": "7.2-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_81c35c75a4885335a33b413829198283330e36575b04dbe51dda4929e7e96c57",
+        "CLM_48d2d46181c93642e3981bdf68e476e86e34af17b5276a61feb45a2049fb5081",
+        "CLM_b3ee3ba2df9e3ab3b0e07f527398a366fade0c4f9c6ea6377e308a6612cffcc2"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için teknik açıdan en önemli maliyet sürücüleri hangileridir?",
+      "question_id": "7.2-Q35",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_81c35c75a4885335a33b413829198283330e36575b04dbe51dda4929e7e96c57",
+        "CLM_48d2d46181c93642e3981bdf68e476e86e34af17b5276a61feb45a2049fb5081",
+        "CLM_b3ee3ba2df9e3ab3b0e07f527398a366fade0c4f9c6ea6377e308a6612cffcc2"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için yönetimsel açıdan en önemli maliyet sürücüleri hangileridir?",
+      "question_id": "7.2-Q36",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_91f177ff5db521f699f7e6424dd3b3d2358029e7c870691cc6c4111163c9ef87",
+        "CLM_4e6576ee445983ab7230fd281c8b6cad399f32df2f91989b74ccbe4729bf55d4",
+        "CLM_a761e73d484f44a570a19631a189b6582904d4b3257d1c2acc07b6bb4c19b798"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için kontrol edilebilir maliyet sürücüleri hangileridir?",
+      "question_id": "7.2-Q37",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_91f177ff5db521f699f7e6424dd3b3d2358029e7c870691cc6c4111163c9ef87",
+        "CLM_81c35c75a4885335a33b413829198283330e36575b04dbe51dda4929e7e96c57",
+        "CLM_95a0ee421be5fd283ae7872afa2550054db7f98f0dd46b15a82fc649cfd997a4",
+        "CLM_b3ee3ba2df9e3ab3b0e07f527398a366fade0c4f9c6ea6377e308a6612cffcc2"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için kontrol edilmesi zor maliyet sürücüleri hangileridir?",
+      "question_id": "7.2-Q38",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_736bccc3eb7680bfcb23a7e26abcdfe437835d8878c422b80cc0783c03f7abc1",
+        "CLM_9b67d359eb8b627502114796c664983e5b2856155bb58121dfb0f7e41fd64686",
+        "CLM_8207342676326e51699d0f96e85f780f6d298cce2614417a2990415ad6a1ee78"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için hangi maliyet azaltma fırsatları belirlenmiştir?",
+      "question_id": "7.2-Q39",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a4c6e0b741f08f93e4212c4098c038c1ee40e9a4c4566262b00e41307acb0512",
+        "CLM_91f177ff5db521f699f7e6424dd3b3d2358029e7c870691cc6c4111163c9ef87",
+        "CLM_736bccc3eb7680bfcb23a7e26abcdfe437835d8878c422b80cc0783c03f7abc1",
+        "CLM_27bb70ddba3f9c0f69a71a231185450207d5d139570bee953c98b6a045ec6d41"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için maliyet azaltma önerileri güvenlikten ödün vermeden nasıl uygulanabilir?",
+      "question_id": "7.2-Q40",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_736bccc3eb7680bfcb23a7e26abcdfe437835d8878c422b80cc0783c03f7abc1",
+        "CLM_9b67d359eb8b627502114796c664983e5b2856155bb58121dfb0f7e41fd64686",
+        "CLM_00ac28a60309e3fefa3378a8dd876732fec545500c9d62bc28abd331855fd92e",
+        "CLM_8207342676326e51699d0f96e85f780f6d298cce2614417a2990415ad6a1ee78"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için kısa vadeli öneriler nelerdir?",
+      "question_id": "7.2-Q41",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_00ac28a60309e3fefa3378a8dd876732fec545500c9d62bc28abd331855fd92e",
+        "CLM_8207342676326e51699d0f96e85f780f6d298cce2614417a2990415ad6a1ee78",
+        "CLM_736bccc3eb7680bfcb23a7e26abcdfe437835d8878c422b80cc0783c03f7abc1",
+        "CLM_3b9ddc4beb417892d7b96d34201443b3aa3462d01f5704a24f5b2e25619615e8"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için orta vadeli öneriler nelerdir?",
+      "question_id": "7.2-Q42",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_736bccc3eb7680bfcb23a7e26abcdfe437835d8878c422b80cc0783c03f7abc1",
+        "CLM_8207342676326e51699d0f96e85f780f6d298cce2614417a2990415ad6a1ee78",
+        "CLM_00ac28a60309e3fefa3378a8dd876732fec545500c9d62bc28abd331855fd92e",
+        "CLM_95a0ee421be5fd283ae7872afa2550054db7f98f0dd46b15a82fc649cfd997a4"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için uzun vadeli öneriler nelerdir?",
+      "question_id": "7.2-Q43",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri için veri toplama sisteminde hangi iyileştirmeler önerilmektedir?",
+      "question_id": "7.2-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_736bccc3eb7680bfcb23a7e26abcdfe437835d8878c422b80cc0783c03f7abc1",
+        "CLM_91f177ff5db521f699f7e6424dd3b3d2358029e7c870691cc6c4111163c9ef87",
+        "CLM_e2b9ca898db07356e621b78dbf8b336c5cda6eee30452d89fe7bbd5054a966ef",
+        "CLM_660b025b34366dd2cf1660ae6b873f74648f0eabb4d0cbf700ef48d3d3ed897c"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapım Maliyetleri için bakım, proje veya işletme süreçlerinde hangi iyileştirmeler önerilmektedir?",
+      "question_id": "7.2-Q45",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_81c35c75a4885335a33b413829198283330e36575b04dbe51dda4929e7e96c57",
+        "CLM_86910b9855f15d2becbc1af39d7f6e473e5ea6886ad594329bb50113fb512d23",
+        "CLM_9a8f59d94fa086626bf615ef8c6954b4a5ff2f158d6358c3f6752f55f921b9ce"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için karar vericilerin takip etmesi gereken temel göstergeler nelerdir?",
+      "question_id": "7.2-Q46",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_86910b9855f15d2becbc1af39d7f6e473e5ea6886ad594329bb50113fb512d23",
+        "CLM_8bf150b7f59976520f1e26e1d61933db9ac76f02d81a2bd2327046ac6b8ae8b3",
+        "CLM_13ede7d4135f354a22875c8d461bc203a44a82325480647ea8220f618d70ce3d"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için sonuçların hangi tünel gruplarına genellenebileceği söylenebilir?",
+      "question_id": "7.2-Q47",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Maliyetleri için genelleme yapılamayacak durumlar nelerdir?",
+      "question_id": "7.2-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9990e31b8105a6a033b4cbcc1125f4aeac79c0cbb34d7d6ac48bc794009cf1d3",
+        "CLM_cd72f813164d34c2c8faf854a8189a6e5e4ab2b81cac0f773b8b7f572be4a30e",
+        "CLM_50126e85f8a250789415a3cf5cc38b086833b20db8f585cec657e0aa0f56b6c2"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için araştırmanın başlıca sınırlılıkları sonuçların yorumunu nasıl etkiler?",
+      "question_id": "7.2-Q49",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_16c03db5f0fcdf250a572973c336f97d89d6b66dad27715936745eb72c203af3"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Maliyetleri için gelecekte hangi veri ve analizlerle bulgular güçlendirilebilir?",
+      "question_id": "7.2-Q50",
+      "reason_code": "PARTIAL_ONLY"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "7.2",
+  "section_title": "Tünel Yapım Maliyetleri",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_002bffd29c3391715fcb1aecf68cd6768cc3722de78d7964d74e9cb33b512752",
+      "CLM_00ac28a60309e3fefa3378a8dd876732fec545500c9d62bc28abd331855fd92e",
+      "CLM_0c441e961f24c38c7c1d256339e6aff2fd0da2c8566d9f48f9bc53875132a47d",
+      "CLM_0d00ccd5b01038fb2d5f7cecd14389479f6c8fcb09ea652a04b0bb3073e8530e",
+      "CLM_13ede7d4135f354a22875c8d461bc203a44a82325480647ea8220f618d70ce3d",
+      "CLM_16c03db5f0fcdf250a572973c336f97d89d6b66dad27715936745eb72c203af3",
+      "CLM_27bb70ddba3f9c0f69a71a231185450207d5d139570bee953c98b6a045ec6d41",
+      "CLM_29227cf108f8ee8a58560707e1da8ed6c43257d711da3821cf31cc0c1602958a",
+      "CLM_2c897225c6c91165a0fd8484a3a7f8d4e2e063eda40cb2228797e6493fa85815",
+      "CLM_3573fc65d56280aa61c18243615bec48d4dcc72a1bec43db21a0bc576a536a90",
+      "CLM_3b9ddc4beb417892d7b96d34201443b3aa3462d01f5704a24f5b2e25619615e8",
+      "CLM_40a1ce4376c75eb4ff54b9947682d1dde4f5b315bcd2a60f81a7447d71b9b036",
+      "CLM_48d2d46181c93642e3981bdf68e476e86e34af17b5276a61feb45a2049fb5081",
+      "CLM_4a37a42392fe9c0cc1f3b9b0d1a96f5716814339ea0ce2cb23c9de19fb904a0d",
+      "CLM_4e6576ee445983ab7230fd281c8b6cad399f32df2f91989b74ccbe4729bf55d4",
+      "CLM_50126e85f8a250789415a3cf5cc38b086833b20db8f585cec657e0aa0f56b6c2",
+      "CLM_5bdc3eeae5465b44d0c5ff63c6e82fc14995e326a2b964d89c5990618c74b180",
+      "CLM_5dae7e4ed60a13303e2972e6111a4a1891f7e912744980d396cbe6b24aac35bb",
+      "CLM_660b025b34366dd2cf1660ae6b873f74648f0eabb4d0cbf700ef48d3d3ed897c",
+      "CLM_736bccc3eb7680bfcb23a7e26abcdfe437835d8878c422b80cc0783c03f7abc1",
+      "CLM_81c35c75a4885335a33b413829198283330e36575b04dbe51dda4929e7e96c57",
+      "CLM_8207342676326e51699d0f96e85f780f6d298cce2614417a2990415ad6a1ee78",
+      "CLM_84452668f1a056137b91b1db6c20c9f600a467613066500e3aff1c3df9df5269",
+      "CLM_86910b9855f15d2becbc1af39d7f6e473e5ea6886ad594329bb50113fb512d23",
+      "CLM_8bf150b7f59976520f1e26e1d61933db9ac76f02d81a2bd2327046ac6b8ae8b3",
+      "CLM_91f177ff5db521f699f7e6424dd3b3d2358029e7c870691cc6c4111163c9ef87",
+      "CLM_95a0ee421be5fd283ae7872afa2550054db7f98f0dd46b15a82fc649cfd997a4",
+      "CLM_9990e31b8105a6a033b4cbcc1125f4aeac79c0cbb34d7d6ac48bc794009cf1d3",
+      "CLM_9a8f59d94fa086626bf615ef8c6954b4a5ff2f158d6358c3f6752f55f921b9ce",
+      "CLM_9b67d359eb8b627502114796c664983e5b2856155bb58121dfb0f7e41fd64686",
+      "CLM_a4c6e0b741f08f93e4212c4098c038c1ee40e9a4c4566262b00e41307acb0512",
+      "CLM_a761e73d484f44a570a19631a189b6582904d4b3257d1c2acc07b6bb4c19b798",
+      "CLM_b3ee3ba2df9e3ab3b0e07f527398a366fade0c4f9c6ea6377e308a6612cffcc2",
+      "CLM_b53babb3a26546d74595ade023be79bff41c78dc4cad035b8542dc149c3cd265",
+      "CLM_c7e830e83d960c042425c92ffbdf59e50365a7f126e14b3cffb9205e91dbdbfb",
+      "CLM_cd72f813164d34c2c8faf854a8189a6e5e4ab2b81cac0f773b8b7f572be4a30e",
+      "CLM_e06ce93f7d578a95f09037bc5f408ab443185f0bab65f1f49b5e7bd8e0c48026",
+      "CLM_e229fb37cc3b93d21646a76f722ae614ee238d90073db8e350b941f191adcbe6",
+      "CLM_e2b9ca898db07356e621b78dbf8b336c5cda6eee30452d89fe7bbd5054a966ef",
+      "CLM_e9b091240d9b5d661a5c1ed3cea728f17dfe49ca436680ef1065d56d9cee408b",
+      "CLM_edc01a62305c2fa20536307a8c145fbb670e105ce0a23bffab72748f4de8fa23",
+      "CLM_f221fd24b2d9231fa8cdbc1224427d597e67de71716be4b9c19c993ac7646427"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "7.2-Q01",
+      "7.2-Q03",
+      "7.2-Q05",
+      "7.2-Q06",
+      "7.2-Q07",
+      "7.2-Q09",
+      "7.2-Q10",
+      "7.2-Q13",
+      "7.2-Q14",
+      "7.2-Q17",
+      "7.2-Q18",
+      "7.2-Q20",
+      "7.2-Q21",
+      "7.2-Q23",
+      "7.2-Q24",
+      "7.2-Q25",
+      "7.2-Q26",
+      "7.2-Q28",
+      "7.2-Q31",
+      "7.2-Q35",
+      "7.2-Q36",
+      "7.2-Q37",
+      "7.2-Q38",
+      "7.2-Q39",
+      "7.2-Q40",
+      "7.2-Q41",
+      "7.2-Q42",
+      "7.2-Q43",
+      "7.2-Q46",
+      "7.2-Q47",
+      "7.2-Q49",
+      "7.2-Q50"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "7.2-Q02",
+      "7.2-Q04",
+      "7.2-Q08",
+      "7.2-Q11",
+      "7.2-Q12",
+      "7.2-Q15",
+      "7.2-Q16",
+      "7.2-Q19",
+      "7.2-Q22",
+      "7.2-Q27",
+      "7.2-Q29",
+      "7.2-Q30",
+      "7.2-Q32",
+      "7.2-Q33",
+      "7.2-Q34",
+      "7.2-Q44",
+      "7.2-Q48"
+    ]
+  }
+}

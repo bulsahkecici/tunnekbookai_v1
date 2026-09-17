@@ -1,0 +1,186 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.2.1",
+    "2",
+    "2.4.2"
+  ],
+  "final_section_confidence": 0.92,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0004",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0011",
+        "PARA0012",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "PARA0017",
+        "PARA0018",
+        "FIG0007",
+        "CAPT0002",
+        "PARA0019",
+        "PARA0020",
+        "PARA0025",
+        "PARA0031",
+        "PARA0033",
+        "HEAD0012",
+        "PARA0034",
+        "PARA0037",
+        "FIG0014",
+        "CAPT0011",
+        "PARA0038"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "LIST0011",
+        "LIST0044",
+        "LIST0045",
+        "LIST0048",
+        "LIST0050",
+        "LIST0054"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0004",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0011",
+        "PARA0012",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "PARA0017",
+        "PARA0018",
+        "FIG0007",
+        "CAPT0002",
+        "PARA0019",
+        "PARA0020",
+        "PARA0025",
+        "PARA0031",
+        "PARA0033",
+        "HEAD0012",
+        "PARA0034",
+        "PARA0037",
+        "FIG0014",
+        "CAPT0011",
+        "PARA0038"
+      ]
+    },
+    {
+      "section_id": "2.4.2",
+      "section_title": "Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "PARA0008",
+        "LIST0015",
+        "LIST0057"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.8007,
+      "rule_score": 0.6,
+      "embedding_score": 0.7724,
+      "chunk_vote": 0.3654
+    },
+    {
+      "id": "2.2",
+      "score": 0.7122,
+      "rule_score": 0.5,
+      "embedding_score": 0.7765,
+      "chunk_vote": 0.1891
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.6305,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7661,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3535,
+      "rule_score": 0.0,
+      "embedding_score": 0.7688,
+      "chunk_vote": 0.0379
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3512,
+      "rule_score": 0.0,
+      "embedding_score": 0.7805,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.346,
+      "rule_score": 0.0,
+      "embedding_score": 0.7688,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.1",
+      "score": 0.3452,
+      "rule_score": 0.0,
+      "embedding_score": 0.7671,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3447,
+      "rule_score": 0.0,
+      "embedding_score": 0.7659,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3296,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1201
+    },
+    {
+      "id": "2.4",
+      "score": 0.2864,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0569
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, sıkışan kaya koşullarında klasik kazı ve TBM yöntemlerinin karşılaştırılmasını içermekte olup, bu doğrudan 'Tünel Yapım Yöntemleri' (2.2) başlığına aittir. Kayaç zeminde açılan tünel olması nedeniyle 2.2.1 ve ana başlık 2 de ikincil olarak listelenmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.8007 gap=0.088 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

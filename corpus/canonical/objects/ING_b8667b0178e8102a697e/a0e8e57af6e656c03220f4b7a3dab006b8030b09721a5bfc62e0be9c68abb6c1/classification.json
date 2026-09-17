@@ -1,0 +1,197 @@
+{
+  "final_primary_section": "2.4.1",
+  "final_secondary_sections": [
+    "2.1",
+    "2.2.1",
+    "2.4.2.1"
+  ],
+  "final_section_confidence": 0.92,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": [
+        "PARA0003",
+        "PARA0004",
+        "PARA0033",
+        "PARA0034",
+        "PARA0040",
+        "PARA0045",
+        "PARA0058",
+        "LIST0040"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "PARA0003",
+        "PARA0004",
+        "PARA0011",
+        "PARA0025",
+        "PARA0027",
+        "PARA0028",
+        "PARA0040",
+        "PARA0044",
+        "PARA0048",
+        "PARA0049",
+        "PARA0050",
+        "LIST0003",
+        "PARA0052",
+        "LIST0006",
+        "PARA0053",
+        "PARA0054",
+        "LIST0011",
+        "LIST0015",
+        "LIST0017",
+        "PARA0056",
+        "LIST0020",
+        "LIST0026",
+        "PARA0057",
+        "PARA0058",
+        "LIST0039"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0003",
+        "PARA0004",
+        "PARA0023",
+        "PARA0027",
+        "PARA0040",
+        "PARA0041",
+        "PARA0042",
+        "PARA0044",
+        "PARA0045",
+        "PARA0048",
+        "LIST0003",
+        "PARA0051",
+        "LIST0006",
+        "PARA0053",
+        "LIST0011",
+        "LIST0015",
+        "LIST0017",
+        "PARA0055",
+        "LIST0020",
+        "LIST0026",
+        "PARA0057",
+        "PARA0058",
+        "LIST0039",
+        "LIST0040"
+      ]
+    },
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "HEAD0009",
+        "PARA0016",
+        "HEAD0010",
+        "PARA0023",
+        "FIG0008",
+        "CAPT0002",
+        "PARA0026",
+        "PARA0027",
+        "PARA0028",
+        "PARA0030",
+        "PARA0047",
+        "PARA0058",
+        "LIST0029"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7497,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7879,
+      "chunk_vote": 0.198
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.6543,
+      "rule_score": 0.4286,
+      "embedding_score": 0.8057,
+      "chunk_vote": 0.0298
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.6413,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7807,
+      "chunk_vote": 0.0214
+    },
+    {
+      "id": "1",
+      "score": 0.388,
+      "rule_score": 0.0,
+      "embedding_score": 0.778,
+      "chunk_vote": 0.1894
+    },
+    {
+      "id": "2.1",
+      "score": 0.3852,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1761
+    },
+    {
+      "id": "2.4",
+      "score": 0.3711,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1055
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3609,
+      "rule_score": 0.0,
+      "embedding_score": 0.7989,
+      "chunk_vote": 0.0071
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3556,
+      "rule_score": 0.0,
+      "embedding_score": 0.7902,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3512,
+      "rule_score": 0.0,
+      "embedding_score": 0.7804,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3507,
+      "rule_score": 0.0,
+      "embedding_score": 0.7794,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Kırık Tüneli güzergahındaki jeolojik ve jeoteknik yapıları, yerinde ve laboratuvar testlerini, kaya kütle sınıflandırmalarını (RMR, Q, GSI) ve NATM'ye göre destek sistemlerini incelemektedir. Bu içerik, doğrudan 'Jeolojik ve Geoteknik İncelemeler' (2.4.1) başlığıyla örtüşmektedir. Destek sistemlerinin belirlenmesi 2.1 ile, kayaç zeminde açılması ise 2.2.1 ile ilişkili ikincil konulardır.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:18",
+    "embeddings:8",
+    "top=2:0.7497 gap=0.095 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,95 @@
+{
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [
+    "2.4.3"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.4.3",
+      "section_title": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.3",
+      "score": 0.3478,
+      "rule_score": 0.0,
+      "embedding_score": 0.7729,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.3431,
+      "rule_score": 0.0,
+      "embedding_score": 0.7625,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3425,
+      "rule_score": 0.0,
+      "embedding_score": 0.7611,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3415,
+      "rule_score": 0.0,
+      "embedding_score": 0.7589,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3413,
+      "rule_score": 0.0,
+      "embedding_score": 0.7585,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3412,
+      "rule_score": 0.0,
+      "embedding_score": 0.7583,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3412,
+      "rule_score": 0.0,
+      "embedding_score": 0.7583,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.3409,
+      "rule_score": 0.0,
+      "embedding_score": 0.7576,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Avrasya Tüneli'ndeki sismik bilezik (deprem karşı dayanıklılık elemanı) üzerine odaklanmaktadır. Sismik bilezik, tünelin yapısal bütünlüğünü ve destek sistemini ilgilendiren bir mühendislik detayıdır; bu nedenle 'Tünel Yapı/Destek Elemanları' (2.1) en uygun birincil bölümdür. Projenin Karayolları Genel Müdürlüğü (UAB) bünyesindeki projelendirme standartlarına atıf yapması nedeniyle 2.4.3 ik",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:0",
+    "chunk_votes:2",
+    "embeddings:8",
+    "top=2.4.3:0.3478 gap=0.005 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

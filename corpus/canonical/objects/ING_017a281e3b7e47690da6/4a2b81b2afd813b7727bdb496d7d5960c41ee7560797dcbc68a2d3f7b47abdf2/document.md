@@ -1,0 +1,3843 @@
+## ❉✉a114❤❛♠ ❊✲❚❤❡a115❡a115
+
+## ❋✐♥✐a116❡ ❡❧❡♠❡♥a116 ♠♦❞❡❧❧✐♥❣ ♦❢ a116a114❛♥a115♣♦a114a116❛a116✐♦♥ a116✉♥♥❡❧a115
+
+❇❛②a114❛❦❞❛a114✱ ❍❛❧✉❦
+
+## ❍♦✇ a116♦ ❝✐a116❡✿
+
+❇❛②a114❛❦❞❛a114✱ ❍❛❧✉❦ ✭✶✾✾✺✮ ❋✐♥✐a116❡ ❡❧❡♠❡♥a116 ♠♦❞❡❧❧✐♥❣ ♦❢ a116a114❛♥a115♣♦a114a116❛a116✐♦♥ a116✉♥♥❡❧a115 ✱ ❉✉a114❤❛♠ a116❤❡a115❡a115✱ ❉✉a114❤❛♠ ❯♥✐✈❡a114a115✐a116② ✳ ❆✈❛✐❧❛❜❧❡ ❛a116 ❉✉a114❤❛♠ ❊✲❚❤❡a115❡a115 ❖♥❧✐♥❡✿ ❤a116a116♣✿✴✴❡a116❤❡a115❡a115✳❞✉a114✳❛❝✳✉❦✴✺✶✼✺✴
+
+## ❯a115❡ ♣♦❧✐❝②
+
+❚❤❡ ❢✉❧❧✲a116❡①a116 ♠❛② ❜❡ ✉a115❡❞ ❛♥❞✴♦a114 a114❡♣a114♦❞✉❝❡❞✱ ❛♥❞ ❣✐✈❡♥ a116♦ a116❤✐a114❞ ♣❛a114a116✐❡a115 ✐♥ ❛♥② ❢♦a114♠❛a116 ♦a114 ♠❡❞✐✉♠✱ ✇✐a116❤♦✉a116 ♣a114✐♦a114 ♣❡a114♠✐a115a115✐♦♥ ♦a114 ❝❤❛a114❣❡✱ ❢♦a114 ♣❡a114a115♦♥❛❧ a114❡a115❡❛a114❝❤ ♦a114 a115a116✉❞② ✱ ❡❞✉❝❛a116✐♦♥❛❧✱ ♦a114 ♥♦a116✲❢♦a114✲♣a114♦✜a116 ♣✉a114♣♦a115❡a115 ♣a114♦✈✐❞❡❞ a116❤❛a116✿
+
+- ❛ ❢✉❧❧ ❜✐❜❧✐♦❣a114❛♣❤✐❝ a114❡❢❡a114❡♥❝❡ ✐a115 ♠❛❞❡ a116♦ a116❤❡ ♦a114✐❣✐♥❛❧ a115♦✉a114❝❡
+- ❛ ❧✐♥❦ ✐a115 ♠❛❞❡ a116♦ a116❤❡ ♠❡a116❛❞❛a116❛ a114❡❝♦a114❞ ✐♥ ❉✉a114❤❛♠ ❊✲❚❤❡a115❡a115
+- a116❤❡ ❢✉❧❧✲a116❡①a116 ✐a115 ♥♦a116 ❝❤❛♥❣❡❞ ✐♥ ❛♥② ✇❛②
+
+❚❤❡ ❢✉❧❧✲a116❡①a116 ♠✉a115a116 ♥♦a116 ❜❡ a115♦❧❞ ✐♥ ❛♥② ❢♦a114♠❛a116 ♦a114 ♠❡❞✐✉♠ ✇✐a116❤♦✉a116 a116❤❡ ❢♦a114♠❛❧ ♣❡a114♠✐a115a115✐♦♥ ♦❢ a116❤❡ ❝♦♣②a114✐❣❤a116 ❤♦❧❞❡a114a115✳
+
+a80❧❡❛a115❡ ❝♦♥a115✉❧a116 a116❤❡ ❢✉❧❧ ❉✉a114❤❛♠ ❊✲❚❤❡a115❡a115 ♣♦❧✐❝② ❢♦a114 ❢✉a114a116❤❡a114 ❞❡a116❛✐❧a115✳
+
+<!-- image -->
+
+Logo
+
+The  copyright of this thesis rests with the author. No quotation from it should be published without his prior written consent  and information derived from  it  should  be  acknowledged.
+
+## FINITE ELEMENT MODELLING  OF TRANSPORTATION TUNNELS
+
+## VOLUME II APPENDICES
+
+By Haluk Bayrakdar B.Sc, M.Sc.
+
+This  thesis  is submitted  to the University of  Durham for the Degree  of Doctor of Philosophy
+
+School of Engineering University of Durham September, 1995
+
+I OCT iSS
+
+<!-- image -->
+
+Logo
+
+## APPENDIX  A
+
+## PROGRAM OPERATIONAL  PROCEDURE
+
+| A. l       | Program Operational Procedure 1 A. l . l List of Commands 1 A.l.1.1 List of Gravity Difference Method Commands 1 A.l.1.1.1 Pre-ProcessingofData 1 A.l.1.1.2 Post-Processing of Results 2 A. l.1.2 List of Reverse Stress Technique Commands 2 A.l.1.2.1 Pre-ProcessingofData 2   |
+|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| APPENDIX B | APPENDIX B                                                                                                                                                                                                                                                                       |
+| EXAMPLE    | A. 1.1.2.2 Post-Processing of Results 3 OF PAFEC-FE INPUT AND OUTPUT FILES Example of a Two-Dimensional Model 4 B. l . l A Two-Dimensional Model Pre-Processing Input File 4                                                                                                     |
+| B. l       | B.1.2 Generated a Two-Dimensional Model PAFEC-FE Input File 5 B. l.2.1 A Two-Dimensional Model Nodal Co-ordinates and Topology Output File tfile$.O02) 9                                                                                                                         |
+| B.2        | B.l.2.2 A Two-Dimensional Model Displacement Output File (fde&OOT) 11 B.l.2.3 A Two-Dimensional Stress Output File <file$.O09) 15                                                                                                                                                |
+|            | B.l.2.4 A Two-Dimensional Averaged and Unaveraged Stress Output File (file$.SP) 17 Example of a Three-Dimensional Model 22                                                                                                                                                       |
+|            | B.2.1 A Three-Dimensional Model Pre-Processing Input File 22                                                                                                                                                                                                                     |
+|            | B.2.2 Generated a Three-Dimensional Model PAFEC-FE Input File                                                                                                                                                                                                                    |
+|            | 23                                                                                                                                                                                                                                                                               |
+|            | B.2.2.1 A Three-Dimensional Model Nodal Co-ordinates and                                                                                                                                                                                                                         |
+|            | Topology Output File (file$.O02) 27                                                                                                                                                                                                                                              |
+
+## VOLUME II
+
+## CONTENTS
+
+## APPENDICES
+
+5
+
+9
+
+23
+
+27
+
+122
+
+129
+
+| B.2.2.3 A Three-Dimensional B.2.2.4 A Three-Dimensional Stress Output            | B.2.2.2 A Three-Dimensional Model Displacement Output File {fde&OOT) 30 Model Stress Output File (file$.O09) ....36 Averaged and Unaveraged File ifde$.SP) 40   |
+|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| APPENDIX C STRUCTURE OF PRE-PROCESSING PROGRAM                                   | APPENDIX C STRUCTURE OF PRE-PROCESSING PROGRAM                                                                                                                  |
+| C.l                                                                              | Compilation of Script (makefile) 44                                                                                                                             |
+| C.2                                                                              | Input File 44                                                                                                                                                   |
+| C.3                                                                              | Structure of Pre-Processing Program 44                                                                                                                          |
+| C. 4                                                                             | Tunnel Data In-Main Routine 45                                                                                                                                  |
+|                                                                                  | C.4.1 Pre-Processing the Tunnel Data-Subroutine PREPRO 49                                                                                                       |
+|                                                                                  | C.4.2 Node Co-ordinates-Subroutine NODECO 57                                                                                                                    |
+|                                                                                  | C.4.3 Pafblock Topology-Subroutine TOPLGY 72                                                                                                                    |
+|                                                                                  | C.4.4 Pafblock Subdivisions-Subroutine SUBDIV 78                                                                                                                |
+|                                                                                  | C.4..5 Support Systems Program supports./ 89                                                                                                                    |
+|                                                                                  | C. 4.6 Write Out of Two- and Three-Dimensional Models- Subroutine WRTOVT 95                                                                                     |
+| APPENDIXD STRUCTURE OF POST-PROCESSING                                           | PROGRAMS                                                                                                                                                        |
+| D. l Gravity Difference Method Script (gravdif) D.2 Colour Outputs Script (plot) | 113 for UMRAS software 113 of Programs 1 Post Processing of Nodal Co-ordinates and Element Topology 113                                                         |
+| D.3 List D. 3                                                                    | Post-Processing of Results for Gravity Difference Method 115 D.3.2.1 Stresses                                                                                   |
+| D.3.2                                                                            | 115                                                                                                                                                             |
+|                                                                                  | D.3.2.2 Displacements 121                                                                                                                                       |
+| D.3.3                                                                            | Post-Processing of results for Stress Reversal Technique 122                                                                                                    |
+|                                                                                  | D.3.3.1 Stresses                                                                                                                                                |
+|                                                                                  | 122 D.3.3.2 Displacements 128                                                                                                                                   |
+|                                                                                  | Production of Tunnel Colour Output Using UMRAS Software 129                                                                                                     |
+| D.3.4                                                                            |                                                                                                                                                                 |
+
+## APPENDIX  E
+
+## S H E L L  NODE  CO-ORDINATE  CALCULATIONS
+
+| E. l       | Introduction 143                                        |
+|------------|---------------------------------------------------------|
+| E.2        | Shell Node Co-ordinate Calculations for Zone 1A 145     |
+| E.3        | Shell Node Co-ordinate Calculations for Zone IB 147     |
+| E.4        | Shell Node Co-ordinate Calculations for Zone 2A 151     |
+| E.5        | Shell Node Co-ordinate Calculations for Zone 2B 155     |
+| E.6        | Shell Node Co-ordinate Calculations for Zone 3A 158     |
+| E.7        | Shell Node Co-ordinate Calculations for Zone 3B 160     |
+| E.8        | Shell Node Co-ordinate Calculations for Zone 4 163      |
+| E. 9       | Shell Node Co-ordinate Calculations for Zone 5 166      |
+| APPENDIX F | APPENDIX F                                              |
+| BEAM F. l  | ELEMENTS FOR ANCHORAGES AND STEEL ARCH Introduction 169 |
+| F.2        | Anchorage 170                                           |
+| F.3        | Steel Arch 171                                          |
+
+171
+
+## LIST  OF FIGURES
+
+## APPENDICES
+
+| Fig. E.l Angles of the tunnel geometry, mode numbers and the number of pafblocks in distinct zones of the tunnel   | Fig. E.l Angles of the tunnel geometry, mode numbers and the number of pafblocks in distinct zones of the tunnel   |
+|--------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| Fig. E .2                                                                                                          | 144 Shell node co-ordinates for zone 1A 145                                                                        |
+| Fig. E .3                                                                                                          | Codes of shell node co -ordinate calculations for zone 1A 146                                                      |
+| Fig. E .4                                                                                                          | Shell node co-ordinates for zone IB 147                                                                            |
+| Fig. E.5                                                                                                           | Shell node co-ordinate calculations using first and last flattened shells . 147                                    |
+| Fig. E.6                                                                                                           | Codes of shell node co -ordinate calculations for zone IB ISO                                                      |
+| Fig. E.7                                                                                                           | Shell nodes co-ordinates for zone 2A 151                                                                           |
+| Fig. E.8                                                                                                           | Centralising the midside nodes for 2A 151                                                                          |
+| Fig. E .9                                                                                                          | Codes of shell node co -ordinate calculations for zone 2A 154                                                      |
+| Fig. E .10                                                                                                         | Shell node co-ordinates for zone 2B 155                                                                            |
+| Fig. E . l l                                                                                                       | Centralising the midside nodes for zone 2B 155                                                                     |
+| Fig. E.12                                                                                                          | Codes of shell node co-ordinate calculations for zone 2B 157                                                       |
+| Fig. E.13                                                                                                          | Shell node co-ordinates for zone 3A 158                                                                            |
+| Fig. E.14                                                                                                          | Centralising midside nodes for zone 3A 158                                                                         |
+| Fig. E.l5                                                                                                          | Codes of shell node co-ordinate calculations for zone 3A 159                                                       |
+| Fig. E.16                                                                                                          | Shell node co-ordinates for zone 3B 160                                                                            |
+| Fig. E.17                                                                                                          | Centralising midside nodes for zone 3B 160                                                                         |
+| Fig. E.18                                                                                                          | Codes shell node co-ordinate calculations for zone 3B 162                                                          |
+| Fig. E.19                                                                                                          | Shell co-ordinates for zone 4 163                                                                                  |
+| Fig. E.20                                                                                                          | Centralising midside nodes for zone 4 163                                                                          |
+| Fig. E.21                                                                                                          | Codes of shell node co-ordinate calculations for zone 4 165                                                        |
+| Fig. E.22                                                                                                          | Shell node co-ordinates for zone 5 166                                                                             |
+| Fig. E.23                                                                                                          | Centralising midside nodes for zone 5 166                                                                          |
+| Fig. E.24                                                                                                          | Codes of shell node co-ordinate calculations for zone 5 168                                                        |
+| Fig. E.25                                                                                                          | Codes of symmetric node co-ordinate calculations for shells 168                                                    |
+| Fig. F . l                                                                                                         | Cross-section of the steel arch 169                                                                                |
+| Fig. F.2                                                                                                           | Cross-section of an anchorages 170                                                                                 |
+| Fig. F.3                                                                                                           | Cross-sectional moment area of the anchorages 170                                                                  |
+| Fig. F .4                                                                                                          | Cross-sectional moment area of the steel arch 172                                                                  |
+
+## LIST  O F  T A B L E S
+
+## APPENDICES
+
+Table £.1  Shell pafblock counters and number of the pafblock in each region.
+
+## APPENDIX A PROGRAM OPERATIONAL PROCEDURE
+
+## A .1  Program Operational  Procedure
+
+## A. 1.1 List of  commands
+
+## BEGIN
+
+[hp-pa] 1 % cd SHOME/BEAM
+
+[hp-pa] 2% mkdi r /tmp/des3hb
+
+[hp-pa] 3% mv  *  /tmp/des3hb
+
+[hp-pa] 4% cd /tmp/des3hb
+
+[hp-pa] 5% pafec.init
+
+[hp-pa] 6% uni  ras. ini t
+
+THEN compile FORTRAN programs
+
+Pre  and  post-processing of data and  construction  of finite element mesh [hp-pa] 7% make (Compile all FORTRAN  programs)
+
+## A. 1.1.1 List of Gravity Difference  Method  Commands
+
+## A. 1.1.1.1  Pre-Processing of Data
+
+[hp-pa] 1 % setenv  f i l e  nodesi (Variable file name which tab  looks at  to determine  where  put the  data)
+
+EDIT tubl.in (Input unexcavated ground and tunnel parameters)
+
+[hp-pa] 2% tub &lt; tubi.in (Run program, this creates nodesl.DAT)
+
+After that RUN PAFEC-FE
+
+[hp-pa] 3% l j 7  nodesi
+
+After running unexcavated ground, run excavated  ground
+
+[hp-pa] 4% setenv  f i l e  nodes2 (Variable file name which tab  looks at  to determine  where  put the  data)
+
+EDIT tubl.in (Input excavated ground and tunnel parameters)
+
+[hp-pa] 5% tub &lt; tub2.in (Run program, this creates nodes2 .DAT)
+
+## After that RUN  PAFEC-FE
+
+[hp-pa] 6% l j 7  nodes2
+
+Then the gravity difference can be obtained by the  following
+
+[hp-pa] 7% gravdif nodes  1 nodesH nodes3
+
+(This processes and plots UNIRAS graph for three files (nodes  1,  nodes2, nodes3) differences between  two displacement  and stress results. nodes3.DAT which will contain the gravity difference information, mainly displacements  and Von Mises stresses.
+
+## A.l . 1.1.2 Post-Processing  of Results
+
+EDIT files nodesl.ras, nodes2.ras and  nodes3.ras respectively  (Enter  UNIRAS graph required input parameters)
+
+Finally RUN  UNIRAS
+
+[hp-pa] 8% plot  nodesi (Process and plot UNIRAS  graphs)
+
+[hp-pa] 9% plot  nodes2 (Process and plot UNIRAS  graphs)
+
+[hp-pa]  10% plot  nodes3 (Process and plot UNIRAS  graphs)
+
+## A. 1.1.2  List  of Reverse Stress Technique  Commands
+
+## A. 1.1.2.1  Pre-Processing of Data
+
+[hp-pa]  1% setenv  f  i le  nodesi (Variable file name which tab  looks at to determine  where put the  data)
+
+EDIT tubl.  in (Input unexcavated  ground and tunnel parameters)
+
+[hp-pa] 2% tub &lt; tubi. in (Run program, this creates nodesl.DAT) After that RUN PAFEC-FE
+
+[hp-pa] 3% l j 7  nodesi
+
+After running unexcavated  ground the reverse forces can be  obtained by  the following;
+
+hp-pa] 4% setenv unex nodesi (This tells revforce2.f that nodesi is  the file  to  be processed)
+
+and gets
+
+[hp-pa] 5% revforce2
+
+This creates the  files nodes! .REVNUM containing number of entries in revforce2.f and nodes  l.KEVFOR containing reverse forces.
+
+[hp-pa] 6% setenv  f  i le nodes2 (Variable file name which  tab  looks at  to determine where put  the  data)
+
+EDIT tub2.  in (Input  excavated ground and  tunnel parameters)
+
+[hp-pa] 7% tub  &lt; tub2.in (Run  program, this creates nodes2.DAT) CUT OUT GRAVITY module and  PASTE IN the  contents of  nodesI.REVFOR to  the nodes2.DAT input file and  save results some where else for example; nodes4.DAT After that RUN PAFEC-FE
+
+[hp-pa] 8% l j 7  nodes4
+
+## A. 1.1.2.2  Post-Processing of  Results
+
+EDIT  file nodes4.ras (Enter UNIRAS  graph required input parameters) Finally  RUN  UNIRAS
+
+[hp-pa] 9% plot nodes4 (Processes and  plot  UNIRAS  graphs)
+
+## APPENDIX B
+
+## EXAMPLE OF  PAFEC-FE INPUT AND OUTPUT FILES
+
+## B.l
+
+## B.l . l
+
+## Example of a Two-Dimensional  Model A  Two-Dimensional  Model  Pre-Processing  Input File
+
+```
+KISIKLI NORTH  TUBE  H E T E R O G E N E O U S  W I T H O U T  S H O T C R E T E  LINING  (EXCAVATED  GROUND) Km 1+400 7.9 [INPUT CLEAR HEIGHT OF TUNNEL IN METRES] 13.0 [INPUT HEIGHT OF  OVERBURDEN IN METRES] 4.5 [INPUT HEIGHT  U N D E R  T U N N E L  IN METRES(Hover+Hover/2do)] 1 [INPUT  N U M B E R  O F  R O C K  LAYERS] 22.0 3 2 [INPUT MATERIAL  PROPERTY  OF REST  OF  GROUND] 0.005 [MINOR (1/2) WIDTH OF STEEL  ARCH  =  ? (SAMIN)] 0.08 [MAJOR (1/2) WIDTH OF STEEL  ARCH  ALONG  THE Z AXIS =  ? (SAMAJ)] 0.105 [MAJOR (1/2) WIDTH OF STEEL  ARCH  ALONG  THE Y AXIS = ? (SAMAJ2)] 0 [IS  A STEEL  A R C H  P R E S E N T  ?  0)  N O , 1) YES] 8 [WHAT IS  THE MATERIAL  PROPERTY  OF THE STEEL  ARCH  USED] 6.0 0.5 [HEIGHT OF  ANCHORAGES  1  AND 2=  ?] 4.0  4.0 [LENGTH  OF  A N C H O R A G E S  1  A N D 2=  ?] 0.014 [RADIUS  OF  A N C H O R A G E S  =  ?] 25-10 [ANGLE  OF  A N C H O R A G E S  1  A N D 2=  ?] 0 [ARE  A N C H O R A G E S  PRESENT  ?  0)  NO, 1)  YES 1 ] 8 [WHAT IS  THE MATERIAL  PROPERTY  OF THE  A N C H O R A G E S  U S E D  ?] 0.35 [LENGTH  OF (1/2) PERIOD =  ?] 1 [INPUT  W H A T  R O C K  T Y P E  O F EXCAVATION ?,  0)A,B  O R DC] 0 0 [REGION: 1 C FO R E A C H  REGION INDICATE 0)  IF  EXCAVATED  O R 1)  IF  NOT 1 ] 0 0 [REGION:  2A C  AND] 0 0 [REGION:  2B C IS  THERE  AN  O U T E R (SHOTCRETE) LINING? 0)  NO, 1)  YES 1 ] 0 0 [REGION:  3A] 0 0 [REGION:  3B] 0 0 [REGION:  4] 0 0 [REGION:  5a] 0 0 [REGION:  5b] 0 0 [REGION:  6] 6 [WHAT IS  THE MATERIAL  PROPERTY  OF THE SHOTCRETE  USED  ?] 0.25 [THICKNESS  OF  SHOTCRETE] 0 [IS  T H E R E  A N I N N E R LINING ?  0)  N O , 1)  YES] 7 [WHAT IS  THE MATERIAL  PROPERTY  OF THE INNER LINING  USED  ?] .5 [THICKNESS  OF INNER LINING] 1 [RESOLUTION  (increase  resolution number to achieve  fine mesh)] 0 [IS  THIS  EXAMPLE  A SYMMETRICAL M O D E L  ?  M S Y M . E Q  0)  N O or  1)  YES] 2 [NUMBER OF  DIMENSIONS]
+```
+
+## B.1.2  Generated  a Two-Dimensional  Model  P A F E C - F E  Input  File
+
+|   440 |   .00000 |   .00000 |   .00000 |
+|-------|----------|----------|----------|
+|   441 |   .00000 | -1.44653 |   .00000 |
+|   442 | -1.20000 | -1.44653 |   .00000 |
+|   443 |  1.20000 | -1.44653 |   .00000 |
+|   444 | -3.20000 | -1.44653 |   .00000 |
+|   445 |  3.20000 | -1.44653 |   .00000 |
+|   446 | -5.00000 | -1.44653 |   .00000 |
+|   447 |  5.00000 | -1.44653 |   .00000 |
+|   448 | -5.89550 | -1.44653 |   .00000 |
+|   449 |  5.89550 | -1.44653 |   .00000 |
+
+```
+TITLE 2D-KISIKLI NORTH  TUBE  CO-ORDINATES  AND FE-MESH  DESIGN C Km (1+400) C C APPLIED MECHANICS  G R O U P C SCHOOL  OF  ENGINEERING C UNIVERSITY  OF  D U R H A M C C C TUNNEL  N A M E  = KISIKLI C KM = 1+400 C CLEAR HEIGHT OF TUNNEL IN  METERS  =  7.9 C HEIGHT OF  OVERBURDEN IN  METERS =13.0 C INPUT HEIGHT  U N D E R  TUNNEL IN  METERS  =4.5 C INPUT  N U M B E R  O F  R O C K  L A Y E R S  =  1 C HEIGHT OF LAYERS  F R O M  G R O U N D  S U R F A C E IN  METERS  =  22.0 C MATERIAL PROPERTIES OF LAYER ,=  3 C MATERIAL  PROPERTY  OF REST  OF  G R O U N D  =  2 C NUMB E R  O F SHELLS =  3 C HEIGHT OF CIRCULAR SHELL  N U M B E R 11N  M E T R E S  =  . 5 C HEIGHT OF CIRCULAR SHELL  N U M B E R  2IN  METRES  =  .25 C HEIGHT OF FLATTENED SHELL  N U M B E R 3IN  METRES  =  1.40 C  W H A T  ROCK  TYPE OF EXCAVATION ?, 0)A,B O R DC =  1 C  C  R O C K  TYPE O F EXCAVATION C 1,  2A,  2B,  3A,  3B,  4,  5A,  5B,  6 C REGIONS  EXCAVATED:  1  2A 2B  3A  3B  4  5A  5B  6 C MAJOR (1/2) UIDTH OF STEEL  ARCH (Z)= .080 C 2nd  MAJOR (1/2) UIDTH  OF STEEL  ARCH (Y)  =  .105 C HEIGHT OF  ANCHORAGES  1  AND 2  =  6.0 .5 C LENGTH  OF  A N C H O R A G E S  1  A N D 2  =  4.0  4.0 C RADIUS OF  ANCHORAGES  =  .014 C ANGLE  OF  A N C H O R A G E S  1  A N D 2=  25.0 -10.0 C THE MATERIAL  P R O . O F  THE S H O T C R E T E  U S E D  =  6 C THICKNESS OF SHOTCRETE  =  .25 C IS  THERE  AN INNER LINING ?  =  0 C 0) NO or  1)  YES C THE MATERIAL  P R O . O F  THE INNER LINING =  7 C THE THICKNESS OF THE INNER LINING .5 C RESOLUTION =  1 C IS  THIS EXAMPLE  A SYMMETRICAL M O D E L  ?  =  0 CO) NO or  1) YES C NUM B E R  O F DIMENSIONS  ? (2  O R 3)  =  2 C C THE CO-ORDINATES  OF THE  N O D E S  CORRESPONDING  TO C THE STRUCTURE  ARE GIVEN  B E L O W  EXPRESSED IN METERS. C C THERE IS  ONLY  N E E D  T O SPECIFY  THE  C O R N E R  NODES C OF THE ELEMENTS,  SINCE  PAFEC  WILL CALCULATE C AUTOMATICALLY THE CO-ORDINATES  OF THE MID-SIDE NODES. C NODES NODES.NUMBER X Y Z 1 .00000 7.40000 .00000 2 .60000 7.37564 .00000 3 1.20000 7.30205 .00000 MAJORITY OF N O D E  CO-ORDINATES LIST OMITTED 440 .00000 .00000 .00000 441 .00000 -1.44653 .00000 442 -1.20000 -1.44653 .00000 443 1.20000 -1.44653 .00000 444 -3.20000 -1.44653 .00000 445 3.20000 -1.44653 .00000 446 -5.00000 -1.44653 .00000 447 5.00000 -1.44653 .00000 448 -5.89550 -1.44653 .00000 449 5.89550 -1.44653 .00000
+```
+
+```
+450 -6.15922  -1.38538 .00000 451 6.15922  -1.38538 .00000 452 .00000 .00000 .00000 905 .00000 .00000 .00000 906 1.20363 1.59727 .00000 907 -.68596 1.39867 .00000 908 5.79084 -.83147 .00000 909 .00000  28.95983 .00000 910 .00000 .00000 .00000 911 -1.20363 1.59727 .00000 912 .68596 1.39867 .00000 913 -5.79084 -.83147 .00000 914 .00000  28.95983 .00000 c c PAFBLOCKS BLOCK.NUMBER  TYPE  ELEMENT.TYPE  PROPERTIES  N1  N2  N5  T O P O L O G Y 1 1 36210 9 1 1 0 1 3  69 71 2 0 0  70 2 1 36210 9 1 1 0 3 5  71 73 4 0 0  72 3 1  36210 9 1 1 0 5 7  73 75 6 0 0  74 MAJORITY  OF PAFBLOCK TOPOLOGY LIST  OMITTED 238 1  36210 9 1 0  435 437 447 449 0 0 0 0 239 1  36210 9 1 1 0 437 439 449 451 0 0 0 0 240 1  36210 9 1 1 0 430 429 442 441 0 0 0 0 241 1  36210 9 1 1 0 432 430 444  442 0 0 0 0 242 1  36210 9 1 1 0 434 432 446  444 0 0 0 0 243 1  36210 9 1 1 0 436 434 448 446  0 0 0 0 244 1  36210 9 1 1 0 438 436 450  448 0 0 0 0 c C Define  Local  axis and directions C AXES RELAXISNO  =  1 TYPE =  1 AXISNO NOD E ANG1 4 905 .0 5 905  -4.22191376007178 6 905  -8.466971581149 7 905  -15.6606162210402 8 905 -23.1187456601791 9 905  -25.7116177044377 10 905  -28.173097145412 MAJORITY  OF LOCAL AXIS LIST  OMITTED 65 910 30.51675355503308 66 910  28.17309714541204 67 910  25.71161770443768 68 910  23.11874566017914 69 910  15.66061622104018 70 910  8.466971581149 71 910  4.22191376007178 C C LOCAL.DIRECTIONS NODE.NUMBE R  LOCAL.AXIS 137  4 138  5 139  6 140 7 141 8 142  9 143  10 MAJORITY  OF LOCAL DIRECTION LIST  OMITTED 201 68 202  69 203  70 204  71
+```
+
+```
+c C Elements which form the  Excavated Surface EXTERNAL.FORCE AXIS.SET =  1 LIST 69 70 71 MAJORITY  OF EXTERNAL F O R C E  LIST  OMITTED 99 100 101 102 C C The  PLATES.AND.SHELLS  module i s  used  t o C  link the PROPERTIES C specified  in the  ELEMENTS  module with C the MATERIAL.NUMBER C used in  the  MATERIAL  module. C PLATES.AND.SHELLS PLATE.NUMBER MATERIAL.NUMBER 1 11 2 12 3 13 4 14 5 15 6 16 7 17 8 18 9 19 C C In  the MATERIAL module the  Young's  modulus (E), C the  Poisson's  ratio C (NU)  and  the  density  (RO),are specified  for C Neogene cover (MATERIAL.NUMBER 11), C the micaceous  sandstone, C siltstone and  claystone (MATERIAL.NUMBER 12), C the quartzite C (MATERIAL.NUMBER 13),  the  arkose, C conglomeratic arkose (MATERIAL.NUMBER 14), C the  volcanic dyke rock (MATERIAL.NUMBER 15), C Shotcrete (MATERIAL.NUMBER 16), _ C Inner  ( f i n a l ) l i n i n g  ( M A T E R I A L . N U M B E R 17). C Mi Id  steel  for anchorages and  steel  arch C beam element (MATERIAL.NUMBER 18). C C The unit used for Young's  modulus is  Pa (N/m2) C and  the  density i s  expressed C in  (kg/m3). C MATERIAL MATERIAL.NUMBER E NU RO 11 90E+6 0.35 2060 12 0.7E+9 0.27 2200 13 68E+9 0.16 2600 14 15E+9 0.26 2600 15 1.9E+9 0.28 2300 16 15E+9 0.20 2000 17 30E+9 0.20 2400 18 209E+9 0.30 7800 19 OE-9 0.499 0.0 c C In  the  GRAVITY  module the  sign i n  the YGVALUE C is  negative, C indicating  that  gravity  acts i n  the vertical C downwards  direction. C GRAVITY XGVALUE YGVALUE 0 -1
+```
+
+```
+c C  To  ensure  that the  nodes  lying on  the  boundary C are restricted  from C moving i n  the horizontal  direction,  a l l  nodes C  lying on  the plane  that C passes through boundary and is normal  to C the x-axis (PLANE 1),are C prevented  from moving along  the  x-direction C (DIRECTION 1). C Similarly, the  right  side boundary is also C prevented  from moving along  the C horizontal  direction. C In this way  the horizontal  geostatic  stresses C are  allowed to  develop as a C function of  Poisson's  ratio of the  ground. C C Furthermore  there i s  a need to restrict the C lower boundary of the mesh C from moving  in the vertical  directions a restraint C  is  introduced  to C prevent any  node  lying on  the plane and  is normal C to  y-axis (PLANE 2 ) , C and  is normal  to  y-axis (PLANE 2), to  move C (DIRECTION 2). C C RESTRAINTS NODE.NUMBE R  PLANE AXIS.NUMBER DIRECTION 343 1 1 1 343 2 1 2 345 1 1 1 C C The  CONTROL f a c i l i t y  i s used t o specify C plane  strain  analysis  and t o C indicate  that  stress averaging  across C different  material  types is  to be C  performed. C CONTROL PLANE.STRAIN USE.R70632MOD C C Since PAFEC-FE does not  perform stress averaging C across  different C material  types, the  supplied source must be modified C Inspection  of the C stressing  routines indicated  that a small number of C changes to PAFEC-FE C subroutine R70632  was necessary. A section  of the C subroutine with  the C modification  is  shown i n  Figure C The  modified source  i s  incorporated C into the  PAFEC-FE system for this analysis C using the USE.option. C STRESS CONTROL.END C PROCESSING.FOR.PRINTED.OUTPUT ORDER  FORMAT.TYPE  LOCAL.AXIS W I N D O W 1 1 1 0 2 1 1 0 C ORDER.FOR.PRINTED.OUTPUT ORDER LIST.OF.TYPES 1 101 103  102  4 8 9  10  11  12 13 2 101 102  4 8 9  10  11  12 13 END.OF.DATA
+```
+
+## B. 1.2.1  A Two-Dimensional Nodal Co-ordinates and Element Topology Output File &lt;file$.O02)
+
+```
+i PAFEC  PAGE 41 PPPPP  AAAAA FFFFF EEEEE  C C C C C SYSTEM LEVEL 7.400  A P P  A A FF E C CC JUNE 1992 P P  A A FF E C ppppp  AAAAA FFF EEE C PP AA A F EE C PHASE NO.  2 PP AA A F EE C STARTS  H E R E PP AA A F EE C PP AA A F EEEEE  C C C C C TITLE 20-TUNNEL  COORDINATES  AND FE-MESH  DESIGN THE  TOLERANCE USED IN  THIS PHASE IS  IE -4 GLOBAL  COORDINATES NODE X Y Z NODE X Y Z 1 .0000 7.4000 .0000 2 .6020 7.3755 .0000 3 1.2000 7.3021 .0000 4 2.2224 7.0584 .0000 5 3.2000 6.6723 .0000 6 3.4190 6.5628 .0000 7 3.6343 6.4461 .0000 8 3.8457 6.3223 .0000 9 4.0528 6.1915 .0000 10 4.2554 6.0540 .0000 MAJORITY  O F N O D E  CO-ORDINATES LIST  OMITTED 1630 5.7444 -.8204 .0000 1631 5.4109 -1.1408 .0000 1632 6.0092 -1.1408 .0000 1633 -1.2000 -.8204 .0000 1634 -.6000 -1.1408 .0000 1635 -3.2000 -.8204 .0000 1636 -2.2000 -1.1408 .0000 1637 -4.6800 -.8204 .0000 1638 -4.1000 -1.1408 .0000 1639 -5.7444 -.8204 .0000 1640 -5.4109 -1.1408 .0000 1641 -6.0092 -1.1408 .0000 1642 .0000 -1.2936 .0000 1643 1.2000 -1.2936 .0000 1644 3.2000 -1.2936 .0000 1645 5.0000 -1.2936 .0000 1646 5.8586 -1.2936 .0000 1647 -1.2000 -1.2936 .0000 1648 -3.2000 -1.2936 .0000 1649 -5.0000 -1.2936 .0000 1650 -5.8586 -1.2936 .0000 * COM M E N T  *  COORDINATES  O F  N O N - S T R U C T U R A L  N O D E S  ARE NOT INCLUDED  IN  THE  ABOVE  TABLE NUM B E R  O F  S T R U C T U R A L  N O D E S  IN  THIS PHASE = 1131 HIGHEST  N U M B E R E D  N O D E  IN  THIS  P H A S E IS  = 1650 ELEMENTS ELEMENT  G R O U P  ELEM.TYPE  P R O P E R T Y INE TOPOLOGY 1 1 36210 9 8 1 3 69 71 2 915 916 70 2 1 36210 9 8 3 5 71 73 4 916 917 72 3 1 36210 9 8 5 7 73 75 6 917 918 74 4 1 36210 9 8 7 9 75 77 8 918 919 76 5 1 36210 9 8 9 11 77 79 10 919 920 78 MAJORITY PF  ELEMENT  T O P O L O G Y LIST  OMITTED
+```
+
+1488
+
+1498
+
+350
+
+1
+
+36210
+
+9
+
+8
+
+435
+
+437
+
+447
+
+449
+
+1631
+
+1645
+
+1646
+
+351
+
+1
+
+36210
+
+9
+
+8
+
+437
+
+439
+
+449
+
+451
+
+1632
+
+1646
+
+1484
+
+1486
+
+352
+
+1
+
+36210
+
+9
+
+8
+
+430
+
+429
+
+442
+
+441
+
+1634
+
+1647
+
+1642
+
+1496
+
+353
+
+1
+
+36210
+
+9
+
+8
+
+432
+
+430
+
+444
+
+442
+
+1636
+
+1648
+
+1647
+
+354
+
+1
+
+36210
+
+9
+
+8
+
+434
+
+432
+
+446
+
+444
+
+1638
+
+1649
+
+1648
+
+1500
+
+355
+
+1
+
+36210
+
+9
+
+8
+
+436
+
+434
+
+448
+
+446
+
+1640
+
+1650
+
+1649
+
+1502
+
+356
+
+1
+
+36210
+
+9
+
+8
+
+438
+
+436
+
+450
+
+448
+
+1641
+
+1506
+
+1650
+
+1504
+
+1
+
+PAFEC  P A G E
+
+64
+
+ELEMENT  G R O U P  ELEM.TYPE  P R O P E R T Y INE TOPOLOGY
+
+## END  O F  PAFBLOCKS GENERATION
+
+**********************************
+
+*
+
+*
+
+*
+
+NO  E R R O R S  IN GEOMETRY  C H E C K  *
+
+*
+
+*
+
+*  60  WARNINGS  IN GEOMETRY  C H E C K  *
+
+*
+
+*
+
+**********************************
+
+END  O F  PAFBLOCKS  DATA  GENERATION
+
+E S T I M A T E
+
+OF
+
+B A S E
+
+AND
+
+F I L E
+
+S I Z E
+
+R E Q U I R E M E N T S
+
+( B )
+
+NOTE - (1) AN  ASTERISK  *  DENOTES  AN OVERESTIMATE
+
+PHASE
+
+BASE/FILE
+
+SINGLE PRECISION  NUMBERS.
+
+3
+
+BASE
+
+17017
+
+4
+
+BASE
+
+52145*
+
+1
+
+PAFEC  P A G E
+
+68
+
+C O N T E N T S
+
+HEADING
+
+PAGE
+
+PHASE  2
+
+41
+
+ESTIMATE  OF  BASE  A N D FILE SIZE REQUIREMENTS (B)
+
+**********************************
+
+*
+
+*
+
+*
+
+0  E R R O R S  IN  THIS  PHASE
+
+*
+
+*
+
+56  WARNINGS IN  THIS  PHASE
+
+*
+
+*
+
+·
+
+*
+
+*
+
+**********************************
+
+****  MAXIMUM SIZE OF  BASE IN  THIS  PHASE  W A S
+
+21489  W O R D S  ****
+
++++ END  O F  PHASE  2 +++
+
+67
+
+## I  J.  1 . 2 . 2  A Two-Dimensional Model Displacement Output File (file$.O07)
+
+1 PAFEC  P A G E
+
+112
+
+|                      | PPPPP   |       | AAAAA   |       | FFFFF   | EEEEE   | CCCCC   |
+|----------------------|---------|-------|---------|-------|---------|---------|---------|
+| SYSTEM LEVEL 7.400 A | P       | P     | A       | A FF  |         | E       | C CC    |
+| JUNE 1992            | P       | P     | A       | A     | FF      | E       | C       |
+|                      | PPPPP   | PPPPP | AAAAA   | AAAAA | FFF     | EEE     | C       |
+|                      | PP      |       | AA AA   | A     | F       | EE      | C       |
+| PHASE NO. 7          | PP      |       |         | A     | F       | EE      | C       |
+| STARTS HERE          | PP      |       | AA      | A     | F       | EE      | C       |
+|                      | PP      |       | AA      | A     | F       | EEEEE   | CCCCC   |
+
+TITLE 2D-TUNNEL  COORDINATES  AND FE-MESH  DESIGN
+
+****************************************
+
+STATICS  SOLUTION  BY  BLOCK  F R O N T IN DOUBLE PRECISION
+
+*
+
+THE PLANE.STRAIN OPTION IS PRESENT
+
+*
+
+*
+
+*
+
+*
+
+*
+
+·
+
+STRUCTURE CONTAINS 2175 FREEDOMS 356  ELEMENTS AND THE  F R O N T  SIZE IS  107
+
+****************************************
+
+***  A  B L O C K E D F R O N T  SOLUTION  H A S  B E E N  R E Q U E S T E D  *** THE  BLOCK SIZE IS 11556
+
+129
+
+MEN TS
+
+FOR
+
+L O A D
+
+C A S E
+
+0
+
+0
+
+1
+
+PAFEC  P A G E
+
+D I S P L A C E
+
+NOTE  - (1) THE  LETTER  L  FOLLOWING  A  N O D E  N U M B E R INDICATES THAT  THE  DISPLACEMENTS AT  THAT  N O D E  ARE GIVEN  IN THE LOCAL  DIRECTIONS DEFINED  AT  THE  N O D E
+
+## OSAMPLE OF LARGEST  DISPLACEMENTS
+
+| NODE   |         UX |   NODE |         UY |   NODE |   RESULTANT |
+|--------|------------|--------|------------|--------|-------------|
+| 153L   |  0.0042841 |   1249 | -0.0044235 |   1249 |   0.0044235 |
+| 189L   | -0.0042836 |   1246 | -0.0044231 |   1246 |   0.0044231 |
+| 18BL   | -0.0042822 |   1247 | -0.0044229 |   1247 |   0.0044229 |
+| 154L   |  0.0042822 |   1410 | -0.0044229 |   1410 |   0.0044229 |
+| 187L   | -0.0042299 |   1250 | -0.0044228 |   1250 |   0.0044228 |
+| 155L   |  0.0042299 |   1407 | -0.0044228 |   1407 |   0.0044228 |
+| 186L   | -0.0041791 |    305 | -0.0044228 |    305 |   0.0044228 |
+| 156L   |  0.0041791 |   1251 | -0.0044227 |   1251 |   0.0044227 |
+| 185L   | -0.0041137 |   1411 | -0.0044227 |   1411 |   0.0044227 |
+| 157L   |  0.0041137 |   1406 | -0.0044224 |   1406 |   0.0044224 |
+
+DISPLACEMENTS  AT  N O D E S
+
+- NOTE  - (2)  THE  HISTOGRAM  INDICATES  THE  MAGNITUDE  OF  THE RESULTANT TRANSLATION  AT  EACH  NODE. EACH  STAR * REPRESENTS .4422E-03  UNITS
+- (3) A  STAR  * IN  A  DISPLACEMENT C O L U M N INDICATES  THAT A CONSTRAINT  HAS  BEEN APPLIED.
+- (4) ONLY  STRUCTURAL  NODES ARE  GIVEN  IN  THE  TABLE BELOW
+
+| 1 PAFEC PAGE   | 130                               | 130                               |                                          |                                          |                                       |                                       |
+|----------------|-----------------------------------|-----------------------------------|------------------------------------------|------------------------------------------|---------------------------------------|---------------------------------------|
+| CASE 1 NODE    | TRANSLATIONS MULTIPLIED BY IE 3   | TRANSLATIONS MULTIPLIED BY IE 3   | RESULTANT TRANSLATION MULTIPLIED BY 1E 3 | RESULTANT TRANSLATION MULTIPLIED BY 1E 3 | SCALED COORDINATES MULTIPLIED BY 1E 0 | SCALED COORDINATES MULTIPLIED BY 1E 0 |
+| NUMBER         | UX                                | UY                                | U                                        | HISTOGRAM                                | X                                     | Y Z                                   |
+| 1              | 0.0000                            | 0.0000                            | 0.0000                                   |                                          | 0.00                                  | 7.40                                  |
+| 2              | 0.0000                            | 0.0000                            | 0.0000                                   |                                          | 0.60                                  | 7.38                                  |
+| 3              | 0.0000                            | 0.0000                            | 0.0000                                   |                                          | 1.20                                  | 7.30                                  |
+| 4              | 0.0000                            | 0.0000                            | 0.0000                                   |                                          | 2.22                                  | 7.06                                  |
+| 5              | 0.0000                            | 0.0000                            | 0.0000                                   |                                          | 3.20                                  | 6.67                                  |
+|                | MAJORITY OF DISPLACEMENTS OMITTED | MAJORITY OF DISPLACEMENTS OMITTED | MAJORITY OF DISPLACEMENTS OMITTED        | MAJORITY OF DISPLACEMENTS OMITTED        | MAJORITY OF DISPLACEMENTS OMITTED     | MAJORITY OF DISPLACEMENTS OMITTED     |
+|                | 0.0000                            | 0.0000                            | 0.0000                                   |                                          | -1.20                                 | 7.81                                  |
+| 135 136        | 0.0000                            | 0.0000                            | 0.0000                                   |                                          | -0.60                                 | 7.88                                  |
+| 137L           | 0.0000                            | -4.4215                           | 4.4215                                   | **********                               | 0.00                                  | 8.15                                  |
+| 138L           | 0.3268                            | -4.4090                           | 4.4211                                   | **********                               | 0.60                                  | 8.13                                  |
+| 139L           | 0.6535                            | -4.3713                           | 4.4199                                   | **********                               | 1.20                                  | 8.06                                  |
+| 140L           | 1.1968                            | -4.2505                           | 4.4158                                   | **********                               | 2.22                                  | 7.84                                  |
+| 141L           | 1.7376                            | -4.0523                           | 4.4092                                   | **********                               | 3.20                                  | 7.50                                  |
+| 142L           | 1.9185                            | -3.9667                           | 4.4063                                   | **********                               | 3.53                                  | 7.35                                  |
+| 143L           | 2.0860                            | -3.8776                           | 4.4031                                   | **********                               | 3.85                                  | 7.18                                  |
+| 144L           | 2.2416                            | -3.7862                           | 4.4000                                   | **********                               | 4.13                                  | 7.02                                  |
+| 145L           | 2.3865                            | -3.6926                           | 4.3966                                   | **•*••*•**                               | 4.41                                  | 6.85                                  |
+| 146L           | 2.5220                            | -3.5973                           | 4.3933                                   | **********                               | 4.66                                  | 6.69                                  |
+| 147L           | 2.6493                            | -3.5002                           | 4.3897                                   | **********                               | 4.90                                  | 6.51                                  |
+| 148L           | 2.8188                            | -3.3603                           | 4.3860                                   | **********                               | 5.15                                  | 6.32                                  |
+| 149L           | 2.9807                            | -3.2120                           | 4.3820                                   | **********                               | 5.38                                  | 6.11                                  |
+| 150L           | 3.2816                            | -2.8941                           | 4.3755                                   | **********                               | 5.72                                  | 5.76                                  |
+| 151L           | 3.4448                            | -2.6857                           | 4.3680                                   | **********                               | 6.05                                  | 5.39                                  |
+| 152L           | 4.0536                            | -1.5470                           | 4.3388                                   | **********                               | 6.91                                  | 3.89                                  |
+| 153L           | 4.2841                            | -0.4273                           | 4.3053                                   | **********                               | 7.32                                  | 2.21                                  |
+| 154L           | 4.2822                            | 0.0349                            | 4.2823                                   | **********                               | 7.36                                  | 1.33                                  |
+| 155L           | 4.2299                            | 0.4899                            | 4.2582                                   | **********                               | 7.31                                  | 0.46                                  |
+| 156L           | 4.1791                            | 0.7319                            | 4.2427                                   | **********                               | 7.24                                  | -0.02                                 |
+| 157L           | 4.1137                            | 0.9693                            | 4.2264                                   | **********                               | 7.14                                  | -0.50                                 |
+| 158L           | 4.0614                            | 1.1220                            | 4.2135                                   | **********                               | 7.05                                  | -0.82                                 |
+| 159L           | 4.0033                            | 1.2705                            | 4.2001                                   | *********                                | 6.95                                  | -1.14                                 |
+| 160L           | 2.9213                            | 1.7750                            | 3.4182                                   | ********                                 | 6.81                                  | -1.47                                 |
+| 161L           | 1.8993                            | 1.6324                            | 2.5044                                   | ******                                   | 6.58                                  | -1.74                                 |
+| 162L           | 1.2013                            | 1.5049                            | 1.9256                                   | ****                                     | 6.32                                  | -1.91                                 |
+| 1 PAFEC PAGE   | 133                               |                                   |                                          |                                          |                                       |                                       |
+| CASE 1 NODE    | TRANSLATIONS MULTIPLIED BY 1E 3   | TRANSLATIONS MULTIPLIED BY 1E 3   | RESULTANT TRANSLATION MULTIPLIED         | RESULTANT TRANSLATION MULTIPLIED         | SCALED COORDINATES MULTIPLIED BY 1E   | 0                                     |
+| NUMBER         | UX                                | UY                                | U                                        | BY 1E 3 HISTOGRAM                        | X                                     | Y Z                                   |
+| 163L 164L      | 0.6601 0.5659                     | 1.2818 0.7447                     | 1.4418 0.9353                            | *** **                                   | 6.02 5.51                             | -2.01 -2.10                           |
+| 165L           | 0.5437                            | 0.4052                            | 0.6781                                   | **                                       | 5.00                                  | -2.18                                 |
+| 166L           | 0.5218                            | 0.0349                            | 0.5230                                   | *                                        | 4.10 3.20                             | -2.31 -2.42                           |
+| 168L           | 0.3872                            | -0.1899                           | 0.4312                                   | *                                        | 2.20                                  | -2.50                                 |
+| 167L           | 0.4992                            | -0.1263                           | 0.5149                                   | *                                        |                                       |                                       |
+| 169L           | 0.2307                            | -0.2032                           | 0.3074                                   | *                                        | 1.20                                  | -2.56                                 |
+| 170L           | 0.1177                            | -0.2011                           | 0.2330                                   | *                                        | 0.60                                  | -2.57                                 |
+| 171L           | -0.0000                           | -0.2005                           | 0.2005                                   |                                          | 0.00                                  | -2.58                                 |
+| 172L           | -0.1177                           | -0.2011                           | 0.2330                                   | *                                        | -0.60                                 | -2.57                                 |
+| 173L           | -0.2307                           | -0.2032                           | 0.3074                                   | *                                        | -1.20                                 | -2.56                                 |
+| 174L 175L 176L | -0.3872 -0.4992 -0.5218           | -0.1899 -0.1263 0.0349            | 0.4312 0.5149 0.5230                     | * * *                                    | -2.20 -3.20 -4.10                     | -2.50 -2.42 -2.31                     |
+
+```
+177L -0.5437 0.4052 0.6781 ** -5.00 -2.18 178L -0.5659 0.7447 0.9353 ** -5.51 -2.10 179L -0.6601 1.2818 1.4418 *** -6.02 -2.01 180L -1.2013 1.5049 1.9256 **** -6.32 -1.91 181L -1.8993 1.6324 2.5044 ****** -6.58 -1.74 182L -2.9213 1.7750 3.4182 ******** -6.81 -1.47 183L -4.0732 1.0248 4.2001 ********* -6.95 -1.14 184L -4.0614 1.1220 4.2135 ********** -7.05 -0.82 185L -4.1137 0.9693 4.2264 ********** -7.14  -0.50 186L -4.1791 0.7319 4.2427 ********** -7.24  -0.02 187L -4.2299 0.4899 4.2582 ********** -7.31 0.46 188L -4.2822 0.0349 4.2823 ********** -7.36 1.33 189L -4.2836 -0.4317 4.3053 ********** -7.32 2.21 190L -4.0536 -1.5470 4.3388 ****·····* -6.91 3.89 191L -3.4448 -2.6857 4.3680 ********** -6.05 5.39 192L -3.2816 -2.8941 4.3755 ********** -5.72 5.76 193L -2.9807 -3.2120 4.3820 ********** -5.38 6.11 194L -2.8188 -3.3603 4.3860 ********** -5.15 6.32 195L -2.6493 -3.5002 4.3897 ********** -4.90 6.51 196L -2.5220 -3.5973 4.3933 ********** -4.66 6.69 197L -2.3865 -3.6926 4.3966 ********** -4.41 6.85 198L -2.2416 -3.7862 4.4000 ********** -4.13 7.02 199L -2.0860 -3.8776 4.4031 ********** -3.85 7.18 200L -1.9185 -3.9667 4.4063 ********** -3.53 7.35 201L -1.7376 -4.0523 4.4092 ********** -3.20 7.50 202L -1.1968 -4.2505 4.4158 ********** -2.22 7.84 203L -0.6535 -4.3713 4.4199 ********** -1.20 8.06 204L -0.3268 -4.4090 4.4211 ********** -0.60 8.13 205 -0.0000 -4.4215 4.4215 ********** 0.00 9.55 206 -0.0002 -4.4211 4.4211 ********** 0.60 9.55 MAJORITY  OF  DISPLACEMENTS  OMITTED 1646 0.0000 0.0000 0.0000 5.86 -1.29 1647 0.0000 0.0000 0.0000 -1.20 -1.29 1648 0.0000 0.0000 0.0000 -3.20 -1.29 1649 0.0000 0.0000 0.0000 -5.00 -1.29 1650 0.0000 0.0000 0.0000 -5.86 -1.29 1 PAFEC  P A G E 151 F O R C E S ON E L E  M  E N T  S
+```
+
+- NOTE -  (1)  AN  E  IN THE  AXIS  SET  C O L U M N INDICATES THAT  THE FORCES  O N  E A C H  E L E M E N T  A R E  GIVEN IN  LOCAL  ELEMENT AXES.  THE  LOCAL  ELEMENT  AXIS  SET  IS FOR M E D  B Y  AN X-AXIS  POSITIVE  F R O M  THE  FIRST  N O D E  IN THE TOPOLOGY TO  THE  SECOND.  THE  Y-AXIS  PASSES T H R O U G H THE FIRST N O D E  N O R M A L  T O  T H E  X-AXIS IN  THE  PLANE OF  THE FIRST THREE  N O D E S  A N D IS  POSITIVE  T O W A R D S THE THIRD.
+- (2) FORCES  AT  NODES  WHICH  HAVE  LOCAL.DIRECT  IONS  ARE ONLY GIVEN IN  THOSE  LOCAL  DIRECTIONS  IF  THE  AXIS SET REQUESTED IS  THE  GLOBAL  SET. IN  S U C H  A  C A S E THE N O D E  N U M B E R  IN  T H E TABLE IS  F O L L O U E D B Y  A N  L.
+
+ELEM ELEM  G R O U P  L O A D  N O D E AXIS
+
+FORCES
+
+NUMB TYPE  N U M B
+
+CASE  N U M B  SET
+
+F-X
+
+F- Y
+
+F-Z
+
+| 69 36210   | 1 1     | 1 137L      | 4 -34942.558 3672.729   |
+|------------|---------|-------------|-------------------------|
+| 69 36210   | 1 139L  | 6 28287.779 | 6056.435                |
+| 69 36210   | 1 1 205 | 1 5895.122  | 7083.367                |
+| 69 36210   | 1 1 207 | 1 1393.747  | 16926.392               |
+| 69 36210   | 1 1     | 138L        | 5 1098.619 -14528.963   |
+| 69 36210   | 1 1     | 1 983       | 1 -50979.718 -14424.025 |
+| 69 36210   |         | 1 984       | 1 34064.605 4658.478    |
+
+4658.478
+
+69 36210
+
+1
+
+1
+
+206
+
+1
+
+15671.570
+
+-5171.875
+
+MAJORITY  O F F O R C E S  O N E L E M E N T S  OMITTED
+
+102 36210
+
+1
+
+1
+
+203L  70
+
+-28300.384
+
+6043.812
+
+102 36210
+
+1
+
+102 36210
+
+1
+
+1
+
+137L
+
+4
+
+34935.066
+
+3661.636
+
+1  271
+
+1
+
+-1395.653
+
+16927.546
+
+102 36210
+
+1
+
+1
+
+205
+
+1
+
+102 36210
+
+1
+
+1
+
+204L  71
+
+-5910.344
+
+7069.922
+
+-1061.499 -14527.283
+
+102 36210
+
+1
+
+1 1032
+
+1
+
+-34060.820
+
+4670.281
+
+102 36210
+
+1
+
+1
+
+983
+
+1
+
+50971.359 -14439.428
+
+102 36210
+
+1
+
+1
+
+272
+
+1
+
+PAFEC  PAGE
+
+157
+
+C O N T E N T S
+
+HEADING
+
+-15668.653
+
+-5134.962
+
+PAGE
+
+PHASE  7
+
+112
+
+DISPLACEMENTS
+
+129
+
+FORCES  O N  ELEMENTS
+
+151
+
+**********************************
+
+*
+
+*
+
+*
+
+0  E R R O R S  IN  THIS PHASE
+
+*
+
+*
+
+*
+
+*  966  WARNINGS IN  THIS  PHASE
+
+*
+
+**********************************
+
+*
+
+*
+
+****  MAXIMUM SIZE OF  BASE  IN  THIS  PHASE  W A S
+
+29840  W O R D S  ****
+
++++ END  O F  PHASE  7  +++
+
+1
+
+## B.l.2.3  A Two-Bimensional Stress Output File (file$.O09)
+
+1 PAFEC  P A G E
+
+158
+
+SYSTEM LEVEL 7.400  A JUNE 1992
+
+PHASE  NO. 9 STARTS  H E R E
+
+ANGLES  O F  SIGMA-1
+
+ELEMENT STRESSES
+
+PPPPP  AAAAA FFFFF EEEEE C C C C C
+
+P
+
+P  A
+
+A FF
+
+E
+
+C CC
+
+P
+
+P  A
+
+A FF
+
+E
+
+C
+
+PPPPP  AAAAA FFF
+
+EEE
+
+C
+
+PP
+
+AA
+
+A F
+
+EE
+
+C
+
+PP
+
+AA
+
+A F
+
+EE
+
+C
+
+PP
+
+AA
+
+A F
+
+EE
+
+C
+
+PP AA A F EEEEE  C C C C C
+
+TITLE 2D-TUNNEL  COORDINATES  A N D  F E - M E S H  DESIGN
+
+DEFAULT  STRESS.ELEMENTS  M O D U L E  CREATED.
+
+1
+
+PAFEC  PAGE
+
+159
+
+ELEMENT TYPE 36210  8 - N O D E  ISOPARAMETRIC  QUADRILATERAL(  PLANE STRAIN )  ISOTROPIC
+
+PRINCIPAL STRESSES  -  SIGMA-1 IS  THE  MAXIMUM VALUE  O F  STRESS IN  THE  PLANE  O F  T H E  ELEMENT SIGMA-2 IS  T H E  MINIMUM  VALUE  O F  STRESS IN THE  PLANE  O F  T H E  E L E M E N T
+
+SIGMA-3 IS  THE  PRINCIPAL STRESS  N O R M A L  T O  T H E  PLANE  O F  T H E  ELEMENT
+
+- LOCAL  ANGLE IS  MEASURED  POSITIVE  F R O M  THE ELEMENT  X-AXIS IN A POSITIVE SENSE  ABOUT  THE  ELEMENT Z-AXIS GLOBAL  ANGLE IS  PRINTED IF THE  ELEMENT LIES WITHIN  TOLERANCE  OF A GLOBAL PLANE.  F O R  ELEMENTS IN  THE XY  PLANE  THE  ANGLE IS MEASURED FR O M  T H E  X-AXIS IN A POSITIVE  SENSE  ABOUT  THE  Z-AXIS  O R  B Y  CYCLIC PERMUTATION  F O R  O T H E R  PLANES
+
+- STRESS  C O M P O N E N T S  REFERRED TO  ELEMENT  AXES
+
+| ELEM   | LOAD   | NODE   | PRINCIPAL.STRESSES   | PRINCIPAL.STRESSES   | PRINCIPAL.STRESSES   | MAX.SHEAR   | ANG.OF .SIG-1   | ANG.OF .SIG-1   | ELEMENT.STRESSES   | ELEMENT.STRESSES   | ELEMENT.STRESSES   |
+|--------|--------|--------|----------------------|----------------------|----------------------|-------------|-----------------|-----------------|--------------------|--------------------|--------------------|
+| NO     | CASE   | NO     | SIGMA-1              | SIGMA-2              | SIGMA-3              | STRESS      | LOCAL GLOBAL    | LOCAL GLOBAL    | SIGMA-X            | SIGMA-Y            | SIGMA-XY           |
+|        | 1      |        | .00E+00              | .OOE+00              | .OOE+00              | .OOE+00     | .0              | -4.7            | .00D+00            | .O OD +OO          | .O OD +OO          |
+|        | 1 1    | 2      | .00E+00              | .OOE+00              | .OOE+00              | .OOE+00     | .0              | -4.7            | .00D+00            | .O OD +OO          | .O OD +OO          |
+|        | 1      | 3      | .00E+00              | .OOE+00              | .OOE+00              | .OOE+00     | .0              | -4.7            | .00D+00            | .O OD +OO          | .O OD +OO          |
+|        | 1      | 915    | .00E+00              | .OOE+00              | .OOE+00              | .OOE+00     | .0              | -4.7            | .O OD +OO          | .O OD +OO          | .O OD +OO          |
+|        | 1      | *      | .00E+00              | .OOE+00              | .OOE+00              | .OOE+00     | .0              | -4.7            | .00D+00            | .O OD +OO          | .O OD +OO          |
+|        | 1      | 916    | .00E+00              | .OOE+00              | .OOE+00              | .OOE+00     | .0              | -4.7            | .00D+00            | .O OD +OO          | .O OD +OO          |
+|        | 1      | 69     | .OOE+00              | .OOE+00              | .O OE +OO            | .OOE+00     | .0              | -4.7            | .O OD +OO          | .O OD +OO          | .O OD +OO          |
+|        | 1      | 70     | .00E+00              | .OOE+00              | .OOE+00              | .OOE+00     | .0              | -4.7            | .00D+00            | .O OD +OO          | .O OD +OO          |
+|        | 1      | 71     | .OOE+00              | .OOE+00              | .OOE+00              | .OOE+00     | .0              | -4.7            | .O OD +OO          | .O OD +OO          | .O OD +OO          |
+| 2      | 1      | 3      | .00E+00              | .OOE+00              | .OOE+00              | .OOE+00     | .0              | -17.5           | .O OD +OO          | .O OD +OO          | .O OD +OO          |
+| 2      | 1      | 4      | .OOE+00              | .OOE+00              | .OOE+00              | .OOE+00     | .0              | -17.5           | .O OD +OO          | .O OD +OO          | .O OD +OO          |
+| 2      | 1      | 5      | .OOE+00              | .OOE+00              | .OOE+00              | .OOE+00     | .0              | -17.5           | .O OD +OO          | .O OD +OO          | .O OD +OO          |
+| 2      | 1      | 916    | .OOE+00              | .OOE+00              | .OOE+00              | .OOE+00     | .0              | -17.5           | .O OD +OO          | .O OD +OO          | .O OD +OO          |
+| 2      | 1      | *      | .OOE+00              | .OOE+00              | .OOE+00              | .OOE+00     | .0              | -17.5           | .O OD +OO          | .O OD +OO          | .O OD +OO          |
+| 2      | 1      | 917    | .OOE+00              | .OOE+00              | .OOE+00              | .OOE+00     | .0              | -17.5           | .O OD +OO          | .O OD +OO          | .O OD +OO          |
+| 2      | 1      | 71     | .OOE+00              | .OOE+00              | .OOE+00              | .OOE+00     | .0              | -17.5           | .O OD +OO          | .O OD +OO          | .O OD +OO          |
+| 2      | 1      | 72     | .OOE+00              | .00E+00              | .OOE+00              | .OOE+00     | .0              | -17.5           | .O OD +OO          | .000+00            | .O OD +OO          |
+| 2      | 1      | 73     | .OOE+00              | .00E+00              | .OOE+00              | .OOE+00     | .0              | -17.5           | .O OD +OO          | .O OD +OO          | .O OD +OO          |
+
+## MAJORITY  OF  STRESESS  OMITTED
+
+| 69 1   | 137   |   1.61E+05 |   9.21E+03 |   2.73E+04 |   7.61E+04 |   4.0 |   -.2 | 1.61D+05   | 9.95D+03   | 1.06D+04   |
+|--------|-------|------------|------------|------------|------------|-------|-------|------------|------------|------------|
+| 69 1   | 138   |   1.51E+05 |   9.05E+03 |   2.56E+04 |   7.10E+04 |   1.2 |  -3.1 | 1.51D+05   | 9.11D+03   | 2.88D+03   |
+| 69 1   | 139   |   1.24E+05 |   2.78E+03 |   2.02E+04 |   6.05E+04 |   -.4 |  -4.7 | 1.24D+05   | 2.79D+03   | -9.04D+02  |
+| 69 1   | 983   |   4.99E+04 |   1.27E+04 |   1.00E+04 |   1.99E+04 |   4.9 |    .7 | 4.96D+04   | 1.29D+04   | 3.18D+03   |
+| 69 1   | *     |   4.64E+04 |   8.37E+03 |   8.77E+03 |   1.90E+04 |  18.6 |  14.4 | 4.25D+04   | 1.23D+04   | 1.15D+04   |
+| 69 1   | 984   |   4.35E+04 |  -6.91E+03 |   5.86E+03 |   2.52E+04 |  32.3 |  28.1 | 2.91D+04   | 7.53D+03   | 2.28D+04   |
+| 69 1   | 205   |   2.53E+04 |  -1.33E+04 |   1.93E+03 |   1.93E+04 | -86.0 |  89.8 | -1.31D+04  | 2.51D+04   | -2.71D+03  |
+| 69 1   | 206   |   3.25E+04 |  -2.82E+04 |   6.89E+02 |   3.03E+04 |  68.2 |  63.9 | -1.98D+04  | 2.41D+04   | 2.09D+04   |
+| 69 1   | 207   |   4.78E+04 |  -5.59E+04 |  -1.31E+03 |   5.19E+04 |  58.4 |  54.2 | -2.74D+04  | 1.93D+04   | 4.63D+04   |
+
+4.63D+04
+
+| 70 1                                            | 139                                             | 1.29E+05                                        | 3.16E+03                                        | 2.12E+04                                        | 6.32E+04                                        | 9.7                                             | -6.1                                            | 1.26D+05                                        | 6.78D+03                                        | 2.11D+04                                        |
+|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| 70 1                                            | 140                                             | 4.45E+04                                        | 3.84E+03                                        | 7.73E+03                                        | 2.03E+04                                        | 17.2                                            | 1.4                                             | 4.09D+04                                        | 7.41D+03                                        | 1.15D+04                                        |
+| 70 1                                            | 141                                             | -5.88E+02                                       | -9.76E+04                                       | -1.57E+04                                       | 4.85E+04                                        | 68.8                                            | 53.0                                            | -8.49D+04                                       | -1.33D+04                                       | 3.27D+04                                        |
+| 70 1                                            | 984                                             | 4.26E+04                                        | -1.27E+04                                       | 4.80E+03                                        | 2.76E+04                                        | 48.2                                            | 32.4                                            | 1.19D+04                                        | 1.81D+04                                        | 2.75D+04                                        |
+| 70 1                                            | *                                               | 3.76E+04                                        | -6.25E+04                                       | -3.99E+03                                       | 5.00E+04                                        | 58.5                                            | 42.8                                            | -3.53D+04                                       | 1.03D+04                                        | 4.45D+04                                        |
+| 70 1                                            | 985                                             | 3.67E+04                                        | -1.52E+05                                       | -1.85E+04                                       | 9.46E+04                                        | 59.1                                            | 43.3                                            | -1.03D+05                                       | -1.32D+04                                       | 8.33D+04                                        |
+| 70 1                                            | 207                                             | 4.65E+04                                        | -6.76E+04                                       | -3.39E+03                                       | 5.70E+04                                        | 71.4                                            | 55.6                                            | -5.61D+04                                       | 3.49D+04                                        | 3.44D+04                                        |
+| 70 1                                            | 208                                             | 5.38E+04                                        | -1.28E+05                                       | -1.19E+04                                       |                                                 |                                                 | 46.3                                            | -8.82D+04                                       | 1.40D+04                                        | 7.52D+04                                        |
+|                                                 |                                                 |                                                 |                                                 |                                                 | 9.09E+04                                        | 62.1                                            |                                                 |                                                 |                                                 |                                                 |
+| 70 1                                            | 209                                             | 6.63E+04                                        | -2.14E+05                                       | -2.37E+04                                       | 1.40E+05                                        | 56.8                                            | 41.0                                            | -1.30D+05                                       | -1.78D+04                                       | 1.29D+05                                        |
+| MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    |
+| 252                                             | 1 239                                           | -2.16E+04                                       | -1.83E+05                                       | -5.53E+04                                       | 8.07E+04                                        | -89.8                                           | -89.8                                           | -1.83D+05                                       | -2.16D+04                                       | -4.52D+02                                       |
+| 252                                             | 1 1010                                          | -2.17E+04                                       | -1.83E+05                                       | -5.52E+04                                       | 8.06E+04                                        | -88.1                                           | -88.1                                           | -1.83D+05                                       | -2.18D+04                                       | -5.31D+03                                       |
+| 252                                             | 1 241                                           | -2.28E+04                                       | -1.84E+05                                       | -5.57E+04                                       | 8.05E+04                                        | -86.3                                           | -86.3                                           | -1.83D+05                                       | -2.34D+04                                       | -1.03D+04                                       |
+| 252 252                                         | 1 1413 1 *                                      | -4.43E+04 -4.49E+04                             | -2.18E+05 -2.19E+05                             | -7.08E+04 -7.12E+04                             | 8.67E+04 8.69E+04                               | -89.9 -89.0                                     | -89.9 -89.0                                     | -2.18D+05 -2.19D+05                             | -4.43D+04 -4.49D+04                             | -2.38D+02 -2.92D+03                             |
+| 252                                             | 1 1458                                          | -4.67E+04                                       |                                                 |                                                 |                                                 |                                                 |                                                 |                                                 |                                                 | -5.79D+03                                       |
+| 252                                             | 1 331                                           | -6.01E+04                                       | -2.20E+05 -2.34E+05                             | -7.21E+04                                       | 8.68E+04                                        | -88.1                                           | -88.1                                           | -2.20D+05 -2.34D+05                             | -4.69D+04 -6.01D+04                             | -6.00D-03                                       |
+| 252                                             | 1460                                            | -6.11E+04                                       |                                                 | -7.94E+04                                       |                                                 |                                                 |                                                 |                                                 |                                                 | -5.09D+02                                       |
+|                                                 |                                                 |                                                 | -2.36E+05                                       | -8.02E+04 -8.15E+04                             | 8.74E+04                                        | -89.8 -89.6                                     | -89.8                                           | -2.36D+05                                       | -6.11D+04                                       | -1.20D+03                                       |
+| 252                                             | 1 1 355                                         |                                                 |                                                 |                                                 | 8.69E+04 8.75E+04                               | 90.0                                            | 90.0                                            |                                                 |                                                 |                                                 |
+| 253                                             | 1 357                                           | -6.35E+04 .00E+00                               | -2.38E+05                                       | .00E+00                                         | .OOE+00                                         |                                                 | -89.6                                           | -2.38D+05                                       | -6.35D+04                                       | .00D+00                                         |
+| 253                                             | 1 1461                                          | .00E+00 .00E+00                                 | .00E+00 .00E+00                                 | .00E+00                                         | .00E+00                                         | .0 .0                                           | .0 .0                                           | .00D+00 .OOD+00                                 | .00D+00 .00D+00                                 | .00D+00                                         |
+| 253                                             | 1 359                                           | .00E+00                                         | .00E+00 .00E+00                                 | .00E+00                                         | .00E+00                                         | .0                                              | .0                                              | .00D+00                                         | .00D+00                                         | .00D+00                                         |
+| 253                                             | 1 1462 1 *                                      |                                                 | .00E+00                                         | .00E+00 .00E+00                                 | .00E+00 .00E+00                                 | .0                                              | .0                                              | .00D+00 .00D+00                                 | .00D+00 .00D+00                                 | .00D+00 .OOD+00                                 |
+| 253                                             |                                                 | .00E+00                                         |                                                 | .00E+00                                         |                                                 | .0                                              | .0                                              |                                                 |                                                 |                                                 |
+| 253                                             | 1 1463                                          | .00E+00                                         | .00E+00                                         |                                                 | .00E+00                                         | .0                                              | .0                                              | .000+00                                         | .00D+00                                         | .00D+00                                         |
+| 253 253                                         | 1 69 1                                          | .00E+00 .00E+00                                 | .00E+00                                         | .OOE+00 .00E+00                                 | .00E+00 .00E+00                                 | .0 .0                                           | .0                                              | .00D+00                                         | .OOD+00 .00D+00                                 | .00D+00                                         |
+| 253                                             | 70                                              |                                                 | .00E+00                                         |                                                 |                                                 |                                                 | .0                                              | .00D+00                                         |                                                 | .00D+00                                         |
+|                                                 | 71                                              |                                                 | .00E+00                                         |                                                 |                                                 |                                                 |                                                 |                                                 |                                                 |                                                 |
+|                                                 |                                                 |                                                 |                                                 | .00E+00                                         |                                                 |                                                 |                                                 |                                                 |                                                 |                                                 |
+| 1                                               |                                                 | .00E+00                                         |                                                 |                                                 | .00E+00                                         | .0                                              | .0                                              | .OOD+00                                         | .00D+00                                         | .00D+00                                         |
+| MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    | MAJORITY OF STRESSES OMITTED                    |
+| 356                                             | 1 438                                           | .00E+00                                         | .00E+00                                         | .00E+00                                         | .00E+00                                         | .0                                              | .0                                              | .00D+00                                         | .00D+00                                         | .00D+00                                         |
+| 356                                             | 1 1641                                          | .00E+00                                         | .00E+00                                         | .00E+00                                         | .00E+00                                         | .0                                              | .0                                              | .OOD+00                                         | .00D+00                                         | .00D+00                                         |
+| 356                                             | 1 436                                           | .00E+00                                         | .00E+00                                         | .00E+00                                         | .00E+00                                         | .0                                              | .0                                              | .00D+00                                         | .00D+00                                         | .00D+00                                         |
+| 356                                             | 1 1506                                          | .00E+00                                         | •00E+00                                         | .00E+00                                         | .00E+00                                         | .0                                              | .0                                              | .00D+00                                         | .000+00                                         | .00D+00                                         |
+| 356                                             | 1 *                                             | .00E+00                                         | .00E+00                                         | .00E+00                                         | .00E+00                                         | .0                                              | .0                                              | .00D+00                                         | .OOD+00                                         | .OOD+00                                         |
+| 356                                             | 1 1650                                          | .00E+00                                         | .00E+00                                         | .00E+00                                         | .00E+00                                         | .0                                              | .0                                              | .00D+00                                         | .OOD+00                                         | .000+00                                         |
+| 356                                             | 1 450                                           | .00E+00                                         | .00E+00                                         | .OOE+00                                         | .00E+00                                         | .0                                              | .0                                              | .00D+00                                         | .00D+00                                         | .00D+00                                         |
+| 356                                             | 1 1504                                          | .00E+00                                         | .00E+00                                         | .00E+00                                         | .00E+00                                         | .0                                              | .0                                              | .00D+00                                         | .00D+00                                         | .00D+00                                         |
+| 356                                             |                                                 |                                                 |                                                 |                                                 |                                                 |                                                 |                                                 |                                                 |                                                 |                                                 |
+|                                                 | 1                                               | .00E+00                                         | .00E+00                                         | .00E+00                                         | .00E+00                                         | .0                                              |                                                 | .00D+00                                         | .OOD+00                                         |                                                 |
+| **** THIS +++                                   | 448 MAXIMUM END OF                              | SIZE OF PHASE 9                                 | BASE IN +++                                     | PHASE WAS                                       | 232111                                          | WORDS                                           | .0 ****                                         |                                                 |                                                 | .OOD+00                                         |
+| 1 PAFEC PAGE 311                                | 1 PAFEC PAGE 311                                | 1 PAFEC PAGE 311                                | 1 PAFEC PAGE 311                                | 1 PAFEC PAGE 311                                | 1 PAFEC PAGE 311                                | 1 PAFEC PAGE 311                                | 1 PAFEC PAGE 311                                | 1 PAFEC PAGE 311                                | 1 PAFEC PAGE 311                                | 1 PAFEC PAGE 311                                |
+| C O N T E N T S                                 | C O N T E N T S                                 | C O N T E N T S                                 | C O N T E N T S                                 | C O N T E N T S                                 | C O N T E N T S                                 | C O N T E N T S                                 | C O N T E N T S                                 | C O N T E N T S                                 | C O N T E N T S                                 | C O N T E N T S                                 |
+| HEADING PAGE                                    | HEADING PAGE                                    | HEADING PAGE                                    | HEADING PAGE                                    | HEADING PAGE                                    | HEADING PAGE                                    | HEADING PAGE                                    | HEADING PAGE                                    | HEADING PAGE                                    | HEADING PAGE                                    | HEADING PAGE                                    |
+| PHASE 9 158 STRESSES FOR ELEMENT TYPE 36210 159 | PHASE 9 158 STRESSES FOR ELEMENT TYPE 36210 159 | PHASE 9 158 STRESSES FOR ELEMENT TYPE 36210 159 | PHASE 9 158 STRESSES FOR ELEMENT TYPE 36210 159 | PHASE 9 158 STRESSES FOR ELEMENT TYPE 36210 159 | PHASE 9 158 STRESSES FOR ELEMENT TYPE 36210 159 | PHASE 9 158 STRESSES FOR ELEMENT TYPE 36210 159 | PHASE 9 158 STRESSES FOR ELEMENT TYPE 36210 159 | PHASE 9 158 STRESSES FOR ELEMENT TYPE 36210 159 | PHASE 9 158 STRESSES FOR ELEMENT TYPE 36210 159 | PHASE 9 158 STRESSES FOR ELEMENT TYPE 36210 159 |
+| **********************************              | **********************************              | **********************************              | **********************************              | **********************************              | **********************************              | **********************************              | **********************************              | **********************************              | **********************************              | **********************************              |
+| * 0 ERRORS IN THIS PHASE *                      | * 0 ERRORS IN THIS PHASE *                      | * 0 ERRORS IN THIS PHASE *                      | * 0 ERRORS IN THIS PHASE *                      | * 0 ERRORS IN THIS PHASE *                      | * 0 ERRORS IN THIS PHASE *                      | * 0 ERRORS IN THIS PHASE *                      | * 0 ERRORS IN THIS PHASE *                      | * 0 ERRORS IN THIS PHASE *                      | * 0 ERRORS IN THIS PHASE *                      | * 0 ERRORS IN THIS PHASE *                      |
+| * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             |
+| * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             |
+| * 92 WARNINGS IN THIS PHASE *                   | * 92 WARNINGS IN THIS PHASE *                   | * 92 WARNINGS IN THIS PHASE *                   | * 92 WARNINGS IN THIS PHASE *                   | * 92 WARNINGS IN THIS PHASE *                   | * 92 WARNINGS IN THIS PHASE *                   | * 92 WARNINGS IN THIS PHASE *                   | * 92 WARNINGS IN THIS PHASE *                   | * 92 WARNINGS IN THIS PHASE *                   | * 92 WARNINGS IN THIS PHASE *                   | * 92 WARNINGS IN THIS PHASE *                   |
+| * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             | * *                                             |
+| **********************************              | **********************************              | **********************************              | **********************************              | **********************************              | **********************************              | **********************************              | **********************************              | **********************************              | **********************************              | **********************************              |
+
+## B.  1.2.4  A Two-Dimensional Averaged and Unaveraged Stress Output File (file$.SP)
+
+```
+1 PAFEC  P A G E 228 PPPPPPP AA FFF  FFFFF  EEEEEEEE cccc pp pp AAAA FFI EE cc CC pp pp AA  AA FFF EE CC CC pp pp AA  AA FFF EE CC pp pp  AA AA  FFF EE CC PPPPPPP AA AA  FFF 'FFF EEEEEE CC pp AAAAAAAA  FF EEE CC pp AA AA  FF EEE CC pp AA AA  FF EEE CC CC pp AA AA  FF EEE CC CC pp AA AA  FF EEEEEEEE cccc PPPPPPP 0000 ssss pp pp 000000 ss ss pp pp  000  000  ss ss pp pp  00 00  ss pp pp  00 00 ss PPPPPPP 00 00 ssss pp 00 00 ss pp 00 00 ss pp 000  000  ss ss pp 000000 ss ss pp 0000 ssss TTTTTTTT PPPPPPP RRRRR R R 0000 cccc EEEEEEEE SSSS ssss 0000 RRRRR R R pp pp  RR RR 000000 cc cc EE SS SS ss ss 000000 RR RR pp pp  R R RR  000  000  cc cc  EE SS SS  ss ss  000  000  R R RR pp pp  R R RR 00 00  cc EE SS ss 00 00  R R RR pp pp  R R RR 00 00  cc EE SS ss 00 00  R R RR PPPPPPP RRRR R R R 00 00  cc EEEEEE SSSS ssss 00 00  RRR R R R R pp RRR R R 00 00  cc EEE SS ss 00 00  RRRRR pp RR  R R 00 00  cc EEE SS ss  00 00  R R R R pp RR RR 000  000  cc cc  EEE SS SS  ss ss  000  000  R R  RR pp RR RR 000000 cc cc EEE SS SS ss ss 000000 RR RR pp RR RR 0000 cccc EEEEEEEE ssss ssss 0000 RR RR 1 PAFEC  P A G E 229 0000 RRRRRRR DDODD D EEEEEEEE RRRRR R R 000000 RR RR DDDDDDD EE RR RR 000 000 RR RR DD DDD EE RR RR 00 00 RR RR DD DD EE RR RR 00 00 RR RR DD DD EE RR RR 00 00 RRRRR R R DD DD EEEEEE RRRR R R R 00 00 RRRR R DD DD EEE RRR R R 00 00 RR  R R DD DD EEE RR RR 000 000 RR RR DD DDD EEE RR  R R 000000 RR RR DDDDDD D EEE RR RR 0000 RR RR DDDDD D EEEEEEEE RR RR 11 111 11111111
+```
+
+THERE  IS 1 TABLE  U N D E R  THIS  O R D E R
+
+THE  VALUES  OUTPUT  IN  T H E  TABLES  U N D E R THIS  O R D E R ARE SCALED  B Y 1.00000 AND  ARE  OFFSET  B Y .OOOOOOE +00 CONTINUITY  VALUES  ARE  N O T  SCALED  O R  OFFSET
+
+ANY DIRECTIONAL VALUES  ARE  GIVEN WITH  RESPECT  TO  THE  GLOBAL AXIS  SET ANY DIRECTIONAL VALUES  ARE  GIVEN WITH  RESPECT  TO  A  LOCAL AXIS  SET
+
+IN PREFERENCE  TO  OTHERS.  T H E  LETTER  L  IS  PRINTED  AFTER  E A C H LINE  OF OUTPUT  W H E R E  T H E  DIRECTIONAL  STRESSES  A R E  WITH  RESPECT TO A LOCAL AXIS SET.
+
+THERE IS  N O  SORTING  U N D E R THIS  O R D E R
+
+ALL DIRECTIONAL STRAINS  U N D E R THIS  O R D E R  A R E  ENGINEERING  STRAINS
+
+1
+
+PAFEC  P A G E
+
+230
+
+LOAD  CASE 1
+
+| ELEMENT NUMBER               | ELEMENT NUMBER               | NODE NO.                     | SIG MISES                    | SIG MISES                    | SIG XX SIG YY                       | SIG XX SIG YY                       | SIG ZZ                        | SIG ZZ                             | TAU XY TAU YZ                      | TAU XY TAU YZ                |                              | TAU ZX                       |
+|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|-------------------------------------|-------------------------------------|-------------------------------|------------------------------------|------------------------------------|------------------------------|------------------------------|------------------------------|
+| 1                            | 1                            | O.O OOO E+OO                 | O.O OOO E+OO                 | O.OOOOE+00 O. OO             | O.OOOOE+00 O. OO                    | OO E+ OO O.O                        | OO E+ OO O.O                  | OOO E+OO                           | OOO E+OO                           | O.O OOO E+OO O.O OOO         | E+OO                         | O.O OOO E+OO                 |
+| 1                            | 2                            | 0.0000E+00                   | 0.0000E+00                   | O.OOOOE+00                   | O.OOOOE+00                          | O. OO OO E+ OO                      | O. OO OO E+ OO                | OOO E+OO O.O                       | OOO E+OO O.O                       | OOO E+OO                     | O.O OOO E+OO                 | O.O OOO E+OO                 |
+| 1                            | 3                            | 0.0000E+00                   | 0.0000E+00                   | 0.0000E+00                   | 0.0000E+00                          | O. OO OO E+ OO                      | O. OO OO E+ OO                | O.O O.O OOO E+OO O.O               | O.O O.O OOO E+OO O.O               | OOO E+OO                     | O.O OOO E+OO                 | O.O OOO E+OO                 |
+| 1                            | 915                          | 0.0000E+00                   | 0.0000E+00                   | O. OO OO E+ OO               | O. OO OO E+ OO                      | O. OO OO E+ OO                      | O. OO OO E+ OO                | O. OO OO E+ OO O.O                 | O. OO OO E+ OO O.O                 | OOO E+OO                     | O.O OOO E+OO                 | O.O OOO E+OO                 |
+| 1                            | 916                          | 0.0000E+00                   | 0.0000E+00                   | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | O. OO OO E+ OO O.O                 | O. OO OO E+ OO O.O                 | OOO E+OO                     | O.O OOO E+OO                 | O.O OOO E+OO                 |
+| 1                            | 69                           | 0.0000E+00                   | 0.0000E+00                   | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | O.O OOO E+OO                       | O.O OOO E+OO                       | O. OO OO E+ OO               | .OOOOE+00                    | O.O OOO E+OO                 |
+| 1                            | 70                           | 0.0000E+00                   | 0.0000E+00                   | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | O.O OOO E+OO O. OO                 | O.O OOO E+OO O. OO                 | OO E+ OO                     | .OOOOE+00                    | O.O OOO E+OO                 |
+| 1                            | 71                           | 0.0000E+00                   | 0.0000E+00                   | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | O. OO OO E+ OO                     | O. OO OO E+ OO                     | O. OO OO E+ OO               | .OOOOE+00                    | O.O OOO E+OO                 |
+| 2                            | 3                            | 0.0000E+00                   | 0.0000E+00                   | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | O.O OOO E+OO O. OO                 | O.O OOO E+OO O. OO                 | OO E+ OO                     | .OOOOE+00                    | O.O OOO E+OO                 |
+| 2                            | 4                            | 0.0000E+00                   | 0.0000E+00                   | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | O.O OOO E+OO                       | O.O OOO E+OO                       | O. OO OO E+ OO               | .OOOOE+00                    | O.O OOO E+OO                 |
+| 2                            | 5                            | 0.0000E+00                   | 0.0000E+00                   | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | O.O OOO E+OO                       | O.O OOO E+OO                       | O. OO OO E+ OO               | .OOOOE+00                    | O.O OOO E+OO                 |
+| 2                            | 916                          | 0.0000E+00                   | 0.0000E+00                   | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | O.O OOO E+OO O. OO OO              | O.O OOO E+OO O. OO OO              | E+ OO                        | .OOOOE+00                    | .OOOOE+00                    |
+| 2                            | 917                          | 0.0000E+00                   | 0.0000E+00                   | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | O.O OOO E+OO O. OO OO              | O.O OOO E+OO O. OO OO              | E+ OO O.O                    | OOO E+OO                     | .OOOOE+00                    |
+| 2                            | 71                           | 0.0000E+00                   | 0.0000E+00                   | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | O.O OOO E+OO O. OO OO              | O.O OOO E+OO O. OO OO              | E+ OO                        | O.O OOO E+OO                 | .OOOOE+00                    |
+| 2                            | 72                           | 0.0000E+00                   | 0.0000E+00                   | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | O.O OOO E+OO O. OO OO              | O.O OOO E+OO O. OO OO              | E+ OO O.O OOO                | E+OO                         | .O OO OE +OO                 |
+| 2                            | 73                           | 0.0000E+00                   | 0.0000E+00                   | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | O.O OOO E+OO O.                    | O.O OOO E+OO O.                    | OO OO E+ OO O.O              | OOO E+OO                     | O.O OOO E+OO                 |
+| MAJORITY OF STRESSES OMITTED | MAJORITY OF STRESSES OMITTED | MAJORITY OF STRESSES OMITTED | MAJORITY OF STRESSES OMITTED | MAJORITY OF STRESSES OMITTED | MAJORITY OF STRESSES OMITTED        | MAJORITY OF STRESSES OMITTED        | MAJORITY OF STRESSES OMITTED  | MAJORITY OF STRESSES OMITTED       | MAJORITY OF STRESSES OMITTED       | MAJORITY OF STRESSES OMITTED | MAJORITY OF STRESSES OMITTED | MAJORITY OF STRESSES OMITTED |
+|                              | 135                          |                              |                              |                              |                                     |                                     |                               |                                    |                                    |                              | O.O OOO E+OO                 | O.O OOO E+OO                 |
+| 68 68                        | 136                          | O.O OOO E+OO O.O OOO E+OO    | O.O OOO E+OO O.O OOO E+OO    | O.O OOO E+OO O.O OOO E+OO    | O.O OOO E+OO O.O OOO E+OO           | O. OO OO E+ OO O. OO OO E+ OO       | O. OO OO E+ OO O. OO OO E+ OO | O.O OOO E+OO O.O OOO E+OO O. OO OO | O.O OOO E+OO O.O OOO E+OO O. OO OO | E+ OO O. OO OO E+ OO O.O     | OOO E+OO                     | O.O OOO E+OO                 |
+| 68                           | 69                           | O.O OOO E+OO                 | O.O OOO E+OO                 | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | O.O OOO E+OO                       | O.O OOO E+OO                       | O. OO OO E+ OO               | O.OOOOE+00                   | O.O OOO E+OO                 |
+| 68                           | 982                          | O.O OOO E+OO                 | O.O OOO E+OO                 | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | O.O OOO E+OO                       | O.O OOO E+OO                       | .OOOOE+00 O.O OOO            | E+OO                         | O.O OOO E+OO                 |
+| 68                           | 949                          | O.O OOO E+OO                 | O.O OOO E+OO                 | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | .OOOOE+00                          | .OOOOE+00                          | .O OO OE +OO O.O             | OOO E+OO                     | O.O OOO E+OO                 |
+| 68                           | 203                          | O.O OOO E+OO                 | O.O OOO E+OO                 | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | .OOOOE+00                          | .OOOOE+00                          | .OOOOE+00 O.O OOO            | E+OO                         | O.OOO OE+OOL                 |
+| 68                           | 204                          | O.O OOO E+OO                 | O.O OOO E+OO                 | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | .OOOOE+00                          | .OOOOE+00                          | .OOOOE+00 O.O                | OOO E+OO                     | O.OOO OE+OOL                 |
+| 68                           | 137                          | O.O OOO E+OO                 | O.O OOO E+OO                 | O.O OOO E+OO                 | O.O OOO E+OO                        | O. OO OO E+ OO                      | O. OO OO E+ OO                | .OOOOE+00                          | .OOOOE+00                          | .O OO OE +OO O.O OOO         | E+OO                         | O.OOO OE+OOL                 |
+| 69                           | 137                          | 1.4408E+05                   | 1.4408E+05                   | 1.6149E+05                   | 1.6149E+05                          | 9.2160E+03                          | 9.2160E+03                    | .7313E+04                          | .7313E+04                          | .1837E+02 O.O OOO            | E+OO                         | O.OOO OE+OOL                 |
+| 69                           | 138                          | 1.3444E+05                   | 1.3444E+05                   | 1.5095E+05                   | 1.5095E+05                          | 9.1052E+03                          | 9.1052E+03                    | .5608E+04                          | .5608E+04                          | .8560E+03                    | .OOOOE+00                    | O.OOO OE+OOL                 |
+| 69                           | 139                          | 1.1319E+05                   | 1.1319E+05                   | 1.2315E+05                   | 1.2315E+05                          | 3.3111E+03                          | 3.3111E+03                    | .0233E+04                          | .0233E+04                          | 8.0058E+03                   | .OOOOE+00                    | O.OOO OE+OOL                 |
+| 69                           | 983                          | 3.8644E+04                   | 3.8644E+04                   | 4.9905E+04                   | 4.9905E+04                          | 1.2663E+04                          | 1.2663E+04                    | 1.0011E+04                         | 1.0011E+04                         | 4.4302E+02                   | .OOOOE+00                    | O.O OOO E+OO                 |
+| 69                           | 984                          | 4.5411E+04                   | 4.5411E+04                   | 3.2321E+04                   | 3.2321E+04                          | 4.2912E+03                          | 4.2912E+03                    | 5.8580E+03                         | 5.8580E+03                         | 2.0960E+04                   | .OOOOE+00                    | O.O OOO E+OO                 |
+| 69                           | 205                          | 3.3679E+04                   | 3.3679E+04                   | -1.3267E+04                  | -1.3267E+04                         | 2.5331E+04                          | 2.5331E+04                    | 1.9302E+03                         | 1.9302E+03                         | 1.3782E+02                   | .OOOOE+00                    | O.O OOO E+OO                 |
+| 69                           | 206                          | 5.2512E+04                   | 5.2512E+04                   | -1.6445E+04                  | -1.6445E+04                         | 2.0751E+04                          | 2.0751E+04                    | 6.8B98E+02                         | 6.8B98E+02                         | 2.3928E+04                   | .OOOOE+00                    | O.O OOO E+OO                 |
+| 69                           | 207                          | 8.9868E+04                   | 8.9868E+04                   | -2.0376E+04                  | -2.0376E+04                         | 1.2217E+04                          | 1.2217E+04                    | -1.3054E+03                        | -1.3054E+03                        | 4.9233E+04 O.O               | OOO E+OO                     | O.O OOO E+OO                 |
+| MAJORITY OF STRESSES OMITTED | MAJORITY OF STRESSES OMITTED | MAJORITY OF STRESSES OMITTED | MAJORITY OF STRESSES OMITTED | MAJORITY OF STRESSES OMITTED | MAJORITY OF STRESSES OMITTED        | MAJORITY OF STRESSES OMITTED        | MAJORITY OF STRESSES OMITTED  | MAJORITY OF STRESSES OMITTED       | MAJORITY OF STRESSES OMITTED       | MAJORITY OF STRESSES OMITTED | MAJORITY OF STRESSES OMITTED | MAJORITY OF STRESSES OMITTED |
+| 251                          | 241                          | 1.4725E+05                   | -1.8134E+05                  | -1.8134E+05                  | -2.2790E+04                         | -2.2790E+04                         | -5.5114E+04                   | -5.5114E+04                        | -1.4440E+04                        | -1.4440E+04                  | O.O OOO E+OO                 | O.O OOO E+OO                 |
+| 251                          | 1012                         | 1.4808E+05                   | -1.835BE+05                  | -1.835BE+05                  | -2.3733E+04                         | -2.3733E+04                         | -5.5975E+04                   | -5.5975E+04                        | -1.2785E+04                        | -1.2785E+04                  | OOO E+OO                     | O.O OOO E+OO                 |
+| 251                          | 243                          | 1.4103E+05                   | -1.9310E+05                  | -1.9310E+05                  | -4.4349E+04                         | -4.4349E+04                         | -6.4113E+04                   | -6.4113E+04                        | -1.0158E+04                        | -1.0158E+04                  | O.O O.O OOO E+OO             | O.O OOO E+OO                 |
+| 251                          | 1458                         | 1.6439E+05                   | -2.2322E+05                  | -2.2322E+05                  | -4.8053E+04                         | -4.8053E+04                         | -7.3243E+04                   | -7.3243E+04                        | -6.3253E+03                        | -6.3253E+03                  | O.O OOO E+OO                 | O.O OOO E+OO                 |
+| 251                          | 1456                         | 1.4956E+05                   | -2.3376E+05                  | -2.3376E+05                  | -8.3153E+04                         | -8.3153E+04                         | -8.5567E+04                   | -8.5567E+04                        | -3.7633E+03                        | -3.7633E+03                  | O.O OOO E+OO                 | O.O OOO E+OO                 |
+| 251                          | 355                          | 1.6852E+05                   | -2.4134E+05                  | -2.4134E+05                  | -6.4527E+04                         | -6.4527E+04                         | -8.2583E+04                   | -8.2583E+04                        | -1.2001E+03                        | -1.2001E+03                  | O.O OOO E+OO                 | O.O OOO E+OO                 |
+| 251                          | 1459                         | 1.5962E+05                   | -2.4236E+05                  | -2.4236E+05                  | -2.5065E+05 -7.9009E+04 -1.1317E+05 | -2.5065E+05 -7.9009E+04 -1.1317E+05 | -8.6769E+04                   | -8.6769E+04                        | -1.2650E+03                        | -1.2650E+03                  | O.O OOO E+OO O.O OOO E+OO    | O.O OOO E+OO                 |
+| 251 252                      | 353 239                      | 1.4553E+05 1.4749E+05        | -1.8302E+05                  | -1.8302E+05                  | -2.1619E+04                         | -2.1619E+04                         | -9.8231E+04                   | -9.8231E+04                        | -3.5786E+02                        | -3.5786E+02                  | O.O OOO E+OO O.O OOO E+OO    | O.O OOO E+OO O.O OOO E+OO    |
+| 252                          | 1010                         | 1.4740E+05                   |                              |                              | -1.8278E+05 -2.1838E+04             | -1.8278E+05 -2.1838E+04             | -5.5252E+04 -5.5248E+04       | -5.5252E+04 -5.5248E+04            | -4.5211E+02                        | -4.5211E+02                  | -5.3080E+03                  | O.O OOO E+OO                 |
+| 252                          | 241                          | 1.4727E+05                   | -1.8305E+05                  | -1.8305E+05                  | -2.3425E+04                         | -2.3425E+04                         | -5.5749E+04                   | -5.5749E+04                        | -1.0346E+04                        | -1.0346E+04                  | O.O OOO E+OO                 | O.O OOO E+OO                 |
+
+********************
+
+*
+
+*
+
+*  TABLE  1 OF  1  *
+
+*
+
+*
+
+********************
+
+252 1413 252 1458 252  331 252 1460 252 355 253 357 253  1461 253 359 253 1462 253 1463 253 69 1 PAFEC  PAGE LOAD CASE 1.6190E+05 1.6238E+05 1.6503E+05 1.6612E+05 1.6671E+05 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 269 -2.1782E+05 -2.2009E+05 -2.3396E+05 -2.3596E+05 -2.3846E+05 0.0000E+00 0.0000E+00 0.0000E+00 O.OOOOE+00 O.OOOOE+00 O.OOOOE+00 -4.4331E+04 -4.6896E+04 -6.0138E+04 -6.1115E+04 .3461E+04 .0000E+00 .0000E+00 .OOOOE+00 0.0000E+00 0.0000E+00 0.0000E+00 -7.0782E+04 -7.2086E+04 -7.9407E+04 -8.0209E+04 -8.1518E+04 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 O.OOOOE+00 0.0000E+00 -2.3792E+02 -5.7851E+03 -5.9951E-03 -5.0882E+02 -1.2001E+03 O.OOOOE+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 .0000E+00 .0000E+00 .OOOOE+00 .O000E+O0 .OOOOE+00 .OOOOE+00 O.OOOOE+00 0.OOOOE+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.OOOOE+00 O.OOOOE+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 ELEMENT NODE NUMBER NO. SIG MISES SIG XX SIG YY SIG ZZ TAU XY TAU YZ TAU ZX 253 70 253 71 356 438 356  1641 356 436 356 1506 356 1650 356 450 356 1504 356 448 1 PAFEC  P A G E ,0000E+00 0000E+00 ,0000E+00 ,  0000E+00 0000E+00 0000E+00 0000E+00 ,  0000E+00 .  0000E+00 0000E+00 285 0.0000E+00 0.0000E+00 .0000E+00 .0000E+00 .0000E+00 .0000E+00 .0000E+00 .0000E+00 0.0000E+0O 0.OOOOE+00 0.0000E+00 0.0000E+00 O.OOOOE+00 O.OOOOE+00 0.0000E+00 0.0000E+00 O.OOOOE+00 0.0000E+00 O.OOOOE+00 0.0000E+00 .0000E+00 .0000E+00 .0000E+00 .0000E+00 .0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.OOOOE+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0.0000E+00 0000 RRRRR R R DDDDDD EEEEEEEE RRRR R R R 2222 000000 RR RR DDDDDDD EE RR RR 222222 000 000 RR RR DD DDD EE RR RR 22 22 00 00 RR RR DD DD EE RR RR 22 00 00 RR RR DD DD EE RR RR 22 00 00 RRRRR R R DD DD EEEEEE RRRR R R R 22 00 00 RRRRR DD DD EEE RRRR R 222 00 00 RR  R R DD DD EEE RR  R R 222 000 000 RR RR DD DDD EEE RR RR 22 000000 RR RR DDDDDDD EEE RR RR 22 0000 " RR RR DDDDDD EEEEEEEE RR RR 22222222 THERE  IS 1  TABLE  U N D E R THIS  O R D E R THE VALUES  OUTPUT  IN THE  TABLES  U N D E R THIS  O R D E R ARE SCALED  B Y 1.00000 AND  ARE  OFFSET  B Y .O O O O O O E + O O CONTINUITY VALUES  ARE  N O T  SCALED  O R  OFFSET ANY  DIRECTIONAL VALUES  ARE  GIVEN WITH  RESPECT  TO  THE  GLOBAL  AXIS  SET ANY  DIRECTIONAL  VALUES  ARE  GIVEN WITH  RESPECT  TO  A  LOCAL AXIS  SET IN PREFERENCE  TO  OTHERS.  THE  LETTER  L  IS  PRINTED  AFTER  E A C H  LINE  O F OUTPUT  W H E R E  T H E  DIRECTIONAL  STRESSES  A R E  WITH  R E S P E C T  TO A LOCAL AXIS  SET. THERE IS  N O  SORTING  U N D E R THIS  O R D E R ALL DIRECTIONAL STRAINS  U N D E R THIS  O R D E R  A R E  ENGINEERING  STRAINS 1 PAFEC  P A G E 286 ******************** * * *  TABLE  1 OF  1  * * * ********************
+
+LOAD  CASE 1
+
+<!-- image -->
+
+Table
+
+|   NODE NO. | SIG MISES   | SIG XX       | SIG YY      | SIG ZZ         | TAU XY     | TAU YZ      | TAU ZX      |
+|------------|-------------|--------------|-------------|----------------|------------|-------------|-------------|
+|        311 | 1.7930E+05  | -1.9522E+05  | -3.9352E+03 | -3.1865E+04    | 3605E+03   | 2.6254E-01  | -1.2717E+00 |
+|        313 | 1.4343E+05  | -1.5504E+05  | -1.9431E+03 | -2.5118E+04    | 8901E+03   | 2.2927E-01  | -1.0097E+00 |
+|        315 | 1.0362E+05  | -1.0923E+05  | 1.6637E+03  | -1.7211E+04    | 6521E+03   | 2.0104E-01  | -7.1199E-01 |
+|        317 | 1.2541E+05  | 1.3568E+05   | 1.2102E+03  | 2.1903E+04     | 4575E+01   | 1.6200E-01  | 8.9021E-01  |
+|        319 | 1.2544E+05  | 1.3567E+05   | 1.1558E+03  | 2.1892E+04     | 3576E+01   | 1.6233E-01  | 8.9018E-01  |
+|        321 | 1.0360E+05  | -1.0925E+05  | 1.5921E+03  | -1.7225E+04    | 7389E+03   | 2.0127E-01  | -7.1195E-01 |
+|        323 | 1.4338E+05  | -1.5510E+05  | -2.0663E+03 | -2.5147E+04    | 7761E+03   | 2774E-01    | -1.0101E+00 |
+|        325 | 1.7940E+05  | -1.9525E+05  | -3.8301E+03 | -3.1853E+04    | 3605E+03   | 6325E-01    | -1.2721E+00 |
+|        327 | 2.1070E+05  | -2.3091E+05  | -6.4218E+03 | -3.7973E+04    | 3484E+03   | 8374E-01    | -1.5042E+00 |
+|        329 | 2.3975E+05  | -2.6371E+05  | -8.3396E+03 | -4.3527E+04    | 3578E+03   | 9138E-01    | -1.7203E+00 |
+|        331 | 1.6503E+05  | -2.3396E+05  | -6.0138E+04 | -7.9407E+04    | 1.3600E+00 | 1.5077E-01  | -1.2092E+00 |
+|        333 | 1.6762E+05  | -2.3990E+05  | -6.3994E+04 | -8.2050E+04    | 1.1977E+03 | 1.4974E-01  | -1.2341E+00 |
+|        335 | 1.5051E+05  | -2.5859E+05  | -1.1610E+05 | -1.0117E+05    | 3.5489E+02 | 1378E-01 -1 | -1.2320E+00 |
+|        337 | 1.2110E+05  | -2.2912E+05  | .7162E+05   | -1.3520E+05    | 3.9073E+03 | 9.9933E-01  | -8.2617E-01 |
+|        339 | 2.6606E+05  | -1.6222E+05  | .2664E+05   | -1.5899E+05    | 1.5261E+03 | 2.0940E+00  | -3.7288E-02 |
+|        341 | 5.0094E+05  | -1.1222E+05  | .5369E+05   | -2.0680E+05    | 2.4112E+03 | 3.4999E+00  | .2445E-01   |
+|        343 | 4.9130E+05  | -2.7818E+05  | .7216E+05   | -2.8359E+05    | 8.2180E+00 | 3.8227E+00  | .2299E-02   |
+|        345 | 4.9130E+05  | -2.7818E+05  | .7216E+05   | -2.8359E+05    | 8.2180E+00 | 3.8227E+00  | .2298E-02   |
+|        347 | 5.0094E+05  | -1.1222E+05  | -6.5369E+05 | -2.0680E+05    | 2.4094E+03 | 3.4999E+00  | .2448E-01   |
+|        349 | 2.6606E+05  | -1.6222E+05  | -4.2664E+05 | -1.5899E+05    | 1.5235E+03 | 2.0940E+00  | -3.7266E-02 |
+|        351 | 1.2110E+05  | -2.2912E+05  | -2.7162E+05 | -1.3520E+05    | 3.9037E+03 | 9.9930E-01  | -8.2615E-01 |
+|        353 | 1.5051E+05  | -2.5859E+05  | -1.1610E+05 | -1.0117E+05    | 3.5897E+02 | 1.1375E-01  | -1.2320E+00 |
+|        355 | 1.6762E+05  | -2.3990E+05  | -6.3994E+04 | -8.2050E+04    | 1.2015E+03 | 1.4977E-01  | -1.2341E+00 |
+|        357 | O.OOOOE+00  | O.O OOO E+OO | O.OOOOE+00  | O. OO OO E+ OO | O.OOOOE+00 | O.OOOOE+00  | O.OOOOE+00  |
+
+```
+358 0.0000E+00 O.0O00E+00 0.0000E+00 O.OOOOE+00 O.OOOOE+00 0. OOOO E + O O O.OOOOE+00 359 0.0000E+00 0.0000E+00 0.0000E+00 O. O O O O E + O O O.OOOOE+00 0. OOOOE+00 O.OOOOE+00 MAJORITY  O F  STRESSES  OMITTED 1641 0.0000E+00 0.0000E+00 O.OOOOE+00 O.OOOOE+00 O.OOOOE+00 0. OOO O E + O O O.OOOOE+00 1642 O.OOOOE+00 0.0000E+0O 0.0000E+00 O.OOOOE+00 O.OOOOE+00 0. OOOOE+00 O.OOOOE+00 1643 0.0000E+00 0.0000E+00 O.OOOOE+00 O.OOOOE+00 O.O O O O E + O O 0. OOO O E + O O O.O O O O E + O O 1644 0.0000E+00 0.0000E+00 0.0000E+00 O. O O O O E + O O O.OOOOE+00 0. OOOOE+00 O.OOOOE+00 1645 0.0000E+00 0.0000E+00 0.0000E+00 O.OOOOE+00 O.O O O O E + O O 0. OOOOE+00 O.O O O O E + O O 1646 0.0000E+00 O.OOOOE+00 0.0000E+00 O.OOOOE+00 O.OOOOE+00 0. OOOOE+00 O.OOOOE+00 1647 0.0000E+00 0.0000E+00 0.0000E+00 O.OOOOE+00 O.O O O O E + O O 0. OOOOE+00 O.O O O O E + O O 1648 0.0000E+00 O.O O O O E + O O O. O O O O E + O O O.O O O O E + O O O.OOOOE+00 0. OOOOE+00 O.OOOOE+00 1649 0.0000E+00 0.0000E+00 O.OOOOE+00 O.OOOOE+00 O.OOOOE+00 0. OOOOE+00 O.O O O O E + O O 1650 0.0000E+00 0.0000E+00 O. O O O O E + O O O. O O O O E + O O O.OOOOE+00 0. OOO O E + O O O.OOOOE+00 1 PAFEC  P A G E 310 EEEEEEEE  N NN  DDDDDD EE NN NN  DDDDDDD EE NNN  NN  DD  DDD EE NNNN NN  DD DD EE NNNN N  NN  DD DD EEEEEE NNNNNN N N  D D DD EEE NN  N N N N N  DD DD EEE NN NNNN  DD DD EEE NN  NNN  DD  DD D EEE NN NN  DDDDDDD EEEEEEEE  N N N  DDDDDD 0000 FF oooooo FF 000  000 FF 00 00 FF 00 00 FF 00 00 FF 00 00 FF 00 00 FF 000  000 FF oooooo FF 0000 FF FFFFF FFF PPPPPPP RRRRR R R 0000 CCCC EEEEEEEE PP PP  R R RR OO O O O O CC cc EE PP PP  R R RR 000 000 cc cc  EE PP PP  R R RR 00 00 cc EE PP PP  R R RR 00 00 cc EE PPPPPPP RRRRR R R 00 00 cc EEEEEE PP RRR R R 00 00 cc EEE PP RR  R R 00 00 cc EEE PP RR RR 000 000 cc cc  EEE PP RR RR OO O O O O cc cc EEE PP RR RR 0000 CCCC EEEEEEEE ssss ssss m i m i N NN GG G G ss ss ss ss NN NN GG G G ss ss ss ss NNN  NN  G G  G G ss ss NNNN NN  G G ss ss NNNNN  N N  G G ssss ssss NNNNNNNN  G G ss ss NN  N N N N N  GG G G G ss ss NN NNNN  G G  G G ss ss ss ss NN  NNN  G G  G G ss ss ss ss NN NN GG G G ssss ssss m i m i NN N GG G G
+```
+
+## B.2  Example of a Three-Dimensional Model B.2.1  A Three-Dimensional Model Pre-Processing Input File
+
+```
+KISIKLI NORTH  TUBE  H E T E R O G E N E O U S  W I T H O U T  S H O T C R E T E  LINING  (EXCAVATED  GROUND) 1+400 7.9 [INPUT CLEAR HEIGHT OF TUNNEL IN METERS] 13.0 [INPUT HEIGHT  OF  O V E R B U R D E N IN METERS] 4.5 [INPUT HEIGTH  U N D E R  T U N N E L  IN  METER=(Hover+Hover/2do)] 1 [INPUT  N U M B E R  O F  R O C K  LAYERS] 22.0 3 2 [INPUT MATERIAL  PROPERTY  OF REST  OF  GROUND] 0.005 [MINOR (1/2) WIDTH OF STEEL  ARCH  =  ? (SAMIN)] 0.08 [MAJOR (1/2) WIDTH OF STEEL  ARCH  ALONG  THE Z  AXIS =  ? (SAMAJ)] 0.105 [MAJOR (1/2) WIDTH OF STEEL  ARCH  ALONG  THE Y AXIS =  ? (SAMAJ2)] 0 [IS  A STEEL  A R C H  P R E S E N T  ?  0)  NO, 1) YES] 8 [WHAT IS  THE MATERIAL  PROPERTY  OF THE STEEL  A R C H  USED] 6.0 0.5 [HEIGHT OF  ANCHORAGES  1  AND 2=  ?] 4.0  4.0 [LENGTH  OF  A N C H O R A G E S  1  A N D 2=  ?] 0.014 [RADIUS  OF  A N C H O R A G E S  =  ?] 25-10 [ANGLE  OF  A N C H O R A G E S  1  A N D 2=  ?] 0 [ARE  A N C H O R A G E S  PRESENT  ?  0)  NO, 1)  YES 1 ] 8 [WHAT IS  THE MATERIAL  PROPERTY  OF THE  A N C H O R A G E S  U S E D  ?] 0.35 [LENGTH  OF (1/2) PERIOD =  ?] 1 [INPUT  W H A T  R O C K  TYPE  O F EXCAVATION ?, 0)A,B  O R DC] 0 0 [REGION: 1 C FO R E A C H  REGION INDICATE 0)  IF  EXCAVATED  O R 1)  IF  NOT 1 ] 0 0 [REGION:  2A C  AND] 0 0 [REGION:  2B C IS  THERE  AN  O U T E R (SHOTCRETE)  LINING? 0)  NO, 1)  YES 1 ] 0 0 [REGION:  3A] 0 0 [REGION:  3B] 0 0 [REGION:  4] 0 0 [REGION: 5a] 0 0 [REGION: 5b] 0 0 [REGION:  6] 6 [WHAT IS  THE MATERIAL  PROPERTY  OF THE SHOTCRETE  U S E D  ?] 0.25 [THICKNESS OF SHOTCRETE] 0 [IS  THERE  AN INNER LINING ?  0)  NO, 1) YES] 7 [WHAT IS  THE MATERIAL  PROPETY  OF THE INNER LINING  USED  ?] .5 [THICKNESS  OF INNER LINNING] 1 [RESOLUTION  (increase  resolution number to  achieve  fine mesh)] 0 [IS  THIS  EXAMPLE  A SYMMETRICAL M O D E L  ?  M S Y M . E Q  0)  N O or  1) YES] 3 [NUMBER OF  DIMENSIONS]
+```
+
+## B.2.2  Generated A Three-Dimensional Model PAFEC-FE Input File
+
+|   900 |   -5.89550 |   -1.44653 |   .35000 |
+|-------|------------|------------|----------|
+|   901 |    5.89550 |   -1.44653 |   .35000 |
+|   902 |   -6.15922 |   -1.38538 |   .35000 |
+|   903 |    6.15922 |   -1.38538 |   .35000 |
+|   904 |     .00000 |     .00000 |   .35000 |
+|   905 |     .00000 |     .00000 |   .00000 |
+|   906 |    1.20363 |    1.59727 |   .00000 |
+|   907 |    -.68596 |    1.39867 |   .00000 |
+|   908 |    5.79084 |    -.83147 |   .00000 |
+|   909 |     .00000 |   28.95983 |   .00000 |
+|   910 |     .00000 |     .00000 |   .00000 |
+|   911 |   -1.20363 |    1.59727 |   .00000 |
+
+```
+TITLE 3D-KISIKLI NORTH  TUBE  CO-ORDINATES  AND FE-MESH  DESIGN C Km (1+400) C APPLIED MECHANICS G R O U P C SCHOOL  OF  ENGINEERING C UNIVERSITY  OF  D U R H A M C C C TUNNEL  N A M E  = KISIKLI C KM = 1+400 C CLEAR HEIGHT OF TUNNEL IN  METRES  =  7.9 C HEIGHT OF  OVERBURDEN IN  METERS  =  13.0 C INPUT  HEIGHT  U N D E R  TUNNEL IN  METRES  =4.5 C INPUT  N U M B E R  O F  R O C K  L A Y E R S =  1 C HEIGHT  OF LAYERS F R O M  G R O U N D  S U R F A C E  IN  METERS =22.0 C MATERIAL  PROPERTIES OF LAYER ,=  3 C MATERIAL  PROPERTY  OF REST  OF  G R O U N D  =  2 C NUMBE R  OF SHELLS =  3 C HEIGTH  OF CIRCULAR SHELL  N U M B E R 11N  M E T R E S  =  .5 C HEIGTH  OF CIRCULAR SHELL  N U M B E R  2IN  METRES  =  .25 C HEIGTH  OF FLATTENED SHELL  N U M B E R 3IN  METRES  =  1.40 C  W H A T  ROCK  TYPE OF EXCAVATION ?, 0)A,B O R DC =  1 C  C  R O C K  TYPE O F  EXCAVATION C 1,  2A,  2B,  3A,  3B,  4,  5A,  5B, 6 C REGIONS EXCAVATED: 1  2A 2B  3A  3B  4  5A  5B  6 C MAJOR (1/2) WIDTH OF STEEL  ARCH (Z)= .080 C 2nd  MAJOR (1/2)  WIDTH OF STEEL  ARCH (Y)  =  .105 C HEIGHT OF  ANCHORAGES  1  AND 2  =  6.0  .5 C LENGTH  OF  A N C H O R A G E S  1  A N D 2  =  4.0  4.0 C RADIUS  OF  A N C H O R A G E S  =  .014 C ANGLE  OF  A N C H O R A G E S  1  A N D 2=  25.0 -10.0 C THE MATERIAL  P R O . O F  T H E  S H O T C R E T E  U S E D  =  6 C THICKNESS  OF SHOTCRETE  =  .25 C IS  THERE  AN INNER LINING ?  =  0 C 0)  NO or 1)  YES C THE MATERIAL  P R O . O F  T H E INNER LINING =  7 C THE THICKNESS  OF THE INNER LINING  .5 C RESOLUTION =  1 C IS  THIS EXAMPLE  A SYMMETRICAL M O D E L  ?  =  0 C 0) NO or 1)  YES C NUM B E R  O F DIMENSIONS  ?  (2  O R 3)  =  3 C C THE CO-ORDINATES  OF THE  N O D E S  CORRESPONDING  TO C THE STRUCTURE  ARE GIVEN  B E L O W  EXPRESSED IN METERS. C C THERE IS  ONLY  N E E D  TO SPECIFY  THE  C O R N E R  NODES C OF THE ELEMENTS, SINCE  PAFEC  WILL CALCULATE C AUTOMATICALLY THE CO-ORDINATES  OF THE MID-SIDE  NODES. C NODES NODES.NUMBER X Y Z 1 .00000 7.40000 .00000 2 .60000 7.37564 .00000 3 1.20000 7.30205 .00000 MAJORITY  OF N O D E  CO-ORDINATES LIST OMITTED 900 -5.89550  -1.44653 .35000 901 5.89550 -1.44653 .35000 902 -6.15922  -1.38538 .35000 903 6.15922  -1.38538 .35000 904 .00000 .00000 .35000 905 .00000 .00000 .00000 906 1.20363 1.59727 .00000 907 -.68596 1.39867 .00000 908 5.79084 -.83147 .00000 909 .00000  28.95983 .00000 910 .00000 .00000 .00000 911 -1.20363 1.59727 .00000
+```
+
+```
+912 .68596 1.39867 .00000 913 -5.79084 -.83147 .00000 914 .00000  28.95983 .00000 915 .00000 .00000 .35000 916 1.20363 1.59727 .35000 917 -.68596 1.39867 .35000 918 5.79084 -.83147 .35000 919 .00000  28.95983 .35000 920 .00000 .00000 .35000 921 -1.20363 1.59727 .35000 922 .68596 1.39867 .35000 923 -5.79084 -.83147 .35000 924 .00000  28.95983 .35000 c c PAFBLOCKS BLOCK.NUMBER  TYPE  ELEMENT.TYPE  PROPERTIES  N1  N2  N5  T O P O L O G Y 1 1  37110 19 1 1 1 * 1 3 69 71  453  455 521 523 * 2 0 0 70 0 0 0 0  454 0 0  522 2 1  37110 19 1 1 1 * 3 5 71 73 455  457  523  525 * 4 0 0 72 0 0 0 0  456 0 0  524 3 1  37110 19 1 1 1 * 5 7 73 75  457  459  525  527 * 6 0 0 74 0 0 0 0  458 0 0  526 MAJORITY  OF  PAFBLOCK T O P O L O G Y  LIST OMITTED 238 1  37110 19 1 1 1 * 435  437  447  449  887  889  899  901 * 0 0 0 0 0 0 0 0 0 0 0 0 239 1  37110 19 1 1 1 * 437  439  449  451  889  891 901 903 * 0 0 0 0 0 0 0 0 0 0 0 0 240 1  37110 19 1 1 1 * 430  429  442  441  882  881 894  893 * 0 0 0 0 0 0 0 0 0 0 0 0 241 1  37110 19 1 1 1 * 432  430  444  442  884  882  896  894 * 0 0 0 0 0 0 0 0 0 0 0 0 242 1  37110 19 1 1 1 * 434  432  446  444  886  884  898  896 * 0 0 0 0 0 0 0 0 0 0 0 0 243 1  37110 19 1 1 1 * 436  434  448  446  B88  886  900  898 * 0 0 0 0 0 0 0 0 0 0. 0 0 244 1 37110 19 1 1 1 * 438  436  450  448 890  888  902  900 * 0 0 0 0 0 0 0 0 0 0 0 0 c C Define  local  axis and directions C AXES RELAXISNO  =  1 TYPE  =  1 AXISNO NODE ANG1 4 905 .0 5 905 -4.22191376007178 6 905  -8.466971581149 7 905  -15.6606162210402 8 905  -23.1187456601791 9 905  -25.7116177044377 10  905  -28.173097145412 MAJORITY  OF LOCAL AXIS LIST  OMITTED 117  923  123.9999999999999 118  923  104.9028605902197 119  922  106.0012480610754 120 922  103.6422778569183 121 922  100.1629576156789 122 922  96.72116306809526
+```
+
+```
+123 922 90.45136174359382 124 922 84.1869782034804 125 921 68.99381750222022 126 921  51.92750511869923 127 921 48.46285905946267 128 921 42.73322386227446 129 921  39.86661193113721 130 921  37.00000000000001 131 920 34.91493064058877 132 920 32.75869816121942 133 920 30.51675355503308 134 920 28.17309714541204 135 920  25.71161770443768 136 920  23.11874566017914 137 920 15.66061622104018 138 920  8.466971581149 139 920 4.22191376007178 C C LOCAL.DIRECTIONS NODE.NUMBE R  LOCAL.AXIS 137  4 138  5 139  6 140  7 141  8 142  9 MAJORITY OF  LOCAL  DIRECTION LIST OMITTED 645  128 646 129 647 130 648  131 649 132 650 133 651  134 652 135 653 136 654  137 655  138 656 139 C C C Elements which form the  Excavated Surface C C EXTERNAL.FORCE AXIS.SET  = 1 LIST 69 70 71 72 73 74 MAJORITY OF  EXTERNAL  F O R C E  LIST OMITTED 95 96 97 98 99 100 101 102 C C C In  the  MATERIAL module the Young's  modulus (E), C the  Poisson's  ratio C (NU)  and  the  density  (RO),are specified  for
+```
+
+```
+C Neogene cover (MATERIAL.NUMBER 11),
+```
+
+```
+the micaceous  sandstone, si Itstone and  claystone (MATERIAL.NUMBER 12), the  quartzite (MATERIAL.NUMBER 13), the  arkose, conglomeratic  arkose (MATERIAL.NUMBER 14), the volcanic dyke  rock (MATERIAL.NUMBER 15), Shotcrete  (MATERIAL.NUMBER 16), Inner  ( f i n a l ) l i n i n g  ( M A T E R I A L . N U M B E R 17). Mild  steel  for  anchorages and  steel  arch beam element (MATERIAL.NUMBER 18). The unit  used  for  Young's  modulus i s  Pa (N/m2) and the density is  expressed in  (kg/m3). C C C C C c c c c c c c c c c MATERIAL MATERIAL.NUMBER E NU RO 11 90E+6 0.35 2060 12 0.7E+9 0.27 2200 13 68E+9 0.16 2600 14 15E+9 0.26 2600 15 1.9E+9 0.28 2300 16 15E+9 0.200 2000 17 30E+9 0.200 2400 18 209E+9 0.300 7800 19 OE-9 0.499 0.0 C In  the  GRAVITY  module the  sign i n the C YGVALUE  is  negative,  indicating  that C gravity  acts in  the vertical  downwards C direction. C GRAVITY XGVALUE YGVALUE -1 ZGVALUE 0 DIRECTION 1 2 1 3 3 C C RESTRAINTS NODE.NU M B E R PLANE AXIS.NUMBER 343 1 343 2 345 1 331 3 819 3 C C CONTROL USE.R70632M0D C Since PAFEC-FE does not  perform stress averaging across  different material  types, the  supplied source must  be modified Inspection of the stressing  routines indicated that a small number of changes to  PAFEC-FE subroutine R70632  was  necessary. A section of the subroutine  with the modification is  shown in Figure The modified source i s incorporated into the  PAFEC-FE system  for this  analysis using the  USE.option. C C C C C C C C C C C C C STRESS CONTROL.END C PROCESSING.FOR.PRINTED.OUTPUT ORDE R  FORMAT.TYPE  LOCAL.AXIS W I N D O W 1 2 1 0 C ORDER.FOR.PRINTED.OUTPUT ORDE R LIST.OF.TYPES 1 101 102 4 8 9  10  11  12 13 END.OF.DATA
+```
+
+B.2.2.1  A Three-Dimensional Model Nodal Co-ordinates and Element Topology Output File (file$.O02)
+
+1
+
+PAFEC  PAGE
+
+71
+
+|                      | PPPPP   |       | AAAAA   | FFFFF   |     | EEEEE   | CCCCC   |
+|----------------------|---------|-------|---------|---------|-----|---------|---------|
+| SYSTEM LEVEL 7.400 A | P       | P     | A       | A FF    |     | E       | C CC    |
+| JUNE 1992            | P       | P     | A       | A FF    |     | E       | C       |
+| JUNE 1992            | PPPPP   | PPPPP | AAAAA   | AAAAA   | FFF | EEE     | C       |
+|                      | PP      | PP    | AA      | A       | F   | EE      | C       |
+| PHASE NO. 2          | PP      | PP    | AA      | A F     |     | EE      | C       |
+| STARTS HERE          | PP      | PP    | AA      | A F     |     | EE      | C       |
+|                      | PP      | PP    | AA      | A       | F   | EEEEE   | CCCCC   |
+
+TITLE 3D-TUNNEL  COORDINATES  AND FE-MESH  DESIGN
+
+THE  TOLERANCE  U S E D IN  THIS  PHASE IS  1E  -4
+
+## GLOBAL  COORDINATES
+
+| NODE                                       | X                                          | Y                                          | Z                                          | NODE                                       | X                                          | Y                                          | Z                                          |
+|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|
+| 1                                          | .0000                                      | 7.4000                                     | .0000                                      | 2                                          | .6020                                      | 7.3755                                     | .0000                                      |
+| 3                                          | 1.2000                                     | 7.3021                                     | .0000                                      | 4                                          | 2.2224                                     | 7.0584                                     | .0000                                      |
+| 5                                          | 3.2000                                     | 6.6723                                     | .0000                                      | 6                                          | 3.4190                                     | 6.5628                                     | .0000                                      |
+| 7                                          | 3.6343                                     | 6.4461                                     | .0000                                      | 8                                          | 3.8457                                     | 6.3223                                     | .0000                                      |
+| 9                                          | 4.0528                                     | 6.1915                                     | .0000                                      | 10                                         | 4.2554                                     | 6.0540                                     | .0000                                      |
+| MAJORITY OF NODE CO-ORDINATES LIST OMITTED | MAJORITY OF NODE CO-ORDINATES LIST OMITTED | MAJORITY OF NODE CO-ORDINATES LIST OMITTED | MAJORITY OF NODE CO-ORDINATES LIST OMITTED | MAJORITY OF NODE CO-ORDINATES LIST OMITTED | MAJORITY OF NODE CO-ORDINATES LIST OMITTED | MAJORITY OF NODE CO-ORDINATES LIST OMITTED | MAJORITY OF NODE CO-ORDINATES LIST OMITTED |
+| 2739                                       | 5.7444                                     | -.8204                                     | .3500                                      | 2740                                       | 5.4109                                     | -1.1408                                    | .0000                                      |
+| 2741                                       | 5.8217                                     | -1.1408                                    | .1750                                      | 2742                                       | 5.4109-                                    | -1.-1408                                   | .3500                                      |
+| 2743                                       | 6.0092                                     | -1.1408                                    | .0000                                      | 2744                                       | 6.0092                                     | -1.1408                                    | .3500                                      |
+| 2745                                       | -1.2000                                    | -.8204                                     | .0000                                      | 2746                                       | -1.2000                                    | -.8204                                     | .3500                                      |
+| 2747                                       | -.6000                                     | -1.1408                                    | .0000                                      | 2748                                       | -1.2000                                    | -1.1408                                    | .1750                                      |
+| 2749                                       | -.6000                                     | -1.1408                                    | .3500                                      | 2750                                       | -3.2000                                    | -.8204                                     | .0000                                      |
+| 2751                                       | -3.2000                                    | -.8204                                     | .3500                                      | 2752                                       | -2.2000                                    | -1.1408                                    | .0000                                      |
+| 2753                                       | -3.2000                                    | -1.1408                                    | .1750                                      | 2754                                       | -2.2000                                    | -1.1408                                    | .3500                                      |
+| 2755                                       | -4.6800                                    | -.8204                                     | .0000                                      | 2756                                       | -4.6800                                    | -.8204                                     | .3500                                      |
+| 2757                                       | -4.1000                                    | -1.1408                                    | .0000                                      | 2758                                       | -5.0000                                    | -1.1408                                    | .1750                                      |
+| 2759                                       | -4.1000                                    | -1.1408                                    | .3500                                      | 2760                                       | -5.7444                                    | -.8204                                     | .0000                                      |
+| 2761                                       | -5.7444                                    | -.8204                                     | .3500                                      | 2762                                       | -5.4109                                    | -1.1408                                    | .0000                                      |
+| 2763                                       | -5.8217                                    | -1.1408                                    | .1750                                      | 2764                                       | -5.4109                                    | -1.1408                                    | .3500                                      |
+| 2765                                       | -6.0092                                    | -1.1408                                    | .0000                                      | 2766                                       | -6.0092                                    | -1.1408                                    | .3500                                      |
+| 2767                                       | .0000                                      | -1.2936                                    | .0000                                      | 2768                                       | 1.2000                                     | -1.2936                                    | .0000                                      |
+| 2769                                       | .0000                                      | -1.2936                                    | .3500                                      | 2770                                       | 1.2000                                     | -1.2936                                    | .3500                                      |
+| 2771                                       | 3.2000                                     | -1.2936                                    | .0000                                      | 2772                                       | 3.2000                                     | -1.2936                                    | .3500                                      |
+| 2773                                       | 5.0000                                     | -1.2936                                    | .0000                                      | 2774                                       | 5.0000                                     | -1.2936                                    | .3500                                      |
+| 2775                                       | 5.8586                                     | -1.2936                                    | .0000                                      | 2776                                       | 5.8586                                     | -1.2936                                    | .3500                                      |
+| 2777 1                                     | -1.2000                                    | -1.2936                                    | .0000                                      | 2778                                       | -1.2000                                    | -1.2936                                    | .3500                                      |
+| 1 PAFEC PAGE 102                           | 1 PAFEC PAGE 102                           | 1 PAFEC PAGE 102                           | 1 PAFEC PAGE 102                           | 1 PAFEC PAGE 102                           | 1 PAFEC PAGE 102                           | 1 PAFEC PAGE 102                           | 1 PAFEC PAGE 102                           |
+| NODE                                       | X                                          | Y                                          | z                                          | NODE                                       | X                                          | Y                                          | Z                                          |
+| 2779                                       | -3.2000                                    | -1.2936                                    | .0000                                      | 2780                                       | -3.2000                                    | -1.2936                                    | .3500                                      |
+| 2781                                       | -5.0000                                    | -1.2936                                    | .0000                                      | 2782                                       | -5.0000                                    | -1.2936                                    | .3500                                      |
+| 2783                                       | -5.8586                                    | -1.2936                                    | .0000                                      | 2784                                       | -5.8586                                    | -1.2936                                    | .3500                                      |
+
+EEEEE  C C C C C
+
+## * CO M M E N T  *  COORDINATES  O F  N O N - S T R U C T U R A L N O D E S  ARE  N O T INCLUDED IN  THE  ABOVE  TABLE
+
+NUM B E R  O F  S T R U C T U R A L  N O D E S  IN  THIS  PHASE  =
+
+HIGHEST  N U M B E R E D  N O D E  IN  THIS  P H A S E  IS  =
+
+2650
+
+ELEMENTS
+
+| ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   |
+|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| 1                                               | 1 37110                                         | 19                                              | 20                                              | 1 925                                           | 3 926                                           | 453 454                                         | 455 927                                         | 69 928                                          | 71 929                                          | 521 930                                         | 523 70                                          | 2 931                                           |
+| 2 1                                             | 37110                                           | 19                                              | 20                                              | 932 3 926 936                                   | 522 5 933                                       | 455 456                                         | 457 928                                         | 71 934                                          | 73 930                                          | 523 935                                         | 525 72                                          | 4 932                                           |
+| 3 1                                             | 37110                                           | 19                                              | 20                                              | 5 933 940                                       | 524 7 937                                       | 457 458                                         | 459 934                                         | 73 938                                          | 75 935                                          | 525 939                                         | 527 74                                          | 6 936                                           |
+| 4 1                                             | 37110                                           | 19                                              | 20                                              | 7 937 944                                       | 526 9 941                                       | 459 460                                         | 461 938                                         | 75 942                                          | 77 939                                          | 527 943                                         | 529 76                                          | 8 940                                           |
+| 5 1                                             | 37110                                           | 19                                              | 20                                              | 9 941 948                                       | 52B 11 945 530                                  | 461 462                                         | 463 942                                         | 77 946                                          | 79 943                                          | 529 947                                         | 531 78                                          | 10 944                                          |
+| MAJORITY OF ELEMENT LIST OMITTED                | MAJORITY OF ELEMENT LIST OMITTED                | MAJORITY OF ELEMENT LIST OMITTED                | MAJORITY OF ELEMENT LIST OMITTED                | MAJORITY OF ELEMENT LIST OMITTED                | MAJORITY OF ELEMENT LIST OMITTED                | MAJORITY OF ELEMENT LIST OMITTED                | MAJORITY OF ELEMENT LIST OMITTED                | MAJORITY OF ELEMENT LIST OMITTED                | MAJORITY OF ELEMENT LIST OMITTED                | MAJORITY OF ELEMENT LIST OMITTED                | MAJORITY OF ELEMENT LIST OMITTED                | MAJORITY OF ELEMENT LIST OMITTED                |
+| 350                                             | 1 37110                                         | 19                                              | 20                                              | 435 2736 2381                                   | 437 2741 2387                                   | 887 2742                                        | 889 2773                                        | 447 2775                                        | 449 2774                                        | 899 2776                                        | 901 2385                                        | 2740 2386                                       |
+| 1 PAFEC PAGE 121                                | 1 PAFEC PAGE 121                                | 1 PAFEC PAGE 121                                | 1 PAFEC PAGE 121                                | 1 PAFEC PAGE 121                                | 1 PAFEC PAGE 121                                | 1 PAFEC PAGE 121                                | 1 PAFEC PAGE 121                                | 1 PAFEC PAGE 121                                | 1 PAFEC PAGE 121                                | 1 PAFEC PAGE 121                                | 1 PAFEC PAGE 121                                | 1 PAFEC PAGE 121                                |
+| ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   | ELEMENT GROUP ELEM.TYPE PROPERTY INE TOPOLOGY   |
+| 351                                             | 1 37110                                         | 19                                              | 20                                              | 437 2741                                        | 439 2371                                        | 889 2744                                        | 891 2775                                        | 449 2375                                        | 451 2776                                        | 901 2377                                        | 903 2380                                        | 2743 2381                                       |
+| 352                                             | 1 37110                                         | 19                                              | 20                                              | 2376 430 2748 2401                              | 2382 429 2725                                   | 882 2749                                        | 881 2777                                        | 442 2767                                        | 441 2778                                        | 894 2769                                        | 893 2405                                        | 2747 2406                                       |
+| 353                                             | 1 37110                                         | 19                                              | 20                                              | 432 2753 2406                                   | 2407 430 2748                                   | 884 2754                                        | 882 2779                                        | 444 2777                                        | 442 2780                                        | 896 2778                                        | 894 2410                                        | 2752 2411                                       |
+| 354                                             | 1 37110                                         | 19                                              | 20                                              | 434 2758 2411                                   | 2412 432 2753                                   | 886 2759                                        | 884 2781                                        | 446 2779                                        | 444 2782                                        | 898 2780                                        | 896 2415                                        | 2757 2416                                       |
+| 355                                             | 1 37110                                         | 19                                              | 20                                              | 436 2763 2416                                   | 2417 434 2758                                   | 888 2764                                        | 886 2783                                        | 448 2781                                        | 446 2784                                        | 900 2782                                        | 898 2420                                        | 2762 2421                                       |
+| 356                                             | 1 37110                                         | 19                                              | 20                                              | 438 2431 2421                                   | 2422 436 2763 2427                              | 890 2766                                        | 888 2430                                        | 450 2783                                        | 448 2432                                        | 902 2784                                        | 900 2425                                        | 2765 2426                                       |
+
+## END  O F  PAFBLOCKS GENERATION
+
+**********************************
+
+*
+
+*
+
+*
+
+*
+
+*
+
+NO  E R R O R S  IN GEOMETRY  C H E C K  *
+
+*
+
+* 822  WARNINGS IN  G E O M E T R Y  C H E C K  *
+
+*
+
+**********************************
+
+END OF  PAFBLOCKS  DATA  GENERATION
+
+2784
+
+2
+
+4
+
+6
+
+8
+
+10
+
+## E S T I M A T E OF B A S E AND F I L E S I Z E R E Q U I R E M E N T S ( B )
+
+NOTE - (1) AN ASTERISK  *  DENOTES  AN OVERESTIMATE
+
+PHASE
+
+BASE/FILE
+
+SINGLE PRECISION  NUMBERS.
+
+3
+
+BASE
+
+29390
+
+4
+
+BASE
+
+104100*
+
+1
+
+PAFEC  PAGE
+
+158
+
+C O N T E N T S
+
+HEADING
+
+PAGE
+
+PHASE  2
+
+71
+
+ESTIMATE  O F  BASE  A N D FILE SIZE REQUIREMENTS (B)
+
+**********************************
+
+*
+
+*
+
+*
+
+0  E R R O R S  IN  THIS  P H A S E
+
+*
+
+*
+
+56  WARNINGS IN  THIS  PHASE
+
+*
+
+*
+
+·
+
+*
+
+*
+
+**********************************
+
+****  MAXIMUM SIZE OF  BASE IN  THIS  PHASE  W A S 32561 W O R D S  ****
+
++++ END  O F  PHASE  2 +++
+
+157
+
+## B.2.2.2  A Three-Dimensional Model Displacement Output File (file$.O07)
+
+1 PAFEC  P A G E
+
+245
+
+SYSTEM LEVEL 7.400 A JUNE 1992
+
+PHASE NO. 7 STARTS  H E R E
+
+P
+
+P  A
+
+A FF
+
+E
+
+C CC
+
+ppppp  AAAAA  FFFFF EEEEE  C C C C C
+
+P
+
+P  A
+
+A FF
+
+E
+
+C
+
+PP
+
+AA
+
+A F
+
+PPPPP  AAAAA  FFF
+
+EEE
+
+C
+
+EE
+
+C
+
+PP AA A F EE C PP AA A F EE C
+
+PP AA A F EEEEE  C C C C C
+
+TITLE 3D-TUNNEL  COORDINATES  AND FE-MESH  DESIGN
+
+* STATICS  SOLUTION BY BLOCK  F R O N T * IN  D O U B L E  PRECISION
+
+*
+
+*
+
+*
+
+*
+
+*
+
+*
+
+*
+
+STRUCTURE  CONTAINS  5469  F R E E D O M S  * 356 ELEMENTS  * AND  THE F R O N T  SIZE IS 283
+
+*
+
+*
+
+*
+
+****************************************
+
+*** A BLOCKED FRONT  SOLUTION HAS BEEN  REQUESTED *** THE BLOCK SIZE IS 80372
+
+286
+
+MEN TS
+
+FOR
+
+L O A D
+
+C A S E
+
+0
+
+0
+
+1
+
+PAFEC  P A G E
+
+D I S P L A C E
+
+NOTE - (1)  THE LETTER  L  FOLLOUING A  N O D E  N U M B E R INDICATES THAT THE DISPLACEMENTS  AT THAT  N O D E  ARE GIVEN  IN THE LOCAL  DIRECTIONS  DEFINED AT THE  N O D E
+
+OSAMPLE  OF LARGEST  DISPLACEMENTS
+
+NODE
+
+UX
+
+153L
+
+0.0042841
+
+605L
+
+0.0042841
+
+641L
+
+-0.0042836
+
+189L
+
+-0.0042836
+
+606L
+
+0.0042822
+
+154L
+
+0.0042822
+
+640L
+
+-0.0042821
+
+188L
+
+-0.0042821
+
+607L
+
+0.0042299
+
+155L
+
+0.0042299
+
+DISPLACEMENTS AT  N O D E S
+
+NODE
+
+UY
+
+1813
+
+-0.0044235
+
+1815
+
+-0.0044235
+
+1810
+
+-0.0044231
+
+1808
+
+-0.0044231
+
+1805
+
+-0.0044231
+
+2194
+
+-0.0044229
+
+1806
+
+-0.0044229
+
+2195
+
+-0.0044229
+
+1811
+
+-0.0044229
+
+1816
+
+-0.0044228
+
+NOD E UZ 1603  0.1288747E-09 1473 0.7882761E-10 1509 0.7433343E-10 1629 -0.6741540E-10 1551 -0.6427569E-10 1268 -0.6140333E-10 1093  0.5367440E-10 1421 0.2984990E-10 1624 0.2960210E-10 1459 -0.2889067E-10
+
+NODE
+
+RESULTANT
+
+1813
+
+0.0044235
+
+1815
+
+0.0044235
+
+1808
+
+0.0044231
+
+1805
+
+0.0044231
+
+1810
+
+0.0044231
+
+2194
+
+0.0044229
+
+1806
+
+0.0044229
+
+2195
+
+0.0044229
+
+1811
+
+0.0044229
+
+1816
+
+0.0044228
+
+- NOTE  - (2)  THE  HISTOGRAM INDICATES  THE  MAGNITUDE  OF  THE RESULTANT  TRANSLATION  AT  EACH  NODE. EACH  STAR  * REPRESENTS .4423E-03  UNITS
+- (3) A  STAR  * IN  A  DISPLACEMENT C O L U M N INDICATES  THAT A CONSTRAINT  HAS  BEEN APPLIED.
+- (4) ONLY  STRUCTURAL  NODES ARE  GIVEN  IN  THE  TABLE BELO W
+
+| PAFEC PAGE     | 287                               | 287                               | 287                               | 287                                      | 287                                      | 287                                   | 287                                   |
+|----------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------------|------------------------------------------|---------------------------------------|---------------------------------------|
+| CASE 1 NODE    | TRANSLATIONS MULTIPLIED BY 1E 3   | TRANSLATIONS MULTIPLIED BY 1E 3   | TRANSLATIONS MULTIPLIED BY 1E 3   | RESULTANT TRANSLATION MULTIPLIED BY 1E 3 | RESULTANT TRANSLATION MULTIPLIED BY 1E 3 | SCALED COORDINATES MULTIPLIED BY 1E 0 | SCALED COORDINATES MULTIPLIED BY 1E 0 |
+| NUM BER        | UX                                | UY                                | UZ                                | U                                        | HISTOGRAM X Y                            |                                       | Z                                     |
+| 1              | 0.0000                            | 0.0000                            | *                                 | 0.0000                                   | 7.40                                     | 0.00                                  | 0.00                                  |
+| 2              | 0.0000                            | 0.0000                            | *                                 | 0.0000                                   | 7.38                                     | 0.60                                  | 0.00                                  |
+| 3              | 0.0000                            | 0.0000                            | *                                 | 0.0000                                   | 7.30                                     | 1.20                                  | 0.00                                  |
+| 4              | 0.0000                            | 0.0000                            | *                                 | 0.0000                                   | 2.22 7.06                                |                                       | 0.00                                  |
+| 5              | 0.0000                            | 0.0000                            | *                                 | 0.0000                                   | 3.20 6.67                                |                                       | 0.00                                  |
+|                | MAJORITY OF DISPLACEMENTS OMITTED | MAJORITY OF DISPLACEMENTS OMITTED | MAJORITY OF DISPLACEMENTS OMITTED | MAJORITY OF DISPLACEMENTS OMITTED        | MAJORITY OF DISPLACEMENTS OMITTED        | MAJORITY OF DISPLACEMENTS OMITTED     | MAJORITY OF DISPLACEMENTS OMITTED     |
+| 135            | 0.0000                            | 0.0000                            | *                                 | 0.0000                                   | 7.81                                     | -1.20                                 | 0.00                                  |
+| 136            | 0.0000                            | 0.0000                            | *                                 | 0.0000                                   | 7.88                                     | -0.60                                 | 0.00                                  |
+| 137L           | -0.0000                           | -4.4215                           | *                                 | 4.4215                                   | ********** 0.00 8.15                     |                                       | 0.00                                  |
+| 138L           | 0.3268                            | -4.4090                           | *                                 | 4.4211                                   | ********** **********                    | 0.60 8.13                             | 0.00                                  |
+| 139L           | 0.6535                            | -4.3713                           | *                                 | 4.4199                                   | 1.20                                     | 8.06                                  | 0.00                                  |
+| 140L           | 1.1968                            | -4.2505                           | *                                 | 4.4158                                   | **••****•• 2.22                          | 7.84                                  | 0.00                                  |
+| 141L           | 1.7376                            | -4.0523                           | *                                 | 4.4092                                   | ********** 3.20                          | 7.50                                  | 0.00                                  |
+| 142L           | 1.9185                            | -3.9667                           | *                                 | 4.4063                                   | ********** 3.53                          | 7.35                                  | 0.00                                  |
+| 143L           | 2.0860                            | -3.8776                           | *                                 | 4.4031                                   | •••••••*** 3.85                          | 7.18                                  | 0.00                                  |
+| 144L           | 2.2416                            | -3.7862                           | *                                 | 4.4000                                   | ««»*»«**«* 4.13                          | 7.02                                  | 0.00                                  |
+| 145L           | 2.3865                            | -3.6926                           | *                                 | 4.3966                                   | ********** 4.41                          | 6.85                                  | 0.00                                  |
+| 146L           | 2.5220                            | -3.5973                           | *                                 | 4.3933                                   | ********** 4.66                          | 6.69                                  | 0.00                                  |
+| 147L           | 2.6493                            | -3.5002                           | *                                 | 4.3897                                   | ********** 4.90                          | 6.51                                  | 0.00                                  |
+| 148L           | 2.8188                            | -3.3603                           | *                                 | 4.3860                                   | ********** 5.15                          | 6.32                                  | 0.00                                  |
+| 149L           | 2.9807                            | -3.2120                           | *                                 | 4.3820                                   | ********** 5.38                          | 6.11                                  | 0.00                                  |
+| 150L           | 3.2816                            | -2.8941                           | *                                 | 4.3755                                   | ********** 5.72                          | 5.76                                  | 0.00                                  |
+| 151L           | 3.4448                            | -2.6857                           | •                                 | 4.3680                                   | ********** 6.05                          | 5.39                                  | 0.00                                  |
+| 152L           | 4.0536                            | -1.5470                           | *                                 | 4.3388                                   | ********** 6.91                          | 3.89                                  | 0.00                                  |
+| 153L           | 4.2841                            | -0.4273                           | *                                 | 4.3053                                   | ********** 7.32                          | 2.21                                  |                                       |
+| 154L           | 4.2822                            | 0.0349                            |                                   |                                          | ********** 7.36                          | 1.33                                  | 0.00                                  |
+|                |                                   |                                   | *                                 | 4.2823                                   |                                          |                                       | 0.00                                  |
+| 155L           | 4.2299                            | 0.4899                            | *                                 | 4.2582                                   | ********** 7.31                          | 0.46                                  | 0.00                                  |
+| 156L           | 4.1791                            | 0.7319                            | * *                               | 4.2427 4.2264                            | *****••••• 7.24 **********               | -0.02 -0.50                           | 0.00                                  |
+| 157L           | 471137                            | 0.9693                            | *                                 |                                          | 7.14 7.05                                |                                       | 0.00                                  |
+| 158L           | 4.0614                            | 1.1220                            |                                   | 4.2135                                   | ********** *********                     | -0.82                                 | 0.00                                  |
+| 159L           | 4.0033                            | 1.2705                            | *                                 | 4.2001 3.4182                            | 6.95 ******** 6.81                       | -1.14                                 | 0.00                                  |
+| 160L 161L      | 2.9213 1.8993                     | 1.7750 1.6324                     | * •                               | 2.5044                                   | ****** 6.58                              | -1.47 -1.74                           | 0.00 0.00                             |
+|                |                                   |                                   |                                   |                                          | 6.32                                     | -1.91                                 |                                       |
+| 162L           | 1.2013                            | 1.5049                            | *                                 | 1.9256                                   | ****                                     |                                       | 0.00                                  |
+| 1 PAFEC PAGE   |                                   | 290                               |                                   |                                          |                                          |                                       |                                       |
+| CASE 1 NODE    | TRANSLATIONS MULTIPLIED BY 1E 3   | TRANSLATIONS MULTIPLIED BY 1E 3   | TRANSLATIONS MULTIPLIED BY 1E 3   | RESULTANT TRANSLATION MULTIPLIED BY 1E 3 | RESULTANT TRANSLATION MULTIPLIED BY 1E 3 | SCALED COORDINATES MULTIPLIED BY 1E 0 | SCALED COORDINATES MULTIPLIED BY 1E 0 |
+| NUM BER        | UX                                | UY                                | UZ                                | U                                        | HISTOGRAM                                | X Y                                   | Z                                     |
+| 163L           | 0.6601                            | 1.2818                            | *                                 | 1.4418                                   | ***                                      | 6.02 -2.01                            | 0.00                                  |
+| 164L 165L      | 0.5659 0.5437                     | 0.7447 0.4052                     | * *                               | 0.9353 0.6781                            | ** 5.51 ** 5.00                          | -2.10 -2.18                           | 0.00 0.00                             |
+| 166L           | 0.5218                            | 0.0349                            | *                                 | 0.5230                                   | * 4.10                                   | -2.31                                 | 0.00                                  |
+| 167L           | 0.4992                            | -0.1263                           | *                                 | 0.5149                                   | * 3.20                                   | -2.42                                 | 0.00                                  |
+| 168L           | 0.3872                            | -0.1899                           | *                                 | 0.4312                                   | * 2.20 -2.50                             |                                       | 0.00                                  |
+|                | 0.2307                            | -0.2032                           | *                                 | 0.3074                                   | * 1.20                                   | -2.56                                 | 0.00                                  |
+| 169L           | 0.1177                            | -0.2011                           | *                                 | 0.2330                                   | * 0.60 -2.57                             |                                       | 0.00                                  |
+| 170L 171L      | 0.0000                            | -0.2005                           | * *                               | 0.2005                                   | 0.00                                     | -2.58                                 | 0.00                                  |
+| 172L           | -0.1177                           | -0.2011                           | *                                 | 0.2330                                   | * -0.60 -2.57                            |                                       | 0.00                                  |
+|                |                                   | -0.2032                           | *                                 | 0.4312                                   | * -2.20 -2.50                            | -2.56                                 | 0.00                                  |
+| 173L           | -0.2307                           |                                   |                                   | 0.3074                                   | * -1.20                                  |                                       |                                       |
+| 174L 175L 176L | -0.3872 -0.4992 -0.5218           | -0.1899 -0.1263 0.0349            | * *                               | 0.5149 0.5230                            | * -3.20 -2.42 * -4.10 -2.31              |                                       | 0.00 0.00 0.00                        |
+
+1
+
+| 177L             | -0.5437                         | 0.4052                          | *                               | 0.6781                       | ••                               | -5.00 -2.18                           | 0.00                                  |
+|------------------|---------------------------------|---------------------------------|---------------------------------|------------------------------|----------------------------------|---------------------------------------|---------------------------------------|
+| 178L             | -0.5659                         | 0.7447                          | *                               | 0.9353 **                    | ***                              | -5.51 -2.10                           | 0.00                                  |
+| 179L             | -0.6601                         | 1.2818                          | *                               | 1.4418                       | ****                             | -6.02 -2.01                           | 0.00                                  |
+| 180L             | -1.2013                         | 1.5049                          | *                               | 1.9256                       | -6.32                            | -1.91                                 | 0.00                                  |
+| 181L             | -1.8993                         | 1.6324                          |                                 | 2.5044 ******                | -6.58                            | -1.74                                 | 0.00                                  |
+| 182L             | -2.9213                         | 1.7750                          | *                               | ******** *********           | -6.81                            | -1.47                                 | 0.00                                  |
+| 183L             | -4.0732                         | 1.0248                          |                                 | 3.4182 4.2001                | -6.95                            | -1.14                                 | 0.00                                  |
+| 184L             | -4.0614                         | 1.1220                          | *                               | 4.2135 ********** ********** | -7.05                            | -0.82                                 | 0.00                                  |
+| 185L             | -4.1137                         | 0.9693                          | *                               | 4.2264 **********            | -7.14                            | -0.50                                 | 0.00                                  |
+| 186L             | -4.1791                         | 0.7319                          | *                               | 4.2427                       | -7.24                            | -0.02                                 | 0.00                                  |
+| 187L             | -4.2299                         | 0.4899                          | *                               | 4.2582                       | ********** -7.31                 | 0.46                                  | 0.00                                  |
+| 188L             | -4.2821                         | 0.0349                          | *                               | 4.2823                       | ********** -7.36                 | 1.33                                  | 0.00                                  |
+| 189L             | -4.2836                         | -0.4317                         | *                               | 4.3053                       | **•*•••*** -7.32                 | 2.21                                  | 0.00                                  |
+|                  | -4.0536                         | -1.5470                         | *                               | 4.3388                       | -6.91                            | 3.89                                  | 0.00                                  |
+| 190L             | -3.4448                         | -2.6857                         | *                               | ********** 4.3680 ********** | -6.05                            | 5.39                                  | 0.00                                  |
+| 191L 192L        | -3.2816                         | -2.8941                         | *                               | 4.3755                       | •*•*••**** -5.72                 | 5.76                                  | 0.00                                  |
+| 193L             | -2.9807                         | -3.2120                         | *                               | 4.3820                       | -5.38                            | 6.11                                  | 0.00                                  |
+| 194L             | -2.8188                         | -3.3603                         |                                 | **•••••••* **********        | -5.15                            | 6.32                                  | 0.00                                  |
+| 195L             | -2.6493                         |                                 | * *                             | 4.3860                       | ********** -4.90                 |                                       |                                       |
+| 196L             | -2.5220                         | -3.5002                         | *                               | 4.3897                       |                                  | 6.51                                  | 0.00                                  |
+| 197L             | -2.3865                         | -3.5973 -3.6925                 |                                 | 4.3933 ********** *•••••••** | -4.66                            | 6.69                                  | 0.00 0.00                             |
+|                  |                                 |                                 | *                               | 4.3966                       | -4.41                            | 6.85                                  |                                       |
+| 198L 199L        | -2.2416 -2.0860                 | -3.7862 -3.8776                 | * *                             | 4.4000 4.4031                | ********** -4.13 **********      | 7.02 7.18                             | 0.00 0.00                             |
+| 200L             | -1.9185                         | -3.9667                         |                                 |                              | -3.85 -3.53                      | 7.35                                  | 0.00                                  |
+|                  |                                 |                                 | *                               | 4.4063                       | **********                       |                                       |                                       |
+| 201L             | -1.7376                         | -4.0523                         | *                               | 4.4092 •*•*•*•*•*            | -3.20                            | 7.50                                  | 0.00                                  |
+| 202L             | -1.1968                         | -4.2505                         | *                               | 4.4158                       | ********** -2.22                 | 7.84                                  | 0.00                                  |
+| 203L             | -0.6535                         | -4.3713                         | *                               |                              | ********** -1.20                 | 8.06                                  | 0.00                                  |
+| 204L             | -0.3268                         | -4.4090                         |                                 | 4.4199 4.4211                | -0.60                            | 8.13                                  | 0.00                                  |
+| 205              | 0.0000                          | -4.4215                         | *                               | 4.4215                       | 0.00 0.60                        | 9.55                                  | 0.00                                  |
+|                  |                                 |                                 | *                               |                              | **********                       |                                       |                                       |
+| 206              | -0.0002                         | -4.4211                         | *                               | 4.4211                       | ********** **********            | 9.55                                  | 0.00                                  |
+| MAJORITY         | MAJORITY                        | MAJORITY                        | MAJORITY                        | MAJORITY                     | MAJORITY                         | MAJORITY                              | MAJORITY                              |
+| 585              | 0.0000                          | 0.0000                          | *                               | OF DISPLACEMENTS 0.0000      | OMITTED -3.20                    | 7.22                                  | 0.35                                  |
+| 586              | 0.0000                          | 0.0000                          | *                               | 0.0000                       | -2.22                            | 7.58                                  | 0.35                                  |
+| 587              | 0.0000                          | 0.0000                          |                                 | 0.0000                       | -1.20                            | 7.81                                  | 0.35                                  |
+|                  |                                 |                                 | *                               |                              |                                  |                                       |                                       |
+| 588              | 0.0000                          | 0.0000                          | *                               | 0.0000 **********            | -0.60                            | 7.88                                  | 0.35                                  |
+| 589L             | -0.0000                         | -4.4215                         | *                               | 4.4215                       | 0.00                             | 8.15                                  | 0.35                                  |
+| 590L             | 0.3268                          | -4.4090                         | *                               | 4.4211                       | ********** 0.60                  | 8.13                                  | 0.35                                  |
+| 591L             | 0.6535                          | -4.3713                         |                                 | 4.4199                       | 1.20                             | 8.06                                  | 0.35                                  |
+| 592L             | 1.1968                          | -4.2505                         | * *                             | ********** 4.4158 ********** | 2.22                             | 7.84                                  | 0.35                                  |
+|                  | 1.7376                          | -4.0523                         | *                               | 4.4092                       | **********                       | 7.50                                  | 0.35                                  |
+| 593L 594L        | 1.9185                          | -3.9667                         | *                               | 4.4063                       | 3.20 ********** 3.53             | 7.35                                  | 0.35                                  |
+| 595L             | 2.0860                          | -3.8776                         | *                               | 4.4031                       | ********** 3.85                  | 7.18                                  | 0.35                                  |
+|                  |                                 |                                 | *                               |                              | 4.13                             | 7.02                                  |                                       |
+| 596L             | 2.2416                          | -3.7862                         |                                 | 4.4000                       |                                  |                                       | 0.35                                  |
+| 597L             | 2.3865                          | -376926                         | *                               | ********** 4.3966 ********** | 4.41                             | 6.85                                  | 0:35                                  |
+| 1 PAFEC PAGE 297 | 1 PAFEC PAGE 297                | 1 PAFEC PAGE 297                | 1 PAFEC PAGE 297                | 1 PAFEC PAGE 297             | 1 PAFEC PAGE 297                 | 1 PAFEC PAGE 297                      | 1 PAFEC PAGE 297                      |
+| CASE 1           | TRANSLATIONS MULTIPLIED BY 1E 3 | TRANSLATIONS MULTIPLIED BY 1E 3 | TRANSLATIONS MULTIPLIED BY 1E 3 | RESULTANT TRANSLATION        | RESULTANT TRANSLATION            | SCALED COORDINATES MULTIPLIED BY 1E 0 | SCALED COORDINATES MULTIPLIED BY 1E 0 |
+| NODE NUMBER      | UX                              | UY                              | UZ                              | MULTIPLIED U                 | BY 1E 3 HISTOGRAM                | X Y                                   | Z                                     |
+| 598L             | 2.5220 2.6493                   | -3.5973 -3.5002                 | * *                             | 4.3933 4.3897                | ********** 4.66 4.90             | 6.69 6.51                             | 0.35 0.35                             |
+| 599L 600L        | 2.8188                          | -3.3603                         | *                               | 4.3860                       | ********** ********** ********** | 6.32                                  | 0.35                                  |
+|                  |                                 | -3.2120                         | *                               |                              | 5.15                             |                                       |                                       |
+| 601L             | 2.9807                          |                                 | *                               | 4.3820                       | 5.38 5.72                        | 6.11                                  | 0.35                                  |
+| 602L             | 3.2816                          | -2.8941                         |                                 | 4.3755                       | ********** **********            | 5.76                                  | 0.35                                  |
+| 603L             | 3.4448                          | -2.6857                         | *                               | 4.3680                       | 6.05                             | 5.39                                  | 0.35                                  |
+| 604L             | 4.0536                          | -1.5470                         | *                               | 4.3388                       | ********** 6.91                  | 3.89                                  | 0.35                                  |
+| 605 L            | 4.2841                          | -0.4273                         | *                               | 4.3053                       | 7.32                             | 2.21                                  | 0.35                                  |
+|                  |                                 | 0.0349                          |                                 |                              | **********                       | 1.33                                  |                                       |
+| 606L             | 4.2822                          |                                 | *                               | 4.2823                       | ********** **********            | 7.36                                  | 0.35                                  |
+| 607L             | 4.2299 4.1791                   | 0.4899 0.7319                   | * *                             | 4.2582                       | 7.31                             | 0.46                                  | 0.35                                  |
+| 608L             |                                 |                                 |                                 | 4.2427                       | ********** **********            | -0.02                                 | 0.35                                  |
+| 609L             | 4.1137                          | 0.9693                          | *                               | 4.2264                       | 7.24 7.14                        | -0.50                                 | 0.35                                  |
+| 610L             | 4.0614                          | 1.1220                          | *                               | 4.2135                       | ********** 7.05                  | -0.82                                 | 0.35                                  |
+| 611L             | 4.0033                          | 1.2705                          | *                               | 4.2001                       | 6.95                             | -1.14                                 | 0.35                                  |
+| 612L             | 2.9213                          | 1.7750                          | *                               | ********* 3.4182 ********    | 6.81                             | -1.47                                 | 0.35                                  |
+| 613L             | 1.8993                          | 1.6324 1.5049                   | •                               | 2.5044 ******                | 6.58                             | -1.74                                 | 0.35 0.35                             |
+| 614L             | 1.2013                          |                                 | *                               | 1.9256 ****                  | 6.32                             | -1.91                                 |                                       |
+| 615L             | 0.6601                          | 1.2818                          | *                               | 1.4418 ***                   | 6.02 5.51                        | -2.01                                 |                                       |
+| 616L             | 0.5659                          | 0.7447                          | *                               | 0.9353 **                    |                                  | -2.10                                 | 0.35 0.35                             |
+
+```
+617L 0.5437 0.4052 * 0.6781 ** 5.00  -2.18 0.35 618L 0.5218 0.0349 * 0.5230 * 4.10  -2.31 0.35 619L 0.4992  -0.1263 * 0.5149 * 3.20  -2.42 0.35 620L 0.3872  -0.1899 * 0.4312 « 2.20  -2.50 0.35 621L 0.2307  -0.2032 « r 0.3074 * 1.20  -2.56 0.35 622L 0.1177  -0.2011 ft 0.2330 * 0.60 -2.57 0.35 623L 0.0000  -0.2005 0.2005 0.00 -2.58 0.35 624L -0.1177  -0.2011 * 0.2330 * -0.60 -2.57 0.35 625  L -0.2307  -0.2032 « 0.3074 * -1.20 -2.56 0.35 626L -0.3872  -0.1899 0.4312  ft -2.20 -2.50 0.35 627L -0.4992  -0.1263 * 0.5149 « -3.20 -2.42 0.35 628L -0.5218 0.0349 * 0.5230 * -4.10 -2.31 0.35 629L -0.5437 0.4052 * 0.6781 ** -5.00 -2.18 0.35 630L -0.5659 0.7447 * 0.9353 ** -5.51 -2.10 0.35 631L -0.6601 1.2818 * 1.4418 *** -6.02 -2.01 0.35 632L -1.2013 1.5049 * 1.9256 **** -6.32 -1.91 0.35 633L -1.8993 1.6324 * 2.5044 ****** -6.58 -1.74 0.35 634L -2.9213 1.7750 * 3.4182 ******** -6.81 -1.47 0.35 635  L -4.0732 1.0248 * 4.2001 ********* -6.95 -1.14 0.35 636L -4.0614 1.1220 * 4.2135 ********** -7.05 -0.82 0.35 637L -4.1137 0.9693 * 4.2264 ********** -7.14 -0.50 0.35 638L -4.1791 0.7319 * 4.2427 ********** -7.24 -0.02 0.35 639L -4.2299 0.4899 * 4.2582 ********** -7.31 0.46 0.35 640L -4.2821 0.0349 * 4.2823 ********** -7.36 1.33 0.35 641L -4.2836 -0.4317 * 4.3053 ·····**·** -7.32 2.21 0.35 642L -4.0536 -1.5470 * 4.3388 **····**** -6.91 3.89 0.35 643L -3.4448  -2.6857 * 4.3680 ********** -6.05 5.39 0.35 644L -3.2816 -2.8941 * 4.3755 ********** -5.72 5.76 0.35 645  L -2.9807  -3.2120 * 4.3820 ********** -5.38 6.11 0.35 646L -2.8188  -3.3603 * 4.3860 ********** -5.15 6.32 0.35 647L -2.6493 -3.5002 * 4.3897 ********** -4.90 6.51 0.35 648L -2.5220  -3.5973 * 4.3933 ********** -4.66 6.69 0.35 649L -2.3865 -3.6925 * 4.3966 ··ft******* -4.41 6.85 0.35 650L -2.2416 -3.7862 * 4.4000 ********** -4.13 7.02 0.35 651L -2.0860  -3.8776 * 4.4031 ********** -3.85 7.18 0.35 1 PAFEC  P A G E 298 CASE  1 TRANSLATIONS RESULTANT TRANSLATION SCALED  COORDINATES NODE MULTIPLIED BY  1E  3 MULTIPLIED BY  1E  3 MULTIPLIED BY  1E  0 NUM B E R UX UY UZ U HISTOGRAM X Y Z 652L -1.9185 -3.9667 * 4.4063 ********** -3.53 7.35 0.35 653L -1.7376 -4.0523 * 4.4092 ********** -3.20 7.50 0.35 654L -1.1968  -4.2505 * 4.4158 ********** -2.22 7.84 0.35 655L -0.6535 -4.3713 * 4.4199 ********** -1.20 8.06 0.35 656L -0.3268  -4.4090 * 4.4211 *·*···**** -0.60 8.13 0.35 657 0.0000  -4.4215 * 4.4215 ********** 0.00 9.55 0.35 658 -0.0002  -4.4211 * 4.4211 ********** 0.60 9.55 0.35 659 -0.0004  -4.4199 * 4.4199 ********** 1.20 9.55 0.35 MAJORITY  O F  DISPLACEMENTS OMITTED 2775 0.0000 0.0000 * 0.0000 5.86  -1.29 0.00 2776 0.0000 0.0000 * 0.0000 5.86  -1.29 0.35 2777 0.0000 0.0000 * 0.0000 -1.20 -1.29 0.00 2778 0.0000 0.0000 * 0.0000 -1.20 -1.29 0.35 2779 0.0000 0.0000 * 0.0000 -3.20 -1.29 0.00 2780 0.0000 0.0000 * 0.0000 -3.20 -1.29 0.35 1 PAFEC  P A G E 336 CASE  1 TRANSLATIONS RESULTANT TRANSLATION SCALED  COORDINATES NODE MULTIPLIED BY  1E  3 MULTIPLIED BY  1E  3 MULTIPLIED BY  1E  0 NUM B E R UX UY UZ U HISTOGRAM X Y Z 2781 0.0000 0.0000 2782 0.0000 0.0000 2783 0.0000 0.0000 2784 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 -5.00  -1.29 0.00 -5.00  -1.29 0.35 -5.86  -1.29 0.00 -5.86  -1.29 0.35
+```
+
+<!-- image -->
+
+Engineering drawing
+
+- NOTE  - (1)  AN  E  IN THE  AXIS  SET  C O L U M N INDICATES  THAT THE FORCES  O N  E A C H  E L E M E N T  ARE  GIVEN IN  LOCAL  ELEMENT AXES.  THE  LOCAL  ELEMENT  AXIS  SET  IS F O R M E D  B Y  AN X-AXIS  POSITIVE  F R O M  THE  FIRST  N O D E  IN  THE TOPOLOGY  TO  THE  SECOND.  THE  Y-AXIS  PASSES  T H R O U G H THE  FIRST  N O D E  N O R M A L  T O  T H E  X-AXIS IN  T H E  PLANE OF  THE  FIRST  THREE  N O D E S  A N D IS  POSITIVE  T O W A R D S THE THIRD.
+- (2) FORCES AT  NODES  WHICH  HAVE  LOCAL.DIRECTIONS  ARE ONLY  GIVEN IN  T H O S E  LOCAL  DIRECTIONS IF  T H E  AXIS SET REQUESTED IS  THE  GLOBAL  SET.  IN  S U C H  A C A S E THE  N O D E  N U M B E R IN  T H E  TABLE IS  F O L L O W E D B Y A N L.
+
+| ELEM ELEM NUMB TYPE   |   GROUP NUMB |   LOAD CASE | NODE NUMB   |   AXIS SET |        F-X | FORCES F-Y   |       F-Z |
+|-----------------------|--------------|-------------|-------------|------------|------------|--------------|-----------|
+| 37110                 |            1 |           1 | 137L        |          4 |    932.748 | 1814.541     |   559.006 |
+| 69 69 37110           |            1 |           1 | 139L        |          6 |   -389.879 | 542.971      |   824.022 |
+| 69 37110              |            1 |           1 | 589L        |         72 |    935.890 | 1846.0B3     |  -574.827 |
+| 69 37110              |            1 |           1 | 591L        |         74 |   -396.474 | 588.077      |  -841.798 |
+| 69 37110              |            1 |           1 | 205         |          1 |   2403.818 | 1527.199     |  1782.529 |
+| 69 37110              |            1 |           1 | 207         |          1 |  -2820.189 | 1005.593     |  1917.416 |
+| 69 37110              |            1 |           1 | 657         |          1 |   2404.302 | 1544.865     | -1787.111 |
+| 69 37110              |            1 |           1 | 659         |          1 |  -2819.572 | 1024.194     | -1922.105 |
+| 69 37110              |            1 |           1 | 138L        |          5 |    188.685 | -2503.046    | -8059.968 |
+| 69 37110              |            1 |           1 | 1065        |          1 | -14100.015 | -2378.708    |    11.278 |
+| 69 37110              |            1 |             | 1 1066      |          1 |  10725.830 | -604.481     |     9.608 |
+| 69 37110              |            1 |             | 1 590L      |         73 |    193.312 | -2546.461    |  8072.166 |
+| 69 37110              |            1 |             | 1 1163      |          1 |  -8917.961 | -2489.587    | -5679.436 |
+| 69 37110              |            1 |             | 1 1164      |          1 |   5956.978 | 842.060      | -4934.660 |
+| 69 37110              |            1 |             | 1 1165      |          1 |  -8921.297 | -2550.003    |  5692.867 |
+| 69 37110              |            1 |             | 1 1166      |          1 |   5955.733 | 785.990      |  4952.232 |
+| 69 37110              |            1 |             | 1 206       |          1 |   2741.947 | -878.722     | -3374.972 |
+| 37110                 |            1 |             | 1 1167      |          1 |  -2745.795 | -598.452     |    -3.838 |
+| 69 69 37110           |            1 |             | 1 1168      |          1 |   6129.624 | 3892.603     |    -4.503 |
+| 69 37110              |            1 |             | 1 658       |          1 |   2739.988 | -953.750     |  3362.093 |
+| 70 37110              |            1 |             | 1 139L      |          6 |   -450.174 | 4876.055     | -3696.057 |
+| 70 37110              |            1 |           1 | 141L        |          8 |   3807.931 | -1294.758    |  -356.954 |
+
+## MAJORITY  O F  F O R C E S  ON ELEMENTS  OMITTED
+
+| 101 37110 101 37110 101 37110   | 1 1 1   | 1 1293 1 1296 1 722   |   1 1 1 | -9693.075 -14331.855 -18793.144   | 8369.864 -14946.582 -12886.642   |   5.300 15.834 -8551.681 |
+|---------------------------------|---------|-----------------------|---------|-----------------------------------|----------------------------------|--------------------------|
+| 102                             | 1       | 203L                  |         | 400.275                           | 601.287                          |                  840.387 |
+| 37110                           |         |                       |      70 |                                   |                                  |                          |
+| 102 37110                       | 1       | 1 137L                |       4 | -929.055                          | 1844.343                         |                  565.914 |
+| 102                             | 1       | 1 655L                |     138 | 401.227                           | 612.484                          |                 -841.144 |
+| 37110 102 37110                 | 1       | 1 589L                |      72 | -931.848                          | 1863.169                         |                 -574.336 |
+| 102 37110                       | 1       | 1 271                 |       1 | 2823.593                          | 989.273                          |                 1927.984 |
+| 102 37110                       | 1       | 1 205                 |       1 | -2398.792                         | 1526.958                         |                 1786.439 |
+| 102 37110                       | 1       | 1 723                 |       1 | 2820.782                          | 1010.006                         |                -1921.744 |
+| 102 37110                       | 1       | 1 657                 |       1 | -2400.619                         | 1527.444                         |                -1790.826 |
+| 102 37110                       | 1       | 1 204L                |      71 | -190.825                          | -2528.104                        |                -8064.780 |
+| 102 37110                       | 1       | 1 1162                |       1 | -10718.736                        | -670.353                         |                    1.682 |
+| 102 37110                       | 1       | 1 1065                |       1 | 14086.911 -188.477                | -2420.823                        |                    6.243 |
+| 102 37110                       | 1       | 1 656L                |     139 | -5962.153                         | -2556.960                        |                 8068.741 |
+| 102 37110                       | 1 1     | 1 1294                |       1 |                                   | 812.405 -2516.414                |                -4961.097 |
+| 102 37110 1 PAFEC PAGE          | 350     | 1 1163                |       1 | 8917.723                          |                                  |                -5693.266 |
+
+|   ELEM NUMB |   ELEM TYPE |   GROUP NUMB |   LOAD CASE | NODE NUMB   | AXIS SET   |       F-X |   FORCES F-Y |       F-Z |
+|-------------|-------------|--------------|-------------|-------------|------------|-----------|--------------|-----------|
+|         102 |       37110 |            1 |           1 | 1295        | • 1        | -5959.834 |      802.313 |  4955.031 |
+|         102 |       37110 |            1 |           1 | 1165        | 1          |  8922.499 |    -2530.783 |  5699.359 |
+|         102 |       37110 |            1 |             | 1 272       | 1          | -2743.840 |     -896.648 | -3378.118 |
+|         102 |       37110 |            1 |             | 1 1296      | 1          | -6133.081 |     3933.154 |    -1.698 |
+|         102 |       37110 |            1 |             | 1 1167      | 1          |  2736.914 |     -577.378 |     1.830 |
+|         102 |       37110 |            1 |             | 1 724       | 1          | -2740.602 |     -916.031 |  3373.400 |
+
+1
+
+PAFEC  PAGE
+
+C O N T E N T S
+
+| HEADING       | HEADING       |   PAGE |
+|---------------|---------------|--------|
+| PHASE         | 7             |    245 |
+| DISPLACEMENTS | DISPLACEMENTS |    286 |
+| FORCES ON     | ELEMENTS      |    337 |
+
+PAGE
+
+286
+
+337
+
+**********************************
+
+*
+
+*
+
+*
+
+0  E R R O R S  IN  THIS P H A S E
+
+*
+
+*
+
+*
+
+* 2400 UARNINGS IN THIS PHASE
+
+*
+
+*
+
+*
+
+**********************************
+
+****  MAXIMUM SIZE  O F  BASE  IN  THIS PHASE  W A S 132302  W O R D S  ****
+
++++ E N D  O F  P H A S E  7  +++
+
+351
+
+## B.2.2.3  A Three-Dimensional Model Stress Output File (flle$.O09)
+
+i
+
+PAFEC  P A G E
+
+352
+
+SYSTEM LEVEL 7.400  A JUNE 1992
+
+PHASE  NO.  9 STARTS  H E R E
+
+PPPPP  AAAAA  FFFFF EEEEE  C C C C C
+
+P
+
+P A
+
+A FF
+
+E
+
+C CC
+
+P
+
+P A
+
+A FF
+
+E
+
+C
+
+PPPPP  AAAAA  FFF
+
+EEE
+
+C
+
+PP
+
+AA
+
+A F
+
+EE
+
+C
+
+PP
+
+AA
+
+A F
+
+EE
+
+C
+
+PP
+
+AA
+
+A F
+
+EE
+
+C
+
+PP
+
+AA
+
+A F
+
+TITLE 3D-TUNNEL  COORDINATES  A N D F E - M E S H  DESIGN
+
+DEFAULT  STRESS.ELEMENTS  M O D U L E  CREATED.
+
+1
+
+PAFEC  PAGE
+
+353
+
+37110 20-NODE ISOPARAMETRIC  BRICK  ELEMENT
+
+GLOBAL  STRESSES
+
+SIGMA-X,  SIGMA-Y  AND SIGMA-Z  ARE  THE  STRESSES  IN  THE  GLOBAL  AXES
+
+PRINCIPAL  STRESSES
+
+SIGMA-1 IS  THE  M O S T  POSITIVE  PRINCIPAL  STRESS
+
+ANGLES  O F  PRINCIPAL
+
+STRESSES
+
+SIGMA-3 IS  THE  M O S T  NEGATIVE PRINCIPAL  STRESS
+
+AX, AY  AND  AZ  ARE  THE  ANGLES  O F  SIGMA-1  TO  THE  GLOBAL  AXES BX, BY  AND  BZ  A R E  T H E  A N G L E S  O F  SIGMA-2  T O  T H E  G L O B A L  AXES SIGMA-2 IS  PERPENDICULAR  TO  SIGMA-1  AND  SIGMA-3
+
+LOAD  N O D E  .GLOBAL.STRESSES..
+
+.PRINCIPAL.STRESSES...  VON.MISES ANGS.OF.PRINCIPAL.DIRECTIONS
+
+CASE  N O  SIGMA-X  SIGMA-Y  SIGMA-Z  SIGMA-1 SIGMA-2  SIGMA-3  STRESS
+
+AX
+
+AY
+
+AZ
+
+BX
+
+BY
+
+BZ
+
+ELEMENT  NO.
+
+1
+
+| 1 1 . 00D+00 1 927 .00D+00 1 69 1   | .OOD+00 .OOD+00         | .000+00 .OOD+00         | .OOD+00   | .OOD+00   | .OOD+00   | .OOD+00                         |
+|-------------------------------------|-------------------------|-------------------------|-----------|-----------|-----------|---------------------------------|
+|                                     |                         | .OOD+00                 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90 0 90 90 90 0 90 |
+| .OOD+00                             | .OOD+00 .OOD+00         | .OOD+00                 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 925 .000+00                         | •00D+00                 | .OOD+00                 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 .OOD+00                           | .OOD+00 .OOD+00 .OOD+00 | .OOD+00                 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 0 1 931 .OOD+00                     | .OOD+00                 | .OOD+00                 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 453 .000+00                       | .OOD+00 .00D+00 .OOD+00 | .OOD+00                 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 929 .OOD+00                       | .OOD+00 .000+00         | .OOD+00                 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 521 .OOD+00                       | .00D+00 .OOD+00         | .OOD+00                 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 2 .OOD+00                         | .OOD+00                 | .OOD+00                 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 0 .OOD+00                         | .OOD+00                 | .OOD+00 .00D+00 .OOD+00 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 70 .OOD+00                        | .OOD+00                 | .OOD+00                 | .OOD+00   | .OOD+00   | .000+00   | 0 90 90 90 0 90                 |
+| 1 0 .OOD+00                         | .OOD+00                 | .OOD+00 .OOD+00 .OOD+00 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 0 .OOD+00                         | .OOD+00 .OOD+00         | .000+00                 | .000+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 0 .OOD+00                         | .OOD+00                 | .OOD+00 .OOD+00         | .OOD+00   | .OOD+00   | .000+00   | 0 90 90 90 0 90                 |
+| 1 454 .OOD+00                       | .OOD+00 .OOD+00         | .OOD+00                 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 0 .OOD+00                         | .OOD+00 .OOD+00         | .OOD+00                 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 522 .OOD+00                       | .OOD+00 .OOD+00         | .OOD+00                 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 3 .OOD+00                         | .OOD+00 .OOD+00         | .OOD+00                 | .OOD+00   | .000+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 928 .OOD+00                       | .OOD+00 .OOD+00         | .OOD+00                 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 71 .OOD+00                        | .000+00 .OOD+00         | .OOD+00                 | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 926 .OOD+00                       | .OOD+00 .000+00         | .OOD+00                 | .000+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 0 .OOD+00                         | .OOD+00                 | .OOD+00 .OOD+00         | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+| 1 932 .OOD+00                       | .000+00                 | .OOD+00 .OOD+00         | .OOD+00   | .OOD+00   | .OOD+00   | 0 90 90 90 0 90                 |
+
+EEEEE  C C C C C
+
+| 1 455 1 930                                                                                                                                                            | .OOD+00                                                                                                                                                                | .OOD+00 .OOD+00                                                                                                                                                        | .000+00 .00D+00                                                                                                                                                        | .00D+00 .OOD+00                                                                                                                                                        | .00D+00 .OOD+00                                                                                                                                                        | .000+00 .000+00                                                                                                                                                        | .OOD+00 .OOD+00                                                                                                                                                        | 0 90 0 90                                                                                                                                                              | 90 90 0 90 90 90 0 90 0 90                                                                                                                                             |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1 523                                                                                                                                                                  | .00D+00 .00D+00                                                                                                                                                        | .000+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .000+00                                                                                                                                                                | .00D+00                                                                                                                                                                | 0 90                                                                                                                                                                   | 90 90                                                                                                                                                                  |
+| MAJORITY OF STRESSES OMITTED                                                                                                                                           | MAJORITY OF STRESSES OMITTED                                                                                                                                           | MAJORITY OF STRESSES OMITTED                                                                                                                                           | MAJORITY OF STRESSES OMITTED                                                                                                                                           | MAJORITY OF STRESSES OMITTED                                                                                                                                           | MAJORITY OF STRESSES OMITTED                                                                                                                                           | MAJORITY OF STRESSES OMITTED                                                                                                                                           | MAJORITY OF STRESSES OMITTED                                                                                                                                           | MAJORITY OF STRESSES OMITTED                                                                                                                                           | MAJORITY OF STRESSES OMITTED                                                                                                                                           |
+| ELEMENT NO. 68                                                                                                                                                         | ELEMENT NO. 68                                                                                                                                                         | ELEMENT NO. 68                                                                                                                                                         | ELEMENT NO. 68                                                                                                                                                         | ELEMENT NO. 68                                                                                                                                                         | ELEMENT NO. 68                                                                                                                                                         | ELEMENT NO. 68                                                                                                                                                         | ELEMENT NO. 68                                                                                                                                                         | ELEMENT NO. 68                                                                                                                                                         | ELEMENT NO. 68                                                                                                                                                         |
+| 1 135                                                                                                                                                                  | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .000+00                                                                                                                                                                | .OOD+00                                                                                                                                                                |                                                                                                                                                                        | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 1160                                                                                                                                                                 | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00 .OOD+00                                                                                                                                                        | .OOD+00                                                                                                                                                                | .000+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 203                                                                                                                                                                  | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 1060                                                                                                                                                                 | .000+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 0                                                                                                                                                                    | .OOD+00                                                                                                                                                                | .000+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .000+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 1162                                                                                                                                                                 | .000+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 587                                                                                                                                                                  | .000+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 1161                                                                                                                                                                 | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 655                                                                                                                                                                  | .000+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .000+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .000+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 136                                                                                                                                                                  | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                |                                                                                                                                                                        | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 0                                                                                                                                                                    | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                |                                                                                                                                                                        | .OOD+00                                                                                                                                                                |                                                                                                                                                                        |                                                                                                                                                                        | .OOD+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 204                                                                                                                                                                  | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                |                                                                                                                                                                        | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 0                                                                                                                                                                    | .OOD+00                                                                                                                                                                |                                                                                                                                                                        | .OOD+00 .OOD+00                                                                                                                                                        | .00D+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00 .OOD+00                                                                                                                                                        | .00D+00 .000+00                                                                                                                                                        | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 0                                                                                                                                                                    | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                |                                                                                                                                                                        | .00D+00                                                                                                                                                                | .00D+00                                                                                                                                                                |                                                                                                                                                                        |                                                                                                                                                                        | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 0                                                                                                                                                                    |                                                                                                                                                                        | .OOD+00                                                                                                                                                                | .000+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .000+00 .OOD+00                                                                                                                                                        | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+|                                                                                                                                                                        | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .000+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 588 1 0                                                                                                                                                              | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                |                                                                                                                                                                        | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+|                                                                                                                                                                        | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .000+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90 0 90                                                                                                                                                                |
+| 1 656                                                                                                                                                                  | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .000+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90                                                                                                                                                                     |
+| 1 69                                                                                                                                                                   | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .000+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00 .00D+00                                                                                                                                                        | .OOD+00 .OOD+00                                                                                                                                                        | 0 90 90                                                                                                                                                                | 0 90 90 0 90                                                                                                                                                           |
+| 1 1061                                                                                                                                                                 | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .000+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                |                                                                                                                                                                        |                                                                                                                                                                        | 0 90                                                                                                                                                                   | 90 0 90                                                                                                                                                                |
+| 1 137                                                                                                                                                                  | .OOD+00                                                                                                                                                                | .OOD+00 .OOD+00                                                                                                                                                        | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | 90                                                                                                                                                                     | 90 0 90                                                                                                                                                                |
+| 1 931                                                                                                                                                                  | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .00D+00 .00D+00                                                                                                                                                        | .OOD+00 .OOD+00                                                                                                                                                        | .OOD+00 .OOD+00                                                                                                                                                        | .000+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | 0 90                                                                                                                                                                   | 90 0 90                                                                                                                                                                |
+| 1 0                                                                                                                                                                    | .OOD+00                                                                                                                                                                |                                                                                                                                                                        |                                                                                                                                                                        |                                                                                                                                                                        |                                                                                                                                                                        | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | 90 0 90 90                                                                                                                                                             | 90                                                                                                                                                                     |
+| 1 1065                                                                                                                                                                 | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90 0                                                                                                                                                                   |
+| 1 521                                                                                                                                                                  | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | 0 90 90                                                                                                                                                                | 90 0 90 90                                                                                                                                                             |
+| 1 1063                                                                                                                                                                 | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                |                                                                                                                                                                        |                                                                                                                                                                        | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | 90                                                                                                                                                                     | 90 0 90                                                                                                                                                                |
+| 1 589                                                                                                                                                                  |                                                                                                                                                                        |                                                                                                                                                                        |                                                                                                                                                                        | .000+00                                                                                                                                                                | .OOD+00                                                                                                                                                                |                                                                                                                                                                        |                                                                                                                                                                        | 0 90                                                                                                                                                                   | 90 0                                                                                                                                                                   |
+|                                                                                                                                                                        | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .000+00                                                                                                                                                                | .00D+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .OOD+00                                                                                                                                                                | .00D+00                                                                                                                                                                | 0 90 90                                                                                                                                                                |                                                                                                                                                                        |
+| ELEMENT NO. 69                                                                                                                                                         | ELEMENT NO. 69                                                                                                                                                         | ELEMENT NO. 69                                                                                                                                                         | ELEMENT NO. 69                                                                                                                                                         | ELEMENT NO. 69                                                                                                                                                         | ELEMENT NO. 69                                                                                                                                                         | ELEMENT NO. 69                                                                                                                                                         | ELEMENT NO. 69                                                                                                                                                         | ELEMENT NO. 69                                                                                                                                                         | ELEMENT NO. 69                                                                                                                                                         |
+| 1 137                                                                                                                                                                  | 1.62D+05                                                                                                                                                               | 9.34D+03                                                                                                                                                               | 2.73D+04                                                                                                                                                               | 1.62D+05                                                                                                                                                               | 2.74D+04                                                                                                                                                               | 9.32D+03                                                                                                                                                               | 1.44D+05                                                                                                                                                               | 0 90 90                                                                                                                                                                | 89 88 1 94                                                                                                                                                             |
+| 1 1163 1 205 -1.32D+04                                                                                                                                                 | 4.99D+04                                                                                                                                                               | 1.27D+04 2.54D+04                                                                                                                                                      | 1.00D+04 1.94D+03                                                                                                                                                      | 4.99D+04 2.54D+04                                                                                                                                                      | 1.28D+04 1.94D+03                                                                                                                                                      | 1.00D+04 -1.32D+04                                                                                                                                                     | 3.86D+04 3.37D+04                                                                                                                                                      | 0 89 90 89 0 90                                                                                                                                                        | 89 175 89 90 179                                                                                                                                                       |
+| 1 PAFEC PAGE 390                                                                                                                                                       | 1 PAFEC PAGE 390                                                                                                                                                       | 1 PAFEC PAGE 390                                                                                                                                                       | 1 PAFEC PAGE 390                                                                                                                                                       | 1 PAFEC PAGE 390                                                                                                                                                       | 1 PAFEC PAGE 390                                                                                                                                                       | 1 PAFEC PAGE 390                                                                                                                                                       | 1 PAFEC PAGE 390                                                                                                                                                       | 1 PAFEC PAGE 390                                                                                                                                                       | 1 PAFEC PAGE 390                                                                                                                                                       |
+| LOAD NODE .GLOBAL.STRESSES PRINCIPAL.STRESSES. VON.MISES CASE NO SIGMA-X SIGMA-Y SIGMA-Z SIGMA-1 SIGMA-2 SIGMA-3 STRESS ANGS.OF.PRINCIPAL.DIRECTIONS AX AY AZ BX BY BZ | LOAD NODE .GLOBAL.STRESSES PRINCIPAL.STRESSES. VON.MISES CASE NO SIGMA-X SIGMA-Y SIGMA-Z SIGMA-1 SIGMA-2 SIGMA-3 STRESS ANGS.OF.PRINCIPAL.DIRECTIONS AX AY AZ BX BY BZ | LOAD NODE .GLOBAL.STRESSES PRINCIPAL.STRESSES. VON.MISES CASE NO SIGMA-X SIGMA-Y SIGMA-Z SIGMA-1 SIGMA-2 SIGMA-3 STRESS ANGS.OF.PRINCIPAL.DIRECTIONS AX AY AZ BX BY BZ | LOAD NODE .GLOBAL.STRESSES PRINCIPAL.STRESSES. VON.MISES CASE NO SIGMA-X SIGMA-Y SIGMA-Z SIGMA-1 SIGMA-2 SIGMA-3 STRESS ANGS.OF.PRINCIPAL.DIRECTIONS AX AY AZ BX BY BZ | LOAD NODE .GLOBAL.STRESSES PRINCIPAL.STRESSES. VON.MISES CASE NO SIGMA-X SIGMA-Y SIGMA-Z SIGMA-1 SIGMA-2 SIGMA-3 STRESS ANGS.OF.PRINCIPAL.DIRECTIONS AX AY AZ BX BY BZ | LOAD NODE .GLOBAL.STRESSES PRINCIPAL.STRESSES. VON.MISES CASE NO SIGMA-X SIGMA-Y SIGMA-Z SIGMA-1 SIGMA-2 SIGMA-3 STRESS ANGS.OF.PRINCIPAL.DIRECTIONS AX AY AZ BX BY BZ | LOAD NODE .GLOBAL.STRESSES PRINCIPAL.STRESSES. VON.MISES CASE NO SIGMA-X SIGMA-Y SIGMA-Z SIGMA-1 SIGMA-2 SIGMA-3 STRESS ANGS.OF.PRINCIPAL.DIRECTIONS AX AY AZ BX BY BZ | LOAD NODE .GLOBAL.STRESSES PRINCIPAL.STRESSES. VON.MISES CASE NO SIGMA-X SIGMA-Y SIGMA-Z SIGMA-1 SIGMA-2 SIGMA-3 STRESS ANGS.OF.PRINCIPAL.DIRECTIONS AX AY AZ BX BY BZ | LOAD NODE .GLOBAL.STRESSES PRINCIPAL.STRESSES. VON.MISES CASE NO SIGMA-X SIGMA-Y SIGMA-Z SIGMA-1 SIGMA-2 SIGMA-3 STRESS ANGS.OF.PRINCIPAL.DIRECTIONS AX AY AZ BX BY BZ | LOAD NODE .GLOBAL.STRESSES PRINCIPAL.STRESSES. VON.MISES CASE NO SIGMA-X SIGMA-Y SIGMA-Z SIGMA-1 SIGMA-2 SIGMA-3 STRESS ANGS.OF.PRINCIPAL.DIRECTIONS AX AY AZ BX BY BZ |
+| 1 1065                                                                                                                                                                 | 1.62D+05                                                                                                                                                               | 9.24D+03 1.26D+04                                                                                                                                                      | .73D+04 .00D+04                                                                                                                                                        | 1.62D+05                                                                                                                                                               | 2.73D+04                                                                                                                                                               | 24D+03                                                                                                                                                                 | .44D+05                                                                                                                                                                | 0 90 89                                                                                                                                                                | 89 90 179                                                                                                                                                              |
+| 1 0                                                                                                                                                                    | 4.99D+04                                                                                                                                                               |                                                                                                                                                                        |                                                                                                                                                                        | 4.99D+04                                                                                                                                                               | 1.26D+04                                                                                                                                                               | 00D+04 33D+04                                                                                                                                                          | .87D+04                                                                                                                                                                | 0 89 90                                                                                                                                                                | 178 90                                                                                                                                                                 |
+| 1 1167                                                                                                                                                                 | -1.33D+04                                                                                                                                                              | 2.52D+04                                                                                                                                                               | .91D+03                                                                                                                                                                | 2.52D+04                                                                                                                                                               | 1.91D+03                                                                                                                                                               |                                                                                                                                                                        | .36D+04                                                                                                                                                                | 89 0 90                                                                                                                                                                | 89 89 89 0 89                                                                                                                                                          |
+| 1 589                                                                                                                                                                  | 1.61D+05                                                                                                                                                               | 9.26D+03                                                                                                                                                               | .73D+04                                                                                                                                                                | 1.61D+05                                                                                                                                                               | 2.73D+04                                                                                                                                                               | 25D+03                                                                                                                                                                 | .440+05                                                                                                                                                                | 0 90 89                                                                                                                                                                | 89 179                                                                                                                                                                 |
+| 1 1165                                                                                                                                                                 | 4.99D+04                                                                                                                                                               | 1.26D+04                                                                                                                                                               | .00D+04                                                                                                                                                                | 4.99D+04                                                                                                                                                               | 1.26D+04                                                                                                                                                               | 99D+03                                                                                                                                                                 | .870+04                                                                                                                                                                | 0 89 89                                                                                                                                                                | 89 176 86 0                                                                                                                                                            |
+| 1 657                                                                                                                                                                  | -1.33D+04                                                                                                                                                              | 2.52D+04                                                                                                                                                               | .91D+03                                                                                                                                                                | 2.52D+04                                                                                                                                                               | 1.91D+03                                                                                                                                                               | 33D+04                                                                                                                                                                 | .35D+04                                                                                                                                                                | 89 0 90                                                                                                                                                                | 89 89 89                                                                                                                                                               |
+| 1 138                                                                                                                                                                  | 1.51D+05                                                                                                                                                               | .53D+03                                                                                                                                                                | 2.56D+04                                                                                                                                                               | 1.51D+05                                                                                                                                                               | 2.56D+04                                                                                                                                                               | 11D+03                                                                                                                                                                 | .34D+05                                                                                                                                                                | 3 93                                                                                                                                                                   | 88                                                                                                                                                                     |
+| 1 0                                                                                                                                                                    | 4.41D+04                                                                                                                                                               | ,070+04                                                                                                                                                                | 8.76D+03                                                                                                                                                               | 4.64D+04                                                                                                                                                               | 8.77D+03                                                                                                                                                               | 8.34D+03                                                                                                                                                               | .790+04                                                                                                                                                                | 90 14 75 89                                                                                                                                                            | 1 88 97 172                                                                                                                                                            |
+| 1 206                                                                                                                                                                  | -1.65D+04                                                                                                                                                              | .060+04                                                                                                                                                                | 6.68D+02                                                                                                                                                               | 3.24D+04                                                                                                                                                               | 6.67D+02                                                                                                                                                               | -2.82D+04                                                                                                                                                              | 5.25D+04                                                                                                                                                               | 63 26 90                                                                                                                                                               | 89 89 0                                                                                                                                                                |
+| 0                                                                                                                                                                      | 1.51D+05                                                                                                                                                               | .39D+03                                                                                                                                                                | 2.56D+04                                                                                                                                                               | 1.51D+05                                                                                                                                                               |                                                                                                                                                                        | 8.98D+03                                                                                                                                                               | 1.35D+05                                                                                                                                                               | 89                                                                                                                                                                     | 89                                                                                                                                                                     |
+| 0                                                                                                                                                                      | 4.41D+04                                                                                                                                                               | .06D+04                                                                                                                                                                | 8.75D+03                                                                                                                                                               | 4.64D+04                                                                                                                                                               | 2.56D+04                                                                                                                                                               | 8.26D+03                                                                                                                                                               | 3.79D+04                                                                                                                                                               | 3 93                                                                                                                                                                   | 89 179 88 7                                                                                                                                                            |
+|                                                                                                                                                                        |                                                                                                                                                                        | 2.06D+04                                                                                                                                                               | 6.61D+02                                                                                                                                                               | 3.23D+04                                                                                                                                                               | 8.76D+03 6.61D+02                                                                                                                                                      |                                                                                                                                                                        |                                                                                                                                                                        | 14 75 90                                                                                                                                                               | 97 89                                                                                                                                                                  |
+| 0                                                                                                                                                                      | -1.65D+04                                                                                                                                                              | 9.39D+03                                                                                                                                                               | 2.56D+04                                                                                                                                                               | 1.51D+05                                                                                                                                                               |                                                                                                                                                                        | -2.82D+04                                                                                                                                                              | 5.24D+04                                                                                                                                                               | 63 26 90                                                                                                                                                               | 89 0                                                                                                                                                                   |
+| 590                                                                                                                                                                    | 1.51D+05                                                                                                                                                               | 1.07D+04                                                                                                                                                               | 8.76D+03                                                                                                                                                               | 4.64D+04                                                                                                                                                               | 2.56D+04 8.83D+03                                                                                                                                                      | 8.97D+03                                                                                                                                                               | 1.34D+05                                                                                                                                                               | 3 93 89                                                                                                                                                                | 89 881 78                                                                                                                                                              |
+| 0                                                                                                                                                                      | 4.41D+04                                                                                                                                                               |                                                                                                                                                                        |                                                                                                                                                                        |                                                                                                                                                                        | 6.82D+02                                                                                                                                                               | 8.26D+03                                                                                                                                                               | 3.79D+04                                                                                                                                                               | 14 75 90                                                                                                                                                               | 109 179                                                                                                                                                                |
+| 1 658                                                                                                                                                                  | -1.64D+04                                                                                                                                                              | 2.070+04                                                                                                                                                               | 6.82D+02                                                                                                                                                               | 3.25D+04                                                                                                                                                               |                                                                                                                                                                        | 2.82D+04                                                                                                                                                               | 5.25D+04                                                                                                                                                               | 63 26                                                                                                                                                                  | 84                                                                                                                                                                     |
+| 139                                                                                                                                                                    | 1.23D+05                                                                                                                                                               | 3.88D+03 4.45D+03                                                                                                                                                      | 2.03D+04 5.88D+03                                                                                                                                                      | 1.24D+05                                                                                                                                                               | 2.03D+04                                                                                                                                                               | 3.02D+03                                                                                                                                                               | 1.13D+05                                                                                                                                                               | 89 4 94 89                                                                                                                                                             | 89 89                                                                                                                                                                  |
+|                                                                                                                                                                        | 3.24D+04                                                                                                                                                               |                                                                                                                                                                        |                                                                                                                                                                        | 4.35D+04                                                                                                                                                               | 5.88D+03                                                                                                                                                               | 6.71D+03                                                                                                                                                               | 4.53D+04                                                                                                                                                               |                                                                                                                                                                        | 89 87 2 89 90                                                                                                                                                          |
+| 1164 1 207                                                                                                                                                             | -2.04D+04                                                                                                                                                              | .22D+04 .58D+03                                                                                                                                                        | •1.30D+03 2.02D+04                                                                                                                                                     | 4.79D+04 1.24D+05                                                                                                                                                      | •1.30D+03 2.02D+04                                                                                                                                                     | 5.60D+04                                                                                                                                                               | 9.00D+04                                                                                                                                                               | 28 61 89 54 35                                                                                                                                                         | 90 89 89 0                                                                                                                                                             |
+| 1066 0                                                                                                                                                                 | 1.23D+05                                                                                                                                                               |                                                                                                                                                                        | 5.86D+03                                                                                                                                                               | 4.35D+04                                                                                                                                                               | 5.86D+03                                                                                                                                                               | 2.76D+03 6.87D+03                                                                                                                                                      | 1.13D+05 4.53D+04                                                                                                                                                      | 4 94 89                                                                                                                                                                | 89 89 0                                                                                                                                                                |
+|                                                                                                                                                                        | 23D+04                                                                                                                                                                 | ,280+03                                                                                                                                                                |                                                                                                                                                                        | 4.78D+04                                                                                                                                                               |                                                                                                                                                                        |                                                                                                                                                                        | 8.99D+04                                                                                                                                                               | 28 61 90                                                                                                                                                               | 89 90                                                                                                                                                                  |
+| 1168                                                                                                                                                                   | 04D+04                                                                                                                                                                 | .22D+04                                                                                                                                                                | -1.31D+03                                                                                                                                                              |                                                                                                                                                                        | -1.31D+03                                                                                                                                                              | -5.60D+04                                                                                                                                                              | 1.13D+05                                                                                                                                                               | 54 35 90 4 94 90                                                                                                                                                       | 89 89 89                                                                                                                                                               |
+| 1 591                                                                                                                                                                  | 1.23D+05                                                                                                                                                               | .44D+03 4.28D+03                                                                                                                                                       | 2.02D+04 5.86D+03                                                                                                                                                      | 1.24D+05 4.35D+04                                                                                                                                                      | 2.02D+04 5.86D+03                                                                                                                                                      | 2.64D+03 -6.92D+03                                                                                                                                                     | 4.54D+04                                                                                                                                                               | 28 61                                                                                                                                                                  | 89                                                                                                                                                                     |
+| 1 1166                                                                                                                                                                 | 3.23D+04 -2.04D+04                                                                                                                                                     | 1.23D+04                                                                                                                                                               |                                                                                                                                                                        |                                                                                                                                                                        |                                                                                                                                                                        |                                                                                                                                                                        |                                                                                                                                                                        | 90 54 35 89                                                                                                                                                            | 89 90 89                                                                                                                                                               |
+| 1 659                                                                                                                                                                  |                                                                                                                                                                        |                                                                                                                                                                        | -1.29D+03                                                                                                                                                              | 4.79D+04                                                                                                                                                               | -1.29D+03                                                                                                                                                              | -5.60D+04                                                                                                                                                              |                                                                                                                                                                        | 9.00D+04                                                                                                                                                               | 89                                                                                                                                                                     |
+
+| MAJORITY OF STRESSES OMITTED                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                 |                                                                                                         |                                                                                                         |                                         |                                 |                                                            |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|-----------------------------------------|---------------------------------|------------------------------------------------------------|--------------|-------|-------------------------------------------------|----|----------------------------------|-----------------|----------|---------|---------------------------------|-----------------|---------|-----------------------------------------|----|------------------|----------|---------|---------|-----------------------------------------|---------|---------------------------------|---------|---------|---------|-------------------------|-----------------|---------------------------------|---------|---------|---------|-------------------------------------------------------------------------|-------------------------|----|----|-----------------|----|-------------|---------|---------|---------|
+| ELEMENT NO. 252                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                 |                                                                                                         |                                                                                                         |                                         |                                 |                                                            |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+| 1 239 -1.83D+05 1 2199 -2.18D+05 1 331 -2.34D+05 1 1231 -1.83D+05 1 0 -2.18D+05 1 2204 -2.34D+05 1 691 -1.83D+05 1 2201 -2.18D+05 1 783 -2.34D+05 1 1235 -1.83D+05 1 0 -2.19D+05 1 2315 -2.36D+05 1 0 -1.83D+05 1 0 -2.19D+05 1 0 -2.36D+05 1 1237 -1.83D+05 1 0 -2.19D+05 1 2316 -2.36D+05 1 241 -1.83D+05 1 2310 -2.20D+05 1 355 -2.38D+05 1 1236 -1.83D+05 1 0 -2.20D+05 1 2313 -2.38D+05 1 693 -1.83D+05 1 2311 -2.20D+05 1 807 -2.38D+05 1 PAFEC PAGE 2.16D+04 -5.53D+04 4.43D+04 -7.08D+04 6.01D+04 -7.94D+04 2.16D+04 -5.53D+04 4.43D+04 -7.08D+04 6.01D+04 -7.94D+04 2.160+04 -5.53D+04 4.43D+04 -7.08D+04 6.010+04 -7.94D+04 2.18D+04 -5.52D+04 4.49D+04 -7.12D+04 6.11D+04 -8.020+04 2.18D+04 -5.52D+04 4.49D+04 -7.12D+04 6.11D+04 -8.02D+04 2.180+04 -5.52D+04 4.49D+04 -7.12D+04 6.11D+04 -8.02D+04 2.34D+04 -5.57D+04 4.69D+04 -7.21D+04 6.35D+04 -8.15D+04 2.34D+04 -5.57D+04 4.69D+04 -7.21D+04 6.35D+04 -8.150+04 2.34D+04 -5.57D+04 4.69D+04 -7.210+04 6.35D+04 -8.150+04 489 -2.16D+04 -5.53D+04 -4.43D+04 -7.08D+04 -6.01D+04 -7.94D+04 -2.16D+04 -5.53D+04 -4.43D+04 -7.08D+04 -6.01D+04 -7.94D+04 -2.16D+04 -5.53D+04 -4.43D+04 -7.08D+04 -6.01D+04 -7.94D+04 -2.17D+04 -5.52D+04 -4.49D+04 -7.12D+04 -6.11D+04 -8.02D+04 -2.17D+04 -5.52D+04 -4.49D+04 -7.12D+04 -6.11D+04 -8.02D+04 -2.17D+04 -5.52D+04 -4.49D+04 -7.120+04 -6.11D+04 -8.02D+04 -2.28D+04 -5.57D+04 -4.67D+04 -7.21D+04 -6.35D+04 -8.15D+04 -2.28D+04 -5.57D+04 -4.67D+04 -7.21D+04 -6.35D+04 -8.15D+04 -2.28D+04 -5.57D+04 -4.67D+04 -7.21D+04 -6.35D+04 -8.15D+04 -1.83D+05 1.47D+05 -2.18D+05 1.62D+05 -2.34D+05 1.65D+05 -1.83D+05 1.47D+05 -2.18D+05 1.62D+05 -2.34D+05 1.65D+05 -1.83D+05 1.47D+05 -2.18D+05 1.62D+05 -2.34D+05 1.65D+05 -1.83D+05 1.47D+05 -2.19D+05 1.62D+05 -2.36D+05 1.66D+05 -1.83D+05 1.47D+05 -2.19D+05 1.62D+05 -2.36D+05 1.66D+05 -1.83D+05 1.47D+05 -2.19D+05 1.62D+05 -2.36D+05 1.66D+05 -1.84D+05 1.47D+05 -2.20D+05 1.62D+05 -2.38D+05 1.67D+05 -1.840+05 1.47D+05 -2.20D+05 1.62D+05 -2.380+05 1.670+05 -1.840+05 1.470+05 -2.200+05 1.62D+05 -2.38D+05 1.670+05 89 179 89 89 90 179 89 179 89 89 90 179 89 179 89 89 89 0 89 179 90 89 89 179 89 179 89 89 89 0 89 179 90 89 89 179 89 179 90 89 90 0 89 179 90 89 90 0 89 0 90 89 90 179 88 178 90 89 89 179 89 179 89 89 90 179 89 179 90 89 89 179 88 178 90 89 89 179 89 179 89 89 89 0 89 179 90 89 89 179 88 178 90 89 90 0 89 179 89 89 89 0 89 179 90 89 89 179 86 176 90 89 89 179 88 178 89 89 90 179 89 179 90 89 89 179 86 176 90 89 89 179 88 178 89 89 90 179 89 179 90 89 89 179 86 176 90 89 90 0 88 178 89 89 89 0 89 179 90 89 89 179 |                                                                                                 |                                                                                                         |                                                                                                         |                                         |                                 |                                                            |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+| LOAD NODE .GLOBAL.STRESSES PRI NCI PAL.STRESSES VON.MISES ANGS.OF.PRINCIPAL.DIRECTIONS CASE NO SIGMA-X SIGMA-Y SIGMA-Z SIGMA-1 SIGMA-2 SIGMA-3 STRESS AX AY AZ BX BY BZ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                                                                                                 |                                                                                                         |                                                                                                         |                                         |                                 |                                                            |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+| ELEMENT NO. 253                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                 |                                                                                                         |                                                                                                         |                                         |                                 |                                                            |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+| .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |                                                                                                 |                                                                                                         |                                                                                                         |                                         |                                 |                                                            |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+| 1 357 1 2321 1 69 1 2318                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | .00D+00 .00D+00 .000+00                                                                         | .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00                                                         | .OOD+00 .OOD+00 .OOD+00                                                                                 | .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 | .OOD+00 .OOD+00 .OOD+00 .OOD+00 | 90 90 0 90 0 90 90 0 90 90 90 0 90 0 90 90 0 90 90 90 0 90 |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         | .OOD+00 .OOD+00 .OOD+00                                                 |                         |    |    |                 |  0 | 90 90 90 90 |         |         |         |
+| 1 0 1 931 1 809                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | .000+00 .00D+00 .000+00 .000+00                                                                 | .OOD+00 .OOD+00                                                                                         |                                                                                                         | .OOD+00 .OOD+00                         | .OOD+00 .OOD+00                 | 0 90 0 90 90 90 90 90 90                                   |              |       | 90                                              |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         | .OOD+00 .OOD+00                                                         |                         |    |    |                 |    |             |         |         |         |
+| 1 2323                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |                                                                                                 |                                                                                                         | .OOD+00                                                                                                 | .OOD+00 .OOD+00 .OOD+00                 |                                 | 0 0 90 90 90 0 90                                          |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         | .OOD+00                                                                 |                         |    |    |                 |    |             |         |         |         |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | .000+00                                                                                         | .OOD+00 .OOD+00 .OOD+00                                                                                 | .OOD+00 .OOD+00                                                                                         | .OOD+00                                 | .OOD+00 .OOD+00                 | 0 0 90 0                                                   |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         | .OOD+00                                                                 |                         |    |    |                 |    |             |         |         |         |
+| 1 521 1 2317                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | .00D+00 .000+00                                                                                 | .OOD+00 .OOD+00                                                                                         | .OOD+00                                                                                                 | .OOD+00 .OOD+00 .OOD+00                 | .OOD+00                         | 90 90 90 0 90 90 0                                         |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         | .OOD+00                                                                 |                         |    |    |                 |    |             |         |         |         |
+| 1 0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |                                                                                                 |                                                                                                         | .OOD+00                                                                                                 |                                         | .OOD+00 .OOD+00                 | 90 90 90 90                                                |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+| 1 70                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                                                                                                 |                                                                                                         |                                                                                                         |                                         | .OOD+00                         |                                                            |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+| 1 0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |                                                                                                 |                                                                                                         |                                                                                                         |                                         |                                 | 0 0 90 90 0 90 90                                          | 0 90 90 0 90 |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                 | .OOD+00                                                                                                 |                                                                                                         |                                         |                                 |                                                            |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+| 1 0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | .000+00 .000+00 .00D+0O .000+00 .000+00                                                         | .OOD+00 .OOD+00 .000+00                                                                                 |                                                                                                         | .OOD+00                                 | .OOD+00 .OOD+00 .000+00 .OOD+00 | 90 0                                                       |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+| 1 0 1 2320 1 0 1 522                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                                                                                                 |                                                                                                         |                                                                                                         |                                         |                                 |                                                            |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                 |                                                                                                         |                                                                                                         | .OOD+00 .OOD+00                         |                                 |                                                            |              | 90    |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                 |                                                                                                         |                                                                                                         |                                         |                                 | 0                                                          | 90           |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                 |                                                                                                         |                                                                                                         |                                         |                                 | .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00                    |              |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                 |                                                                                                         | .OOD+00 .OOD+00 .OOD+00                                                                                 | .OOD+00                                 |                                 |                                                            | 90 90 90     |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                 |                                                                                                         |                                                                                                         | .OOD+00                                 |                                 | 0 0                                                        | 90           |       |                                                 |    |                                  |                 |          |         |                                 |                 |         |                                         |    |                  |          |         |         |                                         |         |                                 |         |         |         |                         |                 |                                 |         |         |         |                                                                         |                         |    |    |                 |    |             |         |         |         |
+| 1 359 1 2322 1 71 1 2319 1 0 1 932 1 811 1 2324 1 523                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | .000+00 .000+00 .00D+00 .OOD+00 .OOD+00 .00D+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 | .000+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 | .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 | .OOD+00 .OOD+00 .OOD+00                 |                                 | 90 0 90 0 90 0 0 0                                         | 0 90 0 90 0  | 90 90 | 90 0 90 0 90 0 90 0 90 0 90 0 90 0 90 0 90 0 90 | 90 | 90 90 90 90 90 90 90 90 90 90 90 | 90 90 90 0 90 0 | 90 90 90 | .OOD+00 | .OOD+00 .OOD+00 .OOD+00 OMITTED | .OOD+00 .OOD+00 | .OOD+00 | .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 | OF | .OOD+00 MAJORITY | STRESSES | .OOD+00 | .OOD+00 | .OOD+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 | .OOD+00 | .OOD+00 .OOD+00 .OOD+00 .OOD+00 | .OOD+00 | .OOD+00 | .OOD+00 | .OOD+00 .OOD+00 .OOD+00 | .OOD+00 .OOD+00 | .000+00 .OOD+00 .OOD+00 .OOD+00 | .OOD+00 | .OOD+00 | 0 0 0 0 | .OOD+00 .000+00 .OOD+00 .OOD+00 .OOD+00 .OOD+00 .000+00 .OOD+00 .OOD+00 | 90 90 90 90 90 90 90 90 |  0 | 90 | .OOD+00 .OOD+00 |    | 90 90 90 90 | 0 90 90 | .OOD+00 | 0 90 90 |
+
+```
+1 438 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1  2430 .00D+00 .O O D + O O .000+00 .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1 450 .00D+00 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1  2431 .00D+00 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1 0 .00D+00 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90  90 90 0  90 1  2426 .00D+00 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1 890 .00D+00 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90  90 90 0  90 1 2432 .00D+00 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1 902 .00D+00 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1 2765 .00D+00 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1 0 .00D+00 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1  2425 .00D+00 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1  0 .00D+00 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1 0 .00D+00 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1  0 .O O D + O O .000+00 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90  90 90 0  90 1  2766 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90  90 90 0 90 1  0 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90  90 90 0  90 1 2427  . O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1 436 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1 2783 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0 90 1 448 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0 90 1 2763 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1  0 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0 90 1  2421 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0 90 1 888 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1  2784 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1 900 .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O .O O D + O O  0  90 90 90 0  90 1 PAFEC  P A G E 545 AVERAGED STRESSES  F O R  N O D E S  WRITTEN  T O  B L O C K S 97  T O  143 OF  THE  STRESS FILE 1 PAFEC  PAGE 614 C O N T E N T S HEADING PHASE 9 STRESSES  F O R  ELEMENT  TYPE  37110 PAGE 352 353 1 PAFEC  PAGE 615 ********************************** * * * 0  E R R O R S  IN  THIS  P H A S E * * * *  230  WARNINGS IN  THIS PHASE * * * **********************************
+```
+
+```
+1 PAFEC  P A G E 557 ppppppp AA FFF "FFFFF  EEEEEEEE CCCC PP PP AAAA FFF EE CC CC PP PP AA  AA FFF EE CC CC PP PP AA  AA FFF EE CC PP PP  AA AA  FFF EE CC PPPPPPP AA AA  FFF  FFF EEEEEE CC PP AAAAAAAA  FF EEE CC PP AA AA  FF EEE CC PP AA AA  FF EEE CC CC PP AA AA  FF EEE CC CC PP AA AA  FF EEEEEEEE CCCC PPPPPPP 0000 ssss PP PP 000000 ss ss PP PP 000 000 ss ss PP PP 00 00 ss PP PP 00 00 ss PPPPPPP 00 00 ssss PP 00 00 ss PP 00 00 ss PP 000 000 ss ss PP 000000 ss ss PP 0000 ssss PPPPPPP RRRR R R R 0000 CCCC EEEEEEEE SSSS ssss 0000 RRRRRRR PP PP  R R RR 000000 CC CC EE SS SS ss ss 000000 RR RR PP PP  R R RR 000 000 cc cc  EE SS SS  ss ss 000 000 RR RR PP PP  R R RR 00 00 cc EE SS ss 00 00 RR RR PP PP  R R RR 00 00 cc EE SS ss 00 00 RR RR PPPPPPP RRRR R R R 00 00 cc EEEEEE SSSS ssss 00 00 RRRRRRR PP RRR R R 00 00 cc EEE SS ss 00 00 RRRRR PP RR  R R 00 00 cc EEE SS ss 00 00 RR RR PP RR RR 000 000 cc cc  EEE SS SS  ss ss 000 000 RR  R R PP RR RR 000000 cc cc EEE SS SS ss ss 000000 RR RR PP RR RR 0000 CCC C EEEEEEEE ssss ssss 0000 RR RR 1 PAFEC  P A G E 558 0000 RRRRR R R DDDDDD EEEEEEEE RRRR R R R 000000 RR RR DDDDDDD EE RR RR 000 000 RR RR DD DDD EE RR RR 00 00 RR RR DD DD EE RR RR 00 00 RR RR DD DD EE RR RR 00 00 RRRRR R R DD DD EEEEEE RRRR R R R 00 00 RRRR R DD DD EEE RRRR R 00 00 RR  R R DD DD EEE RR RR 000 000 RR RR DD DDD EEE RR  R R 000000 RR RR DDDDDDD EEE RR RR 0000 RR RR DDDDDD EEEEEEEE RR RR 11 111 11111111
+```
+
+B.2.2.4  A Three-Dimensional Model Averaged and Unaveraged Stress Output File (file$.SP)
+
+THERE  IS 1 TABLE  U N D E R  THIS ORDE R
+
+THE  VALUES  OUTPUT IN  THE  TABLES  U N D E R  THIS  ORDE R ARE SCALED  BY 1.00000 AND  ARE  OFFSET  B Y .OOOOOOE +00 CONTINUITY  VALUES  ARE  N O T  SCALED  O R  OFFSET
+
+ANY  DIRECTIONAL VALUES  ARE  GIVEN WITH  RESPECT  TO  A  LOCAL  AXIS  SET IN PREFERENCE  TO  OTHERS.  THE  LETTER  L  IS  PRINTED  AFTER  E A C H  LINE  O F OUTPUT  W H E R E  T H E  DIRECTIONAL  STRESSES  A R E  WITH  R E S P E C T  TO A LOCAL AXIS  SET.
+
+THERE IS  N O  SORTING  U N D E R THIS  O R D E R
+
+ALL DIRECTIONAL STRAINS  U N D E R THIS  O R D E R  A R E  ENGINEERING  STRAINS
+
+1
+
+PAFEC  PAGE
+
+559
+
+PAFEC  PAGE
+
+566
+
+*
+
+*
+
+<!-- image -->
+
+Table
+
+********************
+
+<!-- image -->
+
+Table
+
+| LOAD CASE                      | NODE NO.                       | SIG MISES                      | SIG XX                         | SIG SIG YY                     | TAU                            | TAU YZ                         | TAU ZX                         |
+|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
+| 1                              |                                |                                |                                | zz                             | XY                             |                                |                                |
+| 339 1 341                      | 2.6606E+05 5.0094E+05          | -1.6222E+05 -1.1222E+05        | -4.2664E+05 -6.5369E+05        | -1.5899E+05 -2.0680E+05        | -1.5192E+03 -2.4009E+03        | 2.1162E+00 -3.5316E+00         | -1.8503E-01 1.3599E+00         |
+| 1 343                          | 4.9130E+05                     | -2.7818E+05                    | -7.7216E+05                    | -2.8359E+05                    | 3.8649E+00                     | 3.8226E+00                     | -4.3954E+00                    |
+| 1                              | 4.9130E+05                     | -2.7818E+05                    | -7.7216E+05                    | -2.8359E+05                    | 3.8649E+00                     | 3.8226E+00                     | -4.3954E+00                    |
+| 345 1 347                      | 5.0094E+05                     | -1.1222E+05                    | -6.5369E+05                    | -2.0680E+05                    | 2.4093E+03                     | 3.4718E+00                     | -4.5236E+00                    |
+| 1 349                          | 2.6606E+05                     | -1.6222E+05                    | -4.2664E+05                    | -1.5899E+05                    | 1.5235E+03                     | 2.0627E+00                     | -1.9827E+00                    |
+| 1 351                          | 1.2110E+05                     | -2.2912E+05                    | -2.7162E+05                    | -1.3520E+05                    | 3.9036E+03                     | -1.0309E+00                    | -1.9292E+00                    |
+| 1 353                          | 1.5051E+05                     | -2.5859E+05                    | -1.1610E+05                    | -1.0117E+05                    | -3.5912E+02                    | 1.6945E+00                     | -1.7457E+00                    |
+| 1 355                          | 1.6762E+05                     | -2.3990E+05                    | -6.3994E+04                    | -8.2050E+04                    | -1.2015E+03                    | 1.1295E+00                     | -1.2700E+00                    |
+| 1 357                          | 0.0000E+00                     | 0.0000E+00                     | 0.0000E+00                     | 0.0000E+00                     | O.OOOOE+00                     | 0.0000E+00                     | 0.0000E+00                     |
+| 1 358                          | O.OOOOE+00                     | 0.0000E+00                     | 0.0000E+00                     | 0.0000E+00                     | O.OOOOE+00                     |                                | O.OOOOE+00                     |
+| 359                            | O.OOOOE+00                     | 0.0000E+00                     | O.OOOOE+00                     | O.OOOOE+00                     | 0.0000E+00                     | 0.0000E+00 O.OOOOE+00          | O.OOOOE+00                     |
+| 1 MAJORITY OF STRESSES OMITTED | 1 MAJORITY OF STRESSES OMITTED | 1 MAJORITY OF STRESSES OMITTED | 1 MAJORITY OF STRESSES OMITTED | 1 MAJORITY OF STRESSES OMITTED | 1 MAJORITY OF STRESSES OMITTED | 1 MAJORITY OF STRESSES OMITTED | 1 MAJORITY OF STRESSES OMITTED |
+| 1                              |                                | 0.0000E+00                     |                                |                                | 0.0000E+00                     | O.OOOOE+00                     | 0.OOOOE+00                     |
+| 580 581                        | 0.0000E+00 O.0O00E+00          | O.OOOOE+00                     | 0.0000E+00 O.OOOOE+00          | 0.OOOOE+00 O.OOOOE+00          | 0.OOOOE+00                     | O.OOOOE+00                     | 0.0000E+00                     |
+| 1 1 582                        | 0.0000E+00                     | 0.0000E+00                     | O.OOOOE+00                     | 0.0000E+00                     | 0.0000E+00                     | O.OOOOE+00                     | 0.000OE+0O                     |
+| 1 583                          | 0.0000E+00                     | 0.0000E+00                     | 0.0000E+00                     | O.OOOOE+00                     | 0.OOOOE+00                     | O.OOOOE+00                     | 0.OOOOE+00                     |
+| 1 584                          |                                |                                |                                |                                |                                |                                | 0.0000E+00                     |
+|                                | 0.0000E+00                     | O.OOOOE+00                     | .OOOOE+00                      | 0.OOOOE+00                     | 0000E+00                       | 0.OOOOE+00                     |                                |
+| 1 585                          | O.0O00E+00                     | O.OOOOE+00                     | .0000E+00                      | 0.OOOOE+00                     | OOOOE+00                       | O.0000E+0O                     | 0.0000E+00                     |
+| 1 586                          | O.OOOOE+00                     | O.OOOOE+00                     | .0000E+00                      | 0.0000E+00                     | OOOOE+00                       | O.OOOOE+00                     | 0.0000E+00                     |
+| 1 587                          | 0.0000E+00                     | 0.0000E+00                     | .0000E+00                      | 0.0OO0E+00                     | OOOOE+00                       | 0.0000E+00                     | .0000E+00                      |
+| 1 588                          | 0.0000E+00                     | 0.0000E+00                     | .0000E+00                      | 0.0000E+00                     | 0.O00OE+00                     | 0.0000E+00                     | .0000E+00                      |
+| 1 589                          | O.OOOOE+00                     | 0.0000E+00                     | .0000E+00                      | 0.0000E+00                     | 0.0000E+00                     | .0000E+00                      | .0000E+00L                     |
+| 1 589                          | 1.4404E+05                     | 1.6147E+05                     | .2570E+03                      | 2.7308E+04                     | 1.9521E+01                     | .7312E+02                      | .738BE+01L                     |
+| 1 590                          | O.OOOOE+00                     | 0.0000E+00                     | 0.0000E+00                     | 0.0000E+00                     | 0.0000E+00                     | .OOOOE+00                      | .0000E+00L                     |
+| 1 590                          | 1.3449E+05                     | 1.5095E+05                     | 9.0388E+03                     | 2.5602E+04                     | 2.8567E+03                     | .7090E+02                      | .4513E+01L                     |
+| 1 591                          | 0.0000E+00                     | 0.0000E+00                     | 0.0000E+00                     | 0.OOOOE+00                     | 0.0000E+00                     | .0000E+00                      | 0.0000E+00L                    |
+| 1 591                          | 1.1583E+05                     | 1.2622E+05                     | 3.2140E+03                     | 2.0724E+04                     | 6650E+03                       | -8.2146E+01 0.0O00E+OO         | 1.8720E+00L                    |
+| 1 592                          | O.OOOOE+00                     | O.OOOOE+00                     | 0.0000E+00                     | 0.0000E+00                     | OOOOE+00                       | -1.9264E+02                    | 0.0000E+00L                    |
+| 1 592                          | 3.8912E+04                     | 4.0938E+04                     | .2131E+03                      | 7.7024E+03                     | 1445E+04                       |                                | -2.7313E+01L                   |
+| 1 593                          | O.OOOOE+00                     | O.OOOOE+00                     | .0O0OE+00                      | 0.0000E+00                     | 0000E+00                       | 0.0O00E+0O                     | 0.00OOE+O0L                    |
+| 1 593                          | 8.7753E+04                     | -8.9090E+04                    | .3502E+03                      | -1.5288E+04                    | 2467E+04                       | -1.5702E+02                    | 1.2240E+01L                    |
+| 1 594                          | 0.0000E+00                     | 0.0000E+00                     | .OO00E+00                      | .O0O0E+00                      | OOOOE+00 6874E+04              | 0.0000E+00 7.7834E+01          | 0.0000E+00L                    |
+| 1 594                          | 1.4672E+05                     | -1.5509E+05                    | .6622E+03                      | .6047E+04                      | 0.0000E+00                     | 0.0000E+00                     | -1.4477E+02L                   |
+| 1 595                          | 0.0000E+00                     | O.OOOOE+00                     | 0.0000E+00                     | .0000E+00 .8055E+04            | 3.5914E+04                     | 5.3537E+02                     | 0.0000E+00L                    |
+|                                |                                |                                | •1.5774E+04                    |                                |                                |                                | -2.2445E+02L                   |
+| 1 595                          | 2.0576E+05                     | -2.2209E+05                    |                                |                                |                                |                                |                                |
+| MAJORITY OF STRESSES OMITTED   | MAJORITY OF STRESSES OMITTED   | MAJORITY OF STRESSES OMITTED   | MAJORITY OF STRESSES OMITTED   | MAJORITY OF STRESSES OMITTED   | MAJORITY OF STRESSES OMITTED   | MAJORITY OF STRESSES OMITTED   | MAJORITY OF STRESSES OMITTED   |
+| 1 2310                         | 6339E+05                       | -2.2165E+05                    | -4.7475E+04                    | -7.2665E+04                    | -6.0565E+03                    | 8.6914E-01                     | 1.3086E+00                     |
+| 1 2311                         | 6339E+05                       | -2.2165E+05                    | -4.7475E+04                    | -7.2665E+04                    | -6.0566E+03                    | -1.5961E-01                    | 1.2889E+00                     |
+| 1 2312                         | 5962E+05                       | -2.4236E+05                    | -7.9009E+04                    | -8.6769E+04                    | -1.2663E+03                    | .2815E+00                      | 1.3668E+00                     |
+| 1 2313                         | 6762E+05                       | -2.3990E+05                    | -6.3994E+04                    | -8.2050E+04                    | -1.2015E+03                    | .1295E+00                      | 1.2700E+00                     |
+| 1 2314                         | 5962E+05                       | -2.4236E+05                    | -7.9009E+04                    | -8.6769E+04                    | -1.2661E+03                    | .2819E+00                      | 1.2553E+00                     |
+| 1 2315                         | 6612E+05                       | -2.3596E+05                    | -6.1115E+04                    | -8.0209E+04                    | -5.1025E+02 -5.1018E+02        | .1002E+00                      | 1.2439E+00                     |
+| 1 2316                         | 6612E+05                       | -2.3596E+05 O.O OOO E+OO       | -6.1115E+04 O.OOOOE+00         | -8.0209E+04 O. OO OO E+ OO     | O.O OOO E+OO                   | .1001E+00                      | 1.2811E+00                     |
+| 1 2317                         | 0000E+00                       | 0.OOOOE+00                     |                                |                                |                                | O.OOOOE+00                     | O.OOOOE+00                     |
+| 1 2318                         | OOOOE+00                       |                                | O.OOOOE+00                     | O.OOOOE+00                     | O.OOOOE+00 O.OOOOE+00          | O.O OOO E+OO                   | O.OOOOE+00                     |
+| 1 2319                         | OOOOE+00                       | .OOOOE+00                      | 0.0000E+00                     | O. OO OO E+ OO                 |                                | O.OOOOE+00                     | O.OOOOE+00                     |
+| 1 2320                         | OOOOE+00                       | .O OO OE +OO                   | O.OOOOE+00                     | O.OOOOE+00                     | O.OOOOE+00                     | O.O OOO E+OO                   | O.OOOOE+00                     |
+| 1 2321                         | OOOOE+00                       | .OOOOE+00                      | 0.0000E+00                     | O. OO OO E+ OO                 | O.O OOO E+OO                   | O.OOOOE+00                     | O.OOOOE+00                     |
+| 1 2322                         | OOOOE+00                       | .0000E+00                      | 0.0000E+00                     | O.OOOOE+00                     | .OOOOE+00                      | O.O OOO E+OO                   | O.OOOOE+00                     |
+| 1 2775                         | OOOOE+00                       | .0000E+00                      | 0.0000E+00                     | O.OOOOE+00                     | .OOOOE+00                      | O.OOOOE+00                     | O.OOOOE+00                     |
+| 1 2776                         | OOOOE+00                       | .O OO OE +OO                   | O. OO OO E+ OO                 | O.OOOOE+00                     | .OOOOE+00                      | O.O OOO E+OO                   | O.OOOOE+00                     |
+|                                | OOOOE+00                       | .OOOOE+00                      | O.OOOOE+00                     | O.OOOOE+00                     | .OOOOE+00                      | O.OOOOE+00                     | O.OOOOE+00                     |
+| 1 2777 1 2778                  | OOOOE+00                       | .OOOOE+00                      | O. OO OO E+ OO                 | O.OOOOE+00                     | .OOOOE+00                      | O.OOOOE+00                     | O.O OOO E+OO                   |
+| 1 2779                         | OOOOE+00                       | .OOOOE+00                      | O.OOOOE+00                     | O.OOOOE+00                     | .OOOOE+00                      | O.OOOOE+00                     | O.OOOOE+00                     |
+| 1 2780                         | 0000E+00                       | .OOOOE+00                      | O.OOOOE+00                     | O. OO OO E+ OO                 | .OOOOE+00                      | O.OOOOE+00                     | O.O OOO E+OO                   |
+| 1 2781                         | 0000E+00                       | O.OOOOE+00                     | O.OOOOE+00                     | O.OOOOE+00                     | .OOOOE+00                      | O.OOOOE+00                     | O.OOOOE+00 O.O OOO E+OO        |
+| 1 2782                         | OOOOE+00                       | O.OOOOE+00                     | O.O OOO E+OO                   | O. OO OO E+ OO                 |                                | O.OOOOE+00                     |                                |
+| 1 2783                         | OOOOE+00                       | O.OOOOE+00                     | O.OOOOE+00                     | O.OOOOE+00                     | .OOOOE+00 O.O OOO E+OO         | O.OOOOE+00                     | O.OOOOE+00                     |
+| 1 2784                         | 0000E+00                       | O.OOOOE+00                     | O.OOOOE+00                     | O.OOOOE+00                     | O.OOOOE+00                     | O.OOOOE+00                     | O.O OOO E+OO                   |
+| 1 PAFEC PAGE                   |                                | 613                            |                                |                                |                                |                                |                                |
+
+| EEEEEEEE     | N        | NN       | DDDDDD         | DDDDDD         |
+|--------------|----------|----------|----------------|----------------|
+| EE           | NN       | NN       | DDDDDDD        | DDDDDDD        |
+| EE           | NNN      | NN       | DD             | DDD            |
+| EE           | NNNN     | NN       | DD             | DD             |
+| EE           | NNNNN    | NN       | DD             | DD             |
+| EEEEEE       | NNNNNNNN | NNNNNNNN | DD             | DD             |
+| EEE          | NN       | NNNNN    | DD             | DD             |
+| EEE          | NN       | NNNN     | DD             | DD             |
+| EEE          | NN       | NNN      | DD             | DDD            |
+| EEE EEEEEEEE | NN NN    | NN N     | DDDDDDD DDDDDD | DDDDDDD DDDDDD |
+
+| ppppppp         | ppppppp         | RRRRRRR         | RRRRRRR         | 0000      | 0000   | c c c c   | c c c c   | EEEEEEEE   | SSSS   | SSSS   | SSSS   | SSSS   | m i m i   | N        | NN       | GGGG   | GGGG   |
+|-----------------|-----------------|-----------------|-----------------|-----------|--------|-----------|-----------|------------|--------|--------|--------|--------|-----------|----------|----------|--------|--------|
+| pp              | pp              | RR              | RR 000000       | RR 000000 | cc     | cc        | EE        | SS         | SS     | SS     |        | SS     |           | NN       | NN       | GG     | GG     |
+| pp              | pp              | RR              | RR 000          | 000       | cc     | cc        | EE        | SS         | SS     | SS     |        | SS     |           | NNN      | NN       | GG     | GG     |
+| pp              | pp              | RR              | RR 00           | 00        | c c    |           | EE        | SS         |        |        | SS     |        |           | NNNN     | NN       | GG     |        |
+| pp              | pp              | RR              | RR 00           | 00        | c c    |           | EE        | SS         |        |        | SS     |        |           | NNNNN    | NN       | GG     |        |
+| ppppppp RRRRRRR | ppppppp RRRRRRR | ppppppp RRRRRRR | ppppppp RRRRRRR | 00        | 00 c   | c         | EEEEEE    | SSSS       |        | SSSS   | SSSS   |        |           | NNNNNNNN | NNNNNNNN | GG     |        |
+| pp RRRRR        | pp RRRRR        | pp RRRRR        | pp RRRRR        | 00        | 00     | c c       | EEE       |            | SS     | SS     | SS     |        |           | NN NNNNN | NN NNNNN | GG     | GGG    |
+| pp RR RR        | pp RR RR        | pp RR RR        | pp RR RR        | 00        | 00     | c c       | EEE       |            | SS     |        |        | SS     |           | NN       | NNNN     | GG     | GG     |
+| pp RR RR        | pp RR RR        | pp RR RR        | pp RR RR        | 000       | 000    | c c       | cc        | EEE SS     |        | SS     | SS     | SS     |           | NN       | NNN      | GG     | GG     |
+| pp RR RR        | pp RR RR        | pp RR RR        | pp RR RR        | 000000    | 000000 | c c       | c c       | EEE        | SS     | SS     | SS     | SS     |           | NN       | NN       | GG     | GG     |
+| pp RR RR        | pp RR RR        | pp RR RR        | pp RR RR        | 0000      | 0000   | c c c c   | c c c c   | EEEEEEEE   | SSSS   | SSSS   | SSSS   | SSSS   | m i m i   | NN       | N        | GGGG   |        |
+
+```
+EEEEEEEE N NN DDDDDD EE NN NN DDDDDDD EE NNN NN DD DDD EE NNNN NN DD DD EE NNNNN  NN DD DD EEEEEE NNNNNNNN DD DD EEE NN  NNNNN DD DD EEE NN NNNN DD DD EEE NN NNN DD DDD EEE NN NN DDDDDDD EEEEEEEE NN N DDDDDD 0000 FFF 000000 FFF 000 000 FFt 00 00 FFF 00 00 FFF 00 00 FFF 00 00 FF 00 00 FF 000 000 FF 000000 FF 0000 FF FFFFF FFF ppppppp RRRRRRR 0000 c c c c EEEEEEEE SSSS SSSS m i m i N NN GGGG pp pp RR RR 000000 cc cc EE SS SS SS SS NN NN GG GG pp pp RR RR 000 000 cc cc EE SS SS SS SS NNN NN GG pp pp RR RR 00 00 c c EE SS SS NNNN NN GG pp pp RR RR 00 00 c c EE SS SS NNNNN  NN GG ppppppp RRRRRRR 00 00 c c EEEEEE SSSS SSSS NNNNNNNN GG pp RRRRR 00 00 c c EEE SS SS NN  NNNNN GG pp RR RR 00 00 c c EEE SS SS NN NNNN GG pp RR RR 000 000 c c cc EEE SS SS SS SS NN NNN GG pp RR RR 000000 c c c c EEE SS SS SS SS NN NN GG GG pp RR RR 0000 c c c c EEEEEEEE SSSS SSSS m i m i NN N GGGG
+```
+
+## APPENDIX C
+
+## STRUCTURE OF PRE-PROCESSING PROGRAM
+
+## C I Compilation Script (makefile)
+
+```
+#  compiles t u n n e l program # CFLAGS= - 0 . KEEP_STATE: a l l : t u b  g e t i n  dispget avstrget unstrget stressget f i n d d i m i n d i s t r e s s gddisp  gdstress r e v f o r c e 2 t u b : t s u b 2 d 1 . o  preprob.o  nodecob2.o  toplgyb.o  subdiv.o wrtout3.o supports.o f 7 7 - o  t u b  t s u b 2 d 1 . o  preprob.o  nodecob2.o  toplgyb.o  subdiv.o wrtout3.o supports.o l i g h t g e n : l i g h t g e n . o u n i l i n k l i g h t g e n . o i n d i s t r e s s : i n d i s t r e s s . o u n i l i n k i n d i s t r e s s . o c l e a n : rm  * . o
+```
+
+## C.2  Input File
+
+The input file completely defines the problem to be solved in simple and  short form as shown in Table 5.1.  All distances are given in metres.
+
+## C.3  Structure of Pre-Processing Program
+
+The  following  section  provides  some  details  of  the  FORTRAN programs written to pre-process data for the simulations.  The filename and a brief description of each  are  given. These  are  programs,  written  for a  PAFEC-FE  input  data  file  and stored it  in  a  suitable format. The first  program i tsub2dV contains the  main subroutines,  namely DATAIN,  NODECO,  TOPLGY, SUBDIV,  SUPPORTS,  WRTOUT. DATAIN concerns tunnel data, tunnel supports data, excavation  data, symmetry  data, dimension of model (two or three) and the number  of subdivisions (NZ) determined by the  element  resolution number. The last  five  concern  pre-processing  the  tunnel data, calculation  of  the  nodel  co-ordinates for  the  tunnel  geometry,  pafblock  topology, pafblock subdivision for maximum element  size and aspect ratio, support  systems and finally  the  written  output  for  two-  and  three-dimensional models. The  following programs  and  their  subroutines  use  the  input to  the  model  in  order  to  generate  the tunnel model referred to and pictured throughout this report.
+
+## C.4  Tunnel Data In-Main Routine
+
+```
+Q * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * C PROGRAM  TO  FIND  NEW  COORDINATES  OF  TUNNEL  AND  FE-PAFBLOCK  DESIGN C FILENAHE=tsub2d1.f Q * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * C ======================================================================= C  MAIN  ROUTINES  FOR  CREATING  FE-PAFBLOCK  DESIGN CALL  DATAIN CALL  PREPRO CALL  NODECO CALL  TOPLGY CALL  SUBDIV CALL  WRTOUT STOP END C ======================================================================= C  SUBROUTINE  DATAIN C ======================================================================= SUBROUTINE  DATAIN CALL  TUNNAK CALL  TUNNIN CALL  ROCKIN CALL  SUPPIN CALL  EXCVIN CALL  RESNIN RETURN END C ====================================================================== C  SUBROUTINE  TUNNAK  FOR  READING  THE  TUNNEL  NAME  AND  KM  IN C ====================================================================== SUBROUTINE  TUNNAK IMPLICIT  DOUBLE  PRECISION ( A - H , 0 - Z ) CHARACTER*10  TNAME,TKM COMMON  / CTUNNA  / TNAME,  TKM WRITE(6,*)'INPUT  TUNNEL  NAME  =  ',TNAME READ*,TNAME WRITE(6,*)'INPUT  KM =',TKM READ'(A5)',TKM RETURN END C ====================================================================== C  SUBROUTINE  TUNNIN FOR  READING  THE  TUNNEL  DATA IN C ====================================================================== SUBROUTINE  TUNNIN IMPLICIT  DOUBLE  PRECISION (A-H.O-Z) COMMON  / CTUNIN  / H, HOVER,  HUNDER WRITE(6,*) 1 INPUT  CLEAR  HEIGHT  OF  TUNNEL  IN  METRES,  HCLEAR=' READ*,H WRITE(6,*) 1 INPUT  HEIGHT  OF  OVERBURDEN  IN  METRES,HOVER='
+```
+
+READ*,HOVER
+
+```
+WRITE(6,*)'INPUT  HEIGHT  UNDER  TUNNEL  IN  METERS,  HUNDER=' READ*,HUNDER RETURN END C =================================================================== C  SUBROUTINE  ROCKIN  FOR  READING  THE  ROCK  STARA  DATA  IN C =================================================================== SUBROUTINE  ROCKIN IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CTUNIN  / H, HOVER,  HUNDER COMMON  / CROKIN  / NLAY,  HINLAY(20),  MLAY(20), HLAYC20) C  INPUT  NUMBER  OF  ROCK  LAYER  (STRATA),  NLAY WRITE(6,*)'INPUT  NUMBER  OF  ROCK  LAYERS,  NLAY=' READ*,NLAY DO  10  ILAY=1,NLAY C  INPUT  HEIGHT  OF  LAYERS  FROM  GROUND  SURFACE  IN  METRES WRITE(6,*) &'INPUT  HEIGHT  OF  LAYERS  FROM  GROUND  SURFACE  IN  METRES,  HINLAY=' READ*,HIN LAY(I LAY) C  INPUT  MATERIAL  PROPERTIES  OF  EACH  LAYER WRITE(6,*) 1 INPUT  MATERIAL  PROPERTIES  OF  LAYER,  MLAY= 1 READ*,MLAY(ILAY) C  ARRAY  OF  LAYERS  HEIGTHS  RELATIVE  TO  TUNNEL  ORIGIN HLAY(ILAY)=H+HOVER-HINLAY(I LAY) 10 CONTINUE WRITE(6,*)'INPUT  MATERIAL  PROPERTY  OF  REST  OF  GROUND 1 READ*,MLAY(NLAY+1) RETURN END C =================================================================== C  SUBROUTINE  SUPPIN  FOR  READING  TUNNEL  SUPPORT  DATA  IN SUBROUTINE  SUPPIN IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CSUPIN  / SAM1N,  SAMAJ,  HANCH(2),  DANCH(2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MPARCH,MANCH,MPANCH C  INPUT  STEEL  ARCH  MINOR  AND  MAJOR  UIDTH WRITE(6,*)'MIN0R  (1/2) UIDTH  OF  STEEL  ARCH  = ?' READ*,SAMIN URITE(6,*)'MAJOR  (1/2) UIDTH  OF  STEEL  ARCH  = ?' READ*,SAMAJ URITE(6,*)'2nd  MAJOR  (1/2) WIDTH  OF  STEEL  ARCH  = ?' READ*,SAMAJ2 C  IS  A  STEEL  ARCH  PRESENT  ? WRITE(6,*)'IS  A  STEEL  ARCH  PRESENT  ? 0) NO, 1) YES 1 READ*,MARCH
+```
+
+- C  WHAT  IS  THE  MATERIAL  PROPERTY  OF  THE  STEEL  ARCH  USED  ?
+
+```
+WRITE(6,*)'WHAT IS  THE  MATERIAL  PROPERTY  OF  THE  STEEL  ARCH  USED  ?' READ*,MPARCH C  INPUT  HEIGHT,LENGHT,RAD IUS  AND  ANGLE  OF  ANCHORAGES URITE(6,*)'HEIGHT  OF ANCHORAGES  1  AND  2= ?' READ*,HANCH WRITE<6,*>'LENGHT  OF  ANCHORAGES  1  AND  2= ?' READ*,DANCH WRITE(6,*)'RADIUS  OF  ANCHORAGES  =  ?' READ*.RANCH C  SQUARE  APPROXIMATION  OF  CIRCULAR  CROSS  SECTION  ANCHORAGE  WITH C  SAME  CROSS  SECTIONAL  AREA C  LENGTH  OF  ( 1 / 2 ) RANDOM  SQUARE  (SANCH) SANCH=SQRT(2D0*DACOS< 0D0))*RANCH/2D0 URITE(6,*)'ANGLE  OF  ANCHORAGES  1  AND  2=  ?' READ*,AANCH C  ARE  ANCHORAGES  PRESENT ? WRITE(6,*)'ARE  ANCHORAGES  PRESENT ? 0) NO, 1) YES' READ*,MANCH C  WHAT  IS  THE  MATERIAL  PROPERTY  OF  THE  ANCHORAGES  USED  ? WRITE(6,*)'UHAT IS  THE  MATERIAL  PROPERTY  OF  THE  ANGHORAGES  USED  ?' READ*,MPANCH C  ASSING  LENGHT  OF  ( 1 / 2 ) PERIOD ; WRITE(6,*)'LENGTH  OF  (1/2) PERIOD  = ?' READ*,PERIOD RETURN END C ====================================================================== C  SUBROUTINE  EXCVIN  FOR  READING  TUNNEL  EXCAVATION  DATA IN C ====================================================================== SUBROUTINE  EXCVIN IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CEXCIN  / NEXCVT,MEXCVT(0:9),MSHOT(0:9),KSHOT,HSHOT, & MINNER.KINNER.HINNER " CHARACTER*2  ZEXCVT(9) DATA  ZEXCVT/'1 ' , ' 2 A ' , ' 2 B ' , ' 3 A ' , ' 3 B ' , ' 4 ' , ' 5 A ' , ' 5 B ' , ' 6 ' / C  TYPE  OF  EXCAVATIONS  FOR  ROCK  TYPES  A,B  AND  C C  WHICH  REGIONS  HAVE  BEEN  EXCAVATED,  REGIONS  NUMBER  ? C  REGION  NUMBERS  FOR  ROCK  TYPES  A  AND  B C  1 , 2a, 2b, 3a, 3b, 4 C  REGION  NUMBERS  FOR  ROCK  TYPE  C C  1 , 2a, 2b, 3a, 3b, 4, 5a, 5b, 6 URITE(6,*)'INPUT  WHAT  ROCK  TYPE  OF  EXCAVATION  ?, 0)A,B  OR D C READ*,NEXCVT IF(NEXCVT.EQ.I)  THEN JEXCVT=9 ELSE JEXCVT=6 END IF C  MEXCVT(0)=1 FOR  PAFBLOCKS  OUTSIDE  THE  EXCAVATION  REGIONS
+```
+
+MEXCVT(0)=1
+
+MSHOT(O)  =1
+
+C  FOR  EACH  REGION  MEXCVT(O) INDICATES  IF  EXCAVATED MEXCVTO)  IF  NOT WRITE(6,*)'F0R  EACH  REGION  INDICATE  0) IF EXCAVATED  OR  1) IF URITE(6,*)'AND'
+
+NOT' WRITE(6,*)'IS  THERE  AN  OUTER  (SHOTCRETE)  LINING?  0) NO, 1) YES 1 DO  45 IEXCVT=1,JEXCVT URITE(6,*)'REGI0N: ZEXCVT(IEXCVT) READ*,MEXCVT(IEXCVT),MSHOT(IEXCVT) 45 CONTINUE C  IS  THERE  AN  OUTER  (SHOTCRETE)  LINING  ? URITE(6,*)'WHAT IS  THE  MATERIAL  PROPERTY  OF  THE  SHOTCRETE  USED  ?' READ*,KSHOT URITE&lt;6,*)'UHAT IS  THE  THICKNESS  OF  THE  SHOTCRETE  USED  ?' READ*,HSHOT C  IS  THERE  AN  INNER  LINING  ? URITE(6,*)'IS  THERE  AN  INNER  LINING  ? 0) NO, 1) YES 1 READ*,HINNER WRITE(6,*)'WHAT IS  THE  MATERIAL  PROPETY  OF  THE  INNER  LINING ?' READ*,KINNER URITE(6,*)'WHAT IS  THE  THICKNESS  OF  THE  INNER  LINNING ?' READ*,HINNER RETURN END C ====================================================================== C  SUBROUTINE  RESNIN  FOR  READING RESOLUTION  OF  THE  MESH C ====================================================================== SUBROUTINE  RESNIN IMPLICIT  DOUBLE  PRECISION (A-H.O-Z) COMMON  / CRESNI  / NZ,  ZSIZE, RATIO COMMON  / CFLAG / MSYM,  MDIM RATIO=14.9D0 C NZ IS  NUMBER  OF  SUBDIVISION  MADE  OF  THE  MINIMUM  PAFBLOCK URITE(6,*)'INPUT  RESOLUTION  = , NZ  ? 1 READ*,NZ C  SYMMETRIC  MODEL WRITE(6,*)'SYMMETRICAL  MODEL  ?  0) NO  or 1) YES' READ*,MSYM C  NUMBER  OF  DIMENSIONS URITE(6,*)'NUMBER  OF  DIMENSIONS  ?  (2  OR  3 ) ' READ*,MDIM RETURN END
+
+## C.4.1  Pre-Processing the Tunnel Data-Subroutine PREPRO
+
+```
+Q*******************ft**************************************************** C PROGRAM  TO FIND  N E W COORDINATES  OF 2D-TUNNEL  AND FE-PAFBLOCK  DESIGN C FILENAME=prepro.f Q * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * » * * * * * * * * * * * * * * * * * * * * * * c  ======================================================================= C  SUBROUTINE  PREPRO  FOR PRE-PROCESSING  THE TUNNEL  DATA C ======================================================================= SUBROUTINE  PREPRO CALL  ARBPR3 CALL  ANGPRE CALL  CENPRE CALL  HFXPRE CALL  ANCPRE CALL  ROKPRE CALL  SHLPRB CALL  ZSZPRB CALL  KEYPRE CALL  INXPRE RETURN END C  =======================================================================: C  SUBROUTINE  ARBPRE3  SET ARBITARY  SMALL  DISTANCE  FOR BOUNDARIES C  =======================================================================: SUBROUTINE  ARBPR3 IMPLICIT  DOUBLE  PRECISION <A-H,0-Z) COMMON / CARB  / ARB2 COMMON / CEXCIN  / NEXCVT,MEXCVT(0:9),MSHOT(0:9) f KSHOT,HSHOT, & MINNER,KINNER,HINNER ARB2  =  HSHOT RETURN END C =======================================================================: C  SUBROUTINE  ANGPRE  FOR SETTING  ANGLES  OF TUNNEL  GEOMETRY C  =======================================================================: SUBROUTINE  ANGPRE IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON / CANGLE  / DRAD,  BETA(22) DRAD=DACOS(0D0)/90D0 BETA(1)=(37D0/4D0)*DRAD BETA(2)=(37D0/2D0)*DRAD BETA(3)=(37D0*(3D0/4D0))*DRAD BETA(4)=37D0*DRAD BETA(5)=37D0*DRAD+(13D0/2D0)*DRAD BETA(6)=37D0*DRAD+13D0*DRAD BETA(7)=(50D0+(47D0-13D0)/2D0)*DRAD BETA(8)=37D0*DRAD+47D0*DRAD BETA(9)=37D0*DRAD+47D0*DRAD+(25D0/2D0)*DRAD BETAC10)=37D0*DRAD+47D0*DRAD+25D0*DRAD BETA(11)=37D0*DRAD+47D0*DRAD+25D0*DRAD+(60D0/4D0)*DRAD BETA(12)=37D0*DRAD+47D0*DRAD+25D0*DRAD+(60D0/2D0)*DRAD BETA(13)=37D0*DRAD+47D0*DRAD+25D0*DRAD+(60D0*(3D0/4D0))*DRAD BETA(14)=37D0*DRAD+47D0*DRAD+25D0*DRAD+60D0*DRAD
+```
+
+```
+BETA(15)=37DO*DRAD+47DO*DRAD+25DO*DRAD+60DO*DRAD+(11DO/2DO)*DRAD BETA(16)=180D0*DRAD BETA(20)=90D0*DRAD-37D0*DRAD BETA(21)=41D0*DRAD BETA{22)=11D0*DRAD RETURN END C =========================================================================== C  SUBROUTINE  CENPRE  FOR  PRE-PROCESSING  AND  SETTING  CENTRES  OF  TUNNEL  GEOMETRY C =========================================================================== SUBROUTINE  CENPRE IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CTUNIN  / H, HOVER,  HUNDER COMMON  / CCENPR  / XC(10), YC(10) COMMON  / CANGLE  / DRAD,  BETA(22) XC(1)=0D0 YC(1)=0D0 XC(2)=XC(1)+<H*(2D0/7.9D0))*DSIN(BETA<4)) YC(2)=YC(1)+(H*(2D0/7.9D0))*DCOS(BETA(4)) XC(3)=XC(2)-(H*(1.9D0/7.9D0))*DSIN(BETA(8)) YC(3)=YC(2)-(H*(1.9D0/7.9D0))*DCOS(BETA(8)) XC(4)=XC(3)+(H*(6.85D0/7.9D0))*DSIN(BETA(10)) YC(4)=YC(3)+(H*(6.85D0/7.9D0))*DCOS(BETA(10)) XC(5)=XC(4)-<H*((31.2989D0-0.95D0)/7.9D0))*DSIN(BETA(14)) YC(5)=YC(4)-(H*((31.2989D0-0.95D0)/7.9D0))*DCOS(BETA(14)) DO  10 1=1,5 XC(5+I) = - XC(I) YC(5+I) = YC(I) 10 CONTINUE RETURN END C ======================================================================= C  SUBROUTINE  HFXPRE  FOR  PRE-PROCESSING  AND  SETTING  FIXED  HEIGHTS  OF C  REJHONWPAFBLOCK  BOUNDARIES). C"==============^======================================================= SUBROUTINE  HFXPRE IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CTUNIN  / H, HOVER,  HUNDER COMMON  / CCENPR  / XC<10), YC(10) COMMON  / CHFXPR  / HFX<17) COMMON  / CANGLE  / DRAD,  BETAC22) C  HFX(7),HFX(8),HFX(13),HFX(14)  AND  HFX(15)  ARE  FIXED  HEIGTHS  OF  TUNNEL C  HFX(7) IS  EQUAL  HEIGTH  OF  NODE  NUMBER  17, Y(17) HFX(7)=YC(2)+H*(5.9D0/7.9D0)*DCOS(BETA(6)) C  HFX(8) IS  EQUAL  HEIGTH  OF  NODE  NUMBER  19, Y(19+2*NMIDA) HFX(8)=YC(2)+H*(5.9D0/7.9D0)*DCOS(BETA<8)) C  HFX(13) IS  EQUAL  HEIGTH  OF  NODE  NUMBER  2 1 ,  Y(21+NMIDA+NMIDC) HFX(13)=-0.5D0 C  HFX(15) IS  EQUAL  HEIGTH  OF  NODE  NUMBER  23, Y(23+NMIDA+NMIDC) HFX(15)=YC(4)+H*(0.95D0/7.9D0)*DCOS(BETA(10)) C  HFX(14> IS  EQUAL  HEIGTH  BETWEEN  HFX(13)  AND  HFX(15) HFX(14)=<HFX<13)+HFX(15>)/2D0 RETURN
+```
+
+```
+END c  ============================================================================== C  SUBROUTINE  ANCPRE  FOR  PRE-PROCESSING  AND  SETTING  FLEAXIABLE  HEIGHTS  OF  REGIONS C  (PAFBLOCK  BOUNDARIES)  AND  LAST  FLATTENED  SHELL  HEIGHT  FROM  ANCHOARAGES  POSITION C ============================================================================== SUBROUTINE  ANCPRE IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CTUNIN  / H, HOVER,  HUNDER COMMON  / CHFXPR  / HFX(17) COMMON  / CCENPR  / XC(10), YC(10) COMMON  / CSUPIN  / SAMIN,  SAMAJ,  HANCHC2),  DANCH(2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MPARCH,MANCH,MPANCH COMMON  / CANGLE  / DRAD,  BETA(22) COMMON  / CANCPR  / XA(9),YA(9) COMMON  / EXAM  / HL(17) C  FIND  BEGINNING  AND  END  POINTS  OF  THE  ANCHORAGES  USING  PYTHAGOROUS  THEOREM AANCH(1)=AANCH(1)*DRAD AANCH(2)=AANCH(2)*DRAD YA(1)=HANCH(1) XA(1)=XC(2)+SQRT((H*(5.9D0/7.9D0))**2-(YA(1)-YC(2))**2) XA(2)=XA(1)+DANCH(1)*DCOS(AANCH(1)) YA(2)=YA(1)+DANCH(1)*DSIN(AANCH(1)) YA(3)=HANCH(2) XA(3)=XC(3)+SQRT((H*(7.8D0/7.9D0))**2-(YC(3)-YA(3))**2) XA(4)=XA(3)+DANCH(2)*DCOS(AANCH(2)) YA(4)=YA(3)+DANCH(2)*DSIN(AANCH(2)) C  ASSIGN  FLEAXIBLE  HEIGHT  OF  PAFBLOCK BOUNDARIES C  FROM  THE  END  POINTS  THE  HEIGHTS  FOR  THE  ANCHORAGES  BOUNDARIES C H FX(3)=YA(2)+SANCH*DCOS(AANCH(1)) HFX(3)=YA(2) HFX(4)=YA(2) HFX(5)=YA(2) C HFX(5)=YA(2)-SANCH*DCOS(AANCH(1)) C HFX(9)=YA(4)+SANCH*DCOS(AANCH(2)) HFX(9) =YA(3) HFX(10)=YA(3) HFX(11)=YA(3) C HFX(11)=YA(4)-SANCH*DCOS(AANCH(2)> C C  HEIGHT  OF  THE  FLATTENED  SHELL  YA(5) ON  THE  TOP  OF  TUNNEL C  FROM  INTERSECTION  OF  TWO  STRAIGHT LINES ANG1=90DO*DRAD-BETA(4) XA(7)=XA(2)+(YA(2)-HFX(7))/DTAN(50D0*DRAD) YA(7)=HFX(7) XA(5)=-((XA(7)*YA(2)-YA(7)*XA(2))/(XA(7)-XA(2)))/ & ( ( ( Y A ( 7 ) - Y A ( 2 ) ) / ( X A ( 7 ) - X A ( 2 ) ) ) - D T A N ( A N G D ) YA(5)=DTAN(ANG1)*XA(5) C  HEIGHT  OF  THE  FLATTENED  SHELL  YA(6) ON  THE  BOTTOM OF  THE  TUNNEL C  TOP  REGION  FLATTENED  SHELL  HEIGHT IS  USED  BECAUSE  OF  SYMMETRY C  YA(8) BOTTOM  COORDITANE  OF  TUNNEL YA(8)=YC(5)-H*(31.2989D0/7.9D0) ANG2=49*DRAD YA(6)=YA(8)-(YA(5)-H) XA(6)=XC(4)+(YC(4)-YA(6))/DTAN(ANG2)
+```
+
+```
+C  SIGNIFICANT FLEXIBLE  HEIGHT  OF  REGIONS  ARE  HFX< 1-6,9-12,16-17) C  HEIGTH  OF  FIXED  REGIONS  ARE  HFX(7,8, 13-15) C  AND  REGION  BOUNDRIES  RELATIVE  TO  THE  TUNNEL  ORIGIN(C1(CX1,CY1)) C  0.005 M EXTENDED  REGION  TO  INCLUDE  ANY  LAYERS  FALLING  TOO  CLOSE C  TO  A  FIXED  PAFBLOCK  BOUNDARY. IN  ORDER  TO  ENSURE  NARROW C  PAFBLOCKS  ARE  NOT  CREATED. C  HFX(1) IS  EQUAL  LAST  FLATTENED  SHELL  HEIGHT HFX(1)=YA(5) C  HFX(2) IS  EQUAL  HEIGHT  BETWEEN  HFX(1)  AND  HFX(2) HFX(2)=(HFX(1)+HFX(3))/2D0 C  HFX(3) IS  ASSIGNED  ABOVE C  HFX(5) IS  ASSIGNED  ABOVE C  HFX(4) IS  ASSIGNED  ABOVE C  HFX(7) IS  FIXED  HEIGHT  OF  PAFBLOCK  BOUNDARY  CALCULATED  IN  SUBROUTINE  HFXPRE C  HFX(6) IS  EQUAL  HEIGHT  BETWEEN  HFX(5)  AND  HFX(7) HFX(6)=(HFX(5)+HFX(7))/2D0 C  HFX(8) IS  FIXED  HEIGHT  OF  PAFBLOCK  BOUNDARY  CALCULATED  IN  SUBROUTINE  HFXPRE C  HFX(9) IS  ASSIGNED  ABOVE C  HFX(10) IS  ASSIGNED  ABOVE C  HFX(11) IS  ASSIGNED  ABOVE C  HFX(13) IS  FIXED  HEIGHT  OF  PAFBLOCK  BOUNDARY  CALCULATED  IN  SUBROUTINE  HFXPRE C  HFX(12) IS  EQUAL  HEIGHT  BETWEEN  HFX(11)  AND  HFX(13) HFX(12)=(HFX(11)+HFX(13))/2D0 C  HFX(14) IS  FIXED  HEIGHT  OF  PAFBLOCK  BOUNDARY  CALCULATED  IN  SUBROUTINE  HFXPRE C  HFX(15) IS  FIXED  HEIGHT  OF  PAFBLOCK  BOUNDARY  CALCULATED  IN  SUBROUTINE  HFXPRE C  H17  IS  HEIGHT  OF  LAST  FLATTENED  SHELL  BELOW  THE  TUNNEL HFX(17)=YA(6) C  HFXC16) IS  EQUAL  HEIGHT  BETWEEN  HFX(15)  AND  HFX(17) HFX(16)=(HFX(15)+HFX(17))/2D0 c DO 100 1=1,17 c HL(I)=H+HOVER-HFX(I) c 100 WRITE(6,*)I,HL(I),HL(I) c WRITE(6,*)DATAN((YA(5)-YA(2))/(XA(2)-XA(5)))/DRAD c WRITE(6,*)DATAN((YA<6)-HFX(15))/(XA(4)-XA(6)))/DRAD RETURN END C ==================================================================================== C  SUBROUTINE  ROKPRE  FOR  PRE-PROCESSING  AND  SETTING  PAFBLOCK  BOUNDARIES  AND  EXTRA-LAYERS C ==================================================================================== SUBROUTINE  ROKPRE IMPLICIT  DOUBLE  PRECISION ( A - H , 0 - Z ) COMMON  / CTUNIN  / H, HOVER,  HUNDER COMMON  / CHFXPR  / HFX(17) COMMON  / CSUPIN  / SAMIN,  SAMAJ,  HANCH(2),  DANCH(2), & RANCH,AANCHC2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MPARCH,MANCH,MPANCH COMMON  / CROKIN  / NLAY,  HINLAY(20),  MLAY(20), HLAY(20)
+```
+
+&amp;
+
+COMMON  /
+
+CROKPR  /
+
+MATPRO(20),  HT0P(4),  HMIDA(4), HMIDC(4),
+
+HB0T(4),NMIDA,NMIDC,NT0P,NB0T
+
+COMMON  / CARB  / ARB2
+
+- C  INITIALISING  BEGINNING  ROU OF  LAYER MROW=1
+
+C  COUNTERS  FOR  THE  NUMBER  OF  EXTRA  LAYERS  REQUIRED
+
+C  OVER  THE  TUNNEL  NTOP
+
+NTOP=0
+
+C  TUNNEL  LEVEL  REGION  A
+
+NMIDA=0
+
+C  TUNNEL  LEVEL  REGION  C
+
+NMIDC=0
+
+C  BELOW  THE  TUNNEL NBOT=0
+
+DO  50 I LAY=1, NLAY
+
+I F (HLAY( ILAY) .GT.HFXO )+ARB2)  THEN
+
+- C  REGION ( I )
+
+NTOP=NTOP+1 HTOP(NTOP)=HLAY(ILAY) NROU=NTOP
+
+ELSE  IF(HLAY(ILAY).GT.HFX(2)} THEN
+
+- C  REGION ( I I )
+
+HLAY(ILAY)=HFX(1) NROW=1+NTOP
+
+ELSE  IF(HLAY(ILAY).GT.HFX(4)) THEN
+
+C  REGION(III)
+
+HLAY(ILAY)=HFX(3) NROW=2+NTOP
+
+ELSE  IF(HLAY(I LAY).GT.HFX(6))  THEN
+
+- C  REGION(IV)
+
+HLAY(ILAY)=HFX(5) NROW=2+NTOP
+
+ELSE  IF(HLAY(ILAY).GT.HFX(7)-ARB2)  THEN
+
+C  REGION ( V )
+
+HLAY(ILAY)=HFX(17) NR0W=3+NT0P
+
+ELSE  IF(HLAY(ILAY).GT.HFX(8)+ARB2) THEN
+
+- C  REGION ( V I A )
+
+NMIDA=NMIDA+1 HMIDA(NMIDA)=HLAY(ILAY) NROW=3+NTOP+NMIDA
+
+ELSE  IF(HLAY(ILAY).GT.HFX(8)-ARB2)  THEN
+
+C  REGION ( V I B )
+
+HLAY(ILAY)=HFX(8) NR0W=4+NT0P+NMIDA
+
+ELSE  IF(HLAY(ILAY).GT.HFX(9)+ARB2) THEN
+
+- C  REGION ( V I C )
+
+NMIDC=NMIDC+1 HMIDC(NMIDC)=HLAY(ILAY) NROW=4+NTOP+NMIDA+NMIDC
+
+ELSE  IF(HLAY(ILAY).GT.HFX(10)) THEN
+
+- C  REGION ( V I I )
+
+HLAY(ILAY)=HFX(9) NROW=5+NTOP+NMIDA+NMIDC
+
+ELSE  IF(HLAY(ILAY).GT.HFX(12))  THEN
+
+- C  REGION ( V I I I )
+
+HLAY(ILAY)=HFX(11)
+
+## NR0W=5+NT0P+NMIDA+NMIDC
+
+```
+ELSE  IF(HLAY(ILAY).GT.HFX(14)>  THEN C  REGION ( I X ) HLAY(ILAY)=HFX(13) NR0W=6+NT0P+NMIDA+NMIDC ELSE  IF(HLAY<ILAY).GT.HFX(16))  THEN C  REGION ( X ) HLAY(ILAY)=HFX(15) NR0U=7+NT0P+NMIDA+NMIDC ELSE  IF(HLAY(ILAY).GT.HFX(17)-ARB2) THEN C  REGION ( X I ) HLAY(ILAY)=HFX(17) NR0W=8+NT0P+NMIDA+NMIDC ELSE C  REGION ( X I I ) NBOT=NBOT+1 HBOT(NBOT)=HLAY(ILAY) NR0W=8+NT0P+NMIDA+NMIDC+NBOT END IF DO  60  IROW=MROW,NROW c wr i t e ( 6 , * ) ' m a t p r o ( 1 , i r o w , 1 ) : 1 , m l a y ( i l a y ) 60 MATPRO(IROW)=MLAY(ILAY) C  M R O W  =  NEW  LAYER  BEGINS  THE  R O W AFTER  THE  PREVIOUS  LAYER  FINISHES(NROW) MROW=NROW+1 50 CONTINUE NR0W=9+NB0T+NT0P+NMIDA+NMIDC DO  70  IROW=MROW,NROW c wri t e ( 6 , * ) ' m a t p r o ( 1 , i r o w , 1 ) : ' , m l a y ( n l a y + 1 ) 70 MATPRO(IROW)=MLAY(NLAY+1) WRITE(6,*)'Extra  Layers i n Top,  Middle  A, C  and  Bottom  Regions' WRITE(6,*) NTOP,NMIDA,NMIDC,NBOT RETURN END C ========================================================= C  SUBROUTINE  SHLPRB  FOR  SHELL  THICKNESS  CALCULATIONS C  BEAM  ELEMENT  IS  USED  TO  MODEL  STEEL  ARCH  AND  ANCHORAGES C  =======================================================================: SUBROUTINE  SHLPRB IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CTUNIN  / H,  HOVER,  HUNDER COMMON  / CHFXPR  / HFX(17) COMMON  / CEXCIN  / NEXCVT,MEXCVT(0:9),MSHOT(0:9),KSHOT,HSHOT, & MINNER.KINNER.HINNER COMMON  / CSHLPR  / NSHELL,  HIN(5),  SUMR NSHELL= HIN(1)=HINNER HIN(2)=HSHOT HIN(3)=HFX(1)-H-HSHOT SUMR=HFX(1)-H RETURN END
+```
+
+```
+C S S S3Ssssasa = = s s s s s s s s s s s = s s s s s s a s s s = s s = S B = S S B = = S B S S S = = = = s = s = : : S S B : C  SUBROUTINE  ZSZPRB  CALCULATES  THE  MAXIMUM  SIZE  OF THE  ELEMENTS C  BEAM  ELEMENT  IS USED  TO MODEL  STEEL  ARCH  AND  ANCHORAGES C  = B = = = = = B B B B B B B B B B B B B B B B B B B B B B B B B B = = = B = = B B B B B B B B B B B B B B = = = = = = B B B B B : SUBROUTINE  ZSZPRB IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CRESNI  / NZ, ZSIZE, RATIO COMMON / CSUPIN  / SAMIN,  SAMAJ,  HANCH(2),  DANCHC2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MPARCH.MANCH.MPANCH C  ZSIZE  IS  THE  MAXSIZE  OF THE  ELEMENTS ZSIZE=RATIO*PERIOD/NZ c wri t e ( 6 , * ) z s i z e RETURN END C = = = = = = = = B B B B B B B B B B = = B B B = = B = B = = = = = = B B B B B B B B B B B B B B B B B B = = = = = = = = = = = B : C  SUBROUTINE  KEYPRE  FOR  KEY(K)  CALCULATIONS C  THE  NUMBER  OF PAFBLOCKS  IN DISTINCT  REGIONS  OF SHELL  CALCULATION C  = B ====================== B B B B B B == B == B B B B B =================== B B B B B ; SUBROUTINE  KEYPRE IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON / CROKPR  / MATPRO(20),  HT0P(4),  HMIDA<4), HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT COMMON / CSHLPR  / NSHELL, HIN(5),SUMR COMMON / CKEYPR  /K(0:8),NNS,NBS,NPOT,NPLR,NN0DE,NPAF COMMON / COUNT / KPSH(8),  NPSIDE,  NCOL,  N R O W C  THE  NUMBER  OF PAFBLOCKS  IN DISTINCT  REGIONS  OF SHELL  CALCULATION KPSHd) = 2 KPSH(2) = KPSH(1) + 3 KPSH(3) = KPSH(2) + 2 KPSH(4) = KPSH(3) + 1  +  NMIDA KPSH<5) = KPSH(4) + 1  +  NMIDC KPSH(6) = KPSH(5) + 2 KPSH(7) = KPSH(6) + 2 KPSH(8) = KPSH(7) + 4 C  NUMBER  OF PAFBLOCKS  BESIDES  THE  TUNNEL NPSIDE  =  KPSH(7)  -  KPSH(2) -  1 C  NUMBER  OF COLUMNS NCOL = 6 C  NUMBER  OF ROUS NROW =  NPSIDE  +  NTOP  +  NBOT  + 2 C  NNS=NUMBER  OF NODES  IN EACH  SHELL C  NBS=NUMBER  OF PAFBLOCKS  IN EACH  SHELL C  NPOT=NUMBER  OF PAFBLOCK  OUTSIDE  THE  TUNNEL C  NPLR  IS  NUMBER  OF PAFBLOCKS  FROM  LAST  RING  INSIDE  THE  TUNNEL NNS=4*KPSH(8) NBS=2*KPSH(8) NPOT=2*NPSIDE+NBS*NSHELL & +2*NCOL*(NTOP+1+NBOT+1) NPLR=NPOT+NBS C  NUMBER  OF EXTRA  LAYERS  IN TUNNEL  AND  MULTIPLES K(0)=NMIDA+NMIDC K(1)=2*K(0) K(2)=4*K(0) C  NUMBER  OF NODES  DESCRIBING  SHELLS K(3)=NNS*(NSHELL+1) C  NUMBER  OF NODES  DESCRIBING  SHELLS  +  SIDES  OF TUNNEL K(4)=K(3)+4*(NPSIDE+1)
+```
+
+```
+C  NUMBER  OF  NODES  DESCRIBING  SHELLS  +  SIDES  +  TOP  OF  TUNNEL K(5)=4*(NPSIDE+1)+K(3)+(4*NCOL+2)*(NTOP+1) C  NUMBER  OF  NODES  DESCRIBING  SHELLS  +  SIDES  +  TOP  +  BOTTOM  OF  TUNNEL C  I E .  ALL  THE  NODES  OUTSIDE  THE  TUNNEL K(6)=K(5)+(4*NCOL+2)*(NBOT+1) K(7)=0 K(8)=K(6)+12*K(0) C  NNODE  TOTAL  NUMBER  OF  NODES  FROM  2D  PLANE NNODE=(2*NCOL)*(NPSIDE+1)+K(6) C  NODE  TOTAL  NUMBER  OF  PAFBLOCKS  FROM  2D  PLANE NPAF=NPLR+2*(NCOL-1)*NPSIDE RETURN END C  ================================================= C  SUBROUTINE  INXPRE  SET  SHELL  TO  R O W  INDEX  CONVERSION C =================================================================== SUBROUTINE  INXPRE IMPLICIT  DOUBLE  PRECISION (A-H.O-Z) COMMON  / CROKPR  / MATPRO(20),  HT0P(4),  HMIDA(4), HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT COMMON  / CKEYPR  /K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF COMMON  / CSHLPR  / NSHELL, HIN(5),SUMR COMMON  / COUNT / KPSH(8),  NPSIDE,  NCOL,  N R O W COMMON  / CINDEX  / INXSUB(100), INXMAT(100) DO  10  1=1,NBS C  SUBDIVISION INDEX IF ( I . L E . N C O L - 1 )  THEN INXSUB(I) =  NSHELL  + I ELSE  IF  <I.LE.NBS/2-(NCOL-1>)  THEN INXSUB(I) =  NSHELL  + I +  NTOP  +  2 ELSE  IF ( I . L E . N B S / 2 )  THEN INXSUB(I) =  NSHELL  +  NBS/2 + 1 - 1 ELSE  IF (I.LE.NBS/2+(NCOL-1>)  THEN INXSUB(I) =  NSHELL  + I -NBS/2 ELSE  IF ( I . L E . N B S - ( N C O L - D ) THEN INXSUB(I) =  NSHELL  +  NTOP  +  3  +  NBS  - I ELSE INXSUB(I) =  NSHELL  +  NBS  +  1  - I END IF C  MATERIAL  PROPERTY  INDEX IF (I.LE.NCOL) THEN INXMAT(I) =  2  +  NTOP ELSE  IF  (I.LE.NBS/2-NCOL)  THEN INXMAT(I) = I - NCOL+  NTOP  +  2 ELSE  IF (I.LE.NBS/2+NCOL)  THEN INXMAT(I) =  NPSIDE  +  NTOP  +  1 ELSE  IF ( I . L E . N B S - ( N C O L - D ) THEN INXMAT(I) =  NTOP  +  3  +  NBS  - NCOL  - ELSE INXMAT(I) =  2  +  NTOP END IF 10 CONTINUE RETURN END
+```
+
+## C.4.2  Node Co-ordinates - Subroutine NODECO
+
+```
+Q * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * C PROGRAM  TO  FIND  NE W COORDINATES  OF  2D-TUNNEL  AND  FE-PAFBLOCK(0)DESIGN C FILENAME=nodeco.f c =======================================================^ C  SUBROUTINE  NODECO  FOR NODE  COORDINATES  CALCULATION  OF  TUNNEL  GEOMERTY C  =======================================================^^ SUBROUTINE  NODECO CALL  ZNODB CALL  SHNOD CALL  RLNOD CALL  TPNOD CALL  BTNOD CALL  ITNOD RETURN END C  ======================================================== C  SUBROUTINE  ZNODB  TO  PRODUCE  PLANES  OF  NODES  VARING  Z  FOR MODIFIED  PROJECT  DATA C  BEAM  ELEMENT  IS  USED  TO  MODEL  STEEL  ARCH  AND ANCHORAGES C ============================================================================= SUBROUTINE  ZNODB IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON / CSUPIN  / SAMIN,  SAMAJ,  HANCH(2),  DANCHC2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MPARCH,MANCH,MPANCH COMMON / CZNOD  / Z(5),  NDEPTH NDEPTH  =  1 Z(1)=0 Z(2)=PERIOD RETURN END C =========================================================================== C  SUBROUTINE  SHNOD  FOR  SHELL  NODE  COORDINATES  CALCULATIONS C =========================================================================== SUBROUTINE  SHNOD IMPLICIT  DOUBLE  PRECISION ( A - H , 0 - Z ) COMMON / CSHLPR  / NSHELL, HIN(5),SUMR COMMON / CSHPAR  / R,DLAMDA(8),PHI(20),PSI(20) DO  100  ISHELL=0,NSHELL C  SET  ACCUMULATIVE  DISTANCE  OF  SHELL  FROM  FIRST  SHELL IF (ISHELL.EQ.O)  THEN R=-HIN(1) ELSE R=R+HIN(ISHELL) ENDIF CALL  SC1NOD  (ISHELL) CALL  SC2NOD  (ISHELL) CALL  SC3NOD  (ISHELL) CALL  SC4NOD  (ISHELL)
+```
+
+```
+CALL  SC5N0D  (ISHELL) CALL  SYHNOD  (ISHELL) 100  CONTINUE RETURN END C C ====================================================================== C  SUBROUTINE  SC1NOD  FOR  SHELL  NODE  COORDINATES  CALCULATIONS  FOR  CENTRE  1 C ====================================================================== SUBROUTINE  SC1NOD  (ISHELL) C  REGION  A:  VERTICAL  BOUNDARIES CALL  SC1AND  (ISHELL) C  REGION  B: TRANSITION  BETWEEN  VERTICAL  BOUNDARY  AND  RADIAL  BOUNDARY CALL  SC1BND  (ISHELL) RETURN END C ====================================================================== C  SUBROUTINE  SC1AND  FOR  SHELL  NODE  COORDINATES  CALCULATIONS  FOR  CENTRE  1 C  ZONE  1A: IPSH=1 VERTICAL  BOUNDARIES C ====================================================================== SUBROUTINE  SC1AND  (ISHELL) IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) PARAMETER(NNODES=5000) COMMON  / CNODES  / X(NNODES),  Y(NNODES) COMMON  / CSHPAR  / R,DLAMDA(8),PHI(20),PSI(20) COMMON  / CTUNIN  / H, HOVER,  HUNDER COMMON  / CKEYPR  /K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF COMMON  / CSHLPR  / NSHELL, HIN(5),SUMR COMMON  / COUNT / KPSH(8),  NPSIDE,  NCOL,  N R O W C  CORNER  NODES  DEFINED  BY  EXCAVATION  BOUNDARIES X(1+NNS*ISHELL)=0D0 X(3+NNS*ISHELL)=(1.2D0/7.9D0)*H X(5+NNS*ISHELL)=(3.2D0/7.9D0)*H C  MID-SIDE  NODES  MID-WAY  BETWEEN  CORNER  NODES  IN  X-DIRECTION DO  10 I=1,KPSH(1) 10 X(I*2+NNS*ISHELL) = ( X ( I * 2 - 1 ) + X ( I * 2 + 1 ) ) / 2 D 0 C  Y-VALUES  FOUND  USING  PYTHAGORAS,  SAVE  LAST  SHELL  WHICH  IS  AT  CONSTANT  HEIGHT DO  20 I=1,2*KPSH(1)+1 I F  (ISHELL.EQ.NSHELL)  THEN Y(I+NNS*ISHELL)=H+R ELSE Y(I+NNS*ISHELL)=SORT((H+R)**2-(X(I))**2) END IF 20  CONTINUE c RETURN END C =========================================================================== C  SUBROUTINE  SC1BND  FOR  SHELL  NODE  COORDINATES  CALCULATIONS  FOR  CENTRE  1 C  ZONE  1B: IPSH=2  TRANSITION  BETWEEN  VERTICAL  BOUNDARY  AND  RADIAL  BOUNDARY C =========================================================================== SUBROUTINE  SC1BND  (ISHELL) IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) PARAMETER(NNODES=5000) COMMON  / CNODES  / X(NNODES),  Y(NNODES) COMMON  / CSHPAR  / R,DLAMDA(8),PHI(20),PSI(20)
+```
+
+```
+CO M M O N  /  C A N G L E  /  DRAD,  BETA(22) CO M M O N /  CTUNIN  /  H,  H O V E R , H U N D E R CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S . N P O T , N P L R . N N O D E . N P A F CO M M O N /  C H F X P R  /  HFX(17) CO M M O N  /  C S H L P R  /  NSHELL,  HIN(5),SUMR CO M M O N  /  C O U N T  /  KPSH(8), NPSIDE,  NCOL, N R O U C  CALCULATE POSITION O F  RADIAL  B O U N D A R Y  F O R  ALL  B U T  LAST  SHELL IF (ISHELL.LE.(NSHELL-1))  THEN X(2*KPSH(2)+1+NNS*ISHELL)=(H+R)*DSIN(BETA(4)) Y(2*KPSH(2)+1+NNS*ISHELL)=(H+R)*DCOS(BETA(4)> END  IF C FIRST SHELL (ISHELL=0)  B O U N D A R Y  COORDINATES IF (ISHELL.EQ.O) THEN C FIRST SHELL (ISHELL=0) CORDINATES C CALCULATE POSITION OF  RADIAL  B O U N D A R Y X(2*KPSH(2)+1)=(H+R)*DSIN(BETA(4)) Y(2*KPSH(2)+1)=(H+R)*DCOS(BETA(4)) B=(  H + S U M R  )/DS  IN  (BETA(  20)  ) X(2*KPSH(2)+1+NNS*NSHELL)=B*DSIN(BETA(4)) Y(2*KPSH(2)+1+NNS*NSHELL)=B*DCOS(BETA(4)) C CALCULATE X-POSITION  O F  VERTICAL  BOUNDARY C  F O R  LAST FLATTENED  SHELL X(2*KPSH(1)+1+NNS*NSHELL)=(3.2D0/7.9D0)*H END  IF C CALCULATION  O F  N O D E S  B E T W E E N BOUNDARIES DO 120 I=2*KPSH(1)+2,2*KPSH(2) IF (ISHELL.EQ.O) THEN C  F O R  FIRST  SHELL: C  THE  NODES  LIE  EQUALLY SPACED  O N  THE  ARC C FRO M  N O D E  2*KPSH(1)+1  T O  NOD E 2*KPSH(2)+1. C HENCE  THE  A R C  ANGLE PSI (ANGLE  F R O M  THE VERTICAL)  O F  THESE  NODES C IS  IN  E Q U A L  STEPS. OMEGA=DASIN(X(2*KPSH(1)+1)/(H+R)) PSI(I-(2*KPSH(1)+1))= & OMEGA+(BETA(4)-OMEGA)*(I-(2*KPSH(1)+1)) & /(2D0*(KPSH(2)-KPSH(1))) C CALCULATE THE  POSITION O F  T H E NODES  ALONG THIS  ARC X(I)=(H+R)*DSIN(PSI(I-(2*KPSH(1)+1))> Y(I)=(H+R)*DCOS(PSI(I-(2*KPSH(1)+1))) C LAST FLATTENED SHELL COORDINATES  ARE  EQUALLY SPACED  ALONG  THE  HORIZONTAL C  B O U N D A R Y  OF  THE  FLATTENED SHELL Y(I+NNS*NSHELL)=HFX(1) X(I+NNS*NSHELL)=X(2*KPSH(1)+1+NNS*NSHELL)+ & (X(2*KPSH(2)+1+NNS*NSHELL)-X(2*KPSH(1  )+1+NNS*NSHELD) & *(I-(2*KPSH(1)+1))/(2D0*(KPSH(2)-KPSH(1))) C  PHI IS AN  ANGLE  B E T W E E N  STRAIGHT LINES  WHICH  PASSES  T H R O U G H  NODES C 2*KPSH(1)+2  T O  2*KPSH(2)  A N D  HORIZONTAL PHI(I-(2*KPSH(1)+1))=DATAN((Y(I+NNS*NSHELL)-Y(I))/ & (X(I+NNS*NSHELL)-X(I))) ELSE IFOSHELL.LE.(NSHELL-D)  THEN C  Q  IS  LENGTH  O F  STRAIGHT LINE  F R O M  T H E NOD E  O N  T H E  FIRST SHELL C  TO  THE  N O D E  ON  THE  ISHELL+1  SHELL. C THIS IS  F O U N D  F R O M  T H E  G E O M E T R Y  OF  A  STRAIGHT LINE CUTTING  T W O  ARCS. C  THE  FIRST  ARC  IS  RADIUS  H AND  T H E  LINE INTERSECTS  AT A  K N O W N  POSITION C  A R C  ANGLE PSI (  IE. THE  POSITION O F  T H E  NODE ), C  THE  DISTANCE  ( Q )TO THE  S E C O N D INTERSECT  O F  THE  S E C O N D  A R C (  RADIUS  H + R  )
+```
+
+## C IS  THEN  CALCULATED.
+
+```
+A=1 B= 2D0*(X(I)*DCOS(PHI(I-(2*KPSH(1)+1))) & + Y(I)*DSIN(PH1(I-(2*KPSH(1)+1)))) C= -(H+R)*(H+R)+(H-HIN(1))*(H-HIN(1)) Q= (-B  +  SQRT(B*B-4*A*C) )/(2D0*A) X(I+NNS*ISHELL)=X(I)+Q*DCOS(PHI(I  -(2*KPSH(1)+1))) Y(I+NNS*ISHELL)=Y(I)+Q*DSIN(PHI(I  -(2*KPSH(1>+1))) ENDIF 120  CONTINUE RETURN END C  ======================================================================: C  SUBROUTINE SC2N0D  F O R  SHELL  N O D E  COORDINATES CALCULATIONS  F O R  C E N T R E  2 C =====3================================================================: SUBROUTINE  SC2NOD (ISHELL) C REGION  A:  B O U N D A R Y  F O R  ANCHORAGE  1 CALL SC2AND (ISHELL) C REGION  B:  HORIZONTAL  BOUNDARIES  F O R  REGION  MIDA  O F  TUNNEL CALL SC2BND  (ISHELL) RETURN END C  ======================================================================; C  SUBROUTINE SC2AND F O R  SHELL  N O D E  COORDINATES CALCULATIONS  F O R  C E N T R E  2 C  Z O N E  2A:  BOUNDARY  F O R ANCHORAGE  1  A N D  S U R R O U N D I N G  N O D E S C  ======================================================================: SUBROUTINE SC2AND  (ISHELL) IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N /  C C E N P R  /  XC<10),  YC(10) CO M M O N  /  C S H P A R  /  R,DLAMDA(8),PHI(20),PSI(20) CO M M O N /  C A N G L E  /  DRAD,  BETA(22) CO M M O N /  CTUNIN  /  H,  H O V E R , H U N D E R CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N O D E , N P A F CO M M O N  /  C O U N T  /  KPSHC8),  NPSIDE,  NCOL,  NROU CO M M O N  /  CSUPIN  /  SAMIN,  SAMAJ,  HANCH(2), DANCH(2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,M P A R C H , M A N C H , M P A N C H CO M M O N /  C H F X P R  /  HFX(17) CO M M O N  /  CSHLPR  /  NSHELL,  HIN(5),SUMR CO M M O N  /  C A N C P R  / XA(9),YA(9) C Find Node that  terminates  region IF (ISHELL.EQ.O)  THEN C Inner  Lining  forms  radial  boundary Y(2*KPSH(3)+1)=YC(2)+(HFX(7)-YC(2))* & (H*(5.9D0/7.9D0)+R)/(H*(5.9D0/7.9D0)) ELSE C REST F O R M S  HORIZONTAL  B O U N D A R Y  AT  HFX(7) Y(2*KPSH(3)+1+NNS*ISHELL)=HFX(7) ENDIF IF (ISHELL.LE.(NSHELL-D)  THEN
+```
+
+```
+C  T H E  POSITION O F  T H E  N O D E  C A N  B E  F O U N D WHE R E  T H E  HORIZONTAL  B O U N D A R Y  CUTS C  T H E ARC  O F  T H E  SHELL,  USING P Y T H A G O R A S . YF1=Y(2*KPSH(3)+1+NNS*ISHELL)-YC(2) XF1=SQRT(((H*(5.9D0/7.9D0)+R)**2)-(YF1)**2) X(2*KPSH(3)+1+NNS*ISHELL)=XC(2)+XF1 ELSE C  T H E  FLATTENED SHELL  B O U N D A R Y  IS  A VERTICAL  LINE  AT XA(4) X(2*KPSH(3)+1+NNS*NSHELL)=XA(4) ENDIF C FIND POSITION OF  THE  A N C H O R A G E  BOUNDARY NANCH  =  KPSH(2)+KPSH(3)+1 IF (ISHELL.LE.(NSHELL-D)  THEN C  N O D E S ALONG  A N C H O R A G E C The equation of  an  arc  i s ; C (xb-x0)"2 + (yb-y0)"2 = Radius"2 (1) C  A straight  line  passing  through A  at  angle alpha i s ; C xb  =  xa +  q cos(alpha) (2a) C yb  =  ya +  q sin(alpha) (2b) C Substituting  (2) into (1) produceses  a  quadratic in  q C Noting  that A also  lies on  an  arc  of  RadiusO, the quadratic C can  be  simply solved to  find the length  of  q  and  hence  the position C of  B,  using the  standard quadratic formula. A=1 B=  2D0*( (XA(1)-XC(2)) *  DCOS(AANCHCI)) & +(YA(1)-YC(2))  *  DSIN(AANCHd))  ) C= -2D0*H*(5.9D0/7.9D0)*R - R * R Q= (-B  +  SQRT(B*B-4*A*C) )/(2D0*A) X(NANCH+NNS*ISHELL)=XA(1)+Q*DC0S(AANCH(1)) Y(NANCH+NNS*ISHELL)=YA(1)+Q*DSIN(AANCH(1)) ELSE C  E N D  O F  ANCHORAGE X(NANCH+NNS*NSHELL)=XA(2) Y(NANCH+NNS*NSHELL)=YA{2) ENDIF C CENTRALIZING MIDSIDE  NODES  F O R  CIRCULAR SHELLS  ONLY IF  (ISHELL.LE.(NSHELL-1))  THEN C CENTRALISING  MIDSIDE N O D E  NANCH-1+NNS*ISHELL C THETA1=THE  ANGLE  BETWEEN  N O D E  NANCH+NNS*ISHELL  A N D  HORIZONTAL C THETA2=THE  ANGLE  BETWEEN  N O D E  NANCH-2+NNS*ISHELL  A N D  N O D E  NANCH+NNS*ISHELL C THETA3=THE  ANGLE  BETWEEN  N O D E  NANCH-1+NNS*ISHELL  A N D VERTICAL THETA1=DASIN((Y(NANCH+NNS*ISHELL)-YC(2))/(H*(5.9D0/7.9D0)+R)) THETA2=90D0*DRAD-BETA(4)-THETA1 THETA3=BETA(4)+THETA2/2D0 X(NANCH-1+NNS*ISHELL)=XC(2)+(H*(5.9D0/7.9D0)+R)*DSIN(THETA3) Y(NANCH-1+NNS*ISHELL)=YC(2)+(H*(5.9D0/7.9D0)+R)*DCOS(THETA3> C CENTRALISING  MIDSIDE N O D E  NANCH+1 C THETA4=THE  ANGLE  BETWEEN  N O D E  NANCH+2+NNS*I  SHELL  A N D  HORIZONTAL C THETA5=THE  ANGLE  BETWEEN  N O D E  NANCH+NNS*!SHELL  A N D  N O D E  NANCH+2+NNS*I  SHELL
+```
+
+```
+C  THETA6=THE  ANGLE  B E T W E E N  N O D E  NANCH+2+NNS*ISHELL  A N D VERTICAL ANG15=(X(NANCH)/(H*(5.9D0/7.9D0))) THETA4=DASIN<(Y<NANCH+2+NNS*ISHELL)-YC(2))/(H*(5.9D0/7.9D0)+R)) THETA5=90D0*DRAD-ANG15-THETA4 THETA6=ANG15+THETA5/2D0 X(NANCH+1+NNS*ISHELL)=XC(2)+(H*(5.9D0/7.9D0)+R)*DSIN(THETA6) Y(NANCH+1+NNS*ISHELL)=YC(2)+(H*(5.9D0/7.9D0)+R)*DCOS(THETA6) C FLATTENED SHELL  DOESN'T  REQUIRE MID-SIDE  N O D E S X(NANCH-1+NNS*ISHELL)  =  0D0 Y(NANCH-1+NNS*ISHELL)  = 0D0 X(NANCH+1+NNS*ISHELL)  = 0D0 Y(NANCH+1+NNS*ISHELL)  = O D O C =======================================================================: C SUBROUTINE SC2BND  F O R  SHELL  N O D E  COORDINATES CALCULATIONS  F O R  C E N T R E  2 C  Z O N E  2B:  HORIZONTAL BOUNDARIES F O R  REGION MIDA  O F  TUNNEL C ======================================================================= SUBROUTINE SC2BND (ISHELL) IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N  /  C C E N P R  /  XC(10), YC(10) CO M M O N  /  C S H P A R  /  R,DLAMDA(8) f PHI(20),PSI(20) CO M M O N /  CTUNIN  /  H,  H O V E R , H U N D E R CO M M O N /  C K E Y P R  /K(0:8) > NNS > NBS > NPOT,NPLR,NNODE,NPAF CO M M O N  /  CSHLPR  /  NSHELL, HIN(5),SUMR CO M M O N  /  C O U N T  /  KPSH(8),  NPSIDE,  NCOL, N R O W CO M M O N /  C H F X P R  /  HFX(17) CO M M O N  /  C R O K P R  /  MATPRO(20), HTOP<4), HMIDA(4),  HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT CO M M O N /  C A N C P R  /  XA(9),YA(9) C ITERATIVE LAYER'S  NODES  COORDINATES CALCULATIONS IN  REGION  A DO 130  IMIDA=1,NMIDA C INCLUDE  EXTRA LAYERS  AT  R O C K  BOUNDARY Y(2*KPSH(3)+1+2*IMIDA+NNS*ISHELL)=HMIDA(IMIDA) C  PLACE MID-SIDE  N O D E  AT  HALF  VERTICAL  DISTANCE  B E T W E E N  S U R R O U N D I N G  NODES Y(2*KPSH(3)+2*IMIDA+NNS*ISHELL)= & (Y(2*KPSH(3)+1+2*IMIDA+NNS*ISHELL)+ & Y(2*KPSH(3)+1+2*(IMIDA-1)+NNS*ISHELL))/2D0 IF (ISHELL.LE.(NSHELL-D)  THEN C CALCULATE X-POSITIONS  TO  LIE  O N A R C C COR N E R  NODE ELSE END  IF RETURN END & & X(2*KPSH(3)+1+2*IMIDA+NNS*ISHELL)= XC(2)+SQRT((H*(5.9D0/7.9D0)+R)**2(HMIDA(IMIDA)-YC(2))**2) C  MID-SIDE  N O D E X(2*KPSH(3)+2*IMIDA+NNS*ISHELL)= & XC(2)+SQRT((H*(5.9D0/7.9D0)+R)**2-
+```
+
+```
+& (Y(2*KPSH(3)+2*IMIDA+NNS*ISHELL)-YC(2))**2) ELSE C LAST SHELL IS  VERTICAL  AT XA(4> C CORNE R  N O D E X(2*KPSH(3)+1+2*IMIDA+NNS*ISHELL)=XA(4) C MID-SIDE  N O D E X(2*KPSH(3)+2*IMIDA+NNS*ISHELL)=XA(4) END  IF 130 CONTINUE C CALCULATE HORIZONTAL  B O U N D A R Y  B E T W E E N  MIDA  A N D M 1 D C REGIONS  AT HFX(8) Y(2*KPSH(4)+1+NNS*ISHELL)=HFX<8) IF (ISHELL.LE.(NSHELL-D)  THEN C ENSURE  N O D E  IS  O N THE  ARC YF2=HFX<8)-YC(2) XF2=SQRT(((H*(5.9D0/7.9D0)+R)**2)-(YF2)**2) X(2*KPSH(4)+1+NNS*ISHELL)=XC(2)+XF2 ELSE C AGAIN FLATTENED SHELL HAS  A VERTICAL  B O U N D A R Y  AT XA(4) X(2*KPSH(4)+1+NNS*ISHELL)=XA(4) ENDIF C CENTRALIZING MIDSIDE  N O D E  2*KPSH(4)+NNS*ISHELL IN  Y-DIRECTION Y(2*KPSH(4)+NNS*ISHELL)= & <Y(2*KPSH(4)+1+NNS*ISHELL)+Y(2*KPSH(4)-1+NNS*ISHELL))/2D0 IF  ( I  SHELL.LE.(NSHELL-1))  THEN C ENSURE  N O D E IS O N THE  ARC X(2*KPSH(4)+NNS*ISHELL)=XC(2)+SQRT(((H*5.9D0/7.9D0)+R)**2-& (Y(2*KPSH(4)+NNS*ISHELL)-YC(2))**2) ELSE C AGAIN FLATTENED SHELL HAS A  VERTICAL  B O U N D A R Y  AT XA(4) X(2*KPSH(4)+NNS*ISHELL)=XA(4) ENDIF RETURN END C ====================================================================== C SUBROUTINE SC3NOD FO R SHELL  N O D E  COORDINATES CALCULATIONS  F O R CENTRE  3 C ======================================================================: SUBROUTINE SC3NOD (ISHELL) C MIDC  REGION EXTRA LAYERS CALL SC3AND  (ISHELL) C  A N C H O R A G E  2  A N D FIXED HORIZONTAL BOUNDARIES CALL SC3BND  (ISHELL) RETURN
+```
+
+END
+
+```
+c  ======================================================================= C SUBROUTINE SC3AND  F O R  SHELL  N O D E  COORDINATES CALCULATIONS  F O R  C E N T R E  3 C  Z O N E  3A:  HORIZONTAL BOUNDARIES F O R  REGION  MIDC  O F  TUNNEL SUBROUTINE SC3AND  (ISHELL) IMPLICIT DOUBLE  PRECISION (A-H,0-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N /  C C E N P R  /  XC(10), YC(10) CO M M O N  /  C S H P A R  / R,DLAMDA(8),PHI(20),PSI(20) CO M M O N /  CTUNIN  /  H,  H O V E R , H U N D E R CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P 0 T , N P L R , N N O D E , N P A F CO M M O N  /  C O U N T  /  KPSH(8),  NPSIDE,  NCOL, N R O W CO M M O N /  C H F X P R  /  HFX(17) CO M M O N  /  C R O K P R  /  MATPRO(20), HTOP(4), HMIDA(4),  HMIDCC4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT CO M M O N  /  C S H L P R  /  NSHELL, HIN(5),SUMR CO M M O N /  C A N C P R  /  XA(9),YA(9) C ITERATIVE LAYER'S NODES  CORDINATES  CALCULATIONS IN  REGION  C DO 140  IMIDC=1,NMIDC C INCLUDE EXTRA LAYERS  AT  R O C K  BOUNDARY Y(2*KPSH(4)+1+2*IMIDC+NNS*ISHELL)=HMIDC(IMIDC) C  PLACE MID-SIDE  N O D E  AT  HALF  VERTICAL  DISTANCE  B E T W E E N  S U R R O U N D I N G  NODES Y(2*KPSH(4)+2*IMIDC+NNS*ISHELL)= & (Y(2*KPSH(4)+1+2*IMIDC+NNS*ISHELL>+ & Y(2*KPSH(4)+1+2*(IMIDC-1)+NNS*ISHELL))/2D0 IF  (ISHELL.LE.(NSHELL-1))  THEN C  CALCULATE X-POSITIONS  TO  LIE  O N  A R C C CORNE R  NODE X(2*KPSH(4)+1+2*IMIDC+NNS*ISHELL)=XC(3)+ & SQRT((H*(7.8D0/7.9D0)+R)**2-(YC(3)-HMIDC(IMIDC))**2  ) C MID-SIDE  N O D E X(2*KPSH(4)+2*IMIDC+NNS*ISHELL)=XC(3)+ & SQRT((H*(7.8D0/7.9D0)+R)**2-& (YC(3)-Y(2*KPSH(4)+2*IMIDC+NNS*ISHELL))**2  ) ELSE C LAST SHELL IS  VERTICAL  AT XA(4) C CORNE R  N O D E X(2*KPSH(4)+1+2*IMIDC+NNS*ISHELL)=XA(4) C MID-SIDE  N O D E X(2*KPSH(4)+2*IMIDC+NNS*ISHELL)=XA(4) ENDIF 140  CONTINUE RETURN END C ============================================================== C  SUBROUTINE SC3BND  F O R  SHELL  N O D E  COORDINATES CALCULATIONS  F O R  C E N T R E  3 C  Z O N E  3B:  ANCHORAGE  2  A N D  FIXED HORIZONTAL BOUNDARIES C  =======================================================================.
+```
+
+```
+SUBROUTINE  SC3BND  (ISHELL) IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N /  C C E N P R  /  XC(10), YC(10) CO M M O N  /  C S H P A R  /  R,DLAMDA(8),PHI(20),PSI(20) CO M M O N /  CTUNIN  /  H, H O V E R , H U N D E R CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N O D E , N P A F CO M M O N /  C O U N T  /  KPSH(8),  NPSIDE,  NCOL, N R O W CO M M O N /  C H F X P R  /  HFX(17) CO M M O N  /  C R O K P R  /  MATPRO(20),  HTOP(4), HMIDA(4),  HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT CO M M O N  /  CSUPIN  /  SAMIN,  SAMAJ,  HANCH(2), DANCH(2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MP A R C H , M A N C H , M P A N C H CO M M O N / CSHLPR / NSHELL, HIN(5),SUMR CO M M O N / CANCPR / XA(9),YA(9) CO M M O N / CANGLE / DRAD,  BETA(22) C  A N C H O R  2  NOD E  COORDINATES  CALCULATIONS C FIND POSITION OF  THE A N C H O R A G E B O U N D A R Y NANCH  =  2*KPSH(5)+1 IF (ISHELL.LE.(NSHELL-D)  THEN C  N O D E S ALONG  A N C H O R A G E C The equation of an arc i s ; C (xb-x0)"2 + (yb-y0)"2 =  Radius*2  (1) C  A straight  line  passing  through A  at angle  alpha i s ; C xb  =  xa  +  q cos(alpha) (2a) C yb  =  ya  +  q sin(alpha) (2b) C Substituting  (2) into  (1) produceses  a  quadratic in  q C Noting  that A also  lies on an arc  of RadiusO,  the  quadratic C can be simply solved to find the length of  q  and hence the position C of B, using the  standard quadratic formula. A=1 B= 2D0*( (XA(3)-XC(3))*DCOS(AANCH(2)) & +(YA(3)-YC(3))*DSIN(AANCH(2))  ) C= -2D0*H*(7.8D0/7.9D0)*R - R * R Q=(-B+S^RT(B*B-4*A*C ))7 (2Du*A) X(NANCH+NNS*ISHELL)=XA(3)+Q*DCOS(AANCH(2)) Y(NANCH+NNS*ISHELL)=YA(3)+Q*DSIN(AANCH(2)) ELSE C  E N D  OF ANCHORAGE X(NANCH+NNS*NSHELL)=XA(4) Y(NANCH+NNS*NSHELL)=YA(4) END  IF C CENTRALISING MIDSIDE N O D E  NANCH-1+NNS*ISHELL Y(NANCH-1+NNS*ISHELL)=(  Y(NANCH+NNS*ISHELL) & +Y(NANCH-2+NNS*ISHELL))/2D0 IF (ISHELL.LE.(NSHELL-D)  THEN X(NANCH-1+NNS*ISHELL)=XC(3)+SQRT((H*(7.8D0/7.9D0)+R)**2-& (YC(3)-Y(NANCH-1+NNS*ISHELL))**2) ELSE X(NANCH-1+NNS*ISHELL)=XA(4) END  IF C  S E T  HORIZONTAL  BOUNDARIES  AT  HFX(13)  A N D  HFX(15)
+```
+
+```
+DO 10 1=1,2 Y(2*KPSH(5)+1+2*I+NNS*ISHELL)=HFX(11+2*I) IF (ISHELL.LT.NSHELL)  THEN YF3=YC(3)-HFX(11+2*I) XF3=SQRT((H*(7.8D0/7.9D0)+R)**2-(YF3)**2) X(2*KPSH(5)+1+2*I+NNS*ISHELL)=XC(3)+XF3 ELSE X(2*KPSH(5)+1+2*I+NNS*ISHELL)=XA(4) ENDIF C  M A K E  B O U N D A R Y  F O R  I N N E R LINNING RADIAL IF  ((ISHELL.EQ.0).AND.(I.EQ.2))  THEN X(2*KPSH(5)+1+2*I+NNS*ISHELL)=XC(3) & +(H*(7.8D0/7.9D0)+R)*DSIN(BETA(10>) Y(2*KPSH(5)+1+2*I+NNS*ISHELL)=YC(3) & +(H*(7.8D0/7.9D0)+R)*DCOS(BETA(10)) ENDIF C CENTRALISING MIDSIDE  N O D E S  2*KPSH(5)+2,  2*KPSH(5)+4 Y(2*KPSH(5)+2*I+NNS*ISHELL)=(Y(2*KPSH(5)+1+2*I+NNS*ISHELL) & +Y(2*KPSH(5)-1+2*I+NNS*ISHELL))/2D0 IF (ISHELL.LE.(NSHELL-D)  THEN X(2*KPSH(5)+2*I+NNS*ISHELL)=XC(3)+SQRT((H*(7.8D0/7.9D0)+ & R)**2-(YC(3)-Y(2*KPSH(5)+2*I+NNS*ISHELL))**2) ELSE X(2*KPSH(5)+2*I+NNS*I  SHELL)=XA(4) ENDIF 10  CONTINUE RETURN END C ========================================================== C SUBROUTINE SC4NOD  F O R  SHELL  N O D E  COORDINATES CALCULATIONS  F O R  C E N T R E  4 C TRANSITION BETWEEN  HORIZONTAL  A N D  VERTICAL BOUNDARIES C ====================================================================== SUBROUTINE SC4NOD (ISHELL) IMPLICIT DOUBLE  PRECISION ^H.O-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N  /  C C E N P R  /  XC(10), YC(10) CO M M O N  /  C A N G L E  /  DRAD, BETA(22) CO M M O N  /  C S H P A R  /  R,DLAMDA(8),PHI(20),PSI(20) CO M M O N /  CTUNIN  /  H,  H O V E R , H U N D E R CO M M O N  /  C K E Y P R /K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF CO M M O N  /  C S H L P R  /  NSHELL,  HIN(5),SUMR CO M M O N  /  C O U N T  /  KPSH(8), NPSIDE,  NCOL, N R O W CO M M O N /  C H F X P R  / HFX(17) CO M M O N  /  C A N C P R  /  XA(9),YA(9) IF (ISHELL.EQ.NSHELL)  THEN C LAST SHELL  C O R N E R  N O D E S  LIE  O N  HORIZONTAL  B O U N D A R Y  AT YA(6) X(2*KPSH(7)-1+NNS*ISHELL)=XA(6) Y(2*KPSH(7)-1+NNS*ISHELL)=YA(6) Y(2*KPSH(7)+1+NNS*ISHELL)=YA(6) X(2*KPSH(7)+1+NNS*ISHELL)=XC(4)+ & (YA(6)-YC(4))*DTAN(BETA(14)) ELSE
+```
+
+C  C O R N E R  N O D E S  FO R M  RADIAL BOUNDARIES B E T W E E N  ARCS
+
+```
+X(2*KPSH(7)-1+NNS*ISHELL)=XC(4)+ & <H*(0.95D0/7.9D0)+R)*DSIN(BETA(12)> Y(2*KPSH(7)-1+NHS*ISHELL)=YC(4)+ & (H*(0.95D0/7.9D0)+R)*DCOS(BETA(12)) X(2*KPSH(7)+1+NNS*ISHELL)=XC(4)+ & (H*(0.95D0/7.9D0)+R)*DSIN(BETA(14)) Y(2*KPSH(7)+1+NNS*ISHELL)=YC(4)+ & (H*(0.95D0/7.9D0)+R)*DCOS(BETA(14)) ENDIF C  BETA(11)=37D0*DRAD+47D0*DRAD+25D0*DRAD+(60D0/4D0)*DRAD C CENTRALISING MIDSIDE  N O D E  2*KPSH(7)-2+NNS*ISHELL F O R  CIRCULAR SHELLS  ONLY IF  (ISHELL.LT.NSHELL)  THEN C  THETA9=THE  ANGLE  B E T W E E N  N O D E  2*KPSH(7)-2+NNS*ISHELL  A N D  VERTICAL C  THETA7-THE  ANGLE  B E T W E E N  N O D E  2*KPSH(7)-1+NNS*ISHELL  A N D  HORIZSIZEONTAL C  THETA8=THE  ANGLE  B E T W E E N  N O D E  2*KPSH(6)+1+NNS*ISHELL  A N D  NOD E  2*KPSH(7)-1+NNS*ISHELL THETA7=DASIN((Y(2*KPSH(7)-1+NNS*ISHELL)-YC(4))/ & (H*(0.95D0/7.9D0)+R)) T  HETA8=90D0*DRAD-BETA(10)-THETA7 THETA9=BETA(10)+(THETA8/2D0) X(2*KPSH(7)-2+NNS*ISHELL)=XC(4)+ & (H*(0.95D0/7.9D0)+R)*DSIN(THETA9) Y(2*KPSH(7)-2+NNS*ISHELL)=YC(4)+ & (H*(0.95D0/7.9D0)+R)*DCOS(T  HETA9) X(2*KPSH(7)+NNS*ISHELL)=XC<4)+ & (H*(0.95D0/7.9D0)+R)*DSIN(BETA(13)) Y(2*KPSH(7)+NNS*ISHELL)=YC(4)+ & (H*(0.95D0/7.9D0)+R)*DC0S(BETA(13)) ELSE C  N O  MID-SIDE  N O D E S  REQUIRED  F O R  FLATTENED  SHELL X(2*KPSH(7)-2+NNS*ISHELL)  = 0D0 Y(2*KPSH(7)-2+NNS*ISHELL) = 0D0 X(2*KPSH(7)  +NNS*ISHELL)  = 0D0 Y(2*KPSH(7)  +NNSMSHELL)  = 0D0 ENDIF RETURN END C ================================================================= C SUBROUTINE  SC5NOD  F O R  SHELL  N O D E  COORDINATES  CALCULATIONS  F O R  C E N T R E  5 C =========================================================================== SUBROUTINE  SC5NOD  (ISHELL) IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N /  C C E N P R  /  XC(10), YC(10) CO M M O N  /  C S H P A R  / R,DLAMDA(8),PHI(20),PSI(20) CO M M O N /  CTUNIN  /  H, H O V E R , H U N D E R CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N O D E , N P A F CO M M O N  /  C O U N T  /  KPSH(8),  NPSIDE,  NCOL, N R O W CO M M O N  /  C S H L P R  /  NSHELL, HIN(5),SUMR CO M M O N /  C A N C P R  / XA(9),YA(9) C IN FIRST LAYER X-POSITIONS  O F  C O R N E R  N O D E S  SET B Y  EXACAVATION  BOUNDARIES C  AND  F O R M  VERTICAL  BOUNDARIES I F ( I S H E L L . E Q . O )  THEN
+```
+
+- ON  A R C  BOUNDARIES  O R  VERTICAL B O U N D A R Y  F O R  FLATTENED  SHELL
+
+```
+X(2*KPSH(7)+3)  = (5D0/7.9D0)*H X(2*KPSH(7)+5)  = (3.2D0/7.9D0)*H X(2*KPSH(7)+7)  = (1.2D0/7.9D0)*H X(2*KPSH<7)+9)  = O D O ELSE C  F O R  EACH PAFBLOCK DO 10 IPSH=KPSH(7)+1,KPSH(8) 10 X(2*IPSH+1+NNS*ISHELL)  = X(2*IPSH+1) ENDIF C  F O R  EACH PAFBLOCK DO 20 IPSH=KPSH(7)+1,KPSH(8) C  S E T T H E  Y-POSITIONS  T O  LIE IF (ISHELL.EQ.NSHELL)  THEN C LAST  SHELL  N O D E  LIE ON  HORIZONTAL  B O U N D A R Y  AT YA(6) Y(2*IPSH+1+NNS*ISHELL)=YA(6) ELSE C  E N S U R E  N O D E  LIES  ON  A R C  FO R  CIRCULAR  SHELLS Y(2*IPSH+1+NNS*ISHELL)=YC(5)-SQRT((H*(31.29D0/7.9D0)+R)**2-& X(2*IPSH+1+NNS*ISHELL)**2) ENDIF IF (ISHELL.LT.NSHELL)  THEN C  PLACE MID-SIDE N O D E  IN  AVERAGE  X-POSITION THEN ENSURE  THEY LIE  O N  THE  ARC X(2*IPSH+NNS*ISHELL)= & (X(2*IPSH-1+NNS*ISHELL)+X(2*IPSH+1+NNS*ISHELL))/2D0 Y(2*IPSH+NNS*ISHELL)=YC(5)-SQRT((H*(31.29D0/7.9D0)+R)**2 & -(X(2*IPSH+NNS*ISHELL))**2) ELSE C  N O  MID-SIDE N O D E  REQUIRED F O R  LAST  SHELL X(2*IPSH+NNS*ISHELL)=  O D O Y(2*IPSH+NNS*ISHELL)=  O D O ENDIF 20  CONTINUE RETURN END C  ===============================================================^^ C SUBROUTINE S Y M N O D  F O R  SHELL  SYMMETRIC N O D E S  COORDINATES C ======================================== SUBROUTINE S Y M N O D (ISHELL) IMPLICIT DOUBLE PRECISION (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N /  C K E Y P R  / K < 0 : 8 ) , N N S . N B S , N P O T . N P L R , N N O D E . N P A F C  SHELL SYMMETRIC NODES COORDINATES
+```
+
+DO 10 I=2,NNS/2
+
+```
+X(NNS-(I-2)+NNS*ISHELL)  =  -X(I+NNS*ISHELL) Y(NNS-(I-2)+NNS*ISHELL)  =  Y(I+NNS*ISHELL) 10  CONTINUE RETURN END C  SUBROUTINE RLNOD  F O R  RIGTH  A N D  LEFT  H A N D  SIDES  O F C  TUNNEL N O D E  COORDINATES CALCULATIONS C ====================================================== SUBROUTINE  R L N O D IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N  /  C S H L P R  /  NSHELL,  HIN(5),SUMR CO M M O N  /  C K E Y P R  /K(0:8),NNS,NBS,NP0T,NPLR,NN0DE,NPAF CO M M O N /  C O U N T /  KPSH(8),  NPSIDE,  NCOL, N R O W C  N O D E S ON  EITHER  SIDE  O F  TUNNEL SHELLS DO  170 I=1,2*NPSIDE+1 C  CALCULATION  O F  RIGTH  H A N D  SIDE  N O D E S  OF  TUNNEL SHELL X(I+K(3))=29D0 Y(I+K(3))=Y(2*KPSH(2)+I+NNS*NSHELL) C  CALCULATION  O F  LEFT  H A N D  SIDE  N O D E S OF  TUNNEL  SHELL X(I+2*NPSIDE+2+K(3))=-29D0 Y(I+2*NPSIDE+2+K(3))=Y(2*KPSH(7)-I+NNS*NSHELL) 170 CONTINUE RETURN END C ================================================================: C  SUBROUTINE TPNOD  F O R TOP  REGION  N O D E  COORDINATES CALCULATIONS C  ================================================================: SUBROUTINE  T P N O D IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N /  CTUNIN  /  H,  H O V E R , H U N D E R CO M M O N  /  C R O K P R  /  MATPR0(20), HTOP(4), HMIDA(4),  HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT CO M M O N  /  C K E Y P R /K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF CO M M O N /  C S H L P R  /  NSHELL,  HIN(5),SUMR CO M M O N  /  C O U N T /  KPSH(8),  NPSIDE,  NCOL, N R O W C  CALCULATION  O F  N O D E S ON  T H E  TOP REGION DO 180  I=1,2*NCOL-1,2 X(  I+4*(NPSIDE+1)+K(3))=X(I+NNS*NSHELL) Y(I+4*(NPSIDE+1)+K(3))=H+HOVER 180  CONTINUE X(2*NCOL+1+4*(NPSIDE+1)+K(3))=X(1+K(3)) Y(2*NCOL+1+4*(NPSIDE+1)+K(3))=H+HOVER DO 190  I=3,2*NCOL+1,2 X(4*(NCOL+1)+4*(NPSIDE+1)-I+K(3))=-X(I+4*(NPSIDE+1)+K(3)) Y(4*(NCOL+1)+4*(NPSIDE+1)-I+K(3))=H+HOVER 190  CONTINUE C  CALCULATION  O F  EXTRA LAYERS  N O D E S ON  T H E  TOP REGION
+```
+
+```
+DO 210  IT0P=1,NT0P DO 200  I=1,4*NC0L+1,2 X(I+4*(NPSIDE+1)+(4*NCOL+2)*ITOP+K(3))=X(I+4*(NPSIDE+1)+K(3)) Y(I+4*(NPSIDE+1)+(4*NCOL+2)*ITOP+K(3))=HTOPUTOP) 200 CONTINUE 210 CONTINUE RETURN END C  ========================^ C  SUBROUTINE BTNOD  F O R  B O T T O M  REGION  N O D E  COORDINATES CALCULATIONS C  =========================^ SUBROUTINE  B T N O D IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N /  CTUNIN  /  H,  H O V E R , H U N D E R CO M M O N  /  C R O K P R  /  MATPRO(20), HTOP(4), HMIDA(4), HMIDC(4), & HBOTC4),NMIDA,NMIDC,NTOP,NBOT CO M M O N  /  C K E Y P R  /K(0:8),NNS,NBS,NP0T,NPLR,NN0DE,NPAF CO M M O N  /  CSHLPR  /  NSHELL,  HIN(5),SUMR CO M M O N  /  C O U N T /  KPSHC8),  NPSIDE,  NCOL, N R O W C  CALCULATION  O F  N O D E S ON  T H E  BOTTOM  REGION DO 180  I=1,2*NCOL-1,2 X(I+K(5))=X<2*KPSH(8)+2-I+NNS*NSHELL) Y(I+K(5))=Y(2*KPSH(8)+1)-HUNDER 180 CONTINUE X(2*NCOL+1+K(5))=X(2*NPSIDE+1+K(3)) Y(2*NCOL+1+K(5))=Y(2*KPSH(8)+1)-HUNDER DO 190  I=3,2*NCOL+1,2 X(4*(NCOL+1)-I+K(5))=-X(I+K(5)) Y(4*(NCOL+1)-I+K(5))=Y(2*KPSH(8)+1)-HUNDER 190  CONTINUE C  CALCULATION  O F  EXTRA LAYERS  N O D E ON  T H E BOTTOM  REGION DO 330  IBOT=1,NBOT DO 200  I=1,4*NCOL+1,2 X(l+26*IBOT+K(5))=X(I+K(5)) Y(I+26*IBOT+K(5))=HBOT(1+NBOT-IBOT) 200 CONTINUE 330 CONTINUE RETURN END C  ==================================================== C  SUBROUTINE ITNOD  F O R NODE  COORDINATES CALCULATIONS INPSIDE  THE  TUNNEL SUBROUTINE ITNOD IMPLICIT DOUBLE PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N  /  C O U N T  /  KPSH(8),  NPSIDE,  NCOL, N R O W CO M M O N /  CTUNIN  /  H,  H O V E R , H U N D E R CO M M O N /  C A N G L E  /  DRAD,  BETA(22) CO M M O N  /  CSUPIN  /  SAMIN,  SAMAJ,  HANCHC2),  DANCH(2), & RANCH,AANCH<2>,PERIOD,  SANCH,  SAMAJ2, & MARCH,M P A R C H , M A N C H , M P A N C H CO M M O N  /  C R O K P R  /  MATPRO(20), HTOP(4>, HMIDA(4), HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N 0 D E , N P A F CO M M O N  /  CSHLPR  /  NSHELL,  HIN(5),SUMR CO M M O N /  C A N C P R  /  XA(9),YA<9)
+```
+
+## DOUBLE PRECISION  DLAMDA(3)
+
+```
+C NODES  COORINATES INPSIDE THE TUNNEL C SET CO-ORDINATES OF FIRST LAYER DETERMINED BY VARIOUS  GEOMETRICAL FACTORS C HORIZONTAL LAYER MIDWAY  BETWEEN  HEIGHTS  OF  N O D E S  2*KPSH(2)+1 AND 2*KPSH(3)+1 Y(1+K(6))= <Y(2*KPSH(2)+1+NNS)+Y(2*KPSH(3)+1+NNS))/2D0 DO 10  I=2,NCOL 10 Y(2*I-1+K<6)) = Y(1+K<6)) C ANGLE  BETWEEN  N O D E  2*(KPSH(1)+1)+1+NNS  O N SHELL  A N D EXCAVATION  POINT DLAMDA(1)=-DATAN((Y(2*(KPSH(1)+1)+1+NNS)+(0.5D0/7.9D0)*H)/ & <X(2*(KPSH(1)+1)+1+NNS)-(4.36D0/7.9D0)*H)  ) C  Assign the  x-values of  the  top line of  nodes X(1+K(6))=0D0 X(3+K(6))=X(3+NNS) X(5+K(6))=X(5+NNS) X(7+K(6))=X(7+NNS)+(Y(7+NNS)-Y(1+K<6)))/DTAN(DLAMDA(1)) X(11+K(6))=Y(1+KC6))*DTAN(BETA(4)) X(9+K<6))=X(7+K(6))+(X<11+K(6))-X(7+K(6)))/2D0 C Find angles of  the excavation lines DLAMDA(2)=-DATAN((Y<9+K(6))-Y(2*KPSH(7)+1+NNS))/ & (X(9+K(6))-X(2*KPSH(7)+1+NNS))) C LAST  N O D E  IN  2 N D  T O  LAST  L A Y E R X(2*NCOL*NPSIDE-1+K(6))=(6.19672D0/7.9D0)*H Y(2*NCOL*NPSIDE-1+K<6))=Y(2*KPSH(6)+1+NNS) C ANGLE  BETWEEN  THE LAST  N O D E  IN  THE 1ST LAYER  A N D THE LAST  N O D E  IN  THE C 2ND TO LAST  LAYER DLAMDA(3)=-DATAN((Y(2*NCOL-1+K(6))-Y(2*NCOL*NPSIDE-1+K(6)))/ & (X(2*NCOL-1+K(6))-X(2*NCOL*NPSIDE-1+K(6)))) C SET HEIGHT  OF B O U N D A R Y  ASSOCIATED  WITH  A N C H O R A G E  S O  T H A T  T H E C  YD  IMS  O F THE  S U R R O U N D I N G  L A Y E R S  H A V E  T H E  S A M E  RATIO  AS OUTSIDE  THE TUNNEL C INITIALIZING THE HEIGHT  OF THE CENTRAL C O L U M N  O F  N O D E S C ALIGN WITH HORIZONTAL  LAYER Y(4*NCOL+1+K(6))=Y(2*KPSH(3)+1+NNS) C SET HEIGHT  OF B O U N D A R Y  ASSOCIATED  WITH  A N C H O R A G E  S O  T H A T  T H E C  YD  IMS  O F THE  S U R R O U N D I N G  L A Y E R S  H A V E  T H E  S A M E  RATIO  AS OUTSIDE  THE TUNNEL Y(2*NC0L+1+K(6))=Y(4*NC0L+1+K(6>)  + (Y(1+K(6))-Y(4*NCOL+1+K<6))> & * (Y(5+K(3))-Y(3+K(3))) / (Y(5+K(3))-Y(1+K(3)>) DO 20 IMIDA=1,NMIDA 20 Y(4*NCOL+1+K(6)+2*NCOL*IMIDA)=HMIDA(IMIDA) Y(2*NCOL*(3+NMIDA)+1+K(6))=Y(2*KPSH(4)+1+NNS) DO 30  IMIDC=1,NMIDC 30 Y(2*NCOL*(3+NMIDA)+1+K(6)+12*IMIDC)=HMIDC<IMIDC) Y(8*NCOL+1+K<8>)  =Y(2*KPSH(5)+1+NNS) Y(10*NCOL+1+K(8)) =Y(2*KPSH<5)+3+NNS) Y(12*NCOL+1+K(8))  =Y(2*KPSH(5)+5+NNS) Y((NPSIDE+1)*2*NCOL-3+K(6))=Y(2*KPSH(5)+7+NNS)- & 0.25*<Y(2*KPSH(5)+7+NNS)-Y<2*KPSH(5)+5+NNS)) Y(14*NC0L+1+K(8))=Y((NPSIDE+1)*2*NC0L-3+K(6)) C LAST  N O D E  O F  E A C H  R O W  INPSIDE T H E  T U N N E L IS OMITTED DO 1010 J=1,NPSIDE+1 DO 1020  I=1,NCOL
+```
+
+```
+IF  (I.LE.3)  THEN X<2*I-1+(J-1)*2*NCOL+K(6))=X(2*I-1+NNS) Y(2*I-1+(J-1)*2*NCOL+K(6))=Y(1+K(6)+(J-1)*2*NCOL) ELSE Y(2*I-1+(J-1)*2*NC0L+K(6))=Y(1+K(6)+(J-1)*2*NC0L) X(2*I-1+(J-1)*2*NC0L+K(6))=X(2*I-1+K(6))+(Y(2*I-1+K(6)) & -Y(2*I-1+(J-1)*2*NC0L+K(6)))/DTAN(DLAHDA(I-3)) ENDIF 1020 CONTINUE 1010  CONTINUE N95 =  (NPSIDE+1)*2*NC0L-1 N93 = (NPSIDE+1)*2*NC0L-3 N91 = (NPSIDE+1)*2*NCOL-5 N83 =  (NPSIDE)*2*NC0L-1 N81 = (NPSIDE)*2*NC0L-3 N79 = (NPSIDE)*2*NCOL-5 N67 = (NPSIDE-1)*2*NCOL-5 X(N79+K(6))=X(N67+K<6))+(0.64D0/7.9D0)*H X(N91+K(6))=X(N79+K<6>) X(N95+K(6))=X(N83+K<6>)-0.1*<X<N83+K(6))-X<N81+K<6>)> Y(N95+K(6))=Y(N95+K(6))-0.2*<Y(N95+K(6))-Y(N83+K<6))> C SYMMETRIC  N O D E  VALUES INPSIDE  THE  TUNNEL C ASSIGMENT  OF  SYMMETRIC  N O D E  VALUES INPSIDE  THE  TUNNEL DO 1140 J=1,NPSIDE+1 DO 1150 I=1,NCOL-1 X(2*I+(J-1)*2*NCOL+K(6))=-X(2*I+1+(J-1)*2*NCOL+K(6)) Y(2*I+(J-1)*2*NCOL+K(6))= Y(2*I+1+(J-1)*2*NCOL+K(6)> 1150 CONTINUE 1140  CONTINUE RETURN END C.4.3  Pafblock Topology - Subroutine TOPLGY C PROG R A M  T O FIND N E W COORDINATES  O F  2D-TUNNEL  ANDFE-PAFBLOCK  DESIGN C FILENAME=toplgy.f Q************************************************************************ C =========================================================^ C SUBROUTINE  TOPLGY F O R  PAFBLOCK  T O P O L O G Y  -  N O D E L E C ======================================== SUBROUTINE  TOPLGY CALL  S H T O P CALL  RLTOP CALL  TPTOP CALL  BTTOP CALL  LRTOP CALL ITTOP RETURN END C ========================================================================. C SUBROUTINE  SHTOP  F O R SHELL  PAFBLOCK  T O P O L O G Y  -  N O D E L E C  ========================================================================
+```
+
+```
+SUBROUTINE  SHTOP IMPLICIT DOUBLE PRECISION (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES).  Y(NNODES) CO M M O N  /  CSHLPR  /  NSHELL, HIN(5),SUMR CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N 0 D E , N P A F CO M M O N  /  C S H T O P  / NODELE(5000,8) C  N O D E L E  N O D E L E  N O D E L E  N O D E L E  N O D E L E  NODELE  NODELE  NODELE  NODELE C SHELL  PAFBLOCKS  T O P O L O G Y DO 500 ISHELL=0,(NSHELL-1) DO 550 J=1,NBS IPAF=J+NBS*ISHELL NODELE(IPAF,1)=(2*J-1)+(NNS*ISHELL) NODELE(IPAF,3)=(2*J-1)+(NNS*(ISHELL +D) IF(J.EQ.NBS)  THEN NODELE(IPAF,2)=1+NNS*ISHELL N0DELE(IPAF,4)=1+NNS*(ISHELL+1) ELSE N0DELE(IPAF,2)=(2*J+1)+(NNS*ISHELL) NODELE(IPAF,4)=(2*J+1)+(NNS*(ISHELL+1)) END  IF NODELE(IPAF,5)=(2*J)+(NNS*ISHELL) NODELE(IPAF,6)=0 NODELE(IPAF,7)=0 IF(ISHELL.EQ.(NSHELL -D) T H E N N0DELE(IPAF,8)=0 ELSE NODELE(IPAF,8)=(2*J)+(NNS*(ISHELL +D) END  IF 550 CONTINUE 500 CONTINUE RETURN END C  SUBROUTINE  RLTOP  F O R  RIGTH  A N D  LEFT  H A N D  SIDES  OF C  PAFBLOCK  T O P O L O G Y  - N O D E L E C  ============================================== SUBROUTINE  RLTOP IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N  /  CSHLPR  /  NSHELL, HIN(5),SUMR CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N O D E , N P A F CO M M O N  /  C S H T O P  /N0DELE(5000,8) CO M M O N  /  C O U N T  /  KPSH(8), NPSIDE, NCOL, N R O W C  O U T E R  P A F B L O C K S  T O P O L O G Y  RIGHT  H A N D  SIDE  O F  THE SHELL DO 570 J=1,NPSIDE IPAF=J+NBS*NSHELL NODELE(IPAF,1)=2*J+2*KPSH(2)-1+NNS*NSHELL NODELE(IPAF,2)=2*J+2*KPSH(2)+1+NNS*NSHELL NODELE(IPAF,3)=2*J-1+K(3) NODELE(IPAF,4)=2*J+1+K(3) NODELE(IPAF,5)=0 NODELE(IPAF,6)=0 NODELE(IPAF,7)=0 NODELE(IPAF,8)=0 570 CONTINUE
+```
+
+```
+C  O U T E R  P A F B L O C K S  TOPOLOGY  LEFT  H A N D  SIDE  O F  SHELL DO 600 L=1,NPSIDE IPAF=L+NPSIDE+NBS*NSHELL NODELE(IPAF,1)=2*L+2*(NBS-KPSH<6)-1)-1+NNS*NSHELL NODELE(IPAF,2)=2*L+2*(NBS-KPSH(6)-1)+1+NNS*NSHELL NODELE(IPAF,3)=2*L+2*NPSIDE+1+K(3) NODELE(IPAF,4)=2*L+2*NPSIDE+3+K<3) NODELE(IPAF,5)=0 NODELE(IPAF,6)=0 NODELE(IPAF,7)=0 NODELE(IPAF,8)=0 600 CONTINUE RETURN END C = = = = = = = = = = = S B « = s n a s : n = a = = = = = = = = = = = = = = B = s a B = = a = = = a = = = = = = = = = = = = C  SUBROUTINE  TPTOP  F O R TOP  REGION  PAFBLOCK  T O P O L O G Y  - N O D E L E C ===aaa=aa=aaB====aaaaaaaa=a=====aa==aaa==a=aaa=a============== SUBROUTINE  TPTOP IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N  /  CSHLPR  /  NSHELL, HIN(5),SUMR CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N O D E , N P A F CO M M O N  /  C R O K P R  /  MATPRO(20),  HTOPC4), HMIDA(4), HMIDCC4), & HB0T(4),NMIDA,NMIDC,NT0P,NB0T CO M M O N  /  C S H T O P  /  NODELE(5000,8) CO M M O N  /  C O U N T  /  KPSH(8),  NPSIDE,  NCOL, N R O W DO 650 L=1,2*NCOL IPAF=L+2*NPSIDE+NBS*NSHELL C  PAFBLOCK  T O P O L O G Y  OF  T O P  REGION  F O R  FIXED  PAFBLOCKS NODELE(IPAF,5)=0 NODELE(IPAF,6)=0 NODELE(IPAF,7)=0 NODELE(IPAF,8)=0 IF (L.LE.NCOL)  THEN NODELE(IPAF,1)=2*L-1+NNS*NSHELL ELSE IF (L.EQ.NCOL+1) THEN NODELE(IPAF,1)=K(4)-1 ELSE NODELE(IPAF,1)=K<3)-1+2*(L-2*NCOL) ENDIF IF (L.LT.NCOL)  THEN NODELE(IPAF,2)=2*L+1+NNS*NSHELL ELSE IF (L.EQ.NCOL) THEN NODELE(IPAF,2)=1+K(3) ELSE IF (L.LT.2*NCOL)  THEN NODELE(IPAF,2)=K(3)+1+2*(L-2*NCOL) ELSE NODELE(IPAF,2)=1+NNS*NSHELL ENDIF NODELE(IPAF,3)=2*L-1+4*(NPSIDE+1)+K(3)+(4*NCOL+2)*NTOP IF (L.GT.NCOL)  NODELE(IPAF,3)=NODELE(IPAF,3)+2 NODELE(IPAF,4)=2*L+1+4*(NPSIDE+1)+K(3)+(4*NCOL+2)*NTOP IF (L.GT.NCOL) N0DELE(IPAF,4)=N0DELE(IPAF,4)+2 IF (L.EQ.2*NCOL) & NODELE(IPAF,4)=1+4*(NPSIDE+1)+K(3)+(4*NCOL+2)*NTOP
+```
+
+```
+650  CONTINUE C  PAFBLOCK  T O P O L O G Y  O F TOP  REGION  F O R  E X T R A  P A F B L O C K S DO 700 ITOP=1,NTOP DO 800 L=1,2*NC0L IPAF=L+2*NPSIDE+NBS*NSHELL+2*NCOL*ITOP C  PAFBLOCK  T O P O L O G Y  O F  TOP  REGION  F O R  FIXED  PAFBLOCKS NODELE(IPAF,5)=0 NODELE(IPAF,6)=0 NODELE(IPAF,7)=0 N0DELE(IPAF,8)=0 NODELE(IPAF,1)=2*L+(4*NCOL+2)*ITOP-1+K<4) NODELE(IPAF,2)=2*L+(4*NCOL+2)*ITOP+1+K(4) NODELE(IPAF,3)=2*L+(4*NCOL+2)*(ITOP-1)-1+K<4) NODELE(IPAF,4)=2*L+(4*NCOL+2)*(ITOP-1)+1+K(4) IF (L.GT.NCOL) THEN NODELE<IPAF,1)=NODELE(IPAF,1)+2 NODELE<IPAF,2)=N0DELE<IPAF,2)+2 NODELE(IPAF,3)=N0DELE(IPAF,3)+2 NODELE(IPAF,4)=N0DELE(IPAF,4)+2 END  IF IF (L.EQ.2*NCOL) THEN NODELE(IPAF,2)=(4*NCOL+2)*ITOP+1+K(4) NODELE(IPAF,4)=(4*NCOL+2)*(ITOP-1)+1+K(4) END  IF 800 CONTINUE 700 CONTINUE RETURN END C  ============================================================== C  SUBROUTINE  BTTOP  F O R  B O T T O M  REGION  P A F B L O C K  T O P O L O G Y  - N O D E L E C  ============================================================== SUBROUTINE  BTTOP IMPLICIT DOUBLE  PRECISION (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N  /  C S H L P R  /  NSHELL, HIN(5),SUMR CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N O D E , N P A F CO M M O N  /  C R O K P R  /  MATPRO(20),  HTOP(4), HMIDA(4),  HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT CO M M O N  /  C S H T O P  / NODELE(5000,8) CO M M O N  /  C O U N T  /  KPSH(8),  NPSIDE,  NCOL, N R O W DO 850  L=1,2*NCOL IPAF=L+2*NPSIDE+NBS*NSHELL+2*NCOL*(NTOP+1) C  PAFBLOCK  T O P O L O G Y OF  B O T T O M  R E G I O N  F O R  FIXED  P A F B L O C K S NODELE(IPAF,5)=0 NODELE(IPAF,6)=0 N0DELE(IPAF,7)=0 NODELE(IPAF,8)=0 IF (L.LT.NCOL)  THEN NODELE(IPAF,1)=NNS/2+1-2*L+NNS*NSHELL ELSE IF  (L.EQ.NCOL) THEN NODELE<IPAF,1)=2*NPSIDE+1+K(3) ELSE IF (L.LT.2*NCOL)  THEN NODELE(IPAF,1)=K(3)-NNS/2+1-2*(L-2*NCOL) ELSE
+```
+
+```
+N0DELE(IPAF,1)=K(3)-NNS/2+1 END  IF IF (L.LE.NCOL)  THEN NODELE(IPAF,2)=NNS/2+3-2*L+NNS*NSHELL ELSE IF  (L.EQ.NCOL+1) THEN NODELE(IPAF,2)=2*(NPSIDE+1)+1+K(3) ELSE NODELE(IPAF,2)=K(3)-NNS/2+3-2*(L-2*NCOL) END  IF NODELE(IPAF,3)=2*L+1+K(5)+(4*NCOL+2)*NBOT IF (L.GT.NCOL) NODELE(IPAF,3)=N0DELE(IPAF,3)+2 IF (L.EQ.2*NCOL)  NODELE(IPAF,3)=1+K(5)+(4*NCOL+2)*NBOT NODELE(IPAF,4)=2*L-1+K(5)+(4*NCOL+2)*NBOT IF (L.GT.NCOL)  N0DELE(IPAF,4)=N0DELE(IPAF,4)+2 850  CONTINUE C  PAFBLOCK  T O P O L O G Y  O F  BOTTOM  REGION  F O R  EXTRA  PAFBLOCKS DO 900 IBOT=1,NBOT DO 950  L=1,2*NCOL IPAF=L+2*NPSIDE+NBS*NSHELL+ & 2*NCOL*(NTOP+1)+2*NCOL*(IBOT) C  PAFBLOCK  T O P O L O G Y OF  B O T T O M  R E G I O N  F O R  FIXED  P A F B L O C K S NODELE(IPAF,5)=0 NODELE(IPAF,6)=0 NODELE(IPAF,7)=0 NODELE(IPAF,8)=0 NODELE(IPAF,1)=-1+2*L+(4*NCOL+2)*IBOT+K(5) NODELE(IPAF,2)=1+2*L+(4*NCOL+2)*IBOT+K(5) NODELE(IPAF,3)=-1+2*L+(4*NCOL+2)*(IBOT-1)+K(5) NODELE(IPAF,4)=1+2*L+(4*NCOL+2)*(IBOT-1)+K(5) IF (L.GT.NCOL) THEN NODELE(IPAF,1)=NODELE(IPAF,1)+2 NODELE(IPAF,2)=NODELEUPAF,2)+2 NODELE(IPAF,3)=NODELE(IPAF,3)+2 NODELE(IPAF,4)=NOpELE(IPAF,4)+2 END  IF IF (L.EQ.2*NCOL)  THEN NODELE(IPAF,2)=1+(4*NCOL+2)*IBOT+K(5) NODELE(IPAF,4)=1+(4*NCOL+2)*(IBOT-1)+K(5) END  IF 950 CONTINUE 900 CONTINUE RETURN END C ==================================================================== C SUBROUTINE  LRTOP  F O R  LAST  RING  PAFBLOCK  T O P O L O G Y  -  NODELE INSIDE  THE TUNNEL C  =========================================================================== SUBROUTINE  LRTOP IMPLICIT DOUBLE PRECISION (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N  /  CSHLPR  /  NSHELL, HIN(5),SUMR CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N O D E , N P A F CO M M O N  /  C R O K P R  /  MATPRO(20), HTOP(4), HMIDA(4),  HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP > NBOT CO M M O N  /  C S H T O P  /  NODELE(5000,B) CO M M O N  /  C O U N T  /  KPSH(8),  NPSIDE,  NCOL, N R O W
+```
+
+```
+C LAST RING PAFBLOCK  TOPOLOGY C LAST RING PAFBLOCK  TOPOLOGY  F R O M  1+NPOT  T O 8+NPOT DO 2000  L=1,NBS IPAF=L+NPOT NODELE(IPAF,3)=2*L-1+NNS N0DELE(IPAF,4)=2*L+1+NNS N0DELE(IPAF,8)=2*L+NNS NODELE(IPAF,5)=0D0 NODELE(IPAF,6)=0D0 NODELE(IPAF,7)=0D0 IF (L.LE.NCOL-1)  THEN C  RIGHT TOP N0DELE(IPAF,1)=2*L-1+K(6) NODELE(IPAF,2)=2*L+1+K(6) ELSE  IF  (L.LE.NCOL-1+NPSIDE) THEN C  RIGHT SIDE NODELE(IPAF,1)=2*NCOL*(L-(NCOL-1>)  -1+K(6) NODELE(IPAF,2)=2*NCOL*<L-<NCOL-1)+1)-1+K(6) ELSE IF  (L.LE.NBS/2)  THEN C  RIGHT  B O T T O M N0DELE(IPAF,1)=2*NC0L*NPSIDE+3-2*(L-NBS/2)+K(6) NODELE(IPAF,2)=2*NCOL*NPSIDE+1-2*(L-NBS/2)+K(6) ELSE IF (L.EQ.NBS/2+1) THEN C LEFT  O F  C E N T R E  BOTTOM NODELE(IPAF,1)=2*NCOL*NPSIDE+1+K(6) NODELE(IPAF,2)=2*NCOL*NPSIDE+2+K(6) ELSE IF  (L.LE.NCOL-1+NBS/2)  THEN C LEFT  B O T T O M NODELECIPAF,1)=2*<L-NBS/2)+2*NCOL*NPSIDE-2+K(6) NODELE(IPAF,2)=2*(L-NBS/2)+2*NCOL*NPSIDE  +K(6) ELSE IF  (L.LE.NBS-NCOL+1) THEN C LEFT SIDE NODELE(IPAF,1)=2*NCOL*(NBS-NCOL+1-L+2)-2+K(6) NODELE(IPAF,2)=2*NCOL*(NBS-NCOL+1-L+1)-2+K(6) ELSE IF (L.LT.NBS)  THEN C LEFT TOP NODELE(IPAF,1)=2*(NBS-L+1)+K<6) NODELE(IPAF,2)=2*(NBS-L )+K(6) _ E L S E C LEFT  O F  C E N T R E  T O P  ~ NODELE(IPAF,1)=2+K<6) NODELE(IPAF,2)=1+K(6) NODELE(IPAF,4)=1+NNS END  IF 2000  CONTINUE RETURN END C ================================================================ C  SUBROUTINE ITTOP  F O R  PAFBLOCK  T O P O L O G Y  - N O D E L E INSIDE  T H E T U N N E L C ================================================================ SUBROUTINE ITTOP IMPLICIT DOUBLE PRECISION (A-H,0-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N  /  CSHLPR  /  NSHELL,  HIN(5),SUMR CO M M O N  /  C K E Y P R  /K(0:8),NNS,NBS,NPOT > NPLR,NNODE,NPAF CO M M O N  /  C R O K P R  /  MATPRO(20), HT0P(4), HMIDA(4), HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT CO M M O N  /  C S H T O P  / NODELE(5000,8) CO M M O N  /  C O U N T  /  KPSH(8), NPSIDE, NCOL, N R O W
+```
+
+C  CENTRAL  PAFBLOCK  T O P O L O G Y INSIDE THE  T U N N E L
+
+C  CENTRAL  PAFBLOCK  T O P O L O G Y INSIDE THE  T U N N E L
+
+## C  CENTRAL  PAFBLOCK  T O P O L O G Y  F R O M  1+NPLR  T O  50+NPLR
+
+DO 3000 J=1,NPSIDE
+
+DO 3100 L=1,2*(NCOL-1)
+
+IPAF=L+2*(NCOL-1)*(J-1)+NPLR
+
+NODELE(IPAF,5)=0
+
+NODELE(IPAF,7)=0
+
+NODELE(IPAF,6)=0
+
+NODELE(IPAF,8)=0
+
+IFCL.LE.NCOL-1)  THEN
+
+NODELE(IPAF,1)=2*L-1+2*NCOL*(J-1)+K(6)
+
+ELSE
+
+NODELE&lt;IPAF,2)=2*L+1+2*NCOL*(J-1)+K(6)
+
+NODELE(IPAF,1)=2*(L-(NCOL-1))+2*NCOL*(J  -1)+K(6) NODELE(IPAF,2)=2*(L-NCOL)+2*NCOL*(J-1)+K(6)
+
+END  IF
+
+IF(L.EQ.NCOL)  NODELE(IPAF,2)=1+2*NCOL*(J-1)+K(6)
+
+NODELE(IPAF,3)=NODELE(IPAF,1)+2*NCOL NODELEtIPAF,4)=NODELE(IPAF,2)+2*NCOL
+
+3100 CONTINUE 3000  CONTINUE
+
+RETURN END
+
+## C.4.4 Pafblock Subdivisions - Subroutine SUBDIV
+
+Q * *
+
+* * *
+
+C
+
+C
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * P R O G R A M  T O F I N D  N E W CO O R D I N A T E S O F  2 D - T U N N E L A N D F E - P A F B L O C K  D E S I G N FILENAHE=subdiv.f
+
+Q * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+* * * * *
+
+* * *
+
+* * *
+
+* * * *
+
+C  ==============================================================================
+
+C  ========================================================================
+
+C  S U B R O U T I N E SUBDI V  F O R  P A F B L O C K  SUBDIVISION F O R M A X E L E M E N T SIZE C  A N D  A S P E C T R A T I O .
+
+SU B R O U T I N E S U B D I V
+
+IMPLICIT  D O U B L E PRECISI O N  ( A - H . O - Z )
+
+C O M M O N /  C S U B D V / NSUB ( 0 : 5 0 ) , M A S P C T C O M M O N /  C D I M
+
+/  DIM(4),  D M I N , DM A X , IPM A X ,  IPMIN
+
+## C  S U B D I V I D E Z  D I R E C T I O N
+
+ipmax  =  0
+
+ipmin =  0
+
+CA L L Z S U B B
+
+IT=0
+
+C  S E T  M A X I M U M  S I Z E  O F EL E M E N T S
+
+10
+
+CA L L M A X S I
+
+CA L L  W R T M A X
+
+C  C L E A R  F L A G , M A S P C T , W H I C H  IS S E T  W H E N  T H E  S U B D I V I S I O N S C H A N G E
+
+```
+20 H A S P C T  = o C ITERATION  C O U N T E R IT=IT+1 WRITE(6,*)'ITERATION  = ',IT C  S T O P IF  R E P E A T E D  M O R E  T H A N 10  TIMES IF (IT  .GT.  10)  WRITE(6,*)'Conflict i n  Geometry  !!' IF (IT  .GT.  10)  STOP C INITIALIZE GLOBAL  MINIMUM  A N D  MAXIMUM  ELEMENT SIZE WITH  D U M M Y  VALUES DMIN  = 1D2 DMAX  = 0D0 C  ASPECT RATIO  C H E C K CALL  SHASP CALL  RLASP CALL  TPASP CALL  BTASP CALL  LRASP CALL ITASP C  REPEAT  ASPECT RATIO C H E C K  UNTIL  T H E R E  A R E NO  M O R E  C H A N G E S  TO THE C SUBDIVISIONS IF (  M A S P C T  . N E .  0  )  G O  TO 20 C  CLEAR FLAG,  MASPCT,  WHICH IS  SET W H E N  T H E  SUBDIVISIONS  C H A N G E MASPCT  =  0 C  C H E C K  T H A T  RESULTING SUBDIVISION IS  C O M P A T A B L E  WITH  Z  SUBDIVISION CALL  ZASP C  REPEAT SUBDIVISION UNTIL  Z  SUBDIVISION IS  SATISFIED IF (  M A S P C T  . N E .  0  ) GO  T O 10 RETURN END C ==================================================== C  SUBROUTINE  ZSUB2  F O R  DIVISION  O F  L E N G T H  O F  PAFBLOCK IN  Z-DIRECTION C  B Y  THE MINIMUM Z-DIMENSION  A N D ROUN D E D  B Y  NEAREST  W H O L E  NUMBE R ~ C  F O R  MODIFIED  PROJECT  DATA C ===================================================================== SUBROUTINE  ZSUBB IMPLICIT DOUBLE  PRECISION (A-H.O-Z) CO M M O N  /  C S U B D V  /  NSUB(0:50),MASPCT CO M M O N  /  C Z N O D  /  Z(5),  NDEPTH CO M M O N  /  CSHLPR  /  NSHELL,  HIN(5),SUMR CO M M O N  /  C O U N T  /  KPSH(8), NPSIDE, NCOL, N R O W CO M M O N  /  CRESNI  /  NZ, ZSIZE, RATIO CO M M O N  /  CSUPIN  /  SAMIN,  SAMAJ,  HANCH(2), DANCH(2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,M P A R C H , M A N C H , M P A N C H DO 10 1=1,NDEPTH NSUB(NSHELL+NCOL+NROW+I)=0.5+NZ*(Z(I+1)-Z(I))/PERIOD 10  CONTINUE RETURN END C ====================================================================; C SUBROUTINE SUBDIVIDE PAFBLOCKS  USING  MAXIMUM  PAFBLOCK  SIZE C ====================================================================
+```
+
+## SUBROUTINE  MAXSI
+
+```
+C  THERE  ARE  THREE  G R O U P  OF  SUBDIVISIONS C  3.  NSHELL  = NSUB(I) C 1.1.  NSUB(ISHELL)  ISHELL=1,  NSHELL C 1.2.  NSUB(O)  LAST  RING C 2.  N C O L U M N  =  NSUBCNSHELL+I) C 1.  N R O W  =  NSUB(NSHELL+NCOL+I) CALL  M A X S S H CALL  H A X S C O CALL  M A X S R O RETURN END C ===============================================================^^ C SUBROUTINE MAXIMUM  PAFBLOCK SUBDIVISION  F O R SHELL C ============================================================ SUBROUTINE  MAXSSH IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000> CO M M O N /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N  /  CSHLPR  /  NSHELL, HIN(5),SUMR CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N O D E , N P A F CO M M O N  /  C S U B D V  / NSUB(0:50),MASPCT CO M M O N  /  CRESNI  /  NZ, ZSIZE,  RATIO CO M M O N  /  C R O K P R  /  MATPRO(20), HTOP(4), HMIDAC4),  HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT CO M M O N  /  C O U N T /  KPSH(8),  NPSIDE,  NCOL, N R O W C  LARGEST HEIGTH  O F  SHELLS IS  U S E D  THE CALCULATION  O F  DIVIDING  T H E SHELLS C  T H E  HEIGTH  B E T W E E N  LAST  SHELL  A N D ONE  BEFORE IS  T H E  L A R G E S T  HEIGTH  (RE) DO 1190  ISHELL=1,NSHELL 1190 NSUB(ISHELL)=1+( X(2*KPSH(4)+1+NNS*ISHELL)- & X(2*KPSH(4)+1+NNS*(ISHELL-1))  )/ZSIZE C LAST RING  PAFBLOCK  T O P O L O G Y  SUBDIVISION  N1=NSUBSH(0) C  LARGEST  DIMENSION  O F  LAST  RING IS USED  T H E  CALCULATION  O F  DIVIDING  T H E  LAST  RING C  LARGEST  DIMENSION  O F  LAST  RING IS BORDER  B E T W E E N  REGION  A  AND C NSUB(0)=1+( X(2*KPSH(4)+1+NNS) & -X(2*NCOL*(4+NMIDA)+K(6)-1)  )/ZSIZE RETURN END C ========================================================================= C  SUBROUTINE MAXIMUM  PAFBLOCK SUBDIVISION  F O R C O L U M N C ========================================================================= SUBROUTINE  M A X S C O IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N O D E , N P A F CO M M O N  /  C S U B D V  / NSUB(0:50),MASPCT CO M M O N  /  CRESNI  /  NZ, ZSIZE,  RATIO CO M M O N  /  C O U N T  /  KPSH(8),  NPSIDE,  NCOL, N R O W CO M M O N  /  CSHLPR  /  NSHELL, HIN(5),SUMR C LARGEST  DIMENSION  O F  E A C H  C O L U M N S  IS  USED  T H E  CALCULATION  O F DIVIDING C  T H E C O L U M N S DO 10 1=1,NCOL XDIM=X(2*I+1+K(5))-X(2*I-1+K(5)) 10 NSUB(NSHELL+I)=1+(XDIM/ZSIZE) RETURN
+```
+
+```
+END c  =============================================== C  SUBROUTINE  MAXIMUM  PAFBLOCK SUBDIVISION  F O R  R O W C ===================================================================== SUBROUTINE  M A X S R O IMPLICIT DOUBLE  PRECISION (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N /  C S H L P R  /  NSHELL,  HIN(5),SUMR CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S . N B S , N P O T , N P L R , N N O D E . N P A F CO M M O N /  C S H T O P  /  NODELE(5000,8) CO M M O N  /  C R O K P R  /  MATPRO(20), HTOP(4), HMIDA(4),  HMIDC(4), & HB0T(4),NMIDA,NMIDC,NT0P,NB0T CO M M O N /  C S U B D V  /  NSUB(0:50),MASPCT CO M M O N  /  CRESNI  /  NZ, ZSIZE, RATIO CO M M O N  /  CSUPIN  /  SAMIN,  SAMAJ,  HANCH(2), DANCH(2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,M P A R C H , M A N C H , M P A N C H CO M M O N /  C O U N T  /  KPSH(8),  NPSIDE, NCOL, N R O W C  MAXIMUM  PAFBLOCK SUBDIVISION  F O R R O W DO 10 J=1,NROW IF  (J.LE.NTOP)  T H E N C  EXTRA LAYERS IN  TOP REGION YDIM =  Y(1+4*(NPSIDE+1)+K(3)+(4*NCOL+2)*(J-1)) & -  Y(1+4*(NPSIDE+1)+K(3)+(4*NC0L+2)*J) ELSE IF (J.EQ.NTOP+1) THEN C  T O P REGION YDIM =  Y(1+4*(NPSIDE+1)+K(3)+(4*NC0L+2)*NT0P) & -  Y(1+K(3)) ELSE IF  (J.LE.1+NTOP+NPSIDE)  THEN C RIGHT SIDE  O F TUNNEL YDIM =  SQRT(  ( X(2*NCOL-1+2*(J-(2+NTOP))+NNS*NSHELL) & -X(2*NCOL+1+2*(J-(2+NTOP))+NNS*NSHELL)  )**2 & +< Y(2*NCOL-1+2*(J-(2+NTOP))+NNS*NSHELL) & -Y(2*NCOL+1+2*(J-(2+NTOP))+NNS*NSHELL) )**2  ) C  PAFBLOCKS  B E L O W  2ND A N C H O R A G E ARE  L A R G E R IN  TUNNEL IF (J.EQ.NTOP+NPSIDE-1)  YDIM=Y(2*KPSH(5)+1)-Y(2*KPSH<5)+3) ELSE IF  (J.EQ.NTOP+2+NPSIDE) THEN YDIM =  Y(2»NPSIDE+1+K(3)) & -  Y(1+K(5)+(4*NCOL+2)*NBOT) ELSE YDIM =  Y(1+K(5)+(4*NCOL+2)*(11+NTOP+K(0)+NBOT+1-J)) & -  Y(1+K(5)+(4*NCOL+2)*(11+NTOP+K(0)+NBOT -J)) END  IF NSUB(NSHELL+NCOL+J)=1+(YDIM/ZSIZE) 10 CONTINUE RETURN END C ===================================================================== C  SUBROUTINE PRINT  O U T  MAXIMUM  PAFBLOCK SUBDIVISIONS C ===================================================================== SUBROUTINE W R T M A X IMPLICIT DOUBLE PRECISION (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N /  C H F X P R  /  HFX(17) CO M M O N /  C S H L P R  /  NSHELL,  HIN(5),SUMR CO M M O N  /  C R O K P R  /  MATPRO(20), HTOP(4), HMIDA(4), HMIDCC4), & HB0T(4),NMIDA,NMIDC,NTOP,NBOT CO M M O N /  C S U B D V  /  NSUB(0:50),MASPCT CO M M O N /  C O U N T  /  KPSH(8),  NPSIDE, NCOL, N R O W CO M M O N /  C Z N O D  / Z(5), N D E P T H DO 10 L=0,NSHELL
+```
+
+```
+10 WRITEte.'O'NSUBSHCL,') DO 20 L=1,NC0L 20 WRITE(6,*)'NSUBC0(' f L.'> DO 30  L=1,NR0W 30 WRITEte.^'NSUBROC.L,') DO 40  L=1,NDEPTH 40 WRITE(6,*)'NSUBZ (',L,') RETURN END C =============================== C  SUBROUTINE  ASPECT RATIO  C H E C K C =============================== SUBROUTINE  ASPCHK  (IPAF,N1,N2) IMPLICIT DOUBLE PRECISION (A-H.O-Z) CO M M O N  /  CDIM /  DIM(4), DMIN,  DMAX,  IPMAX, IPMIN CO M M O N  /  CRESNI  /  NZ, ZSIZE, RATIO CO M M O N  /  C S U B D V  /  NSUB(0:50),MASPCT c URITE(6,*)'DIMENSIONS  O F  PAFBLOCK ',IPAF c WRITE(6,*)DIM(1) c WRITE(6,*)DIM(2) c WRITE(6,*)DIM(3) c URITE(6,*)DIM(4) C FIND THE MAXIMUM  A N D  MINIMUM  DIMENSION  F O R  E A C H  PAIR  O F  DIMENSIONS C  A N D  ASSIGN  D1MAX,D1MIN,D2MAX,D2MIN  ACCORDINGLY IF  (DIM(1).GT.DIM(2))  THEN D1MAX=DIM(1) D1MIN=DIM(2) ELSE D1MAX=DIM(2) D1MIN=DIM(1) ENDIF IF  (DIM(3).GT.DIM(4))  THEN D2MAX=DIM(3) D2MIN=DIM(4) ELSE D2MAX=DIM(4) D2MIN=DIM(3) ENDIF C  C H E C K  E X T R E M E  A S P E C T  RATIOS  OF  PAFBLOCK  ELEMENT SUBDIVISION  DIMENSIONS C  AND  CORRECT IF  B E Y O N D  T H E  REQUIRED RATIO c WRITE(6,*)'PREVIOUS SUBDIVISIONS' c WRITE(6,*)N1,N2 IF ((D1MAX/N1)/(D2MIN/N2).GT.RATIO)  THEN c write(6,*)Ipaf c WRITE(6,*)'Old N1 VALUE  = \N1 N1=1  +N2*D  1 MAX/  (RAT  10*D2MIN  ) MASPCT  = 1 c WRITE(6,*)'NEW N1 VALUE  = ',N1 ENDIF IF ((D2MAX/N2)/(D1MIN/N1).GT.RATIO)  THEN c write(6,*)Ipaf c URITE(6,*)'0LD N2  VALUE  = ' , N 2 N2=1+N1*D2MAX/(RATIO*D1MIN) MASPCT  = 1 c WRITE(6,*)'NEW  N2  VALUE  =  ' , N 2 ENDIF C Check Maximum Element size against ZSIZE =  ',NSUB(L) = ',NSUB(NSHELL+L) = ',NSUB(NSHELL+NCOL+L) = ' NSUB(NSHELL+NCOL+NROW+L) IF (D1MAX/N1.GT.ZSIZE)  THEN
+```
+
+```
+c write(6,*)Ipaf c WRITE(6,*)'0ld N1 VALUE  =  ' , M 1 N1=1+D1HAX/ZSIZE MASPCT  = 1 c WRITE(6,*)'NEW N1 VALUE  =  ',N1 END  IF IF  (D2MAX/N2.GT.ZSIZE)  THEN c write(6,*)Ipaf c WRITE(6,*)'0LD N2  VALUE =  ',N2 N2=1+D2MAX/ZSIZE MASPCT  = 1 c URITE(6,*)'NEW  N2  VALUE  =  ' , N 2 END  IF c WRITE(6,*)'NEW SUBDIVISIONS' c WRITE(6,*)N1,N2 C FIND  MAXIMUM  A N D  MINIMUM ELEMENT  SIZES  O F XY-PLANE IF (D1MAX/N1.GT.DMAX) IPMAX=10000+IPAF IF (D2MAX/N2.GT.DMAX)  IPMAX=20000+IPAF IF (D1MAX/N1.GT.DMAX) DMAX=D1MAX/N1 IF (D2MAX/N2.GT.DMAX) DMAX=D2MAX/N2 IF (D1MIN/N1.LT.DMIN)  IPMIN=10000+IPAF IF  (D2MIN/N2.LT.DMIN)  IPMIN=20000+IPAF IF (D1MIN/N1.LT.DMIN)  DMIN=D1MIN/N1 IF  (D2MIN/N2.LT.DMIN)  DMIN=D2MIN/N2 RETURN END C  ============================================================ C SUBROUTINE  SHASP  F O R  SHELL PAFBLOCK  SUBDIVISION AND  ASPECT  RATIO C ================================================================= SUBROUTINE  SHASP IMPLICIT DOUBLE PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N /  CTUNIN  /  H,  H O V E R , H U N D E R CO M M O N  /  CSHLPR  /  NSHELL,  HIN(5),SUMR CO M M O N  /  CKEYPR^/K(0:8),NNS,NBS^NPOT,NPLR,NNODE,NPAF CO M M O N  /  C S H T O P  /  NODELE(5000,8) CO M M O N  /  C S U B D V  /  NSUB(0:50),MASPCT CO M M O N  /  C O U N T  /  KPSH(8), NPSIDE,  NCOL, N R O W CO M M O N  /  CINDEX / INXSUB(IOO), INXMAT(IOO) CO M M O N  /  CDIM /  DIM(4), DMIN,  DMAX,  IPMAX, IPMIN DO 5500 ISHELL=0,(NSHELL-1) DO 5550 1=1,NBS/2 C SHELL PAFBLOCKS  SUBDIVISIONS IPAF=I+NBS*ISHELL C SHELL PAFBLOCKS  DIMENSIONS DIM(1), DIM(2), DIM(3), DIM(4) C DIM(1)  A N D  DIM(2)  A R E ALWAYS A R C S IF (ISHELL.EQ.O) THEN R1=-HIN(1) R2=0D0 ELSE R1=R1+HIN(ISHELL+1) R2=R2+HIN(ISHELL+2) END  IF IF  (I.LE.KPSHC2))  THEN Q1=H+R1 Q2=H+R2
+```
+
+```
+ELSE IF (I.LE.KPSH(4)>  THEN Q1=H*(5.9D0/7.9D0)+R1 Q2=H*(5.9DO/7.9D0)+R2 ELSE IF (I.LE.KPSH(6)>  THEN Q1=H*(7.8D0/7.9D0)+R1 Q2=H*(7.8D0/7.9D0)+R2 ELSE IF (I.LE.KPSHC7))  THEN Q1=H*(0.95D0/7.9D0)+R1 Q2=H*(0.95D0/7.9D0)+R2 ELSE Q1=H*(31.2989D0/7.9D0)+R1 Q2=H*(31.2989D0/7.9D0)+R2 END  IF C0RD1=SQRT((X(N0DELE(IPAF,1))-X(N0DELE(IPAF,2)))**2 & +(Y(NODELE(IPAF,1))-Y(NODELE(IPAF,2)))**2) C0RD2=SQRT((X(NODELE(IPAF,3))-X(NODELE(IPAF,4)))**2 & +(Y(NODELE(IPAF,3))-Y(NODELE(IPAF,4)))**2) ANGLE1= 2D0*DASIN(CORD1/(2D0*Q1)) ANGLE2= 2D0*DASIN(CORD2/(2D0*Q2)) DIH(1)=Q1*ANGLE1 IF  ( I  SHELL.GT.(NSHELL-2))  THEN DIM(2)=SQRT((X(NODELE(IPAF,4))-X(NODELE(IPAF,3)))**2 & +(Y<NODELE(IPAF,4))-Y(NODELE(IPAF,3)))**2) ELSE DIM(2)=Q2*ANGLE2 END  IF C DIM(3)  A N D  DIM(4)  A R E  STRAIGHT LINES DIH(3)=SQRT((X(NODELE(IPAF,1))-X(NODELE(IPAF,3)))**2 & +(Y(NODELE(IPAF,1))-Y(NODELE(IPAF,3)))**2) DIM(4)=SQRT((X(NODELE(IPAF,2))-X(NODELE(IPAF,4)))**2 & +(Y(NODELE(IPAF,2))-Y(NODELE(IPAF,4>))**2) C  MAXIMUM SUBDIVISION VALUES  O F  N1  A N D  N2  F O R PAFBLOCKS N1  =  NSUB(INXSUBO)) N2  =  NSUB(ISHELL+1) C  C H E C K  A S P E C T  RATIOS CALL  ASPCHK(IPAF,N1,N2) C ASSIGNING THE N E W  SUBDIVISION  VALUE  O F  N1  A N D  N1  T O  THE  APPROPRIATE C VARIABLE NSUBRO(-),NSUBCO(-),NSUB (-)  DEPENDING  O N  THE PAFBLOCK NSUB(INXSUBd))  = N1 NSUBdSHELL+1) = N2 5550 CONTINUE 5500  CONTINUE RETURN END C  ============================================================^^ C  SUBROUTINE  RLASP  F O R  O U T E R  P A F B L O C K S  DIMENSIONS  A N D  ASPECT RATIO C  RIGHT  A N D  LEFT  H A N D  SIDES  O F  THE SHELL C  ============================================== SUBROUTINE  RLASP IMPLICIT DOUBLE PRECISION (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES), Y(NNODES) CO M M O N  /  CSHLPR  /  NSHELL,  HIN(5),SUMR CO M M O N  /  C K E Y P R  /K(0:8),NNS,NBS,NPOT,NPLR.NNODE.NPAF
+```
+
+```
+CO M M O N /  C S H T O P  /  NODELE<5000,8) CO M M O N /  C R O K P R  /  MATPRO(20), HT0P<4), HMIDA(4), HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT CO M M O N /  C S U B D V  /  NSUB(0:50),MASPCT CO M M O N /  C O U N T /  KPSH<8),  NPSIDE,  NCOL, N R O W CO M M O N  /  CDIM / DIM(4), DMIN,  DMAX,  IPMAX, IPMIN 00 5570 1=1,NPSIDE IPAF=I+NBS*NSHELL C  PAFBLOCKS  DIMENSIONS DIM(1), DIM(2), DIM(3), DIM(4) C DIM(1), DIM(2), DIM(3), DIM(4)  ARE  STRAGTH  LINES DIM(1)=SQRT((X(NODELE(IPAF,1))-X<NODELE(IPAF,2)))**2 & +(Y(N0DELE(IPAF,1))-Y(N0DELE(IPAF.2)))**2) DIM(2)=ABS(Y(NODELE(IPAF,3))-Y(NODELE(lPAF,4))) DIM(3)=ABS(X(NODELE(IPAF,3))-X(NODELE(IPAF,1))) DIM(4)=ABS(X(NODELE(IPAF,4))-X(NODELE(IPAF,2))) C  MAXIMUM SUBDIVISION VALUES  O F  N1  A N D N2  F O R PAFBLOCKS N1=NSUB(NSHELL+NCOL+I+1+NTOP) N2=NSUB(NSHELL+ NCOL) C  C H E C K  A S P E C T  RATIOS CALL  ASPCHK(IPAF,N1,N2) C  ASSIGNING  THE NE W  SUBDIVISION VALUE O F  N1  A N D  N1  T O  THE APPROPRIATE C  VARIABLE NSUBRO(-),NSUBCO(-),NSUBSH(-)  DEPENDING  O N  T H E PAFBLOCK NSUB(NSHELL+NC0L+I+1+NT0P)=N1 NSUB(NSHELL+NC0L)=N2 5570  CONTINUE RETURN END C ==========================^ C  SUBROUTINE  TPASP  F O R TOP  REGION PAFBLOCKS  DIMENSIONS  A N D  ASPECT  RATIO SUBROUTINE  TPASP IMPLICIT DOUBLE  PRECISION lA-H,6-Z) PARAMETER(NNODES=5000) CO M M O N /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N /  C S H L P R  /  NSHELL,  HIN(5),SUMR CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N O D E , N P A F CO M M O N /  C S H T O P  /  NODELE(5000,8) CO M M O N  /  C R O K P R  /  MATPRO<20), HT0P(4), HMIDA(4), HMIDC(4), & HB0T(4),NMIDA,NMIDC,NT0P,NB0T CO M M O N /  C S U B D V  /  NSUB(0:50),MASPCT CO M M O N  /  C O U N T /  KPSH(8), NPSIDE,  NCOL, N R O W CO M M O N  /  CDIM /  DIM(4), DMIN,  DMAX,  IPMAX, IPMIN DO 5700 ITOP=0,NTOP DO 5800  1=1,NCOL IPAF=I+2*NPSIDE+NBS*NSHELL+2*NCOL*ITOP C  PAFBLOCKS  DIMENSIONS DIM(1), DIM(2), DIM(3), DIM(4) C DIM(1), DIM(2), DIM(3)  AND  DIM(4)  ARE  STRAIGHT  LINES DIM(1)=ABS(X(NODELE(IPAF,2))-X(NODELE(IPAF,1))) DIM(2)=ABS(X(NODELE(IPAF,4))-X(NODELE(IPAF,3))) DIM(3)=ABS(Y(NODELE(IPAF,3))-YCN00ELE(IPAF,1))) DIM(4)=ABS(Y(NODELE(IPAF,4))-Y(NODELE(IPAF,2))) C  MAXIMUM SUBDIVISION VALUES  O F  N1  A N D N2  F O R PAFBLOCKS
+```
+
+```
+N1 = NSUB(NSHELL+I) N2  = NSUB(NSHELL+NC0L+IT0P+1) C  C H E C K  A S P E C T  RATIOS CALL  ASPCHK(IPAF,N1,N2) C  ASSIGNING  THE NE W  SUBDIVISION VALUE  O F  N1  A N D  N1  T O  THE APPROPRIATE C VARIABLE NSUBRO(-),NSUBCO(-),NSUBSH(-)  DEPENDING  O N  THE PAFBLOCK NSUB(NSHELL-H)  = N1 NSUB(NSHELL+NCOL+ITOP+1)  = N2 5800 CONTINUE 5700  CONTINUE RETURN END C ==========================^ C SUBROUTINE  BTASP  F O R  B O T T O M  REGION  PAFBLOCKS  DIMENSIONS  A N D  ASPECT  RATIO C ============================^ SUBROUTINE  BTASP IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N /  C S H L P R  /  NSHELL,  HIN(5),SUMR CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N O D E , N P A F CO M M O N /  C S H T O P  /  NODELE(5000,8) CO M M O N  /  C R O K P R  /  MATPRO(20), HTOP(4), HMIDA(4), HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT CO M M O N /  C S U B D V  /  NSUB(0:50),MASPCT CO M M O N  /  C O U N T  /  KPSH(8), NPSIDE,  NCOL, N R O W CO M M O N  /  CDIM /  DIM(4), DMIN,  DMAX,  IPMAX, IPMIN DO 5900 IBOT=0,NBOT DO 5950  1=1,NCOL IPAF=I+2*NPSIDE+NBS*NSHELL+ & 2*NCOL*(NTOP+1+IBOT) C  PAFBLOCKS D r M E N S T O N S DIM717, DlM(2), DTMTT),  DTM(4) C DIM(1), DIM(2), DIM(3)  ARE  STRAIGHT LINES DIM(1)=ABS(X(NODELE(IPAF,1))-X(NODELE(IPAF,2))) DIM(2)=ABS(X(NODELE(IPAF,3))-X(NODELE(IPAF,4))) DIM(3)=ABS(Y(N0DELE(IPAF,1))-Y(N0DELE(IPAF,3))) DIM(4)=ABS(Y(NODELE(IPAF,2))-Y(NODELE(IPAF,4))) C  MAXIMUM SUBDIVISION VALUES  O F  N1  A N D  N2  FO R PAFBLOCKS N1 =  NSUB(NSHELL+I) N2  =  NSUB(NSHELL+NCOL+NPSIDE+IBOT+NTOP+2) C  C H E C K  A S P E C T  RATIOS CALL  ASPCHK(IPAF,N1,N2) C  ASSIGNING  THE NE W  SUBDIVISION VALUE  O F  N1 A N D  N1  T O  THE APPROPRIATE C  VARIABLE NSUBRO(-),NSUBCO(-),NSUBSH(-)  DEPENDING  O N  THE PAFBLOCK NSUBCNSHELL+I)  = N1 NSUB(NSHELL+NCOL+NPSIDE+IBOT+NTOP+2)=N2 5950 CONTINUE 5900  CONTINUE RETURN END
+```
+
+```
+C SUBROUTINE LRASP  F O R  LAST  RING  PAFBLOCKS DIMENSIONS  A N D  ASPECT  RATIO SUBROUTINE LRASP IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N /  CTUNIN  /  H,  H O V E R , H U N D E R CO M M O N  /  C S H L P R  /  NSHELL,  HIN(5),SUMR CO M M O N  /  C K E Y P R /K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF CO M M O N  /  C S H T O P  /  NODELE(5000,8) CO M M O N  /  C S U B D V  /  NSUB(0:50),MASPCT CO M M O N  /  C O U N T  /  KPSH(8), NPSIDE,  NCOL, N R O U CO M M O N  /  CINDEX  / INXSUB<100), INXMAT(IOO) CO M M O N  /  CDIM / DlM(4), DMIN,  DMAX,  IPMAX, IPMIN DO 6000 I=1,NBS/2 IPAF=I+NPOT C DIM(1) IS  ALWAYS  A  STRAIGHT LINE DIM(1)=SQRT((X(NODELE(IPAF,1))-X(NODELE(IPAF,2)))**2 & +(Y(NODELE(IPAF,1))-Y(NODELE(IPAF,2)))**2) C DIM(2) IS  ALWAYS  AN ARC IF (I.LE.KPSH(2)) THEN Q1=H ELSE IF  (I.LE.KPSH(4)) THEN Q1=H*(5.9D0/7.9D0) ELSE IF  (I.LE.KPSHC6))  THEN Q1=H*{7.8D0/7.9D0) ELSE IF  (I.LE.KPSH(7)> THEN Q1=H*(0.95D0/7.9D0) ELSE Q1=H*(31.2989D0/7.9D0) ENDIF CORD1=SQRT((X(NODELE(IPAF,3))-X(NODELE(IPAF,4)))**2 & +(Y(NODELE(IPAF,3))-Y(NODELE(IPAF,4)))**2) ANGLE1= 2D0*DASIN(CORD1/<  2D0*Q1)) DIM(2)=Q1*ANGLE1 C DIM(3)  AND  DIM(4)  ARE  ALWAYS  STRAIGHT  LINES DIM(3)=SQRT((X(NODELE(IPAF,1))-X(NODELE(IPAF,3)))**2 & +(Y(NODELE(IPAF,1>)-Y(NODELE(IPAF,3)))**2) DIM(4)=SQRT((X(NODELE(IPAF,2))-X(NODELE(IPAF,4)>)**2 & +(Y(NODELE(IPAF,2))-Y(NODELE(IPAF,4)))**2) C  MAXIMUM SUBDIVISION VALUES  O F  N1  A N D N2  F O R  PAFBLOCKS N1 =  NSUB(INXSUB(I)> N2  =  NSUB(O) C  C H E C K  A S P E C T  RATIOS CALL  ASPCHK(IPAF,N1,N2) C  ASSIGNING THE  N E W  SUBDIVISION VALUE  O F  N1  A N D  N1  T O  THE  APPROPRIATE C  VARIABLE  NSUBRO(-),NSUBCO(-),NSUBSH(-)  DEPENDING  O N  T H E  PAFBLOCK NSUB(INXSUBd))  = N1 NSUB(0)=N2
+```
+
+```
+6000  CONTINUE RETURN END c ================================================ C SUBROUTINE ITASP  F O R  CENTRAL  PAFBLOCKS  DIMENSIONS  A N D C  ASPECT RATIO INSIDE THE TUNNEL C =====================================================================: SUBROUTINE ITASP IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES),  Y(NNODES) CO M M O N  /  CSHLPR  /  NSHELL, HIN(5),SUMR CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N O D E , N P A F CO M M O N  /  C S H T O P  / NODELE(5000,8) CO M M O N  /  C S U B D V  / NSUB(0:50),MASPCT CO M M O N  /  CRESNI /  NZ, ZSIZE, RATIO CO M M O N  /  CDIM / DIM(4), DMIN,  DMAX,  IPMAX, IPMIN CO M M O N  /  C O U N T  /  KPSH(8), NPSIDE,  NCOL, N R O W CO M M O N  /  C R O K P R  /  MATPRO(20), HT0P(4), HMIDA(4), HMIDC(4), & HB0T(4),NMIDA,NMIDC,NT0P,NB0T DO 6200 J=1,NPSIDE DO 6210  1=1,NCOL-1 IPAF=I+NPLR+(J-1)*2*(NCOL-1) C DIM(1), DIM(2), DIM(3), DIM(4)  ARE  ALWAYS  STRAIGHT LINES DIM(1)=SQRT((X(NODELE(IPAF,1))-X(NODELE(IPAF,2)))**2 & +(Y(NODELE(IPAF,1))-Y(NODELE(IPAF,2)))**2) DIM(2)=SQRT((X(NODELE(IPAF,3))-X(NODELE(IPAF,4)))**2 & +<Y(NODELE(IPAF,3))-Y(NODELE(IPAF,4)))**2) DIM(3)=SQRT((X(NODELE(IPAF,1))-X(NODELE(IPAF,3)))**2 & +(Y(NODELE(IPAF,1))-Y(NODELE(IPAF,3)))**2) DIM(4)=SQRT((X^NODELECIPAF,2))-X(NODELE(IPAF t 4)))**2 & +(Y(NODELE(IPAF,2))-Y(NODELE(IPAF,4)))**2) C  MAXIMUM SUBDIVISION VALUES  O F  N1  A N D N2  F O R PAFBLOCKS N1=NSUB(NSHELL+I) N2=NSUB(NSHELL+NCOL+J+1+NTOP) C  C H E C K  A S P E C T  RATIOS CALL ASPCHK(IPAF,N1,N2) C  ASSIGNING  THE NE W  SUBDIVISION VALUE  O F  N1  A N D  N1  T O  THE  APPROPRIATE C VARIABLE NSUBROC-),NSUBCO(-),NSUBSH(-)  DEPENDING  O N  THE PAFBLOCK NSUB(NSHELL+I)=N1 NSUB(NSHELL+NCOL+J+1+NTOP)=N2 6210 CONTINUE 6200  CONTINUE RETURN END C ===================================================================== C  SUBROUTINE  ZASP  F O R  Z-DIRECTION SUBDIVISION  AND C  ASPECT  RATIO C =====================================================================:
+```
+
+```
+SUBROUTINE  ZASP IMPLICIT DOUBLE PRECISION  (A-H.O-Z) CO M M O N /  CDIM /  DIM(4), DMIN,  DMAX,  IPMAX, IPMIN CO M M O N /  CRESNI  /  NZ,  ZSIZE,  RATIO CO M M O N /  C S U B D V  / NSUB(0:50),MASPCT CO M M O N /  C Z N O D  /  Z(5),  NDEPTH CO M M O N /  C S H L P R  /  NSHELL,  HIN(5),SUMR CO M M O N /  C O U N T /  KPSH(S),  NPSIDE,  NCOL, N R O W CO M M O N /  CSUPIN  /  SAMIN,  SAMAJ,  HANCH(2),  DANCH(2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH, M P A R C H , M A N C H , M P A N C H C  C H E C K IF  A  Z-SUBDIVISION  WHICH  PROVIDES THE  REQUIRED  ASPECT  RATIO C  F O R  THE  EXTREME  ELEMENT  DIMENSIONS  IN  THE  XY-PLANE IS POSSIBLE. C IF  IMPOSSIBLE  STOP  P R O G R A M . c write(6,*)(nsub(i),I=0,NSHELL+NCOL+NROW+NDEPTH) c write(6,*)ipmax,dmax,ipmin,dmin,(period/nz) c write(6,*)zsize c write(6,*)dmax/(period/nz),(period/nz)/dmin IF (DMAX/DMIN.GE.RATIO*RATI0) & WRITE(6,*)'Geometry Conflict  in Z-Subdivision 1 IF (DMAX/DMIN.GE.RAT  10*RAT10)  STOP C  F O R  E A C H  P L A N E  OF PAFBLOCKS DO 10  1=1,NDEPTH J=I+NSHELL+NCOL+NROW ZDIM  =  DABS (Z(I+1)  -  Z ( I ) ) C  E N S U R E  T H A T  Z-SUBDIVISION  IS C O M P A T A B L E  WITH  MINIMUM  X Y - E L E M E N T  SIZE c write(6,*)ipmin,DMIN*RATI0,ZDIM/NSUB(J) IF (DMIN*RATIO.LT.ZDIM/NSUB(J))  THEN c write(6,*)DMIN*RATI0,ZDIM/NSUB(J) NSUB(J)  =  1+  ZDIM  /  (RATIO  *  DMIN) ENDIF C  C H E C K  T H A T  Z-SUBDIVISION  IS  C O M P A T A B L E  WITH  M A X I M U M  X Y - E L E M E N T  SIZE C IF  N O T REDO  SUBDIVISION F R O M  START  WITH  N E W  M A X I M U M  E L E M E N T  SIZE IF (DMAX/RATIQ.GT.ZDIM/NSUB(J)) THEN c wr i  te(6,*)DMAX/RAT10,ZD  IM/NSUB(J),zs  i  ze c WRITE(6,*)IPMAX MASPCT  =  1 ZSIZE  = RATIO*ZDIM/NSUB(J) c write(6,*)zsize ENDIF 10  CONTINUE c wr  i  te(6,*)(nsub(i),I=0,NSHELL+NCOL+NROW+NDEPTH) c RETURN END
+```
+
+## C.4.5 Support Systems - Program supports.f
+
+```
+Q * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * C  P R O G R A M A D D  S U P P O R T S ( A N C H O R A G E S A N D  S T E E L  A R C H E S ) T O TH E T U N N E L C FILENAME=supports.f Q * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * c ======================================================================= C  S U B R O U T I N E WR I T E O U T N O D E S F O R  C E N T R E S O F  S T E E L  A R C H E S C  =======================================================================
+```
+
+```
+SUBROUTINE  N O D A R C IMPLICIT DOUBLE PRECISION (A-H.O-Z) CO M M O N /  C C E N P R  /  XC(10),  YC(10) CO M M O N /  C Z N O D  / Z(5), N D E P T H CO M M O N  /  CKEYPR /K(0:8),NNS,NBS > NPOT,NPLR,NNODE,NPAF CO M M O N  /  CFLAG  /  M S Y M , MDIM DO 30  L=1,mdim-1 DO 20 J=0,1-MSYM DO 10  ICEN=1,5 NCEN  =  NNODE*(NDEPTH+1)+ICEN+J*5  + (L-1)*10 WRITE(8,9)NCEN,(-1)**J*XC(ICEN),YC(ICEN),Z(L) 10 CONTINUE 20 CONTINUE 30 CONTINUE 9 FORMAT (I5,10X,3F10.5) RETURN END C SUBROUTINE ELEMENTS  H E A D E R C ========================================================= SUBROUTINE  ELEHED WRITE(8,*)'ELEMENTS' WRITE(8,*)' N U M B E R  ELEMENT.TYPE  PROPERTIES  TOPOLOGY' RETURN END C SUBROUTINE  A D D  A N C H O R A G E  B E A M  P A F B L O C K S  T O  THE  TUNNEL C  =============================™ SUBROUTINE  ANCHPB IMPLICIT DOUBLE  PRECISION (A-H.O-Z) CO M M O N /  C Z N O D  /  Z(5), N D E P T H CO M M O N  /  CSUPIN /  SAMIN,  SAMAJ,  HANCH(2),DANCH(2). & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH, M P A R C H , M A N C H , M P A N C H CO M M O N  /  CSHLPR  /  NSHELL,  HIN(5),SUMR CO M M O N /  C O U N T  /KPSH(8), NPSIDE,  N C O L , N R O W CO M M O N  /  C K E Y P R  /  K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF CO M M O N  /  C S U B D V  / NSUB(0:50),MASPCT CO M M O N /  C B E A M  /  K A N C H ,  KARCH CO M M O N  /  CFLAG  /  M S Y M , MDIM KTP=6 KET=34000 KANCH=20 DO 30  J=0,1-MSYM DO 20 1=1,2 DO 10  ISHELL=2,NSHELL IPAF = NPAF+(ISHELL-1)+((I-1)+2*J)*(NSHELL-1) N1 =  2  *  NSUB(ISHELL) N2  = 0 N5  = 0 IF  (I.EQ.1)  N A N C H  =  KPSH(2)+KPSH(3)+1 IF  (I.EQ.2)  N A N C H  = 2*KPSH(5)+1
+```
+
+```
+NANCH  =  J*(NNS+2) + ( - 1 ) * * J  *NANCH NANCH1  =  NANCH  +  NNS*(ISHELL-1)  +  NNODE NANCH2  =  NANCH  +  NNS*  ISHELL +  NNODE WRITE(8,9)IPAF,KTP,KET,KANCH,N1,N2,N5,NANCH1,NANCH2 10 CONTINUE 20 CONTINUE 30 CONTINUE 9 F0RHATC9I6) RETURN END C  ================================================================: C  SUBROUTINE  ADD  ANCHORAGE  BEAM  PAFBLOCKS  TO  THE  TUNNEL C  ================================================================ SUBROUTINE  ANCHPBold IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CZNOD  / Z(5), NDEPTH COMMON  / CSUPIN  / SAMIN,  SAMAJ, HANCH(2),DANCH(2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MPARCH,MANCH,MPANCH COMMON  / CSHLPR  / NSHELL,  HIN(5),SUMR COMMON  / COUNT  /KPSH(8),  NPSIDE,  NCOL.NROW COMMON  / CKEYPR  / K(0:8),NNS,NBS.NPOT.NPLR,NNODE,NPAF COMMON  / CSUBDV  / NSUB(0:50),MASPCT COMMON  / CBEAM  / KANCH,  KARCH COMMON  / CFLAG  / MSYM,  MDIM KTP=6 KET=34000 KANCH=20 DO  30  J=0,1-MSYM DO  20 1=1,2 c DO  10  ISHELL=2,NSHELL IPAF  = NPAF+((I-1)+2*J)*(NSHELL-1) c N1  =  NSUB(ISHELL) N1  =  1 N2  =  0 N5  =  0 IF ( I . E Q . 1 ) NANCH  =  KPSH(2)+KPSH(3)+1 IF ( I . E Q . 2 ) NANCH  =  2*KPSH(5)+1 NANCH  =  J*(NNS+2) + ( - 1 ) * * J  *NANCH NANCH1  =  NANCH  +  NNS +  NNODE NANCH2  =  NANCH  +  NNS*  NSHELL  +  NNODE URITE(8,9)IPAF,KTP,KET,KANCH,N1,N2,N5,NANCH1,NANCH2 c 10 CONTINUE 20 CONTINUE 30 CONTINUE 9 F0RMAT(9I6) RETURN END C  ================================================================ C  SUBROUTINE  ADD  ANCHORAGE  AS  RIGID LINKS C  ================================================================
+```
+
+```
+SUBROUTINE  ANCHRL IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CZNOD  / Z(5), NDEPTH COMMON  / CSUPIN  / SAMIN,  SAMAJ,  HANCH(2),DANCH(2>, & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MPARCH.MANCH,MPANCH COMMON  / CSHLPR  / NSHELL, HIN(5),SUMR COMMON  / COUNT  /KPSH(8), NPSIDE,  NCOL.NROW COMMON  / CKEYPR  / K(0:8),NNS,NBS.NPOT.NPLR,NNODE,NPAF COMMON  / CSUBDV  /^NSUB(0:50),MASPCT COMMON  / CBEAM  / KANCH,  KARCH COMMON  / CFLAG  / MSYM,  MDIM INTEGER  NANCH(2) URITE<8 f * ) ' C ' WRITE(8,*)'C WRITE(8,*)'RIGID.LINKS' WRITE(8,*)' N1 N2' DO  30  J=0,1-MSYM DO  20 1=1,2 I F ( I . E Q . 1 ) NANCHO  =  KPSH(2)+KPSH(3)+1 I F ( I . E Q . 2 ) NANCHO  =  2*KPSH(5)+1 NANCHO  =  J*(NNS+2) + ( - 1 ) * * J  *NANCHO c DO  10  ISHELL  =  2,NSHELL c NANCHO) =  NANCHO  +  NNS*( ISHELL-1) +  NNODE c DO  5  JSHELL  =  ISHELL,NSHELL c NANCH(2)  =  NANCHO  +  NNS*(JSHELL)  +  NNODE c WRITE(8,9)  NANCHC2), NANCHO) c 5 CONTINUE c 10 CONTINUE NANCHO)  =  NANCHO  +  NNS +  NNODE NANCH(2)  =  NANCHO  +  NNS*  NSHELL  +  NNODE WRITE(8,9)  NANCHO), NANCHC2) 20 CONTINUE 30 CONTINUE WRITE(8,*)'C WRITE(8,*VC 9 F0RMAT(2I6) RETURN END C  =================================^ C  SUBROUTINE  ADD  STEEL  ARCH  PAFBLOCKS  TO  THE  TUNNEL C =================================================================== SUBROUTINE  ARCHPB IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CSUPIN  / SAMIN,  SAMAJ,  HANCH(2),  DANCH(2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MPARCH,MANCH,MPANCH COMMON  / COUNT  / KPSH(8),  NPSIDE,  NCOL,  NROW COMMON  / CKEYPR  /K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF COMMON  / CFLAG  / MSYM,  MDIM COMMON  / CBEAM  / KANCH,  KARCH COMMON  / CINDEX  / INXSUBO00), INXMAT(IOO) COMMON  / CSUBDV  / NSUB(0:50),MASPCT COMMON  / CSHTOP  / NODELE(5000,8) COMMON  / CSHLPR  / NSHELL, HIN(5),SUMR
+```
+
+```
+KET=34000 KTP=6 DO  50 I=1,NBS N1  =  2*NSUB(INXSUB(I)) N2  =  0 N5  =  0 KARCH=21 IPAF  = I +  NPAF  + (NSHELL-1)*4 C  Next  commented  out i f blok i s used  f o r c o n t i n u a t i o n of s t i l l arc u n t i l pafblock KPSH(6) c IF ((I.LE.KPSH(6)).0R.(1.GT.NBS-KPSH(6)))THEN IF ( (MSYH.EQ.O) .OR. ( I . L E . N B S / 2 ) )  THEN WRITE(8,9)IPAF,KTP,KET,KARCH,N1,N2,N5, & N0DELE(I,3),N0DELE(I,4),N0DELE(I,8) END IF c ENDIF 50 CONTINUE 9 FORMAT(10I6) RETURN END C ======================================================================= C  SUBROUTINE  ADD  STEEL  ARCH  BEAM  ELEMENTS  TO  THE  TUNNEL C ======================================================================= SUBROUTINE  ARCHEL IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CSUPIN  / SAMIN,  SAMAJ,  HANCH(2),  DANCH(2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MPARCH,MANCH,MPANCH COMMON  / COUNT  / KPSH(8), NPSIDE,  NCOL,  NROU COMMON  / CKEYPR  /K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF COMMON  / CFLAG  / MSYM,  MDIM COMMON  / CBEAM  / KANCH,  KARCH KET=34300 DO  20  J=0,1-MSYM NARCH2  =  1  +  NNS DO  10 1=1,7 NARCH1  =  NARCH2 IF ( I . E Q . 1 ) NARCH2  =  2*KPSH(2)  +  1 IF ( I . E Q . 2 ) NARCH2  =  2*KPSH(3)  +  1 IF ( I . E Q . 3 ) NARCH2  =  2*KPSH(4)  +  1 I F ( I . E Q . 4 ) NARCH2  =  2*KPSH(6)  +  1 I F ( I . E Q . 5 ) NARCH2  =  2*KPSH(7) - 1 I F ( I . E Q . 6 ) NARCH2  =  2*KPSH(7) + 1 IF ( I . E Q . 7 ) NARCH2  =  2*KPSH<8)  +  1 NARCH2  =  (J+1)*NNS  + ( - 1 ) * * J *NARCH2 IF ( I . E Q . 1 ) NODCEN  =  1 IF ( I . E Q . 2 ) NODCEN  =  2 IF ( I . E Q . 3 ) NODCEN  =  2 IF ( I . E Q . 4 ) NODCEN  =  3 IF ( I . E Q . 5 ) NODCEN  =  4 IF ( I . E Q . 6 ) NODCEN  =  4 IF ( I . E Q . 7 ) NODCEN  =  5 WRITE(8,9)  4+I+2*J, KET,  KANCH+NODCEN,  NARCH1,  NARCH2 10 CONTINUE 20 CONTINUE 9 FORMAT(5I10) RETURN
+```
+
+```
+END C ======================================================================= C  SUBROUTINE  BEAM  DESCRIPTION  HEADER C ======================================================================= SUBROUTINE  BEMHED WRITE(8,*)'C' WRITE(8,*)'C WRITE(8,*)'BEAMS' WRITE(8,*) &'SECT ION  MATERIAL  AREA IYY IZZ ZY ZZ' RETURN END C ======================================================================= C  SUBROUTINE  ADD  ANCHORAGE  BEAM  DESCRIPTION  TO  THE  TUNNEL C ======================================================================= SUBROUTINE  ANCHBM IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CZNOD  / Z( 5 ) ,  NDEPTH COMMON  / CSUPIN  / SAMIN,  SAMAJ,  HANCHC2),  DANCH(2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MPARCH,MANCH,MPANCH COMMON  / CBEAM  / KANCH,  KARCH PI=2D0*DACOS(0D0) AYY  =  PI*(RANCH)**4/8 AZZ  =  PI*(RANCH)**4/8 ZY =  PI*(RANCH)**3/4 ZZ =  PI*(RANCH)**3/8 WRITE(8,9)  KANCH,  MPANCH,  5D-1*PI*SANCH*SANCH, &  AYY,  AZZ, ZY, ZZ 9 FORMAT(2I5,5E10.3) RETURN END C  =======^============================================================== C  SUBROUTINE  ADD  STEEL  ARCH  BEAM  DESCRIPTION  TO  THE  TUNNEL C ======================================================================= SUBROUTINE  ARCHBM IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CZNOD  / 1(5), NDEPTH COMMON  / CSUPIN  / SAMIN,  SAMAJ,  HANCH(2),DANCH(2), & RANCH,AANCHC2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MPARCH,MANCH,MPANCH COMMON  / CBEAM  / KANCH,  KARCH COMMON  / CKEYPR  / K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF KARCH  =21 AREA  =  2D0*SAMAJ2*SAMAJ - 2*(SAMAJ2-SAMIN)*(SAMAJ-SAMIN) AYY  = ( 2 / 3 ) * ( ( S A M A J ) * * 3 ) * ( 2 * S A M I N ) + ( ( 1 / 3 ) * ( 2 * ( S A M A J 2 ) * ( S A M A J ) * * 3 ) * ( 1 5 E 6 / 2 0 6 E 9 ) AZZ  =  (((2*SAMAJ)**2)*<2*SAMIN)*<2*SAMAJ>/4 +  (2*SAMAJ2)/6  + & ( ( 1 / 1 2 ) * ( S A M A J ) * ( 2 * S A M A J 2 ) * * 3 ) * ( 1 5 E 6 / 2 0 6 E 9 ) ZY =  AYY  / SAMAJ/2 ZZ =  AZZ  / (2*SAMAJ2)/2 URITE(8,9)KARCH,MPARCH,AREA,  AYY,  AZZ,  ZY,  ZZ 9 FORMAT(2I5,5E10.3) RETURN
+```
+
+```
+END C  ============================================================ C  SUBROUTINE  ADD  STEEL  ARCH  BEAM  DESCRIPTION  TO THE TUNNEL C ========================================================= SUBROUTINE  ARCHBMold IMPLICIT  DOUBLE  PRECISION ( A - H , 0 - Z ) COMMON  / CZNOD  / Z(5),  NDEPTH COMMON  / CSUPIN  / SAMIN,  SAMAJ,  HANCH(2),  DANCH(2), & RANCH,AANCHC2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MPARCH,MANCH,MPANCH COMMON  / CBEAM  / KANCH,  KARCH COMMON  / CKEYPR  / K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF AREA  =  2D0*SAMAJ2*SAMAJ  - 2*(SAMAJ2-SAMIN)*(SAMAJ-SAMIN) AYY  =  4*SAMIN*SAMAJ**3  +  SAMIN**3*(2*SAMAJ2-4*SAMIN) AZZ  =  4*SAMAJ2**2*SAMIN  +  8*SAMIN*(SAMAJ-SAMIN) ZY =  AYY  / SAMAJ ZZ =  AZZ  / (2*SAMAJ2) DO  10  ICEN=1,10 10 WRITE(8,9)KANCH+ICEN,MPARCH,AREA,  AYY,  AZZ,  ZY,  ZZ 9 FORMAT(2I10,5E10.3,I5) RETURN END
+```
+
+## C.4.6  Write Out of Two- and Three-Dimensional Models-Subroutine WRTOUT
+
+```
+( ; * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * C PROGRAM  TO  FIND  NEU COORDINATES  OF  TUNNEL  ANDFE-PAFBLOCK  DESIGN C FILENAME =wrtOUt .f C** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * C ======================================================================= C  SUBROUTINE-WRTOUT2  FOR -WRITE-OUT-OF  3-D-MODEL - C ======================================================================= SUBROUTINE  WRTOUT IMPLICIT  DOUBLE  PRECISION (A-H.O-Z) COMMON  / CFLAG / MSYM,  MDIM COMMON  / CZNOD  / Z(5),  NDEPTH COMMON  / CSUPIN  / SAMIN,  SAMAJ,  HANCH<2),  DANCHC2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MPARCH,MANCH,MPANCH CALL  HEDURT c CALL  ONESUB CALL  URTMAX CALL  NODWRT CALL  NODARC CALL  PAFWRT CALL  PAFSET DO  10  IDEPTH=1,NDEPTH CALL  SHWRT(IDEPTH) CALL  RLWRT(IDEPTH) CALL  TPWRT(IDEPTH) CALL  BTWRT(IDEPTH) wr i t e ( 6 , * ) ' L a s t Ring' CALL  LRWRT(IDEPTH) wr i t e ( 6 , * ) ' I n s i d e Tunnel' CALL ITWRT(IDEPTH)
+```
+
+```
+10 CONTINUE
+```
+
+```
+IF (MDIM.EQ.3)  THEN IF  ((MANCH.EQ.1).OR.(MARCH.EQ.1))  THEN I F (MANCH.EQ.1)  CALL  ANCHPB I F (MARCH.EQ.1)  CALL  ARCHPB CALL  BEMHED I F (MANCH.EQ.1)  CALL  ANCHBM I F (MARCH.EQ.1)  CALL  ARCHBM ENDIF END IF CALL  EXCLOC IF (MDIM.EQ.2)  CALL  F2DWRT IF (MDIM.EQ.3)  CALL  F3DWRT RETURN END C  SUBROUTINE  HEDWRT:  OPEN  FILE  AND  WRITE  OUT  HEADER C ============================================================== SUBROUTINE  HEDWRT IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) CHARACTERS 0  TNAME,TKM CHARACTER*3  ZEXCVT(9), FILE*6 DATA  ZEXCVT/' 1 ' , ' 2 A ' , ' 2 B ' , ' 3 A ' , ' 3 B ' , ' 4 ' , ' 5 A ' , ' 5 B ' , ' 6 ' / COMMON  / CSHLPR  / NSHELL, HIN(5),SUHR COMMON  / CROKPR  / MATPRO(20),  HTOP(4),  HMIDA(4), HMIDC(4), & HBOT(4) l NMIDA,NMIDC,NTOP,NBOT COMMON  / CKEYPR  /K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF COMMON  / CSUPIN  / SAHIN,  SAMAJ,  HANCH(2),  DANCH(2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MPARCH,MANCH,MPANCH COMMON  / CEXCIN  / NEXCVT,MEXCVT(0:9),MSHOT(0:9),KSHOT,HSHOT, & MINNER,KINNER,HINNER COMMON  / CROKIN  / NLAY,  HINLAY(20),  MLAY(20), HLAY(20) COMMON  / CTUNIN  / H, HOVER,  HUNDER COMMON  / CTUNNA  / TNAME,  TKM COMMON  / CZNOD  / Z(5), NDEPTH COMMON  / CRESNI  / NZ,  ZSIZE, RATIO COMMON  / CFLA6 / MSYM,  MDIM COMMON  / CANGLE  / DRAD,BETA(22) C  PRINTOUT  NODES C  Find  f i l e s name CALL  GETENV ( " f i l e " , F I L E ) 0PEN(8,FILE=FILE//'.DAT') WRITE(8,*)'TITLE', MDIM,'D-TUNNEL  COORDINATES  AND  FE-MESH  DESIGN 1 WRITE(8,*)'C' WRITE(8,*)'C APPLIED  MECHANICS  GROUP' WRITE(8,*)'C SCHOOL  OF  ENGINEERING' WRITE(8,*)'C UNIVERSITY  OF  DURHAM' WRITE(8,*)'C WRITE(8,*)'C WRITE(8,*)'C  TUNNEL  NAME  =  ',TNAME WRITE(8,*)'C  KM = ',TKM WRITE(8,*)'C  CLEAR  HEIGTH  OF  TUNNEL  IN  METERS  = ' , H WRITE(8,*)'C HEIGTH  OF  OVERBURDEN  IN  METERS  =',HOVER WRITE(8,*)'C INPUT  HEIGHT  UNDER  TUNNEL  IN  METERS  =',HUNDER WRITE(8,*)'C INPUT  NUMBER  OF  ROCK  LAYERS  = ' , NLAY DO  10  ILAY=1,NLAY WRITE(8,*) &'C HEIGHT  OF  LAYERS  FROM  GROUND  SURFACE  IN  METERS =',HINLAY(ILAY)
+```
+
+## WRITE(8,*)'C  MATERIAL  PROPERTIES  OF  LAYER, = 1 ,MLAY &lt;I LAY &gt;
+
+```
+10 CONTINUE WRITE(8,*)'C  MATERIAL  PROPERTY  OF  REST  OF  GROUND  =',MLAY(NLAY+1) URITE(8,*)'C  NUMBER  OF  SHELLS  =',NSHELL DO  400  ISHELL=1,NSHELL IF  (ISHELL.GT.(NSHELL-D)  THEN URITE(8,39)'C  HEIGTH  OF  FLATTENED  SHELL  NUMBER*, & I SHELL,'IN  METERS  = 1 , HIN(ISHELL) ELSE WRITE(8,*)'C HEIGTH  OF  CIRCULAR  SHELL  NUMBER 1 , & I SHELL,'IN  METERS  = ·,HIN(ISHELL) ENDIF 400 CONTINUE 39 FORMAT(1X,A34,I4,A12,F4.2) WRITE(8,*) &'C  WHAT  ROCK  TYPE  OF  EXCAVATION  ?, 0)A,B  OR  1)C  =',NEXCVT I F (NEXCVT.EQ.1)  THEN JEXCVT=9 WRITE(8,*)'C C  ROCK  TYPE  OF  EXCAVATION' WRITE(8,*)'C  1 ,  2A, 2B,  3A, 3B, 4, 5A, 5B,  6 ' ELSE JEXCVT=6 WRITE(8,*)'C  A,B  ROCK  TYPE  OF  EXCAVATION' WRITE(8,*) 'C 1 , 2 A, 2B,  3A, 3B, 4 ' ENDIF KEXCVT=JEXCVT IEXCVT=0 20 IEXCVT  =  IEXCVT  +  1 I F  (MEXCVT(IEXCVT).EQ.D  KEXCVT=IEXCVT-1 I F  ((MEXCVT(IEXCVT).EQ.O) .AND. (IEXCVT.LT.KEXCVT))  GO  TO  20 I F (KEXCVT.EQ.O)  THEN WRITE(8,*)'C NO  EXCAVATION' ELSE WRITE(8,*)'C  REGIONS  EXCAVATED: ' , &  (ZEXCVT(IEXCVT),IEXCVT=1,KEXCVT) ENDIF WRITE(8,29)'C  MAJOR  (1/2) WIDTH  OF  STEEL  ARCH  (Z)= 1 ,SAMAJ WRITE(8,*)'C  2nd  MAJOR  (1/2) WIDTH  OF  STEEL  ARCH  (Y) =',SAMAJ2 WRITE(8,*)'C  HEIGHT  OF ANCHORAGES  1  AND  2  = '.HANCH WRITE(8,*)'C LENGHT  OF  ANCHORAGES  1  AND  2  = ' , DANCH WRITE(8,19)'C  RADIUS  OF  ANCHORAGES  = ',RANCH WRITE(8,*)'C  ANGLE  OF  ANCHORAGES  1  AND  2='.AANCH/DRAD WRITE(8,*)'C THE  MATERIAL  PRO.OF  THE  SHOTCRETE  USED  =',KSHOT WRITE(8,*)'C THICKNESS  OF  SHOTCRETE  =',HSHOT WRITE(8,*)'C IS  THERE  AN  INNER  LINING  ?  =',MINNER WRITE(8,*)'C  0) NO  or 1) YES' WRITE(8,*)'C  THE  MATERIAL  PRO.OF  THE  INNER  LINING =',KINNER WRITE(8,*)'C THE  THICKNESS  OF  THE  INNER  LINNING=',HINNER WRITE(8,*)'C  RESOLUTION  = ' , NZ WRITE(8,*)'C IS  THIS  EXAMPLE  A  SYMMETRICAL  MODEL  ?  = ' ,  MSYM WRITE(8,*)'C  0) NO  or 1)  YES ' WRITE(8,*)'C  NUMBER  OF  DIMENSIONS  ?  (2  OR  3) =',MDIM WRITE(8,*)'C' WRITE(8,*)'C  THE  COORDINATES  OF  THE  NODES  CORRESPONDING  TO' WRITE(8,*)'C  THE  STRUCTURE  ARE  GIVEN  BELOW  EXPRESSED  IN  METERS.' WRITE(8,*)'C WRITE(8,*)'C  THERE  IS  ONLY  NEED  TO  SPECIFY  THE  CORNER  NODES' WRITE(8,*)'C  OF  THE  ELEMENTS,  SINCE  PAFEC  WILL  CALCULATE ' WRITE(8,*)'C  AUTOMATICALLY  THE  COORDINATES  OF  THE  MID-SIDE  NODES.' 29 FORMAT(1X,A39,F5.3) 19 FORMAT(1X,A25,F5.3)
+```
+
+```
+RETURN END c  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = C  SUBROUTINE  ONESUB:  SET ALL SUBDIVISIONS  TO  ONE C  ==================================================================== SUBROUTINE  ONESUB IMPLICIT  DOUBLE  PRECISION (A-H.O-Z) COMMON  / CSUBDV  / NSUB(0:50),MASPCT COMMON / CSHLPR  / NSHELL, HIN(5),SUMR COMMON  / COUNT / KPSH<8),  NPSIDE,  NCOL,  NROU COMMON / CZNOD  / Z(5),  NDEPTH DO  10  I=0,NSHELL+NCOL+NROU+NDEPTH 10 NSUB(I)=1 RETURN END C ==================================================================== C  SUBROUTINE  PROVIDE  DUMMY  VARIABLES  FOR  SUBDIVISIONS C  ==================================================================== SUBROUTINE  DUMSUB IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) PARAMETER(NNODES=5000) COMMON  / CHFXPR  / HFX(17) COMMON / CSHLPR  / NSHELL, HIN(5),SUMR COMMON / CROKPR  / MATPRO(20),  HTOP(4), HMIDA(4), HMIDC(4), & HB0T(4),NMIDA,NMIDC,NT0P,NBOT COMMON / CSUBDV  / NSUB(0:50),MASPCT COMMON / COUNT / KPSH(8),  NPSIDE,  NCOL,  NROU COMMON / CZNOD / Z(5),  NDEPTH DO  10  L=0,NSHELL 10 NSUB(L)  = 100 DO  20  L=1,NCOL 20 NSUBCNSHELL+L)  = 100 DO 30 L=1,NROW 30 NSUBCNSHELL+NCOL+L)  = L DO 40  L=1,NDEPTH 40 NSUB(NSHELL+NCOL+NROW+L)  = 100 RETURN END C ==================================================================== C  SUBROUTINE  NODURT  FOR  NODE  CORRDINATES  WRITE  OUT C ====================================================================: SUBROUTINE  NODURT IMPLICIT  DOUBLE  PRECISION (A-H.O-Z) PARAMETER(NNODES=5000) COMMON / CNODES  / X(NNODES),  Y(NNODES) COMMON / CKEYPR  /K(0:8),NNS,NBS.NPOT.NPLR,NNODE,NPAF COMMON / CZNOD  / Z(5),  NDEPTH COMMON / CFLAG / MSYM,  MDIM C  PRINTOUT  NODES WRITE(8,*)'C' WRITE(8,*)'NODES' WRITE(8,*)'NODES.NUMBER X Y Z 1 DO 410  IDEPTH=1,MDIM-1 DO 420 IN0DE=1,NN0DE 420 WRITE(8,9)IN0DE+NN0DE*(IDEPTH-1),X(IN0DE),Y(IN0DE),Z(IDEPTH)
+```
+
+```
+410  CONTINUE 9 FORMAT ( I 5 , 1 0 X , 3 F 1 0 . 5 > RETURN END C  ============================================================^^ C  SUBROUTINE  PAFWRT  WRITE  OUT  HEADER  FOR  PAFBLOCKS C  ============================================ SUBROUTINE  PAFWRT COMMON  / CFLAG / MSYM,  MDIM WRITE(8 f * ) ' C ' WRITE(8,*)'C' WRITE(8,*)'PAFBLOCKS' I F  (MDIM.EQ.2) WRITE(8,*) & 'BLOCK.NUMBER  TYPE  ELEMENT.TYPE  PROPERTIES  N1  N2  N3  TOPOLOGY' I F  (MDIM.EQ.3) WRITE(8,*) & 'BLOCK.NUMBER  TYPE  ELEMENT.TYPE  PROPERTIES  N1  N2  N5  TOPOLOGY' RETURN END C ==================================================================== C  SUBROUTINE  PAFSET  SET  TYPE  OF  PAFBLOCKS  FOR  SYSTEM C ==================================================================== SUBROUTINE  PAFSET COMMON  / CFLAG / MSYM,  MDIM COMMON  / CPAFBL  / KTY,  KET C  ELEMENT.TYPE=KET C  EIGHT  NODED  ISOPARAMETRIC  CURVILINEAR  QUADRILATERAL  ELEMENT C  FOR  PLANE.STAIN,  PLANE.STRESS  AND  AXI SYMMETRIC  PROBLEMS  36210 C  EIGHT  NODED  QUADRATIC  ELEMENTS IF (MDIM.EQ.2) KET=36210 C  20  NODED  ISOPARAMETRIC  CURVILINEAR  QUADRILATERAL  ELEMENT c _fP R _ 3 _: D ^BP_ B JL EM 1_37110 C  20  NODED  QUADRATIC  ELEMENTS IF (MDIM.EQ.3) KET=37110 C  PAFBLOCK.TYPE=KTY C  KTY=1  QUADRALATERAL  BASED  ELEMENTS KTY=1 RETURN END C ==================================================================== C  SUBROUTINE  SET  EXCAVATION  INDEX  FOR  SHELLS C ==================================================================== SUBROUTINE  EXCTSH  (I.IEXCVT) IMPLICIT  DOUBLE  PRECISION (A-H.O-Z) COMMON  / CEXCIN  / NEXCVT,MEXCVT(0:9),MSHOT(0:9),KSHOT,HSHOT, & MINNER,KINNER,HINNER COMMON  / COUNT / KPSH(8),  NPSIDE,  NCOL,  NROU COMMON  / CKEYPR  /K(0:8),NNS,NBS,NPOT,NPLR,NN0DE,NPAF C  WHICH  REGION  EXCAVATED  ?  FOR  ROCK  TYPE  A,B  OR C C  IF  NEXCVT.EQ.O  THEN  EXCAVATION  FOR  ROCK  TYPE  A,B  ELSE C  IF  NEXCVT.EQ.1  THEN  EXCAVATION  FOR  ROCK  TYPE  C
+```
+
+```
+IF (NEXCVT.EQ.O)  THEN C  EXCAVATION  FOR  ROCK  TYPE  A  AND  B I F O . L E . 2 ) THEN IEXCVT=1 ELSE  IF(I.LE.KPSH(4)) THEN IEXCVT=2 ELSE  IFO.LE.NBS/2-2)  THEN IEXCVT=5 ELSE  IF(I.LE.NBS/2+2) THEN IEXCVT=6 ELSE  IF(I.LE.NBS-KPSH(4)) THEN IEXCVT=4 ELSE  IF(I.LE.NBS-2)  THEN IEXCVT=3 ELSE IEXCVT=1 END IF ELSE C  EXCAVATION  FOR  ROCK  TYPE  C I F ( I . L E . I ) THEN IEXCVT=1 ELSE  IF(I.LE.KPSH(3)) THEN IEXCVT=3 ELSE  IF(I.LE.KPSH(4)) THEN IEXCVT=5 ELSE  IF(I.LE.NBS/2-2) THEN IEXCVT=8 ELSE  IFO.LE.NBS/2+2)  THEN IEXCVT=9 ELSE  IF(I.LE.NBS-KPSH(4)) THEN IEXCVT=7 ELSE  IF(I.LE.NBS-KPSH(3)) THEN IEXCVT=4 ELSE  IF(I.LE.NBS-I) THEN IEXCVT=2 ELSE IEXCVT=1 END IF END IF RETURN END C ===================================================================== C  SUBROUTINE  SET  EXCAVATION  INDEX  FOR  INSIDE  TUNNEL SUBROUTINE  EXCTIT ( I , J , I E X C V T ) IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CEXCIN  / NEXCVT,MEXCVT(0:9),MSHOT(0:9),KSHOT,HSHOT, & MINNER,KINNER,HINNER COMMON  / CROKPR  / MATPRO(20),  HTOP(4), HMIDA(4), HMIDC(4), & HB0T(4),NMIDA,NMIDC,NT0P,NB0T COMMON  / COUNT / KPSH(8),  NPSIDE,  NCOL,  NROU COMMON  / CKEYPR  /K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF C  WHICH  REGION  EXCAVATED  ?  FOR  ROCK  TYPE  A,B  OR C C  IF  NEXCVT.EQ.O  THEN  EXCAVATION  FOR  ROCK  TYPE  A,B  ELSE C  IF  NEXCVT.EQ.1  THEN  EXCAVATION  FOR  ROCK  TYPE  C I F (NEXCVT.EQ.O)  THEN C  EXCAVATION  FOR  ROCK  TYPE  A  AND  B I F (J.LE.3+NMIDA)  THEN IF ( I . L E . 2 ) THEN IEXCVT=1 ELSE  IF ( I . L E . N C O L - 1 )  THEN IEXCVT=2
+```
+
+```
+ELSE  IF (I.LE.NCOL+1)  THEN IEXCVT=1 ELSE IEXCVT=3 ENDIF ELSE I F ( I . L E . 2 ) THEN IEXCVT=6 ELSE  IF ( I . L E . N C O L - 1 )  THEN IEXCVT=5 ELSE  IF (I.LE.NCOL+1)  THEN IEXCVT=6 ELSE IEXCVT=4 ENDIF ENDIF C  EXCAVATION  FOR  ROCK  TYPE  C ELSE I F ( J . L E . 2 ) THEN I F ( I . L E . 1 ) THEN IEXCVT=1 ELSE  IF ( I . L E . N C O L - 1 )  THEN IEXCVT=3 ELSE  IF (I.LE.NCOL)  THEN IEXCVT=1 ELSE IEXCVT=2 ENDIF ELSE  IF  (J.LE.3+NHIDA)  THEN IF ( I . L E . 2 ) THEN IEXCVT=6 ELSE  IF ( I . L E . N C O L - 1 )  THEN IEXCVT=5 ELSE  IF (I.LE.NCOL+1)  THEN IEXCVT=6 ELSE IEXCVT=4 ENDIF ELSE I F ( I . L E . 2 ) THEN IEXCVT=9 ELSE  IF ( I . L E . N C O L - 1 )  THEN IEXCVT=8 ELSE  IF(I.LE.NCOL+1)  THEN IEXCVT=9 ELSE IEXCVT=7 ENDIF ENDIF ENDIF RETURN END C  ================================================ C  SUBROUTINE  WRITE  OUT  PAFBLOCK  TOPOLOGY C = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 1 SUBROUTINE  WRITES(IDEPTH,IPAF,KPR,N1,N2,N5) COMMON  / CPAFBL  / KTY,  KET COMMON  / CFLAG / MSYM,  MDIM COMMON  / CSHTOP  / NODELE(5000,8) COMMON  / CKEYPR  /K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF INTEGER  N3DELEC20) I F (MDIM.EQ.2)  THEN C  WRITE  OUT  2-D  FORM N3  =  0 WRITE(8,9)IPAF,KTY,KET,KPR,N1,N2,N3,(N0DELE(IPAF,L),L=1,8)
+```
+
+<!-- image -->
+
+Logo
+
+ELSE
+
+```
+C  CONVERSION  FROM  2D  TO  3D  TOPOLOGY DO  10 L=1,4 N3DELE(L)=NODELE(IPAF,L)+NN0DE  *(IDEPTH-1) N3DELE(4+L)=N0DELE(IPAF,L)+NN0DE *IDEPTH N3DELE(12+L)=0 I F (NODELE(IPAF,4+L).NE.0)  THEN N3DELE(8+L)=NODELE(IPAF,4+L)+NNODE  *(IDEPTH-1) N3DELE(16+L)=NODELE(IPAF,4+L)+NNODE  *IDEPTH ELSE N3DELE(8+L)=0 N3DELE(16+L)=0 END IF 10 CONTINUE C  WRITE  OUT  3-D  FORM WRITE(8,19)IPAF+NPAF*(IDEPTH-1) f KTY,KET,ICPR,N1,N5 f N2 WRITE(8,29)'* ' , ( N 3 D E L E ( L ) , L = 1 , 8 ) WRITE(8,39)'* \ ( N 3 D E L E ( L ) , L = 9 , 2 0 ) END IF 9 FORMAT(2X,716,814) 19 F0RMAT(7I6) 29 FORMAT(A2,8I5) 39 FORMAT(A2,12I5) RETURN END C  ==================^ C  SUBROUTINE  SHWRT  WRITES  OUT  SHELL  PAFBLOCK  TOPOLOY C  ================================================================== SUBROUTINE  SHWRT  (IDEPTH) IMPLICIT  DOUBLE  PRECISION (A-H.O-Z) COMMON  / CSHLPR  / NSHELL, HIN(5),SUMR COMMON  / CKEYPR  /K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF COMMON  / CSUBDV  / NSUB(0:50),MASPCT COMMON  / CROKPR  / MATPRO(20),  HTOP(4),  HMIDA(4), HMIDCC4), & _ HBOT{^),piDA,NMID_C,NTOP l NBOT COMMON  / CEXCIN  / NEXCVT,MEXCVT(0:9),MSHOT(0:9),KSHOT,HSHOT, & MINNER,KINNER,HINNER COMMON  / CFLAG / MSYM,  MDIM COMMON  / CINDEX  / INXSUB(100), INXMAT(100) COMMON  / COUNT / KPSH(8),  NPSIDE,  NCOL,  NROW C  SHELLS  PAFBLOCKS  TOPOLOGY  (FROM  (1+NBS*ISHELL)  TO  (30+NBS*ISHELD) DO  6500 ISHELL=0,(NSHELL-1) DO  6550 I=1,NBS C  KTY=PAFBLOCKS.TYPE,  KET=ELEMENT.TYPE,  KPR=MATERIAL.PROPERTIES,  N1,5=PAFBLOCK C  DIVISION  NUMBER  ALONG  THE  X,Y  AND  ZSIZE  AXIS. C  SHELL  PAFBLOCK  TOPOLOGY  SUBDIVISIONS IPAF=I+NBS*ISHELL C  SUBDIVISION  VALUES  OF  N1  AND  N2  FOR  PAFBLOCKS N1  =  NSUB(INXSUBd)) N2  =  NSUBUSHELL+1) N5  =  NSUB(NSHELL+NCOL+NROW+IDEPTH) C  MATERIAL  PROPERTIES  KPR
+```
+
+```
+KPR=MATPR0(INXMAT(I)) C  SET  EXCAVATION  INDEX IF ( I S H ELL.LE.1)  THEN CALL  EXCTSH ( I , I E X C V T ) ELSE IEXCVT  =  0 ENDIF C  CONCRETE  LINNINGS IF (MEXCVT(IEXCVT).EQ.O)  THEN I F (ISHELL.EQ.O)  THEN IF (MINNER.EQ.1)  THEN KPR=KINNER IEXCVT  =  0 ENDIF ELSE  IF (ISHELL.EQ.1)  THEN IF  (MSHOT(IEXCVT).EQ.1)  THEN IEXCVT  =  0 KPR  =  KSHOT IEXCVT  =  0 ENDIF ENDIF ELSE I F (ISHELL.EQ.O)  THEN KPR  =  9 ENDIF ENDIF C  I f excavated  set material property t o AIR I F  (MEXCVT(IEXCVT).EQ.O)  THEN KPR  =  9 ENDIF C  CONVERT  TO  3-D  MATERIAL  DESCRIPTIONS I F (MDIM.EQ.3)  KPR  =  10  +  KPR IF ( (MSYM.EQ.O) .OR. ( I . L E . N B S / 2 ) )  THEN CALL WRITES(IDEPTH,IPAF,KPR,N1,N2,N5) ENDIF 6550 CONTINUE 6500  CONTINUE RETURN END C  ========================================================= C  SUBROUTINE  RLWRT  WRITES  OUT  RIGTH  AND  LEFT  HAND  SIDES  OF  TUNNEL  PAFBLOCK  TOPOLOGY C  =================================================================================, SUBROUTINE  RLWRT  (IDEPTH) IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / COUNT / KPSH(8),  NPSIDE,  NCOL,  N R O W COMMON  / CSHLPR  / NSHELL, HIN(5),SUMR COMMON  / CKEYPR  /K(0:8),NNS,NBS.NPOT.NPLR,NNODE,NPAF COMMON  / CROKPR  / MATPRO(20),  HTOP(4), HMIDA(4), HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT COMMON  / CSUBDV  / NSUB(0:50),MASPCT COMMON  / CFLAG / MSYM,  MDIM C  OUTER  PAFBLOCKS  TOPOLOGY  RIGHT  HAND  SIDE  OF  THE  SHELL DO  6570 1=1,NPSIDE IPAF=I+NBS*NSHELL C  SUBDIVISION  VALUES  OF  N1  AND  N2  FOR  PAFBLOCKS
+```
+
+```
+N1=NSUB(NSHELL+NC0L+I+1+NT0P) N2=NSUB(NSHELL+NCOL) N5=NSUB(NSHELL+NCOL+NROW+IDEPTH) C  MATERIAL  PROPERTIES  KPR KPR=MATPR0(I+1+NT0P) C  CONVERT  TO  3-D  MATERIAL  DESCRIPTIONS I F (MDIM.EQ.3)  KPR  =  10  +  KPR CALL WRITES(IDEPTH,IPAF,KPR,N1,N2,N5) 6570  CONTINUE C  OUTER  PAFBLOCKS  TOPOLOGY  LEFT  HAND  SIDE  OF  SHELL DO  6600 I=1,NPSIDE IPAF=I+NPSIDE+NBS*NSHELL C  SUBDIVISION  VALUES  OF  N1  AND  N2  FOR  PAFBLOCKS N1=NSUB(NSHELL+NCOL+NPSIDE+NTOP+2-I) N2=NSUB(NSHELL+NCOL) N5=NSUB(NSHELL+NCOL+NROW+IDEPTH) C  MATERIAL  PROPERTIES  KPR KPR=MATPRO(NPSIDE+NTOP+2-I) C  CONVERT  TO  3-D  MATERIAL  DESCRIPTIONS I F (MDIM.EQ.3)  KPR  =  10  +  KPR I F (MSYM.EQ.O)  THEN CALL  WRITESODEPTH, IPAF,KPR,N1 ,N2,N5) END IF 6600  CONTINUE RETURN END C  ===========================^ C  SUBROUTINE  TPWRT  WRITES  OUT  TOP  REGION  PAFBLOCK  TOPOLOGY C  ================================= SUBROUTINE  TPWRT  (IDEPTH) IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CSHLPR  / NSHELL, HIN(5),SUMR COMMON  / COUNT / KPSH(8),  NPSIDE,  NCOL,  NROW COMMON  / CKEYPR  /K(0:8),NNS t NBS,NPOT,NPLR,NNODE,NPAF COMMON  / CSHTOP  / NODELE(5000,8) COMMON  / CROKPR  / MATPRO(20),  HT0P(4), HMIDA(4), HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT COMMON  / CSUBDV  / NSUB(0:50),MASPCT COMMON  / CFLAG / MSYM,  MDIM DO  6700 ITOP=0,NTOP DO  6800 I=1,2*NCOL IPAF=I+2*NPSIDE+NBS*NSHELL+2*NCOL*I TOP C  SUBDIVISION  VALUES  OF  N1  AND  N2  FOR  PAFBLOCKS IF (I.LE.NCOL) THEN N1=NSUB(NSHELL+I) ELSE N1=NSUB(NSHELL+2*NCOL+1-I)
+```
+
+```
+END IF
+```
+
+```
+N2=NSUB(NSHELL+NCOL+ITOP+1) N5=NSUB(NSHELL+NCOL+NROU+IDEPTH) C  MATERIAL  PROPERTIES  KPR I F (ITOP.EQ.0)  THEN C  PERMINENT  R O W KPR=MATPRO(NTOP+1) ELSE C  EXTRA  LAYERS KPR=MATPRO(IT0P) END IF C  CONVERT  TO  3-D  MATERIAL  DESCRIPTIONS I F (MDIM.EQ.3) KPR  =  10  +  KPR I F ( (MSYM.EQ.O) .OR. (I.LE.NCOL) )  THEN CALL  WRITESODEPTH,IPAF.KPR.N1 ,N2,N5) END IF 6800 CONTINUE 6700  CONTINUE RETURN END C  ===================================================== C  SUBROUTINE  BTWRT  WRITES  OUT  BOTTOM  REGION  PAFBLOCK  TOPOLOGY C ============================================================== SUBROUTINE  BTWRT  (IDEPTH) IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON  / CSHLPR  / NSHELL, HIN(5),SUMR COMMON  / COUNT / KPSH(8),  NPSIDE,  NCOL,  N R O W COMMON  / CKEYPR  /K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF COMMON  / CROKPR  / MATPRO(20),  HTOP(4), HMIDA(4), HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT COMMON  / CSUBDV  / NSUB(0:50),MASPCT COMMON  /CFLAG / MSYM,  MDIM DO  6900  IBOT=0,NBOT DO  6950J=1,_2*NCOL IPAF=I+2*NPSIDE+NBS*NSHELL+2*NCOL*(NTOP+1+IBOT) C  SUBDIVISION  VALUES  OF  N1  AND  N2  FOR  PAFBLOCKS IF (I.LE.NCOL) THEN N1=NSUB(NSHELL+I) ELSE N1=NSUB(NSHELL+2*NC0L+1-1) END IF N2=NSUB(NSHELL+NCOL+NPSIDE+IBOT+NTOP+2) N5=NSUB(NSHELL+NCOL+NROW+IDEPTH) C  MATERIAL  PROPERTIES  KPR KPR=MATPRO(NPSIDE+IBOT+NTOP+2) C  CONVERT  TO  3-D  MATERIAL  DESCRIPTIONS I F (MDIM.EQ.3) KPR  =  10  +  KPR I F ( (MSYM.EQ.O) .OR. (I.LE.NCOL) )  THEN CALL  WRITES(IDEPTH,IPAF.KPR.N1,N2,N5) END IF 6950 CONTINUE 6900  CONTINUE
+```
+
+RETURN
+
+END
+
+```
+c  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = ^ C  SUBROUTINE  LRURT  WRITES  OUT  LAST  RING  PAFBLOCK  TOPOLOGY  INSIDE  THE TUNNEL SUBROUTINE  LRWRT  (IDEPTH) IMPLICIT  DOUBLE  PRECISION (A-H.O-Z) COMMON / CSHLPR  / NSHELL, HIN(5),SUMR COMMON / CKEYPR  /K(0:8),NNS,NBS.NPOT.NPLR,NNODE,NPAF COMMON / CROKPR  / MATPRO(20),  HTOP<4),  HMIDA(4), HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT COMMON / CSUBDV  / NSUB(0:50),MASPCT COMMON / CEXCIN  / NEXCVT,MEXCVT(0:9),MSHOT(0:9),KSHOT,HSHOT, & MINNER,KINNER,HINNER COMMON / COUNT / KPSH(8),  NPSIDE,  NCOL,  N R O W COMMON  / CINDEX  / INXSUB(100), INXMATC100) COMMON / CFLAG / MSYM,  MDIM DO  7000 1=1,NBS IPAF=I+NPOT C  SUBDIVISION  VALUES  OF N1 AND  N2 FOR  PAFBLOCKS N1  =  NSUBdNXSUB(I)) N2  =  NSUB(O) N5  =  NSUB(NSHELL+NCOL+NROW+IDEPTH) C  MATERIAL  PROPERTIES KPR KPR=MATPRO( INXMAT ( I ) ) C  SET EXCAVATION  INDEX CALL  EXCTSH  (I.IEXCVT) C  Give  A i r  M a t e r i a l Properties t o  PAFBLOCK i n s t e a d  of  Removing i t I F  (MEXCVT(IEXCVT).EQ.O)  THEN KPR  = 9 END IF C  CONVERT  TO 3-D MATERIAL  DESCRIPTIONS IF (MDIM.EQ.3)  KPR =  10 +  KPR IF  (  (MSYM.EQ.O) .OR. ( I . L E . N B S / 2 ) )  THEN CALL WRITES(IDEPTH,IPAF,KPR,N1,N2,N5) END IF 7000  CONTINUE RETURN END C  ==============================^ C  SUBROUTINE  ITWRT  WRITES  OUT  CENTRAL  PAFBLOCK  TOPOLOGY  INSIDE  THE  TUNNEL C  ===========================^ SUBROUTINE  ITWRT(IDEPTH) IMPLICIT  DOUBLE  PRECISION ( A-H.O-Z) COMMON / CSHLPR  / NSHELL, HIN(5),SUMR COMMON / CKEYPR  /K(0:8),NNS,NBS.NPOT.NPLR,NNODE,NPAF COMMON / CROKPR  / MATPRO(20),  HTOP(4), HMIDA(4), HMIDC(4), & HBOT(4),NMIDA,NMIDC,NTOP,NBOT COMMON / CEXCIN  / NEXCVT,MEXCVT(0:9),MSHOT(0:9),KSHOT,HSHOT, & MINNER.KINNER.HINNER COMMON / CSUBDV  / NSUB(0:50),MASPCT COMMON / COUNT / KPSH(8),  NPSIDE,  NCOL,  N R O W
+```
+
+```
+CO M M O N  /  CFLAG  /  M S Y M , MDIM DO 20  J=1,NPSIDE DO 10 I=1,2*(NC0L-1) IPAF=I+NPLR+(J-1)*2*(NC0L-1) C SUBDIVISION VALUES  O F  N1  A N D  N2  FO R PAFBLOCKS IF  (I.LE.NCOL-1)  THEN N1=NSUB(NSHELL+I) ELSE N1=NSUB(NSHELL+I-(NCOL-D) END  IF N2=NSUB(NSHELL+NCOL+J+1+NTOP) N5=NSUB(NSHELL+NCOL+NROW+IDEPTH) C  MATERIAL  PROPERTIES  K P R KPR=MATPRO(J+1+NTOP) C  SET  EXCAVATION  INDEX CALL EXCTIT  (I,J,IEXCVT) C Give Air  Material  Properties to PAFBLOCK  instead of  Removing i t IF  (MEXCVT(IEXCVT).EQ.O)  THEN KPR  =  9 END IF C  C O N V E R T  TO  3 - D  MATERIAL DESCRIPTIONS IF  (MDIM.EQ.3)  K P R =  10  +  K P R IF (  (MSYM.EQ.O)  . O R .  (I.LE.5)  )  THEN CALL  WRITES(IDEPTH,IPAF,KPR,N1,N2,N5) END IF 10 CONTINUE 20  CONTINUE RETURN END C ================================================================== C  SUBROUTINE F3DURT WRITES  THE  F O O T  O F  T H E  FILE  A N D  C L O S E S  IT  FO R 3D C ================================================================== SUBROUTINE  F3DURT IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) CO M M O N  /  C K E Y P R /K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF CO M M O N  /CFLAG  /  M S Y M , MDIM CO M M O N  /  CSUPIN  /  SAMIN,  SAMAJ,  HANCH(2),  DANCH(2), & RANCH,AANCH(2),PERIOD,  SANCH,  SAMAJ2, & MARCH,MP A R C H . M A N C H . M P A N C H CO M M O N  /  C S H L P R  /  NSHELL, HIN(5),SUMR WRITE(8,*)'C In  the  MATERIAL module the  Young's modulus  (E), 1 WRITE(8,*)'C the  Poisson's  ratio 1 URITE(8,*)'C (NU)  and  the  density  (RO),are specified  for 1 WRITE(8,*)'C Neogene cover (MATERIAL.NUMBER 11),' WRITE(8,*)'C the  micaceous sandstone, 1 WRITE(8,*)'C siltstone and  claystone (MATERIAL.NUMBER 12),' WRITE(8,*)'C the quartzite' URITE(8,*)'C (MATERIAL.NUMBER 13),  the  arkose, 1 URITE(8,*)'C conglomeratic arkose (MATERIAL.NUMBER 14),' WRITE(8,*)'C the  volcanic dyke rock (MATERIAL.NUMBER 15), 1 URITE(8,*)'C Shotcrete (MATERIAL.NUMBER  16), 1 URITE(8,*)'C  Inner  ( f i n a l )  lining  (MATERIAL.NUMBER 17).' URITE(8,*)'C Mild  steel  for  anchorages  and  steel  arch' WRITE(8,*)'C beam element  (MATERIAL.NUMBER 18).' WRITE(8,*)'C
+```
+
+```
+WRITEC8 URITEC8 WRITE(8 URITEC8 WRITE(8 WRITE(8 URITEC8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 URITEC8 WRITE(8 WRITEC8 WRITE(8 URITEC8 WRITEC8 WRITE(8 URITE(8 ' C  The unit  used for  youngs modulus is  Pa  (N/m2)' ' C  and  the density  i s  expressed' ' C  i n  (kg/m3).' ·  C 'MATERIAL' URITE(8,*)  ·MATERIAL.NUMBER E NU RO' URITE(8,*)  ' 11 90E+6 0.35 2060' URITE(8,*> 1 12 0.7E+9 0.27 2200' WRITE(8,*> 1 13 68E+9 0.16 2600' URITE<8,*) ' 14 15E+9 0.26 2600' URITE(8,*>  ' 15 1.9E+9 0.28 2300' URITEC8,*) 16 15E+9 0.200 2000' WRITE(8,*) 17 30E+9 0.200 2400' WRITE(8,*)  ' 18 209E+9 0.300 7800' Give Air Material  Properties to  PAFBLOCK instead of  Removing  i t WRITE{8,*> · 1 9 OE-9 0.499 0.0' In the  GRAVITY  module the  sign i n  the' YGVALUE is  negative,indicating  that 1 gravity  acts  i n  the  vertical  downwards 1 d i r e c t i o n . 1 YGVALUE -1 ZGVALUE 0' PLANE 1, 2. 3. 1, 1. 3, AXIS.NUMBER 1. 1, 1. 1. DIRECTION' 1 2 1 1 1. · C · C ·c ·c ·c ·GRAVITY' 'XGVALUE ' 0 'C ·C ·RESTRAINTS' 'NO D E . N U M B E R ,20)13+K<5), ,20)13+K(5), IF  (MSYM.EQ.1)  THEN WRITE(8,20)1+K(5), ELSE WRITE(8,20)15+K(5), END IF WRITE(8,20)1+K(5), WRITE(8,20)1+K(5)+2*NPAF, IF  ((MARCH.EQ.1).OR.(SANCH.EQ.1))  THEN WRITE(8,20)  1,  3, 1, 456 WRITE(8,20)  NNODE+1,  3,  1, 456 END IF WRITE(8,*)'C WRITE(8,*)'DISPLACEMENT.PRESCRIBED' WRITE(8,*)'NODE.NUMBER DIRECTION _ W R I T E ( 8 , * 3 L M 3 _ _ 1_  _ WRITE(8,*)13+NNS*NSHELL,  ' WRITE(8,*)19+K(1), ' WRITE(8,*)19+K(1)+NNS*NSHELL,  ' 'C 'C ·C 'CONTROL' ·USE.R70632MOD' 'C · C  Since  PAFEC-FE does not  perform  stress  averaging' across  different' material  types, the  supplied  source  must  be  modified' Inspection of the' stressing  routines  indicated that a small  number o f changes to PAFEC-FE 1 subroutine  R70632  was necessary.  A section of the' subroutine  with  the 1 modification is  shown i n  Figure' The modified  source is incorporated' into the  PAFEC-FE system for this  analysis' using  the  USE.option. 1 DISPLACEMENT.VALUE' 0' ' ,  ' 0' '  ,  ' 0' , , o' W R I T E ( 8 , * U R I T E ( 8 , * W R I T E ( 8 , * W R I T E ( 8 , * W R I T E ( 8 , * U R I T E ( 8 , * W R I T E ( 8 , * U R I T E ( 8 , * W R I T E ( 8 , * W R I T E ( 8 , * U R I T E ( 8 , * W R I T E ( 8 , * W R I T E ( 8 , * W R I T E ( 8 , * W R I T E ( 8 , * W R I T E ( 8 , * W R I T E ( 8 , * W R I T E ( 8 , * W R I T E ( 8 , * U R I T E ( 8 , * U R I T E ( 8 , * W R I T E ( 8 , * W R I T E ( 8 f * W R I T E ( 8 , * U R I T E ( 8 , * C C C C C C C C C C C C C STRESS' CONTROL.END' C C PROCESSING.FOR.PRINTED, OUTPUT'
+```
+
+```
+WRITE(8,*)'0RDER  FORMAT.TYPE LOCAL.AXIS WINDOW
+```
+
+```
+WRITE(8,*) 1 1 2 1 0  ' URITE(8,*)'C' WRITE(8,*)'C WRITE(8,*)'ORDER.FOR.PRINTED.  OUTPUT' WRITE(8,*)'0RDER LIST.OF.TYPES' URITE(8,*)' 1 101 102  4 8 9 10  11  12 13' WRITE(8,TEND.OF.DATA' 20 FORMAT(2X,I4,12X,I2,8X,I2,2X,2I) C  CLOSE  O P E N FILE OPEN(8,FILE='nodes.DAT') CL0SE(8) RETURN END C  SUBROUTINE F2DURT  WRITES THE F O O T  O F  T H E  FILE  A N D  C L O S E S  IT  FO R 2D C ==================================================================: SUBROUTINE F2DWRT IMPLICIT DOUBLE  PRECISION  (A-H.O-Z) CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N O D E , N P A F CO M M O N  /  CFLAG  /  M S Y M , MDIM WRITE(8, WRITE(8, WRITE(8, WRITEC8, WRITE(8, WRITEC8, WRITEC8, WRITE(8, WRITEC8, WRITEC8, WRITE(8, WRITEC8, WRITEC8, WRITE(8, WRITE(8, WRITEC8, WRITE(8, WRITE(8, WRITE(8, WRITEC8, WRITEC8, WRITE(8, WRITEC8, WRITEC8, WRITEC8, WRITE(8, WRITEC8, WRITEC8, WRITE(8, WRITEC8, WRITEC8, WRITEC8, WRITE(8, WRITEC8, WRITEC8, WRITEC8, WRITEC8, WRITEC8, WRITEC8, WRITEC8, WRITEC8, WRITEC8, C c c c c c c PLATES.AND.SHELLS' PLATE.NUMBER MATERIAL.NUMBER The PLATES.AND.SHELLS module is  used  to* l i n k  the  PROPERTIES' specified  i n  the  ELEMENTS  module  with' the  MATERIAL.NUMBER' used in  the  MATERIAL module.' 1 11 2 12 3 13 4 14 5 15 6 16 7 17 8 18 9 19 C In the  MATERIAL module the  Young's modulus  (E),' the Poisson's  ratio' (NU)  and  the  density (RO),are specified  for' Neogene cover (MATERIAL.NUMBER 11),' the micaceous sandstone,' siltstone and  claystone (MATERIAL.NUMBER  12),' the  quartzite 1 (MATERIAL.NUMBER 13),  the  arkose,' conglomeratic  arkose (MATERIAL.NUMBER 14),' the volcanic dyke rock (MATERIAL.NUMBER 15),' Shotcrete (MATERIAL.NUMBER 16),' Inner  ( f i n a l ) l i n i n g  ( M A T E R I A L . N U M B E R  17).' Mild  steel  for  anchorages  and steel  arch' beam element (MATERIAL.NUMBER 18).' C C C C C C C C C C C C C C C C  The unit used for  youngs modulus i s Pa  (N/m2)' C  and  the  density  i s  expressed 1 C in (kg/m3).' C 1 MATERIAL' MATERIAL.NUMBER E NU RO' 11 90E+6 0.35 2060' 12 0.7E+9 0.27 2200'
+```
+
+```
+URITEC8,*) 13 68E+9 0.16 2600 1 URITE(8,*) 14 15E+9 0.26 2600 1 URITE(8,*) 15 1.9E+9 0.28 2300' URITE(8,*) 16 15E+9 0.20 2000' WRITE(8,*) 17 30E+9 0.20 2400' WRITEC8,*) 18 209E+9 0.30 7800' Give Air Hater al  Properties to  PAFBLOCK  instead  of  Removing  i t WRITE(8,*) 19 OE-9 0.499 0.0' WRITE(8 WRITE(8 WRITE(8 WRITE(8 URITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITEC8 URITE(8 WRITE(8 WRITE(8 URITE(8 URITE(8 WRITE(8 URITE(8 URITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITEC8 WRITE(8 WRITE(8 WRITE(8 WRITE  <  8 ' WRITE(8 · C  I n  the  GRAVITY  module the  sign i n  the YGVALUE' ' C i s  negative, 1 · C indicating  that  gravity  acts i n  the vertical' ' C  downwards  direction.' ·  C 'GRAVITY' 'XGVALUE YGVALUE' 0 -1' ·  C ' C  To  ensure  that the  nodes  lying on  the  boundary 1 are  restricted  from' moving i n  the  horizontal  direction,  a l l  nodes' lying on  the  plane  that' passes through boundary and is normal  to' the x-axis (PLANE 1),are' prevented  from moving along the x-direction' (DIRECTION  1).' Similarly, the right  side boundary is  also' prevented  from moving along  the' horizontal  direction. 1 In  this way  the  horizontal  geostatic stresses' are allowed to  develop as  a' function of  Poissns  ratio of  the ground.' Furthermore  there i s  a need to  restrict  the' lower boundary of  the mesh* from moving i n  the  vertical  direction,so a  restraint' is  introduced  to' prevent any  node  lying on  the  plane and  i s  normal' to y-axis (PLANE  2),' and  is normal  to  y-axis (PLANE 2), to move' (DIRECTION 2).' *)'RESTRAINTS' *)'NODE.NUMBER  PLANE 20)13+K(5), r, 20)13+K(5), 2, IF (MSYM.EQ.1)  THEN WRITE(8,20)1+K(5>, 1, ELSE WRITE(8,20>15+K(5), 1, ENDIF AXIS.NUMBER 1, 1. 1. 1. DIRECTION' 1 2 1 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 WRITE(8 C C C The  C O N T R O L f a c i l i t y  i s used t o specify' C plane  strain  analysis  and to' C indicate  that  stress averaging  across' C different  material  types i s  to be' C performed.' C CONTROL' PLANE.STRAIN' USE.R70632MOD* C C Since PAFEC-FE does not  perform stress averaging' C across  different' C material  types, the  supplied source must be  modified' C Inspection  of the 1 C stressing  routines indicated  that a small number  o f C changes to PAFEC-FE' C subroutine R70632  was necessary. A section  of the' C subroutine with  the' C modification i s  shown i n  Figure'
+```
+
+```
+WRITE(8,*) WRITE(8,*) URITE(8,*) WRITE<8,*) WRITE(8,*) WRITE<8,*) WRITE<8,*) WRITE<8,*) WRITE(8,*> WRITE(8,*) URITE(8,*) WRITE<8,*) WRITE{8,*) WRITE(8,*) WRITE(8,*) WRITE(8,*) WRITE(8,*) URITE(8,*) WRITE(8,*) WRITE(8,*) The modified  source is incorporated' into the  PAFEC-FE system for  this  analysis' using the  USE.opt  ion.' C C C C C STRESS' CONTROL.END' C C PROCESSING.FOR.PRINTED.OUTPUT ORDE R  FORMAT.TYPE  LOCAL.AXIS  WINDOW C C ORDER.FOR.PRINTED.OUTPUT' ORDE R 1 2 LIST.OF.TYPES' 101  103 102 101 102 10 11 10 11 12 13' 12 13' END.OF.DATA' 20 FORMAT(2X,I4,9X,I2,9X,I2,13X,I2) C  CLOSE  OPEN FILE 0PEN(8,FILE='nodes.DAT·) CL0SE(8) RETURN END C  ================================================================: C  SUBROUTINE  EXCLOC  WRITES  LOCAL  DIRECTIONS  F O R  EXCAVATION  SURFACE C  ================================================================: SUBROUTINE  EXCLOC IMPLICIT DOUBLE PRECISION (A-H.O-Z) PARAMETER(NNODES=5000) CO M M O N  /  C N O D E S  /  X(NNODES), Y(NNODES) CO M M O N  /  CFLAG /  MSYM, MDIM CO M M O N /  C K E Y P R  / K ( 0 : 8 ) , N N S , N B S , N P O T , N P L R , N N O D E , N P A F CO M M O N  /  C O U N T  /  KPSH(8),  NPSIDE,  NCOL, N R O W CO M M O N  /  C C E N P R  /  XC(10), YC(10) CO M M O N /  C Z N O D  / Z(5),  N D E P T H DRAD=DACOS(0D0)/90D0 WRITE<8,*)'C WRITE(8,*)'C Define  local  axis and  directions' WRITE(8,*)'C WRITE(8,*)'AXES' WRITE(8,*)'RELAXISN0  = 1' WRITE(8,*)'TYPE  = 1' WR1TE(8,*)'AXISN0 NODE ANG1 1 IF (MSYM.EQ.O)  N  = N N S IF (MSYM.EQ.1)  N  =  (NNS/2)+1 DO 15  L=1,mdim-1 DO 10  1=1,N IF  ( I .LE.(2*KPSH(2)  +  1)) THEN ICEN=1 ELSE IF  ( I .LE.(2*KPSH<4)  + 1 ) ) THEN ICEN=2 ELSE IF  ( I .LE.(2*KPSH(6)  +  1  ) ) THEN ICEN=3 ELSE IF  ( I .LE.(2*KPSH(7)  +1 ) ) THEN ICEN=4 ELSE IF  ( I .LE.(NNS/2  + 1))  THEN ICEN=5 ELSE IF  ( I .LE.CNNS  -  2*KPSH(7) ) ) THEN ICEN=10 ELSE IF  ( I .LE.(NNS  -  2*KPSH(6)  +  1)) THEN ICEN=9 ELSE IF  ( I .LE.(NNS  -  2*KPSH(4)  + 1))  THEN
+```
+
+```
+ICEN=8 ELSE IF ( I  . L E . C N N S  -  2*KPSH<2)  + 1)) THEN ICEN=7 ELSE ICEN=6 END  IF 10  =  NN0DE*(NDEPTH+1)+lCEN IP =  I  +  2 * N N S ANG  =  DATAN2(X(IP)-XC(ICEN),Y(IP)-YC(ICEN))  /  D R A D IF(I.EQ.<(NNS/2)+1))  ANG=180.0 URITE(8,*) 3+I+(L-1)*NNS, 10  + (L-1)*10,  - A N G 10 CONTINUE 15 CONTINUE URITE(8,*)  'C URITE(8,*> , C' URITE(8,*)'L0CAL.DIRECTIONS' WRITE(8,*)'NODE.NUMBER  LOCAL.AXIS  ' DO  25  L=1,mdim-1 DO 20 1=1,N INODE  =  I+2*NNS+(L-1)*NNODE IAX = 3+I+(L-1)*NNS WRITE(8,*) I  NODE,  IAX 20 CONTINUE 25 CONTINUE WRITE(8,*)'C' URITE(8,*)'C' URITE(8,*)'C Elements which  form the  Excavated Surface' URITE(8,*)'C' WRITE(8,*)'C' WRITE(8,*)'EXTERNAL.FORCE' WRITE(8,*)'AXIS.SET = 1' WRITE(8,*)'LIST' DO  5 I=0,(N/2)-1 5 WRITE(8,*)I+N WRITE(8,*)'C WRITE(8,*)'C WRITE(8,*)'C WRITE(8,*)'C WRITE(8,*)'C' RETURN END
+```
+
+## APPENDIX D
+
+## STRUCTURE OF POST-PROCESSING PROGRAMS
+
+## D.l Gravity Difference Method Script (gravdif)
+
+#!/Bin/csh
+
+echo $1  $2  $3 setenv unex  $1 setenv exct  $2 setenv  gdif $3 # Process and Plot #  Unexcavated &amp; Excavated Ground plot Sunex plot  $exct # Copy Data, Graphic and Number # f i l e s  f o r  Difference  f i l e setenv  f i l e  $gdif cp Sexct.GDAT $file.GDAT cp Sexct.DAT $file.DAT cp $exct.NUM $file.NUM # Find Gravity Difference #  for  Displacement and  Stress gddisp gdstress # Plot  Result indistress &lt; $file.ras
+
+## D.2  Colour Outputs Script (plot) for UNIRAS software
+
+#!/bin/csh setenv  f i l e  $1 get in dispget stressget indistress &lt; Sfile.ras
+
+## D.3  List of Programs
+
+D.3.1  Post Processing of Nodal Co-ordinates and Element Topology
+
+***************************************************************
+
+*
+
+PROG R A M  T O  OBTAIN  N O D A L  C O - O R D I N A T E S  A N D E L E M E N T S F R O M
+
+*
+
+****************************************************************************
+
+*
+
+PAFEC  OUTPUT FILES from .002 files File name: getin.f
+
+*
+
+CHARACTER*4  TEST,CHAR*2, FILE*6 INTEGERN(2),NEL(30) IFLG=0
+
+C Find  f i l e s name
+
+CALL GETENV  ("file",FILE)
+
+```
+0PEN(7,FILE=FILE//'.002') 0PEN(9,FILE=FILE//'.GDAT') 0PEN(10,FILE=FILE//'.NUM') * 10 IF  (IFLG.GT.1) G O T O 200 READ(7,901)TEST IF ( T E S T . E Q . ' G L O ' ) T H E N * ***  N O D E R E C O G N I T I O N  RO U T I N E  *** * IFLG=IFLG+1 NO N O S = 0 READ(7,901)TEST READ(7,901)TEST 55 READ(7,901)TEST READ(7,901)TEST READ(7,901)TEST 60 READ(7,902,ERR=10)CHAR,N(1),A,B,C,N(2),X,Y,Z IF ( C H A R . E Q . ' I  ' ) G O T O  5 5 URITE(9 F 903)N(1),A F B F C N O N O S = N O N O S + 1 IF (N(2).EQ.O) G O T O 10 c WRITE(8,903)N(2),X,Y,Z WRITE(9,903)N(2),X F Y,Z N0N 0 S = N 0 N 0 S + 1 G O T O  60 E N D  IF * IF ( T E S T . E Q . ' E L ' ) T H E N * * *** E L E M E N T RE C O G N I T I O N RO U T I N E * * * * NO E L S = 0 IFLG=IFLG+1 READ(7,901)TEST 70 READ(7,901)TEST READ(7,901)TEST READ(7,901)TEST READ(7,901)TEST * 80 READ(7,910 F ERR=82)CHAR,(NEL(M),M=1,5),(NEL(M),M=6,14) 82 IF  ( C H A R . E Q . 1 - ' ) G O T O 10 IF ( C H A R . E Q . ' I ' ) G O T O  7 0 NA=NEL(5)/9 * IF  (NEL(5) .W. B) THEN MJ=4 EL S E  IF  (NEL(5).EQ.20) T H E N MJ=8 EL S E  IF  (NEL(5).EQ.6) T H E N MJ=3 EL S E MJ=2 E N D  IF IF (NEL(5).EQ.8) T H E N NDIM  =  2 EL S E NDIM  =  3 E N D  IF URITE(9,914)NEL(1),MJ,(NEL(M),M=6,5+MJ),NEL(4) NO E L S = N O E L S + 1 * 90 IF  (NA.LT.1) T H E N G O T O 80 EL S E NA = N A - 1 READ ( 7 , 9 1 0 , E R R = 9 1 ) C H A R 91 IF  ( C H A R . E Q . ' -' ) G O T O 10 IF  ( C H A R . E Q . ' 1 ' ) T H E N READ(7,901)TEST READ(7,901)TEST READ(7,901)TEST READ(7,901)TEST
+```
+
+```
+READ(7,901)TEST END IF END IF GOTO 90 END IF GOTO 10 * 200 WRITE(6,*)'GetIn: Successful Completion 1 ,N0N0S,NOELS WRITE(9,916)'*' WRITE(9,*)N0N0S,NOELS WRITE(10,*)N0N0S,NOELS,NDIM CLOSE(7,STATUS='KEEP 1 ) CL0SE(9,STATUS='KEEP') CLOSE(10,STATUS='KEEP 1 ) STOP * 901 FORMAT(A4) 902 FORMAT(A2,I6,3X,F9.4,2X,F9.4,2X,F9.4,20X,I6,3X,F9.4,2X,F9.4,2 &X,F9.4) 903 FORMAT(3X,I6,2X,3(F9.4,2X)> 910 FORMAT(A2,I6.4X,13,3X,16,5X,13,4X,I3,9(2X,16)) 911 FORMAT(2X,I6,2X,I3,2X,I6,2X,I3,9(2X,I6)) 912 FORMAT(A2,39X,9(2X,I6)) 913 FORMAT('* , ,25X,9(2X,I6)) 914 FORMAT(11(2X,I6)) 915 FORMAT(7(2X,16)) 916 FORMAT(A3,I6,2X,I6) 917 FORMATCI4) * END
+```
+
+## D.3.2 Post-Processing of Results for Gravity Difference Method
+
+## D.3.2.1  Stresses
+
+```
+****************************************************** * PROGR A M  T O  OBTAIN Unaveraged  &  Averaged Stresses  from * * PAFEC  OUTPUT FILES from . S P f i l e s File name: gdstress.f * **************************************************************************** PARAMETER(MXNOS1 =80 000) PARAMETER (MXELS  =  25 00) PARAMETER (MXEN =  20*MXELS  ) CHARACTER*6  UNEX,  EXCT,  GDIF,  TEST CHARACTER*1  CHRU,  CHAR1,  ELNO*12 INTEGER IEL(MXEN,2), NN(MXEN,2), N0N0(3),  NS(MXEN,2) REAL  VUSTR(MXEN,2) REAL  USTR(6,3) REAL  ASTR(MXEN,6,3,2), VASTR(MXEN,3,2), DSTR(6) C Find  f i l e s name CALL  GETENV ( ll unex",UNEX) CALL  GETENV ("exct",EXCT) CALL  GETENV ("gdif",GDIF) OPENC7,FILE=UNEX// 1 .SP') 0PEN(8,F1LE=EXCT// 1 .SP') OPEN(10,FILE=UNEX// 1 .NUM') READ(10,*)N0N0S,NOELS,NDIM CL0SE(10,STATUS='KEEP') C For  2 - D  Problems only IF  (NDIM.EQ.2)  THEN *
+```
+
+```
+OPEN(7,FILE=UNEX//'.SP') OPEN(8,FILE=EXCT//'.SP 1 ) OPEN(9,FILE=GDIF//'.USTROAT') OPEN(10,FILE=GDIF//'.USTRNUH') C C=========================================================== C Read in Directional  Stresses  for each node i n  each element C=========================================================== c C Find Beginning of  Tables NU = 1 DO 20  K=1,2 10 READ(6+K,101)TEST IF (TEST.NE. 1 ELEH')  G O TO  10 READ(6+K,101)TEST READ(6+K,101)TEST 20 CONTINUE C Read i n  Stress Entry 30 DO 60  K=1,2 40 READ(6+K,103,ERR=50) * CHRU,IEL(NU,K),NN(NU,K),VUSTR(NU,K),(USTR(I,K),I=1,6) 50 CONTINUE IF (CHRU.EQ.'T)  THEN DO 55 1=1,7 55 READ(6+K,101)CHAR1 END  IF IF (CHRU.EQ.'V)  G O TO  40 IF (IEL(NU,K).EQ.O) GO TO  100 60 CONTINUE IF (NN(NU,K)  .NE.  0) THEN DO 70 1=1,6 70 USTR(I,3)  = USTR(I,2) - USTR(I,1) ESTR =  S O R T  (  (  (USTR(1,3)-USTR(2,3))**2  + * (USTR(2,3)-USTR(3,3))**2  + * (USTR(3,3)-USTR(1,3))**2  + * 6.0  * (USTR(4,3)**2+USTR(5,3)**2+USTR(6,3)**2)  ) * /  2.0  ) WRITE(9,104)IEL(NU,1),NN(NU,1),ESTR NU =  NU+1 END  IF GO TO  30 100 NU=NU-1 WRITE(6,*)'Unaverage Stresses:  ' , N U WRITE(9,*)'*' WRITE(10,*)NU CL0SE(9,STATUS='KEEP') CLOSE(10,STATUS='KEEP') 101 FORMAT(A6) 103 FORMAT(A1,2I7,E14.4,6E13.4) 104 FORMAT(3X,2I7,E14.5> C C=========================================================== C Read i n  Directional  Stresses  for each node C=========================================================== c C Since  there are  unaveraged stress values for  nodes C  on material  boundaries,  three stress values may exist. C This program converts from a  l i s t of  node  numbers C  and  stress,  with  repeated nodes for multiple C stress values to  a t r i p l e  column format, C which  contains either a duplicated  stress  value C  or  the  three seperate values. C
+```
+
+```
+C Find Beginning of Tables C For  Each  File DO 180 K=1,2 120 READ(6+K,201)TEST IF  (TEST.NE. 1 NODE 1 )  G O T O  120 NONO(K)=0 READ(6+K,201)TEST READ(6+K,201)TEST C Read in  Stress  entry 130 READ (6+K,203,ERR=140) * CHAR,N,VSTR,(DSTR(I),1=1,6) 140 CONTINUE C Allow for page turning IF (CHAR.EQ.'V)  THEN DO 150  1=1,7 150 READ(6+K,201)CHAR1 END  IF IF (CHAR.EQ.'V)  G O TO  130 C I f last  value to  be read i s  a Null  value  finish IF (  N . E Q .  0 )  G O  T O  170 NS(N,K)=NS(N,K)+1 VASTR(N,NS(N,K),K)=VSTR DO 160  1=1,6 ASTR(N,I,NS(N,K),K)= DSTR(I) 160 CONTINUE Count nodes read  i n NONO(K)=NONO(K) +1 GO TO  130 170 CL0SE(6+K,STATUS='KEEP I ) 180 CONTINUE 201 F0RMATCA6) 203 FORMAT(A1,I6,7E13.4) OPEN(9,FILE=GDIF//'.ASTRDAT 1 ) OPEN(  10,FILE=GDIF//'.ASTRNUM 1 ) DO 280  I=1,NU C Loop over  a l l elements DO 250 K=1,2 C Assign  average stress  value which  is closest to the C  unaveraged stress  value of  that element C Using Unaveraged Stress at  that Node for comparison US = VUSTR(I,K) C Calclulate the  differences between Values A1 =  ABS(US-VASTR(NN(I,K),1,K)) A2  =  ABS(US-VASTR(NN(I,K),2,K)) A3 =  ABS(US-VASTR(NN(I,K),3,K)) C Choose closest  value IF  ((A1.LE.A2).AND.(A1.LE.A3))  THEN DO 210 J=1,6
+```
+
+```
+USTR(J.K)  =  ASTR(NN(1,K),J,1,K) ELSE IF  (A2.LE.A3)  THEN DO  220  J=1,6 USTR(J.K)  =  ASTR(NN(I,K),J,2,K) ELSE DO  230 J=1,6 USTR(J.K)  =  ASTR(NN(I,K),J,3,K) END  IF CONTINUE DO  260  J=1,6 USTR(J,3) =  USTR(J,2) - USTR(J,1) IF  (USTR(1,2).EQ.0.0> THEN DO  270  J=1,6 USTR(J,3) = USTR(J,2) END  IF ESTR =  S O R T  (  (  <USTR(1,3)-USTR<2,3))**2  + <USTR(2,3)-USTR(3,3>)**2  + (USTR(3,3)-USTR(1,3))**2  + 6.0  * (USTR(4,3)**2+USTR(5,3)**2+USTR(6,3>**2)  ) / 2.0  ) WRITE(9,104)IEL(I,1),NN(I f D.ESTR CONTINUE WRITE(6,*)'Average Stresses: ' , N U WRITE(9,*)'*' WRITE(10,*)NU CL0SE(9,STATUS='KEEP') CLOSE(10,STATUS='KEEP') ELSE C  3 - D  Problems  Only. C The complete Directional Unaveraged Stress Tensor is not C  available  for  the  3 - D results so only the  Average stresses C w i l l be calculated. C The  unaveraged Von  Mises stresses  will  be_used_to  correctly C  pick the appropriate averaged stresses  for  each element C  at  material  boundaries. c = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = C Read in  Unaveraged  Von  Mises Stress of  3 - D  problems C for  each node i n  each element Z==============================================~=========== c C Set  number of  nodes  in each element IF  (NDIM . E Q .  3)  N=27 OPEN(7,FILE=UNEX//'.009') OPEN(8,FILE=EXCT//'.009') DO  390  K=1,2 NU  = 1 C Find Beginning of  Tables 310 READ(6+K,301)TEST IF  (TEST.NE.'  CASE')  G O  TO 310 READ(6+K,301)TEST READ(6+K,301)TEST DO  380  1=1,NOELS C Find Element Number 210 220 230 250 260 270 280
+```
+
+```
+READ(6+K,302,ERR=400)ELNO,IEL(NU,K) nnoels=i C Finish  i f  no  more elements IF  (IEL(NU,K) . E Q .  0 )  G O TO  400 READ(6+K,301)TEST * * *** NODE  RECOGNITION  ROUTINE *** * DO 360  IN0DE=1,N C Read i n  Line of  Data 330 READ(6+K,303,ERR=400) * CHAR,L,NN<NU,K),(USTR(J,K),J=1,6),VUSTR(NU,K) C Allow  for  Page Turning IF (CHAR.EQ.'I 1 )  T H E N DO 340 J=1,4 340 READ(6+K,301)CHAR1 END  IF IF (CHAR.EQ.'I 1 )  G O  T O  330 IF (NN(NU.K).NE.O)  NU=NU+1 IEL(NU,K)=IEL(NU-1,K) 360 CONTINUE C Allow for Page Turning READ(6+K,301)TEST IF (TEST.EQ.'I 1 )  T H E N DO 370  J=1,5 370 READ(6+K,301)CHAR1 END  IF 380 CONTINUE * 390 CONTINUE * 400 NU=NU-1 CLOSE(7,STATUS='KEEP') CLOSE(8,STATUS='KEEP') * 301 F0RMAKA6) 302 FORMAT(A12,16) c302 FORMAT(A16,I8) 303 F0RMAT(A1,I5,I7,7E11.2) 304 FORMAT(3X,2l7,E11.4) 316 FORMAT(A3,I6,2X,I6) * C======================================================== C Read in Directional  Stresses  for each node 0======================================================== c C Since there are  unaveraged stress values  for nodes C  on material  boundaries,  three stress values may exist. C OPEN(7,FILE=UNEX// 1 .SP 1 ) OPEN(8,FILE=EXCT//'.SP 1 ) DO 480 K=1,2 420 READ(6+K,401)TEST IF (TEST.NE. 1 CASE')  G O TO  420 NONO(K)=0 READ(6+K,401)TEST C Read i n  Stress  entry
+```
+
+```
+430 READ (6+K,403,ERR=440) * CHAR,l f N,VSTR,(DSTR(I),I=1,6) 440 CONTINUE C Allow  for page turning IF (CHAR.EQ.'V)  THEN DO 450 1=1,5 450 READ(6+K,401)CHAR1 ENDIF IF (CHAR.EQ.'I 1 )  G O  T O  430 C I f last  value to  be read i s  a Null  value  finish IF (  N , E Q .  0  )  G O T O 470 NS(N,K)=NS(N,K)+1 VASTR(N,NS(N,K),K)=VSTR DO 460 1=1,6 ASTR(N,I,NS(N,K),K)= DSTR(I) 460 CONTINUE Count nodes read  i n NONO(K)=NONO(K)  +1 GO TO 430 470 CL0SE(6+K,STATUS='KEEP') 480 CONTINUE 401 F0RMAUA6) 403 FORMAT(A1,I4,I8,7E13.4) OPEN(7,FILE=GDIF//'.ASTRDAT 1 ) 0PEN(8,FILE=GDIF// I .ASTRNUM I ) OPEN  (9,  FI  LE=GD  IF//'.  USTRDAT') OPEN(10,FILE=GDIF//'.USTRNUM 1 ) DO 580  1=1,NU C Loop over  a l l  elements DO 550 K=1,2 C Assign  average stress  value which  i s  closest  to the C  unaveraged stress  value of that element C Using Unaveraged Stress at  that Node for comparison US =  VUSTR(I,K) C Calclulate the differences between  Values A1 =  ABS(US-VASTR(NN(I,K),1,K)) A2  =  ABS(US-VASTR(NN(I,K),2,K)) A3 =  ABS(US-VASTR(NN(I,K),3,K)) C Choose closest  value IF ((A1.LE.A2).AND.(A1.LE.A3)> THEN DO 510  J=1,6 510 USTR(J,K)  = ASTR(NN(I,K),J,1,K) ELSE IF  (A2.LE.A3)  THEN DO 520  J=1,6 520 USTR(J,K)  =  ASTR(NN<I,K),J,2,K) ELSE DO 530  J=1,6 530 USTR(J,K)  = ASTR(NN(I,K),J,3,K) ENDIF 550 CONTINUE DO 560 J=1,6
+```
+
+```
+560 USTR(J,3)  =  USTR(J,2)  - USTR(J,1) IF  (USTR(1,2).EQ.0.0)  THEN DO 570 J=1,6 570 USTR(J,3)  =  USTR(J,2) END IF ESTR =  S Q R T  (  (  (USTR(1,3)-USTR(2,3))**2  + * (USTR(2,3)-USTR(3,3))**2  + * (USTR(3,3)-USTR(1,3))**2  + * * WRITE(9,304)IEL(  1,1),NN(I,  D.ESTR URITE(7,304)IEL(I,1),NN(I,1),ESTR 580 CONTINUE WRITE(6,*)'Unaverage Stresses:  ' , N U WRITE(6,*)'Average Stresses:  ' , N U URITE(9,*)'*' URITE(8,*)NU WRITE(10,*)NU CLOSE(7,STATUS= 1 KEEP 1 ) CL0SE(8,STATUS='KEEP') CL0SE(9,STATUS='KEEP') CLOSE(10,STATUS= 1 KEEP 1 ) END IF STOP
+```
+
+```
+6.0  * (USTR(4,3)**2+USTR(5,3)**2+USTR(6,3)**2)  ) /  2.0  ) END D.3.2.2 Displacements *************************************************************** * PRO G R A M  T O  OBTAIN  DISPLACEMENTS F R O M * PAFEC  OUTPUT FILES from .007 files File name:  gddisp.f *********************************************************************** CHARACTER*6  UNEX,  EXCT,  GDIF C Find  f i l e s name CALL GETENV ("unex",UNEX) CALL GETENV ("exct",EXCT) CALL GETENV ("gdif",GDIF) OPEN(  10,  FI LE=UNEX//  · . N U M '  ) READ(10,*)NON0S,NOELS,NDIM CLOSE(10,STATUS='KEEP 1 ) * 0PEN(7,FILE=UNEX// 1 .DISP') OPEN(8,FILE=EXCT//'.DISP 1 ) 0PEN(9,FILE=GDIF//'.DISP') * DO 200  I=1,NONOS READ(7,*)NU,XU,YU,ZU READ(8,*)NE,XE,YE,ZE WRITE(9,*)NE,XE-XU,YE-YU,ZE-ZU 200  CONTINUE WRITE(6,*)'Gravity Difference Displacements  ' , N O N O S CLOSE(7,STATUS='KEEP') CL0SE(8,STATUS*'KEEP') CLOSE(9,STATUS='KEEP') STOP END
+```
+
+## D.3.3 Post-Processing of Results for Stress Reversal Technique
+
+## D.3.3.1  Stresses
+
+```
+* PROGR A M  T O  OBTAIN  Unaveraged  &  Averaged Stresses from * * PAFEC  OUTPUT FILES from . S P  & .009 f i l e s File name: stressget.f * ******************************************* CO M M O N /  N U M B R S /  N O N O S ,  NOELS,  NDIM C Find general  f i l e name CALL FILEIN C Read i n  Numerical Parameters of  the  System CALL  NUMBIN C Find the  unaveraged  stresses C Read i n  and write out  the  unaveraged  stresses IF (NDIM.EQ.2) CALL  UNST2D IF (NDIM.EQ.3) CALL  UNST3D C Find the  averaged stresses C Read i n  and write out  the  averaged stresses IF (NDIM.EQ.2) CALL  AVST2D IF (NDIM.EQ.3) CALL  AVST3D C Rearrange Average Stress Values by  Element and Node C  Using Unaveraged  Stresses  to  determine  Values on C  either  side of material boundaries CALL  REAVST STOP END C C==================================================== : C Find General  File Name C = ^ = i ^ = ^ = = = = = = = = = i = = = = = = = ~ = = = = = = = = = = = = = = ~ = = = = = = = C SUBROUTINE FILEIN CHARACTER FILE*6 CO M M O N  / FILNAM /FILE CALL GETENV  ("file»,FILE) RETURN END C C====================================================: C Read i n  Numerical Parameters of the System C====================================================: c SUBROUTINE  NUMBIN PARAMETER (MXNOS1  =  80 000) PARAMETER (MXELS  =  25 000) CHARACTER FILE*6 CO M M O N  / FILNAM /FILE CO M M O N /  N U M B R S /  N O N O S ,  NOELS,  NDIM OPEN(10,FILE=FILE//'.NUM') READ(10,*)NONOS,NOELS,NDIM CLOSE(10,STATUS= 1 KEEP 1 )
+```
+
+```
+IF (NONOS.GT.MXNOS1) THEN WRITE(6,*)'Number of  nodes NONO S =  N O N O S WRITE(6,*)'exceeds max.  limit MXN0S1  =  '.MXN0S1 WRITER,")'Recompile with  increased M X N O S  1  value.' STOP END  IF IF (NOELS.GT.HXELS) THEN WRITE<6,*)'Number of elements NOELS  =  '.NOELS URITE(6,*)'exceeds max.  limit MXELS =  '.MXELS WRITE(6,*)'Recompile with  increased MXN0S1 value.' STOP END  IF RETURN END C C Read in  Unaveraged  Von Hises Stress of  2 - D  problems C  for each node i n  each element  & write  out c=========================================================== c SUBROUTINE  UNST2D PARAMETER (MXNOS1  =  80  000) PARAMETER (MXELS  =  25 000) PARAMETER (MXEN =  20*MXELS  ) CHARACTER FILE*6 CO M M O N  / FILNAM /FILE CO M M O N  /  C U N S T R  /  NU,IEL(MXEN),NN(MXEN),USTR(MXEN) CHARACTERS  TEST,CHAR*1  ,CHAR1*1 0PEN(8,FILE=FILE//'.SP') OPEN(9,FILE=FILE//'.USTRDAT') OPEN(10,FILE=FILE//'.USTRNUM') C Find Beginning  of Tables NU = 1 10  READ(8,101)TEST IF (TEST.NE.'  ELEM')  G O  T O 10 READ(8,101)TEST READ(8,  lODTEST C Read i n line of  Date 30 READ(8 > 103,ERR=100)CHAR > IEL(NU),NN(NU),USTR(NU) C Allow  for page  turning IF (CHAR.EQ.'I')  THEN DO  40  J=1,7 40 READ(8,10DCHAR1 END  IF IF (CHAR.EQ.'I 1 )  G O  T O  30 C Count out Data IF (NN(NU)  .NE.  0)  URITE(9,104)IEL(NU),NN(NU),USTR(NU) IF (NN(NU)  .NE.  0)  N U  =  NU+1 GO  T O  30 100  NU=NU-1 WRITE(6,*)'Unaverage Stresses: ' , N U WRITE(9,*)'*' URITE(10,*)NU CLOSE(9,STATUS='KEEP'> CLOSE(10,STATUS='KEEP')
+```
+
+```
+101  FORMAT<A6) 103  F0RMAT(A1,2I7,7E14.4) 104  FORMAT(3X,2I7,E14.5) RETURN END C C=========================================================== C Read in  Unaveraged Von Mises Stress of  3 - D  problems C  for  each node i n  each element  & write  out 0=========================================================== c SUBROUTINE  UNST3D PARAMETER (MXN0S1 =  80 000) PARAMETER (MXELS  =  25 000) PARAMETER (MXEN =  20*MXELS  ) CHARACTER FILE*6 CO M M O N  / FILNAM  / FILE CO M M O N  /  C U N S T R  /  NU,IEL(MXEN),NN(MXEN),USTR(MXEN) CO M M O N /  N U M B R S /  N O N O S ,  NOELS,  NDIM CHARACTER*6  TEST,CHAR*1,CHAR1*1,  ELNO*12 REAL STR(7) NU = 1 C Set number of  nodes in  each element IF (NDIM .EQ.  3)  N=27 OPEN(8,FILE=FILE//'.009') OPEN(9,FILE=FILE// 1 .USTRDAT') OPEN(10,FILE=FILE//'.USTRNUM 1 ) C Find Beginning  of  Tables 10  READ(8,901)TEST IF (TEST.NE. 1 CASE')  G O  T O 10 READ(8,901)TEST READ(8,901)TEST DO 100  1=1,NOELS C Find Element Number READ(8,902,ERR=200)ELNO,IEL(NU) nnoels=i C Finish  i f  no more elements IF  (IEL(NU)  . E Q . 0  )  G O  T O 200 READ(8,901)TEST * * *** NODE  RECOGNITION ROUTINE  *** * DO  60  INODE=1,N C Read i n  Line of Data 30 READ<8,903,ERR=200)CHAR,L,NN<NU>,(STR(J),J=1,6),USTR(NU) C Allow  for  Page Turning IF (CHAR.EQ. 1 1 1 )  T H E N DO  40 J=1,4 40 READ(8,901)CHAR1 END  IF IF (CHAR.EQ.'V)  G O  T O  30
+```
+
+C Write out  Data
+
+```
+IF (NN(NU)  .NE.  0)  URITE(9,904)IEL(NU),NN(NU),USTR(NU) IF (NN(NU)  .NE.  0)  N U  =  NU+1 IEL(NU)=IEL(NU-1) 60 CONTINUE C Allow for  Page Turning READ(8,901)TEST IF (TEST.EQ.'I')  THEN DO 70  J=1,5 70 READ(8,901)CHAR1 ENDIF 100  CONTINUE * 200 URITE(6,*)'UnStrGet: Successful Completion',nNOELS  *  20 URITE(9 f 916)'*' WRITE(10,*)nNOELS  * 20 CL0SE(8,STATUS='KEEP') CL0SE(9,STATUS='KEEP') CLOSE(10,STATUS='KEEP') 901 FORMAT(A6) 902 F0RMAT(A12,I6) c902 FORMAT(A16,I8) 903 F0RMAT(A1,I5,I7,7E11.2) 904 FORMAT(3X,2I7,E11.4) 916 F0RHAT(A3,I6,2X,16) * RETURN END C C=========================================================== C Read in  Averaged Von Mises Stress for  each node  (2-D) Z=====-==================-=======-======================= C SUBROUTINE  AVST2D PARAMETER (MXNOS1  =  80  000) PARAMETER (MXELS  =  25 000) CHARACTER FILE*6 CO M M O N  / FILNAM / FILE CO M M O N  /  C A V S T R  /  NS(MXNOS1),  ASTRCMXNOS1,3) CO M M O N /  N U M B R S /  N O N O S ,  NOELS,  NDIM CHARACTER*6  TEST,CHAR*1,CHAR1*1 C Initailize Number of Stress Enteries  f i l e DO 10  1=1,NONOS 10 NS(I)  = 0 C Find Beginning of Tables 110  READ(8,201)TEST IF (TEST.NE. 1 NODE')  G O  T O  110 NONOS=0 READ(8,201)TEST READ(8,201)TEST * * *** NODE  RECOGNITION ROUTINE  *** * 140 READ(8,203,ERR=200)CHAR,I,STR C Allow for  page turning IF (CHAR.EQ.'I 1 )  T H E N DO 150  J=1,7
+```
+
+```
+150 READ(8,201)CHAR1 END  IF IF (CHAR.EQ. 1 1 1 )  G O  T O 140 C I f last  read was  a Null  value  finish IF  (I.EQ.O)  G O  T O 200 C Count in  Stress Value for  node NS(I)=NS(I)+1 ASTRO,NS(I))=STR GO  T O  HO 200 CONTINUE CLOSE(8,STATUS='KEEP') * 201 FORMAT(A6) 203 FORMAT(A1,I5,E14.4) 204 FORMAT(3X,I7,3E14.5) * RETURN END C C======================================================: C Read in Averaged Von  Mises Stress for each node (3-D) C====================================================== C SUBROUTINE AVST3D PARAMETER (MXNOS1  =  80 000) PARAMETER (MXELS  =  25 000) CHARACTER FILE*6 CO M M O N  / FILNAM /FILE CO M M O N  /  CAVSTR  /  NS(MXNOS1),  ASTR(MXNOS1,3) CO M M O N /  N U M B R S /  N O N O S ,  NOELS,  NDIM CHARACTER*6  TEST,CHAR*1,CHAR1*1 0PEN(8,FILE=FILE// I .SP") C Initailize Number of  Stress Enteries  f i l e DO  10 1=1,NONOS 10 NSC I) = 0 C Find Beginning of  Tables 110 READ(8,201)TEST IF (TEST.NE. 1 CASE')  G O  T O 110 NONOS=0 READ(8,201)TEST * * *** NODE  RECOGNITION ROUTINE *** * 140 READ(8,203,ERR=200)CHAR,L,I,STR C Allow  for page  turning IF (CHAR.EQ. 1 1 1 )  T H E N DO 150 J=1,5 150 READ(8,201)CHAR1 END  IF IF (CHAR.EQ. 1 1 1 )  G O  T O 140 C I f last  read was  a Null  value  finish IF (I.EQ.O)  G O  T O 200 C Count i n  Stress Value for  node
+```
+
+```
+NS(I>=MS<I>+1 ASTR(I,NS(I))=STR GO  T O  140 200 CONTINUE CL0SE(8,STATUS='KEEP') * 201 F0RMATCA6) 203 F0RMAT(A1,I4,I8,E14.4) 204 FORMAT(3X,I7,3E14.5) * RETURN END C C==========================================================: C Rearrange Average Stresses to  Element and  Node Order C==================================™ c SUBROUTINE  REAVST PARAMETER (MXNOS1  =  80  000) PARAMETER (MXELS  =  25  000) PARAMETER (MXEN =  20*MXELS  ) CHARACTER FILE*6 CO M M O N  / FILNAM  / FILE CO M M O N /  N U M B R S /  N O N O S ,  NOELS,  NDIM CO M M O N  /  C U N S T R  /  NU,IEL(MXEN),NN(MXEN),USTR(MXEN) CO M M O N  /  C A V S T R  /  NS(MXNOS1),  ASTRCMXNOS1,3) OPEN(9,FILE=FILE//'.ASTRDAT 1 ) OPEN(10,FILE=FILE//'.ASTRNUM') C Loop over a l l  elements DO 50 1=1,NU C Ensure no Zero Values are  picked up erroneously DO 10  J=1,3 10 IF (ASTR(NN(I),J).EQ.0.0) ASTR(NN(I),J)  =  -9E29 C Assign average stress  value which is  closest  to the C  unaveraged stress value of that element C Using Unaveraged Stress at that Node for comparison US = USTR(I) C Calclulate the  differences between Values A1 =  ABS(US-ASTR(NN(I),D) A2  = ABS(US-ASTR(NN(I),2)) A3  = ABS(US-ASTR(NN(I),3)) C Write out closest  value IF  ((A1.LE.A2).AND.(A1.LE.A3)) THEN RSTR  =  ASTR(NN(I),1) ELSE IF (A2.LE.A3)  THEN RSTR  =  ASTR(NN(I),2) ELSE RSTR  =  ASTR(NN(I),3) END  IF URITE(9,904)IEL(I),NN(I),RSTR 50  CONTINUE WRITE(6,*)'Average Stresses: ' , N U
+```
+
+```
+WRITE(9,*)'*' WRITE(10,*)NU 904 F0RHAT(3X,2I7,E11.4) CLOSE(10,STATUS= 1 KEEP RETURN
+```
+
+```
+CLOSE(9,STATUS='KEEP') 1 ) END D.3.3.2 Displacements ************************************************************** * PROG R A M  T O  OBTAIN DISPLACEMENTS  F R O M * * PAFEC  OUTPUT FILES from  .007 files File name: dispget.f * **************************************************************************** CHARACTER*4  TEST,CHAR*1,A*9,B*9,C*9, FILE*6 INTEGERN(2) C Find  f i l e s name CALL GETENV ("file",FILE) * 0PEN(8,FILE=FILE//'.007') OPEN(9,FILE=FILE//'.DISP 1 ) OPEN(10,FILE=FILE//'.NUM') READ(10,*)NONOS,NOELS,NDIM CLOSE(10,STATUS= 1 KEEP') * DO 200 1=1,1 10 READ(8,901)TEST IF (TEST.EQ. 1 DIS')THEN * * *** NODE  RECOGNITION ROUTINE *** * NONOS  =  0 IFLG=IFLG+1 50 READ(8,902)CHAR IF (CHAR.NE.'1 1 )  G O  T O  50 55 READ(8,901)TEST READ(8,901)TEST READ(8;90T)TEST READ(8,901)TEST READ(8,901)TEST READ(8,901)TEST READ(8,901)TEST 60 IF  (NDIM.EQ.3)  THEN READ(8,902,ERR=60)CHAR,N(1),A,B,C ELSE READ(8,904,ERR=60)CHAR,N(1),A,B C=' 0.0000' END  IF 70 IF  (CHAR.EQ.'I')GOTO 55 IF (N(D.EQ.O.OO)GOTO  200 IF (A.EQ. 1 * 1 )THEN A=' 0.0000' END  IF IF (B.EQ.' *  ')THEN B=' 0.0000' END  IF IF (C.EQ.' *  ')THEN C=' 0.0000' END  IF WRITE(9,903)N(1),A,B,C NONOS=NONOS+1 GOTO 60 END  IF GOTO 10
+```
+
+```
+* 200 CONTINUE WRITE(6,*)'DispGet: Successful Completion',I-1,N0N0S/(I-1) CL0SE(8,STATUS='KEEP') CL0SE(9,STATUS= 1 KEEP 1 ) STOP * 901 FORMAT(A4) 902 FORMAT(A1,I5,3X,3(A9)> 903 FORMAT(6X,I5,3X,3(A9)) 904 FORMAT(A1,I5,6X,2(A9)) 910 FORMAT(A2,16,4X,13,3X,16,5X,13,4X,I3,9(2X,16)) 911 FORMAT(2X,  I6.2X,  13,2X,  16,2X,  I3,9(2X,  16)) 912 FORMAT(A2,39X,9(2X,I6)) 913 F0RMAT('*',25X,9(2X,I6)) 914 F0RMAT(9(2X,I6)) 915 F0RMAT(7(2X,I6)) 916 FORMAT(A3,I6,2X,I6) 917 FORMAT(I4) END D.3.4 Production of Tunnel Colour Output Using UNIRAS Software ************************************************************ * PROG R A M F O R PRODUCTION OF TUNNEL  C O L O U R  O U T P U T * * USING  UNIRAS  S O F T W A R E * CO M M O N  /  P L O T Y P  /  M R T E ,  MFLAG,  DISPLC C Read in  Data CALL  DATAIN C Convert Data to form appropriate  for  plotting CALL  C O N D A T C Open Graphics Page CALL  O P N G R P C Set Up Colour Scheme for  plotting C for material  property or stress IF (  MFLAG.LE.1 )  CALL  M A T C O L IF  (  M F L A G . G E . 2  )  CALL  S T R C O L C Plot out Tunnel CALL  PLOTUN C Draw Template for tunnel  output CALL  TEMPLATE C Close Graphics Page CALL  R C L O S E STOP END C 0==============================================. C Read in  Data C==============================================: C SUBROUTINE  DATAIN
+```
+
+```
+CO M M O N  /  PLOTYP  /  MRTE,  MFLAG,  DISPLC C Find general  f i l e name CALL FILEIN C Read i n  user  information CALL  USERIN C Read i n  Numerical Parameters of  the  System CALL  NUMBIN C Read i n  Nodal  Co-ordinates and Element  Description CALL NDELIN C Read i n  Displacement Values  i f  required CALL DISPIN C Read  in  local  co-ords IF (2*(MFLAG/2).NE.MFLAG)  CALL  LOCCIN C Convert Displacements  from Local to  Global IF  (2*(MFLAG/2).NE.MFLAG)  CALL  DISCON C Read i n  Unaveraged Stress Results i f required IF  ((MFLAG.GE.2).AND.(MFLAG.LE.3))  CALL USTRIN C Read i n  Averaged  Stress Results i f required IF (MFLAG.GE.4)  CALL ASTRIN RETURN END C C====================================================== C Find General  File Name C===================================================== c SUBROUTINE FILEIN CHARACTER FILE*6 CO M M O N  / FILNAM /FILE CALL GETENV  ("file»,FILE) RETURN END C C====================================================== C Read i n  user  information c====================================================== c SUBROUTINE  USERIN IMPLICIT CHARACTER*50  (A) CO M M O N  /  TITLES  /  ATITLE,  ASUB,  ADATE,  ATIME CO M M O N  /  PLOTYP  /  MRTE,  MFLAG,  DISPLC CO M M O N /  V E U F O C  /  V(3),  F(3) CO M M O N  / LIMITS  /  ZCL(2) WRITE(6,*)'G-Route: 0)  Window, 1)  B / W ,  2) Colour' READ (5,*) MRTE
+```
+
+```
+URITE(6,*)'Main  Title' READ (5,*)  ATITLE WRITE(6,*)'SUB  Title' READ  (5,*)  ASUB URITE(6,*)'Date' READ  (5,*)  ADATE WRITE(6,*)'Time' READ (5,*)  AT  IME WRITE(6,*)'Type of Plot ?' URITE(6,*)' 0) Material  Properties' URITE(6,*)' 1) Material  Properties & Displacement' WRITE(6,*)' 2)  Unaveraged Stress Contours' WRITE(6,*)' 3)  Unaveraged Stress Contours  & Displacement' WRITE(6,*)' 4)  Averaged Stress Contours' WRITE(6,*)' 5)  Averaged Stress Contours  & Displacement' READ (5,*)  MFLAG IF  (2*(MFLAG/2).NE.MFLAG) THEN WRITE(6,*)' Scaling  Factor for Displacement ?' READ (5,*) DISPLC ELSE WRITE(6,*)' Scaling  Factor for Displacement ?' READ (5,*) DISPLC DISPLC = 0.0 END  IF URITE(6,*)'Position of View and Focus' READ (5,*)  V, F URITE(6,*)'Stress  Limits' READ (5,*) ZCL RETURN END C C===========================================: C Read i n  Numerical Parameters  of the  System C===========================================: c SUBROUTINE  NUMBIN PARAMETER (MXNOSf  =80  000) PARAMETER (MXELS  =  25 000) CHARACTER FILE*6 CO M M O N  /  FILNAM  /  FILE CO M M O N /  N U M B R S /  N O N O S ,  NOELS, NDIM OPEN(10,FILE=FILE//'.NUM') READ(10,*)NONOS,NOELS,NDIM CLOSE(10,STATUS='KEEP') IF  (NONOS.GT.MXNOS1) THEN WRITE(6,*)'Number of nodes NONOS =  ' , N O N O S WRITE(6,*)'exceeds max.  limit MXNOS1  =  '.MXN0S1 WRITE(6,*)'Recompile with  increased MXN0S1 value.' STOP ENDIF IF  (NOELS.GT.MXELS) THEN WRITE(6,*)'Number of elements  NOELS =  '.NOELS WRITE<6,*)'exceeds max.  limit MXELS = 1 ,MXELS WRITE(6,*)'Recompile with  increased MXNOS1 value.' STOP ENDIF RETURN END C
+```
+
+```
+C==========================r================================ C Read i n  Nodal Co-ordinates and Element  Description 0================================================================ C SUBROUTINE  NDELIN PARAMETER (MXN0S1  =  80 000) PARAMETER (MXELS  =  25 000) CHARACTER FILE*6 CO M M O N  / FILNAM /FILE CO M M O N /  N U M B R S /  N O N O S ,  NOELS,  NDIM CO M M O N  /  E L E N O D  /  X(MXN0S1), YCMXNOS1),  Z(MXNOS1) CO M M O N  /  ELEDES  /  NTOPY(MXELS),  E(MXELS,8), MAT(MXELS), IE(MXELS) OPEN(7,FILE=FILE// 1 .GDAT',FORM= 1 FORMATTED 1 ) C Read i n  nodal  Co-ordinates DO  10 1=1,NONOS READ(7,*)N,X(N),Y(N),Z(N) 10 CONTINUE C Read in  Element  description C  and convert  material  property to  a  number  1-8 DO  20 NM=1,NOELS READ(7,*)IE(NM),NT0PY(IE(NM)), & (E(IE(NM),J),J=1,NTOPY(IE(NM))),MAT(IE(NM)) IF  (MAT(IE(NM)).GE.10)  MAT(IE(NM)) =  MAT(IE(NM))  - 10 IF  (MAT(IE(NM)).GE.10)  MAT(IE(NM)) =  8 C If Triangular element repeat node number i n forth  position C for  quadra  lateral  drawing IF  (NT0PY(IE(NM)).EQ.3) E(IE(NM),4)  =  E(IE(NM),2) 20 CONTINUE CLOSE(7,  STATUS='KEEP') RETURN END C C=========================================================== C Read i n  Displacement Values 0=========================================================== c SUBROUTINE DI  SPIN PARAMETER (MXN0S1  =  80 000) CHARACTER FILE*6 CO M M O N  / FILNAM /FILE CO M M O N /  N U M B R S /  N O N O S ,  NOELS,  NDIM CO M M O N  /  DISPMT  /  DX(MXNOS1),  DY(MXNOS1),  DZ(MXNOSI) CO M M O N  /  PLOTYP  /  MRTE,  MFLAG,  DISPLC IF  (2*(MFLAG/2).NE.MFLAG) THEN 0PEN(8,FILE=FILE// 1 .0ISP 1 ,FORM='FORMATTED') DO  10 1=1,NONOS READ(8,*)N,DX(N),DY(N),DZ(N) 10 CONTINUE CLOSE(8) ELSE DO  20  1 = 1 , N O N O S DX(I)=0.0 DY(I)=0.0 DZ(I)=0.0 20 CONTINUE ENDIF RETURN END C
+```
+
+```
+C Read i n  Local  Co-ordinate  Data £=======================-================================ c SUBROUTINE LOCCIN PARAMETER (MXN0S1 =  80 000) C In  order to  produce  a generalized conversion of C local to  global co-ordinates an  array of axis  Mill C  be  produced for each node,  initailized  to 1. C The axis set  1 w i l l be  set  to  angle  zero, hence C  represent the  global  co-ords. CHARACTER FILE*6 CO M M O N  / FILNAM /FILE CO M M O N  /  L O C O R D  /  ANG(IOOO), IAXS(MXNOSI) CHARACTER  TEST*5 DO  10  I=1,MXNOS1 10 IAXS(I)=1 ANG(1)=0.0 0PEN(8,FILE=FILE// 1 .DAT 1 ,FORM='FORMATTED 1 ) 20 READ(8,901,ERR=60)TEST IF (TEST.EQ. 1 END.')  G O  T O  60 IF (TEST.EQ.'END.O 1 )  G O  T O  60 IF (TEST.NE. 1 AXES')  G O  T O  20 READ(8,901)TEST READ(8,901)TEST READ(8,901)TEST 30 READ(8,*,ERR=40)IAX,IO,ANG(IAX) GO  TO  30 40 READ(8,901)TEST IF (TEST.NE.' LOCA')  G O  TO  40 READ(8,901)TEST 50 READ (8,*,ERR=60)INODE,IAXS(INODE) GO  T O 50 60  CL0SEC8) 901 FORMAT(A5) RETURN END C C========================================================= C Read in  Convert Displacements from  Local to Global c========================================================= c SUBROUTINE DI  S C O N PARAMETER (MXNOS1  =  80 000) C In  order to  produce  a generalized conversion of C local to  global co-ordinates an  array of axis  will C  be  produced for each node,  initailized  to 1. C The axis set  1 w i l l be set  to  angle  zero, hence C  represent the  global  co-ords. CO M M O N /  N U M B R S  /  N O N O S ,  NOELS,  NDIM CO M M O N  /  DISPMT  /  DX(MXNOSI),  DY(MXNOS1),  DZ(MXNOS1) CO M M O N  /  PLOTYP  /  MRTE,  MFLAG,  DISPLC CO M M O N  /  L O C O R D  /  ANG(1000), IAXS(MXNOSI) RAD=ACOS(0.0)/90.0 NONOS=1555 DO  10 1=1,NONOS ANGLE  =  ANG(IAXS(I))*RAD DXT =  DX(I)*COS(ANGLE)  -  DY(I)*SIN(ANGLE) DYT =  DX(I)*SIN(ANGLE)  +  DY(I)*C0S(ANGLE) DX(I) = DXT DY(I) = DYT i f  (IAXS(I).EQ.4)  write(6,*)ANGLE/RAD,DX(I),DY(I)
+```
+
+```
+write(6,*)I 10 CONTINUE RETURN END C C=========================================================== C Read in  Unaveraged Stress  Results c=========================================================== c SUBROUTINE  USTRIN PARAMETER (MXNOS1  =  80 000) PARAMETER (MXELS  =  25  000) CHARACTER FILE*6 CO M M O N  / FILNAM /FILE CO M M O N  /  STRESS  /  USTR(MXELS,8), ASTR(MXELS,8) CO M M O N  /  N U M B R S  /NONOS,  NOELS,  NDIM CO M M O N  /  ELEDES  /  NTOPY(MXELS),  E(MXELS,8),  MAT(MXELS), IE(MXELS) REAL  STRNOD(MXNOSI) IF (NDIM.EQ.3)  N N  =  20 IF (NDIM.EQ.2)  N N  = 8 C Read i n  Stress Values OPEN(10,FILE=FILE// 1 .USTRNUM 1 ,FORM='FORMATTED') READ{10,*)  NSTRSEL CLOSE(10) OPEN(9, FI  LE=F  I  LE// 1 .USTRDAT 1 ,  F O R M = '  FORMATTED') write  (6,*)NSTRSEL/NN DO  20  I=1,NSTRSEL/NN DO  5  L=1,NN READ(9,*)IEL,N0D,STRN0D(N0D) 5 STRNOD(NOD)  =  STRNOD(NOD)  / 1E5 DO  10  J=1,NTOPY(IEL) USTR(IEL,J)=STRNOD(E(IEL,J)) 10 CONTINUE 20  CONTINUE CL0SEC9) RETURN END C _ C=========================================================== C Read  in Averaged Stress  Results C SUBROUTINE  ASTRIN PARAMETER (MXNOS1  =  80 000) PARAMETER (MXELS  =  25 000) CHARACTER FILE*6 CO M M O N  / FILNAM /FILE CO M M O N  /  STRESS  /  USTR(MXELS,8), ASTR(MXELS,8) CO M M O N /  N U M B R S  /  NONOS,  NOELS,  NDIM CO M M O N  /  ELEDES  /  NTOPY(MXELS),  E(MXELS,8),  MAT(MXELS),  IE(MXELS) REAL  STRNOD(MXNOSI) IF (NDIM.EQ.3)  N N  = 20 IF (NDIM.EQ.2) N N  = 8 C Read i n  Stress Values OPEN(  10,  FI  LE=F  I  LE//'. ASTRNUM',  FORM= 1 F O R M A T T E D ' ) READOO,*) NSTRSNO CLOSE(IO) 0PEN(9,FILE=FILE//'.ASTRDAT 1 ,FORM='FORMATTED 1 ) DO  20  I=1,NSTRSNO/NN DO  5  L=1,NN READ(9,*)IEL,N0D,STRNOD(NOD)
+```
+
+```
+5 STRNOD(NOD)  =  STRNOD(NOD)  / 1E5 DO 10 J=1,NT0PY(IEL) ASTR(IEL,J)=STRNOD(E(IEL,J)> IF  (ASTR(IEL,J).EQ.0.0)ASTR(IEL,J)=-9E29 10 CONTINUE 20  CONTINUE CL0SE(9) RETURN END C C=========================================================== C Convert Data to form appropriate  for  plotting 0=========================================================== c SUBROUTINE  C O N D A T PARAMETER (MXNOS1  =  80 000) PARAMETER (MXELS  =  25 000) PARAMETER (MXNOS2  =  24  *  MXELS) CO M M O N /  N U M B R S /  N O N O S ,  NOELS,  NDIM CO M M O N  /  ELENOD  /  X(MXNOS1),  Y(MXNOS1),  Z(MXN0S1) CO M M O N  /  DISPMT  /  DX(MXNOSI),  DY(MXNOSI),  DZ(MXNOS1) CO M M O N  /  STRESS  /  USTR(MXELS,8), ASTR(MXELS,8) CO M M O N  /  ELEDES  /  NTOPY(MXELS),  E(MXELS,8), MAT(MXELS), IE(MXELS) CO M M O N  /  F A C N O D  /  R(MXNOS2),  S(MXNOS2),  TCMXNOS2) CO M M O N  /  C O L N U M  /  CLR(MXNOS2), N P CO M M O N  /  PLOTYP  /  MRTE,  MFLAG,  DISPLC C Data  for the  conversion from Element to  Face Topology INTEGER  L (24) DATA  L / 1,2,4,3,  5,6,8,7, & 1.2,6,5,  3,4,8,7, & 2,4,8,6, 1,3,7,5  / C Arbitary  1/2 thickness of  beam element BEAM  =  0.1 C Zero node  l i s t  counter NP = 0 C Loop over  a l l elements DO 50  KE=1,NOELS K=IE(KE) C Set number of faces  required to  describe element; C i f  2 - D  System  or  Beam element, one face, C  else  six  faces. IF  ((NDIM.EQ.2).OR.(NTOPY(K).EQ.2))  THEN MFACE  = 1 ELSE MFACE  =  6 ENDIF C Exclude AIR elements from  plot IF  (MAT(K).EQ.9)  M F A C E  = 0 C I f Beam element  represent as  f l a t t i l e  shifted out C from  rock. IF  (MAT(K).NE.9)  THEN IF  (NTOPY(K).EQ.2)  THEN
+```
+
+```
+C Find Angle of Anchorage to the vertical PHI=ATAN( (  X(E(K,2))-X(E(K,1)> ) / & (  Y(E(K,2))-Y(E(K,1)> )  ) C Assign nodal values  shifted  either  side of each end C  of beam and shifted out from rock  face. DO 20  M=1,2 DO  10 1=0,1 J =  I+2*M-1+NP R(J)=X(E(K,L(M)))+(-1)**(I+H)*BEAM*C0S(-PHI) & +DISPLC*DX(E(K,L(M))) S(J)=Y(E(K,L(M)))+(-1)**(I+M)*BEAM*SIN(-PHI) & +DISPLC*DY(E(K,L(H))) IF (  Z(E(K,L(M))).LE.0.0 ) THEN T(J)=Z(E(K,L(M)))-1*BEAM & +DISPLC*DZ(E(K,L(M))) ELSE T(J)=Z(E(K,L(M)))+1*BEAM & +DISPLC*DZ<E(K,L(M))) END  IF 10 CONTINUE 20 CONTINUE ELSE C Else assign corner nodes of face(s) DO 30  H=1,4*HFACE R(M+NP)=X(E(K,L(M)))+DISPLC*DX(E(K,L(M>)) S(M+NP)=Y(E(K,L(M)))+DISPLC*DY(E(K,L(M») T(M+NP)=Z(E(K,L(M)))+DISPLC*DZ(E(K,L(M))) 30 CONTINUE END  IF C Assign Mat. Prop, of Stress value to Colour  array DO 40  M=1,4*MFACE IF (MFLAG.LE.1)  THEN C Assign Material  Property of  Element CLR(M+NP)  =  FLOAT(MATdO) ELSE IF (MFLAG.LE.3) THEN C Assign Unaveraged Stress of node i n element CLR(M+NP)  =  USTR(K,L(M)) IF (NTOPY(K).EQ.2)  CLR(M+NP)  = 0.0 ELSE C Assign Averaged Stress of node i n element CLR(M+NP)  =  ASTR(K,L(M)) IF  (NTOPY(K).EQ.2)  CLR(M+NP)  = 0.0 END  IF 40 CONTINUE ENDIF C Count number of nodes added to  l i s t NP =  N P +  4 * M F A C E 50 CONTINUE RETURN END C C=========================================================== C Set  Up  Graphics Page 0=========================================================== C SUBROUTINE  O P N G R P CO M M O N  /  PPRSIZ  /  XSIZ, YSIZ,  SF CO M M O N  /  PLOTYP  /  MRTE,  MFLAG,  DISPLC
+```
+
+```
+CO M M O N  /  V E U F O C  / V(3),  F(3) C Select windows  or  postscript  Driver IF (MRTE.EQ.O)  CALL GROUTEC'select mx11; exit') IF (MRTE.EQ.1)  CALL GROUTE('select mpost;  exit') IF (MRTE.EQ.2)  CALL GROUTEC'select hcposta4;  exit') C Open Page CALL  R O P E N C Orientation  Landscape CALL  R0RIEN(1) C Find size of  paper, open port  within  that CALL  GRPSIZ(XSIZ,YSIZ) IF  (XSIZ.LT.(1.25*YSIZ))THEN YSIZ=0.8*XSIZ SF=XSIZ/250 ELSE XSIZ=1.25*YSIZ SF=YSIZ/200 ENDIF CALL GVPORT(2.0*SF,2.0*SF,0.78*XSIZ,0.88*YSIZ) CALL GCLIP C Set axis,  x-horizontal,  y-vertical,  z-perpendicular CALL GVPROJd) C Scale size of port CALL GLIMIT(-150.0,150.0,-150.0,150.0,-150.0,150.0) C Set position of  veiwer and focus CALL GEYE(V(1),V(2),V(3)) CALL  GSCALE CALL GFOCUS(F(1),F(2),F(3)) CALL GDISTd.O) RETURN END C C=========================================================== C Set  Up Colour Scheme for  plotting Material Properties c=========================================================== c SUBROUTINE  MATCOL C Material  Colour Table REAL C0L(4,16), ZCL(7) C Brown, Purple, Yellow, Red,  Green, Lt. Grey,  Dk.  Grey, Blue DATA  C O L  /  1.0, 180., 50., 100., & 1.0e-6,  180., 50., 100., & 1.0, 120., 50., 25., & 1.0e-6,  120., 50., 25., & 1.0, 120., 50., 100., & 1.0e-6,  120., 50., 100., & 1.0, 50., 50., 100., & 1.0e-6, 50., 50., 100., & 1.0, 240., 50., 100., & 1.0e-6,  240., 50., 100., & 1.0, 66., & 1.0e-6. o., 66., o.. & 1.0, 0.,  33., o..
+```
+
+```
+& 1.0e-6, 0.,  33.,  0., & 1.0, 0.,  50.,  100., & 1.0e-6, 0.,  50.,  100.  / C Define User Pallette number  7 with 16 fixed  points CALL  RCSDEF (7, COL,  16,  1,  100.0) C Load  Palette CALL  RSHADE (7,0) C Define Contours  at  7 positions 1.5  to  7.5  step  1 DO  20  1=1,7 ZCL(I) =  0.5  +  f l o a t ( I ) 20 CONTINUE CALL  RCLASS (ZCL,7,0) RETURN END C C===================================================: C Set  Up  Colour Scheme for  plotting Von  Mises Stress c=================================================== : c SUBROUTINE  STRCOL CO M M O N  / LIMITS  / ZCL(2) C Material  Colour  Table REAL COL(4,6) C Define a spectrum of  colours DATA  C O L /  20.0, 0.0, 0.0,  100.0, & 25.0, 0.0, 100.0, 100.0, & 10.0, 0.0, 100.0, 0.0, & 15.0,  75.0, 100.0, 0.0, & 30.0, 100.0, 100.0, 0.0, & 0.0, 100.0, 0.0, 0.0 C Define User Pallette number  7 with 6 fixed  points CALL RCSDEF (7,  COL,  6,  2, 100.0) C Load  Palette CALL  RSHADE (7,0) C Set  16  levels of  equal  divisions CALL  RCLASS (ZCL,16,3) RETURN END C C======================================================: C Plot  Tunnel C====================================================== c SUBROUTINE  PLOTUN PARAMETER (MXNOS1  =  80 000) PARAMETER (MXELS  =  25 000) PARAMETER (MXNOS2  =  24  * MXELS) CO M M O N  /  F A C N O D  /  R(MXNOS2),  S(MXNOS2),  T(MXN0S2) CO M M O N  /  C O L N U M  /  CLR(MXNOS2), N P C Create Segment
+```
+
+```
+CALL  GSEGCRCD C Draw anti-background frame about  faces CALL  GSURFRd) C Draw Faces CALL  CSRF4S(R,S,T,CLR,-NP,1) C Close Segment CALL  GSEGCLCD RETURN END C C========================================================= C Plot  Tunnel 2 (Using Z-Buffer) c = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = c SUBROUTINE  PL0TU2 PARAMETER (MXN0S1 =  80 000) PARAMETER (MXELS  =  25  000) PARAMETER (MXN0S2  =  24 *  MXELS) CO M M O N  /  F A C N O D  /  R(MXN0S2),  S(MXNOS2),  T(MXNOS2) CO M M O N /  C O L N U M  /  CLR(MXN0S2),  N P C Create Segment CALL  GSEGCRd) C Draw anti-background  frame  about  faces CALL  GSURFRd) C Open Z-Buffer CALL  CZBUF('OPEN') C Draw Faces DO  10 I=1,NP-3,4 10 CALL CSURF(R(l),S(I),T(I),CLR(I),-NP) C Close  Z-Buffer CALL  CZBUFCCLOSE') C Close Segment CALL  GSEGCLd) RETURN END C C======================================================== C SUBROUTINE  F O R  CREATING  TEMPLATE  F O R  PAFEC/UNIRAS  OUTPUT C======================================================== C SUBROUTINE  TEMPLATE IMPLICIT CHARACTER*50  (A) CO M M O N  /  TITLES  /  ATITLE,  ASUB,  ADATE,  AT  IME CO M M O N  /  PPRSIZ /  XSIZ, YSIZ,  SF CO M M O N  /  PLOTYP  /  MRTE,  MFLAG,  DISPLC CO M M O N /  V E W F O C  / V(3),  F(3) INTEGER  NCHARC3) CHARACTER'S  CSTXTC3) CHARACTER*25 AMAT(8)
+```
+
+```
+REAL XBOX(5),YBOX(5),X(4),Y(4),Z(4) REAL XB(12),YB(12),ZB(12),BZINT(24) DATA XBOX/0.0,1250.0,1250.0,0.0,0.0/ DATA YBOX/0.0,0.0,1000.0,1000.0,0.0/ DATA X/0.0,2.0,0.0,0.0/ DATA Y/0.0,0.0,2.0,0.0/ DATA Z/0.0,0.0,0.0,2.0/ c DATAXB/0,1,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0,1,1,0,0,1,1,0/ c DATAYB/1,1,1,1,0.0,0,0,0,1,1,0,0.1,1,0,0,0,1,1,0,0,1,1/ c DATAZB/0,0.1,1,0,0,1,1,0,0,1,1,0,0,1,1,1,1,1,1,0,0,0,0/ DATAXB/0,1,1,0,0,0,0,0,0,1,1,0/ DATAYB/0,0,0,0,0,1,1,0,0,0,1,1/ DATAZB/0,0,1,1,0,0,1,1,0,0,0,0/ DATA NCHAR/5,5,5/ DATA  A M A T  / 1 Neogene Cover 1 , & 'Sand/Silt/Clay-stone 1 , & 'Quartzite', & 'Arkose', & 'Volcanic Dyke Rock 1 , & 'Outer Shotcrete  Lining', & 'Inner Shotcrete  Lining 1 , & 'Mild Steel Supports' / CSTXT{1  )='BELOW CSTXT(2)='ABOVE' CSTXT(3)='UNDEF' CALL  RTXESC(1,'V) CALL RTXESC<2, ,_ ') VX=(V(1)-F(1))*6 VY=(V(2)-F<2))*6 VZ=(V(3)-F(3))*6 FX=0.0 FY=0.0 FZ=0.0 CALL GSEGCR(50) CALL GVPORT(.0,.0,XSIZ,YSIZ) CALL  GVPROJO) CALL GLIMIT<0.0,1250.0,0.0,1000.0,0.0,0.0) CALL  GSCALE CALL GWIC0L(1.0*SF,1) CALL  GVECT(XBOX,YBOX,5) CALL  GWICOL(0.5*SF,1) CALL GVECT(1000.0,0.0,0) CALL  GVECTdOOO.0,1000.0,1) CALL GVECT(0.0,900.0,0) CALL GVECTdOOO.0,900.0,1) CALL GVECTdOOO.0,875.0,0) CALL GVECT(1250.0,875.0,1) CALL  GVECTdOOO.0,330.0,0) CALL GVECT(1250.0,330.0,1) CALL  GVECTdOOO.0,150.0,0) CALL GVECT(1250.0,150.0,1) CALL GVECT(350.0,900.0,0) CALL GVECTC350.0,1000.0,1) CALL RTXFON(SIMP,1) CALL RTXHEI(3.0*SF) CALL  RTXBOLC0.15) CALL RTX(-1,' PAFEC-FE ',20.0,940.0) CALL RTX(-1,ATITLE,360.0,960.0) CALL RTX(-1,ASUB,360.0,920.0) CALL RTXHEI(3.0*SF) CALL RTX<-1,'PLOT TYPE:',1025.0,970.0) CALL RTXHEI(2.0*SF) IF (MFLAG.LE.1)  A1='Material  Properties' IF (MFLAG.GE.2)  A1='3D Von  Mises Stress' IF (MFLAG.LE.1) A2=' '
+```
+
+```
+IF (HFLAG.GE.2)  A2='(unaveraged)' IF (MFLAG.GE.4)  A2='(averaged)' CALL RTXJUS(1,1) CALL RTX(-2,A1,1125.0,935.0) CALL RTX(-2,A2,1125.0,920.0) CALL RTX(-1,'Displacement Factor: ',1100.0,895.0) CALL RTXNC(DISPLC,3) CALL RTXJUS(0,1) * CALL RTXHEI(3.5*SF) CALL RTXB0L(0.15) CALL RTX(-1,'View:',1010.0,300.0) CALL RTXHEI(1.5*SF) CALL  RTXBOL(0.2) CALL RTX(-1,'X: ',1005.0,160.0) CALL RTXNC(V(1),3) CALL RTXCC-1,'  Y: ') CALL RTXNC(V(2),3) CALL RTXC(-1,'  Z: ') CALL RTXNC(V(3),3) * CALL RTXHEI(3.0*SF) CALL RTXJUS(1,1) CALL RTX(-1,'Produced by:',1125.0,125.0) CALL RTXHEI(3.25*SF) CALL RTXBOL(0.25) CALL RTX<-1,'DES3HB ',1125.0,90.0) CALL  RTXBOL(0.2) CALL RTX(-2,ADATE,1125.0,50.0) CALL RTX(-2,ATIHE,1125.0,20.0) CALL RTXHEI(1.5*SF) CALL RTX(-1,'LJP',1235.0,20.0) CALL RTX(-1,'STB',1235.0,10.0) * COLOUR  LEGEND  DEFINITION C Material  Properties Legend IF (MFLAG.LE.1) THEN CALL RTXHEI(3.0*SF) CALL RTXBOL(0.15) CALL RTX(-1,'Haterial  Properties:',1125.0,835.0) CALL  RTXCOL(O.O) CALL  GCLOPT(NCHAR,CSTXT,5*SF,0,0.0,-1) CALL GCOSCL(1015.0,540.0) CALL RTXCOL(1,1) CALL  RTXJUS(O.O) CALL RTXHEI(2.0*SF) DO 10 1=1,8 10 CALL RTX(-2,AHAT(9-I),1070.0,540.0+6.25*(I-1)*5*SF) * ELSE C Von Mises Stress CALL RTXHEI(3.0*SF) CALL  RTXBOL(0.15) CALL RTX(-1,'Legend',1060.0,845.0) CALL RTXPAT(O) CALL RTXHEI(2.5*SF) CALL  RTXANG(90.0) CALL RTX(-1,' Stress -  Von Mises x10"5  N m " - " 2 ',1100.0,575.0) CALL  RTXANG(O) CALL RTXPAT(O) * CALL RTX(-1,'~oC,1100.0,465.0) CALL  GCLOPT(NCHAR,CSTXT,4.5*SF,1,0.0,1) CALL GCOSCL(1015.0,350.0) END  IF * C Draw Progection Box
+```
+
+```
+CALL RTXHEI(3.0*SF) CALL  RTXBOL(0.2) CALL GVPORT(0.846*XSIZ,0.165*YSIZ,0.108*XSIZ,0.135*YSIZ) CALL GVPROJ(I) CALL GLIHIT(-2.0,2.0,-2.0,2.0,-2.0,2.0) CALL GCLIP VMR=(((VX**2)+(VY**2)+(VZ**2))**0.5)*0.65 CALL  GEYE(VX/VMR,VY/VMR,VZ/VMR) CALL  GFOCUS(FX,FY,FZ) CALL  G S C A M M c CALL GDIST(VHR) CALL  GTRANS(X,Y,Z,4) CALL  RTXBOL<0.25) CALL RTXHEI(2.1*SF) C=X(1)+((X(2)-X(1))*1.2) B=Y(1)+((Y(2)-Y(1))*1.2) CALL  RTX(-1,'X',C,B> C=X(1)+((X(3)-X(1))*1.2) B=Y(1)+((Y<3)-Y(1))*1.2) CALL  RTX(-1,'Y',C,B) C=X(1)+((X(4)-X(1))*1.2) B=Y(1)+((Y(4)-Y(1))*1.2) CALL RTX(-1,'Z',C,B) CALL  GSURFR(2) CALL CCONST(0,24,BZINT) CALL GAR0PT(3.0,3.0) CALL CSRF4S(XB,YB,ZB,BZINT,-12) CALL GARROW(X(2),Y(2),1,X(1),Y(1),0,2,2,0.1*SF) CALL GARROW(X(3),Y<3),1,X(1),Y(1),0,2,2,0.1*SF) CALL GARROU(X(4),Y(4),1,X(1),Y(1),0,2,2,0.1*SF) CALL CSRF4S(XB,YB,ZB,BZINT,-12) * CALL  GSEGCL(50) RETURN END
+```
+
+## APPENDIX E
+
+## SHELL  NODE  CO-ORDINATE CALCULATIONS
+
+## E . 1 Introduction
+
+The  tunnel height determine the tunnel geometry  according to five centres. Centre  one  (CI)  radius is  equal to  the  tunnel  height  as  shown  in Fig. E . l . The other four centres are calculated in terms of tunnel height as follows.
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+| IPSH (Shell pafblock counter)          | 1   | 2   | 3   | 4       |                | 6       | 7       | 8       |
+|----------------------------------------|-----|-----|-----|---------|----------------|---------|---------|---------|
+| KPSH (Number of pafblock in each zone) | 2   | 3   | 2   | 1+NMIDA | 2+NMIDC        | 1+NMEDC | 2       | 4       |
+| Cumulative number of pafblock          | 2   | 5   | 7   | 8+NMIDA | 9+NM1DA +NMIDC | 11+K(0) | 13+K(0) | 17+K(0) |
+| Zones                                  | 1A  | IB  | 2A  | 2B      | 3A             | 3B      | 4       | 5       |
+
+Table £.1 Shell pafblock counters and number of the  pafblock in each region
+
+| Node number               |
+|---------------------------|
+| KPSH(l) = 2               |
+| KPSH(2) = KPSH(l)+3       |
+| KPSH(3) = KPSH(2)+2       |
+| KPSH(4) = KPSH(3)+1+NMIPA |
+| KPSH(5) = KPSH(4)+1+NM1DC |
+| KPSH(6) = KPSH(5)+2       |
+| KPSH(7) = KPSH(6)+2       |
+| KPSH(8) = KPSH(7)+4       |
+
+N 0 &gt; s 5 3 a O S
+
+<!-- image -->
+
+Engineering drawing
+
+## E.2  Shell Node Co-ordinate Calculations for Zone 1A
+
+Vertical  boundaries  of  comer nodes  1,  3  and 5  are defined  by  excavation boundaries  in  zone  '1A'  for  shell  node  co-ordinates calculations of  centre 1. Midside nodes are midway between corner nodes in x-direction.  Y-values are found using Pythagoras' theorem for each node in zone '1A\ The accumulative  distance from first shell is set according to thickness of inner and shotcrete  linings.  Codes for zone 1A are as shown in Fig. E.2
+
+Fig.  E.2  Shell node co-ordinates  for zone 1A
+
+<!-- image -->
+
+Engineering drawing
+
+Fig. E.3  Shell node co-ordinate calculations for zone 1A
+
+<!-- image -->
+
+Table
+
+## E.3  Shell Node Co-ordinate Calculations for Zone  IB
+
+Fig. E .4 Shell node co-ordinates for zone  IB
+
+<!-- image -->
+
+Engineering drawing
+
+Fig. E.5  Shell node co-ordinate calculations using first and last flattened shells
+
+<!-- image -->
+
+Engineering drawing
+
+Node p co-ordinates, x(p) and y(p), are known.  Node q has two properties
+
+- i)  It lies on an arc with centre and radius is  'H+R.'
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+- ii)  It lies on a straight line which passes through node p and is at an angle &lt; | &gt; to the horizontal.
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+From equation (1)
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+Equation (5g) is a quadratic equation which contains the square of the unknown 'Q' quantity and constants a, b and c.  It can be solved using the formula for the general quadratic equation.  Q is calculated in terms of R  which is cumulative shell thickness so  Q is  also  calculated  cumulatively. Node q co-ordinates  then  calculated  using equations (3) and (4).
+
+= - = - - - .
+
+- -
+
+- = =
+
+c
+
+## C SUBROUTINE SC1MND FOR SHELL NODE COORDINATES CALCULATIONS
+
+C FOR CENTRE 1
+
+C ZONE IB: IPSH=2 TRANSITION BETWEEN VERTICAL BOUNDARY AND C RADIAL BOUNDARY
+
+C
+
+.  "
+
+- .
+
+·
+
+SUBROUTINE SCI BND (ISHELL)
+
+IMPLICIT DOUBLE PRECISION  (A-H,0-Z)
+
+1
+
+PARAMETER(NNQDES=5000)
+
+1
+
+COMMON / CNODES / X(NNODE§), Y(NNODES)
+
+COMMON / CSHPAR / R,DLAMDA(8),PHI(20),PSI(20)
+
+.
+
+COMMON / CANGLE / DRAD, BETA(22)
+
+COMMON /CTUNIN / H, HOVER, HUNDER
+
+COMMON / CKEYPR /K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF
+
+COMMON ACHFXPR / HFX(17)
+
+COMMON / CSHLPR / NSHELL, eiN(5),SUMR
+
+COMMON / COUNT  / KPSH(8), NPSIDE, NCOL, NROVf
+
+## C CALCULATE POSITION OF RADIAL BOUNDARY FOR ALL BUT LAST SHELL
+
+## IF (ISHELL.LE.(NSHELL -1)) THEN
+
+X(2*KPSH(2)+1+NNS*ISHELL)=(H+R)*DSIN(BETA(4))
+
+'
+
+Y(2*KPSH(2)+l+NNS*ISHELL)=(H+R)*DCOS(BETA(4))
+
+ENDIP
+
+## C FIRST SHELL (ISHELL=0) BOUNDARY COORDINATES
+
+IF (ISHELL.EQ.O) THEN
+
+## C FIRST SHELL (ISHELL=0) CORDINATES
+
+C CALCULATE POSITION OF RADIAL BOUNDARY
+
+X(2*KPSH(2)+1)=(H+R)^DSIN(BETA(4))
+
+Y(2*KPSH(2)+l)=(H+R)*DCOS(BETA(4))
+
+B=(H+SUMR)/DSIN(BETA(20))
+
+X(2*KPSH(2)+1+NNS*NSHELL)=B*DSIN(BETA(4))
+
+Y(2*KPSH(2)+l+NNS*NSHELL)=B*DCOS(BETA(4))
+
+## C CALCULATE X-POSITION OF VERTICAL BOUNDARY C FOR LAST FLATTENED SHELL
+
+X(2*KPSH(1)+1+NNS*NSHELL)=(3.2D0/7.9D0)*H
+
+ENDIF
+
+Fig. E .6 Shell node co-ordinate calculations for zone  IB
+
+<!-- image -->
+
+Table
+
+## E.4 Shell Node Co-ordinaie Calculations  for Zone  2A
+
+Fig. E.7  Shell mode co-ordinates for zone 2A
+
+<!-- image -->
+
+Engineering drawing
+
+Fig. E.S  Centralising the nraidside modes for 2A
+
+<!-- image -->
+
+Engineering drawing
+
+<!-- image -->
+
+Table
+
+Continued from previous page
+
+## C  THE FLATTENED SHELL BOUNDARY IS A VERTICAL LINE AT XA(4)
+
+X(2*KPSH(3)+1+NNS*NSHELL)=XA(4)
+
+ENDIF
+
+## C FIND POSITION OF THE ANCHORAGE BOUNDARY
+
+NANCH = KPSH(2)+KPSH(3)+1
+
+IF (ISHELL.LE.(NSHELL-1)) THEN
+
+## C NODES ALONG ANCHORAGE
+
+C The equation of an arc is;
+
+C (xb-xO) A 2 + (yb-yO) A 2 = Radius*2 (1)
+
+C A straight line passing through A at angle alpha is;
+
+C xb = xa + q cos(aplpha)
+
+(2a)
+
+C yb = ya + q sin(aplpha)
+
+(2b)
+
+C Substituting (2) into (1) produceses a quadratic in q
+
+C Noting that A also lies on an arc of Radius 0, the quadratic
+
+C can be simply solved to find the length of q and hence the position
+
+C of B, using the standard quadratic formula.
+
+A=1
+
+B=  2D0*((XA(1)-XC(2))*DCQS(AANCHP))
+
+&amp;
+
++(YA(1)-YC(2))  * DSIN(AANCH(1)^)-
+
+C= -2D0*H*(S.9D0/7.9D0)*R - R*R
+
+Q= (-B + SQRT(B*B-4*A*C) )/(2D0*A)
+
+X(NANCH+NNS*ISHELL)=XA(l)+Q*DCOS(AANCH(l)) Y(NANCH+NNS*ISHELL)=YA(1)+Q*DSIN(AANCH(1))
+
+ELSE
+
+./""
+
+-
+
+## C END OF ANCHORAGE
+
+X(NANCH+NNS*NSHELL)=XA(2) Y(NANCH+NNS*NSHELL)=YA(2)
+
+ENDIF
+
+51
+
+-
+
+Continued front previous page
+
+Fig. E .9 Shell mode co-ordinate calculations for zone 2A
+
+<!-- image -->
+
+Table
+
+## E.S Sttnell  Node Co-ordimate Calculations for Zome 2B
+
+Fig.  E.lffl  Shell node co-ordinates for zone 2B
+
+<!-- image -->
+
+Engineering drawing
+
+Fig.  E . l l Centralising  the midside nodes for zone 2B
+
+<!-- image -->
+
+Engineering drawing
+
+<!-- image -->
+
+Table
+
+## Continued from previous page
+
+- C LAST SHELL IS VERTICAL AT XA(4)
+- C CORNER  NODI
+
+X(2*KPSH(3)+l+2*MI»A+NN§*IS]HnELL)-XA(4)
+
+- C MID-SIDE  NODI
+
+X(2*KPSH(3)+2*IMIDA+NNS*ISHELL)=XA(4)
+
+ENDIF
+
+130  CONTINUE
+
+C CALCULATE HORIZONTAL  BOUNDARY BETWEEN MDAAND MIDC C REGIONS  AT HFX(8)
+
+'
+
+Y(2*KPSH(4)«+NNS*ISHELL)NIFX(8)
+
+IF (ISHELL.LE.(NSHELL-l))  THEN
+
+- C  ENSURE  NODE IS ON THE ARC
+
+YF2=KIFX(8)*YC(2)
+
+XF2=SQRT(((H*(S.9D0/7.9D0)+R)**2)-(YF2)**2)
+
+X(2*KPSH(4)+1+NNS*ISHEEL)=XC(2)+XF2
+
+ELSE
+
+- C AGAIN  FLATTENED SHELL HAS A VERTICAL-BOUNDARY AT XA(4)
+
+\
+
+X(2*KPSH(4)+1+NNS*ISHELL)=XA(4) ENDIF
+
+- CJCENTRALIZINGMIDSIDE NODE 2*KPSH(4)+NNS&gt;ISHELL IN Y-DIRECTION
+
+Y(2*KPSH(4)+NNS*ISHELL)=
+
+%
+
+&amp; (Y(2*imH(4)+l+NNS*ISHILL)+Y(2W^
+
+IF (ISHELL.LE.(NSHELL-1))  THEN
+
+C ENSURE  NODE IS ON THE ARC
+
+X(2*KPSH(4)H-NNS*ISHELL)=XC(2)+SQRT(((H*S.9D0/7.9D0)+R)**2-&amp; (Y(2*KPSH(4)+NNS*ISH1LL)-YC(2))**2)
+
+ELSE
+
+- C  AGAIN  FLATTENED SHELL HAS A VERTICAL BOUNDARY AT XA(4) X(2*KPSH(4)+NNS*ISHELL)=XA(4)
+
+;
+
+ENDIF
+
+RETURN END
+
+Fig.  E.12  Shell mode co-ordnraate cakMJatioims for zome 2B
+
+## E.6  Shell Node Co-ordinate Calculations for Zone  3A
+
+Fig.  £.13  Shell node co-ordinates for zone 3A
+
+<!-- image -->
+
+Engineering drawing
+
+Fig.  E.14  Centralising midside nodes  for zone 3A
+
+<!-- image -->
+
+Engineering drawing
+
+Fig. E.15  Shell node co-ordinate calculations for zone 3A
+
+<!-- image -->
+
+Table
+
+## E.7  SMI Node Co-ordinate Calculations for  Zone 3B
+
+Fig.  E.16  Shell mode co-ordinates for zone 3B
+
+<!-- image -->
+
+Engineering drawing
+
+Fig.  E.17  Centralising  nnidside nodes for zone 3B
+
+<!-- image -->
+
+Engineering drawing
+
+<!-- image -->
+
+Table
+
+## Continued from previous page
+
+Fig.  E.18  Shell node co-ordinate calculations for zone 3B
+
+<!-- image -->
+
+Table
+
+## E.8 Shell Node Co-ordiimate Calculations for Zoime 4
+
+Fig. E.19  Shell node co-ordinates for zone 4
+
+<!-- image -->
+
+Engineering drawing
+
+Fig. E.20  Centralising nnidside nodes for zone 4
+
+<!-- image -->
+
+Engineering drawing
+
+<!-- image -->
+
+Table
+
+Continued on next page
+
+## Continued from previous page
+
+Fig. E.21  Shell node co-ordinates calculations for zone 4
+
+<!-- image -->
+
+Table
+
+## E.9  Shell Node Co-ordimate Calculations for Zonae 5
+
+Fig.  E.22  Shell node co-ordinates for zone 5
+
+<!-- image -->
+
+Engineering drawing
+
+Fig.  E.23  Centralising  midside nodes for zone §
+
+<!-- image -->
+
+Engineering drawing
+
+<!-- image -->
+
+Table
+
+Continued from previous page ;
+
+Fig. E.24 Shell Mode co-ordinate calculations for zone 5
+
+<!-- image -->
+
+Table
+
+C
+
+"
+
+"
+
+"
+
+"
+
+·  -
+
+## C SUBROUTINE  SYMNOD FOR SHELL SYMMETRIC NODES COORDINATES
+
+C "
+
+'  '
+
+'
+
+'
+
+·
+
+·
+
+·  -  ·
+
+:
+
+SUBROUTINE SYMNOD (ISHELL)
+
+IMPLICIT DOUBLE PRECISION  (A-H,0-Z)
+
+PARAMETER(NNODES=5000)
+
+COMMON / CNODES / X(NNODES), Y(NNODES)
+
+COMMON / CKEYPR /K(0:8),NNS,NBS,NPOT,NPLR,NNODE,NPAF
+
+## C  SHELL SYMMETRIC NODES COORDINATES
+
+DO 10 I=2,NNS/2
+
+X(NNS-(I-2)+NNS*ISHELL) = -X(I+NNS*ISHELL) Y(NNS-(I-2)+NNS*ISHELL) =  Y(I+NNS*ISHELL)
+
+10 CONTINUE
+
+RETURN END
+
+Fig. E.2S  Symmetric node co-ordinate calculations for shells
+
+## APPENDIX F
+
+## BEAM  ELEMENTS  FOR ANCHORAGE  AND  STEEL ARCH
+
+## F.l  Introduction
+
+The  simple beam element 34000 was used as anchorages which end in the first and  last flattened shells  as shown in Fig. 5.4. The simple beam elements  (the  twonoded PAFEC type 34000) were used to model the steel arch.  Implementation of the anchorages  and steel  arch in the  pre-processing  program is  given  in the  subroutine 'support'  in Appendix C.  A  more detailed  explanation  of these support systems  is given in Chapter 2 and Chapter 5.  The derivation of the equivalent section properties for the anchorage and steel  arch beam elements  is given below. Because of plane of symmetry bending about axes  Y Y in plane of symmetry cannot occur, so  Iyy for  T section and circular section are  irrelevant as shown in Figs. Fl  and F2.
+
+Fig.  F . l Cross-section of the steel arch
+
+<!-- image -->
+
+Engineering drawing
+
+Fig.  F2.  Cross-section of an  anchorage
+
+<!-- image -->
+
+Engineering drawing
+
+## F.2  Anchorage
+
+1^ for the half  circular section are  calculated as follows. ' G' lies on ZZ for the half section as shown in Fig.  F.3.
+
+Fig.  F.3  Cross-sectional moment area of the anchorage
+
+<!-- image -->
+
+Engineering drawing
+
+Second moment areas of half section anchorages are as follows.
+
+## F.3  Steel Arch
+
+' G'  lies  on  ZZ (neutral axis) for the  half  T section  as  shown  in Fig.  F.4. Second moment areas of the steel arch are as follows.
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+where r and d are radius and diameter respectively.  Hence  ^
+
+l
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+Fig.  F.4  Cross-sectional moment area of the steel arch
+
+<!-- image -->
+
+Engineering drawing
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+Second moment areas of shotcrete are as follows
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+The equivalent steel section 1^ is
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+The variables used in program are as shown in Fig.  F.4
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+Second moment area of Iyy for half section
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+The equivalent steel section second moment of area
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+The variables used in program are as shown in Fig. F.4
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- formula-not-decoded -->
+
+<!-- image -->
+
+Logo

@@ -1,0 +1,661 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_f569e9ae31062fd4148ef63ae0bb96c6f4e204057ee1a730ea03ac07fe1a9b5a",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 23,
+    "SUPPORTED": 3,
+    "UNSUPPORTED": 24
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_f8bb82ad589d5ffbd27a52b0bb822808b848336f8a60e44d9fc82f8940bc63b8",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri kapsamında maliyet kavramı nasıl tanımlanmalıdır?",
+      "question_id": "5.5.2.1-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e1bb83802a185f67685110ea4860dec8cef6fd4070a6a3bb046741e9ac240ba1",
+        "CLM_b4b89a9f712258731888dbacdfbb74a9b48da394d0bf56ad6ececd9d36a070f8"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri hangi maliyet kalemlerini içerir?",
+      "question_id": "5.5.2.1-Q02",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri kapsamında doğrudan maliyetler nelerdir?",
+      "question_id": "5.5.2.1-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri kapsamında dolaylı maliyetler nelerdir?",
+      "question_id": "5.5.2.1-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri kapsamında ilk yatırım maliyetleri nasıl ayrıştırılır?",
+      "question_id": "5.5.2.1-Q05",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5b1b38fe08ed828831b4b675c7a402bd8bd9f7357a6725cacd69ee9ca8194934",
+        "CLM_e1bb83802a185f67685110ea4860dec8cef6fd4070a6a3bb046741e9ac240ba1"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri kapsamında bakım maliyetleri nasıl ayrıştırılır?",
+      "question_id": "5.5.2.1-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b4b89a9f712258731888dbacdfbb74a9b48da394d0bf56ad6ececd9d36a070f8"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri kapsamında işletme maliyetleri nasıl ayrıştırılır?",
+      "question_id": "5.5.2.1-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e1bb83802a185f67685110ea4860dec8cef6fd4070a6a3bb046741e9ac240ba1",
+        "CLM_133fcbfcd448ac8983d1accd161b9cffac22227a5942d84ef70d2ec5251c34eb",
+        "CLM_bfc782e62abe9ed58e12941115b367d5e570968a56375f8fc1d726e12acb9dca"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri kapsamında yenileme ve büyük onarım maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.2.1-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri kapsamında personel maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.2.1-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5b1b38fe08ed828831b4b675c7a402bd8bd9f7357a6725cacd69ee9ca8194934",
+        "CLM_da5c6e541686169acb1d86361269ab3f237498f4f6fbb4d95f1840815a364fe1"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri kapsamında enerji maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.2.1-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri kapsamında malzeme maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.2.1-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri kapsamında makine ve ekipman maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.2.1-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri kapsamında taşeron ve hizmet alımı maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.2.1-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri kapsamında trafik yönetimi ve güvenlik maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.2.1-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri kapsamında kapanma veya kapasite kaybı gibi kullanıcı maliyetleri dikkate alınmalı mıdır?",
+      "question_id": "5.5.2.1-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5b1b38fe08ed828831b4b675c7a402bd8bd9f7357a6725cacd69ee9ca8194934",
+        "CLM_9ab5a4266c2a8a58a43f641db2d4d8c8c2b479369ae99abd2728f56c3f87e245",
+        "CLM_cf085ae8b019ec738538ea876f6ea331586083ee5852b28ec24550fbcce321de"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri kapsamında çevresel maliyetler nasıl değerlendirilebilir?",
+      "question_id": "5.5.2.1-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri için toplam maliyet ile birim maliyet arasındaki fark nasıl açıklanmalıdır?",
+      "question_id": "5.5.2.1-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri için TL/m, TL/km veya benzeri birim maliyet göstergeleri ne zaman kullanılmalıdır?",
+      "question_id": "5.5.2.1-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0c54f7c055027deb6887bb875c9a57369a5145531a7de48374d66fd73750cae1",
+        "CLM_b00dfdcba44987a33a8014cbaa94ccce167836c7c641b8e475d69e697df7b6f6",
+        "CLM_16402e6315602ac2721d549289bf5e3ab018feb8609d3a0da050204d174f54d3"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri farklı tünel uzunluklarında nasıl değişir?",
+      "question_id": "5.5.2.1-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri farklı tünel kesitlerinde nasıl değişir?",
+      "question_id": "5.5.2.1-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a4e6e802c39840cead1a653f86c6ed0c937d2323f827327fc9502c1ecfd14ef6",
+        "CLM_96404f147f64af389a60f5983b56dba95d5711d24c8aae5e8748a3a8b24c8bf8"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri farklı tüp ve şerit sayılarında nasıl değişir?",
+      "question_id": "5.5.2.1-Q21",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri farklı jeolojik ve geoteknik koşullarda nasıl değişir?",
+      "question_id": "5.5.2.1-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri farklı yapım yöntemlerinde nasıl değişir?",
+      "question_id": "5.5.2.1-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri farklı destek sınıflarında nasıl değişir?",
+      "question_id": "5.5.2.1-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri farklı elektromekanik donanım düzeylerinde nasıl değişir?",
+      "question_id": "5.5.2.1-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri trafik yoğunluğu ve işletme rejiminden nasıl etkilenir?",
+      "question_id": "5.5.2.1-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_133fcbfcd448ac8983d1accd161b9cffac22227a5942d84ef70d2ec5251c34eb",
+        "CLM_c1abaed9e0d0b043f387bfb7eee395da98ad09701758f9b2edf5cde7dbda43db"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri yapım süresi veya işletme süresinden nasıl etkilenir?",
+      "question_id": "5.5.2.1-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bfc782e62abe9ed58e12941115b367d5e570968a56375f8fc1d726e12acb9dca"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri için baz yıl ve fiyat seviyesi nasıl tanımlanmalıdır?",
+      "question_id": "5.5.2.1-Q28",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d0b1358c2bc51a1d2a82175837237362d0266c680970359f1e93ec6ceb65d932",
+        "CLM_e1bb83802a185f67685110ea4860dec8cef6fd4070a6a3bb046741e9ac240ba1"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri hesaplarında enflasyon etkisi nasıl düzeltilmelidir?",
+      "question_id": "5.5.2.1-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri hesaplarında döviz kuru etkisi nasıl ele alınmalıdır?",
+      "question_id": "5.5.2.1-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri hesaplarında iskonto oranı hangi durumlarda kullanılmalıdır?",
+      "question_id": "5.5.2.1-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_728a75719a82638e90cde0621a806eb7ccecb9bc75cde7e1d9f05e52479f22c4"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri için net bugünkü değer yaklaşımı nasıl uygulanabilir?",
+      "question_id": "5.5.2.1-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d4bb1c6fb05a3f5ddbc13d325e096e4fc5362711f3d018880d83eb401eee8f1b",
+        "CLM_133fcbfcd448ac8983d1accd161b9cffac22227a5942d84ef70d2ec5251c34eb",
+        "CLM_19af406c4f49fa54b8a6d827bde5b13151414c9737dadad8c664ff1938c06300",
+        "CLM_483873393ddf483c1a12db5f30404c5e3a317d40b22f556f7a2f0cefddbbc75a"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri için yaşam döngüsü maliyeti yaklaşımı nasıl uygulanabilir?",
+      "question_id": "5.5.2.1-Q33",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ddd9a2f6227de2fb835d0d7135fda28a19ae2e7a93b090d1631a2432b285b64c",
+        "CLM_c1abaed9e0d0b043f387bfb7eee395da98ad09701758f9b2edf5cde7dbda43db",
+        "CLM_3a2b6323300bfc0b6550d9f8ffdc9473aab5349ccf693a451bec498a77e54442"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri hesaplarında hizmet ömrü nasıl belirlenmelidir?",
+      "question_id": "5.5.2.1-Q34",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6059b6f11a2880c827b9123671f72f84e17e52c196c59eb0d45631c2d0ffb54e",
+        "CLM_bfc782e62abe9ed58e12941115b367d5e570968a56375f8fc1d726e12acb9dca",
+        "CLM_6d554fb92ac554a22c9be3c2dbf9162f066975500f66c745997bbfe1c0c7810b"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri hesaplarında yenileme periyotları nasıl belirlenmelidir?",
+      "question_id": "5.5.2.1-Q35",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri hesaplarında hurda veya kalıntı değer dikkate alınmalı mıdır?",
+      "question_id": "5.5.2.1-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e1bb83802a185f67685110ea4860dec8cef6fd4070a6a3bb046741e9ac240ba1",
+        "CLM_62fd1331e717e2607ef4f5c0871a248d3ab870063c28959855fcd21c17ee309d",
+        "CLM_e807a6710fc10786576a502afa29a8b2267b9d1e4339adaa0887a5855ce2aa8a"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri hesaplarında belirsizlik kaynakları nelerdir?",
+      "question_id": "5.5.2.1-Q37",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_53e3209c3f4b6c28c22f80b406314bc3d51761cf3a6d3f131f9eb59808989e7c",
+        "CLM_e807a6710fc10786576a502afa29a8b2267b9d1e4339adaa0887a5855ce2aa8a",
+        "CLM_133fcbfcd448ac8983d1accd161b9cffac22227a5942d84ef70d2ec5251c34eb"
+      ],
+      "confidence": 0.75,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri için risk payı veya beklenmeyen giderler nasıl ele alınmalıdır?",
+      "question_id": "5.5.2.1-Q38",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_de9eb8f7756f25edddca1827a5d763ba6bb61f64580a557209418005788e7088",
+        "CLM_ccaeaf063394cc3a6e4d338269a7dd99875c232960ccde405641fdc751e2742a"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri için duyarlılık analizi hangi değişkenlere uygulanmalıdır?",
+      "question_id": "5.5.2.1-Q39",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_133fcbfcd448ac8983d1accd161b9cffac22227a5942d84ef70d2ec5251c34eb",
+        "CLM_3a2b6323300bfc0b6550d9f8ffdc9473aab5349ccf693a451bec498a77e54442"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri için senaryo analizi nasıl kurulabilir?",
+      "question_id": "5.5.2.1-Q40",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4a080bf8dfac569dd5eb8816b32d34b437ca96c2bb9f64ebb8eac9c240b1abfe",
+        "CLM_a9eda604e954cb84053ed35e0abb0a51187e31a645aa9914d8eb4261ec0e7da7"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri için maliyet verileri hangi kaynaklardan toplanmalıdır?",
+      "question_id": "5.5.2.1-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_133fcbfcd448ac8983d1accd161b9cffac22227a5942d84ef70d2ec5251c34eb",
+        "CLM_a9eda604e954cb84053ed35e0abb0a51187e31a645aa9914d8eb4261ec0e7da7"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri için farklı yıllara ait veriler nasıl karşılaştırılabilir hale getirilmelidir?",
+      "question_id": "5.5.2.1-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri için farklı projeler arasındaki maliyet karşılaştırmasında hangi normalizasyonlar gerekir?",
+      "question_id": "5.5.2.1-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri için aykırı maliyet değerleri nasıl incelenmelidir?",
+      "question_id": "5.5.2.1-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e8b8fedb558bfe3d3042acbd03a0e517a4e8fd3df0b8d156765ba6e4bcdd61cc",
+        "CLM_e1bb83802a185f67685110ea4860dec8cef6fd4070a6a3bb046741e9ac240ba1"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri için temel maliyet sürücüleri istatistiksel olarak nasıl belirlenebilir?",
+      "question_id": "5.5.2.1-Q45",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_53e3209c3f4b6c28c22f80b406314bc3d51761cf3a6d3f131f9eb59808989e7c"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri için maliyet tahmin modellerinin başarısı nasıl doğrulanmalıdır?",
+      "question_id": "5.5.2.1-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım-Onarım Maliyetleri Türkiye ve uluslararası örnekler arasında nasıl karşılaştırılabilir?",
+      "question_id": "5.5.2.1-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_48a3927c010d50315d94e54ce630466d0541b2f9a2c9830ca875d8c91623acf8",
+        "CLM_82ab3b970040bec448072aab2e1ce602c99da877cac5a8f4894f68daeea65a38"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri bakımından maliyet azaltma fırsatları hangi aşamalarda ortaya çıkar?",
+      "question_id": "5.5.2.1-Q48",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f78455bb804df7cc1a85e262212df854f0afec04d4f3dc0849b0fd6468065c10"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri ile güvenlik ve kalite arasında nasıl bir denge kurulmalıdır?",
+      "question_id": "5.5.2.1-Q49",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_58dda6eaba26f040b67ca59542b2e84faf6fe77b43b755cfce60a63e489027d2",
+        "CLM_94d952795da4fbf0a5f97a5ba6c4382ed9007322d9ea6dcf94634262694bddc4",
+        "CLM_b7064c0168d481d15cd4bb15f2f87e029e48cd79cf93506b1f1034200de3a1a3",
+        "CLM_9672f6e9ad565aefaa63375747d1745b3a6362e1757c1422526f5bc6813b23ca"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım-Onarım Maliyetleri bölümünün sonunda karar vericiye hangi maliyet göstergeleri sunulmalıdır?",
+      "question_id": "5.5.2.1-Q50",
+      "reason_code": "PARTIAL_ONLY"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "5.5.2.1",
+  "section_title": "Yapısal Bakım-Onarım Maliyetleri",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_0c54f7c055027deb6887bb875c9a57369a5145531a7de48374d66fd73750cae1",
+      "CLM_133fcbfcd448ac8983d1accd161b9cffac22227a5942d84ef70d2ec5251c34eb",
+      "CLM_16402e6315602ac2721d549289bf5e3ab018feb8609d3a0da050204d174f54d3",
+      "CLM_19af406c4f49fa54b8a6d827bde5b13151414c9737dadad8c664ff1938c06300",
+      "CLM_3a2b6323300bfc0b6550d9f8ffdc9473aab5349ccf693a451bec498a77e54442",
+      "CLM_483873393ddf483c1a12db5f30404c5e3a317d40b22f556f7a2f0cefddbbc75a",
+      "CLM_48a3927c010d50315d94e54ce630466d0541b2f9a2c9830ca875d8c91623acf8",
+      "CLM_4a080bf8dfac569dd5eb8816b32d34b437ca96c2bb9f64ebb8eac9c240b1abfe",
+      "CLM_53e3209c3f4b6c28c22f80b406314bc3d51761cf3a6d3f131f9eb59808989e7c",
+      "CLM_58dda6eaba26f040b67ca59542b2e84faf6fe77b43b755cfce60a63e489027d2",
+      "CLM_5b1b38fe08ed828831b4b675c7a402bd8bd9f7357a6725cacd69ee9ca8194934",
+      "CLM_6059b6f11a2880c827b9123671f72f84e17e52c196c59eb0d45631c2d0ffb54e",
+      "CLM_62fd1331e717e2607ef4f5c0871a248d3ab870063c28959855fcd21c17ee309d",
+      "CLM_6d554fb92ac554a22c9be3c2dbf9162f066975500f66c745997bbfe1c0c7810b",
+      "CLM_728a75719a82638e90cde0621a806eb7ccecb9bc75cde7e1d9f05e52479f22c4",
+      "CLM_82ab3b970040bec448072aab2e1ce602c99da877cac5a8f4894f68daeea65a38",
+      "CLM_94d952795da4fbf0a5f97a5ba6c4382ed9007322d9ea6dcf94634262694bddc4",
+      "CLM_96404f147f64af389a60f5983b56dba95d5711d24c8aae5e8748a3a8b24c8bf8",
+      "CLM_9672f6e9ad565aefaa63375747d1745b3a6362e1757c1422526f5bc6813b23ca",
+      "CLM_9ab5a4266c2a8a58a43f641db2d4d8c8c2b479369ae99abd2728f56c3f87e245",
+      "CLM_a4e6e802c39840cead1a653f86c6ed0c937d2323f827327fc9502c1ecfd14ef6",
+      "CLM_a9eda604e954cb84053ed35e0abb0a51187e31a645aa9914d8eb4261ec0e7da7",
+      "CLM_b00dfdcba44987a33a8014cbaa94ccce167836c7c641b8e475d69e697df7b6f6",
+      "CLM_b4b89a9f712258731888dbacdfbb74a9b48da394d0bf56ad6ececd9d36a070f8",
+      "CLM_b7064c0168d481d15cd4bb15f2f87e029e48cd79cf93506b1f1034200de3a1a3",
+      "CLM_bfc782e62abe9ed58e12941115b367d5e570968a56375f8fc1d726e12acb9dca",
+      "CLM_c1abaed9e0d0b043f387bfb7eee395da98ad09701758f9b2edf5cde7dbda43db",
+      "CLM_ccaeaf063394cc3a6e4d338269a7dd99875c232960ccde405641fdc751e2742a",
+      "CLM_cf085ae8b019ec738538ea876f6ea331586083ee5852b28ec24550fbcce321de",
+      "CLM_d0b1358c2bc51a1d2a82175837237362d0266c680970359f1e93ec6ceb65d932",
+      "CLM_d4bb1c6fb05a3f5ddbc13d325e096e4fc5362711f3d018880d83eb401eee8f1b",
+      "CLM_da5c6e541686169acb1d86361269ab3f237498f4f6fbb4d95f1840815a364fe1",
+      "CLM_ddd9a2f6227de2fb835d0d7135fda28a19ae2e7a93b090d1631a2432b285b64c",
+      "CLM_de9eb8f7756f25edddca1827a5d763ba6bb61f64580a557209418005788e7088",
+      "CLM_e1bb83802a185f67685110ea4860dec8cef6fd4070a6a3bb046741e9ac240ba1",
+      "CLM_e807a6710fc10786576a502afa29a8b2267b9d1e4339adaa0887a5855ce2aa8a",
+      "CLM_e8b8fedb558bfe3d3042acbd03a0e517a4e8fd3df0b8d156765ba6e4bcdd61cc",
+      "CLM_f78455bb804df7cc1a85e262212df854f0afec04d4f3dc0849b0fd6468065c10"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "5.5.2.1-Q02",
+      "5.5.2.1-Q06",
+      "5.5.2.1-Q07",
+      "5.5.2.1-Q08",
+      "5.5.2.1-Q10",
+      "5.5.2.1-Q16",
+      "5.5.2.1-Q19",
+      "5.5.2.1-Q21",
+      "5.5.2.1-Q27",
+      "5.5.2.1-Q28",
+      "5.5.2.1-Q29",
+      "5.5.2.1-Q32",
+      "5.5.2.1-Q34",
+      "5.5.2.1-Q37",
+      "5.5.2.1-Q39",
+      "5.5.2.1-Q40",
+      "5.5.2.1-Q41",
+      "5.5.2.1-Q42",
+      "5.5.2.1-Q45",
+      "5.5.2.1-Q46",
+      "5.5.2.1-Q48",
+      "5.5.2.1-Q49",
+      "5.5.2.1-Q50"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "5.5.2.1-Q01",
+      "5.5.2.1-Q03",
+      "5.5.2.1-Q04",
+      "5.5.2.1-Q05",
+      "5.5.2.1-Q09",
+      "5.5.2.1-Q11",
+      "5.5.2.1-Q12",
+      "5.5.2.1-Q13",
+      "5.5.2.1-Q14",
+      "5.5.2.1-Q15",
+      "5.5.2.1-Q17",
+      "5.5.2.1-Q18",
+      "5.5.2.1-Q20",
+      "5.5.2.1-Q22",
+      "5.5.2.1-Q23",
+      "5.5.2.1-Q24",
+      "5.5.2.1-Q25",
+      "5.5.2.1-Q26",
+      "5.5.2.1-Q30",
+      "5.5.2.1-Q31",
+      "5.5.2.1-Q36",
+      "5.5.2.1-Q43",
+      "5.5.2.1-Q44",
+      "5.5.2.1-Q47"
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "document_id": "ING_e85c0b825ef5d2f53f5e",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_03735DEBB327DB7F5789",
+      "producer_document_id": "PC_E85C0B825EF5D2F5",
+      "declared_sha256": "e85c0b825ef5d2f53f5e33453506c031dfa91f7bd268cc852cec7e99bd2e29c9",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/A_OFFICIAL/PC_E85C0B825EF5D2F5/source_raw.html",
+        "sha256": "e85c0b825ef5d2f53f5e33453506c031dfa91f7bd268cc852cec7e99bd2e29c9"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.3233/atde231156",
+        "landing_url": "https://doi.org/10.3233/atde231156",
+        "resolved_url": "https://ebooks.iospress.nl/doi/10.3233/ATDE231156",
+        "discovery_source": "openaire",
+        "discovery_query": "tunnel safety",
+        "doi": "10.3233/atde231156",
+        "publisher": "IOS Press"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.3233/atde231156",
+        "landing_url": "https://doi.org/10.3233/atde231156",
+        "resolved_url": "https://ebooks.iospress.nl/doi/10.3233/ATDE231156",
+        "discovery_source": "openaire",
+        "discovery_query": "tunnel safety",
+        "doi": "10.3233/atde231156",
+        "publisher": "IOS Press"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_E85C0B825EF5D2F5",
+        "canonical_id": "CAN_03735DEBB327DB7F5789",
+        "canonical_hint_id": "CAN_03735DEBB327DB7F5789",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "Infraestruturas de Portugal",
+          "country": "Portugal",
+          "institution_type": "TRANSPORT_AUTHORITY",
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Design and Application of Tunnel Service Safety Monitoring and Early Warning System Based on Multi-Sensor",
+        "authors": [
+          "Jiang, Hongliang",
+          "Huang, Hui",
+          "Lu, Chaobo",
+          "Yang, Tingwei"
+        ],
+        "year": "2024",
+        "doi": "10.3233/atde231156",
+        "source_url": "https://doi.org/10.3233/atde231156",
+        "landing_url": "https://doi.org/10.3233/atde231156",
+        "resolved_url": "https://ebooks.iospress.nl/doi/10.3233/ATDE231156",
+        "local_path": "01_originals/A_OFFICIAL/PC_E85C0B825EF5D2F5/source_raw.html",
+        "sha256": "e85c0b825ef5d2f53f5e33453506c031dfa91f7bd268cc852cec7e99bd2e29c9",
+        "source_name": "openaire",
+        "publisher_code": "IP",
+        "route_path": "A_OFFICIAL",
+        "crawler_evidence_level": "WEB_SNAPSHOT_TEXT",
+        "evidence_level": "WEB_SNAPSHOT_TEXT",
+        "acquisition_status": "SNAPSHOTTED_WEB",
+        "source_representation": {
+          "original_or_raw": "01_originals/A_OFFICIAL/PC_E85C0B825EF5D2F5/source_raw.html",
+          "original_or_raw_sha256": "e85c0b825ef5d2f53f5e33453506c031dfa91f7bd268cc852cec7e99bd2e29c9",
+          "crawler_normalized": "01_originals/A_OFFICIAL/PC_E85C0B825EF5D2F5/source.md",
+          "crawler_normalized_sha256": "08ec63dea3f7205ba31bce706fc2610eb5afc5bca9642577e2d1b3bd8c78d2dc",
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_A",
+        "provisional_authority_tier": "A2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "TRANSPORT_AUTHORITY",
+        "authority_tier": "A2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "ITS",
+          "monitoring",
+          "road_safety",
+          "traffic_management",
+          "asset_management",
+          "inspection",
+          "electromechanical_maintenance",
+          "cost_estimation"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "Infraestruturas de Portugal",
+          "country": "Portugal",
+          "institution_type": "TRANSPORT_AUTHORITY",
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "SNAPSHOTTED_WEB",
+          "source_path": "01_originals/A_OFFICIAL/PC_E85C0B825EF5D2F5/source_raw.html",
+          "source_sha256": "e85c0b825ef5d2f53f5e33453506c031dfa91f7bd268cc852cec7e99bd2e29c9"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.3233/atde231156",
+          "landing_url": "https://doi.org/10.3233/atde231156",
+          "resolved_url": "https://ebooks.iospress.nl/doi/10.3233/ATDE231156",
+          "discovery_source": "openaire",
+          "discovery_query": "tunnel safety",
+          "doi": "10.3233/atde231156",
+          "publisher": "IOS Press"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source_raw.html",
+    "original_sha256": "e85c0b825ef5d2f53f5e33453506c031dfa91f7bd268cc852cec7e99bd2e29c9",
+    "mime_type": "text/html",
+    "format": "HTML"
+  }
+}

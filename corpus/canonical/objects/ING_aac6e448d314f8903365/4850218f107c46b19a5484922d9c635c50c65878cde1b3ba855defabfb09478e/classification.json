@@ -1,0 +1,110 @@
+{
+  "final_primary_section": "2.1.2",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.92,
+  "classification_methods": [
+    "heading_rules",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.5879,
+      "rule_score": 0.3333,
+      "embedding_score": 0.788,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.5157,
+      "rule_score": 0.2,
+      "embedding_score": 0.7904,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3547,
+      "rule_score": 0.0,
+      "embedding_score": 0.7883,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3502,
+      "rule_score": 0.0,
+      "embedding_score": 0.7782,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.7771,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3491,
+      "rule_score": 0.0,
+      "embedding_score": 0.7757,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3.5",
+      "score": 0.3487,
+      "rule_score": 0.0,
+      "embedding_score": 0.7748,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3486,
+      "rule_score": 0.0,
+      "embedding_score": 0.7746,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, T2 Tüneli'nde yapılan RMR (Rock Mass Rating) değerlendirmesi, süreksizlik parametreleri (aralık, dolgu, pürüzlülük) ve buna göre belirlenen destek sistemleri (püskürtme beton, bulon, hasır çelik) ile ilgili detaylı bir saha gözlem formudur. Bu içerik, tünelin yapısal bütünlüğünü sağlayan destek elemanlarının seçimi ve uygulamasını doğrudan temsil ettiğinden 'Tünel Destekleme Elemanları' böl",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:0",
+    "embeddings:8",
+    "top=2:0.5879 gap=0.072 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

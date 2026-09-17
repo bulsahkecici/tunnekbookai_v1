@@ -1,0 +1,146 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.1.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0002",
+        "LIST0001",
+        "LIST0002",
+        "LIST0006",
+        "LIST0009",
+        "PARA0015",
+        "PARA0024",
+        "PARA0025",
+        "PARA0026",
+        "PARA0033",
+        "PARA0036",
+        "PARA0039",
+        "PARA0044",
+        "PARA0052",
+        "PARA0053",
+        "LIST0027"
+      ]
+    },
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "PARA0002",
+        "LIST0001",
+        "LIST0003",
+        "LIST0004",
+        "LIST0005",
+        "LIST0007",
+        "FIG0002",
+        "PARA0013",
+        "FIG0003",
+        "LIST0015",
+        "PARA0031",
+        "PARA0033",
+        "PARA0045",
+        "LIST0021",
+        "PARA0049",
+        "PARA0052",
+        "PARA0053"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7478,
+      "rule_score": 0.5,
+      "embedding_score": 0.7888,
+      "chunk_vote": 0.3392
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.7021,
+      "rule_score": 0.5,
+      "embedding_score": 0.7643,
+      "chunk_vote": 0.1659
+    },
+    {
+      "id": "2.2",
+      "score": 0.6438,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7548,
+      "chunk_vote": 0.0922
+    },
+    {
+      "id": "1",
+      "score": 0.3621,
+      "rule_score": 0.0,
+      "embedding_score": 0.7654,
+      "chunk_vote": 0.0885
+    },
+    {
+      "id": "2.1",
+      "score": 0.3538,
+      "rule_score": 0.0,
+      "embedding_score": 0.7594,
+      "chunk_vote": 0.0602
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3434,
+      "rule_score": 0.0,
+      "embedding_score": 0.7632,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3383,
+      "rule_score": 0.0,
+      "embedding_score": 0.7518,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3372,
+      "rule_score": 0.0,
+      "embedding_score": 0.7494,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3218,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0811
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.2845,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0474
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, TBM (Tünel Delme Makinesi) kullanımı sırasında segmentli kaplamanın arkasındaki boşluğun (annulus) dolgu harcı ile doldurulması (back-filling) sürecini, kullanılan malzeme türlerini (inert, çimento bazlı, iki bileşenli) ve performans analizini detaylıca ele almaktadır. Bu konu, tünel yapım yöntemleri (özellikle TBM ile kazı ve destekleme) kapsamında değerlendirilir. Dolgu harcı, tünelin yap",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:18",
+    "embeddings:8",
+    "top=2:0.7478 gap=0.046 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

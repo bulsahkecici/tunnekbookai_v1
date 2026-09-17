@@ -1,0 +1,172 @@
+{
+  "final_primary_section": "1.5.1",
+  "final_secondary_sections": [
+    "5.7",
+    "5.4.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.5.1",
+      "section_title": "Dünyada Gerçekleşen Önemli Tünel Felaketleri",
+      "supporting_elements": [
+        "PARA0006",
+        "PARA0125"
+      ]
+    },
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0004",
+        "PARA0005",
+        "PARA0010",
+        "PARA0012",
+        "HEAD0003",
+        "HEAD0005",
+        "PARA0016",
+        "PARA0019",
+        "PARA0021",
+        "PARA0022",
+        "PARA0023",
+        "FIG0004",
+        "PARA0026",
+        "PARA0028",
+        "FIG0005",
+        "FIG0006",
+        "PARA0029",
+        "LIST0001",
+        "LIST0002",
+        "PARA0030",
+        "HEAD0009",
+        "PARA0031",
+        "FIG0007",
+        "CAPT0005"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0004",
+        "PARA0005",
+        "PARA0010",
+        "PARA0012",
+        "HEAD0003",
+        "HEAD0005",
+        "PARA0016",
+        "PARA0019",
+        "PARA0021",
+        "PARA0023",
+        "PARA0025",
+        "FIG0003",
+        "FIG0004",
+        "PARA0026",
+        "PARA0028",
+        "FIG0005",
+        "FIG0006",
+        "PARA0029",
+        "LIST0001",
+        "LIST0002",
+        "PARA0030",
+        "HEAD0009",
+        "PARA0031",
+        "FIG0007"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.7",
+      "score": 0.7399,
+      "rule_score": 0.6,
+      "embedding_score": 0.7759,
+      "chunk_vote": 0.0538
+    },
+    {
+      "id": "1.5.1",
+      "score": 0.7362,
+      "rule_score": 0.6,
+      "embedding_score": 0.783,
+      "chunk_vote": 0.0194
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.715,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7877,
+      "chunk_vote": 0.0246
+    },
+    {
+      "id": "5.6",
+      "score": 0.447,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4848
+    },
+    {
+      "id": "1.5",
+      "score": 0.3849,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1743
+    },
+    {
+      "id": "1",
+      "score": 0.3725,
+      "rule_score": 0.0,
+      "embedding_score": 0.779,
+      "chunk_vote": 0.1097
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3544,
+      "rule_score": 0.0,
+      "embedding_score": 0.7875,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.351,
+      "rule_score": 0.0,
+      "embedding_score": 0.7801,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3508,
+      "rule_score": 0.0,
+      "embedding_score": 0.7796,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4",
+      "score": 0.3507,
+      "rule_score": 0.0,
+      "embedding_score": 0.7794,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel kazalarının (Mont Blanc, Tauern vb.) önlenmesi, acil durum havalandırması ve operatör eğitimi üzerine odaklanmaktadır. Bu içerik, 'Dünyada Gerçekleşen Önemli Tünel Felaketleri' bölümüyle doğrudan ilişkilidir. Ayrıca, SCADA arayüzleri, havalandırma kontrol algoritmaları ve sistem değerlendirmesi içerdiği için 'Tünelde Verimli Bakım-İşletme' ve 'Elektrik-Elektronik Sistemlerin Bakımı' b",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.7:0.7399 gap=0.004 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

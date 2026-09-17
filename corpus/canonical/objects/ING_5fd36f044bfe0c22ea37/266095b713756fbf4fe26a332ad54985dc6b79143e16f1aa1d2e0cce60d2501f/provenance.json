@@ -1,0 +1,155 @@
+{
+  "document_id": "ING_5fd36f044bfe0c22ea37",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_1104C7E4964C9341C391",
+      "producer_document_id": "PC_5FD36F044BFE0C22",
+      "declared_sha256": "5fd36f044bfe0c22ea376888d22dadc7216fc3808d0248af3c7fce7388422e7e",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_5FD36F044BFE0C22/source.pdf",
+        "sha256": "5fd36f044bfe0c22ea376888d22dadc7216fc3808d0248af3c7fce7388422e7e"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.5937/grmk1504021j",
+        "landing_url": "https://doi.org/10.5937/grmk1504021j",
+        "pdf_url": "http://scindeks-clanci.ceon.rs/data/pdf/2217-8139/2015/0543-07981504021J.pdf",
+        "resolved_url": "http://scindeks-clanci.ceon.rs/data/pdf/2217-8139/2015/0543-07981504021J.pdf",
+        "discovery_source": "crossref",
+        "discovery_query": "New Austrian Tunnelling Method highway",
+        "doi": "10.5937/grmk1504021j",
+        "publisher": "Gradjevinski materijali i konstrukcije"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.5937/grmk1504021j",
+        "landing_url": "https://doi.org/10.5937/grmk1504021j",
+        "pdf_url": "http://scindeks-clanci.ceon.rs/data/pdf/2217-8139/2015/0543-07981504021J.pdf",
+        "resolved_url": "http://scindeks-clanci.ceon.rs/data/pdf/2217-8139/2015/0543-07981504021J.pdf",
+        "discovery_source": "crossref",
+        "discovery_query": "New Austrian Tunnelling Method highway",
+        "doi": "10.5937/grmk1504021j",
+        "publisher": "Gradjevinski materijali i konstrukcije"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_5FD36F044BFE0C22",
+        "canonical_id": "CAN_1104C7E4964C9341C391",
+        "canonical_hint_id": "CAN_1104C7E4964C9341C391",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "Gradjevinski materijali i konstrukcije",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Useful concepts for application of new Austrian tunnelling method in tunnel construction (NATM)",
+        "authors": [
+          "Vojkan Jovclc",
+          "Jasmin Buco",
+          "Nermin Sehagic",
+          "Alaga Husic"
+        ],
+        "year": "2015",
+        "doi": "10.5937/grmk1504021j",
+        "source_url": "https://doi.org/10.5937/grmk1504021j",
+        "landing_url": "https://doi.org/10.5937/grmk1504021j",
+        "resolved_url": "http://scindeks-clanci.ceon.rs/data/pdf/2217-8139/2015/0543-07981504021J.pdf",
+        "local_path": "01_originals/C_ACADEMIC/PC_5FD36F044BFE0C22/source.pdf",
+        "sha256": "5fd36f044bfe0c22ea376888d22dadc7216fc3808d0248af3c7fce7388422e7e",
+        "source_name": "crossref",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "LIGHT_PDF_TEXT",
+        "evidence_level": "LIGHT_PDF_TEXT",
+        "acquisition_status": "DOWNLOADED_PDF",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_5FD36F044BFE0C22/source.pdf",
+          "original_or_raw_sha256": "5fd36f044bfe0c22ea376888d22dadc7216fc3808d0248af3c7fce7388422e7e",
+          "crawler_normalized": null,
+          "crawler_normalized_sha256": null,
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "road_tunnel",
+          "NATM",
+          "TBM",
+          "shotcrete",
+          "accident",
+          "alignment",
+          "cost_estimation",
+          "excavation",
+          "soft_ground",
+          "unit_cost",
+          "inspection"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "Gradjevinski materijali i konstrukcije",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "DOWNLOADED_PDF",
+          "source_path": "01_originals/C_ACADEMIC/PC_5FD36F044BFE0C22/source.pdf",
+          "source_sha256": "5fd36f044bfe0c22ea376888d22dadc7216fc3808d0248af3c7fce7388422e7e"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.5937/grmk1504021j",
+          "landing_url": "https://doi.org/10.5937/grmk1504021j",
+          "pdf_url": "http://scindeks-clanci.ceon.rs/data/pdf/2217-8139/2015/0543-07981504021J.pdf",
+          "resolved_url": "http://scindeks-clanci.ceon.rs/data/pdf/2217-8139/2015/0543-07981504021J.pdf",
+          "discovery_source": "crossref",
+          "discovery_query": "New Austrian Tunnelling Method highway",
+          "doi": "10.5937/grmk1504021j",
+          "publisher": "Gradjevinski materijali i konstrukcije"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source.pdf",
+    "original_sha256": "5fd36f044bfe0c22ea376888d22dadc7216fc3808d0248af3c7fce7388422e7e",
+    "mime_type": "application/pdf",
+    "format": "PDF"
+  }
+}

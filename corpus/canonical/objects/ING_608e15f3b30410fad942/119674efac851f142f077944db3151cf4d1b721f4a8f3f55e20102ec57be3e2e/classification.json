@@ -1,0 +1,117 @@
+{
+  "final_primary_section": "1",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.657,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0003",
+        "PARA0006"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0011"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1",
+      "score": 0.657,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7577,
+      "chunk_vote": 0.4138
+    },
+    {
+      "id": "2",
+      "score": 0.6501,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7638,
+      "chunk_vote": 0.1034
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3488,
+      "rule_score": 0.0,
+      "embedding_score": 0.775,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.346,
+      "rule_score": 0.0,
+      "embedding_score": 0.7689,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3423,
+      "rule_score": 0.0,
+      "embedding_score": 0.7606,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3416,
+      "rule_score": 0.0,
+      "embedding_score": 0.759,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3374,
+      "rule_score": 0.0,
+      "embedding_score": 0.7497,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.3374,
+      "rule_score": 0.0,
+      "embedding_score": 0.7498,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.1",
+      "score": 0.2247,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2069
+    },
+    {
+      "id": "2.2",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, bir tünel kazıcı makinesi (TBM) üzerine yapılmış bir resim sanatı çalışmasıdır ve teknik mühendislik içeriği (yapım teknikleri, elemanlar vb.) içermemektedir. Verilen aday bölümler arasında sanat eseri için doğrudan uygun bir teknik bölüm bulunmamaktadır. Ancak, belgenin bir dergi makalesi formatında olması ve genel bir giriş/özet bölümü içermesi nedeniyle, en düşük riskli ve genel kapsayıc",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:7",
+    "chunk_votes:5",
+    "embeddings:8",
+    "top=1:0.657 gap=0.007 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

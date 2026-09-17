@@ -1,0 +1,185 @@
+{
+  "final_primary_section": "4.3.5",
+  "final_secondary_sections": [
+    "4",
+    "6.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "4.3.5",
+      "section_title": "Tünel Yaşam Döngü Maliyetleri",
+      "supporting_elements": [
+        "PARA0002",
+        "PARA0003",
+        "PARA0007",
+        "PARA0023",
+        "PARA0045",
+        "HEAD0018",
+        "PARA0104",
+        "PARA0107",
+        "PARA0109",
+        "PARA0110",
+        "FIG0007",
+        "FIG0009",
+        "PARA0127",
+        "LIST0026",
+        "LIST0027"
+      ]
+    },
+    {
+      "section_id": "4",
+      "section_title": "MALİYET KAVRAMI, ÖNEMİ VE ULAŞIM MALİYETLERİ",
+      "supporting_elements": [
+        "PARA0002",
+        "PARA0003",
+        "PARA0007",
+        "PARA0023",
+        "PARA0045",
+        "PARA0046",
+        "PARA0048",
+        "PARA0049",
+        "LIST0004",
+        "PARA0058",
+        "PARA0094",
+        "HEAD0018",
+        "PARA0100",
+        "HEAD0019",
+        "PARA0101",
+        "PARA0102",
+        "PARA0103",
+        "PARA0104",
+        "PARA0105",
+        "TABLE0002",
+        "CAPT0007",
+        "PARA0106",
+        "PARA0107",
+        "PARA0108",
+        "PARA0109"
+      ]
+    },
+    {
+      "section_id": "6.1",
+      "section_title": "Çalışmanın Amacı, Kapsamı, Yöntem ve Kullanılan Verileri",
+      "supporting_elements": [
+        "PARA0044",
+        "PARA0045",
+        "PARA0054",
+        "PARA0062",
+        "PARA0066",
+        "PARA0068",
+        "PARA0075",
+        "PARA0079",
+        "PARA0082",
+        "PARA0086",
+        "PARA0089",
+        "PARA0090",
+        "PARA0091",
+        "PARA0095",
+        "FIG0006",
+        "PARA0101",
+        "TABLE0002",
+        "CAPT0007",
+        "PARA0115",
+        "PARA0128",
+        "HEAD0030",
+        "PARA0131",
+        "LIST0025",
+        "LIST0026",
+        "PARA0134"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "4.3.5",
+      "score": 0.7538,
+      "rule_score": 0.6,
+      "embedding_score": 0.7753,
+      "chunk_vote": 0.1245
+    },
+    {
+      "id": "6.1",
+      "score": 0.7003,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7575,
+      "chunk_vote": 0.0194
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3635,
+      "rule_score": 0.0,
+      "embedding_score": 0.7503,
+      "chunk_vote": 0.1291
+    },
+    {
+      "id": "2",
+      "score": 0.3473,
+      "rule_score": 0.0,
+      "embedding_score": 0.7545,
+      "chunk_vote": 0.0387
+    },
+    {
+      "id": "4",
+      "score": 0.3429,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0646
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3424,
+      "rule_score": 0.0,
+      "embedding_score": 0.7608,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.3407,
+      "rule_score": 0.0,
+      "embedding_score": 0.7571,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.3",
+      "score": 0.3387,
+      "rule_score": 0.0,
+      "embedding_score": 0.7527,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3377,
+      "rule_score": 0.0,
+      "embedding_score": 0.7504,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3321,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1324
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, bir tünel projesi için Yaşam Döngüsü Maliyeti (LCC) ve Yaşam Döngüsü Değerlendirmesi (LCA) yöntemlerini kullanarak ekonomik fizibilite ve çevresel etkileri karşılaştırmalı olarak analiz etmektedir. Bu içerik, doğrudan 'Tünel Yaşam Döngü Maliyetleri' başlığıyla en yüksek örtüşmeye sahiptir. Ayrıca genel maliyet kavramları ve analiz yöntemi nedeniyle 4. bölüm de ikincil olarak listelenmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=4.3.5:0.7538 gap=0.053 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

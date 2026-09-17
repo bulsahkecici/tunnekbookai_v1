@@ -1,0 +1,146 @@
+{
+  "document_id": "ING_00a717efd1322d1f5f8e",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_ED67DCBE1F6BAB450E2C",
+      "producer_document_id": "PC_00A717EFD1322D1F",
+      "declared_sha256": "00a717efd1322d1f5f8e19b3522cb0c13ca6f1538bc42aa789ad980fe07e882b",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_00A717EFD1322D1F/source.pdf",
+        "sha256": "00a717efd1322d1f5f8e19b3522cb0c13ca6f1538bc42aa789ad980fe07e882b"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.3390/su10114165",
+        "landing_url": "https://doi.org/10.3390/su10114165",
+        "discovery_source": "crossref",
+        "discovery_query": "road tunnel life cycle cost",
+        "doi": "10.3390/su10114165",
+        "publisher": "Sustainability"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.3390/su10114165",
+        "landing_url": "https://doi.org/10.3390/su10114165",
+        "discovery_source": "crossref",
+        "discovery_query": "road tunnel life cycle cost",
+        "doi": "10.3390/su10114165",
+        "publisher": "Sustainability"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_00A717EFD1322D1F",
+        "canonical_id": "CAN_ED67DCBE1F6BAB450E2C",
+        "canonical_hint_id": "CAN_ED67DCBE1F6BAB450E2C",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "Sustainability",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Comparative Life Cycle Assessment of Lighting Systems and Road Pavements in an Italian Twin-Tube Road Tunnel",
+        "authors": [
+          "Giuseppe Cantisani",
+          "Paola Di Mascio",
+          "Laura Moretti"
+        ],
+        "year": "2018",
+        "doi": "10.3390/su10114165",
+        "source_url": "https://doi.org/10.3390/su10114165",
+        "landing_url": "https://doi.org/10.3390/su10114165",
+        "resolved_url": "https://doi.org/10.3390/su10114165",
+        "local_path": "01_originals/C_ACADEMIC/PC_00A717EFD1322D1F/source.pdf",
+        "sha256": "00a717efd1322d1f5f8e19b3522cb0c13ca6f1538bc42aa789ad980fe07e882b",
+        "source_name": "crossref",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "ABSTRACT",
+        "evidence_level": "ABSTRACT",
+        "acquisition_status": "DOWNLOADED_PDF",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_00A717EFD1322D1F/source.pdf",
+          "original_or_raw_sha256": "00a717efd1322d1f5f8e19b3522cb0c13ca6f1538bc42aa789ad980fe07e882b",
+          "crawler_normalized": null,
+          "crawler_normalized_sha256": null,
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "road_tunnel",
+          "sustainability",
+          "life_cycle_cost",
+          "inspection",
+          "lighting",
+          "cost_estimation",
+          "road_safety",
+          "alignment",
+          "accident"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "Sustainability",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "DOWNLOADED_PDF",
+          "source_path": "01_originals/C_ACADEMIC/PC_00A717EFD1322D1F/source.pdf",
+          "source_sha256": "00a717efd1322d1f5f8e19b3522cb0c13ca6f1538bc42aa789ad980fe07e882b"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.3390/su10114165",
+          "landing_url": "https://doi.org/10.3390/su10114165",
+          "discovery_source": "crossref",
+          "discovery_query": "road tunnel life cycle cost",
+          "doi": "10.3390/su10114165",
+          "publisher": "Sustainability"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source.pdf",
+    "original_sha256": "00a717efd1322d1f5f8e19b3522cb0c13ca6f1538bc42aa789ad980fe07e882b",
+    "mime_type": "application/pdf",
+    "format": "PDF"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "final_primary_section": "6",
+  "final_secondary_sections": [
+    "2.3"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "6",
+      "section_title": "TÜNEL YAPIM MALİYETLERİ",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.3",
+      "section_title": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6",
+      "score": 0.3567,
+      "rule_score": 0.0,
+      "embedding_score": 0.7927,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.355,
+      "rule_score": 0.0,
+      "embedding_score": 0.7888,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7",
+      "score": 0.3533,
+      "rule_score": 0.0,
+      "embedding_score": 0.785,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.3",
+      "score": 0.3511,
+      "rule_score": 0.0,
+      "embedding_score": 0.7802,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3509,
+      "rule_score": 0.0,
+      "embedding_score": 0.7797,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3507,
+      "rule_score": 0.0,
+      "embedding_score": 0.7794,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3.5",
+      "score": 0.3503,
+      "rule_score": 0.0,
+      "embedding_score": 0.7784,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5",
+      "score": 0.3495,
+      "rule_score": 0.0,
+      "embedding_score": 0.7767,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.11,
+      "rule_score": 0.2,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, hakediş ve icmal tabloları üzerinden tünel yapım işlerinin maliyet takibini ve imalat detaylarını (üst yapı, köprüler, tünel genel icmal) içermektedir. Bu içerik, doğrudan 'Tünel Yapım Maliyetleri' (Bölüm 6) ile en güçlü ilişkiyi kurar. Ayrıca, imalat kalemlerinin (toprak, sanat yapıları, üst yapı) maliyete etkisi nedeniyle 'Tünellerin Yapım Maliyetine Etki Eden Unsurlar' (Bölüm 2.3) ikinci",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:1",
+    "chunk_votes:3",
+    "embeddings:8",
+    "top=6:0.3567 gap=0.002 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

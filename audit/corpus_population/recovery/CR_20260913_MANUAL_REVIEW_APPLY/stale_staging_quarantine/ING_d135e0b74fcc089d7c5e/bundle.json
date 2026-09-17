@@ -1,0 +1,35 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_d135e0b74fcc089d7c5e",
+  "original_sha256": "d135e0b74fcc089d7c5eb091a467db3feb51ab4bdf350494d8fafed98df9b8c2",
+  "source_kind": "MANUAL_INTERNAL",
+  "format": "PDF",
+  "title": "Investigation strategies on the example of the Semmering Base Tunnel",
+  "final_primary_section": "2.4.1",
+  "final_secondary_sections": [
+    "2.4.1.1",
+    "2.4.2.1"
+  ],
+  "final_section_confidence": 0.95,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_d135e0b74fcc089d7c5e",
+  "original_archive": "originals/ING_d135e0b74fcc089d7c5e",
+  "chunks_authoritative_path": "processing/ING_d135e0b74fcc089d7c5e/chunks/chunk_manifest.jsonl",
+  "chunk_count": 33,
+  "chunk_quality_status": "PASS",
+  "canonical_promoted": false
+}

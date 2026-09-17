@@ -1,0 +1,106 @@
+{
+  "document_id": "ING_e436a7354e5b9fc3afa5",
+  "fields": [
+    {
+      "field": "title",
+      "value": "The Hidden Costs of Geological Overbreak (GOB) in EPC Tunnel Projects: Assessing the Economic Impact",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Peerzada Mohsin Shafi",
+        "Gaurav Singh"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2024",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: journal of"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "contracts",
+        "cost",
+        "excavation",
+        "fiber_reinforced_concrete",
+        "geology",
+        "monitoring",
+        "natm",
+        "shotcrete",
+        "tbm"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; tbm:tunnel boring machine; geology:geolog; excavation:excavat; shotcrete:shotcrete; fiber_reinforced_concrete:fiber reinforced; monitoring:monitoring; cost:cost; contracts:contract; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://www.ijirem.org/view_abstract.php?title=The-Hidden-Costs-of-Geological-Overbreak-%28GOB%29-in-EPC-Tunnel-Projects%3A-Assessing-the-Economic-Impact&year=2024&vol=11&primary=QVJULTE4NDc%3D",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.55524/ijirem.2024.11.6.14",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

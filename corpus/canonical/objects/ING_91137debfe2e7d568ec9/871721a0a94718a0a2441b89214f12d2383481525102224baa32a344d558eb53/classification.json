@@ -1,0 +1,144 @@
+{
+  "final_primary_section": "5.6",
+  "final_secondary_sections": [
+    "5.7"
+  ],
+  "final_section_confidence": 0.8054,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0002",
+        "PARA0003",
+        "PARA0004",
+        "HEAD0003",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "LIST0001",
+        "PARA0009",
+        "PARA0012",
+        "LIST0004",
+        "PARA0014",
+        "LIST0007",
+        "LIST0008",
+        "LIST0009",
+        "PARA0016",
+        "PARA0017",
+        "PARA0018",
+        "LIST0013",
+        "PARA0019",
+        "PARA0020",
+        "PARA0021",
+        "PARA0022"
+      ]
+    },
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0003",
+        "PARA0004",
+        "HEAD0003",
+        "PARA0005",
+        "PARA0014",
+        "HEAD0005"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.6",
+      "score": 0.8054,
+      "rule_score": 0.6364,
+      "embedding_score": 0.7984,
+      "chunk_vote": 0.2303
+    },
+    {
+      "id": "5.7",
+      "score": 0.6896,
+      "rule_score": 0.5,
+      "embedding_score": 0.8019,
+      "chunk_vote": 0.0185
+    },
+    {
+      "id": "5",
+      "score": 0.4207,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3535
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3746,
+      "rule_score": 0.0,
+      "embedding_score": 0.8325,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3716,
+      "rule_score": 0.0,
+      "embedding_score": 0.8258,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3679,
+      "rule_score": 0.0,
+      "embedding_score": 0.8176,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3616,
+      "rule_score": 0.0,
+      "embedding_score": 0.8036,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3615,
+      "rule_score": 0.0,
+      "embedding_score": 0.8034,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.3612,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1562
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3588,
+      "rule_score": 0.0,
+      "embedding_score": 0.7973,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:9",
+    "embeddings:8",
+    "top=5.6:0.8054 gap=0.116 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

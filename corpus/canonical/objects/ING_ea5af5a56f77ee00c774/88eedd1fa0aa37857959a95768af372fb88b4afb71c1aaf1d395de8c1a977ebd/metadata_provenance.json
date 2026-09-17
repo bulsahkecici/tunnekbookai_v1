@@ -1,0 +1,90 @@
+{
+  "document_id": "ING_ea5af5a56f77ee00c774",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Damage Categories And Inspection Techniques For Single–Shell Segmental Lined Tunnels During Their Operational Phase",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Belge metninde çelişkili publication/date yılları: 2025, 2026"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "inspection",
+        "maintenance",
+        "monitoring",
+        "operations"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "monitoring:monitoring; operations:operation; maintenance:maintenance; inspection:inspection; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://about.ita-aites.org/publications/wg-publications/2615/damage-categories-and-inspection-techniques-for-single-shell-segmental-lined-tunnels-during-their-operational-phase?tmpl=component",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

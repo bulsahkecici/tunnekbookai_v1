@@ -1,0 +1,193 @@
+{
+  "final_primary_section": "2.4.2",
+  "final_secondary_sections": [
+    "2.4.2.1",
+    "2.4"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.2",
+      "section_title": "Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "PARA0011",
+        "PARA0018",
+        "HEAD0006",
+        "PARA0020",
+        "PARA0025",
+        "PARA0027",
+        "PARA0028",
+        "PARA0029",
+        "HEAD0007",
+        "PARA0032",
+        "PARA0035",
+        "PARA0036",
+        "FIG0009",
+        "CAPT0008",
+        "PARA0037",
+        "PARA0038",
+        "PARA0040",
+        "PARA0041",
+        "LIST0009",
+        "LIST0010"
+      ]
+    },
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0005",
+        "PARA0007",
+        "PARA0009",
+        "PARA0011",
+        "LIST0007",
+        "PARA0018",
+        "PARA0026",
+        "PARA0030",
+        "HEAD0007",
+        "PARA0032",
+        "PARA0034",
+        "PARA0036",
+        "FIG0008",
+        "CAPT0007",
+        "FIG0009",
+        "CAPT0008",
+        "FIG0010",
+        "CAPT0009",
+        "FIG0011",
+        "CAPT0010",
+        "PARA0039",
+        "LIST0018"
+      ]
+    },
+    {
+      "section_id": "2.4",
+      "section_title": "Tünellerin Projelendirilmesi",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "PARA0011",
+        "PARA0018",
+        "HEAD0006",
+        "PARA0020",
+        "PARA0025",
+        "PARA0028",
+        "PARA0029",
+        "HEAD0007",
+        "PARA0032",
+        "PARA0035",
+        "PARA0036",
+        "FIG0009",
+        "CAPT0008",
+        "PARA0037",
+        "PARA0038",
+        "PARA0040",
+        "PARA0041",
+        "LIST0009",
+        "LIST0010",
+        "LIST0011"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.2",
+      "score": 0.6808,
+      "rule_score": 0.5,
+      "embedding_score": 0.7424,
+      "chunk_vote": 0.1086
+    },
+    {
+      "id": "2.4",
+      "score": 0.6568,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7447,
+      "chunk_vote": 0.18
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.6342,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7483,
+      "chunk_vote": 0.0589
+    },
+    {
+      "id": "2",
+      "score": 0.3448,
+      "rule_score": 0.0,
+      "embedding_score": 0.745,
+      "chunk_vote": 0.0475
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3398,
+      "rule_score": 0.0,
+      "embedding_score": 0.7505,
+      "chunk_vote": 0.0102
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3354,
+      "rule_score": 0.0,
+      "embedding_score": 0.7454,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3352,
+      "rule_score": 0.0,
+      "embedding_score": 0.7448,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3343,
+      "rule_score": 0.0,
+      "embedding_score": 0.7429,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.3327,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1358
+    },
+    {
+      "id": "5.9",
+      "score": 0.2764,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0068
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, otoyol güzergahı optimizasyonu ve BIM ortamında tasarım süreçlerini ele almakta olup, bu içerik tünel projelendirmesindeki güzergah seçimi ve boykesit belirleme ilkeleriyle (2.4.2) doğrudan örtüşmektedir. Özellikle güzergah seçimi alt başlığı (2.4.2.1) ile uyumluluk yüksektir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:21",
+    "embeddings:8",
+    "top=2.4.2:0.6808 gap=0.024 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

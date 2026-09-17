@@ -1,0 +1,139 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.4.1.2",
+    "5.6"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0009",
+        "PARA0011",
+        "PARA0016",
+        "HEAD0012",
+        "PARA0020"
+      ]
+    },
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0004",
+        "PARA0006",
+        "PARA0008",
+        "PARA0009",
+        "PARA0013",
+        "PARA0016",
+        "PARA0017",
+        "PARA0021",
+        "PARA0022",
+        "PARA0023",
+        "PARA0024",
+        "HEAD0020",
+        "PARA0025",
+        "PARA0027"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.6",
+      "score": 0.3764,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2318
+    },
+    {
+      "id": "2",
+      "score": 0.3578,
+      "rule_score": 0.0,
+      "embedding_score": 0.7856,
+      "chunk_vote": 0.0216
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.355,
+      "rule_score": 0.0,
+      "embedding_score": 0.7888,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.3486,
+      "rule_score": 0.0,
+      "embedding_score": 0.7747,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3477,
+      "rule_score": 0.0,
+      "embedding_score": 0.7726,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3474,
+      "rule_score": 0.0,
+      "embedding_score": 0.7721,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3471,
+      "rule_score": 0.0,
+      "embedding_score": 0.7713,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3463,
+      "rule_score": 0.0,
+      "embedding_score": 0.7695,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.3443,
+      "rule_score": 0.0,
+      "embedding_score": 0.7651,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.2999,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1244
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Hong Kong-Zhuhai-Macao Köprüsü batık tünelinin inşaat aşamasındaki zorlukları (hidroloji, oturma, su geçirmezlik) ve çözümlerini detaylıca ele aldığı için 'Tünel Yapım Yöntemleri' (2.2) birincil bölümdür. İnşaat esnasındaki çalışmalar (2.4.1.2) ve önerilen bakım/izleme önlemleri (5.6) ikincil bölümler olarak sınıflandırılmıştır.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:14",
+    "embeddings:8",
+    "top=5.6:0.3764 gap=0.019 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

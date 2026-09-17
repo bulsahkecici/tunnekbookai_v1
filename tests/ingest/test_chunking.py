@@ -61,7 +61,7 @@ def _context():
 class PolicyTests(unittest.TestCase):
     def test_policy_loads_from_config(self):
         policy = ChunkPolicy.from_config(load_config())
-        self.assertEqual(policy.policy_version, "structure-aware-v1")
+        self.assertEqual(policy.policy_version, "structure-aware-v2")
         self.assertEqual(policy.schema_version, "1.0")
         self.assertEqual(policy.tokenizer_name, "unicode-lexical-v1")
         self.assertGreater(policy.max_tokens, policy.target_tokens)
@@ -96,7 +96,7 @@ class StableIdTests(unittest.TestCase):
 
     def test_policy_version_participates(self):
         other = ChunkPolicy.from_config(load_config())
-        other = ChunkPolicy(**{**other.__dict__, "policy_version": "structure-aware-v2"})
+        other = ChunkPolicy(**{**other.__dict__, "policy_version": "structure-aware-test-other"})
         self.assertNotEqual(chunk_id("ING_a", TEXT_CHUNK, ["P"], "m", self.policy),
                             chunk_id("ING_a", TEXT_CHUNK, ["P"], "m", other))
 
@@ -169,8 +169,32 @@ class TextChunkTests(unittest.TestCase):
         chunks = self._run(elements)
         self.assertGreater(len(chunks), 1)
         for chunk in chunks:
-            self.assertLessEqual(chunk["token_count"], self.policy.hard_max_tokens)
+            self.assertLessEqual(chunk["token_count"], self.policy.max_tokens)
             self.assertEqual(chunk["token_count"], tokenizer.count(chunk["text"]))
+
+    def test_dense_punctuation_is_split_with_forward_progress(self):
+        text = "!" * (self.policy.hard_max_tokens * 3)
+        chunks = self._run([_element("PARA0001", "paragraph", text)])
+        self.assertGreater(len(chunks), 1)
+        self.assertTrue(all(chunk["text"] for chunk in chunks))
+        self.assertTrue(
+            all(chunk["token_count"] <= self.policy.max_tokens for chunk in chunks)
+        )
+        self.assertEqual("".join(chunk["text"] for chunk in chunks), text)
+
+    def test_overlap_never_pushes_chunk_over_hard_limit(self):
+        first = varied(80)
+        # This block is intentionally below the hard limit but above the normal
+        # target, so it is returned intact by the last-resort splitter.
+        second = "!" * (self.policy.hard_max_tokens - 10)
+        elements = [
+            _element("PARA0001", "paragraph", first),
+            _element("PARA0002", "paragraph", second),
+        ]
+        chunks = self._run(elements)
+        self.assertTrue(all(
+            chunk["token_count"] <= self.policy.max_tokens for chunk in chunks
+        ))
 
     def test_no_empty_chunks(self):
         elements = [_element("PARA0001", "paragraph", "   "),
@@ -259,7 +283,7 @@ class ModalityChunkTests(unittest.TestCase):
         )
         table_chunks = [chunk for chunk in chunks if chunk["chunk_type"] == TABLE_CHUNK]
         self.assertGreater(len(table_chunks), 1)
-        self.assertTrue(all(chunk["token_count"] <= self.policy.hard_max_tokens for chunk in table_chunks))
+        self.assertTrue(all(chunk["token_count"] <= self.policy.max_tokens for chunk in table_chunks))
         self.assertEqual([chunk["table_part"] for chunk in table_chunks], list(range(1, len(table_chunks) + 1)))
         self.assertTrue(all(chunk["table_parts"] == len(table_chunks) for chunk in table_chunks))
         self.assertTrue(all(chunk["structured_path"] == "tables/TABLE_BIG.json" for chunk in table_chunks))
@@ -348,6 +372,37 @@ class ModalityChunkTests(unittest.TestCase):
                                    slides=[], sheets=sheets, ocr_items=[],
                                    policy=self.policy, root=self.root)
         self.assertGreater(len([c for c in chunks if c["chunk_type"] == SHEET_CHUNK]), 1)
+
+    def test_wide_sheet_is_split_below_hard_limit(self):
+        path = self.root / "sheets" / "Wide.json"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        cells = [{
+            "sheet": "Wide", "cell": "A1", "row": 1, "column": 1,
+            "value": "!" * (self.policy.hard_max_tokens * 2),
+            "formula": None, "data_type": "s",
+        }]
+        path.write_text(json.dumps({"cells": cells}), encoding="utf-8")
+        sheets = [{
+            "asset_id": "SHEET0001", "sheet_name": "Wide", "hidden": False,
+            "used_range": "A1:A1", "structured_path": "sheets/Wide.json",
+            "csv_path": None, "excel_tables": [],
+        }]
+        chunks, _ = chunk_document(
+            context=_context(), elements=[], tables=[], figures=[], slides=[], sheets=sheets,
+            ocr_items=[], policy=self.policy, root=self.root,
+        )
+        sheet_chunks = [chunk for chunk in chunks if chunk["chunk_type"] == SHEET_CHUNK]
+        self.assertGreater(len(sheet_chunks), 1)
+        self.assertTrue(all(
+            chunk["token_count"] <= self.policy.max_tokens for chunk in sheet_chunks
+        ))
+        self.assertEqual(
+            [chunk["sheet_part"] for chunk in sheet_chunks],
+            list(range(1, len(sheet_chunks) + 1)),
+        )
+        self.assertTrue(all(
+            chunk["sheet_parts"] == len(sheet_chunks) for chunk in sheet_chunks
+        ))
 
     def test_page_ocr_becomes_an_ocr_chunk(self):
         ocr_items = [{"ocr_item_id": "OCRPAGE0001", "scope": "PAGE", "page": 1,
@@ -479,6 +534,23 @@ class ChunkQualityGateTests(unittest.TestCase):
         chunks[0]["token_count"] = tokenizer.count(chunks[0]["text"])
         report = self._evaluate(chunks)
         self.assertTrue(any(e.startswith("CHUNK_OVER_HARD_MAX") for e in report["errors"]))
+
+    def test_standalone_short_structural_chunk_is_informational(self):
+        elements = [_element("PARA_SHORT", "paragraph", "Kısa sonuç.", page_start=1)]
+        chunks = chunk_document(
+            context=_context(), elements=elements, tables=[], figures=[], slides=[], sheets=[],
+            ocr_items=[], policy=self.policy, root=Path("."),
+        )[0]
+        report = quality_module.evaluate(
+            document_id="ING_test", chunks=chunks, elements=elements, tables=[], figures=[],
+            sheets=[], slides=[], policy=self.policy,
+        )
+        self.assertTrue(any(
+            warning.startswith("CHUNK_SHORT_STRUCTURAL") for warning in report["warnings"]
+        ))
+        self.assertFalse(any(
+            warning.startswith("CHUNK_UNDER_MIN") for warning in report["warnings"]
+        ))
 
     def test_duplicate_text_flood_fails(self):
         chunks = self._chunks()

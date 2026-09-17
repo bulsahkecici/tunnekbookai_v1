@@ -1,0 +1,129 @@
+{
+  "final_primary_section": "5.9",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.7043,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0002",
+        "PARA0003",
+        "PARA0005",
+        "PARA0007",
+        "PARA0010",
+        "PARA0012",
+        "FIG0003",
+        "PARA0019",
+        "LIST0013",
+        "FIG0005",
+        "FIG0007",
+        "PARA0026",
+        "FIG0008",
+        "PARA0028",
+        "PARA0032",
+        "PARA0036",
+        "PARA0049",
+        "PARA0055",
+        "PARA0058",
+        "PARA0067",
+        "PARA0069",
+        "PARA0078",
+        "PARA0080",
+        "PARA0083"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9",
+      "score": 0.7043,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7629,
+      "chunk_vote": 0.0272
+    },
+    {
+      "id": "1.5",
+      "score": 0.4288,
+      "rule_score": 0.6923,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2404
+    },
+    {
+      "id": "5",
+      "score": 0.4143,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.238
+    },
+    {
+      "id": "5.6",
+      "score": 0.3857,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1786
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3547,
+      "rule_score": 0.0,
+      "embedding_score": 0.7826,
+      "chunk_vote": 0.0127
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3544,
+      "rule_score": 0.0,
+      "embedding_score": 0.7857,
+      "chunk_vote": 0.0042
+    },
+    {
+      "id": "5.4",
+      "score": 0.3507,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1036
+    },
+    {
+      "id": "2",
+      "score": 0.346,
+      "rule_score": 0.0,
+      "embedding_score": 0.766,
+      "chunk_vote": 0.0064
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3459,
+      "rule_score": 0.0,
+      "embedding_score": 0.7669,
+      "chunk_vote": 0.0042
+    },
+    {
+      "id": "5.3",
+      "score": 0.3447,
+      "rule_score": 0.0,
+      "embedding_score": 0.766,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.9:0.7043 gap=0.276 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

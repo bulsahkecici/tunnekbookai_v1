@@ -1,0 +1,195 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2",
+    "5.9.1",
+    "5.4"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0003",
+        "LIST0002",
+        "PARA0007",
+        "PARA0010",
+        "PARA0015",
+        "FIG0018",
+        "PARA0027",
+        "PARA0031",
+        "PARA0032",
+        "HEAD0021",
+        "PARA0034",
+        "PARA0035",
+        "PARA0036",
+        "PARA0038",
+        "PARA0067",
+        "FIG0042",
+        "HEAD0030",
+        "PARA0083",
+        "PARA0084",
+        "PARA0097",
+        "PARA0106",
+        "PARA0109",
+        "PARA0116",
+        "PARA0117",
+        "PARA0118"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0003",
+        "LIST0002",
+        "PARA0007",
+        "PARA0010",
+        "PARA0015",
+        "FIG0018",
+        "PARA0027",
+        "PARA0031",
+        "PARA0032",
+        "HEAD0021",
+        "PARA0034",
+        "PARA0035",
+        "PARA0036",
+        "PARA0038",
+        "PARA0067",
+        "FIG0042",
+        "HEAD0030",
+        "PARA0083",
+        "PARA0084",
+        "PARA0097",
+        "PARA0106",
+        "PARA0109",
+        "PARA0116",
+        "PARA0117",
+        "PARA0118"
+      ]
+    },
+    {
+      "section_id": "5.9.1",
+      "section_title": "Ulusal Literatür Taraması",
+      "supporting_elements": [
+        "PARA0010",
+        "PARA0032",
+        "PARA0103",
+        "PARA0291",
+        "PARA0295",
+        "PARA0306",
+        "FIG0146",
+        "PARA0384",
+        "PARA0420",
+        "LIST0270",
+        "LIST0871",
+        "FIG0169",
+        "LIST0892"
+      ]
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "PARA0032",
+        "FIG0094",
+        "PARA0332",
+        "PARA0365",
+        "FIG0179"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7466,
+      "rule_score": 0.5,
+      "embedding_score": 0.771,
+      "chunk_vote": 0.3731
+    },
+    {
+      "id": "2.2",
+      "score": 0.7434,
+      "rule_score": 0.5556,
+      "embedding_score": 0.765,
+      "chunk_vote": 0.2176
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.6761,
+      "rule_score": 0.5,
+      "embedding_score": 0.7756,
+      "chunk_vote": 0.0104
+    },
+    {
+      "id": "5.4",
+      "score": 0.672,
+      "rule_score": 0.5,
+      "embedding_score": 0.7712,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3523,
+      "rule_score": 0.0,
+      "embedding_score": 0.7829,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3475,
+      "rule_score": 0.0,
+      "embedding_score": 0.7723,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.345,
+      "rule_score": 0.0,
+      "embedding_score": 0.7667,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3445,
+      "rule_score": 0.0,
+      "embedding_score": 0.7656,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3056,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, TBM (Tünel Açma Makinesi) ile yapılan kazı çalışmaları, kesici kafa müdahaleleri, ring parametreleri ve mekanize tünelcilik tekniklerine odaklanmaktadır. Bu içerik, 'Tünel Yapım Yöntemleri' (2.2) başlığıyla en yüksek örtüşmeyi göstermektedir. Genel 'Tünel Ana Elemanları' (2) ise ikincil bir bağlantı olarak değerlendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7466 gap=0.003 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

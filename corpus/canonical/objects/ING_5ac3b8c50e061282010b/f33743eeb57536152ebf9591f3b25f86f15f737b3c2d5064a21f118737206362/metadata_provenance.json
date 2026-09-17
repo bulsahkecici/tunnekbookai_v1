@@ -1,0 +1,109 @@
+{
+  "document_id": "ING_5ac3b8c50e061282010b",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Structural responses of secondary lining of high-speed railway tunnel excavated in loess ground",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Zhang, Dingli",
+        "Wong, Louis",
+        "Wong, Louis Ngai Yuen",
+        "Fang, Qian",
+        "Li, Pengfei"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2013",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "excavation",
+        "monitoring",
+        "natm",
+        "operations",
+        "portal",
+        "safety",
+        "shotcrete",
+        "standards",
+        "traffic"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; excavation:excavat; shotcrete:shotcrete; portal:portal; monitoring:monitoring; safety:safety; traffic:traffic; operations:operation; standards:standard; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://pdf.core.ac.uk/corefilesystem/pdf/942/38075509.pdf?se=2026-09-03T17%3A07%3A10Z&sp=r&sv=2026-06-06&sr=b&rscd=inline%3B+filename%3D%2238075509.pdf%22&rsct=application%2Fpdf&sig=wztJyNki5v9m5hAxeYChxr8SHhAjhEIxH01LCSzFYc4%3D",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1260/1369-4332.16.8.1371",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "document_id": "ING_2c1509971dc4f4063aa5",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Slayt 1",
+      "source": "ooxml_properties",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": "66",
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "presentation",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "PPT içeriğinde slayt/sunum yapısı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "collapse",
+        "cost",
+        "drainage",
+        "excavation",
+        "forepoling",
+        "geology",
+        "geotechnical_investigation",
+        "karst",
+        "maintenance",
+        "quality_control",
+        "risk",
+        "shotcrete",
+        "standards"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geotechnical_investigation:sondaj; geology:jeoloji; excavation:kazı; shotcrete:püskürtme beton; forepoling:süren; karst:karst; drainage:drenaj; risk:risk; maintenance:bakım; standards:standart; cost:maliyet; quality_control:kalite kontrol"
+    }
+  ]
+}

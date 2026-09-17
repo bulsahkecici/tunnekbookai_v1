@@ -1,0 +1,50 @@
+{
+  "document_id": "ING_0d1b0c6856a236e3787d",
+  "source_kind": "EXTERNAL_DISCOVERY",
+  "original_filename": "source.pdf",
+  "original_sha256": "0d1b0c6856a236e3787d403988148870ae0fde4e46aa70730101fbfb638a9aa4",
+  "format": "PDF",
+  "mime_type": "application/pdf",
+  "title": "A Model for Optimizing Railway Alignment Considering Bridge Costs, Tunnel Costs, and Transition Curves",
+  "authors": [
+    "Benyamin Ghoreishi",
+    "Yousef Shafahi",
+    "Seyed Elyas Hashemian"
+  ],
+  "organization": null,
+  "department": null,
+  "document_date": "2019",
+  "revision": null,
+  "language": "en",
+  "document_type": null,
+  "topics": [
+    "cost",
+    "excavation",
+    "traffic"
+  ],
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s40864-019-00111-5.pdf",
+  "doi": "10.1007/s40864-019-00111-5",
+  "confidentiality": "UNKNOWN",
+  "document_status": "UNKNOWN",
+  "ingest_method": "crawler_handoff",
+  "final_primary_section": "2.4.2",
+  "final_secondary_sections": [
+    "2.4.2.1",
+    "2.4.2.2"
+  ],
+  "final_section_confidence": 0.85,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": true,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "schema_version": "1.0"
+}

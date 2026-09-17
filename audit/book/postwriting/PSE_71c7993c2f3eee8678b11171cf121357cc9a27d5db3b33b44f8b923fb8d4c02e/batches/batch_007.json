@@ -1,0 +1,307 @@
+{
+  "batch_number": 7,
+  "results": [
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_0b5309ce35274ad47546dcecb54736000120f4a1513bc4193e4efd46f9173b82"
+      ],
+      "paragraph_id": "1.1-P027",
+      "question_ids": [
+        "1.1-Q41"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel inşaat projesine ait zemin ve jeolojik gözlem parametreleri, tablo ve şemalarla belgeleyen mühendislik formları saha verisi olarak gereklidir.",
+      "sentence_id": "1.1-S073",
+      "source_locators": [
+        "ING_7bd21d281ecd81e07fa9:ING_7bd21d281ecd81e07fa9_CH_d8921e7e2d:pages=8;canonical=corpus/canonical/objects/ING_7bd21d281ecd81e07fa9/c2dab86a59a3a39ceed60cacafdba4ff17a3d05265c878e21ef03805ab27e14c/chunks/embedding_ready.jsonl#L8"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_0b5309ce35274ad47546dcecb54736000120f4a1513bc4193e4efd46f9173b82"
+      ],
+      "supporting_document_ids": [
+        "ING_7bd21d281ecd81e07fa9"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_a69f83db6d5aa50d8d7a590846746fcc7d99608ea5894f2407c8a16377928853"
+      ],
+      "paragraph_id": "1.1-P027",
+      "question_ids": [
+        "1.1-Q41"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Jeolojik haritalama ve parametreleri içeren teknik formlar, tünelin zemin koşullarını tanımlamak için kullanılır.",
+      "sentence_id": "1.1-S074",
+      "source_locators": [
+        "ING_7bd21d281ecd81e07fa9:ING_7bd21d281ecd81e07fa9_CH_219bb2dbfb:pages=3;canonical=corpus/canonical/objects/ING_7bd21d281ecd81e07fa9/c2dab86a59a3a39ceed60cacafdba4ff17a3d05265c878e21ef03805ab27e14c/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_a69f83db6d5aa50d8d7a590846746fcc7d99608ea5894f2407c8a16377928853"
+      ],
+      "supporting_document_ids": [
+        "ING_7bd21d281ecd81e07fa9"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "paragraph_id": "1.1-P027",
+      "question_ids": [
+        "1.1-Q41"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Yerinde geomekanik parametreler, deney sonuçları kullanılarak hesaplanır ve homojen bölgelendirme yapılır.",
+      "sentence_id": "1.1-S075",
+      "source_locators": [
+        "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_b535170db3:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L11"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "supporting_document_ids": [
+        "ING_7e795b9a47c89f5406c5"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "paragraph_id": "1.1-P028",
+      "question_ids": [
+        "1.1-Q42"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı, yeraltında yapılacak kazı ile istenilen kesitte boşluk oluşturulması ve desteklenmesi ile inşa edilen yer altı yapısı olarak proje verileriyle ilişkilendirilir.",
+      "sentence_id": "1.1-S076",
+      "source_locators": [
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "supporting_document_ids": [
+        "ING_312befcda2ff316b7279"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "paragraph_id": "1.1-P028",
+      "question_ids": [
+        "1.1-Q42"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "NATM ile ilgili tünel işleri ana maddeleri, her tür kaya ve zemin ortamları içerisinde tünel yapımına ait şartları tanımlar.",
+      "sentence_id": "1.1-S077",
+      "source_locators": [
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "supporting_document_ids": [
+        "ING_312befcda2ff316b7279"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_49b686ae9f529cac422f943b51f39e18fdab4a1743492a63c119605c2f887ab1"
+      ],
+      "paragraph_id": "1.1-P028",
+      "question_ids": [
+        "1.1-Q42"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin gerekliliği, güzergâhın toprak kaymalarından korunması, akarsu altından geçiş veya pahalı istimlaklardan kaçınma gibi proje koşullarına bağlıdır.",
+      "sentence_id": "1.1-S078",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_e6e6be2031:pages=23-27;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_49b686ae9f529cac422f943b51f39e18fdab4a1743492a63c119605c2f887ab1"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397"
+      ]
+    },
+    {
+      "confidence": 0.6,
+      "mapped_claim_ids": [
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "paragraph_id": "1.1-P029",
+      "question_ids": [
+        "1.1-Q43"
+      ],
+      "reason_code": "CLAIM_OVERREACH",
+      "section_id": "1.1",
+      "sentence": "Tünel tanımı, trafik geçişine imkan sağlayan yeraltı karayolu sanat yapısı olarak işletme verileriyle bağlantılıdır.",
+      "sentence_id": "1.1-S079",
+      "source_locators": [
+        "ING_1c8cf251c81e8ae5e70c:ING_1c8cf251c81e8ae5e70c_CH_14829f0fcb:pages=16;canonical=corpus/canonical/objects/ING_1c8cf251c81e8ae5e70c/2894a12f8ee25c479266c072b7a54f8a4060edc370206c1a9d573bfa6e23e904/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "PARTIAL",
+      "supporting_claim_ids": [
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "supporting_document_ids": [
+        "ING_1c8cf251c81e8ae5e70c"
+      ]
+    },
+    {
+      "confidence": 0.75,
+      "mapped_claim_ids": [
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "paragraph_id": "1.1-P029",
+      "question_ids": [
+        "1.1-Q43"
+      ],
+      "reason_code": "CLAIM_OVERREACH",
+      "section_id": "1.1",
+      "sentence": "Tünel Kontrol Merkezi, tünel veya grup tünellerin işletmesinin tam gün gerçekleştirildiği istasyonu ifade eder.",
+      "sentence_id": "1.1-S080",
+      "source_locators": [
+        "ING_1c8cf251c81e8ae5e70c:ING_1c8cf251c81e8ae5e70c_CH_14829f0fcb:pages=16;canonical=corpus/canonical/objects/ING_1c8cf251c81e8ae5e70c/2894a12f8ee25c479266c072b7a54f8a4060edc370206c1a9d573bfa6e23e904/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "PARTIAL",
+      "supporting_claim_ids": [
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "supporting_document_ids": [
+        "ING_1c8cf251c81e8ae5e70c"
+      ]
+    },
+    {
+      "confidence": 0.65,
+      "mapped_claim_ids": [
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "paragraph_id": "1.1-P029",
+      "question_ids": [
+        "1.1-Q43"
+      ],
+      "reason_code": "CLAIM_OVERREACH",
+      "section_id": "1.1",
+      "sentence": "Risk analizinde, tünelde her bir motorlu taşıt bir birim olarak sayılmak üzere şerit başına düşen yıllık ortalama günlük trafik verisi kullanılır.",
+      "sentence_id": "1.1-S081",
+      "source_locators": [
+        "ING_1c8cf251c81e8ae5e70c:ING_1c8cf251c81e8ae5e70c_CH_14829f0fcb:pages=16;canonical=corpus/canonical/objects/ING_1c8cf251c81e8ae5e70c/2894a12f8ee25c479266c072b7a54f8a4060edc370206c1a9d573bfa6e23e904/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "PARTIAL",
+      "supporting_claim_ids": [
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "supporting_document_ids": [
+        "ING_1c8cf251c81e8ae5e70c"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_c6305feaf5f952b21e0130bf9d628c6d4e68557bb41e3c0dab50b5caa39596d9"
+      ],
+      "paragraph_id": "1.1-P030",
+      "question_ids": [
+        "1.1-Q44"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel tanımı, yapım işlevlerine göre demiryolu, karayolu, yaya yolu, akarsu ve hidrolik tüneller olarak sınıflandırılır.",
+      "sentence_id": "1.1-S082",
+      "source_locators": [
+        "ING_b011796d9570a6e89619:ING_b011796d9570a6e89619_CH_d2a8b7cc1e:canonical=corpus/canonical/objects/ING_b011796d9570a6e89619/afef36b83099133b6c9cc351451071fca73351b810c5bd494983eaaedb295afb/chunks/embedding_ready.jsonl#L48"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_c6305feaf5f952b21e0130bf9d628c6d4e68557bb41e3c0dab50b5caa39596d9"
+      ],
+      "supporting_document_ids": [
+        "ING_b011796d9570a6e89619"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_c6305feaf5f952b21e0130bf9d628c6d4e68557bb41e3c0dab50b5caa39596d9"
+      ],
+      "paragraph_id": "1.1-P030",
+      "question_ids": [
+        "1.1-Q44"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel tanımı, şekillerine göre kayaç, yumuşak zeminde açılan ve su altında açılan tüneller olarak değişir.",
+      "sentence_id": "1.1-S083",
+      "source_locators": [
+        "ING_b011796d9570a6e89619:ING_b011796d9570a6e89619_CH_d2a8b7cc1e:canonical=corpus/canonical/objects/ING_b011796d9570a6e89619/afef36b83099133b6c9cc351451071fca73351b810c5bd494983eaaedb295afb/chunks/embedding_ready.jsonl#L48"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_c6305feaf5f952b21e0130bf9d628c6d4e68557bb41e3c0dab50b5caa39596d9"
+      ],
+      "supporting_document_ids": [
+        "ING_b011796d9570a6e89619"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "paragraph_id": "1.1-P030",
+      "question_ids": [
+        "1.1-Q44"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Farklı meslek gruplarında tünel; yeraltı boşluğu, taşıyıcı kabuk sistemi, kazılması gereken ortam ve doğal ortam olarak farklı temsil edilir.",
+      "sentence_id": "1.1-S084",
+      "source_locators": [
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_d860cf25d2:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L193"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "supporting_document_ids": [
+        "ING_2005c18d2148fb921826"
+      ]
+    }
+  ],
+  "sentence_ids": [
+    "1.1-S073",
+    "1.1-S074",
+    "1.1-S075",
+    "1.1-S076",
+    "1.1-S077",
+    "1.1-S078",
+    "1.1-S079",
+    "1.1-S080",
+    "1.1-S081",
+    "1.1-S082",
+    "1.1-S083",
+    "1.1-S084"
+  ]
+}

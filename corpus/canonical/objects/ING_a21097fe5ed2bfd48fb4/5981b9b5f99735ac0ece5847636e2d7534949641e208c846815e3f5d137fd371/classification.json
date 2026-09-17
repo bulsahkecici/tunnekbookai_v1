@@ -1,0 +1,125 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.8",
+    "2.4.3"
+  ],
+  "final_section_confidence": 0.75,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.8",
+      "section_title": "Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri",
+      "supporting_elements": [
+        "FIG0001",
+        "LIST0007",
+        "LIST0008"
+      ]
+    },
+    {
+      "section_id": "2.4.3",
+      "section_title": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları",
+      "supporting_elements": [
+        "FIG0001",
+        "LIST0007",
+        "LIST0008"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4",
+      "score": 0.6738,
+      "rule_score": 0.5,
+      "embedding_score": 0.7751,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.6384,
+      "rule_score": 0.2,
+      "embedding_score": 0.8207,
+      "chunk_vote": 0.5455
+    },
+    {
+      "id": "3",
+      "score": 0.4053,
+      "rule_score": 0.0,
+      "embedding_score": 0.7794,
+      "chunk_vote": 0.2727
+    },
+    {
+      "id": "5.8",
+      "score": 0.3819,
+      "rule_score": 0.0,
+      "embedding_score": 0.7679,
+      "chunk_vote": 0.1818
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.342,
+      "rule_score": 0.0,
+      "embedding_score": 0.76,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.3408,
+      "rule_score": 0.0,
+      "embedding_score": 0.7573,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4.2",
+      "score": 0.3407,
+      "rule_score": 0.0,
+      "embedding_score": 0.7571,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3402,
+      "rule_score": 0.0,
+      "embedding_score": 0.756,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.2",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Karayolları Genel Müdürlüğü'nün 'Tesisler ve Bakım Dairesi Başkanlığı' tarafından yayımlanmış olup, tünel ve diğer yapıların isimlendirilmesine dair bir yönergedir. İsimlendirme, tesislerin işletme ve bakım süreçlerinin bir parçası olarak değerlendirildiğinden, ana bölüm 'Tünel Bakım-Onarım ve İşletme' (5.4) olarak seçilmiştir. İlgili birim 'Tesisler ve Bakım Dairesi' olduğundan, 'Devlet ve",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:9",
+    "embeddings:8",
+    "top=5.4:0.6738 gap=0.035 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

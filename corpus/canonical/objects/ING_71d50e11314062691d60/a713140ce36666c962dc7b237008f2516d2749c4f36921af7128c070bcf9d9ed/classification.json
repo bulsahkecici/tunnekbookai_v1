@@ -1,0 +1,111 @@
+{
+  "final_primary_section": "2.4.2",
+  "final_secondary_sections": [
+    "2.4.2.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.2",
+      "section_title": "Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Hususlar",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.4.2.2",
+      "section_title": "Boykesit Belirlemede Dikkat Edilecek Hususlar",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.2",
+      "score": 0.3426,
+      "rule_score": 0.0,
+      "embedding_score": 0.7614,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3423,
+      "rule_score": 0.0,
+      "embedding_score": 0.7607,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3422,
+      "rule_score": 0.0,
+      "embedding_score": 0.7605,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3417,
+      "rule_score": 0.0,
+      "embedding_score": 0.7593,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3411,
+      "rule_score": 0.0,
+      "embedding_score": 0.7581,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.341,
+      "rule_score": 0.0,
+      "embedding_score": 0.7577,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3406,
+      "rule_score": 0.0,
+      "embedding_score": 0.7568,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3405,
+      "rule_score": 0.0,
+      "embedding_score": 0.7567,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.325,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.25
+    },
+    {
+      "id": "1",
+      "score": 0.2833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Norveç Ulaştırma İdaresi'nin (Statens vegvesen) N500 ve N100 standartlarına yeni bir tünel profili (T9,5) eklenmesi ve omuz kısmının modifiye edilmesi için hazırladığı bir tasarıdır. Bu içerik, tünel güzergahı ve özellikle boykesit (tunnel profile/cross-section) belirleme kriterleriyle doğrudan ilgilidir. Bu nedenle 'Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Husu",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:3",
+    "chunk_votes:3",
+    "embeddings:8",
+    "top=2.4.2:0.3426 gap=0.000 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

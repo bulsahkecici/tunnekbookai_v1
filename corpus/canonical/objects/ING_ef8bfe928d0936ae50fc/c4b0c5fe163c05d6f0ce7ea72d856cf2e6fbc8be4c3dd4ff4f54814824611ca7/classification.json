@@ -1,0 +1,127 @@
+{
+  "final_primary_section": "6.1.3",
+  "final_secondary_sections": [
+    "6.1",
+    "6.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "6.1.3",
+      "section_title": "Çalışmanın Yöntemi",
+      "supporting_elements": [
+        "PARA0003",
+        "HEAD0006"
+      ]
+    },
+    {
+      "section_id": "6.1",
+      "section_title": "Çalışmanın Amacı, Kapsamı, Yöntem ve Kullanılan Verileri",
+      "supporting_elements": [
+        "PARA0003",
+        "PARA0005"
+      ]
+    },
+    {
+      "section_id": "6.2",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması (Mehmet Çelikkaya)",
+      "supporting_elements": [
+        "PARA0003",
+        "LIST0015",
+        "LIST0024"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6.1.3",
+      "score": 0.7035,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7732,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.6668,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7968,
+      "chunk_vote": 0.1124
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.376,
+      "rule_score": 0.0,
+      "embedding_score": 0.8057,
+      "chunk_vote": 0.0674
+    },
+    {
+      "id": "6.1",
+      "score": 0.3587,
+      "rule_score": 0.0,
+      "embedding_score": 0.7722,
+      "chunk_vote": 0.0562
+    },
+    {
+      "id": "2.3",
+      "score": 0.3579,
+      "rule_score": 0.0,
+      "embedding_score": 0.7803,
+      "chunk_vote": 0.0337
+    },
+    {
+      "id": "6",
+      "score": 0.3525,
+      "rule_score": 0.0,
+      "embedding_score": 0.7833,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.1",
+      "score": 0.3515,
+      "rule_score": 0.0,
+      "embedding_score": 0.7812,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3479,
+      "rule_score": 0.0,
+      "embedding_score": 0.7731,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.2417,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2921
+    },
+    {
+      "id": "2.2",
+      "score": 0.2103,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1348
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, alternatif maliyet analizi yöntemlerini inceleyen bir çalışmanın metodolojisini (vaka çalışması, mülakat) ve bulgularını içermektedir. Aday listesindeki '6.1.3: Çalışmanın Yöntemi' başlığı, belgenin 'Çalışmanın Yöntemi ve Katılımcı Profili' bölümüyle doğrudan örtüşmektedir. Ayrıca çalışmanın amacı ve literatür taraması içerdiği için 6.1 ve 6.2 ikincil olarak değerlendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:17",
+    "embeddings:8",
+    "top=6.1.3:0.7035 gap=0.037 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

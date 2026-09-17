@@ -1,0 +1,138 @@
+{
+  "final_primary_section": "5.4.2",
+  "final_secondary_sections": [
+    "5.4",
+    "5.9.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "LIST0004",
+        "LIST0007",
+        "LIST0050",
+        "LIST0053",
+        "LIST0056"
+      ]
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0071",
+        "LIST0072",
+        "LIST0073"
+      ]
+    },
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0071",
+        "LIST0072",
+        "LIST0073",
+        "PARA0007"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9",
+      "score": 0.7253,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7868,
+      "chunk_vote": 0.0785
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.7237,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7948,
+      "chunk_vote": 0.0523
+    },
+    {
+      "id": "5.4",
+      "score": 0.6783,
+      "rule_score": 0.5,
+      "embedding_score": 0.785,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.646,
+      "rule_score": 0.4286,
+      "embedding_score": 0.8007,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.4591,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.6453
+    },
+    {
+      "id": "1",
+      "score": 0.3596,
+      "rule_score": 0.0,
+      "embedding_score": 0.7829,
+      "chunk_vote": 0.0366
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3582,
+      "rule_score": 0.0,
+      "embedding_score": 0.796,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3579,
+      "rule_score": 0.0,
+      "embedding_score": 0.7845,
+      "chunk_vote": 0.0244
+    },
+    {
+      "id": "5.3",
+      "score": 0.3551,
+      "rule_score": 0.0,
+      "embedding_score": 0.7891,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.2872,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.061
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC Yol Tünelleri El Kitabı'ndan olup 'Kullanıcılarla İletişim' (FM radyo ve sesli anons sistemleri) konusunu ele almaktadır. Bu sistemler, tünellerdeki elektrik-elektronik ve elektromekanik altyapının bir parçasıdır ve bu nedenle 'Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı' (5.4.2) ile doğrudan ilişkilidir. Üst düzey kategori olarak 'Tünel Bakım-Onarım ve İşletme' (5.4) de ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:5",
+    "embeddings:8",
+    "top=5.9:0.7253 gap=0.002 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

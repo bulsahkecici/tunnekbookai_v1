@@ -1,0 +1,109 @@
+{
+  "document_id": "ING_5fd36f044bfe0c22ea37",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Useful concepts for application of new Austrian tunnelling method in tunnel construction (NATM)",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Vojkan Jovclc",
+        "Jasmin Buco",
+        "Nermin Sehagic",
+        "Alaga Husic"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2015",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: doi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "case_study",
+        "excavation",
+        "geology",
+        "natm",
+        "rock_bolt",
+        "rock_mechanics",
+        "shotcrete",
+        "steel_mesh",
+        "tbm"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; tbm:tbm; geology:geolog; rock_mechanics:rock mass; excavation:excavat; shotcrete:shotcrete; steel_mesh:steel mesh; rock_bolt:rock bolt; accident:kaza; case_study:vaka; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "http://scindeks-clanci.ceon.rs/data/pdf/2217-8139/2015/0543-07981504021J.pdf",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.5937/grmk1504021j",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

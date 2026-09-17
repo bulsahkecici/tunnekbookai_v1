@@ -1,0 +1,232 @@
+{
+  "batch_number": 9,
+  "results": [
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_d4a7ac65895394d7af25efd64d7c0bc730e4ec07f67a2a967b710d993eaaedbe"
+      ],
+      "paragraph_id": "1.1-P034",
+      "question_ids": [
+        "1.1-Q48"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Ulaşım sektörü, enerjiden kaynaklanan sera gazı üretimine %15 oranında katkı sağlamaktadır.",
+      "sentence_id": "1.1-S097",
+      "source_locators": [
+        "ING_7d7c44992e83c7185c41:ING_7d7c44992e83c7185c41_CH_751f928d57:pages=1;canonical=corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_d4a7ac65895394d7af25efd64d7c0bc730e4ec07f67a2a967b710d993eaaedbe"
+      ],
+      "supporting_document_ids": [
+        "ING_7d7c44992e83c7185c41"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_17ea146c01cb99baab33e90d283f3c946668d007dea78466d524318f5c97b1be"
+      ],
+      "paragraph_id": "1.1-P034",
+      "question_ids": [
+        "1.1-Q48"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tüneller, kar ve buzlanmadan kaynaklanan kazaları azaltarak ulaşım aksaklıklarını minimuma indirme potansiyeline sahiptir.",
+      "sentence_id": "1.1-S098",
+      "source_locators": [
+        "ING_7d7c44992e83c7185c41:ING_7d7c44992e83c7185c41_CH_9d95dfd0a3:pages=2-3;canonical=corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl#L2"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_17ea146c01cb99baab33e90d283f3c946668d007dea78466d524318f5c97b1be"
+      ],
+      "supporting_document_ids": [
+        "ING_7d7c44992e83c7185c41"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_3b9c8f80183806df9dc6da9c26b134001b8aafa9ccf3c02b6890461e368db9c7"
+      ],
+      "paragraph_id": "1.1-P034",
+      "question_ids": [
+        "1.1-Q48"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Heyelan ve taş düşmeleri gibi doğal risklere karşı alternatif güzergâh sunan tüneller, maddi ve manevi kayıpları önleyerek sürdürülebilirliğe katkıda bulunur.",
+      "sentence_id": "1.1-S099",
+      "source_locators": [
+        "ING_7d7c44992e83c7185c41:ING_7d7c44992e83c7185c41_CH_53b3aefc37:pages=13-14;canonical=corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl#L6"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_3b9c8f80183806df9dc6da9c26b134001b8aafa9ccf3c02b6890461e368db9c7"
+      ],
+      "supporting_document_ids": [
+        "ING_7d7c44992e83c7185c41"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_00903f305e519c05b0b43993aa74aff4e7a1d9553a18092de09a2ed7bf456148"
+      ],
+      "paragraph_id": "1.1-P035",
+      "question_ids": [
+        "1.1-Q49"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı için kitapta verilmesi gereken temel örnekler arasında kargir kaplama tüneller ve ilk su tünelleri yer almaktadır.",
+      "sentence_id": "1.1-S100",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_cb5f16b544:pages=11;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L227"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_00903f305e519c05b0b43993aa74aff4e7a1d9553a18092de09a2ed7bf456148"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_64a3053a40f5c959e02fae553dadf8bd14d776a0bb0ab5fc6bdfb2b606095bde"
+      ],
+      "paragraph_id": "1.1-P035",
+      "question_ids": [
+        "1.1-Q49"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Farklı meslek grupları tarafından tünel tanımları çeşitli şekillerde yapılmaktadır.",
+      "sentence_id": "1.1-S101",
+      "source_locators": [
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_d3947ac0c9:pages=10;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L109"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_64a3053a40f5c959e02fae553dadf8bd14d776a0bb0ab5fc6bdfb2b606095bde"
+      ],
+      "supporting_document_ids": [
+        "ING_2005c18d2148fb921826"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_64a3053a40f5c959e02fae553dadf8bd14d776a0bb0ab5fc6bdfb2b606095bde"
+      ],
+      "paragraph_id": "1.1-P035",
+      "question_ids": [
+        "1.1-Q49"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel enkesit ve tip kesit oluşturma örnekleri, tanımın teknik boyutunu somutlaştırmak için kullanılabilir.",
+      "sentence_id": "1.1-S102",
+      "source_locators": [
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_d3947ac0c9:pages=10;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L109"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_64a3053a40f5c959e02fae553dadf8bd14d776a0bb0ab5fc6bdfb2b606095bde"
+      ],
+      "supporting_document_ids": [
+        "ING_2005c18d2148fb921826"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_00903f305e519c05b0b43993aa74aff4e7a1d9553a18092de09a2ed7bf456148"
+      ],
+      "paragraph_id": "1.1-P035",
+      "question_ids": [
+        "1.1-Q49"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Marmaray Projesi'ndeki batırma tüneli uygulaması, farklı tünel açma yöntemlerinin bir örneğidir.",
+      "sentence_id": "1.1-S103",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_cb5f16b544:pages=11;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L227"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_00903f305e519c05b0b43993aa74aff4e7a1d9553a18092de09a2ed7bf456148"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_64a3053a40f5c959e02fae553dadf8bd14d776a0bb0ab5fc6bdfb2b606095bde"
+      ],
+      "paragraph_id": "1.1-P035",
+      "question_ids": [
+        "1.1-Q49"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Ordu Nefise Akçelik (Hapan) tüneline ait portal yapısı, tünel girişlerinin tasarımını gösteren bir örnektir.",
+      "sentence_id": "1.1-S104",
+      "source_locators": [
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_d3947ac0c9:pages=10;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L109"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_64a3053a40f5c959e02fae553dadf8bd14d776a0bb0ab5fc6bdfb2b606095bde"
+      ],
+      "supporting_document_ids": [
+        "ING_2005c18d2148fb921826"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_00903f305e519c05b0b43993aa74aff4e7a1d9553a18092de09a2ed7bf456148"
+      ],
+      "paragraph_id": "1.1-P035",
+      "question_ids": [
+        "1.1-Q49"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Boru sürme yöntemiyle açılan tüneller de tanım kapsamında değerlendirilebilecek örnekler arasındadır.",
+      "sentence_id": "1.1-S105",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_cb5f16b544:pages=11;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L227"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_00903f305e519c05b0b43993aa74aff4e7a1d9553a18092de09a2ed7bf456148"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397"
+      ]
+    }
+  ],
+  "sentence_ids": [
+    "1.1-S097",
+    "1.1-S098",
+    "1.1-S099",
+    "1.1-S100",
+    "1.1-S101",
+    "1.1-S102",
+    "1.1-S103",
+    "1.1-S104",
+    "1.1-S105"
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [
+    "2.2.1",
+    "2.4.1.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0002",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0013",
+        "PARA0015",
+        "FIG0002",
+        "CAPT0002",
+        "PARA0016",
+        "PARA0017",
+        "PARA0019",
+        "PARA0021",
+        "HEAD0007",
+        "PARA0023",
+        "FIG0004",
+        "PARA0024",
+        "PARA0025",
+        "LIST0003",
+        "LIST0004",
+        "LIST0005"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0002",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0013",
+        "PARA0015",
+        "FIG0002",
+        "CAPT0002",
+        "PARA0016",
+        "PARA0017",
+        "PARA0019",
+        "PARA0021",
+        "HEAD0007",
+        "PARA0023",
+        "FIG0004",
+        "PARA0024",
+        "LIST0003",
+        "LIST0004",
+        "LIST0005",
+        "FIG0005"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0004",
+        "PARA0005",
+        "PARA0033",
+        "LIST0010",
+        "PARA0037",
+        "PARA0051",
+        "PARA0052",
+        "LIST0028",
+        "LIST0031",
+        "LIST0032",
+        "LIST0033",
+        "LIST0047"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1",
+      "score": 0.8369,
+      "rule_score": 0.6364,
+      "embedding_score": 0.7505,
+      "chunk_vote": 0.4959
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.7437,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7617,
+      "chunk_vote": 0.2266
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.6657,
+      "rule_score": 0.5,
+      "embedding_score": 0.7504,
+      "chunk_vote": 0.0153
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3438,
+      "rule_score": 0.0,
+      "embedding_score": 0.7595,
+      "chunk_vote": 0.0102
+    },
+    {
+      "id": "6.1",
+      "score": 0.3428,
+      "rule_score": 0.0,
+      "embedding_score": 0.7537,
+      "chunk_vote": 0.0183
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3425,
+      "rule_score": 0.0,
+      "embedding_score": 0.7611,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.34,
+      "rule_score": 0.0,
+      "embedding_score": 0.7555,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3371,
+      "rule_score": 0.0,
+      "embedding_score": 0.749,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3344,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0222
+    },
+    {
+      "id": "5.7",
+      "score": 0.3056,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, yeraltı maden tünellerinde kullanılan kaya çivilerini (rock bolts) derin öğrenme ile tespit etmeye odaklanmaktadır. Kaya çivisi, tünel yapı ve destek elemanlarının temel bir parçasıdır (2.1). Ayrıca, bu elemanların uygulandığı ortamın kayaç zemin olduğu ve maden tünelleri bağlamında ele alındığı için 2.2.1 (Kayaç Zeminde Açılan Tüneller) ikincil bölüm olarak uygun görülmüştür.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.1:0.8369 gap=0.093 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

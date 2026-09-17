@@ -1,0 +1,722 @@
+{
+  "document_id": "ING_099561279b8b8ee35d23",
+  "format": "PPT",
+  "adapter": "pptx",
+  "normalized_markdown_path": "processing/ING_099561279b8b8ee35d23/normalized/document.md",
+  "normalized_json_path": "processing/ING_099561279b8b8ee35d23/normalized/document.json",
+  "normalized_text_path": "processing/ING_099561279b8b8ee35d23/normalized/document.txt",
+  "pages": [
+    "SLIDE0001",
+    "SLIDE0002",
+    "SLIDE0003",
+    "SLIDE0004",
+    "SLIDE0005",
+    "SLIDE0006",
+    "SLIDE0007",
+    "SLIDE0008",
+    "SLIDE0009",
+    "SLIDE0010",
+    "SLIDE0011",
+    "SLIDE0012",
+    "SLIDE0013",
+    "SLIDE0014",
+    "SLIDE0015",
+    "SLIDE0016",
+    "SLIDE0017",
+    "SLIDE0018",
+    "SLIDE0019",
+    "SLIDE0020",
+    "SLIDE0021",
+    "SLIDE0022",
+    "SLIDE0023",
+    "SLIDE0024",
+    "SLIDE0025",
+    "SLIDE0026",
+    "SLIDE0027",
+    "SLIDE0028",
+    "SLIDE0029",
+    "SLIDE0030",
+    "SLIDE0031",
+    "SLIDE0032",
+    "SLIDE0033",
+    "SLIDE0034",
+    "SLIDE0035",
+    "SLIDE0036",
+    "SLIDE0037",
+    "SLIDE0038",
+    "SLIDE0039",
+    "SLIDE0040",
+    "SLIDE0041",
+    "SLIDE0042",
+    "SLIDE0043",
+    "SLIDE0044",
+    "SLIDE0045",
+    "SLIDE0046",
+    "SLIDE0047",
+    "SLIDE0048"
+  ],
+  "figures": [
+    "FIG0001",
+    "FIG0002",
+    "FIG0003",
+    "FIG0004",
+    "FIG0005",
+    "FIG0006",
+    "FIG0007",
+    "FIG0008",
+    "FIG0009",
+    "FIG0010",
+    "FIG0011",
+    "FIG0012",
+    "FIG0013",
+    "FIG0014",
+    "FIG0015",
+    "FIG0016",
+    "FIG0017",
+    "FIG0018",
+    "FIG0019",
+    "FIG0020",
+    "FIG0021",
+    "FIG0022",
+    "FIG0023",
+    "FIG0024",
+    "FIG0025",
+    "FIG0026",
+    "FIG0027",
+    "FIG0028",
+    "FIG0029",
+    "FIG0030",
+    "FIG0031",
+    "FIG0032",
+    "FIG0033"
+  ],
+  "tables": [],
+  "charts": [],
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "TAIEX Expert Mission on road tunnel categorization",
+      "text": "Katarzyna Piechowska-Strumik\nGeneral Inspectorate of Road Transport in Poland\n\nAnkara, 16-19 March 2015",
+      "tables": [],
+      "figures": [
+        "FIG0001"
+      ],
+      "charts": [],
+      "notes": "Kliknij, aby dodać notatki.",
+      "snapshot_asset_id": "SLIDE0001",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0001.png"
+    },
+    {
+      "slide_number": 2,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Overview of the OECD/PIARC DG-QRA model\nThe DG QRA model allows:\nA quantitative approach, by means of:\nQuantitative frequency analysis:\nthe DG QRA model includes results of an analysis of the sequence of event from an initial event (accident, breakdown)\naccident rates on tunnel/open air routes are defined by the user, on the basis of national statistics (default values, or those generally used for the tunnels project) or local statistics (observation of accidents for in-service roads/tunnels)\nQuantitative conseqence analysis:\na 2D and a simpler 1D tool have been implemented in the DG QRA model\na separate 1D tool has been incorporated to calculate the physical and physiological consequences of scenarios in tunnels\nThe combination of quantitative frequency and consequence analyses allows the calculation of fn curves",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "The transport of dangerous goods through tunnels implies special risks to road users, physical structures, environment and people residing near tunnels or detour roads. Transport authorities have to decide whether dangerous goods transport is permitted on certain routes or not. If permitted, the safest and most practical manner for transporting these dangerous goods has to be decided. QRAMs can assist decision makers by providing risk estimates that are both accurate and objective for different types of dangerous goods, tunnels and transport scenarios.\nThe OECD/PIARC risk model is widely used in many countries. In the course of the implementation of ADR tunnel regulations, various countries developed different risk evaluation procedures for the transport of dangerous goods through road tunnels, fully or partly based on the results of DG-QRAM. Therefore I will divide my presenattion into two parts: in the first part I will present the method of the risk model; the second part I will present briefly the application of the model in some countries.\nThe DG QRA model allows a quantitative approach, by means of:\n• quantitative frequency analysis:\n– the DG QRA model includes results of an analysis of the sequence of events from an initial event (accident, breakdown) to a set of consequence scenarios, translated into conditional probabilities to get scenarios given that an accident has happened. A table has been established, and included in the model, that includes quantitative figures for each scenario, which distinguishes between different boundary conditions (tunnel/open air routes, urban/rural areas);\n– accident rates on tunnel/open air routes are defined by the user, on the basis of national statistics (default values, or those generally used for the tunnels project), or local statistics (observation of accidents for in-service roads/tunnels).\nquantitative consequence analysis:\n– A 2D and a simpler 1D tool, based on pre-determined calculations of physical consequences in the open (for a range of meteorological conditions), have been implemented in the DG QRA model. the model can calculate the consequences (in terms of fatalities and/or injuries) for road users and local population in the vicinity of the roads, for a set of scenarios representative of the observed dangerous goods traffic;\n– a separate 1D tool has been incorporated to calculate the physical and physiological consequences of scenarios in tunnels;\nThe combination of quantitative frequency and consequence analyses allows the calculation of FN curves.",
+      "snapshot_asset_id": "SLIDE0002",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0002.png"
+    },
+    {
+      "slide_number": 3,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Overview of the OECD/PIARC DG-QRA model\nThe DG QRA model is based upon the following set of 13 representative scenarios\n\nDANGEROUS GOODS QRAM \nMODEL SCENARIOS\n\nFrom an observed range of dangerous goods traffic, most of the goods can be\nrepresented by this set of scenarios",
+      "tables": [],
+      "figures": [
+        "FIG0002"
+      ],
+      "charts": [],
+      "notes": "The DG QRA model is based upon the following set of 13 representative scenarios. If we look to the table scenarios 3 to 13 are specifically related to dangerous goods transport, which is not the case for scenarios 1 and 2 (truck fires), which were included in the model for benchmarking purposes only. Indeed, the oecd/pIArc qrA model is specifically dedicated to risk assessment of transport of dangerous goods through road tunnels and should not be used for other purposes, for which the model has not been elaborated for. The scenarios implemented in the model represent the main effects of dangerous goods that can be encountered: large explosions with or without thermal effects, major toxic effects from accidental releases of gases or volatile liquids, large fires. Thus, from an observed range of dangerous goods traffic, most of the goods can be represented by this set of scenarios.",
+      "snapshot_asset_id": "SLIDE0003",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0003.png"
+    },
+    {
+      "slide_number": 4,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Results of risk analysis and strategy of risk evaluation\nThe OECD/PIARC DG-QRA model is capable of calculating:\nexpected risk value (EV) & FN curves (societal risk)\nindividual risk figures\nThe model is much more often used to calculate societal risk figures (EV and/or FN curves) than individual risk figures\nFirst step: an expected risk value (societal risk) for the tunnel itself is calculated\nThe following data are needed:\ndangerous goods traffic volume and composition\noverall traffic volume, composition (cars, HGV, coaches/busses), and daily/seasonal variations\naccident rates along the routes\ntunnel characteristics (length, longitudinal and cross sectional geometry, ventilation, drainage system, emergency exits, etc.)",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "The OECD/PIARC DG-QRA model is capable of calculating:\n• expected risk value (ev) & fn curves (societal risk),\n• individual risk figures.\nThe considered consequences may be fatalities only or fatalities + injuries towards road users and/or local population.\nHowever, the model is much more often used to calculate societal risk figures (EV and/or FN curves) than individual risk figures.\nIt is often used in two steps. In a first step, an expected risk value (societal risk) for the tunnel itself is calculated. It corresponds to the yearly expected number of victims due to dangerous goods transported through the considered route or tunnel. In case of a series of tunnels, a cumulative expected value can be calculated. For that purpose, the following data are needed:\n• dangerous goods traffic volume and composition;\n• overall traffic volume, composition (cars, HGV, coaches/busses), and daily/seasonal variations;\n• accident rates along the routes;\n• tunnel characteristics (length, longitudinal and cross sectional geometry, ventilation, drainage system, emergency exits, etc.).\nThe data used may refer to the situation a number of years after a tunnel is put into operation (for tunnels under design or tunnels at the commissioning stage), or a numer of years after the date when the QRA study is performed (for in-service tunnels).",
+      "snapshot_asset_id": "SLIDE0004",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0004.png"
+    },
+    {
+      "slide_number": 5,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Results of risk analysis and strategy of risk evaluation\nSecond step:\nfor comparison of risks of tunnel route and possible alternative routes\nfor comparison of various options for dangerous goods transport limitations (e.g. according to the ADR categorisation regime)\nfor comparison of calculated risks with acceptance criteria\nThe following supplementary data may be needed:\ndata collection for the selected alternative routes, with an homogeneous level ofdetail for every compared route",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "If the expected value calculated for the tunnel is above a certain limit, then the DG QRA model can be used, in a second step:\n• for comparison of risks of tunnel route and possible alternative routes;\n• for comparison of various options for dangerous goods transport limitations (e.g. according to the ADR categorisation regime);\n• for comparison of calculated risks with acceptance criteria.\nFor this second step, the following supplementary data may be needed, if relevant: data collection for the selected alternative routes, with an homogeneous level of detail for every compared route.",
+      "snapshot_asset_id": "SLIDE0005",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0005.png"
+    },
+    {
+      "slide_number": 6,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Puropse of the QRAM \nto quantify the risks due to transport of dangerous goods on given routes of the road system\nThe QRA model was developed based on the following components:\nIndicators\nAccident scenarios\nEvaluation of accident probability\nDetermination of physical consequences, structural and environmental damage\nEvaluation of consequences on humans (open and tunnel sections)\nUncertainty/sensitivity analysis\nValidation",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "The purpose of the QRAM is to quantify the risks due to transport of dangerous goods on given routes of the road system. A comparison of one route including a tunnel with an alternative route in the open can be made. The QRA model was developed based on the following components:\n• Indicators.\n• Accident scenarios.\n• Evaluation of accident probability.\n• Determination of physical consequences, structural and environmental damage.\n• Evaluation of consequences on humans (open and tunnel sections).\n• Uncertainty/sensitivity analysis.\n• Validation.",
+      "snapshot_asset_id": "SLIDE0006",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0006.png"
+    },
+    {
+      "slide_number": 7,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "The QRAM methodology\nChoose a small number of representative goods\nSelect a small number of representative accident scenarios involving these goods\nDetermine the physical effects of these scenarios (for open road and tunnel sections)\nDetermine the physiological effects of these scenarios on road users and local population (fatalities and injuries)\nTake into account the possibilities of escape and sheltering\nDetermine the associated probabilities of occurrence",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "The QRAM methodology is as folloows\nChoose a small number of representative goods\nSelect a small number of representative accident scenarios involving these goods\nDetermine the physical effects of these scenarios (for open road and tunnel sections)\nDetermine the physiological effects of these scenarios on road users and local population (fatalities and injuries)\nTake into account the possibilities of escape and sheltering\nDetermine the associated probabilities of occurrence",
+      "snapshot_asset_id": "SLIDE0007",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0007.png"
+    },
+    {
+      "slide_number": 8,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Indicators\nThe QRAM produces indicators which characterise the following risk aspects:\nSocietal risk\nIndividual risk\nStructural damage (rough estimation)\nEnvironmental damage (rough estimation)",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "The consequences of an accident are fatalities, injuries, destruction of buildings and structures and damage to the environment. As in every modelling process, simplifying indicators are necessary to describe the effects of the system behaviour. The QRAM produces indicators which characterise the following risk aspects::\n• Societal risk.\n• Individual risk.\n• Structural damage (rough estimation).\n• Environmental damage (rough estimation).",
+      "snapshot_asset_id": "SLIDE0008",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0008.png"
+    },
+    {
+      "slide_number": 9,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Indicators Societal risk\n\nS TEST CASE: APPLICATION OF AMMONIA AND CHLORINE RELEASE CONSEQUENCES TO THE SAME FREQUENCIES",
+      "tables": [],
+      "figures": [
+        "FIG0003"
+      ],
+      "charts": [],
+      "notes": "A common way to describe societal risk is to calculate F/N curves. F/N curves illustrate the relationship between accident frequency and accident severity. On the abscissa, the number of victims x (fatalities, injured people) is shown in logarithmic scale. On the ordinate, the corresponding yearly frequencies F(x) for the occurrence of accidents  with x or more victims are shown. For each given situation (population, traffic, dangerous goods traffic, route, weather, etc.), one F/N curve represents the societal risk. As an illustration, F/N curves calculated in the S tunnel test case ((8.6 kilometres, 1 tube, semi-transverse ventilation).) are shown in Figure.\nOne F/N curve (the lower one) considers the consequences of an ammonia release through a 50 mm diameter breach. The other F/N curve considers the consequences of chlorine release through a 50 mm diameter breach. In both examples, the same frequencies for the occurrence of an incident are used. There is a great difference between the two curves and the corresponding expected value differs by a factor of 20. Due to its huge toxic effects, transport of chlorine by road is prohibited in some countries (e.g. Austria) or is only permitted in small quantities (e.g. France, Canada).",
+      "snapshot_asset_id": "SLIDE0009",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0009.png"
+    },
+    {
+      "slide_number": 10,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Indicators \nIndividual risk\n\nNote: The values in the legend represent powers\nof 10 values of individual risk frequencies: \nFor example, -6 to -4 represents the areas where \nthe fatality frequency (if remaining permanently in \nthis place) is between10-4 and 10-6 per year\n\nD TEST CASE: INDIVIDUAL RISK DUE TO \nDANGEROUS GOODS TRANSPORT",
+      "tables": [],
+      "figures": [
+        "FIG0004"
+      ],
+      "charts": [],
+      "notes": "The individual risk indicator refers to the risk of fatalities or injuries to the local population due to an incident occurring. Individual risk is expressed as a frequency per year. It could also be expressed in terms of recurrence time, i.e. average number of years between two accidents with the considered consequence (fatality, injury). The QRAM calculates the spatial allocation of risk. Two-dimensional maps containing the individual risk for the surroundings of the analysed route can be drawn as shown in Figure. The individual risk can be calculated for the residents or the workday population. \nIn addition, the QRAM calculates rough estimates of structural and environmental damage.",
+      "snapshot_asset_id": "SLIDE0010",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0010.png"
+    },
+    {
+      "slide_number": 11,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Accidents scenarios",
+      "tables": [],
+      "figures": [
+        "FIG0005"
+      ],
+      "charts": [],
+      "notes": "A complete assessment of the risks involved in transporting dangerous goods would require the consideration of all kinds of dangerous materials, all possible meteorological conditions, all possible accidents, sizes of breaches, vehicles fully or partially loaded, and many other variables. Since all circumstances are impossible to consider, simplifications have to be made.\nAs shown in Table on the sreen, only a limited number of scenarios are taken into account. Two scenarios relate to fires of medium and important intensity involving heavy goods vehicles without dangerous goods. These scenarios represent a serious risk in tunnels. The other scenarios involve dangerous goods. The scenarios are selected to represent the various groupings of dangerous goods and were chosen to examine different severe effects: overpressure, thermal effect and toxicity.",
+      "snapshot_asset_id": "SLIDE0011",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0011.png"
+    },
+    {
+      "slide_number": 12,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Accidents scenarios\n\nEVENT TREE FOR THE SCENARIO HGV \nWITHOUT DANGEROUS GOODS\n\nPROBABILITY EQUATION",
+      "tables": [],
+      "figures": [
+        "FIG0006",
+        "FIG0007"
+      ],
+      "charts": [],
+      "notes": "Each scenario is based on a different event tree. Figure shows the event tree for scenarios 1 and 2, heavy good vehicle fire without dangerous goods. From this event tree, the following probability equation could be derived. Ignition in case of an accident may start on the HGV transporting the dangerous goods or on other vehicles involved in the accident.",
+      "snapshot_asset_id": "SLIDE0012",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0012.png"
+    },
+    {
+      "slide_number": 13,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Accidents \nscenarios\n\nEVENT TREE FOR A BLEVE OF 50 KG LPG CYLINDERS",
+      "tables": [],
+      "figures": [
+        "FIG0008"
+      ],
+      "charts": [],
+      "notes": "This Figure shows the event tree for the scenario of a BLEVE of LPG in cylinder (50 kg) - Boiling liquid expanding vapour explosion of Liquid petroleum\ngas. Such event trees and corresponding probability equations are produced for all considered scenarios.",
+      "snapshot_asset_id": "SLIDE0013",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0013.png"
+    },
+    {
+      "slide_number": 14,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Evaluation of accident probability\nScenario related calculations are divided into four steps:\nDetermination of accident involvement rates for heavy goods vehicles per million vehicle kilometres for various countries, urban/non urban areas, bi-directional/separated roads, surface/tunnel routes, adverse/favourable surface route conditions\nDetermination of heavy goods vehicle and dangerous heavy goods vehicle traffic on the different sections of the route considered\nProportion of heavy goods vehicle accidents that can lead to 20 MW and 100 MW fires. Proportion of dangerous heavy goods vehicles of each type that can lead to one scenario or more\nScenario rates once an accident has taken place",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "The purpose of the eveluation of accident probability  is to determine frequencies of occurrence of the chosen scenarios depending on the section of the route considered. For this purpose, the route has to be subdivided into homogenous sections in terms of road elements, traffic, dangerous goods transported, environment and weather\nconditions. This must be done by the user of the model, who also has to provide and prepare the necessary input data.\nScenario related calculations are divided into four steps:\n1. Determination of accident involvement rates for heavy goods vehicles (with and without dangerous goods) per million vehicle kilometres for various countries, urban/non urban areas, bi-directional/separated roads, surface/tunnel routes, adverse/favourable surface route conditions.\n2. Determination of heavy goods vehicle and dangerous heavy goods vehicle traffic on the different sections of the route considered. The traffic entered by the user is translated into a number of yearly vehicle kilometres.\n3. Proportion of heavy goods vehicle accidents that can lead to 20 MW and 100 MW fires. Proportion of dangerous heavy goods vehicles of each type that can lead to one scenario or more.\n4. Scenario rates once an accident has taken place.\nSteps 1, 3 and 4 are carried out by the model. Values for step 2 are to be entered by the user. Values for step 3 can be entered also by the user, but default values are defined in the model.",
+      "snapshot_asset_id": "SLIDE0014",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0014.png"
+    },
+    {
+      "slide_number": 15,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Evaluation of accident \nprobability\n\nPOSSIBLE REPARTITION OF DIFFERENT \nTYPES OF ACCIDENTS/EVENTS\n\nDG-HGV SCENARIOS RATES ONCE AN EVENT HAS OCCURRED",
+      "tables": [],
+      "figures": [
+        "FIG0009",
+        "FIG0010"
+      ],
+      "charts": [],
+      "notes": "It is possible that scenarios can occur without an accident in the true sense of the word, e.g. due to overheating of brakes. Such incidents, together with accidents, are called “events”. Care has to be taken since there can be different databases for events and accidents. For the model, scenarios involving dangerous heavy goods vehicles were taken as a part of dangerous heavy goods vehicl events (see Figure). Results of the calculations are shown in Table.",
+      "snapshot_asset_id": "SLIDE0015",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0015.png"
+    },
+    {
+      "slide_number": 16,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Determination of physiological consequences, structural and environmental damage\nDetermination of injuries\n\nF/N curves for:\nFatalities only\nFatalities plus injuries",
+      "tables": [],
+      "figures": [
+        "FIG0011"
+      ],
+      "charts": [],
+      "notes": "Apart from scenarios in which fragments are in some cases liable to be thrown great distances, the translation of the physical consequences into physiological ones is generally performed by means of probit functions.\nFor toxic releases in the open, the physical effects are assessed with a dense gas dispersion model. In tunnels, the pre-conditioner calculates the drift of a toxic plug along the tunnel as a function of the incident location and the tunnel characteristic.\nVapour cloud explosions in the open air are evaluated by calculating the geometry of the cloud when it is initiated and the flammable mass it represents compared to the total released mass. In tunnels, a simple model is used, that allows the calculation of the level of overpressure generated by the ignition of the flammable cloud.\nPool fire calculations in the open are based on the effects of radiation from large pool fires. In tunnels, after assessing the smoke movements from the fire, it is possible to calculate distances of effects considering the toxicity of fumes and the thermal radiation of the smoke layer.\n(Probit - a unit of probability based on deviation from the mean of a standard distribution)\nDue to the fact that injury percentages do not necessarily decrease with growing distance, as is the case for fatalities (Figure), it was decided to produce F/N curves for:\n• Fatalities only.\n• Fatalities plus injuries.\nExpected values for injuries only can be calculated from these two F/N curves. This is done for fires, explosions and toxic releases.",
+      "snapshot_asset_id": "SLIDE0016",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0016.png"
+    },
+    {
+      "slide_number": 17,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Determination of physiological consequences, structural and environmental damage\nStructural damage\n\nCATEGORIES OF DAMAGE",
+      "tables": [],
+      "figures": [
+        "FIG0012"
+      ],
+      "charts": [],
+      "notes": "In general, structures are load-bearing constructions and their failure is likely to cause serious problems to the integrity of the tunnel. In a driven tunnel, this is simply the tunnel lining (a layer of different material covering the inside surface of something). For a cut-and-cover tunel (a method of building a tunnel by making a cutting, which is then lined and covered over.), the general structure includes support members such as lateral walls and roofs.\nTable on the screen identifies four damage categories which are considered in the QRAM.",
+      "snapshot_asset_id": "SLIDE0017",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0017.png"
+    },
+    {
+      "slide_number": 18,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Determination of physiological consequences, structural and environmental damage\nStructural damage\n\nSUMMARY OF STRENGTH LOSS CHARACTERISTICS OF COMMON STRUCTURAL MATERIAL",
+      "tables": [],
+      "figures": [
+        "FIG0013"
+      ],
+      "charts": [],
+      "notes": "The next table summarises the characteristics of commonly used material with regard to the temperatures at which temporary and permanent reduction in strength occurs.",
+      "snapshot_asset_id": "SLIDE0018",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0018.png"
+    },
+    {
+      "slide_number": 19,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Determination of physiological consequences, structural and environmental damage\nStructural damage\n\nREPRESENTATIVE FAILURE TEMPERATURES FOR TUNNEL ANCILLARY EQUIPMENT",
+      "tables": [],
+      "figures": [
+        "FIG0014"
+      ],
+      "charts": [],
+      "notes": "This table  summarises critical criteria for thermal failure of various materials used for tunel equipment.",
+      "snapshot_asset_id": "SLIDE0019",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0019.png"
+    },
+    {
+      "slide_number": 20,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Determination of physiological consequences, structural and environmental damage\nEstimation of re-instatement costs\n\nREPORTED COST BREAKDOWNS FOR DRIVEN AND CUT-AND-COVER TUNNELS",
+      "tables": [],
+      "figures": [
+        "FIG0015"
+      ],
+      "charts": [],
+      "notes": "The re-instatement costs depend on the tunnel type, size, location, construction features and level of damage caused by the accident. In addition, labour and material costs will vary from country to country. To avoid uncertainties in the methodology, the reinstatement cost is presented as a percentage of the estimated capital cost of building a new tunnel with similar specifications (see Table on the screen).\nFor the QRA software, it was decided to use a different breakdown of costs, based on a similar set of cost items.",
+      "snapshot_asset_id": "SLIDE0020",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0020.png"
+    },
+    {
+      "slide_number": 21,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Determination of physiological consequences, structural and environmental damage\nEstimation of re-instatement costs\n\nASSUMED DEFAULT PERCENTAGE COST BREAKDOWNS FOR DRIVEN AND CUT-AND-COVER TUNNELS",
+      "tables": [],
+      "figures": [
+        "FIG0016"
+      ],
+      "charts": [],
+      "notes": "The estimated total re-instatement cost is obtained by summing up the damage cost for each affected item. The damage cost for each affected item is calculated by multiplying the cost factors given in Table by a weighting factor based on the proportion of tunnel length affected within each damage category.",
+      "snapshot_asset_id": "SLIDE0021",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0021.png"
+    },
+    {
+      "slide_number": 22,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Determination of physiological consequences, structural and environmental damage\nEnvironmental effects\n\nCOMPONENT OF ENVIRONMENTAL POLLUTION",
+      "tables": [],
+      "figures": [
+        "FIG0017"
+      ],
+      "charts": [],
+      "notes": "The main environmental impacts of dangerous goods accidents in road tunnels in terms of atmosphere, water and ground contamination are shown in Figure.\nWhile the model considers environmental impacts, the indicators used are more qualitative than other indicators used in the model. A full assessment of environmental impacts is outside the scope of this model. The classification of dangerous goods is not generally done on the basis of environmental\nhazards (for example, a significant spill of milk could have serious environmental consequences in certain environments). A full quantitative assessment of the environmental consequences of incidentsinvolving dangerous goods would be extremely complex and of limited value.",
+      "snapshot_asset_id": "SLIDE0022",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0022.png"
+    },
+    {
+      "slide_number": 23,
+      "title": null,
+      "text": "ENVIRONMENTAL IMPACT INDICATORS (SEVERITY: NEGLIGIBLE, LOW, MEDIUM, HIGH)",
+      "tables": [],
+      "figures": [
+        "FIG0018"
+      ],
+      "charts": [],
+      "notes": "The environmental\nimpact indicators are summarised in Table 5.8.",
+      "snapshot_asset_id": "SLIDE0023",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0023.png"
+    },
+    {
+      "slide_number": 24,
+      "title": null,
+      "text": "ENVIRONMENTAL IMPACT INDICATORS (SEVERITY: NEGLIGIBLE, LOW, MEDIUM, HIGH)",
+      "tables": [],
+      "figures": [
+        "FIG0019"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0024",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0024.png"
+    },
+    {
+      "slide_number": 25,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Evaluation of consequences on humans in open sections and tunnel sections\n\nF/N CURVES C TUNNEL TEST CASE",
+      "tables": [],
+      "figures": [
+        "FIG0020"
+      ],
+      "charts": [],
+      "notes": "Extensive calculations provide individual risk data and F/N curves for selected scenarios and for different types of transport. As an example, results from the C test case are shown in the following figure. \nC Tunnel (1 kilometre, 2 tubes, longitudinal ventilation)",
+      "snapshot_asset_id": "SLIDE0025",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0025.png"
+    },
+    {
+      "slide_number": 26,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Evaluation of consequences on humans in open sections and tunnel sections\n\nF/N CURVES C ALTERNATIVE ROUTE TEST CASE",
+      "tables": [],
+      "figures": [
+        "FIG0021"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0026",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0026.png"
+    },
+    {
+      "slide_number": 27,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Escape/sheltering possibilities\n\nSHELTERING EFFECTS AND ESCAPING POSSIBILITIES FOR THERMAL EFFECTS OUTSIDE OF A TUNNEL",
+      "tables": [],
+      "figures": [
+        "FIG0022"
+      ],
+      "charts": [],
+      "notes": "For both the open road and tunnel situations, escape/sheltering calculations are performed in the\nmodel. Figure on the screen summarises the kind of cases that can be encountered. For the tunnel evacuation\nprinciples, pre-movement time and occupant response Times are taken into account.",
+      "snapshot_asset_id": "SLIDE0027",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0027.png"
+    },
+    {
+      "slide_number": 28,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Sensitivity analysis\n\nRESULTS OF SENSITIVITY ANALYSIS (VARIATION IN TRAVEL SPEED)",
+      "tables": [],
+      "figures": [
+        "FIG0023"
+      ],
+      "charts": [],
+      "notes": "Deterministic analysis involves uncertainties. Various parameters have been tested to assess their influences. The results of these tests are shown in the following Figures",
+      "snapshot_asset_id": "SLIDE0028",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0028.png"
+    },
+    {
+      "slide_number": 29,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Sensitivity analysis\n\nRESULTS OF SENSITIVITY ANALYSIS (VARIATION IN WARNING SYSTEMS BPS)",
+      "tables": [],
+      "figures": [
+        "FIG0024"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0029",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0029.png"
+    },
+    {
+      "slide_number": 30,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Sensitivity analysis\n\nRESULTS OF SENSITIVITY (VARIATION IN INDIVIDUAL OCCUPANT RESPONSE TIME, ORT SCORE)",
+      "tables": [],
+      "figures": [
+        "FIG0025"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0030",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0030.png"
+    },
+    {
+      "slide_number": 31,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Conclusion\nWhat does the QRA model do?\nThe software allows users to:\ncompare the risks due to dangerous goods transport along alternative routes\nevaluate issues associated with tunnel regulations\ncompare the risks along a route with acceptability criteria for individual and societal risks \nevaluate tunnel equipment options\nThe software can be used to perform a risk analysis as required for dangerous goods transport by the European Directive 2004/54/EC on minimum safety requirements for tunnels in the trans-European road network",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "What does the QRA model do?\nThe software allows users to:\ncompare the risks due to dangerous goods transport along alternative routes; for example, via the tunnel or an alternative open route \nevaluate issues associated with tunnel regulations; for example, the QRAM can be used to support the decision to choose the most relevant of the proposed ADR dangerous goods groupings for each specific road tunnel \ncompare the risks along a route with acceptability criteria for individual and societal risks \nevaluate tunnel equipment options; for example, the QRAM can be used to compare the effects of changing the spacing between emergency exits.",
+      "snapshot_asset_id": "SLIDE0031",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0031.png"
+    },
+    {
+      "slide_number": 32,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Conclusion\nOutputs\nContour maps of individual risk along tunnel and open routes\nSocietal risk presented as FN-curves, where F is the frequency of N or more fatalities (and/or injuries)",
+      "tables": [],
+      "figures": [
+        "FIG0026"
+      ],
+      "charts": [],
+      "notes": "Outputs\nContour maps of individual risk along tunnel and open routes\nSocietal risk presented as FN-curves, where F is the frequency of N or more fatalities (and/or injuries)",
+      "snapshot_asset_id": "SLIDE0032",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0032.png"
+    },
+    {
+      "slide_number": 33,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Conclusion\nThe QRAM software is based on Microsoft Excel.\nThere is a wide range of information that has to be gathered and prepared in order to run the QRAM. \n\tThe user has to enter data to describe:\nroutes, defined in sections \ntunnel geometry (length, cross-section and vertical alignment), ventilation (specialist help may be required for complex tunnels), drainage, and emergency escape measures (warning systems, spacing of exits)\ntraffic characteristics, including vehicle mix and traffic speeds, defined for each route section and traffic direction\npopulation along the route",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "The QRAM software is based on Microsoft Excel.\nThere is a wide range of information that has to be gathered and prepared in order to run the QRAM. Notably, the user has to enter data to describe:\nroutes, defined in sections; \ntunnel geometry (length, cross-section and vertical alignment), ventilation (specialist help may be required for complex tunnels), drainage, and emergency escape measures (warning systems, spacing of exits); \ntraffic characteristics, including vehicle mix and traffic speeds, defined for each route section and traffic direction; \npopulation along the route.",
+      "snapshot_asset_id": "SLIDE0033",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0033.png"
+    },
+    {
+      "slide_number": 34,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Conclusion\nThe QRAM considers 13 accident scenarios which are representative of key dangerous goods groupings\nThe QRAM takes into account:\naccident frequencies (derived\nfrom historical datasets)\nphysical consequences of\n \tincidents within tunnel(s) \n\tand along the open routes\nescape and sheltering effects\neffects of hazards (such as \nheat and smoke) on people",
+      "tables": [],
+      "figures": [
+        "FIG0027"
+      ],
+      "charts": [],
+      "notes": "The QRAM considers 13 accident scenarios which are representative of key dangerous goods groupings.\nThe QRAM takes into account:\naccident frequencies (derived from historical datasets); \nphysical consequences of incidents within tunnel(s) and along the open routes; \nescape and sheltering effects; \neffects of hazards (such as heat and smoke) on people.",
+      "snapshot_asset_id": "SLIDE0034",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0034.png"
+    },
+    {
+      "slide_number": 35,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Conclusion\nThe results for different routes and traffic are calculated in terms of Societal Risk\nThis relationship is illustrated by an 'FN curve', where F is the frequency of N or more fatalities (and/or injuries)\nThe F-N curves can be produced for fatalities and/or injuries, and for road users and/or the local population",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "The results for different routes and traffic are calculated in terms of Societal Risk. This reflects the range of possible outcomes of an accident, each with different probabilities. There might be a low chance of injuring most of the people in a town, or a higher chance of injuring just a few of them. \nThis relationship is illustrated by an 'F/N curve', where F is the frequency of N or more fatalities (and/or injuries). Each curve can also be evaluated in terms of a single value representing the average number of fatalities per year, called the Expected Value (EV). The F-N curves can be produced for fatalities and/or injuries, and for road users and/or the local population.",
+      "snapshot_asset_id": "SLIDE0035",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0035.png"
+    },
+    {
+      "slide_number": 36,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Example 1 -  Compare Routes",
+      "tables": [],
+      "figures": [
+        "FIG0028"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0036",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0036.png"
+    },
+    {
+      "slide_number": 37,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Example 1 -  Comparison of FN Curves",
+      "tables": [],
+      "figures": [
+        "FIG0029"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0037",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0037.png"
+    },
+    {
+      "slide_number": 38,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Example 1 -  Route Conclusion\nRisks along alternative (open) route greater than risks along tunnel route\nchlorine risk dominates along open route\nHGV fire risk dominates in tunnels\nlarger number of people at risk along open route",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0038",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0038.png"
+    },
+    {
+      "slide_number": 39,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Example 2 -  Evaluate Equipment Options\nInvestigate ‘what if ?’ scenarios\nExisting tunnel\n650m single bore, no emergency exits\nno CCTV or detection systems\nPossible improvements to reduce risks during prolonged contraflow traffic operations\ninstall additional escape route(s)\nupgrade detection/surveillance\nupgrade traffic control and communications",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "CCTV Closed Circuit TeleVision",
+      "snapshot_asset_id": "SLIDE0039",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0039.png"
+    },
+    {
+      "slide_number": 40,
+      "title": "Quantitative risk assessment model for dangerous goods transport through road tunnels (QRA model)",
+      "text": "Example 2 -  QRA Results for Options",
+      "tables": [],
+      "figures": [
+        "FIG0030"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0040",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0040.png"
+    },
+    {
+      "slide_number": 41,
+      "title": "Examples of application of the QRA Model",
+      "text": "UNITED KINGDOM\nThe QRAM has been used for a small number of ad-hoc tunnel studies\nComparative risk assessments between routes and on the risks associated with HGV fires in tunnels\nThe QRA study carried out or the proposed A3 Hindhead Tunnel\nThe QRAM was used to help answer two questions:\nShould DG traffic be permitted to use the tunnel or diverted along a long distance alternative route?\nAssuming that one bore of the tunnel would sometimes need to be closed for short periods for maintenance or following an emergency, should all traffic from the closed carriageway be diverted along a local alternative route or should the other bore be operated in contraflow mode?",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "In the UK, the QRAM has been used for a small number of ad-hoc tunnel studies. Attention has been focussed on comparative risk assessments between routes and on the risks associated with HGV fires in tunnels. The QRA study carried out for the proposed A3 Hindhead Tunnel illustrates the approach taken. Prior to the Public Inquiry for this new tunnel, the QRAM was used to help answer two questions:\n• Should DG traffic be permitted to use the tunnel or diverted along a long distance alternative route?\n• Assuming that one bore of the tunnel would sometimes need to be closed for short periods for maintenance or following an emergency, should all traffic from the closed carriageway be diverted along a local alternative route or should the other bore be operated in contraflow mode?",
+      "snapshot_asset_id": "SLIDE0041",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0041.png"
+    },
+    {
+      "slide_number": 42,
+      "title": "Examples of application of the QRA Model",
+      "text": "UNITED KINGDOM\nLong term routing of DG traffic",
+      "tables": [],
+      "figures": [
+        "FIG0031"
+      ],
+      "charts": [],
+      "notes": "The QRA model was used to calculate the societal risks for the tunnel route (A3) and the alternative route, both with and without the DG traffic currently using the A3. The contribution of HGV fire risks to the overall risk was shown to be important. If the risk of HGV fires is excluded, the overall risk (combining the concurrent risks along the two routes) appears to be significantly greater when DGVs are allowed to use the tunnel route (option a) instead of being diverted\nalong the alternative open route (option b). The Expected Values differ by a factor of about 8. However, if the HGV fire risks are included in the assessment, it can be seen that there is no significant difference between the overall risks for\nthe two options (A and B). This suggests that there would be no safety benefit to be gained by diversion of the DG traffic. Environmental factors also support the view that DG traffic should be permitted to use the tunnel.",
+      "snapshot_asset_id": "SLIDE0042",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0042.png"
+    },
+    {
+      "slide_number": 43,
+      "title": "UNITED KINGDOM\nLocal diversion \nroute for short term closures",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0032"
+      ],
+      "charts": [],
+      "notes": "It is expected that one bore of the tunnel would sometimes need to be closed for maintenance or following an emergency. Two options were considered for traffic management under these circumstances. Firstly, all northbound traffic could be\ndiverted along a local diversion route, allowing southbound traffic to operate in uni-directional mode in the open bore of the tunnel while the other bore is closed.\nSecondly, bi-directional (contraflow) traffic operations could be put in place through the open bore of the tunnel, with a reduced mandatory maximum speed limit of 30 mph (mile per hour). Using the QRAM, it was shown that diversion of all northbound traffic along the alternative route would lead to slightly lower societal risks compared to contraflow operations, but the absolute level of risk would be low for both options.",
+      "snapshot_asset_id": "SLIDE0043",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0043.png"
+    },
+    {
+      "slide_number": 44,
+      "title": "Examples of application of the QRA Model",
+      "text": "FRANCE\nQuantitative risk analysis of dangerous goods transport is required for all new tunnels, except for non-urban tunnels less than 500m if bi-directional and less than 800m if uni-directional\nA simple qualitative approach may be used in other cases\nFor tunnels in operation, a QRA study is required only when modifications are planned for the dangerous goods traffic, or if asked by the French authorities\nA criterion based on tunnel length is insufficient to define whether detailed risk analysis is required (QRA study) or not (qualitative study)",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "In France, so far, quantitative risk analysis of dangerous goods transport is required for all new tunnels, except for non-urban tunnels less than 500m if bidirectional, and less than 800m if uni-directional. A simple qualitative approach may be used in other cases. For tunnels in operation, a QRA study is required only when modifications are planned for the dangerous goods traffic, or if asked by the French authorities.\nHowever, after having performed a number of QRA studies, it was concluded that a criterion based on tunnel length is insufficient to define whether detailed risk alysis is required (QRA study) or not (qualitative study). Other parameters\nsuch as the traffic characteristics are also important.",
+      "snapshot_asset_id": "SLIDE0044",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0044.png"
+    },
+    {
+      "slide_number": 45,
+      "title": "Examples of application of the QRA Model",
+      "text": "FRANCE\nCase Study - tunnel was long enough to require a QRA study, but the DGV traffic was too low to constitute a significant level of risk\nAn Intrinsic Risk (IR) criterion has been defined (Expected Value of 0.001 fatalties per year)\nOnly the eleven dangerous goods scenarios and not the two HGV fire scenarios are considered.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "This can be illustrated by considering a past case study where tunnel was long enough to require a QRA study, but the DGV traffic was too low to constitute a significant level of risk.\nAn Intrinsic Risk (IR) criterion has therefore been defined, based on past experience gained using the QRA model. This criterion corresponds to an Expected Value of 0.001 fatalities per year. The Intrinsic Risk is calculated by applying the QRA model to the tunnel itself, taking no account of the adjacent open sections of the route. Only the eleven dangerous goods scenarios, and not the two HGV fire scenarios, are considered.",
+      "snapshot_asset_id": "SLIDE0045",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0045.png"
+    },
+    {
+      "slide_number": 46,
+      "title": "Examples of application of the QRA Model",
+      "text": "FRANCE\nIf IR > 0.001 for a given tunnel, then a QRA study is carried out to compare the tunnel and alternative routes. \nWhen comparing two routes, with Expected Values, EV1 and EV2, three situations have been defined:\nEV1/EV2 < 3                Other criteria are required to make a decision\n3 < EV1/EV2 < 10 A          Sensitivity study is required\nEV1/EV2 > 10                    Route 2 should be favoured\nWhen EV1/EV2 < 3, the following other criteria are considered:\nrisk aversion;\naccidents without involvement of hazardous material\nroute vulnerability from economic and environmental points of view",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "If IR > 0.001 for a given tunnel, then a QRA study is carried out to compare the tunnel and alternative routes. When comparing two routes, with Expected Values, EV1 and EV2, three situations have been defined:\n• EV1/EV2 < 3 Other criteria are required to make a decision\n• 3 < EV1/EV2 < 10 A sensitivity study is required\n• EV1/EV2 > 10 Route 2 should be favoured\nWhen EV1/EV2 < 3, the following other criteria are considered:\n• risk aversion;\n• accidents without involvement of hazardous material; and\n• route vulnerability from economic and environmental points of view.",
+      "snapshot_asset_id": "SLIDE0046",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0046.png"
+    },
+    {
+      "slide_number": 47,
+      "title": "Examples of application of the QRA Model",
+      "text": "FRANCE\nQRA studies have been carried out for about 30 tunnels.\n5 cases (19%) with IR < 0.001, 4 cases (15%) with IR » 0.001, and 18 cases (67%) with IR > 0.001 \nOf the QRA studies with IR 0.001, there were significant differences between routes in half of the cases (11 out of 22 cases)\nOf these, the tunnel route was found to be less dangerous in 2 cases (18%) and more dangerous than the alternative route in 9 cases (82%)",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": "QRA studies have now been carried out for about 30 tunnels. Of these, there were 5 cases (19%) with IR < 0.001, 4 cases (15%) with IR » 0.001, and 18 cases (67%) with IR > 0.001. Of the QRA studies with IR 0.001, there were significant differences between routes in half of the cases (11 out of 22 cases). Of these, the tunnel route was found to be less dangerous in 2 cases (18%) and more dangerous than the alternative route in 9 cases (82%).",
+      "snapshot_asset_id": "SLIDE0047",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0047.png"
+    },
+    {
+      "slide_number": 48,
+      "title": "Examples of application of the QRA Model",
+      "text": "FRANCE",
+      "tables": [],
+      "figures": [
+        "FIG0033"
+      ],
+      "charts": [],
+      "notes": "Drawing upon the experience gained in the previous studies, the approach shown in the next Figure has been defined for risk analysis for dangerous goods transports.",
+      "snapshot_asset_id": "SLIDE0048",
+      "snapshot_path": "processing/ING_099561279b8b8ee35d23/slides/slide_0048.png"
+    }
+  ],
+  "sheets": [],
+  "ocr_items": [],
+  "text_elements": 152,
+  "warnings": [
+    "PPT_CONVERTED_TO_PPTX"
+  ],
+  "errors": [],
+  "capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": true,
+    "sheets": false
+  },
+  "engine": {
+    "docling_status": "SKIPPED_LEGACY_NATIVE",
+    "docling_versions": {
+      "docling": "2.124.0",
+      "docling-core": "2.93.0",
+      "docling-ibm-models": "4.0.1",
+      "docling-parse": "7.16.0"
+    },
+    "native_parser": "libreoffice+python-pptx",
+    "structural_authority": "libreoffice_converted_pptx",
+    "legacy_ppt_conversion": true
+  },
+  "page_count": 48,
+  "text_char_count": 40848
+}

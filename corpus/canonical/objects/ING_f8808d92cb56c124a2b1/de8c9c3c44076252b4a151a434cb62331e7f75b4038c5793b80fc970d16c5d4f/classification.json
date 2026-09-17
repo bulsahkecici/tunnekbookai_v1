@@ -1,0 +1,111 @@
+{
+  "final_primary_section": "6",
+  "final_secondary_sections": [
+    "2.3"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "6",
+      "section_title": "TÜNEL YAPIM MALİYETLERİ",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.3",
+      "section_title": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6.1",
+      "score": 0.5066,
+      "rule_score": 0.2,
+      "embedding_score": 0.7703,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3.5",
+      "score": 0.3535,
+      "rule_score": 0.0,
+      "embedding_score": 0.7856,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7",
+      "score": 0.3501,
+      "rule_score": 0.0,
+      "embedding_score": 0.7779,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6",
+      "score": 0.3457,
+      "rule_score": 0.0,
+      "embedding_score": 0.7682,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.345,
+      "rule_score": 0.0,
+      "embedding_score": 0.7667,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.1",
+      "score": 0.3446,
+      "rule_score": 0.0,
+      "embedding_score": 0.7658,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.3",
+      "score": 0.3444,
+      "rule_score": 0.0,
+      "embedding_score": 0.7654,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.1",
+      "score": 0.3442,
+      "rule_score": 0.0,
+      "embedding_score": 0.7648,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.269,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4286
+    },
+    {
+      "id": "5.6",
+      "score": 0.2643,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1429
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Varberg Tüneli projesindeki toplam maliyet artışını (8.9 milyar krona) ve bu artışa neden olan faktörleri (yeraltı suyu, drenaj, zemin koşulları, hammadde fiyatları) detaylandırmaktadır. Bu içerik doğrudan 'Tünel Yapım Maliyetleri' (Bölüm 6) ile ilgilidir. Ayrıca maliyet artışına etki eden jeolojik ve zemin unsurları nedeniyle 'Tünellerin Yapım Maliyetine Etki Eden Unsurlar' (Bölüm 2.3) iki",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:5",
+    "chunk_votes:4",
+    "embeddings:8",
+    "top=6.1:0.5066 gap=0.153 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

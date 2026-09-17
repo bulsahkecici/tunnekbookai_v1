@@ -1,0 +1,689 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_a50cfcbfd49ee0f9253b2d57619fe899cabc4371cef5ea468776260b478a28df",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 32,
+    "SUPPORTED": 1,
+    "UNSUPPORTED": 17
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_670d02bc94fbe2f9065519ee1c07826995092fb8f54336baa779f58c95d8989a",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_b2c506f6dce9d5805fb23fe8c8f4b67f1d3681d040de915a39e2fe16e2ea8679",
+        "CLM_cf2e39570787df11fe225d0cb35a6482609e2fdd40d63ffa8144175b97ab8335"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kavramının kapsamı ve temel amacı nedir?",
+      "question_id": "5.7-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi tünel güvenliği açısından neden gereklidir?",
+      "question_id": "5.7-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi hizmet sürekliliği açısından neden gereklidir?",
+      "question_id": "5.7-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b2c506f6dce9d5805fb23fe8c8f4b67f1d3681d040de915a39e2fe16e2ea8679",
+        "CLM_b62fa7c8aebbf03cca29fbe792a50036248a30e95b5105a7830f16f6996ed7af"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında hangi yapısal bileşenler dikkate alınır?",
+      "question_id": "5.7-Q04",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b62fa7c8aebbf03cca29fbe792a50036248a30e95b5105a7830f16f6996ed7af",
+        "CLM_ec1ddaef02ab1852b1bf73ddcff300e6386cbb0b90f676f9aebb88daaa0cbc28"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında hangi elektrik sistemleri dikkate alınır?",
+      "question_id": "5.7-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b62fa7c8aebbf03cca29fbe792a50036248a30e95b5105a7830f16f6996ed7af",
+        "CLM_746afccae945feb748dc81e5723bada8025e9e70d55a2a7b5366ffc3fc2189b9"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında hangi elektronik sistemler dikkate alınır?",
+      "question_id": "5.7-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b62fa7c8aebbf03cca29fbe792a50036248a30e95b5105a7830f16f6996ed7af",
+        "CLM_eb0d46922b3a81134ae769e4280af063814374d035d1af9b983a22f1d2b0886c"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında hangi elektromekanik sistemler dikkate alınır?",
+      "question_id": "5.7-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a87d78bb86c73f5c4aa9e79e37db3bde5e5e335ce06a838723b798a660a29461",
+        "CLM_207c1f4ba656000cac6ad263f98bbd8a9c38748b8db9e02b3b56a2d1e308de07"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında havalandırma sistemleri nasıl ele alınır?",
+      "question_id": "5.7-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2362e44263d50b60411e7423a0034b000d606cb28f57645c7776becdd049112a",
+        "CLM_a87d78bb86c73f5c4aa9e79e37db3bde5e5e335ce06a838723b798a660a29461"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında aydınlatma sistemleri nasıl ele alınır?",
+      "question_id": "5.7-Q09",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b62fa7c8aebbf03cca29fbe792a50036248a30e95b5105a7830f16f6996ed7af",
+        "CLM_cd5fe67d54149fdf237177cfa9c2bd80fed5d15d0f954bffde8d7df6d8a80b52"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında enerji dağıtım ve yedek güç sistemleri nasıl ele alınır?",
+      "question_id": "5.7-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f33ae5eb8d7ad9f24c4efb454b98a144c7bdcaf84b2f24844a161ac05e6c7b52",
+        "CLM_34e73684ff99f3ad8824b47acb0b0f4903462945747b202b18e87e89bce50050",
+        "CLM_6597c07faaf4dddc5b993c9c1a895afc9334ddf3681bea1c1529a2093e175ebc"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında yangın algılama ve söndürme sistemleri nasıl ele alınır?",
+      "question_id": "5.7-Q11",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_eb651cbe4ad0b51acb91a88d8d4dcfde068d1e5dca4f913821c14817d506c9dc",
+        "CLM_4de2c17d6066bb9898572d714414906f8aaccd730a469510284db9bb3d4cdddd",
+        "CLM_cca8326d72949c4beffb3ae5b97fb09d8bf7ad52f984c23f96e266451419cad7"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında kamera, haberleşme ve olay algılama sistemleri nasıl ele alınır?",
+      "question_id": "5.7-Q12",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f9ccddd4f06e1417fd8f962f6adeacd4f1bb486dfba08b11ec651d69818373e6",
+        "CLM_f33ae5eb8d7ad9f24c4efb454b98a144c7bdcaf84b2f24844a161ac05e6c7b52"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında drenaj, pompa ve su yalıtımı sistemleri nasıl ele alınır?",
+      "question_id": "5.7-Q13",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında kaplama, derz ve yüzey bozulmaları nasıl izlenir?",
+      "question_id": "5.7-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında portal ve yaklaşım bölgeleri nasıl ele alınır?",
+      "question_id": "5.7-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_775a10898d63bced6c15be044c194ba39db7254d094ca76222add00aa4127852"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için bakım türleri nasıl sınıflandırılır?",
+      "question_id": "5.7-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b86bf622ec790053044797d17c5b484d6a5a63774d38a93df655c3dbb554956c",
+        "CLM_4d4b690666f76f6059fa900078c710dc51201b5f46b1a5af94367c734e9781b4"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi içinde rutin bakım ile periyodik bakım arasındaki fark nedir?",
+      "question_id": "5.7-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi içinde önleyici bakım ile düzeltici bakım arasındaki fark nedir?",
+      "question_id": "5.7-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi içinde kestirimci bakım hangi verilerle uygulanabilir?",
+      "question_id": "5.7-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b62fa7c8aebbf03cca29fbe792a50036248a30e95b5105a7830f16f6996ed7af",
+        "CLM_b86bf622ec790053044797d17c5b484d6a5a63774d38a93df655c3dbb554956c"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için bakım periyotları nasıl belirlenir?",
+      "question_id": "5.7-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için kritik ekipmanların önceliklendirilmesi nasıl yapılır?",
+      "question_id": "5.7-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için arıza modları ve etkileri nasıl analiz edilir?",
+      "question_id": "5.7-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için durum değerlendirme ve kondisyon puanlama sistemi nasıl kurulabilir?",
+      "question_id": "5.7-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için sensör ve uzaktan izleme verileri nasıl kullanılabilir?",
+      "question_id": "5.7-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_83930798e87abdbb578bb877800c59124a50afc6b75bda630c2bfb278fd00a2e",
+        "CLM_60397a1c3e1892d49e46a04f7a94a34b607e92add0fc24d0a1b8359ac03f776b"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için bakım kayıtlarında hangi bilgiler tutulmalıdır?",
+      "question_id": "5.7-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_83930798e87abdbb578bb877800c59124a50afc6b75bda630c2bfb278fd00a2e",
+        "CLM_0382417da7ae4048bc209057241669c33bfa2961f118687167f25d5a48d16849"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için yedek parça yönetimi nasıl planlanmalıdır?",
+      "question_id": "5.7-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için personel ve vardiya planlaması nasıl yapılmalıdır?",
+      "question_id": "5.7-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için yüklenici ve hizmet alımı yönetimi nasıl yapılmalıdır?",
+      "question_id": "5.7-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f6b2f2acb339e2a9cc1ed61892e6b6f26a2dc7e40478b2a69b5553db8eb78093",
+        "CLM_0ea1d8f45d6a240e63a6117cfcfa8e94cab53ed5550615db797e7905325ca8aa",
+        "CLM_d11507438c4cccfb6c5a880421ca41b507857fbe331249ff3df46d0ec9579226"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi sırasında trafik güvenliği nasıl sağlanmalıdır?",
+      "question_id": "5.7-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0ea1d8f45d6a240e63a6117cfcfa8e94cab53ed5550615db797e7905325ca8aa",
+        "CLM_27cf1cb3d0a041a3c14d1dac2695cc0b3f7637959b190f7c1e92b7a6a4287ed4"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi sırasında şerit veya tünel kapatma kararları nasıl verilmelidir?",
+      "question_id": "5.7-Q30",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0ea1d8f45d6a240e63a6117cfcfa8e94cab53ed5550615db797e7905325ca8aa",
+        "CLM_70f975ddd95b9461dc0344cde2c9ec21453201d2411c88f36cfe4cb032614113"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi sırasında iş sağlığı ve güvenliği riskleri nasıl yönetilmelidir?",
+      "question_id": "5.7-Q31",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_83930798e87abdbb578bb877800c59124a50afc6b75bda630c2bfb278fd00a2e",
+        "CLM_0ea1d8f45d6a240e63a6117cfcfa8e94cab53ed5550615db797e7905325ca8aa"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için acil müdahale ile planlı bakım nasıl koordine edilmelidir?",
+      "question_id": "5.7-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a695551d57311f3a2836dcce04666d5673e0734ec6d0d33179aed3419826cd12"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi performansı hangi göstergelerle ölçülmelidir?",
+      "question_id": "5.7-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında kullanılabilirlik ve arıza süresi nasıl izlenmelidir?",
+      "question_id": "5.7-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b2c506f6dce9d5805fb23fe8c8f4b67f1d3681d040de915a39e2fe16e2ea8679",
+        "CLM_f07ba4fa56723f6f74e0e5211e2743ed2465c1c0715c84bcbb6d32407ef46b6a"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında enerji tüketimi hangi göstergelerle izlenmelidir?",
+      "question_id": "5.7-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b62fa7c8aebbf03cca29fbe792a50036248a30e95b5105a7830f16f6996ed7af",
+        "CLM_b2c506f6dce9d5805fb23fe8c8f4b67f1d3681d040de915a39e2fe16e2ea8679",
+        "CLM_bc90d49f3add23f165f97c4684af939eace2997375eab9775cc7ed15843ee93f"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında bakım maliyeti hangi göstergelerle izlenmelidir?",
+      "question_id": "5.7-Q36",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında arızaların tekrarlanma oranı nasıl izlenmelidir?",
+      "question_id": "5.7-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0ea1d8f45d6a240e63a6117cfcfa8e94cab53ed5550615db797e7905325ca8aa",
+        "CLM_70e10e43de66af92b94a8976bd4f30e4326165e440f2e58b2c0f17d95968bfd5"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi kapsamında güvenlik olayları ve ramak kala kayıtları nasıl kullanılmalıdır?",
+      "question_id": "5.7-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_661b9691d26f94b127560dc475e0a8707da044d3fec5ac3689c68e0c25084f02"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için denetim ve kabul kriterleri nelerdir?",
+      "question_id": "5.7-Q39",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.2,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için mevzuat, standart ve teknik şartname gereklilikleri nelerdir?",
+      "question_id": "5.7-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bc90d49f3add23f165f97c4684af939eace2997375eab9775cc7ed15843ee93f",
+        "CLM_7f30df12bb0f5593cfa3c969a0d604bff464cdc6c968f135a95f0f00e9ae6135"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için Karayolları Genel Müdürlüğü uygulamalarında hangi süreçler öne çıkar?",
+      "question_id": "5.7-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b2c506f6dce9d5805fb23fe8c8f4b67f1d3681d040de915a39e2fe16e2ea8679",
+        "CLM_a239173d829db2c87cf01417e4326db56711c8d2897614871faadf37c9aa2023"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için enerji verimliliği hangi teknik önlemlerle artırılabilir?",
+      "question_id": "5.7-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.2,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için otomasyon ve akıllı kontrol sistemleri hangi faydaları sağlayabilir?",
+      "question_id": "5.7-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b2c506f6dce9d5805fb23fe8c8f4b67f1d3681d040de915a39e2fe16e2ea8679",
+        "CLM_986b3aea774ffc16bbec928d6c1f9e519258e14d2fc7e36af6eb6a4048461954",
+        "CLM_3bc72a0823ee58ac8d0bb233be972883c58cb9c810caa3a36550e4d971490ee2",
+        "CLM_8180bbc50b78451ef7346c89911b72de3875fbaa8ac3a738ad183c01d2264fd6"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için yaşam döngüsü maliyet yaklaşımı nasıl uygulanabilir?",
+      "question_id": "5.7-Q44",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b2c506f6dce9d5805fb23fe8c8f4b67f1d3681d040de915a39e2fe16e2ea8679",
+        "CLM_2e945fc82df093fd543624d16fa6faa22f959cdb649b2789162342ead8321e12"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için bakım ertelemesinin teknik ve ekonomik sonuçları nelerdir?",
+      "question_id": "5.7-Q45",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b2c506f6dce9d5805fb23fe8c8f4b67f1d3681d040de915a39e2fe16e2ea8679",
+        "CLM_83930798e87abdbb578bb877800c59124a50afc6b75bda630c2bfb278fd00a2e",
+        "CLM_e29814362f13d343876876468a50e3630cfc26dcdef8a5829e99dd76ab9b3d4c",
+        "CLM_0382417da7ae4048bc209057241669c33bfa2961f118687167f25d5a48d16849"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için yenileme veya modernizasyon kararı hangi kriterlerle verilmelidir?",
+      "question_id": "5.7-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_772d1e90fbb44f9b6d0d8fa48cf7ff6e0e748298bb2c32bd831a9a8c52773453",
+        "CLM_7a4e24bea068129f31bff37a94982a54e5b33063138f027d6a93d1eff9ce7889"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi sürdürülebilirlik ve karbon ayak izi açısından nasıl geliştirilebilir?",
+      "question_id": "5.7-Q47",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.2,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi konusunda Türkiye’den hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "5.7-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9deb7d93351d1f27ea5e1c27c4bf912d4f2c60d7f6ac0d4fc6d35bd5b01f9aa1"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi konusunda dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "5.7-Q49",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b2c506f6dce9d5805fb23fe8c8f4b67f1d3681d040de915a39e2fe16e2ea8679",
+        "CLM_b62fa7c8aebbf03cca29fbe792a50036248a30e95b5105a7830f16f6996ed7af",
+        "CLM_83930798e87abdbb578bb877800c59124a50afc6b75bda630c2bfb278fd00a2e",
+        "CLM_bc90d49f3add23f165f97c4684af939eace2997375eab9775cc7ed15843ee93f"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi için optimum güvenlik, performans ve maliyet dengesi nasıl kurulabilir?",
+      "question_id": "5.7-Q50",
+      "reason_code": "PARTIAL_ONLY"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "5.7",
+  "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_0382417da7ae4048bc209057241669c33bfa2961f118687167f25d5a48d16849",
+      "CLM_0ea1d8f45d6a240e63a6117cfcfa8e94cab53ed5550615db797e7905325ca8aa",
+      "CLM_207c1f4ba656000cac6ad263f98bbd8a9c38748b8db9e02b3b56a2d1e308de07",
+      "CLM_2362e44263d50b60411e7423a0034b000d606cb28f57645c7776becdd049112a",
+      "CLM_27cf1cb3d0a041a3c14d1dac2695cc0b3f7637959b190f7c1e92b7a6a4287ed4",
+      "CLM_2e945fc82df093fd543624d16fa6faa22f959cdb649b2789162342ead8321e12",
+      "CLM_34e73684ff99f3ad8824b47acb0b0f4903462945747b202b18e87e89bce50050",
+      "CLM_3bc72a0823ee58ac8d0bb233be972883c58cb9c810caa3a36550e4d971490ee2",
+      "CLM_4d4b690666f76f6059fa900078c710dc51201b5f46b1a5af94367c734e9781b4",
+      "CLM_4de2c17d6066bb9898572d714414906f8aaccd730a469510284db9bb3d4cdddd",
+      "CLM_60397a1c3e1892d49e46a04f7a94a34b607e92add0fc24d0a1b8359ac03f776b",
+      "CLM_6597c07faaf4dddc5b993c9c1a895afc9334ddf3681bea1c1529a2093e175ebc",
+      "CLM_661b9691d26f94b127560dc475e0a8707da044d3fec5ac3689c68e0c25084f02",
+      "CLM_70e10e43de66af92b94a8976bd4f30e4326165e440f2e58b2c0f17d95968bfd5",
+      "CLM_70f975ddd95b9461dc0344cde2c9ec21453201d2411c88f36cfe4cb032614113",
+      "CLM_746afccae945feb748dc81e5723bada8025e9e70d55a2a7b5366ffc3fc2189b9",
+      "CLM_772d1e90fbb44f9b6d0d8fa48cf7ff6e0e748298bb2c32bd831a9a8c52773453",
+      "CLM_775a10898d63bced6c15be044c194ba39db7254d094ca76222add00aa4127852",
+      "CLM_7a4e24bea068129f31bff37a94982a54e5b33063138f027d6a93d1eff9ce7889",
+      "CLM_7f30df12bb0f5593cfa3c969a0d604bff464cdc6c968f135a95f0f00e9ae6135",
+      "CLM_8180bbc50b78451ef7346c89911b72de3875fbaa8ac3a738ad183c01d2264fd6",
+      "CLM_83930798e87abdbb578bb877800c59124a50afc6b75bda630c2bfb278fd00a2e",
+      "CLM_986b3aea774ffc16bbec928d6c1f9e519258e14d2fc7e36af6eb6a4048461954",
+      "CLM_9deb7d93351d1f27ea5e1c27c4bf912d4f2c60d7f6ac0d4fc6d35bd5b01f9aa1",
+      "CLM_a239173d829db2c87cf01417e4326db56711c8d2897614871faadf37c9aa2023",
+      "CLM_a695551d57311f3a2836dcce04666d5673e0734ec6d0d33179aed3419826cd12",
+      "CLM_a87d78bb86c73f5c4aa9e79e37db3bde5e5e335ce06a838723b798a660a29461",
+      "CLM_b2c506f6dce9d5805fb23fe8c8f4b67f1d3681d040de915a39e2fe16e2ea8679",
+      "CLM_b62fa7c8aebbf03cca29fbe792a50036248a30e95b5105a7830f16f6996ed7af",
+      "CLM_b86bf622ec790053044797d17c5b484d6a5a63774d38a93df655c3dbb554956c",
+      "CLM_bc90d49f3add23f165f97c4684af939eace2997375eab9775cc7ed15843ee93f",
+      "CLM_cca8326d72949c4beffb3ae5b97fb09d8bf7ad52f984c23f96e266451419cad7",
+      "CLM_cd5fe67d54149fdf237177cfa9c2bd80fed5d15d0f954bffde8d7df6d8a80b52",
+      "CLM_cf2e39570787df11fe225d0cb35a6482609e2fdd40d63ffa8144175b97ab8335",
+      "CLM_d11507438c4cccfb6c5a880421ca41b507857fbe331249ff3df46d0ec9579226",
+      "CLM_e29814362f13d343876876468a50e3630cfc26dcdef8a5829e99dd76ab9b3d4c",
+      "CLM_eb0d46922b3a81134ae769e4280af063814374d035d1af9b983a22f1d2b0886c",
+      "CLM_eb651cbe4ad0b51acb91a88d8d4dcfde068d1e5dca4f913821c14817d506c9dc",
+      "CLM_ec1ddaef02ab1852b1bf73ddcff300e6386cbb0b90f676f9aebb88daaa0cbc28",
+      "CLM_f07ba4fa56723f6f74e0e5211e2743ed2465c1c0715c84bcbb6d32407ef46b6a",
+      "CLM_f33ae5eb8d7ad9f24c4efb454b98a144c7bdcaf84b2f24844a161ac05e6c7b52",
+      "CLM_f6b2f2acb339e2a9cc1ed61892e6b6f26a2dc7e40478b2a69b5553db8eb78093",
+      "CLM_f9ccddd4f06e1417fd8f962f6adeacd4f1bb486dfba08b11ec651d69818373e6"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "5.7-Q01",
+      "5.7-Q04",
+      "5.7-Q05",
+      "5.7-Q06",
+      "5.7-Q07",
+      "5.7-Q08",
+      "5.7-Q09",
+      "5.7-Q10",
+      "5.7-Q11",
+      "5.7-Q13",
+      "5.7-Q16",
+      "5.7-Q17",
+      "5.7-Q20",
+      "5.7-Q25",
+      "5.7-Q26",
+      "5.7-Q29",
+      "5.7-Q30",
+      "5.7-Q31",
+      "5.7-Q32",
+      "5.7-Q33",
+      "5.7-Q35",
+      "5.7-Q36",
+      "5.7-Q38",
+      "5.7-Q39",
+      "5.7-Q41",
+      "5.7-Q42",
+      "5.7-Q44",
+      "5.7-Q45",
+      "5.7-Q46",
+      "5.7-Q47",
+      "5.7-Q49",
+      "5.7-Q50"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "5.7-Q02",
+      "5.7-Q03",
+      "5.7-Q14",
+      "5.7-Q15",
+      "5.7-Q18",
+      "5.7-Q19",
+      "5.7-Q21",
+      "5.7-Q22",
+      "5.7-Q23",
+      "5.7-Q24",
+      "5.7-Q27",
+      "5.7-Q28",
+      "5.7-Q34",
+      "5.7-Q37",
+      "5.7-Q40",
+      "5.7-Q43",
+      "5.7-Q48"
+    ]
+  }
+}

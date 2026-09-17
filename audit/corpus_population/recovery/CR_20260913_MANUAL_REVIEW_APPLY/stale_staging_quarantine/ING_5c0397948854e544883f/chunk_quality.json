@@ -1,0 +1,267 @@
+{
+  "document_id": "ING_5c0397948854e544883f",
+  "status": "WARN",
+  "chunk_count": 377,
+  "chunks_by_type": {
+    "TEXT_CHUNK": 43,
+    "TABLE_CHUNK": 35,
+    "FIGURE_CHUNK": 299
+  },
+  "token_stats": {
+    "min": 1,
+    "max": 414,
+    "mean": 84.0,
+    "total": 31670
+  },
+  "policy": {
+    "chunk_schema_version": "1.0",
+    "chunk_policy_version": "structure-aware-v1",
+    "tokenizer": "unicode-lexical-v1",
+    "target_tokens": 850,
+    "min_tokens": 250,
+    "max_tokens": 1200,
+    "hard_max_tokens": 1500,
+    "overlap_tokens": 80
+  },
+  "deduplicated_chunks": [
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_a151a2228f",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_3343d29969"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_93675c3cf6",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_2256598e58"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_4fdea394f4",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_435d345ee1"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_c7786a1647",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_2256598e58"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_cb69e418e0",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_95ebeaccb5"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_829b716a69",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_f099d9181a"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_05cbf800c8",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_2256598e58"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_a304e77e6c",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_ca77c256b3"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_9df119a28e",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_462a63501b"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_c560c2187f",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_95ebeaccb5"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_6b1b63bfed",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_2256598e58"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_a121dfffc6",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_2256598e58"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_e8d008771a",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_2256598e58"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_dce348517e",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_2256598e58"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_ae72ab328d",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_462a63501b"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_bd042b37ca",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_462a63501b"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_a00162838b",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_a2b7784b71"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_70ff1919fb",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_f099d9181a"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_40fa81e43d",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_ca77c256b3"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_7154f04a9b",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_8b48ead31e"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_395141f49e",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_2020904017"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_756c6b5edb",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_8b48ead31e"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_c124b80825",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_95ebeaccb5"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_1a256f73e9",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_2256598e58"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_fb5479c82c",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_2bab9e5860"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_6d10dbd929",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_8b48ead31e"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_f5362447be",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_0bc63e87b6"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_724d8d9479",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_95ebeaccb5"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_baac16463e",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_0bc63e87b6"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_890babde62",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_462a63501b"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_f692433fb7",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_435d345ee1"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_71508af65a",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_d285eab9a1"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_893f5b6bbf",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_479af2ccea"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_c90034ef2d",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_3343d29969"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_da5173e6d2",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_394799d798"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_eb0728f906",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_462a63501b"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_9232d4b853",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_a6b6816dee"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_0d97164581",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_f099d9181a"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_414b3470be",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_416f4cf5cb"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_8ead97a0bc",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_959faf100f"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_2009b81431",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_462a63501b"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_2f17f508db",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_c69836174e"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_8f5f32aa2e",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_02688367f7"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_e4f3ee421f",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_462a63501b"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_c1f92ad718",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_9d728aa3fb"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_bf7ed84a11",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_95ebeaccb5"
+    },
+    {
+      "chunk_id": "ING_5c0397948854e544883f_CH_cf36833f9a",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_5c0397948854e544883f_CH_a5e1857896"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "CHUNK_UNDER_MIN:ING_5c0397948854e544883f_CH_9cdac4414f:136"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2",
+    "5.9.1"
+  ],
+  "final_section_confidence": 0.8151,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "FIG0027",
+        "PARA0086",
+        "PARA0090",
+        "PARA0093",
+        "FIG0030",
+        "CAPT0003",
+        "TABLE0002",
+        "CAPT0004",
+        "PARA0094",
+        "PARA0097",
+        "PARA0098",
+        "FIG0033",
+        "CAPT0006",
+        "HEAD0021",
+        "PARA0099",
+        "FIG0034",
+        "CAPT0007",
+        "PARA0100",
+        "PARA0106",
+        "PARA0107",
+        "HEAD0025",
+        "PARA0108",
+        "PARA0109",
+        "PARA0112",
+        "PARA0114"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "FIG0027",
+        "PARA0086",
+        "PARA0090",
+        "PARA0093",
+        "FIG0030",
+        "CAPT0003",
+        "TABLE0002",
+        "CAPT0004",
+        "PARA0094",
+        "PARA0097",
+        "PARA0098",
+        "FIG0033",
+        "CAPT0006",
+        "HEAD0021",
+        "PARA0099",
+        "FIG0034",
+        "CAPT0007",
+        "PARA0100",
+        "PARA0106",
+        "PARA0107",
+        "HEAD0025",
+        "PARA0108",
+        "PARA0109",
+        "PARA0112",
+        "PARA0114"
+      ]
+    },
+    {
+      "section_id": "5.9.1",
+      "section_title": "Ulusal Literatür Taraması",
+      "supporting_elements": [
+        "FIG0004",
+        "PARA0008",
+        "PARA0009",
+        "LIST0002",
+        "PARA0395",
+        "PARA0491",
+        "LIST0069",
+        "LIST0070",
+        "LIST0071",
+        "LIST0072"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2",
+      "score": 0.8151,
+      "rule_score": 0.6,
+      "embedding_score": 0.7776,
+      "chunk_vote": 0.4257
+    },
+    {
+      "id": "2",
+      "score": 0.7111,
+      "rule_score": 0.5,
+      "embedding_score": 0.786,
+      "chunk_vote": 0.1622
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.6436,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7833,
+      "chunk_vote": 0.027
+    },
+    {
+      "id": "5.4",
+      "score": 0.3528,
+      "rule_score": 0.0,
+      "embedding_score": 0.7841,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3508,
+      "rule_score": 0.0,
+      "embedding_score": 0.7796,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.3504,
+      "rule_score": 0.0,
+      "embedding_score": 0.7787,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6",
+      "score": 0.3487,
+      "rule_score": 0.0,
+      "embedding_score": 0.7748,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3.5",
+      "score": 0.348,
+      "rule_score": 0.0,
+      "embedding_score": 0.7734,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.2438,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0405
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.2438,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0405
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2:0.8151 gap=0.104 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

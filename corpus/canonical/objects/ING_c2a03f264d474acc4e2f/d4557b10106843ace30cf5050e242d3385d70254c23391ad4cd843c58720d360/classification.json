@@ -1,0 +1,143 @@
+{
+  "final_primary_section": "2.2.1",
+  "final_secondary_sections": [
+    "2.4.1.2"
+  ],
+  "final_section_confidence": 0.7522,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0009",
+        "HEAD0004",
+        "PARA0010",
+        "FIG0005",
+        "TABLE0001",
+        "CAPT0005",
+        "TABLE0003",
+        "CAPT0007",
+        "PARA0011",
+        "FIG0014",
+        "CAPT0018",
+        "PARA0018",
+        "PARA0019",
+        "PARA0020",
+        "FIG0015",
+        "CAPT0019",
+        "PARA0022",
+        "FIG0016",
+        "CAPT0020",
+        "FIG0017",
+        "CAPT0021",
+        "FIG0018"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0009",
+        "PARA0010",
+        "FIG0005",
+        "CAPT0004",
+        "PARA0011",
+        "LIST0005"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2.1",
+      "score": 0.7522,
+      "rule_score": 0.6,
+      "embedding_score": 0.7953,
+      "chunk_vote": 0.0717
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.6381,
+      "rule_score": 0.4286,
+      "embedding_score": 0.783,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.4374,
+      "rule_score": 0.6923,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2833
+    },
+    {
+      "id": "2",
+      "score": 0.3703,
+      "rule_score": 0.0,
+      "embedding_score": 0.8037,
+      "chunk_vote": 0.043
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3569,
+      "rule_score": 0.0,
+      "embedding_score": 0.7932,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3568,
+      "rule_score": 0.0,
+      "embedding_score": 0.7928,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3516,
+      "rule_score": 0.0,
+      "embedding_score": 0.7813,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3515,
+      "rule_score": 0.0,
+      "embedding_score": 0.7811,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3506,
+      "rule_score": 0.0,
+      "embedding_score": 0.7791,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:10",
+    "embeddings:8",
+    "top=2.2.1:0.7522 gap=0.114 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,35 @@
+{
+  "document_id": "ING_2516fb6319c342abb140",
+  "status": "PASS",
+  "chunk_count": 65,
+  "chunks_by_type": {
+    "SLIDE_CHUNK": 32,
+    "TABLE_CHUNK": 2,
+    "FIGURE_CHUNK": 31
+  },
+  "token_stats": {
+    "min": 2,
+    "max": 158,
+    "mean": 43.3,
+    "total": 2812
+  },
+  "policy": {
+    "chunk_schema_version": "1.0",
+    "chunk_policy_version": "structure-aware-v1",
+    "tokenizer": "unicode-lexical-v1",
+    "target_tokens": 850,
+    "min_tokens": 250,
+    "max_tokens": 1200,
+    "hard_max_tokens": 1500,
+    "overlap_tokens": 80
+  },
+  "deduplicated_chunks": [
+    {
+      "chunk_id": "ING_2516fb6319c342abb140_CH_478f56261f",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_2516fb6319c342abb140_CH_27e76c0a37"
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

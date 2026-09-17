@@ -1,0 +1,87 @@
+{
+  "document_id": "ING_5c229054fb8f53a306c0",
+  "fields": [
+    {
+      "field": "title",
+      "value": "TÜNEL ENVANTER KİTABI",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2007-02-02",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "explicit date literal in the document: 02.02.2007"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "inventory",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: envanter"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "fire_safety",
+        "inventory",
+        "maintenance",
+        "monitoring",
+        "operations",
+        "safety",
+        "standards",
+        "traffic"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "monitoring:izleme; safety:güvenlik; fire_safety:yangın; traffic:trafik; operations:işletme; maintenance:bakım; standards:standart; accident:kaza; inventory:envanter; tunnel_general:tünel"
+    }
+  ]
+}

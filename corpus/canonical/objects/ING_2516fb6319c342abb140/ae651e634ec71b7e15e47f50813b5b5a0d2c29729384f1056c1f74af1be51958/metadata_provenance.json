@@ -1,0 +1,86 @@
+{
+  "document_id": "ING_2516fb6319c342abb140",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Presentazione standard di PowerPoint",
+      "source": "ooxml_properties",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Rossi Bruno"
+      ],
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Belge metninde çelişkili publication/date yılları: 2010, 2012, 2014, 2015, 2016, 2018"
+    },
+    {
+      "field": "revision",
+      "value": "391",
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "fiber_reinforced_concrete",
+        "final_lining",
+        "safety",
+        "shotcrete",
+        "standards",
+        "support_systems"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "shotcrete:püskürtme beton; support_systems:tahkimat; final_lining:nihai kaplama; fiber_reinforced_concrete:lifli beton; safety:güvenlik; standards:standart; tunnel_general:tünel"
+    }
+  ]
+}

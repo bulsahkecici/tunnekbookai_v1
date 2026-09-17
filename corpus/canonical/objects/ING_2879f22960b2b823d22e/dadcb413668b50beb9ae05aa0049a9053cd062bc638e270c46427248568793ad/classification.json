@@ -1,0 +1,198 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.2.3",
+    "1.2",
+    "2",
+    "1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "LIST0005",
+        "LIST0006",
+        "LIST0019",
+        "LIST0020",
+        "LIST0072",
+        "LIST0073",
+        "HEAD0019",
+        "HEAD0020",
+        "PARA0047",
+        "PARA0048",
+        "PARA0049",
+        "PARA0051",
+        "PARA0052",
+        "LIST0077"
+      ]
+    },
+    {
+      "section_id": "2.2.3",
+      "section_title": "Su Altında Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0009",
+        "PARA0020",
+        "PARA0025",
+        "LIST0020",
+        "HEAD0007",
+        "LIST0021",
+        "LIST0077",
+        "HEAD0027"
+      ]
+    },
+    {
+      "section_id": "1.2",
+      "section_title": "Tünellerin Sınıflandırılması",
+      "supporting_elements": [
+        "LIST0003",
+        "LIST0023",
+        "LIST0026",
+        "HEAD0011",
+        "LIST0069"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "LIST0006",
+        "LIST0016",
+        "LIST0019",
+        "LIST0022",
+        "LIST0073",
+        "PARA0046",
+        "HEAD0020",
+        "PARA0047",
+        "PARA0048",
+        "PARA0049",
+        "PARA0051",
+        "PARA0052"
+      ]
+    },
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "HEAD0001",
+        "FIG0001",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0010",
+        "LIST0001",
+        "LIST0002",
+        "LIST0003",
+        "PARA0011",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "LIST0004",
+        "LIST0006",
+        "PARA0016",
+        "PARA0018",
+        "PARA0019",
+        "PARA0020",
+        "PARA0021",
+        "PARA0022",
+        "PARA0023",
+        "PARA0024",
+        "PARA0025"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2",
+      "score": 0.7799,
+      "rule_score": 0.6364,
+      "embedding_score": 0.8238,
+      "chunk_vote": 0.0456
+    },
+    {
+      "id": "2",
+      "score": 0.7465,
+      "rule_score": 0.5556,
+      "embedding_score": 0.839,
+      "chunk_vote": 0.0669
+    },
+    {
+      "id": "1",
+      "score": 0.7018,
+      "rule_score": 0.4286,
+      "embedding_score": 0.8133,
+      "chunk_vote": 0.2505
+    },
+    {
+      "id": "2.2.3",
+      "score": 0.4136,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2347
+    },
+    {
+      "id": "5.6",
+      "score": 0.403,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1818
+    },
+    {
+      "id": "1.1",
+      "score": 0.3902,
+      "rule_score": 0.0,
+      "embedding_score": 0.8104,
+      "chunk_vote": 0.1278
+    },
+    {
+      "id": "1.2",
+      "score": 0.3697,
+      "rule_score": 0.0,
+      "embedding_score": 0.8135,
+      "chunk_vote": 0.0183
+    },
+    {
+      "id": "5.4",
+      "score": 0.3666,
+      "rule_score": 0.0,
+      "embedding_score": 0.8146,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3663,
+      "rule_score": 0.0,
+      "embedding_score": 0.814,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6",
+      "score": 0.3643,
+      "rule_score": 0.0,
+      "embedding_score": 0.8096,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünellerin yapım yöntemlerini (Cut and Cover, Drill and Blast, TBM, Sequential Excavation) ve su altında açılan tünellerin (immersed tube/underwater) inşaat süreçlerini detaylıca ele aldığı için 'Tünel Yapım Yöntemleri' (2.2) birincil, 'Su Altında Açılan Tüneller' (2.2.3) ve 'Tünellerin Sınıflandırılması' (1.2) ikincil bölüm olarak belirlenmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2:0.7799 gap=0.033 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

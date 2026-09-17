@@ -1,0 +1,96 @@
+{
+  "document_id": "ING_f52e66d837f304409454",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Precast Concrete Segmental Liners for Large Diameter Road Tunnels -- Laboratory Testing, FHWA-HIF-24-003",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Belge metninde çelişkili publication/date yılları: 2015, 2018"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "contracts",
+        "excavation",
+        "fiber_reinforced_concrete",
+        "inspection",
+        "instrumentation",
+        "maintenance",
+        "monitoring",
+        "regulation",
+        "standards",
+        "tbm"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; excavation:excavat; fiber_reinforced_concrete:fiber reinforced; monitoring:monitoring; instrumentation:instrumentation; maintenance:maintenance; inspection:inspection; regulation:regulation; standards:standard; contracts:contract; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://www.fhwa.dot.gov/bridge/tunnel/pubs/hif24003.pdf",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

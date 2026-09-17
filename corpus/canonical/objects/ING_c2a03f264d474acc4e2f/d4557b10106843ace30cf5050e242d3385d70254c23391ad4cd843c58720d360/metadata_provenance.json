@@ -1,0 +1,105 @@
+{
+  "document_id": "ING_c2a03f264d474acc4e2f",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Tunnel support design by comparison of empirical and finite element analysis of the Nahakki tunnel in mohmand agency, pakistan",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Riaz Asif",
+        "Jamil Syed Muhammad",
+        "Asif Muhammad",
+        "Akhtar Kamran"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2016",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": "7.017",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "revision literal: version 7.017"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "contracts",
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "rock_mechanics",
+        "support_systems"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geotechnical_investigation:geotechnical; geology:geolog; rock_mechanics:rock mass; excavation:excavat; support_systems:support system; contracts:contract; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "http://www.degruyter.com/view/j/sgem.2016.38.issue-1/sgem-2016-0008/sgem-2016-0008.xml?format=INT",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1515/sgem-2016-0008",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

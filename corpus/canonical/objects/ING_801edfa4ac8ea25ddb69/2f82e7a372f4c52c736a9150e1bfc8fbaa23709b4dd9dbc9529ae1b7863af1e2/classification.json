@@ -1,0 +1,111 @@
+{
+  "final_primary_section": "2.4.1",
+  "final_secondary_sections": [
+    "2.4.1.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.4.1.1",
+      "section_title": "İnşaat Başlamadan Önce Yapılan Çalışmalar",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.3",
+      "score": 0.3514,
+      "rule_score": 0.0,
+      "embedding_score": 0.7808,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3481,
+      "rule_score": 0.0,
+      "embedding_score": 0.7736,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3458,
+      "rule_score": 0.0,
+      "embedding_score": 0.7685,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3445,
+      "rule_score": 0.0,
+      "embedding_score": 0.7656,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.343,
+      "rule_score": 0.0,
+      "embedding_score": 0.7622,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3417,
+      "rule_score": 0.0,
+      "embedding_score": 0.7594,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3414,
+      "rule_score": 0.0,
+      "embedding_score": 0.7587,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3412,
+      "rule_score": 0.0,
+      "embedding_score": 0.7583,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.19,
+      "rule_score": 0.2,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4
+    },
+    {
+      "id": "5.6",
+      "score": 0.19,
+      "rule_score": 0.2,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Norveç'in N-V521:2023 standardı olup tünel projelendirmesindeki jeolojik ön araştırmaları ve kayaç stabilizasyonunu (bergsikring) ele almaktadır. Bu içerik, aday listesindeki 'Jeolojik ve Geoteknik İncelemeler' (2.4.1) bölümünün kapsamıyla doğrudan örtüşmektedir. Ayrıca, inşaat öncesi yapılan jeolojik çalışmalar vurgulandığı için 'İnşaat Başlamadan Önce Yapılan Çalışmalar' (2.4.1.1) ikincil",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:4",
+    "chunk_votes:2",
+    "embeddings:8",
+    "top=2.4.3:0.3514 gap=0.003 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

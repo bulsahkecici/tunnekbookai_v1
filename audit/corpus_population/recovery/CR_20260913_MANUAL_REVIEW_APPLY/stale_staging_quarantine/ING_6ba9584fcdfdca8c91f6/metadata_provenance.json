@@ -1,0 +1,85 @@
+{
+  "document_id": "ING_6ba9584fcdfdca8c91f6",
+  "fields": [
+    {
+      "field": "title",
+      "value": "TÜNEL KALICI KAPLAMA TASARIM YAKLAŞIMI, ANALİZ VE TAHKİK DETAYLARININ İRDELENMESİ",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "drawing",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: detay"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "final_lining",
+        "geotechnical_investigation",
+        "operations",
+        "safety",
+        "traffic",
+        "water",
+        "waterproofing"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geotechnical_investigation:sondaj; water:yeraltı su; waterproofing:su yalıt; final_lining:final lining; safety:güvenlik; traffic:trafik; operations:operating; tunnel_general:tünel"
+    }
+  ]
+}

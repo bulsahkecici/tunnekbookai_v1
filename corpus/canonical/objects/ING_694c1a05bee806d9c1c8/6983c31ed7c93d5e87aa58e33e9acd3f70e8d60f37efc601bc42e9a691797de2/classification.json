@@ -1,0 +1,197 @@
+{
+  "final_primary_section": "2.4.1",
+  "final_secondary_sections": [
+    "2.2.1",
+    "2.4.2",
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": [
+        "LIST0008",
+        "LIST0024",
+        "LIST0037"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0016",
+        "PARA0018",
+        "PARA0023",
+        "PARA0025",
+        "TABLE0001",
+        "CAPT0005",
+        "TABLE0002",
+        "CAPT0006",
+        "TABLE0003",
+        "CAPT0007",
+        "PARA0026",
+        "PARA0031",
+        "TABLE0005",
+        "CAPT0009",
+        "TABLE0010",
+        "CAPT0013",
+        "FIG0006",
+        "FIG0007",
+        "PARA0036",
+        "TABLE0011",
+        "CAPT0016",
+        "PARA0039"
+      ]
+    },
+    {
+      "section_id": "2.4.2",
+      "section_title": "Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "PARA0012",
+        "PARA0014",
+        "PARA0016",
+        "HEAD0005",
+        "PARA0017",
+        "HEAD0006",
+        "FIG0004",
+        "CAPT0003",
+        "PARA0025",
+        "TABLE0003",
+        "CAPT0007",
+        "PARA0026",
+        "PARA0028",
+        "PARA0029",
+        "PARA0033",
+        "PARA0035",
+        "PARA0036",
+        "PARA0037",
+        "PARA0039"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0012",
+        "PARA0014",
+        "PARA0016",
+        "PARA0031",
+        "FIG0007",
+        "HEAD0008",
+        "PARA0035",
+        "PARA0036",
+        "PARA0037",
+        "PARA0038",
+        "TABLE0011",
+        "CAPT0016",
+        "TABLE0012",
+        "CAPT0017",
+        "FIG0010",
+        "CAPT0018",
+        "PARA0039",
+        "LIST0004",
+        "LIST0022",
+        "LIST0027",
+        "LIST0034",
+        "LIST0038",
+        "LIST0040"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.2",
+      "score": 0.7065,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7646,
+      "chunk_vote": 0.0341
+    },
+    {
+      "id": "2",
+      "score": 0.69,
+      "rule_score": 0.5,
+      "embedding_score": 0.7657,
+      "chunk_vote": 0.1022
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.6835,
+      "rule_score": 0.5,
+      "embedding_score": 0.7779,
+      "chunk_vote": 0.0423
+    },
+    {
+      "id": "6.1",
+      "score": 0.3545,
+      "rule_score": 0.0,
+      "embedding_score": 0.7726,
+      "chunk_vote": 0.0341
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3525,
+      "rule_score": 0.0,
+      "embedding_score": 0.7833,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.347,
+      "rule_score": 0.0,
+      "embedding_score": 0.7712,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3456,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0779
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3438,
+      "rule_score": 0.0,
+      "embedding_score": 0.764,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3435,
+      "rule_score": 0.0,
+      "embedding_score": 0.7634,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.2838,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0438
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel güzergahı boyunca jeomekanik sınıflandırma (RMR, Q, RMi), kaya patlaması ve sıkışma potansiyeli ile sayısal analizlere odaklanmaktadır. Bu içerik, tünel projelendirmesinin temel aşaması olan 'Jeolojik ve Geoteknik İncelemeler' (2.4.1) ile doğrudan örtüşmektedir. Ayrıca kayaç zeminde açılan tünel (2.2.1) ve güzergah seçimi/boykesit (2.4.2) konularındaki analizler ikincil bağlantı olara",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:21",
+    "embeddings:8",
+    "top=2.4.2:0.7065 gap=0.017 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

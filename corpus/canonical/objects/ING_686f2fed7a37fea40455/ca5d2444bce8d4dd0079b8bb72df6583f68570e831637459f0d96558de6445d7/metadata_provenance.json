@@ -1,0 +1,89 @@
+{
+  "document_id": "ING_686f2fed7a37fea40455",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Tünelcilik ve Yeraltı Teknolojileri Dergisi",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "magazine",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: dergisi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "contracts",
+        "cost",
+        "geology",
+        "geotechnical_investigation",
+        "injection",
+        "natm",
+        "operations",
+        "shotcrete",
+        "standards",
+        "tbm",
+        "ventilation"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; tbm:tbm; geotechnical_investigation:sondaj; geology:jeoloji; shotcrete:shotcrete; injection:enjeksiyon; ventilation:havalandırma; operations:işletme; standards:standart; cost:maliyet; contracts:contract; tunnel_general:tünel"
+    }
+  ]
+}

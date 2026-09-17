@@ -1,0 +1,57 @@
+{
+  "document_id": "ING_9c34327f6a39c78d7404",
+  "source_kind": "EXTERNAL_DISCOVERY",
+  "original_filename": "source.pdf",
+  "original_sha256": "9c34327f6a39c78d7404c187ddbc00c256f0fb160ad7dd4929db5db6f44ca18e",
+  "format": "PDF",
+  "mime_type": "application/pdf",
+  "title": "A Deep Learning Approach to Identify Rock Bolts in Complex 3D Point Clouds of Underground Mines Captured Using Mobile Laser Scanners",
+  "authors": [
+    "Dibyayan Patra",
+    "Pasindu Ranasinghe",
+    "Bikram Banerjee",
+    "Simit Raval"
+  ],
+  "organization": null,
+  "department": null,
+  "document_date": "2025",
+  "revision": null,
+  "language": "en",
+  "document_type": null,
+  "topics": [
+    "monitoring",
+    "operations",
+    "rock_bolt",
+    "rock_mechanics",
+    "shotcrete",
+    "standards",
+    "steel_mesh",
+    "support_systems",
+    "ventilation"
+  ],
+  "source_url": "https://arxiv.org/pdf/2506.20464v1",
+  "doi": "10.3390/rs17152701",
+  "confidentiality": "RESTRICTED",
+  "document_status": "UNKNOWN",
+  "ingest_method": "crawler_handoff",
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [
+    "2.2.1",
+    "2.4.1.2"
+  ],
+  "final_section_confidence": 0.85,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": true,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "schema_version": "1.0"
+}

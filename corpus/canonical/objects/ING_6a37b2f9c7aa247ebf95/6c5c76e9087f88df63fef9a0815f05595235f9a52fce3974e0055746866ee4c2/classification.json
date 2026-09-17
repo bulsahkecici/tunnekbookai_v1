@@ -1,0 +1,109 @@
+{
+  "final_primary_section": "5.9",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.5837,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0012",
+        "LIST0014",
+        "LIST0040",
+        "LIST0042",
+        "LIST0086"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9",
+      "score": 0.5837,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7787,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3475,
+      "rule_score": 0.0,
+      "embedding_score": 0.7723,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3473,
+      "rule_score": 0.0,
+      "embedding_score": 0.7718,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3453,
+      "rule_score": 0.0,
+      "embedding_score": 0.7673,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3453,
+      "rule_score": 0.0,
+      "embedding_score": 0.7673,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.344,
+      "rule_score": 0.0,
+      "embedding_score": 0.7644,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3438,
+      "rule_score": 0.0,
+      "embedding_score": 0.764,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3432,
+      "rule_score": 0.0,
+      "embedding_score": 0.7626,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2262,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2143
+    },
+    {
+      "id": "5.6",
+      "score": 0.2262,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2143
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:3",
+    "embeddings:8",
+    "top=5.9:0.5837 gap=0.236 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

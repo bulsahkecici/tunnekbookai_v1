@@ -1,0 +1,141 @@
+{
+  "document_id": "ING_945fe82846d071b34f53",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_4FF7AF8EC31B387B7393",
+      "producer_document_id": "PC_945FE82846D071B3",
+      "declared_sha256": "945fe82846d071b34f536ad708fc94d6ca70feaa54735cb572e510aa24a88fc4",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/B_INTERNATIONAL_TECHNICAL/PC_945FE82846D071B3/source_raw.html",
+        "sha256": "945fe82846d071b34f536ad708fc94d6ca70feaa54735cb572e510aa24a88fc4"
+      },
+      "provenance": {
+        "source_url": "https://about.ita-aites.org/publications/wg-publications/2614/longitudinal-joint-design-for-fibre-reinforced-segmental-tunnel-linings?tmpl=component",
+        "landing_url": "https://about.ita-aites.org/publications/wg-publications/2614/longitudinal-joint-design-for-fibre-reinforced-segmental-tunnel-linings?tmpl=component",
+        "resolved_url": "https://about.ita-aites.org/publications/wg-publications/2614/longitudinal-joint-design-for-fibre-reinforced-segmental-tunnel-linings?tmpl=component",
+        "discovery_source": "institutional:ITA_AITES",
+        "discovery_query": "seed",
+        "publisher": "International Tunnelling and Underground Space Association"
+      },
+      "producer_provenance": {
+        "source_url": "https://about.ita-aites.org/publications/wg-publications/2614/longitudinal-joint-design-for-fibre-reinforced-segmental-tunnel-linings?tmpl=component",
+        "landing_url": "https://about.ita-aites.org/publications/wg-publications/2614/longitudinal-joint-design-for-fibre-reinforced-segmental-tunnel-linings?tmpl=component",
+        "resolved_url": "https://about.ita-aites.org/publications/wg-publications/2614/longitudinal-joint-design-for-fibre-reinforced-segmental-tunnel-linings?tmpl=component",
+        "discovery_source": "institutional:ITA_AITES",
+        "discovery_query": "seed",
+        "publisher": "International Tunnelling and Underground Space Association"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_945FE82846D071B3",
+        "canonical_id": "CAN_4FF7AF8EC31B387B7393",
+        "canonical_hint_id": "CAN_4FF7AF8EC31B387B7393",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "International Tunnelling and Underground Space Association",
+          "country": "International",
+          "institution_type": "PROFESSIONAL_ORGANIZATION",
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Longitudinal Joint Design For Fibre Reinforced Segmental Tunnel Linings",
+        "authors": [],
+        "year": null,
+        "doi": null,
+        "source_url": "https://about.ita-aites.org/publications/wg-publications/2614/longitudinal-joint-design-for-fibre-reinforced-segmental-tunnel-linings?tmpl=component",
+        "landing_url": "https://about.ita-aites.org/publications/wg-publications/2614/longitudinal-joint-design-for-fibre-reinforced-segmental-tunnel-linings?tmpl=component",
+        "resolved_url": "https://about.ita-aites.org/publications/wg-publications/2614/longitudinal-joint-design-for-fibre-reinforced-segmental-tunnel-linings?tmpl=component",
+        "local_path": "01_originals/B_INTERNATIONAL_TECHNICAL/PC_945FE82846D071B3/source_raw.html",
+        "sha256": "945fe82846d071b34f536ad708fc94d6ca70feaa54735cb572e510aa24a88fc4",
+        "source_name": "institutional:ITA_AITES",
+        "publisher_code": "ITA_AITES",
+        "route_path": "B_INTERNATIONAL_TECHNICAL",
+        "crawler_evidence_level": "WEB_SNAPSHOT_TEXT",
+        "evidence_level": "WEB_SNAPSHOT_TEXT",
+        "acquisition_status": "SNAPSHOTTED_WEB",
+        "source_representation": {
+          "original_or_raw": "01_originals/B_INTERNATIONAL_TECHNICAL/PC_945FE82846D071B3/source_raw.html",
+          "original_or_raw_sha256": "945fe82846d071b34f536ad708fc94d6ca70feaa54735cb572e510aa24a88fc4",
+          "crawler_normalized": "01_originals/B_INTERNATIONAL_TECHNICAL/PC_945FE82846D071B3/source.md",
+          "crawler_normalized_sha256": "91a7f5bceff2ba18d9b8e9d6fc8d448121c9b3779e98c8b879823554ab75b662",
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "institutional_webpage",
+        "provisional_source_tier": "TIER_C",
+        "provisional_authority_tier": "D1",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "WEB_PAGE",
+        "source_class": "PROFESSIONAL_ORGANIZATION",
+        "authority_tier": "D1",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "segmental_lining",
+          "final_lining",
+          "alignment",
+          "inspection",
+          "deformation",
+          "structural_maintenance",
+          "sustainability",
+          "steel_rib"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "International Tunnelling and Underground Space Association",
+          "country": "International",
+          "institution_type": "PROFESSIONAL_ORGANIZATION",
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "SNAPSHOTTED_WEB",
+          "source_path": "01_originals/B_INTERNATIONAL_TECHNICAL/PC_945FE82846D071B3/source_raw.html",
+          "source_sha256": "945fe82846d071b34f536ad708fc94d6ca70feaa54735cb572e510aa24a88fc4"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://about.ita-aites.org/publications/wg-publications/2614/longitudinal-joint-design-for-fibre-reinforced-segmental-tunnel-linings?tmpl=component",
+          "landing_url": "https://about.ita-aites.org/publications/wg-publications/2614/longitudinal-joint-design-for-fibre-reinforced-segmental-tunnel-linings?tmpl=component",
+          "resolved_url": "https://about.ita-aites.org/publications/wg-publications/2614/longitudinal-joint-design-for-fibre-reinforced-segmental-tunnel-linings?tmpl=component",
+          "discovery_source": "institutional:ITA_AITES",
+          "discovery_query": "seed",
+          "publisher": "International Tunnelling and Underground Space Association"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source_raw.html",
+    "original_sha256": "945fe82846d071b34f536ad708fc94d6ca70feaa54735cb572e510aa24a88fc4",
+    "mime_type": "text/html",
+    "format": "HTML"
+  }
+}

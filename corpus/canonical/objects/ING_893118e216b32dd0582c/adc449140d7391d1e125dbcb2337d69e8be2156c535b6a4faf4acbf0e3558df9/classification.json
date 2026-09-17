@@ -1,0 +1,198 @@
+{
+  "final_primary_section": "2.2.2",
+  "final_secondary_sections": [
+    "2",
+    "2.4.1.2",
+    "2.2"
+  ],
+  "final_section_confidence": 0.8155,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0008",
+        "PARA0010",
+        "PARA0011",
+        "PARA0015",
+        "PARA0017",
+        "PARA0018",
+        "FIG0004",
+        "CAPT0002",
+        "PARA0021",
+        "PARA0022",
+        "PARA0023",
+        "PARA0026",
+        "PARA0028",
+        "CAPT0008",
+        "PARA0036",
+        "PARA0040",
+        "PARA0041",
+        "PARA0043",
+        "FIG0013",
+        "CAPT0011",
+        "PARA0044",
+        "PARA0045",
+        "CAPT0018",
+        "PARA0048",
+        "LIST0001"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0010",
+        "PARA0015",
+        "PARA0023",
+        "PARA0026",
+        "PARA0029",
+        "FIG0010",
+        "PARA0034",
+        "PARA0035",
+        "PARA0037",
+        "PARA0038",
+        "TABLE0001",
+        "CAPT0009",
+        "PARA0043",
+        "PARA0045",
+        "PARA0046",
+        "PARA0048",
+        "PARA0051",
+        "PARA0055",
+        "PARA0058",
+        "LIST0020",
+        "LIST0029"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0008",
+        "PARA0012",
+        "PARA0017",
+        "PARA0018",
+        "FIG0004",
+        "CAPT0002",
+        "PARA0019",
+        "PARA0020",
+        "PARA0021",
+        "PARA0022",
+        "PARA0023",
+        "PARA0024",
+        "PARA0027",
+        "FIG0005",
+        "FIG0006",
+        "FIG0007",
+        "FIG0008",
+        "PARA0044",
+        "PARA0045",
+        "PARA0046",
+        "FIG0017",
+        "FIG0018",
+        "CAPT0018",
+        "PARA0048",
+        "PARA0049"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0015"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2.2",
+      "score": 0.8155,
+      "rule_score": 0.6667,
+      "embedding_score": 0.7945,
+      "chunk_vote": 0.2064
+    },
+    {
+      "id": "2",
+      "score": 0.7129,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7622,
+      "chunk_vote": 0.0717
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.6374,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7618,
+      "chunk_vote": 0.0441
+    },
+    {
+      "id": "2.2",
+      "score": 0.6261,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7564,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.3718,
+      "rule_score": 0.0,
+      "embedding_score": 0.7577,
+      "chunk_vote": 0.1544
+    },
+    {
+      "id": "6.1",
+      "score": 0.346,
+      "rule_score": 0.0,
+      "embedding_score": 0.7567,
+      "chunk_vote": 0.0276
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3438,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0689
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.341,
+      "rule_score": 0.0,
+      "embedding_score": 0.7578,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3405,
+      "rule_score": 0.0,
+      "embedding_score": 0.7567,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.2784,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2132
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2.2:0.8155 gap=0.103 disagreement=False ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

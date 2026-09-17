@@ -1,0 +1,113 @@
+{
+  "final_primary_section": "2.4.1.3",
+  "final_secondary_sections": [
+    "5.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "PARA0001"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.1.2",
+      "score": 0.6118,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7888,
+      "chunk_vote": 0.1176
+    },
+    {
+      "id": "5.1",
+      "score": 0.5867,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7854,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3671,
+      "rule_score": 0.0,
+      "embedding_score": 0.8157,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.354,
+      "rule_score": 0.0,
+      "embedding_score": 0.7867,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3532,
+      "rule_score": 0.0,
+      "embedding_score": 0.7848,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.353,
+      "rule_score": 0.0,
+      "embedding_score": 0.7845,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3515,
+      "rule_score": 0.0,
+      "embedding_score": 0.781,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3511,
+      "rule_score": 0.0,
+      "embedding_score": 0.7802,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2539,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3529
+    },
+    {
+      "id": "1.1",
+      "score": 0.2186,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1765
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünelin işletme (kullanım) aşamasındaki güvenlik izleme ve erken uyarı sistemlerinin tasarımına odaklanmaktadır. Bu içerik, inşaat aşaması (2.4.1.2) veya genel amaç (5.1) yerine, doğrudan 'Kullanım Aşaması Çalışmaları' (2.4.1.3) başlığıyla en yüksek örtüşmeye sahiptir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:2",
+    "embeddings:8",
+    "top=2.4.1.2:0.6118 gap=0.025 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

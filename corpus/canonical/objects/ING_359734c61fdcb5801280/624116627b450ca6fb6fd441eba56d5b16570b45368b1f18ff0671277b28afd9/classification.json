@@ -1,0 +1,288 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.4.2",
+    "5.6",
+    "5.9",
+    "5.9.2",
+    "5.1",
+    "2.4.1.3"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0032",
+        "LIST0033",
+        "LIST0034",
+        "LIST0035",
+        "LIST0036",
+        "LIST0037",
+        "LIST0039",
+        "LIST0040",
+        "LIST0041",
+        "HEAD0005",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "LIST0047",
+        "PARA0009",
+        "PARA0010",
+        "PARA0011",
+        "LIST0053"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "LIST0004",
+        "LIST0007",
+        "LIST0054",
+        "LIST0057"
+      ]
+    },
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "LIST0004",
+        "LIST0007",
+        "LIST0009",
+        "LIST0013",
+        "LIST0014",
+        "LIST0016",
+        "LIST0034",
+        "LIST0036",
+        "LIST0037",
+        "LIST0038",
+        "LIST0045",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "LIST0047",
+        "LIST0048",
+        "LIST0049",
+        "PARA0009",
+        "PARA0010",
+        "PARA0011",
+        "LIST0051",
+        "LIST0053",
+        "LIST0054",
+        "LIST0057"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0032",
+        "LIST0033",
+        "LIST0034",
+        "LIST0035",
+        "LIST0036",
+        "LIST0037",
+        "LIST0040",
+        "LIST0041",
+        "HEAD0005",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "LIST0047",
+        "PARA0009",
+        "PARA0010",
+        "PARA0011",
+        "LIST0053",
+        "LIST0072"
+      ]
+    },
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0032",
+        "LIST0033",
+        "LIST0034",
+        "LIST0035",
+        "LIST0036",
+        "LIST0037",
+        "LIST0040",
+        "LIST0041",
+        "HEAD0005",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "LIST0047",
+        "PARA0009",
+        "PARA0010",
+        "PARA0011",
+        "LIST0053",
+        "LIST0072"
+      ]
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0032",
+        "LIST0033",
+        "LIST0034",
+        "LIST0035",
+        "LIST0036",
+        "LIST0037",
+        "LIST0040",
+        "LIST0041",
+        "HEAD0005",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "LIST0047",
+        "PARA0009",
+        "PARA0010",
+        "PARA0011",
+        "LIST0053",
+        "LIST0072"
+      ]
+    },
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0025",
+        "LIST0034",
+        "LIST0036",
+        "LIST0039",
+        "LIST0043",
+        "PARA0003",
+        "PARA0006",
+        "PARA0011",
+        "LIST0072",
+        "LIST0075"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4",
+      "score": 0.7797,
+      "rule_score": 0.6,
+      "embedding_score": 0.8355,
+      "chunk_vote": 0.1185
+    },
+    {
+      "id": "5.9",
+      "score": 0.7427,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8361,
+      "chunk_vote": 0.0542
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.7399,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8381,
+      "chunk_vote": 0.0361
+    },
+    {
+      "id": "5.1",
+      "score": 0.7058,
+      "rule_score": 0.5,
+      "embedding_score": 0.8337,
+      "chunk_vote": 0.0281
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.6665,
+      "rule_score": 0.4286,
+      "embedding_score": 0.8337,
+      "chunk_vote": 0.0281
+    },
+    {
+      "id": "5",
+      "score": 0.4305,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3193
+    },
+    {
+      "id": "5.6",
+      "score": 0.4223,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3614
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3766,
+      "rule_score": 0.0,
+      "embedding_score": 0.837,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.3762,
+      "rule_score": 0.0,
+      "embedding_score": 0.8361,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3743,
+      "rule_score": 0.0,
+      "embedding_score": 0.8317,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC Yol Tünelleri El Kitabı'ndaki 'Bakım' (Maintenance) bölümüne aittir. İçerik; ekipman bakımı, teknik denetimler, yaşam döngüsü maliyetleri (LCC), karmaşık tünellerin bakımı ve kış bakımı gibi konuları kapsamaktadır. Bu konular doğrudan 'Tünel Bakım-Onarım ve İşletme' (5.4) başlığıyla örtüşmektedir. Elektrik-elektronik sistemlerin bakımı ve maliyet faktörlerine (LCC) atıflar, ikincil ol",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:6",
+    "embeddings:8",
+    "top=5.4:0.7797 gap=0.037 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

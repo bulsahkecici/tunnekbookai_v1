@@ -1,0 +1,147 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.2.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0010",
+        "PARA0016",
+        "PARA0017",
+        "PARA0018",
+        "PARA0020",
+        "PARA0021",
+        "PARA0022",
+        "HEAD0005",
+        "HEAD0006",
+        "PARA0023",
+        "FIG0002",
+        "CAPT0002",
+        "PARA0024",
+        "FIG0003",
+        "FIG0004",
+        "CAPT0003",
+        "HEAD0007",
+        "CAPT0008",
+        "TABLE0001",
+        "CAPT0009"
+      ]
+    },
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "PARA0016",
+        "FIG0002",
+        "CAPT0002",
+        "CAPT0008",
+        "LIST0006"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2.2",
+      "score": 0.7859,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7617,
+      "chunk_vote": 0.438
+    },
+    {
+      "id": "2.2",
+      "score": 0.7166,
+      "rule_score": 0.5,
+      "embedding_score": 0.7643,
+      "chunk_vote": 0.2384
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3426,
+      "rule_score": 0.0,
+      "embedding_score": 0.7613,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3388,
+      "rule_score": 0.0,
+      "embedding_score": 0.7528,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3371,
+      "rule_score": 0.0,
+      "embedding_score": 0.749,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3365,
+      "rule_score": 0.0,
+      "embedding_score": 0.7478,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3356,
+      "rule_score": 0.0,
+      "embedding_score": 0.7458,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3352,
+      "rule_score": 0.0,
+      "embedding_score": 0.7448,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3227,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2384
+    },
+    {
+      "id": "5",
+      "score": 0.1901,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0341
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, EPB (Earth Pressure Balance) shield TBM'nin hood operasyonunun simülasyonunu ve yumuşak zeminlerdeki davranışını (toprak kaybı, oda basıncı) incelemektedir. Bu, doğrudan 'Tünel Yapım Yöntemleri' (2.2) başlığına ve alt başlık olarak 'Yumuşak Zeminde Açılan Tüneller' (2.2.2) konusuna en uygun düşmektedir. Diğer adaylar (bakım, maliyet, destek elemanları) belgenin ana odağı olan simülasyon ve ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:11",
+    "embeddings:8",
+    "top=2.2.2:0.7859 gap=0.069 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

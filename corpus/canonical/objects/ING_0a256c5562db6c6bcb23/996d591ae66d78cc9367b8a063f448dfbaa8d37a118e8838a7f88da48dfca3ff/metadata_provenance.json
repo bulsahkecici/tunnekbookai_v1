@@ -1,0 +1,89 @@
+{
+  "document_id": "ING_0a256c5562db6c6bcb23",
+  "fields": [
+    {
+      "field": "title",
+      "value": "PowerPoint Presentation",
+      "source": "ooxml_properties",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Lühan Arda"
+      ],
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": "686",
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "presentation",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "PPT içeriğinde slayt/sunum yapısı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "collapse",
+        "final_lining",
+        "portal",
+        "shotcrete",
+        "standards",
+        "steel_mesh",
+        "support_systems",
+        "tbm"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; shotcrete:püskürtme beton; steel_mesh:çelik hasır; support_systems:tahkimat; final_lining:nihai kaplama; portal:portal; standards:standart; accident:kaza; collapse:çökme; tunnel_general:tünel"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "final_primary_section": "2.1.2",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.8453,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "PARA0002"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0002"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1.2",
+      "score": 0.8453,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7853,
+      "chunk_vote": 0.6818
+    },
+    {
+      "id": "2",
+      "score": 0.5854,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7823,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3517,
+      "rule_score": 0.0,
+      "embedding_score": 0.7816,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3515,
+      "rule_score": 0.0,
+      "embedding_score": 0.7811,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3506,
+      "rule_score": 0.0,
+      "embedding_score": 0.7791,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3495,
+      "rule_score": 0.0,
+      "embedding_score": 0.7767,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.3488,
+      "rule_score": 0.0,
+      "embedding_score": 0.7751,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3486,
+      "rule_score": 0.0,
+      "embedding_score": 0.7747,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2812,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2273
+    },
+    {
+      "id": "1.1",
+      "score": 0.2015,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0909
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:1",
+    "embeddings:8",
+    "top=2.1.2:0.8453 gap=0.260 disagreement=False ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

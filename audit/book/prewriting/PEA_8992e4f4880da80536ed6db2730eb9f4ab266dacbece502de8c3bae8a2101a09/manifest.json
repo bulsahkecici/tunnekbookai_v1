@@ -1,0 +1,51 @@
+{
+  "audit_id": "PEA_8992e4f4880da80536ed6db2730eb9f4ab266dacbece502de8c3bae8a2101a09",
+  "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+  "contract_version": "prewriting-evidence-audit-v1",
+  "counts": {
+    "PARTIAL": 49,
+    "SUPPORTED": 37,
+    "UNSUPPORTED": 14
+  },
+  "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+  "llm_model_id": "qwen/qwen3.8-27b",
+  "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+  "prompt_version": "qwen-prewriting-evidence-v1",
+  "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+  "question_count": 2950,
+  "questions_audited": 100,
+  "results_path": null,
+  "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+  "schema_version": "1.0",
+  "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+  "section_count": 59,
+  "sections": [
+    {
+      "partial": 26,
+      "preferred_target_met": false,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "1.1",
+      "section_title": "Tünelin Tanımı",
+      "supported": 22,
+      "supported_ratio": 0.44,
+      "total": 50,
+      "unsupported": 2
+    },
+    {
+      "partial": 23,
+      "preferred_target_met": false,
+      "readiness": "READY_WITH_LIMITATIONS",
+      "section_id": "7.2",
+      "section_title": "Tünel Yapım Maliyetleri",
+      "supported": 15,
+      "supported_ratio": 0.3,
+      "total": 50,
+      "unsupported": 12
+    }
+  ],
+  "sections_audited": 2,
+  "software_version": "prewriting-evidence-audit-v3",
+  "status": "IN_PROGRESS",
+  "top_k": 4,
+  "updated_at": "2026-09-16T09:10:02+00:00"
+}

@@ -1,0 +1,123 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.4.2",
+    "5.1"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "PARA0010"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "PARA0010"
+      ]
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "PARA0010"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.5842,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7798,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.5813,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7732,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.5753,
+      "rule_score": 0.3333,
+      "embedding_score": 0.76,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.5043,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.7714
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3539,
+      "rule_score": 0.0,
+      "embedding_score": 0.7865,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3491,
+      "rule_score": 0.0,
+      "embedding_score": 0.7758,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3428,
+      "rule_score": 0.0,
+      "embedding_score": 0.7617,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3428,
+      "rule_score": 0.0,
+      "embedding_score": 0.7617,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3421,
+      "rule_score": 0.0,
+      "embedding_score": 0.7602,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2005,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0857
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, uzun şehir tünellerinde havalandırma ekipmanlarının optimal işletim yöntemlerini ve yangın/ısı gibi durumlara karşı kontrol stratejilerini ele aldığı için 'Tünel Bakım-Onarım ve İşletme' (5.4) başlığına en uygun düşmektedir. Havalandırma sistemlerinin mekanik/elektrik doğası nedeniyle 'Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı' (5.4.2) ikincil bölüm olarak değerlendirilmiştir",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:3",
+    "embeddings:8",
+    "top=5.4.2:0.5842 gap=0.003 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

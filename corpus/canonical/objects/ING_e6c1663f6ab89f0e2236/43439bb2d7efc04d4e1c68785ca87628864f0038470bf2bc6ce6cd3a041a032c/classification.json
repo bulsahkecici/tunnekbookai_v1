@@ -1,0 +1,110 @@
+{
+  "final_primary_section": "1",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.5912,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0002",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1",
+      "score": 0.5912,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7552,
+      "chunk_vote": 0.09
+    },
+    {
+      "id": "5.6",
+      "score": 0.365,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.45
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3344,
+      "rule_score": 0.0,
+      "embedding_score": 0.7432,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3327,
+      "rule_score": 0.0,
+      "embedding_score": 0.7394,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3325,
+      "rule_score": 0.0,
+      "embedding_score": 0.7389,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3321,
+      "rule_score": 0.0,
+      "embedding_score": 0.738,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.332,
+      "rule_score": 0.0,
+      "embedding_score": 0.7378,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.3313,
+      "rule_score": 0.0,
+      "embedding_score": 0.7363,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.331,
+      "rule_score": 0.0,
+      "embedding_score": 0.7356,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.1",
+      "score": 0.2957,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:2",
+    "embeddings:8",
+    "top=1:0.5912 gap=0.226 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

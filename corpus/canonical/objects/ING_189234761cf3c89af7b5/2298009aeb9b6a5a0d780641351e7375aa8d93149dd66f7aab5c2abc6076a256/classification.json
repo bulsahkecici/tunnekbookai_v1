@@ -1,0 +1,108 @@
+{
+  "final_primary_section": "1.5.1",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.7132,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.5.1",
+      "section_title": "Dünyada Gerçekleşen Önemli Tünel Felaketleri",
+      "supporting_elements": [
+        "HEAD0002",
+        "HEAD0003",
+        "HEAD0004",
+        "HEAD0005"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1.5.1",
+      "score": 0.7132,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7782,
+      "chunk_vote": 0.0369
+    },
+    {
+      "id": "1",
+      "score": 0.3912,
+      "rule_score": 0.0,
+      "embedding_score": 0.7763,
+      "chunk_vote": 0.2093
+    },
+    {
+      "id": "1.5",
+      "score": 0.3791,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1454
+    },
+    {
+      "id": "5.6",
+      "score": 0.3764,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1317
+    },
+    {
+      "id": "5",
+      "score": 0.3741,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0369
+    },
+    {
+      "id": "2.4",
+      "score": 0.3709,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1044
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3558,
+      "rule_score": 0.0,
+      "embedding_score": 0.7906,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3554,
+      "rule_score": 0.0,
+      "embedding_score": 0.7847,
+      "chunk_vote": 0.0115
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3513,
+      "rule_score": 0.0,
+      "embedding_score": 0.7806,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7",
+      "score": 0.3506,
+      "rule_score": 0.0,
+      "embedding_score": 0.779,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:22",
+    "embeddings:8",
+    "top=1.5.1:0.7132 gap=0.322 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

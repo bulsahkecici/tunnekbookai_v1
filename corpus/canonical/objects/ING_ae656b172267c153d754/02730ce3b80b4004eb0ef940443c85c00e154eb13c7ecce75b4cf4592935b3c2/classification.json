@@ -1,0 +1,158 @@
+{
+  "final_primary_section": "5.9.2",
+  "final_secondary_sections": [
+    "5.6",
+    "5.1"
+  ],
+  "final_section_confidence": 0.7253,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "PARA0004",
+        "PARA0006",
+        "PARA0008",
+        "LIST0059",
+        "LIST0060",
+        "LIST0061",
+        "PARA0009"
+      ]
+    },
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "LIST0004",
+        "LIST0007",
+        "LIST0009",
+        "LIST0013",
+        "LIST0014",
+        "LIST0016",
+        "LIST0033",
+        "LIST0037",
+        "LIST0038",
+        "PARA0003",
+        "PARA0004",
+        "PARA0007",
+        "PARA0008",
+        "LIST0041",
+        "LIST0044",
+        "LIST0046",
+        "LIST0050",
+        "LIST0051",
+        "LIST0053"
+      ]
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "PARA0004",
+        "PARA0006",
+        "PARA0008",
+        "LIST0059",
+        "LIST0060",
+        "LIST0061"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9.2",
+      "score": 0.7253,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8005,
+      "chunk_vote": 0.0476
+    },
+    {
+      "id": "5.1",
+      "score": 0.7118,
+      "rule_score": 0.5,
+      "embedding_score": 0.802,
+      "chunk_vote": 0.1296
+    },
+    {
+      "id": "5.6",
+      "score": 0.411,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4048
+    },
+    {
+      "id": "5",
+      "score": 0.3919,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3095
+    },
+    {
+      "id": "7",
+      "score": 0.3607,
+      "rule_score": 0.0,
+      "embedding_score": 0.8015,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4",
+      "score": 0.3599,
+      "rule_score": 0.0,
+      "embedding_score": 0.7998,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3598,
+      "rule_score": 0.0,
+      "embedding_score": 0.7996,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.3589,
+      "rule_score": 0.0,
+      "embedding_score": 0.7975,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5",
+      "score": 0.3577,
+      "rule_score": 0.0,
+      "embedding_score": 0.7949,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3569,
+      "rule_score": 0.0,
+      "embedding_score": 0.7931,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC'ın uluslararası bir kaynak olan 'Road Tunnels Manual'ından alınmıştır ve tünel güvenliği prensiplerini, riskleri ve yönetim araçlarını ele almaktadır. Bu içerik, 'Uluslararası Literatür Taraması' bölümüne (5.9.2) en uygun düşmektedir. Güvenlik, tünel işletme ve bakım maliyetlerini doğrudan etkileyen bir faktör olduğundan, 'Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörle",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:5",
+    "embeddings:8",
+    "top=5.9.2:0.7253 gap=0.013 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,111 @@
+{
+  "final_primary_section": "6",
+  "final_secondary_sections": [
+    "2.3"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "6",
+      "section_title": "TÜNEL YAPIM MALİYETLERİ",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.3",
+      "section_title": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6",
+      "score": 0.3446,
+      "rule_score": 0.0,
+      "embedding_score": 0.7657,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.3441,
+      "rule_score": 0.0,
+      "embedding_score": 0.7646,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.1",
+      "score": 0.3436,
+      "rule_score": 0.0,
+      "embedding_score": 0.7635,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3434,
+      "rule_score": 0.0,
+      "embedding_score": 0.7631,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.3419,
+      "rule_score": 0.0,
+      "embedding_score": 0.7597,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3415,
+      "rule_score": 0.0,
+      "embedding_score": 0.7589,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.3",
+      "score": 0.3411,
+      "rule_score": 0.0,
+      "embedding_score": 0.7579,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.341,
+      "rule_score": 0.0,
+      "embedding_score": 0.7578,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3157,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4
+    },
+    {
+      "id": "2.1",
+      "score": 0.2633,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel yapımında kullanılan yarma kazısı, püskürtme betonu ve iksa gibi iş kalemlerinin birim fiyatlarını, ölçü ve ödeme esaslarını detaylandırmaktadır. Bu içerik doğrudan 'Tünel Yapım Maliyetleri' (Bölüm 6) kapsamına girmektedir. Ayrıca, farklı zemin türlerinde (kaya, toprak vb.) kazı maliyetlerinin değişkenliği nedeniyle 'Tünellerin Yapım Maliyetine Etki Eden Unsurlar' (Bölüm 2.3) ile de i",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:5",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=6:0.3446 gap=0.001 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

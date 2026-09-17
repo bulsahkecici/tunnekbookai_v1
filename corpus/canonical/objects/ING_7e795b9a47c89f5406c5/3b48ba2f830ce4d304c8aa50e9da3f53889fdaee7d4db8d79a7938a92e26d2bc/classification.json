@@ -1,0 +1,139 @@
+{
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "PARA1565"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0240",
+        "PARA0241",
+        "PARA0242",
+        "PARA0283",
+        "PARA0287",
+        "PARA0288",
+        "PARA0290",
+        "PARA0292",
+        "PARA0293",
+        "PARA0300",
+        "PARA0306",
+        "PARA0349",
+        "PARA0350",
+        "LIST0130",
+        "PARA0600",
+        "HEAD0029",
+        "PARA0618",
+        "PARA0619",
+        "PARA0620",
+        "PARA0621",
+        "PARA0622",
+        "PARA0625",
+        "PARA0626",
+        "PARA0627",
+        "PARA0628"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1",
+      "score": 0.7575,
+      "rule_score": 0.6364,
+      "embedding_score": 0.7943,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.7455,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7963,
+      "chunk_vote": 0.158
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3946,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.223
+    },
+    {
+      "id": "6.1",
+      "score": 0.3656,
+      "rule_score": 0.0,
+      "embedding_score": 0.7949,
+      "chunk_vote": 0.0395
+    },
+    {
+      "id": "2.2",
+      "score": 0.3616,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.158
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3555,
+      "rule_score": 0.0,
+      "embedding_score": 0.79,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3539,
+      "rule_score": 0.0,
+      "embedding_score": 0.7864,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3536,
+      "rule_score": 0.0,
+      "embedding_score": 0.7857,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.353,
+      "rule_score": 0.0,
+      "embedding_score": 0.7844,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3525,
+      "rule_score": 0.0,
+      "embedding_score": 0.7834,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Yeni Avusturya Tünel Açma Yöntemi (NATM) ile inşa edilen bir tünelin sonlu elemanlar yöntemiyle analizini konu almaktadır. İçindekiler listesindeki 'Tünellerde Sağlamlaştırma, Destekleme ve İyileştirme' başlığı ve alt maddeleri (püskürtme beton, kaya bulonu, çelik iksa vb.) doğrudan tünel yapı ve destek elemanlarını kapsamaktadır. Bu nedenle en yüksek skorlu 2.1 bölümü birincil, ana başlık ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.1:0.7575 gap=0.012 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

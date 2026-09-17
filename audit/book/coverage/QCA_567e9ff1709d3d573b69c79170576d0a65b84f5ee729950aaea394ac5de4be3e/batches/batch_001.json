@@ -1,0 +1,270 @@
+{
+  "batch_number": 1,
+  "question_ids": [
+    "1.1-Q01",
+    "1.1-Q02",
+    "1.1-Q03",
+    "1.1-Q04",
+    "1.1-Q05",
+    "1.1-Q06",
+    "1.1-Q07",
+    "1.1-Q08",
+    "1.1-Q09",
+    "1.1-Q10"
+  ],
+  "results": [
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S001",
+            "1.1-S003"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.95,
+      "question": "Tünelin Tanımı kavramı nasıl tanımlanır?",
+      "question_id": "1.1-Q01",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297",
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_d860cf25d2:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L193"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092",
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "supporting_document_ids": [
+        "ING_312befcda2ff316b7279",
+        "ING_2005c18d2148fb921826"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S001"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.95,
+      "question": "Tünelin Tanımı için kullanılan temel teknik tanım nedir?",
+      "question_id": "1.1-Q02",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "supporting_document_ids": [
+        "ING_312befcda2ff316b7279"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S003",
+            "1.1-S005"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.9,
+      "question": "Tünelin Tanımı kapsamına hangi yapılar, unsurlar veya durumlar girer?",
+      "question_id": "1.1-Q03",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_d860cf25d2:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L193",
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493",
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "supporting_document_ids": [
+        "ING_2005c18d2148fb921826",
+        "ING_312befcda2ff316b7279"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S006"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.95,
+      "question": "Tünelin Tanımı kapsamı dışında kalan benzer kavramlar nelerdir?",
+      "question_id": "1.1-Q04",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "supporting_document_ids": [
+        "ING_312befcda2ff316b7279"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S005"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.85,
+      "question": "Tünelin Tanımı ile yakın anlamlı kavramlar arasındaki temel farklar nelerdir?",
+      "question_id": "1.1-Q05",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "supporting_document_ids": [
+        "ING_312befcda2ff316b7279"
+      ]
+    },
+    {
+      "answer_spans": [],
+      "confidence": 1.0,
+      "question": "Tünelin Tanımı açıklanırken hangi temel terimlerin önceden tanımlanması gerekir?",
+      "question_id": "1.1-Q06",
+      "reason": "NO_ANSWER_SPAN",
+      "section_id": "1.1",
+      "source_locators": [],
+      "status": "NOT_ANSWERED",
+      "supporting_claim_ids": [],
+      "supporting_document_ids": []
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S004"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.6,
+      "question": "Tünelin Tanımı hangi mühendislik disiplinleriyle doğrudan ilişkilidir?",
+      "question_id": "1.1-Q07",
+      "reason": "PARTIAL_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_d860cf25d2:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L193"
+      ],
+      "status": "PARTIAL",
+      "supporting_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "supporting_document_ids": [
+        "ING_2005c18d2148fb921826"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S007"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.95,
+      "question": "Tünelin Tanımı neden karayolu tünel mühendisliği açısından önemlidir?",
+      "question_id": "1.1-Q08",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_752100774713db4bce1b:ING_752100774713db4bce1b_CH_85e1bd4af9:pages=7-13;canonical=corpus/canonical/objects/ING_752100774713db4bce1b/ca0e7b71bf4dec5af4e49bb43028d5db5d1141153765b3f34fa4bd34b6053db4/chunks/embedding_ready.jsonl#L2"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_c9c0d3b54e2e0975677186ca2e95929b2aecd627555c00aa55382303096eb9ed"
+      ],
+      "supporting_document_ids": [
+        "ING_752100774713db4bce1b"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S008"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.95,
+      "question": "Tünelin Tanımı hangi amaçlara hizmet eder?",
+      "question_id": "1.1-Q09",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_b82e9c650c:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L7"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_fe28b6811975b01bf9d80552808c35ffb32167a00e70db0f16edc213c2f638cd"
+      ],
+      "supporting_document_ids": [
+        "ING_1fb6b71a35f819248daf"
+      ]
+    },
+    {
+      "answer_spans": [
+        {
+          "paragraph_or_sentence_ids": [
+            "1.1-S009",
+            "1.1-S010",
+            "1.1-S011"
+          ],
+          "section_file": "book/production/drafts/DRF_25a2b5c31856ff4a3e6d0a7edcf332df23794659e674bd0e978a84102ddbbcca/section.md"
+        }
+      ],
+      "confidence": 0.95,
+      "question": "Tünelin Tanımı değerlendirilirken hangi fiziksel özellikler dikkate alınır?",
+      "question_id": "1.1-Q10",
+      "reason": "DIRECT_ANSWER",
+      "section_id": "1.1",
+      "source_locators": [
+        "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_b535170db3:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L11",
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_9298d2989f:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L6",
+        "ING_c736114ad7d9ac29557c:ING_c736114ad7d9ac29557c_CH_952f7615f5:pages=9-13;canonical=corpus/canonical/objects/ING_c736114ad7d9ac29557c/7744ed55e644a8175f2f9544108036932ffe4bf83d5f91d408c1327b2dae6358/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "ANSWERED",
+      "supporting_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+        "CLM_81e8f9b19ec34da8a0fee9f2ba8c3a3f43d7fb22d5a6e195f45a5cca8ac222db"
+      ],
+      "supporting_document_ids": [
+        "ING_7e795b9a47c89f5406c5",
+        "ING_2005c18d2148fb921826",
+        "ING_c736114ad7d9ac29557c"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "final_primary_section": "5",
+  "final_secondary_sections": [
+    "5.4",
+    "5.5.1",
+    "5.4.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5",
+      "section_title": "TÜNEL BAKIM-ONARIM VE İŞLETME MALİYETLERİ",
+      "supporting_elements": [
+        "FIG0002",
+        "PARA0005",
+        "PARA0011",
+        "PARA0019",
+        "FIG0003",
+        "PARA0056",
+        "HEAD0005",
+        "PARA0060",
+        "PARA0061",
+        "PARA0062",
+        "PARA0063",
+        "FIG0005",
+        "HEAD0008",
+        "PARA0064",
+        "PARA0065",
+        "PARA0068",
+        "PARA0073",
+        "PARA0076",
+        "FIG0011",
+        "FIG0012",
+        "HEAD0016",
+        "PARA0079",
+        "PARA0081",
+        "PARA0082",
+        "LIST0004"
+      ]
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "FIG0002",
+        "PARA0005",
+        "PARA0011",
+        "PARA0019",
+        "FIG0003",
+        "PARA0056",
+        "HEAD0005",
+        "PARA0060",
+        "PARA0061",
+        "PARA0062",
+        "PARA0063",
+        "FIG0005",
+        "HEAD0008",
+        "PARA0064",
+        "PARA0065",
+        "PARA0068",
+        "PARA0073",
+        "PARA0076",
+        "FIG0011",
+        "FIG0012",
+        "HEAD0016",
+        "PARA0079",
+        "PARA0081",
+        "PARA0082",
+        "LIST0004"
+      ]
+    },
+    {
+      "section_id": "5.5.1",
+      "section_title": "Yönetim ve İşletme Maliyetleri",
+      "supporting_elements": [
+        "FIG0002",
+        "PARA0004",
+        "PARA0005",
+        "PARA0008",
+        "PARA0011",
+        "PARA0019",
+        "PARA0031",
+        "PARA0033",
+        "FIG0003",
+        "PARA0056",
+        "HEAD0004",
+        "PARA0057",
+        "PARA0058",
+        "PARA0059",
+        "FIG0004",
+        "CAPT0001",
+        "HEAD0005",
+        "HEAD0006",
+        "PARA0060",
+        "PARA0061",
+        "PARA0062",
+        "PARA0063",
+        "FIG0005",
+        "CAPT0002",
+        "HEAD0008"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "FIG0004",
+        "FIG0005",
+        "PARA0066",
+        "HEAD0024",
+        "PARA0092",
+        "HEAD0025",
+        "PARA0093",
+        "HEAD0031",
+        "PARA0099",
+        "PARA0131",
+        "LIST0013",
+        "LIST0015",
+        "HEAD0058",
+        "PARA0162",
+        "PARA0206",
+        "FIG0027",
+        "PARA0228",
+        "PARA0243",
+        "PARA0271",
+        "LIST0066",
+        "LIST0075",
+        "PARA0315"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5",
+      "score": 0.8024,
+      "rule_score": 0.6667,
+      "embedding_score": 0.7481,
+      "chunk_vote": 0.2451
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.7665,
+      "rule_score": 0.6667,
+      "embedding_score": 0.7556,
+      "chunk_vote": 0.049
+    },
+    {
+      "id": "5.6",
+      "score": 0.4114,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2236
+    },
+    {
+      "id": "5.4",
+      "score": 0.3896,
+      "rule_score": 0.6923,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0441
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3477,
+      "rule_score": 0.0,
+      "embedding_score": 0.7727,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.1",
+      "score": 0.3451,
+      "rule_score": 0.0,
+      "embedding_score": 0.7492,
+      "chunk_vote": 0.04
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.345,
+      "rule_score": 0.0,
+      "embedding_score": 0.7667,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3387,
+      "rule_score": 0.0,
+      "embedding_score": 0.7526,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.3372,
+      "rule_score": 0.0,
+      "embedding_score": 0.7494,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3367,
+      "rule_score": 0.0,
+      "embedding_score": 0.7482,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, TII'nin tünel varlıkları için stratejik varlık yönetimi planını (SAMP) ve operasyonel yönetim yapısını (OMTTCC sözleşmesi, MOCC) detaylandırmaktadır. Bu içerik, tünel bakım-onarım ve işletme süreçlerinin genel çerçevesiyle (Bölüm 5) ve özellikle yönetim/operasyonel maliyetler ile bakım organizasyonuyla (5.4, 5.5.1) doğrudan ilişkilidir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5:0.8024 gap=0.036 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

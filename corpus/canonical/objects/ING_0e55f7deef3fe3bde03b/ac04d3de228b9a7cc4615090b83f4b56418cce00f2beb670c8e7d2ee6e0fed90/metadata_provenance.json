@@ -1,0 +1,116 @@
+{
+  "document_id": "ING_0e55f7deef3fe3bde03b",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Quantitative risk analysis for road tunnels complying with EU regulations",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Konstantinos A. Kirytopoulos",
+        "Rentizelas, AA",
+        "George Papadopoulos",
+        "Kirytopoulos, Konstantinos A.",
+        "Papadopoulos, George",
+        "Rentizelas, Athanasios A.",
+        "Kirytopoulos, KA",
+        "Tatsiopoulos, IP",
+        "Athanasios A. Rentizelas",
+        "Ilias P. Tatsiopoulos",
+        "Tatsiopoulos, Ilias P.",
+        "Papadopoulos, G"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2010",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "regulation",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: regulation"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "fire_safety",
+        "operations",
+        "regulation",
+        "risk",
+        "safety",
+        "standards",
+        "traffic",
+        "ventilation"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "risk:risk; safety:safety; fire_safety:tunnel fire; ventilation:ventilation; traffic:traffic; operations:operation; regulation:regulation; standards:standard; accident:accident; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://core.ac.uk/download/16429914.pdf",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1080/13669877.2010.494331",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,921 @@
+{
+  "document_id": "ING_3c433764639cd9f22e01",
+  "format": "PPTX",
+  "adapter": "pptx",
+  "normalized_markdown_path": "processing/ING_3c433764639cd9f22e01/normalized/document.md",
+  "normalized_json_path": "processing/ING_3c433764639cd9f22e01/normalized/document.json",
+  "normalized_text_path": "processing/ING_3c433764639cd9f22e01/normalized/document.txt",
+  "pages": [
+    "SLIDE0001",
+    "SLIDE0002",
+    "SLIDE0003",
+    "SLIDE0004",
+    "SLIDE0005",
+    "SLIDE0006",
+    "SLIDE0007",
+    "SLIDE0008",
+    "SLIDE0009",
+    "SLIDE0010",
+    "SLIDE0011",
+    "SLIDE0012",
+    "SLIDE0013",
+    "SLIDE0014",
+    "SLIDE0015",
+    "SLIDE0016",
+    "SLIDE0017",
+    "SLIDE0018",
+    "SLIDE0019",
+    "SLIDE0020",
+    "SLIDE0021",
+    "SLIDE0022",
+    "SLIDE0023",
+    "SLIDE0024",
+    "SLIDE0025",
+    "SLIDE0026",
+    "SLIDE0027",
+    "SLIDE0028",
+    "SLIDE0029",
+    "SLIDE0030",
+    "SLIDE0031",
+    "SLIDE0032",
+    "SLIDE0033",
+    "SLIDE0034",
+    "SLIDE0035",
+    "SLIDE0036",
+    "SLIDE0037",
+    "SLIDE0038",
+    "SLIDE0039",
+    "SLIDE0040",
+    "SLIDE0041",
+    "SLIDE0042",
+    "SLIDE0043",
+    "SLIDE0044",
+    "SLIDE0045",
+    "SLIDE0046",
+    "SLIDE0047",
+    "SLIDE0048",
+    "SLIDE0049",
+    "SLIDE0050",
+    "SLIDE0051",
+    "SLIDE0052",
+    "SLIDE0053",
+    "SLIDE0054",
+    "SLIDE0055",
+    "SLIDE0056",
+    "SLIDE0057",
+    "SLIDE0058",
+    "SLIDE0059",
+    "SLIDE0060",
+    "SLIDE0061",
+    "SLIDE0062",
+    "SLIDE0063",
+    "SLIDE0064"
+  ],
+  "figures": [
+    "FIG0001",
+    "FIG0002",
+    "FIG0003",
+    "FIG0004",
+    "FIG0005",
+    "FIG0006",
+    "FIG0007",
+    "FIG0008",
+    "FIG0009",
+    "FIG0010",
+    "FIG0011",
+    "FIG0012",
+    "FIG0013",
+    "FIG0014",
+    "FIG0015",
+    "FIG0016",
+    "FIG0017",
+    "FIG0018",
+    "FIG0019",
+    "FIG0020",
+    "FIG0021",
+    "FIG0022",
+    "FIG0023",
+    "FIG0024",
+    "FIG0025",
+    "FIG0026",
+    "FIG0027",
+    "FIG0028",
+    "FIG0029",
+    "FIG0030",
+    "FIG0031",
+    "FIG0032",
+    "FIG0033",
+    "FIG0034",
+    "FIG0035",
+    "FIG0036",
+    "FIG0037"
+  ],
+  "tables": [],
+  "charts": [],
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "TÜNEL ÖLÇÜM PLANLAMASI VE TASARIMA YÖNELİK DEĞERLENDİRMELER",
+      "text": "Mehmet Sercan KÜÇÜKASLAN                                                       27.02.2019\n           Tünel Proje Şefi (AR-GE)                                                              ANKARA",
+      "tables": [],
+      "figures": [
+        "FIG0001",
+        "FIG0002"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0001",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0001.png"
+    },
+    {
+      "slide_number": 2,
+      "title": "İÇİNDEKİLER",
+      "text": "NATM\nÖLÇÜM \nÖLÇÜM YAPILMASININ NEDENLERİ\nÖLÇÜM ENSTRÜMANLARI\nÖLÇÜM VERİLERİNİN TOPLANMASI\nÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ\nSONUÇLAR",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0002",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0002.png"
+    },
+    {
+      "slide_number": 3,
+      "title": "NATM",
+      "text": "PROJELENDİR\nİNŞAA ET\nGÖZLEMLE\nYENİDEN PROJELENDİR\n     BU PRENSİPLERLE BERABER KULLANILAN ESNEK BİR TASARIM YÖNTEMİDİR.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0003",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0003.png"
+    },
+    {
+      "slide_number": 4,
+      "title": "ÖLÇÜM",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0003"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0004",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0004.png"
+    },
+    {
+      "slide_number": 5,
+      "title": "ÖLÇÜM",
+      "text": "Bilinmeyen bir büyüklüğün aynı türden olan, ancak bilinen bir büyüklükle kıyaslanmasına denir. Bunun için standart ölçü birimleri kullanılır. \n    Diğer bir deyişle ölçüm, araştırma çalışmalarının bir parçası   olarak toplanan verileri gözleme ve kaydetme işlemidir.\n    Bir çok ölçüm metodu ve buna bağlı birimler mevcuttur.\n    En önemli husus ölçümün standart ve kalibre olmasıdır.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0005",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0005.png"
+    },
+    {
+      "slide_number": 6,
+      "title": "ÖLÇÜM YAPILMASININ NEDENLERİ",
+      "text": "Tünel projelendirilmesinde  oluşturulan jeolojik modelin ve esas alınan kabullerin kontrolü.\nBelirlenen kaya sınıflamalarının kontrolü.\nTünel kazısı sırasında ortaya çıkan koşullara göre yapım yönteminin ve destekleme elemanlarının revize edilmesi. Gerekirse ilave önlemlerin alınması.\nDestek sisteminin optimize edilerek güvenli ve ekonomik tünel yapımı.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0006",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0006.png"
+    },
+    {
+      "slide_number": 7,
+      "title": "ÖLÇÜM YAPILMASININ NEDENLERİ",
+      "text": "Tünel kazısı sırasında aynanın  önünde karşılaşılacak kaya ortamının davranışının yorumlanarak muhtemel problemlere karşı önlem alınması.\nTünel kazısının çevre yapılara olan etkisinin araştırılması ve gerekli önlemlerin alınması.\nÇalışma güvenliğini tehdit edebilecek muhtemel etkilere karşı önlem alınabilmesi.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0007",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0007.png"
+    },
+    {
+      "slide_number": 8,
+      "title": "ÖLÇÜM ENSTRÜMANLARI",
+      "text": "Tünel içi deformasyonları\nŞerit ekstansometre ile yakınlaşma ölçümleri\nTemassız yakınlaşma ölçümleri\nGerilmeler\nHidrolik basınç hücresi\nBirim deformasyon ölçer\nÇelik iksa birim deformasyon ölçer",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0008",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0008.png"
+    },
+    {
+      "slide_number": 9,
+      "title": "ÖLÇÜM ENSTRÜMANLARI",
+      "text": "Bulon yükleri\nYük hücresi\nYüzey deformasyonları\nEkstansometre\nİnklinometre",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0009",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0009.png"
+    },
+    {
+      "slide_number": 10,
+      "title": "ÖLÇÜM ENSTRÜMANLARI",
+      "text": "Yer altı suyu hareketleri\nPiezometre\nYapı hareketleri\nOturma ölçümleri\nDönme ölçümleri\nPatlatma titreşimi ve etkisi\nSismograf",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0010",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0010.png"
+    },
+    {
+      "slide_number": 11,
+      "title": "ÖLÇÜM ENSTRÜMANLARI",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0004"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0011",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0011.png"
+    },
+    {
+      "slide_number": 12,
+      "title": "ÖLÇÜM ENSTRÜMANLARI",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0005"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0012",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0012.png"
+    },
+    {
+      "slide_number": 13,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": "Verileri doğru ve sistemli toplayabilmek için neleri bilmeliyiz?\nProjede öngörülen jeolojik model ile kazı sırasında karşılaşılan jeolojik koşullar.\nBelirlenen kaya sınıfları.\nKazı yöntemi ve uygulanan ilerleme adımları.\nDestek elemanlarının yerleştirilme zamanı ve sırası.\nTünel aynasının mevcut pozisyonu ve durumu.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0013",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0013.png"
+    },
+    {
+      "slide_number": 14,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": "Bu verileri sıralamaya çalışırsak;\nBulonlara gelen yükler.\nTünel içi deformasyonlar.\nTünelde meydana gelen gerilmeler.\nTünel çevresindeki gevşeme bölgesinin sınırları.\nTaban kemerinde meydana gelen deformasyon.\nTünel üzerinde oluşan su basıncı ve etkisi.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0014",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0014.png"
+    },
+    {
+      "slide_number": 15,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": "Yüzey oturmaları.\nYüzeyde meydana gelen düşey ve yatay deplasmanlar.\nYer altı suyu durumu ve oluşturduğu basıncın yapımdan önce, yapımdan sonra izlenmesi ve karşılaştırılması.\nTünel püskürtme betonundan ve yapım sırasında aynadan gelen suyun izlenmesi ve akış hızının kayıt altına alınması.\nYer altı suyu boşaltılıyor ise YASS belirlenmesi.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0015",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0015.png"
+    },
+    {
+      "slide_number": 16,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": "Portal, portal çevresi, tünel ekseni ve tünel ekseni yakınında bulunan yapıların incelenmesi.\nBu yapılara gelebilecek etkilerin belirlenmesi.\nYapım esnasında bu yapıların izlenmesi. (Oturma, kabarma, yatay ve düşey deplasman ve dönme ölçümleri).\nPatlatmadan dolayı meydana gelebilecek titreşimlerin ölçülmesi.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0016",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0016.png"
+    },
+    {
+      "slide_number": 17,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": "ÖLÇÜM ALINACAK KESİT",
+      "tables": [],
+      "figures": [
+        "FIG0006"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0017",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0017.png"
+    },
+    {
+      "slide_number": 18,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": null,
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0018",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0018.png"
+    },
+    {
+      "slide_number": 19,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": null,
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0019",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0019.png"
+    },
+    {
+      "slide_number": 20,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": null,
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0020",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0020.png"
+    },
+    {
+      "slide_number": 21,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": "Deformasyon ölçüm aralıkları\nİlk hafta ölçümler günlük olarak alınacaktır.\nİkinci hafta ölçümler 2 defa alınacaktır.\nÜçüncü hafta ölçümler haftada bir defa alınacaktır.\nDördüncü hafta ise ölçümler 15 günde bir veya ayda bir olacak şekilde deformasyonların durumuna göre alınacaktır.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0021",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0021.png"
+    },
+    {
+      "slide_number": 22,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": "Ayrıca artan hızda deformasyon görülen kesitlerde okumalara, deformasyonlar sönümlenene kadar devam edilecektir.\nTesis edilen ölçüm noktaları ölçüm öncesinde kontrol edilerek zarar görmesi engellenecektir.\nÖlçüm kayıtlarında abartılı değerlerin olması durumunda ölçüm tekrarlanmalıdır.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0022",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0022.png"
+    },
+    {
+      "slide_number": 23,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0007"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0023",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0023.png"
+    },
+    {
+      "slide_number": 24,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0008"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0024",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0024.png"
+    },
+    {
+      "slide_number": 25,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0009"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0025",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0025.png"
+    },
+    {
+      "slide_number": 26,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": "Günümüz teknolojileri ile kazıda kullanılan roadheader ve TBM gibi tünel kazı makinaları da yapılan ölçümler sayesinde kendi kazı eksenlerini belirler ve ona göre ilerleyişlerini tamamlarlar.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0026",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0026.png"
+    },
+    {
+      "slide_number": 27,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0010"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0027",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0027.png"
+    },
+    {
+      "slide_number": 28,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0011"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0028",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0028.png"
+    },
+    {
+      "slide_number": 29,
+      "title": "ÖLÇÜM VERİLERİNİN TOPLANMASI",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0012"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0029",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0029.png"
+    },
+    {
+      "slide_number": 30,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": "Mutlak deplasmanların ölçümü jeolojik koşulları yansıtır ve destekleme elemanlarının düzenlenmesine imkan verir.\nDeformasyon ölçümleri relatif deplasmanları verdiği için tünelin genel stabilitesini kontrol etmekte kolaylık sağlar.\nDeformasyon ölçümleri özellikle zayıf kaya ortamında açılan sığ tünellerde kapanma ölçümleri ile birlikte kullanılarak kaya ortamı davranışı ile ilgili bilgi verir.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0030",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0030.png"
+    },
+    {
+      "slide_number": 31,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": "Kuyu ekstansometre ölçümleri ekstansometre boyunca kayanın deformasyon davranışını ve gevşeme bölgesi sınırlarını vererek kaya bulonu uzunluklarını belirlememize yardımcı olur.\nÖlçüm bulonları relatif deplasmanları verip elastik koşullarda ortalama birim deformasyonlardan ortalama kuvvet hesaplanabilir. Ancak bu hesap bulon boyunca deformasyonlar değişken olduğundan kaba bir yaklaşımdır.\nBirim deformasyon ölçümleri püskürtme betonda oluşan deformasyonları ölçerek püskürtme betonun yüklenmesi ile ilgili bilgi verir.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0031",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0031.png"
+    },
+    {
+      "slide_number": 32,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": "Elde edilen ölçümler ve buna bağlı olarak yapılan grafikler uygulamış olduğumuz destek sisteminin uygulama zamanının doğruluğu hakkında bilgi verir.\nNihai kaplamanın güvenli bir şekilde yapılmasında kılavuz olur.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0032",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0032.png"
+    },
+    {
+      "slide_number": 33,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": "Destek Sistemleri Elastik-Plastik Deformasyon İlişkisi\nTünel açılacak kaya kütlesi tünel açılmadan önce denge halindedir.\nTünel kazısı başladıktan sonra çeper basıncı içerideki basınçtan daha büyük olacağından deformasyonlar meydana gelir.\nBu halde bir Pcr değeri mevcuttur. Yapmış olduğumuz destek basıncı bu değerden büyükse deformasyonlar elastik, küçük ise plastik deformasyon meydana gelir. Bunun sonucunda plastik zon oluşur.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0033",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0033.png"
+    },
+    {
+      "slide_number": 34,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0013",
+        "FIG0014"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0034",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0034.png"
+    },
+    {
+      "slide_number": 35,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0015"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0035",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0035.png"
+    },
+    {
+      "slide_number": 36,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": "Deformasyonlar kazı yapılan aynadan yaklaşık 1.5 D kadar uzakta başlar.\nAyna seviyesinde ise deformasyonlar yaklaşık 3 te 1 seviyesine gelmiş olur.\nAynadan yaklaşık 1.5 D geride ise deformasyonlar tamamlanır.(Destek Sistemi yeterli durumda olursa)",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0036",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0036.png"
+    },
+    {
+      "slide_number": 37,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0016",
+        "FIG0017"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0037",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0037.png"
+    },
+    {
+      "slide_number": 38,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": "Ölçüm Bulonu Detayı",
+      "tables": [],
+      "figures": [
+        "FIG0018"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0038",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0038.png"
+    },
+    {
+      "slide_number": 39,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0019"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0039",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0039.png"
+    },
+    {
+      "slide_number": 40,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0020"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0040",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0040.png"
+    },
+    {
+      "slide_number": 41,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0021"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0041",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0041.png"
+    },
+    {
+      "slide_number": 42,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0022"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0042",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0042.png"
+    },
+    {
+      "slide_number": 43,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": "Ölçüm verileri değerlendirilirken elde edilen verilerin anlamlı bir şekilde grafiklere aktarılması gerekir.\nDeplasman-Zaman grafiği bize hareketin boyutları ve sistemin stabilitesi hakkında bilgi verir.\nDestek sistemi ve almış olduğu yükleri ve momentleri değerlendirmemizde yardımcı olur.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0043",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0043.png"
+    },
+    {
+      "slide_number": 44,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0023"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0044",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0044.png"
+    },
+    {
+      "slide_number": 45,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": "Kazı sınıfları için yapılan çalışmalar ve tecrübeler neticesinde beklenen nihai deplasmanlar yaklaşık olarak verilebilir.\nB1 için; 2-3 cm\nB2 için; 3-5 cm\nB3 için; 5-10 cm\nC2 için; >10 cm gibi değerler yaklaşık olarak düşünülebilir.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0045",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0045.png"
+    },
+    {
+      "slide_number": 46,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0024"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0046",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0046.png"
+    },
+    {
+      "slide_number": 47,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": "Deplasman-Ayna mesafesi grafiği , tünel ekseni boyunca yer alan ölçüm noktalarında aynı zamanda deplasman eğrilerinin birleştirilmesi ile oluşur.\nBu grafik bize tünel kazı ilerleyiş yönünde bulunan kaya koşulları hakkında bilgi verir. \nBu bilgiler ışığında gerekli önlemleri almamıza yardımcı olur.\nGrafikleri incelersek;",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0047",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0047.png"
+    },
+    {
+      "slide_number": 48,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0025"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0048",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0048.png"
+    },
+    {
+      "slide_number": 49,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0026"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0049",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0049.png"
+    },
+    {
+      "slide_number": 50,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": "Enkesitte Deplasman Vektörü Çizimi\nHareketin 2 boyutlu bileşkesi alınarak hareketin zamanla gelişimi izlenebilir.\nVektör çizimi zayıf zonları veya kazı alanı dışındaki fayların tespitini sağlar.\nHomojen ortamda simetrik vektörler elde edilirken kazı zayıf zona veya faya yaklaştığında vektörlerin bileşkesinin yönelimi bizi önlem alma noktasında doğru sonuca ulaştırır.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0050",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0050.png"
+    },
+    {
+      "slide_number": 51,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0027"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0051",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0051.png"
+    },
+    {
+      "slide_number": 52,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": "Ancak enkesitte deplasman vektör çizimleri boyuna deplasmanları göstermez.\nÇünkü 3. boyutta yapılan ölçümler dahil edilmemiştir.\nDeplasman hakkında bilgi tünel enkesiti ile sınırlı kalmış olur.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0052",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0052.png"
+    },
+    {
+      "slide_number": 53,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": "Boyuna Deplasmanlar\nZayıf kaya ortamlarında ve fay zonlarında açılan tünellerde kazı kesitindeki boyuna yöndeki deplasmanlar önemli mertebelere ulaşmaktadır.\nBoyuna deplasmanların oturmalara oranının tünel ekseni boyunca  çizimindeki farklılıklar, zayıf bölgelere yaklaşırken boyuna yöndeki deplasmanlardaki artış radyal deplasmanlara göre farklı olduğu için değişken kaya koşullarını gösterir.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0053",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0053.png"
+    },
+    {
+      "slide_number": 54,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0028"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0054",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0054.png"
+    },
+    {
+      "slide_number": 55,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": "Altyarı kazısı sonucu ani hareketler meydana gelir.\nDeplasman-Zaman grafiği üzerinde örneklemeye çalışırsak.",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0055",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0055.png"
+    },
+    {
+      "slide_number": 56,
+      "title": null,
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0029"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0056",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0056.png"
+    },
+    {
+      "slide_number": 57,
+      "title": null,
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0030"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0057",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0057.png"
+    },
+    {
+      "slide_number": 58,
+      "title": null,
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0031"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0058",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0058.png"
+    },
+    {
+      "slide_number": 59,
+      "title": "ÖLÇÜM VERİLERİNİN DEĞERLENDİRİLMESİ",
+      "text": "Ölçüm sonuçları grafik üzerinde dikkatle değerlendirilmelidir.\nGrafiklerde meydana gelen tutarsızlıklar dikkatle incelenmeli ve ölçümler tekrar kontrol edilmelidir.\nGrafik üzerinde anlatmaya çalışırsak;",
+      "tables": [],
+      "figures": [],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0059",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0059.png"
+    },
+    {
+      "slide_number": 60,
+      "title": null,
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0032"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0060",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0060.png"
+    },
+    {
+      "slide_number": 61,
+      "title": null,
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0033"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0061",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0061.png"
+    },
+    {
+      "slide_number": 62,
+      "title": null,
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0034"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0062",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0062.png"
+    },
+    {
+      "slide_number": 63,
+      "title": "SONUÇLAR",
+      "text": null,
+      "tables": [],
+      "figures": [
+        "FIG0035"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0063",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0063.png"
+    },
+    {
+      "slide_number": 64,
+      "title": "Sabırla dinlediğiniz için teşekkürler…",
+      "text": "Mehmet Sercan KÜÇÜKASLAN                            Tünel Proje Şefi\n25.02.2019                                                                 Zemin Mekaniği ve Tüneller\nANKARA                                                                          Şubesi Müdürlüğü\n                                                                                          Ar-Ge Dairesi Başkanlığı",
+      "tables": [],
+      "figures": [
+        "FIG0036",
+        "FIG0037"
+      ],
+      "charts": [],
+      "notes": null,
+      "snapshot_asset_id": "SLIDE0064",
+      "snapshot_path": "processing/ING_3c433764639cd9f22e01/slides/slide_0064.png"
+    }
+  ],
+  "sheets": [],
+  "ocr_items": [],
+  "text_elements": 133,
+  "warnings": [],
+  "errors": [],
+  "capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": true,
+    "sheets": false
+  },
+  "engine": {
+    "docling_status": "SUCCESS",
+    "docling_versions": {
+      "docling": "2.124.0",
+      "docling-core": "2.93.0",
+      "docling-ibm-models": "4.0.1",
+      "docling-parse": "7.16.0"
+    },
+    "native_parser": "python-pptx",
+    "structural_authority": "original_pptx"
+  },
+  "page_count": 64,
+  "text_char_count": 10080
+}

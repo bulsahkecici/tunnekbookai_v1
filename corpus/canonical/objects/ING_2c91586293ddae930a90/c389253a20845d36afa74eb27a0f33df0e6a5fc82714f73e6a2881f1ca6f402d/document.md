@@ -1,0 +1,593 @@
+# source_raw
+
+## A 3DEC Numerical Analysis of the Interaction Between an Uneven Rock Surface and Shotcrete Lining | Rock Mechanics and Rock Engineering | Springer Nature Link
+
+- Home
+
+- Rock Mechanics and Rock Engineering
+
+- Article
+
+## A 3DEC Numerical Analysis of the Interaction Between an Uneven Rock Surface and Shotcrete Lining
+
+- Original Paper
+
+- Open access
+
+- Published: 09 March 2021
+
+- Volume 54 , pages 2267–2289 ( 2021 )
+
+- Cite this article
+
+You have full access to this open access article
+
+- Ping Zhang ORCID: orcid.org/0000-0002-9278-1283 1 &
+
+- Ering Nordlund 1
+
+- 5252 Accesses
+
+5252 Accesses
+
+- 32 Citations
+
+32 Citations
+
+- Explore all metrics
+
+Explore all metrics
+
+### Abstract
+
+Rock tunnels excavated using drilling and blasting technique in jointed rock masses often have a very uneven and rough excavation surface. Experience from previous studies shows that the unevenness of a rock surface has a large impact on the support effect of shotcrete lining. However, clear conclusions regarding the effect of 2D and 3D uneven surfaces were not obtained due to limited studies in the literature. The numerical analyses reported in this paper were made to investigate the influence of the surface unevenness of a circular tunnel opening on the support effect of shotcrete using a 3D numerical code ( 3DEC ). The models were first calibrated with the help of observations and measured data obtained from physical model tests. The influential factors were investigated further in this numerical study after calibration had been achieved. The numerical analyses show that, in general, the unevenness of a tunnel surface produces negative support effects due to stress concentrations in recesses (compressive) and at apexes (tensile) after excavation. However, shotcrete sprayed on a doubly waved uneven surface has better support effect compared to shotcrete sprayed on a simply waved tunnel surface. The development of shear strength (specifically frictional strength) on the uneven interface between the shotcrete and the rock contributes to this effect, in the condition where bonding of the shotcrete does not work effectively. The interface is a crucial element when the interaction between the rock and shotcrete is to be simulated. When an entire tunnel surface is covered by shotcrete with high modulus, more failures will occur in the shotcrete especially when rock surface is uneven. Based on the numerical model cases examined, some recommendations on how to incorporate tunnel surface conditions (2D or 3D unevenness) in the design of a shotcrete lining are given.
+
+#### Similar content being viewed by others
+
+#### Design and Analysis of Shotcrete Lining in Tunnels Under Squeezing Ground Conditions: A Case Study of Atal Tunnel
+
+#### The Hyperstatic Reaction Method for the Analysis of the Sprayed Concrete Linings Behavior in Tunneling
+
+#### Design of Initial Shotcrete Lining for a Mine Shaft Using Two-Dimensional Finite Element Models Considering Excavation Advance Rate
+
+#### Explore related subjects
+
+- Soil and Rock Mechanics
+
+- Soil Physics
+
+- Structural Geology
+
+- Civil Engineering
+
+- Geotechnical Engineering and Applied Earth Sciences
+
+- Underground Engineering and Tunnel Construction
+
+- Numerical Modeling of Tunnel Excavation in Rock Mass
+
+### 1 Introduction
+
+Although shotcrete (sprayed concrete) has been widely used as a rock support in underground mines and in civil engineering projects, the design principles are, to a great extent, based on empirical methods (Barrett and McCreath 1995 ). The design of shotcrete for underground excavations is a very imprecise process and the current shotcrete “design” methodology relies heavily upon rules of thumb and precedent experience (Hoek et al. 2000 ). The main reason for this is that the interaction between rock and shotcrete is very complex and is influenced by a great number of factors, including the unevenness of the excavated rock surface, the interface properties between rock and shotcrete, the disturbed or damaged zone around the excavation, and the properties of discontinuities together with the surrounding rock and the shotcrete lining (Malmgren and Nordlund 2008 ).
+
+When a rock tunnel is excavated by drilling and blasting, the final profile of the tunnel boundary often has an uneven surface due to overbreak (underbreak is normally not allowed in underground excavations). This is more pronounced in a jointed rock mass. The level of unevenness of the rock surface due to overbreak depends on the geological conditions of the rock mass and the quality of drilling and blasting (Ibarra et al. 1996 ; Schmitz 2003 ). The thickness of the overbreak usually ranges between 6 and 38% of the tunnel diameter with a value of 10% of the tunnel diameter for an average quality of drilling and blasting and with more than 25% in fractured rock or when the blast is incorrectly carried out (Schmitz 2003 ). However, traditionally, the theoretical design of shotcrete support has been based on the assumption that the tunnel surface is smooth and circular, and that the shotcrete lining acts as a structural arch (ring) or as a series of beam elements in 2D (or shell elements in 3D), acting between point supports provided by rockbolts or cables. With the development of numerical modelling techniques, the shotcrete lining for any tunnel profile can be numerically simulated using beam elements in 2D (or shell elements in 3D), assuming a smooth interface surface between rock and shotcrete.
+
+Hoek and Brown ( 1980 ) pointed out that in the case of a thin shotcrete lining, abrupt changes to the shape of a tunnel profile can induce high stress concentrations in the shotcrete lining, causing cracking and a significant reduction in its load-bearing capacity. Chang ( 1994 ) investigated the influence of the unevenness of circular tunnel surfaces on the support effect of shotcrete in weak rock conditions using a large-scale laboratory test. The test results indicated that the shotcrete lining had limited support effect in terms of the load-bearing capacity and the stiffness of the rock-lining system for the simply waved tunnel surface (two-dimensional uneven surface). However, the overall load-bearing capacity and stiffness of the tested lined models were not strongly affected by the doubly waved unevenness of surfaces (three-dimensional uneven surface) compared to the tested smooth circular surface. The doubly waved linings seemed to have the potential to provide a higher residual load-bearing capacity, possibly due to the sliding resistance between the shotcrete–rock interfaces promoted by the unevenness, after initiation of shotcrete failure. Windsor and Thompson ( 1999 ) proposed a new concept of “shotcrete cover technique” which allows rock surface irregularities to be considered in the design of shotcrete linings. However, the theoretical analysis was based on the conventional rock support interaction analysis (i.e., cylindrical excavation, massive rock mass, and hydrostatic stress conditions) using an equivalent shotcrete/rock-lining to replace the irregularities and its shotcrete cover. Malmgren et al. (2005, 2008) studied the effect of excavation surface roughness of a drift in the Kiirunavaara underground mine using the two-dimensional Universal Distinct Element Code ( UDEC ). The unevenness used in these models was based on measurements of the surfaces of drifts in the Kiirunavaara mine. The studies showed that the number of tensile failures in the shotcrete and the number of shear/tensile failures at the interface are highly dependent on the form of surface unevenness, even when the amplitude is small. Because, normally, a tensile failure in the lining is better than a tensile or shear failure at the interface, they concluded that a high bond strength at the interface is favourable, at least for the investigated stress states. Son and Cording ( 2007 ) also conducted numerical analysis using UDEC to investigate the effect of excavation surface irregularities on the shotcrete lining response. To compare with the theoretical relationship, the thrust and moment change in the shotcrete lining of a circular tunnel, one with a smooth surface and one with an uneven surface, was investigated. The investigation indicated that the response of a lined tunnel is highly dependent on the unevenness of the excavation surface, the stiffness of the surrounding ground, and the state of earth pressure. Borio and Peila ( 2009 ) further confirmed Son and Cording’s ( 2007 ) conclusions using a 2D finite-element code ( Phase2 ). Later, Lee ( 2010 ) used a sinusoidal function to simulate an uneven circular tunnel perimeter and investigated its effects on the rock-shotcrete interaction using FLAC3D . The results showed that the axial stress in the shotcrete is highly dependent upon the unevenness as the axial stress of irregular shotcrete deviates from that of a theoretical solution. The shear stress on the interface is highly influenced by the wavelength of the liner irregularities; the shorter the wave length (or the higher the frequency of liner irregularity), the larger the shear stress becomes.
+
+Besides the physical model tests, experience from theoretical and numerical analyses show that the unevenness of a rock surface does indicate a large negative impact on the behavior and load-bearing capacity of the shotcrete lining. Therefore, it is still not clear how the excavation surface unevenness affects the mechanical response of shotcrete. Furthermore, like most of the theoretical analyses, the theoretical analysis conducted by Windsor and Thompson ( 1999 ) was based on the assumption that the shotcrete lining behaves as a structural ring. The interaction between the shotcrete and surrounding rock was not considered. The theoretical and numerical analyses were all based on the assumption that the unevenness did not vary longitudinally along the tunnel axis (i.e., 2D uneven surface), which is not true in reality due to the random distribution of joints and commonly used blasting techniques. Additionally, many studies did not even consider the interface between shotcrete and rock. It is known that thin layers of shotcrete often do provide effective support, a common observation being: “ the rock starts to behave when it sees the shotcrete ” (Stacey and Yu 2004 ). Therefore, the questions that arise here are: (i) how does a shotcrete lining behave when the excavation surface is uneven? and (ii) should the unevenness of a shotcrete lining be considered in future analyses to reach a rational shotcrete design?
+
+To answer these questions, the interaction between an uneven rock surface of a circular opening and a shotcrete lining and the support mechanism(s) of shotcrete was studied and is presented in this paper. The numerical code 3DEC (Three-Dimensional Distinct Element Code) (Itasca Consulting Group 2018) was adopted to investigate the effect of a three-dimensional uneven interface between the excavation surface and the shotcrete. The physical model tests conducted by Chang ( 1994 ) were first used to calibrate the models, and then, influential factors controlling the interaction between uneven tunnel surfaces and shotcrete were identified using the calibrated numerical model. In the end, some recommendations on how to consider the tunnel surface conditions (2D or 3D unevenness) for the design of shotcrete were given.
+
+### 2 Physical Model Test Description
+
+#### 2.1 Model Geometry, Material, and Test Method
+
+Chang ( 1994 ) conducted a set of physical model tests to investigate the effect of an uneven surface on rock and shotcrete interaction. A brief description of the tests and results is given in this section; specific details of the tests and the corresponding results can be found in Chang ( 1994 ).
+
+The models were 1.6 m × 1.6 m × 0.5 m and the “tunnel” profile was circular with a radius of 0.4 m. The model with smooth tunnel surface is shown in Fig. 1 a. To investigate the influence of the unevenness of the tunnel surface, two types of surfaces were tested, as shown in Fig. 1 b, c. One uneven surface was named as “simply waved”, so that the shape of the tunnel cross-section remained the same along the tunnel axis. The other surface was named as “doubly waved”, meaning that the tunnel surface was uneven in both the circumferential and the axial directions. For the simply waved tunnel surface shown in Fig. 1 b, the wavelength of the unevenness was 15.7 cm and the amplitude was 3.5 cm along the circumferential direction. The shape of the tunnel cross-section remained the same along the tunnel axis. For the doubly waved tunnel surface shown in Fig. 1 c, the wavelength and the amplitude of the unevenness along the circumference were the same as the simply waved one, but the wavelength of the unevenness was 20.0 cm and the amplitude was 3.0 cm along the tunnel axis. The level of unevenness can be represented by the ratio of the amplitude of the unevenness to the tunnel dimension (diameter for circular tunnel). The maximum level of unevenness used in the laboratory tests was 0.044 which is within the range of 0.032–0.12 from the field measurement in Kiirunavaara mine (Malmgren and Nordlund 2008 ).
+
+Test setup and tunnel surface in the physical model tests (①, ②, ③, and ④ in ( a ) indicate the convergence meters used to measure the radial displacement) (Chang 1994 )
+
+Two model materials were used in the tests: “rock” material, simulating soft rock, the other being “lining” material, and simulating the tunnel lining. The rock material was made of cement, bentonite, sand, and water. The lining material consisted basically of cement, sand, and water, as well as steel fibers (Dramix 30/50) with a content of 3% by weight for some models. The tested mechanical parameters can be found in Chang ( 1994 ). The concrete lining was mixed and placed manually onto the tunnel surface due to the difficulty and cost to spray a shotcrete lining in such a small model.
+
+The loading frame consisted of two movable inner steel plates and four outer steel beams that were firmly connected end to end. The load acting on the model was generated by six jacks attached to the two movable steel plates, three on each side. Each jack had a loading capacity of 30 tons and a loading length of 10 cm. Cyclic loading was used because of the short loading length of the jacks. As the deformation of the outer model boundary was very large, the full loading length of the jack was reached after a certain loading level. Therefore, the load had to be lowered to zero and the position of the jacks was adjusted before the next load cycle. The load was uniformly applied on the outer boundaries and only one quarter of the tunnel was modelled according to the axis-symmetrical principle. Furthermore, to maintain the plane strain condition as assumed in most theories, confinement was applied along the tunnel axis direction by two steel plates, bolts and nuts. The instrumentation during the tests consisted of devices for measuring the oil pressure in the loading system and the radial displacement of the tunnel surface. Four convergence meters were installed, but only the two in the middle of the tunnel (① and ② in Fig. 1 a) were used for analysis due to the boundary effects.
+
+#### 2.2 Test Results and Conclusions
+
+A total of seven models were tested. Only four physical model tests used for calibrating the numerical models are presented in this paper. The physical models chosen for calibration were as follows: (i) an unlined smooth surface (Model 1), (ii) a lined smooth surface (Model 3), (iii) a lined simply waved uneven surface (Model 4), and (iv) a lined doubly waved uneven surface (Model 7). The thickness of the concrete lining was 1 cm and it was the same for models 3, 4, and 7. However, the plain concrete was used as shotcrete lining for physical models 3 and 4, while steel-fiber-reinforced concrete was used in physical model 7 by Chang ( 1994 ). It should be explained that Chang ( 1994 ) did not conduct any test for the doubly waved uneven surface model using plain concrete as shotcrete lining. Therefore, the test result with the usage of steel-fiber-reinforced concrete from model 7 was used for comparison with other models. To limit the text and make it easy to follow, part of the physical test observations is presented in Sect. 4 when comparing with the numerical results. The curves of the stress applied on the outer boundaries against the average displacement measured from the two convergence meters were redrawn and are plotted in Fig. 2 . The failure modes for the unlined and three lined physical models are presented in Fig. 3 .
+
+Curves of stress applied on the outer boundaries against the average displacement measured from the two convergence meters from the physical model tests (redrawn from Chang ( 1994 ))
+
+Failure modes for the unlined and three lined physical models (from Chang ( 1994 ))
+
+The load-bearing capacity and the stiffness of the rock-lining system by means of the measured stress–displacement curves were used to evaluate the support effect of the shotcrete lining applied on different tunnel surfaces. The main conclusions drawn by Chang ( 1994 ) with respect to the support effect of the shotcrete lining can be summarized as follows:
+
+(1) The shotcrete lining for the simply waved tunnel surface model has limited support effect in terms of the load-bearing capacity and the stiffness of the rock-lining system. The observations indicate that tensile cracks are present at the apexes at quite low load levels, indicating that maximum bending moments act in the apexes and recesses. Such localized cracking causes deterioration of the lining system as a whole.
+
+(2) The support effect of the shotcrete lining for the doubly waved tunnel surface model is greater than that of the simply waved tunnel surface model. Both the load-bearing capacity and the stiffness of the rock-lining system are improved.
+
+(3) The doubly waved tunnel surface model has higher residual load-bearing capacity than the model with smooth tunnel surface, while the stiffness and the peak load-bearing capacity of the rock-lining system are almost the same.
+
+### 3 Numerical Model Description
+
+#### 3.1 Model Geometry and Boundary Conditions
+
+From the measured stress–displacement curves and observations of the physical model tests, it can be seen that the unevenness of the tunnel surface has a significant influence on the interaction between the rock and the shotcrete lining. Furthermore, the interface between the rock surface and shotcrete appears to play an important role in the interaction. After the localized failure occurs, it seems that the resistance provided by the uneven interface was significant (Chang 1994 ).
+
+In this study, to consider the influence of the interface between the rock surface and the shotcrete lining when the rock surface has a three-dimensional unevenness, a three-dimensional Distinct Element Code, 3DEC , Ver5.2, was used (Itasca Consulting Group 2018). The interface was simulated by treating it as a discontinuity and the corresponding mechanical parameters were applied in the 3DEC model.
+
+The numerical models were given the same dimensions as those of the physical models, and the tunnel was modelled as a three-dimensional assemblage of deformable blocks. Zone/element sizes and aspect ratios were minimised near the tunnel boundary and gradually increased outwards. Tunnel meshes for the three different physical model surfaces (Fig. 1 ) are shown in Fig. 4 a, b, c. The first case (cylindrical smooth surface) was used as a reference; see Fig. 4 a. The radius of the circular tunnel was set to 0.4 m, and the same radius was used for the reference circles of the uneven tunnel peripheries. The shape/scale of the unevenness of the simply waved and the doubly waved tunnel surfaces were the same as those in the physical models. The detailed geometry of the numerical model for the doubly waved surface is shown in Fig. 4 c.
+
+Numerical models with different tunnel surfaces (black dot is the monitoring point) (color figure online)
+
+To consider the complex geometry of shotcrete on an uneven surface, the shotcrete lining was modelled using deformable zones/elements. The segmental tunnel shotcrete was created as a very dense radial grid with 5 zones over the thickness (1 cm). The choice of 5 zones was determined by simulating a cantilever beam with different zone numbers. By comparing the results with the analytical solution, it was found that the numerical error was less than 6% when more than 5 zones were used to discretize the beam. The interface between the rock and the shotcrete was included to allow for the possibility of opening, closing, and slip. The zones representing the shotcrete were defined with an aspect ratio close to one, thereby reducing numerical calculation inaccuracies.
+
+The dimensions and boundary conditions of the numerical model are presented in Fig. 5 using the simply waved tunnel surface as an example. According to the physical model tests, the left surface of the numerical model shown in Fig. 5 a was fixed in the X direction, the bottom surface was fixed in the Z direction, the front and back surfaces were fixed in the Y direction (Fig. 5 b), and the right ( X direction) and top surfaces ( Z direction) were subjected to loading (Fig. 5 a).
+
+Dimensions and boundary conditions of the numerical model with simply waved tunnel surface
+
+To obtain the displacement and compare it with the physical test, the load was applied at different stress levels on the exterior boundaries (the right and top surfaces). The stress levels used were 0.3, 0.4, 0.5, 0.6, 0.7, and 0.8 MPa. After the model had ran and reached equilibrium, the displacement at each stress level was then recorded.
+
+#### 3.2 Material Properties
+
+An elastic-perfectly plastic Mohr–Coulomb constitutive model was first used for the rock and shotcrete lining. However, the displacement obtained from the numerical model was much less than that from the physical tests. Therefore, a strain-softening constitutive model was then used to simulate the possible plastic behavior for both the rock and shotcrete lining. The deformation and peak strength parameters of the rock material used were the same as those derived from laboratory tests by Chang ( 1994 ). However, according to Chang’s theoretical analysis, the tested modulus of elasticity and uniaxial compressive strength of the lining was too high to match the results from the tests. According to Chang ( 1994 ), this was probably due to the boundary effects of the lining and the variation of the lining thickness over the tunnel surface caused by manually placing the lining. The error due to test preparation might affect the stiffness of the shotcrete lining and hence make the lining somewhat “softer” than it should have been. Therefore, the reduced modulus of elasticity and uniaxial compressive strength of the lining used by Chang ( 1994 ) were adopted in the current numerical analyses, as well. As only the uniaxial compressive strength of the shotcrete was available in Chang ( 1994 ), peak cohesion was calculated by assuming an internal friction angle of 30.0°. The normal and shear stiffnesses of the interface were not tested in Chang’s original work. They were instead calculated by assuming that the stiffness of the interface is proportional to the modulus of the adjacent material. By means of the modulus ratio and the tested value of shotcrete-rock joint stiffness (Saiang et al. 2005 ), the normal and shear stiffnesses of the interface were calculated and are shown in Table 1 . Coulomb slip criterion was adopted for simulating the possible failure of interface in shear or tension. The residual strength parameters of the rock and the shotcrete as well as the strength parameters of the interface were determined based on some numerical trial tests and are presented in Table 1 .
+
+#### 3.3 Validation of Numerical Models by Physical Model Tests
+
+Since only the radial displacement on the tunnel surface was recorded and the final failure shape was documented in the physical model tests, the validation was performed by comparing these quantities from tests with those from the numerical models. According to the physical model tests, the radial displacement recorded by convergence meters ① and ② shown in Fig. 1 a in the middle of the tunnel gave consistent readings when averaged. A point located in the middle of the tunnel surface ( Y = 0.25 m, Y = 0 is at the front surface of the numerical model) was chosen and used for comparison. For simply and doubly waved tunnel surfaces, this meant monitoring a point (in 3DEC , history point) located at an apex, see Figs. 4 and 5 (black dot). The distribution of the yielded zones calculated at Y = 0.20 m from the numerical model was then used as an indicator of the failure development. The reason to choose Y = 0.20 m is because the geometry of the profile is the same for both simply waved and doubly waved models, which makes it comparable. To make it visible, only the area near the tunnel boundary (0.9 m by 0.9 m in both X and Z directions) is plotted in the following figures. Yield in tension and shear in both the shotcrete and rock is represented in red and dark blue, respectively. Tensile and slipping failures at the interface are represented in red and dark blue, respectively.
+
+#### 3.4 Unlined Tunnel with Smooth Tunnel Surface (Model 1)
+
+The stress–displacement curve calculated by 3DEC at different stress levels is plotted in Fig. 6 a together with the curve from the physical test. When the stress applied on the exterior boundary was low (less than 0.4 MPa), most of the rock material near the tunnel boundary was still in an elastic state except at some points where the tunnel surface was not smooth; therefore, there was a few yielded zones in the numerical model (see Fig. 6 b). When the load increased to a quite high level (larger than 0.6 MPa), a large number of yielded zones in rock appeared. The agreement is good between the stress–displacement curves from the physical and numerical models (see Fig. 6 a). It seems that the strain-softening constitutive model could capture the deformation behavior of the rock in the post-peak failure process.
+
+Numerical results for Model 1 (Note: yield in tension and shear is represented in red and dark blue, respectively, in the yielded zones and the same for the following figures.) (color figure online)
+
+By comparing Figs. 3 a and 6 c, it was found that the yielded zones were not uniformly distributed along the tunnel boundary and the depth of the yielded zones in the center calculated by the numerical model was in the range of 60–180 mm. A possible explanation for the non-uniform distribution of the yielded zones is that (i) a non-smooth tunnel boundary was used in the numerical model, and (ii) the strain-softening constitutive model was used in the simulation. The circular tunnel boundary was created by 8 straight lines in the simulation which generated stress concentrations at the intersection points. When rock failure initiated at certain point(s), the development of the localized failure indicated by yielded zones was promoted using the strain-softening constitutive model. According to the physical model test, the extension of the fracturing was about 80 mm. It looked the depth of the yielded zones at most of the locations along the tunnel surface was larger than 80 mm due to the reasons explained above. Still, the depth of the fracture extension from the physical test was within the range of the calculated depth of the yielded zones, indicating that the yielded zones could be used for analysing the location and depth of the failure zone as well as for comparison between different cases.
+
+#### 3.5 Lined Tunnel with Smooth Tunnel Surface (Model 3)
+
+As can be seen in the numerical simulation in Fig. 7 a, when the load reached 0.6 MPa, yielded zones can be observed within the shotcrete. This is because the shotcrete was much stiffer than the rock in the physical model (ratio of modulus of elasticity between the shotcrete and the rock was 40) and some parts without smooth connection had large stress concentrations and were yielded in shear (in dark blue). This is also why cracks were observed at certain locations in the physical model test when the load reached 0.6 MPa. The radial displacements calculated by the numerical model were generally smaller than those of the physical model test when the stress level was less than 0.5 MPa (see Fig. 7 b). Since the model test was conducted using cyclic loading (due to the short loading length of the jacks), there was residual displacement even when the rock and shotcrete were still in an elastic state. A possible explanation for the residual displacement is that the sample and the loading frame were not well matched. Therefore, it is reasonable to remove this residual displacement from the total displacement to obtain the correct value. After the residual displacement was subtracted from the tested stress–displacement curve (see Fig. 7 c), the results of the physical and numerical models show good agreement when the stress level was less than 0.5 MPa. When the stress level was higher than 0.6 MPa, the displacement difference between physical and numerical models became significant. As the cracking and shear failure of the lining occurred in a sudden manner accompanied by a popping sound and a considerable load drop when the load reached 0.6 MPa in the physical test (see Fig. 3 b), it indicates that part of the lining loses its bearing capacity. However, this sudden failure could not be well simulated using a continuous numerical code. Instead, a piece of shotcrete segment was removed in the numerical model (see Fig. 7 d), and the displacement was obtained and is plotted in blue dash curves in the same Fig. 7 c. As can be seen in the figure, the results from the modified numerical model could capture the displacement development very well.
+
+Numerical results for Model 3
+
+#### 3.6 Lined Tunnel with Simply Waved Tunnel Surface (Model 4)
+
+When the external load was applied to the numerical model boundary, tensile stresses were generated at the apexes, even at a low loading level. When the loading level reached 0.3 MPa, tensile stresses had accumulated and started to exceed the tensile strength of the shotcrete material and thus caused tensile failure at the apexes, Fig. 8 a. Tensile cracks were clearly seen at one of the apexes from the physical model test too at the same loading level. At the same time, the interface opened slightly near the apexes, which can be seen in terms of interface failure in Fig. 8 b. With an increase of the stress to 0.6 MPa, the opening between the shotcrete and the rock at the apexes became obvious (see Fig. 8 c). In the physical model test, it was also observed that the lining at the apex was split from the rock surface at P = 0.6 MPa; see Fig. 3 c. When the load was increased to 0.7 MPa, a piece of rock was squeezed out of the tested block from the physical model test (Fig. 3 d). In the numerical simulation, when the load increased to 0.7 MPa, large number of yielded zones and failures appeared both in the rock and at the interface; see Fig. 8 d, e. With the increase of the load, the region of tensile failure within the shotcrete increased (shown in red in Fig. 8 d). When the shotcrete failed in tension and became separated from the rock material, the load initially carried by the shotcrete was transferred to the surrounding rock and large areas of shear failure formed in the rock, shown in dark blue in Fig. 8 d. The yielded zones within the rock and the failure at rock-shotcrete interface were connected between two recesses (Fig. 8 d, e), indicating that the rock material between two recesses was no longer supported by the shotcrete or the local support from shotcrete was negligible. Since the numerical code could not explicitly simulate the initiation and propagation process of the fracturing, it was not possible to simulate this breakage within the rock material. However, based on the numerical analysis, it can be concluded that the rock material between the two recesses can be sheared off and squeezed out of the matrix material, since the rock material behind the apexes has become severely yielded. The thickness of the possible sheared-off rock piece would be around 34–60 mm in terms of yielded zone distribution from the numerical model which is close to 40 mm as observed during the physical test.
+
+Numerical results for Model 4
+
+Chang ( 1994 mentioned in his thesis that the convergence meters were installed in the middle of the tunnel. As it is difficult to keep the instruments on an apex during loading, when the tunnel surface is uneven, it is reasonable to assume that the displacement measured in the physical model could be obtained somewhere between a recess and an apex. Based on this extrapolation, the displacement on the recess in the numerical model is also plotted in Fig. 8 f. It is noted that the displacement recorded at the apex is larger than that at the recess from the numerical model. It is encouraging to see that the displacement from the physical model falls into the displacement range recorded between the recess and apex from the numerical model.
+
+#### 3.7 Lined Tunnel with Doubly Waved Tunnel Surface (Model 7)
+
+In the numerical simulation, the gradual deformation and progressive failure process was simulated rather well. Even when the loading level was as low as 0.3 MPa, the shotcrete did not behave elastically and tensile failure occurred on the apexes in the shotcrete. With the increase of load, the areas with high tensile stress concentration, near the shotcrete apexes, as well as the areas with high compressive stress concentration near the shotcrete recesses, became larger. That was the cause of the violent shear failure observed at the recesses in the physical model test when the stress reached 0.65 MPa. At the same time, the separating area on the interface increased and the gap between rock and shotcrete became more distinct. As the shotcrete gradually lost its loading capacity, the rock behind the shotcrete started to carry more and more load which was characterized by an increase of the yielded zones within the rock, see Fig. 9 a. When the stress increased to 0.7 MPa, there were significant tensile failures on the interface (Fig. 9 b), which implied that the shotcrete had separated from the tunnel surface. The yielded zones (in shear) within the rock intersected the rock–shotcrete interface, suggesting that the irregularity (rock material between two recesses) would be sheared off, as observed in the physical model (Fig. 3 e).
+
+Numerical results for Model 7
+
+As discussed in Sect. 4.3, the displacements at both the apex and the recess at the middle of the tunnel were recorded and are plotted in Fig. 9 c. The displacement obtained by the physical model is lower than that in the numerical model when the loading level is less than 0.4 MPa. When the loading level is higher than 0.5 MPa, there is very good agreement between the displacement at the recess in the physical test and that calculated by the numerical model. It also supports the extrapolation made in Sect. 4.3, i.e., the displacement measured in the physical model could be obtained somewhere between a recess and an apex.
+
+### 4 Further Numerical Analysis
+
+Based on the above detailed analysis, it is apparent that numerical models can simulate rather well the deformation and failure process observed in the physical model tests. It also indicates that the numerical models are correctly constructed and the parameters and failure criterion applied in the numerical models are appropriate. As the number of the physical model tests was limited, quantitative conclusions regarding the influence of unevenness on the support effect of shotcrete lining could not be made (Chang 1994 ). Instead, it was further investigated by extension of the validated numerical model.
+
+#### 4.1 Research Schemes
+
+Since the focus now is on comparing the results from different numerical models with smooth, simply waved, and doubly waved tunnel surfaces, the loading level applied to the model boundary may now be fixed. The loading should be applied at such a level that some failures on the interface as well as in the shotcrete can occur, without being excessive, so that a comparison becomes unclear. After completing some preliminary analyses, a loading level of 0.4 MPa was chosen in the following modelling.
+
+There are several different opinions on how the engineering properties of shotcrete relate to its operational performance, especially with regard to its adhesion/bond strength (Kaiser 1993 ; Brown 1999 ; Stacey 2001 ). Therefore, different bond strength/adhesion parameters were used to study the actual possible role of adhesion on the interaction between shotcrete and rock.
+
+Furthermore, in Chang’s model test, the shotcrete was applied to the entire inner tunnel boundary. In practice, it is quite often that not the entire tunnel surface is covered by shotcrete, e.g., the floor is left exposed to air without being covered by shotcrete. To consider the effect of differences in shotcrete application, closed (full coverage of shotcrete) and non-closed (lower segment without coverage) shotcrete rings were studied in the current analyses (see Fig. 10 ).
+
+Geometry of the closed and non-closed shotcrete ring attached on an uneven tunnel surface
+
+It is known that the modulus ratio between shotcrete and rock affects the load transfer between rock and shotcrete and further damage status in both rock and shotcrete. In Chang’s tests (Chang 1994 ), the shotcrete was much stiffer than the rock (ratio of modulus of elasticity between the shotcrete and the rock is 40). To understand how the unevenness affects the interaction between soft shotcrete and rock, lower modulus of shotcrete was investigated in this section. The detailed research schemes are listed in Table 2 .
+
+#### 4.2 Numerical Results
+
+For comparison purpose, the results of the distribution of the yielded zones in a cross-section ( Y = 0.2 m) for Schemes 1, 2, and 3 are plotted in Fig. 11 . The number of yielded zones in the rock and shotcrete as well as failure at the rock–shotcrete interface for different schemes is summarized and plotted in Fig. 12 . To avoid the boundary effect, only the volume located between the Ray 2 and Ray 3 (indicated in Fig. 5 a) within the radius of 0.46 m and between Y = 0.2 m and Y = 0.3 m, i.e., in the central volume near the tunnel surface, was chosen for comparison. It has to be noted that the number of the yielded zones is represented in percentage in Fig. 12 , as there is a slight difference of the total number of zones for models with different tunnel surface conditions. The radial displacements at the apex (black dot) and recess (blue dot) at Y = 0.2 m were monitored and the results are plotted in Fig. 13 .
+
+Comparison of distribution of yielded zones from models with different surface conditions in Schemes 1, 2 and 3 (Note: yield in tension and shear is represented in red and dark blue, respectively)
+
+Comparison of the number of yield zones in rock and shotcrete as well as failure at rock–shotcrete interface for different schemes (in percentage)
+
+Comparison of displacement at the apex and recess for different schemes
+
+To give a quantitative comparison and detailed investigation of the stress redistribution in the shotcrete for different schemes, the minor and major principal stresses within the shotcrete at certain points along its central line are plotted in Fig. 14 . The horizontal axis of the plots is represented by the angle (degrees) measured from the horizontal line, as shown in Fig. 5 a. It has to be noted that compression is minus in 3DEC .
+
+Comparison of the minor and major principal stresses within the shotcrete at certain points along its central line for different schemes and different tunnel surfaces
+
+##### 4.2.1 Effect of Unevenness of Rock Surface (Schemes 1 and 2)
+
+To compare the difference between models without and with shotcrete in Schemes 1 and 2, the development of the tangential and radial stresses in the rock along two rays from the center (see location of Ray 1 and Ray 2 in Fig. 5 a) is plotted in Figs. 15 and 16 . The two rays are drawn from the center of the cross-section. The angle between Ray 1 and the horizontal line is 45 degrees and the angle between Ray 2 and the horizontal line is 33.75 degrees. Ray 1 passes an apex (black dot) and Ray 2 passes a recess (blue dot) when the tunnel surface is uneven. The tangential and radial stresses calculated from Kirsch’s solution are also plotted in Figs. 15 and 16 as a reference. In addition, the comparison of the minor and major principal stresses within the shotcrete for different tunnel surfaces in Scheme 2 is plotted in Fig. 17 . The failure at the interface in the cross section for models with different tunnel surfaces in Scheme 2 is presented in Fig. 18 .
+
+Comparison of tangential and radial stresses in rock along Ray 1 and Ray 2 for Scheme 1
+
+Comparison of tangential and radial stresses in rock along Ray 1 and Ray 2 for Scheme 2
+
+Comparison of the minor and major principal stresses within the shotcrete at certain points along its central line for different tunnel surfaces for Scheme 2
+
+Failures at the interface between the rock and shotcrete when applying shotcrete (Scheme 2)
+
+The effect of unevenness of the rock surface was first investigated without considering the shotcrete. As can be seen from Fig. 11 a for smooth tunnel surface, the yielded zones initiate at the intersection points of the straight lines used to create the circular tunnel boundary and propagate into the rock with limited length. The zones are yielded in shear due to high stress concentration. For simply and doubly waved tunnel surfaces (Fig. 11 b–c), the plastic regions where yielded zones are located at the cross-section look like “bridges” connecting two nearby recesses. There is no obvious difference between simply and doubly waved tunnel surfaces, except that the yielded zones are not connected between two recesses close to the vertical symmetrical plane for simply waved tunnel surface. This might be due to a slight difference of stress redistribution caused by different zone geometry and dimension near those recesses. This was further investigated by increasing the external loading to a higher level and it was found that this difference disappeared. There is a slight difference in the number of the yielded zones and displacements between models with smooth and uneven (simply and doubly waved) surfaces (see Figs. 12 a and 13 ). The tangential and radial stresses along Ray 1 and Ray 2 were further investigated. This shows small difference between models with smooth and uneven surfaces in Fig. 15 . The major difference exists when the radius is less than 0.46 m where localized failure occurs. Additionally, there is a larger difference between the stresses calculated using numerical code and Kirsch’s solution for the tangential stress than for the radial stress. It can be concluded that the difference between models with smooth and uneven (simply and doubly waved) surfaces is very small when the tunnel surface is not covered by shotcrete.
+
+When shotcrete was applied on a smooth tunnel surface, the plastic region immediately disappeared in the rock at the specified loading level due to the confinement provided by the shotcrete. There is a negligible number of yielded zones along the vertical and horizontal symmetry boundaries in the shotcrete, mainly due to the boundary effect (Figs. 11 d, 12 a, b). This is further supported by investigating the stress redistribution in both the rock and shotcrete. As it is shown in Figs. 15 and 16 , the radial stresses along both Ray 1 and Ray 2 are much higher in Scheme 2 than that in Scheme 1, where the shotcrete was not applied. Due to the increased confinement (radial stress) in the rock, the tangential stresses become less concentrated. Since the tunnel is circular and in-plane stresses are equal, the stress on the whole interface is compressive, explaining why no failure was observed on the interface (Fig. 12 c). Due to a large modulus ratio between the shotcrete and rock (40), there is significant reduction of displacement on the tunnel surface when the shotcrete was applied (Fig. 13 ). There are high compressive stress concentrations but negligible tensile stress in the shotcrete (Fig. 14 ). It is also clear to see how the boundaries (0 and 90 degrees from horizontal line) affect the stress redistribution in the shotcrete in Fig. 14 a.
+
+When the tunnel surface is uneven, the failures (shown by the plastic region) appear in both shotcrete and rock for simply and doubly waved surfaces (Fig. 11 e–f). In general, compression-induced shear failures occur near the recesses and tensile failure near the apexes in the rock (Fig. 16 ). There are mainly tensile failures at the recesses and apexes in the shotcrete due to bending. Along the central line of the shotcrete, the stress distribution is non-uniform for both simply and doubly waved surfaces, but the fluctuation is smaller for doubly waved surface (Fig. 14 ). The interaction between the doubly waved surface and the shotcrete seems to provide better loading situations in shotcrete compared to that of the simply waved surface, i.e., less compressive and tensile stress concentration, which can be clearly seen in the comparison in Fig. 17 . There are significantly fewer failures occurring in the rock, shotcrete, and at the interface for the doubly waved surface model compared to that of the simply waved surface model in Fig. 12 . The displacement of the shotcrete surface is also much lower for the doubly waved surface model in comparison with simply waved, especially at the apex (Fig. 13 ). Due to the failure at interface and separation between the shotcrete and the rock at the apexes, the displacement at the surface for the simply and doubly waved models is larger than that without shotcrete (Fig. 13 (a)). Because of the unevenness of the rock surface in both the axial and the circumferential directions, the supporting effect provided by the doubly wave surface model is larger than that of the simply waved model, causing larger shear resistance and less failure at the interface. The interface failures are uniformly and continuously distributed along the Y axis for simply waved surface model, but non-uniformly and discontinuously distributed for doubly waved surface model (Fig. 18 ).
+
+Based on the comparison in Figs. 11 – 18 , it can be concluded that the support effect of shotcrete is significant for smooth tunnel surface, but this effect is weakened if the surfaces are uneven (simply and doubly waved). The doubled waved surface model can provide better support effect compared to the simply waved surface model.
+
+##### 4.2.2 Effect of Rock–Shotcrete Interface Strength (Schemes 2 and 3)
+
+In Scheme 3, both the deformation and strength parameters of the interface are set to “infinitely” high, meaning that no relative movement at the interface is allowed. This analysis simulated a very well-bonded interface between shotcrete and rock. For the smooth surface, this change of the interface strength parameters does not affect the results in comparison with those given for a real interface strength (Scheme 2), which can be seen in Figs. 11 g, 12 , 13 , and 14 . This is accounted for by the normal stress on the interface being compressive and the shear stress close to zero due to the circular tunnel shape and the equal in-plane stresses applied in the model. Therefore, the strength parameters have little influence as there is no tensile or shear failures occurring on the interface.
+
+For both simply waved and doubly waved surfaces with infinitely high interface strength parameters (Scheme 3), there is a significant decrease of displacement and extent of the plastic regions in the shotcrete, while at the same time, the plastic regions in the rock significantly increase compared to the results of real interface strength parameters (Scheme 2), which can be seen in Figs. 11 h–i, 12 a–b, and 13 . When the bond between shotcrete and rock is weak, the shotcrete failure occurred due to stress concentrations as well as by separation from the rock surface with corresponding bending. When the shotcrete and rock are fully bonded, the tensile stress concentrations at some points in the shotcrete become less, which is especially significant for the simply waved surface as can be seen in Fig. 14 d. The separation of shotcrete from the rock surface is avoided, and hence, the failures become very localized with reduced yielded zones in shotcrete. At the same time, the load is transferred to the rock, causing the number of zones in the plastic region to increase in the rock. However, the depth and extent of the plastic region does not increase and the increase in the number of zones in the plastic region is limited to the uneven area between two recesses (Fig. 11 h–i). There are somewhat more zones in the plastic region in the shotcrete for the doubly waved surface compared to that of the simply waved surface (Fig. 12 b). Figure 11 h–i shows that there are more tensile failures around the apexes for the doubly waved surface as demonstrated by the markedly higher stress concentrations due to the 3D conical shape. When the rock and shotcrete are fully bonded, the difference between simply and doubly waved surfaces is significantly reduced, as demonstrated by the number of yielded zones in the rock and the shotcrete as well as the values obtained for the displacement of the shotcrete.
+
+##### 4.2.3 Effect of Support Ring (Schemes 2 and 4)
+
+In practice, the shotcrete ring is normally not closed around the entire excavation boundary. The non-closed shotcrete ring is arguably closer to reality. The comparison between the results from Scheme 2 and Scheme 4 can be found in Figs. 12 – 14 .
+
+For a smooth surface, there is a remarkable increase of interface failures and displacement for the non-closed shotcrete ring (Scheme 4) in comparison with the closed shotcrete ring (Scheme 2). However, there is only slight increase of the number of yielded zones in the shotcrete (0.1%) and almost no change in the rock due to lower loading level (0.4 MPa) applied. This was further investigated by increasing the external load to a higher level (0.6 MPa). It was found that there was a significant increase of the number of yielded zones in both shotcrete and rock in Scheme 4 (non-closed shotcrete ring) in comparison with Scheme 2 (closed ring). The reason for this change is that the structural ring effect diminishes and the relative movement between rock and shotcrete occurs when the shotcrete ring is not closed. The relative movement further acts to relieve the stress concentration in the shotcrete and rock, which can be clearly seen when comparing the minor principal stress in the shotcrete between Schemes 2 and 4 (Figs. 14 a). Except for the number of yielded zones in the shotcrete and the interface failures for simply waved surface model, the changes noted above for a smooth surface model also occur for simply and doubly waved surface models, but not as extensively. It is interesting to note that for the simply waved surface model, less interface failures as well as less number of yielded zones in the shotcrete occur due to the relief of stress concentration in Scheme 4. This is opposite to the result for the smooth surface model.
+
+In the end, the supporting effect of shotcrete obtained can be ranked in descending order as smooth surface with the best, doubly waved surface with the moderate and simply waved surface with the less supporting effect. This is demonstrated by the extent of the plastic regions in both the shotcrete and rock, the interface failure, the displacement, and the stress concentration in the shotcrete.
+
+##### 4.2.4 Effect of Modulus Ratios Between Shotcrete and Rock (Schemes 2 and 5)
+
+To study the effect of the modulus ratios between shotcrete and rock, additional analyses were performed with a reduced ratio (i.e., 1) of the moduli between the shotcrete and rock, meaning that the shotcrete modulus is equal to the rock mass modulus. The comparison between results from Scheme 2 and Scheme 5 can be found in Figs. 12 – 14 .
+
+For the various tunnel surface geometries, the support effect of the shotcrete is greatly affected by the modulus ratio between the shotcrete and rock. When the shotcrete–rock modulus ratio is low (e.g., stiff rock or soft shotcrete), more stresses are carried by the rock, which causes more failure and a deepening of the failure zone in the rock. This in turn causes less stress concentrations at the rock–shotcrete interface and in the shotcrete, thereby inducing less localized tensile and shear failures. In general, the shotcrete provides less confinement to the surrounding rock, but behaves to retain the failed rock in place when softer shotcrete is applied.
+
+In addition, as can be seen from Figs. 12 – 14 , there is only a small difference between the doubly waved surface model, and that for the simply waved surface, when the shotcrete–rock modulus ratio is low.
+
+### 5 Discussion
+
+#### 5.1 Influence of Unevenness of Tunnel Surface on Support Mechanisms/Effect of Shotcrete
+
+The three-dimensional numerical analysis conducted by 3DEC generally shows good agreement with the physical model tests with respect to the displacement measured and failure modes observed in each case. This is taken as a good reason to extend the use of the numerical model to explore the influence of unevenness on the support mechanism and support effect of shotcrete.
+
+According to Brown ( 1999 ) and Stacey ( 2001 ), the support mechanisms of shotcrete can be summarized as promotion of block interlock, structural arch (including closed ring), basket, air tightness, slab enhancement, beam enhancement, extended ‘faceplate’, durability enhancement, and mechanical protection.
+
+The tunnels in these analyses were circular and the in-plane stresses were equal in both X and Z directions. Therefore, the main support mechanism of the shotcrete is due to the structural ring it forms. The structural ring mechanism is generated as the length of the excavation contour decreases (because of the inward movement of the rock) resulting in compressive forces acting on the shotcrete. By simulating the shotcrete–rock interface in the numerical models, the mechanism of promoting the rock-shotcrete interaction was considered in the analysis, especially when the tunnel surface was uneven and when the shotcrete ring was not closed. Thus, the influence of the unevenness of the tunnel surface on these two support mechanisms of shotcrete will be discussed in the following texts.
+
+When shotcrete is sprayed on a smooth surface of a circular tunnel, the main support mechanism of the shotcrete is to form a structural ring. However, this mechanism becomes significantly diminished if the tunnel surface is uneven. This can be clearly seen from the numerical results. For example, when comparing tunnel displacement for different tunnel surfaces before and after the shotcrete installation for the studied cases (Scheme 1 and Scheme 2), there is 67% displacement reduction for the smooth surface model but only a 31% displacement reduction for the doubly waved surface model and 3% displacement reduction for the simply waved surface model at the recess. The shotcrete sprayed on a smooth surface has a significantly greater support effect—as indicated by failure observed in the shotcrete and at the rock–shotcrete interface, tunnel deformation, as well as confinement to the rock provided by the shotcrete—compared to shotcrete sprayed on a simply waved or doubly wave tunnel surface. Correspondingly, shotcrete sprayed on a doubly waved surface of a circular tunnel has better support effect than if it is sprayed on a simply waved tunnel surface.
+
+The unevenness of the tunnel surface in general has a negative impact as stress concentrates in the recesses (compressive) and at the apexes (tensile) after tunnel excavation. Observations from the physical model tests also support the conclusions obtained from the numerical analyses. Both showed that the apexes are the weak points of the shotcrete and the shotcrete at these points is likely to crack or separate from the rock surfaces (see a photo taken in a Swedish underground mine in Fig. 19 a). The recesses of an uneven tunnel surface behave like local support (“bolting”) which therefore can further create a certain pressure arch around the excavation boundary to help the rock to carry external load. In the case of circular tunnels and when the in-plane stresses are equal, this effect is less noticeable, since the pressure arch for a smooth surface already exists around the excavation boundary. The rock within the protruding (uneven) geometry is subject to tensile and shear failure when the plastic regions are connected with the increase of the external load. Therefore, it is recommended that sporadic bolting should, wherever possible, be applied at apexes to reduce tensile stress concentrations in the shotcrete, as well as to increase the connection between the shotcrete, fractured rock, and solid rock. However, where systematic bolting is used, generally some bolts will be installed in the recesses, which could result in even wider cracking in the shotcrete (Fig. 19 a).
+
+taken from a Swedish and Canadian underground mine). a Cracking on an apex in the shotcrete; ( b ) separation of shotcrete from rock surface; and ( c ) overstressed shotcrete peeling (Courtesy G. Swan)
+
+Failures on the shotcrete (photos
+
+When a tunnel surface is uneven, failures initiate either at the rock–shotcrete interface or within the shotcrete due to stress concentration. When the interface strength (bonding) between the rock surface and shotcrete is weak, e.g., the rock surface is not well-cleaned after blasting, failure is often observed at the rock–shotcrete interface which causes separation of shotcrete from the rock (see photo taken in a Swedish underground mine in Fig. 19 b). In this case, significantly fewer failures in the rock and less displacement on the excavation surface occur for a doubly waved surface model in comparison with a simply waved one. The development of shear strength (specifically frictional strength) on the interface between the shotcrete and the rock contributes to this support effect. When shotcrete and rock are bonded together (good adhesion) at the interface, there are fewer failures in the shotcrete and minimum displacement on the excavation surface. However, the stress concentration is the highest which in turn creates localized failure. In this case, differences in the support effect of shotcrete between simply waved and doubly waved surfaces become smaller as shear movement and/or separation between the shotcrete and rock is prevented by good bonding. It is also noted here that the interface is a crucial element when the interaction between rock and shotcrete is to be simulated and studied. However, in most numerical analyses (e.g., Lee ( 2010 )), the interface is ignored, which may result in incorrect conclusions.
+
+When shotcrete is not installed as a closed ring around the entire excavation boundary, the support effect of the shotcrete is significantly reduced, especially so for a smooth tunnel surface, due to losing of the structural ring mechanism. The remaining support effect is provided as a result of rock–shotcrete interaction promoted by the shear strength of the interface and the tensile strength of the shotcrete. In contrast, for simply waved and doubly waved tunnel surfaces, the difference in support effect between non-closed and closed installation of shotcrete is small as the unevenness of the interface surface has weakened the structural ring mechanism. In this case, the influence of unevenness of tunnel surface on support effect is reduced.
+
+It is also noted that the shotcrete–rock modulus ratio is a critical factor to promote the two support mechanisms discussed above. In general, the lower the shotcrete–rock modulus ratio, the weaker the support effect of shotcrete. The influence of unevenness on the support effect of shotcrete is also affected by the modulus ratio between shotcrete and rock. There is a limited difference between the doubly waved surface model and the simply waved case, when the shotcrete–rock modulus ratio is low. A possible reason is that the shear strength (specifically frictional strength) on the interface is not well promoted as there is less stress transfer to the rock-shotcrete interface duo to lower shotcrete modulus. This is also in line with the explanation given early in this section.
+
+#### 5.2 Application of Shotcrete on Uneven Rock Surface
+
+Based on the numerical model cases examined and discussed above, the following general suggestions may be considered when designing and applying shotcrete on uneven rock surface:
+
+- Given a relatively stiff rock mass yielding small deformation under in situ stresses, good adhesion between an uneven rock surface and the shotcrete is important to avoid opening and slip along the interface between the shotcrete and rock. In this case, even though there is the possibility of localized tensile failure (e.g., cracking) at the apexes or spalling in the recesses of the unevenness, at least the separation between rock and large pieces of shotcrete can be prevented. This in turn will tend to mitigate the potential for rock deterioration and rock fall due to loss of surface support. Therefore, the use of fiber-reinforced shotcrete is recommended if the cracking of shotcrete is often observed on the apexes and/or if the occurrence of unevenness of the rock surface is difficult to avoid or reduce (e.g., due to special geological conditions). Wherever possible, sporadic bolts should be installed at the apexes of the rock surface to reduce tensile stress concentrations in the shotcrete as well as to increase the connection between the shotcrete, and the fractured and solid rock.
+
+Given a relatively stiff rock mass yielding small deformation under in situ stresses, good adhesion between an uneven rock surface and the shotcrete is important to avoid opening and slip along the interface between the shotcrete and rock. In this case, even though there is the possibility of localized tensile failure (e.g., cracking) at the apexes or spalling in the recesses of the unevenness, at least the separation between rock and large pieces of shotcrete can be prevented. This in turn will tend to mitigate the potential for rock deterioration and rock fall due to loss of surface support. Therefore, the use of fiber-reinforced shotcrete is recommended if the cracking of shotcrete is often observed on the apexes and/or if the occurrence of unevenness of the rock surface is difficult to avoid or reduce (e.g., due to special geological conditions). Wherever possible, sporadic bolts should be installed at the apexes of the rock surface to reduce tensile stress concentrations in the shotcrete as well as to increase the connection between the shotcrete, and the fractured and solid rock.
+
+- Given a relatively soft rock mass resulting in large deformation (e.g., in high stress conditions), an uneven surface will have a large adverse effect on the loading capacity and integrity of the shotcrete. Tensile cracking with large opening width of the shotcrete can develop at the apexes and overstressed shotcrete peeling can occur in the recesses (see a photo from a Canadian underground mine in Fig. 19 c), especially when there is good adhesion at the interface. In this case some measures should be taken to either reduce the amplitude of the unevenness (e.g., improving blasting technique) or use other complementary surface support (e.g., mesh) to contain the damaged shotcrete. Here, the challenge is to allow shear to take place on the interface while at the same time maintaining the integrity of the lined rock surface given the high stiffness and low toughness of shotcrete. The shotcrete will become cracked or crushed or partly separated from the rock surface and finally lose its capacity. It is also possible to apply low modulus materials as a liner to avoid high stress concentration when the rock surface is uneven, such as thin spray-on liners (TSL) made of polymer which are normally much less stiff than cementitious products (e.g., shotcrete). Recent research indicates that a two-coat polymeric TSL formulation—referred to as a polymer composite membrane (PCM)—could be used in high stress or bursting conditions where the liner can first de-bond from the affected rock surface and then deform at an initially high strain rate (Swan et al. 2012 ). In this case, the liner becomes deformable. As has been pointed out by McCreath and Kaiser ( 1992 ), the function of a deformable liner is less to do with reinforcement than to retain and resist the actively failing rock substrate between bolts.
+
+Given a relatively soft rock mass resulting in large deformation (e.g., in high stress conditions), an uneven surface will have a large adverse effect on the loading capacity and integrity of the shotcrete. Tensile cracking with large opening width of the shotcrete can develop at the apexes and overstressed shotcrete peeling can occur in the recesses (see a photo from a Canadian underground mine in Fig. 19 c), especially when there is good adhesion at the interface. In this case some measures should be taken to either reduce the amplitude of the unevenness (e.g., improving blasting technique) or use other complementary surface support (e.g., mesh) to contain the damaged shotcrete. Here, the challenge is to allow shear to take place on the interface while at the same time maintaining the integrity of the lined rock surface given the high stiffness and low toughness of shotcrete. The shotcrete will become cracked or crushed or partly separated from the rock surface and finally lose its capacity. It is also possible to apply low modulus materials as a liner to avoid high stress concentration when the rock surface is uneven, such as thin spray-on liners (TSL) made of polymer which are normally much less stiff than cementitious products (e.g., shotcrete). Recent research indicates that a two-coat polymeric TSL formulation—referred to as a polymer composite membrane (PCM)—could be used in high stress or bursting conditions where the liner can first de-bond from the affected rock surface and then deform at an initially high strain rate (Swan et al. 2012 ). In this case, the liner becomes deformable. As has been pointed out by McCreath and Kaiser ( 1992 ), the function of a deformable liner is less to do with reinforcement than to retain and resist the actively failing rock substrate between bolts.
+
+- As most tunnel surfaces are uneven due to commonly used blasting techniques and the existence of naturally occurring discontinuities, shotcrete-based surface support has to be able to cope and interact with uneven surfaces. As is shown by the analyses above, the simulation of 3D unevenness is complex and therefore not recommended for use in routine numerical modelling. Instead, 2D unevenness could be assumed when designing shotcrete as it reflects the worst-case scenario. No matter which model (2D or 3D) is chosen, the interface between rock and shotcrete should be considered to ensure that the shotcrete–rock interaction is correctly investigated. The tunnels analysed in this paper had a circular profile, meaning that the main support mechanism of the shotcrete was due to its structural ring. For this reason alone, a smooth tunnel surface is very beneficial with respect to the support effect of shotcrete in comparison with simply waved or doubly waved tunnel surfaces. For other tunnel shapes, the effect of unevenness needs to be further investigated. It is also important to recognise that shotcrete is very seldom used alone and its use in combination with rock bolts, cable bolts, mesh, or steel sets further complicates the problem of analysing the influence of unevenness of the tunnel surface to the support effect of the shotcrete lining.
+
+As most tunnel surfaces are uneven due to commonly used blasting techniques and the existence of naturally occurring discontinuities, shotcrete-based surface support has to be able to cope and interact with uneven surfaces. As is shown by the analyses above, the simulation of 3D unevenness is complex and therefore not recommended for use in routine numerical modelling. Instead, 2D unevenness could be assumed when designing shotcrete as it reflects the worst-case scenario. No matter which model (2D or 3D) is chosen, the interface between rock and shotcrete should be considered to ensure that the shotcrete–rock interaction is correctly investigated. The tunnels analysed in this paper had a circular profile, meaning that the main support mechanism of the shotcrete was due to its structural ring. For this reason alone, a smooth tunnel surface is very beneficial with respect to the support effect of shotcrete in comparison with simply waved or doubly waved tunnel surfaces. For other tunnel shapes, the effect of unevenness needs to be further investigated. It is also important to recognise that shotcrete is very seldom used alone and its use in combination with rock bolts, cable bolts, mesh, or steel sets further complicates the problem of analysing the influence of unevenness of the tunnel surface to the support effect of the shotcrete lining.
+
+### 6 Conclusions
+
+As most tunnel surfaces are uneven due to commonly used drilling and blasting techniques and the existence of naturally occurring discontinuities, shotcrete-based surface support has to be able to cope and interact with uneven surfaces. Experience from previous studies shows that the unevenness of a rock surface has a large impact on the support effect of shotcrete lining. To investigate the influence of the surface unevenness on the support effect of the shotcrete lining, numerical analyses of a circular tunnel opening under hydrostatic loading was conducted using a three-dimensional numerical code ( 3DEC ). The numerical models were first calibrated with the help of observations and measured data obtained from physical model tests. The influential factors were investigated further in this numerical study after calibration had been achieved. The conclusions are:
+
+- In general, the unevenness of a tunnel surface produces negative support effects due to stress concentrations in recesses (compressive) and at apexes (tensile) after tunnel excavation. Additionally, the recesses of an uneven tunnel surface also behave like local support (“bolting”), which can create a weak pressure arch around the excavation boundary to help the rock to carry external load.
+
+In general, the unevenness of a tunnel surface produces negative support effects due to stress concentrations in recesses (compressive) and at apexes (tensile) after tunnel excavation. Additionally, the recesses of an uneven tunnel surface also behave like local support (“bolting”), which can create a weak pressure arch around the excavation boundary to help the rock to carry external load.
+
+- For the studied case (circular tunnel perimeter and equal in-plane stresses), the support effect of shotcrete obtained on different tunnel surfaces can be ranked in descending order as smooth surface, doubly waved surface, and simply waved surface, as demonstrated by the extent of the plastic regions in both the shotcrete and rock, interface failure, displacement on tunnel boundary, and confinement to rock provided by shotcrete.
+
+For the studied case (circular tunnel perimeter and equal in-plane stresses), the support effect of shotcrete obtained on different tunnel surfaces can be ranked in descending order as smooth surface, doubly waved surface, and simply waved surface, as demonstrated by the extent of the plastic regions in both the shotcrete and rock, interface failure, displacement on tunnel boundary, and confinement to rock provided by shotcrete.
+
+- Shotcrete sprayed on a doubly waved uneven surface (3D unevenness) has better support effect compared to shotcrete sprayed on a simply waved tunnel surface (2D unevenness). The development of shear strength (specifically frictional strength) on the uneven interface surface between the shotcrete and the rock contributes to this effect, under the condition where bonding of the shotcrete does not work effectively. When shear movement on the interface between the rock and the shotcrete is prevented (e.g., by good bonding), very high stress concentration occurs on the unevenness but the difference between 2D and 3D unevenness is significantly reduced.
+
+Shotcrete sprayed on a doubly waved uneven surface (3D unevenness) has better support effect compared to shotcrete sprayed on a simply waved tunnel surface (2D unevenness). The development of shear strength (specifically frictional strength) on the uneven interface surface between the shotcrete and the rock contributes to this effect, under the condition where bonding of the shotcrete does not work effectively. When shear movement on the interface between the rock and the shotcrete is prevented (e.g., by good bonding), very high stress concentration occurs on the unevenness but the difference between 2D and 3D unevenness is significantly reduced.
+
+- The influence of unevenness of the tunnel surface on the support effect becomes less significant when the shotcrete is less stiff (e.g., TSL) and/or the excavation boundary is not fully covered by shotcrete (i.e., the shotcrete ring is not closed).
+
+The influence of unevenness of the tunnel surface on the support effect becomes less significant when the shotcrete is less stiff (e.g., TSL) and/or the excavation boundary is not fully covered by shotcrete (i.e., the shotcrete ring is not closed).
+
+- The modulus ratio of shotcrete to rock is a critical factor when designing shotcrete. A high modulus ratio can promote the structural ring mechanism and interaction between shotcrete and rock. However, it causes more failure in the shotcrete too, especially when the rock surface is uneven. The structural ring mechanism becomes significantly diminished as the tunnel surface becomes uneven and when the shotcrete ring is not closed.
+
+The modulus ratio of shotcrete to rock is a critical factor when designing shotcrete. A high modulus ratio can promote the structural ring mechanism and interaction between shotcrete and rock. However, it causes more failure in the shotcrete too, especially when the rock surface is uneven. The structural ring mechanism becomes significantly diminished as the tunnel surface becomes uneven and when the shotcrete ring is not closed.
+
+- The simulation of 3D unevenness is complex and therefore not recommended for use in routine numerical modelling. Instead, 2D unevenness could be assumed when designing shotcrete as it reflects the worst-case scenario. No matter which model (2D or 3D) is chosen, the interface between rock and shotcrete should be considered to ensure that the shotcrete–rock interaction is correctly investigated.
+
+The simulation of 3D unevenness is complex and therefore not recommended for use in routine numerical modelling. Instead, 2D unevenness could be assumed when designing shotcrete as it reflects the worst-case scenario. No matter which model (2D or 3D) is chosen, the interface between rock and shotcrete should be considered to ensure that the shotcrete–rock interaction is correctly investigated.
+
+### References
+
+- Barrett SVL, McCreath DR (1995) Shotcrete support design in blocky ground: towards a deterministic approach. Tunn Undergr Sp Tech 10(1):79–89 Article Google Scholar
+
+Barrett SVL, McCreath DR (1995) Shotcrete support design in blocky ground: towards a deterministic approach. Tunn Undergr Sp Tech 10(1):79–89
+
+Article Google Scholar
+
+- Borio L, Peila D (2009) How tunnel boundary irregularities can influence the stresses in a shotcrete lining. Geoingegneria Ambientale e Mineraria 47(2):45–52 Google Scholar
+
+Borio L, Peila D (2009) How tunnel boundary irregularities can influence the stresses in a shotcrete lining. Geoingegneria Ambientale e Mineraria 47(2):45–52
+
+Google Scholar
+
+- Brown ET (1999) The evolution of support and reinforcement philosophy and practice for underground mining excavations. In: Windsor CR, Thompson AG (eds) Villaescusa E. Proc Int Symp on Ground Support, Western Australia, pp 3–17 Google Scholar
+
+Brown ET (1999) The evolution of support and reinforcement philosophy and practice for underground mining excavations. In: Windsor CR, Thompson AG (eds) Villaescusa E. Proc Int Symp on Ground Support, Western Australia, pp 3–17
+
+Google Scholar
+
+- Chang YT (1994) Tunnel support with shotcrete in weak rock—a rock mechanics study. Dissertation, Royal Institute of Technology (KTH), Stockholm, Sweden
+
+Chang YT (1994) Tunnel support with shotcrete in weak rock—a rock mechanics study. Dissertation, Royal Institute of Technology (KTH), Stockholm, Sweden
+
+- Hoek E, Brown ET (1980) Underground excavations in rock. The Institute of Mining and Metallurgy, London Google Scholar
+
+Hoek E, Brown ET (1980) Underground excavations in rock. The Institute of Mining and Metallurgy, London
+
+Google Scholar
+
+- Hoek E, Kaiser PK, Bawden WF (2000) Support of underground excavations in hard rock. A.A Balkema, Rotterdam Book Google Scholar
+
+Hoek E, Kaiser PK, Bawden WF (2000) Support of underground excavations in hard rock. A.A Balkema, Rotterdam
+
+Book Google Scholar
+
+- Ibarra JA, Maerz NH, Franklin JA (1996) Overbreak and underbreak in underground openings Part 2: causes and implications. Geotech Geol Eng 14(4):325–340 Article Google Scholar
+
+Ibarra JA, Maerz NH, Franklin JA (1996) Overbreak and underbreak in underground openings Part 2: causes and implications. Geotech Geol Eng 14(4):325–340
+
+Article Google Scholar
+
+- Itasca Consulting Group, Inc. (2018) 3DEC—Three-Dimensional Distinct Element Code, Ver. 5.2. Itasca, Minneapolis, USA
+
+Itasca Consulting Group, Inc. (2018) 3DEC—Three-Dimensional Distinct Element Code, Ver. 5.2. Itasca, Minneapolis, USA
+
+- Kaiser PK (1993) Support of tunnels in burst-prone ground—Towards a rational design methodology. In: Young RP (ed) Proc 3rd Int Symp on Rockbursts and Seismicity in Mines, pp 13–27
+
+Kaiser PK (1993) Support of tunnels in burst-prone ground—Towards a rational design methodology. In: Young RP (ed) Proc 3rd Int Symp on Rockbursts and Seismicity in Mines, pp 13–27
+
+- Lee SD (2010) Numerical analysis for irregular shotcrete on uneven tunnel perimeter. Int J Rock Mech Min Sci 47(3):488–495 Article Google Scholar
+
+Lee SD (2010) Numerical analysis for irregular shotcrete on uneven tunnel perimeter. Int J Rock Mech Min Sci 47(3):488–495
+
+Article Google Scholar
+
+- Malmgren L (2005) Interaction between shotcrete and rock—experimental and numerical study. Dissertation, Luleå University of Technology, Luleå, Sweden
+
+Malmgren L (2005) Interaction between shotcrete and rock—experimental and numerical study. Dissertation, Luleå University of Technology, Luleå, Sweden
+
+- Malmgren L, Nordlund E (2008) Interaction of shotcrete with rock and rock bolts—a numerical study. Int J Rock Mech Min Sci 45:538–553 Article Google Scholar
+
+Malmgren L, Nordlund E (2008) Interaction of shotcrete with rock and rock bolts—a numerical study. Int J Rock Mech Min Sci 45:538–553
+
+Article Google Scholar
+
+- McCreath DR, Kaiser PK (1992) Evaluation of current support practices in burst-prone ground and preliminary guidelines for Canadian hard rock mines. In: Kaiser PK, McCreath DR (eds) Proc Int Symp rock support in mining and underground construction. Sudbury, Ontario, pp 611–619 Google Scholar
+
+McCreath DR, Kaiser PK (1992) Evaluation of current support practices in burst-prone ground and preliminary guidelines for Canadian hard rock mines. In: Kaiser PK, McCreath DR (eds) Proc Int Symp rock support in mining and underground construction. Sudbury, Ontario, pp 611–619
+
+Google Scholar
+
+- Saiang D, Malmgren L, Nordlund E (2005) Laboratory tests on shotcrete rock joints in direct shear, tension and compression. Rock Mech Rock Eng 38(4):275–297 Article Google Scholar
+
+Saiang D, Malmgren L, Nordlund E (2005) Laboratory tests on shotcrete rock joints in direct shear, tension and compression. Rock Mech Rock Eng 38(4):275–297
+
+Article Google Scholar
+
+- Schmitz RM (2003) Line infrastructure and the role of engineering geology in analysing overbreak, part 1: theoretical considerations. Ingeokring Newsletter 10(2):31–41 Google Scholar
+
+Schmitz RM (2003) Line infrastructure and the role of engineering geology in analysing overbreak, part 1: theoretical considerations. Ingeokring Newsletter 10(2):31–41
+
+Google Scholar
+
+- Son M, Cording EJ (2007) Ground-liner interaction in rock tunneling. Tunn Undergr Sp Tech 22:1–9 Article Google Scholar
+
+Son M, Cording EJ (2007) Ground-liner interaction in rock tunneling. Tunn Undergr Sp Tech 22:1–9
+
+Article Google Scholar
+
+- Stacey TR (2001) Review of membrane support mechanisms, loading mechanisms, desired membrane performance, and appropriate test methods. J S Afr Inst Min Metall 101:343–351 Google Scholar
+
+Stacey TR (2001) Review of membrane support mechanisms, loading mechanisms, desired membrane performance, and appropriate test methods. J S Afr Inst Min Metall 101:343–351
+
+Google Scholar
+
+- Stacey TR, Yu X (2004) Investigation into mechanisms of rock support provided by sprayed liners. In: Villaescusa E, Potvin Y (eds) Proc 5th Int Symp on Ground Support, pp 565–569
+
+Stacey TR, Yu X (2004) Investigation into mechanisms of rock support provided by sprayed liners. In: Villaescusa E, Potvin Y (eds) Proc 5th Int Symp on Ground Support, pp 565–569
+
+- Swan G, Spencer EJ, Graham C et al (2012) Towards proving the feasibility of a new, composite polymer liner. Eurock 2012:14p Google Scholar
+
+Swan G, Spencer EJ, Graham C et al (2012) Towards proving the feasibility of a new, composite polymer liner. Eurock 2012:14p
+
+Google Scholar
+
+- Windsor CR, Thompson AG (1999) The design of shotcrete lining for excavations created by drill and blast methods. In: Windsor CR, Thompson AG (eds) Villaescusa E. Proc Int Symp on Ground Support, Western Australia, pp 231–242 Google Scholar
+
+Windsor CR, Thompson AG (1999) The design of shotcrete lining for excavations created by drill and blast methods. In: Windsor CR, Thompson AG (eds) Villaescusa E. Proc Int Symp on Ground Support, Western Australia, pp 231–242
+
+Google Scholar
+
+Download references
+
+### Acknowledgements
+
+The authors gratefully acknowledge the financial support from the strategic innovation programme for the Swedish Mining and Metal Producing Industry (STRIM), which is a joint investment from VINNOVA (The Swedish Governmental Agency for Innovation Systems), the Swedish Energy Agency and Formas with additional funding from Lundin Mining, LKAB, and Boliden (Ref. No.: 2008-00844, 2014-01944, 2017-02228). This work was also partly supported by Centre of Advanced Mining & Metallurgy at LTU (CAMM) which are gratefully acknowledged. LKAB is specially acknowledged for providing funding for the first author to conduct research in this area. Language corrections by Dr Graham Swan and Mr Mikael Nilsson are greatly appreciated. Two anonymous reviewers are thanked for critically reading the manuscript and suggesting substantial improvements.
+
+### Funding
+
+Open access funding provided by Luleå University of Technology.
+
+### Author information
+
+#### Authors and Affiliations
+
+- Division of Mining and Geotechnical Engineering, Luleå University of Technology, 97187, Luleå, Sweden Ping Zhang & Ering Nordlund
+
+Division of Mining and Geotechnical Engineering, Luleå University of Technology, 97187, Luleå, Sweden
+
+Ping Zhang & Ering Nordlund
+
+- Ping Zhang View author publications Search author on: PubMed Google Scholar
+
+Search author on: PubMed Google Scholar
+
+- Ering Nordlund View author publications Search author on: PubMed Google Scholar
+
+Search author on: PubMed Google Scholar
+
+#### Corresponding author
+
+Correspondence to Ping Zhang .
+
+### Additional information
+
+#### Publisher's Note
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+### Rights and permissions
+
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/ .
+
+Reprints and permissions
+
+### About this article
+
+#### Cite this article
+
+Zhang, P., Nordlund, E. A 3DEC Numerical Analysis of the Interaction Between an Uneven Rock Surface and Shotcrete Lining. Rock Mech Rock Eng 54 , 2267–2289 (2021). https://doi.org/10.1007/s00603-021-02399-x
+
+Download citation
+
+- Received : 15 August 2017
+
+Received : 15 August 2017
+
+- Accepted : 04 February 2021
+
+Accepted : 04 February 2021
+
+- Published : 09 March 2021
+
+Published : 09 March 2021
+
+- Version of record : 09 March 2021
+
+Version of record : 09 March 2021
+
+- Issue date : May 2021
+
+Issue date : May 2021
+
+- DOI : https://doi.org/10.1007/s00603-021-02399-x
+
+DOI : https://doi.org/10.1007/s00603-021-02399-x
+
+#### Share this article
+
+Anyone you share the following link with will be able to read this content:
+
+Sorry, a shareable link is not currently available for this article.
+
+Provided by the Springer Nature SharedIt content-sharing initiative
+
+#### Keywords
+
+- Rock–shotcrete interaction
+
+- Uneven rock surface
+
+- Circular opening
+
+- Numerical analysis
+
+- 3DEC
+
+Advertisement
+
+### Search
+
+### Navigation
+
+- Find a journal
+
+- Publish with us
+
+- Track your research
+
+### Footer Navigation
+
+#### Discover content
+
+- Journals A-Z
+
+- Books A-Z
+
+- Subjects A-Z
+
+#### Publish with us
+
+- Journal finder
+
+- Publish your research
+
+- Language editing
+
+- Open access publishing
+
+#### Products and services
+
+- Our products
+
+- Librarians
+
+- Societies
+
+- Partners and advertisers
+
+#### Our brands
+
+- Springer
+
+- Nature Portfolio
+
+- BMC
+
+- Palgrave Macmillan
+
+- Apress
+
+- Discover
+
+#### Corporate Navigation
+
+- Your privacy choices/Manage cookies
+
+- Your US state privacy rights
+
+- Accessibility statement
+
+- Terms and conditions
+
+- Privacy policy
+
+- Help and support
+
+- Legal notice
+
+- Cancel contracts here
+
+Not affiliated
+
+© 2026 Springer Nature

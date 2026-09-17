@@ -1,0 +1,106 @@
+{
+  "document_id": "ING_153e9e2a4af4519f1e27",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Technical Manual for Design and Construction of Road Tunnels - Civil Elements",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "manual",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: manual"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "blasting",
+        "contracts",
+        "drainage",
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "inspection",
+        "instrumentation",
+        "maintenance",
+        "natm",
+        "operations",
+        "regulation",
+        "risk",
+        "safety",
+        "shotcrete",
+        "standards",
+        "support_systems",
+        "tbm",
+        "ventilation",
+        "water"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; tbm:tbm; geotechnical_investigation:geotechnical; geology:geolog; excavation:excavat; blasting:drill-andblast; shotcrete:shotcrete; support_systems:support system; water:groundwater; drainage:drainage; instrumentation:instrumentation; risk:risk"
+    },
+    {
+      "field": "source_url",
+      "value": "https://www.fhwa.dot.gov/bridge/tunnel/pubs/nhi09010/tunnel_manual.pdf",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

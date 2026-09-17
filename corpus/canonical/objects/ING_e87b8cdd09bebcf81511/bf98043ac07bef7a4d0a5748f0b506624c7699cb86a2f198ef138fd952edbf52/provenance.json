@@ -1,0 +1,151 @@
+{
+  "document_id": "ING_e87b8cdd09bebcf81511",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_B3EFC7F8161743D16CFF",
+      "producer_document_id": "PC_E87B8CDD09BEBCF8",
+      "declared_sha256": "e87b8cdd09bebcf81511b0e64fd381d1e30a38bb800ac5ccfc4670a85afa4bee",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/B_INTERNATIONAL_TECHNICAL/PC_E87B8CDD09BEBCF8/source_raw.html",
+        "sha256": "e87b8cdd09bebcf81511b0e64fd381d1e30a38bb800ac5ccfc4670a85afa4bee"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.7843/kgs.2011.27.12.069",
+        "landing_url": "https://doi.org/10.7843/kgs.2011.27.12.069",
+        "resolved_url": "https://koreascience.or.kr/article/JAKO201111436233477.page",
+        "discovery_source": "crossref",
+        "discovery_query": "tünel destek elemanları NATM",
+        "doi": "10.7843/kgs.2011.27.12.069",
+        "publisher": "Journal of the Korean Geotechnical Society"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.7843/kgs.2011.27.12.069",
+        "landing_url": "https://doi.org/10.7843/kgs.2011.27.12.069",
+        "resolved_url": "https://koreascience.or.kr/article/JAKO201111436233477.page",
+        "discovery_source": "crossref",
+        "discovery_query": "tünel destek elemanları NATM",
+        "doi": "10.7843/kgs.2011.27.12.069",
+        "publisher": "Journal of the Korean Geotechnical Society"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_E87B8CDD09BEBCF8",
+        "canonical_id": "CAN_B3EFC7F8161743D16CFF",
+        "canonical_hint_id": "CAN_B3EFC7F8161743D16CFF",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "World Road Association",
+          "country": "International",
+          "institution_type": "PROFESSIONAL_ORGANIZATION",
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Study on Applicability of NATM Composite Lining Method",
+        "authors": [
+          "Sang-Joon Ma",
+          "Eun-Gu Kang",
+          "Dong-Min Kim"
+        ],
+        "year": "2011",
+        "doi": "10.7843/kgs.2011.27.12.069",
+        "source_url": "https://doi.org/10.7843/kgs.2011.27.12.069",
+        "landing_url": "https://doi.org/10.7843/kgs.2011.27.12.069",
+        "resolved_url": "https://koreascience.or.kr/article/JAKO201111436233477.page",
+        "local_path": "01_originals/B_INTERNATIONAL_TECHNICAL/PC_E87B8CDD09BEBCF8/source_raw.html",
+        "sha256": "e87b8cdd09bebcf81511b0e64fd381d1e30a38bb800ac5ccfc4670a85afa4bee",
+        "source_name": "crossref",
+        "publisher_code": "PIARC",
+        "route_path": "B_INTERNATIONAL_TECHNICAL",
+        "crawler_evidence_level": "WEB_SNAPSHOT_TEXT",
+        "evidence_level": "WEB_SNAPSHOT_TEXT",
+        "acquisition_status": "SNAPSHOTTED_WEB",
+        "source_representation": {
+          "original_or_raw": "01_originals/B_INTERNATIONAL_TECHNICAL/PC_E87B8CDD09BEBCF8/source_raw.html",
+          "original_or_raw_sha256": "e87b8cdd09bebcf81511b0e64fd381d1e30a38bb800ac5ccfc4670a85afa4bee",
+          "crawler_normalized": "01_originals/B_INTERNATIONAL_TECHNICAL/PC_E87B8CDD09BEBCF8/source.md",
+          "crawler_normalized_sha256": "dd4c8a0a4476cafe484d0ef0c15639c2d6ad5d2235f1e0cc6c015f85d359b77e",
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_C",
+        "provisional_authority_tier": "D1",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "PROFESSIONAL_ORGANIZATION",
+        "authority_tier": "D1",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "road_tunnel",
+          "NATM",
+          "geotechnics",
+          "operation",
+          "inspection",
+          "final_lining",
+          "structural_maintenance",
+          "periodic_maintenance",
+          "site_investigation",
+          "deformation",
+          "maintenance_cost"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "World Road Association",
+          "country": "International",
+          "institution_type": "PROFESSIONAL_ORGANIZATION",
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "SNAPSHOTTED_WEB",
+          "source_path": "01_originals/B_INTERNATIONAL_TECHNICAL/PC_E87B8CDD09BEBCF8/source_raw.html",
+          "source_sha256": "e87b8cdd09bebcf81511b0e64fd381d1e30a38bb800ac5ccfc4670a85afa4bee"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.7843/kgs.2011.27.12.069",
+          "landing_url": "https://doi.org/10.7843/kgs.2011.27.12.069",
+          "resolved_url": "https://koreascience.or.kr/article/JAKO201111436233477.page",
+          "discovery_source": "crossref",
+          "discovery_query": "tünel destek elemanları NATM",
+          "doi": "10.7843/kgs.2011.27.12.069",
+          "publisher": "Journal of the Korean Geotechnical Society"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source_raw.html",
+    "original_sha256": "e87b8cdd09bebcf81511b0e64fd381d1e30a38bb800ac5ccfc4670a85afa4bee",
+    "mime_type": "text/html",
+    "format": "HTML"
+  }
+}

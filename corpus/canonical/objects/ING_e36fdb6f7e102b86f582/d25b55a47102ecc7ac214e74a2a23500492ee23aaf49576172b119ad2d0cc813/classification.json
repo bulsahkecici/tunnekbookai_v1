@@ -1,0 +1,215 @@
+{
+  "final_primary_section": "6",
+  "final_secondary_sections": [
+    "6.2.2",
+    "6.2",
+    "6.1.1"
+  ],
+  "final_section_confidence": 0.8696,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "6",
+      "section_title": "TÜNEL YAPIM MALİYETLERİ",
+      "supporting_elements": [
+        "PARA0004",
+        "LIST0002",
+        "PARA0011",
+        "PARA0014",
+        "PARA0015",
+        "FIG0004",
+        "CAPT0003",
+        "PARA0031",
+        "PARA0032",
+        "PARA0036",
+        "PARA0037",
+        "PARA0039",
+        "LIST0013",
+        "LIST0014"
+      ]
+    },
+    {
+      "section_id": "6.2.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0002",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "LIST0002",
+        "PARA0009",
+        "HEAD0005",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "TABLE0001",
+        "CAPT0002",
+        "PARA0019",
+        "FIG0004",
+        "CAPT0003",
+        "HEAD0006",
+        "PARA0020",
+        "PARA0024",
+        "PARA0025",
+        "FIG0006",
+        "CAPT0005",
+        "PARA0027"
+      ]
+    },
+    {
+      "section_id": "6.2",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması (Mehmet Çelikkaya)",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0002",
+        "PARA0004",
+        "PARA0005",
+        "LIST0002",
+        "PARA0009",
+        "HEAD0005",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "TABLE0001",
+        "CAPT0002",
+        "PARA0019",
+        "FIG0004",
+        "CAPT0003",
+        "PARA0020",
+        "PARA0024",
+        "PARA0025",
+        "FIG0006",
+        "CAPT0005",
+        "PARA0027",
+        "PARA0028",
+        "PARA0030"
+      ]
+    },
+    {
+      "section_id": "6.1.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0002",
+        "PARA0004",
+        "PARA0005",
+        "LIST0002",
+        "PARA0006",
+        "PARA0009",
+        "HEAD0005",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "TABLE0001",
+        "CAPT0002",
+        "PARA0019",
+        "FIG0004",
+        "CAPT0003",
+        "PARA0020",
+        "PARA0024",
+        "PARA0025",
+        "FIG0006",
+        "CAPT0005",
+        "PARA0027",
+        "PARA0028"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6",
+      "score": 0.8696,
+      "rule_score": 0.7333,
+      "embedding_score": 0.7877,
+      "chunk_vote": 0.3092
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.7264,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7999,
+      "chunk_vote": 0.0541
+    },
+    {
+      "id": "6.2",
+      "score": 0.6993,
+      "rule_score": 0.5,
+      "embedding_score": 0.7918,
+      "chunk_vote": 0.0898
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.6898,
+      "rule_score": 0.5,
+      "embedding_score": 0.7971,
+      "chunk_vote": 0.0305
+    },
+    {
+      "id": "2.3",
+      "score": 0.3784,
+      "rule_score": 0.0,
+      "embedding_score": 0.8051,
+      "chunk_vote": 0.0806
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3632,
+      "rule_score": 0.0,
+      "embedding_score": 0.8072,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3625,
+      "rule_score": 0.0,
+      "embedding_score": 0.8055,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.2",
+      "score": 0.3528,
+      "rule_score": 0.0,
+      "embedding_score": 0.7841,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.297,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1099
+    },
+    {
+      "id": "5",
+      "score": 0.2787,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0183
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:15",
+    "embeddings:8",
+    "top=6:0.8696 gap=0.143 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

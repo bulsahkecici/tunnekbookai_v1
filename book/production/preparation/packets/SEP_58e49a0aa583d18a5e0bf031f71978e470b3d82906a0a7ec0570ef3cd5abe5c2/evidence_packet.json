@@ -1,0 +1,696 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_101c5d2e2fadc873c6f324f47e1546527edbc465547c078113d7cc45e8d6db4e",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 31,
+    "SUPPORTED": 4,
+    "UNSUPPORTED": 15
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_58e49a0aa583d18a5e0bf031f71978e470b3d82906a0a7ec0570ef3cd5abe5c2",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_5ffa03b85cd0687a8c60d6f7b114c81b1a5956846507c55996003b305d8281d7"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller nedir ve tünel mühendisliğindeki temel işlevi nedir?",
+      "question_id": "2.2.1-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller hangi mühendislik problemini çözmeyi amaçlar?",
+      "question_id": "2.2.1-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_98b56c40e82ef6813dbeb653faa528078c53c0602fee0af3c52ab9f63347dd1e",
+        "CLM_8ad67493bda5333f9bf58de1e43b183d285127d10d8fbbf76868d34adc5df74f"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller için temel tasarım girdileri nelerdir?",
+      "question_id": "2.2.1-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fea3891c9c40709e935788714b47532db2ba33a970ff312abeb977eaba956b29",
+        "CLM_51117da212905240e9b38e271c7fa0555017bab2d92afb5821028a24d3de8b13"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller için jeolojik girdiler nelerdir?",
+      "question_id": "2.2.1-Q04",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_455dba80bce8abecf29c24004e0bdd60c648774c0c196b5b00ff06ee4c2af8f8",
+        "CLM_8ad67493bda5333f9bf58de1e43b183d285127d10d8fbbf76868d34adc5df74f"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller için geoteknik girdiler nelerdir?",
+      "question_id": "2.2.1-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller için hidrojeolojik girdiler nelerdir?",
+      "question_id": "2.2.1-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller için topoğrafik ve geometrik girdiler nelerdir?",
+      "question_id": "2.2.1-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller için trafik ve işletme girdileri nelerdir?",
+      "question_id": "2.2.1-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller seçiminde tünel uzunluğu nasıl etkili olur?",
+      "question_id": "2.2.1-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f2b7dfe4dce96edb1be2c79439f9ad88834338c1fef6bdbe4f9d22b985b4268f",
+        "CLM_51117da212905240e9b38e271c7fa0555017bab2d92afb5821028a24d3de8b13"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller seçiminde tünel kesiti ve açıklığı nasıl etkili olur?",
+      "question_id": "2.2.1-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller seçiminde örtü kalınlığı nasıl etkili olur?",
+      "question_id": "2.2.1-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f2b7dfe4dce96edb1be2c79439f9ad88834338c1fef6bdbe4f9d22b985b4268f",
+        "CLM_b604ffea1a8e4a913bdad0da9425b3d274d5b5aa5a477c35141ade7201238249",
+        "CLM_bca0c72f764d988febca85e0754e8236cbf3c66b1501b7f73cb9c8ca665c7895",
+        "CLM_51117da212905240e9b38e271c7fa0555017bab2d92afb5821028a24d3de8b13"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller seçiminde kaya kütlesi veya zemin özellikleri nasıl etkili olur?",
+      "question_id": "2.2.1-Q12",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f2b7dfe4dce96edb1be2c79439f9ad88834338c1fef6bdbe4f9d22b985b4268f"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller seçiminde yeraltı suyu koşulları nasıl etkili olur?",
+      "question_id": "2.2.1-Q13",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller seçiminde çevresel ve yerleşim koşulları nasıl etkili olur?",
+      "question_id": "2.2.1-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller seçiminde iş sağlığı ve güvenliği nasıl dikkate alınır?",
+      "question_id": "2.2.1-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f2b7dfe4dce96edb1be2c79439f9ad88834338c1fef6bdbe4f9d22b985b4268f",
+        "CLM_014bd5a524d8cce50a08614890c23c0fbd3a57d9c04f0dd94bf41a8a4207acba"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller seçiminde yapım süresi nasıl dikkate alınır?",
+      "question_id": "2.2.1-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b604ffea1a8e4a913bdad0da9425b3d274d5b5aa5a477c35141ade7201238249",
+        "CLM_a81fbf27145592a811c190998749da1565033b2193dfc16ae32a50b885289ebc"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller seçiminde ilk yatırım maliyeti nasıl dikkate alınır?",
+      "question_id": "2.2.1-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller seçiminde bakım ve işletme maliyetleri nasıl dikkate alınır?",
+      "question_id": "2.2.1-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9c9b083d3a9c423d02375315fc9f9643f0824f6d2a56a5255d09b46d604a452e",
+        "CLM_a4d087a856d4d31a69a8b6cd41cadddd3dd0ffed2c03c5d7c3997210a16fb68a",
+        "CLM_31e1f92de2c3d89075bdee7fc61dd684a33958845c4a1ec69398f8b6ea9262e3"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller için hangi alternatif teknik çözümler karşılaştırılabilir?",
+      "question_id": "2.2.1-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_426265b7633ccf20b08f72592cb390eb9341288fd5846fd3299a484d3e91e698",
+        "CLM_e213bcf81409e0d5951d8ab714c47c434d479e0d202e6f1548fc3448bfa58440"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller alternatiflerinin avantajları ve dezavantajları nelerdir?",
+      "question_id": "2.2.1-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b604ffea1a8e4a913bdad0da9425b3d274d5b5aa5a477c35141ade7201238249",
+        "CLM_1bafbf8f88d9449953834cd913850a43a21dfdb342aa9c58fb1111f300ae5a77",
+        "CLM_9c9b083d3a9c423d02375315fc9f9643f0824f6d2a56a5255d09b46d604a452e"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller için karar verme sürecinde hangi teknik kriterlere ağırlık verilmelidir?",
+      "question_id": "2.2.1-Q21",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_45a7029aa1dda2a42c9cd45bf46dd9d5083c28539a4209458ff2a45bbfea92c8",
+        "CLM_1d2cfbceaba42a519c53f0da31666be97774e9d946beef516cd513cbe1d008ff"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller tasarımında hangi hesap yöntemleri kullanılır?",
+      "question_id": "2.2.1-Q22",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_45a7029aa1dda2a42c9cd45bf46dd9d5083c28539a4209458ff2a45bbfea92c8",
+        "CLM_f0f53a1ca6235c5ab4a4c95c7fe74b9545620a65cf40437a45beac51937b9e0b"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller tasarımında hangi sayısal modelleme yöntemleri kullanılabilir?",
+      "question_id": "2.2.1-Q23",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_000a992b0ce280cd79895783413bb1b8d4a3f98e8cfc07d45d6ba70596eb816e",
+        "CLM_455dba80bce8abecf29c24004e0bdd60c648774c0c196b5b00ff06ee4c2af8f8",
+        "CLM_cf4d2fe789f5359de08f727496087a57318932047051ba21b6ae969ca6aeeb7f"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller tasarımında hangi ampirik sınıflandırmalar kullanılabilir?",
+      "question_id": "2.2.1-Q24",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller tasarımında hangi güvenlik katsayıları veya performans kriterleri önemlidir?",
+      "question_id": "2.2.1-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_31e1f92de2c3d89075bdee7fc61dd684a33958845c4a1ec69398f8b6ea9262e3"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller uygulamasında hangi başlıca malzemeler kullanılır?",
+      "question_id": "2.2.1-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller uygulamasında hangi başlıca makine ve ekipmanlar kullanılır?",
+      "question_id": "2.2.1-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_31e1f92de2c3d89075bdee7fc61dd684a33958845c4a1ec69398f8b6ea9262e3",
+        "CLM_ff065d8b79e8abad8f6ea955b4273a00053d1c1fcd617dd61f104f2e5151429c"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller uygulamasının tipik iş sırası nasıldır?",
+      "question_id": "2.2.1-Q28",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_905b9ad93bb008981b6e6a1ba115d88974566550d0d65919d36024b2c8205b6c",
+        "CLM_66f17766ad39b723661f9ded5610db933f7d1da4e2e50ec49227699f9df4c1ef"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller uygulamasında kalite kontrol nasıl yapılır?",
+      "question_id": "2.2.1-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4b662d551ce849d85986dfdec1b152df5d511b6ad6c2e31498614141c0d3d095",
+        "CLM_455dba80bce8abecf29c24004e0bdd60c648774c0c196b5b00ff06ee4c2af8f8"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller uygulamasında saha ölçümleri ve enstrümantasyon nasıl kullanılır?",
+      "question_id": "2.2.1-Q30",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c8a9e86210feecb7265b3316f614055beb4be322ab513418ce7a4fef49ceede6",
+        "CLM_80e2f09747c40d2260c9339cadbd70f2ce1767083f596efc88949b70b1d2e0ac",
+        "CLM_db422bbe824bbc8d955df5b53e84804a7ee5fd3b7c00860ab6755c5f76ce7052"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller uygulamasında deformasyonlar nasıl izlenir?",
+      "question_id": "2.2.1-Q31",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_86f3ee45e99980681dbbc1eceb7ec7e7c0c90f84c6d20a23979985abe2289c8d",
+        "CLM_c1482185bc71cdb4e434bc6e0af3a2207ebea3056b0aa3f895638f002a0f6130"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller uygulamasında su girişleri nasıl kontrol edilir?",
+      "question_id": "2.2.1-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b6b2e6f8134fb37bc3100d5c51a046944f11264071ce94668b458a345cfd96aa",
+        "CLM_674079d0c748e99c29ff69ca1d41db994068136591fb82262520ad81fe7ee707"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller uygulamasında drenaj ve yalıtım nasıl ele alınır?",
+      "question_id": "2.2.1-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f2b7dfe4dce96edb1be2c79439f9ad88834338c1fef6bdbe4f9d22b985b4268f",
+        "CLM_1bafbf8f88d9449953834cd913850a43a21dfdb342aa9c58fb1111f300ae5a77",
+        "CLM_674079d0c748e99c29ff69ca1d41db994068136591fb82262520ad81fe7ee707"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller uygulamasında beklenmeyen zemin koşullarına nasıl müdahale edilir?",
+      "question_id": "2.2.1-Q34",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f2b7dfe4dce96edb1be2c79439f9ad88834338c1fef6bdbe4f9d22b985b4268f",
+        "CLM_b604ffea1a8e4a913bdad0da9425b3d274d5b5aa5a477c35141ade7201238249",
+        "CLM_6cc2b256e2983c74fb6676927357a5ae50844b9478bd44a4940f06068754d666"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller uygulamasında en sık görülen teknik riskler nelerdir?",
+      "question_id": "2.2.1-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bca0c72f764d988febca85e0754e8236cbf3c66b1501b7f73cb9c8ca665c7895",
+        "CLM_f2b7dfe4dce96edb1be2c79439f9ad88834338c1fef6bdbe4f9d22b985b4268f",
+        "CLM_1bafbf8f88d9449953834cd913850a43a21dfdb342aa9c58fb1111f300ae5a77"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller uygulamasında hata veya yetersizlik belirtileri nelerdir?",
+      "question_id": "2.2.1-Q36",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1bafbf8f88d9449953834cd913850a43a21dfdb342aa9c58fb1111f300ae5a77",
+        "CLM_9a42b7b2b0b3bae64d93daf4ddefec2bc71d3782300b87fb46d574500bf6bc5b",
+        "CLM_f2b7dfe4dce96edb1be2c79439f9ad88834338c1fef6bdbe4f9d22b985b4268f"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller uygulamasında düzeltici ve güçlendirici önlemler nelerdir?",
+      "question_id": "2.2.1-Q37",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ed46a31dbb488f38b2f561254680c56aa04cabe29a77944488c84883084ee18d",
+        "CLM_725766bc4bc8319edff8221802b5a6f2424ea120d57fe5d10b944623627c0daf"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller ile nihai kaplama arasındaki ilişki nasıl kurulmalıdır?",
+      "question_id": "2.2.1-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_573ab47354de05a392f082ac599cbc1bc499c87db78ef0d654898c2a2972b5d9",
+        "CLM_1f02423f3ddb6342d522fe26390eb88df6fa1da838bfafdd76e8de8d0fe7c5fd",
+        "CLM_d6b0b33e18d037a318b53ac5ad6effc0d2f92b6fa3fb8330c038b57128664c2b"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller ile portal tasarımı arasındaki ilişki nedir?",
+      "question_id": "2.2.1-Q39",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller ile havalandırma, aydınlatma ve diğer elektromekanik sistemler nasıl koordine edilir?",
+      "question_id": "2.2.1-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_312191864a894e8e995b7dc108521f26849a6e74c445d7b0c2fb3b593dc97b06",
+        "CLM_98b56c40e82ef6813dbeb653faa528078c53c0602fee0af3c52ab9f63347dd1e"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller için uygulanabilir ulusal standart ve şartnameler nelerdir?",
+      "question_id": "2.2.1-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_312191864a894e8e995b7dc108521f26849a6e74c445d7b0c2fb3b593dc97b06",
+        "CLM_e0dba5be4f84769205aa4f0452c18f675525df811a07c6731075f6da31b0a127"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller için uygulanabilir uluslararası standart ve kılavuzlar nelerdir?",
+      "question_id": "2.2.1-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_558efbaa83d27aceb1ffd1cac3a71eced27ece62b450d8c9824c57c1d15eccd8",
+        "CLM_dd849f23414f2fb428e30d9a13dc91e592441a9db8554dca01e6fe9d49899abf"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller açısından Karayolları Genel Müdürlüğü uygulamalarında hangi esaslar öne çıkar?",
+      "question_id": "2.2.1-Q43",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4f2a52ff05421ea72d74e442f9a5b26e99b1885aa75ddc0dbd1034c03c98bdea",
+        "CLM_c393604e1e3baa9cc95511dcbaf1d5c7a2acb173f35192f261bea2748d2fc92a"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller için yapım sırasında tutulması gereken kayıtlar nelerdir?",
+      "question_id": "2.2.1-Q44",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller için kabul ve devreye alma kriterleri nelerdir?",
+      "question_id": "2.2.1-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f66904beadb97a39f91e347edf294ab08abe88c46c64cc7ec8be7304917e435e"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller kullanım aşamasında nasıl izlenmeli ve denetlenmelidir?",
+      "question_id": "2.2.1-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller yaşam döngüsü boyunca hangi bakım gereksinimlerini doğurur?",
+      "question_id": "2.2.1-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Kayaç Zeminde Açılan Tüneller sürdürülebilirlik ve çevresel etki açısından nasıl değerlendirilebilir?",
+      "question_id": "2.2.1-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8ad67493bda5333f9bf58de1e43b183d285127d10d8fbbf76868d34adc5df74f"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller ile ilgili Türkiye’den hangi uygulama örnekleri verilebilir?",
+      "question_id": "2.2.1-Q49",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fe4ee7955fc4af0f2a047ec1dba7bc9ec2cef03f7d5bf43357da42ea34bb868d"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kayaç Zeminde Açılan Tüneller ile ilgili dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "2.2.1-Q50",
+      "reason_code": "PARTIAL_ONLY"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "2.2.1",
+  "section_title": "Kayaç Zeminde Açılan Tüneller",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_000a992b0ce280cd79895783413bb1b8d4a3f98e8cfc07d45d6ba70596eb816e",
+      "CLM_014bd5a524d8cce50a08614890c23c0fbd3a57d9c04f0dd94bf41a8a4207acba",
+      "CLM_1bafbf8f88d9449953834cd913850a43a21dfdb342aa9c58fb1111f300ae5a77",
+      "CLM_1d2cfbceaba42a519c53f0da31666be97774e9d946beef516cd513cbe1d008ff",
+      "CLM_1f02423f3ddb6342d522fe26390eb88df6fa1da838bfafdd76e8de8d0fe7c5fd",
+      "CLM_312191864a894e8e995b7dc108521f26849a6e74c445d7b0c2fb3b593dc97b06",
+      "CLM_31e1f92de2c3d89075bdee7fc61dd684a33958845c4a1ec69398f8b6ea9262e3",
+      "CLM_426265b7633ccf20b08f72592cb390eb9341288fd5846fd3299a484d3e91e698",
+      "CLM_455dba80bce8abecf29c24004e0bdd60c648774c0c196b5b00ff06ee4c2af8f8",
+      "CLM_45a7029aa1dda2a42c9cd45bf46dd9d5083c28539a4209458ff2a45bbfea92c8",
+      "CLM_4b662d551ce849d85986dfdec1b152df5d511b6ad6c2e31498614141c0d3d095",
+      "CLM_4f2a52ff05421ea72d74e442f9a5b26e99b1885aa75ddc0dbd1034c03c98bdea",
+      "CLM_51117da212905240e9b38e271c7fa0555017bab2d92afb5821028a24d3de8b13",
+      "CLM_558efbaa83d27aceb1ffd1cac3a71eced27ece62b450d8c9824c57c1d15eccd8",
+      "CLM_573ab47354de05a392f082ac599cbc1bc499c87db78ef0d654898c2a2972b5d9",
+      "CLM_5ffa03b85cd0687a8c60d6f7b114c81b1a5956846507c55996003b305d8281d7",
+      "CLM_66f17766ad39b723661f9ded5610db933f7d1da4e2e50ec49227699f9df4c1ef",
+      "CLM_674079d0c748e99c29ff69ca1d41db994068136591fb82262520ad81fe7ee707",
+      "CLM_6cc2b256e2983c74fb6676927357a5ae50844b9478bd44a4940f06068754d666",
+      "CLM_725766bc4bc8319edff8221802b5a6f2424ea120d57fe5d10b944623627c0daf",
+      "CLM_80e2f09747c40d2260c9339cadbd70f2ce1767083f596efc88949b70b1d2e0ac",
+      "CLM_86f3ee45e99980681dbbc1eceb7ec7e7c0c90f84c6d20a23979985abe2289c8d",
+      "CLM_8ad67493bda5333f9bf58de1e43b183d285127d10d8fbbf76868d34adc5df74f",
+      "CLM_905b9ad93bb008981b6e6a1ba115d88974566550d0d65919d36024b2c8205b6c",
+      "CLM_98b56c40e82ef6813dbeb653faa528078c53c0602fee0af3c52ab9f63347dd1e",
+      "CLM_9a42b7b2b0b3bae64d93daf4ddefec2bc71d3782300b87fb46d574500bf6bc5b",
+      "CLM_9c9b083d3a9c423d02375315fc9f9643f0824f6d2a56a5255d09b46d604a452e",
+      "CLM_a4d087a856d4d31a69a8b6cd41cadddd3dd0ffed2c03c5d7c3997210a16fb68a",
+      "CLM_a81fbf27145592a811c190998749da1565033b2193dfc16ae32a50b885289ebc",
+      "CLM_b604ffea1a8e4a913bdad0da9425b3d274d5b5aa5a477c35141ade7201238249",
+      "CLM_b6b2e6f8134fb37bc3100d5c51a046944f11264071ce94668b458a345cfd96aa",
+      "CLM_bca0c72f764d988febca85e0754e8236cbf3c66b1501b7f73cb9c8ca665c7895",
+      "CLM_c1482185bc71cdb4e434bc6e0af3a2207ebea3056b0aa3f895638f002a0f6130",
+      "CLM_c393604e1e3baa9cc95511dcbaf1d5c7a2acb173f35192f261bea2748d2fc92a",
+      "CLM_c8a9e86210feecb7265b3316f614055beb4be322ab513418ce7a4fef49ceede6",
+      "CLM_cf4d2fe789f5359de08f727496087a57318932047051ba21b6ae969ca6aeeb7f",
+      "CLM_d6b0b33e18d037a318b53ac5ad6effc0d2f92b6fa3fb8330c038b57128664c2b",
+      "CLM_db422bbe824bbc8d955df5b53e84804a7ee5fd3b7c00860ab6755c5f76ce7052",
+      "CLM_dd849f23414f2fb428e30d9a13dc91e592441a9db8554dca01e6fe9d49899abf",
+      "CLM_e0dba5be4f84769205aa4f0452c18f675525df811a07c6731075f6da31b0a127",
+      "CLM_e213bcf81409e0d5951d8ab714c47c434d479e0d202e6f1548fc3448bfa58440",
+      "CLM_ed46a31dbb488f38b2f561254680c56aa04cabe29a77944488c84883084ee18d",
+      "CLM_f0f53a1ca6235c5ab4a4c95c7fe74b9545620a65cf40437a45beac51937b9e0b",
+      "CLM_f2b7dfe4dce96edb1be2c79439f9ad88834338c1fef6bdbe4f9d22b985b4268f",
+      "CLM_f66904beadb97a39f91e347edf294ab08abe88c46c64cc7ec8be7304917e435e",
+      "CLM_fe4ee7955fc4af0f2a047ec1dba7bc9ec2cef03f7d5bf43357da42ea34bb868d",
+      "CLM_fea3891c9c40709e935788714b47532db2ba33a970ff312abeb977eaba956b29",
+      "CLM_ff065d8b79e8abad8f6ea955b4273a00053d1c1fcd617dd61f104f2e5151429c"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "2.2.1-Q01",
+      "2.2.1-Q03",
+      "2.2.1-Q04",
+      "2.2.1-Q05",
+      "2.2.1-Q10",
+      "2.2.1-Q12",
+      "2.2.1-Q13",
+      "2.2.1-Q16",
+      "2.2.1-Q17",
+      "2.2.1-Q19",
+      "2.2.1-Q20",
+      "2.2.1-Q21",
+      "2.2.1-Q26",
+      "2.2.1-Q28",
+      "2.2.1-Q29",
+      "2.2.1-Q30",
+      "2.2.1-Q31",
+      "2.2.1-Q32",
+      "2.2.1-Q33",
+      "2.2.1-Q34",
+      "2.2.1-Q35",
+      "2.2.1-Q36",
+      "2.2.1-Q37",
+      "2.2.1-Q38",
+      "2.2.1-Q39",
+      "2.2.1-Q41",
+      "2.2.1-Q42",
+      "2.2.1-Q43",
+      "2.2.1-Q46",
+      "2.2.1-Q49",
+      "2.2.1-Q50"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "2.2.1-Q02",
+      "2.2.1-Q06",
+      "2.2.1-Q07",
+      "2.2.1-Q08",
+      "2.2.1-Q09",
+      "2.2.1-Q11",
+      "2.2.1-Q14",
+      "2.2.1-Q15",
+      "2.2.1-Q18",
+      "2.2.1-Q25",
+      "2.2.1-Q27",
+      "2.2.1-Q40",
+      "2.2.1-Q45",
+      "2.2.1-Q47",
+      "2.2.1-Q48"
+    ]
+  }
+}

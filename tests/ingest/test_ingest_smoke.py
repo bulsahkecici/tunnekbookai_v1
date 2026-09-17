@@ -36,6 +36,13 @@ class FormatRegistryTests(unittest.TestCase):
             self.assertEqual(detect(fake).fmt, Format.DOCX)
             self.assertEqual(detect(fake).detected_by, "ooxml_magic")
 
+    def test_pdf_sniff_beats_html_extension(self):
+        with tempfile.TemporaryDirectory() as d:
+            fake = Path(d) / "source_raw.html"
+            fake.write_bytes((FIX / "sample.pdf").read_bytes())
+            self.assertEqual(detect(fake).fmt, Format.PDF)
+            self.assertEqual(detect(fake).detected_by, "pdf_magic")
+
     def test_known_extensions(self):
         self.assertEqual(detect(FIX / "sample.pdf").fmt, Format.PDF)
         self.assertEqual(detect(FIX / "sample_photo.jpg").fmt, Format.JPG)

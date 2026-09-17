@@ -1,0 +1,163 @@
+{
+  "final_primary_section": "5.7",
+  "final_secondary_sections": [
+    "5.4.2"
+  ],
+  "final_section_confidence": 0.6928,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0002",
+        "PARA0003",
+        "PARA0014",
+        "LIST0010",
+        "LIST0011",
+        "LIST0012",
+        "PARA0019",
+        "PARA0022",
+        "FIG0006",
+        "CAPT0001",
+        "LIST0018",
+        "LIST0019",
+        "PARA0025",
+        "LIST0021",
+        "LIST0026",
+        "LIST0027",
+        "PARA0031",
+        "PARA0034",
+        "PARA0035",
+        "PARA0036",
+        "PARA0037",
+        "PARA0039",
+        "PARA0046",
+        "PARA0064"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0002",
+        "PARA0003",
+        "PARA0014",
+        "LIST0010",
+        "LIST0011",
+        "LIST0012",
+        "PARA0019",
+        "PARA0022",
+        "FIG0006",
+        "CAPT0001",
+        "LIST0018",
+        "LIST0019",
+        "PARA0025",
+        "LIST0021",
+        "PARA0028",
+        "LIST0026",
+        "LIST0027",
+        "PARA0031",
+        "PARA0034",
+        "PARA0035",
+        "PARA0036",
+        "PARA0037",
+        "PARA0039",
+        "PARA0046"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.7",
+      "score": 0.6928,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7493,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.689,
+      "rule_score": 0.5,
+      "embedding_score": 0.7853,
+      "chunk_vote": 0.0531
+    },
+    {
+      "id": "5.6",
+      "score": 0.3807,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2535
+    },
+    {
+      "id": "5.9",
+      "score": 0.3447,
+      "rule_score": 0.0,
+      "embedding_score": 0.7536,
+      "chunk_vote": 0.0281
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3429,
+      "rule_score": 0.0,
+      "embedding_score": 0.762,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3428,
+      "rule_score": 0.0,
+      "embedding_score": 0.7618,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.34,
+      "rule_score": 0.0,
+      "embedding_score": 0.7556,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3379,
+      "rule_score": 0.0,
+      "embedding_score": 0.7508,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3357,
+      "rule_score": 0.0,
+      "embedding_score": 0.7459,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5",
+      "score": 0.3216,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0803
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, otoyol tünellerinde sabit yangın söndürme sistemlerinin (FFFS) acil durum havalandırma sistemleri (EVS) ile entegrasyonunun bilgisayar modellemesini ve enerji/havalandırma performans etkilerini incelemektedir. Bu kapsam, 'Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi' (5.7) bölümünün işletme ve enerji verimliliği odaklı içeriğiyle en yüksek örtüşmeye sahiptir. Ayrıca, FFFS'nin bir elektr",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.7:0.6928 gap=0.004 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

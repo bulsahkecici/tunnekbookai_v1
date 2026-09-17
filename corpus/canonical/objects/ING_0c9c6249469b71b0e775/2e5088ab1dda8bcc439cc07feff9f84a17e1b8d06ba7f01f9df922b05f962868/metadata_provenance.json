@@ -1,0 +1,96 @@
+{
+  "document_id": "ING_0c9c6249469b71b0e775",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Kaya Tünelleri",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "accident",
+        "blasting",
+        "cost",
+        "drainage",
+        "excavation",
+        "forepoling",
+        "geotechnical_investigation",
+        "ground_improvement",
+        "injection",
+        "karst",
+        "monitoring",
+        "natm",
+        "safety",
+        "shotcrete",
+        "steel_mesh",
+        "support_systems",
+        "tbm",
+        "water"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:natm; tbm:tbm; geotechnical_investigation:sondaj; excavation:kazı; blasting:patlatma; shotcrete:püskürtme beton; steel_mesh:çelik hasır; forepoling:süren; support_systems:destek sistem; ground_improvement:zemin iyileşt; injection:enjeksiyon; karst:karst"
+    }
+  ]
+}

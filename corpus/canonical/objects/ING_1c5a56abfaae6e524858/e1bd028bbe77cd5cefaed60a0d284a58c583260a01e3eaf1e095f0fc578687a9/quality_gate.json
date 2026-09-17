@@ -1,0 +1,21 @@
+{
+  "document_id": "ING_1c5a56abfaae6e524858",
+  "decision": "GO",
+  "checks": {
+    "original_exists": true,
+    "sha256_valid": true,
+    "supported_format": true,
+    "structural_extraction_success": true,
+    "provenance_present": true,
+    "metadata_schema_valid": true,
+    "final_section_in_taxonomy": true,
+    "no_critical_extraction_error": true,
+    "evidence_usable": true,
+    "office_visual_snapshots": true
+  },
+  "reject_reasons": [],
+  "review_reasons": [],
+  "notes": [
+    "MANUAL_REVIEW_APPROVED: Kazı sırasında deplasman, konverjans ve ayna ilerlemesi izleme yöntemleri içerik üzerinden doğrulandı."
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "final_primary_section": "2.4.1.2",
+  "final_secondary_sections": [
+    "2.2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0004",
+        "PARA0005",
+        "PARA0008",
+        "PARA0009",
+        "PARA0013",
+        "PARA0014",
+        "PARA0017",
+        "HEAD0009",
+        "PARA0079",
+        "FIG0021",
+        "CAPT0013",
+        "PARA0080",
+        "FIG0022",
+        "CAPT0014",
+        "PARA0081",
+        "PARA0082",
+        "FIG0024",
+        "CAPT0016",
+        "PARA0111",
+        "PARA0112",
+        "PARA0113",
+        "PARA0114",
+        "FIG0029",
+        "CAPT0023"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0004",
+        "PARA0008",
+        "PARA0013",
+        "PARA0014",
+        "PARA0016",
+        "FIG0012",
+        "PARA0021",
+        "FIG0013",
+        "CAPT0002",
+        "PARA0026",
+        "FIG0014",
+        "PARA0027",
+        "PARA0031",
+        "PARA0032",
+        "FIG0016",
+        "CAPT0008",
+        "PARA0056",
+        "PARA0065",
+        "PARA0066",
+        "PARA0069",
+        "FIG0019",
+        "PARA0074",
+        "PARA0075",
+        "PARA0079",
+        "HEAD0011"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2.1",
+      "score": 0.3557,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1285
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3515,
+      "rule_score": 0.0,
+      "embedding_score": 0.7812,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3474,
+      "rule_score": 0.0,
+      "embedding_score": 0.7721,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3458,
+      "rule_score": 0.0,
+      "embedding_score": 0.758,
+      "chunk_vote": 0.0235
+    },
+    {
+      "id": "5.7",
+      "score": 0.3456,
+      "rule_score": 0.0,
+      "embedding_score": 0.768,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3411,
+      "rule_score": 0.0,
+      "embedding_score": 0.7579,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3395,
+      "rule_score": 0.0,
+      "embedding_score": 0.7544,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.339,
+      "rule_score": 0.0,
+      "embedding_score": 0.7533,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3388,
+      "rule_score": 0.0,
+      "embedding_score": 0.7529,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.3226,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4341
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel genişletme sırasında patlatma titreşimlerinin sayısal simülasyonu ve saha izlenmesini ele almakta olup, bu süreç doğrudan inşaat aşamasındaki çalışmalara (2.4.1.2) aittir. Ayrıca, patlatmanın kayaç zeminde (interlaid rock mass) etkisi ve tünelin kayaç içindeki konumu nedeniyle 2.2.1 (Kayaç Zeminde Açılan Tüneller) ikincil bölüm olarak değerlendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2.1:0.3557 gap=0.004 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

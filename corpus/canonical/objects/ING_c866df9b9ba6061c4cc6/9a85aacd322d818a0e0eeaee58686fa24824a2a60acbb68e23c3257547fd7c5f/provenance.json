@@ -1,0 +1,151 @@
+{
+  "document_id": "ING_c866df9b9ba6061c4cc6",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_90E1A474750CE8FEC539",
+      "producer_document_id": "PC_C866DF9B9BA6061C",
+      "declared_sha256": "c866df9b9ba6061c4cc6f44d99ae59ec834b5472fcbee6d84e3b83a11fe36d09",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_C866DF9B9BA6061C/source_raw.html",
+        "sha256": "c866df9b9ba6061c4cc6f44d99ae59ec834b5472fcbee6d84e3b83a11fe36d09"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1007/s11709-019-0575-x",
+        "landing_url": "https://doi.org/10.1007/s11709-019-0575-x",
+        "resolved_url": "https://link.springer.com/article/10.1007/s11709-019-0575-x",
+        "discovery_source": "openaire",
+        "discovery_query": "immersed tunnel cost construction",
+        "doi": "10.1007/s11709-019-0575-x",
+        "publisher": "Springer Science and Business Media LLC"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.1007/s11709-019-0575-x",
+        "landing_url": "https://doi.org/10.1007/s11709-019-0575-x",
+        "resolved_url": "https://link.springer.com/article/10.1007/s11709-019-0575-x",
+        "discovery_source": "openaire",
+        "discovery_query": "immersed tunnel cost construction",
+        "doi": "10.1007/s11709-019-0575-x",
+        "publisher": "Springer Science and Business Media LLC"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_C866DF9B9BA6061C",
+        "canonical_id": "CAN_90E1A474750CE8FEC539",
+        "canonical_hint_id": "CAN_90E1A474750CE8FEC539",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "Springer Science and Business Media LLC",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Comparative study on foundation treatment methods of immersed tunnels in China",
+        "authors": [
+          "Shaochun Wang",
+          "Xuehui Zhang",
+          "Yun Bai"
+        ],
+        "year": "2019",
+        "doi": "10.1007/s11709-019-0575-x",
+        "source_url": "https://doi.org/10.1007/s11709-019-0575-x",
+        "landing_url": "https://doi.org/10.1007/s11709-019-0575-x",
+        "resolved_url": "https://link.springer.com/article/10.1007/s11709-019-0575-x",
+        "local_path": "01_originals/C_ACADEMIC/PC_C866DF9B9BA6061C/source_raw.html",
+        "sha256": "c866df9b9ba6061c4cc6f44d99ae59ec834b5472fcbee6d84e3b83a11fe36d09",
+        "source_name": "openaire",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "TITLE_METADATA_ONLY",
+        "evidence_level": "TITLE_METADATA_ONLY",
+        "acquisition_status": "SNAPSHOTTED_WEB",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_C866DF9B9BA6061C/source_raw.html",
+          "original_or_raw_sha256": "c866df9b9ba6061c4cc6f44d99ae59ec834b5472fcbee6d84e3b83a11fe36d09",
+          "crawler_normalized": "01_originals/C_ACADEMIC/PC_C866DF9B9BA6061C/source.md",
+          "crawler_normalized_sha256": "3fb29f9766ede8cf4ad7f1d89c8026b34c9c5fa595ddeeb2bebcf628b24f848d",
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "LLM_ACCEPTED",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "alignment",
+          "construction_management",
+          "cost_estimation",
+          "geotechnics",
+          "immersed_tube",
+          "rehabilitation",
+          "shield_tunnelling",
+          "site_investigation",
+          "soft_ground",
+          "tunnel_classification",
+          "underwater_tunnel"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "Springer Science and Business Media LLC",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "SNAPSHOTTED_WEB",
+          "source_path": "01_originals/C_ACADEMIC/PC_C866DF9B9BA6061C/source_raw.html",
+          "source_sha256": "c866df9b9ba6061c4cc6f44d99ae59ec834b5472fcbee6d84e3b83a11fe36d09"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.1007/s11709-019-0575-x",
+          "landing_url": "https://doi.org/10.1007/s11709-019-0575-x",
+          "resolved_url": "https://link.springer.com/article/10.1007/s11709-019-0575-x",
+          "discovery_source": "openaire",
+          "discovery_query": "immersed tunnel cost construction",
+          "doi": "10.1007/s11709-019-0575-x",
+          "publisher": "Springer Science and Business Media LLC"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source_raw.html",
+    "original_sha256": "c866df9b9ba6061c4cc6f44d99ae59ec834b5472fcbee6d84e3b83a11fe36d09",
+    "mime_type": "text/html",
+    "format": "HTML"
+  }
+}

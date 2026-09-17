@@ -1,0 +1,144 @@
+{
+  "document_id": "ING_2c91586293ddae930a90",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_ECCCB30EF1A4AC46D0DC",
+      "producer_document_id": "PC_2C91586293DDAE93",
+      "declared_sha256": "2c91586293ddae930a90d7aa40315f94daa57bec738e3346870c7bc03cefd462",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_2C91586293DDAE93/source_raw.html",
+        "sha256": "2c91586293ddae930a90d7aa40315f94daa57bec738e3346870c7bc03cefd462"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1007/s00603-021-02399-x",
+        "landing_url": "https://doi.org/10.1007/s00603-021-02399-x",
+        "resolved_url": "https://link.springer.com/article/10.1007/s00603-021-02399-x",
+        "discovery_source": "core",
+        "discovery_query": "NATM tunnel support shotcrete rock",
+        "doi": "10.1007/s00603-021-02399-x"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.1007/s00603-021-02399-x",
+        "landing_url": "https://doi.org/10.1007/s00603-021-02399-x",
+        "resolved_url": "https://link.springer.com/article/10.1007/s00603-021-02399-x",
+        "discovery_source": "core",
+        "discovery_query": "NATM tunnel support shotcrete rock",
+        "doi": "10.1007/s00603-021-02399-x"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_2C91586293DDAE93",
+        "canonical_id": "CAN_ECCCB30EF1A4AC46D0DC",
+        "canonical_hint_id": "CAN_ECCCB30EF1A4AC46D0DC",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "UNKNOWN"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "A <em>3DEC</em> Numerical Analysis of the Interaction Between an Uneven Rock Surface and Shotcrete Lining",
+        "authors": [
+          "Nordlund, Ering,",
+          "Zhang, Ping,"
+        ],
+        "year": "2021",
+        "doi": "10.1007/s00603-021-02399-x",
+        "source_url": "https://doi.org/10.1007/s00603-021-02399-x",
+        "landing_url": "https://doi.org/10.1007/s00603-021-02399-x",
+        "resolved_url": "https://link.springer.com/article/10.1007/s00603-021-02399-x",
+        "local_path": "01_originals/C_ACADEMIC/PC_2C91586293DDAE93/source_raw.html",
+        "sha256": "2c91586293ddae930a90d7aa40315f94daa57bec738e3346870c7bc03cefd462",
+        "source_name": "core",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "WEB_SNAPSHOT_TEXT",
+        "evidence_level": "WEB_SNAPSHOT_TEXT",
+        "acquisition_status": "SNAPSHOTTED_WEB",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_2C91586293DDAE93/source_raw.html",
+          "original_or_raw_sha256": "2c91586293ddae930a90d7aa40315f94daa57bec738e3346870c7bc03cefd462",
+          "crawler_normalized": "01_originals/C_ACADEMIC/PC_2C91586293DDAE93/source.md",
+          "crawler_normalized_sha256": "f7f9464e3a0a63b6d64202ebf6a268e8dfd08ef73513018e48dc85ddf9fca4e4",
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "rock_tunnel",
+          "shotcrete",
+          "structural_defect",
+          "inspection",
+          "alignment",
+          "excavation",
+          "deformation",
+          "soft_ground"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "UNKNOWN"
+        },
+        "acquisition": {
+          "status": "SNAPSHOTTED_WEB",
+          "source_path": "01_originals/C_ACADEMIC/PC_2C91586293DDAE93/source_raw.html",
+          "source_sha256": "2c91586293ddae930a90d7aa40315f94daa57bec738e3346870c7bc03cefd462"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.1007/s00603-021-02399-x",
+          "landing_url": "https://doi.org/10.1007/s00603-021-02399-x",
+          "resolved_url": "https://link.springer.com/article/10.1007/s00603-021-02399-x",
+          "discovery_source": "core",
+          "discovery_query": "NATM tunnel support shotcrete rock",
+          "doi": "10.1007/s00603-021-02399-x"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source_raw.html",
+    "original_sha256": "2c91586293ddae930a90d7aa40315f94daa57bec738e3346870c7bc03cefd462",
+    "mime_type": "text/html",
+    "format": "HTML"
+  }
+}

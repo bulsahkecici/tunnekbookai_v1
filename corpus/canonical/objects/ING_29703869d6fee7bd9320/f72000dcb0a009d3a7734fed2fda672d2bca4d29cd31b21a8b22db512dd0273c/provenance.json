@@ -1,0 +1,152 @@
+{
+  "document_id": "ING_29703869d6fee7bd9320",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_AD89D4183E9E9D68F087",
+      "producer_document_id": "PC_29703869D6FEE7BD",
+      "declared_sha256": "29703869d6fee7bd9320dfd0e65c1e0461a3fcb52a66a9d814d21ef4366a7f3c",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_29703869D6FEE7BD/source.pdf",
+        "sha256": "29703869d6fee7bd9320dfd0e65c1e0461a3fcb52a66a9d814d21ef4366a7f3c"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.4067/s0718-28132015000100002",
+        "landing_url": "https://doi.org/10.4067/s0718-28132015000100002",
+        "pdf_url": "https://obrasyproyectos.org/index.php/oyp/article/download/3451/2188",
+        "resolved_url": "https://obrasyproyectos.org/index.php/oyp/article/download/3451/2188",
+        "discovery_source": "crossref",
+        "discovery_query": "NATM",
+        "doi": "10.4067/s0718-28132015000100002",
+        "publisher": "Obras y Proyectos"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.4067/s0718-28132015000100002",
+        "landing_url": "https://doi.org/10.4067/s0718-28132015000100002",
+        "pdf_url": "https://obrasyproyectos.org/index.php/oyp/article/download/3451/2188",
+        "resolved_url": "https://obrasyproyectos.org/index.php/oyp/article/download/3451/2188",
+        "discovery_source": "crossref",
+        "discovery_query": "NATM",
+        "doi": "10.4067/s0718-28132015000100002",
+        "publisher": "Obras y Proyectos"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_29703869D6FEE7BD",
+        "canonical_id": "CAN_AD89D4183E9E9D68F087",
+        "canonical_hint_id": "CAN_AD89D4183E9E9D68F087",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "Obras y Proyectos",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Comparación de tres metodologías de análisis sísmico de túnel NATM en suelos finos de Santiago",
+        "authors": [
+          "David Solans",
+          "Cristian Hormazábal",
+          "Benjamin Rojas",
+          "Roberto León"
+        ],
+        "year": "2015",
+        "doi": "10.4067/s0718-28132015000100002",
+        "source_url": "https://doi.org/10.4067/s0718-28132015000100002",
+        "landing_url": "https://doi.org/10.4067/s0718-28132015000100002",
+        "resolved_url": "https://obrasyproyectos.org/index.php/oyp/article/download/3451/2188",
+        "local_path": "01_originals/C_ACADEMIC/PC_29703869D6FEE7BD/source.pdf",
+        "sha256": "29703869d6fee7bd9320dfd0e65c1e0461a3fcb52a66a9d814d21ef4366a7f3c",
+        "source_name": "crossref",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "ABSTRACT",
+        "evidence_level": "ABSTRACT",
+        "acquisition_status": "DOWNLOADED_PDF",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_29703869D6FEE7BD/source.pdf",
+          "original_or_raw_sha256": "29703869d6fee7bd9320dfd0e65c1e0461a3fcb52a66a9d814d21ef4366a7f3c",
+          "crawler_normalized": null,
+          "crawler_normalized_sha256": null,
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "NATM",
+          "soft_ground",
+          "disaster",
+          "sustainability",
+          "alignment",
+          "instrumentation",
+          "settlement",
+          "monitoring"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "Obras y Proyectos",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "DOWNLOADED_PDF",
+          "source_path": "01_originals/C_ACADEMIC/PC_29703869D6FEE7BD/source.pdf",
+          "source_sha256": "29703869d6fee7bd9320dfd0e65c1e0461a3fcb52a66a9d814d21ef4366a7f3c"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.4067/s0718-28132015000100002",
+          "landing_url": "https://doi.org/10.4067/s0718-28132015000100002",
+          "pdf_url": "https://obrasyproyectos.org/index.php/oyp/article/download/3451/2188",
+          "resolved_url": "https://obrasyproyectos.org/index.php/oyp/article/download/3451/2188",
+          "discovery_source": "crossref",
+          "discovery_query": "NATM",
+          "doi": "10.4067/s0718-28132015000100002",
+          "publisher": "Obras y Proyectos"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source.pdf",
+    "original_sha256": "29703869d6fee7bd9320dfd0e65c1e0461a3fcb52a66a9d814d21ef4366a7f3c",
+    "mime_type": "application/pdf",
+    "format": "PDF"
+  }
+}

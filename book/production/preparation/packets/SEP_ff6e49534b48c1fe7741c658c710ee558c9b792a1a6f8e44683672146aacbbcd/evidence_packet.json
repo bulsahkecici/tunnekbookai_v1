@@ -1,0 +1,632 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_fbc34379e88f138064ca28d81f6280a38556d37eb90b79b8d3996c06d9e685a6",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 18,
+    "SUPPORTED": 4,
+    "UNSUPPORTED": 28
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_ff6e49534b48c1fe7741c658c710ee558c9b792a1a6f8e44683672146aacbbcd",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_a3e316fae7221cb48a251bf72a3c4380e6343e25eb85a33c8b3e44484a350b1b"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar kapsamında maliyet kavramı nasıl tanımlanmalıdır?",
+      "question_id": "4.1-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a3e316fae7221cb48a251bf72a3c4380e6343e25eb85a33c8b3e44484a350b1b",
+        "CLM_d5c464c1b29e862aa4d34039e4fe1b9124cabcd89b575d0e87f9421aa9e81f8f"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar hangi maliyet kalemlerini içerir?",
+      "question_id": "4.1-Q02",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_67083a0e13be871c07732b0ee3581eb7e82bd60fc0092b45b1f739278a5f2343",
+        "CLM_00d78f885595cfa3eace9d33ebe11344bbcd3d87004377a5af29ac3e9c0dada1"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar kapsamında doğrudan maliyetler nelerdir?",
+      "question_id": "4.1-Q03",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar kapsamında dolaylı maliyetler nelerdir?",
+      "question_id": "4.1-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_67083a0e13be871c07732b0ee3581eb7e82bd60fc0092b45b1f739278a5f2343",
+        "CLM_74c6566fef75b015788398d88f66af73ccd9dcbd63d5ed5ebced8bb05b4f4c6d"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar kapsamında ilk yatırım maliyetleri nasıl ayrıştırılır?",
+      "question_id": "4.1-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_35b9fb96b936c910db4d222314187fe283e6aacf43097825b42b6559f7b4148b",
+        "CLM_2f842ff41a140a544379c18b56c8ba43bc57a0cd82f6277360480da4e8535e17"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar kapsamında bakım maliyetleri nasıl ayrıştırılır?",
+      "question_id": "4.1-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_35b9fb96b936c910db4d222314187fe283e6aacf43097825b42b6559f7b4148b",
+        "CLM_2f842ff41a140a544379c18b56c8ba43bc57a0cd82f6277360480da4e8535e17"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar kapsamında işletme maliyetleri nasıl ayrıştırılır?",
+      "question_id": "4.1-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar kapsamında yenileme ve büyük onarım maliyetleri nasıl ele alınır?",
+      "question_id": "4.1-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar kapsamında personel maliyetleri nasıl ele alınır?",
+      "question_id": "4.1-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_35b9fb96b936c910db4d222314187fe283e6aacf43097825b42b6559f7b4148b",
+        "CLM_d5c464c1b29e862aa4d34039e4fe1b9124cabcd89b575d0e87f9421aa9e81f8f"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar kapsamında enerji maliyetleri nasıl ele alınır?",
+      "question_id": "4.1-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar kapsamında malzeme maliyetleri nasıl ele alınır?",
+      "question_id": "4.1-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar kapsamında makine ve ekipman maliyetleri nasıl ele alınır?",
+      "question_id": "4.1-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar kapsamında taşeron ve hizmet alımı maliyetleri nasıl ele alınır?",
+      "question_id": "4.1-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar kapsamında trafik yönetimi ve güvenlik maliyetleri nasıl ele alınır?",
+      "question_id": "4.1-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar kapsamında kapanma veya kapasite kaybı gibi kullanıcı maliyetleri dikkate alınmalı mıdır?",
+      "question_id": "4.1-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_35b9fb96b936c910db4d222314187fe283e6aacf43097825b42b6559f7b4148b",
+        "CLM_5eefd4ceec27861a1c2842336e8e2900cdaedd7789492451a83cfff0cae3235b"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar kapsamında çevresel maliyetler nasıl değerlendirilebilir?",
+      "question_id": "4.1-Q16",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar için toplam maliyet ile birim maliyet arasındaki fark nasıl açıklanmalıdır?",
+      "question_id": "4.1-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_89759337de09f4c2861573436a4e1472f6656b5243a8f09216fa2c79efacd9af",
+        "CLM_96d873912aa0ed05f7d838a7ef945a1085f49772202db5fa1d3c12ab2d980039"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar için TL/m, TL/km veya benzeri birim maliyet göstergeleri ne zaman kullanılmalıdır?",
+      "question_id": "4.1-Q18",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7f0532baed1a0ed2c441981a2a85e96c3dd52ec87fa8e5b0ed30091c2098a5fb",
+        "CLM_d5d774306e729c2063bd96f10d2258a5ec20d3b9524e97c79f3d9c8a5b0d92c6"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar farklı tünel uzunluklarında nasıl değişir?",
+      "question_id": "4.1-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_67083a0e13be871c07732b0ee3581eb7e82bd60fc0092b45b1f739278a5f2343",
+        "CLM_7f0532baed1a0ed2c441981a2a85e96c3dd52ec87fa8e5b0ed30091c2098a5fb"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar farklı tünel kesitlerinde nasıl değişir?",
+      "question_id": "4.1-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar farklı tüp ve şerit sayılarında nasıl değişir?",
+      "question_id": "4.1-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar farklı jeolojik ve geoteknik koşullarda nasıl değişir?",
+      "question_id": "4.1-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_67083a0e13be871c07732b0ee3581eb7e82bd60fc0092b45b1f739278a5f2343"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar farklı yapım yöntemlerinde nasıl değişir?",
+      "question_id": "4.1-Q23",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar farklı destek sınıflarında nasıl değişir?",
+      "question_id": "4.1-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar farklı elektromekanik donanım düzeylerinde nasıl değişir?",
+      "question_id": "4.1-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7f2db110749983f41728f9107b50d1f56e3cd4a3f5afeb4b386161b5da95620a",
+        "CLM_d86d823ed3682e554ee9ca830bb9cb794cc2b930e49354a45758b360331345ea"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar trafik yoğunluğu ve işletme rejiminden nasıl etkilenir?",
+      "question_id": "4.1-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_74c6566fef75b015788398d88f66af73ccd9dcbd63d5ed5ebced8bb05b4f4c6d",
+        "CLM_67b02fedaec893ad7038d802ea363435ce1ba5b573c952e259161582204ba814"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar yapım süresi veya işletme süresinden nasıl etkilenir?",
+      "question_id": "4.1-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar için baz yıl ve fiyat seviyesi nasıl tanımlanmalıdır?",
+      "question_id": "4.1-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar hesaplarında enflasyon etkisi nasıl düzeltilmelidir?",
+      "question_id": "4.1-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar hesaplarında döviz kuru etkisi nasıl ele alınmalıdır?",
+      "question_id": "4.1-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar hesaplarında iskonto oranı hangi durumlarda kullanılmalıdır?",
+      "question_id": "4.1-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar için net bugünkü değer yaklaşımı nasıl uygulanabilir?",
+      "question_id": "4.1-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a3e316fae7221cb48a251bf72a3c4380e6343e25eb85a33c8b3e44484a350b1b",
+        "CLM_2aa4a7ac4ddc299c4757ea193d0a091d9a5bf983858b9da1282c3220aab1081f",
+        "CLM_ba7cb8cd753ba03129e8f4e8de759b70da3f59fe28cd7cb85143b00a132bf3ab",
+        "CLM_64858687555543fd8782921924c207c9cb72ee98578f29eb9fd25c1765218b4a"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar için yaşam döngüsü maliyeti yaklaşımı nasıl uygulanabilir?",
+      "question_id": "4.1-Q33",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a3e316fae7221cb48a251bf72a3c4380e6343e25eb85a33c8b3e44484a350b1b",
+        "CLM_7bbd81f3b894181570286ecbfcff9c2a9c94a8dfe6dfb140261d6658bda54be7"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar hesaplarında hizmet ömrü nasıl belirlenmelidir?",
+      "question_id": "4.1-Q34",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b812b7ead2b3d19100018f564873336a24804f479e66d9cafc379e8ca7926f8f",
+        "CLM_3fc7cdf5c70702c0af9b2f8e8a4d7df44fd835634172239fe1ae43dd45078607"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar hesaplarında yenileme periyotları nasıl belirlenmelidir?",
+      "question_id": "4.1-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_83995af72feb9a7964ee534d668b1fff734592371520d69bc9a06bb222faa7ff",
+        "CLM_35b9fb96b936c910db4d222314187fe283e6aacf43097825b42b6559f7b4148b"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar hesaplarında hurda veya kalıntı değer dikkate alınmalı mıdır?",
+      "question_id": "4.1-Q36",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar hesaplarında belirsizlik kaynakları nelerdir?",
+      "question_id": "4.1-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar için risk payı veya beklenmeyen giderler nasıl ele alınmalıdır?",
+      "question_id": "4.1-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_cac76e29cc24bd04a59ee85b05c37e844176c41ca9c0a08704ea47a94de1ff96"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar için duyarlılık analizi hangi değişkenlere uygulanmalıdır?",
+      "question_id": "4.1-Q39",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar için senaryo analizi nasıl kurulabilir?",
+      "question_id": "4.1-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_abfdd72164d763d88caa428cb71087f505c0eb3cfda9a31b01e57d18094a8f2b",
+        "CLM_7b7fbc4868b1afb3260cd02efdf78367b98957dfa50b5d2c7a3e18b91ae99187"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar için maliyet verileri hangi kaynaklardan toplanmalıdır?",
+      "question_id": "4.1-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar için farklı yıllara ait veriler nasıl karşılaştırılabilir hale getirilmelidir?",
+      "question_id": "4.1-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_adc91e1f6eb62d92bea50bc4a14065e8837a207cef905cfcb273117e5b0aa78a",
+        "CLM_f93d8cecd9291d2bd3471625ec99fd705b5c16e684f0e84b391112607f07c141"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar için farklı projeler arasındaki maliyet karşılaştırmasında hangi normalizasyonlar gerekir?",
+      "question_id": "4.1-Q43",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar için aykırı maliyet değerleri nasıl incelenmelidir?",
+      "question_id": "4.1-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar için temel maliyet sürücüleri istatistiksel olarak nasıl belirlenebilir?",
+      "question_id": "4.1-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar için maliyet tahmin modellerinin başarısı nasıl doğrulanmalıdır?",
+      "question_id": "4.1-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar Türkiye ve uluslararası örnekler arasında nasıl karşılaştırılabilir?",
+      "question_id": "4.1-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar bakımından maliyet azaltma fırsatları hangi aşamalarda ortaya çıkar?",
+      "question_id": "4.1-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar ile güvenlik ve kalite arasında nasıl bir denge kurulmalıdır?",
+      "question_id": "4.1-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d5c464c1b29e862aa4d34039e4fe1b9124cabcd89b575d0e87f9421aa9e81f8f",
+        "CLM_f5f73f274c2a00805f8475f6a3c4d29b863b5cf9fc08041175c49f9068d106f4",
+        "CLM_96d873912aa0ed05f7d838a7ef945a1085f49772202db5fa1d3c12ab2d980039"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar bölümünün sonunda karar vericiye hangi maliyet göstergeleri sunulmalıdır?",
+      "question_id": "4.1-Q50",
+      "reason_code": "PARTIAL_ONLY"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "4.1",
+  "section_title": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_00d78f885595cfa3eace9d33ebe11344bbcd3d87004377a5af29ac3e9c0dada1",
+      "CLM_2aa4a7ac4ddc299c4757ea193d0a091d9a5bf983858b9da1282c3220aab1081f",
+      "CLM_2f842ff41a140a544379c18b56c8ba43bc57a0cd82f6277360480da4e8535e17",
+      "CLM_35b9fb96b936c910db4d222314187fe283e6aacf43097825b42b6559f7b4148b",
+      "CLM_3fc7cdf5c70702c0af9b2f8e8a4d7df44fd835634172239fe1ae43dd45078607",
+      "CLM_5eefd4ceec27861a1c2842336e8e2900cdaedd7789492451a83cfff0cae3235b",
+      "CLM_64858687555543fd8782921924c207c9cb72ee98578f29eb9fd25c1765218b4a",
+      "CLM_67083a0e13be871c07732b0ee3581eb7e82bd60fc0092b45b1f739278a5f2343",
+      "CLM_67b02fedaec893ad7038d802ea363435ce1ba5b573c952e259161582204ba814",
+      "CLM_74c6566fef75b015788398d88f66af73ccd9dcbd63d5ed5ebced8bb05b4f4c6d",
+      "CLM_7b7fbc4868b1afb3260cd02efdf78367b98957dfa50b5d2c7a3e18b91ae99187",
+      "CLM_7bbd81f3b894181570286ecbfcff9c2a9c94a8dfe6dfb140261d6658bda54be7",
+      "CLM_7f0532baed1a0ed2c441981a2a85e96c3dd52ec87fa8e5b0ed30091c2098a5fb",
+      "CLM_7f2db110749983f41728f9107b50d1f56e3cd4a3f5afeb4b386161b5da95620a",
+      "CLM_83995af72feb9a7964ee534d668b1fff734592371520d69bc9a06bb222faa7ff",
+      "CLM_89759337de09f4c2861573436a4e1472f6656b5243a8f09216fa2c79efacd9af",
+      "CLM_96d873912aa0ed05f7d838a7ef945a1085f49772202db5fa1d3c12ab2d980039",
+      "CLM_a3e316fae7221cb48a251bf72a3c4380e6343e25eb85a33c8b3e44484a350b1b",
+      "CLM_abfdd72164d763d88caa428cb71087f505c0eb3cfda9a31b01e57d18094a8f2b",
+      "CLM_adc91e1f6eb62d92bea50bc4a14065e8837a207cef905cfcb273117e5b0aa78a",
+      "CLM_b812b7ead2b3d19100018f564873336a24804f479e66d9cafc379e8ca7926f8f",
+      "CLM_ba7cb8cd753ba03129e8f4e8de759b70da3f59fe28cd7cb85143b00a132bf3ab",
+      "CLM_cac76e29cc24bd04a59ee85b05c37e844176c41ca9c0a08704ea47a94de1ff96",
+      "CLM_d5c464c1b29e862aa4d34039e4fe1b9124cabcd89b575d0e87f9421aa9e81f8f",
+      "CLM_d5d774306e729c2063bd96f10d2258a5ec20d3b9524e97c79f3d9c8a5b0d92c6",
+      "CLM_d86d823ed3682e554ee9ca830bb9cb794cc2b930e49354a45758b360331345ea",
+      "CLM_f5f73f274c2a00805f8475f6a3c4d29b863b5cf9fc08041175c49f9068d106f4",
+      "CLM_f93d8cecd9291d2bd3471625ec99fd705b5c16e684f0e84b391112607f07c141"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "4.1-Q01",
+      "4.1-Q05",
+      "4.1-Q06",
+      "4.1-Q07",
+      "4.1-Q10",
+      "4.1-Q18",
+      "4.1-Q19",
+      "4.1-Q20",
+      "4.1-Q23",
+      "4.1-Q26",
+      "4.1-Q27",
+      "4.1-Q34",
+      "4.1-Q35",
+      "4.1-Q36",
+      "4.1-Q39",
+      "4.1-Q41",
+      "4.1-Q43",
+      "4.1-Q50"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "4.1-Q04",
+      "4.1-Q08",
+      "4.1-Q09",
+      "4.1-Q11",
+      "4.1-Q12",
+      "4.1-Q13",
+      "4.1-Q14",
+      "4.1-Q15",
+      "4.1-Q17",
+      "4.1-Q21",
+      "4.1-Q22",
+      "4.1-Q24",
+      "4.1-Q25",
+      "4.1-Q28",
+      "4.1-Q29",
+      "4.1-Q30",
+      "4.1-Q31",
+      "4.1-Q32",
+      "4.1-Q37",
+      "4.1-Q38",
+      "4.1-Q40",
+      "4.1-Q42",
+      "4.1-Q44",
+      "4.1-Q45",
+      "4.1-Q46",
+      "4.1-Q47",
+      "4.1-Q48",
+      "4.1-Q49"
+    ]
+  }
+}

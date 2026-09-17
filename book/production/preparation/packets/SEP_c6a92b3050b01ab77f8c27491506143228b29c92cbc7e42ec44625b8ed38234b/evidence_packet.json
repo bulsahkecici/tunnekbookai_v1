@@ -1,0 +1,761 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_20f323f14a9fc6e2e3d5ce007bc9afbc7aa17d7d9a798555655605fb753b15f6",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 22,
+    "SUPPORTED": 20,
+    "UNSUPPORTED": 8
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_c6a92b3050b01ab77f8c27491506143228b29c92cbc7e42ec44625b8ed38234b",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları nedir ve tünel mühendisliğindeki temel işlevi nedir?",
+      "question_id": "1.4-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları hangi mühendislik problemini çözmeyi amaçlar?",
+      "question_id": "1.4-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7e99b0de33a036e8ef2875a7278f6c1e8a099500abf3fefe2b250c05170f11a6",
+        "CLM_839983c1fe1acb81e3b17cfe57d87d52b28b8d74a189691631b000b0293d5854"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları için temel tasarım girdileri nelerdir?",
+      "question_id": "1.4-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d393fc6daa2107bc3730a6267ee9d2f58591e861fa50344640f798d23a0e1fcd",
+        "CLM_59044cad93a6a61cba3ec95c718b4ced4a7fcdc5d8413c3a52c3419f1ae08117"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları için jeolojik girdiler nelerdir?",
+      "question_id": "1.4-Q04",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c48a28fff1c0261403ea413c5e80c5400a83c7a421d35ac03fe88a58cc8da661",
+        "CLM_20c9f92a63af357d39a24a9750288d3d2731812957ebd94fc2f27445a1b986ab"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları için geoteknik girdiler nelerdir?",
+      "question_id": "1.4-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları için hidrojeolojik girdiler nelerdir?",
+      "question_id": "1.4-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları için topoğrafik ve geometrik girdiler nelerdir?",
+      "question_id": "1.4-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_50cd3804086ddfa3a3f7fb477e90507e88e9629657e765b1815ac32b0588297f",
+        "CLM_7aa7211a5d18fd0b3ab9fd500460a4f5ea8a0a34017ee3b1bdf746d1989ec2f8"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları için trafik ve işletme girdileri nelerdir?",
+      "question_id": "1.4-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_378abffc1c0fd0d8e20d32e346bdc6a8022696c55c85acb3978f9966a9b89d4d"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları seçiminde tünel uzunluğu nasıl etkili olur?",
+      "question_id": "1.4-Q09",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4b6b883a02a423844293398bc3925a0b732aa193159fe056e4b7a234b9042839",
+        "CLM_003efcfef9028c2273e30b39983093da3baf6288d31119e52eb609c6f6318dd7"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları seçiminde tünel kesiti ve açıklığı nasıl etkili olur?",
+      "question_id": "1.4-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5a71c5167b8d6c92c635b1b8bfdc8c273ae4e32a95796a6052a23532d344ebb1",
+        "CLM_bedb2e344e14cdf050045e40b6960354321cc37b5bc8f715f647d2b29b1c0fd5"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları seçiminde örtü kalınlığı nasıl etkili olur?",
+      "question_id": "1.4-Q11",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c48a28fff1c0261403ea413c5e80c5400a83c7a421d35ac03fe88a58cc8da661",
+        "CLM_8eb29fcc1058b4062c48a0251a0b51d2a23d051f732630a9de8bde89f33cdc97",
+        "CLM_4b6b883a02a423844293398bc3925a0b732aa193159fe056e4b7a234b9042839",
+        "CLM_020995361ec8bd9e734fe402dfd02ad8a0ee8d1d8e49b0a0317a8fe53c8a0716"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları seçiminde kaya kütlesi veya zemin özellikleri nasıl etkili olur?",
+      "question_id": "1.4-Q12",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1e2cfd795546ed06a0a6e8c51f64f36cd2a334801256e00f8cc48101e15e33bb"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları seçiminde yeraltı suyu koşulları nasıl etkili olur?",
+      "question_id": "1.4-Q13",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d4d5049ce1f7bec96ef05a007942c74c89370ec8781f21248a43cd9304b894ad",
+        "CLM_8c8ea646e5afb58578d9e4e239122e802c04098e3b5542fce984dd81282e9868"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları seçiminde çevresel ve yerleşim koşulları nasıl etkili olur?",
+      "question_id": "1.4-Q14",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları seçiminde iş sağlığı ve güvenliği nasıl dikkate alınır?",
+      "question_id": "1.4-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c7667d56de1bb106653816cd5315b873a2ed013c7683f2fb92f0d4efb4eb50d1",
+        "CLM_7b404b75139b759e717bf24d20e2cc235321ef1906181bd4e3de84d9a4f36e02"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları seçiminde yapım süresi nasıl dikkate alınır?",
+      "question_id": "1.4-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4b6b883a02a423844293398bc3925a0b732aa193159fe056e4b7a234b9042839",
+        "CLM_f6c895faba27394a81a5472d314b8490560924f96cfe80f026b9ebd9fec3b208"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları seçiminde ilk yatırım maliyeti nasıl dikkate alınır?",
+      "question_id": "1.4-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_50cd3804086ddfa3a3f7fb477e90507e88e9629657e765b1815ac32b0588297f",
+        "CLM_fc6f128ffc9bf2300a9f755f53822f7683f69f2868392d7d7ca31d143355a303",
+        "CLM_c7667d56de1bb106653816cd5315b873a2ed013c7683f2fb92f0d4efb4eb50d1"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları seçiminde bakım ve işletme maliyetleri nasıl dikkate alınır?",
+      "question_id": "1.4-Q18",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7c012bbca93990013b1b121828d402a28338b0f62de62aef23bbb7e1d7b763d0",
+        "CLM_f7780d779ee7650ad2801e1fb408290c4e5869d332fcbf434734405d5279c019",
+        "CLM_266135176f009870a6162d05f1f7a56364ebd435f53a387aa1c52051414b44ac",
+        "CLM_f1abe36493aeb9cf07cb7b6f16a2318c0c48d039018c412a17b20001cbebe408"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları için hangi alternatif teknik çözümler karşılaştırılabilir?",
+      "question_id": "1.4-Q19",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8e67f2c513b2f80fd0f5c6cf742e264a88b0ee838cb0831a76cd4ceccbd88f22",
+        "CLM_c3e0a79806a1fa385bfaa59c21369b172bfe0cc9fd5a681809d3d783b9843df1",
+        "CLM_266135176f009870a6162d05f1f7a56364ebd435f53a387aa1c52051414b44ac"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları alternatiflerinin avantajları ve dezavantajları nelerdir?",
+      "question_id": "1.4-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8c8ea646e5afb58578d9e4e239122e802c04098e3b5542fce984dd81282e9868",
+        "CLM_7e39c5c15db0aa7ab7994e9bdc21656c4eed9e95562f42a43060629c2428d5ec",
+        "CLM_12748f8eeb058e91e10f303977d29f00275fbb63332e2de42a0b124b130e32d7"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları için karar verme sürecinde hangi teknik kriterlere ağırlık verilmelidir?",
+      "question_id": "1.4-Q21",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_441d39ddf812051c43dde208a6c1e03153d87f8ece3c3dd12fc382b8d3ae026d",
+        "CLM_7e99b0de33a036e8ef2875a7278f6c1e8a099500abf3fefe2b250c05170f11a6",
+        "CLM_b16f19e0f9ae2ea77351814d1fbd225f84ba9d1f2e9a1e9952d8ae2171ad61af",
+        "CLM_33d3b2e0662f5dba931bdd38fcca35437919766671e71c1184fdc2b1ad561af1"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları tasarımında hangi hesap yöntemleri kullanılır?",
+      "question_id": "1.4-Q22",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_839983c1fe1acb81e3b17cfe57d87d52b28b8d74a189691631b000b0293d5854",
+        "CLM_33d3b2e0662f5dba931bdd38fcca35437919766671e71c1184fdc2b1ad561af1",
+        "CLM_7e99b0de33a036e8ef2875a7278f6c1e8a099500abf3fefe2b250c05170f11a6",
+        "CLM_b16f19e0f9ae2ea77351814d1fbd225f84ba9d1f2e9a1e9952d8ae2171ad61af"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları tasarımında hangi sayısal modelleme yöntemleri kullanılabilir?",
+      "question_id": "1.4-Q23",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_12748f8eeb058e91e10f303977d29f00275fbb63332e2de42a0b124b130e32d7"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları tasarımında hangi ampirik sınıflandırmalar kullanılabilir?",
+      "question_id": "1.4-Q24",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları tasarımında hangi güvenlik katsayıları veya performans kriterleri önemlidir?",
+      "question_id": "1.4-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları uygulamasında hangi başlıca malzemeler kullanılır?",
+      "question_id": "1.4-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9044a0968ee5229262021f768df3a6a96a6697fb6b9621eea483dcbf705cb24d",
+        "CLM_37bdca29eac3adf053071608c275789499c376e26eee8ac8a4e018c39a5931b4",
+        "CLM_6a76a9ad78b03fa6f94445d9546da80e6dc0126c8c61797cf3a4c423b078c1f9"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları uygulamasında hangi başlıca makine ve ekipmanlar kullanılır?",
+      "question_id": "1.4-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2fa116997ec49c6d28ec43b3a19945fe7407e8efe159b1822c6af0b5d65393ce"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları uygulamasının tipik iş sırası nasıldır?",
+      "question_id": "1.4-Q28",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_dc8dc36eb3c164a788f977875b5d5779c369e8e379e8ba81e166c816f25a213a",
+        "CLM_9e749b9491639daf0afe5c579c8ab7d3c49ad1be585f060b503f924e4d9a77a3"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları uygulamasında kalite kontrol nasıl yapılır?",
+      "question_id": "1.4-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d36cedb10ed91cc222f572b6f6d077f57ab3339c4f3b58fd239696458128f702",
+        "CLM_e342e1236a141f08fde157ef44ddaddb6940d89d743ea57124ad57d8935ddff0"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları uygulamasında saha ölçümleri ve enstrümantasyon nasıl kullanılır?",
+      "question_id": "1.4-Q30",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b7b17eee6d51d5a9ff14cd2357e1b63e31d7e1e83e64f37621a9914b1922f5c7",
+        "CLM_c5533318f3bc119d007294988dfe54b0cccba8dadb284fb8cb517fdc954278d5"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları uygulamasında deformasyonlar nasıl izlenir?",
+      "question_id": "1.4-Q31",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_710d2541eb75db6a9ef1d8d943cc153e0c6f2052d50bd9b4f96442f662325285",
+        "CLM_3e3b6522b808156c7ee8725c034e6fc26cae893dbdc91463edc361cc3cc31ec0"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları uygulamasında su girişleri nasıl kontrol edilir?",
+      "question_id": "1.4-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_630184f9a8312cbf61af4042204710e68704dcacc9c701df477728a0646971eb",
+        "CLM_9320fef2f47e8f2b7eac03d1954c642497f5db9ff4a307baf859a18f11de3897",
+        "CLM_24094ef866ab29be80cb32ade692c01360bacb006551708d92d70724f74e1dda",
+        "CLM_23e598a3739b448f0e271cee8c83628423db2a3de38b7e7216f3f6b75ec19efa"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları uygulamasında drenaj ve yalıtım nasıl ele alınır?",
+      "question_id": "1.4-Q33",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a73af9d4ef87b5d3c6b6e0accbbe80e27bd70fa891bc18ef386eb86c15e3485d",
+        "CLM_20c9f92a63af357d39a24a9750288d3d2731812957ebd94fc2f27445a1b986ab",
+        "CLM_af9a2a448d81f2a7b4160f86e0db6cc83de62742e9ba4a6b0bcf7585f7b58a09"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları uygulamasında beklenmeyen zemin koşullarına nasıl müdahale edilir?",
+      "question_id": "1.4-Q34",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f7d918a6d83947106b89e46a0d48d82fc80c7ee6be38c20a34e4c250d2c678dc",
+        "CLM_266135176f009870a6162d05f1f7a56364ebd435f53a387aa1c52051414b44ac"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları uygulamasında en sık görülen teknik riskler nelerdir?",
+      "question_id": "1.4-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_eb93307c63b14a0c69584001510cfe50a4de4782a6af656706792eae45e4b002",
+        "CLM_7085101618587fb56ee9db6c8835bd2d8cfcb612af4dc311c1db3e356c254e02",
+        "CLM_ad034af18b7e3be8cbdb652f4352840b29deff5814a53e95c54175d41b481a40"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları uygulamasında hata veya yetersizlik belirtileri nelerdir?",
+      "question_id": "1.4-Q36",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a73af9d4ef87b5d3c6b6e0accbbe80e27bd70fa891bc18ef386eb86c15e3485d",
+        "CLM_cf93d39cc1a282a91e33f0992adfe6b49af60686f0672ee8d5734a2def1256a7",
+        "CLM_20c9f92a63af357d39a24a9750288d3d2731812957ebd94fc2f27445a1b986ab",
+        "CLM_ffc24d95d8d40d92dedc373730dac105f91fae859f170793e9584ca93328d319"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları uygulamasında düzeltici ve güçlendirici önlemler nelerdir?",
+      "question_id": "1.4-Q37",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_70f559dbaf6000b614e7bd492f9c4290efc4b16a19373acfcce8ca820743a61b",
+        "CLM_d2e7c2802e81c31d180aacf7c4eeb02347ce32dc1e6a1358e7d21fef54494f21"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları ile nihai kaplama arasındaki ilişki nasıl kurulmalıdır?",
+      "question_id": "1.4-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_205978e0932353fb1cf2952659535905c67b14fee1eda6a5046231b65af0ca12",
+        "CLM_3794a06979b32bdd739da2ebd6123cec754c6d4c3fc7e1fb699afaa84d9a1bb1",
+        "CLM_c9ef20c9fc3e8b84ec85c8c7a51b0964b3bc102ca26fa6f70aa15d5f1a400c8d"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları ile portal tasarımı arasındaki ilişki nedir?",
+      "question_id": "1.4-Q39",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_378abffc1c0fd0d8e20d32e346bdc6a8022696c55c85acb3978f9966a9b89d4d",
+        "CLM_a05c28c4a27290a1829c9e5e07fbd317bad2155cda91e8cf508a1d8c6a05a4bf",
+        "CLM_fc2a006ec91398a3dcb70c9b4cf7c8d3fe5b18fa069fc2096f2b54a37880f0ac"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları ile havalandırma, aydınlatma ve diğer elektromekanik sistemler nasıl koordine edilir?",
+      "question_id": "1.4-Q40",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7aa7211a5d18fd0b3ab9fd500460a4f5ea8a0a34017ee3b1bdf746d1989ec2f8",
+        "CLM_50015117a3770512f1b0a7096c30bf3bceadb05262e1392847624a8dcfa457fb",
+        "CLM_d657428ccacf0f6ee714c2105b47977fb6dbe08d9db5e3058117a84a58f78203"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları için uygulanabilir ulusal standart ve şartnameler nelerdir?",
+      "question_id": "1.4-Q41",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7aa7211a5d18fd0b3ab9fd500460a4f5ea8a0a34017ee3b1bdf746d1989ec2f8",
+        "CLM_50015117a3770512f1b0a7096c30bf3bceadb05262e1392847624a8dcfa457fb",
+        "CLM_85b5b1a637b37aaa7de876fd5df82547d3d65cf5336efb06787706d4fac38349"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları için uygulanabilir uluslararası standart ve kılavuzlar nelerdir?",
+      "question_id": "1.4-Q42",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_073c59884d35554d896850608d2fe823432c21a642d53d78f3481c2b77ae79c4",
+        "CLM_250b9f9ebdcf110810924082d88e25f0c97cf64c4f14e46bf0a4e735d0e7dcfc",
+        "CLM_f19f3e9beb8c3a04c22c9e77e46cd851cebf33e03d2fa8130a82863d724d2553"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları açısından Karayolları Genel Müdürlüğü uygulamalarında hangi esaslar öne çıkar?",
+      "question_id": "1.4-Q43",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2071abdf6c7ab20df02c5dd8e20643210bc8991496ee01de7b3e8df1c2b9b7cd",
+        "CLM_fa89077a1d35ef1b34bf7675ec3f6a4bbec7e0140a9359a46fe237ab713f52ad",
+        "CLM_415286685cef78ffb97a4144abfc0c7708325d4fd6ccc861e14652cbd607db17",
+        "CLM_2fa116997ec49c6d28ec43b3a19945fe7407e8efe159b1822c6af0b5d65393ce"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları için yapım sırasında tutulması gereken kayıtlar nelerdir?",
+      "question_id": "1.4-Q44",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları için kabul ve devreye alma kriterleri nelerdir?",
+      "question_id": "1.4-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_dc8dc36eb3c164a788f977875b5d5779c369e8e379e8ba81e166c816f25a213a",
+        "CLM_9e749b9491639daf0afe5c579c8ab7d3c49ad1be585f060b503f924e4d9a77a3",
+        "CLM_fa89077a1d35ef1b34bf7675ec3f6a4bbec7e0140a9359a46fe237ab713f52ad",
+        "CLM_fc6f128ffc9bf2300a9f755f53822f7683f69f2868392d7d7ca31d143355a303"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları kullanım aşamasında nasıl izlenmeli ve denetlenmelidir?",
+      "question_id": "1.4-Q46",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fc6f128ffc9bf2300a9f755f53822f7683f69f2868392d7d7ca31d143355a303",
+        "CLM_cb36b4dea6fef638ec1cb6a734011992a01995f529d498e194c4724cee6859cc",
+        "CLM_c7667d56de1bb106653816cd5315b873a2ed013c7683f2fb92f0d4efb4eb50d1",
+        "CLM_ce412b16620f43983585b562cb5e60b2ba3aa1bf7cda80a71cfba91ac1cf4084"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları yaşam döngüsü boyunca hangi bakım gereksinimlerini doğurur?",
+      "question_id": "1.4-Q47",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2416f6a12778e938d56d3ed872877165a777cb1f8f7967dd7ef57539e04d8d5c",
+        "CLM_020b6e661fb212cf3ad7025367dd16d9054ff21f9e10ba466d310fd86ef72f4d",
+        "CLM_8f6f27af2be4549c4aa19144034d470c9630198a101095eb7ff14786e9cc75e5"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları sürdürülebilirlik ve çevresel etki açısından nasıl değerlendirilebilir?",
+      "question_id": "1.4-Q48",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4dbc22e55458f3d253e2a3d7b3cf0482ec0f2b2378cfed4e6d45c4d95ee89219",
+        "CLM_b19cddc5d0628cf2d5b6b7d922358c38b3afb3be7dda39af878b7821d18a8c91",
+        "CLM_d0de9ee2d40b9edd0fc8b244de5e86f27ff697193b90110cdb597c46f4bd76fb",
+        "CLM_250b9f9ebdcf110810924082d88e25f0c97cf64c4f14e46bf0a4e735d0e7dcfc"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "En İyi Tünel Mühendislik Uygulamaları ile ilgili Türkiye’den hangi uygulama örnekleri verilebilir?",
+      "question_id": "1.4-Q49",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_19107c7a8061ac9c322f01fb218c7e228b35a35425fd11a22a3649494d50e036",
+        "CLM_631e132c1e58d5dd639492baf2f5c61b218b14851dd21f8f1cb323023ef6e8c0",
+        "CLM_bdb9b5f92c617f5756e95ba704e9e5f83b9b67a32e5f0a589e04016337dc8c80"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "En İyi Tünel Mühendislik Uygulamaları ile ilgili dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "1.4-Q50",
+      "reason_code": "PARTIAL_ONLY"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "1.4",
+  "section_title": "En İyi Tünel Mühendislik Uygulamaları",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_003efcfef9028c2273e30b39983093da3baf6288d31119e52eb609c6f6318dd7",
+      "CLM_020995361ec8bd9e734fe402dfd02ad8a0ee8d1d8e49b0a0317a8fe53c8a0716",
+      "CLM_020b6e661fb212cf3ad7025367dd16d9054ff21f9e10ba466d310fd86ef72f4d",
+      "CLM_073c59884d35554d896850608d2fe823432c21a642d53d78f3481c2b77ae79c4",
+      "CLM_12748f8eeb058e91e10f303977d29f00275fbb63332e2de42a0b124b130e32d7",
+      "CLM_19107c7a8061ac9c322f01fb218c7e228b35a35425fd11a22a3649494d50e036",
+      "CLM_1e2cfd795546ed06a0a6e8c51f64f36cd2a334801256e00f8cc48101e15e33bb",
+      "CLM_205978e0932353fb1cf2952659535905c67b14fee1eda6a5046231b65af0ca12",
+      "CLM_2071abdf6c7ab20df02c5dd8e20643210bc8991496ee01de7b3e8df1c2b9b7cd",
+      "CLM_20c9f92a63af357d39a24a9750288d3d2731812957ebd94fc2f27445a1b986ab",
+      "CLM_23e598a3739b448f0e271cee8c83628423db2a3de38b7e7216f3f6b75ec19efa",
+      "CLM_24094ef866ab29be80cb32ade692c01360bacb006551708d92d70724f74e1dda",
+      "CLM_2416f6a12778e938d56d3ed872877165a777cb1f8f7967dd7ef57539e04d8d5c",
+      "CLM_250b9f9ebdcf110810924082d88e25f0c97cf64c4f14e46bf0a4e735d0e7dcfc",
+      "CLM_266135176f009870a6162d05f1f7a56364ebd435f53a387aa1c52051414b44ac",
+      "CLM_2fa116997ec49c6d28ec43b3a19945fe7407e8efe159b1822c6af0b5d65393ce",
+      "CLM_33d3b2e0662f5dba931bdd38fcca35437919766671e71c1184fdc2b1ad561af1",
+      "CLM_378abffc1c0fd0d8e20d32e346bdc6a8022696c55c85acb3978f9966a9b89d4d",
+      "CLM_3794a06979b32bdd739da2ebd6123cec754c6d4c3fc7e1fb699afaa84d9a1bb1",
+      "CLM_37bdca29eac3adf053071608c275789499c376e26eee8ac8a4e018c39a5931b4",
+      "CLM_3e3b6522b808156c7ee8725c034e6fc26cae893dbdc91463edc361cc3cc31ec0",
+      "CLM_415286685cef78ffb97a4144abfc0c7708325d4fd6ccc861e14652cbd607db17",
+      "CLM_441d39ddf812051c43dde208a6c1e03153d87f8ece3c3dd12fc382b8d3ae026d",
+      "CLM_4b6b883a02a423844293398bc3925a0b732aa193159fe056e4b7a234b9042839",
+      "CLM_4dbc22e55458f3d253e2a3d7b3cf0482ec0f2b2378cfed4e6d45c4d95ee89219",
+      "CLM_50015117a3770512f1b0a7096c30bf3bceadb05262e1392847624a8dcfa457fb",
+      "CLM_50cd3804086ddfa3a3f7fb477e90507e88e9629657e765b1815ac32b0588297f",
+      "CLM_59044cad93a6a61cba3ec95c718b4ced4a7fcdc5d8413c3a52c3419f1ae08117",
+      "CLM_5a71c5167b8d6c92c635b1b8bfdc8c273ae4e32a95796a6052a23532d344ebb1",
+      "CLM_630184f9a8312cbf61af4042204710e68704dcacc9c701df477728a0646971eb",
+      "CLM_631e132c1e58d5dd639492baf2f5c61b218b14851dd21f8f1cb323023ef6e8c0",
+      "CLM_6a76a9ad78b03fa6f94445d9546da80e6dc0126c8c61797cf3a4c423b078c1f9",
+      "CLM_7085101618587fb56ee9db6c8835bd2d8cfcb612af4dc311c1db3e356c254e02",
+      "CLM_70f559dbaf6000b614e7bd492f9c4290efc4b16a19373acfcce8ca820743a61b",
+      "CLM_710d2541eb75db6a9ef1d8d943cc153e0c6f2052d50bd9b4f96442f662325285",
+      "CLM_7aa7211a5d18fd0b3ab9fd500460a4f5ea8a0a34017ee3b1bdf746d1989ec2f8",
+      "CLM_7b404b75139b759e717bf24d20e2cc235321ef1906181bd4e3de84d9a4f36e02",
+      "CLM_7c012bbca93990013b1b121828d402a28338b0f62de62aef23bbb7e1d7b763d0",
+      "CLM_7e39c5c15db0aa7ab7994e9bdc21656c4eed9e95562f42a43060629c2428d5ec",
+      "CLM_7e99b0de33a036e8ef2875a7278f6c1e8a099500abf3fefe2b250c05170f11a6",
+      "CLM_839983c1fe1acb81e3b17cfe57d87d52b28b8d74a189691631b000b0293d5854",
+      "CLM_85b5b1a637b37aaa7de876fd5df82547d3d65cf5336efb06787706d4fac38349",
+      "CLM_8c8ea646e5afb58578d9e4e239122e802c04098e3b5542fce984dd81282e9868",
+      "CLM_8e67f2c513b2f80fd0f5c6cf742e264a88b0ee838cb0831a76cd4ceccbd88f22",
+      "CLM_8eb29fcc1058b4062c48a0251a0b51d2a23d051f732630a9de8bde89f33cdc97",
+      "CLM_8f6f27af2be4549c4aa19144034d470c9630198a101095eb7ff14786e9cc75e5",
+      "CLM_9044a0968ee5229262021f768df3a6a96a6697fb6b9621eea483dcbf705cb24d",
+      "CLM_9320fef2f47e8f2b7eac03d1954c642497f5db9ff4a307baf859a18f11de3897",
+      "CLM_9e749b9491639daf0afe5c579c8ab7d3c49ad1be585f060b503f924e4d9a77a3",
+      "CLM_a05c28c4a27290a1829c9e5e07fbd317bad2155cda91e8cf508a1d8c6a05a4bf",
+      "CLM_a73af9d4ef87b5d3c6b6e0accbbe80e27bd70fa891bc18ef386eb86c15e3485d",
+      "CLM_ad034af18b7e3be8cbdb652f4352840b29deff5814a53e95c54175d41b481a40",
+      "CLM_af9a2a448d81f2a7b4160f86e0db6cc83de62742e9ba4a6b0bcf7585f7b58a09",
+      "CLM_b16f19e0f9ae2ea77351814d1fbd225f84ba9d1f2e9a1e9952d8ae2171ad61af",
+      "CLM_b19cddc5d0628cf2d5b6b7d922358c38b3afb3be7dda39af878b7821d18a8c91",
+      "CLM_b7b17eee6d51d5a9ff14cd2357e1b63e31d7e1e83e64f37621a9914b1922f5c7",
+      "CLM_bdb9b5f92c617f5756e95ba704e9e5f83b9b67a32e5f0a589e04016337dc8c80",
+      "CLM_bedb2e344e14cdf050045e40b6960354321cc37b5bc8f715f647d2b29b1c0fd5",
+      "CLM_c3e0a79806a1fa385bfaa59c21369b172bfe0cc9fd5a681809d3d783b9843df1",
+      "CLM_c48a28fff1c0261403ea413c5e80c5400a83c7a421d35ac03fe88a58cc8da661",
+      "CLM_c5533318f3bc119d007294988dfe54b0cccba8dadb284fb8cb517fdc954278d5",
+      "CLM_c7667d56de1bb106653816cd5315b873a2ed013c7683f2fb92f0d4efb4eb50d1",
+      "CLM_c9ef20c9fc3e8b84ec85c8c7a51b0964b3bc102ca26fa6f70aa15d5f1a400c8d",
+      "CLM_cb36b4dea6fef638ec1cb6a734011992a01995f529d498e194c4724cee6859cc",
+      "CLM_ce412b16620f43983585b562cb5e60b2ba3aa1bf7cda80a71cfba91ac1cf4084",
+      "CLM_cf93d39cc1a282a91e33f0992adfe6b49af60686f0672ee8d5734a2def1256a7",
+      "CLM_d0de9ee2d40b9edd0fc8b244de5e86f27ff697193b90110cdb597c46f4bd76fb",
+      "CLM_d2e7c2802e81c31d180aacf7c4eeb02347ce32dc1e6a1358e7d21fef54494f21",
+      "CLM_d36cedb10ed91cc222f572b6f6d077f57ab3339c4f3b58fd239696458128f702",
+      "CLM_d393fc6daa2107bc3730a6267ee9d2f58591e861fa50344640f798d23a0e1fcd",
+      "CLM_d4d5049ce1f7bec96ef05a007942c74c89370ec8781f21248a43cd9304b894ad",
+      "CLM_d657428ccacf0f6ee714c2105b47977fb6dbe08d9db5e3058117a84a58f78203",
+      "CLM_dc8dc36eb3c164a788f977875b5d5779c369e8e379e8ba81e166c816f25a213a",
+      "CLM_e342e1236a141f08fde157ef44ddaddb6940d89d743ea57124ad57d8935ddff0",
+      "CLM_eb93307c63b14a0c69584001510cfe50a4de4782a6af656706792eae45e4b002",
+      "CLM_f19f3e9beb8c3a04c22c9e77e46cd851cebf33e03d2fa8130a82863d724d2553",
+      "CLM_f1abe36493aeb9cf07cb7b6f16a2318c0c48d039018c412a17b20001cbebe408",
+      "CLM_f6c895faba27394a81a5472d314b8490560924f96cfe80f026b9ebd9fec3b208",
+      "CLM_f7780d779ee7650ad2801e1fb408290c4e5869d332fcbf434734405d5279c019",
+      "CLM_f7d918a6d83947106b89e46a0d48d82fc80c7ee6be38c20a34e4c250d2c678dc",
+      "CLM_fa89077a1d35ef1b34bf7675ec3f6a4bbec7e0140a9359a46fe237ab713f52ad",
+      "CLM_fc2a006ec91398a3dcb70c9b4cf7c8d3fe5b18fa069fc2096f2b54a37880f0ac",
+      "CLM_fc6f128ffc9bf2300a9f755f53822f7683f69f2868392d7d7ca31d143355a303",
+      "CLM_ffc24d95d8d40d92dedc373730dac105f91fae859f170793e9584ca93328d319"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "1.4-Q03",
+      "1.4-Q04",
+      "1.4-Q05",
+      "1.4-Q08",
+      "1.4-Q09",
+      "1.4-Q10",
+      "1.4-Q13",
+      "1.4-Q14",
+      "1.4-Q16",
+      "1.4-Q17",
+      "1.4-Q20",
+      "1.4-Q21",
+      "1.4-Q27",
+      "1.4-Q28",
+      "1.4-Q29",
+      "1.4-Q32",
+      "1.4-Q35",
+      "1.4-Q36",
+      "1.4-Q38",
+      "1.4-Q39",
+      "1.4-Q43",
+      "1.4-Q50"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "1.4-Q01",
+      "1.4-Q02",
+      "1.4-Q06",
+      "1.4-Q07",
+      "1.4-Q15",
+      "1.4-Q25",
+      "1.4-Q26",
+      "1.4-Q45"
+    ]
+  }
+}

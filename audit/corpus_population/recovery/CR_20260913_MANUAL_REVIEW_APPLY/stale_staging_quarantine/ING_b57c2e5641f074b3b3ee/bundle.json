@@ -1,0 +1,36 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_b57c2e5641f074b3b3ee",
+  "original_sha256": "b57c2e5641f074b3b3eee749807c4284045cc9f6a16afa0c2ac343fce275821c",
+  "source_kind": "EXTERNAL_DISCOVERY",
+  "format": "HTML",
+  "title": "Evaluation of the geological setting and its contribution in planning and construction of Maneri-Bhali tunnel, India",
+  "final_primary_section": "2.4.1",
+  "final_secondary_sections": [
+    "2.4.2.1",
+    "2.4.2",
+    "2.4.2.2"
+  ],
+  "final_section_confidence": 0.85,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": false,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_b57c2e5641f074b3b3ee",
+  "original_archive": "originals/ING_b57c2e5641f074b3b3ee",
+  "chunks_authoritative_path": "processing/ING_b57c2e5641f074b3b3ee/chunks/chunk_manifest.jsonl",
+  "chunk_count": 5,
+  "chunk_quality_status": "WARN",
+  "canonical_promoted": false
+}

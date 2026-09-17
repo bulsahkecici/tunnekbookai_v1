@@ -1,0 +1,109 @@
+{
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.6934,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "PARA0005",
+        "PARA0123",
+        "PARA0155",
+        "PARA0158",
+        "PARA0160"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1",
+      "score": 0.6934,
+      "rule_score": 0.5,
+      "embedding_score": 0.7639,
+      "chunk_vote": 0.123
+    },
+    {
+      "id": "2",
+      "score": 0.387,
+      "rule_score": 0.0,
+      "embedding_score": 0.7675,
+      "chunk_vote": 0.2082
+    },
+    {
+      "id": "5.6",
+      "score": 0.3592,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2681
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3506,
+      "rule_score": 0.0,
+      "embedding_score": 0.779,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3442,
+      "rule_score": 0.0,
+      "embedding_score": 0.7649,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3433,
+      "rule_score": 0.0,
+      "embedding_score": 0.7629,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.3433,
+      "rule_score": 0.0,
+      "embedding_score": 0.7628,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3426,
+      "rule_score": 0.0,
+      "embedding_score": 0.7614,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3421,
+      "rule_score": 0.0,
+      "embedding_score": 0.7603,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3056,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:7",
+    "embeddings:8",
+    "top=2.1:0.6934 gap=0.306 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

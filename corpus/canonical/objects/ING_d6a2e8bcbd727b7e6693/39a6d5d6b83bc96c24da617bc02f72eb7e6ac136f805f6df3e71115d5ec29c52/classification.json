@@ -1,0 +1,111 @@
+{
+  "final_primary_section": "2.4.1.3",
+  "final_secondary_sections": [
+    "5.4"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.3474,
+      "rule_score": 0.0,
+      "embedding_score": 0.7721,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.347,
+      "rule_score": 0.0,
+      "embedding_score": 0.7712,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3454,
+      "rule_score": 0.0,
+      "embedding_score": 0.7676,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.3429,
+      "rule_score": 0.0,
+      "embedding_score": 0.7621,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3409,
+      "rule_score": 0.0,
+      "embedding_score": 0.7576,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.3407,
+      "rule_score": 0.0,
+      "embedding_score": 0.7572,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.34,
+      "rule_score": 0.0,
+      "embedding_score": 0.7555,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.3394,
+      "rule_score": 0.0,
+      "embedding_score": 0.7543,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3093,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1714
+    },
+    {
+      "id": "1",
+      "score": 0.2862,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5143
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, bir tünelin (Trældaltunnelen) trafiğe açılışını, inşaat sürecini ve işletmeye alınmasını anlatan bir haber bültenidir. Bu içerik, tünelin kullanım aşamasına geçişini ve işletme başlangıcını temsil ettiğinden 'Kullanım Aşaması Çalışmaları' (2.4.1.3) ile en güçlü ilişkiyi gösterir. Metinde bahsedilen modern güvenlik ekipmanları (ventilasyon, yangın söndürme) ve uzaktan izleme, tünelin işletme",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:4",
+    "chunk_votes:4",
+    "embeddings:8",
+    "top=5.4.2:0.3474 gap=0.000 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

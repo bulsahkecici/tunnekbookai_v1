@@ -1,0 +1,129 @@
+{
+  "final_primary_section": "2.1.2",
+  "final_secondary_sections": [
+    "2.2.2"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0005",
+        "PARA0006",
+        "FIG0001",
+        "CAPT0001",
+        "FIG0003",
+        "CAPT0005",
+        "CAPT0006"
+      ]
+    },
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0005",
+        "PARA0006",
+        "FIG0001",
+        "CAPT0001",
+        "FIG0003",
+        "CAPT0005",
+        "CAPT0006"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1.2",
+      "score": 0.5681,
+      "rule_score": 0.3333,
+      "embedding_score": 0.744,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.5667,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7409,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3393,
+      "rule_score": 0.0,
+      "embedding_score": 0.7541,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.3362,
+      "rule_score": 0.0,
+      "embedding_score": 0.7471,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3362,
+      "rule_score": 0.0,
+      "embedding_score": 0.747,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3358,
+      "rule_score": 0.0,
+      "embedding_score": 0.7462,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3345,
+      "rule_score": 0.0,
+      "embedding_score": 0.7433,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3332,
+      "rule_score": 0.0,
+      "embedding_score": 0.7405,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2553,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.36
+    },
+    {
+      "id": "1.1",
+      "score": 0.2193,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.18
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, hibrit fiber takviyeli şilt tünel kaplamasının (tunnel lining) yangın testi verilerini kullanarak sıcaklığa bağımlı ısı iletimini tahmin etmektedir. Bu, tünel destekleme elemanlarının (kaplama/şilt) malzeme özellikleri ve yapısal davranışı ile doğrudan ilgilidir. Yumuşak zemin seçeneği (2.2.2) zayıf bir ikincil adaydır çünkü şilt tüneli genellikle yumuşak zeminlerle ilişkilendirilir, ancak ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:12",
+    "embeddings:8",
+    "top=2.1.2:0.5681 gap=0.001 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

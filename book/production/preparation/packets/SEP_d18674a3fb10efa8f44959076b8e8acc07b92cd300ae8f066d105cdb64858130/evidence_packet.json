@@ -1,0 +1,689 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_102c98f931e2b82528fcf533894611146173fe0c07b8e22b0b928adf20d2aa17",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 27,
+    "SUPPORTED": 0,
+    "UNSUPPORTED": 23
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_d18674a3fb10efa8f44959076b8e8acc07b92cd300ae8f066d105cdb64858130",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_87f9cc13f5722604c3bacf459cc193646ed1d8d11781bb4e1b61178861009077",
+        "CLM_ad53d7a12ae458e826809e716d1d0163c1511da3f3fcffc619995c6a66a82583"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar nedir ve tünel mühendisliğindeki temel işlevi nedir?",
+      "question_id": "2.4.1.1-Q01",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_87f9cc13f5722604c3bacf459cc193646ed1d8d11781bb4e1b61178861009077"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar hangi mühendislik problemini çözmeyi amaçlar?",
+      "question_id": "2.4.1.1-Q02",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar için temel tasarım girdileri nelerdir?",
+      "question_id": "2.4.1.1-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_67b10225cc95f56aa6b96482203be867aab24a556cd8ed098763d9c1100679c4",
+        "CLM_e21a3df0b23876fcb96cf0a0e7ba8ba6b9ac5fdece582f6d9264395afc989a07"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar için jeolojik girdiler nelerdir?",
+      "question_id": "2.4.1.1-Q04",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_87f9cc13f5722604c3bacf459cc193646ed1d8d11781bb4e1b61178861009077",
+        "CLM_4fb959e9695b1c24ca0bdd9f3845bbaa060f74d44f0ee6a979a6c8c4c07d5b6e",
+        "CLM_ad53d7a12ae458e826809e716d1d0163c1511da3f3fcffc619995c6a66a82583"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar için geoteknik girdiler nelerdir?",
+      "question_id": "2.4.1.1-Q05",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7ce79d1e7b9a62cb0c5bd7f4ff21731ae0c7d223f70625c8fb5fa50663f846cb",
+        "CLM_b067e2eb322ffe0ab8831d74c2ec48eb72443684133f90127b97b88075afe14e"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar için hidrojeolojik girdiler nelerdir?",
+      "question_id": "2.4.1.1-Q06",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_87f9cc13f5722604c3bacf459cc193646ed1d8d11781bb4e1b61178861009077"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar için topoğrafik ve geometrik girdiler nelerdir?",
+      "question_id": "2.4.1.1-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar için trafik ve işletme girdileri nelerdir?",
+      "question_id": "2.4.1.1-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar seçiminde tünel uzunluğu nasıl etkili olur?",
+      "question_id": "2.4.1.1-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar seçiminde tünel kesiti ve açıklığı nasıl etkili olur?",
+      "question_id": "2.4.1.1-Q10",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3951be2b3d9c67dd0410758a1b9966af03edc7694d423552744560a0c1eb8b3f"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar seçiminde örtü kalınlığı nasıl etkili olur?",
+      "question_id": "2.4.1.1-Q11",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ad272fcaa82d20c2e8ecc54a4633b45fa75426bbb9f3d05b618670fda685a990",
+        "CLM_21ec784f727f28ea6878c8aad003e8654ea92b420c93441b90d6e7f884e3660e"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar seçiminde kaya kütlesi veya zemin özellikleri nasıl etkili olur?",
+      "question_id": "2.4.1.1-Q12",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar seçiminde yeraltı suyu koşulları nasıl etkili olur?",
+      "question_id": "2.4.1.1-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a95f90feffa98b9e872c45ef685c6d6e035c91899b9a36136c8a9592a939cbf0",
+        "CLM_a181b6bbd8034729b17ad1e0506ed0b19843f5ad1e84f0e3223267941caa332f"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar seçiminde çevresel ve yerleşim koşulları nasıl etkili olur?",
+      "question_id": "2.4.1.1-Q14",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar seçiminde iş sağlığı ve güvenliği nasıl dikkate alınır?",
+      "question_id": "2.4.1.1-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar seçiminde yapım süresi nasıl dikkate alınır?",
+      "question_id": "2.4.1.1-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar seçiminde ilk yatırım maliyeti nasıl dikkate alınır?",
+      "question_id": "2.4.1.1-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar seçiminde bakım ve işletme maliyetleri nasıl dikkate alınır?",
+      "question_id": "2.4.1.1-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar için hangi alternatif teknik çözümler karşılaştırılabilir?",
+      "question_id": "2.4.1.1-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar alternatiflerinin avantajları ve dezavantajları nelerdir?",
+      "question_id": "2.4.1.1-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4fb959e9695b1c24ca0bdd9f3845bbaa060f74d44f0ee6a979a6c8c4c07d5b6e",
+        "CLM_f97bfbd3b69b154a7b2daaf63f78ea655dac0c9059283fb0560d476a69bb3b79",
+        "CLM_34c4dd378c2a5d01199b647f86732545b527f22411977680fade1c8699a5f8d9"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar için karar verme sürecinde hangi teknik kriterlere ağırlık verilmelidir?",
+      "question_id": "2.4.1.1-Q21",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar tasarımında hangi hesap yöntemleri kullanılır?",
+      "question_id": "2.4.1.1-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_49070dc3ee132ccd14153e38008633bfb5d058c0d068df277e196fc0f7b28610",
+        "CLM_f58e1a4bc76822303e5be30bd5471a19858d34ffb817d62296f971f4b0c27b39",
+        "CLM_16498475031aa4e8fa5605a68c045c3c5f4d404a8f5c1402719876cf0816737f"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar tasarımında hangi sayısal modelleme yöntemleri kullanılabilir?",
+      "question_id": "2.4.1.1-Q23",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar tasarımında hangi ampirik sınıflandırmalar kullanılabilir?",
+      "question_id": "2.4.1.1-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b3092d0349236cab1cd4fb1ce6827b9616313e0a1d8753962f3ad6e8647f94a5",
+        "CLM_a76dc7863e0a709868495ec75f36d7ef980a092bfca080961af31c70f601d683"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar tasarımında hangi güvenlik katsayıları veya performans kriterleri önemlidir?",
+      "question_id": "2.4.1.1-Q25",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar uygulamasında hangi başlıca malzemeler kullanılır?",
+      "question_id": "2.4.1.1-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar uygulamasında hangi başlıca makine ve ekipmanlar kullanılır?",
+      "question_id": "2.4.1.1-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar uygulamasının tipik iş sırası nasıldır?",
+      "question_id": "2.4.1.1-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e0d241b67c512bee5b482717c9f1a0d1418550d7537c154710b2348007171679",
+        "CLM_4cf590def598402fdf624372fe5f502d0e2a3edefdb16997efc1e43e0c944ecd"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar uygulamasında kalite kontrol nasıl yapılır?",
+      "question_id": "2.4.1.1-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bcf6af50e705c4a7804e854aedb33934a09dd39028e5294bb1c4520b1de811e3",
+        "CLM_daa2107f43f3c70d74d1aed4db65723c320bdf4b9a7d9d89047e8df912718648"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar uygulamasında saha ölçümleri ve enstrümantasyon nasıl kullanılır?",
+      "question_id": "2.4.1.1-Q30",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6b41bba9d21f0439206e5fecdb7eac94a9d80c50dae7d9da61feedfc6e5b40bc",
+        "CLM_d06b9376768fd9bbd1dcad2755888b762da66c985d7ec26449899a3ba5217ffa",
+        "CLM_c94853233955fe705267f5cad76dc7ab4515c04d494ab5499806bc8e56a9ebc6"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar uygulamasında deformasyonlar nasıl izlenir?",
+      "question_id": "2.4.1.1-Q31",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ffecdefbaf6a6b59aea3ce241c4fd6c6a8d0a0b79b6069e162f4f9ac0adaa210",
+        "CLM_e807a582b84a51f1e226963a58d8e4a17931e49c4af2d6ad208a6c097e08d7ba",
+        "CLM_795f5bc6f0ad1b22b9521401d6e2f9c6739e8699769ad0c3994fed72bf9deb81"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar uygulamasında su girişleri nasıl kontrol edilir?",
+      "question_id": "2.4.1.1-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_66e264718098fd218c76de16a5cc5d0cac8b5a48d10c50b9bab8ddd2eb8fa704",
+        "CLM_e51a698ddd27c77b3f2402e29f7ea09b0dff202411d453000a88da9ccf9c0f68",
+        "CLM_4264e19ee2b3409d4cbd7f0f1045bed8ef918fa3886a6bf7997c7fb0fd67417b"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar uygulamasında drenaj ve yalıtım nasıl ele alınır?",
+      "question_id": "2.4.1.1-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar uygulamasında beklenmeyen zemin koşullarına nasıl müdahale edilir?",
+      "question_id": "2.4.1.1-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_231237161bb1cf029e20d1d9f7f87dd006bc041f44668f5abff568f8a7f28a4f",
+        "CLM_5903e1ae878f7995cc9530390c75d599c440418f31a67e522013cbe0ed5337e4"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar uygulamasında en sık görülen teknik riskler nelerdir?",
+      "question_id": "2.4.1.1-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar uygulamasında hata veya yetersizlik belirtileri nelerdir?",
+      "question_id": "2.4.1.1-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d9df019608c3812d633e2fc9d436bdd65993ddaa9fd66fc77157d39d32393832",
+        "CLM_b0535de752f46b8a895219c7d045621112d8f552db5fff176d08da27f5dc3184",
+        "CLM_fc3f213f3473776d4d72d6835819607947f20ef871351cd2cc864bf4564f7fde",
+        "CLM_d9799ffe8ab20178858bfb085d58897b3cf6e1cb644bd9dfbcb73a241991c781"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar uygulamasında düzeltici ve güçlendirici önlemler nelerdir?",
+      "question_id": "2.4.1.1-Q37",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar ile nihai kaplama arasındaki ilişki nasıl kurulmalıdır?",
+      "question_id": "2.4.1.1-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7ce21e005bab3f4896335d28f940a40bdf56ea84c336f44d12aafe07adcff453",
+        "CLM_c250c24ceac4a60b9a40596541904e59149d086ed6d46705599c8073053e488b",
+        "CLM_92b3584277440af98502ae2d1135395823de8e30dd43170f6b24644f5a3bfdbc",
+        "CLM_2b0f8997260b0453ee7ffa3bb23e827d82de5d19f769e0d1d1e14e1f9ebbcf00"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar ile portal tasarımı arasındaki ilişki nedir?",
+      "question_id": "2.4.1.1-Q39",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_10c420087e28895b6ca00c903a9a1bf6e617dfa088d90f0f35b20f1a1139af61",
+        "CLM_c0f5a2569c3d93ae8b6323b3a80938586d889961660b6a62b2aa341fa4b13088"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar ile havalandırma, aydınlatma ve diğer elektromekanik sistemler nasıl koordine edilir?",
+      "question_id": "2.4.1.1-Q40",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4ffcadb573459cd48ed8113ab31408259138d6d9109445569957db4563231e76",
+        "CLM_5e4f497c33bf1aafa97f10cce78c3bd267afd653e25a7671619e78c3bb262e67",
+        "CLM_99406c0026dcfb802bb5f7321016b10da7c2e1de165a4bd0b821b39fdf8ae75c"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar için uygulanabilir ulusal standart ve şartnameler nelerdir?",
+      "question_id": "2.4.1.1-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4ffcadb573459cd48ed8113ab31408259138d6d9109445569957db4563231e76",
+        "CLM_99406c0026dcfb802bb5f7321016b10da7c2e1de165a4bd0b821b39fdf8ae75c",
+        "CLM_a6519cac6aed286c20a13e362201c4fb76d0354479c1dc98db396d90b6b7b1dc"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar için uygulanabilir uluslararası standart ve kılavuzlar nelerdir?",
+      "question_id": "2.4.1.1-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar açısından Karayolları Genel Müdürlüğü uygulamalarında hangi esaslar öne çıkar?",
+      "question_id": "2.4.1.1-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f3d27b6ddc106295827fd88a8e767a8bf745abe177d9b2b9b10dce99876cc82f"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar için yapım sırasında tutulması gereken kayıtlar nelerdir?",
+      "question_id": "2.4.1.1-Q44",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar için kabul ve devreye alma kriterleri nelerdir?",
+      "question_id": "2.4.1.1-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_cfb101fcdcef46bdce3bf6dea60b1db306c81fbfb981605e4b958fbaa01049f4",
+        "CLM_00e5c8fcde87dbc1c0bacb07bb248fb0c88d4671ee08fb05e3bbea25576c8ba2",
+        "CLM_e60a5e1e7a519aeb16ee48dd4776e5c6b80f823099e21d55beaa1e6c4cd84c53"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar kullanım aşamasında nasıl izlenmeli ve denetlenmelidir?",
+      "question_id": "2.4.1.1-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ff4d33aa6d5a562db1e8a90642bb0da91381e755c9b832f79947dae4279cab20",
+        "CLM_d9799ffe8ab20178858bfb085d58897b3cf6e1cb644bd9dfbcb73a241991c781"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar yaşam döngüsü boyunca hangi bakım gereksinimlerini doğurur?",
+      "question_id": "2.4.1.1-Q47",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8cb744e3c895ca2724b8ea5b5b820605f732d43096f2f6e1f5933d9c6c398e44",
+        "CLM_a95f90feffa98b9e872c45ef685c6d6e035c91899b9a36136c8a9592a939cbf0",
+        "CLM_d9df019608c3812d633e2fc9d436bdd65993ddaa9fd66fc77157d39d32393832",
+        "CLM_2eb2c24e7ae5f1fb455b6c18f1b5481f7ea55268ea637f626ae5e7fc22c4d321"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar sürdürülebilirlik ve çevresel etki açısından nasıl değerlendirilebilir?",
+      "question_id": "2.4.1.1-Q48",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar ile ilgili Türkiye’den hangi uygulama örnekleri verilebilir?",
+      "question_id": "2.4.1.1-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İnşaat Başlamadan Önce Yapılan Çalışmalar ile ilgili dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "2.4.1.1-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "2.4.1.1",
+  "section_title": "İnşaat Başlamadan Önce Yapılan Çalışmalar",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_00e5c8fcde87dbc1c0bacb07bb248fb0c88d4671ee08fb05e3bbea25576c8ba2",
+      "CLM_10c420087e28895b6ca00c903a9a1bf6e617dfa088d90f0f35b20f1a1139af61",
+      "CLM_16498475031aa4e8fa5605a68c045c3c5f4d404a8f5c1402719876cf0816737f",
+      "CLM_21ec784f727f28ea6878c8aad003e8654ea92b420c93441b90d6e7f884e3660e",
+      "CLM_231237161bb1cf029e20d1d9f7f87dd006bc041f44668f5abff568f8a7f28a4f",
+      "CLM_2b0f8997260b0453ee7ffa3bb23e827d82de5d19f769e0d1d1e14e1f9ebbcf00",
+      "CLM_2eb2c24e7ae5f1fb455b6c18f1b5481f7ea55268ea637f626ae5e7fc22c4d321",
+      "CLM_34c4dd378c2a5d01199b647f86732545b527f22411977680fade1c8699a5f8d9",
+      "CLM_3951be2b3d9c67dd0410758a1b9966af03edc7694d423552744560a0c1eb8b3f",
+      "CLM_4264e19ee2b3409d4cbd7f0f1045bed8ef918fa3886a6bf7997c7fb0fd67417b",
+      "CLM_49070dc3ee132ccd14153e38008633bfb5d058c0d068df277e196fc0f7b28610",
+      "CLM_4cf590def598402fdf624372fe5f502d0e2a3edefdb16997efc1e43e0c944ecd",
+      "CLM_4fb959e9695b1c24ca0bdd9f3845bbaa060f74d44f0ee6a979a6c8c4c07d5b6e",
+      "CLM_4ffcadb573459cd48ed8113ab31408259138d6d9109445569957db4563231e76",
+      "CLM_5903e1ae878f7995cc9530390c75d599c440418f31a67e522013cbe0ed5337e4",
+      "CLM_5e4f497c33bf1aafa97f10cce78c3bd267afd653e25a7671619e78c3bb262e67",
+      "CLM_66e264718098fd218c76de16a5cc5d0cac8b5a48d10c50b9bab8ddd2eb8fa704",
+      "CLM_67b10225cc95f56aa6b96482203be867aab24a556cd8ed098763d9c1100679c4",
+      "CLM_6b41bba9d21f0439206e5fecdb7eac94a9d80c50dae7d9da61feedfc6e5b40bc",
+      "CLM_795f5bc6f0ad1b22b9521401d6e2f9c6739e8699769ad0c3994fed72bf9deb81",
+      "CLM_7ce21e005bab3f4896335d28f940a40bdf56ea84c336f44d12aafe07adcff453",
+      "CLM_7ce79d1e7b9a62cb0c5bd7f4ff21731ae0c7d223f70625c8fb5fa50663f846cb",
+      "CLM_87f9cc13f5722604c3bacf459cc193646ed1d8d11781bb4e1b61178861009077",
+      "CLM_8cb744e3c895ca2724b8ea5b5b820605f732d43096f2f6e1f5933d9c6c398e44",
+      "CLM_92b3584277440af98502ae2d1135395823de8e30dd43170f6b24644f5a3bfdbc",
+      "CLM_99406c0026dcfb802bb5f7321016b10da7c2e1de165a4bd0b821b39fdf8ae75c",
+      "CLM_a181b6bbd8034729b17ad1e0506ed0b19843f5ad1e84f0e3223267941caa332f",
+      "CLM_a6519cac6aed286c20a13e362201c4fb76d0354479c1dc98db396d90b6b7b1dc",
+      "CLM_a76dc7863e0a709868495ec75f36d7ef980a092bfca080961af31c70f601d683",
+      "CLM_a95f90feffa98b9e872c45ef685c6d6e035c91899b9a36136c8a9592a939cbf0",
+      "CLM_ad272fcaa82d20c2e8ecc54a4633b45fa75426bbb9f3d05b618670fda685a990",
+      "CLM_ad53d7a12ae458e826809e716d1d0163c1511da3f3fcffc619995c6a66a82583",
+      "CLM_b0535de752f46b8a895219c7d045621112d8f552db5fff176d08da27f5dc3184",
+      "CLM_b067e2eb322ffe0ab8831d74c2ec48eb72443684133f90127b97b88075afe14e",
+      "CLM_b3092d0349236cab1cd4fb1ce6827b9616313e0a1d8753962f3ad6e8647f94a5",
+      "CLM_bcf6af50e705c4a7804e854aedb33934a09dd39028e5294bb1c4520b1de811e3",
+      "CLM_c0f5a2569c3d93ae8b6323b3a80938586d889961660b6a62b2aa341fa4b13088",
+      "CLM_c250c24ceac4a60b9a40596541904e59149d086ed6d46705599c8073053e488b",
+      "CLM_c94853233955fe705267f5cad76dc7ab4515c04d494ab5499806bc8e56a9ebc6",
+      "CLM_cfb101fcdcef46bdce3bf6dea60b1db306c81fbfb981605e4b958fbaa01049f4",
+      "CLM_d06b9376768fd9bbd1dcad2755888b762da66c985d7ec26449899a3ba5217ffa",
+      "CLM_d9799ffe8ab20178858bfb085d58897b3cf6e1cb644bd9dfbcb73a241991c781",
+      "CLM_d9df019608c3812d633e2fc9d436bdd65993ddaa9fd66fc77157d39d32393832",
+      "CLM_daa2107f43f3c70d74d1aed4db65723c320bdf4b9a7d9d89047e8df912718648",
+      "CLM_e0d241b67c512bee5b482717c9f1a0d1418550d7537c154710b2348007171679",
+      "CLM_e21a3df0b23876fcb96cf0a0e7ba8ba6b9ac5fdece582f6d9264395afc989a07",
+      "CLM_e51a698ddd27c77b3f2402e29f7ea09b0dff202411d453000a88da9ccf9c0f68",
+      "CLM_e60a5e1e7a519aeb16ee48dd4776e5c6b80f823099e21d55beaa1e6c4cd84c53",
+      "CLM_e807a582b84a51f1e226963a58d8e4a17931e49c4af2d6ad208a6c097e08d7ba",
+      "CLM_f3d27b6ddc106295827fd88a8e767a8bf745abe177d9b2b9b10dce99876cc82f",
+      "CLM_f58e1a4bc76822303e5be30bd5471a19858d34ffb817d62296f971f4b0c27b39",
+      "CLM_f97bfbd3b69b154a7b2daaf63f78ea655dac0c9059283fb0560d476a69bb3b79",
+      "CLM_fc3f213f3473776d4d72d6835819607947f20ef871351cd2cc864bf4564f7fde",
+      "CLM_ff4d33aa6d5a562db1e8a90642bb0da91381e755c9b832f79947dae4279cab20",
+      "CLM_ffecdefbaf6a6b59aea3ce241c4fd6c6a8d0a0b79b6069e162f4f9ac0adaa210"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "2.4.1.1-Q01",
+      "2.4.1.1-Q02",
+      "2.4.1.1-Q04",
+      "2.4.1.1-Q05",
+      "2.4.1.1-Q06",
+      "2.4.1.1-Q07",
+      "2.4.1.1-Q11",
+      "2.4.1.1-Q12",
+      "2.4.1.1-Q14",
+      "2.4.1.1-Q21",
+      "2.4.1.1-Q23",
+      "2.4.1.1-Q25",
+      "2.4.1.1-Q29",
+      "2.4.1.1-Q30",
+      "2.4.1.1-Q31",
+      "2.4.1.1-Q32",
+      "2.4.1.1-Q33",
+      "2.4.1.1-Q35",
+      "2.4.1.1-Q37",
+      "2.4.1.1-Q39",
+      "2.4.1.1-Q40",
+      "2.4.1.1-Q41",
+      "2.4.1.1-Q42",
+      "2.4.1.1-Q44",
+      "2.4.1.1-Q46",
+      "2.4.1.1-Q47",
+      "2.4.1.1-Q48"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "2.4.1.1-Q03",
+      "2.4.1.1-Q08",
+      "2.4.1.1-Q09",
+      "2.4.1.1-Q10",
+      "2.4.1.1-Q13",
+      "2.4.1.1-Q15",
+      "2.4.1.1-Q16",
+      "2.4.1.1-Q17",
+      "2.4.1.1-Q18",
+      "2.4.1.1-Q19",
+      "2.4.1.1-Q20",
+      "2.4.1.1-Q22",
+      "2.4.1.1-Q24",
+      "2.4.1.1-Q26",
+      "2.4.1.1-Q27",
+      "2.4.1.1-Q28",
+      "2.4.1.1-Q34",
+      "2.4.1.1-Q36",
+      "2.4.1.1-Q38",
+      "2.4.1.1-Q43",
+      "2.4.1.1-Q45",
+      "2.4.1.1-Q49",
+      "2.4.1.1-Q50"
+    ]
+  }
+}

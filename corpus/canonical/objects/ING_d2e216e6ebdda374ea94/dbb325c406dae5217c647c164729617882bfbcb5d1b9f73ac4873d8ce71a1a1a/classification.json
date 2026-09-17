@@ -1,0 +1,121 @@
+{
+  "final_primary_section": "1",
+  "final_secondary_sections": [
+    "5.9"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "PARA0002",
+        "PARA0016",
+        "LIST0015",
+        "PARA0021"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0010",
+        "PARA0012",
+        "LIST0004",
+        "PARA0018"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1",
+      "score": 0.6344,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7399,
+      "chunk_vote": 0.3404
+    },
+    {
+      "id": "5.9",
+      "score": 0.5648,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7366,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3598,
+      "rule_score": 0.0,
+      "embedding_score": 0.7334,
+      "chunk_vote": 0.1489
+    },
+    {
+      "id": "2.1",
+      "score": 0.34,
+      "rule_score": 0.0,
+      "embedding_score": 0.7366,
+      "chunk_vote": 0.0426
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3335,
+      "rule_score": 0.0,
+      "embedding_score": 0.741,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3327,
+      "rule_score": 0.0,
+      "embedding_score": 0.7394,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3324,
+      "rule_score": 0.0,
+      "embedding_score": 0.7387,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3303,
+      "rule_score": 0.0,
+      "embedding_score": 0.7339,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.1",
+      "score": 0.2783,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2128
+    },
+    {
+      "id": "5.2",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, ITA'nın (Uluslararası Tünel ve Yeraltı Alanları Birliği) bir pozisyon ilanıdır ve tünel mühendisliğinin genel tanıtımı, sektörel bağlamı ve organizasyonel yapısını ele alır. Teknik detaylar (yapım teknikleri, bakım, literatür taraması) içermediğinden, genel giriş bölümüne en uygun adaydır.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:4",
+    "embeddings:8",
+    "top=1:0.6344 gap=0.070 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,105 @@
+{
+  "final_primary_section": "2.4.3",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.5626,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.3",
+      "section_title": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları",
+      "supporting_elements": [
+        "LIST0004"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.3",
+      "score": 0.5626,
+      "rule_score": 0.2,
+      "embedding_score": 0.7958,
+      "chunk_vote": 0.2222
+    },
+    {
+      "id": "6.2",
+      "score": 0.3561,
+      "rule_score": 0.0,
+      "embedding_score": 0.7913,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3554,
+      "rule_score": 0.0,
+      "embedding_score": 0.7898,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3543,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5926
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.354,
+      "rule_score": 0.0,
+      "embedding_score": 0.7867,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.3",
+      "score": 0.3535,
+      "rule_score": 0.0,
+      "embedding_score": 0.7855,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.2",
+      "score": 0.3519,
+      "rule_score": 0.0,
+      "embedding_score": 0.7821,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3514,
+      "rule_score": 0.0,
+      "embedding_score": 0.7808,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.777,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.1981,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0741
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:4",
+    "embeddings:8",
+    "top=2.4.3:0.5626 gap=0.206 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

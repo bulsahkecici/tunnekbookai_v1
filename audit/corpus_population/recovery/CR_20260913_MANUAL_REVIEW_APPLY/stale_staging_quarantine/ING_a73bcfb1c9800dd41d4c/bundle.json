@@ -1,0 +1,35 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_a73bcfb1c9800dd41d4c",
+  "original_sha256": "a73bcfb1c9800dd41d4cf47910f0ea0b70477c002414cde8bb3f7de06fbd92db",
+  "source_kind": "EXTERNAL_DISCOVERY",
+  "format": "HTML",
+  "title": "Mapping Voids, Debonding, Delaminations, Moisture, and Other Defects Behind or Within Tunnel Linings",
+  "final_primary_section": "5.9.2",
+  "final_secondary_sections": [
+    "5.9",
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": false,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_a73bcfb1c9800dd41d4c",
+  "original_archive": "originals/ING_a73bcfb1c9800dd41d4c",
+  "chunks_authoritative_path": "processing/ING_a73bcfb1c9800dd41d4c/chunks/chunk_manifest.jsonl",
+  "chunk_count": 15,
+  "chunk_quality_status": "PASS",
+  "canonical_promoted": false
+}

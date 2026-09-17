@@ -1,0 +1,143 @@
+{
+  "final_primary_section": "2.2.2",
+  "final_secondary_sections": [
+    "2.1.2",
+    "2.4.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0015",
+        "PARA0038",
+        "PARA0046",
+        "LIST0017",
+        "LIST0020",
+        "LIST0022",
+        "LIST0033"
+      ]
+    },
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "PARA0010",
+        "PARA0013",
+        "PARA0040",
+        "PARA0047",
+        "PARA0051",
+        "PARA0059",
+        "PARA0061"
+      ]
+    },
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": [
+        "FIG0007",
+        "PARA0019",
+        "FIG0008",
+        "CAPT0003",
+        "PARA0025",
+        "PARA0027",
+        "FIG0010",
+        "PARA0028",
+        "LIST0021"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7759,
+      "rule_score": 0.6,
+      "embedding_score": 0.7915,
+      "chunk_vote": 0.1988
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.7195,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7832,
+      "chunk_vote": 0.0576
+    },
+    {
+      "id": "1",
+      "score": 0.381,
+      "rule_score": 0.0,
+      "embedding_score": 0.785,
+      "chunk_vote": 0.1387
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3733,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1164
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3726,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1131
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3557,
+      "rule_score": 0.0,
+      "embedding_score": 0.7904,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3548,
+      "rule_score": 0.0,
+      "embedding_score": 0.7848,
+      "chunk_vote": 0.0084
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3534,
+      "rule_score": 0.0,
+      "embedding_score": 0.7853,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3531,
+      "rule_score": 0.0,
+      "embedding_score": 0.7847,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.3518,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1092
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, düşük örtü (low overburden) koşullarında şehir içi tünel açma ve destekleme yöntemlerini (NATM, pipe umbrella) inceleyen bir vaka çalışmasıdır. Bu içerik, yumuşak zemin veya düşük dayanımlı zeminlerde açılan tünellerin desteklenmesi ile doğrudan ilgilidir (2.2.2). Ayrıca kullanılan destek elemanları (2.1.2) ve jeoteknik analizler (2.4.1) ikincil konular olarak öne çıkmaktadır.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:23",
+    "embeddings:8",
+    "top=2:0.7759 gap=0.056 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

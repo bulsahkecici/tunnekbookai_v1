@@ -43,6 +43,25 @@ def parser() -> argparse.ArgumentParser:
     execute.add_argument("--batch", required=True)
     execute.add_argument("--resume", action="store_true")
     execute.add_argument("--force-reprocess", action="store_true")
+    execute.add_argument(
+        "--no-vision",
+        action="store_true",
+        help="skip per-figure vision descriptions while retaining structural extraction",
+    )
+    execute.add_argument(
+        "--no-ocr",
+        action="store_true",
+        help="skip OCR while retaining native structural text extraction",
+    )
+    execute.add_argument(
+        "--no-arbiter",
+        action="store_true",
+        help="skip the local LLM classification arbiter",
+    )
+    execute.add_argument(
+        "--stop-file",
+        help="cooperatively pause before the next document when this file exists",
+    )
     execute.add_argument("--json", action="store_true")
 
     for name in ("status", "staging-audit", "readiness"):
@@ -132,8 +151,15 @@ def main(argv: list[str] | None = None) -> int:
         elif args.command == "plan-batches":
             result = plan_batches(args.inventory)
         elif args.command == "run-batch":
+            stop_path = Path(args.stop_file).resolve() if args.stop_file else None
             result = run_batch(
-                args.batch, resume=args.resume, force_reprocess=args.force_reprocess
+                args.batch,
+                resume=args.resume,
+                force_reprocess=args.force_reprocess,
+                no_ocr=args.no_ocr,
+                no_vision=args.no_vision,
+                no_arbiter=args.no_arbiter,
+                stop_requested=(lambda: bool(stop_path and stop_path.is_file())),
             )
         elif args.command == "status":
             result = _status(_run_path(args.run))

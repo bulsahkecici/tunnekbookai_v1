@@ -1,0 +1,137 @@
+{
+  "final_primary_section": "5",
+  "final_secondary_sections": [
+    "5.4",
+    "5.9.2",
+    "5.9"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5",
+      "section_title": "TÜNEL BAKIM-ONARIM VE İŞLETME MALİYETLERİ",
+      "supporting_elements": [
+        "LIST0010",
+        "LIST0017",
+        "LIST0028"
+      ]
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "LIST0010",
+        "LIST0017",
+        "LIST0028"
+      ]
+    },
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0017",
+        "LIST0028"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0017",
+        "LIST0028"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5",
+      "score": 0.8017,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7907,
+      "chunk_vote": 0.4516
+    },
+    {
+      "id": "5.4",
+      "score": 0.7579,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7937,
+      "chunk_vote": 0.2258
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.6846,
+      "rule_score": 0.5,
+      "embedding_score": 0.7991,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.6826,
+      "rule_score": 0.5,
+      "embedding_score": 0.7946,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3702,
+      "rule_score": 0.0,
+      "embedding_score": 0.8052,
+      "chunk_vote": 0.0395
+    },
+    {
+      "id": "2",
+      "score": 0.363,
+      "rule_score": 0.0,
+      "embedding_score": 0.8067,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3608,
+      "rule_score": 0.0,
+      "embedding_score": 0.8017,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.356,
+      "rule_score": 0.0,
+      "embedding_score": 0.7911,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.2882,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0659
+    },
+    {
+      "id": "5.6",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Federal Highway Administration'ın Ulusal Tünel Envanteri (National Tunnel Inventory) ve tünel yönetimi/koruma (Management and Preservation) konularını ele almaktadır. Bu içerik, tünel işletme, bakım ve onarım süreçlerini doğrudan temsil ettiğinden, 'TÜNEL BAKIM-ONARIM VE İŞLETME MALİYETLERİ' (5) ve alt başlığı 'Tünel Bakım-Onarım ve İşletme' (5.4) ile en yüksek örtüşmeye sahiptir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:3",
+    "embeddings:8",
+    "top=5:0.8017 gap=0.044 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,21 @@
+{
+  "document_id": "ING_4ddfacba06240aa3a164",
+  "decision": "GO",
+  "checks": {
+    "original_exists": true,
+    "sha256_valid": true,
+    "supported_format": true,
+    "structural_extraction_success": true,
+    "provenance_present": true,
+    "metadata_schema_valid": true,
+    "final_section_in_taxonomy": true,
+    "no_critical_extraction_error": true,
+    "evidence_usable": true,
+    "pdf_page_snapshot_ratio": true
+  },
+  "reject_reasons": [],
+  "review_reasons": [],
+  "notes": [
+    "MANUAL_REVIEW_APPROVED: Shield-tunnel segmental-lining FEM study verified after recovery."
+  ]
+}

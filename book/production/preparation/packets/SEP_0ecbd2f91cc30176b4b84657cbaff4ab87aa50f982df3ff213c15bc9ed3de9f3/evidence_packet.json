@@ -1,0 +1,630 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_187416dca2ce7f3ef3f9acab13343b9ee68a527a793cc46431eeef53f9b07f03",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 8,
+    "SUPPORTED": 9,
+    "UNSUPPORTED": 33
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_0ecbd2f91cc30176b4b84657cbaff4ab87aa50f982df3ff213c15bc9ed3de9f3",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri hangi tarihsel dönemden başlatılmalıdır?",
+      "question_id": "1.4.1-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c2c3d03f7d32e80feb9e24c30b1ab278d9011b298ea77f4d2946959651728383",
+        "CLM_79bdf8160a6f58e1ca388ab0a35c5fad20740943ee7b605080e0d9683d24e788"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri için bilinen en erken örnekler hangileridir?",
+      "question_id": "1.4.1-Q02",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b40ae322d7f344d6b79ab33b8a6e7c3d7f14c8e2c1685d52002f2b6b0b829a2c",
+        "CLM_c2c3d03f7d32e80feb9e24c30b1ab278d9011b298ea77f4d2946959651728383"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Dünyada Karayolu Tünelleri kapsamında ilk örneklerin yapılma amacı neydi?",
+      "question_id": "1.4.1-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b40ae322d7f344d6b79ab33b8a6e7c3d7f14c8e2c1685d52002f2b6b0b829a2c",
+        "CLM_9809cd6d95e13160e68af6f793b484d74e3ca4bd027d8942d686fcbcd290f790"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Dünyada Karayolu Tünelleri hangi coğrafyalarda ve hangi ihtiyaçlarla gelişmiştir?",
+      "question_id": "1.4.1-Q04",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e04af41b880b747bf5a0e5324e8692bb70d7106ae962547171194f0f29d5eaec",
+        "CLM_4bca992eaad15e7580c2283d66ace7ecaedf17a69b16f8513eed61cbd6ff7f75",
+        "CLM_c2c3d03f7d32e80feb9e24c30b1ab278d9011b298ea77f4d2946959651728383"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri gelişiminde belirleyici olan başlıca tarihsel dönüm noktaları nelerdir?",
+      "question_id": "1.4.1-Q05",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b40ae322d7f344d6b79ab33b8a6e7c3d7f14c8e2c1685d52002f2b6b0b829a2c",
+        "CLM_35070109097f6d5d340ded38dd72bf19ccacb883c34cdff13a0fa7362324d1fd"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Dünyada Karayolu Tünelleri gelişimini hızlandıran ulaşım ihtiyaçları nelerdir?",
+      "question_id": "1.4.1-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri gelişimini hızlandıran kentleşme etkileri nelerdir?",
+      "question_id": "1.4.1-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri gelişimini hızlandıran sanayileşme etkileri nelerdir?",
+      "question_id": "1.4.1-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri tarihinde kullanılan ilk kazı teknikleri nelerdi?",
+      "question_id": "1.4.1-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_65f1f33cc4fa21b9bde5181c78b51ba73846e92ae80589f165fc73ae9cda8500",
+        "CLM_5f1689db9f7db39ce50bc5538d5e20ef818b71dd9d92ba1929b0f6a4a508aa9c",
+        "CLM_d262f5d8919b7b04b686b38402eb1d4f42e2d69ad7542d29e023a8f4f198c433"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Dünyada Karayolu Tünelleri tarihinde kullanılan ilk destekleme yöntemleri nelerdi?",
+      "question_id": "1.4.1-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri tarihinde kullanılan yapı malzemeleri nasıl değişmiştir?",
+      "question_id": "1.4.1-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Patlayıcı teknolojisinin gelişimi Dünyada Karayolu Tünelleri üzerinde nasıl etkili olmuştur?",
+      "question_id": "1.4.1-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Mekanize kazı teknolojilerinin gelişimi Dünyada Karayolu Tünelleri üzerinde nasıl etkili olmuştur?",
+      "question_id": "1.4.1-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "TBM teknolojisinin gelişimi Dünyada Karayolu Tünelleri açısından hangi dönüm noktasını oluşturmuştur?",
+      "question_id": "1.4.1-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_04567d1eaff30d371c3d602f84f18397e4f5f15e270eb58ab74992f6c478138f",
+        "CLM_2ea1e51b5a241f0c67911392ac6a39a26a20c0a4543048c83d7b8389aa7308f1",
+        "CLM_1d5221837aa728f60fac247d6d978123389049e7bbce28e10ed9e6446225c30f"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "NATM yaklaşımının ortaya çıkışı Dünyada Karayolu Tünelleri içinde nasıl bir değişim yaratmıştır?",
+      "question_id": "1.4.1-Q15",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d0e906864bc5f0ca56d70bb14a4f5118ced7c425cb4f0e4f70b45cf55f635f4f",
+        "CLM_4744d5ebe4b74a1ef7e5a0d9b8bbc9009f65fa168d7de50827a74f76b14650d1"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Jeoloji ve geoteknik bilimindeki ilerlemeler Dünyada Karayolu Tünelleri gelişimini nasıl etkilemiştir?",
+      "question_id": "1.4.1-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Harita ve ölçme teknolojilerindeki gelişmeler Dünyada Karayolu Tünelleri gelişimini nasıl etkilemiştir?",
+      "question_id": "1.4.1-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_83a3d6fe21b5250e082151868e714dc76bedff957fca56c6d89f15ca3048a87d",
+        "CLM_b9c976513e9ddb61c11ee063f54caf90ec359499526c9d1533e11ab986ce124c"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Beton ve püskürtme beton teknolojileri Dünyada Karayolu Tünelleri gelişiminde nasıl rol oynamıştır?",
+      "question_id": "1.4.1-Q18",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_973ce18a2d1937d21ce850a272c0d280d013295242d9c4dbed1dc4faa6bffd74",
+        "CLM_7df91ce166e4847af7f04f56613df32f9543a0e025894d6c1c89720d9c98a72b"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Kaya bulonu ve ankraj sistemlerinin gelişimi Dünyada Karayolu Tünelleri açısından neden önemlidir?",
+      "question_id": "1.4.1-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Su yalıtımı ve drenaj teknolojilerindeki ilerlemeler Dünyada Karayolu Tünelleri gelişimini nasıl etkilemiştir?",
+      "question_id": "1.4.1-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fea6ecf2ef458a7f290b95257c6a7864459aba292743f30bd8f87dc22e6fa8ab",
+        "CLM_400a109525e37bf64c5e9751e8b02a5e53ec819040285dccaa6619364de4c757"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Havalandırma teknolojilerindeki gelişmeler Dünyada Karayolu Tünelleri açısından hangi yenilikleri getirmiştir?",
+      "question_id": "1.4.1-Q21",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Aydınlatma teknolojilerindeki gelişmeler Dünyada Karayolu Tünelleri açısından hangi yenilikleri getirmiştir?",
+      "question_id": "1.4.1-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_79bd30cba3be68f1e23d0743194c607183807ec98955a6dd33d4e6f6e8e6391e",
+        "CLM_93806d4e7e5f5c23a3a1f857c675219ad8cee9e42902881c4cae911fa6375043",
+        "CLM_9791a5ce62b4f12b9cc28a7cd3bf464841d3c93634e6732da251e903cd11c3e5",
+        "CLM_6ba950580d8769fe2db30ab99757e7175d547067dbee390b688dbbce5b83d18c"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Yangın güvenliği anlayışı Dünyada Karayolu Tünelleri boyunca nasıl değişmiştir?",
+      "question_id": "1.4.1-Q23",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e44c650f40b6bb2ceecd18bd6813a41c5ddcd529238b300d5067fed64523eba3",
+        "CLM_6e720100a07d592055b75cf98eb6dea634beb0078883e5dc29ed728109713463",
+        "CLM_b424a590c988d48a5b65b14a3c729cb9c28974ccc3997894b4450131ffc214c9",
+        "CLM_59e5a459a2d5002185e6514408839c18144335bfe34ed889783043ded298da3c"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Acil durum ve tahliye yaklaşımı Dünyada Karayolu Tünelleri boyunca nasıl gelişmiştir?",
+      "question_id": "1.4.1-Q24",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c9ec62fcca32577aeeb07067a00e311bed192f4b43ab3f0b128ad34840017b59",
+        "CLM_6ba950580d8769fe2db30ab99757e7175d547067dbee390b688dbbce5b83d18c",
+        "CLM_8afd63807f5d0171d9148014c6ed446a930c9a91f4f7ffec603bf3f6fc094edb",
+        "CLM_d30f1942c5df3af1cf4f467ffeeffe37093d493b3b3e29afc4e6a7f487c51ae1"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Önemli kazalar ve felaketler Dünyada Karayolu Tünelleri gelişiminde hangi düzenlemelere yol açmıştır?",
+      "question_id": "1.4.1-Q25",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri içinde hangi projeler mühendislik açısından dönüm noktası kabul edilir?",
+      "question_id": "1.4.1-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c2c3d03f7d32e80feb9e24c30b1ab278d9011b298ea77f4d2946959651728383",
+        "CLM_79bdf8160a6f58e1ca388ab0a35c5fad20740943ee7b605080e0d9683d24e788",
+        "CLM_739d0012f3fca3120194a23cab68889fc4b90ffd67c8050a8d3dcf9d2416fe6c"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri içinde hangi projeler uzunluk veya ölçek açısından rekor niteliği taşımıştır?",
+      "question_id": "1.4.1-Q27",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri içinde hangi projeler yapım yöntemi açısından öncü olmuştur?",
+      "question_id": "1.4.1-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri içinde hangi projeler güvenlik uygulamaları açısından öncü olmuştur?",
+      "question_id": "1.4.1-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri içinde hangi projeler işletme teknolojileri açısından öncü olmuştur?",
+      "question_id": "1.4.1-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri gelişiminde kamu kurumlarının rolü ne olmuştur?",
+      "question_id": "1.4.1-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri gelişiminde üniversiteler ve araştırma kuruluşlarının rolü ne olmuştur?",
+      "question_id": "1.4.1-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri gelişiminde uluslararası meslek örgütlerinin rolü ne olmuştur?",
+      "question_id": "1.4.1-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri gelişiminde standartlar ve teknik şartnameler nasıl değişmiştir?",
+      "question_id": "1.4.1-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri gelişiminde ekonomik koşullar ve finansman modelleri nasıl etkili olmuştur?",
+      "question_id": "1.4.1-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e04af41b880b747bf5a0e5324e8692bb70d7106ae962547171194f0f29d5eaec",
+        "CLM_4bca992eaad15e7580c2283d66ace7ecaedf17a69b16f8513eed61cbd6ff7f75",
+        "CLM_c2c3d03f7d32e80feb9e24c30b1ab278d9011b298ea77f4d2946959651728383"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri içinde yapım süreleri zamanla nasıl değişmiştir?",
+      "question_id": "1.4.1-Q36",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri içinde birim yapım maliyetlerini etkileyen tarihsel değişimler nelerdir?",
+      "question_id": "1.4.1-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri içinde bakım ve işletme anlayışı zamanla nasıl değişmiştir?",
+      "question_id": "1.4.1-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri içinde çevresel etkilerin dikkate alınması ne zaman önem kazanmıştır?",
+      "question_id": "1.4.1-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri içinde sürdürülebilirlik yaklaşımı ne zaman ve nasıl öne çıkmıştır?",
+      "question_id": "1.4.1-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dijital tasarım araçlarının gelişimi Dünyada Karayolu Tünelleri açısından ne değiştirmiştir?",
+      "question_id": "1.4.1-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "BIM ve dijital ikiz uygulamaları Dünyada Karayolu Tünelleri içinde hangi yeni dönemi temsil etmektedir?",
+      "question_id": "1.4.1-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Sensör ve izleme teknolojileri Dünyada Karayolu Tünelleri gelişimini nasıl dönüştürmüştür?",
+      "question_id": "1.4.1-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri açısından Türkiye ile dünya arasındaki gelişim çizgisi nasıl karşılaştırılabilir?",
+      "question_id": "1.4.1-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri içinde bölgesel farklılıkların temel nedenleri nelerdir?",
+      "question_id": "1.4.1-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4bca992eaad15e7580c2283d66ace7ecaedf17a69b16f8513eed61cbd6ff7f75",
+        "CLM_e04af41b880b747bf5a0e5324e8692bb70d7106ae962547171194f0f29d5eaec",
+        "CLM_c2c3d03f7d32e80feb9e24c30b1ab278d9011b298ea77f4d2946959651728383",
+        "CLM_79bdf8160a6f58e1ca388ab0a35c5fad20740943ee7b605080e0d9683d24e788"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri anlatılırken hangi kronolojik tablo veya zaman çizelgesi verilmelidir?",
+      "question_id": "1.4.1-Q46",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri anlatılırken hangi proje örnekleri mutlaka yer almalıdır?",
+      "question_id": "1.4.1-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri anlatılırken hangi teknik yeniliklerin tarihleri özellikle belirtilmelidir?",
+      "question_id": "1.4.1-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri günümüzde hangi teknoloji ve mühendislik eğilimleriyle devam etmektedir?",
+      "question_id": "1.4.1-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyada Karayolu Tünelleri gelecekte hangi gelişmelerle yeni bir aşamaya geçebilir?",
+      "question_id": "1.4.1-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "1.4.1",
+  "section_title": "Dünyada Karayolu Tünelleri",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_04567d1eaff30d371c3d602f84f18397e4f5f15e270eb58ab74992f6c478138f",
+      "CLM_1d5221837aa728f60fac247d6d978123389049e7bbce28e10ed9e6446225c30f",
+      "CLM_2ea1e51b5a241f0c67911392ac6a39a26a20c0a4543048c83d7b8389aa7308f1",
+      "CLM_35070109097f6d5d340ded38dd72bf19ccacb883c34cdff13a0fa7362324d1fd",
+      "CLM_400a109525e37bf64c5e9751e8b02a5e53ec819040285dccaa6619364de4c757",
+      "CLM_4744d5ebe4b74a1ef7e5a0d9b8bbc9009f65fa168d7de50827a74f76b14650d1",
+      "CLM_4bca992eaad15e7580c2283d66ace7ecaedf17a69b16f8513eed61cbd6ff7f75",
+      "CLM_59e5a459a2d5002185e6514408839c18144335bfe34ed889783043ded298da3c",
+      "CLM_5f1689db9f7db39ce50bc5538d5e20ef818b71dd9d92ba1929b0f6a4a508aa9c",
+      "CLM_65f1f33cc4fa21b9bde5181c78b51ba73846e92ae80589f165fc73ae9cda8500",
+      "CLM_6ba950580d8769fe2db30ab99757e7175d547067dbee390b688dbbce5b83d18c",
+      "CLM_6e720100a07d592055b75cf98eb6dea634beb0078883e5dc29ed728109713463",
+      "CLM_739d0012f3fca3120194a23cab68889fc4b90ffd67c8050a8d3dcf9d2416fe6c",
+      "CLM_79bd30cba3be68f1e23d0743194c607183807ec98955a6dd33d4e6f6e8e6391e",
+      "CLM_79bdf8160a6f58e1ca388ab0a35c5fad20740943ee7b605080e0d9683d24e788",
+      "CLM_7df91ce166e4847af7f04f56613df32f9543a0e025894d6c1c89720d9c98a72b",
+      "CLM_83a3d6fe21b5250e082151868e714dc76bedff957fca56c6d89f15ca3048a87d",
+      "CLM_8afd63807f5d0171d9148014c6ed446a930c9a91f4f7ffec603bf3f6fc094edb",
+      "CLM_93806d4e7e5f5c23a3a1f857c675219ad8cee9e42902881c4cae911fa6375043",
+      "CLM_973ce18a2d1937d21ce850a272c0d280d013295242d9c4dbed1dc4faa6bffd74",
+      "CLM_9791a5ce62b4f12b9cc28a7cd3bf464841d3c93634e6732da251e903cd11c3e5",
+      "CLM_9809cd6d95e13160e68af6f793b484d74e3ca4bd027d8942d686fcbcd290f790",
+      "CLM_b40ae322d7f344d6b79ab33b8a6e7c3d7f14c8e2c1685d52002f2b6b0b829a2c",
+      "CLM_b424a590c988d48a5b65b14a3c729cb9c28974ccc3997894b4450131ffc214c9",
+      "CLM_b9c976513e9ddb61c11ee063f54caf90ec359499526c9d1533e11ab986ce124c",
+      "CLM_c2c3d03f7d32e80feb9e24c30b1ab278d9011b298ea77f4d2946959651728383",
+      "CLM_c9ec62fcca32577aeeb07067a00e311bed192f4b43ab3f0b128ad34840017b59",
+      "CLM_d0e906864bc5f0ca56d70bb14a4f5118ced7c425cb4f0e4f70b45cf55f635f4f",
+      "CLM_d262f5d8919b7b04b686b38402eb1d4f42e2d69ad7542d29e023a8f4f198c433",
+      "CLM_d30f1942c5df3af1cf4f467ffeeffe37093d493b3b3e29afc4e6a7f487c51ae1",
+      "CLM_e04af41b880b747bf5a0e5324e8692bb70d7106ae962547171194f0f29d5eaec",
+      "CLM_e44c650f40b6bb2ceecd18bd6813a41c5ddcd529238b300d5067fed64523eba3",
+      "CLM_fea6ecf2ef458a7f290b95257c6a7864459aba292743f30bd8f87dc22e6fa8ab"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "1.4.1-Q03",
+      "1.4.1-Q04",
+      "1.4.1-Q06",
+      "1.4.1-Q10",
+      "1.4.1-Q16",
+      "1.4.1-Q18",
+      "1.4.1-Q19",
+      "1.4.1-Q21"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "1.4.1-Q01",
+      "1.4.1-Q07",
+      "1.4.1-Q08",
+      "1.4.1-Q09",
+      "1.4.1-Q11",
+      "1.4.1-Q12",
+      "1.4.1-Q13",
+      "1.4.1-Q14",
+      "1.4.1-Q17",
+      "1.4.1-Q20",
+      "1.4.1-Q22",
+      "1.4.1-Q26",
+      "1.4.1-Q28",
+      "1.4.1-Q29",
+      "1.4.1-Q30",
+      "1.4.1-Q31",
+      "1.4.1-Q32",
+      "1.4.1-Q33",
+      "1.4.1-Q34",
+      "1.4.1-Q35",
+      "1.4.1-Q37",
+      "1.4.1-Q38",
+      "1.4.1-Q39",
+      "1.4.1-Q40",
+      "1.4.1-Q41",
+      "1.4.1-Q42",
+      "1.4.1-Q43",
+      "1.4.1-Q44",
+      "1.4.1-Q45",
+      "1.4.1-Q47",
+      "1.4.1-Q48",
+      "1.4.1-Q49",
+      "1.4.1-Q50"
+    ]
+  }
+}

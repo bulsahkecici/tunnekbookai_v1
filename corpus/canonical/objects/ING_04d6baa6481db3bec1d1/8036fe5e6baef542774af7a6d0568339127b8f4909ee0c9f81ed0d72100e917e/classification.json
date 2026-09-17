@@ -1,0 +1,137 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.1.2",
+    "2.1",
+    "2.2.1"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0001",
+        "PARA0034"
+      ]
+    },
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "PARA0012",
+        "FIG0004",
+        "PARA0014",
+        "PARA0018"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0012",
+        "FIG0004",
+        "PARA0014",
+        "PARA0018"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7187,
+      "rule_score": 0.5,
+      "embedding_score": 0.8162,
+      "chunk_vote": 0.1319
+    },
+    {
+      "id": "2.1",
+      "score": 0.7169,
+      "rule_score": 0.5,
+      "embedding_score": 0.7829,
+      "chunk_vote": 0.1978
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.6095,
+      "rule_score": 0.3333,
+      "embedding_score": 0.792,
+      "chunk_vote": 0.0989
+    },
+    {
+      "id": "2.2",
+      "score": 0.6089,
+      "rule_score": 0.3333,
+      "embedding_score": 0.8054,
+      "chunk_vote": 0.0659
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3761,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5055
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3513,
+      "rule_score": 0.0,
+      "embedding_score": 0.7806,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3489,
+      "rule_score": 0.0,
+      "embedding_score": 0.7754,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.1",
+      "score": 0.3467,
+      "rule_score": 0.0,
+      "embedding_score": 0.7705,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3466,
+      "rule_score": 0.0,
+      "embedding_score": 0.7703,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, NATM (Yeni Avusturya Tünel Metodu) kapsamında farklı zemin türlerinde (zayıf, orta sert, sert) kazı yöntemlerini, aşamalarını ve destekleme işlemlerini (iks, bulon, püskürtme beton) detaylıca ele aldığı için 'Tünel Yapım Yöntemleri' (2.2) birincil bölümdür. Destek elemanlarının montajı ve uygulaması nedeniyle 'Tünel Destekleme Elemanları' (2.1.2) ikincil bölümdür.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7187 gap=0.002 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

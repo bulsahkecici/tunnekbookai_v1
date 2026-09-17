@@ -1,0 +1,409 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-09-13T17:27:49+00:00",
+  "run_id": "CPR_ccac3979539cf8e4548d550355ad5c68886d47e9f4eed4207a01f2d38165f3f4",
+  "run_state": "PROMOTION_PENDING_APPROVAL",
+  "approved_candidates": [
+    {
+      "document_id": "ING_099561279b8b8ee35d23",
+      "action": "PROMOTE",
+      "chunk_count": 80,
+      "retrieval_ready_chunk_count": 80,
+      "warnings": []
+    },
+    {
+      "document_id": "ING_118ff7fa533b54f5bb33",
+      "action": "PROMOTE",
+      "chunk_count": 123,
+      "retrieval_ready_chunk_count": 75,
+      "warnings": []
+    },
+    {
+      "document_id": "ING_1ae6c3af5113537e857e",
+      "action": "PROMOTE",
+      "chunk_count": 25,
+      "retrieval_ready_chunk_count": 24,
+      "warnings": [
+        "CHUNK_UNDER_MIN:ING_1ae6c3af5113537e857e_CH_e5cf5944e7:234"
+      ]
+    },
+    {
+      "document_id": "ING_33492a3e3e95d6e412e6",
+      "action": "PROMOTE",
+      "chunk_count": 10,
+      "retrieval_ready_chunk_count": 10,
+      "warnings": []
+    },
+    {
+      "document_id": "ING_41d2c9398626bde710c0",
+      "action": "PROMOTE",
+      "chunk_count": 30,
+      "retrieval_ready_chunk_count": 22,
+      "warnings": []
+    },
+    {
+      "document_id": "ING_4ab4f078440c18fa18d4",
+      "action": "PROMOTE",
+      "chunk_count": 14,
+      "retrieval_ready_chunk_count": 12,
+      "warnings": []
+    },
+    {
+      "document_id": "ING_4ddfacba06240aa3a164",
+      "action": "PROMOTE",
+      "chunk_count": 19,
+      "retrieval_ready_chunk_count": 19,
+      "warnings": []
+    },
+    {
+      "document_id": "ING_83f9b702512fb05b106d",
+      "action": "PROMOTE",
+      "chunk_count": 6,
+      "retrieval_ready_chunk_count": 6,
+      "warnings": []
+    },
+    {
+      "document_id": "ING_945f8f6f7b425afc57c0",
+      "action": "PROMOTE",
+      "chunk_count": 21,
+      "retrieval_ready_chunk_count": 21,
+      "warnings": []
+    },
+    {
+      "document_id": "ING_09816e42debecc51360d",
+      "action": "PROMOTE",
+      "chunk_count": 3,
+      "retrieval_ready_chunk_count": 3,
+      "warnings": [
+        "CHUNK_UNDER_MIN:ING_09816e42debecc51360d_CH_cee8bcd1e9:158"
+      ]
+    },
+    {
+      "document_id": "ING_8fe8fef7af0d690a8c07",
+      "action": "PROMOTE",
+      "chunk_count": 6,
+      "retrieval_ready_chunk_count": 6,
+      "warnings": []
+    },
+    {
+      "document_id": "ING_9a2ffc561cb5b6efbca1",
+      "action": "PROMOTE",
+      "chunk_count": 6,
+      "retrieval_ready_chunk_count": 6,
+      "warnings": []
+    },
+    {
+      "document_id": "ING_aebfb2790f94d4239847",
+      "action": "PROMOTE",
+      "chunk_count": 39,
+      "retrieval_ready_chunk_count": 39,
+      "warnings": []
+    },
+    {
+      "document_id": "ING_b4f94b799877cc9a1caf",
+      "action": "PROMOTE",
+      "chunk_count": 1,
+      "retrieval_ready_chunk_count": 1,
+      "warnings": []
+    },
+    {
+      "document_id": "ING_d9c66f67c8cd3a7175f3",
+      "action": "PROMOTE",
+      "chunk_count": 6,
+      "retrieval_ready_chunk_count": 6,
+      "warnings": []
+    },
+    {
+      "document_id": "ING_de42fd6ef4103d8d294a",
+      "action": "PROMOTE",
+      "chunk_count": 26,
+      "retrieval_ready_chunk_count": 26,
+      "warnings": [
+        "CHUNK_UNDER_MIN:ING_de42fd6ef4103d8d294a_CH_9893e477cc:234"
+      ]
+    },
+    {
+      "document_id": "ING_ead747fa32f53391bef5",
+      "action": "PROMOTE",
+      "chunk_count": 3,
+      "retrieval_ready_chunk_count": 3,
+      "warnings": [
+        "CHUNK_UNDER_MIN:ING_ead747fa32f53391bef5_CH_79d147c68c:105"
+      ]
+    },
+    {
+      "document_id": "ING_1c8cf251c81e8ae5e70c",
+      "action": "PROMOTE",
+      "chunk_count": 26,
+      "retrieval_ready_chunk_count": 26,
+      "warnings": [
+        "CHUNK_UNDER_MIN:ING_1c8cf251c81e8ae5e70c_CH_bfb181d063:243"
+      ]
+    },
+    {
+      "document_id": "ING_686f2fed7a37fea40455",
+      "action": "PROMOTE",
+      "chunk_count": 341,
+      "retrieval_ready_chunk_count": 338,
+      "warnings": [
+        "CHUNK_UNDER_MIN:ING_686f2fed7a37fea40455_CH_823db522ae:246",
+        "CHUNK_OVER_MAX:ING_686f2fed7a37fea40455_CH_803cae1119:1470"
+      ]
+    },
+    {
+      "document_id": "ING_3b434b03f09745ed6d9c",
+      "action": "PROMOTE",
+      "chunk_count": 2,
+      "retrieval_ready_chunk_count": 1,
+      "warnings": [
+        "CHUNK_UNDER_MIN:ING_3b434b03f09745ed6d9c_CH_07e233a862:2"
+      ]
+    },
+    {
+      "document_id": "ING_c5b8b61e1d07edae30e7",
+      "action": "PROMOTE",
+      "chunk_count": 2,
+      "retrieval_ready_chunk_count": 1,
+      "warnings": [
+        "CHUNK_UNDER_MIN:ING_c5b8b61e1d07edae30e7_CH_7137fb43db:2"
+      ]
+    },
+    {
+      "document_id": "ING_c77a14960e997ca95740",
+      "action": "PROMOTE",
+      "chunk_count": 2,
+      "retrieval_ready_chunk_count": 1,
+      "warnings": [
+        "CHUNK_UNDER_MIN:ING_c77a14960e997ca95740_CH_bed9598d87:1"
+      ]
+    },
+    {
+      "document_id": "ING_296bae6c6d0e76f84818",
+      "action": "PROMOTE",
+      "chunk_count": 3,
+      "retrieval_ready_chunk_count": 3,
+      "warnings": [
+        "CHUNK_OVER_MAX:ING_296bae6c6d0e76f84818_CH_2c7edd523d:1329"
+      ]
+    },
+    {
+      "document_id": "ING_e5a3c44428f7d13e2a85",
+      "action": "PROMOTE",
+      "chunk_count": 4,
+      "retrieval_ready_chunk_count": 4,
+      "warnings": []
+    },
+    {
+      "document_id": "ING_991a4bf2e475e795b041",
+      "action": "PROMOTE",
+      "chunk_count": 37,
+      "retrieval_ready_chunk_count": 37,
+      "warnings": [
+        "CHUNK_OVER_MAX:ING_991a4bf2e475e795b041_CH_03f73a4505:1500"
+      ]
+    },
+    {
+      "document_id": "ING_017a281e3b7e47690da6",
+      "action": "PROMOTE",
+      "chunk_count": 198,
+      "retrieval_ready_chunk_count": 198,
+      "warnings": [
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_9b573744b2:1241",
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_8c4d58d27f:1208",
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_9ae6a0ae29:1275",
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_84505ac06e:1280",
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_8456807f08:1208",
+        "CHUNK_UNDER_MIN:ING_017a281e3b7e47690da6_CH_c9231175fb:86",
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_fa7fda5d88:1234",
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_894bfea525:1319",
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_bc29ee01d1:1263",
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_c77e9e056b:1240",
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_5db3dcd6ba:1246",
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_230f9944d9:1214",
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_9d47868266:1205",
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_307743be21:1265",
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_a0d45efeb8:1233",
+        "CHUNK_UNDER_MIN:ING_017a281e3b7e47690da6_CH_62082df728:203",
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_e0547b4ce4:1494",
+        "CHUNK_OVER_MAX:ING_017a281e3b7e47690da6_CH_bcf5b4aecc:1345"
+      ]
+    },
+    {
+      "document_id": "ING_1c5a56abfaae6e524858",
+      "action": "PROMOTE",
+      "chunk_count": 9,
+      "retrieval_ready_chunk_count": 9,
+      "warnings": []
+    },
+    {
+      "document_id": "ING_746d18498e07a8a0f397",
+      "action": "PROMOTE",
+      "chunk_count": 587,
+      "retrieval_ready_chunk_count": 587,
+      "warnings": [
+        "CHUNK_OVER_MAX:ING_746d18498e07a8a0f397_CH_cd3b66758a:1471",
+        "CHUNK_OVER_MAX:ING_746d18498e07a8a0f397_CH_0b2bb22625:1208",
+        "CHUNK_OVER_MAX:ING_746d18498e07a8a0f397_CH_846be74d7b:1291",
+        "CHUNK_OVER_MAX:ING_746d18498e07a8a0f397_CH_6860b44071:1223",
+        "CHUNK_OVER_MAX:ING_746d18498e07a8a0f397_CH_dc62ebdd2b:1500",
+        "CHUNK_OVER_MAX:ING_746d18498e07a8a0f397_CH_dbe1f9d600:1233"
+      ]
+    }
+  ],
+  "quarantined_staging": [
+    "ING_52f7020c336219779269",
+    "ING_c16b0af8b0176e8970a4"
+  ],
+  "accounted_exclusions": [
+    "ING_0026332c6c5c120687e8",
+    "ING_02f74302b3f689b57b83",
+    "ING_03d84c8b0f687000a122",
+    "ING_068bb4a15fd14d1e1cee",
+    "ING_06fc2d37deaff224d5ff",
+    "ING_0b31c321b1ab87375611",
+    "ING_0f28ec8d00bf1ad06dc6",
+    "ING_0f58a3fdef415af923cd",
+    "ING_129845d929ca4538e2e6",
+    "ING_14f5809da9aa9aecb13f",
+    "ING_1570b7288f8c526141f2",
+    "ING_182ff1c8694f2fb790b1",
+    "ING_198562d79e98f516afe0",
+    "ING_1a9483f855922871a28b",
+    "ING_1ac15b75810132c7c427",
+    "ING_1fb7f09ca4f183fe685a",
+    "ING_216c0904e2b0678a94e4",
+    "ING_21e6ae9f990965b3e9c5",
+    "ING_274f7c36b29c5cd916aa",
+    "ING_277d1e062a9c030f187b",
+    "ING_277eb6e336cb427b21f9",
+    "ING_2a0e5b1b1c1ccce2eeeb",
+    "ING_2ab144a417b8caac69d9",
+    "ING_2cd131313b95f73a30ee",
+    "ING_2dc255acf379950d4fb5",
+    "ING_2dfad061286148492a06",
+    "ING_2ee1cf61b9b2326d6d9c",
+    "ING_2f1996e5431aa4d0b3f1",
+    "ING_2fd492a29be494084d2e",
+    "ING_306c38d9f1664d0b0b23",
+    "ING_32d12ee785cc9dce5635",
+    "ING_3586a6db81e3b82d488d",
+    "ING_3753b74ce7896f8d8621",
+    "ING_396d258c1c1737aafff5",
+    "ING_3998120ad8ed9c0aa94e",
+    "ING_3a0952ad78d31616fbb6",
+    "ING_3c413afaca7214d28b25",
+    "ING_3ca350607d57216daed9",
+    "ING_3f300286fd251b4edb13",
+    "ING_4000cf08f478fc2e5b46",
+    "ING_4035ff17313c3a3873fd",
+    "ING_4138460e10474bd1c6bd",
+    "ING_42155bfabe4d7b6f813f",
+    "ING_45f68f53cd0a1105838e",
+    "ING_472fce4141c7ecc81202",
+    "ING_5146f8af9c34cb99ecee",
+    "ING_52f7020c336219779269",
+    "ING_556e48dbbf30e5473032",
+    "ING_5713bceeb05170edcb2b",
+    "ING_58cf68f92f25489832ba",
+    "ING_5e8873d4c3345fec011a",
+    "ING_601def3ac9139014be18",
+    "ING_6029d8c0dcaf79c04476",
+    "ING_60305245c693656cba80",
+    "ING_6071a4e2d99025d72e8f",
+    "ING_60887d8c337f14485e1e",
+    "ING_6189e65546cc0eb83252",
+    "ING_629dba3cec96c75c31eb",
+    "ING_65451bef57b95236e2b1",
+    "ING_65baca0bc6e114603373",
+    "ING_6603d931bac31e27d691",
+    "ING_68a545f96d1de7633327",
+    "ING_6d3ef789bc2ef1f6f6fb",
+    "ING_6e9095fd8c219673dabd",
+    "ING_6fdc0943b180c79fe885",
+    "ING_7067bc0570ff7e6c211c",
+    "ING_712a21c9b616704166ca",
+    "ING_7731f949f05572e8d47f",
+    "ING_78d4544140d065fc91b1",
+    "ING_7a635b815f4333e1b04d",
+    "ING_7c58dbc9ae060c3d62ec",
+    "ING_7dbe987fe5ec72627e6a",
+    "ING_812e8a91d16121c7409b",
+    "ING_820e5e0f653e275cc035",
+    "ING_82ccc8321c83bc5e80af",
+    "ING_82fa05da5fe2579854d6",
+    "ING_83cb5707f04383911876",
+    "ING_84ac589d0555527d0191",
+    "ING_84dad3b6cdd1181d79d4",
+    "ING_85c7bcf577d32291b0fa",
+    "ING_87e3e2128ab93e340464",
+    "ING_88acfb3d81d4e8977527",
+    "ING_89b5c47174214aca5d5d",
+    "ING_8a0cd0899164194dde2f",
+    "ING_8a3fd91c1fe48f004b6d",
+    "ING_8aed6dda9d6247ed36a5",
+    "ING_8ba40aa01da66d3a16b5",
+    "ING_8cd5deeea6bec6381730",
+    "ING_8d31050d264e3b68dcbd",
+    "ING_8d3a5d6316ba8ac5d96a",
+    "ING_8e2601e33aad2c570d8d",
+    "ING_8fc2258b564b72422a27",
+    "ING_904c335d9d5d808e4a89",
+    "ING_91d2e5c8c3a3aab16a1f",
+    "ING_92e90ed69a2529efddc7",
+    "ING_93376e3ca4be5ca1a8de",
+    "ING_93fe6c5bcdd0c89edb8b",
+    "ING_95c2df927a249e899cd9",
+    "ING_97079d459ce5899f0392",
+    "ING_972d9ce89a42531c071f",
+    "ING_989fe4a283979a40e883",
+    "ING_98ae44f49cf06af246d7",
+    "ING_9e5b9cf7208d276f2de1",
+    "ING_9f361fc1db08a7f5594b",
+    "ING_a0cbe322f259382e2d0f",
+    "ING_a45962280793a816243d",
+    "ING_a89f27051b9d9b3971ee",
+    "ING_aa029fe604b95ba79ada",
+    "ING_b1bafee5b5e71ef03bbe",
+    "ING_b4e6d3b06e9cd5748c25",
+    "ING_b64114bb6c50a8162e17",
+    "ING_b6f90c3ef436c7f0389e",
+    "ING_b8867e649b52c5b7d84c",
+    "ING_bb2af32936e361112141",
+    "ING_bba5affaa931557d7f26",
+    "ING_c16b0af8b0176e8970a4",
+    "ING_c1de33ee0cca8e483ce2",
+    "ING_c26487a1c9c9e39d680e",
+    "ING_c365ac970ae4aeb18019",
+    "ING_c3755d0a13719648a634",
+    "ING_c934156491cc7141fbfb",
+    "ING_ccdd66a670b2f3882b8c",
+    "ING_cd5ed87b81091783b060",
+    "ING_cdb112d3ff0f405e69fc",
+    "ING_ce4828c308c6cac0c86b",
+    "ING_d1b3333d1837f6b1a523",
+    "ING_d5534e3413fdc04d4eae",
+    "ING_d71aed9f355c41246a57",
+    "ING_d7b886a6a15207061dab",
+    "ING_d87570f13ba7f7bc925a",
+    "ING_d981b331b43abfb9a024",
+    "ING_dd21bfdf764ae6585319",
+    "ING_de67c7a007e4190e26a8",
+    "ING_e0591b2041b2d8d295de",
+    "ING_e0bfb75ff641af29592b",
+    "ING_e32d84cf10c58ab5c51b",
+    "ING_e69a8baa6d553a96a5ca",
+    "ING_e70f2449aed60bab918c",
+    "ING_efb8ed326d1e7ee014e2",
+    "ING_f2be3e278c6038e1ed3c",
+    "ING_f40b03ff2be9b80ea325",
+    "ING_f4ab0ffb90014cd9132e",
+    "ING_f606c394d33c015ffbf2",
+    "ING_f70fd91e164d478a7c2d",
+    "ING_f78f8740e55b7b6c6e8d",
+    "ING_fc07f18ea34078a7520a",
+    "ING_fec25d2285ee30435b78",
+    "ING_fed6fbe910c3917390f8"
+  ],
+  "unresolved": [],
+  "canonical_written": false
+}

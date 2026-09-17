@@ -1,0 +1,117 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.4.1",
+    "5.1"
+  ],
+  "final_section_confidence": 0.5641,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4.1",
+      "section_title": "Yapısal Bakım",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4",
+      "score": 0.5641,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7351,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.5622,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7309,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.4572,
+      "rule_score": 0.0,
+      "embedding_score": 0.7323,
+      "chunk_vote": 0.6383
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3426,
+      "rule_score": 0.0,
+      "embedding_score": 0.7614,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3385,
+      "rule_score": 0.0,
+      "embedding_score": 0.7522,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3336,
+      "rule_score": 0.0,
+      "embedding_score": 0.7414,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3298,
+      "rule_score": 0.0,
+      "embedding_score": 0.7328,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.3291,
+      "rule_score": 0.0,
+      "embedding_score": 0.7314,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, TBMM Destek Hizmetleri Başkanlığı'na ait bir 'Temizlik El Kitabı'dır ve genel ofis/bina temizliği ile bakım süreçlerini (zemin, halı, koltuk temizliği) anlatmaktadır. Bu içerik, tünel mühendisliği bağlamında doğrudan bir tünel yapısı veya tünel spesifik bir sistemle ilgili değildir. Ancak, verilen aday listesi arasında en yakın eşleşme, genel 'Bakım-Onarım ve İşletme' (5.4) ve alt başlık ol",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.4:0.5641 gap=0.002 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

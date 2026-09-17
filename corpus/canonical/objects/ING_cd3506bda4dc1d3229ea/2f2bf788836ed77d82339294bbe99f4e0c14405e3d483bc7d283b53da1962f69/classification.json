@@ -1,0 +1,120 @@
+{
+  "final_primary_section": "1",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.6919,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "HEAD0003",
+        "HEAD0004",
+        "HEAD0009",
+        "HEAD0010",
+        "HEAD0012"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0009",
+        "HEAD0010"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1",
+      "score": 0.6919,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7524,
+      "chunk_vote": 0.6
+    },
+    {
+      "id": "2",
+      "score": 0.5934,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7558,
+      "chunk_vote": 0.1
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3467,
+      "rule_score": 0.0,
+      "embedding_score": 0.7705,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3431,
+      "rule_score": 0.0,
+      "embedding_score": 0.7625,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3425,
+      "rule_score": 0.0,
+      "embedding_score": 0.761,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3415,
+      "rule_score": 0.0,
+      "embedding_score": 0.7588,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3414,
+      "rule_score": 0.0,
+      "embedding_score": 0.7586,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.338,
+      "rule_score": 0.0,
+      "embedding_score": 0.7512,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.1",
+      "score": 0.2433,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3
+    },
+    {
+      "id": "2.2",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, ITA'nın (Uluslararası Tünelciler Birliği) genel haberleri, ödüller, etkinlikler ve kurumsal duyurularını içermektedir. Bu tür genel tanıtıcı ve giriş niteliğindeki içerikler, teknik detaylardan ziyade konuya giriş ve bağlam oluşturma amacıyla 'GİRİŞ' bölümüne en uygun düşmektedir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:4",
+    "chunk_votes:3",
+    "embeddings:8",
+    "top=1:0.6919 gap=0.098 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

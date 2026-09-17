@@ -1,0 +1,145 @@
+{
+  "document_id": "ING_73bc881c51fe515b0f29",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_0E52F71DF58B82B15E9B",
+      "producer_document_id": "PC_73BC881C51FE515B",
+      "declared_sha256": "73bc881c51fe515b0f29e6d7de54d1c72a0c25757c35fe5c8eb798ec708ec61c",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_73BC881C51FE515B/source_raw.html",
+        "sha256": "73bc881c51fe515b0f29e6d7de54d1c72a0c25757c35fe5c8eb798ec708ec61c"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.38007/ijetc.2022.030101",
+        "landing_url": "https://doi.org/10.38007/ijetc.2022.030101",
+        "resolved_url": "http://scholar-press.com/papers/495",
+        "discovery_source": "crossref",
+        "discovery_query": "TBM highway tunnel construction",
+        "doi": "10.38007/ijetc.2022.030101",
+        "publisher": "International Journal of Engineering Technology and Construction"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.38007/ijetc.2022.030101",
+        "landing_url": "https://doi.org/10.38007/ijetc.2022.030101",
+        "resolved_url": "http://scholar-press.com/papers/495",
+        "discovery_source": "crossref",
+        "discovery_query": "TBM highway tunnel construction",
+        "doi": "10.38007/ijetc.2022.030101",
+        "publisher": "International Journal of Engineering Technology and Construction"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_73BC881C51FE515B",
+        "canonical_id": "CAN_0E52F71DF58B82B15E9B",
+        "canonical_hint_id": "CAN_0E52F71DF58B82B15E9B",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "International Journal of Engineering Technology and Construction",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "TBM Construction Tunnel Forward-to-cross-hole Radar Transmission Imaging Leading Potential Rockburst Geological Forecast Safety Monitoring System and Method",
+        "authors": [],
+        "year": "2022",
+        "doi": "10.38007/ijetc.2022.030101",
+        "source_url": "https://doi.org/10.38007/ijetc.2022.030101",
+        "landing_url": "https://doi.org/10.38007/ijetc.2022.030101",
+        "resolved_url": "http://scholar-press.com/papers/495",
+        "local_path": "01_originals/C_ACADEMIC/PC_73BC881C51FE515B/source_raw.html",
+        "sha256": "73bc881c51fe515b0f29e6d7de54d1c72a0c25757c35fe5c8eb798ec708ec61c",
+        "source_name": "crossref",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "WEB_SNAPSHOT_TEXT",
+        "evidence_level": "WEB_SNAPSHOT_TEXT",
+        "acquisition_status": "SNAPSHOTTED_WEB",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_73BC881C51FE515B/source_raw.html",
+          "original_or_raw_sha256": "73bc881c51fe515b0f29e6d7de54d1c72a0c25757c35fe5c8eb798ec708ec61c",
+          "crawler_normalized": "01_originals/C_ACADEMIC/PC_73BC881C51FE515B/source.md",
+          "crawler_normalized_sha256": "910769840f2c9a046546b226ca324158036c230291dde52331c994d4c8804d87",
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "TBM",
+          "geology",
+          "monitoring",
+          "alignment",
+          "EPB",
+          "ITS",
+          "cost_estimation",
+          "construction_management",
+          "excavation"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "International Journal of Engineering Technology and Construction",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "SNAPSHOTTED_WEB",
+          "source_path": "01_originals/C_ACADEMIC/PC_73BC881C51FE515B/source_raw.html",
+          "source_sha256": "73bc881c51fe515b0f29e6d7de54d1c72a0c25757c35fe5c8eb798ec708ec61c"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.38007/ijetc.2022.030101",
+          "landing_url": "https://doi.org/10.38007/ijetc.2022.030101",
+          "resolved_url": "http://scholar-press.com/papers/495",
+          "discovery_source": "crossref",
+          "discovery_query": "TBM highway tunnel construction",
+          "doi": "10.38007/ijetc.2022.030101",
+          "publisher": "International Journal of Engineering Technology and Construction"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source_raw.html",
+    "original_sha256": "73bc881c51fe515b0f29e6d7de54d1c72a0c25757c35fe5c8eb798ec708ec61c",
+    "mime_type": "text/html",
+    "format": "HTML"
+  }
+}

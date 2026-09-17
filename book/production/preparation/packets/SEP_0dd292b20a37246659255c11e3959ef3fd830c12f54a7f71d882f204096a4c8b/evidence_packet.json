@@ -1,0 +1,645 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_d55c2276daefbb9ec7253c43e81c73247df4dca9871ff7aaeb94aca916ffcbf5",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 19,
+    "SUPPORTED": 3,
+    "UNSUPPORTED": 28
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_0dd292b20a37246659255c11e3959ef3fd830c12f54a7f71d882f204096a4c8b",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.0,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım kavramının kapsamı ve temel amacı nedir?",
+      "question_id": "5.4.1-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_576b520a33738701b8b020a508937004e6d352156a6ae8badc4a5cb282645ee7",
+        "CLM_3aa65568eca8285e0a87186644007316418cd9e8a11a2d33b39dc88dcecaa141"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım tünel güvenliği açısından neden gereklidir?",
+      "question_id": "5.4.1-Q02",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım hizmet sürekliliği açısından neden gereklidir?",
+      "question_id": "5.4.1-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fbe13bd50c8f9324bc094f58918ce127428265a7e4d270e219b665129a172f73"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım kapsamında hangi yapısal bileşenler dikkate alınır?",
+      "question_id": "5.4.1-Q04",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_705e5ea24e030d29114c90a20762aabe9db9a03c71689899f9ec0764c929d1e9",
+        "CLM_69b9805c0a84265bb792c67f265c3220b950d60ac0f52587ae7695cb7808e124"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım kapsamında hangi elektrik sistemleri dikkate alınır?",
+      "question_id": "5.4.1-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fecb5b5a63522ba74ef427c5fd258179e8d0746251280a1721846b2de49e13e1"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım kapsamında hangi elektronik sistemler dikkate alınır?",
+      "question_id": "5.4.1-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_705e5ea24e030d29114c90a20762aabe9db9a03c71689899f9ec0764c929d1e9"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım kapsamında hangi elektromekanik sistemler dikkate alınır?",
+      "question_id": "5.4.1-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0d716d90b748f9c38c14467ff4dac1e35b16de37beadd57255979b58ebce5805",
+        "CLM_f7a6213079ee00fa9719b2cd32de0c0bf7a007b9cc85fd1b769754f3e8891f6c"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım kapsamında havalandırma sistemleri nasıl ele alınır?",
+      "question_id": "5.4.1-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0c98a825396f18f5f3d399732dd9a23778585d85c6c5553b58024649ff9703e0",
+        "CLM_dfba636dcf9531aa7a61cdb7b50bada4eac4c67aee6f9e3dabbca30f9e57c86d",
+        "CLM_222bb01eebd495ef0676a91fb6b325cb0b11a6c7d8607764fb9d8d7d95a52d0b"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Yapısal Bakım kapsamında aydınlatma sistemleri nasıl ele alınır?",
+      "question_id": "5.4.1-Q09",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5ef78ddd8dc8aab88eeb196dacfd036fbb959a4ad006e1490580bcf258bf8600",
+        "CLM_968ba4aa208f948a1ddafb36558bfc8a7914d61f4a49170f3b05236e8a83a8bb",
+        "CLM_10a287f992577d15e3ab8405d78b1a4c67120c7f35d3cc7648b328c56d742be8"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Yapısal Bakım kapsamında enerji dağıtım ve yedek güç sistemleri nasıl ele alınır?",
+      "question_id": "5.4.1-Q10",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3b859ddccf5c0144b981b5f826ee02ea96b087300d21242aca2b4ee094506f75",
+        "CLM_1945e68b10726161aee96cf6905857a10161c9a707ed8178bd1d470bcd0972a8",
+        "CLM_478472aa0d638ecd0249ce1963e6c9d500c14cd6ad7de7da5ec957acf33ece31",
+        "CLM_3566d4229d632f79ad6ca69ac7f6339c6ea26c0b0c8b04ffdae7fe794d5b2536"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Yapısal Bakım kapsamında yangın algılama ve söndürme sistemleri nasıl ele alınır?",
+      "question_id": "5.4.1-Q11",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_cd385a98c98248be33f196c13a8f56ae52e52bfc8dd67f5a121167da7359f6cd",
+        "CLM_503e2866131eb97b8adb0b3c52ca68572f4e7d4f3f07d1f92ef1bb37a82028b3"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım kapsamında kamera, haberleşme ve olay algılama sistemleri nasıl ele alınır?",
+      "question_id": "5.4.1-Q12",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_31769ed105e6a58506df62acdcf1ac43a250f13dd49188f4f134763bb71d3974",
+        "CLM_52e252af4fa54e1be8a6e24fb9484315fc5a49f1a9c6dcf55713cbefe5363557"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım kapsamında drenaj, pompa ve su yalıtımı sistemleri nasıl ele alınır?",
+      "question_id": "5.4.1-Q13",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_056fb7fd0d4798360a50ef8defe360de480bb68537a3b1b18d038b46d8a1c07b"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım kapsamında kaplama, derz ve yüzey bozulmaları nasıl izlenir?",
+      "question_id": "5.4.1-Q14",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7b4e05fe291c5c42197d2e94ee9708aed9ab2972e0e9c13ed49978a55ff86837"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım kapsamında portal ve yaklaşım bölgeleri nasıl ele alınır?",
+      "question_id": "5.4.1-Q15",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d569860345374b7b999cb6d432cec1bc45d39e34e088ef1359028eb2d280b766",
+        "CLM_78846f1251f520da4dfc24f90f322a4496aadc37ccd4b53ffdc7ad4bb401667e"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım için bakım türleri nasıl sınıflandırılır?",
+      "question_id": "5.4.1-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d569860345374b7b999cb6d432cec1bc45d39e34e088ef1359028eb2d280b766",
+        "CLM_7663586493bcd9d95452f99af40c42327b93640ce7c5a074f028642bcfe48868",
+        "CLM_bd306f638fb810c4e7e12970769ded826ef25c96fb5c3682c375f031197311e4"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım içinde rutin bakım ile periyodik bakım arasındaki fark nedir?",
+      "question_id": "5.4.1-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_06130553ba908908344d1958c5117d6ae7bde1d379fc96eb85c819748c9d5260"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım içinde önleyici bakım ile düzeltici bakım arasındaki fark nedir?",
+      "question_id": "5.4.1-Q18",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım içinde kestirimci bakım hangi verilerle uygulanabilir?",
+      "question_id": "5.4.1-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d569860345374b7b999cb6d432cec1bc45d39e34e088ef1359028eb2d280b766",
+        "CLM_7663586493bcd9d95452f99af40c42327b93640ce7c5a074f028642bcfe48868",
+        "CLM_bd306f638fb810c4e7e12970769ded826ef25c96fb5c3682c375f031197311e4"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım için bakım periyotları nasıl belirlenir?",
+      "question_id": "5.4.1-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3d448b4114fb988d0b1f9eff8fd308dc7063e48b9404da85aac1684d45cb1281",
+        "CLM_381af7804489d4883ad201ea2f2cecc3a8361174c4a90c99322a8d1bfe4ca8c4"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım için kritik ekipmanların önceliklendirilmesi nasıl yapılır?",
+      "question_id": "5.4.1-Q21",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b6e4e55761aa5dce5c9fa9724896ac856bde2f9199a3d174dc6025c1e6acce72",
+        "CLM_312fa31e1bf6d5157065254ce3213e9759665798e172da281ceddcea1c663c23"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım için arıza modları ve etkileri nasıl analiz edilir?",
+      "question_id": "5.4.1-Q22",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7160020b4f3fa2d03e6611118d38da97e6d55f23e7855595b86df38aca779378"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım için durum değerlendirme ve kondisyon puanlama sistemi nasıl kurulabilir?",
+      "question_id": "5.4.1-Q23",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bb2051d69cb2f17650ba3dd5b32601f6b27cabd4e413f14205195333870f7af9",
+        "CLM_2b956e87614e115207a582ae20899d02f9af3e02d22724299f651dcf5a58bdfb",
+        "CLM_7e6716290808b2a2f0904b4a07e0b4f89e4f2f3858bda0313703c9999cb7d5b0"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım için sensör ve uzaktan izleme verileri nasıl kullanılabilir?",
+      "question_id": "5.4.1-Q24",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_92a8676027aff0e4ee30f0a3f14e64da5d4625421ee08d7d9f817fc61be90202",
+        "CLM_7663586493bcd9d95452f99af40c42327b93640ce7c5a074f028642bcfe48868",
+        "CLM_24e52f34aad980b83aaae771e24c29664292320803cc79bf1a469caf4dc2b1b8"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yapısal Bakım için bakım kayıtlarında hangi bilgiler tutulmalıdır?",
+      "question_id": "5.4.1-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım için yedek parça yönetimi nasıl planlanmalıdır?",
+      "question_id": "5.4.1-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım için personel ve vardiya planlaması nasıl yapılmalıdır?",
+      "question_id": "5.4.1-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım için yüklenici ve hizmet alımı yönetimi nasıl yapılmalıdır?",
+      "question_id": "5.4.1-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım sırasında trafik güvenliği nasıl sağlanmalıdır?",
+      "question_id": "5.4.1-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım sırasında şerit veya tünel kapatma kararları nasıl verilmelidir?",
+      "question_id": "5.4.1-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım sırasında iş sağlığı ve güvenliği riskleri nasıl yönetilmelidir?",
+      "question_id": "5.4.1-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım için acil müdahale ile planlı bakım nasıl koordine edilmelidir?",
+      "question_id": "5.4.1-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım performansı hangi göstergelerle ölçülmelidir?",
+      "question_id": "5.4.1-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım kapsamında kullanılabilirlik ve arıza süresi nasıl izlenmelidir?",
+      "question_id": "5.4.1-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım kapsamında enerji tüketimi hangi göstergelerle izlenmelidir?",
+      "question_id": "5.4.1-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım kapsamında bakım maliyeti hangi göstergelerle izlenmelidir?",
+      "question_id": "5.4.1-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım kapsamında arızaların tekrarlanma oranı nasıl izlenmelidir?",
+      "question_id": "5.4.1-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım kapsamında güvenlik olayları ve ramak kala kayıtları nasıl kullanılmalıdır?",
+      "question_id": "5.4.1-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım için denetim ve kabul kriterleri nelerdir?",
+      "question_id": "5.4.1-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım için mevzuat, standart ve teknik şartname gereklilikleri nelerdir?",
+      "question_id": "5.4.1-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım için Karayolları Genel Müdürlüğü uygulamalarında hangi süreçler öne çıkar?",
+      "question_id": "5.4.1-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım için enerji verimliliği hangi teknik önlemlerle artırılabilir?",
+      "question_id": "5.4.1-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım için otomasyon ve akıllı kontrol sistemleri hangi faydaları sağlayabilir?",
+      "question_id": "5.4.1-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım için yaşam döngüsü maliyet yaklaşımı nasıl uygulanabilir?",
+      "question_id": "5.4.1-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım için bakım ertelemesinin teknik ve ekonomik sonuçları nelerdir?",
+      "question_id": "5.4.1-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım için yenileme veya modernizasyon kararı hangi kriterlerle verilmelidir?",
+      "question_id": "5.4.1-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım sürdürülebilirlik ve karbon ayak izi açısından nasıl geliştirilebilir?",
+      "question_id": "5.4.1-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım konusunda Türkiye’den hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "5.4.1-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım konusunda dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "5.4.1-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yapısal Bakım için optimum güvenlik, performans ve maliyet dengesi nasıl kurulabilir?",
+      "question_id": "5.4.1-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "5.4.1",
+  "section_title": "Yapısal Bakım",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_056fb7fd0d4798360a50ef8defe360de480bb68537a3b1b18d038b46d8a1c07b",
+      "CLM_06130553ba908908344d1958c5117d6ae7bde1d379fc96eb85c819748c9d5260",
+      "CLM_0c98a825396f18f5f3d399732dd9a23778585d85c6c5553b58024649ff9703e0",
+      "CLM_0d716d90b748f9c38c14467ff4dac1e35b16de37beadd57255979b58ebce5805",
+      "CLM_10a287f992577d15e3ab8405d78b1a4c67120c7f35d3cc7648b328c56d742be8",
+      "CLM_1945e68b10726161aee96cf6905857a10161c9a707ed8178bd1d470bcd0972a8",
+      "CLM_222bb01eebd495ef0676a91fb6b325cb0b11a6c7d8607764fb9d8d7d95a52d0b",
+      "CLM_24e52f34aad980b83aaae771e24c29664292320803cc79bf1a469caf4dc2b1b8",
+      "CLM_2b956e87614e115207a582ae20899d02f9af3e02d22724299f651dcf5a58bdfb",
+      "CLM_312fa31e1bf6d5157065254ce3213e9759665798e172da281ceddcea1c663c23",
+      "CLM_31769ed105e6a58506df62acdcf1ac43a250f13dd49188f4f134763bb71d3974",
+      "CLM_3566d4229d632f79ad6ca69ac7f6339c6ea26c0b0c8b04ffdae7fe794d5b2536",
+      "CLM_381af7804489d4883ad201ea2f2cecc3a8361174c4a90c99322a8d1bfe4ca8c4",
+      "CLM_3aa65568eca8285e0a87186644007316418cd9e8a11a2d33b39dc88dcecaa141",
+      "CLM_3b859ddccf5c0144b981b5f826ee02ea96b087300d21242aca2b4ee094506f75",
+      "CLM_3d448b4114fb988d0b1f9eff8fd308dc7063e48b9404da85aac1684d45cb1281",
+      "CLM_478472aa0d638ecd0249ce1963e6c9d500c14cd6ad7de7da5ec957acf33ece31",
+      "CLM_503e2866131eb97b8adb0b3c52ca68572f4e7d4f3f07d1f92ef1bb37a82028b3",
+      "CLM_52e252af4fa54e1be8a6e24fb9484315fc5a49f1a9c6dcf55713cbefe5363557",
+      "CLM_576b520a33738701b8b020a508937004e6d352156a6ae8badc4a5cb282645ee7",
+      "CLM_5ef78ddd8dc8aab88eeb196dacfd036fbb959a4ad006e1490580bcf258bf8600",
+      "CLM_69b9805c0a84265bb792c67f265c3220b950d60ac0f52587ae7695cb7808e124",
+      "CLM_705e5ea24e030d29114c90a20762aabe9db9a03c71689899f9ec0764c929d1e9",
+      "CLM_7160020b4f3fa2d03e6611118d38da97e6d55f23e7855595b86df38aca779378",
+      "CLM_7663586493bcd9d95452f99af40c42327b93640ce7c5a074f028642bcfe48868",
+      "CLM_78846f1251f520da4dfc24f90f322a4496aadc37ccd4b53ffdc7ad4bb401667e",
+      "CLM_7b4e05fe291c5c42197d2e94ee9708aed9ab2972e0e9c13ed49978a55ff86837",
+      "CLM_7e6716290808b2a2f0904b4a07e0b4f89e4f2f3858bda0313703c9999cb7d5b0",
+      "CLM_92a8676027aff0e4ee30f0a3f14e64da5d4625421ee08d7d9f817fc61be90202",
+      "CLM_968ba4aa208f948a1ddafb36558bfc8a7914d61f4a49170f3b05236e8a83a8bb",
+      "CLM_b6e4e55761aa5dce5c9fa9724896ac856bde2f9199a3d174dc6025c1e6acce72",
+      "CLM_bb2051d69cb2f17650ba3dd5b32601f6b27cabd4e413f14205195333870f7af9",
+      "CLM_bd306f638fb810c4e7e12970769ded826ef25c96fb5c3682c375f031197311e4",
+      "CLM_cd385a98c98248be33f196c13a8f56ae52e52bfc8dd67f5a121167da7359f6cd",
+      "CLM_d569860345374b7b999cb6d432cec1bc45d39e34e088ef1359028eb2d280b766",
+      "CLM_dfba636dcf9531aa7a61cdb7b50bada4eac4c67aee6f9e3dabbca30f9e57c86d",
+      "CLM_f7a6213079ee00fa9719b2cd32de0c0bf7a007b9cc85fd1b769754f3e8891f6c",
+      "CLM_fbe13bd50c8f9324bc094f58918ce127428265a7e4d270e219b665129a172f73",
+      "CLM_fecb5b5a63522ba74ef427c5fd258179e8d0746251280a1721846b2de49e13e1"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "5.4.1-Q02",
+      "5.4.1-Q04",
+      "5.4.1-Q05",
+      "5.4.1-Q06",
+      "5.4.1-Q07",
+      "5.4.1-Q08",
+      "5.4.1-Q12",
+      "5.4.1-Q13",
+      "5.4.1-Q14",
+      "5.4.1-Q15",
+      "5.4.1-Q16",
+      "5.4.1-Q17",
+      "5.4.1-Q18",
+      "5.4.1-Q20",
+      "5.4.1-Q21",
+      "5.4.1-Q22",
+      "5.4.1-Q23",
+      "5.4.1-Q24",
+      "5.4.1-Q25"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "5.4.1-Q01",
+      "5.4.1-Q03",
+      "5.4.1-Q19",
+      "5.4.1-Q26",
+      "5.4.1-Q27",
+      "5.4.1-Q28",
+      "5.4.1-Q29",
+      "5.4.1-Q30",
+      "5.4.1-Q31",
+      "5.4.1-Q32",
+      "5.4.1-Q33",
+      "5.4.1-Q34",
+      "5.4.1-Q35",
+      "5.4.1-Q36",
+      "5.4.1-Q37",
+      "5.4.1-Q38",
+      "5.4.1-Q39",
+      "5.4.1-Q40",
+      "5.4.1-Q41",
+      "5.4.1-Q42",
+      "5.4.1-Q43",
+      "5.4.1-Q44",
+      "5.4.1-Q45",
+      "5.4.1-Q46",
+      "5.4.1-Q47",
+      "5.4.1-Q48",
+      "5.4.1-Q49",
+      "5.4.1-Q50"
+    ]
+  }
+}

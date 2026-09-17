@@ -1,0 +1,146 @@
+{
+  "final_primary_section": "2.4.1",
+  "final_secondary_sections": [
+    "2.2.1",
+    "2"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": [
+        "HEAD0010",
+        "LIST0024",
+        "PARA0011",
+        "LIST0047"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0004",
+        "HEAD0009",
+        "HEAD0010",
+        "LIST0022",
+        "LIST0023",
+        "PARA0009",
+        "LIST0024",
+        "PARA0011",
+        "LIST0029",
+        "PARA0017",
+        "LIST0047"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0004",
+        "HEAD0008",
+        "HEAD0010",
+        "LIST0023",
+        "PARA0009",
+        "LIST0028",
+        "PARA0016",
+        "LIST0034",
+        "PARA0024",
+        "LIST0046",
+        "LIST0076"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2.1",
+      "score": 0.7259,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8021,
+      "chunk_vote": 0.0471
+    },
+    {
+      "id": "2",
+      "score": 0.6993,
+      "rule_score": 0.5,
+      "embedding_score": 0.7885,
+      "chunk_vote": 0.0976
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3824,
+      "rule_score": 0.0,
+      "embedding_score": 0.8042,
+      "chunk_vote": 0.1025
+    },
+    {
+      "id": "6.2.1",
+      "score": 0.3649,
+      "rule_score": 0.0,
+      "embedding_score": 0.7913,
+      "chunk_vote": 0.0439
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3582,
+      "rule_score": 0.0,
+      "embedding_score": 0.7959,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3567,
+      "rule_score": 0.0,
+      "embedding_score": 0.7926,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.356,
+      "rule_score": 0.0,
+      "embedding_score": 0.7912,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3543,
+      "rule_score": 0.0,
+      "embedding_score": 0.7873,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.3288,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1161
+    },
+    {
+      "id": "1",
+      "score": 0.2987,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3147
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Meram demiryolu tüneli boyunca yapılan jeolojik ve jeoteknik incelemeleri, kaya mekaniği testlerini ve RMR/Q/NATM sınıflandırmalarını detaylı olarak sunmaktadır. Bu içerik doğrudan 'Jeolojik ve Geoteknik İncelemeler' başlığıyla eşleşmektedir. Ayrıca tünelin kayaç zeminde açılması nedeniyle 'Kayaç Zeminde Açılan Tüneller' ikincil bölüm olarak değerlendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:11",
+    "embeddings:8",
+    "top=2.2.1:0.7259 gap=0.027 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

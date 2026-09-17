@@ -1,0 +1,119 @@
+{
+  "final_primary_section": "1.5",
+  "final_secondary_sections": [
+    "2.4.1.3"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.5",
+      "section_title": "Tünel Felaketleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "LIST0034",
+        "LIST0041",
+        "LIST0042"
+      ]
+    },
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": [
+        "LIST0034"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1.5",
+      "score": 0.4449,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5747
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3565,
+      "rule_score": 0.0,
+      "embedding_score": 0.7922,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3557,
+      "rule_score": 0.0,
+      "embedding_score": 0.7905,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3552,
+      "rule_score": 0.0,
+      "embedding_score": 0.7894,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3548,
+      "rule_score": 0.0,
+      "embedding_score": 0.7885,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3534,
+      "rule_score": 0.0,
+      "embedding_score": 0.7854,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3533,
+      "rule_score": 0.0,
+      "embedding_score": 0.785,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.3483,
+      "rule_score": 0.0,
+      "embedding_score": 0.7739,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3481,
+      "rule_score": 0.0,
+      "embedding_score": 0.7736,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3251,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0977
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, otoyol tünellerindeki yangınların önlenmesi, kontrolü, tahliye ve hayatta kalma konularını ele aldığı için doğrudan 'Tünel Felaketleri' (1.5) bölümüne aittir. Ayrıca yangın sonrası müdahale, havalandırma ve işletme önerileri içerdiği için 'Kullanım Aşaması Çalışmaları' (2.4.1.3) ile de ilişkilidir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:4",
+    "embeddings:8",
+    "top=1.5:0.4449 gap=0.088 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

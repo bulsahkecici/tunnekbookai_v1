@@ -1,0 +1,163 @@
+{
+  "final_primary_section": "1.5",
+  "final_secondary_sections": [
+    "5.4"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.5",
+      "section_title": "Tünel Felaketleri",
+      "supporting_elements": [
+        "PARA0003",
+        "LIST0015",
+        "LIST0028",
+        "LIST0029",
+        "LIST0031",
+        "FIG0018",
+        "HEAD0036",
+        "PARA0019",
+        "PARA0022",
+        "PARA0023",
+        "PARA0025",
+        "HEAD0047",
+        "FIG0035",
+        "PARA0026",
+        "PARA0027",
+        "HEAD0049",
+        "FIG0039",
+        "PARA0028",
+        "LIST0046",
+        "FIG0048",
+        "PARA0042",
+        "PARA0066",
+        "PARA0069",
+        "LIST0070",
+        "LIST0071"
+      ]
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "PARA0007",
+        "LIST0021",
+        "LIST0023",
+        "FIG0009",
+        "PARA0008",
+        "PARA0009",
+        "HEAD0019",
+        "PARA0011",
+        "FIG0013",
+        "LIST0031",
+        "LIST0038",
+        "FIG0018",
+        "HEAD0050",
+        "LIST0045",
+        "HEAD0052",
+        "HEAD0054",
+        "HEAD0083",
+        "LIST0075",
+        "LIST0078",
+        "FIG0101",
+        "LIST0092",
+        "PARA0085",
+        "FIG0106",
+        "LIST0240",
+        "PARA0178"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1.5",
+      "score": 0.808,
+      "rule_score": 0.7143,
+      "embedding_score": 0.7842,
+      "chunk_vote": 0.0614
+    },
+    {
+      "id": "5.4",
+      "score": 0.7221,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8014,
+      "chunk_vote": 0.0294
+    },
+    {
+      "id": "5.6",
+      "score": 0.4244,
+      "rule_score": 0.6923,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2183
+    },
+    {
+      "id": "1",
+      "score": 0.4151,
+      "rule_score": 0.0,
+      "embedding_score": 0.7916,
+      "chunk_vote": 0.2944
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.369,
+      "rule_score": 0.0,
+      "embedding_score": 0.82,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.363,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0648
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3618,
+      "rule_score": 0.0,
+      "embedding_score": 0.8013,
+      "chunk_vote": 0.0059
+    },
+    {
+      "id": "2",
+      "score": 0.3589,
+      "rule_score": 0.0,
+      "embedding_score": 0.7975,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.2",
+      "score": 0.3576,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0378
+    },
+    {
+      "id": "5.1",
+      "score": 0.3565,
+      "rule_score": 0.0,
+      "embedding_score": 0.7923,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, 2004/54/EC direktifinin tünel sınıflandırması, acil durum prosedürleri, kaçış yolları ve güvenlik gereksinimleri gibi konuları ele alarak tünel güvenliği ve olası felaketlerin önlenmesine odaklanmaktadır. Bu içerik, 'Tünel Felaketleri' bölümünün kapsamına (güvenlik, acil durum, sınıflandırma) en uygun düşmektedir. Ayrıca, tünel yöneticisinin günlük operasyon ve bakım sorumlulukları nedeniyl",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=1.5:0.808 gap=0.086 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,149 @@
+{
+  "document_id": "ING_ebe8c8ea930859c764d6",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_DA818924199372AD183A",
+      "producer_document_id": "PC_EBE8C8EA930859C7",
+      "declared_sha256": "ebe8c8ea930859c764d69b21e7d6fecc605b99f5e9cd57e61a225b90fa41e024",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_EBE8C8EA930859C7/source_raw.html",
+        "sha256": "ebe8c8ea930859c764d69b21e7d6fecc605b99f5e9cd57e61a225b90fa41e024"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.29137/umagd.473926",
+        "landing_url": "https://doi.org/10.29137/umagd.473926",
+        "resolved_url": "https://dergipark.org.tr/en/pub/umagd/article/473926",
+        "discovery_source": "crossref",
+        "discovery_query": "tunnel electromechanical systems maintenance",
+        "doi": "10.29137/umagd.473926",
+        "publisher": "Uluslararası Muhendislik Arastirma ve Gelistirme Dergisi"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.29137/umagd.473926",
+        "landing_url": "https://doi.org/10.29137/umagd.473926",
+        "resolved_url": "https://dergipark.org.tr/en/pub/umagd/article/473926",
+        "discovery_source": "crossref",
+        "discovery_query": "tunnel electromechanical systems maintenance",
+        "doi": "10.29137/umagd.473926",
+        "publisher": "Uluslararası Muhendislik Arastirma ve Gelistirme Dergisi"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_EBE8C8EA930859C7",
+        "canonical_id": "CAN_DA818924199372AD183A",
+        "canonical_hint_id": "CAN_DA818924199372AD183A",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "Uluslararası Muhendislik Arastirma ve Gelistirme Dergisi",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Detection of Luminance Level Tolerance in Tunnel Lighting Systems by Maintenance Factor",
+        "authors": [
+          "Mehmet Sait CENGIZ"
+        ],
+        "year": "2019",
+        "doi": "10.29137/umagd.473926",
+        "source_url": "https://doi.org/10.29137/umagd.473926",
+        "landing_url": "https://doi.org/10.29137/umagd.473926",
+        "resolved_url": "https://dergipark.org.tr/en/pub/umagd/article/473926",
+        "local_path": "01_originals/C_ACADEMIC/PC_EBE8C8EA930859C7/source_raw.html",
+        "sha256": "ebe8c8ea930859c764d69b21e7d6fecc605b99f5e9cd57e61a225b90fa41e024",
+        "source_name": "crossref",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "WEB_SNAPSHOT_TEXT",
+        "evidence_level": "WEB_SNAPSHOT_TEXT",
+        "acquisition_status": "SNAPSHOTTED_WEB",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_EBE8C8EA930859C7/source_raw.html",
+          "original_or_raw_sha256": "ebe8c8ea930859c764d69b21e7d6fecc605b99f5e9cd57e61a225b90fa41e024",
+          "crawler_normalized": "01_originals/C_ACADEMIC/PC_EBE8C8EA930859C7/source.md",
+          "crawler_normalized_sha256": "aafa8e02bb84621f9b68010c772b719caee4e2762f2ad2f7abd11c909e4e248d",
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "road_tunnel",
+          "energy_efficiency",
+          "lighting",
+          "Turkey",
+          "maintenance",
+          "maintenance_cost",
+          "periodic_maintenance",
+          "inspection",
+          "monitoring",
+          "structural_maintenance",
+          "electromechanical_maintenance"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "Uluslararası Muhendislik Arastirma ve Gelistirme Dergisi",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "SNAPSHOTTED_WEB",
+          "source_path": "01_originals/C_ACADEMIC/PC_EBE8C8EA930859C7/source_raw.html",
+          "source_sha256": "ebe8c8ea930859c764d69b21e7d6fecc605b99f5e9cd57e61a225b90fa41e024"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.29137/umagd.473926",
+          "landing_url": "https://doi.org/10.29137/umagd.473926",
+          "resolved_url": "https://dergipark.org.tr/en/pub/umagd/article/473926",
+          "discovery_source": "crossref",
+          "discovery_query": "tunnel electromechanical systems maintenance",
+          "doi": "10.29137/umagd.473926",
+          "publisher": "Uluslararası Muhendislik Arastirma ve Gelistirme Dergisi"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source_raw.html",
+    "original_sha256": "ebe8c8ea930859c764d69b21e7d6fecc605b99f5e9cd57e61a225b90fa41e024",
+    "mime_type": "text/html",
+    "format": "HTML"
+  }
+}

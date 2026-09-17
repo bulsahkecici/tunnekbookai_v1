@@ -1,0 +1,114 @@
+{
+  "final_primary_section": "2.4.2.1",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.6886,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0005",
+        "LIST0006",
+        "HEAD0003",
+        "LIST0012",
+        "LIST0013",
+        "LIST0014",
+        "LIST0015",
+        "HEAD0004",
+        "LIST0034"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.2.1",
+      "score": 0.6886,
+      "rule_score": 0.5,
+      "embedding_score": 0.756,
+      "chunk_vote": 0.1172
+    },
+    {
+      "id": "2.3",
+      "score": 0.3427,
+      "rule_score": 0.0,
+      "embedding_score": 0.7615,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.341,
+      "rule_score": 0.0,
+      "embedding_score": 0.7578,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3396,
+      "rule_score": 0.0,
+      "embedding_score": 0.7546,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3393,
+      "rule_score": 0.0,
+      "embedding_score": 0.754,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6",
+      "score": 0.3377,
+      "rule_score": 0.0,
+      "embedding_score": 0.7505,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.3375,
+      "rule_score": 0.0,
+      "embedding_score": 0.75,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3369,
+      "rule_score": 0.0,
+      "embedding_score": 0.7487,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.3141,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1953
+    },
+    {
+      "id": "4.1",
+      "score": 0.2623,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1328
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:11",
+    "embeddings:8",
+    "top=2.4.2.1:0.6886 gap=0.346 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,90 @@
+{
+  "document_id": "ING_8cd77050797aeb27474a",
+  "fields": [
+    {
+      "field": "title",
+      "value": "ANAMUR T3 TÜNELİ ÇIKIŞ KESİMİ",
+      "source": "ooxml_properties",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": "27",
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Kontrollü document type vocabulary için yeterli içerik kanıtı bulunamadı"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "drainage",
+        "excavation",
+        "final_lining",
+        "forepoling",
+        "geology",
+        "injection",
+        "jet_grouting",
+        "portal",
+        "rock_bolt",
+        "shotcrete",
+        "steel_rib",
+        "support_systems"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geology:jeoloji; excavation:kazı; shotcrete:püskürtme beton; steel_rib:çelik iksa; rock_bolt:kaya bulonu; forepoling:süren; support_systems:destek sistem; jet_grouting:jetgrout; injection:enjeksiyon; drainage:drenaj; final_lining:nihai kaplama; portal:portal"
+    }
+  ]
+}

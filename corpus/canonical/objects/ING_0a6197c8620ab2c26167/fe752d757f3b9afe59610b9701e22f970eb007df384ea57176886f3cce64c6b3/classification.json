@@ -1,0 +1,106 @@
+{
+  "final_primary_section": "2.4",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4",
+      "section_title": "Tünellerin Projelendirilmesi",
+      "supporting_elements": [
+        "HEAD0001"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4",
+      "score": 0.3753,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3488
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3729,
+      "rule_score": 0.0,
+      "embedding_score": 0.8287,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3692,
+      "rule_score": 0.0,
+      "embedding_score": 0.8204,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3679,
+      "rule_score": 0.0,
+      "embedding_score": 0.8175,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3663,
+      "rule_score": 0.0,
+      "embedding_score": 0.8141,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3656,
+      "rule_score": 0.0,
+      "embedding_score": 0.8125,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.3643,
+      "rule_score": 0.0,
+      "embedding_score": 0.8096,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3623,
+      "rule_score": 0.0,
+      "embedding_score": 0.8051,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.362,
+      "rule_score": 0.0,
+      "embedding_score": 0.8044,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.3021,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1357
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, inşaat maliyeti ve tünel stabilitesini dikkate alan optimum tünel tasarımı üzerine bir akademik makaledir. Bu içerik, tünel projelendirme ve tasarım ilkeleriyle doğrudan ilişkili olduğundan 'Tünellerin Projelendirilmesi' bölümüne en uygun düşmektedir. Diğer adaylar (literatür taraması, bakım maliyetleri vb.) belgenin ana konusu olan tasarım optimizasyonuyla örtüşmemektedir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:3",
+    "embeddings:8",
+    "top=2.4:0.3753 gap=0.002 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

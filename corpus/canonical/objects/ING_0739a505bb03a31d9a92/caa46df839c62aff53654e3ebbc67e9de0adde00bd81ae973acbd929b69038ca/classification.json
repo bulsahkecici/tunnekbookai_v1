@@ -1,0 +1,116 @@
+{
+  "final_primary_section": "2.4.2.2",
+  "final_secondary_sections": [
+    "2.1.2",
+    "2.4"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.2.2",
+      "section_title": "Boykesit Belirlemede Dikkat Edilecek Hususlar",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.4",
+      "section_title": "Tünellerin Projelendirilmesi",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.3",
+      "score": 0.3528,
+      "rule_score": 0.0,
+      "embedding_score": 0.7839,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3513,
+      "rule_score": 0.0,
+      "embedding_score": 0.7806,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.35,
+      "rule_score": 0.0,
+      "embedding_score": 0.7777,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3487,
+      "rule_score": 0.0,
+      "embedding_score": 0.7749,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3458,
+      "rule_score": 0.0,
+      "embedding_score": 0.7684,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3448,
+      "rule_score": 0.0,
+      "embedding_score": 0.7663,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3443,
+      "rule_score": 0.0,
+      "embedding_score": 0.7652,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3431,
+      "rule_score": 0.0,
+      "embedding_score": 0.7625,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, 'Taban Kemerli Tünel Tip Kesiti' başlıklı bir teknik çizimdir. Bu çizim, tünellerin projelendirilmesi aşamasında kesit boyutları, drenaj sistemleri, kaplama kalınlıkları ve gabari (kullanım çizgisi) gibi geometrik ve yapısal detayları içermektedir. Bu nedenle, kesit belirleme ve projelendirme esaslarıyla doğrudan ilişkili olan 'Boykesit Belirlemede Dikkat Edilecek Hususlar' (2.4.2.2) birinc",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:7",
+    "chunk_votes:0",
+    "embeddings:8",
+    "top=2.4.3:0.3528 gap=0.002 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

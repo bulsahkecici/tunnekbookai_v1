@@ -1,0 +1,104 @@
+{
+  "final_primary_section": "1",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.58,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1",
+      "score": 0.58,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7703,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.532,
+      "rule_score": 0.2,
+      "embedding_score": 0.7631,
+      "chunk_vote": 0.1429
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3454,
+      "rule_score": 0.0,
+      "embedding_score": 0.7676,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3452,
+      "rule_score": 0.0,
+      "embedding_score": 0.7671,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3448,
+      "rule_score": 0.0,
+      "embedding_score": 0.7662,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3448,
+      "rule_score": 0.0,
+      "embedding_score": 0.7662,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.3442,
+      "rule_score": 0.0,
+      "embedding_score": 0.7648,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.3442,
+      "rule_score": 0.0,
+      "embedding_score": 0.7648,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.2814,
+      "rule_score": 0.2,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.8571
+    },
+    {
+      "id": "1.1",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge içeriği, tünel mühendisliği ile ilgili teknik bir çalışma değil; COAR tarafından yayınlanan 'Access Rights' (Erişim Hakları) kontrol sözlüğünün teknik metadata ve çeviri bilgilerini içermektedir. Başlıkta 'Construction of tunnel Bôrik' geçse de gövde metni tamamen dijital arşiv erişim hakları terminolojisine aittir. Verilen aday bölümler arasında bu içeriği doğrudan karşılayan bir teknik böl",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:4",
+    "chunk_votes:4",
+    "embeddings:8",
+    "top=1:0.58 gap=0.048 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

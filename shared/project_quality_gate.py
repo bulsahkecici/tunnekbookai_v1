@@ -11,9 +11,11 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 
 SUPPORTED_SCRIPTS = {
+    "corpus_search_smoke.py",
     "ingest_incoming.py",
     "probe_models.py",
     "promote_staging.py",
+    "retrieval_benchmark.py",
     "reset_legacy_state.py",
 }
 

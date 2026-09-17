@@ -1,0 +1,40 @@
+{
+  "audit_id": "PEA_76b014056c7736f3d385bbd6b98ca998e4ff6c79b98c879c13dc6d651ab2a199",
+  "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+  "contract_version": "prewriting-evidence-audit-v1",
+  "counts": {
+    "PARTIAL": 0,
+    "SUPPORTED": 0,
+    "UNSUPPORTED": 50
+  },
+  "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+  "llm_model_id": "qwen/qwen3.8-27b",
+  "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+  "prompt_version": "qwen-prewriting-evidence-v1",
+  "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+  "question_count": 2950,
+  "questions_audited": 50,
+  "results_path": null,
+  "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+  "schema_version": "1.0",
+  "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+  "section_count": 59,
+  "sections": [
+    {
+      "partial": 0,
+      "preferred_target_met": false,
+      "readiness": "EVIDENCE_GAP",
+      "section_id": "7.2",
+      "section_title": "Tünel Yapım Maliyetleri",
+      "supported": 0,
+      "supported_ratio": 0.0,
+      "total": 50,
+      "unsupported": 50
+    }
+  ],
+  "sections_audited": 1,
+  "software_version": "prewriting-evidence-audit-v1",
+  "status": "IN_PROGRESS",
+  "top_k": 4,
+  "updated_at": "2026-09-16T08:55:07+00:00"
+}

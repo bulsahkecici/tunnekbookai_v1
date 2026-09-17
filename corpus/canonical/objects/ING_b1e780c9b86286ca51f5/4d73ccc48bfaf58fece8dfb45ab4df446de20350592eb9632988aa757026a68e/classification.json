@@ -1,0 +1,118 @@
+{
+  "final_primary_section": "5.5.1",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.672,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.5.1",
+      "section_title": "Yönetim ve İşletme Maliyetleri",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0006",
+        "PARA0013",
+        "PARA0042",
+        "PARA0046",
+        "FIG0001",
+        "CAPT0002",
+        "PARA0097",
+        "LIST0100",
+        "PARA0167",
+        "LIST0173",
+        "LIST0177",
+        "LIST0178",
+        "LIST0181"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.5.1",
+      "score": 0.672,
+      "rule_score": 0.5,
+      "embedding_score": 0.764,
+      "chunk_vote": 0.0161
+    },
+    {
+      "id": "5",
+      "score": 0.3917,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2086
+    },
+    {
+      "id": "2.3",
+      "score": 0.3741,
+      "rule_score": 0.0,
+      "embedding_score": 0.7741,
+      "chunk_vote": 0.1287
+    },
+    {
+      "id": "6.1",
+      "score": 0.3671,
+      "rule_score": 0.0,
+      "embedding_score": 0.8073,
+      "chunk_vote": 0.0193
+    },
+    {
+      "id": "5.6",
+      "score": 0.3587,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1437
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3536,
+      "rule_score": 0.0,
+      "embedding_score": 0.7858,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.352,
+      "rule_score": 0.0,
+      "embedding_score": 0.7679,
+      "chunk_vote": 0.0322
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.3492,
+      "rule_score": 0.0,
+      "embedding_score": 0.7759,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6",
+      "score": 0.3491,
+      "rule_score": 0.0,
+      "embedding_score": 0.7758,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7",
+      "score": 0.3447,
+      "rule_score": 0.0,
+      "embedding_score": 0.766,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.5.1:0.672 gap=0.280 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,139 @@
+{
+  "document_id": "ING_53757f70f7d590b68719",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_B42CE80901DEB5907034",
+      "producer_document_id": "PC_53757F70F7D590B6",
+      "declared_sha256": "53757f70f7d590b68719af293e6dd63f2dff00e3e8bc66a715341cda689967ba",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/A_OFFICIAL/PC_53757F70F7D590B6/source_raw.html",
+        "sha256": "53757f70f7d590b68719af293e6dd63f2dff00e3e8bc66a715341cda689967ba"
+      },
+      "provenance": {
+        "source_url": "https://www.vegvesen.no/om-oss/presse/aktuelt/nasjonalt/15-milliarder-er-brukt-pa-forbedring-av-tunneler-pa-riksveiene/",
+        "landing_url": "https://www.vegvesen.no/om-oss/presse/aktuelt/nasjonalt/15-milliarder-er-brukt-pa-forbedring-av-tunneler-pa-riksveiene/",
+        "resolved_url": "https://www.vegvesen.no/om-oss/presse/aktuelt/nasjonalt/15-milliarder-er-brukt-pa-forbedring-av-tunneler-pa-riksveiene/",
+        "discovery_source": "sitemap:STATENS_VEGVESEN",
+        "publisher": "Statens vegvesen"
+      },
+      "producer_provenance": {
+        "source_url": "https://www.vegvesen.no/om-oss/presse/aktuelt/nasjonalt/15-milliarder-er-brukt-pa-forbedring-av-tunneler-pa-riksveiene/",
+        "landing_url": "https://www.vegvesen.no/om-oss/presse/aktuelt/nasjonalt/15-milliarder-er-brukt-pa-forbedring-av-tunneler-pa-riksveiene/",
+        "resolved_url": "https://www.vegvesen.no/om-oss/presse/aktuelt/nasjonalt/15-milliarder-er-brukt-pa-forbedring-av-tunneler-pa-riksveiene/",
+        "discovery_source": "sitemap:STATENS_VEGVESEN",
+        "publisher": "Statens vegvesen"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_53757F70F7D590B6",
+        "canonical_id": "CAN_B42CE80901DEB5907034",
+        "canonical_hint_id": "CAN_B42CE80901DEB5907034",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "Statens vegvesen",
+          "country": "Norway",
+          "institution_type": "ROAD_AUTHORITY",
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "15-milliarder-er-brukt-pa-forbedring-av-tunneler-pa-riksveiene",
+        "authors": [],
+        "year": null,
+        "doi": null,
+        "source_url": "https://www.vegvesen.no/om-oss/presse/aktuelt/nasjonalt/15-milliarder-er-brukt-pa-forbedring-av-tunneler-pa-riksveiene/",
+        "landing_url": "https://www.vegvesen.no/om-oss/presse/aktuelt/nasjonalt/15-milliarder-er-brukt-pa-forbedring-av-tunneler-pa-riksveiene/",
+        "resolved_url": "https://www.vegvesen.no/om-oss/presse/aktuelt/nasjonalt/15-milliarder-er-brukt-pa-forbedring-av-tunneler-pa-riksveiene/",
+        "local_path": "01_originals/A_OFFICIAL/PC_53757F70F7D590B6/source_raw.html",
+        "sha256": "53757f70f7d590b68719af293e6dd63f2dff00e3e8bc66a715341cda689967ba",
+        "source_name": "sitemap:STATENS_VEGVESEN",
+        "publisher_code": "STATENS_VEGVESEN",
+        "route_path": "A_OFFICIAL",
+        "crawler_evidence_level": "TITLE_METADATA_ONLY",
+        "evidence_level": "TITLE_METADATA_ONLY",
+        "acquisition_status": "SNAPSHOTTED_WEB",
+        "source_representation": {
+          "original_or_raw": "01_originals/A_OFFICIAL/PC_53757F70F7D590B6/source_raw.html",
+          "original_or_raw_sha256": "53757f70f7d590b68719af293e6dd63f2dff00e3e8bc66a715341cda689967ba",
+          "crawler_normalized": "01_originals/A_OFFICIAL/PC_53757F70F7D590B6/source.md",
+          "crawler_normalized_sha256": "97aa95a40287e9ed210018baf586039b8a0a7f3a4ef2cf2e4017fabb9fb3ce94",
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "news",
+        "provisional_source_tier": "TIER_A",
+        "provisional_authority_tier": "A2",
+        "provisional_classification_status": "LLM_ACCEPTED",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "NEWS",
+        "source_class": "ROAD_AUTHORITY",
+        "authority_tier": "A2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "KGM",
+          "asset_management",
+          "construction_cost",
+          "cost_estimation",
+          "rail_tunnel",
+          "rehabilitation",
+          "road_safety",
+          "road_tunnel",
+          "traffic_management"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "Statens vegvesen",
+          "country": "Norway",
+          "institution_type": "ROAD_AUTHORITY",
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "SNAPSHOTTED_WEB",
+          "source_path": "01_originals/A_OFFICIAL/PC_53757F70F7D590B6/source_raw.html",
+          "source_sha256": "53757f70f7d590b68719af293e6dd63f2dff00e3e8bc66a715341cda689967ba"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://www.vegvesen.no/om-oss/presse/aktuelt/nasjonalt/15-milliarder-er-brukt-pa-forbedring-av-tunneler-pa-riksveiene/",
+          "landing_url": "https://www.vegvesen.no/om-oss/presse/aktuelt/nasjonalt/15-milliarder-er-brukt-pa-forbedring-av-tunneler-pa-riksveiene/",
+          "resolved_url": "https://www.vegvesen.no/om-oss/presse/aktuelt/nasjonalt/15-milliarder-er-brukt-pa-forbedring-av-tunneler-pa-riksveiene/",
+          "discovery_source": "sitemap:STATENS_VEGVESEN",
+          "publisher": "Statens vegvesen"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source_raw.html",
+    "original_sha256": "53757f70f7d590b68719af293e6dd63f2dff00e3e8bc66a715341cda689967ba",
+    "mime_type": "text/html",
+    "format": "HTML"
+  }
+}

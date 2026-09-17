@@ -1,0 +1,696 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_d3c42712e92c313237cee5de06dc340e58eac8045627316cd72629d3326ee7b4",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 18,
+    "SUPPORTED": 12,
+    "UNSUPPORTED": 20
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_c66465b4acc9b116736e5129857957cf620c0696667300bd42ba0282dbd7e62b",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları nedir ve tünel mühendisliğindeki temel işlevi nedir?",
+      "question_id": "2.1-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları hangi mühendislik problemini çözmeyi amaçlar?",
+      "question_id": "2.1-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5819876105e067d951d7e08000d83d332972b8ade1a538074732e95a6c998f3d",
+        "CLM_b7723ba6ef8c3b7cbbe5a05f003e6b491fd6bc8d654c7a6d3170444b26b1a7fa"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları için temel tasarım girdileri nelerdir?",
+      "question_id": "2.1-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8e17225f6af316eb41101f015d1a42b7d3de570661e0358d415afdb308b89b33",
+        "CLM_fb0bfbcec12641795f84c2dc12e2c1cfd979cc349c36326430476b1c045b2a8b",
+        "CLM_c57944ca73e03e646eb15d2cac0932a1be5fafa48074c07653635810ffb7cce1"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları için jeolojik girdiler nelerdir?",
+      "question_id": "2.1-Q04",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c6135a06bd70e40d553ab8e7e46af242238ee172636bac925895a4a155c1617e",
+        "CLM_fb0bfbcec12641795f84c2dc12e2c1cfd979cc349c36326430476b1c045b2a8b"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları için geoteknik girdiler nelerdir?",
+      "question_id": "2.1-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları için hidrojeolojik girdiler nelerdir?",
+      "question_id": "2.1-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları için topoğrafik ve geometrik girdiler nelerdir?",
+      "question_id": "2.1-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4b9bca006563835bbcbcf35c0b5ccdae23e5b9cc40e3d93fa9f0699f089d9253",
+        "CLM_346fd2ae7ea35e35926fbe1bb7bf24e8767b7712df5445e57811ee48167c3171"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları için trafik ve işletme girdileri nelerdir?",
+      "question_id": "2.1-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_35080f15c98b88776dda02a7475e64797b4a5124edbe4c2413675349c71e1987",
+        "CLM_21e508e92e76421c8511948e2b1efcc092401d454963f9783fcf28ebc9b3365a"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları seçiminde tünel uzunluğu nasıl etkili olur?",
+      "question_id": "2.1-Q09",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b36bb9a06fbb1465dc0bb07a7d632f5040a12a784ca8b39bdf48f8960b6ab1ba",
+        "CLM_3d6d7955c09861fd85bcec7e4b04332e9d548bf83501c2dd15caeb352cfdbf08",
+        "CLM_06bb454e73664857aea10051f78645da25dd56a8482b22205d893faadb29af28"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları seçiminde tünel kesiti ve açıklığı nasıl etkili olur?",
+      "question_id": "2.1-Q10",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b36bb9a06fbb1465dc0bb07a7d632f5040a12a784ca8b39bdf48f8960b6ab1ba",
+        "CLM_ca14698e5b99909a34981056d79ec4ef4b6e41fe11c6efc5f1ec404514815385",
+        "CLM_71f012a387fe13e4ace77983bdc43489c8a83da4d0814b585464c64f73b71fb6"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları seçiminde örtü kalınlığı nasıl etkili olur?",
+      "question_id": "2.1-Q11",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b36bb9a06fbb1465dc0bb07a7d632f5040a12a784ca8b39bdf48f8960b6ab1ba",
+        "CLM_35080f15c98b88776dda02a7475e64797b4a5124edbe4c2413675349c71e1987",
+        "CLM_a0ed30ef246fe535212d361aab394809a96d35c0f6aaba027429f4d220149870",
+        "CLM_06bb454e73664857aea10051f78645da25dd56a8482b22205d893faadb29af28"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları seçiminde kaya kütlesi veya zemin özellikleri nasıl etkili olur?",
+      "question_id": "2.1-Q12",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları seçiminde yeraltı suyu koşulları nasıl etkili olur?",
+      "question_id": "2.1-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları seçiminde çevresel ve yerleşim koşulları nasıl etkili olur?",
+      "question_id": "2.1-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları seçiminde iş sağlığı ve güvenliği nasıl dikkate alınır?",
+      "question_id": "2.1-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları seçiminde yapım süresi nasıl dikkate alınır?",
+      "question_id": "2.1-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları seçiminde ilk yatırım maliyeti nasıl dikkate alınır?",
+      "question_id": "2.1-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları seçiminde bakım ve işletme maliyetleri nasıl dikkate alınır?",
+      "question_id": "2.1-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_35080f15c98b88776dda02a7475e64797b4a5124edbe4c2413675349c71e1987",
+        "CLM_b36bb9a06fbb1465dc0bb07a7d632f5040a12a784ca8b39bdf48f8960b6ab1ba",
+        "CLM_64b7c0710ec41f8377ab4080709c3f26cea6d6dd5e71ad73779bc8102a4e2b77"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları için hangi alternatif teknik çözümler karşılaştırılabilir?",
+      "question_id": "2.1-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_72157fe8a3c4098ac7833bfe86003d97496a7d0d66b1f5c35ac9af094a2d67a7",
+        "CLM_5db4d611f857c9dc29abbdc710113bf0553ea8a1de5c0db44e008a510384376f"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları alternatiflerinin avantajları ve dezavantajları nelerdir?",
+      "question_id": "2.1-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f5749372e56685104ba3ad832d661133e2d606964f4039a89e751b4994aefb8c",
+        "CLM_a762907fedd59ff3d15d25d68ffc877b207ef1b77243a46063bcd16415466e49",
+        "CLM_28895ac2e0cd6a719e11ab665ee407613cb9e04aeed57899b2312aa16fe0eadb",
+        "CLM_06bb454e73664857aea10051f78645da25dd56a8482b22205d893faadb29af28"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları için karar verme sürecinde hangi teknik kriterlere ağırlık verilmelidir?",
+      "question_id": "2.1-Q21",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8a88667380880d3c91598faffcdf1cd27add55d15ea95c376e29c29eb6248d0e",
+        "CLM_51295276101c3854db0e2cefd3acf16d08a464a21c344550c2e4ad7757cd3e9f",
+        "CLM_c3ac2f65ec0695fd0a4843d60bab255e06697ab320b43b3e094e2665aabd9e1f"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları tasarımında hangi hesap yöntemleri kullanılır?",
+      "question_id": "2.1-Q22",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_217c7813e3fa4b7ab4e12510408eb8e5112d451e96c29c94843dceea46ab42e4",
+        "CLM_f31d0b86263083ddd63001520608be4b74bf73dd9b4a475611fdd38805ae94cd",
+        "CLM_0d6240749714ef396fa2794c0fc0fc2082035a588be5c1a4bbd57946468bc684",
+        "CLM_c3ac2f65ec0695fd0a4843d60bab255e06697ab320b43b3e094e2665aabd9e1f"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları tasarımında hangi sayısal modelleme yöntemleri kullanılabilir?",
+      "question_id": "2.1-Q23",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_23a95cc58212af404fbdc46a87162326aaab810009836c9dd26a53c952e5cb75",
+        "CLM_28895ac2e0cd6a719e11ab665ee407613cb9e04aeed57899b2312aa16fe0eadb"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları tasarımında hangi ampirik sınıflandırmalar kullanılabilir?",
+      "question_id": "2.1-Q24",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları tasarımında hangi güvenlik katsayıları veya performans kriterleri önemlidir?",
+      "question_id": "2.1-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a0149a9af8aa9f4ae62f76e7779ce45d3db168bdc66714e5ba0f4d873e507bb2",
+        "CLM_5819876105e067d951d7e08000d83d332972b8ade1a538074732e95a6c998f3d"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları uygulamasında hangi başlıca malzemeler kullanılır?",
+      "question_id": "2.1-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları uygulamasında hangi başlıca makine ve ekipmanlar kullanılır?",
+      "question_id": "2.1-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları uygulamasının tipik iş sırası nasıldır?",
+      "question_id": "2.1-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_dec907b935b0b3fbd9d391bb2c97541bdfb636a3b78188a21ddd959d0f5b4699",
+        "CLM_600e181e2be321ccccacd1fd316663f7b17d92213413bd74a3dcbc0aeb3da85d"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları uygulamasında kalite kontrol nasıl yapılır?",
+      "question_id": "2.1-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e13b183a56476631ede00ffa87b58c93fc557dd683e164648dfa27709e9c90fc",
+        "CLM_c6135a06bd70e40d553ab8e7e46af242238ee172636bac925895a4a155c1617e"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları uygulamasında saha ölçümleri ve enstrümantasyon nasıl kullanılır?",
+      "question_id": "2.1-Q30",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e13b183a56476631ede00ffa87b58c93fc557dd683e164648dfa27709e9c90fc",
+        "CLM_f31d0b86263083ddd63001520608be4b74bf73dd9b4a475611fdd38805ae94cd",
+        "CLM_a03f084a8017595d51db52e939689b5aef39f0b2c56088451bf141a37dcf0602"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları uygulamasında deformasyonlar nasıl izlenir?",
+      "question_id": "2.1-Q31",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları uygulamasında su girişleri nasıl kontrol edilir?",
+      "question_id": "2.1-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9e6ce86e696f86ab279791da7be374afc90b9cb9c1f55f96285f3bc524ad8002",
+        "CLM_b5eb004fd74153955a299c2ee7f57b79e16e135f150d325589db5cbc1c9272fa",
+        "CLM_7e0ddc3c09166b59cef9252c85b3990534c896f190c8382e6e9a4f66146dff8f"
+      ],
+      "confidence": 0.75,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları uygulamasında drenaj ve yalıtım nasıl ele alınır?",
+      "question_id": "2.1-Q33",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d4ca539f2fe37d2df2287e63871bc93db6ff0d2446ecfde2eb6c31bac8955a6f",
+        "CLM_dfbcc162e768b608015d667ae3583269d0691b331a0cc03de5ae213addb2efa6",
+        "CLM_06bb454e73664857aea10051f78645da25dd56a8482b22205d893faadb29af28"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları uygulamasında beklenmeyen zemin koşullarına nasıl müdahale edilir?",
+      "question_id": "2.1-Q34",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları uygulamasında en sık görülen teknik riskler nelerdir?",
+      "question_id": "2.1-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a03f084a8017595d51db52e939689b5aef39f0b2c56088451bf141a37dcf0602",
+        "CLM_e55eedc5fb1951fd391db544c799ebe68b68a5ac82f9a6d79129bba84a095d5e"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları uygulamasında hata veya yetersizlik belirtileri nelerdir?",
+      "question_id": "2.1-Q36",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a8db51e57fb12acd2e78d4f5413cc4e65a2c4ecc8944f6c00e46636eebfe8341",
+        "CLM_06bb454e73664857aea10051f78645da25dd56a8482b22205d893faadb29af28",
+        "CLM_e80aba6f38134dd9baaae6f792f22a1548756310bc0d56dafa74bcaf5a0a5d7d"
+      ],
+      "confidence": 0.75,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları uygulamasında düzeltici ve güçlendirici önlemler nelerdir?",
+      "question_id": "2.1-Q37",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_17a7d5a3c579e7819fd6ac4d6953ecaeafd1e66e0551f8d0feb6cb8712ccdffc",
+        "CLM_1dc5ee713f82bef53ecb2fb185e1f558552e058febef4373445645d752b0cbe0"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları ile nihai kaplama arasındaki ilişki nasıl kurulmalıdır?",
+      "question_id": "2.1-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları ile portal tasarımı arasındaki ilişki nedir?",
+      "question_id": "2.1-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a64afe98d4136a8536fc6f4b79a4d9846e616706d5f244d6c8888d5af7f750bb",
+        "CLM_d459a2762f0530ada50311965710c26c793ba45868f718b334e0ad97a2ad672d",
+        "CLM_05534c022a0442151a77555fb598d57bf0016282eb6f6c3c7b46c2e374713386"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları ile havalandırma, aydınlatma ve diğer elektromekanik sistemler nasıl koordine edilir?",
+      "question_id": "2.1-Q40",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c0d77d94535154911539e2469820479880ded734d87038f62f86e07f5a66248c"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları için uygulanabilir ulusal standart ve şartnameler nelerdir?",
+      "question_id": "2.1-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c0d77d94535154911539e2469820479880ded734d87038f62f86e07f5a66248c",
+        "CLM_4b50bc9a51afbca58431f511ce3b766aa26c269d191fbccc789bf908e802503f"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları için uygulanabilir uluslararası standart ve kılavuzlar nelerdir?",
+      "question_id": "2.1-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları açısından Karayolları Genel Müdürlüğü uygulamalarında hangi esaslar öne çıkar?",
+      "question_id": "2.1-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d4ca539f2fe37d2df2287e63871bc93db6ff0d2446ecfde2eb6c31bac8955a6f",
+        "CLM_0aa09139440293bf5911a23e7a94d97b2687fbac1dea545ae8b6683f8d425a0b",
+        "CLM_e2f683aa640abcc4eedbabaff5e62696063beb9eaf4329406988ba8ad2a73835",
+        "CLM_b37d25846a9b1cbd12f9698907dde2bbd62a0b874027430a1fa5d968136a78c6"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları için yapım sırasında tutulması gereken kayıtlar nelerdir?",
+      "question_id": "2.1-Q44",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları için kabul ve devreye alma kriterleri nelerdir?",
+      "question_id": "2.1-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7309e54eaf1583c916016e88f9cb45bbec7424be3887463d214b5a2a288c1e92",
+        "CLM_afc3724026723e1d03d4d20f3af392f7e2187bf3df92ca26a91b6462f7b0e17a"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları kullanım aşamasında nasıl izlenmeli ve denetlenmelidir?",
+      "question_id": "2.1-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4c65cf2e19efa2b5834e4df11326726ebca15c4d14db1f9581923d1c7799e2c3",
+        "CLM_1cc58ea3ba056201f6be87c3a9c1ec8e2a76113d55a8b68399d49f99c5483cc3",
+        "CLM_7309e54eaf1583c916016e88f9cb45bbec7424be3887463d214b5a2a288c1e92"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapı/Destek Elemanları yaşam döngüsü boyunca hangi bakım gereksinimlerini doğurur?",
+      "question_id": "2.1-Q47",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları sürdürülebilirlik ve çevresel etki açısından nasıl değerlendirilebilir?",
+      "question_id": "2.1-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_67be0d424ac03447bede61e514a63b71e7eab0bcc7b8504dd0d392eba7194765",
+        "CLM_31945c45692e8447130ccc618929f21dc251c10bdfca6bf4cad54977d8a61b80"
+      ],
+      "confidence": 0.7,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları ile ilgili Türkiye’den hangi uygulama örnekleri verilebilir?",
+      "question_id": "2.1-Q49",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapı/Destek Elemanları ile ilgili dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "2.1-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "2.1",
+  "section_title": "Tünel Yapı/Destek Elemanları",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_05534c022a0442151a77555fb598d57bf0016282eb6f6c3c7b46c2e374713386",
+      "CLM_06bb454e73664857aea10051f78645da25dd56a8482b22205d893faadb29af28",
+      "CLM_0aa09139440293bf5911a23e7a94d97b2687fbac1dea545ae8b6683f8d425a0b",
+      "CLM_0d6240749714ef396fa2794c0fc0fc2082035a588be5c1a4bbd57946468bc684",
+      "CLM_17a7d5a3c579e7819fd6ac4d6953ecaeafd1e66e0551f8d0feb6cb8712ccdffc",
+      "CLM_1cc58ea3ba056201f6be87c3a9c1ec8e2a76113d55a8b68399d49f99c5483cc3",
+      "CLM_1dc5ee713f82bef53ecb2fb185e1f558552e058febef4373445645d752b0cbe0",
+      "CLM_217c7813e3fa4b7ab4e12510408eb8e5112d451e96c29c94843dceea46ab42e4",
+      "CLM_21e508e92e76421c8511948e2b1efcc092401d454963f9783fcf28ebc9b3365a",
+      "CLM_23a95cc58212af404fbdc46a87162326aaab810009836c9dd26a53c952e5cb75",
+      "CLM_28895ac2e0cd6a719e11ab665ee407613cb9e04aeed57899b2312aa16fe0eadb",
+      "CLM_31945c45692e8447130ccc618929f21dc251c10bdfca6bf4cad54977d8a61b80",
+      "CLM_346fd2ae7ea35e35926fbe1bb7bf24e8767b7712df5445e57811ee48167c3171",
+      "CLM_35080f15c98b88776dda02a7475e64797b4a5124edbe4c2413675349c71e1987",
+      "CLM_3d6d7955c09861fd85bcec7e4b04332e9d548bf83501c2dd15caeb352cfdbf08",
+      "CLM_4b50bc9a51afbca58431f511ce3b766aa26c269d191fbccc789bf908e802503f",
+      "CLM_4b9bca006563835bbcbcf35c0b5ccdae23e5b9cc40e3d93fa9f0699f089d9253",
+      "CLM_4c65cf2e19efa2b5834e4df11326726ebca15c4d14db1f9581923d1c7799e2c3",
+      "CLM_51295276101c3854db0e2cefd3acf16d08a464a21c344550c2e4ad7757cd3e9f",
+      "CLM_5819876105e067d951d7e08000d83d332972b8ade1a538074732e95a6c998f3d",
+      "CLM_5db4d611f857c9dc29abbdc710113bf0553ea8a1de5c0db44e008a510384376f",
+      "CLM_600e181e2be321ccccacd1fd316663f7b17d92213413bd74a3dcbc0aeb3da85d",
+      "CLM_64b7c0710ec41f8377ab4080709c3f26cea6d6dd5e71ad73779bc8102a4e2b77",
+      "CLM_67be0d424ac03447bede61e514a63b71e7eab0bcc7b8504dd0d392eba7194765",
+      "CLM_71f012a387fe13e4ace77983bdc43489c8a83da4d0814b585464c64f73b71fb6",
+      "CLM_72157fe8a3c4098ac7833bfe86003d97496a7d0d66b1f5c35ac9af094a2d67a7",
+      "CLM_7309e54eaf1583c916016e88f9cb45bbec7424be3887463d214b5a2a288c1e92",
+      "CLM_7e0ddc3c09166b59cef9252c85b3990534c896f190c8382e6e9a4f66146dff8f",
+      "CLM_8a88667380880d3c91598faffcdf1cd27add55d15ea95c376e29c29eb6248d0e",
+      "CLM_8e17225f6af316eb41101f015d1a42b7d3de570661e0358d415afdb308b89b33",
+      "CLM_9e6ce86e696f86ab279791da7be374afc90b9cb9c1f55f96285f3bc524ad8002",
+      "CLM_a0149a9af8aa9f4ae62f76e7779ce45d3db168bdc66714e5ba0f4d873e507bb2",
+      "CLM_a03f084a8017595d51db52e939689b5aef39f0b2c56088451bf141a37dcf0602",
+      "CLM_a0ed30ef246fe535212d361aab394809a96d35c0f6aaba027429f4d220149870",
+      "CLM_a64afe98d4136a8536fc6f4b79a4d9846e616706d5f244d6c8888d5af7f750bb",
+      "CLM_a762907fedd59ff3d15d25d68ffc877b207ef1b77243a46063bcd16415466e49",
+      "CLM_a8db51e57fb12acd2e78d4f5413cc4e65a2c4ecc8944f6c00e46636eebfe8341",
+      "CLM_afc3724026723e1d03d4d20f3af392f7e2187bf3df92ca26a91b6462f7b0e17a",
+      "CLM_b36bb9a06fbb1465dc0bb07a7d632f5040a12a784ca8b39bdf48f8960b6ab1ba",
+      "CLM_b37d25846a9b1cbd12f9698907dde2bbd62a0b874027430a1fa5d968136a78c6",
+      "CLM_b5eb004fd74153955a299c2ee7f57b79e16e135f150d325589db5cbc1c9272fa",
+      "CLM_b7723ba6ef8c3b7cbbe5a05f003e6b491fd6bc8d654c7a6d3170444b26b1a7fa",
+      "CLM_c0d77d94535154911539e2469820479880ded734d87038f62f86e07f5a66248c",
+      "CLM_c3ac2f65ec0695fd0a4843d60bab255e06697ab320b43b3e094e2665aabd9e1f",
+      "CLM_c57944ca73e03e646eb15d2cac0932a1be5fafa48074c07653635810ffb7cce1",
+      "CLM_c6135a06bd70e40d553ab8e7e46af242238ee172636bac925895a4a155c1617e",
+      "CLM_ca14698e5b99909a34981056d79ec4ef4b6e41fe11c6efc5f1ec404514815385",
+      "CLM_d459a2762f0530ada50311965710c26c793ba45868f718b334e0ad97a2ad672d",
+      "CLM_d4ca539f2fe37d2df2287e63871bc93db6ff0d2446ecfde2eb6c31bac8955a6f",
+      "CLM_dec907b935b0b3fbd9d391bb2c97541bdfb636a3b78188a21ddd959d0f5b4699",
+      "CLM_dfbcc162e768b608015d667ae3583269d0691b331a0cc03de5ae213addb2efa6",
+      "CLM_e13b183a56476631ede00ffa87b58c93fc557dd683e164648dfa27709e9c90fc",
+      "CLM_e2f683aa640abcc4eedbabaff5e62696063beb9eaf4329406988ba8ad2a73835",
+      "CLM_e55eedc5fb1951fd391db544c799ebe68b68a5ac82f9a6d79129bba84a095d5e",
+      "CLM_e80aba6f38134dd9baaae6f792f22a1548756310bc0d56dafa74bcaf5a0a5d7d",
+      "CLM_f31d0b86263083ddd63001520608be4b74bf73dd9b4a475611fdd38805ae94cd",
+      "CLM_f5749372e56685104ba3ad832d661133e2d606964f4039a89e751b4994aefb8c",
+      "CLM_fb0bfbcec12641795f84c2dc12e2c1cfd979cc349c36326430476b1c045b2a8b"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "2.1-Q03",
+      "2.1-Q04",
+      "2.1-Q05",
+      "2.1-Q08",
+      "2.1-Q09",
+      "2.1-Q11",
+      "2.1-Q19",
+      "2.1-Q20",
+      "2.1-Q21",
+      "2.1-Q26",
+      "2.1-Q29",
+      "2.1-Q36",
+      "2.1-Q38",
+      "2.1-Q40",
+      "2.1-Q41",
+      "2.1-Q42",
+      "2.1-Q46",
+      "2.1-Q47"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "2.1-Q01",
+      "2.1-Q02",
+      "2.1-Q06",
+      "2.1-Q07",
+      "2.1-Q13",
+      "2.1-Q14",
+      "2.1-Q15",
+      "2.1-Q16",
+      "2.1-Q17",
+      "2.1-Q18",
+      "2.1-Q25",
+      "2.1-Q27",
+      "2.1-Q28",
+      "2.1-Q32",
+      "2.1-Q35",
+      "2.1-Q39",
+      "2.1-Q43",
+      "2.1-Q45",
+      "2.1-Q48",
+      "2.1-Q50"
+    ]
+  }
+}

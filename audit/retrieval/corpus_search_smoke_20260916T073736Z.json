@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "test_kind": "CANONICAL_LEXICAL_SEARCH_SMOKE",
+  "created_at": "2026-09-16T07:37:36+00:00",
+  "method": "deterministic section-filtered TF-IDF-like lexical ranking",
+  "limitation": "This verifies canonical text and section routing; it is not an embedding/vector retrieval evaluation.",
+  "canonical": {
+    "state": "READY",
+    "document_count": 656,
+    "chunk_count": 30926,
+    "retrieval_ready_chunk_count": 30332,
+    "manifest_path": "corpus/canonical/canonical_manifest.json",
+    "manifest_sha256": "34ba86bbaee35100d8bc5fe133d385efc6d420c868511669b8a2eac165b1aa36",
+    "corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "reasons": [],
+    "warnings": [],
+    "ready": true,
+    "retrieval_allowed": true
+  },
+  "case_count": 4,
+  "passed_case_count": 4,
+  "passed": true,
+  "cases": [
+    {
+      "id": "chapter_3_history",
+      "section_prefix": "3",
+      "query": "Karayolları Genel Müdürlüğü KGM tünellerinin tarihçesi Ovit Zigana",
+      "expected_document_ids": [
+        "ING_62c2a5de1e2d13c0013a",
+        "ING_7d7c44992e83c7185c41"
+      ],
+      "candidate_chunks": 43,
+      "candidate_documents": 4,
+      "results": [
+        {
+          "document_id": "ING_7d7c44992e83c7185c41",
+          "title": "Sürdürülebilir Ulaşımda Karayolu Tünellerinin Yeri: Yeni Zigana (Trabzon) Tüneli",
+          "chunk_id": "ING_7d7c44992e83c7185c41_CH_53b3aefc37",
+          "chunk_type": "TEXT_CHUNK",
+          "section_id": "3",
+          "page_start": 13,
+          "page_end": 14,
+          "score": 32.351155,
+          "query_term_coverage": 0.625,
+          "matched_terms": [
+            "genel",
+            "karayollar",
+            "kgm",
+            "mudurlugu",
+            "zigana"
+          ],
+          "snippet": "Kaynakça azaltmasıyla ulaşım araçlarının kar ve buzlanmadan kaynaklı kazaların sayısını da azaltacağı düşünülmektedir. Aynı zamanda kaza nedeniyle ortaya çıkan ulaşım aksaklıklarını da minimum düzeye indireceği şüphesizdir. Tünel, yağışın fazla olduğu mevsimlerde heyelanların etkisini azaltmış ve fiziksel çözünmeden ka"
+        },
+        {
+          "document_id": "ING_62c2a5de1e2d13c0013a",
+          "title": "Ovit ve Zigana Tünellerinin Bölgesel ve Küresel Açıdan Jeopolitik Analizi",
+          "chunk_id": "ING_62c2a5de1e2d13c0013a_CH_573b57da7f",
+          "chunk_type": "TEXT_CHUNK",
+          "section_id": "3",
+          "page_start": 6,
+          "page_end": 8,
+          "score": 16.388322,
+          "query_term_coverage": 0.5,
+          "matched_terms": [
+            "karayollar",
+            "ovit",
+            "tunellerinin",
+            "zigana"
+          ],
+          "snippet": "Ovit ve Zigana Tünellerinin Uluslararası Önemi Avrupa bağlantılı bir jeoekonomi koridorunun parçası iken, çatışma ve savaş dönemlerinde askeri lojistik açıdan stratejik önem taşıyacaktır. BTK, İpek demiryolunun ikinci bir kol üzerinden denizyoluyla bağlantı sağlanması planlanmıştır. Bu bağlantı yeri ise Trabzon Limanıd"
+        },
+        {
+          "document_id": "ING_296bae6c6d0e76f84818",
+          "title": "15.11.2019",
+          "chunk_id": "ING_296bae6c6d0e76f84818_CH_4b6b2dd66f",
+          "chunk_type": "SHEET_CHUNK",
+          "section_id": "3",
+          "page_start": null,
+          "page_end": null,
+          "score": 2.674283,
+          "query_term_coverage": 0.125,
+          "matched_terms": [
+            "genel"
+          ],
+          "snippet": "15.11.2019 Çalışma sayfası: 15.11.2019 D16: PROJESİ HAZIR VE PROJESİ DEVAM EDEN TÜNEL TOPLAMI | F16==SUM(F14:F15) -> 139 | G16==SUM(G14:G15) -> 126848 | H16==+G16/$G$17 -> 0.3512053580080791 | I16==SUM(I14:I15) -> 161 | J16==SUM(J14:J15) -> 618906 | K16==+J16/$J$17 -> 0.4380320526794081 | L16==SUM(L14:L15) -> 300 | M16"
+        },
+        {
+          "document_id": "ING_e5a3c44428f7d13e2a85",
+          "title": "YENİ İCMAL FORMATI (KM)",
+          "chunk_id": "ING_e5a3c44428f7d13e2a85_CH_4f65857740",
+          "chunk_type": "SHEET_CHUNK",
+          "section_id": "3",
+          "page_start": null,
+          "page_end": null,
+          "score": 2.674283,
+          "query_term_coverage": 0.125,
+          "matched_terms": [
+            "genel"
+          ],
+          "snippet": "YENİ İCMAL FORMATI (KM) Çalışma sayfası: YENİ İCMAL FORMATI (KM) D14: PROJE ÇALIŞMASI DEVAM EDEN | F14==+'[1]2003 ÖNCESİ SONRASI'!H18 -> 123 | G14: 128.5 | H14==+G14/$G$17 -> 0.39344764237599517 | I14==+'[1]2003 ÖNCESİ SONRASI'!J18 -> 155 | J14: 633.6 | K14==+J14/$J$17 -> 0.4025412960609911 | L14==+F14+I14 -> 278 | M14"
+        }
+      ],
+      "expected_document_found": [
+        "ING_62c2a5de1e2d13c0013a",
+        "ING_7d7c44992e83c7185c41"
+      ],
+      "passed": true
+    },
+    {
+      "id": "chapter_4_transport_cost",
+      "section_prefix": "4",
+      "query": "ulaşım maliyetleri yaşam döngüsü maliyet kavramı",
+      "expected_document_ids": [],
+      "candidate_chunks": 437,
+      "candidate_documents": 9,
+      "results": [
+        {
+          "document_id": "ING_339e05e3358e01b537d8",
+          "title": "Türkiye'de demiryolu ulaşımının yaşam döngüsü analizi ve yaşam döngüsü maliyeti yöntemleri ile değerlendirilmesi",
+          "chunk_id": "ING_339e05e3358e01b537d8_CH_67388e7094",
+          "chunk_type": "TEXT_CHUNK",
+          "section_id": "4.3.5",
+          "page_start": 73,
+          "page_end": 76,
+          "score": 52.448434,
+          "query_term_coverage": 0.8333,
+          "matched_terms": [
+            "dongusu",
+            "maliyet",
+            "maliyetleri",
+            "ulas",
+            "yasam"
+          ],
+          "snippet": "4.2. LCC ile İlgili Yapılan Çalışmalar Yüksek Hızlı Tren sisteminin altyapı (demiryolu hattı, tünel, viyadük, elektrifikasyon) çalışmaları sonucu oluşan sera gazı emisyonlarının belirlenmesinde yaşam döngüsü analiz yöntemi kullanılmıştır. Altyapı çalışmaları sırasında kullanılan malzeme ve nakliye proseslerinin sera ga"
+        },
+        {
+          "document_id": "ING_a9c589bed7972b969c80",
+          "title": "Ulaştırmada Altyapı Yatırımlarının Liman Hinterlandına Etkileri",
+          "chunk_id": "ING_a9c589bed7972b969c80_CH_cfcf566c1e",
+          "chunk_type": "TEXT_CHUNK",
+          "section_id": "4",
+          "page_start": 2,
+          "page_end": 2,
+          "score": 23.591243,
+          "query_term_coverage": 0.3333,
+          "matched_terms": [
+            "kavram",
+            "ulas"
+          ],
+          "snippet": "2. Literatür: Ulaştırma Coğrafyası ve Amanos Tünelleri kısıtlı olmasıdır. Bu problem çerçevesinde çalışmanın amacı 2015 yılında proje olarak çalışmaları başlatılan ve 2021 yılı yatırım programında da bulunan 'Dörtyol -Hassa [73] 'projesinin, sıklıkla kullanılan adı ile 'Amanos Tünelleri'nin bölge ticaretine ve limancıl"
+        },
+        {
+          "document_id": "ING_1aee29b8925d267db7b0",
+          "title": "A comparative analysis of nanocoated expanded polystyrene for sustainable infrastructure applications",
+          "chunk_id": "ING_1aee29b8925d267db7b0_CH_a0c9b2abf6",
+          "chunk_type": "FIGURE_CHUNK",
+          "section_id": "4.3.5",
+          "page_start": 7,
+          "page_end": 7,
+          "score": 6.879177,
+          "query_term_coverage": 0.3333,
+          "matched_terms": [
+            "dongusu",
+            "yasam"
+          ],
+          "snippet": "Raw materials Şekil: Fig. 4 . System boundaries. Fig. 4 . System boundaries. Cradle to Grave Extraction & Transportation Construction End-of-Life Manufacturing Phase Phase Phase Phase Dense sand & Dense sand & Soil backfilling Soil compaction gravel + Water gravel + Water Reuse & Landfill HDPE Sheets of HDPE Welding HD"
+        },
+        {
+          "document_id": "ING_43bc7c7729c6e993a390",
+          "title": "Value management implementation for improving sustainability in construction projects: integrating life cycle cost and weighted evaluation analysis",
+          "chunk_id": "ING_43bc7c7729c6e993a390_CH_d35aad1501",
+          "chunk_type": "FIGURE_CHUNK",
+          "section_id": "4.3.5",
+          "page_start": 10,
+          "page_end": 10,
+          "score": 6.879177,
+          "query_term_coverage": 0.3333,
+          "matched_terms": [
+            "dongusu",
+            "yasam"
+          ],
+          "snippet": "3.2 Functional analysis Functional Analysis (FAST) Diagram for Tunnel Project Weighted Evaluation Matrix for Design Alternatives Life Cycle Cost (LCC) Calculation Structure \"Enable tunnel operation HOW? HOW? HOW? HOW? Provide ventilation Support loads Ensure safety Control water HOW? HOW? HOW? Provide emergency Monitor"
+        },
+        {
+          "document_id": "ING_1980884f21bd5c134c8e",
+          "title": "Tunnelling and Underground Space Technology",
+          "chunk_id": "ING_1980884f21bd5c134c8e_CH_92a94b9a2e",
+          "chunk_type": "FIGURE_CHUNK",
+          "section_id": "4.3.5",
+          "page_start": 8,
+          "page_end": 8,
+          "score": 3.017871,
+          "query_term_coverage": 0.1667,
+          "matched_terms": [
+            "maliyet"
+          ],
+          "snippet": "4. Analysis of the results Overall cumulative cost for tunnel length 750 m, Overall cumulative cost for tunnel length 2000 m, 1.5 million of passes, 30-year service life 1.5 million of passes, 30-year service life 9 6 8 5 Million of cement concrete as phalt concrete asphalt concrete 0 5 10 15 20 25 30 5 10 15 20 25 30 "
+        }
+      ],
+      "expected_document_found": [],
+      "passed": true
+    },
+    {
+      "id": "chapter_5_maintenance",
+      "section_prefix": "5",
+      "query": "tünel bakım işletme enerji maliyeti periyodik bakım",
+      "expected_document_ids": [],
+      "candidate_chunks": 7497,
+      "candidate_documents": 203,
+      "results": [
+        {
+          "document_id": "ING_1fb6b71a35f819248daf",
+          "title": "SCADA SİSTEMLERİ KURS NOTLARI",
+          "chunk_id": "ING_1fb6b71a35f819248daf_CH_c24218e151",
+          "chunk_type": "TEXT_CHUNK",
+          "section_id": "5.4.2",
+          "page_start": null,
+          "page_end": null,
+          "score": 69.354098,
+          "query_term_coverage": 0.8333,
+          "matched_terms": [
+            "bak",
+            "enerji",
+            "isletme",
+            "periyodik",
+            "tunel"
+          ],
+          "snippet": "TEŞEKKÜR > 3000 METREDEN UZUN TÜNELLER > 245 TEKNİK BAKIMLAR VE ÖNERİLER Jet fanlar tersine çalışıyorsa tersine çalışmaya geçilmesi için gereken zamanın ölçülmesi Gürültü ve titreşim seviyelerinin ölçülmesi Acil çıkışlarda havalandırma; Normal durumda gereken temiz havanın sağlandığının kontrolü Yangın modunda gerekli "
+        },
+        {
+          "document_id": "ING_746d18498e07a8a0f397",
+          "title": "TÜNEL BAKIM ONARIM İŞLETME KURS NOTLARI",
+          "chunk_id": "ING_746d18498e07a8a0f397_CH_134721ab20",
+          "chunk_type": "TEXT_CHUNK",
+          "section_id": "5.4",
+          "page_start": 348,
+          "page_end": 348,
+          "score": 61.194033,
+          "query_term_coverage": 0.6667,
+          "matched_terms": [
+            "bak",
+            "isletme",
+            "periyodik",
+            "tunel"
+          ],
+          "snippet": "5.4. ÜLKEMİZDE TÜNEL TEKNİK BAKIMLARI aşağıdaki tabloda verilmiştir. Tablo 39. Tünellerde Kullanılan Sistemlerle İlgili Bakım Aralıkları ve Riskler Ekipmanlarla ilgili testleri performans testleri ve fonksiyonel testler olarak ikiye ayırabiliriz. Performans testlerinde yapılması g erekenler ile ilgili PİARC'ın vermiş o"
+        },
+        {
+          "document_id": "ING_5c229054fb8f53a306c0",
+          "title": "TÜNEL ENVANTER KİTABI",
+          "chunk_id": "ING_5c229054fb8f53a306c0_CH_f9f9c7724d",
+          "chunk_type": "TEXT_CHUNK",
+          "section_id": "5",
+          "page_start": 254,
+          "page_end": 266,
+          "score": 57.653625,
+          "query_term_coverage": 0.5,
+          "matched_terms": [
+            "bak",
+            "isletme",
+            "tunel"
+          ],
+          "snippet": "DÜZENLEYEN TÜNEL ENVANTER BİLGİ FORMU DÜZENLEYEN İlker CENGİZ Tünel Bakım İşletme Şefi ONAYLAYAN Mustafa DİNÇ Tes ve Bak.Başmüh. TÜNEL ENVANTER BİLGİ FORMU DÜZENLEYEN İlker CENGİZ Tünel Bakım İşletme Şefi ONAYLAYAN Mustafa DİNÇ Tes ve Bak.Başmüh. TÜNEL ENVANTER BİLGİ FORMU DÜZENLEYEN İlker CENGİZ Tünel Bakım İşletme Şe"
+        },
+        {
+          "document_id": "ING_aa8140c07fce1b3482e4",
+          "title": "Bakım-İşletme Maliyet Bilgileri",
+          "chunk_id": "ING_aa8140c07fce1b3482e4_CH_683904393f",
+          "chunk_type": "TABLE_CHUNK",
+          "section_id": "5",
+          "page_start": null,
+          "page_end": null,
+          "score": 56.738734,
+          "query_term_coverage": 0.3333,
+          "matched_terms": [
+            "bak",
+            "isletme"
+          ],
+          "snippet": "YapimBakimIsletmeMaliyet > İstatistikler ​​​​​​​​​​​​​​​​​​​​​​​​​​​​Bakım-İşletme Maliyet Bilgileri ​ ​ 2025​ Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri 2024 Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri 2023 Yılı ​Devlet ve İl Yolları Bakım - İşletme Maliyetleri 2022​​ Yılı ​Devlet ve İl Yolları "
+        },
+        {
+          "document_id": "ING_a23b1e815eedc4a3c978",
+          "title": "KARAY YOLLAR RI GENEL L MÜDÜR RLÜ Ğ Ü",
+          "chunk_id": "ING_a23b1e815eedc4a3c978_CH_42cf8d5b7d",
+          "chunk_type": "TEXT_CHUNK",
+          "section_id": "5.8",
+          "page_start": 31,
+          "page_end": 33,
+          "score": 55.067806,
+          "query_term_coverage": 0.5,
+          "matched_terms": [
+            "bak",
+            "periyodik",
+            "tunel"
+          ],
+          "snippet": "1.2.18.Koruma Ve Güvenlik Amiri Görev Ve Yetkileri: olarak bildirir. Ayr ı ca aksakl ı klar ı ve önerilerini belirten yaz ı l ı raporunu Tünel bak ı m İş letme Ş efine sunar. e)Tesis Bak ı m Mühendisinin tesisler konusunda kendisine verece ğ i di ğ er görevleri yapar. f)Kendisine verilen görevleri iyi bir ş ekilde ve z"
+        }
+      ],
+      "expected_document_found": [],
+      "passed": true
+    },
+    {
+      "id": "chapter_6_construction_cost",
+      "section_prefix": "6",
+      "query": "tünel yapım maliyeti birim fiyat püskürtme beton destek",
+      "expected_document_ids": [
+        "ING_0f9fb625ee12d331f34a",
+        "ING_29dc43677cbbd95c697d",
+        "ING_5c2983ff4ac61dc979ff"
+      ],
+      "candidate_chunks": 513,
+      "candidate_documents": 22,
+      "results": [
+        {
+          "document_id": "ING_ecb7b50dece6c5a14085",
+          "title": "AÇP/01 HER CİNS VE KLASTAKİ ZEMİNDE YARMA KAZISI YAPILMASI VE KULLANILMASI (TÜNEL PORTAL KAZILARI DAHİL):",
+          "chunk_id": "ING_ecb7b50dece6c5a14085_CH_da6a3f0857",
+          "chunk_type": "TEXT_CHUNK",
+          "section_id": "6",
+          "page_start": 8,
+          "page_end": 8,
+          "score": 61.853152,
+          "query_term_coverage": 0.75,
+          "matched_terms": [
+            "beton",
+            "birim",
+            "fiyat",
+            "puskurtme",
+            "tunel",
+            "yap"
+          ],
+          "snippet": "AÇP/37 TÜNELDE PÜSKÜRTME BETONU (SHOTCRETE) YAPILMASI (Beton Santralı ile) : fiyattan ayrıca ödenir. 8Aynı iş bünyesinde yeni bir tünel çıkması veya yol ekseninin değişmesi vb. nedeniyle tünel yerinin, hattının ve kotunun değişmesi halinde de bu birim fiyat aynen uygulanır. 9Bu kazı birim fiyatına yapım, deformasyon ve"
+        },
+        {
+          "document_id": "ING_5c2983ff4ac61dc979ff",
+          "title": "2022​​ Yılı Yol, Köprü, Tünel, Bitümlü Kaplamalar, Bakım ve Trafik işlerine ait Birim Fiyat Listesi​",
+          "chunk_id": "ING_5c2983ff4ac61dc979ff_CH_380daae83d",
+          "chunk_type": "TABLE_CHUNK",
+          "section_id": "6",
+          "page_start": 13,
+          "page_end": 13,
+          "score": 43.979469,
+          "query_term_coverage": 0.625,
+          "matched_terms": [
+            "beton",
+            "birim",
+            "puskurtme",
+            "tunel",
+            "yap"
+          ],
+          "snippet": "T A B L O POZ NO: | İŞİN ADI | ÖLÇÜ BİRİMİ | İHALELİ BİRİM FİYATI (TL) KGM/2001 | Yeni Avusturya tünel açma yöntemine göre A1 sınıfı zeminde tünel kazısı | m 3 | 190,73 KGM/2002 | Yeni Avusturya tünel açma yöntemine göre A2 sınıfı zeminde tünel kazısı | m 3 | 250,24 KGM/2003 | Yeni Avusturya tünel açma yöntemine göre B"
+        },
+        {
+          "document_id": "ING_c3a0e31de495e7b755c5",
+          "title": "İhale ve İnşaat Öncesi Dönemde Güncel Alternatif Maliyet Analizi Yöntemlerinin İncelenmesi",
+          "chunk_id": "ING_c3a0e31de495e7b755c5_CH_60f5a1ffb0",
+          "chunk_type": "TEXT_CHUNK",
+          "section_id": "6.1.3",
+          "page_start": 5,
+          "page_end": 7,
+          "score": 39.448327,
+          "query_term_coverage": 0.5,
+          "matched_terms": [
+            "beton",
+            "maliyeti",
+            "tunel",
+            "yap"
+          ],
+          "snippet": "Vaka Çalışması de maliyet çalışmaları sırasında uzmanların firmaların önceki projelerindeki bilgi birikimlerini, kişisel bilgi ve deneyimleri ile birleştirerek karar verdiklerini belirtmişlerdir. Literatürdeki bulgular göstermektedir ki maliyet hesapları kişisel bilgi ve deneyimler bazlı olacak şekilde yapılmakta; bu d"
+        },
+        {
+          "document_id": "ING_ef8bfe928d0936ae50fc",
+          "title": "Abstract",
+          "chunk_id": "ING_ef8bfe928d0936ae50fc_CH_7c9aa2d914",
+          "chunk_type": "TEXT_CHUNK",
+          "section_id": "6.1.3",
+          "page_start": null,
+          "page_end": null,
+          "score": 39.448327,
+          "query_term_coverage": 0.5,
+          "matched_terms": [
+            "beton",
+            "maliyeti",
+            "tunel",
+            "yap"
+          ],
+          "snippet": "Vaka Çalışması kişisel bilgi ve deneyimleri ile birleştirerek karar verdiklerini belirtmişlerdir. Literatürdeki bulgular göstermektedir ki maliyet hesapları kişisel bilgi ve deneyimler bazlı olacak şekilde yapılmakta; bu da bu çalışmaların taraflı ve de sınırlı olmasına neden olmaktadır. Benzer bir yaklaşım ile yürü"
+        },
+        {
+          "document_id": "ING_64410adf1e8a8df309bd",
+          "title": "Makine İle Tünel İçi Kablo Kanalı Yapılması-Analiz",
+          "chunk_id": "ING_64410adf1e8a8df309bd_CH_c3ca76baa3",
+          "chunk_type": "TABLE_CHUNK",
+          "section_id": "6",
+          "page_start": 1,
+          "page_end": 1,
+          "score": 21.688288,
+          "query_term_coverage": 0.5,
+          "matched_terms": [
+            "beton",
+            "birim",
+            "puskurtme",
+            "tunel"
+          ],
+          "snippet": "POZ NO: | | ANALiziN ADI | ANALiziN ADI | ANALiziN ADI | ÖLCü BiRiMi Ozel5 | | Makine ile Tünel igi Kablo Kanalr Yapilmasi (500-700 Joule Fiber katkilr ve C25/30 Hazir Betonlu) | Makine ile Tünel igi Kablo Kanalr Yapilmasi (500-700 Joule Fiber katkilr ve C25/30 Hazir Betonlu) | Makine ile Tünel igi Kablo Kanalr Yapilma"
+        }
+      ],
+      "expected_document_found": [
+        "ING_5c2983ff4ac61dc979ff"
+      ],
+      "passed": true
+    }
+  ]
+}

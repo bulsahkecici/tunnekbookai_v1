@@ -1,0 +1,129 @@
+{
+  "final_primary_section": "1",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.6988,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "HEAD0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0008",
+        "PARA0009",
+        "PARA0010",
+        "PARA0011",
+        "PARA0012",
+        "FIG0004",
+        "CAPT0001",
+        "FIG0005",
+        "CAPT0002",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "PARA0016",
+        "PARA0017",
+        "FIG0006",
+        "CAPT0003",
+        "PARA0018",
+        "FIG0008",
+        "CAPT0005",
+        "PARA0021",
+        "FIG0010"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1",
+      "score": 0.6988,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7997,
+      "chunk_vote": 0.2659
+    },
+    {
+      "id": "2.1",
+      "score": 0.3748,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1239
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3637,
+      "rule_score": 0.0,
+      "embedding_score": 0.7967,
+      "chunk_vote": 0.0257
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3619,
+      "rule_score": 0.0,
+      "embedding_score": 0.8043,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3592,
+      "rule_score": 0.0,
+      "embedding_score": 0.7983,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3556,
+      "rule_score": 0.0,
+      "embedding_score": 0.7903,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3552,
+      "rule_score": 0.0,
+      "embedding_score": 0.7893,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.355,
+      "rule_score": 0.0,
+      "embedding_score": 0.7888,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3546,
+      "rule_score": 0.0,
+      "embedding_score": 0.7881,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3311,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0057
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=1:0.6988 gap=0.324 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

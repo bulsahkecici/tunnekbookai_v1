@@ -1,0 +1,121 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "2.4.1.3",
+    "5.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "PARA0005"
+      ]
+    },
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "PARA0005"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4",
+      "score": 0.5796,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7695,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.5743,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7577,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3524,
+      "rule_score": 0.0,
+      "embedding_score": 0.7831,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3495,
+      "rule_score": 0.0,
+      "embedding_score": 0.7767,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3476,
+      "rule_score": 0.0,
+      "embedding_score": 0.7724,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.343,
+      "rule_score": 0.0,
+      "embedding_score": 0.7623,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.3429,
+      "rule_score": 0.0,
+      "embedding_score": 0.7619,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4",
+      "score": 0.3414,
+      "rule_score": 0.0,
+      "embedding_score": 0.7587,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2703,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4348
+    },
+    {
+      "id": "5.5.1",
+      "score": 0.2589,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1159
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Heinenoordtunnel'in yenilenmesi, yeni teknik sistemlerin (duman dedektörü, orta tünel kanalı, basınç sistemi) devreye alınması ve acil servislerin bu sistemlerle nasıl daha etkili çalışacağı üzerine odaklanmaktadır. Bu içerik, tünelin işletme, bakım ve acil durum yönetimi süreçlerini kapsayan 5.4 bölümüne (Tünel Bakım-Onarım ve İşletme) doğrudan karşılık gelmektedir. Ayrıca, sistemin günlük",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:7",
+    "embeddings:8",
+    "top=5.4:0.5796 gap=0.005 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,84 @@
+{
+  "document_id": "ING_987a2de49a6cbf23c054",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Kaynaklar",
+      "source": "original_file",
+      "confidence": 0.3,
+      "inferred": true,
+      "reason": "no heading or package title; fell back to the filename"
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Mehmet Çelikkaya"
+      ],
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": "30",
+      "source": "ooxml_properties",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "language",
+      "value": "tr",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "thesis",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: yüksek lisans tezi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "cost",
+        "portal",
+        "support_systems",
+        "tbm"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; support_systems:destek sistem; portal:portal; cost:maliyet; tunnel_general:tünel"
+    }
+  ]
+}

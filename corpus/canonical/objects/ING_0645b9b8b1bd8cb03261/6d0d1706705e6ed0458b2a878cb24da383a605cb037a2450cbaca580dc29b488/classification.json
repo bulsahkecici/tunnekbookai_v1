@@ -1,0 +1,110 @@
+{
+  "final_primary_section": "2.1.2",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.578,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0005",
+        "PARA0003",
+        "PARA0005",
+        "LIST0032",
+        "LIST0046"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1.2",
+      "score": 0.578,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7659,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3508,
+      "rule_score": 0.0,
+      "embedding_score": 0.7795,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.3485,
+      "rule_score": 0.0,
+      "embedding_score": 0.7744,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3461,
+      "rule_score": 0.0,
+      "embedding_score": 0.7692,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3446,
+      "rule_score": 0.0,
+      "embedding_score": 0.7657,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3435,
+      "rule_score": 0.0,
+      "embedding_score": 0.7634,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3416,
+      "rule_score": 0.0,
+      "embedding_score": 0.7592,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3412,
+      "rule_score": 0.0,
+      "embedding_score": 0.7582,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.2947,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0984
+    },
+    {
+      "id": "1",
+      "score": 0.2817,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4918
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:11",
+    "embeddings:8",
+    "top=2.1.2:0.578 gap=0.227 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -32,6 +32,8 @@ from .sources import DiscoveredInput
 from .sources import manual_inbox, papercrawler_contract
 from .state import IngestState, State
 
+STOPPED_EXIT_CODE = 75
+
 def _now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
@@ -303,11 +305,20 @@ def _run(inputs: list[DiscoveredInput], skipped: list[dict], args) -> int:
     canonical_documents = _canonical_documents()
     services = None
     callback = getattr(args, "outcome_callback", None)
+    progress_callback = getattr(args, "progress_callback", None)
+    should_stop = getattr(args, "should_stop", None)
+    stopped = False
     for row in unreadable:
         failed += 1
         print(f"  FAILED (unreadable): {row['input_path']}: {row['error']}")
 
     for doc_id, group in groups.items():
+        if should_stop and should_stop():
+            stopped = True
+            print("  SAFE STOP requested; stopping before the next document.")
+            break
+        if progress_callback:
+            progress_callback({"event": "DOCUMENT_STARTED", "document_id": doc_id})
         items = group["items"]
         primary = items[0]
         sha = group["sha256"]
@@ -438,6 +449,8 @@ def _run(inputs: list[DiscoveredInput], skipped: list[dict], args) -> int:
     if services is not None:
         _write_quality_summary(outcomes, services)
     _print_summary(inputs, outcomes, archived, reused, failed, manifest_rows, services)
+    if stopped:
+        return STOPPED_EXIT_CODE
     return 1 if failed or any(outcome.state is State.FAILED for outcome in outcomes) else 0
 
 

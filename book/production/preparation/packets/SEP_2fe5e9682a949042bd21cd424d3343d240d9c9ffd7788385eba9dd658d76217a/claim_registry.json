@@ -1,0 +1,513 @@
+{
+  "claim_count": 13,
+  "claims": [
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 21,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_20541f5395838974f704/704f1481dd913bae1fce883bc671ee26e1a126517bc80eae0c721acb9015f34f/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "ea56192850930a262600eb6ab3a7279006d02505f2f9a16c44ca1362f81729bb",
+      "chunk_id": "ING_20541f5395838974f704_CH_3edd1eabcd",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_142e3d1b1191902385ecdf02fc3634f202801ac7940ba2f3e4eb2b3acc21fdf7",
+      "claim_text": "References\nW. Qi, J. Shen, H. Zhou, Y. Zhang, Hard-rock tunnel lithology prediction with tbm construction big data using a globalattention-mechanism-based lstm network, Automation in Construction 125 (2021) 103647. doi:https://doi.org/10.1016/j.autcon.2021.103647 . URL https://www.sciencedirect.com/science/article/pii/ S0926580521000984\n\nS.-S. Leu, T. J. W. Adi, Probabilistic prediction of tunnel geology using a hybrid neural-hmm, Engineering Applications of Artificial Intelligence 24 (4) (2011) 658-665. doi:https: //doi.org/10.1016/j.engappai.2011.02.010 .\n\nURL https://www.sciencedirect.com/science/article/pii/ S0952197611000340\n\nQ. Zhang, Z. Liu, J. Tan, Prediction of geological conditions for a tunnel\n\nboring machine using big operational data, Automation in Construction 100 (2019) 73-83. doi:https://doi.org/10.1016/j.autcon.2018.12.022 .\n\nURL https://www.sciencedirect.com/science/article/pii/ S0926580518308628\n\nJ. Zhao, M. Shi, G. Hu, X. Song, C. Zhang, D. Tao, W. Wu, A data-driven framework for tunnel geological-type prediction based on tbm operating data, IEEE Access 7 (2019) 66703-66713. doi:10.1109/ACCESS.2019.2917756 .\n\nC. Zhang, M. Liang, X. Song, L. Liu, H. Wang, W. Li, M. Shi, Generative adversarial network for geological prediction based on tbm operational data, Mechanical Systems and Signal Processing 162 (2022) 108035. doi:https://doi.org/10.1016/j.ymssp.2021.108035 . URL https://www.sciencedirect.com/science/article/pii/ S0888327021004271\n\nP. Ren, Y. Xiao, X. Chang, P. Huang, Z. Li, X. Chen, X. Wang, A survey of deep active learning, CoRR abs/2009.00236 (2020). arXiv:2009.00236 . URL https://arxiv.org/abs/2009.00236\n\nY. Gal, R. Islam, Z. Ghahramani, Deep bayesian active learning with image data, in: D. Precup, Y. W. Teh (Eds.), International Conference on Machine Learning, Vol. 70 of Proceedings of Machine Learning Research, PMLR, PMLR, 2017, pp. 1183-1192. URL https://proceedings.mlr.press/v70/gal17a.html\n\nM. Goudjil, M. Koudil, M. Bedda, N. Ghoggali, A novel active learning method using svm for text classification, International Journal of Automation and Computing 15 (3) (2018) 290-298. URL https://doi.org/10.1007/s11633-015-0912-z\n\nX. Lin, D. Parikh, Active learning for visual question answering: An empirical study, arXiv preprint arXiv:1711.01732 (2017). URL http://arxiv.org/abs/1711.01732\n\nY. Li, B. Fan, W. Zhang, W. Ding, J. Yin, Deep active learning for object detection, Information Sciences 579 (2021) 418-433. doi:https://doi.org/10.1016/j.ins.2021.08.019 .\n\nURL https://www.sciencedirect.com/science/article/pii/ S0020025521008197\n\nJ. Kim, J. Hwang, S. Chi, J. Seo, Towards database-free visionbased monitoring on construction sites: A deep active learning approach, Automation in Construction 120 (2020) 103376. doi:https://doi.org/10.1016/j.autcon.2020.103376 .\n\nURL https://www.sciencedirect.com/science/article/pii/ S0926580520309560\n\nD. D. Lewis, W. A. Gale, A sequential algorithm for training text classifiers, in: Proceedings of the 17th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR '94, SpringerVerlag, Berlin, Heidelberg, 1994, p. 3-12.\n\nT. Scheffer, C. Decomain, S. Wrobel, Active hidden markov models for information extraction, in: Proceedings of the 4th International Conference on Advances in Intelligent Data Analysis, IDA '01, Springer-Verlag, Berlin, Heidelberg, 2001, p. 309-318.\n\nC. E. Shannon, A mathematical theory of communication, SIGMOBILE Mob. Comput. Commun. Rev. 5 (1) (2001) 3-55. doi:10.1145/584091. 584093 .",
+      "conditions": [],
+      "document_id": "ING_20541f5395838974f704",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_20541f5395838974f704:ING_20541f5395838974f704_CH_3edd1eabcd:pages=30-32;canonical=corpus/canonical/objects/ING_20541f5395838974f704/704f1481dd913bae1fce883bc671ee26e1a126517bc80eae0c721acb9015f34f/chunks/embedding_ready.jsonl#L21",
+      "page_end": 32,
+      "page_start": 30,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "6.2.2-Q30": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2"
+      ],
+      "section_id": "6.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "2.2",
+      "supporting_question_ids": [
+        "6.2.2-Q30"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 5,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_9dd429f6d4827ed95a5f/5b6dbe7754f5271638f699a220975ca2a2d12627839e788b5b4bf906a089b5b7/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "f8e1e0d9858bc08a9693e01f4de7ef0228213dfd848f6880be4373220afa551c",
+      "chunk_id": "ING_9dd429f6d4827ed95a5f_CH_0ade558828",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_3ac9fd2091ea41470740de8fe0381dd1a68890de0aba818ee2983583a8757a53",
+      "claim_text": "International:\nMore specifically, relevant reports, guidelines and material were researched from the following national and international authorities, agencies, associations, and organizations: United States: American Association of State Highway and Transportation Officials (AASHTO) American Concrete Institute (ACI) American Society of Civil Engineers (ASCE) ASTM International (ASTM) Federal Highway Administration (FHWA) National Cooperative Highway Research Project (NCHRP) National Fire Protection Association (NFPA)\n\nInternational:\n\nAustrian Society for Concrete and Construction Technology (ÖVBB)\n\nBritish Standards Institute (BSI)\n\nBritish Tunneling Society / Institution of Civil Engineers (BTS, ICE)\n\nEuropean Commission Joint Research Center: Eurocode (EN)\n\nFederal German Railway Authority (DB)\n\nFrench Tunneling and Underground Space Association (AFTES)\n\nGerman Committee for Reinforced Concrete (DAfStb)\n\nGerman Federal Highway Research Institute (BAST)\n\nGerman Society for Concrete and Construction Technology (DBV)\n\nGerman Tunneling Committee of the International Tunneling Association (DAUB)\n\nInternational Federation for Structural Concrete ( fib )\n\nInternational Tunneling Association (ITA-AITES)\n\nInternational Union of Laboratories and Experts in Construction Materials, Systems and Structures (RILEM)\n\nItalian National Research Council (CNR)\n\nJapan Society of Civil Engineers - Standards (JSCE)\n\nSwiss Society of Engineers and Architects (SIA )\n\nWorld Road Association (PIARC)\n\nResearch Association for Tunnel and Transportation Facilities (STUVA)\n\nPublished research articles from the following scientific journals were obtained and included in the research database:\n\nASCE Journal of Materials in Civil Engineering (American Society of Civil Engineers)\n\nASCE Journal of Structural Engineering (American Society of Civil Engineers)\n\nComposite Structures Journal (Elsevier)\n\nEngineering Structures Journal (Elsevier)\n\nGeomechanics and Tunneling Journal (Austrian Society of Geomechanics)\n\nGeotechnical and Geological Journal (Springer)\n\nInternational Journal of Numerical and Analytical Methods in Geomechanics (Wiley)\n\nJournal of Tunneling and Underground Space Technology (Elsevier)\n\nJSCE Journal of Tunnel Engineering (Japan Society of Civil Engineers)\n\nMaterials and Structures (Springer / RILEM)\n\nStructural Concrete - The Journal of the fib (Wiley / fib )\n\nStructural Concrete Journal (Ernst & Sohn)\n\nAdditionally,  relevant  papers from  international  conferences  were  reviewed  from  the following sources:\n\nRapid Excavation and Tunneling Conference (RETC)\n\nNorth American Tunneling Conference (NAT)\n\nITA - World Tunnel Congress (WTC)\n\nTunneling Association of Canada Conference (TAC)\n\nThis  diversity  of  sources  provided  information  while  also  identifying  knowledge  gaps  and independent research in similar topics discussed later in this report.\n\nThe literature survey was conducted using the following stepped approach:\n\nAssembling  technical  publications  including  code  standards,  scholarly  papers,  project specific design criteria, manufacturers' data, national and international experience,\n\nSynthesizing  collected  information  to  summarize  historical  development  and  highlight knowledge gaps, inconsistencies and discrepancies of:\n\no Historical development of large diameter segmental lined road tunnels;\n\no Current segment design approaches, including determination of load effects, load combinations, and load factors;\n\no Current ring detailing approaches, including segmentation, hardware, and geometry;\n\no Materials,  material  testing,  theoretical  and  actual  material  behavior,  durability, corrosion  and  deterioration  factors,  fire  resistance/damage  and  concrete  mix designs;\n\no Fabrication and construction practices, including handling, installation practices, quality  processes  (including  inspection  during  construction,  commissioning  and service), worker safety, cost and schedule,\n\nSummarizing  key  findings  and  identifying  major  knowledge  gaps  and  suggestions  for future research.",
+      "conditions": [],
+      "document_id": "ING_9dd429f6d4827ed95a5f",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_9dd429f6d4827ed95a5f:ING_9dd429f6d4827ed95a5f_CH_0ade558828:pages=16-17;canonical=corpus/canonical/objects/ING_9dd429f6d4827ed95a5f/5b6dbe7754f5271638f699a220975ca2a2d12627839e788b5b4bf906a089b5b7/chunks/embedding_ready.jsonl#L5",
+      "page_end": 17,
+      "page_start": 16,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "6.2.2-Q27": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2"
+      ],
+      "section_id": "6.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "2.1.2",
+      "supporting_question_ids": [
+        "6.2.2-Q27"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 27,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "95b4e370f80c92aaaddb58d3cf67ea61d4b5ac772f80bdd40e9b9e81a05f5360",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_b9ec05e4ec",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_460e50fb57c55e18041aa3781a6176cb7f1507f3a6c00b44ed73877f7f3ea531",
+      "claim_text": "3.5.3. LCC analizinin karar almada kullanımı\nrağmen performansı arttırması: Satın alma kararlarında tedarik maliyeti, seçeneklere değer biçilmesinde gözönünde bulundurulacak tek faktör değildir. Yaşam döngüsü maliyet analizinin dikkate aldığı maliyetler, değiş-tokuş yapılmış değişik satın alma seçeneklerinin özelliklerine göre yapılandırılır. Başarılı bir yaşam döngüsü maliyet analizinin getirdiği diğer temel faydalar ise şunlardır (Aytok, 2006):  Gelecekteki kaynak ihtiyacının tahmin edilmesini ve belirlenmesini sağlar.  Ar-Ge ve öncelikli tasarım kararlarını etkiler.  Stratejik planlamayı ve bütçelemeyi destekler.\n\n3.5.3. LCC analizinin karar almada kullanımı\n\nBir  bütün  olarak  yaşam  döngüsü  maliyet  analizi,  sistemlerin  tasarım sürecini  etkileyerek,  sistemin  yaşam  döngüsü  boyunca ortaya çıkan maliyetlerin toplamını en aza indirecek kararların alınmasında da bir araç olarak kullanılmaktadır.\n\nYaşam döngüsü maliyet analizi, alternatifler  arasından maliyet ve  yaşam süresi  açısından  en  uygun  olan  alternatifin  tespit  edilmesi  ve  gerekli  kararın alınmasında  kullanılabilecek  bir  modeldir.  Yaşam  döngüsü  maliyet  analizi,  bir tesis/işletme  veya  ürün/proses  içerisinde  gerçekleştirilmesi  istenen  çok  sayıdaki yatırım  projelerinin  tamamının  birden  yapılması  için  ödenek  yetersizliği  olması durumlarında,  mevcut  ödeneğin  paylaştırılması için hangi projelere öncelik verileceğinin kararlaştırılmasında da kullanılabilir. Yaşam  döngüsü maliyet analizinin  pek  çok  uygulama  alanı  mevcut  olup,  özellikle  aşağıdaki  konularda değerlendirme yapılmasında da kullanılmaktadır (Aytok, 2006).\n\n Alternatif sistem/ürünün işlevsel senaryoları ve kullanım yaklaşımları,\n\n Alternatif sistem/ürünün işletilmesi, bakım onarım aşamaları,\n\n Alternatif sistem/ürünün tasarım özellikleri (ünitelerin tasarımı, donanım/yazılım seçimi, güvenilirlik, bakım kolaylığı, vb.),\n\n Bir malzeme/parça için alternatif tedarik kaynaklarının seçimi,\n\n Alternatif  üretim  yöntemlerinden  birinin  seçimi  (sürekli/kesintili  üretim, üretim hatlarının miktarı, vb.),\n\n Alternatif dağıtım yollarının, ulaştırma yöntemlerinin, yedek parça depolarının yerlerinin incelenmesi, vb.,\n\n Ürünü elden çıkarmak ve yeniden değerlendirmek için alternatif yöntemlerin belirlenmesi,\n\n Alternatif yönetim  usulleri ve bunların sistem üzerindeki etkilerinin incelenmesi.\n\nYaşam döngüsü maliyet analizi farklı ulaşım seçenekleri (otomobil, uçak, raylı  sistemler),  bilgisayarlar,  ağır  endüstri  ekipmanları  ve  askeri  sistemlerde kullanıldığı  gibi  bunların  yanında  oluşturulacak  modelin  kapsamına  göre  de değişik uygulamalara sahiptir (GB, 2004). Bu uygulamalardan bazıları Şekil 3.3' te gösterilmiştir.\n\nŞekil 3.3. Yaşam döngüsü maliyet analizi uygulamaları (Aytok, 2006).",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_b9ec05e4ec:pages=61-62;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L27",
+      "page_end": 62,
+      "page_start": 61,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "6.2.2-Q31": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "6.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "6.2.2-Q31"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 26,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "019825a092683e121c0ce8731e44338df00ae7dd1024bcf1d732bcf371c02d00",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_360e05308c",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_46f9af84d73ab4543884b6da6e9e430ae61933c1ed391d336c2e311d38daf604",
+      "claim_text": "3.5.1. IEC-60300-3-3: Uygulama Kılavuzu\nda, diğer ülkelerde de gündeme geldiği ve çalışmalar yapıldığı görülmektedir. İngiltere'de 'Yaşam Döngüsü Maliyetlerine Göre Tasarım' proje grubu oluşturularak, proje yöneticilerinin maliyet ve performanslara ilişkin yapacakları analizler için, metodoloji geliştirilmeye çalışılmıştır. Halen Kanada Ulusal Savunma Bakanlığı, çeşitli iyileştirme çalışmaları ile yaşam döngüsü maliyet modelini ve metodolojisini, savunma malzemeleri tedarikinde uygulamakta ve savunma sanayi işletmelerinden, verecekleri tekliflerinde, yaşam döngüsü maliyetlerine ilişkin bilgileri de istemektedir (Aytok, 2006).\n\n3.5.1. IEC-60300-3-3: Uygulama Kılavuzu\n\nUluslararası Elektroteknik Komisyonu (International Electrotechnical Commission, IEC) elektrik ve elektronik alanlarda standardizasyon konularındaki sorunların çözümüyle ilgili işbirliğini teşvik eden, uluslararası kullanım için bazı uluslararası  standartlar,  teknik  raporlar  ve  kılavuzlar  gibi  yayınlar  yayınlamakla sorumlu olan dünya çapında bir kuruluştur.\n\nYaşam  döngüsü  maliyet  analizine  olan  büyük  ilgi  nedeniyle,  IEC,  1996 yılında  güvenilirliği  sağlamak  amacıyla,  yaşam  döngüsü  maliyetleriyle  ilgili önerilerin  ve  standartların  sunulduğu  bir  ölçüt  olan  IEC  60300  standardını yayınlamıştır. Daha sonra, 2004 yılında IEC 60300 standardına ait ' IEC 60300-33  (2004)  Yaşam  Döngüsü  Maliyet,  Uygulama  Kılavuzu  başlığı  altında  bu standardı yayınlanarak bugünkü  son  halini almıştır. Bu  standart içerisinde demiryolu altyapı çalışmalarında kullanılabilecek yaşam döngüsü maliyet modelinin oluşturulmasına birçok açıdan katkı sağlanmıştır (IEC, 2005).\n\nIEC 60300-3-3 standardı, Yaşam Döngüsü Maliyet kavramının genel bir girişi  ile  tüm  uygulamalarının içerildiği bir standart olarak ortaya çıkmıştır. IEC 60300-3-3 standardına göre, yaşam döngüsü maliyet analizinin aşamaları aşağıdaki gibi oluşturulmuştur (IEC, 2005):\n\n Araştırma ve geliştirme maliyeti\n\n Yapım ve üretim maliyeti\n\n İşletme maliyeti\n\n Elden çıkarma maliyeti\n\n3.5.2. LCC analizinin faydaları ve kısıtları\n\nYaşam  Döngüsü  Maliyet  Analizi'nin  4  temel  faydası  vardır  ve  bunlar aşağıdaki gibidir (Aytok, 2006):\n\n Satın almadaki rekabet seçeneklerini değerlendirmesi: Yaşam döngüsü maliyet  analizi  teknikleri,  temel  yaşam  döngüsü  maliyetlerinden  yola çıkarak rekabet seçeneklerinin değerlendirilmesine imkan verir.\n\n Toplam  maliyetlerden  haberdar  olmayı  geliştirmesi: Yaşam  döngüsü maliyet analizi tekniklerinin uygulanması, satış için gerekli olan maliyetleri ve kaynakları düzenleyen gelişmiş haber almayı sağlar. Böylelikle  yönetim  gücünün  büyük  bir  kısmı,  satın  almanın  daha  çok maliyet-etkin alanlarına harcanır.\n\n Öngörüleri  geliştirmesi: Yaşam  döngüsü  maliyet  analizi  tekniklerinin kullanılmasıyla,  toplam  satın  alma,  maliyet  tahminlerinin  daha  gerçekçi olmasını sağlar ve bu da tüm seviyelerde etkin karar almayı kolaylaştırır.\n\n Değiş-tokuş maliyetlerine rağmen performansı arttırması: Satın alma kararlarında  tedarik  maliyeti,  seçeneklere  değer  biçilmesinde  gözönünde bulundurulacak  tek  faktör  değildir.  Yaşam  döngüsü  maliyet  analizinin dikkate aldığı maliyetler, değiş-tokuş yapılmış değişik satın alma seçeneklerinin özelliklerine göre yapılandırılır.\n\nBaşarılı bir yaşam  döngüsü  maliyet  analizinin  getirdiği diğer temel faydalar ise şunlardır (Aytok, 2006):\n\n Gelecekteki kaynak ihtiyacının tahmin edilmesini ve belirlenmesini sağlar.\n\n Ar-Ge ve öncelikli tasarım kararlarını etkiler.\n\n Stratejik planlamayı ve bütçelemeyi destekler.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_360e05308c:pages=59-60;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L26",
+      "page_end": 60,
+      "page_start": 59,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "6.2.2-Q31": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "6.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "6.2.2-Q31"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 3,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_c3a0e31de495e7b755c5/0b578bd2ce9fde9eccf4be99a84e5787d59123a3b9761cd305de9006b4a920ef/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "1d964dce57600cc28069459ebbf03806c587394264a8b9217c8d2ae61311dadd",
+      "chunk_id": "ING_c3a0e31de495e7b755c5_CH_b9152cf09c",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_49b10e5fc8069126b35bd987c41bd5c19af18bd391f1814ed5b8a4be7cbe79fe",
+      "claim_text": "Giriş\nile görüşmeler yapılmıştır. Çalışma sonucunda, konut, ticari yapılar ve altyapı işleri konusunda uzmanlaşmış üst düzey çalışanların, maliyet kalemleri üzerinden yürüttüğü alternatif maliyet analizi çalışmaları ve bu çalışmalar sırasında değerlendirilen maliyet faktörleri tespit edilmiştir. Bu çalışmadan elde edilen bulguların, alternatif maliyet analizi hesaplama ve yönetimi konularında yeni yaklaşımlar geliştirmeyi hedefleyen akademik çalışmalara temel olması ve sektör çalışanlarının alternatif maliyet analizi çalışmalarını desteklemesi hedeflenmiştir. Anahtar sözcükler: Alternatif Maliyet Analizi, İhale, Maliyet Analizi\n\nGiriş\n\nİnşaat  sektörü  son  on  yıllarda  hızlı  bir  gelişim  göstermektedir  ve  2020  yılı  sonunda inşaat  endüstrisinin  tüm  dünya  genelinde  10.3  trilyon  dolarlık  bir  hacme  ulaşması öngörülmektedir [1]. Küreselleşmenin etkisiyle yerel marketler dünya genelinden tüm yüklenicilere  açık  hale  gelmiştir  ve  inşaat  firmaları  ülke  sınırlarının  ötesinde  proje gerçekleştirmeye başlamıştır [2]. Yüklenici firma sayısındaki artış, inşaat sektöründeki rekabeti de arttırmış ve kar marjlarını düşürmüştü. Bu sebeple, yüklenici firmaların sektör içerisinde rekabet etmeleri daha zor hale gelmiştir. Rekabet koşullarının ağırlaşması ile yüklenicilerin ihale ve inşaat öncesinde kısa zamanda doğru ve etkin maliyet analizi çalışmaları yürütmesi zorunlu hale gelmiştir [3]. İhale ve inşaat öncesi süreçteki maliyet çalışmaları büyük öneme sahip olmasına rağmen, bu çalışmalar özellikle süre kıstasına bağlı olarak yeterli ve gerekli detay düzeyinde yapılamamaktadır [4].\n\nProje maliyetleri temel olarak proje doğrudan ve dolaylı maliyetlerinin hesaplanmasını kapsamakta ve maliyet ya da ihale mühendisleri tarafından mevcut veriler kullanılarak hesaplanmaktadır [5]. Alternatif maliyet analizi ise toplam proje maliyetini etkileyebilecek ekip, ekipman, yapım yöntemi, hava koşulları vb. gibi tüm faktörlerin farklı senaryolar için verdiği sonuçların incelenmesi ve bu incelemeler neticesinde en uygun proje maliyetinin ve ilgili senaryonun belirlenmesi çalışmalarını kapsamaktadır. Büyük  ve  karmaşık  projelerde  detaylı  ve  de  kapsamlı  bir  alternatif  maliyet  analizi çalışması yürütülmesinin son derece zor olduğu görülmektedir. Bunun sebebi, alternatif maliyet analizi çalışmalarının sistematik ve ortak bir yaklaşım ile yürütülememesidir.\n\nBu  bildirinin  verilerinin  elde  edildiği  ana  çalışmada  alternatif  maliyet  analizi  çalışmalarında dikkate alınan faktörler belirlenmiştir. Çalışmanın ön sonuçlarının sunulduğu bu bildiride de güncel alternatif maliyet analizi uygulamalarında değerlendirilen faktörlerin ve bu uygulamaların  kısıtlarının  ortaya  konulması  amaçlanmıştır.  Bu  amaç  doğrultusunda, öncelikle  alternatif  maliyet  analizinin  gerekliliğini  ortaya  koyan  bir  vaka  çalışması yapılarak  tünel  açma  makinesinin  kurulmasında  ve  işletilmesinde  dikkate  alınan alternatif yöntemler ve maliyetlerini açıklayan bir vaka çalışması gerçekleştirilmiştir. Daha sonra güncel projeler için ihale ve inşaat öncesi dönemlerde alternatif maliyet analizi uygulamalarını incelemek amacıyla mülakat yöntemi ile görüşmeler yapılmıştır. Çalışma sonucunda, konut, ticari yapılar ve altyapı işleri konusunda uzmanlaşmış üst düzey çalışanların,  maliyet  kalemleri  üzerinden  alternatif  maliyet  analizi  çalışmaları kapsamında değerlendirdikleri faktörler tespit edilmiştir. Ön değerlendirme sonuçlarını içeren  bu  çalışmadan  elde  edilen  bulguların,  alternatif  maliyet  analizi  hesaplama  ve yönetimi konularında yeni yaklaşımlar geliştirmeyi hedefleyen akademik çalışmalara temel olması ve sektör çalışanlarının alternatif maliyet analizi çalışmalarını desteklemesi hedeflenmiştir.",
+      "conditions": [],
+      "document_id": "ING_c3a0e31de495e7b755c5",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_c3a0e31de495e7b755c5:ING_c3a0e31de495e7b755c5_CH_b9152cf09c:pages=2;canonical=corpus/canonical/objects/ING_c3a0e31de495e7b755c5/0b578bd2ce9fde9eccf4be99a84e5787d59123a3b9761cd305de9006b4a920ef/chunks/embedding_ready.jsonl#L3",
+      "page_end": 2,
+      "page_start": 2,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "6.2.2-Q36": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "6.2",
+        "6.1"
+      ],
+      "section_id": "6.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "6.1.3",
+      "supporting_question_ids": [
+        "6.2.2-Q36"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 4,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_ef8bfe928d0936ae50fc/c4b0c5fe163c05d6f0ce7ea72d856cf2e6fbc8be4c3dd4ff4f54814824611ca7/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "730bc81fbfdef282ad1f78e9c448ef84226159760e538b903f013eec3dfbd76b",
+      "chunk_id": "ING_ef8bfe928d0936ae50fc_CH_5746a1bc39",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_4d9a1b4b40f6170f399d2f2cf6a06f2eed40cc9ffd2f0922b9d4431f2ddff77e",
+      "claim_text": "Literatür Taraması\nmülakat yöntemi ile görüşmeler yapılmıştır. Çalışma sonucunda, konut, ticari yapılar ve altyapı işleri konusunda uzmanlaşmış üst düzey çalışanların, maliyet kalemleri üzerinden alternatif maliyet analizi çalışmaları kapsamında değerlendirdikleri faktörler tespit edilmiştir. Ön değerlendirme sonuçlarını içeren bu çalışmadan elde edilen bulguların, alternatif maliyet analizi hesaplama ve yönetimi konularında yeni yaklaşımlar geliştirmeyi hedefleyen akademik çalışmalara temel olması ve sektör çalışanlarının alternatif maliyet analizi çalışmalarını desteklemesi hedeflenmiştir.\n\nLiteratür Taraması\n\nBir yapım projesi kapsamında gerçekleştirilen çalışmalar temel olarak inşaat öncesi ve inşaat sonrası olarak iki aşamada incelenebilir. İhale maliyet hazırlığı çalışmaları inşaat öncesi çalışmaların temelini oluşturur. Larson ve Gray [6] yapım projesi maliyetlerini üç temel başlık altında toplamaktadır:\n\nDoğrudan maliyetler\n\nDolaylı maliyetler\n\nGenel ve idari maliyetler (projenin dolaylı maliyetleri)\n\nDoğrudan maliyetler belirli bir iş paketine yüklenebilen, belirli bir iş kalemine bağlı maliyetlerdir. İsçilik, malzeme, ekipman, alt yüklenici ve el aletleri maliyetleri bir projedeki doğrudan maliyetlerdir. Dolaylı maliyetler ise bir iş paketine yüklenmeyen ve proje yapım aşaması boyunca devam eden maliyetlerdir [6]. Ancak projeye özgü maliyetler olduğundan bir yandan da projenin doğrudan maliyetini oluşturur. Maaşlar, kira ödemeleri, tedarik ve yalnızca o projeye özgü kullanılan ekipman maliyetleri dolaylı maliyetler arasında sayılabilmektedir. Bu maliyetler proje süresine doğrudan bağlı olan maliyetler olduğundan proje süresindeki herhangi bir kısalma dolaylı maliyetlerde düşüş sağlamaktadır.\n\nProje genel giderleri toplam proje maliyetinin yaklaşık 5%-15%’i tutarken, genel ve idari maliyetler toplam proje bedelinin 2%-5%’si kadardır [7]. Bu oranlar göstermektedir ki doğrudan maliyetler proje toplam bedelinin büyük çoğunluğunu oluşturmaktadır. Buna bağlı olarak da doğrudan maliyetleri azaltmak yüklenicilerin yeni iş almasını kolaylaştırırken proje kârlılığını da arttırmaktadır. Bu durum, ihale ve inşaat öncesi süreçteki maliyet ve alternatif maliyet analizi çalışmalarının önemini göstermektedir.\n\nProje maliyet hesabı, proje süresinin ve mevcut bilgiler ışığında olası miktarlara bağlı olarak malzeme, isçilik, ekipman ve altyüklenici maliyetlerinin tahminidir [8]. Proje maliyeti tahmini yürütürken dikkate alınması gereken çok sayıda maliyet faktörü bulunmaktadır. Proje maliyet tahmini tasarım maliyetinin, malzeme, ekip, ekipman, el aletleri, denetim ve de proje genel gider maliyetlerinin tahminini içermektedir [9]. Proje bütçelendirmesini etkileyen faktörler ise aşağıdaki şekilde sıralanabilir [10]; [8]; [11]:\n\nProjenin büyüklüğü,\n\nProjenin karmaşıklığı,\n\nYapılabilirlik,\n\nSaha lokasyonu ve kısıtları,\n\nİnşaat süresi,\n\nŞartnamelerin açıklığı ve anlaşılırlığı,\n\nProje takımının deneyimi,\n\nYönetimsel faktörler,\n\nPiyasa ve ekonomik koşullar,\n\nProje maliyeti tahmin sureci ve yaklaşımları,\n\nTeklif stratejileri.\n\nLiteratürde inşaat projeleri maliyet hesaplarına dair pek çok çalışma bulunmaktadır [12]; [13]; [14]. Jackson [8] proje maliyet hesabi basamaklarını şöyle açıklamıştır: Yükleniciler ilk basamak olarak ihale plan ve şartnamelerini incelemekte ve buna bağlı olarak malzeme listesini hazırlamaktadırlar. Bu süreçte işverenin talep ve yöntemleri doğrultusunda yükleniciler eğer yapılıyor ise saha ziyaretlerine ve ihale öncesi toplantılara katılmakta, projeyle ilgili daha detaylı veriler elde etmektedirler. Öngörülen ihale stratejisine bağlı olarak altyükleniciye verilecek işler belirlenmekte, kalan işlerle ilgili olarak ekip ve ekipman maliyetleri hesaplanmaktadır. Eş zamanlı olarak da metraj çalışmaları yürütülmekte ve malzeme giderleri belirlenmektedir. Elde edilen tüm gider kalemlerinin toplanması, genel gider maliyetlerinin eklenmesi ile ihale dosyası üst yönetimin görüşüne sunulmakta ve üst yönetimin belirlediği kar marjının eklenmesi ile de ihale bütçesi sonlandırılmaktadır.\n\nLiteratürde yüklenicilerin maliyet hesaplama yöntemlerine dair çalışmalar bulunmasına rağmen alternatif maliyet analizi çalışmaları oldukça sınırlıdır [15]; [16]; [12]. Literatürde yer alan alternatif maliyet analiz çalışmaları incelendiğinde, bu çalışmaların sadece belirli ekipman seçimlerinin alternatiflerinin oluşturulması üzerine odaklandığı görülmektedir [17]; [18]. Örneğin Irizarry ve Karan çalışmalarında gelişen otomasyon teknolojileri ile kule vinç gibi inşaat ekipmanlarının seçim ve kullanım etkilerinin proje süresi ve maliyetine etkilerini incelemişlerdir. Bunun yanında Ulubeyli ve Kazaz ise beton pompalarının seçim kriterleri üzerine odaklanmışlardır.\n\nUğur [19] yüklenicilerin yurtiçi ve yurtdışı projeleri için maliyet hesabı yaparken kullandıkları yöntemleri ve bu yöntemlerin katılımcılar arasındaki kullanım yüzdelerini listelemiştir. Çalışmadan elde edilen veriler göstermektedir ki hem yurtiçi hem de yurtdışı ihalelerin maliyet hesaplarında, benzer işlerle karşılaştırmak, önceki uygulamalardan elde edilen verileri kullanmak ve birim fiyata dayalı keşif yapmak, yüklenicilerin en çok başvurduğu üç yöntemi oluşturmaktadır. Waly ve Thabet [20] de maliyet çalışmaları sırasında uzmanların firmaların önceki projelerindeki bilgi birikimlerini, kişisel bilgi ve deneyimleri ile birleştirerek karar verdiklerini belirtmişlerdir. Literatürdeki bulgular göstermektedir ki maliyet hesapları kişisel bilgi ve deneyimler bazlı olacak şekilde yapılmakta; bu da bu çalışmaların taraflı ve de sınırlı olmasına neden olmaktadır. Benzer bir yaklaşım ile yürütülen alternatif maliyet analizi çalışmaları da çalışmayı yürüten kişinin deneyim ve bilgi birikimi sınırları içerisinde kalmakta, kapsayıcı ve detaylı olmaktan uzak bir hal almaktadır.",
+      "conditions": [],
+      "document_id": "ING_ef8bfe928d0936ae50fc",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_ef8bfe928d0936ae50fc:ING_ef8bfe928d0936ae50fc_CH_5746a1bc39:canonical=corpus/canonical/objects/ING_ef8bfe928d0936ae50fc/c4b0c5fe163c05d6f0ce7ea72d856cf2e6fbc8be4c3dd4ff4f54814824611ca7/chunks/embedding_ready.jsonl#L4",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "6.2.2-Q36": "PARTIAL",
+        "6.2.2-Q43": "PARTIAL",
+        "6.2.2-Q44": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "6.1",
+        "6.2"
+      ],
+      "section_id": "6.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "6.1.3",
+      "supporting_question_ids": [
+        "6.2.2-Q36",
+        "6.2.2-Q43",
+        "6.2.2-Q44"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 15,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_e2bb18e3b96f9c0a8161/1fc43cf81b8bfc4f8aeb11d5cbec403a81a0273c3c080c6b4bd2d2bfaa9333e6/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "81699923f284ef13747ae5cd81b85ea03ef489430c012aa39288d96f4f036383",
+      "chunk_id": "ING_e2bb18e3b96f9c0a8161_CH_351b96337f",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_898747216222d9d15a6977695b744ed7fcd5dd977a42ed6553b632e3f183a298",
+      "claim_text": "CONSENT FOR PUBLICATION\none of the main drivers of cost overrun and schedule delay is the complexity of the infrastructure, including the length of the tunnel, the total length of tunnel tubes, the number of cross-passage tubes, and the delivery system. The importance of project complexity in driving the performance of megaprojects is not necessarily new knowledge, but the analyses conducted in this study help to quantify and validate this important impact factor for tunnel megaprojects.\n\nCONSENT FOR PUBLICATION\n\nThe contributions of all participants were voluntary and we have therefore obtained their consent.\n\nAVAILABILITY OF DATA AND MATERIALS\n\nThe data supporting the findings of the article is available within  this  article  and  Archived  Datasets  at  https://www. dropbox.com/sh/4ftjghea2tq0h1u/AADzZNfUpYdgNiD58 dq9InA0a?dl=0'\n\nFUNDING\n\nNone.\n\nCONFLICT OF INTEREST\n\nThe  author  declares  no  conflict  of  interest,  financial  or otherwise.\n\nACKNOWLEDGEMENTS\n\nThe authors are grateful to TELT Tunnel Euralpin Lyon Turin, public promoter of the alpine base tunnel from Turin to Lyon, for originating the need for this benchmarking research, establishing cooperation  with  Politecnico di  Torino,  and providing  active  collaboration  and  access  to  the  network  of tunnel  operators  worldwide  who  were  interviewed  for  data collection.  The  authors  also  wish  to  acknowledge  Ms.  Tea Turitto, a former graduate student at Politecnico di Torino, for her contribution in developing this research and preparation of the article.\n\nREFERENCES\n\nJudgev,  and  R.  Müller,  \"A  retrospective  look  at  our  evolving [1] understanding of project success\", Proj. Manage. J., vol. 36, no. 4, pp. 19-31, 2005.\n\n[http://dx.doi.org/10.1177/875697280503600403]\n\nC.C. Cantarelli,  B.  Flybjerg,  E.J.E.  Molin,  and  B.  van  Wee,  \"Cost [2] overruns in large-scale transportation infrastructure projects:\n\nExplanations  and  their  theoretical  embeddedness\", Eur.  J.  Transp. Infrastruct. Res., vol. 10, no. 1, pp. 5-18, 2010.\n\nMüller, and K. Judgev, \"Critical success factors in projects: Pinto, [3] Slevin,  and  Prescott  -  The  elucidation  of  project  success\", Int.  J. Managing Proj. Bus., vol. 5, no. 4, pp. 757-775, 2012.\n\n[http://dx.doi.org/10.1108/17538371211269040]\n\nLehtonen,  and  M.  Martinsuo,  \"Three  ways  to  fail  in  project [4] management: The role of project management methodology\", Proj. Perspect., vol. XXVIII, no. 1, pp. 6-11, 2006.\n\nN.J. Brookes, and G. Locatelli, \"Power plants as megaprojects: Using [5] empirics to shape policy, planning, and construction management\", Util. Policy, vol. 36, pp. 57-66, 2015.\n\n[http://dx.doi.org/10.1016/j.jup.2015.09.005]\n\nFlyvbjerg,  M.S.  Holm,  and  S.  Buhl,  \"Underestimating  Costs  in [6] Public Works Projects: Error or Lie?\", J. Am. Plann. Assoc., vol. 68, no. 3, pp. 279-295, 2007.\n\n[http://dx.doi.org/10.1080/01944360208976273]\n\nParaskevopoulou, and A. Benardos, \"Assessing the construction [7] cost of Greek transportation tunnel projects\", Tunn. Undergr. Space Technol., vol. 38, pp. 497-505, 2013.\n\n[http://dx.doi.org/10.1016/j.tust.2013.08.005]\n\nNarbaev, and A. De Marco, \"Earned value and cost contingency [8] management: A framework model for risk adjusted cost forecasting\", J. Mod. Proj. Management., vol. 4, no. 3, pp. 12-19, 2017.\n\nFlyvbjerg, N. Bruzelius, and W. Rothengatter, Megaprojects and [9] Risk. An Anatomy  of Ambition., Cambridge  University Press: Cambridge,  UK,  2003.\n\n[http://dx.doi.org/10.1017/CBO9781107050891]\n\nE.G.  Sinesilassie,  S.Z.S.  Tabish,  and  K.N.  Jha,  \"Critical  factors [10] affecting cost performance: a case of Ethiopian public construction projects\", Int. J . Construct. Managem.,, vol. 18, no. 2, pp. 108-119, 2017.\n\n[http://dx.doi.org/10.1080/15623599.2016.1277058]\n\nPinheiro  Catalão,  C.  Oliveira  Cruz,  and  J.M.  Sarmento,  \"The [11] determinants of cost deviations and overruns in transport projects, an endogenous models approach\", Transp. Policy, vol. 74, pp. 224-238, 2019.",
+      "conditions": [],
+      "document_id": "ING_e2bb18e3b96f9c0a8161",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_e2bb18e3b96f9c0a8161:ING_e2bb18e3b96f9c0a8161_CH_351b96337f:pages=11;canonical=corpus/canonical/objects/ING_e2bb18e3b96f9c0a8161/1fc43cf81b8bfc4f8aeb11d5cbec403a81a0273c3c080c6b4bd2d2bfaa9333e6/chunks/embedding_ready.jsonl#L15",
+      "page_end": 11,
+      "page_start": 11,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "6.2.2-Q35": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.3",
+        "5.6",
+        "6.1"
+      ],
+      "section_id": "6.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "6",
+      "supporting_question_ids": [
+        "6.2.2-Q35"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 33,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "9caa670f5ec4178177edcb5a19df7069872a6206e154e2eedc57c952b0a48c98",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_67388e7094",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_a499a6e36ec9961bb1cbeea54dd65f2d380a52179878873f419a381026b130fe",
+      "claim_text": "4.2. LCC ile İlgili Yapılan Çalışmalar\nYüksek Hızlı Tren sisteminin altyapı (demiryolu hattı, tünel, viyadük, elektrifikasyon) çalışmaları sonucu oluşan sera gazı emisyonlarının belirlenmesinde yaşam döngüsü analiz yöntemi kullanılmıştır. Altyapı çalışmaları sırasında kullanılan malzeme ve nakliye proseslerinin sera gazı emisyonlarına %80 seviyesinde neden olduğu belirlenmiştir. Ayrıca, tünel ve viyadük gibi bazı sanat yapılarının toplam hat uzunluğunun sadece %15'i kadar uzunlukta olmasına rağmen, bu yapılardan meydana gelen sera gazı emisyonlarının %60 oranında olduğu ifade edilmiştir.\n\n4.2. LCC ile İlgili Yapılan Çalışmalar\n\nEsveld ( 1999) tarafından  yapılan  çalışmada,  konvansiyonel  ve  yüksek hızlı  tren  demiryolu  hatlarında  balast  kullanılması  ile  ilgili  görüşler,  yaşam döngüsü maliyet yaklaşımıyla ele alınmıştır.  Demiryolu ray hatlarında kullanılan balastların  inşaat,  yıllık  bakım  onarım  maliyetleri  belirlenmiştir.  Sonuç  olarak demiryolu ray hattı maliyetleri açısından, konvansiyonel demiryolu ray hatlarında balast  kullanılmasının  uygun  olabileceği,  yüksek  hızlı  tren  seferlerinin  ve  yeni yük taşıma koridorlarının oluşmasıyla ilgili olarak servis sürelerinin uzamasının, bakım onarım miktarlarının,  yükleme oranları  ile  hızların  artmasının  maliyetleri etkileyeceği belirtilmiştir.\n\nZoeteman ( 2001) çalışmasında, demiryolu altyapı sistemlerinin (inşaat ve bakım onarım) bileşenleri ile ilgili maliyetlerin hesaplanmasında karar vericilere yardımcı  olmak  amacıyla yaşam  döngüsü  maliyet yaklaşımını kullanmıştır. Çalışmada,  Almanya  Yüksek  Hızlı  Treni  ile  ilgili  örnek  bir  LCC  çalışması  da yapılmıştır.\n\nJun  ve  Kim ( 2007) çalışmalarında,  tüm  demiryolu  sisteminin  yaşam döngüsü maliyetini değerlendirmek için temel bir çalışma olarak demiryolu tren araçlarının  yaşam  döngüsü  maliyet  modelinin  oluşturulmasını  amaçlamışlardır. Yapılan  bu  çalışmada,  demiryolu  araçlarının  yaşam  döngüsü  maliyet  modeli oluşturulurken, Uluslararası Elektroteknik Komisyonu, IEC 60300-3-3 standardından ve Avrupa Demiryolu Endüstri Birlikleri Yaşam Döngüsü Maliyet grubu (UNIFE LCC) tarafından hazırlanan yaşam döngüsü maliyeti rehberinden faydalanılmıştır. Demiryolu araçlarının yaşam döngüsü maliyet modeli oluşturulurken,  tren  araçlarının  yatırım,  yıllık  işletme  ve  yıllık  bakım  onarım maliyetleri  dikkate  alınmıştır.  Sonuç  olarak,  yapılan  çalışmada,  demiryolu  tren araçlarının  yıllık  bakım  onarım  maliyetlerinin  hesaplanmasına  yoğunlaştıkları belirtilmiş ve oluşturulan modelin  tutarlılığı ve kullanılabilirliği geleneksel maliyet modelleriyle karşılaştırılmıştır.\n\nAndrade ( 2008) tarafından yapılan bu  çalışmada,  demiryolu  altyapı sistemlerinde kullanılan ray ve balast malzemelerinin bakım onarım aşamasında karar vericilere yardımcı olması için yaşam döngüsü maliyeti yönteminin uygulanması amaçlanmıştır. Demiryolunda mevcut olan modele ek olarak balast LCC  modeli  geliştirilmiştir.  Her  iki  modele  ait  entegre  senaryolar  ile  bakım onarım aşamalarına yeni bir seçenek sunulmuştur. Bu çalışmada yaşam döngüsü maliyeti  yaklaşımına  ait  IEC  60300-3-3  standardı  incelenmiştir.  IEC  60300-3-3 standardının (2004) yılında güncellendiği ve bu standardın demiryolu altyapılarında  yaşam döngüsü maliyeti modelinin oluşturulmasına destek olduğu belirlenmiştir.\n\nCiroth ve Franze ( 2009) tarafından yapılan çalışmada, LCA yazılımı için seçilen SimaPro 7.3.3 yazılımında, LCC için uygun bir modelin oluşturulabileceği ve  LCC analizinin  gerçekleştirilebileceği  ifade  edilmektedir.  Yapılan  çalışmada, LCC analizi  modelinin  oluşturulması  için  yapılması  gereken  adımlar  detaylı  bir şekilde  belirtilmiş  ve  şu  anda  SimaPro  7.3.3  yazılımının  veri  tabanında  bu çalışmada kullanılabilecek herhangi bir verinin olmadığı ifade edilmiştir.\n\nPatra  ve ark. ( 2009) tarafından yapılan  çalışmada  yaşam  döngüsü analizinin demiryolu hatlarının bakım onarımının, yaşam döngüsü maliyetindeki belirsizliklerin ortaya konularak belirlenmesi hedeflenmiştir. Bu amaç kapsamında, Monte Carlo simülasyonu ve Deney Tasarımının kombinasyonları ile uygun bir metodoloji oluşturulmuştur. Oluşturulan bakım onarım maliyet modeli ile İsveç Demiryolu Hattı için örnek bir çalışma yapılmıştır.  Yapılan çalışma ile belirsizliklere  neden  olan  parametreler  (hatta  oluşan  gecikmeler  ve  gecikme maliyetleri, (güvenirlik, ulaşılabilirlik ve bakım maliyetleri) (RAM)  tespit edilmiştir.\n\nKim  ve  ark. ( 2010) çalışmalarında,  hafif  raylı  taşımacılığının  altyapı bileşenleri için yaşam döngüsü maliyetinin tahmin edilebilmesini sağlayacak olan bir sistemin geliştirilmesini, geliştirilen bu sistemin ekonomik açıdan uygulanabilir  olmasını  ve  karar  vericiler  için  karar  verme  aşamasında  yardımcı olabilmesini amaçlamışlardır. Yapılan çalışmada öncelikle, altyapı bileşenleri için inşaat  maliyetlerini  etkileyen  faktörler  belirlenmiştir.  Her  bir  birim  maliyet  için veri  tabanı  oluşturularak,  inşaat  maliyetleri  hesaplanmıştır.  Daha  sonra  yaşam döngüsü  maliyeti  için  literatür  taramalarıyla  birlikte  prosedürler  ve  modeller tanımlanmıştır. Yaşam döngüsü maliyeti için bir algoritma yazılması gerçekleştirilmiş ve yazılan algoritmanın uygulanabilirliği ve tutarlılığının sağlanması  amacıyla  hafif  raylı  taşımacılık  için  köprülerin  yaşam  döngüsü maliyeti hesaplanmıştır. Sonuç olarak, yapılan bu çalışmada hafif raylı taşımacılık inşaat  projelerinde  maliyetlerin  tahmin  edilebilmesi  ve  yaşam  döngüsü  maliyet analizinin uygulanabilirliği ortaya konulmuştur.\n\nHoffart ve Kamps ( 2010) çalışmalarında, demiryolu altyapısında sinyalizasyon  sisteminin  sürdürülebilir  işletme  stratejisi  için  yaşam  döngüsü maliyeti yaklaşımının uygulanması gerektiğini belirtmektedirler. Demiryolu sektöründe  bazı  özel  koşullar  düşünülerek,  sinyalizasyon  sistemlerinde  yaşam döngüsü maliyet analizinin nasıl hesaplanacağı sorusu yöneltilmiş ve sürdürülebilir bir yaklaşım için yaşam döngüsü maliyet analizinin Avrupa'da tüm demiryolu  şirketleri  arasında  önemli  bir  fark  yarattığı  belirtilmiştir.  Yapılan  bu çalışmada yaşam döngüsü maliyet analizi ile Avrupa demiryollarının (demiryolu sektöründe  yatırım  maliyetlerinin  yüksek  olması,  demiryolu  projelerinin  oluşum aşamalarında yatırım maliyetlerinde meydana gelen hataların öngörülememesi ve demiryolu altyapı sistemlerinin kullanım sürelerinin fazla olması gibi) sorunların çözümünde yaşam döngüsü maliyet analizinin uygulanabilirliğinin altı çizilmektedir. Yaşam döngüsü maliyet analizi yaklaşımı ile yapılan çalışma, IEC 60300- 3-3 standardına göre altı aşamada gerçekleştirilmiştir. Aşamalar sırasıyla; hedef  ve  kapsam  tanımı,    sistem  geliştirilmesi,  üretim,  kurulum,  işletme,  bakım onarım ve son aşama olan elden çıkarma olarak belirlenmiştir. Her bir aşama için model  içerisinde  maliyetler  hesaplanmıştır.  Çalışmanın  sonucu  olarak,  yaşam döngüsü  maliyeti  yaklaşımı  ile  uzun  süreli  yatırımların,  yatırım  maliyetlerinin analiz edilebilmesinin de ne denli önemli olduğu vurgulanmıştır.\n\nAtkins ( 2011) 'in  çalışmasında,    Norveç  yüksek  hızlı  tren  projesinin finansal  ve  ekonomik  açıdan  yatırım  maliyetlerinin  değerlendirilmesi  ve  tahmin edilmesi için yaşam döngüsü maliyet yaklaşımı kullanılmıştır. Çalışmada yaşam döngüsü  maliyet  modeli  ile  yüksek  hızlı  tren  hattının  yatırım,  işletme,  bakım onarım  ve  yatırım  maliyetlerine  ilaveten  uzun  dönem  maliyetleri  ile  ekonomik değerlendirilmesi yapılmıştır. Verilerin toplanmasında ve yaşam döngüsü maliyet modelinin geliştirilmesinde UK HS2 (High Speed Two Limited) verilerinden ve J.P. Baumgartner'ın 'Demiryolu  Sektöründe Maliyetler' adlı çalışmasından faydalanılmış  ve  Oslo  Bergen  hattı  için  de  bir  yaşam  döngüsü  maliyet  modeli oluşturulmuştur.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_67388e7094:pages=73-76;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L33",
+      "page_end": 76,
+      "page_start": 73,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "6.2.2-Q31": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "6.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "6.2.2-Q31"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 6,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_dfe9d01daa14dd6f5dd1/69b42827f8c4049f56352012d92c717d700849120ffe3f200dd4e73b28fb47ce/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "4cc03378218e1b99bd968f41dc3bc1c909421c95528a879ec543211562b72fe0",
+      "chunk_id": "ING_dfe9d01daa14dd6f5dd1_CH_f7101b643c",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_af71eb83e0d7fd51dae7bb35ba8c7e0f55869ceac08ed6496e20b37907069638",
+      "claim_text": "Data management\nfor a project can then be assembled with a series of BIACs drawn from a range of other projects. Projects in other Western European countries tend not to include costs of supervision or land purchase, for example. This makes projects appear relatively cheap when compared with UK projects, where those costs are usually included in the overall figures. When properly applied, the BIAC approach removes those costs and therefore allows for better comparisons.\n\nData management\n\nData was collected directly from a wide range of departments, sponsors, programmes and other controlled sources involved in tunnelling activities. The data collected was historical cost, schedule, performance and attributes data. Data was initially gathered both locally and internationally.\n\nFor estimating cost benchmarks:\n\nthe total cost for each tunnel was rebased to 2016/2017 base year using HMT GDP deflators;\n\nforeign currencies were converted to GBP using applicable historical exchange rates and then rebased in the cases of international tunnels;\n\nthe cost per kilometre (£million/km) was obtained by dividing the total cost by total length for each tunnel;\n\nthe volume of the tunnel was also calculated for further analysis (fig. 3);\n\nsample statistics were obtained and analysed to assess the quality of the sample and the validity of the inference made from the sample.\n\nInitially a set of 169 projects was collected, based on the total available data set. However the quality of this data was very mixed. The data quality was scored with a large proportion of the data being classified as poor to low quality based on a number of factors which would undermine the analysis, this included a lack of key data asset attribute information (i.e. length, depth, tunnelling method, project age), differences in technology and labour, or the inability to extract the tunnel asset cost from the total project cost (which may include non-tunnelling assets such as bridges, viaducts, or other direct and indirect cost).\n\nA second round of data collection was carried out to ensure that a consistent set of high quality data, based on a BTS revised template, was captured for analysis. This excluded projects prior to 2004 to limit the variability of long term cost inflation.\n\nData was obtained for sixteen UK tunnels from both the transport and utilities sectors, in ground conditions ranging from soft rock to cohesive and non-cohesive soils. Construction methods included Tunnel Boring Machine (TBM), backhoe shield and excavator, with precast concrete or shotcrete linings. A reduced number of projects resulted in higher quality and more reliable analysis.\n\nA small number of international tunnel data points were received, however it was not possible to assure the data quality to the same standard as the UK projects, as the quality of the technical information (i.e. undefined ground conditions, or the inclusion of other project costs) was not sufficient to ensure a consistent set of comparators. Improving the quality of technical information from international projects is a focus of the IPA benchmarking team going forward.",
+      "conditions": [],
+      "document_id": "ING_dfe9d01daa14dd6f5dd1",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_dfe9d01daa14dd6f5dd1:ING_dfe9d01daa14dd6f5dd1_CH_f7101b643c:pages=6-7;canonical=corpus/canonical/objects/ING_dfe9d01daa14dd6f5dd1/69b42827f8c4049f56352012d92c717d700849120ffe3f200dd4e73b28fb47ce/chunks/embedding_ready.jsonl#L6",
+      "page_end": 7,
+      "page_start": 6,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "6.2.2-Q39": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "6.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "6.1",
+      "supporting_question_ids": [
+        "6.2.2-Q39"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 11,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_747974fc4598ec4fd69c/623c92221b2e362c74e85b5e5b9b2ae05a967d265f1cc4404bb7dec674b96aa1/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "952b4ba06bf53d64594d6ea7d87aa5f692666d701c9ae933f1666f6f2a4e33d7",
+      "chunk_id": "ING_747974fc4598ec4fd69c_CH_7074933cbc",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_b6d462626fcd53bf4e0d6c05500a9dd8851446f65dd96769e204ca700a380715",
+      "claim_text": "3.3. Cost Analysis\ncalculates the Average Inflation (AI) rate between two years (i.e., 1987 and 2019) and takes into consideration deflation as a negative inflation, which can imply that comparisons of price further back in time and over long periods are less accurate than comparisons over short periods in recent years. The average (annual) inflation from 1987 to 2019 was estimated as 3.3% [55]:\n\n3.3. Cost Analysis\n\nIn this section primarily the data from: (a) reference [49] is used as released from the Eurotunnel for the period from 1987 to 1998 (Table 4) and (b) reference [44], regarding the English and French TBM performance shown in Table 5.\n\nTable 4. Channel tunnel project costs (initial data from: [49]; [44], apart from % change).\n\nTable 5. Tunnel Boring Machine (TBM) performance for: a. the French side and b. the English side [44].\n\nThe above data have been further investigated in detail and the following parameters are analysed:\n\nCost per tunnel diameter.\n\nCost per excavated distance / length (m).\n\nCost per cubic meter of excavated material.\n\nExcavation method as a percentage of the total excavated length.\n\nTotal cost overrun.\n\nConstruction cost overrun.\n\nTunnelling cost overrun.\n\nCost overrun adjusted to the 2019 price.\n\nTunnelling cost as a percentage of the total cost and construction cost.\n\nGround investigation cost as a percentage of the total cost, construction cost and tunnelling cost both for pre-construction and final price.\n\nEstimation of the impact of higher expenditure of ground investigation in the total cost and in the tunnelling cost, respectively.\n\nThese parameters provide a good understanding for the project and in combination with the previous geological investigation campaigns, add value in developing a further understanding on what could have been improved in the planning and execution of this complex project.\n\nIn total, 12 TBMs were used to excavate both the English and the French side of the Channel tunnel. The English TBMs excavated 81,924 m, while the French TBMs excavated 63,729 m. In addition to the mechanised excavation methods, conventional methods were used. New Austrian Tunnelling Method (NATM) was used in both sides of the tunnel with the English excavating 2716 m. Approximately the same length was excavated by the French using NATM method. For both sides of the tunnel, multiple TBM diameters were used, ranging from 5.38 m to 8.78 m (Table 5). The average excavated diameter is 7.59 m. In total, more than 8,167,243 m 3 of material had been excavated from both sides of the Channel tunnel, as shown in Table 6.\n\nTable 6. Construction Methods and Cost Figures for the Channel tunnel (initial data taken from: [45], apart from 2019).\n\nThe cost per meter of excavation converted to the 1994 price is £22,052. The average diameter, combining the British and French tunnels, was 7.59 m. After converting this cost to the 2019 price and taking into consideration an average inflation of 3.3% [54], this amount becomes 43,500 £ / m. Compared to the price provided in the literature for other tunnels constructed in the UK (from Case Study: Benchmarking tunnelling costs and production rates in the UK, 2018), the Channel tunnel is more expensive. The average Construction Cost (CC) per tunnel length in the UK is estimated at 32,000 £ / m, which is still within the typical range based on published data by the Project Authority shown in Figure 6a.\n\nFigure 6. ( a ) Cost per diameter for English transport tunnels according to Infrastructure Project Authority (2018), showing the case of the Channel tunnel in light green. ( b ) Total project cost plotted against the volume of tunnelling in UK.\n\nThe cost per cubic meter of excavated material for this case is estimated at £393.2 as per 1994 and £775.6 as per 2019 (Table 6). Other tunnels constructed in the UK (Case study: Benchmarking tunnelling cost and production rates in the UK) have a cost that ranges from £274 to £3525 per m 3 (Figure 6b). Although the cost of excavation per cubic meter has a wide range of values, the Channel tunnel lies in the lower bound of this list. This correlation has a significant limitation, since the comparable projects have a notably lower size than the Channel tunnel project.\n\nAccording to reference [56], the NATM method was used in several occasions: in the Shakespeare Underground development, Castle Hill tunnels and UK Crossover, along with other auxiliary works such as pump stations, cross passages, drainage tunnels etc. Thousands of meters were excavated using the NATM method, but the most important was in the Shakespeare Underground development, which served as the-starting point of the tunnel boring machines with a length of 2716 m of tunnels and adits and an additional 2500 m for the French side. Figure 7a shows that the 96.5% of the tunnel construction was made with TBM, while the rest was completed with the NATM method.",
+      "conditions": [],
+      "document_id": "ING_747974fc4598ec4fd69c",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_747974fc4598ec4fd69c:ING_747974fc4598ec4fd69c_CH_7074933cbc:pages=13-15;canonical=corpus/canonical/objects/ING_747974fc4598ec4fd69c/623c92221b2e362c74e85b5e5b9b2ae05a967d265f1cc4404bb7dec674b96aa1/chunks/embedding_ready.jsonl#L11",
+      "page_end": 15,
+      "page_start": 13,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "6.2.2-Q32": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "6.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "6",
+      "supporting_question_ids": [
+        "6.2.2-Q32"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 22,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_991a4bf2e475e795b041/a28fff99fdff445a51434234f3f07408ea20624f16bdc18ae67c549f1fc046a6/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "cdbf7343fd6cb1b41e21e4070498cefc7d504be0e9417c747e72296be3c3c8d7",
+      "chunk_id": "ING_991a4bf2e475e795b041_CH_6da0efbab4",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_d33eebebad10b74abc131a93c6e4652aabb0abf7cc3cfa4e44e5dd906610d940",
+      "claim_text": "1. Introduction\nTablo: Table 1. Published research on tunnel boring machine (TBM) performance prediction using related artificial intelligence (AI) and machine learning (ML) techniques.\nTable 1. Published research on tunnel boring machine (TBM) performance prediction using related artificial intelligence (AI) and machine learning (ML) techniques.\n\nReference | Technique. | Parameters.Input | Parameters.Output | Datasets / Description.\n\nAlvarez Grima [19] | ANN | CFF, Dc, RPM, TF, UCS | AR, PR | 640 TBM projects\n\nBernardos and Kaliampakos [36] | ANN | N, overburden, permeability, RMR, rock mass weathering RQD, UCS, WTS, | AR | Athens metro tunnel\n\nYagiz [17] | ANN | BI, DPW, UCS, α | PR | 151 datasets\n\nEftekhari et al. [39] | ANN | BTS, CT, Qu, RMR, Rock Type, RQD, Rs TF, UCS | PR | 10 km data excavated in a tunnel\n\nGholamnejad and Tayarani [40] | ANN | DPW, RQD, UCS | PR | 185 datasets",
+      "conditions": [],
+      "document_id": "ING_991a4bf2e475e795b041",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_991a4bf2e475e795b041:ING_991a4bf2e475e795b041_CH_6da0efbab4:pages=2;canonical=corpus/canonical/objects/ING_991a4bf2e475e795b041/a28fff99fdff445a51434234f3f07408ea20624f16bdc18ae67c549f1fc046a6/chunks/embedding_ready.jsonl#L22",
+      "page_end": 2,
+      "page_start": 2,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "6.2.2-Q30": "PARTIAL"
+      },
+      "secondary_section_ids": [],
+      "section_id": "6.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "2.2.1",
+      "supporting_question_ids": [
+        "6.2.2-Q30"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 1,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_e2bb18e3b96f9c0a8161/1fc43cf81b8bfc4f8aeb11d5cbec403a81a0273c3c080c6b4bd2d2bfaa9333e6/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "3480d2a9f454b294f8a04a19772e5b7081e4c945ccd77c98049c19ebe59c8738",
+      "chunk_id": "ING_e2bb18e3b96f9c0a8161_CH_976a36ec1e",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_ddb23dc84767492ce0be8be28f9398acb649f2f58d3af31659dd075e1803f910",
+      "claim_text": "The Open Civil Engineering Journal\nThe Open Civil Engineering Journal\n\nContent list available at: https://opencivilengineeringjournal.com\n\nRESEARCH ARTICLE\n\nFactors of Schedule and Cost Performance of Tunnel Construction Megaprojects\n\nAlberto De Marco 1,* and Timur Narbaev 2\n\n1\n\nDepartment of Management and Production Engineering Politecnico di Torino, Corso Duca degli Abruzzi 24, 10129 Torino, Italy 2 Business School , Kazakh-British Technical University, Kazakhstan Tole bi, 59; Almaty - 050000, Kazakhstan\n\nAbstract:\n\nAims:\n\nThis study illustrates the main factors that influence the cost overruns and schedule delays of tunnel construction megaprojects.\n\nObjective:\n\nAn empirical analysis was carried out based on a dataset collected from a number of recent tunnel megaprojects worldwide.\n\nMethods:\n\nAnalyses of variances and regression analyses were conducted to infer statistical significance and understand the relationships that exist between cost overruns, time delays and variables of context, technical, and governance characteristics of the sample projects.\n\nResults:\n\nThe most significant factors are those related to the complexity of infrastructure and the type of contracting system used to deliver the project. In particular, some technical characteristics pertinent to the size of the tunnel reveal to be influencing factors of both schedule delay and cost overrun, while the usage of a traditional contracting mechanism is likely to impact the cost overrun. The type of infrastructure, region, ownership, and funding scheme are not found to be statistically significant determinants of cost and time performance.",
+      "conditions": [],
+      "document_id": "ING_e2bb18e3b96f9c0a8161",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_e2bb18e3b96f9c0a8161:ING_e2bb18e3b96f9c0a8161_CH_976a36ec1e:pages=1;canonical=corpus/canonical/objects/ING_e2bb18e3b96f9c0a8161/1fc43cf81b8bfc4f8aeb11d5cbec403a81a0273c3c080c6b4bd2d2bfaa9333e6/chunks/embedding_ready.jsonl#L1",
+      "page_end": 1,
+      "page_start": 1,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "6.2.2-Q36": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.3",
+        "5.6",
+        "6.1"
+      ],
+      "section_id": "6.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "6",
+      "supporting_question_ids": [
+        "6.2.2-Q36"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 4,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_c3a0e31de495e7b755c5/0b578bd2ce9fde9eccf4be99a84e5787d59123a3b9761cd305de9006b4a920ef/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "4a59bff23ee8650a9f585458edfab1b10868d2a99b2867467e9ec5ee759a94f6",
+      "chunk_id": "ING_c3a0e31de495e7b755c5_CH_06c74ca71f",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_e13f49673a395bce5eb257f95913bb35672def82b58b28650d8d4840fee65f71",
+      "claim_text": "Literatür Taraması\nve inşaat öncesi dönemlerde alternatif maliyet analizi uygulamalarını incelemek amacıyla mülakat yöntemi ile görüşmeler yapılmıştır. Çalışma sonucunda, konut, ticari yapılar ve altyapı işleri konusunda uzmanlaşmış üst düzey çalışanların, maliyet kalemleri üzerinden alternatif maliyet analizi çalışmaları kapsamında değerlendirdikleri faktörler tespit edilmiştir. Ön değerlendirme sonuçlarını içeren bu çalışmadan elde edilen bulguların, alternatif maliyet analizi hesaplama ve yönetimi konularında yeni yaklaşımlar geliştirmeyi hedefleyen akademik çalışmalara temel olması ve sektör çalışanlarının alternatif maliyet analizi çalışmalarını desteklemesi hedeflenmiştir.\n\nLiteratür Taraması\n\nBir yapım projesi kapsamında gerçekleştirilen çalışmalar temel olarak inşaat öncesi ve inşaat sonrası olarak iki aşamada incelenebilir. İhale maliyet hazırlığı çalışmaları inşaat öncesi çalışmaların temelini oluşturur. Larson ve Gray [6] yapım projesi maliyetlerini üç temel başlık altında toplamaktadır:\n\nDoğrudan maliyetler\n\nDolaylı maliyetler\n\nGenel ve idari maliyetler (projenin dolaylı maliyetleri)\n\nDoğrudan maliyetler belirli bir iş paketine yüklenebilen, belirli bir iş kalemine bağlı maliyetlerdir.  İsçilik,  malzeme,  ekipman,  alt  yüklenici  ve  el  aletleri  maliyetleri  bir projedeki doğrudan maliyetlerdir. Dolaylı maliyetler ise bir iş paketine yüklenmeyen ve proje yapım aşaması boyunca devam eden maliyetlerdir [6]. Ancak projeye özgü maliyetler olduğundan bir yandan da projenin doğrudan maliyetini oluşturur. Maaşlar, kira ödemeleri, tedarik ve yalnızca o projeye özgü kullanılan ekipman maliyetleri dolaylı maliyetler arasında sayılabilmektedir. Bu maliyetler proje süresine doğrudan bağlı olan maliyetler  olduğundan  proje  süresindeki  herhangi  bir  kısalma  dolaylı  maliyetlerde düşüş sağlamaktadır.\n\nProje genel giderleri toplam proje maliyetinin yaklaşık 5%-15%'i tutarken, genel ve idari maliyetler toplam proje bedelinin 2%-5%'si kadardır [7]. Bu oranlar göstermektedir ki  doğrudan  maliyetler  proje  toplam  bedelinin  büyük  çoğunluğunu  oluşturmaktadır. Buna  bağlı  olarak  da  doğrudan  maliyetleri  azaltmak  yüklenicilerin  yeni  iş  almasını kolaylaştırırken  proje  kârlılığını  da  arttırmaktadır.  Bu  durum,  ihale  ve  inşaat  öncesi süreçteki maliyet ve alternatif maliyet analizi çalışmalarının önemini göstermektedir.\n\nProje maliyet hesabı, proje süresinin ve mevcut bilgiler ışığında olası miktarlara bağlı olarak malzeme, isçilik, ekipman ve altyüklenici maliyetlerinin tahminidir [8]. Proje maliyeti  tahmini  yürütürken  dikkate  alınması  gereken  çok  sayıda  maliyet  faktörü bulunmaktadır. Proje maliyet tahmini tasarım maliyetinin, malzeme, ekip, ekipman, el aletleri, denetim ve de proje genel gider maliyetlerinin tahminini içermektedir [9]. Proje bütçelendirmesini etkileyen faktörler ise aşağıdaki şekilde sıralanabilir [10]; [8]; [11]:\n\nProjenin büyüklüğü,\n\nProjenin karmaşıklığı,\n\nYapılabilirlik,\n\nSaha lokasyonu ve kısıtları,\n\nİnşaat süresi,\n\nŞartnamelerin açıklığı ve anlaşılırlığı,\n\nProje takımının deneyimi,\n\nYönetimsel faktörler,\n\nPiyasa ve ekonomik koşullar,\n\nProje maliyeti tahmin sureci ve yaklaşımları,\n\nTeklif stratejileri.\n\nLiteratürde  inşaat  projeleri  maliyet  hesaplarına  dair  pek  çok  çalışma  bulunmaktadır [12];  [13];  [14].  Jackson  [8]  proje  maliyet  hesabi  basamaklarını  şöyle  açıklamıştır: Yükleniciler ilk basamak olarak ihale plan ve şartnamelerini incelemekte ve buna bağlı olarak malzeme listesini hazırlamaktadırlar. Bu süreçte işverenin talep ve yöntemleri doğrultusunda  yükleniciler  eğer  yapılıyor  ise  saha  ziyaretlerine  ve  ihale  öncesi toplantılara katılmakta, projeyle ilgili daha detaylı veriler elde etmektedirler. Öngörülen ihale stratejisine bağlı olarak altyükleniciye verilecek işler belirlenmekte, kalan işlerle ilgili olarak ekip ve ekipman maliyetleri hesaplanmaktadır. Eş zamanlı olarak da metraj çalışmaları yürütülmekte ve malzeme giderleri belirlenmektedir. Elde edilen tüm gider kalemlerinin  toplanması,  genel  gider  maliyetlerinin  eklenmesi  ile  ihale  dosyası  üst yönetimin görüşüne sunulmakta ve üst yönetimin belirlediği kar marjının eklenmesi ile de ihale bütçesi sonlandırılmaktadır.\n\nLiteratürde yüklenicilerin maliyet hesaplama yöntemlerine dair çalışmalar bulunmasına rağmen  alternatif  maliyet  analizi  çalışmaları  oldukça  sınırlıdır [15]; [16]; [12]. Literatürde yer alan alternatif maliyet analiz çalışmaları incelendiğinde, bu çalışmaların sadece belirli ekipman seçimlerinin alternatiflerinin oluşturulması üzerine odaklandığı görülmektedir [17]; [18]. Örneğin Irizarry ve Karan çalışmalarında gelişen otomasyon teknolojileri ile kule vinç gibi inşaat ekipmanlarının seçim ve kullanım etkilerinin proje süresi ve maliyetine etkilerini incelemişlerdir. Bunun yanında Ulubeyli ve Kazaz ise beton pompalarının seçim kriterleri üzerine odaklanmışlardır.\n\nUğur  [19]  yüklenicilerin  yurtiçi  ve  yurtdışı  projeleri  için  maliyet  hesabı  yaparken kullandıkları yöntemleri ve bu yöntemlerin katılımcılar arasındaki kullanım yüzdelerini listelemiştir. Çalışmadan elde edilen veriler göstermektedir ki hem yurtiçi hem de yurtdışı ihalelerin maliyet hesaplarında, benzer işlerle karşılaştırmak, önceki uygulamalardan elde edilen verileri kullanmak ve birim fiyata dayalı keşif yapmak, yüklenicilerin en çok başvurduğu üç yöntemi oluşturmaktadır. Waly ve Thabet [20] de maliyet çalışmaları sırasında uzmanların firmaların önceki projelerindeki bilgi birikimlerini, kişisel bilgi ve deneyimleri ile birleştirerek karar verdiklerini belirtmişlerdir. Literatürdeki bulgular göstermektedir  ki  maliyet  hesapları  kişisel  bilgi  ve  deneyimler  bazlı  olacak  şekilde yapılmakta;  bu  da  bu  çalışmaların  taraflı  ve  de  sınırlı  olmasına  neden  olmaktadır. Benzer  bir  yaklaşım  ile  yürütülen  alternatif  maliyet  analizi  çalışmaları  da  çalışmayı yürüten  kişinin  deneyim  ve  bilgi  birikimi  sınırları  içerisinde  kalmakta,  kapsayıcı  ve detaylı olmaktan uzak bir hal almaktadır.",
+      "conditions": [],
+      "document_id": "ING_c3a0e31de495e7b755c5",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_c3a0e31de495e7b755c5:ING_c3a0e31de495e7b755c5_CH_06c74ca71f:pages=3-4;canonical=corpus/canonical/objects/ING_c3a0e31de495e7b755c5/0b578bd2ce9fde9eccf4be99a84e5787d59123a3b9761cd305de9006b4a920ef/chunks/embedding_ready.jsonl#L4",
+      "page_end": 4,
+      "page_start": 3,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "6.2.2-Q36": "PARTIAL",
+        "6.2.2-Q43": "PARTIAL",
+        "6.2.2-Q44": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "6.2",
+        "6.1"
+      ],
+      "section_id": "6.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "6.1.3",
+      "supporting_question_ids": [
+        "6.2.2-Q36",
+        "6.2.2-Q43",
+        "6.2.2-Q44"
+      ]
+    }
+  ],
+  "contract_version": "section-preparation-v1",
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "registry_id": "SCR_cfbb9d6e66159565b3cf6233533e3449576d8af56a96a70e28d1070f65cedaad",
+  "schema_version": "1.0",
+  "section_id": "6.2.2",
+  "section_title": "Uluslararası Literatür Taraması"
+}

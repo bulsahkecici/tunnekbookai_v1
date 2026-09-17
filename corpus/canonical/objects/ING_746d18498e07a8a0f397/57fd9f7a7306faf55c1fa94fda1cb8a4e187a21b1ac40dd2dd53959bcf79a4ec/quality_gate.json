@@ -1,0 +1,21 @@
+{
+  "document_id": "ING_746d18498e07a8a0f397",
+  "decision": "GO",
+  "checks": {
+    "original_exists": true,
+    "sha256_valid": true,
+    "supported_format": true,
+    "structural_extraction_success": true,
+    "provenance_present": true,
+    "metadata_schema_valid": true,
+    "final_section_in_taxonomy": true,
+    "no_critical_extraction_error": true,
+    "evidence_usable": true,
+    "pdf_page_snapshot_ratio": true
+  },
+  "reject_reasons": [],
+  "review_reasons": [],
+  "notes": [
+    "MANUAL_REVIEW_APPROVED: KGM'nin trafiğe açık devlet ve il yolu tünellerine yönelik bakım, onarım ve işletme kurs notları içerik üzerinden doğrulandı."
+  ]
+}

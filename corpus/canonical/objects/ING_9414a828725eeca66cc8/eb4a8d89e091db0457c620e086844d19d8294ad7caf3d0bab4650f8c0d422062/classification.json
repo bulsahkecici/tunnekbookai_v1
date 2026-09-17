@@ -1,0 +1,113 @@
+{
+  "final_primary_section": "2.2.2",
+  "final_secondary_sections": [
+    "2.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "LIST0003"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.5256,
+      "rule_score": 0.2,
+      "embedding_score": 0.7622,
+      "chunk_vote": 0.1132
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.5016,
+      "rule_score": 0.2,
+      "embedding_score": 0.7592,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3446,
+      "rule_score": 0.0,
+      "embedding_score": 0.7657,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3426,
+      "rule_score": 0.0,
+      "embedding_score": 0.7614,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3424,
+      "rule_score": 0.0,
+      "embedding_score": 0.7609,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3411,
+      "rule_score": 0.0,
+      "embedding_score": 0.758,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3411,
+      "rule_score": 0.0,
+      "embedding_score": 0.7579,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7",
+      "score": 0.3402,
+      "rule_score": 0.0,
+      "embedding_score": 0.7559,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2965,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.566
+    },
+    {
+      "id": "1.1",
+      "score": 0.2399,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.283
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, yumuşak zeminde (toprak) açılan derin tünellerin çökme mekanizmasını ve sınırları analiz etmektedir. Bu içerik, 'Yumuşak Zeminde Açılan Tüneller' (2.2.2) başlığıyla doğrudan örtüşmektedir. Ayrıca tünel yapım ve davranış yöntemleri genel başlığı (2.2) ile de ilişkilidir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:11",
+    "embeddings:8",
+    "top=2:0.5256 gap=0.024 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

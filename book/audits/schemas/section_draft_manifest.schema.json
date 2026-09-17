@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TunnelBookAI evidence-constrained section draft manifest",
+  "type": "object",
+  "required": [
+    "schema_version", "contract_version", "stage", "status", "reason_code", "draft_id",
+    "identity", "section_id", "section_title", "eligible_question_count",
+    "unsupported_question_count", "covered_question_count", "paragraph_count",
+    "sentence_count", "claim_count_used", "draft_path", "draft_sha256",
+    "sentence_map_path", "sentence_map_sha256"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "contract_version": {"const": "section-writer-v1"},
+    "stage": {"const": "SECTION_WRITER"},
+    "status": {"const": "DRAFTED_UNAUDITED"},
+    "reason_code": {"const": "POSTWRITING_AUDITS_REQUIRED"},
+    "draft_id": {"type": "string", "pattern": "^DRF_[0-9a-f]{64}$"},
+    "identity": {"type": "object"},
+    "section_id": {"type": "string", "minLength": 1},
+    "section_title": {"type": "string", "minLength": 1},
+    "eligible_question_count": {"type": "integer", "minimum": 1},
+    "unsupported_question_count": {"type": "integer", "minimum": 0},
+    "covered_question_count": {"type": "integer", "minimum": 1},
+    "paragraph_count": {"type": "integer", "minimum": 1},
+    "sentence_count": {"type": "integer", "minimum": 1},
+    "claim_count_used": {"type": "integer", "minimum": 1},
+    "draft_path": {"type": "string", "minLength": 1},
+    "draft_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "sentence_map_path": {"type": "string", "minLength": 1},
+    "sentence_map_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [
+    "2.1.2",
+    "2",
+    "5.4",
+    "2.2.1"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "FIG0019"
+      ]
+    },
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "PARA0014",
+        "PARA0140"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0015",
+        "PARA0018",
+        "PARA0164",
+        "PARA0166",
+        "PARA0167",
+        "PARA0169",
+        "PARA0171",
+        "PARA0173",
+        "PARA0174",
+        "PARA0181",
+        "PARA0196",
+        "PARA0200",
+        "PARA0201",
+        "PARA0202",
+        "PARA0205",
+        "PARA0206",
+        "PARA0212",
+        "PARA0215",
+        "PARA0216"
+      ]
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "PARA0164",
+        "PARA0185",
+        "PARA0194",
+        "PARA0223"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0157",
+        "PARA0159"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2",
+      "score": 0.7666,
+      "rule_score": 0.6,
+      "embedding_score": 0.789,
+      "chunk_vote": 0.1575
+    },
+    {
+      "id": "5.4",
+      "score": 0.7462,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7833,
+      "chunk_vote": 0.1907
+    },
+    {
+      "id": "2",
+      "score": 0.6827,
+      "rule_score": 0.4286,
+      "embedding_score": 0.792,
+      "chunk_vote": 0.2027
+    },
+    {
+      "id": "2.1",
+      "score": 0.6399,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7871,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.5813,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7733,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3523,
+      "rule_score": 0.0,
+      "embedding_score": 0.783,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3482,
+      "rule_score": 0.0,
+      "embedding_score": 0.7738,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4",
+      "score": 0.347,
+      "rule_score": 0.0,
+      "embedding_score": 0.7711,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.2485,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0636
+    },
+    {
+      "id": "5.6",
+      "score": 0.2436,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0395
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge içeriği ağırlıklı olarak tünelin yapısal elemanlarının (taban, tavan, üzengi vb.) tanımlanması ve NATM yönteminde kullanılan birincil/ikincil destekleme elemanlarının (süren, püskürtme beton, hasır çelik vb.) detaylı açıklanmasıyla ilgilidir. Bu içerik doğrudan '2.1 Tünel Yapı/Destek Elemanları' başlığına ve alt başlığı olan '2.1.2 Tünel Destekleme Elemanları'na aittir. Üst başlık '2' de gen",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2:0.7666 gap=0.020 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,118 @@
+{
+  "document_id": "ING_d7a28b46d9634df6c1f9",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Zayıf ve Sıkışan Kaya Kütlesinde Açılan Bir Tünel için Rijit Destek Sistemi Çözümü (T34-GT2 Tüneli, Ankara-İstanbul YHT Projesi)",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Evren Poşluk",
+        "Servet Karahan",
+        "Candan Gökçeoğlu"
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2025",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "mixed",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "project_document",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: projesi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "case_study",
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "karst",
+        "monitoring",
+        "natm",
+        "portal",
+        "rock_mechanics",
+        "safety",
+        "support_systems",
+        "tbm"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "natm:new austrian tunnel; tbm:tbm; geotechnical_investigation:geotechnical; geology:jeoloji; rock_mechanics:rock mechanics; excavation:kazı; support_systems:destek sistem; karst:karst; portal:portal; monitoring:monitoring; safety:safety; case_study:case study"
+    },
+    {
+      "field": "source_url",
+      "value": "https://dergipark.org.tr/tr/pub/jmd/article/1666024",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.24232/jmd.1666024",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "document_status",
+      "value": "DRAFT",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "status marking: preliminary"
+    }
+  ]
+}

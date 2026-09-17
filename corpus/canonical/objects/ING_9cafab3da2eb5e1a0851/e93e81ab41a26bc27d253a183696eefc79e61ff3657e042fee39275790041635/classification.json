@@ -1,0 +1,162 @@
+{
+  "final_primary_section": "2.4.2.2",
+  "final_secondary_sections": [
+    "2.4.1.2"
+  ],
+  "final_section_confidence": 0.7294,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.2.2",
+      "section_title": "Boykesit Belirlemede Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "PARA0042",
+        "PARA0043",
+        "PARA0059",
+        "PARA0088",
+        "PARA0089",
+        "PARA0090",
+        "PARA0092",
+        "PARA0094",
+        "PARA0149",
+        "PARA0150",
+        "PARA0260",
+        "PARA0262",
+        "PARA0265",
+        "PARA0289",
+        "PARA0295",
+        "PARA0304",
+        "PARA0457",
+        "PARA0458",
+        "PARA0459",
+        "PARA0466",
+        "PARA0468",
+        "PARA0469",
+        "PARA0474",
+        "PARA0480",
+        "PARA0483"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0026",
+        "PARA0031",
+        "PARA0034",
+        "LIST0007",
+        "PARA0040",
+        "PARA0107",
+        "FIG0029",
+        "CAPT0029",
+        "PARA0196",
+        "PARA0272",
+        "PARA0277",
+        "PARA0428",
+        "PARA0463",
+        "PARA0572",
+        "PARA0591",
+        "PARA0592",
+        "PARA0684",
+        "PARA0685",
+        "PARA0701",
+        "PARA0716",
+        "PARA0721",
+        "PARA0738",
+        "PARA0773",
+        "PARA0790"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.2.2",
+      "score": 0.7294,
+      "rule_score": 0.6,
+      "embedding_score": 0.7463,
+      "chunk_vote": 0.0678
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.6662,
+      "rule_score": 0.5,
+      "embedding_score": 0.7456,
+      "chunk_vote": 0.0282
+    },
+    {
+      "id": "6.1",
+      "score": 0.3481,
+      "rule_score": 0.0,
+      "embedding_score": 0.7584,
+      "chunk_vote": 0.0339
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.344,
+      "rule_score": 0.0,
+      "embedding_score": 0.7645,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3417,
+      "rule_score": 0.0,
+      "embedding_score": 0.7469,
+      "chunk_vote": 0.0282
+    },
+    {
+      "id": "2",
+      "score": 0.3413,
+      "rule_score": 0.0,
+      "embedding_score": 0.7434,
+      "chunk_vote": 0.0339
+    },
+    {
+      "id": "5.3",
+      "score": 0.3377,
+      "rule_score": 0.0,
+      "embedding_score": 0.7505,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3371,
+      "rule_score": 0.0,
+      "embedding_score": 0.7441,
+      "chunk_vote": 0.0113
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3281,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2655
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3248,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.096
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, yeraltı maden kazılarında sayısal modelleme (FLAC3D, COSFLOW) üzerine odaklanmakta olup, tünel inşaatı sırasında yapılan çalışmalar ve boykesit belirleme süreçleriyle dolaylı olarak ilişkilidir. Ancak belge madencilik odaklıdır ve tünel mühendisliği kitap bölümüyle tam örtüşmez; bu nedenle en yakın adaylar seçilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.4.2.2:0.7294 gap=0.063 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

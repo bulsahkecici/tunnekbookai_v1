@@ -1,0 +1,127 @@
+{
+  "final_primary_section": "5.4.2",
+  "final_secondary_sections": [
+    "5.4"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "LIST0004",
+        "LIST0007",
+        "LIST0034",
+        "LIST0037",
+        "LIST0043",
+        "LIST0054",
+        "LIST0058",
+        "LIST0061"
+      ]
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0076",
+        "LIST0077",
+        "LIST0078"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9.2",
+      "score": 0.7236,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7953,
+      "chunk_vote": 0.0506
+    },
+    {
+      "id": "5.4",
+      "score": 0.6806,
+      "rule_score": 0.5,
+      "embedding_score": 0.7902,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.6514,
+      "rule_score": 0.4286,
+      "embedding_score": 0.8125,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.4615,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.6573
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3642,
+      "rule_score": 0.0,
+      "embedding_score": 0.8093,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3593,
+      "rule_score": 0.0,
+      "embedding_score": 0.7984,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.3575,
+      "rule_score": 0.0,
+      "embedding_score": 0.7945,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.356,
+      "rule_score": 0.0,
+      "embedding_score": 0.7912,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3559,
+      "rule_score": 0.0,
+      "embedding_score": 0.7909,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3207,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0758
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC Yol Tünelleri El Kitabı'ndan olup tünel işletme sırasında kullanılan CCTV, acil durum telefonları ve otomatik olay tespiti gibi elektrik-elektronik sistemlerin izlenmesini ve çalışmasını detaylandırıyor. Bu içerik, tünel bakım-onarım ve işletme ana başlığı altındaki elektrik-elektronik sistemlerin bakımı ve işletimi ile doğrudan örtüşmektedir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:5",
+    "embeddings:8",
+    "top=5.9.2:0.7236 gap=0.043 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

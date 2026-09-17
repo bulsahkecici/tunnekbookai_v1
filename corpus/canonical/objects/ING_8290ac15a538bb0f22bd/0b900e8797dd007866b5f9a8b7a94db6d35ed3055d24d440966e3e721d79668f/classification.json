@@ -1,0 +1,118 @@
+{
+  "final_primary_section": "2.4",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4",
+      "section_title": "Tünellerin Projelendirilmesi",
+      "supporting_elements": [
+        "HEAD0004",
+        "PARA0013",
+        "PARA0014"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0025",
+        "LIST0027"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4",
+      "score": 0.7455,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8023,
+      "chunk_vote": 0.1442
+    },
+    {
+      "id": "2",
+      "score": 0.6597,
+      "rule_score": 0.4286,
+      "embedding_score": 0.8011,
+      "chunk_vote": 0.0673
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3704,
+      "rule_score": 0.0,
+      "embedding_score": 0.823,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.2",
+      "score": 0.3617,
+      "rule_score": 0.0,
+      "embedding_score": 0.8037,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.3.2",
+      "score": 0.359,
+      "rule_score": 0.0,
+      "embedding_score": 0.7977,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4.2",
+      "score": 0.3587,
+      "rule_score": 0.0,
+      "embedding_score": 0.797,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3.5",
+      "score": 0.3576,
+      "rule_score": 0.0,
+      "embedding_score": 0.7946,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3573,
+      "rule_score": 0.0,
+      "embedding_score": 0.794,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.319,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0673
+    },
+    {
+      "id": "5",
+      "score": 0.3168,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0561
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, yüksek hızlı demiryolu tünellerinin tasarımını, güvenlik standartlarını, aerodinamik ve drenaj sistemlerini detaylıca ele almaktadır. Bu içerik, 'Tünellerin Projelendirilmesi' (2.4) başlığıyla en güçlü örtüşmektedir. Ayrıca tasarımın tünelin ana elemanları ve yapım teknikleri (2) ile doğrudan ilişkili olması nedeniyle bu bölüm ikincil olarak listelenmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.4:0.7455 gap=0.086 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

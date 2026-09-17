@@ -1,0 +1,152 @@
+{
+  "document_id": "ING_2a3e081474546f5682ee",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_A2DBEF23DD2989A7156F",
+      "producer_document_id": "PC_2A3E081474546F56",
+      "declared_sha256": "2a3e081474546f5682ee6c324b1c4c181d6ff1f142dbd546601c64be27c97168",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_2A3E081474546F56/source_raw.html",
+        "sha256": "2a3e081474546f5682ee6c324b1c4c181d6ff1f142dbd546601c64be27c97168"
+      },
+      "provenance": {
+        "source_url": "https://dx.doi.org/10.5281/zenodo.20658619",
+        "landing_url": "https://dx.doi.org/10.5281/zenodo.20658619",
+        "resolved_url": "https://zenodo.org/records/20658620",
+        "discovery_source": "openaire",
+        "discovery_query": "immersed tunnel cost construction",
+        "doi": "10.5281/zenodo.20658619",
+        "publisher": "ijemss"
+      },
+      "producer_provenance": {
+        "source_url": "https://dx.doi.org/10.5281/zenodo.20658619",
+        "landing_url": "https://dx.doi.org/10.5281/zenodo.20658619",
+        "resolved_url": "https://zenodo.org/records/20658620",
+        "discovery_source": "openaire",
+        "discovery_query": "immersed tunnel cost construction",
+        "doi": "10.5281/zenodo.20658619",
+        "publisher": "ijemss"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_2A3E081474546F56",
+        "canonical_id": "CAN_A2DBEF23DD2989A7156F",
+        "canonical_hint_id": "CAN_A2DBEF23DD2989A7156F",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "ijemss",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Tunnel Construction Methods and Challenges",
+        "authors": [
+          "P Abhilash"
+        ],
+        "year": "2026",
+        "doi": "10.5281/zenodo.20658619",
+        "source_url": "https://dx.doi.org/10.5281/zenodo.20658619",
+        "landing_url": "https://dx.doi.org/10.5281/zenodo.20658619",
+        "resolved_url": "https://zenodo.org/records/20658620",
+        "local_path": "01_originals/C_ACADEMIC/PC_2A3E081474546F56/source_raw.html",
+        "sha256": "2a3e081474546f5682ee6c324b1c4c181d6ff1f142dbd546601c64be27c97168",
+        "source_name": "openaire",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "WEB_SNAPSHOT_TEXT",
+        "evidence_level": "WEB_SNAPSHOT_TEXT",
+        "acquisition_status": "SNAPSHOTTED_WEB",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_2A3E081474546F56/source_raw.html",
+          "original_or_raw_sha256": "2a3e081474546f5682ee6c324b1c4c181d6ff1f142dbd546601c64be27c97168",
+          "crawler_normalized": "01_originals/C_ACADEMIC/PC_2A3E081474546F56/source.md",
+          "crawler_normalized_sha256": "8437c7eafec359c3dace79a412e7de5c3dbc7e4bedc6b0b67d21c8fb5000f4e7",
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "immersed_tube",
+          "NATM",
+          "TBM",
+          "drill_and_blast",
+          "cut_and_cover",
+          "geology",
+          "geotechnics",
+          "road_safety",
+          "excavation",
+          "sustainability",
+          "monitoring",
+          "construction_risk",
+          "construction_management",
+          "underwater_tunnel"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "ijemss",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "SNAPSHOTTED_WEB",
+          "source_path": "01_originals/C_ACADEMIC/PC_2A3E081474546F56/source_raw.html",
+          "source_sha256": "2a3e081474546f5682ee6c324b1c4c181d6ff1f142dbd546601c64be27c97168"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://dx.doi.org/10.5281/zenodo.20658619",
+          "landing_url": "https://dx.doi.org/10.5281/zenodo.20658619",
+          "resolved_url": "https://zenodo.org/records/20658620",
+          "discovery_source": "openaire",
+          "discovery_query": "immersed tunnel cost construction",
+          "doi": "10.5281/zenodo.20658619",
+          "publisher": "ijemss"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source_raw.html",
+    "original_sha256": "2a3e081474546f5682ee6c324b1c4c181d6ff1f142dbd546601c64be27c97168",
+    "mime_type": "text/html",
+    "format": "HTML"
+  }
+}

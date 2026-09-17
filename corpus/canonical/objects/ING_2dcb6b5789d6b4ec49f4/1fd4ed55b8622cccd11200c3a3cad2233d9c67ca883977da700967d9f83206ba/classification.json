@@ -1,0 +1,112 @@
+{
+  "final_primary_section": "1.5",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.7071,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "1.5",
+      "section_title": "Tünel Felaketleri",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0002",
+        "PARA0082",
+        "PARA0100",
+        "PARA0103",
+        "PARA0104",
+        "PARA0106",
+        "PARA0117"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1.5",
+      "score": 0.7071,
+      "rule_score": 0.5556,
+      "embedding_score": 0.758,
+      "chunk_vote": 0.0523
+    },
+    {
+      "id": "5.6",
+      "score": 0.3772,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.236
+    },
+    {
+      "id": "6.1",
+      "score": 0.3394,
+      "rule_score": 0.0,
+      "embedding_score": 0.7506,
+      "chunk_vote": 0.0081
+    },
+    {
+      "id": "5.7",
+      "score": 0.3385,
+      "rule_score": 0.0,
+      "embedding_score": 0.7523,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.1",
+      "score": 0.3372,
+      "rule_score": 0.0,
+      "embedding_score": 0.7494,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.3",
+      "score": 0.3364,
+      "rule_score": 0.0,
+      "embedding_score": 0.7475,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3356,
+      "rule_score": 0.0,
+      "embedding_score": 0.7458,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3352,
+      "rule_score": 0.0,
+      "embedding_score": 0.7449,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3333,
+      "rule_score": 0.0,
+      "embedding_score": 0.7407,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.3194,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0692
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=1.5:0.7071 gap=0.330 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

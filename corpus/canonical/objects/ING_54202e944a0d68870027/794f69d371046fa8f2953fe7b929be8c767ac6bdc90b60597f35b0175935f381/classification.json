@@ -1,0 +1,167 @@
+{
+  "final_primary_section": "5.9.2",
+  "final_secondary_sections": [
+    "5.9",
+    "5.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "PARA0003",
+        "PARA0004",
+        "PARA0006",
+        "PARA0008",
+        "PARA0009",
+        "PARA0021",
+        "PARA0022",
+        "PARA0027",
+        "PARA0029",
+        "LIST0053",
+        "LIST0054",
+        "LIST0055",
+        "PARA0032"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "PARA0003",
+        "PARA0004",
+        "PARA0006",
+        "PARA0008",
+        "PARA0009",
+        "PARA0021",
+        "PARA0022",
+        "PARA0027",
+        "PARA0029",
+        "LIST0053",
+        "LIST0054",
+        "LIST0055",
+        "PARA0032"
+      ]
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "PARA0003",
+        "PARA0004",
+        "PARA0006",
+        "PARA0008",
+        "PARA0009",
+        "PARA0021",
+        "PARA0022",
+        "PARA0027",
+        "PARA0029",
+        "LIST0053",
+        "LIST0054",
+        "LIST0055"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9.2",
+      "score": 0.723,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8027,
+      "chunk_vote": 0.0311
+    },
+    {
+      "id": "5.9",
+      "score": 0.7184,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7855,
+      "chunk_vote": 0.0467
+    },
+    {
+      "id": "5.1",
+      "score": 0.6946,
+      "rule_score": 0.5,
+      "embedding_score": 0.7837,
+      "chunk_vote": 0.0847
+    },
+    {
+      "id": "1",
+      "score": 0.3857,
+      "rule_score": 0.0,
+      "embedding_score": 0.7796,
+      "chunk_vote": 0.1743
+    },
+    {
+      "id": "5.6",
+      "score": 0.3736,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2178
+    },
+    {
+      "id": "1.4",
+      "score": 0.3563,
+      "rule_score": 0.0,
+      "embedding_score": 0.7853,
+      "chunk_vote": 0.0145
+    },
+    {
+      "id": "2.4",
+      "score": 0.3561,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1307
+    },
+    {
+      "id": "7",
+      "score": 0.353,
+      "rule_score": 0.0,
+      "embedding_score": 0.7844,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.3508,
+      "rule_score": 0.0,
+      "embedding_score": 0.7796,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3496,
+      "rule_score": 0.0,
+      "embedding_score": 0.7769,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC'ın uluslararası bir kuruluş tarafından hazırlanmış kapsamlı bir el kitabıdır ve 'uluslararası literatür' veya 'uluslararası uygulamalar' bağlamında referans niteliğindedir. Aday listesindeki en yüksek skorlu ve içeriğe en uygun bölüm, uluslararası kaynakları kapsayan 5.9.2'dir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:9",
+    "embeddings:8",
+    "top=5.9.2:0.723 gap=0.005 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

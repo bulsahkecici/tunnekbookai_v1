@@ -1,0 +1,151 @@
+{
+  "document_id": "ING_88f79d9d31a59a03acab",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_CE38CD4BBAB01C4909F7",
+      "producer_document_id": "PC_88F79D9D31A59A03",
+      "declared_sha256": "88f79d9d31a59a03acab5873b5c9c7b87a38d53eb5c4ac4637ef6174a97e4636",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_88F79D9D31A59A03/source_raw.html",
+        "sha256": "88f79d9d31a59a03acab5873b5c9c7b87a38d53eb5c4ac4637ef6174a97e4636"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1201/9781003761952-38",
+        "landing_url": "https://doi.org/10.1201/9781003761952-38",
+        "resolved_url": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003761952-38/case-study-ground-control-mechanisms-epb-shield-tunnelling-soft-clay-lee-ji-shen-liu-bai",
+        "discovery_source": "openaire",
+        "discovery_query": "soft ground tunnelling EPB shield",
+        "doi": "10.1201/9781003761952-38",
+        "publisher": "Informa UK Limited"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.1201/9781003761952-38",
+        "landing_url": "https://doi.org/10.1201/9781003761952-38",
+        "resolved_url": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003761952-38/case-study-ground-control-mechanisms-epb-shield-tunnelling-soft-clay-lee-ji-shen-liu-bai",
+        "discovery_source": "openaire",
+        "discovery_query": "soft ground tunnelling EPB shield",
+        "doi": "10.1201/9781003761952-38",
+        "publisher": "Informa UK Limited"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_88F79D9D31A59A03",
+        "canonical_id": "CAN_CE38CD4BBAB01C4909F7",
+        "canonical_hint_id": "CAN_CE38CD4BBAB01C4909F7",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "Informa UK Limited",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "A case study of ground control mechanisms of EPB shield tunnelling in soft clay",
+        "authors": [
+          "K.M. Lee",
+          "H.W. Ji",
+          "C.K. Shen",
+          "J.H. Liu",
+          "T.H. Bai"
+        ],
+        "year": "2026",
+        "doi": "10.1201/9781003761952-38",
+        "source_url": "https://doi.org/10.1201/9781003761952-38",
+        "landing_url": "https://doi.org/10.1201/9781003761952-38",
+        "resolved_url": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003761952-38/case-study-ground-control-mechanisms-epb-shield-tunnelling-soft-clay-lee-ji-shen-liu-bai",
+        "local_path": "01_originals/C_ACADEMIC/PC_88F79D9D31A59A03/source_raw.html",
+        "sha256": "88f79d9d31a59a03acab5873b5c9c7b87a38d53eb5c4ac4637ef6174a97e4636",
+        "source_name": "openaire",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "WEB_SNAPSHOT_TEXT",
+        "evidence_level": "WEB_SNAPSHOT_TEXT",
+        "acquisition_status": "SNAPSHOTTED_WEB",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_88F79D9D31A59A03/source_raw.html",
+          "original_or_raw_sha256": "88f79d9d31a59a03acab5873b5c9c7b87a38d53eb5c4ac4637ef6174a97e4636",
+          "crawler_normalized": "01_originals/C_ACADEMIC/PC_88F79D9D31A59A03/source.md",
+          "crawler_normalized_sha256": "202af88ca52250510fd9f767d2d56ac4b4d78ca4cacd8a56fb341415fca52ecb",
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "EPB",
+          "shield_tunnelling",
+          "soft_ground",
+          "site_investigation",
+          "inspection",
+          "ITS",
+          "monitoring",
+          "sustainability",
+          "ventilation"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "Informa UK Limited",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "SNAPSHOTTED_WEB",
+          "source_path": "01_originals/C_ACADEMIC/PC_88F79D9D31A59A03/source_raw.html",
+          "source_sha256": "88f79d9d31a59a03acab5873b5c9c7b87a38d53eb5c4ac4637ef6174a97e4636"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.1201/9781003761952-38",
+          "landing_url": "https://doi.org/10.1201/9781003761952-38",
+          "resolved_url": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003761952-38/case-study-ground-control-mechanisms-epb-shield-tunnelling-soft-clay-lee-ji-shen-liu-bai",
+          "discovery_source": "openaire",
+          "discovery_query": "soft ground tunnelling EPB shield",
+          "doi": "10.1201/9781003761952-38",
+          "publisher": "Informa UK Limited"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source_raw.html",
+    "original_sha256": "88f79d9d31a59a03acab5873b5c9c7b87a38d53eb5c4ac4637ef6174a97e4636",
+    "mime_type": "text/html",
+    "format": "HTML"
+  }
+}

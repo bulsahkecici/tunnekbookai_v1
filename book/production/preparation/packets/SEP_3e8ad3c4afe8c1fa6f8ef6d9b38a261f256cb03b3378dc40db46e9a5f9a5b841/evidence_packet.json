@@ -1,0 +1,650 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_3c67a1e3b7d775d59c4ec12482352726451b1d7fd14d48985a955f95bd68405b",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 13,
+    "SUPPORTED": 9,
+    "UNSUPPORTED": 28
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_3e8ad3c4afe8c1fa6f8ef6d9b38a261f256cb03b3378dc40db46e9a5f9a5b841",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_2688a42bef5d6d741e67574b05fd7c9029f0e49aafcc1df91c7b234df4b1180a"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Destekleme Elemanları nedir ve tünel mühendisliğindeki temel işlevi nedir?",
+      "question_id": "2.1.2-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları hangi mühendislik problemini çözmeyi amaçlar?",
+      "question_id": "2.1.2-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2688a42bef5d6d741e67574b05fd7c9029f0e49aafcc1df91c7b234df4b1180a",
+        "CLM_bc93c36c897faccd8744bc1f8ab0e706218d9156ee665c34dd6a97396bb0451e",
+        "CLM_7661309b743944f7dc62458ebbbc83e62745db9c959894e2181dad9e441fe4d3"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Destekleme Elemanları için temel tasarım girdileri nelerdir?",
+      "question_id": "2.1.2-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_697a00ab18de2866b5bb2420030ec8c8ac02cacb8d21aad494a82d60b1df44dc",
+        "CLM_591c2b2b65f22ee6729f1da205850eca8c2563afdacd58e3f1f513821bfa4352",
+        "CLM_0ba9d471e1f4ac7703d422fee84d67d9ccbfe33de80c91e8d72311376c0b5bcf"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Destekleme Elemanları için jeolojik girdiler nelerdir?",
+      "question_id": "2.1.2-Q04",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0ba9d471e1f4ac7703d422fee84d67d9ccbfe33de80c91e8d72311376c0b5bcf",
+        "CLM_38b9225f9b17b51c88ebc02746aa082036a83c8b1e7c1e29b56aafa535bc0193",
+        "CLM_95e6bc02ff6a68915fc80e78f9f059ecc359c968bb543e5c2ca24de8d82cc095"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Destekleme Elemanları için geoteknik girdiler nelerdir?",
+      "question_id": "2.1.2-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları için hidrojeolojik girdiler nelerdir?",
+      "question_id": "2.1.2-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları için topoğrafik ve geometrik girdiler nelerdir?",
+      "question_id": "2.1.2-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları için trafik ve işletme girdileri nelerdir?",
+      "question_id": "2.1.2-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları seçiminde tünel uzunluğu nasıl etkili olur?",
+      "question_id": "2.1.2-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_94b5008f2639cca738e0eae30cc953124193ec272326ee72a62c56f78d540b78",
+        "CLM_fc95b94a3381d548b737f3a4e90d6465bd38176e1be642f1966c5026aeef13a5"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Destekleme Elemanları seçiminde tünel kesiti ve açıklığı nasıl etkili olur?",
+      "question_id": "2.1.2-Q10",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f30823331b81859b38af5fc1011c30034ad63eb693e70e7f1ad4cc1044bbb654",
+        "CLM_6c40dc13aebcae3725fcc54531d43d0b61d35aab4596eb719a434c5caec9aa8b"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Destekleme Elemanları seçiminde örtü kalınlığı nasıl etkili olur?",
+      "question_id": "2.1.2-Q11",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_94b5008f2639cca738e0eae30cc953124193ec272326ee72a62c56f78d540b78",
+        "CLM_bb9b2e813e721616b3e547a488e91182f7c2a700f92094b205d23e13411c80b6",
+        "CLM_3a4ab93bcb9b8f05e1d0871ca521f2e349b6f3bd4f6f831351427af699de9d0c",
+        "CLM_4fed7b088204b7e830d28b0dc98a7258f01256099a8700549da8027f581ffe28"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Destekleme Elemanları seçiminde kaya kütlesi veya zemin özellikleri nasıl etkili olur?",
+      "question_id": "2.1.2-Q12",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları seçiminde yeraltı suyu koşulları nasıl etkili olur?",
+      "question_id": "2.1.2-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları seçiminde çevresel ve yerleşim koşulları nasıl etkili olur?",
+      "question_id": "2.1.2-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları seçiminde iş sağlığı ve güvenliği nasıl dikkate alınır?",
+      "question_id": "2.1.2-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları seçiminde yapım süresi nasıl dikkate alınır?",
+      "question_id": "2.1.2-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları seçiminde ilk yatırım maliyeti nasıl dikkate alınır?",
+      "question_id": "2.1.2-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları seçiminde bakım ve işletme maliyetleri nasıl dikkate alınır?",
+      "question_id": "2.1.2-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_598fb879668a3174d86e990a4d5a7f64a75cd9304da744db4f2fb9f40bb3332f",
+        "CLM_20e914a07c1b426a8ed237a3d79d9b498e505d382d68c66c4732ff0ede166945",
+        "CLM_8c34cc6df2142b2c1f293e68757dba0fb4efd533b9e23ebb875df3f5b42d7127",
+        "CLM_c84ad6967abd0fcdc22e140b1e3ed29f36165e8584a86117c92e383e2ea4e48c"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Destekleme Elemanları için hangi alternatif teknik çözümler karşılaştırılabilir?",
+      "question_id": "2.1.2-Q19",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_841a0b29b5668eea4becdc26dbf17c6d0b41e46eed77b6659cb29699f85f36bf"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Destekleme Elemanları alternatiflerinin avantajları ve dezavantajları nelerdir?",
+      "question_id": "2.1.2-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_598fb879668a3174d86e990a4d5a7f64a75cd9304da744db4f2fb9f40bb3332f",
+        "CLM_c0c5ec59af9c61df183c0785e4ad2266e8213627c24226800afd14fef629ada7",
+        "CLM_4fed7b088204b7e830d28b0dc98a7258f01256099a8700549da8027f581ffe28",
+        "CLM_c84ad6967abd0fcdc22e140b1e3ed29f36165e8584a86117c92e383e2ea4e48c"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Destekleme Elemanları için karar verme sürecinde hangi teknik kriterlere ağırlık verilmelidir?",
+      "question_id": "2.1.2-Q21",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d7f2b88e39f96b1aa2236393fa42c168dca45dff6ad2a2cfa3dfbdc67780f76b",
+        "CLM_21885976335ca02d24e353d58804a0f10a328d4b6a8fc883c0bf5955cc9a9ab1",
+        "CLM_58127d46284fd0a79a9afbfccf2aae65d565bf35726723cdd11d3d3863e03055",
+        "CLM_7661309b743944f7dc62458ebbbc83e62745db9c959894e2181dad9e441fe4d3"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Destekleme Elemanları tasarımında hangi hesap yöntemleri kullanılır?",
+      "question_id": "2.1.2-Q22",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b41690f148322836e8dd8e70a0483e038e4383fca6c8862b31805fa46fa29808",
+        "CLM_bc008936dcaf9aee017dbbc57eee270c4b1a1f5a11194e074715c27978191a02",
+        "CLM_d5d61eae0bf46fc5206ff2202af9f649d0b98eaa3e826d908580929748ff4da2",
+        "CLM_21885976335ca02d24e353d58804a0f10a328d4b6a8fc883c0bf5955cc9a9ab1"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Destekleme Elemanları tasarımında hangi sayısal modelleme yöntemleri kullanılabilir?",
+      "question_id": "2.1.2-Q23",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_598fb879668a3174d86e990a4d5a7f64a75cd9304da744db4f2fb9f40bb3332f",
+        "CLM_7adcad5732a616686d287857e2da0676bd7aeb1253c4ad0e7d324adcceb349c8",
+        "CLM_bb9b2e813e721616b3e547a488e91182f7c2a700f92094b205d23e13411c80b6",
+        "CLM_94b5008f2639cca738e0eae30cc953124193ec272326ee72a62c56f78d540b78"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Destekleme Elemanları tasarımında hangi ampirik sınıflandırmalar kullanılabilir?",
+      "question_id": "2.1.2-Q24",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c0c5ec59af9c61df183c0785e4ad2266e8213627c24226800afd14fef629ada7",
+        "CLM_584e1e084d3903cf3ea601eb795069eeb0499216b7771f0174f5a02eae0af788"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Destekleme Elemanları tasarımında hangi güvenlik katsayıları veya performans kriterleri önemlidir?",
+      "question_id": "2.1.2-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8c34cc6df2142b2c1f293e68757dba0fb4efd533b9e23ebb875df3f5b42d7127"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Destekleme Elemanları uygulamasında hangi başlıca malzemeler kullanılır?",
+      "question_id": "2.1.2-Q26",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları uygulamasında hangi başlıca makine ve ekipmanlar kullanılır?",
+      "question_id": "2.1.2-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları uygulamasının tipik iş sırası nasıldır?",
+      "question_id": "2.1.2-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları uygulamasında kalite kontrol nasıl yapılır?",
+      "question_id": "2.1.2-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları uygulamasında saha ölçümleri ve enstrümantasyon nasıl kullanılır?",
+      "question_id": "2.1.2-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d733242a88fb8fd636f1a69ac398e39d46de26cab2fa6e207c4f1fd3f7278e86"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Destekleme Elemanları uygulamasında deformasyonlar nasıl izlenir?",
+      "question_id": "2.1.2-Q31",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları uygulamasında su girişleri nasıl kontrol edilir?",
+      "question_id": "2.1.2-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_834b19cf224d69708ec69a384d23aa83ba267afe2777813cf65306e6de507704",
+        "CLM_da477ba8752cfc6484ebdcebd122af3aa77b878be06f878a8d00576157d016c1"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Destekleme Elemanları uygulamasında drenaj ve yalıtım nasıl ele alınır?",
+      "question_id": "2.1.2-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8d1198e56273e26fc2da9538caa6190ee545dca69202e767e9727443a3612650",
+        "CLM_38b9225f9b17b51c88ebc02746aa082036a83c8b1e7c1e29b56aafa535bc0193",
+        "CLM_4fed7b088204b7e830d28b0dc98a7258f01256099a8700549da8027f581ffe28"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Destekleme Elemanları uygulamasında beklenmeyen zemin koşullarına nasıl müdahale edilir?",
+      "question_id": "2.1.2-Q34",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları uygulamasında en sık görülen teknik riskler nelerdir?",
+      "question_id": "2.1.2-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları uygulamasında hata veya yetersizlik belirtileri nelerdir?",
+      "question_id": "2.1.2-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_50aa8a1ef1a7fa6b48f788b95534f6814d11dc7969edd1724e19ab907e9cdc2e",
+        "CLM_648674279f6b8534000ae1187a3466364d9f8b264831148223bca5358b984800",
+        "CLM_4fed7b088204b7e830d28b0dc98a7258f01256099a8700549da8027f581ffe28"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Destekleme Elemanları uygulamasında düzeltici ve güçlendirici önlemler nelerdir?",
+      "question_id": "2.1.2-Q37",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_73d01ca84265e776cf78dec38b980e889fc4c76579f4fa8fb39f5f369c3c7e1a"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Destekleme Elemanları ile nihai kaplama arasındaki ilişki nasıl kurulmalıdır?",
+      "question_id": "2.1.2-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları ile portal tasarımı arasındaki ilişki nedir?",
+      "question_id": "2.1.2-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları ile havalandırma, aydınlatma ve diğer elektromekanik sistemler nasıl koordine edilir?",
+      "question_id": "2.1.2-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları için uygulanabilir ulusal standart ve şartnameler nelerdir?",
+      "question_id": "2.1.2-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları için uygulanabilir uluslararası standart ve kılavuzlar nelerdir?",
+      "question_id": "2.1.2-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları açısından Karayolları Genel Müdürlüğü uygulamalarında hangi esaslar öne çıkar?",
+      "question_id": "2.1.2-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2d5b0b3ac89f4292cff883acb947b251174879f32b1c3cd7165411b80b6573b1",
+        "CLM_95e6bc02ff6a68915fc80e78f9f059ecc359c968bb543e5c2ca24de8d82cc095",
+        "CLM_fcd1ac09f0a3d2fe6aa48dad4ba322a4b99d8123ec9885e4ac8b5fa0a7b24ee0"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Destekleme Elemanları için yapım sırasında tutulması gereken kayıtlar nelerdir?",
+      "question_id": "2.1.2-Q44",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları için kabul ve devreye alma kriterleri nelerdir?",
+      "question_id": "2.1.2-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları kullanım aşamasında nasıl izlenmeli ve denetlenmelidir?",
+      "question_id": "2.1.2-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları yaşam döngüsü boyunca hangi bakım gereksinimlerini doğurur?",
+      "question_id": "2.1.2-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları sürdürülebilirlik ve çevresel etki açısından nasıl değerlendirilebilir?",
+      "question_id": "2.1.2-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8142ab4911f73023b8f5fe6575c10cc75ddfe9e8c328c41c8ae235255eff2d0b"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Destekleme Elemanları ile ilgili Türkiye’den hangi uygulama örnekleri verilebilir?",
+      "question_id": "2.1.2-Q49",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Destekleme Elemanları ile ilgili dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "2.1.2-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "2.1.2",
+  "section_title": "Tünel Destekleme Elemanları",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_0ba9d471e1f4ac7703d422fee84d67d9ccbfe33de80c91e8d72311376c0b5bcf",
+      "CLM_20e914a07c1b426a8ed237a3d79d9b498e505d382d68c66c4732ff0ede166945",
+      "CLM_21885976335ca02d24e353d58804a0f10a328d4b6a8fc883c0bf5955cc9a9ab1",
+      "CLM_2688a42bef5d6d741e67574b05fd7c9029f0e49aafcc1df91c7b234df4b1180a",
+      "CLM_2d5b0b3ac89f4292cff883acb947b251174879f32b1c3cd7165411b80b6573b1",
+      "CLM_38b9225f9b17b51c88ebc02746aa082036a83c8b1e7c1e29b56aafa535bc0193",
+      "CLM_3a4ab93bcb9b8f05e1d0871ca521f2e349b6f3bd4f6f831351427af699de9d0c",
+      "CLM_4fed7b088204b7e830d28b0dc98a7258f01256099a8700549da8027f581ffe28",
+      "CLM_50aa8a1ef1a7fa6b48f788b95534f6814d11dc7969edd1724e19ab907e9cdc2e",
+      "CLM_58127d46284fd0a79a9afbfccf2aae65d565bf35726723cdd11d3d3863e03055",
+      "CLM_584e1e084d3903cf3ea601eb795069eeb0499216b7771f0174f5a02eae0af788",
+      "CLM_591c2b2b65f22ee6729f1da205850eca8c2563afdacd58e3f1f513821bfa4352",
+      "CLM_598fb879668a3174d86e990a4d5a7f64a75cd9304da744db4f2fb9f40bb3332f",
+      "CLM_648674279f6b8534000ae1187a3466364d9f8b264831148223bca5358b984800",
+      "CLM_697a00ab18de2866b5bb2420030ec8c8ac02cacb8d21aad494a82d60b1df44dc",
+      "CLM_6c40dc13aebcae3725fcc54531d43d0b61d35aab4596eb719a434c5caec9aa8b",
+      "CLM_73d01ca84265e776cf78dec38b980e889fc4c76579f4fa8fb39f5f369c3c7e1a",
+      "CLM_7661309b743944f7dc62458ebbbc83e62745db9c959894e2181dad9e441fe4d3",
+      "CLM_7adcad5732a616686d287857e2da0676bd7aeb1253c4ad0e7d324adcceb349c8",
+      "CLM_8142ab4911f73023b8f5fe6575c10cc75ddfe9e8c328c41c8ae235255eff2d0b",
+      "CLM_834b19cf224d69708ec69a384d23aa83ba267afe2777813cf65306e6de507704",
+      "CLM_841a0b29b5668eea4becdc26dbf17c6d0b41e46eed77b6659cb29699f85f36bf",
+      "CLM_8c34cc6df2142b2c1f293e68757dba0fb4efd533b9e23ebb875df3f5b42d7127",
+      "CLM_8d1198e56273e26fc2da9538caa6190ee545dca69202e767e9727443a3612650",
+      "CLM_94b5008f2639cca738e0eae30cc953124193ec272326ee72a62c56f78d540b78",
+      "CLM_95e6bc02ff6a68915fc80e78f9f059ecc359c968bb543e5c2ca24de8d82cc095",
+      "CLM_b41690f148322836e8dd8e70a0483e038e4383fca6c8862b31805fa46fa29808",
+      "CLM_bb9b2e813e721616b3e547a488e91182f7c2a700f92094b205d23e13411c80b6",
+      "CLM_bc008936dcaf9aee017dbbc57eee270c4b1a1f5a11194e074715c27978191a02",
+      "CLM_bc93c36c897faccd8744bc1f8ab0e706218d9156ee665c34dd6a97396bb0451e",
+      "CLM_c0c5ec59af9c61df183c0785e4ad2266e8213627c24226800afd14fef629ada7",
+      "CLM_c84ad6967abd0fcdc22e140b1e3ed29f36165e8584a86117c92e383e2ea4e48c",
+      "CLM_d5d61eae0bf46fc5206ff2202af9f649d0b98eaa3e826d908580929748ff4da2",
+      "CLM_d733242a88fb8fd636f1a69ac398e39d46de26cab2fa6e207c4f1fd3f7278e86",
+      "CLM_d7f2b88e39f96b1aa2236393fa42c168dca45dff6ad2a2cfa3dfbdc67780f76b",
+      "CLM_da477ba8752cfc6484ebdcebd122af3aa77b878be06f878a8d00576157d016c1",
+      "CLM_f30823331b81859b38af5fc1011c30034ad63eb693e70e7f1ad4cc1044bbb654",
+      "CLM_fc95b94a3381d548b737f3a4e90d6465bd38176e1be642f1966c5026aeef13a5",
+      "CLM_fcd1ac09f0a3d2fe6aa48dad4ba322a4b99d8123ec9885e4ac8b5fa0a7b24ee0"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "2.1.2-Q01",
+      "2.1.2-Q03",
+      "2.1.2-Q04",
+      "2.1.2-Q05",
+      "2.1.2-Q11",
+      "2.1.2-Q20",
+      "2.1.2-Q25",
+      "2.1.2-Q33",
+      "2.1.2-Q34",
+      "2.1.2-Q37",
+      "2.1.2-Q38",
+      "2.1.2-Q44",
+      "2.1.2-Q49"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "2.1.2-Q02",
+      "2.1.2-Q06",
+      "2.1.2-Q07",
+      "2.1.2-Q08",
+      "2.1.2-Q09",
+      "2.1.2-Q13",
+      "2.1.2-Q14",
+      "2.1.2-Q15",
+      "2.1.2-Q16",
+      "2.1.2-Q17",
+      "2.1.2-Q18",
+      "2.1.2-Q27",
+      "2.1.2-Q28",
+      "2.1.2-Q29",
+      "2.1.2-Q30",
+      "2.1.2-Q32",
+      "2.1.2-Q35",
+      "2.1.2-Q36",
+      "2.1.2-Q39",
+      "2.1.2-Q40",
+      "2.1.2-Q41",
+      "2.1.2-Q42",
+      "2.1.2-Q43",
+      "2.1.2-Q45",
+      "2.1.2-Q46",
+      "2.1.2-Q47",
+      "2.1.2-Q48",
+      "2.1.2-Q50"
+    ]
+  }
+}

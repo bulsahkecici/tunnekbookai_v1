@@ -1,0 +1,111 @@
+{
+  "final_primary_section": "2.2.1",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter",
+    "manual_review"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.1.3",
+      "score": 0.3432,
+      "rule_score": 0.0,
+      "embedding_score": 0.7626,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3411,
+      "rule_score": 0.0,
+      "embedding_score": 0.7581,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.338,
+      "rule_score": 0.0,
+      "embedding_score": 0.7511,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3375,
+      "rule_score": 0.0,
+      "embedding_score": 0.75,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3371,
+      "rule_score": 0.0,
+      "embedding_score": 0.7492,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.337,
+      "rule_score": 0.0,
+      "embedding_score": 0.7489,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.3338,
+      "rule_score": 0.0,
+      "embedding_score": 0.7418,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.3337,
+      "rule_score": 0.0,
+      "embedding_score": 0.7416,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.2932,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2871
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.2427,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.297
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Tenda Tüneli'ndeki kazı çalışmalarının ilerlediğine dair bir haberdir. Kazı, tünel yapım teknikleri ve ana elemanların inşasıyla doğrudan ilgilidir; bu nedenle 'TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ' (Bölüm 2) en uygun birincil sınıflandırmadır. Kazı, kullanım aşaması değil, inşaat aşaması olduğundan 2.4.1.3 (Kullanım Aşaması) ikincil olarak düşük güvenle listelenmiştir ",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:5",
+    "chunk_votes:15",
+    "embeddings:8",
+    "top=2.4.1.3:0.3432 gap=0.002 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json",
+  "document_id": "ING_d9c66f67c8cd3a7175f3",
+  "manual_review": {
+    "status": "APPROVED",
+    "reviewed_at": "2026-09-13T16:56:57+00:00",
+    "note": "Section assignment verified by manual content review."
+  }
+}

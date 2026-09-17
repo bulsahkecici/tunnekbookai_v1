@@ -1,0 +1,172 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.2.1",
+    "5.9.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0008",
+        "PARA0025",
+        "FIG0018",
+        "PARA0036",
+        "PARA0040",
+        "PARA0041",
+        "HEAD0019",
+        "PARA0043",
+        "PARA0044",
+        "PARA0045",
+        "PARA0047",
+        "FIG0032",
+        "FIG0033",
+        "FIG0035",
+        "CAPT0003",
+        "FIG0037",
+        "HEAD0021",
+        "PARA0049",
+        "PARA0056",
+        "PARA0057",
+        "PARA0086",
+        "HEAD0042",
+        "HEAD0043",
+        "PARA0115",
+        "PARA0116"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "FIG0033",
+        "LIST0046"
+      ]
+    },
+    {
+      "section_id": "5.9.1",
+      "section_title": "Ulusal Literatür Taraması",
+      "supporting_elements": [
+        "PARA0014",
+        "PARA0049",
+        "PARA0059",
+        "FIG0052",
+        "PARA0115",
+        "PARA0118",
+        "PARA0132",
+        "PARA0134",
+        "PARA0165",
+        "FIG0145",
+        "LIST0055",
+        "PARA0488",
+        "PARA0529",
+        "PARA0542",
+        "PARA0543",
+        "LIST0059",
+        "LIST0060",
+        "LIST0061",
+        "LIST0062",
+        "PARA0544",
+        "PARA0635",
+        "LIST0190",
+        "PARA1163",
+        "FIG0185",
+        "PARA1322"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2",
+      "score": 0.7467,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7656,
+      "chunk_vote": 0.2331
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.6837,
+      "rule_score": 0.5,
+      "embedding_score": 0.7722,
+      "chunk_vote": 0.0561
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3492,
+      "rule_score": 0.0,
+      "embedding_score": 0.7759,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.347,
+      "rule_score": 0.0,
+      "embedding_score": 0.771,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.347,
+      "rule_score": 0.0,
+      "embedding_score": 0.771,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3467,
+      "rule_score": 0.0,
+      "embedding_score": 0.7705,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3455,
+      "rule_score": 0.0,
+      "embedding_score": 0.7677,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3453,
+      "rule_score": 0.0,
+      "embedding_score": 0.7674,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5",
+      "score": 0.33,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.3112,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0281
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, TBM (Tünel Açma Makinesi) performans verileri, kazı parametreleri ve beton pompası gibi tünel yapım süreçlerine odaklanan teknik içerikler içermektedir. Bu nedenle 'Tünel Yapım Yöntemleri' ana bölümü ve alt başlık 'Kayaç Zeminde Açılan Tüneller' (TBM kullanımı bağlamında) en uygun sınıflandırmadır.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2:0.7467 gap=0.063 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

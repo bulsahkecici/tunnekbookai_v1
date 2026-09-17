@@ -1,0 +1,146 @@
+{
+  "document_id": "ING_ae7ef20fc2f56d657d1d",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_1E45864AC70821641D43",
+      "producer_document_id": "PC_AE7EF20FC2F56D65",
+      "declared_sha256": "ae7ef20fc2f56d657d1dff43ab5a35f56afb760bb3da4a2c2773f25dd8145329",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_AE7EF20FC2F56D65/source.pdf",
+        "sha256": "ae7ef20fc2f56d657d1dff43ab5a35f56afb760bb3da4a2c2773f25dd8145329"
+      },
+      "provenance": {
+        "source_url": "https://europepmc.org/articles/PMC9731989",
+        "landing_url": "https://europepmc.org/articles/PMC9731989",
+        "pdf_url": "https://www.nature.com/articles/s41598-022-25767-1.pdf",
+        "resolved_url": "https://www.nature.com/articles/s41598-022-25767-1.pdf",
+        "discovery_source": "europe_pmc",
+        "discovery_query": "NATM tunnel support shotcrete rock",
+        "doi": "10.1038/s41598-022-25767-1"
+      },
+      "producer_provenance": {
+        "source_url": "https://europepmc.org/articles/PMC9731989",
+        "landing_url": "https://europepmc.org/articles/PMC9731989",
+        "pdf_url": "https://www.nature.com/articles/s41598-022-25767-1.pdf",
+        "resolved_url": "https://www.nature.com/articles/s41598-022-25767-1.pdf",
+        "discovery_source": "europe_pmc",
+        "discovery_query": "NATM tunnel support shotcrete rock",
+        "doi": "10.1038/s41598-022-25767-1"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_AE7EF20FC2F56D65",
+        "canonical_id": "CAN_1E45864AC70821641D43",
+        "canonical_hint_id": "CAN_1E45864AC70821641D43",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "UNKNOWN"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Evaluation of the relationship between the collapsed mechanism and excavation method in tunnels excavated in schists.",
+        "authors": [
+          "Aygar EB"
+        ],
+        "year": "2022",
+        "doi": "10.1038/s41598-022-25767-1",
+        "source_url": "https://europepmc.org/articles/PMC9731989",
+        "landing_url": "https://europepmc.org/articles/PMC9731989",
+        "resolved_url": "https://www.nature.com/articles/s41598-022-25767-1.pdf",
+        "local_path": "01_originals/C_ACADEMIC/PC_AE7EF20FC2F56D65/source.pdf",
+        "sha256": "ae7ef20fc2f56d657d1dff43ab5a35f56afb760bb3da4a2c2773f25dd8145329",
+        "source_name": "europe_pmc",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "ABSTRACT",
+        "evidence_level": "ABSTRACT",
+        "acquisition_status": "DOWNLOADED_PDF",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_AE7EF20FC2F56D65/source.pdf",
+          "original_or_raw_sha256": "ae7ef20fc2f56d657d1dff43ab5a35f56afb760bb3da4a2c2773f25dd8145329",
+          "crawler_normalized": null,
+          "crawler_normalized_sha256": null,
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "excavation",
+          "alignment",
+          "deformation",
+          "cut_and_cover",
+          "geotechnics",
+          "rehabilitation",
+          "soft_ground",
+          "structural_maintenance"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "UNKNOWN"
+        },
+        "acquisition": {
+          "status": "DOWNLOADED_PDF",
+          "source_path": "01_originals/C_ACADEMIC/PC_AE7EF20FC2F56D65/source.pdf",
+          "source_sha256": "ae7ef20fc2f56d657d1dff43ab5a35f56afb760bb3da4a2c2773f25dd8145329"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://europepmc.org/articles/PMC9731989",
+          "landing_url": "https://europepmc.org/articles/PMC9731989",
+          "pdf_url": "https://www.nature.com/articles/s41598-022-25767-1.pdf",
+          "resolved_url": "https://www.nature.com/articles/s41598-022-25767-1.pdf",
+          "discovery_source": "europe_pmc",
+          "discovery_query": "NATM tunnel support shotcrete rock",
+          "doi": "10.1038/s41598-022-25767-1"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source.pdf",
+    "original_sha256": "ae7ef20fc2f56d657d1dff43ab5a35f56afb760bb3da4a2c2773f25dd8145329",
+    "mime_type": "application/pdf",
+    "format": "PDF"
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "batch_number": 6,
+  "results": [
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "paragraph_id": "1.1-P022",
+      "question_ids": [
+        "1.1-Q33"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel tanımı konusunda, yeraltı boşluğu, taşıyıcı kabuk sistemi, kazılması gereken ortam ve doğal ortam arasındaki ayrım sıkça karıştırılan unsurlar arasında yer almaktadır.",
+      "sentence_id": "1.1-S061",
+      "source_locators": [
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_d860cf25d2:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L193"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "supporting_document_ids": [
+        "ING_2005c18d2148fb921826"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "paragraph_id": "1.1-P022",
+      "question_ids": [
+        "1.1-Q33"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Ayrıca, açık kapalı tünel olarak tanımlanan yapılar ile tam yeraltı kazısı gerektiren yapılar arasındaki terminolojik farklar dikkat edilmesi gereken noktalar arasındadır.",
+      "sentence_id": "1.1-S062",
+      "source_locators": [
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "supporting_document_ids": [
+        "ING_312befcda2ff316b7279"
+      ]
+    },
+    {
+      "confidence": 0.6,
+      "mapped_claim_ids": [
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "paragraph_id": "1.1-P023",
+      "question_ids": [
+        "1.1-Q34"
+      ],
+      "reason_code": "CLAIM_OVERREACH",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı, yalnızca fiziksel boşluk olarak değil, mühendislik açısından güvenli taşıyıcı sistemler bütünü olarak değerlendirilmelidir.",
+      "sentence_id": "1.1-S063",
+      "source_locators": [
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_9298d2989f:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L6",
+        "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_b535170db3:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L11"
+      ],
+      "status": "PARTIAL",
+      "supporting_claim_ids": [
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "supporting_document_ids": [
+        "ING_2005c18d2148fb921826",
+        "ING_7e795b9a47c89f5406c5"
+      ]
+    },
+    {
+      "confidence": 0.55,
+      "mapped_claim_ids": [
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "paragraph_id": "1.1-P023",
+      "question_ids": [
+        "1.1-Q34"
+      ],
+      "reason_code": "CLAIM_OVERREACH",
+      "section_id": "1.1",
+      "sentence": "Doğal ortamın kendisini taşıyabilme kapasitesinin göz ardı edilmesi, tanımın eksik anlaşılmaya yol açabileceği önemli bir noktadır.",
+      "sentence_id": "1.1-S064",
+      "source_locators": [
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_9298d2989f:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L6",
+        "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_b535170db3:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L11"
+      ],
+      "status": "PARTIAL",
+      "supporting_claim_ids": [
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "supporting_document_ids": [
+        "ING_2005c18d2148fb921826",
+        "ING_7e795b9a47c89f5406c5"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_67aa9188a918c5f718f55e572e0175de1ec6e771b40a35238d12a5415d511a28"
+      ],
+      "paragraph_id": "1.1-P024",
+      "question_ids": [
+        "1.1-Q35"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Teknik çizimlerde tünel, tip kesiti, cephesi ve bağlantı detaylarını içeren yapısal mühendislik çizimleri ile gösterilmektedir.",
+      "sentence_id": "1.1-S065",
+      "source_locators": [
+        "ING_c27ed860ffef1bcf970a:ING_c27ed860ffef1bcf970a_CH_4c1f3feb1a:pages=1;canonical=corpus/canonical/objects/ING_c27ed860ffef1bcf970a/0ccae1e650c0db02431d817f7bd535d64cf87e96b1bc4f6c2e023b98c14143f8/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_67aa9188a918c5f718f55e572e0175de1ec6e771b40a35238d12a5415d511a28"
+      ],
+      "supporting_document_ids": [
+        "ING_c27ed860ffef1bcf970a"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_0b5309ce35274ad47546dcecb54736000120f4a1513bc4193e4efd46f9173b82",
+        "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9"
+      ],
+      "paragraph_id": "1.1-P024",
+      "question_ids": [
+        "1.1-Q35"
+      ],
+      "reason_code": "COMPOSITE_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Proje aşamasında tünelin güzergahı, profili ve kesiti belirlenerek, zemin ve jeolojik gözlem parametreleri tablo ve şemalarla belgelenmektedir.",
+      "sentence_id": "1.1-S066",
+      "source_locators": [
+        "ING_7bd21d281ecd81e07fa9:ING_7bd21d281ecd81e07fa9_CH_d8921e7e2d:pages=8;canonical=corpus/canonical/objects/ING_7bd21d281ecd81e07fa9/c2dab86a59a3a39ceed60cacafdba4ff17a3d05265c878e21ef03805ab27e14c/chunks/embedding_ready.jsonl#L8",
+        "ING_0d8f102824829559a474:ING_0d8f102824829559a474_CH_a377e6d5a7:pages=1-2;canonical=corpus/canonical/objects/ING_0d8f102824829559a474/29e0ad3be8806a27157e5f700b5a13514fe7e3b03e7b76e589ccd58b9cfc8b97/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_0b5309ce35274ad47546dcecb54736000120f4a1513bc4193e4efd46f9173b82",
+        "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9"
+      ],
+      "supporting_document_ids": [
+        "ING_7bd21d281ecd81e07fa9",
+        "ING_0d8f102824829559a474"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9",
+        "CLM_7031f6e1e062c50056ceee802b43d660def1de3d56de8cd27d85895573c6b670"
+      ],
+      "paragraph_id": "1.1-P025",
+      "question_ids": [
+        "1.1-Q36"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Sözleşme ve ihale dokümanlarında tünel; ulaşım veya iletim amacıyla, projesinde öngörülmüş güzergahı, profili ve kesiti belirlenmiş, yer altı geçişini sağlayan yapı olarak tanımlanmalıdır.",
+      "sentence_id": "1.1-S067",
+      "source_locators": [
+        "ING_0d8f102824829559a474:ING_0d8f102824829559a474_CH_a377e6d5a7:pages=1-2;canonical=corpus/canonical/objects/ING_0d8f102824829559a474/29e0ad3be8806a27157e5f700b5a13514fe7e3b03e7b76e589ccd58b9cfc8b97/chunks/embedding_ready.jsonl#L1",
+        "ING_3ed9bee7ff5641991a95:ING_3ed9bee7ff5641991a95_CH_f24c60ff10:canonical=corpus/canonical/objects/ING_3ed9bee7ff5641991a95/1f4748100a53b06a4063ff026c09580d2a064c2c9a4f65481e74089520f359d0/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9",
+        "CLM_7031f6e1e062c50056ceee802b43d660def1de3d56de8cd27d85895573c6b670"
+      ],
+      "supporting_document_ids": [
+        "ING_0d8f102824829559a474",
+        "ING_3ed9bee7ff5641991a95"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9",
+        "CLM_7031f6e1e062c50056ceee802b43d660def1de3d56de8cd27d85895573c6b670"
+      ],
+      "paragraph_id": "1.1-P025",
+      "question_ids": [
+        "1.1-Q36"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Bu tanım, yeraltı kazı, iksa, kaplama, koruma hücreleri ve havalandırma işlerini kapsayan esaslarla birlikte dokümantasyona geçirilmelidir.",
+      "sentence_id": "1.1-S068",
+      "source_locators": [
+        "ING_0d8f102824829559a474:ING_0d8f102824829559a474_CH_a377e6d5a7:pages=1-2;canonical=corpus/canonical/objects/ING_0d8f102824829559a474/29e0ad3be8806a27157e5f700b5a13514fe7e3b03e7b76e589ccd58b9cfc8b97/chunks/embedding_ready.jsonl#L1",
+        "ING_3ed9bee7ff5641991a95:ING_3ed9bee7ff5641991a95_CH_f24c60ff10:canonical=corpus/canonical/objects/ING_3ed9bee7ff5641991a95/1f4748100a53b06a4063ff026c09580d2a064c2c9a4f65481e74089520f359d0/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9",
+        "CLM_7031f6e1e062c50056ceee802b43d660def1de3d56de8cd27d85895573c6b670"
+      ],
+      "supporting_document_ids": [
+        "ING_0d8f102824829559a474",
+        "ING_3ed9bee7ff5641991a95"
+      ]
+    },
+    {
+      "confidence": 0.5,
+      "mapped_claim_ids": [
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9",
+        "CLM_434576389a962cd292bf8104795434b76f7113508a1dae4429c7973364874b57"
+      ],
+      "paragraph_id": "1.1-P026",
+      "question_ids": [
+        "1.1-Q39"
+      ],
+      "reason_code": "CLAIM_OVERREACH",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı, risk analizinde tünelin yapısal özellikleri ve işletme koşulları temel alınarak değerlendirilir.",
+      "sentence_id": "1.1-S069",
+      "source_locators": [
+        "ING_1c8cf251c81e8ae5e70c:ING_1c8cf251c81e8ae5e70c_CH_14829f0fcb:pages=16;canonical=corpus/canonical/objects/ING_1c8cf251c81e8ae5e70c/2894a12f8ee25c479266c072b7a54f8a4060edc370206c1a9d573bfa6e23e904/chunks/embedding_ready.jsonl#L3",
+        "ING_98947b1040b98d24a497:ING_98947b1040b98d24a497_CH_e25ea1e5a6:pages=9-10;canonical=corpus/canonical/objects/ING_98947b1040b98d24a497/7709e61cf61bb52846dbab697a21a82dd41030764ed19412e2e20b5b9e26cd30/chunks/embedding_ready.jsonl#L13"
+      ],
+      "status": "PARTIAL",
+      "supporting_claim_ids": [
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9",
+        "CLM_434576389a962cd292bf8104795434b76f7113508a1dae4429c7973364874b57"
+      ],
+      "supporting_document_ids": [
+        "ING_1c8cf251c81e8ae5e70c",
+        "ING_98947b1040b98d24a497"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "paragraph_id": "1.1-P026",
+      "question_ids": [
+        "1.1-Q39"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Risk analizi, tünel işletmesinden sorumlu yönetim biriminden bağımsız bir kuruluş tarafından yürütülebilir ve sonuçları ilgili birimlere iletilir.",
+      "sentence_id": "1.1-S070",
+      "source_locators": [
+        "ING_1c8cf251c81e8ae5e70c:ING_1c8cf251c81e8ae5e70c_CH_14829f0fcb:pages=16;canonical=corpus/canonical/objects/ING_1c8cf251c81e8ae5e70c/2894a12f8ee25c479266c072b7a54f8a4060edc370206c1a9d573bfa6e23e904/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "supporting_document_ids": [
+        "ING_1c8cf251c81e8ae5e70c"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_434576389a962cd292bf8104795434b76f7113508a1dae4429c7973364874b57"
+      ],
+      "paragraph_id": "1.1-P026",
+      "question_ids": [
+        "1.1-Q39"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Risk tahmini, tünelin karakteristikleri, mevcut veriler ve spesifik hedefler göz önünde bulundurularak senaryo tabanlı bir yaklaşımla gerçekleştirilir.",
+      "sentence_id": "1.1-S071",
+      "source_locators": [
+        "ING_98947b1040b98d24a497:ING_98947b1040b98d24a497_CH_e25ea1e5a6:pages=9-10;canonical=corpus/canonical/objects/ING_98947b1040b98d24a497/7709e61cf61bb52846dbab697a21a82dd41030764ed19412e2e20b5b9e26cd30/chunks/embedding_ready.jsonl#L13"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_434576389a962cd292bf8104795434b76f7113508a1dae4429c7973364874b57"
+      ],
+      "supporting_document_ids": [
+        "ING_98947b1040b98d24a497"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_b75457523d26fb39078aaa5da0082b2322d6105b55ff769ae020565806cca713"
+      ],
+      "paragraph_id": "1.1-P026",
+      "question_ids": [
+        "1.1-Q39"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Risk yönetimi, risk tanımlama, analiz, azaltma ve takip süreçlerini kapsar ve simülasyon bu analizde sıkça kullanılan bir araçtır.",
+      "sentence_id": "1.1-S072",
+      "source_locators": [
+        "ING_59e50251b95c7152b5bb:ING_59e50251b95c7152b5bb_CH_382362e18f:pages=3;canonical=corpus/canonical/objects/ING_59e50251b95c7152b5bb/927424e58b70fade83acddbe254cf06062ff94efc3037d47dd8b2ab323b39ab2/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_b75457523d26fb39078aaa5da0082b2322d6105b55ff769ae020565806cca713"
+      ],
+      "supporting_document_ids": [
+        "ING_59e50251b95c7152b5bb"
+      ]
+    }
+  ],
+  "sentence_ids": [
+    "1.1-S061",
+    "1.1-S062",
+    "1.1-S063",
+    "1.1-S064",
+    "1.1-S065",
+    "1.1-S066",
+    "1.1-S067",
+    "1.1-S068",
+    "1.1-S069",
+    "1.1-S070",
+    "1.1-S071",
+    "1.1-S072"
+  ]
+}

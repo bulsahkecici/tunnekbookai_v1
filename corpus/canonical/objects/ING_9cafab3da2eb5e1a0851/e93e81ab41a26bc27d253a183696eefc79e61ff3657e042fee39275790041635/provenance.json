@@ -1,0 +1,143 @@
+{
+  "document_id": "ING_9cafab3da2eb5e1a0851",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_C4C99799BDDBA53E571A",
+      "producer_document_id": "PC_9CAFAB3DA2EB5E1A",
+      "declared_sha256": "9cafab3da2eb5e1a08519018e68b5c06b9259f11c003fbe97542ae02002a208e",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_9CAFAB3DA2EB5E1A/source.pdf",
+        "sha256": "9cafab3da2eb5e1a08519018e68b5c06b9259f11c003fbe97542ae02002a208e"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.26616/nioshpub2009141",
+        "landing_url": "https://doi.org/10.26616/nioshpub2009141",
+        "pdf_url": "https://core.ac.uk/download/144205432.pdf",
+        "discovery_source": "core",
+        "discovery_query": "rock tunnel excavation support design",
+        "doi": "10.26616/nioshpub2009141"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.26616/nioshpub2009141",
+        "landing_url": "https://doi.org/10.26616/nioshpub2009141",
+        "pdf_url": "https://core.ac.uk/download/144205432.pdf",
+        "discovery_source": "core",
+        "discovery_query": "rock tunnel excavation support design",
+        "doi": "10.26616/nioshpub2009141"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_9CAFAB3DA2EB5E1A",
+        "canonical_id": "CAN_C4C99799BDDBA53E571A",
+        "canonical_hint_id": "CAN_C4C99799BDDBA53E571A",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "UNKNOWN"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Proceedings of the International Workshop on Numerical Modeling for Underground Mine Excavation Design",
+        "authors": [],
+        "year": null,
+        "doi": "10.26616/nioshpub2009141",
+        "source_url": "https://doi.org/10.26616/nioshpub2009141",
+        "landing_url": "https://doi.org/10.26616/nioshpub2009141",
+        "resolved_url": "https://core.ac.uk/download/144205432.pdf",
+        "local_path": "01_originals/C_ACADEMIC/PC_9CAFAB3DA2EB5E1A/source.pdf",
+        "sha256": "9cafab3da2eb5e1a08519018e68b5c06b9259f11c003fbe97542ae02002a208e",
+        "source_name": "core",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "ABSTRACT",
+        "evidence_level": "ABSTRACT",
+        "acquisition_status": "DOWNLOADED_PDF",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_9CAFAB3DA2EB5E1A/source.pdf",
+          "original_or_raw_sha256": "9cafab3da2eb5e1a08519018e68b5c06b9259f11c003fbe97542ae02002a208e",
+          "crawler_normalized": null,
+          "crawler_normalized_sha256": null,
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "conference_paper",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "LLM_ACCEPTED",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "CONFERENCE_PAPER",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "ITS",
+          "asset_management",
+          "construction_management",
+          "deformation",
+          "excavation",
+          "fire_safety",
+          "geotechnics",
+          "instrumentation",
+          "monitoring",
+          "rock_tunnel"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "UNKNOWN"
+        },
+        "acquisition": {
+          "status": "DOWNLOADED_PDF",
+          "source_path": "01_originals/C_ACADEMIC/PC_9CAFAB3DA2EB5E1A/source.pdf",
+          "source_sha256": "9cafab3da2eb5e1a08519018e68b5c06b9259f11c003fbe97542ae02002a208e"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.26616/nioshpub2009141",
+          "landing_url": "https://doi.org/10.26616/nioshpub2009141",
+          "pdf_url": "https://core.ac.uk/download/144205432.pdf",
+          "discovery_source": "core",
+          "discovery_query": "rock tunnel excavation support design",
+          "doi": "10.26616/nioshpub2009141"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source.pdf",
+    "original_sha256": "9cafab3da2eb5e1a08519018e68b5c06b9259f11c003fbe97542ae02002a208e",
+    "mime_type": "application/pdf",
+    "format": "PDF"
+  }
+}

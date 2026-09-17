@@ -1,0 +1,88 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.3476,
+      "rule_score": 0.0,
+      "embedding_score": 0.7724,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6",
+      "score": 0.3424,
+      "rule_score": 0.0,
+      "embedding_score": 0.7609,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3421,
+      "rule_score": 0.0,
+      "embedding_score": 0.7603,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.342,
+      "rule_score": 0.0,
+      "embedding_score": 0.7599,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.342,
+      "rule_score": 0.0,
+      "embedding_score": 0.7601,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3415,
+      "rule_score": 0.0,
+      "embedding_score": 0.7589,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3398,
+      "rule_score": 0.0,
+      "embedding_score": 0.7552,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3397,
+      "rule_score": 0.0,
+      "embedding_score": 0.7548,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, çelik iksa detaylarını, bağlantı parçalarını ve tünel tip kesitini içeren teknik çizimlerden oluşmaktadır. Bu içerik, tünelin ana yapısal elemanları ve yapım teknikleri ile doğrudan ilgilidir; maliyet veya literatür taraması içermez.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:0",
+    "chunk_votes:0",
+    "embeddings:8",
+    "top=2:0.3476 gap=0.005 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

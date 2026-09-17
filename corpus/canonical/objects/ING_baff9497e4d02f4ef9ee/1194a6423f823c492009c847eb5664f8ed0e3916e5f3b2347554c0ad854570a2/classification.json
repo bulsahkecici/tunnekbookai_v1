@@ -1,0 +1,155 @@
+{
+  "final_primary_section": "5.4.2",
+  "final_secondary_sections": [
+    "2.4.1.3",
+    "5.9",
+    "5.9.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "PARA0001",
+        "HEAD0004",
+        "HEAD0006",
+        "PARA0022",
+        "PARA0023",
+        "PARA0024",
+        "PARA0026",
+        "PARA0027",
+        "PARA0028",
+        "PARA0029",
+        "PARA0030",
+        "PARA0031",
+        "PARA0034",
+        "HEAD0010",
+        "PARA0035",
+        "PARA0036",
+        "TABLE0001",
+        "CAPT0002",
+        "PARA0053",
+        "FIG0010",
+        "CAPT0010",
+        "PARA0071",
+        "PARA0080",
+        "PARA0089",
+        "PARA0096"
+      ]
+    },
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0029",
+        "LIST0024"
+      ]
+    },
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0029",
+        "LIST0024"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.6491,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7887,
+      "chunk_vote": 0.0421
+    },
+    {
+      "id": "5.9",
+      "score": 0.6389,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7848,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.6357,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7778,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5",
+      "score": 0.3967,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2332
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3569,
+      "rule_score": 0.0,
+      "embedding_score": 0.7932,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3552,
+      "rule_score": 0.0,
+      "embedding_score": 0.7863,
+      "chunk_vote": 0.007
+    },
+    {
+      "id": "1.5.1",
+      "score": 0.3536,
+      "rule_score": 0.0,
+      "embedding_score": 0.7857,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3522,
+      "rule_score": 0.0,
+      "embedding_score": 0.7827,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.3498,
+      "rule_score": 0.0,
+      "embedding_score": 0.7774,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3157,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0507
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel uygulamalarında yangın algılama sistemlerinin performansını test eden deneysel bir çalışmadır. Bu, tünelin işletme aşamasındaki güvenlik sistemlerinin (elektrik-elektronik) bakım ve performans değerlendirmesi ile doğrudan ilişkilidir. Ayrıca, kullanım aşamasındaki güvenlik ve operasyonel testleri kapsadığı için 2.4.1.3 ikincil bölüm olarak değerlendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.4.2:0.6491 gap=0.010 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

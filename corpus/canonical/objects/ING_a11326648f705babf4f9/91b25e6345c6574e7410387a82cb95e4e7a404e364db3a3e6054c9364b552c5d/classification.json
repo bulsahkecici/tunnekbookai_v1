@@ -1,0 +1,122 @@
+{
+  "final_primary_section": "5.6",
+  "final_secondary_sections": [
+    "5.7",
+    "5.5.2.2",
+    "5.5.2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.5.2.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.5.2.1",
+      "section_title": "Yapısal Bakım-Onarım Maliyetleri",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.6",
+      "score": 0.7174,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8041,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.6828,
+      "rule_score": 0.5,
+      "embedding_score": 0.7951,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3715,
+      "rule_score": 0.0,
+      "embedding_score": 0.8255,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3607,
+      "rule_score": 0.0,
+      "embedding_score": 0.8016,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.3572,
+      "rule_score": 0.0,
+      "embedding_score": 0.7937,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5",
+      "score": 0.3569,
+      "rule_score": 0.0,
+      "embedding_score": 0.7931,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2",
+      "score": 0.356,
+      "rule_score": 0.0,
+      "embedding_score": 0.7911,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.1",
+      "score": 0.3559,
+      "rule_score": 0.0,
+      "embedding_score": 0.7908,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.35,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3056,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Newfoundland Ray Tüneli için yıllık işletme ve bakım maliyetlerinin (enerji, elektrik, mekanik, yapısal) detaylı tahminlerini içermektedir. Bu kapsam, 'Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler' (5.6) başlığıyla en yüksek örtüşmeyi göstermektedir. Enerji tüketimi (aydınlatma, havalandırma) ve elektrik-elektronik sistemlerin bakım maliyetleri nedeniyle 5.7 ve 5.5.2.2 ik",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:1",
+    "embeddings:8",
+    "top=5.6:0.7174 gap=0.035 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

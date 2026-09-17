@@ -1,0 +1,110 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "1.5"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "1.5",
+      "section_title": "Tünel Felaketleri",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.3",
+      "score": 0.3603,
+      "rule_score": 0.0,
+      "embedding_score": 0.8007,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.2",
+      "score": 0.3562,
+      "rule_score": 0.0,
+      "embedding_score": 0.7916,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3562,
+      "rule_score": 0.0,
+      "embedding_score": 0.7915,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3548,
+      "rule_score": 0.0,
+      "embedding_score": 0.7885,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3546,
+      "rule_score": 0.0,
+      "embedding_score": 0.7879,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5",
+      "score": 0.3534,
+      "rule_score": 0.0,
+      "embedding_score": 0.7854,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.3",
+      "score": 0.3533,
+      "rule_score": 0.0,
+      "embedding_score": 0.785,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.3",
+      "score": 0.3531,
+      "rule_score": 0.0,
+      "embedding_score": 0.7847,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.1",
+      "score": 0.1833,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, ADR yönetmeliği kapsamında tehlikeli maddelerin taşınmasına izin verilmeyen tünelleri ele almaktadır. Bu konu, tünellerin işletme ve güvenlik prosedürleriyle doğrudan ilişkili olduğundan 'Tünel Bakım-Onarım ve İşletme' (5.4) bölümüne aittir. Ayrıca tehlikeli madde taşımacılığındaki kısıtlamalar, olası kazalar ve acil durum yönetimi ile bağlantılı olduğundan 'Tünel Felaketleri' (1.5) bölümüy",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:2",
+    "chunk_votes:1",
+    "embeddings:8",
+    "top=2.4.3:0.3603 gap=0.004 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

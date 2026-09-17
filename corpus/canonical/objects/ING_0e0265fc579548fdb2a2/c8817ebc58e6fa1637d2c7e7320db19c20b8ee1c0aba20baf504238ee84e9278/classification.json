@@ -1,0 +1,115 @@
+{
+  "final_primary_section": "5.9",
+  "final_secondary_sections": [
+    "5.9.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0001"
+      ]
+    },
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0001"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.1.2",
+      "score": 0.6025,
+      "rule_score": 0.3333,
+      "embedding_score": 0.78,
+      "chunk_vote": 0.0909
+    },
+    {
+      "id": "5.9",
+      "score": 0.584,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7794,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.357,
+      "rule_score": 0.0,
+      "embedding_score": 0.7933,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3536,
+      "rule_score": 0.0,
+      "embedding_score": 0.7857,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3522,
+      "rule_score": 0.0,
+      "embedding_score": 0.7826,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3499,
+      "rule_score": 0.0,
+      "embedding_score": 0.7776,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3491,
+      "rule_score": 0.0,
+      "embedding_score": 0.7758,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3464,
+      "rule_score": 0.0,
+      "embedding_score": 0.7698,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2924,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5455
+    },
+    {
+      "id": "1.1",
+      "score": 0.2379,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2727
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, 3G ağı tabanlı tünel güvenlik izleme sistemi üzerine bir literatür taraması ve mevcut çalışmaların (kablosuz sensör ağları, uzaktan kontrol) analizini içermektedir. Bu içerik, 'Ulusal ve Uluslararası Literatür Taraması' bölümüne en uygun düşmektedir. Referans listesindeki uluslararası kaynaklar nedeniyle 5.9.2 (Uluslararası Literatür Taraması) ikincil bölüm olarak belirlenmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:2",
+    "embeddings:8",
+    "top=2.4.1.2:0.6025 gap=0.019 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

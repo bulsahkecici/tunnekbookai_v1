@@ -1,0 +1,686 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_6f320a51f992a79669f1a553e2868ae763d933829b8097c041d25d1043e8e649",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 22,
+    "SUPPORTED": 8,
+    "UNSUPPORTED": 20
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_781be09d6561435a9afa68fcc7b4158f66f4348e18054f9d8bb4d1cdf709cd3e",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_2f71e65f932b349289d294974f2e59dc4a4500570d599a92a7a84505349db40d",
+        "CLM_77695f6d2290a1c47c0ff1406cbc7ff5af4cee7833c4ddfee6a264f6c0aa304d",
+        "CLM_521bbd901e5dab81c07a23372c189b68e116d4982de426353bb50ab97ac0811e"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kavramının kapsamı ve temel amacı nedir?",
+      "question_id": "5.4.2-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2f71e65f932b349289d294974f2e59dc4a4500570d599a92a7a84505349db40d",
+        "CLM_77695f6d2290a1c47c0ff1406cbc7ff5af4cee7833c4ddfee6a264f6c0aa304d",
+        "CLM_0bcdf49b85f1a8243b8427db3d50503edb30fd5d7e37e14e3f480ce97c606f05"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı tünel güvenliği açısından neden gereklidir?",
+      "question_id": "5.4.2-Q02",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı hizmet sürekliliği açısından neden gereklidir?",
+      "question_id": "5.4.2-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c364f93112bbc6c8e8652abbbd8a3da1b773e2ab3d1f0f0034d5ecea7afa2e3e",
+        "CLM_0cb1edf357b5a8897d604fb0ddeba61c959103669abadc600aa6fcbd14150514",
+        "CLM_2f71e65f932b349289d294974f2e59dc4a4500570d599a92a7a84505349db40d"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında hangi yapısal bileşenler dikkate alınır?",
+      "question_id": "5.4.2-Q04",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c8739863d916fcba39ef6aefb3e1233d0e05d3193674ca23d0fa8ad6d2dd5bcd",
+        "CLM_0cb1edf357b5a8897d604fb0ddeba61c959103669abadc600aa6fcbd14150514"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında hangi elektrik sistemleri dikkate alınır?",
+      "question_id": "5.4.2-Q05",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c8739863d916fcba39ef6aefb3e1233d0e05d3193674ca23d0fa8ad6d2dd5bcd",
+        "CLM_0cb1edf357b5a8897d604fb0ddeba61c959103669abadc600aa6fcbd14150514",
+        "CLM_ddb5c2dc102987ded0a036aab0d2a80507a67167d0745b56c6def961d4dd8144"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında hangi elektronik sistemler dikkate alınır?",
+      "question_id": "5.4.2-Q06",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0cb1edf357b5a8897d604fb0ddeba61c959103669abadc600aa6fcbd14150514",
+        "CLM_ddb5c2dc102987ded0a036aab0d2a80507a67167d0745b56c6def961d4dd8144"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında hangi elektromekanik sistemler dikkate alınır?",
+      "question_id": "5.4.2-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7b5e3d88fab8fb1a0c49a80f90e012b67dd4352c9c22ab69e5e366be86b539cc",
+        "CLM_ddb5c2dc102987ded0a036aab0d2a80507a67167d0745b56c6def961d4dd8144",
+        "CLM_435c10b201fca08144f8c02a9410cf604e5360c482230a8699fe90512ea1a673"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında havalandırma sistemleri nasıl ele alınır?",
+      "question_id": "5.4.2-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_50968736c9395e9cb5405160fbd2dbffca386ae1076ca8248bffc837dd1b1cb5",
+        "CLM_32c74c9642870e0b0fd365f04b5ebbf59521c6eac91f9476c17d28ea720b1232",
+        "CLM_0ceeeba075079013820bd2e9194ad39e6ba80b11a78e54d700ea669fa052b063"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında aydınlatma sistemleri nasıl ele alınır?",
+      "question_id": "5.4.2-Q09",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_47c80ae917e027419ee57a66dae0e882ba5d1daa3ed29320be89401f54bd9785",
+        "CLM_32c74c9642870e0b0fd365f04b5ebbf59521c6eac91f9476c17d28ea720b1232",
+        "CLM_a7da13bb762b97cc14a870d9b90be45eebd5d892a90a7557a45c0ccdd5d047b9"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında enerji dağıtım ve yedek güç sistemleri nasıl ele alınır?",
+      "question_id": "5.4.2-Q10",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_74083d739947ec8f0db8f019e3f2f291bc92fc5dff4718edaa9e629bcec022ab",
+        "CLM_b9e997184c769d33058189a8d1efb8e23288eaed20c0abb9e0996559a42b2481",
+        "CLM_41da685d6b93284cafb0d94f3b24026c5240278b16f00dae92206729c746d753",
+        "CLM_44913938b542f542e7b064f98a50e3dcdf6941d40bc01a7fca7ad1583fcb8288"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında yangın algılama ve söndürme sistemleri nasıl ele alınır?",
+      "question_id": "5.4.2-Q11",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c8739863d916fcba39ef6aefb3e1233d0e05d3193674ca23d0fa8ad6d2dd5bcd",
+        "CLM_4ab1fccb2c20382bf1151890f28600edf993bbf6c2aa1a317e4f9e7cf0b2c272",
+        "CLM_da1882e516e92f60d9a7582c0f82fe09eacae310e00ef19d6eca12df16782bcf"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında kamera, haberleşme ve olay algılama sistemleri nasıl ele alınır?",
+      "question_id": "5.4.2-Q12",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7e52f556c59229b4e5e291d2d06adffa41f147a0a1f11b16c4e66666890f8fb8",
+        "CLM_9455c34cd15c3bde235dd3ff88e1f0c12c5bb1a9c84be703b27c9532de7aefe6",
+        "CLM_d982553fca07b3b113904456691011e89ff69092baa5bbe19455697d18bc133c"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında drenaj, pompa ve su yalıtımı sistemleri nasıl ele alınır?",
+      "question_id": "5.4.2-Q13",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında kaplama, derz ve yüzey bozulmaları nasıl izlenir?",
+      "question_id": "5.4.2-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a48fa8eae8bbda85d94632d4b8cc64021bdb92fa5f375c8727198802d6f423de",
+        "CLM_de8c9c15962c3d81fe85f4d61579e9b82b55d5165479000ec309b989b97294fa",
+        "CLM_366911514efdebecabacb487cbba50275af550bf4f76d87b51884b2a96451fd8"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında portal ve yaklaşım bölgeleri nasıl ele alınır?",
+      "question_id": "5.4.2-Q15",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ddb5c2dc102987ded0a036aab0d2a80507a67167d0745b56c6def961d4dd8144",
+        "CLM_24483bccf016e8e2f15f53966f026b5c37e4c17a043f8ca3bf2804e7d507ba08",
+        "CLM_7fc7f9a666e5b4793aeeefc35e7c13f784f65fdaa3d0a2a5e3a9c0639b55976c"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için bakım türleri nasıl sınıflandırılır?",
+      "question_id": "5.4.2-Q16",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_71f085598f277b08ceaaaa2e1a2eba64a577c727a638220a7e91c78737d7beff",
+        "CLM_7af1aba89132996cc25ce2b56e0e90662fcd80c7e0fbb9fe2fe2786f81729838",
+        "CLM_40eb94ae7283aedf2fd8df1769b04a658456342d14fbe443acc5786abd3962ff"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı içinde rutin bakım ile periyodik bakım arasındaki fark nedir?",
+      "question_id": "5.4.2-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a51998bcd9cd0bbb9e1c5752fb194e6a607381d8fd48945890db66fcf591049b",
+        "CLM_1d9e087320b678830b7904c8a0a62072690d45e5bcac8b0cbd93bfadbca6f87d"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı içinde önleyici bakım ile düzeltici bakım arasındaki fark nedir?",
+      "question_id": "5.4.2-Q18",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a51998bcd9cd0bbb9e1c5752fb194e6a607381d8fd48945890db66fcf591049b",
+        "CLM_30d5f99e51c057990b32323177d259d74194592881f2aa39bc0fbba9dab61188"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı içinde kestirimci bakım hangi verilerle uygulanabilir?",
+      "question_id": "5.4.2-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_71f085598f277b08ceaaaa2e1a2eba64a577c727a638220a7e91c78737d7beff",
+        "CLM_ddb5c2dc102987ded0a036aab0d2a80507a67167d0745b56c6def961d4dd8144",
+        "CLM_7af1aba89132996cc25ce2b56e0e90662fcd80c7e0fbb9fe2fe2786f81729838"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için bakım periyotları nasıl belirlenir?",
+      "question_id": "5.4.2-Q20",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için kritik ekipmanların önceliklendirilmesi nasıl yapılır?",
+      "question_id": "5.4.2-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için arıza modları ve etkileri nasıl analiz edilir?",
+      "question_id": "5.4.2-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için durum değerlendirme ve kondisyon puanlama sistemi nasıl kurulabilir?",
+      "question_id": "5.4.2-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bdc9de1f25ef15466ee34cc8d57493b223c47bbbbf950e8c9084ca40f63592ae",
+        "CLM_b5107c71b5deef50b38395398c8f1d24586976b94811d3eb11963d72f5a89de1"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için sensör ve uzaktan izleme verileri nasıl kullanılabilir?",
+      "question_id": "5.4.2-Q24",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0cb1edf357b5a8897d604fb0ddeba61c959103669abadc600aa6fcbd14150514",
+        "CLM_ddb5c2dc102987ded0a036aab0d2a80507a67167d0745b56c6def961d4dd8144",
+        "CLM_c8739863d916fcba39ef6aefb3e1233d0e05d3193674ca23d0fa8ad6d2dd5bcd"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için bakım kayıtlarında hangi bilgiler tutulmalıdır?",
+      "question_id": "5.4.2-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için yedek parça yönetimi nasıl planlanmalıdır?",
+      "question_id": "5.4.2-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_27c2ba4fb5ea4acd572f375940d4928cd5178cad6e2a82d0c9b7b034112eff61"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için personel ve vardiya planlaması nasıl yapılmalıdır?",
+      "question_id": "5.4.2-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için yüklenici ve hizmet alımı yönetimi nasıl yapılmalıdır?",
+      "question_id": "5.4.2-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2f71e65f932b349289d294974f2e59dc4a4500570d599a92a7a84505349db40d",
+        "CLM_77695f6d2290a1c47c0ff1406cbc7ff5af4cee7833c4ddfee6a264f6c0aa304d",
+        "CLM_34a856d430fd20d0c8c25850bcdcfa31f7c93a1fbbcbe27a27eec56a78e2b854"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı sırasında trafik güvenliği nasıl sağlanmalıdır?",
+      "question_id": "5.4.2-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0bcdf49b85f1a8243b8427db3d50503edb30fd5d7e37e14e3f480ce97c606f05",
+        "CLM_b05449def09cf01a035754c54ff6fa13f946b53afe7e9116f659c4ce2b7fa91e"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı sırasında şerit veya tünel kapatma kararları nasıl verilmelidir?",
+      "question_id": "5.4.2-Q30",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_20ef5fd80b4548ac9d30ead1c8249046c77902a7dd6017fa26267fae501a22ca"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı sırasında iş sağlığı ve güvenliği riskleri nasıl yönetilmelidir?",
+      "question_id": "5.4.2-Q31",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için acil müdahale ile planlı bakım nasıl koordine edilmelidir?",
+      "question_id": "5.4.2-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı performansı hangi göstergelerle ölçülmelidir?",
+      "question_id": "5.4.2-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında kullanılabilirlik ve arıza süresi nasıl izlenmelidir?",
+      "question_id": "5.4.2-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında enerji tüketimi hangi göstergelerle izlenmelidir?",
+      "question_id": "5.4.2-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında bakım maliyeti hangi göstergelerle izlenmelidir?",
+      "question_id": "5.4.2-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında arızaların tekrarlanma oranı nasıl izlenmelidir?",
+      "question_id": "5.4.2-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8141e542d74e6f3a4b94b21adc9c1a9778fa3dd4e051f2446cb766ac55556bef"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı kapsamında güvenlik olayları ve ramak kala kayıtları nasıl kullanılmalıdır?",
+      "question_id": "5.4.2-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_334839ba99538ce3ff393d60f2ba59ac54b3268be08803cdc75ab514bf8df971"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için denetim ve kabul kriterleri nelerdir?",
+      "question_id": "5.4.2-Q39",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_521bbd901e5dab81c07a23372c189b68e116d4982de426353bb50ab97ac0811e",
+        "CLM_334839ba99538ce3ff393d60f2ba59ac54b3268be08803cdc75ab514bf8df971"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için mevzuat, standart ve teknik şartname gereklilikleri nelerdir?",
+      "question_id": "5.4.2-Q40",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_468d0609efe6584910449529bd40390b207d89cefd5039362386cef638226446"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için Karayolları Genel Müdürlüğü uygulamalarında hangi süreçler öne çıkar?",
+      "question_id": "5.4.2-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için enerji verimliliği hangi teknik önlemlerle artırılabilir?",
+      "question_id": "5.4.2-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için otomasyon ve akıllı kontrol sistemleri hangi faydaları sağlayabilir?",
+      "question_id": "5.4.2-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_060d8a7218fc956039491547c4878c1f56d1bc51cb6b7bdbd8c14e25f1d3f7b2",
+        "CLM_585f58c0f6ac6174e5009a966bcd4d66bf78ef7040274dea3e2a3d6377999da5",
+        "CLM_e783985dbfa1419f142cfe689827b11621a5f7424e0c4de59987a1768f9d7a66",
+        "CLM_43e94330d4ce9c389c9e6e44d0ec5f359b86662060493221e927fd47cceb31f6"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için yaşam döngüsü maliyet yaklaşımı nasıl uygulanabilir?",
+      "question_id": "5.4.2-Q44",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a9c4cc9ae2c575da2e88ecabb6ba435283886c9507f19d6932bffb7037b08eb5"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için bakım ertelemesinin teknik ve ekonomik sonuçları nelerdir?",
+      "question_id": "5.4.2-Q45",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için yenileme veya modernizasyon kararı hangi kriterlerle verilmelidir?",
+      "question_id": "5.4.2-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı sürdürülebilirlik ve karbon ayak izi açısından nasıl geliştirilebilir?",
+      "question_id": "5.4.2-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı konusunda Türkiye’den hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "5.4.2-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı konusunda dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "5.4.2-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı için optimum güvenlik, performans ve maliyet dengesi nasıl kurulabilir?",
+      "question_id": "5.4.2-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "5.4.2",
+  "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_060d8a7218fc956039491547c4878c1f56d1bc51cb6b7bdbd8c14e25f1d3f7b2",
+      "CLM_0bcdf49b85f1a8243b8427db3d50503edb30fd5d7e37e14e3f480ce97c606f05",
+      "CLM_0cb1edf357b5a8897d604fb0ddeba61c959103669abadc600aa6fcbd14150514",
+      "CLM_0ceeeba075079013820bd2e9194ad39e6ba80b11a78e54d700ea669fa052b063",
+      "CLM_1d9e087320b678830b7904c8a0a62072690d45e5bcac8b0cbd93bfadbca6f87d",
+      "CLM_20ef5fd80b4548ac9d30ead1c8249046c77902a7dd6017fa26267fae501a22ca",
+      "CLM_24483bccf016e8e2f15f53966f026b5c37e4c17a043f8ca3bf2804e7d507ba08",
+      "CLM_27c2ba4fb5ea4acd572f375940d4928cd5178cad6e2a82d0c9b7b034112eff61",
+      "CLM_2f71e65f932b349289d294974f2e59dc4a4500570d599a92a7a84505349db40d",
+      "CLM_30d5f99e51c057990b32323177d259d74194592881f2aa39bc0fbba9dab61188",
+      "CLM_32c74c9642870e0b0fd365f04b5ebbf59521c6eac91f9476c17d28ea720b1232",
+      "CLM_334839ba99538ce3ff393d60f2ba59ac54b3268be08803cdc75ab514bf8df971",
+      "CLM_34a856d430fd20d0c8c25850bcdcfa31f7c93a1fbbcbe27a27eec56a78e2b854",
+      "CLM_366911514efdebecabacb487cbba50275af550bf4f76d87b51884b2a96451fd8",
+      "CLM_40eb94ae7283aedf2fd8df1769b04a658456342d14fbe443acc5786abd3962ff",
+      "CLM_41da685d6b93284cafb0d94f3b24026c5240278b16f00dae92206729c746d753",
+      "CLM_435c10b201fca08144f8c02a9410cf604e5360c482230a8699fe90512ea1a673",
+      "CLM_43e94330d4ce9c389c9e6e44d0ec5f359b86662060493221e927fd47cceb31f6",
+      "CLM_44913938b542f542e7b064f98a50e3dcdf6941d40bc01a7fca7ad1583fcb8288",
+      "CLM_468d0609efe6584910449529bd40390b207d89cefd5039362386cef638226446",
+      "CLM_47c80ae917e027419ee57a66dae0e882ba5d1daa3ed29320be89401f54bd9785",
+      "CLM_4ab1fccb2c20382bf1151890f28600edf993bbf6c2aa1a317e4f9e7cf0b2c272",
+      "CLM_50968736c9395e9cb5405160fbd2dbffca386ae1076ca8248bffc837dd1b1cb5",
+      "CLM_521bbd901e5dab81c07a23372c189b68e116d4982de426353bb50ab97ac0811e",
+      "CLM_585f58c0f6ac6174e5009a966bcd4d66bf78ef7040274dea3e2a3d6377999da5",
+      "CLM_71f085598f277b08ceaaaa2e1a2eba64a577c727a638220a7e91c78737d7beff",
+      "CLM_74083d739947ec8f0db8f019e3f2f291bc92fc5dff4718edaa9e629bcec022ab",
+      "CLM_77695f6d2290a1c47c0ff1406cbc7ff5af4cee7833c4ddfee6a264f6c0aa304d",
+      "CLM_7af1aba89132996cc25ce2b56e0e90662fcd80c7e0fbb9fe2fe2786f81729838",
+      "CLM_7b5e3d88fab8fb1a0c49a80f90e012b67dd4352c9c22ab69e5e366be86b539cc",
+      "CLM_7e52f556c59229b4e5e291d2d06adffa41f147a0a1f11b16c4e66666890f8fb8",
+      "CLM_7fc7f9a666e5b4793aeeefc35e7c13f784f65fdaa3d0a2a5e3a9c0639b55976c",
+      "CLM_8141e542d74e6f3a4b94b21adc9c1a9778fa3dd4e051f2446cb766ac55556bef",
+      "CLM_9455c34cd15c3bde235dd3ff88e1f0c12c5bb1a9c84be703b27c9532de7aefe6",
+      "CLM_a48fa8eae8bbda85d94632d4b8cc64021bdb92fa5f375c8727198802d6f423de",
+      "CLM_a51998bcd9cd0bbb9e1c5752fb194e6a607381d8fd48945890db66fcf591049b",
+      "CLM_a7da13bb762b97cc14a870d9b90be45eebd5d892a90a7557a45c0ccdd5d047b9",
+      "CLM_a9c4cc9ae2c575da2e88ecabb6ba435283886c9507f19d6932bffb7037b08eb5",
+      "CLM_b05449def09cf01a035754c54ff6fa13f946b53afe7e9116f659c4ce2b7fa91e",
+      "CLM_b5107c71b5deef50b38395398c8f1d24586976b94811d3eb11963d72f5a89de1",
+      "CLM_b9e997184c769d33058189a8d1efb8e23288eaed20c0abb9e0996559a42b2481",
+      "CLM_bdc9de1f25ef15466ee34cc8d57493b223c47bbbbf950e8c9084ca40f63592ae",
+      "CLM_c364f93112bbc6c8e8652abbbd8a3da1b773e2ab3d1f0f0034d5ecea7afa2e3e",
+      "CLM_c8739863d916fcba39ef6aefb3e1233d0e05d3193674ca23d0fa8ad6d2dd5bcd",
+      "CLM_d982553fca07b3b113904456691011e89ff69092baa5bbe19455697d18bc133c",
+      "CLM_da1882e516e92f60d9a7582c0f82fe09eacae310e00ef19d6eca12df16782bcf",
+      "CLM_ddb5c2dc102987ded0a036aab0d2a80507a67167d0745b56c6def961d4dd8144",
+      "CLM_de8c9c15962c3d81fe85f4d61579e9b82b55d5165479000ec309b989b97294fa",
+      "CLM_e783985dbfa1419f142cfe689827b11621a5f7424e0c4de59987a1768f9d7a66"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "5.4.2-Q01",
+      "5.4.2-Q02",
+      "5.4.2-Q04",
+      "5.4.2-Q07",
+      "5.4.2-Q08",
+      "5.4.2-Q09",
+      "5.4.2-Q13",
+      "5.4.2-Q15",
+      "5.4.2-Q17",
+      "5.4.2-Q19",
+      "5.4.2-Q24",
+      "5.4.2-Q25",
+      "5.4.2-Q27",
+      "5.4.2-Q29",
+      "5.4.2-Q30",
+      "5.4.2-Q31",
+      "5.4.2-Q38",
+      "5.4.2-Q39",
+      "5.4.2-Q40",
+      "5.4.2-Q41",
+      "5.4.2-Q44",
+      "5.4.2-Q45"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "5.4.2-Q03",
+      "5.4.2-Q14",
+      "5.4.2-Q21",
+      "5.4.2-Q22",
+      "5.4.2-Q23",
+      "5.4.2-Q26",
+      "5.4.2-Q28",
+      "5.4.2-Q32",
+      "5.4.2-Q33",
+      "5.4.2-Q34",
+      "5.4.2-Q35",
+      "5.4.2-Q36",
+      "5.4.2-Q37",
+      "5.4.2-Q42",
+      "5.4.2-Q43",
+      "5.4.2-Q46",
+      "5.4.2-Q47",
+      "5.4.2-Q48",
+      "5.4.2-Q49",
+      "5.4.2-Q50"
+    ]
+  }
+}

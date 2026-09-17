@@ -1,0 +1,107 @@
+{
+  "document_id": "ING_3f9e448c0796391f224b",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Evaluation of innovative sprayed-concrete-lined tunnelling",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": [
+        "Jones, Benoît",
+        "Thomas, A. H. (Alun H.)",
+        "Hsu, Y. S. (Yu Sheng)",
+        "Hilar, M."
+      ],
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": "2008",
+      "source": "crawler_manifest",
+      "confidence": 0.6,
+      "inferred": false,
+      "reason": "publication year from the crawler handoff manifest (year only)"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "academic_article",
+      "source": "document_content",
+      "confidence": 0.6,
+      "inferred": true,
+      "reason": "İlk içerik bölümünde yayın türü sinyali: doi"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "contracts",
+        "excavation",
+        "geotechnical_investigation",
+        "instrumentation",
+        "monitoring",
+        "safety",
+        "steel_rib",
+        "tbm"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "tbm:tbm; geotechnical_investigation:geotechnical; excavation:excavat; steel_rib:lattice girder; monitoring:monitoring; instrumentation:instrumentation; safety:safety; contracts:contract; tunnel_general:tunnel"
+    },
+    {
+      "field": "source_url",
+      "value": "https://pdf.core.ac.uk/corefilesystem/pdf/136/1387683.pdf?se=2026-09-03T16%3A55%3A23Z&sp=r&sv=2026-06-06&sr=b&rscd=inline%3B+filename%3D%221387683.pdf%22&rsct=application%2Fpdf&sig=fAFRt9fDF%2FbyaSJGZNvDz21BaiGTHV0%2Fsgv%2FoHirkMQ%3D",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "doi",
+      "value": "10.1680/geng.2008.161.3.137",
+      "source": "crawler_manifest",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    }
+  ]
+}

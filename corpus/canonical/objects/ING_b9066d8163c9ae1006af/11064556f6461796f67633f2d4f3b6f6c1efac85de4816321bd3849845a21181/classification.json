@@ -1,0 +1,137 @@
+{
+  "final_primary_section": "2.4.2.1",
+  "final_secondary_sections": [
+    "5.6"
+  ],
+  "final_section_confidence": 0.6928,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0026",
+        "LIST0047",
+        "PARA0004",
+        "PARA0005",
+        "LIST0074",
+        "LIST0078"
+      ]
+    },
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "LIST0004",
+        "LIST0007",
+        "LIST0009",
+        "LIST0013",
+        "LIST0014",
+        "LIST0016",
+        "LIST0034",
+        "LIST0044",
+        "LIST0045",
+        "LIST0048",
+        "PARA0006",
+        "LIST0056",
+        "LIST0059",
+        "LIST0061",
+        "LIST0065",
+        "LIST0066",
+        "LIST0068"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.1",
+      "score": 0.6928,
+      "rule_score": 0.5,
+      "embedding_score": 0.7965,
+      "chunk_vote": 0.0469
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.6472,
+      "rule_score": 0.4286,
+      "embedding_score": 0.8033,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.4145,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4223
+    },
+    {
+      "id": "2",
+      "score": 0.3609,
+      "rule_score": 0.0,
+      "embedding_score": 0.8021,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3606,
+      "rule_score": 0.0,
+      "embedding_score": 0.8013,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3585,
+      "rule_score": 0.0,
+      "embedding_score": 0.7966,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7",
+      "score": 0.3581,
+      "rule_score": 0.0,
+      "embedding_score": 0.7957,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3575,
+      "rule_score": 0.0,
+      "embedding_score": 0.7944,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4",
+      "score": 0.356,
+      "rule_score": 0.0,
+      "embedding_score": 0.7912,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3237,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0905
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel güvenlik önlemlerinin (önleme, azaltma, tahliye) tasarım ve işletme aşamalarında nasıl entegre edileceğini ve risk faktörlerine göre nasıl seçileceğini ele almaktadır. Bu içerik, tünelin güvenli bir şekilde planlanması ve güzergah/teknik seçimlerde dikkate alınması gereken hususlarla (2.4.2.1) doğrudan ilişkilidir. Ayrıca, mevcut tünellerin eksikliklerini gidermek için ek güvenlik önl",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:5",
+    "embeddings:8",
+    "top=5.1:0.6928 gap=0.046 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

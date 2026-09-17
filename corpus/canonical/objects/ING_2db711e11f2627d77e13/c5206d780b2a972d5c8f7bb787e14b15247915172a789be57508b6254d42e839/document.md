@@ -1,0 +1,7 @@
+<!-- image -->
+
+Logo
+
+## Tenom tunnel support estimate by the rock mass classification systems ABSTRACT
+
+Objectives of this study are to determine the rock mass quality and support estimate for a single lane railway tunnel by using rock mass classification system at km 137.1 Tenom, Sabah. The study area is underlain by the Late Eocene - Early Miocene Crocker Formation. Rock Structure Rating (RSR), Rock Mass Rating (RMR) and Rock Mass Quality (Q) systems are selected rock mass classification for this study. Field study includes geological mapping and discontinuity  survey.  Laboratory  analysis  are  petrographic  study  and  point  load  test.  Data analysis are kinematic analysis and RSR, RMR and Q systems parameter values evaluation and calculation. The result shows that rock mass quality of RSR, RMR and Q systems are 80, 77 (good) and 2.12 (poor), respectively. Support estimate for RSR is 25mm diameter spot rock bolts.  RMR  are  20mm  diameter,  3m  length  and  2.5m  spacing  systematic  rock  bolts  with occasional  wire  mesh  and  50mm  shotcrete  on  crown.  Installation  of  steel  sets  are unnecessary. Support estimate for Q system are 1.5 space of systematic rock bolts with 5cm shotcrete and 1.6-2m space without shotcrete on crown and wall, respectively. Thus, support estimate based on rock mass classification for the tunnel in study area are 20mm diameter, 3m length and 2m spacing of rock bolts, 50mm thick shotcrete on crown and weep hole in western  section.

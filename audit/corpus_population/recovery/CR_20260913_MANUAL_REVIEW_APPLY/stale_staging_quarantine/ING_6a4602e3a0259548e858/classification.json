@@ -1,0 +1,140 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.4",
+    "2.2.1"
+  ],
+  "final_section_confidence": 0.92,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0010",
+        "PARA0013",
+        "PARA0025",
+        "HEAD0013",
+        "PARA0029",
+        "PARA0038",
+        "PARA0040",
+        "LIST0012",
+        "LIST0017"
+      ]
+    },
+    {
+      "section_id": "2.4",
+      "section_title": "Tünellerin Projelendirilmesi",
+      "supporting_elements": [
+        "HEAD0017",
+        "LIST0003"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0013",
+        "PARA0014",
+        "LIST0001",
+        "LIST0002",
+        "LIST0005",
+        "LIST0007",
+        "LIST0013",
+        "LIST0021"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7634,
+      "rule_score": 0.5,
+      "embedding_score": 0.8098,
+      "chunk_vote": 0.3701
+    },
+    {
+      "id": "2.2",
+      "score": 0.6701,
+      "rule_score": 0.4286,
+      "embedding_score": 0.806,
+      "chunk_vote": 0.1085
+    },
+    {
+      "id": "2.4",
+      "score": 0.3995,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1641
+    },
+    {
+      "id": "6.1",
+      "score": 0.3653,
+      "rule_score": 0.0,
+      "embedding_score": 0.8117,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3647,
+      "rule_score": 0.0,
+      "embedding_score": 0.8047,
+      "chunk_vote": 0.0128
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3641,
+      "rule_score": 0.0,
+      "embedding_score": 0.8091,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3609,
+      "rule_score": 0.0,
+      "embedding_score": 0.8019,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3602,
+      "rule_score": 0.0,
+      "embedding_score": 0.8005,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3559,
+      "rule_score": 0.0,
+      "embedding_score": 0.7908,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2242,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2042
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, başlık ve içeriği itibarıyla doğrudan 'Tünel Açma Yöntemleri' (NATM, ADECO-RS, klasik yöntemler) ile 'Kaya Sınıflama Sistemleri' arasındaki ilişkiyi ve sayısal modelleme uygulamalarını ele aldığı için en uygun birincil bölüm '2.2: Tünel Yapım Yöntemleri' olarak belirlenmiştir. Ayrıca projelendirme ve jeolojik incelemelerle olan bağlantısı nedeniyle '2.4' ve kayaç zemin odaklı olması nedeniy",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7634 gap=0.093 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

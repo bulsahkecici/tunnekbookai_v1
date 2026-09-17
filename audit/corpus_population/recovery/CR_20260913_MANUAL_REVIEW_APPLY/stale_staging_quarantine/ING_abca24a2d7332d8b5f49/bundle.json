@@ -1,0 +1,36 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_abca24a2d7332d8b5f49",
+  "original_sha256": "abca24a2d7332d8b5f4939f50e53399c55fa7e3f8626b96409f79c48d8c64b13",
+  "source_kind": "EXTERNAL_DISCOVERY",
+  "format": "HTML",
+  "title": "A Data-Driven Framework for Tunnel Infrastructure Maintenance",
+  "final_primary_section": "5.9.2",
+  "final_secondary_sections": [
+    "5.9",
+    "5.4",
+    "5.1"
+  ],
+  "final_section_confidence": 0.85,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": false,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_abca24a2d7332d8b5f49",
+  "original_archive": "originals/ING_abca24a2d7332d8b5f49",
+  "chunks_authoritative_path": "processing/ING_abca24a2d7332d8b5f49/chunks/chunk_manifest.jsonl",
+  "chunk_count": 6,
+  "chunk_quality_status": "PASS",
+  "canonical_promoted": false
+}

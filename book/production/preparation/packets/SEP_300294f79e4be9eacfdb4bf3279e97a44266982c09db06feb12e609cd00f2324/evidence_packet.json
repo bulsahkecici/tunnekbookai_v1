@@ -1,0 +1,720 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_23fbfd1d00a75631624ad88bce64b2b678403d61e66053d073d5c8237058b63c",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 31,
+    "SUPPORTED": 11,
+    "UNSUPPORTED": 8
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_300294f79e4be9eacfdb4bf3279e97a44266982c09db06feb12e609cd00f2324",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493",
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı kavramı nasıl tanımlanır?",
+      "question_id": "1.1-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı için kullanılan temel teknik tanım nedir?",
+      "question_id": "1.1-Q02",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092",
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı kapsamına hangi yapılar, unsurlar veya durumlar girer?",
+      "question_id": "1.1-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünelin Tanımı kapsamı dışında kalan benzer kavramlar nelerdir?",
+      "question_id": "1.1-Q04",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı ile yakın anlamlı kavramlar arasındaki temel farklar nelerdir?",
+      "question_id": "1.1-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelin Tanımı açıklanırken hangi temel terimlerin önceden tanımlanması gerekir?",
+      "question_id": "1.1-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_46632447de2312cc20dd727dbd74fabd9e14c7307329dcc01826b7c5d014151f"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı hangi mühendislik disiplinleriyle doğrudan ilişkilidir?",
+      "question_id": "1.1-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c9c0d3b54e2e0975677186ca2e95929b2aecd627555c00aa55382303096eb9ed",
+        "CLM_fe28b6811975b01bf9d80552808c35ffb32167a00e70db0f16edc213c2f638cd"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünelin Tanımı neden karayolu tünel mühendisliği açısından önemlidir?",
+      "question_id": "1.1-Q08",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9e7982232195ab1279c851c6df3fb965d196092c6e1defbcc5a99befbfa8ed4b",
+        "CLM_110cc8fbcce89e99e774f43786925381d44772c241b52d97fcfadf8263f9913c"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı hangi amaçlara hizmet eder?",
+      "question_id": "1.1-Q09",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı değerlendirilirken hangi fiziksel özellikler dikkate alınır?",
+      "question_id": "1.1-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_17799c8bbf606ac08499b6410e8c69afa0a258152daf765bf983deed9a970430"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı değerlendirilirken hangi geometrik özellikler dikkate alınır?",
+      "question_id": "1.1-Q11",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_98e7a9137aee021e887faa551b79422d03a1aa4beccf7c695132cd721499b8a2",
+        "CLM_fba3b7efcccf194671121f7739e84d167d205659c50b92f00f6379a60cf3d468"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünelin Tanımı değerlendirilirken hangi jeolojik ve geoteknik özellikler önemlidir?",
+      "question_id": "1.1-Q12",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e42a923dd9582f0e99d47ddc84ed69e19194e36f5e621178b790ed4f912d92e6",
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı açısından güvenlik kavramı nasıl ele alınır?",
+      "question_id": "1.1-Q13",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c9c0d3b54e2e0975677186ca2e95929b2aecd627555c00aa55382303096eb9ed",
+        "CLM_3c9d15c26d90d9dd30120b6ee2cff2141866ad7fb212bc23e9d0cfab380f63b8"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı açısından işletme koşulları neden önemlidir?",
+      "question_id": "1.1-Q14",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3229b57ba24d2f281223fc46f7b900ab716e3b62090143d5eb646f7cccda9b65",
+        "CLM_9b8efd965e1ed27fbb36eecb1ac161214241ff315dfa9e7e3c86b9578d3c8d93",
+        "CLM_01119ca80f88d3006624e5c897248cecb71c688a739588d7ed33b5f23d55764e"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünelin Tanımı açısından bakım gereksinimleri nasıl tanımlanır?",
+      "question_id": "1.1-Q15",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b253dd6a50e834424c942dab576527143b967bec74665a1481638c0c9f52e9ac",
+        "CLM_29980a953a06a22010695c1cc7df9ad9997d56e894fb9a7eac44bc49250b5011"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı açısından yapım yöntemi seçiminin rolü nedir?",
+      "question_id": "1.1-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_81e8f9b19ec34da8a0fee9f2ba8c3a3f43d7fb22d5a6e195f45a5cca8ac222db",
+        "CLM_341458aaac0a4c2e0a2edfa16344629e6ff12aa7603d43121f8c42a5ec150bed"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı ile tünel uzunluğu arasında nasıl bir ilişki kurulabilir?",
+      "question_id": "1.1-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_67aa9188a918c5f718f55e572e0175de1ec6e771b40a35238d12a5415d511a28",
+        "CLM_fbd4dc096663bd3fc6120cb97a6551b568bef33679dca30eafd94f480fa2d6dc"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünelin Tanımı ile tünel kesiti veya geometrisi arasında nasıl bir ilişki vardır?",
+      "question_id": "1.1-Q18",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_21a939d616d47c56e53d4c0fdc81fa286eae712f6e72bf0ec6cd84cda0e1ab7c",
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı ile trafik türü ve trafik yoğunluğu arasındaki ilişki nedir?",
+      "question_id": "1.1-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c8edefade90c2963a0ac369ebdd0d570ef48291d95465a88da2d432c613a10b7",
+        "CLM_92f4465aa120f134d76d243ac082533663c1caec57ee1d7fc11c058f45ab3fb6",
+        "CLM_5ac68032c50cf520497dc1a64ba520086e227fdd3eac6568945551735a640b62"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünelin Tanımı ile havalandırma gereksinimleri arasında nasıl bir bağ vardır?",
+      "question_id": "1.1-Q20",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fd0ecc2791b8be21764aa648aa94bcc2750e1cb33ce0b3f9a008b8417426c125",
+        "CLM_9b54b92d76ac8daf141b1b11f60942952989532e8040bb8d49a70e5c054d6a77",
+        "CLM_c8bcb98ed09f35d9583fdfac341aa29b9a027e56ed7713dff173b598a4ba7c4c",
+        "CLM_fb5c617bd2aaed8888006262a255aa2491c79ffe6a8071f8f8ea34ded9c20d22"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünelin Tanımı ile aydınlatma gereksinimleri arasında nasıl bir bağ vardır?",
+      "question_id": "1.1-Q21",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fbe9a01c9661f10b2883601e401a6bc8c8d60210e7d885b425101afa3c8652de",
+        "CLM_4ce286a41fb39b5342a1a90d1bbdfbf7095bfe743dd5b4b660752f385a694307"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünelin Tanımı ile drenaj ve su yalıtımı gereksinimleri arasında nasıl bir bağ vardır?",
+      "question_id": "1.1-Q22",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e016893580998dfb9a2cfad243797f6578a56e735c3c5135188781766a9a3f26",
+        "CLM_9f9f5f104810e98b3977446410371f7dc0a7efe5e3ff71e95355ef4da3781dcf"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünelin Tanımı ile yangın güvenliği arasında nasıl bir ilişki vardır?",
+      "question_id": "1.1-Q23",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_60fa2073ac9768f67633192dd85262680270db6a765bab032bc2ae2d5c7fe505",
+        "CLM_de719cbd5159d7146a137ca52ef36f23970c8bff1b1b55692fb61bc7e64f1150",
+        "CLM_c8f68dbe52f7030a03d66e65c611fbcee7788b045ef00a356db2bb06f30e73f6",
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünelin Tanımı ile acil durum yönetimi arasında nasıl bir ilişki vardır?",
+      "question_id": "1.1-Q24",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6d055b89c4c58fa58dc599e92b2fdb34c0a19326add9bf9a9fd1cb553bedaf7a",
+        "CLM_94d06be13db094d79e7478e970b137734ac295b8921b8a806e40f62257ff0df9"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı bakımından portal bölgelerinin önemi nedir?",
+      "question_id": "1.1-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı bakımından tünel içi kaplama ve destek sistemlerinin rolü nedir?",
+      "question_id": "1.1-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelin Tanımı hangi ölçülebilir parametrelerle ifade edilebilir?",
+      "question_id": "1.1-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelin Tanımı için kullanılan birimler ve temel büyüklükler nelerdir?",
+      "question_id": "1.1-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı ile ilgili terminolojide ulusal ve uluslararası kullanım farklılıkları var mıdır?",
+      "question_id": "1.1-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı ile ilgili tanımlar hangi standart, şartname veya teknik kılavuzlarda yer alır?",
+      "question_id": "1.1-Q30",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelin Tanımı Türkiye’deki karayolu tüneli uygulamalarında nasıl kullanılır?",
+      "question_id": "1.1-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_43c97a5fab4a77bfd85ce48405c079bfb4782dafda367e70020f13eda3c5d50a",
+        "CLM_7c2be707b740ef81cb28e6dc5bba2b1f886644291fbf72923737191b8a61b5f3"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı uluslararası tünel mühendisliği literatüründe nasıl ele alınır?",
+      "question_id": "1.1-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493",
+        "CLM_319234efac3a6a1db886f64478ceb512601ae8e7fd34737a1bc3286304cec42b"
+      ],
+      "confidence": 0.3,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı konusunda sık karıştırılan terimler hangileridir?",
+      "question_id": "1.1-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "confidence": 0.25,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı konusunda yanlış veya eksik anlaşılmaya yol açabilecek noktalar nelerdir?",
+      "question_id": "1.1-Q34",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0b5309ce35274ad47546dcecb54736000120f4a1513bc4193e4efd46f9173b82",
+        "CLM_67aa9188a918c5f718f55e572e0175de1ec6e771b40a35238d12a5415d511a28"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı teknik çizimlerde ve projelerde nasıl gösterilir?",
+      "question_id": "1.1-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9",
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092",
+        "CLM_7031f6e1e062c50056ceee802b43d660def1de3d56de8cd27d85895573c6b670"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünelin Tanımı sözleşme ve ihale dokümanlarında nasıl tanımlanmalıdır?",
+      "question_id": "1.1-Q36",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelin Tanımı maliyet analizlerinde nasıl sınırlandırılmalıdır?",
+      "question_id": "1.1-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelin Tanımı yaşam döngüsü yaklaşımı içinde nasıl konumlandırılır?",
+      "question_id": "1.1-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9",
+        "CLM_2cff81f568747bf8d6b2e64519629b84c6ab7b6d97c5abd8fe4bf43f522fe210",
+        "CLM_434576389a962cd292bf8104795434b76f7113508a1dae4429c7973364874b57",
+        "CLM_b75457523d26fb39078aaa5da0082b2322d6105b55ff769ae020565806cca713"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı risk değerlendirmelerinde nasıl kullanılır?",
+      "question_id": "1.1-Q39",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelin Tanımı kalite kontrol süreçlerinde nasıl ele alınır?",
+      "question_id": "1.1-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+        "CLM_0b5309ce35274ad47546dcecb54736000120f4a1513bc4193e4efd46f9173b82"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı için hangi saha verileri gereklidir?",
+      "question_id": "1.1-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0b5309ce35274ad47546dcecb54736000120f4a1513bc4193e4efd46f9173b82",
+        "CLM_a69f83db6d5aa50d8d7a590846746fcc7d99608ea5894f2407c8a16377928853"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı için hangi proje verileri gereklidir?",
+      "question_id": "1.1-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı için hangi işletme verileri gereklidir?",
+      "question_id": "1.1-Q43",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c6305feaf5f952b21e0130bf9d628c6d4e68557bb41e3c0dab50b5caa39596d9"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı farklı tünel türlerinde nasıl değişir?",
+      "question_id": "1.1-Q44",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493",
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı farklı zemin koşullarında nasıl değişir?",
+      "question_id": "1.1-Q45",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+        "CLM_49b686ae9f529cac422f943b51f39e18fdab4a1743492a63c119605c2f887ab1"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı farklı yapım yöntemlerinde nasıl değişir?",
+      "question_id": "1.1-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_341458aaac0a4c2e0a2edfa16344629e6ff12aa7603d43121f8c42a5ec150bed",
+        "CLM_eb41c2e818156d32036e495d214f27d612a73b92f35eca5d94629f6e59230d07"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı zaman içinde teknolojik gelişmelerden nasıl etkilenmiştir?",
+      "question_id": "1.1-Q47",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_17ea146c01cb99baab33e90d283f3c946668d007dea78466d524318f5c97b1be",
+        "CLM_31a8a7f48220ddb475c9d053a967467c9690e19cf4f3acf48edfe0c2fccfffd2",
+        "CLM_d4a7ac65895394d7af25efd64d7c0bc730e4ec07f67a2a967b710d993eaaedbe",
+        "CLM_3b9c8f80183806df9dc6da9c26b134001b8aafa9ccf3c02b6890461e368db9c7"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı sürdürülebilirlik açısından nasıl değerlendirilmelidir?",
+      "question_id": "1.1-Q48",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_00903f305e519c05b0b43993aa74aff4e7a1d9553a18092de09a2ed7bf456148",
+        "CLM_64a3053a40f5c959e02fae553dadf8bd14d776a0bb0ab5fc6bdfb2b606095bde"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünelin Tanımı için kitapta verilmesi gereken en temel örnekler nelerdir?",
+      "question_id": "1.1-Q49",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünelin Tanımı hakkında okuyucunun bölüm sonunda hangi temel kavramları ayırt edebilmesi gerekir?",
+      "question_id": "1.1-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "1.1",
+  "section_title": "Tünelin Tanımı",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_00903f305e519c05b0b43993aa74aff4e7a1d9553a18092de09a2ed7bf456148",
+      "CLM_01119ca80f88d3006624e5c897248cecb71c688a739588d7ed33b5f23d55764e",
+      "CLM_0b5309ce35274ad47546dcecb54736000120f4a1513bc4193e4efd46f9173b82",
+      "CLM_110cc8fbcce89e99e774f43786925381d44772c241b52d97fcfadf8263f9913c",
+      "CLM_17799c8bbf606ac08499b6410e8c69afa0a258152daf765bf983deed9a970430",
+      "CLM_17ea146c01cb99baab33e90d283f3c946668d007dea78466d524318f5c97b1be",
+      "CLM_21a939d616d47c56e53d4c0fdc81fa286eae712f6e72bf0ec6cd84cda0e1ab7c",
+      "CLM_29980a953a06a22010695c1cc7df9ad9997d56e894fb9a7eac44bc49250b5011",
+      "CLM_2cff81f568747bf8d6b2e64519629b84c6ab7b6d97c5abd8fe4bf43f522fe210",
+      "CLM_319234efac3a6a1db886f64478ceb512601ae8e7fd34737a1bc3286304cec42b",
+      "CLM_31a8a7f48220ddb475c9d053a967467c9690e19cf4f3acf48edfe0c2fccfffd2",
+      "CLM_3229b57ba24d2f281223fc46f7b900ab716e3b62090143d5eb646f7cccda9b65",
+      "CLM_341458aaac0a4c2e0a2edfa16344629e6ff12aa7603d43121f8c42a5ec150bed",
+      "CLM_3b9c8f80183806df9dc6da9c26b134001b8aafa9ccf3c02b6890461e368db9c7",
+      "CLM_3c9d15c26d90d9dd30120b6ee2cff2141866ad7fb212bc23e9d0cfab380f63b8",
+      "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+      "CLM_434576389a962cd292bf8104795434b76f7113508a1dae4429c7973364874b57",
+      "CLM_43c97a5fab4a77bfd85ce48405c079bfb4782dafda367e70020f13eda3c5d50a",
+      "CLM_46632447de2312cc20dd727dbd74fabd9e14c7307329dcc01826b7c5d014151f",
+      "CLM_49b686ae9f529cac422f943b51f39e18fdab4a1743492a63c119605c2f887ab1",
+      "CLM_4ce286a41fb39b5342a1a90d1bbdfbf7095bfe743dd5b4b660752f385a694307",
+      "CLM_5ac68032c50cf520497dc1a64ba520086e227fdd3eac6568945551735a640b62",
+      "CLM_60fa2073ac9768f67633192dd85262680270db6a765bab032bc2ae2d5c7fe505",
+      "CLM_64a3053a40f5c959e02fae553dadf8bd14d776a0bb0ab5fc6bdfb2b606095bde",
+      "CLM_67aa9188a918c5f718f55e572e0175de1ec6e771b40a35238d12a5415d511a28",
+      "CLM_6d055b89c4c58fa58dc599e92b2fdb34c0a19326add9bf9a9fd1cb553bedaf7a",
+      "CLM_7031f6e1e062c50056ceee802b43d660def1de3d56de8cd27d85895573c6b670",
+      "CLM_7c2be707b740ef81cb28e6dc5bba2b1f886644291fbf72923737191b8a61b5f3",
+      "CLM_81e8f9b19ec34da8a0fee9f2ba8c3a3f43d7fb22d5a6e195f45a5cca8ac222db",
+      "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493",
+      "CLM_92f4465aa120f134d76d243ac082533663c1caec57ee1d7fc11c058f45ab3fb6",
+      "CLM_94d06be13db094d79e7478e970b137734ac295b8921b8a806e40f62257ff0df9",
+      "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9",
+      "CLM_98e7a9137aee021e887faa551b79422d03a1aa4beccf7c695132cd721499b8a2",
+      "CLM_9b54b92d76ac8daf141b1b11f60942952989532e8040bb8d49a70e5c054d6a77",
+      "CLM_9b8efd965e1ed27fbb36eecb1ac161214241ff315dfa9e7e3c86b9578d3c8d93",
+      "CLM_9e7982232195ab1279c851c6df3fb965d196092c6e1defbcc5a99befbfa8ed4b",
+      "CLM_9f9f5f104810e98b3977446410371f7dc0a7efe5e3ff71e95355ef4da3781dcf",
+      "CLM_a69f83db6d5aa50d8d7a590846746fcc7d99608ea5894f2407c8a16377928853",
+      "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092",
+      "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+      "CLM_b253dd6a50e834424c942dab576527143b967bec74665a1481638c0c9f52e9ac",
+      "CLM_b75457523d26fb39078aaa5da0082b2322d6105b55ff769ae020565806cca713",
+      "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9",
+      "CLM_c6305feaf5f952b21e0130bf9d628c6d4e68557bb41e3c0dab50b5caa39596d9",
+      "CLM_c8bcb98ed09f35d9583fdfac341aa29b9a027e56ed7713dff173b598a4ba7c4c",
+      "CLM_c8edefade90c2963a0ac369ebdd0d570ef48291d95465a88da2d432c613a10b7",
+      "CLM_c8f68dbe52f7030a03d66e65c611fbcee7788b045ef00a356db2bb06f30e73f6",
+      "CLM_c9c0d3b54e2e0975677186ca2e95929b2aecd627555c00aa55382303096eb9ed",
+      "CLM_d4a7ac65895394d7af25efd64d7c0bc730e4ec07f67a2a967b710d993eaaedbe",
+      "CLM_de719cbd5159d7146a137ca52ef36f23970c8bff1b1b55692fb61bc7e64f1150",
+      "CLM_e016893580998dfb9a2cfad243797f6578a56e735c3c5135188781766a9a3f26",
+      "CLM_e42a923dd9582f0e99d47ddc84ed69e19194e36f5e621178b790ed4f912d92e6",
+      "CLM_eb41c2e818156d32036e495d214f27d612a73b92f35eca5d94629f6e59230d07",
+      "CLM_fb5c617bd2aaed8888006262a255aa2491c79ffe6a8071f8f8ea34ded9c20d22",
+      "CLM_fba3b7efcccf194671121f7739e84d167d205659c50b92f00f6379a60cf3d468",
+      "CLM_fbd4dc096663bd3fc6120cb97a6551b568bef33679dca30eafd94f480fa2d6dc",
+      "CLM_fbe9a01c9661f10b2883601e401a6bc8c8d60210e7d885b425101afa3c8652de",
+      "CLM_fd0ecc2791b8be21764aa648aa94bcc2750e1cb33ce0b3f9a008b8417426c125",
+      "CLM_fe28b6811975b01bf9d80552808c35ffb32167a00e70db0f16edc213c2f638cd"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "1.1-Q01",
+      "1.1-Q02",
+      "1.1-Q03",
+      "1.1-Q05",
+      "1.1-Q07",
+      "1.1-Q09",
+      "1.1-Q10",
+      "1.1-Q11",
+      "1.1-Q13",
+      "1.1-Q14",
+      "1.1-Q16",
+      "1.1-Q17",
+      "1.1-Q19",
+      "1.1-Q25",
+      "1.1-Q26",
+      "1.1-Q29",
+      "1.1-Q30",
+      "1.1-Q32",
+      "1.1-Q33",
+      "1.1-Q34",
+      "1.1-Q35",
+      "1.1-Q39",
+      "1.1-Q41",
+      "1.1-Q42",
+      "1.1-Q43",
+      "1.1-Q44",
+      "1.1-Q45",
+      "1.1-Q46",
+      "1.1-Q47",
+      "1.1-Q48",
+      "1.1-Q49"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "1.1-Q06",
+      "1.1-Q27",
+      "1.1-Q28",
+      "1.1-Q31",
+      "1.1-Q37",
+      "1.1-Q38",
+      "1.1-Q40",
+      "1.1-Q50"
+    ]
+  }
+}

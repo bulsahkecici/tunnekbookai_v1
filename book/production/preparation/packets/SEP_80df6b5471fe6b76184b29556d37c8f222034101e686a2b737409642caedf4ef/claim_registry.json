@@ -1,0 +1,424 @@
+{
+  "claim_count": 10,
+  "claims": [
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 91,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "b1063fd95002a6af46f3f5e43c2d1b07871f01486a7f39f82cb07adad2af6ef6",
+      "chunk_id": "ING_7e795b9a47c89f5406c5_CH_7f05e0b5c0",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_27bba1871e1f64e1f8cbb23a27475581f6acf408eac606e999639685d1578f9f",
+      "claim_text": "8 Yapım Amaçlarına Göre Tüneller\n**En Eski Tüneller** | **En Eski Tüneller**\n\nEupalinos Tüneli | 1 km\n\nUrner Loch (İsviçre Alplerindeki ilk tünel, 1707) | 64 m\n\nMont-Cenis (Fransa-İtalya, 1857-1870) | 12 km\n\nSt. Gotthart Demiryolu tüneli (İsviçre 1872-1878) | 15 km\n\nKaraköy Tüneli (İstanbul Galata-Beyoğlu, 1871-1875) | 573 m\n\n**En Uzun Tüneller** | **En Uzun Tüneller**\n\nSeikan (Japonya, 1981-1984) | 54 km\n\nEuro-Tunnel (Manş Tüneli, Fransa-İngiltere 1986-1993) | 50 km\n\nSimplon I (İsviçre - İtalya 1898-1906) | 20 km\n\nGrand Apennin (İtalya 1921-1930) | 19 km\n\nYeni Gotthard (İsviçre 1969-1980) | 16 km\n\n**En Uzun Metro Tünelleri** | **En Uzun Metro Tünelleri**\n\nLondra Metrosu | 414 km\n\nMoskova | 254 km\n\nNew York | 221 km\n\nTokyo | 203 km\n\nParis | 1 65 km\n\n**Yapımı Devam Eden Önemli Tüneller** | **Yapımı Devam Eden Önemli Tüneller**\n\nGotthard Tüneli (1993-2015? ): Dünyanın en uzun tüneli, 2300 m derinlik | 2 x 56.9 km\n\nLötschberg (1994- ) 2300 metre derinlik | 2 x 41.9 km\n\nGuadarrama (İspanya): demiryolu tüneli | 2 x 28.4 km",
+      "conditions": [],
+      "document_id": "ING_7e795b9a47c89f5406c5",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_7f05e0b5c0:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L91",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.3.1-Q02": "SUPPORTED",
+        "1.3.1-Q03": "PARTIAL",
+        "1.3.1-Q05": "PARTIAL",
+        "1.3.1-Q27": "SUPPORTED",
+        "1.3.1-Q36": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2"
+      ],
+      "section_id": "1.3.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.1",
+      "supporting_question_ids": [
+        "1.3.1-Q02",
+        "1.3.1-Q03",
+        "1.3.1-Q05",
+        "1.3.1-Q27",
+        "1.3.1-Q36"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:STRUCTURED_DOCUMENT",
+      "canonical_line_number": 3,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_c736114ad7d9ac29557c/7744ed55e644a8175f2f9544108036932ffe4bf83d5f91d408c1327b2dae6358/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "14c2ac43928e1150dfa515d0f8a6274e7305fa832c12d6715398093b29d3bca6",
+      "chunk_id": "ING_c736114ad7d9ac29557c_CH_952f7615f5",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_48d8eafc08be5f0e1f28b4a6efb713725e2a21efe5a4b6b2bec17b54677fa37c",
+      "claim_text": "Günümüzün geli ş mi ş mühendislik gözüyle TÜNEL\nTA Ş IYICI S İ STEM' dir. Bu yakla ş ı m tünellerin 'içi bo ş alt ı lm ı ş bir geçi ş in ta ş ı y ı c ı iç ve d ı ş kaplamalar ı ' olarak anla ş ı lmas ı na ve statik hesaplar ı n do ğ ru olmas ı ko ş ulunun tünelin yap ı m ı na yetebilece ğ i anlay ı ş ı na kadar varabilmektedir.\n\nGünümüzün geli ş mi ş mühendislik gözüyle TÜNEL\n\n'Çevre kayaçlar ı yla birlikte çal ı ş an kal ı c ı nitelikteki bütünle ş ik bir geoteknolojik sistem, YER İ Ç İ GEÇ İŞ YAPISI' d ı r.\n\nTünellerdeki Mühendislik Hizmetleri\n\nK                                                                       TÜRK\n\nTAR İ HSEL GEL İŞİ M\n\nilk tüneller\n\nM.Ö. 2160 senelerinde Babil kraliçesi Semiramis bir binay ı di ğ erine ba ğ layan tüneller yap ı lm ı ş t ı r. Babilliler F ı rat Nehrinin yata ğ ı n ı de ğ i ş tirmek amac ı yla 4,6×3,6 metre geni ş li ğ inde üstü briketle örtülü geçit tünel yapm ı ş lard ı r.\n\nTünel yapma tekni ğ i eski M ı s ı rl ı lar zaman ı nda da çok ileri gitmi ş ti. Sert kayalar testere ve matkaplarla kesilmek ve delinmek suretiyle parçalan ı yordu.\n\nRomal ı lar kayalar ı parçalamak için ate ş yakma metodunu kullan ı yorlard ı .\n\nTünel açmada 1600'lerden sonra barut kullan ı lmaya ba ş land ı .\n\nAlfred Nobel'in 1867 senesinde dinamiti ke ş fetmesiyle barut, yerini dinamite b ı rakt ı .\n\nUzun Tünel Örnekleri\n\nDünyan ı n en uzun demiryolu tüneli henüz i ş letmeye geçmemi ş 57 km uzunlu ğ undaki St. Gothard Tünelidir.\n\n1980 senesinde Japonya'da yap ı l ı p i ş letmeye Demiryolu aç ı lan Seikan Tüneli 54.100 metre uzunlu ğ undad ı r.\n\nDünyan ı n en uzun karayolu tüneliyse İ sviçre'de 1978 senesinde i ş letmeye aç ı lan 16.400 m uzunlu ğ undaki Alp Da ğ lar ı nda yer alan St. Gothard Tünelidir.\n\n1993 y ı l ı sonlar ı nda k ı smen bitirilen Man ş Tüneliyse 37,9 km deniz alt ı nda olmak üzere toplam 50,5 km'dir.\n\nAlp Da ğ lar ı nda İ talya'y ı Fransa'ya ba ğ layan di ğ er iki uzun tünel 1965 senesinde aç ı lan ve 11.700 m uzunlu ğ undaki Mont Blanc ve 1978 senesinde aç ı lan ve 12.700 m uzunlu ğ undaki Frejus Tünelleridir.",
+      "conditions": [],
+      "document_id": "ING_c736114ad7d9ac29557c",
+      "evidence_level": "STRUCTURED_DOCUMENT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_c736114ad7d9ac29557c:ING_c736114ad7d9ac29557c_CH_952f7615f5:pages=9-13;canonical=corpus/canonical/objects/ING_c736114ad7d9ac29557c/7744ed55e644a8175f2f9544108036932ffe4bf83d5f91d408c1327b2dae6358/chunks/embedding_ready.jsonl#L3",
+      "page_end": 13,
+      "page_start": 9,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.3.1-Q04": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.2"
+      ],
+      "section_id": "1.3.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "1.3.1-Q04"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 32,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_9fdf7f646f2268199035/d1c39483b7230111496248816d514b82c3c212217fe35b28bbc84634b158035b/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "617cc8e6eafd4a93b292c735bbf7fc0b27a1e16f7332acad7fc537f5a5cdbce5",
+      "chunk_id": "ING_9fdf7f646f2268199035_CH_e51b424f82",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_5fc64bd98c37623a682443ba6cc4313727277a47dc3cef8c9b85600924ad6554",
+      "claim_text": "HARRAN ÜNİVERSİTESİ\nFEN BİLİMLERİ ENSTİTÜSÜ > 6 Tünelciliğin Tarihsel Anlamda Gelişimi\nTünel Adı | Tünel Adı | Yapım Yılı | Yeri | Yeri | Yeri | Amacı | Amacı | Çapı\n\n\n\n(m) | Çapı\n\n\n\n(m) | Uzunluk\n\n\n\n(m) | \n\n- | - | MÖ 15000 | Avrupa | Avrupa | Avrupa | Maden | Maden | - | - | - | \n\n- | - | MÖ 4000 | Anadolu | Anadolu | Anadolu | Nakliyat | Nakliyat | 3,50x5,40 | 3,50x5,40 | 1000 | \n\n |  | MÖ 2000 | İtalya | İtalya | İtalya | Nakliyat | Nakliyat | 7,50 | 7,50 | 900 | \n\nAksırat | Aksırat | MÖ 300 | Anadolu | Anadolu | Anadolu | Suyolu | Suyolu | 0,80x2,0 | 0,80x2,0 | 45000 | \n\n- | - | MÖ 200 | Anadolu | Anadolu | Anadolu | Nakliyat | Nakliyat | 3,80x4,80 | 3,80x4,80 | 960 | \n\n- | - | MÖ 36 | İtalya | İtalya | İtalya | Ulaşım | Ulaşım | 7,60-9,15 | 7,60-9,15 | 1220 | \n\nFacinus | Facinus | MS 41 | İtalya | İtalya | İtalya | Drenaj | Drenaj | - | - | 5635 | \n\nMal-passe | Mal-passe | 1679-1681 | Fransa | Fransa | Fransa | Su Yolu | Su Yolu | 7,0x8,0 | 7,0x8,0 | 160 | \n\nThames | Thames | 1807-1842 | İngiltere | İngiltere | İngiltere | Ulaşım | Ulaşım | - | - | - | \n\nSchuylkill | Schuylkill | 1818-1820 | Amerika | Amerika | Amerika | Suyolu | Suyolu | 5,50x6,10 | 5,50x6,10 | 250 | \n\nMoodhead | Moodhead | 1839-1841 | İngiltere | İngiltere | İngiltere | Demiryolu | Demiryolu | 8,50x6,70 | 8,50x6,70 | 4843 | \n\nBergen | Bergen | 1850-1855 | Amerika | Amerika | Amerika | Demiryolu | Demiryolu | 8,50x6,40 | 8,50x6,40 | 1281 | \n\nMont cenıs | Mont cenıs | 1857-1871 | Fransa-İtalya | Fransa-İtalya | Fransa-İtalya | Demiryolu | Demiryolu | 7,60x6,10 | 7,60x6,10 | 12700 | \n\nSt. Godhard | St. Godhard | 1872-1881 | İsviçre | İsviçre | İsviçre | Demiryolu | Demiryolu | 8,0x7,50 | 8,0x7,50 | 14980 | \n\nSımplon I | Sımplon I | 1895-1906 | İsviçre | İsviçre | İsviçre | Demiryolu | Demiryolu | 5,0x5,35 | 5,0x5,35 | 19730 | \n\nSımplon II | Sımplon II | 1912-1921 | İtalya | İtalya | İtalya | Demiryolu | Demiryolu | - | - | - | \n\nRove | Rove | 1911-1922 | Fransa | Fransa | Fransa | Deniz Tün. | Deniz Tün. | - | - | 7118 | \n\nConnaught | Connaught | 1913-1916 | Kanada | Kanada | Kanada | Demiryolu | Demiryolu | 8,50x7,90 | 8,50x7,90 | 8052 | \n\nTanna | Tanna | 1918-1934 | Japonya | Japonya | Japonya | Karayolu | Karayolu | - | - | - | \n\nAppenin | Appenin | 1920-1931 | İtalya | İtalya | İtalya | Demiryolu | Demiryolu | 9,40x8,30 | 9,40x8,30 | 18510 | \n\nNew cascade | New cascade | 1924-1927 | Amerika | Amerika | Amerika | Demiryolu | Demiryolu | 8,0x7,50 | 8,0x7,50 | 14980 | \n\nMetro | Metro | 1900- | Paris | Paris | Paris | Ulaşım | Ulaşım | 7,80 | 7,80 | 15200 | \n\nMetro | Metro | 1937-1946 | Londra | Londra | Londra | Ulaşım | Ulaşım | 14,10 | 14,10 | 4620 | \n\nMetro | Metro | 1934-1964 | Moskova | Moskova | Moskova | Ulaşım | Ulaşım | 2,0x6,0 | 2,0x6,0 | 59500 | \n\nMetro | Metro | - | Chicago | Chicago | Chicago | Ulaşım | Ulaşım | 4,50 | 4,50 | 22500 | \n\nMest delaware | Mest delaware | 1955-1959 | Amerika | Amerika | Amerika | Sulama | Sulama | 4,10 | 4,10 | 70858 | \n\nE. Turnut | E. Turnut | 1954-1958 | Avustralya | Avustralya | Avustralya | Sulama | Sulama | 7,30 | 7,30 | 22224 | \n\nHarold roberst | Harold roberst | 1957-1960 | Amerika | Amerika | Amerika | Sulama | Sulama | 3,95 | 3,95 | 37485 | \n\nMont blanc | Mont blanc | 1959-1965 | Fransa İtalya | Fransa İtalya | Fransa İtalya | Demiryolu | Demiryolu | 9,0x12,45 | 9,0x12,45 | 12650 | \n\nKadıncık I | Kadıncık I | 1967-1969 | Türkiye | Türkiye | Türkiye | Hidroelektrik | Hidroelektrik | 4,00 | 4,00 | 7128 | \n\nUrfa | Urfa | 1977-1992 | Türkiye | Türkiye | Türkiye | Sulama | Sulama | 9,00 | 9,00 | 2x26400 | \n\nEyüp | Eyüp | 1986-1987 | Türkiye | Türkiye | Türkiye | Kanalizasyon | Kanalizasyon | 2,20 | 2,20 | 1865 | \n\nSelatinler | Selatinler | 1988-1994 | Türkiye | Türkiye | Türkiye | Karayolu | Karayolu | 12,5 | 12,5 | 2x2950 | \n\nYahazu | Yahazu | 1990-1993 | Japonya | Japonya | Japonya | Karayolu | Karayolu | 12x7,5 | 12x7,5 | 2x2000 | \n\nİstanbul | İstanbul | 1992- | Türkiye | Türkiye | Türkiye | Ulaşım | Ulaşım | 6,40 | 6,40 | 2x6500 | \n\nİzmir | 1995-2001 | 1995-2001 | 1995-2001 | Türkiye | Ulaşım | Ulaşım | 2x6,5 | 2x6,5 | 2x1400 | 2x1400 | 2x1400\n\nİzmir | 2000-2007 | 2000-2007 | 2000-2007 | Türkiye | Karayolu | Karayolu | 12 | 12 | 1800 | 1800 | 1800\n\nİzmir | 2001- | 2001- | 2001- | Türkiye | Ulaşım | Ulaşım | 12 | 12 | 5400 | 5400 | 5400",
+      "conditions": [],
+      "document_id": "ING_9fdf7f646f2268199035",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_9fdf7f646f2268199035:ING_9fdf7f646f2268199035_CH_e51b424f82:canonical=corpus/canonical/objects/ING_9fdf7f646f2268199035/d1c39483b7230111496248816d514b82c3c212217fe35b28bbc84634b158035b/chunks/embedding_ready.jsonl#L32",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.3.1-Q36": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.2.1",
+        "2.1"
+      ],
+      "section_id": "1.3.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.2",
+      "supporting_question_ids": [
+        "1.3.1-Q36"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 123,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "bcfecb48d4457b2c3cfc2e575b811929494b7f137812f86d3e43531aaec587a2",
+      "chunk_id": "ING_2005c18d2148fb921826_CH_6b02238a71",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_6fa62c4e33ddcc5fca84551b9c46070356fe38c6cae71d8216706e501b5799bc",
+      "claim_text": "2.1.3 Yapım Amaçlarına Göre Tüneller\nTablo: Çizelge 2.2 Dünya'daki Çe ş itli Tüneller Hakkında İ statistiksel Bilgiler\nÇizelge 2.2 Dünya'daki Çe ş itli Tüneller Hakkında İ statistiksel Bilgiler\n\nEn Eski Tüneller | En Eski Tüneller\n\nEupalinos Tüneli | 1 km\n\nUrner Loch ( İ sviçre Alplerindeki ilk tünel, 1707) | 64 m\n\nMont-Cenis (Fransa- İ talya, 1857-1870) | 12 km\n\nSt. Gotthart Demiryolu tüneli ( İ sviçre 1872-1878) | 15 km\n\nKaraköy Tüneli ( İ stanbul Galata-Beyo ğ lu, 1871-1875) | 573 m\n\nEn Uzun Tüneller | En Uzun Tüneller\n\nSeikan (Japonya, 1981-1984) | 54 km\n\nEuro-Tunnel (Man ş Tüneli, Fransa- İ ngiltere 1986-1993) | 50 km\n\nSimplon I ( İ sviçre - İ talya 1898-1906) | 20 km\n\nGrand Apennin ( İ talya 1921-1930) | 19 km\n\nYeni Gotthard ( İ sviçre 1969-1980) | 16 km\n\nEn Uzun Metro Tünelleri | En Uzun Metro Tünelleri\n\nLondra Metrosu | 414 km\n\nMoskova | 254 km\n\nNew York | 221 km\n\nTokyo | 203 km\n\nParis | 165 km\n\nYapımı Devam Eden Önemli Tüneller | Yapımı Devam Eden Önemli Tüneller\n\nGotthard Tüneli (1993-2015? ): Dünyanın en uzun tüneli, 2300 m derinlik | 2 x 56.9 km\n\nLötschberg (1994- ) 2300 metre derinlik | 2 x 41.9 km\n\nGuadarrama ( İ spanya): demiryolu tüneli | 2 x 28.4 km",
+      "conditions": [],
+      "document_id": "ING_2005c18d2148fb921826",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK"
+      ],
+      "locator": "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_6b02238a71:pages=25;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L123",
+      "page_end": 25,
+      "page_start": 25,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.3.1-Q02": "SUPPORTED",
+        "1.3.1-Q27": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2.1",
+        "2.2",
+        "5.9.1",
+        "1"
+      ],
+      "section_id": "1.3.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "1.3.1-Q02",
+        "1.3.1-Q27"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 6,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_cf2fad9c374cff809783/1b2c8642795bc04743d6ccec8a90b8cef6ec2093669a344972893d54504415e3/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "fa9f430d588800f29fcd1779bcde3c4908ac090255e1a961ae5e1e7252ed81fd",
+      "chunk_id": "ING_cf2fad9c374cff809783_CH_65d6ba6504",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_772e3551220fa96e1263c1f77bed96537fa1c5446dd99bb70eb7435b90c2a411",
+      "claim_text": "3 1. Tünel Kazılarının Tarihçesi\nbu bölümde, İstanbul Metrosu Taksim-Yenikapı arası üstyarı ve altyan ortalama saatlik kazı değerleri tablolar halinde sunulmuştur. Bu tablolarda yer alan saatlik kazı miktarları İstanbul Metrosu Taksim-4.Levent arası üstyarı ve altyan ortalama saatlik kazı miktarlan ile karşılaştınlmıştır. DOKtaw<» İstanbul Metrosu Tünellerinde hidrolik kırıcılarla yapılan kazı işlerinde hesaplanan değerler ve yapılan gözlemler sonucunda kırıcıların performansına etki eden bir takım faktörler ortaya çıkmıştır. Ortaya çıkan bu faktörlere, Tartışma ve Sonuç kısmında yer verilmiştir.\n\n2 MALZEME ve YÖNTEM\n\n3 1. Tünel Kazılarının Tarihçesi\n\nYeraltında kazı yapmanın başlangıcı ilkel insanların yaşadığı tarih öncesi zamanlara kadar uzanmaktadır. Bu devirlerde insanlar, kötü hava koşullarından ve düşmanlarından korunmak için sığınma ihtiyacı ile mağara açmışlar veya doğal mağaralara ilaveler yapmışlardır [4].\n\nİnsanların yeraltına çeşitli maksatlarla girme veya erişme gayretleri için tünelle ilgili çok sayıda arkeolojik deliller olduğu saptanmıştır. Dünyanın birçok ülkesindeki bu arkeolojik deliller Taş Devri’ne aittir. Bu devirde insanlar yeraltına ucu sivriltilmiş bıçak, ok ve buna benzer aletler yardımı ile girebilmiş ve kendi maksatları için kullanmışlardır [5].\n\nÇok eski devirlerde Hindistan, İran ve Mısır’da çok sayıda tünel inşaa edilmiştir. Romalı mühendisler günümüze kadar gelen çok sayıda tünel bırakmışlardır. Madenlerin keşfi (önce Bronz daha sonra Demir ve Çelik) sayesinde tünelcilik ve kazı işleri gelişme aşaması kaydetmiştir [5].\n\nîlk çağlardan günümüze kadar çeşitli mühendislik dallarında oluşan büyük gelişmeler, yeraltı yapılarının boyutlarının artmasına neden olmuştur. Bunun sonucu olarak 20. yüzyılın başında ağır desteklerle ve tek hatlı olarak açılan demiryolu tünelleri günümüz teknolojisinin ışığı altmda tam kesitli ve 10 cm kalınlığındaki beton destek ile duraylıhğını koruyabilmektedir [4].\n\n4 2. Tünel Kazılan Hakkında Genel Bilgi\n\nTünel, aynı seviyede veya az meyilli olarak devam eden, girişi ve çıkışı olan yeraltı yollarına yada iki ucu açık galerilere denmektedir. Bir tarafi kapalı olan tünele veya yeraltına açılan geçit yoluna ise, galeri adı verilmektedir [6].\n\nYeryüzünde çeşitli amaçlara yönelik olarak inşaa edilmekte olan küçük mühendislik yapılarının yanı sıra, özellikle gelişmiş ve gelişmekte olan ülkelerde giderek artmakta olan enerji, altyapı, yerleşim, ulaşım ve daha nice gereksinimlerin karşılanabilmesi için yeraltı yapılan da hızla çoğalmakta ve boyutça büyümektedir [1].\n\nKuşkusuz yeraltı yapılarının en önemlileri, çoğu zaman uzunluğu kilometreleri bulan ve çapı amaca göre değişen tünellerdir. Her çeşit kazı faaliyetlerinde olduğu gibi, tünel kazı fâaliyetlerinde de birincil önemi taşıyan aşama, kayaların kazılması işlemine geçmeden önce; kayaları sınıflandırılarak ortak davranışlarının saptanmasına yönelik pek çok araştırmalar yapmaktır. Tünel inşaatında mühendislerin temel hedefi, açılan tünelin kaya kütlesinin sınıflandırılması ve geniş olan kazılarından kaçınılması olmaktadır [1].",
+      "conditions": [],
+      "document_id": "ING_cf2fad9c374cff809783",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE"
+      ],
+      "locator": "ING_cf2fad9c374cff809783:ING_cf2fad9c374cff809783_CH_65d6ba6504:canonical=corpus/canonical/objects/ING_cf2fad9c374cff809783/1b2c8642795bc04743d6ccec8a90b8cef6ec2093669a344972893d54504415e3/chunks/embedding_ready.jsonl#L6",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.3.1-Q46": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "2.3",
+        "5"
+      ],
+      "section_id": "1.3.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "1.3.1-Q46"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:STRUCTURED_DOCUMENT",
+      "canonical_line_number": 15,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_c736114ad7d9ac29557c/7744ed55e644a8175f2f9544108036932ffe4bf83d5f91d408c1327b2dae6358/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "fd0bc4af829d11e05b8f45af5c686f662e430a0f0c2cae718d0f178b90a16f9c",
+      "chunk_id": "ING_c736114ad7d9ac29557c_CH_3669398811",
+      "chunk_type": "FIGURE_CHUNK",
+      "claim_id": "CLM_808132ac40556febab5895d0265e99fb7c01de49a90f57b07408a421b7476e22",
+      "claim_text": "Denizalt ı Tünelleri\niLK ŞILD KULLANIMI\nLondra/Themse Tüneli\n1825-1843\nAmaç: ingiliz Donanmasına malzeme taşımak\n1869'da Demiryolu Tüneli\nBRUNEL tarafından geliştirilen kalkan (Schild)\nilerleme Hizı: 25 cm/gün\nDÜNYADA VE TÜRKIYEDE TÜNELCILIK\nTÜRKiYE TÜNELCiLiK SEMiNERÍ / 13 Haziran 2013– M. VARDAR\nSolda çok katmanlı dikdörtgen bir iskele yapısının üç boyutlu görünümü, sağda ise aynı sistemin iç mekanizmasını ve bir işçiyi içeren yan kesitini gösteren iki teknik çizim yer almaktadır.",
+      "conditions": [],
+      "document_id": "ING_c736114ad7d9ac29557c",
+      "evidence_level": "STRUCTURED_DOCUMENT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_FIGURE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_c736114ad7d9ac29557c:ING_c736114ad7d9ac29557c_CH_3669398811:pages=17;canonical=corpus/canonical/objects/ING_c736114ad7d9ac29557c/7744ed55e644a8175f2f9544108036932ffe4bf83d5f91d408c1327b2dae6358/chunks/embedding_ready.jsonl#L15",
+      "page_end": 17,
+      "page_start": 17,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.3.1-Q10": "PARTIAL",
+        "1.3.1-Q48": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.2"
+      ],
+      "section_id": "1.3.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2",
+      "supporting_question_ids": [
+        "1.3.1-Q10",
+        "1.3.1-Q48"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 227,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "b44af56f4e9b8b278c917c3ea0de0304f584d9e86b3707b3166d5cbc9c6bfc3d",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_cb5f16b544",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_b6a64eb2825e14ce2a07fe14f7e31202ae5f91023b5c3f54213ab6d48da5022c",
+      "claim_text": "0 | 1 Şekil 1. Kargir Kaplama Tünel ve İlk Su Tünelleri Örnekleri ..................................................................... | 2 Şekil 2. KGM Tünel Bilgileri ...................................................................................................................... | 4 Şekil 3. Tünel Çeşitleri.............................................................................................................................. | 5 Şekil 4. Tam Kesit Açan TBM ve Kollu Tünel Açma Makinası | .................................................................. 7 Şekil 5. Boru Sürme Yöntemiyle Açılan Tünel Örneği | .............................................................................. 8 Şekil 6. Şemsiyeleme Yönteminde Uygulanan Zemin Çivilemeye Örnek ................................................ | 9 Şekil 7. Marmaray Projesi Batırma Tüneli Uygulaması………………………………………………………………………10 |  Şekil 8. Gotthard Base Demiryolu Tünelinden Bir Görüntü………………………………………………………..……..11 |  Şekil 9. Karayolu Tüneli Örneği ve En kesiti………………………………………………………………………………………12 |  Şekil 10. Metro Tüneli Örneği…………………………………………………………………………………………………………..13 |  Şekil 11. Kanal (Akarsu) Tüneli Örneği………………………………………………………………………………………………14 |  Şekil 12. Basınçlı ve Basınçsız Hidrolik Güç Tünelleri En kesitleri……………………………………………………….15 |  Şekil 13. Trans Avrupa Yol Ağındaki 500m'den Uzun Tünel Gösterimi……………………………………………….27 |  Şekil 14. Tünel Güvenliğine Etki Eden Faktörler…………………………………………………………………………………28 |  Şekil 15. Teknik Kontrol Sistemi……………………………………………………………………………………………………..…39 |  Şekil 16. AB Direktifine Göre Altyapı İçin Getirilen Asgari Gereksinimlerin Özeti……………………………….41 |  Şekil 17. AB Direktifine Göre Altyapı İçin Getirilen Asgari Gereksinimlerin Özeti……………………………….42 |  Şekil 18. AB Direktifine Göre Altyapı İçin Getirilen Asgari Gereksinimlerin Özeti……………………………….43 |  Şekil 19. Ülkemizden Geçen TEN Yol Ağı……………………………………………………………………………………………53 |  Şekil 20. Aydınlatma Sistemi Tasarım Örneği………………………………………………………………….……………...193 |  Şekil 21.Eşik Bölgesi Aydınlatma Seviyesi Belirleme Tablosu……………………………………………………………194 |  Şekil 22.Tünel Aydınlatma Türleri……………………………………………………………………………………………………195 |",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_cb5f16b544:pages=11;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L227",
+      "page_end": 11,
+      "page_start": 11,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.3.1-Q47": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "1.3.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "1.3.1-Q47"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 1,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_521709d743a3d0399b50/013768ebf16dbafc01e218b6b09e07368a3e3d831590c2308ac563771fb0b56f/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "4c1e262e5dea1e7e6495978ea7297d80bb4768b833918fca7a2c666826f0abb2",
+      "chunk_id": "ING_521709d743a3d0399b50_CH_f64ca769f2",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_c35ff4aabc00c668cb8dee3001c417358ba0d68acdd7151307082dd4b39ca030",
+      "claim_text": "DEVELOPMENT AND BACKGROUND OF NATM\n\nWulf Schubert\n\nGraz University of Technology\n\nTUNNELLING PRACTICE\tin mid NINETEEN HUNDREDS\n\nTunnelling in the 19th and first half of the 20th century characterized by partial excavation and predominantly timber support\n\nSmall excavation sizes and timber supports required lot of manual work and prevented mechanization\n\nFrequent repropping of support caused disintegration of rock mass, loading the supports\n\nTheoretical background not really developed\n\nDIFFERENT TUNNELLING METHODS 19th and 20th CENTURY\n\nEnglish tunnelling method\n\nDIFFERENT TUNNELLING METHODS 19th and 20th CENTURY\n\n„Belgian“ tunnelling method\n\nDIFFERENT TUNNELLING METHODS 19th and 20th CENTURY\n\n„German“ tunnelling method\n\nDIFFERENT TUNNELLING METHODS 19th and 20th CENTURY\n\n„Austrian“ tunnelling method\n\nDIFFERENT TUNNELLING METHODS 19th and 20th CENTURY\n\nRziha´s proposed steel frame support\tSteel support with timber blocking\n\nTUNNELLING PRACTICE\tin mid NINETEEN HUNDREDS\n\nGKB, Austria 1951\n\nSouth Link Railway Taiwan, 1986\n\nTHEORY and LOAD CONCEPTS\n\nOver centuries tunnels had been designed and built based only on experience. Research into the mechanical processes startet only around 1900. Many believed that a zone around the tunnel is completely destressed („destressed“ or „protective zone“)\n\nKomerell, 1912\t„Destressed“ zone\n\nWiesmann, 1909\n\nTHEORY and LOAD CONCEPTS\n\nOthers found the theoretical solution, but practitioners did not use the findings for a long time\n\nLeon & Willheim, 1910\n\nTRADITIONAL TUNNEL DESIGN\n\nDesign of tunnel support generally based of hypothesis of dead loads\n\nc.\n\nDifferent behaviours, like\n\n„squeezing“, swelling, buckling, et generally neglected\n\nResult thick and not adequate linings for many conditions\n\nKommerell, 1912",
+      "conditions": [],
+      "document_id": "ING_521709d743a3d0399b50",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_521709d743a3d0399b50:ING_521709d743a3d0399b50_CH_f64ca769f2:canonical=corpus/canonical/objects/ING_521709d743a3d0399b50/013768ebf16dbafc01e218b6b09e07368a3e3d831590c2308ac563771fb0b56f/chunks/embedding_ready.jsonl#L1",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.3.1-Q10": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1.2",
+        "2.4.2.1",
+        "2.2.1"
+      ],
+      "section_id": "1.3.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.2",
+      "supporting_question_ids": [
+        "1.3.1-Q10"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 42,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_e3a78fec24c25a09fd74/49443009072fa93059c2a3f482a31f9622aaeeb17ce72929585ab4b6e6e85445/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "c2a4de1a657fe4f736acf4eb9ea1492127f9f6bc1b866a6736b50bd81c010785",
+      "chunk_id": "ING_e3a78fec24c25a09fd74_CH_8006f96bd7",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_d1b33e0b08314e8bf65e3aff8e9ad97da28cf5f139a283d0d02f93620650314d",
+      "claim_text": "3.1.1.1. Tünelciliğin Tarihsel Anlamda Gelişimi\nTablo: Çizelge 3.1. Geçmiş dönemlerden günümüze kadar gelen bazı tüneller ve özellikleri (Köse ve diğer., 2007'den düzenlenerek)\nÇizelge 3.1. Geçmiş dönemlerden günümüze kadar gelen bazı tüneller ve özellikleri (Köse ve diğer., 2007'den düzenlenerek)\n\nTünel Adı | Yapım Yılı | Yeri | Amacı | Çapı (m) | Uzunluk (m)\n\n- | MÖ 15000 | Avrupa | Maden | - | -\n\n- | MÖ 4000 MÖ 2000 | Anadolu İtalya | Nakliyat Nakliyat | 3,50x5,40 7,50 | 1000 900\n\nAksırat | MÖ 300 | Anadolu | Suyolu | 0,80x2,0 | 45000\n\n- | MÖ 200 | Anadolu | Nakliyat | 3,80x4,80 | 960\n\n- | MÖ 36 | İtalya | Ulaşım | 7,60-9,15 | 1220\n\nFacinus | MS 41 | İtalya | Drenaj | - | 5635\n\nMal-passe | 1679-1681 | Fransa | Su Yolu | 7,0x8,0 | 160\n\nThames | 1807-1842 | İngiltere | Ulaşım | - | -\n\nSchuylkill | 1818-1820 | Amerika | Suyolu | 5,50x6,10 | 250\n\nMoodhead | 1839-1841 | İngiltere | Demiryolu | 8,50x6,70 | 4843\n\nBergen | 1850-1855 | Amerika | Demiryolu | 8,50x6,40 | 1281\n\nMont cenıs | 1857-1871 | Fransa-İtalya | Demiryolu | 7,60x6,10 | 12700\n\nSt. Godhard | 1872-1881 | İsviçre | Demiryolu | 8,0x7,50 | 14980\n\nSımplon I | 1895-1906 | İsviçre | Demiryolu | 5,0x5,35 | 19730\n\nSımplon II | 1912-1921 | İtalya | Demiryolu | - | -\n\nRove | 1911-1922 | Fransa | Deniz Tün. | - | 7118\n\nConnaught | 1913-1916 | Kanada | Demiryolu | 8,50x7,90 | 8052\n\nTanna | 1918-1934 | Japonya | Karayolu | - | -\n\nAppenin | 1920-1931 | İtalya | Demiryolu | 9,40x8,30 | 18510\n\nNew cascade | 1924-1927 | Amerika | Demiryolu | 8,0x7,50 | 14980\n\nMetro | 1900- | Paris | Ulaşım | 7,80 | 15200\n\nMetro | 1937-1946 | Londra | Ulaşım | 14,10 | 4620\n\nMetro | 1934-1964 | Moskova | Ulaşım | 2,0x6,0 | 59500\n\nMetro | - | Chicago | Ulaşım | 4,50 | 22500\n\nMest delaware | 1955-1959 | Amerika | Sulama | 4,10 | 70858\n\nE. Turnut | 1954-1958 | Avustralya | Sulama | 7,30 | 22224\n\nHarold roberst | 1957-1960 | Amerika | Sulama | 3,95 | 37485\n\nMont blanc | 1959-1965 | Fransa İtalya | Demiryolu | 9,0x12,45 | 12650\n\nKadıncık I | 1967-1969 | Türkiye | Hidroelektrik | 4,00 | 7128\n\nUrfa | 1977-1992 | Türkiye | Sulama | 9,00 | 2x26400\n\nEyüp | 1986-1987 | Türkiye | Kanalizasyon | 2,20 | 1865\n\nSelatinler | 1988-1994 | Türkiye | Karayolu | 12,5 | 2x2950\n\nYahazu | 1990-1993 | Japonya | Karayolu | 12x7,5 | 2x2000\n\nİstanbul | 1992- | Türkiye | Ulaşım | 6,40 | 2x6500",
+      "conditions": [],
+      "document_id": "ING_e3a78fec24c25a09fd74",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_e3a78fec24c25a09fd74:ING_e3a78fec24c25a09fd74_CH_8006f96bd7:pages=24;canonical=corpus/canonical/objects/ING_e3a78fec24c25a09fd74/49443009072fa93059c2a3f482a31f9622aaeeb17ce72929585ab4b6e6e85445/chunks/embedding_ready.jsonl#L42",
+      "page_end": 24,
+      "page_start": 24,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.3.1-Q05": "PARTIAL",
+        "1.3.1-Q36": "PARTIAL",
+        "1.3.1-Q46": "SUPPORTED",
+        "1.3.1-Q48": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "2.1"
+      ],
+      "section_id": "1.3.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "2.2",
+      "supporting_question_ids": [
+        "1.3.1-Q05",
+        "1.3.1-Q36",
+        "1.3.1-Q46",
+        "1.3.1-Q48"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 2,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "c9c9e03d79d440545f0666db59b277b450343c96c1d6a644f9d0fcd9425ed9c1",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_38efefcbcc",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_f30b9ce1974ca31b5bb8a2a630e3a9f62aefbf69a8fcdcba54d4317fd60c6db7",
+      "claim_text": "GİRİŞ\n4.8. DİĞER SİSTEMLER……………………………………………………………………………………………………………………303\n\nŞEKİLLER TABLOSU\n\nBÖLÜM 1. TÜNELCİLİK HAKKINDA GENEL BİLGİLE R\n\nGİRİŞ\n\nTüneller önemli mühendislik yeraltı yapılarındandır. Öyle ki tüneller, uygun ulaştırma yapıları vasıtası ile arasında doğal zorluklar ve tehlikeler olan iki yerleşim biriminin kesintisiz bir şekilde bağlantısını sağlamaktadır. Böylece, dağlık araziler, nehirler ve denizler gibi doğal engellerin, elverişli ulaştırma sistemiyle, iklim şartlarından da etkilenmeyecek  şekilde aşılması  sağlanmaktadır.  Yolcu  ve  yüklerin  her  ikisinin  de  devamlı  ve  kesintisiz  taşınıy or olması bir toplumun gelişmesi ve sosyal olarak refaha ermesi için gerekli bir durumdur.\n\n1.1. TÜNEL TANIMI, TARİHÇESİ VE GEREKLİLİĞİ\n\nTünel,  uluslararası  literatürde  mutabakat  sağlanmış bir  tanımı  olmamakla  birlikte; genel anlamıyla yer altından kazı yapılm ak suretiyle olu ş turulan geçitlerdir. Veya demiryolu, karayolu, yaya yolu, kanal vb. gibi bir nakliye yolunun bir kısmının yeryüzünden geçirilmesinin teknik bakımdan imkânsız olduğu ya da ekonomik bakımdan uygun bulunmadığı yerlerde bu kısmın yeraltından g eçirilmesi için ba şvurulan yapılara tünel denir.\n\nTüneller,  geometrilerinin  ve  üstlerine  gelen  yüklerin  karma şıklığı,  kaya  ve  kaplama malzemelerinin  özellikleri  ve  kar şılıklı  etkileş imleri  nedeniyle  projelendirmesi  oldukça  güç yapılardır.\n\nKarada  ve  deniz de  gittikçe  artan  trafik  hacmi  yeni  tüneller  yapılmasını  gerekli kılmaktadır. Trafik yoğunluğu artışına paralel olarak tünellere duyulan ihtiyaç özellikle dağlık alanlarda can alıcı hale gelmiş tir. Türkiye gibi geli şmekte olan ülkelerde ise tünel yapımları yoğun yol geliştirme programları dâhilinde ele alınmaktadır.\n\nTüneller tarih boyunca her zaman kültürel açıdan geliş mi ş toplumlarda in ş a edilmi ş ler ve bu toplumlar teknik ve ekonomik güce de sahip olmu şlardır. 18.  yy  ve  19.  yy  süresince İ ngiltere'de  endüstriyel  geli ş im,  tünelleri  de  etkilemi ştir.  Buna  bağlı  olarak  daha  hızlı  bir ş ekilde kanallar da geli ş mi ştir. Demiryolları ve kayda değer birçok mühendislik uygulamalarında  ki  geliş meler,  tünellerdeki  önemli  geli ş melere  de  etkide  bulunmu ş tur. Avrupa'daki tünel in şasına ait bu geliş meler Amerika' ya da geçerek 1818 yılında Pansylvania da  Schuylkill  kanalı  üzerinde  ilk  tünele  başlanmıştır.  1820  de  biten  bu  tünel  5,49  m geni şliğinde 6,10 m yüksekliğinde ve 250 m uzunluğundadır.\n\nŞekil 1 . Kargir Kaplama Tünel ve İlk Su Tünelleri Örnekleri\n\nGeli şmeler ışığında, mühendisler daha zor koşullar altında  açılması  gereken tüneller hakkında  çalış malara  ba şlamış ve  bu  noktada  su  altı  tünellerinin  ilk  örnekleri  yapılmaya ba şlamış t ır. Bu çalış malardan ilki 18231843 yılları arasında Taymis Nehri altında açılan 4,20 m ve 4,80 m çaplarındaki halen hizmette olan bir ikiz tüneldir (İ ngiltere/Londra/Greenwich).\n\nÖzellikle  Avrupa'da  metro  ağlarının  gelişimi  ile  birlikte  tünelcilik  konusu önem kazanmıştır. Dünyada  ilk  büyük  metro  sistemleri  19.  yüzyılın  sonunda  ve  20.  yüzyılın başlarında Londra, Paris, New York ve Moskova'da kuruldu. İlk \"yeraltı demiryolu\" projesi 1835'de İngiltere'de  yapıldı. Ama Londra'nın kenar semtlerindeki iki demiryo lu istasyonunu kentin  merkezine  bağlamayı  amaçlayan  bu  proje  \"düşsel\"  bulunduğu  için  uygulanmadı. 1860'da Londra'da dünyanın  ilk yeraltı demiryolunun  yapımına  başlandı. 6 kilometre uzunluğundaki bu metro hattı 1863'de isletmeye açıldı. Sonraki yıllarda yapılan ekler ve yeni hatlarla giderek genişleyen Londra Metrosunda bugün 408 kilometrelik bir ağ üzerindeki 273 istasyon arasında çalışan 457 metro treni her gün yaklaşık 2,5 milyon yolcu taşımaktadır.\n\nİngiltere'den sonra Avrupa'daki ilk metro 1896'da Macaristan'ın başkenti Budapeşte'de açıldı. Dünyanın  en  ünlü  metrolarından  biri  olan  Moskova  metrosunun  197  kilometre lik toplam uzunluğunun 20 kilometrelik bir bölümü dışında, tümü yeraltındadır ve 123 istasyonu vardır.\n\n1904'de açılan New York Metrosu, her yıl 1 milyardan fazla yolcu taşıyan ve hemen hepsi  24  saat  hizmet  veren  23  hattıyla  dünyanın  en  yoğun  metrosudur.  Bu  metronun  220,5 kilometresi yeraltında, 150,6 kilometresi yerüstünde olan toplam 371 kilometrelik hatlarında 456  istasyon  vardır.  Bugün  yeryüzünde  nüfusu  bir  milyonu  aşan  kentler  arasında  metrosu bulunmayan hemen hemen kalmamış gibidir.\n\n1999  yılında  Danimarka  ve  İ sviçre' de  Drogden  isimli  batırılmış tünel  örneğine rastlanmıştır. Ayrıca 2000 yılında, Japonya 'da Kawasaki Fairway ve Osaka South Port isimli tünellerin  yapımı  tamamlanmıştır.  Yine  aynı  yıl  Japonya 'da  Kobe  Port  isimli  bir  tünelin in şaatı bitirilmiştir. Trafik yoğunluğunun artmasıyla beraber karayolu tünel inşaatı, özellikle A.B.D.  ,  Fransa, İ talya,  Almanya  gibi  geli ş mi ş ülkelerde  büyük önem  kazanmış ve  bu ülkelerdeki modern otobanlarda uzun tüneller açılmıştı r.\n\nTünel inşasını gerektiren nedenler kısaca şu şekilde sıralanabilir;\n\n Eğimi  sınırlı  olan  güzergâhlarda,  dağlık  arazide  yeryüzünden  aşılamayan  sırt  ve tepeleri geçilmesi amacıyla,\n\n Güzergâhın bir kısmında tünel inşası ile önemli bir kısalma meydana gelecek ve tünel için gereken masraf bu kısalmadan elde edilecek tasarruf ile karşılanabilecekse ya da tünelden  geçilmesi  halinde  maliyet  artsa  bile  bu  artış i şletme  masraflarından  elde edilecek tasarruf ile kar şılanabilecekse,\n\n Güzergâhın bir kısmının önemli toprak kaymaları, kaya yuvarlanmaları veya çığlardan korunması amacıyla,\n\n Gerek askeri bakımdan, gerekse üzerindeki seyri aksatmamak, doğal yapıyı bozmamak için  akarsuların  veya  boğaz te şkil  eden  deniz  sularının  altından  geçilmek  istendiği zaman,",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_38efefcbcc:pages=11-23;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L2",
+      "page_end": 23,
+      "page_start": 11,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "1.3.1-Q03": "PARTIAL",
+        "1.3.1-Q04": "PARTIAL",
+        "1.3.1-Q47": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "1.3.1",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "1.3.1-Q03",
+        "1.3.1-Q04",
+        "1.3.1-Q47"
+      ]
+    }
+  ],
+  "contract_version": "section-preparation-v1",
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "registry_id": "SCR_c686837fd5c7c9a746138cab9628ed2f60494e975c93d22ffd3d5ed854b9e04e",
+  "schema_version": "1.0",
+  "section_id": "1.3.1",
+  "section_title": "Dünyadaki İlk Tüneller"
+}

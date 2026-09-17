@@ -1,0 +1,636 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_aeda5224a06522f4719b3dc7831b35dec2780eb097a86ba40d8185d5b7bdf79b",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 19,
+    "SUPPORTED": 1,
+    "UNSUPPORTED": 30
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_6f0b89a6b877a3ba88d353ad6178470aa2b1d04e825fde2598c94ca88ea4510e",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_82ad90cc8f1312031d2d4c226a2870a6ecac61e1747506df0d156a49bbc0307e",
+        "CLM_f88c4af30f21119094c4c535adaca930239316a3fe7840faf21a4a6dd0d84936"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri için araştırmanın en temel bulgusu nedir?",
+      "question_id": "7.1-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ee9f1acf3a0504ac5e54aaa10b0bcffbc85989b798e133dc442d3f70c00a44c8",
+        "CLM_f88c4af30f21119094c4c535adaca930239316a3fe7840faf21a4a6dd0d84936"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri için kullanılan veri setinin temel büyüklüğü ve kapsamı nedir?",
+      "question_id": "7.1-Q02",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.2,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için temel tanımlayıcı istatistikler ne göstermektedir?",
+      "question_id": "7.1-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için ortalama, medyan ve dağılım ölçüleri nasıl farklılaşmaktadır?",
+      "question_id": "7.1-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.2,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için birim maliyetlerin dağılımı nasıldır?",
+      "question_id": "7.1-Q05",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_82ad90cc8f1312031d2d4c226a2870a6ecac61e1747506df0d156a49bbc0307e",
+        "CLM_f88c4af30f21119094c4c535adaca930239316a3fe7840faf21a4a6dd0d84936"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri için en düşük ve en yüksek değerler hangi koşullarda görülmüştür?",
+      "question_id": "7.1-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için aykırı değerler hangi projelerde veya gruplarda görülmüştür?",
+      "question_id": "7.1-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ee9f1acf3a0504ac5e54aaa10b0bcffbc85989b798e133dc442d3f70c00a44c8",
+        "CLM_f88c4af30f21119094c4c535adaca930239316a3fe7840faf21a4a6dd0d84936",
+        "CLM_82ad90cc8f1312031d2d4c226a2870a6ecac61e1747506df0d156a49bbc0307e"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri tünel uzunluğuna göre nasıl değişmektedir?",
+      "question_id": "7.1-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri tünel genişliği veya kesitine göre nasıl değişmektedir?",
+      "question_id": "7.1-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri tüp sayısına göre nasıl değişmektedir?",
+      "question_id": "7.1-Q10",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri şerit sayısına göre nasıl değişmektedir?",
+      "question_id": "7.1-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri trafik akış tipine göre nasıl değişmektedir?",
+      "question_id": "7.1-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri yapım yöntemine göre nasıl değişmektedir?",
+      "question_id": "7.1-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri zemin veya kaya sınıfına göre nasıl değişmektedir?",
+      "question_id": "7.1-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri yapım süresine göre nasıl değişmektedir?",
+      "question_id": "7.1-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f88c4af30f21119094c4c535adaca930239316a3fe7840faf21a4a6dd0d84936",
+        "CLM_ee9f1acf3a0504ac5e54aaa10b0bcffbc85989b798e133dc442d3f70c00a44c8",
+        "CLM_82ad90cc8f1312031d2d4c226a2870a6ecac61e1747506df0d156a49bbc0307e",
+        "CLM_43ddbd4cf3b9335ffdeb0755d2df244653e9d38f671b2887a3b83b5e12bfcc4e"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri coğrafi konuma veya bölgeye göre nasıl değişmektedir?",
+      "question_id": "7.1-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fac0351d618f26197f871406f28ae29fc88f3f7b9fa87b03886d3389959d357b",
+        "CLM_b8cda5ebf5fd6d033f8e3e904c33ddfe7ce66ea8aa9e6f32539e04f02d83b6b6",
+        "CLM_f88c4af30f21119094c4c535adaca930239316a3fe7840faf21a4a6dd0d84936"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri tünelin hizmet yaşı ile nasıl ilişkilidir?",
+      "question_id": "7.1-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri bakım sıklığı ile nasıl ilişkilidir?",
+      "question_id": "7.1-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri elektromekanik donanım düzeyi ile nasıl ilişkilidir?",
+      "question_id": "7.1-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fac0351d618f26197f871406f28ae29fc88f3f7b9fa87b03886d3389959d357b",
+        "CLM_d414a0b87b5598b52380dc207c9759c015293c5e9a8d0a4b314d6dbe2a9ca5e0",
+        "CLM_4989900813313ca0a63fd2697f9f5a4f3bbdbf1db5f0cfdacf464fd85367d2cf",
+        "CLM_50a3349fcdeb14150e45cbdefc6c81e2e16e8cfa4601d0375c86aa11a8103fff"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri enerji tüketimi ile nasıl ilişkilidir?",
+      "question_id": "7.1-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için hangi değişkenlerle anlamlı ilişkiler bulunmuştur?",
+      "question_id": "7.1-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için hangi değişkenlerle anlamlı ilişki bulunmamıştır?",
+      "question_id": "7.1-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için korelasyon sonuçları ne göstermektedir?",
+      "question_id": "7.1-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_82ad90cc8f1312031d2d4c226a2870a6ecac61e1747506df0d156a49bbc0307e",
+        "CLM_f88c4af30f21119094c4c535adaca930239316a3fe7840faf21a4a6dd0d84936",
+        "CLM_43ddbd4cf3b9335ffdeb0755d2df244653e9d38f671b2887a3b83b5e12bfcc4e",
+        "CLM_ee9f1acf3a0504ac5e54aaa10b0bcffbc85989b798e133dc442d3f70c00a44c8"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri için grup karşılaştırmaları ne göstermektedir?",
+      "question_id": "7.1-Q24",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için regresyon veya tahmin modeli sonuçları ne göstermektedir?",
+      "question_id": "7.1-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7d83e50b25a58c40fa3cc8581d53c07727e143f57c258d4af78a27b2b8f43fc4",
+        "CLM_82ad90cc8f1312031d2d4c226a2870a6ecac61e1747506df0d156a49bbc0307e",
+        "CLM_fac0351d618f26197f871406f28ae29fc88f3f7b9fa87b03886d3389959d357b"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri için modelde en etkili değişkenler hangileridir?",
+      "question_id": "7.1-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için modelin açıklama veya tahmin başarısı ne düzeydedir?",
+      "question_id": "7.1-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için model hataları hangi durumlarda artmaktadır?",
+      "question_id": "7.1-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için sonuçların güven aralıkları veya belirsizlik düzeyi nedir?",
+      "question_id": "7.1-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için duyarlılık analizleri ana sonucu değiştiriyor mu?",
+      "question_id": "7.1-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için farklı model veya yöntemler benzer sonuç veriyor mu?",
+      "question_id": "7.1-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için bulunan sonuçlar ulusal literatürle uyumlu mudur?",
+      "question_id": "7.1-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için bulunan sonuçlar uluslararası literatürle uyumlu mudur?",
+      "question_id": "7.1-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için literatürden farklılaşan bulgular nasıl açıklanabilir?",
+      "question_id": "7.1-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_82ad90cc8f1312031d2d4c226a2870a6ecac61e1747506df0d156a49bbc0307e",
+        "CLM_ee9f1acf3a0504ac5e54aaa10b0bcffbc85989b798e133dc442d3f70c00a44c8",
+        "CLM_1dd312cebc66d2a515378a8e9dcba93396ace0e5d25e8c29d3e5d626f7b32f6a"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri için teknik açıdan en önemli maliyet sürücüleri hangileridir?",
+      "question_id": "7.1-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_82ad90cc8f1312031d2d4c226a2870a6ecac61e1747506df0d156a49bbc0307e",
+        "CLM_ee9f1acf3a0504ac5e54aaa10b0bcffbc85989b798e133dc442d3f70c00a44c8",
+        "CLM_1e34baf8b267a870e20d40f95b6e13b3fc832a8c8405ca5b58427d3b6e1122a7"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri için yönetimsel açıdan en önemli maliyet sürücüleri hangileridir?",
+      "question_id": "7.1-Q36",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_82ad90cc8f1312031d2d4c226a2870a6ecac61e1747506df0d156a49bbc0307e",
+        "CLM_1e34baf8b267a870e20d40f95b6e13b3fc832a8c8405ca5b58427d3b6e1122a7",
+        "CLM_d414a0b87b5598b52380dc207c9759c015293c5e9a8d0a4b314d6dbe2a9ca5e0"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri için kontrol edilebilir maliyet sürücüleri hangileridir?",
+      "question_id": "7.1-Q37",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_82ad90cc8f1312031d2d4c226a2870a6ecac61e1747506df0d156a49bbc0307e",
+        "CLM_1dd312cebc66d2a515378a8e9dcba93396ace0e5d25e8c29d3e5d626f7b32f6a",
+        "CLM_b7d7a74618e792c74ea736c4d861d1ad67c224597ddd1e86fae7c1ee8a5d285d",
+        "CLM_1e34baf8b267a870e20d40f95b6e13b3fc832a8c8405ca5b58427d3b6e1122a7"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri için kontrol edilmesi zor maliyet sürücüleri hangileridir?",
+      "question_id": "7.1-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fac0351d618f26197f871406f28ae29fc88f3f7b9fa87b03886d3389959d357b",
+        "CLM_2dbf72664482db673f7beb2fb1ab6dae1a204ef49e86125fecd56717a4e9b780",
+        "CLM_9be9fef48b75d41df8f3bc15957d8d86bfeab91ca29a6f3422dca6b83db342c3"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için hangi maliyet azaltma fırsatları belirlenmiştir?",
+      "question_id": "7.1-Q39",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_2dbf72664482db673f7beb2fb1ab6dae1a204ef49e86125fecd56717a4e9b780",
+        "CLM_9be9fef48b75d41df8f3bc15957d8d86bfeab91ca29a6f3422dca6b83db342c3",
+        "CLM_fac0351d618f26197f871406f28ae29fc88f3f7b9fa87b03886d3389959d357b"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri için maliyet azaltma önerileri güvenlikten ödün vermeden nasıl uygulanabilir?",
+      "question_id": "7.1-Q40",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fac0351d618f26197f871406f28ae29fc88f3f7b9fa87b03886d3389959d357b",
+        "CLM_82ad90cc8f1312031d2d4c226a2870a6ecac61e1747506df0d156a49bbc0307e",
+        "CLM_2dbf72664482db673f7beb2fb1ab6dae1a204ef49e86125fecd56717a4e9b780"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri için kısa vadeli öneriler nelerdir?",
+      "question_id": "7.1-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f88c4af30f21119094c4c535adaca930239316a3fe7840faf21a4a6dd0d84936",
+        "CLM_fac0351d618f26197f871406f28ae29fc88f3f7b9fa87b03886d3389959d357b",
+        "CLM_82ad90cc8f1312031d2d4c226a2870a6ecac61e1747506df0d156a49bbc0307e"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri için orta vadeli öneriler nelerdir?",
+      "question_id": "7.1-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fac0351d618f26197f871406f28ae29fc88f3f7b9fa87b03886d3389959d357b",
+        "CLM_b7d7a74618e792c74ea736c4d861d1ad67c224597ddd1e86fae7c1ee8a5d285d",
+        "CLM_1e34baf8b267a870e20d40f95b6e13b3fc832a8c8405ca5b58427d3b6e1122a7"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri için uzun vadeli öneriler nelerdir?",
+      "question_id": "7.1-Q43",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1e34baf8b267a870e20d40f95b6e13b3fc832a8c8405ca5b58427d3b6e1122a7",
+        "CLM_b7d7a74618e792c74ea736c4d861d1ad67c224597ddd1e86fae7c1ee8a5d285d"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri için veri toplama sisteminde hangi iyileştirmeler önerilmektedir?",
+      "question_id": "7.1-Q44",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1e34baf8b267a870e20d40f95b6e13b3fc832a8c8405ca5b58427d3b6e1122a7",
+        "CLM_b7d7a74618e792c74ea736c4d861d1ad67c224597ddd1e86fae7c1ee8a5d285d",
+        "CLM_fac0351d618f26197f871406f28ae29fc88f3f7b9fa87b03886d3389959d357b"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-İşletme Maliyetleri için bakım, proje veya işletme süreçlerinde hangi iyileştirmeler önerilmektedir?",
+      "question_id": "7.1-Q45",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için karar vericilerin takip etmesi gereken temel göstergeler nelerdir?",
+      "question_id": "7.1-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için sonuçların hangi tünel gruplarına genellenebileceği söylenebilir?",
+      "question_id": "7.1-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için genelleme yapılamayacak durumlar nelerdir?",
+      "question_id": "7.1-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için araştırmanın başlıca sınırlılıkları sonuçların yorumunu nasıl etkiler?",
+      "question_id": "7.1-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-İşletme Maliyetleri için gelecekte hangi veri ve analizlerle bulgular güçlendirilebilir?",
+      "question_id": "7.1-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "7.1",
+  "section_title": "Tünel Bakım-İşletme Maliyetleri",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_1dd312cebc66d2a515378a8e9dcba93396ace0e5d25e8c29d3e5d626f7b32f6a",
+      "CLM_1e34baf8b267a870e20d40f95b6e13b3fc832a8c8405ca5b58427d3b6e1122a7",
+      "CLM_2dbf72664482db673f7beb2fb1ab6dae1a204ef49e86125fecd56717a4e9b780",
+      "CLM_43ddbd4cf3b9335ffdeb0755d2df244653e9d38f671b2887a3b83b5e12bfcc4e",
+      "CLM_4989900813313ca0a63fd2697f9f5a4f3bbdbf1db5f0cfdacf464fd85367d2cf",
+      "CLM_50a3349fcdeb14150e45cbdefc6c81e2e16e8cfa4601d0375c86aa11a8103fff",
+      "CLM_7d83e50b25a58c40fa3cc8581d53c07727e143f57c258d4af78a27b2b8f43fc4",
+      "CLM_82ad90cc8f1312031d2d4c226a2870a6ecac61e1747506df0d156a49bbc0307e",
+      "CLM_9be9fef48b75d41df8f3bc15957d8d86bfeab91ca29a6f3422dca6b83db342c3",
+      "CLM_b7d7a74618e792c74ea736c4d861d1ad67c224597ddd1e86fae7c1ee8a5d285d",
+      "CLM_b8cda5ebf5fd6d033f8e3e904c33ddfe7ce66ea8aa9e6f32539e04f02d83b6b6",
+      "CLM_d414a0b87b5598b52380dc207c9759c015293c5e9a8d0a4b314d6dbe2a9ca5e0",
+      "CLM_ee9f1acf3a0504ac5e54aaa10b0bcffbc85989b798e133dc442d3f70c00a44c8",
+      "CLM_f88c4af30f21119094c4c535adaca930239316a3fe7840faf21a4a6dd0d84936",
+      "CLM_fac0351d618f26197f871406f28ae29fc88f3f7b9fa87b03886d3389959d357b"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "7.1-Q01",
+      "7.1-Q02",
+      "7.1-Q06",
+      "7.1-Q08",
+      "7.1-Q16",
+      "7.1-Q17",
+      "7.1-Q20",
+      "7.1-Q24",
+      "7.1-Q26",
+      "7.1-Q35",
+      "7.1-Q36",
+      "7.1-Q37",
+      "7.1-Q38",
+      "7.1-Q40",
+      "7.1-Q41",
+      "7.1-Q42",
+      "7.1-Q43",
+      "7.1-Q44",
+      "7.1-Q45"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "7.1-Q03",
+      "7.1-Q04",
+      "7.1-Q05",
+      "7.1-Q07",
+      "7.1-Q09",
+      "7.1-Q10",
+      "7.1-Q11",
+      "7.1-Q12",
+      "7.1-Q13",
+      "7.1-Q14",
+      "7.1-Q15",
+      "7.1-Q18",
+      "7.1-Q19",
+      "7.1-Q21",
+      "7.1-Q22",
+      "7.1-Q23",
+      "7.1-Q25",
+      "7.1-Q27",
+      "7.1-Q28",
+      "7.1-Q29",
+      "7.1-Q30",
+      "7.1-Q31",
+      "7.1-Q32",
+      "7.1-Q33",
+      "7.1-Q34",
+      "7.1-Q46",
+      "7.1-Q47",
+      "7.1-Q48",
+      "7.1-Q49",
+      "7.1-Q50"
+    ]
+  }
+}

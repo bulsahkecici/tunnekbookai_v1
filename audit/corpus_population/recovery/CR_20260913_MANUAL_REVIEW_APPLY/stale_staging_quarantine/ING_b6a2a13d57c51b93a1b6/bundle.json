@@ -1,0 +1,32 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_b6a2a13d57c51b93a1b6",
+  "original_sha256": "b6a2a13d57c51b93a1b6d6db9d8a56a4aae5eb5acc1c3b99db9e406542ce4b98",
+  "source_kind": "EXTERNAL_DISCOVERY",
+  "format": "HTML",
+  "title": "Three Dimensional Load Analysis of Tunnel Linings Including Weathering Processes of the Shotcrete",
+  "final_primary_section": "2",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.7883,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": false,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_b6a2a13d57c51b93a1b6",
+  "original_archive": "originals/ING_b6a2a13d57c51b93a1b6",
+  "chunks_authoritative_path": "processing/ING_b6a2a13d57c51b93a1b6/chunks/chunk_manifest.jsonl",
+  "chunk_count": 4,
+  "chunk_quality_status": "PASS",
+  "canonical_promoted": false
+}

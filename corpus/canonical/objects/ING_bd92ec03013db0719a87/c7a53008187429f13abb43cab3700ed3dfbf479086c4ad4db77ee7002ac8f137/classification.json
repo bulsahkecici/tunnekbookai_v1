@@ -1,0 +1,148 @@
+{
+  "final_primary_section": "5.9",
+  "final_secondary_sections": [
+    "5.9.2",
+    "5.4"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "PARA0003",
+        "LIST0035",
+        "LIST0036",
+        "LIST0037",
+        "LIST0074",
+        "LIST0075",
+        "LIST0076",
+        "PARA0010"
+      ]
+    },
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "PARA0003",
+        "LIST0035",
+        "LIST0036",
+        "LIST0037",
+        "LIST0074",
+        "LIST0075",
+        "LIST0076",
+        "PARA0010"
+      ]
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0074",
+        "LIST0075",
+        "LIST0076"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9",
+      "score": 0.7366,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7908,
+      "chunk_vote": 0.1256
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.7335,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8025,
+      "chunk_vote": 0.0838
+    },
+    {
+      "id": "5.4",
+      "score": 0.6778,
+      "rule_score": 0.5,
+      "embedding_score": 0.7841,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.4099,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3997
+    },
+    {
+      "id": "1",
+      "score": 0.3652,
+      "rule_score": 0.0,
+      "embedding_score": 0.7938,
+      "chunk_vote": 0.04
+    },
+    {
+      "id": "7",
+      "score": 0.3578,
+      "rule_score": 0.0,
+      "embedding_score": 0.795,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3557,
+      "rule_score": 0.0,
+      "embedding_score": 0.7905,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.3",
+      "score": 0.3552,
+      "rule_score": 0.0,
+      "embedding_score": 0.7893,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4",
+      "score": 0.3545,
+      "rule_score": 0.0,
+      "embedding_score": 0.7878,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.2883,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0666
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC'ın uluslararası standartları ve terminolojisi üzerine bir sözlük (glossary) çalışmasıdır. Bu, uluslararası literatür ve standartlar taraması kapsamında değerlendirilir; dolayısıyla 5.9 ve alt başlığı 5.9.2 en uygun sınıflandırmadır.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:5",
+    "embeddings:8",
+    "top=5.9:0.7366 gap=0.003 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

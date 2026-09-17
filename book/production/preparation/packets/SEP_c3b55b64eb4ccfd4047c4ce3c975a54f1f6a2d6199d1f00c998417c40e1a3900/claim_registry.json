@@ -1,0 +1,438 @@
+{
+  "claim_count": 11,
+  "claims": [
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 84,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_f0069d74ac7559aeb6fb/176cfa3cb216bd4827e45491bcc48f6901a71d55cd13ce5dbd2158e93f6364de/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "22bfec03e0cc8d096d665136f471dbb7b8478d71fbb29711c2ff5d098ecc5f68",
+      "chunk_id": "ING_f0069d74ac7559aeb6fb_CH_6d63eec95e",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_1e7a29c570e981d549037ca39a0d0718085fad3641575bf610ebd9c1d594eeb7",
+      "claim_text": "Expected Lifecycle Duration\nAsset | Life Expectancy\n\nMechanical Plant | Mechanical Plant\n\nVentilation | Ventilation\n\nJet Fans | 18 years\n\nAxial Fans | 30 years\n\nElectrostatic filters | 10 years (estimated)\n\nDrainage | Drainage\n\nPumps | 15 years\n\nWater level detectors | 10 years\n\nFire Fighting | Fire Fighting\n\nHand Extinguishers | 7 years\n\nHydrants | 28 years\n\nHose reels | 20 years\n\nFire main pipework | 30 years\n\nSprinkler System | 20 years\n\nFire detectors (Services Building) | 10 years\n\nAutomatic Gas Discharge System | 20 years\n\nElectrical Equipment | Electrical Equipment\n\nPower Supply and Distribution | Power Supply and Distribution\n\nSwitchgear | 20 years\n\nTransformers | 30 years\n\nCables HV | 50 years\n\nCables LV, Comms | 40 years",
+      "conditions": [],
+      "document_id": "ING_f0069d74ac7559aeb6fb",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK"
+      ],
+      "locator": "ING_f0069d74ac7559aeb6fb:ING_f0069d74ac7559aeb6fb_CH_6d63eec95e:pages=31;canonical=corpus/canonical/objects/ING_f0069d74ac7559aeb6fb/176cfa3cb216bd4827e45491bcc48f6901a71d55cd13ce5dbd2158e93f6364de/chunks/embedding_ready.jsonl#L84",
+      "page_end": 31,
+      "page_start": 31,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.2-Q34": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "5.4",
+        "5.5.1",
+        "5.4.2"
+      ],
+      "section_id": "5.5.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "5",
+      "supporting_question_ids": [
+        "5.5.2.2-Q34"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 26,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "019825a092683e121c0ce8731e44338df00ae7dd1024bcf1d732bcf371c02d00",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_360e05308c",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_367be7c2105e0207ba6ff9e717e95552a9d10e406207f8ce09dc14fb38faef73",
+      "claim_text": "3.5.1. IEC-60300-3-3: Uygulama Kılavuzu\nda, diğer ülkelerde de gündeme geldiği ve çalışmalar yapıldığı görülmektedir. İngiltere'de 'Yaşam Döngüsü Maliyetlerine Göre Tasarım' proje grubu oluşturularak, proje yöneticilerinin maliyet ve performanslara ilişkin yapacakları analizler için, metodoloji geliştirilmeye çalışılmıştır. Halen Kanada Ulusal Savunma Bakanlığı, çeşitli iyileştirme çalışmaları ile yaşam döngüsü maliyet modelini ve metodolojisini, savunma malzemeleri tedarikinde uygulamakta ve savunma sanayi işletmelerinden, verecekleri tekliflerinde, yaşam döngüsü maliyetlerine ilişkin bilgileri de istemektedir (Aytok, 2006).\n\n3.5.1. IEC-60300-3-3: Uygulama Kılavuzu\n\nUluslararası Elektroteknik Komisyonu (International Electrotechnical Commission, IEC) elektrik ve elektronik alanlarda standardizasyon konularındaki sorunların çözümüyle ilgili işbirliğini teşvik eden, uluslararası kullanım için bazı uluslararası  standartlar,  teknik  raporlar  ve  kılavuzlar  gibi  yayınlar  yayınlamakla sorumlu olan dünya çapında bir kuruluştur.\n\nYaşam  döngüsü  maliyet  analizine  olan  büyük  ilgi  nedeniyle,  IEC,  1996 yılında  güvenilirliği  sağlamak  amacıyla,  yaşam  döngüsü  maliyetleriyle  ilgili önerilerin  ve  standartların  sunulduğu  bir  ölçüt  olan  IEC  60300  standardını yayınlamıştır. Daha sonra, 2004 yılında IEC 60300 standardına ait ' IEC 60300-33  (2004)  Yaşam  Döngüsü  Maliyet,  Uygulama  Kılavuzu  başlığı  altında  bu standardı yayınlanarak bugünkü  son  halini almıştır. Bu  standart içerisinde demiryolu altyapı çalışmalarında kullanılabilecek yaşam döngüsü maliyet modelinin oluşturulmasına birçok açıdan katkı sağlanmıştır (IEC, 2005).\n\nIEC 60300-3-3 standardı, Yaşam Döngüsü Maliyet kavramının genel bir girişi  ile  tüm  uygulamalarının içerildiği bir standart olarak ortaya çıkmıştır. IEC 60300-3-3 standardına göre, yaşam döngüsü maliyet analizinin aşamaları aşağıdaki gibi oluşturulmuştur (IEC, 2005):\n\n Araştırma ve geliştirme maliyeti\n\n Yapım ve üretim maliyeti\n\n İşletme maliyeti\n\n Elden çıkarma maliyeti\n\n3.5.2. LCC analizinin faydaları ve kısıtları\n\nYaşam  Döngüsü  Maliyet  Analizi'nin  4  temel  faydası  vardır  ve  bunlar aşağıdaki gibidir (Aytok, 2006):\n\n Satın almadaki rekabet seçeneklerini değerlendirmesi: Yaşam döngüsü maliyet  analizi  teknikleri,  temel  yaşam  döngüsü  maliyetlerinden  yola çıkarak rekabet seçeneklerinin değerlendirilmesine imkan verir.\n\n Toplam  maliyetlerden  haberdar  olmayı  geliştirmesi: Yaşam  döngüsü maliyet analizi tekniklerinin uygulanması, satış için gerekli olan maliyetleri ve kaynakları düzenleyen gelişmiş haber almayı sağlar. Böylelikle  yönetim  gücünün  büyük  bir  kısmı,  satın  almanın  daha  çok maliyet-etkin alanlarına harcanır.\n\n Öngörüleri  geliştirmesi: Yaşam  döngüsü  maliyet  analizi  tekniklerinin kullanılmasıyla,  toplam  satın  alma,  maliyet  tahminlerinin  daha  gerçekçi olmasını sağlar ve bu da tüm seviyelerde etkin karar almayı kolaylaştırır.\n\n Değiş-tokuş maliyetlerine rağmen performansı arttırması: Satın alma kararlarında  tedarik  maliyeti,  seçeneklere  değer  biçilmesinde  gözönünde bulundurulacak  tek  faktör  değildir.  Yaşam  döngüsü  maliyet  analizinin dikkate aldığı maliyetler, değiş-tokuş yapılmış değişik satın alma seçeneklerinin özelliklerine göre yapılandırılır.\n\nBaşarılı bir yaşam  döngüsü  maliyet  analizinin  getirdiği diğer temel faydalar ise şunlardır (Aytok, 2006):\n\n Gelecekteki kaynak ihtiyacının tahmin edilmesini ve belirlenmesini sağlar.\n\n Ar-Ge ve öncelikli tasarım kararlarını etkiler.\n\n Stratejik planlamayı ve bütçelemeyi destekler.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_360e05308c:pages=59-60;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L26",
+      "page_end": 60,
+      "page_start": 59,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.2-Q33": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "5.5.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.2-Q33"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 85,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_f0069d74ac7559aeb6fb/176cfa3cb216bd4827e45491bcc48f6901a71d55cd13ce5dbd2158e93f6364de/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "d11e123f49668cd53320e4c81aaa593cb56f2aff322e12c5764a9a8750b914eb",
+      "chunk_id": "ING_f0069d74ac7559aeb6fb_CH_4bc9dc9939",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_47889ee6c0bf247d2d51cc5014e7dad889f4ac4d8bded3fec9abc94faafc16c8",
+      "claim_text": "Expected Lifecycle Duration\nAsset | Life Expectancy\n\nStandby Supplies | \n\nDiesel generators | 20 years\n\nUPS sets | 15 years\n\nBatteries | \n\n-valve regulated lead acid | 5 Years\n\n-vented nickel cadmium | 20 years\n\nLighting | \n\nLuminaires | 18 years\n\nBallasts and control gear | Ballasts and control gear\n\n- Conventional | 20 years\n\n- Electronic | 10 Years\n\nLamps | Refer to Chapter 6\n\nGuide Lighting (emergency) | 10 years\n\nControl Systems | \n\nCO, NO2 sensors | 13 years\n\nVisibility Monitors | 15 years\n\nAnemometers | 20 years\n\nPhotometers | 15 years\n\nComputer and PLC systems | 18 years (but may be obsolescent earlier).",
+      "conditions": [],
+      "document_id": "ING_f0069d74ac7559aeb6fb",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK"
+      ],
+      "locator": "ING_f0069d74ac7559aeb6fb:ING_f0069d74ac7559aeb6fb_CH_4bc9dc9939:pages=31;canonical=corpus/canonical/objects/ING_f0069d74ac7559aeb6fb/176cfa3cb216bd4827e45491bcc48f6901a71d55cd13ce5dbd2158e93f6364de/chunks/embedding_ready.jsonl#L85",
+      "page_end": 31,
+      "page_start": 31,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.2-Q34": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "5.4",
+        "5.5.1",
+        "5.4.2"
+      ],
+      "section_id": "5.5.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "5",
+      "supporting_question_ids": [
+        "5.5.2.2-Q34"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 25,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "422d2f7db9ee82dc1645915bfe78066672213576b0b9464f5b519653eb3bd297",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_d49d8773d9",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_6635da8260a9774f09dad47df3c021e1f13513df829e050845215547fe02af50",
+      "claim_text": "3.5. Yaşam Döngüsü Maliyeti (LCC) Analizi\nproses öncesi ve sonrasındaki farklılıklar ve ağırlıklı değerlendirme yöntemleri şeklindedir. Bütünlük, hassasiyet ve uygunluk kontrolü, belirsizlik analizleri ve veri kalitesi değerlendirmesinin sonuçlarıyla tamamlanabilir. Sonuç ve öneriler: Yorum aşamasının bu dördüncü basamağının amacı, LCA çalışması veya yaşam döngüsü envanter çalışmasının raporu için, sonuçlara varmak ve öneriler getirmektir. Bu basamak, LCA çalışmasını okuyan kişiler açısından gerekli ve çalışmanın raporlanmasını ve şeffaflığını geliştirme bakımından son derece önemlidir (Çokaygil, 2005).\n\n3.5. Yaşam Döngüsü Maliyeti (LCC) Analizi\n\nİşletmelerde, herhangi bir ürün ya da proses ile ilgili ayrıntılı maliyetlerin hesaplanması;  üretilecek  olan  ürünün  cinsine,  işletmenin  kapasitesine,  üretim tekniğine v.b. etkenlere göre değişiklikler göstermektedir. Bu  nedenle, her işletmede  kullanılabilecek  mevcut  bir  maliyet  sistemi  bulunmamaktadır.  Bunun yanısıra,  her  işletme;  ürünün  cinsine,  prosesin  kendi  yapısal  özelliklerine  ve ihtiyaçlarına göre maliyetler oluşturmalıdır. Ancak, herhangi bir ürün ya da proses maliyetleri  ile  ilgili  alınan  kararlarda  detaylı  bir  yapılandırmanın  söz  konusu olmadığı  görülmektedir.  Oysa  küreselleşen  dünyada  rekabetin  arttığı  göz  önüne alınırsa,  maliyet  ayrıntılarının  detaylandırılarak,  ürün  ya  da  proseslerin  yaşam döngüsünü  kapsayan  bir  maliyet  değerlendirilmesinin  son  derece  önemli  bir avantaj kazandıracağı düşünülmektedir.\n\nBir sistem veya prosesin yalnızca üretim maliyetlerini değil, sistemin ya da prosesin tüm yaşam döngüsü boyunca tüm (araştırma ve geliştirme, işletme, elden çıkarma gibi) aşamalarının neden olduğu maliyetleri değerlendiren yaşam döngüsü  maliyet yaklaşımı ile maliyetlerin kısmi değerlendirmeleri yerine, bütünsel bir şekilde ele  alınabilmesi  mümkün olabilmektedir.  Böylelikle, sistem veya  proses  ile  ilgili  farklı  seçeneklerin  maliyetler  açısından  karşılaştırılması gerçekleştirilebilecek ve tesis/işletme kaynakları daha etkin ve verimli kullanılabilecektir.\n\nYaşam  döngüsü  maliyeti  (Life  Cycle  Cost,  LCC)  kavramı,  bir  sistemin veya ürünün yaşam döngüsü boyunca; sistemin geliştirilmesi, üretilmesi, işletilmesi  ve  envanterden  çıkarılması  için  ortaya  çıkan  maliyetlerin  toplamı olarak tanımlanmaktadır (Işın, 2009).\n\nYaşam  döngüsü  maliyet  analizi  konusundaki  ilk  çalışmalara 1960'lı yıllarda Amerika Birleşik Devletleri Savunma Bakanlığı tarafından başlanmıştır. Silah  sistemlerinin  satın  alma  fiyatları  yanında,  sistemlerin  kullanımı  nedeniyle ortaya çıkan lojistik (işletim ve bakım) maliyetlerin de, rekabet eden ürünlere göre önemli  farklılıklar  gösterdiği  bu  çalışmalarda  belirlenmiştir.  Geleneksel  olarak, lojistik  maliyetleri  ihmal  eden  tedarik  usulleri  yerine,  satın  alma  kararlarında, tahmin de olsa, lojistik maliyetlerin de dikkate alınması gerektiği tespit edilmiştir (Aytok, 2006).\n\nSon  yıllarda  yaşam  döngüsü  maliyetlerinin  hesaplanılması,  mühendislik ekonomisinde  popülerlik  kazanmış  ve  1960'larda  Amerika  Birleşik  Devletleri hükümet teşkilatları tarafından donanım alımlarında maliyet etkinliklerini arttırmak amacıyla, yaşam döngüsü maliyet analizleri bir araç olarak kullanılmıştır.  Daha  sonra  yaşam  döngüsü  maliyet  hesaplamaları  iş  dünyasında yaygınlaşarak ürün geliştirme çalışmalarında ve proje geliştirmelerinde kullanılmıştır (Aytok, 2006).\n\nKonuya ilişkin paralel çalışmaların, A.B.D.'ndeki kadar kapsamlı olmasa da,  diğer  ülkelerde  de  gündeme  geldiği  ve  çalışmalar  yapıldığı  görülmektedir. İngiltere'de 'Yaşam Döngüsü Maliyetlerine Göre Tasarım' proje grubu oluşturularak, proje  yöneticilerinin maliyet ve performanslara ilişkin yapacakları analizler için, metodoloji geliştirilmeye çalışılmıştır. Halen Kanada  Ulusal Savunma  Bakanlığı,  çeşitli  iyileştirme  çalışmaları  ile  yaşam  döngüsü  maliyet modelini  ve  metodolojisini,  savunma  malzemeleri  tedarikinde  uygulamakta  ve savunma sanayi işletmelerinden, verecekleri tekliflerinde, yaşam döngüsü maliyetlerine ilişkin bilgileri de istemektedir (Aytok, 2006).",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_d49d8773d9:pages=57-59;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L25",
+      "page_end": 59,
+      "page_start": 57,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.2-Q33": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "5.5.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.2-Q33"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 159,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "d10d0f6623e5997e18a7fd674bdc6516e16936f9a757083637cb2dac3dd235f0",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_354f5b7886",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_6e1f35af48f8d5d276c1da0475931512c59d0ef0f242a8c56ebdd864b0cba8c7",
+      "claim_text": "5.4.2.3.4. ÜÇ AYLIK VEYA AYLIK BAKIMLAR\ntemizlik ve kontrolü yapılmalıdır. Bütün klimaların çalışma modu ve derece ayarı aynı değerde olmalıdır. Klimalar moduna göre ısıtma veya soğutma görevini yerine getirdiği kontrol edilmelidir. Su akıtma problemi olan klimalar için önlem alınmalıdır. Jeneratör manuel konuma alındıktan sonra dış yüzeyleri üstüpü, fırça ve kompresör ile temizlenmelidir. Jeneratör elektrik panosunun içi kompresör ile temizlenmelidir. Jeneratör odasındaki panjurların temizliği yapılmalıdır. Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır . Şekil 104. Elektrik Odası\n\n5.4.2.3.4. ÜÇ AYLIK VEYA AYLIK BAKIMLAR\n\nBu bakımlarda yapılması gerekenlerle ilgili öneriler aşağıda listelenmiştir;\n\n Kontrol Merkezinin üç aylık/aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;\n\nBütün bilgisayarların kasa ve çevre donanımlarının bakımı yapılmalıdır. Kaslar açılarak  hava  ile temizlenmeli, işlemci  fanı,  güç  kartı  fanı,  kasa  soğutma  fanları yağlanmalıdır. Disket ve CD  sürücüler hava ile özel temizleme disketleriyle temizlener ek  çalışması  kontrol edilmelidir.  Klavye  ve  Mouse  temizlenerek tuşların çalıştığı kontrol edilmelidir. Mo nitör kasası açılarak iç kısım hava ile t emizlenmelidir. (LCD monitörlerin kasası açılmayacak). PC kasası ve çevre donanımlarının  (monitör, klavye, Mouse vb.) dış yüzeyleri temizleme köpüğü ve bez ile temizlenmelidir. Kablo bağlantıları soketlere çekme yükü vermeyecek şekilde sabitlenmelidir.\n\nTünelde  kullanılan  bütün y azıcıların  genel  bakımı  yapılmalıdır. Yazıcılar parçalanarak içlerindeki toner veya mürekkep artıları bez ve hava ile temizlenmelidir. Bitik k artuşlar değiştirilmelidir. Dış yüzeyleri köpük ve bez ile silinmelidir.\n\nŞekil 105 . Tünel Kontrol Merkezi\n\nVideo  monitörlerinin  genel  bakımı  yapılmalıdır. Monitörlerin  dış  yüzeyleri köpük ve bez ile silinmelidir. Monitör kasası açılarak iç kısım hava ile temizlenmelidir. (LCD monitörlerin kasası açılmayacak).\n\nVideo kayıt cihazlarının genel bakımı  yapılmalıdır. Kayıt cihazlarının kasları açılarak  hava  ile temizlenmelidir. İşlemci  fanı,  güç  kartı  fanı,  kasa  soğutma  fanları yağlanmalıdı r. Kayıt cihazı kapasiteleri kontrol edilmeli,  k ayıt cihazlarının dış yüzeyleri köpük ve bez ile temizlenmelidir.\n\nPLC santrali hava ile temizlenmeli ve piller değiştirilmelidir. Güç kartı fanları teker teker sökülerek temizlenip yağlanmalıdır. Yedek CPU devreye alınarak çalıştığı kontrol edilmelidir. Dolap metal yüzeyleri köpük ve bez ile silinmelidir.\n\nKamera  santrali  hava  ile  temizlenmelidir. Dolap  soğutma  fanları  sökülerek temizlenip yağlanmalıdır. Dolap  metal  yüzeyleri  köpük  ve  bez  ile  silinmelidir.\n\nŞekil 106 .Kamera Kayıt ve Olay Algılama Merkezi\n\nKablolar soketlere çekme yükü vermeyecek şekilde sabitlenmelidir. Kabloların etiketli olması sağlanmalıdır.\n\nOda yükseltilmiş zeminleri kaldırılarak elektrik süpürgesi ile temizliği y apılmalıdır. Zemin  altındaki  kabloları  düzgün  bir  hattan  geçmesi  sağlanmalıdır. Zemine ve oda köşelerine fare, haşere zehri konmalıdır.\n\nTelefon  santrali  ve  telefon  cihazları  bakımı  yapılmalıdır. Santral  dolabının kapağı açılarak içi hava ile temizlenmelidir. Dolap metal yüzeyleri köpük ve bez ile silinmelidir. Telefon cihazları köpük ve alkol ile temizlenmelidir.\n\nDiğer  odalardaki b ilgisayarlara  ve  çevre  donanımlarına  benzer  şekilde  bakım yapılmalıdır.\n\nÇatıdaki  antenlerin  fiziki  durumları  kontrol edilmelidir . Çatı antenlerinin fırtınalı havalara dayanacak şekilde sağlam montajlı olması sağlanmalıdır.\n\nGörülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.\n\n Elektrik pano ve odalarının üç aylık/aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;\n\nBu  çalış malar  mühendis  denetiminde yapılmalıdır. Elektrik  odasında  orta gerilim tamamen kesilmelidir. B unun için bir önceki ve bir sonraki elektrik odasından O.G kesicileri devre dışı yapılıp kesici baradan ayrılmalıdır.\n\nElektrik  odası  ve  KGK ayl ık  bakımları  yapılmalı, KGK  by-pass  konumuna alınıp fanları ve kartlarının bakımı yapılmalıdır.\n\nAkü  güç  seviyelerinin  %25'e  kadar  düşmesi  sağlanmalıdır. Akü  gücünün %25'e düşmesi ile aydınlatma 1.kademesinin devreden çıktığı ve SCADA bilgisayarına akü düşük gerilim sinyalinin gittiği kontrol edilmelidir.\n\nTrafoların  enerjisi  kesilip  gerekli  emniyet  tedbirleri  alındıktan  sonra  kuru trafolar bez ile temizlenmeli ve trafoda fiziki bir sorun olamadığı kontrol edilmelidir.\n\nYağlı  trafoların  yağ  seviyesi,  yağ  sızıntısı  ve  nem  alıcıları  kontrol  edilip koruma sistemlerinden ihbar üreterek sistemin çalıştığı kontrol edilmelidir.\n\nOrta  gerilim  panolarında  gerekli  emniyet  tedbirleri  alındıktan  sonra  kesiciler yerlerinden  çıkarılıp  meger  ile  yalıtım  kontrolü  yapılmalıdır. A kım  trafosu,  gerilim trafosu ve izolatörlerin tozları alına r ak hareketli kontakların uygun yağ ile yağlanması sağlanmalıdır. Kablo başlıklarında ve diğer ekipmanlarda fiziki bir bozulma olmadığı kontrol edilmelidir.\n\nYükseltilmiş zemin kontrol edilmelidir .\n\nHat sonu ayırıcı kontakları temizlenip hareketli aksamlar yağlanmalıdır.\n\nTrafoların işletme ve koruma topraklama direnç değerleri ölçülmelidir.\n\nParatoner tesisatı topraklama direnç değerleri ölçülmelidir.\n\nNot: Trafo odalarına enerji kesilmeden kesinlikle girilmemelidir. Enerji kesme ve devreye alma işlemi mühendis kontrolünde yapılmalıdır.\n\nGörülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.\n\nŞekil 107 .Enerji Dağıtım Binaları\n\n VMS  ve  grafik  panoların üç  aylık / aylık bakımlarında  aşağıdaki  hususlara  dikkat edilmelidir;\n\nAylık bakımlar yapılmalıdır.\n\nVMS'lerde  fiziki bir hasar olup olmadığı  kontrol edilmelidir. İzolâsyon bozulmaları  tamir edilmelidir. Ana  kontrol  kart  dolabı  kilidinin  sağlıklı  çalışması sağlanmalıdı r.\n\nKartlarının  bulunduğu  bölümler  açılarak  LED'ler,  fanlar,  ısıtıcılar  kontrol edilecek ve cihazların dış yüzeyi kompresör ile temizlenmelidir.\n\nDış  yüzeydeki  kablolar  sarkmayacak  şekilde sabitlenmelidir.  Modül  içindeki veri ve güç kabloları soketlere yük vermeyecek şekilde sabitlenmelidir.\n\nModül kartları etiketlenmelidir.\n\nBütün  soketler kontrol edilecek sağlamlaştırılmalı ve izopropil alkol ile yıkanmalıdır.\n\nDış camlı yüzey LED gösterge yüzeyi su ile yıkanmalıdır.\n\nKilit ve menteşe gibi hareketli parçaların yağlanması yapılmalıdır.\n\nTaşıyıcı konsolun ve cihazın boya gerektiren yerler boyanmalıdır.\n\nGörülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.\n\nŞekil 108 .VMS Bakımı\n\n Trafik Kontrol Sistemlerinin üç aylık/aylık b akımlarında aşağıdaki hususlara dikkat edilmelidir;\n\nHız ve yön matrislerinin aylık bakımları yapılmalıdır.",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_354f5b7886:pages=387-392;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L159",
+      "page_end": 392,
+      "page_start": 387,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.2-Q35": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5.2.2-Q35"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 326,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "9968e4e0f3c3d5062f06ab1be6931c7360a15218d309231bd45d7af8ba58eb05",
+      "chunk_id": "ING_1fb6b71a35f819248daf_CH_b4af004c4f",
+      "chunk_type": "TABLE_CHUNK",
+      "claim_id": "CLM_9620d218771a05562d756542e95e125ef8fe1b5d759f80a5ccb56a187c8dfdd0",
+      "claim_text": "TEŞEKKÜR > 3000 METREDEN UZUN TÜNELLER > 266 SİSTEMLERİN KULLANIM ÖMÜRLERİ\nTeknik Ekipman Yaşam Süresi |  |  | 25 |  |  | \n\nl.SCADA |  | 10,7 |  |  |  | \n\nSistemleri |  |  |  |  |  | \n\n2.Aydınlatma |  | 11,2 |  |  |  | \n\n3.Güvenlik |  | 14,8 |  |  |  | \n\nEkiomanları |  |  |  |  |  | \n\n4.İşaretleme |  | 14,1 |  |  |  | \n\n5.Havalandırma |  | 18,2 |  |  |  | \n\nö.Enerji |  | 2C | ,1 |  |  | \n\nSağlama |  |  |  |  |  | \n\n7.Kablolama |  |  | 25,7 |  |  | \n\n |  | i\tİ\n\n\n\n10 yıl\t15 yıl\t20 | i\tİ\n\n\n\n10 yıl\t15 yıl\t20 | i\tİ\n\n\n\n10 yıl\t15 yıl\t20 | yıl\t25 | yi",
+      "conditions": [],
+      "document_id": "ING_1fb6b71a35f819248daf",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "SOURCE_CHUNK_TYPE_TABLE_CHUNK"
+      ],
+      "locator": "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_b4af004c4f:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L326",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.2-Q34": "SUPPORTED"
+      },
+      "secondary_section_ids": [
+        "5",
+        "5.4"
+      ],
+      "section_id": "5.5.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4.2",
+      "supporting_question_ids": [
+        "5.5.2.2-Q34"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 28,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "8c559dd352323c1c7a1f7e6752d772001575ca9c66909c172be9d696c3cad8a1",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_9af919729e",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_9b3359b684af37b903471f70e975e82bac24d64b277ebd86e50694d177bd8f97",
+      "claim_text": "3.5.4. LCC Analiz Prosedürü\n Alternatif yönetim usulleri ve bunların sistem üzerindeki etkilerinin incelenmesi. Yaşam döngüsü maliyet analizi farklı ulaşım seçenekleri (otomobil, uçak, raylı sistemler), bilgisayarlar, ağır endüstri ekipmanları ve askeri sistemlerde kullanıldığı gibi bunların yanında oluşturulacak modelin kapsamına göre de değişik uygulamalara sahiptir (GB, 2004). Bu uygulamalardan bazıları Şekil 3.3' te gösterilmiştir. Şekil 3.3. Yaşam döngüsü maliyet analizi uygulamaları (Aytok, 2006).\n\n3.5.4. LCC Analiz Prosedürü\n\nYaşam döngüsü maliyet analizinin prosedürü, bir ürünün/prosesin kavram olarak ortaya çıkması ile başlayıp, ürünün/prosesin üretilmesi, işletilmesi ve elden çıkarılmaya  kadar  olan  tüm  aşamalarında  harcanan  kaynakların  toplam  maliyeti olarak tanımlanmış olup LCC analiz prosedürü Şekil 3.4'te verilmiştir (Woodward, 1997).\n\nŞekil 3.4. Yaşam döngüsü maliyet prosedürü\n\n Maliyet bileşenlerinin tanımlanması, ürün/prosesin tüm yaşamı boyunca gerçekleşen nakit akışlarıdır. Bundan dolayı, maliyet unsurları tanımlanırken, faizin de mutlaka belirlenmesi gerekmektedir. Bu nedenle, yaşam döngüsü maliyet analizinde, ürün/prosesin elde edilmesinden, elden çıkarılmasına  kadarki  tüm  aşamalarındaki  maliyetler  düşünülmeli  ve  net bir şekilde ifade edilmelidir. Maliyet bileşenlerinin tanımlanması öncelikle, maliyet  gruplarının  oluşturulmasını  içerir.  Böylece,  maliyete neden olan ve potansiyel bileşenler ortaya konulabilir (Woodward, 1997). Woodward ( 1997)  tarafından  yapılan  çalışmada,  yaşam  döngüsü  maliyet bileşenleri,  araştırma-geliştirme  maliyetleri,  üretim-uygulama  maliyetleri ve  işletme  maliyetleri  olmak  üzere  üç  grupta  incelenmiş  ve  Şekil  3.5'te buna  bir  örnek  verilmiştir.  Yaşam  döngüsü  maliyet  bileşenleri  3  gruba ayrılsa da maliyet gruplandırılmasında son olarak her bir bileşenin ayrıntılı maliyetleri de gözönüne alınmalıdır.\n\nŞekil 3.5. Yaşam döngüsü maliyetinin bileşenlerinin gruplandırılması (Woodward, 1997)\n\n LCC formülasyon modelinin oluşturulmasında, yaşam döngüsü maliyetinin değerlendirilebileceği en uygun modelin seçilmesi gereklidir . Bu durum Woodward (1997) tarafından önerilen sekiz aşamalı bir zaman testi ile anlaşılabilir:\n\no İşletme profilinin oluşturulması\n\no Kullanım faktörlerinin oluşturulması\n\no Tüm maliyet unsurlarının belirlenmesi\n\no Kritik maliyet parametrelerinin belirlenmesi\n\no Güncel fiyatlarla tüm maliyetlerin hesaplanması\n\no Kabul edilen enflasyon oranının dahil edilmesi\n\no Dönem bazlı maliyetlere yapılan iskontoların hesaplanması\n\no Toplam yapılan iskontoların net bugünkü değere göre düşünülmesi\n\nAsiedu ve Gu ( 1998) ise yaptıkları çalışmada, yaşam döngüsü maliyetini şirket/üretici maliyeti, kullanıcı maliyeti (içsel) ve toplumsal (dışsal) maliyetlerden oluştuğunu belirtmişlerdir.\n\nÇizelge 3.4. Yaşam döngüsü analizinin aşamaları ve maliyetlerle ilişkilendirilmesi   (Aseidi ve Gu, 1998)\n\nŞirket olarak, bir ürünü meydana getirmek, pazarlamak, üretmek, üretilen bu ürünü dağıtmak, işletmek ve ürünü elden çıkarmak için kullanılan kaynaklara ödemelerin  yapılması  gerekmektedir.  Bu  durumda,  maliyet  bileşenleri  Şekil 3.6'da olduğu gibi kategorilere ayrılarak Maliyet Dağılım Yapısı (Cost Breakdown  Structures,  CBS)  oluşturulmalıdır.  Şekil  3.6'da  gösterilen  Maliyet Dağılım Yapısı bir ürün ya da bir sistem için yapılabilecek en kapsamlı maliyet gruplandırması olarak bilinmektedir. Ürün  tasarımı/satın alma veya üretim aşamalarındaki  maliyetlerin  gruplandırılması,  bir  modele  bağlıdır.  Bu  modelin oluşturulmasında gerekli olan veriler maliyet modelinin yapısına uygun seçilmelidir (Aseidu ve Gun, 1998).\n\nŞekil 3.6. Maliyet dağılım yapısı",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_9af919729e:pages=62-66;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L28",
+      "page_end": 66,
+      "page_start": 62,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.2-Q33": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "5.5.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.2-Q33"
+      ]
+    },
+    {
+      "authority_class": "EXTERNAL_DISCOVERY:FULL_TEXT",
+      "canonical_line_number": 40,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "6dcc89d829208531595b264b679fc00e2cf802e2bb6517442ddbfbf41c46adba",
+      "chunk_id": "ING_339e05e3358e01b537d8_CH_59f490b687",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_b736d5275cf5ca74565e3cba4b84e48b8d62821a3d643f1241ed2f452f10199f",
+      "claim_text": "5.3.1. Hedef ve kapsam tanımı\nUygulaması Yaşam döngüsü maliyeti (Life Cycle Cost, LCC) kavramı, bir sistemin veya ürünün yaşam döngüsü boyunca; sistemin geliştirilmesi, üretilmesi, işletilmesi ve envanterden çıkarılması için ortaya çıkan maliyetlerin toplamı olarak tanımlanmaktadır. Bu tez çalışmasında, demiryolu ulaşım sisteminin ekonomik açıdan değerlendirilmesi IEC 60300-3-3 standardına göre, hedef ve kapsam tanımı, maliyet bileşenlerinin belirlenmesi, maliyet verilerinin toplanması, uygun bir LCC modelinin oluşturulması, sonuçların yorumlanması olmak üzere beş adımda gerçekleştirilmiştir.\n\n5.3.1. Hedef ve kapsam tanımı\n\nBu  bölümde,  demiryolu  ulaşım  sisteminin  yaşam  döngüsü  yaklaşımıyla ekonomik  açıdan  değerlendirilmesi  hedeflenmiştir.  Önce,  demiryolu  ulaşımının sistem sınırları ve fonksiyonel birimi belirlenmiştir. Sistem sınırları:\n\n Demiryolu altyapı sistemi için;\n\n Hattın yapımı\n\n Hattın bakım onarımı ve işletilmesi\n\n Hattın bertarafı\n\n Demiryolu işletme sistemi için;\n\n Tren araçlarının üretimi\n\n Tren araçlarının işletilmesi\n\n Tren araçlarının bakım onarımı\n\n Tren araçlarının bertarafı\n\nşeklinde olup, her bir bileşen için maliyet bileşenleri detaylı olarak belirlenmiştir.\n\n5.3.2. Maliyet bileşenlerinin belirlenmesi\n\nDemiryolu ulaşım sisteminin maliyet bileşenleri, içsel maliyetler ve dışsal maliyetler  olmak  üzere  iki  bölümde  incelmiştir. İçsel  maliyetler ,  demiryolu ulaşım  sistemi  bileşenleri  olan  demiryolu  altyapı  (demiryolu  hatlarının  yapım, bakım onarım vb.) ve demiryolu işletme (tren araçlarının üretim, tren araçlarının bakım onarım, enerji tüketimi ve elden çıkarma) maliyetleridir. Dışsal maliyetler , yaşam  döngüsü  analizi  sonucu  incelenen  etki  kategorilerinin  (asidifikasyon, ötrofikasyon,  küresel  ısınma,  toksik  etki  gibi)  etki  yüzdesinin  yüksek  olmasına neden olan kirleticilerdir. Yaşam döngüsü maliyet bileşenlerinin sınıflandırılması Çizelge 5.2'de verilmiştir.\n\nÇizelge 5.2. LCC maliyet bileşenlerinin sınıflandırılması\n\n5.3.3. Maliyet verilerine ait envanterin oluşturulması\n\nBu bölümde, 'Demiryolu Altyapı Sistemi' ve 'Demiryolu İşletme Sistemi'nin'  bileşenlerinin  oluşturulmasında,  kullanılan  malzeme  ve  enerji  ile ilgili sayısal ve maliyet verilerinin toplanması amacıyla, Türkiye'de YHT ve KD hattı ile ilgili yapılmış inşaat projeleri ve teknik analiz raporları, LCC çalışmaları ile  ilgili  literatür  bilgileri  ve  veri  tabanları  detaylı  bir  şekilde  incelenmiştir. Ayrıca,  yaşam  döngüsü  maliyet  envanteri  oluşturulurken,  her  bir  bileşen  için gerekli  hesaplamalar  fonksiyonel birim bazında yapılmıştır. İçsel ve dışsal maliyetlere  ait  alt  bileşen  maliyetleri  ile  ilgili  yaşam  döngüsü  maliyet  envanteri EK-3'te verilmiştir.",
+      "conditions": [],
+      "document_id": "ING_339e05e3358e01b537d8",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_339e05e3358e01b537d8:ING_339e05e3358e01b537d8_CH_59f490b687:pages=88-89;canonical=corpus/canonical/objects/ING_339e05e3358e01b537d8/bb56d8dc04e5e635ab9966bd6eb5a0b1b94c2d7c6bf309355fd3241d28bcd928/chunks/embedding_ready.jsonl#L40",
+      "page_end": 89,
+      "page_start": 88,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.2-Q33": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "4"
+      ],
+      "section_id": "5.5.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "source_section_id": "4.3.5",
+      "supporting_question_ids": [
+        "5.5.2.2-Q33"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 165,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "9c87134da96fae2d4e3f986114c8f8370d3fdb5fdfeb2132bcc6e3c69b0171ff",
+      "chunk_id": "ING_746d18498e07a8a0f397_CH_4027103235",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_c5ed4199e409f4a2767c1f4cb14a38ced554d4188a0e25ac2b875162b48542e4",
+      "claim_text": "5.5.3. SİSTEMLERİN KULLANIM ÖMÜRLERİ\nv.b. etkiler de hesaba katılarak optimum fayda sağlayacak ürünler seçilmelidir.  Çevresel faktörler ve iklim göz önüne alınarak bakım masraflarını azaltacak bazı kurallar alınabilir. Örneğin bazı bölgelerde çetin kış koşulları olduğunda çivili, zincirli lastikler kullanılır ve bunların tünel içinde asfalta ciddi zararı olmaktadır. Bunların tünel içerisinde kullanımı yasaklanarak asfalt bakım maliyetler i azaltılabilir.  Dizayn aşamasında tünelin her noktasına erişimin kolay olması sağlanmalıdır. Tünel köşelerinde toz birikmesini engelleyecek tasarımlar yapılmalıdır.\n\n5.5.3. SİSTEMLERİN KULLANIM ÖMÜRLERİ\n\nAşağıdaki tablolarda tünellerde kullanılan 26 değişik sistem üzerine 10 farklı ülkenin uzmanlarından (Avusturya, Belçika, Finlandiya, Fransa, Japonya, İspanya, İsveç, İsviçre, UK, USA) alınan görüşler neticesinde oluşturulan tablo görülmektedir.\n\nSonuçlar  karşılaştırıldığında  ekipman  kullanım  ömürleri ile  ilgili  ülkeden  ülkeye değişen bazı farklılıklar görülmektedir. Elektronik sistemler (SCADA izleme ekipmanı gibi) sınırlı  bir  ömre  sahiptir.  Mekanik  ve  enerji  kablo  sistemleri  20  yılı  aşan  sürelerde  ömre sahiptir.  Aydınlatma  ekipmanları  beklenmedik  şekilde  düşük  kullanım  ömrüne  s ahiptir. Bunda en büyük etken tünel meteorolojik koşullarının malzemeleri beklenen değerden daha hızlı  yıpratmasıdır.  Güvenlik  ve  işaretleme  ekipmanları  ortalama  ömre  sahip  olup  bu  süre yaklaşık 15 yıldır.\n\nYıllık  maliyetler  hesaplanırken  ilk  yatırım  maliyeti  ve  ortalama  yaşam  ömrü  temel alınarak istatistiki veriler kullanılır. Aşağıda 3 farklı ülkeden 3 farklı tip tünel üzerine yıllık yenileme maliyetleriyle ilgili araştırma sonuçları yer almaktadır.\n\nOrtalama maliyetler  ve  bekl enen bakım maliyetleri  (servis  durumu  ve  akan  trafikte) için  farklı  yenileme  stratejileri  mevcuttur.  3  örnek  üzerinde  yapılan  çalışmalarda  2  farklı strateji üzerinde durulmuştur.\n\n Bozukluklardan kaynaklanan yenileme çalışmaları\n\n Servis bilgilerine dayalı yenileme çalışmaları\n\nİleriki  yıllara  dönük  olarak  faiz  oranları  da  hesaplanarak  karşılaştırma  yapıldığında ikinci  durumun  daha  ekonomik  olduğu  sonucuna  varılmıştır.  Avusturya'nın  RVS  13.03.41 ulusal bakım kılavuzu örneğinde olduğu gibi, ülkeler koruyucu b akım düzenlemeleri yaparak servis ömürlerini kullanmaya dayalı çalışmalara odaklanmalıdır.\n\nŞekil 118 . Ekipmanların Ortalama Kullanım Süreleri\n\nŞekil 119. Tünel Sistemleri ve Bileşenlerinin Ortalama Ömürleri\n\nŞek il 120 . İsviçre Tünellerinde Yıllık Yenileme Maliyetleri (Tek tüp;2 km)\n\nŞekil 121 . Avusturya Tünellerinde Yıllık Yenileme Maliyetleri (Çift tüp; 2,7 km)\n\nŞekil 122.USA Tünellerinde Yıllık Yenileme Maliyetleri (Çift Tüp; 3,2 km)\n\nŞekil 123 .Üç Farklı Ülkenin Yenileme Maliyetlerinin Karşılaştırılması",
+      "conditions": [],
+      "document_id": "ING_746d18498e07a8a0f397",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "SUPPORTED",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_4027103235:pages=408-411;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L165",
+      "page_end": 411,
+      "page_start": 408,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.2-Q34": "SUPPORTED",
+        "5.5.2.2-Q35": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5.9.1"
+      ],
+      "section_id": "5.5.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4",
+      "supporting_question_ids": [
+        "5.5.2.2-Q34",
+        "5.5.2.2-Q35"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 141,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "6ddc18ad540217c1593dfe1e69d12e31c0014f586786379066b0b4698e68d5bf",
+      "chunk_id": "ING_1fb6b71a35f819248daf_CH_3e85fad643",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_e25fc1a685fbf86e97d95cadd90c022ae84d3c2f5e25989890bebcb58b8c28f0",
+      "claim_text": "TEŞEKKÜR > 3000 METREDEN UZUN TÜNELLER > 244 BAKIM YÖNETİM SİSTEMİ\nSistemin tümünü ya da bir kısmını yenilemek aşırı maliyetli olabilir. Bu sebeple ihtiyatlı bir yenileme planı yapmak gerekmektedir. Bu planlarda tahminler mümkün olduğunca net olmalıdır. Farklı ekipmanların kullanım ömrünü bilmeden yenileme planı yapmak mümkün değildir. Tünel içinde ve dışında farklı üreticilerin ürettiği çok sayıda cihaz mevcuttur. Birkaç yılda teknolojik değişimler nedeniyle havalandırma, güç sağlayıcı sistemleri, kamera sistemleri v.b. teknolojileri değişebilmektedir. Bu sebeple gelişen teknolojilerin yakından takip edilmesi gerekmektedir.\n\n244 BAKIM YÖNETİM SİSTEMİ\n\nTünel İşletme Yöneticisi koruyucu ve düzeltici bakım faaliyetleri için uygun bakım programlarını hazırlamalıdır. Bu programlar hazırlanırken akıldan çıkarılmaması gereken maliyet ve güvenlikte dengeyi kurmaktır. Her bir ekipmanın ortalama kullanım ömrü, yıllık maliyeti, ilk yatırım maliyeti, beklenen bakım giderleri, servis giderleri, trafik maliyetleri ve ilgili müdahale maliyetleri istatistiki olarak tutulmalıdır. Maliyetler düşünülerek gerekirse alternatif bakım programları hazırlanmalıdır.\n\nPersoneller özellikle planlanmamış müdahaleler gerektiren durumların yüksek potansiyeli olduğunu bilerek zaman, personel ve malzeme eksikliği gibi sorunlar yaşamamak için önceden önlemini almalıdır. Çünkü ekipman eksikliği ve oluşacak herhangi bir aksaklık tüm sistemi etkileyebilir ve müdahale süresine bağlı olarak onarımı uzun sürebilir.\n\nBakım yönetiminin kapsamı;\n\nS\n\nÇalışma ve müdahalelerin planlanması,\n\nS\n\nGöstergelerin takibi,\n\nS\n\nMasrafların yönetimi,\n\nS\n\nGeçici bütçe düzenlenmesi,\n\nS\n\nAlt yüklenicinin yönetilmesi,\n\nS\n\nBakım personellerinin eğitimi ve yönetilmesi olarak sayılabilir.\n\nKoruyucu ve düzeltici bakım faaliyetleri için hazırlanan programlarda aşağıdaki hususlara dikkat etmek gerekir;\n\nS\n\nMüdahale süresi belirlenmeli,\n\nS\n\nGerekli personel sayısı belirlenmeli,\n\nS\n\nDışarıdan gerekecek personel sayısı belirlenmeli (alt yüklenici, polis, itfaiye personelleri v.b.)\n\nS\n\nErişim planı yapılmalı,\n\nS\n\nMuayene için talimatlar hazır olmalı,\n\nS\n\nÖnlem amaçlı trafik levhaları hazır olmalı, tüm trafik düzeni düşünülmeli (Bakımlarda tüm güzergâhın bakımını tek seferde yapmak önemlidir.),\n\nS Anemometre, luminansmetre, lüksmetre, voltmetre v.b. ölçüm cihazları hazır olmalı,\n\nS Pick-up, sepetli vinç, vakumlu süpürge v.b. araçla müdahale gerektirecek sistemler\n\niçin bu araçlar hazır tutulmalı,\n\nS Çizimler, diyagramlar, performanslar v.b. hazırlanmalı, formlara işlenmeli, önceki sonuçlarla karşılaştırılmalı ve bir sonraki müdahale planları yapılmalıdır.",
+      "conditions": [],
+      "document_id": "ING_1fb6b71a35f819248daf",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_3e85fad643:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L141",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.2-Q35": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5",
+        "5.4"
+      ],
+      "section_id": "5.5.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4.2",
+      "supporting_question_ids": [
+        "5.5.2.2-Q35"
+      ]
+    },
+    {
+      "authority_class": "MANUAL_INTERNAL:FULL_TEXT",
+      "canonical_line_number": 155,
+      "canonical_retrieval_path": "corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl",
+      "canonical_text_sha256": "447afafb7d3736eb67dca93dc656ab105974ca0a03b912f0525b05d869f7e019",
+      "chunk_id": "ING_1fb6b71a35f819248daf_CH_6332bc740c",
+      "chunk_type": "TEXT_CHUNK",
+      "claim_id": "CLM_fc1ae483ffc1c3a0c4aaece0f8d3f1162527d028b5540fa790e2350288ffeb73",
+      "claim_text": "TEŞEKKÜR > 3000 METREDEN UZUN TÜNELLER > 261 ÜÇ AYLIK VEYA AYLIK BAKIMLAR\nedilmelidir. Hat sonu ayırıcı kontakları temizlenip hareketli aksamlar yağlanmalıdır. Trafoların işletme ve koruma topraklama direnç değerleri ölçülmelidir. Paratoner tesisatı topraklama direnç değerleri ölçülmelidir. Not: Trafo odalarına enerji kesilmeden kesinlikle girilmemelidir. Enerji kesme ve devreye alma işlemi mühendis kontrolünde yapılmalıdır. Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır. Şekil 107.Enerji Dağıtım Binaları S VMS ve grafik panoların üç aylık/aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir; Aylık bakımlar yapılmalıdır.\n\nVMS'lerde fiziki bir hasar olup olmadığı kontrol edilmelidir. İzolâsyon bozulmaları tamir edilmelidir. Ana kontrol kart dolabı kilidinin sağlıklı çalışması sağlanmalıdır.\n\nKartlarının bulunduğu bölümler açılarak LED'ler, fanlar, ısıtıcılar kontrol edilecek ve cihazların dış yüzeyi kompresör ile temizlenmelidir.\n\nDış yüzeydeki kablolar sarkmayacak şekilde sabitlenmelidir. Modül içindeki veri ve güç kabloları soketlere yük vermeyecek şekilde sabitlenmelidir.\n\nModül kartları etiketlenmelidir.\n\nBütün soketler kontrol edilecek sağlamlaştırılmalı ve izopropil alkol ile yıkanmalıdır.\n\nDış camlı yüzey LED gösterge yüzeyi su ile yıkanmalıdır.\n\nKilit ve menteşe gibi hareketli parçaların yağlanması yapılmalıdır.\n\nTaşıyıcı konsolun ve cihazın boya gerektiren yerler boyanmalıdır.\n\nGörülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.\n\nŞekil 108.VMS Bakımı\n\nS\n\nTrafik Kontrol Sistemlerinin\n\nüç aylık/aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;\n\nHız ve yön matrislerinin aylık bakımları yapılmalıdır.\n\nKartlarının bulunduğu bölümler açılarak LED'ler, fanlar, ısıtıcılar kontrol edilecek cihazların iç ve dış yüzeyi kompresör ile temizlenmelidir.\n\nBütün soketler kontrol edilecek sağlamlaştırılmalı ve izopropil alkol ile yıkanmalıdır.\n\nPanoların LED gösterge yüzeyi su ile yıkanmalıdır.\n\nKilit ve menteşe gibi hareketli parçaların yağlanmalıdır.\n\nTaşıyıcı konsolun ve cihazın boya gerektiren yerlerin boyanmalıdır.\n\nGörülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.\n\nŞekil 109.VTS Bakımı\n\nS\n\nS.O.S. Telefonları\n\nüç aylık/aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;\n\nAylık bakım yapılmalıdır.\n\nTelefon Santrali bilgisayarından gelen çağrılara ilişkin bilgiler kontrol edilmelidir.\n\nKontrol odasından S.O.S. cihazı dâhili telefon gibi aranıp görüşme sağlanmalıdır.\n\nSCADA'dan gelen çağrının görüldüğü kontrol edilmelidir.\n\nAlarm çakar motor kayışları kontrol edilmeli gerekiyorsa değiştirilmelidir.\n\nAlarm çakar dış kabı yıkanmalıdır.\n\nKapı contalarında ezilme veya yırtılma var ise değiştirilmelidir.\n\nPano aydınlatma floresan lambaların soketleri gerekiyor ise değiştirilmelidir.\n\nS.O.S. ışıklı panosunun içi açılarak lambaların ve iç yüzeyin temizliği yapılmalıdır.\n\nGörülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.\n\nŞekil 110.SOS Odası ve SCADA Görüntüsü\n\nS\n\nAydınlatma Sistemleri\n\nüç aylık/aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;\n\nAylık bakım yapılmalıdır.\n\nTünel içindeki armatürlerin önce dış yüzeyleri kompresör ve kuru bez ile temizlenmeli daha sonra camın iç ve dış yüzeyi alkolü suya daldırılmış bez ile\n\nsilinmelidir. Sonra cam kuru temiz bez ile silinmelidir. Reflektörler sadece hava ile temizlenmeli bez kullanılmamalıdır (Armatür temizliği sırasında tavalarda bulunan anons hoparlörlerinin temizliği de yapılmalıdır). Ayrıca Tünel temizliği ve yıkanması sırasında tünel armatürlerin basınçlı hava ile temizlenip deterjanlı ve alkollü bez ile silinip kurulanmalıdır.\n\nArmatür içindeki kablo klemens bağlantılarının düzgün olması sağlanıp armatürün içindeki kondansatörün sağlamlığı test edilmelidir.\n\nArmatür kablo girişinde ve contalarda yalıtım bozulması varsa conta ve silikon kullanılarak giderilmelidir.\n\nBinalarda kullanılan armatürlerin içi açılarak temizlenmelidir. Ampullerin bakım kontrol ve temizliği yapılmalıdır.\n\n- Çevre aydınlatma direklerinin sigorta yuvası kapaklarının kapalı olması sağlanmalıdır.\n\n- Görülen sorunlar giderilmeli ve ilgili bakım formlarına doldurulmalıdır.\n\nŞekil 111.Yol Aydınlatma Bakımı\n\nS\n\nJet fanların\n\nüç aylık/aylık bakımlarında aşağıdaki hususlara dikkat edilmelidir;\n\nAylık bakım yapılmalıdır.\n\nJet fanlar birer birer devreye alınıp hava basınç yönlerinin doğruluğu fiziksel\n\nolarak kontrol edilmelidir.\n\nYukarıdaki işlem fan trafik yönünün tersinde (sola dönüş) çalıştırılarak aynı işlemler tekrar edilmelidir.\n\nFanların elektrik bağlantıları kesilip gerekli tedbirler alındıktan sonra uygun araç ve gereç ile pervanenin hava akımı ile kendiliğinden dönüşünü engellemek için hava giriş yönü kapatılmalıdır.\n\nTünel tavanındaki bağlantı panoları açılıp temizlendikten sonra izolasyonu bant ve conta ile sağlamlaştırılmalıdır.\n\nFan motorunda fiziksel bir hasar olup olmadığı, pervanelerin sağlam olup olmadığı ve düzgün dönüp dönmediği el ile döndürülerek kontrol edilmelidir.\n\nJet fanların tünel tavanına olan fiziki bağlantısının sağlam olduğu kontrol edilmelidir.\n\nElektik odalarındaki jet fan kondansatör akımları ölçülerek kondansatörlerin sağlam olduğu ölçülmelidir.\n\nTahliye uskurunun gözle muayene edilmesi tahliye uskurunun dengesini bozup vibrasyon seviyelerini yükseltebileceği için, toz birikmesi temizlenmelidir. Zarar görmüşse, tahliye uskuru değiştirilmelidir.\n\nKanatlarla fanın kasası arasındaki aralık açıklığının doğrulanması yapılmalıdır. Aralık açıklığı 2 mm'nin altında olamaz ve eğer altındaysa, o zaman, fan sökülmeli ve tahliye uskuru merkezlenmelidir. Herhangi bir kanat eğer kasaya değiyorsa, o fan durdurulmalı ve muayene için derhal sökülmelidir. Kanat açısı da kontrol edilmelidir ve bunun tüm kanatlarda aynı olması gereklidir. Herhangi bir kanadın açısı eğer farklıysa, o zaman, tahliye uskuru sökülmeli ve kontrol edilmelidir.\n\nElektrik motorunun durumunun kontrol edilmeli, satıhtaki toz birikintisini temizlenmelidir.\n\nElektrik değerlerinin doğrulanmalıdır (güç, gerilim, akım).\n\nMotorla fan kasası arasındaki bağlantının sıkma torku doğrulanmalıdır.\n\nŞekil 112.Jet Fan Bakımı\n\nMotorun kasasıyla motorun ayakları arasındaki sıkma torku doğrulanmalıdır.\n\nMotor yatakları, motor imalatçısının talimatları doğrultusunda yeniden yağlanmalı veya değiştirilmelidir.\n\nFanın satıhlarının temizlenmelidir. Bu iş, temiz kullanma suyuyla yapılabilir. Susturucuların içinin temizlenmesinde tazyikli su kullanılamaz, çünkü bu, madeni yünü bozabilir ve bu da, ses zayıflatmasını azaltabilir. Paslanmaz çelikten satıhların korozyondan dolayı kirlenmiş olması halinde (karbon çelik kısımlardan), malzemenin özelliklerini yeniden geri kazanmak için, bunun tekrar dekupaj yapılması ve\n\noksitlenmesi gerekir (Gerekiyorsa, bu konuyla ilgili olarak yerel uzmanlarla temasa geçilecektir.).",
+      "conditions": [],
+      "document_id": "ING_1fb6b71a35f819248daf",
+      "evidence_level": "FULL_TEXT",
+      "evidence_strength": "PARTIAL",
+      "limitations": [
+        "VERBATIM_CANONICAL_PASSAGE_NOT_A_LICENSE_TO_GENERALIZE",
+        "PARTIAL_FOR_ONE_OR_MORE_LINKED_QUESTIONS"
+      ],
+      "locator": "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_6332bc740c:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L155",
+      "page_end": null,
+      "page_start": null,
+      "provenance_status": "VERIFIED_CANONICAL",
+      "qualifiers": [],
+      "question_evidence_states": {
+        "5.5.2.2-Q35": "PARTIAL"
+      },
+      "secondary_section_ids": [
+        "5",
+        "5.4"
+      ],
+      "section_id": "5.5.2.2",
+      "sheet_name": null,
+      "slide_number": null,
+      "source_kind": "MANUAL_INTERNAL",
+      "source_section_id": "5.4.2",
+      "supporting_question_ids": [
+        "5.5.2.2-Q35"
+      ]
+    }
+  ],
+  "contract_version": "section-preparation-v1",
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "registry_id": "SCR_7d36011a6bf2d48deb50b8aadf15d8348964912d8df5c225b0abbb84edc3ad78",
+  "schema_version": "1.0",
+  "section_id": "5.5.2.2",
+  "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri"
+}

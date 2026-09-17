@@ -1,0 +1,683 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_7e4affdfa67a24f0e348e58dd3403db19aced5c32dd19005df51044701d1e8d1",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 27,
+    "SUPPORTED": 6,
+    "UNSUPPORTED": 17
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_5a6e774669ffd3666b030f4c8da587cdec302fe01b6f251bc6e4967907bd3929",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_537456db056c504addebd7163b98c8620007f663d487d06e11f2f41258c5fc9d",
+        "CLM_29628417b0b56c92975953fac593701137dbbd6aae1e79bb730b1275172016e7"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme kavramının kapsamı ve temel amacı nedir?",
+      "question_id": "5.4-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a58eb88e2c8a58e79f7a71cf9926ce174183b76cda2491950b7e0524bbf52604",
+        "CLM_366c9e9d08d199d18f05f97553bfd4c0adf2a51016be426d290036c261ce2cf2"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme tünel güvenliği açısından neden gereklidir?",
+      "question_id": "5.4-Q02",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_366c9e9d08d199d18f05f97553bfd4c0adf2a51016be426d290036c261ce2cf2",
+        "CLM_487629d0a9938142fa32398294c8ffd0f85632e47c383ac61d1c6e190176a94a"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme hizmet sürekliliği açısından neden gereklidir?",
+      "question_id": "5.4-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_42ad13e7f0d206ed3fadbb9e878a615b7ae14dfe7311c55de38022254a7bbc98",
+        "CLM_febcdaefccea24762f087108abe171f998ea8a258dfaa8fa98f2c84dec1eccbf",
+        "CLM_71b4a6140600d2c64f52ee5d2926f6d4d86cea4cb675db74381ae601ce379394"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında hangi yapısal bileşenler dikkate alınır?",
+      "question_id": "5.4-Q04",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8036b709a6313a181589a6aefcd532322053f57f25407d964be77f9c71f72efb",
+        "CLM_febcdaefccea24762f087108abe171f998ea8a258dfaa8fa98f2c84dec1eccbf"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında hangi elektrik sistemleri dikkate alınır?",
+      "question_id": "5.4-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4771216d6e1c5c24bb3533cddb58e6547fc4fbcb34ea530f3a78a620b641b094",
+        "CLM_8036b709a6313a181589a6aefcd532322053f57f25407d964be77f9c71f72efb"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında hangi elektronik sistemler dikkate alınır?",
+      "question_id": "5.4-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fe628483b1adf476c40942d085abe9076f4efef3311d461fcc8146b5b75ad148",
+        "CLM_42ad13e7f0d206ed3fadbb9e878a615b7ae14dfe7311c55de38022254a7bbc98"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında hangi elektromekanik sistemler dikkate alınır?",
+      "question_id": "5.4-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_72e8bf16a1d03b281d032fabf85d49a3d9de120c1099d9a9c0009eec54cf6b01",
+        "CLM_c8516bfb5e86ffcc101a004e289b0150c698353f3e5b2fcd19fb1a9da663981a",
+        "CLM_e8029a526fb0ae382f54f58e33dc8e00434f2c342ad6d7203927bdbe8c2315c9"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında havalandırma sistemleri nasıl ele alınır?",
+      "question_id": "5.4-Q08",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0e17608d41bbdefbc48da683d7a760a7d7c44fd66c7818e0dd78610fe23c97e7",
+        "CLM_febcdaefccea24762f087108abe171f998ea8a258dfaa8fa98f2c84dec1eccbf"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında aydınlatma sistemleri nasıl ele alınır?",
+      "question_id": "5.4-Q09",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında enerji dağıtım ve yedek güç sistemleri nasıl ele alınır?",
+      "question_id": "5.4-Q10",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_73ac1aa65f6d1ece7514bc30fde888079838b96709c674d3f4d9ddedbf745a89",
+        "CLM_9365e99e3ffeba6ee9fcddfce96cb50c767e80bc35cb6adae35c7eb849efb301",
+        "CLM_9ed9975b064ddc5442cac9d88070820c3b35c2e15b07a2ee063c15ac61ea0676"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında yangın algılama ve söndürme sistemleri nasıl ele alınır?",
+      "question_id": "5.4-Q11",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_251bb23abbe9c983787ad777223b00c3ef74bb75ec6ee30eb40aa7cb98ce8ccc",
+        "CLM_b4d3400dbac2c512c189cbea6209ac2986e4af88d248a3d60244cd969a0581db"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında kamera, haberleşme ve olay algılama sistemleri nasıl ele alınır?",
+      "question_id": "5.4-Q12",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0bca9dcf174c8edf6222f0e4b14941cbfde1abd6a2b8dee1420f9339f9f31717",
+        "CLM_6916438b92e40c96f1b136ae8b60090411eeaddc6b50c88b2fc5eea567d73637",
+        "CLM_f301313dfab86e004f48330efc5e33ef8bd29f71a0af724ab5c5df5f4efb4040"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında drenaj, pompa ve su yalıtımı sistemleri nasıl ele alınır?",
+      "question_id": "5.4-Q13",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8fde792a01fb423aaaa30c199b00453e3c88835aea49e382d498d07a2df94326",
+        "CLM_387e4abab7d932e44f2875dcdd0bc0881725a3a6b3aab33f433305c27be6e2f3"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında kaplama, derz ve yüzey bozulmaları nasıl izlenir?",
+      "question_id": "5.4-Q14",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e34f816d34a53b5c6f4b79c7140a1fbe3a854277e522135a64f46ee269f67655",
+        "CLM_4771216d6e1c5c24bb3533cddb58e6547fc4fbcb34ea530f3a78a620b641b094"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında portal ve yaklaşım bölgeleri nasıl ele alınır?",
+      "question_id": "5.4-Q15",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ffee39daf9f9a9ab69949b823a5003cbe56c8c7b4bbf8e209b6fd509c354a4a2",
+        "CLM_53b8a77d7c6038a157798cb3ba66191e8476f2d0e7b8b644acd3c25379cd6369"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme için bakım türleri nasıl sınıflandırılır?",
+      "question_id": "5.4-Q16",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e89dfe39149ea8bafe48d50d15ccc1652f1ed8ff0e5926bcce007006f667fe1f",
+        "CLM_410f5149479a4850d9232c01f07e2a60f942f7e3185d366dd7447c7b4e88afc6"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme içinde rutin bakım ile periyodik bakım arasındaki fark nedir?",
+      "question_id": "5.4-Q17",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme içinde önleyici bakım ile düzeltici bakım arasındaki fark nedir?",
+      "question_id": "5.4-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme içinde kestirimci bakım hangi verilerle uygulanabilir?",
+      "question_id": "5.4-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4c43a5e105414059a775bd959c74c9cd899eda08f612a9314af5441843f589b2",
+        "CLM_e89dfe39149ea8bafe48d50d15ccc1652f1ed8ff0e5926bcce007006f667fe1f"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme için bakım periyotları nasıl belirlenir?",
+      "question_id": "5.4-Q20",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bcdb4fcce0aca8b2de7fe0bcf7263b0d5da7fccfd6185c836b332759ecd7fd1c",
+        "CLM_6916438b92e40c96f1b136ae8b60090411eeaddc6b50c88b2fc5eea567d73637"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme için kritik ekipmanların önceliklendirilmesi nasıl yapılır?",
+      "question_id": "5.4-Q21",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme için arıza modları ve etkileri nasıl analiz edilir?",
+      "question_id": "5.4-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme için durum değerlendirme ve kondisyon puanlama sistemi nasıl kurulabilir?",
+      "question_id": "5.4-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ce045c682a624ffac12136d4799ef2867717b5516199d9a3ddda808f7f38cd60"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme için sensör ve uzaktan izleme verileri nasıl kullanılabilir?",
+      "question_id": "5.4-Q24",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bcdb4fcce0aca8b2de7fe0bcf7263b0d5da7fccfd6185c836b332759ecd7fd1c"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme için bakım kayıtlarında hangi bilgiler tutulmalıdır?",
+      "question_id": "5.4-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme için yedek parça yönetimi nasıl planlanmalıdır?",
+      "question_id": "5.4-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme için personel ve vardiya planlaması nasıl yapılmalıdır?",
+      "question_id": "5.4-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme için yüklenici ve hizmet alımı yönetimi nasıl yapılmalıdır?",
+      "question_id": "5.4-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a58eb88e2c8a58e79f7a71cf9926ce174183b76cda2491950b7e0524bbf52604",
+        "CLM_6e0b706236f4b4cf78ac5b17bba6d03947b09eba0a37acbf73a175368e52c0fc"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme sırasında trafik güvenliği nasıl sağlanmalıdır?",
+      "question_id": "5.4-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a58eb88e2c8a58e79f7a71cf9926ce174183b76cda2491950b7e0524bbf52604"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme sırasında şerit veya tünel kapatma kararları nasıl verilmelidir?",
+      "question_id": "5.4-Q30",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a58eb88e2c8a58e79f7a71cf9926ce174183b76cda2491950b7e0524bbf52604"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme sırasında iş sağlığı ve güvenliği riskleri nasıl yönetilmelidir?",
+      "question_id": "5.4-Q31",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6916438b92e40c96f1b136ae8b60090411eeaddc6b50c88b2fc5eea567d73637",
+        "CLM_a58eb88e2c8a58e79f7a71cf9926ce174183b76cda2491950b7e0524bbf52604"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme için acil müdahale ile planlı bakım nasıl koordine edilmelidir?",
+      "question_id": "5.4-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bcdb4fcce0aca8b2de7fe0bcf7263b0d5da7fccfd6185c836b332759ecd7fd1c",
+        "CLM_d996b65696b75d68e0377ecc20548439bcb20ca43ebf9e8121020f3d90617f62"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme performansı hangi göstergelerle ölçülmelidir?",
+      "question_id": "5.4-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında kullanılabilirlik ve arıza süresi nasıl izlenmelidir?",
+      "question_id": "5.4-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında enerji tüketimi hangi göstergelerle izlenmelidir?",
+      "question_id": "5.4-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b3d6474af4591441ce29b5b02eb76996dc341ad131e2b0e3ce739212f90ec0f3",
+        "CLM_940176b30028dda31d64aab5c7452128787c08dfa0be24c0f232e13214153890",
+        "CLM_834af7c1b54aadc9e5004f652b754c8ff96396a3bc98aa3d35b5721ae3d69499"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında bakım maliyeti hangi göstergelerle izlenmelidir?",
+      "question_id": "5.4-Q36",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında arızaların tekrarlanma oranı nasıl izlenmelidir?",
+      "question_id": "5.4-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a58eb88e2c8a58e79f7a71cf9926ce174183b76cda2491950b7e0524bbf52604",
+        "CLM_d03444474cd61cd062e073183972b41d8f9f8dc5dc4341730ec9b20980343122"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme kapsamında güvenlik olayları ve ramak kala kayıtları nasıl kullanılmalıdır?",
+      "question_id": "5.4-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3f1ab31d9fd4c51f56d393da82c8b5553c0955a872c70c1d18902e6444f680f8",
+        "CLM_a58eb88e2c8a58e79f7a71cf9926ce174183b76cda2491950b7e0524bbf52604"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme için denetim ve kabul kriterleri nelerdir?",
+      "question_id": "5.4-Q39",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme için mevzuat, standart ve teknik şartname gereklilikleri nelerdir?",
+      "question_id": "5.4-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_537456db056c504addebd7163b98c8620007f663d487d06e11f2f41258c5fc9d",
+        "CLM_29628417b0b56c92975953fac593701137dbbd6aae1e79bb730b1275172016e7",
+        "CLM_9d9d4a2f8af034aa3bcc91ce726df938f1f5fa62152632042e16c27ceab6a287"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme için Karayolları Genel Müdürlüğü uygulamalarında hangi süreçler öne çıkar?",
+      "question_id": "5.4-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_8ac2a7bf7eaf5a605d2cc8bba9578e72fa48e6aa5b4eaa71690d1732500d282d",
+        "CLM_6dc0ac8da495a10052600a092448d1c27079ec941ae912c1c0a62a5008e5f394"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme için enerji verimliliği hangi teknik önlemlerle artırılabilir?",
+      "question_id": "5.4-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme için otomasyon ve akıllı kontrol sistemleri hangi faydaları sağlayabilir?",
+      "question_id": "5.4-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5290f1b4e41ca8214c28a2e9a8d025518e86913cec47e061554aa53b78f94ac7",
+        "CLM_c59284491d67cb557f3d26bf61c66a92fc74656c85d578b980e7c3f5b90da1b4"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme için yaşam döngüsü maliyet yaklaşımı nasıl uygulanabilir?",
+      "question_id": "5.4-Q44",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme için bakım ertelemesinin teknik ve ekonomik sonuçları nelerdir?",
+      "question_id": "5.4-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6916438b92e40c96f1b136ae8b60090411eeaddc6b50c88b2fc5eea567d73637",
+        "CLM_487629d0a9938142fa32398294c8ffd0f85632e47c383ac61d1c6e190176a94a"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme için yenileme veya modernizasyon kararı hangi kriterlerle verilmelidir?",
+      "question_id": "5.4-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme sürdürülebilirlik ve karbon ayak izi açısından nasıl geliştirilebilir?",
+      "question_id": "5.4-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_862149d9f9d5de94c1e300bcf05152be89debc4794c07463d593f67450c04065",
+        "CLM_b3d6474af4591441ce29b5b02eb76996dc341ad131e2b0e3ce739212f90ec0f3"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme konusunda Türkiye’den hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "5.4-Q48",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme konusunda dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "5.4-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme için optimum güvenlik, performans ve maliyet dengesi nasıl kurulabilir?",
+      "question_id": "5.4-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "5.4",
+  "section_title": "Tünel Bakım-Onarım ve İşletme",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_0bca9dcf174c8edf6222f0e4b14941cbfde1abd6a2b8dee1420f9339f9f31717",
+      "CLM_0e17608d41bbdefbc48da683d7a760a7d7c44fd66c7818e0dd78610fe23c97e7",
+      "CLM_251bb23abbe9c983787ad777223b00c3ef74bb75ec6ee30eb40aa7cb98ce8ccc",
+      "CLM_29628417b0b56c92975953fac593701137dbbd6aae1e79bb730b1275172016e7",
+      "CLM_366c9e9d08d199d18f05f97553bfd4c0adf2a51016be426d290036c261ce2cf2",
+      "CLM_387e4abab7d932e44f2875dcdd0bc0881725a3a6b3aab33f433305c27be6e2f3",
+      "CLM_3f1ab31d9fd4c51f56d393da82c8b5553c0955a872c70c1d18902e6444f680f8",
+      "CLM_410f5149479a4850d9232c01f07e2a60f942f7e3185d366dd7447c7b4e88afc6",
+      "CLM_42ad13e7f0d206ed3fadbb9e878a615b7ae14dfe7311c55de38022254a7bbc98",
+      "CLM_4771216d6e1c5c24bb3533cddb58e6547fc4fbcb34ea530f3a78a620b641b094",
+      "CLM_487629d0a9938142fa32398294c8ffd0f85632e47c383ac61d1c6e190176a94a",
+      "CLM_4c43a5e105414059a775bd959c74c9cd899eda08f612a9314af5441843f589b2",
+      "CLM_5290f1b4e41ca8214c28a2e9a8d025518e86913cec47e061554aa53b78f94ac7",
+      "CLM_537456db056c504addebd7163b98c8620007f663d487d06e11f2f41258c5fc9d",
+      "CLM_53b8a77d7c6038a157798cb3ba66191e8476f2d0e7b8b644acd3c25379cd6369",
+      "CLM_6916438b92e40c96f1b136ae8b60090411eeaddc6b50c88b2fc5eea567d73637",
+      "CLM_6dc0ac8da495a10052600a092448d1c27079ec941ae912c1c0a62a5008e5f394",
+      "CLM_6e0b706236f4b4cf78ac5b17bba6d03947b09eba0a37acbf73a175368e52c0fc",
+      "CLM_71b4a6140600d2c64f52ee5d2926f6d4d86cea4cb675db74381ae601ce379394",
+      "CLM_72e8bf16a1d03b281d032fabf85d49a3d9de120c1099d9a9c0009eec54cf6b01",
+      "CLM_73ac1aa65f6d1ece7514bc30fde888079838b96709c674d3f4d9ddedbf745a89",
+      "CLM_8036b709a6313a181589a6aefcd532322053f57f25407d964be77f9c71f72efb",
+      "CLM_834af7c1b54aadc9e5004f652b754c8ff96396a3bc98aa3d35b5721ae3d69499",
+      "CLM_862149d9f9d5de94c1e300bcf05152be89debc4794c07463d593f67450c04065",
+      "CLM_8ac2a7bf7eaf5a605d2cc8bba9578e72fa48e6aa5b4eaa71690d1732500d282d",
+      "CLM_8fde792a01fb423aaaa30c199b00453e3c88835aea49e382d498d07a2df94326",
+      "CLM_9365e99e3ffeba6ee9fcddfce96cb50c767e80bc35cb6adae35c7eb849efb301",
+      "CLM_940176b30028dda31d64aab5c7452128787c08dfa0be24c0f232e13214153890",
+      "CLM_9d9d4a2f8af034aa3bcc91ce726df938f1f5fa62152632042e16c27ceab6a287",
+      "CLM_9ed9975b064ddc5442cac9d88070820c3b35c2e15b07a2ee063c15ac61ea0676",
+      "CLM_a58eb88e2c8a58e79f7a71cf9926ce174183b76cda2491950b7e0524bbf52604",
+      "CLM_b3d6474af4591441ce29b5b02eb76996dc341ad131e2b0e3ce739212f90ec0f3",
+      "CLM_b4d3400dbac2c512c189cbea6209ac2986e4af88d248a3d60244cd969a0581db",
+      "CLM_bcdb4fcce0aca8b2de7fe0bcf7263b0d5da7fccfd6185c836b332759ecd7fd1c",
+      "CLM_c59284491d67cb557f3d26bf61c66a92fc74656c85d578b980e7c3f5b90da1b4",
+      "CLM_c8516bfb5e86ffcc101a004e289b0150c698353f3e5b2fcd19fb1a9da663981a",
+      "CLM_ce045c682a624ffac12136d4799ef2867717b5516199d9a3ddda808f7f38cd60",
+      "CLM_d03444474cd61cd062e073183972b41d8f9f8dc5dc4341730ec9b20980343122",
+      "CLM_d996b65696b75d68e0377ecc20548439bcb20ca43ebf9e8121020f3d90617f62",
+      "CLM_e34f816d34a53b5c6f4b79c7140a1fbe3a854277e522135a64f46ee269f67655",
+      "CLM_e8029a526fb0ae382f54f58e33dc8e00434f2c342ad6d7203927bdbe8c2315c9",
+      "CLM_e89dfe39149ea8bafe48d50d15ccc1652f1ed8ff0e5926bcce007006f667fe1f",
+      "CLM_f301313dfab86e004f48330efc5e33ef8bd29f71a0af724ab5c5df5f4efb4040",
+      "CLM_fe628483b1adf476c40942d085abe9076f4efef3311d461fcc8146b5b75ad148",
+      "CLM_febcdaefccea24762f087108abe171f998ea8a258dfaa8fa98f2c84dec1eccbf",
+      "CLM_ffee39daf9f9a9ab69949b823a5003cbe56c8c7b4bbf8e209b6fd509c354a4a2"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "5.4-Q01",
+      "5.4-Q03",
+      "5.4-Q04",
+      "5.4-Q05",
+      "5.4-Q06",
+      "5.4-Q07",
+      "5.4-Q08",
+      "5.4-Q13",
+      "5.4-Q14",
+      "5.4-Q15",
+      "5.4-Q16",
+      "5.4-Q17",
+      "5.4-Q21",
+      "5.4-Q24",
+      "5.4-Q25",
+      "5.4-Q29",
+      "5.4-Q30",
+      "5.4-Q31",
+      "5.4-Q32",
+      "5.4-Q33",
+      "5.4-Q38",
+      "5.4-Q39",
+      "5.4-Q41",
+      "5.4-Q42",
+      "5.4-Q44",
+      "5.4-Q46",
+      "5.4-Q48"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "5.4-Q10",
+      "5.4-Q18",
+      "5.4-Q19",
+      "5.4-Q22",
+      "5.4-Q23",
+      "5.4-Q26",
+      "5.4-Q27",
+      "5.4-Q28",
+      "5.4-Q34",
+      "5.4-Q35",
+      "5.4-Q37",
+      "5.4-Q40",
+      "5.4-Q43",
+      "5.4-Q45",
+      "5.4-Q47",
+      "5.4-Q49",
+      "5.4-Q50"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [
+    "2.3"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2.3",
+      "section_title": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6.2",
+      "score": 0.3275,
+      "rule_score": 0.0,
+      "embedding_score": 0.7277,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6",
+      "score": 0.3247,
+      "rule_score": 0.0,
+      "embedding_score": 0.7216,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.3",
+      "score": 0.3237,
+      "rule_score": 0.0,
+      "embedding_score": 0.7194,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.1",
+      "score": 0.3236,
+      "rule_score": 0.0,
+      "embedding_score": 0.7191,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3232,
+      "rule_score": 0.0,
+      "embedding_score": 0.7182,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3.5",
+      "score": 0.3229,
+      "rule_score": 0.0,
+      "embedding_score": 0.7176,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3223,
+      "rule_score": 0.0,
+      "embedding_score": 0.7162,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.3218,
+      "rule_score": 0.0,
+      "embedding_score": 0.7152,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, tünel yapımında kullanılan çelik hasır (donatı) malzemesinin teknik özelliklerini, standartlarını (TS 4559) ve kesit ağırlıklarını detaylandırıyor. Bu içerik doğrudan 'Tünel Yapı/Destek Elemanları' (2.1) başlığına uymaktadır. Ayrıca, malzeme birim ağırlığı ve poz numaraları (23.010-23.011) maliyet hesaplamalarıyla ilişkili olduğundan 'Tünellerin Yapım Maliyetine Etki Eden Unsurlar' (2.3) ik",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:0",
+    "chunk_votes:3",
+    "embeddings:8",
+    "top=6.2:0.3275 gap=0.003 disagreement=False ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

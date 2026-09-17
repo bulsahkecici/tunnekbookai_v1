@@ -1,0 +1,139 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.2.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0003",
+        "PARA0004",
+        "PARA0005",
+        "PARA0006",
+        "PARA0007",
+        "PARA0009",
+        "PARA0010",
+        "PARA0014",
+        "PARA0015",
+        "PARA0017",
+        "PARA0018",
+        "PARA0019",
+        "HEAD0003",
+        "PARA0020",
+        "PARA0021",
+        "PARA0022",
+        "PARA0027",
+        "PARA0028",
+        "FIG0010",
+        "CAPT0001",
+        "PARA0032",
+        "PARA0033",
+        "HEAD0009",
+        "PARA0035"
+      ]
+    },
+    {
+      "section_id": "2.2.2",
+      "section_title": "Yumuşak Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "LIST0015"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7192,
+      "rule_score": 0.5,
+      "embedding_score": 0.764,
+      "chunk_vote": 0.2519
+    },
+    {
+      "id": "2.2",
+      "score": 0.6495,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7575,
+      "chunk_vote": 0.1145
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.6274,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7593,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3479,
+      "rule_score": 0.0,
+      "embedding_score": 0.7732,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3451,
+      "rule_score": 0.0,
+      "embedding_score": 0.7668,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3429,
+      "rule_score": 0.0,
+      "embedding_score": 0.7621,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3416,
+      "rule_score": 0.0,
+      "embedding_score": 0.759,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.3409,
+      "rule_score": 0.0,
+      "embedding_score": 0.7575,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.2941,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0954
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.2842,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0458
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, kalkanlı TBM (Shield TBM) yönlendirme simülatörü ve eğri kazı geometrisi üzerine odaklanmaktadır. Kalkanlı TBM'ler genellikle yumuşak zeminlerde veya karma zeminlerde kullanılan bir yapım yöntemidir. Bu nedenle, en uygun birincil bölüm 'Tünel Yapım Yöntemleri' (2.2) ve ikincil bölüm 'Yumuşak Zeminde Açılan Tüneller' (2.2.2) olarak belirlenmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7192 gap=0.070 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

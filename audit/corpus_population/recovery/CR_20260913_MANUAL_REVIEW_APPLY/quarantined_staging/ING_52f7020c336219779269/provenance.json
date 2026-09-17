@@ -1,0 +1,148 @@
+{
+  "document_id": "ING_52f7020c336219779269",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_45963C0628A0DBD31C59",
+      "producer_document_id": "PC_52F7020C33621977",
+      "declared_sha256": "52f7020c3362197792695eb08aff9ec2cd4ec521a80fcdc821aa58c69dc721ed",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_52F7020C33621977/source_raw.html",
+        "sha256": "52f7020c3362197792695eb08aff9ec2cd4ec521a80fcdc821aa58c69dc721ed"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.2112/si94-054.1",
+        "landing_url": "https://doi.org/10.2112/si94-054.1",
+        "resolved_url": "https://bioone.org/journals/journal-of-coastal-research/volume-94/issue-sp1/SI94-054.1/Seepage-Analysis-and-Optimization-of-Engineering-Method-for-Municipal-Underwater/10.2112/SI94-054.1.full",
+        "discovery_source": "crossref",
+        "discovery_query": "underwater tunnel construction method",
+        "doi": "10.2112/si94-054.1",
+        "publisher": "Journal of Coastal Research"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.2112/si94-054.1",
+        "landing_url": "https://doi.org/10.2112/si94-054.1",
+        "resolved_url": "https://bioone.org/journals/journal-of-coastal-research/volume-94/issue-sp1/SI94-054.1/Seepage-Analysis-and-Optimization-of-Engineering-Method-for-Municipal-Underwater/10.2112/SI94-054.1.full",
+        "discovery_source": "crossref",
+        "discovery_query": "underwater tunnel construction method",
+        "doi": "10.2112/si94-054.1",
+        "publisher": "Journal of Coastal Research"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_52F7020C33621977",
+        "canonical_id": "CAN_45963C0628A0DBD31C59",
+        "canonical_hint_id": "CAN_45963C0628A0DBD31C59",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "Journal of Coastal Research",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Seepage Analysis and Optimization of Engineering Method for Municipal Underwater Tunnel Construction in Urban Coastal Stratum",
+        "authors": [
+          "Xinzhi Li",
+          "Yongquan Zhu",
+          "Jia Zhao"
+        ],
+        "year": "2019",
+        "doi": "10.2112/si94-054.1",
+        "source_url": "https://doi.org/10.2112/si94-054.1",
+        "landing_url": "https://doi.org/10.2112/si94-054.1",
+        "resolved_url": "https://bioone.org/journals/journal-of-coastal-research/volume-94/issue-sp1/SI94-054.1/Seepage-Analysis-and-Optimization-of-Engineering-Method-for-Municipal-Underwater/10.2112/SI94-054.1.full",
+        "local_path": "01_originals/C_ACADEMIC/PC_52F7020C33621977/source_raw.html",
+        "sha256": "52f7020c3362197792695eb08aff9ec2cd4ec521a80fcdc821aa58c69dc721ed",
+        "source_name": "crossref",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "WEB_SNAPSHOT_TEXT",
+        "evidence_level": "WEB_SNAPSHOT_TEXT",
+        "acquisition_status": "SNAPSHOTTED_WEB",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_52F7020C33621977/source_raw.html",
+          "original_or_raw_sha256": "52f7020c3362197792695eb08aff9ec2cd4ec521a80fcdc821aa58c69dc721ed",
+          "crawler_normalized": "01_originals/C_ACADEMIC/PC_52F7020C33621977/source.md",
+          "crawler_normalized_sha256": "f1920ee42c8696a292716a0de9fe9062f30c57504c32a6dd0088da6cea8d9174",
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "underwater_tunnel",
+          "excavation",
+          "immersed_tube",
+          "structural_defect",
+          "deformation",
+          "sustainability",
+          "cost_estimation",
+          "segmental_lining"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "Journal of Coastal Research",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "SNAPSHOTTED_WEB",
+          "source_path": "01_originals/C_ACADEMIC/PC_52F7020C33621977/source_raw.html",
+          "source_sha256": "52f7020c3362197792695eb08aff9ec2cd4ec521a80fcdc821aa58c69dc721ed"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.2112/si94-054.1",
+          "landing_url": "https://doi.org/10.2112/si94-054.1",
+          "resolved_url": "https://bioone.org/journals/journal-of-coastal-research/volume-94/issue-sp1/SI94-054.1/Seepage-Analysis-and-Optimization-of-Engineering-Method-for-Municipal-Underwater/10.2112/SI94-054.1.full",
+          "discovery_source": "crossref",
+          "discovery_query": "underwater tunnel construction method",
+          "doi": "10.2112/si94-054.1",
+          "publisher": "Journal of Coastal Research"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source_raw.html",
+    "original_sha256": "52f7020c3362197792695eb08aff9ec2cd4ec521a80fcdc821aa58c69dc721ed",
+    "mime_type": "text/html",
+    "format": "HTML"
+  }
+}

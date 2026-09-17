@@ -1,0 +1,32 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_3cf8e7e534d4363e9c7c",
+  "original_sha256": "3cf8e7e534d4363e9c7cd595883bdba4d4e935a1e04a3ac728ad87b2f0e47f4a",
+  "source_kind": "MANUAL_INTERNAL",
+  "format": "DOCX",
+  "title": "COSTS OF CONSTRUCTION Tunnel",
+  "final_primary_section": "5.6",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.8006,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": false,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_3cf8e7e534d4363e9c7c",
+  "original_archive": "originals/ING_3cf8e7e534d4363e9c7c",
+  "chunks_authoritative_path": "processing/ING_3cf8e7e534d4363e9c7c/chunks/chunk_manifest.jsonl",
+  "chunk_count": 5,
+  "chunk_quality_status": "PASS",
+  "canonical_promoted": false
+}

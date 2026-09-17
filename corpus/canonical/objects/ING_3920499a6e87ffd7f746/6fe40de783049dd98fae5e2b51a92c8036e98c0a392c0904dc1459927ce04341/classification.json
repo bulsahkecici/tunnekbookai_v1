@@ -1,0 +1,124 @@
+{
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [
+    "2.2.1"
+  ],
+  "final_section_confidence": 0.92,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0001",
+        "PARA0022",
+        "PARA0027",
+        "PARA0029"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0002",
+        "PARA0001",
+        "PARA0027",
+        "PARA0029"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1",
+      "score": 0.7675,
+      "rule_score": 0.5,
+      "embedding_score": 0.7946,
+      "chunk_vote": 0.4245
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.6835,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7791,
+      "chunk_vote": 0.2358
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3611,
+      "rule_score": 0.0,
+      "embedding_score": 0.8024,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3491,
+      "rule_score": 0.0,
+      "embedding_score": 0.7758,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.348,
+      "rule_score": 0.0,
+      "embedding_score": 0.7734,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3458,
+      "rule_score": 0.0,
+      "embedding_score": 0.7685,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3451,
+      "rule_score": 0.0,
+      "embedding_score": 0.7669,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3435,
+      "rule_score": 0.0,
+      "embedding_score": 0.7633,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4.1",
+      "score": 0.2399,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.283
+    },
+    {
+      "id": "5.7",
+      "score": 0.2357,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, sert kayaç zeminde havalandırma şaftının açılması sırasında karşılaşılan yüksek jeostres ve kaya patlaması (rockburst) sorunlarına karşı uygulanan şutret (shotcrete), çivi ve ızgara destek sistemlerini detaylandırmaktadır. Bu içerik, doğrudan 'Tünel Yapı/Destek Elemanları' (2.1) başlığına uymaktadır. Ayrıca, zeminin sert kayaç olması ve Q sistemi sınıflandırmasının kullanılması nedeniyle 'K",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:2",
+    "embeddings:8",
+    "top=2.1:0.7675 gap=0.084 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

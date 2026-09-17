@@ -1,0 +1,70 @@
+{
+  "document_id": "ING_f52e66d837f304409454",
+  "status": "PASS",
+  "chunk_count": 296,
+  "chunks_by_type": {
+    "TEXT_CHUNK": 63,
+    "TABLE_CHUNK": 49,
+    "FIGURE_CHUNK": 184
+  },
+  "token_stats": {
+    "min": 9,
+    "max": 1198,
+    "mean": 249.9,
+    "total": 73981
+  },
+  "policy": {
+    "chunk_schema_version": "1.0",
+    "chunk_policy_version": "structure-aware-v1",
+    "tokenizer": "unicode-lexical-v1",
+    "target_tokens": 850,
+    "min_tokens": 250,
+    "max_tokens": 1200,
+    "hard_max_tokens": 1500,
+    "overlap_tokens": 80
+  },
+  "deduplicated_chunks": [
+    {
+      "chunk_id": "ING_f52e66d837f304409454_CH_3e69a23b33",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_f52e66d837f304409454_CH_3e51db8c64"
+    },
+    {
+      "chunk_id": "ING_f52e66d837f304409454_CH_cdc30482e8",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_f52e66d837f304409454_CH_f0a508063a"
+    },
+    {
+      "chunk_id": "ING_f52e66d837f304409454_CH_a3b6144fda",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_f52e66d837f304409454_CH_3e51db8c64"
+    },
+    {
+      "chunk_id": "ING_f52e66d837f304409454_CH_e1f41107fd",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_f52e66d837f304409454_CH_f4b50935f3"
+    },
+    {
+      "chunk_id": "ING_f52e66d837f304409454_CH_e148131ad1",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_f52e66d837f304409454_CH_3e51db8c64"
+    },
+    {
+      "chunk_id": "ING_f52e66d837f304409454_CH_909f61a498",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_f52e66d837f304409454_CH_3b48b9ebd9"
+    },
+    {
+      "chunk_id": "ING_f52e66d837f304409454_CH_375b4ef1df",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_f52e66d837f304409454_CH_c4f03ee230"
+    },
+    {
+      "chunk_id": "ING_f52e66d837f304409454_CH_9dce8eb631",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_f52e66d837f304409454_CH_3e25639cae"
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

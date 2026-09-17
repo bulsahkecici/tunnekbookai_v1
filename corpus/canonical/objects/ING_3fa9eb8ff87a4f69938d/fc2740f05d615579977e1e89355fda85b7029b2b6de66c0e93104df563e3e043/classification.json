@@ -1,0 +1,165 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "5.4",
+    "5.9.1"
+  ],
+  "final_section_confidence": 0.6927,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0024",
+        "PARA0031",
+        "FIG0018",
+        "PARA0043",
+        "FIG0029",
+        "PARA0048",
+        "PARA0097",
+        "PARA0188",
+        "PARA0190",
+        "PARA0192",
+        "PARA0196",
+        "PARA0199",
+        "PARA0200",
+        "PARA0202",
+        "PARA0226",
+        "PARA0227",
+        "PARA0228",
+        "PARA0229",
+        "PARA0230",
+        "PARA0231",
+        "PARA0232",
+        "PARA0233",
+        "PARA0234",
+        "PARA0379",
+        "LIST0059"
+      ]
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "PARA0024",
+        "PARA0048",
+        "PARA0365"
+      ]
+    },
+    {
+      "section_id": "5.9.1",
+      "section_title": "Ulusal Literatür Taraması",
+      "supporting_elements": [
+        "PARA0003",
+        "PARA0025",
+        "PARA0106",
+        "PARA0242",
+        "PARA0319",
+        "HEAD0079",
+        "PARA0331",
+        "PARA0453",
+        "LIST0065",
+        "LIST0066",
+        "LIST0067",
+        "LIST0068",
+        "PARA0456",
+        "PARA0459",
+        "PARA0518",
+        "LIST0227",
+        "LIST0821"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.6927,
+      "rule_score": 0.5,
+      "embedding_score": 0.7508,
+      "chunk_vote": 0.1494
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.6727,
+      "rule_score": 0.5,
+      "embedding_score": 0.7561,
+      "chunk_vote": 0.0374
+    },
+    {
+      "id": "5.4",
+      "score": 0.6637,
+      "rule_score": 0.5,
+      "embedding_score": 0.7526,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3424,
+      "rule_score": 0.0,
+      "embedding_score": 0.7609,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3414,
+      "rule_score": 0.0,
+      "embedding_score": 0.7586,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.34,
+      "rule_score": 0.0,
+      "embedding_score": 0.7556,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.5.2",
+      "score": 0.3392,
+      "rule_score": 0.0,
+      "embedding_score": 0.7538,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3391,
+      "rule_score": 0.0,
+      "embedding_score": 0.7536,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3175,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0598
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.2825,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0374
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, bir tünel dergisinin kapağı ve editör mektubundan oluşmaktadır. İçerik, genel tünelcilik sektörü haberleri (Avustralya dönüşümü, Türkiye sinyalizasyonu, metro projeleri) ve kadın mühendislerin sektördeki yeri üzerine genel bir bakış sunmaktadır. Bu genel sektör tanıtımı ve ana elemanlar/yapım teknikleri kapsamındaki genel mühendislik perspektifi, 'TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YA",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.6927 gap=0.020 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

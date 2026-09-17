@@ -1,0 +1,631 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_b28e400135638f63946cefd0bffe7e9d76c32c84cb35b97f170ef9249557f5ac",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 12,
+    "SUPPORTED": 4,
+    "UNSUPPORTED": 34
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_c06379a27dd4221c005fa7c086fae2d6cdc0265e40c195ec78575696d5d1ebff",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları kapsamında hangi olaylar 'önemli' veya 'felaket' olarak değerlendirilmelidir?",
+      "question_id": "1.5.2-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olayları hangi ölçütlere göre sınıflandırılabilir?",
+      "question_id": "1.5.2-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_715e95267adc2956afc660ac45e0cec5692f30234c1873a1877d537a2a4b89a6",
+        "CLM_f3f723ee1db6c6d5d4e1b0f24ab3c699fcc13e852085429fba72f07795a5e6e8",
+        "CLM_026d2e8214931cdcf038009d4b7c1b21379d701dcbe173187c0d7da72c6b120a"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde yangın kaynaklı olayların başlıca nedenleri nelerdir?",
+      "question_id": "1.5.2-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde çarpışma kaynaklı olayların başlıca nedenleri nelerdir?",
+      "question_id": "1.5.2-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde yapısal göçme veya stabilite kaybı kaynaklı olayların nedenleri nelerdir?",
+      "question_id": "1.5.2-Q05",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde su baskını veya drenaj yetersizliği kaynaklı olayların nedenleri nelerdir?",
+      "question_id": "1.5.2-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6040ae8882e12025718bc4fd7424ad66a0f35cedea5fa96c01c0c8d64d0742d5",
+        "CLM_ae59ef1985d54353fc88f7eba2fe045e8592c3c77e3660d3c882f5ca0a4cdebd"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde tehlikeli madde taşımacılığı hangi riskleri artırır?",
+      "question_id": "1.5.2-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6aa7df50739c1e7887e7820a09455300197e4a54202f6bc819446b5cadfb313b",
+        "CLM_4c1b06b8f65c2a78c319cc54c290f845319c8e5f97770cf87b0556aa8011aa2b",
+        "CLM_1a20c8b0c123026da5db20f09f2a863a7698e9f432818227956000c2231c5c31"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde insan hatasının rolü nasıl değerlendirilir?",
+      "question_id": "1.5.2-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fef69439f4e503a3540306084866b39255ec806d83572e7414741534d59cf0ce"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde araç kaynaklı teknik arızaların rolü nedir?",
+      "question_id": "1.5.2-Q09",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde tünel geometrisinin olay şiddetine etkisi nedir?",
+      "question_id": "1.5.2-Q10",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde trafik yoğunluğunun olay şiddetine etkisi nedir?",
+      "question_id": "1.5.2-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_806ae18219e79a175fa69afe66d8e93d10587692ea9c479a4203f1f79f57a845",
+        "CLM_5fd2fea72db9c7af80d91dc9a19e8290decf9f2713b2b60f9963e979f5c6e6e1"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde tek tüp ve çift tüp düzeninin güvenlik sonuçları nasıl farklılaşır?",
+      "question_id": "1.5.2-Q12",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_14719cf8951e80124f7338e30249faf88cff32c2966dcf1cbfbf5ff34c6d85a1",
+        "CLM_014fd651aeacc85ab29ef3a2b0d66b231d1cbcf57375b71758649e089ae993d6"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde havalandırma sisteminin performansı sonucu nasıl etkiler?",
+      "question_id": "1.5.2-Q13",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_51211b0e5ffa7d34f2ac41447928f81a38c1d3290e03679c4d541b852ec8ed4b",
+        "CLM_a33c42cae9ecb4a0126f275182d7752cb3bd42e6d36faff1b5403208a426c230",
+        "CLM_a8dffb9f57570a0eb5deeb9aa64d4d62c358c5093c66ab723bd10555cf0d5cd1"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde duman kontrolünün kritik rolü nedir?",
+      "question_id": "1.5.2-Q14",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde yangına dayanıklı kaplama ve malzemelerin rolü nedir?",
+      "question_id": "1.5.2-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_abfa610b11a1d5159b093158529c5c234073e49494423b6dbb306c4c9a6ea476",
+        "CLM_bf9a85089022add4898d09ba4b766b7134d93edb9326ab6b36d4891e85d500b5",
+        "CLM_9dd2bfe02b1c0324ab0c264985627aaf0dcaa48a95b963c629fae3a24a8d9289",
+        "CLM_61813782b629da4f9ed5de52f6720de547f9c67532ac42c11771e106a86477ea"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde acil çıkışların sayısı ve aralığı neden önemlidir?",
+      "question_id": "1.5.2-Q16",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bf9a85089022add4898d09ba4b766b7134d93edb9326ab6b36d4891e85d500b5",
+        "CLM_9dd2bfe02b1c0324ab0c264985627aaf0dcaa48a95b963c629fae3a24a8d9289"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde kaçış yollarının tasarımı can kaybını nasıl etkiler?",
+      "question_id": "1.5.2-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_835f9b40eba950c528caa1b6435a14bd88720575445cd92b56d37e032e659819",
+        "CLM_b08e9365acc6ddfec422bffc99b0e7f72791f5c0f26c37d50746b42a4439658a",
+        "CLM_9381a787bde7f0c4f468af2f133be67a1140629f929d148da6ad34977106ba31"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde algılama ve alarm sistemleri ne kadar belirleyicidir?",
+      "question_id": "1.5.2-Q18",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_4f049baecc2decd46c1bf25a38ed7cf7058cc8db939178d48639ae33b5855a40",
+        "CLM_b08e9365acc6ddfec422bffc99b0e7f72791f5c0f26c37d50746b42a4439658a"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde kamera ve olay algılama sistemlerinin rolü nedir?",
+      "question_id": "1.5.2-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0aa98881bad3c9f73c9346e3f4df26af2f559a99d8e0ee8fb145f52461dc0ce3",
+        "CLM_293dc352492aa0e8036c0739f2ea119652d1267345227ee880adaa4874d181ed"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde haberleşme sistemlerinin başarısı nasıl değerlendirilir?",
+      "question_id": "1.5.2-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_abfa610b11a1d5159b093158529c5c234073e49494423b6dbb306c4c9a6ea476",
+        "CLM_38deab03b986b364e59a8b6107526bbd5ab2f593035ff7b3b12fac307723f5ad",
+        "CLM_9381a787bde7f0c4f468af2f133be67a1140629f929d148da6ad34977106ba31"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde itfaiye ve kurtarma ekiplerinin erişim süresi neden önemlidir?",
+      "question_id": "1.5.2-Q21",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_293dc352492aa0e8036c0739f2ea119652d1267345227ee880adaa4874d181ed",
+        "CLM_ccdbec66b9eb59c176eb8516c702395224b05803a75a19059a706e4f1579a607",
+        "CLM_e2c894e54ed111ca05fdf123f6e64f41547a4b551fc2b398ba1b82047653d3b0"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde işletme merkezinin karar alma süreci nasıl etkili olur?",
+      "question_id": "1.5.2-Q22",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_86ef2a1ebd42dfe7d53c138c9e7bd346b9adf9ca07c9c5e6f074d7253a360cc0",
+        "CLM_6aa7df50739c1e7887e7820a09455300197e4a54202f6bc819446b5cadfb313b",
+        "CLM_854ce9c511eb22f759a26d2501667cef90e4c552b618213bf763394bbd0ab586"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde kullanıcı davranışları ve tahliye kararları nasıl etkili olur?",
+      "question_id": "1.5.2-Q23",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları sonrasında hangi teknik inceleme yöntemleri uygulanır?",
+      "question_id": "1.5.2-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları sonrasında kök neden analizi nasıl yapılmalıdır?",
+      "question_id": "1.5.2-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_14c66d6ea56d2068883b01571a4952a3e24bf20a2a2d6acbb94d4fc2220ab8c6",
+        "CLM_03595ffde44b418eb1d1f4c39f7fbfcee0473699e6e1f1910fa7d3f1513e5162",
+        "CLM_9af85fb23f7a6d5b3c33199faa52efb81b4e1fc182c0acf69c934ba7be91f137",
+        "CLM_82f46b73f8a2cf08d9e6cf6f86443cd55e432562625992f33c5bef5bada8a37f"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları sonrasında yapısal hasar nasıl değerlendirilir?",
+      "question_id": "1.5.2-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları sonrasında elektromekanik sistem hasarı nasıl değerlendirilir?",
+      "question_id": "1.5.2-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları sonrasında tünelin yeniden hizmete açılma kriterleri nelerdir?",
+      "question_id": "1.5.2-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olaylarının doğrudan maliyetleri hangi kalemlerden oluşur?",
+      "question_id": "1.5.2-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olaylarının dolaylı ulaşım ve ekonomik maliyetleri nasıl hesaplanabilir?",
+      "question_id": "1.5.2-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olaylarının bakım ve yenileme politikalarına etkisi nedir?",
+      "question_id": "1.5.2-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olayları hangi mevzuat veya standart değişikliklerine yol açmıştır?",
+      "question_id": "1.5.2-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olaylarından sonra havalandırma standartlarında hangi değişiklikler görülmüştür?",
+      "question_id": "1.5.2-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olaylarından sonra yangın güvenliği standartlarında hangi değişiklikler görülmüştür?",
+      "question_id": "1.5.2-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olaylarından sonra acil çıkış ve kaçış mesafesi kriterleri nasıl değişmiştir?",
+      "question_id": "1.5.2-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olaylarından sonra tehlikeli madde taşımacılığına ilişkin uygulamalar nasıl değişmiştir?",
+      "question_id": "1.5.2-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olayları risk analizlerinde nasıl modellenebilir?",
+      "question_id": "1.5.2-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları için olasılık ve sonuç temelli risk matrisi nasıl kurulabilir?",
+      "question_id": "1.5.2-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları için senaryo bazlı güvenlik analizi nasıl yapılabilir?",
+      "question_id": "1.5.2-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olaylarında ortak nedenler ve tekrar eden örüntüler nelerdir?",
+      "question_id": "1.5.2-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olayları arasında mühendislik tasarım hataları açısından ortaklıklar var mıdır?",
+      "question_id": "1.5.2-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olayları arasında işletme hataları açısından ortaklıklar var mıdır?",
+      "question_id": "1.5.2-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olayları arasında bakım eksiklikleri açısından ortaklıklar var mıdır?",
+      "question_id": "1.5.2-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olayları açısından en etkili önleyici tedbirler hangileridir?",
+      "question_id": "1.5.2-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları olayları açısından en etkili zarar azaltıcı tedbirler hangileridir?",
+      "question_id": "1.5.2-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları anlatılırken hangi olaylar ayrıntılı vaka analizi olarak seçilmelidir?",
+      "question_id": "1.5.2-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Her vaka için tarih, yer, tünel özellikleri, neden, sonuç ve alınan dersler birlikte veriliyor mu?",
+      "question_id": "1.5.2-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinde can kaybı ve yaralanma verileri nasıl güvenilir biçimde sunulmalıdır?",
+      "question_id": "1.5.2-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinden çıkarılan dersler yeni tünel tasarımlarına nasıl aktarılabilir?",
+      "question_id": "1.5.2-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları içinden çıkarılan dersler mevcut tünellerin iyileştirilmesine nasıl aktarılabilir?",
+      "question_id": "1.5.2-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "1.5.2",
+  "section_title": "Türkiye’de Gerçekleşen Önemli Tünel Kazaları",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_014fd651aeacc85ab29ef3a2b0d66b231d1cbcf57375b71758649e089ae993d6",
+      "CLM_026d2e8214931cdcf038009d4b7c1b21379d701dcbe173187c0d7da72c6b120a",
+      "CLM_03595ffde44b418eb1d1f4c39f7fbfcee0473699e6e1f1910fa7d3f1513e5162",
+      "CLM_0aa98881bad3c9f73c9346e3f4df26af2f559a99d8e0ee8fb145f52461dc0ce3",
+      "CLM_14719cf8951e80124f7338e30249faf88cff32c2966dcf1cbfbf5ff34c6d85a1",
+      "CLM_14c66d6ea56d2068883b01571a4952a3e24bf20a2a2d6acbb94d4fc2220ab8c6",
+      "CLM_1a20c8b0c123026da5db20f09f2a863a7698e9f432818227956000c2231c5c31",
+      "CLM_293dc352492aa0e8036c0739f2ea119652d1267345227ee880adaa4874d181ed",
+      "CLM_38deab03b986b364e59a8b6107526bbd5ab2f593035ff7b3b12fac307723f5ad",
+      "CLM_4c1b06b8f65c2a78c319cc54c290f845319c8e5f97770cf87b0556aa8011aa2b",
+      "CLM_4f049baecc2decd46c1bf25a38ed7cf7058cc8db939178d48639ae33b5855a40",
+      "CLM_51211b0e5ffa7d34f2ac41447928f81a38c1d3290e03679c4d541b852ec8ed4b",
+      "CLM_5fd2fea72db9c7af80d91dc9a19e8290decf9f2713b2b60f9963e979f5c6e6e1",
+      "CLM_6040ae8882e12025718bc4fd7424ad66a0f35cedea5fa96c01c0c8d64d0742d5",
+      "CLM_61813782b629da4f9ed5de52f6720de547f9c67532ac42c11771e106a86477ea",
+      "CLM_6aa7df50739c1e7887e7820a09455300197e4a54202f6bc819446b5cadfb313b",
+      "CLM_715e95267adc2956afc660ac45e0cec5692f30234c1873a1877d537a2a4b89a6",
+      "CLM_806ae18219e79a175fa69afe66d8e93d10587692ea9c479a4203f1f79f57a845",
+      "CLM_82f46b73f8a2cf08d9e6cf6f86443cd55e432562625992f33c5bef5bada8a37f",
+      "CLM_835f9b40eba950c528caa1b6435a14bd88720575445cd92b56d37e032e659819",
+      "CLM_854ce9c511eb22f759a26d2501667cef90e4c552b618213bf763394bbd0ab586",
+      "CLM_86ef2a1ebd42dfe7d53c138c9e7bd346b9adf9ca07c9c5e6f074d7253a360cc0",
+      "CLM_9381a787bde7f0c4f468af2f133be67a1140629f929d148da6ad34977106ba31",
+      "CLM_9af85fb23f7a6d5b3c33199faa52efb81b4e1fc182c0acf69c934ba7be91f137",
+      "CLM_9dd2bfe02b1c0324ab0c264985627aaf0dcaa48a95b963c629fae3a24a8d9289",
+      "CLM_a33c42cae9ecb4a0126f275182d7752cb3bd42e6d36faff1b5403208a426c230",
+      "CLM_a8dffb9f57570a0eb5deeb9aa64d4d62c358c5093c66ab723bd10555cf0d5cd1",
+      "CLM_abfa610b11a1d5159b093158529c5c234073e49494423b6dbb306c4c9a6ea476",
+      "CLM_ae59ef1985d54353fc88f7eba2fe045e8592c3c77e3660d3c882f5ca0a4cdebd",
+      "CLM_b08e9365acc6ddfec422bffc99b0e7f72791f5c0f26c37d50746b42a4439658a",
+      "CLM_bf9a85089022add4898d09ba4b766b7134d93edb9326ab6b36d4891e85d500b5",
+      "CLM_ccdbec66b9eb59c176eb8516c702395224b05803a75a19059a706e4f1579a607",
+      "CLM_e2c894e54ed111ca05fdf123f6e64f41547a4b551fc2b398ba1b82047653d3b0",
+      "CLM_f3f723ee1db6c6d5d4e1b0f24ab3c699fcc13e852085429fba72f07795a5e6e8",
+      "CLM_fef69439f4e503a3540306084866b39255ec806d83572e7414741534d59cf0ce"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "1.5.2-Q03",
+      "1.5.2-Q07",
+      "1.5.2-Q08",
+      "1.5.2-Q09",
+      "1.5.2-Q12",
+      "1.5.2-Q13",
+      "1.5.2-Q17",
+      "1.5.2-Q19",
+      "1.5.2-Q20",
+      "1.5.2-Q22",
+      "1.5.2-Q23",
+      "1.5.2-Q26"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "1.5.2-Q01",
+      "1.5.2-Q02",
+      "1.5.2-Q04",
+      "1.5.2-Q05",
+      "1.5.2-Q06",
+      "1.5.2-Q10",
+      "1.5.2-Q11",
+      "1.5.2-Q15",
+      "1.5.2-Q24",
+      "1.5.2-Q25",
+      "1.5.2-Q27",
+      "1.5.2-Q28",
+      "1.5.2-Q29",
+      "1.5.2-Q30",
+      "1.5.2-Q31",
+      "1.5.2-Q32",
+      "1.5.2-Q33",
+      "1.5.2-Q34",
+      "1.5.2-Q35",
+      "1.5.2-Q36",
+      "1.5.2-Q37",
+      "1.5.2-Q38",
+      "1.5.2-Q39",
+      "1.5.2-Q40",
+      "1.5.2-Q41",
+      "1.5.2-Q42",
+      "1.5.2-Q43",
+      "1.5.2-Q44",
+      "1.5.2-Q45",
+      "1.5.2-Q46",
+      "1.5.2-Q47",
+      "1.5.2-Q48",
+      "1.5.2-Q49",
+      "1.5.2-Q50"
+    ]
+  }
+}

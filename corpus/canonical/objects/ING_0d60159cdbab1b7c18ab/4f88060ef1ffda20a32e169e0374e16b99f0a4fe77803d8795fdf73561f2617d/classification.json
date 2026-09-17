@@ -1,0 +1,123 @@
+{
+  "final_primary_section": "5.1",
+  "final_secondary_sections": [
+    "5.9"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "LIST0012",
+        "LIST0014",
+        "LIST0040",
+        "LIST0042",
+        "LIST0095"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0012",
+        "LIST0014",
+        "LIST0040",
+        "LIST0042",
+        "LIST0095"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.1",
+      "score": 0.5953,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7766,
+      "chunk_vote": 0.0625
+    },
+    {
+      "id": "5.9",
+      "score": 0.5898,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7922,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.375,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3636,
+      "rule_score": 0.0,
+      "embedding_score": 0.8081,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3579,
+      "rule_score": 0.0,
+      "embedding_score": 0.7954,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3549,
+      "rule_score": 0.0,
+      "embedding_score": 0.7887,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3535,
+      "rule_score": 0.0,
+      "embedding_score": 0.7856,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3525,
+      "rule_score": 0.0,
+      "embedding_score": 0.7834,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.351,
+      "rule_score": 0.0,
+      "embedding_score": 0.78,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2021,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0938
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, trafiği olan bir tünelde fotogrametri sistemi kullanarak izleme yöntemi üzerine bir çalışma başlığı taşımaktadır. Bu, bir araştırmanın metodolojik yaklaşımını ve amacını tanımlayan bir giriş bölümüne (5.1) işaret eder. Ayrıca, J-STAGE üzerinden erişilen akademik bir makale olması ve literatür taraması gerektiren bir mühendislik çalışması olması nedeniyle ulusal ve uluslararası literatür tar",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:3",
+    "embeddings:8",
+    "top=5.1:0.5953 gap=0.006 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,188 @@
+{
+  "final_primary_section": "5.6",
+  "final_secondary_sections": [
+    "5.7",
+    "2.4.2.1"
+  ],
+  "final_section_confidence": 0.8785,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "HEAD0001",
+        "LIST0049",
+        "LIST0117",
+        "LIST0154",
+        "LIST0184",
+        "PARA0021",
+        "HEAD0006",
+        "LIST0212",
+        "PARA0052",
+        "PARA0056",
+        "PARA0057",
+        "PARA0058",
+        "PARA0059",
+        "PARA0060",
+        "PARA0063",
+        "HEAD0011",
+        "PARA0066",
+        "PARA0068",
+        "PARA0069",
+        "PARA0078",
+        "PARA0080",
+        "PARA0082",
+        "PARA0086",
+        "PARA0087",
+        "PARA0090"
+      ]
+    },
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0012",
+        "LIST0184",
+        "PARA0021",
+        "HEAD0006",
+        "PARA0056",
+        "PARA0057",
+        "PARA0058",
+        "PARA0059",
+        "HEAD0011",
+        "PARA0066",
+        "PARA0068",
+        "PARA0069",
+        "PARA0072",
+        "PARA0074",
+        "HEAD0016",
+        "PARA0080",
+        "PARA0082",
+        "PARA0086",
+        "PARA0087",
+        "PARA0090",
+        "PARA0097",
+        "PARA0100",
+        "HEAD0024",
+        "HEAD0025"
+      ]
+    },
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "LIST0036",
+        "LIST0038",
+        "LIST0048",
+        "LIST0051",
+        "LIST0104",
+        "LIST0106",
+        "LIST0116",
+        "LIST0119",
+        "LIST0141",
+        "LIST0143",
+        "LIST0153",
+        "LIST0156",
+        "PARA0002",
+        "LIST0174",
+        "HEAD0003",
+        "PARA0045",
+        "PARA0057",
+        "PARA0058",
+        "HEAD0010"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.6",
+      "score": 0.8785,
+      "rule_score": 0.6923,
+      "embedding_score": 0.7721,
+      "chunk_vote": 0.5014
+    },
+    {
+      "id": "5.7",
+      "score": 0.7535,
+      "rule_score": 0.6,
+      "embedding_score": 0.7746,
+      "chunk_vote": 0.1246
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.7147,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7614,
+      "chunk_vote": 0.0825
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3508,
+      "rule_score": 0.0,
+      "embedding_score": 0.7795,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.345,
+      "rule_score": 0.0,
+      "embedding_score": 0.7666,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.345,
+      "rule_score": 0.0,
+      "embedding_score": 0.7666,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3446,
+      "rule_score": 0.0,
+      "embedding_score": 0.7657,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3433,
+      "rule_score": 0.0,
+      "embedding_score": 0.7629,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.2404,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0234
+    },
+    {
+      "id": "5.9",
+      "score": 0.2357,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.6:0.8785 gap=0.125 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,134 @@
+{
+  "final_primary_section": "5.9.2",
+  "final_secondary_sections": [
+    "1",
+    "2.4.1.2"
+  ],
+  "final_section_confidence": 0.6938,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0004",
+        "HEAD0013",
+        "HEAD0018",
+        "PARA0004",
+        "PARA0006",
+        "PARA0012",
+        "PARA0025",
+        "PARA0029"
+      ]
+    },
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "HEAD0001",
+        "HEAD0018",
+        "PARA0004",
+        "PARA0012",
+        "PARA0013"
+      ]
+    },
+    {
+      "section_id": "2.4.1.2",
+      "section_title": "İnşaat Esnasındaki Çalışmalar",
+      "supporting_elements": [
+        "PARA0012"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9.2",
+      "score": 0.6938,
+      "rule_score": 0.5,
+      "embedding_score": 0.7588,
+      "chunk_vote": 0.1365
+    },
+    {
+      "id": "1",
+      "score": 0.5878,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7659,
+      "chunk_vote": 0.0491
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.5815,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7737,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.3",
+      "score": 0.3898,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4212
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3454,
+      "rule_score": 0.0,
+      "embedding_score": 0.7675,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.2",
+      "score": 0.3443,
+      "rule_score": 0.0,
+      "embedding_score": 0.7652,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.344,
+      "rule_score": 0.0,
+      "embedding_score": 0.7644,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.1",
+      "score": 0.3433,
+      "rule_score": 0.0,
+      "embedding_score": 0.763,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3429,
+      "rule_score": 0.0,
+      "embedding_score": 0.7619,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3209,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2293
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:4",
+    "embeddings:8",
+    "top=5.9.2:0.6938 gap=0.106 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

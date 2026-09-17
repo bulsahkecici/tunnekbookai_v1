@@ -1,0 +1,49 @@
+{
+  "document_id": "ING_3ed9bee7ff5641991a95",
+  "format": "DOCX",
+  "adapter": "docx",
+  "normalized_markdown_path": "processing/ING_3ed9bee7ff5641991a95/normalized/document.md",
+  "normalized_json_path": "processing/ING_3ed9bee7ff5641991a95/normalized/document.json",
+  "normalized_text_path": "processing/ING_3ed9bee7ff5641991a95/normalized/document.txt",
+  "pages": [
+    "PAGE0001",
+    "PAGE0002",
+    "PAGE0003",
+    "PAGE0004",
+    "PAGE0005"
+  ],
+  "figures": [],
+  "tables": [],
+  "charts": [],
+  "slides": [],
+  "sheets": [],
+  "ocr_items": [],
+  "text_elements": 77,
+  "warnings": [],
+  "errors": [],
+  "capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": true,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "engine": {
+    "docling_status": "SUCCESS",
+    "docling_versions": {
+      "docling": "2.124.0",
+      "docling-core": "2.93.0",
+      "docling-ibm-models": "4.0.1",
+      "docling-parse": "7.16.0"
+    },
+    "docling_options": {},
+    "structural_authority": "original_docx_via_docling"
+  },
+  "page_count": 5,
+  "text_char_count": 13951
+}

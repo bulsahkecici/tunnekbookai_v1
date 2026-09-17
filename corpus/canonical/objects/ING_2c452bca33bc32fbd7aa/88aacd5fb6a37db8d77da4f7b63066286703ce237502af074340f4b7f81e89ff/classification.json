@@ -1,0 +1,199 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "2.2",
+    "2.1",
+    "2.2.1",
+    "1"
+  ],
+  "final_section_confidence": 0.8891,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "HEAD0007",
+        "PARA0021",
+        "PARA0023",
+        "PARA0025",
+        "PARA0028",
+        "PARA0029",
+        "PARA0030",
+        "PARA0031",
+        "PARA0032",
+        "PARA0033",
+        "PARA0034",
+        "PARA0039",
+        "PARA0040",
+        "PARA0041",
+        "LIST0030",
+        "FIG0004",
+        "CAPT0002",
+        "PARA0067",
+        "PARA0100",
+        "PARA0101"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0006",
+        "PARA0007",
+        "PARA0008",
+        "PARA0009",
+        "HEAD0007",
+        "PARA0021",
+        "PARA0023",
+        "PARA0025",
+        "PARA0028",
+        "PARA0029",
+        "PARA0030",
+        "PARA0031",
+        "PARA0032",
+        "PARA0033",
+        "PARA0034",
+        "PARA0039",
+        "PARA0040",
+        "PARA0041",
+        "LIST0030",
+        "FIG0004",
+        "CAPT0002",
+        "PARA0067",
+        "PARA0100",
+        "PARA0101",
+        "PARA0102"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0008",
+        "PARA0114"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0108",
+        "PARA0117"
+      ]
+    },
+    {
+      "section_id": "1",
+      "section_title": "GİRİŞ",
+      "supporting_elements": [
+        "HEAD0002",
+        "PARA0006",
+        "PARA0008",
+        "PARA0009",
+        "PARA0029",
+        "PARA0110",
+        "PARA0114",
+        "PARA0115",
+        "PARA0117",
+        "PARA0118",
+        "PARA0119"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.8891,
+      "rule_score": 0.6667,
+      "embedding_score": 0.7917,
+      "chunk_vote": 0.5809
+    },
+    {
+      "id": "2.2",
+      "score": 0.7229,
+      "rule_score": 0.5,
+      "embedding_score": 0.7807,
+      "chunk_vote": 0.2328
+    },
+    {
+      "id": "2.1",
+      "score": 0.7218,
+      "rule_score": 0.6,
+      "embedding_score": 0.7596,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.6329,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7714,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.5942,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7571,
+      "chunk_vote": 0.1009
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3526,
+      "rule_score": 0.0,
+      "embedding_score": 0.7628,
+      "chunk_vote": 0.0466
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3406,
+      "rule_score": 0.0,
+      "embedding_score": 0.7569,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3405,
+      "rule_score": 0.0,
+      "embedding_score": 0.7567,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.2357,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.1",
+      "score": 0.1911,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0388
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.8891 gap=0.166 disagreement=False ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

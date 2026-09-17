@@ -1,0 +1,117 @@
+{
+  "document_id": "ING_b8667b0178e8102a697e",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PILOT_RELEASE_001",
+      "release_metadata": {},
+      "canonical_id": "CAN_32BD60929F57FD86CB07",
+      "producer_document_id": "PC_B8667B0178E8102A",
+      "declared_sha256": "b8667b0178e8102a697e371611f812b6bafef514d37a4dd1280570b77ce6fe39",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/ARTICLES/PC_B8667B0178E8102A/source.pdf",
+        "sha256": "b8667b0178e8102a697e371611f812b6bafef514d37a4dd1280570b77ce6fe39"
+      },
+      "provenance": {
+        "landing_url": "https://doi.org/10.34088/kojose.904895",
+        "pdf_url": "https://dergipark.org.tr/en/download/article-file/1668583",
+        "discovery_source": "openalex",
+        "discovery_query": "\"New Austrian Tunnelling Method\"",
+        "doi": "10.34088/kojose.904895",
+        "publisher": "Kocaeli Journal of Science and Engineering"
+      },
+      "producer_provenance": {
+        "landing_url": "https://doi.org/10.34088/kojose.904895",
+        "pdf_url": "https://dergipark.org.tr/en/download/article-file/1668583",
+        "discovery_source": "openalex",
+        "discovery_query": "\"New Austrian Tunnelling Method\"",
+        "doi": "10.34088/kojose.904895",
+        "publisher": "Kocaeli Journal of Science and Engineering"
+      },
+      "contract_schema_version": "2.0",
+      "crawler_record": {
+        "schema_version": "2.0",
+        "document_id": "PC_B8667B0178E8102A",
+        "canonical_id": "CAN_32BD60929F57FD86CB07",
+        "canonical_hint_id": "CAN_32BD60929F57FD86CB07",
+        "producer_system": "paper-crawler-agent",
+        "producer": {},
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Engineering Geological Investigation of the Kırık Tunnel Route",
+        "authors": [
+          "Özgür Fatih ÇÜMEN",
+          "Ahmet Karakaş"
+        ],
+        "year": "2021",
+        "doi": "10.34088/kojose.904895",
+        "source_url": null,
+        "landing_url": "https://doi.org/10.34088/kojose.904895",
+        "resolved_url": "https://dergipark.org.tr/en/download/article-file/1668583",
+        "local_path": "01_originals/C_ACADEMIC/ARTICLES/PC_B8667B0178E8102A/source.pdf",
+        "sha256": "b8667b0178e8102a697e371611f812b6bafef514d37a4dd1280570b77ce6fe39",
+        "source_name": "openalex",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC/ARTICLES",
+        "crawler_evidence_level": "ABSTRACT",
+        "evidence_level": "ABSTRACT",
+        "acquisition_status": null,
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/ARTICLES/PC_B8667B0178E8102A/source.pdf",
+          "crawler_normalized": null,
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "LLM_ACCEPTED",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "score": null
+        },
+        "topics": [
+          "classification",
+          "NATM",
+          "rock_tunnel",
+          "geology",
+          "geotechnics"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {},
+        "acquisition": {
+          "status": null,
+          "source_path": "01_originals/C_ACADEMIC/ARTICLES/PC_B8667B0178E8102A/source.pdf",
+          "source_sha256": "b8667b0178e8102a697e371611f812b6bafef514d37a4dd1280570b77ce6fe39"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "landing_url": "https://doi.org/10.34088/kojose.904895",
+          "pdf_url": "https://dergipark.org.tr/en/download/article-file/1668583",
+          "discovery_source": "openalex",
+          "discovery_query": "\"New Austrian Tunnelling Method\"",
+          "doi": "10.34088/kojose.904895",
+          "publisher": "Kocaeli Journal of Science and Engineering"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source.pdf",
+    "original_sha256": "b8667b0178e8102a697e371611f812b6bafef514d37a4dd1280570b77ce6fe39",
+    "mime_type": "application/pdf",
+    "format": "PDF"
+  }
+}

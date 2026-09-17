@@ -1,0 +1,152 @@
+{
+  "document_id": "ING_80857ef4f16dc9021ad6",
+  "sources": [
+    {
+      "kind": "EXTERNAL_DISCOVERY",
+      "source_kind": "EXTERNAL_DISCOVERY",
+      "producer": "paper-crawler-agent",
+      "release": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+      "release_metadata": {
+        "schema_version": "1.0",
+        "release_id": "PC_RELEASE_20260908_2cb86fb8efcb_4135305e6e43",
+        "producer": "paper-crawler-agent",
+        "producer_version": "1.0.0",
+        "producer_git_commit": "2cb86fb8efcb",
+        "producer_git_dirty": true,
+        "generated_at": "2026-09-08T13:52:06+00:00",
+        "manifest_path": "00_registry/handoff_manifest.jsonl",
+        "manifest_sha256": "4135305e6e43d6240eaa80b0098102a2c062c3237085cef7bfed071d86e0889c"
+      },
+      "canonical_id": "CAN_7E0BAB593365E4443BB3",
+      "producer_document_id": "PC_80857EF4F16DC902",
+      "declared_sha256": "80857ef4f16dc9021ad6f61ff17599862e032817538d15aedfd9de8a15309d07",
+      "authoritative_source": {
+        "selection": "source_representation.original_or_raw",
+        "path": "01_originals/C_ACADEMIC/PC_80857EF4F16DC902/source.pdf",
+        "sha256": "80857ef4f16dc9021ad6f61ff17599862e032817538d15aedfd9de8a15309d07"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1016/j.jart.2015.06.009",
+        "landing_url": "https://doi.org/10.1016/j.jart.2015.06.009",
+        "pdf_url": "http://www.jart.icat.unam.mx/index.php/jart/article/download/112/111",
+        "resolved_url": "http://www.jart.icat.unam.mx/index.php/jart/article/download/112/111",
+        "discovery_source": "openalex",
+        "discovery_query": "tunnel ventilation",
+        "doi": "10.1016/j.jart.2015.06.009",
+        "publisher": "Journal of Applied Research and Technology"
+      },
+      "producer_provenance": {
+        "source_url": "https://doi.org/10.1016/j.jart.2015.06.009",
+        "landing_url": "https://doi.org/10.1016/j.jart.2015.06.009",
+        "pdf_url": "http://www.jart.icat.unam.mx/index.php/jart/article/download/112/111",
+        "resolved_url": "http://www.jart.icat.unam.mx/index.php/jart/article/download/112/111",
+        "discovery_source": "openalex",
+        "discovery_query": "tunnel ventilation",
+        "doi": "10.1016/j.jart.2015.06.009",
+        "publisher": "Journal of Applied Research and Technology"
+      },
+      "contract_schema_version": "2.1",
+      "crawler_record": {
+        "schema_version": "2.1",
+        "document_id": "PC_80857EF4F16DC902",
+        "canonical_id": "CAN_7E0BAB593365E4443BB3",
+        "canonical_hint_id": "CAN_7E0BAB593365E4443BB3",
+        "producer_system": "paper-crawler-agent",
+        "producer": {
+          "name": "Journal of Applied Research and Technology",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "source_kind": "EXTERNAL_DISCOVERY",
+        "title": "Combined grey prediction fuzzy control law with application to road tunnel ventilation system",
+        "authors": [
+          "Yunhua Li",
+          "Lina Ling",
+          "Jiantao Chen"
+        ],
+        "year": "2015",
+        "doi": "10.1016/j.jart.2015.06.009",
+        "source_url": "https://doi.org/10.1016/j.jart.2015.06.009",
+        "landing_url": "https://doi.org/10.1016/j.jart.2015.06.009",
+        "resolved_url": "http://www.jart.icat.unam.mx/index.php/jart/article/download/112/111",
+        "local_path": "01_originals/C_ACADEMIC/PC_80857EF4F16DC902/source.pdf",
+        "sha256": "80857ef4f16dc9021ad6f61ff17599862e032817538d15aedfd9de8a15309d07",
+        "source_name": "openalex",
+        "publisher_code": null,
+        "route_path": "C_ACADEMIC",
+        "crawler_evidence_level": "ABSTRACT",
+        "evidence_level": "ABSTRACT",
+        "acquisition_status": "DOWNLOADED_PDF",
+        "source_representation": {
+          "original_or_raw": "01_originals/C_ACADEMIC/PC_80857EF4F16DC902/source.pdf",
+          "original_or_raw_sha256": "80857ef4f16dc9021ad6f61ff17599862e032817538d15aedfd9de8a15309d07",
+          "crawler_normalized": null,
+          "crawler_normalized_sha256": null,
+          "crawler_normalized_status": "PROVISIONAL",
+          "note": "TunnelBookAI produces the final normalized Markdown during ingest."
+        },
+        "provisional_document_type": "journal_article",
+        "provisional_source_tier": "TIER_B",
+        "provisional_authority_tier": "B2",
+        "provisional_classification_status": "AUTO_ACCEPT",
+        "final_document_type": null,
+        "final_source_tier": null,
+        "final_evidence_status": "NOT_EVALUATED",
+        "document_type": "JOURNAL_ARTICLE",
+        "source_class": "ACADEMIC",
+        "authority_tier": "B2",
+        "relevance": {
+          "status": null,
+          "deterministic_status": null,
+          "llm_status": null,
+          "score": null
+        },
+        "topics": [
+          "road_tunnel",
+          "ventilation",
+          "traffic_management",
+          "route_selection",
+          "alignment",
+          "KGM",
+          "ITS",
+          "EPB",
+          "road_safety"
+        ],
+        "presentation": null,
+        "presentation_assets": [],
+        "producer_identity": {
+          "name": "Journal of Applied Research and Technology",
+          "country": null,
+          "institution_type": null,
+          "attribution_status": "RESOLVED"
+        },
+        "acquisition": {
+          "status": "DOWNLOADED_PDF",
+          "source_path": "01_originals/C_ACADEMIC/PC_80857EF4F16DC902/source.pdf",
+          "source_sha256": "80857ef4f16dc9021ad6f61ff17599862e032817538d15aedfd9de8a15309d07"
+        },
+        "handoff_status": "READY_FOR_HANDOFF",
+        "paper_crawler_status": "READY_FOR_HANDOFF",
+        "tunnelbookai_status": "NOT_INGESTED",
+        "metadata_only_official_exception": false,
+        "provenance": {
+          "source_url": "https://doi.org/10.1016/j.jart.2015.06.009",
+          "landing_url": "https://doi.org/10.1016/j.jart.2015.06.009",
+          "pdf_url": "http://www.jart.icat.unam.mx/index.php/jart/article/download/112/111",
+          "resolved_url": "http://www.jart.icat.unam.mx/index.php/jart/article/download/112/111",
+          "discovery_source": "openalex",
+          "discovery_query": "tunnel ventilation",
+          "doi": "10.1016/j.jart.2015.06.009",
+          "publisher": "Journal of Applied Research and Technology"
+        }
+      }
+    }
+  ],
+  "original": {
+    "original_filename": "source.pdf",
+    "original_sha256": "80857ef4f16dc9021ad6f61ff17599862e032817538d15aedfd9de8a15309d07",
+    "mime_type": "application/pdf",
+    "format": "PDF"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "final_primary_section": "5.9.2",
+  "final_secondary_sections": [
+    "5.9"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0006",
+        "LIST0007",
+        "LIST0014"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0006",
+        "LIST0007",
+        "LIST0014"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.1",
+      "score": 0.5053,
+      "rule_score": 0.2,
+      "embedding_score": 0.7673,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.3545,
+      "rule_score": 0.0,
+      "embedding_score": 0.7877,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3538,
+      "rule_score": 0.0,
+      "embedding_score": 0.7862,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3522,
+      "rule_score": 0.0,
+      "embedding_score": 0.7631,
+      "chunk_vote": 0.0441
+    },
+    {
+      "id": "7",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.7772,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3451,
+      "rule_score": 0.0,
+      "embedding_score": 0.7669,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3448,
+      "rule_score": 0.0,
+      "embedding_score": 0.7663,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3431,
+      "rule_score": 0.0,
+      "embedding_score": 0.7625,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2627,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3971
+    },
+    {
+      "id": "5.6",
+      "score": 0.2304,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2353
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, 'Journal of Mechanical Engineering' dergisinde yayımlanmış uluslararası bir akademik makaledir (DOI ve İngilizce başlık içerir). Aday bölümler arasında en uygun eşleşme, uluslararası kaynakları kapsayan 'Uluslararası Literatür Taraması' bölümüdür. Metin, derginin hacim/sayı yapısını ve makale bilgilerini içerdiğinden, bu tür bir kaynak literatür taraması kapsamında değerlendirilir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:13",
+    "embeddings:8",
+    "top=5.1:0.5053 gap=0.151 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

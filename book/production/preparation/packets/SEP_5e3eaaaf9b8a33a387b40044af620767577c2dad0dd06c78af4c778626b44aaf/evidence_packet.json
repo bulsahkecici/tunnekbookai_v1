@@ -1,0 +1,626 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_a3fe19a7e57b46911724c7ae1ed90415fd830165e1f4b60b589a8ba4ab10c161",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 16,
+    "SUPPORTED": 2,
+    "UNSUPPORTED": 32
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_5e3eaaaf9b8a33a387b40044af620767577c2dad0dd06c78af4c778626b44aaf",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [
+        "CLM_595e3eb50743dbba54ae9bdda185a193276e80fdf8c8866596cd44a9ca2b96c3"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri kapsamında maliyet kavramı nasıl tanımlanmalıdır?",
+      "question_id": "5.5.1-Q01",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d0e5a5fced80c0c26c792f9d8c2c1a905d99a3ea8040a3312cf4769697eaf0f1",
+        "CLM_453e770acdb7d078103a3459d09274efb90fdce624932f1b9e5c15d034511aa4"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri hangi maliyet kalemlerini içerir?",
+      "question_id": "5.5.1-Q02",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri kapsamında doğrudan maliyetler nelerdir?",
+      "question_id": "5.5.1-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri kapsamında dolaylı maliyetler nelerdir?",
+      "question_id": "5.5.1-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri kapsamında ilk yatırım maliyetleri nasıl ayrıştırılır?",
+      "question_id": "5.5.1-Q05",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_74c69d042f6600f2f67b5c96dbcdcadf822a80a3a5495422c21a3af6f8a2d10b",
+        "CLM_d0e5a5fced80c0c26c792f9d8c2c1a905d99a3ea8040a3312cf4769697eaf0f1"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri kapsamında bakım maliyetleri nasıl ayrıştırılır?",
+      "question_id": "5.5.1-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d0e5a5fced80c0c26c792f9d8c2c1a905d99a3ea8040a3312cf4769697eaf0f1",
+        "CLM_6a7c5a7dd460477e8701a6d480a41695788591232212e7afda4731f33b154285"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri kapsamında işletme maliyetleri nasıl ayrıştırılır?",
+      "question_id": "5.5.1-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_74c69d042f6600f2f67b5c96dbcdcadf822a80a3a5495422c21a3af6f8a2d10b",
+        "CLM_6a7c5a7dd460477e8701a6d480a41695788591232212e7afda4731f33b154285",
+        "CLM_f1156b2c097e5e131a4fd0c501b94cdef38e2292fd0f30514ff7d5ff53456df3"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri kapsamında yenileme ve büyük onarım maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.1-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri kapsamında personel maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.1-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a0d9ffa8106310dff65ecca218430f50e1d53e3cd0bc12cebe584e85969d3562"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri kapsamında enerji maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.1-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri kapsamında malzeme maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.1-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri kapsamında makine ve ekipman maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.1-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri kapsamında taşeron ve hizmet alımı maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.1-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri kapsamında trafik yönetimi ve güvenlik maliyetleri nasıl ele alınır?",
+      "question_id": "5.5.1-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri kapsamında kapanma veya kapasite kaybı gibi kullanıcı maliyetleri dikkate alınmalı mıdır?",
+      "question_id": "5.5.1-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a0d9ffa8106310dff65ecca218430f50e1d53e3cd0bc12cebe584e85969d3562",
+        "CLM_3a677ffe8243761c5fa97c12d6810c20d01d9fe9c28fccb78757099b68a5ec84"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri kapsamında çevresel maliyetler nasıl değerlendirilebilir?",
+      "question_id": "5.5.1-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri için toplam maliyet ile birim maliyet arasındaki fark nasıl açıklanmalıdır?",
+      "question_id": "5.5.1-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri için TL/m, TL/km veya benzeri birim maliyet göstergeleri ne zaman kullanılmalıdır?",
+      "question_id": "5.5.1-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7951ddbdb5855fbb47b0f1d6dadb6171c7201c564b8c680bb30696089e4d5b26",
+        "CLM_f69fedbc0d2e07f70e74996211c93569143547758062698c2f1dcff460aad2b0"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri farklı tünel uzunluklarında nasıl değişir?",
+      "question_id": "5.5.1-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri farklı tünel kesitlerinde nasıl değişir?",
+      "question_id": "5.5.1-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri farklı tüp ve şerit sayılarında nasıl değişir?",
+      "question_id": "5.5.1-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri farklı jeolojik ve geoteknik koşullarda nasıl değişir?",
+      "question_id": "5.5.1-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri farklı yapım yöntemlerinde nasıl değişir?",
+      "question_id": "5.5.1-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri farklı destek sınıflarında nasıl değişir?",
+      "question_id": "5.5.1-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri farklı elektromekanik donanım düzeylerinde nasıl değişir?",
+      "question_id": "5.5.1-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri trafik yoğunluğu ve işletme rejiminden nasıl etkilenir?",
+      "question_id": "5.5.1-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6daf72a33fd346f45413ece5805297609ac80b04847047aef3438e507ecdd1a5",
+        "CLM_dfbfa937cd416e4d85a256d1991c64f7eec7a6dbb20678a62f02d9ee45d40693"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri yapım süresi veya işletme süresinden nasıl etkilenir?",
+      "question_id": "5.5.1-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri için baz yıl ve fiyat seviyesi nasıl tanımlanmalıdır?",
+      "question_id": "5.5.1-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri hesaplarında enflasyon etkisi nasıl düzeltilmelidir?",
+      "question_id": "5.5.1-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri hesaplarında döviz kuru etkisi nasıl ele alınmalıdır?",
+      "question_id": "5.5.1-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri hesaplarında iskonto oranı hangi durumlarda kullanılmalıdır?",
+      "question_id": "5.5.1-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri için net bugünkü değer yaklaşımı nasıl uygulanabilir?",
+      "question_id": "5.5.1-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5b297373641022c98e23c35d603c1e48146d7dcb00a080fb5b4a681b88441657",
+        "CLM_a96a2ff99bb6b9aa43ac0fb1c8acade7ccce651f06f92034b463477b7dd22548",
+        "CLM_22ff1164296586bf8bccd01f77923639deac94b2be28926ada078ca20799179a",
+        "CLM_9ca03da2e71b81e21134e91e506ff42a62b5afd8000ea194799f94cb0d411241"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri için yaşam döngüsü maliyeti yaklaşımı nasıl uygulanabilir?",
+      "question_id": "5.5.1-Q33",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f366f2324c6a785655039614fb05d0877e66f17fce5f35fb358c43d24cfe095a",
+        "CLM_27e07c93c4e8bb0f59d40072a56fdabf12367963dbe00f971af6ae1964d0cd31"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri hesaplarında hizmet ömrü nasıl belirlenmelidir?",
+      "question_id": "5.5.1-Q34",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_47d391cba6d133526824f8ed7daac69c513f546c4be49721011bab98c659ee0a",
+        "CLM_f1156b2c097e5e131a4fd0c501b94cdef38e2292fd0f30514ff7d5ff53456df3"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri hesaplarında yenileme periyotları nasıl belirlenmelidir?",
+      "question_id": "5.5.1-Q35",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri hesaplarında hurda veya kalıntı değer dikkate alınmalı mıdır?",
+      "question_id": "5.5.1-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri hesaplarında belirsizlik kaynakları nelerdir?",
+      "question_id": "5.5.1-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_acf351f7f4c815dfd9cea65cd555caca7f7681719f3780e4ee08b6cf782c54cf",
+        "CLM_ad3fa56a85cf3f6e381656d00ee7800f104cff9d9427f53194144e1d96df3ec3"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri için risk payı veya beklenmeyen giderler nasıl ele alınmalıdır?",
+      "question_id": "5.5.1-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri için duyarlılık analizi hangi değişkenlere uygulanmalıdır?",
+      "question_id": "5.5.1-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri için senaryo analizi nasıl kurulabilir?",
+      "question_id": "5.5.1-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5d39ac7eb037f10025a902e2511584121e5c36a970acb699354988d87f9f764c",
+        "CLM_f97eb084ba120142461594227c83fc4e584f1a959f3bc25d6bef9023aa63f6d9",
+        "CLM_88556327209917273a8a67eb2445acadad2d209d41fee88d0948246ff6178ffe"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri için maliyet verileri hangi kaynaklardan toplanmalıdır?",
+      "question_id": "5.5.1-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri için farklı yıllara ait veriler nasıl karşılaştırılabilir hale getirilmelidir?",
+      "question_id": "5.5.1-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_100ce07879d2a723b08e6fc70fb7dca27016b2de456de2cacfcf5af0970bec7f",
+        "CLM_52bd7cc3ce0134c79703a28f9d9053d4e28a4ad262151b222e9d6a20bc8bba1e"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri için farklı projeler arasındaki maliyet karşılaştırmasında hangi normalizasyonlar gerekir?",
+      "question_id": "5.5.1-Q43",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri için aykırı maliyet değerleri nasıl incelenmelidir?",
+      "question_id": "5.5.1-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri için temel maliyet sürücüleri istatistiksel olarak nasıl belirlenebilir?",
+      "question_id": "5.5.1-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri için maliyet tahmin modellerinin başarısı nasıl doğrulanmalıdır?",
+      "question_id": "5.5.1-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yönetim ve İşletme Maliyetleri Türkiye ve uluslararası örnekler arasında nasıl karşılaştırılabilir?",
+      "question_id": "5.5.1-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7f8f9a8ffbecf60dc00671eca4eaa45195c24831ef511ba3a6795bad88ffa325",
+        "CLM_04c261af7b5e80c0c43d134707b2e4cef539e678428fc432c43c722fdb669527"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri bakımından maliyet azaltma fırsatları hangi aşamalarda ortaya çıkar?",
+      "question_id": "5.5.1-Q48",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_91c7a290b523d6e4ad295a2725c181c9dc50ac1fb798d8a49e1f9769655b13f1",
+        "CLM_94af52b90b632001067cfce3ed3ca9414ec80e8181d7e14f314ded94fd4973a4"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri ile güvenlik ve kalite arasında nasıl bir denge kurulmalıdır?",
+      "question_id": "5.5.1-Q49",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9d2484cbe49f87f8131f5e8da95df02bba89f18ae386b03ceea7c021cca0deb7"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Yönetim ve İşletme Maliyetleri bölümünün sonunda karar vericiye hangi maliyet göstergeleri sunulmalıdır?",
+      "question_id": "5.5.1-Q50",
+      "reason_code": "PARTIAL_ONLY"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "5.5.1",
+  "section_title": "Yönetim ve İşletme Maliyetleri",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_04c261af7b5e80c0c43d134707b2e4cef539e678428fc432c43c722fdb669527",
+      "CLM_100ce07879d2a723b08e6fc70fb7dca27016b2de456de2cacfcf5af0970bec7f",
+      "CLM_22ff1164296586bf8bccd01f77923639deac94b2be28926ada078ca20799179a",
+      "CLM_27e07c93c4e8bb0f59d40072a56fdabf12367963dbe00f971af6ae1964d0cd31",
+      "CLM_3a677ffe8243761c5fa97c12d6810c20d01d9fe9c28fccb78757099b68a5ec84",
+      "CLM_453e770acdb7d078103a3459d09274efb90fdce624932f1b9e5c15d034511aa4",
+      "CLM_47d391cba6d133526824f8ed7daac69c513f546c4be49721011bab98c659ee0a",
+      "CLM_52bd7cc3ce0134c79703a28f9d9053d4e28a4ad262151b222e9d6a20bc8bba1e",
+      "CLM_595e3eb50743dbba54ae9bdda185a193276e80fdf8c8866596cd44a9ca2b96c3",
+      "CLM_5b297373641022c98e23c35d603c1e48146d7dcb00a080fb5b4a681b88441657",
+      "CLM_5d39ac7eb037f10025a902e2511584121e5c36a970acb699354988d87f9f764c",
+      "CLM_6a7c5a7dd460477e8701a6d480a41695788591232212e7afda4731f33b154285",
+      "CLM_6daf72a33fd346f45413ece5805297609ac80b04847047aef3438e507ecdd1a5",
+      "CLM_74c69d042f6600f2f67b5c96dbcdcadf822a80a3a5495422c21a3af6f8a2d10b",
+      "CLM_7951ddbdb5855fbb47b0f1d6dadb6171c7201c564b8c680bb30696089e4d5b26",
+      "CLM_7f8f9a8ffbecf60dc00671eca4eaa45195c24831ef511ba3a6795bad88ffa325",
+      "CLM_88556327209917273a8a67eb2445acadad2d209d41fee88d0948246ff6178ffe",
+      "CLM_91c7a290b523d6e4ad295a2725c181c9dc50ac1fb798d8a49e1f9769655b13f1",
+      "CLM_94af52b90b632001067cfce3ed3ca9414ec80e8181d7e14f314ded94fd4973a4",
+      "CLM_9ca03da2e71b81e21134e91e506ff42a62b5afd8000ea194799f94cb0d411241",
+      "CLM_9d2484cbe49f87f8131f5e8da95df02bba89f18ae386b03ceea7c021cca0deb7",
+      "CLM_a0d9ffa8106310dff65ecca218430f50e1d53e3cd0bc12cebe584e85969d3562",
+      "CLM_a96a2ff99bb6b9aa43ac0fb1c8acade7ccce651f06f92034b463477b7dd22548",
+      "CLM_acf351f7f4c815dfd9cea65cd555caca7f7681719f3780e4ee08b6cf782c54cf",
+      "CLM_ad3fa56a85cf3f6e381656d00ee7800f104cff9d9427f53194144e1d96df3ec3",
+      "CLM_d0e5a5fced80c0c26c792f9d8c2c1a905d99a3ea8040a3312cf4769697eaf0f1",
+      "CLM_dfbfa937cd416e4d85a256d1991c64f7eec7a6dbb20678a62f02d9ee45d40693",
+      "CLM_f1156b2c097e5e131a4fd0c501b94cdef38e2292fd0f30514ff7d5ff53456df3",
+      "CLM_f366f2324c6a785655039614fb05d0877e66f17fce5f35fb358c43d24cfe095a",
+      "CLM_f69fedbc0d2e07f70e74996211c93569143547758062698c2f1dcff460aad2b0",
+      "CLM_f97eb084ba120142461594227c83fc4e584f1a959f3bc25d6bef9023aa63f6d9"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "5.5.1-Q01",
+      "5.5.1-Q02",
+      "5.5.1-Q06",
+      "5.5.1-Q07",
+      "5.5.1-Q08",
+      "5.5.1-Q10",
+      "5.5.1-Q16",
+      "5.5.1-Q19",
+      "5.5.1-Q27",
+      "5.5.1-Q34",
+      "5.5.1-Q38",
+      "5.5.1-Q41",
+      "5.5.1-Q43",
+      "5.5.1-Q48",
+      "5.5.1-Q49",
+      "5.5.1-Q50"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "5.5.1-Q03",
+      "5.5.1-Q04",
+      "5.5.1-Q05",
+      "5.5.1-Q09",
+      "5.5.1-Q11",
+      "5.5.1-Q12",
+      "5.5.1-Q13",
+      "5.5.1-Q14",
+      "5.5.1-Q15",
+      "5.5.1-Q17",
+      "5.5.1-Q18",
+      "5.5.1-Q20",
+      "5.5.1-Q21",
+      "5.5.1-Q22",
+      "5.5.1-Q23",
+      "5.5.1-Q24",
+      "5.5.1-Q25",
+      "5.5.1-Q26",
+      "5.5.1-Q28",
+      "5.5.1-Q29",
+      "5.5.1-Q30",
+      "5.5.1-Q31",
+      "5.5.1-Q32",
+      "5.5.1-Q36",
+      "5.5.1-Q37",
+      "5.5.1-Q39",
+      "5.5.1-Q40",
+      "5.5.1-Q42",
+      "5.5.1-Q44",
+      "5.5.1-Q45",
+      "5.5.1-Q46",
+      "5.5.1-Q47"
+    ]
+  }
+}

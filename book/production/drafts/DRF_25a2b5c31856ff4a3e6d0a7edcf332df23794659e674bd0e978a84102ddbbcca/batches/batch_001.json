@@ -1,0 +1,103 @@
+{
+  "batch_number": 1,
+  "claim_ids": [
+    "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493",
+    "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092",
+    "CLM_46632447de2312cc20dd727dbd74fabd9e14c7307329dcc01826b7c5d014151f",
+    "CLM_c9c0d3b54e2e0975677186ca2e95929b2aecd627555c00aa55382303096eb9ed",
+    "CLM_fe28b6811975b01bf9d80552808c35ffb32167a00e70db0f16edc213c2f638cd",
+    "CLM_9e7982232195ab1279c851c6df3fb965d196092c6e1defbcc5a99befbfa8ed4b",
+    "CLM_110cc8fbcce89e99e774f43786925381d44772c241b52d97fcfadf8263f9913c"
+  ],
+  "paragraphs": [
+    [
+      {
+        "claim_ids": [
+          "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+        ],
+        "question_ids": [
+          "1.1-Q01",
+          "1.1-Q02"
+        ],
+        "text": "Tünel, yeraltında yapılacak kazı ile istenilen kesitte boşluk oluşturulması ve bu boşluğun desteklenmesi suretiyle inşa edilen yer altı yapısı olarak tanımlanır."
+      },
+      {
+        "claim_ids": [
+          "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+        ],
+        "question_ids": [
+          "1.1-Q01",
+          "1.1-Q02"
+        ],
+        "text": "Bu tanım, tünelin yalnızca fiziksel bir boşluk değil, aynı zamanda mühendislik müdahalesiyle stabilize edilmiş bir yapı olduğunu vurgular."
+      },
+      {
+        "claim_ids": [
+          "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+        ],
+        "question_ids": [
+          "1.1-Q01",
+          "1.1-Q03"
+        ],
+        "text": "Farklı meslek grupları tüneli; yaratılan mekan, taşıyıcı kabuk sistemi, kazılması ve desteklenmesi gereken ortam veya kendini taşıyan doğal ortam olarak dört farklı boyutta temsil eder."
+      },
+      {
+        "claim_ids": [
+          "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+        ],
+        "question_ids": [
+          "1.1-Q03",
+          "1.1-Q07"
+        ],
+        "text": "Bu çok boyutlu temsil, tünel tanımının disiplinler arası bir kesişim noktası olduğunu gösterir."
+      },
+      {
+        "claim_ids": [
+          "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+        ],
+        "question_ids": [
+          "1.1-Q03",
+          "1.1-Q05"
+        ],
+        "text": "Geçici şefler oluşturularak yapının inşa edilmesi ve üzerinin veya yanlarının doldurulması şeklinde yapılan yapılar, açık kapalı tünel olarak ayrı bir alt tanım altında ele alınır."
+      },
+      {
+        "claim_ids": [
+          "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+        ],
+        "question_ids": [
+          "1.1-Q04"
+        ],
+        "text": "Yüzeysel kazı, açık yarmalar ve diğer toprak işleri, tünel yapımına ait şartların kapsamı dışında tutulur."
+      },
+      {
+        "claim_ids": [
+          "CLM_c9c0d3b54e2e0975677186ca2e95929b2aecd627555c00aa55382303096eb9ed"
+        ],
+        "question_ids": [
+          "1.1-Q08"
+        ],
+        "text": "Karayolu tünel mühendisliğinde tünel, güzergahın stabilite sorunları, çevresel koruma alanları veya yoğun trafik nedeniyle açık kazı yapılamayan kesimlerde teknik ve ekonomik bir çözüm olarak değerlendirilir."
+      },
+      {
+        "claim_ids": [
+          "CLM_fe28b6811975b01bf9d80552808c35ffb32167a00e70db0f16edc213c2f638cd"
+        ],
+        "question_ids": [
+          "1.1-Q09"
+        ],
+        "text": "Tünel inşası, doğal yapıyı bozmamak, pahalı istimlaklardan kaçınmak veya doğal engelleri aşmak gibi stratejik amaçlara hizmet eder."
+      }
+    ]
+  ],
+  "question_ids": [
+    "1.1-Q01",
+    "1.1-Q02",
+    "1.1-Q03",
+    "1.1-Q04",
+    "1.1-Q05",
+    "1.1-Q07",
+    "1.1-Q08",
+    "1.1-Q09"
+  ]
+}

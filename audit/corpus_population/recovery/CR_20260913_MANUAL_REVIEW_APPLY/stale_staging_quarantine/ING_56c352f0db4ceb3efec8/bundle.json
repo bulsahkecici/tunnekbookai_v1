@@ -1,0 +1,34 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_56c352f0db4ceb3efec8",
+  "original_sha256": "56c352f0db4ceb3efec84d3631a249a62adb611945b148811391897f613e49d6",
+  "source_kind": "MANUAL_INTERNAL",
+  "format": "DOCX",
+  "title": "agenda 56725 TR",
+  "final_primary_section": "2.4.3",
+  "final_secondary_sections": [
+    "3"
+  ],
+  "final_section_confidence": 0.85,
+  "final_evidence_level": "STRUCTURED_DOCUMENT",
+  "content_capabilities": {
+    "text": true,
+    "tables": true,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_56c352f0db4ceb3efec8",
+  "original_archive": "originals/ING_56c352f0db4ceb3efec8",
+  "chunks_authoritative_path": "processing/ING_56c352f0db4ceb3efec8/chunks/chunk_manifest.jsonl",
+  "chunk_count": 14,
+  "chunk_quality_status": "WARN",
+  "canonical_promoted": false
+}

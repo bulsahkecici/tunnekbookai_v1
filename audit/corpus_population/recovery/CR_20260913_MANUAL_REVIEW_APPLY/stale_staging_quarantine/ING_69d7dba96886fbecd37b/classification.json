@@ -1,0 +1,117 @@
+{
+  "final_primary_section": "6",
+  "final_secondary_sections": [
+    "4.3.5",
+    "2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "6",
+      "section_title": "TÜNEL YAPIM MALİYETLERİ",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "4.3.5",
+      "section_title": "Tünel Yaşam Döngü Maliyetleri",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6.1",
+      "score": 0.3722,
+      "rule_score": 0.0,
+      "embedding_score": 0.8272,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3713,
+      "rule_score": 0.0,
+      "embedding_score": 0.8252,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6",
+      "score": 0.3711,
+      "rule_score": 0.0,
+      "embedding_score": 0.8247,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7",
+      "score": 0.3699,
+      "rule_score": 0.0,
+      "embedding_score": 0.8221,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3.5",
+      "score": 0.3699,
+      "rule_score": 0.0,
+      "embedding_score": 0.822,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3699,
+      "rule_score": 0.0,
+      "embedding_score": 0.8219,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3684,
+      "rule_score": 0.0,
+      "embedding_score": 0.8187,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.368,
+      "rule_score": 0.0,
+      "embedding_score": 0.8178,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2924,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.5455
+    },
+    {
+      "id": "1.1",
+      "score": 0.2379,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2727
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC Tünel El Kitabı'nın 'Strateji ve Genel Tasarım' bölümüne ait bağlantıları içermektedir. Bu bölüm, tünellerin yaşam döngüsü, maliyetler, yenileme ve genel tasarım ilkelerini kapsamaktadır. Aday listesindeki '6: TÜNEL YAPIM MALİYETLERİ' ve '4.3.5: Tünel Yaşam Döngü Maliyetleri' bu içeriğin finansal ve stratejik boyutlarını en iyi yansıtan bölümlerdir. '2: TÜNEL ANA ELEMANLARI...' ise ge",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:1",
+    "embeddings:8",
+    "top=6.1:0.3722 gap=0.001 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

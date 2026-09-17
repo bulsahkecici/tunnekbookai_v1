@@ -1,0 +1,540 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_aefa816131c9b93f1594fb2f9638ccffe9df6dc5bfeb6b5765de6f15b1c5ef2b",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 0,
+    "SUPPORTED": 0,
+    "UNSUPPORTED": 50
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_0650d6fa981ba4577c1afcbf0479c0892564cf0541bede08aa32f3a1d5bf29e4",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi altında ele alınan temel araştırma problemi nedir?",
+      "question_id": "6.1.3-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi hangi ana soruya cevap vermeyi amaçlamaktadır?",
+      "question_id": "6.1.3-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi hangi alt araştırma sorularına ayrılabilir?",
+      "question_id": "6.1.3-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi neden tünel mühendisliği ve kamu yönetimi açısından önemlidir?",
+      "question_id": "6.1.3-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi literatürdeki hangi boşluğu doldurmayı hedeflemektedir?",
+      "question_id": "6.1.3-Q05",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi uygulamada hangi kararları desteklemeyi amaçlamaktadır?",
+      "question_id": "6.1.3-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında hangi tünel türleri dahil edilmiştir?",
+      "question_id": "6.1.3-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında hangi tünel türleri hariç tutulmuştur?",
+      "question_id": "6.1.3-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında coğrafi sınırlar nasıl belirlenmiştir?",
+      "question_id": "6.1.3-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında zaman aralığı nasıl belirlenmiştir?",
+      "question_id": "6.1.3-Q10",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında analiz birimi nedir?",
+      "question_id": "6.1.3-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında örneklem veya evren nasıl tanımlanmıştır?",
+      "question_id": "6.1.3-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında veri kaynakları nelerdir?",
+      "question_id": "6.1.3-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında idari kayıtlar nasıl kullanılmıştır?",
+      "question_id": "6.1.3-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında proje ve keşif verileri nasıl kullanılmıştır?",
+      "question_id": "6.1.3-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında bakım ve işletme kayıtları nasıl kullanılmıştır?",
+      "question_id": "6.1.3-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında maliyet verilerinin para birimi ve baz yılı nasıl tanımlanmıştır?",
+      "question_id": "6.1.3-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında hangi bağımlı veya hedef değişkenler kullanılmıştır?",
+      "question_id": "6.1.3-Q18",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında hangi açıklayıcı değişkenler kullanılmıştır?",
+      "question_id": "6.1.3-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında kategorik değişkenler nasıl tanımlanmıştır?",
+      "question_id": "6.1.3-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında sayısal değişkenler nasıl tanımlanmıştır?",
+      "question_id": "6.1.3-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında değişkenlerin birimleri açıkça belirtilmiş midir?",
+      "question_id": "6.1.3-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında veri temizleme adımları nelerdir?",
+      "question_id": "6.1.3-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında eksik veriler nasıl ele alınmıştır?",
+      "question_id": "6.1.3-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında aykırı değerler nasıl belirlenmiştir?",
+      "question_id": "6.1.3-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında mükerrer kayıtlar nasıl kontrol edilmiştir?",
+      "question_id": "6.1.3-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında fiyat farkı, enflasyon veya döviz etkileri nasıl düzeltilmiştir?",
+      "question_id": "6.1.3-Q27",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında kullanılan tanımlayıcı istatistikler nelerdir?",
+      "question_id": "6.1.3-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında kullanılan karşılaştırmalı istatistik yöntemleri nelerdir?",
+      "question_id": "6.1.3-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında kullanılan ilişki veya korelasyon analizleri nelerdir?",
+      "question_id": "6.1.3-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında kullanılan regresyon veya tahmin yöntemleri nelerdir?",
+      "question_id": "6.1.3-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında kullanılan makine öğrenmesi yöntemleri varsa neden seçilmiştir?",
+      "question_id": "6.1.3-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında model doğrulama yaklaşımı nedir?",
+      "question_id": "6.1.3-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında performans ölçütleri nasıl seçilmiştir?",
+      "question_id": "6.1.3-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında istatistiksel anlamlılık ile pratik önem nasıl ayrıştırılmıştır?",
+      "question_id": "6.1.3-Q35",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında alt grup analizleri yapılmış mıdır?",
+      "question_id": "6.1.3-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında tünel uzunluğu, yöntem, zemin ve benzeri özellikler kontrol edilmiş midir?",
+      "question_id": "6.1.3-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında değişkenler arası çoklu bağlantı veya bağımlılık sorunları incelenmiş midir?",
+      "question_id": "6.1.3-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında sonuçların sağlamlığı için duyarlılık analizleri yapılmış mıdır?",
+      "question_id": "6.1.3-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında kullanılan veri ve yöntemlerin yeniden üretilebilirliği nasıl sağlanmıştır?",
+      "question_id": "6.1.3-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında veri kalitesinin sınırlılıkları nelerdir?",
+      "question_id": "6.1.3-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında seçim yanlılığı veya temsil sorunu var mıdır?",
+      "question_id": "6.1.3-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında ölçüm ve kayıt hatalarının etkisi nedir?",
+      "question_id": "6.1.3-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında genellenebilirlik sınırları nelerdir?",
+      "question_id": "6.1.3-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında hangi varsayımlar yapılmıştır?",
+      "question_id": "6.1.3-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında hangi etik, kurumsal veya veri gizliliği hususları dikkate alınmıştır?",
+      "question_id": "6.1.3-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında yöntem seçiminin alternatifleri nelerdir?",
+      "question_id": "6.1.3-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında yöntemin güçlü yönleri nelerdir?",
+      "question_id": "6.1.3-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi kapsamında yöntemin zayıf yönleri nelerdir?",
+      "question_id": "6.1.3-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Çalışmanın Yöntemi açıklaması okuyucunun sonuçların nasıl üretildiğini baştan sona yeniden kurmasına yeterli midir?",
+      "question_id": "6.1.3-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "6.1.3",
+  "section_title": "Çalışmanın Yöntemi",
+  "writer_constraints": {
+    "allowed_claim_ids": [],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "6.1.3-Q01",
+      "6.1.3-Q02",
+      "6.1.3-Q03",
+      "6.1.3-Q04",
+      "6.1.3-Q05",
+      "6.1.3-Q06",
+      "6.1.3-Q07",
+      "6.1.3-Q08",
+      "6.1.3-Q09",
+      "6.1.3-Q10",
+      "6.1.3-Q11",
+      "6.1.3-Q12",
+      "6.1.3-Q13",
+      "6.1.3-Q14",
+      "6.1.3-Q15",
+      "6.1.3-Q16",
+      "6.1.3-Q17",
+      "6.1.3-Q18",
+      "6.1.3-Q19",
+      "6.1.3-Q20",
+      "6.1.3-Q21",
+      "6.1.3-Q22",
+      "6.1.3-Q23",
+      "6.1.3-Q24",
+      "6.1.3-Q25",
+      "6.1.3-Q26",
+      "6.1.3-Q27",
+      "6.1.3-Q28",
+      "6.1.3-Q29",
+      "6.1.3-Q30",
+      "6.1.3-Q31",
+      "6.1.3-Q32",
+      "6.1.3-Q33",
+      "6.1.3-Q34",
+      "6.1.3-Q35",
+      "6.1.3-Q36",
+      "6.1.3-Q37",
+      "6.1.3-Q38",
+      "6.1.3-Q39",
+      "6.1.3-Q40",
+      "6.1.3-Q41",
+      "6.1.3-Q42",
+      "6.1.3-Q43",
+      "6.1.3-Q44",
+      "6.1.3-Q45",
+      "6.1.3-Q46",
+      "6.1.3-Q47",
+      "6.1.3-Q48",
+      "6.1.3-Q49",
+      "6.1.3-Q50"
+    ]
+  }
+}

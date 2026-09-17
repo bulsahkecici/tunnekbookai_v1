@@ -1,0 +1,195 @@
+{
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [
+    "2.4.1",
+    "2.2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "PARA0001",
+        "HEAD0002",
+        "HEAD0006",
+        "PARA0020",
+        "PARA0022",
+        "PARA0023",
+        "PARA0024",
+        "PARA0025",
+        "PARA0163",
+        "PARA0172",
+        "PARA0199",
+        "PARA0231",
+        "PARA0234",
+        "PARA0236",
+        "PARA0237",
+        "PARA0239",
+        "PARA0243",
+        "PARA0246",
+        "PARA0251",
+        "PARA0254",
+        "PARA0268",
+        "PARA0271",
+        "PARA0279",
+        "PARA0282",
+        "PARA0287"
+      ]
+    },
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": [
+        "PARA0021",
+        "PARA0221",
+        "PARA0231",
+        "PARA0232",
+        "PARA0237",
+        "PARA0239",
+        "PARA0244",
+        "PARA0246",
+        "PARA0247",
+        "HEAD0023",
+        "PARA0249",
+        "PARA0250",
+        "PARA0253",
+        "TABLE0008",
+        "CAPT0001",
+        "PARA0259",
+        "PARA0289",
+        "PARA0303",
+        "PARA0317",
+        "PARA0328",
+        "PARA0343",
+        "PARA0353",
+        "PARA0384",
+        "FIG0007",
+        "FIG0008"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0020",
+        "PARA0021",
+        "PARA0022",
+        "PARA0023",
+        "PARA0025",
+        "PARA0191",
+        "PARA0197",
+        "PARA0201",
+        "PARA0203",
+        "PARA0205",
+        "PARA0221",
+        "PARA0231",
+        "PARA0232",
+        "PARA0233",
+        "PARA0234",
+        "PARA0235",
+        "PARA0237",
+        "PARA0239",
+        "PARA0244",
+        "PARA0246",
+        "PARA0247",
+        "LIST0001",
+        "HEAD0023",
+        "PARA0249",
+        "PARA0250"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7967,
+      "rule_score": 0.6,
+      "embedding_score": 0.8143,
+      "chunk_vote": 0.2514
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.7216,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8017,
+      "chunk_vote": 0.0264
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.7132,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7948,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1",
+      "score": 0.3714,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1068
+    },
+    {
+      "id": "2.4",
+      "score": 0.3677,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1885
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3646,
+      "rule_score": 0.0,
+      "embedding_score": 0.8103,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.359,
+      "rule_score": 0.0,
+      "embedding_score": 0.7978,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3587,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0436
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3582,
+      "rule_score": 0.0,
+      "embedding_score": 0.7961,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.358,
+      "rule_score": 0.0,
+      "embedding_score": 0.7955,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Çubukbeli Tüneli için kazı ve destek sistemlerinin tasarımına odaklanan bir tezdir. Başlık ve içerik (NATM, sonlu elemanlar analizi, destek elemanları) doğrudan 'Tünel Yapı/Destek Elemanları' (2.1) bölümüyle örtüşmektedir. Jeolojik incelemeler (2.4.1) ve kayaç zemin (2.2.1) ise tasarımın temelini oluşturduğu için ikincil bölümler olarak değerlendirilmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7967 gap=0.075 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

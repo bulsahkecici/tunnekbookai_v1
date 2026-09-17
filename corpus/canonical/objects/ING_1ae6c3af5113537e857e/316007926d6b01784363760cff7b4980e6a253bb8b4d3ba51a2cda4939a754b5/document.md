@@ -1,0 +1,431 @@
+## Automated Construction Cost Estimation System Using DB Modeling of a TBM Construction Classification System
+
+Park Hong Tae 1 and Boo-Hyung Lee 2 *
+
+1 Department of Civil Engineering, Kongju National University, 275 Budae-dong, Seobuk-gu, Cheonan-si, Chungnam 331-717, Republic of Korea 2 Department of Computer Science &amp; Engineering, Kongju National University, 275 Budae-dong, Seobuk-gu, Cheonan-si, Chungnam 331-717, Republic of Korea {htpark, bhl1998} @ kongju.ac.kr
+
+## Abstract
+
+In this study, a work information classification system for the TBM tunnel construction was  proposed  along  with  a  conceptual  model  of  an  automated  cost  estimation  system, with the goal of relieving the cumbersome operation of existing systems. The conceptual modeling of the automated cost estimation system involves systematizing the construction cost  estimation  process,  by  organizing  a  work  information  classification  system  in  the form of a relational data base which reflects the processes that comprise the construction work.  This  proposed  automation  system  is  expected  to  be  effectively  applied  to  TBM tunnel construction sites as a scientific cost estimation system.
+
+Keywords : TBM tunnel construction, work information classification system, relational data base, automated cost estimation system
+
+## 1. Introduction
+
+A  cost  estimation  system  using  a  scientific  approach  to  provide  construction  cost estimation  has  to  be  consistent.  For  the  system  to  have  maximum  effect,  a  systematic work  information  classification  system  and  computer  system  have  to  be  set  up  as priorities. However, in existing cost estimation systems, the operators have to classify and input work information one by one, followed by the analysis process, so cost estimation system operators need to be sufficiently knowledgeable for the system to be useful.
+
+Various tunneling methods are utilized in Korea today including NATM, SHIELD, and TBM depending  on  geological  conditions,  such  as  terrain  and  rock  quality.  But  after 1990, the use of the TBM method, which is a large-diameter tunnel excavation method, increased due to various complaints, labor cost increases, reduction in construction time, and  government  establishment  of  construction  standards.  According  to  statistical  data provided  by  the  International  Tunneling  Association  (ITA),  around  30%  of  the  tunnels constructed in the U.S., Austria, and Germany have used the TBM method [1]. The TBM method has also been actively utilized in consideration of the global push for industrial disaster  prevention  and  environmental  protection,  because  the  method  repeats  the processes of excavation, mucking, and support.
+
+Prior  to  undertaking  this  research,  domestic  and  international  previous  studies  were surveyed with regard to a preliminary cost estimation method. Park et al. [1] presented the basic data for golf course construction cost prediction in the initial planning stage based on a formula that estimates construction cost by considering the construction scale and time  of  actual  construction  data  for  other  golf  courses  constructed  in  similar  locations. Kim  [2]  developed a cost estimation model  for power  plant construction using construction  models  of  similar  construction  types,  and  Kim  [3]  derived  a  preliminary construction cost estimation model for the basic design stage of the RC Rahmen Bridge.
+
+Also,  Han  [5]  derived  a  construction  cost  estimation  model  formula  based  on  detailed statements  from  city  subway  construction  data.  International  literature  on  the  subject includes  the  study  of  Williams,  C.  Miller,  P.E.  Leonard  Gallina  [6]  which  proposed  a method for managing estimates and costs for gas construction design, and Dodge, W. J [7] who presented a model method for estimating possible financial support when predicting facility  capital  cost.  In  this  manner,  previous  studies  were  also  carried  out  that  mainly concerned golf courses, plants, apartments, and roads [8]
+
+As an alternative, in this study, a work information classification system for the TBM tunnel  construction  was  proposed  along  with  a  conceptual  model  of  an  automated  cost estimation  system,  with  the  goal  of  relieving  the  cumbersome  operation  of  existing systems.  The  conceptual  modeling  of  the  automated  cost  estimation  system  involves systematizing the construction cost estimation process, by organizing a work information classification system in the form of a relational data base which reflects the processes that comprise  the  construction  work.  This  cost  estimation  automation  system  conceptual model resolved the issue of inconvenience which exists in the operation of existing cost estimation systems, where the basic data for the cost estimation had to be inputted one by one.  This  proposed  automation  system  is  expected  to  be  effectively  applied  to  TBM tunnel construction sites as a scientific cost estimation system.
+
+## 2. TBM Construction Work Information Classification System
+
+In  this  study,  a  work  information  classification  system  standard  for  TBM  tunnel construction is  presented, and  based  on  this standard,  a  work  information  classification system is constructed. Also, the construction types within each information classification system are connected to the entire range of construction codes as the Key Field. Using this approach, the cost estimation automation relational D/B structure and cost estimation automation data modeling were carried out
+
+## 2.1. Work Information Classification System Composition
+
+Construction projects can be classified into functional components which represent the basic  configuration  for  each  facility  or  structure,  and  these  functional  component classifications are individually related to specific work components. In addition, the work components  classification  corresponds  to  resource  components,  including  their  specific functionality  and  equipment,  depending  on  the  material  used.  When  put  together  in  a hierarchy, these 4 classifications systematize the work information classification system, and produces a form that is similar to faceted classification. As shown in Figure 1, the TBM tunnel construction information classification system is composed in a hierarchical order of facility component-functional component-work component-resource component. Figure 2 shows the TBM tunnel construction information classification system based on Figure  1. The  function  division  is  categorized  into  two  classifications.  The  first  is  a facility classification, based on the facility or structure type, which in this case is the TBM tunnel  construction  diameter  (for  example,  ø2.6  TBM  tunnel  construction,  ø3.0  TBM tunnel construction, ø3.5 TBM tunnel construction, ø5.0 TBM tunnel construction, ø8.0 TBM tunnel construction). The second is a functional component classification based on the structure type for each facility or structure (for example, TBM excavation, mucking process, support construction, lining and waterproof work, machinery and electrical work, subsidiary  work).  This  completes  the  sub-commodity  classification  that  composes  all tunnel construction.
+
+Figure 1. TBM Tunnel Construction Information Classification System
+
+<!-- image -->
+
+Flow chart
+
+## 2.2. Detailed Classification of the TBM Tunnel Construction Information Classification System
+
+The  TBM  tunnel  construction  information  classification  system  is  divided  into  a facility  component,  functional  component,  work  component,  and  resource  component according to the standard presented in Figs. 1 and 2. The constituents of each component are  independent  of  each  other,  and  systematic  code  numbers  were  assigned  in  order  to keep the constituents independent. Using the codes for the constituents of each LEVEL, the degradation and aggregation of each commodity comprising the construction can be performed.
+
+## 2.2.1. Facility Component Classification
+
+This  is  the  highest  level  classification  for  the  TBM  tunnel  construction  and  this classification  refers  to  the  facility  or  structure.  The  TBM  tunnel  construction  uses excavation equipment of ø2.6M , ø3.0M, ø3.5M, ø5.0M, and ø8.0M, and the TBM tunnel construction of each diameter comprises the facility component classification.
+
+## ACODE       DES
+
+- 2.6-1    ø2.6 TBM Tunnel Construction
+- 2.6-2    ø3.0 TBM Tunnel Construction
+- 2.6-3    ø3.5 TBM Tunnel Construction
+- 2.6-4    ø5.0 TBM Tunnel Construction
+- 2.6-5    ø8.0 TBM Tunnel Construction
+
+## 2.2.2. Functional Component Classification
+
+The  functional  component  classification  is  composed  of  the  subcategories  of  the categories  within  the  facility  component  and  it  is  composed  of  independent  structures with  independent  functionality.  Hence,  the  TBM  tunnel  construction  is  carried  out  per structure, corresponding to the TBM excavation work per diameter, the mucking process work, support construction work, lining and waterproofing work, machinery and electrical work,  and  subsidiary  work.  These  work  types  become  the  functional  component classification.
+
+## BCODE       DES
+
+- 2.6-10    ø2.6 TBM Excavation Work
+- 2.6-20    ø2.6 Mucking Process Work
+- 2.6-30    ø2.6 Support Construction Work
+- 2.6-40    ø2.6 Lining and Waterproofing Work
+- 2.6-50    ø2.6 Machinery and Electrical Work
+- 2.6-60    ø2.6 Subsidiary Work
+- 3.0-10   ø3.0 TBM Excavation Work
+
+- 3.0-20   ø3.0 Mucking Process Work
+- 3.0-30   ø3.0 Support Construction Work
+- 3.0-40   ø3.0 Lining and Waterproofing Work
+- 3.0-50   ø3.0 Machinery and Electrical Work
+- 3.0-60   ø3.0 Subsidiary Work
+
+## 2.2.3. Work Component Classification
+
+The work component  classification is composed  of sub-sub-commodity works conducted  directly  on-site,  among  the  commodities  that  comprise  the  TBM  tunnel construction.  In  other  words,  the  work  component  classifications  correspond  to  works with  direct  resource  input,  essentially  the  lowest  steps  in  the  work  type  classification. These works are connected to the corresponding cost estimate, construction quantity, and
+
+resource.
+
+- CCODE       DES
+- 2.6-100   ø2.6 TBM Excavation
+- 2.6-110        TBM Excavation Work
+- 2.6-120        PILOT Excavation(NATM)
+- 2.6-200   ø2.6 Mucking Process Work
+- 2.6-210        Underground Mucking Process Work
+- 2.6-220        PILOT Underground Mucking Process
+- 2.6-230        Surface Mucking Process Work
+- 2.6-240        PILOT Surface Mucking Process
+- 2.6-300   ø2.6 Support Construction Work
+- 2.6-310        ROCK BOLT Installation
+- 2.6-320        PILOT ROCK BOLT
+- 2.6-330        SHOTCRETE Installation
+- 2.6-340        PILOT SHOTCRETE
+- 2.6-350        STEEL RIB Installation
+- 2.6-360        PILOT STEEL RIB
+- 2.6-370        Reinforcement Method
+- 2.6-400   ø2.6 Lining and Waterproofing Work
+- 2.6-410        STEEL FORM Installation and Dismantling
+- 2.6-420        Concrete Underground Transportation
+- 2.6-430        Lining Concrete Deposition
+- 2.6-440        Waterproofing SHEET
+- 2.6-450        BACK FILL GROUTING
+- 2.6-500  ø2.6 Machinery and Electrical Work
+- 2.6-600  ø2.6 Subsidiary Work
+- 3.0-100  ø3.0 TBM Excavation
+- 3.0-110       TBM Excavation Work
+- 3.0-120       PILOT Excavation(NATM)
+- 3.0-2008 ø3.0 Mucking Process Work
+- 3.0-210       Underground Mucking Process Work
+- 3.0-220       PILOT Underground Mucking Process
+- 3.0-230       Surface Mucking Process Work
+- 3.0-240       PILOT Surface Mucking Process
+- 3.0-300  ø2.6 Support Construction Work
+- 3.0-310       ROCK BOLT Installation
+- 3.0-320       PILOT ROCK BOLT
+- 3.0-330       SHOTCRETE Installation          .
+
+## 2.2.4. Resource Component Classification
+
+The  work  classification  system  is  a  collection  of  construction  work  component classifications (facility component, functional component, work component), completing the work breakdown related to the TBM tunnel construction. Among these, the lowermost commodity work component involves the direct input of resources. Thus, this resource component  classification  includes  the  excavation  unit  cost,  mucking  process  unit  cost, support construction unit cost, and lining concrete deposition unit cost for the excavation of sound rock, regular rock, soft rock, and weathered rock
+
+| DCODE   | DES                                                  |
+|---------|------------------------------------------------------|
+| Exc-01  | ø2.6 TBM Main Line Excavation (sound rock)           |
+| Exc-01  | ø2.6 TBM Main Line Excavation (regular rock)         |
+| Exc-01  | ø2.6 TBM Main Line Excavation (soft rock)            |
+| Exc-01  | ø2.6 TBM Main Line Excavation (weathered rock)       |
+| Exc-02  | ø2.6 PILOT Excavation(NATM)                          |
+| Und-01  | ø2.6 Underground Mucking Process (sound rock)        |
+| Und-01  | ø2.6 Underground Mucking Process (regular rock)      |
+| Und-01  | ø2.6 Underground Mucking Process (soft rock)         |
+| Und-01  | ø2.6 Underground Mucking Process (weathered rock)    |
+| Und-02  | ø2.6 PILOT Underground Mucking Process               |
+| Und-03  | ø2.6 Surface Mucking Transportation (sound rock)     |
+| Und-03  | ø2.6 Surface Mucking Transportation (regular rock)   |
+| Und-03  | ø2.6 Surface Mucking Transportation (soft rock)      |
+| Und-03  | ø2.6 Surface Mucking Transportation (weathered rock) |
+| Und-04  | ø2.6 PILOT Surface Mucking Transportation            |
+| Roc-01  | ø2.6 TBM ROCK BOLT (sound rock)                      |
+| Roc-01  | ø2.6 TBM ROCK BOLT (regular rock)                    |
+| Roc-01  | ø2.6 TBM ROCK BOLT (soft rock)                       |
+| Roc-01  | ø2.6 TBM ROCK BOLT (weathered rock)                  |
+| Roc-02  | ø2.6 PILOT ROCK BOLT                                 |
+| Sho-01  | ø2.6 TBM SHOTCRETE-Light Fiber (sound rock)          |
+| Sho-01  | ø2.6 TBM SHOTCRETE-Light Fiber (regular rock)        |
+| Sho-01  | ø2.6 TBM SHOTCRETE-Light Fiber (soft rock)           |
+| Sho-01  | ø2.6 TBM SHOTCRETE-Light Fiber (weathered rock)      |
+| Sho-03  | ø2.6 PILOT SHOTCRETE-Light Fiber                     |
+| Ste-01  | ø2.6 TBM STEEL RIB                                   |
+| Ste-02  | ø2.6 PILOT STEEL RIB                                 |
+| Rei-01  | ø2.6 Reinforcement Method                            |
+| Lin-01  | ø2.6 STEEL FORM Installation and Dismantling         |
+| Lin-02  | ø2.6 Concrete Underground Transportation             |
+| Lin-03  | ø2.6 Lining Concrete Deposition                      |
+| Lin-04  | ø2.6 Waterproofing SHEET                             |
+| Lin-05  | ø2.6 BACK FILL GROUTING                              |
+| Mac-01  | ø2.6 Machinery and Electrical Work                   |
+| Sub-01  | ø2.6 Subsidiary Work .                               |
+
+## 3. Cost Estimation Automation Model
+
+In  this  study,  the  information  management  system  comprising  the  cost  estimation automation relational D/B structure shown in Figure 2, which is based on the TBM tunnel construction work information classification system of Section 2, is largely composed of the function division classification and work division classification. Also, each classification automatically connects related information by connecting the major codes to the Key Field. First, the function division classification and work division classification are  connected  to  the  relational  database  of  [facility  component  classification-functional component classification-work component classification-resource component classification]  based  on  the  TBM  tunnel  construction  work  information  classification system  described  in  Section  2.  Also,  the  lowermost  classification  [resource  component classification]  of  the  work  information  classification  system  is  connected  to  the  [cost estimate  code-resource  quantity-resource  code]  through  the  [cost  estimate  code]  as  the medium  and  to  the  [resource  unit  cost]  through  the  [resource  code]  as  the  medium. Moreover, when the user inputs the [construction quantity] in the [QUANTITY] resource component classification, the construction cost is calculated automatically by multiplying the R(QUANTITY) with the Unit Cost(COST), and the D/B structure is constructed so that the total construction cost is calculated by aggregating the construction cost for each classification system. First, the function division classification and work  division classification are connected to the relational database of [facility component classification-functional component classification-work component classificationresource component classification] based on the TBM  tunnel construction work information classification system described in Section 2. Also, the lowermost classification [resource component classification] of the work information classification system is connected to the [cost estimate code-resource quantity-resource code] through the  [cost  estimate  code]  as  the  medium  and  to  the  [resource  unit  cost]  through  the [resource  code]  as  the  medium.  Moreover,  when  the  user  inputs  the  [construction quantity] in the [QUANTITY] resource component classification, the construction cost is calculated automatically by multiplying the R(QUANTITY) with the Unit Cost(COST), and the  D/B  structure  is  constructed  so  that  the  total  construction  cost  is  calculated  by aggregating the construction cost for each classification system.
+
+Figure 8. Relational Data Base Structure for Automated Cost Estimating
+
+<!-- image -->
+
+Flow chart
+
+## 3.1. Cost Estimation Automation Data Modeling Work Information Classification System Composition
+
+This section presents data modeling based on the cost estimation automation relational D/B  structure discussed in the previous section. The  cost estimation automation conceptual modeling, which uses the TBM tunnel construction information classification system  presented  in  Figure  1,  is  composed  of  the  Table  1  Facility  Classification (ACODE)  D/B,  the  Table  2  Functional  Component  Classification  (BCODE)  D/B,  the Table  3  Work  Classification  (CCODE),  the  Table  4  Resource  Classification  (DCODE) D/B,  and  the  Table  5  Unit  Price  D/B.  The  commodities  within  each  classification  are interconnected from the upper commodity codes to the lower commodity codes through the Key Field . The [ACODE] work commodity of Table 1 is connected to the [BCODE] work  commodity  of  Table  2,  and  the  [BCODE]  work  commodity  is  connected  to  the [CCODE] work commodity of Table 3. The [CCODE] work commodity of Table 3 is connected to the production [PCODE] and construction quantity [QUANTITY] as well as being connected to the production quantity [RQUANTITY] through the Table 4 [PCODE] as the medium and to the resource unit cost [COST] of Table 5 through the [RCODE] as the medium, so when the user directly inputs the construction quantity to [QUANTITY] of  Table  3,  automated  cost  estimation  is  carried  out  for  the  TBM  tunnel  construction. Table 1~Table 5 presents the TBM tunnel construction cost estimation automation data modeling using this work information classification system, and Tables 6 and 7 show the results of the automated cost estimation performed by the described process
+
+Table 1. Facility Classification (ACODE) Information Data Base
+
+| ACODE   | DES                          |   BCODE |
+|---------|------------------------------|---------|
+| 2.6-1   | ø2.6 TBM Tunnel Construction |     2.6 |
+| 2.6-2   | ø3.0 TBM Tunnel Construction |         |
+| 2.6-3   | ø3.5 TBM Tunnel Construction |         |
+| 2.6-4   | ø5.0 TBM Tunnel Construction |         |
+| 2.6-5   | ø8.0 TBM Tunnel Construction |         |
+
+Table 2. Functional Component Classification (BCODE) Information Data Base
+
+| BCODE   | DES                                | CCODE1   |
+|---------|------------------------------------|----------|
+| 2.6-10  | ø2.6 TBM Excavation Work           | 2.6-100  |
+| 2.6-20  | ø2.6 Mucking Process Work          | 2.6-200  |
+| 2.6-30  | ø2.6 Support Construction Work     | 2.6-300  |
+| 2.6-40  | ø2.6 Lining and Waterproofing Work | 2.6-400  |
+| 2.6-50  | ø2.6 Machinery and Electrical Work | 2.6-500  |
+| 2.6-60  | ø2.6 Subsidiary Work               | 2.6-600  |
+| 3.0-10  | ø3.0 TBM Excavation Work           |          |
+| 3.0-20  | ø3.0 Mucking Process Work          |          |
+| 3.0-30  | ø3.0 Support Construction Work     |          |
+| 3.0-40  | ø3.0 Lining and Waterproofing Work |          |
+| 3.0-50  | ø3.0 Machinery and Electrical Work |          |
+| 3.0-60  | ø3.0 Subsidiary Work               |          |
+
+Table 3. Work Classification (CCODE) Information Data Base
+
+| CCODE    | DES                                   | DCODE   |   QUANTITY |
+|----------|---------------------------------------|---------|------------|
+| 2.6-100  | ø2.6 TBM Excavation                   |         |            |
+| 2.6-110  | TBM Excavation Work                   | Exc-01  |      2,800 |
+| 2.6-120  | PILOT Excavation(NATM)                | Exc-02  |         20 |
+| 2.6-200  | ø2.6 Underground Mucking Process Work |         |            |
+| 2.6-210  | Underground Mucking Process Work      | Und-01  |      2,800 |
+| 2.6-220  | PILOT Underground Mucking Process     | Und-02  |         20 |
+| 2.6-230  | Surface Mucking Process Work          | Und-03  |      2,800 |
+| 2.6-240  | PILOT Surface Mucking Process         | Und-04  |         20 |
+| 2.6-300  | ø2.6 Support Construction Work        |         |            |
+| 2.6- 310 | ROCK BOLT Installation                | Roc-01  |      2,800 |
+| 2.6- 320 | PILOT ROCK BOLT                       | Roc-02  |         20 |
+| 2.6- 330 | SHOTCRETE Installation                | Sho-01  |      2,800 |
+| 2.6- 340 | PILOT SHOTCRETE                       | Sho-02  |         20 |
+| 2.6- 350 | STEEL RIB Installation                | Ste-01  |      2,800 |
+
+| 2.6- 360   | PILOT STEEL RIB                         | Ste-02   |    20 |
+|------------|-----------------------------------------|----------|-------|
+| 2.6- 370   | Reinforcement Method                    | Rei-01   |     1 |
+| 2.6-400    | ø2.6 Lining and Waterproofing Work      |          |       |
+| 2.6-410    | STEEL FORM Installation and Dismantling | Lin-01   | 3,000 |
+| 2.6-420    | Concrete Underground Transportation     | Lin-02   | 3,000 |
+| 2.6-430    | Lining Concrete Deposition              | Lin-03   | 3,000 |
+| 2.6-440    | Waterproofing SHEET                     | Lin-04   | 3,000 |
+| 2.6-450    | BACK FILL GROUTING                      | Lin-05   | 3,000 |
+| 2.6-500    | ø2.6 Machinery and Electrical Work      | Mac-01   | 3,000 |
+| 2.6-600    | ø2.6 Subsidiary Work                    | Sub-01   | 3,000 |
+
+Table 4. Resource Classification (DCODE) Information Data Base
+
+| DCODE   | DES                                                  |   RQUANTY | RCODE   |
+|---------|------------------------------------------------------|-----------|---------|
+| Exc-01  | ø2.6 TBM Main Line Excavation (sound rock)           |    2.2600 | T001    |
+| Exc-01  | ø2.6 TBM Main Line Excavation (regular rock)         |    1.6950 | T001    |
+| Exc-01  | ø2.6 TBM Main Line Excavation (soft rock)            |    1.1300 | T001    |
+| Exc-01  | ø2.6 TBM Main Line Excavation (weathered rock)       |    0.5650 | T001    |
+| Exc-02  | ø2.6 PILOT Excavation(NATM)                          |    8.0000 | T005    |
+| Und-01  | ø2.6 Underground Mucking Process (sound rock)        |    2.2600 | T010    |
+| Und-01  | ø2.6 Underground Mucking Process (regular rock)      |    1.6950 | T010    |
+| Und-01  | ø2.6 Underground Mucking Process (soft rock)         |    1.1593 | T010    |
+| Und-01  | ø2.6 Underground Mucking Process (weathered rock)    |    0.5796 | T010    |
+| Und-02  | ø2.6 PILOT Underground Mucking Process               |    8.1500 | T015    |
+| Und-03  | ø2.6 Surface Mucking Transportation (sound rock)     |    2.2600 | T020    |
+| Und-03  | ø2.6 Surface Mucking Transportation (regular rock)   |    1.6950 | T020    |
+| Und-03  | ø2.6 Surface Mucking Transportation (soft rock)      |    1.1593 | T020    |
+| Und-03  | ø2.6 Surface Mucking Transportation (weathered rock) |    0.5796 | T020    |
+| Und-04  | ø2.6 PILOT Surface Mucking Transportation            |    8.1500 | T025    |
+| Roc-01  | ø2.6 TBM ROCK BOLT (sound rock)                      |    0.3543 | T030    |
+| Roc-01  | ø2.6 TBM ROCK BOLT (regular rock)                    |    0.3989 | T030    |
+| Roc-01  | ø2.6 TBM ROCK BOLT (soft rock)                       |    0.5321 | T030    |
+| Roc-01  | ø2.6 TBM ROCK BOLT (weathered rock)                  |    0.4654 | T030    |
+| Roc-02  | ø2.6 PILOT ROCK BOLT                                 |    3.5000 | T035    |
+| Sho-01  | ø2.6 TBM SHOTCRETE-Light Fiber (sound rock)          |    0.0000 | T040    |
+| Sho-01  | ø2.6 TBM SHOTCRETE-Light Fiber (regular rock)        |    0.0000 | T041    |
+| Sho-01  | ø2.6 TBM SHOTCRETE-Light Fiber (soft rock)           |    0.1668 | T042    |
+| Sho-01  | ø2.6 TBM SHOTCRETE-Light Fiber (weathered rock)      |    0.0832 | T043    |
+| Sho-03  | ø2.6 PILOT SHOTCRETE-Light Fiber                     |    1.0500 | T044    |
+| Ste-01  | ø2.6 TBM STEEL RIB                                   |    0.1329 | T065    |
+| Ste-02  | ø2.6 PILOT STEEL RIB                                 |    1.0000 | T070    |
+| Rei-01  | ø2.6 Reinforcement Method                            |    1.0000 | T075    |
+| Lin-01  | ø2.6 STEEL FORM Installation and Dismantling         |    1.0000 | T080    |
+| Lin-02  | ø2.6 Concrete Underground Transportation             |    2.1803 | T085    |
+| Lin-03  | ø2.6 Lining Concrete Deposition                      |    2.1803 | T090    |
+| Lin-04  | ø2.6 Waterproofing SHEET                             |    8.1623 | T095    |
+| Lin-05  | ø2.6 BACK FILL GROUTING                              |    2.1803 | T100    |
+| Mac-01  | ø2.6 Machinery and Electrical Work                   |    1.0000 | T105    |
+| Sub-01  | ø2.6 Subsidiary Work                                 |    1.0000 | T110    |
+
+Table 5. Unit Price Item Information Data Base
+
+| RCODE   | DES                                             | UNIT   | COST        |
+|---------|-------------------------------------------------|--------|-------------|
+| T001    | ø2.6 Main Line Excavation                       | M3     | 120,000     |
+| T005    | ø2.6 PILOT Excavation                           | M3     | 45,000      |
+| T010    | ø2.6 Underground Mucking Process                | M3     | 45,000      |
+| T015    | ø2.6 PILOT Underground Mucking Process          | M3     | 40,000      |
+| T020    | ø2.6 Surface Mucking Transportation             | M3     | 10,000      |
+| T025    | ø2.6 PILOT Surface Mucking Transportation       | M3     | 10,000      |
+| T030    | ø2.6 TBM ROCK BOLT                              | EA     | 52,000      |
+| T035    | ø2.6 PILOT ROCK BOLT                            | EA     | 48,000      |
+| T040    | ø2.6 TBM SHOTCRETE (Light Fiber )sound rock     | M3     | -           |
+| T041    | ø2.6 TBM SHOTCRETE (Light Fiber) regular rock   | M3     | -           |
+| T042    | ø2.6 TBM SHOTCRETE (Light Fiber) soft rock      | M3     | 335,000     |
+| T043    | ø2.6 TBM SHOTCRETE (Light Fiber) weathered rock | M3     | 335,000     |
+| T044    | ø2.6 PILOT SHOTCRETE (Light Fiber)              | M3     | 320,000     |
+| T065    | ø2.6 TBM STEEL RIB                              | SET    | 550,000     |
+| T075    | ø2.6 Reinforcement Method                       | Method | 200,000,000 |
+| T080    | ø2.6 STEEL FORM Installation and Dismantling    | M      | 380,000     |
+| T085    | ø2.6 Concrete Underground Transportation        | M      | 25,000      |
+| T090    | ø2.6 Lining Concrete Deposition                 | M3     | 80,000      |
+| T095    | ø2.6 Waterproofing SHEET                        | M2     | 25,000      |
+| T100    | ø2.6 BACK FILL GROUTING                         | Work   | 150,000     |
+| T105    | ø2.6 Machinery and Electrical Work              | M      | 480,000     |
+| T110    | ø2.6 Subsidiary Work                            | M      | 480,000     |
+
+Table 6. Cost Aggregate of Functional Component Classification
+
+| WBS    | Commodity                        | Φ2.6m      | Φ2.6m       | Φ2.6m    | Φ2.6m         |
+|--------|----------------------------------|------------|-------------|----------|---------------|
+| WBS    | Commodity                        | Production | Unit Cost   | Quantity | Cost          |
+| 2.6-10 | TBM Excavation                   | 13.65      | 525,000     | 11,220   | 1,905,600,000 |
+| 2.6-20 | Underground Mucking Process      | 13.8439    | 220,000     | 11,220   | 723,955,000   |
+| 2.6-20 | Surface Mucking Process (L=10KM) | 13.8439    | 50          | 11,220   | 161,060,000   |
+| 2.6-30 | Reinforcement Work               | 8.6836     | 202,316,000 | 19,661   | 914,484,000   |
+| 2.6-40 | Lining and Waterproofing Work    | 13.7222    | 666,000     | 15,000   | 2,528,680,000 |
+| 2.6-50 | Machinery and Electrical Work    | 1.0000     | 730,000     | 3,000    | 2,190,000,000 |
+| 2.6-60 | Subsidiary Work                  | 1.0000     | 480,000     | 3000     | 1,440,000,000 |
+| Total  | Total                            |            |             |          | 9,863,779,000 |
+
+Table 7. Cost Aggregate of Work Classification
+
+|        |                         |      | Φ2.6m      | Φ2.6m     | Φ2.6m    | Φ2.6m       |
+|--------|-------------------------|------|------------|-----------|----------|-------------|
+| WBS    | Commodity               | Unit | Production | Unit Cost | Quantity | Cost        |
+| 2.6-10 | TBM Excavation          |      |            |           |          |             |
+|        | TBM Excavation(t-1)     | ㎥    | 2.2600     | 120,000   | 2,800    | 759,360,000 |
+|        | TBM Excavation(t-2)     | ㎥    | 1.6950     | 120,000   | 2,800    | 569,520,000 |
+|        | TBM Excavation(t-3)     | ㎥    | 1.1300     | 120,000   | 2,800    | 379,680,000 |
+|        | TBM Excavation(t-4)     | ㎥    | 0.5650     | 120,000   | 2,800    | 189,840,000 |
+|        | PILOT Excavation (NATM) | ㎥    | 8.0000     | 45,000    | 20       | 7,200,000   |
+
+| Total   |                                         |         |        |              |       |   1,905,600,000 |
+|---------|-----------------------------------------|---------|--------|--------------|-------|-----------------|
+| 2.6-20  | Underground Mucking Process             |         |        |              |       |                 |
+| 21      | Underground Mucking Process             | ㎥       | 2.2600 | 45,000       | 2,800 |     284,760,000 |
+| 22      | Underground Mucking Process             | ㎥       | 1.6950 | 45,000       | 2,800 |     213,570,000 |
+| 23      | Underground Mucking Process             | ㎥       | 1.1593 | 45,000       | 2,800 |     146,070,000 |
+| 24      | Underground Mucking Process             | ㎥       | 0.5796 | 45,000       | 2,800 |      73,035,000 |
+| 25      | PILOT Underground Mucking Process       | ㎥       | 8.1500 | 40,000       | 20    |       6,520,000 |
+| Total   | Total                                   | Total   | Total  | Total        | Total |     723,955,000 |
+| 2.6-20  | Surface Mucking Process(L=10KM)         |         |        |              |       |                 |
+| 21      | Surface Mucking Process                 | ㎥       | 2.2600 | 10,000       | 2,800 |      63,280,000 |
+| 22      | Surface Mucking Process                 | ㎥       | 1.6950 | 10,000       | 2,800 |      47,460,000 |
+| 23      | Surface Mucking Process                 | ㎥       | 1.1593 | 10,000       | 2,800 |      32,460,000 |
+| 24      | Surface Mucking Process                 | ㎥       | 0.5796 | 10,000       | 2,800 |      16,230,000 |
+| 25      | PILOT Surface Mucking Process           | ㎥       | 8.1500 | 10,000       | 20    |       1,630,000 |
+| Total   | Total                                   | Total   | Total  | Total        | Total |     161,060,000 |
+| 2.6-30  | Reinforcement Work                      |         |        |              |       |                 |
+| 31      | ROCKBOLT Installation                   |         |        |              |       |                 |
+| 32      | TBM ROCKBOLT                            | EA      | 0.3543 | 52,000       | 2,800 |      51,584,000 |
+| 33      | TBM ROCKBOLT                            | EA      | 0.3989 | 52,000       | 2,800 |      58,084,000 |
+| 34      | TBM ROCKBOLT                            | EA      | 0.5321 | 52,000       | 2,800 |      77,480,000 |
+|         | TBM ROCKBOLT                            | EA      | 0.4654 | 52,000       | 2,800 |      67,756,000 |
+|         | PILOT ROCKBOLT                          | EA      | 3.5000 | 48,000       | 20    |       3,360,000 |
+|         | SHOTCRETE                               |         |        |              |       |                 |
+|         | TBM SHOTCRETE (Steel Fiber)             | ㎥       |        |              |       |                 |
+|         | TBM SHOTCRETE (Steel Fiber)             | ㎥       |        |              |       |                 |
+|         | TBM SHOTCRETE (Steel Fiber)             | ㎥       | 0.1668 | 335,000      | 2,800 |     156,445,000 |
+|         | TBM SHOTCRETE (Steel Fiber)             | ㎥       | 0.0832 | 335,000      | 2,800 |      78,055,000 |
+|         | PILOT SHOTCRETE (Steel Fiber)           | ㎥       | 1.0500 | 320,000      | 20    |       6,720,000 |
+|         | STEEL RIB                               |         |        |              |       |                 |
+|         | TBM STEEL RIB                           | SET     | 0.1329 | 550,000      | 2,800 |     204,600,000 |
+|         | PILOT STEEL RIB                         | SET     | 1.0000 | 520,000      | 20    |      10,400,000 |
+|         | Reinforcement Method                    |         |        |              |       |                 |
+|         | Reinforcement Method                    | Meth od | 1.0000 | 200,000,00 0 | 1     |     200,000,000 |
+| Total   | Total                                   | Total   | Total  | Total        | Total |     914,484,000 |
+| 2.6-40  | Lining and Waterproofing Work           |         |        |              |       |                 |
+| 41      | STEEL FORM Installation and Dismantling | M       | 1.0000 | 380,000      | 3,000 |   1,140,000,000 |
+| 42      | CON'C Underground Transportation        | ㎥       | 2.1803 | 25,000       | 3,000 |     163,525,000 |
+| 43      | LINING CON'C                            | ㎥       | 2.1803 | 80,000       | 3,000 |     523,280,000 |
+
+|           | Deposition                    |       |        |         |       |               |
+|-----------|-------------------------------|-------|--------|---------|-------|---------------|
+| 44        | Waterproofing SHEET           | ㎡     | 8.1623 |  25,000 | 3,000 |   612,175,000 |
+| 45        | BACKFILL GROUTING             | Wor k | 0.1993 | 150,000 | 3,000 |    89,700,000 |
+| Total     | Total                         |       |        |         |       | 2,528,680,000 |
+| 2.6-50    | Machinery and Electrical Work |       | 1.0000 | 730,000 | 3,000 | 2,190,000,000 |
+| Total     | Total                         |       |        |         |       | 2,190,000,000 |
+| 2.6-60    | Subsidiary Work               |       | 1.0000 | 480,000 |  3000 | 1,440,000,000 |
+| Total     | Total                         |       |        |         |       | 1,440,000,000 |
+| Net Total | Net Total                     |       |        |         |       | 9,863,779,000 |
+
+## 3.2. Preliminary Construction Cost Prediction Formula Model According to the TBM Diameter
+
+The direct construction cost prediction formula model was obtained using spreadsheets based  on  the  construction  cost  data  per  TBM  diameter  of  Table.7,  analyzed  in  the previous section, and the result is shown in Table. 9. In order to verify the validity of the regression analysis  equations,  the  construction  cost  per  m  obtained  from  the  regression analysis result of the subsidiary work construction cost in Table 8, and the construction cost per m of Table. 7 are compared and the result is shown in Table. 9. Analysis of Table. 9  showed  that  a  deviation  existed  in  the  construction  cost  of  10,000  Korean  Won,  and taking  into  consideration  the  construction  cost  of  a  TBM  tunnel  construction,  this deviation  of  10,000  Won  was  determined  to  be  negligible.  So  the  regression  analysis equations  presented  in  this  study  were  determined  to  be  very  reliable.  The  regression analysis equations for the remaining commodities showed correlation coefficients above R² = 0.9210, demonstrating their high reliability.
+
+Table 8. Regression Analysis and Correlation Coefficient for Each TBM Tunnel Construction Commodity
+
+| Commodity                        | Regression Analysis Equation   | Correlation Coefficient   |
+|----------------------------------|--------------------------------|---------------------------|
+| TBM Excavation Work              | y = 411998x - 558579           | R² = 0.9867               |
+| Underground Mucking Process Work | y = 136323x - 100412           | R² = 0.9799               |
+| Surface Mucking Process(L=10KM)  | y = 84750x - 189509            | R² = 0.9835               |
+| Reinforcement Work               | y = 134036x - 793420           | R² = 0.9710               |
+| Lining and Waterproofing Work    | y = 264185x + 178680           | R² = 0.9993               |
+| Machinery and Electrical Work    | y = 71099x + 563743            | R² = 0.9210               |
+| Subsidiary Work                  | y = 38359x + 376454            | R² = 0.9902               |
+| Indirect Construction Cost       | y = 376375x + 620580           | R² = 0.9986               |
+| Total Construction Cost          | y = 2E+06x + 274471            | R² = 0.9986               |
+
+Table 9. Comparison of the Subsidiary Work and Regression Analysis Derived Construction Costs
+
+| Category                   | Construction Cost   | Construction Cost   | Construction Cost   | Construction Cost   | Construction Cost   |
+|----------------------------|---------------------|---------------------|---------------------|---------------------|---------------------|
+|                            | ø2.6m               | ø3.0m               | ø3.5m               | ø5.0m               | ø8.0m               |
+| Subsidiary Work            | 476,187             | 491,531             | 510,711             | 568,249             | 683,326             |
+| Regression Analysis Result | 480,000             | 490,000             | 500,000             | 580,000             | 680,000             |
+| Deviation                  | -3,813              | +1,531              | +10,711             | -11,751             | +3,326              |
+
+## 4. Conclusion
+
+In this study, an operating system utilizing a new cost estimation system was presented to replace the inefficiencies of computer applications in existing cost estimation systems, which lack a standard work information classification system. The main contents of the study  are  as  follows.(1)  A  work  information  classification  system  for  TBM  tunnel construction was presented, which applied classifications of facility-structural componentwork-resource,  along  with  a  structure  that  connects  the  work  information  classification system,  production  information,  and  resource  information  into  a  relational  database.(2) An  automation  model  was  systematically  presented  based  on  the  cost  estimation automation  database  structure,  and  the  cost  estimation  automation  model  concept  was established.  In  this  study,  the  presented  TBM  tunnel  construction  cost  estimation automation model maximized computer operation tasks by implementing a knowledgebased process expressed by a relational database between  the work  information classification system, production information, and resource information.  The  new approach was demonstrated to be superior to existing systems which require the operator to directly input all information relating to the cost estimation.
+
+## References
+
+- [1] J. H. Park, H. T. Park and Y. B. Jeon, 'The Development of Factor Model Based on Actual Work Cost for Golf Courses', Journal of The Korea Academia-Industrial Cooperation Society, (2010) , pp. 620 - 627.
+- [2] G.  H.  Kim,  'Research  on  Power Plant  Construction  Cost  Forecasting  Model  Using  The  Construction Model of A Similar Work', Chung-Ang University, (1988) , pp. 79 - 99.
+- [3] B. S. Kim, 'The basic design Cost Estimation Model for RC rigid frame bridge steps', Journal of Korea Construction Engineering and Management, (2009) , pp. 111 - 119.
+- [4] B. H. Lee, 'Construction Cost Estimating for Project Control', Gumi Publishers, (1992) , pp. 325 - 332.
+- [5] J. U. Han, 'Study on the Model of Subway Cost Forecasting', Chung-Ang University, (1994) , pp. 2 - 55.
+- [6] W. C. Miller and P. E L. Gallina, 'Estimating and cost Control in Plumbing Design', VAN Nostrand ReiHold Company, (1980) .
+- [7] W. J. Dodge, 'The Module Estimating Technique as on Aid in Developing Plant Capital Cost', Journal of the Construction, Div, (1962) .
+- [8] H.  T  Park  and  B.  H  Lee,  'WBS-based  Hierarchical  Classification  and  its  DB  Modeling  of  All Construction  Information  for  Apartment  House',  International  Journal  of  Smart  Home,  vol.  9,  no.  2 (2015) , pp. 133-142.
+
+## Authors
+
+Hong-Tae  Park ,  received  his  M.S.  and  Ph.D.  degrees  in  Civil Engineering  from  Chung-Ang  University,  Korea,  in  1990,  1995, respectively.  He  has  been  professor  in  Department  of  Civil  &amp; Environmental Engineering, Kongju National University. His research interests include construction information classification system, construction project management, cost estimating.
+
+Boo-Hyung  Lee ,  received  his  B.S.,  M.S.  and  Ph.D.  degrees  in Electrical  Engineering  from  Soongsil  University,  Korea,  in  1983, 1991 and 1998, respectively. She has been professor in Department of  Computer  Science  &amp;  Engineering,  Kongju  National  University. She  is  CISA  and  CISSP  and  has  been  included  in  Marquis  Who's Who  in  the  World  since  2011.  Her  research  interests  include  3D object recognition, computer vision, image processing and IT Governance.
+
+<!-- image -->
+
+Photograph
+
+<!-- image -->
+
+Photograph

@@ -1,0 +1,32 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_6ba9584fcdfdca8c91f6",
+  "original_sha256": "6ba9584fcdfdca8c91f6ed1462db0fadbd2f4c81e4f1f4542b0a1a95494be7f5",
+  "source_kind": "MANUAL_INTERNAL",
+  "format": "PDF",
+  "title": "TÜNEL KALICI KAPLAMA TASARIM YAKLAŞIMI, ANALİZ VE TAHKİK DETAYLARININ İRDELENMESİ",
+  "final_primary_section": "2",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.5875,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": true,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_6ba9584fcdfdca8c91f6",
+  "original_archive": "originals/ING_6ba9584fcdfdca8c91f6",
+  "chunks_authoritative_path": "processing/ING_6ba9584fcdfdca8c91f6/chunks/chunk_manifest.jsonl",
+  "chunk_count": 78,
+  "chunk_quality_status": "PASS",
+  "canonical_promoted": false
+}

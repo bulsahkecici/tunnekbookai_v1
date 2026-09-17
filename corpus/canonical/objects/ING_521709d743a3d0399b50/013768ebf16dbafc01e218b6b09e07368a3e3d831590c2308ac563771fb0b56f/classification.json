@@ -1,0 +1,172 @@
+{
+  "final_primary_section": "2.2",
+  "final_secondary_sections": [
+    "2.1.2",
+    "2.4.2.1",
+    "2.2.1"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0001",
+        "PARA0004",
+        "PARA0006",
+        "PARA0008",
+        "PARA0010",
+        "PARA0012",
+        "HEAD0007",
+        "HEAD0010",
+        "HEAD0012",
+        "PARA0027"
+      ]
+    },
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "LIST0009",
+        "LIST0011",
+        "LIST0012",
+        "LIST0013",
+        "PARA0022",
+        "LIST0014",
+        "LIST0015",
+        "LIST0033",
+        "LIST0034",
+        "PARA0038",
+        "HEAD0022",
+        "LIST0054"
+      ]
+    },
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "LIST0042",
+        "LIST0050",
+        "LIST0056",
+        "LIST0057",
+        "LIST0058",
+        "LIST0060",
+        "LIST0073",
+        "LIST0074"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "LIST0003",
+        "LIST0011",
+        "HEAD0008",
+        "LIST0016",
+        "LIST0017",
+        "LIST0018",
+        "LIST0019",
+        "LIST0020",
+        "LIST0021",
+        "LIST0023",
+        "HEAD0011",
+        "LIST0025",
+        "FIG0020",
+        "LIST0037",
+        "LIST0054"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7668,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8157,
+      "chunk_vote": 0.2209
+    },
+    {
+      "id": "2.2",
+      "score": 0.7264,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7886,
+      "chunk_vote": 0.0799
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.7196,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7777,
+      "chunk_vote": 0.0705
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.686,
+      "rule_score": 0.5,
+      "embedding_score": 0.7889,
+      "chunk_vote": 0.0302
+    },
+    {
+      "id": "2.1",
+      "score": 0.3728,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2139
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3539,
+      "rule_score": 0.0,
+      "embedding_score": 0.7864,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3508,
+      "rule_score": 0.0,
+      "embedding_score": 0.7795,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.777,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2",
+      "score": 0.3496,
+      "rule_score": 0.0,
+      "embedding_score": 0.7768,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3421,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0604
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, NATM (Yeni Avusturya Tünel Açma Yöntemi) metodunun tarihsel gelişimini, temel prensiplerini ve geleneksel yöntemlerden farklarını detaylıca anlatmaktadır. Bu içerik doğrudan 'Tünel Yapım Yöntemleri' (2.2) başlığına aittir. Ayrıca sistematik ankraj ve şap (shotcrete) kullanımı, 'Tünel Destekleme Elemanları' (2.1.2) ile de ilişkilidir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:14",
+    "embeddings:8",
+    "top=2:0.7668 gap=0.040 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,34 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_5c0397948854e544883f",
+  "original_sha256": "5c0397948854e544883ff235182f87928732f2913e66c87168f39bc5debb0b68",
+  "source_kind": "MANUAL_INTERNAL",
+  "format": "PDF",
+  "title": "TAIEX Expert Mission on road tunnel categorization",
+  "final_primary_section": "1.5",
+  "final_secondary_sections": [
+    "5.4"
+  ],
+  "final_section_confidence": 0.85,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": true,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": true,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_5c0397948854e544883f",
+  "original_archive": "originals/ING_5c0397948854e544883f",
+  "chunks_authoritative_path": "processing/ING_5c0397948854e544883f/chunks/chunk_manifest.jsonl",
+  "chunk_count": 377,
+  "chunk_quality_status": "WARN",
+  "canonical_promoted": false
+}

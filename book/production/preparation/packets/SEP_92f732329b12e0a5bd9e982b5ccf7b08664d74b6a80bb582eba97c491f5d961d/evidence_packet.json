@@ -1,0 +1,643 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_cac814d438c703dea514f264ef9b0b704f0f46e0e12e56bef75e7d420b871697",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 17,
+    "SUPPORTED": 6,
+    "UNSUPPORTED": 27
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_92f732329b12e0a5bd9e982b5ccf7b08664d74b6a80bb582eba97c491f5d961d",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması hangi ana ölçütlere göre yapılabilir?",
+      "question_id": "1.2-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a94330702ecad4cc45489e2c7c56a9b559b36094cf8e53b94b2acaf50169de8a"
+      ],
+      "confidence": 0.95,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Sınıflandırılması yapılırken kullanım amacına göre hangi gruplar oluşturulur?",
+      "question_id": "1.2-Q02",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a94330702ecad4cc45489e2c7c56a9b559b36094cf8e53b94b2acaf50169de8a"
+      ],
+      "confidence": 0.95,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Sınıflandırılması yapılırken ulaşım türüne göre hangi gruplar oluşturulur?",
+      "question_id": "1.2-Q03",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a94330702ecad4cc45489e2c7c56a9b559b36094cf8e53b94b2acaf50169de8a",
+        "CLM_8fceec2d071f8260c1954495cf1234eceb95310e97fe97a8536c1f2a323c0e47"
+      ],
+      "confidence": 0.95,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Sınıflandırılması yapılırken yapım yöntemine göre hangi gruplar oluşturulur?",
+      "question_id": "1.2-Q04",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1bf0e7aed2baf732c261f0604adaf73eae19754ce7c47d41e3e52c1cc62f2769",
+        "CLM_a905e1494ae8f2ef73be8566b548c287010776b07f6fc859348999f846bb1a76"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Sınıflandırılması yapılırken zemin veya kaya koşullarına göre hangi gruplar oluşturulur?",
+      "question_id": "1.2-Q05",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_946929eeaf18d3865173862a4c154e49ef7474e398d59d9ef42ebc081b166d29"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması yapılırken geometrik kesite göre hangi gruplar oluşturulur?",
+      "question_id": "1.2-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_61bc074c190c9dde5dd6c5ed6e457ed64b279101c0666b4d0a0d9a8b987c017f",
+        "CLM_0107bff98fd2c635995aaf2ff33b08e5199751d9d7cf35b99ed9b0dc30b8c7fa",
+        "CLM_1eab338ab4ed20cc1d239d7ce4fdbc4ca818aa7ddaa9fc4432f00fbf43af0f13",
+        "CLM_f1efca1e87828ad2d173b1cf122be092823274437502c10073a2f5fe0c32c345"
+      ],
+      "confidence": 0.7,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması yapılırken tünel uzunluğuna göre hangi gruplar oluşturulur?",
+      "question_id": "1.2-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması yapılırken tüp sayısına göre hangi gruplar oluşturulur?",
+      "question_id": "1.2-Q08",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması yapılırken şerit sayısına göre hangi gruplar oluşturulur?",
+      "question_id": "1.2-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_01a9a08b100dd8d2195977e50a64790760daa7dbae2bfba62d0a539c02411d3f"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması yapılırken trafik akış yönüne göre hangi gruplar oluşturulur?",
+      "question_id": "1.2-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması yapılırken örtü kalınlığına göre bir ayrım yapılabilir mi?",
+      "question_id": "1.2-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması yapılırken konum ve topoğrafyaya göre hangi ayrımlar kullanılabilir?",
+      "question_id": "1.2-Q12",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0b21efbd005c346198a9b9d699947dfc77c65b9222e0aca0c6895178ab602590",
+        "CLM_4f3cbaf21f7748330f42680c45679263ec50d154488bbbbd750bd4805fce9eea"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması yapılırken su altı, dağ ve şehir tünelleri nasıl ayrılır?",
+      "question_id": "1.2-Q13",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a94330702ecad4cc45489e2c7c56a9b559b36094cf8e53b94b2acaf50169de8a",
+        "CLM_8fceec2d071f8260c1954495cf1234eceb95310e97fe97a8536c1f2a323c0e47"
+      ],
+      "confidence": 0.95,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Sınıflandırılması yapılırken karayolu, demiryolu ve diğer tünel türleri nasıl farklılaştırılır?",
+      "question_id": "1.2-Q14",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_eb8d064a364ddd4b20dd4a4b18f3b88891788ec259b502f5be975a595c9e327e",
+        "CLM_cebf7f6be3fcb054f040eb0e12b8b5fbc833a2f3178c6c586fe8f41ec9342f94"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması yapılırken NATM, TBM, aç-kapa ve benzeri yöntemler nasıl konumlandırılır?",
+      "question_id": "1.2-Q15",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7d5ec9132bf966fa0656d473fbc859b33462d451150c790c627c16e79487c4f4",
+        "CLM_e4368db5070c0d93728d524901b7f84bb311073de5405bbd8c116dc335a56210"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması yapılırken kaya tünelleri ile yumuşak zemin tünelleri hangi özelliklerle ayrılır?",
+      "question_id": "1.2-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6d9d22e6e848367df4d2cd831ba8add9e22d9558d3761c17c2b59bacef470535",
+        "CLM_ffc056ab36b783ce89c7017fd1a6dc0a5250ef2d945ed8f3646223d632867e47",
+        "CLM_e6b1adc2f94b1b5b35258902fe6ebf006fa93f2f3b89a4cfb2185510a55a1c98"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması yapılırken güvenlik düzeyine ilişkin ölçütler kullanılabilir mi?",
+      "question_id": "1.2-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3ea10be30b7096e7e3bc81245ccbb9df160aaca5b8f658be63ae050deba3c530",
+        "CLM_e6b1adc2f94b1b5b35258902fe6ebf006fa93f2f3b89a4cfb2185510a55a1c98"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması yapılırken tehlikeli madde taşımacılığı gibi işletme özellikleri dikkate alınır mı?",
+      "question_id": "1.2-Q18",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması yapılırken havalandırma sistemine göre hangi ayrımlar mümkündür?",
+      "question_id": "1.2-Q19",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması yapılırken yangın güvenliği donanımına göre bir ayrım yapılabilir mi?",
+      "question_id": "1.2-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması yapılırken bakım ve işletme organizasyonuna göre sınıflar tanımlanabilir mi?",
+      "question_id": "1.2-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması yapılırken maliyet büyüklüğüne göre sınıflandırma anlamlı mıdır?",
+      "question_id": "1.2-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması yapılırken proje ölçeği veya stratejik önem nasıl dikkate alınır?",
+      "question_id": "1.2-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması için Türkiye’de kullanılan resmi sınıflandırmalar nelerdir?",
+      "question_id": "1.2-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e6b1adc2f94b1b5b35258902fe6ebf006fa93f2f3b89a4cfb2185510a55a1c98"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması için uluslararası standartlarda kullanılan sınıflandırmalar nelerdir?",
+      "question_id": "1.2-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Ulusal ve uluslararası Tünellerin Sınıflandırılması yaklaşımları arasında hangi farklar vardır?",
+      "question_id": "1.2-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1bf0e7aed2baf732c261f0604adaf73eae19754ce7c47d41e3e52c1cc62f2769",
+        "CLM_dd192c3243c8d3ebb6dac730f6e70d67340815d87d0821cab6b0dcb2b93256f7"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması için kullanılan sınıf sınırları hangi ölçülebilir parametrelere dayanır?",
+      "question_id": "1.2-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Bir tünelin birden fazla sınıfa aynı anda girmesi mümkün müdür?",
+      "question_id": "1.2-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Sınıflandırma ölçütleri arasında çelişki olduğunda hangi yaklaşım izlenir?",
+      "question_id": "1.2-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a2dab2c57e04660190738c71c1105463fd6bb9f5e323eb978f39a44cc4c68ae9",
+        "CLM_1037389b265eba15ecde5a4221224326d10b52fab791dc3daee844111d7bd433"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması proje tasarım kararlarını nasıl etkiler?",
+      "question_id": "1.2-Q30",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a2dab2c57e04660190738c71c1105463fd6bb9f5e323eb978f39a44cc4c68ae9",
+        "CLM_a905e1494ae8f2ef73be8566b548c287010776b07f6fc859348999f846bb1a76"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması yapım yöntemi seçimini nasıl etkiler?",
+      "question_id": "1.2-Q31",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_66d8fa94c9631f80067eb97e9bdd33fb7e674e28acfc759ca3b0aba6d21d955d",
+        "CLM_75ed4a9688ab402ad9ec43da1e9982f364568a5e088f7947b7a431aa0ea1da9e",
+        "CLM_ebed6317664f74319c7524b32c6d602adf26716fde858198079802f5b904d456",
+        "CLM_5037489421320272fb26056189f931e3da1845c8494c518bf0829e51ed97df70"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Sınıflandırılması destek sistemi seçimini nasıl etkiler?",
+      "question_id": "1.2-Q32",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması elektromekanik sistem tasarımını nasıl etkiler?",
+      "question_id": "1.2-Q33",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması bakım planını nasıl etkiler?",
+      "question_id": "1.2-Q34",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_eb163a5b96e000a2cc60652b3c347a2aec110afc3db7ad6b7045dac25cefb6b7",
+        "CLM_10665edc60be904a5e0f105bf55a698da0899dd2ff5818973d93551bfd9267ed"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması işletme maliyetlerini nasıl etkiler?",
+      "question_id": "1.2-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e6b1adc2f94b1b5b35258902fe6ebf006fa93f2f3b89a4cfb2185510a55a1c98",
+        "CLM_ffc056ab36b783ce89c7017fd1a6dc0a5250ef2d945ed8f3646223d632867e47",
+        "CLM_f10e2faf902c0c442d67c9c278579e18a1f9572974acc46f28d206a018973fcc"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması risk analizini nasıl etkiler?",
+      "question_id": "1.2-Q36",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d89a46aee4c81a56bd6767890b654a9657af7e76c394ff36cbce03901111b589",
+        "CLM_3d0021ab51f52df056b6f79334b38549630d09e054f5f73affb8ada3132b2ba6",
+        "CLM_f10e2faf902c0c442d67c9c278579e18a1f9572974acc46f28d206a018973fcc"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması acil durum planlamasını nasıl etkiler?",
+      "question_id": "1.2-Q37",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması denetim ve performans göstergelerini nasıl etkiler?",
+      "question_id": "1.2-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması veri tabanı ve envanter çalışmalarında nasıl kodlanmalıdır?",
+      "question_id": "1.2-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması için örnek bir karar ağacı nasıl kurulabilir?",
+      "question_id": "1.2-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması için örnek bir sınıflandırma tablosunda hangi sütunlar bulunmalıdır?",
+      "question_id": "1.2-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_61e6e24efc97f5e3e189a1fe9aa447964c66088619457f1458e9b9cc6730c594",
+        "CLM_a905e1494ae8f2ef73be8566b548c287010776b07f6fc859348999f846bb1a76"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Sınıflandırılması için seçilen ölçütlerin gerekçesi nasıl açıklanmalıdır?",
+      "question_id": "1.2-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Sınıflandırılması zaman içinde yeni teknolojiler nedeniyle nasıl değişmiştir?",
+      "question_id": "1.2-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Akıllı tünel sistemleri mevcut Tünellerin Sınıflandırılması yaklaşımlarını değiştiriyor mu?",
+      "question_id": "1.2-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "İklim ve çevresel koşullar Tünellerin Sınıflandırılması içinde ayrı bir ölçüt olarak ele alınmalı mıdır?",
+      "question_id": "1.2-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Sürdürülebilirlik ölçütleri Tünellerin Sınıflandırılması içine nasıl eklenebilir?",
+      "question_id": "1.2-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Yaşam döngüsü maliyetleri Tünellerin Sınıflandırılması ile nasıl ilişkilendirilebilir?",
+      "question_id": "1.2-Q47",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Türkiye’den farklı sınıflara örnek olabilecek karayolu tünelleri hangileridir?",
+      "question_id": "1.2-Q48",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.05,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Dünyadan farklı sınıflara örnek olabilecek karayolu tünelleri hangileridir?",
+      "question_id": "1.2-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_eff3def965c107a120da24bb88f053eba5883f48756e540d8ba1f6990e269c08",
+        "CLM_34667909ef414082fe932c9621acffb5ca5ddb4558e4cf21b2e36a1a500a9a3c",
+        "CLM_dd192c3243c8d3ebb6dac730f6e70d67340815d87d0821cab6b0dcb2b93256f7"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Okuyucu Tünellerin Sınıflandırılması bölümünü tamamladığında bir tüneli hangi temel kriterlerle sınıflandırabilmelidir?",
+      "question_id": "1.2-Q50",
+      "reason_code": "PARTIAL_ONLY"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "1.2",
+  "section_title": "Tünellerin Sınıflandırılması",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_0107bff98fd2c635995aaf2ff33b08e5199751d9d7cf35b99ed9b0dc30b8c7fa",
+      "CLM_01a9a08b100dd8d2195977e50a64790760daa7dbae2bfba62d0a539c02411d3f",
+      "CLM_0b21efbd005c346198a9b9d699947dfc77c65b9222e0aca0c6895178ab602590",
+      "CLM_1037389b265eba15ecde5a4221224326d10b52fab791dc3daee844111d7bd433",
+      "CLM_10665edc60be904a5e0f105bf55a698da0899dd2ff5818973d93551bfd9267ed",
+      "CLM_1bf0e7aed2baf732c261f0604adaf73eae19754ce7c47d41e3e52c1cc62f2769",
+      "CLM_1eab338ab4ed20cc1d239d7ce4fdbc4ca818aa7ddaa9fc4432f00fbf43af0f13",
+      "CLM_34667909ef414082fe932c9621acffb5ca5ddb4558e4cf21b2e36a1a500a9a3c",
+      "CLM_3d0021ab51f52df056b6f79334b38549630d09e054f5f73affb8ada3132b2ba6",
+      "CLM_3ea10be30b7096e7e3bc81245ccbb9df160aaca5b8f658be63ae050deba3c530",
+      "CLM_4f3cbaf21f7748330f42680c45679263ec50d154488bbbbd750bd4805fce9eea",
+      "CLM_5037489421320272fb26056189f931e3da1845c8494c518bf0829e51ed97df70",
+      "CLM_61bc074c190c9dde5dd6c5ed6e457ed64b279101c0666b4d0a0d9a8b987c017f",
+      "CLM_61e6e24efc97f5e3e189a1fe9aa447964c66088619457f1458e9b9cc6730c594",
+      "CLM_66d8fa94c9631f80067eb97e9bdd33fb7e674e28acfc759ca3b0aba6d21d955d",
+      "CLM_6d9d22e6e848367df4d2cd831ba8add9e22d9558d3761c17c2b59bacef470535",
+      "CLM_75ed4a9688ab402ad9ec43da1e9982f364568a5e088f7947b7a431aa0ea1da9e",
+      "CLM_7d5ec9132bf966fa0656d473fbc859b33462d451150c790c627c16e79487c4f4",
+      "CLM_8fceec2d071f8260c1954495cf1234eceb95310e97fe97a8536c1f2a323c0e47",
+      "CLM_946929eeaf18d3865173862a4c154e49ef7474e398d59d9ef42ebc081b166d29",
+      "CLM_a2dab2c57e04660190738c71c1105463fd6bb9f5e323eb978f39a44cc4c68ae9",
+      "CLM_a905e1494ae8f2ef73be8566b548c287010776b07f6fc859348999f846bb1a76",
+      "CLM_a94330702ecad4cc45489e2c7c56a9b559b36094cf8e53b94b2acaf50169de8a",
+      "CLM_cebf7f6be3fcb054f040eb0e12b8b5fbc833a2f3178c6c586fe8f41ec9342f94",
+      "CLM_d89a46aee4c81a56bd6767890b654a9657af7e76c394ff36cbce03901111b589",
+      "CLM_dd192c3243c8d3ebb6dac730f6e70d67340815d87d0821cab6b0dcb2b93256f7",
+      "CLM_e4368db5070c0d93728d524901b7f84bb311073de5405bbd8c116dc335a56210",
+      "CLM_e6b1adc2f94b1b5b35258902fe6ebf006fa93f2f3b89a4cfb2185510a55a1c98",
+      "CLM_eb163a5b96e000a2cc60652b3c347a2aec110afc3db7ad6b7045dac25cefb6b7",
+      "CLM_eb8d064a364ddd4b20dd4a4b18f3b88891788ec259b502f5be975a595c9e327e",
+      "CLM_ebed6317664f74319c7524b32c6d602adf26716fde858198079802f5b904d456",
+      "CLM_eff3def965c107a120da24bb88f053eba5883f48756e540d8ba1f6990e269c08",
+      "CLM_f10e2faf902c0c442d67c9c278579e18a1f9572974acc46f28d206a018973fcc",
+      "CLM_f1efca1e87828ad2d173b1cf122be092823274437502c10073a2f5fe0c32c345",
+      "CLM_ffc056ab36b783ce89c7017fd1a6dc0a5250ef2d945ed8f3646223d632867e47"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "1.2-Q06",
+      "1.2-Q07",
+      "1.2-Q10",
+      "1.2-Q13",
+      "1.2-Q15",
+      "1.2-Q16",
+      "1.2-Q17",
+      "1.2-Q18",
+      "1.2-Q25",
+      "1.2-Q27",
+      "1.2-Q30",
+      "1.2-Q31",
+      "1.2-Q35",
+      "1.2-Q36",
+      "1.2-Q37",
+      "1.2-Q42",
+      "1.2-Q50"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "1.2-Q01",
+      "1.2-Q08",
+      "1.2-Q09",
+      "1.2-Q11",
+      "1.2-Q12",
+      "1.2-Q19",
+      "1.2-Q20",
+      "1.2-Q21",
+      "1.2-Q22",
+      "1.2-Q23",
+      "1.2-Q24",
+      "1.2-Q26",
+      "1.2-Q28",
+      "1.2-Q29",
+      "1.2-Q33",
+      "1.2-Q34",
+      "1.2-Q38",
+      "1.2-Q39",
+      "1.2-Q40",
+      "1.2-Q41",
+      "1.2-Q43",
+      "1.2-Q44",
+      "1.2-Q45",
+      "1.2-Q46",
+      "1.2-Q47",
+      "1.2-Q48",
+      "1.2-Q49"
+    ]
+  }
+}

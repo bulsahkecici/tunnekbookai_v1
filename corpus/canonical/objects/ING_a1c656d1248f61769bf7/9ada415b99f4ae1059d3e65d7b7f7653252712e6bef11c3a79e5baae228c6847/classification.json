@@ -1,0 +1,129 @@
+{
+  "final_primary_section": "2.2.3",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.7432,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.2.3",
+      "section_title": "Su Altında Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0007",
+        "PARA0016",
+        "FIG0002",
+        "PARA0035",
+        "HEAD0011",
+        "PARA0036",
+        "PARA0037",
+        "PARA0038",
+        "FIG0010",
+        "CAPT0009",
+        "PARA0039",
+        "PARA0040",
+        "PARA0042",
+        "PARA0068",
+        "PARA0077",
+        "PARA0103",
+        "PARA0104",
+        "PARA0107",
+        "PARA0113",
+        "PARA0128",
+        "PARA0141",
+        "HEAD0040",
+        "PARA0217",
+        "LIST0063",
+        "LIST0065"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.2.3",
+      "score": 0.7432,
+      "rule_score": 0.6,
+      "embedding_score": 0.7804,
+      "chunk_vote": 0.0602
+    },
+    {
+      "id": "1",
+      "score": 0.4186,
+      "rule_score": 0.0,
+      "embedding_score": 0.7778,
+      "chunk_vote": 0.343
+    },
+    {
+      "id": "2",
+      "score": 0.3839,
+      "rule_score": 0.0,
+      "embedding_score": 0.7863,
+      "chunk_vote": 0.1501
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3543,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0214
+    },
+    {
+      "id": "6.1",
+      "score": 0.3489,
+      "rule_score": 0.0,
+      "embedding_score": 0.7754,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3471,
+      "rule_score": 0.0,
+      "embedding_score": 0.7714,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.3462,
+      "rule_score": 0.0,
+      "embedding_score": 0.7694,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.346,
+      "rule_score": 0.0,
+      "embedding_score": 0.7688,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3453,
+      "rule_score": 0.0,
+      "embedding_score": 0.7674,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3436,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0679
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.2.3:0.7432 gap=0.325 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

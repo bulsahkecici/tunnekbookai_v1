@@ -1,0 +1,123 @@
+{
+  "final_primary_section": "5.4",
+  "final_secondary_sections": [
+    "5.4.2"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "LIST0022",
+        "LIST0023",
+        "LIST0024",
+        "LIST0071",
+        "LIST0072",
+        "LIST0073"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "LIST0004",
+        "LIST0007",
+        "LIST0053",
+        "LIST0056"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9.2",
+      "score": 0.7212,
+      "rule_score": 0.5556,
+      "embedding_score": 0.784,
+      "chunk_vote": 0.0641
+    },
+    {
+      "id": "5.4",
+      "score": 0.676,
+      "rule_score": 0.5,
+      "embedding_score": 0.7799,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.4581,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.6406
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3629,
+      "rule_score": 0.0,
+      "embedding_score": 0.8065,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3618,
+      "rule_score": 0.0,
+      "embedding_score": 0.7908,
+      "chunk_vote": 0.0299
+    },
+    {
+      "id": "2.1",
+      "score": 0.3558,
+      "rule_score": 0.0,
+      "embedding_score": 0.7907,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3531,
+      "rule_score": 0.0,
+      "embedding_score": 0.7846,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3506,
+      "rule_score": 0.0,
+      "embedding_score": 0.779,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3506,
+      "rule_score": 0.0,
+      "embedding_score": 0.7791,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.9",
+      "score": 0.3248,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0961
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, PIARC Yol Tünelleri El Kitabı'ndaki 'Acil Servis Müdahalesi' (Emergency services response) bölümünü ele almaktadır. Bu bölüm, tünellerdeki yangın hortumları, radyo iletişimi ve duman kontrol panelleri gibi sistemlerin işlevselliğini ve bakım gereksinimlerini tanımlar. Bu içerik, doğrudan 'Tünel Bakım-Onarım ve İşletme' (5.4) kapsamına girer. Ayrıca, bahsedilen elektrik-elektronik (radyo) ve",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:4",
+    "embeddings:8",
+    "top=5.9.2:0.7212 gap=0.045 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

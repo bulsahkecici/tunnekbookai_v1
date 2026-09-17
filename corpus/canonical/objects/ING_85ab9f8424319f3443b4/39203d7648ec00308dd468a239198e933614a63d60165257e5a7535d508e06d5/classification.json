@@ -1,0 +1,106 @@
+{
+  "final_primary_section": "5.9.2",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.625,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "LIST0014",
+        "LIST0023"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9.2",
+      "score": 0.625,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7298,
+      "chunk_vote": 0.0543
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3555,
+      "rule_score": 0.0,
+      "embedding_score": 0.732,
+      "chunk_vote": 0.1304
+    },
+    {
+      "id": "5.9.1",
+      "score": 0.3513,
+      "rule_score": 0.0,
+      "embedding_score": 0.7589,
+      "chunk_vote": 0.0489
+    },
+    {
+      "id": "6.2.1",
+      "score": 0.3349,
+      "rule_score": 0.0,
+      "embedding_score": 0.7442,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3332,
+      "rule_score": 0.0,
+      "embedding_score": 0.7404,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "3",
+      "score": 0.3291,
+      "rule_score": 0.0,
+      "embedding_score": 0.7313,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3285,
+      "rule_score": 0.0,
+      "embedding_score": 0.7299,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.4.2",
+      "score": 0.328,
+      "rule_score": 0.0,
+      "embedding_score": 0.7288,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.2946,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0978
+    },
+    {
+      "id": "5.5.1",
+      "score": 0.2749,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1957
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:7",
+    "embeddings:8",
+    "top=5.9.2:0.625 gap=0.270 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

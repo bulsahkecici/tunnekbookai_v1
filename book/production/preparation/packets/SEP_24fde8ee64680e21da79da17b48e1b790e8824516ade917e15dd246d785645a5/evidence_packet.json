@@ -1,0 +1,741 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_ccf692c1d8d1f6ac75ef3dce22fd823bbc218d60f05eb3a58c3cc674dbf546f0",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 30,
+    "SUPPORTED": 12,
+    "UNSUPPORTED": 8
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_24fde8ee64680e21da79da17b48e1b790e8824516ade917e15dd246d785645a5",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Projelendirilmesi nedir ve tünel mühendisliğindeki temel işlevi nedir?",
+      "question_id": "2.4-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b25b0197eef65cb8fe766aeebf154b16013c56a6c4e33ce32582703305ae712e"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi hangi mühendislik problemini çözmeyi amaçlar?",
+      "question_id": "2.4-Q02",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_69e88c4d983887e127781d4542e8319a6dd30ba11e62adf498af8c666a7fd39f",
+        "CLM_3d72ddf1a62ac8d49385575c60f95ed27e5443e0e3717dd7543edb8625d9de34"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi için temel tasarım girdileri nelerdir?",
+      "question_id": "2.4-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_97ba56fb31791500af9a3df4e960b56793f40c23be266f05cb3bfec4ef9f054e",
+        "CLM_989b2837e0e02ec447978fb76ba91898807c09a076c751352448800e133d603d",
+        "CLM_1840a26b1b7eac419a32850f00467b7d9a93e08ffa714331261cf098cc195f26"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi için jeolojik girdiler nelerdir?",
+      "question_id": "2.4-Q04",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_97ba56fb31791500af9a3df4e960b56793f40c23be266f05cb3bfec4ef9f054e",
+        "CLM_1840a26b1b7eac419a32850f00467b7d9a93e08ffa714331261cf098cc195f26"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi için geoteknik girdiler nelerdir?",
+      "question_id": "2.4-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Projelendirilmesi için hidrojeolojik girdiler nelerdir?",
+      "question_id": "2.4-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_97ba56fb31791500af9a3df4e960b56793f40c23be266f05cb3bfec4ef9f054e",
+        "CLM_aa860f22bc906272b5d075ecb63845f8b3f4c896ef94826903db853162544056"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi için topoğrafik ve geometrik girdiler nelerdir?",
+      "question_id": "2.4-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_121ce08426ca8f105b9ae11efba4569a012f247e2aecff0e879aab098bb546f0"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi için trafik ve işletme girdileri nelerdir?",
+      "question_id": "2.4-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ff04da8e39dc0a0b693a9cd4cfed1d0ea4e20294fcdab3da474923cf765e548d",
+        "CLM_9ff51708b904e91c93d1047026be5b2349df4125368a71fce9d5a78a99f0f435"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi seçiminde tünel uzunluğu nasıl etkili olur?",
+      "question_id": "2.4-Q09",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a264a6f023f3c389edd86752bf6cc29467a9a89527232057c6b7bb754d888e81",
+        "CLM_fa781f27be8f61ecbc5b6727a4290282f59267519a53d49704246a5982a8032f"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi seçiminde tünel kesiti ve açıklığı nasıl etkili olur?",
+      "question_id": "2.4-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ef858206bc31c39833058ad37ca6d347307d17679f2d0dc98bd6cedbfc877f42",
+        "CLM_4842f20a7aca291c1fdef3d65c805089f6515fba678f75a4cecf48c4b2eecdfa"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Projelendirilmesi seçiminde örtü kalınlığı nasıl etkili olur?",
+      "question_id": "2.4-Q11",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_40943a3184a839528ea9e4dbb7e7fd45f965b296a8e375441a90335d70a2f2d4",
+        "CLM_23b1a02f3115c191b40dbf0f99463d26ed4d639c2b8b0a8752704e7aa395ef17",
+        "CLM_fa781f27be8f61ecbc5b6727a4290282f59267519a53d49704246a5982a8032f",
+        "CLM_cb34c411190d8cb381dd79c5b16f3bb215a800ed99dea8e30a76bee17d3cccdf"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Projelendirilmesi seçiminde kaya kütlesi veya zemin özellikleri nasıl etkili olur?",
+      "question_id": "2.4-Q12",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ab32549b748a8af101c398e83bcd82bba76baa4700fdb8ba074d6499ced70f0d"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Projelendirilmesi seçiminde yeraltı suyu koşulları nasıl etkili olur?",
+      "question_id": "2.4-Q13",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_989b2837e0e02ec447978fb76ba91898807c09a076c751352448800e133d603d",
+        "CLM_b25b0197eef65cb8fe766aeebf154b16013c56a6c4e33ce32582703305ae712e",
+        "CLM_9ff51708b904e91c93d1047026be5b2349df4125368a71fce9d5a78a99f0f435"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi seçiminde çevresel ve yerleşim koşulları nasıl etkili olur?",
+      "question_id": "2.4-Q14",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9ff51708b904e91c93d1047026be5b2349df4125368a71fce9d5a78a99f0f435",
+        "CLM_24aedb74e587df441b7d3cedceba046f8141ca77137677e3c15878420aebb107"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi seçiminde iş sağlığı ve güvenliği nasıl dikkate alınır?",
+      "question_id": "2.4-Q15",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e4abf086c3106ec2cb441235fe2860b3315f8963ea673b311178dcb01e044f22",
+        "CLM_8bc5977348b9f4d29f46015eb2562108e7f5393e376fe3efe281abbe5db46a67"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi seçiminde yapım süresi nasıl dikkate alınır?",
+      "question_id": "2.4-Q16",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e4abf086c3106ec2cb441235fe2860b3315f8963ea673b311178dcb01e044f22",
+        "CLM_49b7a10854225441ff770969e4e5718a7b84beebdc863f6c08fe088f0158bd2f",
+        "CLM_fa781f27be8f61ecbc5b6727a4290282f59267519a53d49704246a5982a8032f"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi seçiminde ilk yatırım maliyeti nasıl dikkate alınır?",
+      "question_id": "2.4-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_f2fbc1bb3fa73fd2d579ec1823eff199106ec75ecea983e4b91970c4b3851a17",
+        "CLM_9ad2baab92a2dfaae52147c611309bc5d502f6bf73b2f5453b23647d68ac8388"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi seçiminde bakım ve işletme maliyetleri nasıl dikkate alınır?",
+      "question_id": "2.4-Q18",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b25b0197eef65cb8fe766aeebf154b16013c56a6c4e33ce32582703305ae712e",
+        "CLM_25b12eabf293c4d813c49626f9c8512f5060b8d7c6fd21b1d2bcda0cd04b0cab",
+        "CLM_989b2837e0e02ec447978fb76ba91898807c09a076c751352448800e133d603d"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi için hangi alternatif teknik çözümler karşılaştırılabilir?",
+      "question_id": "2.4-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ae3124975c20f5a8310ed2e7f09d4c218b85c610cdd6efd91fbcebaa7d18a807",
+        "CLM_b25b0197eef65cb8fe766aeebf154b16013c56a6c4e33ce32582703305ae712e",
+        "CLM_8480b80a085e9c5caa93864e4974ea943e162e27363daff9379ebad372ed8dc9"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi alternatiflerinin avantajları ve dezavantajları nelerdir?",
+      "question_id": "2.4-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9ff51708b904e91c93d1047026be5b2349df4125368a71fce9d5a78a99f0f435",
+        "CLM_1840a26b1b7eac419a32850f00467b7d9a93e08ffa714331261cf098cc195f26",
+        "CLM_989b2837e0e02ec447978fb76ba91898807c09a076c751352448800e133d603d"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi için karar verme sürecinde hangi teknik kriterlere ağırlık verilmelidir?",
+      "question_id": "2.4-Q21",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_99ee81f5d5491240093b3059c5da9a2009caf8b2f27921c6f4fad3d3d1e1f04b",
+        "CLM_16eeb108c667f378f05d3c68561ca9999c77333341c188e98f3719e58967cf05"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Projelendirilmesi tasarımında hangi hesap yöntemleri kullanılır?",
+      "question_id": "2.4-Q22",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_65b2928d37e29b577d4321f694a0d9b54217db68f796eb550b07d461e6eadbed",
+        "CLM_1d805d116e1db1f89a1599a84973f1d8bfb847e1e847655981a9a3cbbd15570f",
+        "CLM_9e5b0ce5d052c9c77d02af089b00535f8c8ef7fc19921a463d652af37ff45b11"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Projelendirilmesi tasarımında hangi sayısal modelleme yöntemleri kullanılabilir?",
+      "question_id": "2.4-Q23",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b544a983b0d463d5d26cf06190549833a40926ab2907d98143d72f5d989fa66b",
+        "CLM_d94ac23090fbb5022f7363a52c9248260489ab156792fb82dbae54c350a8f0d4"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi tasarımında hangi ampirik sınıflandırmalar kullanılabilir?",
+      "question_id": "2.4-Q24",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.2,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Projelendirilmesi tasarımında hangi güvenlik katsayıları veya performans kriterleri önemlidir?",
+      "question_id": "2.4-Q25",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Projelendirilmesi uygulamasında hangi başlıca malzemeler kullanılır?",
+      "question_id": "2.4-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_85ab0eecc0207bbeefe07bde9a2913457f149b05e0a93e24c018eb7423e5d33c"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi uygulamasında hangi başlıca makine ve ekipmanlar kullanılır?",
+      "question_id": "2.4-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Projelendirilmesi uygulamasının tipik iş sırası nasıldır?",
+      "question_id": "2.4-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1465cd6163d7932299103b11679d42ab63532a4043f36210c70868e180829a6c"
+      ],
+      "confidence": 0.35,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi uygulamasında kalite kontrol nasıl yapılır?",
+      "question_id": "2.4-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9691327d69ad5dc8642ded4fd3e3ff97bf2589017a1f3787a8bee86e1a6b1017"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi uygulamasında saha ölçümleri ve enstrümantasyon nasıl kullanılır?",
+      "question_id": "2.4-Q30",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_9fcf30f9854c230b494c4e1ae15f14b2c30d0f6acf930dcd7e7cd3c5913f2de4",
+        "CLM_3f41511131de73e1541dc24a564b76d6391912da91e2669d608f4763759b567d",
+        "CLM_e4d1b8c7531067b97826330d45a7c865c453aa90b55ff60dcfae03cf1b585bb4"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Projelendirilmesi uygulamasında deformasyonlar nasıl izlenir?",
+      "question_id": "2.4-Q31",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Projelendirilmesi uygulamasında su girişleri nasıl kontrol edilir?",
+      "question_id": "2.4-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6070f87008d18ae2c06b280a42bc4a49ccd3ed560144c94db46789b5e03f80d7",
+        "CLM_dfd4687ce56cd4cf1c0f56dab9ed3feab7dd19a833390fc4b01ccd84d280f07d"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi uygulamasında drenaj ve yalıtım nasıl ele alınır?",
+      "question_id": "2.4-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_93b562e2577578f570ffe3549c6caa9553bfda89a1499d1f10121d6758283678",
+        "CLM_50b08877f4461d9058c4746ff877eef9bdcbaca77351a2c9216d047fbde0427e",
+        "CLM_1840a26b1b7eac419a32850f00467b7d9a93e08ffa714331261cf098cc195f26"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Projelendirilmesi uygulamasında beklenmeyen zemin koşullarına nasıl müdahale edilir?",
+      "question_id": "2.4-Q34",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_37d5248d28eef761a93b7db69ce67d47553c2fa46eaf9df9910d2571dc8dafe0",
+        "CLM_25b12eabf293c4d813c49626f9c8512f5060b8d7c6fd21b1d2bcda0cd04b0cab",
+        "CLM_9d8d0a8b49dab19363af26a6005daacff4c30e426131865468f31bc3b28d3c40"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi uygulamasında en sık görülen teknik riskler nelerdir?",
+      "question_id": "2.4-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_22b22bf58820f519b2447f552763b8b3d0349c76dec1ef7e069db889bb7a526d",
+        "CLM_14370fdd7f5323fb3e31ef9522961de736dc28eced6de87f19e0aeba946324b0",
+        "CLM_3e3acf7f634f3497f1c307fd0ad641ad6f8b4d326f5eb67c6b4fd84b8756e944"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Projelendirilmesi uygulamasında hata veya yetersizlik belirtileri nelerdir?",
+      "question_id": "2.4-Q36",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_93b562e2577578f570ffe3549c6caa9553bfda89a1499d1f10121d6758283678",
+        "CLM_b066c608a1e48ec8375619f385b03e58eedeb1b562d228722670c7a9894de7d2",
+        "CLM_50b08877f4461d9058c4746ff877eef9bdcbaca77351a2c9216d047fbde0427e",
+        "CLM_c24f8caff8bdfb550889caedeb23afffba236383ed881352fe6cf04e6d05622b"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Projelendirilmesi uygulamasında düzeltici ve güçlendirici önlemler nelerdir?",
+      "question_id": "2.4-Q37",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d94ac23090fbb5022f7363a52c9248260489ab156792fb82dbae54c350a8f0d4",
+        "CLM_3465f7086a8d670efb56b62dcbe4b9966949aa19f960537271b44a1447e61cc2"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi ile nihai kaplama arasındaki ilişki nasıl kurulmalıdır?",
+      "question_id": "2.4-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6d7d1cf43f77b3b6e671e28feead6ce49e543ba29420cc45d92e91cb407b0a42",
+        "CLM_e1d60b251bc1f0bd7ec19da10312ea8b47fa809ecf78547ae95f3e2c32825509"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi ile portal tasarımı arasındaki ilişki nedir?",
+      "question_id": "2.4-Q39",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6fe010ed849b2a2f51c075cc7f5c722950d790648c67a621215b36dd97d9aba2",
+        "CLM_2494594ed941efd199dd6262aca76158d9bfcc0bbf7365ef86a6a6b0a442cd74",
+        "CLM_ff04da8e39dc0a0b693a9cd4cfed1d0ea4e20294fcdab3da474923cf765e548d"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Projelendirilmesi ile havalandırma, aydınlatma ve diğer elektromekanik sistemler nasıl koordine edilir?",
+      "question_id": "2.4-Q40",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Projelendirilmesi için uygulanabilir ulusal standart ve şartnameler nelerdir?",
+      "question_id": "2.4-Q41",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_afd1f90acc633b1901808b9c4724657695865c32a69f4e5dc16c69803cbef009",
+        "CLM_237125bd0c4ac242eecd8c5c4bd4973c1b11cef3f39b6e0535b1de4ec2b83cc9"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi için uygulanabilir uluslararası standart ve kılavuzlar nelerdir?",
+      "question_id": "2.4-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_989b2837e0e02ec447978fb76ba91898807c09a076c751352448800e133d603d",
+        "CLM_04034cd7455ac195f8a712194be982b76665f9f0c21ec5a2e3f822f2e7e417a5"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi açısından Karayolları Genel Müdürlüğü uygulamalarında hangi esaslar öne çıkar?",
+      "question_id": "2.4-Q43",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a2da3101ba3648a0a320e93388cf41520c10c231355df1a3f2d3dda3a1d60ae7",
+        "CLM_5df5507cf72c7881922b6fab125de8285b4dd91d31b349a6d501e8476dcd1c82",
+        "CLM_aa860f22bc906272b5d075ecb63845f8b3f4c896ef94826903db853162544056"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Projelendirilmesi için yapım sırasında tutulması gereken kayıtlar nelerdir?",
+      "question_id": "2.4-Q44",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_de9377d2924b44ba3b244232b10bedd4767a98aca28cb2ca20d7a3e7d9063d3c"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi için kabul ve devreye alma kriterleri nelerdir?",
+      "question_id": "2.4-Q45",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1465cd6163d7932299103b11679d42ab63532a4043f36210c70868e180829a6c",
+        "CLM_a2da3101ba3648a0a320e93388cf41520c10c231355df1a3f2d3dda3a1d60ae7",
+        "CLM_9ff51708b904e91c93d1047026be5b2349df4125368a71fce9d5a78a99f0f435"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi kullanım aşamasında nasıl izlenmeli ve denetlenmelidir?",
+      "question_id": "2.4-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3f47e697a0cf56b70f17a2e4e48fa03cdfa671f87ad1bea111ab091c5564b8f0",
+        "CLM_f8b9a3d827b423e6443085811bf52aa97d309a97f20f2a803d422f8116e2d832",
+        "CLM_67faf705200c33c7b59352f680edf9e8e08be7e2aee5e939ae3304513216991c"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünellerin Projelendirilmesi yaşam döngüsü boyunca hangi bakım gereksinimlerini doğurur?",
+      "question_id": "2.4-Q47",
+      "reason_code": "COMPOSITE_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_42eece99741013acaba16b7d59dd32f14d1f54961391c4bb2fdf42fccc7b05f3",
+        "CLM_af5306fe351ba8b43844078cf678b893bb6949db6782e4842f8cff85f4a1fe9c",
+        "CLM_fa741ed57ee3de5b88cd966bc8278ad2d84502eb36efbc5e3af67113bdfbc650"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi sürdürülebilirlik ve çevresel etki açısından nasıl değerlendirilebilir?",
+      "question_id": "2.4-Q48",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b01c3789ec9972ad6eea5f1997b9025703e04551799ed127eb2bb6c1f3b2e369",
+        "CLM_04ddd7bb20ea231f864ab1be360938099408bd255f730f9c7dbb27dbe35fa199",
+        "CLM_dfc93d8de524d4da7ce6129686aa1dae36e09e4710ea12cfefe514ab06082b55"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünellerin Projelendirilmesi ile ilgili Türkiye’den hangi uygulama örnekleri verilebilir?",
+      "question_id": "2.4-Q49",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünellerin Projelendirilmesi ile ilgili dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "2.4-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "2.4",
+  "section_title": "Tünellerin Projelendirilmesi",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_04034cd7455ac195f8a712194be982b76665f9f0c21ec5a2e3f822f2e7e417a5",
+      "CLM_04ddd7bb20ea231f864ab1be360938099408bd255f730f9c7dbb27dbe35fa199",
+      "CLM_121ce08426ca8f105b9ae11efba4569a012f247e2aecff0e879aab098bb546f0",
+      "CLM_14370fdd7f5323fb3e31ef9522961de736dc28eced6de87f19e0aeba946324b0",
+      "CLM_1465cd6163d7932299103b11679d42ab63532a4043f36210c70868e180829a6c",
+      "CLM_16eeb108c667f378f05d3c68561ca9999c77333341c188e98f3719e58967cf05",
+      "CLM_1840a26b1b7eac419a32850f00467b7d9a93e08ffa714331261cf098cc195f26",
+      "CLM_1d805d116e1db1f89a1599a84973f1d8bfb847e1e847655981a9a3cbbd15570f",
+      "CLM_22b22bf58820f519b2447f552763b8b3d0349c76dec1ef7e069db889bb7a526d",
+      "CLM_237125bd0c4ac242eecd8c5c4bd4973c1b11cef3f39b6e0535b1de4ec2b83cc9",
+      "CLM_23b1a02f3115c191b40dbf0f99463d26ed4d639c2b8b0a8752704e7aa395ef17",
+      "CLM_2494594ed941efd199dd6262aca76158d9bfcc0bbf7365ef86a6a6b0a442cd74",
+      "CLM_24aedb74e587df441b7d3cedceba046f8141ca77137677e3c15878420aebb107",
+      "CLM_25b12eabf293c4d813c49626f9c8512f5060b8d7c6fd21b1d2bcda0cd04b0cab",
+      "CLM_3465f7086a8d670efb56b62dcbe4b9966949aa19f960537271b44a1447e61cc2",
+      "CLM_37d5248d28eef761a93b7db69ce67d47553c2fa46eaf9df9910d2571dc8dafe0",
+      "CLM_3d72ddf1a62ac8d49385575c60f95ed27e5443e0e3717dd7543edb8625d9de34",
+      "CLM_3e3acf7f634f3497f1c307fd0ad641ad6f8b4d326f5eb67c6b4fd84b8756e944",
+      "CLM_3f41511131de73e1541dc24a564b76d6391912da91e2669d608f4763759b567d",
+      "CLM_3f47e697a0cf56b70f17a2e4e48fa03cdfa671f87ad1bea111ab091c5564b8f0",
+      "CLM_40943a3184a839528ea9e4dbb7e7fd45f965b296a8e375441a90335d70a2f2d4",
+      "CLM_42eece99741013acaba16b7d59dd32f14d1f54961391c4bb2fdf42fccc7b05f3",
+      "CLM_4842f20a7aca291c1fdef3d65c805089f6515fba678f75a4cecf48c4b2eecdfa",
+      "CLM_49b7a10854225441ff770969e4e5718a7b84beebdc863f6c08fe088f0158bd2f",
+      "CLM_50b08877f4461d9058c4746ff877eef9bdcbaca77351a2c9216d047fbde0427e",
+      "CLM_5df5507cf72c7881922b6fab125de8285b4dd91d31b349a6d501e8476dcd1c82",
+      "CLM_6070f87008d18ae2c06b280a42bc4a49ccd3ed560144c94db46789b5e03f80d7",
+      "CLM_65b2928d37e29b577d4321f694a0d9b54217db68f796eb550b07d461e6eadbed",
+      "CLM_67faf705200c33c7b59352f680edf9e8e08be7e2aee5e939ae3304513216991c",
+      "CLM_69e88c4d983887e127781d4542e8319a6dd30ba11e62adf498af8c666a7fd39f",
+      "CLM_6d7d1cf43f77b3b6e671e28feead6ce49e543ba29420cc45d92e91cb407b0a42",
+      "CLM_6fe010ed849b2a2f51c075cc7f5c722950d790648c67a621215b36dd97d9aba2",
+      "CLM_8480b80a085e9c5caa93864e4974ea943e162e27363daff9379ebad372ed8dc9",
+      "CLM_85ab0eecc0207bbeefe07bde9a2913457f149b05e0a93e24c018eb7423e5d33c",
+      "CLM_8bc5977348b9f4d29f46015eb2562108e7f5393e376fe3efe281abbe5db46a67",
+      "CLM_93b562e2577578f570ffe3549c6caa9553bfda89a1499d1f10121d6758283678",
+      "CLM_9691327d69ad5dc8642ded4fd3e3ff97bf2589017a1f3787a8bee86e1a6b1017",
+      "CLM_97ba56fb31791500af9a3df4e960b56793f40c23be266f05cb3bfec4ef9f054e",
+      "CLM_989b2837e0e02ec447978fb76ba91898807c09a076c751352448800e133d603d",
+      "CLM_99ee81f5d5491240093b3059c5da9a2009caf8b2f27921c6f4fad3d3d1e1f04b",
+      "CLM_9ad2baab92a2dfaae52147c611309bc5d502f6bf73b2f5453b23647d68ac8388",
+      "CLM_9d8d0a8b49dab19363af26a6005daacff4c30e426131865468f31bc3b28d3c40",
+      "CLM_9e5b0ce5d052c9c77d02af089b00535f8c8ef7fc19921a463d652af37ff45b11",
+      "CLM_9fcf30f9854c230b494c4e1ae15f14b2c30d0f6acf930dcd7e7cd3c5913f2de4",
+      "CLM_9ff51708b904e91c93d1047026be5b2349df4125368a71fce9d5a78a99f0f435",
+      "CLM_a264a6f023f3c389edd86752bf6cc29467a9a89527232057c6b7bb754d888e81",
+      "CLM_a2da3101ba3648a0a320e93388cf41520c10c231355df1a3f2d3dda3a1d60ae7",
+      "CLM_aa860f22bc906272b5d075ecb63845f8b3f4c896ef94826903db853162544056",
+      "CLM_ab32549b748a8af101c398e83bcd82bba76baa4700fdb8ba074d6499ced70f0d",
+      "CLM_ae3124975c20f5a8310ed2e7f09d4c218b85c610cdd6efd91fbcebaa7d18a807",
+      "CLM_af5306fe351ba8b43844078cf678b893bb6949db6782e4842f8cff85f4a1fe9c",
+      "CLM_afd1f90acc633b1901808b9c4724657695865c32a69f4e5dc16c69803cbef009",
+      "CLM_b01c3789ec9972ad6eea5f1997b9025703e04551799ed127eb2bb6c1f3b2e369",
+      "CLM_b066c608a1e48ec8375619f385b03e58eedeb1b562d228722670c7a9894de7d2",
+      "CLM_b25b0197eef65cb8fe766aeebf154b16013c56a6c4e33ce32582703305ae712e",
+      "CLM_b544a983b0d463d5d26cf06190549833a40926ab2907d98143d72f5d989fa66b",
+      "CLM_c24f8caff8bdfb550889caedeb23afffba236383ed881352fe6cf04e6d05622b",
+      "CLM_cb34c411190d8cb381dd79c5b16f3bb215a800ed99dea8e30a76bee17d3cccdf",
+      "CLM_d94ac23090fbb5022f7363a52c9248260489ab156792fb82dbae54c350a8f0d4",
+      "CLM_de9377d2924b44ba3b244232b10bedd4767a98aca28cb2ca20d7a3e7d9063d3c",
+      "CLM_dfc93d8de524d4da7ce6129686aa1dae36e09e4710ea12cfefe514ab06082b55",
+      "CLM_dfd4687ce56cd4cf1c0f56dab9ed3feab7dd19a833390fc4b01ccd84d280f07d",
+      "CLM_e1d60b251bc1f0bd7ec19da10312ea8b47fa809ecf78547ae95f3e2c32825509",
+      "CLM_e4abf086c3106ec2cb441235fe2860b3315f8963ea673b311178dcb01e044f22",
+      "CLM_e4d1b8c7531067b97826330d45a7c865c453aa90b55ff60dcfae03cf1b585bb4",
+      "CLM_ef858206bc31c39833058ad37ca6d347307d17679f2d0dc98bd6cedbfc877f42",
+      "CLM_f2fbc1bb3fa73fd2d579ec1823eff199106ec75ecea983e4b91970c4b3851a17",
+      "CLM_f8b9a3d827b423e6443085811bf52aa97d309a97f20f2a803d422f8116e2d832",
+      "CLM_fa741ed57ee3de5b88cd966bc8278ad2d84502eb36efbc5e3af67113bdfbc650",
+      "CLM_fa781f27be8f61ecbc5b6727a4290282f59267519a53d49704246a5982a8032f",
+      "CLM_ff04da8e39dc0a0b693a9cd4cfed1d0ea4e20294fcdab3da474923cf765e548d"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "2.4-Q02",
+      "2.4-Q03",
+      "2.4-Q04",
+      "2.4-Q05",
+      "2.4-Q07",
+      "2.4-Q08",
+      "2.4-Q09",
+      "2.4-Q10",
+      "2.4-Q14",
+      "2.4-Q15",
+      "2.4-Q16",
+      "2.4-Q17",
+      "2.4-Q18",
+      "2.4-Q19",
+      "2.4-Q20",
+      "2.4-Q21",
+      "2.4-Q24",
+      "2.4-Q27",
+      "2.4-Q29",
+      "2.4-Q30",
+      "2.4-Q33",
+      "2.4-Q35",
+      "2.4-Q38",
+      "2.4-Q39",
+      "2.4-Q42",
+      "2.4-Q43",
+      "2.4-Q45",
+      "2.4-Q46",
+      "2.4-Q48",
+      "2.4-Q49"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "2.4-Q01",
+      "2.4-Q06",
+      "2.4-Q25",
+      "2.4-Q26",
+      "2.4-Q28",
+      "2.4-Q32",
+      "2.4-Q41",
+      "2.4-Q50"
+    ]
+  }
+}

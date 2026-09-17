@@ -1,0 +1,89 @@
+{
+  "document_id": "ING_33492a3e3e95d6e412e6",
+  "format": "PDF",
+  "adapter": "pdf",
+  "normalized_markdown_path": "processing/ING_33492a3e3e95d6e412e6/normalized/document.md",
+  "normalized_json_path": "processing/ING_33492a3e3e95d6e412e6/normalized/document.json",
+  "normalized_text_path": "processing/ING_33492a3e3e95d6e412e6/normalized/document.txt",
+  "pages": [
+    "PAGE0001",
+    "PAGE0002",
+    "PAGE0003",
+    "PAGE0004",
+    "PAGE0005",
+    "PAGE0006"
+  ],
+  "figures": [
+    "FIG0001",
+    "FIG0002",
+    "FIG0003"
+  ],
+  "tables": [
+    "TABLE0001",
+    "TABLE0002"
+  ],
+  "charts": [],
+  "slides": [],
+  "sheets": [],
+  "ocr_items": [],
+  "text_elements": 56,
+  "warnings": [
+    "CHART_EXTRACTION_DISABLED_BY_CONFIG",
+    "NATIVE_TEXT_LAYER_THIN_DOCLING_OCR_RECOVERED",
+    "FIGURE_OCR_SKIPPED_PAGE_OCR_ALREADY_RUN"
+  ],
+  "errors": [],
+  "capabilities": {
+    "text": true,
+    "tables": true,
+    "figures": true,
+    "page_snapshots": true,
+    "ocr": true,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "engine": {
+    "docling_status": "SUCCESS",
+    "docling_versions": {
+      "docling": "2.124.0",
+      "docling-core": "2.93.0",
+      "docling-ibm-models": "4.0.1",
+      "docling-parse": "7.16.0"
+    },
+    "docling_options": {
+      "accelerator_options": {
+        "device": "cpu",
+        "num_threads": 4
+      },
+      "accelerator_requested": "cpu",
+      "accelerator_device": "cpu",
+      "accelerator_reason": "explicit_selection",
+      "images_scale": 2.0,
+      "generate_page_images": true,
+      "generate_picture_images": true,
+      "do_table_structure": true,
+      "do_ocr": true,
+      "do_picture_classification": true,
+      "do_formula_enrichment": false,
+      "do_chart_extraction": false,
+      "enable_remote_services": false,
+      "allow_external_plugins": false,
+      "document_timeout": 1800.0,
+      "ocr_options": "RapidOcrOptions",
+      "ocr_accelerator_requested": "cpu",
+      "ocr_accelerator_device": "cpu",
+      "ocr_accelerator_reason": "rapidocr_stability_default",
+      "do_picture_description": false,
+      "converter_cache": "created"
+    },
+    "docling_unsupported_options": [],
+    "chart_status": "DISABLED",
+    "native_text_layer_chars": 18,
+    "native_text_layer": "ABSENT_OCR_RECOVERED"
+  },
+  "page_count": 6,
+  "text_char_count": 12615
+}

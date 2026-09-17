@@ -1,0 +1,133 @@
+{
+  "final_primary_section": "5.9.2",
+  "final_secondary_sections": [
+    "5.9"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9.2",
+      "section_title": "Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0012",
+        "PARA0018",
+        "PARA0020",
+        "PARA0026",
+        "PARA0046",
+        "PARA0048",
+        "PARA0050",
+        "PARA0051",
+        "LIST0008",
+        "LIST0017"
+      ]
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0012",
+        "PARA0018",
+        "PARA0020",
+        "PARA0026",
+        "PARA0046",
+        "PARA0048",
+        "PARA0050",
+        "PARA0051",
+        "LIST0008",
+        "LIST0017"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.9",
+      "score": 0.6796,
+      "rule_score": 0.5,
+      "embedding_score": 0.7753,
+      "chunk_vote": 0.0285
+    },
+    {
+      "id": "5.9.2",
+      "score": 0.6748,
+      "rule_score": 0.5,
+      "embedding_score": 0.7711,
+      "chunk_vote": 0.0142
+    },
+    {
+      "id": "2",
+      "score": 0.3883,
+      "rule_score": 0.0,
+      "embedding_score": 0.7785,
+      "chunk_vote": 0.1897
+    },
+    {
+      "id": "2.2",
+      "score": 0.3705,
+      "rule_score": 0.0,
+      "embedding_score": 0.7834,
+      "chunk_vote": 0.0901
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.351,
+      "rule_score": 0.0,
+      "embedding_score": 0.7801,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3476,
+      "rule_score": 0.0,
+      "embedding_score": 0.7725,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3464,
+      "rule_score": 0.0,
+      "embedding_score": 0.7697,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3456,
+      "rule_score": 0.0,
+      "embedding_score": 0.7679,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3388,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.166
+    },
+    {
+      "id": "5",
+      "score": 0.294,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0949
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, uluslararası bir dergide (International Journal of Occupational Hygiene) yayımlanmış, TBM güvenilirliği üzerine risk analizi (MFMEA) içeren bir akademik çalışmadır. Bu nedenle 'Uluslararası Literatür Taraması' (5.9.2) en uygun birincil bölümdür. Genel literatür taraması (5.9) ise ikincil olarak listelenmiştir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:16",
+    "embeddings:8",
+    "top=5.9:0.6796 gap=0.005 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

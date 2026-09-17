@@ -245,6 +245,8 @@ def describe_figures(provider: VisionProvider, figures: list[dict[str, Any]],
         if figures:
             warnings.append("VISION_NOT_RUN")
         return warnings
+    cache: dict[str, dict[str, Any]] = getattr(provider, "_figure_result_cache", {})
+    provider._figure_result_cache = cache
     for figure in figures:
         rel = figure.get("path")
         if not rel:
@@ -252,9 +254,26 @@ def describe_figures(provider: VisionProvider, figures: list[dict[str, Any]],
         path = root / rel if not Path(rel).is_absolute() else Path(rel)
         if not path.is_file():
             continue
-        result = provider.describe(path, context=figure.get("caption"))
+        width = int(figure.get("width") or 0)
+        height = int(figure.get("height") or 0)
+        too_small = bool(width and height and (min(width, height) < 24 or width * height < 4096))
+        digest = str(figure.get("pixel_digest") or "")
+        cached = cache.get(digest) if digest else None
+        result = (
+            empty_result(NOT_RUN, provider.name, getattr(provider, "model", None))
+            if too_small
+            else dict(cached) if cached is not None
+            else provider.describe(path, context=figure.get("caption"))
+        )
+        cache_hit = cached is not None
+        if digest and not cache_hit and result.get("visual_description_status") in {
+            SUCCESS, NOT_RUN,
+        }:
+            cache[digest] = dict(result)
         figure["visual_description_status"] = result["visual_description_status"]
         figure["visual_description"] = result["visual_description"]
         figure["vision_provider"] = result["provider"]
         figure["vision_model"] = result["model"]
+        figure["vision_cache_hit"] = cache_hit
+        figure["vision_skip_reason"] = "TOO_SMALL" if too_small else None
     return warnings

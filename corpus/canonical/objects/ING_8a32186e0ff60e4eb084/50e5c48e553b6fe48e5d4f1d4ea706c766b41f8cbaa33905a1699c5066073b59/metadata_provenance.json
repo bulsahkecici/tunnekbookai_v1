@@ -1,0 +1,90 @@
+{
+  "document_id": "ING_8a32186e0ff60e4eb084",
+  "fields": [
+    {
+      "field": "title",
+      "value": "Geotechnical Monitoring in Conventional Tunnelling",
+      "source": "document_heading",
+      "confidence": 0.9,
+      "inferred": false,
+      "reason": null
+    },
+    {
+      "field": "authors",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no author in the crawler manifest or package properties"
+    },
+    {
+      "field": "organization",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "organization is never inferred from filename or body text"
+    },
+    {
+      "field": "department",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "department is never inferred"
+    },
+    {
+      "field": "document_date",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "Publication year için güvenilir açık kanıt bulunamadı; filesystem tarihi kullanılmadı"
+    },
+    {
+      "field": "revision",
+      "value": null,
+      "source": "not_found",
+      "confidence": null,
+      "inferred": false,
+      "reason": "no revision marker found"
+    },
+    {
+      "field": "language",
+      "value": "en",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "lexical language detection over the extracted text"
+    },
+    {
+      "field": "document_type",
+      "value": "handbook",
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "Dosya yolu/başlık/ilk heading sinyali: handbook"
+    },
+    {
+      "field": "topics",
+      "value": [
+        "collapse",
+        "contracts",
+        "cost",
+        "excavation",
+        "geology",
+        "geotechnical_investigation",
+        "inspection",
+        "instrumentation",
+        "monitoring",
+        "risk",
+        "safety",
+        "shotcrete"
+      ],
+      "source": "document_content",
+      "confidence": 0.9,
+      "inferred": true,
+      "reason": "geotechnical_investigation:geotechnical; geology:geolog; excavation:excavat; shotcrete:shotcrete; monitoring:monitoring; instrumentation:instrumentation; risk:risk; safety:safety; inspection:inspection; cost:cost; contracts:contract; collapse:collapse"
+    }
+  ]
+}

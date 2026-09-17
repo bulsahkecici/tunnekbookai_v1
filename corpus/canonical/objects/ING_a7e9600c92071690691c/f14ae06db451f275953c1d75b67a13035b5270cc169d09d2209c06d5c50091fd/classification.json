@@ -1,0 +1,146 @@
+{
+  "final_primary_section": "5.7",
+  "final_secondary_sections": [
+    "5.7.2",
+    "5.9"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0010",
+        "PARA0011",
+        "PARA0012",
+        "PARA0013",
+        "PARA0014",
+        "PARA0015",
+        "LIST0001",
+        "PARA0016",
+        "PARA0019",
+        "LIST0004",
+        "LIST0005",
+        "LIST0006",
+        "LIST0007",
+        "LIST0008",
+        "PARA0024",
+        "PARA0025",
+        "PARA0026",
+        "LIST0009",
+        "LIST0011"
+      ]
+    },
+    {
+      "section_id": "5.7.2",
+      "section_title": "Enerji Maliyetini Azaltma Yöntemleri",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0010",
+        "PARA0011",
+        "PARA0014",
+        "PARA0015",
+        "HEAD0004",
+        "PARA0024",
+        "PARA0025"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.7",
+      "score": 0.7724,
+      "rule_score": 0.5,
+      "embedding_score": 0.7933,
+      "chunk_vote": 0.452
+    },
+    {
+      "id": "5.9",
+      "score": 0.7266,
+      "rule_score": 0.6,
+      "embedding_score": 0.7702,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3807,
+      "rule_score": 0.0,
+      "embedding_score": 0.7974,
+      "chunk_vote": 0.1095
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.359,
+      "rule_score": 0.0,
+      "embedding_score": 0.7977,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.3538,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1188
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3491,
+      "rule_score": 0.0,
+      "embedding_score": 0.7758,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3479,
+      "rule_score": 0.0,
+      "embedding_score": 0.7732,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3461,
+      "rule_score": 0.0,
+      "embedding_score": 0.7691,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.3458,
+      "rule_score": 0.0,
+      "embedding_score": 0.7685,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.2",
+      "score": 0.33,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, demiryolu tünellerinde havalandırma ve aydınlatma sistemlerinin otomasyonu ile enerji verimliliğini artırmayı hedeflediğinden, 'Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi' (5.7) ana bölümüdür. Enerji maliyetini azaltma odaklı olması 5.7.2'yi, literatür taraması içermesi 5.9'u ikincil bölümler yapar.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:9",
+    "embeddings:8",
+    "top=5.7:0.7724 gap=0.046 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

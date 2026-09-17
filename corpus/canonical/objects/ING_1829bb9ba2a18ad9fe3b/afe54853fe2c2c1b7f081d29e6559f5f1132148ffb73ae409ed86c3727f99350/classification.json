@@ -1,0 +1,115 @@
+{
+  "final_primary_section": "5.6",
+  "final_secondary_sections": [
+    "5.5.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "LIST0039",
+        "LIST0042",
+        "PARA0006"
+      ]
+    },
+    {
+      "section_id": "5.5.1",
+      "section_title": "Yönetim ve İşletme Maliyetleri",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6.1",
+      "score": 0.3667,
+      "rule_score": 0.0,
+      "embedding_score": 0.8148,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3644,
+      "rule_score": 0.0,
+      "embedding_score": 0.7835,
+      "chunk_vote": 0.059
+    },
+    {
+      "id": "5.3",
+      "score": 0.3593,
+      "rule_score": 0.0,
+      "embedding_score": 0.7984,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.3",
+      "score": 0.3574,
+      "rule_score": 0.0,
+      "embedding_score": 0.7943,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2",
+      "score": 0.3533,
+      "rule_score": 0.0,
+      "embedding_score": 0.7852,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.1",
+      "score": 0.3524,
+      "rule_score": 0.0,
+      "embedding_score": 0.7832,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1.1",
+      "score": 0.3523,
+      "rule_score": 0.0,
+      "embedding_score": 0.783,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.2.2",
+      "score": 0.3518,
+      "rule_score": 0.0,
+      "embedding_score": 0.7817,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.3026,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3343
+    },
+    {
+      "id": "6",
+      "score": 0.2863,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2528
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, yumuşak zeminde hızlı raylı sistem tünel inşaat maliyetlerini etkileyen faktörleri (jeoloji, işçilik, izinler vb.) analiz eden bir çalışmadır. Bu içerik, tünel inşaat ve işletme maliyetlerini etkileyen faktörleri inceleyen 5.6 bölümü ile en yüksek örtüşmeyi göstermektedir. Ayrıca maliyet analizi doğası gereği yönetim ve işletme maliyetleri (5.5.1) ile de ilişkilidir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:4",
+    "embeddings:8",
+    "top=6.1:0.3667 gap=0.002 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

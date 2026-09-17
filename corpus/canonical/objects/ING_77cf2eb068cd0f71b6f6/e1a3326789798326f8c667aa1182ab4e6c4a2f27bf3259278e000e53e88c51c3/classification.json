@@ -1,0 +1,235 @@
+{
+  "final_primary_section": "7.1",
+  "final_secondary_sections": [
+    "5",
+    "5.6",
+    "5.1",
+    "5.4.2"
+  ],
+  "final_section_confidence": 0.95,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "7.1",
+      "section_title": "Tünel Bakım-İşletme Maliyetleri",
+      "supporting_elements": [
+        "HEAD0004",
+        "HEAD0005",
+        "PARA0009",
+        "HEAD0006",
+        "PARA0010",
+        "HEAD0007",
+        "PARA0024",
+        "PARA0027",
+        "PARA0029",
+        "PARA0030",
+        "PARA0080",
+        "PARA0081",
+        "PARA0082",
+        "PARA0083",
+        "PARA0084",
+        "PARA0086",
+        "HEAD0044",
+        "PARA0088"
+      ]
+    },
+    {
+      "section_id": "5",
+      "section_title": "TÜNEL BAKIM-ONARIM VE İŞLETME MALİYETLERİ",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0001",
+        "LIST0002",
+        "PARA0002",
+        "HEAD0003",
+        "PARA0003",
+        "PARA0004",
+        "PARA0006",
+        "HEAD0004",
+        "PARA0007",
+        "PARA0008",
+        "LIST0012",
+        "HEAD0005",
+        "PARA0009",
+        "LIST0014",
+        "LIST0021",
+        "LIST0026",
+        "HEAD0006",
+        "PARA0010",
+        "HEAD0007",
+        "PARA0017",
+        "LIST0078",
+        "LIST0080",
+        "LIST0081",
+        "PARA0018"
+      ]
+    },
+    {
+      "section_id": "5.6",
+      "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+      "supporting_elements": [
+        "PARA0001",
+        "LIST0003",
+        "PARA0004",
+        "LIST0007",
+        "LIST0008",
+        "LIST0011",
+        "LIST0012",
+        "LIST0013",
+        "PARA0009",
+        "LIST0017",
+        "LIST0020",
+        "LIST0021",
+        "LIST0024",
+        "HEAD0009",
+        "LIST0027",
+        "LIST0028",
+        "LIST0029",
+        "PARA0016",
+        "HEAD0012",
+        "LIST0052",
+        "LIST0058",
+        "HEAD0014",
+        "LIST0065",
+        "HEAD0015",
+        "LIST0073"
+      ]
+    },
+    {
+      "section_id": "5.1",
+      "section_title": "Çalışmanın Amacı ve Önemi",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0001",
+        "LIST0002",
+        "PARA0002",
+        "HEAD0003",
+        "PARA0003",
+        "PARA0004",
+        "PARA0006",
+        "HEAD0004",
+        "PARA0007",
+        "PARA0008",
+        "LIST0012",
+        "HEAD0005",
+        "PARA0009",
+        "LIST0014",
+        "LIST0021",
+        "LIST0026",
+        "HEAD0006",
+        "PARA0010",
+        "HEAD0007",
+        "PARA0017",
+        "LIST0078",
+        "LIST0080",
+        "LIST0081",
+        "PARA0018"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "HEAD0008",
+        "HEAD0009",
+        "LIST0041",
+        "LIST0057",
+        "LIST0071",
+        "LIST0073",
+        "PARA0054",
+        "PARA0060"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5",
+      "score": 0.8673,
+      "rule_score": 0.6667,
+      "embedding_score": 0.8173,
+      "chunk_vote": 0.4142
+    },
+    {
+      "id": "5.6",
+      "score": 0.8341,
+      "rule_score": 0.6923,
+      "embedding_score": 0.8312,
+      "chunk_vote": 0.1465
+    },
+    {
+      "id": "5.1",
+      "score": 0.7494,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8135,
+      "chunk_vote": 0.1385
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.7305,
+      "rule_score": 0.5556,
+      "embedding_score": 0.8236,
+      "chunk_vote": 0.0217
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3764,
+      "rule_score": 0.0,
+      "embedding_score": 0.8365,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3755,
+      "rule_score": 0.0,
+      "embedding_score": 0.8345,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.1",
+      "score": 0.3734,
+      "rule_score": 0.0,
+      "embedding_score": 0.8298,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3659,
+      "rule_score": 0.0,
+      "embedding_score": 0.813,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3384,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0418
+    },
+    {
+      "id": "5.9",
+      "score": 0.3084,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0139
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belgenin başlığı '7. COST OF MAINTENANCE' ve alt başlıkları (7.1 General, 7.2 Maintenance Cost) doğrudan aday listedeki '7.1: Tünel Bakım-İşletme Maliyetleri' bölümüyle eşleşmektedir. İçerik, bakım maliyetlerini etkileyen faktörleri ve genel bakışları kapsadığı için ana bölüm 7.1 olarak belirlenmiştir. Konu bütünü olarak tünel bakım-onarım maliyetleri (5) ve bu maliyetleri etkileyen faktörler (5.6",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5:0.8673 gap=0.033 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -40,6 +40,7 @@ def evaluate(
     slides: list[dict[str, Any]],
     policy: ChunkPolicy,
     dropped: list[dict[str, Any]] | None = None,
+    trusted_source_refs: set[str] | None = None,
 ) -> dict[str, Any]:
     errors: list[str] = []
     warnings: list[str] = []
@@ -54,6 +55,7 @@ def evaluate(
                    if s.get("slide_number") is not None}
     known_refs |= {f"OCRPAGE{int(c.get('page') or 0):04d}" for c in chunks}
     known_refs |= {c.get("ocr_item_id") for c in chunks if c.get("ocr_item_id")}
+    known_refs |= set(trusted_source_refs or ())
     known_refs.discard(None)
 
     ids = [c["chunk_id"] for c in chunks]
@@ -62,7 +64,7 @@ def evaluate(
         errors.append(f"DUPLICATE_CHUNK_IDS:{len(duplicates)}")
 
     token_counts: list[int] = []
-    for chunk in chunks:
+    for index, chunk in enumerate(chunks):
         cid = chunk.get("chunk_id", "?")
         if chunk.get("document_id") != document_id:
             errors.append(f"DOCUMENT_ID_MISMATCH:{cid}")
@@ -81,7 +83,19 @@ def evaluate(
         elif recomputed > policy.max_tokens:
             warnings.append(f"CHUNK_OVER_MAX:{cid}:{recomputed}")
         elif recomputed < policy.min_tokens and chunk["chunk_type"] == "TEXT_CHUNK":
-            warnings.append(f"CHUNK_UNDER_MIN:{cid}:{recomputed}")
+            # A short fragment is actionable only when it can be merged without
+            # crossing a heading boundary or the normal maximum.  Standalone
+            # abstracts, captions and short terminal sections are valid evidence.
+            mergeable = any(
+                0 <= neighbour < len(chunks)
+                and chunks[neighbour].get("chunk_type") == "TEXT_CHUNK"
+                and chunks[neighbour].get("heading_path") == chunk.get("heading_path")
+                and recomputed + int(chunks[neighbour].get("token_count") or 0)
+                    <= policy.max_tokens
+                for neighbour in (index - 1, index + 1)
+            )
+            code = "CHUNK_UNDER_MIN" if mergeable else "CHUNK_SHORT_STRUCTURAL"
+            warnings.append(f"{code}:{cid}:{recomputed}")
 
         unresolved = [r for r in (chunk.get("source_elements") or []) if r not in known_refs]
         if unresolved:

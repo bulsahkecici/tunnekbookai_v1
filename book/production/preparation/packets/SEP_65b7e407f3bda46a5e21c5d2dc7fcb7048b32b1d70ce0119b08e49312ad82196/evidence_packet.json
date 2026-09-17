@@ -1,0 +1,772 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_47855c760d22f7f6c7af2bf26296d6c628dae154ec2c5592b4be86e437132762",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 31,
+    "SUPPORTED": 10,
+    "UNSUPPORTED": 9
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_65b7e407f3bda46a5e21c5d2dc7fcb7048b32b1d70ce0119b08e49312ad82196",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Yöntemleri nedir ve tünel mühendisliğindeki temel işlevi nedir?",
+      "question_id": "2.2-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Yöntemleri hangi mühendislik problemini çözmeyi amaçlar?",
+      "question_id": "2.2-Q02",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7123a36ace22a06076a65dc6c017603c7c6096db2f1446dc1e46d98f17fce511",
+        "CLM_0d7498a4c0280b5a06fcc6899aff770a12d090b77d6801466a20cf5e56240085",
+        "CLM_6ec6df3477ca4e5a50d2bbcf89e3b90f4229a7662898bda25eb067733513b2cc",
+        "CLM_570400859993350494a68a765e15293806bbcc34bb4f3c2eab97ec6bacb2e4f7"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri için temel tasarım girdileri nelerdir?",
+      "question_id": "2.2-Q03",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6924ac44fa00aecc5898ad710a4c6506e1e5030733d0d035bace5e7bdc833966",
+        "CLM_bade78fff8473f61ad00a1753e5505b1abf5a1f628d9da994bd60c35b7d9ce6e",
+        "CLM_8f48c6c22ec02f6aac43b2f6faa79f28f19d5a052cdf6176e8434973c1a00a82"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri için jeolojik girdiler nelerdir?",
+      "question_id": "2.2-Q04",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6ec6df3477ca4e5a50d2bbcf89e3b90f4229a7662898bda25eb067733513b2cc",
+        "CLM_902e5442eb2d248d4fc6169ceb9f0d07a3c62846dc7ec88870c82275860b15c2",
+        "CLM_6924ac44fa00aecc5898ad710a4c6506e1e5030733d0d035bace5e7bdc833966",
+        "CLM_b268ca71777b7dbf79da364f9e0b53b409eb01be300a0976c643578c49726ccf"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri için geoteknik girdiler nelerdir?",
+      "question_id": "2.2-Q05",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Yöntemleri için hidrojeolojik girdiler nelerdir?",
+      "question_id": "2.2-Q06",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Yöntemleri için topoğrafik ve geometrik girdiler nelerdir?",
+      "question_id": "2.2-Q07",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_85a2346fd79d7ce92d3dd7cab27eaf4502bdcadaa7662de590826dd58556c656",
+        "CLM_acf8db3b4dacd6cf18f93a872ca1db7cdffdb3565ae357532aa310915fed17d9",
+        "CLM_346351e83742f33ef7ed8e47c6d27013f72110730dc68a6e6bc0efa37a0b40aa"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri için trafik ve işletme girdileri nelerdir?",
+      "question_id": "2.2-Q08",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Yöntemleri seçiminde tünel uzunluğu nasıl etkili olur?",
+      "question_id": "2.2-Q09",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b15af971fc1419713febb5197546b18c15ac6b36765da58227218b5485ee12a6",
+        "CLM_a5c195a0ca335c59551e95db44a1adef24794b3b29c84212689dae24f9e967f6",
+        "CLM_37babef65d63be668f177faa5ae1fd97b0dc9f83fa687f3df36ca785b4f2cdb0"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri seçiminde tünel kesiti ve açıklığı nasıl etkili olur?",
+      "question_id": "2.2-Q10",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_650caef1f883f011b15ddfec8fa87837230f0337d9070747a98b0d4d194529e2",
+        "CLM_0bd73996fc9d751dde0cc7643dcee0799a542349c4fe0f0dbb62af23590c0f39",
+        "CLM_c411e0448de4e828331dd6dc5dc3024375cd1774418dbc2b5370ffa0d3134340"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapım Yöntemleri seçiminde örtü kalınlığı nasıl etkili olur?",
+      "question_id": "2.2-Q11",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e2cbcfa1a6694283d1e29ab7ca675253edfd9ad5929cdd9b045f57796a3baf29",
+        "CLM_6ec6df3477ca4e5a50d2bbcf89e3b90f4229a7662898bda25eb067733513b2cc",
+        "CLM_37babef65d63be668f177faa5ae1fd97b0dc9f83fa687f3df36ca785b4f2cdb0",
+        "CLM_a76e76b5dc3321a3fc8e18198eba2cc63e5965a843f829972b3468c0160597fe"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapım Yöntemleri seçiminde kaya kütlesi veya zemin özellikleri nasıl etkili olur?",
+      "question_id": "2.2-Q12",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Yöntemleri seçiminde yeraltı suyu koşulları nasıl etkili olur?",
+      "question_id": "2.2-Q13",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_b837cfb581d766c638202e80852047fc7fa56bfc782140e677de99bae64fd251",
+        "CLM_bdb78c3da23970e1ad353fda110e8f090ea7ec7122e8a64cd3da79d64fd30fd9",
+        "CLM_8105062b7a452b7f5e372c918646df075f5624cc978d099a910c1c22a3a9823e"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri seçiminde çevresel ve yerleşim koşulları nasıl etkili olur?",
+      "question_id": "2.2-Q14",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bdb78c3da23970e1ad353fda110e8f090ea7ec7122e8a64cd3da79d64fd30fd9",
+        "CLM_8e734eee68b200be30df1d3d2c87e094fb9cd140e44feb31cac0ddc0eaae4d02",
+        "CLM_b837cfb581d766c638202e80852047fc7fa56bfc782140e677de99bae64fd251"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri seçiminde iş sağlığı ve güvenliği nasıl dikkate alınır?",
+      "question_id": "2.2-Q15",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Yöntemleri seçiminde yapım süresi nasıl dikkate alınır?",
+      "question_id": "2.2-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_37babef65d63be668f177faa5ae1fd97b0dc9f83fa687f3df36ca785b4f2cdb0",
+        "CLM_33464b329c7cf2f2fe6e5337f2fda261aa7f278cbf7b7562f3afacba57fc3d86",
+        "CLM_d7b2a7b42eb2bc485083df2beadcbf1d1d66cbb007ec4eba69c128b825664ab6"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri seçiminde ilk yatırım maliyeti nasıl dikkate alınır?",
+      "question_id": "2.2-Q17",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_cfddac7049c779603ef56f3dbc52ef38b2a252f2953d16a7fda6789a7b87374a",
+        "CLM_857fa170d34c8d99a1ccfae943865d3831b2f37c7d7954ba75768b5524fcd50c",
+        "CLM_ebaaff9fee1e7728553f45a2aa3a9aeefcafd96127c3c04e3a00d9f63f4f82ad"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri seçiminde bakım ve işletme maliyetleri nasıl dikkate alınır?",
+      "question_id": "2.2-Q18",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a12483399ed83f499e3ba2ba5d641ee3037b25142303c61cc644ce15239db865",
+        "CLM_159a4d206907a52c83e7de5158ea6f1244eaae9615e08edbbb29ab5ec959900a",
+        "CLM_ff2e50198b45b778c5e11dd8e77ba494d37347d344be9aad6ceea24d4a44a470"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri için hangi alternatif teknik çözümler karşılaştırılabilir?",
+      "question_id": "2.2-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0fdeb09c5c6fcd3a120f6dc85fc428e169fbbb20a4fbd87e38e147ab3c24958c",
+        "CLM_889abcaa5c1186d6e8e83f8ae6b0a78041466bcd74a2ec3773f698c3e5889865",
+        "CLM_598a54ce4551eccda7f3d5a6d9d70f10b15f10dd01b97e8a25d0d0db61709bde"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri alternatiflerinin avantajları ve dezavantajları nelerdir?",
+      "question_id": "2.2-Q20",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_454673b6b6253f2251e65e8e93d65b8c01b8f54022c37a1c88ca8d5ec32eacdc",
+        "CLM_8e734eee68b200be30df1d3d2c87e094fb9cd140e44feb31cac0ddc0eaae4d02",
+        "CLM_b837cfb581d766c638202e80852047fc7fa56bfc782140e677de99bae64fd251",
+        "CLM_37babef65d63be668f177faa5ae1fd97b0dc9f83fa687f3df36ca785b4f2cdb0"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri için karar verme sürecinde hangi teknik kriterlere ağırlık verilmelidir?",
+      "question_id": "2.2-Q21",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a5037c018f0f755fb0108c255beefba8c1c498844cb4daf1886394d15dd1b45d",
+        "CLM_923a8de2b382e193a8b1251e5613ec55af97a2ea8a8177358caede49f5ffbe77",
+        "CLM_c11705877241514c461f1906dc2aa676348481fe9e32403ad42abb4d7a1ca67a"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapım Yöntemleri tasarımında hangi hesap yöntemleri kullanılır?",
+      "question_id": "2.2-Q22",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0f34959b40ce61539a7c29aa4e58ecb375606342e6b78d77d109502eb0822fd5",
+        "CLM_c11705877241514c461f1906dc2aa676348481fe9e32403ad42abb4d7a1ca67a",
+        "CLM_923a8de2b382e193a8b1251e5613ec55af97a2ea8a8177358caede49f5ffbe77",
+        "CLM_a5037c018f0f755fb0108c255beefba8c1c498844cb4daf1886394d15dd1b45d"
+      ],
+      "confidence": 0.9,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapım Yöntemleri tasarımında hangi sayısal modelleme yöntemleri kullanılabilir?",
+      "question_id": "2.2-Q23",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7123a36ace22a06076a65dc6c017603c7c6096db2f1446dc1e46d98f17fce511",
+        "CLM_a5037c018f0f755fb0108c255beefba8c1c498844cb4daf1886394d15dd1b45d"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri tasarımında hangi ampirik sınıflandırmalar kullanılabilir?",
+      "question_id": "2.2-Q24",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_159a4d206907a52c83e7de5158ea6f1244eaae9615e08edbbb29ab5ec959900a",
+        "CLM_02fff35f4e5fce19f03a7deade3abf5097bf66bcb68cfa0d24fc2011ea9739e9",
+        "CLM_40f6337363c5dec5fd17e79ca8e0584bac31dfb01a8c79bc891a23240f3f7869",
+        "CLM_ff2e50198b45b778c5e11dd8e77ba494d37347d344be9aad6ceea24d4a44a470"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri tasarımında hangi güvenlik katsayıları veya performans kriterleri önemlidir?",
+      "question_id": "2.2-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_eac9603d508d7f9dab2b861549d491471c810b07ad73a7d95cb1a2460c41469f",
+        "CLM_23c057ec0a7551d18624154fde2e37ca8d5573e454635ed63c6e5e3ec143f4c6"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri uygulamasında hangi başlıca malzemeler kullanılır?",
+      "question_id": "2.2-Q26",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_66096ae014cbce10ad722bebace88514b31bb32bbf19937b5f1ec28dfd78b01a"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri uygulamasında hangi başlıca makine ve ekipmanlar kullanılır?",
+      "question_id": "2.2-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d3b958c52ec423a0f70ed5bab8387616b0dc2601758396928f241df086f86353"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri uygulamasının tipik iş sırası nasıldır?",
+      "question_id": "2.2-Q28",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_27aeccd6b73170ebba735b93f72ff3335c4b88b2530fcc46463c719c7b61caa9"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri uygulamasında kalite kontrol nasıl yapılır?",
+      "question_id": "2.2-Q29",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Yöntemleri uygulamasında saha ölçümleri ve enstrümantasyon nasıl kullanılır?",
+      "question_id": "2.2-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_6a844cfd3aa52e2d18029871aa403f5acb970be06e103a2b89c7070749fa9e2c",
+        "CLM_7b77fe18d51835a70b6fa9d75f5d699c0ceba0fc55a5934c863d2885cb2707c8"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapım Yöntemleri uygulamasında deformasyonlar nasıl izlenir?",
+      "question_id": "2.2-Q31",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c03a6d74f2d26c9567c7e3570a3c1c6ae69200027e5330b113b3df3fc98447a7",
+        "CLM_5d39a70dbef996449365a3900c02bcda4434f7adc67511b2cf91006c74da8065"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri uygulamasında su girişleri nasıl kontrol edilir?",
+      "question_id": "2.2-Q32",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_fe9b56097c764ba991d227087921ae23b67c3244fd0e0fc5244dd03d103d565c",
+        "CLM_53b0c8af90cfb5041ecc3c190e484de289837af4005ef7b2bc1280b915c6f21e",
+        "CLM_ed53b8ee46f24b6717957babb79b975bbcf0788b27a3068891459dda329dc72c"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri uygulamasında drenaj ve yalıtım nasıl ele alınır?",
+      "question_id": "2.2-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_63dd8dc38de2277a03594bcb050461a559c20e02d9f75b665c7fc5a3344931ef",
+        "CLM_499928712b35e9ceb94fa46dd02518cab789c32ca85ec867d2ab2a2ae1fd6442",
+        "CLM_8aa81389168641af200496f9f81612cdff200993cbc29e4baa47ecbace8b748d"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapım Yöntemleri uygulamasında beklenmeyen zemin koşullarına nasıl müdahale edilir?",
+      "question_id": "2.2-Q34",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bdb78c3da23970e1ad353fda110e8f090ea7ec7122e8a64cd3da79d64fd30fd9",
+        "CLM_159a4d206907a52c83e7de5158ea6f1244eaae9615e08edbbb29ab5ec959900a"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri uygulamasında en sık görülen teknik riskler nelerdir?",
+      "question_id": "2.2-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_d5af85bbefd6766391fbd515f925314af43526a925f8b77a729ce41a4e80fc0d",
+        "CLM_179dfc31e882ed5fcb6fcffa837df6487b4cfb08fcfbc213dc97a66c57611722"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri uygulamasında hata veya yetersizlik belirtileri nelerdir?",
+      "question_id": "2.2-Q36",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_a76e76b5dc3321a3fc8e18198eba2cc63e5965a843f829972b3468c0160597fe",
+        "CLM_63dd8dc38de2277a03594bcb050461a559c20e02d9f75b665c7fc5a3344931ef",
+        "CLM_382c556b932117291d09094d0091a323729e012a63c583fefa0967263d36b317"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapım Yöntemleri uygulamasında düzeltici ve güçlendirici önlemler nelerdir?",
+      "question_id": "2.2-Q37",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_17994f0e20b297b386af1c364eca9adf410bf0bcd1e81d642af48218125b9723",
+        "CLM_e555acc88efe3531c74a3f637d48adcb438a673e126d4b0e5bfa7e40efa34923"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri ile nihai kaplama arasındaki ilişki nasıl kurulmalıdır?",
+      "question_id": "2.2-Q38",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bd7f364bf20383278d9c55916ddfbdcce1881ee04e47148ce6e51bbacf0d2cdb",
+        "CLM_f00dbca180308fdd1e9490114e0edb3171cbc66dfff062bc9c88ac1c7f329061"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri ile portal tasarımı arasındaki ilişki nedir?",
+      "question_id": "2.2-Q39",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_3829f39ac7ea2ace8937259e4fd5457ad9cd9ccdd835a098deab1d14dc1b5071",
+        "CLM_530096fa806ef95638f9a737d4f9156790bd954deaa9fd8635b97d5cb080933a",
+        "CLM_1648eb918b5ecc9ca6e6f6bbff883451a2b1880b4950884dc39b90fbdd8fd30a"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri ile havalandırma, aydınlatma ve diğer elektromekanik sistemler nasıl koordine edilir?",
+      "question_id": "2.2-Q40",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c947750e846f3495f44a70e5a3a575e3ad263fc71e7b28e8a18a1a7761d716df",
+        "CLM_afcf62bed6301c6a9b8ec7328e3a54bce3eab225d5bac0d4026564756036c3fb",
+        "CLM_fbe7425d8f18da7cc3e4195d5686be45a05efb17a74c8a9148815c6d19811b51"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri için uygulanabilir ulusal standart ve şartnameler nelerdir?",
+      "question_id": "2.2-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c947750e846f3495f44a70e5a3a575e3ad263fc71e7b28e8a18a1a7761d716df",
+        "CLM_afcf62bed6301c6a9b8ec7328e3a54bce3eab225d5bac0d4026564756036c3fb"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri için uygulanabilir uluslararası standart ve kılavuzlar nelerdir?",
+      "question_id": "2.2-Q42",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0ba31e8610873b9034139192b6f05ec9b06ec07b1d5de16e254fb6bb24191fec",
+        "CLM_1cd8f29cf61375eb0cbaaf6b73882912dd5de82f7b8e507b4f4512e18e09b6cd"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri açısından Karayolları Genel Müdürlüğü uygulamalarında hangi esaslar öne çıkar?",
+      "question_id": "2.2-Q43",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_96ea8d9e0fe0f9646df4f77ddf5c6de7a0c2a6d3657457f929d72ebe9139497b",
+        "CLM_6f81fd1d9f18e8166452319f0c98b7cce0cca58a6be7d0b89e9caede1fe3e377",
+        "CLM_4b027fdcd463e0070ebefe95a8cb76eb92cc2b2c890d1e1903aae8f76d052229",
+        "CLM_8f48c6c22ec02f6aac43b2f6faa79f28f19d5a052cdf6176e8434973c1a00a82"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapım Yöntemleri için yapım sırasında tutulması gereken kayıtlar nelerdir?",
+      "question_id": "2.2-Q44",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Yapım Yöntemleri için kabul ve devreye alma kriterleri nelerdir?",
+      "question_id": "2.2-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_7c5ac6ce2fb19fbbf0cba1885c16a95281dc067cfe7b10ed991de7344f047aed",
+        "CLM_454673b6b6253f2251e65e8e93d65b8c01b8f54022c37a1c88ca8d5ec32eacdc",
+        "CLM_8e734eee68b200be30df1d3d2c87e094fb9cd140e44feb31cac0ddc0eaae4d02"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri kullanım aşamasında nasıl izlenmeli ve denetlenmelidir?",
+      "question_id": "2.2-Q46",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_ebaaff9fee1e7728553f45a2aa3a9aeefcafd96127c3c04e3a00d9f63f4f82ad",
+        "CLM_73ab209a94d8ce23a6e022cee71aa4894ed39830cd3645a9891d2670b3296fd6",
+        "CLM_60cc22ed95c872acef8d3a29ab04e665f98b5a7aaf41734acfea8ffb5d383c85",
+        "CLM_ef684fdb7b8db65791cb9095afba54a033c1d0ddc8a9fa4ed6b426a23855dbe5"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapım Yöntemleri yaşam döngüsü boyunca hangi bakım gereksinimlerini doğurur?",
+      "question_id": "2.2-Q47",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_bdb78c3da23970e1ad353fda110e8f090ea7ec7122e8a64cd3da79d64fd30fd9",
+        "CLM_b837cfb581d766c638202e80852047fc7fa56bfc782140e677de99bae64fd251",
+        "CLM_3296c6c80b03670fcb8156f861970e8a2c1df60af755994fcfd872010434a07a"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Yapım Yöntemleri sürdürülebilirlik ve çevresel etki açısından nasıl değerlendirilebilir?",
+      "question_id": "2.2-Q48",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_e82addb67bc0f5dc75cb762acb61ba7c2802ee4e0fd075c86d682fc94027227e",
+        "CLM_6133a4fb32c7b4ac48c99ff282ac0bbc72c18da5b240d69d641917ec2969726d",
+        "CLM_52a90bfee9b7e0bd1cc1e43782641918447264484ffa7373cb0f17b31e1d4517"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri ile ilgili Türkiye’den hangi uygulama örnekleri verilebilir?",
+      "question_id": "2.2-Q49",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_cf6fe33ddf9a6f1bd0663623998bd5ec84798de2b58b538a3be463678dff3d91",
+        "CLM_b5a8f9606d813ca87708491c3c768ef89d99d1084701d65b8a7377c2d0efeb9f"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Yapım Yöntemleri ile ilgili dünyadan hangi iyi uygulama örnekleri verilebilir?",
+      "question_id": "2.2-Q50",
+      "reason_code": "PARTIAL_ONLY"
+    }
+  ],
+  "readiness": "READY_WITH_LIMITATIONS",
+  "schema_version": "1.0",
+  "section_id": "2.2",
+  "section_title": "Tünel Yapım Yöntemleri",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_02fff35f4e5fce19f03a7deade3abf5097bf66bcb68cfa0d24fc2011ea9739e9",
+      "CLM_0ba31e8610873b9034139192b6f05ec9b06ec07b1d5de16e254fb6bb24191fec",
+      "CLM_0bd73996fc9d751dde0cc7643dcee0799a542349c4fe0f0dbb62af23590c0f39",
+      "CLM_0d7498a4c0280b5a06fcc6899aff770a12d090b77d6801466a20cf5e56240085",
+      "CLM_0f34959b40ce61539a7c29aa4e58ecb375606342e6b78d77d109502eb0822fd5",
+      "CLM_0fdeb09c5c6fcd3a120f6dc85fc428e169fbbb20a4fbd87e38e147ab3c24958c",
+      "CLM_159a4d206907a52c83e7de5158ea6f1244eaae9615e08edbbb29ab5ec959900a",
+      "CLM_1648eb918b5ecc9ca6e6f6bbff883451a2b1880b4950884dc39b90fbdd8fd30a",
+      "CLM_17994f0e20b297b386af1c364eca9adf410bf0bcd1e81d642af48218125b9723",
+      "CLM_179dfc31e882ed5fcb6fcffa837df6487b4cfb08fcfbc213dc97a66c57611722",
+      "CLM_1cd8f29cf61375eb0cbaaf6b73882912dd5de82f7b8e507b4f4512e18e09b6cd",
+      "CLM_23c057ec0a7551d18624154fde2e37ca8d5573e454635ed63c6e5e3ec143f4c6",
+      "CLM_27aeccd6b73170ebba735b93f72ff3335c4b88b2530fcc46463c719c7b61caa9",
+      "CLM_3296c6c80b03670fcb8156f861970e8a2c1df60af755994fcfd872010434a07a",
+      "CLM_33464b329c7cf2f2fe6e5337f2fda261aa7f278cbf7b7562f3afacba57fc3d86",
+      "CLM_346351e83742f33ef7ed8e47c6d27013f72110730dc68a6e6bc0efa37a0b40aa",
+      "CLM_37babef65d63be668f177faa5ae1fd97b0dc9f83fa687f3df36ca785b4f2cdb0",
+      "CLM_3829f39ac7ea2ace8937259e4fd5457ad9cd9ccdd835a098deab1d14dc1b5071",
+      "CLM_382c556b932117291d09094d0091a323729e012a63c583fefa0967263d36b317",
+      "CLM_40f6337363c5dec5fd17e79ca8e0584bac31dfb01a8c79bc891a23240f3f7869",
+      "CLM_454673b6b6253f2251e65e8e93d65b8c01b8f54022c37a1c88ca8d5ec32eacdc",
+      "CLM_499928712b35e9ceb94fa46dd02518cab789c32ca85ec867d2ab2a2ae1fd6442",
+      "CLM_4b027fdcd463e0070ebefe95a8cb76eb92cc2b2c890d1e1903aae8f76d052229",
+      "CLM_52a90bfee9b7e0bd1cc1e43782641918447264484ffa7373cb0f17b31e1d4517",
+      "CLM_530096fa806ef95638f9a737d4f9156790bd954deaa9fd8635b97d5cb080933a",
+      "CLM_53b0c8af90cfb5041ecc3c190e484de289837af4005ef7b2bc1280b915c6f21e",
+      "CLM_570400859993350494a68a765e15293806bbcc34bb4f3c2eab97ec6bacb2e4f7",
+      "CLM_598a54ce4551eccda7f3d5a6d9d70f10b15f10dd01b97e8a25d0d0db61709bde",
+      "CLM_5d39a70dbef996449365a3900c02bcda4434f7adc67511b2cf91006c74da8065",
+      "CLM_60cc22ed95c872acef8d3a29ab04e665f98b5a7aaf41734acfea8ffb5d383c85",
+      "CLM_6133a4fb32c7b4ac48c99ff282ac0bbc72c18da5b240d69d641917ec2969726d",
+      "CLM_63dd8dc38de2277a03594bcb050461a559c20e02d9f75b665c7fc5a3344931ef",
+      "CLM_650caef1f883f011b15ddfec8fa87837230f0337d9070747a98b0d4d194529e2",
+      "CLM_66096ae014cbce10ad722bebace88514b31bb32bbf19937b5f1ec28dfd78b01a",
+      "CLM_6924ac44fa00aecc5898ad710a4c6506e1e5030733d0d035bace5e7bdc833966",
+      "CLM_6a844cfd3aa52e2d18029871aa403f5acb970be06e103a2b89c7070749fa9e2c",
+      "CLM_6ec6df3477ca4e5a50d2bbcf89e3b90f4229a7662898bda25eb067733513b2cc",
+      "CLM_6f81fd1d9f18e8166452319f0c98b7cce0cca58a6be7d0b89e9caede1fe3e377",
+      "CLM_7123a36ace22a06076a65dc6c017603c7c6096db2f1446dc1e46d98f17fce511",
+      "CLM_73ab209a94d8ce23a6e022cee71aa4894ed39830cd3645a9891d2670b3296fd6",
+      "CLM_7b77fe18d51835a70b6fa9d75f5d699c0ceba0fc55a5934c863d2885cb2707c8",
+      "CLM_7c5ac6ce2fb19fbbf0cba1885c16a95281dc067cfe7b10ed991de7344f047aed",
+      "CLM_8105062b7a452b7f5e372c918646df075f5624cc978d099a910c1c22a3a9823e",
+      "CLM_857fa170d34c8d99a1ccfae943865d3831b2f37c7d7954ba75768b5524fcd50c",
+      "CLM_85a2346fd79d7ce92d3dd7cab27eaf4502bdcadaa7662de590826dd58556c656",
+      "CLM_889abcaa5c1186d6e8e83f8ae6b0a78041466bcd74a2ec3773f698c3e5889865",
+      "CLM_8aa81389168641af200496f9f81612cdff200993cbc29e4baa47ecbace8b748d",
+      "CLM_8e734eee68b200be30df1d3d2c87e094fb9cd140e44feb31cac0ddc0eaae4d02",
+      "CLM_8f48c6c22ec02f6aac43b2f6faa79f28f19d5a052cdf6176e8434973c1a00a82",
+      "CLM_902e5442eb2d248d4fc6169ceb9f0d07a3c62846dc7ec88870c82275860b15c2",
+      "CLM_923a8de2b382e193a8b1251e5613ec55af97a2ea8a8177358caede49f5ffbe77",
+      "CLM_96ea8d9e0fe0f9646df4f77ddf5c6de7a0c2a6d3657457f929d72ebe9139497b",
+      "CLM_a12483399ed83f499e3ba2ba5d641ee3037b25142303c61cc644ce15239db865",
+      "CLM_a5037c018f0f755fb0108c255beefba8c1c498844cb4daf1886394d15dd1b45d",
+      "CLM_a5c195a0ca335c59551e95db44a1adef24794b3b29c84212689dae24f9e967f6",
+      "CLM_a76e76b5dc3321a3fc8e18198eba2cc63e5965a843f829972b3468c0160597fe",
+      "CLM_acf8db3b4dacd6cf18f93a872ca1db7cdffdb3565ae357532aa310915fed17d9",
+      "CLM_afcf62bed6301c6a9b8ec7328e3a54bce3eab225d5bac0d4026564756036c3fb",
+      "CLM_b15af971fc1419713febb5197546b18c15ac6b36765da58227218b5485ee12a6",
+      "CLM_b268ca71777b7dbf79da364f9e0b53b409eb01be300a0976c643578c49726ccf",
+      "CLM_b5a8f9606d813ca87708491c3c768ef89d99d1084701d65b8a7377c2d0efeb9f",
+      "CLM_b837cfb581d766c638202e80852047fc7fa56bfc782140e677de99bae64fd251",
+      "CLM_bade78fff8473f61ad00a1753e5505b1abf5a1f628d9da994bd60c35b7d9ce6e",
+      "CLM_bd7f364bf20383278d9c55916ddfbdcce1881ee04e47148ce6e51bbacf0d2cdb",
+      "CLM_bdb78c3da23970e1ad353fda110e8f090ea7ec7122e8a64cd3da79d64fd30fd9",
+      "CLM_c03a6d74f2d26c9567c7e3570a3c1c6ae69200027e5330b113b3df3fc98447a7",
+      "CLM_c11705877241514c461f1906dc2aa676348481fe9e32403ad42abb4d7a1ca67a",
+      "CLM_c411e0448de4e828331dd6dc5dc3024375cd1774418dbc2b5370ffa0d3134340",
+      "CLM_c947750e846f3495f44a70e5a3a575e3ad263fc71e7b28e8a18a1a7761d716df",
+      "CLM_cf6fe33ddf9a6f1bd0663623998bd5ec84798de2b58b538a3be463678dff3d91",
+      "CLM_cfddac7049c779603ef56f3dbc52ef38b2a252f2953d16a7fda6789a7b87374a",
+      "CLM_d3b958c52ec423a0f70ed5bab8387616b0dc2601758396928f241df086f86353",
+      "CLM_d5af85bbefd6766391fbd515f925314af43526a925f8b77a729ce41a4e80fc0d",
+      "CLM_d7b2a7b42eb2bc485083df2beadcbf1d1d66cbb007ec4eba69c128b825664ab6",
+      "CLM_e2cbcfa1a6694283d1e29ab7ca675253edfd9ad5929cdd9b045f57796a3baf29",
+      "CLM_e555acc88efe3531c74a3f637d48adcb438a673e126d4b0e5bfa7e40efa34923",
+      "CLM_e82addb67bc0f5dc75cb762acb61ba7c2802ee4e0fd075c86d682fc94027227e",
+      "CLM_eac9603d508d7f9dab2b861549d491471c810b07ad73a7d95cb1a2460c41469f",
+      "CLM_ebaaff9fee1e7728553f45a2aa3a9aeefcafd96127c3c04e3a00d9f63f4f82ad",
+      "CLM_ed53b8ee46f24b6717957babb79b975bbcf0788b27a3068891459dda329dc72c",
+      "CLM_ef684fdb7b8db65791cb9095afba54a033c1d0ddc8a9fa4ed6b426a23855dbe5",
+      "CLM_f00dbca180308fdd1e9490114e0edb3171cbc66dfff062bc9c88ac1c7f329061",
+      "CLM_fbe7425d8f18da7cc3e4195d5686be45a05efb17a74c8a9148815c6d19811b51",
+      "CLM_fe9b56097c764ba991d227087921ae23b67c3244fd0e0fc5244dd03d103d565c",
+      "CLM_ff2e50198b45b778c5e11dd8e77ba494d37347d344be9aad6ceea24d4a44a470"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "2.2-Q03",
+      "2.2-Q04",
+      "2.2-Q05",
+      "2.2-Q08",
+      "2.2-Q10",
+      "2.2-Q14",
+      "2.2-Q15",
+      "2.2-Q17",
+      "2.2-Q18",
+      "2.2-Q19",
+      "2.2-Q20",
+      "2.2-Q21",
+      "2.2-Q24",
+      "2.2-Q25",
+      "2.2-Q26",
+      "2.2-Q27",
+      "2.2-Q28",
+      "2.2-Q29",
+      "2.2-Q32",
+      "2.2-Q33",
+      "2.2-Q35",
+      "2.2-Q36",
+      "2.2-Q38",
+      "2.2-Q39",
+      "2.2-Q40",
+      "2.2-Q41",
+      "2.2-Q42",
+      "2.2-Q43",
+      "2.2-Q46",
+      "2.2-Q49",
+      "2.2-Q50"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "2.2-Q01",
+      "2.2-Q02",
+      "2.2-Q06",
+      "2.2-Q07",
+      "2.2-Q09",
+      "2.2-Q13",
+      "2.2-Q16",
+      "2.2-Q30",
+      "2.2-Q45"
+    ]
+  }
+}

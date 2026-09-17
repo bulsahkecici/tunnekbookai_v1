@@ -1,0 +1,195 @@
+{
+  "final_primary_section": "5.9",
+  "final_secondary_sections": [
+    "5.4",
+    "2.4.1.3"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.9",
+      "section_title": "Ulusal ve Uluslararası Literatür Taraması",
+      "supporting_elements": [
+        "PARA0001",
+        "HEAD0001",
+        "PARA0008",
+        "PARA0012",
+        "PARA0022",
+        "PARA0024",
+        "PARA0028",
+        "PARA0029",
+        "LIST0006",
+        "LIST0014",
+        "PARA0038",
+        "PARA0047",
+        "PARA0048",
+        "LIST0019",
+        "LIST0020",
+        "LIST0022",
+        "LIST0026",
+        "HEAD0010",
+        "PARA0069",
+        "LIST0039",
+        "LIST0043",
+        "PARA0079",
+        "PARA0085",
+        "PARA0088",
+        "LIST0059"
+      ]
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0008",
+        "PARA0009",
+        "PARA0012",
+        "PARA0021",
+        "PARA0022",
+        "PARA0023",
+        "PARA0024",
+        "PARA0025",
+        "PARA0026",
+        "PARA0027",
+        "PARA0028",
+        "LIST0006",
+        "LIST0007",
+        "LIST0009",
+        "PARA0030",
+        "FIG0007",
+        "CAPT0001",
+        "HEAD0003",
+        "PARA0032",
+        "LIST0010",
+        "LIST0012",
+        "LIST0013",
+        "PARA0033",
+        "LIST0014"
+      ]
+    },
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": [
+        "HEAD0001",
+        "PARA0008",
+        "PARA0009",
+        "PARA0012",
+        "PARA0021",
+        "PARA0022",
+        "PARA0023",
+        "PARA0024",
+        "PARA0025",
+        "PARA0026",
+        "PARA0027",
+        "PARA0028",
+        "LIST0006",
+        "LIST0007",
+        "LIST0009",
+        "PARA0030",
+        "FIG0007",
+        "CAPT0001",
+        "HEAD0003",
+        "PARA0032",
+        "LIST0010",
+        "LIST0012",
+        "LIST0013",
+        "PARA0033",
+        "LIST0014"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4",
+      "score": 0.7207,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7766,
+      "chunk_vote": 0.0782
+    },
+    {
+      "id": "5.9",
+      "score": 0.7081,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7833,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.681,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7953,
+      "chunk_vote": 0.187
+    },
+    {
+      "id": "5",
+      "score": 0.4051,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2753
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3517,
+      "rule_score": 0.0,
+      "embedding_score": 0.7789,
+      "chunk_vote": 0.0059
+    },
+    {
+      "id": "5.6",
+      "score": 0.3516,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1082
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3509,
+      "rule_score": 0.0,
+      "embedding_score": 0.7798,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.1",
+      "score": 0.3508,
+      "rule_score": 0.0,
+      "embedding_score": 0.7769,
+      "chunk_vote": 0.0059
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3506,
+      "rule_score": 0.0,
+      "embedding_score": 0.779,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3506,
+      "rule_score": 0.0,
+      "embedding_score": 0.779,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, UAV tabanlı tünel ve köprü denetimlerine yönelik bir literatür taraması (review) niteliğinde olup, aday bölümler arasında en yüksek skora sahip 'Ulusal ve Uluslararası Literatür Taraması' (5.9) ile doğrudan örtüşmektedir. İçeriğin tünel yapılarının fiziksel durumunu değerlendirmeye odaklanması, ikincil olarak 'Tünel Bakım-Onarım ve İşletme' (5.4) bölümüyle de ilişkili olduğunu göstermektedi",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5.4:0.7207 gap=0.013 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

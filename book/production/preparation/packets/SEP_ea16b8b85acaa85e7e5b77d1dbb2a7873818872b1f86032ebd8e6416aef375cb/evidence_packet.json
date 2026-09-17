@@ -1,0 +1,614 @@
+{
+  "claim_registry_file": "claim_registry.json",
+  "claim_registry_id": "SCR_0ee35fb165625eb89002a8ef03d7e0a017b3ee3361e3e296542c473f0d5ffc67",
+  "contract_version": "section-preparation-v1",
+  "evidence_counts": {
+    "PARTIAL": 16,
+    "SUPPORTED": 2,
+    "UNSUPPORTED": 32
+  },
+  "identity": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "embedding_model_id": "text-embedding-baai-bge-m3-568m",
+    "llm_model_id": "qwen/qwen3.8-27b",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "prewriting_audit_id": "PEA_2f345af44628523a55abf2ac91f7385b1b819ffc21d7fbb7440565ca040584c9",
+    "prewriting_results_sha256": "7211b1115535f4f968f64cfbb5481229dabcfbc10403002d42f75c64f51f556a",
+    "question_bank_sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70",
+    "retrieval_index_id": "BRI_283dad3544bd03b43c67e7c252464374e62762add63eadc7b9b10371238fe691",
+    "scope_sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a",
+    "software_version": "section-preparation-v1"
+  },
+  "packet_id": "SEP_ea16b8b85acaa85e7e5b77d1dbb2a7873818872b1f86032ebd8e6416aef375cb",
+  "question_count": 50,
+  "questions": [
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler kapsamında maliyet kavramı nasıl tanımlanmalıdır?",
+      "question_id": "5.6-Q01",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c1ed77f31de3eced01b4e7ca7e91b585d423af9a21e8459e8931fec26fb38ef7",
+        "CLM_91de8251f568539d2b8bf97baceb69ef2ac1be0ffd68f2a141b3aa0ddb575341",
+        "CLM_6f0670627bfb8c6dc4087d380f5a524d81f13137968e1666323059994958e50e"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler hangi maliyet kalemlerini içerir?",
+      "question_id": "5.6-Q02",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler kapsamında doğrudan maliyetler nelerdir?",
+      "question_id": "5.6-Q03",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.15,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler kapsamında dolaylı maliyetler nelerdir?",
+      "question_id": "5.6-Q04",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler kapsamında ilk yatırım maliyetleri nasıl ayrıştırılır?",
+      "question_id": "5.6-Q05",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1d7bf6c71bd44e742595468202716fed6d716fd838db8c782ba5de6d4a45b773",
+        "CLM_0d7d1ebe4ef9de4c835adad7426a29c60622284d46c91e5158e10de833e8ce31",
+        "CLM_af40c463bad43f572c7c00efbc0f65332488235b083e0e894bdf4067add5aeaa"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler kapsamında bakım maliyetleri nasıl ayrıştırılır?",
+      "question_id": "5.6-Q06",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c1ed77f31de3eced01b4e7ca7e91b585d423af9a21e8459e8931fec26fb38ef7",
+        "CLM_91de8251f568539d2b8bf97baceb69ef2ac1be0ffd68f2a141b3aa0ddb575341"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler kapsamında işletme maliyetleri nasıl ayrıştırılır?",
+      "question_id": "5.6-Q07",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_91de8251f568539d2b8bf97baceb69ef2ac1be0ffd68f2a141b3aa0ddb575341",
+        "CLM_1d7bf6c71bd44e742595468202716fed6d716fd838db8c782ba5de6d4a45b773"
+      ],
+      "confidence": 0.85,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler kapsamında yenileme ve büyük onarım maliyetleri nasıl ele alınır?",
+      "question_id": "5.6-Q08",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_0d7d1ebe4ef9de4c835adad7426a29c60622284d46c91e5158e10de833e8ce31",
+        "CLM_1ad8f557d7e884c7fb8f1e08206becf89e5276115653b7178421d2977c5f3dc2",
+        "CLM_c1ed77f31de3eced01b4e7ca7e91b585d423af9a21e8459e8931fec26fb38ef7",
+        "CLM_91de8251f568539d2b8bf97baceb69ef2ac1be0ffd68f2a141b3aa0ddb575341"
+      ],
+      "confidence": 0.7,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler kapsamında personel maliyetleri nasıl ele alınır?",
+      "question_id": "5.6-Q09",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_91de8251f568539d2b8bf97baceb69ef2ac1be0ffd68f2a141b3aa0ddb575341",
+        "CLM_0d7d1ebe4ef9de4c835adad7426a29c60622284d46c91e5158e10de833e8ce31"
+      ],
+      "confidence": 0.8,
+      "drafting_permission": "DIRECT_WITH_CITATION",
+      "evidence_status": "SUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler kapsamında enerji maliyetleri nasıl ele alınır?",
+      "question_id": "5.6-Q10",
+      "reason_code": "DIRECT_ANSWER"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler kapsamında malzeme maliyetleri nasıl ele alınır?",
+      "question_id": "5.6-Q11",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_91de8251f568539d2b8bf97baceb69ef2ac1be0ffd68f2a141b3aa0ddb575341",
+        "CLM_1d7bf6c71bd44e742595468202716fed6d716fd838db8c782ba5de6d4a45b773"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler kapsamında makine ve ekipman maliyetleri nasıl ele alınır?",
+      "question_id": "5.6-Q12",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c1ed77f31de3eced01b4e7ca7e91b585d423af9a21e8459e8931fec26fb38ef7",
+        "CLM_6f0670627bfb8c6dc4087d380f5a524d81f13137968e1666323059994958e50e"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler kapsamında taşeron ve hizmet alımı maliyetleri nasıl ele alınır?",
+      "question_id": "5.6-Q13",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler kapsamında trafik yönetimi ve güvenlik maliyetleri nasıl ele alınır?",
+      "question_id": "5.6-Q14",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler kapsamında kapanma veya kapasite kaybı gibi kullanıcı maliyetleri dikkate alınmalı mıdır?",
+      "question_id": "5.6-Q15",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler kapsamında çevresel maliyetler nasıl değerlendirilebilir?",
+      "question_id": "5.6-Q16",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler için toplam maliyet ile birim maliyet arasındaki fark nasıl açıklanmalıdır?",
+      "question_id": "5.6-Q17",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c1ed77f31de3eced01b4e7ca7e91b585d423af9a21e8459e8931fec26fb38ef7",
+        "CLM_fc7bcb68b6e369eac90f1070b54794c6d9e56ba6f178b949856e189280f274f7"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler için TL/m, TL/km veya benzeri birim maliyet göstergeleri ne zaman kullanılmalıdır?",
+      "question_id": "5.6-Q18",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_5330193e91153d94454ce20a510c02215eb7d456c80343c206daba40eb5f7971",
+        "CLM_af40c463bad43f572c7c00efbc0f65332488235b083e0e894bdf4067add5aeaa",
+        "CLM_2124efaa7418e0228b7d14f45a045cf697917b19cb02c81d4b6e525816198d32"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler farklı tünel uzunluklarında nasıl değişir?",
+      "question_id": "5.6-Q19",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler farklı tünel kesitlerinde nasıl değişir?",
+      "question_id": "5.6-Q20",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler farklı tüp ve şerit sayılarında nasıl değişir?",
+      "question_id": "5.6-Q21",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler farklı jeolojik ve geoteknik koşullarda nasıl değişir?",
+      "question_id": "5.6-Q22",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler farklı yapım yöntemlerinde nasıl değişir?",
+      "question_id": "5.6-Q23",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler farklı destek sınıflarında nasıl değişir?",
+      "question_id": "5.6-Q24",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_1d7bf6c71bd44e742595468202716fed6d716fd838db8c782ba5de6d4a45b773",
+        "CLM_38708bb63e6db750e68d0fa71adee8ec0e8724c223902e5fbca7e2028af11c4b",
+        "CLM_91de8251f568539d2b8bf97baceb69ef2ac1be0ffd68f2a141b3aa0ddb575341"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler farklı elektromekanik donanım düzeylerinde nasıl değişir?",
+      "question_id": "5.6-Q25",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler trafik yoğunluğu ve işletme rejiminden nasıl etkilenir?",
+      "question_id": "5.6-Q26",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_91de8251f568539d2b8bf97baceb69ef2ac1be0ffd68f2a141b3aa0ddb575341"
+      ],
+      "confidence": 0.45,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler yapım süresi veya işletme süresinden nasıl etkilenir?",
+      "question_id": "5.6-Q27",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler için baz yıl ve fiyat seviyesi nasıl tanımlanmalıdır?",
+      "question_id": "5.6-Q28",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler hesaplarında enflasyon etkisi nasıl düzeltilmelidir?",
+      "question_id": "5.6-Q29",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler hesaplarında döviz kuru etkisi nasıl ele alınmalıdır?",
+      "question_id": "5.6-Q30",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler hesaplarında iskonto oranı hangi durumlarda kullanılmalıdır?",
+      "question_id": "5.6-Q31",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler için net bugünkü değer yaklaşımı nasıl uygulanabilir?",
+      "question_id": "5.6-Q32",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_93e0e1e8043a962f7cb0567a700bb6c521a2981a325bf78c065a71b5223d01f5"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler için yaşam döngüsü maliyeti yaklaşımı nasıl uygulanabilir?",
+      "question_id": "5.6-Q33",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_91de8251f568539d2b8bf97baceb69ef2ac1be0ffd68f2a141b3aa0ddb575341",
+        "CLM_27604fbcb2165f2751d925a17d1cd57f7fe4bc38c988bd3f98e1de6514434bc3"
+      ],
+      "confidence": 0.6,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler hesaplarında hizmet ömrü nasıl belirlenmelidir?",
+      "question_id": "5.6-Q34",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_91de8251f568539d2b8bf97baceb69ef2ac1be0ffd68f2a141b3aa0ddb575341",
+        "CLM_1d7bf6c71bd44e742595468202716fed6d716fd838db8c782ba5de6d4a45b773",
+        "CLM_0cfde7665b6bb0731acaa84ae75b5411c75b115c075a6e31789bf3eeb47585a9"
+      ],
+      "confidence": 0.65,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler hesaplarında yenileme periyotları nasıl belirlenmelidir?",
+      "question_id": "5.6-Q35",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler hesaplarında hurda veya kalıntı değer dikkate alınmalı mıdır?",
+      "question_id": "5.6-Q36",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler hesaplarında belirsizlik kaynakları nelerdir?",
+      "question_id": "5.6-Q37",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler için risk payı veya beklenmeyen giderler nasıl ele alınmalıdır?",
+      "question_id": "5.6-Q38",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler için duyarlılık analizi hangi değişkenlere uygulanmalıdır?",
+      "question_id": "5.6-Q39",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler için senaryo analizi nasıl kurulabilir?",
+      "question_id": "5.6-Q40",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c1ed77f31de3eced01b4e7ca7e91b585d423af9a21e8459e8931fec26fb38ef7",
+        "CLM_af40c463bad43f572c7c00efbc0f65332488235b083e0e894bdf4067add5aeaa"
+      ],
+      "confidence": 0.4,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler için maliyet verileri hangi kaynaklardan toplanmalıdır?",
+      "question_id": "5.6-Q41",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler için farklı yıllara ait veriler nasıl karşılaştırılabilir hale getirilmelidir?",
+      "question_id": "5.6-Q42",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler için farklı projeler arasındaki maliyet karşılaştırmasında hangi normalizasyonlar gerekir?",
+      "question_id": "5.6-Q43",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler için aykırı maliyet değerleri nasıl incelenmelidir?",
+      "question_id": "5.6-Q44",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler için temel maliyet sürücüleri istatistiksel olarak nasıl belirlenebilir?",
+      "question_id": "5.6-Q45",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler için maliyet tahmin modellerinin başarısı nasıl doğrulanmalıdır?",
+      "question_id": "5.6-Q46",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_c1ed77f31de3eced01b4e7ca7e91b585d423af9a21e8459e8931fec26fb38ef7",
+        "CLM_6f0670627bfb8c6dc4087d380f5a524d81f13137968e1666323059994958e50e",
+        "CLM_2124efaa7418e0228b7d14f45a045cf697917b19cb02c81d4b6e525816198d32"
+      ],
+      "confidence": 0.55,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler Türkiye ve uluslararası örnekler arasında nasıl karşılaştırılabilir?",
+      "question_id": "5.6-Q47",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [
+        "CLM_91de8251f568539d2b8bf97baceb69ef2ac1be0ffd68f2a141b3aa0ddb575341",
+        "CLM_0d7d1ebe4ef9de4c835adad7426a29c60622284d46c91e5158e10de833e8ce31"
+      ],
+      "confidence": 0.5,
+      "drafting_permission": "LIMITED_WITH_QUALIFIER",
+      "evidence_status": "PARTIAL",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler bakımından maliyet azaltma fırsatları hangi aşamalarda ortaya çıkar?",
+      "question_id": "5.6-Q48",
+      "reason_code": "PARTIAL_ONLY"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler ile güvenlik ve kalite arasında nasıl bir denge kurulmalıdır?",
+      "question_id": "5.6-Q49",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    },
+    {
+      "allowed_claim_ids": [],
+      "confidence": 0.1,
+      "drafting_permission": "NO_FACTUAL_ANSWER",
+      "evidence_status": "UNSUPPORTED",
+      "question": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler bölümünün sonunda karar vericiye hangi maliyet göstergeleri sunulmalıdır?",
+      "question_id": "5.6-Q50",
+      "reason_code": "NO_DIRECT_SUPPORT"
+    }
+  ],
+  "readiness": "EVIDENCE_GAP",
+  "schema_version": "1.0",
+  "section_id": "5.6",
+  "section_title": "Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler",
+  "writer_constraints": {
+    "allowed_claim_ids": [
+      "CLM_0cfde7665b6bb0731acaa84ae75b5411c75b115c075a6e31789bf3eeb47585a9",
+      "CLM_0d7d1ebe4ef9de4c835adad7426a29c60622284d46c91e5158e10de833e8ce31",
+      "CLM_1ad8f557d7e884c7fb8f1e08206becf89e5276115653b7178421d2977c5f3dc2",
+      "CLM_1d7bf6c71bd44e742595468202716fed6d716fd838db8c782ba5de6d4a45b773",
+      "CLM_2124efaa7418e0228b7d14f45a045cf697917b19cb02c81d4b6e525816198d32",
+      "CLM_27604fbcb2165f2751d925a17d1cd57f7fe4bc38c988bd3f98e1de6514434bc3",
+      "CLM_38708bb63e6db750e68d0fa71adee8ec0e8724c223902e5fbca7e2028af11c4b",
+      "CLM_5330193e91153d94454ce20a510c02215eb7d456c80343c206daba40eb5f7971",
+      "CLM_6f0670627bfb8c6dc4087d380f5a524d81f13137968e1666323059994958e50e",
+      "CLM_91de8251f568539d2b8bf97baceb69ef2ac1be0ffd68f2a141b3aa0ddb575341",
+      "CLM_93e0e1e8043a962f7cb0567a700bb6c521a2981a325bf78c065a71b5223d01f5",
+      "CLM_af40c463bad43f572c7c00efbc0f65332488235b083e0e894bdf4067add5aeaa",
+      "CLM_c1ed77f31de3eced01b4e7ca7e91b585d423af9a21e8459e8931fec26fb38ef7",
+      "CLM_fc7bcb68b6e369eac90f1070b54794c6d9e56ba6f178b949856e189280f274f7"
+    ],
+    "noncanonical_sources_allowed": false,
+    "partial_question_ids": [
+      "5.6-Q02",
+      "5.6-Q06",
+      "5.6-Q07",
+      "5.6-Q09",
+      "5.6-Q12",
+      "5.6-Q13",
+      "5.6-Q18",
+      "5.6-Q19",
+      "5.6-Q25",
+      "5.6-Q27",
+      "5.6-Q33",
+      "5.6-Q34",
+      "5.6-Q35",
+      "5.6-Q41",
+      "5.6-Q47",
+      "5.6-Q48"
+    ],
+    "project_findings_may_be_invented": false,
+    "sentence_evidence_map_required": true,
+    "unregistered_factual_claims_allowed": false,
+    "unsupported_question_ids": [
+      "5.6-Q01",
+      "5.6-Q03",
+      "5.6-Q04",
+      "5.6-Q05",
+      "5.6-Q11",
+      "5.6-Q14",
+      "5.6-Q15",
+      "5.6-Q16",
+      "5.6-Q17",
+      "5.6-Q20",
+      "5.6-Q21",
+      "5.6-Q22",
+      "5.6-Q23",
+      "5.6-Q24",
+      "5.6-Q26",
+      "5.6-Q28",
+      "5.6-Q29",
+      "5.6-Q30",
+      "5.6-Q31",
+      "5.6-Q32",
+      "5.6-Q36",
+      "5.6-Q37",
+      "5.6-Q38",
+      "5.6-Q39",
+      "5.6-Q40",
+      "5.6-Q42",
+      "5.6-Q43",
+      "5.6-Q44",
+      "5.6-Q45",
+      "5.6-Q46",
+      "5.6-Q49",
+      "5.6-Q50"
+    ]
+  }
+}

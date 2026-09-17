@@ -1,0 +1,32 @@
+{
+  "bundle_shape": "unified_ingest_v1",
+  "staging_version": "v2",
+  "document_id": "ING_b07bbf8328dbf15440fb",
+  "original_sha256": "b07bbf8328dbf15440fb69fa3d0db097770ad1aef8ef3ba5401517ecb8bde0cb",
+  "source_kind": "EXTERNAL_DISCOVERY",
+  "format": "HTML",
+  "title": "Experimental determination of tunnel ventilation axial ducted fan performance",
+  "final_primary_section": "5.4.2",
+  "final_secondary_sections": [],
+  "final_section_confidence": 0.5842,
+  "final_evidence_level": "FULL_TEXT",
+  "content_capabilities": {
+    "text": true,
+    "tables": false,
+    "figures": false,
+    "page_snapshots": false,
+    "ocr": false,
+    "vision": false,
+    "formulas": false,
+    "charts": false,
+    "slides": false,
+    "sheets": false
+  },
+  "quality_decision": "GO",
+  "processing_bundle": "processing/ING_b07bbf8328dbf15440fb",
+  "original_archive": "originals/ING_b07bbf8328dbf15440fb",
+  "chunks_authoritative_path": "processing/ING_b07bbf8328dbf15440fb/chunks/chunk_manifest.jsonl",
+  "chunk_count": 4,
+  "chunk_quality_status": "PASS",
+  "canonical_promoted": false
+}

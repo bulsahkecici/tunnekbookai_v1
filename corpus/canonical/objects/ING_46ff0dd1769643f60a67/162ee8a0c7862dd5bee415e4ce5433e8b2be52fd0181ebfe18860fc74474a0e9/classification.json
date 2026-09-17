@@ -1,0 +1,111 @@
+{
+  "final_primary_section": "2.4.1.3",
+  "final_secondary_sections": [
+    "5.4.2"
+  ],
+  "final_section_confidence": 0.65,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.1.3",
+      "section_title": "Kullanım Aşaması Çalışmaları",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6.1",
+      "score": 0.5095,
+      "rule_score": 0.2,
+      "embedding_score": 0.7653,
+      "chunk_vote": 0.0256
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3542,
+      "rule_score": 0.0,
+      "embedding_score": 0.7872,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.3509,
+      "rule_score": 0.0,
+      "embedding_score": 0.7798,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.3",
+      "score": 0.347,
+      "rule_score": 0.0,
+      "embedding_score": 0.7712,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.1",
+      "score": 0.3449,
+      "rule_score": 0.0,
+      "embedding_score": 0.7665,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.344,
+      "rule_score": 0.0,
+      "embedding_score": 0.7645,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3425,
+      "rule_score": 0.0,
+      "embedding_score": 0.7612,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.1",
+      "score": 0.3423,
+      "rule_score": 0.0,
+      "embedding_score": 0.7606,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1",
+      "score": 0.2756,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.4615
+    },
+    {
+      "id": "1.1",
+      "score": 0.2295,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2308
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, Heinenoord tünelindeki yeni sistemlerin (havalandırma, acil çıkış, yükseklik algılama) test edilme sürecini ve bakım/onarım aşamasındaki doğrulama çalışmalarını anlatmaktadır. Bu içerik, tünelin kullanım aşamasındaki sistemlerin çalışması ve bakımıyla (2.4.1.3) ve elektrik-elektronik sistemlerin bakımıyla (5.4.2) doğrudan ilişkilidir. Diğer adaylar (proje amacı/yöntemi) bu spesifik operasyo",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:8",
+    "embeddings:8",
+    "top=6.1:0.5095 gap=0.155 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

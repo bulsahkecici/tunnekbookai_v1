@@ -10,6 +10,8 @@ A missing renderer is non-blocking (§14).
 
 from __future__ import annotations
 
+import re
+import tempfile
 import zipfile
 from pathlib import Path
 from typing import Any
@@ -28,6 +30,27 @@ from .docx import RASTER_EXTENSIONS
 from . import AdapterContext
 
 SLIDES_DIRNAME = "slides"
+
+
+def _fallback_text_elements(markdown: str, text: str) -> list[dict[str, Any]]:
+    """Build a structural-enough stream when a legacy PPT has no native slide model.
+
+    Docling can often recover the text of old binary ``.ppt`` files even though
+    python-pptx only accepts OOXML.  Without this bridge the readable Markdown was written
+    to disk but the structure-aware chunker received an empty element list.
+    """
+    builder = ElementBuilder()
+    source = (markdown or text or "").strip()
+    for block in re.split(r"\n\s*\n", source):
+        value = block.strip()
+        if not value or value == "<!-- image -->":
+            continue
+        heading = re.match(r"^(#{1,6})\s+(.+)$", value, flags=re.DOTALL)
+        if heading:
+            builder.add(HEADING, heading.group(2).strip(), level=len(heading.group(1)))
+        else:
+            builder.add(PARAGRAPH, value)
+    return builder.elements
 
 
 def _shape_text(shape: Any) -> str:
@@ -200,30 +223,73 @@ def run(context: AdapterContext) -> ExtractionResult:
     result = ExtractionResult(document_id=context.document_id, format=fmt, adapter="pptx")
     source = context.original_path
 
-    slides, figures, tables, charts, elements = _parse_pptx(
-        source, context.bundle, context.document_id, result)
+    structural_source = source
+    legacy_conversion: tempfile.TemporaryDirectory[str] | None = None
+    is_legacy_ppt = fmt == "PPT" or source.suffix.lower() == ".ppt"
+    if is_legacy_ppt:
+        renderer = context.office_renderer
+        if renderer is not None and renderer.available():
+            legacy_conversion = tempfile.TemporaryDirectory(prefix="tbai_ppt_")
+            converted, conversion_warnings = renderer.convert_to_pptx(
+                source, Path(legacy_conversion.name)
+            )
+            if converted is not None:
+                structural_source = converted
+                result.warn("PPT_CONVERTED_TO_PPTX")
+            else:
+                for warning in conversion_warnings or ["PPT_CONVERSION_FAILED"]:
+                    result.warn(warning)
+        else:
+            result.warn("PPT_CONVERSION_UNAVAILABLE")
 
-    conversion = docling_adapter.convert(source, context.config, input_format=fmt,
-                                         do_ocr=False, want_vision=False)
+    slides, figures, tables, charts, elements = _parse_pptx(
+        structural_source, context.bundle, context.document_id, result)
+
+    legacy_native_only = structural_source != source
+    if legacy_native_only:
+        # Docling's native ppt/pdf parser can segfault on some large PPT files even after
+        # LibreOffice conversion. python-pptx already supplies the authoritative slide
+        # model here, so a second parse adds risk and startup cost without adding structure.
+        conversion = docling_adapter.DoclingConversion(
+            status="SKIPPED_LEGACY_NATIVE",
+            versions=docling_adapter.version_info(),
+        )
+    else:
+        conversion = docling_adapter.convert(
+            structural_source, context.config, input_format=fmt,
+            do_ocr=False, want_vision=False,
+        )
     result.engine = {
         "docling_status": conversion.status,
         "docling_versions": conversion.versions,
-        "native_parser": "python-pptx",
-        "structural_authority": "original_pptx",
+        "native_parser": "libreoffice+python-pptx" if legacy_native_only else "python-pptx",
+        "structural_authority": (
+            "libreoffice_converted_pptx" if legacy_native_only else "original_pptx"
+        ),
+        "legacy_ppt_conversion": structural_source != source,
     }
     for error in conversion.errors:
         result.warn(f"DOCLING:{error[:120]}")
     if not conversion.ok and not slides:
         result.fail(f"PPTX_EXTRACTION_FAILED:{conversion.status}")
+        if legacy_conversion is not None:
+            legacy_conversion.cleanup()
         return result
-    if not conversion.ok:
+    if not conversion.ok and not legacy_native_only:
         result.warn(f"DOCLING_CONVERSION_FAILED:{conversion.status}")
+
+    if not elements and (conversion.markdown.strip() or conversion.text.strip()):
+        elements = _fallback_text_elements(conversion.markdown, conversion.text)
+        if elements:
+            result.warn("PPTX_DOCLING_TEXT_FALLBACK")
+            result.engine["structural_authority"] = "docling_text_fallback"
 
     snapshots: list[dict[str, Any]] = []
     renderer = context.office_renderer
     if context.snapshots_enabled and renderer is not None:
         snapshots, snapshot_warnings = renderer.render_pages(
-            source, context.bundle, document_id=context.document_id, scale=context.snapshot_scale,
+            structural_source, context.bundle, document_id=context.document_id,
+            scale=context.snapshot_scale,
             dirname=SLIDES_DIRNAME, prefix="slide", kind="SLIDE", id_prefix="SLIDE")
         for warning in snapshot_warnings:
             result.warn(warning)
@@ -259,7 +325,7 @@ def run(context: AdapterContext) -> ExtractionResult:
         "format": fmt,
         "adapter": "pptx",
         "source_filename": context.original_filename,
-        "structural_authority": "original_pptx",
+        "structural_authority": result.engine["structural_authority"],
         "slide_count": len(slides),
         "slides": slides,
         "elements": elements,
@@ -287,4 +353,6 @@ def run(context: AdapterContext) -> ExtractionResult:
         "slides": bool(slides),
         "sheets": False,
     }
+    if legacy_conversion is not None:
+        legacy_conversion.cleanup()
     return result

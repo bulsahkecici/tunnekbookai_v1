@@ -1,0 +1,407 @@
+## Research progress and development trends of highway tunnels in China
+
+Chuan He · Bo Wang
+
+Received: 28 October 2013 / Revised: 13 November 2013 / Accepted: 20 November 2013 / Published online: 20 December 2013 Ó The Author(s) 2013. This article is published with open access at Springerlink.com
+
+Abstract The highway tunnel system in China has in recent years surpassed Europe, the United States, and other developed countries in terms of mileage, scale, complexity, and technical achievement. Much scientific research has been conducted, and the results have greatly facilitated the rapid development of China's highway tunnel building capacity. This article presents the historical development of highway tunneling in China, according to specific characteristics based on construction and operation. It provides a systematic analysis of the major achievements and challenges with respect to construction techniques, operation, monitoring, repair, and maintenance. Together with future trends of highway tunneling in China, suggestions have been made for further research, and development prospects have been identified with the aim of laying the foundation for a Chinese-style highway tunnel construction method and technical architecture.
+
+Keywords Highway tunnels  Mining methods  Shield tunneling  Immersed tube tunnel  Operation  Monitoring  Maintenance  Progress
+
+## 1 Introduction
+
+Two-thirds of the territory of China is mountainous, and as a result, the proportion of highways that are tunnels is steadily increasing. Highway tunnel distance is growing by 350 km annually, with the total now exceeding 5,100 km.
+
+C. He ( &amp; )  B. Wang
+
+Key Laboratory of Transportation Tunnel Engineering, Ministry of Education, Southwest Jiaotong University, Chengdu 610031, China
+
+The number of long tunnels has surpassed 1,200, and the number of extra-long tunnels has reached 260. The tunnel length of the Yuanjiang-Mohei expressway in Yunnan is approximately 20 % of the total line mileage, and for the Chongzhou-Zunyi expressway in Guizhou, the tunnel proportion is approximately 18 % [1]. The proportion of tunnel length of the Guang-Gan expressway in Sichuan province from Guangyuan to the border of Sichuan and Gansu is 60 % [2]. These statistics indicate the greatly increased need for tunnels, particularly in the first decade of this century, and the elevated status of tunnels in many technical areas of highway construction. Tunnel planning is now widely adopted in highway construction, as designers and builders increasingly recognize its importance. In construction of high-grade highways in mountains, tunnel planning is especially critical to avoid natural disasters, protect the environment, improve highway line shape, reduce travel mileage, and improve operational efficiency. With numerous long and large-diameter mountain tunnels now in operation, valuable research results have been obtained, opening a new chapter in underground engineering construction. In addition, the first 10 years of the twenty-first century saw Chinese highway transportation networks gradually extend to offshore deep-water regions and cities. A large number of highway tunnels crossing rivers, lakes, and the sea, such as the Wuhan and Nanjing Yangtze river tunnels, and the Xiamen Xiang'an undersea tunnel, have been constructed and opened to traffic. These projects greatly increased tunnel construction expertise, including the shield tunnel and the immersed tube methods. The large number of long and complex highway tunnel projects has enlarged China's underground engineering knowledge and advanced operation, ventilation, and monitoring technology. Construction theories, technologies, and operational management skills of Chinese highway tunneling have matured, and research achievements have reached the top rank globally.
+
+<!-- image -->
+
+Logo
+
+<!-- image -->
+
+Logo
+
+Fig. 1 The development of tunnel excavation methods
+
+<!-- image -->
+
+Engineering drawing
+
+As highway tunnels continue to extend to mountainous, underwater, and urban regions, obstacles will be more complex. These include the impacts of earthquakes, fire, and rainstorm disaster, complex geological conditions such as high geostress and active faults, cold and high altitude, and water-rich regions, as well as ecological preservation and energy conservation issues. All these factors will present new technical and strategic challenges in China.
+
+## 2 Mining method
+
+## 2.1 Basic theory
+
+The mining method, based on drilling and blasting excavation, is the main construction method of highway tunneling in China. As construction technology and rock mechanics developed, the new Austrian tunneling method (NATM) was proposed and gradually accepted by tunnel engineers [3, 4]. The introduction of the NATM began with the promotion of ' 'active'' support technologies such as rock bolt and spray concrete. Based on the NATM principles, China has successfully built various types of highway tunnels in weak rock and other difficult conditions. Applications extended to shallow municipal road projects with complex geological conditions, and the traditional open-cut method was replaced by the Chinese-style shallow cover underground excavation method.
+
+With increased recognition of the theory and practice of highway tunnel construction in China, the content of the NATM gradually evolved from an understanding of a particular construction method or supporting technology into the idea of ''concept'' and ''principle'' [5]. This had an important practical impact on the design and construction of China's highway tunnels and underground engineering. The scope of application greatly expanded, and the development of technology related to the NATM intensified. The diversity of the highway tunnel excavation methods-based on the full-face excavation and bench-cut methods-became the multi excavation mode. This improved the stability of the surrounding rock and subsidence control, an outcome similar to that of the center diaphragm (CD) method, the cross diaphragm (CRD) method, and the double side drift method (Fig. 1).
+
+<!-- image -->
+
+Icon
+
+The NATM is, however, not appropriate for all rock environments because it is based on bolt-shotcrete support and rock mechanics [6]. The Norway tunnel method (NTM), a further development of tunnel construction theory [7, 8], is a useful complement to the NATM. The core idea of the NTM is rock classification based on the Q system. Highperformance materials are applied as a permanent support, with a secondary lining only set as required by leakage, frost, and other hazardous conditions [9]. Many Chinese tunnel engineers have applied NTM principles in research on construction technology and supporting materials with high strength and toughness [10], with an aim to solve engineering problems in the application of the NTM under Chinese conditions [9]. In the twenty-first century, the scale of tunnel building suggests that design methods and construction concepts based on the NATM and NTM can no longer meet the complex requirements in China. In 2000, the new Italian tunneling method (NITM) [11] appeared. It is based on pressure-arch theory and the NATM, and has been widely used in highway and railway design in Italy. It has been promoted in other European countries but has been familiar to highway tunnel engineers in China for only a very short time. Determining how to apply it to the complex problems of highway tunnel construction in China is the current challenge.
+
+## 2.2 Design theory and method
+
+The growth of basic theory supports innovation in highway tunnel design theory and method [5, 12], and the initial classical design method, the load-structure theory (granular pressure theory), and the continuum theory based on the interaction of surrounding rock and structure are products and extensions of previous research. Design methods have evolved from the engineering analogy, convergence-confinement, load-structure, and formation-structure methods to the information dynamic design method [13]. The application of numerical methods such as finite element and finite difference is a useful supplement to highway tunnel engineering, particularly in system design that must consider the surrounding rock and its support in the overall model. However, due to the complexity of underground engineering, the various design theories and methods typically have very specific applications and limitations, and it is difficult to fully adapt them to unique and complex underground environments. Therefore, one of the major problems faced by tunnel engineers is how to combine existing construction and design theories for application to the specific characteristics of a highway tunnel, and create a set of tunnel construction theory systems and design methods for Chinese conditions [13].
+
+## 2.3 Long, large-diameter, deeply buried, and highaltitude tunnels
+
+Based on developments in design theory and construction technology, highway tunnel length, altitude, and buried depth have been reaching new levels in recent years. The completions of the Qinling Zhongnanshan, the Zhegushan, and the Erlangshan tunnels are milestones in China's highway tunnel system, and are examples of solutions to challenges that require long, large-diameter, deeply buried, and high-altitude tunnels.
+
+The construction of long, large-diameter, and deeply buried highway tunnels is frequently accompanied by geological disasters such as rock burst, large deformation, and other problems. Research on these and related issues has provided many insights [14]. For example, studies on the rock burst formation mechanism, prediction technique, and prevention measures were conducted on the Erlang Mountain and Cangling extra-long highway projects. The study analyzed the initial lining support time under rock burst conditions, and successfully conducted a secondary back analysis of the initial stress field and the subsequent rock burst forecast based on the rock burst disruption signs in the field. This study provided new methods and ideas for further research on highway tunnel rock burst prediction [15-17]. In addition, the development of the western economy in China presents an increasingly serious problem of large deformation of soft rocks such as phyllite in highway tunnels, and until now research has not provided effective technical support. In the previous study, strong support was used to control deformation [18], and the support parameters usually exceeded the recommended values of the ' 'Code for Design of Road Tunnel.'' Yet, strong support is sometimes insufficient to control highdeformation stress, and anchor snapping, steel arch distortion, and initial lining cracking can occur. Traditional supporting methods and technologies face extreme challenges with the increasingly complex projects, and supporting systems based on new materials and technology are needed. In addition, tunnel construction at higher altitudes requires consideration of antifreeze factors. The team led by Professor He Chuan at Southwest Jiaotong University applied thermal-liquid solid-coupling analysis to the antifrost design technology of highway tunnels constructed in high-altitude regions. They studied the Zhegushan tunnel, where antifrost material was laid on the secondary lining surface as the insulation [19] (Fig. 2). This research changed the antifrost design of highway tunnels in cold, high-altitude regions and was successfully applied to subsequent tunnels. The Que'ershan tunnel further raised the altitude limit of highway tunnel construction and presented new challenges to frost resistance technology [20].
+
+Fig. 2 Typical highway tunnels in China
+
+<!-- image -->
+
+Photograph
+
+## 2.4 Tunnel structure and section type
+
+An important development in highway tunnel technology is the range of supporting structures and tunnel section forms. Composite lining [21], based on the NATM, evolved to a single-layer lining structure based on the NTM [22, 23], and assembled lining with shield tunneling is now the predominant system in highway tunneling. To meet the demands in recent years of line shape modification, anticorrosion, and anticollision, engineers have started to focus on double-layer lining [24]. Separated tunnels have been the main type for years, but conditions such as terrain, road alignment, and other special conditions have made arch tunnels and small clear-distance tunnels necessary (Fig. 3). The construction of the Jinhua-Lishui-Wenzhou highway tunnel is a leap in the development of construction technology and design theory, specifically with respect to waterproofing and drainage technology, and middle wall type design [25]. This tunnel essentially laid the foundation for adoption and application of the arch tunnel. With a large number of small clear-distance tunnels constructed for the Beijing-Fuzhou expressway, and with the Zipingpu tunnel, open to traffic, small, and clear-distance tunnels have made great progress in terms of middle rock wall reinforcement, construction methods, load theory, and so forth [26, 27]. The rapid pace of highway construction and the increase in traffic volumes, plus the diversification of structure types led to the appearance of large and extralarge cross section tunnels, which have a lower flat ratio and poorer mechanical properties [28]. These include the Zhongmen Mountain tunnel for the Shanghai-Ningbo expressway (width: 13.86 m, height: 6.8 m), and the Hanjialing tunnel of the Shenyang-Dalian expressway (width: 21.24 m, height: 15.52 m) [29, 30]. Research on construction methods, supporting systems, and surrounding rock loads has been conducted [31-34]. Meanwhile, new structural types such as the cross-bifurcation tunnel and spiral tunnel have appeared, presenting yet another set of technical problems.
+
+<!-- image -->
+
+Photograph
+
+<!-- image -->
+
+Photograph
+
+<!-- image -->
+
+Icon
+
+## 2.5 Underground water
+
+A difficult problem encountered in highway tunnel construction is groundwater. This is especially an issue with long and large-diameter highway tunnels, with a focus on its environmental impact in recent years. Many Chinese engineers recognize the harm to both the tunnel project and the surrounding environment caused by groundwater discharge. This has resulted in a change of the groundwater treatment concept from a ''focus on discharge'' to a ''focus on containment and limited discharge'' [35, 36]. The chain of interactions between tunnel and groundwater is shown in Fig. 4, and includes the impact of the water environment on the tunnel, and the tunnel impact on water. When the project focus is on discharge, the lining is subject to low water pressure, but there are serious environmental consequences. When the tunnel project focus is on containment and limited discharge, the lining is subject to high water pressure, but there is limited environmental impact. It is clearly a complex problem to achieve a balance between tunnel discharge, environmental protection, and tunnel construction safety. Research on the relationship between the three will involve multidisciplinary and multifield interactions.
+
+The recently completed extra-long mountain highway tunnels, such as the Qinling Zhongnan Mountain, the Dapingli, and the Niba Mountain tunnels, and the development of new tunnel structural types and sections have imposed great demands on tunnel engineers, but have also significantly improved the theory of highway tunnel design and construction.
+
+## 3 Shield method
+
+With the progress in modern shield equipment technology, the shield method gradually became a primary construction option to cope with complicated and difficult conditions such as weak stratum and crossing rivers and the sea. It has been widely used in highway tunnel constructions throughout the world [37], such as the famous Tokyo Bay Aqua Tunnel in Japan and the 4th tube of the Elbe Tunnel in Germany. In recent years, a series of large underwater highway shield tunnels have been built in the middle and low reaches of the Yangtze River and Yangtze River Delta region (Fig. 5). These include the Wuhan Yangtze River, the Shanghai Yanan East Road, the Shanghai Chongming Yangtze River, the Nanjing Yangtze River, the Hangzhou Qian River, and the Hangzhou Qingchun Road tunnels. These tunnels are characteristically in large sections (0-15 m in diameter), shallow in buried depth, under extremely high water pressure, and difficult to design and construct. They pushed the scale and level of construction technology of highway shield tunnels to a new level.
+
+Fig. 3 Typical section type of highway tunnels in China
+
+<!-- image -->
+
+Engineering drawing
+
+<!-- image -->
+
+Icon
+
+Fig. 4 The interaction chain of tunnel and groundwater
+
+<!-- image -->
+
+Flow chart
+
+<!-- image -->
+
+Photograph
+
+<!-- image -->
+
+Engineering drawing
+
+Fig. 5 Typical underwater tunnels in China
+
+<!-- image -->
+
+Photograph
+
+<!-- image -->
+
+Photograph
+
+<!-- image -->
+
+Icon
+
+Earlier analytical methods simplified the tunnel structure to two dimensions, or presented simulated three-dimensional problems in the aspect of shield tunnel structure [38, 39], as shown in Fig. 6. As the size of tunnel section and segment lining increased, refined analytical methods adopting a three-dimensional shell and solid became common [40-42]. These methods gradually form the comprehensive analytical method that applies the beamspring model to calculate the overall internal force of segment structure, and the shell-spring-contact model to precisely analyze the space stress distribution of the block structure. Meanwhile, the existing classical structural analysis method and model have been improved according to highway shield tunnel structural characteristics [43, 44].
+
+Assembled lining is the primary lining structure type for domestic and foreign shield tunnel construction. Driven by the requirements of earthquake resistance, line profile modifications, and corrosion resistance, double-layer lining has been adopted. It was applied early in Japan in highspeed railway tunnels, urban arterial road tunnels, metro tunnels, and water transfer tunnels [24]. Double-layer lining will soon be used in China because the diameter and buried depth of underwater highway tunnels continue to increase. Consequently, determining when to choose double-layer lining and the forces between the assembled lining and inner lining must be carefully studied. A new kind of lining structure between the single lining and doublelayer lining is proposed to deal with the riverbed scouring problem posed by river-crossing highway shield tunnels in the Yangzi River region, which has high water pressure and permeable stratum [46]. If this new lining structure can reduce riverbed scouring, then further research and performance measurement will be needed to verify its longterm stability and suitability.
+
+Many river-crossing shield tunnels have been built, resulting in numerous structural waterproofing measures including multichannel technology (consisting of segment automatic waterproofing, coating the segment with external waterproofing), joint waterproofing, grouting hole and bolt hole waterproofing, backfill grouting, and shield tail pastefilling waterproofing [47, 48]. Highway shield tunnel construction technology has greatly improved, exemplified by completion of the Nanjing Yangtze River and Shanghai Chongming Yangtze River tunnels. Breakthroughs have been achieved under various complex conditions such as soft soil stratum, water-rich sandy cobble stratum, and hard uneven stratum. Technical challenges have included face stability with a large-diameter slurry balance shield [49, 50], fluid-solid coupling during the shield tunneling [5153], structure buoyancy and control measures [54], consecutive tunneling of long distances [55, 56], large-diameter slurry shield machine cutter change technology, and shield starting and ending control [57, 58].
+
+Tunnel boring method (TBM) was introduced in the 1950s, and is now a mature and important tunnel construction technology. Based on its high-construction speed, excellent tunnel shape, high mechanization, and little disturbance of surrounding rock, it was used on such projects as the Anglo-French channel tunnel and the Bozberg highway tunnel in Switzerland [59]. In China, TBM is primarily applied on water transfer and railway tunnels, such as the water tunnel in Jinping hydro stations and the Dahuofang reservoir, the Qinling Railway Line 1 tunnel, and the Mogouling tunnel. However, there are few global precedents for highway tunnels, and further efforts are needed to understand and improve highway tunnel construction.
+
+## 4 Immersed tube method
+
+An immersed tunnel is a transportation carrier tunnel that excavates a groove under the water of the sea, river, bay, or channel where the tunnel will be built. Sections are floated to the site and installed, followed by related construction to combine the sections into a whole and provide for road traffic [60].
+
+Fig. 6 Structure models of the segment ring [45]
+
+<!-- image -->
+
+Engineering drawing
+
+<!-- image -->
+
+Icon
+
+Charles Wyatt conducted the first test of immersed tunneling construction in London in 1810, but the test failed to solve the waterproofing problem. The construction principle of a wastepipe line built in Boston in 1894 was similar to that used today, although its diameter was only 2.70 m. Americans subsequently built many immersed tube tunnels, but the Dutch designed a new method based on American technology. The method was introduced to other countries, and today, immersed tube tunnel expertise continues to evolve [61, 62].
+
+In China, research on immersed tube tunnels started late but progress has been rapid. Research on an immersed tube tunnel was conducted in Shanghai in the early 1960s, and an underwater sewage tunnel was built in 1976 [63]. Research was also conducted in Guangzhou on immersed tube tunnels in 1974 [63]; the road tunnel crossing Victoria harbor was built in Hong Kong in 1972, and the Gaoxiong immersed tube tunnel was built in Taiwan in 1984 [63]. The Guangzhou Zhujiang tunnel, built in 1993, was the first underwater tunnel for a city road and railway using the immersed tube method in China, and set a precedent for large immersed tube tunnels [64]. The second immersed tube tunnel was built in Ningbo Yongjiang in 1995, a project that overcame the disadvantages of a soft soil foundation and used the piecewise connection of precast method [65]. The Ningbo Changhong tunnel, built in 2002, used pile foundations required by the special geological hydrology conditions, providing insights on immersed tube tunnel construction in soft soil [66]. The successful construction of the Shanghai outside ring tunnel took immersed tube tunnel construction technology to a new level [67]. The immersed tube tunnel of the HongkongZhuhai-Macao bridge project has a length of 6.753 km, and is the longest immersed tube tunnel in the world. This tunnel adopts sectional tubes of long lengths, buried under deep water, with a soft and uneven soil foundation [68].
+
+The design and construction technologies in every country have their own characteristics, and the ideas are different. The joint section production, tunnel joint, basic layer disposition, and seismic structure are the key technical problems for immersed tube tunnel design and construction [69].
+
+With the development of immersed tube tunnel design and construction on a large scale, the average length of immersed tubes changed from 60 m in the 1940s, to 200 m. The length of each tube section is longer, and the number of lanes in each section is higher, increasing from the original two-lane to six-lanes-typical today-or even as many as eight-lanes. As the requirements of the tube section increased, the material went from reinforced concrete to high-strength concrete and now to highperformance concrete [70]. In reinforced concrete tube section production, technical measures have been taken to control cracking. These techniques include the longitudinal prestressing method, or the addition of steel or chemical fiber. In addition, the production method has changed from traditional dry dock prefabricated to a factory production line [71].
+
+The joint of tube sections is one of the key elements of the immersed tube tunnel, and the joint must be designed to withstand changes in temperature, earthquake loads, and other conditions to ensure the tunnel joint has good water tightness. The location, spacing, and type of joint should be in accordance with geotechnical conditions, foundation type, seismic resistance, and machinability. In addition, the joint strength, deformation characteristics, water proofing material, and construction detail must be considered [72]. In regions with high water pressure and large earthquake load, immersed tube tunnels should be adopted. The rubber water stop will take large loading and deformation, so water stops with larger deformation capacity and bearing capacity (pressure and transverse load) are required [73].
+
+In terms of foundation design and settlement analysis, shallow-buried immersed tube tunnels generally have a requirement of low-additional load and low-bearing capacity, and so their foundation treatment adopts common cushion methods, including scraping the ground layer, the sand flow method, grouting method, sand filling method, and sand blasting method [74, 75]. When the foundation condition of the immersed tube tunnel is poor, or the buried depth and the backfill load connecting the land is large, pile foundations and composite foundations should be used to meet the requirements of bearing capacity and to effectively control settlement. In actual construction, however, the pile elevation cannot completely control the design elevation, some auxiliary measures should be taken to ensure that the top of the pile group connects to the immersed structure. To effectively control the longitudinal uneven settlement of the tunnel, research is needed on the gravel bedding layer as well as on the settlement and control of foundation combination types, such as underwater pile foundations, and settlement-reducing pile foundations [76].
+
+Research on the impact of ground movement on the underground structure can be divided into two methods: one is the interaction method which is based on solving the structural motion equation, where the surrounding ground medium damping is reflected by the interaction effect. The other is the wave method which is based on solving the wave and stress field, through large-scale computer simulation. This method sets up a three-dimensional model, including the foundation soil, immersed tube tunnel, and soft joints, but there are disadvantages such as a larger workload and poor adaptability of the super-long immersed tube tunnels [77,
+
+<!-- image -->
+
+Logo
+
+78]. Because the topography and geological conditions change along the tunnel direction, when the structure length is equal to or exceeds one fourth of an earthquake wave length, the wave caused by vibration in the tunnel longitudinal direction differs. The structure presents a nonuniform motion, and the motion phase difference between the nodes, namely the wave effect, is ineligible. Hence, research on the earthquake response of super-long immersed tube tunnel under the nonuniform seismic excitation condition should be conducted. Factors such as the dynamic properties of tube section joints and seasonal change have a great influence on the tunnel structural seismic response. Therefore, setting up a dynamic analysis model of earthquake response of superlong immersed tube tunnels that can simulate the multi nodes under the nonuniform seismic excitation conditions and present an effective calculation method is among the technical difficulties of super-long immersed tube tunnel seismic design [79].
+
+In terms of the depositing, floating, and sinking construction technologies of long, large-diameter tube sections, some water dynamic physical model tests were carried out for immersed tube sections, many done for specific projects. However, accumulated experience and data summaries are not sufficient, and have little significance for other projects [80]. The numerical simulation of tube section dynamic properties can use calculations of fluid dynamics based on the potential flow approach. In principle, the calculation of fluid dynamics is accurate, but a large amount of calculation work is required. The method based on the potential flow theory is mature and simple in calculation, but it cannot accurately consider the viscous effect of a blunt body in the flow field. In the marine environment, to ensure the structural safety of depositing tube sections under long-period wave and complex flow cases, in-depth research is needed to study the motion, loading, and stability of tube sections during their ocean flotation and descent into deep water. Key technologies for depositing, floating, and sinking large tube tunnel sections in deep water, such as the applicability and accuracy of sonar and GPS methods to position and survey the immersed tube tunnel sections in deep water conditions, need to be tested and proven [70, 74, 81-83].
+
+## 5 Operation and monitoring
+
+To ensure the comfort and safety of drivers, the special structure and environment of highway tunnels demands that intelligent monitoring focus on ventilation, lighting, and ease of rescue in case of an emergency.
+
+Ventilation control methods of tunnels generally include fixed program control, after-feedback control, feed-forward control, feed-forward intelligent fuzzy logic control, etc.
+
+<!-- image -->
+
+Icon
+
+[84]. The feed-forward, intelligent, and fuzzy logic control method can effectively solve time delay problems associated with the traditional after-feedback control method. It is increasingly used in ventilation control of long, largediameter highway tunnels and improves the driving environment, saves power consumption and extends the usable life of equipment [85]. This control method is not only suitable for single tunnels, but also can be used in highway tunnel groups, adjacent tunnels, and multi tunnels. Following improvements, this method has achieved good results [86]. Figure 7 shows its control flow. The intelligent feed-forward control method is the main direction of operation and ventilation control research for the future [87, 88].
+
+The lighting control methods of highway tunnels include sequence control, light intensity control, and methods based on vision and mental processes. The latter is the main research direction of highway tunnel lighting control for the future. A tunnel lighting virtual-reality simulation testing platform [89] can test people's vision and responses when they pass through a single tunnel, a tunnel group, and adjacent tunnels under different environmental conditions such as tunnel spacing, driving speed, external environment, and entrance lighting. Based on simulation testing, visual and psychological evaluations of drivers and passengers can be obtained, along with the relationships between lighting effects, vision, and subjective responses under specific conditions. The data on these relationships enable optimal control of lighting in a single tunnel, tunnel groups, and adjacent tunnels.
+
+Disaster rescue control is an important aspect of safe highway tunnel operation. Based on theories of scene simulation under various fire cases [90, 91] and ventilation network calculations [92], control plans have been made for different fire and traffic accident scenarios in the Beibei and Xishanping tunnels of the Chongqing-Yuhe expressway, and managed dynamically by combination of database and tunnel intelligent monitoring software [93]. Similarly, a tunnel group disaster prevention and a combined rescue plan system have been developed for the Tiefengshan Line 1 and Line 2 tunnels, and the Nanshan tunnel of the Chongqing Wanzhou-Kaixian expressway [94]. The system fully considers the mutual influences between tunnels under disaster scenarios. In some sections of the Chongqing Yunyang-Wanzhou expressway and circle highway, linkage control plans between each road section (as shown in Fig. 8) further develop the disaster prevention and rescue control plans. There is also a dynamic database operating control plan system, including various single tunnel, adjacent tunnel, and tunnel group sections. This achieves overall linkage between road sections and tunnel, which is a key objective of highway tunnel disaster prevention and rescue [95].
+
+Fig. 7 Feed-forward control process of highway tunnel groups
+
+<!-- image -->
+
+Flow chart
+
+Fig. 8 Road elements and sections for linkage control plan
+
+<!-- image -->
+
+Engineering drawing
+
+A single system model has been commonly used for intelligent monitoring of highway tunnels in China; however, there is no communication or data sharing between each subsystem, and so it cannot run automatically [96]. The Beibei and Xishanping tunnels of the ChongqingYuhe expressway each use a computer-center monitoring system to integrate tunnel ventilation, lighting, disaster prevention and rescue, achieving single tunnel and subsystem linkage control [97]. Some sections of the Wanzhou-Kaixian expressway have achieved group tunnel and adjacent tunnel intelligent linkage control based on network, intelligence, configuration, and integration technologies [98]. On this basis and combined with protocols, communication, planning, and control strategy configuration technology, an expressway tunnel region and network control platform software have been developed and put into practice. The platform treats the section as a monitoring subject and centers on tunnel groups and adjacent tunnels, and has been widely used for monitoring road sections of expressways in Chongqing (charts of two representative monitored highway sections are shown in Fig. 9). Based on this platform and network integration between each expressway section, expressways in Chongqing have achieved regional linkage and network monitoring on multiple sections, and achieved the monitoring and management of the entire expressway network [99]. Network, intelligence, configuration, and integration are the emerging trends of highway tunnel monitoring, while highway classification management, regional linkage, and network monitoring models represents the development direction of expressway intelligent monitoring.
+
+## 6 Repair and maintenance
+
+Maintaining the structural integrity of highway tunnels over the long term will be an important challenge in the future, and the concept of ''less maintenance'' should be introduced from the beginning of tunnel construction [100]. This will ensure that the structure complies with requirements of durability and operating security and extends the tunnel structure life, which are the primary missions of the underground workers (Fig. 10).
+
+Currently, research on the durability of a structure is concentrated on material performance [101], and the study of tunnel durability is growing because of various operational problems emerging from the many river, sea, and offshore tunnel projects in recent years [102]. The research focuses on bolt failure, steel corrosion, concrete corrosion, degradation caused by underground water, and long-term erosion (including the chloride ion erosion in seawater). Useful examinations have been carried out to identify the actual rate of decline in the bearing capacity of lining structures [103-105].
+
+<!-- image -->
+
+Logo
+
+Fig. 9 Road section monitoring software platform: a Road monitoring chart from WanZhou to KaiXian; b Expresway monitoring chart from YunYang to WanZhou in Chongqing
+
+<!-- image -->
+
+Geographical map
+
+Fig. 10 The degradation curve of a structure
+
+<!-- image -->
+
+Engineering drawing
+
+To effectively prevent safety issues resulting from decay and stress caused by continued operation, a large number of studies on detection of structural problems have been carried out nationally and abroad [106-109]. Rapid nondestructive testing technology is also being developed and some mathematical methods such as fuzzy evaluation, gray theory, and neural networks have been introduced into structural assessment [110, 111]. Maintenance and reinforcement technologies such as bolting reinforcement, backfill pressure injection, and inner surface reinforcement have been verified by experiments [112-116], the results enriching the design programs of decaying tunnels and filling gaps in domestic research.
+
+With the maintenance and management concepts of ' 'prevention first' ', ' 'early discovery'', ' 'maintenance in time'', and ''suit the remedy to the case'' [117], there has been a gradual deepening and improvement in related scientific and technological expertise. Ideas for improvement in structural longevity and long-term monitoring
+
+<!-- image -->
+
+Logo
+
+(from construction to operation) for all types of highway tunnels-including extra-long sea highway tunnels with specialized and complex geological conditions-have been proposed and put into engineering practice. The ideas have produced a full set of new technologies for highway tunnels, including structural safety and health monitoring, data acquisition and processing, evaluation, and early warning systems [118-120]. Professor He Chuan and his team from Southwest Jiaotong University have successfully installed a tunnel structure long-term safety monitoring system in the Zhejiang Cangling and the Chongqing Motianling extralong highway tunnels (Fig. 11). They have built the first basic database of extra-long highway tunnels in China, which is providing valuable first-hand information on load characteristics and lining stress characteristics of highway tunnels. The follow-up data will have an important impact on research of structural durability and long-term safety of highway tunnels. With the large number of tunnels constructed in a region at the same time, research on long-term monitoring systems of tunnel structure extends from single tunnels to tunnel group. Thus, the basic concept of a highway tunnel structural health and security status identification system has been proposed, and a series of related studies have been carried out [121]. The results will bring a major improvement to the long-term maintenance and service levels of highway tunnels, and further enhance highway tunnel safety. However, methods to achieve tunnel structure health status reporting in other tunnels that are built at the same time require further research.
+
+Fig. 11 The long-term health monitoring system of highway tunnel
+
+<!-- image -->
+
+Engineering drawing
+
+Although research on highway tunnel maintenance technology has made strides, there are many problems yet to be solved, and there is still a long way to go.
+
+## 7 Prospects and problems to be solved
+
+Although significant progress has been made in highway tunnel construction and operation (including management) in recent years, there are problems in need of further research.
+
+- (1) China has a vast area, and the lithology is complex and varies by region. Reliance on existing construction theory cannot meet the requirements of highway tunnels. How to address complex problems in highway tunnel construction and create a set of systems and design methods will be the primary problems for our underground engineers in the future.
+- (2) Large sections and multiple section types will characterize highway tunnels in future, and one of the key problems is to research and develop safety control systems for these tunnels.
+- (3) Dealing with disasters during tunnel construction due to the geological conditions such as high-ground stress, high altitude, high intensity, high pressure, high temperature, and balancing the protection of the environment, dealing with tunnel discharge, and achieving economical lining of the structure will be challenges faced by highway tunnel engineers.
+- (4) The shield tunnel method and immersed tube method in China highway tunnel construction are both relatively new and further research must be conducted in structural characteristics, construction methods, and design theory.
+- (5) Withthelargenumberoflongandlarge-diametertunnels, underwater tunnels and city tunnels, the safety problems of management, and energy conservation during operation process are all priorities. How to ensure tunnel operational safety and reduce the risk of accidents is another of the challenges posed by current highway tunnels.
+- (6) Structural durability and disaster response are significant issues as the construction and operational times of underwater tunnels increase. Effectively ensuring the tunnel structure design life and long-term operation safety are among the difficulties faced by tunnel engineers.
+
+<!-- image -->
+
+Logo
+
+Depth, long length, and construction difficulties remain challenges in building highway tunnels, now and in the future. Many problems in basic theory, design, construction, and operation need solutions. The goals of rapid construction, safety, comfort in operation, and effective disaster prevention stimulate us to develop the scientific and technological expertise in highway tunneling necessary to meet the demands of the twenty-first century.
+
+Acknowledgments This article was jointly supported by grants from the National Natural Science Foundation of China (No. 51378434), the National Basic Research Program of China 973 Program (No. 2010CB732105), the National Natural Science Foundation of High-Speed Rail Joint Fund (No. U1134208), and the National Science and Technology Support Plan of China (No. 2013BAB10B00).
+
+Open Access This article is distributed under the terms of the Creative Commons Attribution License which permits any use, distribution, and reproduction in any medium, provided the original author(s) and the source are credited.
+
+## References
+
+1. She J (2005) Study on safety appraisement and maintenance reinforcement strategies for expressway tunnel. PhD thesis, Southwest Jiaotong University (in Chinese)
+2. Wang B, He C, Zhou Y, et al (2013) The shattered feature of soft rock in meizoseismal areas and the problems faced. In Proc 2013 conference on national highway tunnel, pp 38-47 (in Chinese)
+3. Wang MS, Tan ZS (2010) The construction technology of tunnel and underground engineering in China. Eng Sci 12(12):4-10 (in Chinese)
+4. Xiao F, Guo HW, Guo JY (2009) Brief description on the new Austrian method. Shanxi Archit 35(4):284-285 (in Chinese)
+5. Wang JY (1999) Progress of tunneling technology in China. China Acad Railw Sci 20(4):30-36 (in Chinese)
+6. Mao GY (1995) Choose of NAM or NATM depend on the state of rock. Word Tunn 5:25-31 (in Chinese)
+7. Barton N, Licn R, Lunde J (1974) Engineering classification of rock masses for the design of tunnel support. Rock Mech 6(4):189-236
+8. Barton N, Grimstad E, Aas G, Opsahl OA, Bakken A, Pesersen L, Johansen ED (1992) Norwegain method of tunnelling, focus on nor-way world tunnelling June/August
+9. He LS, Wang MN (1998) NTM in tunnel engineering. GuangDong GongLu JiaoTong 54(Sup):108-110 (in Chinese)
+10. Li ZY, Wang ZJ, Guan BS (1998) Experimental research on the strength, deformation and toughness of SFRC. J China Railw Soc 4:99-105 (in Chinese)
+11. Lunardi P (2000) Design and construction of tunnels ADECORS approach. Tunnels and tunnelling international special supplement
+12. Wang JY (1999) Discussion on the development of China's tunneling techniques (a report to the 10th annual meeting of Chinese society for tunneling and underground works, CCES and the 9th forum on development trend of tunneling &amp; underground works). World Tunn 1:1-3 (in Chinese)
+13. Wang MS (2004) The tendency of mountain tunneling the 21st century. Railw Stand Des 9:38-40 (in Chinese)
+14. Xu LS, Wang LS (1999) Study on the character of rock burst and its forecasting in the Erlang mountain tunnel. J Geol Hazard Sand Environ Preserv 10(2):55-59 (in Chinese)
+15. Wang B, He C, Wu DX (2007) Study on modification of geo stress and forecast of rockburst based on destructive size of rockburst. Chin J Rock Mech Eng 26(4):811-817 (in Chinese)
+16. Wang B, He C, Yu T (2007) Study on numerical analysis of rockburst and primary support time in Cangling tunnel. Rock Soil Mech 28(6):1181-1186 (in Chinese)
+17. He C, Wang B, Wu DX (2007) Research of relativity between rockburst character and influence factor and prevention measure in Cangling tunnel. Hydrogeol Eng Geol 34(2):25-28 (in Chinese)
+18. Guan BS, Zhao Y (2010) Construction techniques of tunnel with weak surrounding rock. China Communications Press, Beijing, p 178 (in Chinese)
+19. Sun WH (2005) Study on frost resisting and antifrezzing strategies of extra-long highway tunnel in cold area. ME thesis, Southwest Jiaotong University (in Chinese)
+20. He C, Xie HQ (2007) Multi field coupling analysis and its application in tunnel engineering. Southwest Jiaotong University, Chengdu (in Chinese)
+21. Bhawani S, Rajnish KG (2006) Tunneling in weak rocks. Elsever, London
+22. Barton N, Grimstad E, et al (1992) Norwegian method of tunnelling. Focus on Norway, World tunneling
+23. Zhang JR (2007) Study on action mechanism and design methodology of tunnel single shell lining. PhD thesis, Southwest Jiaotong University (in Chinese)
+24. Takamatsu Nobuyuki (1992) A Study on the bending behavior in the longitudinal direction of shield tunnels with secondary linings. Towards New Worlds in Tunnelling, Balkema
+25. He C, Lin G, Wang HB (2005) Highway multiple-arch tunnel. China Communications Press, Beijing (in Chinese)
+26. Yao Y, He C, Xie ZX (2007) Study of mechanical behavior and reinforcing measures of middle rock wall of parallel tunnel with small interval. Rock Soil Mech 28(9):57-60 (in Chinese)
+27. Yao Y, He C (2009) Analysis of blasting vibration response of parallel set small clear-distance tunnels and blasting control measures. Rock Soil Mech 30(2):2815-2822 (in Chinese)
+28. Xia BX, Qin F, Gong SQ (2002) Review on study of three lane highway tunnel with large cross section. Undergr Space 22(4):360-366 (in Chinese)
+29. Huang LH, Fang YG, Liu TJ (2005) Design of the twin bore 8-lane yabao road tunnel. Mod Tunn Technol 42(4):5-8 (in Chinese)
+30. Yan ZX, Fang YG, Liu TJ (2009) Effect of stress path on surrounding rock pressure of super large-section tunnel. Chin J Rock Mech Eng 28(11):2228-2234 (in Chinese)
+31. Ye YL (2005) Construction experience of the portal section of a three-lane highway tunnel in water-contained clayey rock. Chin J Rock Mech Eng 42(3):76-80 (in Chinese)
+32. Qu HF (2007) Study on load mode of road tunnel with extralarge cross-section and low flat-ratio and its application. PhD thesis, Tongji University (in Chinese)
+33. No S, Noh S, Lee S et al (2006) Construction of long and large twin tube tunnel in Korea-Sapaesan tunnel. Tunn Undergr Space Technol 21:293
+34. Guan BS (2003) Point set of tunnel construction. China Communications Press, Beijing (in Chinese)
+35. Kan EL, Guo YY (2006) External water pressure research of tunnel lining. West-China exploration engineering (Sup):280-281 (in Chinese)
+36. Mei ZR, Zhang JW, Li CF (2009) Research on the progress of underground water control for construction of large railway tunnel. J Railw Eng Soc 9:78-82 (in Chinese)
+
+<!-- image -->
+
+Logo
+
+37. He C, Zhang JG, Su ZX (2010) Mechanical properties of underwater and large section shield tunnel structure. Science Press, Beijing (in Chinese)
+38. Working Group No.2, International Tunnelling Association (2000) Guidelines for the design of shield tunnel lining. Tunn Undergr Space Technol 15(3):303-331
+39. Hirotomo M, Atushi K (1978) Study on load bearing capacity and mechanics of shield segment ring. JSCE 150:103-115
+40. Zhang JG, He C, Yang Z (2009) Analysis of 3D internal forces distribution of wide segment lining for large-section shield tunnel. Rock Soil Mech 30(7):2058-2062 (in Chinese)
+41. Zhu W, Huang ZR, Liang JH (2006) Studies on shell-spring design model for segment of shield tunnels. Chin J Geotech Eng 28(8):940-947 (in Chinese)
+42. Su ZX, He C (2007) Shell-spring-contact model for shield tunnel segmental lining analysis and its application. Eng Mech 24(10):131-136 (in Chinese)
+43. Huang HW, Xu L, Yan JL et al (2006) Study on transverse effective rigidity ratio of shield tunnels. Chin J Geotech Eng 28(1):11-18 (in Chinese)
+44. Feng K, He C, Xia SL (2011) Prototype tests on effective bending rigidity ratios of segmental lining structure for shield tunnel with large cross-section. Chin J Geotech Eng 33(11):1750-1758 (in Chinese)
+45. Koyama Y (2003) Present status and technology of shield tunneling method in Japan. Tunn Undergr Space Technol 18:145-159
+46. Xiao MQ, Deng ZH, Lu ZP (2012) A study of the structure type of the shield-driven section of the Yangtze river tunnel. Mod Tunn Technol 49(1):105-110 (in Chinese)
+47. Zhu ZX (1990) Construction technology summary of waterproof of tunnel cross river in Yanandonglu. Undergr Eng Tunn 4:9-20 (in Chinese)
+48. Lu M, Cao WB, Zhu ZX (2008) Construction technology summary of waterproof of super large diameter shield tunnels. Undergr Eng Tunn Waterproofing 4:17-21 (in Chinese)
+49. Yuan DJ, Yi F, Wang HW et al (2009) Study of soil disturbance caused by super-large diameter slurry shield tunneling. Chin J Rock Mech Eng 28(10):2074-2080 (in Chinese)
+50. Li Y, Zhang ZX, Zhang GJ (2007) Laboratory study on face stability mechanism of slurry shields. Chin J Geotech Eng 29(7):1074-1079 (in Chinese)
+51. Xu JH, He C, Xia WY et al (2009) Research on coupling seepage field and stress field analyses of underwater shield tunnel. Rock Soil Mech 30(11):3519-3527 (in Chinese)
+52. Yuan H, Zhang QH, Hu XD et al (2008) Analysis of coupled anisotropic seepage and stress of large diameter river-crossing shield tunnel. Chin J Rock Mech Eng 27(10):2130-2137 (in Chinese)
+53. Ye YX, Liu GY (2005) Research on coupling characteristics of fluid flow and stress within rock. Chin J Rock Mech Eng 24(14):2518-2525 (in Chinese)
+54. Ye F, Zhu HH, Ding WQ et al (2007) Analysis on anti-buoyancy calculation in excavation of big cross section shield tunnel. Chin J Rock Mech Eng 3(5):849-853 (in Chinese)
+55. Wang XZ (2006) Exploration on tunneling by shield machine in long-distance hard rock area. J Railw Eng Soc 4:52-56 (in Chinese)
+56. Xu WQ, Han FZ (2010) Control measuring technique of long distance only head driving in shield tunnel. Chin Eng Sci 12:56-58 (in Chinese)
+57. Zhou XS, Huang SY, Wen ZY (1999) The application of human freezing aided method in the enter well tunnel construction with mud balanced shield. Constr Technol 28(1):46-48 (in Chinese)
+58. Yang TH (2005) Key techniques for a large slurry shield to enter and leave the terminal wells for a river-crossing tunnel project. Mod Tunn Technol 42(2):45-48 (in Chinese)
+59. Zhang JJ, Fu BJ (2007) Advances in tunnel boring machine application in China. Chin J Rock Mech Eng 26(2):226-238 (in Chinese)
+60. Wang JY (1997) An important tools to construct underwater tunnels: segment immersing method. Word Tunn 1:65-67 (in Chinese)
+61. Glerrum A (1995) Developments in immersed tunnlling in Holland. Tunn Undergr Space Technol 10(4):455-462
+62. Nestors R (1997) Concrete immersed tunnels-forty years of experience. Tunn Undergr Space Technol 12(l):33-46
+63. Wang YN, Xiong G (2007) Application and state of the art of immersed tube tunnels. Mod Tunn Technol 4:1-4 (in Chinese)
+64. Chen Y, Guan MX, Feng HC (1996) Tugging and immersing technologies of immersed tube tunnels in Zhujiang river. Word Tunn 6:27-33 (in Chinese)
+65. Cai YB (1996) Construction success of the Yongjiang river tube tunnel construction. Word Tunn 6:54-66 (in Chinese)
+66. Liu QW, Yang GX, Zhou X (2000) Changhong immersed tunnel in Ningbo city, Zhejiang province. Word Tunn 6:6-13 (in Chinese)
+67. Pan YR (2004) The floating transport method of large elements employed for Shanghai out-ring immersed tube tunnel. Constr Technol 5:52-54 (in Chinese)
+68. Chen Y (2013) Review on construction technology of tunnel and artificial islands for Hong Kong-Zhuhai-Macao Bridge. Constr Technol 9:1-5 (in Chinese)
+69. Zhao ZC, Huang JY (2007) Discussion on several techniques of immersed tunnel construction. Mod Tunn Technol 4:5-8 (in Chinese)
+70. Fu QG (2004) Development and prospect of immersed tunnels. China Harb Eng 5:53-58 (in Chinese)
+71. Xiao GG (2012) Waterproofing technology of main structure for buried segment of large immersed tunnel. Constr Technol 373:121-124 (in Chinese)
+72. Liu P, Ding WQ, Yang B (2013) Joints and gasket seismic response of deepwater long immersed tube tunnels. J Tongji Univ 7:984-988 (in Chinese)
+73. Zhang LL, Yang JX, Liao XQ, Li CQ (2013) Waterproofing technology for pipe joints of immersed tube tunnel of Hongkong-Zhuhai-Macao Bridge. The subway and tunnel waterproof 13:26-33 (in Chinese)
+74. Du CW (2009) Key technology of design and construction on immersed tube tunnel. Eng Sci 7:76-80 (in Chinese)
+75. Chen SZ (2004) Design and construction for immersed tunnels. Science Press, Beijing (in Chinese)
+76. Zhang ZG, Liu HZ (2013) Development and key technologies of immersed highway tunnels. Tunn Constr 5:333-347 (in Chinese)
+77. Yan SH, Gao F, Li DW et al (2004) Studies on some issues of seismic responses analysis for submerged tunnel. Chin J Rock Mech Eng 23(5):846-850 (in Chinese)
+78. Ding JH, Jin XL, Guo YZ et al (2006) Numerical simulation for large-scale seismic response analysis of immersed tunnel. Eng Struct 28(10):1367-1377
+79. Yu HT, Yuan Y, Xu GP, Chen Y (2012) Issues on the seismic design and analysis of ultra-long immersed tunnel. J Shanghai Jiaotong Univ 46(1):94-98 (in Chinese)
+80. Liang BY, Lu PW (2013) New thought of physic model test and result study on immersed tube tunnel element construction. Port Waterw Eng 6:170-176 (in Chinese)
+81. Zhao ZG, Huang JY (2007) Discussion on several techniques of immersed tunnel construction. Mod Tunn Technol 44(4):5-8 (in Chinese)
+
+<!-- image -->
+
+Logo
+
+82. Guo JW (2013) Key construction technologies of sinking and docking of immersed tube of Haihe river tunnel. Railw Stand Des 4:73-77 (in Chinese)
+83. Li XH (2013) Key techniques for the final joints of the immersed-tube tunnel of the Haihe river at the central avenue. Traffic Eng Technol Natl Def 3:53-57 (in Chinese)
+84. He C, Li ZW, Fang Y, Wang MN (2005) Feed forward intelligent fuzzy logic control of highway tunnel ventilation system. J Southwest Jiaotong Univ 40(5):575-579 (in Chinese)
+85. Li ZW, He C, Fang Y et al (2007) Feed-forward intelligent fuzzy logic control of highway tunnel ventilation system. 2007 China highway tunnel conference proceedings. Chongqing University Press, Chongqing, pp 546-550 (in Chinese)
+86. Fang Y, He C, Li ZW et al (2009) Design of multi-tunnel assembled ventilation intelligent control system of highway section. Chongqing ring expressway technology demonstration project seminar proceedings, vol 11. China communications Press, Beijing, pp 78-82 (in Chinese)
+87. Fang Y, He C (2009) Application and effect of feed-forward control method for expressway tunnel ventilation system. International conference on transportation engineering. ASCE 3:2170-2176
+88. He C, Fang Y, Zeng YH, Zhang YC (2009) Intelligent control of ventilation, lighting and disaster prevention for highway tunnel group or abut tunnels. International conference on transportation engineering. ASCE 3:2177-2182
+89. Ma F, He C, Fang Y et al (2010) The preliminary application of the virtual reality technology in the adjoining highway tunnel lighting control. The technical summary of the Wulong to Shuijiang highway tunnel group project, vol 4. China Communications Press, Beijing, pp 194-197 (in Chinese)
+90. Yan ZG, Yang QX, Zhu HH (2005) Experimental study of temperature distribution in long-sized road tunnel. J Southeast Univ 35(A01):84-88 (in Chinese)
+91. Yu L, Wang MN (2007) Research on the smoke characteristics of a fire in a long highway tunnel. Mod Tunn Technol 44(4):52-55 (in Chinese)
+92. Zeng YH, Li YL, He C et al (2003) Tunnel ventilation network calculation. J Southwest Jiaotong Univ 38(2):183-187 (in Chinese)
+93. Guo C, Wang MN, Gao X et al (2007) The control and rescue plan of Beibei highway tunnel disaster. The new technology conference proceedings about transportation resource conservation and environmental protection. China Communications Press, Beijing, pp 285-289
+94. Guo C, Shi HG, Wang NM et al (2010) The study of control plan about the highway adjacent tunnels and the tunnel group under the fire disaster mode. The technical summary of the Wulong to Shuijiang highway tunnel group project, vol 4. China Communications Press, Beijing, pp 198-204 (in Chinese)
+95. Fang Y, He C, Li HY et al (2010) The study about the control flow and plan on the overall operation of the collection of tunnel sections. The technical summary of the Wulong to Shuijiang highway tunnel group project, vol 4. China Communications Press, Beijing, pp 198-204 (in Chinese)
+96. He C, Wang MN, Fang Y, et al (2008) The status and development of the highway tunnels intelligent linkage control technology. The fifteenth annual meeting proceedings of thirteenth annual conference tunnel and underground engineering branch of the China civil engineering society. Mod Tunn Technol pp62-66 (in Chinese)
+97. Li ZW, Fang Y, He C (2006) The study of the joint control technology on the monomer long highway tunnels. The international conference proceedings of the 2006 highway tunnel operations management and security. Chongqing University Press, Chongqing, pp 58-64 (in Chinese)
+98. Li ZW, He C, Li HY et al (2007) The study of the intelligent linkage control plan on the highway tunnel group and the adjacent tunnels. The new technology conference proceedings about transportation resource conservation and environmental protection. China Communications Press, Beijing, pp 227-233 (in Chinese)
+99. Li ZW, Jin ZH, He C et al (2010) The design of Chongqing highway area monitoring and integrated management system. The technical summary of the Wulong to Shuijiang Highway tunnel group project, vol 4. China Communications Press, Beijing, pp 145-147
+100. Guan BS (2004) Tunnel maintenance and management. China Communications Press, Beijing (in Chinese)
+101. Rollin J, Lepers J, Benard P (1974) Laying and operating problems arising with underground HV and EHV cables. Revue Generale del'Electricite 83:45-56
+102. Song KZ, Wang MS (2009) Current construction technologies developments of underwater tunnel sand its experiences for Bohai strait tunnel. Lu dong Univ J 25(2):182-187 (in Chinese)
+103. Su Nan et al (2002) Effect of wash water and underground water on properties of concrete. Cem Concr Res 32:777-782
+104. Li YH, Ge XR (1998) Estimation of the amount of steel bolt corrosion in shotcreting and bolting structure. J China Coal Soc 23(1):48-52 (in Chinese)
+105. Ma XX et al (1995) Silicate material durability test in the underground. Concr Cem Prod 4:8-11 (in Chinese)
+106. Wu HT, Li HF, Liu HY (2000) Comprehensive treatment at coal-mining zone in tieshan tunnel. Word Tunn 1:53-57
+107. She J, He C, Wang B et al (2008) Study on effect of cavities behind linings on bearing capacity of tunnel structure by model test. J Highw Transp Res Dev 25(1):104-110 (in Chinese)
+108. He C, Tang ZC, Wang B et al (2009) Study on effects of stress field for bearing capacity in defect tunnel. Chin J Undergr Space Eng 5(2):227-234 (in Chinese)
+109. Chen HK, Li M (2008) Current situation of health diagnosing &amp; controlling at highway tunnel. J Chong Qing Jiaotong Univ 25(4):4-8 (in Chinese)
+110. Tao H, Zhao YG, Han CL et al (2008) The survey and detection technology of active tunnel health. Highway 7:264-268 (in Chinese)
+111. Cao XY (2008) Research on application technology of highway tunnel health diagnosis. PhD thesis, Changan University (in Chinese)
+112. Toshihiro Asakura, Toyohiro Ando, Fujio Omata, Kazuyuki Wakana, Akio Matsuura (1994) Behavior of structurally defective tunnel lining and effectiveness of inner reinforcement. JSCE, No.493(III), 431-445
+113. He C, Li ZW, She J et al (2007) Research on indoor model test about effect of combined reinforcing on structure bearing capacity of defect and disease tunnel. Highway 3:195-201 (in Chinese)
+114. Li ZW, He C, Wang B et al (2007) The tunnel model test study of the influence on the defective structure bearing capacity of the anchor reinforcement. Railw Eng 2:39-42 (in Chinese)
+115. He C, Wu DX, Wang B et al (2008) Research on effect of backfilling pressure casting for structure bearing capacity by model test in defect and disease tunnel. Hydrogeol Eng Geol 2:114-119 (in Chinese)
+116. He C, Tang ZC, Wang B et al (2009) Research on effect of inner surface reinforcing on structure bearing capacity by model test in defective tunnel. Rock Soil Mech 2:114-119 (in Chinese)
+117. Wang B (2008) The study of the integrated monitoring technology on highway tunnel construction and operation. PhD thesis, Southwest Jiaotong University (in Chinese)
+118. Su J, Zhang DL, Niu XK et al (2007) Research on design of subsea tunnel structural health monitoring. Chin J Rock Mech Eng 2:406-412 (in Chinese)
+
+<!-- image -->
+
+Logo
+
+119. Liu SC, Zhang DL, Huang J et al (2011) Research and design on structural health monitoring system for large-scale shield tunnel. Chin J Undergr Space Eng 7(4):741-748 (in Chinese)
+120. Li MZ, Zhang BX, Huang XQ (2011) Evaluation of and analysis on long-term monitoring results during operation of Xueshan tunnel. Tunn Constr 31(S1):87-95 (in Chinese)
+121. Li X, He C, Wang B et al (2008) The tunnel structure health monitoring and safety assessment study in operation period. Mod Tunn Technol (Sup):289-294 (in Chinese)
+
+<!-- image -->
+
+Logo
