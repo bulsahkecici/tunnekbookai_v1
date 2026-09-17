@@ -444,7 +444,7 @@ olarak kullanılmalıdır.
   `reset_legacy_state.py` scriptlerinin gerçek bir `--help` modu olmadığı özellikle
   belgelendi; envanter sırasında çalıştırılan empty-reset kontrolünün tarihsel audit
   dosyasındaki yan etkisi commit'teki önceki içeriğe geri alındı.
-- Doğrulama: rehber **894 satır** ve dengeli **78 Markdown kod bloğu** içeriyor; population,
+- Doğrulama: rehber **893 satır** ve dengeli **78 Markdown kod bloğu** içeriyor; population,
   canonical ve book CLI alt komutlarının tamamı rehberde mevcut. `git diff --check` temiz,
   empty-reset auditinde veya başka runtime artifact'inde beklenmeyen çalışma ağacı değişikliği
   yok. Sıradaki işlem bu üç dokümantasyon dosyasını ayrı commit olarak kaydedip
