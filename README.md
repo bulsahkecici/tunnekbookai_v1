@@ -6,6 +6,10 @@ Projenin başlangıçtan bugüne aktif işlem özeti, kanıt bağlantıları, so
 bundan sonraki değişiklik kayıtları `reports/project_work_log.md` dosyasında tutulur.
 Projede yapılan her anlamlı işlemden sonra bu günlük güncellenir.
 
+Kurulum, ingest, population, dashboard, canonical promotion, retrieval, kitap üretimi,
+test, teşhis ve Git komutlarının Türkçe açıklamalı tam başvuru belgesi
+`docs/terminal_komutlari_rehberi.md` dosyasındadır.
+
 PaperCrawler kaynakları keşfeder ve güvenli bir schema-2.x Source Pack üretir. TunnelBookAI,
 kullanıcının sağladığı veya PaperCrawler’dan gelen kaynakları tek Unified Ingest hattından
 geçirerek işler, sınıflandırır, parçalar ve kitap üretiminde kullanılabilir

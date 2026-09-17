@@ -424,3 +424,28 @@ olarak kullanılmalıdır.
   hedefli mimari test **6/6** geçti.
 - Dashboard Playwright uçtan uca testleri yerel port erişimiyle **8/8 geçti**.
   `git diff --check` temizdir.
+
+### 2026-09-17 — Toplu commit/push ve terminal komutları rehberi
+
+- Doğrulanmış kod, yapılandırma, canonical corpus, audit ve kitap üretim çıktıları
+  `a612beb` (`Implement canonical retrieval and book production pipeline`) commit'iyle
+  kaydedildi ve `origin/main` dalına gönderildi. Commit **8.482 dosya**, **2.158.163 eklenen
+  satır** ve **282 silinen satır** içeriyor; yerel ve uzak commit kimlikleri eşitlendi.
+- Yaklaşık 2,4 GB toplam büyüklüğe sahip iki yeniden üretilebilir recovery TAR'ı yerelde
+  korundu, `.gitignore` ile Git/GitHub kapsamı dışında bırakıldı. Commit öncesi secret
+  taraması eşleşme bulmadı; en büyük sürümlenen tek dosya GitHub tek-dosya sınırının
+  altındaydı.
+- Aktif CLI parser'ları, bütün alt komutların `--help` çıktıları, README, population,
+  canonical, dashboard ve book sözleşmeleri incelenerek
+  `docs/terminal_komutlari_rehberi.md` oluşturuldu. Belge; kurulum, yerel BGE-M3/Qwen,
+  Unified Ingest, Corpus Population, dashboard, canonical promotion, retrieval, kitap
+  üretimi, test, Git ve arıza teşhis komutlarını etkileri ve güvenlik notlarıyla açıklıyor.
+- `README.md` dosyasına rehber bağlantısı eklendi. `probe_models.py` ile
+  `reset_legacy_state.py` scriptlerinin gerçek bir `--help` modu olmadığı özellikle
+  belgelendi; envanter sırasında çalıştırılan empty-reset kontrolünün tarihsel audit
+  dosyasındaki yan etkisi commit'teki önceki içeriğe geri alındı.
+- Doğrulama: rehber **894 satır** ve dengeli **78 Markdown kod bloğu** içeriyor; population,
+  canonical ve book CLI alt komutlarının tamamı rehberde mevcut. `git diff --check` temiz,
+  empty-reset auditinde veya başka runtime artifact'inde beklenmeyen çalışma ağacı değişikliği
+  yok. Sıradaki işlem bu üç dokümantasyon dosyasını ayrı commit olarak kaydedip
+  `origin/main` dalına göndermektir.
