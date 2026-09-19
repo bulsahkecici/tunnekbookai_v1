@@ -48,6 +48,7 @@ class ExtractionResult:
     engine: dict[str, Any] = field(default_factory=dict)
     page_count: int = 0
     text_char_count: int = 0
+    text_repair: dict[str, Any] | None = None
 
     # ------------------------------------------------------------------ helpers
     def warn(self, code: str) -> None:

@@ -11,8 +11,9 @@ from .errors import BookEngineError
 from .coverage_audit import run_coverage_audit
 from .evidence_review import run_evidence_review
 from .editorial import run_editorial_audit
-from .freeze import run_freeze
+from .freeze import record_operator_approval, run_freeze
 from .inputs import BookInputs, load_book_inputs
+from .normalize import normalize_book_inputs
 from .preparation import prepare_sections
 from .prewriting import run_prewriting_audit
 from .retrieval import build_index, search_index
@@ -58,6 +59,13 @@ def parser() -> argparse.ArgumentParser:
         child.add_argument("--json", action="store_true")
     for name in GLOBAL_COMMANDS:
         sub.add_parser(name)
+    approve = sub.add_parser("approve-section")
+    approve.add_argument("--section", required=True)
+    approve.add_argument("--note", required=True, help="what was read and why it is acceptable as a book section")
+    approve.add_argument("--approver")
+    normalize = sub.add_parser("normalize-inputs")
+    normalize.add_argument("--draft", default="book/question_bank/drafts/question_bank_v2_draft.md")
+    normalize.add_argument("--minimum-coverage", type=float, default=0.6)
     build = sub.add_parser("build-index")
     build.add_argument("--batch-size", type=int, default=32)
     build.add_argument("--no-resume", action="store_true")
@@ -72,8 +80,8 @@ def parser() -> argparse.ArgumentParser:
             target.add_argument("--section")
             target.add_argument("--all", action="store_true")
             if name == "evidence-audit":
-                child.add_argument("--batch-size", type=int, default=25)
-                child.add_argument("--top-k", type=int, default=4)
+                child.add_argument("--batch-size", type=int, default=8)
+                child.add_argument("--top-k", type=int, default=8)
         else:
             child.add_argument("--section", required=True)
             if name in {"write", "evidence-review", "coverage-audit"}:
@@ -96,6 +104,14 @@ def _print(payload: dict[str, Any], *, json_output: bool = True) -> None:
 def main(argv: list[str] | None = None) -> int:
     args = parser().parse_args(argv)
     try:
+        if args.command == "normalize-inputs":
+            # Runs before input loading on purpose: it is the command that produces the
+            # inputs the loader validates, and re-seals the contract with their hashes.
+            from pathlib import Path
+
+            result = normalize_book_inputs(Path(__file__).resolve().parents[2], draft_path=args.draft, minimum_coverage=args.minimum_coverage)
+            _print({**result, "validation": _validation_payload(load_book_inputs())})
+            return 0
         inputs = load_book_inputs()
         if args.command == "validate":
             _print(_validation_payload(inputs), json_output=args.json)
@@ -194,6 +210,11 @@ def main(argv: list[str] | None = None) -> int:
                     "UNKNOWN_SECTION", f"section is not a question-bank section: {args.section}"
                 )
             _print(run_editorial_audit(args.section))
+            return 0
+        if args.command == "approve-section":
+            if args.section not in inputs.questions_by_section:
+                raise BookEngineError("UNKNOWN_SECTION", f"section is not a question-bank section: {args.section}")
+            _print(record_operator_approval(args.section, note=args.note, approver=args.approver))
             return 0
         if args.command == "freeze":
             if args.section not in inputs.questions_by_section:

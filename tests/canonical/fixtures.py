@@ -52,7 +52,7 @@ class SyntheticRepo:
     def close(self) -> None:
         self.temporary.cleanup()
 
-    def add_candidate(self, source: bytes) -> str:
+    def add_candidate(self, source: bytes, *, title: str = "synthetic evidence") -> str:
         source_sha = hashlib.sha256(source).hexdigest()
         document_id = document_id_for_sha256(source_sha)
         original = self.root / "originals" / document_id
@@ -71,7 +71,7 @@ class SyntheticRepo:
             "document_id": document_id, "source_kind": "MANUAL_INTERNAL", "original_filename": "source.pdf",
             "original_sha256": source_sha, "format": "PDF", "mime_type": "application/pdf",
             "confidentiality": "INTERNAL", "document_status": "FINAL", "ingest_method": "manual",
-            "title": "Synthetic evidence", "authors": [], "organization": None, "department": None,
+            "title": title, "authors": [], "organization": None, "department": None,
             "document_date": None, "revision": None, "language": "en", "document_type": None,
             "topics": [], "source_url": None, "doi": None, "final_primary_section": self.section_id,
             "final_secondary_sections": [], "final_section_confidence": 1.0,
@@ -94,7 +94,7 @@ class SyntheticRepo:
             "extraction_report.json": {"document_id": document_id, "format": "PDF", "errors": [], "warnings": []},
             "chunk_quality.json": {"document_id": document_id, "status": "PASS", "chunk_count": 1, "policy": {"chunk_schema_version": "1.0", "chunk_policy_version": "structure-aware-v1"}, "errors": [], "warnings": []},
         }
-        text = "Synthetic evidence paragraph with enough content for a deterministic retrieval row."
+        text = f"{title.capitalize()} paragraph with enough content for a deterministic retrieval row."
         policy = ChunkPolicy()
         chunk = {
             "chunk_id": chunk_id(document_id, "TEXT_CHUNK", ["E1"], text, policy),
@@ -126,7 +126,7 @@ class SyntheticRepo:
         write_json(staging / "bundle.json", {
             "bundle_shape": BUNDLE_SHAPE, "staging_version": STAGING_VERSION,
             "document_id": document_id, "original_sha256": source_sha, "source_kind": "MANUAL_INTERNAL",
-            "format": "PDF", "title": "Synthetic evidence", "final_primary_section": self.section_id,
+            "format": "PDF", "title": title, "final_primary_section": self.section_id,
             "final_secondary_sections": [], "final_section_confidence": 1.0,
             "final_evidence_level": "FULL_TEXT", "content_capabilities": {"text": True},
             "quality_decision": "GO", "processing_bundle": f"processing/{document_id}",
@@ -136,7 +136,7 @@ class SyntheticRepo:
         })
         self._append_ledger("source_registry.jsonl", {
             "document_id": document_id, "sha256": source_sha, "doi": None, "url": None,
-            "title": "synthetic evidence", "year": None, "organization": None, "authors": [],
+            "title": title, "year": None, "organization": None, "authors": [],
             "title_is_weak": False, "state": "DEDUP_COMPLETED", "source_kinds": ["MANUAL_INTERNAL"],
             "provenance_sources": [{"kind": "MANUAL_INTERNAL"}], "provenance_source_count": 1,
         })

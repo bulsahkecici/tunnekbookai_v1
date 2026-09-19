@@ -42,7 +42,8 @@ def build_status(inputs: BookInputs) -> dict[str, Any]:
         "DRAFTED": 0,
         "AUDIT_HOLD": 0,
         "FROZEN": 0,
-        "NOT_STARTED": len(inputs.scope) - int(prewriting.get("sections_audited") or 0),
+        "HUMAN_ANALYSIS_ARTIFACT_REQUIRED": 0,
+        "NOT_STARTED": len(inputs.question_section_ids) - int(prewriting.get("sections_audited") or 0),
     }
     for section in prewriting.get("sections") or []:
         readiness = str(section.get("readiness") or "")
@@ -101,7 +102,8 @@ def build_status(inputs: BookInputs) -> dict[str, Any]:
         "schema_version": "1.0",
         "book_inputs_valid": True,
         "input_counts": {
-            "structural_headings": len(inputs.scope),
+            "structural_headings": len(inputs.active_scope),
+            "inactive_headings": len(inputs.scope) - len(inputs.active_scope),
             "question_bank_sections": len(inputs.question_section_ids),
             "questions": len(inputs.questions),
         },

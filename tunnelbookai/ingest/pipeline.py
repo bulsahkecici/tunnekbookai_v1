@@ -28,6 +28,7 @@ from .classify import pipeline as classify_module
 from .config import IngestConfig
 from .dedup import SourceRegistry, resolve as dedup_resolve
 from .extraction import ExtractionResult, write_extraction_report
+from .glyph_repair import repair_extraction
 from .format_registry import Detection
 from .metadata.enrich import build_metadata, write_metadata
 from .paths import PATHS, relpath
@@ -128,6 +129,13 @@ def process_document(
         extraction = ExtractionResult(document_id=document_id, format=detection.fmt.value,
                                       adapter=detection.adapter)
         extraction.fail(f"ADAPTER_CRASHED:{type(exc).__name__}: {exc}")
+    if extraction.succeeded:
+        # Some Turkish PDFs isolate ı/ş/ğ/ü/ö/ç glyphs with spaces; repair the derived text
+        # before metadata, classification and chunking read it (original bytes untouched).
+        try:
+            repair_extraction(extraction, bundle, services.root)
+        except Exception as exc:  # never let a repair bug fail a valid extraction
+            extraction.warn(f"TURKISH_GLYPH_SPACING_REPAIR_FAILED:{type(exc).__name__}")
     write_extraction_report(bundle, extraction)
     outcome.warnings += extraction.warnings
     outcome.errors += extraction.errors

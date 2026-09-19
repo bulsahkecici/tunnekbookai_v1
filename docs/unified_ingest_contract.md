@@ -23,6 +23,23 @@ accepts them, emits `DEPRECATED_PRODUCER_SECTION_FIELD:<field>`, does not map th
 into final metadata, and computes all final sections from source content, the canonical
 book scope, and the matching terms in `config/taxonomy.yaml`.
 
+## Turkish glyph-spacing repair
+
+Some Turkish PDFs embed ı/İ/ş/Ş/ğ/Ğ/ü/Ü/ö/Ö/ç/Ç through a separate font program, so the
+extracted text layer isolates every such glyph with spaces (``TEKN İ K``, ``k ı salmas ı``).
+After any adapter succeeds, `tunnelbookai.ingest.glyph_repair.repair_extraction` measures
+the damage density of the normalized text; when at least eight isolated glyphs occur at a
+density of one per 2,000 characters or more, it re-attaches each glyph to its left and/or
+right neighbour by scoring every attachment choice against `config/turkish_lexicon.txt`
+(Turkish word forms with corpus frequency, ı and i kept distinct) plus document-local
+evidence of which fragments stand alone. The repaired text replaces the normalized
+Markdown/JSON/text, the element stream, heading paths and asset captions before metadata,
+classification and chunking read them; the immutable original is untouched. The extraction
+report records `text_repair` and the warning `TURKISH_GLYPH_SPACING_REPAIRED:<count>`.
+Undamaged documents are never modified. The lexicon is a versioned configuration input; it
+was generated from the undamaged Turkish canonical documents and can be regenerated with
+`build_lexicon`.
+
 ## Output ownership
 
 For a source SHA256, `document_id = ING_<sha256[:20]>`. The immutable source is

@@ -49,13 +49,21 @@ class PrewritingEvidenceTests(unittest.TestCase):
         self.assertEqual(rows[0]["status"], "UNSUPPORTED")
         self.assertEqual(rows[0]["reason_code"], "NO_SECTION_EVIDENCE")
 
-    def test_section_readiness_requires_thirty_supported_questions(self):
+    def test_section_readiness_follows_contract_target(self):
         rows = ([{"status": "SUPPORTED"}] * 29) + ([{"status": "PARTIAL"}] * 21)
-        summary = _section_summary("6.1", "Maliyet", rows)
+        summary = _section_summary("6.1", "Maliyet", rows, target=30)
         self.assertFalse(summary["preferred_target_met"])
         self.assertEqual(summary["readiness"], "READY_WITH_LIMITATIONS")
         rows[29]["status"] = "SUPPORTED"
-        self.assertTrue(_section_summary("6.1", "Maliyet", rows)["preferred_target_met"])
+        self.assertTrue(_section_summary("6.1", "Maliyet", rows, target=30)["preferred_target_met"])
+        # Variable-size v2 sections use a ratio-derived target.
+        small = ([{"status": "SUPPORTED"}] * 6) + ([{"status": "UNSUPPORTED"}] * 4)
+        self.assertEqual(_section_summary("4.3", "Yöntem", small, target=6)["readiness"], "READY_WITH_LIMITATIONS")
+        self.assertEqual(_section_summary("4.3", "Yöntem", small, target=7)["readiness"], "EVIDENCE_GAP")
+        self.assertEqual(
+            _section_summary("7.1", "Bulgular", small, target=6, human_analysis=True)["readiness"],
+            "HUMAN_ANALYSIS_ARTIFACT_REQUIRED",
+        )
 
 
 if __name__ == "__main__":

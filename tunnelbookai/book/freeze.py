@@ -118,18 +118,92 @@ def _freeze_checks(
     editorial: Mapping[str, Any],
     citation: Mapping[str, Any],
     required_analysis_artifacts: Sequence[Mapping[str, Any]],
+    expected_questions: int,
+    operator_approval: Mapping[str, Any] | None = None,
+    draft: Mapping[str, Any] | None = None,
 ) -> dict[str, str]:
     analysis_ok = all(str(row.get("status") or "") == "VERIFIED" for row in required_analysis_artifacts)
+    approval_ok = bool(
+        operator_approval and draft
+        and operator_approval.get("draft_id") == draft.get("draft_id")
+        and operator_approval.get("draft_sha256") == draft.get("draft_sha256")
+        and operator_approval.get("editorial_audit_id") == editorial.get("audit_id")
+        and str(operator_approval.get("note") or "").strip()
+    )
     checks = {
         "SCOPE_VALIDATION_PASS": "PASS" if section_id else "HOLD",
         "EVIDENCE_AUDIT_PASS": "PASS" if evidence.get("audit_decision") == "PASS" else "HOLD",
         "NO_MATERIAL_UNSUPPORTED_TECHNICAL_CLAIMS": "PASS" if int(evidence.get("material_issue_count") or 0) == 0 else "HOLD",
-        "QUESTION_COVERAGE_AUDIT_COMPLETE": "PASS" if coverage.get("status") == "COMPLETE" and int(coverage.get("question_count") or 0) == 50 else "HOLD",
+        "QUESTION_COVERAGE_AUDIT_COMPLETE": "PASS" if coverage.get("status") == "COMPLETE" and int(coverage.get("question_count") or 0) == expected_questions else "HOLD",
         "EDITORIAL_AUDIT_PASS": "PASS" if editorial.get("audit_decision") == "PASS" else "HOLD",
         "CITATION_PROVENANCE_INTEGRITY_PASS": "PASS" if citation.get("decision") == "PASS" else "HOLD",
         "REQUIRED_ANALYSIS_ARTIFACTS_SATISFIED": "PASS" if analysis_ok else "HOLD",
+        # A person must have read the exact draft that passed the machine gates: model
+        # gates prove evidence and structure, not that the text reads as a book section.
+        "OPERATOR_READ_APPROVAL_PASS": "PASS" if approval_ok else "HOLD",
     }
     return checks
+
+
+def _approval_path(root: Path, section_id: str) -> Path:
+    return root / "book" / "production" / "approvals" / f"section_{section_id.replace('.', '_')}.json"
+
+
+def load_operator_approval(root: Path, section_id: str) -> dict[str, Any] | None:
+    path = _approval_path(root, section_id)
+    if not path.is_file():
+        return None
+    try:
+        return _read_json(path, "OPERATOR_APPROVAL_INVALID")
+    except BookEngineError:
+        return None
+
+
+def record_operator_approval(
+    section_id: str,
+    project_root: Path | str | None = None,
+    *,
+    note: str,
+    approver: str | None = None,
+) -> dict[str, Any]:
+    """Record that a person read the current audited draft and accepts it as a book section.
+
+    The approval is bound to the active draft id, its Markdown hash and the editorial audit
+    id, so any later rewrite, revision or re-audit silently invalidates it and freeze holds.
+    """
+
+    root = Path(project_root or Path(__file__).resolve().parents[2]).resolve()
+    if not str(note or "").strip():
+        raise BookEngineError("OPERATOR_APPROVAL_NOTE_REQUIRED", "an approval note describing the read-through is required")
+    inputs = load_book_inputs(root)
+    if section_id not in inputs.questions_by_section:
+        raise BookEngineError("UNKNOWN_SECTION", f"section is not a question-bank section: {section_id}")
+    preparation = inspect_preparation(root, inputs=inputs)
+    drafts = inspect_drafts(root, preparation=preparation)
+    evidence_reviews = inspect_evidence_reviews(root, drafts=drafts)
+    coverage_audits = inspect_coverage_audits(root, evidence_reviews=evidence_reviews)
+    editorial_audits = inspect_editorial_audits(root, coverage_audits=coverage_audits)
+    draft = next((row for row in drafts if row["section_id"] == section_id), None)
+    editorial = next((row for row in editorial_audits if row["section_id"] == section_id), None)
+    if not draft or not editorial:
+        raise BookEngineError(
+            "OPERATOR_APPROVAL_PREREQUISITE_MISSING",
+            f"an active draft with a completed editorial audit is required before approving {section_id}",
+        )
+    approval = {
+        "schema_version": SCHEMA_VERSION,
+        "stage": "OPERATOR_READ_APPROVAL",
+        "section_id": section_id,
+        "draft_id": draft["draft_id"],
+        "draft_sha256": draft["draft_sha256"],
+        "sentence_map_sha256": draft["sentence_map_sha256"],
+        "editorial_audit_id": editorial["audit_id"],
+        "approver": approver or os.environ.get("USER") or "operator",
+        "approved_at": _now(),
+        "note": " ".join(str(note).split()),
+    }
+    _atomic_json(_approval_path(root, section_id), approval)
+    return approval
 
 
 def is_section_frozen(project_root: Path | str, section_id: str) -> bool:
@@ -191,9 +265,12 @@ def run_freeze(section_id: str, project_root: Path | str | None = None) -> dict[
     packet = _read_json(root / str(prep_entry["packet_path"]), "SECTION_FREEZE_INPUT_INVALID")
     citation = _citation_integrity(sentence_map, evidence_rows, registry)
     required_analysis = list(packet.get("required_analysis_artifacts") or [])
+    approval = load_operator_approval(root, section_id)
     checks = _freeze_checks(
         section_id=section_id, evidence=evidence, coverage=coverage, editorial=editorial,
         citation=citation, required_analysis_artifacts=required_analysis,
+        expected_questions=int(inputs.scope_by_id[section_id]["question_count"]),
+        operator_approval=approval, draft=draft,
     )
     contract_requirements = list(inputs.contract.payload["section_policy"]["freeze_requirements"])
     if set(checks) != set(contract_requirements) or any(value != "PASS" for value in checks.values()):
@@ -225,6 +302,7 @@ def run_freeze(section_id: str, project_root: Path | str | None = None) -> dict[
             _copy_artifact(root, freeze_root, "editorial_result.json", str(editorial["result_path"])),
             _copy_artifact(root, freeze_root, "claim_registry.json", str(prep_entry["claim_registry_path"])),
             _copy_artifact(root, freeze_root, "evidence_packet.json", str(prep_entry["packet_path"])),
+            _copy_artifact(root, freeze_root, "operator_approval.json", _approval_path(root, section_id).relative_to(root).as_posix()),
         ]
         manifest = {
             "schema_version": SCHEMA_VERSION, "contract_version": CONTRACT_VERSION,
@@ -248,10 +326,11 @@ def run_freeze(section_id: str, project_root: Path | str | None = None) -> dict[
     report = "\n".join([
         f"# Bölüm dondurma — {section_id}", "", f"- Durum: **FROZEN**",
         f"- Freeze kimliği: `{freeze_id}`", f"- Draft: `{draft['draft_id']}`",
-        f"- Cümle: **{draft['sentence_count']}**", f"- ANSWERED: **{coverage['answered']} / 50**",
+        f"- Cümle: **{draft['sentence_count']}**", f"- ANSWERED: **{coverage['answered']} / {coverage['question_count']}**",
         f"- Kapsam: **{float(coverage['coverage']):.0%}**",
         f"- Editoryal model görüşü: **{editorial['model_decision']} (advisory)**", "",
-        "Yedi sözleşmeli freeze koşulunun tamamı ve bütün snapshot hashleri doğrulanmıştır.", "",
+        f"- Operatör onayı: **{(approval or {}).get('approver')}** — {(approval or {}).get('note')}", "",
+        "Sözleşmeli freeze koşullarının tamamı ve bütün snapshot hashleri doğrulanmıştır.", "",
     ])
     _atomic_text(root / "reports" / f"section_freeze_{section_id.replace('.', '_')}.md", report)
     return pointer

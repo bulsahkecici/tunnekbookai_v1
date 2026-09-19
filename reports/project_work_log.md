@@ -599,3 +599,60 @@ olarak kullanılmalıdır.
 - Sonuç: **İş kalemi 12 tamamlandı.** Sıradaki önerilen işlem 1.4 için
   `book write --section 1.4 --batch-size 8` çalıştırmak; ardından evidence → gerekiyorsa
   revizyon → coverage → editorial → freeze zincirini uygulamaktır.
+
+### 2026-09-19 — Dış gözle proje incelemesi ve yapısal düzeltme paketi / İş kalemi 13
+
+- Amaç: projenin pipeline'ının doğru hedefe çalışıp çalışmadığını dışarıdan incelemek ve
+  bulunan sorunları sırayla gidermek. Baseline commit `6a9cf59` alındı.
+- İnceleme bulguları (kanıtlı): soru bankasının şablon üretimi olduğu (2.950 sorunun başlık
+  yerine `X` konunca **549 şablona** indiği); outline'ın iki tezin yapısını taşıdığı (5.1–5.3,
+  5.9, 6.1.x, 6.2 "Çalışmanın Amacı/Literatür Taraması", 6.2'de tez yazarı adı; 3. ve 4.
+  bölümlerin boş olduğu); yayın kapısının (1.770 ANSWERED) pre-audit sonuçlarına göre
+  (257 S + 907 P = 1.164) matematiksel olarak ulaşılamaz olduğu; pre-audit retrieval'ının
+  soru metnini tek başına embed edip **top-k 4** ve **400 karakterlik** pasajla karar verdiği;
+  indeksin **%47'sinin FIGURE_CHUNK** (medyan 244 karakter) olduğu; frozen 1.1 metninin
+  şablon sorulara cevap veren, kopuk cümlelerden oluştuğu; 26 belgede bozuk Türkçe glyph
+  aralığı (`TEKN İ K`) bulunduğu.
+- Kapsam/soru bankası v2 taslağı: `book/question_bank/drafts/question_bank_v2_draft.md`
+  (79 başlık: 44 korunan, 13 yeni, 13 pasif, 2 insan-analizi; 59 aktif soru bölümü;
+  **698 soru**, bölüm başına 7–17). Kullanıcı incelemesi bekliyor; normalize edilmedi,
+  canlı sözleşme değişmedi. `tunnelbookai.book.normalize` + `book normalize-inputs`
+  komutu taslaktan şema 2.0 scope/soru bankası/index/integrity/source-manifest üretip
+  sözleşmeyi yeniden mühürler (`ceil(toplam × 0,6)` eşiği). `contract.py` ve `inputs.py`
+  şema 1.0 (sabit 66/59/50) ile 2.0'ı (değişken sayı, pasif başlık, `analysis_requirement`)
+  birlikte destekler; 50/30 sabitleri `coverage.py`, `coverage_audit.py`, `editorial.py`,
+  `freeze.py`, `prewriting.py`, `status.py` içinden sözleşme türevli hedeflere taşındı.
+- Hibrit retrieval (`hybrid-rrf-v1`): `tunnelbookai/book/lexical.py` BM25 indexi (Türkçe
+  katlama, F5 kök kesme, bozuk aralık onarımlı tokenizer, chunk gürültü bayrakları) dense
+  index kimliğine bağlı olarak `book/retrieval/lexical/<BRI>/` altında (30.332 satır, 88.790
+  terim, 20 sn, 17 MB; gitignore). `HybridRetriever` RRF füzyonu + chunk türü ağırlığı
+  (FIGURE 0,6) + 150 karakter/TOC filtresi. Pre-audit: sorgu = bölüm başlığı + soru,
+  top-k 8 (örtüşen chunk tekrarı elenerek), Qwen'e chunk'ın sorguya en çok değen 1.000
+  karakterlik penceresi (`focused_window`); prompt sürümü `v4-hybrid-focused`.
+- Karşılaştırma (aktif audit bozulmadan, scratchpad): **1.2** eski S6/P17/U27 →
+  S14/P16/U20; **2.2.3** eski S0/P5/U45 → S1/P17/U32. Kalan desteksizler retrieval değil
+  içerik/soru sorunu (su altı tünelleri için corpus'ta tek tez paragrafı var).
+- Yazar v3 (outline-first): önce Qwen 2–8 tematik plan üretir (`batches/plan.json`), sonra
+  her tema yalnızca kendi pasajlarıyla yazılır; soru bağı = açık etiket ∪ cümlenin claim'lerinin
+  kanıtladığı sorular. `_validate_batch` soru kapsamasını zorlamaz (eski davranış
+  `require_question_coverage=True` ile korunur). Henüz gerçek bölümde çalıştırılmadı.
+- Freeze: `OPERATOR_READ_APPROVAL_PASS` sözleşmeye eklendi; `book approve-section --section
+  --note` aktif taslak kimliği/hash'i ve editoryal audit kimliğine bağlı onay yazar,
+  snapshot'a `operator_approval.json` kopyalanır. Mevcut frozen 1.1 bu kapı olmadan
+  dondurulmuştu; v2 geçişinde zaten yeniden üretilecektir.
+- Türkçe glyph onarımı: `tunnelbookai/ingest/glyph_repair.py` + `config/turkish_lexicon.txt`
+  (189 bozuk olmayan Türkçe canonical belgeden 58.100 kelime/frekans). Sözlük + belge içi
+  bağımsız-kelime kanıtı + ek-kalıntısı cezasıyla her glyph için sol/sağ/ikisi kararı.
+  En bozuk 6 belgede izole glyph **29.833 → 158**. Pipeline'a extraction sonrası kanca
+  eklendi (`TURKISH_GLYPH_SPACING_REPAIRED:<n>`); yalnızca yeniden işlenen belgeleri
+  etkiler. Canonical'daki 26 belge henüz yeniden işlenmedi.
+- Dense index yeniden kurulumu artık önceki indexin hash'i doğrulanmış vektörlerini
+  `embedding_text_sha256` ile yeniden kullanır (`reused_vector_count`).
+- Doğrulama: book 53, canonical 30, ingest 247, population 15, dashboard 11+1 test geçti;
+  isolation gate `GO`; `git diff --check` temiz. Belgeler: terminal rehberi, engine ve ingest
+  sözleşmesi güncellendi.
+- Bilinen sınırlar ve sıradaki işler: (1) v2 taslağının insan incelemesi ve
+  `normalize-inputs`; (2) 26 belgenin `--force-reprocess --from-stage EXTRACTING` ile
+  yeniden işlenip canonical `plan/apply` ile yeniden promote edilmesi (operatör onayı
+  gerekir); (3) canonical digest değişince `build-index` (vektör yeniden kullanımıyla) ve
+  tam `evidence-audit`; (4) yeni yazarla 1.1'in yeniden yazımı, insan onaylı freeze.

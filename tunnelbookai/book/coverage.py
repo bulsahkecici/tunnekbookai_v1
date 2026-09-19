@@ -84,28 +84,34 @@ def global_coverage_summary(
 
 
 def section_target_summary(
-    statuses: Iterable[QuestionCoverageStatus | str], contract: BookContract
+    statuses: Iterable[QuestionCoverageStatus | str], contract: BookContract, *, expected: int | None = None
 ) -> dict[str, object]:
+    """Summarise one section's coverage; ``expected`` is that section's question count.
+
+    V1 contracts fix every section at ``questions_per_section``; V2 sections vary, so the
+    caller passes the count from scope and the preferred target is the coverage ratio.
+    """
+
     values: list[QuestionCoverageStatus] = []
     for status in statuses:
         try:
             values.append(QuestionCoverageStatus(str(status)))
         except ValueError as exc:
             raise InputValidationError(f"invalid question coverage status: {status}") from exc
-    expected = contract.expected_structure["questions_per_section"]
+    if expected is None:
+        expected = int(contract.expected_structure.get("questions_per_section") or len(values))
     if len(values) != expected:
         raise InputValidationError(f"section coverage requires exactly {expected} results")
     answered = values.count(QuestionCoverageStatus.ANSWERED)
     policy = contract.coverage_policy["section"]
+    target = contract.section_target(expected)
     return {
         "total": len(values),
         "answered": answered,
         "partial": values.count(QuestionCoverageStatus.PARTIAL),
         "not_answered": values.count(QuestionCoverageStatus.NOT_ANSWERED),
         "coverage": round(answered / expected, 8),
-        "target_met": (
-            answered >= policy["preferred_minimum_answered_count"]
-            and answered / expected >= policy["preferred_minimum_coverage"]
-        ),
+        "preferred_target": target,
+        "target_met": answered >= target and answered / expected >= policy["preferred_minimum_coverage"],
         "hard_gate": policy["hard_gate"],
     }

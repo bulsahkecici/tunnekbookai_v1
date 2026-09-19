@@ -7,7 +7,7 @@ import json
 import os
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Iterable, Iterator, Mapping
+from typing import Any, Iterable, Iterator, Mapping, Sequence
 
 import numpy as np
 import yaml
@@ -19,12 +19,14 @@ from tunnelbookai.ingest.vision.provider import assert_loopback
 
 from .errors import BookEngineError
 from .inputs import BookInputs, load_book_inputs
+from .lexical import LexicalIndex, build_lexical_index, lexical_root
 
 
 SCHEMA_VERSION = "1.0"
 CONTRACT_VERSION = "book-retrieval-v1"
 SOFTWARE_VERSION = "book-retrieval-v1"
 PROMPT_VERSION = "not-applicable-embedding-v1"
+RETRIEVAL_POLICY_VERSION = "hybrid-rrf-v1"
 
 
 def _atomic_json(path: Path, payload: Mapping[str, Any]) -> None:
@@ -159,6 +161,7 @@ class IndexStatus:
     ready: bool
     reason: str
     manifest: Mapping[str, Any] | None = None
+    lexical: Mapping[str, Any] | None = None
 
     def to_dict(self) -> dict[str, Any]:
         summary = None
@@ -170,7 +173,23 @@ class IndexStatus:
                     "model_id", "dimension", "metric", "vector_count", "shard_count",
                 )
             }
-        return {"ready": self.ready, "reason": self.reason, "manifest": summary}
+        return {"ready": self.ready, "reason": self.reason, "manifest": summary, "lexical": self.lexical}
+
+
+def inspect_lexical(project_root: Path | str, index_id: str) -> dict[str, Any] | None:
+    """Summarise the lexical index bound to ``index_id`` without loading its matrix."""
+
+    manifest_path = lexical_root(Path(project_root).resolve(), index_id) / "manifest.json"
+    if not manifest_path.is_file():
+        return None
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    return {
+        key: manifest.get(key)
+        for key in ("lexical_index_id", "contract_version", "tokenizer_version", "row_count", "vocabulary_size")
+    }
 
 
 def inspect_index(project_root: Path | str | None = None) -> IndexStatus:
@@ -212,7 +231,7 @@ def inspect_index(project_root: Path | str | None = None) -> IndexStatus:
             raise ValueError("index vector count mismatch")
         if count != snapshot.inventory.retrieval_ready_chunk_count:
             raise ValueError("index does not cover every retrieval-ready chunk")
-        return IndexStatus(True, "READY", manifest)
+        return IndexStatus(True, "READY", manifest, inspect_lexical(root, str(manifest["index_id"])))
     except Exception as exc:
         return IndexStatus(False, f"INDEX_INVALID:{exc}")
 
@@ -257,10 +276,19 @@ def build_index(
     retrieval_root = root / "book" / "retrieval"
     final_dir = retrieval_root / "indexes" / index_id
     active_manifest = retrieval_root / "index_manifest.json"
+    previous_vectors: dict[str, np.ndarray] = {}
     if active_manifest.is_file():
         status = inspect_index(root)
         if status.ready and status.manifest and status.manifest.get("index_id") == index_id:
-            return {"status": "NO_CHANGE", **status.manifest}
+            if status.lexical is None:
+                lexical = ensure_lexical_index(root, status.manifest, records=records)
+                return {"status": "LEXICAL_BUILT", "lexical": lexical, **status.manifest}
+            return {"status": "NO_CHANGE", "lexical": status.lexical, **status.manifest}
+        # The previous index is normally stale here (the canonical digest changed), but its
+        # shards are still hash-verifiable: vectors for unchanged canonical text are reused
+        # (keyed by embedding text hash) so re-promoting a few documents does not re-embed
+        # the whole corpus.
+        previous_vectors = _load_previous_vectors(root, active_manifest, model=model, dimension=dimension)
     work_dir = retrieval_root / "builds" / index_id
     state_path = work_dir / "build_state.json"
     if work_dir.exists() and not resume:
@@ -280,21 +308,31 @@ def build_index(
     expected = snapshot.inventory.retrieval_ready_chunk_count
     batch: list[dict[str, Any]] = []
     seen = 0
+    reused = int(state.get("reused") or 0)
 
     def commit(rows: list[dict[str, Any]]) -> None:
-        nonlocal processed, state
-        texts = [str(row["_embedding_text"]) for row in rows]
-        vectors = embedding_client.embed_many(texts)
-        if not vectors:
-            raise BookEngineError("MODEL_SERVICE_UNAVAILABLE", "embedding batch request failed")
-        matrix = _normalise(vectors, expected_dimension=dimension)
+        nonlocal processed, state, reused
+        matrix = np.zeros((len(rows), dimension), dtype=np.float32)
+        missing = [index for index, row in enumerate(rows) if row["embedding_text_sha256"] not in previous_vectors]
+        for index, row in enumerate(rows):
+            if index not in missing:
+                matrix[index] = previous_vectors[row["embedding_text_sha256"]]
+        reused += len(rows) - len(missing)
+        if missing:
+            vectors = embedding_client.embed_many([str(rows[index]["_embedding_text"]) for index in missing])
+            if not vectors:
+                raise BookEngineError("MODEL_SERVICE_UNAVAILABLE", "embedding batch request failed")
+            fresh = _normalise(vectors, expected_dimension=dimension)
+            for target, source in zip(missing, fresh):
+                matrix[target] = source
+        matrix = _normalise(matrix.tolist(), expected_dimension=dimension)
         shard_number = len(state["shards"])
         vector_name = f"vectors_{shard_number:05d}.npy"
         rows_name = f"rows_{shard_number:05d}.jsonl"
         _atomic_npy(work_dir / vector_name, matrix)
         _atomic_jsonl(work_dir / rows_name, (_public_row(row) for row in rows))
         shard = {"number": shard_number, "count": len(rows), "vectors_file": vector_name, "rows_file": rows_name}
-        state = {**state, "processed": processed + len(rows), "shards": [*state["shards"], shard]}
+        state = {**state, "processed": processed + len(rows), "reused": reused, "shards": [*state["shards"], shard]}
         _atomic_json(state_path, state)
         processed += len(rows)
         if progress:
@@ -341,6 +379,7 @@ def build_index(
         "endpoint_policy": "loopback-only",
         "index_root": final_dir.relative_to(root).as_posix(),
         "vector_count": expected,
+        "reused_vector_count": reused,
         "shard_count": len(shards),
         "shards": shards,
     }
@@ -349,7 +388,66 @@ def build_index(
     if not status.ready:
         active_manifest.unlink(missing_ok=True)
         raise BookEngineError("RETRIEVAL_INDEX_INVALID", status.reason)
-    return {"status": "BUILT", **manifest}
+    lexical = ensure_lexical_index(root, manifest, records=records)
+    return {"status": "BUILT", "lexical": lexical, **manifest}
+
+
+def _load_previous_vectors(root: Path, manifest_path: Path, *, model: str, dimension: int) -> dict[str, np.ndarray]:
+    """Hash-verified vectors of an earlier index of the same exact model, keyed by text hash."""
+
+    vectors: dict[str, np.ndarray] = {}
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        if manifest.get("model_id") != model or int(manifest.get("dimension") or 0) != dimension:
+            return vectors
+        index_root = _safe_path(root, manifest.get("index_root"), within=root / "book" / "retrieval" / "indexes")
+        for shard in manifest.get("shards") or []:
+            vector_path = _safe_path(root, shard.get("vectors_path"), within=index_root)
+            rows_path = _safe_path(root, shard.get("rows_path"), within=index_root)
+            if sha256_file(vector_path) != shard.get("vectors_sha256") or sha256_file(rows_path) != shard.get("rows_sha256"):
+                return {}
+            matrix = np.asarray(np.load(vector_path, allow_pickle=False))
+            lines = [line for line in rows_path.read_text(encoding="utf-8").splitlines() if line]
+            if matrix.shape != (len(lines), dimension) or not np.isfinite(matrix).all():
+                return {}
+            for position, line in enumerate(lines):
+                vectors[str(json.loads(line)["embedding_text_sha256"])] = matrix[position]
+    except (OSError, ValueError, KeyError, TypeError, BookEngineError):
+        return {}
+    return vectors
+
+
+def _index_rows(root: Path, manifest: Mapping[str, Any]) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for shard in manifest["shards"]:
+        rows.extend(json.loads(line) for line in (root / shard["rows_path"]).read_text(encoding="utf-8").splitlines() if line)
+    return rows
+
+
+def ensure_lexical_index(
+    root: Path,
+    manifest: Mapping[str, Any],
+    *,
+    records: Sequence[Mapping[str, Any]] | None = None,
+) -> dict[str, Any]:
+    """Build the BM25 companion of a verified dense index from the same canonical rows."""
+
+    index_id = str(manifest["index_id"])
+    existing = inspect_lexical(root, index_id)
+    if existing is not None:
+        return existing
+    if records is None:
+        snapshot = require_ready(root)
+        records = [record.to_dict() for record in snapshot.manifest.documents]
+    dense_rows = _index_rows(root, manifest)
+    canonical = list(_canonical_rows(root, records))
+    if [row["chunk_id"] for row in canonical] != [row["chunk_id"] for row in dense_rows]:
+        raise BookEngineError("RETRIEVAL_INDEX_INVALID", "canonical rows no longer match the dense index order")
+    built = build_lexical_index(root, index_id=index_id, rows=dense_rows, texts=(row["_embedding_text"] for row in canonical))
+    return {
+        key: built.get(key)
+        for key in ("lexical_index_id", "contract_version", "tokenizer_version", "row_count", "vocabulary_size")
+    }
 
 
 def _section_matches(row: Mapping[str, Any], section: str | None) -> bool:
@@ -372,6 +470,173 @@ def _canonical_text(root: Path, row: Mapping[str, Any]) -> str:
     raise BookEngineError("RETRIEVAL_INDEX_INVALID", "canonical row locator is missing")
 
 
+@dataclass(frozen=True)
+class RetrievalPolicy:
+    """Deterministic hybrid ranking policy; every knob is recorded in audit identities."""
+
+    version: str = RETRIEVAL_POLICY_VERSION
+    rrf_k: int = 60
+    candidate_pool: int = 60
+    min_chars: int = 150
+    exclude_toc_like: bool = True
+    chunk_type_weights: Mapping[str, float] = None  # type: ignore[assignment]
+
+    def __post_init__(self) -> None:
+        if self.chunk_type_weights is None:
+            object.__setattr__(self, "chunk_type_weights", {
+                "TEXT_CHUNK": 1.0,
+                "OCR_CHUNK": 1.0,
+                "SHEET_CHUNK": 0.9,
+                "SLIDE_CHUNK": 0.9,
+                "TABLE_CHUNK": 0.85,
+                "FIGURE_CHUNK": 0.6,
+            })
+        if self.rrf_k < 1 or self.candidate_pool < 1 or self.min_chars < 0:
+            raise BookEngineError("INVALID_RETRIEVAL_POLICY", "retrieval policy values must be positive")
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "version": self.version,
+            "rrf_k": self.rrf_k,
+            "candidate_pool": self.candidate_pool,
+            "min_chars": self.min_chars,
+            "exclude_toc_like": self.exclude_toc_like,
+            "chunk_type_weights": dict(sorted(self.chunk_type_weights.items())),
+        }
+
+
+DEFAULT_POLICY = RetrievalPolicy()
+
+
+class HybridRetriever:
+    """Dense (BGE-M3 cosine) + lexical (BM25) reciprocal-rank fusion over one verified index.
+
+    Both signals rank the same canonical rows.  For every query the top ``candidate_pool``
+    rows of each signal are fused with ``1 / (rrf_k + rank)``; the fused score is then
+    scaled by the chunk-type weight so short figure captions no longer crowd out prose, and
+    rows failing the noise policy (too short, table-of-contents like) are excluded before
+    ranking.  Ties break on chunk id so results are reproducible.
+    """
+
+    def __init__(
+        self,
+        project_root: Path | str | None = None,
+        *,
+        client: LocalEmbeddingClient | None = None,
+        policy: RetrievalPolicy = DEFAULT_POLICY,
+        inputs: BookInputs | None = None,
+    ) -> None:
+        self.root = Path(project_root or Path(__file__).resolve().parents[2]).resolve()
+        status = inspect_index(self.root)
+        if not status.ready or not status.manifest:
+            raise BookEngineError("RETRIEVAL_INDEX_NOT_READY", status.reason)
+        self.manifest = status.manifest
+        self.policy = policy
+        book_inputs = inputs or load_book_inputs(self.root)
+        model, endpoint, _ = _model_settings(book_inputs)
+        if model != self.manifest["model_id"]:
+            raise BookEngineError("RETRIEVAL_INDEX_STALE", "configured embedding model differs from index")
+        self.client = client or LocalEmbeddingClient(endpoint, model, timeout=600.0)
+        if not self.client.available():
+            raise BookEngineError("MODEL_SERVICE_UNAVAILABLE", f"exact embedding model is unavailable: {model}")
+        matrices: list[np.ndarray] = []
+        self.rows: list[dict[str, Any]] = []
+        for shard in self.manifest["shards"]:
+            matrices.append(np.asarray(np.load(self.root / shard["vectors_path"], allow_pickle=False)))
+            self.rows.extend(json.loads(line) for line in (self.root / shard["rows_path"]).read_text(encoding="utf-8").splitlines() if line)
+        self.matrix = np.vstack(matrices).astype(np.float32, copy=False)
+        if self.matrix.shape != (len(self.rows), int(self.manifest["dimension"])):
+            raise BookEngineError("RETRIEVAL_INDEX_INVALID", "loaded matrix does not match index rows")
+        self.lexical = LexicalIndex.load(self.root, index_id=str(self.manifest["index_id"]), expected_chunk_ids=[row["chunk_id"] for row in self.rows])
+        weights = np.zeros(len(self.rows), dtype=np.float32)
+        for position, (row, meta) in enumerate(zip(self.rows, self.lexical.metadata)):
+            if int(meta.get("chars") or 0) < policy.min_chars:
+                continue
+            if policy.exclude_toc_like and meta.get("toc_like"):
+                continue
+            weights[position] = float(policy.chunk_type_weights.get(str(row.get("chunk_type")), 0.0))
+        self.weights = weights
+
+    @property
+    def identity(self) -> dict[str, Any]:
+        return {
+            "retrieval_index_id": self.manifest["index_id"],
+            "lexical_index_id": self.lexical.manifest["lexical_index_id"],
+            "retrieval_policy": self.policy.to_dict(),
+        }
+
+    def _eligible(self, section: str | None) -> np.ndarray:
+        mask = self.weights > 0
+        if section:
+            section_mask = np.fromiter((_section_matches(row, section) for row in self.rows), dtype=bool, count=len(self.rows))
+            mask &= section_mask
+        return mask
+
+    def search(
+        self,
+        dense_queries: Sequence[str],
+        lexical_queries: Sequence[str] | None = None,
+        *,
+        top_k: int,
+        section: str | None = None,
+    ) -> list[list[dict[str, Any]]]:
+        if not dense_queries:
+            return []
+        if top_k < 1:
+            raise BookEngineError("INVALID_TOP_K", "top_k must be positive")
+        lexical_queries = list(lexical_queries or dense_queries)
+        if len(lexical_queries) != len(dense_queries):
+            raise BookEngineError("INVALID_QUERY", "dense and lexical query lists differ in length")
+        vectors = self.client.embed_many([str(query) for query in dense_queries])
+        if not vectors:
+            raise BookEngineError("MODEL_SERVICE_UNAVAILABLE", "query embedding batch failed")
+        queries = _normalise(vectors, expected_dimension=int(self.manifest["dimension"]))
+        dense_scores = np.dot(self.matrix, queries.T)
+        if not np.isfinite(dense_scores).all():
+            raise BookEngineError("RETRIEVAL_INDEX_INVALID", "similarity scores contain non-finite values")
+        mask = self._eligible(section)
+        eligible = np.flatnonzero(mask)
+        results: list[list[dict[str, Any]]] = []
+        pool = self.policy.candidate_pool
+        for number, lexical_query in enumerate(lexical_queries):
+            if eligible.size == 0:
+                results.append([])
+                continue
+            dense_column = dense_scores[eligible, number]
+            lexical_column = self.lexical.score(str(lexical_query))[eligible]
+            fused: dict[int, float] = {}
+            ranks: dict[int, dict[str, Any]] = {}
+            dense_order = sorted(range(eligible.size), key=lambda i: (-float(dense_column[i]), self.rows[int(eligible[i])]["chunk_id"]))[:pool]
+            for rank, local in enumerate(dense_order, 1):
+                fused[local] = fused.get(local, 0.0) + 1.0 / (self.policy.rrf_k + rank)
+                ranks.setdefault(local, {})["dense_rank"] = rank
+            lexical_order = [i for i in sorted(range(eligible.size), key=lambda i: (-float(lexical_column[i]), self.rows[int(eligible[i])]["chunk_id"])) if lexical_column[i] > 0][:pool]
+            for rank, local in enumerate(lexical_order, 1):
+                fused[local] = fused.get(local, 0.0) + 1.0 / (self.policy.rrf_k + rank)
+                ranks.setdefault(local, {})["lexical_rank"] = rank
+            scored = []
+            for local, value in fused.items():
+                position = int(eligible[local])
+                scored.append((value * float(self.weights[position]), position, local))
+            scored.sort(key=lambda item: (-item[0], self.rows[item[1]]["chunk_id"]))
+            rows: list[dict[str, Any]] = []
+            for fused_score, position, local in scored[:top_k]:
+                rows.append({
+                    **self.rows[position],
+                    "score": round(fused_score, 6),
+                    "dense_score": round(float(dense_column[local]), 6),
+                    "dense_rank": ranks[local].get("dense_rank"),
+                    "lexical_score": round(float(lexical_column[local]), 6),
+                    "lexical_rank": ranks[local].get("lexical_rank"),
+                    "retrieval_weight": round(float(self.weights[position]), 3),
+                })
+            results.append(rows)
+        return results
+
+    def text(self, row: Mapping[str, Any]) -> str:
+        return _canonical_text(self.root, row)
+
+
 def search_index(
     query: str,
     project_root: Path | str | None = None,
@@ -379,52 +644,29 @@ def search_index(
     section: str | None = None,
     top_k: int = 10,
     client: LocalEmbeddingClient | None = None,
+    policy: RetrievalPolicy = DEFAULT_POLICY,
 ) -> dict[str, Any]:
     root = Path(project_root or Path(__file__).resolve().parents[2]).resolve()
     if not query.strip():
         raise BookEngineError("EMPTY_QUERY", "retrieval query must not be empty")
     if top_k < 1 or top_k > 100:
         raise BookEngineError("INVALID_TOP_K", "top_k must be between 1 and 100")
-    status = inspect_index(root)
-    if not status.ready or not status.manifest:
-        raise BookEngineError("RETRIEVAL_INDEX_NOT_READY", status.reason)
-    manifest = status.manifest
-    inputs = load_book_inputs(root)
-    model, endpoint, _ = _model_settings(inputs)
-    if model != manifest["model_id"]:
-        raise BookEngineError("RETRIEVAL_INDEX_STALE", "configured embedding model differs from index")
-    embedding_client = client or LocalEmbeddingClient(endpoint, model, timeout=600.0)
-    vector = embedding_client.embed(query)
-    if not vector:
-        raise BookEngineError("MODEL_SERVICE_UNAVAILABLE", "query embedding failed")
-    query_vector = _normalise([vector], expected_dimension=int(manifest["dimension"]))[0]
-    candidates: list[tuple[float, dict[str, Any]]] = []
-    for shard in manifest["shards"]:
-        matrix = np.load(root / shard["vectors_path"], mmap_mode="r", allow_pickle=False)
-        rows = [json.loads(line) for line in (root / shard["rows_path"]).read_text(encoding="utf-8").splitlines() if line]
-        # np.matmul emits spurious floating-point warnings for these finite
-        # float32 mmap arrays on some NumPy/Accelerate combinations. np.dot is
-        # equivalent for matrix-vector scoring and is stable on those builds.
-        scores = np.dot(matrix, query_vector)
-        if not np.isfinite(scores).all():
-            raise BookEngineError("RETRIEVAL_INDEX_INVALID", "similarity scores contain non-finite values")
-        for score, row in zip(scores.tolist(), rows):
-            if _section_matches(row, section):
-                candidates.append((float(score), row))
-    candidates.sort(key=lambda item: (-item[0], str(item[1]["chunk_id"])))
+    retriever = HybridRetriever(root, client=client, policy=policy)
     results = []
-    for score, row in candidates[:top_k]:
-        text = _canonical_text(root, row)
-        results.append({**row, "score": round(score, 6), "snippet": " ".join(text.split())[:500]})
+    for row in retriever.search([query], top_k=top_k, section=section)[0]:
+        text = retriever.text(row)
+        results.append({**row, "snippet": " ".join(text.split())[:500]})
     return {
         "query": query,
         "section": section,
         "top_k": top_k,
-        "index_id": manifest["index_id"],
-        "canonical_corpus_digest": manifest["canonical_corpus_digest"],
-        "model_id": manifest["model_id"],
+        "index_id": retriever.manifest["index_id"],
+        "lexical_index_id": retriever.lexical.manifest["lexical_index_id"],
+        "retrieval_policy": policy.to_dict(),
+        "canonical_corpus_digest": retriever.manifest["canonical_corpus_digest"],
+        "model_id": retriever.manifest["model_id"],
         "results": results,
     }
 
 
-__all__ = ["IndexStatus", "build_index", "inspect_index", "search_index"]
+__all__ = ["DEFAULT_POLICY", "HybridRetriever", "IndexStatus", "RetrievalPolicy", "build_index", "ensure_lexical_index", "inspect_index", "search_index"]

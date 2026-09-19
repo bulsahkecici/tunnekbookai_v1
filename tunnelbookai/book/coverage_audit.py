@@ -222,7 +222,7 @@ def _write_report(path: Path, summary: Mapping[str, Any], rows: Sequence[Mapping
         f"# Soru kapsam auditi — {summary['section_id']}", "",
         f"- ANSWERED: **{summary['answered']} / {summary['question_count']}**",
         f"- PARTIAL: **{summary['partial']}**", f"- NOT_ANSWERED: **{summary['not_answered']}**",
-        f"- Kapsam: **{summary['coverage']:.0%}**", f"- 30/50 tercih hedefi: **{'PASS' if summary['target_met'] else 'FAIL'}**",
+        f"- Kapsam: **{summary['coverage']:.0%}**", f"- Tercih hedefi ({summary.get('preferred_target')}/{summary['question_count']}): **{'PASS' if summary['target_met'] else 'FAIL'}**",
         "", "| Soru | Durum | Güven | Neden |", "|---|---|---:|---|",
     ]
     for row in rows:
@@ -302,7 +302,7 @@ def run_coverage_audit(section_id: str, project_root: Path | str | None = None, 
     for raw in results:
         result = QuestionCoverageResult.from_mapping(raw)
         validate_result_references(result, expected_section_id=section_id, known_claim_ids=claim_ids, known_document_ids=document_ids, known_locators=locators, known_span_ids=span_ids, allowed_section_files={str(draft["draft_path"])})
-    target = section_target_summary([row["status"] for row in results], inputs.contract)
+    target = section_target_summary([row["status"] for row in results], inputs.contract, expected=len(questions))
     results_path = run_root / "results.jsonl"
     _atomic_jsonl(results_path, results)
     summary = {

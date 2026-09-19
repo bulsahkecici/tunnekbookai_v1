@@ -9,7 +9,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable, Mapping, Sequence
 
-import numpy as np
 import yaml
 
 from tunnelbookai.canonical.hashing import canonical_sha256, sha256_file
@@ -19,13 +18,17 @@ from tunnelbookai.ingest.vision.provider import assert_loopback
 
 from .errors import BookEngineError
 from .inputs import BookInputs, load_book_inputs
-from .retrieval import _canonical_text, _model_settings, _normalise, inspect_index
+from .lexical import focused_window, token_jaccard
+from .retrieval import DEFAULT_POLICY, HybridRetriever, RetrievalPolicy, inspect_index
 
 
 SCHEMA_VERSION = "1.0"
 CONTRACT_VERSION = "prewriting-evidence-audit-v1"
-SOFTWARE_VERSION = "prewriting-evidence-audit-v4"
-PROMPT_VERSION = "qwen-prewriting-evidence-v2-compact"
+SOFTWARE_VERSION = "prewriting-evidence-audit-v5-hybrid"
+PROMPT_VERSION = "qwen-prewriting-evidence-v4-hybrid-focused"
+MAX_TOP_K = 20
+SNIPPET_CHARS = 1000
+DUPLICATE_SNIPPET_JACCARD = 0.8
 ALLOWED_STATUSES = {"SUPPORTED", "PARTIAL", "UNSUPPORTED"}
 REASON_CODES = {
     "DIRECT_ANSWER",
@@ -85,66 +88,55 @@ def _locator(row: Mapping[str, Any]) -> str:
 
 
 class AuditRetriever:
-    """Verify once, then batch-score all questions against section-filtered shards."""
+    """Section-aware evidence retrieval for the audit: hybrid ranking over the whole corpus.
 
-    def __init__(self, inputs: BookInputs, *, client: LocalEmbeddingClient | None = None) -> None:
-        self.root = inputs.contract.project_root
-        status = inspect_index(self.root)
-        if not status.ready or not status.manifest:
-            raise BookEngineError("RETRIEVAL_INDEX_NOT_READY", status.reason)
-        self.manifest = status.manifest
-        model, endpoint, _ = _model_settings(inputs)
-        if model != self.manifest["model_id"]:
-            raise BookEngineError("RETRIEVAL_INDEX_STALE", "configured embedding model differs from index")
-        self.client = client or LocalEmbeddingClient(endpoint, model, timeout=600.0)
-        if not self.client.available():
-            raise BookEngineError("MODEL_SERVICE_UNAVAILABLE", f"exact embedding model is unavailable: {model}")
-        matrices: list[np.ndarray] = []
-        self.rows: list[dict[str, Any]] = []
-        for shard in self.manifest["shards"]:
-            matrices.append(np.asarray(np.load(self.root / shard["vectors_path"], allow_pickle=False)))
-            self.rows.extend(_read_jsonl(self.root / shard["rows_path"]))
-        self.matrix = np.vstack(matrices).astype(np.float32, copy=False)
-        if self.matrix.shape != (len(self.rows), int(self.manifest["dimension"])):
-            raise BookEngineError("RETRIEVAL_INDEX_INVALID", "loaded audit matrix does not match index rows")
-    def retrieve(self, questions: Sequence[Mapping[str, Any]], section_id: str, *, top_k: int = 4) -> list[list[dict[str, Any]]]:
+    Evidence may legitimately be reused across book sections, so the target section is
+    never a filter: it only enriches the query (``section title. question``) so the dense
+    signal sees the topical frame and the lexical signal sees the heading terms.
+    """
+
+    def __init__(
+        self,
+        inputs: BookInputs,
+        *,
+        client: LocalEmbeddingClient | None = None,
+        policy: RetrievalPolicy = DEFAULT_POLICY,
+    ) -> None:
+        self.inputs = inputs
+        self.hybrid = HybridRetriever(inputs.contract.project_root, client=client, policy=policy, inputs=inputs)
+        self.root = self.hybrid.root
+        self.manifest = self.hybrid.manifest
+
+    @property
+    def identity(self) -> dict[str, Any]:
+        return self.hybrid.identity
+
+    def retrieve(self, questions: Sequence[Mapping[str, Any]], section_id: str, *, top_k: int = 8) -> list[list[dict[str, Any]]]:
         if not questions:
             return []
-        # Evidence may legitimately be reused across book sections.  The target
-        # section supplies question context but must not exclude canonical chunks
-        # classified elsewhere (for example, construction-cost evidence in chapter
-        # 6 can support synthesis questions in 7.2).
-        indices = np.arange(len(self.rows), dtype=np.int64)
-        vectors = self.client.embed_many([str(row["question"]) for row in questions])
-        if not vectors:
-            raise BookEngineError("MODEL_SERVICE_UNAVAILABLE", "question embedding batch failed")
-        queries = _normalise(vectors, expected_dimension=int(self.manifest["dimension"]))
-        candidate_matrix = self.matrix[indices]
-        scores = np.dot(candidate_matrix, queries.T)
-        if not np.isfinite(scores).all():
-            raise BookEngineError("RETRIEVAL_INDEX_INVALID", "question similarity scores contain non-finite values")
+        title = str(self.inputs.scope_by_id.get(section_id, {}).get("title") or "")
+        dense = [f"{title}. {row['question']}" if title else str(row["question"]) for row in questions]
+        lexical = [f"{row['question']} {title}" for row in questions]
+        # Over-fetch so that overlapping chunks (structure-aware chunking repeats the tail
+        # of the previous chunk) can be dropped without starving the question of evidence.
+        ranked = self.hybrid.search(dense, lexical, top_k=top_k * 2)
         results: list[list[dict[str, Any]]] = []
-        limit = min(top_k, len(indices))
-        for question_number in range(len(questions)):
-            column = scores[:, question_number]
-            if limit == len(column):
-                local = np.arange(len(column))
-            else:
-                local = np.argpartition(column, -limit)[-limit:]
-            ranked = sorted(
-                ((float(column[position]), self.rows[int(indices[position])]) for position in local),
-                key=lambda item: (-item[0], str(item[1]["chunk_id"])),
-            )[:limit]
+        for question, candidates, query in zip(questions, ranked, lexical):
             rows: list[dict[str, Any]] = []
-            for rank, (score, row) in enumerate(ranked, 1):
-                text = _canonical_text(self.root, row)
+            kept: list[str] = []
+            for row in candidates:
+                snippet = focused_window(self.hybrid.text(row), query, chars=SNIPPET_CHARS)
+                if any(token_jaccard(snippet, previous) >= DUPLICATE_SNIPPET_JACCARD for previous in kept):
+                    continue
+                kept.append(snippet)
                 rows.append({
                     **row,
-                    "evidence_ref": f"{questions[question_number]['question_id']}:E{rank}",
-                    "score": round(score, 6),
+                    "evidence_ref": f"{question['question_id']}:E{len(rows) + 1}",
                     "source_locator": _locator(row),
-                    "snippet": " ".join(text.split())[:700],
+                    "snippet": snippet,
                 })
+                if len(rows) >= top_k:
+                    break
             results.append(rows)
         return results
 
@@ -193,7 +185,7 @@ def _response_schema(question_count: int, maximum_evidence: int) -> dict[str, An
                         "i": {"type": "integer", "minimum": 1, "maximum": question_count},
                         "s": {"type": "string", "enum": ["S", "P", "U"]},
                         "e": {
-                            "type": "array", "maxItems": 4,
+                            "type": "array", "maxItems": maximum_evidence,
                             "items": {"type": "integer", "minimum": 1, "maximum": maximum_evidence},
                         },
                         "r": {"type": "string", "enum": ["D", "C", "P", "N"]},
@@ -215,7 +207,7 @@ def _prompt(section_id: str, section_title: str, questions: Sequence[Mapping[str
         for rank, row in enumerate(candidates, 1):
             blocks.append(
                 f"E{rank} | skor={row['score']:.6f} | belge={row['document_id']} | "
-                f"chunk={row['chunk_id']} | {row['source_locator']}\n{row['snippet'][:400]}"
+                f"chunk={row['chunk_id']} | {row['source_locator']}\n{row['snippet'][:SNIPPET_CHARS]}"
             )
     return "\n".join(blocks)
 
@@ -280,6 +272,8 @@ def _validate_llm_results(
                 "canonical_retrieval_path": item["canonical_retrieval_path"],
                 "canonical_line_number": item["canonical_line_number"],
                 "score": item["score"],
+                "dense_rank": item.get("dense_rank"),
+                "lexical_rank": item.get("lexical_rank"),
                 "selected_by_qwen": item["evidence_ref"] in selected_refs,
             } for item in candidates],
             "reason_code": reason_code,
@@ -355,12 +349,23 @@ def _audit_with_split(
         ]
 
 
-def _section_summary(section_id: str, section_title: str, rows: Sequence[Mapping[str, Any]]) -> dict[str, Any]:
+def _section_summary(
+    section_id: str,
+    section_title: str,
+    rows: Sequence[Mapping[str, Any]],
+    *,
+    target: int,
+    human_analysis: bool = False,
+) -> dict[str, Any]:
     counts = Counter(str(row["status"]) for row in rows)
     supported = counts["SUPPORTED"]
-    if supported >= 30:
+    if human_analysis:
+        # Chapter 7 style findings: literature can support context but the section is
+        # written from project analysis artifacts, never from retrieval alone.
+        readiness = "HUMAN_ANALYSIS_ARTIFACT_REQUIRED"
+    elif supported >= target:
         readiness = "READY" if supported == len(rows) else "READY_WITH_LIMITATIONS"
-    elif supported + counts["PARTIAL"] >= 30:
+    elif supported + counts["PARTIAL"] >= target:
         readiness = "READY_WITH_LIMITATIONS"
     else:
         readiness = "EVIDENCE_GAP"
@@ -372,7 +377,8 @@ def _section_summary(section_id: str, section_title: str, rows: Sequence[Mapping
         "partial": counts["PARTIAL"],
         "unsupported": counts["UNSUPPORTED"],
         "supported_ratio": round(supported / len(rows), 6) if rows else 0.0,
-        "preferred_target_met": supported >= 30,
+        "preferred_target": target,
+        "preferred_target_met": supported >= target,
         "readiness": readiness,
     }
 
@@ -423,17 +429,18 @@ def run_prewriting_audit(
     project_root: Path | str | None = None,
     *,
     section_ids: Sequence[str] | None = None,
-    batch_size: int = 25,
-    top_k: int = 4,
+    batch_size: int = 8,
+    top_k: int = 8,
     progress: Any = None,
     embedding_client: LocalEmbeddingClient | None = None,
     llm_client: LocalChatClient | None = None,
+    policy: RetrievalPolicy = DEFAULT_POLICY,
 ) -> dict[str, Any]:
     root = Path(project_root or Path(__file__).resolve().parents[2]).resolve()
     if batch_size < 1 or batch_size > 50:
         raise BookEngineError("INVALID_BATCH_SIZE", "audit batch size must be between 1 and 50")
-    if top_k < 1 or top_k > 10:
-        raise BookEngineError("INVALID_TOP_K", "audit top_k must be between 1 and 10")
+    if top_k < 1 or top_k > MAX_TOP_K:
+        raise BookEngineError("INVALID_TOP_K", f"audit top_k must be between 1 and {MAX_TOP_K}")
     inputs = load_book_inputs(root)
     status = inspect_index(root)
     if not status.ready or not status.manifest:
@@ -448,6 +455,8 @@ def run_prewriting_audit(
         "question_bank_sha256": inputs.identities["question_bank_sha256"],
         "canonical_corpus_digest": status.manifest["canonical_corpus_digest"],
         "retrieval_index_id": status.manifest["index_id"],
+        "lexical_index_id": (status.lexical or {}).get("lexical_index_id"),
+        "retrieval_policy": policy.to_dict(),
         "embedding_model_id": status.manifest["model_id"],
         "llm_model_id": llm_model,
         "model_configuration": model_config_sha,
@@ -474,10 +483,16 @@ def run_prewriting_audit(
     chat = llm_client or LocalChatClient(llm_endpoint, timeout=600.0)
     if remaining and not chat.has_model(llm_model):
         raise BookEngineError("MODEL_SERVICE_UNAVAILABLE", f"exact Qwen model is unavailable: {llm_model}")
+    if remaining and status.lexical is None:
+        raise BookEngineError("LEXICAL_INDEX_MISSING", "lexical index is missing; run book build-index first")
 
     def write_state() -> dict[str, Any]:
         summaries = [
-            _section_summary(section, str(inputs.scope_by_id[section]["title"]), completed[section])
+            _section_summary(
+                section, str(inputs.scope_by_id[section]["title"]), completed[section],
+                target=inputs.contract.section_target(len(inputs.questions_by_section[section])),
+                human_analysis=inputs.requires_human_analysis(section),
+            )
             for section in all_sections if section in completed
         ]
         counts = Counter(str(row["status"]) for rows in completed.values() for row in rows)
@@ -504,7 +519,7 @@ def run_prewriting_audit(
     write_state()
     for section_id in remaining:
         if retriever is None:
-            retriever = AuditRetriever(inputs, client=embedding_client)
+            retriever = AuditRetriever(inputs, client=embedding_client, policy=policy)
         questions = list(inputs.questions_by_section[section_id])
         evidence = retriever.retrieve(questions, section_id, top_k=top_k)
         rows: list[dict[str, Any]] = []

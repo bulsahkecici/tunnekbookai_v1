@@ -192,6 +192,14 @@ Belgenin türetilmiş çıktılarını belirtilen aşamadan başlayarak yeniden 
 original dosyayı değiştirmez. `--force-reprocess` pahalı olabilir ve eski staging auditleri
 ile canonical planlarını geçersiz kılabilir; yalnızca belirli bir düzeltme sonrası kullanılır.
 
+Extraction sonrasında Türkçe glyph aralığı onarımı otomatik çalışır: `TEKN İ K`,
+`k ı salmas ı` gibi bozuk metin katmanları `config/turkish_lexicon.txt` ve belge içi
+kanıtla onarılır; sonuç `extraction_report.json` içinde `text_repair` ve
+`TURKISH_GLYPH_SPACING_REPAIRED:<sayı>` uyarısıyla kaydedilir. Bozuk olmayan belgelere
+dokunulmaz. Onarım yalnızca yeniden işlenen belgelere uygulanır; canonical'daki mevcut
+belgeler `--force-reprocess --from-stage EXTRACTING` ile yeniden işlenip yeniden promote
+edilmeden değişmez.
+
 ### Ingest seçeneklerinin anlamı
 
 | Seçenek | Etki |
@@ -512,7 +520,10 @@ PYTHONPATH=. .venv/bin/python -m tunnelbookai.book build-index --batch-size 32
 
 Yalnızca doğrulanmış canonical `embedding_ready.jsonl` satırlarını BGE-M3 ile vektörler.
 Kesilmiş build varsayılan olarak checkpoint'ten devam eder ve sonunda
-`book/retrieval/index_manifest.json` dosyasını atomik yayımlar.
+`book/retrieval/index_manifest.json` dosyasını atomik yayımlar. Dense index hazır olduktan
+sonra aynı satırlar üzerinde BM25 lexical indexini de (`book/retrieval/lexical/<BRI_id>/`)
+kurar; dense index zaten güncelse yalnızca eksik lexical index üretilir (`LEXICAL_BUILT`).
+Lexical index yoksa `search` ve `evidence-audit` fail-closed durur.
 
 ### Indexi baştan üretme
 
@@ -531,8 +542,11 @@ PYTHONPATH=. .venv/bin/python -m tunnelbookai.book search \
   --query "tünel yapım maliyeti" --section 6 --top-k 10
 ```
 
-Sorguyu BGE-M3 ile vektörler, cosine similarity ile sıralar ve canonical kaynak locator'ları
-ile sonuç döndürür. `--section` verilmezse bütün bölümler aranır.
+Hibrit arama: sorguyu BGE-M3 ile vektörler, aynı anda Türkçe katlamalı BM25 ile lexical
+eşleştirir, iki sıralamayı reciprocal-rank fusion ile birleştirir, chunk türü ağırlığı
+uygular (figür başlıkları 0,6; metin 1,0) ve 150 karakterden kısa ya da içindekiler
+tablosu görünümlü chunk'ları eler. Her sonuçta `dense_rank`, `lexical_rank` ve uygulanan
+`retrieval_policy` raporlanır. `--section` verilmezse bütün bölümler aranır.
 
 ### Sabit semantik benchmark
 
@@ -560,8 +574,26 @@ Benchmark sonucunu verilen proje-içi yola yazar.
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book validate --json
 ```
 
-Dondurulmuş outline, 2.950 soruluk soru bankası, hash kimlikleri ve yayın kurallarını
-`book/config/book_contract.json` karşısında doğrular.
+Dondurulmuş outline, soru bankası, hash kimlikleri ve yayın kurallarını
+`book/config/book_contract.json` karşısında doğrular. Sözleşme şema 1.0 (sabit 66/59/50
+yapısı) ve şema 2.0 (incelenmiş v2 kapsamı; bölüm başına değişken soru sayısı, pasif
+başlıklar, insan-analizi bölümleri) desteklenir.
+
+### İncelenmiş kapsam ve soru bankası taslağını normalize etme
+
+```bash
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book normalize-inputs \
+  --draft book/question_bank/drafts/question_bank_v2_draft.md
+```
+
+İnsan tarafından düzenlenen tek Markdown taslağını (`## <no> <başlık> {keep|new|inactive:
+gerekçe|chapter}` başlıkları ve numaralı sorular) ayrıştırır; `book/scope/normalized/`,
+`book/question_bank/normalized/`, `book/audits/question_bank_integrity.json` ve
+`book/audits/source_manifest.json` dosyalarını yeniden üretir; `book_contract.json`
+dosyasını türetilmiş yapı ve yeni hash'lerle şema 2.0 olarak yeniden mühürler. Yayın
+eşiği `ceil(toplam_soru × 0,6)` olarak türetilir. Taslaktaki her tutarsızlık satır
+numarasıyla fail-closed hata verir. Komut, mevcut prewriting/coverage audit kimliklerini
+geçersiz kılar; sonrasında `evidence-audit` yeniden çalıştırılmalıdır.
 
 ### Kitap üretim durumunu görme
 
@@ -576,18 +608,22 @@ okunur biçimde raporlar.
 
 ```bash
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book evidence-audit \
-  --all --batch-size 50 --top-k 4
+  --all --batch-size 8 --top-k 8
 ```
 
-2.950 sorunun her biri için canonical retrieval yapar ve Qwen ile `SUPPORTED`, `PARTIAL`
-veya `UNSUPPORTED` kararı verir. Checkpoint'lidir; tekrar çalıştırma son geçerli bölümden
-devam eder.
+Soru bankasındaki her soru için hibrit canonical retrieval (bölüm başlığıyla
+zenginleştirilmiş sorgu, top-k 8, chunk içinden sorguya en çok değen 1.000 karakterlik pencere, örtüşen chunk tekrarlarının elenmesi) yapar ve Qwen ile
+`SUPPORTED`, `PARTIAL` veya `UNSUPPORTED` kararı verir. Bölüm hazırlığı sözleşmedeki
+kapsama oranından türetilen hedefe göre (`ceil(soru × 0,6)`) hesaplanır; insan-analizi
+bölümleri `HUMAN_ANALYSIS_ARTIFACT_REQUIRED` olarak işaretlenir. Checkpoint'lidir; tekrar
+çalıştırma son geçerli bölümden devam eder. `--top-k` en fazla 20 olabilir; batch
+büyüdükçe Qwen bağlamı büyür.
 
 ### Tek bölüm için kanıt auditi
 
 ```bash
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book evidence-audit \
-  --section 1.1 --batch-size 25 --top-k 4
+  --section 1.1 --batch-size 8 --top-k 8
 ```
 
 Audit kapsamını tek soru-bankası bölümüne indirir. Pilot ve hedefli tekrar için uygundur.
@@ -616,9 +652,15 @@ PYTHONPATH=. .venv/bin/python -m tunnelbookai.book write \
   --section 1.1 --batch-size 8
 ```
 
-Yalnızca bölümün hazırlanmış claim registry'sini kullanır. Her cümleyi claim ve soru
-kimliklerine bağlayan `sentence_map.json` üretir. Kesinti halinde batch checkpoint'lerinden
-devam eder. Sonuç audit yapılmadan yayınlanabilir sayılmaz.
+Yalnızca bölümün hazırlanmış claim registry'sini kullanır ve iki geçişli çalışır: önce
+Qwen bölümü 2–8 tematik akışa böler (`batches/plan.json`; her temaya pasaj ve soru
+numaraları atanır, konu dışı pasajlar dışarıda kalır), sonra her tema için yalnızca o
+temanın pasajlarıyla bağlantılı paragraflar yazılır (`batches/theme_NNN.json`). Cümleler
+soru-cevap sırasına değil, tema sırasına göre dizilir. Her cümle en az bir claim'e bağlıdır;
+soru bağı Qwen'in açık etiketi ile cümlenin claim'lerinin kanıtladığı soruların birleşimi
+olarak türetilir ve `sentence_map.json` içine yazılır. `--batch-size` bu sürümde yalnızca
+uyumluluk için kabul edilir. Kesinti halinde plan ve tema checkpoint'lerinden devam eder.
+Sonuç audit yapılmadan yayınlanabilir sayılmaz.
 
 ### Yazım sonrası cümle-kanıt incelemesi
 
@@ -638,7 +680,7 @@ PYTHONPATH=. .venv/bin/python -m tunnelbookai.book coverage-audit \
   --section 1.1 --batch-size 10
 ```
 
-Bölümün 50 dondurulmuş sorusunu gerçek cümle spanları ve kabul edilen claim zinciriyle
+Bölümün dondurulmuş sorularını gerçek cümle spanları ve kabul edilen claim zinciriyle
 `ANSWERED`, `PARTIAL` veya `NOT_ANSWERED` olarak denetler. Yalnızca `ANSWERED` yayın
 kapsamına sayılır.
 
@@ -665,15 +707,29 @@ Metni ve sentence map'i deterministik editoryal hard gate ile doğrular; ayrıca
 kronoloji, adlandırma, dil ve yapı bulgularını danışman kayıt olarak saklar. Qwen bulguları
 harici bilgiyle düzeltme yapamaz ve tek başına freeze'i engelleyemez.
 
+### Bölümü okuyup operatör onayı kaydetme
+
+```bash
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book approve-section \
+  --section 1.1 --note "Bölümü baştan sona okudum; akış ve dil kitap bölümü olarak kabul edilebilir."
+```
+
+Model kapıları kanıtı ve yapıyı doğrular; metnin okunabilir bir kitap bölümü olduğunu
+yalnızca bir insan doğrulayabilir. Bu komut, aktif taslağın kimliğine, Markdown hash'ine ve
+editoryal audit kimliğine bağlı bir onay kaydı (`book/production/approvals/`) yazar. Taslak
+yeniden yazılır, revize edilir veya editoryal audit yenilenirse onay kendiliğinden geçersiz
+olur ve `freeze` `OPERATOR_READ_APPROVAL_PASS` koşulunda `HOLD` verir. `--note` zorunludur.
+
 ### Bölümü dondurma
 
 ```bash
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book freeze --section 1.1
 ```
 
-Kanıt, maddi iddia, kapsam, editoryal, citation provenance ve analiz artifact kapılarının
-tamamını doğrular. Geçerse bölüm ve bağlı artifactlerin content-addressed, salt okunur
-snapshotını üretir. Frozen bölümde `write` ve `revise` fail-closed engellenir.
+Kanıt, maddi iddia, kapsam, editoryal, citation provenance, analiz artifact ve operatör
+okuma onayı kapılarının tamamını doğrular. Geçerse bölüm, bağlı artifactler ve onay
+kaydının content-addressed, salt okunur snapshotını üretir. Frozen bölümde `write` ve
+`revise` fail-closed engellenir.
 
 ### Henüz uygulanmamış komut
 
@@ -905,7 +961,8 @@ gösterir. Population batch çalışması öncesinde boş alan kontrolü önemli
 9. Canonical digest değiştiyse `book build-index` çalıştır ve `retrieval_benchmark.py` ile
    aramayı test et.
 10. Kitap aşamalarını `evidence-audit → prepare → write → evidence-review → gerekirse revise
-    → evidence-review → coverage-audit → editorial-audit → freeze` sırasıyla yürüt.
+    → evidence-review → coverage-audit → editorial-audit → approve-section → freeze`
+    sırasıyla yürüt.
 11. Her anlamlı işlemden sonra `reports/project_work_log.md` dosyasına sonucu, artifact'i,
     doğrulamayı ve bilinen sınırlamaları ekle.
 

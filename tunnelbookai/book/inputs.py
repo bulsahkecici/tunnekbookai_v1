@@ -27,6 +27,13 @@ class BookInputs:
     def question_section_ids(self) -> tuple[str, ...]:
         return tuple(row["section_id"] for row in self.scope if row.get("is_question_bank_section"))
 
+    @property
+    def active_scope(self) -> tuple[Mapping[str, Any], ...]:
+        return tuple(row for row in self.scope if row.get("active") is True)
+
+    def requires_human_analysis(self, section_id: str) -> bool:
+        return self.scope_by_id.get(section_id, {}).get("analysis_requirement") == "HUMAN_ANALYSIS_ARTIFACT_REQUIRED"
+
 
 def _read_json(path: Path, label: str) -> Mapping[str, Any]:
     try:
@@ -83,19 +90,28 @@ def _validate_scope(scope_payload: Mapping[str, Any], contract: BookContract) ->
         raise InputValidationError("scope.sections must be an object array")
     rows = tuple(MappingProxyType(dict(row)) for row in raw)
     expected = contract.expected_structure
+    legacy = contract.schema_version == "1.0"
     ids = [str(row.get("section_id") or "") for row in rows]
     if any(not section_id for section_id in ids) or len(ids) != len(set(ids)):
         raise InputValidationError("scope section IDs must be non-empty and unique")
-    if len(rows) != expected["structural_headings"] or scope_payload.get("section_count") != len(rows):
-        raise InputValidationError("scope must contain exactly 66 structural headings")
+    if scope_payload.get("section_count") != len(rows):
+        raise InputValidationError("scope section_count metadata is inconsistent")
+    active_rows = [row for row in rows if row.get("active") is True]
+    if len(active_rows) != expected["structural_headings"]:
+        raise InputValidationError(
+            "scope active heading count disagrees with the contract",
+            details={"expected": expected["structural_headings"], "actual": len(active_rows)},
+        )
+    if not legacy and scope_payload.get("active_section_count") != len(active_rows):
+        raise InputValidationError("scope active_section_count metadata is inconsistent")
     top_level = [row for row in rows if row.get("parent_section") is None]
     if len(top_level) != expected["top_level_chapters"]:
-        raise InputValidationError("scope must contain exactly 7 top-level chapters")
+        raise InputValidationError("scope top-level chapter count disagrees with the contract")
     if scope_payload.get("top_level_section_count") != len(top_level):
         raise InputValidationError("scope top-level chapter metadata is inconsistent")
     question_sections = [row for row in rows if row.get("is_question_bank_section") is True]
     if len(question_sections) != expected["question_bank_sections"]:
-        raise InputValidationError("scope must identify exactly 59 question-bank sections")
+        raise InputValidationError("scope question-bank section count disagrees with the contract")
     if scope_payload.get("question_bank_section_count") != len(question_sections):
         raise InputValidationError("scope question-bank section metadata is inconsistent")
     for row in rows:
@@ -116,14 +132,38 @@ def _validate_scope(scope_payload: Mapping[str, Any], contract: BookContract) ->
         # The frozen source intentionally omits ellipsis-only headings.  A declared
         # parent may therefore be absent; we validate the declared relationship but
         # never invent the missing heading.
-        if row.get("active") is not True or row.get("placeholder") is not False:
+        if row.get("placeholder") is not False or row.get("active") not in {True, False}:
             raise InputValidationError(
-                "scope contains an inactive or placeholder heading", details={"section_id": section_id}
+                "scope contains a placeholder or untyped heading", details={"section_id": section_id}
             )
-        expected_questions = expected["questions_per_section"] if row.get("is_question_bank_section") is True else 0
-        if row.get("question_count") != expected_questions:
+        if row.get("active") is False:
+            if legacy:
+                raise InputValidationError("scope contains an inactive heading", details={"section_id": section_id})
+            if row.get("is_question_bank_section") is not False or row.get("question_count") != 0:
+                raise InputValidationError(
+                    "inactive headings may not carry questions", details={"section_id": section_id}
+                )
+            if not str(row.get("inactive_reason") or "").strip():
+                raise InputValidationError(
+                    "inactive headings require a recorded reason", details={"section_id": section_id}
+                )
+            continue
+        count = row.get("question_count")
+        if row.get("is_question_bank_section") is True:
+            if legacy:
+                valid = count == expected["questions_per_section"]
+            else:
+                valid = isinstance(count, int) and expected["min_questions_per_section"] <= count <= expected["max_questions_per_section"]
+        else:
+            valid = count == 0
+        if not valid:
             raise InputValidationError(
                 "scope heading question count is invalid", details={"section_id": section_id}
+            )
+        requirement = row.get("analysis_requirement")
+        if requirement not in (None, "HUMAN_ANALYSIS_ARTIFACT_REQUIRED"):
+            raise InputValidationError(
+                "scope analysis requirement is invalid", details={"section_id": section_id}
             )
     return rows
 
@@ -135,8 +175,9 @@ def _validate_questions(
     contract: BookContract,
 ) -> Mapping[str, tuple[Mapping[str, Any], ...]]:
     expected = contract.expected_structure
+    legacy = contract.schema_version == "1.0"
     if len(questions) != expected["total_questions"]:
-        raise InputValidationError("question bank must contain exactly 2950 questions")
+        raise InputValidationError("question bank total disagrees with the contract")
     ids = [str(row.get("question_id") or "") for row in questions]
     if any(not question_id for question_id in ids) or len(ids) != len(set(ids)):
         raise InputValidationError("question IDs must be non-empty and unique")
@@ -166,13 +207,13 @@ def _validate_questions(
     }
     if set(grouped) != expected_section_ids:
         raise InputValidationError("question bank section set does not match scope")
-    per_section = expected["questions_per_section"]
     for section_id in sorted(grouped, key=lambda value: tuple(int(p) for p in value.split("."))):
         rows = grouped[section_id]
+        per_section = int(scope_by_id[section_id]["question_count"])
         if section_counts[section_id] != per_section:
             raise InputValidationError(
-                "each question-bank section must contain exactly 50 questions",
-                details={"section_id": section_id, "actual": section_counts[section_id]},
+                "question-bank section count disagrees with scope",
+                details={"section_id": section_id, "expected": per_section, "actual": section_counts[section_id]},
             )
         numbers = sorted(row.get("question_number") for row in rows)
         if numbers != list(range(1, per_section + 1)):
@@ -191,7 +232,7 @@ def _validate_questions(
         raise InputValidationError("question-bank index section count is invalid")
     if index.get("total_questions") != expected["total_questions"]:
         raise InputValidationError("question-bank index total is invalid")
-    if index.get("expected_questions_per_section") != per_section:
+    if legacy and index.get("expected_questions_per_section") != expected["questions_per_section"]:
         raise InputValidationError("question-bank index per-section count is invalid")
     index_sections = index.get("sections")
     if not isinstance(index_sections, Mapping) or set(index_sections) != expected_section_ids:
@@ -201,9 +242,10 @@ def _validate_questions(
             raise InputValidationError("question-bank index section detail must be an object")
         if detail.get("section_title") != scope_by_id[section_id].get("title"):
             raise InputValidationError("question-bank index title does not match scope")
+        per_section = int(scope_by_id[section_id]["question_count"])
         if detail.get("question_count") != per_section:
             raise InputValidationError("question-bank index section count is invalid")
-        if detail.get("first_question_id") != f"{section_id}-Q01" or detail.get("last_question_id") != f"{section_id}-Q50":
+        if detail.get("first_question_id") != f"{section_id}-Q01" or detail.get("last_question_id") != f"{section_id}-Q{per_section:02d}":
             raise InputValidationError("question-bank index boundary IDs are invalid")
     return MappingProxyType({key: tuple(value) for key, value in grouped.items()})
 
@@ -243,7 +285,7 @@ def _validate_source_manifest(manifest: Mapping[str, Any], contract: BookContrac
                 "human-readable book authority is missing or changed",
                 details={"role": role, "path": str(path)},
             )
-    if roles != {"scope_source", "question_bank_source"}:
+    if not {"scope_source", "question_bank_source"}.issubset(roles):
         raise InputValidationError("book source manifest must identify scope and question-bank sources")
 
 

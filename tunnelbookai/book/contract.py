@@ -95,8 +95,20 @@ class BookContract:
     contract_sha256: str
 
     @property
+    def schema_version(self) -> str:
+        return str(self.payload.get("schema_version") or "")
+
+    @property
     def expected_structure(self) -> Mapping[str, Any]:
         return _mapping(self.payload, "expected_structure")
+
+    def section_target(self, question_count: int) -> int:
+        """Preferred ANSWERED count for one section under the contract's coverage ratio."""
+
+        if self.schema_version == "1.0":
+            return int(_mapping(self.coverage_policy, "section")["preferred_minimum_answered_count"])
+        ratio = float(_mapping(self.coverage_policy, "section")["preferred_minimum_coverage"])
+        return math.ceil(question_count * ratio)
 
     @property
     def coverage_policy(self) -> Mapping[str, Any]:
@@ -111,10 +123,14 @@ class BookContract:
         return resolve_project_path(self.project_root, entry.get("path"), field=f"authorities.{name}.path")
 
 
+SUPPORTED_SCHEMA_VERSIONS = frozenset({"1.0", "2.0"})
+
+
 def validate_contract_payload(
     payload: Mapping[str, Any], *, project_root: Path, contract_path: Path
 ) -> None:
-    if payload.get("schema_version") != "1.0":
+    schema_version = str(payload.get("schema_version") or "")
+    if schema_version not in SUPPORTED_SCHEMA_VERSIONS:
         raise ContractValidationError("unsupported Book Contract schema_version")
     if not str(payload.get("contract_version") or "").strip():
         raise ContractValidationError("contract_version is required")
@@ -142,13 +158,7 @@ def validate_contract_payload(
     chapters = _positive_int(structure, "top_level_chapters")
     headings = _positive_int(structure, "structural_headings")
     sections = _positive_int(structure, "question_bank_sections")
-    per_section = _positive_int(structure, "questions_per_section")
     total = _positive_int(structure, "total_questions")
-    if chapters != 7 or headings != 66 or sections != 59 or per_section != 50 or total != 2950:
-        raise ContractValidationError("frozen structural counts may not be changed")
-    if sections * per_section != total:
-        raise ContractValidationError("question count is inconsistent with per-section policy")
-
     coverage = _mapping(payload, "coverage_policy")
     _enum_values(QuestionCoverageStatus, coverage.get("allowed_states"), field="coverage_policy.allowed_states")
     if coverage.get("counted_as_answered") != [QuestionCoverageStatus.ANSWERED.value]:
@@ -158,17 +168,39 @@ def validate_contract_payload(
     minimum_coverage = _ratio(global_policy, "minimum_coverage")
     if global_policy.get("hard_gate") is not True or global_policy.get("requires_complete_audit") is not True:
         raise ContractValidationError("global coverage and complete-audit rules must be hard gates")
-    if minimum_count != 1770 or minimum_coverage != 0.6:
-        raise ContractValidationError("global publication threshold must remain 1770 / 60%")
     if minimum_count != math.ceil(total * minimum_coverage):
         raise ContractValidationError("minimum answered count and coverage ratio disagree")
     section_policy = _mapping(coverage, "section")
     if section_policy.get("hard_gate") is not False:
-        raise ContractValidationError("section coverage is a preferred target in V1 foundation")
-    if _positive_int(section_policy, "preferred_minimum_answered_count") != 30:
-        raise ContractValidationError("preferred section target must remain 30 questions")
-    if _ratio(section_policy, "preferred_minimum_coverage") != 0.6:
-        raise ContractValidationError("preferred section coverage must remain 60%")
+        raise ContractValidationError("section coverage is a preferred target, not a hard gate")
+    if schema_version == "1.0":
+        # V1 foundation: the frozen template bank with fixed counts.
+        per_section = _positive_int(structure, "questions_per_section")
+        if chapters != 7 or headings != 66 or sections != 59 or per_section != 50 or total != 2950:
+            raise ContractValidationError("frozen structural counts may not be changed")
+        if sections * per_section != total:
+            raise ContractValidationError("question count is inconsistent with per-section policy")
+        if minimum_count != 1770 or minimum_coverage != 0.6:
+            raise ContractValidationError("global publication threshold must remain 1770 / 60%")
+        if _positive_int(section_policy, "preferred_minimum_answered_count") != 30:
+            raise ContractValidationError("preferred section target must remain 30 questions")
+        if _ratio(section_policy, "preferred_minimum_coverage") != 0.6:
+            raise ContractValidationError("preferred section coverage must remain 60%")
+    else:
+        # V2 reviewed scope: counts are derived from the normalized inputs and re-checked by
+        # the input loader; the contract only has to be internally consistent.
+        minimum_per_section = _positive_int(structure, "min_questions_per_section")
+        maximum_per_section = _positive_int(structure, "max_questions_per_section")
+        if minimum_per_section > maximum_per_section:
+            raise ContractValidationError("per-section question bounds are inverted")
+        if not sections * minimum_per_section <= total <= sections * maximum_per_section:
+            raise ContractValidationError("total question count is outside the per-section bounds")
+        if headings < sections or chapters > headings:
+            raise ContractValidationError("structural heading counts are inconsistent")
+        if minimum_coverage < 0.5:
+            raise ContractValidationError("global coverage ratio may not fall below 50%")
+        if _ratio(section_policy, "preferred_minimum_coverage") != minimum_coverage:
+            raise ContractValidationError("section preferred coverage must equal the global ratio")
 
     evidence = _mapping(payload, "evidence_policy")
     _enum_values(QuestionEvidenceStatus, evidence.get("prewriting_states"), field="evidence_policy.prewriting_states")

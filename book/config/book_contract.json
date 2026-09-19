@@ -139,7 +139,8 @@
       "QUESTION_COVERAGE_AUDIT_COMPLETE",
       "EDITORIAL_AUDIT_PASS",
       "CITATION_PROVENANCE_INTEGRITY_PASS",
-      "REQUIRED_ANALYSIS_ARTIFACTS_SATISFIED"
+      "REQUIRED_ANALYSIS_ARTIFACTS_SATISFIED",
+      "OPERATOR_READ_APPROVAL_PASS"
     ],
     "revision_requires_reaudit": true,
     "rollback_requires_hash_verification": true

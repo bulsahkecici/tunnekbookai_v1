@@ -99,15 +99,29 @@ PYTHONPATH=. .venv/bin/python -m tunnelbookai.book search \
 Interrupted builds are resumable by default. No cloud endpoint, model fallback, staging or
 processing artifact is accepted as retrieval evidence.
 
+Retrieval is hybrid (`hybrid-rrf-v1`). After the dense index is published, `build-index`
+also builds a BM25 lexical index over the same rows under `book/retrieval/lexical/<BRI_id>/`
+(Turkish fold before NFKD, F5 prefix stemming, broken-letter-spacing repair, per-row noise
+flags). `search` and the audit retriever fuse the dense and lexical rankings with
+reciprocal-rank fusion, scale by chunk-type weight (TEXT 1.0 … FIGURE 0.6) and exclude rows
+shorter than 150 characters or table-of-contents like. The policy is recorded in every
+result and audit identity. The lexical index is a derivative bound to the dense index id
+and never becomes evidence authority.
+
 `evidence-audit` implements the pre-writing audit. It retrieves from the complete verified
-canonical index, asks the exact configured local Qwen model to classify each frozen
-question as `SUPPORTED`, `PARTIAL` or `UNSUPPORTED`, and preserves deterministic retrieval
-provenance for every result. Section checkpoints are atomic and a repeated command resumes
-from the last valid section.
+canonical index with the hybrid retriever (query = section title + question, top-k 8 after
+overlap de-duplication), sends Qwen the query-focused ~1,000-character window of each chunk
+rather than its prefix (structure-aware chunks start with the previous chunk's tail), asks
+the exact configured local Qwen model to classify each frozen question as `SUPPORTED`,
+`PARTIAL` or `UNSUPPORTED`, and preserves deterministic retrieval provenance (dense and
+lexical ranks) for every result. Section readiness is derived from the contract coverage
+ratio (`ceil(questions × 0.6)`); sections flagged `HUMAN_ANALYSIS_ARTIFACT_REQUIRED` in the
+scope keep that state regardless of literature support. Section checkpoints are atomic and
+a repeated command resumes from the last valid section.
 
 ```bash
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book evidence-audit \
-  --all --batch-size 50 --top-k 4
+  --all --batch-size 8 --top-k 8
 ```
 
 The active machine-readable summary is
@@ -130,11 +144,18 @@ The active preparation manifest is `book/production/preparation/manifest.json`; 
 content-addressed packets contain `evidence_packet.json` and `claim_registry.json`.
 `reports/section_preparation.md` is the operator summary.
 
-`write` implements a resumable, local-Qwen section writer. It admits only questions marked
-`SUPPORTED` or `PARTIAL`, resolves all model references against the prepared claim registry,
-and requires every generated sentence to identify at least one claim and question. Each
-batch has an atomic checkpoint. The resulting Markdown remains `DRAFTED_UNAUDITED` until
-the downstream evidence, coverage and editorial gates pass.
+`write` implements a resumable, local-Qwen, outline-first section writer. It admits only
+questions marked `SUPPORTED` or `PARTIAL` and resolves all model references against the
+prepared claim registry. Pass one asks Qwen for a section plan: 2–8 ordered themes, each
+owning a subset of the registered passages and the questions it addresses (off-topic
+passages such as tables of contents are simply left out of every theme). Pass two writes
+each theme as connected paragraphs from that theme's passages only, so the draft reads in
+chapter order rather than as a sequence of question answers. Every sentence must cite at
+least one claim; its question links are the union of Qwen's explicit tags and the eligible
+questions those claims were retrieved for, so coverage auditing keeps working without
+forcing question-shaped prose. The plan and each theme have atomic checkpoints. The
+resulting Markdown remains `DRAFTED_UNAUDITED` until the downstream evidence, coverage and
+editorial gates pass.
 
 ```bash
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book write \
@@ -142,7 +163,8 @@ PYTHONPATH=. .venv/bin/python -m tunnelbookai.book write \
 ```
 
 Drafts are content-addressed under `book/production/drafts/`; each contains `section.md`,
-`sentence_map.json`, a manifest and resumable Qwen batch checkpoints. Active draft pointers
+`sentence_map.json`, a manifest (with the theme plan) and resumable plan/theme checkpoints.
+Active draft pointers
 are under `book/production/drafts/active/` and appear in `book status`.
 
 `evidence-review` independently asks local Qwen whether each drafted sentence is actually
@@ -197,13 +219,21 @@ section or introduce external corrections.
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book editorial-audit --section 1.1
 ```
 
-`freeze` independently verifies every Book Contract freeze requirement, reconstructs the
-sentence-to-claim/document/locator chain, and writes a content-addressed, read-only snapshot
-of the section, sentence map, audits, claim registry and evidence packet. Repeated execution
-is idempotent. A valid active freeze blocks both `write` and `revise`; no unfreeze operation
-exists.
+`approve-section` records that a person read the exact audited draft and accepts it as a
+book section. The approval is bound to the draft id, the Markdown hash and the editorial
+audit id; any rewrite, revision or re-audit invalidates it. The machine gates prove evidence
+and structure — they cannot prove the text reads as a chapter, which is why the contract's
+`OPERATOR_READ_APPROVAL_PASS` requirement exists.
+
+`freeze` independently verifies every Book Contract freeze requirement (including the
+operator approval), reconstructs the sentence-to-claim/document/locator chain, and writes a
+content-addressed, read-only snapshot of the section, sentence map, audits, claim registry,
+evidence packet and approval record. Repeated execution is idempotent. A valid active
+freeze blocks both `write` and `revise`; no unfreeze operation exists.
 
 ```bash
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book approve-section \
+  --section 1.1 --note "Read end to end; acceptable as a book section."
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book freeze --section 1.1
 ```
 

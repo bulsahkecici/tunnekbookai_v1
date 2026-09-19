@@ -220,7 +220,8 @@ def run_editorial_audit(
     coverage = next((row for row in coverage_audits if row["section_id"] == section_id), None)
     if not draft or not evidence or evidence.get("audit_decision") != "PASS":
         raise BookEngineError("EVIDENCE_AUDIT_PASS_REQUIRED", f"passing evidence audit required for {section_id}")
-    if not coverage or coverage.get("status") != "COMPLETE" or int(coverage.get("question_count") or 0) != 50:
+    expected_questions = int(inputs.scope_by_id[section_id]["question_count"])
+    if not coverage or coverage.get("status") != "COMPLETE" or int(coverage.get("question_count") or 0) != expected_questions:
         raise BookEngineError("QUESTION_COVERAGE_AUDIT_REQUIRED", f"complete coverage audit required for {section_id}")
     draft_path = root / str(draft["draft_path"])
     map_path = root / str(draft["sentence_map_path"])
