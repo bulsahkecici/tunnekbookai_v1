@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "contract_version": "next-pilot-selection-v1",
+  "selection_id": "NPS_bc29d114d042439be93d2427752264127766e2fcaf1cf799dc621e7f5f7d3abf",
+  "created_on": "2026-09-18",
+  "decision": "SELECTED",
+  "selected_section": {
+    "section_id": "1.4",
+    "section_title": "En İyi Tünel Mühendislik Uygulamaları",
+    "packet_id": "SEP_c6a92b3050b01ab77f8c27491506143228b29c92cbc7e42ec44625b8ed38234b",
+    "readiness": "READY_WITH_LIMITATIONS",
+    "claim_count": 84,
+    "question_count": 50,
+    "evidence_counts": {
+      "SUPPORTED": 20,
+      "PARTIAL": 22,
+      "UNSUPPORTED": 8
+    },
+    "eligible_claim_count": 42
+  },
+  "selection_policy": {
+    "candidate_readiness": "READY_WITH_LIMITATIONS",
+    "excluded_frozen_sections": [
+      "1.1"
+    ],
+    "sort_order": [
+      "UNSUPPORTED_ASC",
+      "SUPPORTED_DESC",
+      "ELIGIBLE_DESC",
+      "CLAIM_COUNT_DESC",
+      "SECTION_ID_ASC"
+    ],
+    "eligible_definition": "SUPPORTED + PARTIAL",
+    "notes": [
+      "UNSUPPORTED sayısını en aza indirmek birincil seçim ölçütüdür.",
+      "Eşitlikte doğrudan SUPPORTED kanıt, ardından toplam yazılabilir kanıt ve claim sayısı tercih edilir.",
+      "Seçim bölümü yazmaz, evidence statülerini değiştirmez ve freeze üretmez."
+    ]
+  },
+  "source_artifacts": [
+    {
+      "path": "book/production/preparation/manifest.json",
+      "artifact_id": "SPM_d05b2282c795b17740b6d4c2089e73febc088f49987fe64e6d60b383efe01276",
+      "sha256": "b43a69c93b8c4edd3486d30c775ecf21f2aab603d4d47dd9a4c391701f310982"
+    },
+    {
+      "path": "book/production/frozen/FRZ_4dd8d6380b13550255134497383224e8c68535a62d1c7b6b3be32b50b29c51c4/manifest.json",
+      "artifact_id": "FRZ_4dd8d6380b13550255134497383224e8c68535a62d1c7b6b3be32b50b29c51c4",
+      "sha256": "fab53489d46b853ccc830d64edaaba00a1f00e5944c0a1ae2395a1db61350e86"
+    }
+  ],
+  "candidate_count": 16,
+  "ranking": [
+    {"rank": 1, "section_id": "1.4", "section_title": "En İyi Tünel Mühendislik Uygulamaları", "supported": 20, "partial": 22, "unsupported": 8, "eligible": 42, "claim_count": 84},
+    {"rank": 2, "section_id": "2.4", "section_title": "Tünellerin Projelendirilmesi", "supported": 12, "partial": 30, "unsupported": 8, "eligible": 42, "claim_count": 71},
+    {"rank": 3, "section_id": "2.2", "section_title": "Tünel Yapım Yöntemleri", "supported": 10, "partial": 31, "unsupported": 9, "eligible": 41, "claim_count": 85},
+    {"rank": 4, "section_id": "2.4.1.3", "section_title": "Kullanım Aşaması Çalışmaları", "supported": 10, "partial": 29, "unsupported": 11, "eligible": 39, "claim_count": 74},
+    {"rank": 5, "section_id": "2.4.1.2", "section_title": "İnşaat Esnasındaki Çalışmalar", "supported": 17, "partial": 21, "unsupported": 12, "eligible": 38, "claim_count": 101},
+    {"rank": 6, "section_id": "2.4.1", "section_title": "Jeolojik ve Geoteknik İncelemeler", "supported": 16, "partial": 22, "unsupported": 12, "eligible": 38, "claim_count": 66},
+    {"rank": 7, "section_id": "2.2.1", "section_title": "Kayaç Zeminde Açılan Tüneller", "supported": 4, "partial": 31, "unsupported": 15, "eligible": 35, "claim_count": 48},
+    {"rank": 8, "section_id": "1.5", "section_title": "Tünel Felaketleri", "supported": 9, "partial": 25, "unsupported": 16, "eligible": 34, "claim_count": 61},
+    {"rank": 9, "section_id": "5.4", "section_title": "Tünel Bakım-Onarım ve İşletme", "supported": 6, "partial": 27, "unsupported": 17, "eligible": 33, "claim_count": 46},
+    {"rank": 10, "section_id": "2.3", "section_title": "Tünellerin Yapım Maliyetine Etki Eden Unsurlar", "supported": 5, "partial": 28, "unsupported": 17, "eligible": 33, "claim_count": 41},
+    {"rank": 11, "section_id": "5.7", "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi", "supported": 1, "partial": 32, "unsupported": 17, "eligible": 33, "claim_count": 43},
+    {"rank": 12, "section_id": "7.2", "section_title": "Tünel Yapım Maliyetleri", "supported": 1, "partial": 32, "unsupported": 17, "eligible": 33, "claim_count": 42},
+    {"rank": 13, "section_id": "5.7.1", "section_title": "Bakım-İşletme Maliyetini Azaltma Yöntemleri", "supported": 15, "partial": 16, "unsupported": 19, "eligible": 31, "claim_count": 54},
+    {"rank": 14, "section_id": "2.1", "section_title": "Tünel Yapı/Destek Elemanları", "supported": 12, "partial": 18, "unsupported": 20, "eligible": 30, "claim_count": 58},
+    {"rank": 15, "section_id": "5.4.2", "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı", "supported": 8, "partial": 22, "unsupported": 20, "eligible": 30, "claim_count": 49},
+    {"rank": 16, "section_id": "5.5.2", "section_title": "Bakım-Onarım Maliyetleri", "supported": 2, "partial": 28, "unsupported": 20, "eligible": 30, "claim_count": 38}
+  ],
+  "rationale": "1.4 ve 2.4 aynı en düşük UNSUPPORTED sayısına (8) ve aynı eligible sayısına (42) sahiptir. 1.4, daha yüksek doğrudan SUPPORTED sayısı (20'ye karşı 12) ve daha geniş claim havuzu (84'e karşı 71) nedeniyle seçilmiştir.",
+  "limitations": [
+    "Sıralama hazırlık manifestindeki mevcut evidence sınıflarına dayanır; yeni corpus eklenirse tekrar hesaplanmalıdır.",
+    "PARTIAL claimler yazım sırasında yalnızca kanıtlanan kapsamla sınırlı kullanılabilir.",
+    "Bu audit bir içerik kalite garantisi veya semantik arama sonucu değildir."
+  ],
+  "next_action": "book write --section 1.4 --batch-size 8"
+}

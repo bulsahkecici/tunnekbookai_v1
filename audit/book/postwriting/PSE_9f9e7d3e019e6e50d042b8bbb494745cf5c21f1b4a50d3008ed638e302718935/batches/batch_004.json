@@ -1,0 +1,315 @@
+{
+  "batch_number": 4,
+  "results": [
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_c8edefade90c2963a0ac369ebdd0d570ef48291d95465a88da2d432c613a10b7"
+      ],
+      "paragraph_id": "1.1-P012",
+      "question_ids": [
+        "1.1-Q20"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı, havalandırma gereksinimlerini belirleyen temel faktörler arasında tünel uzunluğu, tüp sayısı ve araç yoğunluğu ile doğrudan ilişkilidir.",
+      "sentence_id": "1.1-S037",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_cd3c96c696:pages=241-242;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L116"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_c8edefade90c2963a0ac369ebdd0d570ef48291d95465a88da2d432c613a10b7"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_92f4465aa120f134d76d243ac082533663c1caec57ee1d7fc11c058f45ab3fb6"
+      ],
+      "paragraph_id": "1.1-P012",
+      "question_ids": [
+        "1.1-Q20"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel içi havalandırma sistemleri, tavan fanları gibi yapısal bileşenlerle tünelin fiziksel yapısına entegre edilir.",
+      "sentence_id": "1.1-S038",
+      "source_locators": [
+        "ING_1b4596736bbcf61f370b:ING_1b4596736bbcf61f370b_CH_a51786d0a5:pages=6;canonical=corpus/canonical/objects/ING_1b4596736bbcf61f370b/6d7495dbe27aa997b62be66a5ae402acd71c56f4393f0ab9698a1afb1d9b6afc/chunks/embedding_ready.jsonl#L20"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_92f4465aa120f134d76d243ac082533663c1caec57ee1d7fc11c058f45ab3fb6"
+      ],
+      "supporting_document_ids": [
+        "ING_1b4596736bbcf61f370b"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_9b54b92d76ac8daf141b1b11f60942952989532e8040bb8d49a70e5c054d6a77"
+      ],
+      "paragraph_id": "1.1-P013",
+      "question_ids": [
+        "1.1-Q21"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı, aydınlatma gereksinimlerini belirleyen bir çerçeve oluşturur; iyi bir tünel aydınlatması, yaklaşılan yoldaki rahatlık ve emniyetle eşdeğer trafik akışı sağlamayı hedefler.",
+      "sentence_id": "1.1-S039",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_5a99712752:pages=213-214;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L105"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_9b54b92d76ac8daf141b1b11f60942952989532e8040bb8d49a70e5c054d6a77"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_fbe9a01c9661f10b2883601e401a6bc8c8d60210e7d885b425101afa3c8652de"
+      ],
+      "paragraph_id": "1.1-P014",
+      "question_ids": [
+        "1.1-Q22"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı, su yalıtımı ve drenaj gereksinimleriyle bağlantılıdır; tünel açıldığında yeraltı suyu oluşan boşluğa yönelir ve tünel tabanına kadar drene edilir.",
+      "sentence_id": "1.1-S040",
+      "source_locators": [
+        "ING_9edbc28eb7644c0de5ff:ING_9edbc28eb7644c0de5ff_CH_a58bf5d4af:pages=1;canonical=corpus/canonical/objects/ING_9edbc28eb7644c0de5ff/74275fe7a0aea02b4981304dc1627c149c636c091db00c6229e570b8cf02da8b/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_fbe9a01c9661f10b2883601e401a6bc8c8d60210e7d885b425101afa3c8652de"
+      ],
+      "supporting_document_ids": [
+        "ING_9edbc28eb7644c0de5ff"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_4ce286a41fb39b5342a1a90d1bbdfbf7095bfe743dd5b4b660752f385a694307"
+      ],
+      "paragraph_id": "1.1-P014",
+      "question_ids": [
+        "1.1-Q22"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel tabanının eğimli olması ve yan galerilerle suyun dışarı atılması, tünelin yeraltı suyu dreni gibi görev yapmasını sağlayan yapısal özelliklerdir.",
+      "sentence_id": "1.1-S041",
+      "source_locators": [
+        "ING_9edbc28eb7644c0de5ff:ING_9edbc28eb7644c0de5ff_CH_12b9bbd4c6:pages=2;canonical=corpus/canonical/objects/ING_9edbc28eb7644c0de5ff/74275fe7a0aea02b4981304dc1627c149c636c091db00c6229e570b8cf02da8b/chunks/embedding_ready.jsonl#L2"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_4ce286a41fb39b5342a1a90d1bbdfbf7095bfe743dd5b4b660752f385a694307"
+      ],
+      "supporting_document_ids": [
+        "ING_9edbc28eb7644c0de5ff"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_e016893580998dfb9a2cfad243797f6578a56e735c3c5135188781766a9a3f26"
+      ],
+      "paragraph_id": "1.1-P015",
+      "question_ids": [
+        "1.1-Q23"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı, yangın güvenliği ile doğrudan ilişkilidir; tünel kazalarının sosyal etkileri nedeniyle güvenlik, yapımından servis ömrü sonuna kadar gözetilmesi gereken bir husustur.",
+      "sentence_id": "1.1-S042",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_9f0e307bbe:pages=294-298;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L128"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_e016893580998dfb9a2cfad243797f6578a56e735c3c5135188781766a9a3f26"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_de719cbd5159d7146a137ca52ef36f23970c8bff1b1b55692fb61bc7e64f1150"
+      ],
+      "paragraph_id": "1.1-P016",
+      "question_ids": [
+        "1.1-Q24"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı, acil durum yönetimi ile bağlantılıdır; tünel operatörlerinin ana görevi, normal ve kaza durumlarında yol kullanıcılarının güvenliğini sağlamaktır.",
+      "sentence_id": "1.1-S043",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_f28eeecf50:pages=53-55;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L18"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_de719cbd5159d7146a137ca52ef36f23970c8bff1b1b55692fb61bc7e64f1150"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_60fa2073ac9768f67633192dd85262680270db6a765bab032bc2ae2d5c7fe505"
+      ],
+      "paragraph_id": "1.1-P016",
+      "question_ids": [
+        "1.1-Q24"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Acil güç temini, tahliye sırasında güvenlik ekipmanlarının çalışmasını sağlamak üzere tünelin yapısal ve işletmesel tanımına dahil edilir.",
+      "sentence_id": "1.1-S044",
+      "source_locators": [
+        "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_6640be043b:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L31"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_60fa2073ac9768f67633192dd85262680270db6a765bab032bc2ae2d5c7fe505"
+      ],
+      "supporting_document_ids": [
+        "ING_1fb6b71a35f819248daf"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_94d06be13db094d79e7478e970b137734ac295b8921b8a806e40f62257ff0df9"
+      ],
+      "paragraph_id": "1.1-P017",
+      "question_ids": [
+        "1.1-Q25"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı bakımından portal bölgeleri, tünelin geometrisi ve çevresel gereksinimleri açısından kritik öneme sahiptir.",
+      "sentence_id": "1.1-S045",
+      "source_locators": [
+        "ING_153e9e2a4af4519f1e27:ING_153e9e2a4af4519f1e27_CH_23ca60163a:pages=49-50;canonical=corpus/canonical/objects/ING_153e9e2a4af4519f1e27/f09de3c7a774882a2152df1276cc946fb0d5f61ec9022eb526af7ad4aaddf323/chunks/embedding_ready.jsonl#L18"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_94d06be13db094d79e7478e970b137734ac295b8921b8a806e40f62257ff0df9"
+      ],
+      "supporting_document_ids": [
+        "ING_153e9e2a4af4519f1e27"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_6d055b89c4c58fa58dc599e92b2fdb34c0a19326add9bf9a9fd1cb553bedaf7a"
+      ],
+      "paragraph_id": "1.1-P017",
+      "question_ids": [
+        "1.1-Q25"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Portal bölgeleri, kesin proje aşamasında tünelin geometrisinin kesinleştirilmesi ve şev kazılarının projelendirilmesi için öncelikli olarak incelenen alanlardır.",
+      "sentence_id": "1.1-S046",
+      "source_locators": [
+        "ING_9fea1e259f10c9d371f0:ING_9fea1e259f10c9d371f0_CH_dfa84773e1:canonical=corpus/canonical/objects/ING_9fea1e259f10c9d371f0/58b79d5b5f1958aa4fccdd19986430a69bd4ff45d41cb8458a57234c8901c4a3/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_6d055b89c4c58fa58dc599e92b2fdb34c0a19326add9bf9a9fd1cb553bedaf7a"
+      ],
+      "supporting_document_ids": [
+        "ING_9fea1e259f10c9d371f0"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "paragraph_id": "1.1-P018",
+      "question_ids": [
+        "1.1-Q26"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı, yeraltı boşluğunun oluşturulması ve bu boşluğu çevreleyen ana kayanın mühendislik açısından güvenli bir taşıyıcı sistem olarak değerlendirilmesi üzerine kuruludur.",
+      "sentence_id": "1.1-S047",
+      "source_locators": [
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_9298d2989f:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L6",
+        "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_b535170db3:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L11"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "supporting_document_ids": [
+        "ING_2005c18d2148fb921826",
+        "ING_7e795b9a47c89f5406c5"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "paragraph_id": "1.1-P018",
+      "question_ids": [
+        "1.1-Q26"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Bu bağlamda, doğal ortamın kendisini taşıyabilme kapasitesine göre çeşitli destekleme ve sağlamlaştırma yöntemleri ile bir taşıyıcı kabuk sistemi oluşturulması, tanımın temel unsurlarından biridir.",
+      "sentence_id": "1.1-S048",
+      "source_locators": [
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_9298d2989f:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L6",
+        "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_b535170db3:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L11"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e",
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "supporting_document_ids": [
+        "ING_2005c18d2148fb921826",
+        "ING_7e795b9a47c89f5406c5"
+      ]
+    }
+  ],
+  "sentence_ids": [
+    "1.1-S037",
+    "1.1-S038",
+    "1.1-S039",
+    "1.1-S040",
+    "1.1-S041",
+    "1.1-S042",
+    "1.1-S043",
+    "1.1-S044",
+    "1.1-S045",
+    "1.1-S046",
+    "1.1-S047",
+    "1.1-S048"
+  ]
+}

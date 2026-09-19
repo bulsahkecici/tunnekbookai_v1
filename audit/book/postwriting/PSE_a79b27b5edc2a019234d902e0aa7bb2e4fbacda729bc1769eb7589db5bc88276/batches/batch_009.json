@@ -1,0 +1,177 @@
+{
+  "batch_number": 9,
+  "results": [
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493",
+        "CLM_43c97a5fab4a77bfd85ce48405c079bfb4782dafda367e70020f13eda3c5d50a"
+      ],
+      "paragraph_id": "1.1-P019",
+      "question_ids": [
+        "1.1-Q29"
+      ],
+      "reason_code": "COMPOSITE_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Terminoloji, farklı disiplinlerin tüneli iç boşluk, taşıyıcı kabuk veya doğal ortam olarak farklı şekillerde tanımlamasından kaynaklanan çeşitlilik göstermektedir.",
+      "sentence_id": "1.1-S049",
+      "source_locators": [
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_d860cf25d2:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L193",
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_38efefcbcc:pages=11-23;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L2"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493",
+        "CLM_43c97a5fab4a77bfd85ce48405c079bfb4782dafda367e70020f13eda3c5d50a"
+      ],
+      "supporting_document_ids": [
+        "ING_2005c18d2148fb921826",
+        "ING_746d18498e07a8a0f397"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092",
+        "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9"
+      ],
+      "paragraph_id": "1.1-P020",
+      "question_ids": [
+        "1.1-Q30"
+      ],
+      "reason_code": "COMPOSITE_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel tanımları, yeraltı yapılarına ait şartnamelerde ve teknik kılavuzlarda yer almaktadır.",
+      "sentence_id": "1.1-S050",
+      "source_locators": [
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297",
+        "ING_0d8f102824829559a474:ING_0d8f102824829559a474_CH_a377e6d5a7:pages=1-2;canonical=corpus/canonical/objects/ING_0d8f102824829559a474/29e0ad3be8806a27157e5f700b5a13514fe7e3b03e7b76e589ccd58b9cfc8b97/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092",
+        "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9"
+      ],
+      "supporting_document_ids": [
+        "ING_312befcda2ff316b7279",
+        "ING_0d8f102824829559a474"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092",
+        "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9"
+      ],
+      "paragraph_id": "1.1-P020",
+      "question_ids": [
+        "1.1-Q30"
+      ],
+      "reason_code": "COMPOSITE_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Bu standartlarda tünel, yeraltında kazı ile boşluk oluşturulması ve desteklenmesiyle inşa edilen yapı olarak tanımlanırken, kapsamı belirleyen esaslar da belirtilmektedir.",
+      "sentence_id": "1.1-S051",
+      "source_locators": [
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297",
+        "ING_0d8f102824829559a474:ING_0d8f102824829559a474_CH_a377e6d5a7:pages=1-2;canonical=corpus/canonical/objects/ING_0d8f102824829559a474/29e0ad3be8806a27157e5f700b5a13514fe7e3b03e7b76e589ccd58b9cfc8b97/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092",
+        "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9"
+      ],
+      "supporting_document_ids": [
+        "ING_312befcda2ff316b7279",
+        "ING_0d8f102824829559a474"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_43c97a5fab4a77bfd85ce48405c079bfb4782dafda367e70020f13eda3c5d50a",
+        "CLM_7c2be707b740ef81cb28e6dc5bba2b1f886644291fbf72923737191b8a61b5f3"
+      ],
+      "paragraph_id": "1.1-P021",
+      "question_ids": [
+        "1.1-Q32"
+      ],
+      "reason_code": "COMPOSITE_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Bu yapılar, doğal engellerin aşılmasını sağlayarak iki yerleşim birimi arasında kesintisiz bağlantı kurma işlevi görmektedir.",
+      "sentence_id": "1.1-S052",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_38efefcbcc:pages=11-23;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L2",
+        "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_da4122a9ea:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L6"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_43c97a5fab4a77bfd85ce48405c079bfb4782dafda367e70020f13eda3c5d50a",
+        "CLM_7c2be707b740ef81cb28e6dc5bba2b1f886644291fbf72923737191b8a61b5f3"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397",
+        "ING_1fb6b71a35f819248daf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_67aa9188a918c5f718f55e572e0175de1ec6e771b40a35238d12a5415d511a28"
+      ],
+      "paragraph_id": "1.1-P022",
+      "question_ids": [
+        "1.1-Q35"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Teknik çizimlerde tünel, tip kesiti, cephesi ve bağlantı detaylarını içeren yapısal mühendislik çizimleri ile gösterilmektedir.",
+      "sentence_id": "1.1-S053",
+      "source_locators": [
+        "ING_c27ed860ffef1bcf970a:ING_c27ed860ffef1bcf970a_CH_4c1f3feb1a:pages=1;canonical=corpus/canonical/objects/ING_c27ed860ffef1bcf970a/0ccae1e650c0db02431d817f7bd535d64cf87e96b1bc4f6c2e023b98c14143f8/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_67aa9188a918c5f718f55e572e0175de1ec6e771b40a35238d12a5415d511a28"
+      ],
+      "supporting_document_ids": [
+        "ING_c27ed860ffef1bcf970a"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9",
+        "CLM_7031f6e1e062c50056ceee802b43d660def1de3d56de8cd27d85895573c6b670"
+      ],
+      "paragraph_id": "1.1-P023",
+      "question_ids": [
+        "1.1-Q36"
+      ],
+      "reason_code": "COMPOSITE_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Sözleşme ve ihale dokümanlarında tünel; ulaşım veya iletim amacıyla, projesinde öngörülmüş güzergahı, profili ve kesiti belirlenmiş, yer altı geçişini sağlayan yapı olarak tanımlanmalıdır.",
+      "sentence_id": "1.1-S054",
+      "source_locators": [
+        "ING_0d8f102824829559a474:ING_0d8f102824829559a474_CH_a377e6d5a7:pages=1-2;canonical=corpus/canonical/objects/ING_0d8f102824829559a474/29e0ad3be8806a27157e5f700b5a13514fe7e3b03e7b76e589ccd58b9cfc8b97/chunks/embedding_ready.jsonl#L1",
+        "ING_3ed9bee7ff5641991a95:ING_3ed9bee7ff5641991a95_CH_f24c60ff10:canonical=corpus/canonical/objects/ING_3ed9bee7ff5641991a95/1f4748100a53b06a4063ff026c09580d2a064c2c9a4f65481e74089520f359d0/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_98426328d4c0993074458aaa042fc1dd783565abd648fdebf7edac67831b25a9",
+        "CLM_7031f6e1e062c50056ceee802b43d660def1de3d56de8cd27d85895573c6b670"
+      ],
+      "supporting_document_ids": [
+        "ING_0d8f102824829559a474",
+        "ING_3ed9bee7ff5641991a95"
+      ]
+    }
+  ],
+  "sentence_ids": [
+    "1.1-S049",
+    "1.1-S050",
+    "1.1-S051",
+    "1.1-S052",
+    "1.1-S053",
+    "1.1-S054"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "batch_number": 3,
+  "results": [
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_fba3b7efcccf194671121f7739e84d167d205659c50b92f00f6379a60cf3d468"
+      ],
+      "paragraph_id": "1.1-P003",
+      "question_ids": [
+        "1.1-Q11"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel güzergahı seçim çalışmalarında bağlantı yolu geometrileri ve olası portal yerleri gibi geometrik unsurlar tasarımın temel girdileri arasında yer alır.",
+      "sentence_id": "1.1-S013",
+      "source_locators": [
+        "ING_752100774713db4bce1b:ING_752100774713db4bce1b_CH_e77ce3ec19:pages=14-20;canonical=corpus/canonical/objects/ING_752100774713db4bce1b/ca0e7b71bf4dec5af4e49bb43028d5db5d1141153765b3f34fa4bd34b6053db4/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_fba3b7efcccf194671121f7739e84d167d205659c50b92f00f6379a60cf3d468"
+      ],
+      "supporting_document_ids": [
+        "ING_752100774713db4bce1b"
+      ]
+    },
+    {
+      "confidence": 0.98,
+      "mapped_claim_ids": [
+        "CLM_98e7a9137aee021e887faa551b79422d03a1aa4beccf7c695132cd721499b8a2"
+      ],
+      "paragraph_id": "1.1-P004",
+      "question_ids": [
+        "1.1-Q12"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel inşaatlarında zeminle olan ilişkinin diğer mühendislik yapılarına oranla çok daha önemli olduğu açıktır ve bu nedenle zemin özelliklerinin hassas olarak belirlenmesi gerekmektedir.",
+      "sentence_id": "1.1-S014",
+      "source_locators": [
+        "ING_674564f8c6d600238ac2:ING_674564f8c6d600238ac2_CH_2ebb4d38d8:pages=30;canonical=corpus/canonical/objects/ING_674564f8c6d600238ac2/a9a20b97a266f755c31c5c7174444115808ff66c3b6bb853389bf298a3768791/chunks/embedding_ready.jsonl#L14"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_98e7a9137aee021e887faa551b79422d03a1aa4beccf7c695132cd721499b8a2"
+      ],
+      "supporting_document_ids": [
+        "ING_674564f8c6d600238ac2"
+      ]
+    },
+    {
+      "confidence": 0.98,
+      "mapped_claim_ids": [
+        "CLM_98e7a9137aee021e887faa551b79422d03a1aa4beccf7c695132cd721499b8a2"
+      ],
+      "paragraph_id": "1.1-P004",
+      "question_ids": [
+        "1.1-Q12"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Kazıya başlanmasıyla kazılan zeminin doğal dengesi bozulmakta ve yeni bir denge durumu oluşabilmesi için ortamdaki gerilme dağılımı değişmektedir.",
+      "sentence_id": "1.1-S015",
+      "source_locators": [
+        "ING_674564f8c6d600238ac2:ING_674564f8c6d600238ac2_CH_2ebb4d38d8:pages=30;canonical=corpus/canonical/objects/ING_674564f8c6d600238ac2/a9a20b97a266f755c31c5c7174444115808ff66c3b6bb853389bf298a3768791/chunks/embedding_ready.jsonl#L14"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_98e7a9137aee021e887faa551b79422d03a1aa4beccf7c695132cd721499b8a2"
+      ],
+      "supporting_document_ids": [
+        "ING_674564f8c6d600238ac2"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_3c9d15c26d90d9dd30120b6ee2cff2141866ad7fb212bc23e9d0cfab380f63b8"
+      ],
+      "paragraph_id": "1.1-P004",
+      "question_ids": [
+        "1.1-Q12"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Jeolojik koşullar, tünel projesinin fizibilitesi için belirleyici olan ve yapısal stabilite üzerinde büyük rol oynayan temel faktörlerdir.",
+      "sentence_id": "1.1-S016",
+      "source_locators": [
+        "ING_28bb46527ab1a9bdd865:ING_28bb46527ab1a9bdd865_CH_f4469364d6:pages=2;canonical=corpus/canonical/objects/ING_28bb46527ab1a9bdd865/230245a24a2ae3a7f10985f4ebd95b1221c8883461e7c2948260803fe2fffca5/chunks/embedding_ready.jsonl#L2"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_3c9d15c26d90d9dd30120b6ee2cff2141866ad7fb212bc23e9d0cfab380f63b8"
+      ],
+      "supporting_document_ids": [
+        "ING_28bb46527ab1a9bdd865"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_fba3b7efcccf194671121f7739e84d167d205659c50b92f00f6379a60cf3d468"
+      ],
+      "paragraph_id": "1.1-P004",
+      "question_ids": [
+        "1.1-Q12"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel güzergahı seçiminde jeolojik-jeoteknik koşullar ve riskler, mühendislik jeolojisi haritalama, sondajlar ve laboratuvar çalışmaları gibi araştırmalarla detaylıca incelenir.",
+      "sentence_id": "1.1-S017",
+      "source_locators": [
+        "ING_752100774713db4bce1b:ING_752100774713db4bce1b_CH_e77ce3ec19:pages=14-20;canonical=corpus/canonical/objects/ING_752100774713db4bce1b/ca0e7b71bf4dec5af4e49bb43028d5db5d1141153765b3f34fa4bd34b6053db4/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_fba3b7efcccf194671121f7739e84d167d205659c50b92f00f6379a60cf3d468"
+      ],
+      "supporting_document_ids": [
+        "ING_752100774713db4bce1b"
+      ]
+    },
+    {
+      "confidence": 0.98,
+      "mapped_claim_ids": [
+        "CLM_e42a923dd9582f0e99d47ddc84ed69e19194e36f5e621178b790ed4f912d92e6"
+      ],
+      "paragraph_id": "1.1-P005",
+      "question_ids": [
+        "1.1-Q13"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Karayolu tünelleri yapısal özellikleri nedeniyle yol güvenliğinin ön planda olduğu yol kesimleridir.",
+      "sentence_id": "1.1-S018",
+      "source_locators": [
+        "ING_1b4596736bbcf61f370b:ING_1b4596736bbcf61f370b_CH_5188dcfd01:pages=2-3;canonical=corpus/canonical/objects/ING_1b4596736bbcf61f370b/6d7495dbe27aa997b62be66a5ae402acd71c56f4393f0ab9698a1afb1d9b6afc/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_e42a923dd9582f0e99d47ddc84ed69e19194e36f5e621178b790ed4f912d92e6"
+      ],
+      "supporting_document_ids": [
+        "ING_1b4596736bbcf61f370b"
+      ]
+    }
+  ],
+  "sentence_ids": [
+    "1.1-S013",
+    "1.1-S014",
+    "1.1-S015",
+    "1.1-S016",
+    "1.1-S017",
+    "1.1-S018"
+  ]
+}

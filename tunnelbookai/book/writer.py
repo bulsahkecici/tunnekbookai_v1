@@ -258,6 +258,9 @@ def run_section_writer(
     """Write one evidence-constrained draft, with resumable Qwen batch checkpoints."""
 
     root = Path(project_root or Path(__file__).resolve().parents[2]).resolve()
+    from .freeze import is_section_frozen
+    if is_section_frozen(root, section_id):
+        raise BookEngineError("SECTION_FROZEN", f"section {section_id} is immutable while frozen")
     if batch_size < 1 or batch_size > 12:
         raise BookEngineError("INVALID_BATCH_SIZE", "writer batch size must be between 1 and 12")
     inputs = load_book_inputs(root)

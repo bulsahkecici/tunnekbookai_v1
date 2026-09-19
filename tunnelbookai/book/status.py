@@ -9,6 +9,8 @@ from tunnelbookai.canonical.paths import CanonicalContext
 from tunnelbookai.canonical.verifier import inspect_canonical
 from .inputs import BookInputs
 from .evidence_review import inspect_evidence_reviews
+from .editorial import inspect_editorial_audits
+from .freeze import inspect_freezes
 from .coverage import coverage_summary_from_counts
 from .coverage_audit import inspect_coverage_audits
 from .preparation import inspect_preparation
@@ -68,6 +70,14 @@ def build_status(inputs: BookInputs) -> dict[str, Any]:
     coverage_audits = inspect_coverage_audits(
         inputs.contract.project_root, evidence_reviews=evidence_reviews
     )
+    editorial_audits = inspect_editorial_audits(
+        inputs.contract.project_root, coverage_audits=coverage_audits
+    )
+    freezes = inspect_freezes(inputs.contract.project_root, editorial_audits=editorial_audits)
+    for frozen in freezes:
+        if section_states["DRAFTED"] > 0:
+            section_states["DRAFTED"] -= 1
+        section_states["FROZEN"] += 1
     answered = sum(int(row.get("answered") or 0) for row in coverage_audits)
     partial = sum(int(row.get("partial") or 0) for row in coverage_audits)
     not_answered = sum(int(row.get("not_answered") or 0) for row in coverage_audits)
@@ -82,10 +92,9 @@ def build_status(inputs: BookInputs) -> dict[str, Any]:
         minimum_coverage=global_policy["minimum_coverage"],
         failure_status=publication["failure_status"],
     ).to_dict()
-    blockers = [
-        "NO_FROZEN_SECTIONS",
-        "GLOBAL_QUESTION_COVERAGE_NOT_AUDITED",
-    ]
+    blockers = ["GLOBAL_QUESTION_COVERAGE_NOT_AUDITED"]
+    if len(freezes) < inputs.contract.expected_structure["question_bank_sections"]:
+        blockers.insert(0, "UNFROZEN_SECTIONS")
     if prewriting.get("status") != "COMPLETE":
         blockers.insert(0, "PREWRITING_EVIDENCE_AUDIT_INCOMPLETE")
     return {
@@ -101,7 +110,7 @@ def build_status(inputs: BookInputs) -> dict[str, Any]:
         "retrieval_index_ready": retrieval.ready and inventory.ready,
         "retrieval_index": retrieval.to_dict(),
         "section_states": section_states,
-        "frozen_count": 0,
+        "frozen_count": len(freezes),
         "required_heading_count": inputs.contract.expected_structure["structural_headings"],
         "questions_pre_audited": int(prewriting.get("questions_audited") or 0),
         "prewriting_evidence_audit": prewriting or None,
@@ -113,6 +122,9 @@ def build_status(inputs: BookInputs) -> dict[str, Any]:
         "postwriting_evidence_reviews": evidence_reviews,
         "section_coverage_audit_count": len(coverage_audits),
         "section_coverage_audits": coverage_audits,
+        "section_editorial_audit_count": len(editorial_audits),
+        "section_editorial_audits": editorial_audits,
+        "active_freezes": freezes,
         "final_questions_audited": answered + partial + not_answered,
         "final_question_coverage": final_coverage,
         "publication_eligible": False,

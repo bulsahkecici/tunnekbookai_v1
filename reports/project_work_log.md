@@ -449,3 +449,153 @@ olarak kullanılmalıdır.
   empty-reset auditinde veya başka runtime artifact'inde beklenmeyen çalışma ağacı değişikliği
   yok. Sıradaki işlem bu üç dokümantasyon dosyasını ayrı commit olarak kaydedip
   `origin/main` dalına göndermektir.
+
+### 2026-09-18 — Kitap üretim aşaması durum kontrolü
+
+- Amaç: projenin kitap yazımına geçip geçmediğini ve sıradaki gerçek üretim adımını mevcut
+  artifactler üzerinden doğrulamak.
+- `python -m tunnelbookai.book status --json`, son Git durumu ve kitap üretim raporları
+  incelendi; herhangi bir corpus, taslak veya audit verisi değiştirilmedi.
+- Doğrulanan durum: canonical corpus **656 belge / 30.926 chunk** ile hazır; retrieval indexi
+  **30.332 vektör** ile hazır; **2.950 / 2.950 soru** yazım öncesi denetlenmiş ve **59 / 59
+  bölüm** için kanıt paketi hazırlanmıştır.
+- Kitap yazımına kontrollü pilot düzeyinde geçilmiştir: `1.1 Tünelin Tanımı` için **1 ham
+  taslak**, **105 cümle** ve **1.794 yaklaşık sözcük** bulunmaktadır. Cümle-kanıt auditinde
+  **86 SUPPORTED, 12 PARTIAL, 4 UNSUPPORTED, 3 NON_FACTUAL_OR_EDITORIAL** sonucu alınmış;
+  **16 maddi düzeltme adayı** nedeniyle bölüm `AUDIT_HOLD` durumundadır.
+- Soru kapsam auditi bölüm 1.1 için **32 ANSWERED / 9 PARTIAL / 9 NOT_ANSWERED** ve **%64
+  bölüm kapsamı** göstermektedir. Buna rağmen hiçbir bölüm henüz `FROZEN` değildir; global
+  yayın kapsamı **32 / 2.950 (yaklaşık %1,08)** ve publication gate `false` durumundadır.
+- Bilinen sınırlama: eski `reports/corpus_population_readiness.md` raporundaki retrieval ve
+  yazımın `NOT_IMPLEMENTED` olduğu cümlesi tarihsel readiness anını yansıtır; güncel çalışma
+  durumu için `book status` ve daha yeni kitap üretim auditleri esas alınmıştır.
+- Sonuç: kitap yazımı başlamıştır ancak toplu bölüm yazımına geçmeden önce sıradaki işlem,
+  1.1 bölümündeki 4 desteksiz ve 12 kısmi cümleyi kaldıran/daraltan, tekrarları birleştiren
+  sınırlı editoryal revizyon; ardından kanıt ve kapsam auditlerinin yeni draft hashine karşı
+  yeniden çalıştırılmasıdır.
+
+### 2026-09-18 — 1.1 sınırlı revizyon ve yeniden audit / İş kalemi 10
+
+- Amaç: `1.1 Tünelin Tanımı` pilotundaki **4 UNSUPPORTED + 12 PARTIAL** cümleyi güvenli
+  biçimde gidermek, yüksek güvenli tekrarları azaltmak ve bütün denetimleri yeni taslak
+  hashine karşı yeniden çalıştırmak.
+- `tunnelbookai.book.revision` ile `book revise --section 1.1` uygulandı. Akış eski taslağı
+  yerinde değiştirmeden content-addressed yeni taslak üretir; yalnız `PARTIAL` ve
+  `UNSUPPORTED` cümleleri çıkarır, ortak canonical claim taşıyan ve normalize metin
+  benzerliği en az **0,75** olan tekrarları birleştirir. Yeni olgusal metin üretmez ve
+  sözleşmedeki en fazla **2 revizyon** sınırını uygular.
+- Birinci revizyon `DRF_f557834ec4ff065ffa96d196023ddeaa1bb68f83e6066d0a75c812247421ad6c`:
+  **105 → 84 cümle**, **35 → 32 paragraf**; **16 kanıt sorunlu cümle çıkarıldı**, **5
+  yüksek güvenli tekrar birleştirildi**. Kaynak cümle kararları
+  `revision_actions.jsonl` içinde korunmuştur.
+- Birinci revizyonun bağımsız Qwen kanıt auditi
+  `PSE_9f9e7d3e019e6e50d042b8bbb494745cf5c21f1b4a50d3008ed638e302718935` sonucunda
+  **69 SUPPORTED, 3 NON_FACTUAL_OR_EDITORIAL, 10 PARTIAL, 2 UNSUPPORTED** ve
+  `REVISION_REQUIRED` kararı verdi. Aynı cümlelerin yeni bağlamda daha katı
+  değerlendirilmesi nedeniyle ikinci ve son sözleşmeli revizyon uygulandı.
+- İkinci revizyon `DRF_5fd4a263652723f929c49b4d69d572f882447a1def053112edec5cd874e1c2dc`:
+  **84 → 72 cümle**, **32 → 30 paragraf**; kalan **12 kanıt sorunlu cümle çıkarıldı**.
+  Nihai metin yaklaşık **1.245 sözcük**, 45 kullanılan claim ve 37 bağlı yazılabilir soru
+  içeriyor. İlk 1.794 sözcüklük ham taslağa göre yaklaşık **%31** daraltıldı.
+- Nihai kanıt auditi küçük bağlamlı **6 cümlelik batchler** ile çalıştırıldı.
+  `PSE_a79b27b5edc2a019234d902e0aa7bb2e4fbacda729bc1769eb7589db5bc88276` sonucu:
+  **69 SUPPORTED, 3 NON_FACTUAL_OR_EDITORIAL, 0 PARTIAL, 0 UNSUPPORTED**;
+  maddi sorun **0**, karar **PASS**.
+- Yeni 50 soruluk kapsam auditi
+  `QCA_0c709eb13c2fe03c53fad18343196354b5da6ad468a6ac44d822594612803421` sonucu:
+  **34 ANSWERED, 3 PARTIAL, 13 NOT_ANSWERED**, bölüm kapsamı **%68** ve karar **PASS**.
+  Önceki **32 ANSWERED / %64** sonucuna göre kanıt sorunları kaldırılırken kapsam azalmadı.
+- Yerel model doğrulaması: `qwen/qwen3.8-27b` `AVAILABLE`; BGE-M3 `AVAILABLE`, kararlı
+  **1.024** boyutlu vektör. Terminal sandboxı localhost erişimini engellediği için model
+  auditleri kullanıcı onaylı sandbox dışı yerel bağlantıyla çalıştırıldı; harici servis veya
+  model fallback kullanılmadı.
+- Doğrulama: aktif draft manifesti ve sentence map **2/2**, postwriting sonuçları **72/72**
+  JSON şemasından geçti; kapsam sonuçları **50/50** `QuestionCoverageResult` modeliyle
+  doğrulandı; hash zinciri temiz. Book testleri **37/37**, canonical testleri **30/30**
+  geçti; mimari isolation gate `GO`, `git diff --check` temiz.
+- Doğrulama sırasında canonical sentetik fixture'ının güncel altı desteklenen script yerine
+  dört script oluşturduğu bulundu. Fixture `SUPPORTED_SCRIPTS` otoritesini doğrudan
+  kullanacak biçimde düzeltildi; üretim davranışı değiştirilmedi.
+- Sonuç: 1.1 artık `AUDIT_HOLD` değildir; aktif durum `DRAFTED=1`, kanıt ve bölüm kapsam
+  kapıları geçmiştir. Bilinen sınır: ayrı `editorial-audit` ve `freeze` sözleşmeleri henüz
+  `NOT_IMPLEMENTED`; bu nedenle bölüm henüz `FROZEN` veya yayınlanabilir değildir.
+- Sıradaki önerilen işlem: ayrı editoryal audit sözleşmesini uygulamak, 1.1 metninin dil,
+  yapı ve bölüm odağı kontrolünü tamamlamak; ardından section freeze kapısını geliştirmektir.
+
+### 2026-09-18 — 1.1 editoryal audit ve hash doğrulamalı freeze / İş kalemi 11
+
+- Amaç: kanıt ve kapsam kapılarını geçen 1.1 pilotuna ayrı editoryal audit uygulamak ve
+  Book Contract'taki yedi koşulun tamamını sağlayan immutable bölüm snapshotı üretmek.
+- `tunnelbookai.book.editorial` ve `book editorial-audit --section 1.1` uygulandı.
+  Deterministik hard gate; draft ile sentence-map'in birebir eşleşmesini, cümle/paragraf ID
+  bütünlüğünü, Unicode bozulmasını, tamamlanmamış prose satırlarını, tam paragraf/cümle
+  tekrarını ve ardışık kelime tekrarını kontrol ediyor. Yerel Qwen'in kronoloji,
+  adlandırma, dil, sentez ve yapı bulguları ayrı ve danışman nitelikli tutuluyor.
+- Editoryal audit kimliği:
+  `EDA_cddaeef4ae30bd096ac1dd7840cd04627a941165e50b1a782e60ad0266ea49ee`.
+  Deterministik karar **PASS**, hard blocker **0**. Qwen danışman sonucu `HOLD` ve 8 öneri
+  oldu. Dört öneri bir kelimeyi aynı yazımla değiştirmeyi istedi; bir öneri dış terminoloji
+  bilgisiyle teknik terim düzeltmeye çalıştı. Bu beş öneri talimata aykırı/geçersiz sayıldı.
+  `M.Ö./MÖ` tutarlılığı ve iki tematik tekrar gözlemi danışman notu olarak korundu; otomatik
+  metin değişikliği yapılmadı. Değerlendirme:
+  `reports/editorial_advisory_assessment_1_1.md`.
+- Model değerlendirmesinin öznel ve kısmen hatalı önerilerinin evidence-valid bölümü tek
+  başına reddetmemesi için tarihsel olarak doğrulanmış
+  `MODEL_EDITORIAL_ADVISORY_DETERMINISTIC_HARD_GATE_V1` ayrımı uygulandı. Qwen çıktısı
+  silinmedi veya daha iyi görünmesi için yeniden yazılmadı; audit artifactinde aynen korundu.
+- `tunnelbookai.book.freeze` ve `book freeze --section 1.1` uygulandı. Sözleşmedeki
+  `SCOPE_VALIDATION_PASS`, `EVIDENCE_AUDIT_PASS`,
+  `NO_MATERIAL_UNSUPPORTED_TECHNICAL_CLAIMS`, `QUESTION_COVERAGE_AUDIT_COMPLETE`,
+  `EDITORIAL_AUDIT_PASS`, `CITATION_PROVENANCE_INTEGRITY_PASS` ve
+  `REQUIRED_ANALYSIS_ARTIFACTS_SATISFIED` koşullarının **7/7'si PASS** oldu.
+- Citation integrity bağımsız olarak **72 cümle / 60 kayıtlı claim** üzerinde yeniden
+  kuruldu; sentence-map, supporting claim, document ve locator uyuşmazlığı **0**. 1.1
+  packetinde gerekli insan/proje analizi artifacti beyan edilmediği için analiz durumu
+  `NOT_REQUIRED` olarak kaydedildi; modelin proje bulgusu icat etme izni değişmedi.
+- Freeze kimliği:
+  `FRZ_4dd8d6380b13550255134497383224e8c68535a62d1c7b6b3be32b50b29c51c4`.
+  Snapshot; bölüm Markdown'ı, sentence map, kanıt sonuçları, kapsam sonuçları, editoryal
+  sonuç, claim registry ve evidence packet olmak üzere **7 salt-okunur artifact** içeriyor.
+  Manifest ve bütün artifact SHA-256 değerleri doğrulandı; tekrar freeze aynı kimlik ve
+  manifest hashini vererek idempotent çalıştı.
+- Frozen bölümde yeni `write` ve `revise` denemeleri `SECTION_FROZEN` ile fail-closed
+  engellendi. `book status` artık **FROZEN=1, DRAFTED=0, AUDIT_HOLD=0** ve frozen count 1
+  gösteriyor. Global yayın hâlâ kapalıdır: kalan bölümler frozen değil ve 2.950 soruluk
+  global kapsam auditi tamamlanmadı.
+- Yeni şemalar: `editorial_audit_result.schema.json` ve
+  `section_freeze_manifest.schema.json`; gerçek artifactler **2/2 şema** ve **7/7 hash**
+  doğrulamasından geçti.
+- Testler: book **42/42**, canonical **30/30**, dashboard **11 geçti + 1 atlandı**;
+  mimari isolation gate `GO`, `git diff --check` temiz.
+- Sonuç: **İş kalemi 11 tamamlandı.** 1.1 bölümü ilk doğrulanmış frozen pilot bölümdür.
+  Sıradaki önerilen işlem, 16 `READY_WITH_LIMITATIONS` bölüm arasından kanıt oranı ve bölüm
+  önceliğine göre sıradaki pilotu seçmek; aynı write → evidence → coverage → editorial →
+  freeze zincirini uygulamaktır. 42 `EVIDENCE_GAP` bölüm için önce corpus takviyesi gerekir.
+
+### 2026-09-18 — Sıradaki pilot bölümün seçilmesi / İş kalemi 12
+
+- Amaç: frozen 1.1 pilotundan sonra aynı üretim zincirinin uygulanacağı bölümü, mevcut
+  evidence durumuna dayalı ve yeniden üretilebilir bir yöntemle seçmek.
+- Aktif `SPM_d05b2282c795b17740b6d4c2089e73febc088f49987fe64e6d60b383efe01276`
+  preparation manifestindeki `READY_WITH_LIMITATIONS` bölümler incelendi. Frozen 1.1
+  çıkarılınca **16 aday** kaldı; yeni veri, claim veya chunk üretilmedi.
+- Sıralama ölçütleri sırasıyla `UNSUPPORTED` artan, `SUPPORTED` azalan,
+  `SUPPORTED + PARTIAL` azalan, toplam claim azalan ve bölüm kimliği artan olarak
+  sabitlendi. Sonuçlar
+  `audit/book/pilot_selection/NPS_bc29d114d042439be93d2427752264127766e2fcaf1cf799dc621e7f5f7d3abf/selection.json`
+  içinde; insan özeti `reports/next_pilot_selection.md` içinde kaydedildi.
+- **1.4 — En İyi Tünel Mühendislik Uygulamaları** seçildi: 20 `SUPPORTED`, 22 `PARTIAL`,
+  8 `UNSUPPORTED`, toplam 42 yazılabilir evidence kaydı ve 84 claim. İkinci sıradaki 2.4
+  aynı 8 unsupported ve 42 yazılabilir kayda sahipti; 1.4 daha fazla doğrudan supported
+  claim taşıdığı için eşitliği kazandı.
+- Doğrulama: seçim auditindeki **16/16 aday** aktif preparation manifestine karşı bölüm
+  kimliği, başlık, evidence sayıları ve claim sayısı bakımından yeniden doğrulandı;
+  kaynak manifest SHA-256 değerleri kaydedildi. JSON sözdizimi ve seçim sırası geçerli,
+  `git diff --check` temiz.
+- Bilinen sınır: seçim mevcut evidence sınıflarının anlık görüntüsüdür; corpus veya
+  preparation manifesti değişirse yeniden çalıştırılmalıdır. `PARTIAL` kayıtlar yalnızca
+  kanıtlanan alt kapsamla kullanılabilir. Bu işlem semantik arama değildir ve bölüm metni,
+  post-writing audit ya da freeze üretmemiştir.
+- Sonuç: **İş kalemi 12 tamamlandı.** Sıradaki önerilen işlem 1.4 için
+  `book write --section 1.4 --batch-size 8` çalıştırmak; ardından evidence → gerekiyorsa
+  revizyon → coverage → editorial → freeze zincirini uygulamaktır.

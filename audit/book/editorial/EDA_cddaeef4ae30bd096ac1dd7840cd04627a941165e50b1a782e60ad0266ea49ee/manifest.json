@@ -1,0 +1,31 @@
+{
+  "advisory_action_count": 8,
+  "audit_decision": "PASS",
+  "audit_id": "EDA_cddaeef4ae30bd096ac1dd7840cd04627a941165e50b1a782e60ad0266ea49ee",
+  "contract_version": "editorial-audit-v1",
+  "hard_blocker_count": 0,
+  "identity": {
+    "coverage_audit_id": "QCA_0c709eb13c2fe03c53fad18343196354b5da6ad468a6ac44d822594612803421",
+    "coverage_results_sha256": "7cc0ce994fb482f3a9498aefd3de7c515a443add81887bdd586d163a9d99a8c7",
+    "draft_id": "DRF_5fd4a263652723f929c49b4d69d572f882447a1def053112edec5cd874e1c2dc",
+    "draft_sha256": "fe94611c79241b90e5ff27d3304aa2fb01027c585eece79d64844f0f3d7a4317",
+    "evidence_review_id": "PSE_a79b27b5edc2a019234d902e0aa7bb2e4fbacda729bc1769eb7589db5bc88276",
+    "evidence_review_sha256": "ac185924889fa42cbb092553ee2adc8dddb5d6f6db66dc09b6d47ef2a9b2c024",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "model_id": "qwen/qwen3.8-27b",
+    "policy": "MODEL_EDITORIAL_ADVISORY_DETERMINISTIC_HARD_GATE_V1",
+    "prompt_version": "qwen-editorial-advisory-v1",
+    "section_id": "1.1",
+    "sentence_map_sha256": "9dd31231100370728fc5a28cb90d90fd6ad666fae083481f3577613934d80317",
+    "software_version": "editorial-audit-v1"
+  },
+  "model_decision": "HOLD",
+  "policy": "MODEL_EDITORIAL_ADVISORY_DETERMINISTIC_HARD_GATE_V1",
+  "result_path": "audit/book/editorial/EDA_cddaeef4ae30bd096ac1dd7840cd04627a941165e50b1a782e60ad0266ea49ee/result.json",
+  "result_sha256": "4d2481e7f779af5b357d4422e6914ca8b96468bd555ee1aeab0da34c9f82422f",
+  "schema_version": "1.0",
+  "section_id": "1.1",
+  "stage": "EDITORIAL_AUDIT",
+  "status": "COMPLETE",
+  "updated_at": "2026-09-18T20:35:36+00:00"
+}

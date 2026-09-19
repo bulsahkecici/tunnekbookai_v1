@@ -642,16 +642,47 @@ Bölümün 50 dondurulmuş sorusunu gerçek cümle spanları ve kabul edilen cla
 `ANSWERED`, `PARTIAL` veya `NOT_ANSWERED` olarak denetler. Yalnızca `ANSWERED` yayın
 kapsamına sayılır.
 
-### Henüz uygulanmamış komutlar
+### Kanıt sorunlu taslağı sınırlı revize etme
+
+```bash
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book revise --section 1.1
+```
+
+Yalnız aktif taslağın tamamlanmış cümle-kanıt auditi `REVISION_REQUIRED` olduğunda çalışır.
+`PARTIAL` ve `UNSUPPORTED` cümleleri çıkarır; yalnız ortak canonical claim taşıyan yüksek
+benzerlikli tekrarları birleştirir. Yeni bilgi veya yedek kaynak üretmez. Önceki taslağı
+değiştirmeden yeni content-addressed taslak oluşturur, en fazla iki revizyon sınırını uygular
+ve yeni taslağı tekrar `evidence-review` ile `coverage-audit` çalıştırılana kadar unaudited
+tutar.
+
+### Editoryal audit
 
 ```bash
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book editorial-audit --section 1.1
+```
+
+Metni ve sentence map'i deterministik editoryal hard gate ile doğrular; ayrıca yerel Qwen'in
+kronoloji, adlandırma, dil ve yapı bulgularını danışman kayıt olarak saklar. Qwen bulguları
+harici bilgiyle düzeltme yapamaz ve tek başına freeze'i engelleyemez.
+
+### Bölümü dondurma
+
+```bash
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book freeze --section 1.1
+```
+
+Kanıt, maddi iddia, kapsam, editoryal, citation provenance ve analiz artifact kapılarının
+tamamını doğrular. Geçerse bölüm ve bağlı artifactlerin content-addressed, salt okunur
+snapshotını üretir. Frozen bölümde `write` ve `revise` fail-closed engellenir.
+
+### Henüz uygulanmamış komut
+
+```bash
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book assemble
 ```
 
-Bu üç komut CLI'da gelecekteki sözleşme yerleri olarak bulunur; güncel sürümde yapılandırılmış
-`NOT_IMPLEMENTED` sonucu ve sıfırdan farklı çıkış kodu verir. Sahte artifact üretmez.
+`assemble` CLI'da gelecekteki sözleşme yeri olarak bulunur; güncel sürümde yapılandırılmış
+`NOT_IMPLEMENTED` sonucu ve sıfırdan farklı çıkış kodu verir. Sahte kitap artifacti üretmez.
 
 ## 10. Mimari ve bootstrap kontrolleri
 
@@ -873,8 +904,8 @@ gösterir. Population batch çalışması öncesinde boş alan kontrolü önemli
 8. `population readiness` ile corpus aktarımının tamamlandığını doğrula.
 9. Canonical digest değiştiyse `book build-index` çalıştır ve `retrieval_benchmark.py` ile
    aramayı test et.
-10. Kitap aşamalarını `evidence-audit → prepare → write → evidence-review → coverage-audit`
-    sırasıyla yürüt.
+10. Kitap aşamalarını `evidence-audit → prepare → write → evidence-review → gerekirse revise
+    → evidence-review → coverage-audit → editorial-audit → freeze` sırasıyla yürüt.
 11. Her anlamlı işlemden sonra `reports/project_work_log.md` dosyasına sonucu, artifact'i,
     doğrulamayı ve bilinen sınırlamaları ekle.
 
@@ -890,4 +921,4 @@ gösterir. Population batch çalışması öncesinde boş alan kontrolü önemli
 - Qwen veya BGE-M3 kullanılamıyorsa başka modele sessiz geçiş yapılmaz.
 - `reset_legacy_state.py`, dolu production repository'sini sıfırlamaz; yalnızca tarihsel
   empty-reset koşulunu doğrular ve normal işletimde çalıştırılmaz.
-- `editorial-audit`, `freeze` ve `assemble` güncel sürümde tamamlanmış özellik değildir.
+- `assemble` güncel sürümde tamamlanmış özellik değildir.

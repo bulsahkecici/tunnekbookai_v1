@@ -1,0 +1,157 @@
+{
+  "batch_number": 4,
+  "results": [
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_e42a923dd9582f0e99d47ddc84ed69e19194e36f5e621178b790ed4f912d92e6"
+      ],
+      "paragraph_id": "1.1-P005",
+      "question_ids": [
+        "1.1-Q13"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Yeni inşa edilen tünellerin işletmesini kolaylaştıran ve güvenliklerini artıran yeni teknolojik sistemler geliştirilmiştir.",
+      "sentence_id": "1.1-S019",
+      "source_locators": [
+        "ING_1b4596736bbcf61f370b:ING_1b4596736bbcf61f370b_CH_5188dcfd01:pages=2-3;canonical=corpus/canonical/objects/ING_1b4596736bbcf61f370b/6d7495dbe27aa997b62be66a5ae402acd71c56f4393f0ab9698a1afb1d9b6afc/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_e42a923dd9582f0e99d47ddc84ed69e19194e36f5e621178b790ed4f912d92e6"
+      ],
+      "supporting_document_ids": [
+        "ING_1b4596736bbcf61f370b"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_e42a923dd9582f0e99d47ddc84ed69e19194e36f5e621178b790ed4f912d92e6"
+      ],
+      "paragraph_id": "1.1-P005",
+      "question_ids": [
+        "1.1-Q13"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Buna rağmen bazı tünellerde güvenlik ve sürücü davranışları açısından hâlâ farklı problemler mevcuttur ve bu problemler detaylı olarak incelenmiştir.",
+      "sentence_id": "1.1-S020",
+      "source_locators": [
+        "ING_1b4596736bbcf61f370b:ING_1b4596736bbcf61f370b_CH_5188dcfd01:pages=2-3;canonical=corpus/canonical/objects/ING_1b4596736bbcf61f370b/6d7495dbe27aa997b62be66a5ae402acd71c56f4393f0ab9698a1afb1d9b6afc/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_e42a923dd9582f0e99d47ddc84ed69e19194e36f5e621178b790ed4f912d92e6"
+      ],
+      "supporting_document_ids": [
+        "ING_1b4596736bbcf61f370b"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "paragraph_id": "1.1-P005",
+      "question_ids": [
+        "1.1-Q13"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Risk analizi, gereken durumlarda işlevsel olarak tünel işletmesinden sorumlu yönetim biriminden bağımsız bir kuruluş tarafından yürütülür.",
+      "sentence_id": "1.1-S021",
+      "source_locators": [
+        "ING_1c8cf251c81e8ae5e70c:ING_1c8cf251c81e8ae5e70c_CH_14829f0fcb:pages=16;canonical=corpus/canonical/objects/ING_1c8cf251c81e8ae5e70c/2894a12f8ee25c479266c072b7a54f8a4060edc370206c1a9d573bfa6e23e904/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_c40e4fbdbf7f2ed49b6778a72a0743f81c8acafac6230d827697c8207f75c2f9"
+      ],
+      "supporting_document_ids": [
+        "ING_1c8cf251c81e8ae5e70c"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_fba3b7efcccf194671121f7739e84d167d205659c50b92f00f6379a60cf3d468"
+      ],
+      "paragraph_id": "1.1-P006",
+      "question_ids": [
+        "1.1-Q14"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel güzergahı seçim çalışmalarında yapım ve işletme koşulları, jeolojik-jeoteknik koşullar ve iklimsel parametrelerle birlikte değerlendirilen temel kriterlerdendir.",
+      "sentence_id": "1.1-S022",
+      "source_locators": [
+        "ING_752100774713db4bce1b:ING_752100774713db4bce1b_CH_e77ce3ec19:pages=14-20;canonical=corpus/canonical/objects/ING_752100774713db4bce1b/ca0e7b71bf4dec5af4e49bb43028d5db5d1141153765b3f34fa4bd34b6053db4/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_fba3b7efcccf194671121f7739e84d167d205659c50b92f00f6379a60cf3d468"
+      ],
+      "supporting_document_ids": [
+        "ING_752100774713db4bce1b"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_c9c0d3b54e2e0975677186ca2e95929b2aecd627555c00aa55382303096eb9ed"
+      ],
+      "paragraph_id": "1.1-P006",
+      "question_ids": [
+        "1.1-Q14"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Yüksek yarma kesitlerde, birimlerin jeomekanik özelliklerine bağlı olarak imalat ve işletme koşullarında oluşabilecek stabilite sorunları potansiyeli, tünel inşasının gerekçeleri arasında sayılır.",
+      "sentence_id": "1.1-S023",
+      "source_locators": [
+        "ING_752100774713db4bce1b:ING_752100774713db4bce1b_CH_85e1bd4af9:pages=7-13;canonical=corpus/canonical/objects/ING_752100774713db4bce1b/ca0e7b71bf4dec5af4e49bb43028d5db5d1141153765b3f34fa4bd34b6053db4/chunks/embedding_ready.jsonl#L2"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_c9c0d3b54e2e0975677186ca2e95929b2aecd627555c00aa55382303096eb9ed"
+      ],
+      "supporting_document_ids": [
+        "ING_752100774713db4bce1b"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_9b8efd965e1ed27fbb36eecb1ac161214241ff315dfa9e7e3c86b9578d3c8d93"
+      ],
+      "paragraph_id": "1.1-P006",
+      "question_ids": [
+        "1.1-Q14"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "İşletme ve bakım faaliyetlerinin profesyonel ve yapılandırılmış planlanması, yol kullanıcılarının güvenliği ve operasyonel ekonomi gibi taleplerin karşılanması için gereklidir.",
+      "sentence_id": "1.1-S024",
+      "source_locators": [
+        "ING_77cf2eb068cd0f71b6f6:ING_77cf2eb068cd0f71b6f6_CH_372476e24b:pages=1;canonical=corpus/canonical/objects/ING_77cf2eb068cd0f71b6f6/e1a3326789798326f8c667aa1182ab4e6c4a2f27bf3259278e000e53e88c51c3/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_9b8efd965e1ed27fbb36eecb1ac161214241ff315dfa9e7e3c86b9578d3c8d93"
+      ],
+      "supporting_document_ids": [
+        "ING_77cf2eb068cd0f71b6f6"
+      ]
+    }
+  ],
+  "sentence_ids": [
+    "1.1-S019",
+    "1.1-S020",
+    "1.1-S021",
+    "1.1-S022",
+    "1.1-S023",
+    "1.1-S024"
+  ]
+}

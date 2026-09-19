@@ -1,0 +1,156 @@
+{
+  "batch_number": 11,
+  "results": [
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_49b686ae9f529cac422f943b51f39e18fdab4a1743492a63c119605c2f887ab1"
+      ],
+      "paragraph_id": "1.1-P026",
+      "question_ids": [
+        "1.1-Q42"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin gerekliliği, güzergâhın toprak kaymalarından korunması, akarsu altından geçiş veya pahalı istimlaklardan kaçınma gibi proje koşullarına bağlıdır.",
+      "sentence_id": "1.1-S061",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_e6e6be2031:pages=23-27;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_49b686ae9f529cac422f943b51f39e18fdab4a1743492a63c119605c2f887ab1"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397"
+      ]
+    },
+    {
+      "confidence": 0.98,
+      "mapped_claim_ids": [
+        "CLM_c6305feaf5f952b21e0130bf9d628c6d4e68557bb41e3c0dab50b5caa39596d9"
+      ],
+      "paragraph_id": "1.1-P027",
+      "question_ids": [
+        "1.1-Q44"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel tanımı, yapım işlevlerine göre demiryolu, karayolu, yaya yolu, akarsu ve hidrolik tüneller olarak sınıflandırılır.",
+      "sentence_id": "1.1-S062",
+      "source_locators": [
+        "ING_b011796d9570a6e89619:ING_b011796d9570a6e89619_CH_d2a8b7cc1e:canonical=corpus/canonical/objects/ING_b011796d9570a6e89619/afef36b83099133b6c9cc351451071fca73351b810c5bd494983eaaedb295afb/chunks/embedding_ready.jsonl#L48"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_c6305feaf5f952b21e0130bf9d628c6d4e68557bb41e3c0dab50b5caa39596d9"
+      ],
+      "supporting_document_ids": [
+        "ING_b011796d9570a6e89619"
+      ]
+    },
+    {
+      "confidence": 0.98,
+      "mapped_claim_ids": [
+        "CLM_c6305feaf5f952b21e0130bf9d628c6d4e68557bb41e3c0dab50b5caa39596d9"
+      ],
+      "paragraph_id": "1.1-P027",
+      "question_ids": [
+        "1.1-Q44"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel tanımı, şekillerine göre kayaç, yumuşak zeminde açılan ve su altında açılan tüneller olarak değişir.",
+      "sentence_id": "1.1-S063",
+      "source_locators": [
+        "ING_b011796d9570a6e89619:ING_b011796d9570a6e89619_CH_d2a8b7cc1e:canonical=corpus/canonical/objects/ING_b011796d9570a6e89619/afef36b83099133b6c9cc351451071fca73351b810c5bd494983eaaedb295afb/chunks/embedding_ready.jsonl#L48"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_c6305feaf5f952b21e0130bf9d628c6d4e68557bb41e3c0dab50b5caa39596d9"
+      ],
+      "supporting_document_ids": [
+        "ING_b011796d9570a6e89619"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "paragraph_id": "1.1-P028",
+      "question_ids": [
+        "1.1-Q45"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Homojen kesimler için NATM kaya destek sınıflamaları belirlenir ve destekleme sistemleri önerilir.",
+      "sentence_id": "1.1-S064",
+      "source_locators": [
+        "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_b535170db3:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L11"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "supporting_document_ids": [
+        "ING_7e795b9a47c89f5406c5"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_341458aaac0a4c2e0a2edfa16344629e6ff12aa7603d43121f8c42a5ec150bed",
+        "CLM_eb41c2e818156d32036e495d214f27d612a73b92f35eca5d94629f6e59230d07"
+      ],
+      "paragraph_id": "1.1-P029",
+      "question_ids": [
+        "1.1-Q47"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelciliğin tarihsel gelişimi, MÖ 15000'den günümüze kadar maden, nakliyat, su yolu ve ulaşım amaçlı tünellerin yapımını kapsar.",
+      "sentence_id": "1.1-S065",
+      "source_locators": [
+        "ING_9fdf7f646f2268199035:ING_9fdf7f646f2268199035_CH_e51b424f82:canonical=corpus/canonical/objects/ING_9fdf7f646f2268199035/d1c39483b7230111496248816d514b82c3c212217fe35b28bbc84634b158035b/chunks/embedding_ready.jsonl#L32",
+        "ING_e3a78fec24c25a09fd74:ING_e3a78fec24c25a09fd74_CH_8006f96bd7:pages=24;canonical=corpus/canonical/objects/ING_e3a78fec24c25a09fd74/49443009072fa93059c2a3f482a31f9622aaeeb17ce72929585ab4b6e6e85445/chunks/embedding_ready.jsonl#L42"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_341458aaac0a4c2e0a2edfa16344629e6ff12aa7603d43121f8c42a5ec150bed",
+        "CLM_eb41c2e818156d32036e495d214f27d612a73b92f35eca5d94629f6e59230d07"
+      ],
+      "supporting_document_ids": [
+        "ING_9fdf7f646f2268199035",
+        "ING_e3a78fec24c25a09fd74"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_341458aaac0a4c2e0a2edfa16344629e6ff12aa7603d43121f8c42a5ec150bed",
+        "CLM_eb41c2e818156d32036e495d214f27d612a73b92f35eca5d94629f6e59230d07"
+      ],
+      "paragraph_id": "1.1-P029",
+      "question_ids": [
+        "1.1-Q47"
+      ],
+      "reason_code": "EDITORIAL_SENTENCE",
+      "section_id": "1.1",
+      "sentence": "Tünel tanımı, tarihsel süreçte farklı amaçlar ve teknikler kullanılarak evrilmiştir.",
+      "sentence_id": "1.1-S066",
+      "source_locators": [],
+      "status": "NON_FACTUAL_OR_EDITORIAL",
+      "supporting_claim_ids": [],
+      "supporting_document_ids": []
+    }
+  ],
+  "sentence_ids": [
+    "1.1-S061",
+    "1.1-S062",
+    "1.1-S063",
+    "1.1-S064",
+    "1.1-S065",
+    "1.1-S066"
+  ]
+}

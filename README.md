@@ -109,8 +109,11 @@ PYTHONPATH=. .venv/bin/python -m tunnelbookai.book prepare --all
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book write --section 1.1 --batch-size 8
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book evidence-review \
   --section 1.1 --batch-size 12
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book revise --section 1.1
 PYTHONPATH=. .venv/bin/python -m tunnelbookai.book coverage-audit \
   --section 1.1 --batch-size 10
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book editorial-audit --section 1.1
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book freeze --section 1.1
 ```
 
 Yayın için 2.950 sorunun tamamı denetlenmeli; yalnızca `ANSWERED` sayılır ve hem en az
@@ -119,8 +122,12 @@ Canonical dışındaki ingest, processing, staging, archive veya internet içeri
 kanıtı değildir. Gerçek retrieval indexi, Qwen destekli yazım-öncesi kanıt auditi ve
 canonical-only bölüm kanıt paketleri/iddia kayıtları, sentence-to-claim haritalı yerel Qwen
 bölüm yazarı, bağımsız cümle-kanıt denetimi ve gerçek span/claim zincirli soru kapsam
-auditi uygulanmıştır. Editoryal/freeze/assembly aşamaları sözleşmeleri tamamlanana kadar
-`NOT_IMPLEMENTED` döndürür. Ham taslaklar audit geçmeden yayınlanabilir sayılmaz.
+auditi uygulanmıştır. Kanıt sorunu ve yüksek güvenli tekrarları yeni olgu üretmeden gideren,
+iki revizyonla sınırlı immutable `revise` aşaması; deterministik hard gate ile danışman Qwen
+incelemesini ayıran `editorial-audit`; yedi sözleşmeli kapıyı ve citation provenance zincirini
+doğrulayan content-addressed `freeze` aşaması da uygulanmıştır. `assemble` sözleşmesi
+tamamlanana kadar `NOT_IMPLEMENTED` döndürür. Ham taslaklar audit ve freeze geçmeden
+yayınlanabilir sayılmaz.
 Ayrıntılar için `docs/book_production_engine.md` belgesine bakın.
 
 ## Controlled canonical promotion

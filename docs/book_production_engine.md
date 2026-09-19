@@ -79,9 +79,9 @@ python -m tunnelbookai.canonical plan --document-id ING_...
 python -m tunnelbookai.canonical verify
 ```
 
-The CLI declares `editorial-audit`, `freeze` and `assemble` as future commands. Until their contracts are
-implemented, each returns structured `NOT_IMPLEMENTED` with a non-zero exit status. This
-is intentional: no placeholder artifact, fake audit or unsupported prose is created.
+The CLI declares `assemble` as a future command. Until its contract is implemented it
+returns structured `NOT_IMPLEMENTED` with a non-zero exit status. This is intentional: no
+placeholder artifact or unsupported book is created.
 
 `build-index` and `search` now implement Book Retrieval Layer V1. The index consumes only
 the independently verified canonical manifest and its admitted `embedding_ready.jsonl`
@@ -173,6 +173,40 @@ PYTHONPATH=. .venv/bin/python -m tunnelbookai.book coverage-audit \
 Machine results are under `audit/book/coverage/`; human summaries are written as
 `reports/question_coverage_<section>.md`. Partial answers never count toward coverage.
 
+`revise` performs one bounded, immutable evidence-first revision after a sentence audit
+returns `REVISION_REQUIRED`. It removes `PARTIAL` and `UNSUPPORTED` sentences instead of
+inventing replacement prose. It also merges only high-similarity repetitions that share a
+canonical claim, preserving the union of their existing question/claim provenance. The
+contract limit of two revisions is enforced, the previous draft remains write-once, and
+the new active draft is always `DRAFTED_UNAUDITED` until both downstream audits are rerun.
+
+```bash
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book revise --section 1.1
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book evidence-review --section 1.1 --batch-size 12
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book coverage-audit --section 1.1 --batch-size 10
+```
+
+`editorial-audit` runs an objective deterministic hard gate and stores a separate local-Qwen
+advisory review. The deterministic gate verifies exact draft/sentence-map agreement, ID and
+Unicode integrity, complete prose termination, and absence of exact paragraph/sentence or
+consecutive-word duplication. Qwen may report chronology, naming, language, synthesis or
+structure advice, but its subjective result cannot independently reject an evidence-valid
+section or introduce external corrections.
+
+```bash
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book editorial-audit --section 1.1
+```
+
+`freeze` independently verifies every Book Contract freeze requirement, reconstructs the
+sentence-to-claim/document/locator chain, and writes a content-addressed, read-only snapshot
+of the section, sentence map, audits, claim registry and evidence packet. Repeated execution
+is idempotent. A valid active freeze blocks both `write` and `revise`; no unfreeze operation
+exists.
+
+```bash
+PYTHONPATH=. .venv/bin/python -m tunnelbookai.book freeze --section 1.1
+```
+
 `status` is read-only. It reports book-input identities, canonical inventory, retrieval
 readiness, section counts and publication blockers. A non-empty canonical root without a
 valid manifest is `INVALID`; an empty canonical root is the valid bootstrap state `EMPTY`
@@ -180,11 +214,10 @@ but is not ready for writing.
 
 ## Recovery and resume policy
 
-Future revisions must create write-once checkpoints containing verified artifact hashes.
+Revisions create write-once, content-addressed drafts containing verified artifact hashes.
 Every edit invalidates the sentence map, evidence audit and question coverage audit; all
-must be rebuilt. A failed revision restores only the last evidence-valid checkpoint and
-verifies the restored hashes. Frozen sections are immutable until an explicit controlled
-unfreeze/revision operation exists.
+must be rebuilt. A failed revision leaves the previously active hash-verified draft intact.
+Frozen sections remain immutable because no controlled unfreeze operation exists.
 
 ## Controlled canonical promotion
 
@@ -200,8 +233,8 @@ closed. Book status consumes this same validator.
 ## Next milestone
 
 The retrieval index, benchmark, pre-writing audit and all 59 constrained section evidence
-packets/claim registries are complete. The local Qwen writer contract is implemented and
-verified with a section 1.1 pilot, and its post-writing sentence-to-claim evidence audit is
-complete. Section 1.1 also has a complete 50-question coverage audit. The next milestone is
-bounded editorial revision of evidence and repetition issues; freeze and assembly stages
-stay `NOT_IMPLEMENTED` until their contracts are implemented and verified.
+packets/claim registries are complete. The local Qwen writer, bounded revision, editorial
+audit and hash-verified freeze contracts are implemented and verified with section 1.1.
+The frozen pilot has a passing sentence-evidence audit and 34/50 answered-question coverage.
+The next milestone is to use the frozen pilot as the operating pattern for evidence-ready
+sections while remediating corpus gaps; deterministic book assembly remains `NOT_IMPLEMENTED`.

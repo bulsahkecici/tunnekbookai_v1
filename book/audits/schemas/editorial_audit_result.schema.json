@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TunnelBookAI editorial audit result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "contract_version", "section_id", "policy",
+    "deterministic_editorial_gate", "hard_blockers", "deterministic_checks",
+    "model_editorial_review", "audit_decision"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "contract_version": {"const": "editorial-audit-v1"},
+    "section_id": {"type": "string", "minLength": 1},
+    "policy": {"const": "MODEL_EDITORIAL_ADVISORY_DETERMINISTIC_HARD_GATE_V1"},
+    "deterministic_editorial_gate": {"enum": ["PASS", "HOLD"]},
+    "hard_blockers": {"type": "array", "items": {"type": "string"}},
+    "deterministic_checks": {"type": "object", "additionalProperties": {"type": "boolean"}},
+    "model_editorial_review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "decision", "chronology_issues", "naming_ambiguities", "language_issues",
+        "overgeneralizations", "structure_issues", "required_actions"
+      ],
+      "properties": {
+        "decision": {"enum": ["PASS", "HOLD"]},
+        "chronology_issues": {"type": "array", "items": {"type": "string"}},
+        "naming_ambiguities": {"type": "array", "items": {"type": "string"}},
+        "language_issues": {"type": "array", "items": {"type": "string"}},
+        "overgeneralizations": {"type": "array", "items": {"type": "string"}},
+        "structure_issues": {"type": "array", "items": {"type": "string"}},
+        "required_actions": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "audit_decision": {"enum": ["PASS", "HOLD"]}
+  }
+}

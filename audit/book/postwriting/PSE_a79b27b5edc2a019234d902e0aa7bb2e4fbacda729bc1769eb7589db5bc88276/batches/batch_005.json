@@ -1,0 +1,165 @@
+{
+  "batch_number": 5,
+  "results": [
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_3229b57ba24d2f281223fc46f7b900ab716e3b62090143d5eb646f7cccda9b65",
+        "CLM_01119ca80f88d3006624e5c897248cecb71c688a739588d7ed33b5f23d55764e"
+      ],
+      "paragraph_id": "1.1-P007",
+      "question_ids": [
+        "1.1-Q15"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel işletme yöneticisi, koruyucu ve düzeltici bakım faaliyetleri için uygun bakım programlarını hazırlamalıdır.",
+      "sentence_id": "1.1-S025",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_9e177595b8:pages=339-340;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L143",
+        "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_3e85fad643:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L141"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_3229b57ba24d2f281223fc46f7b900ab716e3b62090143d5eb646f7cccda9b65",
+        "CLM_01119ca80f88d3006624e5c897248cecb71c688a739588d7ed33b5f23d55764e"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397",
+        "ING_1fb6b71a35f819248daf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_3229b57ba24d2f281223fc46f7b900ab716e3b62090143d5eb646f7cccda9b65",
+        "CLM_01119ca80f88d3006624e5c897248cecb71c688a739588d7ed33b5f23d55764e"
+      ],
+      "paragraph_id": "1.1-P007",
+      "question_ids": [
+        "1.1-Q15"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Bu programlar hazırlanırken maliyet ve güvenlik arasında denge kurulması esastır.",
+      "sentence_id": "1.1-S026",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_9e177595b8:pages=339-340;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L143",
+        "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_3e85fad643:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L141"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_3229b57ba24d2f281223fc46f7b900ab716e3b62090143d5eb646f7cccda9b65",
+        "CLM_01119ca80f88d3006624e5c897248cecb71c688a739588d7ed33b5f23d55764e"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397",
+        "ING_1fb6b71a35f819248daf"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_9b8efd965e1ed27fbb36eecb1ac161214241ff315dfa9e7e3c86b9578d3c8d93"
+      ],
+      "paragraph_id": "1.1-P007",
+      "question_ids": [
+        "1.1-Q15"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Operasyonel bakımın genel amacı, çevresel olumsuz etki yaratmadan ve optimal harcama düzeyiyle belirli bir güvenlik seviyesini sürdürmektir.",
+      "sentence_id": "1.1-S027",
+      "source_locators": [
+        "ING_77cf2eb068cd0f71b6f6:ING_77cf2eb068cd0f71b6f6_CH_372476e24b:pages=1;canonical=corpus/canonical/objects/ING_77cf2eb068cd0f71b6f6/e1a3326789798326f8c667aa1182ab4e6c4a2f27bf3259278e000e53e88c51c3/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_9b8efd965e1ed27fbb36eecb1ac161214241ff315dfa9e7e3c86b9578d3c8d93"
+      ],
+      "supporting_document_ids": [
+        "ING_77cf2eb068cd0f71b6f6"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_9b8efd965e1ed27fbb36eecb1ac161214241ff315dfa9e7e3c86b9578d3c8d93"
+      ],
+      "paragraph_id": "1.1-P007",
+      "question_ids": [
+        "1.1-Q15"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Bakım için ayrılan fon yetersiz kalırsa, hem hizmet seviyeleri hem de güvenlik üzerinde olumsuz bir etki oluşacaktır.",
+      "sentence_id": "1.1-S028",
+      "source_locators": [
+        "ING_77cf2eb068cd0f71b6f6:ING_77cf2eb068cd0f71b6f6_CH_372476e24b:pages=1;canonical=corpus/canonical/objects/ING_77cf2eb068cd0f71b6f6/e1a3326789798326f8c667aa1182ab4e6c4a2f27bf3259278e000e53e88c51c3/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_9b8efd965e1ed27fbb36eecb1ac161214241ff315dfa9e7e3c86b9578d3c8d93"
+      ],
+      "supporting_document_ids": [
+        "ING_77cf2eb068cd0f71b6f6"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_b253dd6a50e834424c942dab576527143b967bec74665a1481638c0c9f52e9ac"
+      ],
+      "paragraph_id": "1.1-P008",
+      "question_ids": [
+        "1.1-Q16"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Bir proje için seçilen tünel yapım yöntemi, çeşitli faktörlere bağlıdır.",
+      "sentence_id": "1.1-S029",
+      "source_locators": [
+        "ING_279425daaab3228f6b72:ING_279425daaab3228f6b72_CH_95242dbcc4:pages=1-3;canonical=corpus/canonical/objects/ING_279425daaab3228f6b72/a57c2158caf9cd17d882372bbc2fed50af0128bde301549955b5870f911b6ae3/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_b253dd6a50e834424c942dab576527143b967bec74665a1481638c0c9f52e9ac"
+      ],
+      "supporting_document_ids": [
+        "ING_279425daaab3228f6b72"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_29980a953a06a22010695c1cc7df9ad9997d56e894fb9a7eac44bc49250b5011"
+      ],
+      "paragraph_id": "1.1-P008",
+      "question_ids": [
+        "1.1-Q16"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Yapım yönteminin seçimi, zemin türü, çevresel etki ve bakım maliyetleri gibi unsurları dikkate almalıdır.",
+      "sentence_id": "1.1-S030",
+      "source_locators": [
+        "ING_2842db8bbc71f7e687e9:ING_2842db8bbc71f7e687e9_CH_5e35fe58c6:pages=3-4;canonical=corpus/canonical/objects/ING_2842db8bbc71f7e687e9/ab915c866a9dcea9c5fa81e53f2c993cd38bb8f5521e60b6bec2f1e3e2016994/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_29980a953a06a22010695c1cc7df9ad9997d56e894fb9a7eac44bc49250b5011"
+      ],
+      "supporting_document_ids": [
+        "ING_2842db8bbc71f7e687e9"
+      ]
+    }
+  ],
+  "sentence_ids": [
+    "1.1-S025",
+    "1.1-S026",
+    "1.1-S027",
+    "1.1-S028",
+    "1.1-S029",
+    "1.1-S030"
+  ]
+}

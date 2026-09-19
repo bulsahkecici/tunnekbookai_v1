@@ -1,0 +1,165 @@
+{
+  "batch_number": 2,
+  "results": [
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_fe28b6811975b01bf9d80552808c35ffb32167a00e70db0f16edc213c2f638cd"
+      ],
+      "paragraph_id": "1.1-P001",
+      "question_ids": [
+        "1.1-Q09"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel inşası, doğal yapıyı bozmamak, pahalı istimlaklardan kaçınmak veya doğal engelleri aşmak gibi stratejik amaçlara hizmet eder.",
+      "sentence_id": "1.1-S007",
+      "source_locators": [
+        "ING_1fb6b71a35f819248daf:ING_1fb6b71a35f819248daf_CH_b82e9c650c:canonical=corpus/canonical/objects/ING_1fb6b71a35f819248daf/9a9258474a901a3d98150f402030d7f7cf5625a05d9d649dbdf5f19b0f013088/chunks/embedding_ready.jsonl#L7"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_fe28b6811975b01bf9d80552808c35ffb32167a00e70db0f16edc213c2f638cd"
+      ],
+      "supporting_document_ids": [
+        "ING_1fb6b71a35f819248daf"
+      ]
+    },
+    {
+      "confidence": 0.98,
+      "mapped_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e"
+      ],
+      "paragraph_id": "1.1-P002",
+      "question_ids": [
+        "1.1-Q10"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı değerlendirilirken, yeraltı kaya yapısının yerkabuğu içinde açılan boşluğu çevreleyen ana kayadan oluştuğu ve mühendislik açısından yeterli ve güvenli taşıyıcı sistemler oluşturduğu dikkate alınır.",
+      "sentence_id": "1.1-S008",
+      "source_locators": [
+        "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_b535170db3:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L11",
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_9298d2989f:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L6"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e"
+      ],
+      "supporting_document_ids": [
+        "ING_7e795b9a47c89f5406c5",
+        "ING_2005c18d2148fb921826"
+      ]
+    },
+    {
+      "confidence": 0.98,
+      "mapped_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e"
+      ],
+      "paragraph_id": "1.1-P002",
+      "question_ids": [
+        "1.1-Q10"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Bu yapı, kendisini taşıyan veya olabildiğince kendisini taşımaya zorlanan doğal ortamda çeşitli destekleme, sağlamlaştırma ve iyileştirme yöntemleriyle taşıyıcı kabuk sisteminin oluşturulmasını gerektirir.",
+      "sentence_id": "1.1-S009",
+      "source_locators": [
+        "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_b535170db3:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L11",
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_9298d2989f:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L6"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e",
+        "CLM_afebe7076696aba67d525743cdfbe8cfba49f75051bf93e2548bbff3477c395e"
+      ],
+      "supporting_document_ids": [
+        "ING_7e795b9a47c89f5406c5",
+        "ING_2005c18d2148fb921826"
+      ]
+    },
+    {
+      "confidence": 0.98,
+      "mapped_claim_ids": [
+        "CLM_81e8f9b19ec34da8a0fee9f2ba8c3a3f43d7fb22d5a6e195f45a5cca8ac222db"
+      ],
+      "paragraph_id": "1.1-P002",
+      "question_ids": [
+        "1.1-Q10"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin fiziksel özellikleri, çevre kayaçlarla birlikte çalışan kalıcı nitelikteki bütünleşik bir geoteknolojik sistem ve yer içi geçiş yapısı olarak ele alınır.",
+      "sentence_id": "1.1-S010",
+      "source_locators": [
+        "ING_c736114ad7d9ac29557c:ING_c736114ad7d9ac29557c_CH_952f7615f5:pages=9-13;canonical=corpus/canonical/objects/ING_c736114ad7d9ac29557c/7744ed55e644a8175f2f9544108036932ffe4bf83d5f91d408c1327b2dae6358/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_81e8f9b19ec34da8a0fee9f2ba8c3a3f43d7fb22d5a6e195f45a5cca8ac222db"
+      ],
+      "supporting_document_ids": [
+        "ING_c736114ad7d9ac29557c"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_17799c8bbf606ac08499b6410e8c69afa0a258152daf765bf983deed9a970430"
+      ],
+      "paragraph_id": "1.1-P003",
+      "question_ids": [
+        "1.1-Q11"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı açısından geometrik özellikler, kesit şeklinin yarıçap ve açı değerleri gibi parametrelerle tanımlanması üzerinden değerlendirilir.",
+      "sentence_id": "1.1-S011",
+      "source_locators": [
+        "ING_44c81917a2b146074aeb:ING_44c81917a2b146074aeb_CH_3f778c3365:pages=5;canonical=corpus/canonical/objects/ING_44c81917a2b146074aeb/8f60493777ee22c3001bbbd9a5668bf0b97af8b23ce3845ee3eac392fbe07481/chunks/embedding_ready.jsonl#L25"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_17799c8bbf606ac08499b6410e8c69afa0a258152daf765bf983deed9a970430"
+      ],
+      "supporting_document_ids": [
+        "ING_44c81917a2b146074aeb"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_17799c8bbf606ac08499b6410e8c69afa0a258152daf765bf983deed9a970430"
+      ],
+      "paragraph_id": "1.1-P003",
+      "question_ids": [
+        "1.1-Q11"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Örneğin yumurta kesitli bir tünelin geometrisi, farklı yarıçap ve açı kombinasyonları kullanılarak belirlenir.",
+      "sentence_id": "1.1-S012",
+      "source_locators": [
+        "ING_44c81917a2b146074aeb:ING_44c81917a2b146074aeb_CH_3f778c3365:pages=5;canonical=corpus/canonical/objects/ING_44c81917a2b146074aeb/8f60493777ee22c3001bbbd9a5668bf0b97af8b23ce3845ee3eac392fbe07481/chunks/embedding_ready.jsonl#L25"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_17799c8bbf606ac08499b6410e8c69afa0a258152daf765bf983deed9a970430"
+      ],
+      "supporting_document_ids": [
+        "ING_44c81917a2b146074aeb"
+      ]
+    }
+  ],
+  "sentence_ids": [
+    "1.1-S007",
+    "1.1-S008",
+    "1.1-S009",
+    "1.1-S010",
+    "1.1-S011",
+    "1.1-S012"
+  ]
+}

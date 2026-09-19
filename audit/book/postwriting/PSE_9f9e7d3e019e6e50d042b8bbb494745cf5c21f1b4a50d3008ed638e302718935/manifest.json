@@ -1,0 +1,34 @@
+{
+  "audit_decision": "REVISION_REQUIRED",
+  "audit_id": "PSE_9f9e7d3e019e6e50d042b8bbb494745cf5c21f1b4a50d3008ed638e302718935",
+  "contract_version": "postwriting-sentence-evidence-v1",
+  "counts": {
+    "NON_FACTUAL_OR_EDITORIAL": 3,
+    "PARTIAL": 10,
+    "SUPPORTED": 69,
+    "UNSUPPORTED": 2
+  },
+  "identity": {
+    "batch_size": 12,
+    "claim_registry_id": "SCR_23fbfd1d00a75631624ad88bce64b2b678403d61e66053d073d5c8237058b63c",
+    "claim_registry_sha256": "62f697d139443e0ded0666ff8d52cd3b3d01d0931c1630a87a9e3c60d3fbe738",
+    "draft_id": "DRF_f557834ec4ff065ffa96d196023ddeaa1bb68f83e6066d0a75c812247421ad6c",
+    "draft_sha256": "05fe1ec12d9e89ea3db10e195452ca7b3ffe65e8468c34d15f748ef2499753b7",
+    "model_configuration": "8de0a2f2f275368f3b75a41e64d5a6d2cbdbb54e93bea66e43c0300ad5a350e8",
+    "model_id": "qwen/qwen3.8-27b",
+    "prompt_version": "qwen-sentence-entailment-v1",
+    "section_id": "1.1",
+    "sentence_map_sha256": "8cdae9d90e945dd41a697f5b040583bf8395142fb6765740964cad935a8b5c6a",
+    "software_version": "postwriting-sentence-evidence-v2"
+  },
+  "material_issue_count": 12,
+  "results_path": "audit/book/postwriting/PSE_9f9e7d3e019e6e50d042b8bbb494745cf5c21f1b4a50d3008ed638e302718935/results.jsonl",
+  "results_sha256": "4c524a02c9be5c52f96eca0042518f7d11fb5bc38993e8dc5ec882c588782a73",
+  "schema_version": "1.0",
+  "section_id": "1.1",
+  "sentence_count": 84,
+  "sentences_audited": 84,
+  "stage": "POSTWRITING_EVIDENCE_AUDIT",
+  "status": "COMPLETE",
+  "updated_at": "2026-09-18T19:28:23+00:00"
+}

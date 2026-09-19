@@ -10,6 +10,7 @@ from tunnelbookai.ingest.chunking.policy import ChunkPolicy, chunk_id
 from tunnelbookai.ingest.chunking.tokenizer import count
 from tunnelbookai.ingest.ids import document_id_for_sha256
 from tunnelbookai.ingest.staging import BUNDLE_SHAPE, STAGING_COPY_FILES, STAGING_VERSION
+from shared.project_quality_gate import SUPPORTED_SCRIPTS
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -42,7 +43,7 @@ class SyntheticRepo:
         ):
             (self.root / relative).mkdir(parents=True, exist_ok=True)
         (self.root / "corpus/canonical/.gitkeep").touch()
-        for name in ("ingest_incoming.py", "probe_models.py", "promote_staging.py", "reset_legacy_state.py"):
+        for name in SUPPORTED_SCRIPTS:
             (self.root / "scripts" / name).touch()
         scope = json.loads((self.root / "book/scope/normalized/book_scope.json").read_text(encoding="utf-8"))
         self.section_id = str(scope["sections"][0]["section_id"])

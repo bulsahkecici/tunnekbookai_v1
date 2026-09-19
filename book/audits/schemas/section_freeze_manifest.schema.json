@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TunnelBookAI section freeze manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "contract_version", "stage", "status", "freeze_id", "identity",
+    "frozen_at", "section_id", "section_title", "freeze_checks", "analysis_artifact_state",
+    "analysis_artifact_reason", "citation_integrity", "artifacts", "sentence_count",
+    "answered", "coverage", "editorial_model_decision"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "contract_version": {"const": "section-freeze-v1"},
+    "stage": {"const": "SECTION_FREEZE"},
+    "status": {"const": "FROZEN"},
+    "freeze_id": {"type": "string", "pattern": "^FRZ_[0-9a-f]{64}$"},
+    "identity": {"type": "object"},
+    "frozen_at": {"type": "string", "minLength": 1},
+    "section_id": {"type": "string", "minLength": 1},
+    "section_title": {"type": "string", "minLength": 1},
+    "freeze_checks": {
+      "type": "object", "minProperties": 7,
+      "additionalProperties": {"const": "PASS"}
+    },
+    "analysis_artifact_state": {"enum": ["NOT_REQUIRED", "VERIFIED"]},
+    "analysis_artifact_reason": {"type": "string", "minLength": 1},
+    "citation_integrity": {
+      "type": "object",
+      "required": ["decision", "sentence_count", "claim_count", "errors"],
+      "properties": {
+        "decision": {"const": "PASS"},
+        "sentence_count": {"type": "integer", "minimum": 1},
+        "claim_count": {"type": "integer", "minimum": 1},
+        "errors": {"type": "array", "maxItems": 0}
+      }
+    },
+    "artifacts": {
+      "type": "array", "minItems": 7,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["name", "source_path", "frozen_path", "size", "sha256"],
+        "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "source_path": {"type": "string", "minLength": 1},
+          "frozen_path": {"type": "string", "minLength": 1},
+          "size": {"type": "integer", "minimum": 1},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+        }
+      }
+    },
+    "sentence_count": {"type": "integer", "minimum": 1},
+    "answered": {"type": "integer", "minimum": 0},
+    "coverage": {"type": "number", "minimum": 0, "maximum": 1},
+    "editorial_model_decision": {"enum": ["PASS", "HOLD"]}
+  }
+}

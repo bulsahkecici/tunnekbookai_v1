@@ -1,0 +1,151 @@
+{
+  "batch_number": 12,
+  "results": [
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_31a8a7f48220ddb475c9d053a967467c9690e19cf4f3acf48edfe0c2fccfffd2"
+      ],
+      "paragraph_id": "1.1-P030",
+      "question_ids": [
+        "1.1-Q48"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin sürdürülebilirlik açısından değerlendirilmesi, CEEQUAL gibi uluslararası kanıta dayalı değerlendirme ve ödül sistemleri çerçevesinde ele alınmalıdır.",
+      "sentence_id": "1.1-S067",
+      "source_locators": [
+        "ING_246054e0940d9efbe056:ING_246054e0940d9efbe056_CH_445d71626d:pages=28;canonical=corpus/canonical/objects/ING_246054e0940d9efbe056/2d583191e43a71c99571327e3b5fa03644f779693892f7b263208ee8e7c14efc/chunks/embedding_ready.jsonl#L64"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_31a8a7f48220ddb475c9d053a967467c9690e19cf4f3acf48edfe0c2fccfffd2"
+      ],
+      "supporting_document_ids": [
+        "ING_246054e0940d9efbe056"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_31a8a7f48220ddb475c9d053a967467c9690e19cf4f3acf48edfe0c2fccfffd2"
+      ],
+      "paragraph_id": "1.1-P030",
+      "question_ids": [
+        "1.1-Q48"
+      ],
+      "reason_code": "EDITORIAL_SENTENCE",
+      "section_id": "1.1",
+      "sentence": "Bu değerlendirme, projelerin performansını ölçmek ve karşılaştırmak için şeffaf bir indeks oluşturmayı hedefler.",
+      "sentence_id": "1.1-S068",
+      "source_locators": [],
+      "status": "NON_FACTUAL_OR_EDITORIAL",
+      "supporting_claim_ids": [],
+      "supporting_document_ids": []
+    },
+    {
+      "confidence": 0.98,
+      "mapped_claim_ids": [
+        "CLM_17ea146c01cb99baab33e90d283f3c946668d007dea78466d524318f5c97b1be"
+      ],
+      "paragraph_id": "1.1-P030",
+      "question_ids": [
+        "1.1-Q48"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Sürdürülebilirlik kavramının kökeni M.Ö. 300-400 yıllarına, Aristoteles'in Politi eserine kadar uzanmaktadır.",
+      "sentence_id": "1.1-S069",
+      "source_locators": [
+        "ING_7d7c44992e83c7185c41:ING_7d7c44992e83c7185c41_CH_9d95dfd0a3:pages=2-3;canonical=corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl#L2"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_17ea146c01cb99baab33e90d283f3c946668d007dea78466d524318f5c97b1be"
+      ],
+      "supporting_document_ids": [
+        "ING_7d7c44992e83c7185c41"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_d4a7ac65895394d7af25efd64d7c0bc730e4ec07f67a2a967b710d993eaaedbe"
+      ],
+      "paragraph_id": "1.1-P030",
+      "question_ids": [
+        "1.1-Q48"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Ulaşım sektörü, enerjiden kaynaklanan sera gazı üretimine %15 oranında katkı sağlamaktadır.",
+      "sentence_id": "1.1-S070",
+      "source_locators": [
+        "ING_7d7c44992e83c7185c41:ING_7d7c44992e83c7185c41_CH_751f928d57:pages=1;canonical=corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_d4a7ac65895394d7af25efd64d7c0bc730e4ec07f67a2a967b710d993eaaedbe"
+      ],
+      "supporting_document_ids": [
+        "ING_7d7c44992e83c7185c41"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_17ea146c01cb99baab33e90d283f3c946668d007dea78466d524318f5c97b1be"
+      ],
+      "paragraph_id": "1.1-P030",
+      "question_ids": [
+        "1.1-Q48"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tüneller, kar ve buzlanmadan kaynaklanan kazaları azaltarak ulaşım aksaklıklarını minimuma indirme potansiyeline sahiptir.",
+      "sentence_id": "1.1-S071",
+      "source_locators": [
+        "ING_7d7c44992e83c7185c41:ING_7d7c44992e83c7185c41_CH_9d95dfd0a3:pages=2-3;canonical=corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl#L2"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_17ea146c01cb99baab33e90d283f3c946668d007dea78466d524318f5c97b1be"
+      ],
+      "supporting_document_ids": [
+        "ING_7d7c44992e83c7185c41"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_3b9c8f80183806df9dc6da9c26b134001b8aafa9ccf3c02b6890461e368db9c7"
+      ],
+      "paragraph_id": "1.1-P030",
+      "question_ids": [
+        "1.1-Q48"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Heyelan ve taş düşmeleri gibi doğal risklere karşı alternatif güzergâh sunan tüneller, maddi ve manevi kayıpları önleyerek sürdürülebilirliğe katkıda bulunur.",
+      "sentence_id": "1.1-S072",
+      "source_locators": [
+        "ING_7d7c44992e83c7185c41:ING_7d7c44992e83c7185c41_CH_53b3aefc37:pages=13-14;canonical=corpus/canonical/objects/ING_7d7c44992e83c7185c41/dbc84723796f1291afecfc8ad43448f9bdaec3a57bf3730ad8e206ddd478e650/chunks/embedding_ready.jsonl#L6"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_3b9c8f80183806df9dc6da9c26b134001b8aafa9ccf3c02b6890461e368db9c7"
+      ],
+      "supporting_document_ids": [
+        "ING_7d7c44992e83c7185c41"
+      ]
+    }
+  ],
+  "sentence_ids": [
+    "1.1-S067",
+    "1.1-S068",
+    "1.1-S069",
+    "1.1-S070",
+    "1.1-S071",
+    "1.1-S072"
+  ]
+}

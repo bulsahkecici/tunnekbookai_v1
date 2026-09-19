@@ -1,0 +1,158 @@
+{
+  "batch_number": 1,
+  "results": [
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "paragraph_id": "1.1-P001",
+      "question_ids": [
+        "1.1-Q01",
+        "1.1-Q02",
+        "1.1-Q42"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel, yeraltında yapılacak kazı ile istenilen kesitte boşluk oluşturulması ve bu boşluğun desteklenmesi suretiyle inşa edilen yer altı yapısı olarak tanımlanır.",
+      "sentence_id": "1.1-S001",
+      "source_locators": [
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "supporting_document_ids": [
+        "ING_312befcda2ff316b7279"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "paragraph_id": "1.1-P001",
+      "question_ids": [
+        "1.1-Q01",
+        "1.1-Q02"
+      ],
+      "reason_code": "EDITORIAL_SENTENCE",
+      "section_id": "1.1",
+      "sentence": "Bu tanım, tünelin yalnızca fiziksel bir boşluk değil, aynı zamanda mühendislik müdahalesiyle stabilize edilmiş bir yapı olduğunu vurgular.",
+      "sentence_id": "1.1-S002",
+      "source_locators": [],
+      "status": "NON_FACTUAL_OR_EDITORIAL",
+      "supporting_claim_ids": [],
+      "supporting_document_ids": []
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "paragraph_id": "1.1-P001",
+      "question_ids": [
+        "1.1-Q01",
+        "1.1-Q03",
+        "1.1-Q26",
+        "1.1-Q44"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Farklı meslek grupları tüneli; yaratılan mekan, taşıyıcı kabuk sistemi, kazılması ve desteklenmesi gereken ortam veya kendini taşıyan doğal ortam olarak dört farklı boyutta temsil eder.",
+      "sentence_id": "1.1-S003",
+      "source_locators": [
+        "ING_2005c18d2148fb921826:ING_2005c18d2148fb921826_CH_d860cf25d2:pages=21;canonical=corpus/canonical/objects/ING_2005c18d2148fb921826/10ec244cf30694a527a354a382cf4676ae1d5c20351544d0150c628ba700c3c3/chunks/embedding_ready.jsonl#L193"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_873a37afb2d6b0780724656e9c5ec1d503a519a76c621f7544c68fe279892493"
+      ],
+      "supporting_document_ids": [
+        "ING_2005c18d2148fb921826"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "paragraph_id": "1.1-P001",
+      "question_ids": [
+        "1.1-Q03",
+        "1.1-Q05"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Geçici şefler oluşturularak yapının inşa edilmesi ve üzerinin veya yanlarının doldurulması şeklinde yapılan yapılar, açık kapalı tünel olarak ayrı bir alt tanım altında ele alınır.",
+      "sentence_id": "1.1-S004",
+      "source_locators": [
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "supporting_document_ids": [
+        "ING_312befcda2ff316b7279"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "paragraph_id": "1.1-P001",
+      "question_ids": [
+        "1.1-Q04"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Yüzeysel kazı, açık yarmalar ve diğer toprak işleri, tünel yapımına ait şartların kapsamı dışında tutulur.",
+      "sentence_id": "1.1-S005",
+      "source_locators": [
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "supporting_document_ids": [
+        "ING_312befcda2ff316b7279"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_c9c0d3b54e2e0975677186ca2e95929b2aecd627555c00aa55382303096eb9ed"
+      ],
+      "paragraph_id": "1.1-P001",
+      "question_ids": [
+        "1.1-Q08"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Karayolu tünel mühendisliğinde tünel, güzergahın stabilite sorunları, çevresel koruma alanları veya yoğun trafik nedeniyle açık kazı yapılamayan kesimlerde teknik ve ekonomik bir çözüm olarak değerlendirilir.",
+      "sentence_id": "1.1-S006",
+      "source_locators": [
+        "ING_752100774713db4bce1b:ING_752100774713db4bce1b_CH_85e1bd4af9:pages=7-13;canonical=corpus/canonical/objects/ING_752100774713db4bce1b/ca0e7b71bf4dec5af4e49bb43028d5db5d1141153765b3f34fa4bd34b6053db4/chunks/embedding_ready.jsonl#L2"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_c9c0d3b54e2e0975677186ca2e95929b2aecd627555c00aa55382303096eb9ed"
+      ],
+      "supporting_document_ids": [
+        "ING_752100774713db4bce1b"
+      ]
+    }
+  ],
+  "sentence_ids": [
+    "1.1-S001",
+    "1.1-S002",
+    "1.1-S003",
+    "1.1-S004",
+    "1.1-S005",
+    "1.1-S006"
+  ]
+}

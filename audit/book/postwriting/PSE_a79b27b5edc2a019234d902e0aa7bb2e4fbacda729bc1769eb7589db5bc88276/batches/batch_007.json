@@ -1,0 +1,157 @@
+{
+  "batch_number": 7,
+  "results": [
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_92f4465aa120f134d76d243ac082533663c1caec57ee1d7fc11c058f45ab3fb6"
+      ],
+      "paragraph_id": "1.1-P012",
+      "question_ids": [
+        "1.1-Q20"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel içi havalandırma sistemleri, tavan fanları gibi yapısal bileşenlerle tünelin fiziksel yapısına entegre edilir.",
+      "sentence_id": "1.1-S037",
+      "source_locators": [
+        "ING_1b4596736bbcf61f370b:ING_1b4596736bbcf61f370b_CH_a51786d0a5:pages=6;canonical=corpus/canonical/objects/ING_1b4596736bbcf61f370b/6d7495dbe27aa997b62be66a5ae402acd71c56f4393f0ab9698a1afb1d9b6afc/chunks/embedding_ready.jsonl#L20"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_92f4465aa120f134d76d243ac082533663c1caec57ee1d7fc11c058f45ab3fb6"
+      ],
+      "supporting_document_ids": [
+        "ING_1b4596736bbcf61f370b"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_9b54b92d76ac8daf141b1b11f60942952989532e8040bb8d49a70e5c054d6a77"
+      ],
+      "paragraph_id": "1.1-P013",
+      "question_ids": [
+        "1.1-Q21"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı, aydınlatma gereksinimlerini belirleyen bir çerçeve oluşturur; iyi bir tünel aydınlatması, yaklaşılan yoldaki rahatlık ve emniyetle eşdeğer trafik akışı sağlamayı hedefler.",
+      "sentence_id": "1.1-S038",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_5a99712752:pages=213-214;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L105"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_9b54b92d76ac8daf141b1b11f60942952989532e8040bb8d49a70e5c054d6a77"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_fbe9a01c9661f10b2883601e401a6bc8c8d60210e7d885b425101afa3c8652de"
+      ],
+      "paragraph_id": "1.1-P014",
+      "question_ids": [
+        "1.1-Q22"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı, su yalıtımı ve drenaj gereksinimleriyle bağlantılıdır; tünel açıldığında yeraltı suyu oluşan boşluğa yönelir ve tünel tabanına kadar drene edilir.",
+      "sentence_id": "1.1-S039",
+      "source_locators": [
+        "ING_9edbc28eb7644c0de5ff:ING_9edbc28eb7644c0de5ff_CH_a58bf5d4af:pages=1;canonical=corpus/canonical/objects/ING_9edbc28eb7644c0de5ff/74275fe7a0aea02b4981304dc1627c149c636c091db00c6229e570b8cf02da8b/chunks/embedding_ready.jsonl#L1"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_fbe9a01c9661f10b2883601e401a6bc8c8d60210e7d885b425101afa3c8652de"
+      ],
+      "supporting_document_ids": [
+        "ING_9edbc28eb7644c0de5ff"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_4ce286a41fb39b5342a1a90d1bbdfbf7095bfe743dd5b4b660752f385a694307"
+      ],
+      "paragraph_id": "1.1-P014",
+      "question_ids": [
+        "1.1-Q22"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel tabanının eğimli olması ve yan galerilerle suyun dışarı atılması, tünelin yeraltı suyu dreni gibi görev yapmasını sağlayan yapısal özelliklerdir.",
+      "sentence_id": "1.1-S040",
+      "source_locators": [
+        "ING_9edbc28eb7644c0de5ff:ING_9edbc28eb7644c0de5ff_CH_12b9bbd4c6:pages=2;canonical=corpus/canonical/objects/ING_9edbc28eb7644c0de5ff/74275fe7a0aea02b4981304dc1627c149c636c091db00c6229e570b8cf02da8b/chunks/embedding_ready.jsonl#L2"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_4ce286a41fb39b5342a1a90d1bbdfbf7095bfe743dd5b4b660752f385a694307"
+      ],
+      "supporting_document_ids": [
+        "ING_9edbc28eb7644c0de5ff"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_e016893580998dfb9a2cfad243797f6578a56e735c3c5135188781766a9a3f26"
+      ],
+      "paragraph_id": "1.1-P015",
+      "question_ids": [
+        "1.1-Q23"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı, yangın güvenliği ile doğrudan ilişkilidir; tünel kazalarının sosyal etkileri nedeniyle güvenlik, yapımından servis ömrü sonuna kadar gözetilmesi gereken bir husustur.",
+      "sentence_id": "1.1-S041",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_9f0e307bbe:pages=294-298;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L128"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_e016893580998dfb9a2cfad243797f6578a56e735c3c5135188781766a9a3f26"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_de719cbd5159d7146a137ca52ef36f23970c8bff1b1b55692fb61bc7e64f1150"
+      ],
+      "paragraph_id": "1.1-P016",
+      "question_ids": [
+        "1.1-Q24"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin tanımı, acil durum yönetimi ile bağlantılıdır; tünel operatörlerinin ana görevi, normal ve kaza durumlarında yol kullanıcılarının güvenliğini sağlamaktır.",
+      "sentence_id": "1.1-S042",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_f28eeecf50:pages=53-55;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L18"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_de719cbd5159d7146a137ca52ef36f23970c8bff1b1b55692fb61bc7e64f1150"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397"
+      ]
+    }
+  ],
+  "sentence_ids": [
+    "1.1-S037",
+    "1.1-S038",
+    "1.1-S039",
+    "1.1-S040",
+    "1.1-S041",
+    "1.1-S042"
+  ]
+}

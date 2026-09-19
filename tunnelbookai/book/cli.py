@@ -10,10 +10,13 @@ from typing import Any
 from .errors import BookEngineError
 from .coverage_audit import run_coverage_audit
 from .evidence_review import run_evidence_review
+from .editorial import run_editorial_audit
+from .freeze import run_freeze
 from .inputs import BookInputs, load_book_inputs
 from .preparation import prepare_sections
 from .prewriting import run_prewriting_audit
 from .retrieval import build_index, search_index
+from .revision import run_revision
 from .stages import not_implemented
 from .status import build_status
 from .writer import run_section_writer
@@ -25,6 +28,7 @@ SECTION_COMMANDS = {
     "write": "SECTION_WRITER",
     "evidence-review": "POSTWRITING_EVIDENCE_AUDIT",
     "coverage-audit": "QUESTION_COVERAGE_AUDIT",
+    "revise": "SECTION_REVISION",
     "editorial-audit": "EDITORIAL_AUDIT",
     "freeze": "SECTION_FREEZE",
 }
@@ -176,6 +180,27 @@ def main(argv: list[str] | None = None) -> int:
                 batch_size=args.batch_size,
                 progress=coverage_progress,
             ))
+            return 0
+        if args.command == "revise":
+            if args.section not in inputs.questions_by_section:
+                raise BookEngineError(
+                    "UNKNOWN_SECTION", f"section is not a question-bank section: {args.section}"
+                )
+            _print(run_revision(args.section))
+            return 0
+        if args.command == "editorial-audit":
+            if args.section not in inputs.questions_by_section:
+                raise BookEngineError(
+                    "UNKNOWN_SECTION", f"section is not a question-bank section: {args.section}"
+                )
+            _print(run_editorial_audit(args.section))
+            return 0
+        if args.command == "freeze":
+            if args.section not in inputs.questions_by_section:
+                raise BookEngineError(
+                    "UNKNOWN_SECTION", f"section is not a question-bank section: {args.section}"
+                )
+            _print(run_freeze(args.section))
             return 0
         if args.command in SECTION_COMMANDS:
             if args.section not in inputs.scope_by_id:

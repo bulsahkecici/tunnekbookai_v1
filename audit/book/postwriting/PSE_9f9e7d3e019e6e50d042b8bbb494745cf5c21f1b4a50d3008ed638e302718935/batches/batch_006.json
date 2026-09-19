@@ -1,0 +1,307 @@
+{
+  "batch_number": 6,
+  "results": [
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_434576389a962cd292bf8104795434b76f7113508a1dae4429c7973364874b57"
+      ],
+      "paragraph_id": "1.1-P025",
+      "question_ids": [
+        "1.1-Q39"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Risk tahmini, tünelin karakteristikleri, mevcut veriler ve spesifik hedefler göz önünde bulundurularak senaryo tabanlı bir yaklaşımla gerçekleştirilir.",
+      "sentence_id": "1.1-S061",
+      "source_locators": [
+        "ING_98947b1040b98d24a497:ING_98947b1040b98d24a497_CH_e25ea1e5a6:pages=9-10;canonical=corpus/canonical/objects/ING_98947b1040b98d24a497/7709e61cf61bb52846dbab697a21a82dd41030764ed19412e2e20b5b9e26cd30/chunks/embedding_ready.jsonl#L13"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_434576389a962cd292bf8104795434b76f7113508a1dae4429c7973364874b57"
+      ],
+      "supporting_document_ids": [
+        "ING_98947b1040b98d24a497"
+      ]
+    },
+    {
+      "confidence": 0.98,
+      "mapped_claim_ids": [
+        "CLM_b75457523d26fb39078aaa5da0082b2322d6105b55ff769ae020565806cca713"
+      ],
+      "paragraph_id": "1.1-P025",
+      "question_ids": [
+        "1.1-Q39"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Risk yönetimi, risk tanımlama, analiz, azaltma ve takip süreçlerini kapsar ve simülasyon bu analizde sıkça kullanılan bir araçtır.",
+      "sentence_id": "1.1-S062",
+      "source_locators": [
+        "ING_59e50251b95c7152b5bb:ING_59e50251b95c7152b5bb_CH_382362e18f:pages=3;canonical=corpus/canonical/objects/ING_59e50251b95c7152b5bb/927424e58b70fade83acddbe254cf06062ff94efc3037d47dd8b2ab323b39ab2/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_b75457523d26fb39078aaa5da0082b2322d6105b55ff769ae020565806cca713"
+      ],
+      "supporting_document_ids": [
+        "ING_59e50251b95c7152b5bb"
+      ]
+    },
+    {
+      "confidence": 0.6,
+      "mapped_claim_ids": [
+        "CLM_0b5309ce35274ad47546dcecb54736000120f4a1513bc4193e4efd46f9173b82"
+      ],
+      "paragraph_id": "1.1-P026",
+      "question_ids": [
+        "1.1-Q41"
+      ],
+      "reason_code": "CLAIM_OVERREACH",
+      "section_id": "1.1",
+      "sentence": "Tünel inşaat projesine ait zemin ve jeolojik gözlem parametreleri, tablo ve şemalarla belgeleyen mühendislik formları saha verisi olarak gereklidir.",
+      "sentence_id": "1.1-S063",
+      "source_locators": [
+        "ING_7bd21d281ecd81e07fa9:ING_7bd21d281ecd81e07fa9_CH_d8921e7e2d:pages=8;canonical=corpus/canonical/objects/ING_7bd21d281ecd81e07fa9/c2dab86a59a3a39ceed60cacafdba4ff17a3d05265c878e21ef03805ab27e14c/chunks/embedding_ready.jsonl#L8"
+      ],
+      "status": "PARTIAL",
+      "supporting_claim_ids": [
+        "CLM_0b5309ce35274ad47546dcecb54736000120f4a1513bc4193e4efd46f9173b82"
+      ],
+      "supporting_document_ids": [
+        "ING_7bd21d281ecd81e07fa9"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_a69f83db6d5aa50d8d7a590846746fcc7d99608ea5894f2407c8a16377928853"
+      ],
+      "paragraph_id": "1.1-P026",
+      "question_ids": [
+        "1.1-Q41"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Jeolojik haritalama ve parametreleri içeren teknik formlar, tünelin zemin koşullarını tanımlamak için kullanılır.",
+      "sentence_id": "1.1-S064",
+      "source_locators": [
+        "ING_7bd21d281ecd81e07fa9:ING_7bd21d281ecd81e07fa9_CH_219bb2dbfb:pages=3;canonical=corpus/canonical/objects/ING_7bd21d281ecd81e07fa9/c2dab86a59a3a39ceed60cacafdba4ff17a3d05265c878e21ef03805ab27e14c/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_a69f83db6d5aa50d8d7a590846746fcc7d99608ea5894f2407c8a16377928853"
+      ],
+      "supporting_document_ids": [
+        "ING_7bd21d281ecd81e07fa9"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "paragraph_id": "1.1-P026",
+      "question_ids": [
+        "1.1-Q41"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Yerinde geomekanik parametreler, deney sonuçları kullanılarak hesaplanır ve homojen bölgelendirme yapılır.",
+      "sentence_id": "1.1-S065",
+      "source_locators": [
+        "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_b535170db3:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L11"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "supporting_document_ids": [
+        "ING_7e795b9a47c89f5406c5"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "paragraph_id": "1.1-P027",
+      "question_ids": [
+        "1.1-Q42",
+        "1.1-Q46"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "NATM ile ilgili tünel işleri ana maddeleri, her tür kaya ve zemin ortamları içerisinde tünel yapımına ait şartları tanımlar.",
+      "sentence_id": "1.1-S066",
+      "source_locators": [
+        "ING_312befcda2ff316b7279:ING_312befcda2ff316b7279_CH_84de26f2d2:pages=198-199;canonical=corpus/canonical/objects/ING_312befcda2ff316b7279/9687cc6f301bdcf8dad562ddf5279613ab8303dd8576bbda89db7c840d663cd9/chunks/embedding_ready.jsonl#L297"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_a74370d0c11cc4491307527df764f58317270dfbbf47492abdf4db82f7063092"
+      ],
+      "supporting_document_ids": [
+        "ING_312befcda2ff316b7279"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_49b686ae9f529cac422f943b51f39e18fdab4a1743492a63c119605c2f887ab1"
+      ],
+      "paragraph_id": "1.1-P027",
+      "question_ids": [
+        "1.1-Q42"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelin gerekliliği, güzergâhın toprak kaymalarından korunması, akarsu altından geçiş veya pahalı istimlaklardan kaçınma gibi proje koşullarına bağlıdır.",
+      "sentence_id": "1.1-S067",
+      "source_locators": [
+        "ING_746d18498e07a8a0f397:ING_746d18498e07a8a0f397_CH_e6e6be2031:pages=23-27;canonical=corpus/canonical/objects/ING_746d18498e07a8a0f397/57fd9f7a7306faf55c1fa94fda1cb8a4e187a21b1ac40dd2dd53959bcf79a4ec/chunks/embedding_ready.jsonl#L3"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_49b686ae9f529cac422f943b51f39e18fdab4a1743492a63c119605c2f887ab1"
+      ],
+      "supporting_document_ids": [
+        "ING_746d18498e07a8a0f397"
+      ]
+    },
+    {
+      "confidence": 0.98,
+      "mapped_claim_ids": [
+        "CLM_c6305feaf5f952b21e0130bf9d628c6d4e68557bb41e3c0dab50b5caa39596d9"
+      ],
+      "paragraph_id": "1.1-P028",
+      "question_ids": [
+        "1.1-Q44"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel tanımı, yapım işlevlerine göre demiryolu, karayolu, yaya yolu, akarsu ve hidrolik tüneller olarak sınıflandırılır.",
+      "sentence_id": "1.1-S068",
+      "source_locators": [
+        "ING_b011796d9570a6e89619:ING_b011796d9570a6e89619_CH_d2a8b7cc1e:canonical=corpus/canonical/objects/ING_b011796d9570a6e89619/afef36b83099133b6c9cc351451071fca73351b810c5bd494983eaaedb295afb/chunks/embedding_ready.jsonl#L48"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_c6305feaf5f952b21e0130bf9d628c6d4e68557bb41e3c0dab50b5caa39596d9"
+      ],
+      "supporting_document_ids": [
+        "ING_b011796d9570a6e89619"
+      ]
+    },
+    {
+      "confidence": 0.98,
+      "mapped_claim_ids": [
+        "CLM_c6305feaf5f952b21e0130bf9d628c6d4e68557bb41e3c0dab50b5caa39596d9"
+      ],
+      "paragraph_id": "1.1-P028",
+      "question_ids": [
+        "1.1-Q44"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünel tanımı, şekillerine göre kayaç, yumuşak zeminde açılan ve su altında açılan tüneller olarak değişir.",
+      "sentence_id": "1.1-S069",
+      "source_locators": [
+        "ING_b011796d9570a6e89619:ING_b011796d9570a6e89619_CH_d2a8b7cc1e:canonical=corpus/canonical/objects/ING_b011796d9570a6e89619/afef36b83099133b6c9cc351451071fca73351b810c5bd494983eaaedb295afb/chunks/embedding_ready.jsonl#L48"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_c6305feaf5f952b21e0130bf9d628c6d4e68557bb41e3c0dab50b5caa39596d9"
+      ],
+      "supporting_document_ids": [
+        "ING_b011796d9570a6e89619"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "mapped_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "paragraph_id": "1.1-P029",
+      "question_ids": [
+        "1.1-Q45"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Homojen kesimler için NATM kaya destek sınıflamaları belirlenir ve destekleme sistemleri önerilir.",
+      "sentence_id": "1.1-S070",
+      "source_locators": [
+        "ING_7e795b9a47c89f5406c5:ING_7e795b9a47c89f5406c5_CH_b535170db3:canonical=corpus/canonical/objects/ING_7e795b9a47c89f5406c5/3b48ba2f830ce4d304c8aa50e9da3f53889fdaee7d4db8d79a7938a92e26d2bc/chunks/embedding_ready.jsonl#L11"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_3ed73f0c47bdc0c50b58e0c30505119eb564d2ef16b8a3f64920ac0506e2522e"
+      ],
+      "supporting_document_ids": [
+        "ING_7e795b9a47c89f5406c5"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "mapped_claim_ids": [
+        "CLM_341458aaac0a4c2e0a2edfa16344629e6ff12aa7603d43121f8c42a5ec150bed",
+        "CLM_eb41c2e818156d32036e495d214f27d612a73b92f35eca5d94629f6e59230d07"
+      ],
+      "paragraph_id": "1.1-P030",
+      "question_ids": [
+        "1.1-Q47"
+      ],
+      "reason_code": "DIRECT_SUPPORT",
+      "section_id": "1.1",
+      "sentence": "Tünelciliğin tarihsel gelişimi, MÖ 15000'den günümüze kadar maden, nakliyat, su yolu ve ulaşım amaçlı tünellerin yapımını kapsar.",
+      "sentence_id": "1.1-S071",
+      "source_locators": [
+        "ING_9fdf7f646f2268199035:ING_9fdf7f646f2268199035_CH_e51b424f82:canonical=corpus/canonical/objects/ING_9fdf7f646f2268199035/d1c39483b7230111496248816d514b82c3c212217fe35b28bbc84634b158035b/chunks/embedding_ready.jsonl#L32",
+        "ING_e3a78fec24c25a09fd74:ING_e3a78fec24c25a09fd74_CH_8006f96bd7:pages=24;canonical=corpus/canonical/objects/ING_e3a78fec24c25a09fd74/49443009072fa93059c2a3f482a31f9622aaeeb17ce72929585ab4b6e6e85445/chunks/embedding_ready.jsonl#L42"
+      ],
+      "status": "SUPPORTED",
+      "supporting_claim_ids": [
+        "CLM_341458aaac0a4c2e0a2edfa16344629e6ff12aa7603d43121f8c42a5ec150bed",
+        "CLM_eb41c2e818156d32036e495d214f27d612a73b92f35eca5d94629f6e59230d07"
+      ],
+      "supporting_document_ids": [
+        "ING_9fdf7f646f2268199035",
+        "ING_e3a78fec24c25a09fd74"
+      ]
+    },
+    {
+      "confidence": 1.0,
+      "mapped_claim_ids": [
+        "CLM_341458aaac0a4c2e0a2edfa16344629e6ff12aa7603d43121f8c42a5ec150bed",
+        "CLM_eb41c2e818156d32036e495d214f27d612a73b92f35eca5d94629f6e59230d07"
+      ],
+      "paragraph_id": "1.1-P030",
+      "question_ids": [
+        "1.1-Q47"
+      ],
+      "reason_code": "EDITORIAL_SENTENCE",
+      "section_id": "1.1",
+      "sentence": "Tünel tanımı, tarihsel süreçte farklı amaçlar ve teknikler kullanılarak evrilmiştir.",
+      "sentence_id": "1.1-S072",
+      "source_locators": [],
+      "status": "NON_FACTUAL_OR_EDITORIAL",
+      "supporting_claim_ids": [],
+      "supporting_document_ids": []
+    }
+  ],
+  "sentence_ids": [
+    "1.1-S061",
+    "1.1-S062",
+    "1.1-S063",
+    "1.1-S064",
+    "1.1-S065",
+    "1.1-S066",
+    "1.1-S067",
+    "1.1-S068",
+    "1.1-S069",
+    "1.1-S070",
+    "1.1-S071",
+    "1.1-S072"
+  ]
+}
