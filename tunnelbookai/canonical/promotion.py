@@ -82,6 +82,9 @@ def _before(context: CanonicalContext) -> tuple[dict[str, Any], list[dict[str, A
     }, documents
 
 
+_WRITE_ACTIONS = frozenset({CandidateAction.PROMOTE, CandidateAction.REPLACE})
+
+
 def build_plan(
     project_root: Path | str | None = None, *, document_ids: Iterable[str] | None = None,
     write: bool = True, context: CanonicalContext | None = None,
@@ -98,7 +101,7 @@ def build_plan(
     candidates = discover_candidates(context, selected or None, existing_documents=existing)
     expected_by_id = {str(row["document_id"]): dict(row) for row in existing}
     for candidate in candidates:
-        if candidate.action is CandidateAction.PROMOTE and candidate.record is not None:
+        if candidate.action in _WRITE_ACTIONS and candidate.record is not None:
             expected_by_id[candidate.document_id] = dict(candidate.record)
     expected_manifest = build_manifest(list(expected_by_id.values())) if expected_by_id else None
     expected_after = {
@@ -206,6 +209,7 @@ def _audit(
         "after": dict(after or {}),
         "planned_candidates": [candidate.document_id for candidate in candidates],
         "applied_candidates": [candidate.document_id for candidate in candidates if candidate.action is CandidateAction.PROMOTE and result == "APPLIED"],
+        "replaced_candidates": [candidate.document_id for candidate in candidates if candidate.action is CandidateAction.REPLACE and result == "APPLIED"],
         "idempotent_candidates": [candidate.document_id for candidate in candidates if candidate.action is CandidateAction.IDEMPOTENT_NO_CHANGE],
         "rejected_candidates": [candidate.document_id for candidate in candidates if candidate.action is CandidateAction.REJECTED],
         "result": result,
@@ -308,7 +312,7 @@ def apply_plan(
                 raise CanonicalError("STALE_CANONICAL_PROMOTION_PLAN", "promotion-relevant state changed after planning")
             before = dict(plan.before)
             _, existing_records = _before(context)
-            promote = [candidate for candidate in current.candidates if candidate.action is CandidateAction.PROMOTE]
+            promote = [candidate for candidate in current.candidates if candidate.action in _WRITE_ACTIONS]
             if not promote:
                 audit_path = _audit(
                     context, promotion_id, plan_id=plan.plan_id, approval=approve, started_at=started,

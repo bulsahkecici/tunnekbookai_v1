@@ -656,3 +656,27 @@ olarak kullanılmalıdır.
   yeniden işlenip canonical `plan/apply` ile yeniden promote edilmesi (operatör onayı
   gerekir); (3) canonical digest değişince `build-index` (vektör yeniden kullanımıyla) ve
   tam `evidence-audit`; (4) yeni yazarla 1.1'in yeniden yazımı, insan onaylı freeze.
+
+### 2026-09-19 — Canonical belge yenileme yolu (REPLACE) ve orijinalden yeniden işleme / İş kalemi 14
+
+- Amaç: glyph onarımının canonical'daki 26 bozuk belgeye uygulanabilmesi için eksik olan iki
+  yeteneği eklemek. Inbox temizlendiği için (7 dosya kalmış) ingest bu belgeleri göremiyor;
+  canonical otoritesi ise aynı kimlikte farklı digest'i `DOCUMENT_ID_CONFLICT` sayıyordu.
+- `scripts/ingest_incoming.py --reprocess-canonical ING_...`: belgeyi `originals/<id>/source.*`
+  üzerinden yeniden işler, kayıtlı provenance kaynağını yeni kaynak eklemeden tazeler,
+  `ALREADY_CANONICAL` atlamasını yalnızca açıkça verilen kimlikler için aşar. E2E testi
+  (`test_reprocess_from_immutable_original_after_inbox_cleanup`) eklendi.
+- Canonical `CandidateAction.REPLACE`: aynı `document_id` + aynı kaynak SHA + farklı digest
+  → plan `REPLACE`, apply yeni nesneyi yazar, eski nesne dizini `UNREFERENCED_CANONICAL_OBJECT`
+  uyarısıyla inert kalır; audit `replaced_candidates` alanı taşır. Farklı kaynak SHA hâlâ
+  `DOCUMENT_ID_CONFLICT`. Sözleşme belgesi güncellendi; eski test yeni davranışa göre yazıldı.
+- Vision autodetect düzeltmesi: VLM tanınmazsa artık ilk sunulan modele (embedding modeli!)
+  düşmüyor; sağlayıcı `unavailable` ve figürler `NOT_RUN`. Şu an LM Studio'da VLM yüklü
+  değil; population koşusundaki figür açıklamaları hangi VLM ile üretildi bilinmiyor
+  (figür kayıtlarında model adı saklanmıyor). Bozuk belgelerin yeniden işlenmesi VLM
+  yüklenmeden başlatılmadı.
+- Doğrulama: ingest 248, canonical 30, book 53, population 15 test geçti; isolation `GO`;
+  `git diff --check` temiz.
+- Sıradaki: kullanıcı kararı — (a) yeniden işlenecek belge kümesi (öneri: ≥25 bozuk chunk'lı
+  12 belge; tamamı 26), (b) VLM'nin yüklenmesi, (c) `canonical plan` → `--approve` ile
+  `REPLACE`, (d) `build-index` (vektör yeniden kullanımı) ve `evidence-audit`.

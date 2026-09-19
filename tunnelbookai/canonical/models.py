@@ -21,6 +21,9 @@ class CanonicalState(StrEnum):
 
 class CandidateAction(StrEnum):
     PROMOTE = "PROMOTE"
+    # Same document id and source bytes, re-derived processing/staging (for example after
+    # an extraction fix): the record and object are replaced, the old object stays inert.
+    REPLACE = "REPLACE"
     IDEMPOTENT_NO_CHANGE = "IDEMPOTENT_NO_CHANGE"
     REJECTED = "REJECTED"
 

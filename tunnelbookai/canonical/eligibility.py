@@ -380,8 +380,11 @@ def inspect_candidate(
         existing_by_id = {str(row.get("document_id")): row for row in existing_documents}
         existing_by_sha = {str(row.get("source_sha256")): row for row in existing_documents}
         if document_id in existing_by_id:
-            if existing_by_id[document_id].get("document_digest") == digest:
+            existing_row = existing_by_id[document_id]
+            if existing_row.get("document_digest") == digest:
                 action = CandidateAction.IDEMPOTENT_NO_CHANGE
+            elif str(existing_row.get("source_sha256")) == source_sha:
+                action = CandidateAction.REPLACE
             else:
                 raise CanonicalError("DOCUMENT_ID_CONFLICT", "canonical document ID has different identity")
         elif source_sha in existing_by_sha:

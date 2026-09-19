@@ -69,6 +69,19 @@ digest covers only the sorted `(document_id, document_digest, source_sha256)` pr
 plus schema/contract identity. Digests exclude mtimes, timestamps, absolute paths and
 filesystem order.
 
+## Replacing a canonical document's derived outputs
+
+A candidate whose `document_id` and source SHA256 are already canonical but whose document
+digest differs (its processing/staging artifacts were legitimately re-derived, for example
+after an extraction fix applied through `ingest --reprocess-canonical`) is planned with the
+action `REPLACE`. Apply materializes the new object under
+`objects/<document_id>/<new_digest>/`, replaces the manifest record and leaves the previous
+object directory unreferenced and inert (`UNREFERENCED_CANONICAL_OBJECT` warning; never
+deleted automatically). Like every write, it requires the exact plan identity and explicit
+approval and changes the corpus digest, so retrieval indexes and book audits bound to the
+old digest become stale. A candidate with the same `document_id` but a different source SHA
+remains a `DOCUMENT_ID_CONFLICT`.
+
 ## Atomicity, audits and recovery
 
 Apply is all-or-nothing at the manifest level. It builds and verifies objects in a sibling

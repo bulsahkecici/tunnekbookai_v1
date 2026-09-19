@@ -277,6 +277,39 @@ class ControlledSmokeTests(IsolatedRunMixin):
         self.assertEqual(len(list((self.root / "originals").iterdir())), 6)
         self.assertIn("Reused / already processed", output)
 
+    def test_reprocess_from_immutable_original_after_inbox_cleanup(self):
+        # The inbox is routinely cleaned after promotion; a later extraction fix must still be
+        # able to rebuild derived outputs from originals/ without inventing a new provenance
+        # source.
+        docx_sha = self.checksums["sample.docx"]
+        document_id = next(d.name for d in (self.root / "originals").iterdir()
+                           if sha256_file(next(d.glob("source.*"))) == docx_sha)
+        provenance_path = self.root / "processing" / document_id / "provenance.json"
+        sources_before = json.loads(provenance_path.read_text(encoding="utf-8"))["sources"]
+        inbox_copy = self.root / "incoming" / "manual" / "inbox" / "sample.docx"
+        stashed = inbox_copy.read_bytes()
+        inbox_copy.unlink()
+        # This single-document run rewrites the run-level audit summaries the sibling tests
+        # read; restore them afterwards.
+        summaries = {path: path.read_bytes() for path in (self.root / "audit").glob("unified_ingest_*.json")}
+        try:
+            with self.isolated(self.root):
+                code, output = self.run_cli([
+                    "--source", "manual", "--reprocess-canonical", document_id,
+                    "--no-ocr", "--no-vision", "--no-arbiter",
+                ])
+        finally:
+            inbox_copy.write_bytes(stashed)
+            for path, content in summaries.items():
+                path.write_bytes(content)
+        self.assertEqual(code, 0)
+        self.assertIn(document_id, output)
+        self.assertNotIn("ALREADY_PROCESSED", output.split(document_id, 1)[1].splitlines()[0])
+        sources_after = json.loads(provenance_path.read_text(encoding="utf-8"))["sources"]
+        self.assertEqual(len(sources_after), len(sources_before))
+        self.assertEqual(sources_after[0]["inbox_relative_path"], sources_before[0]["inbox_relative_path"])
+        self.assertTrue((self.root / "processing" / document_id / "chunks" / "embedding_ready.jsonl").is_file())
+
     def test_dry_run_writes_nothing(self):
         with tempfile.TemporaryDirectory() as scratch:
             root = self.build_root()

@@ -86,8 +86,21 @@ class PromotionTests(unittest.TestCase):
             value["title"] = "Changed title"
             metadata.write_text(json.dumps(value, indent=2) + "\n", encoding="utf-8")
         fresh = build_plan(context=self.context)
-        self.assertEqual(fresh.candidates[0].action.value, "REJECTED")
-        self.assertIn("DOCUMENT_ID_CONFLICT", fresh.candidates[0].validations)
+        # Same source bytes, re-derived record: replaceable only through an explicit,
+        # approved apply; never silently.
+        self.assertEqual(fresh.candidates[0].action.value, "REPLACE")
+        before_digest = plan.expected_after["canonical_corpus_digest"]
+        self.assertNotEqual(fresh.expected_after["canonical_corpus_digest"], before_digest)
+        result = apply_plan(self.context.audit_root / "plans" / f"{fresh.plan_id}.json", approve=fresh.plan_id, context=self.context)
+        self.assertEqual(result["status"], "APPLIED")
+        self.assertEqual(result["canonical"]["document_count"], 1)
+        audit = json.loads((self.repo.root / result["audit_path"]).read_text(encoding="utf-8"))
+        self.assertEqual(audit["replaced_candidates"], [self.repo.document_id])
+        inventory = inspect_canonical(context=self.context)
+        self.assertTrue(inventory.ready)
+        self.assertTrue(any(w.startswith("UNREFERENCED_CANONICAL_OBJECT") for w in inventory.warnings))
+        # A re-plan is now idempotent.
+        self.assertEqual(build_plan(context=self.context).candidates[0].action.value, "IDEMPOTENT_NO_CHANGE")
 
     def test_atomic_manifest_failure_restores_empty_state(self):
         plan = build_plan(context=self.context)

@@ -303,6 +303,7 @@ def _run(inputs: list[DiscoveredInput], skipped: list[dict], args) -> int:
 
     groups, unreadable = _group_by_identity(inputs)
     canonical_documents = _canonical_documents()
+    reprocess_ids = set(getattr(args, "reprocess_canonical", None) or [])
     services = None
     callback = getattr(args, "outcome_callback", None)
     progress_callback = getattr(args, "progress_callback", None)
@@ -328,11 +329,13 @@ def _run(inputs: list[DiscoveredInput], skipped: list[dict], args) -> int:
         if canonical is not None:
             if canonical.get("source_sha256") != sha:
                 raise RuntimeError(f"canonical document identity conflict: {doc_id}")
-            reused += 1
-            print(f"  {doc_id}  {det.fmt.value:5}  ALREADY_CANONICAL")
-            if callback:
-                callback({"document_id": doc_id, "disposition": "ALREADY_CANONICAL", "engine_state": None})
-            continue
+            if doc_id not in reprocess_ids:
+                reused += 1
+                print(f"  {doc_id}  {det.fmt.value:5}  ALREADY_CANONICAL")
+                if callback:
+                    callback({"document_id": doc_id, "disposition": "ALREADY_CANONICAL", "engine_state": None})
+                continue
+            print(f"  {doc_id}  {det.fmt.value:5}  REPROCESS_CANONICAL (derived outputs only)")
 
         if not is_supported(det, libreoffice_available=libre is not None):
             state.transition(doc_id, State.REJECTED, source_kind=primary.source_kind, sha256=sha,
@@ -664,7 +667,41 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--from-stage", default=None,
                    choices=[s.value for s in State],
                    help="reprocess documents already at or past this stage")
+    p.add_argument("--reprocess-canonical", nargs="+", default=None, metavar="ING_ID",
+                   help="rebuild the derived outputs of these canonical documents from their "
+                        "immutable originals (implies --force-reprocess; canonical itself is "
+                        "only changed by a later approved canonical apply)")
     return p
+
+
+def _reprocess_inputs(document_ids: list[str]) -> list[DiscoveredInput]:
+    """Rebuild inputs for already-archived documents from ``originals/<id>/source.*``.
+
+    The recorded provenance source is replayed so ``_merge_provenance`` refreshes the same
+    entry instead of adding an ``originals/`` path as a new source.
+    """
+
+    items: list[DiscoveredInput] = []
+    for document_id in document_ids:
+        original_dir = PATHS.original_dir(document_id)
+        sources = sorted(path for path in original_dir.glob("source.*") if path.is_file()) if original_dir.is_dir() else []
+        if len(sources) != 1:
+            raise SystemExit(f"--reprocess-canonical: immutable original not found for {document_id}")
+        provenance_path = PATHS.processing_bundle(document_id) / "provenance.json"
+        recorded: list[dict] = []
+        if provenance_path.is_file():
+            recorded = list(json.loads(provenance_path.read_text(encoding="utf-8")).get("sources") or [])
+        if not recorded:
+            raise SystemExit(f"--reprocess-canonical: no recorded provenance source for {document_id}")
+        for entry in recorded:
+            entry = dict(entry)
+            kind = str(entry.pop("kind", None) or entry.get("source_kind") or "MANUAL_INTERNAL")
+            crawler_record = entry.pop("crawler_record", None)
+            items.append(DiscoveredInput(
+                input_path=sources[0], source_kind=kind, provenance=entry,
+                crawler_record=crawler_record, notes=["REPROCESS_FROM_ORIGINAL"],
+            ))
+    return items
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -672,6 +709,9 @@ def main(argv: list[str] | None = None) -> int:
     if args.release and args.source == "manual":
         raise SystemExit("--release requires --source papercrawler or --source all")
     inputs, skipped = _gather(args.source, release_id=args.release)
+    if args.reprocess_canonical:
+        inputs = _reprocess_inputs(list(dict.fromkeys(args.reprocess_canonical)))
+        args.force_reprocess = True
     if args.document_id:
         inputs = [i for i in inputs if document_id_for_file(i.input_path)[0] == args.document_id]
     if args.from_stage:

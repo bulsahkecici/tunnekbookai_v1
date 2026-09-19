@@ -125,9 +125,12 @@ class LocalOpenAICompatibleVisionProvider(VisionProvider):
             self._ok = False
             return False
         if self.model is None:
+            # Autodetect only a model that is recognisably a VLM.  Falling back to the first
+            # served model would hand figure images to an embedding or text-only model and
+            # record FAILED descriptions instead of the honest NOT_RUN.
             preferred = [m for m in models
                          if any(t in m.lower() for t in ("vl", "vision", "llava", "smolvlm", "gemma3"))]
-            self.model = (preferred or models or [None])[0]
+            self.model = preferred[0] if preferred else None
         self._ok = self.model is not None
         return self._ok
 

@@ -200,6 +200,20 @@ dokunulmaz. Onarım yalnızca yeniden işlenen belgelere uygulanır; canonical'd
 belgeler `--force-reprocess --from-stage EXTRACTING` ile yeniden işlenip yeniden promote
 edilmeden değişmez.
 
+### Canonical belgeleri immutable orijinalden yeniden işleme
+
+```bash
+PYTHONPATH=. .venv/bin/python scripts/ingest_incoming.py \
+  --source manual --reprocess-canonical ING_... ING_... --resume
+```
+
+Inbox temizlenmiş olsa bile verilen belgeleri `originals/<id>/source.*` üzerinden yeniden
+işler; kayıtlı provenance kaynağı yeni kaynak eklemeden tazelenir. `--force-reprocess`
+ima edilir; canonical yalnızca sonraki onaylı `canonical plan/apply` ile (`REPLACE`
+eylemi) değişir. Figür açıklamaları için LM Studio'da bir VLM yüklü olmalıdır; yüklü
+değilse figür chunk'ları `NOT_RUN` ile yeniden üretilir (otomatik seçim artık VLM olmayan
+bir modele düşmez).
+
 ### Ingest seçeneklerinin anlamı
 
 | Seçenek | Etki |
@@ -218,6 +232,7 @@ edilmeden değişmez.
 | `--embedding-server/--embedding-model` | Bu koşu için embedding endpoint/model override eder |
 | `--llm-server/--llm-model` | Bu koşu için LLM endpoint/model override eder |
 | `--from-stage STATE` | O aşamaya ulaşmış belgeleri yeniden işleme kapsamına alır |
+| `--reprocess-canonical ING_...` | Canonical belgeleri immutable orijinalden yeniden işler (`--force-reprocess` ima eder) |
 
 Model override seçenekleri yalnızca açık ve bilinçli testlerde kullanılmalıdır; normal
 işletimde `config/models.yaml` otorite olarak bırakılır.
@@ -486,7 +501,9 @@ PYTHONPATH=. .venv/bin/python -m tunnelbookai.canonical apply \
 ```
 
 Canonical corpus'u değiştiren kontrollü komuttur. `--approve` plan içindeki tam `CCP_`
-kimliğiyle aynı olmalıdır. Apply öncesi plan diskten tekrar kurulur; stale veya değişmiş plan
+kimliğiyle aynı olmalıdır. Aynı belge kimliği ve kaynak SHA ile yeniden türetilmiş bir
+belge planda `REPLACE` eylemiyle görünür; apply yeni nesneyi yazar, eski nesne dizini
+referanssız (inert) kalır ve corpus digest değişir. Apply öncesi plan diskten tekrar kurulur; stale veya değişmiş plan
 reddedilir. Başarılı her apply sonrasında yeniden `canonical verify` çalıştırılmalıdır.
 
 ### Eski compatibility komutu
