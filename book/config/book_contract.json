@@ -1,35 +1,38 @@
 {
-  "schema_version": "1.0",
-  "contract_version": "book-production-v1-foundation",
+  "schema_version": "2.0",
+  "contract_version": "book-production-v2-reviewed-scope",
   "product": "TÜNEL YAPIM, BAKIM VE İŞLETME",
   "authorities": {
     "scope": {
       "path": "book/scope/normalized/book_scope.json",
-      "sha256": "54e7a3eb6aa42d613f037e949efba2ad65887608a8c04e0851c756206c331b8a"
+      "sha256": "205da30379dbf744dade39c52978bcbb0fc916f1b1feed184e6d501a9a7f7047"
     },
     "question_bank": {
       "path": "book/question_bank/normalized/question_bank.jsonl",
-      "sha256": "528baf6e15202c287b7dd3716ce8746fc428fdac1fce10908f61c48cca59ae70"
+      "sha256": "7216f1b4714d9d54d9429a236e4c297f3e4e0aecb237f4a8aa454749dab12f9c"
     },
     "question_bank_index": {
       "path": "book/question_bank/normalized/question_bank_index.json",
-      "sha256": "23fc9c15c590165fc7450b8683ee4523819f8e9277833eee0ce06e16e96709f2"
+      "sha256": "ba5ce44c35a1f8e6ade2a4d864af74a27ec1c968d275015d5f5fee659294e65b"
     },
     "question_bank_integrity": {
       "path": "book/audits/question_bank_integrity.json",
-      "sha256": "0379df1eea39ba5fa025693546a170b51946ca2b7094b561a172e4a5fbd9cdbd"
+      "sha256": "a225e6d3f48f8e286ed910566176ebafdc67218330b873d7f933c668fba16b65"
     },
     "source_manifest": {
       "path": "book/audits/source_manifest.json",
-      "sha256": "241b14958947613ef9ad0787e3b3bb8684e6eac7e1d963adc2af64f49b07bb97"
+      "sha256": "bf92878f0622f6f841b161700f9987adb4a0cd33e49a0d42fe70b47a752e9fad"
     }
   },
   "expected_structure": {
     "top_level_chapters": 7,
-    "structural_headings": 66,
-    "question_bank_sections": 59,
-    "questions_per_section": 50,
-    "total_questions": 2950
+    "structural_headings": 59,
+    "inactive_headings": 20,
+    "question_bank_sections": 52,
+    "human_analysis_sections": 2,
+    "min_questions_per_section": 7,
+    "max_questions_per_section": 17,
+    "total_questions": 628
   },
   "coverage_policy": {
     "allowed_states": [
@@ -42,13 +45,12 @@
     ],
     "global": {
       "hard_gate": true,
-      "minimum_answered_count": 1770,
+      "minimum_answered_count": 377,
       "minimum_coverage": 0.6,
       "requires_complete_audit": true
     },
     "section": {
       "hard_gate": false,
-      "preferred_minimum_answered_count": 30,
       "preferred_minimum_coverage": 0.6
     }
   },
@@ -160,9 +162,9 @@
     ]
   },
   "publication_policy": {
-    "required_structural_headings": 66,
-    "required_question_sections": 59,
-    "required_question_audits": 2950,
+    "required_structural_headings": 59,
+    "required_question_sections": 52,
+    "required_question_audits": 628,
     "requires_all_sections_frozen": true,
     "requires_global_coverage_gate": true,
     "requires_cross_chapter_consistency_pass": true,

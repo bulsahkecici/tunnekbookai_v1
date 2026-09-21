@@ -1,14 +1,23 @@
 {
-  "schema_version": "1.0",
-  "package_target": "Extract this ZIP into ~/Projects/tunnelbookai_v1/ so that the included book/ folder is created/merged.",
+  "schema_version": "2.0",
   "files": [
     {
       "role": "scope_source",
+      "path": "book/question_bank/drafts/question_bank_v2_draft.md",
+      "sha256": "836a47141e0cd1852b4ae46b0186b98e632957254608b3a4e32faf110dc5c8b9"
+    },
+    {
+      "role": "question_bank_source",
+      "path": "book/question_bank/drafts/question_bank_v2_draft.md",
+      "sha256": "836a47141e0cd1852b4ae46b0186b98e632957254608b3a4e32faf110dc5c8b9"
+    },
+    {
+      "role": "scope_v1_source",
       "path": "book/scope/source/Calisma_Kapsami_Tasarisi_17.10.2025.rtf",
       "sha256": "59e5e61a044e8985fcef1a0d8206de73e8c34ba49b680f5a9d7c2cc355141ac2"
     },
     {
-      "role": "question_bank_source",
+      "role": "question_bank_v1_source",
       "path": "book/question_bank/source/Tunel_Kitabi_Kapsam_Kontrol_Soru_Bankasi.docx",
       "sha256": "977b899bb2a25665b527eff46913219bd0de044930bff01d5ed394f57a648ab7"
     }

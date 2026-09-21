@@ -1,67 +1,80 @@
-﻿section_id,title,parent_section,level,active,placeholder,is_question_bank_section,question_count,source_scope_title_match
-1,GİRİŞ,,1,True,False,False,0,True
-1.1,Tünelin Tanımı,1,2,True,False,True,50,True
-1.2,Tünellerin Sınıflandırılması,1,2,True,False,True,50,True
-1.3,Tünellerin Tarihçesi,1,2,True,False,True,50,True
-1.3.1,Dünyadaki İlk Tüneller,1.3,3,True,False,True,50,True
-1.3.2,Türkiye’de İlk Tünel,1.3,3,True,False,True,50,True
-1.4,En İyi Tünel Mühendislik Uygulamaları,1,2,True,False,True,50,True
-1.4.1,Dünyada Karayolu Tünelleri,1.4,3,True,False,True,50,True
-1.4.2,Türkiye’de Karayolu Tünelleri,1.4,3,True,False,True,50,True
-1.5,Tünel Felaketleri,1,2,True,False,True,50,True
-1.5.1,Dünyada Gerçekleşen Önemli Tünel Felaketleri,1.5,3,True,False,True,50,True
-1.5.2,Türkiye’de Gerçekleşen Önemli Tünel Kazaları,1.5,3,True,False,True,50,True
-2,"TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",,1,True,False,False,0,True
-2.1,Tünel Yapı/Destek Elemanları,2,2,True,False,True,50,True
-2.1.1,Tünellerle İlgili Tanımlamalar,2.1,3,True,False,True,50,True
-2.1.2,Tünel Destekleme Elemanları,2.1,3,True,False,True,50,True
-2.2,Tünel Yapım Yöntemleri,2,2,True,False,True,50,True
-2.2.1,Kayaç Zeminde Açılan Tüneller,2.2,3,True,False,True,50,True
-2.2.2,Yumuşak Zeminde Açılan Tüneller,2.2,3,True,False,True,50,True
-2.2.3,Su Altında Açılan Tüneller,2.2,3,True,False,True,50,True
-2.3,Tünellerin Yapım Maliyetine Etki Eden Unsurlar,2,2,True,False,True,50,True
-2.4,Tünellerin Projelendirilmesi,2,2,True,False,True,50,True
-2.4.1,Jeolojik ve Geoteknik İncelemeler,2.4,3,True,False,True,50,True
-2.4.1.1,İnşaat Başlamadan Önce Yapılan Çalışmalar,2.4.1,4,True,False,True,50,True
-2.4.1.2,İnşaat Esnasındaki Çalışmalar,2.4.1,4,True,False,True,50,True
-2.4.1.3,Kullanım Aşaması Çalışmaları,2.4.1,4,True,False,True,50,True
-2.4.2,Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Hususlar,2.4,3,True,False,True,50,True
-2.4.2.1,Güzergah Seçiminde Dikkat Edilecek Hususlar,2.4.2,4,True,False,True,50,True
-2.4.2.2,Boykesit Belirlemede Dikkat Edilecek Hususlar,2.4.2,4,True,False,True,50,True
-2.4.3,Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları,2.4,3,True,False,True,50,True
-3,KARAYOLLARI GENEL MÜDÜRLÜĞÜ TÜNELLERİN TARİHÇESİ,,1,True,False,False,0,True
-4,"MALİYET KAVRAMI, ÖNEMİ VE ULAŞIM MALİYETLERİ",,1,True,False,False,0,True
-4.1,"Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar",4,2,True,False,True,50,True
-4.3.5,Tünel Yaşam Döngü Maliyetleri,4.3,3,True,False,True,50,True
-5,TÜNEL BAKIM-ONARIM VE İŞLETME MALİYETLERİ,,1,True,False,False,0,True
-5.1,Çalışmanın Amacı ve Önemi,5,2,True,False,True,50,True
-5.2,Çalışmanın Kapsamı,5,2,True,False,True,50,True
-5.3,Çalışmanın Yöntemi ve Kullanılan Veriler,5,2,True,False,True,50,True
-5.4,Tünel Bakım-Onarım ve İşletme,5,2,True,False,True,50,True
-5.4.1,Yapısal Bakım,5.4,3,True,False,True,50,True
-5.4.2,Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı,5.4,3,True,False,True,50,True
-5.4.3,Periyodik Bakım,5.4,3,True,False,True,50,True
-5.5,Tünel Bakım-Onarım ve İşletme Maliyetleri,5,2,True,False,True,50,True
-5.5.1,Yönetim ve İşletme Maliyetleri,5.5,3,True,False,True,50,True
-5.5.2,Bakım-Onarım Maliyetleri,5.5,3,True,False,True,50,True
-5.5.2.1,Yapısal Bakım-Onarım Maliyetleri,5.5.2,4,True,False,True,50,True
-5.5.2.2,Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri,5.5.2,4,True,False,True,50,True
-5.6,Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler,5,2,True,False,True,50,True
-5.7,Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi,5,2,True,False,True,50,True
-5.7.1,Bakım-İşletme Maliyetini Azaltma Yöntemleri,5.7,3,True,False,True,50,True
-5.7.2,Enerji Maliyetini Azaltma Yöntemleri,5.7,3,True,False,True,50,True
-5.8,Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri,5,2,True,False,True,50,True
-5.9,Ulusal ve Uluslararası Literatür Taraması,5,2,True,False,True,50,True
-5.9.1,Ulusal Literatür Taraması,5.9,3,True,False,True,50,True
-5.9.2,Uluslararası Literatür Taraması,5.9,3,True,False,True,50,True
-6,TÜNEL YAPIM MALİYETLERİ,,1,True,False,False,0,True
-6.1,"Çalışmanın Amacı, Kapsamı, Yöntem ve Kullanılan Verileri",6,2,True,False,True,50,True
-6.1.1,Çalışmanın Amacı ve Önemi,6.1,3,True,False,True,50,True
-6.1.2,Çalışmanın Kapsamı,6.1,3,True,False,True,50,True
-6.1.3,Çalışmanın Yöntemi,6.1,3,True,False,True,50,True
-6.2,Ulusal ve Uluslararası Literatür Taraması (Mehmet Çelikkaya),6,2,True,False,True,50,True
-6.2.1,Ulusal Literatür Taraması,6.2,3,True,False,True,50,True
-6.2.2,Uluslararası Literatür Taraması,6.2,3,True,False,True,50,True
-7,"ARAŞTIRMANIN BULGULARI, SONUÇLAR VE ÖNERİLER",,1,True,False,False,0,True
-7.1,Tünel Bakım-İşletme Maliyetleri,7,2,True,False,True,50,True
-7.2,Tünel Yapım Maliyetleri,7,2,True,False,True,50,True
+section_id,title,parent_section,level,active,placeholder,is_question_bank_section,question_count,origin,inactive_reason,analysis_requirement,source_scope_title_match
+1,GİRİŞ,,1,True,False,False,0,chapter,,,True
+1.1,Tünelin Tanımı,1,2,True,False,True,17,keep,,,True
+1.2,Tünellerin Sınıflandırılması,1,2,True,False,True,17,keep,,,True
+1.3,Tünellerin Tarihçesi,1,2,True,False,True,12,keep,,,True
+1.3.1,Dünyadaki İlk Tüneller,1.3,3,True,False,True,12,keep,,,True
+1.3.2,Türkiye'de İlk Tünel,1.3,3,True,False,True,10,keep,,,True
+1.4,En İyi Tünel Mühendislik Uygulamaları,1,2,True,False,True,15,keep,,,True
+1.4.1,Dünyada Karayolu Tünelleri,1.4,3,True,False,True,13,keep,,,True
+1.4.2,Türkiye'de Karayolu Tünelleri,1.4,3,True,False,True,15,keep,,,True
+1.5,Tünel Felaketleri,1,2,True,False,True,15,keep,,,True
+1.5.1,Dünyada Gerçekleşen Önemli Tünel Felaketleri,1.5,3,True,False,True,12,keep,,,True
+1.5.2,Türkiye'de Gerçekleşen Önemli Tünel Kazaları,1.5,3,True,False,True,11,keep,,,True
+2,"TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",,1,True,False,False,0,chapter,,,True
+2.1,Tünel Yapı/Destek Elemanları,2,2,True,False,True,15,keep,,,True
+2.1.1,Tünellerle İlgili Tanımlamalar,2.1,3,True,False,True,13,keep,,,True
+2.1.2,Tünel Destekleme Elemanları,2.1,3,True,False,True,15,keep,,,True
+2.2,Tünel Yapım Yöntemleri,2,2,True,False,True,16,keep,,,True
+2.2.1,Kayaç Zeminde Açılan Tüneller,2.2,3,True,False,True,13,keep,,,True
+2.2.2,Yumuşak Zeminde Açılan Tüneller,2.2,3,True,False,True,13,keep,,,True
+2.2.3,Su Altında Açılan Tüneller,2.2,3,True,False,True,11,keep,,,True
+2.3,Tünellerin Yapım Maliyetine Etki Eden Unsurlar,2,2,True,False,True,16,keep,,,True
+2.4,Tünellerin Projelendirilmesi,2,2,True,False,True,14,keep,,,True
+2.4.1,Jeolojik ve Geoteknik İncelemeler,2.4,3,True,False,True,13,keep,,,True
+2.4.1.1,İnşaat Başlamadan Önce Yapılan Çalışmalar,2.4.1,4,True,False,True,11,keep,,,True
+2.4.1.2,İnşaat Esnasındaki Çalışmalar,2.4.1,4,True,False,True,13,keep,,,True
+2.4.1.3,Kullanım Aşaması Çalışmaları,2.4.1,4,True,False,True,11,keep,,,True
+2.4.2,Tünel Güzergahının Seçimi ve Boykesit Belirlenmesinde Dikkat Edilecek Hususlar,2.4,3,True,False,True,10,keep,,,True
+2.4.2.1,Güzergah Seçiminde Dikkat Edilecek Hususlar,2.4.2,4,True,False,True,11,keep,,,True
+2.4.2.2,Boykesit Belirlemede Dikkat Edilecek Hususlar,2.4.2,4,True,False,True,9,keep,,,True
+2.4.3,Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları,2.4,3,True,False,True,12,keep,,,True
+3,KARAYOLLARI GENEL MÜDÜRLÜĞÜ TÜNELLERİN TARİHÇESİ,,1,True,False,False,0,chapter,,,True
+3.1,Türkiye'de Karayolu Tünelciliğinin Gelişim Dönemleri,3,2,True,False,True,11,new,,,False
+3.2,"KGM Tünel Envanteri: Sayı, Uzunluk ve Dağılım",3,2,True,False,True,11,new,,,False
+3.3,Dönüm Noktası Karayolu Tünel Projeleri,3,2,True,False,True,10,new,,,False
+4,"MALİYET KAVRAMI, ÖNEMİ VE ULAŞIM MALİYETLERİ",,1,True,False,False,0,chapter,,,True
+4.1,"Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar",4,2,True,False,True,13,keep,,,True
+4.2,Karayolu Altyapı Yatırımlarında Maliyet Bileşenleri,4,2,False,False,False,0,inactive,corpus desteği yok; 2.2.3 türü destek riski,,True
+4.3,Tünel Maliyet Analizi Yöntemleri,4,2,True,False,True,7,new,,,False
+4.3.1,Birim Fiyat ve Keşif Esaslı Maliyet Tahmini,4.3,3,True,False,True,10,new,,,False
+4.3.2,Parametrik ve İstatistiksel Maliyet Modelleri,4.3,3,False,False,False,0,inactive,corpus desteği yok; 2.2.3 türü destek riski,,True
+4.3.3,Fayda-Maliyet ve Yatırım Değerlendirme,4.3,3,False,False,False,0,inactive,corpus desteği yok; 2.2.3 türü destek riski,,True
+4.3.4,Risk ve Belirsizliğin Maliyete Yansıtılması,4.3,3,False,False,False,0,inactive,corpus desteği yok; 2.2.3 türü destek riski,,True
+4.3.5,Tünel Yaşam Döngü Maliyetleri,4.3,3,True,False,True,13,keep,,,True
+5,TÜNEL BAKIM-ONARIM VE İŞLETME MALİYETLERİ,,1,True,False,False,0,chapter,,,True
+5.1,Çalışmanın Amacı ve Önemi,5,2,False,False,False,0,inactive,tez yapısı; kitap içeriği değil,,True
+5.2,Çalışmanın Kapsamı,5,2,False,False,False,0,inactive,tez yapısı; kitap içeriği değil,,True
+5.3,Çalışmanın Yöntemi ve Kullanılan Veriler,5,2,False,False,False,0,inactive,tez yapısı; kitap içeriği değil,,True
+5.4,Tünel Bakım-Onarım ve İşletme,5,2,True,False,True,15,keep,,,True
+5.4.1,Yapısal Bakım,5.4,3,True,False,True,11,keep,,,True
+5.4.2,Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı,5.4,3,True,False,True,13,keep,,,True
+5.4.3,Periyodik Bakım,5.4,3,True,False,True,11,keep,,,True
+5.5,Tünel Bakım-Onarım ve İşletme Maliyetleri,5,2,True,False,True,12,keep,,,True
+5.5.1,Yönetim ve İşletme Maliyetleri,5.5,3,True,False,True,10,keep,,,True
+5.5.2,Bakım-Onarım Maliyetleri,5.5,3,True,False,True,8,keep,,,True
+5.5.2.1,Yapısal Bakım-Onarım Maliyetleri,5.5.2,4,True,False,True,9,keep,,,True
+5.5.2.2,Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakım Maliyetleri,5.5.2,4,True,False,True,9,keep,,,True
+5.6,Tünel Bakım-Onarım ve İşletme Maliyetlerini Etkileyen Faktörler,5,2,True,False,True,13,keep,,,True
+5.7,Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi,5,2,True,False,True,12,keep,,,True
+5.7.1,Bakım-İşletme Maliyetini Azaltma Yöntemleri,5.7,3,True,False,True,11,keep,,,True
+5.7.2,Enerji Maliyetini Azaltma Yöntemleri,5.7,3,True,False,True,11,keep,,,True
+5.8,Devlet ve İl Yollarında Bulunan Tünel Bakım İşletme Şeflikleri,5,2,True,False,True,12,keep,,,True
+5.9,Ulusal ve Uluslararası Literatür Taraması,5,2,False,False,False,0,inactive,tez yapısı; kaynaklar kitap sonunda listelenir,,True
+5.9.1,Ulusal Literatür Taraması,5.9,3,False,False,False,0,inactive,tez yapısı,,True
+5.9.2,Uluslararası Literatür Taraması,5.9,3,False,False,False,0,inactive,tez yapısı,,True
+6,TÜNEL YAPIM MALİYETLERİ,,1,True,False,False,0,chapter,,,True
+6.1,"Çalışmanın Amacı, Kapsamı, Yöntem ve Kullanılan Verileri",6,2,False,False,False,0,inactive,tez yapısı; 5.1–5.3 ile tekrar,,True
+6.1.1,Çalışmanın Amacı ve Önemi,6.1,3,False,False,False,0,inactive,tez yapısı; 5.1 ile tekrar,,True
+6.1.2,Çalışmanın Kapsamı,6.1,3,False,False,False,0,inactive,tez yapısı; 5.2 ile tekrar,,True
+6.1.3,Çalışmanın Yöntemi,6.1,3,False,False,False,0,inactive,tez yapısı; 5.3 ile tekrar,,True
+6.2,Ulusal ve Uluslararası Literatür Taraması (Mehmet Çelikkaya),6,2,False,False,False,0,inactive,tez yapısı; başlıkta tez yazarı adı,,True
+6.2.1,Ulusal Literatür Taraması,6.2,3,False,False,False,0,inactive,tez yapısı,,True
+6.2.2,Uluslararası Literatür Taraması,6.2,3,False,False,False,0,inactive,tez yapısı,,True
+6.3,Tünel Yapım Maliyet Kalemleri ve Birim Fiyat Analizleri,6,2,True,False,True,13,new,,,False
+6.4,Yapım Yöntemine Göre Maliyet Karşılaştırması,6,2,False,False,False,0,inactive,corpus desteği yok; 2.2.3 türü destek riski,,True
+6.5,Türkiye ve Dünya Tünel Yapım Maliyeti Örnekleri,6,2,False,False,False,0,inactive,corpus desteği yok; 2.2.3 türü destek riski,,True
+6.6,Yapım Maliyeti Sapmaları: Bütçe Aşımı ve Nedenleri,6,2,False,False,False,0,inactive,corpus desteği yok; 2.2.3 türü destek riski,,True
+7,"ARAŞTIRMANIN BULGULARI, SONUÇLAR VE ÖNERİLER",,1,True,False,False,0,chapter,,,True
+7.1,Tünel Bakım-İşletme Maliyetleri,7,2,True,False,True,9,keep,,HUMAN_ANALYSIS_ARTIFACT_REQUIRED,True
+7.2,Tünel Yapım Maliyetleri,7,2,True,False,True,9,keep,,HUMAN_ANALYSIS_ARTIFACT_REQUIRED,True

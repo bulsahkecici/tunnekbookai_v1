@@ -28,11 +28,12 @@ yeniden yazılmış soru bankası**. Onaylandığında `book/scope/normalized/` 
 | Pasif | 6.1, 6.1.1, 6.1.2, 6.1.3, 6.2, 6.2.1, 6.2.2 | 5.x ile aynı tez yapısının tekrarı; 6.2 başlığında tez yazarı adı var |
 | İnsan analizi | 7.1, 7.2 | Araştırma bulguları; corpus'tan değil proje verisinden yazılır |
 | Yeni | 3.1, 3.2, 3.3 | Bölüm 3'ün hiç alt başlığı yoktu; corpus'ta KGM envanter, seminer ve proje belgeleri var |
-| Yeni | 4.2, 4.3, 4.3.1–4.3.4 | Kaynak taslakta "…" ile boş bırakılan maliyet analizi başlıkları |
-| Yeni | 6.3, 6.4, 6.5, 6.6 | Bölüm 6'nın tez başlıkları çıkınca içeriği kalmıyordu; yapım maliyeti gövdesi |
+| Yeni | 4.3, 4.3.1 | Kaynak taslakta "…" ile boş bırakılan maliyet analizi başlıklarından kalanlar; 4.3 kendi genel-yöntem sorularıyla aktif tutuldu çünkü 4.3.1 ve 4.3.5'in aktif ebeveyni olması gerekiyor (şema kuralı: aktif alt başlık altında aktif üst başlık) |
+| Yeni | 6.3 | Bölüm 6'nın tez başlıkları çıkınca içeriği kalmıyordu; yapım maliyeti gövdesinden corpus desteği olan tek başlık |
+| Pasif | 4.2, 4.3.2, 4.3.3, 4.3.4, 6.4, 6.5, 6.6 | Corpus'ta bu başlıklar için doğrudan destek yok (classification bu numaralara hiç belge atamamış); 2.2.3'te yaşanan destek sorununun büyüğünü önlemek için pasifleştirildi |
 
-Aktif soru bölümü sayısı: 59 → 59 (13 pasif, 13 yeni). Soru sayısı: 2.950 → yaklaşık 690.
-Bölüm başına soru sayısı sabit değildir; konteyner başlıklar (4.3, 5.5.2) daha az soru taşır.
+Aktif soru bölümü sayısı: 59 → 52 (20 pasif, 6 yeni). Soru sayısı: 2.950 → 628.
+Bölüm başına soru sayısı sabit değildir; konteyner başlıklar (5.5.2) daha az soru taşır.
 
 ---
 
@@ -582,18 +583,7 @@ Bölüm başına soru sayısı sabit değildir; konteyner başlıklar (4.3, 5.5.
 12. Tünel maliyetleri diğer karayolu yapılarıyla (köprü, viyadük, yarma) nasıl karşılaştırılır?
 13. Türkiye'de kamu yatırım maliyet terminolojisi ve mevzuatı (Kamu İhale Kanunu, KGM birim fiyatları) nasıldır?
 
-## 4.2 Karayolu Altyapı Yatırımlarında Maliyet Bileşenleri {new}
-
-1. Karayolu altyapı yatırımının maliyet bileşenleri (etüt-proje, kamulaştırma, yapım, denetim, işletme, bakım) nelerdir?
-2. Yapım maliyeti içinde tünel, köprü/viyadük ve yol gövdesi paylarının tipik dağılımı nasıldır?
-3. Elektromekanik ve güvenlik sistemleri toplam altyapı maliyetinde nasıl ayrı bir bileşen olarak ele alınır?
-4. İşletme maliyetleri (personel, enerji, trafik yönetimi) nasıl sınıflandırılır?
-5. Bakım maliyetleri (rutin, periyodik, yapısal, acil) nasıl sınıflandırılır?
-6. Sermaye maliyeti ve finansman giderleri (yap-işlet-devret, kamu-özel işbirliği) maliyet bileşenlerine nasıl girer?
-7. Kullanıcı ve toplumsal maliyetler karayolu yatırım kararlarına nasıl dahil edilir?
-8. Altyapı maliyet bileşenlerinin zaman içindeki dağılımı (nakit akış profili) nasıl gösterilir?
-9. Tünelli güzergâhlar tünelsiz alternatiflerle maliyet bileşenleri bazında nasıl karşılaştırılır?
-10. Maliyet bileşenlerinin izlenmesi ve raporlanması için kullanılan hesap yapıları (iş kırılım yapısı, poz sistemi) nelerdir?
+## 4.2 Karayolu Altyapı Yatırımlarında Maliyet Bileşenleri {inactive: corpus desteği yok; 2.2.3 türü destek riski}
 
 ## 4.3 Tünel Maliyet Analizi Yöntemleri {new}
 
@@ -619,44 +609,11 @@ Bölüm başına soru sayısı sabit değildir; konteyner başlıklar (4.3, 5.5.
 9. Elektromekanik iş kalemlerinin birim fiyat esaslı tahmini nasıl yapılır?
 10. Tamamlanmış KGM tünel projelerinde keşif ile gerçekleşen maliyet nasıl karşılaştırılır?
 
-## 4.3.2 Parametrik ve İstatistiksel Maliyet Modelleri {new}
+## 4.3.2 Parametrik ve İstatistiksel Maliyet Modelleri {inactive: corpus desteği yok; 2.2.3 türü destek riski}
 
-1. Parametrik maliyet tahmini nedir ve tünellerde hangi parametreler (uzunluk, kesit, kaya sınıfı, yöntem) kullanılır?
-2. Km başına ve m³ başına maliyet göstergeleri nasıl türetilir ve normalize edilir?
-3. Regresyon tabanlı tünel maliyet modelleri literatürde nasıl kurulmuştur?
-4. Yapay zekâ ve makine öğrenmesi yöntemleri tünel maliyet tahmininde nasıl kullanılmaktadır?
-5. Uluslararası tünel maliyet veri tabanları ve karşılaştırma indeksleri nelerdir?
-6. Ülkeler arası maliyet karşılaştırmasında satın alma gücü ve fiyat düzeyi düzeltmeleri nasıl yapılır?
-7. Parametrik modellerin doğruluğu ve kullanım sınırları nelerdir?
-8. Erken aşama (fizibilite) tahminlerinde parametrik yöntem nasıl uygulanır?
-9. Türkiye tünel projeleri için parametrik model kurmak üzere hangi veriler gereklidir?
-10. Parametrik ve birim fiyat yöntemleri birlikte nasıl kullanılır?
+## 4.3.3 Fayda-Maliyet ve Yatırım Değerlendirme {inactive: corpus desteği yok; 2.2.3 türü destek riski}
 
-## 4.3.3 Fayda-Maliyet ve Yatırım Değerlendirme {new}
-
-1. Fayda-maliyet analizi tünel yatırımlarında nasıl uygulanır?
-2. Net bugünkü değer, iç verim oranı ve fayda/maliyet oranı nasıl hesaplanır?
-3. Tünel yatırımlarının faydaları (zaman tasarrufu, araç işletme maliyeti, kaza azalması, çevresel fayda) nasıl parasallaştırılır?
-4. İskonto oranı seçimi ve analiz dönemi sonuçları nasıl etkiler?
-5. Duyarlılık ve senaryo analizi fayda-maliyet analizinde nasıl yapılır?
-6. Çok kriterli karar analizi fayda-maliyet analizini nasıl tamamlar?
-7. Geçiş ücretli tünellerde finansal analiz ile ekonomik analiz ayrımı nasıl yapılır?
-8. Kamu-özel işbirliği modellerinde yatırım değerlendirme nasıl farklılaşır?
-9. Türkiye'de kamu yatırım programında tünel projelerinin fizibilite esasları nelerdir?
-10. Uluslararası örneklerde (Antwerp, Norveç vb.) tünel fayda-maliyet analizleri hangi sonuçları vermiştir?
-
-## 4.3.4 Risk ve Belirsizliğin Maliyete Yansıtılması {new}
-
-1. Tünel projelerinde maliyet riski ve belirsizliğin kaynakları nelerdir?
-2. Beklenmedik durum (contingency) payı nasıl belirlenir?
-3. Olasılıksal maliyet tahmini (Monte Carlo simülasyonu) tünellerde nasıl uygulanır?
-4. Jeolojik risklerin maliyete etkisi nasıl modellenir?
-5. Risk kaydı ile maliyet tahmini nasıl ilişkilendirilir?
-6. Referans sınıfı tahmini ve iyimserlik yanlılığı düzeltmesi nedir?
-7. Sözleşme tipine göre risk paylaşımı maliyeti nasıl değiştirir?
-8. Sigorta ve garanti maliyetleri tünel projelerinde nasıl ele alınır?
-9. Uluslararası maliyet aşımı istatistikleri tüneller için ne göstermektedir?
-10. Türkiye'de tünel projelerinde risk payı uygulaması ve iş artışları nasıl gerçekleşmektedir?
+## 4.3.4 Risk ve Belirsizliğin Maliyete Yansıtılması {inactive: corpus desteği yok; 2.2.3 türü destek riski}
 
 ## 4.3.5 Tünel Yaşam Döngü Maliyetleri {keep}
 [corpus: 7/1]
@@ -935,44 +892,11 @@ Bölüm başına soru sayısı sabit değildir; konteyner başlıklar (4.3, 5.5.
 12. Maliyet kalemlerinin metraj ve hakediş süreçleriyle ilişkisi nasıldır?
 13. Türkiye ve uluslararası birim maliyetler nasıl karşılaştırılır?
 
-## 6.4 Yapım Yöntemine Göre Maliyet Karşılaştırması {new}
+## 6.4 Yapım Yöntemine Göre Maliyet Karşılaştırması {inactive: corpus desteği yok; 2.2.3 türü destek riski}
 
-1. Delme-patlatma/NATM ile TBM maliyetleri hangi koşullarda nasıl karşılaştırılır?
-2. TBM'nin ekonomik olduğu asgari tünel uzunluğu nasıl belirlenir?
-3. Aç-kapa ve batırma tüp yöntemlerinin maliyet yapısı nasıldır?
-4. Yöntem seçiminin süreye ve dolayısıyla genel gider maliyetine etkisi nedir?
-5. Kaya sınıfı dağılımının yöntem bazlı maliyete etkisi nasıl modellenir?
-6. Tek tüp geniş kesit ile çift tüp seçeneklerinin maliyet karşılaştırması nasıl yapılır?
-7. Kesit büyüklüğünün yöntem bazlı maliyete etkisi nedir?
-8. Yöntem bazlı maliyet karşılaştırmasında risk ve belirsizlik nasıl dahil edilir?
-9. Uluslararası literatürde yöntem bazlı maliyet karşılaştırmaları hangi sonuçları vermiştir?
-10. Türkiye'de NATM ve TBM tünel projelerinin gerçekleşen maliyetleri nasıl karşılaştırılır?
+## 6.5 Türkiye ve Dünya Tünel Yapım Maliyeti Örnekleri {inactive: corpus desteği yok; 2.2.3 türü destek riski}
 
-## 6.5 Türkiye ve Dünya Tünel Yapım Maliyeti Örnekleri {new}
-
-1. Türkiye'de tamamlanmış karayolu tünellerinin yapım maliyetleri ve km başına maliyetleri nedir?
-2. KGM ihale ve sözleşme verilerinden tünel maliyet göstergeleri nasıl türetilir?
-3. Avrupa'daki karayolu tünel projelerinin km başına maliyetleri hangi aralıktadır?
-4. Norveç, İsviçre ve Avusturya gibi ülkelerde tünel maliyet düzeyleri ve nedenleri nelerdir?
-5. Uzak Doğu ve Amerika'daki tünel maliyet örnekleri nelerdir?
-6. Ülkeler arası maliyet farklarının nedenleri (iş gücü, standartlar, jeoloji, sözleşme kültürü) nelerdir?
-7. Kentsel ve dağ tünellerinin maliyet farkları nasıl açıklanır?
-8. Metro ve demiryolu tünelleri karayolu tünelleriyle maliyet açısından nasıl karşılaştırılır?
-9. Maliyet örneklerinin karşılaştırılabilir hale getirilmesi (yıl, kur, kapsam düzeltmesi) nasıl yapılır?
-10. Türkiye tünel maliyetlerinin uluslararası düzeyle karşılaştırılmasından hangi sonuçlar çıkar?
-
-## 6.6 Yapım Maliyeti Sapmaları: Bütçe Aşımı ve Nedenleri {new}
-
-1. Tünel projelerinde maliyet aşımı nasıl tanımlanır ve ölçülür?
-2. Maliyet aşımının başlıca nedenleri (jeolojik sürpriz, tasarım değişikliği, kapsam artışı, süre uzaması) nelerdir?
-3. Uluslararası istatistiklerde tünel projelerinde ortalama maliyet aşımı oranları nedir?
-4. Süre uzaması ile maliyet aşımı arasındaki ilişki nasıl ölçülür?
-5. Aşırı kazı, destek sınıfı değişimi ve su girişi gibi jeolojik sapmalar maliyete nasıl yansır?
-6. Sözleşme ve ihale yapısının (düşük teklif, iş artışı, fiyat farkı) maliyet sapmasına etkisi nedir?
-7. Erken aşama tahmin yetersizliği (iyimserlik yanlılığı) nasıl düzeltilir?
-8. Maliyet kontrolü ve kazanılmış değer yönetimi tünellerde nasıl uygulanır?
-9. Türkiye'de tünel projelerinde keşif–gerçekleşme farkları ve iş artışı uygulaması nasıldır?
-10. Maliyet sapmalarını azaltmak için proje yönetimi önerileri nelerdir?
+## 6.6 Yapım Maliyeti Sapmaları: Bütçe Aşımı ve Nedenleri {inactive: corpus desteği yok; 2.2.3 türü destek riski}
 
 ## 7 ARAŞTIRMANIN BULGULARI, SONUÇLAR VE ÖNERİLER {chapter}
 
