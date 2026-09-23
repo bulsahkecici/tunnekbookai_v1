@@ -680,3 +680,56 @@ olarak kullanılmalıdır.
 - Sıradaki: kullanıcı kararı — (a) yeniden işlenecek belge kümesi (öneri: ≥25 bozuk chunk'lı
   12 belge; tamamı 26), (b) VLM'nin yüklenmesi, (c) `canonical plan` → `--approve` ile
   `REPLACE`, (d) `build-index` (vektör yeniden kullanımı) ve `evidence-audit`.
+
+### 2026-09-23 — Boş altyazı sırasında görünen istenmeyen metin için kaynak incelemesi
+
+- Amaç: boş altyazı aralıklarında görüldüğü bildirilen “İzlediğiniz için teşekkürler” ve
+  “Altyazı M.K” metinlerinin projedeki kaynağını bulup kaldırmak.
+- İnceleme: izlenen kaynak dosyaları ile dashboard, ingest ve test kodlarında birebir metin;
+  ayrıca `altyazı`, `subtitle`, `caption`, `transcript`, `speech`, `audio`, `video` ve ilgili
+  yazım varyasyonları arandı. Projede altyazı/ses transkripsiyon bileşeni veya bildirilen
+  sabit metin bulunmadı; değişen belge/chunk sayısı **0**, kod değişikliği **0**.
+- Doğrulama: `rg` tabanlı kaynak taraması yalnızca belge figür/tablo açıklamalarına ait
+  `caption` kullanımlarını gösterdi; bildirilen davranış yeniden üretilemedi. Semantik arama
+  yapılmadı.
+- Bilinen sınırlama ve sıradaki işlem: düzeltme için ilgili video/altyazı dosyasının ya da
+  davranışın görüldüğü uygulama/proje yolunun belirtilmesi gerekiyor.
+
+### 2026-09-23 — v2 soru bankası taslağının incelenmesi, corpus desteksiz başlıkların pasifleştirilmesi ve normalize-inputs geçişi
+
+- Amaç: [[book-pipeline-restructure-2026-09]] incelemesinde kullanıcıya bırakılan üç karardan
+  ilkini kapatmak — 698 soruluk v2 taslağını (`book/question_bank/drafts/
+  question_bank_v2_draft.md`) kullanıcıyla birlikte gözden geçirip onaylanan haliyle v1→v2
+  sözleşme geçişini yapmak.
+- İnceleme: taslağın 1003 satırı uçtan uca okundu. Sekiz yeni alt başlıkta (4.2, 4.3, 4.3.2–
+  4.3.4, 6.4–6.6) diğer yeni başlıkların aksine hiç elle yazılmış corpus-destek notu yoktu —
+  2.2.3'te önceki incelemede tespit edilen "template soru, destek yok" sorununun büyük
+  ölçekli tekrarı riski. Kullanıcı bu 8 başlığı pasifleştirme kararı verdi.
+- Değişiklik: 4.2, 4.3.2, 4.3.3, 4.3.4, 6.4, 6.5, 6.6 `{inactive: corpus desteği yok; 2.2.3
+  türü destek riski}` olarak işaretlendi, soruları (77 adet) kaldırıldı. 4.3 kendi 7 sorusuyla
+  aktif bırakıldı: `normalize.py` şeması aktif alt başlığın (4.3.1, 4.3.5) aktif bir ebeveyni
+  olmasını zorunlu kılıyor ve orta seviye başlıklarda soru taşımayan `{chapter}` etiketine
+  izin vermiyor (yalnızca üst düzey başlıklar chapter olabilir) — ilk deneme bu yüzden
+  `BOOK_INPUT_INVALID` ile reddedildi, düzeltilip yeniden çalıştırıldı. Taslak özeti ve
+  sayaçları güncellendi: 59→52 aktif bölüm (20 pasif, 6 yeni), 698→628 soru.
+- `python -m tunnelbookai.book normalize-inputs` çalıştırıldı → `NORMALIZED`/`PASS`.
+  `book_contract.json` `book-production-v2-reviewed-scope` olarak yeniden mühürlendi
+  (`contract_sha256 034bb226...`); `book_scope`, `question_bank` (52 bölüm / 628 soru),
+  `question_bank_integrity`, `source_manifest` normalize edilmiş çıktıları yeniden üretildi.
+  Değişen dosyalar: `book/config/book_contract.json`, `book/question_bank/drafts/
+  question_bank_v2_draft.md`, `book/question_bank/normalized/{question_bank.csv,jsonl,
+  question_bank_index.json}`, `book/scope/normalized/{book_scope.csv,json}`,
+  `book/audits/{question_bank_integrity.json,source_manifest.json}`.
+- Doğrulama: `normalize-inputs` çıktısı `"decision": "PASS"`, `question_bank_sections: 52`,
+  `total_questions: 628`, `global_minimum_answered_count: 377` (0.6 kapsama eşiği). Test
+  paketi bu oturumda tekrar koşulmadı (kod değişmedi, yalnızca veri/sözleşme normalize
+  edildi). Commit `8e0983e`, `origin/main`'e push edildi.
+- Bilinen sınırlama: bu geçiş tüm önceki audit kimliklerini ve dondurulmuş 1.1 bölümünü
+  geçersiz kılar (kasıtlı, tek seferlik — [[book-pipeline-restructure-2026-09]]). 4.3'ün
+  kendi 7 sorusu da elle yazılmış corpus notu taşımıyor; genel metodoloji sorusu olduğu için
+  tutuldu ama evidence-audit'te 2.2.3 gibi düşük destek çıkarsa ayrıca gözden geçirilmeli.
+- Sıradaki: VLM LM Studio'ya yüklendi (`qwen3-vl-8b-instruct-mlx`, `vision/provider.py`
+  autodetect filtresiyle — adında "vl" — uyumlu, doğrulandı). Sırada: 26 belgenin tamamı
+  için `ingest --reprocess-canonical` → canonical `plan/apply` (kullanıcı `--approve
+  CCP_...` onayı) → `build-index` (vektör yeniden kullanımı) → v2 ile tam `evidence-audit`
+  (~628 soru, tahmini ~2 saat).
