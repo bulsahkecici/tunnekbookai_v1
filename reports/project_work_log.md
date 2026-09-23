@@ -733,3 +733,65 @@ olarak kullanılmalıdır.
   için `ingest --reprocess-canonical` → canonical `plan/apply` (kullanıcı `--approve
   CCP_...` onayı) → `build-index` (vektör yeniden kullanımı) → v2 ile tam `evidence-audit`
   (~628 soru, tahmini ~2 saat).
+
+### 2026-09-23 — glyph_repair yoğunluk eşiği düzeltmesi ve 25 bozuk belgenin reprocess'e alınması
+
+- Amaç: [[book-pipeline-restructure-2026-09]]'da kullanıcıya bırakılan üçüncü kararı
+  (26 bozuk belgenin tamamının yeniden işlenmesi) uygulamaya başlamak. Önce hangi
+  belgelerin gerçekten hasarlı olduğunu `tunnelbookai/ingest/glyph_repair.py`'nin üretim
+  algılama mantığıyla (`damage_stats`) tazeden tespit etmek gerekti — elde geçmişten kalma
+  "26 belge" listesini gösteren bir audit dosyası yoktu, yalnızca rapor metninde bir sayı
+  vardı.
+- Bulgu (kod hatası): `damage_stats` tüm belge metninde tek bir yoğunluk eşiği
+  (`MIN_DENSITY = 1/2000`) uyguluyordu. **KARAYOLU TEKNİK ŞARTNAMESİ 2013** gibi çok büyük
+  belgelerde (2,53M karakter) 534 izole bozuk glyph olmasına rağmen belge-geneli yoğunluk
+  eşiğin altında kalıyordu (0.000211 < 0.0005); `repair_extraction()` bu nedenle belgeyi
+  sessizce `damaged: false` sayıp atlıyordu — yani bu belge yeniden işlense bile glyph'ler
+  düzelmeyecekti. Aynı seyrelme riski 8 belge daha için geçerliydi (SCADA kurs notları,
+  Tünelcilik dergisi, KGM Tünel Haritası 2024 vb.).
+- Düzeltme: `tunnelbookai/ingest/glyph_repair.py`'ye `WINDOW_CHARS = 20000` ve
+  `_max_window_density()` eklendi; `damage_stats` artık belge-geneli eşiği geçemeyen ama
+  ≥8 izole glyph içeren belgelerde 20.000 karakterlik pencerelerin en yoğununu da kontrol
+  ediyor. `tests/ingest/test_glyph_repair.py`'ye bu senaryoyu kanıtlayan
+  `test_locally_damaged_section_is_flagged_despite_low_document_wide_density` eklendi.
+- Doğrulama: `tests/ingest/test_glyph_repair.py` 6/6 geçti; `tests/ingest/` tam paketi
+  249 testten 248'i geçti (tek hata `test_canonical_baseline_counts`, 66≠79 — glyph
+  değişikliğiyle ilgisiz, önceki v2 `normalize-inputs` geçişinin beklenen ama henüz
+  düzeltilmemiş yan etkisi; ayrı iş kalemi).
+- Düzeltilmiş eşikle canonical corpus'un tamamı (656 belge, `corpus/canonical/
+  canonical_manifest.json`) yeniden tarandı: **25 belge** `damaged: true` — geçmişteki
+  "26" ile pratikte aynı hedef küme (KGM 1950 el kitabı [`ING_a23b1e815eedc4a3c978`], iki
+  tez [KTÜ `ING_674564f8c6d600238ac2`, YTÜ `ING_2005c18d2148fb921826`], Türkiye Tünelcilik
+  Semineri 2 sürüm, Bolu Dağı, Marmaray, KGM Teknik Şartnamesi 2013 dahil). Tam liste ve
+  occurrence/density değerleri bu kaydın altındadır.
+- `scripts/ingest_incoming.py --reprocess-canonical <25 id>` önce `--dry-run` ile
+  doğrulandı (25 belge, 33 kayıtlı provenance kaynağı — bazı belgelerin birden fazla
+  provenance kaydı var; `audit/ingest_dry_run.json`'da 25 benzersiz `document_id`
+  doğrulandı), sonra gerçek koşu arkaplan görevi `bfjy75hr1` olarak başlatıldı (OCR + VLM +
+  classification tam pipeline; `--no-ocr`/`--no-vision`/`--no-arbiter` verilmedi). Log:
+  `scratchpad/reprocess_26.log`. Bu koşunun tamamlanma sonucu ayrı bir kayıtla eklenecek.
+- Bilinen sınırlama: bu tarama yalnızca `document.md` (birleştirilmiş normalize edilmiş
+  metin) üzerinde çalışıyor; asıl reprocess sırasında extraction'dan gelen ham metin
+  farklı bölünmüş olabilir, bu yüzden gerçek onarım sonuçları (`isolated_glyphs_after`)
+  bu taramadaki sayılarla birebir eşleşmeyebilir. `--reprocess-canonical` yalnızca
+  `processing/<id>/` türetilmiş çıktıları yeniler; canonical'a yansıması ayrı bir
+  `canonical plan/apply` (`--approve`) adımı gerektirir — henüz çalıştırılmadı.
+- Sıradaki: reprocess koşusu bitince sonuçları doğrula (her belgede
+  `TURKISH_GLYPH_SPACING_REPAIRED:<n>` uyarısı var mı, `isolated_glyphs_after` sıfıra
+  yakın mı) → canonical `plan` çıkar → kullanıcı `--approve CCP_...` → `build-index`
+  (vektör yeniden kullanımı) → v2 ile tam `evidence-audit`.
+
+Taranan 25 belge (document_id | occurrences | chars | density):
+ING_a23b1e815eedc4a3c978|11310|446936|0.0253; ING_674564f8c6d600238ac2|10736|304075|0.0353;
+ING_2005c18d2148fb921826|6177|512491|0.0121; ING_ef74fd1d060d31f37486|1811|33552|0.0540;
+ING_746d18498e07a8a0f397|1476|1376762|0.0011; ING_7f177b472ed62ef80108|962|22996|0.0418;
+ING_784b14ff9e8444a97c6d|710|29185|0.0243; ING_312befcda2ff316b7279|534|2528595|0.0002;
+ING_c736114ad7d9ac29557c|467|12722|0.0367; ING_abc6dcf8e707da2f77f6|442|22639|0.0195;
+ING_f036fbe6cc100faef49c|338|9435|0.0358; ING_752100774713db4bce1b|335|8368|0.0400;
+ING_3fcd94bb525756ba52ca|331|281125|0.0012; ING_17e5e4aa41637a66b3de|300|17737|0.0169;
+ING_290648f6f7fc8e05fe81|206|5455|0.0378; ING_249d0d30e2d019269dcc|190|250529|0.0008;
+ING_7e795b9a47c89f5406c5|90|456591|0.0002; ING_339e05e3358e01b537d8|74|317717|0.0002;
+ING_cbf08cc5651cbc903a95|63|53098|0.0012; ING_04c57c21fdf18e5176f0|60|12103|0.0050;
+ING_161788a110d058683acf|48|43576|0.0011; ING_1fb6b71a35f819248daf|41|1220632|0.00003;
+ING_49577e05781c8bbe2d72|24|413162|0.00006; ING_686f2fed7a37fea40455|19|466453|0.00004;
+ING_5f9b220f6592b0ab2b78|18|31531|0.0006

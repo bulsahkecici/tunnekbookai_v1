@@ -7,6 +7,7 @@ from pathlib import Path
 
 from tunnelbookai.ingest.extraction import ExtractionResult, write_normalized
 from tunnelbookai.ingest.glyph_repair import (
+    MIN_DENSITY,
     Lexicon,
     build_lexicon,
     damage_stats,
@@ -47,6 +48,18 @@ class GlyphRepairTests(unittest.TestCase):
         self.assertIn("\n\n", repaired)
         self.assertFalse(damage_stats("Kısa metin ı burada")["damaged"])
         self.assertTrue(damage_stats(" ".join(["kelime ı"] * 20))["damaged"])
+
+    def test_locally_damaged_section_is_flagged_despite_low_document_wide_density(self):
+        # A large, mostly clean document (e.g. a full technical specification) can have
+        # one corrupted section from a bad font program; whole-document density hides
+        # this, so damage_stats must also catch it via the local window check.
+        clean_padding = "Tünel kazısı ve destekleme çalışmaları devam etmektedir. " * 2000
+        damaged_section = " ".join(["kelime ı"] * 20)
+        text = clean_padding + damaged_section + clean_padding
+        stats = damage_stats(text)
+        self.assertGreater(stats["chars"], 200000)
+        self.assertLess(stats["density"], MIN_DENSITY)
+        self.assertTrue(stats["damaged"])
 
     def test_build_lexicon_skips_damaged_text_and_keeps_apostrophe_suffixes_attached(self):
         words = dict(build_lexicon(["KGM'nin tünelleri tünelleri", "damaged ı text ı " * 10], minimum_frequency=1))

@@ -28,6 +28,11 @@ SPECIAL = "ışğüöçİŞĞÜÖÇ"
 MIN_DENSITY = 1.0 / 2000.0  # one isolated glyph per 2,000 characters
 MIN_OCCURRENCES = 8
 MAX_RUN_GLYPHS = 8
+# A broken font program usually covers a contiguous run of pages, not a whole large
+# document, so the document-wide density can dilute below MIN_DENSITY even though a
+# section is badly damaged; damage_stats also checks this window so such sections are
+# still repaired (~5-10 pages of body text).
+WINDOW_CHARS = 20000
 
 _ISOLATED = re.compile(rf"(?<!\S)[{SPECIAL}](?!\S)")
 # Apostrophe suffixes stay attached (``KGM'nin``) so bare suffixes are never harvested as words.
@@ -68,14 +73,30 @@ def load_lexicon(path: Path) -> Lexicon:
     return lexicon
 
 
+def _max_window_density(text: str, window: int = WINDOW_CHARS) -> tuple[int, float]:
+    best_occurrences = 0
+    best_density = 0.0
+    for start in range(0, len(text), window):
+        chunk_occurrences = len(_ISOLATED.findall(text[start:start + window]))
+        chunk_density = chunk_occurrences / max(min(window, len(text) - start), 1)
+        if chunk_occurrences > best_occurrences:
+            best_occurrences, best_density = chunk_occurrences, chunk_density
+    return best_occurrences, best_density
+
+
 def damage_stats(text: str) -> dict[str, Any]:
     occurrences = len(_ISOLATED.findall(text))
     chars = max(len(text), 1)
+    density = occurrences / chars
+    damaged = occurrences >= MIN_OCCURRENCES and density >= MIN_DENSITY
+    if not damaged and occurrences >= MIN_OCCURRENCES and chars > WINDOW_CHARS:
+        window_occurrences, window_density = _max_window_density(text)
+        damaged = window_occurrences >= MIN_OCCURRENCES and window_density >= MIN_DENSITY
     return {
         "isolated_glyphs": occurrences,
         "chars": len(text),
-        "density": occurrences / chars,
-        "damaged": occurrences >= MIN_OCCURRENCES and occurrences / chars >= MIN_DENSITY,
+        "density": density,
+        "damaged": damaged,
     }
 
 
