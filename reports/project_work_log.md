@@ -845,3 +845,27 @@ ING_5f9b220f6592b0ab2b78|18|31531|0.0006
 - Sıradaki: canonical `plan --document-id <25>` çalıştır → planı kullanıcıya göster →
   kullanıcının `--approve CCP_...` onayı → `apply` → `build-index` → v2 ile tam
   `evidence-audit`.
+
+### 2026-09-23 — Canonical promosyon planı üretildi (23 REPLACE), kullanıcı onayı bekleniyor
+
+- Amaç: canonical bütünlüğü onarıldıktan sonra 25 belge için `canonical plan` çalıştırmak.
+- İlk deneme (25 belge, hepsi): `CCP_348ee4ed...`, `applicable: False`. 2 belge
+  (`ING_ef74fd1d060d31f37486`, `ING_49577e05781c8bbe2d72` — reprocess sonucu REVIEW
+  durumundaki ikisi) `PROCESSING_IDENTITY_MISMATCH` / "staging differs from processing:
+  document.md" ile REJECTED döndü, çünkü REVIEW kararı staging'e hiç girmemişlerini
+  gösteriyor. `promotion.py`'de `applicable = bool(candidates) and all(action is not
+  REJECTED ...)` — tek bir REJECTED bile tüm planı uygulanamaz kılıyor, `apply` da
+  `applicable: False` planı hard-refuse ediyor (`INVALID_CANONICAL_PROMOTION_PLAN`).
+- İkinci deneme, bu 2 belge çıkarılıp kalan 23 GO belgesiyle: **`CCP_282db20c1ac99b98
+  ca543b9ae803ece567460a5d994bb6fd1f292b5d4f90577e`**, `applicable: True`, 23/23 REPLACE.
+  Plan dosyası: `audit/canonical_promotions/plans/CCP_282db20c....json`. DRY RUN —
+  canonical, originals, processing, staging henüz değişmedi.
+- 2 REVIEW belgesi (`LOW_SECTION_CONFIDENCE`) bu turun dışında bırakıldı; ayrı bir karar
+  konusu (classification güven sorunu çözülüp yeniden mi işlensin, yoksa mevcut REVIEW
+  durumuyla mı kalsın — kullanıcı kararı).
+- Doğrulama: plan JSON'u okundu, 23 REPLACE + kaynak SHA256'ları + chunk sayıları
+  doğrulandı; `Applicable: True`.
+- Sıradaki (kullanıcı onayı bekliyor): `canonical apply --plan audit/canonical_promotions/
+  plans/CCP_282db20c1ac99b98ca543b9ae803ece567460a5d994bb6fd1f292b5d4f90577e.json --approve
+  CCP_282db20c1ac99b98ca543b9ae803ece567460a5d994bb6fd1f292b5d4f90577e` → sonra
+  `build-index` (vektör yeniden kullanımı) → v2 ile tam `evidence-audit`.
