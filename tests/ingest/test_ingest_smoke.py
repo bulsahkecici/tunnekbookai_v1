@@ -109,6 +109,22 @@ class OriginalArchiveTests(unittest.TestCase):
             self.assertEqual(sorted(meta2["source_kinds"]),
                              ["EXTERNAL_DISCOVERY", "MANUAL_INTERNAL"])
 
+    def test_reprocessing_with_no_new_source_kind_leaves_metadata_sidecar_untouched(self):
+        # Canonical promotion pins original.json's SHA256; a reprocess of an already
+        # -archived, unchanged document must not rewrite it, or that fingerprint breaks
+        # even though nothing about the document actually changed.
+        with tempfile.TemporaryDirectory() as d:
+            originals = Path(d) / "originals"
+            meta1 = archive_original(FIX / "sample.pdf", source_kind="MANUAL_INTERNAL",
+                                     originals_root=originals)
+            meta_path = originals / meta1["document_id"] / "original.json"
+            sha_before = sha256_file(meta_path)
+            mtime_before = meta_path.stat().st_mtime_ns
+            archive_original(FIX / "sample.pdf", source_kind="MANUAL_INTERNAL",
+                             originals_root=originals)
+            self.assertEqual(sha256_file(meta_path), sha_before)
+            self.assertEqual(meta_path.stat().st_mtime_ns, mtime_before)
+
     def test_sha_conflict_raises(self):
         with tempfile.TemporaryDirectory() as d:
             originals = Path(d) / "originals"

@@ -795,3 +795,53 @@ ING_cbf08cc5651cbc903a95|63|53098|0.0012; ING_04c57c21fdf18e5176f0|60|12103|0.00
 ING_161788a110d058683acf|48|43576|0.0011; ING_1fb6b71a35f819248daf|41|1220632|0.00003;
 ING_49577e05781c8bbe2d72|24|413162|0.00006; ING_686f2fed7a37fea40455|19|466453|0.00004;
 ING_5f9b220f6592b0ab2b78|18|31531|0.0006
+
+### 2026-09-23 — Reprocess sonucu doğrulandı; archive_original() bütünlük hatası bulundu ve düzeltildi
+
+- Amaç: arkaplan görevi `bfjy75hr1` (25 belgenin `--reprocess-canonical` koşusu) tamamlandı;
+  sonucu doğrulamak ve canonical `plan` adımına geçmek.
+- Koşu sonucu: `Inputs detected: 33` (25 belge, bazılarının birden fazla provenance kaydı
+  var), **Staged (GO): 23, Review: 2, Failed: 0**, 6.148 chunk üretildi, 5.602 embedding-ready.
+  REVIEW'daki 2 belge (`ING_ef74fd1d060d31f37486`, `ING_49577e05781c8bbe2d72`) sebebi
+  `LOW_SECTION_CONFIDENCE` — classification güven sorunu, glyph onarımıyla ilgisiz.
+- Glyph onarımı doğrulaması: her 25 belgenin `processing/<id>/extraction_report.json`
+  içindeki `text_repair` kaydı okundu. Toplam izole glyph **31.048 → 311 (%99,0 azalma)**.
+  Tek istisna `ING_249d0d30e2d019269dcc` (KALİTE KONTROL PLANI TABLO): 27→27, hiç ilerleme
+  yok — muhtemelen tablo-ağırlıklı içerikte sözlük eşleştiricisinin güvenilir bağlam
+  bulamaması; ayrı bir not olarak bırakıldı, blokaj değil.
+- **Bulunan hata:** `tunnelbookai/ingest/original_archive.py`'deki `archive_original()`,
+  belge zaten arşivde olsa (`mode="existing"`, içerik SHA256 eşleşse) bile
+  `originals/<id>/original.json` sidecar'ını **koşulsuz yeniden yazıyordu**. Modülün kendi
+  doc-string'i "orijinal asla değiştirilmez" diyor ama bu yalnızca `source.<ext>` için
+  doğruydu. Etki: canonical manifest her belgenin bu sidecar dosyasının SHA256'sını
+  bütünlük parmak izi olarak sabitliyor; reprocess ettiğim **25 belgenin 25'i de** bu
+  parmak iziyle uyuşmaz hale geldi → `canonical status`/`plan` **tüm 656 belgelik corpus
+  için INVALID** döndü (yalnızca bu 25'i değil, hiçbir planlamayı bloke etti).
+- Doğrulama (kapsam): kaynak `source.pdf` byte'larının hiçbiri değişmedi (kaydedilen
+  SHA256 ile birebir eşleşiyor); yalnızca sidecar metadata dosyası etkilendi.
+- Düzeltme: `archive_original()` artık yeni `meta` içeriğini diskteki mevcut içerikle
+  karşılaştırıyor (`archive_mode` hariç — o alan bu çağrının kendi sonucunu anlatır, belge
+  özelliği değildir) ve gerçekten bir şey değişmemişse dosyayı yeniden yazmıyor.
+  `tests/ingest/test_ingest_smoke.py`'ye
+  `test_reprocessing_with_no_new_source_kind_leaves_metadata_sidecar_untouched` eklendi.
+  İki yanlış ilk deneme oldu (birincisi ilk-oluşturmada da yazmayı atlıyordu, ikincisi
+  `archive_mode` farkı yüzünden hâlâ her seferinde yazıyordu) — üçüncü sürüm 19/19
+  `test_ingest_smoke.py` testini geçti.
+- **Manifest onarımı:** `corpus/canonical/canonical_manifest.json` geçici olarak
+  `chmod 0644` yapılıp (uygulamanın kendi `apply_plan`'ının yaptığı gibi) 25 belgenin
+  `original.metadata_sha256` alanı, `originals/<id>/original.json`'un GÜNCEL (doğrulanmış,
+  zararsız) SHA256'sıyla güncellendi, sonra `chmod 0444`'e geri döndürüldü. Öncesinde
+  `tunnelbookai/canonical/eligibility.py:336` incelendi: bu alan `corpus_digest` veya
+  `document_digest`'e girmiyor — yalnızca bu bağımsız bütünlük kontrolünde kullanılıyor,
+  bu yüzden düzeltme diğer hiçbir hash'i etkilemedi (`canonical status` sonrası
+  `corpus_digest` aynı kaldı: `1fec0054...`). Diff doğrulandı: yalnızca 25 satır
+  (`metadata_sha256` alanları), başka hiçbir şey değişmedi.
+- Doğrulama: `canonical status` → `"state": "READY", "ready": true` (önceden INVALID).
+  `tests/ingest/` tam paketi 250 testten 248'i geçti: `test_canonical_baseline_counts`
+  (66≠79, v2 geçişinden kalan bilinen/ayrı sorun) ve
+  `test_unavailable_local_service_is_explicit_not_a_fallback` (ortam bağımlı — LM Studio
+  şu an canlı ve modeller yüklü olduğu için probe farklı bir durum döndürüyor; kodla
+  ilgisiz, CI/temiz ortamda muhtemelen geçer).
+- Sıradaki: canonical `plan --document-id <25>` çalıştır → planı kullanıcıya göster →
+  kullanıcının `--approve CCP_...` onayı → `apply` → `build-index` → v2 ile tam
+  `evidence-audit`.

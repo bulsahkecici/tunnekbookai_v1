@@ -83,6 +83,7 @@ def archive_original(src: Path, *, source_kind: str, received_at: str | None = N
         "archive_path": relpath(dest),
     }
     meta_path = dest_dir / "original.json"
+    prev = None
     if meta_path.exists():
         prev = json.loads(meta_path.read_text(encoding="utf-8"))
         # preserve the earliest received_at; record every distinct source_kind
@@ -91,5 +92,11 @@ def archive_original(src: Path, *, source_kind: str, received_at: str | None = N
         meta["source_kinds"] = sorted(k for k in kinds if k)
     else:
         meta["source_kinds"] = [source_kind]
-    meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    # A reprocess of an already-archived document must leave this sidecar's bytes
+    # untouched when nothing actually changed: canonical promotion pins its SHA256,
+    # and a gratuitous rewrite (even byte-identical in substance) breaks that fingerprint.
+    # `archive_mode` describes this call's own outcome ("copied" vs "existing"), not a
+    # property of the document, so it never by itself justifies a rewrite.
+    if prev is None or prev != {**meta, "archive_mode": prev.get("archive_mode")}:
+        meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
     return meta
