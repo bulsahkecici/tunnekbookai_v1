@@ -1,0 +1,196 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "2.2.1",
+    "2.4.1"
+  ],
+  "final_section_confidence": 0.8107,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0001",
+        "HEAD0002",
+        "HEAD0006",
+        "PARA0020",
+        "PARA0022",
+        "PARA0023",
+        "PARA0024",
+        "PARA0025",
+        "PARA0141",
+        "PARA0163",
+        "PARA0172",
+        "PARA0192",
+        "PARA0199",
+        "PARA0218",
+        "PARA0231",
+        "PARA0232",
+        "PARA0234",
+        "PARA0236",
+        "PARA0237",
+        "PARA0239",
+        "PARA0243",
+        "PARA0246",
+        "PARA0251",
+        "PARA0254",
+        "PARA0255"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "PARA0020",
+        "PARA0021",
+        "PARA0022",
+        "PARA0023",
+        "PARA0025",
+        "PARA0191",
+        "PARA0197",
+        "PARA0201",
+        "PARA0203",
+        "PARA0205",
+        "PARA0221",
+        "PARA0231",
+        "PARA0232",
+        "PARA0233",
+        "PARA0234",
+        "PARA0235",
+        "PARA0237",
+        "PARA0239",
+        "PARA0244",
+        "PARA0246",
+        "PARA0247",
+        "LIST0001",
+        "HEAD0023",
+        "PARA0249",
+        "PARA0250"
+      ]
+    },
+    {
+      "section_id": "2.4.1",
+      "section_title": "Jeolojik ve Geoteknik İncelemeler",
+      "supporting_elements": [
+        "PARA0021",
+        "PARA0221",
+        "PARA0231",
+        "PARA0232",
+        "PARA0237",
+        "PARA0239",
+        "PARA0244",
+        "PARA0246",
+        "PARA0247",
+        "HEAD0023",
+        "PARA0249",
+        "PARA0250",
+        "PARA0253",
+        "TABLE0008",
+        "CAPT0001",
+        "PARA0259",
+        "PARA0289",
+        "PARA0303",
+        "PARA0317",
+        "PARA0328",
+        "PARA0343",
+        "PARA0353",
+        "PARA0384",
+        "FIG0007",
+        "FIG0008"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.8107,
+      "rule_score": 0.6364,
+      "embedding_score": 0.8044,
+      "chunk_vote": 0.2435
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.7198,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7942,
+      "chunk_vote": 0.0341
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.7107,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7867,
+      "chunk_vote": 0.0057
+    },
+    {
+      "id": "2.1",
+      "score": 0.3707,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1035
+    },
+    {
+      "id": "2.4",
+      "score": 0.3665,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1827
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3625,
+      "rule_score": 0.0,
+      "embedding_score": 0.8056,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3619,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0593
+    },
+    {
+      "id": "4.3",
+      "score": 0.3593,
+      "rule_score": 0.0,
+      "embedding_score": 0.7984,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3559,
+      "rule_score": 0.0,
+      "embedding_score": 0.7909,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.2.2",
+      "score": 0.3553,
+      "rule_score": 0.0,
+      "embedding_score": 0.7895,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "FAILED",
+  "arbiter_reason": "ValueError: local chat HTTP 400: {\n    \"error\": {\n        \"message\": \"Failed to load model \\\"qwen/qwen3.8-27b\\\". Error: Model loading was stopped due to insufficient system resources. Continuing to load the model would likely overload your system and cause it to freeze. If you think this is incorrect, you can adjust the model loading guardrails in settings.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": \"model\",\n        \"code\": null\n    }\n}",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.8107 gap=0.091 disagreement=True ",
+    "arbiter:FAILED"
+  ],
+  "warnings": [
+    "ARBITER_FAILED"
+  ],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

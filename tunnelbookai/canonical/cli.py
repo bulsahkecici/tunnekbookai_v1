@@ -35,7 +35,7 @@ def _print(payload: dict[str, Any], *, json_output: bool) -> None:
     if json_output:
         print(json.dumps(payload, ensure_ascii=False, indent=2))
         return
-    if "plan_id" in payload:
+    if "applicable" in payload:
         print(f"CANONICAL PROMOTION PLAN {payload['plan_id']}")
         print(f"Applicable: {payload.get('applicable')}")
         for row in payload.get("candidates", []):
@@ -46,6 +46,12 @@ def _print(payload: dict[str, Any], *, json_output: bool) -> None:
         if payload.get("plan_path"):
             print(f"Plan file: {payload['plan_path']}")
         print("DRY RUN — canonical, originals, processing, and staging were not changed.")
+        return
+    if "plan_id" in payload and "status" in payload:
+        print(f"CANONICAL PROMOTION APPLY {payload['status']}")
+        print(f"Plan: {payload['plan_id']}")
+        if payload.get("audit_path"):
+            print(f"Audit: {payload['audit_path']}")
         return
     print(json.dumps(payload, ensure_ascii=False, indent=2))
 

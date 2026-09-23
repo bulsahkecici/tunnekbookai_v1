@@ -1,0 +1,134 @@
+{
+  "final_primary_section": "2.1.2",
+  "final_secondary_sections": [
+    "2.1",
+    "2.2.1"
+  ],
+  "final_section_confidence": 0.85,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding",
+    "local_llm_arbiter"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1.2",
+      "section_title": "Tünel Destekleme Elemanları",
+      "supporting_elements": [
+        "FIG0043",
+        "FIG0095"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "FIG0042",
+        "FIG0043",
+        "FIG0046",
+        "FIG0075",
+        "FIG0078",
+        "FIG0095",
+        "FIG0136",
+        "FIG0168"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "FIG0075",
+        "FIG0078",
+        "FIG0136",
+        "FIG0168"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7944,
+      "rule_score": 0.6364,
+      "embedding_score": 0.8013,
+      "chunk_vote": 0.1692
+    },
+    {
+      "id": "2.1",
+      "score": 0.7355,
+      "rule_score": 0.6,
+      "embedding_score": 0.7901,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.6799,
+      "rule_score": 0.5,
+      "embedding_score": 0.7886,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.5883,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7889,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.4008,
+      "rule_score": 0.0,
+      "embedding_score": 0.8189,
+      "chunk_vote": 0.1615
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.3825,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.3846
+    },
+    {
+      "id": "3",
+      "score": 0.3719,
+      "rule_score": 0.0,
+      "embedding_score": 0.7888,
+      "chunk_vote": 0.0846
+    },
+    {
+      "id": "4.3",
+      "score": 0.3568,
+      "rule_score": 0.0,
+      "embedding_score": 0.7929,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "3.2",
+      "score": 0.3537,
+      "rule_score": 0.0,
+      "embedding_score": 0.786,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.2",
+      "score": 0.2919,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0846
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "SUCCESS",
+  "arbiter_reason": "Belge, NATM yöntemi, destek sistemleri, deformasyon ölçümleri ve yapım aşamasındaki jeoteknik çalışmalar gibi konuları detaylı olarak ele aldığı için 'Tünel Destekleme Elemanları' (2.1.2) ana bölüm olarak seçilmiştir. Ayrıca genel destek elemanları (2.1) ve kayaç zeminde açılan tüneller (2.2.1) ile de doğrudan ilişkilidir.",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.7944 gap=0.059 disagreement=True ",
+    "arbiter:SUCCESS"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

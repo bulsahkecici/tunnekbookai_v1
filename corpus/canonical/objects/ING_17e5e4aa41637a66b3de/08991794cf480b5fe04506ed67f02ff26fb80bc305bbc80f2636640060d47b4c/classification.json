@@ -1,0 +1,122 @@
+{
+  "final_primary_section": "2.4.3",
+  "final_secondary_sections": [
+    "5.4.2",
+    "5.4"
+  ],
+  "final_section_confidence": 0.666,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.4.3",
+      "section_title": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları",
+      "supporting_elements": [
+        "HEAD0020"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "LIST0109"
+      ]
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.4.3",
+      "score": 0.666,
+      "rule_score": 0.3333,
+      "embedding_score": 0.8046,
+      "chunk_vote": 0.3529
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.6643,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7889,
+      "chunk_vote": 0.1176
+    },
+    {
+      "id": "5.4",
+      "score": 0.5885,
+      "rule_score": 0.3333,
+      "embedding_score": 0.7892,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.3547,
+      "rule_score": 0.0,
+      "embedding_score": 0.7882,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3543,
+      "rule_score": 0.0,
+      "embedding_score": 0.7874,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3538,
+      "rule_score": 0.0,
+      "embedding_score": 0.7862,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3",
+      "score": 0.3533,
+      "rule_score": 0.0,
+      "embedding_score": 0.785,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.353,
+      "rule_score": 0.0,
+      "embedding_score": 0.7845,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.3056,
+      "rule_score": 0.5556,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "3",
+      "score": 0.2186,
+      "rule_score": 0.3333,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1765
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "FAILED",
+  "arbiter_reason": "ValueError: local chat HTTP 400: {\n    \"error\": {\n        \"message\": \"Failed to load model \\\"qwen/qwen3.8-27b\\\". Error: Model loading was stopped due to insufficient system resources. Continuing to load the model would likely overload your system and cause it to freeze. If you think this is incorrect, you can adjust the model loading guardrails in settings.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": \"model\",\n        \"code\": null\n    }\n}",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:9",
+    "embeddings:8",
+    "top=2.4.3:0.666 gap=0.002 disagreement=True ",
+    "arbiter:FAILED"
+  ],
+  "warnings": [
+    "ARBITER_FAILED"
+  ],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

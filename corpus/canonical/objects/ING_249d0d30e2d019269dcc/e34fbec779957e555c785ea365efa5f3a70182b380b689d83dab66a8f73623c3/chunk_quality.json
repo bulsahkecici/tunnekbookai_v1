@@ -1,0 +1,128 @@
+{
+  "document_id": "ING_249d0d30e2d019269dcc",
+  "status": "WARN",
+  "chunk_count": 39,
+  "chunks_by_type": {
+    "TEXT_CHUNK": 1,
+    "TABLE_CHUNK": 22,
+    "FIGURE_CHUNK": 4,
+    "OCR_CHUNK": 12
+  },
+  "token_stats": {
+    "min": 11,
+    "max": 1196,
+    "mean": 714.6,
+    "total": 27871
+  },
+  "policy": {
+    "chunk_schema_version": "1.0",
+    "chunk_policy_version": "structure-aware-v2",
+    "tokenizer": "unicode-lexical-v1",
+    "target_tokens": 850,
+    "min_tokens": 250,
+    "max_tokens": 1200,
+    "hard_max_tokens": 1500,
+    "overlap_tokens": 80
+  },
+  "deduplicated_chunks": [
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_8be7e00e92",
+      "chunk_type": "TABLE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_db6eec0f1b"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_3118009f71",
+      "chunk_type": "TABLE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_db6eec0f1b"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_330fd44b5c",
+      "chunk_type": "TABLE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_db6eec0f1b"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_b0eed25ac7",
+      "chunk_type": "TABLE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_db6eec0f1b"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_bafe0a4524",
+      "chunk_type": "TABLE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_db6eec0f1b"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_0ab4abd878",
+      "chunk_type": "TABLE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_db6eec0f1b"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_c2b944abd7",
+      "chunk_type": "TABLE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_db6eec0f1b"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_cf2468246d",
+      "chunk_type": "TABLE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_db6eec0f1b"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_b302861c22",
+      "chunk_type": "TABLE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_db6eec0f1b"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_34c8972886",
+      "chunk_type": "TABLE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_db6eec0f1b"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_40be513f2b",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_3c18189543"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_cf27616abb",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_8f5f0fa822"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_28d8def691",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_3c18189543"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_753fc171c1",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_3c18189543"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_776660201c",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_8f5f0fa822"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_f6c326e5ce",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_8f5f0fa822"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_5b5e6915a1",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_8f5f0fa822"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_a18f22878d",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_8f5f0fa822"
+    },
+    {
+      "chunk_id": "ING_249d0d30e2d019269dcc_CH_02fb4a6b4a",
+      "chunk_type": "FIGURE_CHUNK",
+      "duplicate_of": "ING_249d0d30e2d019269dcc_CH_8f5f0fa822"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "CHUNK_SHORT_STRUCTURAL:ING_249d0d30e2d019269dcc_CH_1ee021abcb:29"
+  ]
+}

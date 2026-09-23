@@ -1,0 +1,189 @@
+{
+  "final_primary_section": "4.3.5",
+  "final_secondary_sections": [
+    "4",
+    "4.1"
+  ],
+  "final_section_confidence": 0.8264,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "4.3.5",
+      "section_title": "Tünel Yaşam Döngü Maliyetleri",
+      "supporting_elements": [
+        "PARA0017",
+        "HEAD0008",
+        "PARA0022",
+        "PARA0023",
+        "PARA0073",
+        "PARA0075",
+        "PARA0124",
+        "PARA0233",
+        "PARA0312",
+        "LIST0161",
+        "LIST0173",
+        "LIST0187",
+        "LIST0191",
+        "LIST0194",
+        "LIST0196",
+        "LIST0204",
+        "LIST0226",
+        "LIST0227"
+      ]
+    },
+    {
+      "section_id": "4",
+      "section_title": "MALİYET KAVRAMI, ÖNEMİ VE ULAŞIM MALİYETLERİ",
+      "supporting_elements": [
+        "PARA0017",
+        "HEAD0008",
+        "PARA0022",
+        "PARA0023",
+        "PARA0040",
+        "PARA0073",
+        "PARA0075",
+        "PARA0124",
+        "PARA0233",
+        "PARA0239",
+        "PARA0247",
+        "PARA0312",
+        "LIST0160",
+        "LIST0161",
+        "LIST0162",
+        "LIST0170",
+        "LIST0173",
+        "LIST0177",
+        "LIST0187",
+        "LIST0191",
+        "LIST0194",
+        "LIST0196",
+        "LIST0197",
+        "LIST0198",
+        "LIST0199"
+      ]
+    },
+    {
+      "section_id": "4.1",
+      "section_title": "Maliyet Kavramı, Ulaşım Maliyetleri ve İlgili Tanımlar",
+      "supporting_elements": [
+        "PARA0017",
+        "HEAD0008",
+        "PARA0022",
+        "PARA0023",
+        "PARA0040",
+        "PARA0073",
+        "PARA0075",
+        "PARA0124",
+        "PARA0233",
+        "PARA0247",
+        "PARA0312",
+        "LIST0160",
+        "LIST0161",
+        "LIST0162",
+        "LIST0170",
+        "LIST0173",
+        "LIST0177",
+        "LIST0187",
+        "LIST0191",
+        "LIST0194",
+        "LIST0196",
+        "LIST0197",
+        "LIST0198",
+        "LIST0199",
+        "LIST0204"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "4.3.5",
+      "score": 0.8264,
+      "rule_score": 0.5556,
+      "embedding_score": 0.7963,
+      "chunk_vote": 0.5625
+    },
+    {
+      "id": "4",
+      "score": 0.8069,
+      "rule_score": 0.7143,
+      "embedding_score": 0.7701,
+      "chunk_vote": 0.0875
+    },
+    {
+      "id": "4.1",
+      "score": 0.6394,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7704,
+      "chunk_vote": 0.035
+    },
+    {
+      "id": "4.3",
+      "score": 0.349,
+      "rule_score": 0.0,
+      "embedding_score": 0.7755,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.3",
+      "score": 0.3401,
+      "rule_score": 0.0,
+      "embedding_score": 0.7558,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3398,
+      "rule_score": 0.0,
+      "embedding_score": 0.7551,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.3387,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0437
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3378,
+      "rule_score": 0.0,
+      "embedding_score": 0.7507,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7",
+      "score": 0.3372,
+      "rule_score": 0.0,
+      "embedding_score": 0.7493,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "FAILED",
+  "arbiter_reason": "ValueError: local chat HTTP 400: {\n    \"error\": {\n        \"message\": \"Failed to load model \\\"qwen/qwen3.8-27b\\\". Error: Model loading was stopped due to insufficient system resources. Continuing to load the model would likely overload your system and cause it to freeze. If you think this is incorrect, you can adjust the model loading guardrails in settings.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": \"model\",\n        \"code\": null\n    }\n}",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=4.3.5:0.8264 gap=0.020 disagreement=True ",
+    "arbiter:FAILED"
+  ],
+  "warnings": [
+    "ARBITER_FAILED"
+  ],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,58 @@
+{
+  "actor": "bulsahkecici",
+  "after": {},
+  "applied_candidates": [],
+  "approval": {
+    "kind": "EXACT_PLAN_ID",
+    "matched": true,
+    "value": "CCP_282db20c1ac99b98ca543b9ae803ece567460a5d994bb6fd1f292b5d4f90577e"
+  },
+  "before": {
+    "canonical_corpus_digest": "1fec0054249e8350c1ff300d5669a1ad914b1cd1ec48f3d85b1cc6e22da60660",
+    "chunk_count": 30926,
+    "document_count": 656,
+    "manifest_sha256": "e18161db024014485c9330aa03b8aa4ca00ef9eccd0c342fb26849ea21f85e8a",
+    "retrieval_ready_chunk_count": 30332,
+    "state": "READY"
+  },
+  "contract_version": "controlled-canonical-promotion-v1",
+  "error": {
+    "code": "STALE_CANONICAL_PROMOTION_PLAN",
+    "details": null,
+    "message": "promotion-relevant state changed after planning"
+  },
+  "finished_at": "2026-09-23T13:00:45+00:00",
+  "idempotent_candidates": [],
+  "plan_id": "CCP_282db20c1ac99b98ca543b9ae803ece567460a5d994bb6fd1f292b5d4f90577e",
+  "planned_candidates": [
+    "ING_04c57c21fdf18e5176f0",
+    "ING_161788a110d058683acf",
+    "ING_17e5e4aa41637a66b3de",
+    "ING_1fb6b71a35f819248daf",
+    "ING_2005c18d2148fb921826",
+    "ING_249d0d30e2d019269dcc",
+    "ING_290648f6f7fc8e05fe81",
+    "ING_312befcda2ff316b7279",
+    "ING_339e05e3358e01b537d8",
+    "ING_3fcd94bb525756ba52ca",
+    "ING_5f9b220f6592b0ab2b78",
+    "ING_674564f8c6d600238ac2",
+    "ING_686f2fed7a37fea40455",
+    "ING_746d18498e07a8a0f397",
+    "ING_752100774713db4bce1b",
+    "ING_784b14ff9e8444a97c6d",
+    "ING_7e795b9a47c89f5406c5",
+    "ING_7f177b472ed62ef80108",
+    "ING_a23b1e815eedc4a3c978",
+    "ING_abc6dcf8e707da2f77f6",
+    "ING_c736114ad7d9ac29557c",
+    "ING_cbf08cc5651cbc903a95",
+    "ING_f036fbe6cc100faef49c"
+  ],
+  "promotion_id": "CPA_20260923T130036Z_5d4f90577e_ac7408d2",
+  "rejected_candidates": [],
+  "replaced_candidates": [],
+  "result": "FAILED",
+  "schema_version": "1.0",
+  "started_at": "2026-09-23T13:00:36+00:00"
+}

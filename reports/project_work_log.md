@@ -869,3 +869,34 @@ ING_5f9b220f6592b0ab2b78|18|31531|0.0006
   plans/CCP_282db20c1ac99b98ca543b9ae803ece567460a5d994bb6fd1f292b5d4f90577e.json --approve
   CCP_282db20c1ac99b98ca543b9ae803ece567460a5d994bb6fd1f292b5d4f90577e` → sonra
   `build-index` (vektör yeniden kullanımı) → v2 ile tam `evidence-audit`.
+
+### 2026-09-23 — Canonical apply uygulandı (23 REPLACE); CLI'de yanıltıcı "DRY RUN" çıktı hatası bulundu ve düzeltildi
+
+- Amaç: kullanıcı onayı ("onaylıyorum") üzerine `canonical apply`'ı çalıştırmak.
+- İlk çağrı (insan-okunur çıktı, `--json` yok) `CANONICAL PROMOTION PLAN ... Applicable: None
+  ... DRY RUN — canonical, originals, processing, and staging were not changed.` yazdırdı —
+  hiçbir şey olmamış gibi görünüyordu. `--json` ile tekrar çağırınca `STALE_CANONICAL_
+  PROMOTION_PLAN` hatası alındı; bu kafa karıştırıcıydı.
+- İnceleme: apply audit dizininde (`audit/canonical_promotions/applies/`) İKİ kayıt vardı —
+  `CPA_...8afc841b` (13:00:06) `"result": "APPLIED", "replaced_candidates": 23,
+  "rejected_candidates": 0`; `CPA_...ac7408d2` (13:00:36, benim `--json` çağrım) doğru
+  şekilde STALE deyip reddetti çünkü plan zaten uygulanmıştı. **Birinci çağrı gerçekten
+  başarılı olmuş**, "DRY RUN" metni `tunnelbookai/canonical/cli.py`'deki `_print()`'in bir
+  hatasıydı: hem `plan` hem `apply`'ın başarı payload'ı `plan_id` anahtarı taşıyor, `_print`
+  yalnızca bu anahtara bakıp her ikisini de "DRY RUN" plan görünümüyle yazdırıyordu.
+  Gerçek risk: bir operatör bu çıktıya bakıp "uygulanmadı" sanıp tekrar denerdi (ki ikinci
+  deneme zaten doğru şekilde STALE ile reddedildi, ama farklı bir senaryoda — örn. tek
+  candidate'lı bir plan — yanlışlıkla çift uygulamaya real olmasa da kafa karıştırıcı sonuçlara yol açabilirdi).
+- Düzeltme: `_print()` artık plan görünümünü `"applicable" in payload` ile ayırt ediyor
+  (yalnızca `plan`'ın payload'ında bu alan var), apply sonucu için ayrı kısa bir
+  `CANONICAL PROMOTION APPLY <status>` satırı eklendi. `tests/canonical/` 30/30 test geçti.
+- **Gerçek sonuç (doğrulanmış, `CPA_...8afc841b.json`'dan):** 23/23 REPLACE, 0
+  rejected. `chunk_count` 30.926→30.942 (+16), `retrieval_ready_chunk_count`
+  30.332→30.441 (+109), `canonical_corpus_digest` 1fec0054→...5415ed6d, `state: READY`,
+  `retrieval_allowed: true`. 23 eski canonical nesne dizini artık `UNREFERENCED_
+  CANONICAL_OBJECT` uyarısıyla inert (beklenen REPLACE davranışı, bkz. commit 34baf7f).
+- Doğrulama: `canonical status` → `READY`/`ready: true`; apply audit kaydı `result:
+  APPLIED` doğrudan okunarak teyit edildi; `tests/canonical/` 30/30 geçti.
+- Sıradaki: `build-index` (vektör yeniden kullanımı) → v2 ile tam `evidence-audit`
+  (~628 soru). REVIEW'da kalan 2 belge (`ING_ef74fd1d060d31f37486`,
+  `ING_49577e05781c8bbe2d72`) ayrı bir karar konusu olarak bekliyor.

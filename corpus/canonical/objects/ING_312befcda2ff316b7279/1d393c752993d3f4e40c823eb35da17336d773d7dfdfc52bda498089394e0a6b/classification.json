@@ -1,0 +1,151 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "2.4.3",
+    "2.1"
+  ],
+  "final_section_confidence": 0.6865,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "HEAD1152",
+        "LIST0672",
+        "LIST0675",
+        "LIST0693",
+        "PARA2512",
+        "LIST1173"
+      ]
+    },
+    {
+      "section_id": "2.4.3",
+      "section_title": "Karayolları Genel Müdürlüğünde Tünel Projelendirilmesi Esasları",
+      "supporting_elements": [
+        "FIG0001",
+        "FIG0005",
+        "PARA0003",
+        "PARA0006",
+        "PARA0008",
+        "FIG0022",
+        "FIG0025",
+        "FIG0026",
+        "FIG0027",
+        "FIG0028",
+        "FIG0029",
+        "FIG0030",
+        "FIG0031",
+        "FIG0032",
+        "FIG0033",
+        "FIG0034",
+        "FIG0035",
+        "FIG0038",
+        "LIST0030",
+        "FIG0040",
+        "FIG0041",
+        "PARA0115",
+        "FIG0042",
+        "FIG0043",
+        "FIG0044"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.6865,
+      "rule_score": 0.5,
+      "embedding_score": 0.8034,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.6859,
+      "rule_score": 0.3333,
+      "embedding_score": 0.8007,
+      "chunk_vote": 0.4615
+    },
+    {
+      "id": "2.1",
+      "score": 0.5807,
+      "rule_score": 0.3333,
+      "embedding_score": 0.772,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.3496,
+      "rule_score": 0.0,
+      "embedding_score": 0.7769,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.4.1",
+      "score": 0.3487,
+      "rule_score": 0.0,
+      "embedding_score": 0.7749,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3",
+      "score": 0.3487,
+      "rule_score": 0.0,
+      "embedding_score": 0.7749,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.3",
+      "score": 0.3476,
+      "rule_score": 0.0,
+      "embedding_score": 0.7725,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.3",
+      "score": 0.3471,
+      "rule_score": 0.0,
+      "embedding_score": 0.7713,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.8",
+      "score": 0.2665,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1538
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "FAILED",
+  "arbiter_reason": "ValueError: local chat HTTP 400: {\n    \"error\": {\n        \"message\": \"Failed to load model \\\"qwen/qwen3.8-27b\\\". Error: Model loading was stopped due to insufficient system resources. Continuing to load the model would likely overload your system and cause it to freeze. If you think this is incorrect, you can adjust the model loading guardrails in settings.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": \"model\",\n        \"code\": null\n    }\n}",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.6865 gap=0.001 disagreement=False ",
+    "arbiter:FAILED"
+  ],
+  "warnings": [
+    "ARBITER_FAILED"
+  ],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

@@ -1,0 +1,180 @@
+{
+  "final_primary_section": "5",
+  "final_secondary_sections": [
+    "5.4",
+    "5.4.2"
+  ],
+  "final_section_confidence": 0.8404,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5",
+      "section_title": "TÜNEL BAKIM-ONARIM VE İŞLETME MALİYETLERİ",
+      "supporting_elements": [
+        "PARA0016",
+        "PARA0227",
+        "PARA0884",
+        "PARA0886",
+        "PARA0892",
+        "PARA0895",
+        "PARA0899",
+        "PARA0901",
+        "PARA0906",
+        "PARA0911",
+        "PARA0918",
+        "PARA0920",
+        "PARA0926",
+        "PARA0932",
+        "PARA0934",
+        "PARA0938",
+        "PARA0941",
+        "PARA0943",
+        "PARA0946",
+        "PARA0949",
+        "PARA0951",
+        "PARA0957",
+        "PARA0959",
+        "LIST0106",
+        "HEAD0078"
+      ]
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": [
+        "LIST0095",
+        "FIG0114",
+        "HEAD0325",
+        "LIST0757",
+        "LIST1051",
+        "LIST1078",
+        "LIST1082",
+        "LIST1129",
+        "LIST1134"
+      ]
+    },
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "LIST0020",
+        "LIST0021",
+        "LIST0022",
+        "LIST0023",
+        "LIST0027",
+        "LIST0038",
+        "PARA0076",
+        "PARA0077",
+        "PARA0085",
+        "PARA0086",
+        "PARA0087",
+        "PARA0088",
+        "PARA0089",
+        "PARA0097",
+        "PARA0101",
+        "PARA0102",
+        "PARA0104",
+        "PARA0112",
+        "PARA0116",
+        "PARA0118",
+        "PARA0129",
+        "PARA0149",
+        "PARA0151",
+        "PARA0180",
+        "PARA0181"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5",
+      "score": 0.8404,
+      "rule_score": 0.75,
+      "embedding_score": 0.7815,
+      "chunk_vote": 0.1309
+    },
+    {
+      "id": "5.4",
+      "score": 0.8269,
+      "rule_score": 0.7143,
+      "embedding_score": 0.7953,
+      "chunk_vote": 0.1309
+    },
+    {
+      "id": "5.4.2",
+      "score": 0.8003,
+      "rule_score": 0.6364,
+      "embedding_score": 0.8194,
+      "chunk_vote": 0.1578
+    },
+    {
+      "id": "1.5",
+      "score": 0.3667,
+      "rule_score": 0.6667,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.5.2.2",
+      "score": 0.3645,
+      "rule_score": 0.0,
+      "embedding_score": 0.81,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3",
+      "score": 0.3617,
+      "rule_score": 0.0,
+      "embedding_score": 0.8038,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.359,
+      "rule_score": 0.0,
+      "embedding_score": 0.7977,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.358,
+      "rule_score": 0.0,
+      "embedding_score": 0.7955,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "1.1",
+      "score": 0.3562,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1309
+    },
+    {
+      "id": "6.3",
+      "score": 0.3537,
+      "rule_score": 0.0,
+      "embedding_score": 0.7859,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "FAILED",
+  "arbiter_reason": "ValueError: local chat HTTP 400: {\n    \"error\": {\n        \"message\": \"Failed to load model \\\"qwen/qwen3.8-27b\\\". Error: Model loading was stopped due to insufficient system resources. Continuing to load the model would likely overload your system and cause it to freeze. If you think this is incorrect, you can adjust the model loading guardrails in settings.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": \"model\",\n        \"code\": null\n    }\n}",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=5:0.8404 gap=0.014 disagreement=True ",
+    "arbiter:FAILED"
+  ],
+  "warnings": [
+    "ARBITER_FAILED"
+  ],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

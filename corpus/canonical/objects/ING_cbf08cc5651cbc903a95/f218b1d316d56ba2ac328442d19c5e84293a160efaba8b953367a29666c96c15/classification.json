@@ -1,0 +1,191 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "2.1",
+    "2.2",
+    "2.2.1"
+  ],
+  "final_section_confidence": 0.8554,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0009",
+        "PARA0016",
+        "PARA0026",
+        "HEAD0011",
+        "PARA0030",
+        "PARA0031",
+        "FIG0006",
+        "CAPT0006",
+        "FIG0007",
+        "CAPT0007",
+        "LIST0010",
+        "PARA0036",
+        "HEAD0014",
+        "PARA0041",
+        "FIG0011",
+        "CAPT0011",
+        "FIG0012",
+        "CAPT0012",
+        "PARA0043",
+        "PARA0045",
+        "FIG0013",
+        "CAPT0013",
+        "PARA0075",
+        "HEAD0021",
+        "FIG0052"
+      ]
+    },
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "HEAD0023",
+        "FIG0037",
+        "FIG0048",
+        "FIG0049",
+        "FIG0052",
+        "LIST0051",
+        "LIST0057",
+        "LIST0067"
+      ]
+    },
+    {
+      "section_id": "2.2",
+      "section_title": "Tünel Yapım Yöntemleri",
+      "supporting_elements": [
+        "PARA0009",
+        "PARA0016",
+        "PARA0026",
+        "HEAD0011",
+        "PARA0030",
+        "PARA0031",
+        "FIG0006",
+        "CAPT0006",
+        "FIG0007",
+        "CAPT0007",
+        "LIST0010",
+        "PARA0036",
+        "HEAD0014",
+        "PARA0041",
+        "FIG0011",
+        "CAPT0011",
+        "FIG0012",
+        "CAPT0012",
+        "PARA0043",
+        "PARA0045",
+        "FIG0013",
+        "CAPT0013",
+        "PARA0075",
+        "HEAD0021",
+        "LIST0066"
+      ]
+    },
+    {
+      "section_id": "2.2.1",
+      "section_title": "Kayaç Zeminde Açılan Tüneller",
+      "supporting_elements": [
+        "FIG0048",
+        "FIG0049",
+        "LIST0051",
+        "LIST0052",
+        "LIST0054"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.8554,
+      "rule_score": 0.6,
+      "embedding_score": 0.8321,
+      "chunk_vote": 0.5048
+    },
+    {
+      "id": "2.1",
+      "score": 0.8183,
+      "rule_score": 0.6923,
+      "embedding_score": 0.8131,
+      "chunk_vote": 0.1082
+    },
+    {
+      "id": "2.2",
+      "score": 0.7426,
+      "rule_score": 0.5,
+      "embedding_score": 0.8233,
+      "chunk_vote": 0.2356
+    },
+    {
+      "id": "2.2.1",
+      "score": 0.6034,
+      "rule_score": 0.3333,
+      "embedding_score": 0.8223,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3",
+      "score": 0.3708,
+      "rule_score": 0.0,
+      "embedding_score": 0.8241,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3623,
+      "rule_score": 0.0,
+      "embedding_score": 0.8051,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.3",
+      "score": 0.3615,
+      "rule_score": 0.0,
+      "embedding_score": 0.8033,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3609,
+      "rule_score": 0.0,
+      "embedding_score": 0.8021,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.2357,
+      "rule_score": 0.4286,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "FAILED",
+  "arbiter_reason": "ValueError: local chat HTTP 400: {\n    \"error\": {\n        \"message\": \"Failed to load model \\\"qwen/qwen3.8-27b\\\". Error: Model loading was stopped due to insufficient system resources. Continuing to load the model would likely overload your system and cause it to freeze. If you think this is incorrect, you can adjust the model loading guardrails in settings.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": \"model\",\n        \"code\": null\n    }\n}",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2:0.8554 gap=0.037 disagreement=True ",
+    "arbiter:FAILED"
+  ],
+  "warnings": [
+    "ARBITER_FAILED"
+  ],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

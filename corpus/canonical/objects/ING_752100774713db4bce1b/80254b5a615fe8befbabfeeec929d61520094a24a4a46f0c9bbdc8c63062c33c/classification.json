@@ -1,0 +1,116 @@
+{
+  "final_primary_section": "2",
+  "final_secondary_sections": [
+    "2.4.2.1"
+  ],
+  "final_section_confidence": 0.7531,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "LIST0073"
+      ]
+    },
+    {
+      "section_id": "2.4.2.1",
+      "section_title": "Güzergah Seçiminde Dikkat Edilecek Hususlar",
+      "supporting_elements": [
+        "LIST0035"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2",
+      "score": 0.7531,
+      "rule_score": 0.5,
+      "embedding_score": 0.8031,
+      "chunk_vote": 0.3333
+    },
+    {
+      "id": "2.4.2.1",
+      "score": 0.678,
+      "rule_score": 0.4286,
+      "embedding_score": 0.7976,
+      "chunk_vote": 0.1667
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3681,
+      "rule_score": 0.0,
+      "embedding_score": 0.818,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.3",
+      "score": 0.3639,
+      "rule_score": 0.0,
+      "embedding_score": 0.8086,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3",
+      "score": 0.3618,
+      "rule_score": 0.0,
+      "embedding_score": 0.804,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3614,
+      "rule_score": 0.0,
+      "embedding_score": 0.8032,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "7.2",
+      "score": 0.3607,
+      "rule_score": 0.0,
+      "embedding_score": 0.8015,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6",
+      "score": 0.3596,
+      "rule_score": 0.0,
+      "embedding_score": 0.799,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "FAILED",
+  "arbiter_reason": "ValueError: local chat HTTP 400: {\n    \"error\": {\n        \"message\": \"Failed to load model \\\"qwen/qwen3.8-27b\\\". Error: Model loading was stopped due to insufficient system resources. Continuing to load the model would likely overload your system and cause it to freeze. If you think this is incorrect, you can adjust the model loading guardrails in settings.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": \"model\",\n        \"code\": null\n    }\n}",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:12",
+    "embeddings:8",
+    "top=2:0.7531 gap=0.075 disagreement=True ",
+    "arbiter:FAILED"
+  ],
+  "warnings": [
+    "ARBITER_FAILED"
+  ],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

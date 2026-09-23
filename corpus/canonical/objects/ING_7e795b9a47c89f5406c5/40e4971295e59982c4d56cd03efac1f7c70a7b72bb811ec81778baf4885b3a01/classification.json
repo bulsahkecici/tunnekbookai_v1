@@ -1,0 +1,140 @@
+{
+  "final_primary_section": "2.1",
+  "final_secondary_sections": [
+    "2"
+  ],
+  "final_section_confidence": 0.7567,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "2.1",
+      "section_title": "Tünel Yapı/Destek Elemanları",
+      "supporting_elements": [
+        "PARA1565"
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "TÜNEL ANA ELEMANLARI, ANA ÖZELLİKLERİ VE YAPIM TEKNİKLERİ",
+      "supporting_elements": [
+        "PARA0240",
+        "PARA0241",
+        "PARA0242",
+        "PARA0283",
+        "PARA0287",
+        "PARA0288",
+        "PARA0290",
+        "PARA0292",
+        "PARA0293",
+        "PARA0300",
+        "PARA0306",
+        "PARA0349",
+        "PARA0350",
+        "LIST0130",
+        "PARA0600",
+        "HEAD0029",
+        "PARA0618",
+        "PARA0619",
+        "PARA0620",
+        "PARA0621",
+        "PARA0622",
+        "PARA0625",
+        "PARA0626",
+        "PARA0627",
+        "PARA0628"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2.1",
+      "score": 0.7567,
+      "rule_score": 0.6364,
+      "embedding_score": 0.7927,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.7488,
+      "rule_score": 0.5556,
+      "embedding_score": 0.791,
+      "chunk_vote": 0.1863
+    },
+    {
+      "id": "2.1.1",
+      "score": 0.4026,
+      "rule_score": 0.6364,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.2627
+    },
+    {
+      "id": "2.2",
+      "score": 0.3673,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.1863
+    },
+    {
+      "id": "4.3",
+      "score": 0.3641,
+      "rule_score": 0.0,
+      "embedding_score": 0.809,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "6.3",
+      "score": 0.3598,
+      "rule_score": 0.0,
+      "embedding_score": 0.7995,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1",
+      "score": 0.3534,
+      "rule_score": 0.0,
+      "embedding_score": 0.7854,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.1.2",
+      "score": 0.3523,
+      "rule_score": 0.0,
+      "embedding_score": 0.7829,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.3519,
+      "rule_score": 0.0,
+      "embedding_score": 0.7821,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.1.2",
+      "score": 0.3497,
+      "rule_score": 0.0,
+      "embedding_score": 0.7772,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "FAILED",
+  "arbiter_reason": "ValueError: local chat HTTP 400: {\n    \"error\": {\n        \"message\": \"Failed to load model \\\"qwen/qwen3.8-27b\\\". Error: Model loading was stopped due to insufficient system resources. Continuing to load the model would likely overload your system and cause it to freeze. If you think this is incorrect, you can adjust the model loading guardrails in settings.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": \"model\",\n        \"code\": null\n    }\n}",
+  "arbiter_model": "qwen/qwen3.8-27b",
+  "decision_path": [
+    "rules:8",
+    "chunk_votes:24",
+    "embeddings:8",
+    "top=2.1:0.7567 gap=0.008 disagreement=True ",
+    "arbiter:FAILED"
+  ],
+  "warnings": [
+    "ARBITER_FAILED"
+  ],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}

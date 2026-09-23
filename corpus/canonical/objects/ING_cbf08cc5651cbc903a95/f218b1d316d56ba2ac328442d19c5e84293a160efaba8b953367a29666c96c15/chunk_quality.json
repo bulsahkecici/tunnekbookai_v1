@@ -1,0 +1,29 @@
+{
+  "document_id": "ING_cbf08cc5651cbc903a95",
+  "status": "PASS",
+  "chunk_count": 78,
+  "chunks_by_type": {
+    "TEXT_CHUNK": 16,
+    "TABLE_CHUNK": 9,
+    "FIGURE_CHUNK": 53
+  },
+  "token_stats": {
+    "min": 7,
+    "max": 854,
+    "mean": 154.0,
+    "total": 12014
+  },
+  "policy": {
+    "chunk_schema_version": "1.0",
+    "chunk_policy_version": "structure-aware-v2",
+    "tokenizer": "unicode-lexical-v1",
+    "target_tokens": 850,
+    "min_tokens": 250,
+    "max_tokens": 1200,
+    "hard_max_tokens": 1500,
+    "overlap_tokens": 80
+  },
+  "deduplicated_chunks": [],
+  "errors": [],
+  "warnings": []
+}

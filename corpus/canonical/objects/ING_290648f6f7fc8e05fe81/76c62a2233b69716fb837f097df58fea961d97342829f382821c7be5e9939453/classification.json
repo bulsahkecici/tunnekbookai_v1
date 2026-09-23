@@ -1,0 +1,118 @@
+{
+  "final_primary_section": "5.4.2",
+  "final_secondary_sections": [
+    "5.4",
+    "5.7"
+  ],
+  "final_section_confidence": 0.8505,
+  "classification_methods": [
+    "heading_rules",
+    "chunk_vote",
+    "embedding"
+  ],
+  "section_evidence": [
+    {
+      "section_id": "5.4.2",
+      "section_title": "Elektrik-Elektronik ve Elektromekanik Sistemlerin Bakımı",
+      "supporting_elements": [
+        "PARA0002"
+      ]
+    },
+    {
+      "section_id": "5.4",
+      "section_title": "Tünel Bakım-Onarım ve İşletme",
+      "supporting_elements": []
+    },
+    {
+      "section_id": "5.7",
+      "section_title": "Tünelde Verimli Bakım-İşletme ve Enerji Tüketimi",
+      "supporting_elements": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5.4.2",
+      "score": 0.8505,
+      "rule_score": 0.4286,
+      "embedding_score": 0.8106,
+      "chunk_vote": 1.0
+    },
+    {
+      "id": "5.4",
+      "score": 0.6884,
+      "rule_score": 0.5,
+      "embedding_score": 0.8075,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7",
+      "score": 0.5993,
+      "rule_score": 0.3333,
+      "embedding_score": 0.8134,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4.3",
+      "score": 0.365,
+      "rule_score": 0.0,
+      "embedding_score": 0.811,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "4.3",
+      "score": 0.3635,
+      "rule_score": 0.0,
+      "embedding_score": 0.8078,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2",
+      "score": 0.3624,
+      "rule_score": 0.0,
+      "embedding_score": 0.8053,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.7.2",
+      "score": 0.3621,
+      "rule_score": 0.0,
+      "embedding_score": 0.8047,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "2.4",
+      "score": 0.3607,
+      "rule_score": 0.0,
+      "embedding_score": 0.8016,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5.6",
+      "score": 0.33,
+      "rule_score": 0.6,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    },
+    {
+      "id": "5",
+      "score": 0.275,
+      "rule_score": 0.5,
+      "embedding_score": 0.0,
+      "chunk_vote": 0.0
+    }
+  ],
+  "embedding_status": "AVAILABLE",
+  "embedding_model": "text-embedding-baai-bge-m3-568m",
+  "arbiter_status": "NOT_RUN",
+  "arbiter_reason": null,
+  "arbiter_model": null,
+  "decision_path": [
+    "rules:7",
+    "chunk_votes:7",
+    "embeddings:8",
+    "top=5.4.2:0.8505 gap=0.162 disagreement=True ",
+    "arbiter:not_needed_strong_agreement"
+  ],
+  "warnings": [],
+  "taxonomy_source": "book/scope/normalized/book_scope.json"
+}
